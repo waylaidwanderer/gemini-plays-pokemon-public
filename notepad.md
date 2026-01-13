@@ -91,6 +91,5 @@
 - **Expectation:** This will open a list of Types to choose from.
 - **Action:** Closing Option Menu ('B'), then opening Search Menu ('Start').
 - **Reasoning:** Screen confirms Option Menu is open. Search is accessed via 'Start' from the main list.
-- **Action:** Opening Pokedex and accessing Option Menu via 'Select'.
-- **Sequence:** Start -> Up x5 (Force Pokedex) -> A -> Select.
-- **Reasoning:** Ensure Pokedex is open from Overworld, then trigger Search options.
+- **Action:** Navigating from 'GEAR' to 'POKEDEX' (Up x3) -> Open (A) -> Open Mode Menu (Select).
+- **Correction:** Cursor was on GEAR, not POKEDEX. Adjusted input sequence.
