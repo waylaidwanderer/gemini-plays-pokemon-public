@@ -12,12 +12,11 @@
 # Menu Mechanics
 - Start Menu Order: 1.POKEDEX, 2.POKEMON, 3.PACK, 4.POKEGEAR, 5.GEM, 6.SAVE, 7.OPTION, 8.EXIT.
 - Persistence: The Start menu cursor persists on the last selected category even after overworld movement and map transitions.
-- Fly Map (Hypothesis): The cursor persists on the last highlighted destination. [Verification Needed]
 
 # Legendary Roamer Hunt Strategy
 - Overview: Ecruteak Shuffle (Route 37 <-> Ecruteak).
 - Repel Trick: Lv 19 lead (ICARUS) with Super Repel active.
-- Repel Status: Re-applied at Turn 45316.
+- Repel Status: Applied at Turn 45316.
 - Encounter Contingency: If Roamer appears -> PACK -> Right to BALLS -> MASTER BALL -> USE.
 - Roamer Status: NOT YET ENCOUNTERED. Use Master Ball on sight.
 
@@ -25,7 +24,7 @@
 - Session 4 (Ecruteak Shuffle) Start: Turn 45281.
 - Shuffles Completed: 4.
 - Total Encounters: 0.
-- Repel Status: Re-applied at Turn 45316. Active (~126/200 steps).
+- Repel Status: Applied Turn 45316. ~126 steps used.
 
 # Strategy Tools
 - roamer_strategist: Agent for hunt efficiency.
@@ -40,6 +39,7 @@
 - Method: Transition maps, pace ~10 steps in Route 37 tall grass, repeat.
 - Lead: ICARUS (Lv 19).
 
-# Current Shuffle: 4
-- Status: Pacing in grass at (14, 12).
-- Repel Steps Used (Approx): 30/200.
+# Dana's Gift
+- NPC: Lass Dana.
+- Location: Route 38.
+- Status: Gift waiting (Turn 45331 call).
