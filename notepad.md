@@ -63,3 +63,4 @@
 - **Immediate Goal:** Navigate to Violet City West Exit (0, 8).
 - **Action:** Transitioned to Route 36.
 - **Strategy:** Opening menu to check Pokegear Map. If Roamers are present, hunt. If not, continue to Route 37/Ecruteak.
+- **Action:** Pressing 'A' twice to force Full Map view from Pokegear menu.
