@@ -1,12 +1,12 @@
+# Tile Mechanics
+- **Warp Carpets:** To trigger a warp (e.g., Gatehouse entrance), you must walk 'off' the map edge or into the wall while standing on the warp tile. Simply stepping onto the tile is not enough.
+
 # Roamer Hunt Strategy
-- **Current Plan:** Shuffle Roamers between Route 31 & Gatehouse.
-- **Status:** Exiting Gatehouse.
-- **Action:** Immediate U-turn (Right x2).
-- **Strategy:** Toggle Route 31 <-> Gatehouse. Check Map ONLY on Route 31.
-- **Observation:** Route 31 warp area is safe (no grass), so Repels are unnecessary for shuffling.
-- **Method:** Use Pokegear Map (reliable) instead of Pokedex Area Mode.
+- **Goal:** Catch Raikou & Entei.
+- **Method:** Shuffle Roamers by toggling between Route 31 & Gatehouse. Check Map ONLY on Route 31.
+- **Constraint:** Lugia (Lv60) lead means NO Repels.
 - **Resources:** 16 Repels.
-- **Session Start:** Turn 36369. Current: 36900.
+- **Session Start:** Turn 36369. Current: 37111.
 
 # Lessons Learned
 - **Roamer Movement:** Gatehouse transitions (e.g. Rt 35) do NOT shuffle roamers. Map-to-Map (Route to City) transitions DO shuffle.
@@ -31,11 +31,3 @@
 - **Azalea Town** -> Up -> **Goldenrod City**
 - **Goldenrod City** -> Up -> **Olivine City**
 - **Olivine City** -> Down -> **Ecruteak City** [Confirmed]
-- **Action:** Switch Lugia to Lead (Slot 1) for speed advantage against Roamers.
-- **Missing:** Mean Look/Spider Web trapper. Strategy is "Chip and Chase" with Lugia.
-- **Observation:** Entering Route 31 Gatehouse.
-- **Hypothesis:** Entering the Gatehouse (Map 10_X) from Violet City (Map 10_5) does NOT shuffle roamers (or counts as a safe transition).
-- **Test:** Check roamer position after entering Gatehouse.
-- **Constraint:** Lugia (Lv60) prevents Repel usage (blocks Lv40 Roamers). Must endure wild encounters or switch to Lv39- lead (Gyarados Lv36) for Repel trick, but risk outspeed/flee.
-- **Current Choice:** Using Lugia (Speed) + No Repel.
-- **Violet City** -> Right -> **Route 31** [Confirmed]
