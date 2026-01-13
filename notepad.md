@@ -2,8 +2,8 @@
 - **Strategy**: Ecruteak Shuffle. Transition between Route 37 and Ecruteak City to force roamer movement, then pace in grass.
 - **Repel Trick**: Lead ICARUS (Lv 19 Pidgeotto). Wild levels on Route 37/38 are 13-16. Roamers are Lv 40.
 - **Repel Status**: Applied Turn 44664 (200 steps).
-  - Steps taken: 150
-  - Steps remaining: 50
+  - Steps taken: 148
+  - Steps remaining: 52
 - **Capture Strategy**: Use Master Ball immediately on first roamer encounter.
 - **Roamer Tracking**:
   - Route 37: Active hunting.
