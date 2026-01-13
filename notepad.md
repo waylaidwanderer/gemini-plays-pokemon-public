@@ -25,9 +25,12 @@
 
 # Tracking: Session 4
 - Start: Turn 45281.
-- Repel Status: NOT active. Encountered wild Pidgey.
+- Repel Tracking:
+  - Repel 1: Applied 45439, Wore off 45614 (175 turns).
+  - Repel 2: Applying...
 - Completed Cycles: 15.
-- Current Status: Main menu open. Navigating to SUPER REPEL in PACK.
+- Current Status: Start Menu open. Entering PACK for Super Repel.
+- Turn Count: Trusting Game State #45625.
 
 # Quest Log
 - Dana's Gift: Route 38 (Waiting).
