@@ -32,5 +32,4 @@
 - **Observation:** Walked ~20 steps on Route 38 with Repel (Lv36 Lead) and found nothing. Assuming Roamers are not present. Shuffling.
 - **Observation:** Roamers confirmed on Route 42 and 44 (East). Shuffling again.
 - **Event:** Received phone call from Cooltrainer Gaven (Turn 36326).
-- **Resupply Plan:** Ecruteak Mart failed. Flying to Goldenrod Dept Store to buy ~30 Super Repels. Funds: ¥2644.
-- **Correction:** Pokegear Map is for viewing ONLY. Must use FLY from Pokemon Party menu. Mistral (Slot 4) has Fly.
+- **Resupply Plan:** Flying to Goldenrod Dept Store to buy ~30 Super Repels. Funds: ¥2644.
