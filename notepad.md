@@ -48,8 +48,11 @@
 4. Fly back to Ecruteak City.
 5. Resume legendary hunt on Route 37 using the 'grass_pacer' tool.
 
-# Fly Strategy (Paused)
-- Note: Fly map navigation failed 15 times (Turn 44260-44320). Pivot to biking confirmed.
+# Fly Strategy (Active)
+- Attempting to Fly to Goldenrod City.
+- Sequence: Start -> Down (Pokemon) -> A -> A (Icarus) -> A (Fly).
+- Once on the Fly map, navigate to Goldenrod City.
+- If Fly fails, resume biking West.
 
 # Lessons Learned
 - Precise menu navigation is critical; verify menu state after every 1-2 inputs.
