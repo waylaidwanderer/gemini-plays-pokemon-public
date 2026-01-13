@@ -233,7 +233,7 @@
         "pacing_reps"
       ]
     },
-    "python_script": "import json\nreps = int(input_data.get('pacing_reps', 5))\n# Sequence from Ecruteak (17, 35) to Route 37 (7, 3) and back\n# 1. Down to (17,36), 2. Down to (7,0) [Warp], 3-5. Down*3 to (7,3)\nbuttons = [\"Down\", \"Down\", \"sleep 500\", \"Down\", \"Down\", \"Down\"]\nfor _ in range(reps):\n    buttons.extend([\"Left\", \"Right\"])\n# 6-8. Up*3 to (7,0), 9. Up to (17,36) [Warp], 10. Up to (17,35)\nbuttons.extend([\"Up\", \"Up\", \"Up\", \"Up\", \"sleep 500\", \"Up\"])\nprint(json.dumps(buttons))",
+    "python_script": "import json\nreps = int(input_data.get('pacing_reps', 5))\n# Start at Ecruteak (17, 35)\n# 1-2. Down to Warp (17,36) and enter R37 (7,0)\nbuttons = [\"Down\", \"Down\"]\n# 3-5. Down to grass (7,3)\nbuttons.extend([\"Down\", \"Down\", \"Down\"])\n# 6. Pacing\nfor _ in range(reps):\n    buttons.extend([\"Left\", \"Right\"])\n# 7-10. Up to Warp (7,0) and enter Ecruteak (17,36)\nbuttons.extend([\"Up\", \"Up\", \"Up\", \"Up\"])\n# 11. Up to (17,35)\nbuttons.append(\"Up\")\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -244,6 +244,11 @@
         "commit_message": "Refined roamer_shuffler to perform a full Ecruteak-Route 37 loop.",
         "timestamp": "2026-01-13T04:48:44.676Z",
         "action_counter": 44839
+      },
+      {
+        "commit_message": "Removed sleeps and optimized loop for roamer_shuffler.",
+        "timestamp": "2026-01-13T04:51:14.930Z",
+        "action_counter": 44842
       }
     ]
   }
