@@ -18,8 +18,8 @@
 - **Start Turn:** 37586
 - **Location:** Route 37 (7, 2)
 - **Goal:** Register in Pokedex -> Track on Map.
-- **Status:** Attempt 18 (Paused - Renewing Repel).
+- **Status:** Attempt 18 (Paused - In Pack).
 - **Strategy:** Repel Shuffle (Route 37 <-> Ecruteak).
   - Gyarados (Lv 36) + Repel blocks wilds, allows Roamers (Lv 40).
   - **New Tactic:** Walk ~20 steps in grass per attempt.
-- **Progress:** Repel expired. Renewing to finish Attempt 18.
+- **Progress:** Repel expired. Entering Pack to renew.
