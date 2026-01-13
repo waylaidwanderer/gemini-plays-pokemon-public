@@ -68,6 +68,7 @@
 
 # Failed Hypotheses & Attempts
 - Menu Navigation (Turns 44528-44556): Multiple failed attempts to apply Super Repel due to cursor memory. Switched to a "reset and move" strategy. Attempted sequences like [Start, Up x7, Down x2, A] which landed in Pokedex instead of Pack. Current hypothesis: Main menu cursor is now on POKEDEX (Index 0).
+- Turn 44558: 'menu_navigator_v2' failed (57 buttons) due to safety limit. Splitting navigation into smaller chunks. Attempt count for Repel application: 6.
 
 # Tool Usage Lessons
 - Turn 44558: 'menu_navigator_v2' failed due to 50-button safety limit. Break deep menu navigation into smaller chunks (e.g., 15-20 buttons per turn).
