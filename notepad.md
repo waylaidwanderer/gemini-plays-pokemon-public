@@ -32,4 +32,4 @@
 - **Observation:** Walked ~20 steps on Route 38 with Repel (Lv36 Lead) and found nothing. Assuming Roamers are not present. Shuffling.
 - **Observation:** Roamers confirmed on Route 42 and 44 (East). Shuffling again.
 - **Event:** Received phone call from Cooltrainer Gaven (Turn 36326).
-- **Resupply Plan:** Transaction in progress. Selling 4 Hyper Potions to buy max Super Repels. Target: Ecruteak Mart.
+- **Resupply Plan:** Sale complete. Funds: ¥2644. Buying 5 Super Repels.
