@@ -18,3 +18,4 @@
     - Cherrygrove -> Violet
     - Azalea -> Goldenrod -> Olivine -> Ecruteak
 - **Warp Carpets:** Step OFF then ON to trigger.
+- **Roamer Check (Turn 37224):** Not on Route 31. Shuffling (Route 31 -> Violet).
