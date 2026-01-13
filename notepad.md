@@ -38,3 +38,4 @@
 - **Observation:** Fly attempt 'Left -> Up -> Left' from New Bark cursor landed in Cherrygrove.
 - **Strategy:** Opening Fly map and moving cursor 'Up' from Cherrygrove to verify destination text before confirming.
 - **Strategy:** Opening Fly map and pausing to visually confirm the default cursor position before navigating.
+- **Verification:** Resetting UI state with 'B, B, B' to ensure clean menu navigation.
