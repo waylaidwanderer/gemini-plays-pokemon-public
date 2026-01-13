@@ -58,3 +58,6 @@
 - **Navigation:** Executing Fly path: New Bark -> Left (Cherrygrove) -> Left (Azalea) -> Up (Goldenrod) -> Up (Olivine) -> Down (Ecruteak).
 - **Navigation:** Retrying Fly path from Cherrygrove with longer delays: Left (Azalea) -> Up (Goldenrod) -> Up (Olivine) -> Down (Ecruteak).
 - **Navigation:** From Violet City: Down (Cherrygrove) -> Left (Azalea) -> Up (Goldenrod) -> Up (Olivine) -> Down (Ecruteak).
+- **Observation:** Fly attempt failed (landed in Violet City). Suspect input timing or grid misalignment.
+- **Strategy Change:** Abandoning Fly for now. Walking to Ecruteak via Route 36 -> Route 37.
+- **Immediate Goal:** Navigate to Violet City West Exit (0, 8).
