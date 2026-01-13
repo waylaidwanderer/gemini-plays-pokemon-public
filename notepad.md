@@ -12,18 +12,18 @@
 # Menu Mechanics
 - Start Menu Order: 1.POKEDEX, 2.POKEMON, 3.PACK, 4.POKEGEAR, 5.GEM, 6.SAVE, 7.OPTION, 8.EXIT.
 - Persistence: The Start menu cursor persists on the last selected category even after overworld movement and map transitions.
-- Fly Map: The cursor persists on the last highlighted destination. From New Bark Town, Ecruteak is Left (Cherrygrove) -> Up (Violet) -> Up (Ecruteak).
+- Fly Map (Hypothesis): The cursor persists on the last highlighted destination. [Verification Needed]
 
 # Legendary Roamer Hunt Strategy
 - Overview: Ecruteak Shuffle (Route 37 <-> Ecruteak).
 - Repel Trick: Lv 19 lead (ICARUS) with Super Repel active.
-- Status: Super Repel Active (Used Turn 45288, 162 steps remaining).
+- Status: Super Repel Active (Used Turn 45288).
+- Encounter Contingency: If Roamer appears -> PACK -> Right to BALLS -> MASTER BALL -> USE.
 - Roamer Status: NOT YET ENCOUNTERED. Use Master Ball on sight.
 
 # Strategy Tools
 - roamer_strategist: Agent for hunt efficiency.
 - grass_pacer: Tool for wild encounter pacing.
-- open_fly_map: Tool for FLY navigation.
 
 # Pokemon Info
 - Party: ICARUS (19), Calcifer (64), KIMCHI (52), GNEISS (55), GORP (50), XENON (44).
@@ -32,6 +32,4 @@
 # Strategy: Ecruteak Shuffle
 - Path: Ecruteak City <-> Route 37.
 - Method: Transition maps, pace ~10 steps in Route 37 tall grass, repeat.
-- Current Status: Session 4. Shuffle 2: Heading to Ecruteak.
-- Repel: Super Repel Active (Used Turn 45288, ~160 steps left).
 - Lead: ICARUS (Lv 19).
