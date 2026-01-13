@@ -53,8 +53,7 @@
 - **Status:** Repel Applied (Turn 36576).
 - **Next:** Exiting menu. Running in Route 35 grass (south of gatehouse) to check for Roamers.
 - **Contingency:** If no encounter after ~20 steps, shuffle via Gatehouse.
-- Status: Retrying Cycle 61 (Phone Call Interrupted).
-- Observation: Gaven called, interrupting the previous shuffle attempt.
-- Action: Executing `cycle_roamer_hunt_route35` again.
-- Tool Logic: Down x5 (Enter & Walk South) -> Up x6 (Exit & Drift North).
-- Next: Check Map. If Roamer on 35 -> Hunt. Else -> Loop.
+- Status: Manual Recovery (Cycle 61).
+- Observation: Gaven's call interrupted the tool. Stuck inside gatehouse.
+- Action: Manual Exit (Up x2) -> Open Map.
+- Next: Check Roamers. If on 35 -> Hunt. Else -> Robust Tool.
