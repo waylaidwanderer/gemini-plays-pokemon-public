@@ -23,3 +23,6 @@
   - Gyarados (Lv 36) + Repel blocks wilds, allows Roamers (Lv 40).
   - Repel expired during scan. Re-applying.
 - **Progress:** Entering Pack to apply Repel.
+
+# Tools & Automation
+- **perform_grass_scan(num_steps):** Automates walking back and forth in grass. Useful for grinding or hunting. Fixed variable scope issue.
