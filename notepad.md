@@ -22,21 +22,14 @@
 - Party: ICARUS (19), Calcifer (64), KIMCHI (52), GNEISS (55), GORP (50), XENON (44).
 - PC Box 1: 10/20.
 
-# Lessons Learned
-- **Roamers**: Do NOT appear on Pokegear map until first encounter.
-- **Phone Calls**: Scripted phone calls interrupt menu sequences and tools.
-- **Notepad Hygiene**: Avoid turn-by-turn logging.
-- **Ledges**: Vertical movement is restricted by one-way ledges.
-- **Menu Wrapping**: The Start menu wraps! Pressing 'Up' from POKEDEX goes to EXIT. Do not use 'Up' to reset to the top.
-- **Fly Map Navigation**: Ecruteak is North of Violet. From Cherrygrove: Up, Up.
+# Lessons Learned & Hypotheses
+- **Roamers**: [Verified] Do NOT appear on Pokegear map until first encounter.
+- **Menu Persistence**: [Hypothesis] The Start menu cursor stays on the last option used (e.g., SAVE).
+- **Menu Wrapping**: [Verified] The Start menu wraps! Pressing 'Up' from POKEDEX goes to EXIT.
+- **Fly Navigation**: [Hypothesis] Ecruteak is 1x North (Up) of Violet City on the Fly Map.
 
 # Strategy: Fly to Ecruteak
 1. Open Start Menu.
-2. Navigate to POKEMON (Cursor is likely on SAVE).
+2. Navigate to POKEMON (Assuming cursor on SAVE: Up, Up, Up, Up).
 3. Select ICARUS -> FLY.
 4. On FLY map, navigate to Ecruteak (North of Violet) and press A.
-
-# Lessons Learned (Updated)
-- **Menu Persistence**: The Start menu cursor stays on the last option used (e.g., SAVE).
-- **Fly Navigation**: Ecruteak is North of Violet (Up from Violet's cursor position).
-- **Roamer Tracking**: Roamers do NOT appear on the Map until first encountered.
