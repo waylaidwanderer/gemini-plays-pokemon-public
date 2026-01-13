@@ -72,7 +72,8 @@
 
 # Failed Hypotheses & Attempts
 - Menu Navigation: Multiple failures due to cursor memory and tool button limits. Verified that the main menu cursor persists and deep navigation must be split into chunks < 50 buttons.
-- Turn 44630: Super Repel wore off. Mis-navigated to SAVE menu.
-- Plan: B, B (Exit Save) -> Up, Up, Up (to PACK) -> A (Open) -> Up, Up (to Super Repel) -> A (Select) -> A (Use) -> A (ICARUS) -> B, B, B (Exit).
-- Lead: ICARUS (Lv 19).
-- Repel Status: 0 steps remaining. Need to re-apply.
+- Turn 44631: Super Repel re-application attempt.
+- Discovery: Main menu cursor reset to POKEDEX (0) after the "Repel wore off" text box was cleared with 'A'.
+- Strategy: Start (Open) -> Down, Down (to PACK) -> A (Select) -> Down x30 (to CANCEL) -> Up, Up (to Super Repel) -> A (Use) -> A (Select) -> A (ICARUS) -> B, B, B (Exit).
+- Current state: Overworld at (6, 2). No menus open.
+- Repel Status: 0 steps remaining.
