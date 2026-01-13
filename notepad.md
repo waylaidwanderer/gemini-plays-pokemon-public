@@ -26,8 +26,9 @@
 # Tracking: Session 4
 - Start: Turn 45281.
 - Completed Cycles: 25.
-- Repel 2: Applied Turn 45627. Steps used: ~100/200.
-- Lesson: Limit menu_navigator_v2 sequences to 1-3 buttons to ensure reliability and catch fumbles early.
+- Repel 2: Applied Turn 45627. (~45 steps used).
+- Lesson: Limit menu_navigator_v2 sequences to 1-3 buttons.
+- Current Status: Finishing Cycle 26. Transitioning to Ecruteak.
 
 # Quest Log
 - Dana's Gift: Route 38 (Waiting).
