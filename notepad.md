@@ -10,20 +10,18 @@
 
 # Quest: Legendary Hunt
 - Quest Started: Turn 46043 (Jan 13, 2026).
-- Status: Pivoting to Suicune.
-- Plan: Sell items -> Buy Ultra Balls (Indigo Plateau) -> Catch Suicune (Tin Tower).
+- Status: Traveling to Indigo Plateau.
+- Plan: Buy 30 Ultra Balls -> Catch Suicune (Tin Tower).
 
-## Liquidation Plan
-- Target: ~¥36,000.
-- Sell: Super Repel (36) [Done], Revive (15), Max Potion (6), Full Heal (12), Lemonade (9), PP UP (1).
-- Total Est: ¥33,000 + current ¥224.
-- Progress: Full Heal (12) sold. Current Money: ¥36,974.
-- Next Sale: Lemonade x9 (Est ¥1,575), Hard Stone x1 (Est ¥2,500).
+## Financial Status
+- Current Money: ¥36,974.
+- Target: ¥36,000 for 30 Ultra Balls.
+- Status: Goal met. Liquidation complete.
 
 ## Legendary Status
 - Suicune: Tin Tower. Clear Bell owned.
-- Entei/Raikou: Roaming. Unseen in Pokedex.
-- Roamer Shuffle: 120 cycles (Turns 45281-46043). No result.
+- Entei/Raikou: Roaming. Unseen in Pokedex. Encounter required to track.
+- Roamer Shuffle: 120 cycles (Turns 45281-46043) on Route 37/Ecruteak. No encounter.
 
 # Trapper Strategy
 - Xenon (Haunter): No Mean Look.
@@ -38,3 +36,4 @@
 - Roamers move on map transitions.
 - Phone calls interrupt menu sequences.
 - Fly map cursor starts at current location. Verified Turn 46048.
+- Fly tool: Use Pokemon menu -> FLY move for better reliability.
