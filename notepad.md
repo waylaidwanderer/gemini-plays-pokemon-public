@@ -32,3 +32,4 @@
 - Bookkeeping: Use turn history for cycle counts to avoid "time-slipping". Verified Turn 45874.
 - Phone calls can cancel menu actions; verify item usage. Verified Turn 45917.
 - Map transitions stop 'autopress_buttons' sequences. Call tools in Ecruteak for best results.
+- Current Status: Starting Cycle 95.
