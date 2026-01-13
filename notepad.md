@@ -33,3 +33,4 @@
 - **Olivine City** -> Down -> **Ecruteak City** [Confirmed]
 - **Tool Failure:** `open_party` failed because the Start Menu cursor was at `POKEDEX`, not `POKEGEAR`. It then wrapped to `EXIT` and closed the menu. Need to account for cursor memory or lack thereof.
 - **Menu System:** Start Menu WRAPS. Verified via logic (Up 10 from POKEGEAR -> POKEGEAR). This breaks `open_pack` and `open_party` which assume clamping. Current cursor: POKEGEAR.
+- **Roamer Check (Turn 37203):** Checked Map. Roamers are NOT on Route 31. Proceeding to shuffle.
