@@ -7,7 +7,7 @@
 # Suicune Quest
 - Status: Tracking sightings in Johto.
 - Current Objective: Cianwood City sighting at (7, 4).
-- Timeline: Started Turn 46373. Current Turn 46461.
+- Timeline: Started Turn 46373. Current Turn 46462.
 - Repel Status: Super Repel active (Turn 46460).
 
 # Legendary Battle Strategy: Suicune
@@ -29,13 +29,13 @@
 - GORP (Snorlax): Surf, Rest, Body Slam, Rollout.
 - ICARUS (Pidgeotto): Fly, Sand-Attack, Gust, Quick Attack.
 
-# Reflection Turn 46461
+# Reflection Turn 46462
 1. Immediate Execution: Super Repel active. Resuming Surf trek.
 2. Notepad Hygiene: Cleaned and updated timestamps.
 3. Map Hygiene: Suicune sighting marker at (7, 4).
-4. Automation Strategy: Using find_path_v7_robust for the long water trek.
+4. Automation Strategy: Using find_path_v7_robust for the long water trek. Previous path was blocked by BUOYs at X=22.
 5. Goal Clarity: Reach (7, 4) to trigger Suicune event.
-6. Error Analysis: Repel activation was delayed by menu fumbles and phone calls. Resolved.
+6. Error Analysis: Re-calculating from (23, 10).
 
 # Navigation Log
-- Turn 46461: Surfing at (22, 18). Heading to (7, 4).
+- Turn 46462: Surfing at (23, 10). Re-calculating path to (7, 4).
