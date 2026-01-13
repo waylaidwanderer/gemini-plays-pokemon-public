@@ -194,7 +194,7 @@
     ]
   },
   "robust_fly_ecruteak": {
-    "description": "Robustly navigates menus to Fly to Ecruteak City from Cherrygrove. Assumes cursor is on Slot 4 (Garnet). Resets Menu cursor to top, enters Pokemon, moves Down x2 to Slot 6 (Mistral), Flies, navigates Map (Up, Left).",
+    "description": "Robustly navigates menus to Fly to Ecruteak City from Cherrygrove. Assumes overworld state. Resets Menu cursor to top, enters Pokemon, wraps Up x2 to Slot 6 (Mistral), Flies, navigates Map (Up, Left).",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -204,7 +204,7 @@
         }
       }
     },
-    "python_script": "print('[\"Start\", \"sleep 1000\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Down\", \"sleep 500\", \"A\", \"sleep 1500\", \"Down\", \"sleep 500\", \"Down\", \"sleep 500\", \"A\", \"sleep 500\", \"A\", \"sleep 3000\", \"Up\", \"sleep 500\", \"Left\", \"sleep 500\", \"A\"]')",
+    "python_script": "print('[\"Start\", \"sleep 1000\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Down\", \"sleep 500\", \"A\", \"sleep 1500\", \"Up\", \"sleep 300\", \"Up\", \"sleep 300\", \"A\", \"sleep 500\", \"A\", \"sleep 3500\", \"Up\", \"sleep 500\", \"Left\", \"sleep 500\", \"A\"]')",
     "history": [
       {
         "commit_message": "Initial version",
@@ -220,6 +220,11 @@
         "commit_message": "Fixed output format to be a valid JSON array of strings instead of a JSON object. Assumes cursor on Slot 4 (Garnet) for now, but will verify.",
         "timestamp": "2026-01-13T16:54:53.836Z",
         "action_counter": 37474
+      },
+      {
+        "commit_message": "Fixed party navigation to correctly select Slot 6 (Mistral) using Up x2 wrap-around. Increased map load sleep to 3.5s.",
+        "timestamp": "2026-01-13T16:59:16.387Z",
+        "action_counter": 37478
       }
     ]
   }

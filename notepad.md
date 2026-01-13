@@ -1,8 +1,8 @@
 # Mechanics & State
 - **Fly Mechanics:** Blocked on door mats (e.g. 29,4). Safe spot: (29,5).
-- **Menu Navigation:** Cursor REMEMBERS positions. Party: Mistral (Slot 6). Main: Pokemon (Slot 2?).
-- **Action:** Executing Fly Sequence manually.
-- **Sequence:** Start -> Reset Main (Up x5) -> Pokemon -> Mistral (A) -> Fly (A) -> Map: Up, Left -> A.
+- **Menu Navigation:** Cursor REMEMBERS positions. Reset by pressing Up x7 to reach Pokedex.
+- **Party Navigation:** Mistral is in Slot 6. From Top: Up x2 (Wrap-around: Slot 1 -> Cancel -> Slot 6).
+- **Map Navigation:** Cherrygrove -> (Up) Violet -> (Left) Ecruteak.
 
 # Hall of Fame & Progress
 - **Champion:** Turn 33314.
