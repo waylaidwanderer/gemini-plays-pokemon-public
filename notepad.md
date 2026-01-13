@@ -8,19 +8,16 @@
 # Legendary Roamer Hunt Strategy
 - **Overview**: Manual Shuffle (Transition map, pace 10 steps in grass, repeat).
 - **Session 2 Summary**: Route 37 (Turns 44880-44975). 25 transitions, 0 encounters.
-- **Session 3 (Current)**: Route 31 (Shuffle R31 <-> Violet City). Entered gatehouse Turn 44980.
+- **Session 3 (Current)**: Route 31 (Shuffle R31 <-> Violet City). Started Turn 44989.
 - **Lead**: ICARUS (Lv 19 Pidgeotto). Correct for R31 (Wild Lv 12-15) to filter for Roamers (Lv 40) using Repel Trick.
-- **Repel Status**: Active (Turn 44936). ~175 steps remaining. (Inventory: 71 Super Repels).
+- **Repel Status**: Active (Turn 44998). ~200 steps remaining. (Inventory: 70 Super Repels).
 - **Roamer Status**: Raikou/Entei roaming. NOT YET ENCOUNTERED.
 - **Catching Strategy**: Master Ball immediately upon first encounter.
 
 # Progress Log
-- **Session 1 (Turns 44738-44876)**: 10+ transitions, 0 encounters.
-- **Session 2 (Turns 44880-44975)**: 25 transitions, 0 encounters.
-- **Session 3 Start**: Turn 44989.
-- **Progress Log**:
-    - Transition 1: 0 encounters. Arnie's call cleared.
-    - Transition 2: In progress. Repel re-applied Turn 44998. Moving to grass at (6, 11). Strategy: Use Super Repel -> B x2 to exit -> Move to grass.
+- **Session 3 (Route 31)**:
+    - Transition 1: 0 encounters.
+    - Transition 2: In progress. (Moving to grass).
 
 # Pokemon Info
 - Party: ICARUS (19), Calcifer (64), KIMCHI (52), GNEISS (55), GORP (50), XENON (44).
@@ -31,4 +28,4 @@
 - **Repel Logic**: ICARUS (Lv 19) is perfect for Route 31/37 to filter for Roamers.
 - **Tool Hygiene**: Move to target tile before starting grass_pacer.
 - **Menu Persistence**: Main menu and pack cursor positions are persistent.
-- **Fly Map**: Selecting a destination requires navigating the cursor on the Johto map.
+- **Phone Calls**: Scripted phone calls interrupt menu sequences and tools.
