@@ -22,10 +22,9 @@
 
 # Session Tracking
 - Session 4 (Ecruteak Shuffle) Start: Turn 45281.
-- Shuffles Completed: 20.
 - Current Shuffle: 21.
 - Total Encounters: 0.
-- Repel Status: Applied Turn 45414. Steps Taken: 40/200.
+- Repel Status: Applied Turn 45414. Steps Taken: 33/200.
 
 # Strategy: Ecruteak Shuffle (Pre-Encounter)
 - Path: Ecruteak City <-> Route 37.
@@ -36,6 +35,9 @@
   4. If no encounter, return to Ecruteak and repeat.
 - Note: Pokegear Map is useless until the first encounter.
 - Lead: ICARUS (Lv 19).
+
+# Strategy Tools
+- grass_pacer: Tool for wild encounter pacing.
 
 # Dana's Gift
 - NPC: Lass Dana.
