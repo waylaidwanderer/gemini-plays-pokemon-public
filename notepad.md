@@ -21,7 +21,12 @@
 # Fly Verification Log
 - Attempt 1 (Turn 45533): Exited Option menu. Cursor now on OPTION.
 - Attempt 3 (Turn 45535): Cursor moved New Bark -> Cherrygrove (Left). Up and Left from Cherrygrove failed. Hypothesis: Fly map requires multiple presses or specific paths.
-- Attempt 4 (Turn 45536): Cursor at Cherrygrove. Testing Up x3 and Right x1 to verify movement boundaries.
+- Attempt 4 (Turn 45536): From Cherrygrove, Up x3 then Right -> GOLDENROD CITY. Verified: Goldenrod is reachable from Cherrygrove via this sequence.
+- Attempt 5 (Turn 45537): Cursor at Goldenrod. Moving Up to reach Ecruteak.
+- Verified Fly Map Grid (Partial):
+  - New Bark -> (Left) -> Cherrygrove.
+  - Cherrygrove -> (Up x3, Right) -> Goldenrod.
+  - Goldenrod -> (Up) -> ECRUTEAK CITY (Target).
 - Verified Fly Map Grid (Relative to New Bark):
   - Left: Cherrygrove City.
   - Up from Cherrygrove: VIOLET CITY (To be verified).
