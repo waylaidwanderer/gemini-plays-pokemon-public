@@ -18,7 +18,7 @@
 - **Session 1 (Turns 44738-44876)**: 10+ transitions, 0 encounters.
 - **Session 2 (Turn 44880-Present)**:
     - Transitions 1-20: 0 encounters.
-    - Transition 21: Arrived in Ecruteak. Returning to Route 37 grass.
+    - Transition 21: Pacing in grass. (Repel active).
 
 # Pokemon Info
 - Party: ICARUS (19), Calcifer (64), KIMCHI (52), GNEISS (55), GORP (50), XENON (44).
