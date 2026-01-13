@@ -1,10 +1,10 @@
 # Roamer Hunt Strategy
 - **Goal:** Catch Raikou & Entei.
 - **Current Plan:** Fly to Ecruteak City (Central Hub).
-- **Status:** Selecting Mistral (Correction).
-- **Observation:** Cursor on Garnet (Slot 6). "Can't use that here" message active.
-- **Action:** Close Message (B) -> Move to Mistral (Up x2) -> Open Menu (A).
-- **Next:** Select FLY -> Ecruteak City.
+- **Status:** Flying to Ecruteak City.
+- **Action:** Select FLY (A) -> Navigate Map (Left x3) -> Confirm (A x2).
+- **Goal:** Relocate to Ecruteak Hub.
+- **Next:** Check Roamers.
 - **Resources:** 16 Repels.
 - **Session Start:** Turn 36369. Current: 36756.
 
