@@ -1,8 +1,8 @@
 # Mechanics & State
 - **Location:** Route 36 (East Side).
-- **Status:** Phone call ended. Resuming travel.
+- **Status:** Resuming travel. Blocked by Lass at (53, 8).
 - **Goal:** Walk West to Route 37 Junction (approx x=26) -> North to Ecruteak.
-- **Fly Lesson:** Map inputs need massive delays.
+- **Action:** Navigating AROUND the Lass (North side).
 
 # Hall of Fame & Progress
 - **Champion:** Turn 33314.
