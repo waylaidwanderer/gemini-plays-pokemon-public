@@ -13,26 +13,24 @@
 # Quest: Legendary Hunt
 - Target: Suicune (Tin Tower)
 - Lore: Ho-Oh resurrected Suicune, Entei, and Raikou.
-- Requirements: Clear Bell (Owned), 16 Badges (Owned), Beasts Released.
+- Requirements: Clear Bell (Owned), 16 Badges (Owned).
 - Plan:
-    1. Defeat Wise Trio (EcruteakTinTowerEntrance 4_1).
-    2. Battle Suicune (Tin Tower).
+    1. Release Beasts (Burned Tower) - DONE.
+    2. Defeat Wise Trio (EcruteakTinTowerEntrance 4_1 or WiseTriosRoom 4_2) - IN PROGRESS (Started Turn 46251).
+    3. Battle Suicune (Tin Tower).
 
-# Strategy: Suicune Capture (Battle Analyst Advice)
-- Lead: XENON (Haunter, Lv 44).
-- Move 1: Hypnosis (Priority).
-- Move 2: Night Shade (Fixed 44 dmg). Use exactly 3 times for Lv 40 Suicune.
-- Tank: GORP (Snorlax, Lv 50) for high Sp.Def.
-- Backup: KIMCHI (Gloom) for Sleep Powder or Stun Spore.
-- Items: Ultra Balls (32).
+# Strategy: Suicune Capture (Verified)
+- Lead: XENON (Haunter, Lv 44). Land Hypnosis immediately.
+- Chipping: Switch to GORP (Snorlax, Lv 50) or KIMCHI (Gloom, Lv 52) to lower HP safely. Avoid Calcifer (Lv 64).
+- Status: Maintain Sleep. If Sleep fails, use KIMCHI's Stun Spore for permanent Paralysis.
+- Capture: Ultra Balls while asleep.
+- Items: Ultra Balls (32), Full Restore (for status inflictor).
 
-# Observations: Wise Trio (Map 4_1)
-- Sage GAKU (ID 2): Not currently on screen. Marker at (7, 10) is a placeholder.
-- Sage MASA (ID ?): Not currently on screen. Marker at (6, 9) is a placeholder.
-- Sage KOJI (ID 3): At (7, 8). Dialogue loop: "The TIN TOWER shook!..." No battle triggered yet.
-- Sage Entrance Guard (ID 1): At (4, 6).
-- Strategy: Locate all three members in 4_1. They may be in the southern or eastern parts of the main hall.
-- Hypothesis: Interaction order or specific positioning triggers the battles.
+# Observations: Wise Trio
+- Location: EcruteakTinTowerEntrance (4_1) and WiseTriosRoom (4_2).
+- Members: Sage GAKU, Sage MASA, Sage KOJI.
+- Progress: Sage at (4, 6) in 4_1 granted passage. KOJI (ID 3) loops dialogue about the tower shaking.
+- Hypothesis: The Trio members have moved to 4_2 or the Tin Tower entrance is now accessible.
 
 # Pokemon Movesets
 - XENON (Haunter): Hypnosis, Confuse Ray, Night Shade, Dream Eater.
