@@ -100,3 +100,5 @@
 - **Action:** Opening Start Menu -> Pokedex -> Search Menu.
 - **Sequence:** Start -> Up x3 (Force Pokedex) -> A -> Wait -> Start.
 - **Reasoning:** Resetting from Overworld to ensure clean navigation.
+- **Observation:** Menu wraps. Up from Pokedex goes to Exit -> Option -> Save.
+- **Correction:** Canceling Save (B), Navigating to Pokedex (Down x3), Opening (A), Opening Search (Start).
