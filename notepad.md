@@ -31,8 +31,7 @@
 - **Fly Map Navigation**: Ecruteak is North of Violet. From Cherrygrove: Up, Up.
 
 # Navigation Log: Fly to Ecruteak
-- Attempt 1-6: Various failures.
-- Attempt 7 (Turn 45169): Stuck in Pokedex.
-- Attempt 8 (Turn 45171): Stuck in Option menu due to Chad's call and menu mis-navigation.
-- Strategy: Exit all menus (B, B), open Start menu, reset cursor (Up x7), select POKEMON (Down), select ICARUS (A), select FLY (A), move Up x2 on map to Ecruteak, confirm (A).
-- Current Status: In Cherrygrove City, exiting Option menu.
+- Attempt 1-8: Various failures (Pokedex, Options, Cherrygrove, Save, Bag).
+- Attempt 9 (Turn 45176): Resetting cursor and flying from Cherrygrove (2 Up).
+- Strategy: Start -> Up x7 -> Down -> A -> A -> A -> Up -> Up -> A.
+- Current Status: In Cherrygrove City at (29, 5).
