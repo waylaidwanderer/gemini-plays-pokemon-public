@@ -10,8 +10,10 @@
 # Legendary Roamer Hunt Strategy
 - **Overview**: Manual Shuffle (Transition map, pace 10 steps in grass, repeat).
 - **Session 3 (Current)**: Route 31 <-> Violet City. Started Turn 44989.
-- **Status**: Refreshing Repel (Turn 45118). (Inventory: 68 Super Repels).
-- **Current Progress**: 10 loops completed. 0 encounters. Loop 11 in progress.
+- **Lead**: ICARUS (Lv 19 Pidgeotto).
+- **Repel Trick**: Lv 19 lead on Route 31 (Wild Lv 12-15) filters for Roamers (Lv 40).
+- **Status**: Repel Active (Used Turn 45120). 200 steps left. (Inventory: 68 Super Repels).
+- **Current Progress**: 10 loops completed. 0 encounters.
 - **Roamer Status**: NOT YET ENCOUNTERED. Use Master Ball on sight.
 
 # Pokemon Info
@@ -21,5 +23,5 @@
 # Lessons Learned
 - **Roamers**: Do NOT appear on Pokegear map until first encounter.
 - **Phone Calls**: Scripted phone calls interrupt menu sequences and tools.
-- **Notepad Hygiene**: Avoid recording real-world time or turn-by-turn movement in persistent notes.
+- **Notepad Hygiene**: Avoid recording turn-by-turn movement in persistent notes.
 - **Ledges**: Vertical movement is restricted by one-way ledges. Use gaps to return.
