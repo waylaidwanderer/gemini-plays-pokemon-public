@@ -30,14 +30,13 @@
 # Tracking: Roamer Hunt
 - Shuffle Start Turn: 45281.
 - Completed Cycles: 53.
-- Repel 3: Applied Turn 45723. (~200 steps used).
-- Current Status: Cycle 53 pacing complete. Moving back to Ecruteak City.
+- Repel 3: Applied Turn 45723. (~180 steps used).
 - Encounter Plan: Use Master Ball on first roamer encounter.
 - Trapper Strategy (for 2nd roamer):
   - Option A: Train Spinarak (AAAAAAAAAA, Lv 13) in PC. It has Spider Web.
   - Option B: Xenon (Haunter, Lv 44) does NOT have Mean Look. Gengar learns it at Lv 31.
   - Decision: Stick to Master Ball for the first one, then evaluate Spinarak.
-- Strategy Note: Statistically, Entei/Raikou will appear within ~50-100 cycles of this shuffle. We are at 52. Continuing until encounter or ~75 cycles before reassessing.
+- Strategy Note: Statistically, Entei/Raikou will appear within ~50-100 cycles of this shuffle. We are at 53. Continuing until encounter or ~75 cycles before reassessing.
 
 # Quest Log
 - Dana's Gift: Route 38 (Waiting).
