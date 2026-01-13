@@ -18,4 +18,4 @@
 - **Fly Connections:**
     - Cherrygrove -> Violet
     - Azalea -> Goldenrod -> Olivine -> Ecruteak
-- **Roamer Check (Turn 37353):** In Party Menu (Garnet). 'Can't use that here' dialog open. Recovery: B (Close) -> B (Back) -> Down x2 (Mistral) -> A -> A (Fly) -> Left -> Up -> A.
+- **Roamer Check (Turn 37354):** Screen shows Party Menu (Garnet), but States imply Overworld. Resetting state with Bx3, then Flying. Path: Bx3 -> Start -> A (Pokemon) -> Down x5 (Mistral) -> A -> A (Fly) -> Left -> Up -> A.
