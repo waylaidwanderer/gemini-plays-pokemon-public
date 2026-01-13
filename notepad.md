@@ -23,9 +23,11 @@
 
 # Strategy: Suicune Capture
 - Lead: XENON (Haunter, Lv 44).
-- Moves: Hypnosis (Priority 1), Confuse Ray.
-- Tank: GORP (Snorlax, Lv 50). Can take Surf/Aurora Beam. Body Slam for paralysis/chip.
+- Moves: Hypnosis (Priority 1).
+- Damage: Night Shade x3 (Fixed 132 damage total). At Lv 44, it's safe for a Lv 40 Suicune.
+- Tank: GORP (Snorlax, Lv 50).
 - Items: Ultra Balls (32).
+- Backup: KIMCHI (Gloom) for Sleep Powder or Stun Spore if needed.
 
 # Observations: Wise Trio
 - Hypothesis: They appear at (4, 4) in WiseTriosRoom (4_2) when approached.
