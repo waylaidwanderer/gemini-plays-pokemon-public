@@ -65,7 +65,7 @@
       "properties": {},
       "required": []
     },
-    "python_script": "import json\n\ndef sweep():\n    # Starting from (28, 15)\n    # 1. Pick (27, 16) - PNK\n    # 2. Pick (29, 16) - YLW\n    # 3. Sweep the grove (Rows 15 and 17)\n    \n    path = [\n        \"Left\", \"Down\", \"A\", \"A\", \"A\", \"A\", # Pick (27, 16) from (27, 15)\n        \"Up\", \"Right\", \"Right\", \"Down\", \"A\", \"A\", \"A\", \"A\", # Pick (29, 16) from (29, 15)\n        \"Up\", \"Left\", # Back to (28, 15)\n        \"Left\", \"Left\", \"Right\", \"Right\", \"Right\", \"Right\", # Sweep Row 15\n        \"Down\", \"Down\", \"Left\", \"Left\", \"Left\", \"Left\", # Sweep Row 17\n        \"Up\", \"Up\" # Back to Row 15 area\n    ]\n    return path\n\nprint(json.dumps(sweep()))\n",
+    "python_script": "import json\n\ndef sweep():\n    # Starting from (28, 15)\n    path = []\n    # 1. Pick PNK at (27, 16) from (27, 15)\n    path += [\"Left\", \"Down\", \"A\", \"A\", \"A\", \"A\"] \n    # 2. Pick YLW at (29, 16) from (29, 15)\n    path += [\"Up\", \"Right\", \"Right\", \"Down\", \"A\", \"A\", \"A\", \"A\"]\n    # 3. Sweep Row 15 (25, 15 to 30, 15)\n    path += [\"Up\", \"Left\", \"Left\", \"Left\", \"Left\", \"Right\", \"Right\", \"Right\", \"Right\", \"Right\"]\n    # 4. Sweep Row 17 (30, 17 to 26, 17)\n    path += [\"Down\", \"Down\", \"Left\", \"Left\", \"Left\", \"Left\"]\n    # 5. Sweep Row 16 ends (26, 16 and 30, 16)\n    path += [\"Up\", \"Right\", \"Right\", \"Right\", \"Right\", \"Up\", \"Left\", \"Left\"]\n    # Final position: (28, 15)\n    return path\n\nprint(json.dumps(sweep()))\n",
     "history": [
       {
         "commit_message": "Initial version",
@@ -76,6 +76,11 @@
         "commit_message": "Update suicune_sweep to return button presses for picking Apricorns and sweeping the grove. Pauses for text boxes are included.",
         "timestamp": "2026-01-14T07:03:22.063Z",
         "action_counter": 47313
+      },
+      {
+        "commit_message": "Refine suicune_sweep to perfectly cover all walkable grove tiles and pick remaining Apricorns. Includes bumping into trees to face them and handling text boxes.",
+        "timestamp": "2026-01-14T07:05:46.366Z",
+        "action_counter": 47314
       }
     ]
   }
