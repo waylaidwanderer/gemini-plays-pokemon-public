@@ -32,7 +32,7 @@
     - Top Clerk: Potions, Status Heals.
     - Bottom Clerk: Balls, Rope, Repel (Standard), Revive, Full Heal, Doll, Mail.
     - **NO Super Repels found on 2F.**
-- 3F: Battle Collection.
-    - Clerk (6, 1): X Speed, X Special, X Defend, X Attack.
-    - **NO Super Repels found on 3F.**
-- **Strategy:** Check 4F and 5F. If not found, fly to Celadon Dept Store (Kanto).
+- 3F: Battle Collection (X-Items).
+- 4F: Medicine Box (Vitamins).
+    - **NO Super Repels found on 4F.**
+- **Strategy:** Check 5F (TM Corner). If not found, fly to Celadon Dept Store (Kanto).
