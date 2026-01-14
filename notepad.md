@@ -28,4 +28,5 @@
 # Progress Log
 - Attempt 1-5: Landed at (14, 28) by mistake (south of wall).
 - Attempt 6 (Turn 47761): Return to water. Chad called.
-- Attempt 7 (Turn 47763): Marked ROCK at (10, 27). Target: Land at (14, 10) north of wall.
+- Attempt 7 (Turn 47763): Marked ROCK at (10, 27). Initiating Surf at (14, 27).
+- Attempt 8 (Turn 47764): Confirming Surf. Target: Landing at (14, 10).
