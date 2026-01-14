@@ -61,8 +61,8 @@
   - Lake of Rage: (10, 3)
   - Blackthorn: (14, 5)
 - Navigation from Cherrygrove (12, 10) to Cianwood (0, 9): 12 Lefts, 1 Up.
-- Failed Fly attempts: 10 (Reason: Fly move not activating or immediately landing in current city).
-- Status: Moving to (29, 5) and re-attempting Fly to Cianwood.
+- Failed Fly attempts: 11 (Reason: Menu navigation errors, incorrect grid assumptions, and landing on the same tile).
+- Status: Executing precise Fly sequence from (29, 5) in Cherrygrove to Cianwood.
 
 # Hypotheses
 ## Land Route to Suicune (The 'Gem Shortcut')
