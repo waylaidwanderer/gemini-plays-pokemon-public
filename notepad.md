@@ -21,7 +21,8 @@
 # Suicune Quest
 - Start Turn (Cianwood Re-attempt): 47450
 - Status: Sighting 2 (Cianwood North Beach) in progress.
-- Strategy: The 'Great Southern Loop'. Surf south around the buoy wall (ends at Row 29) to reach the southern landing zone.
-- Route: Surf South to (24, 52) -> Land -> Walk West to (2, 52) -> Walk North along X=2 corridor -> East to (7, 4).
+- Strategy: The 'Central Loop'. Surf north around the buoy wall (ends at Row 29) to reach the east coast landing zone at (19, 30).
+- Route: Land at (19, 30) -> Walk West to (12, 30) -> Walk North along Column 12 to (12, 16) -> West to (11, 16) -> North through gap at (11, 15) -> North to (11, 11) -> West to (6, 11) -> North to Row 4 -> East to (7, 4).
+- Verification (Turn 47562): (11, 15) is the only confirmed land gap to the northern section. Water route is blocked by buoys at Row 15.
 - Sighting 1: Burned Tower (DONE)
 - Battle Strategy: Use XENON (Haunter) for Hypnosis. Chip HP with fixed damage moves if needed.
