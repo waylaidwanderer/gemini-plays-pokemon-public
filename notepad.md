@@ -1,19 +1,20 @@
 # Mechanics & State
 - **Location:** Victory Road 2F.
 - **Goal:** Walk to Viridian City (South).
-- **Current Position:** (13, 34) - 2F.
-- **Action:** Walking South to (13, 42).
+- **Current Position:** (13, 37) - 2F.
+- **Action:** Walking East to x=18, then South to (18, 42).
 - **Inventory Update:**
   - 20 Super Repels (Bought).
   - 16 Ultra Balls (Existing).
 - **Route Plan:**
-  1. Walk South to (13, 42) (Cross ledge at 13,38).
-  2. Walk West to (7, 42).
-  3. Walk North to (7, 40).
-  4. Jump Left at (6, 40) -> Land (5, 40).
-  5. Walk West to (2, 40) -> North to (2, 38) -> West to (1, 38).
-  6. North to Ladder (1, 35).
-  7. Ladder -> 1F -> Exit.
+  1. Walk East to (18, 37).
+  2. Walk South to (18, 42) (Bypass wall/ledge at 13,38).
+  3. Walk West to (7, 42).
+  4. Walk North to (7, 40).
+  5. Jump Left at (6, 40) -> Land (5, 40).
+  6. Walk West to (2, 40) -> North to (2, 38) -> West to (1, 38).
+  7. North to Ladder (1, 35).
+  8. Ladder -> 1F -> Exit.
 - **Money:** ¥12294.
 
 # Directory Info (Celadon)
