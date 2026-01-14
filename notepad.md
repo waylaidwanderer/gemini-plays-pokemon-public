@@ -11,12 +11,12 @@
 - Start Turn: 46650
 - Objective: Trigger sighting in Cianwood City at (7, 4).
 - Strategy:
-    1. Walk to (6, 33).
-    2. Jump the ledge at (6, 34) to land at (6, 35).
-    3. Walk west to (2, 35).
+    1. Walk east to (12, 33).
+    2. Walk south to (12, 44).
+    3. Walk west to (2, 44).
     4. Walk north along X=2 to Y=4.
     5. Walk east to (7, 4) to trigger the sighting.
-- Note: The middle path is blocked by walls. X=2 is a clear north-south corridor that bypasses the city's internal walls.
+- Note: The middle path is blocked by walls and a stubborn ledge at (6, 34). Y=44 is a clear east-west crossing. X=2 is the main north-south corridor on the west side.
 
 # Roaming Beast Data
 - Raikou: Unknown
