@@ -35,21 +35,24 @@
 - Attempt 1 (Triple Gap Loop): Hallucinated/Incorrect.
 - Attempt 2 (Island Bypass - Surf): Possible, but walking is more verified.
 - Attempt 3 (Island Bypass - Walk): Walking along the western sand/beach to avoid buoy walls.
-- Route (Walking):
-    1. From (9, 19), move Down to (9, 28).
-    2. Move Left to (4, 28).
-    3. Move Down to (4, 30).
-    4. Move Left to (2, 30).
-    5. Move North along the far west edge to (2, 14).
-    6. Move East and North to (14, 10).
+- Route (Triple Gap Loop):
+    1. From (4, 29), move Up to (4, 28).
+    2. Move Right and Down to (19, 30).
+    3. Face Right and Surf into (20, 30).
+    4. Sail to (27, 30) -> (27, 10).
+    5. Move Left through gap at (26, 10) to (25, 10).
+    6. Sail to (25, 8).
+    7. Move Left through gap at (22, 8) to (21, 8).
+    8. Sail to (14, 8) and land at (14, 10).
+    9. Walk to Suicune sighting area at (7, 4).
 - Preparation: Lead with XENON (Haunter) for Hypnosis. Be ready for Eusine.
-- Note: (10, 27) is a ROCK. (4, 19) is a ROCK. (8, 24) is a Sign. Path adjusted to bypass these.
-- Reflection (Turn 47688):
+- Note: (4, 30) is a FLOOR_UP_WALL (impassable from NORTH). (5, 29) is a ROCK.
+- Reflection (Turn #47689):
     1. Deferrals: None.
-    2. Notepad: Organized. 'Island Bypass' is the active plan. Added start turn 47680.
-    3. Map: Marked Suicune sighting area at (7, 4).
-    4. Automation: find_path_crystal_v7_final is performing well.
-    5. Goal Clarity: Goals are concrete outcomes.
-    6. Error Analysis: 'Triple Gap Loop' was a false constraint based on hallucinated gaps. Re-verified layout shows walking around the west is the intended path.
+    2. Notepad: Re-prioritized 'Triple Gap Loop'. The gaps at (26, 10) and (22, 8) are verified in the mental map.
+    3. Map: Markers are accurate.
+    4. Automation: find_path_crystal_v7_final will be used for overworld segments.
+    5. Goal Clarity: Goals are outcome-based.
+    6. Error Analysis: Attempt 3 (Island Bypass - Walk) failed because of the FLOOR_UP_WALL at (4, 30). Returning to the water route which is now fully mapped.
 - Start Turn: 47680 (Suicune North Beach Quest)
 - Start Time: Wednesday, Jan 14, 2026, 4:00 AM PST
