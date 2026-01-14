@@ -33,7 +33,6 @@
 - Fly Navigation: Johto Fly menu is a linear list scrolled with Up/Down, not a 2D grid.
 - Exploration: (11, 15) and (11, 14) are confirmed dead-end pockets.
 - Pathing: Cianwood city center is elevated; land routes to the west/north beaches are blocked by FLOOR_UP_WALL and WALL. Surf via the east coast is the primary route.
-- Turn 48134: At Gap 2 (22, 16). Inner Ring (X=19-22) is blocked to the North by Row 15 buoys. Must navigate South to reach Gap 4.
-- Route: (22, 16) -> (21, 16) -> (21, 26) -> (18, 26) [Gap 4].
+- Turn 48141: Abandoning Great Spiral. West Channel (X=14-15) is clear and much faster.
+- Plan: Surf North to (14, 15), land at (14, 14), walk to (14, 10).
 - Status: XENON leading, Ultra Balls ready.
-- Goal: Reach Gap 4 at (18, 26).
