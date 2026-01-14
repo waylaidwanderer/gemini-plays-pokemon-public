@@ -29,3 +29,4 @@
 # Progress
 - **Badges:** 16/16.
 - **Pokedex:** 46 caught.
+- **Tool Note:** `perform_roamer_hunt_cycle` is unreliable due to map transition lags. Switching to manual control or simpler sequences.
