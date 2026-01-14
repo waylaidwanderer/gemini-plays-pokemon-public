@@ -1,14 +1,10 @@
 # Strategic Status
-- **Goal:** Return to Johto (Via Diglett's Cave).
-- **Current Action:** Exiting Diglett's Cave.
-- **Path:** 
-  1. Entrance (15, 5) -> Ladder (17, 3). [DONE]
-  2. Ladder (3, 3) -> Walk East -> Ladder (17, 33). [DONE]
-  3. Ladder (5, 31) -> Exit (3, 33). [CURRENT]
+- **Goal:** Return to Johto (Via Magnet Train).
+- **Current Action:** Walking to Magnet Train Station in Vermilion City.
+- **Path:** Diglett's Cave Exit -> Magnet Train Station (13, 13) -> Goldenrod City.
 
 # Known Issues
-- **Fly Map:** Horizontal navigation (West <-> East) is unreliable. Stuck in West Kanto loop. Workaround: Ground travel via Diglett's Cave.
-- **Diglett's Cave Ledge:** The ledge at (9, 20) appears impassable. Routing via (12, 20).
+- **Fly Map:** Horizontal navigation (West <-> East) is unreliable. Stuck in West Kanto loop. Workaround: Ground travel via Diglett's Cave (Completed). Now in East Kanto.
 
 # Roamer Hunting Strategy
 1.  **Setup:** Gyarados (Lv 36) leading, Super Repel active.
