@@ -9,7 +9,7 @@
 - WALL: Impassable obstacle.
 - HEADBUTT_TREE: Special tree for Headbutt.
 - DOOR: Warp point.
-- FLOOR_UP_WALL: Ledge face. Impassable.
+- FLOOR_UP_WALL: Ledge face. Impassable from all directions.
 - LEDGE_HOP_DOWN: One-way jump (North to South).
 
 # Suicune Capture Strategy
@@ -24,17 +24,16 @@
 ## The 'Beach Shortcut'
 - Hypothesis: The northern plateau (Suicune at 7, 4) is reachable by walking North along the West beach at X=2.
 - Route: 
-  1. Jump ledge at (21, 46) to reach the southern corridor.
+  1. Navigate to the southern corridor (Y >= 47).
   2. Walk West through the gap at (5, 47) to reach the beach.
   3. Walk North along the sand (X=2) to Y=4.
-- Status: Testing. Verifying if X=2 is clear past Y=10.
+- Status: Testing. Turn Limit: 48150.
 
 ## The Great Spiral (Backup Plan)
 - Entrance: (27, 44).
 - Route: Lane 1 (N) -> Lane 2 (S) -> Lane 3 (S) -> Lane 4 (N) -> Lane 5 (N) -> Land at (14, 10).
 - Requirements: Surf, Super Repel.
 
-# Reflection Turn 48089
-- Lesson: Fly menu is a linear list (Up/Down), not 2D.
-- Lesson: Buoy maze logic is complex; verify land shortcuts first.
-- Observation: (11, 15) is a dead end.
+# Lessons Learned
+- Fly Navigation: The Johto Fly menu is a linear list scrolled with Up/Down, not a 2D grid.
+- Exploration: (11, 15) and (11, 14) are dead-end pockets.
