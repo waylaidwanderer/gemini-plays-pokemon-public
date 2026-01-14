@@ -1,7 +1,7 @@
 # Strategic Status
 - **Goal:** Return to Johto (Via Magnet Train).
-- **Current Action:** Boarding Magnet Train.
-- **Path:** Station Entrance -> Turnstile -> Train -> Goldenrod City.
+- **Current Action:** Talking to Station Officer (Show Pass).
+- **Path:** Show Pass -> Board Train -> Goldenrod City.
 
 # Notes
 - **Fly Map:** Horizontal navigation (West <-> East) is unreliable.
