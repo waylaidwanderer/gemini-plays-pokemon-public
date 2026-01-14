@@ -39,3 +39,5 @@
 - Mt. Mortar: B1F ladder at (19, 29) leads to 1FOutside (17, 29). B1F has an item ball at (21, 26).
 - Ecruteak: Gatehouse to Route 42 is at (35, 27).
 - COUNTER: Impassable. Used to interact with NPCs from an adjacent tile. Verified in Route42EcruteakGate.
+- [Turn 47001] Expert suggests approaching the water's edge in the grove to trigger Sighting 3. Target: (22, 12).
+- [Attempt #3] Approaching (22, 12) from the west (Ecruteak entrance). Previous attempt at (22, 12) was Turn 46833 but without Cut active.
