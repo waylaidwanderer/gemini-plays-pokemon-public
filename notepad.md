@@ -12,24 +12,23 @@
 - COUNTER: Impassable. Used to interact with NPCs from an adjacent tile.
 
 # Suicune Quest
-- Status: 16 Badges, Clear Bell in inventory, Red Defeated (Turn 44000).
+- Status: 16 Badges, Clear Bell in inventory.
 - Start Turn (Route 42 Grove): 47288.
-- Sighting Progress:
+- Sighting Progress (Sequential):
     1. Burned Tower (DONE)
     2. Cianwood City (DONE - Confirmed Turn 47347)
-    3. Route 42 (Middle Grove) - TRIGGER ATTEMPTED (Swept Turn 47324, re-entered Turn 47365. Empty.)
-    4. Route 36 (Violet City North) - IN PROGRESS (Checking (11, 9) area)
-    5. Kanto Route 14 (East of Fuchsia) - SIGHTING LOCKED
-    6. Kanto Route 25 (Cerulean Cape) - SIGHTING LOCKED
+    3. Route 42 (Middle Grove) - PENDING (Trigger missed or requires specific approach)
+    4. Route 25 (Kanto, near Bill's House) - LOCKED
 - Strategy:
-    - Verify sightings sequentially. Johto: Burned Tower -> Cianwood -> Route 42 -> Route 36.
-    - If a Johto sighting is skipped, later sightings (including Kanto and Tin Tower) are blocked.
-- Hypothesis Log:
-    - H1: Trigger tile missed in grove. (Tested with full sweep).
-    - H2: Missing prerequisite sighting. (Cianwood DONE, checking Route 36).
-    - H3: Sighting sequence is strictly linear. (Confirmed by expert).
+    - Sighting order is strictly linear: Burned Tower -> Cianwood -> Route 42 -> Route 25 -> Tin Tower.
+    - Suicune stays in the Route 42 grove until approached.
+- Backtracking Plan (HOW):
+    - Fly to Ecruteak City.
+    - Head East through the gatehouse to Route 42.
+    - Use Cut on the tree at (24, 13) to enter the grove.
+    - Approach the center of the grove (approx. (28, 15)) to trigger Suicune fleeing.
 - General Lessons:
-    - Menu Navigation: Verify cursor position before issuing long 'menu_navigator' sequences to avoid wrapping or selecting wrong options.
+    - Route 36 is NOT a Suicune sighting location in Pokemon Crystal.
     - Fly Tool: 'fly_list_navigator_v3_fixed' is now calibrated for Johto (Up increases index).
 
 # PC Storage (Box 1)
