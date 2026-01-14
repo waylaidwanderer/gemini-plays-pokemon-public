@@ -6,12 +6,12 @@
 # Strategic Status
 - **Goal:** Register Raikou & Entei.
 - **Current Task:** Restock Supplies.
-- Location: Celadon Dept Store Elevator.
-- Action: Selecting 5F in Elevator.
+- Location: Celadon Dept Store 5F.
+- Action: Exiting Elevator to find Drug Store (Max Repels).
 - Status: Deep Post-Game.
-- Notes: 2F Clerks had no Repels. 5F (Drug Store) is next best bet.
+- Notes: 2F Clerks had no Repels. 5F (Drug Store) is the target.
 - Strategy:
-    1. **Buy Repels:** Go to 5F (Drug Store) via elevator.
+    1. **Buy Repels:** Buy Max Repels from 5F Drug Store.
     2. **Transit:** Exit to Celadon City/Route 7.
     3. **Prepare Team:** Lead with Gyarados (Lv 37) + Max Repel.
     4. **Hunt:** Roam Route 31/30/36 area or use Route 37/Ecruteak loop.
