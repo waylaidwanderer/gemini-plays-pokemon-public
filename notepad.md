@@ -1,31 +1,30 @@
 # Suicune Quest
-- Objective: Trigger sighting in Cianwood City at northern shore.
-- Strategy: The Southern Promenade (Verified Land Route)
-    1. Fly to Cianwood Pokemon Center at (23, 44).
-    2. Walk South to Row 51.
-    3. Walk West along Row 51 to (4, 51).
-    4. Walk North along X=4 to (4, 44).
-    5. Walk West along Row 44 to (2, 44).
-    6. Walk North along X=2 corridor to Row 4.
-    7. Walk East along Row 4 to (7, 4) to trigger sighting.
-- Note: The Sea Loop is too complex with buoy walls. Row 51 and X=2 are the only clear long-distance thoroughfares.
-- Suicune sighting count = 1.
+- Objective: Catch Suicune.
+- Sighting Progress:
+    1. Burned Tower (DONE)
+    2. Cianwood City (DONE - Eusine defeated at Turn 41111)
+    3. Route 42 (Mahogany side) - PENDING
+    4. Kanto Route 25 (Cerulean Cape) - PENDING
+- Strategy: Visit sighting spots in order. Then Tin Tower.
+- Items: Clear Bell (HAVE IT).
+- Started tracking: Turn 46801
 
-# Tile Mechanics (Cianwood)
+# Tile Mechanics
 - FLOOR: Standard walkable ground.
 - WATER: Traversable only while Surfing.
-- WALL / FLOOR_UP_WALL / LEDGE_HOP_DOWN: All act as IMPASSABLE obstacles from the north.
-- BUOY: Impassable water obstacle.
-- Interaction: Surf from FLOOR adjacent to WATER by pressing A.
+- WALL / BUOY: Impassable.
+- FLOOR_UP_WALL: Impassable from the NORTH. Verified at (23, 46).
+- LEDGE_HOP_DOWN: Impassable from the NORTH (can only jump SOUTH).
 
-# Confirmed Corridors
-- X=19: Clear from Row 30 to Row 51.
-- Row 51: Clear from X=4 to X=23.
-- X=4: Clear from Row 44 to Row 51.
-- Row 44: Clear from X=2 to X=23.
-- X=2: Clear from Row 4 to Row 49.
+# Map Insights (Cianwood)
+- Divided by internal walls. Use Row 51 to switch strips.
+- X=19, X=18, X=2 are long north-south corridors.
+- Gap in buoy wall at (22, 8).
+
+# Pokedex / Party Planning
+- Missing Suicune.
+- Need to check Roaming Beasts (Raikou/Entei) progress later.
 
 # Lessons Learned
-- Cianwood ledges are impassable from the north. Do not attempt to jump them.
-- Internal walls divide the city into vertical strips; use Row 51 to move between them.
-- Always reveal tiles manually before planning long-distance routes.
+- Eusine battle confirms sighting completion.
+- Buoy walls are highly restrictive; land routes often safer.
