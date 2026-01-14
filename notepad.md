@@ -1,9 +1,9 @@
 # Strategic Status
 - **Goal:** Return to Johto (Via Magnet Train).
-- **Current Action:** Walking to Magnet Train Station in Vermilion City.
-- **Path:** Diglett's Cave Exit -> Magnet Train Station (13, 13) -> Goldenrod City.
+- **Current Action:** Exiting Vermilion House -> Magnet Train Station.
+- **Path:** Vermilion City -> Magnet Train Station -> Goldenrod City.
 
-# Known Issues
+# Notes
 - **Fly Map:** Horizontal navigation (West <-> East) is unreliable. Stuck in West Kanto loop. Workaround: Ground travel via Diglett's Cave (Completed). Now in East Kanto.
 
 # Roamer Hunting Strategy
