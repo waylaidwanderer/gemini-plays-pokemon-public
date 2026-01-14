@@ -24,6 +24,6 @@
     7. Sail West to (14, 8), then South to (14, 10) and land.
     8. Walk to Suicune at (7, 4).
 - Preparation: Lead with XENON (Haunter) for Hypnosis. Be ready for Eusine.
-- Status: Surfing at (19, 29). Starting the loop.
+- Status: Surfing at (19, 29). Sailing east to the channel entrance at (27, 10).
 - Start Turn: 47680 (Suicune North Beach Quest)
 - Start Time: Wednesday, Jan 14, 2026, 4:00 AM PST
