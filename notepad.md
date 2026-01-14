@@ -1,26 +1,26 @@
 # Mechanics & State
-- **Location:** Goldenrod Magnet Train Station.
-- **Goal:** Go to Celadon (Kanto).
-- **Current Position:** (9, 10) -> Boarding Train.
-- **Action:** Walking through gate to Train Door at (6, 5).
-- **Key Item:** Pass (Have).
-- **Inventory Check:**
-  - Goldenrod had no Super Repels.
-- **Shopping List:**
-  - Super Repels (Need ~20).
-  - Ultra Balls.
+- **Location:** Route 7 (Near Celadon).
+- **Goal:** Enter Celadon City -> Dept Store.
+- **Current Position:** (0, 1).
+- **Action:** Entering Celadon City.
+- **Shopping List:** Super Repels (~20), Ultra Balls.
 - **Money:** ¥12294.
 
-# Travel Plan
-1. Enter Station (Done).
-2. Show Pass to Officer (Done).
-3. Board Train (Current).
-4. Arrive Saffron City.
-5. Go to Celadon Dept Store.
+# Key Locations Inventory
+- **Goldenrod Dept Store:** Checked 2F-5F. NO Super/Max Repels. Only Basic Items, X-Items, Vitamins, TMs.
 
-# Current Task: Roamer Hunt
-- **Status:** Transit to Kanto.
-- **Next Step:** Arrive Saffron.
+# Roamer Hunting Strategy
+1.  **Party Leader:** Gyarados (Lv 36).
+2.  **Item:** Super Repel (prevents wild mons < Lv 36).
+3.  **Location:** Route 37 <-> Ecruteak boundary.
+4.  **Method:** Use Repel, walk in grass. If nothing, switch map, return, repeat.
+5.  **Target:** Raikou/Entei (Lv 40). They will spawn because 40 > 36.
+
+# Travel Plan
+1. Enter Celadon City.
+2. Locate Dept Store.
+3. Buy Supplies.
+4. Return to Johto (Fly/Train).
 
 # Progress
 - **Badges:** 16/16.
