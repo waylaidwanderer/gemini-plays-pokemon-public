@@ -109,5 +109,47 @@
         "action_counter": 47525
       }
     ]
+  },
+  "find_path_crystal_v4_fixed": {
+    "description": "Calculates a path between two coordinates on the current map, accounting for Pokemon Crystal collision types like one-way walls (FLOOR_UP_WALL) and ledges (LEDGE_HOP_DOWN). Returns a JSON array of coordinates. Supports 'allow_water' for surfing and 'handle_unseen' to treat unknown tiles as walkable.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "allow_water": {
+          "default": false,
+          "type": "boolean"
+        },
+        "handle_unseen": {
+          "default": true,
+          "type": "boolean"
+        },
+        "start_x": {
+          "type": "integer"
+        },
+        "start_y": {
+          "type": "integer"
+        },
+        "target_x": {
+          "type": "integer"
+        },
+        "target_y": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "start_x",
+        "start_y",
+        "target_x",
+        "target_y"
+      ]
+    },
+    "python_script": "import json\nimport xml.etree.ElementTree as ET\nfrom collections import deque\n\ndef solve():\n    try:\n        # Use input_data directly (injected by harness)\n        start_x = int(input_data.get('start_x', 0))\n        start_y = int(input_data.get('start_y', 0))\n        target_x = int(input_data.get('target_x', 0))\n        target_y = int(input_data.get('target_y', 0))\n        allow_water = input_data.get('allow_water', False)\n        handle_unseen = input_data.get('handle_unseen', True)\n        \n        root = ET.fromstring(map_xml_string)\n        width = int(root.attrib['width'])\n        height = int(root.attrib['height'])\n        \n        grid = {}\n        if handle_unseen:\n            for y in range(height):\n                for x in range(width):\n                    grid[(x, y)] = True\n\n        for row in root.findall('Row'):\n            y = int(row.attrib['id'])\n            for tile in row.findall('Tile'):\n                x = int(tile.attrib['id'])\n                t_type = tile.attrib['type']\n                has_obj = tile.attrib.get('has-object') == 'true'\n                seen = tile.attrib['seen'] == 'true'\n                \n                if not seen:\n                    if handle_unseen:\n                        grid[(x, y)] = True\n                    else:\n                        grid[(x, y)] = False\n                    continue\n                \n                if t_type in ['WALL', 'BUOY', 'HEADBUTT_TREE', 'CUT_TREE', 'FRUIT_TREE', 'COUNTER']:\n                    grid[(x, y)] = False\n                elif t_type == 'WATER':\n                    grid[(x, y)] = 'WATER'\n                elif t_type == 'FLOOR_UP_WALL':\n                    grid[(x, y)] = 'UP_WALL'\n                elif t_type == 'LEDGE_HOP_DOWN':\n                    grid[(x, y)] = 'LEDGE'\n                else:\n                    grid[(x, y)] = True\n                    \n                if has_obj:\n                    # Player tile is always walkable\n                    if not tile.find('Player') is not None:\n                        grid[(x, y)] = False\n\n        queue = deque([((start_x, start_y), [])])\n        visited = {(start_x, start_y)}\n        \n        while queue:\n            (cx, cy), path = queue.popleft()\n            \n            if (cx, cy) == (target_x, target_y):\n                res = path + [{\"x\": cx, \"y\": cy}]\n                print(json.dumps(res))\n                return\n                \n            for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n                nx, ny = cx + dx, cy + dy\n                \n                if (nx, ny) in grid:\n                    val = grid[(nx, ny)]\n                    if val is False: continue\n                    if not allow_water and val == 'WATER': continue\n                    \n                    # Crystal Collision Rules\n                    # UP_WALL: Blocks movement across the top edge\n                    if dy == 1 and val == 'UP_WALL': continue # Moving SOUTH into UP_WALL (from North)\n                    if dy == -1 and grid.get((cx, cy)) == 'UP_WALL': continue # Moving NORTH out of UP_WALL (to North)\n                    if dy == -1 and val == 'UP_WALL': continue # Moving NORTH into UP_WALL (from South) - this is also a wall\n                    \n                    # LEDGE_HOP_DOWN: One-way jump from North to South\n                    if dy == -1 and val == 'LEDGE': continue # Moving NORTH into LEDGE\n                    \n                    if (nx, ny) not in visited:\n                        visited.add((nx, ny))\n                        queue.append(((nx, ny), path + [{\"x\": cx, \"y\": cy}]))\n        \n        print(json.dumps([]))\n    except Exception as e:\n        print(json.dumps({\"error\": str(e)}))\n\nsolve()",
+    "history": [
+      {
+        "commit_message": "Refined FLOOR_UP_WALL collision: blocks entry from North and exit to North (top edge barrier).",
+        "timestamp": "2026-01-14T09:59:53.177Z",
+        "action_counter": 47545
+      }
+    ]
   }
 }

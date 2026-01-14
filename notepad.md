@@ -21,12 +21,9 @@
 # Suicune Quest
 - Start Turn (Cianwood Re-attempt): 47450
 - Status: Sighting 2 (Cianwood North Beach) in progress.
-- Land Route Discovery (Turn 47541): The only way to reach the north beach (7, 4) is via the west corridor (X=2). To reach it from the center, one must go south to Row 51 via the gap at (21, 50), then west to X=2, then all the way north.
-- Plan:
-    1. Navigate to (21, 51) via (27, 45) and (27, 47) loop.
-    2. Follow Row 51 west to (2, 51).
-    3. Follow X=2 corridor north to (2, 4).
-    4. Trigger Suicune sighting at (7, 4).
+- Current Plan: Navigate to (19, 30), Surf North through the East channel, then land on the North beach.
+- Verification (Turn 47545): FLOOR_UP_WALL tiles are two-way barriers across their top edge. Land detour to Row 51 is impossible from the center.
+- Strategy: Use Surf to bypass the land maze. Gaps in buoy walls at (23, 15) and (21, 9) allow passage to the northern landing zone.
 - Sighting 1: Burned Tower (DONE)
 - Battle Strategy: Use XENON (Haunter) for Hypnosis. Chip HP with fixed damage moves if needed.
 
