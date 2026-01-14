@@ -1,14 +1,14 @@
 # Suicune Quest
 - Start Turn: 46650
 - Objective: Trigger sighting in Cianwood City at (7, 4).
-- Strategy: The West Side Jump
-    1. Walk to (6, 45).
-    2. Jump South over the ledge at (6, 46) to land at (6, 47).
-    3. Walk West to (2, 47).
+- Strategy: The Row 43 Crossing
+    1. Walk West along Row 44 to (7, 44).
+    2. Walk North to (7, 43).
+    3. Walk West along Row 43 to X=2.
     4. Walk North along X=2 corridor to Y=14.
-    5. Walk East to (8, 14), then North to (8, 11).
-    6. Walk West to (7, 11), then North to (7, 4).
-- Note: This path bypasses the main city walls. X=2 and Y=14 are key thoroughfares. Suicune sighting count = 1.
+    5. Walk East along Row 14 to (8, 14), then North to (8, 11).
+    6. Walk West along Row 11 to (7, 11), then North to (7, 4).
+- Note: Row 43 is a clear crossing from the center to the west side, bypassing the Gym at (8, 43). X=2 is the primary north-south thoroughfare. Suicune sighting count = 1.
 
 # Roaming Beast Data
 - Raikou: Unknown
