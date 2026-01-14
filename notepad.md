@@ -2,7 +2,7 @@
 - **Location:** Goldenrod Magnet Train Station.
 - **Goal:** Go to Celadon (Kanto).
 - **Current Position:** (9, 10) - At Gate.
-- **Action:** Advancing dialogue ("May I see your rail PASS?").
+- **Action:** Advancing text ("Right this way, please").
 - **Key Item:** Pass (Have).
 - **Inventory Check:**
   - Goldenrod had no Super Repels.
@@ -20,7 +20,7 @@
 
 # Current Task: Roamer Hunt
 - **Status:** Transit to Kanto.
-- **Next Step:** Watch Train Animation -> Arrive Saffron.
+- **Next Step:** Board Train -> Saffron.
 
 # Progress
 - **Badges:** 16/16.
