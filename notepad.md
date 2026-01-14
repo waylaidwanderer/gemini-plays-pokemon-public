@@ -13,11 +13,9 @@
 - Current Objective: Cianwood City sighting at (7, 4).
 - Start Turn: 46373.
 - Strategy (The "How"):
-    1. Walk to Ledge: (11, 15) -> (11, 28) -> (4, 28) -> (4, 29).
-    2. Jump Ledge: (4, 29) -> (4, 31).
-    3. Walk to West Coast: (4, 31) -> (2, 31).
-    4. Walk to Sighting Area: (2, 31) -> (2, 14) -> (7, 14) -> (7, 4).
-- Note: Suicune in Cianwood is a sighting event, not a battle. No need for battle prep. No battle will occur here.
+    1. Walk North to (11, 15): (4, 29) -> (4, 28) -> (9, 28) -> (9, 21) -> (11, 21) -> (11, 15).
+    2. Walk North/West to (7, 4): (11, 15) -> (11, 14) -> (10, 14) -> (10, 12) -> (7, 12) -> (7, 4).
+- Note: Suicune in Cianwood is a sighting event, not a battle.
 
 # Strategy: Capture all Legendary Pokemon
 - Requirements: Clear Bell (Owned), 16 Badges (Owned).
