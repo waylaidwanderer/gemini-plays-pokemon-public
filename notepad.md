@@ -12,24 +12,25 @@
 - COUNTER: Impassable. Used to interact with NPCs from an adjacent tile.
 
 # Suicune Quest
-- Status: 16 Badges, Clear Bell in inventory.
+- Status: 16 Badges, Clear Bell in inventory, Red Defeated.
 - Start Turn (Route 42 Grove): 47288.
 - Sighting Progress:
     1. Burned Tower (DONE)
-    2. Cianwood City (VERIFYING - North Beach at (11, 17))
-    3. Route 42 (Middle Grove) - TRIGGER FAILED (Swept all tiles on Turn 47324).
-    4. Kanto Route 14 (East of Fuchsia) - SIGHTING LOCKED.
-    5. Kanto Route 25 (Cerulean Cape) - SIGHTING LOCKED.
+    2. Cianwood City (DONE - Beach empty at (11, 17))
+    3. Route 42 (Middle Grove) - TRIGGER FAILED (Swept on Turn 47324)
+    4. Route 36 (Violet City North) - PENDING
+    5. Kanto Route 14 (East of Fuchsia) - SIGHTING LOCKED
+    6. Kanto Route 25 (Cerulean Cape) - SIGHTING LOCKED
 - Strategy:
-    - Verify Cianwood sighting at (11, 17). If Eusine/Suicune are gone, Cianwood is confirmed.
-    - If Cianwood is confirmed, re-attempt Route 42 by entering from Ecruteak.
-    - Suicune must be triggered at all Johto spots before Kanto sightings unlock.
+    - Verify sightings sequentially. Johto: Burned Tower -> Cianwood -> Route 42 -> Route 36.
+    - If a Johto sighting is skipped, later sightings (including Kanto and Tin Tower) are blocked.
 - Backtracking Plan (HOW):
-    - Walk to (11, 17) and check for NPCs/Sprites.
-    - If clear, Fly to Ecruteak and walk to Route 42 grove.
+    - Confirmed Cianwood is DONE (empty beach).
+    - Fly to Violet City and check Route 36 sighting spot.
+    - If Route 36 is not triggered, re-attempt Route 42 by entering from Ecruteak side.
 - Hypothesis Log (Route 42):
     - H1: Trigger is a specific tile within the grove boundary. (Tested with 'suicune_sweep_v2', Failed Turn 47324).
-    - H2: Prerequisite (Cianwood Sighting) is incomplete. (Testing now at (11, 17)).
+    - H2: Missing prerequisite sighting. (Cianwood verified DONE, checking Route 36 next).
 
 # PC Storage (Box 1)
 - DAPXWW (LARVITAR): Lv20
