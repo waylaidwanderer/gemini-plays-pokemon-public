@@ -9,6 +9,9 @@
 - **Automation Limits:** Long macro tools crossing map boundaries are unreliable due to variable load times and interruptions (phone calls, repels). Use short, verifiable sequences instead.
 
 # Strategic Status
+- **Money:** ¥2294 (Enough for ~4 Super Repels).
+- **Shopping List:** Super Repel x4.
+- **Inventory Check:** No high-value items to sell in bag.
 - **Goal:** Register Raikou & Entei.
 - **Strategy:** Blind Hunt (Optimized). 
     - **Logic:** Tracking roamers from adjacent maps is futile because entering their map causes them to move. Thus, a blind encounter on entry is the only valid method.
