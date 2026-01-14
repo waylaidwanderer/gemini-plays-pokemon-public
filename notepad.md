@@ -2,18 +2,16 @@
 - **Location:** Route 23 (Indigo Plateau).
 - **Goal:** Return to Johto (Goldenrod).
 - **Current Position:** Route 23 (9, 10).
-- **Action:** Navigating Fly Map (Testing Right from Cinnabar).
+- **Action:** Navigating Fly Map (Testing Left).
 - **Inventory Update:**
   - 20 Super Repels (Bought).
   - 16 Ultra Balls (Existing).
-- **Correction:** 'Right' blocked at Indigo. 'Down' jumps straight to Cinnabar. 'Up' jumps back to Indigo.
-- **Hypothesis:** Left column navigation is jumpy. Testing 'Right' from Cinnabar to reach East side (Fuchsia/Saffron).
+- **Correction:** 'Right' failed from both Indigo and Cinnabar. 'Down/Up' loops between them.
+- **Hypothesis:** Map might wrap via 'Left', or I missed Fly points (Unlikely, was in Celadon/Saffron).
 - **Next Steps:**
-  1. Press Right from Cinnabar (Expect: Fuchsia).
-  2. If Fuchsia, navigate Up/Left to Saffron.
-  3. Magnet Train to Goldenrod.
-  4. Fly to Ecruteak/Route 37.
-  5. Begin Roamer Hunt (Repel Trick Lvl 36).
+  1. Test 'Left' from Cinnabar.
+  2. Test 'Left' from Indigo.
+  3. If Fly fails, WALK to Viridian City and retry/travel.
 - **Money:** ¥12294.
 
 # Directory Info (Celadon)
