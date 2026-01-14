@@ -18,19 +18,23 @@
 - Item: Ultra Balls (32).
 - Backup: GORP (Snorlax) for tanking.
 
-# Strategic Plan: The Southern Corridor Sprint
+# Strategic Plan: The West Beach Sprint (Turn 48227)
 - Goal: Reach Suicune sighting spot at (14, 10).
-- Trek Start: Turn 48203.
-- Problem: City center is a plateau; Great Spiral is a dead end.
-- Solution: Row 51 is a low-level corridor connecting east and west beaches.
-- Step 1: Land at (19, 30). (In Progress)
-- Step 2: Walk to Southern Gap at (20, 51) via (20, 50).
-- Step 3: Walk West along Row 51 to West Beach at (2, 51).
-- Step 4: Walk North along Column X=2 to (2, 10).
+- Problem: Buoy maze is complex; city center is tiered.
+- Solution: Verified land route via gaps at (12, 44) and (5, 35).
+- Step 1: Walk to (12, 44). (In Progress)
+- Step 2: Walk to (12, 35) -> (5, 35).
+- Step 3: Walk West to West Beach at (2, 35).
+- Step 4: Walk North along X=2 to Row 10.
 - Step 5: Walk East along Row 10 to (14, 10).
-- Status: At (18, 26). Repel active.
+- Status: At (19, 30). Repel active.
 
 # Verified Landmarks
-- Southern Gap: (20, 50-51) - Only way down from the city plateau.
+- Land Gap 1: (12, 44) - Clear north-south passage between Tier 1 and Tier 2.
+- Land Gap 2: (5, 35) - Clear east-west passage to West Beach.
 - West Beach Corridor: Column X=2 - Clear path from Row 51 to Row 10.
-- Dead Ends: Great Spiral (WATER), Row 35 gaps (blocked by cliffs).
+- Dead Ends: Great Spiral (Nautical maze), Row 15 wall (X=3-17).
+
+# Custom Tools (Technical Details)
+- find_path_v4: BFS pathfinder. Handles LAND vs WATER medium consistency. Treats unseen tiles as traversable within the starting medium. Handles LEDGE_HOP_DOWN as one-way (dy=1).
+- route_analyst (Agent): Expert in map connectivity and elevation analysis.
