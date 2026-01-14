@@ -2,9 +2,9 @@
 
 # Strategic Status
 - **Goal:** Register Raikou & Entei.
-- **Current Action:** Walking North from Goldenrod to Route 35.
-- **Location:** Goldenrod City (19, 6).
-- **Status:** Fly Attempt concluded. Proceeding on foot to Ecruteak via National Park.
+- **Current Action:** Traversing Route 35 Gatehouse.
+- **Location:** Route 35 Gatehouse.
+- **Status:** Moving North to Route 35.
 
 # Roamer Hunting Strategy (Route 37)
 1.  **Setup:** 
