@@ -8,15 +8,13 @@
 - Interaction: To Surf, face WATER from an adjacent FLOOR tile and press A. Stepping onto FLOOR from WATER automatically ends Surfing.
 
 # Suicune Quest
+- Start Turn: 46650
 - Objective: Trigger sighting in Cianwood City at (7, 4).
 - Strategy:
-    1. Surf South to (14, 30) and land at (14, 31).
-    2. Walk East to (19, 31).
-    3. Surf East to (20, 31).
-    4. Surf North to (20, 11).
-    5. Surf West to (16, 11) and land.
-    6. Walk to (7, 4) (via West Coast X=2 path).
-- Note: This is a sighting event. Suicune will flee.
+    1. Land at (13, 16).
+    2. Walk north through the gap at (11, 15).
+    3. Navigate to (7, 4) to trigger the sighting.
+- Note: Suicune will flee after the encounter.
 
 # Roaming Beast Data
 - Raikou: Unknown
@@ -34,3 +32,7 @@
 - GNEISS (Graveler): Earthquake, Defense Curl, Strength, Rollout.
 - GORP (Snorlax): Surf, Rest, Body Slam, Rollout.
 - ICARUS (Pidgeotto): Fly, Sand-Attack, Gust, Quick Attack.
+
+# Lessons Learned
+- Verify "gaps" in walls and buoy lines using tools like run_code or pathfinders before committing to long detours. My assumption of a solid wall led to a 100+ turn detour that was unnecessary.
+- BUOY tiles at X=16 and X=18 create a channel at X=17, but it is blocked at Y=25. X=15 is clear for North/South travel between Y=16 and Y=31.
