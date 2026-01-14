@@ -21,11 +21,10 @@
 # Suicune Quest
 - Start Turn (Cianwood Re-attempt): 47450
 - Status: Sighting 2 (Cianwood North Beach) in progress.
-- Strategy: Use land route via (11, 15) gap. Water route is likely blocked by buoy walls.
-- Route: Land at (19, 30) -> Walk to (12, 30) -> Walk North to (12, 16) -> West to (11, 16) -> North through (11, 15) -> North Beach (7, 4).
+- Current Plan: Test SOUTHWARD entry into FLOOR_UP_WALL at (19, 50). If successful, follow Row 51 west to X=2 corridor.
 
 # Lessons Learned
 - Fly to Cianwood lands at (23, 44) (Poke Center).
-- Eastern water channel is blocked by buoys at Row 15 and Row 9 with no confirmed path.
-- (11, 15) is a critical land gap for reaching the north of the island.
-- FLOOR_UP_WALL: Blocks NORTHWARD movement. Southward entry test PENDING.
+- Eastern water channel is blocked by buoy zigzag with no land-access gaps found yet.
+- (11, 15) is a potential land gap, but blocked from south by Row 22 water and Row 13 walls.
+- FLOOR_UP_WALL: Blocks NORTHWARD movement. Southward entry test in progress.
