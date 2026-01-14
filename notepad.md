@@ -13,6 +13,7 @@
 - Status: 16 Badges, Red Defeated, Clear Bell in inventory.
 - Timestamps:
     - Tin Tower Investigation Started: Turn #47028
+    - Route 42 Re-investigation Started: Turn #47046
 - Sighting Progress:
     1. Burned Tower (DONE)
     2. Cianwood City (DONE - Eusine defeated)
@@ -21,6 +22,7 @@
     5. Kanto Route 25 (Cerulean Cape) - PENDING
 - Strategy: Visit sighting spots in order. Route 42 is the current bottleneck. The Wise Trio in Ecruteak are non-interactable, likely until the Route 42 sighting is triggered.
 - Expert Advice: Suicune must be found in the grove near the middle of Route 42 (requires Cut or Surf).
+- Hypothesis: Sighting might require entering the grove from the Ecruteak side or standing on a specific tile.
 
 # Verified Failures (Route 42)
 - "Mow the lawn" in grove: FAILED (60+ turns, 100% tile coverage).
@@ -29,6 +31,7 @@
 - "Re-entry from Ecruteak": FAILED.
 - "Re-entry from Mt. Mortar": FAILED.
 - "Eusine in Ecruteak Center": FAILED (Turn 46981).
+- Wise Trio Interaction (Ecruteak): FAILED (Turn 47043).
 
 # Map Insights
 - Route 42: Middle grove with Apricorns requires Cut at (24, 13).
