@@ -1,17 +1,16 @@
 # Mechanics & State
-- **Location:** Goldenrod Dept Store 2F (Trainer's Market).
+- **Location:** Goldenrod Dept Store 3F (Battle Collection).
 - **Goal:** Supply Run (Dept Store).
-- **Current Position:** (11, 5).
-- **Action:** taking Stairs to 3F.
-- **Hypothesis:** Goldenrod inventory might be fixed (doesn't scale with badges).
-- **Plan:** Check 3F/4F/5F quickly. If no Super Repels, Fly to Celadon (Kanto).
+- **Current Position:** (12, 1) - Arrived from 2F.
+- **Action:** Walking to Clerk at (6, 1).
+- **Interaction Point:** Stand at (6, 3), Face Up.
 - **Shopping List:**
   - Super Repels (Need ~20).
   - Ultra Balls (If available).
 - **Money:** ¥12294.
 
 # Directory Info
-- **2F:** Trainer's Market.
+- **2F:** Trainer's Market (Checked - No Repels).
 - **3F:** Battle Collection.
 - **4F:** Medicine Box.
 - **5F:** TM Corner.
@@ -19,7 +18,7 @@
 
 # Current Task: Roamer Hunt
 - **Status:** Searching for Super Repels.
-- **Next Step:** Check 3F (Battle Collection).
+- **Next Step:** Check 3F Clerk -> If no Repels, check 4F/5F.
 
 # Progress
 - **Badges:** 16/16.
