@@ -12,11 +12,6 @@
 - FLOOR_UP_WALL: Ledge face. Impassable.
 - LEDGE_HOP_DOWN: One-way jump (North to South).
 
-# Fly Navigation (Verified)
-- Interface: Linear list in a 'Where?' bubble.
-- Control: Use Up/Down to scroll. Left/Right/Grid-taps are ineffective.
-- Order (Partial): New Bark -> Silver Cave -> Blackthorn -> Lake of Rage -> Mahogany -> Cianwood.
-
 # Suicune Capture Strategy
 - Start Turn: 47680
 - Lead: XENON (Haunter, Lv44).
@@ -29,12 +24,16 @@
 - Entrance: (27, 44).
 - Channel Entrance: (27, 30).
 - Maze Logic (Spiral Inward):
-  1. Lane 1 (X=27-29): Sail North to (27, 10).
-  2. Gap 1: (26, 10). Move West to Lane 2.
-  3. Lane 2 (X=23-25): Sail North to (23, 8) to bypass internal buoy walls.
-  4. Gap 2: (22, 8). Move West to Lane 3/4.
-  5. Lane 4 (X=17-18): Sail North to (17, 6).
-  6. Land at (16, 6) on the north plateau.
-  7. Walk to Suicune at (7, 4).
-- Current Status: At (18, 26). Recovering from incorrect Southbound leg.
-- Next Task: Sail East to Lane 2 (X=23) and head North to Y=8.
+  1. Lane 1 (X=27-29): Sail North to Gap 1 at (26, 10).
+  2. Lane 2 (X=23-25): Sail South to Gap 2 at (22, 16).
+  3. Lane 3 (X=19-21): Sail South to Gap 4 at (18, 26).
+  4. Lane 4 (X=17-18): Sail North to Gap 5 at (16, 20).
+  5. Lane 5 (X=14-16): Sail North to (14, 10) and land.
+- Current Status: At (23, 10) in Lane 2.
+- Next Task: Sail South in Lane 2 to Gap 2 at (22, 16).
+
+# Reflection Turn 48083
+- Error: Hallucinated Lane 2 as Northbound. Hit BUOY wall at (23, 9).
+- Correction: Lane 2 is Southbound. Re-tracing spiral steps to reach Gap 2.
+- Progress: Deep in the buoy maze. Super Repel active.
+- Note: (18, 26) is Gap 4, leading to the final two lanes. Must reach it again.
