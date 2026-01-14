@@ -18,13 +18,14 @@
 - LEDGE_HOP_DOWN: One-way jump from NORTH to SOUTH.
 - COUNTER: Impassable.
 
-# Suicune Quest Strategy: 'The West Corridor Trek'
+# Suicune Quest Strategy: 'The Far South Bypass'
 - Goal: Reach Suicune sighting area at (7, 4).
-- Strategy: Use the 'Rock Gap' at (5, 28) to reach the isolated west coast corridor (X=2).
+- Strategy: Use the southern edge of the map (Row 51) to bypass the city walls and reach the west corridor (X=2).
 - Route:
-    1. Walk from (19, 46) to (12, 44), then north to (12, 33).
-    2. Walk west along Row 33 to (6, 33), then north to (6, 28).
-    3. Cross west through the gap at (5, 28) to reach the corridor at (2, 28).
-    4. Walk north along X=2 to (2, 14), then east to (7, 14).
-    5. Walk north to the sighting area at (7, 10) -> (7, 4).
+    1. Walk from (19, 46) up to (19, 45), then east to (21, 45).
+    2. Walk south to (21, 51).
+    3. Walk west along Row 51 all the way to (2, 51).
+    4. Walk north along X=2 to (2, 14).
+    5. Walk east to (7, 14), then north to the sighting area at (7, 4).
 - Preparation: Lead with XENON (Haunter) for Hypnosis. Be ready for Eusine.
+- Status: Moving to (21, 51).
