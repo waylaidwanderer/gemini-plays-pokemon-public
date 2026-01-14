@@ -18,15 +18,15 @@
 - LEDGE_HOP_DOWN: One-way jump from NORTH to SOUTH.
 - COUNTER: Impassable.
 
-# Suicune Quest Strategy: 'The Grand Circuit'
+# Suicune Quest Strategy: 'The Southern Sea Bypass'
 - Goal: Reach Suicune sighting area at (7, 4).
-- Fact: City center is blocked by one-way land barriers (FLOOR_UP_WALL) and buoy walls.
-- Solution: The only path to the west corridor (X=2) is via the southern bypass (Row 51).
+- Problem: City center and northern waters are blocked by interlocking barriers.
+- Solution: Sail south from the east coast, land on the southern strip (Row 51), and walk west to the X=2 corridor.
 - Route:
-    1. Walk to (19, 30) and Surf.
-    2. Sail south on the east coast to Row 51.
-    3. Land at (24, 51) or (27, 51) and walk west along Row 51 to (2, 51).
+    1. Surf at (19, 30).
+    2. Sail south to (29, 51).
+    3. Land at (24, 51) and walk west to (2, 51).
     4. Walk north along X=2 to (2, 14), then east to (7, 14).
     5. Walk north to the sighting area at (7, 4).
 - Preparation: Lead with XENON (Haunter) for Hypnosis. Be ready for Eusine.
-- Status: Moving to (19, 30).
+- Status: Closing Tully's call, then sailing south.
