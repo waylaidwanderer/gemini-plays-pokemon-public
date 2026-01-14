@@ -19,15 +19,12 @@
 - Item: Ultra Balls (32).
 - Note: Suicune is Water type. Calcifer (Fire) is vulnerable. GORP (Snorlax) is a good tank.
 
-# Strategic Plans
-## Locate Suicune (Cianwood North Beach)
-- Objective: Reach (7, 4) on the north beach plateau.
-- Primary Route: The 'Great Spiral' buoy maze via (27, 30).
-- Shortcut Hypothesis: Walking North along the West beach at X=2 may bypass the maze.
-- Verification Task: Navigate to (2, 35) and walk North to Y=4.
-
-## Verify 'Gem Shortcut'
-- Result: FAILED. Gap at (11, 15) is a dead-end pocket. Marker 🚫 placed.
+# Strategic Plans: Locate Suicune
+- Start Turn: 47680
+- Hypothesis: Walking North along the West beach at X=2 may bypass the buoy maze.
+- Verification: Navigate to (2, 35) and walk North.
+- Success: Reaching (7, 4).
+- Failure: Ledge or Wall blocking X=2 at Y=10. Revert to 'Great Spiral'.
 
 ## The Great Spiral (Maze Logic)
 - Entrance: (27, 30).
