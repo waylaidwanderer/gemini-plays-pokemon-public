@@ -25,5 +25,6 @@
 - **Detour:** Goldenrod Dept Store was a bust. No Super Repels.
 - **New Plan:** Fly to Indigo Plateau. Beat E4 for cash. Buy Max Repels.
 - **Fly Map Status:** Cursor at New Bark Town.
-- **Action:** Pressing Right to select Indigo Plateau.
-- **Next Step:** Confirm 'Indigo Plateau' text -> Press A to Fly.
+- **Action:** Pressing Right once.
+- **Expectation:** Destination should change to Indigo Plateau (or possibly Mt. Silver).
+- **Next Step:** Verify text is 'INDIGO PLATEAU' -> Press A.
