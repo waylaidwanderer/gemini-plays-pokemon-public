@@ -2,8 +2,8 @@
 - **Location:** Route 26 (Fly Map Open).
 - **Goal:** Return to Johto.
 - **Current Position:** (7, 6).
-- **Fly Map Cursor:** Pallet Town.
-- **Action:** Navigating Fly Map from Pallet to Saffron (Up -> Right).
+- **Fly Map Cursor:** Viridian City.
+- **Action:** Navigating Fly Map from Viridian to Saffron (Up -> Right -> Down).
 - **Inventory Update:**
   - 19 Super Repels (Active).
   - 16 Ultra Balls (Existing).
@@ -11,7 +11,7 @@
   1. Fly to Saffron City (Targeting).
   2. Magnet Train to Goldenrod.
   3. Fly to Ecruteak/Route 37.
-- **Money:** ¥12294.
+- **Money:** ¥2294.
 
 # Directory Info (Celadon)
 - **2F:** Trainer's Market.
