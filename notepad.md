@@ -22,19 +22,19 @@
 - (11, 14): Dead End Pocket in Cianwood. Wall at (11, 13) and (12, 14) blocks access to the north plateau.
 - (11, 15): Gap in the city wall (Y=15) in Cianwood. Accesses the beach area but not the plateau. (Needs re-verification).
 
-# Fly Navigation (Testing Phase)
+# Fly Navigation (Confirmed)
 - Map: Town Map (Fly).
-- Hypothesis: 1 directional tap = 1 coordinate unit (Tile on Town Map grid).
+- Rule: 7 directional taps = 1 coordinate unit.
+- Evidence: 14 taps moved cursor from New Bark (14, 10) to Cherrygrove (12, 10) [Turn 47978].
 - Target: Cianwood (0, 9).
-- Start: New Bark (14, 10).
-- Displacement: 14 units West, 1 unit North.
-- Failed Fly attempts: 59.
-- Current Test: Press B to clear UI, then 15 Left taps to check for destination name change.
+- Math: 14 units West (98 taps), 1 unit North (7 taps).
+- Strategy: Move cursor in chunks of ~45 taps to avoid button limits.
+- Note: Analyst suggests 5 taps, but 1 tap did not change destination [Turn 48017]. Trusting grid theory.
 
 # Quest Strategies
 ## Suicune: 'The Great Spiral'
 - Fact: The northern plateau is walled off from the south and west. The buoy maze is the only intended entrance.
-- Shortcut Hypothesis: Suicune (7, 4) reachable via beach at X=2. Requires verification of north/south wall at Y=10-20.
+- Shortcut Hypothesis: Suicune (7, 4) reachable via beach at X=2. Gaps at (11, 33) and (11, 35) in Cianwood walls suggest beach access.
 - Route: Fly to Cianwood -> Walk to beach at X=2 -> Walk North to Suicune at (7, 4).
 - Preparation: Lead with XENON (Haunter). Use SUPER REPEL.
-- Capture Strategy: Use XENON's Hypnosis to sleep Suicune. Lower HP with GORP's Body Slam (careful not to KO) or Night Shade. Throw Ultra Balls.
+- Capture Strategy: Use XENON's Hypnosis to sleep Suicune. Use Night Shade (44 dmg) to lower HP (Suicune has ~120 HP). Throw Ultra Balls.
