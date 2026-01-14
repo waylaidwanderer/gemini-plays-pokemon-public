@@ -29,6 +29,6 @@
     4. Move East and North to (14, 10).
     5. Approach Suicune at (7, 4).
 - Preparation: Lead with XENON (Haunter) for Hypnosis. Be ready for Eusine.
-- Status: At (10, 39) on land. Starting western land route.
+- Status: At (10, 45) on land. Executing southern detour to reach west coast.
 - Start Turn: 47680 (Suicune North Beach Quest)
 - Start Time: Wednesday, Jan 14, 2026, 4:00 AM PST
