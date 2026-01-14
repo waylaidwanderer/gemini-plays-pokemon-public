@@ -21,8 +21,12 @@
 # Suicune Quest
 - Start Turn (Cianwood Re-attempt): 47450
 - Status: Sighting 2 (Cianwood North Beach) in progress.
-- Strategy: Surf north through the eastern water channel. 
-- Route: (19, 30) -> (23, 30) -> (23, 15) -> (21, 15) -> (21, 9) -> (7, 9) -> (7, 4).
+- Land Route Discovery (Turn 47541): The only way to reach the north beach (7, 4) is via the west corridor (X=2). To reach it from the center, one must go south to Row 51 via the gap at (21, 50), then west to X=2, then all the way north.
+- Plan:
+    1. Navigate to (21, 51) via (27, 45) and (27, 47) loop.
+    2. Follow Row 51 west to (2, 51).
+    3. Follow X=2 corridor north to (2, 4).
+    4. Trigger Suicune sighting at (7, 4).
 - Sighting 1: Burned Tower (DONE)
 - Battle Strategy: Use XENON (Haunter) for Hypnosis. Chip HP with fixed damage moves if needed.
 
