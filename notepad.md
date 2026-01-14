@@ -4,16 +4,16 @@
 
 # Strategic Status
 - **Goal:** Register Raikou & Entei.
-- **Current Task:** Hall of Fame Induction.
-- **Location:** Hall of Fame Room.
-- **Action:** Credits Rolling.
-- **Status:** Champion Lance Defeated!
+- **Current Task:** Post-Game Initialization.
+- **Location:** Title Screen -> New Bark Town.
+- **Action:** Loading Save File.
+- **Status:** Champion Lance Defeated. Post-Game started.
 - **Strategy:**
-    - **Immediate:** Wait for credits to finish and game to reset to New Bark Town.
-    - **Post-Game Setup:**
-        1. Check Map for Raikou/Entei locations.
-        2. Fly to Goldenrod or Ecruteak to buy **Max Repels**.
-        3. Go to Prof. Elm to get the S.S. Ticket.
-        4. Start Roamer Hunt (Route 37/38 loop).
+    1. **Load Game:** Wake up in New Bark Town.
+    2. **Get S.S. Ticket:** Talk to Mom, then Prof. Elm.
+    3. **Supplies:** Buy Max Repels (if avail) or Super Repels.
+    4. **Roamer Hunt:** Check Pokegear map for Raikou/Entei.
+       - If nearby, pursue.
+       - If not, proceed to Olivine City -> S.S. Aqua -> Kanto.
 - **Goal:** Farm money.
 - **Resources:** ¥36644.
