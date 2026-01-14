@@ -12,7 +12,7 @@
 - Status: Tracking sightings in Johto.
 - Current Objective: Cianwood City sighting at (7, 4).
 - Start Turn: 46373.
-- Strategy (The "How"): Navigate around the buoy barrier to the east (X=23), head north, and land in the northern waters to reach the sighting area.
+- Strategy (The "How"): Walk west to (11, 29), walk north through the gap at (11, 15) to (11, 14), then navigate through the corridor at Y=12 to reach (7, 14) and walk north to (7, 4).
 
 # Hypothesis Testing: FLOOR_UP_WALL
 - Hypothesis: Blocks movement South into the tile and North out of the tile.
