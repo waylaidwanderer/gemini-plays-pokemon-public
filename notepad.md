@@ -44,3 +44,7 @@
 - Buoy walls are highly restrictive; land routes often safer.
 - Multimodal pathfinding fails on water-to-land transitions; use manual navigation or chunks.
 - [Lesson] Always verify 'Surrounding tiles' in GameState before executing a manual movement sequence to avoid hitting obstacles like trees.
+
+# Map Insights (Mt. Mortar)
+- B1F ladder at (19, 29) leads to 1FOutside (17, 29).
+- B1F has an item ball at (21, 26).
