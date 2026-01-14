@@ -46,9 +46,9 @@
 
 # Suicune Quest - Cianwood Verification
 - Turn 47472 (Start): Expert advisor confirms Cianwood is the next sighting. Previous markers (Done/Confirmed) are likely incorrect.
-- Strategy Update (Turn 47484): Instead of a long land detour, I will use Surf from (11, 26) to reach the north beach directly. GORP (Snorlax) knows Surf.
+- Route Discovery (Turn 47486): The water channel on the east is blocked to the north by land at row 15. The only land route to the north beach (7, 4) is the west path (X=2). To reach it, I must go south to Row 51.
 - Plan:
-    1. Use Surf at (11, 26) facing North.
-    2. Navigate through the water to the northern beach area (approx. Row 4).
-    3. Trigger Suicune sighting and Eusine battle.
-- Observation: (11, 26) is adjacent to water, providing a much faster route than the land detour.
+    1. Navigate south to (4, 51) by bypassing the wall at Row 30 (use X=12).
+    2. Cross west to (2, 51) and follow the west path (X=2) all the way north.
+    3. Trigger Suicune event and Eusine battle.
+- Observation: Eusine marker at (11, 17) is likely incorrect based on expert advice.
