@@ -3,7 +3,7 @@
 - LAPIS (POLIWAG): Lv12 (Waterfall, Surf, Whirlpool)
 
 # Tile Mechanics (Global)
-- FLOOR: Standard walkable ground. Verified in Cherrygrove.
+- FLOOR: Standard walkable ground.
 - WATER: Traversable only via Surf.
 - BUOY: Impassable water obstacle.
 - WALL: Impassable obstacle.
@@ -11,14 +11,13 @@
 - DOOR: Warp point.
 - FLOOR_UP_WALL: Ledge face. Impassable.
 - LEDGE_HOP_DOWN: One-way jump (North to South).
-- (11, 14): Dead End Pocket in Cianwood.
-- (11, 15): Potential Gap in Cianwood wall. (Needs verification for beach shortcut).
 
-# Fly Navigation (Grid System)
-- Map: Johto Town Map.
-- Math: 7 directional taps = 1 coordinate unit.
+# Fly Navigation (Grid Math)
+- Map: Town Map (Fly).
+- Rule: 7 directional taps = 1 coordinate unit. (Verified: 14 taps = 2 units from New Bark to Cherrygrove).
 - Target: Cianwood (0, 9) from New Bark (14, 10).
-- Total: 98 Left taps, 7 Up taps.
+- Progress: 0/98 Lefts.
+- Strategy: Move cursor in chunks of 14 taps (2 units) with 250ms sleeps.
 
 # Suicune Capture Strategy
 - Lead: XENON (Haunter).
@@ -28,8 +27,7 @@
 
 # Strategic Plans
 ## Fly to Cianwood
-- Method: Move Fly cursor in chunks of ~42 taps (6 grid units) to avoid button limits and ensure registration.
-- Current Step: Moving cursor 6 units West from New Bark (14, 10) to (8, 10).
+- Current Step: Moving cursor 14 taps West to reach Cherrygrove City.
 
-## Verify 'Gem Shortcut'
-- Task: Once in Cianwood, walk to X=2 beach area via wall gaps. Confirm access to north plateau (Y<30).
+## Verify 'Gem Shortcut' in Cianwood
+- Task: Once in Cianwood, verify if the wall gap at (11, 15) allows access to the north beach plateau (Y < 16).
