@@ -10,13 +10,13 @@
 # Suicune Quest
 - Start Turn: 46650
 - Objective: Trigger sighting in Cianwood City at (7, 4).
-- Strategy:
-    1. Walk to (10, 33).
-    2. Walk South through the gap at (10, 34) to (10, 35).
-    3. Walk West to the corridor at X=2.
-    4. Walk North along X=2 to Y=4.
-    5. Walk East to (7, 4) to trigger the sighting.
-- Note: The ledge at (6, 34) is impassable from the North. The gap at (10, 34) is the key. Suicune sighting count = 1.
+- Strategy: Southern Crossing
+    1. Move south along X=10 to Y=51.
+    2. Move west along Y=51 to X=2.
+    3. Move north along X=2 to Y=4.
+    4. Move east to (7, 4) to trigger the sighting.
+- Note: The inner city is a maze of walls. The southern corridor at Y=51 and the western corridor at X=2 appear to be the most reliable route. Ledge at (6, 34) is confirmed impassable from the north.
+- Progress: Turn 46702, currently at (10, 35). Suicune sighting count = 1.
 
 # Roaming Beast Data
 - Raikou: Unknown
