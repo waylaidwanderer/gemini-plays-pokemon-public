@@ -1,6 +1,6 @@
 # Strategic Status
 - **Goal:** Register Raikou & Entei.
-- **Repel Status:** Applied at Turn 38543.
+- **Repel Status:** Expired. Reapplying.
 - **Session Start:** Turn 38471.
 - **Note:** Bug-Catching Contest is active today (Tuesday).
 
