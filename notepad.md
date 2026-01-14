@@ -4,17 +4,12 @@
 
 # Strategic Status
 - **Goal:** Register Raikou & Entei.
-- **Current Task:** Farm money at Elite Four.
-- **Location:** Lance's Room.
-- **Action:** Battling Champion Lance.
-- **Active Pokemon:** Machoke (Lv 90).
+- **Current Task:** Hall of Fame Induction.
+- **Location:** Hall of Fame Room.
+- **Action:** Watching credits/cutscene.
+- **Status:** Champion Lance Defeated!
 - **Strategy:**
-    - **Lance's Team:**
-        - **Gyarados:** Defeated.
-        - **Aerodactyl:** Defeated.
-        - **Charizard:** Defeated.
-        - **Dragonite (Lv 47):** Defeated.
-        - **Dragonite (Lv 47):** Defeated.
-        - **Dragonite (Lv 50):** **Ice Punch** (4x). [EXECUTING]
+    - Wait for credits to roll.
+    - Plan for post-game (Kanto, Red, Legendaries).
 - **Goal:** Farm money.
-- **Resources:** ¥29144.
+- **Resources:** ¥36644.
