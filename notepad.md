@@ -32,4 +32,4 @@
 - 6F: Tranquil Square (Roof/Vending Machines).
     - **NO Super Repels found in Goldenrod.**
     - **Cannot Fly from 6F Roof.**
-- **Strategy:** Take Elevator to 1F -> Exit -> Fly to Celadon -> Buy Super Repels.
+- **Strategy:** Fly to Celadon City -> Buy Super Repels -> Resume Hunt.
