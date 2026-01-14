@@ -6,12 +6,13 @@
 - **Goal:** Register Raikou & Entei.
 - **Current Task:** Farm money at Elite Four.
 - **Location:** Karen's Room (Elite Four).
-- **Action:** Battling Karen (Gengar incoming).
+- **Action:** Battling Karen (Murkrow incoming).
 - **Active Pokemon:** Machoke (Lv 89). Status: Accuracy -1.
 - **Strategy:**
-    - **Gengar:** Ghost/Poison. Immune to Normal/Fighting.
-    - **Move:** **Ice Punch** (Slot 3). Special attack, neutral damage.
+    - **Murkrow:** Dark/Flying. 2x Weak to Ice/Electric.
+    - **Move:** **Ice Punch** (Slot 3).
+    - **Cursor:** Currently on **Ice Punch (Slot 3)**.
     - **Nav:** Press **B** (Decline Switch). Next: Fight -> A (Ice Punch).
-    - **Warning:** Gengar has Destiny Bond. Muscle (137 Spd) should outspeed Gengar (~115 Spd).
+    - **Houndoom (Last):** Cross Chop (Slot 4).
 - **Goal:** Farm money.
 - **Resources:** ¥22094.
