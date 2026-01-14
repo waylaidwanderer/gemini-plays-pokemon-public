@@ -11,20 +11,18 @@
 - LEDGE_HOP_DOWN: One-way jump from NORTH to SOUTH.
 - COUNTER: Impassable.
 
-# Suicune Quest Strategy: 'The Western Land Route'
-- Observation: The northern plateau is unreachable via the buoy spiral from the east side of Wall 1 (X=26).
-- The western side of the map (X=0-2) is a clear corridor north to Suicune.
+# Suicune Quest Strategy: 'The Western Land Corridor'
+- Observation: The western side of Cianwood City (X=0-2) is a clear, continuous corridor of FLOOR tiles from the south beach to the north plateau.
 - Route:
-    1. Fly to Cianwood City (23, 44).
-    2. Walk to (4, 19).
-    3. Walk South to (4, 21) (through FLOOR_UP_WALL at 4, 20).
-    4. Walk West to (2, 21).
-    5. Walk North to (2, 4).
-    6. Walk East to Suicune at (7, 4).
-- Preparation: Lead with XENON (Haunter) for Hypnosis. Use SUPER REPEL.
+    1. Fly to Cianwood City (Arrive at 23, 44).
+    2. Walk West to X=2 (e.g., 2, 44).
+    3. Walk North along X=2 to Row 14 (e.g., 2, 14).
+    4. Walk East to (7, 14).
+    5. Walk North to Suicune sighting at (7, 4).
+- Preparation: Lead with XENON (Haunter) for Hypnosis. Use SUPER REPEL after landing.
 - Start Turn: 47680 (Suicune North Beach Quest)
 - Start Time: Wednesday, Jan 14, 2026, 4:00 AM PST
 
 # Progress Log
-- Attempt 1-16: Tried various buoy loop routes. All blocked or dead ends.
-- Attempt 17 (Turn 47778): Flying to Cianwood to reset and take the Western Land Route. Target: (7, 4).
+- Attempt 1-17: Navigated buoy loop and east side. All blocked or dead ends.
+- Attempt 18 (Turn 47781): Flying to Cianwood (23, 44) to start the Western Land Corridor route. Target: (7, 4).
