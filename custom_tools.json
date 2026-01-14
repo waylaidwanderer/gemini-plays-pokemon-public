@@ -58,37 +58,6 @@
       }
     ]
   },
-  "suicune_sweep": {
-    "description": "Generates a sequence of button presses to perform a thorough sweep of all walkable tiles in the Route 42 grove to trigger the Suicune sighting. Starting position: (28, 15).",
-    "input_schema": {
-      "type": "object",
-      "properties": {},
-      "required": []
-    },
-    "python_script": "import json\n\ndef sweep():\n    # Starting from (28, 15)\n    # Walkable tiles in grove:\n    # Row 15: (25,15) to (30,15)\n    # Row 16: (26,16), (30,16)\n    # Row 17: (26,17) to (30,17)\n    \n    path = [\n        \"Left\", \"Left\", \"Left\", # To (25, 15)\n        \"Right\", \"Right\", \"Right\", \"Right\", \"Right\", # To (30, 15)\n        \"Down\", \"Left\", \"Left\", \"Left\", \"Left\", # To (26, 17)\n        \"Right\", \"Right\", \"Right\", \"Right\", # To (30, 17)\n        \"Up\", \"Up\", \"Left\", \"Left\" # Back to (28, 15)\n    ]\n    return path\n\nprint(json.dumps(sweep()))\n",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-01-14T07:02:32.423Z",
-        "action_counter": 47312
-      },
-      {
-        "commit_message": "Update suicune_sweep to return button presses for picking Apricorns and sweeping the grove. Pauses for text boxes are included.",
-        "timestamp": "2026-01-14T07:03:22.063Z",
-        "action_counter": 47313
-      },
-      {
-        "commit_message": "Refine suicune_sweep to perfectly cover all walkable grove tiles and pick remaining Apricorns. Includes bumping into trees to face them and handling text boxes.",
-        "timestamp": "2026-01-14T07:05:46.366Z",
-        "action_counter": 47314
-      },
-      {
-        "commit_message": "Update suicune_sweep to be a pure tile-by-tile sweep of the grove without trying to pick Apricorns.",
-        "timestamp": "2026-01-14T07:09:41.683Z",
-        "action_counter": 47319
-      }
-    ]
-  },
   "suicune_sweep_v2": {
     "description": "Generates a sequence of button presses to perform a thorough sweep of all walkable tiles in the Route 42 grove to trigger the Suicune sighting. Starting position: (28, 15).",
     "input_schema": {
