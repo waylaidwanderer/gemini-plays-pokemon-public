@@ -221,7 +221,7 @@
     ]
   },
   "perform_roamer_hunt_cycle": {
-    "description": "Automates the Roamer hunting loop on Route 37. Moves UP to Ecruteak City to reset the map, waits, moves DOWN back to the grass on Route 37, waits, and performs a grass scan. Includes safety delays for map loading.",
+    "description": "Automates the Roamer hunting loop on Route 37. Moves UP to Ecruteak City to reset the map, waits, moves DOWN back to the grass on Route 37 (4 steps), waits, and performs a grass scan. Includes safety delays for map loading.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -233,7 +233,7 @@
       },
       "required": []
     },
-    "python_script": "import json\nscan_steps = input_data.get('scan_steps', 20)\nbuttons = []\n# Move Up to Ecruteak (reset map)\nbuttons.extend([\"Up\"] * 6)\nbuttons.append(\"sleep 2500\")\n# Move Down back to grass\nbuttons.extend([\"Down\"] * 6)\nbuttons.append(\"sleep 2500\")\n# Scan grass\nfor _ in range(scan_steps // 2):\n    buttons.append(\"Left\")\n    buttons.append(\"Right\")\nif scan_steps % 2:\n    buttons.append(\"Left\")\nprint(json.dumps(buttons))",
+    "python_script": "import json\nscan_steps = input_data.get('scan_steps', 20)\nbuttons = []\n# Move Up to Ecruteak (reset map)\n# From y=4, need 5 steps to reach y=-1. 6 is safe.\nbuttons.extend([\"Up\"] * 6)\nbuttons.append(\"sleep 2500\")\n# Move Down back to grass (target y=4)\nbuttons.extend([\"Down\"] * 4)\nbuttons.append(\"sleep 2500\")\n# Scan grass\nfor _ in range(scan_steps // 2):\n    buttons.append(\"Left\")\n    buttons.append(\"Right\")\nif scan_steps % 2:\n    buttons.append(\"Left\")\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -244,6 +244,11 @@
         "commit_message": "Added sleep delays to handle map transitions reliable. Limited scan steps to stay within button limits.",
         "timestamp": "2026-01-14T07:52:39.100Z",
         "action_counter": 38741
+      },
+      {
+        "commit_message": "Reduced Down steps from 6 to 4 to ensure player lands in tall grass (rows 2-5) instead of overshooting to floor at row 6.",
+        "timestamp": "2026-01-14T07:56:09.556Z",
+        "action_counter": 38745
       }
     ]
   }
