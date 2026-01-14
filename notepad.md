@@ -2,13 +2,13 @@
 - **Location:** Route 23 (Indigo Plateau).
 - **Goal:** Return to Johto (Goldenrod).
 - **Current Position:** Route 23 (9, 10).
-- **Action:** Navigating Fly Map (Step-by-Step).
+- **Action:** Navigating Fly Map (Testing Down).
 - **Inventory Update:**
   - 20 Super Repels (Bought).
   - 16 Ultra Balls (Existing).
-- **Correction:** Previous blind navigation failed. Navigating one step at a time.
+- **Correction:** 'Right' input failed to move cursor from Indigo Plateau. Trying 'Down'.
 - **Next Steps:**
-  1. Verify destination after moving Right (Target: Pewter/Mt Moon?).
+  1. Verify destination after moving Down (Expect: Viridian/Victory Road).
   2. Navigate to Saffron City.
   3. Magnet Train to Goldenrod.
   4. Fly to Ecruteak/Route 37.
