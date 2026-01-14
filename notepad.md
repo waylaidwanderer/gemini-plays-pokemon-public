@@ -19,7 +19,7 @@
 - Sighting Progress:
     1. Burned Tower (DONE)
     2. Cianwood City (DONE - Eusine defeated)
-    3. Route 42 (Middle Grove) - IN PROGRESS (Sighting missed, blocks Kanto progress).
+    3. Route 42 (Middle Grove) - IN PROGRESS (Searching at (28, 15)).
     4. Kanto Route 14 (East of Fuchsia) - LOCKED (Requires Route 42 sighting).
     5. Kanto Route 25 (Cerulean Cape) - LOCKED (Requires Route 42 sighting).
 - Strategy & Lessons:
