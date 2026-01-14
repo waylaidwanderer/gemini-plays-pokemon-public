@@ -34,10 +34,9 @@
 - Exploration: (11, 15) and (11, 14) are confirmed dead-end pockets. Marker 🚫 placed.
 - Navigation: (21, 46) and (18, 50) are solid cliffs (FLOOR_UP_WALL). Marker 📍 placed.
 - Pathing: To reach the southern corridor from the city center, use the gap at X=20-21.
-- Turn 48106: Direct path to West Beach (2, 51) is blocked by terraces.
-- New Plan: Use the Row 35 corridor.
-- Step 1: (18, 45) -> (20, 45) -> (20, 35).
-- Step 2: (20, 35) -> (10, 35) -> (10, 33) -> (6, 33) -> (6, 35).
-- Step 3: (6, 35) -> (2, 35) -> (2, 14).
+- Turn 48109: Row 35 plan blocked by (6, 34) FLOOR_UP_WALL.
+- New Plan: Use Row 47 crossover to reach the southern corridor (Row 51).
+- Route: (10, 35) -> (12, 35) -> (12, 47) -> (10, 47) -> (10, 51) -> (4, 51) -> (2, 51).
+- Step 1: Reach (4, 51).
 - Status: XENON leading, Ultra Balls ready.
 - Goal: Reach (2, 14) to enter the north plateau.
