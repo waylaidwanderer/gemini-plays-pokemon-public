@@ -1,8 +1,8 @@
 # Mechanics & State
 - **Location:** Celadon Dept Store 2F.
 - **Goal:** Supply Run (Dept Store).
-- **Current Position:** (15, 1) - Arrived on 2F.
-- **Action:** Going to Clerk at (13, 5) [Counter at (13, 4)].
+- **Current Position:** (13, 3) - Facing Clerk.
+- **Action:** Talking to Clerk (Left) at (13, 5).
 - **Shopping List:** Super Repels (~20), Ultra Balls.
 - **Money:** ¥12294.
 
