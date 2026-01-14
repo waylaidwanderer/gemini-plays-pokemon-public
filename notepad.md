@@ -38,3 +38,7 @@
 # Progress
 - **Badges:** 16/16.
 - **Pokedex:** 46 caught.
+
+# Mistakes & Corrections
+- **Turn 38244:** Flew blindly to Indigo Plateau instead of Saffron.
+- **Lesson:** ALWAYS verify the Fly map cursor position before confirming. Do not assume starting position or button counts.
