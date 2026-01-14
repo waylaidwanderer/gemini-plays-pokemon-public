@@ -18,8 +18,18 @@
 - LEDGE_HOP_DOWN: One-way jump from NORTH to SOUTH. Verified at (10, 15).
 - COUNTER: Impassable.
 
-# Suicune Quest
-- Status: 16 Badges, Clear Bell in inventory.
-- Strategy: The 'South Loop' path. Navigate through gaps at (26, 10), then loop south around the X=19 wall at (19, 21) to reach the beach.
-- Route: (27, 8) -> (27, 10) -> (26, 10) -> (25, 10) -> (25, 16) -> (22, 16) -> (21, 16) -> (21, 21) -> (19, 21) -> (18, 21) -> (18, 11) -> (16, 11) [Land] -> (7, 4).
+# Suicune Quest Strategy: 'Zig-Zag Loop'
+- Goal: Reach north beach sighting area at (7, 4).
+- Obstacles: 
+    - X=19 Buoy Wall (Y15-20)
+    - X=22 Buoy Wall (Y9-15)
+    - X=26 Buoy Wall (Y0-9)
+    - Y=9 Buoy Wall (X22-26)
+- Route:
+    1. Move to (27, 16) to clear the X=22 wall.
+    2. Move to (27, 10) to reach the X=26 gap.
+    3. Move to (26, 10) -> (25, 10) to cross X=26 wall.
+    4. Move to (25, 8) to clear the X=22 and X=19 walls.
+    5. Move to (18, 8) -> (18, 11) -> (16, 11) to land.
+    6. Walk to (7, 4).
 - Battle Strategy: Lead with XENON (Haunter) for Hypnosis.
