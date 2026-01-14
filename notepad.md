@@ -29,6 +29,22 @@
     4. Move East and North to (14, 10).
     5. Approach Suicune at (7, 4).
 - Preparation: Lead with XENON (Haunter) for Hypnosis. Be ready for Eusine.
-- Status: At (10, 45) on land. Executing southern detour to reach west coast.
+- Status: At (12, 49) on land. Executing southern detour via Row 53 to bypass one-way walls.
+- Route:
+    1. From (12, 49), move Up to (12, 44).
+    2. Move Right to (21, 44).
+    3. Move Down to (21, 45).
+    4. Move Right to (22, 45).
+    5. Move Down to (22, 53).
+    6. Move Left to (10, 53).
+    7. Move Up to (10, 51).
+    8. Move Left to (2, 51).
+    9. Move North along the west edge to (2, 14).
+    10. Move East and North to (14, 10).
+- Failed Hypotheses:
+    - Triple Gap Loop (Attempts: 2): Dead end.
+    - Island Bypass (Surf) (Attempts: 1): Unnecessary.
+    - Middle City Bypass (Attempts: 2): Blocked by one-way ledges at Row 34 and Row 50.
+- Solution: Southern City Bypass (Attempts: 1). Currently at (12, 49). Moving to (21, 44).
 - Start Turn: 47680 (Suicune North Beach Quest)
 - Start Time: Wednesday, Jan 14, 2026, 4:00 AM PST
