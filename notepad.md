@@ -27,3 +27,15 @@
 - Backtracking Plan (HOW):
     - Walk to (11, 17) and check for NPCs/Sprites.
     - If clear, Fly to Ecruteak and walk to Route 42 grove.
+
+# PC Storage (Box 1)
+- DAPXWW (LARVITAR): Lv20
+- GLAIVE (SCYTHER): Lv14
+- SELKIE (SEEL): Lv24
+- DELTA (MANTINE): Lv20
+- RANGOON (KRABBY): Lv22
+- NOMURA (TENTACOOL): Lv17
+- Ravioli (KRABBY): Lv10 (Surf, Whirlpool)
+- Ouroboros (DRATINI): Lv15 (ExtremeSpeed)
+- AAAAAAAAAA (SPINARAK): Lv13
+- LAPIS (POLIWAG): Lv12 (Waterfall, Surf, Whirlpool)
