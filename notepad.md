@@ -1,11 +1,12 @@
 # Mechanics & State
-- **Location:** Celadon Dept Store 1F.
-- **Goal:** Exit Dept Store (Again) and return to Johto.
-- **Current Position:** (7, 7) - Inside Entrance.
-- **Action:** Closing Menu -> Exiting Building -> Fly to Saffron.
+- **Location:** Route 23 (Indigo Plateau).
+- **Goal:** Return to Johto (Goldenrod).
+- **Current Position:** Outside Indigo Plateau Entrance.
+- **Action:** Flying to Saffron City (Retry).
 - **Inventory Update:**
   - 20 Super Repels (Bought).
   - 16 Ultra Balls (Existing).
+- **Correction:** Previous Fly attempt failed (landed at Indigo Plateau).
 - **Next Steps:**
   1. Fly to Saffron.
   2. Magnet Train to Goldenrod.
