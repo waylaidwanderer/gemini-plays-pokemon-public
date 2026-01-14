@@ -7,10 +7,10 @@
 - **Goal:** Register Raikou & Entei.
 - **Current Task:** Restock Supplies.
 - **Location:** Goldenrod City (Dept Store 5F).
-- **Action:** Checking Directory to locate Max Repels.
+- **Action:** Moving to Elevator (2, 0) to go to 4F.
 - **Status:** Deep Post-Game.
 - **Strategy:**
-    1. **Buy Repels:** Verify floor for Repels/Medicine via Directory.
+    1. **Buy Repels:** 5F is TMs. 2F had no Max Repels. Checking 4F (Medicine) next.
     2. **Prepare Team:** Lead with Gyarados (Lv 37) + Max Repel.
     3. **Hunt:** Roam Route 31/30/36 area or use Route 37/Ecruteak loop.
     4. **Encounter:** Sleep/Weaken/Catch.
