@@ -11,10 +11,10 @@
 - Start Turn: 46650
 - Objective: Trigger sighting in Cianwood City at (7, 4).
 - Strategy:
-    1. Land at (13, 16).
-    2. Walk north through the gap at (11, 15).
-    3. Navigate to (7, 4) to trigger the sighting.
-- Note: Suicune will flee after the encounter.
+    1. Walk south to Y=18, then west to X=2.
+    2. Walk north along X=2 to Y=4.
+    3. Walk east to (7, 4) to trigger the sighting.
+- Note: The middle path is blocked by a wall at (11, 13). The West Coast (X=2) is a clear north-south corridor.
 
 # Roaming Beast Data
 - Raikou: Unknown
