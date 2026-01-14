@@ -1,16 +1,15 @@
 # Suicune Quest
 - Start Turn: 46650
 - Objective: Trigger sighting in Cianwood City at the northern shore.
-- Strategy: The Middle-West Route
-    1. Surf West to (20, 30) and land at (19, 30).
-    2. Walk West along Row 30 to (12, 30).
-    3. Walk North to (12, 28).
-    4. Surf North across the pond to land at (12, 19).
-    5. Walk West along Row 19 to (2, 19) (bypass rock at (4, 19) via Row 18).
+- Strategy: The Sea-Land Loop (Bypasses all ledges/walls)
+    1. Walk East to (19, 30).
+    2. Surf East to X=24.
+    3. Surf South along X=24 to Y=52.
+    4. Land at (23, 52).
+    5. Walk West along Row 52 to the far west corridor at X=2.
     6. Walk North along X=2 to Y=4.
     7. Walk East to (7, 4) to trigger the sighting.
-- Note: Ledge jumps at (6, 34), (12, 50), and (23, 46) are confirmed IMPASSABLE from the north. This route uses verified corridors.
-- Suicune sighting count = 1.
+- Note: Internal city walls and ledges are impassable. The coastline is the only reliable thoroughfare. Suicune sighting count = 1.
 
 # Roaming Beast Data
 - Raikou: Unknown
@@ -31,5 +30,5 @@
 
 # Lessons Learned
 - Cianwood's ledges are not standard; manual verification is required. If a jump fails once, do not repeat.
-- Zig-zag buoy lines block the eastern sea. Use internal land corridors (Row 19, Row 30) for horizontal travel.
+- Zig-zag buoy lines block the eastern sea. Use the far eastern corridor (X=24+) for north-south travel if needed.
 - Always reveal 'unseen' tiles manually before planning long routes through them.
