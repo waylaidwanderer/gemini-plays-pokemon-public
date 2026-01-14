@@ -31,13 +31,10 @@
 - Maze Logic (Spiral Inward):
   1. Lane 1 (X=27-29): Sail North to (27, 10).
   2. Gap 1: (26, 10). Move West to Lane 2.
-  3. Lane 2 (X=23-25): Sail South to (23, 16).
-  4. Gap 2: (22, 16). Move West to Lane 3.
-  5. Lane 3 (X=19-21): Sail North to (19, 14).
-  6. Gap 3: (19, 14). Move West to Lane 4.
-  7. Lane 4 (X=17-18): Sail South to (18, 26).
-  8. Gap 4: (18, 26). Move West to Lane 5.
-  9. Lane 5 (X=14-16): Sail North to (14, 15) and land.
-  10. Walk to Suicune at (7, 4) via Y=10 plateau.
-- Current Status: At (18, 26) (Gap 4). Entering Lane 5.
-- Next Task: Sail North along X=14/15 to land at (14, 15).
+  3. Lane 2 (X=23-25): Sail North to (23, 8) to bypass internal buoy walls.
+  4. Gap 2: (22, 8). Move West to Lane 3/4.
+  5. Lane 4 (X=17-18): Sail North to (17, 6).
+  6. Land at (16, 6) on the north plateau.
+  7. Walk to Suicune at (7, 4).
+- Current Status: At (18, 26). Recovering from incorrect Southbound leg.
+- Next Task: Sail East to Lane 2 (X=23) and head North to Y=8.
