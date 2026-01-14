@@ -32,3 +32,6 @@
     7. Land and walk to (7, 4).
 - Preparation: Lead with XENON (Haunter) for Hypnosis. Be ready for Eusine.
 - Status: Closing Tully's call, then starting the loop.
+- Attempt 1 (Turn 47669): Tried to Surf and move Right. Failed, stayed at (19, 30).
+- Hypothesis 1: Dialogue delay or facing issue.
+- Test 2: Face Up (already facing), press A twice to Surf into (19, 29), then move Right.
