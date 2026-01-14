@@ -18,10 +18,12 @@
 - LEDGE_HOP_DOWN: One-way jump from NORTH to SOUTH.
 - COUNTER: Impassable.
 
-# Suicune Quest Strategy: 'The South Loop'
+# Suicune Quest Strategy: 'The North Loop'
 - Goal: Reach Suicune sighting area at (7, 4).
 - Pathing Logic:
-    1. Sail south to Row 21 to clear the X=19 wall at (19, 21).
-    2. Sail north and west to find a landing spot on the west side.
-    3. Navigate the ledge/wall maze to reach (7, 4).
+    1. Sail north to Row 10 to clear the X=26 wall at (26, 10).
+    2. Sail north to Row 8 to clear the X=22 and X=19 walls.
+    3. Sail west along Row 8 to the northern plateau.
+    4. Land at (16, 11) and walk to (7, 4).
 - Battle Strategy: Lead with XENON (Haunter) for Hypnosis. Be ready for Eusine.
+- Status: Surfing at (26, 21). Moving to (16, 11).
