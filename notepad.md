@@ -11,6 +11,7 @@
 # Strategic Status
 - **Goal:** Register Raikou & Entei.
 - **Strategy:** Blind Hunt (Optimized). 
+    - **Logic:** Tracking roamers from adjacent maps is futile because entering their map causes them to move. Thus, a blind encounter on entry is the only valid method.
     - Use Super Repel with Lead Pokemon (Lv 36) < Roamer (Lv 40) but > Wild (Lv 17).
     - Enter Route 37.
     - Move to grass and Scan ONCE (20 steps).
