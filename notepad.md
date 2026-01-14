@@ -19,16 +19,17 @@
 - Item: Ultra Balls (32).
 - Backup: GORP (Snorlax) as a tank. Calcifer (Typhlosion) is risky due to type disadvantage.
 
-# Strategic Plan: The West Beach Sprint
+# Strategic Plan: The Great Spiral (Confirmed)
 - Start Turn: 48151.
-- Step 1: Reach East Coast Surf Point and land at (27, 45). (Done)
-- Step 2: Walk to (12, 44). (Done)
-- Step 3: Navigate to West Beach corridor (X=2) via Row 33 gap (X=9) and Row 35 gap (X=5). (In Progress)
-- Step 4: Walk North along X=2 to Row 14.
-- Step 5: Walk East along Row 12 to (14, 10) to trigger Suicune sighting.
+- Step 1: Walk to East Coast Surf Point at (19, 30). (In Progress)
+- Step 2: Surf to Outer Channel (X=27) and enter Gap 1 at (26, 10).
+- Step 3: Navigate Middle Ring to Gap 2 at (22, 16).
+- Step 4: Navigate Inner Ring to Gap 3 at (19, 14).
+- Step 5: Navigate Center Area to Landing Point at (16, 11).
+- Step 6: Walk to Sighting Spot at (14, 10).
 - Status: XENON leading, Repel active.
 
 # Lessons Learned
-- Pathing: The city center is a plateau; the X=9 wall has gaps at Row 33 and Row 44-47. The X=5 wall has gaps at Row 34-37.
-- Navigation: Row 51 is a clear corridor but requires going far east to X=20 to descend. Row 33-35 is the most direct land route.
+- Pathing: The city center is a plateau; land routes to the west/north beaches are blocked by cliffs. Surf via the east coast is the primary route.
+- Navigation: The "Great Spiral" buoy maze is the only aquatic path to the North Plateau.
 - Blockage: (7, 45) is a Gym Sign (WALL). (5, 44) is a WALL.
