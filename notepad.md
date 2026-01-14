@@ -1,12 +1,11 @@
-# Mechanics & State
-- **Location:** Pewter City (Party Menu).
-- **Goal:** Return to Johto.
-- **Action:** Selecting Mistral -> Fly.
-- **Roamer Trap:** Route 37 (Lead < Lv 40).
-- **Route Plan:**
-  1. Fly to Saffron City.
-  2. Magnet Train to Goldenrod.
-  3. Fly to Ecruteak.
+# Strategic Status
+- **Goal:** Return to Johto (Saffron -> Goldenrod -> Ecruteak).
+- **Current Action:** Navigating Fly Map: Indigo -> Saffron.
+
+# Roamer Hunting Strategy
+1.  **Setup:** Gyarados (Lv 36) leading, Super Repel active.
+2.  **Location:** Route 37/Ecruteak border.
+3.  **Target:** Raikou/Entei (Lv 40). Repel filters out lower levels.
 
 # Directory Info (Celadon)
 - **2F:** Trainer's Market.
@@ -15,23 +14,9 @@
 - **5F:** Drug Store.
 - **6F:** Rooftop Square.
 
-# Roamer Hunting Strategy
-1.  **Party Leader:** Gyarados (Lv 36).
-2.  **Item:** Super Repel (prevents wild mons < Lv 36).
-3.  **Location:** Route 37 <-> Ecruteak boundary.
-4.  **Method:** Use Repel, walk in grass. If nothing, switch map, return, repeat.
-5.  **Target:** Raikou/Entei (Lv 40). They will spawn because 40 > 36.
-
-# Travel Plan
-1. Enter Celadon City (Done).
-2. Locate Dept Store (Done).
-3. Buy Supplies (Current).
-4. Return to Johto (Fly/Train).
-
 # Progress
 - **Badges:** 16/16.
 - **Pokedex:** 46 caught.
 
 # Mistakes & Corrections
-- **Turn 38244:** Flew blindly to Indigo Plateau instead of Saffron.
-- **Lesson:** ALWAYS verify the Fly map cursor position before confirming. Do not assume starting position or button counts.
+- **Fly Map:** ALWAYS verify cursor position. Do not assume blind inputs work.
