@@ -1,5 +1,6 @@
 # Tile Mechanics
 - FLOOR: Standard walkable ground. Verified traversable.
+- TALL_GRASS: Walkable, may trigger wild battles.
 - WATER: Traversable only while Surfing. 
 - WALL / BUOY: Impassable.
 - FLOOR_UP_WALL: Impassable from the NORTH.
