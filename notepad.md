@@ -2,16 +2,17 @@
 - **Location:** Route 23 (Indigo Plateau).
 - **Goal:** Return to Johto (Goldenrod).
 - **Current Position:** Route 23 (9, 10).
-- **Action:** Navigating Fly Map (Testing Left).
+- **Action:** Navigating Fly Map (Trying to reach Johto).
 - **Inventory Update:**
   - 20 Super Repels (Bought).
   - 16 Ultra Balls (Existing).
-- **Correction:** 'Right' failed from both Indigo and Cinnabar. 'Down/Up' loops between them.
-- **Hypothesis:** Map might wrap via 'Left', or I missed Fly points (Unlikely, was in Celadon/Saffron).
+- **Correction:** 'Right' blocked. 'Down' -> Cinnabar. 'Left' failed once (Verify?).
+- **Hypothesis:** Indigo is the bridge. Pressing 'Left' should reach Mt Silver/Johto.
 - **Next Steps:**
-  1. Test 'Left' from Cinnabar.
-  2. Test 'Left' from Indigo.
-  3. If Fly fails, WALK to Viridian City and retry/travel.
+  1. Press Left x3.
+  2. If cursor moves to Johto (Silver Cave/New Bark), navigate to Goldenrod.
+  3. If cursor stays at Indigo, try Down -> Cinnabar -> Right (Force Kanto traversal).
+  4. If Fly impossible, WALK: Indigo -> Victory Road -> Route 26 -> Tohjo -> New Bark.
 - **Money:** ¥12294.
 
 # Directory Info (Celadon)
