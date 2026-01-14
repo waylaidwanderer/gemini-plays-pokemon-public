@@ -25,15 +25,20 @@
 
 # Hypotheses & Tests
 - Hypothesis 1: Trigger is a specific tile in the (26, 15) or (27, 15) grove.
-    - Test: Walk onto (26, 15) and (27, 15).
-    - Status: FAILED (Walked all tiles in grove).
+    - Test: Walk onto all floor tiles in the grove (X=24-31, Y=13-17).
+    - Status: FAILED (Walked all tiles as of Turn 46953, no sighting triggered).
 - Hypothesis 2: Trigger is on the upper island near the cave entrance or eastern pond.
     - Test: Walk all floor tiles from Y=4 to Y=12.
+    - Status: PARTIALLY COMPLETED.
+- Hypothesis 3: Suicune appears only when entering the map from a specific side or after re-entering.
+    - Test: Exit to Mahogany, then re-enter and approach the grove.
+    - Status: Pending.
+- Hypothesis 4: Suicune is already at the next location (Kanto Route 25).
+    - Test: Check Route 25 in Kanto.
     - Status: Pending.
 
 # Failed Hypotheses
-- "The Sea Loop" (Surfing around buoys): Denied. Buoy walls at Row 15 and Row 9 are too restrictive.
-- "Sighting trigger at (26, 15) only": Denied (Initial pass at (26, 15) failed; requires systematic sweep).
+- "Mow the lawn" in grove: FAILED (50+ turns, all tiles stepped on). Suicune is likely a static sprite that isn't currently present.
 
 # Lessons Learned
 - Eusine battle confirms sighting completion.
