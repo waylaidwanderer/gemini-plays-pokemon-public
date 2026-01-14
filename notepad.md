@@ -15,17 +15,21 @@
 # Suicune Capture Strategy
 - Lead: XENON (Haunter, Lv44).
 - Move 1: Hypnosis (Sleep).
-- Move 2: Night Shade (44 dmg). Suicune has ~120 HP.
+- Move 2: Night Shade (44 dmg). Suicune has ~120 HP. Use twice for Red health.
 - Item: Ultra Balls (32).
+- Note: Suicune is Water type. Calcifer (Fire) is vulnerable. GORP (Snorlax) is a good tank.
 
 # Strategic Plans
-- Status: At (6, 44) in Cianwood. Gap at (11, 15) confirmed dead end.
-- Strategy: Navigating to the west beach via the southern city loop.
-- Path: (6, 44) -> (12, 44) -> (12, 49) -> Jump ledge at (12, 50) -> West to X=2 beach -> North to (7, 4).
-- Testing: Checking if (6, 46) ledge can be jumped for a shortcut.
-- Suicune Capture Strategy: Lead XENON. Hypnosis -> Night Shade (x2) -> Ultra Balls.
+## Locate Suicune (Cianwood North Beach)
+- Objective: Reach (7, 4) on the north beach plateau.
+- Primary Route: The 'Great Spiral' buoy maze via (27, 30).
+- Shortcut Hypothesis: Walking North along the West beach at X=2 may bypass the maze.
+- Verification Task: Navigate to (2, 35) and walk North to Y=4.
 
-## The Great Spiral (Backup Plan)
+## Verify 'Gem Shortcut'
+- Result: FAILED. Gap at (11, 15) is a dead-end pocket. Marker 🚫 placed.
+
+## The Great Spiral (Maze Logic)
 - Entrance: (27, 30).
 - Route: Lane 1 (N) -> Lane 2 (S) -> Lane 3 (S) -> Lane 4 (N) -> Lane 5 (N) -> Land at (14, 10).
 - Requirements: Surf, Super Repel.
