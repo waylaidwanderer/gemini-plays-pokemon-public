@@ -1,13 +1,14 @@
 # Suicune Quest
 - Objective: Trigger sighting in Cianwood City at northern shore.
-- Strategy: The Southern Promenade (Verified Land Route)
-    1. Walk South along X=19 to (19, 51).
-    2. Walk West along Row 51 to (4, 51).
-    3. Walk North along X=4 to (4, 44).
-    4. Walk West along Row 44 to (2, 44).
-    5. Walk North along X=2 corridor to Row 4.
-    6. Walk East along Row 4 to (7, 4) to trigger sighting.
-- Note: All ledges in Cianwood are impassable from the north. Row 51 and X=2 are the only clear long-distance thoroughfares.
+- Strategy: The Sea Loop (Surfing Route)
+    1. Surf at (19, 30).
+    2. Go North to Row 20.
+    3. Go East to X=23.
+    4. Go North to Row 10 (past buoy wall at Row 15).
+    5. Go West to X=21.
+    6. Go North to Row 8 (past buoy wall at Row 9).
+    7. Go North/West to (7, 4) area.
+- Note: This avoids the long land route and the wall at (19, 40).
 - Suicune sighting count = 1.
 
 # Tile Mechanics (Cianwood)
