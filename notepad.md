@@ -24,5 +24,5 @@
 - Start Time: Wednesday, Jan 14, 2026, 4:00 AM PST
 
 # Progress Log
-- Attempt 1-19: Navigated buoy loop and east side. All blocked or dead ends.
-- Attempt 20 (Turn 47783): Flying to Cianwood (23, 44) to start the Western Land Corridor route. Target: (7, 4).
+- Attempt 1-20: Navigated buoy loop and east side. All blocked or dead ends. Fumbled menus.
+- Attempt 21 (Turn 47786): Flying to Cianwood (23, 44) to start the Western Land Corridor route. Target: (7, 4).
