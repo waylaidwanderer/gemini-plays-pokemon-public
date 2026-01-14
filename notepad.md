@@ -10,11 +10,12 @@
 
 # Strategic Status
 - **Goal:** Register Raikou & Entei.
-- **Strategy:** Blind Hunt (High Speed). 
+- **Strategy:** Blind Hunt (Optimized). 
     - Use Super Repel with Lead Pokemon (Lv 36) < Roamer (Lv 40) but > Wild (Lv 17).
-    - Scan grass on Route 37.
-    - If no encounter, transition to Ecruteak and back to reset Roamer position.
-    - Do NOT check Pokegear map to save time.
+    - Enter Route 37.
+    - Move to grass and Scan ONCE (20 steps).
+    - If no encounter, IMMEDIATELY transition to Ecruteak and back to reset.
+    - Do NOT check Pokegear map.
 - **Repel Status:** Active (Applied Turn 38872).
 - **Session Start:** Turn 38471.
 - **Active Events:** Bug-Catching Contest (Tuesday).
