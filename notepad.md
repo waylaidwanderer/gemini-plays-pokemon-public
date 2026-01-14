@@ -1,9 +1,11 @@
 # Mechanics & State
 - **Location:** Goldenrod Dept Store 2F (Trainer's Market).
 - **Goal:** Supply Run (Dept Store).
-- **Current Position:** (11, 6).
-- **Action:** Move to (11, 5) -> Talk to Clerk 1 (Top).
-- **Clerk 2 Inventory (Verified):** Poke Ball, Great Ball, Escape Rope, Repel, Revive, Full Heal, Poke Doll, Flower Mail. (No Super/Max Repels).
+- **Current Position:** (11, 5).
+- **Action:** Closing Menu -> Going to 3F.
+- **Inventory Check (2F):**
+  - Clerk 1 (Top): Potions/Medicine.
+  - Clerk 2 (Bottom): Balls, Repel, Revive, etc. NO SUPER/MAX REPELS.
 - **Shopping List:**
   - Super Repels (Need ~20).
   - Ultra Balls (If available).
@@ -17,8 +19,8 @@
 - **6F:** Tranquil Square.
 
 # Current Task: Roamer Hunt
-- **Status:** Buying Supplies.
-- **Next Step:** Check Clerk 1 -> If no Repels, check 4F or 5F.
+- **Status:** Searching for Super Repels.
+- **Next Step:** Check 3F, 4F, 5F.
 
 # Progress
 - **Badges:** 16/16.
