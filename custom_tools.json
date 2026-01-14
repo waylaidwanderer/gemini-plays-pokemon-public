@@ -77,5 +77,35 @@
         "action_counter": 47878
       }
     ]
+  },
+  "find_path_v4": {
+    "description": "Finds a traversable path from the player's current position to a target coordinate on the current map, specifically handling FLOOR_UP_WALL as impassable and LEDGE_HOP_DOWN as one-way. Returns a JSON array of button strings.",
+    "input_schema": {
+      "properties": {
+        "autopress_buttons": {
+          "default": false,
+          "type": "boolean"
+        },
+        "target_x": {
+          "type": "integer"
+        },
+        "target_y": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "target_x",
+        "target_y"
+      ],
+      "type": "object"
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\nimport json\n\ndef solve():\n    root = ET.fromstring(map_xml_string)\n    player_node = root.find(\".//Player/..\")\n    if player_node is None:\n        print(json.dumps([]))\n        return\n    \n    start_x = int(player_node.attrib['id'])\n    start_y = int(player_node.attrib.get('y', player_node.getparent().attrib['id'] if hasattr(player_node, 'getparent') else root.find(f\".//Tile[@id='{start_x}']/..\").attrib['id']))\n    # Fallback for finding Y if structure is tricky\n    for row in root.findall('Row'):\n        for tile in row.findall('Tile'):\n            if tile.find('Player') is not None:\n                start_y = int(row.attrib['id'])\n                break\n\n    target_x = int(input_data['target_x'])\n    target_y = int(input_data['target_y'])\n\n    grid = {}\n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            t_type = tile.attrib['type']\n            has_obj = tile.attrib.get('has-object') == 'true'\n            # Impassable types\n            if t_type in ['WALL', 'BUOY', 'FLOOR_UP_WALL'] or has_obj:\n                walkable = False\n            else:\n                walkable = True\n            grid[(x, y)] = (walkable, t_type)\n\n    queue = deque([((start_x, start_y), [])])\n    visited = {(start_x, start_y)}\n    \n    while queue:\n        (x, y), path = queue.popleft()\n        if (x, y) == (target_x, target_y):\n            print(json.dumps(path))\n            return\n        \n        for dx, dy, move in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n            nx, ny = x + dx, y + dy\n            if (nx, ny) in grid:\n                walkable, t_type = grid[(nx, ny)]\n                if walkable and (nx, ny) not in visited:\n                    # Ledge check: only Down (dy=1)\n                    if t_type == 'LEDGE_HOP_DOWN':\n                        if dy == 1:\n                            visited.add((nx, ny))\n                            queue.append(((nx, ny), path + [move]))\n                    else:\n                        visited.add((nx, ny))\n                        queue.append(((nx, ny), path + [move]))\n    \n    print(json.dumps([]))\n\nsolve()",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-14T22:03:54.305Z",
+        "action_counter": 48121
+      }
+    ]
   }
 }

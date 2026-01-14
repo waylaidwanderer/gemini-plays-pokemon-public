@@ -7,37 +7,30 @@
 - WATER: Traversable only via Surf.
 - BUOY: Impassable water obstacle.
 - WALL: Impassable obstacle.
-- HEADBUTT_TREE: Special tree for Headbutt.
 - DOOR: Warp point.
 - FLOOR_UP_WALL: Ledge face. Impassable from all directions.
 - LEDGE_HOP_DOWN: One-way jump (North to South).
 
 # Suicune Capture Strategy
 - Lead: XENON (Haunter, Lv44).
-- Move 1: Hypnosis (Sleep).
-- Move 2: Night Shade (44 dmg). Suicune has ~120 HP. Use twice for Red health.
+- Move 1: Hypnosis (Sleep). Accuracy is key.
+- Move 2: Night Shade (44 dmg). Suicune (Lv40) has ~120 HP. Use twice for Red health.
+- Move 3: Dream Eater (100 power). Only works if Suicune is asleep.
 - Item: Ultra Balls (32).
-- Note: Suicune is Water type. Calcifer (Fire) is vulnerable. GORP (Snorlax) is a good tank.
+- Backup: GORP (Snorlax) as a tank. Calcifer (Typhlosion) is risky due to type disadvantage.
 
-# Strategic Plans: Locate Suicune
-- Start Turn: 47680
-- Goal: Reach (7, 4) on north plateau.
-- Primary Route: 'Beach Shortcut' (X=2).
-  - Step 1: Reach West Beach at (2, 51) via southern city corridor.
-  - Step 2: Walk North along X=2.
-  - Verification: Check for blockage at Y=10 (Seen FLOOR_UP_WALL tiles).
-- Backup Route: 'Great Spiral' buoy maze via (27, 30).
-- Turn Limit for Shortcut: 48150.
+# Buoy Maze Navigation (The Great Spiral)
+- Entrance: (27, 30) from the east.
+- Gap 1: (26, 10) - Outer to Middle.
+- Gap 2: (22, 16) - Middle to Inner.
+- Gap 3: (19, 14) - Inner to Center.
+- Gap 4: (18, 26) - Center to North Plateau approach.
+- Gap 5: (16, 20) - Approach to landing.
+- Landing: (16, 11) or (16, 12) on North Plateau.
+- Sighting Trigger: (14, 10).
 
 # Lessons Learned
 - Fly Navigation: Johto Fly menu is a linear list scrolled with Up/Down, not a 2D grid.
-- Exploration: (11, 15) and (11, 14) are confirmed dead-end pockets. Marker 🚫 placed.
-- Navigation: (21, 46) and (18, 50) are solid cliffs (FLOOR_UP_WALL). Marker 📍 placed.
-- Pathing: To reach the southern corridor from the city center, use the gap at X=20-21.
-- Turn 48119: At East Coast Surf Point (19, 30). Starting Surf navigation.
-- Step 1: Surf at (19, 30) -> (20, 30).
-- Step 2: Navigate to Channel Entrance at (27, 30).
-- Step 3: Enter the Great Spiral buoy maze.
-- Buoy Maze Gaps: (26, 10), (22, 16), (19, 14), (18, 26), (16, 20).
-- Status: XENON leading, Ultra Balls ready.
-- Goal: Trigger Suicune sighting on North Plateau.
+- Exploration: (11, 15) and (11, 14) are confirmed dead-end pockets.
+- Pathing: Cianwood city center is elevated; land routes to the west/north beaches are blocked by FLOOR_UP_WALL and WALL. Surf via the east coast is the primary route.
+- Turn 48121: Starting Surf trek through the buoy maze. Goal: Reach (27, 30).
