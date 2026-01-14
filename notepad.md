@@ -31,11 +31,16 @@
     6. Sail West and land at (4, 19).
     7. Walk to (14, 10) and then (7, 4).
 - Preparation: Lead with XENON (Haunter) for Hypnosis. Be ready for Eusine.
-- Status: At (12, 30). Moving north along the western beach.
-- Attempt 1 (Triple Gap Loop): Hallucinated/Incorrect. Gaps at (26, 10) and (23, 15) only lead to a sealed middle pocket.
-- Attempt 2 (Island Bypass): Verified via Mental Map and run_code pathfinding. Currently walking north on the sand.
-- Route:
-    1. From (12, 30), walk north along the beach.
-    2. Path found: (12, 30) -> (12, 29) -> (12, 28) -> (11, 28) -> (11, 27) -> (11, 26) -> (10, 26) -> (9, 26) -> (9, 25) -> (9, 24) -> (9, 23) -> (9, 22) -> (9, 21) -> (9, 20) -> (9, 19) -> (8, 19) -> (7, 19) -> (6, 19) -> (5, 19) -> (4, 19) -> (4, 20) -> (3, 20) -> (2, 20) -> (2, 19) -> (2, 18) -> (2, 17) -> (2, 16) -> (2, 15) -> (2, 14) -> (3, 14) -> (4, 14) -> (4, 13) -> (5, 13) -> (5, 12) -> (6, 12) -> (6, 11) -> (6, 10) -> (7, 10) -> (8, 10) -> (9, 10) -> (10, 10) -> (11, 10) -> (12, 10) -> (13, 10) -> (14, 10).
-    3. Final approach: Walk to Suicune sighting area at (7, 4).
+- Status: At (12, 28). Abandoned Surfing plan in favor of the walking route along the western beach.
+- Attempt 1 (Triple Gap Loop): Hallucinated/Incorrect.
+- Attempt 2 (Island Bypass - Surf): Possible, but walking is more verified.
+- Attempt 3 (Island Bypass - Walk): Walking along the western sand/beach to avoid buoy walls.
+- Route (Walking):
+    1. From (12, 28), move Left to (11, 28).
+    2. Move Up to (11, 26) (bypassing the rock at 10, 27).
+    3. Move Left to (9, 26).
+    4. Move Up to (9, 19).
+    5. Move Left to (5, 19) -> (5, 18) -> (2, 18).
+    6. Move North along the far west edge to (2, 14) -> (14, 10).
 - Preparation: Lead with XENON (Haunter) for Hypnosis. Be ready for Eusine.
+- Note: (10, 27) is a ROCK. (4, 19) is a ROCK. (8, 24) is a Sign. Path adjusted to bypass these.
