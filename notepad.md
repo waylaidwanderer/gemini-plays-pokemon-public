@@ -20,6 +20,7 @@
   2. Silver Cave
   3. Blackthorn City
   4. Lake of Rage
+  5. Mahogany Town
 - Goal: Cianwood City.
 - Strategy: Continue pressing Down to scroll the list.
 
