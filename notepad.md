@@ -16,8 +16,8 @@
 - Start Turn (Route 42 Grove): 47288.
 - Sighting Progress:
     1. Burned Tower (DONE)
-    2. Cianwood City (DONE - Eusine defeated)
-    3. Route 42 (Middle Grove) - IN PROGRESS.
+    2. Cianwood City (VERIFYING - North Beach)
+    3. Route 42 (Middle Grove) - TRIGGER FAILED (Swept all tiles, no event).
     4. Kanto Route 14 (East of Fuchsia) - LOCKED.
     5. Kanto Route 25 (Cerulean Cape) - LOCKED.
 - Strategy & Lessons:
@@ -25,7 +25,9 @@
     - Lesson: Suicune is a static land sprite; water sweeps are ineffective.
     - Lesson: Missing a Johto sighting (e.g., Route 42) blocks all subsequent sightings in Kanto and the Tin Tower event.
 - Backtracking Plan (HOW):
-    - Head East to the grove near the 3 Apricorn trees on Route 42.
-    - Ensure KIMCHI has Cut for the tree at (24, 13).
-    - Trigger the sighting in the grove using 'suicune_sweep_v2' tool.
-    - Return to Kanto (Fuchsia City) after Johto sighting.
+    - Fly to Cianwood and check the north beach.
+    - If Suicune is there, trigger the event and battle Eusine.
+    - Then return to Route 42 grove.
+- Hypothesis Log (Route 42):
+    - H1: Trigger is a specific tile within the grove boundary. (Tested with 'suicune_sweep_v2', Failed Turn 47324).
+    - H2: Prerequisite (Cianwood Sighting) is incomplete. (Testing now).
