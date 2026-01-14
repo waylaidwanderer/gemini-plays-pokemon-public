@@ -19,20 +19,15 @@
 - Item: Ultra Balls (32).
 - Backup: GORP (Snorlax) as a tank. Calcifer (Typhlosion) is risky due to type disadvantage.
 
-# Buoy Maze Navigation (The Great Spiral)
-- Entrance: (27, 30) from the east.
-- Gap 1: (26, 10) - Outer to Middle.
-- Gap 2: (22, 16) - Middle to Inner.
-- Gap 3: (19, 14) - Inner to Center.
-- Gap 4: (18, 26) - Center to North Plateau approach.
-- Gap 5: (16, 20) - Approach to landing.
-- Landing: (16, 11) or (16, 12) on North Plateau.
-- Sighting Trigger: (14, 10).
+# Strategic Plan: Beach Express (West Coast)
+- Step 1: Surf West from (15, 27) to (11, 27) and land.
+- Step 2: Walk North along the X=2 corridor. This path avoids the elevated city center.
+- Step 3: At Row 12, turn East and walk across the North Plateau.
+- Step 4: Reach (14, 10) to trigger Suicune sighting.
+- Status: XENON leading, Ultra Balls ready.
 
 # Lessons Learned
 - Fly Navigation: Johto Fly menu is a linear list scrolled with Up/Down, not a 2D grid.
-- Exploration: (11, 15) and (11, 14) are confirmed dead-end pockets.
-- Pathing: Cianwood city center is elevated; land routes to the west/north beaches are blocked by FLOOR_UP_WALL and WALL. Surf via the east coast is the primary route.
-- Turn #48142: Confirmed the "Approach" channel (X=14-15) is blocked by a wall at Row 15. Must use the "Outer Channel" (X=27) to reach the North Plateau.
-- Plan: Land at (15, 28) -> Walk to (19, 30) -> Surf East to (27, 30) -> North to (27, 10) -> West to (19, 10) -> South to (19, 11) -> Land at (16, 11).
-- Status: XENON leading, Ultra Balls ready.
+- Exploration: (11, 15) and (11, 14) are dead-end pockets blocked by walls at Row 14/15.
+- Pathing: Cianwood city center is elevated; use the West Beach (X=2) or East Coast Surf for navigation to the North Plateau.
+- Turn #48143: Starting Beach Express. Surfing West to land at (11, 27).
