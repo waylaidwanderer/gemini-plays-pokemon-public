@@ -2,17 +2,20 @@
 - **Location:** Goldenrod Dept Store 1F.
 - **Goal:** Supply Run (Dept Store).
 - **Current Position:** (14, 1) - At Directory.
-- **Action:** Reading Directory to find Repels.
+- **Action:** Taking stairs to 2F.
 - **Shopping List:** Max Repels (Priority), Ultra Balls.
 - **Money:** ¥12294.
 
-# Lessons & Mechanics
-- **Fly Map:** Inputs require ~2000ms delay.
-- **Fly Strategy:** "West Wall" (Convergent Nav) - Go West to Cianwood limit, then backtrack. Reliable reset.
+# Directory Info
+- **2F:** Trainer's Market (Items).
+- **3F:** Battle Collection.
+- **4F:** Medicine Box.
+- **5F:** TM Corner.
+- **6F:** Tranquil Square.
 
 # Current Task: Roamer Hunt
-- **Status:** Inside Dept Store.
-- **Next Step:** Confirm Floor -> Buy Items.
+- **Status:** Moving to 2F.
+- **Next Step:** Find Clerk -> Buy Items.
 
 # Progress
 - **Badges:** 16/16.
