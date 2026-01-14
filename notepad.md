@@ -12,7 +12,7 @@
 - COUNTER: Impassable. Used to interact with NPCs from an adjacent tile.
 
 # Suicune Quest
-- Status: 16 Badges, Red Defeated, Clear Bell in inventory.
+- Status: 16 Badges, Clear Bell in inventory.
 - Start Turn (Route 42 Grove): 47288.
 - Sighting Progress:
     1. Burned Tower (DONE)
@@ -29,7 +29,3 @@
     - Ensure KIMCHI has Cut for the tree at (24, 13).
     - Trigger the sighting in the grove using 'suicune_sweep' tool.
     - Return to Kanto (Fuchsia City) after Johto sighting.
-- Hypothesis Log (Route 42):
-    - H1: Standing on (28, 15) triggers event. (Failed Turn 47293)
-    - H2: Walking Row 15/17 triggers event. (Failed Turn 47310)
-    - H3: Trigger is a specific tile within the grove boundary. (Testing with 'suicune_sweep')
