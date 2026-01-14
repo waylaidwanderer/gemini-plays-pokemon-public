@@ -6,11 +6,13 @@
 - **Current Task:** Farm money at Elite Four -> Buy Max Repels (20x).
 - **Location:** Bruno's Room (Elite Four).
 - **Action:** Battling Bruno (Hitmontop).
-- **Battle Plan:**
-    - **Lead:** Gyarados -> Switch to Machoke (Lv 89).
-    - **Hitmontop:** **Strength** (Slot 1).
-    - **Hitmonchan/Lee:** **Strength**.
-    - **Onix:** **Ice Punch** (Slot 3).
-    - **Machamp:** **Strength** or **Cross Chop**.
+- **Active Pokemon:** Switching to Machoke (Lv 89).
+- **Strategy:**
+    - **Hitmontop:** Use **Strength** (Slot 1).
+    - **Cursor Memory:** **Strength (Slot 1)** (Last used vs Muk).
+    - **Nav:** Press A (Fight) -> Press A (Select Strength).
+    - **Onix:** Ice Punch (Slot 3).
+    - **Hitmonchan/Lee:** Strength.
+    - **Machamp:** Cross Chop or Strength.
 - **Goal:** Farm money.
 - **Resources:** ¥15194.
