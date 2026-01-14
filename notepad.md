@@ -14,15 +14,20 @@
 - FLOOR: Walkable.
 - WALL / BUOY: Impassable.
 - WATER: Traversable only via Surf.
-- FLOOR_UP_WALL: Impassable from the NORTH (tested at (19, 50)). One-way barrier. Verified.
+- FLOOR_UP_WALL: Two-way barrier across the top edge. Blocks entry and exit from/to the North. Verified at (19, 50) and (16, 10).
 - LEDGE_HOP_DOWN: One-way jump from NORTH to SOUTH. Verified at (10, 15).
 - COUNTER: Impassable.
 
 # Suicune Quest
 - Start Turn (Cianwood Re-attempt): 47450
 - Status: Sighting 2 (Cianwood North Beach) in progress.
-- Strategy: The 'Central Loop'. Surf north around the buoy wall (ends at Row 29) to reach the east coast landing zone at (19, 30).
-- Route: Land at (19, 30) -> Walk West to (12, 30) -> Walk North along Column 12 to (12, 16) -> West to (11, 16) -> North through gap at (11, 15) -> North to (11, 11) -> West to (6, 11) -> North to Row 4 -> East to (7, 4).
-- Verification (Turn 47562): (11, 15) is the only confirmed land gap to the northern section. Water route is blocked by buoys at Row 15.
+- Strategy: The 'Sea Loop'. The northern section is a isolated plateau. To reach it, Surf around the buoy walls via the eastern channel.
+- Route:
+    1. Stand at (19, 30), face Right, and use Surf.
+    2. Surf East to (27, 30), then North to (27, 8).
+    3. Surf West to (21, 8), then South to (21, 11).
+    4. Surf West to (17, 11) and land at (16, 11).
+    5. Walk West to (6, 11), then North to Row 4.
+    6. Approach (7, 4) to trigger sighting.
 - Sighting 1: Burned Tower (DONE)
-- Battle Strategy: Use XENON (Haunter) for Hypnosis. Chip HP with fixed damage moves if needed.
+- Battle Strategy: Use XENON (Haunter) for Hypnosis.
