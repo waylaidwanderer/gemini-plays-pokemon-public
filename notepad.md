@@ -19,21 +19,16 @@
 - Item: Ultra Balls (32).
 - Backup: GORP (Snorlax) as a tank. Calcifer (Typhlosion) is risky due to type disadvantage.
 
-# Strategic Plan: The Great Spiral (Final Verified)
+# Strategic Plan: The Southern Corridor Sprint
 - Start Turn: 48151.
-- Step 1: Walk to East Coast Surf Point at (19, 30). (In Progress)
-- Step 2: Surf East to Outer Channel (X=27), then North to Row 10.
-- Step 3: Navigate the Great Spiral Buoy Maze:
-  - Gap 1: (26, 10) - Outer to Middle Channel.
-  - Gap 2: (22, 16) - Middle to Inner Channel.
-  - Gap 3: (19, 21) - Inner to Center Channel.
-  - Gap 4: (18, 26) - Center to Approach Channel.
-  - Gap 5: (16, 20) - Approach to Final Channel.
-- Step 4: Land at (16, 11) on the North Plateau.
-- Step 5: Walk to (14, 10) to trigger Suicune sighting.
+- Step 1: Reach East Coast Surf Point at (19, 30). (Done)
+- Step 2: Walk South to (19, 49), then loop through (20, 51) to reach Row 51.
+- Step 3: Walk West along Row 51 to (4, 51). (In Progress)
+- Step 4: Walk North along Column X=4 to Row 35, then West to West Beach (X=2).
+- Step 5: Walk North along X=2 to Row 14, then East to (14, 10).
 - Status: XENON leading, Repel active.
 
 # Lessons Learned
-- Pathing: Cianwood is a fortress of plateaus. All land routes to the north beach are blocked by walls or cliffs.
-- Navigation: The Great Spiral is the ONLY aquatic path to the North Plateau. Previous 'Spiral analysis' was wrong due to unseen tiles.
-- Blockage: (7, 45) is a Gym Sign. (5, 44) is a WALL. (6, 46) is a ledge face.
+- Pathing: The city center is a plateau; Row 51 is a low-level corridor connecting the coasts.
+- Blockage: (19, 50) and (21, 46) are FLOOR_UP_WALL (impassable). Use (20, 50-51) to descend.
+- Navigation: Redundant building markers deleted to reduce clutter.
