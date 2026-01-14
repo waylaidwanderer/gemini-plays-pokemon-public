@@ -10,15 +10,14 @@
 # Suicune Quest
 - Start Turn: 46650
 - Objective: Trigger sighting in Cianwood City at (7, 4).
-- Strategy: Southern Crossing
-    1. Move Right to X=12.
-    2. Move South along X=12 to Y=49.
-    3. Jump South over the ledge at (12, 50) to land at (12, 51). (Mechanic Verification: Test ledge jumping).
-    4. Move West along Y=51 to the corridor at X=2.
-    5. Move North along X=2 to Y=4.
-    6. Move East to (7, 4) to trigger the sighting.
-- Note: The city center is a maze. The southern crossing and west corridor (X=2) are the most reliable path. Suicune sighting count = 1.
-- Progress: Turn 46706, currently at (12, 49). Jumping ledge to reach Y=51 corridor.
+- Strategy: The West Coast Route
+    1. Walk North to (12, 44).
+    2. Walk West to (4, 44).
+    3. Walk West through the unseen area at X=3 to reach the corridor at X=2.
+    4. Walk North along X=2 to Y=4.
+    5. Walk East to (7, 4) to trigger the sighting.
+- Note: Row 44 is a clear corridor from the center to the west side. X=2 is a clear north-south corridor on the west side. Suicune sighting count = 1.
+- Progress: Turn 46708, currently at (12, 49). Heading for Row 44.
 
 # Roaming Beast Data
 - Raikou: Unknown
