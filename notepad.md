@@ -1,11 +1,16 @@
 # Strategic Status
 - **Goal:** Return to Johto (Via Magnet Train).
-- **Current Action:** Entering Magnet Train Station.
-- **Path:** Saffron City -> Magnet Train Station -> Goldenrod City.
+- **Current Action:** Boarding Magnet Train.
+- **Path:** Station Entrance -> Turnstile -> Train -> Goldenrod City.
 
 # Notes
 - **Fly Map:** Horizontal navigation (West <-> East) is unreliable.
-- **Location:** Saffron City.
+- **Location:** Saffron City Magnet Train Station.
+
+# Roamer Hunting Strategy
+1.  **Setup:** Gyarados (Lv 36) leading, Super Repel active.
+2.  **Location:** Route 37/Ecruteak border.
+3.  **Target:** Raikou/Entei (Lv 40).
 
 # Roamer Hunting Strategy
 1.  **Setup:** Gyarados (Lv 36) leading, Super Repel active.
