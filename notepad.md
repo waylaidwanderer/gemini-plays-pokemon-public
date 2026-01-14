@@ -11,10 +11,11 @@
 - Start Turn: 46650
 - Objective: Trigger sighting in Cianwood City at (7, 4).
 - Strategy:
-    1. Mechanic Verification: Test ledge jumping at (6, 34) with manual press_buttons.
-    2. Walk north along X=2 corridor to Y=4.
-    3. Walk east to (7, 4) to trigger the sighting.
-- Note: Suicune sightings count = 1.
+    1. Walk to (13, 16).
+    2. Surf north/east to reach (18, 11).
+    3. Land at (16, 11) (via unseen (17, 11)).
+    4. Walk west along Y=11 to (7, 11), then north to (7, 4).
+- Note: Ledge at (6, 34) failed manual verification (impassable from north). Suicune sightings count = 1.
 
 # Roaming Beast Data
 - Raikou: Unknown
