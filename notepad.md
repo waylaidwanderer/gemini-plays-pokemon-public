@@ -1,12 +1,13 @@
 # Mechanics & State
 - **Location:** Goldenrod Dept Store 4F (Medicine Box).
 - **Goal:** Supply Run (Dept Store).
-- **Current Position:** (15, 1) - Arrived from 3F.
-- **Action:** Walking to Clerk at (13, 5) to check inventory.
+- **Current Position:** (14, 3).
+- **Action:** Standing at (13, 3) to talk to Clerk.
 - **Inventory Check:**
   - 2F: No Super Repels.
   - 3F: Battle Items. No Repels.
-- **Plan:** Check 4F/5F. If fail -> Fly to Celadon.
+  - 4F: Checking now.
+- **Plan:** Check 4F. If fail -> Check 5F (TMs) -> Fly to Celadon.
 - **Shopping List:**
   - Super Repels (Need ~20).
   - Ultra Balls (If available).
