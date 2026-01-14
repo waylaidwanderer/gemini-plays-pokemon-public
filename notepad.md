@@ -13,7 +13,7 @@
 
 # Suicune Quest
 - Status: 16 Badges, Clear Bell in inventory.
-- Start Turn (Route 42 Grove): 47288.
+- Start Turn (Route 42 Grove): 47288 (Failed), Re-attempt Start Turn: 47418.
 - Sighting Progress (Sequential):
     1. Burned Tower (DONE)
     2. Cianwood City (DONE - Confirmed Turn 47347)
