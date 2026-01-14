@@ -18,13 +18,14 @@
 - LEDGE_HOP_DOWN: One-way jump from NORTH to SOUTH.
 - COUNTER: Impassable.
 
-# Suicune Quest Strategy: 'City Perimeter Walk'
+# Suicune Quest Strategy: 'The Southern Crossing'
 - Goal: Reach Suicune sighting area at (7, 4).
-- How: Land at (19, 30) and walk through the city's west corridor.
+- Strategy: Land at (19, 30) and use the southern gap at Row 46-51 to reach the west corridor.
 - Route:
-    1. Sail to (19, 30) and land.
-    2. Walk West to X=12, then North to Row 29.
-    3. Walk West to X=4, then South to Row 34.
-    4. Walk West to X=2, then North to the sighting area.
+    1. Sail to (19, 30) and land (or Fly to Pokemon Center at 23, 44).
+    2. Walk south to (19, 46).
+    3. Walk west to (8, 46), then to (2, 46) (passing through the X=11 and X=5 wall gaps).
+    4. Walk north along X=2 to (2, 14).
+    5. Walk east to (7, 14) and north to (7, 4).
 - Preparation: Lead with XENON (Haunter) for Hypnosis. Be ready for Eusine.
-- Discoveries: Buoy walls are staggered to prevent direct water access to the north beach. Column X=17 is a vertical cliff barrier.
+- Fact: Buoy walls at Row 9 and Row 15 interlock to block all water access to the north.
