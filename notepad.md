@@ -1,21 +1,20 @@
 # Mechanics & State
 - **Location:** Victory Road 2F.
 - **Goal:** Walk to Viridian City (South).
-- **Current Position:** (15, 37) - 2F (In Battle).
-- **Action:** Run from Graveler -> Continue East to (18, 37).
+- **Current Position:** (15, 37) - 2F.
+- **Action:** Walking to (18, 42).
 - **Inventory Update:**
   - 20 Super Repels (Bought).
   - 16 Ultra Balls (Existing).
 - **Route Plan:**
-  1. Escape Battle.
-  2. Walk East to (18, 37).
-  3. Walk South to (18, 42) (Bypass wall/ledge at 13,38).
-  4. Walk West to (7, 42).
-  5. Walk North to (7, 40).
-  6. Jump Left at (6, 40) -> Land (5, 40).
-  7. Walk West to (2, 40) -> North to (2, 38) -> West to (1, 38).
-  8. North to Ladder (1, 35).
-  9. Ladder -> 1F -> Exit.
+  1. Walk East to (18, 37).
+  2. Walk South to (18, 42) (Bypass wall/ledge at 13,38).
+  3. Walk West to (7, 42).
+  4. Walk North to (7, 40).
+  5. Jump Left at (6, 40) -> Land (5, 40).
+  6. Walk West to (2, 40) -> North to (2, 38) -> West to (1, 38).
+  7. North to Ladder (1, 35).
+  8. Ladder -> 1F -> Exit.
 - **Money:** ¥12294.
 
 # Directory Info (Celadon)
