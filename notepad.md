@@ -11,10 +11,12 @@
 - Start Turn: 46650
 - Objective: Trigger sighting in Cianwood City at (7, 4).
 - Strategy:
-    1. Mechanic Verification: Test ledge jumping at (6, 34) with manual press_buttons (Down, Down).
-    2. If successful: Walk west to corridor at X=2, then north to (7, 4).
-    3. If failed: Re-evaluate the northern pond route via (12, 19).
-- Note: The inner city is a maze. The west corridor (X=2) is the primary target. Suicune sighting count = 1.
+    1. Walk to (10, 33).
+    2. Walk South through the gap at (10, 34) to (10, 35).
+    3. Walk West to the corridor at X=2.
+    4. Walk North along X=2 to Y=4.
+    5. Walk East to (7, 4) to trigger the sighting.
+- Note: The ledge at (6, 34) is impassable from the North. The gap at (10, 34) is the key. Suicune sighting count = 1.
 
 # Roaming Beast Data
 - Raikou: Unknown
