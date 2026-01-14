@@ -37,4 +37,10 @@
 - Pathing Failure: Attempting to walk from city center to West Beach (X=2) failed due to undetected FLOOR_UP_WALL tiles at Row 34/48.
 - Navigation: The "Beach Express" (X=2) corridor is not reachable from the city center.
 - Turn 48162: At (22, 16). find_path_v4 failed due to medium check on unseen tiles. Fixing tool with robust medium and ledge logic.
-- Turn 48165: At (27, 16). Navigation to Gap 1 (26, 10). Testing Row 0 shortcut hypothesis.
+- Turn 48169: At (26, 10). Spiral analysis suggests Center Area (X=14-17) is land-locked or a dead-end at Row 15. North Plateau (Row 10) is only reachable from West Beach (X=2).
+- New Plan: Northern Bypass.
+- Step 1: Surf East to Outer Channel (X=27), then North to Row 0.
+- Step 2: Surf West along Row 0 to X=2.
+- Step 3: Surf South to Row 10, land at (6, 10) or (2, 10).
+- Step 4: Reach (14, 10) for Suicune sighting.
+- Status: XENON leading, Repel ready.
