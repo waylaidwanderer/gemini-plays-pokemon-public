@@ -52,3 +52,11 @@
     2. Cross west to (2, 51) and follow the west path (X=2) all the way north.
     3. Trigger Suicune event and Eusine battle.
 - Observation: Eusine marker at (11, 17) is likely incorrect based on expert advice.
+
+# Tile Mechanics (Verified)
+- FLOOR: Walkable.
+- WALL / BUOY: Impassable.
+- WATER: Traversable only via Surf.
+- FLOOR_UP_WALL: Impassable from the NORTH. Blocks entry from the north and exit to the north. Verified at (16, 10) and (4, 30).
+- LEDGE_HOP_DOWN: One-way jump from NORTH to SOUTH. Verified at (10, 15).
+- COUNTER: Impassable. Interaction point for NPCs (Nurses/Clerks).
