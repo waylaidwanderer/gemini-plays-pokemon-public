@@ -33,6 +33,6 @@
 - Fly Navigation: Johto Fly menu is a linear list scrolled with Up/Down, not a 2D grid.
 - Exploration: (11, 15) and (11, 14) are confirmed dead-end pockets.
 - Pathing: Cianwood city center is elevated; land routes to the west/north beaches are blocked by FLOOR_UP_WALL and WALL. Surf via the east coast is the primary route.
-- Turn 48141: Abandoning Great Spiral. West Channel (X=14-15) is clear and much faster.
-- Plan: Surf North to (14, 15), land at (14, 14), walk to (14, 10).
+- Turn #48142: Confirmed the "Approach" channel (X=14-15) is blocked by a wall at Row 15. Must use the "Outer Channel" (X=27) to reach the North Plateau.
+- Plan: Land at (15, 28) -> Walk to (19, 30) -> Surf East to (27, 30) -> North to (27, 10) -> West to (19, 10) -> South to (19, 11) -> Land at (16, 11).
 - Status: XENON leading, Ultra Balls ready.
