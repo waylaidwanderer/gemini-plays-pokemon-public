@@ -21,9 +21,9 @@
 # Suicune Quest
 - Start Turn (Cianwood Re-attempt): 47450
 - Status: Sighting 2 (Cianwood North Beach) in progress.
-- Current Plan: Navigate to (19, 30), Surf North through the East channel, then land on the North beach.
-- Verification (Turn 47545): FLOOR_UP_WALL tiles are two-way barriers across their top edge. Land detour to Row 51 is impossible from the center.
-- Strategy: Use Surf to bypass the land maze. Gaps in buoy walls at (23, 15) and (21, 9) allow passage to the northern landing zone.
+- Current Plan: Surf through the gap at (23, 15), then head north to Row 8 and west to the north beach (7, 4).
+- Verification (Turn 47549): Eastern water channel has a confirmed gap at (23, 15) in the buoy wall. Column 22 also has a gap at Row 8. This bypasses all land barriers.
+- Goal: Reach (7, 4) to trigger Suicune sighting and battle Eusine.
 - Sighting 1: Burned Tower (DONE)
 - Battle Strategy: Use XENON (Haunter) for Hypnosis. Chip HP with fixed damage moves if needed.
 
