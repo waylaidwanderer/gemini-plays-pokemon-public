@@ -31,6 +31,7 @@
 - Exploration: (11, 15) and (11, 14) are dead-end pockets blocked by walls at Row 14/15.
 - Pathing: Cianwood city center is elevated; use the West Beach (X=2) or East Coast Surf for navigation to the North Plateau.
 - Turn #48145: At (11, 27). Final Plan: The Great Outer Channel.
+- Start Turn: 48151.
 - Step 1: Walk to East Coast Surf Point (19, 30) via Row 29.
 - Step 2: Surf East to X=27, then North to Row 10.
 - Step 3: Surf West through Gap 1 (26, 10) to (19, 11).

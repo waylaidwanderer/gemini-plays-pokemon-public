@@ -24,60 +24,6 @@
       }
     ]
   },
-  "find_traversable_path_v3": {
-    "description": "Finds a traversable path from the player's current position to a target coordinate on the current map, accounting for wall, buoy, water (surf), ledge, and FLOOR_UP_WALL mechanics. Returns a JSON array of button strings.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "start_x": {
-          "type": "integer"
-        },
-        "start_y": {
-          "type": "integer"
-        },
-        "target_x": {
-          "type": "integer"
-        },
-        "target_y": {
-          "type": "integer"
-        }
-      },
-      "required": [
-        "start_x",
-        "start_y",
-        "target_x",
-        "target_y"
-      ]
-    },
-    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\nimport json\nimport sys\n\ndef find_path(xml_string, start_x, start_y, target_x, target_y):\n    try:\n        root = ET.fromstring(xml_string)\n    except:\n        return []\n    width = int(root.get('width'))\n    height = int(root.get('height'))\n    grid = {}\n    objects = set()\n    \n    for row in root.findall('Row'):\n        y = int(row.get('id'))\n        for tile in row.findall('Tile'):\n            x = int(tile.get('id'))\n            t_type = tile.get('type')\n            grid[(x, y)] = t_type\n            if tile.find('Object') is not None:\n                objects.add((x, y))\n            for marker in tile.findall('Marker'):\n                emoji = marker.get('emoji')\n                if emoji in ['👤', '📍', '🪨', '🛟', '🧱', '🚫']:\n                    objects.add((x, y))\n\n    def can_move(x, y, nx, ny, surfing):\n        if not (0 <= nx < width and 0 <= ny < height): return False\n        t_type = grid.get((nx, ny))\n        if t_type is None or t_type == 'unseen': return True\n        if (nx, ny) in objects and (nx, ny) != (target_x, target_y): return False\n        \n        # FLOOR_UP_WALL is a ledge face, impassable from all directions\n        if t_type in ['WALL', 'BUOY', 'FLOOR_UP_WALL']: return False\n        \n        if surfing:\n            if t_type != 'WATER': return False\n        else:\n            if t_type == 'WATER': return False\n        \n        curr_type = grid.get((x, y))\n        dx, dy = nx - x, ny - y\n        if t_type == 'LEDGE_HOP_DOWN' and dy != 1: return False\n        if curr_type == 'LEDGE_HOP_DOWN' and dy != 1: return False\n        \n        return True\n\n    initial_tile = grid.get((start_x, start_y))\n    initial_surfing = (initial_tile == 'WATER')\n    queue = deque([((start_x, start_y), [], initial_surfing)])\n    visited = {((start_x, start_y), initial_surfing)}\n    \n    while queue:\n        (x, y), path, surfing = queue.popleft()\n        if (x, y) == (target_x, target_y):\n            return path\n            \n        for dx, dy, btn in [(0, 1, 'Down'), (0, -1, 'Up'), (1, 0, 'Right'), (-1, 0, 'Left')]:\n            nx, ny = x + dx, y + dy\n            if (nx, ny, surfing) not in visited and can_move(x, y, nx, ny, surfing):\n                visited.add((nx, ny, surfing))\n                queue.append(((nx, ny), path + [btn], surfing))\n                \n        if not surfing:\n            for dx, dy, btn in [(0, 1, 'Down'), (0, -1, 'Up'), (1, 0, 'Right'), (-1, 0, 'Left')]:\n                nx, ny = x + dx, y + dy\n                if grid.get((nx, ny)) == 'WATER' and (nx, ny, True) not in visited:\n                    visited.add((nx, ny, True))\n                    queue.append(((nx, ny), path + [btn, 'A', 'A'], True))\n        else:\n            for dx, dy, btn in [(0, 1, 'Down'), (0, -1, 'Up'), (1, 0, 'Right'), (-1, 0, 'Left')]:\n                nx, ny = x + dx, y + dy\n                t_type = grid.get((nx, ny))\n                if t_type and t_type not in ['WATER', 'BUOY', 'WALL', 'unseen', 'FLOOR_UP_WALL'] and (nx, ny, False) not in visited:\n                    if can_move(x, y, nx, ny, False):\n                        visited.add((nx, ny, False))\n                        queue.append(((nx, ny), path + [btn, 'A'], False))\n    return []\n\ndata = input_data\nres = find_path(map_xml_string, int(data.get('start_x', 0)), int(data.get('start_y', 0)), int(data.get('target_x', 0)), int(data.get('target_y', 0)))\nprint(json.dumps(res))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-01-14T17:50:48.771Z",
-        "action_counter": 47848
-      },
-      {
-        "commit_message": "Added LEDGE_HOP_DOWN logic and improved robustness.",
-        "timestamp": "2026-01-14T18:08:44.623Z",
-        "action_counter": 47869
-      },
-      {
-        "commit_message": "Added Map Marker support and improved ledge face logic. FLOOR_UP_WALL is now impassable from all directions. Tool now respects markers for NPCs, items, and obstacles.",
-        "timestamp": "2026-01-14T18:11:11.248Z",
-        "action_counter": 47872
-      },
-      {
-        "commit_message": "Corrected FLOOR_UP_WALL logic: it only blocks Northward movement. Improved robustness.",
-        "timestamp": "2026-01-14T18:13:27.939Z",
-        "action_counter": 47876
-      },
-      {
-        "commit_message": "FLOOR_UP_WALL is now treated as a solid wall (impassable from all directions). This reflects the observation that ledge faces cannot be walked upon.",
-        "timestamp": "2026-01-14T18:16:27.096Z",
-        "action_counter": 47878
-      }
-    ]
-  },
   "find_path_v4": {
     "description": "Finds a traversable path from the player's current position to a target coordinate on the current map, specifically handling FLOOR_UP_WALL as impassable and LEDGE_HOP_DOWN as one-way. Returns a JSON array of button strings. Distinguishes between LAND and WATER mediums.",
     "input_schema": {
