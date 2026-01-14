@@ -1,14 +1,16 @@
 # Mechanics & State
 - **Location:** Goldenrod Dept Store 5F (TM Corner).
-- **Goal:** Supply Run (Failed). New Goal: Fly to Celadon.
-- **Current Position:** (8, 3) - Facing Clerk.
+- **Goal:** Supply Run (Failed). New Goal: Go to Celadon (Kanto).
+- **Current Position:** (8, 3).
+- **Action:** Exiting Dept Store -> Taking Magnet Train to Kanto.
+- **Reason:** Goldenrod has no Super Repels. Kanto (Celadon) likely does.
+- **Travel Plan:**
+  1. Exit Dept Store (Elevator).
+  2. Go to Magnet Train Station (Goldenrod).
+  3. Train to Saffron City.
+  4. Fly/Walk to Celadon.
 - **Inventory Check:**
-  - 2F: Basic Items (No Super Repels).
-  - 3F: Battle Items.
-  - 4F: Vitamins.
-  - 5F: TMs (Elemental Punches).
-- **Conclusion:** Goldenrod Dept Store does NOT sell Super/Max Repels.
-- **Plan:** Fly to Celadon City (Kanto).
+  - 5F: TMs (Punches). No Repels.
 - **Shopping List:**
   - Super Repels (Need ~20).
   - Ultra Balls.
@@ -19,11 +21,10 @@
 - **3F:** Battle Collection (X-Items).
 - **4F:** Medicine Box (Vitamins).
 - **5F:** TM Corner (Punches).
-- **6F:** Tranquil Square.
 
 # Current Task: Roamer Hunt
-- **Status:** Leaving Goldenrod.
-- **Next Step:** Fly to Celadon City.
+- **Status:** Transit to Kanto.
+- **Next Step:** Exit Building.
 
 # Progress
 - **Badges:** 16/16.
