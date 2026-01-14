@@ -15,6 +15,6 @@
     - Scan grass on Route 37.
     - If no encounter, transition to Ecruteak and back to reset Roamer position.
     - Do NOT check Pokegear map to save time.
-- **Repel Status:** Wore off (Turn 38868). Re-applying.
+- **Repel Status:** Active (Applied Turn 38869).
 - **Session Start:** Turn 38471.
 - **Active Events:** Bug-Catching Contest (Tuesday).
