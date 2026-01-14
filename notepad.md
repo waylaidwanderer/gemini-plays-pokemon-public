@@ -14,7 +14,7 @@
 - FLOOR: Walkable.
 - WALL / BUOY: Impassable.
 - WATER: Traversable only via Surf.
-- FLOOR_UP_WALL: Impassable from the NORTH. Blocks exit to the north. Southward entry test PENDING.
+- FLOOR_UP_WALL: Blocks NORTHWARD movement (entry from below, exit to above). SOUTHWARD entry is likely possible. Strategy: Use southern detour at Row 51 if water route is blocked.
 - LEDGE_HOP_DOWN: One-way jump from NORTH to SOUTH. Verified at (10, 15).
 - COUNTER: Impassable.
 
