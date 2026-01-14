@@ -23,7 +23,7 @@
 - Status: Arrived in Cianwood. Verified (11, 15) is a dead end pocket.
 - Current Task: Verify West Beach Shortcut.
 - Hypothesis: Walking North along the beach at X=2 allows access to the plateau at Y<10, bypassing the buoy maze.
-- Path: Navigate to (2, 11) and continue North.
+- Path: Navigate to (2, 35) and continue North.
 - Success: Reaching (7, 4).
 - Failure: Ledge or Wall blocking X=2 at Y=10. Revert to 'Great Spiral' buoy maze.
 
