@@ -1,16 +1,12 @@
 # Mechanics & State
-- **Location:** Pewter City.
+- **Location:** Pewter City (Party Menu).
 - **Goal:** Return to Johto.
-- **Current Position:** (13, 26).
-- **Action:** Flying to Saffron City (Start -> Down -> Down -> A -> Mistral -> Fly -> Right -> Down -> A).
-- **Inventory Update:**
-  - 19 Super Repels (Active).
-  - 16 Ultra Balls (Existing).
+- **Action:** Selecting Mistral -> Fly.
+- **Roamer Trap:** Route 37 (Lead < Lv 40).
 - **Route Plan:**
   1. Fly to Saffron City.
   2. Magnet Train to Goldenrod.
-  3. Fly to Ecruteak/Route 37.
-- **Money:** ¥2294.
+  3. Fly to Ecruteak.
 
 # Directory Info (Celadon)
 - **2F:** Trainer's Market.
