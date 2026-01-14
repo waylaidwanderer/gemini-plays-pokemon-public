@@ -2,16 +2,17 @@
 - **Location:** Route 23 (Indigo Plateau).
 - **Goal:** Return to Johto (Goldenrod).
 - **Current Position:** Outside Indigo Plateau Entrance (9, 6).
-- **Action:** Opening Fly Map via Mistral.
+- **Action:** Navigating Party Menu to Mistral -> Fly.
 - **Inventory Update:**
   - 20 Super Repels (Bought).
   - 16 Ultra Balls (Existing).
-- **Correction:** Previous attempt opened Pack instead of Party. Correcting by moving Up from Pack.
+- **Correction:** Previous attempt selected Muscle (used Strength) instead of Mistral.
 - **Next Steps:**
-  1. Navigate Fly Map to Saffron.
-  2. Magnet Train to Goldenrod.
-  3. Fly to Ecruteak/Route 37.
-  4. Begin Roamer Hunt (Repel Trick Lvl 36).
+  1. Open Fly Map (Current).
+  2. Navigate to Saffron City.
+  3. Magnet Train to Goldenrod.
+  4. Fly to Ecruteak/Route 37.
+  5. Begin Roamer Hunt (Repel Trick Lvl 36).
 - **Money:** ¥12294.
 
 # Directory Info (Celadon)
