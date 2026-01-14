@@ -22,14 +22,10 @@
 - (11, 14): Dead End Pocket in Cianwood. Wall at (11, 13) and (12, 14) blocks access to the north plateau.
 - (11, 15): Gap in the city wall (Y=15) in Cianwood. Accesses the beach area but not the plateau. Verified in Turn 47337.
 
-# Fly Navigation (Grid Step Theory)
-- The Fly map uses a grid system where 1 unit = 7 directional taps.
-- New Bark (14, 10) to Cherrygrove (12, 10) = 2 units West = 14 Left taps.
-- Current Status: 3 Left taps sent; destination still New Bark.
-- Plan: Send 11 more Lefts to reach Cherrygrove, verifying the 7-tap-per-unit theory.
-- Total required for Cianwood (0, 9): 98 Lefts, 7 Ups (from New Bark).
-- Failed Fly attempts: 58.
-- Timestamp: Turn 48019.
+- Status: At (25, 5) in Cherrygrove; Fly map open. Confirmed 7 taps = 1 unit on Town Map.
+- Failed Fly attempts: 58 (Reason: Coordinate math mismatch; New Bark to Cianwood is 14 units, requiring 98 taps).
+- Flight Plan: Send 98 Lefts and 7 Ups in chunks. Turn 1: 25 Lefts with 200ms sleeps.
+- Timestamp: Turn 48020. Quest started Turn 47680.
 
 # Quest Strategies
 ## Suicune: 'The Great Spiral' (The Only Real Path)
