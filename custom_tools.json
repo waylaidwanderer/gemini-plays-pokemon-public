@@ -59,18 +59,23 @@
     ]
   },
   "suicune_sweep": {
-    "description": "Generates a path to sweep the Route 42 grove for the Suicune trigger.",
+    "description": "Generates a sequence of button presses to pick the remaining Apricorns in the Route 42 grove and then perform a thorough sweep of all walkable tiles to trigger the Suicune sighting. Starting position: (28, 15).",
     "input_schema": {
       "type": "object",
       "properties": {},
       "required": []
     },
-    "python_script": "import json\n\ndef sweep():\n    # Define the walkable tiles in the Route 42 grove\n    # Row 15: (25,15) to (30,15)\n    # Row 16: (26,16), (30,16)\n    # Row 17: (26,17) to (30,17)\n    \n    path = []\n    # Start at (28, 15) - current pos\n    # Row 15\n    for x in range(25, 31):\n        path.append({\"x\": x, \"y\": 15})\n    # Row 16 ends\n    path.append({\"x\": 30, \"y\": 16})\n    # Row 17\n    for x in range(30, 25, -1):\n        path.append({\"x\": x, \"y\": 17})\n    # Row 16 other end\n    path.append({\"x\": 26, \"y\": 16})\n    \n    return path\n\nprint(json.dumps(sweep()))\n",
+    "python_script": "import json\n\ndef sweep():\n    # Starting from (28, 15)\n    # 1. Pick (27, 16) - PNK\n    # 2. Pick (29, 16) - YLW\n    # 3. Sweep the grove (Rows 15 and 17)\n    \n    path = [\n        \"Left\", \"Down\", \"A\", \"A\", \"A\", \"A\", # Pick (27, 16) from (27, 15)\n        \"Up\", \"Right\", \"Right\", \"Down\", \"A\", \"A\", \"A\", \"A\", # Pick (29, 16) from (29, 15)\n        \"Up\", \"Left\", # Back to (28, 15)\n        \"Left\", \"Left\", \"Right\", \"Right\", \"Right\", \"Right\", # Sweep Row 15\n        \"Down\", \"Down\", \"Left\", \"Left\", \"Left\", \"Left\", # Sweep Row 17\n        \"Up\", \"Up\" # Back to Row 15 area\n    ]\n    return path\n\nprint(json.dumps(sweep()))\n",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2026-01-14T07:02:32.423Z",
         "action_counter": 47312
+      },
+      {
+        "commit_message": "Update suicune_sweep to return button presses for picking Apricorns and sweeping the grove. Pauses for text boxes are included.",
+        "timestamp": "2026-01-14T07:03:22.063Z",
+        "action_counter": 47313
       }
     ]
   }
