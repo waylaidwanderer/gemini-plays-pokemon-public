@@ -6,14 +6,12 @@
 - **Goal:** Register Raikou & Entei.
 - **Current Task:** Farm money at Elite Four.
 - **Location:** Karen's Room (Elite Four).
-- **Action:** Battling Karen (Murkrow).
+- **Action:** Battling Karen (Houndoom - Final Pokemon).
 - **Active Pokemon:** Machoke (Lv 89). Status: Accuracy -1.
 - **Strategy:**
-    - **Murkrow:** Dark/Flying. 2x Weak to Ice.
-    - **Move:** **Ice Punch** (Slot 3).
+    - **Houndoom:** Dark/Fire. 2x Weak to Fighting.
+    - **Move:** **Cross Chop** (Slot 4).
     - **Cursor:** Currently on **Ice Punch (Slot 3)**.
-    - **Nav:** A (Fight) -> A (Ice Punch).
-    - **Note:** Last attack missed (Accuracy -1). Retrying.
-    - **Houndoom (Last):** Cross Chop (Slot 4).
+    - **Nav:** Press B (Decline Switch). Next: Fight -> Down (to Slot 4) -> A.
 - **Goal:** Farm money.
 - **Resources:** ¥22094.
