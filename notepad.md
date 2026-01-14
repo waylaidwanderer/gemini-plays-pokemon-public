@@ -10,20 +10,17 @@
 - LEDGE_HOP_DOWN: One-way jump from NORTH to SOUTH.
 - COUNTER: Impassable.
 
-# Suicune Quest Strategy: 'The Great Buoy Loop'
+# Suicune Quest Strategy: 'The Western Land Bypass'
 - Goal: Reach Suicune at (7, 4).
-- Fact: Northern water is isolated by a spiral of buoy walls: X=26 (Y0-9), X=22 (Y9-15), X=19 (Y15-20), and X=16 (Y25-29).
-- Solution: Navigate through three specific gaps to reach the north beach.
+- Fact: The northern part of the island (north beach) is accessible by land via the far western beach (X=0 to X=2). The buoy maze is a red herring.
 - Route:
-    1. Surf at (19, 30). (Done, currently at 19, 29)
-    2. Sail to (27, 29) -> (27, 10).
-    3. Gap 1: Sail Left through (26, 10) to reach (25, 10).
-    4. Sail Down to (25, 21).
-    5. Gap 2: Sail Left through (22, 21) to reach (20, 21). (Wait, checking map...)
-    6. Sail Up to (20, 8).
-    7. Sail West to (14, 8), then South to (14, 10) and land.
-    8. Walk to Suicune at (7, 4).
+    1. Land at (19, 30).
+    2. Walk West to (12, 30), then South to (12, 49) to bypass the city's one-way ledges.
+    3. Walk West to (2, 49).
+    4. Walk North along the far west coast to (2, 14).
+    5. Walk East and North to the landing spot: (2, 14) -> (8, 14) -> (8, 12) -> (14, 12) -> (14, 10).
+    6. Approach Suicune at (7, 4).
 - Preparation: Lead with XENON (Haunter) for Hypnosis. Be ready for Eusine.
-- Status: Surfing at (19, 29). Sailing east to the channel entrance at (27, 10).
+- Status: Surfing at (19, 21). Landing at (19, 30) to start the land route.
 - Start Turn: 47680 (Suicune North Beach Quest)
 - Start Time: Wednesday, Jan 14, 2026, 4:00 AM PST
