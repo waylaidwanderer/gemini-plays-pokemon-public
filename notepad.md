@@ -30,7 +30,7 @@
 - Math: 14 units West (98 taps), 1 unit North (7 taps).
 - Progress: 1/98 Lefts.
 - Failed Fly attempts: 58.
-- Timestamp: Turn 48028. Quest started Turn 47680.
+- Timestamp: Turn 48031. Quest started Turn 47680.
 
 # Quest Strategies
 ## Suicune: 'The Great Spiral' (The Only Real Path)
@@ -38,8 +38,10 @@
 - Shortcut Hypothesis: Suicune (7, 4) reachable via beach at X=2. Gap at Y=33/35 needs re-verification in Cianwood.
 - Route: Fly to Cianwood -> Walk to beach at X=2 -> Walk North to Suicune at (7, 4).
 - Preparation: Lead with XENON (Haunter). Use SUPER REPEL.
+- Capture Strategy: Use XENON's Hypnosis to sleep Suicune. Lower HP with GORP's Body Slam (careful not to KO) or Night Shade. Throw Ultra Balls.
 
-# Reflection Turn 48000
-- Strategy: Pivoting to Grid Step theory for Fly navigation.
-- Lessons: Fly map navigation is based on a sub-grid (7 taps/unit), not city-to-city or 1:1 coordinates.
+# Reflection Turn 48031
+- Strategy: Moving Fly cursor in manual chunks of 24 taps (48 buttons total including sleeps) to stay under the 50-button limit.
+- Lessons: Fly map navigation is based on a sub-grid (7 taps/unit). 1 tap moves the cursor visually but doesn't change city text until the unit threshold is met.
 - Root Hypothesis Check: Fly to Cianwood is valid; execution failed due to coordinate scaling misunderstanding.
+- Verification: Analyst claims 1 tap = 1 city, but observation proves 1 tap < 1 city. Trusting observation.
