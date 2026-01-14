@@ -16,6 +16,6 @@
     - Move to grass and Scan ONCE (20 steps).
     - If no encounter, IMMEDIATELY transition to Ecruteak and back to reset.
     - Do NOT check Pokegear map.
-- **Repel Status:** Active (Applied Turn 38903).
+- **Repel Status:** Wore off (Turn 38935). Re-applying next cycle.
 - **Session Start:** Turn 38471.
 - **Active Events:** Bug-Catching Contest (Tuesday).
