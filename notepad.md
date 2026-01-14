@@ -2,8 +2,10 @@
 
 # Strategic Status
 - **Goal:** Register Raikou & Entei.
-- **Current Action:** Navigating Fly Map (New Bark -> Ecruteak).
+- **Current Action:** Navigating Fly Map (New Bark -> Blackthorn?).
 - **Location:** Goldenrod City (Johto) - Fly Menu.
+- **Issue:** 'Left' input from New Bark Town failed (Cursor stuck).
+- **Plan:** Test 'Up' to reach Blackthorn. If valid, route via North Johto.
 
 # Roamer Hunting Strategy (Route 37)
 1.  **Setup:** 
@@ -18,7 +20,7 @@
 3.  **Target:** Raikou/Entei (Lv 40). Repel filters Lv < 36.
 
 # Notes
-- **Fly Map:** Navigating New Bark -> Ecruteak (Left x3).
+- **Fly Map:** Navigating New Bark -> Blackthorn (Up) -> Mahogany (Left).
 
 # Roamer Hunting Strategy
 1.  **Setup:** Gyarados (Lv 36) leading, Super Repel active.
