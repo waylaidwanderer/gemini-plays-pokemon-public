@@ -59,13 +59,13 @@
     ]
   },
   "suicune_sweep": {
-    "description": "Generates a sequence of button presses to pick the remaining Apricorns in the Route 42 grove and then perform a thorough sweep of all walkable tiles to trigger the Suicune sighting. Starting position: (28, 15).",
+    "description": "Generates a sequence of button presses to perform a thorough sweep of all walkable tiles in the Route 42 grove to trigger the Suicune sighting. Starting position: (28, 15).",
     "input_schema": {
       "type": "object",
       "properties": {},
       "required": []
     },
-    "python_script": "import json\n\ndef sweep():\n    # Starting from (28, 15)\n    path = []\n    # 1. Pick PNK at (27, 16) from (27, 15)\n    path += [\"Left\", \"Down\", \"A\", \"A\", \"A\", \"A\"] \n    # 2. Pick YLW at (29, 16) from (29, 15)\n    path += [\"Up\", \"Right\", \"Right\", \"Down\", \"A\", \"A\", \"A\", \"A\"]\n    # 3. Sweep Row 15 (25, 15 to 30, 15)\n    path += [\"Up\", \"Left\", \"Left\", \"Left\", \"Left\", \"Right\", \"Right\", \"Right\", \"Right\", \"Right\"]\n    # 4. Sweep Row 17 (30, 17 to 26, 17)\n    path += [\"Down\", \"Down\", \"Left\", \"Left\", \"Left\", \"Left\"]\n    # 5. Sweep Row 16 ends (26, 16 and 30, 16)\n    path += [\"Up\", \"Right\", \"Right\", \"Right\", \"Right\", \"Up\", \"Left\", \"Left\"]\n    # Final position: (28, 15)\n    return path\n\nprint(json.dumps(sweep()))\n",
+    "python_script": "import json\n\ndef sweep():\n    # Starting from (28, 15)\n    # Walkable tiles in grove:\n    # Row 15: (25,15) to (30,15)\n    # Row 16: (26,16), (30,16)\n    # Row 17: (26,17) to (30,17)\n    \n    path = [\n        \"Left\", \"Left\", \"Left\", # To (25, 15)\n        \"Right\", \"Right\", \"Right\", \"Right\", \"Right\", # To (30, 15)\n        \"Down\", \"Left\", \"Left\", \"Left\", \"Left\", # To (26, 17)\n        \"Right\", \"Right\", \"Right\", \"Right\", # To (30, 17)\n        \"Up\", \"Up\", \"Left\", \"Left\" # Back to (28, 15)\n    ]\n    return path\n\nprint(json.dumps(sweep()))\n",
     "history": [
       {
         "commit_message": "Initial version",
@@ -81,6 +81,11 @@
         "commit_message": "Refine suicune_sweep to perfectly cover all walkable grove tiles and pick remaining Apricorns. Includes bumping into trees to face them and handling text boxes.",
         "timestamp": "2026-01-14T07:05:46.366Z",
         "action_counter": 47314
+      },
+      {
+        "commit_message": "Update suicune_sweep to be a pure tile-by-tile sweep of the grove without trying to pick Apricorns.",
+        "timestamp": "2026-01-14T07:09:41.683Z",
+        "action_counter": 47319
       }
     ]
   }
