@@ -14,7 +14,7 @@
 - **Goal:** Register Raikou & Entei.
 - **Current Task:** Farm money at Elite Four -> Buy Max Repels (20x).
 - **Location:** Saffron City Magnet Train Station.
-- **Action:** Closing arrival dialogue.
-- **Next Step:** Exit Station -> Fly to Indigo Plateau.
+- **Action:** Exiting station (Walking South).
+- **Next Step:** Fly from Saffron to Indigo Plateau.
 - **Goal:** Blind Hunt for Raikou/Entei after farming money.
 - **Resources:** ¥2294. Repels: 0.
