@@ -18,7 +18,7 @@
 - Status: 16 Badges, Red Defeated, Clear Bell in inventory.
 - Timestamps:
     - Started Suicune Quest (Kanto Phase): Turn #47125
-    - Backtracking for Route 42 Sighting: Turn #47221
+    - Backtracking for Route 42 Sighting: Turn #47221 (Start)
 - Sighting Progress:
     1. Burned Tower (DONE)
     2. Cianwood City (DONE - Eusine defeated)
