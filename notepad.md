@@ -1,13 +1,12 @@
 # Suicune Quest
 - Objective: Trigger sighting in Cianwood City at the northern shore.
-- Strategy: The Great Northern Sea Loop
-    1. Surf East at (19, 30) to X=23.
-    2. Surf North along X=23 to Row 8.
-    3. Surf West along Row 8 to X=19.
-    4. Surf South to Row 11.
-    5. Surf West to land at (16, 11).
-    6. Walk to (7, 4) to trigger sighting.
-- Note: Internal land routes and ledge jumps are blocked. The buoy wall at X=22 has a gap at Row 8. Suicune sighting count = 1.
+- Strategy: The Southern promenade (Verified Path)
+    1. Surf South to (20, 51) and land at (19, 51).
+    2. Walk West along Row 51 to the West Coast corridor at X=2.
+    3. Walk North along X=2 to Y=4.
+    4. Walk East to (7, 4) to trigger the sighting.
+- Note: Internal city walls at X=5, 7, 9, 11, 12 and buoy walls at X=16, 18, 19, 22 block most routes. Row 51 is a confirmed horizontal thoroughfare.
+- Suicune sighting count = 1.
 
 # Tile Mechanics (Verified)
 - FLOOR: Standard walkable ground.
@@ -19,6 +18,6 @@
 
 # Lessons Learned
 - Cianwood's ledges are impassable from the north.
-- Internal walls divide the city into inaccessible strips on land.
-- Zig-zag buoy lines block the eastern sea. Gap found at (22, 8).
-- Reveal 'unseen' tiles manually before planning long routes.
+- Internal walls divide the city into vertical strips. Row 51 is the only clear path between them.
+- Zig-zag buoy lines block the eastern sea. Surf south to bypass them.
+- Always reveal 'unseen' tiles manually before planning long routes.
