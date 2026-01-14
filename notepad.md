@@ -9,6 +9,8 @@
 - FLOOR: Walkable.
 - WALL: Impassable.
 - WATER: Traversable only via Surf.
+- (11, 14): Dead End Pocket. Wall at (11, 13) and (12, 14) blocks access to the north plateau.
+- (11, 15): Gap in the city wall (Y=15). Accesses the beach area but not the plateau.
 
 # Suicune Quest Strategy: 'The Buoy Spiral'
 - Fact: The northern plateau is isolated by ledges. The only access is by water from the east, navigating the buoy spiral.

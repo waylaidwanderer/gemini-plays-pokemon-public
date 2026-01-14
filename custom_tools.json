@@ -151,5 +151,27 @@
         "action_counter": 47221
       }
     ]
+  },
+  "use_item_by_index_v1": {
+    "description": "Opens the pack, resets the cursor by pocket-switching, navigates to the specified item index, and uses it.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "item_index": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "item_index"
+      ]
+    },
+    "python_script": "import json\nidx = int(input_data['item_index'])\nsequence = [\"Start\", \"Down\", \"Down\", \"A\", \"sleep 500\", \"Right\", \"sleep 500\", \"Left\", \"sleep 500\"]\nfor _ in range(idx):\n    sequence.append(\"Down\")\nsequence.extend([\"A\", \"sleep 500\", \"A\", \"sleep 1000\", \"A\", \"sleep 500\", \"B\", \"sleep 500\", \"B\"])\nprint(json.dumps(sequence))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-14T17:29:24.353Z",
+        "action_counter": 47822
+      }
+    ]
   }
 }
