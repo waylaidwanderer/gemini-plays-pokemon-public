@@ -5,14 +5,15 @@
 - **Goal:** Register Raikou & Entei.
 - **Current Task:** Farm money at Elite Four.
 - **Location:** Karen's Room (Elite Four).
-- **Action:** Initiating Battle with Karen.
-- **Battle Plan:**
-    - **Lead:** Gyarados -> Switch to Machoke (Lv 89).
-    - **Umbreon:** **Cross Chop** (Slot 4). Super Effective.
-        - Nav: From Ice Punch (3) -> Down x1 -> Cross Chop (4).
-    - **Vileplume:** **Ice Punch** (Slot 3).
-    - **Gengar:** **Ice Punch** (Slot 3) or Thunderpunch.
-    - **Murkrow:** **Ice Punch** (Slot 3) or Thunderpunch.
-    - **Houndoom:** **Cross Chop** (Slot 4).
+- **Action:** Battling Karen (Umbreon).
+- **Active Pokemon:** Switching to Machoke (Lv 89).
+- **Strategy:**
+    - **Umbreon:** Use **Cross Chop** (Slot 4).
+    - **Cursor Memory:** **Ice Punch (Slot 3)** (Last used vs Onix).
+    - **Nav:** Press A (Fight) -> Down (to Cross Chop) -> A.
+    - **Vileplume:** Ice Punch.
+    - **Gengar:** Thunderpunch/Ice Punch.
+    - **Murkrow:** Thunderpunch/Ice Punch.
+    - **Houndoom:** Cross Chop.
 - **Goal:** Farm money.
 - **Resources:** ¥22094.
