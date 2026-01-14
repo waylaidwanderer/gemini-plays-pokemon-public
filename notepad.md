@@ -12,7 +12,7 @@
 
 # Type Effectiveness (Verified)
 - Ghost -> Normal: Immune (Night Shade, Confuse Ray).
-- Psychic -> Normal: Effective (Hypnosis, Dream Eater). *Note: Hypnosis missed Aipom on Turn 47189 due to Sand-Attack reducing accuracy.*
+- Psychic -> Normal: Effective (Dream Eater). *Note: Hypnosis (Status) missed Aipom on Turn 47189 due to Sand-Attack reducing accuracy; Psychic moves hit Normal types normally.*
 
 # Suicune Quest
 - Status: 16 Badges, Red Defeated, Clear Bell in inventory.
@@ -28,11 +28,10 @@
 - Strategy & Lessons:
     - Visit sighting spots in order. Quest is strictly linear.
     - Lesson: Suicune is a static land sprite; water sweeps are ineffective.
-- Backtracking Plan:
-    1. Take Magnet Train from Saffron City to Johto. (DONE)
-    2. Fly to Ecruteak City (Johto). (IN PROGRESS)
-    3. Head East to Route 42 Middle Grove (approach the 3 Apricorn trees).
-    4. Return to Kanto (Fuchsia City) after Johto sighting.
+- Backtracking Plan (HOW):
+    - Fly to Ecruteak, head East to the grove near the 3 Apricorn trees on Route 42.
+    - Ensure KIMCHI has Cut for the tree at (24, 13).
+    - Return to Kanto (Fuchsia City) after Johto sighting.
 
 # PC Storage (Box 1)
 - LARVITAR, SCYTHER, SEEL, MANTINE, KRABBY x2, TENTACOOL, DRATINI, SPINARAK, POLIWAG.
