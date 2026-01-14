@@ -16,3 +16,6 @@
 - Preparation: Lead with XENON (Haunter) for Hypnosis. Use SUPER REPEL once on water.
 - Start Turn: 47680 (Suicune North Beach Quest)
 - Start Time: Wednesday, Jan 14, 2026, 4:00 AM PST
+
+# Progress Update
+- Turn 47805: Position (26, 45). Plan: Use Super Repel, walk to (27, 45), Surf, sail to (26, 10).
