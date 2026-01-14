@@ -26,13 +26,14 @@
 - Step 3: Navigate Buoy Maze Gaps:
   - Gap 1: (26, 10) (Done)
   - Gap 2: (22, 16) (Done)
-  - Gap 3: (18, 26) (Next)
-  - Gap 4: (16, 20)
-- Step 4: Land on North Plateau at (16, 11-14).
+  - Gap 3: (18, 26) (Done)
+  - Gap 4: (23, 15) (In Progress)
+  - Gap 5: (19, 14)
+- Step 4: Land on North Plateau at (16, 11).
 - Step 5: Walk to (14, 10).
 
 # Verified Landmarks & Gaps
-- Buoy Gaps: (26, 10), (22, 16), (18, 26), (16, 20).
+- Buoy Gaps: (26, 10), (22, 16), (18, 26), (23, 15), (19, 14).
 - Plateau Landing: (16, 11-14).
 - Sighting Spot: (14, 10).
 
