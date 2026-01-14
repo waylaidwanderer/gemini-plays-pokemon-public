@@ -15,7 +15,7 @@
         "sequence"
       ]
     },
-    "python_script": "\nimport json\nimport sys\n\ndef main():\n    try:\n        input_data = json.load(sys.stdin)\n        sequence = input_data.get('sequence', [])\n        print(json.dumps(sequence))\n    except:\n        print(json.dumps([]))\n\nif __name__ == \"__main__\":\n    main()\n",
+    "python_script": "\nimport json\nimport sys\n\ndef main():\n    try:\n        raw_input = sys.stdin.read()\n        if not raw_input:\n            print(json.dumps([]))\n            return\n        input_data = json.loads(raw_input)\n        sequence = input_data.get('sequence', [])\n        if not isinstance(sequence, list):\n            sequence = []\n        print(json.dumps(sequence))\n    except Exception as e:\n        print(json.dumps([]))\n\nif __name__ == \"__main__\":\n    main()\n",
     "history": [
       {
         "commit_message": "Initial version",
@@ -31,6 +31,11 @@
         "commit_message": "Fixing JSON output to ensure it returns a valid array of button strings.",
         "timestamp": "2026-01-14T05:14:56.435Z",
         "action_counter": 47086
+      },
+      {
+        "commit_message": "Improving input handling and ensuring valid JSON output for menu navigation.",
+        "timestamp": "2026-01-14T05:19:11.931Z",
+        "action_counter": 47094
       }
     ]
   },
@@ -113,7 +118,7 @@
         "y2"
       ]
     },
-    "python_script": "\nimport json\nimport sys\n\ndef main():\n    try:\n        input_data = json.load(sys.stdin)\n        x1, y1 = int(input_data['x1']), int(input_data['y1'])\n        x2, y2 = int(input_data['x2']), int(input_data['y2'])\n        \n        start_x, end_x = min(x1, x2), max(x1, x2)\n        start_y, end_y = min(y1, y2), max(y1, y2)\n        \n        path = []\n        # We need to output buttons for autopress_buttons\n        # But this tool's description says it returns coordinates.\n        # Given the autopress_buttons=True requirement in the prompt, \n        # I will assume it should return buttons to navigate between these coordinates.\n        # However, the standard generate_sweep_path tool usually returns coordinates.\n        # I'll stick to coordinates for now as per the description.\n        \n        for y in range(start_y, end_y + 1):\n            row = list(range(start_x, end_x + 1))\n            if (y - start_y) % 2 == 1:\n                row.reverse()\n            for x in row:\n                path.append({\"x\": x, \"y\": y})\n        \n        # If autopress_buttons is true, the harness expects buttons.\n        # Since I can't know the player's current position easily here,\n        # and this tool is for overworld navigation (which is forbidden for buttons),\n        # I will return an empty list if it's treated as a button tool.\n        # The prompt says \"Do NOT use for overworld navigation. Use path_plan with coordinates for that.\"\n        # So I will return the coordinates as JSON.\n        print(json.dumps(path))\n    except Exception as e:\n        print(json.dumps([]))\n\nif __name__ == \"__main__\":\n    main()\n",
+    "python_script": "\nimport json\nimport sys\n\ndef main():\n    try:\n        raw_input = sys.stdin.read()\n        if not raw_input:\n            print(json.dumps([]))\n            return\n        input_data = json.loads(raw_input)\n        x1 = int(input_data.get('x1', 0))\n        y1 = int(input_data.get('y1', 0))\n        x2 = int(input_data.get('x2', 0))\n        y2 = int(input_data.get('y2', 0))\n        \n        start_x, end_x = min(x1, x2), max(x1, x2)\n        start_y, end_y = min(y1, y2), max(y1, y2)\n        \n        path = []\n        for y in range(start_y, end_y + 1):\n            row = list(range(start_x, end_x + 1))\n            if (y - start_y) % 2 == 1:\n                row.reverse()\n            for x in row:\n                path.append({\"x\": x, \"y\": y})\n        \n        print(json.dumps(path))\n    except Exception as e:\n        print(json.dumps([]))\n\nif __name__ == \"__main__\":\n    main()\n",
     "history": [
       {
         "commit_message": "Initial version",
@@ -124,6 +129,11 @@
         "commit_message": "Fixing JSON output to ensure it returns a valid array of button strings.",
         "timestamp": "2026-01-14T05:14:56.433Z",
         "action_counter": 47086
+      },
+      {
+        "commit_message": "Improving input handling and ensuring valid JSON output for coordinate generation.",
+        "timestamp": "2026-01-14T05:19:11.932Z",
+        "action_counter": 47094
       }
     ]
   }
