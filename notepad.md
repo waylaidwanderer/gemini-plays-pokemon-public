@@ -12,22 +12,20 @@
 - FLOOR_UP_WALL: Ledge face. Impassable.
 - LEDGE_HOP_DOWN: One-way jump (North to South).
 
-# Fly Navigation (Grid Math)
-- Map: Town Map (Fly).
-- Rule: 7 directional taps = 1 coordinate unit. (Verified: 14 taps = 2 units from New Bark to Cherrygrove).
-- Target: Cianwood (0, 9) from New Bark (14, 10).
-- Progress: 0/98 Lefts.
-- Strategy: Move cursor in chunks of 14 taps (2 units) with 250ms sleeps.
+# Fly Navigation (Hypothesis: Vertical List)
+- Starting City: New Bark Town.
+- Interface: Speech bubble with city name and Up/Down arrows.
+- Theory: Use Up/Down to navigate cities. Left/Right confirmed ineffective.
+- Goal: Cianwood City (Estimated 7 Down presses from New Bark).
 
 # Suicune Capture Strategy
-- Lead: XENON (Haunter).
-- Move 1: Hypnosis (Sleep status).
-- Move 2: Night Shade (Fixed 44 dmg; Suicune has ~120 HP). Use 2 times to reach red zone.
-- Item: Ultra Balls.
+- Lead: XENON (Haunter, Lv44).
+- Move 1: Hypnosis (Sleep). Accuracy: 60%.
+- Move 2: Night Shade (Fixed 44 dmg). Suicune has ~120 HP. 2 hits = Red health.
+- Item: Ultra Balls (32 available).
+- Note: Suicune is Water type. Calcifer (Fire) is vulnerable. GORP (Snorlax) is a good tank.
 
 # Strategic Plans
-## Fly to Cianwood
-- Current Step: Moving cursor 14 taps West to reach Cherrygrove City.
-
-## Verify 'Gem Shortcut' in Cianwood
-- Task: Once in Cianwood, verify if the wall gap at (11, 15) allows access to the north beach plateau (Y < 16).
+- Fly to Cianwood City.
+- Verify 'Gem Shortcut': Check if wall gap at (11, 15) allows access to north plateau (Y<16). [Status: Unverified/Suspected Hallucination]
+- Locate Suicune at (7, 4) on the north beach plateau.
