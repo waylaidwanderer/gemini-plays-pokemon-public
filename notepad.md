@@ -19,18 +19,16 @@
 - Item: Ultra Balls (32).
 - Backup: GORP (Snorlax) as a tank. Calcifer (Typhlosion) is risky due to type disadvantage.
 
-# Strategic Plan: Southern Crossing
-- Observation: The Great Spiral is a dead end. The North Plateau sighting spot (14, 10) is only reachable via the West Beach (X=2).
-- Step 1: Use Super Repel. (Done)
-- Step 2: Surf South to (28, 45) and land at (27, 45). (Done)
-- Step 3: Land at (27, 45) and walk to (6, 45).
-- Step 4: Navigate around the X=5 wall: (6, 45) -> (6, 44) -> (4, 44) -> (4, 46).
-- Step 5: Walk South to Row 51, then West to the beach corridor at X=2.
-- Step 6: Walk North along X=2 to Row 14, then East to (14, 10).
+# Strategic Plan: The West Beach Sprint
+- Start Turn: 48151.
+- Step 1: Reach East Coast Surf Point and land at (27, 45). (Done)
+- Step 2: Walk to Gym Area at (6, 45). (Done)
+- Step 3: Navigate to Row 35 gap: (6, 45) -> (12, 45) -> (12, 35) -> (5, 35). (Next)
+- Step 4: Walk West to the beach corridor at X=2.
+- Step 5: Walk North along X=2 to Row 12.
+- Step 6: Walk East along Row 12 to (14, 10) to trigger Suicune.
 - Status: XENON leading, Repel active.
-- Verification: X=4 is a clear gap through the Row 46-50 ledges.
 
 # Lessons Learned
-- Pathing: The city center is a plateau, but Row 51 is a low-level corridor that connects the east and west coasts.
-- Hallucination Correction: (11, 50) and (10, 50) are NOT blocked; they are FLOOR tiles that allow passage from the city center to Row 51.
-- Turn 48170: At (26, 10). Starting Southern Crossing trek.
+- Pathing: The city center is a plateau; the X=5 wall has a clear gap at (5, 35).
+- Navigation: Row 51 is also a clear corridor, but Row 35 is faster from the city center.
