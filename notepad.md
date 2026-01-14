@@ -2,8 +2,8 @@
 - **Location:** Route 26 (Fly Map Open).
 - **Goal:** Return to Johto.
 - **Current Position:** (7, 6).
-- **Fly Map Cursor:** Viridian City.
-- **Action:** Navigating Fly Map from Viridian to Cerulean (Up -> Right).
+- **Fly Map Cursor:** Pewter City.
+- **Action:** Navigating Fly Map from Pewter to Saffron (Right -> Down).
 - **Inventory Update:**
   - 19 Super Repels (Active).
   - 16 Ultra Balls (Existing).
