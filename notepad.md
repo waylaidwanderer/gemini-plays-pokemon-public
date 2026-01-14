@@ -33,4 +33,4 @@
     - **NO Super Repels found in Goldenrod.**
     - **Cannot Fly from 6F Roof.**
 - **Strategy:** Fly to Celadon City -> Buy Super Repels -> Resume Hunt.
-- **Reflection (Turn 39203):** Fly Map Navigation is difficult. Cursor stuck at Azalea Town. Previous fast inputs (200ms) failed. Switching to slower inputs (500ms) to ensure registration. Path: Up (to Ecruteak) -> Right (to Indigo Plateau) -> Right (to Kanto).
+- **Reflection (Turn 39204):** Fly Map Cursor is at Olivine City (West Johto). Previous inputs moved cursor unexpectedly. New Strategy: Press 'Right' repeatedly to traverse East across Johto towards Kanto/Indigo Plateau.
