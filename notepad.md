@@ -23,11 +23,6 @@
 - Island is reachable via western pond (Surf) or Mt. Mortar middle entrance.
 - Entrances at (10, 5), (28, 9), (46, 7).
 
-# Systematic Search Plan (Route 42 Island)
-- Phase 1: Grove (X=24-31, Y=13-17). Status: 95% COMPLETED. Missing tile (28, 15).
-- Phase 2: Upper Island (X=20-33, Y=4-12). Status: PARTIALLY COMPLETED.
-- Start Turn: 46896.
-
 # Hypotheses & Tests
 - Hypothesis 1: Trigger is a specific tile in the (26, 15) or (27, 15) grove.
     - Test: Walk onto (26, 15) and (27, 15).
@@ -44,7 +39,6 @@
 - Eusine battle confirms sighting completion.
 - Buoy walls are highly restrictive; land routes often safer.
 - Multimodal pathfinding fails on water-to-land transitions; use manual navigation or chunks.
-- [Lesson] Always verify 'Surrounding tiles' in GameState before executing a manual movement sequence to avoid hitting obstacles like trees.
 
 # Map Insights (Mt. Mortar)
 - B1F ladder at (19, 29) leads to 1FOutside (17, 29).
