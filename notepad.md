@@ -37,7 +37,7 @@
 
 # Failed Hypotheses
 - "The Sea Loop" (Surfing around buoys): Denied. Buoy walls at Row 15 and Row 9 are too restrictive.
-- "Sighting trigger at (26, 15)": Denied (single pass failed, requires systematic sweep).
+- "Sighting trigger at (26, 15)": Denied (Initial pass at (26, 15) failed; requires systematic sweep).
 
 # Lessons Learned
 - Eusine battle confirms sighting completion.
