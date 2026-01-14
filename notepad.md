@@ -22,7 +22,7 @@
 - Start Turn (Cianwood): 47450 (Wednesday, Jan 14, 2026, 12:50 AM)
 - Sighting 1: Burned Tower (DONE)
 - Sighting 2: Cianwood City (In Progress)
-- Current Plan: Reset via Fly to (16, 11), then navigate to (7, 4).
+- Current Plan: Navigate to (27, 44), Surf North through the East channel, then land on the North beach.
 - Observation: Eusine marker at (11, 17) was a hallucination/error and has been deleted.
 
 # Observation (Turn 47509)
