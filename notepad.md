@@ -21,9 +21,12 @@
 # Suicune Quest Strategy: 'The North Loop'
 - Goal: Reach Suicune sighting area at (7, 4).
 - Pathing Logic:
-    1. Sail north to Row 10 to clear the X=26 wall at (26, 10).
-    2. Sail north to Row 8 to clear the X=22 and X=19 walls.
-    3. Sail west along Row 8 to the northern plateau.
-    4. Land at (16, 11) and walk to (7, 4).
+    1. Sail north to Row 16 to clear the X=26 wall at (26, 16).
+    2. Sail west to X=21.
+    3. Sail north to Row 14.
+    4. Sail west to X=18.
+    5. Sail north to Row 11.
+    6. Sail west to land at (16, 11).
+    7. Walk to (7, 4).
 - Battle Strategy: Lead with XENON (Haunter) for Hypnosis. Be ready for Eusine.
-- Status: Surfing at (26, 21). Moving to (16, 11).
+- History: Confirmed X=19 wall is solid from Y=15 to Y=20. X=22 wall is solid from Y=9 to Y=15. X=26 wall is solid from Y=0 to Y=9. Gap at (19, 21) leads to a dead end pocket at X=18.
