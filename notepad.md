@@ -6,11 +6,11 @@
 # Strategic Status
 - **Goal:** Register Raikou & Entei.
 - **Current Task:** Restock Supplies.
-- **Location:** Violet City.
-- **Action:** Flying to Goldenrod Dept Store.
+- **Location:** Goldenrod City (Dept Store).
+- **Action:** Taking Elevator to 2F.
 - **Status:** Deep Post-Game.
 - **Strategy:**
-    1. **Buy Repels:** Buy Max Repels at Goldenrod Dept Store (5F).
+    1. **Buy Repels:** Check 2F for Max Repels. If not, check other floors.
     2. **Prepare Team:** Lead with Gyarados (Lv 37) + Max Repel.
     3. **Hunt:** Roam Route 31/30/36 area or use Route 37/Ecruteak loop.
     4. **Encounter:** Sleep/Weaken/Catch.
