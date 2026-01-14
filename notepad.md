@@ -19,15 +19,16 @@
 - Item: Ultra Balls (32).
 - Backup: GORP (Snorlax) as a tank. Calcifer (Typhlosion) is risky due to type disadvantage.
 
-# Strategic Plan: The Land Sprint (Final)
+# Strategic Plan: The Southern Corridor Sprint
 - Start Turn: 48151.
 - Step 1: Reach East Coast Surf Point at (19, 30). (Done)
-- Step 2: Walk West to West Beach (X=2) via gaps at (9, 33) and (5, 35). (Next)
-- Step 3: Walk North along X=2 to Row 12.
-- Step 4: Walk East along Row 12 to (14, 10) to trigger Suicune.
+- Step 2: Walk South to (19, 49), then loop through (20, 51) to reach Row 51.
+- Step 3: Walk West along Row 51 to (4, 51). (In Progress)
+- Step 4: Walk North along Column X=4 to Row 35, then West to West Beach (X=2).
+- Step 5: Walk North along X=2 to Row 14, then East to (14, 10).
 - Status: XENON leading, Repel active.
 
 # Lessons Learned
-- Pathing: The city center is a plateau; land routes to the west beach exist via gaps at (9, 33) and (5, 35).
-- Navigation: Row 15 is a wall from X=3 to X=17, but X=0-2 is a clear corridor.
-- Blockage: (7, 45) is a Gym Sign (WALL). (5, 44) is a WALL.
+- Pathing: The city center is a plateau; Row 51 is a low-level corridor connecting the coasts.
+- Blockage: (19, 50) and (21, 46) are FLOOR_UP_WALL (impassable). Use (20, 50-51) to descend.
+- Navigation: Redundant building markers deleted to reduce clutter.
