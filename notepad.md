@@ -21,21 +21,20 @@
 - Note: Suicune is Water type. Calcifer (Fire) is vulnerable. GORP (Snorlax) is a good tank.
 
 # Strategic Plans: Locate Suicune
-## The 'Beach Shortcut' (New Primary Route)
-- Hypothesis: The northern plateau is inaccessible from the water. The intended path is walking North along the West beach at X=2.
-- Access Point: A 6-tile wide gap in the internal city walls at X=5, Y=46-51.
-- Route:
-  1. Land at (19, 30) (East Coast Surf Point). [Completed Turn 48086]
+## The 'Beach Shortcut'
+- Hypothesis: The northern plateau (Suicune at 7, 4) is reachable by walking North along the West beach at X=2.
+- Route: 
+  1. Jump ledge at (21, 46) to reach the southern corridor.
   2. Walk West through the gap at (5, 47) to reach the beach.
-  3. Walk North along the sand (X=2) to Y=10.
-  4. Walk East to Suicune at (14, 10).
-- Status: Executing landing and trek.
+  3. Walk North along the sand (X=2) to Y=4.
+- Status: Testing. Verifying if X=2 is clear past Y=10.
 
-## Failed Hypotheses
-- The Great Spiral: Blocked by solid buoy/wall barriers at Y=9 and Y=15. (1 attempt).
-- Gem Shortcut (11, 15): Confirmed 1x1 dead-end pocket. Marker 🚫 placed.
+## The Great Spiral (Backup Plan)
+- Entrance: (27, 44).
+- Route: Lane 1 (N) -> Lane 2 (S) -> Lane 3 (S) -> Lane 4 (N) -> Lane 5 (N) -> Land at (14, 10).
+- Requirements: Surf, Super Repel.
 
-# Reflection Turn 48086
-- Lesson: The buoy maze is likely a deterrent or a late-game path. The southern wall gap is a much more promising access point for early plateau exploration.
-- Goal Status: Landed in Cianwood. Transitioning to land navigation.
-- Verification: Analyst claims 1 tap = 1 city in Fly menu, but list scrolling (Up/Down) was verified as the correct method. 2D coordinate/grid theories were falsified.
+# Reflection Turn 48089
+- Lesson: Fly menu is a linear list (Up/Down), not 2D.
+- Lesson: Buoy maze logic is complex; verify land shortcuts first.
+- Observation: (11, 15) is a dead end.
