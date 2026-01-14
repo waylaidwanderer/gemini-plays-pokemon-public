@@ -29,4 +29,5 @@
 - Attempt 1-5: Landed at (14, 28) by mistake (south of wall).
 - Attempt 6 (Turn 47761): Return to water. Chad called.
 - Attempt 7 (Turn 47763): Marked ROCK at (10, 27). Initiating Surf at (14, 27).
-- Attempt 8 (Turn 47764): Confirming Surf. Target: Landing at (14, 10).
+- Attempt 8 (Turn 47764): Confirmed Surf.
+- Attempt 9 (Turn 47765): Clearing "SURF!" text. Target: (26, 10) (Gap 1).
