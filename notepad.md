@@ -20,7 +20,7 @@
 
 # Strategic Plans
 ## Locate Suicune (Cianwood North Beach)
-- Status: Arrived in Cianwood. Verified (11, 15) is a dead end pocket.
+- Status: Arrived in Cianwood. Verified (11, 15) and (11, 14) are dead end pockets. Ledge hop at (10, 15) is one-way.
 - Current Task: Verify West Beach Shortcut.
 - Hypothesis: Walking North along the beach at X=2 allows access to the plateau at Y<10, bypassing the buoy maze.
 - Path: Navigate to (2, 35) and continue North.
