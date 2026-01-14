@@ -11,6 +11,8 @@
 
 # Suicune Quest
 - Status: 16 Badges, Red Defeated, Clear Bell in inventory.
+- Timestamps:
+    - Tin Tower Investigation Started: Turn #47028
 - Sighting Progress:
     1. Burned Tower (DONE)
     2. Cianwood City (DONE - Eusine defeated)
