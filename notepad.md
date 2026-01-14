@@ -1,16 +1,16 @@
 # Mechanics & State
-- **Location:** Cianwood City (Fly Map).
+- **Location:** New Bark Town (Physical). Map stuck at Cianwood.
 - **Goal:** Fly to Goldenrod City.
-- **Menu State:** Fly Map active. Cursor at Cianwood City.
-- **Navigation:** Cianwood is the westernmost point.
-- **Plan:** Right (Olivine) -> Right (Ecruteak) -> Down (Goldenrod).
-- **Action:** Right x2 to reach Ecruteak.
-- **Delays:** 2000ms.
+- **Menu State:** Fly Map active. Cursor at Cianwood.
+- **Problem:** `Right` inputs from Cianwood ignored.
+- **Strategy:** Hard Reset (B -> A) to force cursor to New Bark Town (Start).
+- **Plan:** `Left` x3 (Cherrygrove->Violet->Ecruteak) -> `Down` (Goldenrod).
+- **Delays:** 2500ms (High latency).
 
 # Current Task: Roamer Hunt
-- **Status:** Navigating from Cianwood.
+- **Status:** Resetting Map Navigation.
 - **Target:** Goldenrod City.
-- **Next Step:** Verify "ECRUTEAK CITY". Then Down to Goldenrod.
+- **Next Step:** Verify "GOLDENROD CITY".
 
 # Progress
 - **Badges:** 16/16.
