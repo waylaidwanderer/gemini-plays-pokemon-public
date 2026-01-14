@@ -1,13 +1,11 @@
 # Mechanics & State
 - **Location:** Goldenrod Dept Store 2F (Trainer's Market).
 - **Goal:** Supply Run (Dept Store).
-- **Current Position:** (15, 1) - Arrived from 1F.
-- **Action:** Walking to Clerk at (13, 6) to buy items.
-- **Interaction Point:** Stand at (11, 6), Face Right.
+- **Current Position:** (11, 3) - Approaching Counter.
+- **Action:** Move to (11, 6) -> Talk to Clerk 2 (Bottom).
 - **Shopping List:**
-  - Max Repels (Priority).
-  - Super Repels (Fallback).
-  - Ultra Balls (Secondary).
+  - Super Repels (Most Cost Effective: 2.5/step vs 2.8/step).
+  - Buy ~20 Super Repels.
 - **Money:** ¥12294.
 
 # Directory Info
@@ -19,7 +17,7 @@
 
 # Current Task: Roamer Hunt
 - **Status:** Buying Supplies.
-- **Next Step:** Buy Max Repels -> Exit -> Hunt.
+- **Next Step:** Buy Super Repels -> Exit -> Hunt.
 
 # Progress
 - **Badges:** 16/16.
