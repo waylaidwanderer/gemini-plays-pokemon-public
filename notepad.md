@@ -23,7 +23,7 @@
 - Start Turn: 48151.
 - Step 1: Reach East Coast Surf Point and land at (27, 45). (Done)
 - Step 2: Walk to Gym Area at (6, 45). (Done)
-- Step 3: Navigate to Row 35 gap: (6, 45) -> (12, 45) -> (12, 35) -> (5, 35). (Next)
+- Step 3: Navigate to Row 35 gap: (6, 45) -> (6, 44) -> (12, 44) -> (12, 35) -> (5, 35). (Next)
 - Step 4: Walk West to the beach corridor at X=2.
 - Step 5: Walk North along X=2 to Row 12.
 - Step 6: Walk East along Row 12 to (14, 10) to trigger Suicune.
@@ -32,3 +32,4 @@
 # Lessons Learned
 - Pathing: The city center is a plateau; the X=5 wall has a clear gap at (5, 35).
 - Navigation: Row 51 is also a clear corridor, but Row 35 is faster from the city center.
+- Blockage: (7, 45) is a Gym Sign (WALL). Must go around.
