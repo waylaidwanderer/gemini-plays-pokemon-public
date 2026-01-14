@@ -8,11 +8,11 @@
 - **Current Task:** Restock Supplies.
 - Location: Celadon Dept Store 2F.
 - Action: Buying Max Repels from Clerk at (13,5).
-- Status: 2F Main Counter. Left Clerk (13,5) has Potions/Revives. Checking Right Clerk (14,5).
+- Status: 2F Right Clerk has NO Repels. Checking bottom of Left Clerk's list.
 - Strategy:
-    1. **Buy:** Buy 30 Max Repels from Right Clerk (if available).
-    2. **Transit:** Elevator/Stairs to 1F -> Exit.
-    3. **Prepare Team:** Lead with Gyarados (Lv 37) + Max Repel.
+    1. **Buy:** Check Left Clerk (13,5) full inventory.
+    2. **Alternative:** If not on 2F, check 3F (TMs often paired with other items?).
+    3. **Transit:** Exit to Celadon City.
     2. **Buy Repels:** Locate clerk on 2F.
     3. **Transit:** Exit to Celadon City/Route 7.
     3. **Prepare Team:** Lead with Gyarados (Lv 37) + Max Repel.
