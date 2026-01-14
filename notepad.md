@@ -24,7 +24,9 @@
 - **Roamer Logic:** Roamers move to an adjacent map when the player transitions maps. 'Blind Interception' relies on them moving *into* your map as you enter.
 - **Detour:** Goldenrod Dept Store was a bust. No Super Repels.
 - **New Plan:** Fly to Indigo Plateau. Beat E4 for cash. Buy Max Repels.
-- **Fly Map Status:** Opening Map.
-- **Action:** Calling 'open_map' tool.
-- **Prerequisite:** Start Menu cursor verified to be on 'POKEGEAR'.
-- **Next Step:** Once Map is open, Navigate East to Indigo Plateau -> Fly.
+- **Fly Map Status:** Entering Pokegear.
+- **Action:** Manual Menu Navigation.
+- **Current State:** Start Menu Open, Cursor on 'GEM'.
+- **Sequence:** Up (Select POKEGEAR) -> A (Enter).
+- **Next Step:** Select Map Card -> Fly to Indigo Plateau.
+- **Reason:** 'open_map' tool failed because cursor was misaligned. Fixing manually.
