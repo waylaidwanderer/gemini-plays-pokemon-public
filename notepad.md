@@ -17,8 +17,8 @@
 - Sighting Progress:
     1. Burned Tower (DONE)
     2. Cianwood City (DONE - Confirmed Turn 47347)
-    3. Route 42 (Middle Grove) - TRIGGER ATTEMPTED (Turn 47324, 47365. Empty.)
-    4. Route 36 (Violet City North) - IN PROGRESS
+    3. Route 42 (Middle Grove) - TRIGGER ATTEMPTED (Swept Turn 47324, re-entered Turn 47365. Empty.)
+    4. Route 36 (Violet City North) - IN PROGRESS (Checking (11, 9) area)
     5. Kanto Route 14 (East of Fuchsia) - SIGHTING LOCKED
     6. Kanto Route 25 (Cerulean Cape) - SIGHTING LOCKED
 - Strategy:
