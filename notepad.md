@@ -14,14 +14,14 @@
 - FLOOR: Walkable.
 - WALL / BUOY: Impassable.
 - WATER: Traversable only via Surf.
-- FLOOR_UP_WALL: Impassable from the NORTH. Verified at (16, 10), (4, 30), (23, 46).
+- FLOOR_UP_WALL: Impassable from the NORTH. Verified at (16, 10) and (4, 30).
 - LEDGE_HOP_DOWN: One-way jump from NORTH to SOUTH. Verified at (10, 15).
 - COUNTER: Impassable.
 
 # Suicune Quest
-- Start Turn (Cianwood Re-attempt): 47450
-- Status: Sighting 2 (Cianwood North Beach) in progress.
-- Current Strategy: Navigate to north beach (7, 4) using verified water gaps.
-- Route: Surf North to (23, 15) [Gap], then North to (23, 9) [Gap], then West to (16, 9) [Unseen], then South to (16, 11) [Landing].
-- Sighting 1: Burned Tower (DONE)
-- Battle Strategy: Use XENON (Haunter) for Hypnosis.
+- Status: 16 Badges, Clear Bell in inventory.
+- Current Objective: Sighting 2 (Cianwood City North Beach).
+- Strategy: Navigate through the buoy maze to reach the northern landing zone.
+- Route (Theoretical): (23, 17) -> (23, 15) [Gap] -> (21, 15) -> (21, 9) [Gap] -> (7, 9) -> (7, 4).
+- Battle Strategy: Lead with XENON (Haunter) for Hypnosis. Use fixed damage (Night Shade) to chip HP if catching is needed later.
+- History: 130 turns spent navigating Cianwood. Previous land detours failed due to one-way walls.
