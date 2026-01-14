@@ -18,30 +18,24 @@
 - Move 1: Hypnosis (Sleep).
 - Move 2: Night Shade (44 dmg). Suicune has ~120 HP. Use twice for Red health.
 - Item: Ultra Balls (32).
+- Note: Suicune is Water type. Calcifer (Fire) is vulnerable. GORP (Snorlax) is a good tank.
 
 # Strategic Plans: Locate Suicune
 ## The 'Beach Shortcut' (New Primary Route)
 - Hypothesis: The northern plateau is inaccessible from the water. The intended path is walking North along the West beach at X=2.
 - Access Point: A 6-tile wide gap in the internal city walls at X=5, Y=46-51.
 - Route:
-  1. Land at (19, 30) (East Coast Surf Point).
+  1. Land at (19, 30) (East Coast Surf Point). [Completed Turn 48086]
   2. Walk West through the gap at (5, 47) to reach the beach.
   3. Walk North along the sand (X=2) to Y=10.
   4. Walk East to Suicune at (14, 10).
-- Status: Pivoting to this route. Maze logic confirmed likely dead end.
+- Status: Executing landing and trek.
 
 ## Failed Hypotheses
 - The Great Spiral: Blocked by solid buoy/wall barriers at Y=9 and Y=15. (1 attempt).
-- Gem Shortcut (11, 15): Confirmed 1x1 dead-end pocket.
+- Gem Shortcut (11, 15): Confirmed 1x1 dead-end pocket. Marker 🚫 placed.
 
-# Suicune Capture Strategy
-- Lead: XENON (Haunter, Lv44).
-- Move 1: Hypnosis (Sleep).
-- Move 2: Night Shade (Fixed 44 dmg). Use 2 times for ~75% damage.
-- Item: Ultra Balls. (32 available).
-
-# Reflection Turn 48083
-- Error: Hallucinated Lane 2 as Northbound. Hit BUOY wall at (23, 9).
-- Correction: Lane 2 is Southbound. Re-tracing spiral steps to reach Gap 2.
-- Progress: Deep in the buoy maze. Super Repel active.
-- Note: (18, 26) is Gap 4, leading to the final two lanes. Must reach it again.
+# Reflection Turn 48086
+- Lesson: The buoy maze is likely a deterrent or a late-game path. The southern wall gap is a much more promising access point for early plateau exploration.
+- Goal Status: Landed in Cianwood. Transitioning to land navigation.
+- Verification: Analyst claims 1 tap = 1 city in Fly menu, but list scrolling (Up/Down) was verified as the correct method. 2D coordinate/grid theories were falsified.
