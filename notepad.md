@@ -19,16 +19,17 @@
 - Item: Ultra Balls (32).
 - Backup: GORP (Snorlax) as a tank. Calcifer (Typhlosion) is risky due to type disadvantage.
 
-# Strategic Plan: The Southern Corridor Sprint
+# Strategic Plan: The West Beach Sprint
 - Start Turn: 48151.
-- Step 1: Reach East Coast Surf Point at (19, 30). (Done)
-- Step 2: Walk South to (19, 49), then loop through (20, 51) to reach Row 51.
-- Step 3: Walk West along Row 51 to (4, 51). (In Progress)
-- Step 4: Walk North along Column X=4 to Row 35, then West to West Beach (X=2).
-- Step 5: Walk North along X=2 to Row 14, then East to (14, 10).
+- Step 1: Land at (19, 30). (In Progress)
+- Step 2: Walk to (19, 35).
+- Step 3: Walk West along Row 35 to (2, 35) via the gap at (5, 35).
+- Step 4: Walk North along X=2 to Row 10.
+- Step 5: Walk East along Row 10 to (14, 10) to trigger Suicune.
 - Status: XENON leading, Repel active.
 
 # Lessons Learned
-- Pathing: The city center is a plateau; Row 51 is a low-level corridor connecting the coasts.
-- Blockage: (19, 50) and (21, 46) are FLOOR_UP_WALL (impassable). Use (20, 50-51) to descend.
-- Navigation: Redundant building markers deleted to reduce clutter.
+- Pathing: The city center is a plateau; land routes to the west beach exist via the gap at (5, 35).
+- Navigation: Row 15 is a wall from X=3 to X=17, but X=0-2 is a clear corridor.
+- Blockage: (7, 45) is a Gym Sign. (5, 44) is a WALL. (6, 46) is a ledge face.
+- NPC: Pokefan M at (18, 33) can block the way; he is currently stunned.
