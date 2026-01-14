@@ -13,8 +13,10 @@
 # Strategic Status
 - **Goal:** Register Raikou & Entei.
 - **Current Task:** Farm money at Elite Four -> Buy Max Repels (20x).
-- **Location:** Route 23 (Indigo Plateau Entrance).
-- **Action:** Walking into the Pokemon League Reception Gate.
-- **Next Step:** Heal (if needed) -> Buy supplies (if affordable) -> Challenge Elite Four.
-- **Goal:** Blind Hunt for Raikou/Entei after farming money.
+- **Location:** Indigo Plateau Pokecenter.
+- **Action:** Walking to Nurse Joy to heal.
+- **Next Step:** Challenge Elite Four.
+- **Goal:** Farm money to buy Max Repels for Roamer Hunt.
+- **Party:** Machoke (Lv 88) is the carry. Gyarados (Lv 36) lead.
+- **Resources:** ¥2294.
 - **Resources:** ¥2294. Repels: 0.
