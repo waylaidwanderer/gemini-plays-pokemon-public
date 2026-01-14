@@ -1,50 +1,33 @@
 # PC Storage (Box 1)
-- DAPXWW (LARVITAR): Lv20
-- GLAIVE (SCYTHER): Lv14
-- SELKIE (SEEL): Lv24
-- DELTA (MANTINE): Lv20
-- RANGOON (KRABBY): Lv22
-- NOMURA (TENTACOOL): Lv17
 - Ravioli (KRABBY): Lv10 (Surf, Whirlpool)
-- Ouroboros (DRATINI): Lv15 (ExtremeSpeed)
-- AAAAAAAAAA (SPINARAK): Lv13
 - LAPIS (POLIWAG): Lv12 (Waterfall, Surf, Whirlpool)
 
 # Tile Mechanics (Verified)
 - FLOOR: Walkable.
 - WALL / BUOY: Impassable.
 - WATER: Traversable only via Surf.
-- FLOOR_UP_WALL: Impassable from the NORTH. The northern edge of the tile is blocked. Cannot move North from the tile or South into the tile.
-- LEDGE_HOP_DOWN: One-way jump from NORTH to SOUTH. Can move South from (Y-1) to (Y), but not North from (Y) to (Y-1).
+- FLOOR_UP_WALL: Impassable from the NORTH.
+- LEDGE_HOP_DOWN: One-way jump from NORTH to SOUTH.
 - COUNTER: Impassable.
 
-# Suicune Quest Strategy: 'Western Beach Walk'
+# Suicune Quest Strategy: 'The Great Buoy Loop'
 - Goal: Reach Suicune at (7, 4).
-- Fact: The northern part of the island (north beach) is accessible by land via the far western beach (X=0 to X=2).
-- Solution: Walk around the southern part of the city (Row 49) to reach the west coast, then walk north.
+- Fact 1: The northern plateau is isolated by the Row 15 wall. Land access from the south is blocked by one-way ledges.
+- Fact 2: The northern water is isolated by two main buoy walls: X=26 (Rows 0-9) and X=19 (Rows 15-20).
+- Solution: Use the gaps in the buoy walls to sail around the barriers.
 - Route:
-    1. From (10, 39), move Right and Down to (12, 44), then (10, 44), then (10, 49).
-    2. Move Left to (2, 49).
-    3. Move North along the west edge to (2, 14).
-    4. Move East and North to (14, 10).
-    5. Approach Suicune at (7, 4).
+    1. From (21, 44), move to (19, 30) and Surf.
+    2. Sail to (27, 30) -> (27, 10).
+    3. Cross X=26 wall via gap at (26, 10) to reach (25, 10).
+    4. Sail to (25, 8).
+    5. Cross Row 9 wall via gap at (22, 8) to reach (21, 8).
+    6. Sail West to (14, 8), bypassing the X=19 wall (which ends at Row 14).
+    7. Sail South to (14, 10) and land.
+    8. Walk to Suicune at (7, 4).
 - Preparation: Lead with XENON (Haunter) for Hypnosis. Be ready for Eusine.
-- Status: At (12, 49) on land. Executing southern detour via Row 53 to bypass one-way walls.
-- Route:
-    1. From (12, 49), move Up to (12, 44).
-    2. Move Right to (21, 44).
-    3. Move Down to (21, 45).
-    4. Move Right to (22, 45).
-    5. Move Down to (22, 53).
-    6. Move Left to (10, 53).
-    7. Move Up to (10, 51).
-    8. Move Left to (2, 51).
-    9. Move North along the west edge to (2, 14).
-    10. Move East and North to (14, 10).
+- Status: At (21, 44). Returning to (19, 30) to start the loop.
 - Failed Hypotheses:
-    - Triple Gap Loop (Attempts: 2): Dead end.
-    - Island Bypass (Surf) (Attempts: 1): Unnecessary.
-    - Middle City Bypass (Attempts: 2): Blocked by one-way ledges at Row 34 and Row 50.
-- Solution: Southern City Bypass (Attempts: 1). Currently at (12, 49). Moving to (21, 44).
+    - Western Beach Walk (Attempts: 3): Blocked by Row 15 wall and one-way ledges.
+    - Island Bypass (Surf South) (Attempts: 1): Unnecessary.
 - Start Turn: 47680 (Suicune North Beach Quest)
 - Start Time: Wednesday, Jan 14, 2026, 4:00 AM PST
