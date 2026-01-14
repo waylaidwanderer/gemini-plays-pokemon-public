@@ -32,14 +32,15 @@
     - Status: PARTIALLY COMPLETED.
 - Hypothesis 3: Suicune appears only when entering the map from a specific side or after re-entering.
     - Test: Exit to Mahogany, then re-enter and approach the grove.
-    - Status: Ongoing (Re-entering Route 42).
-- Hypothesis 4: Suicune is already at the next location (Kanto Route 25).
-    - Test: Check Route 25 in Kanto.
-    - Status: Pending.
+    - Status: FAILED (Re-entered from Mahogany at Turn 46966, no sighting).
+- Hypothesis 5: Suicune sighting on Route 42 is triggered by approaching from the west (Ecruteak side).
+    - Test: Fly to Ecruteak and enter Route 42 from the west.
+    - Status: Ongoing (Flying to Ecruteak).
 
 # Failed Hypotheses
 - "Mow the lawn" in grove: FAILED (60+ turns, all tiles stepped on). Suicune is likely a static sprite that isn't currently present.
 - "Sighting trigger at (28, 15)": FAILED (Stepped on it at Turn 46953).
+- "Re-entry from Mahogany": FAILED (Turn 46966).
 
 # Lessons Learned
 - [Lesson] Suicune in Route 42 is likely an overworld sprite; if it's not in the Map Objects list, the sighting event is not active.
