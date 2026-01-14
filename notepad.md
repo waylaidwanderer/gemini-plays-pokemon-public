@@ -12,20 +12,20 @@
 - FLOOR_UP_WALL: Ledge face. Impassable.
 - LEDGE_HOP_DOWN: One-way jump (North to South).
 
-# Fly Navigation (Hypothesis: Vertical List)
+# Fly Navigation (Index/Snap Theory)
 - Starting City: New Bark Town.
-- Interface: Speech bubble with city name and Up/Down arrows.
-- Theory: Use Up/Down to navigate cities. Left/Right confirmed ineffective.
-- Goal: Cianwood City (Estimated 7 Down presses from New Bark).
+- Observation: Pressing 'Down' once changed destination to 'Silver Cave'.
+- Theory: The menu uses node-based snapping. Left/Right moves between longitudes, Up/Down between latitudes/indices.
+- Target: Cianwood City (Far West).
+- Strategy: Press 'Left' to see if it snaps to the next western city (Cherrygrove or Violet).
 
 # Suicune Capture Strategy
 - Lead: XENON (Haunter, Lv44).
 - Move 1: Hypnosis (Sleep). Accuracy: 60%.
 - Move 2: Night Shade (Fixed 44 dmg). Suicune has ~120 HP. 2 hits = Red health.
 - Item: Ultra Balls (32 available).
-- Note: Suicune is Water type. Calcifer (Fire) is vulnerable. GORP (Snorlax) is a good tank.
 
 # Strategic Plans
 - Fly to Cianwood City.
-- Verify 'Gem Shortcut': Check if wall gap at (11, 15) allows access to north plateau (Y<16). [Status: Unverified/Suspected Hallucination]
+- Verify 'Gem Shortcut': Check if wall gap at (11, 15) allows access to north plateau (Y<16).
 - Locate Suicune at (7, 4) on the north beach plateau.
