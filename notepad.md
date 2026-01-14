@@ -1,8 +1,8 @@
 # Mechanics & State
-- **Location:** Route 7 (Near Celadon).
-- **Goal:** Enter Celadon City -> Dept Store.
-- **Current Position:** (0, 1).
-- **Action:** Entering Celadon City.
+- **Location:** Celadon Dept Store 1F.
+- **Goal:** Supply Run (Dept Store).
+- **Current Position:** (7, 7) - Entrance.
+- **Action:** Going to Directory at (14, 0).
 - **Shopping List:** Super Repels (~20), Ultra Balls.
 - **Money:** ¥12294.
 
@@ -17,9 +17,9 @@
 5.  **Target:** Raikou/Entei (Lv 40). They will spawn because 40 > 36.
 
 # Travel Plan
-1. Enter Celadon City.
-2. Locate Dept Store.
-3. Buy Supplies.
+1. Enter Celadon City (Done).
+2. Locate Dept Store (Done).
+3. Buy Supplies (Current).
 4. Return to Johto (Fly/Train).
 
 # Progress
