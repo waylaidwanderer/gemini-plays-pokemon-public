@@ -12,23 +12,14 @@
 - Status: Tracking sightings in Johto.
 - Current Objective: Cianwood City sighting at (7, 4).
 - Start Turn: 46373.
-- Strategy (The "How"): Walk west to (11, 29), walk north through the gap at (11, 15) to (11, 14), then navigate through the corridor at Y=12 to reach (7, 14) and walk north to (7, 4).
-
-# Hypothesis Testing: FLOOR_UP_WALL
-- Hypothesis: Blocks movement South into the tile and North out of the tile.
-- Test: Attempt to move South into (4, 20) or North out of it.
-- Result: Pending.
-
-# Legendary Battle Strategy: Suicune
-- Lead: XENON (Haunter, Lv 44).
-- Strategy: Use Hypnosis immediately. Switch to GORP (Snorlax) to chip HP with Body Slam/Rollout (Snorlax's high Sp.Def tanks BubbleBeam well). Switch to KIMCHI (Gloom) for backup Sleep Powder. Suicune does not flee.
-- Moves: Hypnosis (Priority), Night Shade (Chipping).
-- Target HP: ~135 (Lv 40). Night Shade deals 44 dmg. 3 hits = 132 dmg.
-- Catching: Ultra Balls (32) while asleep.
+- Strategy (The "How"):
+    1. Walk West: (19, 30) -> (12, 30).
+    2. Walk North: (12, 30) -> (12, 28) -> (11, 28) -> (11, 15) [Gap in wall].
+    3. Walk West/North: (11, 15) -> (11, 14) -> (10, 14) -> (8, 14) -> (7, 14) -> (7, 4).
 
 # Strategy: Capture all Legendary Pokemon
 - Requirements: Clear Bell (Owned), 16 Badges (Owned).
-- Plan: Complete sightings -> Tin Tower -> Capture Suicune.
+- Plan: Complete sightings -> Tin Tower -> Capture Suicune (Lv 40).
 
 # Pokemon Movesets
 - XENON (Haunter): Hypnosis, Confuse Ray, Night Shade, Dream Eater.
