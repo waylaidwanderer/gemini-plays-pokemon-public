@@ -25,4 +25,5 @@
 
 # Progress Log
 - Attempt 1-17: Navigated buoy loop and east side. All blocked or dead ends.
-- Attempt 18 (Turn 47781): Flying to Cianwood (23, 44) to start the Western Land Corridor route. Target: (7, 4).
+- Attempt 18 (Turn 47781): Accidentally entered Options menu.
+- Attempt 19 (Turn 47782): Exiting Options and Flying to Cianwood (23, 44). Target: (7, 4).
