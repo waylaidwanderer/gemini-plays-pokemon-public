@@ -2,12 +2,12 @@
 
 # Strategic Status
 - **Goal:** Register Raikou & Entei.
-- **Current Action:** Navigating Fly Map (Azalea -> Goldenrod?).
+- **Current Action:** Flying to Violet City (or Goldenrod).
 - **Location:** Azalea Town (Fly Map).
 - **Fly Map Logic:** 
-  - `Down` from Violet -> Azalea (Confirmed).
-  - `Left` from Violet failed.
-  - Plan: Try `Left` from Azalea to reach Goldenrod.
+  - `Left` from Azalea failed.
+  - `Up` from Azalea should lead to Violet or Goldenrod.
+  - **Plan:** Fly to whichever city `Up` selects, then walk to Ecruteak/Route 37.
 
 # Roamer Hunting Strategy (Route 37)
 1.  **Setup:** 
@@ -22,7 +22,8 @@
 3.  **Target:** Raikou/Entei (Lv 40). Repel filters Lv < 36.
 
 # Notes
-- **Fly Map:** Navigating Violet -> Azalea (Down) -> Goldenrod (Left?).
+- **Fly Map:** Horizontal navigation is broken. Vertical (Azalea <-> Violet) is reliable.
+- **Route:** Violet -> Route 36 -> Route 37 (Ecruteak).
 
 # Roamer Hunting Strategy
 1.  **Setup:** Gyarados (Lv 36) leading, Super Repel active.
