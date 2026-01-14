@@ -4,15 +4,14 @@
 
 # Strategic Status
 - **Goal:** Register Raikou & Entei.
-- **Current Action:** Traversing Route 36 -> Route 37.
-- **Location:** Route 36 (25, 12).
-- **Status:** Moving to (27, 9) to force-update Mental Map (ghost Sudowoodo tree).
-- **Inventory:** Repel worn off. Will apply on Route 37.
+- **Current Action:** Entering Route 37.
+- **Location:** Route 36/37 Border.
+- **Status:** Transitioning to Route 37. Next: Apply Repel & Check Pokegear.
 
 # Roamer Hunting Strategy (Route 37)
 1.  **Setup:** 
     - Lead: Gyarados (Lv 36).
-    - Item: Super Repel (Apply on arrival).
+    - Item: Super Repel (Apply IMMEDIATELY on Route 37).
     - Balls: 16 Ultra Balls.
 2.  **Procedure:**
     - Walk to Route 37 (South of Ecruteak).
