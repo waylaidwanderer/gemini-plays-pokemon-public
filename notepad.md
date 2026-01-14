@@ -2,11 +2,11 @@
 - **Location:** Route 23 (Indigo Plateau).
 - **Goal:** Return to Johto (Goldenrod).
 - **Current Position:** Route 23 (9, 10).
-- **Action:** Opening Fly Map (For Real).
+- **Action:** Opening Fly Map (Mistral).
 - **Inventory Update:**
   - 20 Super Repels (Bought).
   - 16 Ultra Balls (Existing).
-- **Correction:** Turn 38260 used Strength (Menu closed). Turn 38261 walked south in Overworld.
+- **Correction:** Recovering from accidental selection of Muscle's Strength menu.
 - **Next Steps:**
   1. Open Fly Map (Mistral).
   2. Navigate to Saffron City.
