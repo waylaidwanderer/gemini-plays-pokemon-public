@@ -35,4 +35,6 @@
 - 3F: Battle Collection (X-Items).
 - 4F: Medicine Box (Vitamins).
     - **NO Super Repels found on 4F.**
-- **Strategy:** Check 5F (TM Corner). If not found, fly to Celadon Dept Store (Kanto).
+- 5F: TM Corner.
+    - Clerk at (8, 5). checking now.
+- **Strategy:** If Super Repels not found on 5F, fly to Celadon Dept Store (Kanto).
