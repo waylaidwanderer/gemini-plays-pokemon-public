@@ -2,7 +2,7 @@
 - **Location:** Victory Road Gate.
 - **Goal:** Return to Johto.
 - **Current Position:** (9, 9) - Inside Gate.
-- **Action:** Walking South to Route 26 Exit (9, 17).
+- **Action:** Walking South to Route 26 Exit (9, 17) (Retry after Phone Call).
 - **Inventory Update:**
   - 19 Super Repels (Active).
   - 16 Ultra Balls (Existing).
