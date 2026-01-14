@@ -1,8 +1,8 @@
 # Mechanics & State
-- **Location:** Celadon City (Outside Dept Store).
-- **Goal:** Return to Johto (Goldenrod).
-- **Current Position:** (4, 10).
-- **Action:** Flying to Saffron City.
+- **Location:** Celadon Dept Store 1F.
+- **Goal:** Exit Dept Store (Again) and return to Johto.
+- **Current Position:** (7, 7) - Inside Entrance.
+- **Action:** Closing Menu -> Exiting Building -> Fly to Saffron.
 - **Inventory Update:**
   - 20 Super Repels (Bought).
   - 16 Ultra Balls (Existing).
