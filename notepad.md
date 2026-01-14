@@ -27,15 +27,16 @@
   - Gap 1: (26, 10) (Done)
   - Gap 2: (22, 16) (Done)
   - Gap 3: (18, 26) (Done)
-  - Gap 4: (23, 15) (In Progress)
-  - Gap 5: (19, 14)
-- Step 4: Land on North Plateau at (16, 11).
+  - Gap 4: (23, 15) (Done)
+  - Gap 5: (19, 14) (In Progress)
+- Step 4: Land on North Plateau at (16, 11-14).
 - Step 5: Walk to (14, 10).
 
 # Verified Landmarks & Gaps
 - Buoy Gaps: (26, 10), (22, 16), (18, 26), (23, 15), (19, 14).
 - Plateau Landing: (16, 11-14).
 - Sighting Spot: (14, 10).
+- Land Shortcut (Verified): (19, 35) -> (19, 32) -> (9, 32) -> (8, 35) -> (2, 35). Possible but deferred for water route.
 
 # Custom Tools (Technical Details)
 - find_path_v4: BFS pathfinder. Handles LAND vs WATER medium consistency. Treats unseen tiles as traversable within the starting medium. Handles LEDGE_HOP_DOWN as one-way (dy=1).
