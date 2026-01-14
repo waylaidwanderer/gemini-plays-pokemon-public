@@ -14,26 +14,23 @@
 - FLOOR: Walkable.
 - WALL / BUOY: Impassable.
 - WATER: Traversable only via Surf.
-- FLOOR_UP_WALL: Impassable from the NORTH.
-- LEDGE_HOP_DOWN: One-way jump from NORTH to SOUTH.
+- FLOOR_UP_WALL: Impassable from the NORTH. The northern edge of the tile is blocked. Cannot move North from the tile or South into the tile.
+- LEDGE_HOP_DOWN: One-way jump from NORTH to SOUTH. Can move South from (Y-1) to (Y), but not North from (Y) to (Y-1).
 - COUNTER: Impassable.
 
 # Suicune Quest Strategy: 'Western Beach Walk'
 - Goal: Reach Suicune at (7, 4).
 - Fact: The northern part of the island (north beach) is accessible by land via the far western beach (X=0 to X=2).
-- Solution: Walk across the land bridge at Y=30 to the western beach, then walk north to the northern plateau.
+- Solution: Walk around the Column 9 wall and X=5 wall to reach the west coast, then walk north.
 - Route:
-    1. From (19, 30), land and move to (19, 35).
-    2. Move Left to (10, 35).
-    3. Move Up to (10, 34) and Left to (5, 34).
-    4. Move Left to (2, 34).
-    5. Walk North to (2, 14).
-    6. Walk East and North through the plateau: (2, 14) -> (8, 14) -> (8, 12) -> (14, 12) -> (14, 10).
-    7. Approach Suicune sighting area at (7, 4).
+    1. From (10, 34), move Down to (10, 44).
+    2. Move Left to (6, 44).
+    3. Move Up to (6, 35).
+    4. Move Left to (2, 35).
+    5. Move North to (2, 14).
+    6. Move East to (8, 14), then Up to (8, 12), then East to (14, 12), then Up to (14, 10).
+    7. Approach Suicune at (7, 4).
 - Preparation: Lead with XENON (Haunter) for Hypnosis. Be ready for Eusine.
-- Status: At (20, 30) surfing. Clearing Tully's call.
-- Failed Hypotheses:
-    - 'Triple Gap Loop' (Attempts: 2): Dead end. X=26 wall is solid from Row 0-9. Row 9 wall is solid from X=22-26.
-    - 'Island Bypass (Surf)' (Attempts: 1): Unnecessary. Land route is simpler.
+- Status: At (10, 34) on land. Starting western land route.
 - Start Turn: 47680 (Suicune North Beach Quest)
 - Start Time: Wednesday, Jan 14, 2026, 4:00 AM PST

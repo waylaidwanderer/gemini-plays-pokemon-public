@@ -105,5 +105,39 @@
         "action_counter": 47637
       }
     ]
+  },
+  "find_traversable_path": {
+    "description": "Finds a traversable path from the player's current position to a target coordinate on the current map, accounting for wall, buoy, water (surf), ledge, and FLOOR_UP_WALL mechanics. Returns a list of coordinates or null.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "start_x": {
+          "type": "integer"
+        },
+        "start_y": {
+          "type": "integer"
+        },
+        "target_x": {
+          "type": "integer"
+        },
+        "target_y": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "start_x",
+        "start_y",
+        "target_x",
+        "target_y"
+      ]
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\nimport json\n\ndef find_path(xml_string, start_x, start_y, target_x, target_y):\n    root = ET.fromstring(xml_string)\n    grid = {}\n    objects = set()\n    for row in root.findall('Row'):\n        y = int(row.get('id'))\n        for tile in row.findall('Tile'):\n            x = int(tile.get('id'))\n            grid[(x, y)] = tile.get('type')\n            if tile.find('Object') is not None:\n                objects.add((x, y))\n\n    def can_move(x, y, nx, ny, surfing):\n        t_type = grid.get((nx, ny))\n        if t_type is None: return False\n        if (nx, ny) in objects: return False\n        \n        # Collision rules\n        if t_type in [\"WALL\", \"BUOY\"]: return False\n        \n        # Surfing constraints\n        if surfing:\n            if t_type != \"WATER\": return False\n        else:\n            if t_type == \"WATER\": return False\n            \n        # Directional mechanics\n        dx, dy = nx - x, ny - y\n        curr_type = grid.get((x, y))\n        \n        # Ledge: One-way Down (South)\n        if t_type == \"LEDGE_HOP_DOWN\":\n            if dy != 1: return False # Must enter by jumping down\n        if curr_type == \"LEDGE_HOP_DOWN\":\n            if dy != 1: return False # Must exit by jumping down\n            \n        # FLOOR_UP_WALL: Impassable from North\n        if dy == 1: # Moving South\n            if t_type == \"FLOOR_UP_WALL\": return False # Cannot enter from North\n        if dy == -1: # Moving North\n            if curr_type == \"FLOOR_UP_WALL\": return False # Cannot exit to North\n            \n        return True\n\n    queue = deque([((start_x, start_y), [], False)])\n    visited = {((start_x, start_y), False)}\n    \n    while queue:\n        (x, y), path, surfing = queue.popleft()\n        if (x, y) == (target_x, target_y):\n            return path + [(x, y)]\n            \n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            nx, ny = x + dx, y + dy\n            if (nx, ny, surfing) not in visited:\n                if can_move(x, y, nx, ny, surfing):\n                    visited.add((nx, ny, surfing))\n                    queue.append(((nx, ny), path + [(x, y)], surfing))\n                    \n        if not surfing:\n            for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n                nx, ny = x + dx, y + dy\n                if grid.get((nx, ny)) == \"WATER\" and (nx, ny, True) not in visited:\n                    visited.add((nx, ny, True))\n                    queue.append(((nx, ny), path + [(x, y)], True))\n        else:\n            for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n                nx, ny = x + dx, y + dy\n                if grid.get((nx, ny)) in [\"FLOOR\", \"FLOOR_UP_WALL\", \"DOOR\", \"LEDGE_HOP_DOWN\"] and (nx, ny, False) not in visited:\n                    if can_move(x, y, nx, ny, False):\n                        visited.add((nx, ny, False))\n                        queue.append(((nx, ny), path + [(x, y)], False))\n    return None\n\nimport sys\ninput_data = json.loads(sys.argv[1])\nres = find_path(map_xml_string, input_data['start_x'], input_data['start_y'], input_data['target_x'], input_data['target_y'])\nprint(json.dumps(res))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-14T12:29:23.410Z",
+        "action_counter": 47701
+      }
+    ]
   }
 }
