@@ -1,12 +1,11 @@
 # Strategic Status
 - **Goal:** Return to Johto (Via Magnet Train).
-- **Current Action:** Passing through Saffron Gatehouse.
-- **Path:** Route 6 -> Saffron City Gatehouse -> Saffron City -> Magnet Train Station.
+- **Current Action:** Entering Magnet Train Station.
+- **Path:** Saffron City -> Magnet Train Station -> Goldenrod City.
 
 # Notes
-- **Correction:** Magnet Train Station is in Saffron City.
 - **Fly Map:** Horizontal navigation (West <-> East) is unreliable.
-- **Location:** East Kanto (Gatehouse).
+- **Location:** Saffron City.
 
 # Roamer Hunting Strategy
 1.  **Setup:** Gyarados (Lv 36) leading, Super Repel active.
