@@ -20,6 +20,7 @@
 # Map Insights (Route 42)
 - Middle grove with Apricorns requires Cut at (24, 13).
 - Three Mt. Mortar entrances.
+- Island is reachable via western pond (Surf) or Mt. Mortar middle entrance.
 
 # Pokedex / Party Planning
 - Missing Suicune.
