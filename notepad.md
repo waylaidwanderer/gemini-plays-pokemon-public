@@ -1,14 +1,15 @@
 # Mechanics & State
 - **Location:** Celadon Dept Store 2F.
-- **Goal:** Supply Run (Dept Store).
+- **Goal:** Exit Dept Store and return to Johto.
 - **Current Position:** At Clerk 1 (Left).
-- **Action:** Buying 20 Super Repels (Resetting quantity from 99 to 20).
-- **Inventory Check (Celadon 2F):**
-  - Clerk 1 (Left): Potions, Revives, SUPER REPELS (¥500).
-  - Clerk 2 (Right): Balls, Status Heals (No Repels).
-- **Shopping Priorities:**
-  1. Super Repels (Target: 20).
-  2. Ultra Balls (Current: 16).
+- **Action:** Exiting Menu -> Stairs to 1F -> Fly to Saffron.
+- **Inventory Update:**
+  - 20 Super Repels (Bought).
+  - 16 Ultra Balls (Existing).
+- **Next Steps:**
+  1. Magnet Train to Goldenrod.
+  2. Fly to Ecruteak/Route 37.
+  3. Begin Roamer Hunt (Repel Trick Lvl 36).
 - **Money:** ¥12294.
 
 # Directory Info (Celadon)
