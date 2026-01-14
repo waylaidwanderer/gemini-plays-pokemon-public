@@ -26,12 +26,12 @@
 ## Route 42 Hypothesis Testing
 - Hypothesis 1: Sighting triggers by walking on every tile in the grove.
     - Test: "Mowed the lawn" (Turns 46897-47000).
-    - Result: FAILED.
+    - Result: FAILED (from Mahogany side).
 - Hypothesis 2: Sighting triggers by entering from Ecruteak instead of Mahogany.
     - Test: Entered from Ecruteak (Turn 47056).
-    - Result: PENDING (Heading to grove now).
+    - Result: PENDING (Entering grove now).
 - Hypothesis 3: Sighting triggers by standing at the water's edge *inside* the grove.
-    - Test: Walk to (24, 15) or (25, 15).
+    - Target Tiles: (25, 15), (26, 15).
     - Result: PENDING.
 
 # Verified Failures (Route 42)
