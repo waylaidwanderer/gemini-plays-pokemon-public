@@ -16,16 +16,15 @@
 - Attempts: 1 (Current)
 - Strategy: The Great Band Bypass (Turn 48250).
 
-# Strategic Plan: The Great Band Bypass (Turn 48250)
+# Strategic Plan: The Eastern Sea Bypass (Turn 48269)
 - Goal: Reach Suicune sighting spot at (14, 10).
-- Problem: The city is divided into horizontal bands by long WALL/FLOOR_UP_WALL ledges at Row 15, Row 46, and Row 50. My target (14, 10) is in Band 1 (North), but Column 5 is a WALL (Row 40-45) preventing Westward access within Band 1.
-- Solution: Surf South along the East coast to Row 51 (Band 3), walk West to Column 2 (West Beach), then walk North along the clear West Beach corridor to Row 14.
-- Step 1: Walk to (26, 44) and use Surf to enter the water at (27, 44). (Complete)
-- Step 2: Surf South along Route 41 coast to (0, 51). (In Progress)
-- Step 3: Surf West back into Cianwood at (29, 51) (Band 3 landing), then walk West to (2, 51).
-- Step 4: Walk North to (2, 12).
-- Step 5: Walk East to (14, 12) -> (14, 10).
-- Status: At Route 41 (0, 44). Surfing. Repel active.
+- Problem: Cianwood is tiered with horizontal walls.
+- Solution: Surf North through Route 41 (East of Cianwood) to bypass land walls.
+- Step 1: Surf to (11, 49) and head North to (11, 46).
+- Step 2: Surf West to (9, 46) and head North to (9, 12).
+- Step 3: Surf West into Cianwood at (29, 12).
+- Step 4: Land at (18, 12) and walk to (14, 10).
+- Status: At Route 41 (8, 49). Surfing. Repel active.
 
 # Verified Landmarks
 - West Beach Corridor: Column X=2 - Clear path from Row 51 to Row 14 (passes Row 15 wall).
