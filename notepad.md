@@ -18,16 +18,16 @@
 - LEDGE_HOP_DOWN: One-way jump from NORTH to SOUTH. Verified at (10, 15).
 - COUNTER: Impassable.
 
-# Suicune Quest Strategy: 'Sea to West Coast'
+# Suicune Quest Strategy: 'The Long Walk'
 - Goal: Reach Suicune sighting area at (7, 4).
-- Problem: The city center is a maze of walls and ledges.
-- Solution: Use Surf to reach the isolated west coast corridor.
+- Problem: Water access is blocked; the city center is a maze of ledges.
+- Solution: Use the far west coastal corridor (X=2).
 - Route:
-    1. Walk to the east coast landing at (12, 27).
-    2. Surf north to (11, 16).
-    3. Land at (11, 15) (Gap in the cliff).
-    4. Walk north and west to the coastal corridor at X=2.
-    5. Walk north along X=2 to Row 11, then east to (7, 11).
+    1. Walk to (19, 33) via (16, 30).
+    2. Walk west along Row 33 to (9, 33).
+    3. Detour south at (6, 33) -> (6, 34) -> (2, 34) to bypass the cliff at (5, 33).
+    4. Walk north along X=2 to (2, 14).
+    5. Walk east along Row 14 to (7, 14).
     6. Walk north to the sighting area at (7, 4).
 - Battle Strategy: Lead with XENON (Haunter) for Hypnosis. Be ready for Eusine.
-- Status: Moving to (12, 27).
+- Status: Moving to (19, 33).
