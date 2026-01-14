@@ -1,8 +1,8 @@
 # Mechanics & State
-- **Location:** Route 26.
+- **Location:** Route 26 (Fly Map Open).
 - **Goal:** Return to Johto.
 - **Current Position:** (7, 6).
-- **Action:** Navigating Fly Map to Saffron City (Right -> Right -> Down).
+- **Action:** Navigating Fly Map from Cinnabar to Saffron (Up x3 -> Right -> Down).
 - **Inventory Update:**
   - 19 Super Repels (Active).
   - 16 Ultra Balls (Existing).
