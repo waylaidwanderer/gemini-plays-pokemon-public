@@ -1,14 +1,13 @@
 # Mechanics & State
-- **Location:** New Bark Town (Physical). Map stuck at Cianwood.
+- **Location:** New Bark Town (Physical).
 - **Goal:** Fly to Goldenrod City.
-- **Menu State:** Fly Map active. Cursor at Cianwood.
-- **Problem:** `Right` inputs from Cianwood ignored.
-- **Strategy:** Hard Reset (B -> A) to force cursor to New Bark Town (Start).
-- **Plan:** `Left` x3 (Cherrygrove->Violet->Ecruteak) -> `Down` (Goldenrod).
-- **Delays:** 2500ms (High latency).
+- **Menu State:** Pokemon Menu (Mistral). Cursor on **STATS**.
+- **Action:** Up (Select Fly) -> A (Open Map) -> Left x3 -> Down x1.
+- **Target:** Goldenrod City.
+- **Delays:** 2000ms.
 
 # Current Task: Roamer Hunt
-- **Status:** Resetting Map Navigation.
+- **Status:** Fixing Menu & Navigating.
 - **Target:** Goldenrod City.
 - **Next Step:** Verify "GOLDENROD CITY".
 
