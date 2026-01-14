@@ -1,13 +1,13 @@
 # Mechanics & State
-- **Location:** New Bark Town (Physical). Map cursor at Silver Cave.
+- **Location:** Blackthorn City (Fly Map).
 - **Goal:** Fly to Goldenrod City.
-- **Strategy:** "Convergent Navigation". Move West to limit (Cianwood), then backtrack to Goldenrod.
-- **Path:** Left x10 (To Cianwood) -> Right x2 (To Ecruteak) -> Down (To Goldenrod).
-- **Reason:** Robust against unknown cursor start position.
-- **Delays:** 500ms (Faster sequence).
+- **Menu State:** Fly Map active. Cursor at Blackthorn City.
+- **Topology Theory:** Blackthorn -> (Left) -> Lake of Rage -> (Down) -> Mahogany -> (Left) -> Ecruteak -> (Down) -> Goldenrod.
+- **Action:** Left -> Down -> Left -> Down.
+- **Delays:** 2000ms.
 
 # Current Task: Roamer Hunt
-- **Status:** Navigating to Goldenrod.
+- **Status:** Navigating from Blackthorn.
 - **Target:** Goldenrod City.
 - **Next Step:** Verify "GOLDENROD CITY" -> Fly.
 
