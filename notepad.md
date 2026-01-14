@@ -10,17 +10,17 @@
 - LEDGE_HOP_DOWN: One-way jump from NORTH to SOUTH.
 - COUNTER: Impassable.
 
-# Suicune Quest Strategy: 'The Western Land Bypass'
+# Suicune Quest Strategy: 'The Southern Land Bypass'
 - Goal: Reach Suicune at (7, 4).
-- Fact: The northern part of the island (north beach) is accessible by land via the far western beach (X=0 to X=2). The buoy maze is a red herring.
-- Route:
+- Fact: The north beach (14, 10) is isolated by walls and buoys. The city is a maze of one-way ledges (FLOOR_UP_WALL).
+- Verified Route:
     1. Land at (19, 30).
-    2. Walk West to (12, 30), then South to (12, 49) to bypass the city's one-way ledges.
-    3. Walk West to (2, 49).
-    4. Walk North along the far west coast to (2, 14).
-    5. Walk East and North to the landing spot: (2, 14) -> (8, 14) -> (8, 12) -> (14, 12) -> (14, 10).
-    6. Approach Suicune at (7, 4).
-- Preparation: Lead with XENON (Haunter) for Hypnosis. Be ready for Eusine.
-- Status: Surfing at (19, 21). Landing at (19, 30) to start the land route.
+    2. Walk to (12, 30) -> (12, 49). (Bypasses northern ledges)
+    3. Walk to (21, 49) -> (21, 51). (Bypasses Row 50 ledges)
+    4. Walk to (4, 51) -> (4, 49) -> (2, 49). (Reaches the far west coast)
+    5. Walk North to (2, 14). (Clear path to the plateau)
+    6. Walk to (14, 10) and then (7, 4).
+- Preparation: Lead with XENON (Haunter) for Hypnosis. Use SUPER REPEL.
+- Status: At (19, 21) surfing. Moving south to land.
 - Start Turn: 47680 (Suicune North Beach Quest)
 - Start Time: Wednesday, Jan 14, 2026, 4:00 AM PST
