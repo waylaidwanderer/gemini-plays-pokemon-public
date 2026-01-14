@@ -3,11 +3,12 @@
 - **Current Action:** Traversing Diglett's Cave (Segment 2).
 - **Path:** 
   1. Entrance (15, 5) -> Ladder (17, 3). [DONE]
-  2. Ladder (3, 3) -> Cross Ledge (9, 20) -> Ladder (5, 31). [CURRENT]
+  2. Ladder (3, 3) -> Cross Ledge (9, 20) (BLOCKED? Going around East) -> Ladder (5, 31). [CURRENT]
   3. Ladder (17, 33) -> Exit (3, 33).
 
-# Notes
-- **Fly Map:** Horizontal navigation (West <-> East) is currently broken/unreliable. Stuck in West Kanto loop unless flying from specific spots (unverified). Workaround: Ground travel via Diglett's Cave.
+# Known Issues
+- **Fly Map:** Horizontal navigation (West <-> East) is unreliable. Stuck in West Kanto loop. Workaround: Ground travel via Diglett's Cave.
+- **Diglett's Cave Ledge:** The ledge at (9, 20) appears impassable. Routing via (12, 20).
 
 # Roamer Hunting Strategy
 1.  **Setup:** Gyarados (Lv 36) leading, Super Repel active.
