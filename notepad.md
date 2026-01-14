@@ -19,7 +19,7 @@
 - Step 3: Land at (26, 51) and walk West to (2, 51).
 - Step 4: Walk North to (2, 12).
 - Step 5: Walk East to (14, 12) -> (14, 10).
-- Status: At (12, 44). Repel active. Start Turn: 48227.
+- Status: At (27, 44). Repel active. Start Turn: 48227.
 
 # Verified Landmarks
 - West Beach Corridor: Column X=2 - Clear path from Row 51 to Row 14 (passes Row 15 wall).
