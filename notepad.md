@@ -12,7 +12,7 @@
 - Sighting Progress:
     1. Burned Tower (DONE)
     2. Cianwood City (DONE - Eusine defeated at Turn 41111)
-    3. Route 42 (Mahogany side) - PENDING (Started Turn 46896)
+    3. Route 42 (Mahogany side) - PENDING (Started Turn 46896, Attempt #1)
     4. Kanto Route 25 (Cerulean Cape) - PENDING
 - Strategy: Visit sighting spots in order. Then Tin Tower.
 - Items: Clear Bell (HAVE IT).
