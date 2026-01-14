@@ -1,15 +1,15 @@
 # Mechanics & State
-- **Location:** Victory Road Gate.
+- **Location:** Route 26.
 - **Goal:** Return to Johto.
-- **Current Position:** (10, 9) - Inside Gate.
-- **Action:** Exiting South to Route 26 -> Fly Saffron.
+- **Current Position:** (7, 6).
+- **Action:** Flying to Saffron City.
 - **Inventory Update:**
   - 19 Super Repels (Active).
   - 16 Ultra Balls (Existing).
 - **Route Plan:**
-  1. Exit South to Route 26 (Current).
-  2. Fly to Saffron City.
-  3. Magnet Train to Goldenrod.
+  1. Fly to Saffron City.
+  2. Magnet Train to Goldenrod.
+  3. Fly to Ecruteak/Route 37.
 - **Money:** ¥12294.
 
 # Directory Info (Celadon)
