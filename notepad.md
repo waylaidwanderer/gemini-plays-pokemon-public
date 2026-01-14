@@ -16,10 +16,11 @@
 - Sighting Progress:
     1. Burned Tower (DONE)
     2. Cianwood City (DONE - Eusine defeated)
-    3. Route 42 (Mahogany side) - FAILED (114+ turns, 100% tile coverage, 3-way re-entry).
+    3. Route 42 (Mahogany side) - PENDING (Expert says this is MANDATORY before Tin Tower).
     4. Kanto Route 14 (East of Fuchsia) - PENDING
     5. Kanto Route 25 (Cerulean Cape) - PENDING
-- Strategy: Visit sighting spots in order. If Route 42 is skipped, check Kanto sightings on Routes 14 and 25. Final is Tin Tower.
+- Strategy: Visit sighting spots in order. Route 42 is the current bottleneck. The Wise Trio in Ecruteak are non-interactable, likely until the Route 42 sighting is triggered.
+- Expert Advice: Suicune must be found in the grove near the middle of Route 42 (requires Cut or Surf).
 
 # Verified Failures (Route 42)
 - "Mow the lawn" in grove: FAILED (60+ turns, 100% tile coverage).
