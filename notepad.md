@@ -2,8 +2,8 @@
 
 # Strategic Status
 - **Goal:** Register Raikou & Entei.
-- **Current Action:** Exiting Goldenrod Station -> Fly Ecruteak.
-- **Location:** Goldenrod City (Johto).
+- **Current Action:** Navigating Fly Map (New Bark -> Ecruteak).
+- **Location:** Goldenrod City (Johto) - Fly Menu.
 
 # Roamer Hunting Strategy (Route 37)
 1.  **Setup:** 
@@ -18,7 +18,7 @@
 3.  **Target:** Raikou/Entei (Lv 40). Repel filters Lv < 36.
 
 # Notes
-- **Fly Map:** Kanto map was glitchy; Johto map should be fine.
+- **Fly Map:** Navigating New Bark -> Ecruteak (Left x3).
 
 # Roamer Hunting Strategy
 1.  **Setup:** Gyarados (Lv 36) leading, Super Repel active.
