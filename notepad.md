@@ -24,7 +24,7 @@
 - **Roamer Logic:** Roamers move to an adjacent map when the player transitions maps. 'Blind Interception' relies on them moving *into* your map as you enter.
 - **Detour:** Goldenrod Dept Store was a bust. No Super Repels.
 - **New Plan:** Fly to Indigo Plateau. Beat E4 for cash. Buy Max Repels.
-- **Mechanics Correction:** The 'POKEGEAR MAP' is for viewing only. To FLY, I must use the 'POKEMON' menu (Party -> Select Flyer -> Fly).
-- **Action:** Exiting Pokegear and switching to Party Menu.
-- **Sequence:** B (Exit Gear) -> Up x2 (Select Pokemon) -> A (Open Party).
-- **Goal:** Access Pidgey (Slot 6) to Fly to Indigo Plateau.
+- **Fly Map Status:** Party Menu Open. Cursor on Pidgey (Mistral).
+- **Action:** Press A to open Pidgey's menu.
+- **Next Step:** Select 'FLY' -> Navigate Map -> Confirm Indigo Plateau.
+- **Note:** Cursor surprisingly remembered last position (Slot 6), saving scrolling time.
