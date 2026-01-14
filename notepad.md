@@ -47,8 +47,20 @@
 - Efficiency: Use (19, 30) for launching into the spiral.
 
 # Fly Navigation
-- The Fly menu in Johto (Crystal) is a 2D Town Map cursor navigation, not a list.
-- To navigate from New Bark Town (14, 10) to Cianwood (0, 9), move the cursor 14 units West (Left) and 1 unit North (Up).
+- The Fly menu in Johto (Crystal) is a 2D Town Map cursor navigation.
+- Cursor Grid (X, Y):
+  - New Bark: (14, 10)
+  - Cherrygrove: (12, 10)
+  - Violet: (12, 6)
+  - Azalea: (10, 12)
+  - Goldenrod: (6, 9)
+  - Ecruteak: (6, 5)
+  - Olivine: (2, 6)
+  - Cianwood: (0, 9)
+  - Mahogany: (10, 5)
+  - Lake of Rage: (10, 3)
+  - Blackthorn: (14, 5)
+- Navigation from Cherrygrove (12, 10) to Cianwood (0, 9): 12 Lefts, 1 Up.
 
 # Hypotheses
 ## Land Route to Suicune (The 'Gem Shortcut')
