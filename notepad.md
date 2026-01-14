@@ -23,10 +23,7 @@
 - **Active Events:** Bug-Catching Contest (Tuesday).
 - **Roamer Logic:** Roamers move to an adjacent map when the player transitions maps. 'Blind Interception' relies on them moving *into* your map as you enter.
 - **Detour to Goldenrod:** Started Turn 39093. Arrived.
-- **Reflection (Turn 39145):**
-    - Search for Super Repels ongoing.
-    - 2F confirmed empty of Super Repels.
-    - Checking 3F Directory.
+
 ## Goldenrod Dept Store
 - 2F: Trainer's Market (Standard Repels only).
 - 3F: Battle Collection (X-Items).
