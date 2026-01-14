@@ -1,13 +1,5 @@
 # PC Storage (Box 1)
-- DAPXWW (LARVITAR): Lv20
-- GLAIVE (SCYTHER): Lv14
-- SELKIE (SEEL): Lv24
-- DELTA (MANTINE): Lv20
-- RANGOON (KRABBY): Lv22
-- NOMURA (TENTACOOL): Lv17
 - Ravioli (KRABBY): Lv10 (Surf, Whirlpool)
-- Ouroboros (DRATINI): Lv15
-- AAAAAAAAAA (SPINARAK): Lv13
 - LAPIS (POLIWAG): Lv12 (Waterfall, Surf, Whirlpool)
 
 # Tile Mechanics (Global)
@@ -15,23 +7,29 @@
 - WATER: Traversable only via Surf.
 - BUOY: Impassable water obstacle.
 - WALL: Impassable obstacle.
-- HEADBUTT_TREE: Special tree that can be interacted with using Headbutt.
-- DOOR: Warp point to an interior.
-- FLOOR_UP_WALL: Represents a ledge face. Impassable from ALL directions.
-- LEDGE_HOP_DOWN: One-way jump from NORTH to SOUTH.
-- (11, 14): Dead End Pocket in Cianwood. Wall at (11, 13) and (12, 14) blocks access to the north plateau.
-- (11, 15): Gap in the city wall (Y=15) in Cianwood. Accesses the beach area but not the plateau. (Needs re-verification).
+- HEADBUTT_TREE: Special tree for Headbutt.
+- DOOR: Warp point.
+- FLOOR_UP_WALL: Ledge face. Impassable.
+- LEDGE_HOP_DOWN: One-way jump (North to South).
+- (11, 14): Dead End Pocket in Cianwood.
+- (11, 15): Potential Gap in Cianwood wall. (Needs verification for beach shortcut).
 
-# Fly Navigation (Confirmed)
-- Map: Town Map (Fly).
-- Rule: 7 directional taps = 1 coordinate unit.
-- Evidence: 14 taps moved cursor from New Bark (14, 10) to Cherrygrove (12, 10) [Turn 47978].
-- Target: Cianwood (0, 9).
-- Math: 14 units West (98 taps), 1 unit North (7 taps).
+# Fly Navigation (Grid System)
+- Map: Johto Town Map.
+- Math: 7 directional taps = 1 coordinate unit.
+- Target: Cianwood (0, 9) from New Bark (14, 10).
+- Total: 98 Left taps, 7 Up taps.
 
-# Quest Strategies: Suicune Capture
-- Fact: The northern plateau is walled off from the south and west. The buoy maze is the only intended entrance.
-- Shortcut Hypothesis: Suicune (7, 4) reachable via beach at X=2. Gaps at (11, 33) and (11, 35) in Cianwood walls suggest beach access.
-- Route: Fly to Cianwood -> Walk to beach at X=2 -> Walk North to Suicune at (7, 4).
-- Lead: XENON (Haunter). Use SUPER REPEL.
-- Strategy: Use Hypnosis to sleep Suicune. Use Night Shade (44 dmg) to lower HP. Throw Ultra Balls.
+# Suicune Capture Strategy
+- Lead: XENON (Haunter).
+- Move 1: Hypnosis (Sleep status).
+- Move 2: Night Shade (Fixed 44 dmg; Suicune has ~120 HP). Use 2 times to reach red zone.
+- Item: Ultra Balls.
+
+# Strategic Plans
+## Fly to Cianwood
+- Method: Move Fly cursor in chunks of ~42 taps (6 grid units) to avoid button limits and ensure registration.
+- Current Step: Moving cursor 6 units West from New Bark (14, 10) to (8, 10).
+
+## Verify 'Gem Shortcut'
+- Task: Once in Cianwood, walk to X=2 beach area via wall gaps. Confirm access to north plateau (Y<30).
