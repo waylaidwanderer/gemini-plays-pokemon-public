@@ -1,19 +1,19 @@
 # Mechanics & State
 - **Location:** Victory Road.
 - **Goal:** Walk to Viridian City (South).
-- **Current Position:** (13, 11) - 3F.
-- **Action:** Manual Walk to Ladder (Avoid Blocked Path).
+- **Current Position:** (18, 15) - 3F (In Battle).
+- **Action:** Running from Onix -> Continuing to Ladder (13, 17).
 - **Inventory Update:**
   - 20 Super Repels (Bought).
   - 16 Ultra Balls (Existing).
 - **Route Plan:**
-  1. Walk East to x=18 (Avoid blocked ledge at x=13-16).
+  1. Escape Battle.
   2. Walk South to y=16.
   3. Walk West to x=13 (Through gap at 17,16).
   4. Walk South to Ladder (13, 17).
   5. Ladder -> 2F.
 - **Notes:**
-  - `FLOOR_UP_WALL` tiles at (9-16, 12) act as WALLS from the North. Pathfinding failed here.
+  - `FLOOR_UP_WALL` tiles at (9-16, 12) act as WALLS from the North. Must go around via East wall (x=18).
 - **Money:** ¥12294.
 
 # Directory Info (Celadon)
