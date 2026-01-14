@@ -7,37 +7,31 @@
 - HEADBUTT_TREE: Impassable.
 - CUT_TREE: Impassable (becomes FLOOR when cut). Verified regrows on map exit.
 - CAVE / WARP_CARPET: Warp to another map (e.g. Mt. Mortar, Gatehouse).
+- COUNTER: Impassable. Used to interact with NPCs from an adjacent tile.
 
 # Suicune Quest
-- Objective: Catch Suicune.
+- Status: 16 Badges, Red Defeated, Clear Bell in inventory.
 - Sighting Progress:
     1. Burned Tower (DONE)
-    2. Cianwood City (DONE - Eusine defeated at Turn 41111)
-    3. Route 42 (Mahogany side) - PENDING (Attempt started Turn 46896)
+    2. Cianwood City (DONE - Eusine defeated)
+    3. Route 42 (Mahogany side) - FAILED (114+ turns, 100% tile coverage, 3-way re-entry).
     4. Kanto Route 25 (Cerulean Cape) - PENDING
-- Strategy: Visit sighting spots in order. Then Tin Tower.
-- Items: Clear Bell (HAVE IT).
+- Strategy: Visit sighting spots in order. If Route 42 is skipped, check Kanto. Final is Tin Tower.
 
-# Active Hypotheses
-- Hypothesis 5: Suicune sighting on Route 42 is triggered by approaching from the west (Ecruteak side). 
-    - Test: Walk through the center of the grove near the Apricorn trees.
-    - Status: FINAL ATTEMPT. If no sighting, pivoting to Kanto Route 25.
-
-# Verified Failures
-- "Mow the lawn" in grove: FAILED (60+ turns, 100% tile coverage in grove). Suicune is not a hidden trigger tile.
-- "Sighting trigger at (28, 15)": FAILED (Stepped on it at Turn 46953).
-- "Re-entry from Mahogany": FAILED (Turn 46966, re-approached grove from east).
-- "Eusine in Ecruteak Center": FAILED (Turn 46981, not present).
-
-# Lessons Learned
-- Suicune sightings are overworld sprite encounters, not hidden tile triggers.
-- If the sprite is missing from the Map Objects list, the sighting event is not active.
-- Map refreshes and directional approaches are the last resort before abandoning a sighting.
+# Verified Failures (Route 42)
+- "Mow the lawn" in grove: FAILED (60+ turns, 100% tile coverage).
+- "Sighting trigger at (28, 15)": FAILED.
+- "Re-entry from Mahogany": FAILED.
+- "Re-entry from Ecruteak": FAILED.
+- "Re-entry from Mt. Mortar": FAILED.
+- "Eusine in Ecruteak Center": FAILED (Turn 46981).
 
 # Map Insights
 - Route 42: Middle grove with Apricorns requires Cut at (24, 13).
 - Mt. Mortar: B1F ladder at (19, 29) leads to 1FOutside (17, 29). B1F has an item ball at (21, 26).
 - Ecruteak: Gatehouse to Route 42 is at (35, 27).
-- COUNTER: Impassable. Used to interact with NPCs from an adjacent tile. Verified in Route42EcruteakGate.
-- [Turn 47001] Expert suggests approaching the water's edge in the grove to trigger Sighting 3. Target: (22, 12).
-- [Attempt #3] Approaching (22, 12) from the west (Ecruteak entrance). Previous attempt at (22, 12) was Turn 46833 but without Cut active.
+- Tin Tower: Located in Ecruteak City. Requires Clear Bell.
+
+# Pivot Plan (If Route 42 Abandoned)
+- Option A: Fly to Saffron -> Walk to Route 25 (Cerulean Cape).
+- Option B: Visit Tin Tower in Ecruteak.
