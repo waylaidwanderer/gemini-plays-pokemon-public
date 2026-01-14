@@ -28,3 +28,8 @@
     5. Sail West to (7, 8), land, and walk to (7, 4).
 - Battle Strategy: Lead with XENON (Haunter) for Hypnosis. Be ready for Eusine.
 - Status: Moving to (27, 44).
+
+# Progress Tracking
+- Started North Beach Quest: Turn 47588.
+- Status: Navigating buoy maze.
+- Lessons: Trust Game State over visual ASCII for precise gaps. FLOOR_UP_WALL is a solid north-edge barrier.

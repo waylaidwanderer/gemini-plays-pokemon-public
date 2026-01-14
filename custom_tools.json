@@ -106,5 +106,43 @@
         "action_counter": 47586
       }
     ]
+  },
+  "find_path_crystal_v7_final": {
+    "description": "Shortest path algorithm for Pokemon Crystal. Handles FLOOR_UP_WALL and LEDGE, and Surf transitions. Returns a JSON array of buttons.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "start_x": {
+          "type": "integer"
+        },
+        "start_y": {
+          "type": "integer"
+        },
+        "target_x": {
+          "type": "integer"
+        },
+        "target_y": {
+          "type": "integer"
+        },
+        "is_surfing": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "start_x",
+        "start_y",
+        "target_x",
+        "target_y",
+        "is_surfing"
+      ]
+    },
+    "python_script": "import json\nimport xml.etree.ElementTree as ET\n\ndef solve(map_xml, start_x, start_y, target_x, target_y, is_surfing):\n    root = ET.fromstring(map_xml)\n    width = int(root.attrib['width'])\n    height = int(root.attrib['height'])\n    grid = {}\n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            t_type = tile.attrib['type']\n            has_obj = tile.attrib.get('has-object') == 'true'\n            grid[(x, y)] = (t_type, has_obj)\n\n    start = (start_x, start_y)\n    target = (target_x, target_y)\n    \n    queue = [(start, [], is_surfing)]\n    visited = {(start, is_surfing)}\n    \n    while queue:\n        (curr_x, curr_y), path, surfing = queue.pop(0)\n        if (curr_x, curr_y) == target:\n            return path\n        \n        curr_type, _ = grid.get((curr_x, curr_y), ('unseen', False))\n        \n        for dx, dy, btn in [(0, 1, 'Down'), (0, -1, 'Up'), (1, 0, 'Right'), (-1, 0, 'Left')]:\n            nx, ny = curr_x + dx, curr_y + dy\n            if not (0 <= nx < width and 0 <= ny < height): continue\n            \n            n_type, n_obj = grid.get((nx, ny), ('unseen', False))\n            if n_obj: continue\n            if n_type in ('WALL', 'BUOY', 'COUNTER'): continue\n            \n            if n_type == 'FLOOR_UP_WALL' and dy == 1: continue\n            if curr_type == 'FLOOR_UP_WALL' and dy == -1: continue\n            \n            if n_type == 'LEDGE_HOP_DOWN':\n                if dy != 1: continue\n                lx, ly = nx, ny + 1\n                if not (0 <= lx < width and 0 <= ly < height): continue\n                lt, lo = grid.get((lx, ly), ('unseen', False))\n                if lo or lt in ('WALL', 'BUOY', 'COUNTER'): continue\n                if ((lx, ly), False) not in visited:\n                    visited.add(((lx, ly), False))\n                    queue.append(((lx, ly), path + [btn, btn], False))\n                continue\n\n            new_surfing = surfing\n            if surfing:\n                if n_type in ('WATER', 'unseen'): new_surfing = True\n                elif n_type in ('FLOOR', 'FLOOR_UP_WALL'): new_surfing = False\n                else: continue\n            else:\n                if n_type in ('FLOOR', 'FLOOR_UP_WALL', 'unseen'): new_surfing = False\n                else: continue\n            \n            if ((nx, ny), new_surfing) not in visited:\n                visited.add(((nx, ny), new_surfing))\n                queue.append(((nx, ny), path + [btn], new_surfing))\n    return None\n\nres = solve(map_xml_string, int(input_data['start_x']), int(input_data['start_y']), int(input_data['target_x']), int(input_data['target_y']), input_data['is_surfing'] == 'true' or input_data['is_surfing'] is True)\nif res:\n    print(json.dumps(res))\nelse:\n    print(\"[]\")\n",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-14T11:23:59.618Z",
+        "action_counter": 47637
+      }
+    ]
   }
 }
