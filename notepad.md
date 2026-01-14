@@ -18,24 +18,19 @@
 - Item: Ultra Balls (32).
 - Backup: GORP (Snorlax) for tanking.
 
-# Strategic Plan: The Great Spiral
-- Goal: Trigger Suicune sighting at (14, 10).
+# Strategic Plan: The Southern Corridor Sprint
+- Goal: Reach Suicune sighting spot at (14, 10).
 - Trek Start: Turn 48203.
-- Step 1: Reach Outer Channel at (27, 30). (Done)
-- Step 2: Use Super Repel. (Done)
-- Step 3: Navigate Buoy Maze Gaps:
-  - Gap 1: (26, 10) (Done)
-  - Gap 2: (22, 16) (Done)
-  - Gap 3: (18, 26) (Done)
-  - Gap 4: (19, 14) (In Progress)
-- Step 4: Land on North Plateau at (16, 11) or (13, 16).
-- Step 5: Walk to (14, 10).
+- Problem: City center is a plateau; Great Spiral is a dead end.
+- Solution: Row 51 is a low-level corridor connecting east and west beaches.
+- Step 1: Land at (19, 30). (In Progress)
+- Step 2: Walk to Southern Gap at (20, 51) via (20, 50).
+- Step 3: Walk West along Row 51 to West Beach at (2, 51).
+- Step 4: Walk North along Column X=2 to (2, 10).
+- Step 5: Walk East along Row 10 to (14, 10).
+- Status: At (18, 26). Repel active.
 
-# Verified Landmarks & Gaps
-- Buoy Gaps: (26, 10), (22, 16), (18, 26), (19, 14).
-- Plateau Landing Spots: (16, 11), (13, 16).
-- Sighting Spot: (14, 10).
-
-# Custom Tools (Technical Details)
-- find_path_v4: BFS pathfinder. Handles LAND vs WATER medium consistency. Treats unseen tiles as traversable within the starting medium. Handles LEDGE_HOP_DOWN as one-way (dy=1).
-- menu_navigator_v2_fixed: Sequence-based button presser for deep menu navigation.
+# Verified Landmarks
+- Southern Gap: (20, 50-51) - Only way down from the city plateau.
+- West Beach Corridor: Column X=2 - Clear path from Row 51 to Row 10.
+- Dead Ends: Great Spiral (WATER), Row 35 gaps (blocked by cliffs).
