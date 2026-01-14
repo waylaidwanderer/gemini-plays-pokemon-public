@@ -21,11 +21,11 @@
 - Problem: The city is divided into horizontal bands by long WALL/FLOOR_UP_WALL ledges at Row 15, Row 46, and Row 50. My target (14, 10) is in Band 1 (North), but Column 5 is a WALL (Row 40-45) preventing Westward access within Band 1.
 - Solution: Surf South along the East coast to Row 51 (Band 3), walk West to Column 2 (West Beach), then walk North along the clear West Beach corridor to Row 14.
 - Step 1: Walk to (26, 44) and use Surf to enter the water at (27, 44). (Complete)
-- Step 2: Surf East to (30, 44), then South to (30, 51). (In Progress)
-- Step 3: Surf West to find landing spot in Band 3 (Row 51+), then walk West to (2, 51).
+- Step 2: Surf South along Route 41 coast to (0, 51). (In Progress)
+- Step 3: Surf West back into Cianwood at (29, 51) (Band 3 landing), then walk West to (2, 51).
 - Step 4: Walk North to (2, 12).
 - Step 5: Walk East to (14, 12) -> (14, 10).
-- Status: At (28, 44). Surfing. Repel active.
+- Status: At Route 41 (0, 44). Surfing. Repel active.
 
 # Verified Landmarks
 - West Beach Corridor: Column X=2 - Clear path from Row 51 to Row 14 (passes Row 15 wall).
@@ -36,7 +36,7 @@
 - Ledge 1: Row 15 (X=3-17) WALL.
 - Ledge 2: Row 46 (X=21-28) FLOOR_UP_WALL, (X=6) FLOOR_UP_WALL. (X=29) WALL.
 - Ledge 3: Row 50 (X=12-19) FLOOR_UP_WALL.
-- Water Bypass: Column 30+ is clear of Row 46/50 obstacles.
+- Water Bypass: Route 41 (Column 0) is clear of Cianwood's Row 46/50 obstacles.
 
 # Custom Tools (Technical Details)
 - find_path_v4: BFS pathfinder. Handles LAND vs WATER medium consistency. Treats unseen tiles as traversable within the starting medium. Handles LEDGE_HOP_DOWN as one-way (dy=1).
