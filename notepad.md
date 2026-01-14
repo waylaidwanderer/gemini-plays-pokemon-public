@@ -4,7 +4,7 @@
 - BUOY: Impassable water obstacle.
 - WALL: Impassable obstacle.
 - FLOOR_UP_WALL: One-way barrier (Ledge). Blocks movement Up (North) and allows jumping Down (South).
-- LEDGE_HOP_DOWN: One-way jump South.
+- LEDGE_HOP_DOWN: One-way jump South. Entering from the side (Left/Right) is blocked.
 - Interaction: To Surf, face WATER from an adjacent FLOOR tile and press A. Stepping onto FLOOR from WATER automatically ends Surfing.
 
 # Suicune Quest
