@@ -61,11 +61,11 @@
   - Lake of Rage: (10, 3)
   - Blackthorn: (14, 5)
 - Navigation from Cherrygrove (12, 10) to Cianwood (0, 9): 12 Lefts, 1 Up.
-- Status: At (25, 5) in Cherrygrove; opening Start menu to begin Fly sequence.
+- Status: At (25, 5) in Cherrygrove; POKEMON menu open. Navigating to ICARUS to Fly.
 - Failed Fly attempts: 52 (Reason: FLY command selected in party menu but map didn't open; likely restricted tile).
-- Flight Plan: Start -> POKEMON -> ICARUS -> FLY -> 12 Left, 1 Up -> A.
+- Flight Plan: A (enter Party) -> Down x5 (ICARUS) -> A (sub-menu) -> A (FLY) -> 12 Left, 1 Up -> A.
 - Suicune Sighting Progress: Heading to Cianwood to test West Beach shortcut.
-- Timestamp: Turn 47971. Quest started Turn 47680.
+- Timestamp: Turn 47972. Quest started Turn 47680.
 
 # Hypotheses
 ## Land Route to Suicune (The 'Gem Shortcut')
