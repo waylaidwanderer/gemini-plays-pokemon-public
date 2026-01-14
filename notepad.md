@@ -1,12 +1,14 @@
 # Suicune Quest
 - Start Turn: 46650
 - Objective: Trigger sighting in Cianwood City at (7, 4).
-- Strategy: The West Coast Route
-    1. Walk South to (12, 51).
-    2. Walk West along Y=51 to X=2.
-    3. Walk North along X=2 to Y=4.
-    4. Walk East to (7, 4) to trigger the sighting.
-- Note: The city center is a maze. The southern crossing at Y=51 and western corridor (X=2) are the most reliable path. Suicune sighting count = 1.
+- Strategy: The West Side Jump
+    1. Walk to (6, 45).
+    2. Jump South over the ledge at (6, 46) to land at (6, 47).
+    3. Walk West to (2, 47).
+    4. Walk North along X=2 corridor to Y=14.
+    5. Walk East to (8, 14), then North to (8, 11).
+    6. Walk West to (7, 11), then North to (7, 4).
+- Note: This path bypasses the main city walls. X=2 and Y=14 are key thoroughfares. Suicune sighting count = 1.
 
 # Roaming Beast Data
 - Raikou: Unknown
