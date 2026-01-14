@@ -15,15 +15,13 @@
 - **Goal:** Register Raikou & Entei.
 - **Current Task:** Farm money at Elite Four -> Buy Max Repels (20x).
 - **Location:** Will's Room (Elite Four).
-- **Action:** Initiating battle with Will.
-- **Battle Plan:**
-    - Lead: Gyarados (Level 36).
-    - Turn 1: Switch to Machoke (Muscle, Lv 88).
-    - Strategy: Sweep with Elemental Punches.
-        - Xatu: Thunderpunch/Ice Punch.
-        - Exeggutor: Ice Punch.
-        - Slowbro: Thunderpunch.
-        - Jynx: Strength/Cross Chop.
+- **Action:** Battling Will.
+- **Current Opponent:** Will (Jynx incoming).
+- **Active Pokemon:** Machoke (Lv 88).
+- **Strategy:**
+    - Jynx: Stay in. Use Strength (Neutral, 100% Acc). Muscle outlevels significantly.
+    - Exeggutor: Ice Punch.
+    - Slowbro: Thunderpunch.
 - **Goal:** Farm money.
 - **Resources:** ¥2294.
 - **Resources:** ¥2294. Repels: 0.
