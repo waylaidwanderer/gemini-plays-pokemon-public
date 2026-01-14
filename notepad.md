@@ -28,13 +28,9 @@
     - 2F confirmed empty of Super Repels.
     - Checking 3F Directory.
 ## Goldenrod Dept Store
-- 2F: Trainer's Market.
-    - Top Clerk: Potions, Status Heals.
-    - Bottom Clerk: Balls, Rope, Repel (Standard), Revive, Full Heal, Doll, Mail.
-    - **NO Super Repels found on 2F.**
+- 2F: Trainer's Market (Standard Repels only).
 - 3F: Battle Collection (X-Items).
 - 4F: Medicine Box (Vitamins).
-    - **NO Super Repels found on 4F.**
-- 5F: TM Corner.
-    - Clerk at (8, 5). checking now.
-- **Strategy:** If Super Repels not found on 5F, fly to Celadon Dept Store (Kanto).
+- 5F: TM Corner (Punches, Headbutt).
+    - **NO Super Repels found in Goldenrod.**
+- **Strategy:** Go to Roof -> Fly to Celadon City (Kanto) -> Buy Super/Max Repels at Celadon Dept Store.
