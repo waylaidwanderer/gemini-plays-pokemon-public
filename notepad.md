@@ -1,17 +1,16 @@
 # Mechanics & State
-- **Location:** Route 23 (Indigo Plateau).
-- **Goal:** Return to Johto (Goldenrod).
-- **Current Position:** Route 23 (9, 10).
-- **Action:** Walking to Viridian City.
+- **Location:** Victory Road.
+- **Goal:** Walk to Viridian City (South).
+- **Current Position:** (13, 6) - 3F (Top).
+- **Action:** Walking to Ladder at (13, 17) to descend to 2F.
 - **Inventory Update:**
   - 20 Super Repels (Bought).
   - 16 Ultra Balls (Existing).
-- **Correction:** Fly Map navigation failed/buggy from Indigo. Aborting Fly.
-- **Next Steps:**
-  1. Walk South to Victory Road Gate -> Route 22 -> Viridian City.
-  2. Attempt Fly again from Viridian (or navigate to Saffron).
-  3. Magnet Train to Goldenrod.
-  4. Begin Roamer Hunt on Route 37.
+- **Route Plan:**
+  1. Ladder (13, 17) -> 2F.
+  2. Navigate 2F to Ladder -> 1F.
+  3. Exit South to Gate -> Route 22 -> Viridian.
+  4. Fly/Train to Johto.
 - **Money:** ¥12294.
 
 # Directory Info (Celadon)
