@@ -1,9 +1,8 @@
 # Mechanics & State
 - **Location:** Celadon Dept Store 2F.
 - **Goal:** Supply Run (Dept Store).
-- **Current Position:** (13, 3) - Still at Clerk 1 (Left).
-- **Action:** Closing Menu -> Moving to Clerk 2 (Right).
-- **Correction:** Previous move failed. Currently viewing Clerk 1's stock (Medicines).
+- **Current Position:** At Clerk 2 (Right).
+- **Action:** Checking Clerk 2 inventory for Super Repels and Ultra Balls.
 - **Inventory Check (Celadon 2F):**
   - Clerk 1 (Left): Potions, Revives (Confirmed).
   - Clerk 2 (Right): Pending check.
