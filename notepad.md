@@ -37,3 +37,11 @@
 - Buoy Maze: The buoy spiral is the only intended path.
 - Menu Memory: Items in the pack stay selected. Use the pocket-switch trick to reset cursor.
 - Efficiency: Use (19, 30) for launching into the spiral.
+
+# Hypotheses
+## Land Route to Suicune (The 'Gem Shortcut')
+- Hypothesis: Suicune (7, 4) is reachable by walking North along the West beach (X=2), which appears to be free of walls and ledges from the city (Y=34) all the way to the North (Y=0).
+- Test: Land at (13, 16), walk West to X=2, then walk North to Y=4.
+- Success Condition: Reaching (7, 4) and triggering the Suicune sighting.
+- Failed Attempts: 0
+- Status: Testing.
