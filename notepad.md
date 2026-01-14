@@ -43,3 +43,5 @@
 - Eusine battle confirms sighting completion.
 - Buoy walls are highly restrictive; land routes often safer.
 - Multimodal pathfinding fails on water-to-land transitions; use manual navigation or chunks.
+- [Turn 46910] Entered Mt. Mortar middle entrance (MountMortar1FOutside). Checking for Suicune sighting trigger on the ledge.
+- [Lesson] Always verify 'Surrounding tiles' in GameState before executing a manual movement sequence to avoid hitting obstacles like trees.
