@@ -24,14 +24,13 @@
 - Step 1: Reach Outer Channel at (27, 30). (Done)
 - Step 2: Use Super Repel. (Done)
 - Step 3: Navigate Buoy Maze Gaps:
-  - Gap 1: (26, 10) (In Progress)
-  - Gap 2: (22, 16)
+  - Gap 1: (26, 10) (Done)
+  - Gap 2: (22, 16) (In Progress)
   - Gap 3: (19, 14)
 - Step 4: Land on North Plateau at (16, 14).
 - Step 5: Walk to (14, 10).
 
-# Verified Gaps & Landmarks
-- Buoy Gaps: (26, 10), (22, 16), (19, 14), (18, 26), (16, 20).
+# Verified Landmarks
+- Gaps: (26, 10), (22, 16), (19, 14), (18, 26), (16, 20).
 - Plateau Landing: (16, 11-14).
 - Sighting Spot: (14, 10).
-- City Center: Elevated plateau; land routes blocked by vertical cliffs.
