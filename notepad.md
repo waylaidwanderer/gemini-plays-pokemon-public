@@ -1,13 +1,17 @@
 # Mechanics & State
 - **Location:** Celadon Dept Store 1F.
 - **Goal:** Supply Run (Dept Store).
-- **Current Position:** (14, 1) - Facing Directory.
-- **Action:** Reading Directory to find Repels.
+- **Current Position:** (14, 1) - At Directory.
+- **Action:** Taking stairs to 2F.
 - **Shopping List:** Super Repels (~20), Ultra Balls.
 - **Money:** ¥12294.
 
-# Key Locations Inventory
-- **Goldenrod Dept Store:** Checked 2F-5F. NO Super/Max Repels. Only Basic Items, X-Items, Vitamins, TMs.
+# Directory Info (Celadon)
+- **2F:** Trainer's Market (Likely spot for Items/Balls).
+- **3F:** TM Shop.
+- **4F:** Wiseman Gifts.
+- **5F:** Drug Store (Vitamins/Medicine?).
+- **6F:** Rooftop Square.
 
 # Roamer Hunting Strategy
 1.  **Party Leader:** Gyarados (Lv 36).
