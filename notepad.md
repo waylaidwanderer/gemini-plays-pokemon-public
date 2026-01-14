@@ -14,7 +14,7 @@
     - Item: Super Repel (Active).
     - Balls: 16 Ultra Balls.
 2.  **Procedure:**
-    - Walk to Route 37 (North of Ecruteak).
+    - Walk to Route 37 (South of Ecruteak).
     - Run in grass until Repel wears off or Roamer appears.
     - If Repel ends: Re-apply.
     - If no encounter: Switch map (Ecruteak) and return to reset RNG.
