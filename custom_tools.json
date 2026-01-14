@@ -221,24 +221,29 @@
     ]
   },
   "perform_roamer_hunt_cycle": {
-    "description": "Automates the Roamer hunting loop on Route 37. Moves UP to Ecruteak City to reset the map, moves DOWN back to the grass on Route 37 (5 steps), and performs a grass scan.",
+    "description": "Automates the Roamer hunting loop on Route 37. Moves UP to Ecruteak City to reset the map, waits, moves DOWN back to the grass on Route 37, waits, and performs a grass scan. Includes safety delays for map loading.",
     "input_schema": {
       "type": "object",
       "properties": {
         "scan_steps": {
           "type": "integer",
           "default": 20,
-          "maximum": 50
+          "maximum": 30
         }
       },
       "required": []
     },
-    "python_script": "import json\nscan_steps = input_data.get('scan_steps', 20)\nbuttons = []\n# Move Up to Ecruteak (reset map)\nbuttons.extend([\"Up\"] * 6)\n# Move Down back to grass (target y=5)\nbuttons.extend([\"Down\"] * 5)\n# Scan grass\nfor _ in range(scan_steps // 2):\n    buttons.append(\"Left\")\n    buttons.append(\"Right\")\nif scan_steps % 2:\n    buttons.append(\"Left\")\nprint(json.dumps(buttons))",
+    "python_script": "import json\nscan_steps = input_data.get('scan_steps', 20)\nbuttons = []\n# Move Up to Ecruteak (reset map)\nbuttons.extend([\"Up\"] * 6)\nbuttons.append(\"sleep 2500\")\n# Move Down back to grass\nbuttons.extend([\"Down\"] * 6)\nbuttons.append(\"sleep 2500\")\n# Scan grass\nfor _ in range(scan_steps // 2):\n    buttons.append(\"Left\")\n    buttons.append(\"Right\")\nif scan_steps % 2:\n    buttons.append(\"Left\")\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2026-01-14T07:45:11.091Z",
         "action_counter": 38734
+      },
+      {
+        "commit_message": "Added sleep delays to handle map transitions reliable. Limited scan steps to stay within button limits.",
+        "timestamp": "2026-01-14T07:52:39.100Z",
+        "action_counter": 38741
       }
     ]
   }
