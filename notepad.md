@@ -35,3 +35,6 @@
 - Hypothesis: Walking on a specific tile in the (26, 15) grove triggers the sighting.
 - Test: "Mow the lawn" across all reachable tiles in the grove (Rows 13-16, X=24-31).
 - Conclusion: PENDING
+- Hypothesis 2: Trigger is near the middle Mt. Mortar entrance at (28, 9).
+- Test 2: Walk around (28, 9) and (28, 10).
+- Conclusion 2: PENDING
