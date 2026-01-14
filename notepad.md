@@ -48,7 +48,7 @@
 
 # Fly Navigation
 - The Fly menu in Johto (Crystal) is a 2D Town Map cursor navigation, not a list.
-- To navigate from New Bark Town to Cianwood, move the cursor West (Left) across the map.
+- To navigate from New Bark Town (14, 10) to Cianwood (0, 9), move the cursor 14 units West (Left) and 1 unit North (Up).
 
 # Hypotheses
 ## Land Route to Suicune (The 'Gem Shortcut')
