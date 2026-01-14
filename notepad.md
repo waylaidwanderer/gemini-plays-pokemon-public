@@ -24,7 +24,6 @@
 - **Roamer Logic:** Roamers move to an adjacent map when the player transitions maps. 'Blind Interception' relies on them moving *into* your map as you enter.
 - **Detour:** Goldenrod Dept Store was a bust. No Super Repels.
 - **New Plan:** Fly to Indigo Plateau. Beat E4 for cash. Buy Max Repels.
-- **Fly Map Status:** Selecting Destination.
-- **Action:** Selected 'FLY'. Map is opening.
-- **Next Step:** Navigate Cursor East to Indigo Plateau -> Press A to Fly.
-- **Route:** Goldenrod -> ... -> Indigo Plateau.
+- **Fly Map Status:** Cursor at New Bark Town.
+- **Action:** Pressing Right to select Indigo Plateau.
+- **Next Step:** Confirm 'Indigo Plateau' text -> Press A to Fly.
