@@ -48,7 +48,7 @@
 - Re-entry from Mt. Mortar/Mahogany/Ecruteak: FAILED.
 - Wise Trio/Eusine Interaction: FAILED.
 - Map Code Scan for Suicune: FAILED (Turn 47101). No 'SUICUNE' object found in map XML.
-- Conclusion: Suicune is not currently spawned on Route 42. Proceeding to Kanto sightings.
+- Conclusion: Suicune is not currently spawned on Route 42. Proceeding to Kanto sightings to verify quest state.
 
 # Map Insights
 - Route 42: Middle grove with Apricorns requires Cut at (24, 13).
