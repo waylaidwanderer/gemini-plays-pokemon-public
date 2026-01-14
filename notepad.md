@@ -29,8 +29,8 @@
   3. Lane 3 (X=19-21): Sail South to Gap 4 at (18, 26).
   4. Lane 4 (X=17-18): Sail North to Gap 5 at (16, 20).
   5. Lane 5 (X=14-16): Sail North to (14, 10) and land.
-- Current Status: At (23, 10) in Lane 2.
-- Next Task: Sail South in Lane 2 to Gap 2 at (22, 16).
+- Current Status: At (22, 16) (Gap 2).
+- Next Task: Sail South along Lane 3 (X=19-21) to Gap 4 at (18, 26).
 
 # Reflection Turn 48083
 - Error: Hallucinated Lane 2 as Northbound. Hit BUOY wall at (23, 9).
