@@ -18,4 +18,6 @@
 - Start Time: Wednesday, Jan 14, 2026, 4:00 AM PST
 
 # Progress Update
-- Turn 47805: Position (26, 45). Plan: Use Super Repel, walk to (27, 45), Surf, sail to (26, 10).
+- Turn 47807: Stuck in menu at (26, 45). Plan: Close menu, move to (27, 44), use Super Repel, Surf, follow buoy spiral.
+- Buoy Spiral Gaps: (26, 10), (22, 16), (19, 14).
+- Landing Target: (14, 10).
