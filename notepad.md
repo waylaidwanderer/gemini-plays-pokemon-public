@@ -1,17 +1,18 @@
 # Mechanics & State
 - **Location:** Route 23 (Indigo Plateau).
 - **Goal:** Return to Johto (Goldenrod).
-- **Current Position:** Outside Indigo Plateau Entrance.
-- **Action:** Flying to Saffron City (Retry).
+- **Current Position:** Outside Indigo Plateau Entrance (9, 6).
+- **Action:** Retrying Fly to Saffron.
 - **Inventory Update:**
   - 20 Super Repels (Bought).
   - 16 Ultra Balls (Existing).
-- **Correction:** Previous Fly attempt failed (landed at Indigo Plateau).
+- **Correction:** Previous Fly attempt failed (selected Garnet instead of Mistral).
 - **Next Steps:**
-  1. Fly to Saffron.
-  2. Magnet Train to Goldenrod.
-  3. Fly to Ecruteak/Route 37.
-  4. Begin Roamer Hunt (Repel Trick Lvl 36).
+  1. Open Fly Map.
+  2. Navigate to Saffron City (CAREFULLY).
+  3. Magnet Train to Goldenrod.
+  4. Fly to Ecruteak/Route 37.
+  5. Begin Roamer Hunt (Repel Trick Lvl 36).
 - **Money:** ¥12294.
 
 # Directory Info (Celadon)
