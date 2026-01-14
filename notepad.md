@@ -36,3 +36,4 @@
 - Pathing: Cianwood city center is elevated; use the West Beach (X=2) or East Coast Surf for navigation to the North Plateau.
 - Pathing Failure: Attempting to walk from city center to West Beach (X=2) failed due to undetected FLOOR_UP_WALL tiles at Row 34/48.
 - Navigation: The "Beach Express" (X=2) corridor is not reachable from the city center.
+- Turn 48162: At (22, 16). find_path_v4 failed due to medium check on unseen tiles. Fixing tool with robust medium and ledge logic.
