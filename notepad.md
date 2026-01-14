@@ -2,17 +2,16 @@
 - **Location:** Route 23 (Indigo Plateau).
 - **Goal:** Return to Johto (Goldenrod).
 - **Current Position:** Route 23 (9, 10).
-- **Action:** Navigating Fly Map (Trying to reach Johto).
+- **Action:** Walking to Viridian City.
 - **Inventory Update:**
   - 20 Super Repels (Bought).
   - 16 Ultra Balls (Existing).
-- **Correction:** 'Right' blocked. 'Down' -> Cinnabar. 'Left' failed once (Verify?).
-- **Hypothesis:** Indigo is the bridge. Pressing 'Left' should reach Mt Silver/Johto.
+- **Correction:** Fly Map navigation failed/buggy from Indigo. Aborting Fly.
 - **Next Steps:**
-  1. Press Left x3.
-  2. If cursor moves to Johto (Silver Cave/New Bark), navigate to Goldenrod.
-  3. If cursor stays at Indigo, try Down -> Cinnabar -> Right (Force Kanto traversal).
-  4. If Fly impossible, WALK: Indigo -> Victory Road -> Route 26 -> Tohjo -> New Bark.
+  1. Walk South to Victory Road Gate -> Route 22 -> Viridian City.
+  2. Attempt Fly again from Viridian (or navigate to Saffron).
+  3. Magnet Train to Goldenrod.
+  4. Begin Roamer Hunt on Route 37.
 - **Money:** ¥12294.
 
 # Directory Info (Celadon)
