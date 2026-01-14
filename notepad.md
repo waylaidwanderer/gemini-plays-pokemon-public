@@ -34,4 +34,8 @@
     - Goals: Clear. Detour necessary for supplies.
     - Errors: Visual feedback needed for menu tools. Relying on walking for reliability.
 ## Goldenrod Dept Store
-- 2F: Trainer's Market (Standard items like Balls, Potions, Repels).
+- 2F: Trainer's Market.
+    - Top Clerk (13,5): Potions, Status Heals.
+    - Bottom Clerk (13,6): Balls, Rope, Repel (Standard), Revive, Full Heal, Doll, Mail.
+    - **NO Super Repels found on 2F.**
+- **Strategy:** Check Directory or higher floors.
