@@ -18,19 +18,20 @@
 - Item: Ultra Balls (32).
 - Backup: GORP (Snorlax) for tanking.
 
-# Strategic Plan: The Great Spiral (Turn 48206)
+# Strategic Plan: The Great Spiral
 - Goal: Trigger Suicune sighting at (14, 10).
+- Trek Start: Turn 48203.
 - Step 1: Reach Outer Channel at (27, 30). (Done)
-- Step 2: Use Super Repel. (In Progress)
+- Step 2: Use Super Repel. (Done)
 - Step 3: Navigate Buoy Maze Gaps:
-  - Gap 1: (26, 10)
+  - Gap 1: (26, 10) (In Progress)
   - Gap 2: (22, 16)
   - Gap 3: (19, 14)
 - Step 4: Land on North Plateau at (16, 14).
 - Step 5: Walk to (14, 10).
-- Status: Surfing at (27, 30). Heading to (26, 10).
 
-# Lessons Learned
-- Pathing: Cianwood is a fortress of plateaus. Land routes to the North Plateau are blocked by vertical cliffs.
-- Navigation: The Great Spiral is the only verified nautical path. Previous land route hypotheses failed due to impassable FLOOR_UP_WALL tiers.
-- Tool Maintenance: find_path_v4 refined for medium consistency and unseen tile handling.
+# Verified Gaps & Landmarks
+- Buoy Gaps: (26, 10), (22, 16), (19, 14), (18, 26), (16, 20).
+- Plateau Landing: (16, 11-14).
+- Sighting Spot: (14, 10).
+- City Center: Elevated plateau; land routes blocked by vertical cliffs.
