@@ -68,45 +68,6 @@
       }
     ]
   },
-  "find_path_crystal_v6": {
-    "description": "Shortest path algorithm for Pokemon Crystal. Handles FLOOR_UP_WALL (impassable north edge) and LEDGE (one-way south jump). Returns a JSON array of coordinates.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "autopress_buttons": {
-          "default": false,
-          "type": "boolean"
-        },
-        "start_x": {
-          "type": "integer"
-        },
-        "start_y": {
-          "type": "integer"
-        },
-        "target_x": {
-          "type": "integer"
-        },
-        "target_y": {
-          "type": "integer"
-        }
-      },
-      "required": [
-        "start_x",
-        "start_y",
-        "target_x",
-        "target_y",
-        "autopress_buttons"
-      ]
-    },
-    "python_script": "import json\nimport xml.etree.ElementTree as ET\nfrom collections import deque\nimport sys\n\ndef solve():\n    try:\n        # Use input_data injected by the harness\n        start_x = int(input_data['start_x'])\n        start_y = int(input_data['start_y'])\n        target_x = int(input_data['target_x'])\n        target_y = int(input_data['target_y'])\n        autopress = input_data.get('autopress_buttons', False)\n        \n        root = ET.fromstring(map_xml_string)\n        width = int(root.attrib['width'])\n        height = int(root.attrib['height'])\n        \n        grid = {}\n        # Pre-fill with assumption that unseen are walkable (for exploration)\n        for y in range(height):\n            for x in range(width):\n                grid[(x, y)] = True\n                \n        for row in root.findall('Row'):\n            y = int(row.attrib['id'])\n            for tile in row.findall('Tile'):\n                x = int(tile.attrib['id'])\n                t_type = tile.attrib['type']\n                has_obj = tile.attrib.get('has-object') == 'true'\n                seen = tile.attrib['seen'] == 'true'\n                \n                if seen:\n                    if t_type in ['WALL', 'BUOY', 'COUNTER', 'HEADBUTT_TREE', 'CUT_TREE', 'FRUIT_TREE']:\n                        grid[(x, y)] = False\n                    elif t_type == 'FLOOR_UP_WALL':\n                        grid[(x, y)] = 'UP_WALL'\n                    elif t_type == 'LEDGE_HOP_DOWN':\n                        grid[(x, y)] = 'LEDGE'\n                    else:\n                        grid[(x, y)] = True\n                        \n                    if has_obj:\n                        # Player tile is always walkable\n                        if not tile.find('Player') is not None:\n                            grid[(x, y)] = False\n\n        queue = deque([((start_x, start_y), [])])\n        visited = {(start_x, start_y)}\n        \n        while queue:\n            (cx, cy), path = queue.popleft()\n            \n            if (cx, cy) == (target_x, target_y):\n                res_path = path + [{\"x\": cx, \"y\": cy}]\n                if autopress:\n                    # Convert path to buttons\n                    buttons = []\n                    for i in range(len(res_path)-1):\n                        p1 = res_path[i]\n                        p2 = res_path[i+1]\n                        if p2['x'] > p1['x']: buttons.append('Right')\n                        elif p2['x'] < p1['x']: buttons.append('Left')\n                        elif p2['y'] > p1['y']: buttons.append('Down')\n                        elif p2['y'] < p1['y']: buttons.append('Up')\n                    print(json.dumps(buttons[:50]))\n                else:\n                    print(json.dumps(res_path))\n                return\n                \n            for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n                nx, ny = cx + dx, cy + dy\n                \n                if (nx, ny) in grid:\n                    val = grid[(nx, ny)]\n                    if val is False: continue\n                    \n                    # Crystal Collision Rules\n                    # 1. UP_WALL: Blocks movement across the top edge (entry from North, exit to North)\n                    if dy == 1 and val == 'UP_WALL': continue # Moving SOUTH into UP_WALL\n                    if dy == -1 and grid.get((cx, cy)) == 'UP_WALL': continue # Moving NORTH out of UP_WALL\n                    if dy == -1 and val == 'UP_WALL': continue # Moving NORTH into UP_WALL\n                    \n                    # 2. LEDGE_HOP_DOWN: One-way jump from North to South (blocks North entry)\n                    if dy == -1 and val == 'LEDGE': continue # Moving NORTH into LEDGE\n                    \n                    if (nx, ny) not in visited:\n                        visited.add((nx, ny))\n                        queue.append(((nx, ny), path + [{\"x\": cx, \"y\": cy}]))\n        \n        print('[]')\n        \n    except Exception as e:\n        print(json.dumps({\"error\": str(e)}))\n\nif __name__ == \"__main__\":\n    solve()",
-    "history": [
-      {
-        "commit_message": "Corrected collision logic for FLOOR_UP_WALL and LEDGE. Handles two-way top-edge blocking and one-way jumps.",
-        "timestamp": "2026-01-14T10:29:27.403Z",
-        "action_counter": 47586
-      }
-    ]
-  },
   "find_path_crystal_v7_final": {
     "description": "Shortest path algorithm for Pokemon Crystal. Handles FLOOR_UP_WALL and LEDGE, and Surf transitions. Returns a JSON array of buttons.",
     "input_schema": {

@@ -18,18 +18,11 @@
 - LEDGE_HOP_DOWN: One-way jump from NORTH to SOUTH.
 - COUNTER: Impassable.
 
-# Suicune Quest Strategy: 'The Gap Zig-Zag'
+# Suicune Quest Strategy: 'The South Loop'
 - Goal: Reach Suicune sighting area at (7, 4).
 - Pathing Logic:
-    1. Walk to (27, 44) and Surf.
-    2. Sail to (27, 10), then West to (25, 10) to cross the X=26 buoy wall.
-    3. Sail North to Row 8, then West to (21, 8) to cross the X=22 buoy wall.
-    4. Sail West to (18, 8) to cross the X=19 buoy wall.
-    5. Sail West to (7, 8), land, and walk to (7, 4).
+    1. Sail south to Row 21 to clear the X=19 wall at (19, 21).
+    2. Sail north and west to find a landing spot on the west side.
+    3. Navigate the ledge/wall maze to reach (7, 4).
 - Battle Strategy: Lead with XENON (Haunter) for Hypnosis. Be ready for Eusine.
-- Status: Moving to (27, 44).
-
-# Progress Tracking
-- Started North Beach Quest: Turn 47588.
-- Status: Navigating buoy maze.
-- Lessons: Trust Game State over visual ASCII for precise gaps. FLOOR_UP_WALL is a solid north-edge barrier.
+- Status: Surfing at (27, 10). Moving to (19, 21).
