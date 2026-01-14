@@ -1,9 +1,9 @@
 # Strategic Status
 - **Goal:** Register Raikou & Entei.
-- **Current Action:** Reapplying Repel.
+- **Current Action:** Using Super Repel.
 - **Location:** Route 37 (7, 3).
-- **Status:** Repel expired. Reapplying immediately.
-- **Repel:** Expired.
+- **Status:** In menu, applying Repel.
+- **Repel:** Being applied.
 - **Session Start:** Turn 38471.
 
 # Roamer Hunting Strategy (Blind)
