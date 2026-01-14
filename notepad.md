@@ -10,14 +10,18 @@
 - LEDGE_HOP_DOWN: One-way jump from NORTH to SOUTH.
 - COUNTER: Impassable.
 
-# Suicune Quest Strategy: 'The Great Buoy Loop'
-- Fact: The northern plateau is accessible via a series of gaps in the buoy walls. 
+# Suicune Quest Strategy: 'The Great Buoy Loop' (Refined)
+- Fact: The northern plateau is accessible via a spiral of buoy walls.
 - Verified Route (Water):
-    1. From (25, 10), sail south to Row 16 to bypass Column 26 and Column 22.
-    2. Sail north to Row 14 to bypass Column 19.
-    3. Sail north to Row 8 to bypass the Column 17 wall.
-    4. Sail west to (14, 8) and land at (14, 10).
-    5. Walk to Suicune at (7, 4).
+    1. Start at (29, 1) (Surfing).
+    2. Sail Down to (29, 10), then Left to (26, 10) (Gap 1).
+    3. Sail Left to (25, 10), then Down to (25, 16).
+    4. Sail Left to (22, 16) (Gap 2), then Left to (21, 16).
+    5. Sail Up to (21, 14), then Left to (19, 14) (Gap 3).
+    6. Sail Left to (18, 14), then North to (18, 10).
+    7. Sail West to (17, 10) and land at (16, 10) or (15, 10).
+    8. Walk to Suicune at (7, 4).
+- Note: If water route fails, re-verify (11, 15) gap.
 - Preparation: Lead with XENON (Haunter) for Hypnosis. Use SUPER REPEL.
 - Start Turn: 47680 (Suicune North Beach Quest)
 - Start Time: Wednesday, Jan 14, 2026, 4:00 AM PST
