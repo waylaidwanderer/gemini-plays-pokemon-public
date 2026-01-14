@@ -32,7 +32,7 @@
     - Status: PARTIALLY COMPLETED.
 - Hypothesis 3: Suicune appears only when entering the map from a specific side or after re-entering.
     - Test: Exit to Mahogany, then re-enter and approach the grove.
-    - Status: Ongoing (Heading to Mahogany).
+    - Status: Ongoing (Re-entering Route 42).
 - Hypothesis 4: Suicune is already at the next location (Kanto Route 25).
     - Test: Check Route 25 in Kanto.
     - Status: Pending.
