@@ -2,11 +2,13 @@
 - **Location:** Celadon Dept Store 2F.
 - **Goal:** Supply Run (Dept Store).
 - **Current Position:** At Clerk 2 (Right).
-- **Action:** Checking Clerk 2 inventory for Super Repels and Ultra Balls.
+- **Action:** Scrolling down to find Super Repels.
 - **Inventory Check (Celadon 2F):**
-  - Clerk 1 (Left): Potions, Revives (Confirmed).
-  - Clerk 2 (Right): Pending check.
-- **Shopping List:** Super Repels (~20), Ultra Balls.
+  - Clerk 1 (Left): Potions, Revives.
+  - Clerk 2 (Right): Balls, Escape Rope, Full Heal... (Checking rest).
+- **Shopping Priorities:**
+  1. Super Repels (Target: ~20, Cost: ~10k).
+  2. Ultra Balls (Current: 16. Buy more if cash permits).
 - **Money:** ¥12294.
 
 # Directory Info (Celadon)
