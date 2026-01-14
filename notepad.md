@@ -1,7 +1,7 @@
 # Strategic Status
 - **Goal:** Register Raikou & Entei.
 - **Current Action:** Resuming Grass Scan.
-- **Location:** Route 37 (7, 3).
+- **Location:** Route 37 (6, 3).
 - **Status:** Repel applied (200 steps). Exiting menu to run.
 - **Repel:** Active (200 steps).
 - **Session Start:** Turn 38471.
