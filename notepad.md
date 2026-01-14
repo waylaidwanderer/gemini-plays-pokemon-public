@@ -1,15 +1,15 @@
 # Tile Mechanics
-- FLOOR: Standard walkable ground. Verified traversable.
+- FLOOR: Standard walkable ground. Verified.
 - TALL_GRASS: Walkable, may trigger wild battles. Verified.
 - WATER: Traversable only while Surfing. 
 - WALL / BUOY: Impassable.
-- FLOOR_UP_WALL: Impassable from the NORTH (e.g., (6, 46)). Verified.
-- LEDGE_HOP_DOWN: One-way jump from NORTH to SOUTH. Impassable from the SOUTH. Verified.
+- FLOOR_UP_WALL: Impassable from the NORTH. Verified.
+- LEDGE_HOP_DOWN: One-way jump from NORTH to SOUTH. Verified.
 - HEADBUTT_TREE: Impassable.
-- CUT_TREE: Impassable (becomes FLOOR when cut). Verified regrows on map exit.
+- CUT_TREE: Impassable (becomes FLOOR when cut). Verified.
 - FRUIT_TREE: Impassable. Interact to obtain Apricorns. Verified.
-- CAVE / WARP_CARPET: Warp to another map (e.g. Mt. Mortar, Gatehouse).
-- COUNTER: Impassable. Used to interact with NPCs from an adjacent tile.
+- CAVE / WARP_CARPET: Warp to another map.
+- COUNTER: Impassable. Used to interact with NPCs.
 
 # Suicune Quest
 - Status: 16 Badges, Clear Bell in inventory.
@@ -17,7 +17,7 @@
 - Sighting Progress (Sequential):
     1. Burned Tower (DONE)
     2. Cianwood City (DONE - Confirmed Turn 47347)
-    3. Route 42 (Middle Grove) - PENDING (Trigger missed or requires specific approach)
+    3. Route 42 (Middle Grove) - PENDING (Trigger tile missed or requires specific approach)
     4. Route 25 (Kanto, near Bill's House) - LOCKED
 - Strategy:
     - Sighting order is strictly linear: Burned Tower -> Cianwood -> Route 42 -> Route 25 -> Tin Tower.
@@ -29,7 +29,8 @@
     - Approach the center of the grove (approx. (28, 15)) to trigger Suicune fleeing.
 - General Lessons:
     - Route 36 is NOT a Suicune sighting location in Pokemon Crystal.
-    - Fly Tool: 'fly_list_navigator_v3_fixed' is now calibrated for Johto (Up increases index).
+    - Red is NOT defeated (Team levels Lv19-64). Victory over Red requires higher levels.
+    - Fly Tool: 'fly_list_navigator_v3_fixed' calibrated for Johto (Up increases index).
 
 # PC Storage (Box 1)
 - DAPXWW (LARVITAR): Lv20
