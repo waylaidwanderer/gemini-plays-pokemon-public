@@ -1,8 +1,8 @@
 # Strategic Status
 - **Goal:** Register Raikou & Entei.
-- **Current Action:** Clearing Phone Call (Wade).
+- **Current Action:** Checking Roamers on Route 37 (Retry after Phone Call).
 - **Location:** Route 37 (North Entrance).
-- **Status:** Phone call interrupted Map Check. Clearing dialogue.
+- **Status:** Phone call cleared. Opening Map to check positions.
 
 # Roamer Hunting Strategy (Route 37)
 1.  **Setup:** 
