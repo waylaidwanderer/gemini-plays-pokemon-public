@@ -11,18 +11,20 @@
 - LEDGE_HOP_DOWN: One-way jump from NORTH to SOUTH.
 - COUNTER: Impassable.
 
-# Suicune Quest Strategy: 'The Great Buoy Spiral' (Final)
-- Fact: The northern plateau (Suicune area) is isolated by a spiral of buoy walls.
-- Verified Route (Water):
-    1. Pass Gap 1 at (26, 10). (Completed)
-    2. Pass Gap 2 at (22, 16).
-    3. Sail North to Y=11, then West past X=19 (Wall 5).
-    4. Land at (16, 11) or (14, 10).
-    5. Walk to Suicune at (7, 4).
+# Suicune Quest Strategy: 'The Western Land Route'
+- Observation: The northern plateau is unreachable via the buoy spiral from the east side of Wall 1 (X=26).
+- The western side of the map (X=0-2) is a clear corridor north to Suicune.
+- Route:
+    1. Fly to Cianwood City (23, 44).
+    2. Walk to (4, 19).
+    3. Walk South to (4, 21) (through FLOOR_UP_WALL at 4, 20).
+    4. Walk West to (2, 21).
+    5. Walk North to (2, 4).
+    6. Walk East to Suicune at (7, 4).
 - Preparation: Lead with XENON (Haunter) for Hypnosis. Use SUPER REPEL.
 - Start Turn: 47680 (Suicune North Beach Quest)
 - Start Time: Wednesday, Jan 14, 2026, 4:00 AM PST
 
 # Progress Log
-- Attempt 1-15: Navigated to (27, 8) but realized it's a dead end east of Wall 1.
-- Attempt 16 (Turn 47777): Returning to (25, 10) to enter the inner water. Target: (14, 10).
+- Attempt 1-16: Tried various buoy loop routes. All blocked or dead ends.
+- Attempt 17 (Turn 47778): Flying to Cianwood to reset and take the Western Land Route. Target: (7, 4).
