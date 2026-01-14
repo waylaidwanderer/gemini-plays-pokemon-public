@@ -1,9 +1,9 @@
 # Strategic Status
 - **Goal:** Register Raikou & Entei.
-- **Current Action:** Using Super Repel.
+- **Current Action:** Resuming Grass Scan.
 - **Location:** Route 37 (6, 3).
-- **Status:** In menu, applying Repel (Attempt 2 after call).
-- **Repel:** Being applied.
+- **Status:** Repel successfully applied (15 left). Exiting menu to run.
+- **Repel:** Active (200 steps).
 - **Note:** Bug-Catching Contest is active today (Tuesday).
 - **Session Start:** Turn 38471.
 
