@@ -3,7 +3,7 @@
 - WATER: Traversable only while Surfing (requires HM03).
 - BUOY: Impassable water obstacle.
 - WALL: Impassable obstacle.
-- FLOOR_UP_WALL: One-way barrier. Blocks movement Down (South) into the tile and Up (North) out of the tile.
+- FLOOR_UP_WALL: One-way barrier (Ledge). Blocks movement Up (North) and usually allows jumping Down (South).
 - LEDGE_HOP_DOWN: One-way jump South.
 - LEDGE_HOP_RIGHT: One-way jump East.
 - Interaction: To Surf, face WATER from an adjacent FLOOR tile and press A. Stepping onto FLOOR from WATER automatically ends Surfing.
@@ -13,9 +13,10 @@
 - Current Objective: Cianwood City sighting at (7, 4).
 - Start Turn: 46373.
 - Strategy (The "How"):
-    1. Walk North: (11, 21) -> (11, 11).
-    2. Walk West: (11, 11) -> (7, 11).
-    3. Walk North: (7, 11) -> (7, 4) for the sighting (cutscene only, no battle).
+    1. Walk West/South: (11, 21) -> (6, 21) -> (6, 33).
+    2. Jump Ledge: (6, 33) -> (6, 35).
+    3. Walk West/North: (6, 35) -> (2, 35) -> (2, 14) -> (7, 14) -> (7, 4).
+- Note: Suicune in Cianwood is a sighting event, not a battle.
 
 # Strategy: Capture all Legendary Pokemon
 - Requirements: Clear Bell (Owned), 16 Badges (Owned).
