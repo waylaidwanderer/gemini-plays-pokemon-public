@@ -18,24 +18,23 @@
 - Item: Ultra Balls (32).
 - Backup: GORP (Snorlax) for tanking.
 
-# Strategic Plan: The Great Spiral (Turn 48223)
+# Strategic Plan: The Great Spiral
 - Goal: Trigger Suicune sighting at (14, 10).
 - Trek Start: Turn 48203.
 - Step 1: Reach Outer Channel at (27, 30). (Done)
 - Step 2: Use Super Repel. (Done)
 - Step 3: Navigate Buoy Maze Gaps:
-  - Gap 1: (22, 16) - Outer to Inner Channel. (In Progress)
-  - Gap 2: (19, 14) - Inner to Approach Channel.
-  - Gap 3: (18, 14) - Clear X=18 buoy line.
-  - Gap 4: (17, 11) - Clear X=17 wall (Hypothesized).
+  - Gap 1: (26, 10) (Done)
+  - Gap 2: (22, 16) (Done)
+  - Gap 3: (18, 26) (In Progress)
+  - Gap 4: (19, 14)
 - Step 4: Land on North Plateau at (16, 11).
 - Step 5: Walk to (14, 10).
 
-# Verified Landmarks
-- Gaps: (26, 10), (22, 16), (19, 14), (18, 14).
+# Verified Landmarks & Gaps
+- Buoy Gaps: (26, 10), (22, 16), (18, 26), (19, 14).
 - Plateau Landing: (16, 11-14).
 - Sighting Spot: (14, 10).
-- Land Shortcut (Backup): Reach Row 51 via (20, 50), walk West to X=2, then North.
 
 # Custom Tools (Technical Details)
 - find_path_v4: BFS pathfinder. Handles LAND vs WATER medium consistency. Treats unseen tiles as traversable within the starting medium. Handles LEDGE_HOP_DOWN as one-way (dy=1).
