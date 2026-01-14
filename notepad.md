@@ -28,9 +28,11 @@
 - Strategy & Lessons:
     - Visit sighting spots in order. Quest is strictly linear.
     - Lesson: Suicune is a static land sprite; water sweeps are ineffective.
+    - Lesson: Missing a Johto sighting (e.g., Route 42) blocks all subsequent sightings in Kanto and the Tin Tower event.
 - Backtracking Plan (HOW):
     - Fly to Ecruteak, head East to the grove near the 3 Apricorn trees on Route 42.
     - Ensure KIMCHI has Cut for the tree at (24, 13).
+    - Approach the grove center to trigger Suicune.
     - Return to Kanto (Fuchsia City) after Johto sighting.
 
 # PC Storage (Box 1)
