@@ -13,7 +13,7 @@
         - **Gyarados:** Defeated.
         - **Aerodactyl:** Defeated.
         - **Charizard:** Defeated.
-        - **Dragonite (Lv 47):** **Ice Punch** (4x). [SELECTING]
+        - **Dragonite (Lv 47):** **Ice Punch** (4x). [EXECUTING]
         - **Dragonite (Lv 47):** Ice Punch (4x).
         - **Dragonite (Lv 50):** Ice Punch (4x).
 - **Goal:** Farm money.
