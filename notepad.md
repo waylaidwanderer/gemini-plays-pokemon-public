@@ -21,12 +21,10 @@
 
 # Strategic Plan: The West Beach Sprint
 - Start Turn: 48151.
-- Step 1: Land at (19, 30). (In Progress)
-- Step 2: Walk to (19, 35).
-- Step 3: Walk West along Row 35 to (2, 35) via the gap at (5, 35).
-- Step 4: Walk North along X=2 to Row 10.
-- Step 5: Walk East along Row 10 to (14, 10) to trigger Suicune.
-- Status: XENON leading, Repel active.
+- Step 1: Land at (19, 30). (Done)
+- Step 2: Walk to Suicune sighting spot at (14, 10) via land route. (In Progress)
+- Route: (19, 30) -> (19, 32) -> (9, 32) -> (9, 33) -> (6, 33) -> (6, 35) -> (5, 35) -> (2, 35) -> (2, 14) -> (8, 14) -> (8, 12) -> (14, 10).
+- Status: XENON leading, Repel active, Pokefan M (ID 2) stunned.
 
 # Lessons Learned
 - Pathing: The city center is a plateau; land routes to the west beach exist via the gap at (5, 35).
