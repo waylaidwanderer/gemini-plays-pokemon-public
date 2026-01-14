@@ -24,3 +24,8 @@
 - Sighting 2: Cianwood City (In Progress)
 - Battle Strategy: Use XENON (Haunter) to inflict Hypnosis. Switch to a lower-level Pokemon if needed to chip HP, or use Night Shade for fixed damage.
 - Current Status: Stagnated for 70 turns trying to find a land path. Switching to full manual exploration of the eastern water channel.
+
+# Suicune Quest - Movement Test (Turn 47526)
+- Hypothesis: FLOOR_UP_WALL tiles (like at (6, 46)) can be entered from the NORTH (moving SOUTH). This allows a southern detour to reach the west path (X=2).
+- Test: Navigate to (6, 45) and attempt to move DOWN to (6, 46).
+- Rationale: The northern part of the island is blocked by a wall at Row 15. The west path (X=2) is the only land route to the north beach.
