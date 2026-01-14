@@ -1,8 +1,8 @@
 # Mechanics & State
 - **Location:** Goldenrod Magnet Train Station.
 - **Goal:** Go to Celadon (Kanto).
-- **Current Position:** (11, 10) - Inside Station.
-- **Action:** Showing Pass to Officer at (9, 9).
+- **Current Position:** (9, 10) - At Gate.
+- **Action:** Confirming "YES" to board train.
 - **Key Item:** Pass (Have).
 - **Inventory Check:**
   - Goldenrod had no Super Repels.
@@ -13,14 +13,14 @@
 
 # Travel Plan
 1. Enter Station (Done).
-2. Show Pass to Officer (Current).
-3. Board Train.
+2. Show Pass to Officer (Done).
+3. Board Train (Current).
 4. Arrive Saffron City.
 5. Go to Celadon Dept Store.
 
 # Current Task: Roamer Hunt
-- **Status:** Boarding Train.
-- **Next Step:** Talk to Officer -> Board Train.
+- **Status:** Transit to Kanto.
+- **Next Step:** Watch Train Animation -> Arrive Saffron.
 
 # Progress
 - **Badges:** 16/16.
