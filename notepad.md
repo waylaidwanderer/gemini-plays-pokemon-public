@@ -8,14 +8,11 @@
 - Interaction: To Surf, face WATER from an adjacent FLOOR tile and press A. Stepping onto FLOOR from WATER automatically ends Surfing.
 
 # Suicune Quest
-- Status: Tracking sightings in Johto.
 - Current Objective: Cianwood City sighting at (7, 4).
-- Strategy:
-    1. Reach Surf Point: (11, 19) -> (13, 19) -> (13, 16).
-    2. Eastern Sea Loop: Surf (14, 16) -> South to Y=26 -> East to X=23 -> North to Y=11 -> West to (17, 11).
-    3. Landing: Land at (16, 11).
-    4. Sighting: Walk (16, 11) -> (7, 11) -> (7, 4).
-- Note: This is a sighting event, not a battle. Suicune will run away.
+- Phase 1: Reach East Coast Surf Point at (19, 30) via the gap at (11, 15).
+- Phase 2: Surf North around the buoy barrier (X=23, Y=8 loop).
+- Phase 3: Land at (16, 11) and walk to (7, 4).
+- Note: This is a sighting event, not a battle. Suicune will flee.
 
 # Strategy: Capture all Legendary Pokemon
 - Requirements: Clear Bell (Owned), 16 Badges (Owned).
