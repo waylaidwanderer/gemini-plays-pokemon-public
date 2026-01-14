@@ -13,16 +13,17 @@
 - (11, 15): Gap in the city wall (Y=15). Accesses the beach area but not the plateau.
 
 # Quest Strategies
-## Suicune: 'The Beach Shortcut' (Bypasses the Spiral)
-- Discovery: The buoy spiral can be completely bypassed by walking on the southern beach.
+## Suicune: 'The Western Land Bridge' (Bypasses Everything)
+- Discovery: The northern plateau (Suicune's spot) is connected to the western beach, which can be reached on land by navigating gaps in the city's internal walls.
 - Route:
-    1. Walk to the southern beach area (around Y=30).
-    2. Move west on land from (19, 30) to (15, 30).
-    3. Use Surf at (15, 30) or (16, 29).
-    4. Sail North along the western edge of the buoy walls (X=14 or X=15) to the landing spot at (14, 10).
-    5. Walk to Suicune sighting spot at (7, 4).
-- Fact: This avoids all zig-zagging and is much faster.
-- Preparation: Lead with XENON (Haunter). Use SUPER REPEL.
+    1. From (13, 19), walk West to (11, 19).
+    2. Walk South to (11, 21) to enter the southern beach area.
+    3. Walk West to (2, 21), passing through the gap in the X=3 wall (Y=20-22).
+    4. Walk North along the western edge (X=2) to Y=14.
+    5. Walk East to (8, 14) to enter the plateau area.
+    6. Walk North to (14, 10) to reach the sighting spot.
+- Fact: This is a 100% land-based route that ignores buoys, surfing, and repels.
+- Preparation: Lead with XENON (Haunter).
 - Start Turn: 47680 (Suicune North Beach Quest)
 - Start Time: Wednesday, Jan 14, 2026, 4:00 AM PST
 
