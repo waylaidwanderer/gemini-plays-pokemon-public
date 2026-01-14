@@ -15,6 +15,6 @@
         - **Charizard:** Defeated.
         - **Dragonite (Lv 47):** Defeated.
         - **Dragonite (Lv 47):** Defeated.
-        - **Dragonite (Lv 50):** **Ice Punch** (4x). [INCOMING]
+        - **Dragonite (Lv 50):** **Ice Punch** (4x). [CURRENT TARGET]
 - **Goal:** Farm money.
 - **Resources:** ¥29144.
