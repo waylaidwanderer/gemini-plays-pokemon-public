@@ -22,7 +22,7 @@
 - **Session Start:** Turn 38471.
 - **Active Events:** Bug-Catching Contest (Tuesday).
 - **Roamer Logic:** Roamers move to an adjacent map when the player transitions maps. 'Blind Interception' relies on them moving *into* your map as you enter.
-- **Detour to Goldenrod:** Started Turn 39093. Arrived.
+- **Detour to Goldenrod:** Started Turn 39093. Arrived. Found no Super Repels.
 
 ## Goldenrod Dept Store
 - 2F: Trainer's Market (Standard Repels only).
