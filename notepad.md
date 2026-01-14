@@ -61,20 +61,20 @@
   - Lake of Rage: (10, 3)
   - Blackthorn: (14, 5)
 - Navigation from Cherrygrove (12, 10) to Cianwood (0, 9): 12 Lefts, 1 Up.
-- Status: At (25, 5) in Cherrygrove; Fly map open. Testing discrete grid movement vs. coordinate movement.
+- Status: At (25, 5) in Cherrygrove; Fly map open. Cursor on New Bark Town (14, 10).
 - Failed Fly attempts: 56 (Reason: Inputs dropped or coordinate math mismatch).
-- Flight Plan: Press Left with 1s sleeps to determine if 1 press = 1 city.
-- Timestamp: Turn 48002. Quest started Turn 47680.
+- Flight Plan: Define and use fly_to_city_stable tool with 300ms delays.
+- Timestamp: Turn 48003. Quest started Turn 47680.
 
 # Tile Mechanics
 - FLOOR: Standard walkable ground. Verified at (25, 5) in Cherrygrove.
 - WATER: Traversable only via Surf.
 - BUOY: Impassable water obstacle.
 - WALL: Impassable obstacle.
-- FLOOR_UP_WALL: Represents a ledge face. Impassable from ALL directions.
-- LEDGE_HOP_DOWN: One-way jump from NORTH to SOUTH.
-- (11, 14): Dead End Pocket. Wall at (11, 13) and (12, 14) blocks access to the north plateau.
-- (11, 15): Gap in the city wall (Y=15). Accesses the beach area but not the plateau.
+- HEADBUTT_TREE: Special tree that can be interacted with using Headbutt.
+- DOOR: Warp point to an interior.
+- (11, 14): Dead End Pocket in Cianwood. Wall at (11, 13) and (12, 14) blocks access to the north plateau.
+- (11, 15): Gap in the city wall (Y=15) in Cianwood. Accesses the beach area but not the plateau. Verified in Turn 47337.
 
 # Hypotheses
 ## Land Route to Suicune (The 'Gem Shortcut')
