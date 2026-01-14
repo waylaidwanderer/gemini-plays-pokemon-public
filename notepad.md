@@ -45,3 +45,7 @@
 - Success Condition: Reaching (7, 4) and triggering the Suicune sighting.
 - Failed Attempts: 0
 - Status: Testing.
+
+# General Lessons
+- Wild Encounters & Pathing: A "Movement Blocked" error during navigation often indicates a wild encounter triggered on that step. It doesn't necessarily mean the tile is impassable.
+- Buoy Maze Navigation: When surfing in narrow channels, wild encounters are frequent. Maintain Super Repel and be prepared to resume the path after running.
