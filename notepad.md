@@ -4,14 +4,13 @@
 # Strategic Status
 - **Goal:** Register Raikou & Entei.
 - **Current Task:** Farm money at Elite Four -> Buy Max Repels (20x).
-- **Location:** Koga's Room (Elite Four).
-- **Action:** Initiating battle with Koga.
+- **Location:** Bruno's Room (Elite Four).
+- **Action:** Battling Bruno (Hitmontop).
 - **Battle Plan:**
-    - **Cursor Memory:** Ice Punch (Slot 3).
-    - **Lead (Ariados):** Use **Strength** (Neutral, High Dmg).
-        - Nav: From Ice Punch (3) -> Up x2 -> Strength (1).
-    - **Forretress:** Switch to Cross Chop (4).
-    - **Muk/Venomoth:** Strength or Thunderpunch.
-    - **Crobat:** Ice Punch or Thunderpunch.
+    - **Lead:** Gyarados -> Switch to Machoke (Lv 89).
+    - **Hitmontop:** **Strength** (Slot 1).
+    - **Hitmonchan/Lee:** **Strength**.
+    - **Onix:** **Ice Punch** (Slot 3).
+    - **Machamp:** **Strength** or **Cross Chop**.
 - **Goal:** Farm money.
-- **Resources:** ¥8594.
+- **Resources:** ¥15194.
