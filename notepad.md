@@ -1,11 +1,14 @@
 # Suicune Quest
 - Objective: Trigger sighting in Cianwood City at the northern shore.
-- Strategy: The Southern promenade (Verified Path)
-    1. Surf South to (20, 51) and land at (19, 51).
-    2. Walk West along Row 51 to the West Coast corridor at X=2.
-    3. Walk North along X=2 to Y=4.
-    4. Walk East to (7, 4) to trigger the sighting.
-- Note: Internal city walls at X=5, 7, 9, 11, 12 and buoy walls at X=16, 18, 19, 22 block most routes. Row 51 is a confirmed horizontal thoroughfare.
+- Strategy: The Secret Land Path (Verified)
+    1. Land at (19, 30).
+    2. Walk West to (12, 30), then South to (12, 34).
+    3. Walk West to (10, 34), then North to (10, 33).
+    4. Walk West to (8, 33), then South to (8, 35).
+    5. Walk West to the West Coast corridor at (2, 35).
+    6. Walk North along X=2 to Row 4.
+    7. Walk East to (7, 4) to trigger the sighting.
+- Note: This path uses confirmed gaps in the city's internal walls (Row 33, 34, 35) and avoids all ledges. X=2 is the primary north-south thoroughfare.
 - Suicune sighting count = 1.
 
 # Tile Mechanics (Verified)
@@ -18,6 +21,6 @@
 
 # Lessons Learned
 - Cianwood's ledges are impassable from the north.
-- Internal walls divide the city into vertical strips. Row 51 is the only clear path between them.
-- Zig-zag buoy lines block the eastern sea. Surf south to bypass them.
-- Always reveal 'unseen' tiles manually before planning long routes.
+- Internal walls divide the city into strips. Gaps exist at Row 33 (X=9), Row 34 (X=11, X=3), and Row 35 (X=7, X=5).
+- The West Coast corridor (X=2) is the only clear path to the northern shore.
+- Do not trust pathfinders that assume 'unseen' tiles are passable. Reveal tiles manually.
