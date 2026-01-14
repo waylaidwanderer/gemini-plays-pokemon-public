@@ -32,4 +32,7 @@
 # Suicune sighting on Route 42 Hypothesis
 - Hypothesis: Interacting with the area at (26, 15) triggers the third sighting.
 - Test: Navigate to (26, 15) and observe if Suicune appears.
+- Conclusion: DENIED (Walking through (26, 15) did not trigger the event).
+- New Hypothesis: The sighting trigger is further east on Route 42 or near the water.
+- Test: Walk/Surf east towards Mahogany Town and observe.
 - Conclusion: PENDING
