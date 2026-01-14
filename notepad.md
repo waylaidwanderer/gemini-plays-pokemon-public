@@ -30,4 +30,5 @@
 - Attempt 6 (Turn 47761): Return to water. Chad called.
 - Attempt 7 (Turn 47763): Marked ROCK at (10, 27). Initiating Surf at (14, 27).
 - Attempt 8 (Turn 47764): Confirmed Surf.
-- Attempt 9 (Turn 47765): Clearing "SURF!" text. Target: (26, 10) (Gap 1).
+- Attempt 9 (Turn 47765): Surfed at (14, 27). Pathfinder moved to (19, 30) and used Surf again.
+- Attempt 10 (Turn 47767): Cleared Surf text at (19, 30). Target: (26, 10) (Gap 1).
