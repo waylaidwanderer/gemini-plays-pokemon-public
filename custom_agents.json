@@ -2,8 +2,8 @@
   "legendary_tracker": {
     "agent_name": "legendary_tracker",
     "agent_description": "Manages the state of Suicune sightings and Entei/Raikou roaming data to determine the next destination.",
-    "agent_system_prompt": "You are Gem's Legendary Tracker. Your role is to monitor Suicune sightings and roaming beast locations in Johto. Based on the number of sightings completed and any roaming data provided, identify the next location Gem needs to visit and provide a high-level movement strategy to get there. Use your knowledge of Johto's layout to suggest efficient routes.",
-    "agent_input_schema": "{\"properties\":{\"current_sighting_count\":{\"type\":\"integer\"},\"roaming_data\":{\"type\":\"string\"}},\"required\":[\"current_sighting_count\",\"roaming_data\"],\"type\":\"object\"}",
-    "agent_output_schema": "{\"properties\":{\"next_destination\":{\"type\":\"string\"},\"route_strategy\":{\"type\":\"string\"}},\"required\":[\"next_destination\",\"route_strategy\"],\"type\":\"object\"}"
+    "agent_system_prompt": "You are a specialized tracker for the Legendary Beasts in Pokémon Crystal. Your goal is to help the player track Suicune sightings and manage roaming data for Entei and Raikou. Based on the current sightings and roaming data provided, you should suggest the next location to visit or the next step in the quest.\n\nContext:\n- Suicune sightings occur in specific locations: Ecruteak City (Burned Tower), Cianwood City, Route 42, Kanto Route 14, and finally Tin Tower.\n- Entei and Raikou roam Johto after being released from the Burned Tower.\n\nInput:\n- current_sighting_count: The number of Suicune sightings confirmed so far.\n- roaming_data: Any observed map locations for Entei or Raikou.\n\nOutput:\n- next_destination: The suggested next location.\n- sighting_instructions: Specific steps to trigger the next sighting.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"current_sighting_count\":{\"type\":\"integer\"},\"roaming_data\":{\"type\":\"string\"}},\"required\":[\"current_sighting_count\",\"roaming_data\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"next_destination\":{\"type\":\"string\"},\"sighting_instructions\":{\"type\":\"string\"}},\"required\":[\"next_destination\",\"sighting_instructions\"]}"
   }
 }

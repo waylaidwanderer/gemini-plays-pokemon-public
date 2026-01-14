@@ -11,12 +11,13 @@
 - Start Turn: 46650
 - Objective: Trigger sighting in Cianwood City at (7, 4).
 - Strategy:
-    1. Walk north to (12, 19).
-    2. Walk west to (4, 19).
-    3. Jump south over the ledge at (4, 20) to land at (4, 21).
-    4. Walk west to (2, 21).
-    5. Walk north along X=2 to Y=4.
-    6. Walk east to (7, 4) to trigger the sighting.
+    1. Mechanic Verification: Test ledge jumping at (6, 34) with manual press_buttons.
+    2. Walk north to (12, 19).
+    3. Walk west to (4, 19).
+    4. Jump south over the ledge at (4, 20) to land at (4, 21).
+    5. Walk west to (2, 21).
+    6. Walk north along X=2 to Y=4.
+    7. Walk east to (7, 4) to trigger the sighting.
 - Note: This path bypasses the main city walls and ledges that block direct northern access. X=2 is the key north-south corridor.
 
 # Roaming Beast Data
@@ -27,14 +28,6 @@
 # Strategy: Capture all Legendary Pokemon
 - Requirements: Clear Bell (Owned), 16 Badges (Owned).
 - Plan: Complete sightings -> Tin Tower -> Capture Suicune (Lv 40).
-
-# Pokemon Movesets
-- XENON (Haunter): Hypnosis, Confuse Ray, Night Shade, Dream Eater.
-- Calcifer (Typhlosion): Flamethrower, Return, Smokescreen, Thunderpunch.
-- KIMCHI (Gloom): Flash, Petal Dance, Cut, Sleep Powder.
-- GNEISS (Graveler): Earthquake, Defense Curl, Strength, Rollout.
-- GORP (Snorlax): Surf, Rest, Body Slam, Rollout.
-- ICARUS (Pidgeotto): Fly, Sand-Attack, Gust, Quick Attack.
 
 # Lessons Learned
 - Verify "gaps" in walls and buoy lines using tools like run_code or pathfinders before committing to long detours. My assumption of a solid wall led to a 100+ turn detour that was unnecessary.
