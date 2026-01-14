@@ -3,15 +3,15 @@
 - **Goal:** Return to Johto.
 - **Current Position:** (24, 30).
 - **Fly Map Cursor:** Viridian City.
-- **Action:** Navigating Fly Map (Up -> Right -> Down).
+- **Action:** Flying to Pewter City (Up -> A).
 - **Inventory Update:**
   - 19 Super Repels (Active).
   - 16 Ultra Balls (Existing).
 - **Route Plan:**
-  1. Viridian -> Pewter (Up).
-  2. Pewter -> Cerulean (Right).
-  3. Cerulean -> Saffron (Down).
-  4. Verify Saffron -> Fly.
+  1. Fly to Pewter City (Reset Map Origin).
+  2. From Pewter: Fly to Saffron (Right -> Down).
+  3. Saffron -> Magnet Train -> Goldenrod.
+  4. Fly to Ecruteak/Route 37.
 - **Money:** ¥2294.
 
 # Directory Info (Celadon)
