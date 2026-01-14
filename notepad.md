@@ -10,17 +10,18 @@
 - LEDGE_HOP_DOWN: One-way jump from NORTH to SOUTH.
 - COUNTER: Impassable.
 
-# Suicune Quest Strategy: 'The Southern Land Bypass'
+# Suicune Quest Strategy: 'The Great Buoy Loop'
 - Goal: Reach Suicune at (7, 4).
-- Fact: The north beach (14, 10) is isolated by walls and buoys. The city is a maze of one-way ledges (FLOOR_UP_WALL).
-- Verified Route:
-    1. Land at (19, 30).
-    2. Walk to (12, 30) -> (12, 49). (Bypasses northern ledges)
-    3. Walk to (21, 49) -> (21, 51). (Bypasses Row 50 ledges)
-    4. Walk to (4, 51) -> (4, 49) -> (2, 49). (Reaches the far west coast)
-    5. Walk North to (2, 14). (Clear path to the plateau)
-    6. Walk to (14, 10) and then (7, 4).
+- Fact: The northern plateau (Row 0-14, X=10-16) is isolated by walls and buoys.
+- Verified Route (Water):
+    1. From (19, 30), Surf into (19, 29).
+    2. Sail East to (27, 29), then North to (27, 10).
+    3. Sail West through gap at (26, 10) to reach (21, 10).
+    4. Sail North to Row 8 (Gap in X=22 wall).
+    5. Sail West to (14, 8).
+    6. Sail South to (14, 10) and LAND.
+    7. Walk to Suicune at (7, 4).
 - Preparation: Lead with XENON (Haunter) for Hypnosis. Use SUPER REPEL.
-- Status: At (19, 21) surfing. Moving south to land.
+- Status: At (19, 30) on land. Starting the buoy loop.
 - Start Turn: 47680 (Suicune North Beach Quest)
 - Start Time: Wednesday, Jan 14, 2026, 4:00 AM PST
