@@ -1,8 +1,8 @@
 # Strategic Status
 - **Goal:** Register Raikou & Entei.
-- **Current Action:** Cycling Maps (Route 37 -> Ecruteak -> Route 37).
-- **Location:** Route 37 (North Edge).
-- **Status:** Roamers checked (Not here). Entering Ecruteak to reset positions.
+- **Current Action:** Cycling Maps (Ecruteak -> Route 37).
+- **Location:** Ecruteak City (South Entrance).
+- **Status:** Map reset. Returning to Route 37 to check positions.
 
 # Roamer Hunting Strategy (Route 37)
 1.  **Setup:** 
