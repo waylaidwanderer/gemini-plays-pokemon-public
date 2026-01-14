@@ -1,4 +1,106 @@
 {
+  "navigate_fly_map": {
+    "description": "Navigates the Fly map (or any menu) by pressing a direction multiple times with a specified delay between presses to ensure registration.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "direction": {
+          "type": "string",
+          "enum": [
+            "Up",
+            "Down",
+            "Left",
+            "Right"
+          ]
+        },
+        "times": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 20
+        },
+        "delay_ms": {
+          "type": "integer",
+          "default": 200
+        }
+      },
+      "required": [
+        "direction",
+        "times"
+      ]
+    },
+    "python_script": "import json\n\n# Access input arguments from the injected input_data dictionary\ndirection = input_data['direction']\ntimes = int(input_data['times'])\ndelay_ms = int(input_data.get('delay_ms', 200))\n\nbuttons = []\nfor _ in range(times):\n    buttons.append(direction)\n    if delay_ms > 0:\n        buttons.append(f\"sleep {delay_ms}\")\n\nprint(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-13T22:57:08.418Z",
+        "action_counter": 38053
+      },
+      {
+        "commit_message": "Fixed missing json import in navigate_fly_map tool.",
+        "timestamp": "2026-01-13T22:57:56.773Z",
+        "action_counter": 38055
+      },
+      {
+        "commit_message": "Fixed missing json import in navigate_fly_map tool.",
+        "timestamp": "2026-01-13T22:58:11.744Z",
+        "action_counter": 38056
+      },
+      {
+        "commit_message": "Fixed input handling by accessing the 'input_data' dictionary instead of expecting undefined global variables.",
+        "timestamp": "2026-01-13T22:58:36.230Z",
+        "action_counter": 38057
+      }
+    ]
+  },
+  "open_map": {
+    "description": "Opens the Pokegear and navigates to the Map card. Assumes the main menu cursor is already on 'POKEGEAR' (last used). Uses a 'Left, Left, Left, Right' sequence inside Pokegear to reliably select the Map regardless of previous cursor position (Back, Map, Phone, Radio). Includes safety 'B' presses and sleep delays.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "autopress_buttons": {
+          "type": "boolean",
+          "default": false,
+          "description": "If true and the tool returns a list of buttons, they will be pressed automatically. Safety limit of 50 buttons per turn."
+        }
+      },
+      "required": [
+        "autopress_buttons"
+      ]
+    },
+    "python_script": "print('[\"B\", \"B\", \"Start\", \"sleep 500\", \"A\", \"sleep 500\", \"Left\", \"Left\", \"Left\", \"Right\", \"sleep 500\", \"A\"]')",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-12T18:35:50.856Z",
+        "action_counter": 36061
+      },
+      {
+        "commit_message": "Updated to include 'B' presses to ensure menus are closed and added sleep delays for reliability during map transitions.",
+        "timestamp": "2026-01-12T22:13:13.244Z",
+        "action_counter": 36332
+      },
+      {
+        "commit_message": "Fixed JSON formatting in python script by importing json and using json.dumps.",
+        "timestamp": "2026-01-12T22:13:55.445Z",
+        "action_counter": 36334
+      },
+      {
+        "commit_message": "Forced double quotes in output string to ensure valid JSON, avoiding reliance on json library imports or default stringification.",
+        "timestamp": "2026-01-12T22:15:38.245Z",
+        "action_counter": 36336
+      },
+      {
+        "commit_message": "Fixed output format to be a JSON array of strings, not a JSON object with a 'buttons' key, as required by the tool definition.",
+        "timestamp": "2026-01-12T22:17:24.564Z",
+        "action_counter": 36339
+      },
+      {
+        "commit_message": "Improved reliability: Added an extra 'Left' press to handle starting from the 'Radio' card (4th slot) assuming non-wrapping menu, and added a sleep before the final 'A' press to ensure the Map View opens after navigation.",
+        "timestamp": "2026-01-13T07:37:57.819Z",
+        "action_counter": 37022
+      }
+    ]
+  },
   "pathfind": {
     "description": "Finds a path from the player's current position to a target coordinate using BFS. Returns a list of buttons.",
     "input_schema": {
@@ -76,108 +178,6 @@
         "commit_message": "Fixed NameError by explicitly retrieving arguments from the `input_data` dictionary.",
         "timestamp": "2026-01-12T09:15:49.641Z",
         "action_counter": 35405
-      }
-    ]
-  },
-  "open_map": {
-    "description": "Opens the Pokegear and navigates to the Map card. Assumes the main menu cursor is already on 'POKEGEAR' (last used). Uses a 'Left, Left, Left, Right' sequence inside Pokegear to reliably select the Map regardless of previous cursor position (Back, Map, Phone, Radio). Includes safety 'B' presses and sleep delays.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "autopress_buttons": {
-          "type": "boolean",
-          "default": false,
-          "description": "If true and the tool returns a list of buttons, they will be pressed automatically. Safety limit of 50 buttons per turn."
-        }
-      },
-      "required": [
-        "autopress_buttons"
-      ]
-    },
-    "python_script": "print('[\"B\", \"B\", \"Start\", \"sleep 500\", \"A\", \"sleep 500\", \"Left\", \"Left\", \"Left\", \"Right\", \"sleep 500\", \"A\"]')",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-01-12T18:35:50.856Z",
-        "action_counter": 36061
-      },
-      {
-        "commit_message": "Updated to include 'B' presses to ensure menus are closed and added sleep delays for reliability during map transitions.",
-        "timestamp": "2026-01-12T22:13:13.244Z",
-        "action_counter": 36332
-      },
-      {
-        "commit_message": "Fixed JSON formatting in python script by importing json and using json.dumps.",
-        "timestamp": "2026-01-12T22:13:55.445Z",
-        "action_counter": 36334
-      },
-      {
-        "commit_message": "Forced double quotes in output string to ensure valid JSON, avoiding reliance on json library imports or default stringification.",
-        "timestamp": "2026-01-12T22:15:38.245Z",
-        "action_counter": 36336
-      },
-      {
-        "commit_message": "Fixed output format to be a JSON array of strings, not a JSON object with a 'buttons' key, as required by the tool definition.",
-        "timestamp": "2026-01-12T22:17:24.564Z",
-        "action_counter": 36339
-      },
-      {
-        "commit_message": "Improved reliability: Added an extra 'Left' press to handle starting from the 'Radio' card (4th slot) assuming non-wrapping menu, and added a sleep before the final 'A' press to ensure the Map View opens after navigation.",
-        "timestamp": "2026-01-13T07:37:57.819Z",
-        "action_counter": 37022
-      }
-    ]
-  },
-  "navigate_fly_map": {
-    "description": "Navigates the Fly map (or any menu) by pressing a direction multiple times with a specified delay between presses to ensure registration.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "direction": {
-          "type": "string",
-          "enum": [
-            "Up",
-            "Down",
-            "Left",
-            "Right"
-          ]
-        },
-        "times": {
-          "type": "integer",
-          "minimum": 1,
-          "maximum": 20
-        },
-        "delay_ms": {
-          "type": "integer",
-          "default": 200
-        }
-      },
-      "required": [
-        "direction",
-        "times"
-      ]
-    },
-    "python_script": "import json\n\n# Access input arguments from the injected input_data dictionary\ndirection = input_data['direction']\ntimes = int(input_data['times'])\ndelay_ms = int(input_data.get('delay_ms', 200))\n\nbuttons = []\nfor _ in range(times):\n    buttons.append(direction)\n    if delay_ms > 0:\n        buttons.append(f\"sleep {delay_ms}\")\n\nprint(json.dumps(buttons))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-01-13T22:57:08.418Z",
-        "action_counter": 38053
-      },
-      {
-        "commit_message": "Fixed missing json import in navigate_fly_map tool.",
-        "timestamp": "2026-01-13T22:57:56.773Z",
-        "action_counter": 38055
-      },
-      {
-        "commit_message": "Fixed missing json import in navigate_fly_map tool.",
-        "timestamp": "2026-01-13T22:58:11.744Z",
-        "action_counter": 38056
-      },
-      {
-        "commit_message": "Fixed input handling by accessing the 'input_data' dictionary instead of expecting undefined global variables.",
-        "timestamp": "2026-01-13T22:58:36.230Z",
-        "action_counter": 38057
       }
     ]
   },
