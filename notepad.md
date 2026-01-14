@@ -32,18 +32,19 @@
     - Status: PARTIALLY COMPLETED.
 - Hypothesis 3: Suicune appears only when entering the map from a specific side or after re-entering.
     - Test: Exit to Mahogany, then re-enter and approach the grove.
-    - Status: Pending.
+    - Status: Ongoing (Heading to Mahogany).
 - Hypothesis 4: Suicune is already at the next location (Kanto Route 25).
     - Test: Check Route 25 in Kanto.
     - Status: Pending.
 
 # Failed Hypotheses
-- "Mow the lawn" in grove: FAILED (50+ turns, all tiles stepped on). Suicune is likely a static sprite that isn't currently present.
+- "Mow the lawn" in grove: FAILED (60+ turns, all tiles stepped on). Suicune is likely a static sprite that isn't currently present.
+- "Sighting trigger at (28, 15)": FAILED (Stepped on it at Turn 46953).
 
 # Lessons Learned
-- Eusine battle confirms sighting completion.
-- Buoy walls are highly restrictive; land routes often safer.
-- Multimodal pathfinding fails on water-to-land transitions; use manual navigation or chunks.
+- Suicune in Route 42 is likely an overworld sprite; if it's not in the Map Objects list, the sighting event is not active.
+- Cut trees regrow on map exit, but stay cut while on the map.
+- Always check the Map Objects list before committing to a 50+ turn search.
 
 # Map Insights (Mt. Mortar)
 - B1F ladder at (19, 29) leads to 1FOutside (17, 29).
