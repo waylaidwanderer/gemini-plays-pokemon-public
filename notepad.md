@@ -34,8 +34,8 @@
     - Target Tiles: (25, 15), (26, 15).
     - Result: FAILED (at 24, 15 and 25, 15).
 - Hypothesis 4: Suicune is in/near one of the other two water bodies on Route 42.
-    - Test: Explore West and East water bodies.
-    - Result: PENDING.
+    - Test: Explore West, Middle, and East water bodies.
+    - Result: West (FAILED - Turn 47084). Middle (PENDING). East (PENDING).
 
 # Verified Failures (Route 42)
 - "Sighting trigger at (28, 15)": FAILED.
