@@ -11,13 +11,12 @@
 - Start Turn: 46650
 - Objective: Trigger sighting in Cianwood City at (7, 4).
 - Strategy:
-    1. Walk to (12, 29).
-    2. Surf North to (12, 19) and land.
-    3. Walk West to (4, 19).
-    4. Jump South over the ledge at (4, 20) to land at (4, 22).
-    5. Walk West to the corridor at X=2.
-    6. Walk North along X=2 to Y=4.
-    7. Walk East to (7, 4) to trigger the sighting.
+    1. Walk to (12, 19).
+    2. Walk West to (4, 19).
+    3. Jump South over the ledge at (4, 20) to land at (4, 22).
+    4. Walk West to the corridor at X=2.
+    5. Walk North along X=2 to Y=4.
+    6. Walk East to (7, 4) to trigger the sighting.
 - Note: The inner city is a maze. The ledge at (4, 20) is the gateway to the West Coast corridor (X=2), which is the only clear path to the northern shore. Suicune sighting count = 1.
 
 # Roaming Beast Data
