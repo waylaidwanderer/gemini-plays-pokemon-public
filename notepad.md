@@ -5,13 +5,14 @@
 
 # Strategic Status
 - **Goal:** Register Raikou & Entei.
-- **Current Task:** Locate Roaming Beasts.
-- **Location:** Violet City (Pokegear Open).
-- **Action:** Checking Map for Roamers.
+- **Current Task:** Restock Supplies.
+- **Location:** Violet City.
+- **Action:** Exiting Pokegear, then to Mart.
 - **Status:** Deep Post-Game. S.S. Ticket confirmed in inventory.
 - **Strategy:**
-    1. **Locate Beasts:** Open Pokegear Map and check positions.
-    2. **Buy Repels:** Fly to Goldenrod Dept Store for Max Repels.
-    3. **Hunt:** Intercept on Route 37/38 or Route 2 (Kanto).
+    1. **Buy Repels:** Check Violet Mart (Standard/Super/Max). If no good Repels, Fly to Goldenrod.
+    2. **Prepare Team:** Lead with Gyarados (Lv 37) + Repel to filter encounters.
+    3. **Hunt:** Walk East to Route 31 (Beast spotted there).
+    4. **Encounter:** Sleep/Weaken/Catch.
 - **Goal:** Farm money.
 - **Resources:** ¥36644.
