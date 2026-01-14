@@ -25,12 +25,18 @@
 - Step 2: Use Super Repel. (Done)
 - Step 3: Navigate Buoy Maze Gaps:
   - Gap 1: (26, 10) (Done)
-  - Gap 2: (22, 16) (In Progress)
-  - Gap 3: (19, 14)
-- Step 4: Land on North Plateau at (16, 14).
+  - Gap 2: (22, 16) (Done)
+  - Gap 3: (19, 14) (In Progress)
+  - Gap 4: (18, 26)
+  - Gap 5: (16, 20)
+- Step 4: Land on North Plateau at (16, 11-14).
 - Step 5: Walk to (14, 10).
 
 # Verified Landmarks
 - Gaps: (26, 10), (22, 16), (19, 14), (18, 26), (16, 20).
 - Plateau Landing: (16, 11-14).
 - Sighting Spot: (14, 10).
+
+# Custom Tools (Technical Details)
+- find_path_v4: BFS pathfinder. Handles LAND vs WATER medium consistency. Treats unseen tiles as traversable within the starting medium. Handles LEDGE_HOP_DOWN as one-way (dy=1).
+- menu_navigator_v2_fixed: Sequence-based button presser for deep menu navigation.
