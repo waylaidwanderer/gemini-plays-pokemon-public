@@ -18,21 +18,19 @@
 - LEDGE_HOP_DOWN: One-way jump from NORTH to SOUTH.
 - COUNTER: Impassable.
 
-# Suicune Quest Strategy: 'The Triple Gap Loop'
-- Goal: Reach Suicune sighting area at (7, 4).
-- Fact: Row 15 is a solid land barrier (walls/ledges). Northern water is isolated by interlocking buoy walls.
-- Solution: Use the three specific gaps in the buoy walls to reach the north beach.
+# Suicune Quest Strategy: 'The Island Bypass'
+- Goal: Reach Suicune at (7, 4).
+- Fact: Northern water is isolated from southern/eastern water by buoy walls.
+- Solution: Sail south to the land bridge at Y=30, walk across to the western channel, then sail north and land on the north beach.
 - Route:
-    1. Surf at (19, 30).
-    2. Sail to (27, 30) -> (27, 10).
-    3. Cross X=26 wall through gap at (26, 10).
-    4. Sail to (23, 10) -> (23, 8).
-    5. Cross X=22 wall through gap at (22, 8).
-    6. Sail to (18, 8) -> (7, 8).
-    7. Land and walk to (7, 4).
+    1. From (23, 16), sail Down to (23, 30).
+    2. Sail Left to (20, 30) and land at (19, 30).
+    3. Walk West across the land bridge to (15, 30).
+    4. Face Up and Surf into (15, 29).
+    5. Sail North in the western channel to (15, 19).
+    6. Sail West and land at (4, 19).
+    7. Walk to (14, 10) and then (7, 4).
 - Preparation: Lead with XENON (Haunter) for Hypnosis. Be ready for Eusine.
-- Status: Surfed at (19, 30). Currently at (27, 10). Incoming call from Dana.
-- Attempt 1 (Turn 47669): Tried to Surf and move Right. Failed, stayed at (19, 30).
-- Hypothesis 1: Dialogue delay or facing issue. Fixed by pressing A on the "Want to SURF?" prompt.
-- Test 2: Face Up, press A twice to Surf into (19, 29). Success.
-- Plan: Answer Dana, then move to (27, 10) (Arrived). Next: Move Left through gap at (26, 10).
+- Status: At (23, 16). Starting 'Island Bypass' route.
+- Attempt 1 (Triple Gap Loop): Hallucinated/Incorrect. Gaps at (26, 10) and (23, 15) only lead to a sealed middle pocket.
+- Attempt 2 (Island Bypass): Verified via Mental Map and run_code pathfinding. Starting now.
