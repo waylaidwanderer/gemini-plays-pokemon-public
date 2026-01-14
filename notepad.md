@@ -1,7 +1,7 @@
 # Strategic Status
 - **Goal:** Return to Johto (Via Magnet Train).
-- **Current Action:** Riding Magnet Train to Goldenrod.
-- **Path:** Saffron -> Goldenrod -> Fly Ecruteak.
+- **Current Action:** Arriving in Goldenrod City (via Magnet Train).
+- **Path:** Saffron -> Magnet Train -> Goldenrod City -> Ecruteak (Fly).
 
 # Notes
 - **Fly Map:** Horizontal navigation (West <-> East) in Kanto is unreliable.
