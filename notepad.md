@@ -1,13 +1,15 @@
 # Suicune Quest
 - Start Turn: 46650
 - Objective: Trigger sighting in Cianwood City at the northern shore.
-- Strategy: The Waterway Bypass
-    1. Surf at (19, 30).
-    2. Surf North to Y=21, then East to X=23.
-    3. Surf North along X=23 to Y=11 (bypasses Y=15 buoy line).
-    4. Surf West to (17, 11) and land at (16, 11).
-    5. Walk West along Row 11 to (7, 11), then North to (7, 4).
-- Note: Land routes are heavily blocked by ledges and walls. The waterway is the only confirmed efficient path to the northern shore. Suicune sighting count = 1.
+- Strategy: The Southern Promenade (Confirmed Path)
+    1. Surf South to (23, 29) and land at (23, 30).
+    2. Walk South along X=23 to (23, 45).
+    3. Jump South over the ledge at (23, 46) to land at (23, 47).
+    4. Walk South to (23, 51).
+    5. Walk West along Row 51 to the far west corridor at X=2.
+    6. Walk North along X=2 to Y=4.
+    7. Walk East to (7, 4) to trigger the sighting.
+- Note: Internal city walls at X=9, 12, 17 and buoys at X=16, 18, 19, 22 block direct access. Row 51 is the primary east-west thoroughfare. Suicune sighting count = 1.
 
 # Roaming Beast Data
 - Raikou: Unknown
