@@ -1,16 +1,17 @@
 # Mechanics & State
 - **Location:** Victory Road.
 - **Goal:** Walk to Viridian City (South).
-- **Current Position:** (13, 6) - 3F (Top).
-- **Action:** Walking to Ladder at (13, 17) to descend to 2F.
+- **Current Position:** (16, 11) - 3F.
+- **Action:** In Battle (Golbat) -> Escaping -> Walking to Ladder at (13, 17).
 - **Inventory Update:**
   - 20 Super Repels (Bought).
   - 16 Ultra Balls (Existing).
 - **Route Plan:**
-  1. Ladder (13, 17) -> 2F.
-  2. Navigate 2F to Ladder -> 1F.
-  3. Exit South to Gate -> Route 22 -> Viridian.
-  4. Fly/Train to Johto.
+  1. Escape Battle.
+  2. Walk East to x=18, South to y=16, West to x=13, South to Ladder (13, 17).
+  3. Ladder -> 2F.
+  4. Navigate 2F to Ladder -> 1F.
+  5. Exit South to Gate -> Route 22 -> Viridian.
 - **Money:** ¥12294.
 
 # Directory Info (Celadon)
