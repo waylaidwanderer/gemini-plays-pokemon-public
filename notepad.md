@@ -29,7 +29,10 @@
     - Checking 3F Directory.
 ## Goldenrod Dept Store
 - 2F: Trainer's Market.
-    - Top Clerk (13,5): Potions, Status Heals.
-    - Bottom Clerk (13,6): Balls, Rope, Repel (Standard), Revive, Full Heal, Doll, Mail.
+    - Top Clerk: Potions, Status Heals.
+    - Bottom Clerk: Balls, Rope, Repel (Standard), Revive, Full Heal, Doll, Mail.
     - **NO Super Repels found on 2F.**
-- **Strategy:** Check Directory or higher floors.
+- 3F: Battle Collection.
+    - Clerk (6, 1): X Speed, X Special, X Defend, X Attack.
+    - **NO Super Repels found on 3F.**
+- **Strategy:** Check 4F and 5F. If not found, fly to Celadon Dept Store (Kanto).
