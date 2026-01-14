@@ -22,22 +22,20 @@
 - (11, 14): Dead End Pocket in Cianwood. Wall at (11, 13) and (12, 14) blocks access to the north plateau.
 - (11, 15): Gap in the city wall (Y=15) in Cianwood. Accesses the beach area but not the plateau. Verified in Turn 47337.
 
-- Status: At (25, 5) in Cherrygrove; Fly map open. Cursor on New Bark Town (14, 10).
-- Fly Map Rule: 7 directional taps = 1 unit of distance. (Verified: 14 taps = 2 units from New Bark to Cherrygrove).
-- Flight Plan: Move cursor 14 units West (98 taps) and 1 unit North (7 taps) from New Bark to reach Cianwood (0, 9).
-- Progress: 0/98 Lefts (Previous Turn 48021 taps failed to register due to lack of sleeps).
-- Current Action: Sending 25 Lefts with 200ms sleeps. (Chunk 1/4).
-- Timestamp: Turn 48022. Quest started Turn 47680.
+- Status: At (25, 5) in Cherrygrove; Fly map open. Cursor on New Bark Town (Tile X=14, Y=10).
+- Verified Fly Map Math: 7 taps = 1 Tile unit.
+- Evidence: 14 taps moved cursor from New Bark (X=14) to Cherrygrove (X=12) in Turn 47978.
+- Target: Cianwood City (Tile X=0, Y=9).
+- Total Distance: 14 tiles West (98 taps), 1 tile North (7 taps).
+- Progress: 1/98 Left taps sent.
+- Flight Plan: Send 49 Left taps this turn (reaching 50/98).
+- Timestamp: Turn 48023. Quest started Turn 47680.
 
 # Quest Strategies
 ## Suicune: 'The Great Spiral' (The Only Real Path)
 - Fact: The northern plateau is walled off from the south and west. The buoy maze is the only intended entrance.
-- Shortcut Hypothesis: Suicune (7, 4) reachable via beach at X=2. Requires verification of north/south wall at Y=10-20.
-- Route:
-    1. Fly to Cianwood.
-    2. Land at (15, 44) (Center) or (23, 44) (South).
-    3. Walk to beach at X=2.
-    4. Walk North to Suicune at (7, 4).
+- Shortcut Hypothesis: Suicune (7, 4) reachable via beach at X=2. Gap at Y=33/35 needs re-verification in Cianwood.
+- Route: Fly to Cianwood -> Walk to beach at X=2 -> Walk North to Suicune at (7, 4).
 - Preparation: Lead with XENON (Haunter). Use SUPER REPEL.
 
 # Reflection Turn 48000
