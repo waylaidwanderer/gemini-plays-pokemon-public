@@ -22,7 +22,8 @@
 # Strategic Plans: Locate Suicune
 - Start Turn: 47680
 - Hypothesis: Walking North along the West beach at X=2 may bypass the buoy maze.
-- Verification: Navigate to (2, 35) and walk North.
+- Verification: Navigate to (2, 35) via southern city loop and walk North.
+- Status: (11, 15) gap confirmed dead end. Navigating to (2, 35) now.
 - Success: Reaching (7, 4).
 - Failure: Ledge or Wall blocking X=2 at Y=10. Revert to 'Great Spiral'.
 
