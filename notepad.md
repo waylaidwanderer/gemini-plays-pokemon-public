@@ -17,7 +17,7 @@
 - Confirmed Spiral Route:
     1. Start Surfing from (19, 30).
     2. Sail to (26, 28), then North through Gap 1 at (26, 10).
-    3. Sail Left to (22, 10), then South through Gap 2 at (22, 16).
+    3. Sail South to (23, 16), then Left through Gap 2 at (22, 16).
     4. Sail Left to (19, 16), then North through Gap 3 at (19, 14).
     5. Sail North to (19, 11), then West past Wall 7 (ends at Y=12).
     6. Land at (16, 11) or (14, 10).
