@@ -8,12 +8,14 @@
 - **Current Task:** Restock Supplies.
 - Location: Celadon Dept Store 2F.
 - Action: Buying Max Repels from Clerk at (13,5).
-- Status: Found Max Repels at bottom of Left Clerk's list on 2F.
-- Action: Buying 30 Max Repels.
+- Status: Purchased 30 Max Repels.
+- Action: Exiting Celadon Dept Store.
 - Strategy:
-    1. **Buy:** Purchase 30 Max Repels (¥21000).
-    2. **Transit:** Exit Celadon Dept Store.
-    3. **Prepare Team:** Lead with Gyarados (Lv 37) + Max Repel.
+    1. **Transit:** Exit via Elevator/Stairs.
+    2. **Prepare:** Equip Max Repel on lead (Gyarados).
+    3. **Hunt:** Fly to Ecruteak City. Check Pokegear.
+    4. **Loop:** Move between Route 37 and Ecruteak until Beast is on Route 37.
+    5. **Encounter:** Use Max Repel, walk in grass. Sleep/Weaken/Catch.
     2. **Buy Repels:** Locate clerk on 2F.
     3. **Transit:** Exit to Celadon City/Route 7.
     3. **Prepare Team:** Lead with Gyarados (Lv 37) + Max Repel.
