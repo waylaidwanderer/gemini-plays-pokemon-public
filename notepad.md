@@ -50,3 +50,7 @@
 # General Lessons
 - Wild Encounters & Pathing: A "Movement Blocked" error during navigation often indicates a wild encounter triggered on that step. It doesn't necessarily mean the tile is impassable.
 - Buoy Maze Navigation: When surfing in narrow channels, wild encounters are frequent. Maintain Super Repel and be prepared to resume the path after running.
+
+# Strategy Lessons
+- Menu Precision: When flying, ensure the correct destination is selected. New Bark Town is the default (index 0), while Cianwood is 6 'Down' presses away.
+- Navigation Failures: If a 'Movement Blocked' error occurs during a long path, check for wild encounters or menu states.
