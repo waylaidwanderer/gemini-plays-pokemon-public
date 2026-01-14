@@ -2,13 +2,13 @@
 - **Location:** Route 23 (Indigo Plateau).
 - **Goal:** Return to Johto (Goldenrod).
 - **Current Position:** Route 23 (9, 10).
-- **Action:** Opening Fly Map (Mistral).
+- **Action:** Selecting 'FLY' to open Map.
 - **Inventory Update:**
   - 20 Super Repels (Bought).
   - 16 Ultra Balls (Existing).
 - **Correction:** Recovering from accidental selection of Muscle's Strength menu.
 - **Next Steps:**
-  1. Open Fly Map (Mistral).
+  1. Open Fly Map (Current Action).
   2. Navigate to Saffron City.
   3. Magnet Train to Goldenrod.
   4. Fly to Ecruteak/Route 37.
