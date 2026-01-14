@@ -17,7 +17,7 @@
 - Sighting Progress (Sequential):
     1. Burned Tower (DONE)
     2. Cianwood City (DONE - Confirmed Turn 47347)
-    3. Route 42 (Middle Grove) - PENDING (Trigger tile missed or requires specific approach)
+    3. Route 42 (Middle Grove) - PENDING (Expert: Approach center of grove approx. (28, 15) near the three Apricorn trees).
     4. Route 25 (Kanto, near Bill's House) - LOCKED
 - Strategy:
     - Sighting order is strictly linear: Burned Tower -> Cianwood -> Route 42 -> Route 25 -> Tin Tower.
