@@ -14,7 +14,7 @@
 - **Goal:** Register Raikou & Entei.
 - **Current Task:** Farm money at Elite Four -> Buy Max Repels (20x).
 - **Location:** Indigo Plateau Pokecenter.
-- **Action:** Walking to Nurse Joy to heal.
+- **Action:** Interacting with Nurse Joy to heal.
 - **Next Step:** Challenge Elite Four.
 - **Goal:** Farm money to buy Max Repels for Roamer Hunt.
 - **Party:** Machoke (Lv 88) is the carry. Gyarados (Lv 36) lead.
