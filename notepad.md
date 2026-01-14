@@ -61,11 +61,11 @@
   - Lake of Rage: (10, 3)
   - Blackthorn: (14, 5)
 - Navigation from Cherrygrove (12, 10) to Cianwood (0, 9): 12 Lefts, 1 Up.
-- Status: At (25, 5) in Cherrygrove; Fly map open. Cursor on New Bark Town.
-- Failed Fly attempts: 53 (Reason: Previous sequence truncated).
-- Flight Plan: Navigate from New Bark (14, 10) to Cianwood (0, 9).
+- Status: At (29, 4) in Cherrygrove; clearing "Where?" bubble.
+- Failed Fly attempts: 54 (Reason: Flew to Cherrygrove instead of Cianwood; cursor didn't move far enough).
+- Flight Plan: B (clear) -> Move to (25, 5) -> Start -> POKEMON -> ICARUS -> FLY -> 12 Left, 1 Up -> A.
 - Suicune Sighting Progress: Heading to Cianwood to test West Beach shortcut.
-- Timestamp: Turn 47978. Quest started Turn 47680.
+- Timestamp: Turn 47980. Quest started Turn 47680.
 
 # Hypotheses
 ## Land Route to Suicune (The 'Gem Shortcut')
