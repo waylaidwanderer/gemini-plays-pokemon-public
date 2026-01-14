@@ -152,28 +152,6 @@
       }
     ]
   },
-  "use_item_by_index_v1": {
-    "description": "Opens the pack, resets the cursor by pocket-switching, navigates to the specified item index, and uses it.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "item_index": {
-          "type": "integer"
-        }
-      },
-      "required": [
-        "item_index"
-      ]
-    },
-    "python_script": "import json\nidx = int(input_data['item_index'])\nsequence = [\"Start\", \"Down\", \"Down\", \"A\", \"sleep 500\", \"Right\", \"sleep 500\", \"Left\", \"sleep 500\"]\nfor _ in range(idx):\n    sequence.append(\"Down\")\nsequence.extend([\"A\", \"sleep 500\", \"A\", \"sleep 1000\", \"A\", \"sleep 500\", \"B\", \"sleep 500\", \"B\"])\nprint(json.dumps(sequence))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-01-14T17:29:24.353Z",
-        "action_counter": 47822
-      }
-    ]
-  },
   "find_traversable_path_v3": {
     "description": "Finds a traversable path from the player's current position to a target coordinate on the current map, accounting for wall, buoy, water (surf), ledge, and FLOOR_UP_WALL mechanics. Returns a JSON array of button strings.",
     "input_schema": {
