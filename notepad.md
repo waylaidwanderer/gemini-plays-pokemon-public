@@ -21,7 +21,7 @@
 # Suicune Quest
 - Status: 16 Badges, Clear Bell in inventory.
 - Current Objective: Sighting 2 (Cianwood City North Beach).
-- Strategy: The 'East Loop' path. The northern plateau is landlocked and protected by buoy lines. Reach it by going east to X=27, then north to row 8, then west to X=15.
-- Route: (23, 17) -> (27, 17) -> (27, 8) [Sea Loop Pivot] -> (15, 8) -> (15, 10) [Land].
+- Strategy: The 'Channel' path. Navigate between buoy walls at X=19 and X=22.
+- Route: (23, 17) -> (23, 16) -> (20, 16) [Cross X=22 Gap] -> (20, 11) [Cross X=19 Gap] -> (16, 11) [Land] -> (7, 4).
 - Battle Strategy: Lead with XENON (Haunter) for Hypnosis.
-- History: 130 turns spent navigating Cianwood. Confirmed land detour to Row 51 is blocked. Gap at (23, 15) is a dead end due to X=22 buoy wall.
+- History: 130 turns spent navigating Cianwood. Confirmed buoy walls at X=19 (Y15-20), X=22 (Y9-15), and X=26 (Y0-9). Gap at (23, 15) is a dead end.
