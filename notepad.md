@@ -1,15 +1,25 @@
 # Strategic Status
 
 # Strategic Status
+
+# Strategic Status
 - **Goal:** Register Raikou & Entei.
-- **Current Action:** Traversing National Park (South -> East Exit).
-- **Location:** National Park (South Entrance).
-- **Status:** Moving to East path to reach Route 36 Gatehouse.
+- **Current Action:** Exiting National Park (East) -> Route 36.
+- **Location:** National Park (East Exit).
+- **Status:** Walking to Route 36 Gatehouse.
+
+# Reflection (Turn 38417)
+- **Execution:** Addressed deferred phone call check (Tertiary goal).
+- **Hygiene:** Cleared Fly Map debug logs. 'Roamer Hunting' section is ready.
+- **Map:** Markers for Warps verified.
+- **Automation:** 'pathfind' tool is heavy but working. No new agents needed yet.
+- **Goals:** Pivot from Fly to Walking confirmed.
+- **Errors:** Fly Map horizontal axis is broken. Lesson: Verify inputs and have fallbacks (Walking).
 
 # Roamer Hunting Strategy (Route 37)
 1.  **Setup:** 
     - Lead: Gyarados (Lv 36).
-    - Item: Super Repel (Wearing off? Apply if needed).
+    - Item: Super Repel (Active).
     - Balls: 16 Ultra Balls.
 2.  **Procedure:**
     - Walk to Route 37 (North of Ecruteak).
