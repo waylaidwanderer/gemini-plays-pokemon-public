@@ -6,13 +6,13 @@
 # Strategic Status
 - **Goal:** Register Raikou & Entei.
 - **Current Task:** Restock Supplies.
-- **Location:** Saffron City (Magnet Train Station).
-- **Action:** Exiting station, then heading to Celadon City.
+- **Location:** Saffron City.
+- **Action:** Walking to West Gate (0, 24) to Route 7.
 - **Status:** Deep Post-Game.
 - **Notes:** Goldenrod Dept Store 2F (Standard Repel), 4F (Vitamins).
 - **Strategy:**
-    1. **Buy Repels:** Arrived in Saffron. Heading to Celadon Dept Store for Max Repels.
-    2. **Transit:** Magnet Train -> Saffron -> Celadon.
+    1. **Buy Repels:** Saffron -> Route 7 -> Celadon Dept Store for Max Repels.
+    2. **Transit:** Walk to Celadon.
     3. **Prepare Team:** Lead with Gyarados (Lv 37) + Max Repel.
     4. **Hunt:** Roam Route 31/30/36 area or use Route 37/Ecruteak loop.
     5. **Encounter:** Sleep/Weaken/Catch.
