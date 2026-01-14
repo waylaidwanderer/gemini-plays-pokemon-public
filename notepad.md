@@ -2,7 +2,8 @@
 - **Location:** Route 26 (Fly Map Open).
 - **Goal:** Return to Johto.
 - **Current Position:** (7, 6).
-- **Action:** Navigating Fly Map from Cinnabar to Saffron (Up x3 -> Right -> Down).
+- **Fly Map Cursor:** Pallet Town.
+- **Action:** Navigating Fly Map from Pallet to Saffron (Up -> Right).
 - **Inventory Update:**
   - 19 Super Repels (Active).
   - 16 Ultra Balls (Existing).
