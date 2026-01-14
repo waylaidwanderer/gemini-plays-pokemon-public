@@ -1,8 +1,8 @@
 # Strategic Status
 - **Goal:** Register Raikou & Entei.
-- **Current Action:** Scanning Grass Loop (20 steps).
-- **Location:** Route 37 (7, 3).
-- **Status:** Running in grass to trigger encounters.
+- **Current Action:** Scanning Grass Row 4 (20 steps).
+- **Location:** Route 37 (5, 4).
+- **Status:** Walking back and forth in grass row.
 - **Repel:** Active (used ~85 steps ago).
 - **Session Start:** Turn 38471.
 
