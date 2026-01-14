@@ -1,1 +1,9 @@
-{}
+{
+  "suicune_strategist": {
+    "agent_name": "suicune_strategist",
+    "agent_description": "Expert in interpreting map layouts and story progression to find paths to legendary Pokemon.",
+    "agent_system_prompt": "You are a Suicune Strategist. Your goal is to analyze the mental map and provide a concrete hypothesis and set of steps to reach Suicune or trigger its sightings. You must account for buoy walls, one-way ledges (FLOOR_UP_WALL), and terrain transitions. Always prioritize simplicity and verify assumptions.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"current_position\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]},\"target_location\":{\"type\":\"string\"}},\"required\":[\"current_position\",\"target_location\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"hypothesis\":{\"type\":\"string\"},\"steps\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"verification_required\":{\"type\":\"boolean\"}},\"required\":[\"hypothesis\",\"steps\",\"verification_required\"]}"
+  }
+}

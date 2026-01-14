@@ -2,16 +2,15 @@
 - Ravioli (KRABBY): Lv10 (Surf, Whirlpool)
 - LAPIS (POLIWAG): Lv12 (Waterfall, Surf, Whirlpool)
 
-# Tile Mechanics (Verified)
+- BUOY: Impassable water obstacle.
 - FLOOR: Walkable.
-- WALL / BUOY: Impassable.
+- WALL: Impassable.
 - WATER: Traversable only via Surf.
 - FLOOR_UP_WALL: Impassable from the NORTH.
 - LEDGE_HOP_DOWN: One-way jump from NORTH to SOUTH.
 - COUNTER: Impassable.
 
 # Suicune Quest Strategy: 'The Great Buoy Loop'
-- Goal: Reach Suicune at (7, 4).
 - Fact: The northern plateau (Row 0-14, X=10-16) is isolated by walls and buoys.
 - Verified Route (Water):
     1. From (19, 30), Surf into (19, 29).
@@ -22,6 +21,5 @@
     6. Sail South to (14, 10) and LAND.
     7. Walk to Suicune at (7, 4).
 - Preparation: Lead with XENON (Haunter) for Hypnosis. Use SUPER REPEL.
-- Status: In battle with wild Tentacool at (19, 21). Escaping to continue the buoy loop.
 - Start Turn: 47680 (Suicune North Beach Quest)
 - Start Time: Wednesday, Jan 14, 2026, 4:00 AM PST
