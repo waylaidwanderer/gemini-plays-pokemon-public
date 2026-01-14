@@ -16,8 +16,8 @@
 - Start Turn (Route 42 Grove): 47288 (Failed), Re-attempt 1: 47418 (Failed - missed trigger?), Re-attempt 2 (Verify Cianwood): 47450.
 - Sighting Progress (Sequential):
     1. Burned Tower (DONE)
-    2. Cianwood City (DONE - Confirmed Turn 47347)
-    3. Route 42 (Middle Grove) - PENDING (Expert: Approach center of grove approx. (28, 15) near the three Apricorn trees).
+    2. Cianwood City (VERIFYING - Sighting and Eusine battle required)
+    3. Route 42 (Middle Grove) - PENDING (Requires Cianwood event first)
     4. Route 25 (Kanto, near Bill's House) - LOCKED
 - Strategy:
     - Sighting order is strictly linear: Burned Tower -> Cianwood -> Route 42 -> Route 25 -> Tin Tower.
