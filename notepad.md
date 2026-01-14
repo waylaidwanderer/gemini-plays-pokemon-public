@@ -16,11 +16,13 @@
 - **Current Task:** Farm money at Elite Four -> Buy Max Repels (20x).
 - **Location:** Will's Room (Elite Four).
 - **Action:** Battling Will.
-- **Current Opponent:** Will (Slowbro).
+- **Current Opponent:** Will (Xatu #2).
 - **Active Pokemon:** Machoke (Lv 88).
 - **Strategy:**
-    - Slowbro: Use Thunderpunch (Super Effective).
-    - Xatu (2nd?): Thunderpunch/Ice Punch.
+    - **Cursor Memory:** Cursor is currently on **Cross Chop (Slot 4)**.
+    - Xatu: Weak to Electric/Ice.
+    - Move Choice: **Ice Punch (Slot 3)**.
+    - Navigation: From Cross Chop (4), Press **Up x1** -> Ice Punch (3).
 - **Goal:** Farm money.
 - **Resources:** ¥2294.
 - **Resources:** ¥2294. Repels: 0.
