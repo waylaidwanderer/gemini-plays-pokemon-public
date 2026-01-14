@@ -62,10 +62,10 @@
   - Blackthorn: (14, 5)
 - Navigation from Cherrygrove (12, 10) to Cianwood (0, 9): 12 Lefts, 1 Up.
 - Status: Exiting XENON's status screen and navigating to ICARUS to use FLY.
-- Failed Fly attempts: 19 (Reason: Stuck in Stats screen, miscounted Party menu slots).
+- Failed Fly attempts: 20 (Reason: Sequence failed to exit Status screen, miscounted Party menu slots).
 - Flight Plan: Cherrygrove (12, 10) to Cianwood (0, 9) = 12 Left, 1 Up.
 - Suicune Sighting Progress: Heading to Cianwood to test West Beach shortcut.
-- Timestamp: Turn 47935. Quest started Turn 47680.
+- Timestamp: Turn 47936. Quest started Turn 47680.
 
 # Hypotheses
 ## Land Route to Suicune (The 'Gem Shortcut')
