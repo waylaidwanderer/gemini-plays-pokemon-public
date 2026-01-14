@@ -1,16 +1,17 @@
 # Mechanics & State
-- **Location:** Goldenrod City.
+- **Location:** Goldenrod Dept Store 1F.
 - **Goal:** Supply Run (Dept Store).
-- **Current Position:** (15, 28) - Outside Bike Shop.
-- **Destination:** Goldenrod Dept Store (24, 27).
+- **Current Position:** (7, 7) - Entrance Mat.
+- **Action:** Checking Directory at (14, 1) to locate Repels.
+- **Likely Floor:** 2F (Trainer's Market).
 - **Shopping List:**
   - Max Repels (Priority) or Super Repels.
-  - Poke Balls (Ultra Balls) if low (Currently have 16 Ultra Balls - Good).
+  - Ultra Balls (if available/needed).
 - **Money:** ¥12294.
 
 # Current Task: Roamer Hunt
-- **Status:** Walking to Dept Store.
-- **Next Step:** Enter Dept Store -> Find Elevator/Stairs -> Buy Repels.
+- **Status:** Inside Dept Store.
+- **Next Step:** Read Directory -> Go to Floor -> Buy Items.
 
 # Progress
 - **Badges:** 16/16.
