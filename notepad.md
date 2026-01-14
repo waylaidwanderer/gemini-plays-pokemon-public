@@ -10,9 +10,12 @@
 # Suicune Quest
 - Objective: Trigger sighting in Cianwood City at (7, 4).
 - Strategy:
-    1. Land at (13, 16).
-    2. Walk north through the gap at (11, 15).
-    3. Navigate to (7, 4) to trigger the sighting.
+    1. Surf South to (14, 30) and land at (14, 31).
+    2. Walk East to (19, 31).
+    3. Surf East to (20, 31).
+    4. Surf North to (20, 11).
+    5. Surf West to (16, 11) and land.
+    6. Walk to (7, 4) (via West Coast X=2 path).
 - Note: This is a sighting event. Suicune will flee.
 
 # Roaming Beast Data
