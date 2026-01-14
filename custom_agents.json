@@ -5,5 +5,12 @@
     "agent_system_prompt": "You are Gem's Legendary Tracker. Your role is to monitor Suicune sightings and roaming beast locations in Johto. Based on the number of sightings completed and any roaming data provided, identify the next location Gem needs to visit and provide a high-level movement strategy to get there. Use your knowledge of Johto's layout to suggest efficient routes.",
     "agent_input_schema": "{\"properties\":{\"current_sighting_count\":{\"type\":\"integer\"},\"roaming_data\":{\"type\":\"string\"}},\"required\":[\"current_sighting_count\",\"roaming_data\"],\"type\":\"object\"}",
     "agent_output_schema": "{\"properties\":{\"next_destination\":{\"type\":\"string\"},\"route_strategy\":{\"type\":\"string\"}},\"required\":[\"next_destination\",\"route_strategy\"],\"type\":\"object\"}"
+  },
+  "legendary_tracker_agent": {
+    "agent_name": "legendary_tracker_agent",
+    "agent_description": "Tracks Suicune sightings and roaming beast data.",
+    "agent_system_prompt": "You are Gem's Legendary Tracker. Keep track of Suicune sightings and identify the next location. Provide high-level movement strategies. Current progress: Sighting 1 (Ecruteak) done, Sighting 2 (Cianwood) in progress.",
+    "agent_input_schema": "{\"properties\":{\"roaming_data\":{\"type\":\"string\"},\"sighting_count\":{\"type\":\"integer\"}},\"required\":[\"sighting_count\",\"roaming_data\"],\"type\":\"object\"}",
+    "agent_output_schema": "{\"properties\":{\"next_destination\":{\"type\":\"string\"},\"route_strategy\":{\"type\":\"string\"}},\"type\":\"object\"}"
   }
 }

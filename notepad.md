@@ -8,10 +8,10 @@
 - Interaction: To Surf, face WATER from an adjacent FLOOR tile and press A. Stepping onto FLOOR from WATER automatically ends Surfing.
 
 # Suicune Quest
-- Current Objective: Cianwood City sighting at (7, 4).
+- Objective: Trigger sighting in Cianwood City at (7, 4).
 - Phase 1: Reach West Coast via Eastern Sea Loop.
 - Phase 2: Surf around buoy barrier at X=18-22 and Y=9.
-- Phase 3: Land at (15, 10) or (16, 11) and walk to (7, 4).
+- Phase 3: Land at (16, 11) and walk to (7, 4).
 - Note: This is a sighting event. Suicune will flee.
 
 # Roaming Beast Data
