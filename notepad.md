@@ -12,17 +12,16 @@
 - (11, 14): Dead End Pocket. Wall at (11, 13) and (12, 14) blocks access to the north plateau.
 - (11, 15): Gap in the city wall (Y=15). Accesses the beach area but not the plateau.
 
-# Suicune Quest Strategy: 'The Buoy Spiral'
-- Fact: The northern plateau is isolated by ledges. The only access is by water from the east, navigating the buoy spiral.
-- Confirmed Spiral Route:
-    1. Start Surfing from (19, 30).
-    2. Sail to (26, 28), then North through Gap 1 at (26, 10).
-    3. Sail South to (23, 16), then Left through Gap 2 at (22, 16).
-    4. Sail Left to (19, 16), then North through Gap 3 at (19, 14).
-    5. Sail North to (19, 11), then West past Wall 7 (ends at Y=12).
-    6. Land at (16, 11) or (14, 10).
-    7. Walk West/North to sighting area at (7, 4).
-- Preparation: Lead with XENON (Haunter). Use SUPER REPEL once on water.
+# Suicune Quest Strategy: 'The Route 41 Bypass'
+- Fact: The buoy spiral is a series of vertical barriers (X=26, X=22, X=19, X=17) that are open at the north (Y=0).
+- The solution is to use the Route 41 map transition to sail 'over' the walls.
+- Route:
+    1. Sail to (29, 1) and enter Route 41.
+    2. Sail West in Route 41 to the longitude of the landing spot (approx. X=14).
+    3. Sail South back into Cianwood City at Y=0.
+    4. Land at (14, 10) or (15, 11).
+    5. Walk to Suicune at (7, 4).
+- Preparation: Lead with XENON (Haunter). Use SUPER REPEL.
 - Start Turn: 47680 (Suicune North Beach Quest)
 - Start Time: Wednesday, Jan 14, 2026, 4:00 AM PST
 
