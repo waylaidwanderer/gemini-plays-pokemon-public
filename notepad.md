@@ -1,6 +1,6 @@
 # Tile Mechanics
 - FLOOR: Standard walkable ground. Verified traversable.
-- WATER: Traversable only while Surfing.
+- WATER: Traversable only while Surfing. 
 - WALL / BUOY: Impassable.
 - FLOOR_UP_WALL: Impassable from the NORTH.
 - LEDGE_HOP_DOWN: Impassable from the NORTH.
@@ -32,7 +32,7 @@
     - Result: PENDING (Entering grove now).
 - Hypothesis 3: Sighting triggers by standing at the water's edge *inside* the grove.
     - Target Tiles: (25, 15), (26, 15).
-    - Result: PENDING.
+    - Result: FAILED (at 24, 15 and 25, 15).
 
 # Verified Failures (Route 42)
 - "Sighting trigger at (28, 15)": FAILED.
