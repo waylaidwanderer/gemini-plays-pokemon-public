@@ -1,9 +1,9 @@
 # Strategic Status
 - **Goal:** Register Raikou & Entei.
-- **Current Action:** Resetting Roamer positions.
-- **Location:** Route 37 (7, 1) -> Ecruteak.
-- **Status:** Crossing border to Ecruteak to reset.
-- **Repel:** Active (~115 steps left).
+- **Current Action:** Entering Ecruteak (Reset).
+- **Location:** Route 37 (7, 0) -> Ecruteak.
+- **Status:** Walking North to enter Ecruteak and reset Roamers.
+- **Repel:** Active (~114 steps left).
 - **Session Start:** Turn 38471.
 
 # Roamer Hunting Strategy (Blind)
