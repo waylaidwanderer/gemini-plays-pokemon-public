@@ -62,7 +62,7 @@
   - Blackthorn: (14, 5)
 - Navigation from Cherrygrove (12, 10) to Cianwood (0, 9): 12 Lefts, 1 Up.
 - Status: Exiting XENON's status screen and navigating to ICARUS to use FLY.
-- Failed Fly attempts: 21 (Reason: Flew to current city instead of target).
+- Failed Fly attempts: 22 (Reason: Sequence miscounted slots, used Strength instead).
 - Flight Plan: Cherrygrove (12, 10) to Cianwood (0, 9) = 12 Left, 1 Up.
 - Suicune Sighting Progress: Heading to Cianwood to test West Beach shortcut.
 - Timestamp: Turn 47936. Quest started Turn 47680.
