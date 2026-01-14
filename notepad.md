@@ -22,17 +22,17 @@
 - Island is reachable via western pond (Surf) or Mt. Mortar middle entrance.
 - Entrances at (10, 5), (28, 9), (46, 7).
 
-# Systematic Search Plan (Route 42 Grove)
-- HOW: Use `generate_sweep_path` tool to cover X=24-31, Y=13-17.
-- Current Status: Sweeping row 15.
+# Systematic Search Plan (Route 42 Island)
+- Phase 1: Grove (X=24-31, Y=13-17). Status: COMPLETED (No sighting).
+- Phase 2: Upper Island (X=20-33, Y=4-12). Status: STARTING.
 - Start Turn: 46896.
 
 # Hypotheses & Tests
 - Hypothesis 1: Trigger is a specific tile in the (26, 15) or (27, 15) grove.
     - Test: Walk onto (26, 15) and (27, 15).
-    - Status: Ongoing (Attempt #1).
-- Hypothesis 2: Trigger is near the middle Mt. Mortar entrance at (28, 9).
-    - Test: Walk around (28, 9) and (28, 10).
+    - Status: FAILED (Walked all tiles in grove).
+- Hypothesis 2: Trigger is on the upper island near the cave entrance or eastern pond.
+    - Test: Walk all floor tiles from Y=4 to Y=12.
     - Status: Pending.
 
 # Failed Hypotheses
