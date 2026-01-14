@@ -28,10 +28,11 @@
     - Visit sighting spots in order. Quest is strictly linear.
     - Lesson: Suicune is a static land sprite; water sweeps are ineffective.
 - Backtracking Plan:
-    1. Defeat Teacher Hillary.
-    2. Fly to Ecruteak City (Johto).
-    3. Head East to Route 42 Middle Grove (approach the 3 Apricorn trees).
-    4. Return to Kanto (Fuchsia City) after Johto sighting.
+    1. Continue East through Route 15 to reach Route 14. (ABANDONED - QUEST SEQUENCE MISSED)
+    2. Defeat Teacher Hillary. (DONE)
+    3. Fly to Ecruteak City (Johto). (IN PROGRESS)
+    4. Head East to Route 42 Middle Grove (approach the 3 Apricorn trees).
+    5. Return to Kanto (Fuchsia City) after Johto sighting.
 
 # PC Storage (Box 1)
 - LARVITAR, SCYTHER, SEEL, MANTINE, KRABBY x2, TENTACOOL, DRATINI, SPINARAK, POLIWAG.
