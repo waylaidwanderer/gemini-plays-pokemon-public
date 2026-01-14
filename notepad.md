@@ -61,12 +61,12 @@
   - Lake of Rage: (10, 3)
   - Blackthorn: (14, 5)
 - Navigation from Cherrygrove (12, 10) to Cianwood (0, 9): 12 Lefts, 1 Up.
-- Status: At (25, 5) in Cherrygrove; Fly sub-menu open. Pressing A to open the Fly map.
-- Failed Fly attempts: 57 (Reason: Inputs likely too fast or cursor starting position misunderstood).
-- Flight Plan: A (open map) -> fly_to_city_stable (14 Left, 1 Up) with 1000ms delays.
-- Timestamp: Turn 48011. Quest started Turn 47680.
+- Status: At (25, 5) in Cherrygrove; Fly map open. Executing stable navigation to Cianwood.
+- Failed Fly attempts: 57 (Reason: Inputs likely too fast).
+- Flight Plan: fly_to_city_stable (14 Left, 1 Up) with 1000ms delays and 2000ms initial sleep.
+- Timestamp: Turn 48012. Quest started Turn 47680.
 
-# Tile Mechanics
+# Tile Mechanics (Global)
 - FLOOR: Standard walkable ground. Verified at (25, 5) and (29, 4) in Cherrygrove.
 - WATER: Traversable only via Surf.
 - BUOY: Impassable water obstacle.
