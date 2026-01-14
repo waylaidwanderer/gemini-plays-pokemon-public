@@ -1,13 +1,14 @@
 # Mechanics & State
 - **Location:** Goldenrod Dept Store 1F.
 - **Goal:** Supply Run (Dept Store).
-- **Current Position:** (7, 7) - Entrance Mat.
-- **Action:** Checking Directory at (14, 1) to locate Repels.
-- **Likely Floor:** 2F (Trainer's Market).
-- **Shopping List:**
-  - Max Repels (Priority) or Super Repels.
-  - Ultra Balls (if available/needed).
+- **Current Position:** (8, 1) - Stuck at Counter.
+- **Action:** Walking around counter to Directory at (14, 1).
+- **Shopping List:** Max Repels (Priority), Ultra Balls.
 - **Money:** ¥12294.
+
+# Lessons & Mechanics
+- **Fly Map:** Inputs require ~2000ms delay.
+- **Fly Strategy:** "West Wall" (Convergent Nav) - Go West to Cianwood limit, then backtrack. Reliable reset.
 
 # Current Task: Roamer Hunt
 - **Status:** Inside Dept Store.
