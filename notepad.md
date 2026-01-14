@@ -1,29 +1,29 @@
 # Mechanics & State
 - **Location:** Goldenrod Dept Store 5F (TM Corner).
-- **Goal:** Supply Run (Dept Store).
-- **Current Position:** (12, 1) - Arrived from 4F.
-- **Action:** Checking Clerk at (8, 5) for Repels.
+- **Goal:** Supply Run (Failed). New Goal: Fly to Celadon.
+- **Current Position:** (8, 3) - Facing Clerk.
 - **Inventory Check:**
-  - 2F: No Super Repels.
-  - 3F: No Repels.
-  - 4F: Vitamins. No Repels.
-  - 5F: Checking now.
-- **Plan:** Check 5F. If fail -> Fly to Celadon.
+  - 2F: Basic Items (No Super Repels).
+  - 3F: Battle Items.
+  - 4F: Vitamins.
+  - 5F: TMs (Elemental Punches).
+- **Conclusion:** Goldenrod Dept Store does NOT sell Super/Max Repels.
+- **Plan:** Fly to Celadon City (Kanto).
 - **Shopping List:**
   - Super Repels (Need ~20).
-  - Ultra Balls (If available).
+  - Ultra Balls.
 - **Money:** ¥12294.
 
 # Directory Info
-- **2F:** Trainer's Market (Checked).
-- **3F:** Battle Collection (Checked).
-- **4F:** Medicine Box (Checked).
-- **5F:** TM Corner (Current).
+- **2F:** Trainer's Market (Basic).
+- **3F:** Battle Collection (X-Items).
+- **4F:** Medicine Box (Vitamins).
+- **5F:** TM Corner (Punches).
 - **6F:** Tranquil Square.
 
 # Current Task: Roamer Hunt
-- **Status:** Searching for Super Repels.
-- **Next Step:** Talk to Clerk -> Buy or Fly.
+- **Status:** Leaving Goldenrod.
+- **Next Step:** Fly to Celadon City.
 
 # Progress
 - **Badges:** 16/16.
