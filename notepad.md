@@ -34,9 +34,7 @@
 - Exploration: (11, 15) and (11, 14) are confirmed dead-end pockets. Marker 🚫 placed.
 - Navigation: (21, 46) and (18, 50) are solid cliffs (FLOOR_UP_WALL). Marker 📍 placed.
 - Pathing: To reach the southern corridor from the city center, use the gap at X=20-21.
-- Turn 48109: Row 35 plan blocked by (6, 34) FLOOR_UP_WALL.
-- New Plan: Use Row 47 crossover to reach the southern corridor (Row 51).
-- Route: (10, 35) -> (12, 35) -> (12, 47) -> (10, 47) -> (10, 51) -> (4, 51) -> (2, 51).
-- Step 1: Reach (4, 51).
+- Turn 48110: Confirmed Row 12 gap (X=9) is the primary route to the West Beach.
+- Route: (10, 35) -> (10, 12) -> (2, 12) -> (2, 14) -> (7, 4).
 - Status: XENON leading, Ultra Balls ready.
-- Goal: Reach (2, 14) to enter the north plateau.
+- Goal: Reach (7, 4) on the north plateau to trigger Suicune.
