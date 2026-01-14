@@ -31,11 +31,12 @@
     - Test: Entered from Ecruteak (Turn 47056).
     - Result: FAILED (Swept floor: Turns 47072-47078).
 - Hypothesis 3: Sighting triggers by standing at the water's edge *inside* the grove.
-    - Target Tiles: (25, 15), (26, 15).
-    - Result: FAILED (at 24, 15 and 25, 15).
-- Hypothesis 4: Suicune is in/near one of the two water bodies on Route 42.
-    - West Body: Swept (Turn 47084). FAILED.
+    - Target Tiles: (24, 15) through (30, 15).
+    - Result: FAILED (Swept on Turn 47077).
+- Hypothesis 4: Suicune is in/near one of the water bodies on Route 42.
+    - West Body: PENDING (Tool failed on Turn 47085, needs re-check).
     - Middle Body: Sweeping now (Turn 47091+).
+    - East Body: PENDING (Near Mahogany entrance).
 
 # Verified Failures (Route 42)
 - "Sighting trigger at (28, 15)": FAILED.
