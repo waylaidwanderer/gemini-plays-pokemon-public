@@ -18,22 +18,21 @@
 - Item: Ultra Balls (32).
 - Backup: GORP (Snorlax) for tanking.
 
-# Strategic Plan: The West Beach Sprint (Turn 48227)
+# Strategic Plan: The North Beach Ramp (Turn 48234)
 - Goal: Reach Suicune sighting spot at (14, 10).
-- Problem: Buoy maze is complex; city center is tiered.
-- Solution: Verified land route via gaps at (12, 44) and (5, 35).
-- Step 1: Walk to (12, 44). (In Progress)
-- Step 2: Walk to (12, 35) -> (5, 35).
-- Step 3: Walk West to West Beach at (2, 35).
-- Step 4: Walk North along X=2 to Row 10.
-- Step 5: Walk East along Row 10 to (14, 10).
-- Status: At (19, 30). Repel active.
+- Problem: The city is tiered. Row 15 has a ledge/wall blocking direct access from the south.
+- Solution: Use the West Beach Corridor (X=2) to bypass the main city walls, then use the Row 12 ramp to enter the plateau.
+- Step 1: Walk to (12, 33) and head West to (2, 33).
+- Step 2: Walk North along X=2 to (2, 12).
+- Step 3: Walk East along Row 12 to (14, 12).
+- Step 4: Walk North to (14, 10) to trigger Suicune.
+- Status: At (12, 35). Repel active.
 
 # Verified Landmarks
-- Land Gap 1: (12, 44) - Clear north-south passage between Tier 1 and Tier 2.
-- Land Gap 2: (5, 35) - Clear east-west passage to West Beach.
-- West Beach Corridor: Column X=2 - Clear path from Row 51 to Row 10.
-- Dead Ends: Great Spiral (Nautical maze), Row 15 wall (X=3-17).
+- West Beach Corridor: Column X=2 - Clear path from Row 51 to Row 14.
+- North Beach Ramp: Row 12 (X=5-16) - Clear path across the plateau boundary.
+- Plateau Boundary: Row 15 (X=3-9) WALL/LEDGE, Row 14 (X=9) WALL, Row 13 (X=9-12) WALL.
+- Suicune Spot: (14, 10) on the elevated beach.
 
 # Custom Tools (Technical Details)
 - find_path_v4: BFS pathfinder. Handles LAND vs WATER medium consistency. Treats unseen tiles as traversable within the starting medium. Handles LEDGE_HOP_DOWN as one-way (dy=1).
