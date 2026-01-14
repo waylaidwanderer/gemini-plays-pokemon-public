@@ -2,14 +2,15 @@
 - **Location:** Victory Road Gate.
 - **Goal:** Return to Johto.
 - **Current Position:** (9, 9) - Inside Gate.
-- **Action:** Walking South to Route 26 Exit (9, 17) (Retry after Phone Call).
+- **Action:** Manual Navigation around Counters to Exit (9, 17).
 - **Inventory Update:**
   - 19 Super Repels (Active).
   - 16 Ultra Balls (Existing).
 - **Route Plan:**
-  1. Exit South to Route 26.
-  2. Attempt Fly to Saffron/Viridian (Test from Route 26).
-  3. If Fly fails, walk West to Tohjo Falls -> New Bark Town.
+  1. Walk Right to (10, 9).
+  2. Walk Down past Counters (y=10 to y=13).
+  3. Walk Left/Down to Exit (9, 17).
+  4. Route 26 -> New Bark Town.
 - **Money:** ¥12294.
 
 # Directory Info (Celadon)
