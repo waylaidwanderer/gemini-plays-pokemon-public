@@ -1,5 +1,13 @@
 # PC Storage (Box 1)
+- DAPXWW (LARVITAR): Lv20
+- GLAIVE (SCYTHER): Lv14
+- SELKIE (SEEL): Lv24
+- DELTA (MANTINE): Lv20
+- RANGOON (KRABBY): Lv22
+- NOMURA (TENTACOOL): Lv17
 - Ravioli (KRABBY): Lv10 (Surf, Whirlpool)
+- Ouroboros (DRATINI): Lv15
+- AAAAAAAAAA (SPINARAK): Lv13
 - LAPIS (POLIWAG): Lv12 (Waterfall, Surf, Whirlpool)
 
 # Tile Mechanics
@@ -37,8 +45,10 @@
 - Buoy Maze: The buoy spiral is the only intended path.
 - Menu Memory: Items in the pack stay selected. Use the pocket-switch trick to reset cursor.
 - Efficiency: Use (19, 30) for launching into the spiral.
-- Menu Precision: When flying, ensure the correct destination is selected. New Bark Town is the default (index 0), while Cianwood is 6 'Down' presses away.
-- Navigation Failures: If a 'Movement Blocked' error occurs during a long path, check for wild encounters or menu states.
+
+# Fly Navigation
+- The Fly menu in Johto (Crystal) is a 2D Town Map cursor navigation, not a list.
+- To navigate from New Bark Town to Cianwood, move the cursor West (Left) across the map.
 
 # Hypotheses
 ## Land Route to Suicune (The 'Gem Shortcut')

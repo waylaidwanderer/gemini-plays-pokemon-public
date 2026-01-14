@@ -1,48 +1,4 @@
 {
-  "fly_list_navigator_v3_fixed": {
-    "description": "Calculates the shortest button sequence to navigate the Fly map list. Supports 'Johto' and 'Kanto' regions. Returns a JSON array of buttons. Validates input cities against known lists. Up increases index, Down decreases. Starting position: New Bark Town (Johto) or Pallet Town (Kanto).",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "region": {
-          "type": "string",
-          "enum": [
-            "Johto",
-            "Kanto"
-          ]
-        },
-        "current_city": {
-          "type": "string"
-        },
-        "target_city": {
-          "type": "string"
-        },
-        "autopress_buttons": {
-          "type": "boolean",
-          "default": false
-        }
-      },
-      "required": [
-        "region",
-        "current_city",
-        "target_city",
-        "autopress_buttons"
-      ]
-    },
-    "python_script": "import json\n\ndef solve():\n    region = input_data.get('region')\n    current = input_data.get('current_city')\n    target = input_data.get('target_city')\n    \n    kanto_cities = [\n        \"Pallet Town\", \"Viridian City\", \"Pewter City\", \"Cerulean City\", \n        \"Vermilion City\", \"Lavender Town\", \"Celadon City\", \"Saffron City\", \n        \"Fuchsia City\", \"Cinnabar Island\", \"Indigo Plateau\"\n    ]\n    johto_cities = [\n        \"New Bark Town\", \"Cherrygrove City\", \"Violet City\", \"Azalea Town\", \n        \"Goldenrod City\", \"Ecruteak City\", \"Olivine City\", \"Cianwood City\", \n        \"Mahogany Town\", \"Lake of Rage\", \"Blackthorn City\", \"Silver Cave\", \"Indigo Plateau\"\n    ]\n    \n    cities = kanto_cities if region == \"Kanto\" else johto_cities\n    \n    if current not in cities or target not in cities:\n        print(json.dumps([]))\n        return\n\n    start_idx = cities.index(current)\n    end_idx = cities.index(target)\n    n = len(cities)\n    \n    # Observed behavior (Crystal): \n    # Up increases index (+1)\n    # Down decreases index (-1)\n    diff = (end_idx - start_idx) % n\n    if diff <= n // 2:\n        buttons = [\"Up\"] * diff\n    else:\n        buttons = [\"Down\"] * (n - diff)\n        \n    print(json.dumps(buttons))\n\nsolve()\n",
-    "history": [
-      {
-        "commit_message": "Swapped Up and Down buttons to match observed Fly menu behavior (Up moves forward, Down moves backward).",
-        "timestamp": "2026-01-14T06:20:55.460Z",
-        "action_counter": 47231
-      },
-      {
-        "commit_message": "Update fly_list_navigator_v3_fixed with correct button mappings for Johto (Up increases index, Down decreases).",
-        "timestamp": "2026-01-14T07:47:22.439Z",
-        "action_counter": 47376
-      }
-    ]
-  },
   "menu_navigator_v2_fixed": {
     "description": "Executes a sequence of button presses to navigate menus. Returns a JSON array of buttons. Use this to bypass the restriction on mixing directional and action inputs. Automatically handles autopress_buttons.",
     "input_schema": {
