@@ -1,16 +1,15 @@
 # Mechanics & State
 - **Location:** Victory Road Gate.
 - **Goal:** Return to Johto.
-- **Current Position:** (9, 9) - Inside Gate.
-- **Action:** Manual Navigation around Counters to Exit (9, 17).
+- **Current Position:** (10, 9) - Inside Gate.
+- **Action:** Exiting South to Route 26 -> Fly Saffron.
 - **Inventory Update:**
   - 19 Super Repels (Active).
   - 16 Ultra Balls (Existing).
 - **Route Plan:**
-  1. Walk Right to (10, 9).
-  2. Walk Down past Counters (y=10 to y=13).
-  3. Walk Left/Down to Exit (9, 17).
-  4. Route 26 -> New Bark Town.
+  1. Exit South to Route 26 (Current).
+  2. Fly to Saffron City.
+  3. Magnet Train to Goldenrod.
 - **Money:** ¥12294.
 
 # Directory Info (Celadon)
