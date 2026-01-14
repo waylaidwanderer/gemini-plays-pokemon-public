@@ -1,15 +1,16 @@
 # Mechanics & State
-- **Location:** Goldenrod City (Arriving via Fly).
-- **Goal:** Supply Run (Dept Store) -> Hunt Roamers.
-- **Menu State:** Overworld (After Fly animation).
-- **Roamer Strategy:** Use Level 36 Gyarados + Max Repels (if available) or Super Repels.
-- **Location Strategy:** Route 37 <-> Ecruteak City is the best hunting ground due to quick transitions.
+- **Location:** Goldenrod City.
+- **Goal:** Supply Run (Dept Store).
+- **Current Position:** (15, 28) - Outside Bike Shop.
+- **Destination:** Goldenrod Dept Store (24, 27).
+- **Shopping List:**
+  - Max Repels (Priority) or Super Repels.
+  - Poke Balls (Ultra Balls) if low (Currently have 16 Ultra Balls - Good).
+- **Money:** ¥12294.
 
 # Current Task: Roamer Hunt
-- **Status:** Arrived in Goldenrod.
-- **Next Step:** Go to Department Store (Floor 5?) for Repels.
-- **Need:** Max Repels (efficiency) or Super Repels.
-- **Check:** Do they sell Max Repels? (Verify).
+- **Status:** Walking to Dept Store.
+- **Next Step:** Enter Dept Store -> Find Elevator/Stairs -> Buy Repels.
 
 # Progress
 - **Badges:** 16/16.
