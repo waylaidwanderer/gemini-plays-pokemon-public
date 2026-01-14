@@ -29,3 +29,8 @@
 - Eusine battle confirms sighting completion.
 - Buoy walls are highly restrictive; land routes often safer.
 - Deep menu navigation requires clearing the current state (B-mashing) before starting a new sequence.
+
+# Suicune sighting on Route 42 Hypothesis
+- Hypothesis: Interacting with the area at (26, 15) triggers the third sighting.
+- Test: Navigate to (26, 15) and observe if Suicune appears.
+- Conclusion: PENDING
