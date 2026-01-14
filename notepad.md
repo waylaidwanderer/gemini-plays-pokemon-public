@@ -1,9 +1,9 @@
 # Strategic Status
 - **Goal:** Register Raikou & Entei.
-- **Current Action:** Re-entering Route 37.
-- **Location:** Ecruteak City (South).
-- **Status:** Reset complete. Heading back to grass.
-- **Repel:** Active (used ~60 steps ago).
+- **Current Action:** Entering Grass to Scan.
+- **Location:** Route 37 (North).
+- **Status:** Moving into position (7, 4).
+- **Repel:** Active (used ~65 steps ago).
 - **Session Start:** Turn 38471.
 
 # Roamer Hunting Strategy (Blind)
