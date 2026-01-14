@@ -14,16 +14,14 @@
 - FLOOR: Walkable.
 - WALL / BUOY: Impassable.
 - WATER: Traversable only via Surf.
-- FLOOR_UP_WALL: Two-way barrier across the top edge. Blocks entry and exit from/to the North. Verified at (19, 50) and (16, 10).
+- FLOOR_UP_WALL: Impassable from the NORTH. Verified at (16, 10), (4, 30), (23, 46).
 - LEDGE_HOP_DOWN: One-way jump from NORTH to SOUTH. Verified at (10, 15).
 - COUNTER: Impassable.
 
 # Suicune Quest
 - Start Turn (Cianwood Re-attempt): 47450
 - Status: Sighting 2 (Cianwood North Beach) in progress.
-- Strategy: The 'Plateau Landing'. The northern section is accessible via Surf from the east.
-- Route: Surf South to (23, 21), then West to (20, 21), then North to (20, 11), then West to (17, 11). Land at (16, 11).
-- Plateau Navigation: From (16, 11), walk West to (15, 11), then North to (15, 10). Walk West to X=7 and North to (7, 4).
-- Verification (Turn 47577): Row 15 wall has no land gaps. Column 26 buoy wall isolates the far east water. The landing at (16, 11) is the only confirmed way up.
+- Current Strategy: Navigate to north beach (7, 4) using verified water gaps.
+- Route: Surf North to (23, 15) [Gap], then North to (23, 9) [Gap], then West to (16, 9) [Unseen], then South to (16, 11) [Landing].
 - Sighting 1: Burned Tower (DONE)
 - Battle Strategy: Use XENON (Haunter) for Hypnosis.
