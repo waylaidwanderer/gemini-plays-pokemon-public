@@ -30,3 +30,5 @@
     - Automation: Fly tool failed (menu loop), switched to manual pathing.
     - Goals: Clear. Detour necessary for supplies.
     - Errors: Visual feedback needed for menu tools. Relying on walking for reliability.
+## Goldenrod Dept Store
+- 2F: Trainer's Market (Standard items like Balls, Potions, Repels).
