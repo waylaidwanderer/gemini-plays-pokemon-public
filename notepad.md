@@ -24,8 +24,8 @@
 ## The 'Beach Shortcut'
 - Hypothesis: The northern plateau (Suicune at 7, 4) is reachable by walking North along the West beach at X=2.
 - Route: 
-  1. Navigate to the southern corridor (Y >= 47).
-  2. Walk West through the gap at (5, 47) to reach the beach.
+  1. Navigate to the southern corridor (Y >= 48).
+  2. Walk West through gaps in the internal walls to reach the beach at X=2.
   3. Walk North along the sand (X=2) to Y=4.
 - Status: Testing. Turn Limit: 48150.
 
@@ -36,4 +36,5 @@
 
 # Lessons Learned
 - Fly Navigation: The Johto Fly menu is a linear list scrolled with Up/Down, not a 2D grid.
-- Exploration: (11, 15) and (11, 14) are dead-end pockets.
+- Exploration: (11, 15) and (11, 14) are confirmed dead-end pockets.
+- Navigation: (21, 46) is a solid cliff (FLOOR_UP_WALL), not a jumpable ledge. Use X=18 gap to go South.
