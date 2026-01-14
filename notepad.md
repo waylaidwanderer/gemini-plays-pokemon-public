@@ -11,28 +11,22 @@
 # Strategic Status
 - **Money:** ¥2294 (Enough for ~4 Super Repels).
 - **Shopping List:** Super Repel x4.
-- **Inventory Check:** No high-value items to sell in bag.
+- **Task Start:** Turn 39121 (Dept Store Supply Run).
 - **Goal:** Register Raikou & Entei.
 - **Strategy:** Blind Hunt (Optimized). 
     - **Logic:** Tracking roamers from adjacent maps is futile because entering their map causes them to move. Thus, a blind encounter on entry is the only valid method.
     - Use Super Repel with Lead Pokemon (Lv 36) < Roamer (Lv 40) but > Wild (Lv 17).
-    - Enter Route 37.
-    - Move to grass and Scan ONCE (20 steps).
-    - If no encounter, IMMEDIATELY transition to Ecruteak and back to reset.
+    - Loop: Enter Route 37 -> Scan Grass (20 steps) -> Exit to Ecruteak -> Repeat.
     - Do NOT check Pokegear map.
-- **Repel Status:** Wore off (Turn 39058). Out of stock. Ecruteak Mart had none. Heading to Goldenrod.
+- **Repel Status:** Wore off (Turn 39058). Out of stock. Ecruteak Mart had none.
 - **Session Start:** Turn 38471.
 - **Active Events:** Bug-Catching Contest (Tuesday).
-- **Interruption Handling:** Phone calls or other events can pause automation; handle immediately to resume loops.
-- **Roamer Logic:** Roamers move to an adjacent map when the player transitions maps. 'Chasing' a roamer seen on the map is ineffective as they move away upon entry. 'Blind Interception' relies on them moving *into* your map as you enter, which is best achieved by maximizing map transitions per hour.
-- **Detour to Goldenrod:** Started Turn 39093. Fly failed, walking via Route 36 -> 35.
-- **Reflection (Turn 39093):**
-    - Execution: Good. No deferred tasks.
-    - Hygiene: Updated Repel status.
-    - Map: Markers accurate. Route 36 entered.
-    - Automation: Fly tool failed (menu loop), switched to manual pathing.
-    - Goals: Clear. Detour necessary for supplies.
-    - Errors: Visual feedback needed for menu tools. Relying on walking for reliability.
+- **Roamer Logic:** Roamers move to an adjacent map when the player transitions maps. 'Blind Interception' relies on them moving *into* your map as you enter.
+- **Detour to Goldenrod:** Started Turn 39093. Arrived.
+- **Reflection (Turn 39145):**
+    - Search for Super Repels ongoing.
+    - 2F confirmed empty of Super Repels.
+    - Checking 3F Directory.
 ## Goldenrod Dept Store
 - 2F: Trainer's Market.
     - Top Clerk (13,5): Potions, Status Heals.
