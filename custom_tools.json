@@ -159,12 +159,17 @@
         "target_y"
       ]
     },
-    "python_script": "import json\ninput_data = json.loads(input_params)\nstart_x = int(input_data['start_x'])\nstart_y = int(input_data['start_y'])\ntarget_x = int(input_data['target_x'])\ntarget_y = int(input_data['target_y'])\nwait_ms = int(input_data.get('wait_ms', 300))\n\nbuttons = ['sleep 500']\n\ndx = target_x - start_x\ndy = target_y - start_y\n\nx_btn = 'Right' if dx > 0 else 'Left'\ny_btn = 'Down' if dy > 0 else 'Up'\n\nfor _ in range(abs(dx)):\n    buttons.append(x_btn)\n    buttons.append(f'sleep {wait_ms}')\n\nfor _ in range(abs(dy)):\n    buttons.append(y_btn)\n    buttons.append(f'sleep {wait_ms}')\n\nbuttons.append('A')\nprint(json.dumps(buttons))",
+    "python_script": "import json\n\n# input_data is automatically provided as a dictionary.\nstart_x = int(input_data['start_x'])\nstart_y = int(input_data['start_y'])\ntarget_x = int(input_data['target_x'])\ntarget_y = int(input_data['target_y'])\nwait_ms = int(input_data.get('wait_ms', 300))\n\nbuttons = ['sleep 500']\n\ndx = target_x - start_x\ndy = target_y - start_y\n\nx_btn = 'Right' if dx > 0 else 'Left'\ny_btn = 'Down' if dy > 0 else 'Up'\n\nfor _ in range(abs(dx)):\n    buttons.append(x_btn)\n    buttons.append(f'sleep {wait_ms}')\n\nfor _ in range(abs(dy)):\n    buttons.append(y_btn)\n    buttons.append(f'sleep {wait_ms}')\n\nbuttons.append('A')\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2026-01-14T20:19:25.182Z",
         "action_counter": 48003
+      },
+      {
+        "commit_message": "Fixing NameError by using the automatically provided input_data variable instead of trying to parse a non-existent input_params string.",
+        "timestamp": "2026-01-14T20:19:58.173Z",
+        "action_counter": 48005
       }
     ]
   }
