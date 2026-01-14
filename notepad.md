@@ -18,18 +18,25 @@
 - Item: Ultra Balls (32).
 - Backup: GORP (Snorlax) for tanking.
 
-# Strategic Plan: The Southern Corridor Sprint (Turn 48222)
-- Goal: Reach Suicune sighting spot at (14, 10).
-- Problem: City center is a plateau; buoy maze is a dead end.
-- Solution: Row 51 is a low-level corridor connecting east and west beaches.
-- Step 1: Surf to (19, 30) and land. (In Progress)
-- Step 2: Walk to (20, 51) via (20, 50).
-- Step 3: Walk West along Row 51 to West Beach at (2, 51).
-- Step 4: Walk North along Column X=2 to (2, 10).
-- Step 5: Walk East along Row 10 to (14, 10).
-- Status: At (23, 15) in water. Repel active.
+# Strategic Plan: The Great Spiral (Turn 48223)
+- Goal: Trigger Suicune sighting at (14, 10).
+- Trek Start: Turn 48203.
+- Step 1: Reach Outer Channel at (27, 30). (Done)
+- Step 2: Use Super Repel. (Done)
+- Step 3: Navigate Buoy Maze Gaps:
+  - Gap 1: (22, 16) - Outer to Inner Channel. (In Progress)
+  - Gap 2: (19, 14) - Inner to Approach Channel.
+  - Gap 3: (18, 14) - Clear X=18 buoy line.
+  - Gap 4: (17, 11) - Clear X=17 wall (Hypothesized).
+- Step 4: Land on North Plateau at (16, 11).
+- Step 5: Walk to (14, 10).
 
 # Verified Landmarks
-- Gaps: (26, 10), (22, 16), (18, 26).
-- Landing: (19, 30).
-- Corridor: Row 51 (X=2-24).
+- Gaps: (26, 10), (22, 16), (19, 14), (18, 14).
+- Plateau Landing: (16, 11-14).
+- Sighting Spot: (14, 10).
+- Land Shortcut (Backup): Reach Row 51 via (20, 50), walk West to X=2, then North.
+
+# Custom Tools (Technical Details)
+- find_path_v4: BFS pathfinder. Handles LAND vs WATER medium consistency. Treats unseen tiles as traversable within the starting medium. Handles LEDGE_HOP_DOWN as one-way (dy=1).
+- menu_navigator_v2_fixed: Sequence-based button presser for deep menu navigation.
