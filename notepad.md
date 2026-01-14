@@ -21,7 +21,7 @@
 # Suicune Quest
 - Status: 16 Badges, Clear Bell in inventory.
 - Current Objective: Sighting 2 (Cianwood City North Beach).
-- Strategy: The 'Sea Loop' path. X=22 buoy wall is solid from Y=9 to Y=15. X=19 buoy wall is solid from Y=15 to Y=20. Cross X=22 at Y=8 or Y=16. Cross X=19 at Y=14 or above.
-- Route: (20, 16) -> (23, 16) -> (23, 8) [Pivot] -> (18, 8) -> (18, 11) -> (16, 11) [Land].
+- Strategy: The 'Sea Loop' path. A continuous buoy barrier exists from (19, 20) to (19, 15) to (22, 15) to (22, 9). Another wall is at X=26 (Y0-9). Navigate east to X=27, north to Y=8, then west to X=18 to reach the beach.
+- Route: (23, 16) -> (27, 16) -> (27, 8) [Pivot] -> (18, 8) -> (18, 11) -> (16, 11) [Land] -> (7, 4).
 - Battle Strategy: Lead with XENON (Haunter) for Hypnosis.
-- History: 130 turns spent navigating Cianwood. Confirmed buoy walls at X=19 (Y15-20), X=22 (Y9-15), and X=26 (Y0-9).
+- History: 130 turns spent navigating Cianwood. Confirmed buoy walls at X=19 (Y15-20), X=22 (Y9-15), and X=26 (Y0-9). Gap at (23, 15) is a dead end pocket.
