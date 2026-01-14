@@ -1,9 +1,10 @@
 # Strategic Status
 - **Goal:** Register Raikou & Entei.
-- **Current Action:** Reapplying Repel.
+- **Current Action:** Opening Menu (Phone call interrupt).
 - **Location:** Route 37 (6, 3).
-- **Status:** Repel expired (Unexpectedly fast?). Reapplying.
+- **Status:** Wade called about Bug Contest. Now opening menu to apply Repel.
 - **Repel:** Expired.
+- **Note:** Bug-Catching Contest is active today (Tuesday).
 - **Session Start:** Turn 38471.
 
 # Roamer Hunting Strategy (Blind)
