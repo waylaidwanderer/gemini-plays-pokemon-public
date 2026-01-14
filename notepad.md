@@ -12,22 +12,18 @@
 - COUNTER: Impassable. Used to interact with NPCs from an adjacent tile.
 
 # Suicune Quest
-- Status: 16 Badges, Clear Bell in inventory (Red Defeated status uncertain, team levels Lv44-64).
+- Status: 16 Badges, Clear Bell in inventory.
 - Start Turn (Route 42 Grove): 47288.
 - Sighting Progress:
     1. Burned Tower (DONE)
     2. Cianwood City (VERIFYING - North Beach)
-    3. Route 42 (Middle Grove) - TRIGGER FAILED (Swept all tiles, no event).
+    3. Route 42 (Middle Grove) - TRIGGER FAILED.
     4. Kanto Route 14 (East of Fuchsia) - LOCKED.
     5. Kanto Route 25 (Cerulean Cape) - LOCKED.
-- Strategy & Lessons:
-    - Visit sighting spots in order. Quest is strictly linear.
-    - Lesson: Suicune is a static land sprite; water sweeps are ineffective.
-    - Lesson: Missing a Johto sighting (e.g., Route 42) blocks all subsequent sightings in Kanto and the Tin Tower event.
+- Strategy:
+    - Verify Cianwood sighting at (11, 17). If Eusine/Suicune are gone, Cianwood is confirmed.
+    - If Cianwood is confirmed, re-attempt Route 42 by entering from Ecruteak.
+    - Suicune must be triggered at all Johto spots before Kanto sightings unlock.
 - Backtracking Plan (HOW):
-    - Fly to Cianwood and check the north beach.
-    - If Suicune is there, trigger the event and battle Eusine.
-    - Then return to Route 42 grove.
-- Hypothesis Log (Route 42):
-    - H1: Trigger is a specific tile within the grove boundary. (Tested with 'suicune_sweep_v2', Failed Turn 47324).
-    - H2: Prerequisite (Cianwood Sighting) is incomplete. (Testing now).
+    - Walk to (11, 17) and check for NPCs/Sprites.
+    - If clear, Fly to Ecruteak and walk to Route 42 grove.
