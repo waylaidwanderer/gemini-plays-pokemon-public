@@ -28,3 +28,4 @@
 # Lessons Learned
 - Eusine battle confirms sighting completion.
 - Buoy walls are highly restrictive; land routes often safer.
+- Deep menu navigation requires clearing the current state (B-mashing) before starting a new sequence.
