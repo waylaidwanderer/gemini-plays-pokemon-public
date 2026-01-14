@@ -2,9 +2,9 @@
 
 # Strategic Status
 - **Goal:** Register Raikou & Entei.
-- **Current Action:** Clearing Phone Call (Gaven) -> National Park.
+- **Current Action:** Entering National Park Gatehouse.
 - **Location:** Route 35.
-- **Status:** Phone call almost done. Resuming travel to Gatehouse (3, 5).
+- **Status:** Phone call finished. Moving North to Gatehouse (3, 5).
 
 # Roamer Hunting Strategy (Route 37)
 1.  **Setup:** 
