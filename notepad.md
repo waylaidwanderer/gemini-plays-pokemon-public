@@ -1,8 +1,8 @@
 # Mechanics & State
 - **Location:** Goldenrod Dept Store 3F (Battle Collection).
 - **Goal:** Supply Run (Dept Store).
-- **Current Position:** (6, 3).
-- **Action:** Closing Menu -> Going to 4F.
+- **Current Position:** (14, 1) - Near 4F Stairs.
+- **Action:** taking Stairs to 4F.
 - **Inventory Check:**
   - 2F: No Super Repels.
   - 3F: Battle Items (X Items, Dire Hit). No Repels.
