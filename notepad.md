@@ -2,7 +2,7 @@
 - **Location:** Goldenrod Magnet Train Station.
 - **Goal:** Go to Celadon (Kanto).
 - **Current Position:** (9, 10) - At Gate.
-- **Action:** Confirming "YES" to board train.
+- **Action:** Advancing dialogue ("May I see your rail PASS?").
 - **Key Item:** Pass (Have).
 - **Inventory Check:**
   - Goldenrod had no Super Repels.
