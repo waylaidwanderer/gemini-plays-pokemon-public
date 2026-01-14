@@ -18,16 +18,13 @@
 - LEDGE_HOP_DOWN: One-way jump from NORTH to SOUTH. Verified at (10, 15).
 - COUNTER: Impassable.
 
-# Suicune Quest Strategy: 'South Loop'
+# Suicune Quest Strategy: 'Land Detour'
 - Goal: Reach north beach sighting area at (7, 4).
-- Obstacles: 
-    - X=26 Buoy Wall (Y0-9)
-    - X=22 Buoy Wall (Y9-15)
-    - X=19 Buoy Wall (Y15-20)
+- Problem: Buoy walls block water access to the north beach.
+- Solution: Land at the 'East Coast Surf Point' (19, 30) and walk through the city.
 - Route:
-    1. Move through the gap at (26, 10).
-    2. Sail south to row 16 to clear the X=22 wall.
-    3. Sail south to row 21 to clear the X=19 wall at (19, 21).
-    4. Sail north to the beach landing at (16, 11).
-    5. Walk to (7, 4).
+    1. Sail to (19, 30) and land.
+    2. Walk to (12, 30) -> (12, 29) -> (11, 29) -> (11, 15) [Wall Gap].
+    3. Walk to (7, 14) -> (7, 4).
 - Battle Strategy: Lead with XENON (Haunter) for Hypnosis.
+- History: Spent 130 turns attempting to navigate the buoy maze. Confirmed water access is heavily restricted. Landing and walking is the intended solution.
