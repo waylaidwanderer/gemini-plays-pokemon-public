@@ -13,11 +13,12 @@
 # Strategic Status
 - **Goal:** Register Raikou & Entei.
 - **Current Task:** Farm money at Elite Four -> Buy Max Repels (20x).
-- **Location:** Goldenrod City (In Menu).
-- **Fly Status:** Selected 'Blackthorn City'. Target: 'Indigo Plateau'.
+- **Location:** Goldenrod City (Walking).
+- **Navigation:** Walking to Magnet Train Station (9, 13).
 - **Plan:**
-    1. Navigate Fly Map to Indigo Plateau.
-    2. Win battles at E4.
-    3. Buy supplies.
-    4. Execute "Blind Hunt" strategy for Roamers (Enter Route 37 -> Scan -> Exit -> Repeat).
+    1. Take Magnet Train to Saffron City.
+    2. Fly from Kanto to Indigo Plateau.
+    3. Win battles at E4.
+    4. Buy supplies.
+    5. Execute "Blind Hunt" strategy for Roamers (Enter Route 37 -> Scan -> Exit -> Repeat).
 - **Resources:** ¥2294. Repels: 0.
