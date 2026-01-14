@@ -5,8 +5,8 @@
 # Strategic Status
 - **Goal:** Register Raikou & Entei.
 - **Current Action:** Traversing Route 36 -> Route 37.
-- **Location:** Route 36.
-- **Status:** Walking East then North to reach Route 37.
+- **Location:** Route 36 (20, 12).
+- **Status:** Moving to (27, 9) to verify path (Mental Map shows trees, but Sudowoodo should be gone).
 
 # Roamer Hunting Strategy (Route 37)
 1.  **Setup:** 
