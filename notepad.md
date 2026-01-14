@@ -37,5 +37,6 @@
 - Suicune Grove Search (Route 42):
     - Attempt 1: Walked around (28, 15), (27, 15), (25, 14), (30, 17). No trigger.
     - Attempt 2: Systematically walking Row 15 (26, 15 to 30, 15) and Row 17 (26, 17 to 30, 17).
-    - Hypothesis: Trigger tile is likely (28, 15) or adjacent, approaching the center tree.
+    - Attempt 3: Interacted with trees. Obtained GRN APRICORN.
+    - Hypothesis: Trigger tile is likely (28, 15) or approaching from a specific angle.
     - Result: Pending.
