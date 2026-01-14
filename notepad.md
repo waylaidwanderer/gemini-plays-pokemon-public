@@ -42,3 +42,6 @@
 # Pivot Plan (If Route 42 Abandoned)
 - Option A: Fly to Saffron -> Walk to Route 25 (Cerulean Cape).
 - Option B: Visit Tin Tower in Ecruteak.
+
+# Map Insights
+- Ecruteak Courtyard (Tin Tower grounds): Enclosed area reachable only through the entrance building at (18, 11). Warps at (20, 2) and (20, 3) lead back inside. No direct path to the rest of the city.
