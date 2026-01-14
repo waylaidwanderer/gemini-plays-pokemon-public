@@ -23,10 +23,10 @@
 - Observation: The Great Spiral is a dead end. The North Plateau sighting spot (14, 10) is only reachable via the West Beach (X=2).
 - Step 1: Use Super Repel. (Done)
 - Step 2: Surf South to (28, 45) and land at (27, 45). (Done)
-- Step 3: Surf South along X=30 to Row 52.
-- Step 4: Surf West along Row 52 to X=2.
-- Step 5: Surf North along X=2 to Row 10.
-- Step 6: Land at (6, 10) and walk to (14, 10) to trigger Suicune.
+- Step 3: Land at (27, 45) and walk to (6, 45).
+- Step 4: Navigate around the X=5 wall: (6, 45) -> (6, 44) -> (4, 44) -> (4, 46).
+- Step 5: Walk South to Row 51, then West to the beach corridor at X=2.
+- Step 6: Walk North along X=2 to Row 14, then East to (14, 10).
 - Status: XENON leading, Repel active.
 - Verification: X=4 is a clear gap through the Row 46-50 ledges.
 
