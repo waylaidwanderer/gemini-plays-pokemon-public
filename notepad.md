@@ -1,9 +1,8 @@
 # Mechanics & State
 - **Location:** Goldenrod Dept Store 3F (Battle Collection).
 - **Goal:** Supply Run (Dept Store).
-- **Current Position:** (12, 1) - Arrived from 2F.
-- **Action:** Walking to Clerk at (6, 1).
-- **Interaction Point:** Stand at (6, 3), Face Up.
+- **Current Position:** (6, 3).
+- **Action:** Talking to Clerk at (6, 1).
 - **Shopping List:**
   - Super Repels (Need ~20).
   - Ultra Balls (If available).
