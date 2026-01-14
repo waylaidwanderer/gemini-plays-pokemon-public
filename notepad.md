@@ -1,8 +1,8 @@
 # Strategic Status
 - **Goal:** Register Raikou & Entei.
-- **Current Action:** Blind Hunting on Route 37.
-- **Location:** Route 37 (North).
-- **Status:** Entering grass to check for Roamers. Since they are not registered, I cannot check the map.
+- **Current Action:** Resetting Roamer positions.
+- **Location:** Route 37 -> Ecruteak City.
+- **Status:** Scan failed (20 steps, no encounter). Moving to Ecruteak to reset, then returning.
 
 # Roamer Hunting Strategy (Blind)
 1.  **Setup:** 
