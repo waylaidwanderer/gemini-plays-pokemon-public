@@ -1,19 +1,21 @@
 # Strategic Status
 - **Goal:** Register Raikou & Entei.
-- **Current Action:** Returning to Route 37 to check Roamer positions.
-- **Location:** Ecruteak City (South Exit).
-- **Status:** Just reset positions by entering Ecruteak. Heading back to Route 37.
+- **Current Action:** Blind Hunting on Route 37.
+- **Location:** Route 37 (North).
+- **Status:** Entering grass to check for Roamers. Since they are not registered, I cannot check the map.
 
-# Roamer Hunting Strategy (Route 37)
+# Roamer Hunting Strategy (Blind)
 1.  **Setup:** 
     - Lead: Gyarados (Lv 36).
-    - Item: Super Repel (Apply if Roamer is on Route 37).
+    - Item: Super Repel.
     - Balls: 16 Ultra Balls.
 2.  **Procedure:**
-    - Cycle: Route 37 <-> Ecruteak City.
-    - Check Map on Route 37.
-    - If Roamer is here: Apply Super Repel, run in grass.
-    - If not: Return to Ecruteak, then back to Route 37.
+    - Enter Route 37.
+    - Walk into grass.
+    - Ensure Super Repel is active.
+    - Run ~20 steps.
+    - If encounter: Catch!
+    - If no encounter: Return to Ecruteak (Reset), then back to Route 37.
 3.  **Target:** Raikou/Entei (Lv 40). Repel filters Lv < 36.
 
 # Notes
