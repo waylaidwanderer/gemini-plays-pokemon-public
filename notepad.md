@@ -22,6 +22,6 @@
     6. Sail South to (14, 10) and LAND.
     7. Walk to Suicune at (7, 4).
 - Preparation: Lead with XENON (Haunter) for Hypnosis. Use SUPER REPEL.
-- Status: At (19, 30) on land. Starting the buoy loop.
+- Status: In battle with wild Tentacool at (19, 21). Escaping to continue the buoy loop.
 - Start Turn: 47680 (Suicune North Beach Quest)
 - Start Time: Wednesday, Jan 14, 2026, 4:00 AM PST
