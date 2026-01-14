@@ -221,7 +221,7 @@
     ]
   },
   "perform_roamer_hunt_cycle": {
-    "description": "Automates the Roamer hunting loop on Route 37. Moves UP to Ecruteak City to reset the map, waits, moves DOWN back to the grass on Route 37 (4 steps), waits, and performs a grass scan. Includes safety delays for map loading.",
+    "description": "Automates the Roamer hunting loop on Route 37. Moves UP to Ecruteak City to reset the map, waits 6s, moves DOWN back to the grass on Route 37 (4 steps), waits 6s, and performs a grass scan. Includes safety delays for map loading.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -233,7 +233,7 @@
       },
       "required": []
     },
-    "python_script": "import json\nscan_steps = input_data.get('scan_steps', 20)\nbuttons = []\n# Move Up to Ecruteak (reset map)\nbuttons.extend([\"Up\"] * 6)\nbuttons.append(\"sleep 4000\")\n# Move Down back to grass (target y=4)\nbuttons.extend([\"Down\"] * 4)\nbuttons.append(\"sleep 4000\")\n# Scan grass\nfor _ in range(scan_steps // 2):\n    buttons.append(\"Left\")\n    buttons.append(\"Right\")\nif scan_steps % 2:\n    buttons.append(\"Left\")\nprint(json.dumps(buttons))",
+    "python_script": "import json\nscan_steps = input_data.get('scan_steps', 20)\nbuttons = []\n# Move Up to Ecruteak (reset map)\nbuttons.extend([\"Up\"] * 6)\nbuttons.append(\"sleep 6000\")\n# Move Down back to grass (target y=4)\nbuttons.extend([\"Down\"] * 4)\nbuttons.append(\"sleep 6000\")\n# Scan grass\nfor _ in range(scan_steps // 2):\n    buttons.append(\"Left\")\n    buttons.append(\"Right\")\nif scan_steps % 2:\n    buttons.append(\"Left\")\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -254,6 +254,11 @@
         "commit_message": "Increased sleep duration to 4000ms to ensure map transitions complete reliably.",
         "timestamp": "2026-01-14T08:00:30.453Z",
         "action_counter": 38748
+      },
+      {
+        "commit_message": "Increased sleep duration to 6000ms to aggressively ensure map transitions complete before moving.",
+        "timestamp": "2026-01-14T09:18:39.229Z",
+        "action_counter": 38761
       }
     ]
   }
