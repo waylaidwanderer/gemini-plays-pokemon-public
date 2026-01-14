@@ -12,13 +12,16 @@
 - FLOOR_UP_WALL: Ledge face. Impassable.
 - LEDGE_HOP_DOWN: One-way jump (North to South).
 
-# Fly Navigation (List vs. 2D Theory)
-- Starting City: New Bark Town.
-- Observation 1: Pressing 'Down' once changed destination to 'Silver Cave'.
-- Observation 2: Pressing 'Left' once from 'Silver Cave' did not change the destination.
-- Theory: The 'Where?' bubble with Up/Down arrows indicates a linear list of fly points.
+# Fly Navigation (List Interface)
+- Interface: 'Where?' bubble with Up/Down arrows indicates a linear list of Fly points.
+- Control: Use Up/Down to cycle through cities. Left/Right confirmed ineffective.
+- Observed Order (using Down):
+  1. New Bark Town
+  2. Silver Cave
+  3. Blackthorn City
+  4. Lake of Rage
 - Goal: Cianwood City.
-- Plan: Press 'Down' repeatedly to scroll through the list and find Cianwood.
+- Strategy: Continue pressing Down to scroll the list.
 
 # Suicune Capture Strategy
 - Lead: XENON (Haunter, Lv44).
@@ -28,5 +31,5 @@
 
 # Strategic Plans
 - Fly to Cianwood City.
-- Verify 'Gem Shortcut': Check if wall gap at (11, 15) allows access to north plateau (Y<16).
+- Verify 'Gem Shortcut': Once in Cianwood, manually check the wall at (11, 15) to confirm if it allows beach access to the north plateau (Y<16). [Status: High Suspicion of Hallucination].
 - Locate Suicune at (7, 4) on the north beach plateau.
