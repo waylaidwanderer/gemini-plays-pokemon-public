@@ -27,5 +27,9 @@
 - Backtracking Plan (HOW):
     - Head East to the grove near the 3 Apricorn trees on Route 42.
     - Ensure KIMCHI has Cut for the tree at (24, 13).
-    - Trigger the sighting in the grove.
+    - Trigger the sighting in the grove using 'suicune_sweep' tool.
     - Return to Kanto (Fuchsia City) after Johto sighting.
+- Hypothesis Log (Route 42):
+    - H1: Standing on (28, 15) triggers event. (Failed Turn 47293)
+    - H2: Walking Row 15/17 triggers event. (Failed Turn 47310)
+    - H3: Trigger is a specific tile within the grove boundary. (Testing with 'suicune_sweep')
