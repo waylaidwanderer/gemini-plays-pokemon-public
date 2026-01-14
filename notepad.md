@@ -21,17 +21,17 @@
 - Sighting Progress:
     1. Burned Tower (DONE)
     2. Cianwood City (DONE - Eusine defeated)
-    3. Route 42 (Middle Grove) - SKIPPED/FAILED (Exhaustive search yielded no result).
-    4. Kanto Route 14 (East of Fuchsia) - PENDING
-    5. Kanto Route 25 (Cerulean Cape) - PENDING
+    3. Route 42 (Middle Grove) - MUST RETURN (Sighting missed, blocks Kanto progress).
+    4. Kanto Route 14 (East of Fuchsia) - LOCKED (Requires Route 42 sighting).
+    5. Kanto Route 25 (Cerulean Cape) - LOCKED (Requires Route 42 sighting).
 - Strategy & Lessons:
-    - Visit sighting spots in order.
-    - Lesson: Suicune is a static land sprite; water sweeps are ineffective. If not visible, check prerequisites or other maps.
-- Kanto Route 14 Plan:
-    1. Continue East through Route 15 to reach Route 14. (IN PROGRESS)
-    2. Look for Suicune sprite on land (likely near water or in a clearing).
-    3. If not found, head North to Route 13 -> Route 12 -> Lavender Town.
-    4. Final stop: Route 25 (Cerulean Cape).
+    - Visit sighting spots in order. Quest is strictly linear.
+    - Lesson: Suicune is a static land sprite; water sweeps are ineffective.
+- Backtracking Plan:
+    1. Defeat Teacher Hillary.
+    2. Fly to Ecruteak City (Johto).
+    3. Head East to Route 42 Middle Grove (approach the 3 Apricorn trees).
+    4. Return to Kanto (Fuchsia City) after Johto sighting.
 
 # PC Storage (Box 1)
 - LARVITAR, SCYTHER, SEEL, MANTINE, KRABBY x2, TENTACOOL, DRATINI, SPINARAK, POLIWAG.
