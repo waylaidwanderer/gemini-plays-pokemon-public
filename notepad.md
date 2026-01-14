@@ -24,3 +24,8 @@
 - Sighting 2: Cianwood City (In Progress)
 - Current Plan: Reset via Fly to (16, 11), then navigate to (7, 4).
 - Observation: Eusine marker at (11, 17) was a hallucination/error and has been deleted.
+
+# Observation (Turn 47509)
+- Fly to Cianwood lands you at (23, 44) (Poke Center), not the northern landing zone.
+- The city layout is heavily restricted by one-way walls and water channels.
+- Target: North beach at (7, 4).
