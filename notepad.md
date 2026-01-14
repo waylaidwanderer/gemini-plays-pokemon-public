@@ -38,3 +38,4 @@
 - Route 42: Middle grove with Apricorns requires Cut at (24, 13).
 - Mt. Mortar: B1F ladder at (19, 29) leads to 1FOutside (17, 29). B1F has an item ball at (21, 26).
 - Ecruteak: Gatehouse to Route 42 is at (35, 27).
+- COUNTER: Impassable. Used to interact with NPCs from an adjacent tile. Verified in Route42EcruteakGate.
