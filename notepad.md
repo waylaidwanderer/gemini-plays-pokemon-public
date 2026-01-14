@@ -2,15 +2,15 @@
 - **Location:** Viridian City.
 - **Goal:** Return to Johto.
 - **Current Position:** (24, 30).
-- **Fly Map Cursor:** Indigo Plateau.
-- **Action:** Navigating Fly Map (Right -> Down to Viridian).
+- **Fly Map Cursor:** Cinnabar Island.
+- **Action:** Navigating Fly Map (Up -> Up to Viridian).
 - **Inventory Update:**
   - 19 Super Repels (Active).
   - 16 Ultra Balls (Existing).
 - **Route Plan:**
-  1. Move Cursor: Indigo -> Pewter -> Viridian.
+  1. Move Cursor: Cinnabar -> Pallet -> Viridian.
   2. Verify Cursor at Viridian.
-  3. Move Cursor: Viridian -> Saffron.
+  3. Move Cursor: Viridian -> Saffron (Try Right or Up-Right-Down).
   4. Fly to Saffron -> Magnet Train -> Goldenrod.
 - **Money:** ¥2294.
 
