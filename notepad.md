@@ -45,9 +45,10 @@
 - LAPIS (POLIWAG): Lv12 (Waterfall, Surf, Whirlpool)
 
 # Suicune Quest - Cianwood Verification
-- Turn 47472: Expert advisor confirms Cianwood is the next sighting. Previous markers (Done/Confirmed) are likely incorrect.
+- Turn 47472 (Start): Expert advisor confirms Cianwood is the next sighting. Previous markers (Done/Confirmed) are likely incorrect.
+- Land Route Discovery: (11, 26) is on an eastern peninsula. To reach the north beach (7, 4), one must travel south to Row 51, cross west to Col 4, then north to (2, 46) and follow the west path (X=2) north.
 - Plan:
-    1. Navigate to (2, 46) via the gap at (6, 47) and (6, 46).
+    1. Navigate to (2, 46) via the southern detour (Row 51).
     2. Follow the west path (X=2) all the way north to the beach.
     3. Trigger Suicune event and Eusine battle.
-- Observation: (9, 18) is blocked to the north by rocks and walls. West path is the only land route.
+- Observation: (9, 18) is a dead-end pocket blocked by rocks and one-way walls.
