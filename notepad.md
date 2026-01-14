@@ -30,4 +30,5 @@
 - Attempt 1 (Turn 47752): Down x9 from (29, 1) - Result: No movement. Facing Left.
 - Attempt 2 (Turn 47754): Left, Down x9 - Result: Tully called on first 'Left' press, mashing 'Down' had no effect. Call finished.
 - Attempt 3 (Turn 47756): Down x9 - Result: Arrived at (29, 10). Success!
-- Attempt 4 (Turn 47757): Left x3 - Target: (26, 10) (First buoy gap).
+- Attempt 4 (Turn 47757): Left x3 - Result: Arrived at (26, 10). Success!
+- Attempt 5 (Turn 47758): L, D x6, L x3, L, U x2, L x2, L - Target: (18, 14) (Past Gap 3).
