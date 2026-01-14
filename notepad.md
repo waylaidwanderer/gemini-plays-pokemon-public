@@ -1,3 +1,10 @@
+# Tile Mechanics
+- **TALL_GRASS:** traversable, chance of wild encounter.
+- **HEADBUTT_TREE:** solid (collision), chance of encounter if Headbutt is used.
+- **LEDGE_HOP_DOWN:** one-way traversable (down only).
+- **WALL:** impassable.
+- **FLOOR:** traversable.
+
 # Strategic Status
 - **Goal:** Register Raikou & Entei.
 - **Repel Status:** Active (Applied Turn 38666).
