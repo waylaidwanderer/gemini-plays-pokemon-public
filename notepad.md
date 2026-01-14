@@ -1,9 +1,9 @@
 # Strategic Status
 - **Goal:** Register Raikou & Entei.
 - **Current Action:** Scanning Grass (Route 37).
-- **Location:** Route 37 (6, 3).
-- **Status:** Scanning for Roamers (Pass 1).
-- **Repel:** Active (~200 steps left).
+- **Location:** Route 37 (7, 3).
+- **Status:** Scanning for Roamers (Pass 2).
+- **Repel:** Active (~180 steps left).
 - **Session Start:** Turn 38471.
 
 # Roamer Hunting Strategy (Blind)
