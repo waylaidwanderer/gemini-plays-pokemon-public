@@ -14,18 +14,13 @@
 - FLOOR: Walkable.
 - WALL / BUOY: Impassable.
 - WATER: Traversable only via Surf.
-- FLOOR_UP_WALL: Impassable from the NORTH. Verified at (16, 10), (4, 30).
+- FLOOR_UP_WALL: Impassable from the NORTH. Blocks exit to the north. Southward entry test PENDING.
 - LEDGE_HOP_DOWN: One-way jump from NORTH to SOUTH. Verified at (10, 15).
 - COUNTER: Impassable.
 
 # Suicune Quest
-- Start Turn (Cianwood): 47450 (Wednesday, Jan 14, 2026, 12:50 AM)
+- Start Turn (Cianwood Re-attempt): 47450
 - Sighting 1: Burned Tower (DONE)
 - Sighting 2: Cianwood City (In Progress)
-- Current Plan: Navigate to (27, 44), Surf North through the East channel, then land on the North beach.
-- Observation: Eusine marker at (11, 17) was a hallucination/error and has been deleted.
-
-# Observation (Turn 47509)
-- Fly to Cianwood lands you at (23, 44) (Poke Center), not the northern landing zone.
-- The city layout is heavily restricted by one-way walls and water channels.
-- Target: North beach at (7, 4).
+- Battle Strategy: Use XENON (Haunter) to inflict Hypnosis. Switch to a lower-level Pokemon if needed to chip HP, or use Night Shade for fixed damage.
+- Current Status: Stagnated for 70 turns trying to find a land path. Switching to full manual exploration of the eastern water channel.
