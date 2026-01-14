@@ -1,15 +1,15 @@
 # Mechanics & State
-- **Location:** New Bark Town (Physical).
+- **Location:** New Bark Town (Physical). Map cursor at Silver Cave.
 - **Goal:** Fly to Goldenrod City.
-- **Menu State:** Pokemon Menu (Mistral). Cursor on **STATS**.
-- **Action:** Up (Select Fly) -> A (Open Map) -> Left x3 -> Down x1.
-- **Target:** Goldenrod City.
-- **Delays:** 2000ms.
+- **Strategy:** "Convergent Navigation". Move West to limit (Cianwood), then backtrack to Goldenrod.
+- **Path:** Left x10 (To Cianwood) -> Right x2 (To Ecruteak) -> Down (To Goldenrod).
+- **Reason:** Robust against unknown cursor start position.
+- **Delays:** 500ms (Faster sequence).
 
 # Current Task: Roamer Hunt
-- **Status:** Fixing Menu & Navigating.
+- **Status:** Navigating to Goldenrod.
 - **Target:** Goldenrod City.
-- **Next Step:** Verify "GOLDENROD CITY".
+- **Next Step:** Verify "GOLDENROD CITY" -> Fly.
 
 # Progress
 - **Badges:** 16/16.
