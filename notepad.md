@@ -17,19 +17,26 @@
 - Sighting Progress:
     1. Burned Tower (DONE)
     2. Cianwood City (DONE - Eusine defeated)
-    3. Route 42 (Mahogany side) - PENDING (Expert says this is MANDATORY before Tin Tower).
+    3. Route 42 (Middle Grove) - PENDING (MANDATORY).
     4. Kanto Route 14 (East of Fuchsia) - PENDING
     5. Kanto Route 25 (Cerulean Cape) - PENDING
-- Strategy: Visit sighting spots in order. Route 42 is the current bottleneck. The Wise Trio in Ecruteak are non-interactable, likely until the Route 42 sighting is triggered.
+- Strategy: Visit sighting spots in order. The Wise Trio in Ecruteak are non-interactable until Route 42 is cleared.
 - Expert Advice: Suicune must be found in the grove near the middle of Route 42 (requires Cut or Surf).
-- Hypothesis: Sighting might require entering the grove from the Ecruteak side or standing on a specific tile.
+
+## Route 42 Hypothesis Testing
+- Hypothesis 1: Sighting triggers by walking on every tile in the grove.
+    - Test: "Mowed the lawn" (Turns 46897-47000).
+    - Result: FAILED.
+- Hypothesis 2: Sighting triggers by entering from Ecruteak instead of Mahogany.
+    - Test: Entered from Ecruteak (Turn 47056).
+    - Result: PENDING (Heading to grove now).
+- Hypothesis 3: Sighting triggers by standing at the water's edge *inside* the grove.
+    - Test: Walk to (24, 15) or (25, 15).
+    - Result: PENDING.
 
 # Verified Failures (Route 42)
-- "Mow the lawn" in grove: FAILED (60+ turns, 100% tile coverage).
 - "Sighting trigger at (28, 15)": FAILED.
-- "Re-entry from Mahogany": FAILED.
-- "Re-entry from Ecruteak": FAILED.
-- "Re-entry from Mt. Mortar": FAILED.
+- "Re-entry from Mt. Mortar": FAILED (Turn 46939).
 - "Eusine in Ecruteak Center": FAILED (Turn 46981).
 - Wise Trio Interaction (Ecruteak): FAILED (Turn 47043).
 
