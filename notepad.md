@@ -35,8 +35,9 @@
     - Result: FAILED (Swept on Turn 47077).
 - Hypothesis 4: Suicune is in the water.
     - Result: FAILED (Expert and Overwatch confirm it is on land).
-- Hypothesis 5: Sighting triggers on the northern land strip or unvisited grove tiles.
-    - Target Area: Row 11 (20, 11 to 33, 11) and Row 12 inside grove.
+- Hypothesis 5: Sighting triggers by exiting the middle entrance of Mt. Mortar.
+    - Rationale: The entrance is directly above the grove.
+    - Test: Enter and exit Mt. Mortar at (28, 9).
     - Result: PENDING.
 
 # Verified Failures (Route 42)
