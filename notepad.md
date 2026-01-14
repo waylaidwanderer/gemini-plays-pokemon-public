@@ -28,5 +28,5 @@
 
 # Strategy Lessons
 - Buoy Maze: The buoy spiral is the only intended path. Land routes from the south are blocked by ledge faces (FLOOR_UP_WALL).
-- Menu Memory: Items in the pack stay selected. Verify cursor before mashing A.
+- Menu Memory: Items in the pack stay selected. Use the pocket-switch trick to reset cursor.
 - Efficiency: Use (19, 30) for launching into the spiral.
