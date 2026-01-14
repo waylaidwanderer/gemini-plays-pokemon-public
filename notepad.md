@@ -1,13 +1,13 @@
 # Mechanics & State
 - **Location:** Viridian City.
 - **Goal:** Return to Johto.
-- **Current Position:** (23, 26).
-- **Action:** Flying to Saffron City (Start -> Pokemon -> Pidgey -> Fly -> Up, Right, Down).
+- **Current Position:** (24, 30).
+- **Action:** Opening Party Menu (Start -> Down -> Down -> A).
 - **Inventory Update:**
   - 19 Super Repels (Active).
   - 16 Ultra Balls (Existing).
 - **Route Plan:**
-  1. Fly to Saffron City (Targeting).
+  1. Fly to Saffron City.
   2. Magnet Train to Goldenrod.
   3. Fly to Ecruteak/Route 37.
 - **Money:** ¥2294.
