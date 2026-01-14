@@ -25,9 +25,10 @@
     - Verify sightings sequentially. Johto: Burned Tower -> Cianwood -> Route 42 -> Route 36.
     - If a Johto sighting is skipped, later sightings (including Kanto and Tin Tower) are blocked.
 - Current Plan:
-    - Re-entering Route 42 from Ecruteak gatehouse at (35, 27).
-    - Use Cut on tree at (24, 13) to reach the grove.
-    - Approach the center of the grove to trigger Suicune.
+    - Arrived on Route 42 from Ecruteak gatehouse.
+    - Path to (24, 13) and use Cut on the tree.
+    - Enter the grove and approach the center (approx. (28, 15)) to trigger Suicune.
+    - If trigger fails, proceed to Route 36.
 - Hypothesis Log (Route 42):
     - H1: Trigger is a specific tile within the grove boundary. (Tested with 'suicune_sweep_v2', Failed Turn 47324).
     - H2: Missing prerequisite sighting. (Cianwood confirmed DONE Turn 47347).
