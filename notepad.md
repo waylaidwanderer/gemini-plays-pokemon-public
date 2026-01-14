@@ -1,15 +1,16 @@
 # Mechanics & State
-- **Location:** Celadon Dept Store 1F.
-- **Goal:** Exit Dept Store and return to Johto.
-- **Current Position:** Near Stairs (15, 1).
-- **Action:** Walking to Exit (8, 7) -> Fly to Saffron.
+- **Location:** Celadon City (Outside Dept Store).
+- **Goal:** Return to Johto (Goldenrod).
+- **Current Position:** (4, 10).
+- **Action:** Flying to Saffron City.
 - **Inventory Update:**
   - 20 Super Repels (Bought).
   - 16 Ultra Balls (Existing).
 - **Next Steps:**
-  1. Magnet Train to Goldenrod.
-  2. Fly to Ecruteak/Route 37.
-  3. Begin Roamer Hunt (Repel Trick Lvl 36).
+  1. Fly to Saffron.
+  2. Magnet Train to Goldenrod.
+  3. Fly to Ecruteak/Route 37.
+  4. Begin Roamer Hunt (Repel Trick Lvl 36).
 - **Money:** ¥12294.
 
 # Directory Info (Celadon)
