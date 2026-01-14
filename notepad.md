@@ -18,7 +18,7 @@
     5. Move North along X=2 to Y=4.
     6. Move East to (7, 4) to trigger the sighting.
 - Note: The city center is a maze. The southern crossing and west corridor (X=2) are the most reliable path. Suicune sighting count = 1.
-- Progress: Turn 46703, currently at (10, 39). Heading for X=12 corridor.
+- Progress: Turn 46704, currently at (12, 49). Jumping ledge to reach Y=51 corridor.
 
 # Roaming Beast Data
 - Raikou: Unknown
