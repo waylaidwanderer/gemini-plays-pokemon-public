@@ -2,16 +2,14 @@
 - **Location:** Pewter City.
 - **Goal:** Return to Johto.
 - **Current Position:** (13, 26).
-- **Action:** Opening Party Menu to Fly to Saffron.
+- **Action:** Flying to Saffron City (Start -> Down -> Down -> A -> Mistral -> Fly -> Right -> Down -> A).
 - **Inventory Update:**
   - 19 Super Repels (Active).
   - 16 Ultra Balls (Existing).
 - **Route Plan:**
-  1. Open Party Menu.
-  2. Select Mistral (Slot 6).
-  3. Fly -> Saffron City (Right -> Down).
-  4. Saffron -> Magnet Train -> Goldenrod.
-  5. Fly to Ecruteak/Route 37.
+  1. Fly to Saffron City.
+  2. Magnet Train to Goldenrod.
+  3. Fly to Ecruteak/Route 37.
 - **Money:** ¥2294.
 
 # Directory Info (Celadon)
