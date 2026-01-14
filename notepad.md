@@ -1,9 +1,8 @@
 # Mechanics & State
-- **Location:** Route 26 (Fly Map Open).
+- **Location:** Viridian City.
 - **Goal:** Return to Johto.
-- **Current Position:** (7, 6).
-- **Fly Map Cursor:** Viridian City.
-- **Action:** Selecting Saffron City (Right) and Flying.
+- **Current Position:** (23, 26).
+- **Action:** Flying to Saffron City (Start -> Pokemon -> Pidgey -> Fly -> Up, Right, Down).
 - **Inventory Update:**
   - 19 Super Repels (Active).
   - 16 Ultra Balls (Existing).
