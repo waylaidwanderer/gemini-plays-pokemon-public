@@ -13,6 +13,7 @@
     - **Move:** **Ice Punch** (Slot 3).
     - **Cursor:** Currently on **Ice Punch (Slot 3)**.
     - **Nav:** A (Fight) -> A (Ice Punch).
+    - **Note:** Last attack missed (Accuracy -1). Retrying.
     - **Houndoom (Last):** Cross Chop (Slot 4).
 - **Goal:** Farm money.
 - **Resources:** ¥22094.
