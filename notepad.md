@@ -13,7 +13,7 @@
 # Strategic Status
 - **Goal:** Register Raikou & Entei.
 - **Current Task:** Farm money at Elite Four -> Buy Max Repels (20x).
-- **Location:** Magnet Train Station.
-- **Action:** Selected 'YES' to board train.
-- **Next Step:** Arrive in Saffron -> Fly to Indigo Plateau.
+- **Location:** Magnet Train Station (On Warp Tile).
+- **Action:** Finishing boarding dialogue ("Right this way").
+- **Next Step:** Saffron City -> Fly to Indigo Plateau.
 - **Resources:** ¥2294. Repels: 0.
