@@ -24,7 +24,8 @@
 - **Roamer Logic:** Roamers move to an adjacent map when the player transitions maps. 'Blind Interception' relies on them moving *into* your map as you enter.
 - **Detour:** Goldenrod Dept Store was a bust. No Super Repels.
 - **New Plan:** Fly to Indigo Plateau. Beat E4 for cash. Buy Max Repels.
-- **Fly Map Status:** Cursor Stuck at New Bark Town.
-- **Observation:** Previous 'Right' input (200ms delay) did not move cursor from New Bark.
-- **Hypothesis:** Input was dropped or delay was too short. Alternatively, 'Right' is not the valid path to Indigo Plateau from New Bark (maybe 'Up'?).
-- **Action:** Retrying 'Right' with 500ms delay. If this fails, will try 'Up'.
+- **Fly Map Status:** Cursor at New Bark Town.
+- **Action:** Pressing SELECT to switch to Kanto Map.
+- **Logic:** In Gen 2, the Fly map requires pressing SELECT to toggle between regions. Scrolling past the edge does not work.
+- **Next Step:** Navigate to Indigo Plateau -> Fly.
+- **Backup Plan:** If Fly fails, walk to Goldenrod Magnet Train Station (9, 13).
