@@ -32,4 +32,5 @@
 - Attempt 8 (Turn 47764): Confirmed Surf.
 - Attempt 9 (Turn 47765): Surfed at (14, 27). Pathfinder moved to (19, 30) and used Surf again.
 - Attempt 10 (Turn 47767): Cleared Surf text at (19, 30). Result: Afloat at (19, 29). Success!
-- Attempt 11 (Turn 47768): Sailing to (26, 10) (Gap 1). Target: Buoy Loop entry.
+- Attempt 11 (Turn 47768): Sailing to (26, 10) (Gap 1). Result: Arrived at (26, 10). Chad called.
+- Attempt 12 (Turn 47769): Clearing Chad's call at (26, 10). Target: (22, 16) (Gap 2).
