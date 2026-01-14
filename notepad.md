@@ -24,8 +24,9 @@
 - Step 1: Walk to East Coast Surf Point (19, 30). (Done)
 - Step 2: Surf to Outer Channel (X=27) and enter Gap 1 at (26, 10). (Done)
 - Step 3: Navigate Middle Ring to Gap 2 at (22, 16). (Done)
-- Step 4: Navigate to Gap 3 at (19, 14) via (23, 14). (Next)
-- Step 5: Navigate to Landing Point at (16, 11) via (19, 11).
+- Step 4: Navigate to Gap 3 at (19, 14). (In Progress)
+- Route: (22, 16) -> (27, 16) -> (27, 8) -> (19, 8) -> (19, 14).
+- Step 5: Navigate to Landing Point at (16, 13) and land.
 - Step 6: Walk to Sighting Spot at (14, 10).
 - Status: XENON leading, Ultra Balls ready.
 
