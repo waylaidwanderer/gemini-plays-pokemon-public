@@ -18,16 +18,16 @@
 - LEDGE_HOP_DOWN: One-way jump from NORTH to SOUTH. Verified at (10, 15).
 - COUNTER: Impassable.
 
-# Suicune Quest Strategy: 'The Long Walk'
+# Suicune Quest Strategy: 'The South Crossing'
 - Goal: Reach Suicune sighting area at (7, 4).
-- Problem: Water access is blocked; the city center is a maze of ledges.
-- Solution: Use the far west coastal corridor (X=2).
+- Problem: The city is split by vertical walls at X=5, X=7, X=9, and X=11.
+- Solution: Use the crossing at Row 48.
 - Route:
-    1. Walk to (19, 33) via (16, 30).
-    2. Walk west along Row 33 to (9, 33).
-    3. Detour south at (6, 33) -> (6, 34) -> (2, 34) to bypass the cliff at (5, 33).
+    1. Walk to (12, 33).
+    2. Walk south to (12, 48).
+    3. Walk west along Row 48 to (2, 48).
     4. Walk north along X=2 to (2, 14).
-    5. Walk east along Row 14 to (7, 14).
+    5. Walk east to (7, 14).
     6. Walk north to the sighting area at (7, 4).
 - Battle Strategy: Lead with XENON (Haunter) for Hypnosis. Be ready for Eusine.
-- Status: Moving to (19, 33).
+- Status: Moving to (2, 14).
