@@ -1,16 +1,24 @@
 # Strategic Status
-- **Goal:** Return to Johto (Via Magnet Train).
-- **Current Action:** Arriving in Goldenrod City (via Magnet Train).
-- **Path:** Saffron -> Magnet Train -> Goldenrod City -> Ecruteak (Fly).
+
+# Strategic Status
+- **Goal:** Register Raikou & Entei.
+- **Current Action:** Exiting Goldenrod Station -> Fly Ecruteak.
+- **Location:** Goldenrod City (Johto).
+
+# Roamer Hunting Strategy (Route 37)
+1.  **Setup:** 
+    - Lead: Gyarados (Lv 36).
+    - Item: Super Repel (Active).
+    - Balls: 16 Ultra Balls.
+2.  **Procedure:**
+    - Fly Ecruteak -> Walk Route 37.
+    - Run in grass until Repel wears off or Roamer appears.
+    - If Repel ends: Re-apply.
+    - If no encounter: Switch map (Ecruteak) and return to reset RNG.
+3.  **Target:** Raikou/Entei (Lv 40). Repel filters Lv < 36.
 
 # Notes
-- **Fly Map:** Horizontal navigation (West <-> East) in Kanto is unreliable.
-- **Status:** Repel wore off (Re-apply on Route 37).
-
-# Roamer Hunting Strategy
-1.  **Setup:** Gyarados (Lv 36) leading, Super Repel active.
-2.  **Location:** Route 37/Ecruteak border.
-3.  **Target:** Raikou/Entei (Lv 40).
+- **Fly Map:** Kanto map was glitchy; Johto map should be fine.
 
 # Roamer Hunting Strategy
 1.  **Setup:** Gyarados (Lv 36) leading, Super Repel active.
