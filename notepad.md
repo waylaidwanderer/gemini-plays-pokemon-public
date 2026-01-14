@@ -12,12 +12,13 @@
 
 # Type Effectiveness (Verified)
 - Ghost -> Normal: Immune (Night Shade, Confuse Ray).
-- Psychic -> Normal: Effective (Hypnosis, Dream Eater). *Note: Hypnosis "didn't affect" Aipom on Turn 47189. Investigation required.*
+- Psychic -> Normal: Effective (Hypnosis, Dream Eater). *Note: Hypnosis missed Aipom on Turn 47189 due to Sand-Attack reducing accuracy.*
 
 # Suicune Quest
 - Status: 16 Badges, Red Defeated, Clear Bell in inventory.
 - Timestamps:
     - Started Suicune Quest (Kanto Phase): Turn #47125
+    - Backtracking for Route 42 Sighting: Turn #47221
 - Sighting Progress:
     1. Burned Tower (DONE)
     2. Cianwood City (DONE - Eusine defeated)
@@ -28,8 +29,6 @@
     - Visit sighting spots in order. Quest is strictly linear.
     - Lesson: Suicune is a static land sprite; water sweeps are ineffective.
 - Backtracking Plan:
-    1. Continue East through Route 15 to reach Route 14. (ABANDONED - QUEST SEQUENCE MISSED)
-    2. Defeat Teacher Hillary. (DONE)
     3. Fly to Ecruteak City (Johto). (IN PROGRESS)
     4. Head East to Route 42 Middle Grove (approach the 3 Apricorn trees).
     5. Return to Kanto (Fuchsia City) after Johto sighting.

@@ -180,5 +180,30 @@
         "action_counter": 47143
       }
     ]
+  },
+  "menu_navigator_v2_fixed": {
+    "description": "Executes a sequence of button presses to navigate menus. Returns a JSON array of buttons. Use this to bypass the restriction on mixing directional and action inputs. Automatically handles autopress_buttons.",
+    "input_schema": {
+      "properties": {
+        "sequence": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        }
+      },
+      "required": [
+        "sequence"
+      ],
+      "type": "object"
+    },
+    "python_script": "import json\nprint(json.dumps(input_data.get('sequence', [])))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-14T06:16:48.631Z",
+        "action_counter": 47221
+      }
+    ]
   }
 }
