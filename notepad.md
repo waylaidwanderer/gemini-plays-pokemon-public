@@ -25,3 +25,6 @@
 - Preparation: Lead with XENON (Haunter) for Hypnosis. Use SUPER REPEL.
 - Start Turn: 47680 (Suicune North Beach Quest)
 - Start Time: Wednesday, Jan 14, 2026, 4:00 AM PST
+
+# Progress Log
+- Attempt 1 (Turn 47752): Down x9 from (29, 1) - Result: No movement, still facing left. Hypothesis: Input eaten by map edge/warp tile transition or invisible prompt.
