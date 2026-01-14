@@ -1,13 +1,10 @@
 # Strategic Status
-- **Goal:** Return to Johto (Saffron -> Goldenrod -> Ecruteak).
-- **Current Action:** Navigating Fly Map from Cinnabar.
-- **Problem:** Horizontal navigation (West -> East) seems inconsistent.
+- **Goal:** Return to Johto (Via Diglett's Cave).
+- **Current Action:** Entering Diglett's Cave.
+- **Path:** Route 2 (East) -> Diglett's Cave -> Vermilion City.
 
-# Fly Map Navigation Log
-- **Turn 38340:** Viridian -> Up (Pewter) -> Right (Fail?) -> Down -> Viridian.
-- **Turn 38342:** Indigo -> Right (Pewter) -> Right (Cerulean) -> Down (Saffron) -> Result: Cinnabar??
-- **Hypothesis:** Map inputs may need delays or specific routing.
-- **Plan:** Cinnabar -> Up x3 (Pewter) -> Right (Cerulean). verify.
+# Notes
+- **Fly Map:** Horizontal navigation (West <-> East) is currently broken/unreliable. Stuck in West Kanto loop unless flying from specific spots (unverified). Workaround: Ground travel via Diglett's Cave.
 
 # Roamer Hunting Strategy
 1.  **Setup:** Gyarados (Lv 36) leading, Super Repel active.
