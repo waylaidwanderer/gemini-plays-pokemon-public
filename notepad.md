@@ -6,6 +6,7 @@
 - LEDGE_HOP_DOWN: Impassable from the NORTH.
 - HEADBUTT_TREE: Impassable.
 - CUT_TREE: Impassable (becomes FLOOR when cut). Verified regrows on map exit.
+- CAVE / WARP_CARPET: Warp to another map (e.g. Mt. Mortar, Gatehouse).
 
 # Suicune Quest
 - Objective: Catch Suicune.
