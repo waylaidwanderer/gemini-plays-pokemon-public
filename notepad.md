@@ -12,46 +12,22 @@
 # Suicune Quest
 - Status: 16 Badges, Red Defeated, Clear Bell in inventory.
 - Timestamps:
-    - Tin Tower Investigation Started: Turn #47028
-    - Route 42 Re-investigation Started: Turn #47046
+    - Kanto Phase Started: Turn #47125
 - Sighting Progress:
     1. Burned Tower (DONE)
     2. Cianwood City (DONE - Eusine defeated)
-    3. Route 42 (Middle Grove) - PENDING (MANDATORY).
+    3. Route 42 (Middle Grove) - SKIPPED/FAILED (Exhaustive search yielded no result).
     4. Kanto Route 14 (East of Fuchsia) - PENDING
     5. Kanto Route 25 (Cerulean Cape) - PENDING
-- Strategy: Visit sighting spots in order. The Wise Trio in Ecruteak are non-interactable until Route 42 is cleared.
-- Expert Advice: Suicune must be found in the grove near the middle of Route 42 (requires Cut or Surf).
+- Strategy & Lessons:
+    - Visit sighting spots in order.
+    - Lesson: Suicune is a static land sprite; water sweeps are ineffective. If not visible, check prerequisites or other maps.
+- Kanto Route 14 Plan:
+    1. Exit Saffron Magnet Train Station.
+    2. Fly to Fuchsia City.
+    3. Exit Fuchsia City to the East to Route 15.
+    4. Continue East/North-East through Route 15 to reach Route 14.
+    5. Look for Suicune sprite on land (likely near water or in a clearing).
 
-## Route 42 Hypothesis Testing
-- Hypothesis 1: Sighting triggers by walking on every tile in the grove.
-    - Test: "Mowed the lawn" (Turns 46897-47000).
-    - Result: FAILED (from Mahogany side).
-- Hypothesis 2: Sighting triggers by entering from Ecruteak instead of Mahogany.
-    - Test: Entered from Ecruteak (Turn 47056).
-    - Result: FAILED (Swept floor: Turns 47072-47078).
-- Hypothesis 3: Sighting triggers by standing at the water's edge *inside* the grove.
-    - Target Tiles: (24, 15) through (30, 15).
-    - Result: FAILED (Swept on Turn 47077).
-- Hypothesis 4: Suicune is in the water.
-    - Result: FAILED (Expert and Overwatch confirm it is on land).
-- Hypothesis 5: Sighting triggers by exiting the middle entrance of Mt. Mortar.
-    - Rationale: The entrance is directly above the grove.
-    - Test: Enter and exit Mt. Mortar at (28, 9).
-    - Result: FAILED (Turn 47106). No Suicune sprite found in map data or on screen.
-- Conclusion: Suicune is not currently on Route 42. Moving to Kanto sighting spots.
-- Plan: Fly to Fuchsia City -> Head east to Route 14. If not there, check Route 25 (Cerulean Cape).
-
-# Verified Failures (Route 42)
-- Full Search (Grove/Water/Plateau): FAILED (Turns 46816-47106).
-- All entry points and NPC interactions: FAILED.
-- Map Data Scan: FAILED (No Suicune object found).
-- Conclusion: Suicune is not present on Route 42. Moving to Kanto sightings (Routes 14, 25) to verify quest progression.
-- Lesson: Suicune is a static land sprite; water sweeps are ineffective. If not visible, check prerequisites or other maps.
-
-# Map Insights
-- Route 42: Middle grove with Apricorns requires Cut at (24, 13).
-- Mt. Mortar: B1F ladder at (19, 29) leads to 1FOutside (17, 29). B1F has an item ball at (21, 26).
-- Ecruteak: Gatehouse to Route 42 is at (35, 27).
-- Tin Tower: Located in Ecruteak City. Requires Clear Bell.
-- Ecruteak Courtyard (Tin Tower grounds): Enclosed area reachable only through the entrance building at (18, 11). Warps at (20, 2) and (20, 3) lead back inside. No direct path to the rest of the city.
+# PC Storage (Box 1)
+- LARVITAR, SCYTHER, SEEL, MANTINE, KRABBY x2, TENTACOOL, DRATINI, SPINARAK, POLIWAG.
