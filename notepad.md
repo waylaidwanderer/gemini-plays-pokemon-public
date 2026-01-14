@@ -5,7 +5,7 @@
 # Strategic Status
 - **Goal:** Register Raikou & Entei.
 - **Current Task:** Farm money at Elite Four.
-- **Location:** Karen's Room -> Lance's Room.
+- **Location:** Lance's Room.
 - **Action:** Challenging Champion Lance.
 - **Active Pokemon:** Machoke (Lv 90).
 - **Strategy:**
