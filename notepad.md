@@ -6,8 +6,8 @@
 # Strategic Status
 - **Goal:** Register Raikou & Entei.
 - **Current Task:** Restock Supplies.
-- **Location:** Saffron City.
-- **Action:** Walking to West Gate (0, 24) to Route 7.
+- **Location:** Route 7.
+- **Action:** Walking to Celadon City (Entrance at 0, 0).
 - **Status:** Deep Post-Game.
 - **Notes:** Goldenrod Dept Store 2F (Standard Repel), 4F (Vitamins).
 - **Strategy:**
