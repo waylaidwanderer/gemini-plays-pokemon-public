@@ -12,12 +12,13 @@
 - FLOOR_UP_WALL: Ledge face. Impassable.
 - LEDGE_HOP_DOWN: One-way jump (North to South).
 
-# Fly Navigation (Index/Snap Theory)
+# Fly Navigation (List vs. 2D Theory)
 - Starting City: New Bark Town.
-- Observation: Pressing 'Down' once changed destination to 'Silver Cave'.
-- Theory: The menu uses node-based snapping. Left/Right moves between longitudes, Up/Down between latitudes/indices.
-- Target: Cianwood City (Far West).
-- Strategy: Press 'Left' to see if it snaps to the next western city (Cherrygrove or Violet).
+- Observation 1: Pressing 'Down' once changed destination to 'Silver Cave'.
+- Observation 2: Pressing 'Left' once from 'Silver Cave' did not change the destination.
+- Theory: The 'Where?' bubble with Up/Down arrows indicates a linear list of fly points.
+- Goal: Cianwood City.
+- Plan: Press 'Down' repeatedly to scroll through the list and find Cianwood.
 
 # Suicune Capture Strategy
 - Lead: XENON (Haunter, Lv44).
