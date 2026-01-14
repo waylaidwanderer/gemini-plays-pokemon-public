@@ -29,7 +29,7 @@
     - Result: FAILED (from Mahogany side).
 - Hypothesis 2: Sighting triggers by entering from Ecruteak instead of Mahogany.
     - Test: Entered from Ecruteak (Turn 47056).
-    - Result: FAILED (Swept floor floor: Turns 47072-47078).
+    - Result: FAILED (Swept floor: Turns 47072-47078).
 - Hypothesis 3: Sighting triggers by standing at the water's edge *inside* the grove.
     - Target Tiles: (25, 15), (26, 15).
     - Result: FAILED (at 24, 15 and 25, 15).
