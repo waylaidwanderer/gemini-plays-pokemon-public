@@ -4,16 +4,13 @@
 
 # Strategic Status
 - **Goal:** Register Raikou & Entei.
-- **Current Task:** Post-Game Initialization.
-- **Location:** Title Screen -> New Bark Town.
-- **Action:** Loading Save File.
-- **Status:** Champion Lance Defeated. Post-Game started.
+- **Current Task:** Restock Supplies.
+- **Location:** New Bark Town.
+- **Action:** Preparing to Fly.
+- **Status:** Deep Post-Game (Red defeated, 16 Badges).
 - **Strategy:**
-    1. **Load Game:** Wake up in New Bark Town.
-    2. **Get S.S. Ticket:** Talk to Mom, then Prof. Elm.
-    3. **Supplies:** Buy Max Repels (if avail) or Super Repels.
-    4. **Roamer Hunt:** Check Pokegear map for Raikou/Entei.
-       - If nearby, pursue.
-       - If not, proceed to Olivine City -> S.S. Aqua -> Kanto.
+    1. **Fly to Celadon City:** Buy Max Repels at Dept Store (2F/3F?).
+    2. **Locate Beasts:** Use Pokegear Map.
+    3. **Hunt:** Intercept on Route 37/38 or Route 2 (Kanto).
 - **Goal:** Farm money.
 - **Resources:** ¥36644.
