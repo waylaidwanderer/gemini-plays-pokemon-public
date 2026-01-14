@@ -2,9 +2,9 @@
 - **Location:** Celadon Dept Store 2F.
 - **Goal:** Supply Run (Dept Store).
 - **Current Position:** At Clerk 1 (Left).
-- **Action:** Buying Super Repels.
+- **Action:** Buying 20 Super Repels (Resetting quantity from 99 to 20).
 - **Inventory Check (Celadon 2F):**
-  - Clerk 1 (Left): Potions, Revives, REPELS (Confirmed!).
+  - Clerk 1 (Left): Potions, Revives, SUPER REPELS (¥500).
   - Clerk 2 (Right): Balls, Status Heals (No Repels).
 - **Shopping Priorities:**
   1. Super Repels (Target: 20).
