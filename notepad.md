@@ -2,16 +2,17 @@
 - **Location:** Viridian City.
 - **Goal:** Return to Johto.
 - **Current Position:** (24, 30).
-- **Fly Map Cursor:** Viridian City.
-- **Action:** Navigating Fly Map (Down -> Right to Fuchsia?).
+- **Fly Map Cursor:** Pallet Town.
+- **Action:** Navigating Fly Map (Up -> Up -> Right -> Down).
 - **Inventory Update:**
   - 19 Super Repels (Active).
   - 16 Ultra Balls (Existing).
 - **Route Plan:**
-  1. Move Cursor: Viridian -> Pallet (Down).
-  2. Move Cursor: Pallet -> Fuchsia (Right).
-  3. Verify Cursor.
-  4. Navigate Fuchsia -> Lavender -> Saffron.
+  1. Pallet -> Viridian (Up).
+  2. Viridian -> Pewter (Up).
+  3. Pewter -> Cerulean (Right).
+  4. Cerulean -> Saffron (Down).
+  5. Verify Saffron -> Fly.
 - **Money:** ¥2294.
 
 # Directory Info (Celadon)
