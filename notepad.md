@@ -33,4 +33,4 @@
 - Fly Navigation: Johto Fly menu is a linear list scrolled with Up/Down, not a 2D grid.
 - Exploration: (11, 15) and (11, 14) are confirmed dead-end pockets.
 - Pathing: Cianwood city center is elevated; land routes to the west/north beaches are blocked by FLOOR_UP_WALL and WALL. Surf via the east coast is the primary route.
-- Turn 48121: Starting Surf trek through the buoy maze. Goal: Reach (27, 30).
+- Turn 48129: Running from wild Tentacool at Gap 1 (26, 10). Moving to Gap 2 (22, 16).
