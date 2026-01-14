@@ -61,8 +61,8 @@
   - Lake of Rage: (10, 3)
   - Blackthorn: (14, 5)
 - Navigation from Cherrygrove (12, 10) to Cianwood (0, 9): 12 Lefts, 1 Up.
-- Failed Fly attempts: 14 (Reason: Accidnetally opened Pokedex instead of Pokemon menu).
-- Status: Navigating from Pokedex Search to Fly menu.
+- Failed Fly attempts: 15 (Reason: Accidnetally opened Pokedex instead of Pokemon menu).
+- Status: Exiting Pokedex to re-attempt Fly from Cherrygrove to Cianwood.
 
 # Hypotheses
 ## Land Route to Suicune (The 'Gem Shortcut')

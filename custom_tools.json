@@ -77,5 +77,57 @@
         "action_counter": 47878
       }
     ]
+  },
+  "fly_map_navigator": {
+    "description": "Generates the button sequence to navigate the 2D Fly map from a starting city to a target city in Johto. Returns a JSON array of buttons. Use this once the Town Map is open during a Fly command.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "start_city": {
+          "type": "string",
+          "enum": [
+            "New Bark",
+            "Cherrygrove",
+            "Violet",
+            "Azalea",
+            "Goldenrod",
+            "Ecruteak",
+            "Olivine",
+            "Cianwood",
+            "Mahogany",
+            "Lake of Rage",
+            "Blackthorn"
+          ]
+        },
+        "target_city": {
+          "type": "string",
+          "enum": [
+            "New Bark",
+            "Cherrygrove",
+            "Violet",
+            "Azalea",
+            "Goldenrod",
+            "Ecruteak",
+            "Olivine",
+            "Cianwood",
+            "Mahogany",
+            "Lake of Rage",
+            "Blackthorn"
+          ]
+        }
+      },
+      "required": [
+        "start_city",
+        "target_city"
+      ]
+    },
+    "python_script": "import json\n\ndef solve():\n    # Cursor Grid (X, Y) based on observed Johto Town Map layout\n    grid = {\n        \"New Bark\": (14, 10),\n        \"Cherrygrove\": (12, 10),\n        \"Violet\": (12, 6),\n        \"Azalea\": (10, 12),\n        \"Goldenrod\": (6, 9),\n        \"Ecruteak\": (6, 5),\n        \"Olivine\": (2, 6),\n        \"Cianwood\": (0, 9),\n        \"Mahogany\": (10, 5),\n        \"Lake of Rage\": (10, 3),\n        \"Blackthorn\": (14, 5)\n    }\n    \n    start_city = input_data.get('start_city')\n    target_city = input_data.get('target_city')\n    \n    if start_city not in grid or target_city not in grid:\n        print(json.dumps([]))\n        return\n        \n    start_x, start_y = grid[start_city]\n    target_x, target_y = grid[target_city]\n    \n    dx = target_x - start_x\n    dy = target_y - start_y\n    \n    buttons = []\n    # In Pokémon Crystal Fly Map:\n    # Left decreases X, Right increases X\n    # Up decreases Y, Down increases Y\n    \n    if dx < 0:\n        buttons.extend([\"Left\"] * abs(dx))\n    elif dx > 0:\n        buttons.extend([\"Right\"] * dx)\n        \n    if dy < 0:\n        buttons.extend([\"Up\"] * abs(dy))\n    elif dy > 0:\n        buttons.extend([\"Down\"] * dy)\n        \n    buttons.append(\"A\")\n    print(json.dumps(buttons))\n\nsolve()\n",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-14T19:21:33.009Z",
+        "action_counter": 47928
+      }
+    ]
   }
 }
