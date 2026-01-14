@@ -2,9 +2,9 @@
 
 # Strategic Status
 - **Goal:** Register Raikou & Entei.
-- **Current Action:** Canceling Fly Map -> Walking North from Goldenrod.
-- **Location:** Goldenrod City (Overworld).
-- **Reasoning:** Fly Map navigation is stuck/unreliable. I am already in Goldenrod, which is connected to Ecruteak via the north path (Route 35 -> National Park -> Route 36). Walking is faster than fighting the cursor.
+- **Current Action:** Walking North from Goldenrod to Route 35.
+- **Location:** Goldenrod City (19, 6).
+- **Status:** Fly Attempt concluded. Proceeding on foot to Ecruteak via National Park.
 
 # Roamer Hunting Strategy (Route 37)
 1.  **Setup:** 
