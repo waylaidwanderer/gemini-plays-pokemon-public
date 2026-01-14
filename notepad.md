@@ -1,17 +1,19 @@
 # Mechanics & State
 - **Location:** Victory Road.
 - **Goal:** Walk to Viridian City (South).
-- **Current Position:** (16, 11) - 3F.
-- **Action:** Walking to Ladder at (13, 17).
+- **Current Position:** (13, 11) - 3F.
+- **Action:** Manual Walk to Ladder (Avoid Blocked Path).
 - **Inventory Update:**
   - 20 Super Repels (Bought).
   - 16 Ultra Balls (Existing).
 - **Route Plan:**
-  1. Walk to Ladder (13, 17) (Pathfinding).
-  2. Ladder -> 2F.
-  3. Navigate 2F to Ladder -> 1F.
-  4. Exit South to Gate -> Route 22 -> Viridian.
-  5. Fly/Train to Johto.
+  1. Walk East to x=18 (Avoid blocked ledge at x=13-16).
+  2. Walk South to y=16.
+  3. Walk West to x=13 (Through gap at 17,16).
+  4. Walk South to Ladder (13, 17).
+  5. Ladder -> 2F.
+- **Notes:**
+  - `FLOOR_UP_WALL` tiles at (9-16, 12) act as WALLS from the North. Pathfinding failed here.
 - **Money:** ¥12294.
 
 # Directory Info (Celadon)
