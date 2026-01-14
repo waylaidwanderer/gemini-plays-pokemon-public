@@ -6,8 +6,8 @@
 # Strategic Status
 - **Goal:** Register Raikou & Entei.
 - **Current Task:** Restock Supplies.
-- **Location:** Goldenrod City.
-- **Action:** Walking to Magnet Train Station (9, 13).
+- **Location:** Goldenrod Magnet Train Station.
+- **Action:** Boarding Magnet Train to Kanto.
 - **Status:** Deep Post-Game.
 - **Notes:** Goldenrod Dept Store 2F (Standard Repel), 4F (Vitamins).
 - **Strategy:**
