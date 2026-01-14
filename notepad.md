@@ -1,8 +1,8 @@
 # Mechanics & State
 - **Location:** Celadon Dept Store 1F.
 - **Goal:** Supply Run (Dept Store).
-- **Current Position:** (7, 7) - Entrance.
-- **Action:** Going to Directory at (14, 0).
+- **Current Position:** (14, 1) - Facing Directory.
+- **Action:** Reading Directory to find Repels.
 - **Shopping List:** Super Repels (~20), Ultra Balls.
 - **Money:** ¥12294.
 
