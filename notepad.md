@@ -25,10 +25,11 @@
 # Systematic Search Plan (Route 42 Grove)
 - HOW: Use `generate_sweep_path` tool to cover X=24-31, Y=13-17.
 - Current Status: Sweeping row 15.
+- Start Turn: 46896.
 
 # Hypotheses & Tests
-- Hypothesis 1: Trigger is a specific tile in the (26, 15) grove.
-    - Test: "Mow the lawn" across all reachable tiles in the grove.
+- Hypothesis 1: Trigger is a specific tile in the (26, 15) or (27, 15) grove.
+    - Test: Walk onto (26, 15) and (27, 15).
     - Status: Ongoing (Attempt #1).
 - Hypothesis 2: Trigger is near the middle Mt. Mortar entrance at (28, 9).
     - Test: Walk around (28, 9) and (28, 10).
