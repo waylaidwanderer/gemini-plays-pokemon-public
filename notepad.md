@@ -6,11 +6,11 @@
 # Strategic Status
 - **Goal:** Register Raikou & Entei.
 - **Current Task:** Restock Supplies.
-- Location: Celadon Dept Store 5F.
-- Action: Moving to counter to buy Max Repels.
-- Status: 5F=Vitamins/Battle Items. 4F=Wiseman Gifts. Target is likely 2F (Standard Mart).
+- Location: Celadon Dept Store 3F.
+- Action: Moving to 2F to buy Max Repels.
+- Status: 5F=Vitamins, 4F=Gifts, 3F=TMs(?). Target is likely 2F (Standard Mart).
 - Strategy:
-    1. **Transit:** Take stairs down (15,0) to 3F, then to 2F.
+    1. **Transit:** Take stairs at (12,0) to 2F.
     2. **Buy Repels:** Locate clerk on 2F.
     3. **Transit:** Exit to Celadon City/Route 7.
     3. **Prepare Team:** Lead with Gyarados (Lv 37) + Max Repel.
