@@ -1,8 +1,8 @@
 # Strategic Status
-- **Goal:** Register Raikou & Entei.
-- **Repel Status:** Applied at Turn 38566.
-- **Session Start:** Turn 38471.
-- **Note:** Bug-Catching Contest is active today (Tuesday).
+- **Current Action:** Resetting Roamer positions.
+- **Location:** Route 37 (7, 2) -> Ecruteak.
+- **Status:** Scan complete (40 steps, no encounter). Resetting.
+- **Repel:** Active (Applied Turn 38566).
 
 # Roamer Hunting Strategy (Blind)
 1.  **Setup:** 
