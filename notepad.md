@@ -17,19 +17,17 @@
 - Sighting Progress:
     1. Burned Tower (DONE)
     2. Cianwood City (DONE - Confirmed Turn 47347)
-    3. Route 42 (Middle Grove) - TRIGGER ATTEMPTED (Swept Turn 47324, re-entered Turn 47365. Empty.)
-    4. Route 36 (Violet City North) - PENDING (Checking if order is different)
+    3. Route 42 (Middle Grove) - TRIGGER ATTEMPTED (Turn 47324, 47365. Empty.)
+    4. Route 36 (Violet City North) - PENDING
     5. Kanto Route 14 (East of Fuchsia) - SIGHTING LOCKED
     6. Kanto Route 25 (Cerulean Cape) - SIGHTING LOCKED
 - Strategy:
     - Verify sightings sequentially. Johto: Burned Tower -> Cianwood -> Route 42 -> Route 36.
     - If a Johto sighting is skipped, later sightings (including Kanto and Tin Tower) are blocked.
-
 - Hypothesis Log (Route 42):
-    - H1: Trigger is a specific tile within the grove boundary. (Tested with 'suicune_sweep_v2', Failed Turn 47324).
-    - H2: Missing prerequisite sighting. (Cianwood confirmed DONE Turn 47347).
-    - H3: Route 36 sighting must occur before Route 42. (Pending test if re-entry fails).
-    - H4: Sighting sequence is strictly linear. (Confirmed by expert).
+    - H1: Trigger tile missed in grove. (Tested with full sweep).
+    - H2: Missing prerequisite sighting. (Cianwood DONE, checking Route 36).
+    - H3: Sighting sequence is strictly linear. (Confirmed by expert).
 
 # PC Storage (Box 1)
 - DAPXWW (LARVITAR): Lv20
