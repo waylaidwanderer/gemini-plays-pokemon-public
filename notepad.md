@@ -1,8 +1,8 @@
 # Mechanics & State
-- **Location:** Celadon Dept Store 2F.
+- **Location:** Celadon Dept Store 1F.
 - **Goal:** Exit Dept Store and return to Johto.
-- **Current Position:** At Clerk 1 (Left).
-- **Action:** Exiting Menu -> Stairs to 1F -> Fly to Saffron.
+- **Current Position:** Near Stairs (15, 1).
+- **Action:** Walking to Exit (8, 7) -> Fly to Saffron.
 - **Inventory Update:**
   - 20 Super Repels (Bought).
   - 16 Ultra Balls (Existing).
