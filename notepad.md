@@ -8,12 +8,11 @@
 - **Current Task:** Restock Supplies.
 - Location: Celadon Dept Store 5F.
 - Action: Moving to counter to buy Max Repels.
-- Status: 5F Directory says "DRUG STORE" but only sells Vitamins/Battle Items.
+- Status: 5F=Vitamins/Battle Items. 4F=Wiseman Gifts. Target is likely 2F (Standard Mart).
 - Strategy:
-    1. **Search:** Go to 2F (likely Trainer's Market).
-    2. **Transit:** Take stairs down from 5F -> 4F -> 3F -> 2F.
-    3. **Buy Repels:** Locate clerk on 2F.
-    4. **Transit:** Exit to Celadon City/Route 7.
+    1. **Transit:** Take stairs down (15,0) to 3F, then to 2F.
+    2. **Buy Repels:** Locate clerk on 2F.
+    3. **Transit:** Exit to Celadon City/Route 7.
     3. **Prepare Team:** Lead with Gyarados (Lv 37) + Max Repel.
     4. **Hunt:** Roam Route 31/30/36 area or use Route 37/Ecruteak loop.
     5. **Encounter:** Sleep/Weaken/Catch.
