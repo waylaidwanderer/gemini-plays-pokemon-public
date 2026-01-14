@@ -24,8 +24,8 @@
 - Entrances at (10, 5), (28, 9), (46, 7).
 
 # Systematic Search Plan (Route 42 Island)
-- Phase 1: Grove (X=24-31, Y=13-17). Status: COMPLETED (No sighting).
-- Phase 2: Upper Island (X=20-33, Y=4-12). Status: STARTING.
+- Phase 1: Grove (X=24-31, Y=13-17). Status: 95% COMPLETED. Missing tile (28, 15).
+- Phase 2: Upper Island (X=20-33, Y=4-12). Status: PARTIALLY COMPLETED.
 - Start Turn: 46896.
 
 # Hypotheses & Tests
