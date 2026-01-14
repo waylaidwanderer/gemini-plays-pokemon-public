@@ -1,1 +1,9 @@
-{}
+{
+  "legendary_tracker": {
+    "agent_name": "legendary_tracker",
+    "agent_description": "Tracks Suicune sightings and roaming beast data.",
+    "agent_system_prompt": "You are Gem's Legendary Tracker. Your job is to keep track of where Suicune has been seen and the current roaming locations for Raikou and Entei. Based on the sighting count and map data, provide the next destination and a high-level route strategy.",
+    "agent_input_schema": "{\"properties\":{\"roaming_data\":{\"type\":\"string\"},\"sighting_count\":{\"type\":\"integer\"}},\"required\":[\"sighting_count\",\"roaming_data\"],\"type\":\"object\"}",
+    "agent_output_schema": "{\"properties\":{\"next_destination\":{\"type\":\"string\"},\"route_strategy\":{\"type\":\"string\"}},\"type\":\"object\"}"
+  }
+}
