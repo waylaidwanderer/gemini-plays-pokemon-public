@@ -7,7 +7,7 @@
 - **Goal:** Register Raikou & Entei.
 - **Current Task:** Restock Supplies.
 - **Location:** Celadon City.
-- **Action:** Locating Dept Store to buy Max Repels.
+- **Action:** Walking to Dept Store (Entrance at 4, 9).
 - **Status:** Deep Post-Game.
 - **Notes:** Goldenrod Dept Store 2F (Standard Repel), 4F (Vitamins).
 - **Strategy:**
