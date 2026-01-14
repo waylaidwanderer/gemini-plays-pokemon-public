@@ -18,19 +18,19 @@
 - Item: Ultra Balls (32).
 - Backup: GORP (Snorlax) for tanking.
 
-# Strategic Plan: The Southern Corridor Sprint (Turn 48205)
+# Strategic Plan: The Great Spiral (Turn 48206)
 - Goal: Trigger Suicune sighting at (14, 10).
-- Step 1: Land at (19, 30). (Done)
-- Step 2: Walk to (21, 49).
-- Step 3: Walk to (21, 51) via (21, 50).
-- Step 4: Walk West to (4, 51).
-- Step 5: Walk North to (4, 35).
-- Step 6: Walk West to (2, 35).
-- Step 7: Walk North to (2, 12).
-- Step 8: Walk East to (14, 12) -> North to (14, 10).
-- Status: Clearing Surf text at (19, 30).
+- Step 1: Surf from (20, 30) to Outer Channel (X=27). (In Progress)
+- Step 2: Use Super Repel.
+- Step 3: Navigate Buoy Maze Gaps:
+  - Gap 1: (26, 10)
+  - Gap 2: (22, 16)
+  - Gap 3: (19, 14)
+- Step 4: Land on North Plateau at (16, 11).
+- Step 5: Walk to (14, 10).
+- Status: Surfing at (20, 30). Clearing text.
 
 # Lessons Learned
-- Pathing: Cianwood is a fortress of plateaus. Row 51 is a low-level corridor connecting the east and west beaches.
-- Navigation: Vertical cliffs (FLOOR_UP_WALL) block most north-south land movement. X=2 and X=4 are key corridors.
+- Pathing: Cianwood is a fortress of plateaus. Land routes to the North Plateau are blocked by vertical cliffs.
+- Navigation: The Great Spiral is the only verified nautical path. Previous land route hypotheses failed due to impassable FLOOR_UP_WALL tiers.
 - Tool Maintenance: find_path_v4 refined for medium consistency and unseen tile handling.
