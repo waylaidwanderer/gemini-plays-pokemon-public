@@ -29,7 +29,7 @@
     - Approach the center of the grove (approx. (28, 15)) to trigger Suicune fleeing.
 - General Lessons:
     - Route 36 is NOT a Suicune sighting location in Pokemon Crystal.
-    - Red is NOT defeated (Team levels Lv19-64). Victory over Red requires higher levels.
+    - Red is NOT defeated (Team levels Lv44-64). Victory over Red requires higher levels.
     - Fly Tool: 'fly_list_navigator_v3_fixed' calibrated for Johto (Up increases index).
 
 # PC Storage (Box 1)
