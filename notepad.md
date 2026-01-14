@@ -1,11 +1,11 @@
 # Suicune Quest
 - Objective: Trigger sighting in Cianwood City at northern shore.
 - Strategy: The Sea Loop (Surfing Route)
-    1. Surf at (19, 30).
-    2. Go North to Row 16.
-    3. Go East to X=27.
-    4. Go North to Row 4 (past the buoy walls at X=26 and Row 9).
-    5. Go West along Row 4 to (7, 4) area.
+    1. From (27, 4), go South to (27, 10).
+    2. Go West to (23, 10).
+    3. Go North to (23, 8).
+    4. Go West to (7, 8) (past the gap at (22, 8)).
+    5. Go North to (7, 4) area.
 - Note: This avoids the long land route and the wall at (19, 40).
 - Suicune sighting count = 1.
 
