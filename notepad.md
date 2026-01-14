@@ -20,7 +20,6 @@
 
 # Suicune Quest
 - Status: 16 Badges, Clear Bell in inventory.
-- Strategy: The 'Sea Loop' path. Navigate east to X=27, north to Y=8, then west to X=18 to reach the beach.
-- Route: (25, 10) -> (26, 10) -> (27, 10) -> (27, 8) -> (22, 8) -> (16, 8) -> (16, 11) [Land] -> (7, 4).
+- Strategy: The 'South Loop' path. Navigate through gaps at (26, 10), then loop south around the X=19 wall at (19, 21) to reach the beach.
+- Route: (27, 8) -> (27, 10) -> (26, 10) -> (25, 10) -> (25, 16) -> (22, 16) -> (21, 16) -> (21, 21) -> (19, 21) -> (18, 21) -> (18, 11) -> (16, 11) [Land] -> (7, 4).
 - Battle Strategy: Lead with XENON (Haunter) for Hypnosis.
-- History: Confirmed buoy walls at X=19 (Y15-20), X=22 (Y9-15), and X=26 (Y0-9). Gap found at (26, 10) and (22, 8). Attempted invalid move through (25, 9) [BUOY].
