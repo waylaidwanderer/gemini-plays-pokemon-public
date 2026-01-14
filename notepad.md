@@ -2,10 +2,12 @@
 
 # Strategic Status
 - **Goal:** Register Raikou & Entei.
-- **Current Action:** Navigating Fly Map (New Bark -> Blackthorn?).
+- **Current Action:** Navigating Fly Map (Cherrygrove -> Violet -> Ecruteak).
 - **Location:** Goldenrod City (Johto) - Fly Menu.
-- **Issue:** 'Left' input from New Bark Town failed (Cursor stuck).
-- **Plan:** Test 'Up' to reach Blackthorn. If valid, route via North Johto.
+- **Fly Map Logic:** 
+  - New Bark -> Cherrygrove: UP (Confirmed).
+  - Cherrygrove -> Violet: UP (Hypothesis).
+  - Violet -> Ecruteak: LEFT (Hypothesis).
 
 # Roamer Hunting Strategy (Route 37)
 1.  **Setup:** 
