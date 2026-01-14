@@ -1,12 +1,12 @@
 # Suicune Quest
 - Objective: Trigger sighting in Cianwood City at the northern shore.
-- Primary Strategy: The Great Northern Sea Loop (Verified)
-    1. Walk to (19, 30) and Surf.
-    2. Surf East to (27, 30), then North to (27, 10).
-    3. Surf West to (23, 10), then North to (23, 8).
-    4. Surf West through the gap at (22, 8) to reach (19, 8).
-    5. Surf South to (19, 11), then West to (16, 11) and land.
-    6. Walk West along Row 11 to (7, 11), then North to (7, 4).
+- Primary Strategy: The Great Northern Sea Loop (Corrected)
+    1. Surf at (19, 30) and head East to (23, 30).
+    2. Surf North along X=23 to Row 8 (bypasses buoy walls at Y=9 and Y=15).
+    3. Surf West along Row 8 to (19, 8), then South to (19, 11).
+    4. Surf West to land at (16, 11).
+    5. Walk West along Row 12 to X=2, then North to (7, 4).
+- Note: Buoy walls at Y=9 and Y=15 are solid between X=16 and X=22. X=23 is a clear north-south channel.
 - Note: Land routes are blocked by internal walls and impassable ledges (verified at (6, 34), (12, 50), (23, 46)). The sea loop is the only confirmed path.
 - Suicune sighting count = 1.
 
