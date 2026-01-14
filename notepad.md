@@ -1,9 +1,9 @@
 # Strategic Status
 - **Goal:** Return to Johto (Via Diglett's Cave).
-- **Current Action:** Traversing Diglett's Cave (Segment 1).
+- **Current Action:** Traversing Diglett's Cave (Segment 2).
 - **Path:** 
-  1. Entrance (15, 5) -> Ladder (17, 3). [CURRENT]
-  2. Ladder (3, 3) -> Ladder (5, 31).
+  1. Entrance (15, 5) -> Ladder (17, 3). [DONE]
+  2. Ladder (3, 3) -> Ladder (5, 31). [CURRENT]
   3. Ladder (17, 33) -> Exit (3, 33).
 
 # Notes
