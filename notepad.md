@@ -19,15 +19,16 @@
 - Item: Ultra Balls (32).
 
 # Strategic Plans: Locate Suicune
-- Current Turn: 48094. Shortcut Turn Limit: 48150.
+- Start Turn: 47680
 - Goal: Reach (7, 4) on north plateau.
 - Primary Route: 'Beach Shortcut' (X=2).
   - Step 1: Reach West Beach at (2, 51) via southern city corridor.
   - Step 2: Walk North along X=2.
   - Verification: Check for blockage at Y=10 (Seen FLOOR_UP_WALL tiles).
 - Backup Route: 'Great Spiral' buoy maze via (27, 30).
+- Turn Limit for Shortcut: 48150.
 
 # Lessons Learned
 - Fly Navigation: Johto Fly menu is a linear list (Up/Down), not 2D.
 - Exploration: (11, 15) and (11, 14) are confirmed dead-end pockets. Marker 🚫 placed.
-- Navigation: (21, 46) is a solid cliff (FLOOR_UP_WALL), not a jumpable ledge. Marker 📍 placed.
+- Navigation: (21, 46) and (18, 50) are solid cliffs (FLOOR_UP_WALL). Marker 📍 placed.
