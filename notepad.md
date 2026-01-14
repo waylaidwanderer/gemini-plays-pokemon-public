@@ -8,6 +8,7 @@
 - Strategy: Visit sighting spots in order. Then Tin Tower.
 - Items: Clear Bell (HAVE IT).
 - Started tracking: Turn 46801
+- Started healing/restock: Turn 46860
 
 # Tile Mechanics
 - FLOOR: Standard walkable ground.
@@ -16,10 +17,9 @@
 - FLOOR_UP_WALL: Impassable from the NORTH. Verified at (23, 46).
 - LEDGE_HOP_DOWN: Impassable from the NORTH (can only jump SOUTH).
 
-# Map Insights (Cianwood)
-- Divided by internal walls. Use Row 51 to switch strips.
-- X=19, X=18, X=2 are long north-south corridors.
-- Gap in buoy wall at (22, 8).
+# Map Insights (Route 42)
+- Middle grove with Apricorns requires Cut at (24, 13).
+- Three Mt. Mortar entrances.
 
 # Pokedex / Party Planning
 - Missing Suicune.
@@ -28,11 +28,9 @@
 # Lessons Learned
 - Eusine battle confirms sighting completion.
 - Buoy walls are highly restrictive; land routes often safer.
+- Trigger for Route 42 sighting is likely a specific tile in the grove.
 
 # Suicune sighting on Route 42 Hypothesis
-- Hypothesis: Interacting with the area at (26, 15) triggers the third sighting.
-- Test: Navigate to (26, 15) and observe if Suicune appears.
-- Conclusion: DENIED (Walking through (26, 15) did not trigger the event).
-- New Hypothesis: The sighting trigger is further east on Route 42 or near the water.
-- Test: Walk/Surf east towards Mahogany Town and observe.
+- Hypothesis: Walking on a specific tile in the (26, 15) grove triggers the sighting.
+- Test: "Mow the lawn" across all reachable tiles in the grove (Rows 13-16, X=24-31).
 - Conclusion: PENDING
