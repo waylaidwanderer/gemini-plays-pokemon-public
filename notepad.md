@@ -1,9 +1,9 @@
 # Strategic Status
 - **Goal:** Register Raikou & Entei.
-- **Current Action:** Scanning Grass (Route 37).
-- **Location:** Route 37 (7, 3).
-- **Status:** Scanning for Roamers (Pass 1 - New Repel).
-- **Repel:** Active (200 steps).
+- **Current Action:** Reapplying Repel.
+- **Location:** Route 37 (6, 3).
+- **Status:** Repel expired (Unexpectedly fast?). Reapplying.
+- **Repel:** Expired.
 - **Session Start:** Turn 38471.
 
 # Roamer Hunting Strategy (Blind)
