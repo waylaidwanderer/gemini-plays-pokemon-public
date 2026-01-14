@@ -1,11 +1,8 @@
 # Strategic Status
 - **Goal:** Register Raikou & Entei.
-- **Current Action:** Entering Ecruteak (Reset).
-- **Location:** Route 37 (7, 0) -> Ecruteak.
-- **Status:** Entering Ecruteak to reset Roamers.
-- **Repel:** Active (Freshly applied).
-- **Note:** Bug-Catching Contest is active today (Tuesday).
+- **Repel Status:** Applied at Turn 38543.
 - **Session Start:** Turn 38471.
+- **Note:** Bug-Catching Contest is active today (Tuesday).
 
 # Roamer Hunting Strategy (Blind)
 1.  **Setup:** 
@@ -13,12 +10,10 @@
     - Item: Super Repel.
     - Balls: 16 Ultra Balls.
 2.  **Procedure:**
-    - Enter Route 37.
-    - Walk into grass.
-    - Ensure Super Repel is active.
-    - Run ~20-30 steps in grass.
+    - Cycle: Route 37 <-> Ecruteak City (to reset Roamers).
+    - Scan: Run ~20-30 steps in grass with Super Repel active.
     - If encounter: Catch!
-    - If no encounter: Return to Ecruteak (Reset), then back to Route 37.
+    - If no encounter: Reset again.
 3.  **Target:** Raikou/Entei (Lv 40). Repel filters Lv < 36.
 
 # Notes
