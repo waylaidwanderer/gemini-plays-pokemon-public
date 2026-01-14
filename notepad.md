@@ -33,16 +33,15 @@
 - Hypothesis 3: Sighting triggers by standing at the water's edge *inside* the grove.
     - Target Tiles: (25, 15), (26, 15).
     - Result: FAILED (at 24, 15 and 25, 15).
-- Hypothesis 4: Suicune is in/near one of the other two water bodies on Route 42.
-    - Test: Explore West, Middle, and East water bodies.
-    - Result: West (PENDING - Tool failed previously). Middle (PENDING). East (PENDING).
+- Hypothesis 4: Suicune is in/near one of the two water bodies on Route 42.
+    - West Body: Swept (Turn 47084). FAILED.
+    - Middle Body: Sweeping now (Turn 47091+).
 
 # Verified Failures (Route 42)
 - "Sighting trigger at (28, 15)": FAILED.
 - "Re-entry from Mt. Mortar": FAILED (Turn 46939).
 - "Eusine in Ecruteak Center": FAILED (Turn 46981).
 - Wise Trio Interaction (Ecruteak): FAILED (Turn 47043).
-- Grove Floor Sweep (Ecruteak entry): FAILED (Turns 47072-47078).
 
 # Map Insights
 - Route 42: Middle grove with Apricorns requires Cut at (24, 13).
