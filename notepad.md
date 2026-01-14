@@ -61,11 +61,10 @@
   - Lake of Rage: (10, 3)
   - Blackthorn: (14, 5)
 - Navigation from Cherrygrove (12, 10) to Cianwood (0, 9): 12 Lefts, 1 Up.
-- Status: At (25, 5) in Cherrygrove; Fly map open. Cursor on New Bark Town (14, 10).
-- Failed Fly attempts: 56 (Reason: Previous attempt's map inputs failed to move cursor).
-- Flight Plan: Consult navigation_analyst to verify button sequence and timing.
-- Suicune Sighting Progress: Heading to Cianwood.
-- Timestamp: Turn 48001. Quest started Turn 47680.
+- Status: At (25, 5) in Cherrygrove; Fly map open. Testing discrete grid movement vs. coordinate movement.
+- Failed Fly attempts: 56 (Reason: Inputs dropped or coordinate math mismatch).
+- Flight Plan: Press Left with 1s sleeps to determine if 1 press = 1 city.
+- Timestamp: Turn 48002. Quest started Turn 47680.
 
 # Tile Mechanics
 - FLOOR: Standard walkable ground. Verified at (25, 5) in Cherrygrove.
