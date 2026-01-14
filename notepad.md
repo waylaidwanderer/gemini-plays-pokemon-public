@@ -1,18 +1,30 @@
-# Suicune Quest Strategy: 'The Buoy Spiral' (Confirmed)
-- Fact: The northern plateau at (7, 4) is isolated. The only access is by water from the east, navigating a spiral of buoy walls.
-- Route:
-    1. Surf at (19, 30) (East Coast Surf Point).
-    2. Sail North through Gap 1 at (26, 10).
-    3. Sail South through Gap 2 at (22, 16).
-    4. Sail North through Gap 3 at (19, 14).
-    5. Sail North to Y=11, then West past Wall 7 (ends at Y=12).
-    6. Land at (14, 10) or (16, 11).
-    7. Walk to Suicune sighting area at (7, 4).
-- Preparation: Lead with XENON (Haunter) for Hypnosis. Use SUPER REPEL once on water.
+# PC Storage (Box 1)
+- Ravioli (KRABBY): Lv10 (Surf, Whirlpool)
+- LAPIS (POLIWAG): Lv12 (Waterfall, Surf, Whirlpool)
+
+# Verified Tile Mechanics
+- FLOOR_UP_WALL: Impassable from SOUTH (cannot walk north). Represents a ledge face.
+- LEDGE_HOP_DOWN: One-way jump from NORTH to SOUTH.
+- BUOY: Impassable water obstacle.
+- FLOOR: Walkable.
+- WALL: Impassable.
+- WATER: Traversable only via Surf.
+
+# Suicune Quest Strategy: 'The Buoy Spiral'
+- Fact: The northern plateau is isolated by ledges. The only access is by water from the east, navigating the buoy spiral.
+- Confirmed Spiral Route:
+    1. Start Surfing from (19, 30).
+    2. Sail to (26, 28), then North through Gap 1 at (26, 10).
+    3. Sail Left to (22, 10), then South through Gap 2 at (22, 16).
+    4. Sail Left to (19, 16), then North through Gap 3 at (19, 14).
+    5. Sail North to (19, 11), then West past Wall 7 (ends at Y=12).
+    6. Land at (16, 11) or (14, 10).
+    7. Walk West/North to sighting area at (7, 4).
+- Preparation: Lead with XENON (Haunter). Use SUPER REPEL once on water.
 - Start Turn: 47680 (Suicune North Beach Quest)
 - Start Time: Wednesday, Jan 14, 2026, 4:00 AM PST
 
 # Strategy Lessons
-- Buoy Maze: The buoy spiral is the only intended path to the north plateau. Land routes are blocked by walls (X=5, X=9) and one-way ledges.
-- Dead Ends: (11, 14) is a dead-end pocket; do not attempt to reach the plateau from the city beach.
-- Surf Points: (19, 30) is the most efficient launch point for the buoy spiral.
+- Buoy Maze: The buoy spiral is the only intended path. Land routes from the south are blocked by ledge faces (FLOOR_UP_WALL).
+- Menu Memory: Items in the pack stay selected. Verify cursor before mashing A.
+- Efficiency: Use (19, 30) for launching into the spiral.
