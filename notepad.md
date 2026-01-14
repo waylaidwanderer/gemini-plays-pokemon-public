@@ -10,28 +10,27 @@
 - LEDGE_HOP_DOWN: One-way jump from NORTH to SOUTH.
 - COUNTER: Impassable.
 
-# Suicune Quest Strategy: 'The Great Buoy Loop' (Final)
-- Fact: The northern plateau (Suicune area) is isolated by a wall at Y=15. Landing at (14, 28) is still south of this wall.
-- The only access is via the buoy loop to reach the northern water at Y<15.
+# Suicune Quest Strategy: 'The Great Buoy Spiral' (Final)
+- Fact: The northern plateau (Suicune area) is isolated by a spiral of buoy walls.
+- Spiral Walls:
+    - Wall 1: X=26 (Y 0-9)
+    - Wall 2: Y=9 (X 22-26)
+    - Wall 3: X=22 (Y 9-15)
+    - Wall 4: Y=15 (X 18-22)
+    - Wall 5: X=19 (Y 15-20)
+    - Wall 6: Y=20 (X 18-20)
+    - Wall 7: X=17 (Y 12-15)
 - Verified Route (Water):
-    1. Start at (14, 28) (Current). Walk to (14, 27) and Surf.
-    2. Sail to (26, 10) (Gap 1).
-    3. Sail to (22, 16) (Gap 2).
-    4. Sail to (21, 16), then North to (21, 14).
-    5. Sail West through (19, 14) (Gap 3) to (18, 14).
-    6. Sail North to (18, 10), then West to land at (16, 10).
-    7. Walk to Suicune at (7, 4).
+    1. Pass Gap 1 at (26, 10). (Completed)
+    2. Pass Gap 2 at (22, 16). (Completed)
+    3. Sail Right to X=23, then North to Y=11 to bypass Walls 3 and 7.
+    4. Sail West to (16, 11) and land.
+    5. Walk to Suicune at (7, 4).
 - Preparation: Lead with XENON (Haunter). Use SUPER REPEL.
 - Start Turn: 47680 (Suicune North Beach Quest)
 - Start Time: Wednesday, Jan 14, 2026, 4:00 AM PST
 
 # Progress Log
-- Attempt 1-5: Landed at (14, 28) by mistake (south of wall).
-- Attempt 6 (Turn 47761): Return to water. Chad called.
-- Attempt 7 (Turn 47763): Marked ROCK at (10, 27). Initiating Surf at (14, 27).
-- Attempt 8 (Turn 47764): Confirmed Surf.
-- Attempt 9 (Turn 47765): Surfed at (14, 27). Pathfinder moved to (19, 30) and used Surf again.
-- Attempt 10 (Turn 47767): Cleared Surf text at (19, 30). Result: Afloat at (19, 29). Success!
-- Attempt 11 (Turn 47768): Sailing to (26, 10) (Gap 1). Result: Arrived at (26, 10). Chad called.
-- Attempt 12 (Turn 47769): Cleared Chad's call at (26, 10). Success!
-- Attempt 13 (Turn 47770): Sailing to (22, 16) (Gap 2). Target: Next buoy gap.
+- Attempt 1-12: Navigated to (22, 16) via Gaps 1 and 2.
+- Attempt 13 (Turn 47770): Arrived at (22, 16).
+- Attempt 14 (Turn 47771): Pathfinding to landing spot (16, 11). Target: North Plateau.
