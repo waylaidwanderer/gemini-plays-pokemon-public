@@ -57,21 +57,5 @@
         "action_counter": 47231
       }
     ]
-  },
-  "suicune_sweep_v2": {
-    "description": "Generates a sequence of button presses to perform a thorough sweep of all walkable tiles in the Route 42 grove to trigger the Suicune sighting. Starting position: (28, 15).",
-    "input_schema": {
-      "type": "object",
-      "properties": {},
-      "required": []
-    },
-    "python_script": "import json\n\ndef sweep():\n    # Current Position: (28, 15)\n    # Walkable Tiles:\n    # R15: (25,15)-(30,15)\n    # R16: (26,16), (30,16)\n    # R17: (26,17)-(30,17)\n    \n    path = [\n        \"Left\", \"Left\", \"Left\", # To (25, 15)\n        \"Right\", \"Right\", \"Right\", \"Right\", \"Right\", # To (30, 15)\n        \"Down\", # To (30, 16)\n        \"Down\", # To (30, 17)\n        \"Left\", \"Left\", \"Left\", \"Left\", # To (26, 17)\n        \"Up\", # To (26, 16)\n        \"Up\", # To (26, 15)\n        \"Right\", \"Right\" # Back to (28, 15)\n    ]\n    return path\n\nprint(json.dumps(sweep()))\n",
-    "history": [
-      {
-        "commit_message": "Refine suicune_sweep to cover every walkable tile in the Route 42 grove with a single path. Accounts for trees and boundaries.",
-        "timestamp": "2026-01-14T07:10:55.273Z",
-        "action_counter": 47321
-      }
-    ]
   }
 }
