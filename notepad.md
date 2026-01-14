@@ -1,30 +1,30 @@
 # Suicune Quest
-- Objective: Trigger sighting in Cianwood City at the northern shore.
-- Strategy: The Great Southern Bypass (Confirmed Land Route)
-    1. Walk to (21, 35).
-    2. Walk to (23, 44) (bypasses wall at X=21, Row 43 via PokeCenter).
-    3. Walk to (21, 44), then South to (21, 51).
-    4. Walk West along Row 51 to (4, 51).
-    5. Walk North to (4, 44), then West to (2, 44).
-    6. Walk North along the West Coast corridor (X=2) to Row 14.
-    7. Navigate to the northern shore at (7, 4).
-- Note: This route uses confirmed land gaps and avoids all ledges. Row 51 is the key horizontal thoroughfare.
+- Objective: Trigger sighting in Cianwood City at northern shore.
+- Strategy: The Southern Promenade (Verified Land Route)
+    1. Walk South along X=19 to (19, 51).
+    2. Walk West along Row 51 to (4, 51).
+    3. Walk North along X=4 to (4, 44).
+    4. Walk West along Row 44 to (2, 44).
+    5. Walk North along X=2 corridor to Row 4.
+    6. Walk East along Row 4 to (7, 4) to trigger sighting.
+- Note: All ledges in Cianwood are impassable from the north. Row 51 and X=2 are the only clear long-distance thoroughfares.
 - Suicune sighting count = 1.
 
 # Tile Mechanics (Cianwood)
 - FLOOR: Standard walkable ground.
 - WATER: Traversable only while Surfing.
-- WALL / FLOOR_UP_WALL / LEDGE_HOP_DOWN: All act as IMPASSABLE obstacles from the north in Cianwood.
+- WALL / FLOOR_UP_WALL / LEDGE_HOP_DOWN: All act as IMPASSABLE obstacles from the north.
 - BUOY: Impassable water obstacle.
 - Interaction: Surf from FLOOR adjacent to WATER by pressing A.
 
 # Confirmed Corridors
+- X=19: Clear from Row 30 to Row 51.
 - Row 51: Clear from X=4 to X=23.
 - X=4: Clear from Row 44 to Row 51.
-- X=2: Clear from Row 14 to Row 49.
+- Row 44: Clear from X=2 to X=23.
+- X=2: Clear from Row 4 to Row 49.
 
 # Lessons Learned
-- Cianwood ledges are impassable from the north.
-- Internal walls divide the city into vertical strips.
-- Row 51 is the only confirmed clear horizontal path between the eastern and western strips.
+- Cianwood ledges are impassable from the north. Do not attempt to jump them.
+- Internal walls divide the city into vertical strips; use Row 51 to move between them.
 - Always reveal tiles manually before planning long-distance routes.
