@@ -21,13 +21,9 @@
 # Suicune Quest
 - Start Turn (Cianwood Re-attempt): 47450
 - Status: Sighting 2 (Cianwood North Beach) in progress.
-- Strategy: The 'Sea Loop'. The northern section is an isolated plateau. Reach it via buoy wall gaps.
-- Route:
-    1. Stand at (19, 30), face Right, and use Surf. (In Progress)
-    2. Surf East to (23, 30), then North through gap at (23, 15).
-    3. Surf West to (21, 15), then North through gap at (21, 9).
-    4. Surf West to (17, 11) and land at (16, 11).
-    5. Walk West to (6, 11), then North to Row 4.
-    6. Approach (7, 4) to trigger sighting.
+- Strategy: The 'Plateau Landing'. The northern section is accessible via Surf from the east.
+- Route: Surf South to (23, 21), then West to (20, 21), then North to (20, 11), then West to (17, 11). Land at (16, 11).
+- Plateau Navigation: From (16, 11), walk West to (15, 11), then North to (15, 10). Walk West to X=7 and North to (7, 4).
+- Verification (Turn 47577): Row 15 wall has no land gaps. Column 26 buoy wall isolates the far east water. The landing at (16, 11) is the only confirmed way up.
 - Sighting 1: Burned Tower (DONE)
 - Battle Strategy: Use XENON (Haunter) for Hypnosis.
