@@ -6,13 +6,13 @@
 # Strategic Status
 - **Goal:** Register Raikou & Entei.
 - **Current Task:** Restock Supplies.
-- Location: Celadon Dept Store 1F.
-- Action: Taking stairs to 2F.
+- Location: Celadon Dept Store 2F.
+- Action: Buying Max Repels from Clerk at (13, 5).
 - Status: Deep Post-Game.
-- Notes: Goldenrod (2F Std, 4F Vit). Celadon Dir: 2F Trainer, 3F TM, 4F Gift, 5F Drug, 6F Roof.
+- Notes: Celadon 2F Clerk (Left) likely has Repels based on markers.
 - Strategy:
-    1. **Buy Repels:** Check 2F (Trainer's Market) for Max Repels.
-    2. **Transit:** Celadon City.
+    1. **Buy Repels:** Buy Max Repels (30+) at 2F.
+    2. **Transit:** Exit to Celadon City/Route 7.
     3. **Prepare Team:** Lead with Gyarados (Lv 37) + Max Repel.
     4. **Hunt:** Roam Route 31/30/36 area or use Route 37/Ecruteak loop.
     5. **Encounter:** Sleep/Weaken/Catch.
