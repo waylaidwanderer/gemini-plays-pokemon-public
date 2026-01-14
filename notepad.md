@@ -16,13 +16,10 @@
 
 # Suicune Quest
 - Status: 16 Badges, Red Defeated, Clear Bell in inventory.
-- Timestamps:
-    - Started Suicune Quest (Kanto Phase): Turn #47125
-    - Backtracking for Route 42 Sighting: Turn #47221 (Start)
 - Sighting Progress:
     1. Burned Tower (DONE)
     2. Cianwood City (DONE - Eusine defeated)
-    3. Route 42 (Middle Grove) - MUST RETURN (Sighting missed, blocks Kanto progress).
+    3. Route 42 (Middle Grove) - IN PROGRESS (Sighting missed, blocks Kanto progress).
     4. Kanto Route 14 (East of Fuchsia) - LOCKED (Requires Route 42 sighting).
     5. Kanto Route 25 (Cerulean Cape) - LOCKED (Requires Route 42 sighting).
 - Strategy & Lessons:
@@ -30,7 +27,7 @@
     - Lesson: Suicune is a static land sprite; water sweeps are ineffective.
     - Lesson: Missing a Johto sighting (e.g., Route 42) blocks all subsequent sightings in Kanto and the Tin Tower event.
 - Backtracking Plan (HOW):
-    - Fly to Ecruteak, head East to the grove near the 3 Apricorn trees on Route 42.
+    - Head East to the grove near the 3 Apricorn trees on Route 42.
     - Ensure KIMCHI has Cut for the tree at (24, 13).
     - Approach the grove center to trigger Suicune.
     - Return to Kanto (Fuchsia City) after Johto sighting.
