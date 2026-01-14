@@ -15,8 +15,15 @@
 - **Goal:** Register Raikou & Entei.
 - **Current Task:** Farm money at Elite Four -> Buy Max Repels (20x).
 - **Location:** Will's Room (Elite Four).
-- **Action:** Approaching Will to challenge him.
-- **Next Step:** Defeat Will -> Koga -> Bruno -> Karen -> Lance.
+- **Action:** Initiating battle with Will.
+- **Battle Plan:**
+    - Lead: Gyarados (Level 36).
+    - Turn 1: Switch to Machoke (Muscle, Lv 88).
+    - Strategy: Sweep with Elemental Punches.
+        - Xatu: Thunderpunch/Ice Punch.
+        - Exeggutor: Ice Punch.
+        - Slowbro: Thunderpunch.
+        - Jynx: Strength/Cross Chop.
 - **Goal:** Farm money.
-- **Party:** Machoke (Lv 88) carrying. Gyarados lead (Switch to Machoke Turn 1).
+- **Resources:** ¥2294.
 - **Resources:** ¥2294. Repels: 0.
