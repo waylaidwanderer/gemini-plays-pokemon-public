@@ -9,7 +9,7 @@
 - WALL: Impassable obstacle.
 - HEADBUTT_TREE: Special tree for Headbutt.
 - DOOR: Warp point.
-- FLOOR_UP_WALL: Ledge face. Impassable from all directions. (Critical for shortcut evaluation).
+- FLOOR_UP_WALL: Ledge face. Impassable from all directions.
 - LEDGE_HOP_DOWN: One-way jump (North to South).
 
 # Suicune Capture Strategy
@@ -17,6 +17,7 @@
 - Move 1: Hypnosis (Sleep).
 - Move 2: Night Shade (44 dmg). Suicune has ~120 HP. Use twice for Red health.
 - Item: Ultra Balls (32).
+- Note: Suicune is Water type. Calcifer (Fire) is vulnerable. GORP (Snorlax) is a good tank.
 
 # Strategic Plans: Locate Suicune
 - Start Turn: 47680
@@ -29,6 +30,7 @@
 - Turn Limit for Shortcut: 48150.
 
 # Lessons Learned
-- Fly Navigation: Johto Fly menu is a linear list (Up/Down), not 2D.
+- Fly Navigation: Johto Fly menu is a linear list scrolled with Up/Down, not a 2D grid.
 - Exploration: (11, 15) and (11, 14) are confirmed dead-end pockets. Marker 🚫 placed.
 - Navigation: (21, 46) and (18, 50) are solid cliffs (FLOOR_UP_WALL). Marker 📍 placed.
+- Pathing: To reach the southern corridor from the city center, use the gap at X=20-21.
