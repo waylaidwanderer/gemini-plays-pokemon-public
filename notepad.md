@@ -2,9 +2,9 @@
 
 # Strategic Status
 - **Goal:** Register Raikou & Entei.
-- **Current Action:** Traversing Route 35 -> National Park.
-- **Location:** Route 35 (Moving North).
-- **Status:** Phone call cleared (presumably). Resuming travel.
+- **Current Action:** Clearing Phone Call (Gaven).
+- **Location:** Route 35.
+- **Status:** Phone call ongoing. Clearing dialogue to resume travel.
 
 # Roamer Hunting Strategy (Route 37)
 1.  **Setup:** 
