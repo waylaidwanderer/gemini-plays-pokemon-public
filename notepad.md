@@ -30,7 +30,9 @@
     - If Route 36 is not triggered, re-attempt Route 42 by entering from Ecruteak side.
 - Hypothesis Log (Route 42):
     - H1: Trigger is a specific tile within the grove boundary. (Tested with 'suicune_sweep_v2', Failed Turn 47324).
-    - H2: Missing prerequisite sighting. (Cianwood verified DONE, checking Route 36 next).
+    - H2: Missing prerequisite sighting. (Cianwood verified DONE Turn 47347).
+    - H3: Route 36 sighting must occur before Route 42. (Testing now).
+    - H4: Order of sightings in Crystal is Burned Tower -> Cianwood -> Route 42 -> Route 36 -> Kanto. (Verifying H3 first).
 
 # PC Storage (Box 1)
 - DAPXWW (LARVITAR): Lv20
