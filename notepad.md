@@ -11,11 +11,10 @@
 - Status: Purchased 30 Max Repels.
 - Action: Exiting Celadon Dept Store.
 - Strategy:
-    1. **Transit:** Exit via Elevator/Stairs.
-    2. **Prepare:** Equip Max Repel on lead (Gyarados).
-    3. **Hunt:** Fly to Ecruteak City. Check Pokegear.
-    4. **Loop:** Move between Route 37 and Ecruteak until Beast is on Route 37.
-    5. **Encounter:** Use Max Repel, walk in grass. Sleep/Weaken/Catch.
+    1. **Transit:** Exit via Elevator to 1F.
+    2. **Hunt:** Fly to Ecruteak City. Check Pokegear.
+    3. **Loop:** Move between Route 37 and Ecruteak until Beast is on Route 37.
+    4. **Encounter:** Use Max Repel from Bag, walk in grass. Sleep/Weaken/Catch.
     2. **Buy Repels:** Locate clerk on 2F.
     3. **Transit:** Exit to Celadon City/Route 7.
     3. **Prepare Team:** Lead with Gyarados (Lv 37) + Max Repel.
