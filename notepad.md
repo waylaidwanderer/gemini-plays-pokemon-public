@@ -24,9 +24,9 @@
     - Lesson: Suicune is a static land sprite; water sweeps are ineffective. If not visible, check prerequisites or other maps.
 - Kanto Route 14 Plan:
     1. Exit Saffron Magnet Train Station. (DONE)
-    2. Fly to Fuchsia City. (IN PROGRESS)
-    3. Exit Fuchsia City to the East to Route 15.
-    4. Continue East through Route 15 to reach Route 14.
+    2. Fly to Fuchsia City. (DONE)
+    3. Exit Fuchsia City to the East to Route 15. (DONE)
+    4. Continue East through Route 15 to reach Route 14. (IN PROGRESS)
     5. Look for Suicune sprite on land (likely near water or in a clearing).
     6. If not found, head North to Route 13 -> Route 12 -> Lavender Town.
     7. Final stop: Route 25 (Cerulean Cape).
