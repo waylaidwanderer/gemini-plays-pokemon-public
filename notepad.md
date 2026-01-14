@@ -21,8 +21,8 @@
 
 # Strategic Plan: The Great Spiral (Confirmed)
 - Start Turn: 48151.
-- Step 1: Walk to East Coast Surf Point at (19, 30). (In Progress)
-- Step 2: Surf to Outer Channel (X=27) and enter Gap 1 at (26, 10).
+- Step 1: Walk to East Coast Surf Point at (19, 30). (Done)
+- Step 2: Surf to Outer Channel (X=27) and enter Gap 1 at (26, 10). (In Progress)
 - Step 3: Navigate Middle Ring to Gap 2 at (22, 16).
 - Step 4: Navigate Inner Ring to Gap 3 at (19, 14).
 - Step 5: Navigate Center Area to Landing Point at (16, 11).
