@@ -1,9 +1,9 @@
 # Strategic Status
 - **Goal:** Register Raikou & Entei.
-- **Current Action:** Scanning Route 37 Grass (Southward Pass).
-- **Location:** Route 37 (North).
-- **Status:** Entering grass to trigger encounters.
-- **Repel:** Active (used ~30 steps ago).
+- **Current Action:** Scanning Route 37 Grass (North Patch).
+- **Location:** Route 37 (7, 3).
+- **Status:** Running 20 steps in grass.
+- **Repel:** Active (used ~35 steps ago).
 - **Session Start:** Turn 38471.
 
 # Roamer Hunting Strategy (Blind)
