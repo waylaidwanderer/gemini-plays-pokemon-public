@@ -14,15 +14,14 @@
 
 # Quest Strategies
 ## Suicune: 'The Western Land Bridge' (Bypasses Everything)
-- Discovery: The northern plateau (Suicune's spot) is connected to the western beach, which can be reached on land by navigating gaps in the city's internal walls.
+- Discovery: The northern plateau (Suicune's spot) is connected to the western beach, which can be reached on land by navigating the far southern gap in the city walls.
 - Route:
-    1. From (13, 19), walk West to (11, 19).
-    2. Walk South to (11, 21) to enter the southern beach area.
-    3. Walk West to (2, 21), passing through the gap in the X=3 wall (Y=20-22).
-    4. Walk North along the western edge (X=2) to Y=14.
-    5. Walk East to (8, 14) to enter the plateau area.
-    6. Walk North to (14, 10) to reach the sighting spot.
-- Fact: This is a 100% land-based route that ignores buoys, surfing, and repels.
+    1. From (5, 19), walk South to (5, 46).
+    2. Walk West through the gap at (5, 46) to (2, 46).
+    3. Walk North along the western edge (X=2) all the way to Y=12.
+    4. Walk East to (14, 12) to reach the plateau area.
+    5. Walk North to (14, 10) to reach the sighting spot.
+- Fact: This is a 100% land-based route that ignores buoys, surfing, and repels. It is much longer but guaranteed to work without HMs.
 - Preparation: Lead with XENON (Haunter).
 - Start Turn: 47680 (Suicune North Beach Quest)
 - Start Time: Wednesday, Jan 14, 2026, 4:00 AM PST
