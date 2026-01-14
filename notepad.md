@@ -14,7 +14,7 @@
         - **Aerodactyl:** Defeated.
         - **Charizard:** Defeated.
         - **Dragonite (Lv 47):** Defeated.
-        - **Dragonite (Lv 47):** **Ice Punch** (4x). [INCOMING]
+        - **Dragonite (Lv 47):** **Ice Punch** (4x). [CURRENT TARGET]
         - **Dragonite (Lv 50):** Ice Punch (4x).
 - **Goal:** Farm money.
 - **Resources:** ¥29144.
