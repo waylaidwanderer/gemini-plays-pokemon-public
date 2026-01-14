@@ -1,8 +1,9 @@
 # Strategic Status
 - **Goal:** Register Raikou & Entei.
-- **Current Action:** Resetting Roamer positions.
-- **Location:** Route 37 -> Ecruteak City.
-- **Status:** Scan failed (20 steps, no encounter). Moving to Ecruteak to reset, then returning.
+- **Current Action:** Returning to Route 37.
+- **Location:** Ecruteak City (South Entrance).
+- **Status:** Just entered Ecruteak to reset Roamers. Heading back south immediately.
+- **Repel:** Active (~180 steps left).
 
 # Roamer Hunting Strategy (Blind)
 1.  **Setup:** 
