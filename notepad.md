@@ -7,12 +7,11 @@
 - **Goal:** Register Raikou & Entei.
 - **Current Task:** Restock Supplies.
 - **Location:** Violet City.
-- **Action:** Exiting Pokegear, then to Mart.
-- **Status:** Deep Post-Game. S.S. Ticket confirmed in inventory.
+- **Action:** Flying to Goldenrod Dept Store.
+- **Status:** Deep Post-Game.
 - **Strategy:**
-    1. **Buy Repels:** Check Violet Mart (Standard/Super/Max). If no good Repels, Fly to Goldenrod.
-    2. **Prepare Team:** Lead with Gyarados (Lv 37) + Repel to filter encounters.
-    3. **Hunt:** Walk East to Route 31 (Beast spotted there).
+    1. **Buy Repels:** Buy Max Repels at Goldenrod Dept Store (5F).
+    2. **Prepare Team:** Lead with Gyarados (Lv 37) + Max Repel.
+    3. **Hunt:** Roam Route 31/30/36 area or use Route 37/Ecruteak loop.
     4. **Encounter:** Sleep/Weaken/Catch.
-- **Goal:** Farm money.
 - **Resources:** ¥36644.
