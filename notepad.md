@@ -61,18 +61,20 @@
   - Lake of Rage: (10, 3)
   - Blackthorn: (14, 5)
 - Navigation from Cherrygrove (12, 10) to Cianwood (0, 9): 12 Lefts, 1 Up.
-- Status: At (25, 5) in Cherrygrove; Fly map open. Fixed fly_to_city_stable tool and executing navigation to Cianwood.
-- Failed Fly attempts: 56 (Reason: Tool error; NameError in script).
-- Flight Plan: Use fly_to_city_stable tool with 300ms delays to reach (0, 9).
-- Timestamp: Turn 48005. Quest started Turn 47680.
+- Status: At (29, 4) in Cherrygrove; moving to (25, 5) to retry Fly.
+- Failed Fly attempts: 57 (Reason: Flew to Cherrygrove instead of Cianwood; inputs likely too fast).
+- Flight Plan: Move to (25, 5) -> Open Fly map -> Use fly_to_city_stable with 1000ms delays.
+- Timestamp: Turn 48006. Quest started Turn 47680.
 
 # Tile Mechanics
-- FLOOR: Standard walkable ground. Verified at (25, 5) in Cherrygrove.
+- FLOOR: Standard walkable ground. Verified at (25, 5) and (29, 4) in Cherrygrove.
 - WATER: Traversable only via Surf.
 - BUOY: Impassable water obstacle.
 - WALL: Impassable obstacle.
 - HEADBUTT_TREE: Special tree that can be interacted with using Headbutt.
 - DOOR: Warp point to an interior.
+- FLOOR_UP_WALL: Represents a ledge face. Impassable from ALL directions.
+- LEDGE_HOP_DOWN: One-way jump from NORTH to SOUTH.
 - (11, 14): Dead End Pocket in Cianwood. Wall at (11, 13) and (12, 14) blocks access to the north plateau.
 - (11, 15): Gap in the city wall (Y=15) in Cianwood. Accesses the beach area but not the plateau. Verified in Turn 47337.
 
