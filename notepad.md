@@ -61,11 +61,11 @@
   - Lake of Rage: (10, 3)
   - Blackthorn: (14, 5)
 - Navigation from Cherrygrove (12, 10) to Cianwood (0, 9): 12 Lefts, 1 Up.
-- Status: Stuck in Pokedex (Machoke entry); exiting to overworld for Fly.
-- Failed Fly attempts: 49 (Reason: Sequence opened Pokedex instead of Pokemon; navigated to Machoke entry).
-- Flight Plan: B x3 (overworld) -> Start -> Down (POKEMON) -> A -> Reset Cursor -> Down x5 (ICARUS) -> A -> A (FLY) -> 12 Left, 1 Up.
+- Status: Stuck in XENON's status screen; exiting to overworld for Fly.
+- Failed Fly attempts: 50 (Reason: Sequence used STATS on XENON instead of FLY on ICARUS).
+- Flight Plan: B x3 (overworld) -> Start -> Down (POKEMON) -> A -> Down x5 (ICARUS) -> A -> A (FLY) -> 12 Left, 1 Up.
 - Suicune Sighting Progress: Heading to Cianwood to test West Beach shortcut.
-- Timestamp: Turn 47966. Quest started Turn 47680.
+- Timestamp: Turn 47967. Quest started Turn 47680.
 
 # Hypotheses
 ## Land Route to Suicune (The 'Gem Shortcut')
