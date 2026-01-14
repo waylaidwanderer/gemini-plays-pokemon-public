@@ -1,9 +1,10 @@
 # Strategic Status
 - **Goal:** Register Raikou & Entei.
-- **Current Action:** Re-entering Route 37.
-- **Location:** Ecruteak City (South Exit).
-- **Status:** Reset complete. Heading back to grass.
+- **Current Action:** Scanning Route 37 Grass (Southward Pass).
+- **Location:** Route 37 (North).
+- **Status:** Entering grass to trigger encounters.
 - **Repel:** Active (used ~30 steps ago).
+- **Session Start:** Turn 38471.
 
 # Roamer Hunting Strategy (Blind)
 1.  **Setup:** 
@@ -14,18 +15,13 @@
     - Enter Route 37.
     - Walk into grass.
     - Ensure Super Repel is active.
-    - Run ~20 steps.
+    - Run ~20-30 steps in grass.
     - If encounter: Catch!
     - If no encounter: Return to Ecruteak (Reset), then back to Route 37.
 3.  **Target:** Raikou/Entei (Lv 40). Repel filters Lv < 36.
 
 # Notes
 - **Route:** Goldenrod -> Route 35 -> National Park -> Route 36 -> Route 37.
-
-# Roamer Hunting Strategy
-1.  **Setup:** Gyarados (Lv 36) leading, Super Repel active.
-2.  **Location:** Route 37/Ecruteak border.
-3.  **Target:** Raikou/Entei (Lv 40).
 
 # Progress
 - **Badges:** 16/16.
