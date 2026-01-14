@@ -1,12 +1,13 @@
 # Mechanics & State
-- **Location:** Goldenrod Dept Store 4F (Medicine Box).
+- **Location:** Goldenrod Dept Store 5F (TM Corner).
 - **Goal:** Supply Run (Dept Store).
-- **Current Position:** (13, 3).
-- **Action:** Closing Menu -> Going to 5F.
+- **Current Position:** (12, 1) - Arrived from 4F.
+- **Action:** Checking Clerk at (8, 5) for Repels.
 - **Inventory Check:**
   - 2F: No Super Repels.
-  - 3F: Battle Items. No Repels.
-  - 4F: Vitamins (9800/ea). No Repels.
+  - 3F: No Repels.
+  - 4F: Vitamins. No Repels.
+  - 5F: Checking now.
 - **Plan:** Check 5F. If fail -> Fly to Celadon.
 - **Shopping List:**
   - Super Repels (Need ~20).
@@ -17,12 +18,12 @@
 - **2F:** Trainer's Market (Checked).
 - **3F:** Battle Collection (Checked).
 - **4F:** Medicine Box (Checked).
-- **5F:** TM Corner.
+- **5F:** TM Corner (Current).
 - **6F:** Tranquil Square.
 
 # Current Task: Roamer Hunt
 - **Status:** Searching for Super Repels.
-- **Next Step:** Check 5F Inventory.
+- **Next Step:** Talk to Clerk -> Buy or Fly.
 
 # Progress
 - **Badges:** 16/16.
