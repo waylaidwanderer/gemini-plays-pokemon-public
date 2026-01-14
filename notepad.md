@@ -10,20 +10,21 @@
 # Suicune Quest
 - Status: Tracking sightings in Johto.
 - Current Objective: Cianwood City sighting at (7, 4).
-- Start Turn: 46373.
-- Strategy (The "How"):
-    1. Walk to Surf Point: (11, 19) -> (11, 16) -> (13, 16).
-    2. Surf Point: Face Right at (13, 16) and launch into WATER at (14, 16).
-    3. Eastern Loop: Surf South to Y=30 to bypass the buoy wall at X=16.
-    4. Land Gap: Land at (15, 30), walk to (19, 30), then Surf again at (20, 30).
-    5. Northern Reach: Surf Right to X=23, North to Y=8, then Left to (19, 8).
-    6. Landing: Surf Down to (19, 11) and land at (16, 11).
-    7. Sighting: Walk from (16, 11) to (7, 4) to trigger cutscene.
+- Strategy:
+    1. Reach Surf Point: (11, 19) -> (13, 19) -> (13, 16).
+    2. Eastern Sea Loop: Surf (14, 16) -> South to Y=26 -> East to X=23 -> North to Y=11 -> West to (17, 11).
+    3. Landing: Land at (16, 11).
+    4. Sighting: Walk (16, 11) -> (7, 11) -> (7, 4).
 - Note: This is a sighting event, not a battle. Suicune will run away.
 
 # Strategy: Capture all Legendary Pokemon
 - Requirements: Clear Bell (Owned), 16 Badges (Owned).
 - Plan: Complete sightings -> Tin Tower -> Capture Suicune (Lv 40).
+
+# Roaming Beast Data
+- Raikou: Unknown
+- Entei: Unknown
+- Suicune Sightings: 1 (Ecruteak), 2 (Cianwood - Pending)
 
 # Pokemon Movesets
 - XENON (Haunter): Hypnosis, Confuse Ray, Night Shade, Dream Eater.
@@ -32,7 +33,3 @@
 - GNEISS (Graveler): Earthquake, Defense Curl, Strength, Rollout.
 - GORP (Snorlax): Surf, Rest, Body Slam, Rollout.
 - ICARUS (Pidgeotto): Fly, Sand-Attack, Gust, Quick Attack.
-
-# Lessons Learned
-- Tool Over-engineering: Avoid spending excessive turns refining pathfinding tools for clear routes. Prioritize manual movement.
-- Sighting vs Battle: Always verify if an encounter is a static battle or a scripted sighting to avoid unnecessary preparation.
