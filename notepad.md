@@ -32,5 +32,6 @@
 - 3F: Battle Collection (X-Items).
 - 4F: Medicine Box (Vitamins).
 - 5F: TM Corner (Punches, Headbutt).
+- 6F: Tranquil Square (Roof/Vending Machines).
     - **NO Super Repels found in Goldenrod.**
-- **Strategy:** Go to Roof -> Fly to Celadon City (Kanto) -> Buy Super/Max Repels at Celadon Dept Store.
+- **Strategy:** Fly to Celadon City (Kanto) -> Buy Super/Max Repels at Celadon Dept Store.
