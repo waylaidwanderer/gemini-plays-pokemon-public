@@ -24,27 +24,20 @@
 - Entrances at (10, 5), (28, 9), (46, 7).
 
 # Hypotheses & Tests
-- Hypothesis 1: Trigger is a specific tile in the (26, 15) or (27, 15) grove.
-    - Test: Walk onto all floor tiles in the grove (X=24-31, Y=13-17).
-    - Status: FAILED (Walked all tiles as of Turn 46953, no sighting triggered).
-- Hypothesis 2: Trigger is on the upper island near the cave entrance or eastern pond.
-    - Test: Walk all floor tiles from Y=4 to Y=12.
-    - Status: PARTIALLY COMPLETED.
-- Hypothesis 3: Suicune appears only when entering the map from a specific side or after re-entering.
-    - Test: Exit to Mahogany, then re-enter and approach the grove.
-    - Status: FAILED (Re-entered from Mahogany at Turn 46966, no sighting).
 - Hypothesis 5: Suicune sighting on Route 42 is triggered by approaching from the west (Ecruteak side).
-    - Test: Fly to Ecruteak and enter Route 42 from the west.
-    - Status: Ongoing (Landed in Ecruteak).
+    - Test: Enter Route 42 from Ecruteak and approach the grove.
+    - Status: Ongoing.
 
 # Failed Hypotheses
 - "Mow the lawn" in grove: FAILED (60+ turns, all tiles stepped on). Suicune is likely a static sprite that isn't currently present.
 - "Sighting trigger at (28, 15)": FAILED (Stepped on it at Turn 46953).
 - "Re-entry from Mahogany": FAILED (Turn 46966).
+- "Eusine in Ecruteak Center": FAILED (Turn 46981 - Map 4_3 fully explored, Eusine not present).
 
 # Lessons Learned
 - Suicune in Route 42 is likely an overworld sprite; if it's not in the Map Objects list, the sighting event is not active.
 - Map refreshes (entering/exiting) are essential when overworld events aren't triggering as expected.
+- [Lesson] Sighting 3 on Route 42 requires the player to approach the three Apricorn trees. If the sprite is missing, a prerequisite might be unfulfilled or the trigger is directional.
 
 # Map Insights (Mt. Mortar)
 - B1F ladder at (19, 29) leads to 1FOutside (17, 29).
