@@ -6,13 +6,13 @@
 # Strategic Status
 - **Goal:** Register Raikou & Entei.
 - **Current Task:** Restock Supplies.
-- **Location:** Route 7.
-- **Action:** Walking to Celadon City (Entrance at 0, 0).
+- **Location:** Celadon City.
+- **Action:** Locating Dept Store to buy Max Repels.
 - **Status:** Deep Post-Game.
 - **Notes:** Goldenrod Dept Store 2F (Standard Repel), 4F (Vitamins).
 - **Strategy:**
     1. **Buy Repels:** Saffron -> Route 7 -> Celadon Dept Store for Max Repels.
-    2. **Transit:** Walk to Celadon.
+    2. **Transit:** Celadon City.
     3. **Prepare Team:** Lead with Gyarados (Lv 37) + Max Repel.
     4. **Hunt:** Roam Route 31/30/36 area or use Route 37/Ecruteak loop.
     5. **Encounter:** Sleep/Weaken/Catch.
