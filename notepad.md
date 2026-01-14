@@ -21,11 +21,11 @@
 # Suicune Quest
 - Start Turn (Cianwood Re-attempt): 47450
 - Status: Sighting 2 (Cianwood North Beach) in progress.
-- Strategy: The 'Sea Loop'. The northern section is a isolated plateau. To reach it, Surf around the buoy walls via the eastern channel.
+- Strategy: The 'Sea Loop'. The northern section is an isolated plateau. Reach it via buoy wall gaps.
 - Route:
-    1. Stand at (19, 30), face Right, and use Surf.
-    2. Surf East to (27, 30), then North to (27, 8).
-    3. Surf West to (21, 8), then South to (21, 11).
+    1. Stand at (19, 30), face Right, and use Surf. (In Progress)
+    2. Surf East to (23, 30), then North through gap at (23, 15).
+    3. Surf West to (21, 15), then North through gap at (21, 9).
     4. Surf West to (17, 11) and land at (16, 11).
     5. Walk West to (6, 11), then North to Row 4.
     6. Approach (7, 4) to trigger sighting.
