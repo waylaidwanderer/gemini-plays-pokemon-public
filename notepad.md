@@ -12,17 +12,21 @@
 - FLOOR_UP_WALL: Ledge face. Impassable.
 - LEDGE_HOP_DOWN: One-way jump (North to South).
 
+# Fly Navigation (Verified)
+- Interface: Linear list in a 'Where?' bubble.
+- Control: Use Up/Down to scroll. Left/Right/Grid-taps are ineffective.
+- Order (Partial): New Bark -> Silver Cave -> Blackthorn -> Lake of Rage -> Mahogany -> Cianwood.
+
 # Suicune Capture Strategy
 - Start Turn: 47680
 - Lead: XENON (Haunter, Lv44).
 - Move 1: Hypnosis (Sleep).
 - Move 2: Night Shade (44 dmg). Suicune has ~120 HP. Use twice for Red health.
 - Item: Ultra Balls (32).
-- Note: Suicune is Water type. Calcifer (Fire) is vulnerable. GORP (Snorlax) is a good tank.
 
 # Strategic Plans: Locate Suicune
 ## The Great Spiral (Intended Route)
-- Entrance: Surf at (27, 44) or (19, 30).
+- Entrance: (27, 44).
 - Channel Entrance: (27, 30).
 - Maze Logic:
   1. Lane 1 (X=27-29): Sail North to (27, 10).
@@ -34,8 +38,3 @@
   7. Lane 4 (X=17-18): Sail North to (17, 20).
   8. Gap 4: Move West through (16, 20) into Lane 5.
   9. Lane 5 (X=14-16): Sail North to (14, 10) and land.
-- Objective: Reach (7, 4) on the north beach plateau.
-
-## Failed Hypotheses
-- Gem Shortcut (11, 15): Confirmed dead end. Marker 🚫 placed.
-- West Beach Shortcut (X=2): City walls and ledges (Y=46, 48, 50) likely prevent land access to the north plateau. Reverting to 'Great Spiral'.
