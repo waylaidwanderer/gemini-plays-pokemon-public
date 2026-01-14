@@ -20,11 +20,11 @@
 
 # Suicune Quest Strategy: 'The Southern Crossing'
 - Goal: Reach Suicune sighting area at (7, 4).
-- Strategy: Land at (19, 30) and use the southern gap at Row 46-51 to reach the west corridor.
+- Strategy: Use the southern gap at Row 46-51 to reach the west corridor (X=2).
 - Route:
-    1. Sail to (19, 30) and land (or Fly to Pokemon Center at 23, 44).
+    1. Land at (19, 30).
     2. Walk south to (19, 46).
-    3. Walk west to (8, 46), then to (2, 46) (passing through the X=11 and X=5 wall gaps).
+    3. Walk west to (2, 46) via wall gaps.
     4. Walk north along X=2 to (2, 14).
     5. Walk east to (7, 14) and north to (7, 4).
 - Preparation: Lead with XENON (Haunter) for Hypnosis. Be ready for Eusine.
