@@ -29,3 +29,10 @@
 - Hypothesis: FLOOR_UP_WALL tiles (like at (6, 46)) can be entered from the NORTH (moving SOUTH). This allows a southern detour to reach the west path (X=2).
 - Test: Navigate to (6, 45) and attempt to move DOWN to (6, 46).
 - Rationale: The northern part of the island is blocked by a wall at Row 15. The west path (X=2) is the only land route to the north beach.
+
+# Water Route Discovery (Turn 47531)
+- Buoy Wall Gaps:
+    - Row 15: Gap at X=23.
+    - Row 9: Gap at X=21 and X=27.
+- Strategy: Surf from (21, 23) -> (23, 23) -> (23, 15) -> (21, 15) -> (21, 9) -> (7, 9) -> (7, 4).
+- Advantage: Bypasses all land walls and one-way ledges.
