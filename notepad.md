@@ -1,8 +1,8 @@
 # Mechanics & State
 - **Location:** Goldenrod Dept Store 4F (Medicine Box).
 - **Goal:** Supply Run (Dept Store).
-- **Current Position:** (14, 3).
-- **Action:** Standing at (13, 3) to talk to Clerk.
+- **Current Position:** (13, 3) - Facing Clerk.
+- **Action:** In Menu (Buy/Sell). Selecting BUY.
 - **Inventory Check:**
   - 2F: No Super Repels.
   - 3F: Battle Items. No Repels.
