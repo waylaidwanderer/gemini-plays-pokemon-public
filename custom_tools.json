@@ -167,63 +167,6 @@
       }
     ]
   },
-  "grass_pacer": {
-    "description": "Oscillates the player between two specified directions for a set number of repetitions to trigger wild encounters.",
-    "input_schema": {
-      "properties": {
-        "dir1": {
-          "enum": [
-            "Up",
-            "Down",
-            "Left",
-            "Right"
-          ],
-          "type": "string"
-        },
-        "dir2": {
-          "enum": [
-            "Up",
-            "Down",
-            "Left",
-            "Right"
-          ],
-          "type": "string"
-        },
-        "reps": {
-          "default": 10,
-          "type": "integer"
-        }
-      },
-      "required": [
-        "dir1",
-        "dir2"
-      ],
-      "type": "object"
-    },
-    "python_script": "import json\ntry:\n    d1 = input_data.get('dir1')\n    d2 = input_data.get('dir2')\n    r = int(input_data.get('reps', 10))\n    res = []\n    if d1 and d2:\n        for _ in range(r):\n            res.extend([d1, d2])\n    print(json.dumps(res))\nexcept:\n    print(json.dumps([]))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-01-12T23:20:44.792Z",
-        "action_counter": 44251
-      },
-      {
-        "commit_message": "Fixing the tool logic to ensure it correctly parses input and returns a valid JSON array of button strings for the emulator to process.",
-        "timestamp": "2026-01-13T01:33:51.987Z",
-        "action_counter": 44522
-      },
-      {
-        "commit_message": "Refining the tool to use the 'input_data' dictionary provided by the environment, which fixes the error where it was previously attempting to parse 'sys.argv'.",
-        "timestamp": "2026-01-13T01:34:49.843Z",
-        "action_counter": 44525
-      },
-      {
-        "commit_message": "Simplified the script to avoid function scoping issues and ensure it consistently returns a JSON array of buttons.",
-        "timestamp": "2026-01-13T02:19:48.259Z",
-        "action_counter": 44588
-      }
-    ]
-  },
   "fly_list_navigator": {
     "description": "Calculates the shortest button sequence (Up/Down) to navigate the Johto Fly map list from a current city to a target city. Returns a JSON array of buttons.",
     "input_schema": {
@@ -318,6 +261,44 @@
         "commit_message": "Initial version",
         "timestamp": "2026-01-14T00:33:08.505Z",
         "action_counter": 46624
+      }
+    ]
+  },
+  "find_path_v8_robust_gen2": {
+    "description": "Calculates a path between two coordinates on the current map, correctly handling Gen 2 ledge jumping mechanics (jumping south over FLOOR_UP_WALL or LEDGE_HOP_DOWN tiles) and surfing/land modes. Returns a list of button presses.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "end_x": {
+          "type": "integer"
+        },
+        "end_y": {
+          "type": "integer"
+        },
+        "is_surfing": {
+          "type": "boolean"
+        },
+        "start_x": {
+          "type": "integer"
+        },
+        "start_y": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "start_x",
+        "start_y",
+        "end_x",
+        "end_y",
+        "is_surfing"
+      ]
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nimport json\nimport sys\n\ndef solve():\n    try:\n        input_data = json.loads(sys.argv[1])\n        start_x = int(input_data['start_x'])\n        start_y = int(input_data['start_y'])\n        end_x = int(input_data['end_x'])\n        end_y = int(input_data['end_y'])\n        is_surfing = bool(input_data['is_surfing'])\n    except:\n        print(\"[]\")\n        return\n\n    root = ET.fromstring(map_xml_string)\n    grid = {}\n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            grid[(x, y)] = tile.attrib['type']\n\n    # BFS\n    queue = [(start_x, start_y, [])]\n    visited = set([(start_x, start_y)])\n    \n    while queue:\n        cx, cy, path = queue.pop(0)\n        if (cx, cy) == (end_x, end_y):\n            print(json.dumps(path))\n            return\n        \n        for dx, dy, move in [(0, 1, 'Down'), (0, -1, 'Up'), (1, 0, 'Right'), (-1, 0, 'Left')]:\n            nx, ny = cx + dx, cy + dy\n            if (nx, ny) not in grid: continue\n            \n            t_type = grid[(nx, ny)]\n            \n            # Normal movement\n            if t_type in ['FLOOR', 'DOOR'] or (is_surfing and t_type == 'WATER'):\n                if (nx, ny) not in visited:\n                    visited.add((nx, ny))\n                    queue.append((nx, ny, path + [move]))\n            \n            # Ledge jumping (South only)\n            elif t_type in ['FLOOR_UP_WALL', 'LEDGE_HOP_DOWN'] and dy == 1:\n                lx, ly = cx, cy + 2\n                if (lx, ly) in grid and (lx, ly) not in visited:\n                    lt = grid[(lx, ly)]\n                    if lt in ['FLOOR', 'WATER']:\n                        visited.add((lx, ly))\n                        queue.append((lx, ly, path + [move]))\n    print(\"[]\")\n\nsolve()\n",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-14T01:20:01.840Z",
+        "action_counter": 46683
       }
     ]
   }
