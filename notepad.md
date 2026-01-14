@@ -28,13 +28,16 @@
 ## The Great Spiral (Intended Route)
 - Entrance: (27, 44).
 - Channel Entrance: (27, 30).
-- Maze Logic:
+- Maze Logic (Spiral Inward):
   1. Lane 1 (X=27-29): Sail North to (27, 10).
-  2. Gap 1: Move West through (26, 10) into Lane 2.
+  2. Gap 1: (26, 10). Move West to Lane 2.
   3. Lane 2 (X=23-25): Sail South to (23, 16).
-  4. Gap 2: Move West through (22, 16) into Lane 3.
-  5. Lane 3 (X=19-21): Sail South to (19, 26).
-  6. Gap 3: Move West through (18, 26) into Lane 4.
-  7. Lane 4 (X=17-18): Sail North to (17, 20).
-  8. Gap 4: Move West through (16, 20) into Lane 5.
-  9. Lane 5 (X=14-16): Sail North to (14, 10) and land.
+  4. Gap 2: (22, 16). Move West to Lane 3.
+  5. Lane 3 (X=19-21): Sail North to (19, 14).
+  6. Gap 3: (19, 14). Move West to Lane 4.
+  7. Lane 4 (X=17-18): Sail South to (18, 26).
+  8. Gap 4: (18, 26). Move West to Lane 5.
+  9. Lane 5 (X=14-16): Sail North to (14, 15) and land.
+  10. Walk to Suicune at (7, 4) via Y=10 plateau.
+- Current Status: At (18, 26) (Gap 4). Entering Lane 5.
+- Next Task: Sail North along X=14/15 to land at (14, 15).
