@@ -18,15 +18,13 @@
 - LEDGE_HOP_DOWN: One-way jump from NORTH to SOUTH.
 - COUNTER: Impassable.
 
-# Suicune Quest Strategy: 'The North Loop'
+# Suicune Quest Strategy: 'City Perimeter Walk'
 - Goal: Reach Suicune sighting area at (7, 4).
-- Pathing Logic:
-    1. Sail north to Row 16 to clear the X=26 wall at (26, 16).
-    2. Sail west to X=21.
-    3. Sail north to Row 14.
-    4. Sail west to X=18.
-    5. Sail north to Row 11.
-    6. Sail west to land at (16, 11).
-    7. Walk to (7, 4).
-- Battle Strategy: Lead with XENON (Haunter) for Hypnosis. Be ready for Eusine.
-- History: Confirmed X=19 wall is solid from Y=15 to Y=20. X=22 wall is solid from Y=9 to Y=15. X=26 wall is solid from Y=0 to Y=9. Gap at (19, 21) leads to a dead end pocket at X=18.
+- How: Land at (19, 30) and walk through the city's west corridor.
+- Route:
+    1. Sail to (19, 30) and land.
+    2. Walk West to X=12, then North to Row 29.
+    3. Walk West to X=4, then South to Row 34.
+    4. Walk West to X=2, then North to the sighting area.
+- Preparation: Lead with XENON (Haunter) for Hypnosis. Be ready for Eusine.
+- Discoveries: Buoy walls are staggered to prevent direct water access to the north beach. Column X=17 is a vertical cliff barrier.
