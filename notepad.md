@@ -19,13 +19,11 @@
 - Item: Ultra Balls (32).
 
 # Strategic Plans
-## Locate Suicune (Cianwood North Beach)
-- Status: Arrived in Cianwood. Verified (11, 15) and (11, 14) are dead end pockets. Ledge hop at (10, 15) is one-way.
-- Current Task: Verify West Beach Shortcut.
-- Hypothesis: Walking North along the beach at X=2 allows access to the plateau at Y<10, bypassing the buoy maze.
-- Path: Navigate to (2, 35) and continue North.
-- Success: Reaching (7, 4).
-- Failure: Ledge or Wall blocking X=2 at Y=10. Revert to 'Great Spiral' buoy maze.
+- Status: At (6, 44) in Cianwood. Gap at (11, 15) confirmed dead end.
+- Strategy: Navigating to the west beach via the southern city loop.
+- Path: (6, 44) -> (12, 44) -> (12, 49) -> Jump ledge at (12, 50) -> West to X=2 beach -> North to (7, 4).
+- Testing: Checking if (6, 46) ledge can be jumped for a shortcut.
+- Suicune Capture Strategy: Lead XENON. Hypnosis -> Night Shade (x2) -> Ultra Balls.
 
 ## The Great Spiral (Backup Plan)
 - Entrance: (27, 30).
