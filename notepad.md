@@ -43,3 +43,4 @@
 1. Cut tree at (24, 13).
 2. Walk every tile from X=24 to X=31, Y=13 to Y=17.
 3. Also check Mt. Mortar middle entrance at (28, 9).
+- Resumed Suicune search: Turn 46888
