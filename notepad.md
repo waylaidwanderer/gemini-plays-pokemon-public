@@ -7,23 +7,29 @@
 - WATER: Surf required.
 - BUOY: Impassable water.
 - WALL: Impassable ground/object.
-- FLOOR_UP_WALL: Impassable ledge face (blocks movement towards the "up" direction, usually South to North or North to South depending on map). Observed: Blocks Southward movement at (12, 50).
+- FLOOR_UP_WALL: Impassable ledge face (blocks movement towards the "up" direction, usually South to North or North to South depending on map). Effectively a WALL that cannot be jumped over in either direction.
 - LEDGE_HOP_DOWN: One-way jump (North to South).
 
-# Strategic Plan: The Great Tiered Bypass (Turn 48242)
+# Strategic Plan: The Great Band Bypass (Turn 48250)
 - Goal: Reach Suicune sighting spot at (14, 10).
-- Problem: The city is tiered. Current pocket (X=11-13, Y=45-49) is blocked south by FLOOR_UP_WALL at (12, 50).
-- Solution: Find a gap in the tier walls (Column 5/9/11) to reach the West Beach.
-- Step 1: Walk to (8, 44) via (12, 47) and (8, 47).
-- Step 2: Navigate to (2, 44) or (2, 51) by finding a gap in the Column 5/7/9 walls.
-- Status: At (12, 49). Repel active. Start Turn: 48227.
+- Problem: The city is divided into horizontal bands by long WALL/FLOOR_UP_WALL ledges at Row 15, Row 46, and Row 50. My target (14, 10) is in Band 1 (North), but Column 5 is a WALL (Row 40-45) preventing Westward access within Band 1.
+- Solution: Surf South along the East coast to Row 51 (Band 3), walk West to Column 2 (West Beach), then walk North along the clear West Beach corridor to Row 14.
+- Step 1: Walk to (26, 44) and use Surf to enter the water at (27, 44).
+- Step 2: Surf South to (27, 51).
+- Step 3: Land at (26, 51) and walk West to (2, 51).
+- Step 4: Walk North to (2, 12).
+- Step 5: Walk East to (14, 12) -> (14, 10).
+- Status: At (12, 44). Repel active. Start Turn: 48227.
 
 # Verified Landmarks
-- Land Gap 1: (12, 44) - North-south passage.
-- West Beach Corridor: Column X=2 - Clear path from Row 51 to Row 14.
-- Plateau Boundary: Row 15 WALL/LEDGE.
+- West Beach Corridor: Column X=2 - Clear path from Row 51 to Row 14 (passes Row 15 wall).
 - Suicune Spot: (14, 10).
-- Obstacle: (12, 50) FLOOR_UP_WALL blocks South.
+- Band 1 (North): Rows 0-45.
+- Band 2 (Middle): Rows 47-49.
+- Band 3 (South): Rows 51-53.
+- Ledge 1: Row 15 (X=3-17) WALL.
+- Ledge 2: Row 46 (X=21-28) FLOOR_UP_WALL, (X=6) FLOOR_UP_WALL.
+- Ledge 3: Row 50 (X=12-19) FLOOR_UP_WALL.
 
 # Custom Tools (Technical Details)
 - find_path_v4: BFS pathfinder. Handles LAND vs WATER medium consistency. Treats unseen tiles as traversable within the starting medium. Handles LEDGE_HOP_DOWN as one-way (dy=1).
