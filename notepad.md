@@ -15,8 +15,9 @@
     1. Burned Tower (DONE)
     2. Cianwood City (DONE - Eusine defeated)
     3. Route 42 (Mahogany side) - FAILED (114+ turns, 100% tile coverage, 3-way re-entry).
-    4. Kanto Route 25 (Cerulean Cape) - PENDING
-- Strategy: Visit sighting spots in order. If Route 42 is skipped, check Kanto. Final is Tin Tower.
+    4. Kanto Route 14 (East of Fuchsia) - PENDING
+    5. Kanto Route 25 (Cerulean Cape) - PENDING
+- Strategy: Visit sighting spots in order. If Route 42 is skipped, check Kanto sightings on Routes 14 and 25. Final is Tin Tower.
 
 # Verified Failures (Route 42)
 - "Mow the lawn" in grove: FAILED (60+ turns, 100% tile coverage).
