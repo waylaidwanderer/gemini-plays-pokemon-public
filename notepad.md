@@ -2,12 +2,12 @@
 - **Location:** Route 26.
 - **Goal:** Return to Johto.
 - **Current Position:** (7, 6).
-- **Action:** Exiting Bag -> Pokemon Menu -> Pidgey -> Fly.
+- **Action:** Navigating Fly Map to Saffron City (Right -> Right -> Down).
 - **Inventory Update:**
   - 19 Super Repels (Active).
   - 16 Ultra Balls (Existing).
 - **Route Plan:**
-  1. Fly to Saffron City.
+  1. Fly to Saffron City (Targeting).
   2. Magnet Train to Goldenrod.
   3. Fly to Ecruteak/Route 37.
 - **Money:** ¥12294.
