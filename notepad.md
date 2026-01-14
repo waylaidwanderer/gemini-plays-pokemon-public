@@ -2,7 +2,7 @@
 - **Location:** Route 26.
 - **Goal:** Return to Johto.
 - **Current Position:** (7, 6).
-- **Action:** Flying to Saffron City.
+- **Action:** Selecting Pidgey (Slot 6) to Fly.
 - **Inventory Update:**
   - 19 Super Repels (Active).
   - 16 Ultra Balls (Existing).
