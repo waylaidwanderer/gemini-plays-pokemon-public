@@ -1,8 +1,8 @@
 # Strategic Status
 - **Goal:** Register Raikou & Entei.
-- **Current Action:** Scanning Grass (Route 37).
-- **Location:** Route 37 (7, 3).
-- **Status:** Scanning for Roamers (Pass 2 - New Repel).
+- **Current Action:** Resetting Roamer positions.
+- **Location:** Route 37 (7, 3) -> Ecruteak.
+- **Status:** Scan failed (Pass 1 of New Repel). Moving to Ecruteak to reset.
 - **Repel:** Active (~180 steps left).
 - **Note:** Bug-Catching Contest is active today (Tuesday).
 - **Session Start:** Turn 38471.
