@@ -1,12 +1,12 @@
 # Suicune Quest
 - Start Turn: 46650
-- Objective: Trigger sighting in Cianwood City at (7, 4).
+- Objective: Trigger sighting in Cianwood City at the northern shore.
 - Strategy: The West Side Jump
-    1. Walk West to (6, 44), then South to (6, 45).
-    2. Jump South over the ledge at (6, 46) to land at (6, 47).
-    3. Walk West along Row 47 to the corridor at X=2.
-    4. Walk North along X=2 corridor to Y=4.
-    5. Walk East along Row 4 to (7, 4) to trigger the sighting.
+    1. Jump South over the ledge at (6, 46) to land at (6, 47).
+    2. Walk West along Row 47 to the corridor at X=2.
+    3. Walk North along X=2 corridor to Y=14.
+    4. Walk East along Row 14 to (8, 14), then North to (8, 11).
+    5. Walk West along Row 11 to (7, 11), then North to (7, 4).
 - Note: Row 43 is blocked at (7, 43). The ledge at (6, 46) is the key to reaching the western corridor. Suicune sighting count = 1.
 
 # Roaming Beast Data
