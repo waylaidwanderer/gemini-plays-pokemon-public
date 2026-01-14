@@ -10,62 +10,6 @@
 - AAAAAAAAAA (SPINARAK): Lv13
 - LAPIS (POLIWAG): Lv12 (Waterfall, Surf, Whirlpool)
 
-# Tile Mechanics
-- WATER: Traversable only via Surf.
-- BUOY: Impassable water obstacle.
-- FLOOR: Standard walkable ground.
-- WALL: Impassable obstacle.
-- FLOOR_UP_WALL: Represents a ledge face. Impassable from ALL directions.
-- LEDGE_HOP_DOWN: One-way jump from NORTH to SOUTH.
-- (11, 14): Dead End Pocket. Wall at (11, 13) and (12, 14) blocks access to the north plateau.
-- (11, 15): Gap in the city wall (Y=15). Accesses the beach area but not the plateau.
-
-# Quest Strategies
-## Suicune: 'The Great Spiral' (The Only Real Path)
-- Fact: The northern plateau is walled off from the south and west. The buoy maze is the only intended entrance.
-- Route:
-    1. Walk to (19, 30) (East Coast Surf Point).
-    2. Use SUPER REPEL.
-    3. Use Surf and sail East to (27, 30) (Channel Entrance).
-    4. Lane 1 (X=27-29): Sail North to (27, 10).
-    5. Gap 1: Move West through (26, 10) into Lane 2.
-    6. Lane 2 (X=23-25): Sail South to (23, 16).
-    7. Gap 2: Move West through (22, 16) into Lane 3.
-    8. Lane 3 (X=19-21): Sail South to (19, 26).
-    9. Gap 3: Move West through (18, 26) into Lane 4.
-    10. Lane 4 (X=17-18): Sail North to (17, 20).
-    11. Gap 4: Move West through (16, 20) into Lane 5.
-    12. Lane 5 (X=14-16): Sail North to (14, 10) and land.
-    13. Walk to Suicune at (7, 4).
-- Preparation: Lead with XENON (Haunter). Use SUPER REPEL.
-- Start Turn: 47680 (Suicune North Beach Quest)
-- Start Time: Wednesday, Jan 14, 2026, 4:00 AM PST
-
-# Strategy Lessons
-- Buoy Maze: The buoy spiral is the only intended path.
-- Menu Memory: Items in the pack stay selected. Use the pocket-switch trick to reset cursor.
-- Efficiency: Use (19, 30) for launching into the spiral.
-
-# Fly Navigation
-- The Fly menu in Johto (Crystal) is a 2D Town Map cursor navigation.
-- Cursor Grid (X, Y):
-  - New Bark: (14, 10)
-  - Cherrygrove: (12, 10)
-  - Violet: (12, 6)
-  - Azalea: (10, 12)
-  - Goldenrod: (6, 9)
-  - Ecruteak: (6, 5)
-  - Olivine: (2, 6)
-  - Cianwood: (0, 9)
-  - Mahogany: (10, 5)
-  - Lake of Rage: (10, 3)
-  - Blackthorn: (14, 5)
-- Navigation from Cherrygrove (12, 10) to Cianwood (0, 9): 12 Lefts, 1 Up.
-- Status: At (25, 5) in Cherrygrove; Fly map open. Executing stable navigation to Cianwood.
-- Failed Fly attempts: 57 (Reason: Inputs likely too fast).
-- Flight Plan: fly_to_city_stable (14 Left, 1 Up) with 1000ms delays and 2000ms initial sleep.
-- Timestamp: Turn 48012. Quest started Turn 47680.
-
 # Tile Mechanics (Global)
 - FLOOR: Standard walkable ground. Verified at (25, 5) and (29, 4) in Cherrygrove.
 - WATER: Traversable only via Surf.
@@ -78,26 +22,42 @@
 - (11, 14): Dead End Pocket in Cianwood. Wall at (11, 13) and (12, 14) blocks access to the north plateau.
 - (11, 15): Gap in the city wall (Y=15) in Cianwood. Accesses the beach area but not the plateau. Verified in Turn 47337.
 
-# Hypotheses
-## Land Route to Suicune (The 'Gem Shortcut')
-- Hypothesis: Suicune (7, 4) is reachable by walking North along the West beach (X=2).
-- Discovery: There is a gap in the internal city walls. Path: City -> (10, 33) -> (9, 33) -> (8, 33) -> (7, 33) -> (6, 33) -> (6, 35) -> (5, 35) -> Beach (X=2).
-- Test: Fly to Cianwood, walk the path above to X=2, then walk North to Y=4.
-- Success Condition: Reaching (7, 4) and triggering the Suicune sighting.
-- Failed Attempts: 0
-- Status: Testing. Path to beach confirmed via wall gaps at Y=33 and Y=35.
+# Fly Navigation (City Grid Theory)
+- The Fly map uses a discrete city-to-city grid, NOT a tile-by-tile coordinate system.
+- One directional press = One city jump.
+- East-West City Order (X-axis):
+  - Cianwood (0)
+  - Olivine (1)
+  - Goldenrod (2)
+  - Ecruteak (3)
+  - Violet (4)
+  - Cherrygrove (5)
+  - New Bark (6)
+- North-South City Order (Y-axis):
+  - Lake of Rage (0)
+  - Mahogany (1)
+  - Blackthorn (2)
+  - ... (Needs verification)
+- Navigation from New Bark (6) to Cianwood (0): 6 Lefts. (Analyst suggests 5, testing both).
+- Failed Fly attempts: 58 (Reason: Used tile-based coordinate math instead of city-based grid).
+- Current Plan: Move to (25, 5) -> Open Fly map -> Test city-by-city movement.
+- Timestamp: Turn 48013. Quest started Turn 47680.
 
-# General Lessons
-- Wild Encounters & Pathing: A "Movement Blocked" error during navigation often indicates a wild encounter triggered on that step. It doesn't necessarily mean the tile is impassable.
-- Buoy Maze Navigation: When surfing in narrow channels, wild encounters are frequent. Maintain Super Repel and be prepared to resume the path after running.
+# Quest Strategies
+## Suicune: 'The Great Spiral' (The Only Real Path)
+- Fact: The northern plateau is walled off from the south and west. The buoy maze is the only intended entrance.
+- Shortcut Hypothesis: Suicune (7, 4) reachable via beach at X=2. Requires verification of north/south wall at Y=10-20.
+- Route:
+    1. Fly to Cianwood.
+    2. Land at (15, 44) (Center) or (23, 44) (South).
+    3. Walk to beach at X=2.
+    4. Walk North to Suicune at (7, 4).
+- Preparation: Lead with XENON (Haunter). Use SUPER REPEL.
 
 # Reflection Turn 48000
 - Deferrals: None.
-- Notepad: Organized. Added lessons on Fly navigation.
-- Map: Markers are accurate.
-- Automation: fly_map_navigator underperforming; likely due to input speed.
-- Strategy: Pivoting to slower, manual map navigation for this attempt.
-- Lessons: Fly map navigation is sensitive to input speed. Directional inputs should be separated or slowed with sleeps.
-- Time Tracking: Fly to Cianwood attempt started Turn 47970. Current Turn 47995.
-- Root Hypothesis Check: Foundational assumption that I can Fly to Cianwood is solid (16 badges, Icarus has Fly). The failure is execution-based.
-- Bias Check: I've been relying on the tool too much despite repeated failures. Switching to manual steps.
+- Automation: fly_to_city_stable refined with sleeps.
+- Strategy: Pivoting to City Grid theory for Fly navigation.
+- Lessons: Fly map navigation is city-based, not tile-based.
+- Root Hypothesis Check: Fly to Cianwood is valid; execution failed due to coordinate misunderstanding.
+- Bias Check: Abandoned tool too early; now refining it with correct logic.
