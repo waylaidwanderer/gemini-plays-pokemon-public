@@ -1,10 +1,10 @@
 # Strategic Status
 - **Goal:** Return to Johto (Via Diglett's Cave).
-- **Current Action:** Traversing Diglett's Cave (Segment 2 - East Route).
+- **Current Action:** Exiting Diglett's Cave.
 - **Path:** 
   1. Entrance (15, 5) -> Ladder (17, 3). [DONE]
-  2. Ladder (3, 3) -> Walk East -> Ladder (17, 33). [CURRENT]
-  3. Ladder (5, 31) -> Exit (3, 33).
+  2. Ladder (3, 3) -> Walk East -> Ladder (17, 33). [DONE]
+  3. Ladder (5, 31) -> Exit (3, 33). [CURRENT]
 
 # Known Issues
 - **Fly Map:** Horizontal navigation (West <-> East) is unreliable. Stuck in West Kanto loop. Workaround: Ground travel via Diglett's Cave.
