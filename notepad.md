@@ -2,16 +2,17 @@
 - **Location:** Route 23 (Indigo Plateau).
 - **Goal:** Return to Johto (Goldenrod).
 - **Current Position:** Route 23 (9, 10).
-- **Action:** Navigating Fly Map (From Cinnabar Island).
+- **Action:** Navigating Fly Map (Step-by-Step).
 - **Inventory Update:**
   - 20 Super Repels (Bought).
   - 16 Ultra Balls (Existing).
-- **Correction:** Fly Map navigation unexpected (Indigo -> Cinnabar).
+- **Correction:** Previous blind navigation failed. Navigating one step at a time.
 - **Next Steps:**
-  1. Navigate Fly Map to Saffron City (From Cinnabar: Up -> ...).
-  2. Magnet Train to Goldenrod.
-  3. Fly to Ecruteak/Route 37.
-  4. Begin Roamer Hunt (Repel Trick Lvl 36).
+  1. Verify destination after moving Right (Target: Pewter/Mt Moon?).
+  2. Navigate to Saffron City.
+  3. Magnet Train to Goldenrod.
+  4. Fly to Ecruteak/Route 37.
+  5. Begin Roamer Hunt (Repel Trick Lvl 36).
 - **Money:** ¥12294.
 
 # Directory Info (Celadon)
