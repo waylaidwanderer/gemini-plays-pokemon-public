@@ -1,11 +1,11 @@
 # Strategic Status
 - **Goal:** Return to Johto (Via Magnet Train).
-- **Current Action:** Talking to Station Officer (Show Pass).
-- **Path:** Show Pass -> Board Train -> Goldenrod City.
+- **Current Action:** Riding Magnet Train to Goldenrod.
+- **Path:** Saffron -> Goldenrod -> Fly Ecruteak.
 
 # Notes
-- **Fly Map:** Horizontal navigation (West <-> East) is unreliable.
-- **Location:** Saffron City Magnet Train Station.
+- **Fly Map:** Horizontal navigation (West <-> East) in Kanto is unreliable.
+- **Status:** Repel wore off (Re-apply on Route 37).
 
 # Roamer Hunting Strategy
 1.  **Setup:** Gyarados (Lv 36) leading, Super Repel active.
