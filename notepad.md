@@ -33,10 +33,11 @@
 - Hypothesis 3: Sighting triggers by standing at the water's edge *inside* the grove.
     - Target Tiles: (24, 15) through (30, 15).
     - Result: FAILED (Swept on Turn 47077).
-- Hypothesis 4: Suicune is in/near one of the water bodies on Route 42.
-    - West Body: PENDING (Tool failed on Turn 47085, needs re-check).
-    - Middle Body: Sweeping now (Turn 47091+).
-    - East Body: PENDING (Near Mahogany entrance).
+- Hypothesis 4: Suicune is in the water.
+    - Result: FAILED (Expert and Overwatch confirm it is on land).
+- Hypothesis 5: Sighting triggers on the northern land strip or unvisited grove tiles.
+    - Target Area: Row 11 (20, 11 to 33, 11) and Row 12 inside grove.
+    - Result: PENDING.
 
 # Verified Failures (Route 42)
 - "Sighting trigger at (28, 15)": FAILED.
