@@ -135,6 +135,10 @@
     "input_schema": {
       "type": "object",
       "properties": {
+        "initial_sleep_ms": {
+          "default": 1000,
+          "type": "integer"
+        },
         "start_x": {
           "type": "integer"
         },
@@ -148,8 +152,8 @@
           "type": "integer"
         },
         "wait_ms": {
-          "type": "integer",
-          "default": 300
+          "default": 300,
+          "type": "integer"
         }
       },
       "required": [
@@ -159,7 +163,7 @@
         "target_y"
       ]
     },
-    "python_script": "import json\n\n# input_data is automatically provided as a dictionary.\nstart_x = int(input_data['start_x'])\nstart_y = int(input_data['start_y'])\ntarget_x = int(input_data['target_x'])\ntarget_y = int(input_data['target_y'])\nwait_ms = int(input_data.get('wait_ms', 300))\n\nbuttons = ['sleep 500']\n\ndx = target_x - start_x\ndy = target_y - start_y\n\nx_btn = 'Right' if dx > 0 else 'Left'\ny_btn = 'Down' if dy > 0 else 'Up'\n\nfor _ in range(abs(dx)):\n    buttons.append(x_btn)\n    buttons.append(f'sleep {wait_ms}')\n\nfor _ in range(abs(dy)):\n    buttons.append(y_btn)\n    buttons.append(f'sleep {wait_ms}')\n\nbuttons.append('A')\nprint(json.dumps(buttons))",
+    "python_script": "import json\n\n# input_data is automatically provided as a dictionary.\nstart_x = int(input_data['start_x'])\nstart_y = int(input_data['start_y'])\ntarget_x = int(input_data['target_x'])\ntarget_y = int(input_data['target_y'])\nwait_ms = int(input_data.get('wait_ms', 300))\ninitial_sleep = int(input_data.get('initial_sleep_ms', 1000))\n\nbuttons = [f'sleep {initial_sleep}']\n\ndx = target_x - start_x\ndy = target_y - start_y\n\nx_btn = 'Right' if dx > 0 else 'Left'\ny_btn = 'Down' if dy > 0 else 'Up'\n\nfor _ in range(abs(dx)):\n    buttons.append(x_btn)\n    buttons.append(f'sleep {wait_ms}')\n\nfor _ in range(abs(dy)):\n    buttons.append(y_btn)\n    buttons.append(f'sleep {wait_ms}')\n\nbuttons.append('A')\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -170,6 +174,11 @@
         "commit_message": "Fixing NameError by using the automatically provided input_data variable instead of trying to parse a non-existent input_params string.",
         "timestamp": "2026-01-14T20:19:58.173Z",
         "action_counter": 48005
+      },
+      {
+        "commit_message": "Adding initial_sleep_ms parameter to allow for longer map opening animations.",
+        "timestamp": "2026-01-14T20:22:48.896Z",
+        "action_counter": 48008
       }
     ]
   }

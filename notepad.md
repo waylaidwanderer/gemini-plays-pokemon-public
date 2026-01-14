@@ -61,10 +61,10 @@
   - Lake of Rage: (10, 3)
   - Blackthorn: (14, 5)
 - Navigation from Cherrygrove (12, 10) to Cianwood (0, 9): 12 Lefts, 1 Up.
-- Status: At (29, 4) in Cherrygrove; moving to (25, 5) to retry Fly.
-- Failed Fly attempts: 57 (Reason: Flew to Cherrygrove instead of Cianwood; inputs likely too fast).
-- Flight Plan: Move to (25, 5) -> Open Fly map -> Use fly_to_city_stable with 1000ms delays.
-- Timestamp: Turn 48006. Quest started Turn 47680.
+- Status: At (25, 5) in Cherrygrove; Start menu open on POKEMON.
+- Failed Fly attempts: 57 (Reason: Inputs likely too fast or cursor starting position misunderstood).
+- Flight Plan: Enter Party -> Select ICARUS -> FLY -> fly_to_city_stable (12 Left, 1 Up) with 1000ms delays and 2000ms initial sleep.
+- Timestamp: Turn 48008. Quest started Turn 47680.
 
 # Tile Mechanics
 - FLOOR: Standard walkable ground. Verified at (25, 5) and (29, 4) in Cherrygrove.
