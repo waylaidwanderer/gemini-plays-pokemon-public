@@ -38,7 +38,9 @@
 - Hypothesis 5: Sighting triggers by exiting the middle entrance of Mt. Mortar.
     - Rationale: The entrance is directly above the grove.
     - Test: Enter and exit Mt. Mortar at (28, 9).
-    - Result: PENDING.
+    - Result: FAILED (Turn 47106). No Suicune sprite found in map data or on screen.
+- Conclusion: Suicune is not currently on Route 42. Moving to Kanto sighting spots.
+- Plan: Fly to Fuchsia City -> Head east to Route 14. If not there, check Route 25 (Cerulean Cape).
 
 # Verified Failures (Route 42)
 - "Sighting trigger at (28, 15)": FAILED.
