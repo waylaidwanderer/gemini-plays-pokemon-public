@@ -34,6 +34,7 @@
 - Exploration: (11, 15) and (11, 14) are confirmed dead-end pockets. Marker 🚫 placed.
 - Navigation: (21, 46) and (18, 50) are solid cliffs (FLOOR_UP_WALL). Marker 📍 placed.
 - Pathing: To reach the southern corridor from the city center, use the gap at X=20-21.
-- Turn 48099: Arrived in Cianwood. Starting navigation to West Beach (2, 51) to test plateau shortcut.
-- Plan: Use southern corridor via gap/ledge jump at X=21 or X=10.
+- Turn 48100: Path to (2, 51) failed. Analysis shows X=2 is a long corridor from Y=14 to Y=31.
+- Plan: (18, 45) -> (18, 31) -> (4, 31) -> (3, 31) -> (2, 31) -> (2, 14).
 - Status: XENON leading, Ultra Balls ready.
+- Verification: Column X=2 is clear from Y=14 to Y=31. Target (2, 14) is on the north plateau.
