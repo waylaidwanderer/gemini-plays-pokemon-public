@@ -10,9 +10,9 @@
 - **Active Pokemon:** Machoke (Lv 90).
 - **Strategy:**
     - **Lance's Team:**
-        - **Gyarados:** **Thunderpunch** (4x). [EXECUTING]
+        - **Gyarados:** Defeated.
+        - **Aerodactyl:** **Thunderpunch** (2x). [INCOMING]
         - **Dragonite (x3):** Ice Punch (4x).
-        - **Aerodactyl:** Ice Punch or Thunderpunch (2x).
         - **Charizard:** Thunderpunch (2x).
 - **Goal:** Farm money.
 - **Resources:** ¥29144.
