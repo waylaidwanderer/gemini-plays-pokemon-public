@@ -26,7 +26,7 @@
 - Step 2: Walk North along X=2 to (2, 12).
 - Step 3: Walk East along Row 12 to (14, 12).
 - Step 4: Walk North to (14, 10) to trigger Suicune.
-- Status: At (12, 35). Repel active.
+- Status: At (12, 44). Repel active.
 
 # Verified Landmarks
 - West Beach Corridor: Column X=2 - Clear path from Row 51 to Row 14.
