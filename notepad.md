@@ -29,7 +29,7 @@
     - Visit sighting spots in order. Quest is strictly linear.
     - Lesson: Suicune is a static land sprite; water sweeps are ineffective.
 - Backtracking Plan:
-    1. Fly to Saffron City and take Magnet Train to Johto. (IN PROGRESS)
+    1. Take Magnet Train from Saffron City to Johto. (IN PROGRESS)
     2. Fly to Ecruteak City (Johto).
     3. Head East to Route 42 Middle Grove (approach the 3 Apricorn trees).
     4. Return to Kanto (Fuchsia City) after Johto sighting.
