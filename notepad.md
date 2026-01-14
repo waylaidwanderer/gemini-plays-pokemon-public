@@ -24,7 +24,8 @@
 - **Roamer Logic:** Roamers move to an adjacent map when the player transitions maps. 'Blind Interception' relies on them moving *into* your map as you enter.
 - **Detour:** Goldenrod Dept Store was a bust. No Super Repels.
 - **New Plan:** Fly to Indigo Plateau. Beat E4 for cash. Buy Max Repels.
-- **Fly Map Status:** Testing 'Down' from Cherrygrove.
-- **Hypothesis:** 'Up' moved New Bark -> Cherrygrove (West). Thus 'Down' might move Cherrygrove -> New Bark (East).
-- **Goal:** If 'Down' moves East, I can spam 'Down' to reach Indigo Plateau (East of New Bark).
-- **Backup:** If this fails, I will Exit Menus and walk to Magnet Train (9, 13).
+- **Fly Map Status:** Testing 'Down' from New Bark Town.
+- **Observation:** 'Up' moved cursor West (New Bark -> Cherrygrove). 'Down' moved cursor East (Cherrygrove -> New Bark).
+- **Hypothesis:** Navigation controls are rotated or list-based. 'Down' = East/Next.
+- **Action:** Pressing 'Down' twice to reach Indigo Plateau.
+- **Backup:** If this fails, will Exit Menus and walk to Magnet Train (9, 13).
