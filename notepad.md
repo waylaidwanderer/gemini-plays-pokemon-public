@@ -3,8 +3,8 @@
 - TALL_GRASS: Walkable, may trigger wild battles. Verified.
 - WATER: Traversable only while Surfing. 
 - WALL / BUOY: Impassable.
-- FLOOR_UP_WALL: Impassable from the NORTH (e.g., (6, 46)).
-- LEDGE_HOP_DOWN: Impassable from the NORTH. Verified.
+- FLOOR_UP_WALL: Impassable from the NORTH (e.g., (6, 46)). Verified.
+- LEDGE_HOP_DOWN: One-way jump from NORTH to SOUTH. Impassable from the SOUTH. Verified.
 - HEADBUTT_TREE: Impassable.
 - CUT_TREE: Impassable (becomes FLOOR when cut). Verified regrows on map exit.
 - FRUIT_TREE: Impassable. Interact to obtain Apricorns. Verified.
@@ -18,8 +18,8 @@
     1. Burned Tower (DONE)
     2. Cianwood City (VERIFYING - North Beach at (11, 17))
     3. Route 42 (Middle Grove) - TRIGGER FAILED (Swept all tiles on Turn 47324).
-    4. Kanto Route 14 (East of Fuchsia) - LOCKED.
-    5. Kanto Route 25 (Cerulean Cape) - LOCKED.
+    4. Kanto Route 14 (East of Fuchsia) - SIGHTING LOCKED.
+    5. Kanto Route 25 (Cerulean Cape) - SIGHTING LOCKED.
 - Strategy:
     - Verify Cianwood sighting at (11, 17). If Eusine/Suicune are gone, Cianwood is confirmed.
     - If Cianwood is confirmed, re-attempt Route 42 by entering from Ecruteak.
