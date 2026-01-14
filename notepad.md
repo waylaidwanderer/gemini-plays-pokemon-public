@@ -6,10 +6,14 @@
 - **Goal:** Register Raikou & Entei.
 - **Current Task:** Hall of Fame Induction.
 - **Location:** Hall of Fame Room.
-- **Action:** Hall of Fame Induction Complete.
+- **Action:** Credits Rolling.
 - **Status:** Champion Lance Defeated!
 - **Strategy:**
-    - Wait for credits to roll and game to reset.
-    - Plan for post-game (Kanto, Red, Legendaries).
+    - **Immediate:** Wait for credits to finish and game to reset to New Bark Town.
+    - **Post-Game Setup:**
+        1. Check Map for Raikou/Entei locations.
+        2. Fly to Goldenrod or Ecruteak to buy **Max Repels**.
+        3. Go to Prof. Elm to get the S.S. Ticket.
+        4. Start Roamer Hunt (Route 37/38 loop).
 - **Goal:** Farm money.
 - **Resources:** ¥36644.
