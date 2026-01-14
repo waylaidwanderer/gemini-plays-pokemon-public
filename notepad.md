@@ -8,12 +8,13 @@
 - **Current Task:** Restock Supplies.
 - Location: Celadon Dept Store 2F.
 - Action: Buying Max Repels from Clerk at (13,5).
-- Status: Outside Celadon Dept Store.
-- Action: Flying to Ecruteak City.
+- Status: In Fly Menu (Kanto). Destination: Ecruteak (Johto).
+- Constraint: Cannot Fly directly between Kanto and Johto.
 - Strategy:
-    1. **Fly:** Open Menu -> Pokemon -> Pidgey -> Fly -> Ecruteak.
-    2. **Loop:** Move between Route 37 and Ecruteak until Beast is on Route 37.
-    3. **Encounter:** Use Max Repel from Bag, walk in grass. Sleep/Weaken/Catch.
+    1. **Transit:** Fly to Saffron City -> Magnet Train to Goldenrod.
+    2. **Transit:** Fly from Goldenrod to Ecruteak.
+    3. **Hunt:** Loop Route 37/Ecruteak.
+    4. **Encounter:** Use Max Repel, walk in grass. Sleep/Weaken/Catch.
     2. **Buy Repels:** Locate clerk on 2F.
     3. **Transit:** Exit to Celadon City/Route 7.
     3. **Prepare Team:** Lead with Gyarados (Lv 37) + Max Repel.
