@@ -1,29 +1,18 @@
-# PC Storage (Box 1)
-- Ravioli (KRABBY): Lv10 (Surf, Whirlpool)
-- LAPIS (POLIWAG): Lv12 (Waterfall, Surf, Whirlpool)
-
-# Tile Mechanics
-- BUOY: Impassable water obstacle.
-- FLOOR: Walkable.
-- WALL: Impassable.
-- WATER: Traversable only via Surf.
-- FLOOR_UP_WALL: Impassable from the NORTH.
-- LEDGE_HOP_DOWN: One-way jump from NORTH to SOUTH.
-- COUNTER: Impassable.
-
-# Suicune Quest Strategy: 'The Western Land Corridor'
-- Observation: The northern plateau is reachable via a land corridor along the western edge (X=2).
+# Suicune Quest Strategy: 'The Buoy Spiral' (Confirmed)
+- Fact: The northern plateau at (7, 4) is isolated. The only access is by water from the east, navigating a spiral of buoy walls.
 - Route:
-    1. Walk to (8, 35).
-    2. Walk West to (5, 35), then North to (5, 34).
-    3. Walk West to (2, 34).
-    4. Walk North along X=2 to (2, 11).
-    5. Walk East to (6, 11) to reach the plateau.
-    6. Walk North to Suicune sighting at (7, 4).
-- Preparation: Lead with XENON (Haunter) for Hypnosis. Use SUPER REPEL.
+    1. Surf at (19, 30) (East Coast Surf Point).
+    2. Sail North through Gap 1 at (26, 10).
+    3. Sail South through Gap 2 at (22, 16).
+    4. Sail North through Gap 3 at (19, 14).
+    5. Sail North to Y=11, then West past Wall 7 (ends at Y=12).
+    6. Land at (14, 10) or (16, 11).
+    7. Walk to Suicune sighting area at (7, 4).
+- Preparation: Lead with XENON (Haunter) for Hypnosis. Use SUPER REPEL once on water.
 - Start Turn: 47680 (Suicune North Beach Quest)
 - Start Time: Wednesday, Jan 14, 2026, 4:00 AM PST
 
 # Strategy Lessons
-- Buoy Maze: The buoy spiral is a trap. The landing spot (14, 10) is very difficult to reach from the east.
-- Western Highway: Column X=2 is a clear path north if you bypass the X=5 wall at Row 34.
+- Buoy Maze: The buoy spiral is the only intended path to the north plateau. Land routes are blocked by walls (X=5, X=9) and one-way ledges.
+- Dead Ends: (11, 14) is a dead-end pocket; do not attempt to reach the plateau from the city beach.
+- Surf Points: (19, 30) is the most efficient launch point for the buoy spiral.
