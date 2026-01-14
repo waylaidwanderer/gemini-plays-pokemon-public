@@ -79,3 +79,14 @@
 # General Lessons
 - Wild Encounters & Pathing: A "Movement Blocked" error during navigation often indicates a wild encounter triggered on that step. It doesn't necessarily mean the tile is impassable.
 - Buoy Maze Navigation: When surfing in narrow channels, wild encounters are frequent. Maintain Super Repel and be prepared to resume the path after running.
+
+# Reflection Turn 48000
+- Deferrals: None.
+- Notepad: Organized. Added lessons on Fly navigation.
+- Map: Markers are accurate.
+- Automation: fly_map_navigator underperforming; likely due to input speed.
+- Strategy: Pivoting to slower, manual map navigation for this attempt.
+- Lessons: Fly map navigation is sensitive to input speed. Directional inputs should be separated or slowed with sleeps.
+- Time Tracking: Fly to Cianwood attempt started Turn 47970. Current Turn 47995.
+- Root Hypothesis Check: Foundational assumption that I can Fly to Cianwood is solid (16 badges, Icarus has Fly). The failure is execution-based.
+- Bias Check: I've been relying on the tool too much despite repeated failures. Switching to manual steps.
