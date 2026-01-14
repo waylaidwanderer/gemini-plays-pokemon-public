@@ -1,16 +1,15 @@
 # Mechanics & State
-- **Location:** Ecruteak City (Fly Map).
-- **Goal:** Fly to Goldenrod City.
-- **Menu State:** Fly Map active. Cursor at Ecruteak.
-- **Problem:** `Down` from Ecruteak failed (Turn 38125).
-- **Hypothesis:** Input eaten or cursor stuck.
-- **Plan:** Jiggle cursor: `Right` (Violet) -> `Left` (Ecruteak) -> `Down` (Goldenrod).
-- **Delays:** 2000ms.
+- **Location:** Goldenrod City (Arriving via Fly).
+- **Goal:** Supply Run (Dept Store) -> Hunt Roamers.
+- **Menu State:** Overworld (After Fly animation).
+- **Roamer Strategy:** Use Level 36 Gyarados + Max Repels (if available) or Super Repels.
+- **Location Strategy:** Route 37 <-> Ecruteak City is the best hunting ground due to quick transitions.
 
 # Current Task: Roamer Hunt
-- **Status:** Navigating from Ecruteak.
-- **Target:** Goldenrod City.
-- **Next Step:** Verify "GOLDENROD CITY" -> Fly.
+- **Status:** Arrived in Goldenrod.
+- **Next Step:** Go to Department Store (Floor 5?) for Repels.
+- **Need:** Max Repels (efficiency) or Super Repels.
+- **Check:** Do they sell Max Repels? (Verify).
 
 # Progress
 - **Badges:** 16/16.
