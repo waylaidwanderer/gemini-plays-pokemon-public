@@ -19,9 +19,9 @@
 - Items: Clear Bell (HAVE IT).
 
 # Active Hypotheses
-- Hypothesis 5: Suicune sighting on Route 42 is triggered by approaching from the west (Ecruteak side).
-    - Test: Enter Route 42 from Ecruteak and approach the grove.
-    - Status: Ongoing.
+- Hypothesis 5: Suicune sighting on Route 42 is triggered by approaching from the west (Ecruteak side). 
+    - Test: Walk through the center of the grove near the Apricorn trees.
+    - Status: FINAL ATTEMPT. If no sighting, pivoting to Kanto Route 25.
 
 # Verified Failures
 - "Mow the lawn" in grove: FAILED (60+ turns, 100% tile coverage in grove). Suicune is not a hidden trigger tile.
