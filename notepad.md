@@ -42,9 +42,9 @@
 - "Sighting trigger at (28, 15)": FAILED (Stepped on it at Turn 46953).
 
 # Lessons Learned
-- Suicune in Route 42 is likely an overworld sprite; if it's not in the Map Objects list, the sighting event is not active.
-- Cut trees regrow on map exit, but stay cut while on the map.
-- Always check the Map Objects list before committing to a 50+ turn search.
+- [Lesson] Suicune in Route 42 is likely an overworld sprite; if it's not in the Map Objects list, the sighting event is not active.
+- [Lesson] Never commit to a 50+ turn 'mow the lawn' search without checking the Map Objects list first.
+- [Lesson] Map refreshes (entering/exiting) are essential when overworld events aren't triggering as expected.
 
 # Map Insights (Mt. Mortar)
 - B1F ladder at (19, 29) leads to 1FOutside (17, 29).
