@@ -2,11 +2,12 @@
 
 # Strategic Status
 - **Goal:** Register Raikou & Entei.
-- **Current Action:** Navigating Fly Map (Violet -> Goldenrod/Azalea).
+- **Current Action:** Navigating Fly Map (Cherrygrove -> Goldenrod -> Ecruteak).
 - **Location:** Goldenrod City (Johto) - Fly Menu.
 - **Fly Map Logic:** 
-  - Violet -> Ecruteak (Left) FAILED.
-  - Plan: Try Violet -> Goldenrod (Down). Then Goldenrod -> Ecruteak (Up).
+  - `Up, Left` failed (Stayed at Cherrygrove).
+  - Hypothesis: `Left` goes to Goldenrod. `Up` goes to Ecruteak.
+  - Plan: Try `Left` -> `Up`.
 
 # Roamer Hunting Strategy (Route 37)
 1.  **Setup:** 
@@ -21,7 +22,7 @@
 3.  **Target:** Raikou/Entei (Lv 40). Repel filters Lv < 36.
 
 # Notes
-- **Fly Map:** Navigating Violet -> Goldenrod (Down).
+- **Fly Map:** Navigating Cherrygrove -> Goldenrod (Left) -> Ecruteak (Up).
 
 # Roamer Hunting Strategy
 1.  **Setup:** Gyarados (Lv 36) leading, Super Repel active.
