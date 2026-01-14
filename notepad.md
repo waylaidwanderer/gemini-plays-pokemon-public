@@ -61,11 +61,11 @@
   - Lake of Rage: (10, 3)
   - Blackthorn: (14, 5)
 - Navigation from Cherrygrove (12, 10) to Cianwood (0, 9): 12 Lefts, 1 Up.
-- Status: Exiting XENON's status screen and navigating to ICARUS to use FLY.
-- Failed Fly attempts: 22 (Reason: Sequence miscounted slots, used Strength instead).
+- Status: Exiting XENON's status screen and restarting Fly sequence.
+- Failed Fly attempts: 23 (Reason: Sequence miscounted slots, used Strength instead; cursor was already on ICARUS).
 - Flight Plan: Cherrygrove (12, 10) to Cianwood (0, 9) = 12 Left, 1 Up.
 - Suicune Sighting Progress: Heading to Cianwood to test West Beach shortcut.
-- Timestamp: Turn 47936. Quest started Turn 47680.
+- Timestamp: Turn 47940. Quest started Turn 47680.
 
 # Hypotheses
 ## Land Route to Suicune (The 'Gem Shortcut')
