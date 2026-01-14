@@ -40,11 +40,12 @@
 
 # Hypotheses
 ## Land Route to Suicune (The 'Gem Shortcut')
-- Hypothesis: Suicune (7, 4) is reachable by walking North along the West beach (X=2), which appears to be free of walls and ledges from the city (Y=34) all the way to the North (Y=0).
-- Test: Land at (13, 16), walk West to X=2, then walk North to Y=4.
+- Hypothesis: Suicune (7, 4) is reachable by walking North along the West beach (X=2).
+- Discovery: The city wall at X=5/9 has a gap between Y=34 and Y=37, allowing access to the beach from the city.
+- Test: Land at (13, 16), walk to (2, 34), then walk North to Y=4.
 - Success Condition: Reaching (7, 4) and triggering the Suicune sighting.
 - Failed Attempts: 0
-- Status: Testing.
+- Status: Testing. Path to beach confirmed via wall gap at (5, 34-37).
 
 # General Lessons
 - Wild Encounters & Pathing: A "Movement Blocked" error during navigation often indicates a wild encounter triggered on that step. It doesn't necessarily mean the tile is impassable.
