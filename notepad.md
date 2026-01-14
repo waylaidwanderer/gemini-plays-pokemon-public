@@ -1,16 +1,16 @@
 # Mechanics & State
-- **Location:** Celadon Dept Store 1F.
+- **Location:** Celadon Dept Store 2F.
 - **Goal:** Supply Run (Dept Store).
-- **Current Position:** (14, 1) - At Directory.
-- **Action:** Taking stairs to 2F.
+- **Current Position:** (15, 1) - Arrived on 2F.
+- **Action:** Going to Clerk at (13, 5) [Counter at (13, 4)].
 - **Shopping List:** Super Repels (~20), Ultra Balls.
 - **Money:** ¥12294.
 
 # Directory Info (Celadon)
-- **2F:** Trainer's Market (Likely spot for Items/Balls).
+- **2F:** Trainer's Market.
 - **3F:** TM Shop.
 - **4F:** Wiseman Gifts.
-- **5F:** Drug Store (Vitamins/Medicine?).
+- **5F:** Drug Store.
 - **6F:** Rooftop Square.
 
 # Roamer Hunting Strategy
