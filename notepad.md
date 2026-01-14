@@ -6,10 +6,10 @@
 - **Goal:** Register Raikou & Entei.
 - **Current Task:** Hall of Fame Induction.
 - **Location:** Hall of Fame Room.
-- **Action:** Watching credits/cutscene.
+- **Action:** Hall of Fame Induction Complete.
 - **Status:** Champion Lance Defeated!
 - **Strategy:**
-    - Wait for credits to roll.
+    - Wait for credits to roll and game to reset.
     - Plan for post-game (Kanto, Red, Legendaries).
 - **Goal:** Farm money.
 - **Resources:** ¥36644.
