@@ -61,11 +61,11 @@
   - Lake of Rage: (10, 3)
   - Blackthorn: (14, 5)
 - Navigation from Cherrygrove (12, 10) to Cianwood (0, 9): 12 Lefts, 1 Up.
-- Status: At (25, 5) in Cherrygrove; Party menu open. Cursor on GNEISS (Slot 4).
-- Failed Fly attempts: 53 (Reason: Party menu cursor wrapped around to GNEISS).
-- Flight Plan: Down x2 (ICARUS) -> A (sub-menu) -> A (FLY) -> 12 Left, 1 Up -> A.
+- Status: At (25, 5) in Cherrygrove; Party menu open. Cursor on ICARUS (Slot 6).
+- Failed Fly attempts: 53 (Reason: Previous turn mixed directional and action buttons, A/A was truncated).
+- Flight Plan: A (sub-menu) -> A (FLY) -> 12 Left, 1 Up -> A.
 - Suicune Sighting Progress: Heading to Cianwood to test West Beach shortcut.
-- Timestamp: Turn 47975. Quest started Turn 47680.
+- Timestamp: Turn 47976. Quest started Turn 47680.
 
 # Hypotheses
 ## Land Route to Suicune (The 'Gem Shortcut')
