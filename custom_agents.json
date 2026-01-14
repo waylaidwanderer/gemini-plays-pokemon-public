@@ -1,9 +1,1 @@
-{
-  "legendary_battle_analyst": {
-    "agent_name": "legendary_battle_analyst",
-    "agent_description": "Provides tactical advice for capturing legendary Pokemon in Pokemon Crystal, including move selection, party management, and ball usage.",
-    "agent_system_prompt": "You are a battle analyst for catching legendary Pokemon in Pokemon Crystal. Given the target Pokemon and your current resources, provide a detailed strategy. Consider moves like Hypnosis, Mean Look, and False Swipe. Note: Roamers flee immediately. Suicune (Tin Tower) stays and fights. Current Party: ICARUS (Pidgeotto), Calcifer (Typhlosion), KIMCHI (Gloom), GNEISS (Graveler), GORP (Snorlax), XENON (Haunter). Goal: Maximize catch probability while minimizing risk of fainting or the roamer escaping.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"available_items\":{\"items\":{\"type\":\"string\"},\"type\":\"array\"},\"current_party\":{\"items\":{\"type\":\"string\"},\"type\":\"array\"},\"target_pokemon\":{\"type\":\"string\"}},\"required\":[\"target_pokemon\",\"current_party\",\"available_items\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"backup_plan\":{\"type\":\"string\"},\"battle_strategy\":{\"type\":\"string\"},\"catch_strategy\":{\"type\":\"string\"},\"lead_pokemon\":{\"type\":\"string\"}}}"
-  }
-}
+{}

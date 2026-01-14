@@ -277,48 +277,5 @@
         "action_counter": 46134
       }
     ]
-  },
-  "multi_modal_pathfinder_v8_robust": {
-    "description": "Calculates a multi-modal path (walking and surfing) between two coordinates on the current map, accounting for complex collision types (ledges, one-way walls), treating 'unseen' tiles as walkable/surfable, and automatically handles surfing state transitions. Correctly accounts for Object-based collisions.",
-    "input_schema": {
-      "properties": {
-        "autopress_buttons": {
-          "default": false,
-          "type": "boolean"
-        },
-        "end_x": {
-          "type": "integer"
-        },
-        "end_y": {
-          "type": "integer"
-        },
-        "is_currently_surfing": {
-          "type": "boolean"
-        },
-        "start_x": {
-          "type": "integer"
-        },
-        "start_y": {
-          "type": "integer"
-        }
-      },
-      "required": [
-        "start_x",
-        "start_y",
-        "end_x",
-        "end_y",
-        "is_currently_surfing",
-        "autopress_buttons"
-      ],
-      "type": "object"
-    },
-    "python_script": "import collections\nimport xml.etree.ElementTree as ET\nimport json\n\ndef solve(input_data):\n    root = ET.fromstring(map_xml_string)\n    width = int(root.get('width'))\n    height = int(root.get('height'))\n    grid = {}\n    objects = set()\n    for row in root.findall('Row'):\n        y = int(row.get('id'))\n        for tile in row.findall('Tile'):\n            x = int(tile.get('id'))\n            t_type = tile.get('type')\n            grid[(x, y)] = t_type\n            if tile.get('has-object') == 'true' or tile.find('Object') is not None:\n                objects.add((x, y))\n\n    start_x = int(input_data['start_x'])\n    start_y = int(input_data['start_y'])\n    end_x = int(input_data['end_x'])\n    end_y = int(input_data['end_y'])\n    is_currently_surfing = bool(input_data['is_currently_surfing'])\n\n    queue = collections.deque([(start_x, start_y, is_currently_surfing, [])])\n    visited = set([(start_x, start_y, is_currently_surfing)])\n    \n    while queue: # BFS\n        x, y, surfing, path = queue.popleft()\n        if (x, y) == (end_x, end_y):\n            print(json.dumps(path))\n            return\n        \n        for dx, dy, move in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n            nx, ny = x + dx, y + dy\n            if not (0 <= nx < width and 0 <= ny < height): continue\n            if (nx, ny) in objects: continue\n            \n            ntype = grid.get((nx, ny), 'unseen')\n            ctype = grid.get((x, y), 'unseen')\n            \n            if ntype in ['WALL', 'BUOY']: continue\n            if ntype == 'FLOOR_UP_WALL' and dy == 1: continue\n            if ctype == 'FLOOR_UP_WALL' and dy == -1: continue\n            \n            if ntype == 'LEDGE_HOP_DOWN':\n                if dy == 1:\n                    jx, jy = nx, ny + 1\n                    if 0 <= jx < width and 0 <= jy < height:\n                        if (jx, jy) in objects: continue\n                        jntype = grid.get((jx, jy), 'unseen')\n                        if jntype not in ['WALL', 'BUOY']:\n                            if (jx, jy, surfing) not in visited:\n                                visited.add((jx, jy, surfing))\n                                queue.append((jx, jy, surfing, path + [move]))\n                continue\n\n            nsurf = surfing\n            cseq = [move]\n            if surfing:\n                if ntype in ['WATER', 'unseen']: pass\n                elif ntype in ['FLOOR', 'FLOOR_UP_WALL']: nsurf = False\n                else: continue\n            else:\n                if ntype in ['FLOOR', 'FLOOR_UP_WALL', 'unseen']: pass\n                elif ntype == 'WATER':\n                    nsurf = True\n                    cseq = [move, 'A', 'A', 'A']\n                else: continue\n            \n            if (nx, ny, nsurf) not in visited:\n                visited.add((nx, ny, nsurf))\n                queue.append((nx, ny, nsurf, path + cseq))\n    print(json.dumps([]))\n\nsolve(input_data)",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-01-14T00:00:27.432Z",
-        "action_counter": 46588
-      }
-    ]
   }
 }
