@@ -24,4 +24,4 @@
 - **Roamer Logic:** Roamers move to an adjacent map when the player transitions maps. 'Blind Interception' relies on them moving *into* your map as you enter.
 - **Detour:** Goldenrod Dept Store was a bust. No Super Repels.
 - **New Plan:** Fly to Indigo Plateau. Beat E4 for cash. Buy Max Repels.
-- **Fly Map Status:** Cursor at Cherrygrove. Navigating to Indigo Plateau (Right -> Right).
+- **Fly Map Status:** Cursor at Cherrygrove. Moving Right towards Indigo Plateau.
