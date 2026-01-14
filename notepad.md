@@ -13,32 +13,28 @@
 - Sighting Progress:
     1. Burned Tower (DONE)
     2. Cianwood City (DONE - Eusine defeated at Turn 41111)
-    3. Route 42 (Mahogany side) - PENDING (Started Turn 46896)
+    3. Route 42 (Mahogany side) - PENDING (Attempt started Turn 46896)
     4. Kanto Route 25 (Cerulean Cape) - PENDING
 - Strategy: Visit sighting spots in order. Then Tin Tower.
 - Items: Clear Bell (HAVE IT).
 
-# Map Insights (Route 42)
-- Middle grove with Apricorns requires Cut at (24, 13).
-- Island is reachable via western pond (Surf) or Mt. Mortar middle entrance.
-- Entrances at (10, 5), (28, 9), (46, 7).
-
-# Hypotheses & Tests
+# Active Hypotheses
 - Hypothesis 5: Suicune sighting on Route 42 is triggered by approaching from the west (Ecruteak side).
     - Test: Enter Route 42 from Ecruteak and approach the grove.
     - Status: Ongoing.
 
-# Failed Hypotheses
-- "Mow the lawn" in grove: FAILED (60+ turns, all tiles stepped on). Suicune is likely a static sprite that isn't currently present.
+# Verified Failures
+- "Mow the lawn" in grove: FAILED (60+ turns, 100% tile coverage in grove). Suicune is not a hidden trigger tile.
 - "Sighting trigger at (28, 15)": FAILED (Stepped on it at Turn 46953).
-- "Re-entry from Mahogany": FAILED (Turn 46966).
-- "Eusine in Ecruteak Center": FAILED (Turn 46981 - Map 4_3 fully explored, Eusine not present).
+- "Re-entry from Mahogany": FAILED (Turn 46966, re-approached grove from east).
+- "Eusine in Ecruteak Center": FAILED (Turn 46981, not present).
 
 # Lessons Learned
-- Suicune in Route 42 is likely an overworld sprite; if it's not in the Map Objects list, the sighting event is not active.
-- Map refreshes (entering/exiting) are essential when overworld events aren't triggering as expected.
-- [Lesson] Sighting 3 on Route 42 requires the player to approach the three Apricorn trees. If the sprite is missing, a prerequisite might be unfulfilled or the trigger is directional.
+- Suicune sightings are overworld sprite encounters, not hidden tile triggers.
+- If the sprite is missing from the Map Objects list, the sighting event is not active.
+- Map refreshes and directional approaches are the last resort before abandoning a sighting.
 
-# Map Insights (Mt. Mortar)
-- B1F ladder at (19, 29) leads to 1FOutside (17, 29).
-- B1F has an item ball at (21, 26).
+# Map Insights
+- Route 42: Middle grove with Apricorns requires Cut at (24, 13).
+- Mt. Mortar: B1F ladder at (19, 29) leads to 1FOutside (17, 29). B1F has an item ball at (21, 26).
+- Ecruteak: Gatehouse to Route 42 is at (35, 27).

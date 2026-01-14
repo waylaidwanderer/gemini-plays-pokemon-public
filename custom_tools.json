@@ -83,64 +83,6 @@
       }
     ]
   },
-  "multi_modal_pathfinder_robust_v2": {
-    "description": "Calculates a multi-modal path (walking and surfing) between two coordinates on the current map. Treats 'unseen' tiles as WALLS by default. Respects objects (NPCs, signs) as walls. Handles Gen 2 collision types (ledges, one-way walls) as impassable from the north. Returns a list of button presses.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "end_x": {
-          "type": "integer"
-        },
-        "end_y": {
-          "type": "integer"
-        },
-        "is_surfing": {
-          "type": "boolean"
-        },
-        "start_x": {
-          "type": "integer"
-        },
-        "start_y": {
-          "type": "integer"
-        }
-      },
-      "required": [
-        "start_x",
-        "start_y",
-        "end_x",
-        "end_y",
-        "is_surfing"
-      ]
-    },
-    "python_script": "import json\n\ndef script(input_data):\n    # Simplified pathfinder for now\n    print(json.dumps([\"B\"])) \n",
-    "history": [
-      {
-        "commit_message": "Fix Gen 2 ledge jumping (jump over, land 2 tiles away) and Surf Launch (face water + A). Correct visited state. Treat unseen as traversable.",
-        "timestamp": "2026-01-14T01:25:20.999Z",
-        "action_counter": 46690
-      },
-      {
-        "commit_message": "Improve multi-modal pathfinder with target-unseen-passable logic and Cianwood-specific heuristics. Fix Surf launch sequence.",
-        "timestamp": "2026-01-14T01:32:06.631Z",
-        "action_counter": 46698
-      },
-      {
-        "commit_message": "Fix multi_modal_pathfinder_robust_v2 to respect objects (NPCs/Signs) and use more generous unseen tile heuristic.",
-        "timestamp": "2026-01-14T01:48:51.016Z",
-        "action_counter": 46719
-      },
-      {
-        "commit_message": "Refine multi_modal_pathfinder_robust_v2: Treat unseen tiles as WALLS by default for safety, unless they are within verified corridors. Respect all objects as walls. Correct visited state handling.",
-        "timestamp": "2026-01-14T02:20:05.883Z",
-        "action_counter": 46754
-      },
-      {
-        "commit_message": "Initial definition of multi_modal_pathfinder_robust_v2.",
-        "timestamp": "2026-01-14T04:11:50.952Z",
-        "action_counter": 46952
-      }
-    ]
-  },
   "generate_sweep_path": {
     "description": "Generates a list of coordinates to systematically sweep a rectangular area in a boustrophedon (snake) pattern.",
     "input_schema": {
