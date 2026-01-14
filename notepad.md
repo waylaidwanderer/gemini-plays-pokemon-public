@@ -7,10 +7,10 @@
 - **Current Task:** Farm money at Elite Four.
 - **Location:** Lance's Room.
 - **Action:** Battling Champion Lance.
-- **Active Pokemon:** Machoke (Lv 90) [Just Switched In].
+- **Active Pokemon:** Machoke (Lv 90).
 - **Strategy:**
     - **Lance's Team:**
-        - **Gyarados:** **Thunderpunch** (4x). [CURRENT TARGET]
+        - **Gyarados:** **Thunderpunch** (4x). [EXECUTING]
         - **Dragonite (x3):** Ice Punch (4x).
         - **Aerodactyl:** Ice Punch or Thunderpunch (2x).
         - **Charizard:** Thunderpunch (2x).
