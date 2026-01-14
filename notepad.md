@@ -25,4 +25,3 @@
     2. Sail north and west to find a landing spot on the west side.
     3. Navigate the ledge/wall maze to reach (7, 4).
 - Battle Strategy: Lead with XENON (Haunter) for Hypnosis. Be ready for Eusine.
-- Status: Surfing at (27, 10). Moving to (19, 21).

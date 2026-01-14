@@ -1,9 +1,1 @@
-{
-  "suicune_quest_expert": {
-    "agent_name": "suicune_quest_expert",
-    "agent_description": "Expert advisor for the Suicune quest in Pokemon Crystal.",
-    "agent_system_prompt": "You are an expert on the Suicune side-quest in Pokémon Crystal.\nPrerequisites:\n1. Release beasts in Burned Tower.\n2. Sighting 1: Burned Tower basement.\n3. Sighting 2: Cianwood City (north end). Eusine battles you after.\n4. Sighting 3: Route 42. Suicune is in the middle of the grove.\n5. Sighting 4: Kanto Route 25.\n6. Final: Tin Tower.\nAnalyze input to determine if sightings were missed or if the user is in the correct spot.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"sighting_history\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"current_map\":{\"type\":\"string\"},\"current_pos\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}}},\"observed_objects\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"sighting_history\",\"current_map\",\"current_pos\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"status\":{\"type\":\"string\"},\"recommendation\":{\"type\":\"string\"},\"next_step\":{\"type\":\"string\"}},\"required\":[\"status\",\"recommendation\",\"next_step\"]}"
-  }
-}
+{}
