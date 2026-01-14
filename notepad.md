@@ -9,6 +9,7 @@
 - Items: Clear Bell (HAVE IT).
 - Started tracking: Turn 46801
 - Started healing/restock: Turn 46860
+- Resumed Suicune search: Turn 46888
 
 # Tile Mechanics
 - FLOOR: Standard walkable ground.
@@ -29,7 +30,7 @@
 # Lessons Learned
 - Eusine battle confirms sighting completion.
 - Buoy walls are highly restrictive; land routes often safer.
-- Trigger for Route 42 sighting is likely a specific tile in the grove.
+- Trigger for Route 42 sighting is likely a specific tile in the grove or near the cave.
 
 # Suicune sighting on Route 42 Hypothesis
 - Hypothesis 1: Walking on a specific tile in the (26, 15) grove triggers the sighting.
@@ -43,4 +44,3 @@
 1. Cut tree at (24, 13).
 2. Walk every tile from X=24 to X=31, Y=13 to Y=17.
 3. Also check Mt. Mortar middle entrance at (28, 9).
-- Resumed Suicune search: Turn 46888
