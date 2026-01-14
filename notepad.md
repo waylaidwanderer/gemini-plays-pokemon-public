@@ -12,6 +12,6 @@
     - **Houndoom:** Dark/Fire. 2x Weak to Fighting.
     - **Move:** **Cross Chop** (Slot 4).
     - **Cursor:** Currently on **Ice Punch (Slot 3)**.
-    - **Nav:** Press B (Decline Switch). Next: Fight -> Down (to Slot 4) -> A.
+    - **Nav:** A (Fight) -> Down (to Slot 4) -> A (Cross Chop).
 - **Goal:** Farm money.
 - **Resources:** ¥22094.
