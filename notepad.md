@@ -13,10 +13,8 @@
 # Strategic Status
 - **Goal:** Register Raikou & Entei.
 - **Current Task:** Farm money at Elite Four -> Buy Max Repels (20x).
-- **Location:** Saffron City (Kanto).
-- **Status:** Arrived via Magnet Train.
-- **Action:** Attempting to Fly to Indigo Plateau.
-- **Assumption:** Menu cursors preserved (Main: POKEMON, Party: MISTRAL).
-- **Sequence:** Start -> A (Party) -> A (Mistral) -> A (Fly).
-- **Goal:** Blind Hunt for Raikou/Entei after farming money.
+- **Location:** Saffron City (Flying).
+- **Action:** Pressed 'A' to confirm Fly to Indigo Plateau.
+- **Observation:** System text indicated cursor was already on 'Indigo Plateau'.
+- **Next Step:** Arrive at Indigo Plateau -> Heal -> Battle E4.
 - **Resources:** ¥2294. Repels: 0.
