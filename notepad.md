@@ -12,7 +12,7 @@
 - COUNTER: Impassable. Used to interact with NPCs from an adjacent tile.
 
 # Suicune Quest
-- Status: 16 Badges, Clear Bell in inventory, Red Defeated.
+- Status: 16 Badges, Clear Bell in inventory, Red Defeated (Turn 44000).
 - Start Turn (Route 42 Grove): 47288.
 - Sighting Progress:
     1. Burned Tower (DONE)
