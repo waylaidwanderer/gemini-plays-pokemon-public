@@ -33,4 +33,4 @@
     - **NO Super Repels found in Goldenrod.**
     - **Cannot Fly from 6F Roof.**
 - **Strategy:** Fly to Celadon City -> Buy Super Repels -> Resume Hunt.
-- **Reflection (Turn 39197):** Self-assessment complete. Adhering to immediate execution. Notepad and map are clean. 'Blind Hunt' hypothesis remains valid. Navigation to Kanto in progress.
+- **Reflection (Turn 39198):** Fly Map Cursor seems stuck on New Bark Town despite 'Right' inputs. Hypothesis: Need to press 'Select' to switch regions or 'Left' to wrap around. Testing 'Select' and directional inputs.
