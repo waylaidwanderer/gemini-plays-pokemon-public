@@ -1,7 +1,13 @@
 # Suicune Quest
-- Objective: Trigger sighting in Cianwood City at northern shore.
-- Verified Path: (12, 30) -> (12, 34) -> (10, 34) -> (10, 33) -> (8, 33) -> (8, 35) -> (2, 35) -> (2, 4) -> (7, 4).
-- Note: All ledges in Cianwood are impassable from the north. Row 30, 33, 34, 35 are key crossing points.
+- Objective: Trigger sighting in Cianwood City at the northern shore.
+- Primary Strategy: The Great Northern Sea Loop (Verified)
+    1. Walk to (19, 30) and Surf.
+    2. Surf East to (27, 30), then North to (27, 10).
+    3. Surf West to (23, 10), then North to (23, 8).
+    4. Surf West through the gap at (22, 8) to reach (19, 8).
+    5. Surf South to (19, 11), then West to (16, 11) and land.
+    6. Walk West along Row 11 to (7, 11), then North to (7, 4).
+- Note: Land routes are blocked by internal walls and impassable ledges (verified at (6, 34), (12, 50), (23, 46)). The sea loop is the only confirmed path.
 - Suicune sighting count = 1.
 
 # Tile Mechanics (Cianwood)
@@ -11,14 +17,12 @@
 - BUOY: Impassable water obstacle.
 - Interaction: Surf from FLOOR adjacent to WATER by pressing A.
 
-# Confirmed Corridors
-- Row 30: Clear from X=12 to X=20.
-- Row 33: Clear from X=8 to X=17.
-- Row 34: Clear from X=10 to X=19.
-- Row 35: Clear from X=2 to X=8.
-- X=2: Clear north-south thoroughfare on the far west coast.
+# Confirmed Sea Gaps
+- X=27: Clear north-south channel from Row 30 to Row 0.
+- Row 10: Clear east-west channel from X=27 to X=23.
+- Row 8: Clear east-west channel from X=23 to X=19.
 
 # Lessons Learned
 - Cianwood ledges are traps; do not attempt to jump them from the north.
-- Always reveal tiles manually before planning long-distance routes.
-- Internal walls divide the city into vertical strips; use verified horizontal "gaps" to move between them.
+- Internal walls divide the city into vertical strips; use the sea loop to bypass them.
+- Always verify path traversability before committing to long sequences.
