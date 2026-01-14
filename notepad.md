@@ -20,3 +20,5 @@
 - **Repel Status:** Active (Applied Turn 38971).
 - **Session Start:** Turn 38471.
 - **Active Events:** Bug-Catching Contest (Tuesday).
+- **Interruption Handling:** Phone calls or other events can pause automation; handle immediately to resume loops.
+- **Roamer Logic:** Roamers move to an adjacent map when the player transitions maps. 'Chasing' a roamer seen on the map is ineffective as they move away upon entry. 'Blind Interception' relies on them moving *into* your map as you enter, which is best achieved by maximizing map transitions per hour.
