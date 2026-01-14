@@ -30,3 +30,8 @@
 - GNEISS (Graveler): Earthquake, Defense Curl, Strength, Rollout.
 - GORP (Snorlax): Surf, Rest, Body Slam, Rollout.
 - ICARUS (Pidgeotto): Fly, Sand-Attack, Gust, Quick Attack.
+
+# Lessons Learned
+- Tool Over-engineering: Spent ~200 turns refining a multi-modal pathfinder for a task that could be solved with simple manual navigation. Prioritize movement over perfect automation when the path is clear.
+- Root Hypothesis: Always re-verify connectivity assumptions (e.g., walls vs. ledges) before building complex plans around them.
+- Suicune in Cianwood: This is a sighting event, not a battle. Avoid wasting resources on battle prep for this specific objective.
