@@ -38,3 +38,8 @@
 - Hypothesis 2: Trigger is near the middle Mt. Mortar entrance at (28, 9).
 - Test 2: Walk around (28, 9) and (28, 10).
 - Conclusion 2: PENDING
+
+# Systematic Search Plan (Route 42 Grove)
+1. Cut tree at (24, 13).
+2. Walk every tile from X=24 to X=31, Y=13 to Y=17.
+3. Also check Mt. Mortar middle entrance at (28, 9).
