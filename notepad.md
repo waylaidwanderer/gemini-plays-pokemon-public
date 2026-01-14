@@ -13,8 +13,8 @@
 # Strategic Status
 - **Goal:** Register Raikou & Entei.
 - **Current Task:** Farm money at Elite Four -> Buy Max Repels (20x).
-- **Location:** Saffron City (Flying).
-- **Action:** Pressed 'A' to confirm Fly to Indigo Plateau.
-- **Observation:** System text indicated cursor was already on 'Indigo Plateau'.
-- **Next Step:** Arrive at Indigo Plateau -> Heal -> Battle E4.
+- **Location:** Route 23 (Indigo Plateau Entrance).
+- **Action:** Walking into the Pokemon League Reception Gate.
+- **Next Step:** Heal (if needed) -> Buy supplies (if affordable) -> Challenge Elite Four.
+- **Goal:** Blind Hunt for Raikou/Entei after farming money.
 - **Resources:** ¥2294. Repels: 0.
