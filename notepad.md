@@ -11,7 +11,7 @@
 - LAPIS (POLIWAG): Lv12 (Waterfall, Surf, Whirlpool)
 
 # Tile Mechanics (Global)
-- FLOOR: Standard walkable ground. Verified at (25, 5) and (29, 4) in Cherrygrove.
+- FLOOR: Standard walkable ground. Verified in Cherrygrove.
 - WATER: Traversable only via Surf.
 - BUOY: Impassable water obstacle.
 - WALL: Impassable obstacle.
@@ -20,20 +20,21 @@
 - FLOOR_UP_WALL: Represents a ledge face. Impassable from ALL directions.
 - LEDGE_HOP_DOWN: One-way jump from NORTH to SOUTH.
 - (11, 14): Dead End Pocket in Cianwood. Wall at (11, 13) and (12, 14) blocks access to the north plateau.
-- (11, 15): Gap in the city wall (Y=15) in Cianwood. Accesses the beach area but not the plateau. Verified in Turn 47337.
+- (11, 15): Gap in the city wall (Y=15) in Cianwood. Accesses the beach area but not the plateau. (Needs re-verification).
 
-# Fly Navigation (Grid Step Theory)
+# Fly Navigation (Testing Phase)
 - Map: Town Map (Fly).
-- Rule: 7 directional taps = 1 coordinate unit.
-- Evidence: 14 taps moved cursor from New Bark (14, 10) to Cherrygrove (12, 10).
+- Hypothesis: 1 directional tap = 1 coordinate unit (Tile on Town Map grid).
 - Target: Cianwood (0, 9).
-- Math: 14 units West (98 taps), 1 unit North (7 taps).
-- Progress: 0/14 units West. (Testing Grid Step Theory: 7 taps = 1 unit).
-- Flight Plan: Move cursor West in chunks of 3 units (21 taps) to reach Cianwood (0, 9).
-- Capture Strategy: Use XENON's Hypnosis to sleep Suicune. Lower HP with GORP's Body Slam (careful not to KO) or Night Shade. Throw Ultra Balls.
+- Start: New Bark (14, 10).
+- Displacement: 14 units West, 1 unit North.
+- Failed Fly attempts: 59.
+- Current Test: Press B to clear UI, then 15 Left taps to check for destination name change.
 
-# Reflection Turn 48031
-- Strategy: Moving Fly cursor in manual chunks of 21 taps (43 buttons total including sleeps) to stay under the 50-button limit.
-- Lessons: Fly map navigation is based on a sub-grid (7 taps/unit). 1 tap moves the cursor visually but doesn't change city text until the unit threshold is met.
-- Root Hypothesis Check: Fly to Cianwood is valid; execution failed due to coordinate scaling misunderstanding.
-- Verification: Analyst claims 1 tap = 1 city, but observation proves 1 tap < 1 city. Trusting observation.
+# Quest Strategies
+## Suicune: 'The Great Spiral'
+- Fact: The northern plateau is walled off from the south and west. The buoy maze is the only intended entrance.
+- Shortcut Hypothesis: Suicune (7, 4) reachable via beach at X=2. Requires verification of north/south wall at Y=10-20.
+- Route: Fly to Cianwood -> Walk to beach at X=2 -> Walk North to Suicune at (7, 4).
+- Preparation: Lead with XENON (Haunter). Use SUPER REPEL.
+- Capture Strategy: Use XENON's Hypnosis to sleep Suicune. Lower HP with GORP's Body Slam (careful not to KO) or Night Shade. Throw Ultra Balls.
