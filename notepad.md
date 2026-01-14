@@ -43,10 +43,12 @@
 - Plan: Fly to Fuchsia City -> Head east to Route 14. If not there, check Route 25 (Cerulean Cape).
 
 # Verified Failures (Route 42)
-- "Sighting trigger at (28, 15)": FAILED.
-- "Re-entry from Mt. Mortar": FAILED (Turn 46939).
-- "Eusine in Ecruteak Center": FAILED (Turn 46981).
-- Wise Trio Interaction (Ecruteak): FAILED (Turn 47043).
+- Full Grove/Water/Plateau Sweep: FAILED (Turns 46816-47106).
+- Sighting trigger at (28, 15): FAILED.
+- Re-entry from Mt. Mortar/Mahogany/Ecruteak: FAILED.
+- Wise Trio/Eusine Interaction: FAILED.
+- Map Code Scan for Suicune: FAILED (Turn 47101).
+- Conclusion: Route 42 sighting not triggered despite exhaustive search. Moving to Kanto to verify quest state.
 
 # Map Insights
 - Route 42: Middle grove with Apricorns requires Cut at (24, 13).
