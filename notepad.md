@@ -3,7 +3,7 @@
 - **Goal:** Return to Johto.
 - **Current Position:** (7, 6).
 - **Fly Map Cursor:** Viridian City.
-- **Action:** Navigating Fly Map from Viridian to Saffron (Up -> Right -> Down).
+- **Action:** Navigating Fly Map from Viridian to Cerulean (Up -> Right).
 - **Inventory Update:**
   - 19 Super Repels (Active).
   - 16 Ultra Balls (Existing).
