@@ -2,14 +2,14 @@
 
 # Strategic Status
 - **Goal:** Register Raikou & Entei.
-- **Current Action:** Entering National Park Gatehouse.
-- **Location:** Route 35.
-- **Status:** Phone call finished. Moving North to Gatehouse (3, 5).
+- **Current Action:** Traversing National Park (South -> East Exit).
+- **Location:** National Park (South Entrance).
+- **Status:** Moving to East path to reach Route 36 Gatehouse.
 
 # Roamer Hunting Strategy (Route 37)
 1.  **Setup:** 
     - Lead: Gyarados (Lv 36).
-    - Item: Super Repel (Active).
+    - Item: Super Repel (Wearing off? Apply if needed).
     - Balls: 16 Ultra Balls.
 2.  **Procedure:**
     - Walk to Route 37 (North of Ecruteak).
