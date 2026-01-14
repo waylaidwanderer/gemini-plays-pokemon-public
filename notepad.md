@@ -9,9 +9,9 @@
 
 # Suicune Quest
 - Objective: Trigger sighting in Cianwood City at (7, 4).
-- Phase 1: Reach West Coast via Eastern Sea Loop.
-- Phase 2: Surf around buoy barrier at X=18-22 and Y=9.
-- Phase 3: Land at (16, 11) and walk to (7, 4).
+- Strategy:
+    1. Reach West Coast via Eastern Sea Loop (Surf South to Y=26, East to X=23, North to Y=11, West to landing).
+    2. Land at (16, 11) and walk to (7, 4).
 - Note: This is a sighting event. Suicune will flee.
 
 # Roaming Beast Data
