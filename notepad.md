@@ -13,7 +13,7 @@
 - Sighting Progress:
     1. Burned Tower (DONE)
     2. Cianwood City (DONE - Eusine defeated at Turn 41111)
-    3. Route 42 (Mahogany side) - PENDING (Started Turn 46896, Attempt #1)
+    3. Route 42 (Mahogany side) - PENDING (Started Turn 46896)
     4. Kanto Route 25 (Cerulean Cape) - PENDING
 - Strategy: Visit sighting spots in order. Then Tin Tower.
 - Items: Clear Bell (HAVE IT).
@@ -35,7 +35,7 @@
     - Status: FAILED (Re-entered from Mahogany at Turn 46966, no sighting).
 - Hypothesis 5: Suicune sighting on Route 42 is triggered by approaching from the west (Ecruteak side).
     - Test: Fly to Ecruteak and enter Route 42 from the west.
-    - Status: Ongoing (Flying to Ecruteak).
+    - Status: Ongoing (Landed in Ecruteak).
 
 # Failed Hypotheses
 - "Mow the lawn" in grove: FAILED (60+ turns, all tiles stepped on). Suicune is likely a static sprite that isn't currently present.
@@ -43,9 +43,8 @@
 - "Re-entry from Mahogany": FAILED (Turn 46966).
 
 # Lessons Learned
-- [Lesson] Suicune in Route 42 is likely an overworld sprite; if it's not in the Map Objects list, the sighting event is not active.
-- [Lesson] Never commit to a 50+ turn 'mow the lawn' search without checking the Map Objects list first.
-- [Lesson] Map refreshes (entering/exiting) are essential when overworld events aren't triggering as expected.
+- Suicune in Route 42 is likely an overworld sprite; if it's not in the Map Objects list, the sighting event is not active.
+- Map refreshes (entering/exiting) are essential when overworld events aren't triggering as expected.
 
 # Map Insights (Mt. Mortar)
 - B1F ladder at (19, 29) leads to 1FOutside (17, 29).
