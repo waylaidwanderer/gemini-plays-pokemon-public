@@ -13,14 +13,11 @@
 - Current Objective: Cianwood City sighting at (7, 4).
 - Start Turn: 46373.
 - Strategy (The "How"):
-    1. Walk North/East to bypass central walls:
-        - Walk Up: (11, 21) -> (11, 16).
-        - Walk Right: (11, 16) -> (13, 16).
-        - Walk Up: (13, 16) -> (13, 12).
-    2. Reach Sighting Area:
-        - Walk Left: (13, 12) -> (7, 12).
-        - Walk Up: (7, 12) -> (7, 4).
-    3. Sighting: Trigger cutscene (Suicune runs, no battle).
+    1. Surf: Face Right at (13, 16) and launch into WATER at (14, 16).
+    2. Navigate: Surf East to X=23, North to Y=10, then West to (16, 11).
+    3. Land: Move West onto FLOOR at (16, 11).
+    4. Walk: (16, 11) -> (7, 11) -> (7, 4).
+    5. Sighting: Trigger cutscene (Suicune runs, no battle).
 
 # Strategy: Capture all Legendary Pokemon
 - Requirements: Clear Bell (Owned), 16 Badges (Owned).
