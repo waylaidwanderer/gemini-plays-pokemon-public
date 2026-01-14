@@ -34,4 +34,5 @@
 - 5F: TM Corner (Punches, Headbutt).
 - 6F: Tranquil Square (Roof/Vending Machines).
     - **NO Super Repels found in Goldenrod.**
-- **Strategy:** Fly to Celadon City (Kanto) -> Buy Super/Max Repels at Celadon Dept Store -> Fly back to Ecruteak to resume hunt.
+    - **Cannot Fly from 6F Roof.**
+- **Strategy:** Take Elevator to 1F -> Exit -> Fly to Celadon -> Buy Super Repels.
