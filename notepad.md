@@ -17,22 +17,22 @@
 - Sighting Progress:
     1. Burned Tower (DONE)
     2. Cianwood City (DONE - Confirmed Turn 47347)
-    3. Route 42 (Middle Grove) - TRIGGER ATTEMPTED (Turn 47324, no event)
+    3. Route 42 (Middle Grove) - TRIGGER ATTEMPTED (Full grid sweep Turn 47324)
     4. Route 36 (Violet City North) - PENDING
-    5. Kanto Route 14 (East of Fuchsia) - LOCKED (Requires Johto Sightings)
-    6. Kanto Route 25 (Cerulean Cape) - LOCKED (Requires Johto Sightings)
+    5. Kanto Route 14 (East of Fuchsia) - SIGHTING LOCKED
+    6. Kanto Route 25 (Cerulean Cape) - SIGHTING LOCKED
 - Strategy:
     - Verify sightings sequentially. Johto: Burned Tower -> Cianwood -> Route 42 -> Route 36.
     - If a Johto sighting is skipped, later sightings (including Kanto and Tin Tower) are blocked.
-- Backtracking Plan (HOW):
-    - Confirmed Cianwood is DONE (empty beach).
-    - Fly to Violet City and check Route 36 sighting spot.
-    - If Route 36 is not triggered, re-attempt Route 42 by entering from Ecruteak side.
+- Current Plan:
+    - Re-entering Route 42 from Ecruteak gatehouse at (35, 27).
+    - Use Cut on tree at (24, 13) to reach the grove.
+    - Approach the center of the grove to trigger Suicune.
 - Hypothesis Log (Route 42):
     - H1: Trigger is a specific tile within the grove boundary. (Tested with 'suicune_sweep_v2', Failed Turn 47324).
-    - H2: Missing prerequisite sighting. (Cianwood verified DONE Turn 47347).
-    - H3: Route 36 sighting must occur before Route 42. (Testing now).
-    - H4: Order of sightings in Crystal is Burned Tower -> Cianwood -> Route 42 -> Route 36 -> Kanto. (Verifying H3 first).
+    - H2: Missing prerequisite sighting. (Cianwood confirmed DONE Turn 47347).
+    - H3: Route 36 sighting must occur before Route 42. (Pending test if re-entry fails).
+    - H4: Sighting sequence is strictly linear. (Confirmed by expert).
 
 # PC Storage (Box 1)
 - DAPXWW (LARVITAR): Lv20
