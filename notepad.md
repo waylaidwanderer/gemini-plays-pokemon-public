@@ -30,7 +30,11 @@
 - Fly Navigation: Johto Fly menu is a linear list scrolled with Up/Down, not a 2D grid.
 - Exploration: (11, 15) and (11, 14) are dead-end pockets blocked by walls at Row 14/15.
 - Pathing: Cianwood city center is elevated; use the West Beach (X=2) or East Coast Surf for navigation to the North Plateau.
-- Turn #48144: Landed at (11, 27). Beach corridor (X=2) is reachable via gaps at Row 22 (X=3) and Row 24-26 (X=5).
-- Route: (11, 27) -> (11, 22) -> (2, 22) -> (2, 14) -> (8, 14) -> (8, 12) -> (14, 12) -> (14, 10).
+- Turn #48145: At (11, 27). Final Plan: The Great Outer Channel.
+- Step 1: Walk to East Coast Surf Point (19, 30) via Row 29.
+- Step 2: Surf East to X=27, then North to Row 10.
+- Step 3: Surf West through Gap 1 (26, 10) to (19, 11).
+- Step 4: Land at (16, 11) on the North Plateau.
+- Step 5: Reach (14, 10) to trigger Suicune sighting.
 - Status: XENON leading, Ultra Balls ready.
 - Goal: Reach (14, 10) on the North Plateau.
