@@ -1,11 +1,12 @@
 # Mechanics & State
 - **Location:** Celadon Dept Store 2F.
 - **Goal:** Supply Run (Dept Store).
-- **Current Position:** (14, 3) - Facing Clerk 2 (Right).
-- **Action:** Scrolling down in Clerk 2's menu.
-- **Inventory Check (Celadon):**
-  - 2F Clerk 1 (Left): Potions (Max Potion available).
-  - 2F Clerk 2 (Right): Top is Potions. Checking bottom.
+- **Current Position:** (13, 3) - Still at Clerk 1 (Left).
+- **Action:** Closing Menu -> Moving to Clerk 2 (Right).
+- **Correction:** Previous move failed. Currently viewing Clerk 1's stock (Medicines).
+- **Inventory Check (Celadon 2F):**
+  - Clerk 1 (Left): Potions, Revives (Confirmed).
+  - Clerk 2 (Right): Pending check.
 - **Shopping List:** Super Repels (~20), Ultra Balls.
 - **Money:** ¥12294.
 
