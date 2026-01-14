@@ -25,7 +25,7 @@
 - **Detour:** Goldenrod Dept Store was a bust. No Super Repels.
 - **New Plan:** Fly to Indigo Plateau. Beat E4 for cash. Buy Max Repels.
 - **Fly Map Status:** Fixing Menu Cursor.
-- **Current State:** Accidentally opened Trainer Card ('GEM').
-- **Action:** Closing Card (B) -> Moving Cursor to 'POKEGEAR' (Up) -> Closing Menu (B).
-- **Goal:** Return to Overworld with 'POKEGEAR' as the last-used menu option.
-- **Next Turn:** Use 'open_map' tool to reliably access the Fly Map.
+- **Current State:** Viewing Trainer Card.
+- **Action:** B (Exit Card) -> Up (Select GEAR) -> B (Close Menu).
+- **Goal:** Set Start Menu cursor to 'POKEGEAR' for the 'open_map' tool.
+- **Next Turn:** Call 'open_map' to fly to Indigo Plateau.
