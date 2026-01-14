@@ -1,7 +1,10 @@
 # Strategic Status
 - **Goal:** Return to Johto (Via Diglett's Cave).
-- **Current Action:** Entering Diglett's Cave.
-- **Path:** Route 2 (East) -> Diglett's Cave -> Vermilion City.
+- **Current Action:** Traversing Diglett's Cave (Segment 1).
+- **Path:** 
+  1. Entrance (15, 5) -> Ladder (17, 3). [CURRENT]
+  2. Ladder (3, 3) -> Ladder (5, 31).
+  3. Ladder (17, 33) -> Exit (3, 33).
 
 # Notes
 - **Fly Map:** Horizontal navigation (West <-> East) is currently broken/unreliable. Stuck in West Kanto loop unless flying from specific spots (unverified). Workaround: Ground travel via Diglett's Cave.
