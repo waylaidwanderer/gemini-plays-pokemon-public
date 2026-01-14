@@ -11,7 +11,7 @@
 - **Strategy:**
     - **Lance's Team:**
         - **Gyarados:** Defeated.
-        - **Aerodactyl:** **Thunderpunch** (2x). [INCOMING]
+        - **Aerodactyl:** **Thunderpunch** (2x). [CURRENT TARGET]
         - **Dragonite (x3):** Ice Punch (4x).
         - **Charizard:** Thunderpunch (2x).
 - **Goal:** Farm money.
