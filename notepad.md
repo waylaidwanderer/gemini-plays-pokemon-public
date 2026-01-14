@@ -17,7 +17,7 @@
     - Move to grass and Scan ONCE (20 steps).
     - If no encounter, IMMEDIATELY transition to Ecruteak and back to reset.
     - Do NOT check Pokegear map.
-- **Repel Status:** Active (Applied Turn 39019).
+- **Repel Status:** Wore off (Turn 39058). Out of stock. Refilling at Mart.
 - **Session Start:** Turn 38471.
 - **Active Events:** Bug-Catching Contest (Tuesday).
 - **Interruption Handling:** Phone calls or other events can pause automation; handle immediately to resume loops.
