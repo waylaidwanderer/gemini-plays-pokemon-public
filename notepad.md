@@ -16,11 +16,11 @@
 - Start Turn (Route 42 Grove): 47288.
 - Sighting Progress:
     1. Burned Tower (DONE)
-    2. Cianwood City (DONE - Beach empty at (11, 17))
-    3. Route 42 (Middle Grove) - TRIGGER ATTEMPTED (Swept all grove tiles on Turn 47324, no event)
+    2. Cianwood City (DONE - Confirmed Turn 47347)
+    3. Route 42 (Middle Grove) - TRIGGER ATTEMPTED (Turn 47324, no event)
     4. Route 36 (Violet City North) - PENDING
-    5. Kanto Route 14 (East of Fuchsia) - SIGHTING LOCKED
-    6. Kanto Route 25 (Cerulean Cape) - SIGHTING LOCKED
+    5. Kanto Route 14 (East of Fuchsia) - LOCKED (Requires Johto Sightings)
+    6. Kanto Route 25 (Cerulean Cape) - LOCKED (Requires Johto Sightings)
 - Strategy:
     - Verify sightings sequentially. Johto: Burned Tower -> Cianwood -> Route 42 -> Route 36.
     - If a Johto sighting is skipped, later sightings (including Kanto and Tin Tower) are blocked.
