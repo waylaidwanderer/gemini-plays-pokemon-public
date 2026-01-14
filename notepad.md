@@ -6,13 +6,14 @@
 - **Goal:** Register Raikou & Entei.
 - **Current Task:** Farm money at Elite Four.
 - **Location:** Lance's Room.
-- **Action:** Challenging Champion Lance.
-- **Active Pokemon:** Machoke (Lv 90).
+- **Action:** Battling Champion Lance.
+- **Lead:** Gyarados (Lv 37) -> **SWITCH TO MACHOKE IMMEDIATEY**.
+- **Active Pokemon:** Machoke (Lv 90) [After Switch].
 - **Strategy:**
-    - **Lance:** Dragon/Flying specialist.
-    - **Machoke Moves:**
-        - **Ice Punch:** vs Dragonites (4x).
-        - **Thunderpunch:** vs Gyarados (4x), Charizard (2x), Aerodactyl (2x).
-        - **Cross Chop:** Backup.
+    - **Lance's Team:**
+        - **Gyarados:** Thunderpunch (4x).
+        - **Dragonite (x3):** Ice Punch (4x).
+        - **Aerodactyl:** Ice Punch or Thunderpunch (2x).
+        - **Charizard:** Thunderpunch (2x).
 - **Goal:** Farm money.
 - **Resources:** ¥29144.
