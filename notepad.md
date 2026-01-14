@@ -1,11 +1,11 @@
 # Mechanics & State
 - **Location:** Celadon Dept Store 2F.
 - **Goal:** Supply Run (Dept Store).
-- **Current Position:** Leaving Clerk 2 (Right).
-- **Action:** Checking Clerk 1 (Left) for Super Repels.
+- **Current Position:** At Clerk 1 (Left).
+- **Action:** Checking Clerk 1 inventory for Super Repels.
 - **Inventory Check (Celadon 2F):**
-  - Clerk 1 (Left): Potions, Revives (Need to re-verify for Repels).
-  - Clerk 2 (Right): Balls, Status Heals (Confirmed: NO Repels).
+  - Clerk 1 (Left): Checking now...
+  - Clerk 2 (Right): Balls, Status Heals (No Repels).
 - **Shopping Priorities:**
   1. Super Repels (Target: ~20).
   2. Ultra Balls (Current: 16).
