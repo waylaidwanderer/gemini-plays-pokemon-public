@@ -43,12 +43,11 @@
 - Plan: Fly to Fuchsia City -> Head east to Route 14. If not there, check Route 25 (Cerulean Cape).
 
 # Verified Failures (Route 42)
-- Full Grove/Water/Plateau Sweep: FAILED (Turns 46816-47106).
-- Sighting trigger at (28, 15): FAILED.
-- Re-entry from Mt. Mortar/Mahogany/Ecruteak: FAILED.
-- Wise Trio/Eusine Interaction: FAILED.
-- Map Code Scan for Suicune: FAILED (Turn 47101). No 'SUICUNE' object found in map XML.
-- Conclusion: Suicune is not currently spawned on Route 42. Proceeding to Kanto sightings to verify quest state.
+- Full Search (Grove/Water/Plateau): FAILED (Turns 46816-47106).
+- All entry points and NPC interactions: FAILED.
+- Map Data Scan: FAILED (No Suicune object found).
+- Conclusion: Suicune is not present on Route 42. Moving to Kanto sightings (Routes 14, 25) to verify quest progression.
+- Lesson: Suicune is a static land sprite; water sweeps are ineffective. If not visible, check prerequisites or other maps.
 
 # Map Insights
 - Route 42: Middle grove with Apricorns requires Cut at (24, 13).
