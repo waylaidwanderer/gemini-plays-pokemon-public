@@ -4,14 +4,14 @@
 
 # Strategic Status
 - **Goal:** Register Raikou & Entei.
-- **Current Action:** Traversing Route 36 Gatehouse.
-- **Location:** Route 36 Gatehouse.
-- **Status:** Crossing gatehouse to enter Route 36.
+- **Current Action:** Traversing Route 36 -> Route 37.
+- **Location:** Route 36.
+- **Status:** Walking East then North to reach Route 37.
 
 # Roamer Hunting Strategy (Route 37)
 1.  **Setup:** 
     - Lead: Gyarados (Lv 36).
-    - Item: Super Repel (Active).
+    - Item: Super Repel (Inactive - Apply on arrival).
     - Balls: 16 Ultra Balls.
 2.  **Procedure:**
     - Walk to Route 37 (South of Ecruteak).
