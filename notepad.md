@@ -6,11 +6,13 @@
 # Strategic Status
 - **Goal:** Register Raikou & Entei.
 - **Current Task:** Restock Supplies.
-- Location: Celadon Dept Store 3F.
-- Action: Moving to 2F to buy Max Repels.
-- Status: 5F=Vitamins, 4F=Gifts, 3F=TMs(?). Target is likely 2F (Standard Mart).
+- Location: Celadon Dept Store 2F.
+- Action: Buying Max Repels from Clerk at (13,5).
+- Status: 2F Main Counter. Left Clerk (13,5) has Repels.
 - Strategy:
-    1. **Transit:** Take stairs at (12,0) to 2F.
+    1. **Buy:** Buy 30 Max Repels (approx ¥21000).
+    2. **Transit:** Elevator/Stairs to 1F -> Exit.
+    3. **Prepare Team:** Lead with Gyarados (Lv 37) + Max Repel.
     2. **Buy Repels:** Locate clerk on 2F.
     3. **Transit:** Exit to Celadon City/Route 7.
     3. **Prepare Team:** Lead with Gyarados (Lv 37) + Max Repel.
