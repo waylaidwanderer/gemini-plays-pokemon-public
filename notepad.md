@@ -1,15 +1,16 @@
 # Suicune Quest
 - Start Turn: 46650
 - Objective: Trigger sighting in Cianwood City at the northern shore.
-- Strategy: The Southern Promenade (Confirmed Path)
-    1. Surf South to (23, 29) and land at (23, 30).
-    2. Walk South along X=23 to (23, 45).
-    3. Jump South over the ledge at (23, 46) to land at (23, 47).
-    4. Walk South to (23, 51).
-    5. Walk West along Row 51 to the far west corridor at X=2.
+- Strategy: The Middle-West Route
+    1. Surf West to (20, 30) and land at (19, 30).
+    2. Walk West along Row 30 to (12, 30).
+    3. Walk North to (12, 28).
+    4. Surf North across the pond to land at (12, 19).
+    5. Walk West along Row 19 to (2, 19) (bypass rock at (4, 19) via Row 18).
     6. Walk North along X=2 to Y=4.
     7. Walk East to (7, 4) to trigger the sighting.
-- Note: Internal city walls at X=9, 12, 17 and buoys at X=16, 18, 19, 22 block direct access. Row 51 is the primary east-west thoroughfare. Suicune sighting count = 1.
+- Note: Ledge jumps at (6, 34), (12, 50), and (23, 46) are confirmed IMPASSABLE from the north. This route uses verified corridors.
+- Suicune sighting count = 1.
 
 # Roaming Beast Data
 - Raikou: Unknown
@@ -25,11 +26,10 @@
 - WATER: Traversable only while Surfing (requires HM03).
 - BUOY: Impassable water obstacle.
 - WALL: Impassable obstacle.
-- FLOOR_UP_WALL: One-way barrier (Ledge). Blocks movement Up (North) and allows jumping Down (South). Land 2 tiles away when jumping.
-- LEDGE_HOP_DOWN: One-way jump South. Entering from the side (Left/Right) is blocked.
+- FLOOR_UP_WALL / LEDGE_HOP_DOWN: These specific tiles in Cianwood (6, 34), (12, 50), (23, 46) act as IMPASSABLE walls from the north. Do not attempt to jump them.
 - Interaction: To Surf, face WATER from an adjacent FLOOR tile and press A. Stepping onto FLOOR from WATER automatically ends Surfing.
 
 # Lessons Learned
-- Verify "gaps" in walls and buoy lines using tools like run_code or pathfinders before committing to long detours.
-- Cianwood's internal geography is extremely restrictive; use the coastline for north-south travel.
-- BUOY tiles at X=16 and X=18 create a channel at X=17, but it is blocked at Y=25. X=15 is clear for North/South travel between Y=16 and Y=31.
+- Cianwood's ledges are not standard; manual verification is required. If a jump fails once, do not repeat.
+- Zig-zag buoy lines block the eastern sea. Use internal land corridors (Row 19, Row 30) for horizontal travel.
+- Always reveal 'unseen' tiles manually before planning long routes through them.
