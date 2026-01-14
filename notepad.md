@@ -8,10 +8,10 @@
 - **Current Task:** Restock Supplies.
 - Location: Celadon Dept Store 2F.
 - Action: Buying Max Repels from Clerk at (13,5).
-- Status: Landed in Cinnabar Island (navigation error).
-- Action: Flying to Saffron City (Magnet Train station).
+- Status: Fly Map Open. Cursor at Cinnabar Island.
+- Action: Moving Cursor to Saffron City.
 - Strategy:
-    1. **Transit:** Open Fly Map. Navigate Cinnabar -> Pallet -> Viridian -> Saffron.
+    1. **Navigate:** Up x3 (Pewter) -> Right (Cerulean) -> Down (Saffron).
     2. **Transit:** Take Magnet Train to Goldenrod.
     3. **Hunt:** Loop Route 37/Ecruteak until Raikou/Entei is nearby.
     4. **Encounter:** Use Max Repel, walk in grass. Sleep/Weaken/Catch.
