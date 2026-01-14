@@ -2,7 +2,7 @@
 - **Location:** Viridian City.
 - **Goal:** Return to Johto.
 - **Current Position:** (24, 30).
-- **Action:** Opening Party Menu (Start -> Down -> Down -> A).
+- **Action:** Selecting Fly (A -> A).
 - **Inventory Update:**
   - 19 Super Repels (Active).
   - 16 Ultra Balls (Existing).
