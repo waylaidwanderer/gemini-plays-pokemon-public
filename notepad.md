@@ -19,28 +19,16 @@
 - Item: Ultra Balls (32).
 - Backup: GORP (Snorlax) as a tank. Calcifer (Typhlosion) is risky due to type disadvantage.
 
-# Strategic Plan: The Great Spiral (Refined)
-- Start Turn: 48151.
-- Step 1: Walk to East Coast Surf Point (19, 30). (Done)
-- Step 2: Surf to Outer Channel (X=27) and enter Gap 1 at (26, 10). (Done)
-- Step 3: Navigate Middle Ring to Gap 2 at (22, 16). (Done)
-- Step 4: Navigate to Gap 3 at (19, 14). (In Progress)
-- Route: (22, 16) -> (27, 16) -> (27, 8) -> (19, 8) -> (19, 14).
-- Step 5: Navigate to Landing Point at (16, 13) and land.
-- Step 6: Walk to Sighting Spot at (14, 10).
-- Status: XENON leading, Ultra Balls ready.
+# Strategic Plan: Southern Crossing
+- Observation: The Great Spiral is a dead end. The North Plateau sighting spot (14, 10) is only reachable via the West Beach (X=2).
+- Step 1: Use Super Repel. (In Progress)
+- Step 2: Surf South to (27, 44) and land at (27, 45).
+- Step 3: Walk West along Row 51. This is the only clear corridor to the West Beach.
+- Step 4: Walk North along X=2 to Row 14.
+- Step 5: Walk East to (14, 10) to trigger Suicune.
+- Status: XENON leading, Repel being used.
 
 # Lessons Learned
-- Fly Navigation: Johto Fly menu is a linear list scrolled with Up/Down, not a 2D grid.
-- Exploration: (11, 15) and (11, 14) are dead-end pockets blocked by walls at Row 14/15.
-- Pathing: Cianwood city center is elevated; use the West Beach (X=2) or East Coast Surf for navigation to the North Plateau.
-- Pathing Failure: Attempting to walk from city center to West Beach (X=2) failed due to undetected FLOOR_UP_WALL tiles at Row 34/48.
-- Navigation: The "Beach Express" (X=2) corridor is not reachable from the city center.
-- Turn 48162: At (22, 16). find_path_v4 failed due to medium check on unseen tiles. Fixing tool with robust medium and ledge logic.
-- Turn 48169: At (26, 10). Spiral analysis suggests Center Area (X=14-17) is land-locked or a dead-end at Row 15. North Plateau (Row 10) is only reachable from West Beach (X=2).
-- New Plan: Northern Bypass.
-- Step 1: Surf East to Outer Channel (X=27), then North to Row 0.
-- Step 2: Surf West along Row 0 to X=2.
-- Step 3: Surf South to Row 10, land at (6, 10) or (2, 10).
-- Step 4: Reach (14, 10) for Suicune sighting.
-- Status: XENON leading, Repel ready.
+- Pathing: The city center is a plateau, but Row 51 is a low-level corridor that connects the east and west coasts.
+- Hallucination Correction: (11, 50) and (10, 50) are NOT blocked; they are FLOOR tiles that allow passage from the city center to Row 51.
+- Turn 48170: At (26, 10). Starting Southern Crossing trek.
