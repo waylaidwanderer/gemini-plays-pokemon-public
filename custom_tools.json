@@ -15,7 +15,7 @@
         "sequence"
       ]
     },
-    "python_script": "\nimport json\nimport sys\n\ndef main():\n    try:\n        raw_input = sys.stdin.read()\n        if not raw_input:\n            print(json.dumps([]))\n            return\n        input_data = json.loads(raw_input)\n        sequence = input_data.get('sequence', [])\n        if not isinstance(sequence, list):\n            sequence = []\n        print(json.dumps(sequence))\n    except Exception as e:\n        print(json.dumps([]))\n\nif __name__ == \"__main__\":\n    main()\n",
+    "python_script": "\nimport json\nimport sys\n\ndef main():\n    try:\n        input_data = json.load(sys.stdin)\n        sequence = input_data.get('sequence', [])\n        if isinstance(sequence, list):\n            print(json.dumps(sequence))\n        else:\n            print(json.dumps([]))\n    except Exception:\n        print(json.dumps([]))\n\nif __name__ == \"__main__\":\n    main()\n",
     "history": [
       {
         "commit_message": "Initial version",
@@ -36,6 +36,11 @@
         "commit_message": "Improving input handling and ensuring valid JSON output for menu navigation.",
         "timestamp": "2026-01-14T05:19:11.931Z",
         "action_counter": 47094
+      },
+      {
+        "commit_message": "Simplifying tool to use standard json.load and ensuring valid button sequence output.",
+        "timestamp": "2026-01-14T05:43:19.115Z",
+        "action_counter": 47143
       }
     ]
   },
@@ -162,12 +167,17 @@
         "region"
       ]
     },
-    "python_script": "\nimport json\nimport sys\n\ndef main():\n    try:\n        raw_input = sys.stdin.read()\n        if not raw_input:\n            print(json.dumps([]))\n            return\n        input_data = json.loads(raw_input)\n        current = input_data.get('current_city')\n        target = input_data.get('target_city')\n        region = input_data.get('region', 'Kanto')\n        \n        if region == 'Johto':\n            cities = [\"New Bark Town\", \"Cherrygrove City\", \"Violet City\", \"Azalea Town\", \"Goldenrod City\", \"Ecruteak City\", \"Olivine City\", \"Cianwood City\", \"Mahogany Town\", \"Lake of Rage\", \"Blackthorn City\", \"Silver Cave\"]\n        else:\n            cities = [\"Pallet Town\", \"Viridian City\", \"Pewter City\", \"Cerulean City\", \"Vermilion City\", \"Lavender Town\", \"Celadon City\", \"Saffron City\", \"Fuchsia City\", \"Cinnabar Island\", \"Indigo Plateau\"]\n            \n        if current not in cities or target not in cities:\n            print(json.dumps([]))\n            return\n            \n        curr_idx = cities.index(current)\n        target_idx = cities.index(target)\n        \n        diff = target_idx - curr_idx\n        buttons = []\n        if diff > 0:\n            buttons = [\"Down\"] * diff\n        elif diff < 0:\n            buttons = [\"Up\"] * abs(diff)\n            \n        buttons.append(\"A\")\n        buttons.append(\"sleep 500\")\n        buttons.append(\"A\")\n        \n        print(json.dumps(buttons))\n    except Exception as e:\n        print(json.dumps([]))\n\nif __name__ == \"__main__\":\n    main()\n",
+    "python_script": "\nimport json\nimport sys\n\ndef main():\n    try:\n        input_data = json.load(sys.stdin)\n        current = input_data.get('current_city')\n        target = input_data.get('target_city')\n        region = input_data.get('region', 'Kanto')\n        \n        if region == 'Johto':\n            cities = [\"New Bark Town\", \"Cherrygrove City\", \"Violet City\", \"Azalea Town\", \"Goldenrod City\", \"Ecruteak City\", \"Olivine City\", \"Cianwood City\", \"Mahogany Town\", \"Lake of Rage\", \"Blackthorn City\", \"Silver Cave\"]\n        else:\n            cities = [\"Pallet Town\", \"Viridian City\", \"Pewter City\", \"Cerulean City\", \"Vermilion City\", \"Lavender Town\", \"Celadon City\", \"Saffron City\", \"Fuchsia City\", \"Cinnabar Island\", \"Indigo Plateau\"]\n            \n        if current not in cities or target not in cities:\n            print(json.dumps([]))\n            return\n            \n        curr_idx = cities.index(current)\n        target_idx = cities.index(target)\n        \n        diff = target_idx - curr_idx\n        buttons = []\n        if diff > 0:\n            buttons = [\"Down\"] * diff\n        elif diff < 0:\n            buttons = [\"Up\"] * abs(diff)\n            \n        buttons.append(\"A\")\n        buttons.append(\"sleep 500\")\n        buttons.append(\"A\")\n        \n        print(json.dumps(buttons))\n    except Exception:\n        print(json.dumps([]))\n\nif __name__ == \"__main__\":\n    main()\n",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2026-01-14T05:41:40.913Z",
         "action_counter": 47141
+      },
+      {
+        "commit_message": "Simplifying tool to use standard json.load and ensuring correct city list for Kanto.",
+        "timestamp": "2026-01-14T05:43:19.116Z",
+        "action_counter": 47143
       }
     ]
   }
