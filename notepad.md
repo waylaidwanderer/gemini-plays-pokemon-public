@@ -1,8 +1,8 @@
 # Mechanics & State
-- **Location:** Goldenrod Dept Store Elevator.
+- **Location:** Goldenrod Dept Store 1F.
 - **Goal:** Go to Celadon (Kanto).
-- **Current Position:** (1, 3).
-- **Action:** Using Elevator to 1F -> Exit -> Magnet Train.
+- **Current Position:** (2, 1) - Just exited Elevator.
+- **Action:** Exiting building -> Magnet Train Station.
 - **Inventory Check:**
   - Goldenrod had no Super Repels.
 - **Shopping List:**
@@ -11,14 +11,14 @@
 - **Money:** ¥12294.
 
 # Travel Plan
-1. Elevator to 1F.
-2. Exit Dept Store.
-3. Magnet Train to Saffron.
+1. Exit Dept Store (Current).
+2. Go to Magnet Train Station (Goldenrod).
+3. Train to Saffron City.
 4. Go to Celadon Dept Store.
 
 # Current Task: Roamer Hunt
 - **Status:** Transit to Kanto.
-- **Next Step:** Select 1F in Elevator.
+- **Next Step:** Walk to Exit (7, 7).
 
 # Progress
 - **Badges:** 16/16.
