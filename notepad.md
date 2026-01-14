@@ -23,7 +23,7 @@
 - Sighting 1: Burned Tower (DONE)
 - Sighting 2: Cianwood City (In Progress)
 - Battle Strategy: Use XENON (Haunter) to inflict Hypnosis. Switch to a lower-level Pokemon if needed to chip HP, or use Night Shade for fixed damage.
-- Current Status: Stagnated for 70 turns trying to find a land path. Switching to full manual exploration of the eastern water channel.
+- Current Status: Solution discovered! Southern detour via ledge at (23, 46) to reach Row 51, then west path (X=2) to north beach.
 
 # Suicune Quest - Movement Test (Turn 47526)
 - Hypothesis: FLOOR_UP_WALL tiles (like at (6, 46)) can be entered from the NORTH (moving SOUTH). This allows a southern detour to reach the west path (X=2).
