@@ -9,32 +9,25 @@
 - WALL: Impassable obstacle.
 - HEADBUTT_TREE: Special tree for Headbutt.
 - DOOR: Warp point.
-- FLOOR_UP_WALL: Ledge face. Impassable from all directions.
+- FLOOR_UP_WALL: Ledge face. Impassable from all directions. (Critical for shortcut evaluation).
 - LEDGE_HOP_DOWN: One-way jump (North to South).
 
 # Suicune Capture Strategy
-- Start Turn: 47680
 - Lead: XENON (Haunter, Lv44).
 - Move 1: Hypnosis (Sleep).
 - Move 2: Night Shade (44 dmg). Suicune has ~120 HP. Use twice for Red health.
 - Item: Ultra Balls (32).
-- Note: Suicune is Water type. Calcifer (Fire) is vulnerable. GORP (Snorlax) is a good tank.
 
 # Strategic Plans: Locate Suicune
-## The 'Beach Shortcut'
-- Hypothesis: The northern plateau (Suicune at 7, 4) is reachable by walking North along the West beach at X=2.
-- Route: 
-  1. Navigate to the southern corridor (Y >= 48).
-  2. Walk West through gaps in the internal walls to reach the beach at X=2.
-  3. Walk North along the sand (X=2) to Y=4.
-- Status: Testing. Turn Limit: 48150.
-
-## The Great Spiral (Backup Plan)
-- Entrance: (27, 44).
-- Route: Lane 1 (N) -> Lane 2 (S) -> Lane 3 (S) -> Lane 4 (N) -> Lane 5 (N) -> Land at (14, 10).
-- Requirements: Surf, Super Repel.
+- Current Turn: 48094. Shortcut Turn Limit: 48150.
+- Goal: Reach (7, 4) on north plateau.
+- Primary Route: 'Beach Shortcut' (X=2).
+  - Step 1: Reach West Beach at (2, 51) via southern city corridor.
+  - Step 2: Walk North along X=2.
+  - Verification: Check for blockage at Y=10 (Seen FLOOR_UP_WALL tiles).
+- Backup Route: 'Great Spiral' buoy maze via (27, 30).
 
 # Lessons Learned
-- Fly Navigation: The Johto Fly menu is a linear list scrolled with Up/Down, not a 2D grid.
-- Exploration: (11, 15) and (11, 14) are confirmed dead-end pockets.
-- Navigation: (21, 46) is a solid cliff (FLOOR_UP_WALL), not a jumpable ledge. Use X=18 gap to go South.
+- Fly Navigation: Johto Fly menu is a linear list (Up/Down), not 2D.
+- Exploration: (11, 15) and (11, 14) are confirmed dead-end pockets. Marker 🚫 placed.
+- Navigation: (21, 46) is a solid cliff (FLOOR_UP_WALL), not a jumpable ledge. Marker 📍 placed.
