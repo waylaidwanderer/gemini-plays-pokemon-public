@@ -23,6 +23,7 @@
 - Start Turn: 47680 (Suicune North Beach Quest)
 - Start Time: Wednesday, Jan 14, 2026, 4:00 AM PST
 
-# Progress Log
-- Attempt 1-20: Navigated buoy loop and east side. All blocked or dead ends. Fumbled menus.
-- Attempt 21 (Turn 47786): Flying to Cianwood (23, 44) to start the Western Land Corridor route. Target: (7, 4).
+# Strategy Lessons
+- Buoy Maze: The buoy spiral is a trap designed to block access from the east. The landing spot (14, 10) is only reachable via the western channel or a very specific path through the inner buoys.
+- Land Route Efficiency: When water navigation is complex, look for land-based corridors (like X=2) that bypass the obstacles.
+- Menu Discipline: Slow down during menu navigation to avoid entering Options or Pokemon stats accidentally. Verify the cursor position before pressing A.
