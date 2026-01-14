@@ -1,4 +1,5 @@
 # Tile Mechanics
+- **COUNTER:** impassable (blocks movement).
 - **TALL_GRASS:** traversable, chance of wild encounter.
 - **HEADBUTT_TREE:** solid (collision), chance of encounter if Headbutt is used.
 - **LEDGE_HOP_DOWN:** one-way traversable (down only).
