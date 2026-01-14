@@ -22,35 +22,15 @@
 - (11, 14): Dead End Pocket in Cianwood. Wall at (11, 13) and (12, 14) blocks access to the north plateau.
 - (11, 15): Gap in the city wall (Y=15) in Cianwood. Accesses the beach area but not the plateau. Verified in Turn 47337.
 
-- Status: At (25, 5) in Cherrygrove; Fly map open. Executing chunked navigation (7 taps = 1 unit).
-- Failed Fly attempts: 58 (Reason: Used tile-based coordinate math; 14 Lefts only reached Cherrygrove).
-- Progress: 0/98 Lefts. Sending 25 taps this turn.
-- Timestamp: Turn 48027. Quest started Turn 47680.
-
-# Tile Mechanics (Global)
-- FLOOR: Standard walkable ground. Verified at (25, 5) and (29, 4) in Cherrygrove.
-- WATER: Traversable only via Surf.
-- BUOY: Impassable water obstacle.
-- WALL: Impassable obstacle.
-- HEADBUTT_TREE: Special tree that can be interacted with using Headbutt.
-- DOOR: Warp point to an interior.
-- FLOOR_UP_WALL: Represents a ledge face. Impassable from ALL directions.
-- LEDGE_HOP_DOWN: One-way jump from NORTH to SOUTH.
-- (11, 14): Dead End Pocket in Cianwood. Wall at (11, 13) and (12, 14) blocks access to the north plateau.
-- (11, 15): Gap in the city wall (Y=15) in Cianwood. Accesses the beach area but not the plateau. Verified in Turn 47337.
-
 # Fly Navigation (Grid Step Theory)
-- The Fly map uses a grid system where 1 unit = 7 directional taps.
-- New Bark (14, 10) to Cherrygrove (12, 10) = 2 units West = 14 Left taps.
-- Total required for Cianwood (0, 9): 98 Lefts, 7 Ups (from New Bark).
-- Progress: 0/98 Lefts.
-
-# Quest Strategies
-## Suicune: 'The Great Spiral' (The Only Real Path)
-- Fact: The northern plateau is walled off from the south and west. The buoy maze is the only intended entrance.
-- Shortcut Hypothesis: Suicune (7, 4) reachable via beach at X=2. Gap at Y=33/35 needs re-verification in Cianwood.
-- Route: Fly to Cianwood -> Walk to beach at X=2 -> Walk North to Suicune at (7, 4).
-- Preparation: Lead with XENON (Haunter). Use SUPER REPEL.
+- Map: Town Map (Fly).
+- Rule: 7 directional taps = 1 coordinate unit.
+- Evidence: 14 taps moved cursor from New Bark (14, 10) to Cherrygrove (12, 10).
+- Target: Cianwood (0, 9).
+- Math: 14 units West (98 taps), 1 unit North (7 taps).
+- Progress: 1/98 Lefts.
+- Failed Fly attempts: 58.
+- Timestamp: Turn 48028. Quest started Turn 47680.
 
 # Quest Strategies
 ## Suicune: 'The Great Spiral' (The Only Real Path)
@@ -60,9 +40,6 @@
 - Preparation: Lead with XENON (Haunter). Use SUPER REPEL.
 
 # Reflection Turn 48000
-- Deferrals: None.
-- Automation: fly_to_city_stable refined with sleeps.
-- Strategy: Pivoting to City Grid theory for Fly navigation.
-- Lessons: Fly map navigation is city-based, not tile-based.
-- Root Hypothesis Check: Fly to Cianwood is valid; execution failed due to coordinate misunderstanding.
-- Bias Check: Abandoned tool too early; now refining it with correct logic.
+- Strategy: Pivoting to Grid Step theory for Fly navigation.
+- Lessons: Fly map navigation is based on a sub-grid (7 taps/unit), not city-to-city or 1:1 coordinates.
+- Root Hypothesis Check: Fly to Cianwood is valid; execution failed due to coordinate scaling misunderstanding.
