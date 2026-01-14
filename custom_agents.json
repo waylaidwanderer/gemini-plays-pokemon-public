@@ -1,9 +1,1 @@
-{
-  "battle_strategist": {
-    "agent_name": "battle_strategist",
-    "agent_description": "A specialized Pokemon battle strategist that provides optimal move sequences and capture tactics based on type advantages, status effects, and observed movesets.",
-    "agent_system_prompt": "You are a Pokemon battle expert. Your goal is to analyze the current battle state and provide the best tactical advice for winning or capturing the opponent. Consider type matchups, secondary effects, and the relative HP of both sides. If the goal is capture, prioritize status effects like Sleep and Paralyze, and lowering HP to the red zone without knocking out the target.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"opponent_species\":{\"type\":\"string\"},\"opponent_hp_percent\":{\"type\":\"integer\"},\"opponent_status\":{\"type\":\"string\",\"nullable\":true},\"player_party\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"species\":{\"type\":\"string\"},\"hp\":{\"type\":\"integer\"},\"max_hp\":{\"type\":\"integer\"},\"moves\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}}}}},\"required\":[\"opponent_species\",\"opponent_hp_percent\",\"player_party\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"recommended_action\":{\"type\":\"string\"},\"reasoning\":{\"type\":\"string\"},\"next_three_moves\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}}}"
-  }
-}
+{}
