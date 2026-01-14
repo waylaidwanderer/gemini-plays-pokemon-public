@@ -2,11 +2,11 @@
 - Start Turn: 46650
 - Objective: Trigger sighting in Cianwood City at the northern shore.
 - Strategy: The Waterway Bypass
-    1. Walk to the East Coast Surf Point at (19, 30).
-    2. Surf North to (19, 11).
-    3. Surf West to (17, 11) and land at (16, 11).
-    4. Walk West along Row 11 to (7, 11).
-    5. Walk North to (7, 4) to trigger the sighting.
+    1. Surf at (19, 30).
+    2. Surf North to Y=21, then East to X=23.
+    3. Surf North along X=23 to Y=11 (bypasses Y=15 buoy line).
+    4. Surf West to (17, 11) and land at (16, 11).
+    5. Walk West along Row 11 to (7, 11), then North to (7, 4).
 - Note: Land routes are heavily blocked by ledges and walls. The waterway is the only confirmed efficient path to the northern shore. Suicune sighting count = 1.
 
 # Roaming Beast Data
