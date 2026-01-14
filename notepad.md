@@ -20,19 +20,12 @@
 
 # Suicune Quest
 - Start Turn (Cianwood Re-attempt): 47450
-- Sighting 1: Burned Tower (DONE)
-- Sighting 2: Cianwood City (In Progress)
-- Battle Strategy: Use XENON (Haunter) to inflict Hypnosis. Switch to a lower-level Pokemon if needed to chip HP, or use Night Shade for fixed damage.
-- Current Status: Optimized route found! Land at (19, 30), walk north to Row 19, cross west to X=2 at Row 20, then sprint north to (7, 4).
+- Status: Sighting 2 (Cianwood North Beach) in progress.
+- Strategy: Use land route via (11, 15) gap. Water route is likely blocked by buoy walls.
+- Route: Land at (19, 30) -> Walk to (12, 30) -> Walk North to (12, 16) -> West to (11, 16) -> North through (11, 15) -> North Beach (7, 4).
 
-# Suicune Quest - Movement Test (Turn 47526)
-- Hypothesis: FLOOR_UP_WALL tiles (like at (6, 46)) can be entered from the NORTH (moving SOUTH). This allows a southern detour to reach the west path (X=2).
-- Test: Navigate to (6, 45) and attempt to move DOWN to (6, 46).
-- Rationale: The northern part of the island is blocked by a wall at Row 15. The west path (X=2) is the only land route to the north beach.
-
-# Water Route Discovery (Turn 47531)
-- Buoy Wall Gaps:
-    - Row 15: Gap at X=23.
-    - Row 9: Gap at X=21 and X=27.
-- Strategy: Surf from (21, 23) -> (23, 23) -> (23, 15) -> (21, 15) -> (21, 9) -> (7, 9) -> (7, 4).
-- Advantage: Bypasses all land walls and one-way ledges.
+# Lessons Learned
+- Fly to Cianwood lands at (23, 44) (Poke Center).
+- Eastern water channel is blocked by buoys at Row 15 and Row 9 with no confirmed path.
+- (11, 15) is a critical land gap for reaching the north of the island.
+- FLOOR_UP_WALL: Blocks NORTHWARD movement. Southward entry test PENDING.
