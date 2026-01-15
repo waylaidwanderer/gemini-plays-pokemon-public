@@ -12,17 +12,19 @@
 ## Strategy: Outer Sea Surf Bypass
 Reach the northern plateau (14, 10) by Surfing north in the Outer Sea (X=24) to bypass the Row 15 land ledge.
 
-## Execution Plan
-1. Surf into the Outer Sea at (24, 32). <- CURRENT TASK
-2. Navigate North to Row 15 and pass through the buoy gap at (23, 15).
-3. Navigate West along Row 11-14 to the landing point at (16, 12).
-4. Walk to (14, 10) to trigger Suicune sighting.
+## Execution Plan (Route: Staggered Ledge Descent)
+1. Swim South to (24, 45) and land at (23, 45). <- CURRENT TASK
+2. Walk West to (18, 45) and South through Row 46 gap at (18, 46).
+3. Walk West to (12, 47) and South through Row 48 gap at (12, 48).
+4. Walk West to (10, 49) and South through Row 50 gap at (10, 50).
+5. Walk West to (2, 51) and North along Western Corridor (X=2) to Row 12.
+6. Walk East to (14, 12) and North to (14, 10).
 
 ## Lessons Learned
-- Land paths (X=4, X=6, X=8, X=12) are all blocked by ledges or walls before reaching the plateau.
-- Row 15 ledge blocks all central/eastern access to the plateau.
-- Row 51 is the only confirmed "bottom" thoroughfare.
-- Ledge Gaps: (12, 34) is a rare gap allowing South movement past Row 34.
+- Row 15 ledge blocks central/eastern access to the plateau.
+- Row 34, 46, 48, 50 are FLOOR_UP_WALL ledges (North-only traversal).
+- Gaps in ledges: (12, 34), (18, 46), (12, 48), (10, 50).
+- Western Corridor (X=0-2) is the only confirmed land path to Row 12.
 
 ## Progress Summary
-- Turn 49556: At (23, 32). Surf text on screen. Clearing text to move to (24, 32).
+- Turn 49557: At (24, 32). Clearing Surf text. Moving to landing at (23, 45).
