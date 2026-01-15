@@ -8,11 +8,13 @@
 - Start Time: 3:29 PM
 
 ## Strategy: The Row 22 Bypass
-1. Navigate North along X=12 to (12, 22). (In Progress)
-2. Navigate West through the gap at (3, 22) to the Western Corridor (X=0-2).
-3. Navigate North through the corridor to (2, 12).
-4. Navigate East along Row 12 to (14, 12).
-5. Navigate North to (14, 10) to trigger Suicune.
+1. Navigate North along X=12 to (12, 28). (Completed)
+2. Use Surf at (12, 28) to enter the central pool. (Completed)
+3. Navigate North via sea to (12, 22). (In Progress)
+4. Navigate West through the gap at (3, 22) to the Western Corridor (X=0-2).
+5. Navigate North through the corridor to (2, 12).
+6. Navigate East along Row 12 to (14, 12).
+7. Navigate North to (14, 10) to trigger Suicune.
 
 ## Hypotheses
 - H1: The Western Corridor (X=0-2) is a continuous path from Row 26 to Row 14. (Partially verified by Mental Map).
