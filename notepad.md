@@ -14,9 +14,14 @@
 - **Location:** Route 38 (West of Ecruteak).
 - **Hunt Start:** Turn ~40000.
 - **Current Loop:** 17.
-- **Action:** Continue Scanning Grass (Manual - Round 5).
-- **Hunt Progress:** Phase 2 Loop 17/50. Ran from Magnemite. Tool failed. Manual scan continues.
-- **Beast Status:** **POSITIVE** (Route 38). Assumed present.
+- **Action:** Verify Beast Location (Post-Battle).
+- **Hunt Progress:** Phase 2 Loop 17/50. Ran from Magnemite. Checking Map to confirm Beast didn't flee/roam.
+- **Beast Status:** **POSITIVE** (Route 38) - pending verification.
+- **Hypothesis:** Running from wild battles does NOT cause roamers to move.
+- **Plan:**
+    1. Check Map.
+    2. If on Rt 38 -> Resume Scan.
+    3. If moved -> Reset.
 - **Location:** Trapped in grass strip (Col 8-9).
 - **Plan:**
     1. Continue Scanning Grass.
