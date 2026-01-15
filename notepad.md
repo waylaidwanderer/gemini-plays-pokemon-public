@@ -41,3 +41,4 @@
 - Turn 40565: Map check negative. Beasts at Rt 42/44/32.
 - Turn 40566: Re-entering Gatehouse (Right x2) to shuffle.
 - Turn 40567: Inside Gatehouse. Exiting back to Route 38 (Left x2) to complete shuffle.
+- Turn 40568: Back on Route 38. Opening Start Menu to check map.
