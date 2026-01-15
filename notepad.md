@@ -29,4 +29,4 @@
 - **Items:** Max Repel x30.
 - **Key Items:** Pass (Magnet Train).
 - **Interruption:** Turn 39741 - Phone call from Gaven. Resolved.
-- **Current Turn:** 39751. Loop count: ~10. Shuffling.
+- **Current Turn:** 39752. Loop count: ~11. Checking map on Rt 37.
