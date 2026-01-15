@@ -8,14 +8,14 @@
 - **Current Task:** Restock Supplies.
 - Location: Celadon Dept Store 2F.
 - Action: Buying Max Repels from Clerk at (13,5).
-- Status: In Mistral's Menu (Cursor on CANCEL).
-- Action: Select FLY (Up x5 -> A) -> Wait for Map.
+- Status: In Lavender Town (Fly Map Open).
+- Action: Close Map -> Walk West to Saffron.
 - Strategy:
-    1. **Open Map:** Up x5 (Force cursor to top/FLY) -> A.
-    2. **Verify:** Check "Currently selected destination" in next turn.
-    3. **Navigate:** Plan path from confirmed location to Saffron.
-    4. **Transit:** Take Magnet Train from Saffron to Goldenrod.
-    5. **Hunt:** Loop Route 37/Ecruteak until Raikou/Entei is nearby.
+    1. **Cancel:** Press B x3 to close menus.
+    2. **Transit:** Walk West to Route 8 -> Saffron City.
+    3. **Transit:** Take Magnet Train from Saffron to Goldenrod.
+    4. **Hunt:** Loop Route 37/Ecruteak until Raikou/Entei is nearby.
+    5. **Encounter:** Use Max Repel, walk in grass. Sleep/Weaken/Catch.
     2. **Buy Repels:** Locate clerk on 2F.
     3. **Transit:** Exit to Celadon City/Route 7.
     3. **Prepare Team:** Lead with Gyarados (Lv 37) + Max Repel.
