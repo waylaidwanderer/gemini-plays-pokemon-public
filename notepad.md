@@ -1,22 +1,19 @@
+# Strategy: Capture Suicune (Started Turn 48227)
+- Goal: Reach (14, 10) in Cianwood City to trigger sighting.
+- Approach: The Row 5 Edge Transition
+- Plan:
+  1. Use Super Repel. [DONE]
+  2. Navigate to (0, 5) on Route 41. [IN PROGRESS]
+  3. Transition to Cianwood City (29, 5).
+  4. Navigate to Suicune's sighting spot at (14, 10) in Cianwood.
+- Status: At (20, 6) on Route 41 surfing.
+- Reasoning: Row 5 on Route 41 is a clear water highway that bypasses all buoy mazes and leads directly to the Cianwood City transition at the western edge.
+
 # Blocked Routes (Verified)
 - Central City: Vertical wall at X=9 (Rows 34-37). Cliff at Row 30.
 - Plateau Access: Row 29 is a clear East-West path from X=19 to X=2, bypassing the Row 30 cliff and city walls.
 - Southern Corridor: Row 47/48 provides a path from the east side (X=19) to the west beach (X=2), bypassing the central maze.
 - Row 50 Cliff: Impassable wall from X=12 to X=19.
-
-# Strategy: Capture Suicune (Started Turn 48227)
-- Goal: Reach (14, 10) to trigger sighting.
-- Approach: The Great Northern Buoy Loop (Verified)
-- Plan:
-  1. Use Super Repel. [DONE]
-  2. Navigate to (19, 30) and Surf. [DONE]
-  3. Navigate to (27, 29) to reach the eastern channel. [IN PROGRESS]
-  4. Navigate North to Row 6.
-  5. Navigate West through the X=22 gap at (22, 6) to (21, 6).
-  6. Navigate South to Row 11, then West to land at (16, 11).
-  7. Walk to (14, 10).
-- Status: At (27, 6) on Route 41 surfing.
-- Reasoning: The buoy walls have confirmed gaps between Row 6 and Row 9. I'm navigating around a 2x2 wall block at (24, 6) to reach the inner channel. Once at (20, 6), I'll head towards the landing spot for the northern plateau.
 
 # General Lessons
 - City Layouts: In Johto cities like Cianwood, horizontal paths (Rows) often bypass vertical blockades (Walls) even if they look like a maze. Always check the full length of a Row for gaps.
