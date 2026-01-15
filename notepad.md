@@ -29,4 +29,4 @@
 - **Money:** ¥15644.
 - **Items:** Max Repel x30.
 - **Key Items:** Pass (Magnet Train).
-- **Status:** In Ecruteak (Turn 39879). Returning to Rt 37 to shuffle.
+- **Status:** On Route 37 (Turn 39880). Checking Map.
