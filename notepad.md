@@ -13,10 +13,9 @@
 # Goal Tracking: Capture Suicune
 - Start Turn: 48227
 - Start Time: Wednesday, 3:37 PM (Turn 48250)
-- Strategy: The Great Southern Landing (Turn 48315).
-- Step 1: Use Super Repel. (Complete: Turn 48306)
-- Step 2: Surf to (22, 30) and land at (19, 30). (Complete: Turn 48317)
-- Step 3: Talk to Pokefan at (17, 33), then walk to (12, 30) -> (12, 29) -> (2, 29). (In Progress)
-- Step 4: Walk North along Column 2 to (2, 12).
-- Step 5: Walk East along Row 12 to (14, 12) and North to (14, 10).
-- Status: At Cianwood (19, 30). On land. Repel Active (~190 steps).
+- Strategy: The Route 41 Deep Sea Bypass (Turn 48328).
+- Step 1: Walk to (19, 30) and Surf East to enter Route 41 at (29, 30) -> (0, 30). (In Progress)
+- Step 2: Surf South on Route 41 to Row 51.
+- Step 3: Re-enter Cianwood at (29, 51) -> (0, 51) and walk West to Column 2.
+- Step 4: Walk North along Column 2 to Row 12 and East to (14, 10).
+- Status: At Cianwood (12, 30). On land. Repel Active (~170 steps).
