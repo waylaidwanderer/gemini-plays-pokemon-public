@@ -20,12 +20,13 @@
 - LEDGE_HOP_DOWN: One-way jump (North to South).
 
 # Strategy: Capture Suicune (Pursuit started Turn 48227)
-- Current Approach: West Beach Trek (Turn 48602)
-- Step 1: Navigate to (22, 16) via Gap 6 (23, 15) and Gap 2 (22, 16). [IN PROGRESS]
-- Step 2: Navigate to (13, 16) via Gap 5 (16, 20) and land. [NOT STARTED]
-- Step 3: Walk to (2, 21) via Row 18 and the ledge at (4, 20). [NOT STARTED]
-- Step 4: Walk to (14, 10) via the West Beach (X=2) and Row 14. [NOT STARTED]
-- Note: West Beach walking path is reachable without Rock Smash by using Row 18, Row 20, and Row 14 to bypass rocks.
+- Current Approach: The West Beach Trek (Turn 48605)
+- Step 1: Return to land at (19, 30). [IN PROGRESS]
+- Step 2: Walk to the southern corridor at (20, 51). [NOT STARTED]
+- Step 3: Walk West through the ledge gap at (10, 50) to reach the West Beach (X=2). [NOT STARTED]
+- Step 4: Walk North along the West Beach to (2, 10). [NOT STARTED]
+- Step 5: Walk East across the plateau to (14, 10) to trigger the Suicune sighting. [NOT STARTED]
+- Note: The West Beach (X=0, 1, 2) is a clear corridor that bypasses all breakable rocks and the buoy maze. Access is via Row 50/51.
 
 # Area Notes: Cianwood City
 - Photo Studio: (9, 31) | Poke Seer: (5, 17)
