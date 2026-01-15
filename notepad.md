@@ -10,16 +10,17 @@
 5. Route 25
 6. Tin Tower 1F
 
-## Plan: Reach North Plateau (Sea Route)
-- Step 1: Reach (19, 30) and Surf. (Done)
-- Step 2: Surf North through gap at (23, 15). (Done)
-- Step 3: Surf North to Row 8 (bypasses buoy wall ending at Row 9). <- CURRENT TASK
-- Step 4: Surf West to X=19 and South to Row 11.
-- Step 5: Surf West and land at (16, 11) or (15, 11).
-- Step 6: Walk to (14, 10) to trigger Suicune sighting.
+## Plan: Reach North Plateau (Beach Highway)
+- Step 1: Surf South to (24, 32).
+- Step 2: Land at (23, 32). <- CURRENT TASK
+- Step 3: Walk to (5, 35) (Wall Gap) via Row 33 detour:
+  - (23, 32) -> (10, 32) -> (10, 33) -> (6, 33) -> (6, 35) -> (5, 35).
+- Step 4: Walk to (2, 35) (West Beach).
+- Step 5: Walk North along West Beach (X=2) to (2, 10).
+- Step 6: Walk East along Row 10 to (14, 10) to trigger Suicune sighting.
 - Super Repel active: Turn 49046.
-- Buoy Wall: X=22, Row 9-15. Gap at (23, 15).
-- Plateau Landing: (16, 11) is confirmed FLOOR. Check (17, 11) for water.
+- Highway: X=2 (West Beach) is a clear vertical path from Row 35 to Row 10.
+- Gap: (5, 35) is the key westward gap in the cliff line.
 
 # Tile Mechanics
 - FLOOR: Traversable.
