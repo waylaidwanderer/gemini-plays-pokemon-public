@@ -49,5 +49,39 @@
         "action_counter": 49081
       }
     ]
+  },
+  "manhattan_distance": {
+    "description": "Calculates the Manhattan distance between two points. Used to test Python sandbox health.",
+    "input_schema": {
+      "properties": {
+        "x1": {
+          "type": "integer"
+        },
+        "x2": {
+          "type": "integer"
+        },
+        "y1": {
+          "type": "integer"
+        },
+        "y2": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "x1",
+        "y1",
+        "x2",
+        "y2"
+      ],
+      "type": "object"
+    },
+    "python_script": "print(abs(int(input_data['x1']) - int(input_data['x2'])) + abs(int(input_data['y1']) - int(input_data['y2'])))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-15T11:12:43.619Z",
+        "action_counter": 49083
+      }
+    ]
   }
 }
