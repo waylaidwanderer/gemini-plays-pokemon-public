@@ -4,12 +4,12 @@
 Cianwood's buoy walls (X=26, X=22, X=19) must be bypassed using specific gaps:
 1. X=26 Wall Gap: Row 10-14 (Target: (25, 10))
 2. X=22 Wall Gap: Row 16-24 (Target: (21, 16))
-3. X=19 Wall Gap: Row 26 (Target: (18, 26))
+3. X=19 Wall Gap: Row 16-17 (Target: (18, 16))
 
 ### Execution Plan
-1. Surf to (25, 10) via gap at (26, 10).
-2. Surf to (21, 16) via gap at (22, 16). <- CURRENT TASK
-3. Surf to (18, 26) via gap at (19, 26).
+1. Surf to (25, 10) via gap at (26, 10). - DONE
+2. Surf to (21, 16) via gap at (22, 16). - DONE
+3. Surf to (18, 18) via gap at (19, 18). <- CURRENT TASK
 4. Surf North to (18, 16), then West to (13, 16) to land.
 5. Walk to (14, 10) to trigger Suicune sighting.
 
@@ -26,5 +26,5 @@ Cianwood's buoy walls (X=26, X=22, X=19) must be bypassed using specific gaps:
 - Southern Crossing: Blocked by multiple FLOOR_UP_WALL lines.
 
 ## Inventory Check
-- Super Repel: 5 remaining. Last applied turn 49278. (~22 steps remaining per Overwatch).
+- Super Repel: 5 remaining. Last applied turn 49278. (~10 steps remaining per Overwatch).
 - Party: Calcifer (Lv 64) leads. Ready for Eusine.
