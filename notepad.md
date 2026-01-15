@@ -24,3 +24,5 @@
 - **Current Task:** Handling Phone Call (Gaven).
 - **Repel Status:** Active (~220/250 steps).
 - **System Note:** Sandbox unavailable. Movement interrupted by call.
+- Pokedex Status: National Mode. SEEN: 195, OWN: 46.
+- Goal: Check entries #243 (Raikou) and #244 (Entei).
