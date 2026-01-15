@@ -13,15 +13,13 @@
 # Goal Tracking: Capture Suicune
 - Start Turn: 48227
 - Start Time: Wednesday, 3:37 PM (Turn 48250)
-- Strategy: The Great Buoy Loop (Turn #48403).
-- Step 1: Use Super Repel.
-- Step 2: Move East to (27, 16).
-- Step 3: Move North to (27, 10).
-- Step 4: Move West through Gap 1 at (26, 10) to (21, 10).
-- Step 5: Move North to (21, 8).
-- Step 6: Move West to (18, 8).
-- Step 7: Move South to (18, 11).
-- Step 8: Land on the plateau and locate Suicune (hypothesized near 14, 10).
+- Strategy: The West Beach Trek (Turn #48406).
+- Step 1: Use Super Repel (Done).
+- Step 2: Land at (19, 30).
+- Step 3: Walk South to (20, 51), then West to (4, 51).
+- Step 4: Walk North to (4, 50), then West to (2, 50) (West Beach).
+- Step 5: Walk North along the beach to Row 10.
+- Step 6: Walk East to trigger Suicune sighting (hypothesized near 14, 10).
 
 # Custom Tools (Technical Details)
 - find_path_v4: BFS pathfinder for current map. Supports LAND and WATER mediums.
