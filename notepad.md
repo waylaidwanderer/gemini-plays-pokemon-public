@@ -19,15 +19,14 @@
 - FLOOR_UP_WALL: Impassable ledge face. Blocks South movement.
 - LEDGE_HOP_DOWN: One-way jump (North to South).
 
-# Strategy: Reach Suicune (The Buoy Maze Landing)
-- Start Turn: 48227 (Pursuit began), 48536 (Current strategy)
-- Step 1: Surf from (20, 16) South to Row 21.
-- Step 2: West through gap at (19, 21) to (16, 21).
-- Step 3: North through gap at (16, 20) to (16, 17).
-- Step 4: East to X=17, then North to (17, 16).
-- Step 5: West to (14, 16) and land at (13, 16).
-- Step 6: Walk to Suicune sighting spot at (14, 10) via (11, 15).
-- Note: This path bypasses the solid buoy walls at Row 15 and X=19/22 by using the specific gaps at (19, 21) and (16, 20). Verified (13, 16) as a landing spot.
+# Strategy: Reach Suicune (The Central Pool Approach)
+- Start Turn: 48227 (Pursuit began), 48539 (Current strategy)
+- Step 1: Surf at (14, 28) to (14, 27).
+- Step 2: Surf North to (15, 24).
+- Step 3: East to (17, 24) via gap at (16, 24).
+- Step 4: North to Row 11, then West to land at (16, 11).
+- Step 5: Walk to Suicune sighting spot at (14, 10).
+- Note: This path uses the gap at (16, 24) to move from the central pool to the eastern channel, bypassing the buoy walls at Row 15 and Row 25. Verified (16, 11) as a landing spot.
 
 # Area Notes: Cianwood City
 - Photo Studio: (9, 31)
