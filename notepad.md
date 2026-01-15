@@ -1,32 +1,26 @@
 # Suicune Quest (Cianwood)
 - Quest Start: Turn 48900
 
-## Strategy: The Southern Bypass (Row 51)
-To reach the northern plateau at (14, 10), Gem must bypass the city's one-way upward ledges. The confirmed path is to reach the southern corridor at Row 51, walk west to the western corridor (X=2), and then head north.
+## Strategy: The Western Corridor (X=2)
+To reach the northern plateau at (14, 10), Gem must bypass the city's one-way upward ledges. The most efficient route is to reach the western corridor (X=2), which provides a clear path north. Gaps in the city walls at (9, 33) and (5, 35) allow access to this corridor.
 
 ## Execution Plan
-1. Use Super Repel (Done Turn 49487).
-2. Reach Row 51 via (18, 46) and (10, 50) gaps. <- CURRENT TASK
-   - Current Path: (20, 40) -> (20, 45) -> (18, 45) -> (18, 49) -> (12, 49) -> (10, 49) -> (10, 51).
-3. Walk west to (2, 51), then north along X=2 to (2, 12).
-4. Walk east along Row 12 to (14, 12).
-5. Walk north to (14, 10) to trigger Suicune sighting.
+1. Walk to (9, 33) via (21, 33) corridor. <- CURRENT TASK
+2. Walk West through (9, 33) to (8, 33).
+3. Walk to (5, 35) and pass West to (2, 35).
+4. Walk North along X=2 to (2, 12).
+5. Walk East along Row 12 to (14, 12).
+6. Walk North to (14, 10) to trigger Suicune sighting.
 
 ## Verified Tile Mechanics
 - FLOOR_UP_WALL: Blocks DOWN (South) movement. (Verified: Move Down at (12, 49) into (12, 50) failed in Turn 49397).
 - LEDGE_HOP_DOWN: Blocks NORTH movement. (Verified: (10, 15) is impassable from the south).
-- Row 15: (12, 15) to (17, 15) are WALL tiles.
-- Row 14: (11, 14) is a dead-end pocket surrounded by WALLs.
-
-## Hypothesized Gaps (To be tested)
-- Row 46 Gap: (18, 46) and (19, 46) (FLOOR tiles).
-- Row 48 Gap: (12, 48) (FLOOR tile).
-- Row 50 Gap: (10, 50) and (11, 50) (FLOOR tiles).
+- Wall Gaps: (9, 33) and (5, 35) are traversable FLOOR tiles in the city wall lines.
 
 ## Failed Hypotheses
 - Island Hop (13, 16): Dead end alcove at (11, 14).
 - Southern Surf Bypass: Eastern channel ends at Row 45.
-- Terrestrial Center (Row 34): Blocked by upward ledges.
+- Row 15 Wall: (12, 15) to (17, 15) are solid WALL tiles.
 
 ## Progress Summary
 - Badges: 16/16.
