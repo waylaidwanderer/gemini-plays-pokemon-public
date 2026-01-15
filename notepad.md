@@ -11,16 +11,15 @@
 
 # Strategy: Capture Suicune (Started Turn 48227)
 - Goal: Reach (14, 10) to trigger sighting.
-- Approach: The Southern Corridor Trek (Verified Land Route)
+- Approach: The X=4 Ledge Shortcut (Verified Route)
 - Plan:
   1. Select NO to Surf prompt at (12, 28). [DONE]
-  2. Walk South to (12, 49), then West to (10, 49).
-  3. Walk South through the ledge gap at (10, 50) to (10, 51).
-  4. Walk West to the West Beach corridor at (2, 51).
-  5. Walk North along X=2 to Row 12.
-  6. Walk East to (14, 12), then North to (14, 10).
-- Status: At (12, 28), heading South.
-- Reasoning: Row 50/51 contains a confirmed ledge gap at X=10 that provides access to the clear West Beach corridor (X=2), bypassing all city walls and the buoy maze.
+  2. Walk West along Row 28 to (4, 28). [IN PROGRESS]
+  3. Walk Down to (4, 29), then Down to jump the ledge at (4, 30).
+  4. Walk West to (2, 31), then North along X=2 to (2, 10).
+  5. Walk East to (14, 10).
+- Status: At (12, 28), heading West.
+- Reasoning: (4, 30) is a jumpable ledge (⤵️) that provides access to the clear West Beach corridor (X=2), bypassing all city walls and the buoy maze. Row 28 is a confirmed FLOOR corridor to the ledge.
 
 # Area Notes: Cianwood City
 - Photo Studio: (9, 31) | Poke Seer: (5, 17)
