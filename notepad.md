@@ -1,24 +1,29 @@
 # Global Mechanics
 ## Tile Mechanics
-- FLOOR_UP_WALL: Blocks SOUTH movement. Allows NORTH movement.
-- LEDGE_HOP_DOWN: Blocks NORTH movement.
-- BUOY: Water wall. Gaps exist at (19, 21), (23, 15), (27, 9).
+- FLOOR_UP_WALL: Blocks SOUTH movement. Allows NORTH movement. Found at Rows 34, 46, 48, 50.
+- LEDGE_HOP_DOWN: Blocks NORTH movement. Found at (10, 15).
+- WALL: Impassable.
+- ROCK: Smashable rock (acts as WALL).
 
 # Suicune Quest (Cianwood)
 - Quest Start: Turn 48900
 
-## Strategy: Outer Sea Surf Bypass
-The northern plateau (14, 10) is reached by walking to the Outer Sea (X=23), Surfing North to Row 15, and finding a landing point on the northern shore.
+## Strategy: Western Corridor Ascent (Land Route)
+The northern plateau (14, 10) is reached by weaving through wall gaps to the Western Corridor (X=0-2), which bypasses the Row 15 ledge.
 
 ## Execution Plan
-1. Surf into the Outer Sea at (24, 32). (Done)
-2. Navigate North to Row 9 and pass through the buoy gap at (27, 9). <- CURRENT TASK
-3. Navigate West along Row 6-8 to find a landing point on the northern plateau.
-4. Walk to (14, 10) to trigger Suicune sighting.
+1. Land at (23, 32) and move to (12, 33). <- CURRENT TASK
+2. Move Left to (6, 33) via (9, 33) gap.
+3. Move North to (6, 26) and Left to (4, 26) via (5, 26) gap.
+4. Move North to (4, 22) and Left to (2, 22) via (3, 22) gap.
+5. Move North to (2, 12) and East to (14, 12).
+6. Move North to (14, 10) to trigger Suicune.
 
 ## Lessons Learned
-- Land paths are heavily restricted by walls and one-way ledges.
-- The city is divided into vertical strips; crossing between them requires specific gaps (e.g., Row 33 for X=9).
+- Row 15 Ledge (10, 15) blocks North.
+- Plateaus are isolated; access is from X < 3.
+- FLOOR_UP_WALL tiles are one-way (North only).
+- Sea Bypass is longer and landing points are unconfirmed.
 
 ## Progress Summary
-- Turn 49538: Player at (23, 32). Selecting YES to SURF.
+- Turn 49540: Surfing at (24, 32). Clearing text to land.
