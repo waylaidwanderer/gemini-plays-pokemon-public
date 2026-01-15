@@ -1,12 +1,13 @@
-## Strategy: West Beach Highway Route to Suicune
-Use the 'West Beach Highway' (X=0-2) to reach the northern plateau, bypassing the central city blockades.
+## Strategy: Great Sea Bypass to Suicune
+The city is a maze of 'FLOOR_UP_WALL' barriers. I will Surf around the entire island via Route 41 to reach the West Beach.
 
 ### Step-by-Step Execution Plan
-1. Move to (12, 50) via X=12 corridor. <- CURRENT TASK
-2. Move to (2, 50) to enter the West Beach Highway.
-3. Walk north to (2, 11) along the beach.
-4. Cross east to the plateau at (14, 11) via Row 11.
-5. Reach Suicune trigger point at (14, 10).
+1. Walk to the Central Surf Point at (12, 28). <- CURRENT TASK
+2. Apply Super Repel (Bag).
+3. Surf and head East to re-enter Route 41 at (29, 32).
+4. Surf around the island's southern or northern tip to reach the West Shore.
+5. Re-enter Cianwood City from the West and land on the beach.
+6. Walk to (14, 10) to trigger Suicune.
 
 ## Tile Mechanics: Cianwood City
 - FLOOR: Standard traversable ground.
@@ -18,12 +19,13 @@ Use the 'West Beach Highway' (X=0-2) to reach the northern plateau, bypassing th
 - FLOOR_UP_WALL: Impassable from the North. Behaves like a wall when moving Down into it.
 
 ## Failed Hypotheses & Lessons
-- Inner Channel North (X=12-17): Blocked at Row 15 by WALL. Cannot surf north past Row 15.
-- Direct Westward Path (Row 33): Blocked at (5, 33) by WALL.
-- Plateau North Entry (X=11): Blocked at (11, 13) by WALL.
-- X=5 Wall: Gaps found at Row 34-37 and Row 46-51.
-- X=7 Wall: Gaps found at Row 44 and Row 48-51.
-- FLOOR_UP_WALL (Row 46, 48): Impassable from the North. Blocks (6, 45) -> (6, 46).
+- Inner Channel North (X=13-17): Blocked at Row 15 by a solid wall of WALL tiles.
+- City Corridor North: Blocked by recurring 'FLOOR_UP_WALL' barriers at Rows 46, 48, and 50.
+- X=12 Corridor: Blocked at (12, 50) by 'FLOOR_UP_WALL'.
+- X=20 Corridor: Blocked by 'WALL' at (20, 46-49).
+
+## Inventory Check
+- Super Repel: 7 remaining. Last applied turn 49091. (~147 steps used). Re-apply at (12, 28).
 
 ## Battle Strategy: Eusine
 - Lead: Calcifer (Lv 64 Typhlosion).
