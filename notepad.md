@@ -14,7 +14,7 @@
 - **Location:** Route 38 (West of Ecruteak).
 - **Hunt Start:** Turn ~40000.
 - **Current Loop:** 17.
-- **Action:** Switch Lead to Gyarados -> Max Repel -> Scan.
+- **Action:** Use Max Repel -> Scan.
 - **Hunt Progress:** Phase 2 Loop 17/50.
 - **Beast Status:** **POSITIVE** (Route 38). Assumed present.
 - **CRITICAL FIX:** Max Repel failed because Lugia (Lv 60) was leading. Must switch to Gyarados (Lv 37) to allow Lv 40 Beasts to spawn while blocking Lv 16 trash.
