@@ -14,9 +14,14 @@
 - **Location:** Route 38 (West of Ecruteak).
 - **Hunt Start:** Turn ~40000.
 - **Current Loop:** 17.
-- **Action:** Hunt Loop: Check Map on Route 38 (Post-Exit).
-- **Hunt Progress:** Phase 2 Loop 17/50. Exited Gatehouse. Checking for movement.
-- **Beast Status:** Spotted on Map (in Gatehouse). Likely moved upon exit.
+- **Action:** Prepare for Encounter (Switch to Lugia, Repel).
+- **Hunt Progress:** Phase 2 Loop 17/50. Beast Confirmed on Rt 38!
+- **Beast Status:** **POSITIVE** (Route 38).
+- **Plan:**
+    1. Close Gear.
+    2. Switch Lugia to Lead (Speed > Roamer).
+    3. Use Max Repel.
+    4. Hunt in Grass.
 - **Hunt Strategy:**
 
 # Hunt Strategy
