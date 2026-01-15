@@ -23,7 +23,8 @@
 - H3: Row 12 is walkable from X=8 to X=14.
 
 # Progress Notes
-- Reached (9, 44) on Turn 49779.
-- Note: Out of Repels. No wild encounters on land in city.
-- Failed Strategy: Southern Loop (Turn 49774-49776) - Too many ledges and dead ends.
+- Reached (12, 27) on Turn 49787.
+- Note: SUPER REPEL is active (confirmed by overwatch).
+- Note: No wild encounters on land in city.
+- Failed Strategy: Southern Loop - Too many ledges and dead ends.
 - Failed Strategy: X=5 Gap at Row 35 - Unreachable from the North due to FLOOR_UP_WALL at Row 34.
