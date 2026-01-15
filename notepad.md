@@ -7,13 +7,15 @@
 # Suicune Quest (Cianwood)
 ## Strategy: Great Southern Loop (Refined)
 Reach (14, 10) by bypassing all internal obstacles via the far southern and western corridors.
-1. Move East to (10, 33).
-2. Move South along X=10 to (10, 51) (passing through ledge gap at 10, 50).
-3. Move West along Row 51 to (2, 51).
-4. Move North along X=2 to (2, 14).
-5. Move East to (5, 14) and North to (5, 12).
-6. Move East along Row 12 to (14, 12).
-7. Move North to (14, 10) to trigger Suicune.
+1. Move East to (12, 33).
+2. Move South along X=12 to (12, 44).
+3. Move West along Row 44 to (10, 44).
+4. Move South along X=10 to (10, 51) (passing through ledge gap at 10, 50).
+5. Move West along Row 51 to (2, 51).
+6. Move North along X=2 to (2, 14).
+7. Move East to (5, 14) and North to (5, 12).
+8. Move East along Row 12 to (14, 12).
+9. Move North to (14, 10).
 
 # Progress Notes
 - Verified: (10, 50) is a clear gap in the southern ledge.
