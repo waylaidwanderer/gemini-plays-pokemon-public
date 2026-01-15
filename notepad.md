@@ -4,18 +4,17 @@
 - Vertical Walls: X=3, 5, 7, 9, 11, 17, 20.
 
 # Suicune Quest (Cianwood)
-## Strategy: The X=2 Highway (Final)
-Reach (14, 10) by navigating to the far western corridor to bypass all ledges.
-1. Use SUPER REPEL and Surf West to (17, 26) (Gap in X=18 wall).
-2. Surf North to (17, 24) and West to (10, 24).
-3. Land at (9, 24).
-4. Move West to (4, 24) and North to (4, 22).
-5. Move West through gap at (3, 22) to (2, 22).
-6. Move North along X=2 corridor to (2, 12) (Bypasses Row 15 ledge).
-7. Move East along Row 12 to (14, 12) and North to (14, 10).
+## Strategy: Sea Route Bypass (Final)
+Reach (14, 10) by surfing around the city via the eastern buoy gaps.
+1. Use SUPER REPEL and Surf East to X=27 corridor.
+2. Surf North along X=27 to Row 8 (Gap in Row 9 buoy wall at 27, 9).
+3. Surf West along Row 8 to X=19 (Above the plateau).
+4. Surf South to Row 11 and land at (16, 11).
+5. Move North over ledge at (16, 10) to trigger Suicune at (14, 10).
 
 # Progress Notes
-- Verified: X=2 corridor is the only path through the Row 15 wall (X=3-17).
-- Verified: Row 13 wall (X=9-12) blocks central land access to the plateau.
-- SUPER REPEL is being used to bypass encounters.
-- Stagnation Check: Land maze confirmed as the primary obstacle; X=2 Highway is the solution.
+- Blocked: All land routes (X=2, 4, 6, 10, 12) are blocked by SOUTH-blocking ledges (FLOOR_UP_WALL).
+- Verified: (27, 9) is a gap in the buoy walls.
+- Verified: (16, 11) is a landing point for the plateau.
+- SUPER REPEL is active.
+- Stagnation Check: Abandoning land-based routes; Sea Route is the final priority.
