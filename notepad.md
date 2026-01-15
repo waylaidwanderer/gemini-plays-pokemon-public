@@ -1,17 +1,21 @@
 # Tile Mechanics
-- FLOOR_UP_WALL: Blocks SOUTH. Allows NORTH. Verified at (12, 50), (6, 34).
+- FLOOR_UP_WALL: Blocks SOUTH. Allows NORTH. (Rows 34, 46, 48, 50).
 - LEDGE_HOP_DOWN: Blocks NORTH. (Row 15).
-- Vertical Walls: X=3, 5, 9, 11, 17.
+- Vertical Walls: X=3, 5, 9, 11, 17, 20.
 
 # Suicune Quest (Cianwood)
-## Strategy: Western Corridor Ascent
-Reach the northern plateau (14, 10) via the Western Corridor (X=0-2) to bypass the Row 15 ledge.
-1. Use the Row 33 gap (9, 33) to reach the central corridor (X=6).
-2. Move North to Row 28 and use the gap (5, 28) to reach the middle strip (X=4).
-3. Move North to Row 22 (around Rock at 4, 25) and use the gap (3, 22) to reach the Western Corridor (X=2).
-4. Walk North along X=2 to Row 12.
+## Strategy: Great Southern Loop (Row 51)
+Reach (14, 10) by bypassing all land ledges via the southern thoroughfare (Row 51).
+1. Clear phone call and move to (12, 33) via Row 32/33.
+2. Move South through ledge gaps:
+   - Row 34 gap at (12, 34).
+   - Row 46 gap at (18, 46).
+   - Row 48 gap at (12, 48).
+   - Row 50 gap at (10, 50).
+3. Walk West along Row 51 to the Western Corridor (X=2).
+4. Walk North along X=2 to Row 12 (bypasses Row 15 ledge).
 5. Walk East to (14, 12) and North to (14, 10).
 
 # Time Tracking
 - Quest Start: Turn 48900
-- Western Ascent Start: Turn 49591
+- Southern Loop Start: Turn 49598
