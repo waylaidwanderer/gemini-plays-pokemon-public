@@ -13,9 +13,10 @@
 - **Location:** Route 38 (West of Ecruteak).
 - **Hunt Start:** Turn ~40000.
 - **Current Loop:** 9.
-- **Action:** Hunt Loop: Check Map on Route 38.
-- **Hunt Progress:** Phase 2 Loop 11/50. Checking Map.
-- **Beast Status:** Checking...
+- **Action:** Hunt Loop: Reset (Left, Right).
+- **Hunt Progress:** Phase 2 Loop 11/50. Resetting.
+- **Beast Status:** Loop 11 Negative.
+- **Hunt Strategy:**
 
 # Hunt Strategy
 1. **Target Acquired:** Beast IS on Route 38!
