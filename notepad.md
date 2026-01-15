@@ -16,17 +16,15 @@
 - BUOY: Impassable water obstacle.
 - WALL: Impassable ground/object.
 - DOOR: Warp point. Traversable.
-- FLOOR_UP_WALL: Impassable ledge face. Blocks South movement.
+- FLOOR_UP_WALL: Impassable ledge face. Blocks North movement.
 - LEDGE_HOP_DOWN: One-way jump (North to South).
 
 # Strategy: Capture Suicune (Pursuit started Turn 48227)
 - Current Approach: The West Beach Trek (Turn 48605)
 - Step 1: Return to land at (19, 30). [IN PROGRESS]
-- Step 2: Walk to the southern corridor at (20, 51). [NOT STARTED]
-- Step 3: Walk West through the ledge gap at (10, 50) to reach the West Beach (X=2). [NOT STARTED]
-- Step 4: Walk North along the West Beach to (2, 10). [NOT STARTED]
-- Step 5: Walk East across the plateau to (14, 10) to trigger the Suicune sighting. [NOT STARTED]
-- Note: The West Beach (X=0, 1, 2) is a clear corridor that bypasses all breakable rocks and the buoy maze. Access is via Row 50/51.
+- Step 2: Walk to (20, 51) -> (2, 51) -> (2, 10). [NOT STARTED]
+- Step 3: Trigger sighting at (14, 10). [NOT STARTED]
+- Note: West Beach (X=2) bypasses all obstacles. Access via Row 51.
 
 # Area Notes: Cianwood City
 - Photo Studio: (9, 31) | Poke Seer: (5, 17)

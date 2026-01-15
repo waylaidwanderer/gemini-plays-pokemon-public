@@ -74,5 +74,31 @@
         "action_counter": 48435
       }
     ]
+  },
+  "find_path_v5": {
+    "description": "Finds a traversable path from the player's current position to a target coordinate on the current map, specifically handling BUOY as impassable.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "target_x": {
+          "type": "integer"
+        },
+        "target_y": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "target_x",
+        "target_y"
+      ]
+    },
+    "python_script": "import json\nimport xml.etree.ElementTree as ET\n\ndef find_path(target_x, target_y, map_xml, start_x, start_y):\n    root = ET.fromstring(map_xml)\n    width = int(root.attrib['width'])\n    height = int(root.attrib['height'])\n    \n    grid = {}\n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            grid[(x, y)] = tile\n            \n    start_tile = grid.get((start_x, start_y))\n    start_medium = \"WATER\" if start_tile is not None and start_tile.attrib['type'] == 'WATER' else \"LAND\"\n    \n    queue = [(start_x, start_y, [])]\n    visited = {(start_x, start_y)}\n    \n    while queue:\n        cx, cy, path = queue.pop(0)\n        \n        if cx == target_x and cy == target_y:\n            return path\n            \n        for dx, dy, btn in [(0, -1, \"Up\"), (0, 1, \"Down\"), (-1, 0, \"Left\"), (1, 0, \"Right\")]:\n            nx, ny = cx + dx, cy + dy\n            if 0 <= nx < width and 0 <= ny < height:\n                if (nx, ny) not in visited:\n                    tile = grid.get((nx, ny))\n                    if tile is None:\n                        visited.add((nx, ny))\n                        queue.append((nx, ny, path + [btn]))\n                        continue\n                        \n                    t_type = tile.attrib['type']\n                    \n                    passable = False\n                    if start_medium == \"WATER\":\n                        if t_type in [\"WATER\", \"unseen\", \"FLOOR\", \"DOOR\"]:\n                            passable = True\n                    else:\n                        if t_type in [\"FLOOR\", \"DOOR\", \"unseen\"]:\n                            passable = True\n                        elif t_type == \"LEDGE_HOP_DOWN\" and dy == 1:\n                            passable = True\n                    \n                    if tile.find('Object') is not None:\n                        passable = False\n                    if t_type == \"BUOY\":\n                        passable = False\n                        \n                    if passable:\n                        visited.add((nx, ny))\n                        queue.append((nx, ny, path + [btn]))\n    return None\n\n# The harness provides map_xml_string and player_position\npath = find_path(input_data['target_x'], input_data['target_y'], map_xml_string, player_position['x'], player_position['y'])\nprint(json.dumps(path))\n",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-15T03:54:59.366Z",
+        "action_counter": 48606
+      }
+    ]
   }
 }
