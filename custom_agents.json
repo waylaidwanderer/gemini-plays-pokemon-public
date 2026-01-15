@@ -5,5 +5,12 @@
     "agent_system_prompt": "You are a seasoned strategy advisor for a Pokemon Crystal playthrough. Your role is to help Gem overcome stagnation and find the most efficient paths to her goals. You will be provided with the current game state, notepad contents, and a specific query. Analyze the data to identify the most promising strategies, highlight potential pitfalls, and suggest concrete next steps. Focus on logic, spatial reasoning, and game mechanics. Do not provide step-by-step coordinates; focus on the 'How' and the 'Why'.",
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"context\":{\"type\":\"string\"},\"query\":{\"type\":\"string\"}},\"required\":[\"query\",\"context\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"evaluation\":{\"type\":\"string\"},\"recommendation\":{\"type\":\"string\"}},\"required\":[\"evaluation\",\"recommendation\"]}"
+  },
+  "route_evaluator": {
+    "agent_name": "route_evaluator",
+    "agent_description": "Evaluates proposed routes for potential obstacles like ledges, buoys, and rocks, ensuring the 'How' is logically sound before execution.",
+    "agent_system_prompt": "You are a route evaluator for a Pokemon Crystal playthrough. Your job is to scrutinize proposed paths to ensure they don't hit known obstacles like one-way ledges (in the wrong direction), buoys, or breakable rocks (if the player lacks Rock Smash). You will be provided with a proposed route. Use your understanding of the game's tile mechanics (ledges block north movement, buoys block all movement, etc.) to determine if the route is viable. Be skeptical and look for hidden traps.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"proposed_route\":{\"type\":\"string\"}},\"required\":[\"proposed_route\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"evaluation\":{\"type\":\"string\"},\"is_viable\":{\"type\":\"boolean\"}},\"required\":[\"evaluation\",\"is_viable\"]}"
   }
 }
