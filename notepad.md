@@ -1,9 +1,7 @@
-## Plan: Reach Suicune at (14, 10) (Surf Bypass Route)
-- Step 1: Walk North to (12, 28). <- CURRENT TASK
-- Step 2: Surf North from (12, 28) into (12, 27).
-- Step 3: Surf North to Row 18.
-- Step 4: Land at (12, 17).
-- Step 5: Walk North/East to (14, 10) to trigger Suicune.
+- Step 1: Reach (12, 28) and Surf. (DONE)
+- Step 2: Surf North from (12, 27) to (12, 18). <- CURRENT TASK
+- Step 3: Land at (12, 17).
+- Step 4: Walk North/East to (14, 10) to trigger Suicune.
 
 ## Tile Mechanics (Verified)
 - FLOOR: Traversable.
@@ -26,5 +24,5 @@
 
 ## Technical Status
 - Super Repel: Active (Applied Turn 49091).
-- Turn Count: Current Turn 49137.
-- Failed Attempts: 5 (documented in previous turns, including position mismatch).
+- Turn Count: Current Turn 49139.
+- Failed Attempts: 5 (documented in previous turns).
