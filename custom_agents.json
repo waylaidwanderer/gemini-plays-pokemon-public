@@ -1,9 +1,1 @@
-{
-  "navigation_analyst": {
-    "agent_name": "navigation_analyst",
-    "agent_description": "Analyzes complex map layouts (cliffs, buoy walls) to find efficient traversable paths.",
-    "agent_system_prompt": "You are a specialized navigation assistant for Pokemon Crystal. Your job is to analyze the provided map XML and identify gaps in buoy walls, cliff lines, and other obstacles. You provide step-by-step coordinate paths. Remember that you cannot call tools or see the screen; you rely entirely on the input provided.",
-    "agent_input_schema": "{\"properties\":{\"map_xml\":{\"type\":\"string\"},\"start_pos\":{\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"],\"type\":\"object\"},\"target_pos\":{\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"],\"type\":\"object\"}},\"required\":[\"map_xml\",\"start_pos\",\"target_pos\"],\"type\":\"object\"}",
-    "agent_output_schema": "{\"properties\":{\"path\":{\"items\":{\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"],\"type\":\"object\"},\"type\":\"array\"},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"path\",\"reasoning\"],\"type\":\"object\"}"
-  }
-}
+{}

@@ -1,13 +1,13 @@
 ## Suicune Quest (Started Turn 49107)
 - Goal: Trigger Suicune sighting at (14, 10).
-- Strategy: Use the "Outer Sea Route" (X > 20) to bypass plateau walls.
+- Strategy: Use the West Beach Highway (X=2) to bypass the Gym and reach Row 10.
 
 ## Plan: Reach Suicune at (14, 10)
-- Step 1: Clear Arnie's phone call. <- CURRENT TASK
-- Step 2: Surf South to Row 21 and East to (19, 21) (Buoy Gap).
-- Step 3: Surf East to (23, 21) and North to (23, 15) (Buoy Gap).
-- Step 4: Surf North to Row 11 and West to (16, 11).
-- Step 5: Land at (16, 11) and walk to (14, 10) to trigger Suicune.
+- Step 1: Surf South to (12, 28) and land. <- CURRENT TASK
+- Step 2: Walk to (12, 35), then West to (2, 35) via (5, 35) gap.
+- Step 3: Walk North along West Beach (X=2) to Row 14.
+- Step 4: Walk East to (8, 14), then North to (8, 10).
+- Step 5: Walk East along Row 10 to (14, 10) to trigger Suicune.
 
 ## Verified Tile Mechanics
 - FLOOR: Traversable.
@@ -17,16 +17,12 @@
 - LEDGE_HOP_DOWN: One-way jump (North to South).
 - BUOY: Impassable hard wall.
 
-## Mechanics Verification (Hypotheses)
-- Landing (16, 11): Hypothesized contiguous water path from (19, 11) to (16, 11). Needs verification.
-- Landing (17, 11): Hypothesized FLOOR tile. Currently unseen.
-
 ## Navigation Insights
-- Inner Channel (X=12-17): Enclosed by walls and buoys.
-- Buoy Wall Gaps: (19, 21) and (23, 15) allow passage to Outer Sea.
-- Outer Sea Route: Provides access to (16, 11) FLOOR from the east.
-- Gym Blockade: Building at (10, 40) is bypassed by the Outer Sea Route.
-- Plateau Crossing: Land path from (16, 11) -> (16, 12) -> (14, 12) -> (14, 10).
+- West Beach Highway: X=0-2 is clear from Row 53 to Row 14.
+- Row 35 Gap: (5, 35) is the passage from town to the West Beach.
+- Row 14 Crossing: Clear land path from X=2 to X=8.
+- Row 10 Access: X=8 is the vertical corridor to the northern beach.
+- Gym Blockade: Building at (10, 40) blocks central land access.
 
 ## Battle Strategy: Eusine
 - Lead: Calcifer (Lv 64 Typhlosion).
@@ -34,5 +30,5 @@
 - Strategy: OHKO everything.
 
 ## Technical Status
-- Super Repel: Active (~75 steps used).
-- Current Turn: 49171.
+- Super Repel: Active.
+- Turn: 49173.
