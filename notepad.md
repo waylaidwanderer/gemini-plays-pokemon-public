@@ -39,10 +39,10 @@
 - **Money:** ¥15644.
 - **Items:** Max Repel x30.
 - **Key Items:** Pass (Magnet Train).
-- **Status:** Route 38 (35,9). Warp Failed. Moving Left.
-- **Next Step:** Left (to 34,9) -> Up (to 34,8) -> Right (Try 35,8).
-- **Note:** Entry at (35,9) failed to trigger. Switching to Top Tile (35,8) for next attempt.
-- **Roamer Check:** Pending reset.
+- **Status:** Route 38 (35,8). Checking Map. Loop 19/50.
+- **Next Step:** Check Map -> If No Beast: Enter Gatehouse (Right).
+- **Note:** Exited Gatehouse. Ready to check.
+- **Roamer Check:** Checking Loop 19 results.
 - **Strategy:** Manual Reset: Enter -> Exit -> Check.
 - **Strategy:** Manual Reset: Right (Enter) -> Left (Exit) -> Check Map.
 - **Strategy:** Manual Reset Loop: Check Map -> B -> Right (Enter Gate) -> Left (Exit Gate) -> Start (Map).
