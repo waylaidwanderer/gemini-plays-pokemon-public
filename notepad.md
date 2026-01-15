@@ -4,7 +4,7 @@
 - **Status:** Landing at (13, 16) was a dead end. Returning to city.
 
 ## Execution Plan
-1. Surf from (13, 16) south to (12, 28). <- CURRENT TASK
+1. Surf from (14, 16) south to land at (14, 30). <- CURRENT TASK
 2. Walk to (9, 33) to pass the X=9 wall.
 3. Walk to (5, 35) to pass the X=5 wall.
 4. Walk North from (2, 35) to (2, 14).
