@@ -13,9 +13,9 @@
 - **Current Task:** Gatehouse Shuffle (Looping Rt 38 <-> Gatehouse).
 - **Session Start:** Turn 40704 (Blind Shuffle Route 38).
 - **Location:** Route 38 (Scanning Cycle #21).
-- **Encounter:** Wild Battle triggered!
-- **Hypothesis:** Max Repel (Lv37 Lead) + Route 38 = **Raikou or Entei**.
-- **Action:** Pressing A to see identifying text.
+- **Encounter:** Wild Tauros (Lv13).
+- **Analysis:** Max Repel FAILED or was NOT APPLIED. Level 13 < Level 37 (Lead).
+- **Action:** Running. Will re-apply Repel immediately after battle.
 - **Pokedex Mode:** Old (National Dex). Target: #243 Raikou, #244 Entei.
 - **Pokedex Status:** #243 (Raikou) & #244 (Entei) are UNSEEN (Cannot track). #245 (Suicune) is SEEN.
 - **Strategy:** Blind Gatehouse Shuffle.
