@@ -39,9 +39,9 @@
 - **Money:** ¥15644.
 - **Items:** Max Repel x30.
 - **Key Items:** Pass (Magnet Train).
-- **Status:** Resetting Loop 9/50. Re-entering Gatehouse.
-- **Next Step:** Left, Right, Right -> Exit Back to Rt 38.
-- **Strategy:** Manual Reset: Left (Off) -> Right (Enter) -> Exit.
+- **Status:** Inside Gatehouse. Exiting to Route 38. Loop 9/50.
+- **Next Step:** Exit Left -> Check Roamer Map.
+- **Strategy:** Manual Reset: Enter -> Exit -> Check.
 - **Strategy:** Manual Reset: Right (Enter) -> Left (Exit) -> Check Map.
 - **Strategy:** Manual Reset Loop: Check Map -> B -> Right (Enter Gate) -> Left (Exit Gate) -> Start (Map).
 - **Lesson:** Gatehouse warps can be sticky. Automate resets to avoid 'doorway effect'.
