@@ -11,17 +11,17 @@
 
 # Strategy: Capture Suicune (Started Turn 48227)
 - Goal: Reach (14, 10) to trigger sighting.
-- Approach: The Sequential Gap Path (Verified)
+- Approach: The Buoy Maze Master Path (Step-by-Step)
 - Plan:
-  1. Clear SURF message at (15, 27). [IN PROGRESS]
-  2. Navigate to (15, 24), then Right to (17, 24).
-  3. Navigate to (17, 26), then Right to (19, 26).
-  4. Navigate to (23, 26), then Up to (23, 15) [Gap 6].
-  5. Navigate to (23, 14), then Left to (18, 14).
-  6. Navigate to (18, 11), then Left to (16, 11) [Land].
-  7. Walk to (14, 10).
-- Status: At (15, 27) on water, clearing message.
-- Reasoning: Row 15 is a continuous wall of cliffs and buoys except for a single gap at (23, 15). Accessing this gap requires navigating a series of vertical buoy walls at X=16 and X=18.
+  1. Land at (15, 30) and walk to (19, 30). [IN PROGRESS]
+  2. Surf at (19, 30) to enter the main channel (Columns 20-29).
+  3. Navigate North to (27, 10), then West through Gap 1 (26, 10) to (23, 10).
+  4. Navigate South to (23, 16), then West through Gap 2 (22, 16) to (20, 16).
+  5. Navigate South to (20, 21), then West through Gap at (19, 21) to (17, 21).
+  6. Navigate North to (17, 16), then West to (14, 16).
+  7. Land at (13, 16) and walk to (14, 10).
+- Status: At (15, 27) on water, heading south to land.
+- Reasoning: The inner pockets are blocked by buoy walls at X=16 and X=18. Entering the main channel at (20, 30) is the only way to reach the outer gaps.
 
 # Area Notes: Cianwood City
 - Photo Studio: (9, 31) | Poke Seer: (5, 17)
