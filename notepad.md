@@ -39,9 +39,9 @@
 - **Money:** ¥15644.
 - **Items:** Max Repel x30.
 - **Key Items:** Pass (Magnet Train).
-- **Status:** Map Checked. Roamers on Rt 42, 32, 30. None on 38.
-- **Next Step:** Close Gear -> Enter Gatehouse (Reset Loop).
+- **Status:** Closing Pokegear. Preparing to Enter Gatehouse.
+- **Next Step:** Right x2 (Enter Gate) -> Left x2 (Exit Gate).
 - **Loop:** 8/50.
-- **Strategy:** Manual Reset: B, B -> Right, Right -> Left, Left -> Check Map.
+- **Strategy:** Manual Reset to avoid menu/warp errors.
 - **Strategy:** Manual Reset Loop: Check Map -> B -> Right (Enter Gate) -> Left (Exit Gate) -> Start (Map).
 - **Lesson:** Gatehouse warps can be sticky. Automate resets to avoid 'doorway effect'.
