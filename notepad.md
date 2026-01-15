@@ -11,25 +11,25 @@
 6. Tin Tower 1F (Final Battle)
 
 ## Plan for Cianwood (Step 2)
-- Step 1: Surf North from (19, 29). <- CURRENT TASK
-- Step 2: Surf East to X=23 to bypass Row 15 buoys at (23, 15).
-- Step 3: Surf North to Row 8 at (23, 8).
-- Step 4: Surf West to (17, 8) and land on the plateau.
-- Step 5: Walk West to Suicune at (14, 10).
-- Step 6: Trigger cutscene with Eusine.
+- Hypothesis: Reach the West Beach (X=0-2) via the southern land bridge at Row 51.
+- Step 1: Land at (19, 30) from (19, 29). <- CURRENT TASK
+- Step 2: Walk South to Row 51 via X=21 gap (bypasses city sign at (20, 34)).
+- Step 3: Walk West along Row 51 to West Beach at (2, 51).
+- Step 4: Walk North along X=0-2 highway to Row 12.
+- Step 5: Walk East to (14, 12), then North to Suicune at (14, 10).
 
 # Area Notes: Cianwood City
 - Photo Studio: (9, 31) (DOOR)
 - Lugia Speech House: (15, 37) (DOOR)
 - Poke Seer: (5, 17) (DOOR)
 - Pharmacy: (15, 47) | Gym: (8, 43) | PokeCenter: (23, 43)
-- West Beach Highway: X=0, 1, 2. (Hypothesized path North)
-- Land Bridge: Row 51 (X=4-24). (Blocked from city by Row 50 cliffs)
+- West Beach Highway: X=0, 1, 2. (Clear path North to Row 14)
+- Land Bridge: Row 51 (X=4-24). (Accessible from city via X=20-24 gap at Row 50)
 
 # Tile Mechanics (Verified)
 - FLOOR: Standard ground. Traversable.
 - WALL: Impassable.
-- DOOR: Warp point. Avoid unless intending to enter.
+- DOOR: Warp point. Avoid during pathfinding.
 - FLOOR_UP_WALL: Impassable cliff face.
 - LEDGE_HOP_DOWN: One-way jump (North to South).
 - WATER: Requires Surf to traverse.
