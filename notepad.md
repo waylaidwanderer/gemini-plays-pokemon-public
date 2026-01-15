@@ -2,24 +2,23 @@
 - Quest Start: Turn 48900
 
 ## Strategy: The Great Southern Loop
-To reach the northern plateau at (14, 10), I must bypass the city's ledge system. Multiple ledge lines (Row 34, 46, 48, 50) block southern progress except through specific gaps. I will navigate to Row 51, which provides a clear path to the western corridor (X=2).
+Northern plateau is blocked by jump-down ledges. Direct northern access from city center is impossible due to upward-only ledges (Row 34, 46, 48, 50).
+The confirmed path is to reach the southern edge of the map (Row 51) and then use the western corridor (X=2).
 
 ## Execution Plan
-1. Use Super Repel (Done Turn 49483).
-2. Walk to (18, 49) via (18, 46) gap. <- CURRENT TASK
-3. Walk West to (11, 49), then South through gap at (11, 50) to (11, 51).
-4. Walk West to (2, 51), then North along X=2 to (2, 12).
-5. Walk East to (14, 12), then North to (14, 10) to trigger Suicune.
+1. Use Super Repel (In progress).
+2. Walk to (19, 45), then south through gap to (19, 47). (Bypasses Row 46).
+3. Walk west to (11, 47), then south through gap at (11, 50) to (11, 51). (Bypasses Row 48, 50).
+4. Walk west to (2, 51), then north along X=2 to (2, 12).
+5. Walk east to (14, 12), then north to (14, 10) to trigger Suicune.
 
 ## Verified Tile Mechanics
-- FLOOR_UP_WALL: Blocks DOWN (South) movement. (Verified: (12, 50) and (13, 50) failed in Turn 49397).
-- LEDGE_HOP_DOWN: Blocks NORTH movement. (Verified at (10, 15)).
-- Row 50 Gaps: (10, 50) and (11, 50) are FLOOR tiles (traversable gaps).
-- Row 46 Gap: (18, 46) and (19, 46) are FLOOR tiles (traversable gaps).
+- FLOOR_UP_WALL: One-way. Blocks DOWN (South) movement. Verified at (12, 50), (13, 50), (12, 49)->(12, 50) failed.
+- LEDGE_HOP_DOWN: One-way. Blocks NORTH movement. Verified at (10, 15).
 
 ## Failed Hypotheses
-- Island Hop (13, 16): Dead end pocket at (11, 14).
-- Row 28/33/35 Gaps: Blocked by nested wall/ledge combinations.
+- Island Hop (13, 16): Dead end alcove at (11, 14).
+- Southern Surf: Eastern channel ends at Row 45.
 
 ## Progress Summary
 - Badges: 16/16.
