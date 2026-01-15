@@ -34,3 +34,4 @@
 - **Phase 2 (Rt 38):**
     - Turn 40498: Beast CONFIRMED on Route 38.
     - Turn 40516: Repel Expired (Loop 11). Re-applying.
+- Turn 40525: Tool 'scan_grass' failed (sandbox error). Switching to manual scanning.
