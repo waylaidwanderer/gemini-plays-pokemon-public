@@ -1,31 +1,32 @@
 # Suicune Quest (Cianwood)
 - Quest Start: Turn 48900
 
-## Execution Plan (Terrestrial Maze)
+## Verified Tile Mechanics
+- Row 15: (10, 15) LEDGE_HOP_DOWN (Blocks North).
+- Row 34: (6-8, 34) FLOOR_UP_WALL (Blocks South).
+- Row 46: (6, 46), (21-28, 46) FLOOR_UP_WALL (Blocks South).
+- Row 48: (8-10, 48) FLOOR_UP_WALL (Blocks South).
+- Row 50: (12-19, 50) FLOOR_UP_WALL (Blocks South).
+- Wall X=9: (9, 34)-(9, 45) are WALL.
+- Wall X=5: (5, 30)-(5, 33) are WALL.
+- Door Warps: (17, 41) is a DOOR (Avoid as corridor).
+
+## Execution Plan (The Great Southern Loop)
 1. Talk to Pokefan M at (16, 33). <- CURRENT TASK
-2. Navigate to the northern plateau at (14, 10) via the most efficient confirmed path.
+2. Navigate to (14, 10) via Row 51 bypass.
+   - Route: (17, 33) -> (21, 33) -> (21, 45) -> (19, 45) -> (19, 46) -> (18, 46) -> (18, 50) -> (11, 50) -> (11, 51) -> (2, 51).
+   - North: (2, 51) -> (2, 14) -> (8, 14) -> (8, 10) -> (14, 10).
 3. Trigger Suicune sighting.
 
-## Tile Mechanics (Cianwood)
-- FLOOR: Standard traversable ground.
-- WALL: Impassable barrier.
-- WATER: Requires Surf HM.
-- BUOY: Impassable water barrier.
-- FLOOR_UP_WALL: One-way ledge. Blocks DOWN (South) movement. Allows UP, LEFT, and RIGHT movement.
-- LEDGE_HOP_DOWN: One-way ledge. Blocks NORTH movement. Allows DOWN (South) jump.
-
-## Ledge Gap Analysis (Confirmed)
-- Row 34: Gap at X=10-19 (FLOOR).
-- Row 46: Gap at X=8-13 (FLOOR).
-- Row 48: Gap at X=12-19 (FLOOR).
-- Row 50: Gap at X=10-11 (FLOOR).
-
 ## Failed Hypotheses
-- Island Hop (13, 16) via (11, 15): Dead end alcove at (11, 14).
-- Southern Surf Bypass: Eastern channel ends at Row 45.
-- Inner Channel (X=12): Blocked at Row 15 by buoy wall.
+- Island Hop (13, 16): Dead end pocket at (11, 14).
+- Southern Surf: Eastern channel ends at Row 45.
+- Row 33 Gap (9, 33): Bypasses X=9 wall but blocked by Row 34/48 ledges.
 
-## Progress Summary
-- All 16 Badges obtained.
-- Elite Four/Red defeated.
-- Current Focus: Suicune tracking.
+## Reflection Turn #49451
+1. Immediate Execution: Talking to Pokefan M now.
+2. Notepad: Organized verified mechanics and refined path.
+3. Map: Markers track gaps and dead ends.
+4. Automation: Pathfinding tool will be used to verify the loop.
+5. Goals: Focused on Suicune trigger outcome.
+6. Error Analysis: Identified that Row 51 is the only way to reach the western corridor due to nested ledge lines.
