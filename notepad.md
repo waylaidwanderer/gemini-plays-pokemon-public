@@ -32,5 +32,5 @@
 - **Money:** ¥15644.
 - **Items:** Max Repel x30.
 - **Key Items:** Pass (Magnet Train).
-- **Status:** In Ecruteak. Turning around. Loop ~75/75.
-- **Next Step:** Re-enter Route 37.
+- **Status:** Route 37. Checking Map. Loop ~75/75.
+- **Next Step:** Check Roamer Map.
