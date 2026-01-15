@@ -39,5 +39,5 @@
 - **Money:** ¥15644.
 - **Items:** Max Repel x30.
 - **Key Items:** Pass (Magnet Train).
-- **Status:** Route 38. Checking Map.
-- **Next Step:** Check Roamer Map.
+- **Status:** Roamers on Rt 32, 42, 44. None on 38. Resetting Loop 1/50.
+- **Next Step:** Enter Gatehouse, then re-enter Rt 38.
