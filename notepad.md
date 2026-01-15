@@ -39,10 +39,10 @@
 - **Money:** ¥15644.
 - **Items:** Max Repel x30.
 - **Key Items:** Pass (Magnet Train).
-- **Status:** Route 38 (34,9). Entering Gatehouse. Loop 16 Reset.
-- **Next Step:** Right (Enter Gate) -> Left (Exit Gate) -> Check Map.
-- **Note:** Positioned at (34,9) to ensure clean entry into (35,9).
-- **Roamer Check:** Negative. Resetting.
+- **Status:** Route 38 (35,9). Standing on Warp. Tool Test (Loop 16).
+- **Next Step:** Execute `cycle_roamer_hunt`.
+- **Note:** Warp didn't trigger on entry. Tool attempts 'Right' bump to force it.
+- **Roamer Check:** Loop 16 via Tool.
 - **Strategy:** Manual Reset: Enter -> Exit -> Check.
 - **Strategy:** Manual Reset: Right (Enter) -> Left (Exit) -> Check Map.
 - **Strategy:** Manual Reset Loop: Check Map -> B -> Right (Enter Gate) -> Left (Exit Gate) -> Start (Map).
