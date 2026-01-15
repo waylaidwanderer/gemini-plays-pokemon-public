@@ -1,27 +1,22 @@
 # Suicune Quest (Cianwood)
 - Quest Start: Turn 48900
 
-## Tile Mechanics: ManiasHouse (22_4)
-- FLOOR: Standard ground.
-- WALL: Impassable barrier.
-- WARP_CARPET_DOWN: Leads to Cianwood City (17, 41).
-- TOWN_MAP, BOOKSHELF, TV, RADIO: Background objects in Row 1. Interactable from Row 2 or Row 1.
-- WINDOW: Background object at (5, 0).
-
 ## Tile Mechanics: Cianwood City (22_3)
-- FLOOR: Standard ground.
+- FLOOR: Traversable ground.
 - WALL: Impassable barrier.
-- FLOOR_UP_WALL: One-way ledge. Blocks DOWN (South) movement. Verified at Row 34, 46, 48, 50.
-- LEDGE_HOP_DOWN: One-way ledge. Blocks NORTH movement. Allows DOWN jump.
+- FLOOR_UP_WALL: One-way ledge. Blocks DOWN (South) movement. Allows UP, LEFT, and RIGHT movement. (Verified at Row 34, 46, 48, 50).
+- LEDGE_HOP_DOWN: One-way ledge. Blocks NORTH movement. Allows DOWN jump. (Verified at Row 15).
 - BUOY: Impassable water barrier.
 - WATER: Requires SURF.
 
-## Execution Plan (Terrestrial Maze)
-1. Explore Row 0 of Mania's House. <- CURRENT TASK
-2. Return to Cianwood City.
-3. Navigate to the western corridor (X=2) via Row 51 bypass.
-4. Reach the northern plateau at (14, 10).
-5. Trigger Suicune sighting.
+## Execution Plan (Terrestrial Bypass)
+1. Interact with Town Map at (3, 0) in Mania's House. <- CURRENT TASK
+2. Exit to Cianwood City.
+3. Walk to gap at (9, 33) and move West to (8, 33).
+4. Walk to gap at (5, 35) and move West to (4, 35).
+5. Walk to gap at (3, 35) and move West to (2, 35).
+6. Walk North through western corridor (X=2) to Row 10.
+7. Walk East to (14, 10) to trigger Suicune.
 
 ## Failed Hypotheses
 - Island Hop (13, 16) via (11, 15): Dead end alcove at (11, 14).
