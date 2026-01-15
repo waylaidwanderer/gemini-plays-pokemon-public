@@ -25,3 +25,4 @@
 - **Anomaly:** Encountered Wild Rattata (Turn 40908) immediately after applying Max Repel (Turn 40903). Lead Pokemon is Gyarados Lv37. Repel should be active. Possible mechanic glitch or misunderstanding?
 - **Anomaly Confirmed:** Encountered Level 16 Rattata on Turn 40908 despite using Max Repel on Turn 40903. Screen text confirmed usage. This suggests Repel might be malfunctioning or encounters on this specific tile/map behave oddly.
 - **Anomaly #2:** Encountered Wild Raticate (Turn 40918) shortly after Rattata. Repel still ostensibly active. Confirms persistent issue with Repel in this area/session.
+- **Update:** Encountered Raticate (Turn 40918). Repel definitely seemingly inactive or glitched. Proceeding to Gatehouse to reset map state and potential glitches.
