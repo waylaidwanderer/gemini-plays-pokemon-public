@@ -5,18 +5,20 @@
 - Vertical Walls: X=3, 5, 9, 11, 17, 20.
 
 # Suicune Quest (Cianwood)
-## Strategy: Great Southern Loop (Row 51)
-Reach (14, 10) by bypassing all land ledges via Row 51.
-1. Move North out of the current pocket to Row 44.
-2. Move West to X=4.
-3. Move South to Row 51 (bypasses ledges at Row 46, 48, 50).
-4. Walk West along Row 51 to X=2 corridor.
-5. Walk North along X=2 to Row 12 (bypasses Row 15 ledge).
-6. Walk East to (14, 12) and North to (14, 10).
-- Current Step: Moving towards (2, 51) via Row 44 and X=4 corridor.
+## Strategy: Northern Bypass (Row 35/33)
+Reach (14, 10) by bypassing ledges via the western corridor (X=2).
+1. Move North through gap at (18, 46) to Row 44.
+2. Move West along Row 44 to (6, 44).
+3. Move North to gap at (6, 35) and West to X=4.
+4. Move North along X=4 to Row 33.
+5. Move West along Row 33 to X=2 corridor.
+6. Walk North along X=2 to Row 12 (bypasses Row 15 ledge).
+7. Walk East to (14, 12) and North to (14, 10).
+- Current Step: Moving towards (2, 33) via Row 44 and Row 35 gap.
 
 # Progress Notes
-- Dead End Pocket: (12-19, 46-49) blocks South/West exit at Row 49/50. Must exit via Row 46, 48, or 50 gaps.
-- Verified: Row 46 gap (18, 46), Row 48 gap (12, 48), and Row 50 gap (10, 50) are the keys to the southern loop.
-- X=4 corridor is a clear path from Row 44 to Row 51.
-- X=2 corridor is a clear path from Row 51 to Row 12.
+- Northern Bypass Gap: (6, 35) allows access to X=4 corridor.
+- Western Corridor Gap: (9, 33) and (3, 33) allow access to X=2 corridor.
+- Verified: Row 15 ledge (X=3-17) does not block X=2.
+- Verified: Row 12 is clear from X=2 to X=14.
+- X=2 corridor is the clear path to the northern plateau.
