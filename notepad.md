@@ -39,5 +39,5 @@
 - **Money:** ¥15644.
 - **Items:** Max Repel x30.
 - **Key Items:** Pass (Magnet Train).
-- **Status:** Resetting Loop 5/50. Entering Gatehouse.
-- **Next Step:** Exit Gatehouse, then Loop 6.
+- **Status:** Menu open. closing. Resetting Loop 5/50.
+- **Next Step:** Close Menu, Enter Gatehouse.
