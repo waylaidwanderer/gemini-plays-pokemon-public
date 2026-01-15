@@ -1,15 +1,19 @@
-## Strategy: Inner Channel Landing to Suicune
+## Strategy: Terrestrial Path to Suicune
 **Start Turn:** 48900 (Quest: Trigger Suicune Overworld Sighting)
 
-Cianwood's geography is a maze of buoy walls and one-way ledges. The Northern Plateau is accessible by landing at (13, 16) via the Inner Channel.
+The buoy maze is a trap. A clear terrestrial path exists through the city gaps.
 
 ### Step-by-Step Execution Plan
-1. Use Super Repel and Surf from (27, 38). <- CURRENT TASK
-2. Navigate buoy gaps: (22, 16) -> (21, 16) -> (21, 26) -> (17, 26).
-3. Surf North to (17, 24), then West to (15, 24) (X=16 Gap).
-4. Surf North to (15, 16), then West to land at (13, 16).
-5. Walk to the plateau: (13, 16) -> (11, 16) -> (11, 14) (Gap) -> (8, 14) -> (8, 10) -> (14, 10).
-6. Trigger Suicune sighting at (14, 10).
+1. Close menu and walk to (12, 32). <- CURRENT TASK
+2. Walk South along the X=12 corridor to (12, 44).
+3. Walk West through the Row 44 gaps to (8, 44).
+4. Walk North along the X=8 corridor to (8, 35).
+5. Walk West through the Row 35 gap to (2, 35) (West Beach).
+6. Walk North along the West Beach (X=2) to (2, 14).
+7. Walk East along the Row 14 corridor to (8, 14).
+8. Walk North along the X=8 corridor to (8, 10).
+9. Walk East along the Row 10 corridor to (14, 10).
+10. Trigger Suicune sighting.
 
 ## Tile Mechanics: Cianwood City
 - FLOOR: Standard ground.
@@ -18,17 +22,18 @@ Cianwood's geography is a maze of buoy walls and one-way ledges. The Northern Pl
 - BUOY: Impassable water barrier.
 - FLOOR_UP_WALL: One-way ledge. Blocks DOWN movement. Allows UP and East-West movement. (Verified at (6, 46)).
 
-## Navigation: Verified Gaps
-- X=26 Wall: Gap at Row 10-15.
-- X=22 Wall: Gap at Row 16-24.
-- X=18 Wall: Gap at Row 26.
-- X=16 Wall: Gap at Row 24.
-
-## Failed Hypotheses & Lessons
-- Row 8 Bypass: Blocked by BUOY at (26, 8).
-- Terrestrial Row 52: Blocked by WATER at (23, 32).
-- Row 21/18 Gaps (X=18): Blocked by BUOY at (18, 21) and (18, 18).
+## Navigation: Internal Gaps
+- X=9 Wall Gap: Row 44-47.
+- X=7 Wall Gap: Row 48-51.
+- X=5 Wall Gap: Row 34-37.
+- Row 14 Corridor: Connects West Beach to the northern plateau entrance.
 
 ## Inventory Check
-- Super Repel: 5 remaining. Applied turn 49343.
+- Super Repel: 4 remaining. Applied turn 49346.
 - Party: Calcifer (Lv 64) leads. Ready for Eusine.
+
+## Reflection Turn 49346
+- Error Analysis: Identified that the aquatic route is a buoy-blocked maze.
+- Root Hypothesis Testing: Verified a 100% clear terrestrial path via Row 44 and Row 35 gaps.
+- Map Hygiene: Deleted redundant marker at (26, 9).
+- Automation: Ready to use refined pathfinding tool once on solid ground.
