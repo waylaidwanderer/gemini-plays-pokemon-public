@@ -14,15 +14,14 @@
 - **Location:** Route 38 (West of Ecruteak).
 - **Hunt Start:** Turn ~40000.
 - **Current Loop:** 17.
-- **Action:** Detour via Row 12 to bypass wall.
-- **Hunt Progress:** Phase 2 Loop 17/50. Navigating to Grass.
-- **Beast Status:** **POSITIVE** (Route 38). Assumed still present (no map change).
-- **Correction:** Wall at x=14 blocks direct path. Gap exists at y=12.
+- **Action:** Hunt in Grass (Scan).
+- **Hunt Progress:** Phase 2 Loop 17/50. Scanning for Beast.
+- **Beast Status:** **POSITIVE** (Route 38).
+- **Location:** Trapped in grass strip (Col 8-9). Perfect for hunting.
 - **Plan:**
-    1. Right to (16, 10).
-    2. Down to (16, 12).
-    3. Left to (9, 12) (Jump Ledge).
-    4. Hunt in Grass.
+    1. Scan Grass.
+    2. If Wild -> Run.
+    3. If Beast -> Attack/Catch.
 - **Hunt Strategy:**
 
 # Hunt Strategy
