@@ -11,7 +11,8 @@
 6. Tin Tower 1F
 
 ## Plan: Reach North Plateau (Sea Route)
-- Step 1: Reach (23, 32) and Surf. <- CURRENT TASK
+- Step 1: Reach (23, 32) and Surf. (Done)
+- Step 2: Surf East to X=27. <- CURRENT TASK
 - Step 2: Surf East to X=27.
 - Step 3: Surf North to Row 8 (bypasses buoy wall at X=22-26, Row 9).
 - Step 4: Surf West to X=19.
