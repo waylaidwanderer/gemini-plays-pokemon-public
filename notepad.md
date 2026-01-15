@@ -4,10 +4,11 @@
 - **Status:** Surfing initiated. Moving to (14, 16) to land.
 
 ## Execution Plan
-1. Use Surf at (12, 28). <- CURRENT TASK
-2. Surf North to (12, 16), then land at (13, 16).
-3. Walk West to (11, 16), then North through (11, 15).
-4. Walk to (14, 10) to trigger Suicune.
+1. Use Surf at (12, 28). (Done)
+2. Surf to (14, 16) via (14, 27). <- CURRENT TASK
+3. Land at (13, 16).
+4. Walk West to (11, 16), then North through (11, 15).
+5. Walk to (14, 10) to trigger Suicune.
 
 ## Tile Mechanics (Global)
 - **FLOOR**: Traversable ground. No special effects.
