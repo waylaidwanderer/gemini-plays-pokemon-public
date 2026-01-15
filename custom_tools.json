@@ -83,5 +83,31 @@
         "action_counter": 49083
       }
     ]
+  },
+  "add_numbers": {
+    "description": "Adds two numbers to test sandbox health.",
+    "input_schema": {
+      "properties": {
+        "a": {
+          "type": "integer"
+        },
+        "b": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "a",
+        "b"
+      ],
+      "type": "object"
+    },
+    "python_script": "print(int(input_data['a']) + int(input_data['b']))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-15T11:17:27.979Z",
+        "action_counter": 49085
+      }
+    ]
   }
 }

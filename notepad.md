@@ -1,8 +1,9 @@
-## Plan: Reach North Plateau (Sea Route)
-- Step 1: Surf to (27, 10) then (23, 10). <- CURRENT TASK
-- Step 2: Surf North to (23, 8) to bypass Buoy Wall (X=22, Row 9-15).
-- Step 3: Surf West to (16, 8) then South to land at (16, 12).
-- Step 4: Walk to (14, 10) for Suicune sighting.
+## Plan: Reach Suicune at (14, 10)
+- Step 1: Reach (23, 32) and land. <- CURRENT TASK
+- Step 2: Reach (5, 35) (Wall Gap) via (12, 35).
+- Step 3: Reach (2, 35) (West Beach).
+- Step 4: Walk North along X=2 to Row 10.
+- Step 5: Walk East along Row 10 to (14, 10).
 
 ## Tile Mechanics (Verified)
 - FLOOR: Traversable.
@@ -13,15 +14,19 @@
 - FLOOR_UP_WALL: Impassable cliff face.
 
 ## Navigation Notes
-- Buoy Wall 1: X=26, Row 0-9. Bypass at Row 10.
-- Buoy Wall 2: X=22, Row 9-15. Bypass at Row 8.
-- Ledge: (10, 15) blocks direct North path from center.
-- Landing: (16, 12) is the target landing spot from the sea.
-- Suicune Trigger: (14, 10).
+- X=2: Clear vertical highway (Row 10 to 35).
+- Row 10: Clear horizontal highway (X=2 to 14).
+- Gap (5, 35): Key westward gap in the town cliff line.
+- Ledge (10, 15): Blocks direct northward progress from town center.
 
 ## Battle Strategy: Eusine
-- Strategy: Lead with XENON (44) for Hypnosis/Confuse Ray. Night Shade for fixed damage. GORP (50) for tanking.
+- Strategy: Lead with Calcifer (Lv 64 Typhlosion). One-shot team with Flamethrower.
 
 ## Technical Status
-- find_path_v6_fixed: Failing with 'sandbox not running' errors.
-- Super Repel: Active (approx. 50 steps remaining).
+- Python Sandbox: Reporting 'not running' errors. Automation tools offline.
+
+## Archived Hypotheses
+- Sea Route: Blocked by complex buoy wall network (X=22, Row 9, X=26).
+- Row 51 Detour: Blocked by cliff line at Row 50.
+- Inner Channel: Blocked by solid walls at Row 15.
+- Positional Hallucination (Turn 49021): Corrected; verified position at (19, 46).
