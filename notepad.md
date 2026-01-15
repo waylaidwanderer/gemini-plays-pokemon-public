@@ -39,5 +39,5 @@
 - **Money:** ¥15644.
 - **Items:** Max Repel x30.
 - **Key Items:** Pass (Magnet Train).
-- **Status:** Target Acquired. Opening Pack.
-- **Next Step:** Find Max Repel -> Use -> Hunt.
+- **Status:** Target Acquired. In Menu. Scrolling for Max Repel.
+- **Next Step:** Locate Max Repel -> Use.
