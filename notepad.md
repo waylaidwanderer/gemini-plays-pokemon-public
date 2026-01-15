@@ -11,15 +11,12 @@
 
 # Strategy: Capture Suicune
 - Goal: Reach (14, 10) to trigger sighting.
-- Approach: The Buoy Maze Master Path
+- Approach: The Inner Channel Route (Verified Step-by-Step)
 - Plan:
-  1. Navigate to (22, 16) via Gap 2. [IN PROGRESS]
-  2. South to (22, 26).
-  3. West through (18, 26) (Gap 3) to (17, 26).
-  4. South to (17, 27), then West to (15, 27).
-  5. North to (15, 16), then West to (14, 16).
-  6. Land at (13, 16) and walk to (14, 10).
-- Status: At (27, 15), moving to (22, 16).
+  1. Navigate to (23, 14) then West through Gap 4 (19, 14). [IN PROGRESS]
+  2. Navigate North to (18, 11) and land at (16, 11).
+  3. Walk to (14, 10).
+- Status: At (23, 15), moving to (23, 14).
 
 # Area Notes: Cianwood City
 - Photo Studio: (9, 31) | Poke Seer: (5, 17)
