@@ -18,13 +18,12 @@
 - FLOOR_UP_WALL: Impassable ledge face.
 - LEDGE_HOP_DOWN: One-way jump (North to South).
 
-# Strategy: Capture Suicune (The Northern Buoy Maze)
-- Start Turn: 48227 (Pursuit began), 48505 (Current strategy)
-- Step 1: Surf North along the east channel to (27, 10).
-- Step 2: West through gap at (26, 10) to (23, 10).
-- Step 3: North to (23, 8), then West through gap at (22, 8) to (19, 8).
-- Step 4: West to (17, 11) and land at (16, 11).
-- Step 5: Walk to Suicune sighting spot at (14, 10).
+# Strategy: Reach Suicune (The Western Land Path)
+- Start Turn: 48227 (Pursuit began), 48509 (Current strategy)
+- Step 1: Surf back to land at (19, 30).
+- Step 2: Walk West to X=2, then North to Row 10.
+- Step 3: Walk East to (14, 10) to trigger the Suicune sighting.
+- Note: Avoid breakable rocks at (4, 25) and (4, 19) by staying on the far western edge (X=0-2).
 
 # Area Notes: Cianwood City
 - Photo Studio: (9, 31)
