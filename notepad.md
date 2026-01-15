@@ -10,15 +10,20 @@
 ## Strategy: The Great Southern Loop (v2)
 The city is a maze of walls and ledges. Row 51 is the only clear East-West path.
 1. Land at (23, 32). (Completed)
-2. Walk South to (23, 51). (In Progress)
+2. Navigate to (10, 51) via Row 33 and the X=12 ledge gap:
+   - Up to (23, 33), then Left to (18, 33).
+   - Up to Row 32 to bypass Pokefan M at (17, 33).
+   - Left to (12, 32), then Down to (12, 33).
+   - Down to (12, 49), then Left to (10, 49).
+   - Down through Row 50 gap to (10, 51).
 3. Walk West to (2, 51) to enter the Western Corridor.
-4. Walk North to (2, 14).
-5. Walk East to (8, 14).
-6. Walk North to (8, 12) (Bypasses X=9 wall).
-7. Walk East to (14, 12), then North to (14, 10) to trigger Suicune sighting.
+4. Walk North to (2, 12).
+5. Walk East to (14, 12).
+6. Walk North to (14, 10) to trigger Suicune sighting.
 
 # Progress Notes
 - Discovered: Central Pool is blocked by buoys at X=16 and X=18.
 - Note: No wild encounters on land in the city. Out of Repels.
 - Hypothesis: (14, 10) is the trigger point for the Suicune sighting.
 - Hypothesis: FLOOR_UP_WALL allows landing from the East/West (Testing required).
+- Verification Task: Test North/South passability of FLOOR_UP_WALL at (12, 50).
