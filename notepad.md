@@ -1,33 +1,31 @@
 ## Plan: Reach Suicune at (14, 10) (Started Turn 49086)
 - Goal: Complete Suicune sighting in Cianwood.
-- Step 1: Reach (23, 51) via Row 44 and X=23. <- CURRENT TASK
-  - Path: (12, 44) -> (23, 44) -> (23, 51).
-- Step 2: Reach (4, 51) via Row 51 highway.
-- Step 3: Reach West Beach (2, 35) via X=4 and Row 35.
-  - Path: (4, 51) -> (4, 35) -> (2, 35).
-- Step 4: Walk North along West Beach (X=2) to Row 14.
-- Step 5: Reach Suicune via Row 14 and Row 12 highways.
-  - Path: (2, 14) -> (8, 14) -> (8, 12) -> (14, 12) -> (14, 10).
+- Step 1: Reach (13, 30) and walk East to (19, 30). <- CURRENT TASK
+- Step 2: Surf East to X=24, then North to Row 16.
+- Step 3: Surf West to (14, 16) and land at (13, 16).
+- Step 4: Walk zigzag path to Suicune:
+  - (13, 16) -> (11, 16) -> (11, 15) gap -> (11, 14).
+  - (11, 14) -> (13, 14) -> (13, 13) gap -> (13, 12).
+  - (13, 12) -> (14, 12) -> (14, 10).
 
 ## Tile Mechanics (Verified)
 - FLOOR: Traversable.
 - WALL: Impassable.
-- WATER: Requires Surf.
-- LEDGE_HOP_DOWN: One-way jump (North to South).
 - FLOOR_UP_WALL: Impassable cliff face.
+- LEDGE_HOP_DOWN: One-way jump (North to South).
+- WATER: Requires Surf.
+- BUOY: Impassable.
 
 ## Navigation Notes
-- Vertical Highway (East): X=23 is a clear corridor from Row 32 to Row 53.
-- Vertical Highway (West): X=2 (beach) is a clear corridor from Row 35 to Row 14.
-- Horizontal Highway (South): Row 51 is a clear corridor from X=4 to X=24.
-- Horizontal Highway (North): Row 12 is a clear corridor from X=8 to X=14.
-- Row 44: Clear horizontal path from X=6 to X=23.
-- Wall Maze: (9, 35) and (10, 40) block direct paths. Must use Row 33 or Row 44.
+- X=13: Clear vertical land highway (Row 30 to 49).
+- Row 30: Clear horizontal land highway (X=12 to 19).
+- Landing: (13, 16) is the target landing spot from the inner channel.
+- Suicune Trigger: (14, 10).
 
 ## Battle Strategy: Eusine
-- Strategy: Lead with Calcifer (Lv 64 Typhlosion). Sweep with Flamethrower.
+- Strategy: Lead with Calcifer (Lv 64 Typhlosion). Use Flamethrower.
 
 ## Technical Status
 - Python Sandbox: Reporting 'not running' errors. Tools offline.
-- Super Repel: Active (Re-applied Turn 49091).
-- Turn Count: Corrected Turn 49089. Current Turn 49100.
+- Super Repel: Active (Used Turn 49091, ~160 steps remaining).
+- Turn Count: Current Turn 49102.
