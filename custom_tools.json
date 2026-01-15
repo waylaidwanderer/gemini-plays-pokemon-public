@@ -131,5 +131,36 @@
         "action_counter": 48649
       }
     ]
+  },
+  "find_path_v8": {
+    "description": "Finds a traversable path from the player's current position to a target coordinate on the current map, specifically handling LEDGE_HOP_DOWN as one-way (South) and treating FLOOR_UP_WALL as a wall. Returns a JSON array of button strings. Distinguishes between LAND and WATER mediums.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "autopress_buttons": {
+          "default": false,
+          "description": "If true and the tool returns a list of buttons, they will be pressed automatically. Safety limit of 50 buttons per turn.",
+          "type": "boolean"
+        },
+        "target_x": {
+          "type": "integer"
+        },
+        "target_y": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "target_x",
+        "target_y"
+      ]
+    },
+    "python_script": "import json\nimport xml.etree.ElementTree as ET\nfrom collections import deque\n\ndef find_path(target_x, target_y, map_xml):\n    root = ET.fromstring(map_xml)\n    width = int(root.attrib['width'])\n    height = int(root.attrib['height'])\n    \n    grid = {}\n    start_x, start_y = None, None\n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            grid[(x, y)] = tile\n            if tile.find('Player') is not None:\n                start_x, start_y = x, y\n                \n    if start_x is None: return None\n    \n    start_tile = grid.get((start_x, start_y))\n    start_type = start_tile.attrib['type']\n    is_start_water = (start_type == 'WATER')\n    \n    # Priority: Avoid objects, handle ledges, handle mediums\n    queue = deque([(start_x, start_y, is_start_water, [])])\n    visited = {(start_x, start_y, is_start_water)}\n    \n    while queue:\n        cx, cy, surfing, path = queue.popleft()\n        \n        if cx == target_x and cy == target_y:\n            return path\n            \n        for dx, dy, btn in [(0, -1, \"Up\"), (0, 1, \"Down\"), (-1, 0, \"Left\"), (1, 0, \"Right\")]:\n            nx, ny = cx + dx, cy + dy\n            if 0 <= nx < width and 0 <= ny < height:\n                tile = grid.get((nx, ny))\n                if tile is None:\n                    # Treat unseen as potentially passable floor\n                    t_type = \"unseen\"\n                else:\n                    t_type = tile.attrib['type']\n                \n                passable = False\n                n_surfing = surfing\n                \n                if surfing:\n                    if t_type in [\"WATER\", \"unseen\"]:\n                        passable = True\n                    elif t_type in [\"FLOOR\"]:\n                        # Landing\n                        passable = True\n                        n_surfing = False\n                    elif t_type == \"BUOY\":\n                        passable = False\n                else:\n                    if t_type in [\"FLOOR\", \"unseen\"]:\n                        passable = True\n                    elif t_type == \"WATER\":\n                        # Surfing (requires A button, but we assume movement here)\n                        passable = True\n                        n_surfing = True\n                    elif t_type == \"LEDGE_HOP_DOWN\":\n                        if dy == 1: passable = True\n                \n                if t_type in [\"WALL\", \"DOOR\", \"FLOOR_UP_WALL\"]:\n                    passable = False\n                \n                if tile is not None and (tile.find('Object') is not None or tile.find('Boulder') is not None):\n                    if (nx, ny) != (target_x, target_y):\n                        passable = False\n                            \n                if passable:\n                    if (nx, ny, n_surfing) not in visited:\n                        visited.add((nx, ny, n_surfing))\n                        queue.append((nx, ny, n_surfing, path + [btn]))\n    return None\n\ntry:\n    path = find_path(int(input_data['target_x']), int(input_data['target_y']), map_xml_string)\n    if path is not None:\n        print(json.dumps(path))\n    else:\n        print(\"null\")\nexcept Exception as e:\n    print(f\"Error: {str(e)}\")\n",
+    "history": [
+      {
+        "commit_message": "Created a robust pathfinding tool that handles ledges, mediums, and objects correctly. Returns button strings.",
+        "timestamp": "2026-01-15T04:38:38.558Z",
+        "action_counter": 48653
+      }
+    ]
   }
 }
