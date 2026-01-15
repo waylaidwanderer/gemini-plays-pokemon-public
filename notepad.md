@@ -11,16 +11,18 @@
 6. Tin Tower 1F
 
 ## Plan: Reach North Plateau (Sea Route)
-- Step 1: Surf from (19, 30). <- CURRENT TASK
-- Step 2: Surf East to X=27.
-- Step 3: Surf North to Row 8 (bypasses buoy wall at X=22-26, Row 9).
-- Step 4: Surf West to X=19.
-- Step 5: Surf South to Row 11.
-- Step 6: Surf West and land at (17, 11).
-- Step 7: Walk to (14, 10) to trigger Suicune sighting.
-- Super Repel active: Turn 49046.
+- Step 1: Surf East to (27, 30). <- CURRENT TASK
+- Step 2: Surf North to (27, 8) to bypass Buoy Wall (X=22-26, Row 9).
+- Step 3: Surf West to (19, 8).
+- Step 4: Surf South to (19, 11).
+- Step 5: Surf West and land at (16, 11).
+- Step 6: Walk to (14, 10) to trigger Suicune sighting.
+
+# Navigation Notes
 - Buoy Wall: X=22-26, Row 9. Bypass at X=27.
-- Plateau Landing: (17, 11) is target landing spot.
+- Ledge: (10, 15) blocks direct North path from center.
+- Landing: (16, 11) is target landing spot.
+- Suicune Trigger: (14, 10).
 
 # Tile Mechanics
 - FLOOR: Traversable.
@@ -28,15 +30,8 @@
 - FLOOR_UP_WALL: Impassable (Cliff face).
 - LEDGE_HOP_DOWN: One-way jump (North to South).
 - WATER: Requires Surf.
+- BUOY: Impassable.
 - ROCK: Smashable obstacle.
-
-# Navigation Notes
-- Buoy Gap: (23, 15) is the only way into the northern sea.
-- Plateau Landing: (17, 11) is the landing spot from the sea.
-- Suicune Trigger: (14, 10).
-- Highway: Row 30 is a clear horizontal land path (X=12 to X=19).
 
 # Tracking
 - Super Repel active: Turn 49046.
-- Suicune Trigger: (14, 10).
-- Plateau Landing (Secondary Plan): (15, 11).
