@@ -1,13 +1,19 @@
-## Strategy: West Beach Highway via Southern Bypass
+## Strategy: Terrestrial Bypass to Suicune
 **Start Turn:** 48900 (Quest: Trigger Suicune Overworld Sighting)
 
-Cianwood's internal walls are bypassed by the 'West Beach Highway' (X=2).
-Confirmed Path:
-1. Surf to (20, 32) and land on the East Shore. <- CURRENT TASK
-2. Walk South to Row 52, then West to (2, 52) to enter the highway.
-3. Walk North along X=2 to (2, 13).
-4. Walk East to (5, 13), then North to (5, 12) to enter the plateau.
-5. Walk East along Row 12 to (14, 12), then North to (14, 10) to trigger Suicune.
+Cianwood's internal walls (X=9, X=7, X=5) must be bypassed using specific gaps:
+1. X=9 Wall Gap: Row 44 (Target: (8, 44))
+2. X=5 Wall Gap: Row 35 (Target: (2, 35))
+
+### Step-by-Step Execution Plan
+1. Walk West to the X=12 corridor at (12, 32). <- CURRENT TASK
+2. Walk South to (12, 44).
+3. Walk West to (8, 44), bypassing the X=9 wall.
+4. Walk North to (8, 35).
+5. Walk West to (2, 35), bypassing the X=5 wall.
+6. Walk North along the West Beach Highway (X=2) to (2, 14).
+7. Walk East to (8, 14), then North to (8, 10).
+8. Walk East to (14, 10) to trigger Suicune sighting.
 
 ## Tile Mechanics: Cianwood City
 - FLOOR: Standard ground.
@@ -18,9 +24,10 @@ Confirmed Path:
 
 ## Navigation: Landmarks
 - West Beach Highway (X=2): Clear North-South passage from Row 53 to Row 14.
-- Southern Bypass (Row 52): Clear East-West passage from X=25 to X=2.
-- Plateau Entrance (5, 12): Access point from the West Beach.
+- Row 44 Gap: Access through the X=9 wall.
+- Row 35 Gap: Access through the X=5 wall.
+- Northern Plateau (X=6-15, Row 10-14): Accessible from X=8, Row 14.
 
 ## Inventory Check
-- Super Repel: 5 remaining. Last applied turn 49278. (~16 steps remaining).
+- Super Repel: 5 remaining. (On land, not needed).
 - Party: Calcifer (Lv 64) leads. Ready for Eusine.
