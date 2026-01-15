@@ -10,12 +10,14 @@
 - FLOOR_UP_WALL: Impassable ledge face. Acts as a solid wall from all directions.
 - LEDGE_HOP_DOWN: One-way jump (North to South).
 
-# Strategy: Capture Suicune (The Strip 2 Corridor)
+# Strategy: Capture Suicune (West Beach Land Path)
 - Start Turn: 48435
 - Step 1: Use Super Repel.
-- Step 2: Walk North to (13, 13) via the clear corridor at X=13.
-- Step 3: Walk East to (14, 13) and North to Suicune at (14, 10).
-- Verified: X=13 is a clear path through the town's vertical strips.
+- Step 2: Walk North to Row 33, then West to (2, 33) via gaps at X=11 and X=5.
+- Step 3: Walk North on West Beach to Row 12.
+- Step 4: Walk East along Row 12 corridor to (14, 12).
+- Step 5: Walk North to Suicune at (14, 10).
+- Verified: Row 12 is a clear corridor from West Beach to the plateau.
 
 # Area Notes: Cianwood City
 - Photo Studio: (9, 31)
