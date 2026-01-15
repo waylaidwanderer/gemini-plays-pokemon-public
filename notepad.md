@@ -12,9 +12,9 @@
 - **Goal:** Register Raikou & Entei.
 - **Current Task:** Gatehouse Shuffle (Looping Rt 38 <-> Gatehouse).
 - **Session Start:** Turn 40704 (Blind Shuffle Route 38).
-- **Location:** Route 38 (Shuffle Cycle #19).
-- **Action:** Moving to grass for Scan #19.
-- **Status:** Exited Gatehouse. Repel Active.
+- **Location:** Route 38 (Scanning Cycle #19).
+- **Action:** Scanning Grass (Left x10).
+- **Status:** Hunting Raikou/Entei. Repel Active.
 - **Pokedex Mode:** Old (National Dex). Target: #243 Raikou, #244 Entei.
 - **Pokedex Status:** #243 (Raikou) & #244 (Entei) are UNSEEN (Cannot track). #245 (Suicune) is SEEN.
 - **Strategy:** Blind Gatehouse Shuffle.
