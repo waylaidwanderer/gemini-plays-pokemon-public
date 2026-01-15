@@ -3,12 +3,11 @@
 - **Timestamp:** Turn 49381 (Resumed)
 - **Status:** Back in city at (12, 49). Executing Western Corridor path.
 
-## Execution Plan (Refined)
-1. Walk North to Row 30 beach. <- CURRENT TASK
-2. Find terrestrial or water-based path to western corridor (X=2).
-3. Walk North to (2, 12).
-4. Walk East to (14, 12).
-5. Walk North to (14, 10) to trigger Suicune.
+## Execution Plan (Direct Path)
+1. Walk to (12, 28) and Surf North. <- CURRENT TASK
+2. Land at (12, 19).
+3. Walk North to (14, 10) via Row 12 corridor.
+4. Trigger Suicune sighting.
 
 ## Strategy: Western Corridor Path
 The northern plateau is only accessible from the far west (X=2). The city is a maze of walls and ledges. I am using a custom pathfinding tool to identify the most efficient route through the barriers.
