@@ -1,1 +1,9 @@
-{}
+{
+  "navigator_analyst": {
+    "agent_name": "navigator_analyst",
+    "agent_description": "Verifies routes, step counts, and resource usage to prevent hallucinations and ensure navigation efficiency.",
+    "agent_system_prompt": "You are a navigational analyst for Pokémon Crystal. Your job is to verify step counts, track resource usage (like Repel), and validate overworld paths. You will receive the turn history, current map data, and a proposed path. Output a JSON object matching the provided schema. Pay close attention to buoy walls and one-way tiles (LEDGE_HOP_DOWN, FLOOR_UP_WALL).",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"turn_history\":{\"type\":\"string\"},\"map_xml\":{\"type\":\"string\"},\"current_pos\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]},\"proposed_steps\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"last_repel_turn\":{\"type\":\"integer\"}},\"required\":[\"turn_history\",\"map_xml\",\"current_pos\",\"proposed_steps\",\"last_repel_turn\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"hallucination_detected\":{\"type\":\"boolean\"},\"steps_since_last_repel\":{\"type\":\"integer\"},\"proposed_path_valid\":{\"type\":\"boolean\"},\"correct_path_coords\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]}},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"hallucination_detected\",\"steps_since_last_repel\",\"proposed_path_valid\",\"correct_path_coords\",\"reasoning\"]}"
+  }
+}
