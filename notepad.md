@@ -4,8 +4,8 @@
 Cianwood's terrestrial path is blocked by ledges. The northern plateau is accessible by Surfing through the Row 15 gap and landing at the inner island.
 
 ### Step-by-Step Execution Plan
-1. Walk to the Surf point at (23, 32). <- CURRENT TASK
-2. Surf North to the Row 15 gap at (23, 15).
+1. Walk to the Surf point at (23, 32). (Done)
+2. Surf North to the Row 15 gap at (23, 15). <- CURRENT TASK
 3. Surf North to Row 14, then West to (18, 14) (Bypasses X=19 wall).
 4. Surf South to (18, 16), then West to land at (13, 16).
 5. Walk West to (11, 16), then North through the gap at (11, 15).
