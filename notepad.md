@@ -12,4 +12,5 @@
 - **Goal:** Register Raikou & Entei.
 - **Current Task:** Gatehouse Shuffle (Looping Rt 38 <-> Gatehouse).
 - **Location:** Route 38 (East Side).
-- **Action:** Confirming Old Pokedex Mode (Numerical) to check Raikou/Entei status.
+- **Pokedex Mode:** Old (National Dex). Target: #243 Raikou, #244 Entei.
+- **Action:** Scrolling down to check entries (Testing 'Right' for Page Down).
