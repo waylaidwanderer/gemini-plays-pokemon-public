@@ -1,19 +1,18 @@
 # Strategy: Capture Suicune (Started Turn 48227)
 - Goal: Reach (14, 10) in Cianwood City to trigger sighting.
-- Approach: The West Beach Land Route (Verified)
+- Approach: The West Beach Ledge Jump
 - Plan:
-  1. Walk to (4, 51) via (18, 45) -> (18, 51). [IN PROGRESS]
-  2. Walk North along X=4 to (4, 37).
-  3. Walk West to (2, 37).
-  4. Walk North along West Beach (X=2) to (2, 14).
-  5. Walk East to (8, 14), then North to (8, 12).
-  6. Walk East along Row 12 to (14, 12), then North to (14, 10).
-- Status: At (19, 42). Repel active. Stunned NPCs 1, 2, 10.
-- Reasoning: City is partitioned by vertical walls (X=5, X=9, X=11, X=17). Row 51 is the only identified land bridge from the east side to the west side. X=4 is a clear vertical corridor from Row 51 to Row 37. Row 37 provides access to the West Beach (X=0-2), which is the only vertical highway past the northern barriers (Row 30 cliff, Row 15 wall/ledge).
+  1. Walk to (6, 33) via Row 33. [IN PROGRESS]
+  2. Jump DOWN ledge at (6, 34) to (6, 35).
+  3. Walk West to West Beach (X=2) via Row 35.
+  4. Walk North along West Beach (X=2) to Row 12.
+  5. Walk East along Row 12 to (14, 12), then North to (14, 10).
+- Status: At (19, 42). Repel active. Stunned NPC 1.
+- Reasoning: Row 15 is a solid barrier. X=2 (West Beach) is the only vertical highway North. Row 33 has a gap at X=9 to reach the central city. The ledge at (6, 34) provides the only confirmed land access to the western beach corridor (Row 35).
 
 # Blocked Routes (Verified)
 - Row 15: Solid line of WALL and LEDGE_HOP_DOWN from X=3 to X=17.
-- City Walls: Vertical walls at X=5, X=9, X=11, X=17 block most horizontal movement.
+- City Walls: Vertical walls at X=5, X=11, X=17, X=20, X=22.
 - Row 30 Cliff: Impassable FLOOR_UP_WALL from X=4 to X=11.
 
 # Tile Mechanics (Verified)
@@ -27,5 +26,5 @@
 # Area Notes: Cianwood City
 - Photo Studio: (9, 31) | Poke Seer: (5, 17)
 - Pharmacy: (15, 47) | Gym: (8, 43) | PokeCenter: (23, 43)
-- Southern Corridor: Row 51 (X=4-24 confirmed).
-- West Beach: X=0, 1, 2 (Rows 12-51).
+- City Gaps: Row 33 (X=9), Row 35 (X=5).
+- West Beach: X=0, 1, 2.
