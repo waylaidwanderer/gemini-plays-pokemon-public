@@ -14,14 +14,14 @@
 - **Location:** Route 38 (West of Ecruteak).
 - **Hunt Start:** Turn ~40000.
 - **Current Loop:** 17.
-- **Action:** Navigate around NPC to Grass.
-- **Hunt Progress:** Phase 2 Loop 17/50. Moving to Grass (Detour).
-- **Beast Status:** **POSITIVE** (Route 38).
-- **Obstacle:** Beauty Valerie at (19, 9).
+- **Action:** Detour via Row 12 to bypass wall.
+- **Hunt Progress:** Phase 2 Loop 17/50. Navigating to Grass.
+- **Beast Status:** **POSITIVE** (Route 38). Assumed still present (no map change).
+- **Correction:** Wall at x=14 blocks direct path. Gap exists at y=12.
 - **Plan:**
-    1. Move Down to (20, 10).
-    2. Move Left to (10, 10).
-    3. Jump Ledge to (9, 10).
+    1. Right to (16, 10).
+    2. Down to (16, 12).
+    3. Left to (9, 12) (Jump Ledge).
     4. Hunt in Grass.
 - **Hunt Strategy:**
 
