@@ -27,8 +27,7 @@
 - **Money:** ¥15644.
 - **Items:** Max Repel x30.
 - **Key Items:** Pass (Magnet Train).
-- **Status:** Hunting Loop (Rt 37 <-> Ecruteak). Ignoring loop warnings.
-- **Action:** Opening Map to check Roamer locations.
+- **Status:** Beasts on Rt 38 & 42 (Turn 39865). Moving to Ecruteak.
 
 # Reflection (Turn 39822)
 - **Lesson:** Start Menu cursor remembers position. Pokegear also likely remembers last tab. Always verify or reset state.
