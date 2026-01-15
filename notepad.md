@@ -39,5 +39,5 @@
 - **Money:** ¥15644.
 - **Items:** Max Repel x30.
 - **Key Items:** Pass (Magnet Train).
-- **Status:** Positioning for Reset (Step Left). Loop 7/50.
-- **Next Step:** Execute Reset Tool.
+- **Status:** Clearing Wade's Call. Loop 7/50 paused.
+- **Next Step:** Finish Call, Check Position, Resume Loop.
