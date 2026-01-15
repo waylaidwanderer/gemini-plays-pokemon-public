@@ -3,7 +3,7 @@
 - Strategy: Use the "Outer Sea Route" to bypass the plateau walls.
 
 ## Plan: Reach Suicune at (14, 10)
-- Step 1: Surf South from (12, 19) to (12, 21). <- CURRENT TASK
+- Step 1: Dismiss Surf text and navigate to (12, 21). <- CURRENT TASK
 - Step 2: Surf East to (19, 21) (Buoy Gap).
 - Step 3: Surf East to (23, 21) and North to (23, 15) (Buoy Gap).
 - Step 4: Surf North to Row 11 and West to (16, 11).
