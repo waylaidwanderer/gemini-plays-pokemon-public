@@ -54,3 +54,5 @@
 - Turn 40543: Pressing A to enter Pokegear. Previous multi-button input was truncated by system.
 - Turn 40544: Navigating Pokegear menu (Right -> A) to select Map card. Visual cursor confirms menu focus despite 'Press any button to exit' text.
 - Turn 40545: Cursor is on Map card. Pressing A to open the map and check for Beast locations.
+- Turn 40546: Checked Map. Roamers visible on Route 42, Route 44, and possibly Route 31 area. CONFIRMED: None on Route 38.
+- Plan: Exit Pokegear, travel to Route 38 Gatehouse (East), and toggle maps to shuffle positions.
