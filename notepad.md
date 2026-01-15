@@ -39,9 +39,9 @@
 - **Money:** ¥15644.
 - **Items:** Max Repel x30.
 - **Key Items:** Pass (Magnet Train).
-- **Status:** Route 38 (35,9). Resuming Loop 32 Reset.
-- **Next Step:** Left (34,9) -> Right (Enter 35,9).
-- **Note:** Previous turn only executed 'B, B' due to button mixing rule. Movement was NOT attempted.
+- **Status:** Route 38 (35,9). Standing on Warp. Bumping to Enter.
+- **Next Step:** Right (Force Entry) -> Exit Gate -> Check Map.
+- **Note:** Movement to (35,9) confirmed, but warp did not trigger. Bumping required.
 - **Roamer Check:** Negative. Resetting for Loop 33.
 - **Strategy:** Manual Reset: Enter -> Exit -> Check.
 - **Strategy:** Manual Reset: Right (Enter) -> Left (Exit) -> Check Map.
