@@ -6,23 +6,15 @@
 
 # Suicune Quest (Cianwood)
 - Started: Turn 49630
-## Strategy: The S-Curve Bypass
-Reach (14, 10) by crossing internal walls at specific gaps.
-1. Move North to (18, 45) and West to (12, 45).
-2. Move North along X=12 to (12, 33).
-3. Move West through gap at (9, 33) to (6, 33).
-4. Move North along X=6 to (6, 24).
-5. Move West through gap at (5, 24) to (4, 24).
-6. Move North along X=4 to (4, 22).
-7. Move West through gap at (3, 22) to (2, 22) (Western Corridor).
-8. Move North along X=2 to (2, 12).
-9. Move East along Row 12 to (14, 12) and North to (14, 10).
+## Strategy: The Secret Gap Bypass
+Reach (14, 10) by using the gap at (11, 15) to bypass the Row 15 ledge.
+1. Move North along X=12 to (12, 28).
+2. Surf from (12, 28) to (12, 16) and land.
+3. Move West to (11, 16) and North through gap at (11, 15) to (11, 14).
+4. Move East to (14, 14) and North to (14, 10) to trigger Suicune.
 
 # Progress Notes
-- Verified: (18, 46) is a FLOOR gap in the Row 46 ledge.
-- Verified: Row 33 gap at (9, 33) crosses X=9 wall.
-- Verified: Row 24 gap at (5, 24) crosses X=5 wall.
-- Verified: Row 22 gap at (3, 22) crosses X=3 wall.
-- Verified: Row 12 is a clear horizontal path from X=5 to X=14.
-- Blocked: Row 34 ledge (X=6-8) blocks SOUTH movement from Row 33.
-- Blocked: (4, 25) is a smashable rock (acts as WALL).
+- Verified: (11, 15) is FLOOR, providing a gap in the Row 15 ledge/wall.
+- Verified: Row 12 is a clear horizontal path from X=2 to X=14.
+- Blocked: All other land routes (X=4, 6, 9) are blocked by walls or NORTH-blocking ledges at Row 15.
+- Blocked: Sea Route is restricted by complex buoy walls and landing point barriers.
