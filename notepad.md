@@ -1,4 +1,14 @@
-# Strategy: Catch Legendary Pokémon
+# Strategy: Catch Legendary Pokémon (Started Turn 48785)
+
+# Tile Mechanics (Verified)
+- FLOOR: Standard ground. Traversable.
+- WALL: Impassable.
+- LADDER: Warp point between floors. Traversable.
+- WARP_CARPET_RIGHT: Warp point to another map. Traversable by moving Right.
+- WARP_CARPET_LEFT: Warp point to another map. Traversable by moving Left.
+- WARP_CARPET_UP: Warp point to another map. Traversable by moving Up.
+- WARP_CARPET_DOWN: Warp point to another map. Traversable by moving Down.
+
 - Goal: Locate and capture Suicune, Lugia, and Ho-Oh.
 - Status: 16 Badges obtained. Clear Bell in possession.
 
