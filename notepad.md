@@ -4,22 +4,21 @@
 - WATER: Surf required. Traversable.
 - BUOY: Impassable water obstacle.
 - DOOR: Warp point.
-- FLOOR_UP_WALL: Impassable cliff face.
+- FLOOR_UP_WALL: Impassable cliff face (e.g., Row 15, Row 30, Row 34).
 - LEDGE_HOP_DOWN: One-way jump (North to South).
 - BREAKABLE ROCK: Requires Rock Smash. Impassable.
 - NPC: Impassable. Interact from adjacent tile.
 
 # Strategy: Capture Suicune (Started Turn 48227)
 - Goal: Reach (14, 10) to trigger sighting.
-- Approach: The Northern Buoy Bypass (Verified)
+- Approach: The West Beach Corridor (Verified)
 - Plan:
   1. Use Super Repel. [IN PROGRESS]
-  2. Navigate to (23, 16), then North through Gap 6 at (23, 15) to (23, 14).
-  3. Navigate West to (19, 14) [Gap 4].
-  4. Navigate North to (19, 11), then West to land at (16, 11).
-  5. Walk to (14, 10) to trigger sighting.
-- Status: At (27, 18) surfing, using Super Repel.
-- Reasoning: Row 8 is the only verified way to bypass the solid buoy wall at X=22. Row 10 is the only verified way to bypass the solid buoy wall at X=26.
+  2. Navigate to (2, 30) via the southern channel loop.
+  3. Land at (2, 29) and walk North along X=2 to Row 11.
+  4. Walk East to (14, 10).
+- Status: At (27, 18) surfing, in PACK menu.
+- Reasoning: The West Beach (X=2) is a clear land corridor that bypasses all city obstacles. Access is easiest by surfing south to Row 30, then west to X=2.
 
 # Area Notes: Cianwood City
 - Photo Studio: (9, 31) | Poke Seer: (5, 17)
