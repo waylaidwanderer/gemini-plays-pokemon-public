@@ -47,5 +47,5 @@
 - Turn 40580: Cursor confirmed on Map Card. Pressing 'A' to open map and verify Beast positions (Shuffle #3).
 - Turn 40582: Start Menu visible. Pressing B to return to Overworld and perform Shuffle #4.
 - Strategy: Gatehouse Shuffle (Rt 38 <-> Gatehouse) in progress.
-- Status (Turn 40594): On (35, 9). Loop counter reset.
-- Action: Executing "Double Tap Right" to trigger warp and start Shuffle #5.
+- Status (Turn 40596): Inside Gatehouse (Shuffle #5).
+- Action: Exiting back to Route 38 (Left x2) to complete shuffle.
