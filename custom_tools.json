@@ -35,104 +35,28 @@
       }
     ]
   },
-  "test_sandbox": {
-    "description": "A simple tool to test if the Python sandbox is operational.",
-    "input_schema": {
-      "properties": {},
-      "type": "object"
-    },
-    "python_script": "print('Sandbox is operational.')",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-01-15T11:09:57.622Z",
-        "action_counter": 49081
-      }
-    ]
-  },
-  "manhattan_distance": {
-    "description": "Calculates the Manhattan distance between two points. Used to test Python sandbox health.",
+  "menu_navigator": {
+    "description": "Presses a sequence of buttons to navigate menus or interact with objects. Bypasses directional/action button restrictions. Returns a JSON array of button strings.",
     "input_schema": {
       "properties": {
-        "x1": {
-          "type": "integer"
-        },
-        "x2": {
-          "type": "integer"
-        },
-        "y1": {
-          "type": "integer"
-        },
-        "y2": {
-          "type": "integer"
+        "buttons": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
         }
       },
       "required": [
-        "x1",
-        "y1",
-        "x2",
-        "y2"
+        "buttons"
       ],
       "type": "object"
     },
-    "python_script": "print(abs(int(input_data['x1']) - int(input_data['x2'])) + abs(int(input_data['y1']) - int(input_data['y2'])))",
+    "python_script": "import json\nprint(json.dumps(input_data['buttons']))",
     "history": [
       {
         "commit_message": "Initial version",
-        "timestamp": "2026-01-15T11:12:43.619Z",
-        "action_counter": 49083
-      }
-    ]
-  },
-  "add_numbers": {
-    "description": "Adds two numbers to test sandbox health.",
-    "input_schema": {
-      "properties": {
-        "a": {
-          "type": "integer"
-        },
-        "b": {
-          "type": "integer"
-        }
-      },
-      "required": [
-        "a",
-        "b"
-      ],
-      "type": "object"
-    },
-    "python_script": "print(int(input_data['a']) + int(input_data['b']))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-01-15T11:17:27.979Z",
-        "action_counter": 49085
-      }
-    ]
-  },
-  "sandbox_test_v2": {
-    "description": "A basic tool to test the sandbox by performing a simple arithmetic operation.",
-    "input_schema": {
-      "properties": {
-        "a": {
-          "type": "integer"
-        },
-        "b": {
-          "type": "integer"
-        }
-      },
-      "required": [
-        "a",
-        "b"
-      ],
-      "type": "object"
-    },
-    "python_script": "print(int(input_data['a']) + int(input_data['b']))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-01-15T11:19:20.778Z",
-        "action_counter": 49087
+        "timestamp": "2026-01-15T11:45:46.410Z",
+        "action_counter": 49121
       }
     ]
   }
