@@ -39,9 +39,9 @@
 - **Money:** ¥15644.
 - **Items:** Max Repel x30.
 - **Key Items:** Pass (Magnet Train).
-- **Status:** Route 38 (35,9). Entry failed on (35,9).
-- **Next Step:** Left (34,9) -> Up (34,8) -> Right (Enter 35,8).
-- **Note:** Switching to top tile. Bottom tile seems sticky.
+- **Status:** Route 38 (35,8). Retrying Entry.
+- **Next Step:** Right (Enter Gate) -> Left (Exit Gate) -> Check Map.
+- **Note:** 'Right' from (35,8) worked in Turn 40149. Retrying.
 - **Roamer Check:** Negative. Resetting.
 - **Strategy:** Manual Reset: Enter -> Exit -> Check.
 - **Strategy:** Manual Reset: Right (Enter) -> Left (Exit) -> Check Map.
