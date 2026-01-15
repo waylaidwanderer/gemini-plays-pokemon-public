@@ -26,4 +26,4 @@ The northern plateau (14, 10) is reached by weaving through wall gaps to the Wes
 - Sea Bypass is longer and landing points are unconfirmed.
 
 ## Progress Summary
-- Turn 49544: Landed at (23, 32). Moving to (12, 33).
+- Turn 49545: Starting manual ascent. Moving to (6, 33).
