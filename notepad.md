@@ -4,11 +4,10 @@
 Current mental map indicates no valid path to (14, 10) through seen tiles. Priority is revealing unseen tiles adjacent to the plateau to identify the entrance.
 
 ### Step-by-Step Execution Plan
-1. Land at (13, 16). <- DONE
-2. Walk to (11, 16), then North to (11, 14) to bypass the Row 15 wall. <- CURRENT TASK
-3. Walk North along the X=11 corridor to Row 10.
-4. Reveal unseen tiles in Rows 9, 10, and 11.
-5. Re-evaluate path to (14, 10) once more of the map is visible.
+1. Move to the Surf point at (13, 16) and Surf East. <- CURRENT TASK
+2. Navigate North to Row 8, cross West to X=21, then South to Row 11.
+3. Explore (18, 11) and (17, 11) to reveal the plateau entrance.
+4. Re-evaluate path to (14, 10) once more of the map is visible.
 
 ## Tile Mechanics: Cianwood City
 - FLOOR: Standard traversable ground.
