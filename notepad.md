@@ -10,6 +10,7 @@
 - **Sticky Warps (Gatehouses):** Require walking *into* the wall/direction of travel while ON the warp tile (e.g., Double Tap Right to enter).
 - **TALL_GRASS:** Wild encounters possible.
 - **LEDGE_HOP:** One-way movement.
+- **WARP_CARPET_LEFT:** Walk off map edge to exit.
 
 # Strategic Status
 - **Session Start:** Turn 40947 (Max Repel Applied).
@@ -20,4 +21,4 @@
     3. If no encounter, repeat.
     - **Repel Trick:** Lead Pokemon (Lv 37) > Wild Pokemon (Lv ~20) but < Roamers (Lv 40). Max Repel ACTIVE. Only Roamers should appear.
 - **Mechanics Note:** Repel confirmed working in current session (Turns 40947-41004, zero encounters). Previous anomalies likely due to unnoticed expiration.
-- **Action:** Shuffling (Entering Gatehouse).
+- **Action:** Shuffling (Exiting Gatehouse).
