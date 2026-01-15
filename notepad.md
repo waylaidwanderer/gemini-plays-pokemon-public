@@ -28,3 +28,8 @@
 - **Items:** Max Repel x30.
 - **Key Items:** Pass (Magnet Train).
 - **Status:** In Ecruteak (Turn 39821). Checking Map for Beast locations.
+
+# Reflection (Turn 39822)
+- **Lesson:** Start Menu cursor remembers position. Pokegear also likely remembers last tab. Always verify or reset state.
+- **Hypothesis:** Roamers might be stuck in a 38-42 loop. If hunt stalls >60 loops, consider moving to Mahogany/Violet to disrupt pattern.
+- **Check:** Confirmed I can see Beasts on Pokegear Map despite not battling them in wild yet. Burned Tower event was sufficient.
