@@ -12,4 +12,4 @@
 - **Goal:** Register Raikou & Entei.
 - **Current Task:** Gatehouse Shuffle (Looping Rt 38 <-> Gatehouse).
 - **Location:** Route 38 (East Side).
-- **Action:** Shuffle #10 Negative. Closing Map to restart cycle.
+- **Action:** Checking Pokegear Map for Raikou & Entei.
