@@ -17,11 +17,3 @@
 # Area Notes: Cianwood City
 - Photo Studio: (9, 31) | Poke Seer: (5, 17)
 - Pharmacy: (15, 47) | Gym: (8, 43) | PokeCenter: (23, 43)
-
-# Tile Mechanics (Verified)
-- FLOOR: Standard ground.
-- WALL: Impassable.
-- WATER: Surf required.
-- BUOY: Impassable water.
-- FLOOR_UP_WALL: Impassable cliff face.
-- LEDGE_HOP_DOWN: One-way jump (North to South).
