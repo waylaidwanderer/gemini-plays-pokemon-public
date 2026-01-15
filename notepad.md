@@ -4,8 +4,8 @@
 The city is a maze of 'FLOOR_UP_WALL' barriers. I will Surf around the entire island via Route 41 to reach the West Beach.
 
 ### Step-by-Step Execution Plan
-1. Apply Super Repel (Bag). <- CURRENT TASK
-2. Surf at (12, 28) and head East to re-enter Route 41 at (29, 32).
+1. Move to East Shore Landing at (23, 32). <- CURRENT TASK
+2. Surf East to re-enter Route 41 at (29, 32).
 3. Surf around the island's southern or northern tip to reach the West Shore.
 4. Re-enter Cianwood City from the West and land on the beach at (2, 35).
 5. Walk North to (14, 10) to trigger Suicune.
