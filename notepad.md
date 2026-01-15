@@ -32,5 +32,5 @@
 - **Money:** ¥15644.
 - **Items:** Max Repel x30.
 - **Key Items:** Pass (Magnet Train).
-- **Status:** Ecruteak City. Clearing Call. Loop ~69/75.
-- **Next Step:** Finish call, Enter Route 37.
+- **Status:** Entering Route 37. Loop ~69/75.
+- **Next Step:** Check map on Route 37.
