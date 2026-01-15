@@ -13,7 +13,7 @@ Reach (14, 10) by bypassing all land ledges via the Row 50 gap.
 4. Move West along Row 50 to (2, 50) (Western Corridor).
 5. Walk North along X=2 to Row 12 (bypasses Row 15 ledge).
 6. Walk East to (14, 12) and North to (14, 10).
-- Current Step: Moving to (12, 33).
+- Current Step: Moving to (4, 51) via Row 47 and X=6 corridor.
 
 # Progress Notes
 - Verified: Row 34 ledge (X=6-8) blocks South from Row 33.
