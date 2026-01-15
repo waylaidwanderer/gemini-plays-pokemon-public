@@ -1,27 +1,27 @@
 # Suicune Quest (Cianwood)
 - Quest Start: Turn 48900
 
-## Tile Mechanics: Cianwood City (22_3)
-- FLOOR: Traversable ground.
-- WALL: Impassable barrier.
-- FLOOR_UP_WALL: One-way ledge. Blocks DOWN (South) movement. Allows UP, LEFT, and RIGHT movement. (Verified at Row 34, 46, 48, 50).
-- LEDGE_HOP_DOWN: One-way ledge. Blocks NORTH movement. Allows DOWN jump. (Verified at Row 15).
-- BUOY: Impassable water barrier.
-- WATER: Requires SURF.
+## Verified Tile Mechanics
+- Row 15: (10, 15) LEDGE_HOP_DOWN (Blocks North).
+- Row 34: (6-8, 34) FLOOR_UP_WALL (Blocks South).
+- Row 46: (6, 46), (21-28, 46) FLOOR_UP_WALL (Blocks South). Gap at (18, 46), (19, 46).
+- Row 48: (8-10, 48) FLOOR_UP_WALL (Blocks South). Gap at X=12-19 (FLOOR).
+- Row 50: (12-19, 50) FLOOR_UP_WALL (Blocks South). Gap at (10, 50), (11, 50).
 
-## Execution Plan (Terrestrial Bypass)
-1. Walk to gap at (9, 33) via (21, 33) corridor. <- CURRENT TASK
-2. Move West through (9, 33) to (8, 33).
-3. Move to gap at (5, 35) and pass West to (4, 35).
-4. Move to gap at (3, 35) and pass West to (2, 35).
-5. Walk North through western corridor (X=2) to Row 10.
-6. Walk East to (14, 10) to trigger Suicune.
+## Execution Plan (Terrestrial Zig-Zag)
+1. Walk to (18, 45) via (19, 33). <- CURRENT TASK
+2. Move Down through Row 46 gap to (18, 47).
+3. Walk to (12, 47), then Down through Row 48 gap to (12, 49).
+4. Walk to (11, 49), then Down through Row 50 gap to (11, 51).
+5. Walk West to (2, 51), then North to (2, 12).
+6. Walk East to (14, 12), then North to (14, 10) to trigger Suicune.
 
 ## Failed Hypotheses
-- Island Hop (13, 16) via (11, 15): Dead end alcove at (11, 14).
-- Southern Surf Bypass: Eastern channel ends at Row 45.
-- Inner Channel (X=12): Blocked at Row 15 by buoy wall.
+- Island Hop (13, 16): Dead end pocket at (11, 14).
+- Southern Surf: Eastern channel ends at Row 45.
+- Direct Western Walk: Blocked by wall lines and upward ledges at Row 34.
 
 ## Progress Summary
-- All 16 Badges obtained.
-- Current Focus: Suicune tracking.
+- Badges: 16/16.
+- Elite Four/Red: Defeated.
+- Current Focus: Legendary Beast tracking.
