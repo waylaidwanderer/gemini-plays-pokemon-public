@@ -14,15 +14,14 @@
 - **Location:** Route 38 (West of Ecruteak).
 - **Hunt Start:** Turn ~40000.
 - **Current Loop:** 17.
-- **Action:** Finish Phone Call & Check Map.
+- **Action:** Finish Phone Call (Long).
 - **Hunt Progress:** Phase 2 Loop 17/50.
-- **Event:** Phone call from Gaven interrupted menu navigation.
+- **Event:** Gaven's phone call is very long (Flareon/Noctowl story).
 - **Beast Status:** **POSITIVE** (Route 38). Assumed present.
 - **Plan:**
-    1. Advance text (B spam).
+    1. Mash B to clear dialogue.
     2. Open Pokegear.
     3. Check Map.
-    4. Resume Hunt.
 - **Location:** Trapped in grass strip (Col 8-9).
 - **Location:** Trapped in grass strip (Col 8-9).
 - **Plan:**
