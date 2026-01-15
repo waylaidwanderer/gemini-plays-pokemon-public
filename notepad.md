@@ -1,7 +1,7 @@
 # Suicune Quest (Cianwood)
 - **Start Turn:** 48900
 - **Timestamp:** Turn 49381 (Resumed)
-- **Status:** At (12, 28). Preparing to Surf North.
+- **Status:** Surfing initiated. Moving to (14, 16) to land.
 
 ## Execution Plan
 1. Use Surf at (12, 28). <- CURRENT TASK
