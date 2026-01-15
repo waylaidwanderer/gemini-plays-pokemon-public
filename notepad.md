@@ -22,3 +22,4 @@
     1. Shuffle (Route 38 <-> Gatehouse).
     2. Run in grass for ~20 steps (Use `get_route38_patrol_path`).
     3. If no encounter, repeat.
+- **Anomaly:** Encountered Wild Rattata (Turn 40908) immediately after applying Max Repel (Turn 40903). Lead Pokemon is Gyarados Lv37. Repel should be active. Possible mechanic glitch or misunderstanding?
