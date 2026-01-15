@@ -14,13 +14,14 @@
 - **Location:** Route 38 (West of Ecruteak).
 - **Hunt Start:** Turn ~40000.
 - **Current Loop:** 17.
-- **Action:** Run from Magnemite.
-- **Hunt Progress:** Phase 2 Loop 17/50.
+- **Action:** Retry Tool Scan (10 steps).
+- **Hunt Progress:** Phase 2 Loop 17/50. Ran from Magnemite.
 - **Beast Status:** **POSITIVE** (Route 38). Assumed present.
-- **Location:** Trapped in grass strip (Col 8-9).
+- **Note:** Sandbox timed out previously. Retrying with fewer steps (10).
 - **Plan:**
-    1. Run from Battle.
-    2. Resume Manual Scan (Left/Right).
+    1. Scan Grass (Tool).
+    2. If Wild -> Run.
+    3. If Beast -> Catch/Battle.
 
 # Hunt Strategy
 1. **Target Acquired:** Beast IS on Route 38!
