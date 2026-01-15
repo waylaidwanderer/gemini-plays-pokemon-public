@@ -1,12 +1,13 @@
 ## Suicune Quest (Started Turn 49107)
 - Goal: Trigger Suicune sighting at (14, 10).
-- Strategy: Land at the northern beach (Row 18-19) and walk to (14, 10).
+- Strategy: Use the Northern Plateau Bypass (X=5 Gap) to reach (14, 10).
 
 ## Plan: Reach Suicune at (14, 10)
-- Step 1: RUN from battle at (12, 21). <- CURRENT TASK
-- Step 2: Land at (12, 19) (FLOOR) or (11, 21) (FLOOR).
-- Step 3: Walk to (14, 10) via the following path:
-  (12, 19) -> (12, 16) -> (11, 16) -> (11, 13) -> (13, 13) -> (13, 12) -> (14, 12) -> (14, 10).
+- Step 1: Land at (11, 21). <- CURRENT TASK
+- Step 2: Walk North to (11, 19) and West to (2, 19) via (5, 19) Gap.
+- Step 3: Walk North to (2, 14) and East to (8, 14).
+- Step 4: Walk North to (8, 12) and East to (14, 12).
+- Step 5: Walk North to (14, 10) to trigger Suicune.
 
 ## Verified Tile Mechanics
 - FLOOR: Traversable.
@@ -17,10 +18,11 @@
 - BUOY: Impassable hard wall.
 
 ## Navigation Insights
-- Northern Landing (12, 18-19): Clear land area accessible from the water channel.
-- Row 15 Bypass: (11, 15) is FLOOR, allowing movement north past the (12, 15) WALL.
-- Gym Blockade: Building at (10, 40) is bypassed by the water channel (X=12-17).
-- Ledge (10, 15): One-way jump DOWN. Stay at X >= 11 to avoid it.
+- Northern Plateau Crossing: Accessible via (5, 19) Gap.
+- Row 13 Wall: Impassable from X=9 to X=12. Bypass at (8, 13) or (13, 13).
+- West Beach (X=0-2): Clear vertical highway.
+- Gym Blockade: Building at (10, 40) is bypassed by the water channel or West Beach.
+- Ledge (10, 15): One-way jump DOWN. Stay at X >= 11 or X <= 8 to avoid it.
 
 ## Battle Strategy: Eusine
 - Lead: Calcifer (Lv 64 Typhlosion).
@@ -28,5 +30,5 @@
 - Strategy: OHKO everything.
 
 ## Technical Status
-- Super Repel: Active (Applied Turn 49091).
+- Super Repel: Active (~150 steps used).
 - Start Turn: 49107.
