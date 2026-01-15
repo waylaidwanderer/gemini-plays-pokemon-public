@@ -7,17 +7,16 @@
 
 # Suicune Quest (Cianwood)
 - Quest Start: Turn 48900
+- Movement Attempt Start: Turn 49554
 
-## Strategy: Great Southern Surf Loop
-The northern plateau (14, 10) is reached via the Western Corridor (X=0-2). Access to this corridor is only guaranteed at Row 51. To reach Row 51 without being blocked by ledges, Gem must Surf in the Outer Sea (X=24) and land at (23, 51).
+## Strategy: Outer Sea Surf Bypass
+Reach the northern plateau (14, 10) by Surfing north in the Outer Sea (X=24) to bypass the Row 15 land ledge.
 
-## Execution Plan (Land Route: Great Southern Loop)
-1. Move to (12, 34) and pass through the ledge gap. <- CURRENT TASK
-2. Move to (18, 45) and pass through the Row 46 gap at (18, 46).
-3. Move to (12, 47) and pass through the Row 48 gap at (12, 48).
-4. Move to (10, 49) and pass through the Row 50 gap at (10, 50).
-5. Walk West to (2, 51) and North along Western Corridor (X=2) to Row 12.
-6. Walk East to (14, 12) and North to (14, 10) to trigger Suicune.
+## Execution Plan
+1. Surf into the Outer Sea at (24, 32). <- CURRENT TASK
+2. Navigate North to Row 15 and pass through the buoy gap at (23, 15).
+3. Navigate West along Row 11-14 to the landing point at (16, 12).
+4. Walk to (14, 10) to trigger Suicune sighting.
 
 ## Lessons Learned
 - Land paths (X=4, X=6, X=8, X=12) are all blocked by ledges or walls before reaching the plateau.
