@@ -3,7 +3,7 @@
 - **Fly Map:** Visual Map (Cursor based). Use D-pad to select city. **Cursor persists:** Verify destination text.
 - **Pokegear Map:** Visual. Roaming Beasts appear as icon.
 - **Menu Memory:** Start Menu and Pokegear cursors remember their last position. Always verify state.
-- **Tool Dev Lesson:** `define_tool` Python scripts must print a JSON *list* (array) for `autopress_buttons`, not a JSON object.
+- **Repel Safety:** Always re-apply Repel IMMEDIATELY upon expiration, even before short travel to avoid unwanted encounters.
 - **Tile Mechanics:**
     - **Route 38 Gatehouse (35,8) & (35,9):** Sticky warps.
     - **Solution:** "Double Tap" technique (press direction into warp, then press again into wall) works reliably.
@@ -11,16 +11,9 @@
 # Strategic Status
 - **Goal:** Register Raikou & Entei.
 - **Current Task:** Hunt Roaming Beasts (Phase 2).
-- **Location:** Route 38 (West of Ecruteak).
-- **Hunt Start:** Turn ~40000.
-- **Current Loop:** 7 (Finished).
-- **Action:** Check Pokegear Map.
-- **Hunt Progress:** Repel Active. Shuffling Roamers (Phase 2, Loop 8).
 - **Location:** Route 38 Gatehouse (Inside).
-- **Beast Status:** **UNKNOWN** (Checking).
-- **CRITICAL FIX:** Repel CONFIRMED active (Turn 40439 log).
-- **Beast Status:** **NEGATIVE** (Route 38).
-- **CRITICAL FIX:** Repel EXPIRED. Must re-apply after battle.
+- **Hunt Progress:** Repel Active. Shuffling Roamers (Phase 2, Loop 8).
+- **Beast Status:** **UNKNOWN** (Checking Map).
 
 # Hunt Strategy
 1. **Target Acquired:** Beast IS on Route 38!
@@ -29,8 +22,8 @@
 
 # Resources
 - **Balls:** Ultra Ball x16.
-- **Repels:** Max Repel x29.
-- **Party:** Gyarados (Lv 37) [Target Lead], Lugia (Lv 60) [Old Lead].
+- **Repels:** Max Repel x27.
+- **Party:** Gyarados (Lv 37) [Lead], Lugia (Lv 60).
 
 # Encounter Plan
 - **Raikou/Entei:** They flee 100%.
@@ -40,6 +33,6 @@
 # Log
 - **Phase 1 (Rt 37):** 75 loops. Failed.
 - **Phase 2 (Rt 38):**
-    - Loops 1-8: Negative (Bad Config).
-    - Turn 40411: Reset. Fixed Lead/Repel.
-    - Loop 1: Negative.
+    - Loops 1-8: Negative.
+    - Turn 40427: Repel lapsed -> Rattata encounter.
+    - Turn 40438: Repel re-applied.
