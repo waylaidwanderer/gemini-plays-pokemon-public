@@ -19,15 +19,13 @@
 - FLOOR_UP_WALL: Impassable ledge face. Blocks South movement.
 - LEDGE_HOP_DOWN: One-way jump (North to South).
 
-# Strategy: Reach Suicune (The Great Western Loop)
-- Start Turn: 48227 (Pursuit began), 48523 (Current strategy)
-- Step 1: Walk to (12, 33).
-- Step 2: Walk to (12, 49).
-- Step 3: Walk to (10, 51) (sidestepping ledge at 12, 50).
-- Step 4: Walk West at Row 51 to X=2.
-- Step 5: Walk North at X=2 to Row 10.
-- Step 6: Walk East at Row 10 to (14, 10).
-- Note: This avoids the maze of walls and ledges in the city center by taking the southern perimeter. Verified that (6, 34) is an impassable ledge face (FLOOR_UP_WALL), not a jumpable ledge.
+# Strategy: Reach Suicune (The Western Perimeter Path)
+- Start Turn: 48227 (Pursuit began), 48525 (Current strategy)
+- Step 1: Walk to (12, 47).
+- Step 2: Walk West at Row 47 to (2, 47).
+- Step 3: Walk North at X=2 to Row 10.
+- Step 4: Walk East at Row 10 to (14, 10).
+- Note: This path uses the clear corridor at X=2 to bypass all city ledges. Verified gaps at Row 15, 20, 25, 30, 34, 46, 48.
 
 # Area Notes: Cianwood City
 - Photo Studio: (9, 31)
