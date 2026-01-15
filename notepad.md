@@ -47,5 +47,5 @@
 - Turn 40580: Cursor confirmed on Map Card. Pressing 'A' to open map and verify Beast positions (Shuffle #3).
 - Turn 40582: Start Menu visible. Pressing B to return to Overworld and perform Shuffle #4.
 - Strategy: Gatehouse Shuffle (Rt 38 <-> Gatehouse) in progress.
-- Status (Turn 40591): Start Menu open. Preparing for Shuffle #5.
-- Action: Closing menu (B). Next: Wiggle Left-Right to clear loop counter.
+- Status (Turn 40592): Start Menu closed.
+- Action: Move Left (34, 8) then Right (35, 8) to dilute tile visit history, then resume Shuffle.
