@@ -40,3 +40,4 @@
 - Strategy: Performing Gatehouse Shuffle (Route 38 <-> Gatehouse) to force Roaming Beast movement. Checking Pokegear map after each transition.
 - Turn 40565: Map check negative. Beasts at Rt 42/44/32.
 - Turn 40566: Re-entering Gatehouse (Right x2) to shuffle.
+- Turn 40567: Inside Gatehouse. Exiting back to Route 38 (Left x2) to complete shuffle.
