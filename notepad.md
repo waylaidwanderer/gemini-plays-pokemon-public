@@ -15,7 +15,7 @@
 - **Current Task:** Gatehouse Shuffle (Route 38 <-> Gatehouse).
 - **Session Start:** Turn 40832 (Repel Active).
 - **Location:** Route 38 (Cycle #35).
-- **Action:** Re-applying Max Repel (Expired Turn 40865).
+- **Action:** Patrolling grass (Using Tool).
 - **Pokedex Mode:** Old (National Dex). Target: #243 Raikou, #244 Entei.
 - **Pokedex Status:** #243 (Raikou) & #244 (Entei) are UNSEEN.
 - **Strategy:** Blind Gatehouse Shuffle.
