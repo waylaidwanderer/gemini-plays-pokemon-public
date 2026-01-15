@@ -1,12 +1,19 @@
 ## Strategy: Great Sea Bypass to Suicune
 **Start Turn:** 48900 (Quest: Trigger Suicune Overworld Sighting)
 
-The city is a maze of 'FLOOR_UP_WALL' barriers. I will Surf around the entire island via Route 41 to reach the West Beach.
+The city is a maze of 'FLOOR_UP_WALL' barriers. I will Surf around the entire island via Route 40 to reach the West Beach.
 
 ### Step-by-Step Execution Plan
-1. Surf around the island's southern tip via Row 53 to reach the West Shore. <- CURRENT TASK
-2. Re-enter Cianwood City from the West and land on the beach at (2, 35).
-3. Walk North to (14, 10) to trigger Suicune.
+1. Surf North-East to Route 40 via the warp at Route 41 (42, 0). <- CURRENT TASK
+2. In Route 40, Surf West to the edge of the map.
+3. Surf South to enter the West Shore of Cianwood City.
+4. Land on the beach and walk North to (14, 10) to trigger Suicune.
+
+## Navigation: Route 41 Gaps
+- Lane 1 (X=0-4) to Lane 2 (X=6-15): Gap at (5, 32).
+- Lane 2 to Lane 3 (X=17-23): Gap at (16, 31).
+- Lane 3 to Lane 4 (X=25-34): Gap at (24, 27).
+- Lane 4 to Lane 5 (X=36-49): Gap at (35, 31).
 
 ## Tile Mechanics: Cianwood City
 - FLOOR: Standard traversable ground.
