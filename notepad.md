@@ -51,3 +51,4 @@
 - Turn 40539: Repel effect wore off. No encounter after full duration. Verifying Beast location via Pokegear next turn.
 - Turn 40540: Attempting to use 'check_roamer_map' to verify position. If sandbox fails again, will revert to manual menu navigation.
 - Turn 40542: Manually opening Pokegear (Down, A) to bypass potential tool failures.
+- Turn 40543: Pressing A to enter Pokegear. Previous multi-button input was truncated by system.
