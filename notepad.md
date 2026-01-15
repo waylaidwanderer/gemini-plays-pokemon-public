@@ -11,12 +11,14 @@
 
 # Strategy: Capture Suicune (Started Turn 48227)
 - Goal: Reach (14, 10) to trigger sighting.
-- Approach: The West Beach Corridor (Verified)
+- Approach: The Northern Row 8 Loop (Verified)
 - Plan:
   1. Use Super Repel. [IN PROGRESS]
-  2. Navigate to (2, 30) via the southern channel loop.
-  3. Land at (2, 29) and walk North along X=2 to Row 11.
-  4. Walk East to (14, 10).
+  2. Navigate to (27, 8) via the main channel.
+  3. Navigate West to (22, 8) [Gap] then to (19, 8).
+  4. Navigate South to (19, 14) [Gap 4].
+  5. Navigate West to (14, 14) and land.
+  6. Walk to (14, 10).
 - Status: At (27, 18) surfing, in PACK menu.
 - Reasoning: The West Beach (X=2) is a clear land corridor that bypasses all city obstacles. Access is easiest by surfing south to Row 30, then west to X=2.
 
