@@ -11,12 +11,12 @@
 - Wall X=5: (5, 30)-(5, 33) are WALL.
 - Door Warps: (17, 41) is a DOOR (Avoid as corridor).
 
-## Execution Plan (The Great Southern Loop)
-1. Talk to Pokefan M at (16, 33). (Done)
-2. Navigate to (14, 10) via Row 51 bypass.
-   - Route: (17, 33) -> (21, 33) -> (21, 45) -> (19, 45) -> (19, 46) -> (18, 46) -> (18, 50) -> (11, 50) -> (11, 51) -> (2, 51).
-   - North: (2, 51) -> (2, 14) -> (8, 14) -> (8, 10) -> (14, 10).
-3. Trigger Suicune sighting.
+## Execution Plan (Terrestrial Bypass)
+1. Walk to (10, 33) via (20, 38). <- CURRENT TASK
+2. Walk West through gap at (9, 33) to (8, 33).
+3. Attempt to move South to (8, 34) (Ledge test).
+4. If successful, walk West to (2, 34) and North to (14, 10).
+5. If blocked, find alternate gap or loop via Row 51.
 
 ## Failed Hypotheses
 - Island Hop (13, 16): Dead end pocket at (11, 14).
