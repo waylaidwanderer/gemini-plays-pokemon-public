@@ -12,12 +12,11 @@
 
 # Strategy: Reach Suicune (Rock Smash Investigation)
 - Start Turn: 48227 (Pursuit began)
-- Current Plan (Turn 48465): Obtain Rock Smash to clear path blockages.
-- Step 1: Enter house at (15, 37) and talk to the NPC.
-- Step 2: If Rock Smash is obtained, teach it to a Pokemon (e.g., GNEISS or GORP).
-- Step 3: Clear the rock at (5, 29) or (8, 16) to reach the north.
+- Current Plan (Turn 48467): Obtain Rock Smash to clear path blockages.
+- Step 1: Talk to Teacher at (2, 4) in the house at (15, 37).
+- Step 2: Talk to other NPCs in the house if needed.
+- Step 3: If Rock Smash is obtained, teach it and clear the rock at (5, 29).
 - Step 4: Reach Suicune at (14, 10).
-- Observation: Land and water paths to the north are currently blocked by rocks or ledges. (14, 10) is computationally unreachable with current obstacles.
 
 # Area Notes: Cianwood City
 - Photo Studio: (9, 31)
@@ -25,4 +24,4 @@
 - Pharmacy: (15, 47)
 - Gym: (8, 43)
 - Breakable Rocks: (5, 29), (8, 16), (9, 17), (10, 27), (4, 19), (4, 25)
-- Rocks block key passages in Strip 1 (Beach) and Strip 2.
+- Vertical strips split the town; rocks and ledges prevent easy crossing to the northern plateau.
