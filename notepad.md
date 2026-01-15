@@ -39,3 +39,4 @@
 - Turn 40527: Manual scan continues (20 steps). Repel active (blocking all except Beast). Approaching Repel expiration (~200/250 steps used).
 - Turn 40528: Manual scan continues (20 steps). Repel active. Still hunting.
 - Turn 40529: Manual scan (20 steps). Re-calculated Repel usage: ~80/250 steps used (plenty remaining).
+- Turn 40530: Manual scan (20 steps). Repel active. No encounter yet.
