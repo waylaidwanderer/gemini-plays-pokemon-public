@@ -6,19 +6,17 @@
 
 # Suicune Quest (Cianwood)
 - Started: Turn 49630
-## Strategy: The Western Corridor Highway
-Reach (14, 10) by using the western corridor (X=2) to bypass all ledges.
-1. Solve Sea Maze: (27, 20) -> (27, 16) -> (21, 16) -> (21, 21) -> (19, 21) -> (19, 26) -> (17, 26) -> (17, 24) -> (12, 24) -> (12, 28). Land.
-2. Move South along X=12 to (12, 35).
-3. Move West along Row 35 to (2, 35) (Crossing X=5 gap at 5, 35).
-4. Move North along X=2 to (2, 12) (Bypassing Row 15 ledge).
-5. Move East along Row 12 to (14, 12) and North to (14, 10).
+## Strategy: Eastern Sea Bypass (X=27 Corridor)
+Reach (14, 10) by surfing along the far eastern edge of the map.
+1. Move Right to (27, 26).
+2. Move North along X=27 to (27, 8) (Bypasses Row 9 and X=26 buoy walls).
+3. Move West along Row 8 to (14, 8) (Bypasses X=22 wall at Row 8 gap).
+4. Move South to (14, 10) to trigger Suicune sighting.
 
 # Verification Notes
-- Sea Maze gaps: (22, 16), (19, 21), (18, 26), (16, 24).
-- (12, 28) is a FLOOR landing tile.
-- (5, 35) is a verified FLOOR gap in the X=5 wall.
-- X=2 corridor bypasses the Row 15 ledge.
+- X=27 is a clear vertical corridor from Row 33 to Row 0.
+- Row 8 is a clear horizontal corridor north of the major buoy walls.
+- (27, 9) is a verified gap in the Row 9 buoy wall.
 - SUPER REPEL is active (Turn 49722).
 
 # Navigation Logic
