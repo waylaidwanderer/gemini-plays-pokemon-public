@@ -39,6 +39,6 @@
 - **Money:** ¥15644.
 - **Items:** Max Repel x30.
 - **Key Items:** Pass (Magnet Train).
-- **Status:** Meowth Escaped. Returning to Gatehouse.
-- **Next Step:** Pathfind to Gatehouse (34, 9) -> Reset Loop.
+- **Status:** Trash Encounter (Raticate). Escaping.
+- **Next Step:** Run -> Pathfind to Gatehouse -> Use Reset Tool.
 - **Lesson:** Gatehouse warps can be sticky. Automate resets to avoid 'doorway effect'.
