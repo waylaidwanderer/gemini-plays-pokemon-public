@@ -10,13 +10,12 @@
 - FLOOR_UP_WALL: Impassable ledge face. Acts as a solid wall from all directions.
 - LEDGE_HOP_DOWN: One-way jump (North to South).
 
-# Strategy: Capture Suicune (The West Beach Path)
-- Start Turn: 48431
-- Step 1: Walk to (12, 49) (Arrived).
-- Step 2: Walk to (2, 49) via Row 51 bypass.
-- Step 3: Walk North along West Beach (X=2) to Row 12.
-- Step 4: Walk East to (14, 12) and North to Suicune at (14, 10).
-- Failed Hypotheses: Inland land gaps (Rows 33, 35, 12) are blocked by unseen walls/ledges. Southern corridor at Row 51 is blocked by ledges. Buoy maze doesn't provide access to plateau.
+# Strategy: Capture Suicune (The Strip 2 Corridor)
+- Start Turn: 48435
+- Step 1: Use Super Repel.
+- Step 2: Walk North to (13, 13) via the clear corridor at X=13.
+- Step 3: Walk East to (14, 13) and North to Suicune at (14, 10).
+- Verified: X=13 is a clear path through the town's vertical strips.
 
 # Area Notes: Cianwood City
 - Photo Studio: (9, 31)
