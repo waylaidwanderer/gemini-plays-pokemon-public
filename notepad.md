@@ -1,35 +1,31 @@
 ## Plan: Reach Suicune at (14, 10) (Started Turn 49086)
 - Goal: Complete Suicune sighting in Cianwood.
-- Step 1: Use Super Repel and reach (23, 32). <- CURRENT TASK
-- Step 2: Surf at (23, 32) and land at (24, 34).
-- Step 3: Reach southern highway at (24, 51).
-- Step 4: Reach western beach at (2, 35) via Row 51 and Row 35 gaps.
-- Step 5: Walk North along West Beach (X=2) to Row 10.
-- Step 6: Walk East along Row 10 to (14, 10).
-
-## Highway Definitions (Verified)
-- X=24: Vertical land path (Row 34 to 52).
-- Row 51: Horizontal land path (X=4 to 24).
-- X=4: Vertical land path (Row 35 to 51).
-- X=2: Vertical land path (Row 10 to 35).
-- Row 10: Horizontal land path (X=2 to 14).
+- Step 1: Use Super Repel and reach (11, 44). <- CURRENT TASK
+- Step 2: Walk West to (8, 44) then North to (8, 35).
+- Step 3: Walk West through gap (5, 35) to West Beach (2, 35).
+- Step 4: Walk North along X=2 to Row 10.
+- Step 5: Walk East along Row 10 to (14, 10) to trigger Suicune.
 
 ## Tile Mechanics (Verified)
 - FLOOR: Traversable.
 - WALL: Impassable.
 - WATER: Requires Surf.
-- FLOOR_UP_WALL: Impassable cliff face.
 - LEDGE_HOP_DOWN: One-way jump (North to South).
-- BUOY: Impassable.
+- FLOOR_UP_WALL: Impassable cliff face.
+- BUOY: Impassable hard wall (Verified by movement failure at Row 10).
 
 ## Navigation Notes
-- (10, 40) is a WALL (Gym building), blocking the X=10 corridor south of Row 39.
-- (20, 34) is a Sign (WALL), bypass via Row 35.
+- Land Route: (11, 34) -> (11, 44) -> (8, 44) -> (8, 35) -> (2, 35) -> (2, 10) -> (14, 10) is verified clear of all permanent obstacles.
+- Gym Blockade: The Cianwood Gym building at (10, 40) blocks the vertical corridor at X=10. Must use X=11 or X=12 to go south.
+- Row 35 Maze: The wall at (9, 35) prevents direct westward movement from the town center. Must go around via Row 44.
+- West Beach Highway: The shoreline at X=2 is completely clear of obstacles from Row 35 all the way up to the northern plateau at Row 10.
+- North Highway: Row 10 provides a clear horizontal path from the beach to Suicune's trigger point.
 
 ## Battle Strategy: Eusine
-- Strategy: Lead with Calcifer (Lv 64 Typhlosion). Use Flamethrower.
+- Party Status: XENON (44), Calcifer (64), KIMCHI (52), GNEISS (55), GORP (50), ICARUS (19).
+- Strategy: Lead with Calcifer. His Lv 64 power and Flamethrower should overwhelm Eusine's team easily. Use GORP for tanking if needed.
 
 ## Technical Status
-- Python Sandbox: Reporting 'not running' errors. Tools offline.
-- Super Repel: Wore off Turn 49089. Re-applying.
-- Turn 49089: Hallucination check triggered (turn/pos mismatch). Verified current pos at (11, 34).
+- Python Sandbox: Reporting 'not running' errors. All custom automation tools are currently offline.
+- Super Repel: Re-applying at Turn 49091 to ensure no wild encounters during the walk.
+- Position Audit: Verified current position at (11, 34) after hallucination check.
