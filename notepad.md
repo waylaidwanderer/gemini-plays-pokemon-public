@@ -39,10 +39,10 @@
 - **Money:** ¥15644.
 - **Items:** Max Repel x30.
 - **Key Items:** Pass (Magnet Train).
-- **Status:** Route 38 (35, 8). Warp failed on Right.
-- **Next Step:** Down (to 35, 9) -> Right (Try entry).
-- **Note:** Right from (35, 8) hit Wall. Testing (35, 9).
-- **Roamer Check:** Pending Gatehouse entry.
+- **Status:** Inside Gatehouse (0,5). Exiting to Route 38. Loop 11 Start.
+- **Next Step:** Left (Exit) -> Open Pokegear -> Check Map.
+- **Note:** Fixed location hallucination. Warp triggered previously.
+- **Roamer Check:** Ready for Loop 11 check.
 - **Strategy:** Manual Reset: Enter -> Exit -> Check.
 - **Strategy:** Manual Reset: Right (Enter) -> Left (Exit) -> Check Map.
 - **Strategy:** Manual Reset Loop: Check Map -> B -> Right (Enter Gate) -> Left (Exit Gate) -> Start (Map).
