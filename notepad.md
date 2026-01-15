@@ -15,8 +15,8 @@
 - Start Time: Wednesday, 3:37 PM (Turn 48250)
 - Strategy: The Eastern Sea Bypass (Turn 48269).
 - Step 1: Finish dialogue/battle at Route 41 (9, 50). (Complete)
-- Step 2: Surf North on Route 41 to (0, 14).
-- Step 3: Enter Cianwood at (29, 14).
+- Step 2: Surf North on Route 41 to (0, 12).
+- Step 3: Enter Cianwood at (29, 12).
 - Step 4: Walk to sighting spot at Cianwood (14, 10).
 
 # Custom Tools (Technical Details)
