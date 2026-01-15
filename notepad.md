@@ -29,4 +29,4 @@
 - **Items:** Max Repel x30.
 - **Key Items:** Pass (Magnet Train).
 - **Interruption:** Turn 39741 - Phone call from Gaven. Resolved.
-- **Current Turn:** 39803. Pokegear Open. Selecting Map.
+- **Current Turn:** 39804. Beasts on Rt 38 & 42. Back to Ecruteak.
