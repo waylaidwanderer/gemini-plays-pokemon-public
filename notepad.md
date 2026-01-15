@@ -3,12 +3,11 @@
 - Strategy: Use the "West Beach Highway" (X=0-2) to reach the northern plateau.
 
 ## Plan: Reach Suicune at (14, 10)
-- Step 1: Return to (23, 32) and land. <- CURRENT TASK
-- Step 2: Walk to (5, 35) via Row 32/33.
-- Step 3: Walk West to (2, 35) (West Beach).
-- Step 4: Walk North to (2, 14).
-- Step 5: Walk East to (8, 14) and North to (8, 10).
-- Step 6: Walk East to (14, 10) to trigger Suicune.
+- Step 1: Walk to (5, 35) via Row 32/33. <- CURRENT TASK
+- Step 2: Walk West to (2, 35) (West Beach).
+- Step 3: Walk North along West Beach (X=0-2) to Row 14.
+- Step 4: Walk East to (8, 14) and North to (8, 10).
+- Step 5: Walk East to (14, 10) to trigger Suicune.
 
 ## Tile Mechanics (Cianwood City)
 - FLOOR: Traversable.
@@ -21,9 +20,11 @@
 
 ## Navigation Insights
 - West Beach Highway: X=0-2 is a clear vertical path from Row 53 to Row 14.
-- Row 35 Gap: (5, 35) provides access to the West Beach from town.
+- Row 35 Gap: (5, 35) is the key passage from town to the West Beach.
 - Northern Plateau Entry: Only accessible from Row 14 via X=8.
-- Gym Blockade: Building at (10, 40) blocks central access.
+- Gym Blockade: Building at (10, 40) blocks central land access.
 
 ## Battle Strategy: Eusine
-- Lead: Calcifer (Lv 64 Typhlosion). Sweep with Flamethrower/Thunderpunch.
+- Lead: Calcifer (Lv 64 Typhlosion).
+- Moves: Flamethrower, Thunderpunch.
+- Strategy: Sweep with Flamethrower.
