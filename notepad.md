@@ -11,14 +11,15 @@
 
 # Strategy: Capture Suicune (Started Turn 48227)
 - Goal: Reach (14, 10) to trigger sighting.
-- Approach: The West Beach Land Corridor (Verified)
+- Approach: The Northern Water Loop (Verified)
 - Plan:
-  1. Surf to (10, 24) via gaps at (19, 21) and (18, 26). [IN PROGRESS]
-  2. Land at (10, 26) and walk to (4, 28).
-  3. Navigate to (2, 31) and walk North along Column 2 to Row 10.
-  4. Walk East to (14, 10).
-- Status: At (22, 16) surfing, heading south to the first gap.
-- Reasoning: Direct northern access is blocked by cliff walls. The buoy maze leads to a landing spot at (10, 26) which provides access to the clear West Beach corridor (X=2). This corridor is clear of ledges all the way to Suicune's plateau.
+  1. Surf North to (22, 16). [IN PROGRESS]
+  2. East to (23, 16), then North through Gap 6 at (23, 15) to (23, 14).
+  3. West through Gap 4 at (19, 14) to (18, 14).
+  4. North to Row 9, then West to (14, 9).
+  5. South to (14, 10) and land.
+- Status: At (22, 21) surfing, heading North.
+- Reasoning: Row 15 is a continuous barrier of cliffs and buoys. The only way to the northern plateau is to loop through the gaps at X=23 and X=19 to reach the open water at Row 9.
 
 # Area Notes: Cianwood City
 - Photo Studio: (9, 31) | Poke Seer: (5, 17)
