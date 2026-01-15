@@ -32,5 +32,5 @@
 - **Money:** ¥15644.
 - **Items:** Max Repel x30.
 - **Key Items:** Pass (Magnet Train).
-- **Status:** Moving to Route 38 (West of Ecruteak). New Hunt Loop.
-- **Next Step:** Navigate to West Ecruteak Gate.
+- **Status:** Entering Route 38. Checking Roamer Map.
+- **Next Step:** Check Roamer Map on Route 38.
