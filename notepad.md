@@ -39,9 +39,9 @@
 - **Money:** ¥15644.
 - **Items:** Max Repel x30.
 - **Key Items:** Pass (Magnet Train).
-- **Status:** Route 38 (34,9). Entering Gatehouse. Loop 18 Start.
-- **Next Step:** Right (Enter Gate).
-- **Note:** Tool approach failed. Switching to reliable 3-step manual loop: 1. Enter, 2. Exit, 3. Check.
+- **Status:** Route 38 (35,9). Warp Failed. Moving Left.
+- **Next Step:** Left (to 34,9) -> Up (to 34,8) -> Right (Try 35,8).
+- **Note:** Entry at (35,9) failed to trigger. Switching to Top Tile (35,8) for next attempt.
 - **Roamer Check:** Pending reset.
 - **Strategy:** Manual Reset: Enter -> Exit -> Check.
 - **Strategy:** Manual Reset: Right (Enter) -> Left (Exit) -> Check Map.
