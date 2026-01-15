@@ -11,13 +11,13 @@
 6. Tin Tower 1F (Final Battle)
 
 ## Plan for Cianwood (Step 2)
-1. Fly to Cianwood City.
-2. Navigate to (23, 44) (Row 44 Artery).
-3. Walk West along Row 44 to the West Beach (2, 44).
-4. Walk North along the West Beach highway (X=2) to (2, 12).
-5. Walk East to (11, 12) then North to (11, 9).
-6. Walk East to (14, 9) then South to (14, 10).
-7. Trigger the cutscene with Eusine. (Testing Turn 48834)
+1. Walk to (12, 44) via Row 44. [IN PROGRESS]
+2. Walk to (12, 51) then West to (4, 51) (Row 51 Land Bridge).
+3. Walk North to (4, 35) then West to West Beach (2, 35).
+4. Walk North along West Beach (X=2) to (2, 14).
+5. Walk East to (8, 14), then North to (8, 12).
+6. Walk East along Row 12 to (14, 12), then North to (14, 10).
+7. Trigger the cutscene with Eusine.
 
 # Area Notes: Cianwood City
 - Photo Studio: (9, 31) | Poke Seer: (5, 17)
