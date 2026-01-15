@@ -13,9 +13,9 @@
 - **Location:** Route 38 (West of Ecruteak).
 - **Hunt Start:** Turn ~40000.
 - **Current Loop:** 13 (Resetting).
-- **Action:** Hunt Loop: Exit Gatehouse via Bottom (0,5).
-- **Hunt Progress:** Phase 2 Loop 13/50. Exiting Gatehouse.
-- **Beast Status:** Loop 13 Negative. Top Warp Shimmy Success.
+- **Action:** Hunt Loop: Check Map on Route 38.
+- **Hunt Progress:** Phase 2 Loop 14/50. Checking Map.
+- **Beast Status:** Checking...
 - **Beast Status:** Loop 12 Negative.
 - **Hunt Strategy:**
 
