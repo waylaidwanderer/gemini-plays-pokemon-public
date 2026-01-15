@@ -39,5 +39,5 @@
 - **Money:** ¥15644.
 - **Items:** Max Repel x30.
 - **Key Items:** Pass (Magnet Train).
-- **Status:** Exiting Gatehouse. Loop 6/50.
-- **Next Step:** Check Roamer Map on Route 38.
+- **Status:** Route 38. Checking Map. Loop 6/50.
+- **Next Step:** Check Roamer Map.
