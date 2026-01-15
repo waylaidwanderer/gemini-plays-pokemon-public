@@ -10,21 +10,14 @@
 5. Route 25
 6. Tin Tower 1F
 
-## Plan: Southern Detour (Started Turn 48956)
-1. Move Right from (29, 32) to enter Route 41. (Done)
-2. Surf South in Route 41 to Row 52. <- CURRENT TASK
-3. Surf West to (0, 52) to re-enter Cianwood.
-4. Surf West and North in Cianwood to reach West Beach (X=0-2).
-5. Land and walk North to Row 12, then East to (14, 12).
-6. Walk North to Suicune at (14, 10).
-
-# World Events & Swarms
-- Route 35: Yanma swarm reported (Turn 44986).
-- Professor Oak & Kurt: Long-time acquaintances.
-- Professor Elm: Former assistant to Professor Oak.
+## Plan: Reach North Plateau (Started Turn 48968, 1:23 AM)
+- Goal: Reach the west beach and the plateau at (14, 10).
+- Step 1: Re-enter Cianwood City from Route 41 at (29, 44). <- CURRENT TASK
+- Step 2: Explore Row 47-49 in Cianwood for a land bridge to the West Beach.
+- Step 3: If no land bridge, Surf north along the West coast (X=0-2) in Cianwood map.
 
 # Area Notes
-- Doors (Avoid during pathfinding): Photo Studio (9, 31), Lugia House (15, 37), Seer (5, 17).
+- Doors (Avoid): Photo Studio (9, 31), Lugia House (15, 37), Seer (5, 17).
 - Landmark: City Sign (20, 34).
 - Obstacle: Ledge at (10, 15) blocks Northward progress from city center.
 
