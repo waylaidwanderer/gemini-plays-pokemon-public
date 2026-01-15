@@ -47,3 +47,4 @@
 - Action: Closing Pokegear (B) to re-enter Gatehouse and shuffle again.
 - Turn 40557: Start Menu still open. Pressing B to close it, then will re-enter Gatehouse to shuffle.
 - Turn 40558: Menu closed. Executing "Double Tap Right" to re-enter Gatehouse and shuffle roamers.
+- Turn 40559: Inside Gatehouse. Exiting back to Route 38 (Left x2) to complete shuffle and check map.
