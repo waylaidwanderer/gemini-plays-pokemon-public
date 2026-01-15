@@ -39,5 +39,5 @@
 - **Money:** ¥15644.
 - **Items:** Max Repel x30.
 - **Key Items:** Pass (Magnet Train).
-- **Status:** Resetting Loop 4/50. Warp failed? Retrying.
-- **Next Step:** Step Left (Off), then Right (On) to trigger warp.
+- **Status:** Resetting Loop 4/50. Top warp failed. Trying bottom tile.
+- **Next Step:** Down, Right to force entry.
