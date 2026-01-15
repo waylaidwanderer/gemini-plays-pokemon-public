@@ -1,18 +1,13 @@
-## Strategy: Great Sea Bypass to Suicune
-**Start Turn:** 48900 (Quest: Trigger Suicune Overworld Sighting)
-
-The city is a maze of 'FLOOR_UP_WALL' barriers. I will Surf around the entire island via Route 40 to reach the West Beach.
+## Strategy: Crossing Cianwood to Suicune
+The city walls (X=5 and X=7) have gaps that align at Row 48.
 
 ### Step-by-Step Execution Plan
-1. Surf East along the Northern Channel (Rows 1-5) to (42, 5).
-2. Surf North to the Route 40 warp at (42, 0).
-3. In Route 40, Surf West to the edge of the map.
-4. Surf South to enter the West Shore of Cianwood City.
-5. Land on the beach and walk North to (14, 10) to trigger Suicune.
-
-## Navigation: Northern Channel Discovery
-- Rows 1-5 appear to be a continuous open sea lane bypassing all buoy lines (X=5, 11, 16, 21, 23, 31, 43).
-- Row 0 is blocked by BUOY from X=0 to X=31.
+1. Return to Route 41 via the warp at (12, 35). <- CURRENT TASK
+2. Return to Cianwood City at (29, 44).
+3. Walk to the X=12 corridor and move Down to Row 48.
+4. Walk West through the gaps at (7, 48) and (5, 48) to reach the West Beach.
+5. Walk North along the beach to the plateau at (14, 10).
+6. Trigger Suicune sighting.
 
 ## Tile Mechanics: Cianwood City
 - FLOOR: Standard traversable ground.
@@ -24,7 +19,7 @@ The city is a maze of 'FLOOR_UP_WALL' barriers. I will Surf around the entire is
 - FLOOR_UP_WALL: Impassable from the North. Behaves like a wall when moving Down into it.
 
 ## Failed Hypotheses & Lessons
-- Inner Channel North (X=13-17): Blocked at Row 15 by a solid wall of WALL tiles.
+- Great Sea Bypass: Route 40 is a dead end on the West. Surfing around the island via Route 41 is blocked by buoys at Row 49 and Row 5.
 - City Corridor North: Blocked by recurring 'FLOOR_UP_WALL' barriers at Rows 46, 48, and 50.
 - X=12 Corridor: Blocked at (12, 50) by 'FLOOR_UP_WALL'.
 - X=20 Corridor: Blocked by 'WALL' at (20, 46-49).
