@@ -1,19 +1,20 @@
 # Strategy: Capture Suicune (Started Turn 48227)
 - Goal: Reach (14, 10) in Cianwood City to trigger sighting.
-- Approach: The Great Northern Buoy Loop (Confirmed Path)
+- Approach: The West Beach Land Route (Verified)
 - Plan:
-  1. Use Super Repel. [DONE]
-  2. Surf at (27, 44). [IN PROGRESS]
-  3. Navigate to (14, 16) via (27, 6) and (19, 6).
-  4. Land at (13, 16).
-  5. Walk to (14, 10) via (2, 16), (2, 12), and (14, 12).
+  1. Close SURF menu at (27, 44). [IN PROGRESS]
+  2. Walk to (2, 37) via Row 38 and Row 37 gap at X=5.
+  3. Walk North along West Beach (X=2) to (2, 14).
+  4. Walk East to (8, 14), then North to (8, 12).
+  5. Walk East along Row 12 to (14, 12), then North to (14, 10).
 - Status: At (27, 44) on land. Repel active.
-- Reasoning: Land access to the northern plateau is blocked by the Row 15 wall/ledge barrier (X=3 to X=17). The only land gap is the West Beach (X=2). To reach the West Beach, one must land at (13, 16) from the water. The water route requires bypassing buoy walls at X=26 and X=22 via gaps at Row 6, then passing the X=18 buoy wall via the gap at Row 16.
+- Reasoning: The city is a maze of vertical walls. Row 38 and Row 37 provide a horizontal corridor from the east side to the West Beach (X=2). X=2 is a clear vertical highway that bypasses the Row 15 wall/ledge barrier. Row 12/14 provide horizontal access to the plateau.
 
 # Blocked Routes (Verified)
-- Land Access: Row 15 wall (3-9, 15) and ledge (10, 15) and wall (12-17, 15).
-- Water Access (South): Row 15 buoy wall (18-22, 15).
-- Water Access (East): X=26 buoy wall (0-9, 26).
+- Central City: Vertical walls at X=5, X=9, X=11, X=17.
+- Row 15 Barrier: Solid wall/ledge from X=3 to X=17.
+- Row 30/34/46 Barriers: Impassable cliffs (FLOOR_UP_WALL).
+- Route 41 Loop: Blocked by East-facing ledge at X=15.
 
 # Tile Mechanics (Verified)
 - FLOOR: Standard ground. Traversable.
@@ -26,6 +27,5 @@
 # Area Notes: Cianwood City
 - Photo Studio: (9, 31) | Poke Seer: (5, 17)
 - Pharmacy: (15, 47) | Gym: (8, 43) | PokeCenter: (23, 43)
-- Landing Spot: (13, 16) provides access to Row 16 corridor.
-- West Beach Highway: X=0, 1, 2 (Rows 12 to 51).
-- Row 12 Artery: Connects West Beach to sighting spot.
+- West Beach: X=0, 1, 2.
+- Horizontal Arteries: Row 38 (X=6-27), Row 37 (X=2-8), Row 14 (X=0-8), Row 12 (X=5-16).
