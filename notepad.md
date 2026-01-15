@@ -13,10 +13,10 @@
 # Goal Tracking: Capture Suicune
 - Start Turn: 48227
 - Start Time: Wednesday, 3:37 PM (Turn 48250)
-- Strategy: Inner City Landing (Turn 48301).
-- Step 1: Use Super Repel. (Complete)
-- Step 2: Surf to (24, 16) -> (22, 16) Gap -> (14, 16). (In Progress)
-- Step 3: Land at (13, 16) and walk to (10, 16).
-- Step 4: Walk South to (10, 35) and West to (2, 35).
-- Step 5: Walk North along Column 2 to (2, 12) and East to (14, 10).
-- Status: At Cianwood (24, 12). Surfing. Repel Active (200 steps).
+- Strategy: The Great Southern Landing (Turn 48315).
+- Step 1: Use Super Repel. (Complete: Turn 48306)
+- Step 2: Surf to (22, 30) and land at (19, 30). (In Progress)
+- Step 3: Walk West to (12, 30) -> (12, 32) -> (11, 32) -> (2, 32).
+- Step 4: Walk North along Column 2 to (2, 12).
+- Step 5: Walk East along Row 12 to (14, 12) and North to (14, 10).
+- Status: At Cianwood (22, 16). Surfing. Repel Active (~190 steps).
