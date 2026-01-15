@@ -39,5 +39,5 @@
 - **Money:** ¥15644.
 - **Items:** Max Repel x30.
 - **Key Items:** Pass (Magnet Train).
-- **Status:** TARGET ACQUIRED (Route 38). Engaging Hunt.
-- **Next Step:** Close Gear, Max Repel, Search Grass.
+- **Status:** Target Acquired. Opening Pack.
+- **Next Step:** Find Max Repel -> Use -> Hunt.
