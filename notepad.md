@@ -43,3 +43,4 @@
 - Turn 40567: Inside Gatehouse. Exiting back to Route 38 (Left x2) to complete shuffle.
 - Turn 40568: Back on Route 38. Opening Start Menu to check map.
 - Turn 40570: Attempting optimized navigation: `press_sequence_with_delays` ['Right', 'A'] to open Map immediately.
+- Turn 40571: Sandbox down. 'press_sequence_with_delays' failed. Reverting to manual input: Pressing 'Right' to select Map Card.
