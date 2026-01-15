@@ -6,14 +6,13 @@
 
 # Suicune Quest (Cianwood)
 - Started: Turn 49630
-## Strategy: Zigzag Sea Route (Verified Logic)
-Reach (14, 10) by surfing through specific buoy gaps.
-1. Surf North along X=24 to (24, 16).
-2. Move West along Row 16 to (20, 16) (Bypasses X=22 wall).
-3. Move North along X=20 to (20, 14) (Bypasses Row 15 wall).
-4. Move West along Row 14 to (18, 14) (Bypasses X=19 wall).
-5. Move North/West to find landing point at (16, 11) or nearby.
-6. Walk to (14, 10) to trigger Suicune.
+## Strategy: Verified Sea Route (Final)
+Reach (14, 10) by surfing through the eastern gaps.
+1. Move to (23, 16) and Up to (23, 15) (Gap 1).
+2. Move East to (27, 15) and North to (27, 9) (Gap 2).
+3. Move North to (27, 8) and West to (16, 8).
+4. Move South to land at (16, 11) (Jumping ledge at 16, 10).
+5. Walk to (14, 10) to trigger Suicune.
 
 # Navigation Logic
 - Buoy Walls: Horizontal (Row 15, Row 9) and Vertical (X=18, X=22, X=26).
