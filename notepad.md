@@ -6,8 +6,8 @@
 # Strategic Status
 - **Goal:** Register Raikou & Entei.
 - **Current Task:** Hunt Roaming Beasts.
-- **Location:** Goldenrod City (Magnet Train Station).
-- **Action:** Exit station -> Fly to Ecruteak City -> Start Hunt Loop.
+- **Location:** Goldenrod City.
+- **Action:** Fly to Ecruteak City -> Start Hunt Loop.
 
 # Strategy (Hunt Loop)
 1.  **Transit:** Enter Saffron City -> Magnet Train Station.
