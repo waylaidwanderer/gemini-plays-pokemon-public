@@ -19,13 +19,15 @@
 - FLOOR_UP_WALL: Impassable ledge face. Blocks South movement.
 - LEDGE_HOP_DOWN: One-way jump (North to South).
 
-# Strategy: Reach Suicune (The West-Side Land Corridor)
+# Strategy: Reach Suicune (The Eastern Channel Landing)
 - Start Turn: 48227 (Pursuit began), 48565 (Current strategy)
-- Step 1: Walk to (19, 34).
-- Step 2: Walk West to (2, 34) (crossing vertical barrier at X=5).
-- Step 3: Walk North to (2, 12) (clear shot along western edge).
-- Step 4: Walk East to (14, 12), then North to (14, 10).
-- Note: This land route uses the gap at Row 34 to reach the western edge, bypassing all buoy barriers and town ledges. Ready for Eusine battle (Drowzee/Haunter/Electrode ~Lv25).
+- Step 1: Walk to (19, 30) and Surf at (20, 30).
+- Step 2: Surf East to (27, 30), then North to (27, 15).
+- Step 3: West through Gap 6 at (23, 15) to (23, 14).
+- Step 4: West through Gap 4 at (19, 14) to (19, 11).
+- Step 5: West to (17, 11) and land at (16, 11).
+- Step 6: Walk to Suicune sighting spot at (14, 10).
+- Note: This path is the only verified way onto the isolated northern plateau, using specific buoy gaps at Row 15 and Row 14. Ready for Eusine battle.
 
 # Area Notes: Cianwood City
 - Photo Studio: (9, 31)
