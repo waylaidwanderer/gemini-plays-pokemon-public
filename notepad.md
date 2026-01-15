@@ -12,4 +12,4 @@
 - **Goal:** Register Raikou & Entei.
 - **Current Task:** Gatehouse Shuffle (Looping Rt 38 <-> Gatehouse).
 - **Location:** Route 38 (East Side).
-- **Action:** Resuming Gatehouse Shuffle (Menu Closed).
+- **Action:** Navigating Start Menu to open Pokedex (Correction: Menu was open).

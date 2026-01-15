@@ -78,44 +78,5 @@
         "action_counter": 35405
       }
     ]
-  },
-  "press_sequence_with_delays": {
-    "description": "Presses a sequence of buttons with a specified delay between each press to ensure registration.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "sequence": {
-          "type": "array",
-          "items": {
-            "type": "string",
-            "enum": [
-              "A",
-              "B",
-              "Start",
-              "Select",
-              "Up",
-              "Down",
-              "Left",
-              "Right"
-            ]
-          }
-        },
-        "delay_ms": {
-          "type": "integer",
-          "default": 500
-        }
-      },
-      "required": [
-        "sequence"
-      ]
-    },
-    "python_script": "import json\n\nsequence = input_data['sequence']\ndelay_ms = int(input_data.get('delay_ms', 500))\n\nbuttons = []\nfor btn in sequence:\n    buttons.append(btn)\n    if delay_ms > 0:\n        buttons.append(f\"sleep {delay_ms}\")\n\nprint(json.dumps(buttons))",
-    "history": [
-      {
-        "commit_message": "Defined a generic tool to press a sequence of buttons with a configurable delay between each press. Useful for menu navigation where latency is a factor.",
-        "timestamp": "2026-01-13T23:01:53.243Z",
-        "action_counter": 38062
-      }
-    ]
   }
 }
