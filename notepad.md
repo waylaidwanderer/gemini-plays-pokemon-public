@@ -13,12 +13,13 @@
 # Goal Tracking: Capture Suicune
 - Start Turn: 48227
 - Start Time: Wednesday, 3:37 PM (Turn 48250)
-- Strategy: The Southern Channel Route (Turn 48380).
+- Strategy: The Great Buoy Loop (Turn 48381).
 - Step 1: Use Super Repel.
-- Step 2: Surf West at Row 30 to (20, 30).
-- Step 3: Surf North to (20, 26), then West to (15, 26).
-- Step 4: Surf North to (15, 16) and land at (13, 16).
-- Step 5: Walk North to Suicune at (14, 10).
+- Step 2: Surf North at X=27 to (27, 16).
+- Step 3: Surf West through Gap 2 at (22, 16) to (21, 16).
+- Step 4: Surf North to (21, 14), then West through Gap 4 at (19, 14) to (18, 14).
+- Step 5: Surf North to (18, 11), then West to land at (16, 11).
+- Step 6: Walk to Suicune at (14, 10).
 
 # Custom Tools (Technical Details)
 - find_path_v4: BFS pathfinder for current map.
