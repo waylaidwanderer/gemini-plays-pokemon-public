@@ -9,14 +9,13 @@
 - Location: Celadon Dept Store 2F.
 - Action: Buying Max Repels from Clerk at (13,5).
 - Status: In Mistral's Menu (Cursor on CANCEL).
-- Action: Select FLY -> Navigate to Saffron (Up -> Left).
+- Action: Select FLY (Up x5 -> A) -> Wait for Map.
 - Strategy:
-    1. **Open Map:** Down (Wrap to FLY) -> A.
-    2. **Navigate:** Up (Lavender) -> Left (Saffron).
-    3. **Verify:** Confirm screen text reads "Saffron City".
-    4. **Fly:** Press A to confirm.
-    5. **Transit:** Take Magnet Train from Saffron to Goldenrod.
-    6. **Hunt:** Loop Route 37/Ecruteak until Raikou/Entei is nearby.
+    1. **Open Map:** Up x5 (Force cursor to top/FLY) -> A.
+    2. **Verify:** Check "Currently selected destination" in next turn.
+    3. **Navigate:** Plan path from confirmed location to Saffron.
+    4. **Transit:** Take Magnet Train from Saffron to Goldenrod.
+    5. **Hunt:** Loop Route 37/Ecruteak until Raikou/Entei is nearby.
     2. **Buy Repels:** Locate clerk on 2F.
     3. **Transit:** Exit to Celadon City/Route 7.
     3. **Prepare Team:** Lead with Gyarados (Lv 37) + Max Repel.
