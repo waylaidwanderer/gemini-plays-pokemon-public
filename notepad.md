@@ -19,15 +19,14 @@
 - FLOOR_UP_WALL: Impassable ledge face. Blocks South movement.
 - LEDGE_HOP_DOWN: One-way jump (North to South).
 
-# Strategy: Reach Suicune (The Buoy Maze Master Path)
-- Start Turn: 48227 (Pursuit began), 48557 (Current strategy)
-- Step 1: From (27, 10), go Left through Gap 1 (26, 10) to (23, 10).
-- Step 2: South to (23, 16), then Left through Gap 2 (22, 16) to (20, 16).
-- Step 3: South to (20, 26), then Left through Gap 3 (18, 26) to (17, 26).
-- Step 4: North to (17, 20), then Left through Gap 5 (16, 20) to (15, 20).
-- Step 5: North to (15, 16), then West to (14, 16).
-- Step 6: Land at (13, 16) and walk to Suicune spot at (14, 10).
-- Note: This precise sequence of gaps is required to navigate the buoy walls. Ready for Eusine battle.
+# Strategy: Reach Suicune (The Western Land Perimeter)
+- Start Turn: 48227 (Pursuit began), 48562 (Current strategy)
+- Step 1: Land at (19, 30).
+- Step 2: Walk West to (12, 30), then South to (12, 32).
+- Step 3: Walk West at Row 32 to (2, 32) (bypass sign at 8, 32).
+- Step 4: Walk North at X=2 to (2, 10).
+- Step 5: Walk East at Row 10 to (14, 10).
+- Note: This avoids all buoy traps and town ledges. Ready for Eusine battle (Drowzee/Haunter/Electrode ~Lv25). Verified Row 32 as a clear crossing.
 
 # Area Notes: Cianwood City
 - Photo Studio: (9, 31)
