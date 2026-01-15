@@ -12,9 +12,9 @@
 
 ## Plan: Reach North Plateau (Started Turn 48972)
 - Goal: Reach Suicune at (14, 10).
-- Step 1: Reach (12, 28) and Surf. <- CURRENT TASK
-- Step 2: Navigate North to Buoy Gap at (23, 15).
-- Step 3: Land on plateau at (17, 11) from north-east sea.
+- Step 1: Reach (12, 28) and Surf. (Done)
+- Step 2: Navigate North through buoy gap at (23, 15). <- CURRENT TASK
+- Step 3: Move West to landing spot at (17, 11) or (18, 11).
 - Step 4: Reach (14, 10) to trigger Suicune sighting.
 
 # Area Notes
@@ -23,7 +23,7 @@
 - Poke Seer: (5, 17) (DOOR)
 - Obstacle: Ledge at (10, 15) blocks Northward progress from city center.
 - Connection: Route 41 (0, 32) <-> Cianwood City (29, 32).
-- Route: Buoy Gap at (23, 15) leads to plateau landing at (17, 11).
+- Route: Buoy Gap at (23, 15) leads to north sea. Landing spot at (17, 11).
 
 # Tile Mechanics (Verified)
 - FLOOR: Traversable.
