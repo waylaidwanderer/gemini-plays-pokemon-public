@@ -12,10 +12,18 @@
 
 ## Plan: Reach North Plateau (Started Turn 48972)
 - Goal: Reach Suicune at (14, 10).
-- Step 1: Reach West Beach (2, 32) via south detour: (7, 44) -> (10, 44) -> (10, 50) gap -> (4, 50) -> (4, 32) -> (2, 32). <- CURRENT TASK
-- Step 2: Walk North along West Beach (X=0-2) to Row 12.
-- Step 3: Move East to X=14 (under the plateau).
-- Step 4: Move North to (14, 10) to trigger Suicune sighting.
+- Step 1: Reach X=11, Row 27.
+- Step 2: Surf at (12, 27) and head North to Row 16.
+- Step 3: Land at (12, 16) and walk North through the gap at (11, 15). <- CURRENT TASK
+- Step 4: Reach (14, 10) to trigger Suicune sighting.
+
+# Area Notes
+- Photo Studio: (9, 31) (DOOR)
+- Lugia House: (15, 37) (DOOR)
+- Poke Seer: (5, 17) (DOOR)
+- Obstacle: Ledge at (10, 15) blocks Northward progress. Gap identified at (11, 15).
+- Highway: X=12 is a clear vertical path; Row 12 is a clear horizontal path.
+- Connection: Route 41 (0, 32) <-> Cianwood City (29, 32).
 
 # Area Notes
 - Photo Studio: (9, 31) (DOOR)
