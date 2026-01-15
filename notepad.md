@@ -6,15 +6,16 @@
 
 # Suicune Quest (Cianwood)
 - Started: Turn 49630
-## Strategy: The Secret Gap Bypass
-Reach (14, 10) by using the gap at (11, 15) to bypass the Row 15 ledge.
-1. Move North along X=12 to (12, 28).
-2. Surf from (12, 28) to (12, 16) and land.
-3. Move West to (11, 16) and North through gap at (11, 15) to (11, 14).
-4. Move East to (14, 14) and North to (14, 10) to trigger Suicune.
+## Strategy: The Sea Route Bypass (Final)
+Reach (14, 10) by surfing around the city via the eastern gap.
+1. Move to (23, 33) and SURF.
+2. Surf North to (27, 9) (Gap in Row 9 buoy wall).
+3. Surf West to (17, 9) and land on the plateau.
+4. Walk to (14, 10) to trigger Suicune.
 
 # Progress Notes
-- Verified: (11, 15) is FLOOR, providing a gap in the Row 15 ledge/wall.
-- Verified: Row 12 is a clear horizontal path from X=2 to X=14.
-- Blocked: All other land routes (X=4, 6, 9) are blocked by walls or NORTH-blocking ledges at Row 15.
-- Blocked: Sea Route is restricted by complex buoy walls and landing point barriers.
+- Blocked: All land routes (X=2, 4, 6, 12) are blocked by walls or SOUTH-blocking ledges.
+- Blocked: Central sea (X=12-15) is blocked by the Row 15 land wall.
+- Verified: Row 32 is a clear horizontal path from X=12 to X=23.
+- Verified: (27, 9) is a clear gap in the buoy walls leading to the Northern Sea.
+- Verified: (16, 11) and nearby tiles are landing points for the plateau.
