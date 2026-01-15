@@ -5,9 +5,9 @@
 
 # Strategic Status
 - **Goal:** Register Raikou & Entei.
-- **Current Task:** Travel to Saffron City.
-- **Location:** Route 8 (East of Saffron).
-- **Action:** Clear phone call -> Walk West to Saffron Gatehouse.
+- **Current Task:** Hunt Roaming Beasts.
+- **Location:** Goldenrod City (Magnet Train Station).
+- **Action:** Exit station -> Fly to Ecruteak City -> Start Hunt Loop.
 
 # Strategy (Hunt Loop)
 1.  **Transit:** Enter Saffron City -> Magnet Train Station.
