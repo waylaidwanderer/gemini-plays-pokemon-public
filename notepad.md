@@ -1,7 +1,5 @@
 # Suicune Quest (Cianwood)
 - **Quest Start:** Turn 48900 (Suicune Tracking)
-- **Status:** Investigating (11, 15) gap. Repel active.
-
 ## Execution Plan (Island Hop Investigation)
 1. Use Super Repel. (Turn 49411) (Done)
 2. Surf North to (14, 16) and land at (13, 16). <- CURRENT TASK

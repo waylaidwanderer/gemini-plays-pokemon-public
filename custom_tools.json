@@ -27,6 +27,7 @@
   "find_path_v6_fixed_refined_v2": {
     "description": "Finds a path using BFS on the current map XML, handling walls, objects, and one-way ledge jumps. Returns a JSON array of button strings. Avoids DOOR tiles unless they are the target. Refined for efficiency.",
     "input_schema": {
+      "type": "object",
       "properties": {
         "target_x": {
           "type": "integer"
@@ -38,15 +39,19 @@
       "required": [
         "target_x",
         "target_y"
-      ],
-      "type": "object"
+      ]
     },
-    "python_script": "import collections, json, xml.etree.ElementTree as ET\ndef solve():\n    try:\n        r = ET.fromstring(map_xml_string)\n        g, s = {}, None\n        for row in r.findall('Row'):\n            y = int(row.attrib['id'])\n            for t in row.findall('Tile'):\n                x = int(t.attrib['id'])\n                g[(x,y)] = (t.attrib['type'], t.attrib.get('has-object')=='true', t.attrib.get('is-warp')=='true')\n                if t.find('Player') is not None: s = (x,y)\n        if not s: return print(\"[]\")\n        tx, ty = int(input_data['target_x']), int(input_data['target_y'])\n        q = collections.deque([(s, [])])\n        v = {s}\n        while q:\n            (cx, cy), p = q.popleft()\n            if (cx, cy) == (tx, ty): return print(json.dumps(p))\n            if len(p) >= 150: continue\n            for dx, dy, m in [(0,-1,'Up'),(0,1,'Down'),(-1,0,'Left'),(1,0,'Right')]:\n                nx, ny = cx+dx, cy+dy\n                if (nx, ny) in g:\n                    tp, obj, wrp = g[(nx, ny)]\n                    if obj and (nx, ny) != (tx, ty): continue\n                    if tp in ('WALL', 'BUOY', 'unseen'): continue\n                    if wrp and tp == 'DOOR' and (nx, ny) != (tx, ty): continue\n                    if m == 'Down' and tp == 'FLOOR_UP_WALL': continue\n                    if m == 'Up' and tp == 'LEDGE_HOP_DOWN': continue\n                    if m in ('Left', 'Right') and tp == 'LEDGE_HOP_DOWN': continue\n                    if (nx, ny) not in v:\n                        v.add((nx, ny))\n                        q.append(((nx, ny), p + [m]))\n        print(\"[]\")\n    except: print(\"[]\")\nsolve()\n",
+    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\nimport json\n\ndef find_path(xml_string, start, target):\n    try:\n        root = ET.fromstring(xml_string)\n    except Exception:\n        return None\n        \n    grid = {}\n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            t_type = tile.attrib['type']\n            has_obj = tile.attrib.get('has-object') == 'true'\n            grid[(x, y)] = (t_type, has_obj)\n\n    queue = deque([(start, [])])\n    visited = {start}\n    \n    while queue:\n        (x, y), path = queue.popleft()\n        if (x, y) == target:\n            return path\n            \n        for dx, dy, move in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n            nx, ny = x + dx, y + dy\n            if (nx, ny) in grid:\n                ntype, nobj = grid[(nx, ny)]\n                if ntype == 'WALL' or nobj or ntype == 'BUOY':\n                    continue\n                if ntype == 'DOOR' and (nx, ny) != target:\n                    continue\n                if dy == 1 and ntype == 'FLOOR_UP_WALL':\n                    continue\n                if dy == -1 and ntype == 'LEDGE_HOP_DOWN':\n                    continue\n                \n                if (nx, ny) not in visited:\n                    visited.add((nx, ny))\n                    queue.append(((nx, ny), path + [move]))\n    return None\n\ntry:\n    target_x = int(input_data['target_x'])\n    target_y = int(input_data['target_y'])\n    root = ET.fromstring(map_xml_string)\n    start_x, start_y = None, None\n    for row in root.findall('Row'):\n        for tile in row.findall('Tile'):\n            if tile.find('Player') is not None:\n                start_x = int(tile.attrib['id'])\n                start_y = int(row.attrib['id'])\n                break\n        if start_x is not None: break\n    \n    if start_x is not None:\n        path = find_path(map_xml_string, (start_x, start_y), (target_x, target_y))\n        print(json.dumps(path if path else []))\n    else:\n        print(json.dumps([]))\nexcept Exception:\n    print(json.dumps([]))",
     "history": [
       {
         "commit_message": "Refining BFS logic to handle directional tiles and adding safety limits.",
         "timestamp": "2026-01-15T17:23:36.994Z",
         "action_counter": 49364
+      },
+      {
+        "commit_message": "Refined pathfinding with robust collision and one-way ledge handling.",
+        "timestamp": "2026-01-15T18:12:40.975Z",
+        "action_counter": 49415
       }
     ]
   }
