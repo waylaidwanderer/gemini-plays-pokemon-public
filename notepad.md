@@ -4,15 +4,14 @@
 - **Status:** Back in city at (14, 30). Executing Western Corridor path.
 
 ## Execution Plan (Refined)
-1. Walk to (9, 33) to pass the X=9 wall. <- CURRENT TASK
-2. Walk to (5, 35) to pass the X=5 wall.
-3. Walk West to (2, 35) to enter the western corridor.
-4. Walk North to (2, 14) to bypass Row 15 barriers.
-5. Walk East to (8, 14), then North to (8, 10).
-6. Walk East to (14, 10) to trigger Suicune.
+1. Walk East to (21, 33), then South to (21, 51). (Bypasses Row 34 and Row 48 ledges). <- CURRENT TASK
+2. Walk West to (2, 51).
+3. Walk North to (2, 14) to enter the western corridor.
+4. Walk East to (8, 14), then North to (8, 10).
+5. Walk East to (14, 10) to trigger Suicune.
 
 ## Strategy: Western Corridor Path
-The northern plateau is only accessible from the far west (X=2). The city is divided by walls at X=9 and X=5. Gaps exist at (9, 33) and (5, 35). This path avoids all one-way ledges and buoy barriers.
+The northern plateau is only accessible from the far west (X=2). Row 34 and Row 48 are solid ledge lines between the main city and the western corridor. I must loop around the south at Row 51 to reach the western path.
 
 ## Tile Mechanics (Global)
 - **FLOOR**: Traversable ground. No special effects.
