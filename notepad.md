@@ -14,7 +14,7 @@ Reach (14, 10) by bypassing ledges via the western corridor (X=2).
 5. Move South to (7, 36) and West to (2, 36).
 6. Walk North along X=2 to Row 12 (bypasses Row 15 ledge).
 7. Walk East to (14, 12) and North to (14, 10).
-- Current Step: Detouring around Lass at (14, 44) to reach (12, 33).
+- Current Step: Moving West to (7, 33) to prepare for Row 36 bypass.
 
 # Progress Notes
 - X=12 Corridor: Clear from Row 44 to Row 33.
