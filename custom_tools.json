@@ -141,17 +141,21 @@
     ]
   },
   "check_roamer_map": {
-    "description": "Opens the Pokegear and navigates to the Map card to check for roaming beasts. Assumes Start menu cursor is on Pokegear and Pokegear cursor resets to Back. Includes final 'A' press to open map.",
+    "description": "Opens the Pokegear and reliably navigates to the Map card to check for roaming beasts. Uses a 'Left x3, Right' sequence to force the cursor to the Back button then move to Map. Includes 'Start' to open the menu and 'A' to select.",
     "input_schema": {
       "type": "object",
       "properties": {
         "autopress_buttons": {
           "type": "boolean",
-          "default": false
+          "default": false,
+          "description": "If true, buttons are pressed automatically."
         }
-      }
+      },
+      "required": [
+        "autopress_buttons"
+      ]
     },
-    "python_script": "import json\n# Sequence: Start -> Wait -> A (Open Gear) -> Wait -> Right (Select Map) -> Wait -> A (Open Map)\nbuttons = [\"Start\", \"sleep 500\", \"A\", \"sleep 500\", \"Right\", \"sleep 500\", \"A\", \"sleep 500\"]\nprint(json.dumps(buttons))",
+    "python_script": "print('{\"buttons\": [\"Start\", \"sleep 500\", \"A\", \"sleep 500\", \"Left\", \"Left\", \"Left\", \"sleep 200\", \"Right\", \"sleep 500\", \"A\", \"sleep 500\"]}')",
     "history": [
       {
         "commit_message": "Initial version",
@@ -167,6 +171,11 @@
         "commit_message": "Fixed tool to include final 'A' press for opening the map.",
         "timestamp": "2026-01-15T06:41:41.052Z",
         "action_counter": 40202
+      },
+      {
+        "commit_message": "Updated to use a more robust 'Left x3, Right' sequence to ensure the cursor is on the Map card, regardless of starting position.",
+        "timestamp": "2026-01-15T08:19:57.390Z",
+        "action_counter": 40325
       }
     ]
   }
