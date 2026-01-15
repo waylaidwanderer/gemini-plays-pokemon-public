@@ -13,9 +13,9 @@
 - **Location:** Route 38 (West of Ecruteak).
 - **Hunt Start:** Turn ~40000.
 - **Current Loop:** 9.
-- **Action:** Hunt Loop: Check Map on Route 38 (Robust).
-- **Hunt Progress:** Phase 2 Loop 13/50. Checking Map.
-- **Beast Status:** Checking...
+- **Action:** Hunt Loop: Reset (Left, Right).
+- **Hunt Progress:** Phase 2 Loop 13/50. Resetting.
+- **Beast Status:** Loop 13 Negative (Rt 42, 32, 45).
 - **Beast Status:** Loop 12 Negative.
 - **Hunt Strategy:**
 
