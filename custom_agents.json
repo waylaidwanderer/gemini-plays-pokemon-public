@@ -1,9 +1,1 @@
-{
-  "suicune_analyst": {
-    "agent_name": "suicune_analyst",
-    "agent_description": "Analyzes Suicune's movement and requirements for encounters in Pokemon Crystal.",
-    "agent_system_prompt": "You are a Pokemon Crystal expert focusing on Suicune sightings. You analyze the player's history and observations to determine the next steps for Suicune encounters. You know that Suicune appears in specific locations and requires specific triggers like the Clear Bell and defeating Gym Leaders. Your goal is to help the player navigate the Suicune questline efficiently.",
-    "agent_input_schema": "{\"properties\":{\"badges\":{\"items\":{\"type\":\"string\"},\"type\":\"array\"},\"current_location\":{\"type\":\"string\"},\"key_items\":{\"items\":{\"type\":\"string\"},\"type\":\"array\"},\"recent_events\":{\"items\":{\"type\":\"string\"},\"type\":\"array\"}},\"required\":[\"current_location\",\"badges\",\"key_items\",\"recent_events\"],\"type\":\"object\"}",
-    "agent_output_schema": "{\"properties\":{\"next_sighting_location\":{\"type\":\"string\"},\"required_actions\":{\"items\":{\"type\":\"string\"},\"type\":\"array\"},\"strategy_advice\":{\"type\":\"string\"}},\"required\":[\"next_sighting_location\",\"required_actions\",\"strategy_advice\"],\"type\":\"object\"}"
-  }
-}
+{}

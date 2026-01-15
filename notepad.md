@@ -20,14 +20,14 @@
 - LEDGE_HOP_DOWN: One-way jump (North to South).
 
 # Strategy: Capture Suicune (Pursuit started Turn 48227)
-- Current Approach: The Eastern Channel Landing (Turn 48567)
-- Step 1: Walk to (19, 30). [DONE]
-- Step 2: Surf at (19, 30) and move to (27, 30). [IN PROGRESS]
-- Step 3: Surf North to (27, 15).
-- Step 4: West through Gap 6 (23, 15) to (23, 14).
-- Step 5: West through Gap 4 (19, 14) to (19, 11).
-- Step 6: West to (17, 11) and land at (16, 11).
-- Step 7: Walk to (14, 10) to trigger cutscene.
+- Current Approach: The Western Wall Gap (Turn 48576)
+- Step 1: Land at (19, 30). [IN PROGRESS]
+- Step 2: Walk to (12, 47), then West through gap to (2, 47).
+- Step 3: Walk North at X=2 to Row 14.
+- Step 4: Walk East at Row 14 to (8, 14).
+- Step 5: Walk North at X=8 to Row 10.
+- Step 6: Walk East at Row 10 to (14, 10) to trigger cutscene.
+- Note: This land route bypasses all buoy traps and town ledges by using the gap in the vertical wall at Row 47. Verified clear path from X=2 to the plateau.
 
 # Area Notes: Cianwood City
 - Photo Studio: (9, 31) | Poke Seer: (5, 17)
