@@ -13,7 +13,7 @@
 - **Current Task:** Hunt Roaming Beasts (Phase 2).
 - **Location:** Route 38 (East Side).
 - **Action:** Resume Scan (Loop 1).
-- **Hunt Progress:** Repel Applied. Exiting Menu.
+- **Hunt Progress:** Repel Active. Scanning.
 
 # Hunt Strategy
 1. **Target Acquired:** Beast IS on Route 38!
