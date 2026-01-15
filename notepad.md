@@ -12,7 +12,7 @@
 
 ## Plan: Reach North Plateau (Started Turn 48972)
 - Goal: Reach Suicune at (14, 10).
-- Step 1: Reach West Beach (2, 32) via Row 44 -> X=7 -> Row 35 gap -> X=4 -> Row 32. <- CURRENT TASK
+- Step 1: Reach West Beach (2, 32) via south detour: (7, 44) -> (10, 44) -> (10, 50) gap -> (4, 50) -> (4, 32) -> (2, 32). <- CURRENT TASK
 - Step 2: Walk North along West Beach (X=0-2) to Row 12.
 - Step 3: Move East to X=14 (under the plateau).
 - Step 4: Move North to (14, 10) to trigger Suicune sighting.
