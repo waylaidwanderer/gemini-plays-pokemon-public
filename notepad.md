@@ -46,3 +46,5 @@
 - Turn 40579: In Pokegear. Cursor on 'Back'. Pressing 'Right' to target Map Card. Avoiding multi-button input due to system constraints.
 - Turn 40580: Cursor confirmed on Map Card. Pressing 'A' to open map and verify Beast positions (Shuffle #3).
 - Turn 40582: Start Menu visible. Pressing B to return to Overworld and perform Shuffle #4.
+- Turn 40587: Cursor confirmed on POKEGEAR. Pressing A to open.
+- Note: System warning about looping is noted. I am intentionally shuffling, but will move off the warp tile after this check to reset the counter.
