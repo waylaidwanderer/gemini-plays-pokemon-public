@@ -10,15 +10,16 @@
 - NPC: Impassable. Interact from adjacent tile.
 
 # Strategy: Capture Suicune
-- Goal: Reach (14, 10) to trigger sighting.
-- Approach: Buoy Maze Master Path
+- Goal: Reach the northern plateau (approx. 14, 10) to trigger sighting.
+- Approach: The Northern Flank (Hypothesis)
 - Plan:
-  1. Surf at (19, 30) and navigate to (27, 30).
-  2. North to (27, 10), then West through Gap 1 (26, 10) to (23, 10).
-  3. South to Gap 6 (23, 15), then West/South through Gap 2 (22, 16).
-  4. North/West through Gap 4 (19, 14) to reach the inner channel.
-  5. Navigate to (15, 11) to land and walk to (14, 10).
-- Status: Confirming SURF at (19, 30).
+  1. Surf at (27, 30) and navigate North to (27, 10). [IN PROGRESS]
+  2. West through Gap 1 (26, 10) to (25, 10).
+  3. North to (25, 0) to reach the open water channel at the top of the map.
+  4. West along Y=0 to X=14.
+  5. South to (14, 10) to land on the plateau.
+- Status: Navigating to (27, 10).
+- Reasoning: All other land and water routes are blocked by rocks or ledges. The far north channel appears clear on the map.
 
 # Area Notes: Cianwood City
 - Photo Studio: (9, 31) | Poke Seer: (5, 17)
