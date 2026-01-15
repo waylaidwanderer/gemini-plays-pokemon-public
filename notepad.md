@@ -13,13 +13,13 @@
 - Goal: Reach (14, 10) to trigger sighting.
 - Approach: The Northern Water Loop (Verified)
 - Plan:
-  1. Surf North to (22, 16). [IN PROGRESS]
-  2. East to (23, 16), then North through Gap 6 at (23, 15) to (23, 14).
-  3. West through Gap 4 at (19, 14) to (18, 14).
-  4. North to Row 9, then West to (14, 9).
-  5. South to (14, 10) and land.
-- Status: At (22, 21) surfing, heading North.
-- Reasoning: Row 15 is a continuous barrier of cliffs and buoys. The only way to the northern plateau is to loop through the gaps at X=23 and X=19 to reach the open water at Row 9.
+  1. Surf East to (27, 14). [IN PROGRESS]
+  2. Surf North to (27, 8).
+  3. Surf West to (22, 8) [Gap], then to (18, 8).
+  4. Navigate to the northern plateau landing spot at (16, 11).
+  5. Walk to (14, 10).
+- Status: At (23, 14) surfing, heading East.
+- Reasoning: Row 9 and Column 22 are solid buoy barriers. The only way to the west side of the maze is to loop through the main channel at X=27 and use the northern gap at (22, 8).
 
 # Area Notes: Cianwood City
 - Photo Studio: (9, 31) | Poke Seer: (5, 17)
