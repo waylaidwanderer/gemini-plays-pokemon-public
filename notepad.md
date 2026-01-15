@@ -32,5 +32,5 @@
 - **Money:** ¥15644.
 - **Items:** Max Repel x30.
 - **Key Items:** Pass (Magnet Train).
-- **Status:** Entering Route 37. Loop ~73/75.
-- **Next Step:** Check map on Route 37.
+- **Status:** Route 37. Checking Map. Loop ~73/75.
+- **Next Step:** Check Roamer Map.
