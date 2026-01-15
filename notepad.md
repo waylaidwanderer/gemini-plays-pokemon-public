@@ -50,3 +50,5 @@
 - Status (Turn 40588): In Pokegear (Shuffle #4). Cursor on 'Back'.
 - Action: Pressing 'Right' to select Map Card.
 - Warning: Loop detection noted. Will adjust path after map check if needed.
+- Turn 40589: Intermediate state confirms cursor on MAP. Pressing A to open. Discrepancy in 'Current Screen Text' ignored.
+- Note: If Map check fails, will add 'wiggle' movement (Left-Right) on Route 38 to reset loop counter before next shuffle.
