@@ -19,13 +19,14 @@
 - FLOOR_UP_WALL: Impassable ledge face. Blocks South movement.
 - LEDGE_HOP_DOWN: One-way jump (North to South).
 
-# Strategy: Reach Suicune (The Western Perimeter Path)
-- Start Turn: 48227 (Pursuit began), 48525 (Current strategy)
-- Step 1: Walk to (12, 47).
-- Step 2: Walk West at Row 47 to (2, 47).
-- Step 3: Walk North at X=2 to Row 10.
-- Step 4: Walk East at Row 10 to (14, 10).
-- Note: This path uses the clear corridor at X=2 to bypass all city ledges. Verified gaps at Row 15, 20, 25, 30, 34, 46, 48.
+# Strategy: Reach Suicune (The Northern Water Approach)
+- Start Turn: 48227 (Pursuit began), 48528 (Current strategy)
+- Step 1: Walk to (19, 30) via (19, 49).
+- Step 2: Surf at (19, 30).
+- Step 3: Surf North to Row 11, then West to (17, 11).
+- Step 4: Land at (16, 11).
+- Step 5: Walk to Suicune sighting spot at (14, 10).
+- Note: This avoids all city ledges and buoy traps by landing directly on the northern plateau. Verified that (16, 11) is a FLOOR tile adjacent to potential water at (17, 11).
 
 # Area Notes: Cianwood City
 - Photo Studio: (9, 31)
