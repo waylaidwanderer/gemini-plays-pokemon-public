@@ -41,3 +41,4 @@
 - Turn 40529: Manual scan (20 steps). Re-calculated Repel usage: ~80/250 steps used (plenty remaining).
 - Turn 40530: Manual scan (20 steps). Repel active. No encounter yet.
 - Turn 40531: Manual scan (20 steps). Repel active (~120/250 steps used). Still nothing.
+- Turn 40532: Manual scan (20 steps). Repel active (~140/250 steps used). Still nothing. Only Raikou/Entei (Lv 40) can penetrate the Repel (Lead Lv 37).
