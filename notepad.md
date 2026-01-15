@@ -29,3 +29,6 @@
 - WALL: Impassable.
 - LADDER: Warp point between floors. Traversable.
 - WARP_CARPET_DOWN: Warp point to another map. Traversable by moving Down.
+- WARP_CARPET_LEFT: Warp point. Move Left to exit.
+- WARP_CARPET_RIGHT: Warp point. Move Right to exit.
+- DOOR: Warp point. Move Up into it to exit.
