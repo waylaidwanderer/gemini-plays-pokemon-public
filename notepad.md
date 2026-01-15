@@ -13,12 +13,12 @@
 # Goal Tracking: Capture Suicune
 - Start Turn: 48227
 - Start Time: Wednesday, 3:37 PM (Turn 48250)
-- Strategy: The North-East Surf Route (Turn 48373).
-- Step 1: Surf at (20, 30).
-- Step 2: Surf East to X=23, then North to Row 16.
-- Step 3: Surf West through (22, 16) to X=21, then North to Row 14.
-- Step 4: Surf West through (19, 14) to X=19, then North to Row 11.
-- Step 5: Surf West to (16, 11) and land.
+- Strategy: The Buoy Gap Gauntlet (Turn 48379).
+- Step 1: Use Super Repel.
+- Step 2: Surf North to (27, 10) and go West through Gap 1 at (26, 10).
+- Step 3: Surf South to Row 16 and go West through Gap 2 at (22, 16).
+- Step 4: Surf North to Row 14 and go West through Gap 4 at (19, 14).
+- Step 5: Surf North to Row 11 and explore West for landing spot near (16, 11).
 - Step 6: Walk to Suicune at (14, 10).
 
 # Custom Tools (Technical Details)
