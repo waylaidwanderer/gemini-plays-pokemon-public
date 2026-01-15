@@ -12,32 +12,29 @@
 
 ## Plan: Reach North Plateau (Started Turn 48972)
 - Goal: Reach Suicune at (14, 10).
-- Step 1: Reach (12, 28) and Surf north to (12, 16). <- CURRENT TASK
-- Step 2: Land at (12, 16).
-- Step 3: Navigate land route to Suicune:
-  - (12, 16) -> (11, 16) -> (11, 14) (via gap (11, 15)).
-  - (11, 14) -> (13, 14) -> (13, 12) (via gap (13, 13)).
-  - (13, 12) -> (14, 12) -> (14, 10).
-- Step 4: Trigger Suicune sighting.
+- Step 1: Reach (12, 28) and Surf. (Done)
+- Step 2: Use Super Repel and Surf East to bypass Buoy Wall.
+  - (12, 27) -> (12, 26) -> (20, 26) -> (20, 21) -> (23, 21). <- CURRENT TASK
+- Step 3: Surf North through Buoy Gap at (23, 15).
+- Step 4: Surf West and land on plateau at (16, 11).
+- Step 5: Reach (14, 10) to trigger Suicune sighting.
 
 # Area Notes
-- Ledge (10, 15) blocks north at X=10.
-- Gap at (11, 15) is FLOOR and allows northward passage.
-- Water at Row 16-24 blocks land passage from city center. Surf required.
-- Landing point: (12, 16) is FLOOR.
-- Highway: X=12 is a clear vertical corridor (land/water mix) from Row 44 to Row 16.
-- Highway: X=9 is land from Row 29 to Row 21.
+- Ledge (10, 15) blocks direct North path from town center.
+- Buoy Wall at X=16-22 (Rows 15-20) blocks East path from town center.
+- Buoy Gap at (23, 15) allows access to North Sea.
+- North Plateau Landing: (16, 11) and (16, 12) are FLOOR tiles reachable from the North Sea.
+- West Beach Path: (2, 35) to (2, 10) is also clear, but requires navigating a wall maze in town.
 
 # Tile Mechanics
 - FLOOR: Traversable.
-- WALL: Impassable.
-- FLOOR_UP_WALL: Cliff face (Impassable).
-- LEDGE_HOP_DOWN: One-way jump (North to South).
 - WATER: Requires Surf.
-- ROCK: Obstacle (Smashable).
+- BUOY: Impassable.
+- WALL: Impassable.
+- LEDGE_HOP_DOWN: One-way jump (North to South).
+- ROCK: Smashable obstacle.
 
 # Failed Hypotheses
-- Attempting to go around via Row 51 (Multiple failures due to unseen cliffs at Y=46-50).
-- Attempting to walk north via X=11/12 (Blocked by water at Row 24).
-- Attempting to enter plateau from East (Blocked by Buoy wall at Row 15 and Wall at X=18).
-- Positional Hallucination (Turn 49021): Believed I was at (21, 36) while actually at (19, 46). Corrected by verifying Game State.
+- Attempting to walk North via (11, 15) gap: Leads to a 2-tile dead end at (10-11, 14) due to solid walls at Row 13.
+- Attempting to walk to West Beach via Row 51: Blocked by unseen cliffs at Row 50.
+- Positional Hallucination (Turn 49021): Corrected. Verified position at (19, 46) during detour attempt.
