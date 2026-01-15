@@ -14,14 +14,15 @@
 - **Location:** Route 38 (West of Ecruteak).
 - **Hunt Start:** Turn ~40000.
 - **Current Loop:** 17.
-- **Action:** Verify Beast Location (Post-Battle).
-- **Hunt Progress:** Phase 2 Loop 17/50. Ran from Magnemite. Checking Map to confirm Beast didn't flee/roam.
-- **Beast Status:** **POSITIVE** (Route 38) - pending verification.
-- **Hypothesis:** Running from wild battles does NOT cause roamers to move.
+- **Action:** Fix Menu & Check Map.
+- **Hunt Progress:** Phase 2 Loop 17/50.
+- **Critical Realization:** I spotted the Beast on Rt 38 *while inside the Gatehouse*. Exiting the Gatehouse to Rt 38 constitutes a map transition. **The Beast likely moved.**
+- **Current State:** Accidentally opened Pokedex (Beedrill).
 - **Plan:**
-    1. Check Map.
-    2. If on Rt 38 -> Resume Scan.
-    3. If moved -> Reset.
+    1. Close Pokedex (B, B, B).
+    2. Open Pokegear (Start, Down x3, A).
+    3. Check Map.
+    4. If Beast is gone (expected), Reset.
 - **Location:** Trapped in grass strip (Col 8-9).
 - **Plan:**
     1. Continue Scanning Grass.
