@@ -6,19 +6,15 @@
 
 # Suicune Quest (Cianwood)
 - Started: Turn 49630
-## Strategy: Super Repel Sea Route (The Final Plan)
-Reach (14, 10) by surfing around the city using Super Repel to avoid battles.
-1. Fly to Cianwood City to reset position.
-2. Use SUPER REPEL from inventory.
-3. Move to (23, 33) and SURF.
-4. Surf North to (23, 15) (Gap 1).
-5. Surf East to (27, 15) and North to (27, 9) (Gap 2).
-6. Surf West to (19, 9) and South to (19, 11).
-7. Land at (16, 11) and move North over ledge at (16, 10).
-8. Walk to (14, 10) to trigger Suicune.
+## Strategy: Sea Route Bypass (Final)
+Reach (14, 10) by surfing around the city via the eastern gap.
+1. Navigate to (23, 33).
+2. SURF and move North to (27, 9) (Gap in Row 9 buoy wall).
+3. Surf West and land at (16, 11) or nearby.
+4. Walk to (14, 10) to trigger Suicune.
 
-# Progress Notes
-- Verified: Sea route buoy gaps are at (23, 15) and (27, 9).
-- Verified: Landing point (16, 11) leads to the plateau.
-- Item: Using SUPER REPEL to bypass wild encounters.
-- Hypothesis: FLOOR_UP_WALL tiles allow NORTH movement but block SOUTH (Testing pending).
+# Verification Notes
+- Row 32 is a clear horizontal path from X=12 to X=23.
+- (27, 9) is a clear gap in the buoy walls leading to the Northern Sea.
+- (16, 11) is a landing point for the plateau.
+- SUPER REPEL is available in inventory to bypass wild encounters.
