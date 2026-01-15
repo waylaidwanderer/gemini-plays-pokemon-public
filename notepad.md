@@ -29,4 +29,4 @@
 - **Money:** ¥15644.
 - **Items:** Max Repel x30.
 - **Key Items:** Pass (Magnet Train).
-- **Status:** On Route 37 (Turn 39916). Checking Map (Loop ~57).
+- **Status:** On Route 37 (Turn 39917). Pokegear Open. Selecting Map.
