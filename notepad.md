@@ -9,8 +9,8 @@
 - **Current Task:** Hunt Roaming Beasts (Phase 2).
 - **Location:** Route 38 (West of Ecruteak).
 - **Action:** Hunt Loop: Transition between Rt 38 and Gatehouse.
-- **Hunt Progress:** Phase 2 Loop 2/50. Resetting.
-- **Beast Status:** Loop 2 Negative.
+- **Hunt Progress:** Phase 2 Loop 3/50. Starting.
+- **Beast Status:** Checking Route 38.
 - **Hunt Strategy:**
     1. Check Pokegear on Route 38.
     2. If Beast is present: Max Repel -> Grass -> Search.
