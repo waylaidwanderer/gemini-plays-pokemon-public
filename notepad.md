@@ -38,7 +38,7 @@
 - **Phase 3 (Gatehouse Shuffle):**
     - Turn 40548: Wade called. Handling call, then heading to Gatehouse (35, 8).
 - Strategy: Gatehouse Shuffle (Rt 38 <-> Gatehouse) in progress.
-- Status (Turn 40574): Shuffle #2 complete. Map check negative (Rt 42/44/32). In Start Menu.
-- Action: Closing menu to perform Shuffle #3.
+- Status (Turn 40578): Shuffle #3 complete. Checking Map.
+- Action: Opening Start Menu to verify Beast positions.
 - Turn 40575: Re-entering Gatehouse (Right x2) for Shuffle #3. Keeping the rhythm going!
 - Turn 40577: Inside Gatehouse. Exiting back to Route 38 (Left x2) to complete Shuffle #3.
