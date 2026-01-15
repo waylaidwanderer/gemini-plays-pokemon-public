@@ -11,14 +11,16 @@
 
 # Strategy: Capture Suicune (Started Turn 48227)
 - Goal: Reach (14, 10) to trigger sighting.
-- Approach: The West Beach Land Route (Verified Row 28 Bridge)
+- Approach: The Southern Corridor Trek (Verified Land Route)
 - Plan:
-  1. Select NO to Surf prompt at (12, 28). [IN PROGRESS]
-  2. Walk West along Row 28 to (2, 28).
-  3. Walk North along X=2 to Row 12.
-  4. Walk East to (14, 12), then North to (14, 10).
-- Status: At (12, 28), cancelling Surf.
-- Reasoning: Row 28 is a confirmed FLOOR corridor from X=12 to X=2, bypassing all walls and buoys. This is the safest and most direct route.
+  1. Select NO to Surf prompt at (12, 28). [DONE]
+  2. Walk South to (12, 49), then West to (10, 49).
+  3. Walk South through the ledge gap at (10, 50) to (10, 51).
+  4. Walk West to the West Beach corridor at (2, 51).
+  5. Walk North along X=2 to Row 12.
+  6. Walk East to (14, 12), then North to (14, 10).
+- Status: At (12, 28), heading South.
+- Reasoning: Row 50/51 contains a confirmed ledge gap at X=10 that provides access to the clear West Beach corridor (X=2), bypassing all city walls and the buoy maze.
 
 # Area Notes: Cianwood City
 - Photo Studio: (9, 31) | Poke Seer: (5, 17)
