@@ -18,14 +18,13 @@
 - FLOOR_UP_WALL: Impassable ledge face.
 - LEDGE_HOP_DOWN: One-way jump (North to South).
 
-# Strategy: Capture Suicune (The Eastern Water Channel)
-- Start Turn: 48227 (Pursuit began), 48487 (Current strategy)
-- Step 1: Surf from (19, 30). (Arrived at 20, 30)
-- Step 2: Surf East to (27, 30), then North along the east coast to (27, 15).
-- Step 3: Surf West through Gap at (23, 15) to Row 14.
-- Step 4: Surf West along the Row 14 channel to (18, 14).
-- Step 5: Surf North at X=18 to (18, 11), then West to land at (16, 11).
-- Step 6: Walk to Suicune sighting spot at (14, 10).
+# Strategy: Capture Suicune (The Northern Buoy Maze)
+- Start Turn: 48227 (Pursuit began), 48505 (Current strategy)
+- Step 1: Surf North along the east channel to (27, 10).
+- Step 2: West through gap at (26, 10) to (23, 10).
+- Step 3: North to (23, 8), then West through gap at (22, 8) to (19, 8).
+- Step 4: West to (17, 11) and land at (16, 11).
+- Step 5: Walk to Suicune sighting spot at (14, 10).
 
 # Area Notes: Cianwood City
 - Photo Studio: (9, 31)
