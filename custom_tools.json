@@ -100,5 +100,36 @@
         "action_counter": 48606
       }
     ]
+  },
+  "find_path_v4_fixed": {
+    "description": "Finds a traversable path from the player's current position to a target coordinate on the current map, specifically handling FLOOR_UP_WALL as impassable (when moving North) and LEDGE_HOP_DOWN as one-way (South). Returns a JSON array of button strings. Distinguishes between LAND and WATER mediums and handles unseen tiles by assuming they match the starting medium.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "autopress_buttons": {
+          "default": false,
+          "description": "If true and the tool returns a list of buttons, they will be pressed automatically. Safety limit of 50 buttons per turn.",
+          "type": "boolean"
+        },
+        "target_x": {
+          "type": "integer"
+        },
+        "target_y": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "target_x",
+        "target_y"
+      ]
+    },
+    "python_script": "import json\nimport xml.etree.ElementTree as ET\n\ndef find_path(target_x, target_y, map_xml, start_x, start_y):\n    root = ET.fromstring(map_xml)\n    width = int(root.attrib['width'])\n    height = int(root.attrib['height'])\n    \n    grid = {}\n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            grid[(x, y)] = tile\n            \n    start_tile = grid.get((start_x, start_y))\n    if start_tile is None:\n        return None\n        \n    start_type = start_tile.attrib['type']\n    # Determine medium based on starting tile. Assume unseen tiles match the medium.\n    start_medium = \"WATER\" if start_type == 'WATER' else \"LAND\"\n    \n    queue = [(start_x, start_y, [])]\n    visited = {(start_x, start_y)}\n    \n    while queue:\n        cx, cy, path = queue.pop(0)\n        \n        if cx == target_x and cy == target_y:\n            return path\n            \n        for dx, dy, btn in [(0, -1, \"Up\"), (0, 1, \"Down\"), (-1, 0, \"Left\"), (1, 0, \"Right\")]:\n            nx, ny = cx + dx, cy + dy\n            if 0 <= nx < width and 0 <= ny < height:\n                if (nx, ny) not in visited:\n                    tile = grid.get((nx, ny))\n                    t_type = tile.attrib['type'] if tile is not None else \"unseen\"\n                    \n                    passable = False\n                    if start_medium == \"WATER\":\n                        # Water navigation: can move on WATER, unseen, or land tiles (to land).\n                        # BUOY is impassable.\n                        if t_type in [\"WATER\", \"unseen\", \"FLOOR\", \"DOOR\"]:\n                            passable = True\n                        if t_type == \"BUOY\":\n                            passable = False\n                    else:\n                        # Land navigation: can move on FLOOR, DOOR, unseen, or ledge tiles.\n                        # WATER is impassable.\n                        if t_type in [\"FLOOR\", \"DOOR\", \"unseen\"]:\n                            passable = True\n                        elif t_type == \"LEDGE_HOP_DOWN\":\n                            if dy == 1: # Can only hop down (South)\n                                passable = True\n                        elif t_type == \"FLOOR_UP_WALL\":\n                            if dy != -1: # Cannot move Up (North) through a ledge face\n                                passable = True\n                                \n                    # Collision with objects\n                    if tile is not None and tile.find('Object') is not None:\n                        # Only block if it's not the target tile or if it's an NPC/Boulder\n                        # For simplicity, treat all objects as walls.\n                        passable = False\n                        \n                    if passable:\n                        visited.add((nx, ny))\n                        queue.append((nx, ny, path + [btn]))\n    return None\n\ntry:\n    path = find_path(input_data['target_x'], input_data['target_y'], map_xml_string, player_position['x'], player_position['y'])\n    if path:\n        print(json.dumps(path))\n    else:\n        print(\"null\")\nexcept Exception as e:\n    print(f\"Error: {str(e)}\")\n",
+    "history": [
+      {
+        "commit_message": "Refined pathfinding to handle LEDGE_HOP_DOWN and FLOOR_UP_WALL, and improved medium detection. Added better logging for debugging.",
+        "timestamp": "2026-01-15T03:57:23.224Z",
+        "action_counter": 48608
+      }
+    ]
   }
 }
