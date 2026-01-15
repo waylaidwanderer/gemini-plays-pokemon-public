@@ -39,6 +39,6 @@
 - **Money:** ¥15644.
 - **Items:** Max Repel x30.
 - **Key Items:** Pass (Magnet Train).
-- **Status:** In Grass (9, 9). Scanning (Steps ~140/250).
+- **Status:** In Grass (9, 9). Scanning (Steps ~180/250).
 - **Next Step:** Scan Grass (40 steps) -> Encounter.
 - **Lesson:** Gatehouse warps can be sticky. Automate resets to avoid 'doorway effect'.
