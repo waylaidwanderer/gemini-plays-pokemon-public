@@ -20,14 +20,12 @@
 - LEDGE_HOP_DOWN: One-way jump (North to South).
 
 # Strategy: Capture Suicune (Pursuit started Turn 48227)
-- Current Approach: The Western Wall Gap (Turn 48576)
-- Step 1: Land at (19, 30). [IN PROGRESS]
-- Step 2: Walk to (12, 47), then West through gap to (2, 47).
-- Step 3: Walk North at X=2 to Row 14.
-- Step 4: Walk East at Row 14 to (8, 14).
-- Step 5: Walk North at X=8 to Row 10.
-- Step 6: Walk East at Row 10 to (14, 10) to trigger cutscene.
-- Note: This land route bypasses all buoy traps and town ledges by using the gap in the vertical wall at Row 47. Verified clear path from X=2 to the plateau.
+- Current Approach: The Row 8 Sea Approach (Turn 48578)
+- Step 1: Surf at (19, 30) and move to (27, 30).
+- Step 2: Surf North to (27, 8).
+- Step 3: West along Row 8 to (14, 8).
+- Step 4: South to (14, 10) and land on the plateau.
+- Note: Row 8 is a clear water corridor that bypasses all buoy barriers at X=26 and Row 15. Verified gap at (26, 8).
 
 # Area Notes: Cianwood City
 - Photo Studio: (9, 31) | Poke Seer: (5, 17)
