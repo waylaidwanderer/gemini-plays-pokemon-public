@@ -1,7 +1,7 @@
 # Suicune Quest (Cianwood)
 - **Quest Start:** Turn 48900
 - **Timestamp:** Turn 49419 (Resumed)
-- **Status:** At (12, 28), facing North. Initiating Surf.
+- **Status:** Surfing North towards (14, 16). Preparing to land at (13, 16).
 
 ## Execution Plan (Island Hop)
 1. Walk to (12, 28) and use Surf. <- CURRENT TASK
