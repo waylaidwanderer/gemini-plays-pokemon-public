@@ -12,7 +12,7 @@
 - Door Warps: (17, 41) is a DOOR (Avoid as corridor).
 
 ## Execution Plan (The Great Southern Loop)
-1. Talk to Pokefan M at (16, 33). <- CURRENT TASK
+1. Talk to Pokefan M at (16, 33). (Done)
 2. Navigate to (14, 10) via Row 51 bypass.
    - Route: (17, 33) -> (21, 33) -> (21, 45) -> (19, 45) -> (19, 46) -> (18, 46) -> (18, 50) -> (11, 50) -> (11, 51) -> (2, 51).
    - North: (2, 51) -> (2, 14) -> (8, 14) -> (8, 10) -> (14, 10).
