@@ -23,7 +23,7 @@
 - **Mechanics Note:** Repel confirmed working in current session (Turns 40947-41004, zero encounters). Previous anomalies likely due to unnoticed expiration.
 - **Current Task:** Hunting Entei/Raikou on Route 37.
 - **Attempt:** 10 (City Shuffle).
-- **Status:** Returning to Route 37. Repel Active.
+- **Status:** Positioning for Wiggle Patrol. Repel Active.
 - **Session Start:** Turn 41209 (City Shuffle Strategy).
 - **System Note:** Sandbox unavailable. Movement interrupted by call.
 - Pokedex Status: National Mode. SEEN: 195, OWN: 46.
