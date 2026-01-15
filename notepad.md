@@ -4,9 +4,9 @@
 Current mental map indicates no valid path to (14, 10) through seen tiles. Priority is revealing unseen tiles adjacent to the plateau to identify the entrance.
 
 ### Step-by-Step Execution Plan
-1. Select YES to Surf at (12, 28). <- CURRENT TASK
-2. Surf North and East to reach the Row 15 gap at (23, 15).
-3. Surf North to Row 11, then West to reach (18, 11) and (17, 11) area.
+1. Land at (13, 16). <- DONE
+2. Walk to (11, 16), then North to (11, 14) to bypass the Row 15 wall. <- CURRENT TASK
+3. Walk North along the X=11 corridor to Row 10.
 4. Reveal unseen tiles in Rows 9, 10, and 11.
 5. Re-evaluate path to (14, 10) once more of the map is visible.
 
@@ -19,7 +19,7 @@ Current mental map indicates no valid path to (14, 10) through seen tiles. Prior
 - LEDGE_HOP_DOWN: One-way jump South. Impassable from the North side.
 
 ## Failed Hypotheses & Lessons
-- Terrestrial Zig-Zag: Blocked by unseen barriers or ledges. BFS reports no path.
+- Terrestrial Zig-Zag (South): Blocked by unseen barriers or ledges. BFS reports no path.
 - Great Sea Bypass (Route 40): Dead end on the West.
 - Inner Channel South: Blocked at Row 15 by solid buoy line.
 
