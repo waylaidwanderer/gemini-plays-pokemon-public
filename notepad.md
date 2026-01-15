@@ -39,10 +39,10 @@
 - **Money:** ¥15644.
 - **Items:** Max Repel x30.
 - **Key Items:** Pass (Magnet Train).
-- **Status:** Route 38 (35,8). Phone call interrupted Loop 12.
-- **Next Step:** Start (Menu) -> A (Pokegear) -> Right (Map) -> A (Open).
-- **Note:** Gaven called. Retrying map check.
-- **Roamer Check:** Loop 12 check retrying.
+- **Status:** Resetting Loop 12. Moving to Gatehouse.
+- **Next Step:** Left (Exit) -> Check Map (Start Loop 13).
+- **Note:** Loop 12 Result: Negative.
+- **Roamer Check:** Beasts on Rt 42 and Rt 29 (approx). Not here.
 - **Strategy:** Manual Reset: Enter -> Exit -> Check.
 - **Strategy:** Manual Reset: Right (Enter) -> Left (Exit) -> Check Map.
 - **Strategy:** Manual Reset Loop: Check Map -> B -> Right (Enter Gate) -> Left (Exit Gate) -> Start (Map).
