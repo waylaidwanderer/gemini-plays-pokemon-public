@@ -11,11 +11,13 @@
 6. Tin Tower 1F
 
 ## Plan: Reach North Plateau (Sea Route)
-- Step 1: Reach (12, 28) and Surf. <- CURRENT TASK
-- Step 2: Surf East to X=24.
-- Step 3: Surf North to Row 14 (bypasses buoy wall at X=16-22, Row 15-20).
-- Step 4: Surf West to (15, 11) and land.
-- Step 5: Walk to (14, 10) to trigger Suicune sighting.
+- Step 1: Reach (12, 28) and Surf. (Done)
+- Step 2: Land and walk to (19, 30). <- CURRENT TASK
+- Step 3: Surf East to X=24.
+- Step 4: Surf North to Row 14 (bypasses buoy wall at X=16-22, Row 15-20).
+- Step 5: Surf West to (15, 11) and land.
+- Step 6: Walk to (14, 10) to trigger Suicune sighting.
+- Super Repel active: ~190 steps remaining (Turn 49055).
 
 # Tile Mechanics
 - FLOOR: Traversable.
