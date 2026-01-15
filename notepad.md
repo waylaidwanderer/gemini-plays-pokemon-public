@@ -14,13 +14,10 @@
 - **Location:** Route 38 (West of Ecruteak).
 - **Hunt Start:** Turn ~40000.
 - **Current Loop:** 7 (Finished).
-- **Action:** Exit Pokegear -> Shuffle Roamers.
-- **Hunt Progress:** Beasts NOT on Route 38. Locations: Rt 42 & Rt 32.
-- **Beast Status:** **NEGATIVE**.
-- **Plan:**
-    1. Exit Menu.
-    2. Enter Gatehouse (shuffle).
-    3. Check Map again.
+- **Action:** Run from Wild Rattata -> Re-apply Repel -> Gatehouse.
+- **Hunt Progress:** Repel Expired. En route to Gatehouse.
+- **Beast Status:** **NEGATIVE** (Route 38).
+- **CRITICAL FIX:** Repel EXPIRED. Must re-apply after battle.
 
 # Hunt Strategy
 1. **Target Acquired:** Beast IS on Route 38!
