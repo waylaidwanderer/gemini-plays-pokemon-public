@@ -4,11 +4,12 @@
 Cianwood's internal walls and buoy lines form a maze. The Northern Plateau is only accessible by landing at the Inner Channel Landing (13, 16).
 
 ### Step-by-Step Execution Plan
-1. Surf to (21, 26) to bypass the X=19 buoy wall. <- CURRENT TASK
-2. Surf West to (17, 26) through the buoy gap.
-3. Surf North in the inner channel to (17, 16), then West to land at (13, 16).
-4. Walk to the plateau: (13, 16) -> (11, 16) -> (11, 14) -> (8, 14) -> (8, 10) -> (14, 10).
-5. Trigger Suicune sighting.
+1. Clear Surf message and apply Super Repel. - DONE
+2. Surf North to (24, 16), then West to (21, 16) (X=22 Wall Gap).
+3. Surf South to (21, 26), then West to (17, 26) (X=18 Wall Gap).
+4. Surf North to (17, 16), then West to land at (13, 16).
+5. Walk to the plateau: (13, 16) -> (11, 16) -> (11, 14) -> (8, 14) -> (8, 10) -> (14, 10).
+6. Trigger Suicune sighting.
 
 ## Tile Mechanics: Cianwood City
 - FLOOR: Standard ground.
@@ -28,5 +29,5 @@ Cianwood's internal walls and buoy lines form a maze. The Northern Plateau is on
 - Terrestrial Row 52: Blocked by WATER at (23, 32). Cannot walk south along the eastern shore.
 
 ## Inventory Check
-- Super Repel: 5 remaining. Last applied turn 49278. (~140 steps remaining).
+- Super Repel: 4 remaining. Applied turn 49327.
 - Party: Calcifer (Lv 64) leads. Ready for Eusine.
