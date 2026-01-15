@@ -17,4 +17,4 @@
 # Log
 - **Phase 3 (Gatehouse Shuffle):**
     - Strategy: Looping Route 38 <-> Gatehouse to force Roamer movement.
-    - Current Status: Shuffle #8. Resuming entry to Gatehouse after call.
+    - Current Status: Shuffle #8. Inside Gatehouse. Exiting back to Route 38.
