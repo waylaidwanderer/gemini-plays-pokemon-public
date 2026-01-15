@@ -1,20 +1,20 @@
 # Strategy: Capture Suicune (Started Turn 48227)
 - Goal: Reach (14, 10) in Cianwood City to trigger sighting.
-- Approach: The Row 29 Skyline Path
+- Approach: The Deep Sea Loop (v2)
 - Plan:
-  1. Use Super Repel. [DONE]
-  2. Walk to (15, 29) via (18, 30). [IN PROGRESS]
-  3. Walk West along Row 29 to (2, 29).
-  4. Walk North along West Beach (X=2) to (2, 12).
-  5. Walk East along Row 12 to (14, 12), then North to (14, 10).
-- Status: At (25, 37) on land. Repel active.
-- Reasoning: Row 29 is a continuous land bridge from X=15 to X=2, bypassing the central city walls and the Row 30 cliff. X=2 is a clear vertical highway to the northern plateau. Row 12 provides horizontal access to the sighting spot.
+  1. Walk to (19, 30) and Surf at (20, 30). [IN PROGRESS]
+  2. Enter Route 41 at (0, 30).
+  3. Navigate North to Route 41 (0, 6) and re-enter Cianwood at (29, 6).
+  4. Pass West through the X=22 buoy gap at (22, 6).
+  5. Navigate to (19, 11) and explore West (X=18-17) for a landing spot (e.g., (16, 11)).
+  6. Walk to (14, 10).
+- Reasoning: Land routes (West Beach, Central City, Skyline Path) are all blocked by the Row 15 ledge/wall barrier. The buoy walls at X=26 and X=22 must be bypassed via Route 41 and the Row 6 gap to reach the northern water pocket.
 
-# Blocked Routes (Verified)
-- Central City Land: Blocked at Row 13 (X=9-12 Wall) and Row 15 (X=12-17 Wall). No direct land path through center.
-- Central City Maze: Vertical walls at X=5 and X=9.
-- Row 30/34/46 Cliffs: Impassable FLOOR_UP_WALL barriers.
-- Inner Channel: Buoy wall at Row 15 (X=18-22).
+# Failed Hypotheses (Documented)
+- West Beach Highway: Blocked by FLOOR_UP_WALL at Row 34 (X=6-8) and Row 46 (X=6-29).
+- Central City Land: Blocked by ledge at (10, 15) and walls at (12-17, 15).
+- Skyline Path (Row 29): Blocked by Row 15 barrier.
+- Southern Artery: Blocked by Row 46/50 cliffs.
 
 # Tile Mechanics (Verified)
 - FLOOR: Standard ground. Traversable.
