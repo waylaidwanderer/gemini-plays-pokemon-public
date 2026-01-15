@@ -12,8 +12,8 @@
 - **Goal:** Register Raikou & Entei.
 - **Current Task:** Gatehouse Shuffle (Looping Rt 38 <-> Gatehouse).
 - **Location:** Route 38 (Shuffle Cycle #15).
-- **Action:** Re-applying Max Repel (wore off).
-- **Status:** Paused Scan #15. Repel Inactive.
+- **Action:** Opening Start Menu to re-apply Max Repel.
+- **Status:** Paused Scan #15. Text box stuck/lingering.
 - **Pokedex Mode:** Old (National Dex). Target: #243 Raikou, #244 Entei.
 - **Pokedex Status:** #243 (Raikou) & #244 (Entei) are UNSEEN (Cannot track). #245 (Suicune) is SEEN.
 - **Strategy:** Blind Gatehouse Shuffle.
