@@ -31,8 +31,6 @@
 - **Note:** Roamers retain HP damage.
 
 # Log
-- **Phase 1 (Rt 37):** 75 loops. Failed.
 - **Phase 2 (Rt 38):**
-    - Loops 1-8: Negative.
-    - Turn 40427: Repel lapsed -> Rattata encounter.
-    - Turn 40438: Repel re-applied.
+    - Turn 40498: Beast CONFIRMED on Route 38.
+    - Turn 40516: Repel Expired (Loop 11). Re-applying.
