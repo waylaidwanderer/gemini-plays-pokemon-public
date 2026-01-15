@@ -20,12 +20,14 @@
 - LEDGE_HOP_DOWN: One-way jump (North to South).
 
 # Strategy: Capture Suicune (Pursuit started Turn 48227)
-- Current Approach: The Row 8 Sea Approach (Turn 48578)
-- Step 1: Surf at (19, 30) and move to (27, 30).
-- Step 2: Surf North to (27, 8).
-- Step 3: West along Row 8 to (14, 8).
-- Step 4: South to (14, 10) and land on the plateau.
-- Note: Row 8 is a clear water corridor that bypasses all buoy barriers at X=26 and Row 15. Verified gap at (26, 8).
+- Current Approach: The Buoy Maze Master Path (Turn 48581)
+- Step 1: Surf at (19, 30) -> (20, 30). [IN PROGRESS]
+- Step 2: East to (27, 30), then North to (27, 10).
+- Step 3: West through Gap 1 (26, 10) to (23, 10).
+- Step 4: South to (23, 16), then West through Gap 2 (22, 16) to (20, 16).
+- Step 5: South to (20, 21), then West through Gap at (19, 21) to (17, 21).
+- Step 6: North to (17, 16), then West to (14, 16).
+- Step 7: Land at (13, 16) and walk to (14, 10).
 
 # Area Notes: Cianwood City
 - Photo Studio: (9, 31) | Poke Seer: (5, 17)
