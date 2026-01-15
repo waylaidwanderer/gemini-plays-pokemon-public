@@ -11,12 +11,13 @@
 6. Tin Tower 1F (Final Battle)
 
 ## Plan for Cianwood (Step 2)
-1. Surf South in Route 41 to (6, 52) to bypass buoys. <- CURRENT TASK
-2. Surf West to (0, 52) and enter Cianwood southern water.
-3. Surf West and then North along the island's coast to reach the West Beach (X=0-2).
-4. Walk North along the beach highway to Row 12.
-5. Walk East to (14, 12), then North to (14, 10).
-6. Trigger cutscene with Eusine.
+1. Surf South to (3, 48). <- CURRENT TASK
+2. Surf East to (6, 48) to bypass buoys.
+3. Surf South to (6, 52).
+4. Surf West to (0, 52).
+5. Move West to enter Cianwood at (29, 52).
+6. Surf West and North in Cianwood to reach the West Beach (X=0-2) and then the plateau at (14, 10).
+7. Trigger cutscene with Eusine.
 
 # Area Notes: Cianwood City
 - Photo Studio: (9, 31) | Poke Seer: (5, 17)
