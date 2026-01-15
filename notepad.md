@@ -27,5 +27,5 @@
 - **Money:** ¥15644.
 - **Items:** Max Repel x30.
 - **Key Items:** Pass (Magnet Train).
-- **Status:** Hunting Raikou/Entei. Shuffling between Rt 37 & Ecruteak.
-- **Strategy:** If beast on current map -> Repel & Search. Else -> Move map.
+- **Status:** Beasts on Rt 38 & 42 (Turn 39819). Shuffling.
+- **Action:** Rt 37 -> Ecruteak -> Rt 37.
