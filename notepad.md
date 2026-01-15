@@ -1,10 +1,14 @@
 # PC Storage (Box 1)
-- SELKIE (SEEL): Lv24 (Female)
-- RANGOON (KRABBY): Lv22 (Female)
-- NOMURA (TENTACOOL): Lv17 (Female)
-- Ravioli (KRABBY): Lv10 (Male)
-- Ouroboros (DRATINI): Lv15 (Male)
-- LAPIS (POLIWAG): Lv12 (Male)
+- DAPXWW (LARVITAR): Lv20
+- GLAIVE (SCYTHER): Lv14
+- SELKIE (SEEL): Lv24
+- DELTA (MANTINE): Lv20
+- RANGOON (KRABBY): Lv22
+- NOMURA (TENTACOOL): Lv17
+- Ravioli (KRABBY): Lv10
+- Ouroboros (DRATINI): Lv15
+- SPINARAK: Lv13
+- LAPIS (POLIWAG): Lv12
 
 # Tile Mechanics (Global)
 - FLOOR: Standard ground. Traversable.
@@ -16,13 +20,12 @@
 
 # Strategy: Capture Suicune (The Eastern Water Channel)
 - Start Turn: 48227 (Pursuit began), 48487 (Current strategy)
-- Step 1: Walk to (19, 30) and Surf.
-- Step 2: Surf East to (27, 30), then North along the east coast to (27, 16).
-- Step 3: Surf West through Gap 2 at (22, 16) to (20, 16).
-- Step 4: Surf North to Row 14, then West through Gap 4 at (19, 14) to (18, 14).
-- Step 5: Surf North to Row 11, then West to land at (16, 11).
+- Step 1: Surf from (19, 30).
+- Step 2: Surf East to (27, 30), then North along the east coast to (27, 15).
+- Step 3: Surf West through Gap 6 at (23, 15) to Row 14.
+- Step 4: Surf West along the Row 14 channel to (18, 14).
+- Step 5: Surf North at X=18 to (18, 11), then West to land at (16, 11).
 - Step 6: Walk to Suicune sighting spot at (14, 10).
-- Status: The northern plateau is accessible by surfing through specific buoy gaps on the east and middle channels.
 
 # Area Notes: Cianwood City
 - Photo Studio: (9, 31)
