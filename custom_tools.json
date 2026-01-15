@@ -55,7 +55,7 @@
   "open_map": {
     "description": "Opens the Pokegear and navigates to the Map card. Assumes the main menu cursor is already on 'POKEGEAR' (last used). Uses a 'Left x4, Right' sequence inside Pokegear to reliably select the Map. Includes safety 'B' presses and sleep delays.",
     "input_schema": {},
-    "python_script": "buttons = [\"B\", \"B\", \"Start\", \"sleep 500\", \"A\", \"sleep 500\"]\nbuttons.extend([\"Left\"] * 4)\nbuttons.append(\"Right\")\nbuttons.append(\"sleep 500\")\nbuttons.append(\"A\")\nprint(f'{{\"buttons\": {buttons}}}')",
+    "python_script": "import json\nbuttons = [\"B\", \"B\", \"Start\", \"sleep 500\", \"A\", \"sleep 500\"]\nbuttons.extend([\"Left\"] * 4)\nbuttons.append(\"Right\")\nbuttons.append(\"sleep 500\")\nbuttons.append(\"A\")\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -91,6 +91,11 @@
         "commit_message": "Updated open_map to use a robust Left x4, Right sequence to reliably select the Map card regardless of previous cursor position.",
         "timestamp": "2026-01-15T01:25:52.539Z",
         "action_counter": 39724
+      },
+      {
+        "commit_message": "Fixed JSON output formatting by using json.dumps to ensure valid JSON array generation.",
+        "timestamp": "2026-01-15T01:26:54.056Z",
+        "action_counter": 39726
       }
     ]
   },
