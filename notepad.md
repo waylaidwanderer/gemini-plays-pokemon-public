@@ -18,7 +18,7 @@ Reach (14, 10) by surfing around the city using Super Repel to avoid battles.
 8. Walk to (14, 10) to trigger Suicune.
 
 # Progress Notes
-- Blocked: Internal land corridors are segmented by one-way ledges (FLOOR_UP_WALL) that prevent reaching the northern plateau from the south.
 - Verified: Sea route buoy gaps are at (23, 15) and (27, 9).
 - Verified: Landing point (16, 11) leads to the plateau.
 - Item: Using SUPER REPEL to bypass wild encounters.
+- Hypothesis: FLOOR_UP_WALL tiles allow NORTH movement but block SOUTH (Testing pending).
