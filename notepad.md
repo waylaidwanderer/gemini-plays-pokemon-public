@@ -14,13 +14,15 @@
 - **Location:** Route 38 (West of Ecruteak).
 - **Hunt Start:** Turn ~40000.
 - **Current Loop:** 17.
-- **Action:** Move Left to Grass (Jump Ledge).
-- **Hunt Progress:** Phase 2 Loop 17/50. Moving to Grass.
+- **Action:** Navigate around NPC to Grass.
+- **Hunt Progress:** Phase 2 Loop 17/50. Moving to Grass (Detour).
 - **Beast Status:** **POSITIVE** (Route 38).
+- **Obstacle:** Beauty Valerie at (19, 9).
 - **Plan:**
-    1. Move Left 15 tiles (Jump Ledge at x=10).
-    2. Land in Grass (x=9 or x=8).
-    3. Hunt.
+    1. Move Down to (20, 10).
+    2. Move Left to (10, 10).
+    3. Jump Ledge to (9, 10).
+    4. Hunt in Grass.
 - **Hunt Strategy:**
 
 # Hunt Strategy
