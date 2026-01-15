@@ -39,10 +39,10 @@
 - **Money:** ¥15644.
 - **Items:** Max Repel x30.
 - **Key Items:** Pass (Magnet Train).
-- **Status:** Route 38. Roamer NOT found. Resetting.
-- **Next Step:** B (Close) -> B (Close) -> Left (Step off).
-- **Note:** Roamers not on Route 38. Loop 10/50 reset.
-- **Roamer Check:** Negative.
+- **Status:** Entering Gatehouse. Resetting for Loop 11.
+- **Next Step:** Right (Enter Gate) -> Left (Exit Gate) -> Check Map.
+- **Note:** Resetting map to move roamers.
+- **Roamer Check:** Preparing for Loop 11.
 - **Strategy:** Manual Reset: Enter -> Exit -> Check.
 - **Strategy:** Manual Reset: Right (Enter) -> Left (Exit) -> Check Map.
 - **Strategy:** Manual Reset Loop: Check Map -> B -> Right (Enter Gate) -> Left (Exit Gate) -> Start (Map).
