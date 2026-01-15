@@ -21,10 +21,10 @@
     3. If no encounter, repeat.
     - **Repel Trick:** Lead Pokemon (Lv 37) > Wild Pokemon (Lv ~20) but < Roamers (Lv 40). Max Repel ACTIVE. Only Roamers should appear.
 - **Mechanics Note:** Repel confirmed working in current session (Turns 40947-41004, zero encounters). Previous anomalies likely due to unnoticed expiration.
-- **Current Task:** Manual Wiggle Patrol (Attempt 15 - Continuation).
-- **Status:** Exiting menu to resume patrol.
+- **Current Task:** Manual Wiggle Patrol (Attempt 15 - Batch 2).
+- **Status:** High volume patrolling.
 - **Repel Status:** Active (Applied Turn 41292).
-- **System Note:** Sandbox down. Manual batching active.
+- **System Note:** Sandbox down. Manual batching active. Inputs safe in battle menu (Toggles Fight/Pkmn).
 - **System Note:** Sandbox down. Manual batching active.
 - **Session Start:** Turn 41209 (City Shuffle Strategy).
 - **System Note:** Sandbox unavailable. Movement interrupted by call.
