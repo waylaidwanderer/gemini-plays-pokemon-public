@@ -61,19 +61,27 @@
       "type": "object",
       "properties": {
         "buttons": {
-          "type": "array",
           "items": {
             "type": "string"
-          }
+          },
+          "type": "array"
         }
-      }
+      },
+      "required": [
+        "buttons"
+      ]
     },
-    "python_script": "import json\nprint(json.dumps(input_data.get('buttons', [])))",
+    "python_script": "import json\nprint(json.dumps(input_data['buttons']))",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2026-01-15T18:51:18.021Z",
         "action_counter": 49463
+      },
+      {
+        "commit_message": "Fixing sandbox errors by redefining the tool with the required commit message. Simplified logic for returning button array.",
+        "timestamp": "2026-01-15T23:08:32.011Z",
+        "action_counter": 49743
       }
     ]
   },
@@ -94,12 +102,17 @@
         "target_y"
       ]
     },
-    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\nimport json\nimport sys\n\ndef find_path(map_xml, target_x, target_y):\n    root = ET.fromstring(map_xml)\n    width = int(root.attrib['width'])\n    height = int(root.attrib['height'])\n    \n    player_tile = root.find(\".//Tile[Player]\")\n    if player_tile is None:\n        return []\n    start_x = int(player_tile.attrib['id'])\n    start_y = int(player_tile.find(\"..\").attrib['id'])\n    \n    if start_x == target_x and start_y == target_y:\n        return []\n        \n    queue = deque([(start_x, start_y, [])])\n    visited = {(start_x, start_y)}\n    \n    while queue:\n        cx, cy, path = queue.popleft()\n        \n        for dx, dy, move in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n            nx, ny = cx + dx, cy + dy\n            \n            if not (0 <= nx < width and 0 <= ny < height):\n                continue\n            if (nx, ny) in visited:\n                continue\n                \n            tile = root.find(f\".//Row[@id='{ny}']/Tile[@id='{nx}']\")\n            if tile is None:\n                continue\n                \n            ttype = tile.attrib.get('type', 'unseen')\n            has_obj = tile.attrib.get('has-object') == 'true' or tile.find('Object') is not None\n            is_warp = tile.attrib.get('is-warp') == 'true'\n            \n            if ttype in ['WALL', 'BUOY', 'unseen'] or has_obj:\n                continue\n            \n            if move == 'Down' and ttype == 'FLOOR_UP_WALL':\n                continue\n            \n            if move == 'Up' and ttype == 'LEDGE_HOP_DOWN':\n                continue\n                \n            if is_warp and (nx != target_x or ny != target_y):\n                continue\n                \n            new_path = path + [move]\n            if nx == target_x and ny == target_y:\n                return new_path\n                \n            visited.add((nx, ny))\n            queue.append((nx, ny, new_path))\n            \n    return []\n\ntry:\n    input_data = json.loads(sys.stdin.read())\nexcept:\n    input_data = {}\n\ntarget_x = int(input_data.get('target_x', 0))\ntarget_y = int(input_data.get('target_y', 0))\n\nresult = find_path(map_xml_string, target_x, target_y)\nprint(json.dumps(result))",
+    "python_script": "import collections\nimport xml.etree.ElementTree as ET\nimport json\n\ndef bfs(map_data, start, target):\n    width = int(map_data.attrib['width'])\n    height = int(map_data.attrib['height'])\n    \n    def get_tile(x, y):\n        if 0 <= x < width and 0 <= y < height:\n            row = map_data.find(f\".//Row[@id='{y}']\")\n            if row is not None:\n                return row.find(f\"Tile[@id='{x}']\")\n        return None\n\n    def is_passable(tile, from_x, from_y, to_x, to_y):\n        if tile is None: return False\n        t_type = tile.attrib.get('type')\n        if t_type in ['WALL', 'BUOY']: return False\n        if tile.find('Object') is not None: return False\n        \n        if t_type == 'FLOOR_UP_WALL':\n            if from_y > to_y: return True # South to North\n            return False\n        if t_type == 'LEDGE_HOP_DOWN':\n            if from_y < to_y: return True # North to South\n            return False\n            \n        return True\n\n    queue = collections.deque([(start, [])])\n    visited = {start}\n    \n    while queue:\n        (x, y), path = queue.popleft()\n        if (x, y) == target:\n            return path\n        \n        for dx, dy, btn in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n            nx, ny = x + dx, y + dy\n            if (nx, ny) not in visited:\n                target_tile = get_tile(nx, ny)\n                if is_passable(target_tile, x, y, nx, ny):\n                    visited.add((nx, ny))\n                    queue.append(((nx, ny), path + [btn]))\n    return None\n\nmap_data = ET.fromstring(map_xml_string)\nstart = None\nfor row in map_data.findall('Row'):\n    y = int(row.attrib['id'])\n    for tile in row.findall('Tile'):\n        if tile.find('Player') is not None:\n            start = (int(tile.attrib['id']), y)\n            break\n    if start: break\n\ntarget = (int(input_data['target_x']), int(input_data['target_y']))\npath = bfs(map_data, start, target)\nprint(json.dumps(path))",
     "history": [
       {
         "commit_message": "Fixed tool to handle one-way tiles and input reading.",
         "timestamp": "2026-01-15T21:16:42.362Z",
         "action_counter": 49614
+      },
+      {
+        "commit_message": "Fixing sandbox errors by redefining the tool with the required commit message. Refined BFS logic to handle one-way tiles correctly.",
+        "timestamp": "2026-01-15T23:08:32.009Z",
+        "action_counter": 49743
       }
     ]
   }
