@@ -1,23 +1,20 @@
 # Tile Mechanics
-- FLOOR_UP_WALL: Blocks SOUTH movement. Allows NORTH movement. Found at Rows 34, 46, 48, 50.
+- FLOOR_UP_WALL: Blocks SOUTH movement. Allows NORTH movement. Found at Row 34 (X=6-8), Row 46, Row 48, Row 50.
 - LEDGE_HOP_DOWN: Blocks NORTH movement. Found at Row 15.
 - Vertical Walls: X=3, 5, 9, 11.
 
 # Suicune Quest (Cianwood)
-## Strategy: Land Bypass Route
-Reach the northern plateau (14, 10) by weaving through wall gaps to the Western Corridor (X=2), which is the only land path past the Row 15 ledge.
+## Strategy: Ledge Bypass Route
+Reach the northern plateau (14, 10) by weaving through wall gaps to the Western Corridor (X=0-2). The route avoids being trapped by FLOOR_UP_WALL ledges by crossing them from South to North.
 
 ## Execution Plan
-1. Move North along X=12 to Row 33.
-2. Move West along Row 33 to X=6 (gap at X=9).
-3. Move North along X=6 to Row 26.
-4. Move West along Row 26 to X=4 (gap at X=5).
-5. Move North along X=4 to Row 22 (bypass rock at (4, 25) via (5, 25)).
-6. Move West along Row 22 to X=2 (gap at X=3).
-7. Move North along X=2 to Row 12.
-8. Move East along Row 12 to (14, 12).
-9. Move North to (14, 10) to trigger Suicune.
+1. Move to (12, 44) via the X=12 thoroughfare.
+2. Cross to the central corridor (X=6) via the Row 44 gap at (9, 44).
+3. Move North to (6, 34).
+4. Cross to the Western corridor (X=4 then X=2) via the Row 34/33 gaps.
+5. Move North along X=2 to Row 12.
+6. Walk East to (14, 12) and North to (14, 10).
 
 ## Time Tracking
 - Quest Start: Turn 48900
-- Land Bypass Start: Turn #49565
+- Bypass Attempt Start: Turn #49567
