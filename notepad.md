@@ -39,10 +39,10 @@
 - **Money:** ¥15644.
 - **Items:** Max Repel x30.
 - **Key Items:** Pass (Magnet Train).
-- **Status:** Menu Open. Pokegear Selected. Loop 9/50.
-- **Next Step:** Open Pokegear (Press A) -> Check Map.
-- **Note:** Cursor confirmed on POKEGEAR (not PACK). Memory works.
-- **Roamer Check:** Ready to verify location.
+- **Status:** Inside Pokegear. Cursor on BACK. Loop 9/50.
+- **Next Step:** Right (Select Map) -> A (Open Map).
+- **Note:** Pokegear cursor reset to BACK (did not remember MAP).
+- **Roamer Check:** Opening Map to verify location.
 - **Strategy:** Manual Reset: Enter -> Exit -> Check.
 - **Strategy:** Manual Reset: Right (Enter) -> Left (Exit) -> Check Map.
 - **Strategy:** Manual Reset Loop: Check Map -> B -> Right (Enter Gate) -> Left (Exit Gate) -> Start (Map).
