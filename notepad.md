@@ -39,9 +39,9 @@
 - **Money:** ¥15644.
 - **Items:** Max Repel x30.
 - **Key Items:** Pass (Magnet Train).
-- **Status:** Route 38 (35,9). Loop 34 Negative. Resetting.
-- **Next Step:** Close Map (B) -> Close Gear (B) -> Step Left (Reset) -> Enter Gate (Right).
-- **Note:** Beasts confirmed on Rt 42 & Rt 46. Not here.
+- **Status:** Route 38 (35,9). Standing on Warp. Bumping to Enter.
+- **Next Step:** Right (Force Entry) -> Exit Gate -> Check Map.
+- **Note:** Step-on at (35,9) failed to trigger warp again. 'Bump Right' is mandatory.
 - **Roamer Check:** Negative. Resetting for Loop 35.
 - **Strategy:** Manual Reset: Enter -> Exit -> Check.
 - **Strategy:** Manual Reset: Right (Enter) -> Left (Exit) -> Check Map.
