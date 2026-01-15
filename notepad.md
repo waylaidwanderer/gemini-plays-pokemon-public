@@ -39,3 +39,4 @@
     - Turn 40548: Wade called. Handling call, then heading to Gatehouse (35, 8).
 - Turn 40550: Call finished. Moving East to Gatehouse (35, 8) to shuffle Roamers. One tile of grass at (29, 6) risks encounter.
 - Turn 40551: At Gatehouse entrance (35, 8). Executing "Double Tap Right" to trigger warp. Commencing Gatehouse Shuffle.
+- Turn 40552: Inside Gatehouse. Immediately exiting back to Route 38 (Left x2) to complete the shuffle and check positions.
