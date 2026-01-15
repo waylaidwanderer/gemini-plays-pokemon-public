@@ -1,1 +1,34 @@
-{}
+{
+  "patrol_area": {
+    "description": "Generates a sequence of button presses to patrol back and forth along a specified axis. Useful for hunting Pokemon in grass.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "axis": {
+          "type": "string",
+          "enum": [
+            "horizontal",
+            "vertical"
+          ],
+          "description": "The axis to move along."
+        },
+        "steps": {
+          "type": "integer",
+          "description": "Number of steps to take. Must be even to return to start (roughly)."
+        }
+      },
+      "required": [
+        "axis",
+        "steps"
+      ]
+    },
+    "python_script": "axis = input_data.get('axis', 'horizontal')\nsteps = input_data.get('steps', 10)\n\nbuttons = []\nif axis == 'horizontal':\n    for i in range(steps):\n        if i % 2 == 0:\n            buttons.append(\"Left\")\n        else:\n            buttons.append(\"Right\")\nelse:\n    for i in range(steps):\n        if i % 2 == 0:\n            buttons.append(\"Up\")\n        else:\n            buttons.append(\"Down\")\n\nprint(f'{buttons}'.replace(\"'\", '\"'))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-15T21:29:52.018Z",
+        "action_counter": 41071
+      }
+    ]
+  }
+}
