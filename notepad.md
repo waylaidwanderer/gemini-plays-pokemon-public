@@ -16,6 +16,7 @@
 - **Session Start:** Turn 40947 (Max Repel Applied).
 - **Location:** Route 38.
 - **Action:** Patrolling grass (Using patrol_grass tool).
+- **Tool Status:** `patrol_grass` updated to return buttons. Executing now.
 - **Pokedex Mode:** Old (National Dex). Target: #243 Raikou, #244 Entei.
 - **Strategy:** Blind Gatehouse Shuffle.
     1. Shuffle (Route 38 <-> Gatehouse).
