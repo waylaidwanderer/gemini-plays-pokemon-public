@@ -11,15 +11,13 @@
 
 # Strategy: Capture Suicune
 - Goal: Reach (14, 10) to trigger sighting.
-- Plan: The West Beach Trek (Step-by-Step Verification)
-  1. Navigate to (10, 50) via the southern ledge gaps. [IN PROGRESS]
-  2. Walk West to (2, 50) and verify the X=2 corridor.
-  3. Walk North to (2, 16) and test if (2, 15) is reachable.
-  4. If clear, continue North to (2, 11) then East to (14, 10).
-- Status: At (20, 16) surfing, moving to (19, 30) to land.
-
-# Verified Tests
-- None yet.
+- Plan:
+  1. Land at (19, 30).
+  2. Use Super Repel.
+  3. Walk South to (15, 50).
+  4. Walk West to X=2.
+  5. Walk North along X=2 to verify if it reaches the plateau.
+- Status: In battle at (20, 21), attempting to RUN.
 
 # Area Notes: Cianwood City
 - Photo Studio: (9, 31) | Poke Seer: (5, 17)
