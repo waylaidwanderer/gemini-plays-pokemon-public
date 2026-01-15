@@ -13,7 +13,7 @@
 - **Location:** Route 38 (West of Ecruteak).
 - **Hunt Start:** Turn ~40000.
 - **Current Loop:** 9.
-- **Action:** Engage Beast on Route 38.
+- **Action:** Hunt Loop: Enter Gatehouse (Resetting).
 
 # Hunt Strategy
 1. **Target Acquired:** Beast IS on Route 38!
