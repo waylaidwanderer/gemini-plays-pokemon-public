@@ -1,17 +1,16 @@
-## Strategy: Great Southern Highway to Suicune
-Use the 'Great Southern Highway' (Row 51) to reach the 'West Beach Highway' (X=0-2), bypassing all central city blockades.
+## Strategy: West Beach Highway Route to Suicune
+Use the 'West Beach Highway' (X=0-2) to bypass the city center.
 
 ### Verified Land Route
-1. (13, 49) -> (13, 44): Walk North to the horizontal passage.
-2. (13, 44) -> (23, 44): Walk East to the eastern corridor.
-3. (23, 44) -> (23, 51): Walk South to the Great Southern Highway.
-4. (23, 51) -> (2, 51): Walk West along the highway to the West Beach.
-5. (2, 51) -> (2, 14): Walk North along the beach highway to the plateau base.
-6. (2, 14) -> (8, 14): Walk East to the plateau entrance.
-7. (8, 14) -> (8, 10): Walk North to the plateau summit.
-8. (8, 10) -> (14, 10): Walk East to the Suicune trigger point.
+1. (23, 45) -> (23, 44) -> (9, 44): Pass through the X=9 wall gap.
+2. (9, 44) -> (8, 44) -> (8, 35): Walk north to the Row 35 passage.
+3. (8, 35) -> (5, 35) -> (2, 35): Pass through the X=5 wall gap to the beach.
+4. (2, 35) -> (2, 14): Walk north along the beach highway.
+5. (2, 14) -> (8, 14): Cross east to the plateau entrance.
+6. (8, 14) -> (8, 10): Walk north to the plateau summit.
+7. (8, 10) -> (14, 10): Reach Suicune trigger point.
 
-## Global Tile Mechanics
+## Tile Mechanics (Cianwood City)
 - FLOOR: Traversable.
 - WALL: Impassable.
 - WATER: Requires Surf.
@@ -20,13 +19,11 @@ Use the 'Great Southern Highway' (Row 51) to reach the 'West Beach Highway' (X=0
 - FLOOR_UP_WALL: Impassable cliff face.
 - DOOR: Warp to another map.
 
-## Area Insights: Cianwood City
-- Row 51 Highway: Clear horizontal path from X=4 to X=24.
+## Area Insights
+- Row 44 Gap: (9, 44) is the only passage through the X=9 wall from the east.
+- Row 35 Gap: (5, 35) is the key passage from town to the West Beach.
 - West Beach Highway: X=0-2 is a clear vertical path from Row 53 to Row 14.
-- Gym Blockade: Building at (10, 40) and associated walls block all central land access to the north.
 - Northern Plateau Entry: Only accessible from Row 14 via the X=8 vertical corridor.
 
 ## Battle Strategy: Eusine
-- Lead: Calcifer (Lv 64 Typhlosion).
-- Moves: Flamethrower, Thunderpunch.
-- Strategy: Sweep with Flamethrower. OHKO potential on most targets.
+- Lead: Calcifer (Lv 64 Typhlosion). Sweep with Flamethrower. OHKO potential on most targets.
