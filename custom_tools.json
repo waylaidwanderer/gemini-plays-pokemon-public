@@ -1,17 +1,1 @@
-{
-  "get_route38_patrol_path": {
-    "description": "Returns a standard path plan (list of coordinates) for patrolling the main grass area on Route 38 and returning to the gatehouse. The path starts from the gatehouse entrance (35,8), loops through the grass (rows 6-7, cols 16-30), and returns to (35,8).\nUsage: Call this tool to get the coordinates, then pass them to `navigate`.\nNote: This is a static path. Navigation logic handles getting TO the start or joining the path.",
-    "input_schema": {
-      "type": "object",
-      "properties": {}
-    },
-    "python_script": "print([\n    {\"x\": 35, \"y\": 8},\n    {\"x\": 30, \"y\": 8},\n    {\"x\": 30, \"y\": 7},\n    {\"x\": 16, \"y\": 7},\n    {\"x\": 16, \"y\": 6},\n    {\"x\": 30, \"y\": 6},\n    {\"x\": 30, \"y\": 8},\n    {\"x\": 35, \"y\": 8}\n])",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-01-15T19:15:09.598Z",
-        "action_counter": 40861
-      }
-    ]
-  }
-}
+{}
