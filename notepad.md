@@ -6,31 +6,38 @@
 
 # Strategic Status
 - **Goal:** Register Raikou & Entei.
-- **Current Task:** Hunt Roaming Beasts.
-- **Location:** Ecruteak City.
-- **Action:** Hunt Loop: Transition to Route 37 to shift Roamers.
-- **Hunt Progress:** Loop ~69/75. Started Turn 39717. Hard Cap at 75 loops.
-- **Beast Status:** Shuffling (Returning to Rt 37).
-- **Hunt Strategy:** Loop Ecruteak <-> Rt 37. Use 'check_roamer_map' tool. If icon on Rt 37, SEARCH.
-- **Anti-Stuck:** Alternating entry points if needed. Currently at (18,35).
-- **Next Step:** Check map on Route 37.
+- **Current Task:** Hunt Roaming Beasts (Phase 2).
+- **Location:** Route 38 (West of Ecruteak).
+- **Action:** Hunt Loop: Transition between Rt 38 and Gatehouse.
+- **Hunt Progress:** Phase 2 Loop 1/50. Started Turn 40029.
+- **Beast Status:** Checking Route 38.
+- **Hunt Strategy:**
+    1. Check Pokegear on Route 38.
+    2. If Beast is present: Max Repel -> Grass -> Search.
+    3. If not: Enter Gatehouse -> Return to Route 38.
+    4. Repeat.
 
-# Strategy (Hunt Loop)
-1.  **Transit:** Enter Saffron City -> Magnet Train Station.
-2.  **Transit:** Take Magnet Train from Saffron to Goldenrod (Johto).
-3.  **Setup:** Fly to Ecruteak City. Ensure Gyarados (Lv 37) is leading.
-4.  **Hunt:** Move between Route 37 and Ecruteak City to shift Roamers.
-    - Check Pokegear Map each time.
-    - If a Beast is on Route 37, use **Max Repel** and enter grass.
-    - If no encounter, return to City and repeat.
-5.  **Encounter:**
-    - **Raikou/Entei:** They flee immediately.
-    - **Plan:** Sleep (if possible) or heavy hit. Master Ball is an option if desperate, but saving for one is better.
-    - *Note:* Roamers retain damage/status.
+# Past Attempts
+- **Phase 1 (Rt 37):** 75 loops. 0 Encounters. Failed.
+
+# Strategy (Encounter)
+- **Raikou/Entei:** Flee immediately.
+- **Plan:** Sleep (Gengar/Haunter/Butterfree if available, currently have none? Check Party).
+- **Party Check:**
+  - Gyarados (Lead, Intimidate might lower attack but they flee).
+  - Machoke.
+  - Oddish (Status fodder).
+  - Quilava.
+  - Lugia (Tank).
+  - Pidgey.
+  - **Correction:** I don't have a reliable sleeper in the party. Oddish is Lv 5.
+  - **Note:** Roamers retain damage. Hitting them hard is better than nothing if I can't sleep them.
+  - **Master Ball:** I don't have one? Check Inventory. No Master Ball listed.
+  - **Action:** Just hit them for now. Track HP.
 
 # Resources
 - **Money:** ¥15644.
 - **Items:** Max Repel x30.
 - **Key Items:** Pass (Magnet Train).
-- **Status:** Entering Route 38. Checking Roamer Map.
-- **Next Step:** Check Roamer Map on Route 38.
+- **Status:** Route 38. Checking Map.
+- **Next Step:** Check Roamer Map.
