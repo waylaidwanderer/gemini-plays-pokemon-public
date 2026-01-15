@@ -14,14 +14,14 @@
 - **Location:** Route 38 (West of Ecruteak).
 - **Hunt Start:** Turn ~40000.
 - **Current Loop:** 17.
-- **Action:** Switch Party (Lugia <-> Gyarados) using SELECT.
-- **Hunt Progress:** Phase 2 Loop 17/50. Prepping for Encounter.
+- **Action:** Open Map (Manual Navigation).
+- **Hunt Progress:** Phase 2 Loop 17/50. Beast Spotted (Rt 38).
 - **Beast Status:** **POSITIVE** (Route 38).
-- **Battle Strategy:**
-    - **Lugia (Lead):** Speed > Roamers.
-    - **vs Entei:** Use **GUST** (Hydro Pump might OHKO).
-    - **vs Raikou:** Gust or Hydro Pump (Neutral).
-    - **Goal:** Chip damage. Do not faint them.
+- **Plan:**
+    1. Confirm Location on Map.
+    2. **DO NOT USE REPEL** (Lugia Lv 60 > Roamer Lv 40).
+    3. Hunt in Grass. Run from wilds.
+    4. Attack Roamer immediately.
 - **Hunt Strategy:**
 
 # Hunt Strategy
