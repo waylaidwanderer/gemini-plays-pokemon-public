@@ -1,19 +1,19 @@
 # Tile Mechanics
-- FLOOR_UP_WALL: Blocks SOUTH. Allows NORTH. (Rows 34, 46, 48, 50).
+- FLOOR_UP_WALL: Blocks SOUTH. Allows NORTH.
 - LEDGE_HOP_DOWN: Blocks NORTH. (Row 15).
-- Vertical Walls: X=3, 5, 9, 11, 17.
+- BUOY: Water wall. Gaps at (23, 15), (19, 21).
 
 # Suicune Quest (Cianwood)
-## Strategy: Row 35 Western Corridor Ascent
-Reach (14, 10) by using the Western Corridor (X=0-2) to bypass the Row 15 ledge.
-1. Move North along X=12 to Row 33.
-2. Move West through (9, 33) gap to (6, 33).
-3. Move South to (6, 35) to bypass central walls.
-4. Move West through (5, 35) gap to Western Corridor (X=2).
-5. Move North along X=2 to Row 12.
-6. Move East along Row 12 to (14, 12).
-7. Move North to (14, 10) to trigger Suicune.
+## Strategy: Northern Sea Landing
+Reach the northern plateau (14, 10) by Surfing north in the Outer Sea (X=24) to Row 21, passing through the buoy gap at (19, 21), and swimming north to land at (16, 11). This bypasses all land-based wall/ledge mazes.
+
+## Execution Plan
+1. Surf at (23, 32). (Current Turn)
+2. Swim to (19, 21) and pass through the buoy gap.
+3. Swim North to Row 11.
+4. Swim West and land at (16, 11).
+5. Walk to (14, 10) to trigger Suicune sighting.
 
 ## Time Tracking
 - Quest Start: Turn 48900
-- Row 35 Route Start: Turn 49586
+- Sea Landing Attempt Start: Turn 49589
