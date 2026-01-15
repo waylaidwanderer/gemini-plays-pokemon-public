@@ -1,26 +1,27 @@
 # Strategy: Catch Legendary Pokémon
 - Goal: Locate and capture Suicune, Lugia, and Ho-Oh.
-- Status: Have Clear Bell. Suicune likely at Tin Tower (Ecruteak City).
+- Status: 16 Badges obtained. Suicune sighting in Cianwood is no longer available.
 - Plan:
   1. Fly to Ecruteak City.
-  2. Navigate to Tin Tower.
-  3. Encounter Suicune.
-  4. Fly to Pewter City and obtain Silver Wing from old man.
-  5. Go to Whirl Islands for Lugia.
+  2. Enter Tin Tower (requires Clear Bell - HAVE).
+  3. Capture Suicune (waiting at Tin Tower base).
+  4. Fly to Pewter City and talk to the old man to obtain the Silver Wing.
+  5. Go to Whirl Islands to capture Lugia.
+  6. Capture Ho-Oh at the top of Tin Tower (requires Suicune, Entei, and Raikou in party/PC).
 
-# Legendary Info
-- Suicune: Requires Clear Bell (Have). Found in Tin Tower after defeating Ecruteak Sages.
-- Lugia: Requires Silver Wing (Obtain in Pewter City). Found in Whirl Islands.
-- Ho-Oh: Requires Rainbow Wing (Obtain after catching Suicune, Entei, Raikou). Found at top of Tin Tower.
+# Legendary Locations & Requirements
+- Suicune: Tin Tower 1F. Clear Bell required.
+- Lugia: Whirl Islands. Silver Wing required.
+- Ho-Oh: Tin Tower Roof. Rainbow Wing required.
 
 # Area Notes: Cianwood City
 - Photo Studio: (9, 31) | Poke Seer: (5, 17)
 - Pharmacy: (15, 47) | Gym: (8, 43) | PokeCenter: (23, 43)
 
 # Tile Mechanics (Verified)
-- FLOOR: Standard ground. Traversable.
+- FLOOR: Standard ground.
 - WALL: Impassable.
 - WATER: Surf required.
-- BUOY: Impassable water obstacle.
+- BUOY: Impassable water.
 - FLOOR_UP_WALL: Impassable cliff face.
 - LEDGE_HOP_DOWN: One-way jump (North to South).
