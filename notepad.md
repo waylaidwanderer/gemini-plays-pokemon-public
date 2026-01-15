@@ -12,18 +12,10 @@
 
 ## Plan: Reach North Plateau (Started Turn 48972)
 - Goal: Reach Suicune at (14, 10).
-- Step 1: Reach X=11, Row 27.
-- Step 2: Surf at (12, 27) and head North to Row 16.
-- Step 3: Land at (12, 16) and walk North through the gap at (11, 15). <- CURRENT TASK
+- Step 1: Reach (12, 28) and Surf. <- CURRENT TASK
+- Step 2: Navigate North to Buoy Gap at (23, 15).
+- Step 3: Land on plateau at (17, 11) from north-east sea.
 - Step 4: Reach (14, 10) to trigger Suicune sighting.
-
-# Area Notes
-- Photo Studio: (9, 31) (DOOR)
-- Lugia House: (15, 37) (DOOR)
-- Poke Seer: (5, 17) (DOOR)
-- Obstacle: Ledge at (10, 15) blocks Northward progress. Gap identified at (11, 15).
-- Highway: X=12 is a clear vertical path; Row 12 is a clear horizontal path.
-- Connection: Route 41 (0, 32) <-> Cianwood City (29, 32).
 
 # Area Notes
 - Photo Studio: (9, 31) (DOOR)
@@ -31,6 +23,7 @@
 - Poke Seer: (5, 17) (DOOR)
 - Obstacle: Ledge at (10, 15) blocks Northward progress from city center.
 - Connection: Route 41 (0, 32) <-> Cianwood City (29, 32).
+- Route: Buoy Gap at (23, 15) leads to plateau landing at (17, 11).
 
 # Tile Mechanics (Verified)
 - FLOOR: Traversable.
@@ -39,6 +32,5 @@
 - FLOOR_UP_WALL: Cliff (Impassable).
 - LEDGE_HOP_DOWN: One-way jump (North to South).
 - WATER: Requires Surf.
-- Suicune Trigger: North Beach (14, 10). Approach via western beach (X=0-2) to bypass ledge at (10, 15).
-- Tool Failure: find_path_v6_fixed failing with sandbox errors (Turn 48981). Manual navigation required for Route 41 to Cianwood transition.
-- Navigation: Route 41 (0, 32) <-> Cianwood City (29, 32). Moving Left from (0, 32) triggers warp.
+- Suicune Trigger: North Beach (14, 10).
+- Tool Failure: find_path_v6_fixed failing with sandbox errors (Turn 48981). Manual navigation required.
