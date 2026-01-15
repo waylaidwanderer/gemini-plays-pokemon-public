@@ -1,4 +1,6 @@
 ## Strategy: Great Sea Bypass to Suicune
+**Start Turn:** 48900 (Quest: Trigger Suicune Overworld Sighting)
+
 The city is a maze of 'FLOOR_UP_WALL' barriers. I will Surf around the entire island via Route 41 to reach the West Beach.
 
 ### Step-by-Step Execution Plan
