@@ -1,30 +1,25 @@
 ## Strategy: West Beach Highway Route to Suicune
-Use the 'West Beach Highway' (X=0-2) via the Row 51 'Ledge Gap' (10, 50) to reach the northern plateau.
+Use the 'West Beach Highway' (X=0-2) to reach the northern plateau, bypassing the central city blockades.
 
-### Verified Land Route
-1. (12, 28) -> (12, 47): Walk South to bypass central walls.
-2. (12, 47) -> (10, 47) -> (10, 50): Walk to the 'Ledge Gap'.
-3. (10, 50) -> (10, 51) -> (4, 51): Walk through the gap and West along the highway.
-4. (4, 51) -> (4, 49) -> (2, 49): Walk North and West to the beach.
-5. (2, 49) -> (2, 14): Walk North along the beach highway.
-6. (2, 14) -> (8, 14) -> (8, 10): Walk East and North to the plateau.
-7. (8, 10) -> (14, 10): Reach Suicune trigger point at (14, 10).
+### Step-by-Step Execution Plan
+1. Land at (12, 28) and walk to (12, 44). <- CURRENT TASK
+2. (12, 44) -> (9, 44): Pass through the X=9 wall gap.
+3. (9, 44) -> (8, 44) -> (8, 35): Walk north through the city corridor.
+4. (8, 35) -> (5, 35): Pass through the X=5 wall gap to the beach.
+5. (5, 35) -> (2, 35): Reach the West Beach Highway.
+6. (2, 35) -> (2, 14): Walk north along the beach highway.
+7. (2, 14) -> (8, 14): Cross east to the plateau entrance.
+8. (8, 14) -> (8, 10): Walk north to the plateau summit.
+9. (8, 10) -> (14, 10): Reach Suicune trigger point.
 
-## Global Tile Mechanics
-- FLOOR: Traversable.
-- WALL: Impassable.
-- WATER: Requires Surf.
-- BUOY: Impassable hard wall.
-- LEDGE_HOP_DOWN: One-way jump (North to South).
-- FLOOR_UP_WALL: Impassable cliff face.
-- DOOR: Warp to another map.
-
-## Area Insights: Cianwood City
-- Ledge Gap (10, 50): Key passage to the southern map edge.
-- West Beach Highway: X=0-2 is a clear vertical path from Row 53 to Row 14.
-- Northern Plateau Entry: Only accessible from Row 14 via the X=8 corridor.
-- Gym Blockade: Building at (10, 40) and associated walls block all central land access to the north.
+## Failed Hypotheses & Lessons
+- Inner Channel North (X=12-17): Blocked at Row 15 by WALL. Cannot surf north past Row 15.
+- Direct Westward Path (Row 33): Blocked at (5, 33) by WALL.
+- Plateau North Entry (X=11): Blocked at (11, 13) by WALL.
 
 ## Battle Strategy: Eusine
 - Lead: Calcifer (Lv 64 Typhlosion).
 - Strategy: Sweep with Flamethrower. OHKO potential on most targets.
+
+## Inventory Check
+- Super Repel: 7 remaining. Last applied turn 49091. (~140 steps used/available). Re-apply at next message.
