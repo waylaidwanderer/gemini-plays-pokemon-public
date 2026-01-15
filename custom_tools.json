@@ -53,21 +53,9 @@
     ]
   },
   "open_map": {
-    "description": "Opens the Pokegear and navigates to the Map card. Assumes the main menu cursor is already on 'POKEGEAR' (last used). Uses a 'Left, Left, Left, Right' sequence inside Pokegear to reliably select the Map regardless of previous cursor position (Back, Map, Phone, Radio). Includes safety 'B' presses and sleep delays.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "autopress_buttons": {
-          "type": "boolean",
-          "default": false,
-          "description": "If true and the tool returns a list of buttons, they will be pressed automatically. Safety limit of 50 buttons per turn."
-        }
-      },
-      "required": [
-        "autopress_buttons"
-      ]
-    },
-    "python_script": "print('[\"B\", \"B\", \"Start\", \"sleep 500\", \"A\", \"sleep 500\", \"Left\", \"Left\", \"Left\", \"Right\", \"sleep 500\", \"A\"]')",
+    "description": "Opens the Pokegear and navigates to the Map card. Assumes the main menu cursor is already on 'POKEGEAR' (last used). Uses a 'Left x4, Right' sequence inside Pokegear to reliably select the Map. Includes safety 'B' presses and sleep delays.",
+    "input_schema": {},
+    "python_script": "buttons = [\"B\", \"B\", \"Start\", \"sleep 500\", \"A\", \"sleep 500\"]\nbuttons.extend([\"Left\"] * 4)\nbuttons.append(\"Right\")\nbuttons.append(\"sleep 500\")\nbuttons.append(\"A\")\nprint(f'{{\"buttons\": {buttons}}}')",
     "history": [
       {
         "commit_message": "Initial version",
@@ -98,6 +86,11 @@
         "commit_message": "Improved reliability: Added an extra 'Left' press to handle starting from the 'Radio' card (4th slot) assuming non-wrapping menu, and added a sleep before the final 'A' press to ensure the Map View opens after navigation.",
         "timestamp": "2026-01-13T07:37:57.819Z",
         "action_counter": 37022
+      },
+      {
+        "commit_message": "Updated open_map to use a robust Left x4, Right sequence to reliably select the Map card regardless of previous cursor position.",
+        "timestamp": "2026-01-15T01:25:52.539Z",
+        "action_counter": 39724
       }
     ]
   },
