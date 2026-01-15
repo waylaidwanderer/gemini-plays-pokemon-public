@@ -6,8 +6,8 @@
   2. Navigate to (0, 5) on Route 41. [IN PROGRESS]
   3. Transition to Cianwood City (29, 5).
   4. Navigate to Suicune's sighting spot at (14, 10) in Cianwood.
-- Status: At (0, 5) on Route 41 surfing.
-- Reasoning: Row 5 on Route 41 is a clear water highway that bypasses all buoy mazes and leads directly to the Cianwood City transition at the western edge. I'm one step away from re-entering the city.
+- Status: At (29, 5) in Cianwood City surfing.
+- Reasoning: I've bypassed the buoy maze by using the Row 5 highway on Route 41. Now I'm in the eastern channel of Cianwood. I'll navigate south to (24, 32), land, and then use the Row 32 city artery to reach the west beach. From there, it's a straight shot up to Suicune!
 
 # Blocked Routes (Verified)
 - Central City: Vertical wall at X=9 (Rows 34-37). Cliff at Row 30.
