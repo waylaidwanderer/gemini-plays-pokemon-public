@@ -52,3 +52,4 @@
 - Turn 40540: Attempting to use 'check_roamer_map' to verify position. If sandbox fails again, will revert to manual menu navigation.
 - Turn 40542: Manually opening Pokegear (Down, A) to bypass potential tool failures.
 - Turn 40543: Pressing A to enter Pokegear. Previous multi-button input was truncated by system.
+- Turn 40544: Navigating Pokegear menu (Right -> A) to select Map card. Visual cursor confirms menu focus despite 'Press any button to exit' text.
