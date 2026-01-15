@@ -5,8 +5,8 @@
 To reach the northern plateau at (14, 10), I must bypass several jump-down ledge lines. Terrestrial paths are blocked by FLOOR_UP_WALL tiles at Row 34, 46, 48, and 50. I will navigate through specific gaps to reach the western corridor (X=2).
 
 ## Execution Plan
-1. Walk to (18, 45) via (20, 45). <- CURRENT TASK
-2. Move south through gap to (18, 47). (Bypasses Row 46).
+1. Walk to (18, 45) via (20, 45). (Done)
+2. Move south through gap to (18, 47). (Bypasses Row 46). <- CURRENT TASK
 3. Walk west to (12, 47), then south through gap to (12, 49). (Bypasses Row 48).
 4. Walk west to (10, 49), then south through gap to (10, 51). (Bypasses Row 50).
 5. Walk west to (2, 51), then north through western corridor (X=2) to Row 10.
