@@ -37,12 +37,6 @@
     - Turn 40546: Map check confirmed Roamers moved to Rt 42/44/31. None on Rt 38.
 - **Phase 3 (Gatehouse Shuffle):**
     - Turn 40548: Wade called. Handling call, then heading to Gatehouse (35, 8).
-- Strategy: Performing Gatehouse Shuffle (Route 38 <-> Gatehouse) to force Roaming Beast movement. Checking Pokegear map after each transition.
-- Turn 40565: Map check negative. Beasts at Rt 42/44/32.
-- Turn 40566: Re-entering Gatehouse (Right x2) to shuffle.
-- Turn 40567: Inside Gatehouse. Exiting back to Route 38 (Left x2) to complete shuffle.
-- Turn 40568: Back on Route 38. Opening Start Menu to check map.
-- Turn 40570: Attempting optimized navigation: `press_sequence_with_delays` ['Right', 'A'] to open Map immediately.
-- Turn 40571: Sandbox down. 'press_sequence_with_delays' failed. Reverting to manual input: Pressing 'Right' to select Map Card.
-- Turn 40573: Map check negative. Beasts at Rt 42, Rt 44, Rt 32.
-- Action: Closing Pokegear (B) to re-enter Gatehouse and shuffle again.
+- Strategy: Gatehouse Shuffle (Rt 38 <-> Gatehouse) in progress.
+- Status (Turn 40574): Shuffle #2 complete. Map check negative (Rt 42/44/32). In Start Menu.
+- Action: Closing menu to perform Shuffle #3.
