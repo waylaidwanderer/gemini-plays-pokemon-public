@@ -42,3 +42,4 @@
 - Turn 40552: Inside Gatehouse. Immediately exiting back to Route 38 (Left x2) to complete the shuffle and check positions.
 - Turn 40553: Returned to Route 38. Opening Start Menu to access Pokegear and check Beast positions.
 - Turn 40554: Opening Pokegear (A) to check positions after Shuffle 1. Sandbox still down, manual check required.
+- Turn 40555: In Pokegear main menu. Cursor on 'Back'. Pressing 'Right' to highlight Map card. Avoiding multi-button input to prevent truncation.
