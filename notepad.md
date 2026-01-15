@@ -12,7 +12,7 @@
 - **Goal:** Register Raikou & Entei.
 - **Current Task:** Hunt Roaming Beasts (Phase 2).
 - **Location:** Route 38 (Grass).
-- **Hunt Progress:** Beast Moved (Confirmed). Locations: Rt 42 & Rt 32.
+- **Hunt Progress:** Shuffling (Loop 9). Exiting Gatehouse to check map.
 - **Action:** Go to Gatehouse -> Shuffle -> Check Map (On Route).
 - **Correction:** Checking map inside Gatehouse is unreliable because exiting triggers Roamer movement.
 - **New Loop:** Enter Gatehouse -> Exit immediately -> Check Map on Route 38 -> Hunt or Repeat.
