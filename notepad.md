@@ -39,10 +39,10 @@
 - **Money:** ¥15644.
 - **Items:** Max Repel x30.
 - **Key Items:** Pass (Magnet Train).
-- **Status:** Route 38 (35,8). Positioning for Entry.
-- **Next Step:** Left (34,8) -> Down (34,9) -> Right (Enter 35,9).
-- **Note:** Walking INTO (35,9) from Left seems most reliable.
-- **Roamer Check:** Negative. Resetting for Loop 16.
+- **Status:** Route 38 (35,9). Testing Left Warp.
+- **Next Step:** Left (Trigger Warp?) -> If Gatehouse: Left (Exit).
+- **Note:** Anomaly: 'Left' from warp tile triggered entry before. Testing.
+- **Roamer Check:** Negative. Resetting.
 - **Strategy:** Manual Reset: Enter -> Exit -> Check.
 - **Strategy:** Manual Reset: Right (Enter) -> Left (Exit) -> Check Map.
 - **Strategy:** Manual Reset Loop: Check Map -> B -> Right (Enter Gate) -> Left (Exit Gate) -> Start (Map).
