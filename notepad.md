@@ -14,21 +14,13 @@
 - **Location:** Route 38 (West of Ecruteak).
 - **Hunt Start:** Turn ~40000.
 - **Current Loop:** 17.
-- **Action:** Finish Phone Call (Long).
+- **Action:** Run from Magnemite.
 - **Hunt Progress:** Phase 2 Loop 17/50.
-- **Event:** Gaven's phone call is very long (Flareon/Noctowl story).
 - **Beast Status:** **POSITIVE** (Route 38). Assumed present.
-- **Plan:**
-    1. Mash B to clear dialogue.
-    2. Open Pokegear.
-    3. Check Map.
-- **Location:** Trapped in grass strip (Col 8-9).
 - **Location:** Trapped in grass strip (Col 8-9).
 - **Plan:**
-    1. Continue Scanning Grass.
-    2. If Wild -> Run.
-    3. If Beast -> Attack/Catch.
-- **Hunt Strategy:**
+    1. Run from Battle.
+    2. Resume Manual Scan (Left/Right).
 
 # Hunt Strategy
 1. **Target Acquired:** Beast IS on Route 38!
