@@ -14,7 +14,7 @@
 - **Session Start:** Turn 40704 (Blind Shuffle Route 38).
 - **Location:** Route 38 (Scanning Cycle #18).
 - **Action:** Scanning Grass (Left x10).
-- **Status:** Resuming Scan #18 after call. Repel Active.
+- **Status:** Resuming Scan #18 (Movement failed previously). Repel Active.
 - **Pokedex Mode:** Old (National Dex). Target: #243 Raikou, #244 Entei.
 - **Pokedex Status:** #243 (Raikou) & #244 (Entei) are UNSEEN (Cannot track). #245 (Suicune) is SEEN.
 - **Strategy:** Blind Gatehouse Shuffle.
