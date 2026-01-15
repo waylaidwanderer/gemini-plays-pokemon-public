@@ -13,5 +13,8 @@
 - **Current Task:** Gatehouse Shuffle (Looping Rt 38 <-> Gatehouse).
 - **Location:** Route 38 (East Side).
 - **Pokedex Mode:** Old (National Dex). Target: #243 Raikou, #244 Entei.
-- **Action:** Scrolling to end of Pokedex (Right x10) to check for #243/#244. List skips unseen numbers.
-- **Hypothesis:** Burned Tower event likely did NOT register them, so they won't be in the list. Verifying.
+- **Pokedex Status:** #243 (Raikou) & #244 (Entei) are UNSEEN (Cannot track). #245 (Suicune) is SEEN.
+- **Strategy:** Blind Gatehouse Shuffle.
+    1. Shuffle (Route 38 <-> Gatehouse).
+    2. Run in grass with Max Repel (Lead Lv37).
+    3. If no encounter in ~20 steps, repeat.
