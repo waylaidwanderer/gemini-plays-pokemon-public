@@ -39,6 +39,6 @@
 - **Money:** ¥15644.
 - **Items:** Max Repel x30.
 - **Key Items:** Pass (Magnet Train).
-- **Status:** Call cleared. At Gatehouse (34, 9). Starting Loop 8/50.
-- **Next Step:** Execute Reset Tool -> Check Map.
+- **Status:** Inside Gatehouse. Exiting to Route 38. Loop 8/50.
+- **Next Step:** Exit Left -> Check Roamer Map.
 - **Lesson:** Gatehouse warps can be sticky. Automate resets to avoid 'doorway effect'.
