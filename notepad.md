@@ -27,7 +27,7 @@
 - **Money:** ¥15644.
 - **Items:** Max Repel x30.
 - **Key Items:** Pass (Magnet Train).
-- **Status:** Interrupted by Wade (Turn 39857). Clearing text.
+- **Status:** Clearing Wade's call (Turn 39858). Then checking map.
 
 # Reflection (Turn 39822)
 - **Lesson:** Start Menu cursor remembers position. Pokegear also likely remembers last tab. Always verify or reset state.
