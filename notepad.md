@@ -27,4 +27,4 @@ Reach the northern plateau (14, 10) by Surfing north in the Outer Sea (X=24) to 
 - Western Corridor (X=0-2) is the only confirmed land path to Row 12.
 
 ## Progress Summary
-- Turn 49557: At (24, 32). Clearing Surf text. Moving to landing at (23, 45).
+- Turn 49558: At (24, 32). Moving to (26, 45) in the Outer Sea to bypass the Row 34 ledge.
