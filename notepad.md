@@ -8,11 +8,11 @@
 - **Current Task:** Restock Supplies.
 - Location: Celadon Dept Store 2F.
 - Action: Buying Max Repels from Clerk at (13,5).
-- Status: Outdoors on Route 23 (Indigo Plateau Entrance).
-- Action: Opening Fly Map -> Navigate to Saffron City.
+- Status: In Pokemon Menu (Cursor on Garnet).
+- Action: Select Mistral -> Fly -> Saffron City.
 - Strategy:
-    1. **Fly:** Start -> Pokemon -> Mistral (Slot 6) -> Fly.
-    2. **Navigate:** Down (Cinnabar) -> Up (Pallet) -> Up (Viridian) -> Up (Pewter) -> Right (Cerulean) -> Down (Saffron).
+    1. **Open Map:** Down x2 (Mistral) -> A -> A (Fly).
+    2. **Navigate:** Down (to Cinnabar/Viridian?) -> Navigate to Saffron.
     3. **Transit:** Take Magnet Train from Saffron to Goldenrod.
     4. **Hunt:** Loop Route 37/Ecruteak until Raikou/Entei is nearby.
     5. **Encounter:** Use Max Repel, walk in grass. Sleep/Weaken/Catch.
