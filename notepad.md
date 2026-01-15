@@ -4,9 +4,9 @@
 Cianwood's terrestrial path is blocked by ledges. The northern plateau is accessible by Surfing through the Row 15 gap and landing at the inner island.
 
 ### Step-by-Step Execution Plan (REVISED)
-1. Surf West to (17, 26), then North to (17, 24). (Bypasses Row 25 Buoys). <- CURRENT TASK
-2. Surf West to (14, 24), then North to (14, 16). (Bypasses X=16 Buoys).
-3. Surf West to land at (13, 16).
+1. Surf to (20, 30), then land at (19, 30). <- CURRENT TASK
+2. Walk West to (12, 30), then North to (12, 28).
+3. Surf North to (12, 16), then land at (13, 16).
 4. Walk West to (11, 16), then North through (11, 15).
 5. Walk to (14, 10) to trigger Suicune.
 
