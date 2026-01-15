@@ -1,22 +1,24 @@
 # Suicune Quest (Cianwood)
 - Quest Start: Turn 48900
 
-## Tile Mechanics (Cianwood City)
-- Row 15: (10, 15) LEDGE_HOP_DOWN (Blocks North).
-- Row 34: (6-8, 34) FLOOR_UP_WALL (Blocks South).
-- Row 46: (6, 46), (21-28, 46) FLOOR_UP_WALL (Blocks South). Gap at (18, 46), (19, 46).
-- Row 48: (8-10, 48) FLOOR_UP_WALL (Blocks South). Gap at X=12-19 (FLOOR).
-- Row 50: (12-19, 50) FLOOR_UP_WALL (Blocks South). Gap at (10, 50), (11, 50).
+## Strategy: The Great Southern Loop
+To reach the northern plateau at (14, 10), I must bypass several jump-down ledge lines. Terrestrial paths are blocked by FLOOR_UP_WALL tiles at Row 34, 46, 48, and 50. I will navigate through specific gaps to reach the western corridor (X=2).
 
-## Execution Plan (The Great Southern Loop)
+## Execution Plan
 1. Walk to (20, 45) via (20, 39). <- CURRENT TASK
-2. Walk west to (19, 45), then south to (19, 49) (Gaps at Row 46, 48).
-3. Walk west to (11, 49), then south to (11, 51) (Gap at Row 50).
-4. Walk west to (2, 51), then north to (2, 12).
-5. Walk east to (14, 12), then north to (14, 10).
+2. Walk west to (19, 45), then south through gap to (19, 47). (Bypasses Row 46).
+3. Walk west to (12, 47), then south through gap to (12, 49). (Bypasses Row 48).
+4. Walk west to (10, 49), then south through gap to (10, 51). (Bypasses Row 50).
+5. Walk west to (2, 51), then north through western corridor (X=2) to Row 10.
+6. Walk east to (14, 10) to trigger Suicune.
+
+## Verified Tile Mechanics
+- FLOOR_UP_WALL: Blocks DOWN (South) movement. Verified at (12, 50) and (13, 50) in Turn 49400.
+- LEDGE_HOP_DOWN: Blocks NORTH movement. Verified at (10, 15).
+- WALL: Standard impassable barrier.
 
 ## Failed Hypotheses
-- Island Hop (13, 16): Dead end pocket at (11, 14).
+- Island Hop (13, 16) via (11, 15): Dead end alcove at (11, 14).
 - Southern Surf: Eastern channel ends at Row 45.
 - Direct Western Walk: Blocked by wall lines and upward ledges at Row 34.
 
