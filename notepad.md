@@ -10,13 +10,14 @@
 - FLOOR_UP_WALL: Impassable ledge face. Acts as a solid wall from all directions.
 - LEDGE_HOP_DOWN: One-way jump (North to South).
 
-# Strategy: Reach Suicune (Rock Smash Investigation)
+# Strategy: Capture Suicune
 - Start Turn: 48227 (Pursuit began)
-- Current Plan (Turn 48467): Obtain Rock Smash to clear path blockages.
-- Step 1: Talk to Teacher at (2, 4) in the house at (15, 37).
-- Step 2: Talk to other NPCs in the house if needed.
-- Step 3: If Rock Smash is obtained, teach it and clear the rock at (5, 29).
-- Step 4: Reach Suicune at (14, 10).
+- Current Plan (Turn 48478): Reach Suicune at (14, 10).
+- Step 1: Talk to Twin in Lugia Speech House.
+- Step 2: Exit house and Surf from (27, 44).
+- Step 3: Surf North to Row 1 (Gap in Buoy Wall).
+- Step 4: Surf West at Row 1 to X=17, then South to land at (16, 11).
+- Step 5: Walk to Suicune at (14, 10) and trigger sighting.
 
 # Area Notes: Cianwood City
 - Photo Studio: (9, 31)
@@ -24,4 +25,4 @@
 - Pharmacy: (15, 47)
 - Gym: (8, 43)
 - Breakable Rocks: (5, 29), (8, 16), (9, 17), (10, 27), (4, 19), (4, 25)
-- Vertical strips split the town; rocks and ledges prevent easy crossing to the northern plateau.
+- Vertical strips split the town; Row 1 (Water) and Row 12 (Land) are key horizontal paths.
