@@ -12,11 +12,13 @@
 
 # Strategy: Capture Suicune (The Strip 1 West Beach Highway)
 - Start Turn: 48441
-- Step 1: Reach Strip 2 (X=10) via gap at (11, 45).
-- Step 2: Reach Strip 1 (X=2) via gap at (5, 35).
-- Step 3: Walk North along West Beach (Strip 1) to Row 12.
-- Step 4: Walk East along Row 12 corridor to Suicune sighting spot (14, 10).
-- Verified: Strip 1 is the only continuous north-south path. Row 12 is a horizontal bridge.
+- Step 1: Walk to (12, 33) via the clear corridor at X=12.
+- Step 2: Walk West through the gap at (9, 33) to reach Strip 2.
+- Step 3: Walk to (5, 35) and then West through the gap to reach Strip 1 (West Beach).
+- Step 4: Walk North along West Beach (Strip 1) to Row 12.
+- Step 5: Walk East along Row 12 horizontal corridor to the plateau (X=14).
+- Step 6: Walk North to Suicune sighting spot (14, 10).
+- Verified: Row 12 is a horizontal bridge connecting the beach to the plateau. Gaps exist at (9, 33) and (5, 35).
 
 # Area Notes: Cianwood City
 - Photo Studio: (9, 31)
