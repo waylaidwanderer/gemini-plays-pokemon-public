@@ -7,31 +7,19 @@
 - Start Turn: 49771
 - Start Time: 3:29 PM
 
-## Strategy: The Sea Route Bypass (Final)
-The northern plateau (Row 10-14) is protected by a maze of land walls, but accessible via the northern sea.
-1. Surf (12, 28) -> (12, 27). (Completed)
-2. Navigate Buoy Maze to (23, 21):
-   - Up to (12, 24) (Bypass X=16 wall)
-   - Right to (17, 24)
-   - Down to (17, 26) (Bypass X=18 wall)
-   - Right to (23, 26)
-   - Up to (23, 21)
-3. Surf North through (23, 15) buoy gap to Row 10.
-4. Navigate X=26 Buoy Wall:
-   - Right to (27, 10)
-   - Up through (27, 9) buoy gap to Row 8.
-5. Surf West along Row 8 to (16, 8).
-6. Surf South to (16, 12) to land.
-7. Walk to (14, 10) to trigger Suicune.
-
-## Hypotheses
-- H1: (19, 21), (23, 15), and (27, 9) are confirmed gaps in the buoy walls.
-- H2: (16, 12) is a valid landing point for the northern plateau.
-- H3: (14, 10) is the trigger point for the Suicune sighting.
+## Strategy: The Outer Sea Route (Final)
+The Central Pool (X=12-17) is an enclosed pocket. Access to the northern plateau requires the Outer Sea (X=24+).
+1. Land at (12, 28). (Completed)
+2. Walk East to (23, 32) (Eastern Beach). (In Progress)
+3. Surf East to (24, 32) to enter the Outer Sea.
+4. Surf North along X=25 to Row 10.
+5. Surf East to (27, 10), then North through (27, 9) buoy gap to Row 8.
+6. Surf West along Row 8 to (16, 8).
+7. Surf South to (16, 12) to land on the plateau.
+8. Walk West to (14, 10) to trigger Suicune sighting.
 
 # Progress Notes
-- Reached (12, 28) on Turn 49791.
-- Note: SUPER REPEL is active.
-- Note: Rock at (4, 25) and Wall at (4, 23) block land access to the Western Corridor from the central pool landing.
-- Note: (10, 27) Rock blocks westward movement from (11, 27).
-- Note: Sea route avoids all land-based maze obstacles.
+- Discovered: Central Pool is blocked by buoys at X=16 (Rows 25-29) and X=18 (Rows 15-25).
+- Reached (17, 24) on Turn 49796; confirmed pocketed.
+- Note: No wild encounters on land in the city. Out of Repels.
+- Hypothesis: (16, 12) is the intended landing point for the northern plateau sighting.
