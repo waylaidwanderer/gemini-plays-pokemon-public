@@ -1,20 +1,19 @@
 # Strategy: Capture Suicune (Started Turn 48227)
 - Goal: Reach (14, 10) in Cianwood City to trigger sighting.
-- Approach: The Row 51 Land Bridge
+- Approach: The Great Northern Buoy Loop (Route 41)
 - Plan:
-  1. Use Super Repel. [DONE]
-  2. Walk South to Row 51 (e.g., (19, 51)). [IN PROGRESS]
-  3. Walk West along Row 51 to West Beach (X=2).
-  4. Walk North along West Beach (X=2) to (2, 14).
-  5. Walk East to (8, 14), then North to (8, 12).
-  6. Walk East along Row 12 to (14, 12), then North to (14, 10).
-- Status: At (19, 30). Repel active.
-- Reasoning: City is partitioned by vertical walls (X=5, X=9). Row 51 is the only confirmed continuous horizontal land path from the east side to the West Beach (X=2). X=2 is a clear vertical highway past all city blockades up to the northern plateau.
+  1. Walk to (27, 44) and Surf. [IN PROGRESS]
+  2. Exit East to Route 41 at (29, 44).
+  3. Navigate North on Route 41 to (0, 6).
+  4. Re-enter Cianwood City at (29, 6).
+  5. Navigate West through gaps at (26, 6) and (22, 6) to (19, 6).
+  6. Navigate South to (19, 11).
+  7. Land at (16, 11) and walk to (14, 10).
+- Reasoning: Row 15 is an impassable land barrier (ledge/walls). The buoy walls at X=26 and X=22 seal the northern channel from the south. Gaps at Row 6 on Route 41 provide the only verified entrance to the northern plateau pocket.
 
 # Blocked Routes (Verified)
-- Central City: Vertical walls at X=5, X=9, X=11, X=17.
-- Row 15 Barrier: Solid wall/ledge from X=3 to X=17.
-- Row 30/34/46 Barriers: Impassable cliffs (FLOOR_UP_WALL).
+- Land Access: Blocked by Row 15 ledge (10, 15) and walls (12-17, 15).
+- Water Access (South): Blocked by Row 15 buoy wall (18-22, 15).
 
 # Tile Mechanics (Verified)
 - FLOOR: Standard ground. Traversable.
@@ -27,6 +26,5 @@
 # Area Notes: Cianwood City
 - Photo Studio: (9, 31) | Poke Seer: (5, 17)
 - Pharmacy: (15, 47) | Gym: (8, 43) | PokeCenter: (23, 43)
-- West Beach: X=2 (Row 14 to Row 51 confirmed).
-- Northern Access: Row 12 (X=2 to X=16 confirmed).
-- Land Bridges: Row 51 (X=4-24 confirmed). Row 44/33 are blocked by walls at X=5.
+- Northern Gaps: Row 6 (X=22, X=26).
+- Landing Spot: (16, 11).
