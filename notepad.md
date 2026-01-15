@@ -9,7 +9,7 @@
 - **Current Task:** Hunt Roaming Beasts.
 - **Location:** Ecruteak City.
 - **Action:** Hunt Loop: Transition to Route 37 to shift Roamers.
-- **Hunt Progress:** ~52 loops. Started Turn 39717.
+- **Hunt Progress:** ~53 loops. Started Turn 39717.
 - **Beast Status:** Last seen on Rts 38, 42, 44. Not on 37.
 
 # Strategy (Hunt Loop)
