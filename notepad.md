@@ -17,7 +17,7 @@
 4. Walk North along the West Beach highway (X=2) to (2, 12).
 5. Walk East to (11, 12) then North to (11, 9).
 6. Walk East to (14, 9) then South to (14, 10).
-7. Trigger the cutscene with Eusine.
+7. Trigger the cutscene with Eusine. (Testing Turn 48834)
 
 # Area Notes: Cianwood City
 - Photo Studio: (9, 31) | Poke Seer: (5, 17)
