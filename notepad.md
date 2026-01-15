@@ -12,8 +12,8 @@
 - **Goal:** Register Raikou & Entei.
 - **Current Task:** Hunt Roaming Beasts (Phase 2).
 - **Location:** Route 38 (East Side).
-- **Action:** Manual Scan (Left/Right) x 20.
-- **Hunt Progress:** Scanning (Loop 11). Repel Expiration Very Imminent (~246/250).
+- **Action:** Dismiss Text -> Re-apply Repel.
+- **Hunt Progress:** Repel Expired (Loop 11 Complete). Re-applying.
 
 # Hunt Strategy
 1. **Target Acquired:** Beast IS on Route 38!
