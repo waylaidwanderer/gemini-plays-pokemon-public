@@ -5,8 +5,7 @@
 - Vertical Walls: X=3, 5, 9, 11, 17, 20.
 
 # Suicune Quest (Cianwood)
-- Started: Turn 49630
-## Strategy: Sea Route Loop (Refined)
+## Strategy: Sea Route Loop
 Reach (14, 10) by surfing through specific buoy and wall gaps.
 1. Move South to (23, 16).
 2. Move West to (19, 16) (Bypasses X=22 wall).
