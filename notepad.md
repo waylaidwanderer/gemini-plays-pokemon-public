@@ -1,14 +1,12 @@
 ## Suicune Quest (Started Turn 49107)
 - Goal: Trigger Suicune sighting at (14, 10).
-- Strategy: Use the "West Beach Highway" (X=2) to reach Row 10.
+- Strategy: Land at the northern beach (Row 18-19) and walk to (14, 10).
 
 ## Plan: Reach Suicune at (14, 10)
-- Step 1: Surf South from (12, 20) to (12, 28) (Land). <- CURRENT TASK
-- Step 2: Walk to (12, 33), then West to (6, 33).
-- Step 3: Walk to (6, 35), then West to (2, 35) (West Beach).
-- Step 4: Walk North along West Beach (X=2) to Row 14.
-- Step 5: Walk East to (8, 14), then North to (8, 12).
-- Step 6: Walk East to (14, 12), then North to (14, 10) to trigger Suicune.
+- Step 1: RUN from battle at (12, 21). <- CURRENT TASK
+- Step 2: Land at (12, 19) (FLOOR) or (11, 21) (FLOOR).
+- Step 3: Walk to (14, 10) via the following path:
+  (12, 19) -> (12, 16) -> (11, 16) -> (11, 13) -> (13, 13) -> (13, 12) -> (14, 12) -> (14, 10).
 
 ## Verified Tile Mechanics
 - FLOOR: Traversable.
@@ -19,11 +17,10 @@
 - BUOY: Impassable hard wall.
 
 ## Navigation Insights
-- Row 35 Gap: (5, 35) is the key to reaching the West Beach from town.
-- West Beach (X=0-2): Clear vertical highway from Row 53 to Row 10.
-- Row 10 Highway: Horizontal path from X=2 to (14, 10).
-- Gym Blockade: Building at (10, 40) blocks land access to the north.
-- Ledge (10, 15): One-way jump DOWN. Prevents land access to north from Row 16.
+- Northern Landing (12, 18-19): Clear land area accessible from the water channel.
+- Row 15 Bypass: (11, 15) is FLOOR, allowing movement north past the (12, 15) WALL.
+- Gym Blockade: Building at (10, 40) is bypassed by the water channel (X=12-17).
+- Ledge (10, 15): One-way jump DOWN. Stay at X >= 11 to avoid it.
 
 ## Battle Strategy: Eusine
 - Lead: Calcifer (Lv 64 Typhlosion).
