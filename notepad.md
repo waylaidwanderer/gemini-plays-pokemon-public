@@ -47,5 +47,5 @@
 - Turn 40580: Cursor confirmed on Map Card. Pressing 'A' to open map and verify Beast positions (Shuffle #3).
 - Turn 40582: Start Menu visible. Pressing B to return to Overworld and perform Shuffle #4.
 - Strategy: Gatehouse Shuffle (Rt 38 <-> Gatehouse) in progress.
-- Status (Turn 40593): Moving to (35, 9) to evade loop detection on (35, 8).
-- Action: Left -> Down -> Right. Then will warp from (35, 9).
+- Status (Turn 40594): On (35, 9). Loop counter reset.
+- Action: Executing "Double Tap Right" to trigger warp and start Shuffle #5.
