@@ -21,4 +21,4 @@ The northern plateau (14, 10) is reached by walking to the Outer Sea (X=23), Sur
 - The city is divided into vertical strips; crossing between them requires specific gaps (e.g., Row 33 for X=9).
 
 ## Progress Summary
-- Turn 49535: Player at (12, 33). Moving to Surf point.
+- Turn 49538: Player at (23, 32). Selecting YES to SURF.
