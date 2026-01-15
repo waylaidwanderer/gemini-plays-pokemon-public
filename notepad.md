@@ -32,5 +32,5 @@
 - **Money:** ¥15644.
 - **Items:** Max Repel x30.
 - **Key Items:** Pass (Magnet Train).
-- **Status:** Loop 75 failed. No beasts on Rt 37. Strategy Shift.
-- **Next Step:** Return to Ecruteak, then head West to Route 38.
+- **Status:** Moving to Route 38 (West of Ecruteak). New Hunt Loop.
+- **Next Step:** Navigate to West Ecruteak Gate.
