@@ -21,9 +21,9 @@
     3. If no encounter, repeat.
     - **Repel Trick:** Lead Pokemon (Lv 37) > Wild Pokemon (Lv ~20) but < Roamers (Lv 40). Max Repel ACTIVE. Only Roamers should appear.
 - **Mechanics Note:** Repel confirmed working in current session (Turns 40947-41004, zero encounters). Previous anomalies likely due to unnoticed expiration.
-- **Current Task:** Manual Wiggle Patrol (Attempt 10, Steps 11-20).
-- **Status:** Finishing patrol (Total 20 steps).
-- **Repel Status:** Active.
+- **Current Task:** Resetting Roamer Positions.
+- **Action:** Moving to Ecruteak City to shuffle (Attempt 10 failed).
+- **Repel Status:** Active (~200/250 steps left).
 - **Session Start:** Turn 41209 (City Shuffle Strategy).
 - **System Note:** Sandbox unavailable. Movement interrupted by call.
 - Pokedex Status: National Mode. SEEN: 195, OWN: 46.
