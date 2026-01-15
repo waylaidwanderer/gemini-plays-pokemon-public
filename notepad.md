@@ -3,10 +3,11 @@
 - Strategy: Use the "Outer Sea Route" (X > 20) to bypass plateau walls.
 
 ## Plan: Reach Suicune at (14, 10)
-- Step 1: Surf to (19, 21) and pass through the Buoy Gap. <- CURRENT TASK
-- Step 2: Surf East to (23, 21) and North to (23, 15) (Buoy Gap).
-- Step 3: Surf North to Row 11 and West to (16, 11).
-- Step 4: Land at (16, 11) and walk to (14, 10) to trigger Suicune.
+- Step 1: Clear Arnie's phone call. <- CURRENT TASK
+- Step 2: Surf South to Row 21 and East to (19, 21) (Buoy Gap).
+- Step 3: Surf East to (23, 21) and North to (23, 15) (Buoy Gap).
+- Step 4: Surf North to Row 11 and West to (16, 11).
+- Step 5: Land at (16, 11) and walk to (14, 10) to trigger Suicune.
 
 ## Verified Tile Mechanics
 - FLOOR: Traversable.
@@ -15,6 +16,10 @@
 - FLOOR_UP_WALL: Impassable cliff face.
 - LEDGE_HOP_DOWN: One-way jump (North to South).
 - BUOY: Impassable hard wall.
+
+## Mechanics Verification (Hypotheses)
+- Landing (16, 11): Hypothesized contiguous water path from (19, 11) to (16, 11). Needs verification.
+- Landing (17, 11): Hypothesized FLOOR tile. Currently unseen.
 
 ## Navigation Insights
 - Inner Channel (X=12-17): Enclosed by walls and buoys.
@@ -30,4 +35,4 @@
 
 ## Technical Status
 - Super Repel: Active (~75 steps used).
-- Start Turn: 49107.
+- Current Turn: 49171.
