@@ -39,5 +39,5 @@
 - **Money:** ¥15644.
 - **Items:** Max Repel x30.
 - **Key Items:** Pass (Magnet Train).
-- **Status:** Resetting Loop 3/50. Warp tile stubborn.
-- **Next Step:** Press Right. If fail, Fly to Ecruteak.
+- **Status:** Re-entering Route 38. Loop 4/50.
+- **Next Step:** Check Roamer Map on Route 38.
