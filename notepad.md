@@ -11,7 +11,7 @@
 
 # Blocked Routes (Verified)
 - Central City: Split by a vertical wall at X=9 (Rows 34-37) and a cliff at Row 30.
-- West Beach Access: Clear path found via Row 32/33 (X=9 gap) and Row 35 (X=6 gap).
+- West Beach Access: Clear path found via (12, 32), (9, 33), and (4, 34).
 
 # Strategy: Capture Suicune (Started Turn 48227)
 - Goal: Reach (14, 10) to trigger sighting.
@@ -19,15 +19,11 @@
 - Plan:
   1. Use Super Repel in PACK. [DONE]
   2. Navigate to (19, 30). [DONE]
-  3. Walk to (2, 14) via Row 32 (gap at X=9) and Row 35 (gap at X=6). [IN PROGRESS]
-  4. Walk East to (14, 10).
+  3. Walk to (4, 32) bypassing the X=11 wall and X=8 sign. [IN PROGRESS]
+  4. Walk to (2, 35) then North to (2, 14).
+  5. Walk East to (14, 10).
 - Status: At (19, 30) on land.
-- Reasoning: X=2 is a clear highway to the northern plateau. Navigating the city gaps at (9, 32) and (6, 35) bypasses the central blockades.
-
-# Area Notes: Cianwood City
-- Photo Studio: (9, 31) | Poke Seer: (5, 17)
-- Pharmacy: (15, 47) | Gym: (8, 43)
-- Southern Ledge Gap: (10, 50) provides access to southern beach.
+- Reasoning: City gaps at (12, 32) and (4, 34) allow access to the western beach, which is a clear path to the northern plateau.
 
 # Area Notes: Cianwood City
 - Photo Studio: (9, 31) | Poke Seer: (5, 17)
