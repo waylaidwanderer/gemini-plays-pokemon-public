@@ -1,4 +1,4 @@
-# Strategy: Trigger Suicune Sightings (Started Turn 48828)
+# Strategy: Trigger Suicune Sightings (Started Turn 48828, 11:50 PM)
 - Goal: Complete the overworld sighting sequence to trigger the final battle at Tin Tower.
 - Status: 16 Badges obtained. Clear Bell in possession.
 
@@ -11,11 +11,11 @@
 6. Tin Tower 1F (Final Battle)
 
 ## Plan for Cianwood (Step 2)
-1. Navigate to (12, 51) via (12, 33). <- CURRENT TASK
-2. Walk West along Row 51 to West Beach at (2, 51).
-3. Walk North along the beach to (2, 10).
-4. Walk East to Suicune at (14, 10).
-5. Trigger cutscene.
+1. Move to X=13 corridor and walk South to Row 51 at (13, 51). <- CURRENT TASK
+2. Walk West along Row 51 to (4, 51).
+3. Continue West to West Beach at (2, 51).
+4. Walk North along the beach highway (X=0-2) to (2, 10).
+5. Walk East to (14, 10) to trigger the Suicune event.
 
 # Area Notes: Cianwood City
 - Photo Studio: (9, 31) | Poke Seer: (5, 17)
@@ -27,5 +27,7 @@
 - FLOOR: Standard ground. Traversable.
 - WALL: Impassable.
 - LADDER: Warp point. Traversable.
-- FLOOR_UP_WALL: Impassable cliff face.
-- LEDGE_HOP_DOWN: One-way jump (North to South).
+- FLOOR_UP_WALL: Impassable cliff face. Blocks movement in the direction of the wall.
+- LEDGE_HOP_DOWN: One-way jump (North to South). Blocks Northward movement.
+- WATER: Requires Surf to traverse.
+- BUOY: Impassable water barrier.
