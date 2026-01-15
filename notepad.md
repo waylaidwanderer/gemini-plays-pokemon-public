@@ -39,3 +39,4 @@
     - Turn 40548: Wade called. Handling call, then heading to Gatehouse (35, 8).
 - Strategy: Performing Gatehouse Shuffle (Route 38 <-> Gatehouse) to force Roaming Beast movement. Checking Pokegear map after each transition.
 - Turn 40562: Start Menu open. Pressing A to enter Pokegear. Manual map check in progress.
+- Turn 40563: In Pokegear. Cursor on 'Back'. Pressing 'Right' to select Map Card. Avoiding multi-button input.
