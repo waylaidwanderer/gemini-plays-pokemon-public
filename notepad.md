@@ -1,35 +1,27 @@
-# Strategy: Trigger Suicune Sightings
-- Goal: Complete sightings to trigger Tin Tower battle.
-- Status: 16 Badges, Clear Bell.
-
-## Suicune Chase Sequence (Crystal)
-1. Burned Tower (Done)
-2. Cianwood City (North Beach (14, 10)) <- CURRENT
-3. Route 42
-4. Kanto Route 14
-5. Route 25
-6. Tin Tower 1F
-
 ## Plan: Reach North Plateau (Sea Route)
-- Step 1: Reach (23, 32) and Surf. (Done)
-- Step 2: Surf East to X=27. <- CURRENT TASK
-- Step 2: Surf East to X=27.
-- Step 3: Surf North to Row 8 (bypasses buoy wall at X=22-26, Row 9).
-- Step 4: Surf West to X=19.
-- Step 5: Surf South to Row 11.
-- Step 6: Surf West and land at (15, 11).
-- Step 7: Walk to (14, 10) to trigger Suicune sighting.
+- Step 1: Surf North at X=27 to Row 8. <- CURRENT TASK
+- Step 2: Surf West at Row 8 to X=16.
+- Step 3: Surf South at X=16 to (16, 11) and land.
+- Step 4: Walk to (14, 10) to trigger Suicune sighting.
 
-# Tile Mechanics
+## Tile Mechanics (Verified)
 - FLOOR: Traversable.
 - WALL: Impassable.
-- FLOOR_UP_WALL: Impassable (Cliff face).
-- LEDGE_HOP_DOWN: One-way jump (North to South).
 - WATER: Requires Surf.
-- BUOY: Impassable.
+- BUOY: Impassable (Verified Turn 49063: Movement blocked Up at (23, 10) into BUOY).
+- LEDGE_HOP_DOWN: One-way jump (North to South).
+- FLOOR_UP_WALL: Impassable cliff face.
 
-# Tracking
-- Super Repel active: Turn 49046.
+## Navigation Notes
+- Buoy Wall: X=22-26, Row 9. Bypass at X=27.
+- Ledge: (10, 15) blocks direct North path from center.
+- Landing: (16, 11) is the target landing spot from the sea.
 - Suicune Trigger: (14, 10).
-- Plateau Landing: (15, 11).
-- East Shore Landing: (23, 32).
+
+## Battle Strategy: Eusine
+- Party Status: XENON (44), Calcifer (64), KIMCHI (52), GNEISS (55), GORP (50), ICARUS (19).
+- Strategy: Lead with XENON for Hypnosis/Confuse Ray to disrupt and Night Shade for fixed damage. Use GORP for tanking.
+
+## Technical Status
+- find_path_v6_fixed: Failing with 'sandbox not running' errors. Manual navigation required.
+- Super Repel: Active since Turn 49046.
