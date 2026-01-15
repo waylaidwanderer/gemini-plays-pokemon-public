@@ -27,3 +27,4 @@
 - **Anomaly #2:** Encountered Wild Raticate (Turn 40918) shortly after Rattata. Repel still ostensibly active. Confirms persistent issue with Repel in this area/session.
 - **Update:** Encountered Raticate (Turn 40918). Repel definitely seemingly inactive or glitched. Proceeding to Gatehouse to reset map state and potential glitches.
 - **Interruption:** Phone call from Wade (Turn 40926) interrupted movement to Gatehouse. Resuming navigation.
+- **Anomaly #3:** Encountered Wild Tauros Lv13 (Turn 40933). Repel failure confirmed again. Route 38 encounters seem unaffected by Repel currently.
