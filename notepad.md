@@ -1,9 +1,9 @@
-- Step 1: Reach (12, 28) and Surf. (DONE)
-- Step 2: Surf North from (12, 27) to (12, 18). <- CURRENT TASK
-- Step 3: Land at (12, 17).
-- Step 4: Walk North/East to (14, 10) to trigger Suicune.
+## Suicune Quest (Started Turn 49107)
+- Goal: Trigger Suicune sighting at (14, 10).
+- Current Position: (12, 18) (Northern Landing).
+- Strategy: Identify traversable path to North Beach (Row 10).
 
-## Tile Mechanics (Verified)
+## Verified Tile Mechanics
 - FLOOR: Traversable.
 - WALL: Impassable.
 - WATER: Requires Surf.
@@ -11,11 +11,13 @@
 - LEDGE_HOP_DOWN: One-way jump (North to South).
 - BUOY: Impassable hard wall.
 
-## Navigation Notes
-- Inner Channel: Water from Row 28 to Row 18 (X=12-17). Clear path to North Beach.
-- Landing: (12, 17) is FLOOR, adjacent to (12, 18) WATER.
-- Gym Blockade: Building at (10, 40) blocks central land access. Use Surf.
-- Ledge at (10, 15): One-way jump DOWN. Avoid if trying to stay north.
+## Navigation Insights
+- Northern Landing (12, 18): Reached via Inner Channel Surf.
+- Gym Blockade: Building at (10, 40) blocks land access to north.
+- Western Highway: X=2 is a clear vertical path from Row 53 to Row 14.
+- Row 14 Crossing: Land path exists from X=0 to X=8. Blocked at X=9 by WALL.
+- Row 34 Cliff: Blocks X=6 vertical path.
+- Buoy Walls: Separate Inner Channel (X=12-17) from Outer Sea (X=20+).
 
 ## Battle Strategy: Eusine
 - Lead: Calcifer (Lv 64 Typhlosion).
@@ -24,5 +26,5 @@
 
 ## Technical Status
 - Super Repel: Active (Applied Turn 49091).
-- Turn Count: Current Turn 49139.
-- Failed Attempts: 5 (documented in previous turns).
+- Confirmation ID for next overwrite: 57543a4c-e291-4ec5-9ed3-2fc3987272b0 (Expired)
+- Current Turn: 49141.
