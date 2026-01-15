@@ -39,7 +39,7 @@
 - **Money:** ¥15644.
 - **Items:** Max Repel x30.
 - **Key Items:** Pass (Magnet Train).
-- **Status:** Pokegear Selected. Opening to Check Map.
-- **Next Step:** Press A -> Select Map Card -> Scan for Roamers.
-- **Strategy:** Manual resets from now on (Tool deleted due to instability).
+- **Status:** Pokegear Open (Clock). Switching to Map.
+- **Next Step:** Press Right (Select Map) -> Press A (Open Map).
+- **Strategy:** Manual Reset Loop: Check Map -> B -> Right (Enter Gate) -> Left (Exit Gate) -> Start (Map).
 - **Lesson:** Gatehouse warps can be sticky. Automate resets to avoid 'doorway effect'.
