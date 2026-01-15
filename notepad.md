@@ -39,6 +39,6 @@
 - **Money:** ¥15644.
 - **Items:** Max Repel x30.
 - **Key Items:** Pass (Magnet Train).
-- **Status:** Moving to Gatehouse to Reset.
-- **Next Step:** Pathfind to Gatehouse -> Use Reset Tool.
+- **Status:** Trash Encounter (Meowth). Running.
+- **Next Step:** Run -> Pathfind to Gatehouse -> Use Reset Tool.
 - **Lesson:** Gatehouse warps can be sticky. Automate resets to avoid 'doorway effect'.
