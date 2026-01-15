@@ -155,7 +155,7 @@
         "autopress_buttons"
       ]
     },
-    "python_script": "print('{\"buttons\": [\"Start\", \"sleep 500\", \"A\", \"sleep 500\", \"Left\", \"Left\", \"Left\", \"sleep 200\", \"Right\", \"sleep 500\", \"A\", \"sleep 500\"]}')",
+    "python_script": "print('[\"Start\", \"sleep 500\", \"A\", \"sleep 500\", \"Left\", \"Left\", \"Left\", \"sleep 200\", \"Right\", \"sleep 500\", \"A\", \"sleep 500\"]')",
     "history": [
       {
         "commit_message": "Initial version",
@@ -176,6 +176,11 @@
         "commit_message": "Updated to use a more robust 'Left x3, Right' sequence to ensure the cursor is on the Map card, regardless of starting position.",
         "timestamp": "2026-01-15T08:19:57.390Z",
         "action_counter": 40325
+      },
+      {
+        "commit_message": "Fixed Python script to return a JSON list directly (e.g., `[\"A\", \"B\"]`) instead of an object (`{\"buttons\": [...]}`), resolving the 'Output is not an array' error when using `autopress_buttons`.",
+        "timestamp": "2026-01-15T08:21:58.886Z",
+        "action_counter": 40329
       }
     ]
   }
