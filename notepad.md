@@ -10,14 +10,13 @@
 - FLOOR_UP_WALL: Impassable ledge face. Acts as a solid wall from all directions.
 - LEDGE_HOP_DOWN: One-way jump (North to South).
 
-# Strategy: Capture Suicune (The West Beach Highway)
-- Start Turn: 48440
-- Step 1: Walk to (10, 45) via (12, 45).
-- Step 2: Walk West to (2, 45) (Entering Strip 1 / West Beach).
-- Step 3: Walk North along West Beach (X=2) to Row 12.
-- Step 4: Walk East along Row 12 corridor to (14, 12).
-- Step 5: Walk North to Suicune's spot at (14, 10).
-- Verified: West Beach (Strip 1) has no vertical ledge barriers. Row 12 is a clear horizontal corridor connecting the beach to the plateau.
+# Strategy: Capture Suicune (The Strip 1 West Beach Highway)
+- Start Turn: 48441
+- Step 1: Reach Strip 2 (X=10) via gap at (11, 45).
+- Step 2: Reach Strip 1 (X=2) via gap at (5, 35).
+- Step 3: Walk North along West Beach (Strip 1) to Row 12.
+- Step 4: Walk East along Row 12 corridor to Suicune sighting spot (14, 10).
+- Verified: Strip 1 is the only continuous north-south path. Row 12 is a horizontal bridge.
 
 # Area Notes: Cianwood City
 - Photo Studio: (9, 31)
