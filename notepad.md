@@ -21,5 +21,5 @@
     3. If no encounter, repeat.
     - **Repel Trick:** Lead Pokemon (Lv 37) > Wild Pokemon (Lv ~20) but < Roamers (Lv 40). Max Repel ACTIVE. Only Roamers should appear.
 - **Mechanics Note:** Repel confirmed working in current session (Turns 40947-41004, zero encounters). Previous anomalies likely due to unnoticed expiration.
-- **Action:** Manual Patrol (Running Left 8 steps).
-- **Repel Status:** Active (38/250 steps).
+- **Action:** Manual Patrol (Running Right 15 steps).
+- **Repel Status:** Active (53/250 steps).
