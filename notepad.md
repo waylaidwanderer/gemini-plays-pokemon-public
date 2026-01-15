@@ -23,3 +23,4 @@
     2. Run in grass for ~20 steps (Use `get_route38_patrol_path`).
     3. If no encounter, repeat.
 - **Anomaly:** Encountered Wild Rattata (Turn 40908) immediately after applying Max Repel (Turn 40903). Lead Pokemon is Gyarados Lv37. Repel should be active. Possible mechanic glitch or misunderstanding?
+- **Anomaly Confirmed:** Encountered Level 16 Rattata on Turn 40908 despite using Max Repel on Turn 40903. Screen text confirmed usage. This suggests Repel might be malfunctioning or encounters on this specific tile/map behave oddly.
