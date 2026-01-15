@@ -1,13 +1,17 @@
-## Strategy: Exploratory Reveal of Northern Plateau
+## Strategy: Reaching Suicune Overworld Sighting
 **Start Turn:** 48900 (Quest: Trigger Suicune Overworld Sighting)
 
-Current mental map indicates no valid path to (14, 10) through seen tiles. Priority is revealing unseen tiles adjacent to the plateau to identify the entrance.
+Cianwood's geography is a maze of vertical walls and ledges. I am using a terrestrial path to the northern plateau.
 
 ### Step-by-Step Execution Plan
-1. Move to the Surf point at (13, 16) and Surf East. <- CURRENT TASK
-2. Navigate North to Row 8, cross West to X=21, then South to Row 11.
-3. Explore (18, 11) and (17, 11) to reveal the plateau entrance.
-4. Re-evaluate path to (14, 10) once more of the map is visible.
+1. Walk South to (11, 18), then West to (7, 18) to reach the central corridor.
+2. Walk South along the X=7 corridor to (7, 34).
+3. Walk West through the Row 34 gap to (2, 34) (West Beach).
+4. Walk North along the West Beach Highway (X=2) to (2, 14).
+5. Walk East along the Row 14 corridor to (8, 14).
+6. Walk North along the X=8 corridor to (8, 12).
+7. Walk East along the Row 12 corridor to (14, 12).
+8. Walk North to (14, 10) to trigger Suicune sighting.
 
 ## Tile Mechanics: Cianwood City
 - FLOOR: Standard traversable ground.
@@ -16,11 +20,6 @@ Current mental map indicates no valid path to (14, 10) through seen tiles. Prior
 - BUOY: Impassable water barrier.
 - FLOOR_UP_WALL: One-way ledge. Blocks DOWN movement (Y to Y+1). Allows UP and East-West movement. (Verified at (6, 46)).
 - LEDGE_HOP_DOWN: One-way jump South. Impassable from the North side.
-
-## Failed Hypotheses & Lessons
-- Terrestrial Zig-Zag (South): Blocked by unseen barriers or ledges. BFS reports no path.
-- Great Sea Bypass (Route 40): Dead end on the West.
-- Inner Channel South: Blocked at Row 15 by solid buoy line.
 
 ## Inventory Check
 - Super Repel: 4 remaining. Applied turn 49346.
