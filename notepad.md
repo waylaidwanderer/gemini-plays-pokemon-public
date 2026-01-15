@@ -37,3 +37,4 @@
     - Turn 40546: Map check confirmed Roamers moved to Rt 42/44/31. None on Rt 38.
 - **Phase 3 (Gatehouse Shuffle):**
     - Turn 40548: Wade called. Handling call, then heading to Gatehouse (35, 8).
+- Turn 40550: Call finished. Moving East to Gatehouse (35, 8) to shuffle Roamers. One tile of grass at (29, 6) risks encounter.
