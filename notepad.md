@@ -1,13 +1,12 @@
 ## Suicune Quest (Started Turn 49107)
 - Goal: Trigger Suicune sighting at (14, 10).
-- Strategy: Use the West Beach Highway (X=2) via the Row 44 gap.
+- Strategy: Use the "East Shore Route" (X=24 channel) to reach the northern plateau.
 
 ## Plan: Reach Suicune at (14, 10)
-- Step 1: Walk to (23, 44) and West to (6, 44) (Row 44 Gap). <- CURRENT TASK
-- Step 2: Walk North to (6, 35) and West to (2, 35) (West Beach).
-- Step 3: Walk North along West Beach (X=2) to Row 14.
-- Step 4: Walk East to (8, 14), then North to (8, 12).
-- Step 5: Walk East to (14, 12), then North to (14, 10) to trigger Suicune.
+- Step 1: Surf East from (23, 32) into the channel. <- CURRENT TASK
+- Step 2: Swim North to Row 12 via Outer Sea (X=24+).
+- Step 3: Swim West to (16, 12) and land.
+- Step 4: Walk North/East to (14, 10) to trigger Suicune.
 
 ## Verified Tile Mechanics
 - FLOOR: Traversable.
@@ -18,15 +17,14 @@
 - BUOY: Impassable hard wall.
 
 ## Navigation Insights
-- Row 44 Gap: Only way to pass the central X=9 wall from the east.
-- West Beach Highway (X=0-2): Clear vertical highway from Row 53 to Row 14.
-- Row 14 Crossing: Land path exists from X=2 to X=8.
-- Plateau Entrance: (8, 14) -> (8, 12) -> (14, 12) -> (14, 10).
-- Gym Blockade: Building at (10, 40) blocks central land access.
+- East Shore Landing (23, 32): Provides direct access to the Outer Sea.
+- Outer Sea Highway: X=24 is a clear vertical channel from south to north.
+- Plateau Landing (16, 12): Reliable landing point on the northern plateau.
+- Gym Blockade: Building at (10, 40) is bypassed by the East Shore Route.
 
 ## Battle Strategy: Eusine
 - Lead: Calcifer (Lv 64 Typhlosion). Sweep with Flamethrower/Thunderpunch.
 
 ## Technical Status
 - Super Repel: Active (~115 steps used).
-- Turn: 49186.
+- Turn: 49188.
