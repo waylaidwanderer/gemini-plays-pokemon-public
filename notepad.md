@@ -26,5 +26,5 @@
 
 ## Technical Status
 - Super Repel: Active (Applied Turn 49091).
-- Turn Count: Current Turn 49134.
-- Failed Attempts: 4 (documented in previous turns).
+- Turn Count: Current Turn 49136.
+- Failed Attempts: 5 (documented in previous turns, including position mismatch).
