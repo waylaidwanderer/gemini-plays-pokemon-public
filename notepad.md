@@ -29,3 +29,5 @@
     - Turn 40596: Shuffle #5 complete.
     - Turn 40600: Checked Map. No Beast on Route 38 (Visual Check).
     - Action: Closing Map (B) to continue shuffle.
+- Turn 40610: Shuffle #6 Check. Negative (Beasts at Rt 44/31/32).
+- Turn 40618: Shuffle #7 Check. Opening Map (A).
