@@ -1,17 +1,18 @@
 # Suicune Quest (Cianwood)
 - **Start Turn:** 48900
 - **Timestamp:** Turn 49381 (Resumed)
-- **Status:** Landing at (13, 16) was a dead end. Returning to city.
+- **Status:** Back in city at (14, 30). Executing Western Corridor path.
 
-## Execution Plan
-1. Surf from (14, 16) south to land at (14, 30). <- CURRENT TASK
-2. Walk to (9, 33) to pass the X=9 wall.
-3. Walk to (5, 35) to pass the X=5 wall.
-4. Walk North from (2, 35) to (2, 14).
-5. Walk East to (14, 10) to trigger Suicune.
+## Execution Plan (Refined)
+1. Walk to (9, 33) to pass the X=9 wall. <- CURRENT TASK
+2. Walk to (5, 35) to pass the X=5 wall.
+3. Walk West to (2, 35) to enter the western corridor.
+4. Walk North to (2, 14) to bypass Row 15 barriers.
+5. Walk East to (8, 14), then North to (8, 10).
+6. Walk East to (14, 10) to trigger Suicune.
 
 ## Strategy: Western Corridor Path
-The northern plateau is only accessible from the far west (X=2). The city is divided by walls at X=9 and X=5. Gaps exist at (9, 33) and (5, 35). I must return to the main city to reach these gaps.
+The northern plateau is only accessible from the far west (X=2). The city is divided by walls at X=9 and X=5. Gaps exist at (9, 33) and (5, 35). This path avoids all one-way ledges and buoy barriers.
 
 ## Tile Mechanics (Global)
 - **FLOOR**: Traversable ground. No special effects.
