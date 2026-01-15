@@ -9,10 +9,10 @@
 - **Current Task:** Hunt Roaming Beasts.
 - **Location:** Ecruteak City.
 - **Action:** Hunt Loop: Transition to Route 37 to shift Roamers.
-- **Hunt Progress:** ~53 loops. Started Turn 39717.
+- **Hunt Progress:** Loop ~61/75. Started Turn 39717. Hard Cap at 75 loops.
 - **Beast Status:** Beasts/Trainers marked by red icons. Current Map: Icons on Rts 38, 42, 44, 31, 32. NONE on Route 37.
-- **Hunt Strategy:** Loop Ecruteak <-> Rt 37. Check Map each time. If icon appears on current route, SEARCH.
-- **Next Step:** Move to Ecruteak, return, check again.
+- **Hunt Strategy:** Loop Ecruteak <-> Rt 37. Use 'open_roamer_check' tool. If icon on Rt 37, SEARCH.
+- **Next Step:** Move to Route 37, check map.
 
 # Strategy (Hunt Loop)
 1.  **Transit:** Enter Saffron City -> Magnet Train Station.
