@@ -12,4 +12,4 @@
 - **Goal:** Register Raikou & Entei.
 - **Current Task:** Gatehouse Shuffle (Looping Rt 38 <-> Gatehouse).
 - **Location:** Route 38 (East Side).
-- **Action:** Applying Max Repel to filter encounters (Lead: Lv37 vs Local: ~Lv16 vs Roamers: Lv40).
+- **Action:** Confirming Use of Max Repel.
