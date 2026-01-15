@@ -12,7 +12,7 @@
 
 ## Plan: Reach North Plateau (Started Turn 48972)
 - Goal: Reach Suicune at (14, 10).
-- Step 1: Reach (2, 49) (West Beach) via detour: (19, 46) -> (18, 46) -> (18, 51) -> (4, 51) -> (4, 49) -> (2, 49). <- CURRENT TASK
+- Step 1: Reach West Beach (2, 35) via detour: (18, 49) -> (18, 32) -> (9, 32) -> (9, 33) -> (6, 33) -> (6, 35) -> (2, 35). <- CURRENT TASK
 - Step 2: Walk North along West Beach (X=2) to (2, 10).
 - Step 3: Walk East along Row 10 to (14, 10) to trigger Suicune sighting.
 
@@ -21,11 +21,10 @@
 - Lugia House: (15, 37) (DOOR)
 - Poke Seer: (5, 17) (DOOR)
 - Obstacle: Ledge at (10, 15) blocks Northward progress from city center.
-- Obstacle: Wall/Cliff line at X=3-9 blocks Westward progress from city center.
-- Gap: Row 51 is a clear horizontal path (X=4-24) bypassing all cliff lines.
-- Gap: Row 50 has gaps at X=10 and X=20-24.
-- Gap: Row 46 has a gap at X=19.
-- Highway: X=2 (West Beach) is a clear vertical path from Row 49 to Row 10.
+- Obstacle: Wall/Cliff line at X=3-9 blocks Westward progress below Row 35.
+- Gap: (5, 35) is the key westward gap in the cliff line.
+- Gap: Row 33 has a gap at X=6-10.
+- Highway: X=2 (West Beach) is a clear vertical path from Row 35 to Row 10.
 - Connection: Route 41 (0, 32) <-> Cianwood City (29, 32).
 
 # Tile Mechanics (Verified)
@@ -35,3 +34,4 @@
 - LEDGE_HOP_DOWN: One-way jump (North to South).
 - FLOOR_UP_WALL: Cliff face (Impassable).
 - Suicune Trigger: North Beach (14, 10).
+- Tool Failure: find_path_v6_fixed failing with sandbox errors. Manual navigation required.
