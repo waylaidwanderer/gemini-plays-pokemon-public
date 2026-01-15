@@ -39,11 +39,10 @@
 - **Money:** ¥15644.
 - **Items:** Max Repel x30.
 - **Key Items:** Pass (Magnet Train).
-- **Status:** Route 38 (35,9). Checking Map. Loop 16/50.
-- **Next Step:** Start (Menu) -> A (Pokegear) -> Right (Map) -> A (Open).
-- **Note:** Manual check required due to tool interrupt.
-- **Strategy Update:** Loop must be 3 turns: 1. Enter, 2. Exit, 3. Check. Automation across map load impossible.
-- **Roamer Check:** Checking Loop 16 results.
+- **Status:** Route 38 (35,9). Loop 16 Negative. Resetting.
+- **Next Step:** Close Map -> Close Gear -> Left (Step off) -> Right (Enter Gate).
+- **Note:** Beasts on Rt 42, Rt 44, Rt 46. Not here.
+- **Roamer Check:** Negative. Resetting for Loop 17.
 - **Strategy:** Manual Reset: Enter -> Exit -> Check.
 - **Strategy:** Manual Reset: Right (Enter) -> Left (Exit) -> Check Map.
 - **Strategy:** Manual Reset Loop: Check Map -> B -> Right (Enter Gate) -> Left (Exit Gate) -> Start (Map).
