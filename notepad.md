@@ -14,7 +14,7 @@
 - **Location:** Route 38 (West of Ecruteak).
 - **Hunt Start:** Turn ~40000.
 - **Current Loop:** 7 (Finished).
-- **Action:** Run from Wild Rattata -> Re-apply Repel -> Gatehouse.
+- **Action:** Open Menu -> Apply Max Repel.
 - **Hunt Progress:** Repel Expired. En route to Gatehouse.
 - **Beast Status:** **NEGATIVE** (Route 38).
 - **CRITICAL FIX:** Repel EXPIRED. Must re-apply after battle.
