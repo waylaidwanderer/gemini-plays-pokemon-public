@@ -12,4 +12,4 @@
 - **Goal:** Register Raikou & Entei.
 - **Current Task:** Gatehouse Shuffle (Looping Rt 38 <-> Gatehouse).
 - **Location:** Route 38 (East Side).
-- **Action:** Checking Pokegear Map for Raikou & Entei.
+- **Action:** Applying Max Repel to filter encounters (Lead: Lv37 vs Local: ~Lv16 vs Roamers: Lv40).
