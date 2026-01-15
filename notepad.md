@@ -10,17 +10,18 @@
 5. Route 25
 6. Tin Tower 1F
 
-## Plan: Reach North Plateau (Beach Highway)
-- Step 1: Surf South to (24, 32).
-- Step 2: Land at (23, 32). <- CURRENT TASK
-- Step 3: Walk to (5, 35) (Wall Gap) via Row 33 detour:
-  - (23, 32) -> (10, 32) -> (10, 33) -> (6, 33) -> (6, 35) -> (5, 35).
-- Step 4: Walk to (2, 35) (West Beach).
-- Step 5: Walk North along West Beach (X=2) to (2, 10).
-- Step 6: Walk East along Row 10 to (14, 10) to trigger Suicune sighting.
-- Super Repel active: Turn 49046.
-- Highway: X=2 (West Beach) is a clear vertical path from Row 35 to Row 10.
-- Gap: (5, 35) is the key westward gap in the cliff line.
+## Plan: Reach North Plateau (Highways)
+- Highway A: X=21 (Row 32-51)
+- Highway B: Row 51 (X=4-21)
+- Highway C: X=4 (Row 35-51)
+- Highway D: X=2 (Row 10-35)
+- Highway E: Row 10 (X=2-14)
+- Step 1: Reach (21, 51) via Highway A. <- CURRENT TASK
+- Step 2: Reach (4, 51) via Highway B.
+- Step 3: Reach (4, 35) via Highway C.
+- Step 4: Reach (2, 35) via Row 35.
+- Step 5: Reach (2, 10) via Highway D.
+- Step 6: Reach (14, 10) via Highway E for Suicune sighting.
 
 # Tile Mechanics
 - FLOOR: Traversable.
@@ -31,8 +32,7 @@
 - BUOY: Impassable.
 - ROCK: Smashable obstacle.
 
-# Navigation Notes
-- Buoy Wall: X=16-22, Row 15-20. Gap at (23, 15).
-- Ledge: (10, 15) blocks direct North path from center.
-- Landing: (15, 11) is FLOOR reachable from North sea.
+# Tracking
+- Super Repel active: Turn 49046.
 - Suicune Trigger: (14, 10).
+- Plateau Landing (Secondary Plan): (15, 11).
