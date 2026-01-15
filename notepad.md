@@ -4,10 +4,11 @@
 Current mental map indicates no valid path to (14, 10) through seen tiles. Priority is revealing unseen tiles adjacent to the plateau to identify the entrance.
 
 ### Step-by-Step Execution Plan
-1. Surf at (12, 28) and head North toward Row 15.
-2. Navigate around buoy walls to reach (18, 12) and (17, 10) areas.
-3. Reveal unseen tiles in Rows 9, 10, and 11.
-4. Re-evaluate path to (14, 10) once more of the map is visible.
+1. Select YES to Surf at (12, 28). <- CURRENT TASK
+2. Surf North and East to reach the Row 15 gap at (23, 15).
+3. Surf North to Row 11, then West to reach (18, 11) and (17, 11) area.
+4. Reveal unseen tiles in Rows 9, 10, and 11.
+5. Re-evaluate path to (14, 10) once more of the map is visible.
 
 ## Tile Mechanics: Cianwood City
 - FLOOR: Standard traversable ground.
