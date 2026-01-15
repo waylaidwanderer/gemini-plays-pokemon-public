@@ -1,20 +1,18 @@
 # Strategy: Capture Suicune (Started Turn 48227)
 - Goal: Reach (14, 10) in Cianwood City to trigger sighting.
-- Approach: The Deep Sea Loop (v2)
+- Approach: The West Beach Highway (Land Route)
 - Plan:
-  1. Walk to (19, 30) and Surf at (20, 30). [IN PROGRESS]
-  2. Enter Route 41 at (0, 30).
-  3. Navigate North to Route 41 (0, 6) and re-enter Cianwood at (29, 6).
-  4. Pass West through the X=22 buoy gap at (22, 6).
-  5. Navigate to (19, 11) and explore West (X=18-17) for a landing spot (e.g., (16, 11)).
-  6. Walk to (14, 10).
-- Reasoning: Land routes (West Beach, Central City, Skyline Path) are all blocked by the Row 15 ledge/wall barrier. The buoy walls at X=26 and X=22 must be bypassed via Route 41 and the Row 6 gap to reach the northern water pocket.
+  1. Walk to (23, 51) via (23, 33) and (21, 42). [IN PROGRESS]
+  2. Walk West along Row 51 to (2, 51).
+  3. Walk North along West Beach (X=2) to (2, 12).
+  4. Walk East along Row 12 to (14, 12).
+  5. Walk North to (14, 10).
+- Reasoning: City is partitioned by vertical walls. Row 51 is the only confirmed land bridge from the east side to the West Beach (X=2). X=2 is a clear vertical highway that bypasses the Row 15 wall/ledge barrier. Row 12 provides horizontal access back to the center for the sighting.
 
-# Failed Hypotheses (Documented)
-- West Beach Highway: Blocked by FLOOR_UP_WALL at Row 34 (X=6-8) and Row 46 (X=6-29).
-- Central City Land: Blocked by ledge at (10, 15) and walls at (12-17, 15).
-- Skyline Path (Row 29): Blocked by Row 15 barrier.
-- Southern Artery: Blocked by Row 46/50 cliffs.
+# Blocked Routes (Verified)
+- Central City: Vertical walls at X=5, X=9, X=11, X=17.
+- Row 15 Barrier: Solid wall/ledge from X=3 to X=17.
+- Row 30/34/46 Barriers: Impassable cliffs (FLOOR_UP_WALL).
 
 # Tile Mechanics (Verified)
 - FLOOR: Standard ground. Traversable.
@@ -26,5 +24,7 @@
 
 # Area Notes: Cianwood City
 - Photo Studio: (9, 31) | Poke Seer: (5, 17)
-- Pharmacy: (15, 47) | Gym: (8, 43)
-- Southern Ledge Gap: (10, 50) provides access to southern beach.
+- Pharmacy: (15, 47) | Gym: (8, 43) | PokeCenter: (23, 43)
+- Southern Corridor: Row 51 (X=4 to X=24 confirmed).
+- West Beach: X=2 (Row 14 to Row 51 confirmed).
+- Northern Access: Row 12 (X=2 to X=16 confirmed).
