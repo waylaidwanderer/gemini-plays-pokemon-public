@@ -24,8 +24,8 @@
 - Step 1: Surf at (19, 30) -> (20, 30). [DONE]
 - Step 2: East to (27, 30), then North to (27, 10). [DONE]
 - Step 3: West through Gap 1 (26, 10) to (23, 10). [DONE]
-- Step 4: South to (23, 16), then West through Gap 2 (22, 16) to (20, 16). [IN PROGRESS]
-- Step 5: South to (20, 21), then West through Gap at (19, 21) to (17, 21).
+- Step 4: South to (23, 16), then West through Gap 2 (22, 16) to (20, 16). [DONE]
+- Step 5: South to (20, 21), then West through Gap at (19, 21) to (17, 21). [IN PROGRESS]
 - Step 6: North to (17, 16), then West to (14, 16).
 - Step 7: Land at (13, 16) and walk to (14, 10).
 
