@@ -6,20 +6,22 @@
 
 # Suicune Quest (Cianwood)
 - Started: Turn 49630
-## Strategy: Eastern Sea Bypass (Row 51 Highway)
-Reach (14, 10) by surfing along the eastern coast to bypass internal walls.
-1. Move East to (24, 45).
-2. Surf South along X=24 to (24, 51).
-3. Move West along Row 51 to (2, 51) (The Southern Highway).
-4. Move North along X=2 corridor to (2, 12).
-5. Move East along Row 12 to (14, 12).
-6. Move North to (14, 10) to trigger Suicune.
+## Strategy: Definitive Great Southern Loop
+Reach (14, 10) by bypassing all internal obstacles via the far southern and western corridors.
+1. Move West to (12, 33).
+2. Move South along X=12 to (12, 47).
+3. Move West along Row 47 to (10, 47).
+4. Move South along X=10 to (10, 51) (passing through ledge gap at 10, 50).
+5. Move West along Row 51 to (2, 51) (The Western Highway).
+6. Move North along X=2 corridor to (2, 14).
+7. Move East along Row 14 to (14, 14).
+8. Move North to (14, 10) to trigger Suicune.
 
 # Progress Notes
-- Blocked: X=10 corridor blocked by WALL at (10, 40).
-- Blocked: X=12 corridor blocked by FLOOR_UP_WALL at (12, 50).
-- Verified: X=24 corridor is clear from Row 45 to Row 51.
-- Verified: Row 51 is a clear horizontal path from X=24 to X=2.
-- Verified: X=2 corridor is clear from Row 51 up to Row 12.
-- Verified: Row 12 is clear from X=2 to X=14.
-- Hypothesis: Sea route bypasses all land-based dead ends. (Executing).
+- Verified: Row 47 is clear from X=12 to X=10.
+- Verified: (10, 50) is a FLOOR gap in the southern ledge.
+- Verified: Row 51 is clear from X=10 to X=2.
+- Verified: X=2 corridor is clear from Row 51 to Row 14.
+- Blocked: X=10 corridor blocked by Gym at Row 40.
+- Blocked: X=12 corridor blocked by ledge at Row 50.
+- Blocked: Row 15 ledge (X=3-17) blocks all central land routes.
