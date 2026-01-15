@@ -39,6 +39,7 @@
 - **Money:** ¥15644.
 - **Items:** Max Repel x30.
 - **Key Items:** Pass (Magnet Train).
-- **Status:** In Grass (9, 9). Scanning (Steps ~220/250).
-- **Next Step:** Scan Grass (Finish Repel) -> Encounter.
+- **Status:** Repel wore off (No encounter). Checking Map.
+- **Next Step:** Close Msg -> Open Menu -> Select Pokegear -> Check Map.
+- **Note:** Cursor on PACK. Need to move Down to GEAR.
 - **Lesson:** Gatehouse warps can be sticky. Automate resets to avoid 'doorway effect'.
