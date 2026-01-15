@@ -10,21 +10,24 @@
 - NPC: Impassable. Interact from adjacent tile.
 
 # Blocked Routes (Verified)
-- Central City Maze: Blocked at X=9 (Rows 34-37) and X=5 (Rows 30-33).
-- Row 30 Cliff: Impassable from X=4 to X=11.
-- Buoy Maze: Impassable walls at X=26, X=22, and X=19.
+- Central City: Vertical wall at X=9 (Rows 34-37). Cliff at Row 30.
+- Plateau Access: Row 29 is a clear East-West path from X=19 to X=2, bypassing the Row 30 cliff and city walls.
 
 # Strategy: Capture Suicune (Started Turn 48227)
 - Goal: Reach (14, 10) to trigger sighting.
-- Approach: The Great Western Highway
+- Approach: The Row 29 Skyline Path
 - Plan:
   1. Use Super Repel. [DONE]
-  2. Surf at (20, 30) and go to (23, 30). [IN PROGRESS]
-  3. Land at (23, 32) and walk to (2, 44).
-  4. Walk North along the west beach (X=2) to (2, 12).
-  5. Walk East to (14, 12) then North to (14, 10).
+  2. Walk West to (12, 30), then North to (12, 29). [IN PROGRESS]
+  3. Walk West along Row 29 to (2, 29).
+  4. Walk North along West Beach to (2, 14).
+  5. Walk East to (8, 14), then North to (8, 12).
+  6. Walk East along Row 12 to (14, 12), then North to (14, 10).
 - Status: At (19, 30) on land.
-- Reasoning: Bypasses the central city maze and the buoy labyrinth by using the southern city corridor (Row 44) to access the open west beach highway.
+- Reasoning: Row 29 and Row 12 are identified as the only continuous horizontal paths through the city's vertical blockades and cliff faces.
+
+# General Lessons
+- City Layouts: In Johto cities like Cianwood, horizontal paths (Rows) often bypass vertical blockades (Walls) even if they look like a maze. Always check the full length of a Row for gaps.
 
 # Area Notes: Cianwood City
 - Photo Studio: (9, 31) | Poke Seer: (5, 17)
