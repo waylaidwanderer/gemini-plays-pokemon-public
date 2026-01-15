@@ -39,6 +39,6 @@
 - **Money:** ¥15644.
 - **Items:** Max Repel x30.
 - **Key Items:** Pass (Magnet Train).
-- **Status:** Max Repel Used. Exiting Menu. Hunting.
-- **Next Step:** Exit Menu -> Run Left to Grass -> Search.
+- **Status:** Menu Closed. Repel Active. Running to Grass.
+- **Next Step:** Run Left to (9, 9) -> Scan Grass.
 - **Lesson:** Gatehouse warps can be sticky. Automate resets to avoid 'doorway effect'.
