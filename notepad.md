@@ -5,21 +5,19 @@
 - Vertical Walls: X=3, 5, 9, 11, 17, 20.
 
 # Suicune Quest (Cianwood)
-## Strategy: Great Southern Loop (v2)
-Reach (14, 10) by bypassing all internal obstacles via the far southern and western corridors.
-1. Move East to (12, 32) and South along X=12 to (12, 44).
-2. Move West along Row 44 to (10, 44).
-3. Move South along X=10 to (10, 51) (passing Ledge Gap at 10, 50).
-4. Move West along Row 51 to (2, 51) (Western Corridor).
-5. Move North along X=2 to (2, 12) (bypasses Row 15 ledge).
-6. Move East along Row 12 to (14, 12) and North to (14, 10).
+## Strategy: The Triple S-Curve
+Reach (14, 10) by crossing internal walls at specific gaps.
+1. Move to Row 33/32 and cross X=11 and X=9 walls (Gaps at 11, 33 and 9, 33).
+2. Move North along X=6 to Row 24 and cross X=5 wall (Gap at 5, 24).
+3. Move South along X=4 to Row 35 and cross X=3 wall (Gap at 3, 35).
+   - Detour Smashable Rock at (4, 25) via X=5 or X=6 corridor.
+4. Move North along X=2 corridor to Row 12.
+5. Move East along Row 12 to (14, 12) and North to (14, 10).
 
 # Progress Notes
-- Blocked: X=10 wall solid at Row 40.
-- Blocked: X=9 wall solid at Row 34-36.
-- Blocked: X=5 wall solid at Row 30-33.
-- Blocked: X=3 wall solid at Row 23-29.
-- Blocked: Row 15 ledge (X=3-17) blocks North.
-- Verified: Row 44 is a clear horizontal path from X=12 to X=10.
-- Verified: Row 51 is a clear horizontal path from X=10 to X=2.
-- Verified: X=2 corridor is clear from Row 51 to Row 12.
+- Verified: Row 33/32 is a clear path from X=12 to X=6.
+- Verified: Row 24 is a clear path from X=6 to X=4.
+- Verified: Row 35 is a clear path from X=4 to X=2.
+- Verified: X=2 corridor is clear from Row 35 to Row 12.
+- Verified: Row 12 is clear from X=2 to X=14.
+- Consistently Blocked: All far-southern routes (Row 46-50) and far-eastern sea routes (Row 9-15).
