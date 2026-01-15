@@ -1,29 +1,31 @@
-## Strategy: West Beach Highway via Row 52 Bypass
+## Strategy: Inner Channel Landing to Suicune
 **Start Turn:** 48900 (Quest: Trigger Suicune Overworld Sighting)
 
-The buoy maze is inefficient. I will use the 'West Beach Highway' (X=2) accessible via the southern bypass at Row 52.
+Cianwood's internal walls and buoy lines form a maze. The Northern Plateau is only accessible by landing at the Inner Channel Landing (13, 16).
 
 ### Step-by-Step Execution Plan
-1. Land on the East Shore at (23, 32). <- CURRENT TASK
-2. Apply Super Repel.
-3. Walk South to (23, 52).
-4. Walk West to (2, 52), bypassing the city walls (X=11, 9, 7, 5).
-5. Walk North along the West Beach Highway (X=2) to (2, 14).
-6. Walk East to (8, 14), then North to (8, 10).
-7. Walk East to (14, 10) to trigger Suicune sighting.
+1. Use Super Repel and Surf East into Route 41. <- CURRENT TASK
+2. Navigate buoy gaps: (23, 15) -> (23, 16) -> (21, 16) -> (21, 26) -> (17, 26).
+3. Surf North in the inner channel to (17, 16), then West to land at (13, 16).
+4. Walk to the plateau: (13, 16) -> (11, 16) -> (11, 14) -> (8, 14) -> (8, 10) -> (14, 10).
+5. Trigger Suicune sighting.
 
 ## Tile Mechanics: Cianwood City
 - FLOOR: Standard ground.
 - WALL: Impassable.
 - WATER: Surf required.
 - BUOY: Impassable water barrier.
-- FLOOR_UP_WALL: One-way barrier. Blocks DOWN movement. Allows UP and East-West movement.
+- FLOOR_UP_WALL: One-way ledge. Blocks DOWN movement. Allows UP and East-West movement. (Verified at (6, 46)).
 
-## Navigation: Landmarks
-- Row 52 Bypass: Clear terrestrial path from East Shore (X=23) to West Beach (X=2).
-- West Beach Highway (X=2): Clear North-South passage from Row 53 to Row 14.
-- Plateau Entrance (8, 14): Access point from Row 14 corridor.
+## Navigation: Buoy Gaps
+- X=26 Wall: Gap at Row 10-15.
+- X=22 Wall: Gap at Row 16-24.
+- X=19/18 Wall: Gap at Row 26.
+
+## Failed Hypotheses & Lessons
+- Great Sea Bypass: Route 40 is a dead end on the West.
+- Row 8/18/21 Gaps: Blocked by buoys or walls. Row 26 is the only confirmed way into the inner channel.
 
 ## Inventory Check
-- Super Repel: 5 remaining. Last expired Turn 49311. Re-apply after landing.
+- Super Repel: 5 remaining. Applied turn 49321.
 - Party: Calcifer (Lv 64) leads. Ready for Eusine.
