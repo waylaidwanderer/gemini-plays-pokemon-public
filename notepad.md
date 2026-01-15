@@ -14,14 +14,15 @@
 - **Location:** Route 38 (West of Ecruteak).
 - **Hunt Start:** Turn ~40000.
 - **Current Loop:** 17.
-- **Action:** Recover Manual (Sandbox Down?).
+- **Action:** Finish Phone Call & Check Map.
 - **Hunt Progress:** Phase 2 Loop 17/50.
-- **Error:** `press_sequence_with_delays` failed (sandbox error).
+- **Event:** Phone call from Gaven interrupted menu navigation.
+- **Beast Status:** **POSITIVE** (Route 38). Assumed present.
 - **Plan:**
-    1. Exit Pokedex using `press_buttons` (B x5).
-    2. Verify Overworld.
-    3. Manually navigate to Pokegear next turn.
-    4. Check Map.
+    1. Advance text (B spam).
+    2. Open Pokegear.
+    3. Check Map.
+    4. Resume Hunt.
 - **Location:** Trapped in grass strip (Col 8-9).
 - **Location:** Trapped in grass strip (Col 8-9).
 - **Plan:**
