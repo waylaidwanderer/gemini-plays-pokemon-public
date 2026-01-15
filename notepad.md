@@ -6,16 +6,17 @@
 
 # Strategy: Capture Suicune (Started Turn 48227)
 - Goal: Reach (14, 10) to trigger sighting.
-- Approach: The Great Northern Buoy Loop
+- Approach: The Great Northern Buoy Loop (Verified)
 - Plan:
   1. Use Super Repel. [DONE]
-  2. Navigate to (19, 30) and Surf. [IN PROGRESS]
-  3. Navigate to (23, 15) then (26, 15) to bypass X=22 wall.
-  4. Navigate North to Row 6, then West to (19, 6) through the X=22 gap.
-  5. Navigate South to (19, 11) then West to land at (16, 11).
-  6. Walk to (14, 10).
-- Status: At (18, 45) on land.
-- Reasoning: The city is a vertical maze on land. The buoy walls have specific gaps at Row 6 and Row 15/10 that allow access to the northern plateau pocket.
+  2. Navigate to (19, 30) and Surf. [DONE]
+  3. Navigate to (27, 29) to reach the eastern channel. [IN PROGRESS]
+  4. Navigate North to Row 6.
+  5. Navigate West through the X=22 gap at (22, 6) to (21, 6).
+  6. Navigate South to Row 11, then West to land at (16, 11).
+  7. Walk to (14, 10).
+- Status: At (19, 29) surfing.
+- Reasoning: The buoy walls have a confirmed gap at (22, 6). Accessing the eastern channel (X=27) is the only way to reach that gap.
 
 # General Lessons
 - City Layouts: In Johto cities like Cianwood, horizontal paths (Rows) often bypass vertical blockades (Walls) even if they look like a maze. Always check the full length of a Row for gaps.
