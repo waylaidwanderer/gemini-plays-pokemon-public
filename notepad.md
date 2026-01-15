@@ -5,23 +5,24 @@
 - Vertical Walls: X=3, 5, 9, 11, 17, 20.
 
 # Suicune Quest (Cianwood)
-## Strategy: The Great Cianwood Trek
-Reach (14, 10) by navigating a complex series of internal corridors.
-1. Move East to (14, 33) and North to (14, 26).
-2. Move West through gaps at (10, 26) and (5, 26) to (4, 26).
-3. Move South along X=4 to (4, 21) and West to (2, 21).
-4. Walk North along X=2 to Row 12 (bypasses Row 15 ledge).
-5. Walk East along Row 12 to (14, 12) and North to (14, 10).
-- Current Step: Navigating to (14, 26) via X=14 corridor.
+## Strategy: The S-Curve Maze Bypass
+Reach (14, 10) by navigating internal corridors to avoid all dead ends.
+1. Move West to (6, 33) via gaps at (9, 33) and (7, 33).
+2. Move North along X=6 to (6, 29).
+3. Move West through gap at (5, 29) to (4, 29).
+4. Move North along X=4 to (4, 22).
+5. Move West through gap at (3, 22) to (2, 22) (Western Corridor).
+6. Walk North along X=2 to (2, 12) (bypasses Row 15 ledge).
+7. Walk East along Row 12 to (14, 12) and North to (14, 10).
+- Current Step: Navigating to (2, 12) via the S-curve.
 
 # Progress Notes
-- Blocked: X=12 corridor blocked by WATER at (12, 27).
-- Blocked: X=9 corridor blocked by WALL at (9, 30).
-- Blocked: X=5 wall gaps at Row 24-29 and Row 34-36.
-- Blocked: X=3 wall gaps at Row 20-22 and Row 30-33.
-- Verified: X=14 corridor is clear from Row 33 to Row 25.
-- Verified: Row 26 is a clear horizontal path from X=14 to X=4.
-- Verified: X=4 corridor is clear from Row 26 to Row 21.
-- Verified: Row 21/20 is a clear horizontal path from X=4 to X=2.
-- Verified: X=2 corridor is clear from Row 20 to Row 12.
-- Verified: Row 12 is a clear horizontal path from X=2 to X=14.
+- Verified: Row 29 gap at (5, 29) crosses X=5 wall.
+- Verified: Row 22 gap at (3, 22) crosses X=3 wall.
+- Verified: X=2 corridor is clear from Row 22 to Row 12.
+- Blocked: Row 34 ledge (X=6-8) is a wall from the North (FLOOR_UP_WALL).
+- Blocked: X=14 corridor blocked by water at Row 27.
+- Blocked: X=9 corridor blocked by wall at Row 30.
+- Blocked: X=5 wall solid at Row 33.
+- Blocked: X=3 wall solid at Row 23-33.
+- Row 12: Clear horizontal path from X=2 to X=14.
