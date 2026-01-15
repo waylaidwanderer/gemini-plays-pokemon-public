@@ -30,3 +30,7 @@
 - Suicune: Clear Bell (Have). Found at Tin Tower base.
 - Lugia: Silver Wing (Pewter City). Found in Whirl Islands.
 - Ho-Oh: Rainbow Wing (Requires catching Suicune, Entei, and Raikou). Found at Tin Tower top.
+
+# General Lessons
+- Legendary Triggers: In Crystal, Suicune's encounter at Tin Tower is triggered by having the Clear Bell and speaking to all three Sages on the first floor.
+- False Constraints: Chasing Suicune on the beach after 16 badges was a false constraint. The game logic moves the encounter to the Tin Tower for the final battle.
