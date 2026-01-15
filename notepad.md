@@ -1,25 +1,31 @@
 # Strategy: Capture Suicune (Started Turn 48227)
 - Goal: Reach (14, 10) in Cianwood City to trigger sighting.
-- Approach: The West Beach Highway (via Row 51 Land Bridge)
+- Approach: The West Beach Land Route (Verified)
 - Plan:
-  1. Walk to (21, 51) via (19, 44) -> (19, 46) -> (18, 46) -> (18, 49) -> (21, 49). [IN PROGRESS]
-  2. Walk West along Row 51 to (2, 51) (Testing gap at X=3).
-  3. Walk North along West Beach (X=2) to Row 12.
-  4. Walk East along Row 12 to (14, 12), then North to (14, 10).
-- Reasoning: City center is blocked by Row 15 barriers. Row 51 is the only potential land bridge to the West Beach (X=0-2), which provides a clear vertical path to the northern plateau. Row 12 is the horizontal artery into the sighting spot.
+  1. Walk to (4, 51) via (18, 45) -> (18, 51). [IN PROGRESS]
+  2. Walk North along X=4 to (4, 37).
+  3. Walk West to (2, 37).
+  4. Walk North along West Beach (X=2) to (2, 14).
+  5. Walk East to (8, 14), then North to (8, 12).
+  6. Walk East along Row 12 to (14, 12), then North to (14, 10).
+- Status: At (19, 42). Repel active. Stunned NPCs 1, 2, 10.
+- Reasoning: City is partitioned by vertical walls (X=5, X=9, X=11, X=17). Row 51 is the only identified land bridge from the east side to the west side. X=4 is a clear vertical corridor from Row 51 to Row 37. Row 37 provides access to the West Beach (X=0-2), which is the only vertical highway past the northern barriers (Row 30 cliff, Row 15 wall/ledge).
 
 # Blocked Routes (Verified)
 - Row 15: Solid line of WALL and LEDGE_HOP_DOWN from X=3 to X=17.
-- City Walls: Vertical walls at X=5, X=7, X=9, X=11, X=17, X=20, X=22.
-- Row 46: Blocked at X=21-28 by FLOOR_UP_WALL (cliff face).
-- Row 50: Blocked at X=12-19 by FLOOR_UP_WALL.
+- City Walls: Vertical walls at X=5, X=9, X=11, X=17 block most horizontal movement.
+- Row 30 Cliff: Impassable FLOOR_UP_WALL from X=4 to X=11.
 
-# Gap Locations (Confirmed)
-- Row 46: Gap at X=18, 19.
-- Row 50: Gap at X=10, 20-24.
+# Tile Mechanics (Verified)
+- FLOOR: Standard ground. Traversable.
+- WALL: Impassable.
+- WATER: Surf required.
+- BUOY: Impassable water obstacle.
+- FLOOR_UP_WALL: Impassable cliff face.
+- LEDGE_HOP_DOWN: One-way jump (North to South).
 
 # Area Notes: Cianwood City
 - Photo Studio: (9, 31) | Poke Seer: (5, 17)
 - Pharmacy: (15, 47) | Gym: (8, 43) | PokeCenter: (23, 43)
-- West Beach: X=0, 1, 2.
-- Landing Spot (Inner): (13, 16) - blocked from West Beach by wall at (7, 16).
+- Southern Corridor: Row 51 (X=4-24 confirmed).
+- West Beach: X=0, 1, 2 (Rows 12-51).
