@@ -39,5 +39,5 @@
 - **Money:** ¥15644.
 - **Items:** Max Repel x30.
 - **Key Items:** Pass (Magnet Train).
-- **Status:** In Menu. Scrolling for Max Repel (Page 2).
-- **Next Step:** Select Max Repel -> Use -> Hunt.
+- **Status:** Max Repel Selected. Using Item.
+- **Next Step:** Select USE -> Exit Menu -> Run to Grass (Left).
