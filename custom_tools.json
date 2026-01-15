@@ -76,5 +76,31 @@
         "action_counter": 49463
       }
     ]
+  },
+  "find_path_v6_fixed_refined_v2_new": {
+    "description": "Finds a path using BFS on the current map XML, handling walls, objects, and one-way movement. Returns a JSON array of button strings. Refined to handle FLOOR_UP_WALL and LEDGE_HOP_DOWN.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "target_x": {
+          "type": "integer"
+        },
+        "target_y": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "target_x",
+        "target_y"
+      ]
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\nimport json\nimport sys\n\ndef find_path(map_xml, target_x, target_y):\n    root = ET.fromstring(map_xml)\n    width = int(root.attrib['width'])\n    height = int(root.attrib['height'])\n    \n    player_tile = root.find(\".//Tile[Player]\")\n    if player_tile is None:\n        return []\n    start_x = int(player_tile.attrib['id'])\n    start_y = int(player_tile.find(\"..\").attrib['id'])\n    \n    if start_x == target_x and start_y == target_y:\n        return []\n        \n    queue = deque([(start_x, start_y, [])])\n    visited = {(start_x, start_y)}\n    \n    while queue:\n        cx, cy, path = queue.popleft()\n        \n        for dx, dy, move in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n            nx, ny = cx + dx, cy + dy\n            \n            if not (0 <= nx < width and 0 <= ny < height):\n                continue\n            if (nx, ny) in visited:\n                continue\n                \n            tile = root.find(f\".//Row[@id='{ny}']/Tile[@id='{nx}']\")\n            if tile is None:\n                continue\n                \n            ttype = tile.attrib.get('type', 'unseen')\n            has_obj = tile.attrib.get('has-object') == 'true' or tile.find('Object') is not None\n            is_warp = tile.attrib.get('is-warp') == 'true'\n            \n            if ttype in ['WALL', 'BUOY', 'unseen'] or has_obj:\n                continue\n            \n            if move == 'Down' and ttype == 'FLOOR_UP_WALL':\n                continue\n            \n            if move == 'Up' and ttype == 'LEDGE_HOP_DOWN':\n                continue\n                \n            if is_warp and (nx != target_x or ny != target_y):\n                continue\n                \n            new_path = path + [move]\n            if nx == target_x and ny == target_y:\n                return new_path\n                \n            visited.add((nx, ny))\n            queue.append((nx, ny, new_path))\n            \n    return []\n\ntry:\n    input_data = json.loads(sys.stdin.read())\nexcept:\n    input_data = {}\n\ntarget_x = int(input_data.get('target_x', 0))\ntarget_y = int(input_data.get('target_y', 0))\n\nresult = find_path(map_xml_string, target_x, target_y)\nprint(json.dumps(result))",
+    "history": [
+      {
+        "commit_message": "Fixed tool to handle one-way tiles and input reading.",
+        "timestamp": "2026-01-15T21:16:42.362Z",
+        "action_counter": 49614
+      }
+    ]
   }
 }
