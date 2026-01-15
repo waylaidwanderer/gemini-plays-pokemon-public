@@ -12,12 +12,9 @@
 
 ## Plan: Reach North Plateau (Started Turn 48972)
 - Goal: Reach Suicune at (14, 10).
-- Step 1: Reach Row 51 via detour: (19, 46) -> (18, 46) -> (18, 51). <- CURRENT TASK
-- Step 2: Walk West across Row 51 to (10, 51).
-- Step 3: Walk North through gap at (10, 50) to (10, 49).
-- Step 4: Walk West on Row 49 to (2, 49) (West Beach).
-- Step 5: Walk North along West Beach (X=2) to (2, 10).
-- Step 6: Walk East to (14, 10) to trigger Suicune sighting.
+- Step 1: Reach (2, 49) (West Beach) via detour: (19, 46) -> (18, 46) -> (18, 51) -> (4, 51) -> (4, 49) -> (2, 49). <- CURRENT TASK
+- Step 2: Walk North along West Beach (X=2) to (2, 10).
+- Step 3: Walk East along Row 10 to (14, 10) to trigger Suicune sighting.
 
 # Area Notes
 - Photo Studio: (9, 31) (DOOR)
@@ -38,4 +35,3 @@
 - LEDGE_HOP_DOWN: One-way jump (North to South).
 - FLOOR_UP_WALL: Cliff face (Impassable).
 - Suicune Trigger: North Beach (14, 10).
-- Tool Failure: find_path_v6_fixed failing with sandbox errors. Manual navigation required.
