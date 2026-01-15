@@ -1,13 +1,15 @@
 ## Suicune Quest (Started Turn 49107)
 - Goal: Trigger Suicune sighting at (14, 10).
-- Strategy: Use the "Outer Sea Route" to bypass the plateau walls.
+- Strategy: Use the West Beach Highway (X=2) via the Row 44 gap.
 
 ## Plan: Reach Suicune at (14, 10)
-- Step 1: Surf South from (12, 19) to (12, 21). <- CURRENT TASK
-- Step 2: Surf East to (19, 21) (Buoy Gap).
-- Step 3: Surf East to (23, 21) and North to (23, 15) (Buoy Gap).
-- Step 4: Surf North to (23, 11) and West to (16, 11).
-- Step 5: Land at (16, 11) and walk to (14, 10) to trigger Suicune.
+- Step 1: Land at (12, 19). <- CURRENT TASK
+- Step 2: Walk South to (12, 44).
+- Step 3: Walk West to (6, 44) (Row 44 Gap).
+- Step 4: Walk North to (6, 35) and West to (2, 35) (West Beach).
+- Step 5: Walk North along West Beach (X=2) to Row 12.
+- Step 6: Walk East along Row 12 to (14, 12).
+- Step 7: Walk North to (14, 10) to trigger Suicune.
 
 ## Verified Tile Mechanics
 - FLOOR: Traversable.
@@ -18,11 +20,11 @@
 - BUOY: Impassable hard wall.
 
 ## Navigation Insights
-- Inner Channel (X=12-17): Enclosed by walls and buoys.
-- Buoy Wall Gaps: (19, 21) and (23, 15) allow passage to Outer Sea.
-- Outer Sea Route: Provides access to the northern plateau from the east.
+- Row 44 Gap: Only way to pass the central X=9 wall from the east.
+- West Beach (X=0-2): Clear vertical highway from Row 53 to Row 10.
+- Row 34 Cliff: Blocks X=6-8 vertical path.
 - Gym Blockade: Building at (10, 40) blocks central land access.
-- Ledge (10, 15): One-way jump DOWN. Avoid if trying to stay north.
+- Ledge (10, 15): One-way jump DOWN.
 
 ## Battle Strategy: Eusine
 - Lead: Calcifer (Lv 64 Typhlosion).
@@ -30,5 +32,5 @@
 - Strategy: OHKO everything.
 
 ## Technical Status
-- Super Repel: Active (~100 steps used).
+- Super Repel: Active (~90 steps used).
 - Start Turn: 49107.
