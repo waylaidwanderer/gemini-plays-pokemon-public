@@ -12,7 +12,7 @@
 
 ## Plan: Reach North Plateau (Started Turn 48972)
 - Goal: Reach Suicune at (14, 10).
-- Step 1: Reach Row 51 via detour: (21, 36) -> (22, 36) -> (22, 38) -> (21, 38) -> (21, 45) -> (19, 45) -> (19, 49) -> (20, 49) -> (20, 51). <- CURRENT TASK
+- Step 1: Reach Row 51 via detour: (19, 46) -> (18, 46) -> (18, 51). <- CURRENT TASK
 - Step 2: Walk West across Row 51 to (10, 51).
 - Step 3: Walk North through gap at (10, 50) to (10, 49).
 - Step 4: Walk West on Row 49 to (2, 49) (West Beach).
