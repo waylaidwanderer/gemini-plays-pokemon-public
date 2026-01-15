@@ -29,4 +29,4 @@
 - **Items:** Max Repel x30.
 - **Key Items:** Pass (Magnet Train).
 - **Interruption:** Turn 39741 - Phone call from Gaven. Resolved.
-- **Current Turn:** 39781. Loop count: ~36. Beasts on Rt 38 & 42.
+- **Current Turn:** 39782. Loop count: ~37. Checking map in Ecruteak.
