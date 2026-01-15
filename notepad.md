@@ -10,8 +10,8 @@
 - WATER: Requires SURF.
 
 ## Execution Plan (Terrestrial Bypass)
-1. Interact with Town Map at (3, 0) in Mania's House. <- CURRENT TASK
-2. Exit to Cianwood City.
+1. Interact with Town Map at (3, 0) in Mania's House. (Done)
+2. Exit to Cianwood City via (3, 7). <- CURRENT TASK
 3. Walk to gap at (9, 33) and move West to (8, 33).
 4. Walk to gap at (5, 35) and move West to (4, 35).
 5. Walk to gap at (3, 35) and move West to (2, 35).
