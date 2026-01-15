@@ -5,24 +5,18 @@
 - Vertical Walls: X=3, 5, 9, 11, 17, 20.
 
 # Suicune Quest (Cianwood)
-## Strategy: The S-Curve Maze Bypass
-Reach (14, 10) by navigating internal corridors to avoid all dead ends.
-1. Move West to (6, 33) via gaps at (9, 33) and (7, 33).
-2. Move North along X=6 to (6, 29).
-3. Move West through gap at (5, 29) to (4, 29).
-4. Move North along X=4 to (4, 22).
-5. Move West through gap at (3, 22) to (2, 22) (Western Corridor).
-6. Walk North along X=2 to (2, 12) (bypasses Row 15 ledge).
-7. Walk East along Row 12 to (14, 12) and North to (14, 10).
-- Current Step: Navigating to (2, 12) via the S-curve.
+## Strategy: The Sea Route (East Bypass)
+Reach (14, 10) by surfing around the internal maze via the eastern sea.
+1. Move East to (23, 33).
+2. Surf from (23, 33) into (24, 33).
+3. Surf North to Row 11, passing through buoy gap at (23, 15).
+4. Surf West along Row 11 to land at (16, 11) or (15, 11).
+5. Walk to Suicune at (14, 10).
+- Current Step: Moving to (23, 33).
 
 # Progress Notes
-- Verified: Row 29 gap at (5, 29) crosses X=5 wall.
-- Verified: Row 22 gap at (3, 22) crosses X=3 wall.
-- Verified: X=2 corridor is clear from Row 22 to Row 12.
-- Blocked: Row 34 ledge (X=6-8) is a wall from the North (FLOOR_UP_WALL).
-- Blocked: X=14 corridor blocked by water at Row 27.
-- Blocked: X=9 corridor blocked by wall at Row 30.
-- Blocked: X=5 wall solid at Row 33.
-- Blocked: X=3 wall solid at Row 23-33.
-- Row 12: Clear horizontal path from X=2 to X=14.
+- Blocked: All land routes (X=12, X=6, X=4) are blocked by internal walls or FLOOR_UP_WALL ledges.
+- Verified: (23, 15) is a clear gap in the Row 15 buoy wall.
+- Verified: Row 11 is a clear horizontal path from the sea (X=24) to the plateau (X=16).
+- Verified: (16, 11) is a landing point on the northern plateau.
+- Verified: (16, 10) is a FLOOR_UP_WALL ledge that allows passage NORTH to Suicune.
