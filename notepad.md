@@ -1,29 +1,31 @@
-## Plan: Reach Suicune at (14, 10)
-- Step 1: Reach (12, 28) and Surf North. <- CURRENT TASK
-- Step 2: Land at (12, 19).
-- Step 3: Walk zigzag through town gaps to (14, 10):
-  - (12, 19) -> (12, 16) -> (11, 16) -> (11, 15) gap -> (11, 14).
-  - (11, 14) -> (13, 14) -> (13, 13) gap -> (13, 12).
-  - (13, 12) -> (14, 12) -> (14, 10).
-- Step 4: Trigger Suicune sighting.
+## Plan: Reach Suicune at (14, 10) (Confirmed Highway Route)
+- Step 1: Reach (12, 44) to bypass town center. <- CURRENT TASK
+- Step 2: Reach (10, 51) via (10, 44) and (10, 50) gap.
+- Step 3: Reach (4, 51) via Row 51 Highway.
+- Step 4: Reach (4, 35) then (2, 35) (West Beach).
+- Step 5: Walk North along West Beach (X=2) to Row 10.
+- Step 6: Walk East along Row 10 to (14, 10) to trigger Suicune.
 
 ## Tile Mechanics (Verified)
 - FLOOR: Traversable.
 - WALL: Impassable.
 - WATER: Requires Surf.
-- LEDGE_HOP_DOWN: One-way jump (North to South).
 - FLOOR_UP_WALL: Impassable cliff face.
+- LEDGE_HOP_DOWN: One-way jump (North to South).
 - BUOY: Impassable hard wall.
 
 ## Navigation Notes
-- Row 15 Gap: (11, 15) is the only northward passage at Row 15 in this sector.
-- Row 13 Gap: (13, 13) is the only northward passage at Row 13 in this sector.
-- Ledge (10, 15): Blocks direct northward progress from town center.
-- (12, 13) and (11, 13) are WALL tiles.
+- Row 51 Highway: Clear horizontal path from X=4 to X=24.
+- X=4 Highway: Clear vertical path from Row 35 to Row 51.
+- X=2 Highway: Clear vertical path from Row 35 to Row 10.
+- Row 10 Highway: Clear horizontal path from X=2 to X=14.
+- Gym Blockade: Building at (10, 40) blocks X=10 vertical. Use X=12 to go south.
+- Row 50 Cliff: Only gaps are at X=10, 11, 20-24.
 
 ## Battle Strategy: Eusine
-- Lead with Calcifer (Lv 64 Typhlosion). Use Flamethrower.
+- Lead with Calcifer (Lv 64 Typhlosion). Sweep with Flamethrower.
 
 ## Technical Status
 - Python Sandbox: Container not running. Tools offline.
-- Super Repel: Active (Used Turn 49091).
+- Super Repel: Active (Applied Turn 49091).
+- Turn Count: Current Turn 49104.
