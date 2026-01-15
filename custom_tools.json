@@ -156,28 +156,5 @@
         "action_counter": 39974
       }
     ]
-  },
-  "cycle_roamer_hunt": {
-    "description": "Automates the loop of entering/exiting the Route 38 Gatehouse and opening the Pokegear Map to check for Roaming Beasts. Handles map transitions. Assumes player is at Route 38 (34,9) or inside Gatehouse.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "current_map_id": {
-          "type": "string",
-          "description": "The current map ID (e.g., '1_12' for Route 38, '1_9' for Gatehouse)."
-        }
-      },
-      "required": [
-        "current_map_id"
-      ]
-    },
-    "python_script": "import json\n\nbuttons = []\nTRANSITION_DELAY = 2200  # ms to wait for map transition\nMENU_DELAY = 600       # ms to wait for menu operations\n\ncurrent_map_id = input_data.get('current_map_id')\n\nif current_map_id == '1_12':  # Route 38\n    # Enter Gatehouse (Right), Wait, Exit (Left), Wait\n    # Assumes starting at (34,9) facing Right\n    buttons.extend([\"Right\", f\"sleep {TRANSITION_DELAY}\"])\n    buttons.extend([\"Left\", f\"sleep {TRANSITION_DELAY}\"])\nelif current_map_id == '1_9':   # Gatehouse\n    # Exit Gatehouse (Left), Wait\n    buttons.extend([\"Left\", f\"sleep {TRANSITION_DELAY}\"])\n\n# Open Map Sequence\n# Start -> A (Pokegear) -> Right (Map) -> A (Select)\nbuttons.extend([\"Start\", f\"sleep {MENU_DELAY}\"])\nbuttons.extend([\"A\", f\"sleep {MENU_DELAY}\"])\nbuttons.extend([\"Right\", f\"sleep {MENU_DELAY}\"])\nbuttons.extend([\"A\", f\"sleep {MENU_DELAY}\"])\n\nprint(json.dumps(buttons))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-01-15T06:18:09.261Z",
-        "action_counter": 40171
-      }
-    ]
   }
 }

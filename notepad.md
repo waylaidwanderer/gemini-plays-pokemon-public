@@ -55,3 +55,4 @@
     - **(0,4):** Exit to (35,8).
     - **(0,5):** Exit to (35,9).
   - **Recommendation:** Always use (35,9) [Bottom Tile] for entry from Route 38. Use (0,5) [Bottom Tile] for exit from Gatehouse to maintain alignment.
+- **Tool Dev Lesson:** Tools CANNOT execute sequences that span across map transitions. The harness interrupts execution when the map ID changes. Automating "Enter -> Exit" is impossible in one tool call. Must split into step-by-step or use single-map tools.
