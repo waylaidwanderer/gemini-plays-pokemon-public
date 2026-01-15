@@ -1,33 +1,31 @@
-## Strategy: Inner Channel Landing to Suicune
+## Strategy: Terrestrial Route to Suicune
 **Start Turn:** 48900 (Quest: Trigger Suicune Overworld Sighting)
 
-Cianwood's internal walls and buoy lines form a maze. The Northern Plateau is only accessible by landing at the Inner Channel Landing (13, 16).
+Cianwood's internal walls are bypassed by specific gaps on land. The West Beach Highway (X=2) provides a clear path to the northern plateau.
 
 ### Step-by-Step Execution Plan
-1. Clear Surf message and apply Super Repel. - DONE
-2. Surf North to (24, 16), then West to (21, 16) (X=22 Wall Gap).
-3. Surf South to (21, 26), then West to (17, 26) (X=18 Wall Gap).
-4. Surf North to (17, 16), then West to land at (13, 16).
-5. Walk to the plateau: (13, 16) -> (11, 16) -> (11, 14) -> (8, 14) -> (8, 10) -> (14, 10).
-6. Trigger Suicune sighting.
+1. Move Left to (23, 32) and land on the East Shore. <- CURRENT TASK
+2. Walk West to the X=12 corridor at (12, 32).
+3. Walk South to (12, 44).
+4. Walk West to (6, 44), bypassing the X=11, X=9, and X=7 walls via the Row 44 gaps.
+5. Walk North to (6, 35).
+6. Walk West to (2, 35), bypassing the X=5 wall via the Row 35 gap.
+7. Walk North along the West Beach Highway (X=2) to (2, 12).
+8. Walk East along Row 12 to (14, 12), bypassing all remaining walls.
+9. Walk North to (14, 10) to trigger Suicune sighting.
 
 ## Tile Mechanics: Cianwood City
 - FLOOR: Standard ground.
-- WALL: Impassable.
+- WALL: Impassable barrier.
 - WATER: Surf required.
 - BUOY: Impassable water barrier.
 - FLOOR_UP_WALL: One-way ledge. Blocks DOWN movement. Allows UP and East-West movement. (Verified at (6, 46)).
 
-## Navigation: Buoy Gaps
-- X=26 Wall: Gap at Row 10-15.
-- X=22 Wall: Gap at Row 16-24.
-- X=19/18 Wall: Gap at Row 26.
-
-## Failed Hypotheses & Lessons
-- Great Sea Bypass: Route 40 is a dead end on the West.
-- Row 8/18/21 Gaps: Blocked by buoys or walls. Row 26 is the only confirmed way into the inner channel.
-- Terrestrial Row 52: Blocked by WATER at (23, 32). Cannot walk south along the eastern shore.
+## Navigation: Internal Gaps
+- Row 44 Gap: Access through X=11, X=9, and X=7 walls.
+- Row 35 Gap: Access through X=5 wall.
+- Row 12 Corridor: Clear East-West path from X=2 to X=15.
 
 ## Inventory Check
-- Super Repel: 4 remaining. Applied turn 49327.
+- Super Repel: 4 remaining. Applied turn 49327. (200 steps remaining).
 - Party: Calcifer (Lv 64) leads. Ready for Eusine.
