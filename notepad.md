@@ -7,14 +7,12 @@
 - Start Turn: 49771
 - Start Time: 3:29 PM
 
-## Strategy: Western Corridor Land Route (The North-West Bypass)
-The northern plateau (Row 10-15) is accessible via the Western Corridor (X=0-2).
-1. Navigate to (12, 33) via the X=12 vertical corridor.
-2. Navigate to (6, 33), then North to (6, 26).
-3. Navigate West through the (5, 26) gap to enter the Western Corridor.
-4. Navigate North through the corridor (X=0-2) to Row 14.
-5. Navigate East to (8, 14), then North to Row 12 (to bypass X=9 wall).
-6. Navigate East along Row 12 to (14, 12), then North to (14, 10) to trigger Suicune.
+## Strategy: The Row 22 Bypass
+1. Navigate North along X=12 to (12, 22). (In Progress)
+2. Navigate West through the gap at (3, 22) to the Western Corridor (X=0-2).
+3. Navigate North through the corridor to (2, 12).
+4. Navigate East along Row 12 to (14, 12).
+5. Navigate North to (14, 10) to trigger Suicune.
 
 ## Hypotheses
 - H1: The Western Corridor (X=0-2) is a continuous path from Row 26 to Row 14. (Partially verified by Mental Map).
