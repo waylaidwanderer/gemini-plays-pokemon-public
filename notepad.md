@@ -1,16 +1,17 @@
 # Suicune Quest (Cianwood)
 - **Start Turn:** 48900
 - **Timestamp:** Turn 49381 (Resumed)
-- **Status:** Back in city at (12, 49). Executing Western Corridor path.
+- **Status:** At (12, 28). Initiating southern bypass route via Surf.
 
-## Execution Plan (Direct Path)
-1. Walk to (12, 28) and Surf North. <- CURRENT TASK
-2. Land at (12, 19).
-3. Walk North to (14, 10) via Row 12 corridor.
-4. Trigger Suicune sighting.
+## Execution Plan (Southern Bypass)
+1. Use Surf at (12, 28). <- CURRENT TASK
+2. Surf East to (27, 28), then South to (27, 51).
+3. Land at (26, 51).
+4. Walk West to (2, 51), then North to (2, 12).
+5. Walk East to (14, 12), then North to (14, 10) to trigger Suicune.
 
-## Strategy: Western Corridor Path
-The northern plateau is only accessible from the far west (X=2). The city is a maze of walls and ledges. I am using a custom pathfinding tool to identify the most efficient route through the barriers.
+## Strategy: Southern Bypass
+The city is divided by multiple ledge lines (Row 34, 46, 48, 50) and wall lines. Terrestrial paths are blocked. The only way to reach the western corridor (X=2) is to Surf all the way to the southern edge of the map (Row 51) where the barriers end. Then, a clear walk leads to the northern plateau.
 
 ## Failed Hypotheses & Lessons
 - Attempted Down move at (12, 49): Blocked by FLOOR_UP_WALL at (12, 50).
