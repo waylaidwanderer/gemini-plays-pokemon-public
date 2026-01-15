@@ -13,4 +13,4 @@
 - **Current Task:** Gatehouse Shuffle (Looping Rt 38 <-> Gatehouse).
 - **Location:** Route 38 (East Side).
 - **Pokedex Mode:** Old (National Dex). Target: #243 Raikou, #244 Entei.
-- **Action:** Scrolling down to check entries (Testing 'Right' for Page Down).
+- **Action:** fast-scrolling to #240s using 'Right' (Page Down) x10.
