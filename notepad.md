@@ -6,14 +6,20 @@
 
 # Suicune Quest (Cianwood)
 - Started: Turn 49630
-## Strategy: Verified Sea Route (Refined)
-Reach (14, 10) by surfing through specific buoy and wall gaps.
-1. Move Right to (27, 15).
-2. Move North to (27, 10).
-3. Move West to (23, 10) (Bypasses X=26 wall).
-4. Move North to (23, 8) and West to (19, 8) (Bypasses X=22 wall).
-5. Move South to (19, 11) and West to land at (16, 11).
-6. Walk to (14, 10) to trigger Suicune.
+## Strategy: The Internal Highway (Final)
+Reach (14, 10) by landing at (23, 33) and taking the inland gaps.
+1. Move South to (27, 33) and West to (23, 33).
+2. Land at (23, 33) and move West along Row 33 to (12, 33).
+3. Move North along X=12 to (12, 28) and West to (11, 28).
+4. Move North along X=11 to (11, 15).
+5. Move North through gap at (11, 15) to (11, 14).
+6. Move East along Row 14 to (14, 14) and North to (14, 10).
+
+# Verification Notes
+- (11, 15) is a verified FLOOR gap in the Row 15 ledge.
+- X=12 and X=11 provide a clear path from Row 33 to Row 15 (bypassing Row 30-32 walls).
+- Row 33 is a clear horizontal highway across the city.
+- SUPER REPEL is active (Turn 49722).
 
 # Navigation Logic
 - Buoy Walls: Horizontal (Row 15, Row 9) and Vertical (X=18, X=22, X=26).
