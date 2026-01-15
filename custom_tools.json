@@ -156,25 +156,5 @@
         "action_counter": 39974
       }
     ]
-  },
-  "reset_map_loop": {
-    "description": "Executes the movement sequence to enter the Ecruteak Gatehouse from Route 38 and immediately return, resetting the map for Roamer hunting. Includes robust delays for warps.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "autopress_buttons": {
-          "type": "boolean",
-          "default": false
-        }
-      }
-    },
-    "python_script": "import json\nprint(json.dumps([\"Right\", \"Right\", \"sleep 4000\", \"Left\", \"sleep 4000\", \"Left\"]))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-01-15T04:50:08.414Z",
-        "action_counter": 40066
-      }
-    ]
   }
 }
