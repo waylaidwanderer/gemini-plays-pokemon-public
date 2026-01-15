@@ -54,5 +54,27 @@
         "action_counter": 49415
       }
     ]
+  },
+  "menu_navigator_refined_v2": {
+    "description": "Presses a sequence of buttons to navigate menus or interact with objects. Bypasses directional/action button restrictions. Returns a JSON array of button strings. Refined for efficiency.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "buttons": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "python_script": "import json\nprint(json.dumps(input_data.get('buttons', [])))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-15T18:51:18.021Z",
+        "action_counter": 49463
+      }
+    ]
   }
 }

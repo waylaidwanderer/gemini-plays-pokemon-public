@@ -3,26 +3,27 @@
 
 ## Manias House (22_4)
 - **Status:** Inside. Investigating Mania.
-- **Goal:** Talk to Mania at (2, 4).
+- **Goal:** Talk to Mania at (2, 4). (Done - Refused Shuckle return).
 
-## Tile Mechanics (Global)
+## Tile Mechanics (Cianwood)
 - FLOOR: Standard ground.
 - WALL: Impassable.
-- WARP_CARPET_DOWN: Exit warp.
-- BOOKSHELF: Background object.
-- TV/RADIO: Background objects.
+- WATER: Requires Surf HM.
+- BUOY: Impassable water barrier.
+- FLOOR_UP_WALL: One-way ledge. Blocks DOWN (South) movement. Allows UP, LEFT, and RIGHT movement.
+- LEDGE_HOP_DOWN: One-way ledge. Blocks NORTH movement. Allows DOWN (South) jump.
 
-## Execution Plan (Terrestrial Zig-Zag - REVISED)
-1. Talk to Mania in house at (17, 41). <- CURRENT TASK
+## Execution Plan (Terrestrial Maze)
+1. Explore Row 0 of Mania's House. <- CURRENT TASK
 2. Return to Cianwood City.
-3. Walk to (19, 33) -> (19, 46) -> (18, 46) -> (18, 50) -> (11, 50) -> (11, 51) -> (2, 51).
-4. Walk North through western corridor (X=2) to Row 14.
-5. Walk East to (14, 12), then North to (14, 10).
-6. Trigger Suicune sighting.
+3. Investigate gaps at (9, 33) and (5, 35).
+4. Reach the northern plateau at (14, 10).
+5. Trigger Suicune sighting.
 
 ## Failed Hypotheses
+- Island Hop (13, 16) via (11, 15): Dead end alcove at (11, 14).
 - Southern Surf Bypass: Eastern channel ends at Row 45.
-- Island Hop (13, 16): Dead end alcove at (11, 14).
+- Inner Channel (X=12): Blocked at Row 15 by buoy wall.
 
 ## Progress Summary
 - All 16 Badges obtained.
