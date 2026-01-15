@@ -19,14 +19,15 @@
 - FLOOR_UP_WALL: Impassable ledge face. Blocks South movement.
 - LEDGE_HOP_DOWN: One-way jump (North to South).
 
-# Strategy: Reach Suicune (The Northern Sea Approach)
-- Start Turn: 48227 (Pursuit began), 48543 (Current strategy)
-- Step 1: Walk to (19, 30) and Surf at (20, 30).
-- Step 2: Surf East to (27, 30), then North to (27, 10).
-- Step 3: West through Gap 1 at (26, 10) to (23, 10).
-- Step 4: North to (23, 8), then West through Gap at (22, 8) to (14, 8).
-- Step 5: South to (14, 10) and land on the northern plateau.
-- Note: This path uses the high-latitude gaps to bypass all buoy barriers and land directly at the sighting spot. Ready for Eusine battle after Suicune flees.
+# Strategy: Reach Suicune (The Buoy Maze Master Path)
+- Start Turn: 48227 (Pursuit began), 48557 (Current strategy)
+- Step 1: From (27, 10), go Left through Gap 1 (26, 10) to (23, 10).
+- Step 2: South to (23, 16), then Left through Gap 2 (22, 16) to (20, 16).
+- Step 3: South to (20, 26), then Left through Gap 3 (18, 26) to (17, 26).
+- Step 4: North to (17, 20), then Left through Gap 5 (16, 20) to (15, 20).
+- Step 5: North to (15, 16), then West to (14, 16).
+- Step 6: Land at (13, 16) and walk to Suicune spot at (14, 10).
+- Note: This precise sequence of gaps is required to navigate the buoy walls. Ready for Eusine battle.
 
 # Area Notes: Cianwood City
 - Photo Studio: (9, 31)
