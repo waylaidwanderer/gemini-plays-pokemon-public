@@ -4,10 +4,9 @@
 The city is a maze of 'FLOOR_UP_WALL' barriers. I will Surf around the entire island via Route 41 to reach the West Beach.
 
 ### Step-by-Step Execution Plan
-1. Surf East to re-enter Route 41 at (29, 32). <- CURRENT TASK
-2. Surf around the island's southern or northern tip to reach the West Shore.
-3. Re-enter Cianwood City from the West and land on the beach at (2, 35).
-4. Walk North to (14, 10) to trigger Suicune.
+1. Surf around the island's southern tip via Row 53 to reach the West Shore. <- CURRENT TASK
+2. Re-enter Cianwood City from the West and land on the beach at (2, 35).
+3. Walk North to (14, 10) to trigger Suicune.
 
 ## Tile Mechanics: Cianwood City
 - FLOOR: Standard traversable ground.
