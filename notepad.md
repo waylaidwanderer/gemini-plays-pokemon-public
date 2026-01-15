@@ -11,15 +11,15 @@
 
 # Strategy: Capture Suicune (Started Turn 48227)
 - Goal: Reach (14, 10) to trigger sighting.
-- Approach: The Sequential Gap Path (Optimized)
+- Approach: The West Beach Land Route (Verified)
 - Plan:
-  1. Surf North to (27, 10). [IN PROGRESS]
-  2. West to (23, 10), then South to (23, 14).
-  3. West through Gap 4 (19, 14) to (18, 14).
-  4. North to (18, 11), then West to (16, 11) and land.
-  5. Walk to (14, 10).
-- Status: At (27, 13) surfing, in battle.
-- Reasoning: X=27 is a clear channel. Row 10 is a clear channel from X=27 to X=23. Column 23 is a clear channel from Row 10 to Row 14. Gap 4 is the only entry to the inner northern channel pocket.
+  1. Surf to (20, 32) and land at (19, 32). [IN PROGRESS]
+  2. Walk to (5, 35) via Row 33/35 to bypass city walls.
+  3. Walk to (2, 30) via the gap at (3, 31).
+  4. Walk North along the X=2 corridor to Row 10.
+  5. Walk East to (14, 10).
+- Status: At (27, 13) surfing, heading to the landing spot.
+- Reasoning: Direct northern access is blocked by cliff walls. The city layout contains a series of gaps (X=17, X=8, X=5, X=3) that allow a zig-zag path to the clear West Beach corridor (X=2). This corridor is clear of ledges all the way to Suicune's plateau.
 
 # Area Notes: Cianwood City
 - Photo Studio: (9, 31) | Poke Seer: (5, 17)
