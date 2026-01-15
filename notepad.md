@@ -1,22 +1,23 @@
 # Suicune Quest (Cianwood)
 - **Quest Start:** Turn 48900
-- **Timestamp:** Turn 49419 (Resumed)
-- **Status:** Surfing North towards (14, 16). Preparing to land at (13, 16).
+- **Status:** Executing Southern Bypass (Surf via X=27 channel). Repel active (~185 steps).
 
-## Execution Plan (Island Hop)
-1. Walk to (12, 28) and use Surf. <- CURRENT TASK
-2. Surf North to (14, 16) and land at (13, 16).
-3. Walk West to (11, 16) and North through (11, 15).
-4. Walk to (14, 10) to trigger Suicune.
+## Execution Plan (Southern Bypass)
+1. Surf to (12, 21), then East to (27, 21). <- CURRENT TASK
+2. Surf South to (27, 51).
+3. Land at (24, 51).
+4. Walk West to (2, 51), then North to (2, 14).
+5. Walk East to (8, 14), then North to (8, 10).
+6. Walk East to (14, 10) to trigger Suicune.
 
-## Strategy: Island Hop
-The northern plateau is separated from the city by a line of walls and ledges at Row 15. A single FLOOR gap exists at (11, 15). This path is significantly more efficient than the Southern Bypass or Western Corridor terrestrial routes.
+## Strategy: Southern Bypass
+The city center is blocked by one-way ledges (Row 34, 46, 48, 50) and walls. To reach the western corridor (X=2), I must Surf around the south end of the map (Row 51). This avoids all city barriers.
 
 ## Failed Hypotheses & Lessons
-- Terrestrial Path (South): Blocked by multiple ledge lines (Row 34, 46, 48, 50).
-- Terrestrial Path (West): Blocked by wall lines at X=11, 9, 5, 3.
+- Island Hop (13, 16): Dead end due to walls at Row 13/15.
 - Inner Channel (X=12): Blocked at Row 15 by buoy wall.
-- Previous "Dead End" Assessment: Re-evaluating (11, 15) gap; type is FLOOR, indicating traversability.
+- Terrestrial Path (South): Blocked by multiple ledge lines.
+- Terrestrial Path (West): Blocked by wall lines at X=11, 9, 5, 3.
 
 ## Progress Summary
 - All 16 Badges obtained.
