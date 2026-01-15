@@ -2,10 +2,9 @@
 The city walls (X=5 and X=7) have gaps that align at Row 48.
 
 ### Step-by-Step Execution Plan
-1. Return to Route 41 via the warp at (12, 35). <- CURRENT TASK
-2. Return to Cianwood City at (29, 44).
-3. Walk to the X=12 corridor and move Down to Row 48.
-4. Walk West through the gaps at (7, 48) and (5, 48) to reach the West Beach.
+1. Return to Cianwood City at (29, 44). <- CURRENT TASK
+2. Walk to the X=12 corridor and move Down to Row 48.
+3. Walk West through the gaps at (7, 48) and (5, 48) to reach the West Beach.
 5. Walk North along the beach to the plateau at (14, 10).
 6. Trigger Suicune sighting.
 
