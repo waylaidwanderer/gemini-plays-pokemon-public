@@ -14,8 +14,8 @@
 - **Location:** Route 38 (West of Ecruteak).
 - **Hunt Start:** Turn ~40000.
 - **Current Loop:** 7 (Finished).
-- **Action:** Open Menu -> Apply Max Repel.
-- **Hunt Progress:** Repel Expired. En route to Gatehouse.
+- **Action:** Go to Gatehouse (Shuffle).
+- **Hunt Progress:** Repel Active. Shuffling Roamers (Phase 2, Loop 7+).
 - **Beast Status:** **NEGATIVE** (Route 38).
 - **CRITICAL FIX:** Repel EXPIRED. Must re-apply after battle.
 
