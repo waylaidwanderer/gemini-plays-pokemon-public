@@ -10,20 +10,21 @@
 - NPC: Impassable. Interact from adjacent tile.
 
 # Blocked Routes (Verified)
-- Central City: Split by a vertical wall at X=9 (Rows 34-37) and a cliff at Row 30.
-- West Beach Access: Clear path found via (12, 32), (9, 33), and (4, 34).
+- Central City Maze: Blocked at X=9 (Rows 34-37) and X=5 (Rows 30-33).
+- Row 30 Cliff: Impassable from X=4 to X=11.
+- Buoy Maze: Impassable walls at X=26, X=22, and X=19.
 
 # Strategy: Capture Suicune (Started Turn 48227)
 - Goal: Reach (14, 10) to trigger sighting.
-- Approach: The West Beach Ascent
+- Approach: The Great Western Highway
 - Plan:
-  1. Use Super Repel in PACK. [DONE]
-  2. Navigate to (19, 30). [DONE]
-  3. Walk to (4, 32) bypassing the X=11 wall and X=8 sign. [IN PROGRESS]
-  4. Walk to (2, 35) then North to (2, 14).
-  5. Walk East to (14, 10).
+  1. Use Super Repel. [DONE]
+  2. Surf at (20, 30) and go to (23, 30). [IN PROGRESS]
+  3. Land at (23, 32) and walk to (2, 44).
+  4. Walk North along the west beach (X=2) to (2, 12).
+  5. Walk East to (14, 12) then North to (14, 10).
 - Status: At (19, 30) on land.
-- Reasoning: City gaps at (12, 32) and (4, 34) allow access to the western beach, which is a clear path to the northern plateau.
+- Reasoning: Bypasses the central city maze and the buoy labyrinth by using the southern city corridor (Row 44) to access the open west beach highway.
 
 # Area Notes: Cianwood City
 - Photo Studio: (9, 31) | Poke Seer: (5, 17)
