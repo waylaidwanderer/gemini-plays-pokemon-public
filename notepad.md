@@ -2,16 +2,15 @@
 - **Start Turn:** 48900
 - **Current Status:** At (12, 28). Initiating southern bypass route via Surf.
 
-## Execution Plan (Southern Bypass)
-1. Use Super Repel. (Turn 49406) <- CURRENT TASK
-2. Move Up to (12, 27) and use Surf.
-3. Surf East to (27, 27), then South to (27, 51).
-4. Land at (24, 51).
-5. Walk West to (2, 51), then North to (2, 12).
-6. Walk East to (14, 12), then North to (14, 10) to trigger Suicune.
+## Execution Plan (Island Hop Investigation)
+1. Use Super Repel. (Turn 49409) <- CURRENT TASK
+2. Surf North to (14, 16) and land at (13, 16).
+3. Walk West to (11, 16) and attempt to walk North through (11, 15).
+4. If successful, walk to (14, 10) to trigger Suicune.
+5. If blocked at (11, 15), execute Southern Bypass (Surf to Row 51).
 
-## Strategy: Southern Bypass
-The city is a maze of one-way ledges (Row 34, 46, 48, 50) and walls. Terrestrial paths are blocked. The only reliable way to reach the western corridor (X=2) is to Surf all the way to the southern edge of the map (Row 51) where the barriers end. This bypass avoids the entire city maze.
+## Strategy: Island Hop vs. Southern Bypass
+I am investigating the gap at (11, 15) in the Row 15 ledge/wall line. If (11, 15) is traversable, it provides a direct path to the northern plateau. If not, the Southern Bypass around Row 51 is the only remaining option.
 
 ## Failed Hypotheses & Lessons
 - Terrestrial Path (South): Blocked by multiple ledge lines.
