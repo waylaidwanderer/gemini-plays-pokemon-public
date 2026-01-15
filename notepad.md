@@ -13,9 +13,9 @@
 - **Current Task:** Hunt Roaming Beasts (Phase 2).
 - **Location:** Route 38 (West of Ecruteak).
 - **Hunt Start:** Turn ~40000.
-- **Current Loop:** 7.
-- **Action:** Manual Scan (Left/Right) x 20.
-- **Hunt Progress:** Phase 2 Loop 7/50.
+- **Current Loop:** 7 (Finished).
+- **Action:** Dismiss Text -> Re-apply Max Repel.
+- **Hunt Progress:** Repel Expired (approx 260 steps).
 - **Beast Status:** **POSITIVE** (Route 38). Assumed present.
 - **CRITICAL FIX:** Repel active. Gyarados (Lv 37) leading. Only Beasts (Lv 40) will appear.
 - **Plan:**
