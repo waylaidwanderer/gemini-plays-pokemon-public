@@ -18,4 +18,4 @@
 - Step 2: Surf South on Route 41 to Row 51.
 - Step 3: Re-enter Cianwood at (29, 51) -> (0, 51) and walk West to Column 2.
 - Step 4: Walk North along Column 2 to Row 12 and East to (14, 10).
-- Status: At Cianwood (12, 30). On land. Repel Active (~170 steps).
+- Status: At Cianwood (19, 30). On land. Repel Active (~170 steps).
