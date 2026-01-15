@@ -4,21 +4,24 @@
 - WATER: Surf required. Traversable.
 - BUOY: Impassable water obstacle.
 - DOOR: Warp point.
-- FLOOR_UP_WALL: Impassable cliff face (e.g., Row 15, Row 30, Row 34).
+- FLOOR_UP_WALL: Impassable cliff face.
 - LEDGE_HOP_DOWN: One-way jump (North to South).
 - BREAKABLE ROCK: Requires Rock Smash. Impassable.
 - NPC: Impassable. Interact from adjacent tile.
 
-- Approach: The Sequential Gap Path (Advisor Recommended)
+# Strategy: Capture Suicune (Started Turn 48227)
+- Goal: Reach (14, 10) to trigger sighting.
+- Approach: The Northern Buoy Bypass (Verified)
 - Plan:
-  1. Escape battle at (27, 18). [IN PROGRESS]
-  2. Surf North to (27, 15), then West to (23, 15) [Gap 6].
-  3. Navigate through Gap 6 to (23, 14).
-  4. Navigate West to (19, 14) [Gap 4].
-  5. Navigate North to (19, 11), then West to (16, 11) [Land].
-  6. Walk to (14, 10).
-- Status: In battle at (27, 18), attempting to RUN.
-- Reasoning: Gap 6 (23, 15) and Gap 4 (19, 14) form the only verified water route into the northern plateau channel.
+  1. Use Super Repel. [IN PROGRESS]
+  2. Navigate to (27, 10).
+  3. West to (25, 10), then North to (25, 8).
+  4. West through Gap at (22, 8) to (19, 8).
+  5. South through Column 19 to (19, 11).
+  6. West to land at (16, 11) or (17, 11).
+  7. Walk to (14, 10).
+- Status: At (27, 18) surfing, using Super Repel.
+- Reasoning: Row 8 is the only verified way to bypass the solid buoy wall at X=22. Row 10 is the only verified way to bypass the solid buoy wall at X=26.
 
 # Area Notes: Cianwood City
 - Photo Studio: (9, 31) | Poke Seer: (5, 17)
