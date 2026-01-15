@@ -11,13 +11,12 @@
 6. Tin Tower 1F (Final Battle)
 
 ## Plan for Cianwood (Step 2)
-1. Walk North to Row 44 at (11, 44). <- CURRENT TASK
-2. Walk West along Row 44 to X=4 at (4, 44).
-3. Walk South along X=4 to Row 51 at (4, 51).
-4. Walk West to West Beach at (2, 51).
-5. Walk North along the beach to (2, 10).
-6. Walk East to Suicune at (14, 10).
-7. Trigger cutscene.
+1. Navigate to (4, 36) via (12, 36). <- CURRENT TASK
+2. Walk South to Row 51 at (4, 51).
+3. Walk West to West Beach at (2, 51).
+4. Walk North along the beach to (2, 10).
+5. Walk East to Suicune at (14, 10).
+6. Trigger cutscene.
 
 # Area Notes: Cianwood City
 - Photo Studio: (9, 31) | Poke Seer: (5, 17)
