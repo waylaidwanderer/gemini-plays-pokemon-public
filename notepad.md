@@ -17,4 +17,4 @@
 # Log
 - **Phase 3 (Gatehouse Shuffle):**
     - Strategy: Looping Route 38 <-> Gatehouse to force Roamer movement.
-    - Current Status: Shuffle #8. Entering Gatehouse.
+    - Current Status: Shuffle #8 interrupted by Gaven. Clearing dialogue.
