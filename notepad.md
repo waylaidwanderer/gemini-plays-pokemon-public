@@ -21,8 +21,8 @@
     3. If no encounter, repeat.
     - **Repel Trick:** Lead Pokemon (Lv 37) > Wild Pokemon (Lv ~20) but < Roamers (Lv 40). Max Repel ACTIVE. Only Roamers should appear.
 - **Mechanics Note:** Repel confirmed working in current session (Turns 40947-41004, zero encounters). Previous anomalies likely due to unnoticed expiration.
-- **Current Task:** Resetting Roamer Positions.
-- **Action:** Moving to Ecruteak City to shuffle (Attempt 9 failed).
+- **Current Task:** Handling Phone Call (Wade).
+- **Previous Task:** Resetting Roamer Positions (Attempt 9 failed).
 - **Repel Status:** Active (~230/250 steps used).
 - **Session Start:** Turn 41209 (City Shuffle Strategy).
 - **System Note:** Sandbox unavailable. Movement interrupted by call.
