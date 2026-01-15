@@ -26,4 +26,4 @@ The northern plateau (14, 10) is reached via the Western Corridor (X=0-2). Acces
 - Ledge Gaps: (12, 34) is a rare gap allowing South movement past Row 34.
 
 ## Progress Summary
-- Turn 49550: Closing Surf menu at (23, 32). Moving to (12, 34).
+- Turn 49552: At (23, 32). Selecting NO to Surf menu (again). Moving to (12, 34).
