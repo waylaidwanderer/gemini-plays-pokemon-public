@@ -1,12 +1,13 @@
 # Suicune Quest (Cianwood)
 - **Quest Start:** Turn 48900
-- **Status:** Testing (11, 15) gap. Turn count: ~530 since quest start.
+- **Status:** (11, 15) gap confirmed as dead end. Executing Southern Bypass.
 
-## Execution Plan (Western Corridor)
-1. Walk to (13, 16) and Surf south to (14, 28) landing. <- CURRENT TASK
-2. Walk to (2, 33) via Row 33 gap.
-3. Walk North to (2, 12), then East to (14, 12).
-4. Walk North to (14, 10) to trigger Suicune.
+## Execution Plan (Southern Bypass)
+1. Walk to (13, 16) and Surf. <- CURRENT TASK
+2. Surf East to (27, 27), then South to (27, 51).
+3. Land at (24, 51) and walk West to (2, 51).
+4. Walk North to (2, 12), then East to (14, 12).
+5. Walk North to (14, 10) to trigger Suicune.
 
 ## Strategy: Southern Bypass
 The city center is blocked by one-way ledges (Row 34, 46, 48, 50) and walls. To reach the western corridor (X=2), I must Surf around the south end of the map (Row 51). This avoids all city barriers.
