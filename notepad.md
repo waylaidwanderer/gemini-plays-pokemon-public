@@ -11,10 +11,10 @@
 6. Tin Tower 1F (Final Battle)
 
 ## Plan for Cianwood (Step 2)
-1. Navigate to (27, 45) (East Beach) via (12, 45) and (20, 45). <- CURRENT TASK
-2. Surf North to Row 11 at (27, 11).
-3. Surf West and land at (17, 11).
-4. Walk West to Suicune at (14, 10).
+1. Navigate to (10, 51) via Row 47 gap at (12, 47). <- CURRENT TASK
+2. Walk West along Row 51 to West Beach at (2, 51).
+3. Walk North along the beach highway to (2, 10).
+4. Walk East to Suicune at (14, 10).
 5. Trigger cutscene with Eusine.
 
 # Area Notes: Cianwood City
