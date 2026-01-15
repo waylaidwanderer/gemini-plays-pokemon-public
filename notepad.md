@@ -8,22 +8,21 @@
 # Suicune Quest (Cianwood)
 - Quest Start: Turn 48900
 
-## Strategy: Western Corridor Ascent (Land Route)
-The northern plateau (14, 10) is reached by weaving through wall gaps to the Western Corridor (X=0-2), which bypasses the Row 15 ledge.
+## Strategy: Great Southern Surf Loop
+The northern plateau (14, 10) is reached via the Western Corridor (X=0-2). Access to this corridor is only guaranteed at Row 51. To reach Row 51 without being blocked by ledges, Gem must Surf in the Outer Sea (X=24) and land at (23, 51).
 
 ## Execution Plan
-1. Land at (23, 32) and move to (12, 33). <- CURRENT TASK
-2. Move Left to (6, 33) via (9, 33) gap.
-3. Move North to (6, 26) and Left to (4, 26) via (5, 26) gap.
-4. Move North to (4, 22) and Left to (2, 22) via (3, 22) gap.
-5. Move North to (2, 12) and East to (14, 12).
-6. Move North to (14, 10) to trigger Suicune.
+1. Move to (23, 32) and Surf. <- CURRENT TASK
+2. Move South to Row 51 and land at (23, 51).
+3. Walk West to (2, 51).
+4. Walk North along Western Corridor (X=2) to Row 12.
+5. Walk East to (14, 12) and North to (14, 10) to trigger Suicune.
 
 ## Lessons Learned
-- Row 15 Ledge (10, 15) blocks North.
-- Plateaus are isolated; access is from X < 3.
-- FLOOR_UP_WALL tiles are one-way (North only).
-- Sea Bypass is longer and landing points are unconfirmed.
+- Land paths (X=4, X=6, X=8, X=12) are all blocked by ledges or walls before reaching the plateau.
+- Row 15 ledge blocks all central/eastern access to the plateau.
+- Row 51 is the only confirmed "bottom" thoroughfare.
+- Ledge Gaps: (12, 34) is a rare gap allowing South movement past Row 34.
 
 ## Progress Summary
-- Turn 49545: Starting manual ascent. Moving to (6, 33).
+- Turn 49547: At (6, 26). Moving to Surf point.
