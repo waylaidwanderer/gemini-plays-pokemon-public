@@ -27,4 +27,4 @@
 # Log
 - **Phase 3 (Gatehouse Shuffle) - Started Turn ~40550:**
     - Strategy: Looping Route 38 <-> Gatehouse to force Roamer movement.
-    - Current Status: Shuffle #7 - Opening Map Card.
+    - Current Status: Shuffle #7 Negative. Closing Map.
