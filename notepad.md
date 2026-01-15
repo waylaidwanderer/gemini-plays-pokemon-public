@@ -11,17 +11,20 @@
 
 # Strategy: Capture Suicune
 - Goal: Reach the northern plateau (approx. 14, 10) to trigger sighting.
-- Approach: The Buoy Maze Master Path (Verified Logic)
+- Approach: The West Beach Shortcut (Hypothesis)
 - Plan:
-  1. Surf at (27, 17) and navigate North to (27, 10). [IN PROGRESS]
-  2. West through Gap 1 (26, 10) to (23, 10).
-  3. South to (23, 16) via Gap 6 (23, 15).
-  4. West through Gap 2 (22, 16) to (20, 16).
-  5. South to (20, 21), then West through Gap at (19, 21) to (17, 21).
-  6. North to (17, 16), then West to (14, 16).
-  7. Land at (13, 16) and walk to (14, 10).
-- Status: Navigating to (27, 10).
-- Reasoning: This path uses confirmed water gaps in the buoy maze to reach the only landing spot adjacent to the northern plateau.
+  1. Navigate to (19, 30) and land. [IN PROGRESS]
+  2. Walk to (4, 29) via Row 28 (to bypass rock at 5, 29).
+  3. Jump ledge at (4, 30) to reach the beach at (4, 31).
+  4. Walk North along X=2 to (2, 11).
+  5. Walk East to (14, 10) to trigger sighting.
+- Status: Returning to land at (19, 30).
+- Reasoning: The buoy maze and city paths are heavily blocked. The far west beach (X=2) appears to be a clear corridor that bypasses all obstacles and connects directly to the northern plateau.
+
+# Verified Tile Mechanics
+- LEDGE_HOP_DOWN (4, 30): Confirmed one-way jump from North (4, 29) to South (4, 31).
+- X=2 Corridor: Verified FLOOR from Y=49 to Y=11.
+- Plateau Access: Hypothesis that X=2 connects to plateau via Row 11.
 
 # Area Notes: Cianwood City
 - Photo Studio: (9, 31) | Poke Seer: (5, 17)
