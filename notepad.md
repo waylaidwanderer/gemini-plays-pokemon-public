@@ -14,24 +14,26 @@
 - **Location:** Route 38 (West of Ecruteak).
 - **Hunt Start:** Turn ~40000.
 - **Current Loop:** 17.
-- **Action:** Retry Tool Scan (10 steps).
-- **Hunt Progress:** Phase 2 Loop 17/50. Ran from Magnemite.
+- **Action:** Switch Lead to Gyarados -> Max Repel -> Scan.
+- **Hunt Progress:** Phase 2 Loop 17/50.
 - **Beast Status:** **POSITIVE** (Route 38). Assumed present.
-- **Note:** Sandbox timed out previously. Retrying with fewer steps (10).
+- **CRITICAL FIX:** Max Repel failed because Lugia (Lv 60) was leading. Must switch to Gyarados (Lv 37) to allow Lv 40 Beasts to spawn while blocking Lv 16 trash.
 - **Plan:**
-    1. Scan Grass (Tool).
-    2. If Wild -> Run.
-    3. If Beast -> Catch/Battle.
+    1. Open Menu -> Switch Lugia with Gyarados.
+    2. Use Max Repel.
+    3. Scan Grass (Tool).
+    4. If Wild -> Run.
+    5. If Beast -> Attack.
 
 # Hunt Strategy
 1. **Target Acquired:** Beast IS on Route 38!
-2. **Action:** Apply Max Repel -> Hunt in Grass.
+2. **Action:** Fix Lead Pokemon -> Repel -> Hunt.
 3. **Contingency:** If it flees, track location and pursue.
 
 # Resources
 - **Balls:** Ultra Ball x16.
 - **Repels:** Max Repel x29.
-- **Party:** Gyarados (Lead), Lugia (Tank). No Sleep status available.
+- **Party:** Lugia (Lv 60) [Current Lead], Gyarados (Lv 37) [Target Lead].
 
 # Encounter Plan
 - **Raikou/Entei:** They flee 100%.
