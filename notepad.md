@@ -39,5 +39,5 @@
 - **Money:** ¥15644.
 - **Items:** Max Repel x30.
 - **Key Items:** Pass (Magnet Train).
-- **Status:** Beasts on Rt 42, 32. Resetting Loop 5/50.
-- **Next Step:** Reset Map (Enter/Exit Gatehouse).
+- **Status:** Resetting Loop 5/50. Entering Gatehouse.
+- **Next Step:** Exit Gatehouse, then Loop 6.

@@ -158,7 +158,7 @@
     ]
   },
   "reset_map_loop": {
-    "description": "Executes the movement sequence to enter the Ecruteak Gatehouse from Route 38 and immediately return, resetting the map for Roamer hunting. Assumes player is at (34, 9) facing Right.",
+    "description": "Executes the movement sequence to enter the Ecruteak Gatehouse from Route 38 and immediately return, resetting the map for Roamer hunting. Includes double-presses to handle turning and robust delays.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -168,12 +168,12 @@
         }
       }
     },
-    "python_script": "import json\nprint(json.dumps([\"Right\", \"sleep 3000\", \"Left\", \"sleep 1000\"]))",
+    "python_script": "import json\nprint(json.dumps([\"Right\", \"Right\", \"sleep 4000\", \"Left\", \"Left\", \"sleep 1000\"]))",
     "history": [
       {
         "commit_message": "Initial version",
-        "timestamp": "2026-01-15T04:41:49.073Z",
-        "action_counter": 40053
+        "timestamp": "2026-01-15T04:42:37.716Z",
+        "action_counter": 40054
       }
     ]
   }
