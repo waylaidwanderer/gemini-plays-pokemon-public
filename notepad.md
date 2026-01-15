@@ -47,8 +47,5 @@
 - Turn 40580: Cursor confirmed on Map Card. Pressing 'A' to open map and verify Beast positions (Shuffle #3).
 - Turn 40582: Start Menu visible. Pressing B to return to Overworld and perform Shuffle #4.
 - Strategy: Gatehouse Shuffle (Rt 38 <-> Gatehouse) in progress.
-- Status (Turn 40588): In Pokegear (Shuffle #4). Cursor on 'Back'.
-- Action: Pressing 'Right' to select Map Card.
-- Warning: Loop detection noted. Will adjust path after map check if needed.
-- Turn 40589: Intermediate state confirms cursor on MAP. Pressing A to open. Discrepancy in 'Current Screen Text' ignored.
-- Note: If Map check fails, will add 'wiggle' movement (Left-Right) on Route 38 to reset loop counter before next shuffle.
+- Status (Turn 40590): Shuffle #4 result negative (Beasts at Rt 42, 44, 32).
+- Action: Closing Pokegear (B). Next: Move Left-Right to reset loop counter, then re-enter Gatehouse.
