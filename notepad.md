@@ -12,10 +12,13 @@
 
 ## Plan: Reach North Plateau (Started Turn 48972)
 - Goal: Reach Suicune at (14, 10).
-- Step 1: Reach (12, 29) and Surf north. <- CURRENT TASK
-- Step 2: Land at (12, 16).
-- Step 3: Walk north through gap at (11, 15).
-- Step 4: Reach (14, 10) for Suicune sighting.
+- Step 1: Reach (12, 28) and Surf north to (12, 20). <- CURRENT TASK
+- Step 2: Land at (12, 19) and walk to (12, 16).
+- Step 3: Navigate land route to Suicune:
+  - (12, 16) -> (11, 16) -> (11, 14) (via gap (11, 15)).
+  - (11, 14) -> (13, 14) -> (13, 12) (via gap (13, 13)).
+  - (13, 12) -> (14, 12) -> (14, 10).
+- Step 4: Trigger Suicune sighting.
 
 # Area Notes
 - Ledge (10, 15) blocks north at X=10.
