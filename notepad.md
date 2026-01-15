@@ -44,3 +44,4 @@
 - Turn 40577: Inside Gatehouse. Exiting back to Route 38 (Left x2) to complete Shuffle #3.
 - Turn 40578: Start Menu open. Pokegear selected. Pressing A to enter.
 - Turn 40579: In Pokegear. Cursor on 'Back'. Pressing 'Right' to target Map Card. Avoiding multi-button input due to system constraints.
+- Turn 40580: Cursor confirmed on Map Card. Pressing 'A' to open map and verify Beast positions (Shuffle #3).
