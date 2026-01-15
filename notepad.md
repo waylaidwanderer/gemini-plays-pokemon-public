@@ -12,17 +12,17 @@
 
 ## Plan: Reach North Plateau (Started Turn 48972)
 - Goal: Reach Suicune at (14, 10).
-- Step 1: Reach West Beach (2, 32) via Row 32 -> Row 35 gap -> Row 32. <- CURRENT TASK
-- Step 2: Walk North along West Beach (X=0-2) to Row 10.
-- Step 3: Walk East along Row 10 to (14, 10) to trigger Suicune sighting.
+- Step 1: Reach (23, 32) and Surf. <- CURRENT TASK
+- Step 2: Navigate North through buoy gap at (23, 15).
+- Step 3: Surf West and land on plateau at (17, 11) or (16, 11).
+- Step 4: Reach (14, 10) to trigger Suicune sighting.
 
 # Area Notes
 - Photo Studio: (9, 31) (DOOR)
 - Lugia House: (15, 37) (DOOR)
 - Poke Seer: (5, 17) (DOOR)
-- Highway: X=0, 1, 2 is a clear vertical path from South to North (bypasses ledge at (10, 15)).
-- Highway: Row 35 is a clear horizontal path from X=2 to X=29 (mostly).
-- Gap: (5, 35) marked as "Wall Gap".
+- Obstacle: Ledge at (10, 15) blocks Northward progress from city center.
+- Route: Buoy Gap at (23, 15) allows access to the North Sea bypassing the barrier.
 - Connection: Route 41 (0, 32) <-> Cianwood City (29, 32).
 
 # Tile Mechanics (Verified)
@@ -30,5 +30,6 @@
 - WATER: Requires Surf.
 - BUOY: Impassable.
 - LEDGE_HOP_DOWN: One-way jump (North to South).
+- FLOOR_UP_WALL: Cliff (Impassable).
 - Suicune Trigger: North Beach (14, 10).
 - Tool Failure: find_path_v6_fixed failing with sandbox errors. Manual navigation required.
