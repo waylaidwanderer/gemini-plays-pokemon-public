@@ -19,14 +19,13 @@
 - FLOOR_UP_WALL: Impassable ledge face. Blocks South movement.
 - LEDGE_HOP_DOWN: One-way jump (North to South).
 
-# Strategy: Reach Suicune (The Western Land Perimeter)
-- Start Turn: 48227 (Pursuit began), 48562 (Current strategy)
-- Step 1: Land at (19, 30).
-- Step 2: Walk West to (12, 30), then South to (12, 32).
-- Step 3: Walk West at Row 32 to (2, 32) (bypass sign at 8, 32).
-- Step 4: Walk North at X=2 to (2, 10).
-- Step 5: Walk East at Row 10 to (14, 10).
-- Note: This avoids all buoy traps and town ledges. Ready for Eusine battle (Drowzee/Haunter/Electrode ~Lv25). Verified Row 32 as a clear crossing.
+# Strategy: Reach Suicune (The West-Side Land Corridor)
+- Start Turn: 48227 (Pursuit began), 48565 (Current strategy)
+- Step 1: Walk to (19, 34).
+- Step 2: Walk West to (2, 34) (crossing vertical barrier at X=5).
+- Step 3: Walk North to (2, 12) (clear shot along western edge).
+- Step 4: Walk East to (14, 12), then North to (14, 10).
+- Note: This land route uses the gap at Row 34 to reach the western edge, bypassing all buoy barriers and town ledges. Ready for Eusine battle (Drowzee/Haunter/Electrode ~Lv25).
 
 # Area Notes: Cianwood City
 - Photo Studio: (9, 31)
