@@ -10,12 +10,10 @@
 ## Strategy: The Great Southern Loop (v2)
 The city is a maze of walls and ledges. Row 51 is the only clear East-West path.
 1. Land at (23, 32). (Completed)
-2. Navigate to (10, 51) via Row 33 and the X=12 ledge gap:
-   - Up to (23, 33), then Left to (18, 33).
-   - Up to Row 32 to bypass Pokefan M at (17, 33).
-   - Left to (12, 32), then Down to (12, 33).
-   - Down to (12, 49), then Left to (10, 49).
-   - Down through Row 50 gap to (10, 51).
+2. Navigate to (10, 51) via X=12 corridor and Row 45:
+   - Down to (12, 45). (In Progress)
+   - Left to (10, 45).
+   - Down to (10, 51).
 3. Walk West to (2, 51) to enter the Western Corridor.
 4. Walk North to (2, 12).
 5. Walk East to (14, 12).
@@ -27,3 +25,4 @@ The city is a maze of walls and ledges. Row 51 is the only clear East-West path.
 - Hypothesis: (14, 10) is the trigger point for the Suicune sighting.
 - Hypothesis: FLOOR_UP_WALL allows landing from the East/West (Testing required).
 - Verification Task: Test North/South passability of FLOOR_UP_WALL at (12, 50).
+- Observed: Pokefan F at (11, 46) blocks Row 46; using Row 45 detour.
