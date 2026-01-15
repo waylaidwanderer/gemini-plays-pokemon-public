@@ -1,6 +1,6 @@
 ## Plan: Reach Suicune at (14, 10) (Started Turn 49086)
 - Goal: Complete Suicune sighting in Cianwood.
-- Step 1: Reach (23, 32) via Row 34 and Row 35 detours. <- CURRENT TASK
+- Step 1: Use Super Repel and reach (23, 32). <- CURRENT TASK
 - Step 2: Surf at (23, 32) and land at (24, 34).
 - Step 3: Reach southern highway at (24, 51).
 - Step 4: Reach western beach at (2, 35) via Row 51 and Row 35 gaps.
@@ -14,18 +14,22 @@
 - X=2: Vertical land path (Row 10 to 35).
 - Row 10: Horizontal land path (X=2 to 14).
 
-## Tile Mechanics
+## Tile Mechanics (Verified)
 - FLOOR: Traversable.
 - WALL: Impassable.
 - WATER: Requires Surf.
 - FLOOR_UP_WALL: Impassable cliff face.
 - LEDGE_HOP_DOWN: One-way jump (North to South).
+- BUOY: Impassable.
 
 ## Navigation Notes
-- (10, 40) is a WALL, blocking the X=10 corridor south of Row 39.
+- (10, 40) is a WALL (Gym building), blocking the X=10 corridor south of Row 39.
 - (20, 34) is a Sign (WALL), bypass via Row 35.
+
+## Battle Strategy: Eusine
+- Strategy: Lead with Calcifer (Lv 64 Typhlosion). Use Flamethrower.
 
 ## Technical Status
 - Python Sandbox: Reporting 'not running' errors. Tools offline.
-- Super Repel: Active since Turn 49046.
-- Reflection Turn: 49086.
+- Super Repel: Wore off Turn 49089. Re-applying.
+- Turn 49089: Hallucination check triggered (turn/pos mismatch). Verified current pos at (11, 34).
