@@ -18,4 +18,4 @@
     1. Shuffle (Route 38 <-> Gatehouse).
     2. Run in grass for ~20 steps.
     3. If no encounter, repeat.
-- **Mechanics Note:** Max Repel appears ineffective on Route 38 (observed Turns 40908, 40918, 40933). Encounters occurring below lead level. Monitoring.
+- **Mechanics Note:** Repel confirmed working in current session (Turns 40947-41004, zero encounters). Previous anomalies likely due to unnoticed expiration.
