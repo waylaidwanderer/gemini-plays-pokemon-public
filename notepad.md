@@ -39,9 +39,8 @@
 - **Money:** ¥15644.
 - **Items:** Max Repel x30.
 - **Key Items:** Pass (Magnet Train).
-- **Status:** Closing Pokegear. Preparing to Enter Gatehouse.
-- **Next Step:** Right x2 (Enter Gate) -> Left x2 (Exit Gate).
-- **Loop:** 8/50.
-- **Strategy:** Manual Reset to avoid menu/warp errors.
+- **Status:** Resetting Loop 8/50. Re-triggering Warp.
+- **Next Step:** Step Left (Off) -> Step Right (On) -> Enter Gatehouse.
+- **Strategy:** Manual Reset: Left, Right (Enter) -> Left (Exit) -> Check Map.
 - **Strategy:** Manual Reset Loop: Check Map -> B -> Right (Enter Gate) -> Left (Exit Gate) -> Start (Map).
 - **Lesson:** Gatehouse warps can be sticky. Automate resets to avoid 'doorway effect'.
