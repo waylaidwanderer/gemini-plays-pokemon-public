@@ -38,8 +38,8 @@
 - **Phase 3 (Gatehouse Shuffle):**
     - Turn 40548: Wade called. Handling call, then heading to Gatehouse (35, 8).
 - Strategy: Gatehouse Shuffle (Rt 38 <-> Gatehouse) in progress.
-- Status (Turn 40578): Shuffle #3 complete. Checking Map.
-- Action: Opening Start Menu to verify Beast positions.
+- Status (Turn 40581): Shuffle #3 result negative (Beasts at Rt 42/44).
+- Action: Closing Pokegear (B) to re-enter Gatehouse and shuffle again.
 - Turn 40575: Re-entering Gatehouse (Right x2) for Shuffle #3. Keeping the rhythm going!
 - Turn 40577: Inside Gatehouse. Exiting back to Route 38 (Left x2) to complete Shuffle #3.
 - Turn 40578: Start Menu open. Pokegear selected. Pressing A to enter.
