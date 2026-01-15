@@ -1,19 +1,22 @@
 ## Strategy: Inner Channel Route to Suicune
 **Start Turn:** 48900 (Quest: Trigger Suicune Overworld Sighting)
 
-Cianwood is a maze of 'FLOOR_UP_WALL' barriers. I will navigate the buoy gaps to enter the 'Inner Channel' (X=18) and land on the northern plateau.
+Cianwood is a maze of 'FLOOR_UP_WALL' barriers. I will navigate the buoy gaps to enter the 'Inner Channel' (X=13-15) and land on the northern plateau.
 
 ### Step-by-Step Execution Plan
-1. Surf to (25, 10) via the gap in the X=26 buoy wall at Row 10. <- CURRENT TASK
-2. Surf South to (25, 16), then West to (21, 16) via the gap in the X=22 buoy wall at Row 16.
-3. Surf South to (21, 21), then West to (18, 21) via the gap in the X=19 buoy wall at Row 21.
-4. Surf North in the Inner Channel to (18, 10).
-5. Land on the plateau at (16, 10) or (17, 10) and walk to (14, 10) to trigger Suicune.
+1. Surf South to (25, 16). <- CURRENT TASK
+2. Surf West to (21, 16) via the gap in the X=22 buoy wall at Row 16.
+3. Surf South to (21, 26), then West to (17, 26) via the gap in the X=19/18 buoy wall at Row 26.
+4. Surf North to (17, 21), then West to (13, 21) via the gap in the X=16 buoy wall.
+5. Surf North to the landing at (13, 16).
+6. Walk to (11, 14) to reach the plateau level.
+7. Walk to (14, 10) to trigger Suicune sighting.
 
 ## Navigation: Buoy Gaps (X-Wall at Row)
 - X=26 Wall: Gap at Row 10-14.
-- X=22 Wall: Gap at Row 16-24.
-- X=19 Wall: Gap at Row 21.
+- X=22 Wall: Gap at Row 16-21.
+- X=19/18 Wall: Gap at Row 26-29.
+- X=16 Wall: Gap at Row 16-21.
 
 ## Failed Hypotheses & Lessons
 - Great Sea Bypass (Route 40): Dead end on the West.
