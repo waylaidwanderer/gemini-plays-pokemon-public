@@ -11,7 +11,8 @@
 6. Tin Tower 1F
 
 ## Plan: Southern Detour (Started Turn 48956)
-1. Move Right from (29, 32) to enter Route 41. <- CURRENT TASK
+1. Move Right from (29, 32) to enter Route 41. (Done)
+2. Surf South in Route 41 to Row 52. <- CURRENT TASK
 2. Surf South in Route 41 to Row 52.
 3. Surf West to (0, 52) to re-enter Cianwood.
 4. Surf West and North in Cianwood to reach West Beach (X=0-2).
