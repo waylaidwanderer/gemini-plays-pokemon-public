@@ -1,12 +1,13 @@
 ## Suicune Quest (Started Turn 49107)
 - Goal: Trigger Suicune sighting at (14, 10).
-- Strategy: Test the "Inner Channel Landing" at (17, 11). If blocked, use the "West Beach Highway" (X=2).
+- Strategy: Use the West Beach Highway (X=2) via the Row 44 gap.
 
 ## Plan: Reach Suicune at (14, 10)
-- Step 1: Walk to (23, 32) and Surf East. <- CURRENT TASK
-- Step 2: Swim North to (23, 15) and West through the Buoy Gap.
-- Step 3: Swim North to Row 11 and West to (16, 11).
-- Step 4: Land at (16, 11) and walk to (14, 10) to trigger Suicune.
+- Step 1: Walk to (23, 44) and West to (6, 44) (Row 44 Gap). <- CURRENT TASK
+- Step 2: Walk North to (6, 35) and West to (2, 35) (West Beach).
+- Step 3: Walk North along West Beach (X=2) to Row 14.
+- Step 4: Walk East to (8, 14), then North to (8, 12).
+- Step 5: Walk East to (14, 12), then North to (14, 10) to trigger Suicune.
 
 ## Verified Tile Mechanics
 - FLOOR: Traversable.
@@ -17,16 +18,15 @@
 - BUOY: Impassable hard wall.
 
 ## Navigation Insights
-- Row 32 Highway: Clear from X=9 to X=23. Sign at (8, 32) requires detour via Row 33.
-- X=12 Corridor: Clear from Row 28 to Row 44.
-- X=9 Wall: Blockade from Row 34 to Row 43. Gap at Row 44.
-- X=5 Wall: Blockade from Row 30 to Row 33. Gap at Row 35.
-- West Beach Highway (X=2): Clear vertical path from Row 53 to Row 14.
-- Plateau Entrance: Only accessible from Row 14, X=2-8. Ledge at (10, 15) blocks northern entry from Inner Channel.
+- Row 44 Gap: Only way to pass the central X=9 wall from the east.
+- West Beach Highway (X=0-2): Clear vertical highway from Row 53 to Row 14.
+- Row 14 Crossing: Land path exists from X=2 to X=8.
+- Plateau Entrance: (8, 14) -> (8, 12) -> (14, 12) -> (14, 10).
+- Gym Blockade: Building at (10, 40) blocks central land access.
 
 ## Battle Strategy: Eusine
 - Lead: Calcifer (Lv 64 Typhlosion). Sweep with Flamethrower/Thunderpunch.
 
 ## Technical Status
-- Super Repel: Active (~105 steps used).
-- Turn: 49184.
+- Super Repel: Active (~115 steps used).
+- Turn: 49186.
