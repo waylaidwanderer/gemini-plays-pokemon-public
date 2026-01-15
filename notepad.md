@@ -38,3 +38,4 @@
 - **Phase 3 (Gatehouse Shuffle):**
     - Turn 40548: Wade called. Handling call, then heading to Gatehouse (35, 8).
 - Turn 40550: Call finished. Moving East to Gatehouse (35, 8) to shuffle Roamers. One tile of grass at (29, 6) risks encounter.
+- Turn 40551: At Gatehouse entrance (35, 8). Executing "Double Tap Right" to trigger warp. Commencing Gatehouse Shuffle.
