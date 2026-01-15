@@ -13,4 +13,5 @@
 - **Current Task:** Gatehouse Shuffle (Looping Rt 38 <-> Gatehouse).
 - **Location:** Route 38 (East Side).
 - **Pokedex Mode:** Old (National Dex). Target: #243 Raikou, #244 Entei.
-- **Action:** Scrolling to #243 (Raikou). Current: #029. Tool 'repeat_button' failed (sandbox error), using manual hold.
+- **Action:** Scrolling to end of Pokedex (Right x10) to check for #243/#244. List skips unseen numbers.
+- **Hypothesis:** Burned Tower event likely did NOT register them, so they won't be in the list. Verifying.
