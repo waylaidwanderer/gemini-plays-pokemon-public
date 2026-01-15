@@ -8,9 +8,9 @@
 - **Goal:** Register Raikou & Entei.
 - **Current Task:** Hunt Roaming Beasts (Phase 2).
 - **Location:** Route 38 (West of Ecruteak).
-- **Action:** Hunt Loop: Check Map on Route 38.
-- **Hunt Progress:** Phase 2 Loop 7/50. Checking Map.
-- **Beast Status:** Checking...
+- **Action:** Hunt Loop: Reset via Top Door (35,8).
+- **Hunt Progress:** Phase 2 Loop 7/50. Resetting.
+- **Beast Status:** Loop 7 Negative.
 - **Hunt Strategy:**
 - **Hunt Strategy:**
 - **Hunt Strategy:**
