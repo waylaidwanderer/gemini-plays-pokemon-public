@@ -15,8 +15,8 @@
   5. Navigate West through the X=22 gap at (22, 6) to (21, 6).
   6. Navigate South to Row 11, then West to land at (16, 11).
   7. Walk to (14, 10).
-- Status: At (19, 29) surfing.
-- Reasoning: The buoy walls have a confirmed gap at (22, 6). Accessing the eastern channel (X=27) is the only way to reach that gap.
+- Status: At (0, 29) on Route 41 surfing.
+- Reasoning: The buoy walls have a confirmed gap at (22, 6). Accessing the eastern channel (X=27) is the only way to reach that gap. The transition from Cianwood (29, 29) leads to Route 41 (0, 29).
 
 # General Lessons
 - City Layouts: In Johto cities like Cianwood, horizontal paths (Rows) often bypass vertical blockades (Walls) even if they look like a maze. Always check the full length of a Row for gaps.
