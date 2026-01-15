@@ -6,8 +6,8 @@
 # Strategic Status
 - **Goal:** Register Raikou & Entei.
 - **Current Task:** Hunt Roaming Beasts.
-- **Location:** Goldenrod City.
-- **Action:** Fly to Ecruteak City -> Start Hunt Loop.
+- **Location:** Ecruteak City.
+- **Action:** Hunt Loop: Transition to Route 37 to shift Roamers.
 
 # Strategy (Hunt Loop)
 1.  **Transit:** Enter Saffron City -> Magnet Train Station.
