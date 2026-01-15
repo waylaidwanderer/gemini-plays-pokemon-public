@@ -6,9 +6,9 @@ To reach the northern plateau at (14, 10), Gem must bypass the Row 15 ledge (LED
 
 ## Execution Plan
 1. Backtrack to X=12 and move North to the Row 33 gap.
-   - Path: (6, 44) -> (12, 44) -> (12, 33). <- CURRENT TASK
+   - Path: (6, 44) -> (12, 44) -> (12, 33). (Done)
 2. Move West through the (9, 33) wall gap to the central corridor.
-   - Path: (12, 33) -> (10, 33).
+   - Path: (12, 33) -> (6, 33). <- CURRENT TASK
 3. Move South to Row 35 to bypass the Wall at X=5.
    - Path: (10, 33) -> (10, 35).
 4. Move West through the (5, 35) gap to the Western Corridor (X=2).
