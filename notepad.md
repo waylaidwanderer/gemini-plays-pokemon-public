@@ -12,19 +12,21 @@
 
 ## Plan: Reach North Plateau (Started Turn 48972)
 - Goal: Reach Suicune at (14, 10).
-- Step 1: Reach West Beach (2, 35) via detour: (18, 49) -> (18, 32) -> (9, 32) -> (9, 33) -> (6, 33) -> (6, 35) -> (2, 35). <- CURRENT TASK
-- Step 2: Walk North along West Beach (X=2) to (2, 10).
-- Step 3: Walk East along Row 10 to (14, 10) to trigger Suicune sighting.
+- Step 1: Reach (11, 21) via Town Center: (18, 42) -> (12, 42) -> (12, 29) -> (9, 29) -> (9, 21) -> (11, 21). <- CURRENT TASK
+- Step 2: Walk North through Row 15 gap: (11, 21) -> (11, 15) -> (11, 14).
+- Step 3: Reach (14, 10) to trigger Suicune sighting: (11, 14) -> (14, 14) -> (14, 10).
 
 # Area Notes
 - Photo Studio: (9, 31) (DOOR)
 - Lugia House: (15, 37) (DOOR)
 - Poke Seer: (5, 17) (DOOR)
-- Obstacle: Ledge at (10, 15) blocks Northward progress from city center.
-- Obstacle: Wall/Cliff line at X=3-9 blocks Westward progress below Row 35.
-- Gap: (5, 35) is the key westward gap in the cliff line.
-- Gap: Row 33 has a gap at X=6-10.
-- Highway: X=2 (West Beach) is a clear vertical path from Row 35 to Row 10.
+- Obstacle: Ledge at (10, 15) blocks Northward progress. Gap at (11, 15) is FLOOR.
+- Obstacle: Wall at X=9 blocks horizontal movement between Row 30 and 34. Gap at Row 29 and Row 33.
+- Obstacle: Wall at X=5 blocks horizontal movement. Gap at (5, 35).
+- Obstacle: Water at Row 22-25. Path at X=9 is land.
+- Highway: X=12 is a clear vertical path from Row 42 to Row 29.
+- Highway: X=9 is a clear vertical path from Row 29 to Row 21.
+- Highway: X=11 is a clear vertical path from Row 21 to Row 14 (passes Row 15 gap).
 - Connection: Route 41 (0, 32) <-> Cianwood City (29, 32).
 
 # Tile Mechanics (Verified)
