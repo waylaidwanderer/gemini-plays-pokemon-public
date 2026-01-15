@@ -1,24 +1,28 @@
 # Mechanics
 - **Battle Cursor:** Remembers last move used.
-- **Fly Map:** Visual Map (Cursor based). Use D-pad to select city.
+- **Fly Map:** Visual Map (Cursor based). Use D-pad to select city. **Cursor persists:** Always verify "Currently selected destination" text before confirming flight.
 - **Roaming Beasts:** Check Pokegear Map for current location.
 
 # Strategic Status
 - **Goal:** Register Raikou & Entei.
-- **Current Task:** Restock Supplies.
-- Location: Celadon Dept Store 2F.
-- Action: Buying Max Repels from Clerk at (13,5).
-- Status: On Route 8 (Heading West to Saffron).
-- Action: Walk West -> Enter Saffron Gatehouse.
-- Strategy:
-    1. **Transit:** Walk West to Saffron Gatehouse (x=4).
-    2. **Transit:** Enter Saffron City -> Magnet Train Station.
-    3. **Transit:** Take Magnet Train from Saffron to Goldenrod.
-    4. **Hunt:** Loop Route 37/Ecruteak until Raikou/Entei is nearby.
-    5. **Encounter:** Use Max Repel, walk in grass. Sleep/Weaken/Catch.
-    2. **Buy Repels:** Locate clerk on 2F.
-    3. **Transit:** Exit to Celadon City/Route 7.
-    3. **Prepare Team:** Lead with Gyarados (Lv 37) + Max Repel.
-    4. **Hunt:** Roam Route 31/30/36 area or use Route 37/Ecruteak loop.
-    5. **Encounter:** Sleep/Weaken/Catch.
-- **Resources:** ¥36644.
+- **Current Task:** Travel to Saffron City.
+- **Location:** Route 8 (East of Saffron).
+- **Action:** Clear phone call -> Walk West to Saffron Gatehouse.
+
+# Strategy (Hunt Loop)
+1.  **Transit:** Enter Saffron City -> Magnet Train Station.
+2.  **Transit:** Take Magnet Train from Saffron to Goldenrod (Johto).
+3.  **Setup:** Fly to Ecruteak City. Ensure Gyarados (Lv 37) is leading.
+4.  **Hunt:** Move between Route 37 and Ecruteak City to shift Roamers.
+    - Check Pokegear Map each time.
+    - If a Beast is on Route 37, use **Max Repel** and enter grass.
+    - If no encounter, return to City and repeat.
+5.  **Encounter:**
+    - **Raikou/Entei:** They flee immediately.
+    - **Plan:** Sleep (if possible) or heavy hit. Master Ball is an option if desperate, but saving for one is better.
+    - *Note:* Roamers retain damage/status.
+
+# Resources
+- **Money:** ¥15644.
+- **Items:** Max Repel x30.
+- **Key Items:** Pass (Magnet Train).
