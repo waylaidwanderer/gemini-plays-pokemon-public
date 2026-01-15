@@ -39,9 +39,9 @@
 - **Money:** ¥15644.
 - **Items:** Max Repel x30.
 - **Key Items:** Pass (Magnet Train).
-- **Status:** Route 38 (35,9). Testing Left Warp.
-- **Next Step:** Left (Trigger Warp?) -> If Gatehouse: Left (Exit).
-- **Note:** Anomaly: 'Left' from warp tile triggered entry before. Testing.
+- **Status:** Route 38 (34,9). Entering Gatehouse. Loop 16 Reset.
+- **Next Step:** Right (Enter Gate) -> Left (Exit Gate) -> Check Map.
+- **Note:** Positioned at (34,9) to ensure clean entry into (35,9).
 - **Roamer Check:** Negative. Resetting.
 - **Strategy:** Manual Reset: Enter -> Exit -> Check.
 - **Strategy:** Manual Reset: Right (Enter) -> Left (Exit) -> Check Map.
