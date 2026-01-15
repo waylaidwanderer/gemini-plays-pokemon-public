@@ -1,29 +1,30 @@
-## Strategy: Northern Plateau Access via Buoy Bypass
+## Strategy: Inner Channel Zig-Zag to Suicune
 **Start Turn:** 48900 (Quest: Trigger Suicune Overworld Sighting)
 
-Cianwood's internal walls and buoys create a maze. The Northern Plateau (Suicune sighting) is accessible by Surfing to Row 10 to pass the X=26 wall, then Row 8 to bypass the X=22 and X=19 buoy walls.
+Cianwood's buoy walls (X=26, X=22, X=19) must be bypassed using specific gaps:
+1. X=26 Wall Gap: Row 10-14 (Target: (25, 10))
+2. X=22 Wall Gap: Row 16-24 (Target: (21, 16))
+3. X=19 Wall Gap: Row 21 (Target: (18, 21))
 
-### Step-by-Step Execution Plan
-1. Surf South to Row 10, then West to (25, 10) via the gap at (26, 10).
-2. Surf North to Row 8, then West to (18, 8), bypassing the X=22 and X=19 walls.
-3. Surf South to (18, 11), then West to land on the plateau at (16, 11).
-4. Walk to (14, 10) to trigger Suicune sighting.
+### Execution Plan
+1. Surf to (25, 10) via gap at (26, 10).
+2. Surf to (21, 16) via gap at (22, 16).
+3. Surf to (18, 21) via gap at (19, 21).
+4. Surf North to (18, 12) and land at (16, 12).
+5. Walk to (14, 10) to trigger Suicune.
 
 ## Tile Mechanics: Cianwood City
-- FLOOR: Standard traversable ground.
-- WALL: Standard impassable barrier.
-- WATER: Traversable only with Surf HM.
+- FLOOR: Standard ground.
+- WALL: Impassable.
+- WATER: Surf required.
 - BUOY: Impassable water barrier.
-- FLOOR_UP_WALL: Impassable from the North side (blocks Down movement).
+- FLOOR_UP_WALL: Impassable from North (blocks Down).
 
-## Failed Hypotheses & Lessons
-- Row 8 Bypass East: Blocked by BUOY at (26, 8). Must enter Row 8 from X=25.
-- Southern Crossing: Blocked by recurring 'FLOOR_UP_WALL' lines.
-- Inner Channel South: Blocked at Row 15 by a solid buoy/wall line.
+## Failed Hypotheses
+- Row 8 Bypass: Blocked by BUOY at (26, 8).
+- Route 40 Bypass: Dead end on the West.
+- Southern Crossing: Blocked by multiple FLOOR_UP_WALL lines.
 
 ## Inventory Check
-- Super Repel: 5 remaining. Last applied turn 49278. (~22 steps remaining per Overwatch).
-
-## Battle Strategy: Eusine
-- Lead: Calcifer (Lv 64 Typhlosion).
-- Strategy: Sweep with Flamethrower.
+- Super Repel: 5 remaining. Last applied turn 49278. (~74 steps remaining).
+- Party: Calcifer (Lv 64) leads. Ready for Eusine.
