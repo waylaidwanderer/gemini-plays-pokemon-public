@@ -12,27 +12,26 @@
 
 ## Plan: Reach North Plateau (Started Turn 48972)
 - Goal: Reach Suicune at (14, 10).
-- Step 1: Reach (20, 30) and Surf. (Done)
-- Step 2: Navigate North to (20, 21) and West to (14, 21) to bypass buoy wall. <- CURRENT TASK
-- Step 3: Land at (13, 16) and navigate zigzag: (11, 16) -> (11, 14) -> (13, 14) -> (13, 10).
+- Step 1: Land at (19, 30) and walk to (12, 28). <- CURRENT TASK
+- Step 2: Surf at (12, 28) and head North to (14, 16).
+- Step 3: Land at (13, 16) and navigate zigzag: (11, 16) -> (11, 15) gap -> (11, 14) -> (14, 10).
 - Step 4: Reach (14, 10) to trigger Suicune sighting.
 
 # Area Notes
 - Photo Studio: (9, 31) (DOOR)
 - Lugia House: (15, 37) (DOOR)
 - Poke Seer: (5, 17) (DOOR)
-- Obstacle: Ledge at (10, 15) blocks Northward progress. Gap at (11, 15).
+- Obstacle: Ledge at (10, 15) blocks Northward progress. Gap at (11, 15) is FLOOR.
 - Obstacle: Wall at Row 13 (X=9-12). Gap at (13, 13).
 - Obstacle: Wall at Row 15 (X=12-17). Gap at (11, 15).
+- Highway: X=12 is a clear vertical path from Row 30 to Row 16 (mostly water).
 - Connection: Route 41 (0, 32) <-> Cianwood City (29, 32).
-- Route: Gap at (19, 21) in buoy wall allows passage to inner channel.
+- Route: Gap at (19, 21) in buoy wall is BLOCKED. Go around via Row 30.
 
 # Tile Mechanics (Verified)
 - FLOOR: Traversable.
-- WALL / BUOY: Impassable.
-- DOOR: Warp point (Avoid unless entering).
-- FLOOR_UP_WALL: Cliff (Impassable).
-- LEDGE_HOP_DOWN: One-way jump (North to South).
 - WATER: Requires Surf.
+- BUOY: Impassable.
+- LEDGE_HOP_DOWN: One-way jump (North to South).
 - Suicune Trigger: North Beach (14, 10).
-- Tool Failure: find_path_v6_fixed failing with sandbox errors (Turn 48981). Manual navigation required.
+- Tool Failure: find_path_v6_fixed failing with sandbox errors. Manual navigation required.
