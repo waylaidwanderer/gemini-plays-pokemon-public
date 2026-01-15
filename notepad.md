@@ -10,13 +10,15 @@
 - FLOOR_UP_WALL: Impassable ledge face. Acts as a solid wall from all directions.
 - LEDGE_HOP_DOWN: One-way jump (North to South).
 
-# Strategy: Capture Suicune
+# Strategy: Capture Suicune (The West Beach Highway)
 - Start Turn: 48227 (Pursuit began)
-- Current Plan (Turn 48463): Reach the northern plateau.
-- Step 1: Identify the path to the northern plateau tiles (Y < 15).
-- Step 2: Navigate to reachable plateau tiles.
-- Step 3: Walk to Suicune at (14, 10).
-- Observation: (10, 14) and (11, 14) were marked as reachable in analysis. Investigating the path.
+- Current Strategy (Turn 48464): Use Row 49 land bridge to reach West Beach.
+- Step 1: Walk to (12, 49) via Strip 3.
+- Step 2: Walk West along Row 49 to (2, 49) (West Beach / Strip 1).
+- Step 3: Walk North along Strip 1 to Row 12.
+- Step 4: Walk East along Row 12 bridge to (14, 12).
+- Step 5: Walk North to Suicune at (14, 10).
+- Status: Row 49 is the only confirmed land bridge across all strips. Row 12 is the intended plateau entry.
 
 # Area Notes: Cianwood City
 - Photo Studio: (9, 31)
@@ -24,5 +26,3 @@
 - Pharmacy: (15, 47)
 - Gym: (8, 43)
 - Breakable Rocks: (5, 29), (8, 16), (9, 17), (10, 27), (4, 19), (4, 25)
-- Obstacles: Row 15/16 ledges block land access to the north. Buoys block most water access.
-- Confirmed: (4, 16) and (4, 17) are walls blocking the beach path. (12, 14) is a wall.
