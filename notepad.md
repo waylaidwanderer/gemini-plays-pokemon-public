@@ -29,4 +29,4 @@
 - **Items:** Max Repel x30.
 - **Key Items:** Pass (Magnet Train).
 - **Interruption:** Turn 39741 - Phone call from Gaven. Resolved.
-- **Current Turn:** 39801. Call finished. Entering Route 37 to shuffle.
+- **Current Turn:** 39802. On Route 37. Checking Pokegear for Beasts.
