@@ -13,10 +13,12 @@
 # Goal Tracking: Capture Suicune
 - Start Turn: 48227
 - Start Time: Wednesday, 3:37 PM (Turn 48250)
-- Strategy: The Northern Sea Bypass (Turn 48337).
-- Step 1: Surf North along Route 41 Column 0 to Row 1. (In Progress)
-- Step 2: Enter Cianwood at (29, 1) and Surf West to (14, 1).
-- Step 3: Surf South to (14, 11) and land at (14, 10) plateau.
+- Strategy: The Great Deep Sea Bypass (Turn 48340).
+- Step 1: Exit Cianwood at (29, 1) to Route 41 (0, 1). (In Progress)
+- Step 2: Surf South on Route 41 to (0, 51).
+- Step 3: Enter Cianwood at (29, 51) and walk West to (2, 51).
+- Step 4: Walk North along Column 2 to (2, 12).
+- Step 5: Walk East along Row 12 to (14, 12) and North to (14, 10).
 
 # Custom Tools (Technical Details)
 - find_path_v4: BFS pathfinder for current map.
