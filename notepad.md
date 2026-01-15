@@ -1,26 +1,28 @@
 # Suicune Quest (Cianwood)
 - Quest Start: Turn 48900
 
-## Strategy: The Great Southern Loop
-To reach the northern plateau at (14, 10), I must bypass several jump-down ledge lines. Terrestrial paths are blocked by FLOOR_UP_WALL tiles at Row 34, 46, 48, and 50. I will navigate through specific gaps to reach the western corridor (X=2).
+## Strategy: The Row 28 Corridor
+The most efficient path to the northern plateau at (14, 10) is via the western corridor (X=2). Row 28 is a clear terrestrial passage that crosses Wall X=9 and Wall X=5 without obstacles, providing access to the western edge of the map.
 
 ## Execution Plan
-1. Walk to (18, 45) via (20, 45). (Done)
-2. Move south through gap to (18, 47). (Bypasses Row 46). <- CURRENT TASK
-3. Walk west to (12, 47), then south through gap to (12, 49). (Bypasses Row 48).
-4. Walk west to (10, 49), then south through gap to (10, 51). (Bypasses Row 50).
-5. Walk west to (2, 51), then north through western corridor (X=2) to Row 10.
-6. Walk east to (14, 10) to trigger Suicune.
+1. Walk North to (18, 33). <- CURRENT TASK
+2. Walk West to (12, 33), then North to (12, 28).
+3. Walk West along Row 28 to (2, 28).
+4. Walk North along X=2 to (2, 12).
+5. Walk East along Row 12 to (14, 12).
+6. Walk North to (14, 10) to trigger Suicune.
 
 ## Verified Tile Mechanics
-- FLOOR_UP_WALL: Blocks DOWN (South) movement. Verified at (12, 50) and (13, 50) in Turn 49400.
-- LEDGE_HOP_DOWN: Blocks NORTH movement. Verified at (10, 15).
-- WALL: Standard impassable barrier.
+- Row 28: Clear corridor (X=2 to X=12).
+- X=2: Clear corridor (Row 14 to Row 53).
+- Row 12: Clear corridor (X=2 to X=16).
+- FLOOR_UP_WALL: Blocks DOWN (South) movement. (Verified at Row 34, 46, 48, 50).
+- LEDGE_HOP_DOWN: Blocks NORTH movement. (Verified at (10, 15)).
 
 ## Failed Hypotheses
-- Island Hop (13, 16) via (11, 15): Dead end alcove at (11, 14).
-- Southern Surf: Eastern channel ends at Row 45.
-- Direct Western Walk: Blocked by wall lines and upward ledges at Row 34.
+- Southern Ledge Maze: Too complex; Row 28 is a direct bypass.
+- Inner Channel (X=12): Blocked at Row 15 by buoy wall.
+- Island Hop (13, 16): Dead end pocket at (11, 14).
 
 ## Progress Summary
 - Badges: 16/16.
