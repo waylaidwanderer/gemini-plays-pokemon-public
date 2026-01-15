@@ -10,19 +10,21 @@
 5. Route 25
 6. Tin Tower 1F
 
-## Plan: Reach North Plateau (Sea Route)
-- Step 1: Surf East to (27, 30). <- CURRENT TASK
-- Step 2: Surf North to (27, 8) to bypass Buoy Wall (X=22-26, Row 9).
-- Step 3: Surf West to (19, 8).
-- Step 4: Surf South to (19, 11).
-- Step 5: Surf West and land at (16, 11).
-- Step 6: Walk to (14, 10) to trigger Suicune sighting.
+## Plan: Reach North Plateau (West Beach Highway)
+- Step 1: Reach (23, 32) and land. <- CURRENT TASK
+- Step 2: Walk South along X=23 to Row 51.
+- Step 3: Walk West along Row 51 to X=4.
+- Step 4: Walk North along X=4 to Row 35.
+- Step 5: Walk West to X=2 (West Beach).
+- Step 6: Walk North along X=2 to Row 10.
+- Step 7: Walk East along Row 10 to (14, 10) for Suicune sighting.
 
-# Navigation Notes
-- Buoy Wall: X=22-26, Row 9. Bypass at X=27.
-- Ledge: (10, 15) blocks direct North path from center.
-- Landing: (16, 11) is target landing spot.
-- Suicune Trigger: (14, 10).
+# Highway Definitions
+- X=23: Clear vertical path (Row 32 to 51).
+- Row 51: Clear horizontal path (X=4 to 24).
+- X=4: Clear vertical path (Row 35 to 51).
+- X=2: Clear vertical path (Row 10 to 35).
+- Row 10: Clear horizontal path (X=2 to 14).
 
 # Tile Mechanics
 - FLOOR: Traversable.
@@ -31,7 +33,9 @@
 - LEDGE_HOP_DOWN: One-way jump (North to South).
 - WATER: Requires Surf.
 - BUOY: Impassable.
-- ROCK: Smashable obstacle.
 
 # Tracking
-- Super Repel active: Turn 49046.
+- Super Repel active: Turn 49046 (~180 steps remaining).
+- Suicune Trigger: (14, 10).
+- Plateau Landing (Secondary Plan): (15, 11).
+- Landing Point (Current): (23, 32).
