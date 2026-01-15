@@ -1,10 +1,11 @@
 # Suicune Quest (Cianwood)
 - **Start Turn:** 48900
-- **Current Status:** At (12, 28). Initiating southern bypass route via Surf.
+- **Quest Start:** Turn 48900 (Suicune Tracking)
+- **Status:** Using Super Repel. Preparing to test gap at (11, 15).
 
 ## Execution Plan (Island Hop Investigation)
-1. Use Super Repel. (Turn 49409) <- CURRENT TASK
-2. Surf North to (14, 16) and land at (13, 16).
+1. Use Super Repel. (Turn 49411) (Done)
+2. Surf North to (14, 16) and land at (13, 16). <- CURRENT TASK
 3. Walk West to (11, 16) and attempt to walk North through (11, 15).
 4. If successful, walk to (14, 10) to trigger Suicune.
 5. If blocked at (11, 15), execute Southern Bypass (Surf to Row 51).
