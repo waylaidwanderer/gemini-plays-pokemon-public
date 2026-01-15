@@ -1,36 +1,31 @@
-# Strategy: Catch Legendary Pokémon (Started Turn 48785)
+# Strategy: Trigger Suicune Sightings (Started Turn 48828)
+- Goal: Complete the overworld sighting sequence to trigger the final battle at Tin Tower.
+- Status: Step 1 (Burned Tower) completed. 16 Badges obtained. Clear Bell in possession.
+
+## Suicune Chase Sequence (Crystal)
+1. Burned Tower (Completed)
+2. Cianwood City (North Beach plateau at (14, 10)) <- CURRENT TARGET
+3. Route 42 (Mt. Mortar entrance)
+4. Kanto Route 14 (Near Fuchsia City)
+5. Route 25 (Cerulean Cape, near Bill's house)
+6. Tin Tower 1F (Final Battle)
+
+## Plan for Cianwood (Step 2)
+1. Fly to Cianwood City.
+2. Navigate to the Southern Corridor (Row 51).
+3. Walk West along Row 51 to the West Beach (X=0-2).
+4. Walk North along the West Beach highway to (2, 14).
+5. Walk East along Row 12/14 to reach the plateau at (14, 10).
+6. Trigger the cutscene with Eusine.
+
+# Area Notes: Cianwood City
+- Photo Studio: (9, 31) | Poke Seer: (5, 17)
+- Pharmacy: (15, 47) | Gym: (8, 43) | PokeCenter: (23, 43)
+- West Beach Highway: X=0, 1, 2.
+- Land Bridge: Row 51 (X=4-24).
 
 # Tile Mechanics (Verified)
 - FLOOR: Standard ground. Traversable.
 - WALL: Impassable.
 - LADDER: Warp point between floors. Traversable.
-- WARP_CARPET_RIGHT: Warp point to another map. Traversable by moving Right.
-- WARP_CARPET_LEFT: Warp point to another map. Traversable by moving Left.
-- WARP_CARPET_UP: Warp point to another map. Traversable by moving Up.
 - WARP_CARPET_DOWN: Warp point to another map. Traversable by moving Down.
-
-- Goal: Locate and capture Suicune, Lugia, and Ho-Oh.
-- Status: 16 Badges obtained. Clear Bell in possession.
-
-## Plan
-1. Fly to Ecruteak City.
-2. Navigate to Tin Tower (North-East corner of city).
-3. Battle and Capture Suicune (Lv40).
-4. Fly to Pewter City -> Obtain Silver Wing from Old Man.
-5. Go to Whirl Islands -> Capture Lugia (Lv60).
-6. Capture Ho-Oh (Lv60) at Tin Tower Roof (Requires Suicune, Entei, Raikou).
-
-## Battle Strategy: Suicune
-- Lead: XENON (Haunter).
-- Move 1: Hypnosis to inflict Sleep.
-- Move 2: Night Shade (44 HP fixed damage) to weaken safely.
-- Ball: Ultra Ball.
-
-# Legendary Requirements
-- Suicune: Clear Bell (Have). Found at Tin Tower base.
-- Lugia: Silver Wing (Pewter City). Found in Whirl Islands.
-- Ho-Oh: Rainbow Wing (Requires catching Suicune, Entei, and Raikou). Found at Tin Tower top.
-
-# General Lessons
-- Legendary Triggers: In Crystal, Suicune's encounter at Tin Tower is triggered by having the Clear Bell and speaking to all three Sages on the first floor.
-- False Constraints: Chasing Suicune on the beach after 16 badges was a false constraint. The game logic moves the encounter to the Tin Tower for the final battle.
