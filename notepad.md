@@ -39,5 +39,5 @@
 - **Money:** ¥15644.
 - **Items:** Max Repel x30.
 - **Key Items:** Pass (Magnet Train).
-- **Status:** Call Finished. Resuming Loop 7/50.
+- **Status:** Route 38. Checking Map. Loop 7/50.
 - **Next Step:** Check Roamer Map.
