@@ -141,7 +141,7 @@
     ]
   },
   "check_roamer_map": {
-    "description": "Opens the Pokegear and reliably navigates to the Map card to check for roaming beasts. Uses a 'Left x3, Right' sequence to force the cursor to the Back button then move to Map. Includes 'Start' to open the menu and 'A' to select.",
+    "description": "Opens the Pokegear and reliably navigates to the Map card to check for roaming beasts. Navigates the Start Menu (Start -> Up x3 -> Down x3 -> A) to ensure Pokegear selection, then uses a 'Left x3, Right' sequence to select the Map card.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -155,7 +155,7 @@
         "autopress_buttons"
       ]
     },
-    "python_script": "print('[\"Start\", \"sleep 500\", \"A\", \"sleep 500\", \"Left\", \"Left\", \"Left\", \"sleep 200\", \"Right\", \"sleep 500\", \"A\", \"sleep 500\"]')",
+    "python_script": "print('[\"Start\", \"sleep 500\", \"Up\", \"Up\", \"Up\", \"Down\", \"Down\", \"Down\", \"sleep 200\", \"A\", \"sleep 1000\", \"Left\", \"Left\", \"Left\", \"sleep 200\", \"Right\", \"sleep 500\", \"A\", \"sleep 500\"]')",
     "history": [
       {
         "commit_message": "Initial version",
@@ -181,6 +181,11 @@
         "commit_message": "Fixed Python script to return a JSON list directly (e.g., `[\"A\", \"B\"]`) instead of an object (`{\"buttons\": [...]}`), resolving the 'Output is not an array' error when using `autopress_buttons`.",
         "timestamp": "2026-01-15T08:21:58.886Z",
         "action_counter": 40329
+      },
+      {
+        "commit_message": "Updated to include robust Start Menu navigation (Start -> Up x3 -> Down x3 -> A) before the Pokegear navigation sequence. This ensures the tool works regardless of previous Start Menu cursor position.",
+        "timestamp": "2026-01-15T09:43:38.235Z",
+        "action_counter": 40373
       }
     ]
   }
