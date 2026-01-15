@@ -11,9 +11,14 @@
 6. Tin Tower 1F (Final Battle)
 
 ## Plan for Cianwood (Step 2)
-- Hypothesis: Reach North Plateau (14, 10) via the North Water Channel (X=23-25 gap in Row 15 buoys).
-- Action: Surf North from (19, 30) along X=20-25, bypass buoys at Row 15, then Surf West along Row 8 to land on the plateau.
-- Obstacle: (15, 37), (9, 31), (5, 17) are DOORS. Avoid during pathfinding.
+- Step 1: Select YES to Surf at (19, 30). <- CURRENT TASK
+- Step 2: Surf North to (19, 21) (Buoy Gap).
+- Step 3: Surf West into Inner Channel to (17, 21).
+- Step 4: Surf North to (17, 16) then West to (14, 16).
+- Step 5: Land at (13, 16) (Inner Channel Surf Point).
+- Step 6: Walk North through gap at X=13 to (13, 12).
+- Step 7: Walk East to (14, 12) then North to Suicune at (14, 10).
+- Step 8: Trigger cutscene with Eusine.
 
 # Area Notes: Cianwood City
 - Photo Studio: (9, 31) (DOOR)
