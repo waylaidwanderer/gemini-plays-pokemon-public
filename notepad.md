@@ -1,7 +1,7 @@
 # Suicune Quest (Cianwood)
 - **Quest Start:** Turn 48900
 - **Timestamp:** Turn 49419 (Resumed)
-- **Status:** Investigating gap at (11, 15). Repel active (~190 steps).
+- **Status:** At (12, 28), facing North. Initiating Surf.
 
 ## Execution Plan (Island Hop)
 1. Walk to (12, 28) and use Surf. <- CURRENT TASK
