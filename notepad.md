@@ -12,19 +12,9 @@
 - **Goal:** Register Raikou & Entei.
 - **Current Task:** Gatehouse Shuffle (Looping Rt 38 <-> Gatehouse).
 - **Location:** Route 38 (East Side).
-- **Action:** Shuffle #5 Check.
-
-# Hunt Strategy
-1. **Target Acquired:** Beast IS on Route 38!
-2. **Action:** Fix Lead Pokemon -> Repel -> Hunt.
-3. **Contingency:** If it flees, track location and pursue.
-
-# Resources
-- **Balls:** Ultra Ball x16.
-- **Repels:** Max Repel x27.
-- **Party:** Gyarados (Lv 37) [Lead], Lugia (Lv 60).
+- **Action:** Shuffle #7 Negative. Starting Shuffle #8.
 
 # Log
-- **Phase 3 (Gatehouse Shuffle) - Started Turn ~40550:**
+- **Phase 3 (Gatehouse Shuffle):**
     - Strategy: Looping Route 38 <-> Gatehouse to force Roamer movement.
-    - Current Status: Shuffle #7 Negative. Closing Map.
+    - Current Status: Shuffle #7 Negative. Preparing Shuffle #8.
