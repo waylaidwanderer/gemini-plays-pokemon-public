@@ -8,10 +8,10 @@
 - **Current Task:** Restock Supplies.
 - Location: Celadon Dept Store 2F.
 - Action: Buying Max Repels from Clerk at (13,5).
-- Status: Fly Map Open. Cursor at Pallet Town.
-- Action: Navigate Cursor to Saffron City (Up -> Up -> Right -> Down).
+- Status: Fly Map Open. Cursor at Viridian City.
+- Action: Navigate Cursor to Saffron City (Up -> Right -> Down).
 - Strategy:
-    1. **Navigate:** Up (Viridian) -> Up (Pewter) -> Right (Cerulean) -> Down (Saffron).
+    1. **Navigate:** Up (Pewter) -> Right (Cerulean) -> Down (Saffron).
     2. **Verify:** Confirm screen text reads "Saffron City".
     3. **Fly:** Press A to confirm.
     4. **Transit:** Take Magnet Train from Saffron to Goldenrod.
