@@ -1,7 +1,7 @@
 # Mechanics
 - **Battle Cursor:** Remembers last move used.
 - **Fly Map:** Visual Map (Cursor based). Use D-pad to select city. **Cursor persists:** Verify destination text.
-- **Pokegear Map:** Visual. Roaming Beasts appear as icon.
+- **Pokegear Map:** Visual. (Does NOT track Roamers in Crystal - Use Pokedex).
 - **Menu Memory:** Start Menu and Pokegear cursors remember their last position. Always verify state.
 - **Repel Safety:** Always re-apply Repel IMMEDIATELY upon expiration.
 - **Tile Mechanics:**
