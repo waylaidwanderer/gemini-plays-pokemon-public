@@ -8,10 +8,10 @@
 - **Current Task:** Restock Supplies.
 - Location: Celadon Dept Store 2F.
 - Action: Buying Max Repels from Clerk at (13,5).
-- Status: Fly Map Open. Cursor at Viridian (likely input drop).
-- Action: Reset Cursor (Close/Open Map) -> Navigate to Saffron (Up -> Left).
+- Status: In Mistral's Menu (Cursor on CANCEL).
+- Action: Select FLY -> Navigate to Saffron (Up -> Left).
 - Strategy:
-    1. **Reset:** Press B (Close) -> A (Open Fly Map, centers on Fuchsia).
+    1. **Open Map:** Down (Wrap to FLY) -> A.
     2. **Navigate:** Up (Lavender) -> Left (Saffron).
     3. **Verify:** Confirm screen text reads "Saffron City".
     4. **Fly:** Press A to confirm.
