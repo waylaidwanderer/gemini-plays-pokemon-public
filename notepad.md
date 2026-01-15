@@ -14,12 +14,10 @@
 - Approach: The Northern Buoy Bypass (Verified)
 - Plan:
   1. Use Super Repel. [IN PROGRESS]
-  2. Navigate to (27, 10).
-  3. West to (25, 10), then North to (25, 8).
-  4. West through Gap at (22, 8) to (19, 8).
-  5. South through Column 19 to (19, 11).
-  6. West to land at (16, 11) or (17, 11).
-  7. Walk to (14, 10).
+  2. Navigate to (23, 16), then North through Gap 6 at (23, 15) to (23, 14).
+  3. Navigate West to (19, 14) [Gap 4].
+  4. Navigate North to (19, 11), then West to land at (16, 11).
+  5. Walk to (14, 10) to trigger sighting.
 - Status: At (27, 18) surfing, using Super Repel.
 - Reasoning: Row 8 is the only verified way to bypass the solid buoy wall at X=22. Row 10 is the only verified way to bypass the solid buoy wall at X=26.
 
