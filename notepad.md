@@ -4,21 +4,21 @@
 - **Pokegear Map:** Visual. (Does NOT track Roamers in Crystal - Use Pokedex).
 - **Menu Memory:** Start Menu and Pokegear cursors remember their last position. Always verify state.
 - **Repel Safety:** Always re-apply Repel IMMEDIATELY upon expiration.
-- **Tile Mechanics:**
-    - **Route 38 Gatehouse (35,8) & (35,9):** "Sticky" warps. Moving into them requires a second input to trigger the warp.
-    - **Traversal:** "Double Tap" direction (Right x2 to enter, Left x2 to exit) ensures successful transition.
+
+# Tile Mechanics
+- **WARP_CARPET_RIGHT:** Usually requires walking off the map edge.
+- **Sticky Warps (Gatehouses):** Require walking *into* the wall/direction of travel while ON the warp tile (e.g., Double Tap Right to enter).
+- **TALL_GRASS:** Wild encounters possible.
+- **LEDGE_HOP:** One-way movement.
 
 # Strategic Status
-- **Goal:** Register Raikou & Entei.
-- **Current Task:** Re-applying Max Repel, then Gatehouse Shuffle.
-- **Session Start:** Turn 40789 (Repel & Resume).
+- **Current Task:** Gatehouse Shuffle (Route 38 <-> Gatehouse).
+- **Session Start:** Turn 40789 (Repel Active).
 - **Location:** Route 38 (Scanning Cycle #22).
-- **Encounter:** Wild Tauros (Lv13) - Repel Expired.
-- **Action:** Opening Menu to use Max Repel.
+- **Action:** Entering Gatehouse to shuffle.
 - **Pokedex Mode:** Old (National Dex). Target: #243 Raikou, #244 Entei.
-- **Pokedex Status:** #243 (Raikou) & #244 (Entei) are UNSEEN (Cannot track). #245 (Suicune) is SEEN.
+- **Pokedex Status:** #243 (Raikou) & #244 (Entei) are UNSEEN.
 - **Strategy:** Blind Gatehouse Shuffle.
-    1. Apply Max Repel (Lead Lv37).
-    2. Shuffle (Route 38 <-> Gatehouse).
-    3. Run in grass for ~20 steps.
-    4. If no encounter, repeat.
+    1. Shuffle (Route 38 <-> Gatehouse).
+    2. Run in grass for ~20 steps.
+    3. If no encounter, repeat.
