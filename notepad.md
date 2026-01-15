@@ -32,5 +32,5 @@
 - **Money:** ¥15644.
 - **Items:** Max Repel x30.
 - **Key Items:** Pass (Magnet Train).
-- **Status:** Route 37. Checking Map. Loop ~75/75.
-- **Next Step:** Check Roamer Map.
+- **Status:** Loop 75 failed. No beasts on Rt 37. Strategy Shift.
+- **Next Step:** Return to Ecruteak, then head West to Route 38.
