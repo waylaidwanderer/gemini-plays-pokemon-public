@@ -27,5 +27,4 @@
 - **Money:** ¥15644.
 - **Items:** Max Repel x30.
 - **Key Items:** Pass (Magnet Train).
-- **Status:** Beasts on Rt 38 & 42 (Turn 39819). Shuffling.
-- **Action:** Rt 37 -> Ecruteak -> Rt 37.
+- **Status:** In Ecruteak (Turn 39821). Checking Map for Beast locations.
