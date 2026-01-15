@@ -39,6 +39,6 @@
 - **Money:** ¥15644.
 - **Items:** Max Repel x30.
 - **Key Items:** Pass (Magnet Train).
-- **Status:** Route 38. Checking Map. Loop 8/50.
-- **Next Step:** Check Roamer Map.
+- **Status:** Menu Misclick (Opened Pokedex). Exiting to Reset.
+- **Next Step:** Exit Menu -> Open Pokegear (Down x3) -> Check Map.
 - **Lesson:** Gatehouse warps can be sticky. Automate resets to avoid 'doorway effect'.
