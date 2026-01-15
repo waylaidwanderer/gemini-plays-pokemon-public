@@ -1,19 +1,20 @@
 # Strategy: Capture Suicune (Started Turn 48227)
 - Goal: Reach (14, 10) in Cianwood City to trigger sighting.
-- Approach: The Great Northern Buoy Loop (Route 41)
+- Approach: The West Beach Land Route (Verified)
 - Plan:
-  1. Walk to (27, 44) and Surf. [IN PROGRESS]
-  2. Exit East to Route 41 at (29, 44).
-  3. Navigate North on Route 41 to (0, 6).
-  4. Re-enter Cianwood City at (29, 6).
-  5. Navigate West through gaps at (26, 6) and (22, 6) to (19, 6).
-  6. Navigate South to (19, 11).
-  7. Land at (16, 11) and walk to (14, 10).
-- Reasoning: Row 15 is an impassable land barrier (ledge/walls). The buoy walls at X=26 and X=22 seal the northern channel from the south. Gaps at Row 6 on Route 41 provide the only verified entrance to the northern plateau pocket.
+  1. Use Super Repel. [DONE]
+  2. Walk to (2, 37) via Row 38 (Gap at (5, 37)). [IN PROGRESS]
+  3. Walk North along West Beach (X=2) to (2, 12).
+  4. Walk East along Row 12 to (14, 12).
+  5. Walk North to (14, 10).
+- Status: At (27, 44) on land, exiting SURF menu.
+- Reasoning: Row 15 is a solid barrier from X=3 to X=17. X=0,1,2 (West Beach) is the only land path North. Row 37 has a gap at (5, 37) to reach the beach from the central city. Row 12 is a horizontal artery that provides access to the sighting spot.
 
 # Blocked Routes (Verified)
-- Land Access: Blocked by Row 15 ledge (10, 15) and walls (12-17, 15).
-- Water Access (South): Blocked by Row 15 buoy wall (18-22, 15).
+- Central City: Vertical walls at X=5, X=9, X=11, X=17.
+- Row 15 Barrier: Solid wall/ledge from X=3 to X=17.
+- Row 30/34/46 Barriers: Impassable cliffs (FLOOR_UP_WALL).
+- Route 41 Water Loop: Blocked by north-south ledge at X=15 (faces East).
 
 # Tile Mechanics (Verified)
 - FLOOR: Standard ground. Traversable.
@@ -26,5 +27,7 @@
 # Area Notes: Cianwood City
 - Photo Studio: (9, 31) | Poke Seer: (5, 17)
 - Pharmacy: (15, 47) | Gym: (8, 43) | PokeCenter: (23, 43)
-- Northern Gaps: Row 6 (X=22, X=26).
-- Landing Spot: (16, 11).
+- West Beach: X=2 (Row 12 to Row 51 confirmed).
+- Northern Access: Row 12 (X=2 to X=16 confirmed).
+- Land Bridge: Row 38 (X=6 to X=27).
+- City Gap: Row 37 (X=5).
