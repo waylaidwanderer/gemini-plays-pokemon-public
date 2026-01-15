@@ -11,9 +11,9 @@
 The northern plateau (14, 10) is reached by walking to the Outer Sea (X=23), Surfing North to Row 15, and finding a landing point on the northern shore.
 
 ## Execution Plan
-1. Move to (23, 32) and Surf into the Outer Sea. <- CURRENT TASK
-2. Navigate North to Row 15 and pass through the buoy gap at (23, 15).
-3. Navigate West along Row 11-12 to find a landing point near (16, 12).
+1. Surf into the Outer Sea at (24, 32). (Done)
+2. Navigate North to Row 9 and pass through the buoy gap at (27, 9). <- CURRENT TASK
+3. Navigate West along Row 6-8 to find a landing point on the northern plateau.
 4. Walk to (14, 10) to trigger Suicune sighting.
 
 ## Lessons Learned
