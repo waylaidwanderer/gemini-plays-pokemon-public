@@ -11,12 +11,13 @@
 - Wall X=5: (5, 30)-(5, 33) are WALL.
 - Door Warps: (17, 41) is a DOOR (Avoid as corridor).
 
-## Execution Plan (Terrestrial Bypass)
-1. Walk to (10, 33) via (20, 38). <- CURRENT TASK
-2. Walk West through gap at (9, 33) to (8, 33).
-3. Attempt to move South to (8, 34) (Ledge test).
-4. If successful, walk West to (2, 34) and North to (14, 10).
-5. If blocked, find alternate gap or loop via Row 51.
+## Execution Plan (The Great Southern Loop)
+1. Walk to (21, 45) via (21, 33). <- CURRENT TASK
+2. Walk West to (19, 45), then South to (19, 46).
+3. Walk West to (18, 46), then South to (18, 49).
+4. Walk East to (20, 49), then South to (20, 51).
+5. Walk West to (2, 51), then North to (2, 14).
+6. Walk East to (14, 10) to trigger Suicune.
 
 ## Failed Hypotheses
 - Island Hop (13, 16): Dead end pocket at (11, 14).
