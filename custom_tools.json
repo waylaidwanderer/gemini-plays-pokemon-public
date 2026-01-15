@@ -50,5 +50,29 @@
         "action_counter": 41152
       }
     ]
+  },
+  "wiggle_patrol": {
+    "description": "Moves Left and Right repeatedly to trigger wild encounters in a confined area.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "cycles": {
+          "type": "integer",
+          "description": "Number of Left-Right pairs to perform.",
+          "default": 5
+        }
+      },
+      "required": [
+        "cycles"
+      ]
+    },
+    "python_script": "import json\ncycles = input_data.get('cycles', 5)\nbuttons = []\nfor _ in range(cycles):\n    buttons.append(\"Left\")\n    buttons.append(\"Right\")\nprint(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-15T23:27:07.414Z",
+        "action_counter": 41251
+      }
+    ]
   }
 }
