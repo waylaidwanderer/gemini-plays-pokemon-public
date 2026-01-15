@@ -1,7 +1,6 @@
 # Suicune Quest (Cianwood)
-- **Start Turn:** 48900
 - **Quest Start:** Turn 48900 (Suicune Tracking)
-- **Status:** Using Super Repel. Preparing to test gap at (11, 15).
+- **Status:** Investigating (11, 15) gap. Repel active.
 
 ## Execution Plan (Island Hop Investigation)
 1. Use Super Repel. (Turn 49411) (Done)
