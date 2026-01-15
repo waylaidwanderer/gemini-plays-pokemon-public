@@ -11,8 +11,8 @@
 6. Tin Tower 1F (Final Battle)
 
 ## Plan for Cianwood (Step 2)
-1. Navigate to shoreline at (23, 32). <- CURRENT TASK
-2. Surf East into the channel.
+1. Navigate to shoreline at (23, 32). (Completed)
+2. Surf East into the channel at (24, 32). <- CURRENT TASK
 3. Surf South into Route 41.
 4. Surf West and then North along the island's coast to reach the West Beach (X=0-2).
 5. Land on the West Beach and walk North to Row 12.
