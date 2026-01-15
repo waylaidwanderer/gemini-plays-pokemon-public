@@ -29,4 +29,4 @@
 - **Money:** ¥15644.
 - **Items:** Max Repel x30.
 - **Key Items:** Pass (Magnet Train).
-- **Status:** On Route 37 (Turn 39921). Pokegear Open. Selecting Map.
+- **Status:** Beasts on Rt 38, 42, 44 (Turn 39922). Moving to Ecruteak.
