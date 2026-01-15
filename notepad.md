@@ -22,10 +22,11 @@
 - NPC: Impassable. Interact from adjacent tile.
 
 # Strategy: Capture Suicune (Pursuit started Turn 48227)
-- Current Approach: The Buoy Maze Redux (Turn 48615)
-- Step 1: Surf at (19, 30) and navigate to (16, 11) via buoy gaps. [IN PROGRESS]
-- Step 2: Land at (16, 11) and walk to (14, 10) to trigger sighting. [NOT STARTED]
-- Note: West Beach trek and central city path are both blocked from the northern plateau.
+- Current Approach: The West Beach Bypass (Turn 48621)
+- Step 1: Land at (19, 30) and walk to (15, 28) -> (4, 28). [IN PROGRESS]
+- Step 2: Jump down ledge at (4, 30) to reach West Beach (X=2). [NOT STARTED]
+- Step 3: Walk North along X=2 to (2, 12) -> (14, 12) -> (14, 10). [NOT STARTED]
+- Note: This path bypasses the buoy maze and all rocks. Ledges at X=2 don't block North movement.
 
 # Area Notes: Cianwood City
 - Photo Studio: (9, 31) | Poke Seer: (5, 17)
