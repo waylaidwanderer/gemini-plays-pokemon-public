@@ -39,10 +39,10 @@
 - **Money:** ¥15644.
 - **Items:** Max Repel x30.
 - **Key Items:** Pass (Magnet Train).
-- **Status:** Route 38 (35,9). Checking Map. Loop 22/50.
-- **Next Step:** Check Map (Tool).
-- **Note:** Exited Gatehouse. Ready to check Loop 22.
-- **Roamer Check:** Checking Map.
+- **Status:** Route 38 (35,9). Loop 22 Negative. Resetting.
+- **Next Step:** Close Map (B) -> Close Gear (B) -> Left (Step off) -> Right (Enter Gate).
+- **Note:** Beasts on Rt 42, Rt 44, Rt 32. Not here.
+- **Roamer Check:** Negative. Resetting for Loop 23.
 - **Strategy:** Manual Reset: Enter -> Exit -> Check.
 - **Strategy:** Manual Reset: Right (Enter) -> Left (Exit) -> Check Map.
 - **Strategy:** Manual Reset Loop: Check Map -> B -> Right (Enter Gate) -> Left (Exit Gate) -> Start (Map).
