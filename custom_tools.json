@@ -1,6 +1,6 @@
 {
   "patrol_area": {
-    "description": "Generates a sequence of button presses to patrol back and forth along a specified axis with a stride length.",
+    "description": "Generates a sequence of button presses to patrol back and forth along a specified axis with a stride length. (v2)",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -32,7 +32,7 @@
         "start_positive"
       ]
     },
-    "python_script": "axis = input_data.get('axis', 'horizontal')\nstride = input_data.get('stride', 4)\ncycles = input_data.get('cycles', 3)\nstart_positive = input_data.get('start_positive', True)\n\nbuttons = []\nif axis == 'horizontal':\n    dir_pos = \"Right\"\n    dir_neg = \"Left\"\nelse:\n    dir_pos = \"Down\"\n    dir_neg = \"Up\"\n\nfirst = dir_pos if start_positive else dir_neg\nsecond = dir_neg if start_positive else dir_pos\n\nfor _ in range(cycles):\n    for _ in range(stride):\n        buttons.append(first)\n    for _ in range(stride):\n        buttons.append(second)\n\nprint(f'{buttons}'.replace(\"'\", '\"'))",
+    "python_script": "# Patrol Area Tool v2\naxis = input_data.get('axis', 'horizontal')\nstride = input_data.get('stride', 4)\ncycles = input_data.get('cycles', 3)\nstart_positive = input_data.get('start_positive', True)\n\nbuttons = []\nif axis == 'horizontal':\n    dir_pos = \"Right\"\n    dir_neg = \"Left\"\nelse:\n    dir_pos = \"Down\"\n    dir_neg = \"Up\"\n\nfirst = dir_pos if start_positive else dir_neg\nsecond = dir_neg if start_positive else dir_pos\n\nfor _ in range(cycles):\n    for _ in range(stride):\n        buttons.append(first)\n    for _ in range(stride):\n        buttons.append(second)\n\nprint(f'{buttons}'.replace(\"'\", '\"'))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -43,6 +43,11 @@
         "commit_message": "Added stride and cycle parameters to allow for wider patrol loops instead of just oscillating between two tiles.",
         "timestamp": "2026-01-15T21:33:23.577Z",
         "action_counter": 41075
+      },
+      {
+        "commit_message": "Minor update to description and code comment to attempt to trigger sandbox environment reset.",
+        "timestamp": "2026-01-15T22:24:07.527Z",
+        "action_counter": 41152
       }
     ]
   }
