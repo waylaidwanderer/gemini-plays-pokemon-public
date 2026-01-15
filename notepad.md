@@ -2,14 +2,13 @@
 - Goal: Reach (14, 10) in Cianwood City to trigger sighting.
 - Approach: The West Beach Highway (Land Route)
 - Plan:
-  1. Walk to (6, 33) via Row 33. [IN PROGRESS]
-  2. Jump down ledge at (6, 34) to (6, 35).
-  3. Walk to (2, 37) via (6, 37) and (5, 37).
-  4. Walk North along West Beach (X=2) to (2, 14).
-  5. Walk East along Row 12 to (14, 12).
-  6. Walk North to (14, 10).
+  1. Walk to (6, 51) via (15, 30) -> (15, 44) -> (6, 44). [IN PROGRESS]
+  2. Walk West along Row 51 to (2, 51).
+  3. Walk North along West Beach (X=2) to (2, 12).
+  4. Walk East along Row 12 to (14, 12).
+  5. Walk North to (14, 10).
 - Status: At (19, 30). Repel active.
-- Reasoning: Row 15 is a solid barrier from X=3 to X=17. X=0,1,2 (West Beach) is the only confirmed land path North. Row 37 has a gap at X=5 to reach the beach from the central city. Row 12 is a horizontal artery that provides access to the sighting spot.
+- Reasoning: The city is divided by vertical walls and Row 15/30/46 cliffs. Row 51 is the only confirmed land bridge to the West Beach (X=2). X=2 is a clear vertical highway that bypasses all northern barriers. Row 12 provides the horizontal entry to the sighting spot.
 
 # Blocked Routes (Verified)
 - Central City: Vertical walls at X=5, X=9, X=11, X=17.
@@ -29,4 +28,4 @@
 - Pharmacy: (15, 47) | Gym: (8, 43) | PokeCenter: (23, 43)
 - West Beach: X=2 (Row 14 to Row 51 confirmed).
 - Northern Access: Row 12 (X=2 to X=16 confirmed).
-- City Gaps: Row 33 (X=9), Row 37 (X=5).
+- Land Bridges: Row 51 (X=4-24), Row 44 (X=6-25), Row 33 (X=6-12), Row 29 (X=4-15).
