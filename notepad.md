@@ -14,16 +14,15 @@
 - **Location:** Route 38 (West of Ecruteak).
 - **Hunt Start:** Turn ~40000.
 - **Current Loop:** 17.
-- **Action:** Recover & Check Map (Robust Sequence).
+- **Action:** Recover Manual (Sandbox Down?).
 - **Hunt Progress:** Phase 2 Loop 17/50.
-- **Error:** Opened Pokedex (Beedrill).
+- **Error:** `press_sequence_with_delays` failed (sandbox error).
 - **Plan:**
-    1. Exit Pokedex (B x4).
-    2. Open Menu (Start).
-    3. Reset Cursor (Up x3 -> Top).
-    4. Select Pokegear (Down x3).
-    5. Open Map (A, Left x3, Right, A).
-    6. Verify Beast Location.
+    1. Exit Pokedex using `press_buttons` (B x5).
+    2. Verify Overworld.
+    3. Manually navigate to Pokegear next turn.
+    4. Check Map.
+- **Location:** Trapped in grass strip (Col 8-9).
 - **Location:** Trapped in grass strip (Col 8-9).
 - **Plan:**
     1. Continue Scanning Grass.
