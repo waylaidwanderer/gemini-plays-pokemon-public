@@ -1,15 +1,13 @@
 ## Suicune Quest (Started Turn 49107)
 - Goal: Trigger Suicune sighting at (14, 10).
-- Strategy: Use the "Great Southern Highway" (Row 51) to reach the West Beach.
+- Strategy: Use the "Outer Sea Route" to bypass the plateau walls.
 
 ## Plan: Reach Suicune at (14, 10)
-- Step 1: Surf South from (12, 19) to (12, 28) and land. <- CURRENT TASK
-- Step 2: Walk South to (12, 51).
-- Step 3: Walk West to (4, 51) and North to (4, 49).
-- Step 4: Walk West to (2, 49) (West Beach).
-- Step 5: Walk North along West Beach (X=2) to Row 14.
-- Step 6: Walk East to (8, 14), then North to (8, 12).
-- Step 7: Walk East to (14, 12), then North to (14, 10) to trigger Suicune.
+- Step 1: Surf South from (12, 19) to (12, 21). <- CURRENT TASK
+- Step 2: Surf East to (19, 21) (Buoy Gap).
+- Step 3: Surf East to (23, 21) and North to (23, 15) (Buoy Gap).
+- Step 4: Surf North to (23, 11) and West to (16, 11).
+- Step 5: Land at (16, 11) and walk to (14, 10) to trigger Suicune.
 
 ## Verified Tile Mechanics
 - FLOOR: Traversable.
@@ -20,11 +18,10 @@
 - BUOY: Impassable hard wall.
 
 ## Navigation Insights
-- Southern Highway (Row 51): Clear horizontal path from X=4 to X=24.
-- West Beach (X=0-2): Clear vertical highway from Row 53 to Row 10.
-- X=9 Wall: Blockade from Row 34 to Row 43. Gaps at Row 44-47 and Row 49-51.
-- X=5 Wall: Blockade from Row 30 to Row 33. Gaps at Row 34-35 and Row 46-51.
-- X=3 Wall: Blockade from Row 21 to Row 29. Gaps at Row 30 and Row 20.
+- Inner Channel (X=12-17): Enclosed by walls and buoys.
+- Buoy Wall Gaps: (19, 21) and (23, 15) allow passage to Outer Sea.
+- Outer Sea Route: Provides access to the northern plateau from the east.
+- Gym Blockade: Building at (10, 40) blocks central land access.
 - Ledge (10, 15): One-way jump DOWN. Avoid if trying to stay north.
 
 ## Battle Strategy: Eusine
