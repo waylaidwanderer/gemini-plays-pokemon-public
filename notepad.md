@@ -1,10 +1,10 @@
 # Suicune Quest (Cianwood)
 - **Start Turn:** 48900
 - **Timestamp:** Turn 49381 (Resumed)
-- **Status:** Landing successful at (18, 30).
+- **Status:** At (12, 28). Preparing to Surf North.
 
 ## Execution Plan
-1. Walk West to (12, 30), then North to (12, 28). <- CURRENT TASK
+1. Use Surf at (12, 28). <- CURRENT TASK
 2. Surf North to (12, 16), then land at (13, 16).
 3. Walk West to (11, 16), then North through (11, 15).
 4. Walk to (14, 10) to trigger Suicune.
