@@ -21,9 +21,9 @@
     3. If no encounter, repeat.
     - **Repel Trick:** Lead Pokemon (Lv 37) > Wild Pokemon (Lv ~20) but < Roamers (Lv 40). Max Repel ACTIVE. Only Roamers should appear.
 - **Mechanics Note:** Repel confirmed working in current session (Turns 40947-41004, zero encounters). Previous anomalies likely due to unnoticed expiration.
-- **Current Task:** Hunting Entei/Raikou on Route 37.
-- **Attempt:** 10 (City Shuffle).
-- **Status:** Positioning for Wiggle Patrol. Repel Active.
+- **Current Task:** Executing Wiggle Patrol (Attempt 10).
+- **Strategy:** Using `wiggle_patrol` (10 cycles). Retrying tool after sandbox failure.
+- **Repel Status:** Active (Applied Turn 41254).
 - **Session Start:** Turn 41209 (City Shuffle Strategy).
 - **System Note:** Sandbox unavailable. Movement interrupted by call.
 - Pokedex Status: National Mode. SEEN: 195, OWN: 46.
