@@ -39,8 +39,8 @@
 - **Money:** ¥15644.
 - **Items:** Max Repel x30.
 - **Key Items:** Pass (Magnet Train).
-- **Status:** Resetting Loop 8/50. Re-triggering Warp.
-- **Next Step:** Step Left (Off) -> Step Right (On) -> Enter Gatehouse.
-- **Strategy:** Manual Reset: Left, Right (Enter) -> Left (Exit) -> Check Map.
+- **Status:** Resetting Loop 8/50. Trying Top Warp Tile.
+- **Next Step:** Step Left -> Up -> Right -> Enter Gatehouse.
+- **Backup:** If fail, Fly to Ecruteak.
 - **Strategy:** Manual Reset Loop: Check Map -> B -> Right (Enter Gate) -> Left (Exit Gate) -> Start (Map).
 - **Lesson:** Gatehouse warps can be sticky. Automate resets to avoid 'doorway effect'.
