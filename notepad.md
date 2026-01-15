@@ -13,12 +13,12 @@
 - **Location:** Route 38 (West of Ecruteak).
 - **Hunt Start:** Turn ~40000.
 - **Current Loop:** 9.
-- **Action:** Check Map (Post-Phone Call).
+- **Action:** Engage Beast on Route 38.
 
 # Hunt Strategy
-1. **Check Map:** Open Pokegear. If Beast on Route 38 -> HUNT.
-2. **Reset:** If no Beast, Walk Right to Gatehouse (35,9) -> Walk Left to Route 38.
-3. **Repeat.**
+1. **Target Acquired:** Beast IS on Route 38!
+2. **Action:** Apply Max Repel -> Hunt in Grass.
+3. **Contingency:** If it flees, track location and pursue.
 
 # Resources
 - **Balls:** Ultra Ball x16.
@@ -35,3 +35,4 @@
 - **Phase 2 (Rt 38):**
     - Loops 1-8: Negative.
     - Turn 40288: Phone call from Gaven.
+    - Turn 40289: Beast CONFIRMED on Map (Rt 38).
