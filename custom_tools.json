@@ -192,5 +192,17 @@
         "action_counter": 38791
       }
     ]
+  },
+  "open_pokegear": {
+    "description": "Opens the Pokegear from the Start Menu, assuming the cursor starts at the top (Pokedex). Sequence: Start -> Down x3 -> A.",
+    "input_schema": {},
+    "python_script": "print('[\"Start\", \"sleep 500\", \"Down\", \"sleep 200\", \"Down\", \"sleep 200\", \"Down\", \"sleep 200\", \"A\", \"sleep 500\"]')",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-15T02:24:57.748Z",
+        "action_counter": 39812
+      }
+    ]
   }
 }
