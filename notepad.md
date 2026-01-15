@@ -8,11 +8,11 @@
 - **Current Task:** Restock Supplies.
 - Location: Celadon Dept Store 2F.
 - Action: Buying Max Repels from Clerk at (13,5).
-- Status: Fly Map Open.
-- Action: Navigate Cursor to Saffron City and Fly.
+- Status: Landed in Fuchsia City (Fly Navigation Error).
+- Action: Fly to Saffron City.
 - Strategy:
-    1. **Navigate:** Down (Cinnabar) -> Up (Pallet) -> Up (Viridian) -> Up (Pewter) -> Right (Cerulean) -> Down (Saffron).
-    2. **Confirm:** Press A to Fly.
+    1. **Open Map:** Start -> A (Pokemon) -> A (Mistral) -> A (Fly).
+    2. **Navigate:** Check Cursor (Fuchsia). Move Up -> Left? (Target: Saffron).
     3. **Transit:** Take Magnet Train from Saffron to Goldenrod.
     4. **Hunt:** Loop Route 37/Ecruteak until Raikou/Entei is nearby.
     5. **Encounter:** Use Max Repel, walk in grass. Sleep/Weaken/Catch.
