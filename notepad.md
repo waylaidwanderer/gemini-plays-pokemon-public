@@ -3,10 +3,10 @@
 - Strategy: Test the "Inner Channel Landing" at (17, 11). If blocked, use the "West Beach Highway" (X=2).
 
 ## Plan: Reach Suicune at (14, 10)
-- Step 1: Walk to (12, 28) and Surf North. <- CURRENT TASK
-- Step 2: Test landing at (16, 11) via hypothesized water at (17, 11).
-- Step 3: If Step 2 fails, return to (12, 28) and use Land Route:
-  (12, 28) -> (12, 44) -> (5, 44) -> (5, 35) -> (2, 35) -> (2, 14) -> (8, 14) -> (8, 12) -> (14, 12) -> (14, 10).
+- Step 1: Walk to (23, 32) and Surf East. <- CURRENT TASK
+- Step 2: Swim North to (23, 15) and West through the Buoy Gap.
+- Step 3: Swim North to Row 11 and West to (16, 11).
+- Step 4: Land at (16, 11) and walk to (14, 10) to trigger Suicune.
 
 ## Verified Tile Mechanics
 - FLOOR: Traversable.
