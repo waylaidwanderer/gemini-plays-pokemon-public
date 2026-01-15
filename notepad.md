@@ -13,12 +13,13 @@
 # Goal Tracking: Capture Suicune
 - Start Turn: 48227
 - Start Time: Wednesday, 3:37 PM (Turn 48250)
-- Strategy: The Southern Corridor Cross (Turn #48415).
-- Step 1: Walk South to (19, 51).
-- Step 2: Walk West through the corridor at Row 51 to (4, 51).
-- Step 3: Walk North to (4, 50), then West to (2, 50) (West Beach).
-- Step 4: Walk North along the beach to Row 10.
-- Step 5: Walk East to trigger Suicune sighting (hypothesized near 14, 10).
+- Strategy: The Inland Gap Crossing (Turn #48418).
+- Step 1: Walk to (10, 33) (Gap in the X=9 Wall).
+- Step 2: Walk West to (8, 33) (Entering the Middle Strip).
+- Step 3: Walk to (6, 35) and then West to (2, 35) (Gap in the X=5 Wall, Entering West Beach).
+- Step 4: Walk North along West Beach (X=2) to Row 11.
+- Step 5: Walk East to (14, 11) and then North to Suicune at (14, 10).
+- Hypothesized sighting spot: (14, 10). Verified that Row 12 is clear of vertical walls.
 
 # Custom Tools (Technical Details)
 - find_path_v4: BFS pathfinder for current map. Supports LAND and WATER mediums.
