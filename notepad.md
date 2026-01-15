@@ -47,3 +47,11 @@
 - **Strategy:** Manual Reset: Right (Enter) -> Left (Exit) -> Check Map.
 - **Strategy:** Manual Reset Loop: Check Map -> B -> Right (Enter Gate) -> Left (Exit Gate) -> Start (Map).
 - **Lesson:** Gatehouse warps can be sticky. Automate resets to avoid 'doorway effect'.
+## Tile Mechanics
+- **Route 38 Gatehouse Warp (35,8) & (35,9):**
+  - **(35,9):** Confirmed entry from Left (Route 38). Standard warp.
+  - **(35,8):** Inconsistent/Sticky. Possible exit-only or requires specific alignment.
+  - **Gatehouse Interior (0,4) & (0,5):**
+    - **(0,4):** Exit to (35,8).
+    - **(0,5):** Exit to (35,9).
+  - **Recommendation:** Always use (35,9) [Bottom Tile] for entry from Route 38. Use (0,5) [Bottom Tile] for exit from Gatehouse to maintain alignment.
