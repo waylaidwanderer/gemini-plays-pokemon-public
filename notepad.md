@@ -27,7 +27,7 @@
 - **Money:** ¥15644.
 - **Items:** Max Repel x30.
 - **Key Items:** Pass (Magnet Train).
-- **Status:** Beasts on Rt 38 & 42. Moving to Ecruteak to shuffle.
+- **Status:** In Ecruteak. Checking Map for Beasts.
 
 # Reflection (Turn 39822)
 - **Lesson:** Start Menu cursor remembers position. Pokegear also likely remembers last tab. Always verify or reset state.
