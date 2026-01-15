@@ -18,5 +18,6 @@
     1. Shuffle (Route 38 <-> Gatehouse).
     2. Run in grass for ~20 steps.
     3. If no encounter, repeat.
+    - **Repel Trick:** Lead Pokemon (Lv 37) > Wild Pokemon (Lv ~20) but < Roamers (Lv 40). Max Repel ACTIVE. Only Roamers should appear.
 - **Mechanics Note:** Repel confirmed working in current session (Turns 40947-41004, zero encounters). Previous anomalies likely due to unnoticed expiration.
 - **Action:** Shuffling (Returning to Route 38).
