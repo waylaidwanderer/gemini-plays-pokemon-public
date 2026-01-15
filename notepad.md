@@ -11,16 +11,14 @@
 
 # Strategy: Capture Suicune (Started Turn 48227)
 - Goal: Reach (14, 10) to trigger sighting.
-- Approach: The Buoy Maze Master Path (Step-by-Step)
+- Approach: The West Beach Land Route (Verified Row 28 Bridge)
 - Plan:
-  1. Surf at (12, 28) into (12, 27). [IN PROGRESS]
-  2. Use Super Repel.
-  3. Navigate to (27, 30) via the main channel.
-  4. North to (27, 16), then West through Gap 2 to (20, 16).
-  5. North to (20, 14), then West through Gap 4 to (18, 14).
-  6. North to (18, 11) and land.
-  7. Walk to (14, 10).
-- Status: At (12, 28), facing Up. Starting Surf.
+  1. Select NO to Surf prompt at (12, 28). [IN PROGRESS]
+  2. Walk West along Row 28 to (2, 28).
+  3. Walk North along X=2 to Row 12.
+  4. Walk East to (14, 12), then North to (14, 10).
+- Status: At (12, 28), cancelling Surf.
+- Reasoning: Row 28 is a confirmed FLOOR corridor from X=12 to X=2, bypassing all walls and buoys. This is the safest and most direct route.
 
 # Area Notes: Cianwood City
 - Photo Studio: (9, 31) | Poke Seer: (5, 17)
