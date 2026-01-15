@@ -13,7 +13,8 @@
 ## Plan: Navigate to North Plateau
 - Hypothesis: Row 51 land bridge leads to West Beach (X=0-2), which bypasses the Row 15 ledge.
 - Test: Reach (2, 15) and verify if it's a FLOOR or LEDGE tile.
-- Current Task: Reach Row 51 bridge via X=21 gap at Row 50.
+- Current Task: Surf South into Route 41 via (29, 32) to loop around the island.
+- Note: Verify if West Beach (X=0-2) actually bypasses the Row 15 ledge.
 
 # Area Notes
 - Doors (Avoid during pathfinding): Photo Studio (9, 31), Lugia House (15, 37), Seer (5, 17).
