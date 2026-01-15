@@ -39,9 +39,9 @@
 - **Money:** ¥15644.
 - **Items:** Max Repel x30.
 - **Key Items:** Pass (Magnet Train).
-- **Status:** Route 38 (35,9). Warp failed on bottom tile.
-- **Next Step:** Left (to 34,9) -> Up (to 34,8) -> Right (Enter 35,8).
-- **Note:** Testing top tile entry. Bottom tile (35,9) might be exit-only or buggy.
+- **Status:** Route 38 (35,8). Top tile entry failed.
+- **Next Step:** Left (to 34,8) -> Down (to 34,9) -> Right (Enter 35,9).
+- **Note:** Confirmed (35,9) works for entry. (35,8) seems broken/exit-only.
 - **Roamer Check:** Negative. Resetting.
 - **Strategy:** Manual Reset: Enter -> Exit -> Check.
 - **Strategy:** Manual Reset: Right (Enter) -> Left (Exit) -> Check Map.
