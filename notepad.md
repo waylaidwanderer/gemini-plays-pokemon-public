@@ -6,21 +6,16 @@
 # Suicune Quest (Cianwood)
 ## Strategy: Sea Route Bypass (Verified)
 Reach (14, 10) by surfing around the city via the eastern buoy gaps.
-1. SURF from (23, 33) into the eastern sea. (Done)
-2. Move North along X=24 to (24, 15).
-3. Move West to (23, 15) (Gap in Row 15 BUOY wall).
-4. Move North along X=23/24 to Row 9.
-5. Move East to (27, 9) (Gap in Row 9 BUOY wall).
-6. Move North to Row 8 and West to (14, 8) (Above the plateau).
-7. Move South to land at (16, 11) and walk to (14, 10).
+1. Move North along X=24 to (24, 10).
+2. Move Right to (27, 10) (Gap in X=26 wall).
+3. Move North to (27, 8) (Gap in Row 9 wall).
+4. Move West along Row 8 to (19, 8) (Gap in X=22 wall).
+5. Move West to (14, 8) and South to land on the plateau.
+6. Walk to (14, 10) to trigger Suicune.
 
 # Progress Notes
 - Blocked: All land routes (X=2, 4, 6, 10, 12) are blocked by SOUTH-blocking ledges (FLOOR_UP_WALL).
-- Verified: X=27 is a clear vertical corridor for surfing.
-- Verified: (27, 9) is a gap in the buoy walls.
+- Verified: (26, 10) is a gap in the vertical buoy wall.
+- Verified: (22, 8) is a gap in the vertical buoy wall.
 - SUPER REPEL is active (Turn 49722).
-- Stagnation Check: Abandoned 8 land-based routes; Sea Route is the final priority.
-
-# Tool Maintenance
-- find_path_v6_fixed_refined_v2_new: Needs update with commit message.
-- menu_navigator_refined_v2: Needs update with commit message.
+- Stagnation Check: Abandoning land-based "secret gaps" as they are confirmed dead ends.
