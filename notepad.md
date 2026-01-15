@@ -1,9 +1,9 @@
 # Tile Mechanics (Global)
 - FLOOR: Standard ground. Traversable.
 - WATER: Surf required. Traversable.
-- BUOY: Impassable water obstacle.
-- WALL: Impassable ground/object.
-- DOOR: Warp point. Traversable.
+- BUOY: Impassable.
+- WALL: Impassable.
+- DOOR: Warp point.
 - FLOOR_UP_WALL: Ledge face. Blocks North movement.
 - LEDGE_HOP_DOWN: One-way jump (North to South). Blocks North movement.
 - BREAKABLE ROCK: Requires Rock Smash. Impassable.
@@ -11,16 +11,15 @@
 
 # Strategy: Capture Suicune
 - Goal: Reach (14, 10) to trigger sighting.
-- Approach: West Beach Corridor (Hypothesis)
+- Approach: The Buoy Maze Master Path
 - Plan:
-  1. Surf to (19, 30) and land.
-  2. Walk to (10, 50) via the southern ledge gaps.
-  3. Walk West to X=2, then North to Row 11.
-  4. Walk East to (14, 10).
-- Status: Navigating to (19, 30).
-
-# Verified Tests
-- None yet.
+  1. Navigate to (22, 16) via Gap 2. [IN PROGRESS]
+  2. South to (22, 26).
+  3. West through (18, 26) (Gap 3) to (17, 26).
+  4. South to (17, 27), then West to (15, 27).
+  5. North to (15, 16), then West to (14, 16).
+  6. Land at (13, 16) and walk to (14, 10).
+- Status: At (27, 15), moving to (22, 16).
 
 # Area Notes: Cianwood City
 - Photo Studio: (9, 31) | Poke Seer: (5, 17)
