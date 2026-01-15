@@ -39,6 +39,6 @@
 - **Money:** ¥15644.
 - **Items:** Max Repel x30.
 - **Key Items:** Pass (Magnet Train).
-- **Status:** Path blocked by fence. Re-routing to Grass.
-- **Next Step:** Pathfind to (9, 9) -> Scan Grass.
+- **Status:** In Grass (9, 9). Scanning for Roamer.
+- **Next Step:** Scan Grass -> Encounter -> Attack/Register.
 - **Lesson:** Gatehouse warps can be sticky. Automate resets to avoid 'doorway effect'.
