@@ -39,6 +39,6 @@
 - **Money:** ¥15644.
 - **Items:** Max Repel x30.
 - **Key Items:** Pass (Magnet Train).
-- **Status:** Pokegear Open. Switching to Map Card.
-- **Next Step:** Press Right -> Analyze Map for Roamers.
+- **Status:** Map Selected. Opening Map View.
+- **Next Step:** Visually scan for Raikou/Entei icons.
 - **Lesson:** Gatehouse warps can be sticky. Automate resets to avoid 'doorway effect'.
