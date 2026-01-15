@@ -39,6 +39,6 @@
 - **Money:** ¥15644.
 - **Items:** Max Repel x30.
 - **Key Items:** Pass (Magnet Train).
-- **Status:** Menu Closed. Repel Active. Running to Grass.
-- **Next Step:** Run Left to (9, 9) -> Scan Grass.
+- **Status:** Moving to Grass (Dodge Valerie @ 19,9).
+- **Next Step:** Reach Grass -> Scan for Beasts.
 - **Lesson:** Gatehouse warps can be sticky. Automate resets to avoid 'doorway effect'.
