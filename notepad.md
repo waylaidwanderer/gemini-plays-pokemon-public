@@ -1,14 +1,14 @@
 ## Strategy: West Beach Highway Route to Suicune
-Use the 'West Beach Highway' (X=0-2) via the Row 51 'Ledge Gap' to reach the northern plateau.
+Use the 'West Beach Highway' (X=0-2) via the Row 51 'Ledge Gap' (10, 50) to reach the northern plateau.
 
 ### Verified Land Route
-1. (12, 28) -> (12, 47): Walk South to bypass central walls. <- CURRENT TASK
+1. (12, 28) -> (12, 47): Walk South to bypass central walls.
 2. (12, 47) -> (10, 47) -> (10, 50): Walk to the 'Ledge Gap'.
 3. (10, 50) -> (10, 51) -> (4, 51): Walk through the gap and West along the highway.
 4. (4, 51) -> (4, 49) -> (2, 49): Walk North and West to the beach.
 5. (2, 49) -> (2, 14): Walk North along the beach highway.
 6. (2, 14) -> (8, 14) -> (8, 10): Walk East and North to the plateau.
-7. (8, 10) -> (14, 10): Reach Suicune trigger point.
+7. (8, 10) -> (14, 10): Reach Suicune trigger point at (14, 10).
 
 ## Global Tile Mechanics
 - FLOOR: Traversable.
