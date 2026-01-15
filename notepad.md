@@ -39,10 +39,10 @@
 - **Money:** ¥15644.
 - **Items:** Max Repel x30.
 - **Key Items:** Pass (Magnet Train).
-- **Status:** Inside Gatehouse (0,4). Exiting for Loop 12 Check.
-- **Next Step:** Left (Exit) -> Open Pokegear -> Check Map.
-- **Note:** Previous 'Left' eaten by warp. Exiting now.
-- **Roamer Check:** Starting Loop 12.
+- **Status:** Route 38 (35,8). Checking Map. Loop 12/50.
+- **Next Step:** Start (Menu) -> A (Pokegear) -> Right (Map) -> A (Open).
+- **Note:** Back on Route 38. Ready to check.
+- **Roamer Check:** Loop 12 check initiated.
 - **Strategy:** Manual Reset: Enter -> Exit -> Check.
 - **Strategy:** Manual Reset: Right (Enter) -> Left (Exit) -> Check Map.
 - **Strategy:** Manual Reset Loop: Check Map -> B -> Right (Enter Gate) -> Left (Exit Gate) -> Start (Map).
