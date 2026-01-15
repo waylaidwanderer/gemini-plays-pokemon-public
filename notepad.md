@@ -39,7 +39,9 @@
 - **Money:** ¥15644.
 - **Items:** Max Repel x30.
 - **Key Items:** Pass (Magnet Train).
-- **Status:** Map Card Selected. Opening Map View.
-- **Next Step:** Press A -> Visually Scan for Roamers.
+- **Status:** Map Checked. Roamers on Rt 42, 32, 30. None on 38.
+- **Next Step:** Close Gear -> Enter Gatehouse (Reset Loop).
+- **Loop:** 8/50.
+- **Strategy:** Manual Reset: B, B -> Right, Right -> Left, Left -> Check Map.
 - **Strategy:** Manual Reset Loop: Check Map -> B -> Right (Enter Gate) -> Left (Exit Gate) -> Start (Map).
 - **Lesson:** Gatehouse warps can be sticky. Automate resets to avoid 'doorway effect'.
