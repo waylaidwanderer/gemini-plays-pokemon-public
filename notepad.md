@@ -41,3 +41,4 @@
 - Turn 40551: At Gatehouse entrance (35, 8). Executing "Double Tap Right" to trigger warp. Commencing Gatehouse Shuffle.
 - Turn 40552: Inside Gatehouse. Immediately exiting back to Route 38 (Left x2) to complete the shuffle and check positions.
 - Turn 40553: Returned to Route 38. Opening Start Menu to access Pokegear and check Beast positions.
+- Turn 40554: Opening Pokegear (A) to check positions after Shuffle 1. Sandbox still down, manual check required.
