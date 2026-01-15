@@ -12,21 +12,21 @@
 
 ## Plan: Reach North Plateau (Started Turn 48972)
 - Goal: Reach Suicune at (14, 10).
-- Step 1: Land at (19, 30) and walk to (12, 28). <- CURRENT TASK
-- Step 2: Surf at (12, 28) and head North to (14, 16).
-- Step 3: Land at (13, 16) and navigate zigzag: (11, 16) -> (11, 15) gap -> (11, 14) -> (14, 10).
-- Step 4: Reach (14, 10) to trigger Suicune sighting.
+- Step 1: Run from battle and surf East to X=22. <- CURRENT TASK
+- Step 2: Surf North at X=22 to Row 16.
+- Step 3: Surf West at Row 16 to (11, 17) and land at (11, 16).
+- Step 4: Walk North to (11, 14), East to (12, 14), North to (12, 12).
+- Step 5: Walk West to (14, 12) then North to (14, 10) for Suicune sighting.
 
 # Area Notes
 - Photo Studio: (9, 31) (DOOR)
 - Lugia House: (15, 37) (DOOR)
 - Poke Seer: (5, 17) (DOOR)
-- Obstacle: Ledge at (10, 15) blocks Northward progress. Gap at (11, 15) is FLOOR.
-- Obstacle: Wall at Row 13 (X=9-12). Gap at (13, 13).
-- Obstacle: Wall at Row 15 (X=12-17). Gap at (11, 15).
-- Highway: X=12 is a clear vertical path from Row 30 to Row 16 (mostly water).
-- Connection: Route 41 (0, 32) <-> Cianwood City (29, 32).
-- Route: Gap at (19, 21) in buoy wall is BLOCKED. Go around via Row 30.
+- Obstacle: Ledge at (10, 15) blocks direct North path.
+- Obstacle: Wall at Row 12-14, X=18 blocks East entrance to plateau.
+- Obstacle: Buoy wall at Row 15, X=17-21. Gap at (22, 15).
+- Channel: X=14-18, Row 16-20 is water. Entry via (19, 16) or (22, 16).
+- Landing: (11, 16) is a valid landing spot from the channel.
 
 # Tile Mechanics (Verified)
 - FLOOR: Traversable.
