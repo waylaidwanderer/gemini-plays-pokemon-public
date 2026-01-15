@@ -14,8 +14,8 @@
 - **Location:** Route 38 (West of Ecruteak).
 - **Hunt Start:** Turn ~40000.
 - **Current Loop:** 17.
-- **Action:** Continue Scanning Grass (Round 4).
-- **Hunt Progress:** Phase 2 Loop 17/50. Ran from Magnemite. Resuming Scan.
+- **Action:** Continue Scanning Grass (Manual).
+- **Hunt Progress:** Phase 2 Loop 17/50. Tool timed out. Manual scan.
 - **Beast Status:** **POSITIVE** (Route 38). Assumed present.
 - **Location:** Trapped in grass strip (Col 8-9).
 - **Plan:**
