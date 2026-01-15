@@ -30,5 +30,5 @@
     - Turn 40600: Checked Map. No Beast on Route 38 (Visual Check).
     - Action: Closing Map (B) to continue shuffle.
 - Strategy: Gatehouse Shuffle (Rt 38 <-> Gatehouse) in progress.
-- Status (Turn 40618): Shuffle #7 result negative (Beasts at Rt 42, 44, 32).
-- Action: Closing Map (B). Next: Exit Pokegear and Shuffle #8.
+- Status (Turn 40619): Re-entering Pokegear to check Shuffle #7 (Previous check was incomplete).
+- Action: Pressing A to open Pokegear.
