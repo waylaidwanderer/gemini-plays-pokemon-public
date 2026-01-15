@@ -9,16 +9,20 @@
 
 ## Strategy: The Sea Route Bypass (Final)
 The northern plateau (Row 10-14) is protected by a maze of land walls, but accessible via the northern sea.
-1. Face Up and Surf at (12, 28) -> (12, 27). (In Progress)
-2. Surf North to Row 21.
-3. Surf East through the (19, 21) buoy gap.
-4. Surf North to Row 15.
-5. Surf East through the (23, 15) buoy gap.
-6. Surf North to Row 9.
-7. Surf East through the (27, 9) buoy gap.
-8. Surf North to Row 8, then West to (16, 8).
-9. Surf South to (16, 12) to land.
-10. Walk to (14, 10) to trigger Suicune.
+1. Surf (12, 28) -> (12, 27). (Completed)
+2. Navigate Buoy Maze to (23, 21):
+   - Up to (12, 24) (Bypass X=16 wall)
+   - Right to (17, 24)
+   - Down to (17, 26) (Bypass X=18 wall)
+   - Right to (23, 26)
+   - Up to (23, 21)
+3. Surf North through (23, 15) buoy gap to Row 10.
+4. Navigate X=26 Buoy Wall:
+   - Right to (27, 10)
+   - Up through (27, 9) buoy gap to Row 8.
+5. Surf West along Row 8 to (16, 8).
+6. Surf South to (16, 12) to land.
+7. Walk to (14, 10) to trigger Suicune.
 
 ## Hypotheses
 - H1: (19, 21), (23, 15), and (27, 9) are confirmed gaps in the buoy walls.
