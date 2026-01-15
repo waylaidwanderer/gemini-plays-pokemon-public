@@ -1,13 +1,11 @@
 ## Suicune Quest (Started Turn 49107)
 - Goal: Trigger Suicune sighting at (14, 10).
-- Strategy: Use the "Outer Sea Route" (X > 20) to bypass plateau walls.
+- Strategy: Use the "East Shore Route" to bypass buoy walls and plateau blockades.
 
 ## Plan: Reach Suicune at (14, 10)
-- Step 1: Surf North from (12, 28) into (12, 27). <- CURRENT TASK
-- Step 2: Surf South to Row 21 and East to (19, 21) (Buoy Gap).
-- Step 3: Surf East to (23, 21) and North to (23, 15) (Buoy Gap).
-- Step 4: Surf North to Row 13 and West to (17, 13).
-- Step 5: Land at (16, 13) and walk to (14, 10) to trigger Suicune.
+- Step 1: Land at (12, 28) and walk to (23, 32) (East Shore Landing). <- CURRENT TASK
+- Step 2: Surf East into the Outer Sea (X=24+) and North to Row 12.
+- Step 3: Land at (16, 12) (Plateau Landing) and walk to (14, 10).
 
 ## Verified Tile Mechanics
 - FLOOR: Traversable.
@@ -17,21 +15,16 @@
 - LEDGE_HOP_DOWN: One-way jump (North to South).
 - BUOY: Impassable hard wall.
 
-## Mechanics Verification (Hypotheses)
-- Landing (16, 13): Hypothesized landing point from (17, 13) WATER.
-- Landing (17, 11): Hypothesized FLOOR tile (currently unseen).
-- Buoy Gaps: Passage verified at (19, 21) and (23, 15).
-
 ## Navigation Insights
-- Inner Channel (X=12-17): Enclosed by walls and buoys.
-- Buoy Wall Gaps: (19, 21) and (23, 15) allow passage to Outer Sea.
-- Outer Sea Route: Provides access to the northern plateau from the east.
-- Gym Blockade: Building at (10, 40) is bypassed by the Outer Sea Route.
-- Ledge (10, 15): One-way jump DOWN. Avoid if trying to stay north.
+- Row 32 Highway: Clear horizontal path from X=0 to X=23.
+- East Shore Landing (23, 32): Provides direct access to the Outer Sea.
+- Outer Sea Highway: X=27 is a clear vertical channel from south to north.
+- Plateau Landing (16, 12): Reliable landing point on the northern plateau.
+- Gym Blockade: Building at (10, 40) is bypassed by the East Shore Route.
 
 ## Battle Strategy: Eusine
 - Lead: Calcifer (Lv 64 Typhlosion). Sweep with Flamethrower/Thunderpunch.
 
 ## Technical Status
-- Super Repel: Active (~100 steps used).
-- Turn: 49177.
+- Super Repel: Active (~105 steps used).
+- Turn: 49181.
