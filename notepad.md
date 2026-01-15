@@ -1,14 +1,17 @@
 # Suicune Quest (Cianwood)
 - **Start Turn:** 48900
 - **Timestamp:** Turn 49381 (Resumed)
-- **Status:** Surfing initiated. Moving to (14, 16) to land.
+- **Status:** Landing at (13, 16) was a dead end. Returning to city.
 
 ## Execution Plan
-1. Use Surf at (12, 28). (Done)
-2. Surf to (14, 16) via (14, 27). <- CURRENT TASK
-3. Land at (13, 16).
-4. Walk West to (11, 16), then North through (11, 15).
-5. Walk to (14, 10) to trigger Suicune.
+1. Surf from (13, 16) south to (12, 28). <- CURRENT TASK
+2. Walk to (9, 33) to pass the X=9 wall.
+3. Walk to (5, 35) to pass the X=5 wall.
+4. Walk North from (2, 35) to (2, 14).
+5. Walk East to (14, 10) to trigger Suicune.
+
+## Strategy: Western Corridor Path
+The northern plateau is only accessible from the far west (X=2). The city is divided by walls at X=9 and X=5. Gaps exist at (9, 33) and (5, 35). I must return to the main city to reach these gaps.
 
 ## Tile Mechanics (Global)
 - **FLOOR**: Traversable ground. No special effects.
