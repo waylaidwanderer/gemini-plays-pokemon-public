@@ -4,16 +4,16 @@
 - **Pokegear Map:** Visual. Roaming Beasts appear as icon.
 - **Menu Memory:** Start Menu and Pokegear cursors remember their last position. Always verify state.
 - **Tile Mechanics:**
-    - **Route 38 Gatehouse (35,8):** Sticky/Hard to enter. Avoid.
-    - **Route 38 Gatehouse (35,9):** Reliable entry/exit. **ALWAYS USE THIS TILE.**
+    - **Route 38 Gatehouse (35,8) & (35,9):** Both warp tiles are sticky/inconsistent. Requires multiple attempts or specific entry vectors.
+    - **Recommendation:** If one fails, try the other. Shuffle Left/Right until successful.
 
 # Strategic Status
 - **Goal:** Register Raikou & Entei.
 - **Current Task:** Hunt Roaming Beasts (Phase 2).
 - **Location:** Route 38 (West of Ecruteak).
 - **Hunt Start:** Turn ~40000.
-- **Current Loop:** 9.
-- **Action:** Hunt Loop: Retry Reset (Left, Right).
+- **Current Loop:** 13 (Resetting).
+- **Action:** Hunt Loop: Switch to Top Door (35,8).
 - **Hunt Progress:** Phase 2 Loop 13/50. Resetting.
 - **Beast Status:** Loop 13 Negative (Rt 42, 32, 45). Warp Failed.
 - **Beast Status:** Loop 12 Negative.
