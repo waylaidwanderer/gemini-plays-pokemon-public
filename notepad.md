@@ -12,21 +12,16 @@
 
 ## Plan: Reach North Plateau (Started Turn 48972)
 - Goal: Reach Suicune at (14, 10).
-- Step 1: Reach Row 51 Highway via East detour.
-  - (12, 49) -> (12, 33) -> (24, 33) -> (24, 51). <- CURRENT TASK
-- Step 2: Reach West Beach (2, 35) via Row 51 Highway.
-  - (24, 51) -> (4, 51) -> (4, 35) -> (2, 35).
-- Step 3: Walk North along West Beach (X=2) to Row 10.
-- Step 4: Walk East along Row 10 to (14, 10) to trigger Suicune.
+- Step 1: Reach (12, 29) and Surf north. <- CURRENT TASK
+- Step 2: Land at (12, 16).
+- Step 3: Walk north through gap at (11, 15).
+- Step 4: Reach (14, 10) for Suicune sighting.
 
 # Area Notes
-- Ledge (10, 15) blocks Northward progress from center.
-- Cliffs at Row 50 block Southward progress (Gap at X=10, 11).
-- X=12 is a clear vertical path from Row 44 to Row 30.
-- X=24 is a clear vertical path from Row 53 to Row 33.
-- Row 51 is a clear horizontal path from X=4 to X=24.
-- Row 33 is a clear horizontal path from X=6 to X=24.
-- X=2 (West Beach) is a clear vertical path from Row 35 to Row 10.
+- Ledge (10, 15) blocks north at X=10.
+- Gap at (11, 15) is FLOOR and allows northward passage.
+- Water at Row 16-24 blocks land passage. Surf required.
+- Landing point: (12, 16) is FLOOR.
 
 # Tile Mechanics
 - FLOOR: Traversable.
@@ -34,3 +29,9 @@
 - FLOOR_UP_WALL: Cliff face (Impassable).
 - LEDGE_HOP_DOWN: One-way jump (North to South).
 - WATER: Requires Surf.
+- ROCK: Obstacle (Smashable).
+
+# Failed Hypotheses
+- Attempting to go around via Row 51 (Multiple failures due to unseen cliffs).
+- Attempting to walk north via X=11 (Blocked by water at Row 24).
+- Attempting to walk north via X=12 (Blocked by water at Row 24).
