@@ -1,33 +1,30 @@
 # Suicune Quest (Cianwood)
 - Quest Start: Turn 48900
 
-## Strategy: Western Corridor Ascent
-To reach the northern plateau at (14, 10), Gem must bypass the Row 15 ledge (LEDGE_HOP_DOWN), which blocks all NORTH movement except at the western corridor (X=0-2). The city's other "ledges" (Row 34, 46, 48, 50) are FLOOR_UP_WALL tiles that block SOUTH movement but allow NORTH traversal.
+## Strategy: The Great Southern Loop
+To reach the northern plateau at (14, 10), Gem must bypass the city's one-way upward ledges (Row 34, 46, 48, 50). The confirmed path is to reach the southern corridor at Row 51 and then use the western corridor (X=2). This route avoids the central walls and the buoy-blocked water channels.
 
 ## Execution Plan
-1. Walk North along X=12 to Row 33.
-   - Path: (12, 49) -> (12, 33). <- CURRENT TASK
-2. Move West through the (9, 33) wall gap to the central corridor.
-   - Path: (12, 33) -> (6, 33).
-3. Move South to Row 35 to bypass the Wall at X=5.
-   - Path: (6, 33) -> (6, 35).
-4. Move West through the (5, 35) wall gap to the Western Corridor (X=2).
-   - Path: (6, 35) -> (2, 35).
-5. Walk North along X=2 past the Row 15 ledge.
-   - Path: (2, 35) -> (2, 12).
-6. Walk East to the plateau and North to trigger Suicune.
-   - Path: (2, 12) -> (14, 12) -> (14, 10).
+1. Move to (12, 45) via the Row 34 gap at (12, 34). <- CURRENT TASK
+2. Reach Row 51 via the staggered gaps:
+   - (12, 45) -> (18, 45) -> (18, 47) (Row 46 gap)
+   - (18, 47) -> (12, 47) -> (12, 49) (Row 48 gap)
+   - (12, 49) -> (11, 49) -> (11, 51) (Row 50 gap)
+3. Walk west to (2, 51), then north along X=2 to (2, 12).
+4. Walk east along Row 12 to (14, 12).
+5. Walk north to (14, 10) to trigger Suicune sighting.
 
 ## Verified Tile Mechanics
-- FLOOR_UP_WALL: Blocks DOWN (South) movement. (Verified: (12, 50) blocked south from (12, 49)). Allows NORTH movement. (Verified: (15, 51) -> (15, 50) -> (15, 49) worked).
+- FLOOR_UP_WALL: Blocks DOWN (South) movement. (Verified: (6, 34) blocked south from (6, 33)). Allows NORTH movement.
 - LEDGE_HOP_DOWN: Blocks NORTH movement. (Verified: (10, 15) is impassable from the south).
-- Wall Gaps: (11, 47), (11, 50), (9, 33), (5, 35).
+- Ledge Gaps: (12, 34), (18, 46), (12, 48), (11, 50).
+- Wall Gaps: (9, 33) at Row 33.
 
 ## Failed Hypotheses
-- Island Hop (13, 16): Dead end pocket at (11, 14) due to walls at Row 13.
+- Direct West from (6, 33): Blocked by ledge at (6, 34) and wall at (5, 33).
+- Island Hop (13, 16): Dead end pocket at (11, 14).
 - Southern Surf Bypass: Eastern channel ends at Row 45.
-- Direct Northern Channel: Blocked by buoy wall at Row 15.
 
 ## Progress Summary
 - Badges: 16/16.
-- Current Focus: Suicune overworld sighting.
+- Current Focus: Navigating the Great Southern Loop.
