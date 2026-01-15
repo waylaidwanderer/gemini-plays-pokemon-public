@@ -16,7 +16,7 @@
 - Strategy: The Great Southern Landing (Turn 48315).
 - Step 1: Use Super Repel. (Complete: Turn 48306)
 - Step 2: Surf to (22, 30) and land at (19, 30). (Complete: Turn 48317)
-- Step 3: Walk West to (12, 30) -> (12, 32) -> (11, 32) -> (2, 32). (In Progress)
+- Step 3: Talk to Pokefan at (17, 33), then walk to (12, 30) -> (12, 29) -> (2, 29). (In Progress)
 - Step 4: Walk North along Column 2 to (2, 12).
 - Step 5: Walk East along Row 12 to (14, 12) and North to (14, 10).
-- Status: At Cianwood (19, 30). On land. Repel Active (~175 steps).
+- Status: At Cianwood (19, 30). On land. Repel Active (~190 steps).
