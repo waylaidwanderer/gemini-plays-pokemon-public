@@ -39,9 +39,9 @@
 - **Money:** ¥15644.
 - **Items:** Max Repel x30.
 - **Key Items:** Pass (Magnet Train).
-- **Status:** Route 38 (35,9). Phone Call Ended. Resuming Reset.
+- **Status:** Route 38 (35,9). Resuming Loop 32 Reset.
 - **Next Step:** Left (34,9) -> Right (Enter 35,9).
-- **Note:** Confirmed Map Check negative despite phone interruption.
+- **Note:** Previous turn only executed 'B, B' due to button mixing rule. Movement was NOT attempted.
 - **Roamer Check:** Negative. Resetting for Loop 33.
 - **Strategy:** Manual Reset: Enter -> Exit -> Check.
 - **Strategy:** Manual Reset: Right (Enter) -> Left (Exit) -> Check Map.
