@@ -22,7 +22,7 @@
     - **Repel Trick:** Lead Pokemon (Lv 37) > Wild Pokemon (Lv ~20) but < Roamers (Lv 40). Max Repel ACTIVE. Only Roamers should appear.
 - **Mechanics Note:** Repel confirmed working in current session (Turns 40947-41004, zero encounters). Previous anomalies likely due to unnoticed expiration.
 - **Current Task:** Manual Wiggle Patrol (Attempt 15 - Continuation).
-- **Status:** Exiting menu after Repel application.
+- **Status:** Exiting menu to resume patrol.
 - **Repel Status:** Active (Applied Turn 41292).
 - **System Note:** Sandbox down. Manual batching active.
 - **System Note:** Sandbox down. Manual batching active.
