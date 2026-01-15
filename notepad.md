@@ -15,10 +15,10 @@
 - **Current Task:** Gatehouse Shuffle (Route 38 <-> Gatehouse).
 - **Session Start:** Turn 40947 (Max Repel Applied).
 - **Location:** Route 38.
-- **Action:** Patrolling grass (Post-Shuffle).
+- **Action:** Patrolling grass (Using patrol_grass tool).
 - **Pokedex Mode:** Old (National Dex). Target: #243 Raikou, #244 Entei.
 - **Strategy:** Blind Gatehouse Shuffle.
     1. Shuffle (Route 38 <-> Gatehouse).
-    2. Run in grass for ~20 steps.
+    2. Run in grass for ~20 steps (Use `patrol_grass`).
     3. If no encounter, repeat.
 - **Mechanics Note:** Max Repel appears ineffective on Route 38 (observed Turns 40908, 40918, 40933). Encounters occurring below lead level. Monitoring.
