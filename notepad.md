@@ -15,20 +15,10 @@
 - **Current Task:** Gatehouse Shuffle (Route 38 <-> Gatehouse).
 - **Session Start:** Turn 40947 (Max Repel Applied).
 - **Location:** Route 38.
-- **Action:** Returning to Gatehouse (Shuffle Cycle).
+- **Action:** Handling Gaven's Call -> Resuming Patrol.
 - **Pokedex Mode:** Old (National Dex). Target: #243 Raikou, #244 Entei.
-- **Pokedex Status:** #243 (Raikou) & #244 (Entei) are UNSEEN.
 - **Strategy:** Blind Gatehouse Shuffle.
     1. Shuffle (Route 38 <-> Gatehouse).
-    2. Run in grass for ~20 steps (Use `get_route38_patrol_path`).
+    2. Run in grass for ~20 steps.
     3. If no encounter, repeat.
-- **Anomaly:** Encountered Wild Rattata (Turn 40908) immediately after applying Max Repel (Turn 40903). Lead Pokemon is Gyarados Lv37. Repel should be active. Possible mechanic glitch or misunderstanding?
-- **Anomaly Confirmed:** Encountered Level 16 Rattata on Turn 40908 despite using Max Repel on Turn 40903. Screen text confirmed usage. This suggests Repel might be malfunctioning or encounters on this specific tile/map behave oddly.
-- **Anomaly #2:** Encountered Wild Raticate (Turn 40918) shortly after Rattata. Repel still ostensibly active. Confirms persistent issue with Repel in this area/session.
-- **Update:** Encountered Raticate (Turn 40918). Repel definitely seemingly inactive or glitched. Proceeding to Gatehouse to reset map state and potential glitches.
-- **Interruption:** Phone call from Wade (Turn 40926) interrupted movement to Gatehouse. Resuming navigation.
-- **Anomaly #3:** Encountered Wild Tauros Lv13 (Turn 40933). Repel failure confirmed again. Route 38 encounters seem unaffected by Repel currently.
-- **Plan:** Return to Route 38. Attempt to use Max Repel again to verify active status. If 'Still working', then encounters are ignoring it.
-- **Action:** Refreshed Max Repel (Turn 40947). Previous anomaly suggests earlier Repel might have failed or expired silently. Testing new Repel efficacy now.
-- **Shuffle Step:** Entered Gatehouse (Turn 40953). Immediately returning to Route 38 to check positions.
-- **Interruption:** Phone call from Gaven (Turn 40960). Pausing navigation.
+- **Mechanics Note:** Max Repel appears ineffective on Route 38 (observed Turns 40908, 40918, 40933). Encounters occurring below lead level. Monitoring.
