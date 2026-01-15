@@ -6,6 +6,7 @@
 # Suicune Quest (Cianwood)
 ## Strategy: Western Corridor Ascent
 The plateau (14, 10) is reached via the Western Corridor (X=0-2) to bypass the Row 15 ledge.
+## Execution Plan
 1. Land at (23, 32) and move to (12, 33).
 2. Use (9, 33) gap to reach the central corridor (X=6).
 3. Move to (6, 35) and use (5, 35) gap to reach the Western Corridor (X=2).
