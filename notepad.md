@@ -11,17 +11,18 @@
 
 # Strategy: Capture Suicune (Started Turn 48227)
 - Goal: Reach (14, 10) to trigger sighting.
-- Approach: The Northern Water Loop (Verified)
+- Approach: The Sequential Gap Path (Optimized)
 - Plan:
-  1. Surf East to (27, 14). [IN PROGRESS]
-  2. Surf North to (27, 8).
-  3. Surf West to (22, 8) [Gap], then to (18, 8).
-  4. Navigate to the northern plateau landing spot at (16, 11).
+  1. Surf North to (27, 10). [IN PROGRESS]
+  2. West to (23, 10), then South to (23, 14).
+  3. West through Gap 4 (19, 14) to (18, 14).
+  4. North to (18, 11), then West to (16, 11) and land.
   5. Walk to (14, 10).
-- Status: At (23, 14) surfing, heading East.
-- Reasoning: Row 9 and Column 22 are solid buoy barriers. The only way to the west side of the maze is to loop through the main channel at X=27 and use the northern gap at (22, 8).
+- Status: At (27, 14) surfing, heading North.
+- Reasoning: X=27 is a clear channel. Row 10 is a clear channel from X=27 to X=23. Column 23 is a clear channel from Row 10 to Row 14. Gap 4 is the only entry to the inner northern channel pocket.
 
 # Area Notes: Cianwood City
 - Photo Studio: (9, 31) | Poke Seer: (5, 17)
 - Pharmacy: (15, 47) | Gym: (8, 43)
 - Southern Ledge Gap: at (10, 50) provides access to southern beach.
+- West Beach Corridor: X=0, 1, 2 is clear of ledges from Y=49 to Y=11.
