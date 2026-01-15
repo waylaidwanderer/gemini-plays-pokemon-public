@@ -13,9 +13,9 @@
 - **Current Task:** Hunt Roaming Beasts (Phase 2).
 - **Location:** Route 38 (West of Ecruteak).
 - **Hunt Start:** Turn ~40000.
-- **Current Loop:** 1.
-- **Action:** Manual Scan (Left/Right).
-- **Hunt Progress:** Phase 2 Loop 1/50 (Reset: Lead Fixed).
+- **Current Loop:** 2.
+- **Action:** Manual Scan (Left/Right) x 20.
+- **Hunt Progress:** Phase 2 Loop 2/50.
 - **Beast Status:** **POSITIVE** (Route 38). Assumed present.
 - **CRITICAL FIX:** Repel active. Gyarados (Lv 37) leading. Only Beasts (Lv 40) will appear.
 - **Plan:**
@@ -41,6 +41,6 @@
 # Log
 - **Phase 1 (Rt 37):** 75 loops. Failed.
 - **Phase 2 (Rt 38):**
-    - Loops 1-8: Negative.
-    - Turn 40288: Phone call from Gaven interrupted Map Check.
-    - Turn 40292: Re-verifying Map.
+    - Loops 1-8: Negative (Bad Config).
+    - Turn 40411: Reset. Fixed Lead/Repel.
+    - Loop 1: Negative.
