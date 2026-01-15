@@ -11,17 +11,17 @@
 6. Tin Tower 1F
 
 ## Plan: Reach North Plateau (Highways)
-- Highway A: X=21 (Row 32-51)
-- Highway B: Row 51 (X=4-21)
-- Highway C: X=4 (Row 35-51)
-- Highway D: X=2 (Row 10-35)
-- Highway E: Row 10 (X=2-14)
-- Step 1: Reach (21, 51) via Highway A. <- CURRENT TASK
-- Step 2: Reach (4, 51) via Highway B.
-- Step 3: Reach (4, 35) via Highway C.
-- Step 4: Reach (2, 35) via Row 35.
-- Step 5: Reach (2, 10) via Highway D.
-- Step 6: Reach (14, 10) via Highway E for Suicune sighting.
+- Highway A: Row 35 (X=21 to X=12). <- CURRENT TASK
+- Highway B: X=12 (Row 35 to Row 28).
+- Highway C: Row 28 (X=12 to X=4).
+- Highway D: X=4 (Row 28 to Row 32).
+- Highway E: Row 32 (X=4 to X=2).
+- Highway F: X=2 (Row 32 to Row 10).
+- Highway G: Row 10 (X=2 to X=14) for Suicune sighting.
+- Step 1: Reach (12, 35) via Highway A.
+- Step 2: Reach (4, 28) via Highways B and C.
+- Step 3: Reach (2, 10) via Highways D, E, and F.
+- Step 4: Reach (14, 10) via Highway G.
 
 # Tile Mechanics
 - FLOOR: Traversable.
