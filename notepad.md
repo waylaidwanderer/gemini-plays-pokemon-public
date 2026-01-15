@@ -1,33 +1,27 @@
 # Suicune Quest (Cianwood)
 - Quest Start: Turn 48900
 
-## Verified Tile Mechanics
-- Row 15: (10, 15) LEDGE_HOP_DOWN (Blocks North).
-- Row 34: (6-8, 34) FLOOR_UP_WALL (Blocks South).
-- Row 46: (6, 46), (21-28, 46) FLOOR_UP_WALL (Blocks South).
-- Row 48: (8-10, 48) FLOOR_UP_WALL (Blocks South).
-- Row 50: (12-19, 50) FLOOR_UP_WALL (Blocks South).
-- Wall X=9: (9, 34)-(9, 45) are WALL.
-- Wall X=5: (5, 30)-(5, 33) are WALL.
-- Door Warps: (17, 41) is a DOOR (Avoid as corridor).
+## Tile Mechanics (Cianwood)
+- FLOOR: Standard traversable ground.
+- WALL: Impassable barrier.
+- FLOOR_UP_WALL: One-way ledge. Blocks DOWN (South) movement.
+- LEDGE_HOP_DOWN: One-way ledge. Blocks NORTH movement.
 
-## Execution Plan (The Great Southern Loop)
-1. Walk to (21, 45) via (21, 33). <- CURRENT TASK
-2. Walk West to (19, 45), then South to (19, 46).
-3. Walk West to (18, 46), then South to (18, 49).
-4. Walk East to (20, 49), then South to (20, 51).
+## Execution Plan (Terrestrial Zig-Zag)
+1. Walk to (19, 45) via (19, 33). <- CURRENT TASK
+2. Walk South to (19, 47). (Bypasses Row 46 ledge).
+3. Walk to (12, 47), then South to (12, 49). (Bypasses Row 48 ledge).
+4. Walk to (10, 49), then South to (10, 51). (Bypasses Row 50 ledge).
 5. Walk West to (2, 51), then North to (2, 14).
-6. Walk East to (14, 10) to trigger Suicune.
+6. Walk East to (14, 12), then North to (14, 10).
+7. Trigger Suicune sighting.
 
 ## Failed Hypotheses
-- Island Hop (13, 16): Dead end pocket at (11, 14).
-- Southern Surf: Eastern channel ends at Row 45.
-- Row 33 Gap (9, 33): Bypasses X=9 wall but blocked by Row 34/48 ledges.
+1. Island Hop (13, 16) via (11, 15): Dead end alcove at (11, 14). (Verified Turn 49428).
+2. Southern Surf Bypass: Eastern channel ends at Row 45. (Verified Turn 49446).
+3. Terrestrial Path (West): Blocked by wall lines and upward ledges at Row 34.
 
-## Reflection Turn #49451
-1. Immediate Execution: Talking to Pokefan M now.
-2. Notepad: Organized verified mechanics and refined path.
-3. Map: Markers track gaps and dead ends.
-4. Automation: Pathfinding tool will be used to verify the loop.
-5. Goals: Focused on Suicune trigger outcome.
-6. Error Analysis: Identified that Row 51 is the only way to reach the western corridor due to nested ledge lines.
+## Reflection Turn #49457
+- Pathing: Navigating around Pokefan M to reach the X=19 corridor.
+- Strategy: Using the identified gaps in ledge lines (Row 46 @ X=19, Row 48 @ X=12, Row 50 @ X=10) to reach the southern edge.
+- Maintenance: Repel active. Party ready.
