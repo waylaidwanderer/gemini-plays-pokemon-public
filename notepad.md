@@ -32,3 +32,6 @@
 - FLOOR_UP_WALL: Cliff (Impassable).
 - LEDGE_HOP_DOWN: One-way jump (North to South).
 - WATER: Requires Surf.
+- Suicune Trigger: North Beach (14, 10). Approach via western beach (X=0-2) to bypass ledge at (10, 15).
+- Tool Failure: find_path_v6_fixed failing with sandbox errors (Turn 48981). Manual navigation required for Route 41 to Cianwood transition.
+- Navigation: Route 41 (0, 32) <-> Cianwood City (29, 32). Moving Left from (0, 32) triggers warp.
