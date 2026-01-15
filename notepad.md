@@ -11,31 +11,24 @@
 6. Tin Tower 1F (Final Battle)
 
 ## Plan for Cianwood (Step 2)
-1. Navigate to (12, 28) via (12, 44). <- CURRENT TASK
-2. Walk West through the gap to (4, 28).
-3. Walk South to (4, 29) then West to (2, 29) (West Beach).
-4. Walk North along the beach to (2, 12).
-5. Walk East along Row 12 to (14, 12).
-6. Walk North to Suicune at (14, 10).
-7. Trigger cutscene with Eusine.
+- Hypothesis: Reach the West Beach (X=0-2) and walk North to Row 12, then East to Suicune.
+- Hypothesis 2: Surf from Row 30 East, loop around the southern buoys in Route 41, then enter Cianwood's West side.
+- Obstacle: (15, 37) and (9, 31) are DOORS. Avoid during pathfinding to prevent accidental warps.
+- Action: Verify reachability of North Plateau via West Beach.
 
 # Area Notes: Cianwood City
-- Photo Studio: (9, 31) | Poke Seer: (5, 17)
+- Photo Studio: (9, 31) (DOOR)
+- Lugia Speech House: (15, 37) (DOOR)
+- Poke Seer: (5, 17) (DOOR)
 - Pharmacy: (15, 47) | Gym: (8, 43) | PokeCenter: (23, 43)
-- West Beach Highway: X=0, 1, 2. (Clear path North to Row 14)
-- Land Bridge: Row 51 (X=4-24). (Accessible via water from the South)
-- Plateau Roadblock: Ledge at (10, 15) blocks all Northward movement from the city center.
+- West Beach Highway: X=0, 1, 2. (Hypothesized path North)
+- Land Bridge: Row 51 (X=4-24). (Blocked from city by Row 50 cliffs)
 
 # Tile Mechanics (Verified)
 - FLOOR: Standard ground. Traversable.
 - WALL: Impassable.
-- LADDER: Warp point. Traversable.
-- FLOOR_UP_WALL: Impassable cliff face. Blocks movement in the direction of the wall.
-- LEDGE_HOP_DOWN: One-way jump (North to South). Blocks Northward movement.
+- DOOR: Warp point. Avoid unless intending to enter.
+- FLOOR_UP_WALL: Impassable cliff face.
+- LEDGE_HOP_DOWN: One-way jump (North to South).
 - WATER: Requires Surf to traverse.
 - BUOY: Impassable water barrier.
-
-# World Events & Swarms
-- Route 35: Yanma swarm reported (Turn 44986).
-- Professor Oak & Kurt: Long-time acquaintances.
-- Professor Elm: Former assistant to Professor Oak.
