@@ -8,6 +8,8 @@
   4. Walk East to (8, 14), then North to (8, 12).
   5. Walk East along Row 12 to (14, 12), then North to (14, 10).
 - Status: At (25, 37) on land. Repel active.
+- Hypothesis: The city is split by walls/cliffs. Row 51 is the only land bridge to the West Beach Highway at X=2.
+- Test: Navigate to (20, 51) via the ledge at (26, 46). (Started Turn 48752)
 - Reasoning: City is partitioned by vertical walls (X=5, X=9) and cliffs (Row 30, Row 34, Row 46). Horizontal Arteries (Rows 33, 44, 12) are the only way to cross. X=2 is a clear vertical highway past the central blockades.
 
 # Blocked Routes (Verified)
