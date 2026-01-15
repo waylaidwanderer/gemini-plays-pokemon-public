@@ -3,10 +3,12 @@
 - Strategy: Use the "West Beach Highway" (X=2) to reach Row 10.
 
 ## Plan: Reach Suicune at (14, 10)
-- Step 1: Surf South from Row 19 to Row 28 (Land) and continue to Row 35. <- CURRENT TASK
-- Step 2: Walk West to (2, 35) via (5, 35) Gap.
-- Step 3: Walk North along West Beach (X=2) to Row 10.
-- Step 4: Walk East along Row 10 to (14, 10) to trigger Suicune.
+- Step 1: Surf South from (12, 20) to (12, 28) (Land). <- CURRENT TASK
+- Step 2: Walk to (12, 33), then West to (6, 33).
+- Step 3: Walk to (6, 35), then West to (2, 35) (West Beach).
+- Step 4: Walk North along West Beach (X=2) to Row 14.
+- Step 5: Walk East to (8, 14), then North to (8, 12).
+- Step 6: Walk East to (14, 12), then North to (14, 10) to trigger Suicune.
 
 ## Verified Tile Mechanics
 - FLOOR: Traversable.
