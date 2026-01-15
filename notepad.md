@@ -10,15 +10,15 @@
 
 # Strategic Status
 - **Goal:** Register Raikou & Entei.
-- **Current Task:** Gatehouse Shuffle (Looping Rt 38 <-> Gatehouse).
-- **Session Start:** Turn 40704 (Blind Shuffle Route 38).
-- **Location:** Route 38 (Scanning Cycle #21).
-- **Encounter:** Wild Tauros (Lv13).
-- **Analysis:** Max Repel FAILED or was NOT APPLIED. Level 13 < Level 37 (Lead).
-- **Action:** Running. Will re-apply Repel immediately after battle.
+- **Current Task:** Re-applying Max Repel, then Gatehouse Shuffle.
+- **Session Start:** Turn 40789 (Repel & Resume).
+- **Location:** Route 38 (Scanning Cycle #22).
+- **Encounter:** Wild Tauros (Lv13) - Repel Expired.
+- **Action:** Opening Menu to use Max Repel.
 - **Pokedex Mode:** Old (National Dex). Target: #243 Raikou, #244 Entei.
 - **Pokedex Status:** #243 (Raikou) & #244 (Entei) are UNSEEN (Cannot track). #245 (Suicune) is SEEN.
 - **Strategy:** Blind Gatehouse Shuffle.
-    1. Shuffle (Route 38 <-> Gatehouse).
-    2. Run in grass with Max Repel (Lead Lv37).
-    3. If no encounter in ~20 steps, repeat.
+    1. Apply Max Repel (Lead Lv37).
+    2. Shuffle (Route 38 <-> Gatehouse).
+    3. Run in grass for ~20 steps.
+    4. If no encounter, repeat.
