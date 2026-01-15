@@ -1,6 +1,6 @@
 ## Plan: Reach Suicune at (14, 10) (Surf Bypass Route)
-- Step 1: Switch Calcifer (Lv 64) to lead. <- CURRENT TASK
-- Step 2: Surf North from (12, 28) into (12, 27).
+- Step 1: Switch Calcifer (Lv 64) to lead. (DONE)
+- Step 2: Surf North from (12, 28) into (12, 27). <- CURRENT TASK
 - Step 3: Surf North to Row 18.
 - Step 4: Land at (12, 17).
 - Step 5: Walk North/East to (14, 10) to trigger Suicune.
@@ -26,4 +26,4 @@
 
 ## Technical Status
 - Super Repel: Active (Applied Turn 49091).
-- Turn Count: Current Turn 49121.
+- Turn Count: Current Turn 49123.
