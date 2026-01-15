@@ -22,13 +22,12 @@
 - NPC: Impassable. Interact from adjacent tile.
 
 # Strategy: Capture Suicune (Pursuit started Turn 48227)
-- Current Approach: Buoy Maze Analysis (Turn 48625)
-- Goal: Reach (14, 10) to trigger Suicune sighting.
-- Status: Confirming SURF at (19, 30).
-- Known Obstacles: 
-  - West Beach: Blocked by ledge at Y=16.
-  - Central City: Blocked by rocks and ledges.
-- Plan: Once surfing, use tools to find the path through the buoy maze.
+- Current Approach: The Buoy Maze Master Path (Turn 48629)
+- Step 1: Return to (19, 30) and Surf. [IN PROGRESS]
+- Step 2: Navigate to (16, 11) via the buoy maze gaps.
+  - Path: (19, 30) -> (27, 30) -> (27, 10) -> (26, 10) -> (23, 10) -> (23, 16) -> (22, 16) -> (21, 16) -> (21, 14) -> (19, 14) -> (18, 14) -> (18, 11).
+- Step 3: Land at (16, 11) and walk to (14, 10) to trigger sighting.
+- Note: West Beach trek is blocked by elevation (Y=16) and central city is blocked by rocks. The buoy maze is the only intended route.
 
 # Area Notes: Cianwood City
 - Photo Studio: (9, 31) | Poke Seer: (5, 17)
