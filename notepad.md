@@ -12,8 +12,8 @@
 
 ## Plan: Reach North Plateau (Started Turn 48972)
 - Goal: Reach Suicune at (14, 10).
-- Step 1: Reach (12, 28) and Surf north to (12, 20). <- CURRENT TASK
-- Step 2: Land at (12, 19) and walk to (12, 16).
+- Step 1: Reach (12, 28) and Surf north to (12, 16). <- CURRENT TASK
+- Step 2: Land at (12, 16).
 - Step 3: Navigate land route to Suicune:
   - (12, 16) -> (11, 16) -> (11, 14) (via gap (11, 15)).
   - (11, 14) -> (13, 14) -> (13, 12) (via gap (13, 13)).
@@ -23,8 +23,10 @@
 # Area Notes
 - Ledge (10, 15) blocks north at X=10.
 - Gap at (11, 15) is FLOOR and allows northward passage.
-- Water at Row 16-24 blocks land passage. Surf required.
+- Water at Row 16-24 blocks land passage from city center. Surf required.
 - Landing point: (12, 16) is FLOOR.
+- Highway: X=12 is a clear vertical corridor (land/water mix) from Row 44 to Row 16.
+- Highway: X=9 is land from Row 29 to Row 21.
 
 # Tile Mechanics
 - FLOOR: Traversable.
@@ -35,6 +37,7 @@
 - ROCK: Obstacle (Smashable).
 
 # Failed Hypotheses
-- Attempting to go around via Row 51 (Multiple failures due to unseen cliffs).
-- Attempting to walk north via X=11 (Blocked by water at Row 24).
-- Attempting to walk north via X=12 (Blocked by water at Row 24).
+- Attempting to go around via Row 51 (Multiple failures due to unseen cliffs at Y=46-50).
+- Attempting to walk north via X=11/12 (Blocked by water at Row 24).
+- Attempting to enter plateau from East (Blocked by Buoy wall at Row 15 and Wall at X=18).
+- Positional Hallucination (Turn 49021): Believed I was at (21, 36) while actually at (19, 46). Corrected by verifying Game State.
