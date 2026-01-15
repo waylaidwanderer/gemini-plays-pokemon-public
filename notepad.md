@@ -22,12 +22,13 @@
 - NPC: Impassable. Interact from adjacent tile.
 
 # Strategy: Capture Suicune (Pursuit started Turn 48227)
-- Current Approach: The Northern Flank (Turn 48624)
-- Step 1: Surf at (19, 30) -> (20, 30). [IN PROGRESS]
-- Step 2: Navigate to (27, 30), then North to (27, 0). [NOT STARTED]
-- Step 3: Navigate West along the top edge (Y=0) to X=14. [NOT STARTED]
-- Step 4: Navigate South to (14, 10) to trigger the Suicune sighting. [NOT STARTED]
-- Note: The buoy maze and city paths are all blocked by ledges or rocks. The only way to the plateau is from the far North water channel.
+- Current Approach: Buoy Maze Analysis (Turn 48625)
+- Goal: Reach (14, 10) to trigger Suicune sighting.
+- Status: Confirming SURF at (19, 30).
+- Known Obstacles: 
+  - West Beach: Blocked by ledge at Y=16.
+  - Central City: Blocked by rocks and ledges.
+- Plan: Once surfing, use tools to find the path through the buoy maze.
 
 # Area Notes: Cianwood City
 - Photo Studio: (9, 31) | Poke Seer: (5, 17)
