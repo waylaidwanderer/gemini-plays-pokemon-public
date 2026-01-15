@@ -39,5 +39,5 @@
 - **Money:** ¥15644.
 - **Items:** Max Repel x30.
 - **Key Items:** Pass (Magnet Train).
-- **Status:** Roamers on Rt 42, 32. None on 38. Resetting Loop 7/50.
-- **Next Step:** Close Gear, Step Left, then Reset Loop.
+- **Status:** Positioning for Reset (Step Left). Loop 7/50.
+- **Next Step:** Execute Reset Tool.
