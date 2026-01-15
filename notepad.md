@@ -34,5 +34,5 @@
 - **Phase 1 (Rt 37):** 75 loops. Failed.
 - **Phase 2 (Rt 38):**
     - Loops 1-8: Negative.
-    - Turn 40288: Phone call from Gaven.
-    - Turn 40289: Beast CONFIRMED on Map (Rt 38).
+    - Turn 40288: Phone call from Gaven interrupted Map Check.
+    - Turn 40292: Re-verifying Map.
