@@ -14,13 +14,14 @@
 - **Location:** Route 38 (West of Ecruteak).
 - **Hunt Start:** Turn ~40000.
 - **Current Loop:** 17.
-- **Action:** Run from Wild Meowth.
-- **Hunt Progress:** Phase 2 Loop 17/50. Scanned Grass -> Wild Encounter.
-- **Beast Status:** **POSITIVE** (Route 38). Still hunting.
+- **Action:** Continue Scanning Grass (Post-Battle).
+- **Hunt Progress:** Phase 2 Loop 17/50. Ran from Meowth. Resuming Scan.
+- **Beast Status:** **POSITIVE** (Route 38).
 - **Location:** Trapped in grass strip (Col 8-9).
 - **Plan:**
-    1. Run from Meowth.
-    2. Continue Scanning Grass.
+    1. Continue Scanning Grass.
+    2. If Wild -> Run.
+    3. If Beast -> Attack/Catch.
 - **Hunt Strategy:**
 
 # Hunt Strategy
