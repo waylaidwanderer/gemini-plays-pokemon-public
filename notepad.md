@@ -14,8 +14,11 @@
 - **Location:** Route 38 (West of Ecruteak).
 - **Hunt Start:** Turn ~40000.
 - **Current Loop:** 7 (Finished).
-- **Action:** Go to Gatehouse (Shuffle).
-- **Hunt Progress:** Repel Active. Shuffling Roamers (Phase 2, Loop 7+).
+- **Action:** Check Pokegear Map.
+- **Hunt Progress:** Repel Active. Shuffling Roamers (Phase 2, Loop 8).
+- **Location:** Route 38 Gatehouse (Inside).
+- **Beast Status:** **UNKNOWN** (Checking).
+- **CRITICAL FIX:** Repel CONFIRMED active (Turn 40439 log).
 - **Beast Status:** **NEGATIVE** (Route 38).
 - **CRITICAL FIX:** Repel EXPIRED. Must re-apply after battle.
 
