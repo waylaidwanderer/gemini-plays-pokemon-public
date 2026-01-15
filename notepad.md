@@ -1,20 +1,22 @@
 # Tile Mechanics
-- FLOOR_UP_WALL: Blocks SOUTH movement. Allows NORTH movement. Found at Row 34, 46, 48, 50.
-- LEDGE_HOP_DOWN: Blocks NORTH movement. Found at Row 15.
+- FLOOR_UP_WALL: Blocks SOUTH movement. Allows NORTH movement. Found at (4, 20), (4, 30), (4, 40) - wait, checking map.
+  - (4, 20), (4, 30), (4, 40) are FLOOR_UP_WALL.
+  - Row 34 (X=6-8), Row 46, Row 48, Row 50 also have FLOOR_UP_WALL.
+- LEDGE_HOP_DOWN: Blocks NORTH movement. Found at (10, 15).
 - Vertical Walls: X=3, 5, 9, 11, 17, 20.
 
 # Suicune Quest (Cianwood)
-## Strategy: High-Altitude Land Bypass
-Reach the northern plateau (14, 10) by weaving through wall gaps at Row 33 and Row 28/22. This route avoids the lower city ledges and uses the Western Corridor (X=2) to bypass the Row 15 land ledge.
+## Strategy: Western Corridor Land Route
+Reach the northern plateau (14, 10) by weaving through wall gaps to the Western Corridor (X=0-2), which is the only land path past the Row 15 ledge.
 
 ## Execution Plan
-1. Move to (18, 33) via Row 46 gap. (Done)
-2. Move West to (6, 33) via Row 33 gap (loop around Pokefan NPC at (16, 33) via Row 32).
-3. Move North to (6, 28) and West to (4, 28) via gap at (5, 28).
-4. Move North to (4, 22) and West to (2, 22) via gap at (3, 22) (loop around ROCK at (4, 25) via (5, 26)).
-5. Move North along Western Corridor (X=2) to Row 12.
-6. Walk East to (14, 12) and North to (14, 10).
+1. Move West to (6, 33) via gap at (9, 33).
+2. Move South to (6, 35) and West to (4, 35) via gap at (5, 35).
+3. Move North to (4, 30) and West to (2, 30) via gap at (3, 30) - wait, (3, 30) is FLOOR.
+4. Move North along Western Corridor (X=2) to Row 12.
+5. Move East along Row 12 to (14, 12).
+6. Move North to (14, 10) to trigger Suicune.
 
 ## Time Tracking
 - Quest Start: Turn 48900
-- High Bypass Start: Turn #49574
+- Western Corridor Attempt Start: Turn #49575
