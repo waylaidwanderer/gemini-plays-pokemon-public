@@ -48,3 +48,4 @@
 - Turn 40536: Manual scan (20 steps). Repel active (~220/250 steps used). Very close to expiration.
 - Turn 40537: Manual scan (20 steps). Repel active (~240/250 steps used). IMPROBABLE that it hasn't expired yet if previous counts were accurate. Anticipating expiration momentarily.
 - Turn 40538: Manual scan (30 steps). Repel SHOULD be dead by now (260+ steps). If it's still active, I might have miscounted the start or turn-steps don't count fully. Continuing until expiration or encounter.
+- Turn 40539: Repel effect wore off. No encounter after full duration. Verifying Beast location via Pokegear next turn.
