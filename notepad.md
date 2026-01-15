@@ -11,18 +11,16 @@
 
 # Strategy: Capture Suicune (Started Turn 48227)
 - Goal: Reach (14, 10) to trigger sighting.
-- Approach: The Sequential Gap Path (Verified)
+- Approach: The West Beach Land Corridor (Verified)
 - Plan:
-  1. Surf to Gap 2 at (22, 16). [IN PROGRESS]
-  2. Navigate through Gap 6 at (23, 15) to Row 14.
-  3. Navigate West through Gap 4 at (19, 14) to the inner channel.
-  4. Navigate to (16, 11) to land.
-  5. Walk to (14, 10).
-- Status: At (20, 30) surfing, heading for Gap 2.
-- Reasoning: Row 15-16 is a solid buoy/cliff line except for Gap 2 (22, 16) and Gap 6 (23, 15). Gap 4 (19, 14) is the only way into the northernmost pocket.
+  1. Surf to (10, 24) via gaps at (19, 21) and (18, 26). [IN PROGRESS]
+  2. Land at (10, 26) and walk to (4, 28).
+  3. Navigate to (2, 31) and walk North along Column 2 to Row 10.
+  4. Walk East to (14, 10).
+- Status: At (22, 16) surfing, heading south to the first gap.
+- Reasoning: Direct northern access is blocked by cliff walls. The buoy maze leads to a landing spot at (10, 26) which provides access to the clear West Beach corridor (X=2). This corridor is clear of ledges all the way to Suicune's plateau.
 
 # Area Notes: Cianwood City
 - Photo Studio: (9, 31) | Poke Seer: (5, 17)
 - Pharmacy: (15, 47) | Gym: (8, 43)
-- Breakable Rocks: (5, 29), (10, 27), (8, 16), (9, 17), (4, 19), (4, 25)
 - Southern Ledge Gap: at (10, 50) provides access to southern beach.
