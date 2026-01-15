@@ -15,10 +15,10 @@
 - **Current Task:** Gatehouse Shuffle (Route 38 <-> Gatehouse).
 - **Session Start:** Turn 40832 (Repel Active).
 - **Location:** Route 38 (Cycle #34).
-- **Action:** Patrolling grass for Roamers.
+- **Action:** Patrolling grass (Defining Automation Tool).
 - **Pokedex Mode:** Old (National Dex). Target: #243 Raikou, #244 Entei.
 - **Pokedex Status:** #243 (Raikou) & #244 (Entei) are UNSEEN.
 - **Strategy:** Blind Gatehouse Shuffle.
     1. Shuffle (Route 38 <-> Gatehouse).
-    2. Run in grass for ~20 steps.
+    2. Run in grass for ~20 steps (Use `get_route38_patrol_path`).
     3. If no encounter, repeat.
