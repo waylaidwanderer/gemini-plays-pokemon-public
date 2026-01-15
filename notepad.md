@@ -39,10 +39,10 @@
 - **Money:** ¥15644.
 - **Items:** Max Repel x30.
 - **Key Items:** Pass (Magnet Train).
-- **Status:** Inside Gatehouse (0,5). Exiting for Loop 24 Check.
-- **Next Step:** Left (Exit) -> Check Map (Tool).
-- **Note:** Reset successful. Preparing to check map.
-- **Roamer Check:** Starting Loop 24.
+- **Status:** Route 38 (35,9). Checking Map. Loop 24/50.
+- **Next Step:** Check Map (Tool).
+- **Note:** Exited Gatehouse. Ready to check Loop 24.
+- **Roamer Check:** Loop 24 check initiated.
 - **Strategy:** Manual Reset: Enter -> Exit -> Check.
 - **Strategy:** Manual Reset: Right (Enter) -> Left (Exit) -> Check Map.
 - **Strategy:** Manual Reset Loop: Check Map -> B -> Right (Enter Gate) -> Left (Exit Gate) -> Start (Map).
