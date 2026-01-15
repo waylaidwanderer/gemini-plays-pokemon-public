@@ -1,14 +1,16 @@
 # Mechanics
 - **Battle Cursor:** Remembers last move used.
 - **Fly Map:** Visual Map (Cursor based). Use D-pad to select city. **Cursor persists:** Always verify "Currently selected destination" text before confirming flight.
-- **Roaming Beasts:** Check Pokegear Map for current location.
+- **Pokegear Map:** Visual. Roaming Beasts appear as icon.
+- **Menu Memory:** Start Menu and Pokegear cursors remember their last position. Always verify state.
 
 # Strategic Status
 - **Goal:** Register Raikou & Entei.
 - **Current Task:** Hunt Roaming Beasts.
 - **Location:** Ecruteak City.
 - **Action:** Hunt Loop: Transition to Route 37 to shift Roamers.
-- **Hunt Progress:** ~48 loops. Started Turn 39717.
+- **Hunt Progress:** ~52 loops. Started Turn 39717.
+- **Beast Status:** Last seen on Rts 38, 42, 44. Not on 37.
 
 # Strategy (Hunt Loop)
 1.  **Transit:** Enter Saffron City -> Magnet Train Station.
@@ -27,9 +29,4 @@
 - **Money:** ¥15644.
 - **Items:** Max Repel x30.
 - **Key Items:** Pass (Magnet Train).
-- **Status:** On Route 37 (Turn 39874). Pokegear Open. Selecting Map.
-
-# Reflection (Turn 39822)
-- **Lesson:** Start Menu cursor remembers position. Pokegear also likely remembers last tab. Always verify or reset state.
-- **Hypothesis:** Roamers might be stuck in a 38-42 loop. If hunt stalls >60 loops, consider moving to Mahogany/Violet to disrupt pattern.
-- **Check:** Confirmed I can see Beasts on Pokegear Map despite not battling them in wild yet. Burned Tower event was sufficient.
+- **Status:** Beasts on Rt 38, 42, 44 (Turn 39875). Moving to Ecruteak.
