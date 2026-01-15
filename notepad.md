@@ -33,7 +33,7 @@
 # Resources
 - **Balls:** Ultra Ball x16.
 - **Repels:** Max Repel x29.
-- **Party:** Lugia (Lv 60) [Current Lead], Gyarados (Lv 37) [Target Lead].
+- **Party:** Gyarados (Lv 37) [Target Lead], Lugia (Lv 60) [Old Lead].
 
 # Encounter Plan
 - **Raikou/Entei:** They flee 100%.
