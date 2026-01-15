@@ -1,30 +1,29 @@
-## Strategy: Inner Channel Landing to Suicune
+## Strategy: Row 14/11 Inner Channel Crossing
 **Start Turn:** 48900 (Quest: Trigger Suicune Overworld Sighting)
 
-Cianwood's internal walls are bypassed by landing at the Inner Channel Landing (13, 16).
+Cianwood's internal walls are bypassed by looping through the Row 15 gap and using the Row 14 channel to reach the inner plateau landing.
 
 ### Step-by-Step Execution Plan
 1. Clear Surf message and apply Super Repel. <- CURRENT TASK
-2. Surf North to (24, 16), then West to (21, 16) (X=22 Wall Gap).
-3. Surf South to (21, 26), then West to (17, 26) (X=18 Wall Gap).
-4. Surf North to (17, 16), then West to land at (13, 16).
-5. Walk to (11, 16), then North to (11, 14) (Gap in Row 15 wall).
-6. Walk to (8, 14), then North to (8, 12) (Access to plateau).
-7. Walk East to (14, 12), then North to (14, 10).
-8. Trigger Suicune sighting.
+2. Surf North to (24, 16), then West to (23, 16).
+3. Surf North through the gap at (23, 15) to (23, 14).
+4. Surf West to (18, 14) (Gap in X=19 wall).
+5. Surf North to (18, 11), then West to (17, 11).
+6. Land on the plateau at (16, 11) and walk to (14, 10).
+7. Trigger Suicune sighting.
 
 ## Tile Mechanics: Cianwood City
 - FLOOR: Standard ground.
 - WALL: Impassable.
 - WATER: Surf required.
 - BUOY: Impassable water barrier.
-- FLOOR_UP_WALL: One-way barrier. Blocks DOWN movement. Allows UP and East-West movement.
+- FLOOR_UP_WALL: One-way barrier. Blocks DOWN movement.
 
-## Navigation: Buoy Gaps
-- X=26 Wall: Gap at Row 10-15.
-- X=22 Wall: Gap at Row 16-24.
-- X=19/18 Wall: Gap at Row 26.
-- X=16 Wall: Gap at Row 16-19 and 21-24.
+## Navigation: Buoy Gaps & Walls
+- Row 15 Gap: (23, 15).
+- X=19 Gap: Row 14.
+- X=22 Wall: Blocks Row 9-15.
+- X=26 Wall: Blocks Row 0-9.
 
 ## Inventory Check
 - Super Repel: 5 remaining. Last expired Turn 49311. Re-apply now.
