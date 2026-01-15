@@ -9,17 +9,16 @@
 - BREAKABLE ROCK: Requires Rock Smash. Impassable.
 - NPC: Impassable. Interact from adjacent tile.
 
-# Strategy: Capture Suicune (Started Turn 48227)
-- Goal: Reach (14, 10) to trigger sighting.
-- Approach: The West Beach Land Route (Verified)
+- Approach: The Sequential Gap Path (Advisor Recommended)
 - Plan:
-  1. Surf to (20, 32) and land at (19, 32). [IN PROGRESS]
-  2. Walk to (5, 35) via Row 33/35 to bypass city walls.
-  3. Walk to (2, 30) via the gap at (3, 31).
-  4. Walk North along the X=2 corridor to Row 10.
-  5. Walk East to (14, 10).
-- Status: At (27, 13) surfing, heading to the landing spot.
-- Reasoning: Direct northern access is blocked by cliff walls. The city layout contains a series of gaps (X=17, X=8, X=5, X=3) that allow a zig-zag path to the clear West Beach corridor (X=2). This corridor is clear of ledges all the way to Suicune's plateau.
+  1. Escape battle at (27, 18). [IN PROGRESS]
+  2. Surf North to (27, 15), then West to (23, 15) [Gap 6].
+  3. Navigate through Gap 6 to (23, 14).
+  4. Navigate West to (19, 14) [Gap 4].
+  5. Navigate North to (19, 11), then West to (16, 11) [Land].
+  6. Walk to (14, 10).
+- Status: In battle at (27, 18), attempting to RUN.
+- Reasoning: Gap 6 (23, 15) and Gap 4 (19, 14) form the only verified water route into the northern plateau channel.
 
 # Area Notes: Cianwood City
 - Photo Studio: (9, 31) | Poke Seer: (5, 17)
