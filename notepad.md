@@ -25,4 +25,4 @@ Reach the northern plateau (14, 10) by Surfing north in the Outer Sea (X=24) to 
 - Ledge Gaps: (12, 34) is a rare gap allowing South movement past Row 34.
 
 ## Progress Summary
-- Turn 49552: At (23, 32). Selecting NO to Surf menu (again). Moving to (12, 34).
+- Turn 49556: At (23, 32). Surf text on screen. Clearing text to move to (24, 32).
