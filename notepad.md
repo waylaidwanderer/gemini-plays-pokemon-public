@@ -12,11 +12,10 @@
 
 ## Plan: Reach North Plateau (Started Turn 48972)
 - Goal: Reach Suicune at (14, 10).
-- Step 1: Re-enter Cianwood City at (29, 32) from Route 41 (0, 32). <- CURRENT TASK
-- Step 2: Walk West across town to the West Beach at (2, 32).
-- Step 3: Walk North along the beach highway (X=0-2) to Row 10.
-- Step 4: Verify if Row 15 ledge is bypassed by the beach.
-- Step 5: Land on plateau and trigger Suicune sighting.
+- Step 1: Reach West side of town via gap at (5, 35). <- CURRENT TASK
+- Step 2: Walk North along West Beach (X=0-2) to Row 12.
+- Step 3: Move East to X=14 (under the plateau).
+- Step 4: Move North to (14, 10) to trigger Suicune sighting.
 
 # Area Notes
 - Photo Studio: (9, 31) (DOOR)
