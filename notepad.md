@@ -8,10 +8,10 @@
 - **Current Task:** Restock Supplies.
 - Location: Celadon Dept Store 2F.
 - Action: Buying Max Repels from Clerk at (13,5).
-- Status: Indoors (Route 23 Gate). Cannot Fly here.
-- Action: Exit North to Indigo Plateau -> Fly to Saffron City.
+- Status: Inside Indigo Plateau Pokecenter.
+- Action: Exit South to Route 23 (Outdoors) -> Fly to Saffron City.
 - Strategy:
-    1. **Exit:** Close menu -> Walk Up to exit.
+    1. **Exit:** Walk Down to leave the building.
     2. **Fly:** Once outside, Fly to Saffron.
     3. **Navigate:** Up (Pewter) -> Right (Cerulean) -> Down (Saffron).
     4. **Transit:** Take Magnet Train from Saffron to Goldenrod.
