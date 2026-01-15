@@ -45,3 +45,4 @@
 - Turn 40555: In Pokegear main menu. Cursor on 'Back'. Pressing 'Right' to highlight Map card. Avoiding multi-button input to prevent truncation.
 - Turn 40556: Map checked. Roamers at Rt 42, Rt 44, Rt 32. NOT on Rt 38.
 - Action: Closing Pokegear (B) to re-enter Gatehouse and shuffle again.
+- Turn 40557: Start Menu still open. Pressing B to close it, then will re-enter Gatehouse to shuffle.
