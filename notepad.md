@@ -14,15 +14,13 @@
 - **Location:** Route 38 (West of Ecruteak).
 - **Hunt Start:** Turn ~40000.
 - **Current Loop:** 17.
-- **Action:** Enter Grass & Hunt (NO REPEL).
-- **Hunt Progress:** Phase 2 Loop 17/50. Beast Confirmed on Rt 38.
+- **Action:** Move Left to Grass (Jump Ledge).
+- **Hunt Progress:** Phase 2 Loop 17/50. Moving to Grass.
 - **Beast Status:** **POSITIVE** (Route 38).
-- **Important:** Lugia (Lv 60) > Beast (Lv 40). **Repel would block the Beast.**
 - **Plan:**
-    1. Close Gear.
-    2. Walk Left into Grass.
-    3. Run from Wilds.
-    4. Attack Roamer (Gust vs Entei, Hydro Pump vs Raikou).
+    1. Move Left 15 tiles (Jump Ledge at x=10).
+    2. Land in Grass (x=9 or x=8).
+    3. Hunt.
 - **Hunt Strategy:**
 
 # Hunt Strategy
