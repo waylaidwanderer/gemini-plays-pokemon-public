@@ -39,11 +39,11 @@
 - **Money:** ¥15644.
 - **Items:** Max Repel x30.
 - **Key Items:** Pass (Magnet Train).
-- **Status:** Inside Gatehouse (0,5). Tool execution interrupted by Map Change.
-- **Next Step:** Left (Exit) -> Check Map (Manual Step).
-- **Note:** 'cycle_roamer_hunt' tool failed to complete loop due to harness interrupt on map change.
-- **Lesson:** Cannot chain Map Change + Actions in one turn. Must split: Move -> Turn End -> Action.
-- **Roamer Check:** Pending Loop 16 Check.
+- **Status:** Route 38 (35,9). Checking Map. Loop 16/50.
+- **Next Step:** Start (Menu) -> A (Pokegear) -> Right (Map) -> A (Open).
+- **Note:** Manual check required due to tool interrupt.
+- **Strategy Update:** Loop must be 3 turns: 1. Enter, 2. Exit, 3. Check. Automation across map load impossible.
+- **Roamer Check:** Checking Loop 16 results.
 - **Strategy:** Manual Reset: Enter -> Exit -> Check.
 - **Strategy:** Manual Reset: Right (Enter) -> Left (Exit) -> Check Map.
 - **Strategy:** Manual Reset Loop: Check Map -> B -> Right (Enter Gate) -> Left (Exit Gate) -> Start (Map).
