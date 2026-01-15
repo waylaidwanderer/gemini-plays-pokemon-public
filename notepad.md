@@ -5,13 +5,11 @@
 To reach the northern plateau at (14, 10), Gem must bypass the Row 15 ledge (LEDGE_HOP_DOWN), which blocks all NORTH movement except at the western corridor (X=0-2). The city's other "ledges" (Row 34, 46, 48, 50) are FLOOR_UP_WALL tiles that block SOUTH movement but allow NORTH traversal.
 
 ## Execution Plan (Northern Gap Route)
-1. Navigate around the ROCK at (4, 25) to reach the Row 22 gap.
-   - Path: (4, 26) -> (5, 26) -> (5, 24) -> (4, 24) -> (4, 22). <- CURRENT TASK
-2. Move West through the X=3 wall gap at (3, 22).
-   - Path: (4, 22) -> (2, 22).
-3. Walk North along X=2 past the Row 15 ledge.
+1. Navigate around the Row 23 wall (X=3-5) to reach Row 22.
+   - Path: (4, 24) -> (6, 24) -> (6, 22) -> (2, 22). <- CURRENT TASK
+2. Walk North along X=2 past the Row 15 ledge.
    - Path: (2, 22) -> (2, 12).
-4. Walk East to the plateau and North to trigger Suicune.
+3. Walk East to the plateau and North to trigger Suicune.
    - Path: (2, 12) -> (14, 12) -> (14, 10).
 
 ## Verified Tile Mechanics
