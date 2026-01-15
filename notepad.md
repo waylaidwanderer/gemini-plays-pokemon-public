@@ -39,8 +39,9 @@
 - **Money:** ¥15644.
 - **Items:** Max Repel x30.
 - **Key Items:** Pass (Magnet Train).
-- **Status:** Inside Gatehouse. Exiting to Route 38. Loop 9/50.
-- **Next Step:** Exit Left -> Check Roamer Map.
+- **Status:** On Route 38 (Carpet). checking map. Loop 9/50.
+- **Next Step:** Open Menu -> Select Pokegear -> Check Map.
+- **Note:** Start Menu likely on PACK (used Repel). Must verify.
 - **Strategy:** Manual Reset: Enter -> Exit -> Check.
 - **Strategy:** Manual Reset: Right (Enter) -> Left (Exit) -> Check Map.
 - **Strategy:** Manual Reset Loop: Check Map -> B -> Right (Enter Gate) -> Left (Exit Gate) -> Start (Map).
