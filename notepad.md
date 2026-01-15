@@ -39,10 +39,10 @@
 - **Money:** ¥15644.
 - **Items:** Max Repel x30.
 - **Key Items:** Pass (Magnet Train).
-- **Status:** Route 38 (35,9). Standing on Warp. Bumping to Enter.
-- **Next Step:** Right (Force Entry) -> Exit Gate -> Check Map.
-- **Note:** Movement to (35,9) confirmed, but warp did not trigger. Bumping required.
-- **Roamer Check:** Negative. Resetting for Loop 33.
+- **Status:** Inside Gatehouse (0,5). Exiting for Loop 33 Check.
+- **Next Step:** Left (Exit) -> Check Map (Tool).
+- **Note:** 'Bump Right' confirmed successful entry.
+- **Roamer Check:** Starting Loop 33.
 - **Strategy:** Manual Reset: Enter -> Exit -> Check.
 - **Strategy:** Manual Reset: Right (Enter) -> Left (Exit) -> Check Map.
 - **Strategy:** Manual Reset Loop: Check Map -> B -> Right (Enter Gate) -> Left (Exit Gate) -> Start (Map).
