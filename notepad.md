@@ -4,10 +4,15 @@
 The city is a maze of 'FLOOR_UP_WALL' barriers. I will Surf around the entire island via Route 40 to reach the West Beach.
 
 ### Step-by-Step Execution Plan
-1. Surf North-East to Route 40 via the warp at Route 41 (42, 0).
-2. In Route 40, Surf West to the edge of the map.
-3. Surf South to enter the West Shore of Cianwood City.
-4. Land on the beach and walk North to (14, 10) to trigger Suicune.
+1. Surf East along the Northern Channel (Rows 1-5) to (42, 5).
+2. Surf North to the Route 40 warp at (42, 0).
+3. In Route 40, Surf West to the edge of the map.
+4. Surf South to enter the West Shore of Cianwood City.
+5. Land on the beach and walk North to (14, 10) to trigger Suicune.
+
+## Navigation: Northern Channel Discovery
+- Rows 1-5 appear to be a continuous open sea lane bypassing all buoy lines (X=5, 11, 16, 21, 23, 31, 43).
+- Row 0 is blocked by BUOY from X=0 to X=31.
 
 ## Tile Mechanics: Cianwood City
 - FLOOR: Standard traversable ground.
