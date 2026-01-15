@@ -22,8 +22,8 @@
 # Strategy: Capture Suicune (Pursuit started Turn 48227)
 - Current Approach: Buoy Maze Navigation (Turn 48598)
 - Step 1-4: Navigated to (20, 16) via Gap 1 and Gap 2. [DONE]
-- Step 5: Navigate to (18, 11) via Gap 4 (19, 14). [IN PROGRESS]
-- Step 6: Land at (16, 11) and walk to (14, 10). [NOT STARTED]
+- Step 5: Navigate to (18, 11) via Gap 2 (22, 16), Gap 6 (23, 15), and Gap 4 (19, 14). [IN PROGRESS]
+- Step 6: Land at (18, 11) or (16, 11) and walk to (14, 10). [NOT STARTED]
 - Note: West Beach walking path is blocked by rocks at (4, 19), (4, 25), (5, 29). Need Rock Smash.
 
 # Area Notes: Cianwood City
