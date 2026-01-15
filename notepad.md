@@ -11,10 +11,9 @@
 6. Tin Tower 1F (Final Battle)
 
 ## Plan for Cianwood (Step 2)
-- Hypothesis: Reach the West Beach (X=0-2) and walk North to Row 12, then East to Suicune.
-- Hypothesis 2: Surf from Row 30 East, loop around the southern buoys in Route 41, then enter Cianwood's West side.
-- Obstacle: (15, 37) and (9, 31) are DOORS. Avoid during pathfinding to prevent accidental warps.
-- Action: Verify reachability of North Plateau via West Beach.
+- Hypothesis: Reach North Plateau (14, 10) via the North Water Channel (X=23-25 gap in Row 15 buoys).
+- Action: Surf North from (19, 30) along X=20-25, bypass buoys at Row 15, then Surf West along Row 8 to land on the plateau.
+- Obstacle: (15, 37), (9, 31), (5, 17) are DOORS. Avoid during pathfinding.
 
 # Area Notes: Cianwood City
 - Photo Studio: (9, 31) (DOOR)
