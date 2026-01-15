@@ -39,7 +39,6 @@
 - **Money:** ¥15644.
 - **Items:** Max Repel x30.
 - **Key Items:** Pass (Magnet Train).
-- **Status:** Roamers on Rt 42, 32, 30. None on 38.
-- **Next Step:** Close Gear -> Return to Gatehouse (Reset).
-- **Note:** Walking back to Gatehouse to reset loop.
+- **Status:** Moving to Gatehouse to Reset.
+- **Next Step:** Pathfind to Gatehouse -> Use Reset Tool.
 - **Lesson:** Gatehouse warps can be sticky. Automate resets to avoid 'doorway effect'.
