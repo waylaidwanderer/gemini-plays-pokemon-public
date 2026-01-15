@@ -1,19 +1,13 @@
-## Strategy: West Beach Highway Route via Ledge Gap
-Use the 'West Beach Highway' (X=0-2) to bypass the city center. Access it via the 'Ledge Gap' at (10, 50).
+## Strategy: Inner Channel Shortcut to Suicune
+Use the central lake to bypass city buildings and access the northern plateau.
 
-### Verified Land Route (Ledge Gap Route)
-1. (9, 44) -> (12, 44): Walk East to the vertical corridor.
-2. (12, 44) -> (12, 49): Walk South to the Row 49 passage.
-3. (12, 49) -> (10, 49): Walk West.
-4. (10, 49) -> (10, 51): Walk South through the Ledge Gap.
-5. (10, 51) -> (4, 51): Walk West along the Row 51 highway.
-6. (4, 51) -> (4, 49) -> (2, 49): Walk North and West to the West Beach.
-7. (2, 49) -> (2, 14): Walk North along the beach highway.
-8. (2, 14) -> (8, 14): Walk East to the plateau entrance.
-9. (8, 14) -> (8, 10): Walk North to the plateau summit.
-10. (8, 10) -> (14, 10): Walk East to the Suicune trigger point.
+### Verified Route
+1. (12, 28) -> (12, 18): Surf North across the lake. <- CURRENT TASK
+2. (12, 18) -> (12, 16) -> (11, 16): Walk to the plateau base.
+3. (11, 16) -> (11, 14): Walk North through the Row 15 gap.
+4. (11, 14) -> (13, 14) -> (13, 10) -> (14, 10): Reach Suicune trigger point.
 
-## Global Tile Mechanics (Cianwood)
+## Global Tile Mechanics
 - FLOOR: Traversable.
 - WALL: Impassable.
 - WATER: Requires Surf.
@@ -22,12 +16,11 @@ Use the 'West Beach Highway' (X=0-2) to bypass the city center. Access it via th
 - FLOOR_UP_WALL: Impassable cliff face.
 - DOOR: Warp to another map.
 
-## Area Insights
-- Ledge Gap (10, 50): Key passage to the southern map edge.
-- Row 49 Bridge: Clear horizontal path from X=4 to X=2.
-- West Beach Highway: X=0-2 is a clear vertical path from Row 53 to Row 14.
-- Northern Plateau Entry: Only accessible from Row 14 via the X=8 vertical corridor.
-- Gym Blockade: Building at (10, 40) blocks central land access.
+## Area Insights: Cianwood City
+- Row 15 Gap: (11, 15) is a narrow FLOOR path between a ledge and a wall.
+- Gym Blockade: Building at (10, 40) blocks all central land access to the north.
+- Western Highway: X=0-2 is a clear vertical path from south to north.
 
 ## Battle Strategy: Eusine
-- Lead: Calcifer (Lv 64 Typhlosion). Sweep with Flamethrower. OHKO potential on most targets.
+- Lead: Calcifer (Lv 64 Typhlosion).
+- Strategy: Sweep with Flamethrower. OHKO potential on most targets.
