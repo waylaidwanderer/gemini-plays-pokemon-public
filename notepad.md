@@ -19,4 +19,4 @@
     2. Run in grass for ~20 steps.
     3. If no encounter, repeat.
 - **Mechanics Note:** Repel confirmed working in current session (Turns 40947-41004, zero encounters). Previous anomalies likely due to unnoticed expiration.
-- **Action:** Shuffling (Returning to Route 38).
+- **Action:** Patrolling grass (Manual).
