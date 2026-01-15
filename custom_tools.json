@@ -78,5 +78,49 @@
         "action_counter": 35405
       }
     ]
+  },
+  "repeat_button": {
+    "description": "Presses a specific button multiple times with a configurable delay between presses. useful for scrolling menus or mashing through text.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "button": {
+          "type": "string",
+          "enum": [
+            "A",
+            "B",
+            "Select",
+            "Start",
+            "Right",
+            "Left",
+            "Up",
+            "Down",
+            "R",
+            "L"
+          ]
+        },
+        "times": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 50
+        },
+        "delay_ms": {
+          "type": "integer",
+          "default": 100
+        }
+      },
+      "required": [
+        "button",
+        "times"
+      ]
+    },
+    "python_script": "import json\nbutton = input_data['button']\ntimes = int(input_data['times'])\ndelay = int(input_data.get('delay_ms', 100))\n\nsequence = []\nfor _ in range(times):\n    sequence.append(button)\n    if delay > 0:\n        sequence.append(f\"sleep {delay}\")\n\nprint(json.dumps(sequence))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-15T17:13:11.802Z",
+        "action_counter": 40687
+      }
+    ]
   }
 }
