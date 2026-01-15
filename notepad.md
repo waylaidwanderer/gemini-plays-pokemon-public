@@ -42,3 +42,4 @@
 - Action: Opening Start Menu to verify Beast positions.
 - Turn 40575: Re-entering Gatehouse (Right x2) for Shuffle #3. Keeping the rhythm going!
 - Turn 40577: Inside Gatehouse. Exiting back to Route 38 (Left x2) to complete Shuffle #3.
+- Turn 40578: Start Menu open. Pokegear selected. Pressing A to enter.
