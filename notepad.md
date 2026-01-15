@@ -13,9 +13,9 @@
 - **Location:** Route 38 (West of Ecruteak).
 - **Hunt Start:** Turn ~40000.
 - **Current Loop:** 13 (Resetting).
-- **Action:** Hunt Loop: Retry Reset (Left, Right).
-- **Hunt Progress:** Phase 2 Loop 13/50. Resetting (Interrupted by Wade).
-- **Beast Status:** Loop 13 Negative.
+- **Action:** Hunt Loop: Switch to Top Door (34,9 -> 34,8 -> 35,8).
+- **Hunt Progress:** Phase 2 Loop 13/50. Resetting (Retrying Top).
+- **Beast Status:** Loop 13 Negative. Bottom Warp Failed.
 - **Beast Status:** Loop 12 Negative.
 - **Hunt Strategy:**
 
