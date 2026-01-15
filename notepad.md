@@ -21,9 +21,10 @@
     3. If no encounter, repeat.
     - **Repel Trick:** Lead Pokemon (Lv 37) > Wild Pokemon (Lv ~20) but < Roamers (Lv 40). Max Repel ACTIVE. Only Roamers should appear.
 - **Mechanics Note:** Repel confirmed working in current session (Turns 40947-41004, zero encounters). Previous anomalies likely due to unnoticed expiration.
-- **Current Task:** Reapplying Max Repel.
-- **Reason:** Repel expired at end of Turn 41252.
-- **Next:** Use `wiggle_patrol` for Attempt 9 (continuation).
+- **Current Task:** Hunting Entei/Raikou on Route 37.
+- **Attempt:** 9 (Resuming).
+- **Action:** Using `wiggle_patrol` tool.
+- **Repel Status:** Active (Applied Turn 41254).
 - **Session Start:** Turn 41209 (City Shuffle Strategy).
 - **System Note:** Sandbox unavailable. Movement interrupted by call.
 - Pokedex Status: National Mode. SEEN: 195, OWN: 46.
