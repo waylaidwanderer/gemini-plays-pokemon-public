@@ -33,3 +33,8 @@
 - Pharmacy: (15, 47)
 - Gym: (8, 43)
 - Breakable Rocks: (5, 29), (8, 16), (9, 17), (10, 27), (4, 19), (4, 25)
+
+# General Lessons
+- Buoy layouts in water channels often create dead-end pockets (e.g., Row 10 in Cianwood). Always verify the northern/southern exits before committing.
+- City layouts with many ledges (like Cianwood) are best navigated by finding a perimeter path rather than cutting through the center.
+- `FLOOR_UP_WALL` tiles typically block movement in one direction (usually South in this region). Document verified directions in the Tile Mechanics section.
