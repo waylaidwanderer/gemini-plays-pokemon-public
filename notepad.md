@@ -41,3 +41,4 @@
 - Status (Turn 40574): Shuffle #2 complete. Map check negative (Rt 42/44/32). In Start Menu.
 - Action: Closing menu to perform Shuffle #3.
 - Turn 40575: Re-entering Gatehouse (Right x2) for Shuffle #3. Keeping the rhythm going!
+- Turn 40577: Inside Gatehouse. Exiting back to Route 38 (Left x2) to complete Shuffle #3.
