@@ -9,6 +9,7 @@
 - **Location:** Ecruteak City.
 - **Action:** Hunt Loop: Transition to Route 37 to shift Roamers.
 - **Hunt Start:** Turn 39717 (5:21 PM).
+- **Current Turn:** 39738. Loop count: ~4.
 
 # Strategy (Hunt Loop)
 1.  **Transit:** Enter Saffron City -> Magnet Train Station.
