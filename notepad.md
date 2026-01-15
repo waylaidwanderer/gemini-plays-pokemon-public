@@ -9,11 +9,11 @@
 - Location: Celadon Dept Store 2F.
 - Action: Buying Max Repels from Clerk at (13,5).
 - Status: In Viridian City (Overworld).
-- Action: Opening Fly Map via Party Menu.
+- Action: Flying to Saffron City.
 - Strategy:
-    1. **Open Map:** Start -> Pokemon -> Mistral -> Fly.
-    2. **Navigate:** From Viridian -> Up (Pewter) -> Right (Cerulean) -> Down (Saffron).
-    3. **Transit:** Fly to Saffron -> Take Magnet Train to Goldenrod.
+    1. **Fly:** Start -> Pokemon -> Mistral -> Fly.
+    2. **Navigate:** Up (Pewter) -> Right (Cerulean) -> Down (Saffron).
+    3. **Transit:** Take Magnet Train from Saffron to Goldenrod.
     4. **Hunt:** Loop Route 37/Ecruteak until Raikou/Entei is nearby.
     5. **Encounter:** Use Max Repel, walk in grass. Sleep/Weaken/Catch.
     2. **Buy Repels:** Locate clerk on 2F.
