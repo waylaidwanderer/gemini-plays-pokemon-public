@@ -52,53 +52,6 @@
       }
     ]
   },
-  "open_map": {
-    "description": "Opens the Pokegear and navigates to the Map card. Assumes the main menu cursor is already on 'POKEGEAR' (last used). Uses a 'Left x4, Right' sequence inside Pokegear to reliably select the Map. Includes safety 'B' presses and sleep delays.",
-    "input_schema": {},
-    "python_script": "import json\nbuttons = [\"B\", \"B\", \"Start\", \"sleep 500\", \"A\", \"sleep 500\"]\nbuttons.extend([\"Left\"] * 4)\nbuttons.append(\"Right\")\nbuttons.append(\"sleep 500\")\nbuttons.append(\"A\")\nprint(json.dumps(buttons))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-01-12T18:35:50.856Z",
-        "action_counter": 36061
-      },
-      {
-        "commit_message": "Updated to include 'B' presses to ensure menus are closed and added sleep delays for reliability during map transitions.",
-        "timestamp": "2026-01-12T22:13:13.244Z",
-        "action_counter": 36332
-      },
-      {
-        "commit_message": "Fixed JSON formatting in python script by importing json and using json.dumps.",
-        "timestamp": "2026-01-12T22:13:55.445Z",
-        "action_counter": 36334
-      },
-      {
-        "commit_message": "Forced double quotes in output string to ensure valid JSON, avoiding reliance on json library imports or default stringification.",
-        "timestamp": "2026-01-12T22:15:38.245Z",
-        "action_counter": 36336
-      },
-      {
-        "commit_message": "Fixed output format to be a JSON array of strings, not a JSON object with a 'buttons' key, as required by the tool definition.",
-        "timestamp": "2026-01-12T22:17:24.564Z",
-        "action_counter": 36339
-      },
-      {
-        "commit_message": "Improved reliability: Added an extra 'Left' press to handle starting from the 'Radio' card (4th slot) assuming non-wrapping menu, and added a sleep before the final 'A' press to ensure the Map View opens after navigation.",
-        "timestamp": "2026-01-13T07:37:57.819Z",
-        "action_counter": 37022
-      },
-      {
-        "commit_message": "Updated open_map to use a robust Left x4, Right sequence to reliably select the Map card regardless of previous cursor position.",
-        "timestamp": "2026-01-15T01:25:52.539Z",
-        "action_counter": 39724
-      },
-      {
-        "commit_message": "Fixed JSON output formatting by using json.dumps to ensure valid JSON array generation.",
-        "timestamp": "2026-01-15T01:26:54.056Z",
-        "action_counter": 39726
-      }
-    ]
-  },
   "pathfind": {
     "description": "Finds a path from the player's current position to a target coordinate using BFS. Returns a list of buttons.",
     "input_schema": {
