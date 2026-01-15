@@ -5,22 +5,28 @@
 - Vertical Walls: X=3, 5, 9, 11, 17, 20.
 
 # Suicune Quest (Cianwood)
-## Strategy: Great Southern Loop (Refined)
-Reach (14, 10) by bypassing all land ledges via the Row 50 gap at (10, 50).
-1. Move South along X=12 to (12, 49).
-2. Move West along Row 49 to (10, 49).
-3. Move South to (10, 50) (Ledge Gap).
-4. Move West along Row 50 to (2, 50) (Western Corridor).
-5. Walk North along X=2 to (2, 12) (bypasses Row 15 ledge).
-6. Walk East along Row 12 to (14, 12).
-7. Walk North to (14, 10).
-- Current Step: Moving to (2, 51) via the 'Outer Western Loop' (Row 44 detour).
+## Strategy: Internal Maze Loop
+Reach (14, 10) by navigating the internal corridors to bypass walls/ledges.
+1. Move East along Row 44 to (12, 44).
+2. Move North along X=12 to (12, 33).
+3. Move West through gap at (9, 33) to (6, 33).
+4. Move North along X=6 to (6, 26).
+5. Move West through gap at (5, 26) to (4, 26).
+6. Move South along X=4 to (4, 51).
+7. Move West along Row 51 to (2, 51).
+8. Walk North along X=2 to (2, 12).
+9. Walk East along Row 12 to (14, 12) and North to (14, 10).
+- Current Step: Navigating to (12, 33) via Row 44 and X=12 corridor.
 
 # Progress Notes
-- Verified: (10, 50) is FLOOR (Ledge Gap).
-- Verified: (12, 50) is FLOOR_UP_WALL (Blocks South).
-- Verified: Row 49 is a clear horizontal path from X=12 to X=10.
-- Verified: X=2 corridor (Row 50 to Row 12) bypasses the Row 15 ledge (X=3-17).
-- Verified: Row 12 is a clear horizontal path from X=2 to X=14.
-- Failed Attempt: Upper Western Bypass blocked by FLOOR_UP_WALL at (4, 30) and (6, 34).
-- Failed Attempt: Moving Down at (7, 33) into FLOOR_UP_WALL (Turn 49633). Row 34 is a ledge.
+- Blocked: X=5 wall at Row 44 (Turn 49641).
+- Blocked: X=7 wall at Row 47 (Turn 49640).
+- Blocked: X=11 wall at Row 49 (Turn 49640).
+- Blocked: Row 46 ledge (X=6) blocks South.
+- Verified: X=4 corridor is clear from Row 26 to Row 51.
+- Verified: X=6 corridor is clear from Row 33 to Row 26.
+- Verified: X=12 corridor is clear from Row 44 to Row 33.
+- Gap (9, 33): Allows crossing X=9 wall.
+- Gap (5, 26): Allows crossing X=5 wall.
+- Row 12: Clear horizontal path from X=2 to X=14.
+- Row 51: Clear horizontal path from X=4 to X=2.
