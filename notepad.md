@@ -11,7 +11,7 @@
 6. Tin Tower 1F (Final Battle)
 
 ## Plan for Cianwood (Step 2)
-1. Navigate to (10, 51) via (10, 50). <- CURRENT TASK
+1. Navigate to (10, 51) via X=13 corridor and (10, 50) gap. <- CURRENT TASK
 2. Walk West along Row 51 to (2, 51).
 3. Walk North along the West Beach highway to (2, 14).
 4. Walk East to (8, 14), then North to (8, 10).
@@ -23,7 +23,7 @@
 - Pharmacy: (15, 47) | Gym: (8, 43) | PokeCenter: (23, 43)
 - West Beach Highway: X=0, 1, 2. (Clear path North to Row 14)
 - Land Bridge: Row 51 (X=4-24).
-- Cliff Gap: X=4-11 at Row 50. (Allows access to Row 51)
+- Cliff Gap: X=10 at Row 50. (Allows access to Row 51)
 
 # Tile Mechanics (Verified)
 - FLOOR: Standard ground. Traversable.
