@@ -39,10 +39,11 @@
 - **Money:** ¥15644.
 - **Items:** Max Repel x30.
 - **Key Items:** Pass (Magnet Train).
-- **Status:** Route 38 (35,9). Standing on Warp. Tool Test (Loop 16).
-- **Next Step:** Execute `cycle_roamer_hunt`.
-- **Note:** Warp didn't trigger on entry. Tool attempts 'Right' bump to force it.
-- **Roamer Check:** Loop 16 via Tool.
+- **Status:** Inside Gatehouse (0,5). Tool execution interrupted by Map Change.
+- **Next Step:** Left (Exit) -> Check Map (Manual Step).
+- **Note:** 'cycle_roamer_hunt' tool failed to complete loop due to harness interrupt on map change.
+- **Lesson:** Cannot chain Map Change + Actions in one turn. Must split: Move -> Turn End -> Action.
+- **Roamer Check:** Pending Loop 16 Check.
 - **Strategy:** Manual Reset: Enter -> Exit -> Check.
 - **Strategy:** Manual Reset: Right (Enter) -> Left (Exit) -> Check Map.
 - **Strategy:** Manual Reset Loop: Check Map -> B -> Right (Enter Gate) -> Left (Exit Gate) -> Start (Map).
