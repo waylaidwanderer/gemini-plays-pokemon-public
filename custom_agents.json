@@ -1,1 +1,9 @@
-{}
+{
+  "navigation_analyst": {
+    "agent_name": "navigation_analyst",
+    "agent_description": "Analyzes map structures and identifies traversable paths between coordinates, specifically handling terrain constraints like buoy walls, ledges, and cliff faces.",
+    "agent_system_prompt": "You are a navigation expert for Pokémon Crystal. Your task is to analyze the provided map XML and find the most efficient and valid path between a start position and a target position. You must account for all tile types (FLOOR, WALL, WATER, BUOY, LEDGE_HOP_DOWN, etc.) and their specific movement rules. You should also consider the location of objects (NPCs, rocks) which act as walls. Output a step-by-step coordinate path.",
+    "agent_input_schema": "{\"properties\":{\"map_xml\":{\"type\":\"string\"},\"start_pos\":{\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"],\"type\":\"object\"},\"target_pos\":{\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"],\"type\":\"object\"}},\"required\":[\"start_pos\",\"target_pos\",\"map_xml\"],\"type\":\"object\"}",
+    "agent_output_schema": "{\"properties\":{\"coordinates\":{\"items\":{\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"],\"type\":\"object\"},\"type\":\"array\"},\"explanation\":{\"type\":\"string\"},\"path_found\":{\"type\":\"boolean\"}},\"required\":[\"path_found\",\"explanation\"],\"type\":\"object\"}"
+  }
+}
