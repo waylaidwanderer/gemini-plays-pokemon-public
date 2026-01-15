@@ -1,1 +1,35 @@
-{}
+{
+  "patrol_grass": {
+    "description": "Generates a path for patrolling tall grass. It performs a random walk on connected TALL_GRASS tiles starting from the player's current position.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "steps": {
+          "type": "integer",
+          "description": "Number of steps to take.",
+          "default": 20
+        },
+        "current_x": {
+          "type": "integer",
+          "description": "Current X coordinate"
+        },
+        "current_y": {
+          "type": "integer",
+          "description": "Current Y coordinate"
+        }
+      },
+      "required": [
+        "current_x",
+        "current_y"
+      ]
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nimport random\n\n# map_xml_string is automatically provided\n\nroot = ET.fromstring(map_xml_string)\ngrid = {}\nfor row in root.findall('Row'):\n    y = int(row.get('id'))\n    for tile in row.findall('Tile'):\n        x = int(tile.get('id'))\n        tile_type = tile.get('type')\n        has_object = tile.get('has-object') == 'true'\n        grid[(x, y)] = {'type': tile_type, 'blocked': has_object}\n\n# Simple random walk on grass\npath = []\ncurr = (current_x, current_y)\n\n# Direction vectors\ndirs = [(0, 1), (0, -1), (1, 0), (-1, 0)]\n\n# Valid tile check\ndef is_valid(x, y):\n    if (x, y) not in grid: return False\n    # Allow moving onto TALL_GRASS\n    # We could also allow FLOOR if we want to cross paths, but the goal is grass encounters.\n    # Let's stricter: only TALL_GRASS.\n    if grid[(x, y)]['type'] == 'TALL_GRASS' and not grid[(x, y)]['blocked']:\n        return True\n    return False\n\n# Sanity check start\nif not is_valid(curr[0], curr[1]):\n    # If not starting on grass, try to find nearest grass? \n    # For now, just return empty list or fail gracefully.\n    # But usually we call this when IN grass.\n    # Let's assume we might be adjacent.\n    pass\n\nfor _ in range(steps):\n    neighbors = []\n    for dx, dy in dirs:\n        nx, ny = curr[0] + dx, curr[1] + dy\n        if is_valid(nx, ny):\n            neighbors.append((nx, ny))\n    \n    if neighbors:\n        # Try to pick a neighbor that isn't the one we just came from to avoid immediate backtracking\n        if len(path) > 0:\n            prev_x = path[-1]['x'] if len(path) == 1 else path[-1]['x'] # Wait, path is list of dicts\n            # Actually, logic:\n            # We need to look at where we came FROM.\n            # If path has items, the last item is where we are NOW (curr). \n            # Wait, path should contain the NEXT steps.\n            # My 'curr' variable tracks where the logic is.\n            # If path is not empty, the PREVIOUS position in the logic was...\n            # Actually, let's just track 'prev_pos'.\n            pass\n\n        # Simplified random walk\n        next_tile = random.choice(neighbors)\n        path.append({'x': next_tile[0], 'y': next_tile[1]})\n        curr = next_tile\n    else:\n        break\n\nprint(str(path).replace(\"'\", '\"'))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-15T20:31:56.421Z",
+        "action_counter": 40981
+      }
+    ]
+  }
+}
