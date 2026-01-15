@@ -1,22 +1,23 @@
 # Strategy: Capture Suicune (Started Turn 48227)
 - Goal: Reach (14, 10) in Cianwood City to trigger sighting.
-- Approach: The Row 5 Edge Transition
+- Approach: The West Beach Highway (Verified)
 - Plan:
   1. Use Super Repel. [DONE]
-  2. Navigate to (0, 5) on Route 41. [IN PROGRESS]
-  3. Transition to Cianwood City (29, 5).
-  4. Navigate to Suicune's sighting spot at (14, 10) in Cianwood.
-- Status: At (29, 5) in Cianwood City surfing.
-- Reasoning: I've bypassed the buoy maze by using the Row 5 highway on Route 41. Now I'm in the eastern channel of Cianwood. I'll navigate south to (24, 32), land, and then use the Row 32 city artery to reach the west beach. From there, it's a straight shot up to Suicune!
+  2. Walk to (6, 44) via Row 44 corridor. [IN PROGRESS]
+  3. Walk North to (6, 37), then West to (2, 37).
+  4. Walk North along West Beach (X=2) to (2, 12).
+  5. Walk East to (14, 12), then North to (14, 10).
+- Status: At (23, 32) on land.
+- Reasoning: The city is a vertical maze, but Row 44 is a clear horizontal artery that connects the east side to the west beach. X=2 is a clear path past all city walls and cliff faces up to the northern plateau.
 
 # Blocked Routes (Verified)
 - Central City: Vertical wall at X=9 (Rows 34-37). Cliff at Row 30.
-- Plateau Access: Row 29 is a clear East-West path from X=19 to X=2, bypassing the Row 30 cliff and city walls.
-- Southern Corridor: Row 47/48 provides a path from the east side (X=19) to the west beach (X=2), bypassing the central maze.
-- Row 50 Cliff: Impassable wall from X=12 to X=19.
+- Plateau Access (South): Row 15 ledge at (10, 15) blocks northbound entry.
+- Plateau Access (East): Row 12 wall at X=17 blocks entry from water.
+- Plateau Access (West): Clear path found via X=2 (West Beach).
 
 # General Lessons
-- City Layouts: In Johto cities like Cianwood, horizontal paths (Rows) often bypass vertical blockades (Walls) even if they look like a maze. Always check the full length of a Row for gaps.
+- City Layouts: In Johto cities like Cianwood, horizontal paths (Rows) often bypass vertical blockades (Walls). Always check the full length of a Row for gaps. Row 44 and Row 12 are the key arteries here.
 
 # Area Notes: Cianwood City
 - Photo Studio: (9, 31) | Poke Seer: (5, 17)
