@@ -39,5 +39,5 @@
 - **Money:** ¥15644.
 - **Items:** Max Repel x30.
 - **Key Items:** Pass (Magnet Train).
-- **Status:** Roamers on Rt 32, 42, 44. None on 38. Resetting Loop 3/50.
-- **Next Step:** Enter Gatehouse, then re-enter Rt 38.
+- **Status:** Resetting Loop 3/50. Stepping off/on warp tile.
+- **Next Step:** Step Left, then Right to trigger warp.
