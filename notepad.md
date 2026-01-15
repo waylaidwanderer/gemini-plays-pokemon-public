@@ -13,9 +13,8 @@
 - **Current Task:** Gatehouse Shuffle (Looping Rt 38 <-> Gatehouse).
 - **Session Start:** Turn 40704 (Blind Shuffle Route 38).
 - **Location:** Route 38 (Scanning Cycle #21).
-- **Action:** Closing Menu (again) and Scanning Grass (Right x10).
-- **Status:** Resuming Scan #21. Repel Active.
-- **Note:** Start Menu persisted open from Turn 40782 despite 'B' input. Retrying close.
+- **Action:** Scanning Grass (Right x10).
+- **Status:** Resuming Scan #21. Menu confirmed closed. Repel Active.
 - **Pokedex Mode:** Old (National Dex). Target: #243 Raikou, #244 Entei.
 - **Pokedex Status:** #243 (Raikou) & #244 (Entei) are UNSEEN (Cannot track). #245 (Suicune) is SEEN.
 - **Strategy:** Blind Gatehouse Shuffle.
