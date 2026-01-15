@@ -10,11 +10,18 @@
 5. Route 25
 6. Tin Tower 1F
 
-## Plan: Navigate to North Plateau
-- Hypothesis: Row 51 land bridge leads to West Beach (X=0-2), which bypasses the Row 15 ledge.
-- Test: Reach (2, 15) and verify if it's a FLOOR or LEDGE tile.
-- Current Task: Surf South into Route 41 via (29, 32) to loop around the island.
-- Note: Verify if West Beach (X=0-2) actually bypasses the Row 15 ledge.
+## Plan: Southern Detour (Started Turn 48956)
+1. Move Right from (29, 32) to enter Route 41. <- CURRENT TASK
+2. Surf South in Route 41 to Row 52.
+3. Surf West to (0, 52) to re-enter Cianwood.
+4. Surf West and North in Cianwood to reach West Beach (X=0-2).
+5. Land and walk North to Row 12, then East to (14, 12).
+6. Walk North to Suicune at (14, 10).
+
+# World Events & Swarms
+- Route 35: Yanma swarm reported (Turn 44986).
+- Professor Oak & Kurt: Long-time acquaintances.
+- Professor Elm: Former assistant to Professor Oak.
 
 # Area Notes
 - Doors (Avoid during pathfinding): Photo Studio (9, 31), Lugia House (15, 37), Seer (5, 17).
