@@ -44,4 +44,5 @@
 - Turn 40568: Back on Route 38. Opening Start Menu to check map.
 - Turn 40570: Attempting optimized navigation: `press_sequence_with_delays` ['Right', 'A'] to open Map immediately.
 - Turn 40571: Sandbox down. 'press_sequence_with_delays' failed. Reverting to manual input: Pressing 'Right' to select Map Card.
-- Turn 40572: Cursor on Map Card. Pressing 'A' to open map and verify Beast positions.
+- Turn 40573: Map check negative. Beasts at Rt 42, Rt 44, Rt 32.
+- Action: Closing Pokegear (B) to re-enter Gatehouse and shuffle again.
