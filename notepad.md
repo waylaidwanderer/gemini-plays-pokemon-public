@@ -1,11 +1,14 @@
 ## Suicune Quest (Started Turn 49107)
 - Goal: Trigger Suicune sighting at (14, 10).
-- Strategy: Use the "East Shore Route" (X=24 channel) to reach the northern plateau.
+- Strategy: Use the "Great Southern Highway" (Row 51) to reach the West Beach Highway (X=2).
 
 ## Plan: Reach Suicune at (14, 10)
-- Step 1: Surf North from (23, 32) via Outer Sea (X=24+). <- CURRENT TASK
-- Step 2: Swim to Row 12 and West to (16, 12).
-- Step 3: Land at (16, 12) (Plateau Landing) and walk to (14, 10).
+- Step 1: Walk to (23, 51) via eastern corridor. <- CURRENT TASK
+- Step 2: Walk West to (4, 51) (Row 51 Highway).
+- Step 3: Walk North to (4, 49) and West to (2, 49) (West Beach).
+- Step 4: Walk North along West Beach (X=2) to Row 14.
+- Step 5: Walk East to (8, 14), then North to (8, 12).
+- Step 6: Walk East to (14, 12), then North to (14, 10) to trigger Suicune.
 
 ## Verified Tile Mechanics
 - FLOOR: Traversable.
@@ -16,14 +19,11 @@
 - BUOY: Impassable hard wall.
 
 ## Navigation Insights
-- East Shore Landing (23, 32): Reliable access point to the Outer Sea.
-- Outer Sea Highway: X=24 is a clear vertical channel.
-- Plateau Landing (16, 12): Verified landing point on the northern plateau.
-- Gym Blockade: Building at (10, 40) is bypassed by the East Shore Route.
-
-## Error Log & Lessons
-- Indecision at Turn 49107-49190: Oscillated between West and East routes. Lesson: Pick a route and verify the first step before committing.
-- Unverified Landing (17, 11): Treated an unseen tile as a fact. Lesson: All landing points must be visually confirmed.
+- Southern Highway (Row 51): Clear horizontal path from X=4 to X=24.
+- West Beach Highway (X=2): Clear vertical path from Row 53 to Row 14.
+- Row 14 Crossing: Clear land path from X=2 to X=8.
+- Plateau Entrance: (8, 14) -> (8, 12) -> (14, 12) -> (14, 10).
+- Gym Blockade: Building at (10, 40) blocks central land access.
 
 ## Battle Strategy: Eusine
 - Lead: Calcifer (Lv 64 Typhlosion). Sweep with Flamethrower/Thunderpunch.
