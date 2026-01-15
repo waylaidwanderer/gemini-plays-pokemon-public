@@ -10,13 +10,11 @@
 - WATER: Requires SURF.
 
 ## Execution Plan (Terrestrial Bypass)
-1. Interact with Town Map at (3, 0) in Mania's House. (Done)
-2. Exit to Cianwood City via (3, 7). <- CURRENT TASK
-3. Walk to gap at (9, 33) and move West to (8, 33).
-4. Walk to gap at (5, 35) and move West to (4, 35).
-5. Walk to gap at (3, 35) and move West to (2, 35).
-6. Walk North through western corridor (X=2) to Row 10.
-7. Walk East to (14, 10) to trigger Suicune.
+1. Exit to Cianwood City via (3, 7). <- CURRENT TASK
+2. Walk to gap at (9, 33) and move West to (8, 33).
+3. Walk to gap at (5, 35) and move West to (4, 35).
+4. Walk North through western corridor (X=2) to Row 10.
+5. Walk East to (14, 10) to trigger Suicune.
 
 ## Failed Hypotheses
 - Island Hop (13, 16) via (11, 15): Dead end alcove at (11, 14).
