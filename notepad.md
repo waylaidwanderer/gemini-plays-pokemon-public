@@ -37,14 +37,4 @@
     - Turn 40546: Map check confirmed Roamers moved to Rt 42/44/31. None on Rt 38.
 - **Phase 3 (Gatehouse Shuffle):**
     - Turn 40548: Wade called. Handling call, then heading to Gatehouse (35, 8).
-- Turn 40550: Call finished. Moving East to Gatehouse (35, 8) to shuffle Roamers. One tile of grass at (29, 6) risks encounter.
-- Turn 40551: At Gatehouse entrance (35, 8). Executing "Double Tap Right" to trigger warp. Commencing Gatehouse Shuffle.
-- Turn 40552: Inside Gatehouse. Immediately exiting back to Route 38 (Left x2) to complete the shuffle and check positions.
-- Turn 40553: Returned to Route 38. Opening Start Menu to access Pokegear and check Beast positions.
-- Turn 40554: Opening Pokegear (A) to check positions after Shuffle 1. Sandbox still down, manual check required.
-- Turn 40555: In Pokegear main menu. Cursor on 'Back'. Pressing 'Right' to highlight Map card. Avoiding multi-button input to prevent truncation.
-- Turn 40556: Map checked. Roamers at Rt 42, Rt 44, Rt 32. NOT on Rt 38.
-- Action: Closing Pokegear (B) to re-enter Gatehouse and shuffle again.
-- Turn 40557: Start Menu still open. Pressing B to close it, then will re-enter Gatehouse to shuffle.
-- Turn 40558: Menu closed. Executing "Double Tap Right" to re-enter Gatehouse and shuffle roamers.
-- Turn 40559: Inside Gatehouse. Exiting back to Route 38 (Left x2) to complete shuffle and check map.
+- Strategy: Performing Gatehouse Shuffle (Route 38 <-> Gatehouse) to force Roaming Beast movement. Checking Pokegear map after each transition.
