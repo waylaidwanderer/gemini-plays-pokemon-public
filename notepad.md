@@ -12,14 +12,8 @@
 - **Goal:** Register Raikou & Entei.
 - **Current Task:** Hunt Roaming Beasts (Phase 2).
 - **Location:** Route 38 (East Side).
-- **Hunt Loop:** 9 (Shuffled).
-- **Action:** Check Pokegear Map.
-- **Strategy:**
-    1. Enter Gatehouse (Shuffle).
-    2. Exit to Route 38 (Trigger Movement).
-    3. Check Map IMMEDIATELY.
-    4. If Beast on Rt 38 -> Repel & Hunt.
-    5. If not -> Repeat.
+- **Hunt Progress:** Beast CONFIRMED on Route 38! Repel Active (~230 steps).
+- **Action:** Close Pokegear -> Enter Grass -> Hunt.
 
 # Hunt Strategy
 1. **Target Acquired:** Beast IS on Route 38!
