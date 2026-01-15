@@ -15,15 +15,17 @@
 - WATER: Surf required. Traversable.
 - BUOY: Impassable water obstacle.
 - WALL: Impassable ground/object.
-- FLOOR_UP_WALL: Impassable ledge face.
+- DOOR: Warp point. Traversable.
+- FLOOR_UP_WALL: Impassable ledge face. Blocks South movement.
 - LEDGE_HOP_DOWN: One-way jump (North to South).
 
-# Strategy: Reach Suicune (The Western Land Path)
-- Start Turn: 48227 (Pursuit began), 48509 (Current strategy)
-- Step 1: Surf back to land at (19, 30).
-- Step 2: Walk West to X=2, then North to Row 10.
-- Step 3: Walk East to (14, 10) to trigger the Suicune sighting.
-- Note: Avoid breakable rocks at (4, 25) and (4, 19) by staying on the far western edge (X=0-2).
+# Strategy: Reach Suicune (The Great Western Loop)
+- Start Turn: 48227 (Pursuit began), 48514 (Current strategy)
+- Step 1: Walk to (23, 51) via Row 44.
+- Step 2: Walk West at Row 51 to X=2.
+- Step 3: Walk North at X=2 to Row 10.
+- Step 4: Walk East at Row 10 to (14, 10).
+- Note: This avoids the maze of walls and ledges in the city center.
 
 # Area Notes: Cianwood City
 - Photo Studio: (9, 31)
