@@ -11,14 +11,13 @@
 
 # Strategy: Capture Suicune (Started Turn 48227)
 - Goal: Reach (14, 10) to trigger sighting.
-- Approach: The 'Ghost' Channel Bypass (Verified)
+- Approach: Buoy Maze Navigation (Exploration Phase)
 - Plan:
-  1. Surf at (12, 28) into (12, 27). [IN PROGRESS]
-  2. Navigate to (16, 15) via X=15 corridor (Clear of buoys).
-  3. Land at (16, 14) (FLOOR).
-  4. Walk to (14, 10) (All FLOOR).
-- Status: At (12, 28), facing water.
-- Reasoning: Direct land access is blocked by cliff walls (FLOOR_UP_WALL) at Row 34 and Row 30. The buoy maze is a distraction; a clear water corridor exists at X=15 that leads directly to a northern landing spot at (16, 14).
+  1. Surf at (12, 27) and clear message. [IN PROGRESS]
+  2. Use pathfinding tool to identify the sequence of gaps (X=16, 19, 22, 26).
+  3. Navigate to the northern plateau landing spot.
+- Status: Clearing Surf message at (12, 28).
+- Reasoning: The buoy maze is the intended path. Previous land-based routes were blocked by ledges and walls. I will use my updated pathfinder (Turn 48663) to find the correct water route.
 
 # Area Notes: Cianwood City
 - Photo Studio: (9, 31) | Poke Seer: (5, 17)
