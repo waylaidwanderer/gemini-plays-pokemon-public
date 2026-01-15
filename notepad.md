@@ -10,13 +10,14 @@
 - Step 5: Walk East to (8, 14) and North to (8, 10).
 - Step 6: Walk East to (14, 10) to trigger Suicune.
 
-## Verified Tile Mechanics
+## Tile Mechanics (Cianwood City)
 - FLOOR: Traversable.
 - WALL: Impassable.
 - WATER: Requires Surf.
-- FLOOR_UP_WALL: Impassable cliff face.
-- LEDGE_HOP_DOWN: One-way jump (North to South).
 - BUOY: Impassable hard wall.
+- LEDGE_HOP_DOWN: One-way jump (North to South).
+- FLOOR_UP_WALL: Impassable cliff face.
+- DOOR: Warp to another map.
 
 ## Navigation Insights
 - West Beach Highway: X=0-2 is a clear vertical path from Row 53 to Row 14.
