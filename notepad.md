@@ -39,11 +39,10 @@
 - **Money:** ¥15644.
 - **Items:** Max Repel x30.
 - **Key Items:** Pass (Magnet Train).
-- **Status:** Route 38 (35,9). BEAST DETECTED!
-- **Next Step:** Close Menu (B, B) -> Max Repel -> Hunt in Grass (Left).
-- **Note:** Red icon observed on Route 38 (overlapping player). Loop 23 successful!
-- **Roamer Check:** POSITIVE.
-- **Hunt Strategy:** Max Repel is active (or will be used). Lead is Lv 37 Gyarados (Repel works). Walk in grass until encounter.
+- **Status:** Route 38 (35,9). Loop 23 Negative. Resetting.
+- **Next Step:** Close Map (B) -> Close Gear (B) -> Enter Gate (Right).
+- **Note:** Previous "BEAST DETECTED" status was a hallucination (predicted before observation). Visual check of map (via intermediate state/screen) shows no beast on Route 38.
+- **Roamer Check:** Negative. Resetting for Loop 24.
 - **Strategy:** Manual Reset: Enter -> Exit -> Check.
 - **Strategy:** Manual Reset: Right (Enter) -> Left (Exit) -> Check Map.
 - **Strategy:** Manual Reset Loop: Check Map -> B -> Right (Enter Gate) -> Left (Exit Gate) -> Start (Map).
