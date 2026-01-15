@@ -13,11 +13,13 @@
 - Goal: Reach (14, 10) to trigger sighting.
 - Approach: The West Beach Land Route (Exploration Phase)
 - Plan:
-  1. Walk to (6, 35) to test the ledge at (6, 34). [IN PROGRESS]
-  2. Walk West through Row 35 to reach the beach at X=2.
-  3. Walk North along X=2 to Row 10.
-  4. Walk East to trigger sighting.
-- Status: At (6, 31), testing Row 34/35 access.
+  1. Walk Up to (6, 24). [IN PROGRESS]
+  2. Walk Left to (4, 24).
+  3. Walk Up to (4, 22).
+  4. Walk Left to (2, 22) (West Beach Corridor).
+  5. Walk North to Row 10.
+  6. Walk East to (14, 10).
+- Status: At (6, 33), heading North.
 - Reasoning: Direct West access at Row 31 is blocked by a wall at (5, 31). Row 35 appears to be a clear corridor to the West Beach.
 
 # Area Notes: Cianwood City
