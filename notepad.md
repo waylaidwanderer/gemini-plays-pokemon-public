@@ -1,15 +1,15 @@
-## Strategy: Northern Landing via Row 11 Bypass
+## Strategy: Northern Plateau Access via Row 8 Bypass
 **Start Turn:** 48900 (Quest: Trigger Suicune Overworld Sighting)
 
-Cianwood's buoy walls are bypassed! I am in the X=20 channel.
-The Northern Plateau is accessible by Surfing to the Row 15 gap and then looping around the X=19 wall at Row 14.
+The Northern Plateau is accessible by Surfing to Row 8 to bypass the X=22 buoy wall, then looping back to the Inner Channel.
 
 ### Execution Plan
 1. Apply Super Repel (Bag). <- CURRENT TASK
 2. Surf East to (23, 16), then North through the gap at (23, 15).
-3. Surf North to (23, 11), then West to (18, 11).
-4. Surf West to (17, 11) and land on the plateau at (16, 11).
-5. Walk to (14, 10) to trigger Suicune.
+3. Surf North to (23, 8), then West to (19, 8).
+4. Surf South to (19, 11), then West to (18, 11).
+5. Explore for a landing point on the plateau (Target: (16, 11) or (16, 12)).
+6. Walk to (14, 10) to trigger Suicune sighting.
 
 ## Tile Mechanics
 - FLOOR: Standard ground.
@@ -25,10 +25,5 @@ The Northern Plateau is accessible by Surfing to the Row 15 gap and then looping
 - Row 15 Wall: Gap at (23, 15).
 
 ## Inventory Check
-- Super Repel: 4 remaining. Re-applied Turn 49300. (200 steps remaining).
+- Super Repel: 4 remaining. Re-applied Turn 49302. (200 steps remaining).
 - Party: Calcifer (Lv 64) leads. Ready for Eusine.
-
-## Reflection Turn 49300
-- Immediate Execution: Re-applying Repel to ensure safe passage to the plateau.
-- Strategy: Identified a much shorter path to the plateau via the Row 11 northern bypass.
-- Map Hygiene: Marking the (26, 8) buoy to prevent future navigation errors.
