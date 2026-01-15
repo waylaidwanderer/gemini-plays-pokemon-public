@@ -1,25 +1,27 @@
-## Strategy: Reaching Suicune Overworld Sighting
+## Strategy: West Beach Highway to Suicune
 **Start Turn:** 48900 (Quest: Trigger Suicune Overworld Sighting)
 
-Cianwood's geography is a maze of vertical walls and ledges. I am using a terrestrial path to the northern plateau.
+Cianwood's geography is a maze of vertical walls and ledges. The 'West Beach Highway' (X=2) provides a clear path to the northern plateau.
 
 ### Step-by-Step Execution Plan
-1. Walk South to (11, 18), then West to (7, 18) to reach the central corridor.
-2. Walk South along the X=7 corridor to (7, 34).
-3. Walk West through the Row 34 gap to (2, 34) (West Beach).
-4. Walk North along the West Beach Highway (X=2) to (2, 14).
-5. Walk East along the Row 14 corridor to (8, 14).
-6. Walk North along the X=8 corridor to (8, 12).
-7. Walk East along the Row 12 corridor to (14, 12).
-8. Walk North to (14, 10) to trigger Suicune sighting.
+1. Walk North to Row 28 to bypass the X=5 wall gap at (5, 28).
+2. Walk West to X=2 (West Beach Highway).
+3. Walk North along X=2 to Row 12.
+4. Walk East along Row 12 to (14, 12).
+5. Walk North to (14, 10) to trigger Suicune sighting.
 
 ## Tile Mechanics: Cianwood City
 - FLOOR: Standard traversable ground.
 - WALL: Impassable barrier.
 - WATER: Traversable only with Surf HM.
 - BUOY: Impassable water barrier.
-- FLOOR_UP_WALL: One-way ledge. Blocks DOWN movement (Y to Y+1). Allows UP and East-West movement. (Verified at (6, 46)).
+- FLOOR_UP_WALL: One-way ledge. Blocks DOWN movement (Y to Y+1). Allows UP and East-West movement. (Verified at (6, 46) and (7, 34)).
 - LEDGE_HOP_DOWN: One-way jump South. Impassable from the North side.
+
+## Failed Hypotheses & Lessons
+- Route 40 Bypass: Dead end on the West.
+- Inner Channel South: Blocked at Row 15 by solid buoy line.
+- Row 34/46/48/50 Ledges: Block Downward movement, forcing a long detour to the North or South.
 
 ## Inventory Check
 - Super Repel: 4 remaining. Applied turn 49346.
