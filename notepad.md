@@ -39,6 +39,6 @@
 - **Money:** ¥15644.
 - **Items:** Max Repel x30.
 - **Key Items:** Pass (Magnet Train).
-- **Status:** Resuming Return to Gatehouse. Loop 8 pending.
-- **Next Step:** Pathfind to (34, 9) -> Reset Loop.
+- **Status:** Call cleared. At Gatehouse (34, 9). Starting Loop 8/50.
+- **Next Step:** Execute Reset Tool -> Check Map.
 - **Lesson:** Gatehouse warps can be sticky. Automate resets to avoid 'doorway effect'.
