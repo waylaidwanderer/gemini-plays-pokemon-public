@@ -3,19 +3,20 @@
 - **Fly Map:** Visual Map (Cursor based). Use D-pad to select city. **Cursor persists:** Verify destination text.
 - **Pokegear Map:** Visual. Roaming Beasts appear as icon.
 - **Menu Memory:** Start Menu and Pokegear cursors remember their last position. Always verify state.
+- **Tool Dev Lesson:** `define_tool` Python scripts must print a JSON *list* (array) for `autopress_buttons`, not a JSON object.
 - **Tile Mechanics:**
-    - **Route 38 Gatehouse (35,8) & (35,9):** Both warp tiles are sticky/inconsistent. Requires multiple attempts or specific entry vectors.
-    - **Recommendation:** If one fails, try the other. Shuffle Left/Right until successful.
+    - **Route 38 Gatehouse (35,8) & (35,9):** Sticky warps.
+    - **Solution:** "Double Tap" technique (press direction into warp, then press again into wall) works reliably.
 
 # Strategic Status
 - **Goal:** Register Raikou & Entei.
 - **Current Task:** Hunt Roaming Beasts (Phase 2).
 - **Location:** Route 38 (West of Ecruteak).
 - **Hunt Start:** Turn ~40000.
-- **Current Loop:** 13 (Resetting).
-- **Action:** Hunt Loop: Exit Gatehouse to Route 38.
-- **Hunt Progress:** Phase 2 Loop 17/50. Exiting Gatehouse.
-- **Beast Status:** Loop 17 Negative. Entry Successful (Double Tap).
+- **Current Loop:** 17.
+- **Action:** Hunt Loop: Check Map on Route 38.
+- **Hunt Progress:** Phase 2 Loop 17/50. Checking Map.
+- **Beast Status:** Checking...
 - **Beast Status:** Loop 12 Negative.
 - **Hunt Strategy:**
 
