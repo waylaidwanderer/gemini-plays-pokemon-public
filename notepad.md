@@ -1,13 +1,15 @@
 ## Suicune Quest (Started Turn 49107)
 - Goal: Trigger Suicune sighting at (14, 10).
-- Strategy: Use the "Outer Sea Route" to bypass the plateau walls.
+- Strategy: Use the "Great Southern Highway" (Row 51) to reach the West Beach.
 
 ## Plan: Reach Suicune at (14, 10)
-- Step 1: Walk to (12, 19). <- CURRENT TASK
-- Step 2: Surf South to (12, 21) and East to (23, 21) via (19, 21) Buoy Gap.
-- Step 3: Surf North to (23, 11) via (23, 15) Buoy Gap.
-- Step 4: Surf West and land at (17, 11) or (16, 11).
-- Step 5: Walk West to (14, 10) to trigger Suicune.
+- Step 1: Surf South from (12, 19) to (12, 28) and land. <- CURRENT TASK
+- Step 2: Walk South to (12, 51).
+- Step 3: Walk West to (4, 51) and North to (4, 49).
+- Step 4: Walk West to (2, 49) (West Beach).
+- Step 5: Walk North along West Beach (X=2) to Row 14.
+- Step 6: Walk East to (8, 14), then North to (8, 12).
+- Step 7: Walk East to (14, 12), then North to (14, 10) to trigger Suicune.
 
 ## Verified Tile Mechanics
 - FLOOR: Traversable.
@@ -18,10 +20,11 @@
 - BUOY: Impassable hard wall.
 
 ## Navigation Insights
-- Inner Channel (X=12-17): Mostly enclosed by walls and buoys.
-- Buoy Wall Gaps: (19, 21) and (23, 15) allow passage between Inner Channel and Outer Sea.
-- Outer Sea Route: Provides access to the northern plateau (Row 11-12) from the east.
-- Gym Blockade: Building at (10, 40) is bypassed by the Outer Sea Route.
+- Southern Highway (Row 51): Clear horizontal path from X=4 to X=24.
+- West Beach (X=0-2): Clear vertical highway from Row 53 to Row 10.
+- X=9 Wall: Blockade from Row 34 to Row 43. Gaps at Row 44-47 and Row 49-51.
+- X=5 Wall: Blockade from Row 30 to Row 33. Gaps at Row 34-35 and Row 46-51.
+- X=3 Wall: Blockade from Row 21 to Row 29. Gaps at Row 30 and Row 20.
 - Ledge (10, 15): One-way jump DOWN. Avoid if trying to stay north.
 
 ## Battle Strategy: Eusine
@@ -30,5 +33,5 @@
 - Strategy: OHKO everything.
 
 ## Technical Status
-- Super Repel: Active (~65 steps used).
+- Super Repel: Active (~100 steps used).
 - Start Turn: 49107.
