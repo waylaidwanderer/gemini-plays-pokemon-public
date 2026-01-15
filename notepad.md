@@ -1,23 +1,19 @@
-## Strategy: Northern Island Bypass to Suicune
+## Strategy: Inner Channel Route to Suicune
 **Start Turn:** 48900 (Quest: Trigger Suicune Overworld Sighting)
 
-Cianwood is a maze of 'FLOOR_UP_WALL' barriers in the south. I will use the northern water channel and a central landing point at Row 18 to reach the West Beach.
+Cianwood is a maze of 'FLOOR_UP_WALL' barriers. I will navigate the buoy gaps to enter the 'Inner Channel' (X=18) and land on the northern plateau.
 
 ### Step-by-Step Execution Plan
-1. Surf North in the eastern channel to (29, 8). <- CURRENT TASK
-2. Surf West through the buoy gap at (22, 8) to (21, 8).
-3. Surf South to (21, 18).
-4. Surf West and land on the island at (17, 18).
-5. Walk West to (15, 18), then Surf across the 1-tile pond at (14, 18) to land at (13, 18).
-6. Walk West to (4, 18), then North to the beach gap at (4, 14).
-7. Walk West to (2, 14), then North to (14, 10) to trigger Suicune.
+1. Surf to (25, 10) via the gap in the X=26 buoy wall at Row 10. <- CURRENT TASK
+2. Surf South to (25, 16), then West to (21, 16) via the gap in the X=22 buoy wall at Row 16.
+3. Surf South to (21, 21), then West to (18, 21) via the gap in the X=19 buoy wall at Row 21.
+4. Surf North in the Inner Channel to (18, 10).
+5. Land on the plateau at (16, 10) or (17, 10) and walk to (14, 10) to trigger Suicune.
 
-## Tile Mechanics: Cianwood City
-- FLOOR: Standard traversable ground.
-- WALL: Standard impassable barrier.
-- WATER: Traversable only with Surf HM.
-- BUOY: Impassable water barrier.
-- FLOOR_UP_WALL: Impassable from the North. Behaves like a wall when moving Down into it.
+## Navigation: Buoy Gaps (X-Wall at Row)
+- X=26 Wall: Gap at Row 10-14.
+- X=22 Wall: Gap at Row 16-24.
+- X=19 Wall: Gap at Row 21.
 
 ## Failed Hypotheses & Lessons
 - Great Sea Bypass (Route 40): Dead end on the West.
