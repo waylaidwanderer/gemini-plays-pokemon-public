@@ -12,8 +12,7 @@
 - **Goal:** Register Raikou & Entei.
 - **Current Task:** Gatehouse Shuffle (Looping Rt 38 <-> Gatehouse).
 - **Location:** Route 38 Gatehouse (Shuffle Cycle #14).
-- **Action:** Entering Gatehouse to shuffle.
-- **Status:** Scan #13 Negative. Repel Active.
+- **Status:** Exiting Gatehouse. Preparing for Scan #14.
 - **Pokedex Mode:** Old (National Dex). Target: #243 Raikou, #244 Entei.
 - **Pokedex Status:** #243 (Raikou) & #244 (Entei) are UNSEEN (Cannot track). #245 (Suicune) is SEEN.
 - **Strategy:** Blind Gatehouse Shuffle.
