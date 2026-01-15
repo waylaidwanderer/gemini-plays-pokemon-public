@@ -4,11 +4,10 @@
 Cianwood's internal walls and buoys create a maze. The Northern Plateau (Suicune sighting) is only accessible by Surfing to Row 8 to bypass the X=22 and X=19 buoy walls.
 
 ### Step-by-Step Execution Plan
-1. Surf to the buoy gap at (23, 15). <- CURRENT TASK
-2. Surf North to the open channel at Row 8.
-3. Surf West to (18, 8), bypassing the X=22 and X=19 walls.
-4. Surf South to (18, 11), then West to land on the plateau at (16, 11).
-5. Walk to (14, 10) to trigger Suicune sighting.
+1. Surf North to (27, 8) via the buoy gap at (27, 9). <- CURRENT TASK
+2. Surf West to (18, 8), bypassing the X=22 and X=19 walls.
+3. Surf South to (18, 11), then West to land on the plateau at (16, 11).
+4. Walk to (14, 10) to trigger Suicune sighting.
 
 ## Navigation: Buoy Gaps & Walls
 - X=22 Wall: Blocked Row 9-15. Gaps at Row 8 and Row 16+.
