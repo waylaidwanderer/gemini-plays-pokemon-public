@@ -4,25 +4,25 @@
 - WATER: Surf required. Traversable.
 - BUOY: Impassable water obstacle.
 - DOOR: Warp point. Traversable.
-- FLOOR_UP_WALL: Ledge face. Blocks North movement.
+- FLOOR_UP_WALL: Ledge face. Blocks North (Up) movement.
 - LEDGE_HOP_DOWN: One-way jump (North to South).
 - BREAKABLE ROCK: Requires Rock Smash. Impassable.
 - NPC: Impassable. Interact from adjacent tile.
 
-# Strategy: Capture Suicune
+# Strategy: Capture Suicune (Started Turn 48227)
 - Goal: Reach (14, 10) to trigger sighting.
-- Approach: The West Beach Land Route (Verified)
+- Approach: The West Beach Land Route (Exploration Phase)
 - Plan:
-  1. Walk to (12, 30) then down to (12, 32). [IN PROGRESS]
-  2. Walk West through the corridor at Row 32/33 to reach the beach at X=2.
-  3. Walk North along the X=2 corridor to Row 12.
-  4. Walk East to (13, 12), then North to the plateau at (14, 10).
-- Status: At (19, 30), beginning the land trek.
-- Reasoning: This route is 100% land-based and bypasses all breakable rocks and the buoy maze. It uses the far west beach corridor (X=2) which is clear of ledges between Y=49 and Y=11.
+  1. Walk to (6, 35) to test the ledge at (6, 34). [IN PROGRESS]
+  2. Walk West through Row 35 to reach the beach at X=2.
+  3. Walk North along X=2 to Row 10.
+  4. Walk East to trigger sighting.
+- Status: At (6, 31), testing Row 34/35 access.
+- Reasoning: Direct West access at Row 31 is blocked by a wall at (5, 31). Row 35 appears to be a clear corridor to the West Beach.
 
 # Area Notes: Cianwood City
 - Photo Studio: (9, 31) | Poke Seer: (5, 17)
 - Pharmacy: (15, 47) | Gym: (8, 43)
-- Breakable Rocks: (5, 29), (8, 16), (9, 17), (10, 27), (4, 19), (4, 25)
-- Ledge Gap (Row 50): at X=10 provides access to southern beach.
+- Breakable Rocks: (5, 29), (10, 27), (8, 16), (9, 17), (4, 19), (4, 25)
 - North-facing Ledges: at Y=30, Y=34, Y=46, Y=50 block direct northern land access.
+- Southern Ledge Gap: at (10, 50) provides access to southern beach.
