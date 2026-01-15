@@ -20,3 +20,6 @@ The northern plateau (Row 10-15) is blocked by a wall/ledge at Row 15, except at
 - Verified: Row 33 has a gap in the X=9 wall and is clear to the West.
 - SUPER REPEL is active.
 - Land Route is the confirmed path to the plateau.
+- Observed: Pokefan M at (16, 33) paces horizontally, blocking Row 33.
+- Strategy Update: Bypass Pokefan via Row 34 to reach the (9, 33) gap.
+- Turn 49765: Stunned Pokefan M (ID 2).
