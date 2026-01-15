@@ -10,21 +10,21 @@
 - NPC: Impassable. Interact from adjacent tile.
 
 # Blocked Routes (Verified)
-- West Beach (X=2): Blocked at Row 34/35 by a continuous cliff face (FLOOR_UP_WALL).
+- West Beach (X=0-2): Clear path from Row 36 up to Row 14 plateau.
 - Central City: Blocked at Row 30 by a continuous cliff face.
 - Buoy Maze Outer: Blocked at X=22 and X=26 by solid buoy walls.
 
 # Strategy: Capture Suicune (Started Turn 48227)
 - Goal: Reach (14, 10) to trigger sighting.
-- Approach: The Inner Channel Sequence (Advisor Recommended)
+- Approach: The Great Northern Buoy Loop
 - Plan:
   1. Use Super Repel in PACK. [DONE]
-  2. Navigate to (23, 15) [Gap 6]. [IN PROGRESS]
-  3. Navigate West to (19, 14) [Gap 4].
-  4. Navigate North to (19, 11), then West to land at (16, 11).
+  2. Navigate to (21, 6) (Gateway through X=26 and X=22 walls). [IN PROGRESS]
+  3. Navigate West to (19, 6).
+  4. Navigate South to (19, 11), then West to land at (16, 11).
   5. Walk to (14, 10).
-- Status: At (27, 18) surfing, exiting PACK menu.
-- Reasoning: Row 15 is a solid barrier. Gaps 6 and 4 provide the only verified water route into the northern plateau pocket.
+- Status: At (27, 18) surfing.
+- Reasoning: Multiple buoy walls (X=26, X=22, X=19) create a maze. Row 6 provides the only confirmed gap through the X=22 barrier.
 
 # Area Notes: Cianwood City
 - Photo Studio: (9, 31) | Poke Seer: (5, 17)
