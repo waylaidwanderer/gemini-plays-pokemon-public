@@ -1,28 +1,25 @@
 # Suicune Quest (Cianwood)
 - **Start Turn:** 48900
 - **Timestamp:** Turn 49381 (Resumed)
-- **Status:** Back in city at (13, 49). Executing Western Corridor path.
+- **Status:** Back in city at (12, 49). Executing Western Corridor path.
 
 ## Execution Plan (Refined)
-1. Walk East to (13, 51), then South to Row 52. (Bypasses Row 50 FLOOR_UP_WALL). <- CURRENT TASK
-2. Walk West to (2, 52).
-3. Walk North to (2, 12) to enter the western corridor.
+1. Walk North to Row 30 beach. <- CURRENT TASK
+2. Find terrestrial or water-based path to western corridor (X=2).
+3. Walk North to (2, 12).
 4. Walk East to (14, 12).
 5. Walk North to (14, 10) to trigger Suicune.
 
 ## Strategy: Western Corridor Path
-The northern plateau is only accessible from the far west (X=2). Row 50 is a solid FLOOR_UP_WALL line from X=12 to X=19. I must loop around the south end of this wall at X=11 or X=20. Column 13 is a clear corridor leading to the bottom of the map. I will loop around the south at Row 52 to reach the western path.
+The northern plateau is only accessible from the far west (X=2). The city is a maze of walls and ledges. I am using a custom pathfinding tool to identify the most efficient route through the barriers.
 
 ## Failed Hypotheses & Lessons
 - Attempted Down move at (12, 49): Blocked by FLOOR_UP_WALL at (12, 50).
 - Attempted Down move at (13, 49): Blocked by FLOOR_UP_WALL at (13, 50).
-- **Correction:** The FLOOR_UP_WALL line at Row 50 extends further than initially thought. I must find the end of this line. Looking at the map, (11, 50) and (10, 50) are FLOOR tiles. I will move to (11, 49) then (11, 51) to bypass the wall.
-- **Revised Execution Plan:**
-1. Walk to (11, 49).
-2. Walk South to (11, 51). <- CURRENT TASK
-3. Walk West to (2, 51).
-4. Walk North to (2, 12).
-5. Walk East to (14, 12) then North to (14, 10).
+- Terrestrial Path (South): Blocked by ledge lines at Row 46, 48, 50.
+- Terrestrial Path (West): Blocked by wall lines at X=11, 9, 5, 3.
+- Inner Channel Water Path: Entirely blocked by buoy walls (Row 9, Row 25). Must use island hop.
+- Island Hop Landing (13, 16): Dead end due to walls at Row 13/15.
 
 ## Tile Mechanics (Global)
 - **FLOOR**: Traversable ground. No special effects.
