@@ -28,5 +28,5 @@
 - **Money:** ¥15644.
 - **Items:** Max Repel x30.
 - **Key Items:** Pass (Magnet Train).
-- **Interruption:** Turn 39741 - Phone call from Gaven. Resolved.
-- **Current Turn:** 39810. Menu Open. Selecting Map in Pokegear.
+- **Status:** Hunting Raikou/Entei. Shuffling between Rt 37 & Ecruteak.
+- **Strategy:** If beast on current map -> Repel & Search. Else -> Move map.
