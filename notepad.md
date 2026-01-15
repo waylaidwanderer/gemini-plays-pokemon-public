@@ -14,11 +14,15 @@
 - FLOOR_UP_WALL: Impassable ledge face.
 - LEDGE_HOP_DOWN: One-way jump (North to South).
 
-# Strategy: Capture Suicune
-- Current Goal: Trigger Suicune sighting on Cianwood north beach plateau.
-- Sighting Spot: (14, 10) (Hypothesized).
-- Status (Turn 48485): Suicune and Eusine are not currently in the mental map.
-- Plan: Reach the northern plateau (Y < 15) to check for the sighting trigger. If Suicune is not found, investigate if the event was already triggered or if a prerequisite is missing.
+# Strategy: Capture Suicune (The Eastern Water Channel)
+- Start Turn: 48227 (Pursuit began), 48487 (Current strategy)
+- Step 1: Walk to (19, 30) and Surf.
+- Step 2: Surf East to (27, 30), then North along the east coast to (27, 16).
+- Step 3: Surf West through Gap 2 at (22, 16) to (20, 16).
+- Step 4: Surf North to Row 14, then West through Gap 4 at (19, 14) to (18, 14).
+- Step 5: Surf North to Row 11, then West to land at (16, 11).
+- Step 6: Walk to Suicune sighting spot at (14, 10).
+- Status: The northern plateau is accessible by surfing through specific buoy gaps on the east and middle channels.
 
 # Area Notes: Cianwood City
 - Photo Studio: (9, 31)
