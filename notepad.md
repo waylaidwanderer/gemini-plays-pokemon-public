@@ -14,14 +14,13 @@
 - **Location:** Route 38 (West of Ecruteak).
 - **Hunt Start:** Turn ~40000.
 - **Current Loop:** 7 (Finished).
-- **Action:** Check Pokegear Map.
-- **Hunt Progress:** Repel Expired. Checking Roamer location before re-applying.
-- **Beast Status:** **POSITIVE** (Route 38). Assumed present.
-- **CRITICAL FIX:** Repel active. Gyarados (Lv 37) leading. Only Beasts (Lv 40) will appear.
+- **Action:** Exit Pokegear -> Shuffle Roamers.
+- **Hunt Progress:** Beasts NOT on Route 38. Locations: Rt 42 & Rt 32.
+- **Beast Status:** **NEGATIVE**.
 - **Plan:**
-    1. Scan Grass (Manual).
-    2. If Beast -> Attack (Chip HP).
-    3. If Flee -> Track & Pursue.
+    1. Exit Menu.
+    2. Enter Gatehouse (shuffle).
+    3. Check Map again.
 
 # Hunt Strategy
 1. **Target Acquired:** Beast IS on Route 38!
