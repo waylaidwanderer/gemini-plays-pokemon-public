@@ -11,20 +11,19 @@
 6. Tin Tower 1F (Final Battle)
 
 ## Plan for Cianwood (Step 2)
-1. Navigate to (6, 28) via (13, 28). <- CURRENT TASK
-2. Navigate to (4, 28).
-3. Navigate to (4, 29).
-4. Navigate to (2, 29) (West Beach Highway).
-5. Walk North to Row 14.
-6. Walk East to (8, 14), then North to (8, 10).
-7. Walk East to Suicune at (14, 10).
-8. Trigger cutscene.
+1. Navigate to (10, 51) via (10, 50). <- CURRENT TASK
+2. Walk West along Row 51 to (2, 51).
+3. Walk North along the West Beach highway to (2, 14).
+4. Walk East to (8, 14), then North to (8, 10).
+5. Walk East to Suicune at (14, 10).
+6. Trigger cutscene with Eusine.
 
 # Area Notes: Cianwood City
 - Photo Studio: (9, 31) | Poke Seer: (5, 17)
 - Pharmacy: (15, 47) | Gym: (8, 43) | PokeCenter: (23, 43)
-- West Beach Highway: X=0, 1, 2.
+- West Beach Highway: X=0, 1, 2. (Clear path North to Row 14)
 - Land Bridge: Row 51 (X=4-24).
+- Cliff Gap: X=4-11 at Row 50. (Allows access to Row 51)
 
 # Tile Mechanics (Verified)
 - FLOOR: Standard ground. Traversable.
@@ -34,3 +33,8 @@
 - LEDGE_HOP_DOWN: One-way jump (North to South). Blocks Northward movement.
 - WATER: Requires Surf to traverse.
 - BUOY: Impassable water barrier.
+
+# World Events & Swarms
+- Route 35: Yanma swarm reported (Turn 44986).
+- Professor Oak & Kurt: Long-time acquaintances.
+- Professor Elm: Former assistant to Professor Oak.
