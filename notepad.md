@@ -20,14 +20,11 @@
 - LEDGE_HOP_DOWN: One-way jump (North to South).
 
 # Strategy: Capture Suicune (Pursuit started Turn 48227)
-- Current Approach: The Buoy Maze Master Path (Turn 48581)
-- Step 1: Surf at (19, 30) -> (20, 30). [DONE]
-- Step 2: East to (27, 30), then North to (27, 10). [DONE]
-- Step 3: West through Gap 1 (26, 10) to (23, 10). [DONE]
-- Step 4: South to (23, 16), then West through Gap 2 (22, 16) to (20, 16). [DONE]
-- Step 5: South to (20, 21), then West through Gap at (19, 21) to (17, 21). [IN PROGRESS]
-- Step 6: North to (17, 16), then West to (14, 16).
-- Step 7: Land at (13, 16) and walk to (14, 10).
+- Current Approach: Buoy Maze Navigation (Turn 48598)
+- Step 1-4: Navigated to (20, 16) via Gap 1 and Gap 2. [DONE]
+- Step 5: Navigate to (18, 11) via Gap 4 (19, 14). [IN PROGRESS]
+- Step 6: Land at (16, 11) and walk to (14, 10). [NOT STARTED]
+- Note: West Beach walking path is blocked by rocks at (4, 19), (4, 25), (5, 29). Need Rock Smash.
 
 # Area Notes: Cianwood City
 - Photo Studio: (9, 31) | Poke Seer: (5, 17)
