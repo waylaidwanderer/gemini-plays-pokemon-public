@@ -8,8 +8,8 @@
 - **Goal:** Register Raikou & Entei.
 - **Current Task:** Hunt Roaming Beasts (Phase 2).
 - **Location:** Route 38 (West of Ecruteak).
-- **Action:** Debug Gatehouse Entry.
-- **Hunt Progress:** Phase 2 Loop 5/50. Stuck at Warp.
+- **Action:** Exit Gatehouse via (0,5).
+- **Hunt Progress:** Phase 2 Loop 5/50. Exiting Gatehouse.
 - **Beast Status:** Loop 5 Negative.
 - **Hunt Strategy:**
 - **Hunt Strategy:**
