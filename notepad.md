@@ -7,19 +7,17 @@
 - Start Turn: 49750 (Approx)
 - Start Time: 3:20 PM (Approx)
 
-## Strategy: Western Corridor Land Route
-The northern plateau (Row 10-15) is blocked by a wall/ledge at Row 15, except at the far West (X=0-2).
+## Strategy: Western Corridor Land Route (Row 44 Detour)
+The northern plateau (Row 10-15) is blocked by a wall/ledge at Row 15, except at the far West (X=0-2). Internal city walls at X=5 and X=9 block direct access.
 1. Land at (19, 30) (Completed).
-2. Walk South to Row 33.
-3. Walk West through the gap at (9, 33) to the Western Corridor (X=0-2).
-4. Walk North through the corridor to Row 10.
-5. Walk East along Row 10 to (14, 10) to trigger Suicune.
+2. Walk East to (12, 33) to bypass the X=9 wall.
+3. Walk South to Row 44 (First gap in X=9 wall south of Row 33).
+4. Walk West to (2, 44) to enter the Western Corridor.
+5. Walk North through the corridor to Row 10.
+6. Walk East along Row 10 to (14, 10) to trigger Suicune.
 
 # Progress Notes
-- Verified: Row 15, X=0-2 is FLOOR, providing a path North.
-- Verified: Row 33 has a gap in the X=9 wall and is clear to the West.
+- Turn 49766: Attempted (8, 33) -> (8, 34); blocked by FLOOR_UP_WALL.
+- Verified: Row 44 is clear from X=12 to X=2.
+- Verified: Western Corridor (X=0-2) is clear from Row 44 to Row 10.
 - SUPER REPEL is active.
-- Land Route is the confirmed path to the plateau.
-- Observed: Pokefan M at (16, 33) paces horizontally, blocking Row 33.
-- Strategy Update: Bypass Pokefan via Row 34 to reach the (9, 33) gap.
-- Turn 49765: Stunned Pokefan M (ID 2).
