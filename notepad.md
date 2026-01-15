@@ -39,5 +39,5 @@
 - **Money:** ¥15644.
 - **Items:** Max Repel x30.
 - **Key Items:** Pass (Magnet Train).
-- **Status:** Resetting Loop 3/50. Stepping off/on warp tile.
-- **Next Step:** Step Left, then Right to trigger warp.
+- **Status:** Resetting Loop 3/50. Retrying warp via top tile.
+- **Next Step:** Move Left, Up, Right to enter top warp tile.
