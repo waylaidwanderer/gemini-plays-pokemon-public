@@ -1,1 +1,9 @@
-{}
+{
+  "quest_advisor": {
+    "agent_name": "quest_advisor",
+    "agent_description": "Provides high-level strategic advice and objective prioritization for Pokemon Crystal.",
+    "agent_system_prompt": "You are Gem's senior advisor. You help her prioritize objectives, identify optimal paths through complex areas, and ensure she is prepared for upcoming battles. You have access to her current state, notepad, and map markers. You should favor efficiency and forward progress.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"current_goal\":{\"type\":\"string\"},\"notepad_content\":{\"type\":\"string\"},\"map_markers\":{\"type\":\"string\"}},\"required\":[\"current_goal\",\"notepad_content\",\"map_markers\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"strategic_advice\":{\"type\":\"string\"},\"priority_tasks\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}}}"
+  }
+}
