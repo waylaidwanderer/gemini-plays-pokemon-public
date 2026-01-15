@@ -39,7 +39,7 @@
 - **Money:** ¥15644.
 - **Items:** Max Repel x30.
 - **Key Items:** Pass (Magnet Train).
-- **Status:** Repel wore off (No encounter). Checking Map.
-- **Next Step:** Close Msg -> Open Menu -> Select Pokegear -> Check Map.
-- **Note:** Cursor on PACK. Need to move Down to GEAR.
+- **Status:** Repel wore off. Menu Open.
+- **Next Step:** Open Pokegear -> Check Map.
+- **Hypothesis:** Roamer might have fled or wasn't there. Checking location.
 - **Lesson:** Gatehouse warps can be sticky. Automate resets to avoid 'doorway effect'.
