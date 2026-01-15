@@ -1,24 +1,24 @@
 # Suicune Quest (Cianwood)
 - **Quest Start:** Turn 48900
-- **Status:** Executing Terrestrial Path via wall gaps at (9, 33) and (5, 35).
 
-## Execution Plan (Terrestrial)
-1. Surf from (13, 16) south to land at (14, 28). (Done)
-2. Walk to (9, 33) and pass West through the gap. <- CURRENT TASK
-3. Walk to (5, 35) and pass West through the gap.
-4. Walk North through western corridor (X=2) to Row 14.
-5. Walk East to (8, 14), then North to (8, 10).
-6. Walk East to (14, 10) to trigger Suicune.
+## Execution Plan (Southern Bypass)
+1. Walk to (23, 32) and use Surf. <- CURRENT TASK
+2. Surf South to Row 52, then West to (2, 52).
+3. Land at (2, 51) and walk North to (2, 14).
+4. Walk East to (14, 10) to trigger Suicune.
 
-## Strategy: Terrestrial Path
-The city walls at X=9 and X=5 are not solid. Gaps exist at (9, 33) and (5, 35) that allow access to the western corridor (X=2). This corridor provides a direct, ledge-free path to the northern plateau.
+## Strategy: Southern Bypass
+Terrestrial paths to the western corridor are blocked by multiple ledge lines (Row 34, 46, 48, 50). The only way to reach the plateau is to Surf around the south end of the map. This avoids all city barriers.
+
+## Tile Mechanics (Cianwood)
+- **FLOOR_UP_WALL**: One-way ledge. Blocks South movement. (Verified at Row 34, 46, 48, 50).
+- **LEDGE_HOP_DOWN**: One-way ledge. Blocks North movement.
 
 ## Failed Hypotheses & Lessons
-- Island Hop (13, 16) via (11, 15): Dead end alcove at (11, 14).
+- Terrestrial Center Path: Blocked by upward ledges at Row 34.
 - Inner Channel (X=12): Blocked at Row 15 by buoy wall.
-- Southern Bypass (Surf): Unnecessary; terrestrial gaps identified.
+- Island Hop (13, 16): Dead end pocket at (11, 14).
 
 ## Progress Summary
 - All 16 Badges obtained.
-- Elite Four/Red defeated.
 - Current Focus: Suicune tracking.
