@@ -1,11 +1,4 @@
 {
-  "strategy_advisor": {
-    "agent_name": "strategy_advisor",
-    "agent_description": "Evaluates complex game situations and provides high-level strategic advice, focusing on long-term goals and overcoming stagnation.",
-    "agent_system_prompt": "You are a strategic advisor for a Pokemon Crystal playthrough. You will be provided with a summary of the current game state, including the player's position, party, inventory, and recent history. Your task is to analyze the situation and provide high-level strategic advice to help the player overcome obstacles and achieve their goals. Focus on long-term progression, team composition, and efficient resource management. If the player is stuck or stagnating, suggest alternative paths or objectives.",
-    "agent_input_schema": "{\"properties\":{\"context\":{\"type\":\"string\"},\"query\":{\"type\":\"string\"}},\"required\":[\"query\",\"context\"],\"type\":\"object\"}",
-    "agent_output_schema": "{\"properties\":{\"advice\":{\"type\":\"string\"},\"suggested_objectives\":{\"items\":{\"type\":\"string\"},\"type\":\"array\"}},\"type\":\"object\"}"
-  },
   "reflection_bot": {
     "agent_name": "reflection_bot",
     "agent_description": "A specialized agent that handles turn-based self-reflection to ensure adherence to core principles, tool hygiene, and goal clarity.",

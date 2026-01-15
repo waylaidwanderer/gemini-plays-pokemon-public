@@ -10,31 +10,24 @@
 5. Route 25
 6. Tin Tower 1F
 
-## Plan: Reach North Plateau (Started Turn 48972)
-- Goal: Reach Suicune at (14, 10).
-- Step 1: Reach (12, 28) and Surf. (Done)
-- Step 2: Use Super Repel and Surf East to bypass Buoy Wall.
-  - (12, 27) -> (12, 26) -> (20, 26) -> (20, 21) -> (23, 21). <- CURRENT TASK
-- Step 3: Surf North through Buoy Gap at (23, 15).
-- Step 4: Surf West and land on plateau at (16, 11).
-- Step 5: Reach (14, 10) to trigger Suicune sighting.
-
-# Area Notes
-- Ledge (10, 15) blocks direct North path from town center.
-- Buoy Wall at X=16-22 (Rows 15-20) blocks East path from town center.
-- Buoy Gap at (23, 15) allows access to North Sea.
-- North Plateau Landing: (16, 11) and (16, 12) are FLOOR tiles reachable from the North Sea.
-- West Beach Path: (2, 35) to (2, 10) is also clear, but requires navigating a wall maze in town.
+## Plan: Reach North Plateau (Sea Route)
+- Step 1: Reach (12, 28) and Surf. <- CURRENT TASK
+- Step 2: Surf East to X=24.
+- Step 3: Surf North to Row 14 (bypasses buoy wall at X=16-22, Row 15-20).
+- Step 4: Surf West to (15, 11) and land.
+- Step 5: Walk to (14, 10) to trigger Suicune sighting.
 
 # Tile Mechanics
 - FLOOR: Traversable.
+- WALL: Impassable.
+- FLOOR_UP_WALL: Impassable (Cliff face).
+- LEDGE_HOP_DOWN: One-way jump (North to South).
 - WATER: Requires Surf.
 - BUOY: Impassable.
-- WALL: Impassable.
-- LEDGE_HOP_DOWN: One-way jump (North to South).
 - ROCK: Smashable obstacle.
 
-# Failed Hypotheses
-- Attempting to walk North via (11, 15) gap: Leads to a 2-tile dead end at (10-11, 14) due to solid walls at Row 13.
-- Attempting to walk to West Beach via Row 51: Blocked by unseen cliffs at Row 50.
-- Positional Hallucination (Turn 49021): Corrected. Verified position at (19, 46) during detour attempt.
+# Navigation Notes
+- Buoy Wall: X=16-22, Row 15-20. Gap at (23, 15).
+- Ledge: (10, 15) blocks direct North path from center.
+- Landing: (15, 11) is FLOOR reachable from North sea.
+- Suicune Trigger: (14, 10).
