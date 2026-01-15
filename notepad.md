@@ -14,8 +14,8 @@
 - **Location:** Route 38 (West of Ecruteak).
 - **Hunt Start:** Turn ~40000.
 - **Current Loop:** 7 (Finished).
-- **Action:** Dismiss Text -> Re-apply Max Repel.
-- **Hunt Progress:** Repel Expired (approx 260 steps).
+- **Action:** Check Pokegear Map.
+- **Hunt Progress:** Repel Expired. Checking Roamer location before re-applying.
 - **Beast Status:** **POSITIVE** (Route 38). Assumed present.
 - **CRITICAL FIX:** Repel active. Gyarados (Lv 37) leading. Only Beasts (Lv 40) will appear.
 - **Plan:**
