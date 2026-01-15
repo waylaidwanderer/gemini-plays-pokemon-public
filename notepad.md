@@ -31,28 +31,9 @@
 - **Note:** Roamers retain HP damage.
 
 # Log
-- **Phase 2 (Rt 38):**
-    - Turn 40498: Beast CONFIRMED on Route 38.
-    - Turn 40516: Repel Expired (Loop 11). Re-applying.
-- Turn 40525: Tool 'scan_grass' failed (sandbox error). Switching to manual scanning.
-- Turn 40526: continuing manual scan (20 steps). Sandbox still presumed down. Repel should be active (applied ~Turn 40516).
-- Turn 40527: Manual scan continues (20 steps). Repel active (blocking all except Beast). Approaching Repel expiration (~200/250 steps used).
-- Turn 40528: Manual scan continues (20 steps). Repel active. Still hunting.
-- Turn 40529: Manual scan (20 steps). Re-calculated Repel usage: ~80/250 steps used (plenty remaining).
-- Turn 40530: Manual scan (20 steps). Repel active. No encounter yet.
-- Turn 40531: Manual scan (20 steps). Repel active (~120/250 steps used). Still nothing.
-- Turn 40532: Manual scan (20 steps). Repel active (~140/250 steps used). Still nothing. Only Raikou/Entei (Lv 40) can penetrate the Repel (Lead Lv 37).
-- Turn 40533: Manual scan (20 steps). Repel active (~160/250 steps used). Still nothing. Persistence is key.
-- Turn 40534: Manual scan (20 steps). Repel active (~180/250 steps used). Still searching. Statistically, this can take time.
-- Turn 40535: Manual scan (20 steps). Repel active (~200/250 steps used). Approaching expiration. Will check map when it expires.
-- Turn 40536: Manual scan (20 steps). Repel active (~220/250 steps used). Very close to expiration.
-- Turn 40537: Manual scan (20 steps). Repel active (~240/250 steps used). IMPROBABLE that it hasn't expired yet if previous counts were accurate. Anticipating expiration momentarily.
-- Turn 40538: Manual scan (30 steps). Repel SHOULD be dead by now (260+ steps). If it's still active, I might have miscounted the start or turn-steps don't count fully. Continuing until expiration or encounter.
-- Turn 40539: Repel effect wore off. No encounter after full duration. Verifying Beast location via Pokegear next turn.
-- Turn 40540: Attempting to use 'check_roamer_map' to verify position. If sandbox fails again, will revert to manual menu navigation.
-- Turn 40542: Manually opening Pokegear (Down, A) to bypass potential tool failures.
-- Turn 40543: Pressing A to enter Pokegear. Previous multi-button input was truncated by system.
-- Turn 40544: Navigating Pokegear menu (Right -> A) to select Map card. Visual cursor confirms menu focus despite 'Press any button to exit' text.
-- Turn 40545: Cursor is on Map card. Pressing A to open the map and check for Beast locations.
-- Turn 40546: Checked Map. Roamers visible on Route 42, Route 44, and possibly Route 31 area. CONFIRMED: None on Route 38.
-- Plan: Exit Pokegear, travel to Route 38 Gatehouse (East), and toggle maps to shuffle positions.
+- **Phase 2 (Rt 38 - Turn ~40500):**
+    - Hunted on Route 38 using Repel. No encounter.
+    - Turn 40539: Repel expired.
+    - Turn 40546: Map check confirmed Roamers moved to Rt 42/44/31. None on Rt 38.
+- **Phase 3 (Gatehouse Shuffle):**
+    - Turn 40548: Wade called. Handling call, then heading to Gatehouse (35, 8).
