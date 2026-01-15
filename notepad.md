@@ -29,4 +29,4 @@
 - **Items:** Max Repel x30.
 - **Key Items:** Pass (Magnet Train).
 - **Interruption:** Turn 39741 - Phone call from Gaven. Resolved.
-- **Current Turn:** 39800. Saw Beasts on Rt 38 & 42. Moving to Rt 37.
+- **Current Turn:** 39801. Call finished. Entering Route 37 to shuffle.
