@@ -11,12 +11,13 @@
 6. Tin Tower 1F (Final Battle)
 
 ## Plan for Cianwood (Step 2)
-1. Navigate to the Southern Corridor (Row 51) via (10, 51).
-2. Walk West along Row 51 to the West Beach (X=2).
-3. Walk North along the West Beach highway to (2, 14).
-4. Walk East to (8, 14), then North to (8, 12).
-5. Walk East to (14, 12) then North to (14, 10).
-6. Trigger the cutscene with Eusine.
+1. Walk North to Row 36 at (12, 36). <- CURRENT TASK
+2. Walk West to X=4 at (4, 36).
+3. Walk South to Row 51 at (4, 51).
+4. Walk West to West Beach at (2, 51).
+5. Walk North to Suicune Plateau at (2, 10).
+6. Walk East to Suicune at (14, 10).
+7. Trigger the cutscene with Eusine.
 
 # Area Notes: Cianwood City
 - Photo Studio: (9, 31) | Poke Seer: (5, 17)
