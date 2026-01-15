@@ -3,7 +3,7 @@
 - **Status:** Executing Terrestrial Path via wall gaps at (9, 33) and (5, 35).
 
 ## Execution Plan (Terrestrial)
-1. Surf from (13, 16) south to land at (14, 30). <- CURRENT TASK
+1. Surf from (13, 16) south to land at (14, 28). <- CURRENT TASK
 2. Walk to (9, 33) and pass West through the gap.
 3. Walk to (5, 35) and pass West through the gap.
 4. Walk North through western corridor (X=2) to Row 14.
