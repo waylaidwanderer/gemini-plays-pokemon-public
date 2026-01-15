@@ -31,3 +31,4 @@
 - **Plan:** Return to Route 38. Attempt to use Max Repel again to verify active status. If 'Still working', then encounters are ignoring it.
 - **Action:** Refreshed Max Repel (Turn 40947). Previous anomaly suggests earlier Repel might have failed or expired silently. Testing new Repel efficacy now.
 - **Shuffle Step:** Entered Gatehouse (Turn 40953). Immediately returning to Route 38 to check positions.
+- **Interruption:** Phone call from Gaven (Turn 40960). Pausing navigation.
