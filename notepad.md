@@ -6,16 +6,20 @@
 
 # Suicune Quest (Cianwood)
 - Started: Turn 49630
-## Strategy: The Sea Route (Confirmed)
-Reach (14, 10) by surfing through specific buoy gaps.
-1. Move to (24, 15) and West to (23, 15) (Gap in Row 15).
-2. Move North to (23, 8) (Gap in X=22 wall).
-3. Move West to (14, 8) (Above the plateau).
-4. Move South to (14, 10) to trigger Suicune.
+## Strategy: Sea Route Loop (Refined)
+Reach (14, 10) by surfing through specific buoy and wall gaps.
+1. Move South to (23, 16).
+2. Move West to (19, 16) (Bypasses X=22 wall).
+3. Move North to (19, 8) (Bypasses Row 9 wall).
+4. Move West to (14, 8) (North of plateau).
+5. Move South to (14, 10) to trigger Suicune.
 
 # Progress Notes
-- Verified: X=22 wall is solid from Row 9 to Row 15. Gap at Row 8.
-- Verified: Row 15 wall is solid from X=18 to X=22. Gap at X=23.
-- Verified: X=19 wall is solid from Row 15 to Row 20. Gap at Row 14.
-- Verified: The plateau is accessible from WATER at Row 8-14 (X=14-16).
-- Verified: Row 9 is a solid buoy wall from X=22 to X=26. Bypass at X=27.
+- Blocked: X=22 wall is solid from Row 9 to Row 15.
+- Blocked: Row 9 wall is solid from X=22 to X=26.
+- Blocked: Row 15 land/wall is solid from X=12 to X=17.
+- Verified: X=22 wall has gaps at Row 16-21.
+- Verified: Row 9 wall has gaps at X=21 and below.
+- Verified: Row 8 is a clear horizontal path north of the buoy walls.
+- Hallucination Fix: (23, 15) is NOT a gap to the West (22, 15 is BUOY).
+- Hallucination Fix: X=26 wall (Row 0-9) prevents eastern bypass.
