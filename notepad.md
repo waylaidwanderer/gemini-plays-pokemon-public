@@ -2,12 +2,12 @@
 - Goal: Reach (14, 10) in Cianwood City to trigger sighting.
 - Approach: The West Beach Highway (Verified)
 - Plan:
-  1. Use Super Repel. [DONE]
-  2. Walk to (6, 44) via Row 44 corridor. [IN PROGRESS]
+  1. Use Super Repel. [IN PROGRESS]
+  2. Walk to (6, 44) via Row 44 corridor.
   3. Walk North to (6, 37), then West to (2, 37).
   4. Walk North along West Beach (X=2) to (2, 12).
   5. Walk East to (14, 12), then North to (14, 10).
-- Status: At (23, 32) on land.
+- Status: At (23, 37) on land. Repel wore off.
 - Reasoning: The city is a vertical maze, but Row 44 is a clear horizontal artery that connects the east side to the west beach. X=2 is a clear path past all city walls and cliff faces up to the northern plateau.
 
 # Blocked Routes (Verified)
