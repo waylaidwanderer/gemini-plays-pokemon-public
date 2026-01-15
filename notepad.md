@@ -13,9 +13,9 @@
 - Goal: Reach (14, 10) to trigger sighting.
 - Approach: The West Beach Corridor (Verified)
 - Plan:
-  1. Clear SURF message at (12, 27). [IN PROGRESS]
-  2. Use Super Repel to avoid wild encounters.
-  3. Land at (12, 28).
+  1. Clear SURF message at (12, 27). [DONE]
+  2. Land at (12, 28). [IN PROGRESS]
+  3. Use Super Repel to avoid wild encounters.
   4. Walk West to (2, 28).
   5. Walk North along the X=2 corridor to (2, 12).
   6. Walk East to (14, 12), then North to (14, 10).
