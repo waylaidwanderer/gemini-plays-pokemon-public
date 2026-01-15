@@ -15,7 +15,7 @@
 - **Current Task:** Gatehouse Shuffle (Route 38 <-> Gatehouse).
 - **Session Start:** Turn 40832 (Repel Active).
 - **Location:** Route 38 (Cycle #36).
-- **Action:** Patrolling grass (Tool Called).
+- **Action:** Patrolling grass (Manual Fallback).
 - **Pokedex Mode:** Old (National Dex). Target: #243 Raikou, #244 Entei.
 - **Pokedex Status:** #243 (Raikou) & #244 (Entei) are UNSEEN.
 - **Strategy:** Blind Gatehouse Shuffle.
