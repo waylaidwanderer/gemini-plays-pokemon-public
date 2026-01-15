@@ -10,10 +10,10 @@
 - WATER: Requires SURF.
 
 ## Execution Plan (Terrestrial Bypass)
-1. Exit Mania's House (Done).
-2. Walk to gap at (9, 33) and move West to (8, 33). <- CURRENT TASK
-3. Walk to gap at (5, 35) and move West to (4, 35).
-4. Walk to gap at (3, 35) and move West to (2, 35).
+1. Walk to gap at (9, 33) via (21, 33) corridor. <- CURRENT TASK
+2. Move West through (9, 33) to (8, 33).
+3. Move to gap at (5, 35) and pass West to (4, 35).
+4. Move to gap at (3, 35) and pass West to (2, 35).
 5. Walk North through western corridor (X=2) to Row 10.
 6. Walk East to (14, 10) to trigger Suicune.
 
