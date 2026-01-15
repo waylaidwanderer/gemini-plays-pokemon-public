@@ -42,3 +42,4 @@
 - Turn 40566: Re-entering Gatehouse (Right x2) to shuffle.
 - Turn 40567: Inside Gatehouse. Exiting back to Route 38 (Left x2) to complete shuffle.
 - Turn 40568: Back on Route 38. Opening Start Menu to check map.
+- Turn 40570: Attempting optimized navigation: `press_sequence_with_delays` ['Right', 'A'] to open Map immediately.
