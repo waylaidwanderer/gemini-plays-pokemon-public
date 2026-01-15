@@ -24,7 +24,7 @@ The city is a maze of 'FLOOR_UP_WALL' barriers. I will Surf around the entire is
 - X=20 Corridor: Blocked by 'WALL' at (20, 46-49).
 
 ## Inventory Check
-- Super Repel: 7 remaining. Last applied turn 49091. (~147 steps used). Re-apply now.
+- Super Repel: 7 remaining. Last applied turn 49241. (~200 steps available).
 
 ## Battle Strategy: Eusine
 - Lead: Calcifer (Lv 64 Typhlosion).
