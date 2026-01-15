@@ -19,14 +19,14 @@
 - FLOOR_UP_WALL: Impassable ledge face. Blocks South movement.
 - LEDGE_HOP_DOWN: One-way jump (North to South).
 
-# Strategy: Reach Suicune (The Eastern Channel Approach)
-- Start Turn: 48227 (Pursuit began), 48541 (Current strategy)
+# Strategy: Reach Suicune (The Northern Sea Approach)
+- Start Turn: 48227 (Pursuit began), 48543 (Current strategy)
 - Step 1: Walk to (19, 30) and Surf at (20, 30).
-- Step 2: Surf North to (23, 15) (Buoy Gap 6).
-- Step 3: Surf North to (23, 14), then West to (19, 14) (Buoy Gap 4).
-- Step 4: Surf North to (18, 11), then West to (17, 11).
-- Step 5: Land at (16, 11) and walk to Suicune sighting spot at (14, 10).
-- Note: This path is the only verified way to reach the northern plateau from the water, bypassing the buoy walls at Row 15 and Row 25. Verified (16, 11) as a landing spot. Ready for Eusine battle after Suicune flees.
+- Step 2: Surf East to (27, 30), then North to (27, 10).
+- Step 3: West through Gap 1 at (26, 10) to (23, 10).
+- Step 4: North to (23, 8), then West through Gap at (22, 8) to (14, 8).
+- Step 5: South to (14, 10) and land on the northern plateau.
+- Note: This path uses the high-latitude gaps to bypass all buoy barriers and land directly at the sighting spot. Ready for Eusine battle after Suicune flees.
 
 # Area Notes: Cianwood City
 - Photo Studio: (9, 31)
