@@ -26,9 +26,5 @@
 
 # Log
 - **Phase 3 (Gatehouse Shuffle) - Started Turn ~40550:**
-    - Turn 40596: Shuffle #5 complete.
-    - Turn 40600: Checked Map. No Beast on Route 38 (Visual Check).
-    - Action: Closing Map (B) to continue shuffle.
-- Strategy: Gatehouse Shuffle (Rt 38 <-> Gatehouse) in progress.
-- Status (Turn 40619): Re-entering Pokegear to check Shuffle #7 (Previous check was incomplete).
-- Action: Pressing A to open Pokegear.
+    - Strategy: Looping Route 38 <-> Gatehouse to force Roamer movement.
+    - Current Status: Shuffle #7 in progress. Checking Map.
