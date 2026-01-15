@@ -1,31 +1,28 @@
+# Global Mechanics
+## Tile Mechanics
+- FLOOR_UP_WALL: Blocks SOUTH movement. Allows NORTH movement. Found at Rows 34, 46, 48, 50 in various columns. (Verified: (12, 50) and (6, 34) block Down).
+- LEDGE_HOP_DOWN: Blocks NORTH movement. Found at (10, 15).
+- ROCK: Smashable rocks act as WALLs until Rock Smash is used.
+
 # Suicune Quest (Cianwood)
 - Quest Start: Turn 48900
 
-## Strategy: Western Loop Route
-To reach the northern plateau at (14, 10), Gem must bypass the central walls and the Row 15 ledge. The confirmed path is to use the western corridor (X=2), accessible via the Row 26 cross-over.
+## Strategy: Western Corridor Ascent
+The northern plateau (14, 10) is blocked by a Row 15 ledge (LEDGE_HOP_DOWN) across the center and east. The only access is via the Western Corridor (X=0-2).
 
-## Execution Plan
-1. Move to (12, 33) via the X=12 thoroughfare. <- CURRENT TASK
-   - Path: (10, 47) -> (12, 47) -> (12, 33).
-2. Move West through the (9, 33) gap to the central corridor.
-   - Path: (12, 33) -> (6, 33).
-3. Move North to Row 26 and West to the Western Corridor.
-   - Path: (6, 33) -> (6, 26) -> (2, 26).
-4. Move North to Row 12 and East to the plateau.
-   - Path: (2, 26) -> (2, 12) -> (14, 12).
-5. Move North to (14, 10) to trigger Suicune sighting.
+## Execution Plan (Route: Southern Bypass -> X=4 Corridor)
+1. Move to (12, 47) via X=12 thoroughfare. <- CURRENT TASK
+2. Cross to X=8 at Row 47.
+3. Move to (8, 48) and cross to (4, 48).
+4. Ascend X=4 corridor to Row 35.
+5. Cross to X=2 at Row 35.
+6. Ascend X=2 corridor to Row 12.
+7. Move East to (14, 12) and North to (14, 10).
 
-## Verified Tile Mechanics
-- FLOOR_UP_WALL: Blocks DOWN (South) movement. (Verified: (12, 50) and (10, 48) blocked south). Allows NORTH movement.
-- LEDGE_HOP_DOWN: Blocks NORTH movement. (Verified: (10, 15) is impassable from the south).
-- Wall Gaps: (9, 33) at Row 33, X=4-11 at Row 26.
-- Corridors: X=12 (Northbound), X=2 (Bi-directional).
-
-## Failed Hypotheses
-- Row 44/45 West: Blocked by wall at (5, 44) and (5, 45).
-- Island Hop (13, 16): Dead end pocket at (11, 14).
-- Northern Gap Route (X=5): Blocked by wall at (5, 22).
+## Lessons Learned
+- X=3 and X=5 walls are mostly solid. Gaps exist at Row 21-22, 24-28, 30-35.
+- Central thoroughfares (X=6, X=8) are blocked by buildings (Gym, Center, Houses).
+- Row 15 buoy wall in water blocks eastern access to the plateau.
 
 ## Progress Summary
-- Badges: 16/16.
-- Current Focus: Reaching the Row 33 gap.
+- Turn 49531: Player at (6, 33). Moving to X=12.
