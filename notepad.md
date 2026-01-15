@@ -13,12 +13,11 @@
 # Goal Tracking: Capture Suicune
 - Start Turn: 48227
 - Start Time: Wednesday, 3:37 PM (Turn 48250)
-- Strategy: The Southern Gap (Turn 48366).
-- Step 1: Walk to Pokefan F at (11, 46) and talk to her.
-- Step 2: Walk south through the gap at X=10 to Row 51.
-- Step 3: Walk west along Row 51 to the beach (X=2).
-- Step 4: Walk north along the beach to Row 10.
-- Step 5: Walk east to (14, 10) to trigger Suicune sighting.
+- Strategy: The Eastern Surf Around (Turn 48367).
+- Step 1: Talk to Pokefan F at (9, 46).
+- Step 2: Walk to East Coast Surf Point at (19, 30).
+- Step 3: Surf North to Row 11.
+- Step 4: Land at (16, 11) and walk to Suicune at (14, 10).
 
 # Custom Tools (Technical Details)
 - find_path_v4: BFS pathfinder for current map.
