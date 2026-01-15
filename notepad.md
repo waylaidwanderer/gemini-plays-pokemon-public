@@ -18,13 +18,12 @@
 - Goal: Reach (14, 10) to trigger sighting.
 - Approach: The Inner Channel Sequence (Advisor Recommended)
 - Plan:
-  1. Use Super Repel in PACK. [IN PROGRESS]
-  2. Navigate to (23, 16) via the southern channel.
-  3. North through Gap 6 at (23, 15) to (23, 14).
-  4. West through Gap 4 at (19, 14) to (18, 14).
-  5. North to (19, 11), then West to (16, 11) and land.
-  6. Walk to (14, 10).
-- Status: At (27, 18) surfing, in PACK menu.
+  1. Use Super Repel in PACK. [DONE]
+  2. Navigate to (23, 15) [Gap 6]. [IN PROGRESS]
+  3. Navigate West to (19, 14) [Gap 4].
+  4. Navigate North to (19, 11), then West to land at (16, 11).
+  5. Walk to (14, 10).
+- Status: At (27, 18) surfing, exiting PACK menu.
 - Reasoning: Row 15 is a solid barrier. Gaps 6 and 4 provide the only verified water route into the northern plateau pocket.
 
 # Area Notes: Cianwood City
