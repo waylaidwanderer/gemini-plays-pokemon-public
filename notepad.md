@@ -8,11 +8,11 @@
 - **Current Task:** Restock Supplies.
 - Location: Celadon Dept Store 2F.
 - Action: Buying Max Repels from Clerk at (13,5).
-- Status: In Lavender Town (Fly Map Open).
-- Action: Close Map -> Walk West to Saffron.
+- Status: On Route 8 (Heading West to Saffron).
+- Action: Walk West -> Enter Saffron Gatehouse.
 - Strategy:
-    1. **Cancel:** Press B x3 to close menus.
-    2. **Transit:** Walk West to Route 8 -> Saffron City.
+    1. **Transit:** Walk West to Saffron Gatehouse (x=4).
+    2. **Transit:** Enter Saffron City -> Magnet Train Station.
     3. **Transit:** Take Magnet Train from Saffron to Goldenrod.
     4. **Hunt:** Loop Route 37/Ecruteak until Raikou/Entei is nearby.
     5. **Encounter:** Use Max Repel, walk in grass. Sleep/Weaken/Catch.
