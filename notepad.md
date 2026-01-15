@@ -39,6 +39,7 @@
 - **Money:** ¥15644.
 - **Items:** Max Repel x30.
 - **Key Items:** Pass (Magnet Train).
-- **Status:** Map Selected. Opening Map View.
-- **Next Step:** Visually scan for Raikou/Entei icons.
+- **Status:** Roamers on Rt 42, 32, 30. None on 38.
+- **Next Step:** Close Gear -> Return to Gatehouse (Reset).
+- **Note:** Walking back to Gatehouse to reset loop.
 - **Lesson:** Gatehouse warps can be sticky. Automate resets to avoid 'doorway effect'.
