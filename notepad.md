@@ -8,8 +8,8 @@
 - **Current Task:** Restock Supplies.
 - Location: Celadon Dept Store 2F.
 - Action: Buying Max Repels from Clerk at (13,5).
-- Status: Landed in Viridian City (navigation error).
-- Action: Opening Fly Map to try again.
+- Status: Landed in Viridian City.
+- Action: Opening Fly Map (Retrying after menu error).
 - Strategy:
     1. **Navigate:** From Viridian -> Up (Pewter) -> Right (Cerulean) -> Down (Saffron). *Verify visually.*
     2. **Transit:** Fly to Saffron -> Take Magnet Train to Goldenrod.
