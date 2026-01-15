@@ -16,8 +16,9 @@
 
 # Strategy: Capture Suicune
 - Current Goal: Trigger Suicune sighting on Cianwood north beach plateau.
-- Sighting Spot: (14, 10).
-- Investigation: Southern land/water access is blocked by ledges/buoys. Checking for a path through unseen tiles or a specific crossing.
+- Sighting Spot: (14, 10) (Hypothesized).
+- Status (Turn 48485): Suicune and Eusine are not currently in the mental map.
+- Plan: Reach the northern plateau (Y < 15) to check for the sighting trigger. If Suicune is not found, investigate if the event was already triggered or if a prerequisite is missing.
 
 # Area Notes: Cianwood City
 - Photo Studio: (9, 31)
