@@ -39,5 +39,5 @@
 - **Money:** ¥15644.
 - **Items:** Max Repel x30.
 - **Key Items:** Pass (Magnet Train).
-- **Status:** Resetting Loop 2/50. Attempting to enter Gatehouse.
-- **Next Step:** Press Right to warp.
+- **Status:** Re-entering Route 38. Loop 3/50.
+- **Next Step:** Check Roamer Map on Route 38.
