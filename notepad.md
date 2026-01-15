@@ -18,11 +18,10 @@
   3. West through Gap 4 (19, 14) to (18, 14).
   4. North to (18, 11), then West to (16, 11) and land.
   5. Walk to (14, 10).
-- Status: At (27, 14) surfing, heading North.
+- Status: At (27, 13) surfing, in battle.
 - Reasoning: X=27 is a clear channel. Row 10 is a clear channel from X=27 to X=23. Column 23 is a clear channel from Row 10 to Row 14. Gap 4 is the only entry to the inner northern channel pocket.
 
 # Area Notes: Cianwood City
 - Photo Studio: (9, 31) | Poke Seer: (5, 17)
 - Pharmacy: (15, 47) | Gym: (8, 43)
 - Southern Ledge Gap: at (10, 50) provides access to southern beach.
-- West Beach Corridor: X=0, 1, 2 is clear of ledges from Y=49 to Y=11.
