@@ -93,7 +93,7 @@
     ]
   },
   "find_path_v6": {
-    "description": "Finds a path using BFS on the current map XML, handling walls, objects, and ledges.",
+    "description": "Finds a path using BFS on the current map XML, handling walls, objects, and one-way ledge jumps. Returns a JSON array of button strings.",
     "input_schema": {
       "properties": {
         "target_x": {
@@ -109,12 +109,17 @@
       ],
       "type": "object"
     },
-    "python_script": "import collections\nimport json\nfrom xml.etree import ElementTree as ET\n\ndef solve():\n    tree = ET.fromstring(map_xml_string)\n    width = int(tree.get('width'))\n    height = int(tree.get('height'))\n    \n    grid = {}\n    for row in tree.findall('Row'):\n        y = int(row.get('id'))\n        for tile in row.findall('Tile'):\n            x = int(tile.get('id'))\n            t_type = tile.get('type')\n            is_obstacle = t_type in ['WALL', 'FLOOR_UP_WALL', 'BUOY', 'WATER']\n            if tile.find('Object') is not None:\n                is_obstacle = True\n            grid[(x, y)] = {'obstacle': is_obstacle, 'type': t_type}\n\n    start_x, start_y = None, None\n    for (x, y), info in grid.items():\n        tile = tree.find(f\"./Row[@id='{y}']/Tile[@id='{x}']\")\n        if tile.find('Player') is not None:\n            start_x, start_y = x, y\n            break\n\n    target_x = int(input_data['target_x'])\n    target_y = int(input_data['target_y'])\n\n    queue = collections.deque([((start_x, start_y), [])])\n    visited = {(start_x, start_y)}\n    \n    while queue:\n        (x, y), path = queue.popleft()\n        if (x, y) == (target_x, target_y):\n            print(json.dumps(path))\n            return\n        \n        for dx, dy, action in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n            nx, ny = x + dx, y + dy\n            if (nx, ny) in grid and not grid[(nx, ny)]['obstacle']:\n                if grid[(x, y)]['type'] == 'LEDGE_HOP_DOWN':\n                    if action != 'Down': continue\n                    nx, ny = x, y + 2\n                    if (nx, ny) not in grid or grid[(nx, ny)]['obstacle']: continue\n                \n                if (nx, ny) not in visited:\n                    visited.add((nx, ny))\n                    queue.append(((nx, ny), path + [action]))\n    print(json.dumps([]))\n\nsolve()",
+    "python_script": "import collections\nimport json\nfrom xml.etree import ElementTree as ET\n\ndef solve():\n    tree = ET.fromstring(map_xml_string)\n    width = int(tree.get('width'))\n    height = int(tree.get('height'))\n    \n    grid = {}\n    for row in tree.findall('Row'):\n        y = int(row.get('id'))\n        for tile in row.findall('Tile'):\n            x = int(tile.get('id'))\n            t_type = tile.get('type')\n            is_obstacle = t_type in ['WALL', 'FLOOR_UP_WALL', 'BUOY', 'WATER']\n            if tile.find('Object') is not None:\n                is_obstacle = True\n            grid[(x, y)] = {'obstacle': is_obstacle, 'type': t_type}\n\n    start_x, start_y = None, None\n    for (x, y), info in grid.items():\n        tile = tree.findall(f\"./Row[@id='{y}']/Tile[@id='{x}']\")\n        if tile and tile[0].find('Player') is not None:\n            start_x, start_y = x, y\n            break\n    \n    if start_x is None:\n        # Fallback if XML player tag is missing\n        print(json.dumps([]))\n        return\n\n    target_x = int(input_data['target_x'])\n    target_y = int(input_data['target_y'])\n\n    queue = collections.deque([((start_x, start_y), [])])\n    visited = {(start_x, start_y)}\n    \n    while queue:\n        (x, y), path = queue.popleft()\n        if (x, y) == (target_x, target_y):\n            print(json.dumps(path))\n            return\n        \n        for dx, dy, action in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n            nx, ny = x + dx, y + dy\n            if (nx, ny) not in grid: continue\n            \n            tile_info = grid[(nx, ny)]\n            \n            # Ledge check: moving onto a ledge tile from the north (Down) triggers a jump\n            if tile_info['type'] == 'LEDGE_HOP_DOWN':\n                if action != 'Down': continue # Cannot walk Up, Left, or Right into a ledge\n                # Jump over the ledge tile to the tile below it\n                nnx, nny = nx, ny + 1\n                if (nnx, nny) in grid and not grid[(nnx, nny)]['obstacle'] and (nnx, nny) not in visited:\n                    visited.add((nnx, nny))\n                    queue.append(((nnx, nny), path + [action]))\n                continue\n\n            if not tile_info['obstacle'] and (nx, ny) not in visited:\n                visited.add((nx, ny))\n                queue.append(((nx, ny), path + [action]))\n                \n    print(json.dumps([]))\n\nsolve()",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2026-01-15T07:51:31.765Z",
         "action_counter": 48871
+      },
+      {
+        "commit_message": "Refined ledge handling logic to correctly simulate one-way jumps and prevent walking Up/Left/Right into a ledge tile.",
+        "timestamp": "2026-01-15T07:57:22.780Z",
+        "action_counter": 48879
       }
     ]
   }
