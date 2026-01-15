@@ -1,6 +1,6 @@
 ## Plan: Reach Suicune at (14, 10) (Surf Bypass Route)
 - Step 1: Switch Calcifer (Lv 64) to lead. <- CURRENT TASK
-- Step 2: Surf at (12, 28).
+- Step 2: Surf North from (12, 28) into (12, 27).
 - Step 3: Surf North to Row 18.
 - Step 4: Land at (12, 17).
 - Step 5: Walk North/East to (14, 10) to trigger Suicune.
