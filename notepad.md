@@ -46,3 +46,4 @@
 - Turn 40556: Map checked. Roamers at Rt 42, Rt 44, Rt 32. NOT on Rt 38.
 - Action: Closing Pokegear (B) to re-enter Gatehouse and shuffle again.
 - Turn 40557: Start Menu still open. Pressing B to close it, then will re-enter Gatehouse to shuffle.
+- Turn 40558: Menu closed. Executing "Double Tap Right" to re-enter Gatehouse and shuffle roamers.
