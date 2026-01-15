@@ -12,8 +12,8 @@
 - **Goal:** Register Raikou & Entei.
 - **Current Task:** Hunt Roaming Beasts (Phase 2).
 - **Location:** Route 38 (East Side).
-- **Action:** Scan Grass (Tool).
-- **Hunt Progress:** Scanning (Loop 1). Beast CONFIRMED on Route. Repel Active (~230 steps left).
+- **Action:** Manual Scan (Left/Right) x 20.
+- **Hunt Progress:** Scanning (Loop 2 post-call). Beast CONFIRMED. Repel Active.
 
 # Hunt Strategy
 1. **Target Acquired:** Beast IS on Route 38!
