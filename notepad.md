@@ -11,11 +11,12 @@
 6. Tin Tower 1F (Final Battle)
 
 ## Plan for Cianwood (Step 2)
-- Step 1: Surf North from (19, 30). <- CURRENT TASK
-- Step 2: Surf North to (20, 11) via the X=20-21 channel.
-- Step 3: Surf West to (17, 11) and land on the plateau.
-- Step 4: Walk to Suicune at (14, 10).
-- Step 5: Trigger cutscene with Eusine.
+- Step 1: Surf North from (19, 29). <- CURRENT TASK
+- Step 2: Surf East to X=23 to bypass Row 15 buoys at (23, 15).
+- Step 3: Surf North to Row 8 at (23, 8).
+- Step 4: Surf West to (17, 8) and land on the plateau.
+- Step 5: Walk West to Suicune at (14, 10).
+- Step 6: Trigger cutscene with Eusine.
 
 # Area Notes: Cianwood City
 - Photo Studio: (9, 31) (DOOR)
