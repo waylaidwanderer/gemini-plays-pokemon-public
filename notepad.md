@@ -14,8 +14,8 @@
 # Strategic Status
 - **Current Task:** Gatehouse Shuffle (Route 38 <-> Gatehouse).
 - **Session Start:** Turn 40789 (Repel Active).
-- **Location:** Route 38 Gatehouse (Cycle #24 Start).
-- **Action:** Entering Gatehouse to shuffle.
+- **Location:** Route 38 (Cycle #24).
+- **Action:** Patrolling grass for Roamers.
 - **Pokedex Mode:** Old (National Dex). Target: #243 Raikou, #244 Entei.
 - **Pokedex Status:** #243 (Raikou) & #244 (Entei) are UNSEEN.
 - **Strategy:** Blind Gatehouse Shuffle.
