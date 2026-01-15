@@ -1,29 +1,30 @@
-## Strategy: Northern Plateau Access via Row 8 Bypass
+## Strategy: Terrestrial Bypass to Suicune
 **Start Turn:** 48900 (Quest: Trigger Suicune Overworld Sighting)
 
-The Northern Plateau is accessible by Surfing to Row 8 to bypass the X=22 buoy wall, then looping back to the Inner Channel.
+Cianwood is a maze of one-way barriers. I will land on the East Shore and walk through the city's internal gaps to reach the Northern Plateau.
 
-### Execution Plan
-1. Apply Super Repel (Bag). <- CURRENT TASK
-2. Surf East to (23, 16), then North through the gap at (23, 15).
-3. Surf North to (23, 8), then West to (19, 8).
-4. Surf South to (19, 11), then West to (18, 11).
-5. Explore for a landing point on the plateau (Target: (16, 11) or (16, 12)).
-6. Walk to (14, 10) to trigger Suicune sighting.
+### Step-by-Step Execution Plan
+1. Use Super Repel. <- CURRENT TASK
+2. Surf to (23, 32) and land on the East Shore.
+3. Walk West to (12, 32), then South to (12, 48).
+4. Walk West through the gaps: (7, 48) and (5, 48) to reach the West Beach (X=2).
+5. Walk North to (2, 14), then East to (8, 14).
+6. Walk North to (8, 12), then East to (14, 12).
+7. Walk North to (14, 10) to trigger Suicune sighting.
 
-## Tile Mechanics
+## Tile Mechanics: Cianwood City
 - FLOOR: Standard ground.
 - WALL: Impassable.
 - WATER: Surf required.
 - BUOY: Impassable water barrier.
-- FLOOR_UP_WALL: Impassable from North (blocks Down).
+- FLOOR_UP_WALL: Impassable from North (blocks Down). Traversable East-West.
 
-## Navigation: Buoy Walls & Gaps
-- X=26 Wall: Gap at Row 10-14.
-- X=22 Wall: Gap at Row 8 and Row 16-24.
-- X=19/18 Wall: Gap at Row 14 and Row 26.
-- Row 15 Wall: Gap at (23, 15).
+## Navigation: Internal Gaps
+- X=12 Corridor: Clear North-South.
+- Row 48: Gap through X=9 (FLOOR_UP_WALL) and X=7 (WALL).
+- Row 35: Gap through X=5 (WALL).
+- Row 14/12: Access to Northern Plateau from West Beach.
 
 ## Inventory Check
-- Super Repel: 4 remaining. Re-applied Turn 49302. (200 steps remaining).
+- Super Repel: 4 remaining. Re-applied Turn 49304. (200 steps remaining).
 - Party: Calcifer (Lv 64) leads. Ready for Eusine.
