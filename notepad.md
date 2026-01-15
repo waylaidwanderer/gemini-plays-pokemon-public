@@ -13,11 +13,10 @@
 # Goal Tracking: Capture Suicune
 - Start Turn: 48227
 - Start Time: Wednesday, 3:37 PM (Turn 48250)
-- Strategy: The Eastern Sea Bypass (Turn 48269).
-- Step 1: Finish dialogue/battle at Route 41 (9, 50). (Complete)
-- Step 2: Surf North on Route 41 to (0, 12).
-- Step 3: Enter Cianwood at (29, 12).
-- Step 4: Walk to sighting spot at Cianwood (14, 10).
-
-# Custom Tools (Technical Details)
-- find_path_v4: BFS pathfinder for current map.
+- Strategy: Inner City Landing (Turn 48301).
+- Step 1: Use Super Repel. (In Progress)
+- Step 2: Surf to (24, 16) -> (22, 16) Gap -> (14, 16).
+- Step 3: Land at (13, 16) and walk to (10, 16).
+- Step 4: Walk South to (10, 35) and West to (2, 35).
+- Step 5: Walk North along Column 2 to (2, 12) and East to (14, 10).
+- Status: At Cianwood (24, 12). Surfing. No Repel.
