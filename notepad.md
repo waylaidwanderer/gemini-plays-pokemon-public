@@ -39,10 +39,10 @@
 - **Money:** ¥15644.
 - **Items:** Max Repel x30.
 - **Key Items:** Pass (Magnet Train).
-- **Status:** Entering Gatehouse. Resetting for Loop 13.
-- **Next Step:** Left (Exit) -> Check Map.
-- **Note:** Loop 12 Negative.
-- **Roamer Check:** Beasts on Rt 42 and Rt 29 (approx). Not here.
+- **Status:** Inside Gatehouse (0,4). Exiting for Loop 13 Check.
+- **Next Step:** Left (Exit) -> Open Pokegear -> Check Map.
+- **Note:** Successfully entered Gatehouse. Reset complete.
+- **Roamer Check:** Starting Loop 13.
 - **Strategy:** Manual Reset: Enter -> Exit -> Check.
 - **Strategy:** Manual Reset: Right (Enter) -> Left (Exit) -> Check Map.
 - **Strategy:** Manual Reset Loop: Check Map -> B -> Right (Enter Gate) -> Left (Exit Gate) -> Start (Map).
