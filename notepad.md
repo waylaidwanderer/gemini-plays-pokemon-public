@@ -1,15 +1,15 @@
-## Strategy: West Beach Highway Route to Suicune
-Use the 'West Beach Highway' (X=0-2) to bypass the city center and reach the northern plateau.
+## Strategy: Great Southern Highway to Suicune
+Use the 'Great Southern Highway' (Row 51) to reach the 'West Beach Highway' (X=0-2), bypassing all central city blockades.
 
 ### Verified Land Route
-1. (13, 44) -> (9, 44): Pass through the X=9 wall gap.
-2. (9, 44) -> (8, 44) -> (8, 35): Walk north through the city corridor.
-3. (8, 35) -> (5, 35): Pass through the X=5 wall gap.
-4. (5, 35) -> (2, 35): Reach the West Beach Highway.
-5. (2, 35) -> (2, 14): Walk north along the beach.
-6. (2, 14) -> (8, 14): Cross east to the plateau base.
-7. (8, 14) -> (8, 10): Walk north to the plateau summit.
-8. (8, 10) -> (14, 10): Reach Suicune trigger point.
+1. (13, 49) -> (13, 44): Walk North to the horizontal passage.
+2. (13, 44) -> (23, 44): Walk East to the eastern corridor.
+3. (23, 44) -> (23, 51): Walk South to the Great Southern Highway.
+4. (23, 51) -> (2, 51): Walk West along the highway to the West Beach.
+5. (2, 51) -> (2, 14): Walk North along the beach highway to the plateau base.
+6. (2, 14) -> (8, 14): Walk East to the plateau entrance.
+7. (8, 14) -> (8, 10): Walk North to the plateau summit.
+8. (8, 10) -> (14, 10): Walk East to the Suicune trigger point.
 
 ## Global Tile Mechanics
 - FLOOR: Traversable.
@@ -21,9 +21,9 @@ Use the 'West Beach Highway' (X=0-2) to bypass the city center and reach the nor
 - DOOR: Warp to another map.
 
 ## Area Insights: Cianwood City
-- Row 44 Gap: X=9 is the only passage through the central wall (X=9) from the east.
-- Row 35 Gap: X=5 is the key passage from the city center to the West Beach.
+- Row 51 Highway: Clear horizontal path from X=4 to X=24.
 - West Beach Highway: X=0-2 is a clear vertical path from Row 53 to Row 14.
+- Gym Blockade: Building at (10, 40) and associated walls block all central land access to the north.
 - Northern Plateau Entry: Only accessible from Row 14 via the X=8 vertical corridor.
 
 ## Battle Strategy: Eusine
