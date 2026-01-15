@@ -13,17 +13,15 @@
 - **Current Task:** Hunt Roaming Beasts (Phase 2).
 - **Location:** Route 38 (West of Ecruteak).
 - **Hunt Start:** Turn ~40000.
-- **Current Loop:** 17.
-- **Action:** Use Max Repel -> Scan.
-- **Hunt Progress:** Phase 2 Loop 17/50.
+- **Current Loop:** 1.
+- **Action:** Manual Scan (Left/Right).
+- **Hunt Progress:** Phase 2 Loop 1/50 (Reset: Lead Fixed).
 - **Beast Status:** **POSITIVE** (Route 38). Assumed present.
-- **CRITICAL FIX:** Max Repel failed because Lugia (Lv 60) was leading. Must switch to Gyarados (Lv 37) to allow Lv 40 Beasts to spawn while blocking Lv 16 trash.
+- **CRITICAL FIX:** Repel active. Gyarados (Lv 37) leading. Only Beasts (Lv 40) will appear.
 - **Plan:**
-    1. Open Menu -> Switch Lugia with Gyarados.
-    2. Use Max Repel.
-    3. Scan Grass (Tool).
-    4. If Wild -> Run.
-    5. If Beast -> Attack.
+    1. Scan Grass (Manual).
+    2. If Beast -> Attack (Chip HP).
+    3. If Flee -> Track & Pursue.
 
 # Hunt Strategy
 1. **Target Acquired:** Beast IS on Route 38!
