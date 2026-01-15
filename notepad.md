@@ -12,11 +12,12 @@
 
 ## Plan for Cianwood (Step 2)
 1. Fly to Cianwood City.
-2. Navigate to the Southern Corridor (Row 51).
-3. Walk West along Row 51 to the West Beach (X=0-2).
-4. Walk North along the West Beach highway to (2, 14).
-5. Walk East along Row 12/14 to reach the plateau at (14, 10).
-6. Trigger the cutscene with Eusine.
+2. Navigate to (23, 44) (Row 44 Artery).
+3. Walk West along Row 44 to the West Beach (2, 44).
+4. Walk North along the West Beach highway (X=2) to (2, 12).
+5. Walk East to (11, 12) then North to (11, 9).
+6. Walk East to (14, 9) then South to (14, 10).
+7. Trigger the cutscene with Eusine.
 
 # Area Notes: Cianwood City
 - Photo Studio: (9, 31) | Poke Seer: (5, 17)
