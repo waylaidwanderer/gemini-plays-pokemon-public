@@ -13,9 +13,9 @@
 - **Location:** Route 38 (West of Ecruteak).
 - **Hunt Start:** Turn ~40000.
 - **Current Loop:** 13 (Resetting).
-- **Action:** Hunt Loop: Force Warp at (35,8) (Press Right).
-- **Hunt Progress:** Phase 2 Loop 15/50. Resetting (Stuck on Warp).
-- **Beast Status:** Loop 15 Negative. Both Warps Sticky (Req Double Input).
+- **Action:** Hunt Loop: Exit Gatehouse to Route 38.
+- **Hunt Progress:** Phase 2 Loop 15/50. Exiting Gatehouse.
+- **Beast Status:** Loop 15 Negative. Entry Successful (Double Tap).
 - **Beast Status:** Loop 12 Negative.
 - **Hunt Strategy:**
 
