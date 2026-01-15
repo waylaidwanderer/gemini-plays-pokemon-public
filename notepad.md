@@ -21,5 +21,6 @@ Reach (14, 10) by navigating internal corridors via specific gaps.
 - Verified: X=2 corridor is clear through Row 15.
 - Verified: Row 12 is a clear horizontal highway from X=5 to X=16.
 - Verified: Gaps at (9, 33), (5, 26), and (3, 22) allow crossing vertical walls.
+- Verified: Gap at (18, 46) is a FLOOR tile allowing SOUTH passage through the ledge row.
 - Blocked: Sea route is a complex buoy maze.
 - Blocked: X=10 corridor blocked by wall at Row 40.
