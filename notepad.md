@@ -14,9 +14,9 @@
 - **Location:** Route 38 (West of Ecruteak).
 - **Hunt Start:** Turn ~40000.
 - **Current Loop:** 17.
-- **Action:** Hunt Loop: Close Map & Enter Gatehouse (Double Tap).
-- **Hunt Progress:** Phase 2 Loop 17/50. Resetting.
-- **Beast Status:** Loop 17 Negative (Rt 42, 32, 44).
+- **Action:** Hunt Loop: Exit Gatehouse to Route 38 (via 0,5).
+- **Hunt Progress:** Phase 2 Loop 17/50. Exiting Gatehouse.
+- **Beast Status:** Loop 17 Negative. Entry Successful (Double Tap).
 - **Hunt Strategy:**
 
 # Hunt Strategy
