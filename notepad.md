@@ -29,4 +29,4 @@
 - **Items:** Max Repel x30.
 - **Key Items:** Pass (Magnet Train).
 - **Interruption:** Turn 39741 - Phone call from Gaven. Resolved.
-- **Current Turn:** 39805. Closing Menu. Entering Ecruteak.
+- **Current Turn:** 39806. In Ecruteak. Checking Map.
