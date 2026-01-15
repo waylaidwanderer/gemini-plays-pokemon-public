@@ -14,7 +14,7 @@ Reach (14, 10) by bypassing all land ledges via the Row 50 gap at (10, 50).
 5. Walk North along X=2 to (2, 12) (bypasses Row 15 ledge).
 6. Walk East along Row 12 to (14, 12).
 7. Walk North to (14, 10).
-- Current Step: Moving to (6, 51) via Row 47 detour to reach the western corridor.
+- Current Step: Moving to (2, 51) via the 'Outer Western Loop' (Row 44 detour).
 
 # Progress Notes
 - Verified: (10, 50) is FLOOR (Ledge Gap).
