@@ -33,3 +33,7 @@
 - WARP_CARPET_LEFT: Warp point. Move Left to exit.
 - WARP_CARPET_RIGHT: Warp point. Move Right to exit.
 - DOOR: Warp point. Move Up into it to exit.
+- WATER: Surf required. Traversable.
+- BUOY: Impassable water obstacle.
+- FLOOR_UP_WALL: Impassable cliff face.
+- LEDGE_HOP_DOWN: One-way jump (North to South).
