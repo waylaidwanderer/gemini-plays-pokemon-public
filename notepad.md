@@ -24,13 +24,15 @@
 - **Time Check:** Attempting sighting since Turn #50620. Commit to X=2 corridor by Turn #50900.
 - **Movement Discovery:** (6, 34) blocks South movement from (6, 33). Terrace edges (FLOOR_UP_WALL) appear to be one-way barriers (allowing North, blocking South).
 - **Refined Path to Suicune (The Grand Loop):**
-  1. Move East to (11, 26).
-  2. Move South to (11, 47).
-  3. Move West to (5, 47).
-  4. Move North to (5, 46) and then West to (2, 46).
-  5. Move North to (2, 10) (X=2 corridor is a clear shot).
-  6. Move East to (14, 10) for the sighting.
+  1. From (4, 26), move South to (4, 29).
+  2. Move East through smashed rock (5, 29) to (6, 29).
+  3. Move East to (11, 29).
+  4. Move South to (11, 47).
+  5. Move West to (2, 47).
+  6. Move North to (2, 10) (X=2 corridor).
+  7. Move East to (14, 10) for the sighting.
 - **Smashed Rocks:** (5, 29), (4, 25), (4, 19), (9, 17), (8, 16). They respawn on map exit.
 - **Barriers:** (4, 23) is a WALL. (4, 30), (6, 34), (6, 46) are one-way ledges (North only).
 - **Time Check:** Attempting sighting since Turn #50620. Commit to Grand Loop.
 - **Verification:** (3, 22) is confirmed FLOOR in Mental Map. X=3 wall exists from Y=23 to Y=29.
+- **Yanma Swarm:** Route 35 (Arnie). Priority: Low.
