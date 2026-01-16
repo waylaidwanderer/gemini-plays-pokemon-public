@@ -8,8 +8,8 @@
 - **Start Turn:** 50283
 - **Status:** Searching for the TM. Pokefan M (18, 33) is the primary source in Crystal after defeating Leader Chuck.
 - **Plan:**
-  1. Stun Pokefan M (Sprite ID 2) and talk to him from the front.
-  2. Investigate Lugia Speech House (15, 37). (Current)
+  1. Investigate Lugia Speech House (15, 37). (Current)
+  2. Stun Pokefan M (Sprite ID 2) and talk to him from the front.
   3. Re-verify Route 36 NPC if Cianwood fails.
 
 ## Global Tile Mechanics
