@@ -5,9 +5,9 @@
     - Repel Trick: Lead Lv37 > Wilds (Lv ~20) but < Roamers (Lv 40).
     - Status: Max Repel Active.
     - Loop: Wiggle in grass -> Shuffle Ecruteak/Rt 37 -> Repeat.
-- **Status:** Interrupted by Wade's Phone Call (Turn 41542).
-- **Strategy:** Finish call -> Resume Patrol.
-- **Observation:** Movement interrupted by phone call at (8,3).
+- **Status:** Resuming Patrol (Turn 41543). Call Finished.
+- **Strategy:** Wiggle in grass using `patrol_area`. If no encounter, use `enter_ecruteak_from_route37` tool.
+- **Observation:** Resuming hunt after interruption. Repel Active.
 
 # Mechanics
 - **Roamers:** Move to an adjacent route when player transitions maps.
