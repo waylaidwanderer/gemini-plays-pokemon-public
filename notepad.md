@@ -19,20 +19,15 @@
   - Goal: Cianwood City.
 
 # Strategy: Fly to Cianwood (Suicune Pursuit)
-- Time Tracking: Started Turn 50620 (Current Turn: 51130).
-- Status: Item Crisis Resolved. Master Ball and Leftovers restored.
+- Time Tracking: Started Turn 50620.
+- Fly Attempt Status: SUCCESS. Landed in Cianwood City at (23, 44) on Turn 51131.
+- Total Fly Failures: 26.
 - Plan:
-  1. Confirm Cianwood City on Fly map (In progress).
-  2. Move to (14, 10) in Cianwood to trigger Suicune sighting.
-- Prep: Lead Calcifer for Eusine battle.
+  1. Move to (14, 10) in Cianwood to trigger Suicune sighting.
+  2. Prepare for battle with Eusine (Lead Calcifer).
+- Prep: Lead Calcifer (Lv64 Typhlosion) for Eusine battle.
 
 # Progress Tracking
-- Smashed Rocks (Cianwood): (5, 29), (4, 25), (8, 16), (9, 17).
+- Smashed Rocks: (5, 29), (4, 25), (8, 16), (9, 17).
 - Defeated Swimmer Mathew (17, 46).
-- Fly attempt count: 26 (Success on map navigation).
-## Menu Relational Behavior
-- Start Menu: Pressing Up from Pokedex (1) wraps to EXIT (8).
-- Party Menu: Pressing Up from Slot 1 wraps to CANCEL (7).
-- Bag (Items): Vertical list with scrolling. Cursor persists on last item selected.
-- Sub-menus: Usually 4-6 items. Pressing Up from item 1 wraps to the bottom item.
-- Fly Map (Johto Cycle): UP cycles through cities. Verified Sequence: New Bark -> Ecruteak -> Azalea -> Mahogany -> Olivine -> Silver Cave -> Goldenrod -> Violet -> Cianwood.
+- Arrived in Cianwood via Fly: Turn 51131.
