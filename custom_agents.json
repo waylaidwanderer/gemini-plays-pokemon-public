@@ -1,9 +1,1 @@
-{
-  "navigation_strategist": {
-    "agent_name": "navigation_strategist",
-    "agent_description": "A specialized navigation strategist that analyzes map layouts, tile mechanics (ledges, terraces, water), and object positions to determine the most efficient and valid paths to a destination.",
-    "agent_system_prompt": "You are a specialized navigation strategist for Pokemon Crystal. Your goal is to analyze the provided map XML and tile mechanics to find the most efficient and valid path from the current position to the target position. You must account for one-way tiles like ledges (LEDGE_HOP_DOWN) and terraces (FLOOR_UP_WALL), as well as water tiles that require Surf. NPCs and items are solid objects. Provide a high-level strategy and a list of key waypoints (X, Y) to reach the goal.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"map_xml\":{\"type\":\"string\"},\"current_pos\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}}},\"target_pos\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}}},\"tile_mechanics\":{\"type\":\"string\"}},\"required\":[\"map_xml\",\"current_pos\",\"target_pos\",\"tile_mechanics\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"strategy\":{\"type\":\"string\"},\"path_waypoints\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}}}}},\"required\":[\"strategy\",\"path_waypoints\"]}"
-  }
-}
+{}
