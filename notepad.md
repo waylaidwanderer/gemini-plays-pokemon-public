@@ -1,16 +1,17 @@
 # Suicune Quest: Cianwood City
-## Active Strategy: The Great Southern Sea Loop
-The city's internal walls and one-way ledges (FLOOR_UP_WALL) block direct land access to the northern plateau. Row 51 is the only clear East-West passage, and it's only reachable by sea.
+## Active Strategy: The True Sea Route (Final)
+The northern plateau (X=13-16, Row 10-14) is accessible by landing on its eastern edge (X=16) from a specific sea pocket.
 
-1. Surf South from (23, 32) to (24, 51). (In Progress)
-2. Land at (23, 51).
-3. Walk West along Row 51 to (2, 51) to enter the Western Corridor.
-4. Walk North through the corridor (X=0-2) to Row 10.
-5. Walk East along Row 10 to (14, 10) to trigger Suicune sighting.
+1. Surf North to (24, 16). (In Progress)
+2. Surf West through the gap at (22, 16) to (20, 16).
+3. Surf North to (20, 11).
+4. Surf West and land at (16, 11).
+5. Walk North to (16, 10) (Jumping the FLOOR_UP_WALL ledge).
+6. Walk West to (14, 10) to trigger Suicune sighting.
 
 ## Verified Mechanics
 - FLOOR_UP_WALL: Blocks SOUTH movement (Confirmed at (10, 47) -> (10, 48)).
-- Western Corridor: X=0-2 is clear of ledges from Row 51 to Row 10.
+- Western Corridor: X=0-2 is clear of ledges from Row 51 to Row 10. (Backup route).
 - Central Pool: Enclosed by buoys; no exit to the north or west.
 
 ## Battle Plan: Eusine
