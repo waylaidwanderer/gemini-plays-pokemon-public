@@ -4,8 +4,8 @@ The northern plateau (14, 10) is only accessible via the Western Corridor (X=0-2
 
 1. Dismiss battle text and RUN. (Completed)
 2. Land at (23, 32). (Completed)
-3. Walk West along Row 32 to (12, 32). (In Progress)
-4. Walk South along X=12 to (12, 49).
+3. Walk West along Row 32 to (12, 32). (Completed)
+4. Walk South along X=12 to (12, 49). (In Progress)
 5. Walk to (11, 51) via the gap in the Row 50 ledges (11, 50).
 6. Walk West along Row 51 to (2, 51).
 7. Walk North through the Western Corridor (X=0-2) to Row 12.
