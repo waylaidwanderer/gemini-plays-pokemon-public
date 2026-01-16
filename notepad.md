@@ -1,12 +1,13 @@
-# Strategy: Trigger Suicune Sighting (Started: Turn 51131)
-- City Logic: Vertical walls partition the city into corridors. The inner sea channel at Column 14 is a clear, 1-tile wide water route to the northern coast. Internal buoy barriers block other water routes.
-- Execution Plan (The Column 14 Surf Route):
-  1. Walk to (13, 19) and face the water at (14, 19).
-  2. Use SURF to enter the water channel.
-  3. Surf North along Column 14 to Row 11.
-  4. Land on the northern coast at (14, 11).
-  5. Walk to (14, 10) to trigger the Suicune sighting event.
-- Battle Prep: Lead Calcifer (Lv64 Typhlosion) for potential encounter with Eusine.
+# Strategy: Trigger Suicune Sighting (Started: Turn 51131, Turn 51364 - Resumed)
+- City Logic: Vertical walls and buoy barriers partition the city. The Outer Sea (X=24+) is the only confirmed water route to the northern coast. Row 32 is a major horizontal highway.
+- Execution Plan (The Outer Sea Highway):
+  1. Walk to (23, 32) and face the water at (24, 32).
+  2. Use SURF to enter the Outer Sea.
+  3. Surf North to Row 21, then East to X=27 (clears buoy barriers).
+  4. Surf North at X=27 to Row 8 (clears Row 9 buoy barrier).
+  5. Surf West to X=14, then South to land at (14, 11).
+  6. Walk to (14, 10) for Suicune.
+- Battle Prep: Lead Calcifer (Lv64 Typhlosion).
 
 # Tile Mechanics & Verification
 - FLOOR: Standard traversable tile.
