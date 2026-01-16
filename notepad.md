@@ -1,11 +1,11 @@
-# Strategy: Trigger Suicune Sighting (Started: Turn 51131, Turn 51318 - Refined Plan)
-- Quest Start: Turn 51131.
-- City Logic: Vertical walls divide the city. The Outer Sea (X=24+) is the most reliable route to the northern coast, bypassing internal barriers.
+# Strategy: Trigger Suicune Sighting (Started: Turn 51131, Turn 51323 - Resumed)
+- City Logic: Vertical walls divide the city. The Outer Sea (X=24+) is the primary route to the north.
+- Buoy Barriers: Row 15 is clear at X=23+. Row 9 is clear at X=27+.
 - Execution Plan:
-  1. Surf North to (24, 21), then East to (27, 21) to clear the Row 15 buoy barrier.
-  2. Surf North to (27, 8) to clear the Row 9 buoy barrier.
-  3. Surf West to (14, 8), then South to (14, 11).
-  4. Land at (14, 11) and walk to (14, 10) for the Suicune sighting.
+  1. Surf North to Row 21, then East to X=27 (The Outer Sea Highway).
+  2. Surf North at X=27 to Row 8.
+  3. Surf West to X=14, then South to land at (14, 11).
+  4. Walk to (14, 10) for the Suicune sighting.
 
 # Tile Mechanics
 - FLOOR: Standard traversable tile.
