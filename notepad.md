@@ -1,6 +1,6 @@
 # Strategy: The Suicune Pursuit
 - **Quest Started:** Turn #50620
-- **Current Plan:** Fly to Cianwood -> Smash boulders at (4, 19) and (8, 16) -> Reach Suicune sighting spot at (14, 10).
+- **Current Plan:** Navigate to (14, 10) in Cianwood City -> Smash boulders at (4, 19) and (8, 16) -> Trigger Suicune sighting.
 
 # Global Tile Mechanics
 - FLOOR: Traversable.
