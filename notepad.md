@@ -1,11 +1,11 @@
-# Strategy: Trigger Suicune Sighting (Started: Turn 51131, Turn 51356 - Refined Plan)
-- City Logic: Vertical walls and buoy barriers partition the city. The Outer Sea (X=27+) is the only water route to the northern coast.
-- The Outer Sea Highway (Execution Plan):
-  1. Confirm SURF at (12, 28).
-  2. Surf North to Row 21.
-  3. Surf East to X=27 (clears buoy barriers at X=16, X=19, X=23).
-  4. Surf North at X=27 to Row 8 (clears buoy barrier at Row 9).
-  5. Surf West to X=14, then South to land at (14, 10).
+# Strategy: Trigger Suicune Sighting (Started: Turn 51131, Turn 51357 - Resumed)
+- City Logic: Vertical walls partition the city. Gaps exist at (11, 15) and (13, 13).
+- The Center Shortcut (Execution Plan):
+  1. Clear Surf text at (12, 28).
+  2. Surf North to (12, 19) and land.
+  3. Walk to (11, 15) via X=11 corridor.
+  4. Walk to (13, 13) via Row 16 crossing.
+  5. Walk to (14, 10) for the Suicune sighting.
 - Battle Prep: Lead Calcifer (Lv64 Typhlosion).
 
 # Tile Mechanics
