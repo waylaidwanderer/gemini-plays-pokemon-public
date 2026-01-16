@@ -39,3 +39,4 @@
 3. **Automation:** Using `menu_navigator_refined_v2` with a sequence starting from the 'GEAR' menu position.
 4. **Goal Clarity:** Returning to Cianwood is the only priority.
 5. **Error Analysis:** The map cursor was not moved in the previous attempt. Holding Left for 10 pulses will fix this.
+- **Fly Failure (Turn #50967):** Second attempt to Fly to Cianwood failed; landed back in New Bark Town. Cursor likely didn't move far enough west. Increasing 'Left' inputs.
