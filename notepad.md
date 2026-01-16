@@ -6,8 +6,8 @@
     - Status: Max Repel Active.
     - Loop: Wiggle in grass -> Shuffle Ecruteak/Rt 37 -> Repeat.
 - **Status:** Navigating Fly Map (New Bark -> Goldenrod).
-- **Strategy:** Press Left x2 -> Check destination. Then adjust (Down/Left).
-- **Observation:** Cursor at New Bark Town. Need to go West.
+- **Strategy:** Press Left x2 -> Check destination. Expecting Violet or Goldenrod.
+- **Observation:** Cursor at New Bark Town. Moving West.
 - **Session Stats:** Approx 57 shuffle cycles. Repels EMPTY. Restocking.
 
 # Mechanics
