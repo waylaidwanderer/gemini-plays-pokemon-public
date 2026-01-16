@@ -16,17 +16,15 @@
 - Objective: Reach the northern coast of Cianwood City at (14, 10).
 - Current Strategy: Land Route (Pivoted Turn 51180).
 - Execution Plan:
-  1. Walk North to (12, 29).
-  2. Walk West to (4, 29) (using smashed rock at 5, 29).
-  3. Walk North to (4, 22).
-  4. Walk West to (2, 22) (bypass X=3 wall).
-  5. Walk North to (2, 12) (bypass Row 15 wall).
-  6. Walk East to (14, 12).
-  7. Walk North to (14, 10) to trigger the sighting.
+  1. Navigate to (12, 35) (Path around Photo Studio).
+  2. Walk West to (6, 35).
+  3. Climb terrace at (6, 34) to reach (6, 33).
+  4. Walk West to (2, 33).
+  5. Walk North to (2, 10).
+  6. Walk East to (14, 10) to trigger the sighting.
 - Battle Prep: Lead Calcifer (Lv64 Typhlosion) in case of an encounter with Eusine.
 
 # Discoveries & Progress
 - Smashed Rocks: (5, 29), (4, 25), (8, 16), (9, 17).
-- Defeated Swimmer Mathew (17, 46).
-- Sighted Suicune: Not yet reached the northern spot.
-- Landed back in Cianwood: Turn 51181.
+- Shortcut cleared: (4, 25), (5, 29).
+- Swimmer Mathew defeated at (17, 46).
