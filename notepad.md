@@ -2,7 +2,7 @@
 - **Goal:** Catch Raikou (#243) & Entei (#244).
 - **Hunt Duration:** ~13,000 turns. Resumed: Turn 41847.
 - **Plan:**
-    1. Return to Johto via Magnet Train (Saffron City).
+    1. Fly to New Bark Town (check Prof Elm for Master Ball).
     2. Resume Roamer hunt with Repel Trick (Route 37/36).
 - **Secondary Targets:** Catch Stantler (Route 37/36 Night) or Growlithe.
 
