@@ -1,7 +1,7 @@
 # Strategic Status
 - **Goal:** Catch Raikou (#243) & Entei (#244).
 - **Hunt Duration:** ~14,350 turns. Resumed: Turn 41847.
-- **Status:** Opening Party Menu to Fly to Ecruteak.
+- **Status:** Selecting Pidgey to Fly to Ecruteak.
 - **Detour Completed:** Turns 43267 - 43392.
 - **Plan:**
     1. Fly to Ecruteak City.
