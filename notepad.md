@@ -3,18 +3,16 @@
 - **Status:** In Progress. Verified that Rock Smash is required for the land bypass.
 - **Route:** Wall Gap (5, 34) -> Terrace Ascent (4, 30), (4, 20) -> Northern Loop (14, 10).
 
+## Strategy: Olivine Lighthouse Progress
+- **Status:** Completed (16 badges obtained). Pharmacist at (2, 3) is now a regular shopkeeper.
+
 ## Strategy: Finding TM08 Rock Smash
 - **Start Turn:** 50283
-- **Status:** Searching for the TM. Pokefan M (18, 33) only hints.
+- **Status:** Searching for the TM. Pokefan M (18, 33) only hints. Pharmacy was a dead end.
 - **Remaining Leads:**
-  1. Investigate Lugia Speech House (15, 37).
+  1. Investigate Lugia Speech House (15, 37). (Next)
   2. Re-check Gym Leader Chuck (8, 43) or his wife outside.
-  3. Route 36 (if Cianwood is a dead end).
-
-## Strategy: Olivine Lighthouse Progress
-- **Start Turn:** 50332
-- **Goal:** Obtain SecretPotion for Amphy.
-- **Status:** Talking to Pharmacist at (2, 3) in Cianwood Pharmacy.
+  3. Fly to Route 36 to find the NPC near where Sudowoodo was.
 
 ## Global Tile Mechanics
 - FLOOR: Traversable.
