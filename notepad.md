@@ -3,8 +3,8 @@
 The northern plateau (14, 10) can be reached by crossing the central lake (Row 20-27) using Surf. This bypasses the complex wall systems on the east and west sides.
 
 ### The Path to Suicune
-1. Walk West along Row 44 to (12, 44). (In Progress)
-2. Walk North along X=12 to the shore at (12, 28).
+1. Walk West along Row 44 to (12, 44). (Completed)
+2. Walk North along X=12 to the shore at (12, 28). (In Progress)
 3. Surf North across the lake to (12, 19).
 4. Land and walk North to (12, 12).
 5. Walk East to (14, 12), then North to trigger Suicune at (14, 10).
