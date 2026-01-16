@@ -1,6 +1,18 @@
 # Suicune Quest: Cianwood City
 - **Start Turn:** 49885
-- **Current Status:** Pivoting to the Western Corridor (X=2) via the Row 44 bypass.
+- **Current Status:** Exiting Poke Seer's House after accidental entry. New route: Use the X=11 gap to reach the plateau.
+
+## Tool Notes
+- `find_path_v8` failure: The tool incorrectly routed through the warp at (5, 17) in Cianwood City. Future paths must be manually checked for warps on the current map.
+
+## New Strategy: The X=11 Gap
+1. Exit house to (5, 18).
+2. Walk East to (11, 18).
+3. Walk North to (11, 14).
+4. Walk West to (8, 14).
+5. Walk North to (8, 12).
+6. Walk East to (14, 12).
+7. Walk North to Suicune (14, 10).
 
 ## Active Strategy: The Western Highway (X=2)
 Investigation reveals that X=2 is a clear land corridor from Row 51 all the way to Row 10, bypassing most island obstacles.
