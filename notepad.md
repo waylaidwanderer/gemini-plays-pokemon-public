@@ -21,33 +21,21 @@ Trigger the Suicune sighting at (14, 10) in Cianwood City (Map 22_3).
 - FLOOR_UP_WALL: One-way North climb. Impassable from North/East/West.
 - SMASHABLE_ROCK (Object): Impassable. Requires Rock Smash to clear.
 
-## Strategy: Finding TM08 Rock Smash
 - **Start Turn:** 50283
-- **Status:** Searching for the TM source. Pokefan F mentioned her husband (Pokefan M).
+- **Status:** Searching for TM08 Rock Smash. Pokefan M (18, 33) gives a hint but no TM.
 - **Plan:**
-  1. Talk to Standing Youngster at (21, 37). (Completed: Talks about Fly)
-  2. Check Mania's House at (17, 41). (Completed: Mania asks for his Shuckle back)
-  3. Talk to Pokefan F at (11, 46). (Completed: Talks about her husband)
-  4. Re-verify Pokefan M (16, 33) by talking from the south (16, 34). (Current loop)
-  5. Talk to Lass at (14, 40).
-  6. Check Lugia Speech House at (15, 37).
-  7. Check Pokemon Center (23, 43).
-  8. Check Pharmacy (15, 47).
-  9. Check Gym (8, 43).
+  1. Talk to Lass at (14, 40). (Next)
+  2. Check Lugia Speech House at (15, 37).
+  3. Stun Pokefan M (ID 2) and talk to him from the front (17, 34) or (18, 34).
+  4. Re-verify Route 36 if Cianwood is a dead end.
 
 ## Failed Hypotheses
-- **Hypothesis 1:** Pokefan M (17, 33) gives TM08 immediately after beating Chuck.
-  - **Attempts:** 2 (Turns 50278, 50281)
-  - **Result:** He only provides a hint. Might need different positioning or trigger (wife's dialogue).
-- **Hypothesis 2:** Standing Youngster (21, 37) gives TM08.
-  - **Attempts:** 1 (Turn 50286)
-  - **Result:** Talks about Fly.
-- **Hypothesis 3:** Mania (2, 4) in Mania's House gives TM08.
-  - **Attempts:** 1 (Turn 50291)
-  - **Result:** Asks for his Shuckle back.
-- **Hypothesis 4:** Pokefan F (9, 46) gives TM08.
+- **Hypothesis 1:** Pokefan M (18, 33) gives TM08 by just talking.
+  - **Attempts:** 10+ (Turns 50278-50314)
+  - **Result:** Hint only. NPC movement makes interaction difficult.
+- **Hypothesis 2:** Talking to Pokefan F (10, 46) triggers the gift from her husband.
   - **Attempts:** 1 (Turn 50300)
-  - **Result:** Talks about her husband (Pokefan M) needing to train harder.
-- **Hypothesis 5:** Pokefan M (16, 33) gives TM08 after talking to his wife.
-  - **Attempts:** 5+ (Turns 50301-50310)
-  - **Result:** Chasing his moving position. Need to commit or pivot.
+  - **Result:** She mentions him, but he still doesn't give the TM.
+- **Hypothesis 3:** Mania (2, 4) gives TM08.
+  - **Attempts:** 1 (Turn 50291)
+  - **Result:** Dead end.
