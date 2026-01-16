@@ -42,3 +42,4 @@
 
 # Rematches
 - Cooltrainer Gaven (Route 26): Ready for battle.
+- **Team Note:** Current team lacks trapping (Mean Look) or Sleep. Goal is Pokedex Registration FIRST. Catching strategy will require team adjustments later.
