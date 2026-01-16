@@ -1,12 +1,8 @@
 # Strategic Status
 - **Goal:** Catch Raikou (#243) & Entei (#244).
 - **Hunt Duration:** ~14,350 turns. Resumed: Turn 41847.
-- **Status:** Fly Map: Blackthorn City selected. Moving Left to Ecruteak.
-- **Detour Completed:** Turns 43267 - 43392.
-- **Plan:**
-    1. Fly to Ecruteak City.
-    2. Walk to Route 37.
-    3. Execute Roamer Hunt Loop.
+- **Status:** Reset UI. Re-opening Fly Map via Mistral (Slot 6) to select Ecruteak.
+- **Action:** Defining tool to navigate Start Menu -> Pokemon -> Fly efficiently.
 - **Secondary Targets:** Catch Stantler (Route 37/36 Night) or Growlithe.
 
 # PC Storage Check
