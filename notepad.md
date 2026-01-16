@@ -22,6 +22,7 @@
     - **Repel Trick:** Lead Pokemon (Lv 37) > Wild Pokemon (Lv ~20) but < Roamers (Lv 40). Max Repel ACTIVE. Only Roamers should appear.
 - **Mechanics Note:** Repel likely active (0 encounters recently). Inputs after a warp are likely ignored.
 - **Current Task:** Hunting Entei/Raikou on Route 37.
-- **Status:** Patrolling Route 37 Grass.
-- **Observation:** No encounters for 400+ turns implies Repel is active (despite missing log) OR extreme luck. If Pidgey/Stantler appears -> Repel is OFF. If nothing -> Repel ON, Beasts not here.
+- **Status:** Patrolling Route 37 Grass using `patrol_area` tool.
+- **Observation:** No encounters for 400+ turns. Repel likely active.
+- **Strategy:** Wiggle 10 steps. If no encounter, shuffle map (Route 37 <-> Ecruteak).
 - Pokedex Status: National Mode. SEEN: 195, OWN: 46.
