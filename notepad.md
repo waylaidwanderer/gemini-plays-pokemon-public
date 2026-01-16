@@ -46,3 +46,5 @@
 - **Note:** Repel Trick active (Lv37 Lead). Only Roamers will appear.
 - **Log:** Route 37 Grass Check #1: No encounter.
 - **Action:** Transitioning to Ecruteak to reset roamers.
+- **Log:** Reset complete (Ecruteak).
+- **Action:** Returning to Route 37 to check grass again.
