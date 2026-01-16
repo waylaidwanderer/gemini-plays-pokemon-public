@@ -1,20 +1,17 @@
-# Strategy: Trigger Suicune Sighting (Started: Turn 51131)
-- City Logic: The city is divided by vertical walls. The Western Corridor (X=2) is the primary path to the northern sighting spot. Row 51 is a horizontal highway connecting all corridors. Gaps in the Row 46/48/50 terraces exist at X=12/13.
+# Strategy: Trigger Suicune Sighting (Started: Turn 51131, Turn 51301 - Resumed)
+- City Logic: Vertical walls divide the city. X=12 is a key corridor for land and water travel. Row 51 is the southern highway. Gaps in the Row 46/48/50 terraces exist at X=12/13.
 - Execution Plan:
-  1. Walk North to (12, 28).
-  2. Use SURF to enter the water at (12, 27).
-  3. Surf North to (12, 19) and land on the FLOOR.
-  4. Walk North to (12, 12).
-  5. Walk East to (14, 12) and North to (14, 10) for the Suicune sighting.
-- Battle Prep: Lead Calcifer (Lv64 Typhlosion).
-- Note: The city is divided by water and walls. X=12 is a clear land/water corridor to the northern section.
+  1. Use SURF at (12, 28) to enter (12, 27).
+  2. Surf North to (12, 19) and land.
+  3. Walk North to (12, 12).
+  4. Walk East to (14, 12) and North to (14, 10).
 
 # Tile Mechanics
 - FLOOR: Standard traversable tile.
 - WALL / BUOY: Impassable collision.
 - WATER: Traversable only while using SURF.
-- LEDGE_HOP_DOWN: One-way passage (South only).
-- FLOOR_UP_WALL: One-way passage (North only). Also known as terraces.
+- LEDGE_HOP_DOWN: One-way passage (South only). You jump FROM the ledge tile to the tile below it.
+- FLOOR_UP_WALL: One-way passage (North only). You walk ONTO it from the south or walk North from it.
 - ROCK (Object): Impassable until cleared with ROCK SMASH.
 
 # Game Systems
