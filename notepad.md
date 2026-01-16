@@ -1,6 +1,6 @@
 # Strategy: Trigger Suicune Sighting (Started: Turn 51131)
 - The Center Shortcut (Execution Plan):
-  1. Walk North to (12, 28).
+  1. Walk to (12, 28).
   2. Use SURF at (12, 28) to cross the inner sea; land at (12, 19).
   3. Walk North to (12, 16), then West to (8, 16).
   4. Use ROCK SMASH on the rock at (8, 16).
