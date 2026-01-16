@@ -1,6 +1,6 @@
 # Strategic Status
 - **Goal:** Catch Raikou (#243) & Entei (#244).
-- **Hunt Duration:** ~13,000 turns. Resumed: Turn 41847 (Current: 42239).
+- **Hunt Duration:** ~13,000 turns. Resumed: Turn 41847 (Current: 42243).
 - **Plan:**
     1. Loop: Ecruteak -> Route 37 (Check) -> Ecruteak (Reset).
     2. Use `perform_route37_cycle` tool for efficiency.
