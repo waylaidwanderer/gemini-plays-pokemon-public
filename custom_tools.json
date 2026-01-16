@@ -138,21 +138,21 @@
     ]
   },
   "exit_ecruteak_to_route37": {
-    "description": "Exits Ecruteak City (South) and walks down into the Route 37 grass. Assumes player is at Ecruteak entrance (18, 35).",
+    "description": "Exits Ecruteak City (South) to Route 37. Robustly handles being at (18,35) or (18,34).",
     "input_schema": {
       "type": "object",
       "properties": {
         "autopress_buttons": {
           "type": "boolean",
-          "description": "If true and the tool returns a list of buttons, they will be pressed automatically. Safety limit of 50 buttons per turn.",
-          "default": false
+          "default": false,
+          "description": "If true, buttons are pressed automatically."
         }
       },
       "required": [
         "autopress_buttons"
       ]
     },
-    "python_script": "import json\nprint(json.dumps([\"Down\", \"Down\", \"Down\", \"Down\", \"Down\"]))",
+    "python_script": "import json\nprint(json.dumps([\"Down\", \"Down\"]))",
     "history": [
       {
         "commit_message": "New tool to handle the return trip from Ecruteak City entrance back to the hunting grounds on Route 37.",
@@ -168,6 +168,11 @@
         "commit_message": "Updated tool to press Down 5 times to ensure reliable exit from Ecruteak City gatehouse across the warp carpet.",
         "timestamp": "2026-01-16T10:10:11.816Z",
         "action_counter": 42271
+      },
+      {
+        "commit_message": "Fixed excessive button presses.",
+        "timestamp": "2026-01-16T16:54:58.122Z",
+        "action_counter": 42888
       }
     ]
   },
