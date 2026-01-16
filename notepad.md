@@ -33,3 +33,6 @@
 - Youngster Arthur at (45, 6): Hard Stone on Thursdays.
 - Sudowoodo Junction (35, 9): No NPC present.
 - PC Storage: TM08 not present.
+- **Hypothesis 6:** Visit the Goldenrod Flower Shop and talk to the clerk (reward for clearing Sudowoodo?).
+- **Hypothesis 7:** Talk to the NPC at the junction (35, 9) again after a map refresh (enter/exit gatehouse).
+- **Status:** Heading to (44, 10) to talk to Fisher from below. (Attempt 1)
