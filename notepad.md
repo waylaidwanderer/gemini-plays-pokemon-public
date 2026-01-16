@@ -41,6 +41,6 @@
 - **Action:** Forcing a full UI reset (B, B) and re-opening Fly menu from scratch to navigate from Goldenrod (Center) to Ecruteak (North). This avoids the layout confusion.
 - **Mechanics Note:** Party Menu cursor REMEMBERS its position even after exiting/re-entering. Blind macros must assume random start or force a reset (e.g., extensive scrolling).
 - **Correction:** `open_fly_map` tool failed due to this persistence. Switching to manual/visual navigation.
-- **Status:** Using Super Repel.
-- **Action:** Selecting 'USE' from item menu.
+- **Status:** Super Repel Active.
+- **Action:** Closing Menu.
 - **Next:** Execute Roamer Hunt Loop (`check_route37_grass`).
