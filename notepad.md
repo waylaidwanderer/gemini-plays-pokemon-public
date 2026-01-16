@@ -31,7 +31,7 @@
 - Menu Mechanics: Main Menu (8 items) wraps 1 <-> 8. Party Menu (6 items) wraps 1 <-> CANCEL <-> 6.
 - Sub-menu Layout (Icarus): FLY, STATS, SWITCH, MOVE, ITEM, CANCEL.
 - Suicune Quest Start: Turn #50620. (Current Turn: #51007)
-- Fly Strategy: v16.0 failed. Attempt #18 failed due to Menu Persistence. Discovery: The Party Menu cursor remembers its last position (unlike the Start menu, which resets if closed properly, but I'm mashing resets anyway). If the cursor starts on Slot 3, Up(x9) lands on Slot 2 (Haunter) -> STATS. Total Fly failures: 18. Current Turn: #51026. Goal: Cianwood (14, 10). Prep: Calcifer in lead. Focus: SUICUNE. Logic: Clearing the status screen and exiting the lab to reset the overworld state before attempting a manual flight. Precision is key.
+- Fly Strategy: Attempt #19 (Manual). Cursor is locked on Icarus (Slot 6). Sequence: A (Select) -> A (Fly) -> Left x20 (Map West) -> A (Confirm) -> A (Clear Text). Current Turn: #51031. Goal: Cianwood (14, 10). Prep: Calcifer in lead. Focus: SUICUNE. Logic: Manual execution via menu_navigator_refined_v2 to ensure precision and handle map transition timing. Accuracy is the only priority. Total Fly failures: 18. Attempting to break the curse.
 - Fly attempts failed: 9.
 - Lesson: Party menu cursor persistence vs Start menu reset. Menu wrapping: 1 (Calcifer) <-> 7 (Cancel) in party.
 - Icarus is at index 6.
