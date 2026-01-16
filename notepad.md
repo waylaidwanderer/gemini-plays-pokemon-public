@@ -5,9 +5,9 @@
     - Repel Trick: Lead Lv37 > Wilds (Lv ~20) but < Roamers (Lv 40).
     - Status: Max Repel Active.
     - Loop: Wiggle in grass -> Shuffle Ecruteak/Rt 37 -> Repeat.
-- **Status:** In Menu (Selecting Pokemon).
-- **Strategy:** Up (Select Pokemon) -> A -> Select Pidgey (Slot 6) -> Fly -> Goldenrod.
-- **Observation:** Menu cursor on PACK. Moving to POKéMON.
+- **Status:** In Party Menu.
+- **Strategy:** Select Pidgey (Slot 6) -> Select FLY -> Goldenrod City.
+- **Observation:** Entered Pokemon menu. Pidgey is at the bottom.
 - **Session Stats:** Approx 57 shuffle cycles. Repels EMPTY. Restocking.
 
 # Mechanics
