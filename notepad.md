@@ -1,7 +1,7 @@
 # Strategic Status
 - **Goal:** Catch Raikou (#243) & Entei (#244).
 - **Hunt Duration:** ~14,350 turns. Resumed: Turn 41847.
-- **Status:** Boarding Magnet Train to Saffron.
+- **Status:** In Saffron City. Walking to Celadon Dept Store for Super Repels.
 - **Plan:**
     1. **Supply Run:**
        a. Fly to Goldenrod City.
