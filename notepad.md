@@ -2,9 +2,10 @@
 - **Goal:** Catch Raikou (#243) & Entei (#244).
 - **Hunt Duration:** ~13,000 turns. Resumed: Turn 41847.
 - **Plan:**
-    1. Restock Super Repels at Goldenrod Dept Store 2F.
-    2. Check 5F for TMs.
-    3. Resume Roamer hunt with Repel Trick (Route 37/36).
+    1. Travel to Celadon City (West of Saffron).
+    2. Buy Super Repels at Celadon Dept Store.
+    3. Return to Johto via Magnet Train.
+    4. Resume Roamer hunt with Repel Trick (Route 37/36).
 - **Secondary Targets:** Catch Stantler (Route 37/36 Night) or Growlithe.
 
 # Locations & Logistics
