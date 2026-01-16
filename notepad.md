@@ -1,12 +1,11 @@
 # Strategy: Trigger Suicune Sighting (Started: Turn 51131, Turn 51301 - Resumed)
 - City Logic: Vertical walls divide the city. The Western Corridor (X=0-2) is the main land route to the north, but requires a long detour to Row 51 or using Surf to bypass walls.
 - Execution Plan:
-  1. Surf South to (12, 28) and land.
-  2. Walk South to (12, 49), then West to (10, 49).
-  3. Walk South to (10, 51) to reach the southern highway.
-  4. Walk West to (2, 51) to reach the Western Corridor.
-  5. Walk North to (2, 12), then East to (14, 12).
-  6. Walk North to (14, 10) for the Suicune sighting.
+  1. Walk South to (12, 44).
+  2. Walk West to (6, 44), then North to (6, 42).
+  3. Walk West to (4, 42), then South to (4, 44).
+  4. Walk West to (2, 44), then North to (2, 12).
+  5. Walk East to (14, 12), then North to (14, 10) for the Suicune sighting.
 
 # Tile Mechanics
 - FLOOR: Standard traversable tile.
