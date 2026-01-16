@@ -5,8 +5,8 @@
     - Repel Trick: Lead Lv37 > Wilds (Lv ~20) but < Roamers (Lv 40).
     - Status: Max Repel Active.
     - Loop: Wiggle in grass -> Shuffle Ecruteak/Rt 37 -> Repeat.
-- **Status:** Re-applying Max Repel (Selecting USE).
-- **Strategy:** Use Repel -> Resume Shuffle/Patrol.
+- **Status:** Max Repel Applied (Turn 41510). Exiting Menu.
+- **Strategy:** Resume Shuffle/Patrol.
 - **Observation:** Zero encounters during last Repel duration. Roamers were not present.
 
 # Mechanics
