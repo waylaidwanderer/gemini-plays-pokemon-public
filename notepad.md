@@ -1,12 +1,15 @@
 # Strategy: Trigger Suicune Sighting (Started: Turn 51131)
 - Objective: Reach (14, 10) on the northern coast.
-- Execution Plan (The Row 51 Western Corridor Path):
-  1. Walk to (27, 44) and Surf South to (28, 51).
-  2. Land at (24, 51) or similar on the southern beach.
-  3. Walk West along Row 51 (Southern Highway) to Column 2 (Western Corridor).
-  4. Walk North through the Western Corridor (Column 2) to Row 14.
-  5. Walk East to (5, 14) and North to (5, 12).
-  6. Walk East along Row 12 to (14, 12) and North to (14, 10).
+- Execution Plan (The Golden Land Path):
+  1. Clear Surf text (Land at 28, 44 surfing).
+  2. Move Left to (27, 44) to land.
+  3. Walk West along Row 44 to (12, 44).
+  4. Walk North along Column 12 to (12, 29).
+  5. Walk West to (11, 29) and North to (11, 26).
+  6. Walk West to (9, 26) and North to (9, 16).
+  7. Walk East to (11, 16) and North through (11, 15) to Row 14.
+  8. Walk East to (13, 14) and North through (13, 13) to Row 12.
+  9. Walk East to (14, 12) and North to (14, 10).
 - Battle Prep: Lead Calcifer (Lv64 Typhlosion).
 
 # Tile Mechanics
