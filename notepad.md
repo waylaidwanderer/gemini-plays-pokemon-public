@@ -1,20 +1,11 @@
 # Cianwood City Progression
 ## Strategy: Trigger Suicune Sighting at (14, 10)
 - **Start Turn:** 50283
-- **Status:** In Progress. Bypassing land boulders via Eastern Water Route.
-- **Route:**
-  1. Surf North from (12, 28) to (12, 18).
-  2. Land North at (12, 17).
-  3. Walk: (12, 17) -> (11, 17) -> (11, 14) -> (8, 14) -> (8, 12) -> (14, 12) -> (14, 10).
-  4. Trigger Event at (14, 10).
-
-## Strategy: Finding TM08 Rock Smash
-- **Start Turn:** 50283
-- **Status:** Searching for the TM. Pokefan M (Main map, ID 2) is the source in Crystal after defeating Leader Chuck.
+- **Status:** Investigating accessibility. Land boulders may block all routes.
 - **Plan:**
-  1. Complete Suicune sighting.
-  2. Locate Pokefan M.
-  3. Face him and interact to receive TM08.
+  1. Verify if land route to (14, 10) is possible without Rock Smash.
+  2. If blocked, obtain TM08 Rock Smash from Pokefan M (Main map, ID 2) or Route 36 NPC.
+  3. Navigate to (14, 10) and trigger sighting.
 
 ## Global Tile Mechanics
 - FLOOR: Traversable.
@@ -29,7 +20,8 @@
 - **NPC Interaction:** Intercepting moving NPCs is more reliable than chasing them. Position in their walking path and wait.
 
 ## Failed Hypotheses
-- Pokefan M (Main map): Hint only (Turn 50278, 50281). Possibly requires specific front-facing interaction or trigger.
-- Mania (2, 4): Dead end (asks for Shuckle).
-- Lass (14, 44): Dead end (talks about Chuck).
-- Pharmacy (15, 47): Dead end (regular shop after 16 badges).
+- Eastern Water Route: Blocked by Row 15 wall/buoy line in Section 1.
+- Pokefan M (Initial talk): Hint only.
+- Mania (2, 4): Dead end.
+- Lass (14, 44): Dead end.
+- Pharmacy (15, 47): Dead end.
