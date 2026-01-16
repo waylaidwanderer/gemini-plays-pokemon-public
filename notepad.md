@@ -5,9 +5,9 @@
     - Repel Trick: Lead Lv37 > Wilds (Lv ~20) but < Roamers (Lv 40).
     - Status: Max Repel Active.
     - Loop: Wiggle in grass -> Shuffle Ecruteak/Rt 37 -> Repeat.
-- **Status:** In Mart (Buying Items).
-- **Strategy:** Interact with Clerk. Buy 30 Super Repels.
-- **Observation:** Entered Mart successfully.
+- **Status:** Wrong Building (Dance Theater).
+- **Strategy:** Exit Dance Theater immediately. Go to Mart (Next building East).
+- **Observation:** Accidental entry. Navigating out.
 - **Session Stats:** Approx 57 shuffle cycles. Repels EMPTY. Restocking.
 
 # Mechanics
