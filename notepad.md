@@ -1,19 +1,23 @@
 # Suicune Quest: Cianwood City
-## Active Strategy: The Great Southern Bypass (Row 51)
-The northern plateau (14, 10) is accessible via the Western Corridor (X=0-2). This corridor can be reached from the east side by crossing the southern clearway at Row 51, which is clear of walls between X=4 and X=24.
+## Active Strategy: The Row 33/35 Crossing
+The northern plateau (14, 10) is accessible via the Western Corridor (X=0-2). This corridor can be reached by crossing the city's internal walls using a series of gaps at Row 33 and Row 35.
 
 ### The Path to Suicune
-1. Navigate to (20, 51) via X=19/20 and Row 33 gap. (In Progress)
-2. Walk West along Row 51 to (2, 51).
-3. Walk North along X=2 to Row 12 at (2, 12).
-4. Walk East along Row 12 to (14, 12).
-5. Walk North to trigger Suicune at (14, 10).
+1. Navigate to (6, 33) via the clear Row 33 corridor. (In Progress)
+2. Walk South to (6, 35) to bypass the wall at X=5.
+3. Walk West to (4, 35) to enter the western city clearway.
+4. Walk South to Row 51 at (4, 51).
+5. Walk West to (2, 51) to enter the Western Corridor.
+6. Walk North along X=2 to Row 12 at (2, 12).
+7. Walk East along Row 12 to (14, 12).
+8. Walk North to trigger Suicune at (14, 10).
 
 ## Verified Mechanics & Obstacles
-- Row 51: A clear land bridge across the entire island.
-- Row 50 Gaps: (11, 50) and (20, 50) are FLOOR, allowing access to Row 51.
-- FLOOR_UP_WALL: Impassable from the North. (Row 50 X=12-19, Row 46 X=21-28).
-- Western Corridor: X=0-2 is clear of rocks from Row 51 to Row 12.
+- Row 33: A clear horizontal corridor from X=24 to X=6.
+- Row 35-37: Clear gaps across the X=5 vertical wall.
+- Row 51: A clear land bridge across the southern city.
+- FLOOR_UP_WALL: Impassable from the North. (Row 50 X=12-19, Row 46 X=21-28, Row 34 X=6-8).
+- Western Corridor: X=0-2 is a clear land path from Row 51 to Row 10.
 
 ## Battle Plan: Eusine
 - Lead: Calcifer (Lv64 Typhlosion).
