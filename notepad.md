@@ -36,3 +36,7 @@
 - **Hypothesis 6:** Visit the Goldenrod Flower Shop and talk to the clerk (reward for clearing Sudowoodo?).
 - **Hypothesis 7:** Talk to the NPC at the junction (35, 9) again after a map refresh (enter/exit gatehouse).
 - **Status:** Heading to (44, 10) to talk to Fisher from below. (Attempt 1)
+- **Hypothesis 8:** TM08 is already in the PC.
+  - **Audit:** Fisher at (44, 9) gives post-gift flavor text ("If any rocks are in your way, just smash 'em up!").
+  - **Plan:** Talk to Fisher from below at (44, 10) one last time, then Fly to Violet City to check the PC.
+- **Arthur (46, 6):** It is Friday. Arthur only gives the Hard Stone on Thursdays. Skip.
