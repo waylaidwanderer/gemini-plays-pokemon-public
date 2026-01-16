@@ -13,6 +13,6 @@
 
 # Lessons Learned
 - **Menu Navigation:** The "Switch items?" confirmation box is modal; B button does not close it. Use A on NO to exit.
-- **Fly Map:** Starts at New Bark Town. Cursor moves smoothly. Sequences from New Bark: 9L+1U (Cherrygrove). Relative positions: New Bark (East), Cherrygrove (West), Violet (North), Azalea (South), Goldenrod (West/North), Olivine (West), Cianwood (Far West).
+- **Fly Map:** Starts at current town. Cursor moves smoothly. Relative positions: New Bark (East), Cherrygrove (West), Violet (North), Azalea (South), Goldenrod (West/North), Olivine (West), Cianwood (Far West).
 - **Coordinates:** Notepad coordinates (e.g., Cianwood 14, 10) refer to the internal map grid, not the Fly Map cursor position.
 - **Suicune Spot:** (14, 10) in Cianwood City. Requires Rock Smash at (4, 19) and (8, 16) to reach. [Hypothesis - Advisor]
