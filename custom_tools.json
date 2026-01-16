@@ -160,5 +160,28 @@
         "action_counter": 42241
       }
     ]
+  },
+  "open_fly_map": {
+    "description": "Navigates the Start Menu (cursor must be on POKEMON) to select a specific party member and activate the 'Fly' field move. Assumes Fly is the 3rd option in the Pokemon's menu (Stats, Switch, Fly).",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "party_slot": {
+          "type": "integer",
+          "description": "The party slot number (1-6) of the Pokemon with Fly."
+        }
+      },
+      "required": [
+        "party_slot"
+      ]
+    },
+    "python_script": "cmds = []\n# Enter Pokemon Menu (Cursor assumes on POKEMON)\ncmds.append(\"A\")\ncmds.append(\"sleep 500\")\n\n# Navigate to Party Slot\nslot = input_data['party_slot']\nif slot > 1:\n    cmds.extend([\"Down\"] * (slot - 1))\n\ncmds.append(\"sleep 200\")\n# Select Pokemon\ncmds.append(\"A\")\ncmds.append(\"sleep 500\")\n\n# Navigate to Fly\n# Menu: STATS, SWITCH, FLY, CANCEL\n# Down, Down, A\ncmds.extend([\"Down\", \"Down\", \"A\"])\n\nimport json\nprint(json.dumps(cmds))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-16T21:52:38.532Z",
+        "action_counter": 43406
+      }
+    ]
   }
 }
