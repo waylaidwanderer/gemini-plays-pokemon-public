@@ -25,10 +25,12 @@
 - **HEADBUTT_TREE:** Impassable obstacle.
 - **WARP_CARPET_DOWN/UP/LEFT/RIGHT:** Transition to adjacent map. Walk *off* the map edge to trigger.
 - **LEDGE_HOP:** One-way traversal (jump down).
-- **Clerk 1 (Left, 13,5):** Sells Potions, Antidote, Burn/Ice/Parlyz Heal, Awakening. NO Repels.
-- **Clerk 2 (Right, 14,5):** Sells Standard Balls, Escape Rope, Repel (Standard), Revive, Full Heal, Poke Doll, Flower Mail. NO Super Repels.
-- **Clerk 3 (3F, 6,1):** Sells X Speed/Special/Defend/Attack, Dire Hit, Guard Spec, X Accuracy. NO Repels.
-- **Clerk 4 (4F, 13,5):** Sells Vitamins (Protein, Iron, Carbos, Calcium, HP Up). NO Repels.
-- **Clerk 5 (5F, 8,5):** Sells TMs (41, 48, 33, 02, 08). NO Repels.
-- **Vending Machine (6F):** Fresh Water, Soda Pop, Lemonade. NO Repels.
-- **Logistics:** Cannot Fly from inside Dept Store (Roof included). Plan: Take Elevator to 1F -> Exit -> Magnet Train to Kanto -> Celadon.
+
+# Celadon Dept Store Directory
+- **2F Left (13,5):** Medicines. NO Repels.
+- **2F Right (14,5):** Checking...
+- **3F (6,1):** Battle Items (Unverified).
+- **4F (13,5):** Vitamins (Unverified).
+- **5F (8,5):** TMs (Unverified).
+- **6F:** Vending Machine (Unverified).
+- **Logistics:** No Fly inside.
