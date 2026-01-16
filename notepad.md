@@ -6,9 +6,9 @@
     - Status: Max Repel Active.
     - Loop: Wiggle in grass -> Shuffle Ecruteak/Rt 37 -> Repeat.
 - **Status:** Resuming Wiggle (Route 37).
-- **Strategy:** Resume shuffling until expired -> Go buy more.
-- **Observation:** Max Repel used. Stock is now empty.
-- **Session Stats:** Approx 55 shuffle cycles. Repel Active (Last one).
+- **Strategy:** Wiggle (8,2) -> Shuffle -> Repeat until Repel expires. Then RESTOCK.
+- **Observation:** Max Repel active (250 steps). Stock: 0.
+- **Session Stats:** Approx 55 shuffle cycles. Repel Active.
 
 # Mechanics
 - **Roamers:** Move to an adjacent route when player transitions maps.
