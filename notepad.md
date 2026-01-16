@@ -1,11 +1,14 @@
 # Strategy: Trigger Suicune Sighting (Started: Turn 51131)
 - Objective: Reach (14, 10) on the northern coast.
 - Execution Plan:
-  1. Walk West to Column 19 (Row 44).
-  2. Walk South to Row 51 (via gap in terrace at Column 19).
-  3. Walk West to the Western Corridor (Column 2) via Row 51.
-  4. Walk North to Row 12.
-  5. Walk East to (14, 12) and North to (14, 10).
+  1. Walk West to Column 11 (Row 44).
+  2. Walk South to Row 51 (via gap at Column 11, Row 50).
+  3. Walk West along Row 51 to Column 4.
+  4. Walk North to Row 46.
+  5. Walk West to Column 2.
+  6. Walk North along Column 2 to Row 12.
+  7. Walk East along Row 12 to (14, 12).
+  8. Walk North to (14, 10).
 - Battle Prep: Lead Calcifer (Lv64 Typhlosion).
 
 # Tile Mechanics
