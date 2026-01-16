@@ -143,7 +143,7 @@
     ]
   },
   "check_route37_grass": {
-    "description": "Walks from Route 37 entrance (8, 0) to grass at (8, 2) and performs a wiggle patrol. Assumes player is at (8, 0).",
+    "description": "Walks from Route 37 entrance (8, 0) OR Ecruteak Exit (18, 35) to grass at (8, 2) and performs a wiggle patrol.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -151,16 +151,28 @@
           "type": "integer",
           "description": "Number of left-right wiggle cycles. Default is 8.",
           "default": 8
+        },
+        "current_map_id": {
+          "type": "string",
+          "description": "The current map ID to determine starting position logic.",
+          "default": "10_4"
         }
       },
-      "required": []
+      "required": [
+        "current_map_id"
+      ]
     },
-    "python_script": "import json\n\n# Get input data safely\ndata = globals().get('input_data', {})\ncycles = int(data.get('cycles', 8))\n\n# Define the sequence: Move to grass (Down, Down) then wiggle\nbuttons = [\"Down\", \"Down\"]\n\n# Add wiggle cycles (Left, Right)\nfor _ in range(cycles):\n    buttons.extend([\"Left\", \"Right\"])\n\nprint(json.dumps(buttons))",
+    "python_script": "import json\n\ndata = globals().get('input_data', {})\ncycles = int(data.get('cycles', 8))\ncurrent_map_id = data.get('current_map_id', '10_4')\n\nbuttons = []\n\nif current_map_id == \"4_9\": # Ecruteak City\n    # Exit to Route 37 (8,0)\n    buttons.extend([\"Down\", \"sleep 2000\"])\n\n# Now we assume we are at Route 37 (8,0)\n# Walk to grass at (8,2)\nbuttons.extend([\"Down\", \"Down\"])\n\n# Wiggle\nfor _ in range(cycles):\n    buttons.extend([\"Left\", \"Right\"])\n\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2026-01-16T03:17:07.236Z",
         "action_counter": 41611
+      },
+      {
+        "commit_message": "Updated to handle starting from Ecruteak City (4_9), allowing for a seamless Exit-and-Check sequence.",
+        "timestamp": "2026-01-16T03:28:38.141Z",
+        "action_counter": 41624
       }
     ]
   }
