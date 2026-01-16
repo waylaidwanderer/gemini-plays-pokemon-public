@@ -6,8 +6,8 @@
     - Status: Max Repel Active.
     - Loop: Wiggle in grass -> Shuffle Ecruteak/Rt 37 -> Repeat.
 - **Status:** Moving to Mart (Ecruteak).
-- **Strategy:** Navigate to (29,22) via Col 18 -> Row 22 to avoid walls/trees.
-- **Observation:** Bumped tree at (19,30). Walls block Col 29 south of Mart.
+- **Strategy:** Navigate to (29,22) via Col 18 (North) -> Row 22 (East). Avoids Lass at (21,29).
+- **Observation:** Col 18 and Row 22 are clear.
 - **Session Stats:** Approx 57 shuffle cycles. Repels EMPTY. Restocking.
 
 # Mechanics
