@@ -31,7 +31,7 @@
 - Menu Mechanics: Main Menu (8 items) wraps 1 <-> 8. Party Menu (6 items) wraps 1 <-> CANCEL <-> 6.
 - Sub-menu Layout (Icarus): FLY, STATS, SWITCH, MOVE, ITEM, CANCEL.
 - Suicune Quest Start: Turn #50620. (Current Turn: #51007)
-- Fly Strategy: Attempt #19 (Manual). Cursor is locked on Icarus (Slot 6). Sequence: A (Select) -> A (Fly) -> Left x20 (Map West) -> A (Confirm) -> A (Clear Text). Current Turn: #51031. Goal: Cianwood (14, 10). Prep: Calcifer in lead. Focus: SUICUNE. Logic: Manual execution via menu_navigator_refined_v2 to ensure precision and handle map transition timing. Accuracy is the only priority. Total Fly failures: 18. Attempting to break the curse.
+- Fly Strategy: SUCCESS. Attempt #19 (Manual) succeeded. I have arrived in Cianwood City at (13, 6). The sequence A (Select) -> A (Fly) -> Left x20 (Map West) -> A (Confirm) -> A (Clear Text) worked perfectly. Total Fly failures before success: 18. Current Turn: #51032. Goal: Cianwood (14, 10). Prep: Calcifer in lead. Focus: SUICUNE sighting trigger. Logic: Now that I'm finally in Cianwood, I need to navigate to the northern coast at (14, 10) to trigger the Suicune event. I'll check my surroundings and proceed north.
 - Fly attempts failed: 9.
 - Lesson: Party menu cursor persistence vs Start menu reset. Menu wrapping: 1 (Calcifer) <-> 7 (Cancel) in party.
 - Icarus is at index 6.
