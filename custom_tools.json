@@ -89,5 +89,37 @@
         "action_counter": 49754
       }
     ]
+  },
+  "find_path_v7": {
+    "description": "Finds a path using BFS on the current map XML, handling walls, objects, and one-way ledge jumps. Returns a JSON array of button strings. Refined for efficiency and accuracy. v7.0.",
+    "input_schema": {
+      "properties": {
+        "autopress_buttons": {
+          "default": false,
+          "description": "If true and the tool returns a list of buttons, they will be pressed automatically. Safety limit of 50 buttons per turn.",
+          "type": "boolean"
+        },
+        "target_x": {
+          "type": "integer"
+        },
+        "target_y": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "target_x",
+        "target_y",
+        "autopress_buttons"
+      ],
+      "type": "object"
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\nimport json\n\ndef solve():\n    try:\n        root = ET.fromstring(map_xml_string)\n        width = int(root.get('width'))\n        height = int(root.get('height'))\n        \n        # Get current player position\n        start_node = root.find(\".//Tile[Player]\")\n        if start_node is None:\n            print(json.dumps({\"error\": \"Player position not found in map XML.\"}))\n            return\n        \n        start_x = int(start_node.get('id'))\n        start_y = int(start_node.find(\"..\").get('id'))\n        \n        target_x = int(input_data['target_x'])\n        target_y = int(input_data['target_y'])\n        \n        if start_x == target_x and start_y == target_y:\n            print(json.dumps([]))\n            return\n\n        grid = {}\n        for row in root.findall('Row'):\n            y = int(row.get('id'))\n            for tile in row.findall('Tile'):\n                x = int(tile.get('id'))\n                t_type = tile.get('type')\n                has_obj = tile.get('has-object') == 'true'\n                \n                # Basic collision\n                is_wall = (t_type == \"WALL\" or t_type == \"BUOY\" or has_obj)\n                grid[(x, y)] = {\"wall\": is_wall, \"type\": t_type}\n\n        queue = deque([(start_x, start_y, [])])\n        visited = {(start_x, start_y)}\n        \n        while queue:\n            x, y, path = queue.popleft()\n            \n            if x == target_x and y == target_y:\n                print(json.dumps(path))\n                return\n            \n            for dx, dy, move in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n                nx, ny = x + dx, y + dy\n                \n                if 0 <= nx < width and 0 <= ny < height and (nx, ny) not in visited:\n                    tile_info = grid.get((nx, ny))\n                    if not tile_info or tile_info[\"wall\"]:\n                        # Exception: Allow target tile even if it has an object (to interact with it)\n                        if (nx, ny) != (target_x, target_y):\n                            continue\n                    \n                    # One-way ledge handling (FLOOR_UP_WALL)\n                    # In Crystal, these are often ledges that you can jump DOWN (South) but not UP (North).\n                    # If moving UP into a FLOOR_UP_WALL, it's blocked.\n                    if tile_info[\"type\"] == \"FLOOR_UP_WALL\" and move == \"Up\":\n                        continue\n                    \n                    # If moving DOWN onto a FLOOR_UP_WALL, it might be a ledge jump.\n                    # Simplified: if it's a wall type, we don't enter it unless it's the target.\n                    \n                    visited.add((nx, ny))\n                    queue.append((nx, ny, path + [move]))\n                    \n        print(json.dumps({\"error\": f\"No path found to ({target_x}, {target_y})\"}))\n    except Exception as e:\n        print(json.dumps({\"error\": str(e)}))\n\nsolve()",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-16T02:08:35.877Z",
+        "action_counter": 49981
+      }
+    ]
   }
 }
