@@ -16,7 +16,7 @@
 - WATER: Traversable only with Surf.
 - DOOR / WARP_CARPET: Map transition points.
 - LEDGE_HOP_DOWN: Allows jumping down (South) but blocks movement from the opposite direction (North).
-- FLOOR_UP_WALL: Terrace edges. Hypothesis: Can be walked across horizontally or entered from specific sides.
+- FLOOR_UP_WALL: Terrace edges. Verified: (6, 46) allows climbing West.
 - ROCK (Object): Blocks movement; can be cleared with Rock Smash. Respawns upon map transition.
 
 # Lessons Learned
