@@ -3,11 +3,13 @@
 Direct land access to the northern plateau is blocked by one-way ledges and central walls. The only viable land route is via the western coast corridor.
 
 ### Execution Path
-1. Navigate south to Row 51 to bypass central wall and ledge systems. (In Progress)
-2. Walk west along Row 51 to (2, 51).
-3. Walk north along X=2 to Row 14.
-4. Walk east to (14, 12) via Row 12.
-5. Trigger Suicune sighting at (14, 10).
+1. Navigate south to Row 33 to clear the central wall (X=9). (Done)
+2. Navigate to (4, 31) via Row 33.
+3. Move Up into (4, 30) (UP_WALL bypass).
+4. Walk West to (2, 30) to reach the Western Highway.
+5. Walk north along X=2 to Row 14.
+6. Walk east to (14, 12) via Row 12.
+7. Trigger Suicune sighting at (14, 10).
 
 ## Global Tile Mechanics
 - FLOOR: Land (Traversable).
