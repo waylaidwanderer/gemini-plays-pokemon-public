@@ -22,7 +22,7 @@
     - **Repel Trick:** Lead Pokemon (Lv 37) > Wild Pokemon (Lv ~20) but < Roamers (Lv 40). Max Repel ACTIVE. Only Roamers should appear.
 - **Mechanics Note:** Repel likely active (0 encounters recently). Inputs after a warp are likely ignored.
 - **Current Task:** Hunting Entei/Raikou on Route 37.
-- **Status:** Repel wore off (Turn 41462). Re-applying Max Repel.
-- **Observation:** Lack of encounters confirmed Repel was working. Roamers were NOT on Route 37 during the last cycle.
-- **Next:** Re-apply Repel -> Shuffle Map.
+- **Status:** Applying Max Repel (Turn 41466).
+- **Strategy:** Resume shuffling. Ecruteak <-> Route 37.
+- **Observation:** Roamers were not on Route 37 last check.
 - Pokedex Status: National Mode. SEEN: 195, OWN: 46.
