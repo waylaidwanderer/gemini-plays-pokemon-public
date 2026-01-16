@@ -33,3 +33,6 @@
 - **5F Right (8,5):** Battle Enhancers (X Attack/Defend/Speed/Special, Dire Hit, Guard Spec). NO Repels.
 - **6F:** Vending Machines (Soda/Water/Lemonade). NO Repels.
 - **Logistics:** No Fly inside.
+
+# Rematches
+- Cooltrainer Gaven (Route 26): Ready for battle.
