@@ -262,7 +262,7 @@
     ]
   },
   "fly_to_cianwood_v1": {
-    "description": "Navigates from the overworld or a menu to Fly to Cianwood City. v6.0 (Gear Start)",
+    "description": "Navigates from any state to Fly to Cianwood City. v7.0 (Robust Resets)",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -272,7 +272,7 @@
         }
       }
     },
-    "python_script": "import json\ndef fly_to_cianwood():\n    # Assumes cursor is on POKEGEAR (5) in Start menu.\n    buttons = [\"B\", \"B\", \"Start\", \"Up\", \"Up\", \"Up\", \"A\", \"Up\", \"Up\", \"A\", \"A\", \"sleep 3000\", \"A\", \"sleep 3000\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"A\", \"A\"]\n    print(json.dumps(buttons))\nfly_to_cianwood()",
+    "python_script": "import json\ndef fly_to_cianwood():\n    buttons = [\"B\", \"B\", \"B\", \"Start\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Down\", \"A\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"A\", \"A\", \"sleep 3000\", \"A\", \"sleep 3000\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"A\", \"A\"]\n    print(json.dumps(buttons))\nfly_to_cianwood()",
     "history": [
       {
         "commit_message": "Initial version",
@@ -388,6 +388,11 @@
         "commit_message": "Updated to v6.0. Corrected menu navigation from POKEGEAR to POKEMON (Up x3) and confirmed Icarus selection (Up x2). v6.0",
         "timestamp": "2026-01-16T14:25:40.688Z",
         "action_counter": 51003
+      },
+      {
+        "commit_message": "Updated to v7.0. Added full reset mashing (Up x8 for Start menu, Up x6 for Party) to ensure reliable selection regardless of starting cursor position. Added extra B presses to clear any open sub-menus. v7.0",
+        "timestamp": "2026-01-16T14:26:58.624Z",
+        "action_counter": 51004
       }
     ]
   }
