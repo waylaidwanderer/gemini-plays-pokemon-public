@@ -3,9 +3,10 @@
 - **Eusine Battle Prep:** Drowzee (Lv23), Haunter (Lv23), Electrode (Lv25). Strategy: Lead with Lv64 Calcifer. Sweep with Flamethrower/Thunderpunch.
 - **Current Plan (The Grand Loop):**
   1. Currently at (11, 47).
-  2. Move West to (2, 47) via Row 50/51 (bypassing WALL at (7, 47)).
-  3. Move North to (2, 10) (X=2 corridor is clear of Terrace Climbs).
-  4. Move East to (14, 10) for the sighting.
+  2. Move East to (21, 47) then South to (21, 51) (First gap in Row 48/50 terraces).
+  3. Move West to (2, 51).
+  4. Move North to (2, 10) (X=2 corridor is clear of Terrace Climbs).
+  5. Move East to (14, 10) for the sighting.
 - **Contingency:** If walking paths fail, use Surf around the east side buoy gap at (23, 7). Landing spot: (16, 10).
 
 # Tile Mechanics (Global)
