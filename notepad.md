@@ -1,13 +1,13 @@
 # Strategy: The Suicune Pursuit
 - **Objective:** Trigger Suicune sighting at (14, 10) in northern Cianwood.
 - **Eusine Battle Prep:** Drowzee (Lv23), Haunter (Lv23), Electrode (Lv25). Strategy: Lead with Lv64 Calcifer. Sweep with Flamethrower/Thunderpunch.
-- **Current Plan (The Sea Bypass):**
-  1. Surf at (28, 44).
-  2. Surf North to Row 6, then West to X=21 (bypassing Row 9/15 buoy hooks).
-  3. Surf South to Row 10, then West to land at (15, 10).
-  4. Walk to (14, 10) for the sighting.
-- **Verification:** Row 6 is clear of buoys at X=21-27. Landing spot (15, 10) is FLOOR.
-- **Land Route Failures:** X=2/4 blocked by Row 23 wall. X=6/12 blocked by Row 15 wall. Southern loop blocked by Row 46/48/50 Terrace Climbs.
+- **Current Plan (Cianwood Navigation):**
+  1. Currently at (28, 44) on WATER.
+  2. Attempt Sea Bypass: Surf North to Row 8, then West past buoy line at X=22.
+  3. If Sea Bypass fails (buoy wall), land at (27, 44) and execute Grand Loop to X=2 corridor.
+  4. Sighting at (14, 10).
+- **Verification:** Row 8 gap at X=23-25 is the target bypass point.
+- **Land Route:** Row 23 wall at X=3-5 blocks X=4 corridor, but X=2 corridor is open at Row 23.
 
 # Tile Mechanics (Global)
 - FLOOR: Standard traversable terrain.
