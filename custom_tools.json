@@ -262,7 +262,7 @@
     ]
   },
   "fly_to_cianwood_v1": {
-    "description": "Navigates from any state to Fly to Cianwood City. v14.0 (Context-aware & safe)",
+    "description": "Navigates from any state to Fly to Cianwood City. v15.0 (Robust overworld start)",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -272,7 +272,7 @@
         }
       }
     },
-    "python_script": "import json\ndef fly_to_cianwood():\n    # v14.0: Specific navigation from Turn 51013 state (Party menu, GNEISS selected).\n    # B(1), Up(2), A(2), sleep, A(1), sleep, Left(20), A(2) = 31 buttons.\n    buttons = [\"B\", \"Up\", \"Up\", \"A\", \"A\", \"sleep 4000\", \"A\", \"sleep 4000\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"A\", \"A\"]\n    print(json.dumps(buttons))\nfly_to_cianwood()",
+    "python_script": "import json\ndef fly_to_cianwood():\n    # v15.0: Robust flight from overworld. Clear -> Start -> Reset -> PKMN -> Reset -> Icarus -> Fly -> West.\n    buttons = [\"B\", \"B\", \"B\", \"Start\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Down\", \"A\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"A\", \"A\", \"sleep 4000\", \"A\", \"sleep 4000\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"A\", \"A\"]\n    print(json.dumps(buttons))\nfly_to_cianwood()",
     "history": [
       {
         "commit_message": "Initial version",
@@ -428,6 +428,11 @@
         "commit_message": "Updated to v14.0. Surgical navigation from Turn 51013 state (Party menu, GNEISS selected). Uses B to back out, then Up x2 to reach Icarus. Fits within limits. v14.0",
         "timestamp": "2026-01-16T14:39:45.481Z",
         "action_counter": 51013
+      },
+      {
+        "commit_message": "Updated to v15.0. Robust overworld-to-Cianwood flight. Uses full resets for both Start (Up x8) and Party (Up x6) menus to ensure reliable selection of POKEMON and ICARUS. Fits within 50-button limit (48 buttons). v15.0",
+        "timestamp": "2026-01-16T14:40:56.822Z",
+        "action_counter": 51014
       }
     ]
   }
