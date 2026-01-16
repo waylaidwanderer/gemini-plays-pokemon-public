@@ -1,13 +1,15 @@
 # Active Strategy: The Suicune Pursuit
-- **Immediate Goal:** Trigger Suicune sighting at (14, 10) in northern Cianwood.
-- **Battle Prep:** Lead with Lv64 Calcifer to sweep Eusine's team (Drowzee, Haunter, Electrode).
-- **Plan (The X=4 Southern Drop):**
-  1. Move West to (8, 45), Up to (8, 44), then West to (4, 44).
-  2. Move South down the X=4 corridor to (4, 51) (Bypassing Terrace Climbs).
-  3. Move West to (2, 51) and enter the X=2 Expressway.
-  4. Move North via X=2 corridor to (2, 10).
-  5. Move East to (14, 10) for the sighting.
-- **Verification:** X=4 has gaps in Row 46, 48, 50. X=2 is clear from Row 51 to Row 14.
+- **Goal:** Trigger Suicune sighting at (14, 10) in northern Cianwood.
+- **Battle Prep:** Lead with Lv64 Calcifer to sweep Eusine's team.
+- **Plan (The Sea Loop):**
+  1. Move Right to (27, 44), then Down to (27, 45).
+  2. Surf at (28, 45).
+  3. Surf South to Row 51 at (28, 51).
+  4. Land West at (24, 51).
+  5. Walk West on Row 51 to (2, 51).
+  6. Walk North via X=2 corridor to (2, 12).
+  7. Walk East to (14, 12), then North to (14, 10).
+- **Verification:** Land path to Row 51 is blocked by Terrace Climbs at Row 46, 48, 50. Eastern water (X=28) is the only bypass.
 
 # Progress Tracking
 - **Sighting Start:** Turn #50620.
@@ -18,11 +20,10 @@
 - FLOOR: Standard terrain.
 - WALL / BUOY: Impassable.
 - WATER: Surf only.
-- LEDGE_HOP_DOWN: Blocks North.
-- FLOOR_UP_WALL (Terrace): Blocks South.
+- LEDGE_HOP_DOWN: Blocks North movement.
+- FLOOR_UP_WALL (Terrace): Blocks South movement.
 - ROCK: Cleared with Rock Smash.
 
 # Area Notes: Cianwood City
-- **Dead Ends:** (11, 15) is a pocket blocked by cliffs.
-- **Barrier:** Row 46-50 is a wall of cliffs. Gaps at (18, 46), (4, 46-50), and (21, 50).
-- **Navigation:** X=2 is the only land corridor reaching Row 10 from the south. X=4 is blocked at (4, 23).
+- **Dead Ends:** (11, 15) and (11, 14) are a pocket blocked by walls at Row 13.
+- **Navigation:** X=2 is the only land corridor reaching Row 10 from the south. All other paths are blocked by Row 15/13 walls.
