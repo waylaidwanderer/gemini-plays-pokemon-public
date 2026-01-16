@@ -1,15 +1,12 @@
 # Strategic Status
 - **Goal:** Catch Raikou (#243) & Entei (#244).
 - **Hunt Duration:** ~14,350 turns. Resumed: Turn 41847.
-- **Status:** Exiting Goldenrod Station. Next: Fly to Ecruteak.
-- **Detour Duration:** Turn 43267 - 43385 (~118 turns).
+- **Status:** Back in Johto. Flying to Ecruteak.
+- **Detour Completed:** Turns 43267 - 43392.
 - **Plan:**
-    1. **Supply Run:**
-       a. Fly to Goldenrod City.
-       b. Go to Dept Store 2F.
-       c. Buy Max Super Repels (Budget: ¥3144 -> ~6 Repels).
-    2. **Return:** Fly to Ecruteak -> Walk to Route 37.
-    3. **Resume Hunt:** Execute Roamer Hunt Loop.
+    1. Fly to Ecruteak City.
+    2. Walk to Route 37.
+    3. Execute Roamer Hunt Loop.
 - **Secondary Targets:** Catch Stantler (Route 37/36 Night) or Growlithe.
 
 # PC Storage Check
