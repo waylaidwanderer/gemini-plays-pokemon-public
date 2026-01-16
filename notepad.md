@@ -1,12 +1,9 @@
 # Strategy: Trigger Suicune Sighting (Started: Turn 51131)
 - Objective: Reach (14, 10) on the northern coast.
-- The Grand Loop (Execution Plan):
-  1. Clear Surf text and land at (27, 44).
-  2. Walk South to (27, 51) (Southern Highway).
-  3. Walk West along Row 51 to (2, 51) (Western Corridor).
-  4. Walk North through the Western Corridor (Column 2) to (2, 12).
-  5. Walk East along the Row 12 Highway to (14, 12).
-  6. Walk North to (14, 10) to trigger Suicune.
+- Execution Plan:
+  1. Walk to Surf spot at (12, 28).
+  2. Surf North/East to Row 10 (via Column 23 to bypass buoys).
+  3. Land at (18, 10) or (17, 10) and walk West to (14, 10).
 - Battle Prep: Lead Calcifer (Lv64 Typhlosion).
 
 # Tile Mechanics
