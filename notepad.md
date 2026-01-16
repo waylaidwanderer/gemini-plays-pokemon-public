@@ -3,8 +3,7 @@
 - **Status:** All boulders cleared. Phase 1 complete.
 - **Phase 2: Reaching the Sighting Spot**
   - Target: (14, 10) in northern Cianwood.
-  - Path A: Use the warp at (5, 17) labeled 'Suicune Sighting Area Entrance'.
-  - Path B: Loop south to Row 46, use the Terrace Climb at (6, 46) to reach the left side (X=0-4), then walk north to Row 10, and east to (14, 10).
+  - Path: Check the warp at (5, 17). If it's just a house, use the Row 12 corridor: (6, 20) -> (6, 19) -> (4, 19) -> (4, 14) -> (5, 14) -> (5, 12) -> (14, 12) -> (14, 10).
   - Note: Be prepared for Eusine battle immediately after Suicune bolts.
 
 # Tile Mechanics (Verified)
