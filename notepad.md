@@ -5,9 +5,9 @@
     - Repel Trick: Lead Lv37 > Wilds (Lv ~20) but < Roamers (Lv 40).
     - Status: Max Repel Active.
     - Loop: Wiggle in grass -> Shuffle Ecruteak/Rt 37 -> Repeat.
-- **Status:** Correcting Course (Ecruteak).
-- **Strategy:** Move East to Mart. Buy Super Repels.
-- **Observation:** Exited Dance Theater. Mart is to the East.
+- **Status:** Entering Mart (Ecruteak).
+- **Strategy:** Buy ~30 SUPER REPELS. (Cost: ~15000 yen).
+- **Observation:** Best value for money.
 - **Session Stats:** Approx 57 shuffle cycles. Repels EMPTY. Restocking.
 
 # Mechanics
