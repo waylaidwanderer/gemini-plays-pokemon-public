@@ -1,10 +1,13 @@
 # Strategy: Trigger Suicune Sighting (Started: Turn 51131)
 - Objective: Reach (14, 10) on the northern coast.
 - Execution Plan (The Great Outer Sea Bypass):
-  1. Walk to (27, 44) and Surf East to (28, 44).
-  2. Surf North along Column 28 to Row 11 (bypassing all buoy rings).
-  3. Surf West to (16, 11) and land.
-  4. Walk West to (14, 11) and North to (14, 10).
+  1. Clear Surf text and move to (28, 44).
+  2. Surf North along Column 28 to Row 11.
+  3. Surf West to (23, 11) (Pass Column 26 gap).
+  4. Surf North to (23, 8).
+  5. Surf West to (19, 8) (Pass Column 22 gap).
+  6. Surf West to (18, 11) and land at (16, 11).
+  7. Walk West to (14, 11) and North to (14, 10).
 - Battle Prep: Lead Calcifer (Lv64 Typhlosion).
 
 # Tile Mechanics
