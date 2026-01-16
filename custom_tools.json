@@ -262,7 +262,7 @@
     ]
   },
   "fly_to_cianwood_v1": {
-    "description": "Navigates from any state to Fly to Cianwood City. v7.0 (Robust Resets)",
+    "description": "Navigates from any state to Fly to Cianwood City. v8.0 (Maximum Robustness)",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -272,7 +272,7 @@
         }
       }
     },
-    "python_script": "import json\ndef fly_to_cianwood():\n    buttons = [\"B\", \"B\", \"B\", \"Start\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Down\", \"A\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"A\", \"A\", \"sleep 3000\", \"A\", \"sleep 3000\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"A\", \"A\"]\n    print(json.dumps(buttons))\nfly_to_cianwood()",
+    "python_script": "import json\ndef fly_to_cianwood():\n    buttons = [\"B\", \"B\", \"B\", \"Start\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Down\", \"A\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"A\", \"A\", \"sleep 3000\", \"A\", \"sleep 3000\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"A\", \"A\"]\n    print(json.dumps(buttons))\nfly_to_cianwood()",
     "history": [
       {
         "commit_message": "Initial version",
@@ -393,6 +393,11 @@
         "commit_message": "Updated to v7.0. Added full reset mashing (Up x8 for Start menu, Up x6 for Party) to ensure reliable selection regardless of starting cursor position. Added extra B presses to clear any open sub-menus. v7.0",
         "timestamp": "2026-01-16T14:26:58.624Z",
         "action_counter": 51004
+      },
+      {
+        "commit_message": "Updated to v8.0. Added triple B-mash and Start reset to ensure overworld start. Uses robust Up-reset in party menu followed by Up x2 to reliably hit Icarus. v8.0",
+        "timestamp": "2026-01-16T14:31:22.350Z",
+        "action_counter": 51007
       }
     ]
   }

@@ -30,9 +30,11 @@
 - Suicune Sighting #1: Cianwood City, northern coast (approx 14, 10). Pending.
 - Menu Mechanics: Main Menu (8 items) wraps 1 <-> 8. Party Menu (6 items) wraps 1 <-> CANCEL <-> 6.
 - Sub-menu Layout (Icarus): FLY, STATS, SWITCH, MOVE, ITEM, CANCEL.
-- Fly Strategy: Current cursor is on GORP (5) in party menu. Action: Down (Select Icarus) -> A -> A (Fly) -> Clear text (A) -> Navigate Left x20 -> A. Attempt #9.
-- Menu Discovery: Start menu resets to POKEDEX (1) when closed/reopened. Party menu REMEMBERS cursor position.
-- Menu Wrapping: Start Menu (8 items) wraps 1 <-> 8. Party Menu (7 items: 6 PKMN + CANCEL) wraps 1 <-> CANCEL.
+- Suicune Quest Start: Turn #50620. (Current Turn: #51007)
+- Fly Strategy: v8.0. Exit everything (B x3) -> Start -> Reset Start (Up x8) -> Pokemon (Down) -> A -> Reset Party (Up x8) -> Icarus (Up x2) -> A -> Fly (A) -> Clear text (A) -> Navigate Left x20 -> A.
+- Fly attempts failed: 9.
+- Lesson: Party menu cursor persistence vs Start menu reset. Menu wrapping: 1 (Calcifer) <-> 7 (Cancel) in party.
+- Icarus is at index 6.
 - Item Change: Icarus (Pidgeotto) is holding a POKé BALL. AMULET COIN is in bag.
 - Party Order: 1. Calcifer, 2. XENON, 3. KIMCHI, 4. GNEISS, 5. GORP, 6. ICARUS.
 - Suicune Quest: Turn #50620. Smashed rocks at (5, 29), (4, 25), (8, 16), (9, 17).
