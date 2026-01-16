@@ -27,8 +27,8 @@
 - **LEDGE_HOP:** One-way traversal (jump down).
 
 # Celadon Dept Store Directory
-- **2F Left (13,5):** Medicines (Potions/Status Heals). NO Repels.
-- **2F Right (14,5):** Balls (Poke/Great/Ultra), Escape Rope, Full Heal, Status Heals. NO Repels found.
+- **2F Left (13,5):** Medicines. Checking for Repels at bottom of list...
+- **2F Right (14,5):** Balls (Poke/Great/Ultra), Escape Rope, Full Heal, Status Heals. NO Repels (Verified).
 - **3F (7,1):** TMs (10, 11, 17, 18, 37). NO Repels.
 - **4F (13,5):** Gifts (Poke Doll, Lovely/Surf Mail). NO Repels.
 - **5F Left (7,5):** Vitamins (HP Up, Protein, Iron, Carbos). NO Repels.
