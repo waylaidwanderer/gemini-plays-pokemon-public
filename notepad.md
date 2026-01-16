@@ -1,17 +1,18 @@
 # Active Strategy: The Suicune Pursuit
-- **Immediate Goal:** Trigger Suicune sighting at (14, 10) in northern Cianwood.
-- **Active Plan (The Sea Loop):**
-  1. Currently at Route 41 (15, 46). Surf to (0, 51).
-  2. Transition Left to Cianwood (29, 51) and land.
-  3. Walk West on Row 51 to (2, 51).
-  4. Walk North via X=2 Expressway to (2, 10).
-  5. Walk East to (14, 10) for the sighting.
+- **Immediate Goal:** Talk to Eusine on Route 41 (19, 46) for hints.
+- **Current Objective:** Trigger Suicune sighting in northern Cianwood (14, 10).
+- **Plan (The Route 41 Southern Bypass):**
+  1. Currently at Route 41 (15, 46). Move Right to talk to Eusine.
+  2. Surf to (0, 51) via Row 49/50 gaps to bypass buoy walls.
+  3. Transition to Cianwood (29, 51) and land.
+  4. Walk West to X=2 corridor, then North to (14, 10).
 - **Battle Prep:** Lead with Lv64 Calcifer to sweep Eusine's team (Drowzee, Haunter, Electrode).
 
 # Progress Tracking
-- **Sighting Pursuit Start:** Turn #50620.
+- **Started Suicune Sighting Quest (Cianwood):** Turn #50620.
+- **Sighting Status:** Not yet triggered.
 - **Acquired:** Rock Smash (GNEISS).
-- **Smashed Rocks:** (5, 29), (4, 25), (8, 16), (9, 17) in Cianwood. Verified as FLOOR.
+- **Smashed Rocks (Cianwood):** (5, 29), (4, 25), (8, 16), (9, 17). Verified as FLOOR.
 - **Failed Hypotheses:** Inner Maze (Row 15 wall), Sea Bypass (Buoy wall), X=18 gap (Blocked by terrace).
 
 # Tile Mechanics (Verified)

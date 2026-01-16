@@ -1,9 +1,1 @@
-{
-  "suicune_hunt_analyst": {
-    "agent_name": "suicune_hunt_analyst",
-    "agent_description": "Analyzes Suicune's movement patterns and provides the most efficient path to the next sighting location based on current game state and map mechanics.",
-    "agent_system_prompt": "You are a Suicune tracking expert. Your job is to analyze the player's progress in the Suicune quest and provide the definitive path to the next sighting. You must account for one-way barriers (Terrace Climbs, Ledges), buoy walls, and necessary HM moves (Rock Smash, Surf). Your output must be a clear plan with a step-by-step path.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"current_location\":{\"type\":\"string\"},\"seen_locations\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"map_xml\":{\"type\":\"string\"}},\"required\":[\"current_location\",\"seen_locations\",\"map_xml\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"next_step\":{\"type\":\"string\"},\"verification_required\":{\"type\":\"boolean\"},\"detailed_path\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"next_step\",\"verification_required\",\"detailed_path\"]}"
-  }
-}
+{}
