@@ -3,13 +3,12 @@
 - **Objective:** Trigger Suicune sighting at (14, 10) in northern Cianwood.
 - **Eusine Battle Prep:** Lead with Lv64 Calcifer.
 - **Current Plan (The Southern Surf Loop):**
-  1. Exit menus and Surf at (28, 45).
-  2. Surf South to Row 51 (via Route 41 at X=29).
-  3. Move West on Row 51 back into Cianwood at (24, 51).
-  4. Walk West on Row 51 to (2, 51).
-  5. Walk North via X=2 corridor to (2, 12).
-  6. Move East on Row 12 to (14, 12), then North to (14, 10) for the sighting.
-- **Verification:** X=2 corridor and Row 12 are clear of all barriers. Row 51 bypasses all one-way terraces.
+  1. Surf at (28, 45).
+  2. Surf South to (28, 51).
+  3. Move West on Row 51 to (2, 51) (Bypassing all Terrace Climbs).
+  4. Move North via X=2 corridor to (2, 12).
+  5. Move East on Row 12 to (14, 12), then North to (14, 10) for the sighting.
+- **Verification:** X=2 corridor and Row 51 bypass confirmed clear of one-way barriers.
 
 # Tile Mechanics (Global)
 - FLOOR: Standard traversable terrain.
