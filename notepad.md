@@ -24,11 +24,10 @@ Trigger the Suicune sighting at (14, 10) in Cianwood City (Map 22_3).
 - **Start Turn:** 50283
 - **Status:** Searching for TM08 Rock Smash.
 - **Plan:**
-  1. Talk to Lass at (14, 41) or (14, 44). (Current)
-  2. Talk to Guy in Cap at (14, 43).
-  3. Obtain SecretPotion from Pharmacy (15, 47).
-  4. Investigate Lugia Speech House (15, 37).
-  5. Check Route 36 (Guy who gives TM08 after Sudowoodo).
+  1. Talk to Lass at (14, 44). (Completed: Talks about Chuck)
+  2. Check Pharmacy (15, 47). (Next)
+  3. Investigate Lugia Speech House (15, 37).
+  4. Check Route 36 (Guy who gives TM08 after Sudowoodo).
 
 ## Tile Mechanics
 - FLOOR: Traversable.
@@ -53,3 +52,6 @@ Trigger the Suicune sighting at (14, 10) in Cianwood City (Map 22_3).
 - **Hypothesis 4:** Rock Smash is not required for the Western Bypass.
   - **Attempts:** 1 (Turn 50310, pathfinder check)
   - **Result:** Pathfinder failed to find a route without Rock Smash. Verified.
+- **Hypothesis 5:** Lass (14, 44) gives TM08.
+  - **Attempts:** 1 (Turn 50321)
+  - **Result:** Talks about Chuck. Dead end.
