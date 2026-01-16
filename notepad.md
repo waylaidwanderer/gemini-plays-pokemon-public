@@ -3,7 +3,8 @@
 - **Status:** All boulders cleared. Phase 1 complete.
 - **Phase 2: Reaching the Sighting Spot**
   - Target: (14, 10) in northern Cianwood.
-  - Path: Use Surf to bypass the northern wall (Row 15) or check the warp at (5, 17).
+  - Path: Surf from (13, 16) onto (14, 16). Surf North to Row 14. Land at (14, 14) or (13, 14). Walk to (14, 10).
+  - Alternative Path: Check the far left side (X=0, 1, 2) to see if it leads north.
   - Note: Be prepared for Eusine battle immediately after Suicune bolts.
 
 # Tile Mechanics (Verified)
