@@ -262,9 +262,17 @@
     ]
   },
   "fly_to_cianwood_v1": {
-    "description": "Navigates from the overworld to Fly to Cianwood City. Assumes starting from the overworld or a menu. v3.0",
-    "input_schema": {},
-    "python_script": "import json\n# Sequence:\n# 1. B x3 (Clear menus to overworld)\n# 2. Start (Open menu)\n# 3. Up x10 (Reset main menu to POKEDEX)\n# 4. Down (Move to POKEMON) -> A\n# 5. Up x10 (Reset party menu to 1st PKMN - Calcifer)\n# 6. Down x5 (Move to 6th PKMN - ICARUS) -> A\n# 7. A (Select FLY - 1st sub-menu option)\n# 8. sleep 2000 (Wait for \"[PKMN] used FLY!\" text)\n# 9. A (Clear text)\n# 10. sleep 2000 (Wait for map transition)\n# 11. Left x12 (Move far west on map)\n# 12. A -> A (Confirm flight)\nprint(json.dumps(['B']*3 + ['Start'] + ['Up']*10 + ['Down', 'A'] + ['Up']*10 + ['Down']*5 + ['A', 'A'] + ['sleep 2000', 'A', 'sleep 2000'] + ['Left']*12 + ['A', 'A']))",
+    "description": "Navigates from the overworld or a menu to Fly to Cianwood City. v5.0",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "autopress_buttons": {
+          "type": "boolean",
+          "default": false
+        }
+      }
+    },
+    "python_script": "import json\ndef fly_to_cianwood():\n    buttons = [\"B\", \"B\", \"Start\", \"Down\", \"A\", \"Up\", \"Up\", \"A\", \"A\", \"sleep 2000\", \"A\", \"sleep 2000\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"A\", \"A\"]\n    print(json.dumps(buttons))\nfly_to_cianwood()",
     "history": [
       {
         "commit_message": "Initial version",
@@ -370,6 +378,11 @@
         "commit_message": "v3.0: Robust reset-based flight. Clears menus, uses mashing to ensure cursor positions in main and party menus, and handles FLY text/map transition with sleeps. 50 buttons.",
         "timestamp": "2026-01-16T14:20:13.143Z",
         "action_counter": 50999
+      },
+      {
+        "commit_message": "Fixed wrapping logic to select Icarus (Up, Up from top) and added menu exit sequence (B, B) to ensure overworld start. v5.0",
+        "timestamp": "2026-01-16T14:24:16.396Z",
+        "action_counter": 51002
       }
     ]
   }
