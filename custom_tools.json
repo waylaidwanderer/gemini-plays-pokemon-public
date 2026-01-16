@@ -167,13 +167,19 @@
           "type": "string",
           "description": "The current map ID to determine starting position logic.",
           "default": "10_4"
+        },
+        "autopress_buttons": {
+          "type": "boolean",
+          "description": "If true and the tool returns a list of buttons, they will be pressed automatically. Safety limit of 50 buttons per turn.",
+          "default": false
         }
       },
       "required": [
-        "current_map_id"
+        "current_map_id",
+        "autopress_buttons"
       ]
     },
-    "python_script": "import json\n\ndata = globals().get('input_data', {})\ncycles = int(data.get('cycles', 8))\ncurrent_map_id = data.get('current_map_id', '10_4')\n\nbuttons = []\n\nif current_map_id == \"4_9\": # Ecruteak City\n    # Exit to Route 37 (8,0)\n    buttons.extend([\"Down\", \"sleep 2000\"])\n\n# Now we assume we are at Route 37 (8,0)\n# Walk to grass at (8,2)\nbuttons.extend([\"Down\", \"Down\"])\n\n# Wiggle\nfor _ in range(cycles):\n    buttons.extend([\"Left\", \"Right\"])\n\nprint(json.dumps(buttons))",
+    "python_script": "def run(input_data):\n    cycles = input_data.get('cycles', 8)\n    current_map_id = input_data.get('current_map_id', '10_4')\n    \n    buttons = []\n    \n    # Logic for starting from Ecruteak City Exit (18, 35)\n    if current_map_id == \"4_9\":\n        buttons.append(\"Down\") # Exit Ecruteak\n        buttons.append(\"sleep 1500\") # Wait for map transition\n        # After transition, we are at Route 37 (8, 0)\n    \n    # Logic for moving from Route 37 Entrance (8, 0) to Grass (8, 2)\n    # Assumes we are at (8, 0) or close to it after the above check or if starting there\n    buttons.extend([\"Down\", \"Down\"]) \n    \n    # Wiggle Patrol Logic\n    for _ in range(cycles):\n        buttons.extend([\"Left\", \"Right\"])\n        \n    return buttons\n\nprint(run(input_data))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -184,6 +190,11 @@
         "commit_message": "Updated to handle starting from Ecruteak City (4_9), allowing for a seamless Exit-and-Check sequence.",
         "timestamp": "2026-01-16T03:28:38.141Z",
         "action_counter": 41624
+      },
+      {
+        "commit_message": "Fixed missing commit message and defined tool for Route 37 hunting logic.",
+        "timestamp": "2026-01-16T09:06:55.663Z",
+        "action_counter": 42184
       }
     ]
   }
