@@ -262,7 +262,7 @@
     ]
   },
   "fly_to_cianwood_v1": {
-    "description": "Navigates from any state to Fly to Cianwood City. v9.0 (Efficiency & Limits)",
+    "description": "Navigates from any state to Fly to Cianwood City. v10.0 (Robust resets and sleeps)",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -272,7 +272,7 @@
         }
       }
     },
-    "python_script": "import json\ndef fly_to_cianwood():\n    # Sequence: Exit menus -> Open Start -> Reset to Pokedex -> Select Pokemon -> Select Icarus (6) -> Fly\n    buttons = [\"B\", \"B\", \"B\", \"Start\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Down\", \"A\", \"Up\", \"Up\", \"A\", \"A\", \"sleep 3000\", \"A\", \"sleep 3000\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"A\", \"A\"]\n    print(json.dumps(buttons))\nfly_to_cianwood()",
+    "python_script": "import json\ndef fly_to_cianwood():\n    # v10.0: Robust flight to Cianwood. Added resets and increased sleeps.\n    buttons = [\"B\", \"B\", \"B\", \"Start\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Down\", \"A\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"A\", \"A\", \"sleep 4000\", \"A\", \"sleep 4000\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"A\", \"A\"]\n    print(json.dumps(buttons))\nfly_to_cianwood()",
     "history": [
       {
         "commit_message": "Initial version",
@@ -403,6 +403,11 @@
         "commit_message": "Updated to v9.0. Optimized button count to stay under 50-button limit (39 buttons total). Uses robust Start menu reset (Up x8) and assumes Party menu starts at Slot 1 to select Icarus (Up x2). Added sleeps for map transition. v9.0",
         "timestamp": "2026-01-16T14:32:04.059Z",
         "action_counter": 51008
+      },
+      {
+        "commit_message": "Updated to v10.0. Added robust resets for both Start and Party menus. Increased button count to 46 and sleeps to 4000ms. v10.0",
+        "timestamp": "2026-01-16T14:33:26.865Z",
+        "action_counter": 51009
       }
     ]
   }
