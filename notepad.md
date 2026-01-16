@@ -3,8 +3,9 @@
 - **Strategy:** Find the NPC on Route 36 who gives TM08.
 - **Quest Started:** Turn 50407.
 - **Hypothesis:** The NPC is near the (35, 9) junction where Sudowoodo was.
-- **Current Status:** Exploring (35, 9) area. Fisher at (44, 9) is confirmed flavor text only.
-- **Next Step:** Move to (35, 9) and search for a new NPC.
+- **Hypothesis 2:** The NPC is inside the National Park gatehouse (18, 9).
+- **Hypothesis 3:** The NPC is inside the Ruins of Alph gatehouse (47, 13).
+- **Next Step:** Explore the National Park gatehouse at (18, 9).
 
 ## Secondary Goal: Trigger Suicune Sighting in Cianwood City
 - **Location:** (14, 10) in Cianwood City.
