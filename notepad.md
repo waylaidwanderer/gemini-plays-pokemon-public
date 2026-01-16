@@ -7,8 +7,8 @@ The northern plateau (14, 10) is protected by a complex ledge system. The "Easte
 
 ### Execution Plan
 1. Central Pivot: Navigate to (12, 28) (Central Surf Point). (Done)
-2. Sea Crossing: Surf to (20, 32) and land. (In Progress)
-3. Southern Descent: Walk south to (20, 51).
+2. Sea Crossing: Surf to (20, 32) and land. (Done)
+3. Southern Descent: Walk south to (20, 51). (In Progress)
 4. Great Western Traverse: Walk west along Row 51 to (2, 51).
 5. Coastal Highway: Walk north along X=2 to Row 12.
 6. Trigger: Walk east to (14, 10).
