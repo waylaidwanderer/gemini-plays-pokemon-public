@@ -1,9 +1,9 @@
 # Strategic Status
 - **Goal:** Catch Raikou (#243) & Entei (#244).
 - **Hunt Duration:** ~14,350 turns. Resumed: Turn 41847.
-- **Status:** Defining tool to Fly.
-- **Action:** Defining `open_fly_map` tool.
-- **Next:** Use tool to select Mistral (Slot 6) and Fly.
+- **Status:** Executing Fly tool (Mistral, Slot 6).
+- **Action:** Using `open_fly_map` to open Fly destination map.
+- **Next:** Select Ecruteak City and Confirm.
 - **Secondary Targets:** Catch Stantler (Route 37/36 Night) or Growlithe.
 
 # PC Storage Check
