@@ -3,13 +3,9 @@
 The northern plateau (14, 10) is isolated by walls and rocks. The only land bridge is the southern clearway at Row 51, which connects the east side to the western corridor.
 
 ### The Path to Suicune
-1. Surf South on Route 41 to Row 52 at (0, 52). (In Progress)
-2. Enter Cianwood City at (29, 52).
-3. Walk North to Row 51 and then West to the western corridor (X=2).
-4. Walk North along X=2 to Row 14.
-5. Walk East to X=8, then North to Row 12.
-6. Walk East along Row 12 to (14, 12).
-7. Walk North to trigger Suicune at (14, 10).
+1. Return to Cianwood City via the warp at (0, 49). (In Progress)
+2. Search houses for the Rock Smash NPC (likely the one who gives TM08).
+3. Use Rock Smash to clear the path to the northern plateau (14, 10).
 
 ## Verified Mechanics & Obstacles
 - FLOOR_UP_WALL: Impassable wall when moving South (confirmed at Row 50, 46, 34).
