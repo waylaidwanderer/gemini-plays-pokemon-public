@@ -1,9 +1,10 @@
 # Strategy: Trigger Suicune Sighting (Started: Turn 51131)
 - City Logic: The city is divided by vertical walls. The Western Corridor (X=2) is the primary path to the northern sighting spot. Row 51 is a horizontal highway connecting all corridors. Gaps in the Row 46/48/50 terraces exist at X=12/13.
 - Execution Plan:
-  1. Walk West to (13, 44) and South to (13, 51) to reach the highway.
-  2. Walk West to (2, 51) and North through the Western Corridor to Row 12.
-  3. Walk East to (14, 12) and North to (14, 10).
+  1. Walk South to (6, 51) to reach the highway.
+  2. Walk West to (2, 51) and North through the Western Corridor to Row 14.
+  3. Walk East to (8, 14) and North to Row 12.
+  4. Walk East to (14, 12) and North to (14, 10).
 - Battle Prep: Lead Calcifer (Lv64 Typhlosion).
 
 # Tile Mechanics
