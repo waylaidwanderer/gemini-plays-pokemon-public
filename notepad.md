@@ -24,9 +24,10 @@
 - **Sighting Trigger:** Move to (14, 10).
 
 # Progress Tracking
-- Started Suicune Quest: Turn #50620. (Current Turn: #50989)
+- Started Suicune Quest: Turn #50620. (Current Turn: #50990)
 - Smashed Rocks (Cianwood): (5, 29), (4, 25), (8, 16), (9, 17). Verified as FLOOR.
 - Defeated Trainers (Route 41): Swimmer Mathew (17, 46).
 - Suicune Sighting #1: Cianwood City, northern coast (approx 14, 10). Pending.
-- Menu Mechanics: Main Menu (8 items) wraps 1 <-> 8. Party Menu (6 items) does NOT wrap.
-- Fly Strategy: Reset party cursor with 5x Up to ensure Calcifer (1st) is selected, then Down to Icarus (6th). Tool v2.2 used for execution.
+- Menu Mechanics: Main Menu (8 items) wraps 1 <-> 8. Party Menu (6 items) wraps 1 <-> CANCEL <-> 6.
+- Sub-menu Layout: STATS, [FIELD MOVE], SWITCH, MOVE, ITEM, CANCEL.
+- Fly Strategy: From Calcifer (1st), Down x5 to Icarus (6th). In sub-menu, Down x1 to FLY. Tool v2.3 used.
