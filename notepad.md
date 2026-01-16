@@ -1,7 +1,7 @@
 # Strategy: The Suicune Pursuit
 - **Quest Started:** Turn #50620
-- **Current Status:** Smashed rocks at (5, 29), (4, 25), and (4, 19). Heading to (8, 16).
-- **Next Step:** Smash boulder at (8, 16) -> Reach (14, 10) to trigger Suicune sighting.
+- **Current Status:** Smashed rocks at (5, 29), (4, 25), (4, 19), (9, 17), and (8, 16). Heading to (14, 10).
+- **Next Step:** Reach (14, 10) to trigger Suicune sighting. Be prepared for Eusine battle!
 
 # Tile Mechanics
 - FLOOR: Standard traversable terrain.
