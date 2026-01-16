@@ -8,7 +8,7 @@
 - **Secondary Targets:** Catch Stantler (Route 37/36 Night) or Growlithe.
 
 # PC Storage Check
-- **Items Found:** Moon Stone x2, Repel x1, X Attack x2, X Special x2, Everstone x2, Ice Berry x1, Miracle Seed x1, PsnCureBerry x1, Protein x3... (Continuing Search)
+- **Items Found:** Moon Stone x2, Repel x1, X Attack x2, X Special x2, Everstone x2, Ice Berry x1, Miracle Seed x1, PsnCureBerry x1, Protein x3, Guard Spec x1, Super Potion x2, Smoke Ball x1, Flower Mail x1... (Continuing Search)
 
 # Locations & Logistics
 - **Ecruteak Mart:** Limited inventory. DOES NOT sell Super Repels.
