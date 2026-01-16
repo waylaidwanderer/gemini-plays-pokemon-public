@@ -24,3 +24,7 @@
 - Eastern Water Route (Cianwood): Blocked by Row 15 wall/buoy line.
 - Cianwood NPCs: Hints only (Turns 50278-50364).
 - Western Land Bypass (Cianwood): Blocked by rocks at (4, 19). Rock Smash is a hard requirement.
+- **Hypothesis 2:** The Lass at (51, 8) gives TM08.
+- **Status:** Heading to (51, 8).
+- **Hypothesis 3:** The NPC who gives TM08 is near the (35, 9) junction but off-screen.
+- **Hypothesis 4:** I already received it and accidentally stored it in the PC (unlikely, but worth checking).
