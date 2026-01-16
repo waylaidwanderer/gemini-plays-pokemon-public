@@ -57,3 +57,6 @@
 - **Action:** Returning to Route 37 for Grass Check #3.
 - **Log:** Route 37 Grass Check #3: Commencing.
 - **Action:** Executing `check_route37_grass`.
+- **Log:** Route 37 Grass Check #3: No encounter.
+- **Action:** Rapid Reset (Ecruteak <-> Route 37).
+- **Next:** Check #4.
