@@ -25,5 +25,5 @@
 - **WARP_CARPET_DOWN/UP/LEFT/RIGHT:** Transition to adjacent map. Walk *off* the map edge to trigger.
 - **LEDGE_HOP:** One-way traversal (jump down).
 - **Clerk 1 (Top, 13,5):** Sells Potions, Antidote, Burn/Ice/Parlyz Heal, Awakening. NO Repels.
-- **Clerk 2 (Bottom, 13,6):** Sells Standard Balls, Escape Rope, Repel (Standard), Revive, Full Heal, Poke Doll. NO Super Repels.
+- **Clerk 2 (Bottom, 13,6):** Sells Standard Balls, Escape Rope, Repel (Standard), Revive, Full Heal, Poke Doll, Flower Mail. NO Super Repels.
 - **Clerk 3 (3F, 6,1):** Sells X Speed/Special/Defend/Attack, Dire Hit, Guard Spec, X Accuracy. NO Repels.
