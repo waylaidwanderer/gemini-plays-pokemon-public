@@ -3,8 +3,8 @@
 - **Eusine Battle Prep:** Drowzee (Lv23), Haunter (Lv23), Electrode (Lv25). Strategy: Lead with Lv64 Calcifer. Sweep with Flamethrower/Thunderpunch.
 - **Current Plan (The Grand Loop):**
   1. Currently at (12, 31).
-  2. Move to (21, 51) via the eastern gap at X=21.
-  3. Move West to (2, 51) then North to (2, 10) (X=2 corridor).
+  2. Move to (21, 51) via gaps at (18, 46) and (21, 50).
+  3. Move West to (2, 51) then North to (2, 10) (X=2 corridor is clear).
   4. Move East to (14, 10) for the sighting.
 
 # Tile Mechanics (Global)
@@ -18,9 +18,9 @@
 
 # Area Notes: Cianwood City
 - **Barriers:** Row 15 is a solid wall/buoy barrier from X=3 to X=22, EXCEPT for a gap at (11, 15). Row 13 is solid at X=11, making (11, 15) a dead end.
-- **Smashed Rocks:** (5, 29), (4, 25), (4, 19), (9, 17), (8, 16).
+- **Shortcut Tiles:** (5, 29), (4, 25) (Smashed Rocks).
 - **Terrace Climbs:** (4, 30), (6, 34), (6, 46), (21, 46), (8, 48), (12, 50). All block South movement.
 
 # Lessons Learned
 - **Time Check:** Attempting sighting since Turn #50620.
-- **Verification:** X=2 corridor confirmed clear of Terrace Climbs and Ledges.
+- **Verification:** X=2 corridor confirmed clear of Terrace Climbs and Ledges in Mental Map.
