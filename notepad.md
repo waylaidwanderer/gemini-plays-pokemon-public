@@ -28,3 +28,7 @@
 - **Status:** Heading to (51, 8).
 - **Hypothesis 3:** The NPC who gives TM08 is near the (35, 9) junction but off-screen.
 - **Hypothesis 4:** I already received it and accidentally stored it in the PC (unlikely, but worth checking).
+- **Hypothesis 2 (Lass):** Failed (Turn 50444), she moved out of range. Low priority.
+- **Hypothesis 5:** Arthur at (45, 6) gives TM08 (unlikely, but he's here for the Hard Stone).
+- **Hypothesis 6:** Someone inside the gatehouse at (47, 13) gives TM08.
+- **Status:** Heading to Arthur at (45, 6).
