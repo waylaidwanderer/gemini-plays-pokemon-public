@@ -1,12 +1,13 @@
 # Strategy: Trigger Suicune Sighting (Started: Turn 51131)
-- Execution Plan (The Verified Land Route):
-  1. Surf South to (28, 44) and land at (27, 44).
-  2. Walk West along Row 44 to (6, 44).
-  3. Walk South to (6, 47) and North to (6, 46) (Climb Terrace).
-  4. Walk West to Column 2 (Western Corridor).
-  5. Walk North along Column 2 to Row 14.
-  6. Walk East along Row 14 to (8, 14), then North to Row 12.
-  7. Walk East along Row 12 to (14, 12), then North to (14, 10).
+- Execution Plan (The Golden Land Path):
+  1. Walk West to (12, 44).
+  2. Walk North to (12, 29).
+  3. Walk West to (11, 29) and North to (11, 26).
+  4. Walk West to (9, 26) and North to (9, 21).
+  5. Walk East to (11, 21) and North to (11, 15).
+  6. Walk North through gap at (11, 15) to Row 14.
+  7. Walk East to (13, 14) and North through gap at (13, 13) to Row 12.
+  8. Walk East to (14, 12) and North to (14, 10).
 - Battle Prep: Lead Calcifer (Lv64 Typhlosion).
 
 # Tile Mechanics
