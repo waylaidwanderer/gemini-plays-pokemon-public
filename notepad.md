@@ -14,8 +14,8 @@ To reach Suicune at (14, 10), we must bypass the central wall (X=5) and the nort
 - WALL / BUOY: Impassable.
 - WATER: Requires Surf.
 - DOOR: Warp. BFS tools should treat as walls unless targeting the warp.
-- LEDGE_HOP_DOWN: One-way (South). Blocks North.
-- FLOOR_UP_WALL: Impassable from the North.
+- FLOOR_UP_WALL: Impassable from the North. Blocks Down movement (e.g., Row 33 to Row 34).
+- LEDGE_HOP_DOWN: One-way (South). Blocks North movement. Found at (10, 15).
 
 ## Verified Obstacles
 - Row 15: Ledge blocks North at X=10. WALLs at X=3-9 and X=12-17.
