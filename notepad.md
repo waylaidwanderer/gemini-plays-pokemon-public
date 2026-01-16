@@ -1,19 +1,18 @@
 # Strategic Status
 - **Goal:** Catch Raikou (#243) & Entei (#244).
-- **Session Start:** Turn 40947.
-- **Current Strategy:** "Blind Gatehouse Shuffle" on Route 37.
-    - Repel Trick: Lead Lv37 > Wilds (Lv ~20) but < Roamers (Lv 40).
-    - Status: Max Repel Active.
-    - Loop: Wiggle in grass -> Shuffle Ecruteak/Rt 37 -> Repeat.
-- **Status:** Traversing Route 37 (Southbound).
-- **Strategy:** Walk South to Route 36. Hop ledges. Destination: Goldenrod.
-- **Observation:** Nighttime (9PM). Look for Stantler (Night exclusive). No Repels.
-- **Session Stats:** Approx 57 shuffle cycles. Repels EMPTY. Restocking.
+- **Immediate Task:** Restock Super Repels at Goldenrod Dept Store.
+- **Current Action:** Walking South (Route 37 -> 36 -> 35 -> Goldenrod).
+- **Secondary Hunt:** Catch Stantler (Route 37/36 Night) or Growlithe while walking.
+- **Session Stats:** Repels EMPTY. Paused hunting to restock.
+
+# Locations & Logistics
+- **Ecruteak Mart:** Limited inventory. DOES NOT sell Super Repels.
+- **Goldenrod Dept Store:** Reliable source for all standard items.
+- **Fly Map:** Cursor navigation can be sticky/unreliable. Walking is currently preferred.
 
 # Mechanics
 - **Roamers:** Move to an adjacent route when player transitions maps.
-- **Repel:** Prevents encounters with wild Pokemon lower level than the lead.
-- **Battle Cursor:** Remembers last move.
+- **Repel Trick:** Lead Lv37 > Wilds (Lv ~20) but < Roamers (Lv 40).
 - **Gatehouses:** "Sticky" warps require moving *into* travel direction.
 
 # Tile Mechanics
