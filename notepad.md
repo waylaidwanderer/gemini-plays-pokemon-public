@@ -4,7 +4,7 @@ The northern plateau (14, 10) is blocked by rocks. I need TM08 Rock Smash to pro
 
 ### Search Progress
 1. Poke Seer (5, 17): Searched. (Turn 49970).
-2. X=2 Corridor: Testing for land access to northern plateau. (Turn 49975).
+2. X=2 Corridor: Potential bypass via Row 51 and X=2. (Unconfirmed northern exit).
 3. Photo Studio (9, 31): Next if X=2 is blocked.
 4. Pharmacy (15, 47): Next.
 5. Pokefan F (10, 46): Outside.
