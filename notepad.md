@@ -53,3 +53,5 @@
 - **Log:** Route 37 Grass Check #2: No encounter.
 - **Action:** Rapid Reset (Ecruteak <-> Route 37).
 - **Next:** Check #3.
+- **Log:** Transitioned to Ecruteak.
+- **Action:** Returning to Route 37 for Grass Check #3.
