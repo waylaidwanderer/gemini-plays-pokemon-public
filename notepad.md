@@ -1,25 +1,17 @@
 # Suicune Quest: Cianwood City
-- **Quest Start:** Turn 49885
-- **Status:** Landing at (23, 33) to begin the "Terrace Loop".
-
-## Strategy: The Terrace Loop
-The northern plateau (14, 10) is accessible via the western coastal highway (X=2). This path uses a series of terrace gaps to bypass central walls.
+## Verified Strategy: The Western Highway (X=2)
+The northern plateau (14, 10) is accessible via the western coastal highway (X=2). This route bypasses all elevation traps by utilizing the southern clearway at Row 51.
 
 ### Execution Plan
-1. Land at Shore: Move Left to (23, 33) and land. (Done)
-2. Central Traverse: Walk West along Row 33 to (16, 33), then North to (16, 32). (In Progress)
-3. Corridor Entry: Walk West along Row 32 to (9, 32).
-4. Northern Ascent: Walk North along X=9 to Row 25.
-5. West Coast Entry: Walk West along Row 25 to (4, 25), then North to Row 21.
-6. Mechanical Bypass: Move North through (4, 20) [UP_WALL] to reach Row 20.
-7. Highway Dash: Walk West to (2, 20), then North along X=2 to Row 10.
-8. Victory: Walk East to (14, 10) to trigger Suicune.
+1. Reach Southern Clearway: Navigate to (10, 51) via the gap at X=10, Row 50. (In Progress)
+2. Access Highway: Walk West along Row 51 to (2, 51).
+3. Coastal Dash: Walk North along X=2 to Row 14.
+4. Final Approach: Walk East to X=8, North to Row 10, then East to Suicune at (14, 10).
 
 ## Verified Mechanics
-- Row 32: Clear horizontal gap from X=16 to X=9.
-- Row 25: Clear horizontal gap from X=9 to X=4.
-- UP_WALL: Blocks DOWN movement. Moving UP is allowed. (e.g., (4, 20)).
-- X=2 Highway: Clear north-south path from Row 20 to Row 10.
+- X=2 Highway: Clear land path from Row 51 to Row 14.
+- Row 51: Completely clear land bridge across the island (X=2 to X=24).
+- FLOOR_UP_WALL: One-way North. Blocks DOWN movement. Gap identified at (10, 50).
 
 ## Battle Plan: Eusine
 - Expected Team: Drowzee (Lv23), Haunter (Lv23), Electrode (Lv25).
