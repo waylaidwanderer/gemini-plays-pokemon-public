@@ -27,7 +27,7 @@
 - Started Suicune Quest: Turn #50620. (Current Turn: #51000)
 - Smashed Rocks (Cianwood): (5, 29), (4, 25), (8, 16), (9, 17). Verified as FLOOR.
 - Defeated Trainers (Route 41): Swimmer Mathew (17, 46).
-Fly Strategy: v21.0. Attempt #23. Sequence: B(x2) -> Start -> Reset Main (Up x6) -> POKEMON (Down) -> A -> Reset Party (Up x5) -> Icarus (Down x5) -> A -> Reset Sub-menu (Up x4) -> A (FLY) -> sleep -> Left x16 -> A -> sleep -> A -> sleep -> A. Total Fly failures: 22. Current Turn: #51048. Goal: Cianwood (14, 10). Prep: Calcifer in lead. Focus: SUICUNE sighting. Logic: 22 manual/tool failures necessitated a full-system reset sequence with absolute-mashing resets for all menu levels. Accuracy is the only priority. v21.0 is the definitive flight sequence.
+Fly Strategy: v22.0 (Step 1). Attempt #23. Sequence: Right (Clear Hallucination) -> B(x2) -> Start -> Reset Main (Up x7) -> POKEMON (Down) -> A -> Reset Party (Up x6) -> Icarus (Down x5) -> A -> Reset Sub-menu (Up x5) -> A (FLY). Total Fly failures: 22. Current Turn: #51049. Goal: Cianwood (14, 10). Prep: Calcifer in lead. Focus: SUICUNE sighting. Logic: 22 failures necessitated a two-step precision operation with absolute-mashing resets for all menu levels. Step 1 gets us to the Fly map. Accuracy is the only priority.
 Suicune Pursuit:
 - Sighting #1: Cianwood City, northern coast (approx 14, 10).
 - Trigger: Move to (14, 10) in Cianwood.

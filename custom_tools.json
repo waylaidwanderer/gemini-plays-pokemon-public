@@ -272,7 +272,7 @@
         }
       }
     },
-    "python_script": "import json\ndef fly_to_cianwood():\n    # v21.0: The \"I Will Not Be Grounded\" flight sequence. \n    # Absolute resets for Main, Party, and Sub-menus to bypass persistence and lag.\n    # B(2) -> Start -> Up(6) (Reset Main to Pokedex) -> Down (Pokemon) -> A -> \n    # Up(5) (Reset Party to Slot 1) -> Down(5) (Icarus) -> A -> \n    # Up(4) (Reset Sub-menu to FLY) -> A (Select FLY) -> sleep -> Left(16) -> A -> sleep -> A -> sleep -> A.\n    buttons = [\"B\", \"B\", \"Start\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Down\", \"A\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"A\", \"Up\", \"Up\", \"Up\", \"Up\", \"A\", \"sleep 4000\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"A\", \"sleep 4000\", \"A\", \"sleep 4000\", \"A\"]\n    print(json.dumps(buttons))\nfly_to_cianwood()",
+    "python_script": "import json\ndef fly_to_cianwood():\n    # v22.0: Step 1 of a robust flight plan.\n    # Right (Clear Hallucination) -> Bx2 (Clear) -> Start -> Reset Main -> POKEMON -> Reset Party -> ICARUS -> Reset Sub -> FLY.\n    buttons = [\"Right\", \"B\", \"B\", \"Start\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Down\", \"A\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"A\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"A\"]\n    print(json.dumps(buttons))\nfly_to_cianwood()",
     "history": [
       {
         "commit_message": "Initial version",
@@ -463,6 +463,11 @@
         "commit_message": "Updated to v21.0. Absolute reset strategy for Main, Party, and Sub-menus. Sequence: Bx2 -> Start -> Up x6 (Reset Main) -> Down (Pokemon) -> A -> Up x5 (Reset Party) -> Down x5 (Icarus) -> A -> Up x4 (Reset Sub-menu) -> A (FLY) -> sleep -> Left x16 (Map) -> A -> sleep -> A -> sleep -> A. Fits 49-button limit. v21.0",
         "timestamp": "2026-01-16T15:10:52.458Z",
         "action_counter": 51048
+      },
+      {
+        "commit_message": "Updated to v22.0. Robust 2-step flight (Step 1). Clears menus, resets all menu levels (Main, Party, Sub-menu), and selects FLY. Fits safely within 50-button limit (31 buttons). v22.0",
+        "timestamp": "2026-01-16T15:13:23.812Z",
+        "action_counter": 51049
       }
     ]
   }
