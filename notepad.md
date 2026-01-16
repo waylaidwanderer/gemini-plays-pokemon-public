@@ -19,3 +19,6 @@ The northern plateau (14, 10) is blocked by rocks. I need TM08 Rock Smash to pro
 
 ## Phone Contacts
 - Tully, Alan, Arnie, Chad, Dana.
+- **Rock Smash Search Start:** Turn 49951.
+- **Searched Houses:**
+  - Manias House (17,41): Mania (Rocker) - Borrower of Shuckle. Does NOT give Rock Smash.
