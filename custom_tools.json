@@ -179,7 +179,7 @@
         "autopress_buttons"
       ]
     },
-    "python_script": "def run(input_data):\n    cycles = input_data.get('cycles', 8)\n    current_map_id = input_data.get('current_map_id', '10_4')\n    \n    buttons = []\n    \n    # Logic for starting from Ecruteak City Exit (18, 35)\n    if current_map_id == \"4_9\":\n        buttons.append(\"Down\") # Exit Ecruteak\n        buttons.append(\"sleep 1500\") # Wait for map transition\n        # After transition, we are at Route 37 (8, 0)\n    \n    # Logic for moving from Route 37 Entrance (8, 0) to Grass (8, 2)\n    # Assumes we are at (8, 0) or close to it after the above check or if starting there\n    buttons.extend([\"Down\", \"Down\"]) \n    \n    # Wiggle Patrol Logic\n    for _ in range(cycles):\n        buttons.extend([\"Left\", \"Right\"])\n        \n    return buttons\n\nprint(run(input_data))",
+    "python_script": "import json\n\ndef run(input_data):\n    cycles = input_data.get('cycles', 8)\n    current_map_id = input_data.get('current_map_id', '10_4')\n    \n    buttons = []\n    \n    # Logic for starting from Ecruteak City Exit (18, 35)\n    if current_map_id == \"4_9\":\n        buttons.append(\"Down\") # Exit Ecruteak\n        buttons.append(\"sleep 1500\") # Wait for map transition\n        # After transition, we are at Route 37 (8, 0)\n    \n    # Logic for moving from Route 37 Entrance (8, 0) to Grass (8, 2)\n    # Assumes we are at (8, 0) or close to it after the above check or if starting there\n    buttons.extend([\"Down\", \"Down\"]) \n    \n    # Wiggle Patrol Logic\n    for _ in range(cycles):\n        buttons.extend([\"Left\", \"Right\"])\n        \n    print(json.dumps(buttons))\n\nrun(input_data)",
     "history": [
       {
         "commit_message": "Initial version",
@@ -195,6 +195,11 @@
         "commit_message": "Fixed missing commit message and defined tool for Route 37 hunting logic.",
         "timestamp": "2026-01-16T09:06:55.663Z",
         "action_counter": 42184
+      },
+      {
+        "commit_message": "Fixed JSON output format by importing json and using json.dumps() to ensure valid JSON array is printed for autopress_buttons.",
+        "timestamp": "2026-01-16T09:13:35.706Z",
+        "action_counter": 42193
       }
     ]
   }
