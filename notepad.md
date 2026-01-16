@@ -9,18 +9,21 @@
 
 ## Menu Mechanics
 - Start Menu (Persistent): 1. POKEDEX, 2. POKEMON, 3. PACK, 4. POKEGEAR, 5. PLAYER, 6. SAVE, 7. OPTION, 8. EXIT.
-- Party Menu (Persistent): 1-6. Pokemon, 7. CANCEL. (Up from 1 -> 7).
-- Sub-menus: Pressing Up from item 1 wraps to the bottom.
-- Bag (Items): Scrolling list. Cursor persists on last item.
-- Fly Map: New Bark Town (East), Cianwood (West). ~25 Lefts to reach western edge.
+- Party Menu (Persistent): 1-6. Pokemon, 7. CANCEL.
+- Fly Map (Johto):
+  - Cursor cycles through cities.
+  - Multiple presses (approx 2-3) of a direction may be required to reach the next city node.
+  - Sequence using UP from New Bark Town: New Bark -> Cherrygrove -> Ecruteak -> Violet -> Azalea.
+  - Left from New Bark Town is unresponsive.
 
 # Strategy: Fly to Cianwood (Suicune Pursuit)
-- Time Tracking: Started Turn 50620.
+- Time Tracking: Started Turn 50620 (Current Turn: 51118).
+- Goal: Reach Cianwood City (Far West).
+- Current Status: On Fly map at Azalea Town.
 - Plan:
-  1. Open Start Menu -> POKEMON.
-  2. Select ICARUS (Slot 6) -> FLY.
-  3. Navigate Map to Cianwood (Far West) -> Confirm.
-  4. Move to (14, 10) in Cianwood to trigger Suicune.
+  1. Navigate from Azalea Town to Cianwood City.
+  2. Confirm destination and land.
+  3. Move to (14, 10) in Cianwood to trigger Suicune sighting.
 - Prep: Lead Calcifer for Eusine battle.
 
 # Area Notes: Cianwood City
@@ -31,25 +34,4 @@
 
 # Progress Tracking
 - Smashed Rocks: (5, 29), (4, 25), (8, 16), (9, 17).
-
-# Trainer Rosters
-- Eusine (Suicune Hunter): Drowzee, Haunter, Electrode. (Last seen: Ecruteak Gym). Will battle in Cianwood.
-
-# Fly Map Navigation (Verified)
-- New Bark Town to Cianwood: [Pending verification of exact presses]
-- Observation: Map cursor may require a delay or specific text clearance before moving.
-
-# Fly Map Responsiveness
-- Observation: Map may require a delay (sleep) after opening before accepting directional input.
-- Current Test: sleep 2000ms followed by 20x Left presses.
-- Goal: Verify if cursor moves and identifies cities between New Bark Town and Cianwood.
-
-# Fly Map Observation
-- When the map opens, a "Where? [Current City]" prompt appears.
-- The map cursor moves between cities using directional buttons.
-- Verified Mapping:
-  - Up x 5 from New Bark Town -> Ecruteak City.
-  - Down x 5 from Ecruteak City -> New Bark Town.
-- Hypothesis: The map uses a linear or grid-based cycling system where multiple presses are required to reach the next "node".
-- Goal: Find Cianwood City.
-- Current Test: Pressing Up 15 times from New Bark Town to see the sequence of cities reached.
+- Defeated Swimmer Mathew (17, 46).
