@@ -262,9 +262,9 @@
     ]
   },
   "fly_to_cianwood_v1": {
-    "description": "Navigates from the overworld to Fly to Cianwood City. Assumes starting from a city east of Cianwood. Moves cursor to the far west of the Johto map. v1.1",
+    "description": "Navigates from the overworld to Fly to Cianwood City. Assumes starting from a city east of Cianwood. Moves cursor to the far west of the Johto map. v1.2",
     "input_schema": {},
-    "python_script": "import json\n# Start -> Down (POKEMON) -> A -> Up (ICARUS, 6th) -> A -> A (FLY) -> Left x15 (Cianwood) -> A -> A\nprint(json.dumps(['Start', 'Down', 'A', 'Up', 'A', 'A'] + ['Left']*15 + ['A', 'A']))",
+    "python_script": "import json\n# Start -> Down (POKEMON) -> A -> Down x5 (ICARUS) -> A -> A (FLY) -> Left x15 (Cianwood) -> A -> A\nprint(json.dumps(['Start', 'Down', 'A'] + ['Down']*5 + ['A', 'A'] + ['Left']*15 + ['A', 'A']))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -275,6 +275,11 @@
         "commit_message": "Fixed menu navigation sequence to correctly select POKEMON and FLY. Increased Left inputs to ensure westernmost map edge.",
         "timestamp": "2026-01-16T13:52:34.742Z",
         "action_counter": 50973
+      },
+      {
+        "commit_message": "Updated to use 5x Down to reliably select the 6th Pokemon (Icarus) regardless of the initial cursor position in the party menu.",
+        "timestamp": "2026-01-16T13:53:29.823Z",
+        "action_counter": 50974
       }
     ]
   }
