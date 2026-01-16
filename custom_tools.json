@@ -262,7 +262,7 @@
     ]
   },
   "fly_to_cianwood_v1": {
-    "description": "Navigates from any state to Fly to Cianwood City. v13.0 (Context-aware & safe)",
+    "description": "Navigates from any state to Fly to Cianwood City. v14.0 (Context-aware & safe)",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -272,7 +272,7 @@
         }
       }
     },
-    "python_script": "import json\ndef fly_to_cianwood():\n    # v13.0: Specific navigation from Turn 51012 state (GEM cursor).\n    # B(1), Start(1), Up(3), A(1), Up(2), A(2), sleep, A(1), sleep, Left(20), A(2) = 34 buttons.\n    buttons = [\"B\", \"Start\", \"Up\", \"Up\", \"Up\", \"A\", \"Up\", \"Up\", \"A\", \"A\", \"sleep 4000\", \"A\", \"sleep 4000\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"A\", \"A\"]\n    print(json.dumps(buttons))\nfly_to_cianwood()",
+    "python_script": "import json\ndef fly_to_cianwood():\n    # v14.0: Specific navigation from Turn 51013 state (Party menu, GNEISS selected).\n    # B(1), Up(2), A(2), sleep, A(1), sleep, Left(20), A(2) = 31 buttons.\n    buttons = [\"B\", \"Up\", \"Up\", \"A\", \"A\", \"sleep 4000\", \"A\", \"sleep 4000\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"A\", \"A\"]\n    print(json.dumps(buttons))\nfly_to_cianwood()",
     "history": [
       {
         "commit_message": "Initial version",
@@ -423,6 +423,11 @@
         "commit_message": "Updated to v13.0. Manual-style navigation starting from the current menu state (GEM). Uses B to reset to a clean Start menu, then Up x3 to reach POKEMON. Fits well within the 50-button limit. v13.0",
         "timestamp": "2026-01-16T14:38:35.595Z",
         "action_counter": 51012
+      },
+      {
+        "commit_message": "Updated to v14.0. Surgical navigation from Turn 51013 state (Party menu, GNEISS selected). Uses B to back out, then Up x2 to reach Icarus. Fits within limits. v14.0",
+        "timestamp": "2026-01-16T14:39:45.481Z",
+        "action_counter": 51013
       }
     ]
   }
