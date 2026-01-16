@@ -1,7 +1,7 @@
 # Strategic Status
 - **Goal:** Catch Raikou (#243) & Entei (#244).
 - **Hunt Duration:** ~14,350 turns. Resumed: Turn 41847.
-- **Status:** Reset complete. Returning to Route 37.
+- **Status:** Executing Check #22.
 - **Roamer Checks:** 22 (Current Batch).
 - **Active Effects:** Super Repel (Lead: Lv37 Gyarados).
 - **Plan:**
