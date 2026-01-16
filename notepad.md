@@ -1,22 +1,19 @@
 # Strategic Status
 - **Goal:** Catch Raikou (#243) & Entei (#244).
 - **Hunt Duration:** ~14,350 turns. Resumed: Turn 41847.
-- **Status:** Arrived Ecruteak (Fly).
-- **Action:** Walking to Route 37 (South Exit).
-- **Next:** Use Super Repel & Begin Hunt Loop.
-- **Secondary Targets:** Catch Stantler (Route 37/36 Night) or Growlithe.
+- **Status:** Hunting Roamers (Route 37 <-> Ecruteak Loop).
+- **Roamer Checks:** 6 (Current Batch).
+- **Active Effects:** Super Repel (Lead: Lv37 Gyarados).
+- **Plan:**
+    1. Check Route 37 Grass (`check_route37_grass`).
+    2. If no encounter, Reset Map (Ecruteak).
+    3. Repeat.
 
 # PC Storage Check
 - **Conclusion:** MASTER BALL NOT FOUND. Assumed used or unavailable.
 
 # Locations & Logistics
 - **Ecruteak Mart:** No Super Repels.
-- **Goldenrod Dept Store:**
-  - 2F: Standard Items / Medicine.
-  - 3F: Battle Items.
-  - 4F: Vitamins (Too expensive).
-  - **Conclusion:** No Super Repels found.
-  - **Plan:** Take Magnet Train to Celadon (via Saffron) to buy Super Repels.
 - **Celadon Dept Store:** Super/Max Repels on 2F.
 - **Fly Map:** Sticky cursor; walking preferred.
 
@@ -35,44 +32,3 @@
 - Cooltrainer Gaven (Route 26): Ready.
 - Bug Catcher Wade (Route 31): Offering Berries.
 - **Team Note:** Need Mean Look/Sleep for catching. Current goal: Registration only.
-- **Correction:** 8 Left presses failed to move from Blackthorn (Turn 43402). Cursor possibly sticky or inputs too fast.
-- **Action:** Retrying with mass Left inputs.
-- **Observation:** Map cursor stuck/confused at Blackthorn. Visuals show overworld.
-- **Action:** Forcing a full UI reset (B, B) and re-opening Fly menu from scratch to navigate from Goldenrod (Center) to Ecruteak (North). This avoids the layout confusion.
-- **Mechanics Note:** Party Menu cursor REMEMBERS its position even after exiting/re-entering. Blind macros must assume random start or force a reset (e.g., extensive scrolling).
-- **Correction:** `open_fly_map` tool failed due to this persistence. Switching to manual/visual navigation.
-- **Status:** Hunting Roamers (Registration Only).
-- **Action:** Executing `check_route37_grass` (Walk South -> Wiggle -> Walk North).
-- **Note:** Repel Trick active (Lv37 Lead). Only Roamers will appear.
-- **Log:** Route 37 Grass Check #1: No encounter.
-- **Action:** Transitioning to Ecruteak to reset roamers.
-- **Log:** Reset complete (Ecruteak).
-- **Action:** Returning to Route 37 to check grass again.
-- **Log:** Route 37 Grass Check #2: Commencing.
-- **Action:** Executing `check_route37_grass`.
-- **Log:** Route 37 Grass Check #2: No encounter.
-- **Action:** Rapid Reset (Ecruteak <-> Route 37).
-- **Next:** Check #3.
-- **Log:** Transitioned to Ecruteak.
-- **Action:** Returning to Route 37 for Grass Check #3.
-- **Log:** Route 37 Grass Check #3: Commencing.
-- **Action:** Executing `check_route37_grass`.
-- **Log:** Route 37 Grass Check #3: No encounter.
-- **Action:** Rapid Reset (Ecruteak <-> Route 37).
-- **Next:** Check #4.
-- **Log:** Transitioned to Ecruteak.
-- **Action:** Returning to Route 37 for Grass Check #4.
-- **Log:** Route 37 Grass Check #4: Commencing.
-- **Action:** Executing `check_route37_grass`.
-- **Log:** Route 37 Grass Check #4: No encounter.
-- **Action:** Rapid Reset (Ecruteak <-> Route 37).
-- **Next:** Check #5.
-- **Log:** Transitioned to Ecruteak.
-- **Action:** Returning to Route 37 for Grass Check #5.
-- **Log:** Route 37 Grass Check #5: Commencing.
-- **Action:** Executing `check_route37_grass`.
-- **Log:** Route 37 Grass Check #5: No encounter.
-- **Action:** Rapid Reset (Ecruteak <-> Route 37).
-- **Next:** Check #6.
-- **Log:** Transitioned to Ecruteak.
-- **Action:** Returning to Route 37 for Grass Check #6.
