@@ -44,3 +44,5 @@
 - **Status:** Hunting Roamers (Registration Only).
 - **Action:** Executing `check_route37_grass` (Walk South -> Wiggle -> Walk North).
 - **Note:** Repel Trick active (Lv37 Lead). Only Roamers will appear.
+- **Log:** Route 37 Grass Check #1: No encounter.
+- **Action:** Transitioning to Ecruteak to reset roamers.
