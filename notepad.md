@@ -1,7 +1,7 @@
 # Strategy: Trigger Suicune Sighting (Started: Turn 51131)
 - Execution Plan (The Verified Land Route):
   1. Clear Surf text (Land at 28, 38 surfing).
-  2. Surf North to (28, 44) and land at (27, 44).
+  2. Surf South to (28, 44) and land at (27, 44).
   3. Walk West along Row 44 to (6, 44).
   4. Walk South to (6, 47) and North to (6, 46) (Climb Terrace).
   5. Walk West to Column 2 (Western Corridor).
