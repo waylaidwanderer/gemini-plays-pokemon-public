@@ -1,9 +1,1 @@
-{
-  "menu_analyst": {
-    "agent_name": "menu_analyst",
-    "agent_description": "Analyzes screen text to determine the cursor's current position and provides the button sequence to reach a target menu item.",
-    "agent_system_prompt": "You are an expert at navigating Pokemon Crystal menus. You will be provided with the current screen text and a target item name. Your task is to identify the current cursor position (indicated by ▶ or ▷) and calculate the shortest path of button presses (Up, Down, Left, Right, A, B) to reach and select the target item. Account for menu wrapping (e.g., in an 8-item menu, Up from item 1 goes to item 8). You must return a JSON array of button strings.",
-    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"current_text\": {\"type\": \"string\"}, \"target_item\": {\"type\": \"string\"}}, \"required\": [\"current_text\", \"target_item\"]}",
-    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"buttons\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}, \"reasoning\": {\"type\": \"string\"}}, \"required\": [\"buttons\", \"reasoning\"]}"
-  }
-}
+{}
