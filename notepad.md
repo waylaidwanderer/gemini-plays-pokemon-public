@@ -15,5 +15,6 @@
 # Lessons Learned
 - **Fisher Dialogue:** "If any rocks are in your way..." is post-gift. flag set even if item gone. (Verified on Route 36)
 - **Menu Navigation:** The "Switch items?" confirmation box is modal; B button does not close it. Use A on NO to exit.
-- **Fly Map:** Cursor behavior: requires multiple directional presses to traverse between town hitboxes. Relative positions: New Bark (East), Cherrygrove (West of New Bark), Violet (North of Cherrygrove), Azalea (South), Goldenrod (West/North of Azalea), Olivine (West), Cianwood (Far West).
+- **Fly Map:** Cursor behavior: requires multiple directional presses to traverse between town hitboxes. Relative positions: New Bark (East), Cherrygrove (West of New Bark), Violet (North of Cherrygrove), Azalea (South), Goldenrod (West/North of Azalea), Olivine (West), Cianwood (Far West). Always verify destination text before pressing A.
 - **Coordinates:** Notepad coordinates (e.g., New Bark 14, 10) refer to the World Map/Town Map grid, not the Fly Map cursor position.
+- **Arthur:** Arthur of Thursday (Route 36) gives Hard Stone. Unverified location.
