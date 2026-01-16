@@ -1,14 +1,13 @@
 # Strategy: Trigger Suicune Sighting (Started: Turn 51131)
 - Objective: Reach (14, 10) on the northern coast.
-- The Grand Loop (Execution Plan):
-  1. Walk South to (11, 51) via the gap at (11, 50).
-  2. Walk West along the Row 51 Highway to (2, 51).
-  3. Walk North through the Western Corridor (Column 2) to (2, 12).
-  4. Walk East along the Row 12 Highway to (14, 12).
-  5. Walk North to (14, 10) to trigger Suicune.
-- Mechanic Verification (Priority):
-  - Hypothesis: FLOOR_UP_WALL (Terrace) allows horizontal movement while elevated.
-  - Test: Walk onto (12, 50) from (12, 51), then attempt to move West to (11, 50).
+- The Weaving Loop (Execution Plan):
+  1. Walk South to (12, 47).
+  2. Walk West to (6, 47).
+  3. Mechanic Test: Walk North onto terrace at (6, 46), then try moving West to (5, 46).
+  4. If test fails, walk South to (6, 51) (Southern Highway).
+  5. Walk West to (2, 51) and North through the Western Corridor to Row 14.
+  6. Walk East to (8, 14), then North through gap at (8, 13).
+  7. Walk East to (14, 12), then North to (14, 10).
 - Battle Prep: Lead Calcifer (Lv64 Typhlosion).
 
 # Tile Mechanics
@@ -20,6 +19,7 @@
 
 # Map Markers (Key Points)
 - (14, 10): 🎯 Suicune Sighting Spot
+- (6, 46): 🧗 Terrace Test Spot
 - (11, 33): 🏝️ Grand Loop Landing Spot
 - (8, 13): 📍 Northern Gap (X=8)
 - (15, 37): 🏠 Lugia Speech House
