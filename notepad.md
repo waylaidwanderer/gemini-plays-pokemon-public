@@ -3,9 +3,12 @@
 - **Hunt Duration:** ~13,000 turns. Resumed: Turn 41847 (Current: 42269).
 - **Status:** Repel Active (Turn 42267).
 - **Plan:**
-    1. Loop: Ecruteak -> Route 37 (Check) -> Ecruteak (Reset).
-    2. Use `perform_route37_cycle` tool for efficiency.
-    3. Goal: Encounter Entei/Raikou to register in Pokedex.
+    1. **Execute Loop:**
+       a. Start at Route 37 Gate (8,0).
+       b. Call `check_route37_grass` (Enters grass, checks, returns to gate).
+       c. Call `enter_ecruteak_from_route37` (Resets map).
+       d. Call `exit_ecruteak_to_route37` (Returns to gate).
+    2. **Goal:** Encounter Entei/Raikou to register in Pokedex.
 - **Secondary Targets:** Catch Stantler (Route 37/36 Night) or Growlithe.
 
 # PC Storage Check
