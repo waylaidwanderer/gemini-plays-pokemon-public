@@ -50,5 +50,53 @@
         "action_counter": 41152
       }
     ]
+  },
+  "wiggle_patrol": {
+    "description": "Generates a sequence of button presses to patrol back and forth along a specified axis with a stride length.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "axis": {
+          "type": "string",
+          "enum": [
+            "horizontal",
+            "vertical"
+          ],
+          "description": "The axis to move along."
+        },
+        "stride": {
+          "type": "integer",
+          "description": "Number of steps in one direction before turning back."
+        },
+        "cycles": {
+          "type": "integer",
+          "description": "Number of full back-and-forth cycles."
+        },
+        "start_positive": {
+          "type": "boolean",
+          "description": "If true, starts with Right (horizontal) or Down (vertical). If false, starts with Left/Up."
+        },
+        "autopress_buttons": {
+          "type": "boolean",
+          "description": "If true, the generated buttons will be pressed automatically. Safety limit of 50 buttons per turn.",
+          "default": true
+        }
+      },
+      "required": [
+        "axis",
+        "stride",
+        "cycles",
+        "start_positive",
+        "autopress_buttons"
+      ]
+    },
+    "python_script": "import json\n\n# Determine buttons based on axis\nif axis.lower() == \"horizontal\":\n    pos_btn = \"Right\"\n    neg_btn = \"Left\"\nelse: # vertical\n    pos_btn = \"Down\"\n    neg_btn = \"Up\"\n\n# Determine sequence order\nif start_positive:\n    first_btn = pos_btn\n    second_btn = neg_btn\nelse:\n    first_btn = neg_btn\n    second_btn = pos_btn\n\nbuttons = []\nfor _ in range(cycles):\n    # Move out\n    buttons.extend([first_btn] * stride)\n    # Move back\n    buttons.extend([second_btn] * stride)\n\n# Output JSON array of buttons\nprint(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-16T01:21:49.960Z",
+        "action_counter": 41436
+      }
+    ]
   }
 }
