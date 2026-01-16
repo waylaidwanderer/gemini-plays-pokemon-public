@@ -1,25 +1,27 @@
 # Suicune Quest: Cianwood City
-## Active Strategy: The Great Western Bypass
-Direct landing on the northern plateau is blocked by ledges. The only valid path is to loop around the entire island via the western corridor (X=2).
+## Active Strategy: The Western Highway (X=2)
+Direct land access to the northern plateau is blocked by one-way ledges and walls. I must navigate to the western coast via a specific gap sequence.
 
-### Execution Plan
-1. Return to Mainland: Surf south from (13, 16) to (13, 28). (In Progress)
-2. Reach Southern Clearway: Walk to (13, 51).
-3. Cross to West Side: Walk to (4, 51).
-4. Coastal Highway: Walk north along X=2/X=4 to Row 10.
-5. Trigger Event: Walk east to (14, 10).
+### Verified Path to Suicune
+1. Navigate to (13, 24). (Done)
+2. Surf West to (9, 24).
+3. Walk West through the gap at (5, 24).
+4. Walk North to (4, 21), then North through the UP_WALL at (4, 20).
+5. Walk West to (2, 20) to reach the Western Highway.
+6. Walk North along X=2 to Row 10.
+7. Walk East to (14, 10).
 
 ## Global Tile Mechanics
 - FLOOR: Land (Traversable).
 - WALL, BUOY, DOOR: Impassable.
 - WATER: Requires Surf.
 - LEDGE_HOP_DOWN: One-way South. Blocks North movement. (e.g. 10, 15)
-- FLOOR_UP_WALL: Impassable from the North. Blocks Down movement. (e.g. 6-8, 34)
+- FLOOR_UP_WALL: One-way North. Blocks Down movement. (e.g. 6-8, 34; 13, 50; 21, 46)
 
 ## Battle Plan: Eusine
 - Lead: Calcifer (Lv64 Typhlosion).
-- Strategy: Flamethrower sweep. (Lv23-25 targets).
+- Strategy: Flamethrower sweep.
 - Status: Fully healed.
 
-## Tool Lessons
-- find_path_v9: BFS optimized for land/surf transitions. Limited to 50 buttons per turn. Handles obstacle markers. v9.5 adds 'A' button logic for Surfing.
+## Tool Notes
+- find_path_v9.6: Optimized for land/surf transitions and one-way barriers. Marker-based blocking refined to rock/blocked keywords.
