@@ -1,24 +1,20 @@
 # Strategy: Trigger Suicune Sighting (Started: Turn 51131)
-- City Logic: Vertical walls partition the city. Gaps exist at (11, 33), (8, 33), (5, 34-37), and (8/13, 13).
-- Mechanic Verification:
-  1. Hypothesis: FLOOR_UP_WALL tiles allow horizontal movement (East/West).
-  2. Test: Walk onto (6, 34) from (6, 35), then move West to (5, 34).
+- City Logic: Vertical walls partition the city. Row 51 is a horizontal highway connecting all corridors. Gaps in the Row 50 terraces exist at X=11 and X=20.
 - Execution Plan (The Grand Loop):
-  1. Land at (11, 26).
-  2. Walk to (11, 33).
-  3. Walk West to (6, 33).
-  4. Walk South to (6, 35), then North onto (6, 34) (Terrace).
-  5. Walk West to (2, 34) (Western Corridor).
-  6. Walk North to (2, 12), then East to (14, 12).
-  7. Walk North to (14, 10) for Suicune.
-- Battle Prep: Lead Calcifer (Lv64 Typhlosion).
+  1. Walk South to (11, 51) (Gap at Row 50).
+  2. Walk West along Row 51 to (2, 51) (Western Corridor).
+  3. Walk North through the Western Corridor to Row 12.
+  4. Walk East along Row 12 to (14, 12), then North to (14, 10).
+- Mechanic Verification:
+  - Hypothesis: FLOOR_UP_WALL tiles allow horizontal movement (East/West).
+  - Test: Once on a terrace (e.g., Row 46 or 50), try moving Left/Right.
 
 # Tile Mechanics
 - FLOOR: Standard traversable tile.
 - WALL / BUOY: Impassable collision.
 - WATER: Traversable only while using SURF.
 - LEDGE_HOP_DOWN: One-way passage (South only). Jump FROM ledge to tile below.
-- FLOOR_UP_WALL: Terrace/Slope. Walk ONTO from south to climb. Hypothesis: Allows horizontal movement. Blocked from North.
+- FLOOR_UP_WALL: Terrace/Slope. Walk ONTO from south to climb. Allows horizontal movement. Blocked from North.
 - ROCK (Object): Impassable until cleared with ROCK SMASH.
 
 # Map Markers (Key Points)
