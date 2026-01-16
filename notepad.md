@@ -1,26 +1,28 @@
-# Strategy: The Suicune Pursuit
-- **Time Check:** Attempting sighting since Turn #50620.
-- **Objective:** Trigger Suicune sighting at (14, 10) in northern Cianwood.
-- **Eusine Battle Prep:** Lead with Lv64 Calcifer. Sweep with Flamethrower/Thunderpunch.
-- **Current Plan (Southern Surf Loop):**
-  1. Currently in battle with Tentacruel. Escape.
-  2. Surf South to Row 51 (via Route 41 at X=29).
-  3. Move West on Row 51 back into Cianwood at (24, 51).
-  4. Walk West on Row 51 to (2, 51).
-  5. Walk North via X=2 corridor to (2, 12).
-  6. Move East on Row 12 to (14, 12), then North to (14, 10) for the sighting.
-- **Verification:** Row 51 is a clear horizontal corridor. X=2 corridor is clear of all one-way barriers.
+# Active Strategy: The Suicune Pursuit
+- **Immediate Goal:** Trigger Suicune sighting at (14, 10) in northern Cianwood.
+- **Battle Prep:** Lead with Lv64 Calcifer to sweep Eusine's team (Drowzee, Haunter, Electrode).
+- **Plan (The X=2 Expressway):**
+  1. Currently surfing at (29, 29). Move West to (15, 29) and land.
+  2. Walk West to (6, 29), then through smashed rock (5, 29) to (4, 29).
+  3. Walk West to (2, 29) to enter the X=2 corridor.
+  4. Walk North to (2, 10) (This corridor is clear of all one-way barriers).
+  5. Walk East to (14, 10) for the sighting.
+- **Contingency:** If X=2 is blocked, use Surf to (15, 10) from the northern bay (requires finding a buoy gap).
 
-# Tile Mechanics (Global)
+# Progress Tracking
+- **Sighting Start:** Turn #50620.
+- **Acquired:** Rock Smash (taught to GNEISS).
+- **Smashed Rocks:** (5, 29), (4, 25), (8, 16), (9, 17). Verified as FLOOR.
+
+# Tile Mechanics (Verified)
 - FLOOR: Standard traversable terrain.
-- WALL: Impassable terrain.
-- BUOY: Impassable terrain (Blocks both Surf and Walk).
+- WALL / BUOY: Impassable terrain.
 - WATER: Traversable only with Surf.
-- LEDGE_HOP_DOWN: One-way jump DOWN (South). Blocks North movement.
-- FLOOR_UP_WALL (Terrace Climb): One-way jump UP (North). Blocks South movement.
+- LEDGE_HOP_DOWN: One-way jump DOWN (South). Blocks North.
+- FLOOR_UP_WALL (Terrace Climb): One-way jump UP (North). Blocks South.
 - ROCK (Object): Blocks movement; cleared with Rock Smash.
 
 # Area Notes: Cianwood City
 - **Dead Ends:** (11, 15) is a pocket blocked by WALL at (11, 13) and (12, 14).
-- **Shortcut Tiles:** (5, 29), (4, 25), (8, 16), (9, 17) (Smashed Rocks).
-- **Partition wall:** (29, 49) is a dead end from the North.
+- **Barrier:** Row 46-50 is a wall of cliffs. Only gaps are at (18, 46) and (6, 50).
+- **Navigation:** X=2 and X=4 are the only corridors that reach Row 10 from the south. X=4 is blocked by a wall at (4, 23). X=2 is clear.
