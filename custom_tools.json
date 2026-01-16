@@ -93,7 +93,6 @@
   "find_path_v6_fixed_refined_v2_new": {
     "description": "Finds a path using BFS on the current map XML, handling walls, objects, and one-way movement. Returns a JSON array of button strings. Refined to handle FLOOR_UP_WALL and LEDGE_HOP_DOWN. v2.1",
     "input_schema": {
-      "type": "object",
       "properties": {
         "target_x": {
           "type": "integer"
@@ -105,9 +104,10 @@
       "required": [
         "target_x",
         "target_y"
-      ]
+      ],
+      "type": "object"
     },
-    "python_script": "# v2.1 - Refined for one-way tiles\nimport collections\nimport xml.etree.ElementTree as ET\nimport json\n\ndef bfs(map_data, start, target):\n    width = int(map_data.attrib['width'])\n    height = int(map_data.attrib['height'])\n    \n    def get_tile(x, y):\n        if 0 <= x < width and 0 <= y < height:\n            row = map_data.find(f\".//Row[@id='{y}']\")\n            if row is not None:\n                return row.find(f\"Tile[@id='{x}']\")\n        return None\n\n    def is_passable(tile, from_x, from_y, to_x, to_y):\n        if tile is None: return False\n        t_type = tile.attrib.get('type')\n        if t_type in ['WALL', 'BUOY']: return False\n        if tile.find('Object') is not None: return False\n        \n        if t_type == 'FLOOR_UP_WALL':\n            if from_y > to_y: return True # South to North\n            return False\n        if t_type == 'LEDGE_HOP_DOWN':\n            if from_y < to_y: return True # North to South\n            return False\n            \n        return True\n\n    queue = collections.deque([(start, [])])\n    visited = {start}\n    \n    while queue:\n        (x, y), path = queue.popleft()\n        if (x, y) == target:\n            return path\n        \n        for dx, dy, btn in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n            nx, ny = x + dx, y + dy\n            if (nx, ny) not in visited:\n                target_tile = get_tile(nx, ny)\n                if is_passable(target_tile, x, y, nx, ny):\n                    visited.add((nx, ny))\n                    queue.append(((nx, ny), path + [btn]))\n    return None\n\nmap_data = ET.fromstring(map_xml_string)\nstart = None\nfor row in map_data.findall('Row'):\n    y = int(row.attrib['id'])\n    for tile in row.findall('Tile'):\n        if tile.find('Player') is not None:\n            start = (int(tile.attrib['id']), y)\n            break\n    if start: break\n\ntarget = (int(input_data['target_x']), int(input_data['target_y']))\npath = bfs(map_data, start, target)\nprint(json.dumps(path))",
+    "python_script": "import collections\nimport xml.etree.ElementTree as ET\nimport json\n\ndef solve():\n    try:\n        target_x = int(input_data['target_x'])\n        target_y = int(input_data['target_y'])\n        \n        root = ET.fromstring(map_xml_string)\n        \n        # Get player pos\n        start_x, start_y = None, None\n        for row in root.findall('Row'):\n            y = int(row.attrib['id'])\n            for tile in row.findall('Tile'):\n                if tile.find('Player') is not None:\n                    start_x = int(tile.attrib['id'])\n                    start_y = y\n                    break\n            if start_x is not None: break\n        \n        if start_x is None:\n            print(json.dumps([]))\n            return\n\n        # BFS\n        queue = collections.deque([(start_x, start_y, [])])\n        visited = set([(start_x, start_y)])\n        \n        while queue:\n            cx, cy, path = queue.popleft()\n            if cx == target_x and cy == target_y:\n                print(json.dumps(path))\n                return\n            \n            # Get current tile info\n            curr_tile_type = None\n            for row in root.findall(f\"Row[@id='{cy}']\"):\n                tile = row.find(f\"Tile[@id='{cx}']\")\n                if tile is not None:\n                    curr_tile_type = tile.attrib['type']\n                    break\n\n            for dx, dy, move in [(0, -1, \"Up\"), (0, 1, \"Down\"), (-1, 0, \"Left\"), (1, 0, \"Right\")]:\n                nx, ny = cx + dx, cy + dy\n                if (nx, ny) in visited: continue\n                \n                # Find target tile in XML\n                target_tile = None\n                for row in root.findall(f\"Row[@id='{ny}']\"):\n                    target_tile = row.find(f\"Tile[@id='{nx}']\")\n                    if target_tile is not None: break\n                \n                if target_tile is None: continue\n                \n                t_type = target_tile.attrib['type']\n                has_obj = target_tile.find('Object') is not None\n                \n                if t_type == \"WALL\" or t_type == \"BUOY\": continue\n                if has_obj and (nx != target_x or ny != target_y): continue\n                \n                # FLOOR_UP_WALL: Blocks SOUTH movement\n                if move == \"Down\" and t_type == \"FLOOR_UP_WALL\": continue\n                # LEDGE_HOP_DOWN: Blocks NORTH movement\n                if move == \"Up\" and curr_tile_type == \"LEDGE_HOP_DOWN\": continue\n                \n                visited.add((nx, ny))\n                queue.append((nx, ny, path + [move]))\n        \n        print(json.dumps([]))\n    except Exception as e:\n        print(json.dumps([]))\n\nsolve()",
     "history": [
       {
         "commit_message": "Fixed tool to handle one-way tiles and input reading.",
@@ -123,6 +123,11 @@
         "commit_message": "Fixing sandbox issues by adding a version comment. Refined BFS logic to correctly handle one-way tiles (FLOOR_UP_WALL and LEDGE_HOP_DOWN).",
         "timestamp": "2026-01-15T23:19:09.790Z",
         "action_counter": 49754
+      },
+      {
+        "commit_message": "Attempting to fix Python sandbox error by redefining the tool.",
+        "timestamp": "2026-01-16T00:16:04.027Z",
+        "action_counter": 49832
       }
     ]
   }
