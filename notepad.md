@@ -1,10 +1,13 @@
-# Strategy: Trigger Suicune Sighting (Started: Turn 51131, Turn 51348 - Refined Plan)
-- City Logic: Vertical walls partition the city. Row 15 and Row 13 are major barriers. Gaps exist at (11, 15) and (8, 13).
-- The Center Shortcut (Execution Plan):
-  1. Use SURF at (12, 28) to cross the Row 20 water; land at (12, 19).
-  2. Walk North to (12, 16), then West to (8, 16).
-  3. Walk North through the gap at (8, 13) to (8, 12).
-  4. Walk East along Row 12 to (14, 12), then North to (14, 10) for the Suicune sighting.
+# Strategy: Trigger Suicune Sighting (Started: Turn 51131, Turn 51351 - Resumed)
+- City Logic: Vertical walls partition the city. Weaving through gaps is necessary to reach the Western Corridor (X=0-2).
+- The Weaving Trek (Execution Plan):
+  1. Land at (12, 28).
+  2. Walk South to (12, 44).
+  3. Walk West to (8, 44) (Gaps at X=11, 9).
+  4. Walk South to (8, 48), then West to (6, 48) (Gap at X=7).
+  5. Walk North to (6, 46), then West to (2, 46) (Gap at X=5).
+  6. Walk North to (2, 14), then East to (8, 14).
+  7. Walk North to (8, 10), then East to (14, 10) for Suicune.
 - Battle Prep: Lead Calcifer (Lv64 Typhlosion).
 
 # Tile Mechanics
