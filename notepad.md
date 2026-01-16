@@ -3,16 +3,16 @@
 - **Status:** All boulders cleared. Phase 1 complete.
 - **Phase 2: Reaching the Sighting Spot**
   - Target: (14, 10) in northern Cianwood.
-  - Path: Surf from the water on the right (e.g., from 14, 16) to land at (14, 14) or (13, 14).
+  - Path: Go south to Row 46 -> Use the gap at (6, 46) to reach the left side -> Go north to Row 12 -> Move east to (14, 12) -> Go north to (14, 10).
   - Note: Be prepared for Eusine battle immediately after Suicune bolts.
 
 # Tile Mechanics (Verified)
 - FLOOR: Standard traversable terrain.
 - WALL / BUOY: Impassable terrain.
-- WATER: Traversable only with Surf.
+- WATER: Traversable only with Surf. (Requires HM03 Surf)
 - DOOR / WARP_CARPET: Map transition points.
 - LEDGE_HOP_DOWN: Allows jumping down (South) but blocks movement from the opposite direction (North).
-- FLOOR_UP_WALL: Slopes that allow movement in specific directions (e.g., North) but block others (e.g., South).
+- FLOOR_UP_WALL: Slopes that allow movement in specific directions (e.g., North/West) but block others.
 - COUNTER: Blocks movement; interact from an adjacent tile.
 - ROCK (Object): Blocks movement; can be cleared with Rock Smash.
 
