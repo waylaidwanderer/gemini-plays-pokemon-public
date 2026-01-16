@@ -7,23 +7,23 @@
 - Start Turn: 49771
 - Start Time: 3:29 PM
 
-## Strategy: The Row 34 Western Bypass (Final)
-The northern plateau (Row 10-12) is accessible via the Western Corridor (X=0-2). Row 34 provides a clear path to bypass the internal city walls.
-1. Walk to (12, 35). (In Progress)
-2. Walk to (8, 35), then move North to (8, 34) (Jumping the FLOOR_UP_WALL ledge).
-3. Walk West along Row 34 to (2, 34) to enter the Western Corridor.
-4. Walk North through the corridor to (2, 12).
-5. Walk East along Row 12 to (14, 12).
-6. Walk North to (14, 10) to trigger Suicune sighting.
+## Strategy: The Outer Sea Loop (Final)
+The northern plateau (Row 10-12) is only accessible via the Western Corridor (X=0-2). The corridor is only accessible from the southern clearway (Row 51).
+1. Walk to the Eastern Beach at (23, 32). (In Progress)
+2. Surf South along column X=24 to Row 51.
+3. Land at (24, 51).
+4. Walk West along Row 51 to (2, 51) to enter the Western Corridor.
+5. Walk North through the corridor to Row 14.
+6. Walk East to (8, 14), then North to Row 10.
+7. Walk East to (14, 10) to trigger Suicune sighting.
 
 # Progress Notes
-- Verified: Row 34 (X=6-8) are FLOOR_UP_WALL, allowing Northward and East-West movement, but blocking Southward entry.
-- Verified: X=3 wall has a gap at Row 34.
+- Verified: Land routes to Row 51 are blocked by South-facing ledges (FLOOR_UP_WALL).
+- Verified: The Western Corridor (X=0-2) is the only path to the plateau.
 - Note: Out of Repels. No wild encounters on land in the city.
 - Hypothesis: (14, 10) is the trigger point for the Suicune sighting.
 
-# Reflection Turn (49815)
-- Immediate Execution: Pivoting to the Row 34 land route after realizing the directional nature of FLOOR_UP_WALL.
-- Notepad Hygiene: Cleaned up redundant logs and buoy/gap markers. Strategy updated to the most efficient land route.
-- Automation: Python sandbox is currently unavailable; proceeding with manual navigation and logical verification.
-- Error Analysis: Root hypothesis that Row 34 was a dead end was based on a single failed 'Down' movement. Re-verified that 'Up' and 'Left/Right' are permitted.
+# Reflection Turn (49817)
+- Immediate Execution: Reverting to the Sea Loop strategy. Land-based bypasses (Row 34, etc.) are blocked by the city's complex wall/ledge layout.
+- Notepad Hygiene: Removed failed Row 34 bypass strategy.
+- Automation: Proceeding with manual navigation due to system environment issues.
