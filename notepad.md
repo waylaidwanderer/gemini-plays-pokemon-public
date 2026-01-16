@@ -10,16 +10,15 @@
 ## Menu Mechanics
 - Start Menu: 1. Pokedex, 2. Pokemon, 3. Pack, 4. Pokegear, 5. Player, 6. Save, 7. Option, 8. Exit.
 - Party Menu: 1. Calcifer, 2. Xenon, 3. Kimchi, 4. Gneiss, 5. Gorp, 6. Icarus, 7. Cancel.
-- Gorp (Snorlax) Menu: 1. SURF, 2. STATS, 3. SWITCH, 4. ITEM, 5. CANCEL.
+- Gorp Menu: 1. SURF, 2. STATS, 3. SWITCH, 4. MOVE, 5. ITEM, 6. CANCEL.
 - Fly Map: New Bark Town (East), Cianwood (West).
 
 # Strategy: Fly to Cianwood (Suicune Pursuit)
 - Suicune Quest Start: Turn 50620.
-- Status: Item Crisis (Gorp holding Master Ball).
 - Plan:
   1. Recover Master Ball from Gorp (Slot 5).
   2. Give Leftovers back to Gorp.
-  3. Fly to Cianwood (Far West on map).
+  3. Fly to Cianwood.
 - Suicune Target: (14, 10) in Cianwood.
 - Prep: Lead Calcifer for Eusine battle.
 
@@ -31,4 +30,3 @@
 
 # Progress Tracking
 - Smashed Rocks: (5, 29), (4, 25), (8, 16), (9, 17).
-- Defeated Swimmer Mathew (17, 46).
