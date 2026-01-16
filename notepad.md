@@ -3,8 +3,8 @@
 - **Status:** All boulders cleared. Phase 1 complete.
 - **Phase 2: Reaching the Sighting Spot**
   - Target: (14, 10) in northern Cianwood.
-  - Path: Use the left-side corridor (X=0, 1, 2) to bypass the Row 15 wall. 
-  - Route: (13, 16) -> (13, 19) -> (4, 19) -> (4, 20) -> (2, 20) -> (2, 10) -> (14, 10).
+  - Path: Use the left-side corridor (X=0, 1, 2) to bypass the Row 15 wall.
+  - Route: Leave Poke Seer's House (5, 17) -> Move to (6, 21) -> Walk West to (2, 21) -> Walk North to Row 10 -> Walk East to (14, 10).
   - Note: Be prepared for Eusine battle immediately after Suicune bolts.
 
 # Tile Mechanics (Verified)
@@ -19,6 +19,7 @@
 
 # Lessons Learned
 - **Cianwood Pathing:** (11, 15) leads to a dead-end pocket at (11, 14). Do not use.
+- **Poke Seer's House:** The building at (5, 17) is just a house, not a shortcut.
 - **Menu Navigation:** The 'Switch items?' confirmation box is modal; B button does not close it. Use A on NO to exit.
 - **Fly Map:** Cursor positions: New Bark (East), Cherrygrove (West), Violet (North), Azalea (South), Goldenrod (West/North), Olivine (West), Cianwood (Far West).
 - **Coordinates:** Notepad coordinates refer to the internal map grid, not Fly Map cursor.
