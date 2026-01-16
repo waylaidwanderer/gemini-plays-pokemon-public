@@ -23,6 +23,6 @@
 - **Mechanics Note:** Repel confirmed working in current session (Turns 40947-41004, zero encounters).
 - **Current Task:** Hunting Entei/Raikou on Route 37.
 - **Attempt:** 19 (City Shuffle).
-- **Status:** Shuffling (Route 37 -> Ecruteak). Repel Active (~110/250 steps used).
+- **Status:** Shuffling (Ecruteak -> Route 37). Repel Active (~115/250 steps used).
 - Pokedex Status: National Mode. SEEN: 195, OWN: 46.
 - Goal: Check entries #243 (Raikou) and #244 (Entei).
