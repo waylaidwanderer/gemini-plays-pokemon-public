@@ -1,7 +1,7 @@
 # Strategic Status
 - **Goal:** Catch Raikou (#243) & Entei (#244).
-- **Hunt Duration:** ~13,000 turns. Resumed: Turn 41847 (Current: 42308).
-- **Status:** Repel Active (Turn 42267).
+- **Hunt Duration:** ~13,000 turns. Resumed: Turn 41847 (Current: 42309).
+- **Status:** Repel wore off (Turn 42309). Needs renewal.
 - **Plan:**
     1. **Execute Loop:**
        a. Start at Route 37 Gate (8,0).
