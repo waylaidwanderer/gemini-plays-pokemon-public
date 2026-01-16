@@ -22,3 +22,4 @@
 - **Arthur (45, 6):** Only gives Hard Stone on Thursdays.
 - **Menu Navigation:** The "Switch items?" confirmation box is modal; B button does not close it. Use A on NO to exit.
 - **Fly Map:** New Bark (14,10) to Goldenrod (5,9) is 9 Left, 1 Up. Use short delays or individual presses for reliability.
+- **Tool Alert:** fly_to_city_v2 is unreliable due to incorrect menu navigation logic. Use manual menu_navigator_refined_v2 sequences for Flying.
