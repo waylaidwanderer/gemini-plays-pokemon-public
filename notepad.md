@@ -1,9 +1,10 @@
-# Reflection (Turn 51265)
-- Deferral: None.
-- Notepad: Reorganized. Added start turn for Suicune goal.
-- Map: Adding markers for vertical dividers.
-- Automation: strategy_advisor agent defined.
-- Error Analysis: City is divided into vertical corridors. Path to north is: X=10 -> Row 48 -> X=2 -> Row 12 -> X=14.
+# Strategy: Trigger Suicune Sighting (Started: Turn 51131)
+- City Logic: Vertical walls divide the city into corridors. The Western Corridor (X=2) is the primary land route to the north, bypassing major obstacles. Row 12 is a horizontal corridor that connects the Western Corridor to the sighting spot at (14, 10).
+- Execution Plan:
+  1. Navigate to (2, 34) via the gap south of the Photo Studio.
+  2. Walk North to (2, 12).
+  3. Walk East to (14, 12) and North to (14, 10).
+- Battle Prep: Lead Calcifer (Lv64 Typhlosion).
 
 # Tile Mechanics
 - FLOOR: Standard traversable tile.
@@ -19,12 +20,7 @@
 - Party Menu: 1-6. Pokemon, 7. CANCEL.
 - Navigation: Pressing Up from the first item wraps to the last item.
 
-# Strategy: Trigger Suicune Sighting (Started: Turn 51131)
-- City Logic: The city is divided by vertical walls. The primary cross-corridor is the southern highway at Row 51/53. The northern coast is accessible via the long Western Corridor at X=2, which leads to a gap at Row 12. Row 15 is a major horizontal barrier with limited gaps.
-- Execution Plan:
-  1. Navigate to the southern highway at (18, 51) to bypass vertical dividers.
-  2. Walk West to (2, 51) to enter the Western Corridor.
-  3. Hike North to (2, 12), then East to (14, 12).
-  4. Move North to (14, 10) to trigger the sighting.
-- Battle Prep: Lead Calcifer (Lv64 Typhlosion) for potential trainer encounters.
-- Discovery: Tully has an item for me on Route 42. Suicune sighting spot is confirmed at (14, 10).
+# Discoveries
+- Tully has an item for me on Route 42.
+- Smashed Rocks: (5, 29), (4, 25).
+- Suicune sighting spot: (14, 10).
