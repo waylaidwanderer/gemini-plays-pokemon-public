@@ -27,3 +27,4 @@
 - Smashed Rocks: (5, 29), (4, 25), (8, 16), (9, 17).
 - Shortcut cleared: (4, 25), (5, 29).
 - Swimmer Mathew defeated at (17, 46).
+- Rock detected at (10, 27).
