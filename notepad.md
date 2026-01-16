@@ -14,21 +14,18 @@
 
 # Strategy: Trigger Suicune Sighting (Started: Turn 51131)
 - Objective: Reach the northern coast of Cianwood City at (14, 10).
-- Current Strategy: Land Route (Pivoted Turn 51180).
+- Current Strategy: Land Route (Verified Turn 51236).
 - Execution Plan:
-  1. Walk West to (21, 44).
-  2. Walk North to (21, 29) (corridor east of buildings).
-  3. Walk West to (6, 29).
-  4. Walk West to (4, 29) (using shortcut at 5, 29).
-  5. Walk North to (4, 22).
-  6. Walk West to (2, 22) (using gap at 3, 22).
-  7. Walk North to (2, 14) (western corridor).
-  8. Walk East to (6, 14) and North to (6, 10).
-  9. Walk East to (14, 10) to trigger Suicune.
-- Battle Prep: Lead Calcifer (Lv64 Typhlosion) in case of an encounter with Eusine.
+  1. Walk West from (13, 29) to (5, 29) using the cleared shortcut.
+  2. Walk North to (4, 25) (shortcut) and then West to (2, 25).
+  3. Walk North through the western corridor (X=2) to (2, 14).
+  4. Walk East to (5, 14) and North to (5, 12) to bypass Row 13 walls.
+  5. Walk East to (14, 12) and North to (14, 10).
+- Battle Prep: Lead Calcifer (Lv64 Typhlosion) for Eusine encounter.
 
 # Discoveries & Progress
 - Smashed Rocks: (5, 29), (4, 25), (8, 16), (9, 17).
 - Shortcut cleared: (4, 25), (5, 29).
 - Swimmer Mathew defeated at (17, 46).
 - Rock detected at (10, 27).
+- Tully has an item for me on Route 42 (Ignore for now).
