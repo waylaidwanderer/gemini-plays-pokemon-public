@@ -19,21 +19,20 @@
   - Goal: Cianwood City.
 
 # Strategy: Fly to Cianwood (Suicune Pursuit)
-- Time Tracking: Started Turn 50620 (Current Turn: 51118).
-- Goal: Reach Cianwood City (Far West).
-- Current Status: On Fly map at Azalea Town.
+- Time Tracking: Started Turn 50620 (Current Turn: 51130).
+- Status: Item Crisis Resolved. Master Ball and Leftovers restored.
 - Plan:
-  1. Navigate from Azalea Town to Cianwood City.
-  2. Confirm destination and land.
-  3. Move to (14, 10) in Cianwood to trigger Suicune sighting.
+  1. Confirm Cianwood City on Fly map (In progress).
+  2. Move to (14, 10) in Cianwood to trigger Suicune sighting.
 - Prep: Lead Calcifer for Eusine battle.
 
-# Area Notes: Cianwood City
-- Lugia Speech House: Whirl Islands legend (Silver Wing/Whirlpool required).
-- Pharmacy: Secretpotion for Amphy.
-- Mania's House: Mania wants his Shuckle back.
-- Rock Smash: Boulders north of town.
-
 # Progress Tracking
-- Smashed Rocks: (5, 29), (4, 25), (8, 16), (9, 17).
+- Smashed Rocks (Cianwood): (5, 29), (4, 25), (8, 16), (9, 17).
 - Defeated Swimmer Mathew (17, 46).
+- Fly attempt count: 26 (Success on map navigation).
+## Menu Relational Behavior
+- Start Menu: Pressing Up from Pokedex (1) wraps to EXIT (8).
+- Party Menu: Pressing Up from Slot 1 wraps to CANCEL (7).
+- Bag (Items): Vertical list with scrolling. Cursor persists on last item selected.
+- Sub-menus: Usually 4-6 items. Pressing Up from item 1 wraps to the bottom item.
+- Fly Map (Johto Cycle): UP cycles through cities. Verified Sequence: New Bark -> Ecruteak -> Azalea -> Mahogany -> Olivine -> Silver Cave -> Goldenrod -> Violet -> Cianwood.
