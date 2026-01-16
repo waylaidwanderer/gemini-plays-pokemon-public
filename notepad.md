@@ -3,13 +3,12 @@
 - **Hunt Duration:** ~14,350 turns. Resumed: Turn 41847.
 - **Status:** Resupply Run (Goldenrod - Out of Repels).
 - **Plan:**
-    1. **Execute Loop:**
-       a. Start at Route 37 Gate (8,0).
-       b. Use Super Repel (if expired).
-       c. Call `check_route37_grass` (Enters grass, checks, returns to gate).
-       d. Call `enter_ecruteak_from_route37` (Resets map).
-       e. Call `exit_ecruteak_to_route37` (Returns to gate).
-    2. **Goal:** Encounter Entei/Raikou to register in Pokedex.
+    1. **Supply Run:**
+       a. Fly to Goldenrod City.
+       b. Go to Dept Store 2F.
+       c. Buy Max Super Repels (Budget: ¥3144 -> ~6 Repels).
+    2. **Return:** Fly to Ecruteak -> Walk to Route 37.
+    3. **Resume Hunt:** Execute Roamer Hunt Loop.
 - **Secondary Targets:** Catch Stantler (Route 37/36 Night) or Growlithe.
 
 # PC Storage Check
