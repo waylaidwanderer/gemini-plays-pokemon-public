@@ -2,10 +2,10 @@
 - **Objective:** Trigger Suicune sighting at (14, 10) in northern Cianwood.
 - **Eusine Battle Prep:** Drowzee (Lv23), Haunter (Lv23), Electrode (Lv25). Strategy: Lead with Lv64 Calcifer. Sweep with Flamethrower/Thunderpunch.
 - **Current Plan (North Bypass via X=2):**
-  1. Navigate to (6, 29).
-  2. Smash rock at (5, 29).
-  3. Move to (2, 29) and walk North to (2, 10).
-  4. Walk East to (14, 10).
+  1. From (6, 29), move South to (6, 34) to bypass the X=5 wall.
+  2. Move West to (2, 34) and enter the X=2 corridor.
+  3. Move North to (2, 10) and then East to (14, 10) for the Suicune sighting.
+- **Smashed Rocks:** (5, 29), (4, 25), (4, 19), (9, 17), (8, 16). They respawn on map exit.
 - **Alternative (Northern Wall Check):** Check if (12, 15) or (11, 15) are mislabeled rocks.
 - **Contingency:** If walking paths fail, use Surf around the east side buoy gap at (23, 7). Landing spot: (16, 10).
 
