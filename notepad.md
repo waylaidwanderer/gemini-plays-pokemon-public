@@ -5,7 +5,7 @@
 - **Route:**
   1. Surf North from (12, 28) to (12, 18).
   2. Land North at (12, 17).
-  3. Walk: (12, 17) -> (11, 17) -> (11, 12) -> (14, 12) -> (14, 10).
+  3. Walk: (12, 17) -> (11, 17) -> (11, 14) -> (8, 14) -> (8, 12) -> (14, 12) -> (14, 10).
   4. Trigger Event at (14, 10).
 
 ## Strategy: Finding TM08 Rock Smash
