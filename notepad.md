@@ -22,4 +22,5 @@ The northern plateau (14, 10) is blocked by rocks. I need TM08 Rock Smash to pro
 - **Rock Smash Search Start:** Turn 49951.
 - Searched Houses:
   - Manias House (17,41): Mania (Rocker) - Does NOT give Rock Smash.
-- Next: Talk to Pokefan F at (11,46) or check Pharmacy (15,47).
+- Next: Scout northern rocks (Row 16-27) for the TM NPC.
+- Note: Advisor says NPC is typically outside near the rocks.
