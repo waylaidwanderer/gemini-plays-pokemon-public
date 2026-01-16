@@ -8,16 +8,19 @@
 - ROCK (Object): Traversable after Rock Smash.
 
 ## Menu Mechanics
-- Start Menu (Persistent): 1. Pokedex, 2. Pokemon, 3. Pack, 4. Pokegear, 5. Player, 6. Save, 7. Option, 8. Exit.
-- Party Menu (Persistent): 1-6. Pokemon, 7. Cancel.
-- Gorp (Snorlax) Menu: 1. SURF, 2. STATS, 3. SWITCH, 4. MOVE, 5. ITEM, 6. CANCEL.
-- Fly Map: New Bark Town (East), Cianwood (West).
+- Start Menu (Persistent): 1. POKEDEX, 2. POKEMON, 3. PACK, 4. POKEGEAR, 5. PLAYER, 6. SAVE, 7. OPTION, 8. EXIT.
+- Party Menu (Persistent): 1-6. Pokemon, 7. CANCEL. (Up from 1 -> 7).
+- Sub-menus: Pressing Up from item 1 wraps to the bottom.
+- Bag (Items): Scrolling list. Cursor persists on last item.
+- Fly Map: New Bark Town (East), Cianwood (West). ~25 Lefts to reach western edge.
 
 # Strategy: Fly to Cianwood (Suicune Pursuit)
 - Time Tracking: Started Turn 50620.
 - Plan:
-  1. Fly to Cianwood (Far West on map).
-  2. Move to (14, 10) in Cianwood to trigger Suicune sighting.
+  1. Open Start Menu -> POKEMON.
+  2. Select ICARUS (Slot 6) -> FLY.
+  3. Navigate Map to Cianwood (Far West) -> Confirm.
+  4. Move to (14, 10) in Cianwood to trigger Suicune.
 - Prep: Lead Calcifer for Eusine battle.
 
 # Area Notes: Cianwood City
@@ -28,10 +31,3 @@
 
 # Progress Tracking
 - Smashed Rocks: (5, 29), (4, 25), (8, 16), (9, 17).
-- Fly Attempt Status: 24 failures. Transitioning to step-by-step manual navigation.
-## Menu Relational Behavior
-- Start Menu: Pressing Up from Pokedex (1) wraps to EXIT (8).
-- Party Menu: Pressing Up from Slot 1 wraps to CANCEL (7).
-- Bag (Items): Vertical list with scrolling. Cursor persists on last item selected.
-- Sub-menus: Usually 4-6 items. Pressing Up from item 1 wraps to the bottom item.
-- Fly Map: Cursor starts at current location. Left moves west. A selects.
