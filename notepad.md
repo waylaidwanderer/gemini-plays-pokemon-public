@@ -5,9 +5,9 @@
     - Repel Trick: Lead Lv37 > Wilds (Lv ~20) but < Roamers (Lv 40).
     - Status: Max Repel Active.
     - Loop: Wiggle in grass -> Shuffle Ecruteak/Rt 37 -> Repeat.
-- **Status:** Clearing Wade & Exiting (Turn 41667).
-- **Strategy:** Spam B to finish call -> Exit Ecruteak (Down).
-- **Observation:** Wade is verbose. Ensuring call ends before moving. Repel active (Critical Low).
+- **Status:** Exiting Ecruteak (Turn 41668).
+- **Strategy:** Move Down to warp to Route 37.
+- **Observation:** Phone call ended. Exiting to check grass. Repel active (Critical Low).
 - **Session Stats:** Approx 34 shuffle cycles attempts. Repel active (Critical Low).
 
 # Mechanics
