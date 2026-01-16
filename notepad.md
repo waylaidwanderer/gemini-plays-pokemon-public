@@ -7,17 +7,14 @@
 - Start Turn: 49771
 - Start Time: 3:29 PM
 
-## Strategy: The Row 34 Western Bypass (Confirmed)
-The northern plateau (Row 10-12) is accessible via the Western Corridor (X=0-2). Row 34 is the key East-West transit corridor.
-1. Surf South from (24, 20) to (24, 32). (In Progress)
-2. Land at (23, 32).
-3. Walk to (12, 33) via Row 32 (to bypass Pokefan M).
-4. Walk to (10, 33), then Down to (10, 35).
-5. Walk West to (8, 35), then North to (8, 34) (Ledge jump North - TO BE VERIFIED).
-6. Walk West along Row 34 to (2, 34) to enter the Western Corridor.
-7. Walk North through the corridor to (2, 14).
-8. Walk East to (8, 14), then North to (8, 10).
-9. Walk East to (14, 10) to trigger Suicune sighting.
+## Strategy: The Great Southern Loop (v3)
+The city is a maze. The Western Corridor (X=0-2) is the ONLY path to the plateau, but is only reachable from the southern clearway (Row 51). The central city ledges block southward land travel. Row 34/35 are unreachable from the east due to the X=9 wall.
+1. Walk to (23, 32). (In Progress)
+2. Surf South to Row 51.
+3. Land at (23, 51) or (24, 51).
+4. Walk West along Row 51 to (2, 51).
+5. Walk North through the corridor to (2, 10).
+6. Walk East along Row 10 to (14, 10) to trigger Suicune sighting.
 
 # Battle Preparation: Eusine
 - Expected Roster: Drowzee (Lv23), Haunter (Lv23), Electrode (Lv25).
