@@ -16,13 +16,12 @@
 - Objective: Reach the northern coast of Cianwood City at (14, 10).
 - Current Strategy: Land Route (Pivoted Turn 51180).
 - Execution Plan:
-  1. Walk South and East to (12, 35) to bypass the walls and buildings.
-  2. Walk West to (2, 35).
+  1. Navigate to (9, 33) through the building gap.
+  2. Navigate to (2, 34) bypassing X=5 wall.
   3. Walk North to (2, 14) through the western corridor.
-  4. Walk East to (8, 14).
-  5. Walk North to (8, 12).
-  6. Walk East to (14, 12).
-  7. Walk North to (14, 10).
+  4. Walk North to (2, 12) and East to (16, 12).
+  5. Walk North to (16, 11) and climb terrace at (16, 10).
+  6. Walk West to (14, 10).
 - Battle Prep: Lead Calcifer (Lv64 Typhlosion) in case of an encounter with Eusine.
 
 # Discoveries & Progress
