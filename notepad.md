@@ -16,11 +16,11 @@
 - Objective: Reach the northern coast of Cianwood City at (14, 10).
 - Current Strategy: Land Route (Verified Turn 51236).
 - Execution Plan:
-  1. Walk West from (13, 29) to (5, 29) using the cleared shortcut.
-  2. Walk North to (4, 25) (shortcut) and then West to (2, 25).
-  3. Walk North through the western corridor (X=2) to (2, 14).
-  4. Walk East to (5, 14) and North to (5, 12) to bypass Row 13 walls.
-  5. Walk East to (14, 12) and North to (14, 10).
+  1. Walk Right and North to (6, 14) (bypass the X=5 and X=3 walls).
+  2. Walk Left to (2, 14) to enter the western corridor.
+  3. Walk North to (2, 12) (bypass Row 13 walls).
+  4. Walk East to (14, 12).
+  5. Walk North to (14, 10) to trigger Suicune.
 - Battle Prep: Lead Calcifer (Lv64 Typhlosion) for Eusine encounter.
 
 # Discoveries & Progress
@@ -28,4 +28,5 @@
 - Shortcut cleared: (4, 25), (5, 29).
 - Swimmer Mathew defeated at (17, 46).
 - Rock detected at (10, 27).
-- Tully has an item for me on Route 42 (Ignore for now).
+- Tully has an item for me on Route 42.
+- Eusine is waiting at the northern coast.
