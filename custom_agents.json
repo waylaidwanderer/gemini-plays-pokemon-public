@@ -1,1 +1,9 @@
-{}
+{
+  "menu_analyst_agent": {
+    "agent_name": "menu_analyst_agent",
+    "agent_description": "Analyzes the current menu state and provides the exact button sequence to reach a specific menu option or perform an action (e.g., Fly, Use Item). Prevents menu loops.",
+    "agent_system_prompt": "You are a menu navigation expert for Pokemon Crystal. Your task is to analyze the provided screen text and current menu state to determine the most direct button sequence to achieve the desired action. You must account for cursor wrapping and common menu traps (like the \"MOVE\" command in the party menu). Provide a short sequence (1-5 buttons) to ensure the player can verify progress between turns.",
+    "agent_input_schema": "{\"properties\":{\"current_screen_text\":{\"type\":\"string\"},\"desired_action\":{\"type\":\"string\"},\"party_composition\":{\"items\":{\"type\":\"string\"},\"type\":\"array\"}},\"required\":[\"current_screen_text\",\"desired_action\",\"party_composition\"],\"type\":\"object\"}",
+    "agent_output_schema": "{\"properties\":{\"analysis\":{\"type\":\"string\"},\"button_sequence\":{\"items\":{\"type\":\"string\"},\"type\":\"array\"},\"confidence\":{\"type\":\"number\"}},\"required\":[\"analysis\",\"button_sequence\",\"confidence\"],\"type\":\"object\"}"
+  }
+}
