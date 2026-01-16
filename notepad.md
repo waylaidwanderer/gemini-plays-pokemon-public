@@ -16,10 +16,10 @@
 - Objective: Reach the northern coast of Cianwood City at (14, 10).
 - Current Strategy: Land Route (Verified Turn 51236).
 - Execution Plan:
-  1. Walk North to (12, 29).
-  2. Walk West to (4, 29) via the (5, 29) shortcut.
-  3. Hop South over the ledge at (4, 30) to (4, 31).
-  4. Walk West to (2, 31) and North to (2, 14).
-  5. Walk East to (6, 14) and North to (6, 10).
-  6. Walk East to (14, 10) to trigger Suicune sighting.
+  1. Walk East to (13, 29).
+  2. Walk South to (13, 35) (detour around vertical walls).
+  3. Walk West to (2, 35) (enter western corridor).
+  4. Walk North to (2, 14) (bypass all northern horizontal walls).
+  5. Walk East to (8, 14) and North to (8, 12).
+  6. Walk East to (14, 12) and North to (14, 10).
 - Battle Prep: Lead Calcifer (Lv64 Typhlosion) for Eusine encounter.
