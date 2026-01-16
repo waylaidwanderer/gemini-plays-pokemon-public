@@ -3,16 +3,16 @@
 Trigger the Suicune sighting at (14, 10) in Cianwood City (Map 22_3).
 
 ## Strategy
-1. Obtain Rock Smash: Talk to Pokefan M at (17, 33).
-2. Navigate to Suicune: Use the internal land path (Western Bypass) which requires climbing UP_WALL slopes at (4, 30) and (4, 20).
-3. Trigger Event: Reach (14, 10).
+- Talk to Pokefan M (17, 33) to get Rock Smash (TM08). (In Progress)
+- Navigate the western land bypass via (4, 30) and (4, 20) to reach the plateau.
+- Avoid the eastern channel (Column 27+) as it is partitioned from the target area.
 
 ## Tile Mechanics
-- FLOOR_UP_WALL: One-way North slopes (Ascent only).
-- LEDGE_HOP_DOWN: One-way South ledges (Descent only).
-- SMASHABLE ROCK: Requires Rock Smash (TM08).
+- FLOOR_UP_WALL: One-way North slopes. Ascent only.
+- LEDGE_HOP_DOWN: One-way South ledges. Descent only.
+- WATER (Edge): Does not always warp. (0, 49) in Route 41 is a dead end.
 
 ## Key Coordinates
-- (17, 33): Pokefan M (Rock Smash TM).
+- (17, 33): Pokefan M.
 - (4, 30), (4, 20): Terrace climb slopes.
 - (14, 10): Suicune trigger point.
