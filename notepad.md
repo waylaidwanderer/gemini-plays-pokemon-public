@@ -19,3 +19,5 @@
 - **Suicune Spot:** (14, 10) in Cianwood City. Requires Rock Smash at (4, 19) and (8, 16) to reach.
 - **Tool Logic:** `fly_to_destination` exceeded the 50-button limit (53 buttons). Sequences must be broken into chunks or optimized.
 - **Fly Map wrapping:** Hypothesis: Going Right from New Bark might wrap to the West (Cianwood). Testing now.
+- **Fly Map Wrap:** Sequence of 50 buttons (mostly Left) from New Bark resulted in landing at Mahogany Town (15, 14). This confirms East-West wrapping and suggests Cianwood requires a more precise South-West path or fewer Left presses to avoid overshooting.
+- **Current Status:** In Mahogany Town. Retrying flight to Cianwood.
