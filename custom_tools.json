@@ -262,9 +262,9 @@
     ]
   },
   "fly_to_cianwood_v1": {
-    "description": "Navigates from the overworld to Fly to Cianwood City. Assumes starting from the overworld or a menu. v2.7",
+    "description": "Navigates from the overworld to Fly to Cianwood City. Assumes starting from the overworld or a menu. v2.8",
     "input_schema": {},
-    "python_script": "import json\n# Sequence:\n# 1. B x3 (Clear menus to overworld)\n# 2. Start (Open menu)\n# 3. Up x8 (Reset to top of menu - POKEDEX)\n# 4. Down (Move to POKEMON) -> A\n# 5. Up x6 (Reset to 1st PKMN - Calcifer)\n# 6. Down x5 (Move to 6th PKMN - ICARUS) -> A\n# 7. A (Select FLY - 1st sub-menu option)\n# 8. sleep 2000 (Wait for \"[PKMN] used FLY!\" text)\n# 9. A (Clear text)\n# 10. sleep 2000 (Wait for map to open)\n# 11. Left x15 (Move far west on map)\n# 12. A -> A (Confirm flight)\nprint(json.dumps(['B']*3 + ['Start'] + ['Up']*8 + ['Down', 'A'] + ['Up']*6 + ['Down']*5 + ['A', 'A'] + ['sleep 2000', 'A', 'sleep 2000'] + ['Left']*15 + ['A', 'A']))",
+    "python_script": "import json\n# Sequence:\n# 1. B x3 (Clear menus to overworld)\n# 2. Start (Open menu - cursor starts on OPTION)\n# 3. Up x5 (Move to POKEMON)\n# 4. A (Select POKEMON)\n# 5. Up x6 (Reset to 1st PKMN - Calcifer)\n# 6. Down x5 (Move to 6th PKMN - ICARUS)\n# 7. A (Select ICARUS)\n# 8. A (Select FLY - 1st sub-menu option)\n# 9. sleep 2000 (Wait for \"Used FLY\" text)\n# 10. A (Clear text)\n# 11. sleep 2000 (Wait for map transition)\n# 12. Left x15 (Move far west on map)\n# 13. A -> A (Confirm flight)\nprint(json.dumps(['B']*3 + ['Start', 'Up', 'Up', 'Up', 'Up', 'Up', 'A'] + ['Up']*6 + ['Down']*5 + ['A', 'A', 'sleep 2000', 'A', 'sleep 2000'] + ['Left']*15 + ['A', 'A']))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -355,6 +355,11 @@
         "commit_message": "v2.7: Robust reset strategy (8x Up for main menu, 6x Up for party) and added sleeps to handle \"Used FLY\" text and map transition safely. 47 buttons.",
         "timestamp": "2026-01-16T14:14:53.441Z",
         "action_counter": 50996
+      },
+      {
+        "commit_message": "v2.8: Robust reset strategy. Clears menus, opens POKEMON from OPTION cursor, selects ICARUS, and handles FLY text/map transition. 47 buttons.",
+        "timestamp": "2026-01-16T14:17:10.946Z",
+        "action_counter": 50997
       }
     ]
   }
