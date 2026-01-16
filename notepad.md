@@ -1,20 +1,21 @@
 # Suicune Quest: Cianwood City
-## Strategy: The Western Bypass (X=2)
-The northern plateau (14, 10) is accessible via the western coastal corridor (X=2).
+## Strategy: The Great Western Loop
+The northern plateau (14, 10) is accessible via the western coastal corridor (X=2). This requires a long loop through the southern terrace gaps to bypass the central walls and elevation traps.
 
 ### Execution Plan
-1. Central Terrace: Navigate to (6, 24) via the gap at (9, 33). (In Progress)
-2. West Coast Entry: Navigate to (2, 20) via the (5, 24) gap and (4, 20) UP_WALL.
-3. Highway North: Walk North along X=2 to Row 14.
-4. Final Approach: Walk East to (14, 14) and North to (14, 10).
+1. Southern Descent: Navigate to (10, 51) via the gap at (10, 34). (In Progress)
+2. Western Crossing: Walk west along Row 51 to (2, 51).
+3. Coastal Ascent: Walk north along X=2 to Row 12.
+4. Final Approach: Walk east to (14, 12) and north to (14, 10).
 
-## Tile Mechanics
+## Global Tile Mechanics
 - FLOOR: Land (Traversable).
 - WALL, BUOY, DOOR: Impassable.
 - WATER: Requires Surf.
-- FLOOR_UP_WALL: One-way North. Blocks DOWN movement (e.g., Row 50; (6, 34); (4, 20); (4, 30)).
-- LEDGE_HOP_DOWN: One-way South. Blocks NORTH movement (e.g., (10, 15)).
+- FLOOR_UP_WALL: One-way North. Blocks DOWN movement (e.g., Row 50; 6-8, 34; 4, 20; 4, 30).
+- LEDGE_HOP_DOWN: One-way South. Blocks NORTH movement (e.g., 10, 15).
 
 ## Battle Plan: Eusine
-- Roster: Drowzee (Lv23), Haunter (Lv23), Electrode (Lv25).
-- Counter: Calcifer (Lv64 Typhlosion) - Flamethrower sweep.
+- Expected Team: Drowzee (Lv23), Haunter (Lv23), Electrode (Lv25).
+- Lead: Calcifer (Lv64 Typhlosion).
+- Strategy: Flamethrower sweep. (Flamethrower is super effective against Haunter and neutral but high damage against the others. Level gap provides a massive safety margin.)
