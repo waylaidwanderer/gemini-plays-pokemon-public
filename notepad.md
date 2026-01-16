@@ -5,11 +5,9 @@
     - Repel Trick: Lead Lv37 > Wilds (Lv ~20) but < Roamers (Lv 40).
     - Status: Max Repel Active.
     - Loop: Wiggle in grass -> Shuffle Ecruteak/Rt 37 -> Repeat.
-- **Status:** Returning to Route 37 (Turn 41536).
-- **Strategy:** Blind Gatehouse Shuffle.
-    - **Loop:** `enter_ecruteak` -> `exit_ecruteak` -> `patrol_area` -> Repeat.
-- **Observation:** `autopress_buttons` stops at map transitions. Splitting shuffle tool into Enter/Exit tools.
-- **Roamers:** Not seen yet. Blind search required.
+- **Status:** Patrolling Route 37 Grass (Turn 41536). Repel Active.
+- **Strategy:** Move to grass -> Wiggle. If no encounter, shuffle using `enter_ecruteak` / `exit_ecruteak`.
+- **Observation:** Back on Route 37. Searching for Roamers.
 
 # Mechanics
 - **Roamers:** Move to an adjacent route when player transitions maps.
