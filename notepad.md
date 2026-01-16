@@ -4,12 +4,11 @@
   - **Eusine's Roster:** Drowzee (Lv23), Haunter (Lv23), Electrode (Lv25).
   - **Strategy:** Lead with Lv64 Calcifer (Typhlosion). Sweep with Flamethrower or Thunderpunch for a clean sweep.
 - **Navigation Plan (Surf Route):**
-  1. Surf at (12, 28) to enter the water.
-  2. Navigate around the buoy barriers (Gap at Row 24/25, X=16).
-  3. Surf East to X=25 to bypass the Row 15 wall.
-  4. Surf North to Row 10.
-  5. Surf West and land at the northern plateau (e.g., at 16, 10).
-  6. Approach (14, 10) to trigger the event.
+  1. Walk to (19, 30).
+  2. Surf East to (20, 30) and continue to X=23.
+  3. Surf North to Row 10.
+  4. Surf West to (19, 10) and land at (16, 10).
+  5. Approach (14, 10) to trigger the event.
 
 # Tile Mechanics (Verified)
 - FLOOR: Standard traversable terrain.
