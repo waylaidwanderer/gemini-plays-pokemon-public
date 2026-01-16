@@ -5,9 +5,9 @@
     - Repel Trick: Lead Lv37 > Wilds (Lv ~20) but < Roamers (Lv 40).
     - Status: Max Repel Active.
     - Loop: Wiggle in grass -> Shuffle Ecruteak/Rt 37 -> Repeat.
-- **Status:** Re-applying Repel (Turn 41579).
-- **Strategy:** Use Max Repel -> Shuffle Ecruteak/Rt 37 -> Wiggle in grass.
-- **Observation:** Repel wore off after full duration. No roaming beast encounter in that cycle.
+- **Status:** Wiggling on Route 37 (Turn 41590).
+- **Strategy:** Wiggle in grass. If no encounter -> Shuffle Ecruteak.
+- **Observation:** Repel active. Hunting for Raikou/Entei.
 
 # Mechanics
 - **Roamers:** Move to an adjacent route when player transitions maps.
