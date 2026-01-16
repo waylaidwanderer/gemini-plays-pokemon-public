@@ -1,17 +1,17 @@
 # Strategy: Trigger Suicune Sighting (Started: Turn 51131, Turn 51301 - Resumed)
-- City Logic: Vertical walls divide the city. X=12 is a key corridor for land and water travel. Row 51 is the southern highway. Gaps in the Row 46/48/50 terraces exist at X=12/13.
+- City Logic: Vertical walls divide the city. The Western Corridor (X=0-2) is the main land route to the north, but requires a long detour to Row 51 or using Surf to bypass walls.
 - Execution Plan:
-  1. Use SURF at (12, 28) to enter (12, 27).
-  2. Surf North to (12, 19) and land.
-  3. Walk North to (12, 12).
-  4. Walk East to (14, 12) and North to (14, 10).
+  1. Use SURF at (12, 28) to enter the water.
+  2. Surf North to Row 20, then East to X=23 to bypass the Row 15 buoy barrier.
+  3. Surf North to Row 11, then West and land on the northern coast.
+  4. Walk to (14, 10) for the Suicune sighting.
 
 # Tile Mechanics
 - FLOOR: Standard traversable tile.
 - WALL / BUOY: Impassable collision.
 - WATER: Traversable only while using SURF.
-- LEDGE_HOP_DOWN: One-way passage (South only). You jump FROM the ledge tile to the tile below it.
-- FLOOR_UP_WALL: One-way passage (North only). You walk ONTO it from the south or walk North from it.
+- LEDGE_HOP_DOWN: One-way passage (South only). Jump FROM ledge to tile below.
+- FLOOR_UP_WALL: One-way passage (North only). Walk ONTO from south or walk North from it.
 - ROCK (Object): Impassable until cleared with ROCK SMASH.
 
 # Game Systems
