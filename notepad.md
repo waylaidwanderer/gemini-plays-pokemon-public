@@ -6,12 +6,11 @@
 
 ## Strategy: Finding TM08 Rock Smash
 - **Start Turn:** 50283
-- **Status:** Searching for the TM. Pokefan M (Main map, ID 2) is the primary source in Crystal after defeating Leader Chuck.
+- **Status:** Searching for the TM. Verified that Pokefan M in Cianwood is a dead end (G/S only). TM08 is on Route 36 in Crystal.
 - **Plan:**
-  1. Investigate Lugia Speech House (15, 37). (Current: Talking to Lass)
-  2. Exit and find Pokefan M.
-  3. Stun Pokefan M (Sprite ID 2) and talk to him from the front.
-  4. If interaction fails, check for other triggers (like the SecretPotion).
+  1. Investigate Lugia Speech House (15, 37). (Completed)
+  2. Navigate to Suicune (14, 10) via the Eastern Water Route (Surf).
+  3. Obtain TM08 Rock Smash from Route 36 NPC after clearing the Suicune event.
 
 ## Global Tile Mechanics
 - FLOOR: Traversable.
