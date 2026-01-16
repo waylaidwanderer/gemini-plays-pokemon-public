@@ -2,16 +2,13 @@
 - **Goal:** Catch Raikou (#243) & Entei (#244).
 - **Hunt Duration:** ~13,000 turns. Resumed: Turn 41847.
 - **Plan:**
-    1. Go to Route 37 Grass (South of Ecruteak).
-    2. Use Super Repel (Lead: Gyarados Lv 37).
-    3. "Blind Hunt" Strategy: Run in grass -> Change Map (Ecruteak) -> Repeat until Encounter.
-    4. Goal: Encounter Entei/Raikou to register in Pokedex.
+    1. Loop: Ecruteak -> Route 37 (Check) -> Ecruteak (Reset).
+    2. Use `perform_route37_cycle` tool for efficiency.
+    3. Goal: Encounter Entei/Raikou to register in Pokedex.
 - **Secondary Targets:** Catch Stantler (Route 37/36 Night) or Growlithe.
 
 # PC Storage Check
-- **Items Found:** ...Up-Grade x1, Metal Coat x1, Przcureberry x1, Carbos x1.
 - **Conclusion:** MASTER BALL NOT FOUND. Assumed used or unavailable.
-- **Next Step:** Resume Roamer Hunt on Route 37/36 using Repel Trick.
 
 # Locations & Logistics
 - **Ecruteak Mart:** Limited inventory. DOES NOT sell Super Repels.
