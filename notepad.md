@@ -2,10 +2,14 @@
 ## Primary Goal: Obtain TM08 Rock Smash
 - **Strategy:** Find the NPC on Route 36 who gives TM08.
 - **Quest Started:** Turn 50407.
-- **Hypothesis:** The NPC is inside the National Park gatehouse (18, 9).
-- **Hypothesis 2:** The NPC is inside the Ruins of Alph gatehouse (47, 13).
-- **Hypothesis 3:** I need to talk to the Flower Shop girl in Goldenrod to "reset" the trigger.
-- **Status:** Heading to National Park gatehouse at (18, 9).
+- **Hypothesis 1:** The NPC is near the (35, 9) junction where Sudowoodo was.
+  - **Status:** Failed. Junction is clear (FLOOR), but no NPC is present (Turns 50463-50490).
+- **Hypothesis 2:** The NPC is inside the National Park gatehouse (18, 9).
+  - **Status:** Testing. Heading there now.
+- **Hypothesis 3:** The NPC is inside the Ruins of Alph gatehouse (47, 13).
+- **Hypothesis 4 (From Quest Analyst):** I need to defeat Whitney and get the SquirtBottle first.
+  - **Audit:** I have the Plain Badge (Whitney defeated) and the SQUIRTBOTTLE in my Key Items. Sudowoodo is already gone. This trigger is already flipped.
+- **Hypothesis 5:** I need to talk to the Flower Shop girl in Goldenrod to "reset" the trigger or receive a follow-up.
 
 ## Secondary Goal: Trigger Suicune Sighting in Cianwood City
 - **Location:** (14, 10) in Cianwood City.
