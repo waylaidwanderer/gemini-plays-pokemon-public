@@ -126,5 +126,49 @@
         "action_counter": 41517
       }
     ]
+  },
+  "enter_ecruteak_from_route37": {
+    "description": "Navigates from anywhere on Route 37 to the Ecruteak City gate and enters. Stops after entering.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "current_x": {
+          "type": "integer",
+          "description": "Current X coordinate on Route 37"
+        },
+        "current_y": {
+          "type": "integer",
+          "description": "Current Y coordinate on Route 37"
+        }
+      },
+      "required": [
+        "current_x",
+        "current_y"
+      ]
+    },
+    "python_script": "import json\n\ncurrent_x = int(input_data['current_x'])\ncurrent_y = int(input_data['current_y'])\n\nbuttons = []\n\n# 1. Navigate to the gate column (x=8)\nif current_x < 8:\n    buttons.extend([\"Right\"] * (8 - current_x))\nelif current_x > 8:\n    buttons.extend([\"Left\"] * (current_x - 8))\n\n# 2. Navigate to the gate row (y=0)\nif current_y > 0:\n    buttons.extend([\"Up\"] * current_y)\n\n# 3. Enter Ecruteak\nbuttons.append(\"Up\")\n\nprint(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "Refined tool to only handle the approach and entry to Ecruteak from Route 37, avoiding the map transition interrupt issue.",
+        "timestamp": "2026-01-16T02:25:36.955Z",
+        "action_counter": 41535
+      }
+    ]
+  },
+  "exit_ecruteak_to_route37": {
+    "description": "Exits Ecruteak City (South) and walks down into the Route 37 grass. Assumes player is at Ecruteak entrance (18, 35).",
+    "input_schema": {
+      "type": "object",
+      "properties": {},
+      "required": []
+    },
+    "python_script": "import json\n\n# 1. Exit Ecruteak (Down)\n# 2. Walk into grass (Down, Down)\n# Note: The first Down triggers the warp. The subsequent Downs happen on Route 37.\nbuttons = [\"Down\", \"sleep 2000\", \"Down\", \"Down\"]\n\nprint(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "New tool to handle the return trip from Ecruteak City entrance back to the hunting grounds on Route 37.",
+        "timestamp": "2026-01-16T02:25:36.956Z",
+        "action_counter": 41535
+      }
+    ]
   }
 }
