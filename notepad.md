@@ -1,10 +1,12 @@
 # Strategy: Trigger Suicune Sighting (Started: Turn 51131)
-- Execution Plan (The Great Outer Sea Bypass):
-  1. Surf North along Column 28 to Row 11.
-  2. Hypothesis: There is a gap in the buoy ring at Column 26 (Rows 10-15). Test: Attempt to move West at Row 11.
-  3. Hypothesis: There is a gap in the second buoy ring at Column 22 (Rows 6-8). Test: Attempt to move West at Row 8 if step 2 succeeds.
-  4. If gaps exist: Surf West to (18, 11) and land at (16, 11).
-  5. Walk West to (14, 11) and North to (14, 10).
+- Execution Plan (The Central Land Route):
+  1. Move Down to (28, 38) and Left to (27, 38) to land.
+  2. Walk West along Row 38 to (12, 38).
+  3. Walk North along Column 12 to (12, 29).
+  4. Walk West to (11, 29).
+  5. Walk North along Column 11 through the gap at (11, 15) to Row 12.
+  6. Walk East along Row 12 to (14, 12).
+  7. Walk North to (14, 10) to trigger Suicune.
 - Battle Prep: Lead Calcifer (Lv64 Typhlosion).
 
 # Tile Mechanics
