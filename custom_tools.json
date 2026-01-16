@@ -262,9 +262,9 @@
     ]
   },
   "fly_to_cianwood_v1": {
-    "description": "Navigates from the overworld to Fly to Cianwood City. Assumes starting from a city east of Cianwood with the menu cursor on POKÉGEAR. v1.7",
+    "description": "Navigates from the overworld to Fly to Cianwood City. Assumes starting from a city east of Cianwood with the menu cursor on POKÉGEAR. v1.8",
     "input_schema": {},
-    "python_script": "import json\n# Sequence:\n# 1. Start (Open menu)\n# 2. Up x2 (From GEAR to POKEMON) -> A\n# 3. Up (From 1st PKMN to 6th PKMN - ICARUS) -> A\n# 4. A (Select FLY)\n# 5. Left x20 (Move far west on map)\n# 6. A -> A (Confirm flight)\nprint(json.dumps(['Start', 'Up', 'Up', 'A', 'Up', 'A', 'A'] + ['Left']*20 + ['A', 'A']))",
+    "python_script": "import json\n# Sequence:\n# 1. Start (Open menu)\n# 2. Up x2 (GEAR -> POKEMON) -> A\n# 3. Up x2 (1st PKMN -> CANCEL -> 6th PKMN - ICARUS) -> A\n# 4. A (Select FLY)\n# 5. Left x20 (Move far west on map to Cianwood)\n# 6. A -> A (Confirm flight)\nprint(json.dumps(['Start', 'Up', 'Up', 'A', 'Up', 'Up', 'A', 'A'] + ['Left']*20 + ['A', 'A']))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -305,6 +305,11 @@
         "commit_message": "v1.7: Efficient sequence assuming overworld start and menu cursor on GEAR. Includes 20x Left for map navigation.",
         "timestamp": "2026-01-16T14:01:08.447Z",
         "action_counter": 50983
+      },
+      {
+        "commit_message": "v1.8: Corrected party menu navigation (Up, Up for 6th PKMN) and sub-menu selection (A for FLY). Assumes overworld start and GEAR as last selected main menu option.",
+        "timestamp": "2026-01-16T14:03:12.675Z",
+        "action_counter": 50985
       }
     ]
   }

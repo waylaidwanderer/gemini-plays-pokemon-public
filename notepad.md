@@ -24,7 +24,7 @@
 - **Sighting Trigger:** Move to (14, 10).
 
 # Progress Tracking
-- Started Suicune Quest: Turn #50620. (Current Turn: #50983)
+- Started Suicune Quest: Turn #50620. (Current Turn: #50985)
 - Smashed Rocks (Cianwood): (5, 29), (4, 25), (8, 16), (9, 17). Verified as FLOOR.
 - Defeated Trainers (Route 41): Swimmer Mathew (17, 46).
 - Suicune Sighting #1: Cianwood City, northern coast (approx 14, 10). Pending.
