@@ -1,13 +1,11 @@
-# Strategy: Trigger Suicune Sighting (Started: Turn 51131)
-- Plan: The Southern Bypass.
+# Strategy: Trigger Suicune Sighting
+- Plan: The Western Corridor Bypass via Southern Highway.
 - Steps:
-  1. Land at (23, 32) and walk South along Column 24 to Row 51.
-  2. Walk West along Row 51 (Southern Highway) to (6, 51).
-  3. Walk North to (6, 47) and move Up to climb (6, 46) (Terrace).
-  4. Walk West to (2, 46) (Western Corridor).
-  5. Walk North along Column 2 to (2, 10).
-  6. Walk East to (14, 10).
-  7. Trigger Suicune sighting and battle Eusine.
+  1. Walk South along Column 24 to Row 51.
+  2. Walk West along Row 51 to Column 2.
+  3. Walk North along Column 2 to Row 10.
+  4. Walk East along Row 10 to (14, 10).
+  5. Trigger Suicune sighting and battle Eusine.
 - Battle Prep: Lead Calcifer (Lv64 Typhlosion).
 
 # Tile Mechanics
