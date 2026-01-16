@@ -4,10 +4,10 @@
 - **Eusine Roster:** Drowzee (Lv23), Haunter (Lv23), Electrode (Lv25).
 - **Battle Strategy:** Lead with Lv64 Calcifer. Sweep with Flamethrower/Thunderpunch.
 - **Navigation Plan (Surf Route):**
-  1. Navigate to (12, 28) and use Surf.
-  2. Surf East to X=23 (bypass buoys).
-  3. Surf North to Row 10.
-  4. Surf West to (16, 10) or (15, 10) and land.
+  1. Navigate to (15, 24) to bypass the first buoy line.
+  2. Move to (17, 24), then down to (17, 27) to bypass the X=18 line.
+  3. Move to (23, 27) to bypass the X=22 line.
+  4. Surf North to Row 10, then West to land at (16, 10).
   5. Walk to (14, 10).
 
 # Tile Mechanics
