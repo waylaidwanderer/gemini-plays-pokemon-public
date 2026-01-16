@@ -1,7 +1,7 @@
 # Strategic Status
 - **Goal:** Catch Raikou (#243) & Entei (#244).
 - **Hunt Duration:** ~13,000 turns. Resumed: Turn 41847 (Current: 42707).
-- **Status:** Resuming Hunt Loop (Turn 42711).
+- **Status:** Closing Menu (Turn 42712).
 - **Plan:**
     1. **Execute Loop:**
        a. Start at Route 37 Gate (8,0).
