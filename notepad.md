@@ -1,14 +1,13 @@
 # Strategy: The Suicune Pursuit
-- **Objective:** Trigger Suicune sighting at (14, 10) in northern Cianwood City.
-- **Eusine Battle Prep:** Be prepared for a battle immediately after Suicune bolts.
-  - **Eusine's Roster:** Drowzee (Lv23), Haunter (Lv23), Electrode (Lv25).
-  - **Strategy:** Lead with Lv64 Calcifer (Typhlosion). Sweep with Flamethrower or Thunderpunch for a clean sweep.
-- **Navigation Plan (Surf Route):**
-  1. Walk to (19, 30).
-  2. Surf East to (20, 30) and continue to X=23.
-  3. Surf North to Row 10.
-  4. Surf West to (19, 10) and land at (16, 10).
-  5. Approach (14, 10) to trigger the event.
+- **Objective:** Trigger Suicune sighting at (14, 10).
+- **Eusine Battle Prep:** Drowzee (Lv23), Haunter (Lv23), Electrode (Lv25). Lead with Lv64 Calcifer.
+- **Navigation Plan (South Bypass):**
+  1. Land at (19, 30).
+  2. Walk to (6, 46) [Terrace Climb].
+  3. Walk West to (2, 46).
+  4. Walk North to (2, 10).
+  5. Walk East to (14, 10).
+- **Note:** Rocks respawn upon map transition. (6, 46) is a verified terrace climb point.
 
 # Tile Mechanics (Verified)
 - FLOOR: Standard traversable terrain.
@@ -20,6 +19,6 @@
 - ROCK (Object): Blocks movement; can be cleared with Rock Smash. Respawns upon map transition.
 
 # Lessons Learned
-- **Cianwood Pathing:** (11, 15) leads to a dead-end pocket at (11, 14). Do not use for northern access.
-- **Respawn Logic:** Overworld rocks (like the one at 5, 29) respawn when leaving and re-entering the map.
-- **Poke Seer's House:** (5, 17) is a regular interior, not a shortcut to the north.
+- **Cianwood Pathing:** (11, 15) and (12, 14) are dead ends for northern access. Use the far-left corridor (X=0-2) via the South Bypass (6, 46).
+- **Surf Navigation:** Buoy barriers heavily partition the water. Landing and walking is often more reliable.
+- **Poke Seer's House:** (5, 17) is a regular interior, not a shortcut.
