@@ -1,29 +1,27 @@
 # Suicune Quest: Cianwood City
 - **Start Turn:** 49885
-- **Current Status:** Executing the "Gem Corridor" (X=6) route to bypass central walls.
+- **Current Status:** Executing the "Ocean Loop" via the eastern sea.
 
-## Active Strategy: The Gem Corridor (X=6)
-The northern plateau (14, 10) is accessible via a clear north-south corridor along the X=6 column, which leads to the western terrace system.
+## Active Strategy: The Ocean Loop
+The northern plateau (14, 10) is accessible via the western coastal highway (X=2). To reach X=2, we must bypass the island's elevation traps by surfing south through the eastern ocean to the southern clearway (Row 51).
 
 ### Execution Plan
-1. Central Ascent: Walk North from (12, 46) to Row 33, then West to (6, 33). (In Progress)
-2. Terrace Navigation: Walk North along X=6 to Row 18.
-3. West Coast Entry: Walk West to (4, 18), South to (4, 20), and West to (2, 20).
-4. Highway North: Walk North along X=2 to Row 12.
+1. Central Pivot: Navigate to (12, 28) (Central Surf Point). (In Progress)
+2. Ocean Transit: Surf South along X=24 to Row 51.
+3. Southern Traverse: Walk West along Row 51 to (2, 51).
+4. Coastal Highway: Walk North along X=2 to Row 12.
 5. Final Approach: Walk East to (14, 12) and North to Suicune at (14, 10).
 
 ## Verified Mechanics
-- X=6: A clear north-south land corridor from Row 33 to Row 18.
-- X=12: A clear north-south land corridor from Row 46 to Row 33.
-- FLOOR_UP_WALL: Blocks DOWN movement (e.g., Row 50; 6, 34). Moving UP is allowed.
+- Row 51: Completely clear land bridge across the bottom of the island.
+- X=2 Highway: Clear land corridor from Row 51 to Row 12.
+- X=24 Surf: Clear water path from Row 28 to Row 51.
 
 ## Battle Plan: Eusine
-- Expected Team: Drowzee (Lv23), Haunter (Lv23), Electrode (Lv25).
-- Lead: Calcifer (Lv64 Typhlosion).
-- Strategy: Flamethrower sweep. Overleveled status ensures OHKOs.
+- Roster: Drowzee (Lv23), Haunter (Lv23), Electrode (Lv25).
+- Strategy: Calcifer (Lv64 Typhlosion) Flamethrower sweep.
 
 ## Failed Hypotheses
-- Hypothesis 1: Land access via X=2 or X=11. Result: Blocked by ledges/rocks.
+- Hypothesis 1: Land access via central gaps. Result: Blocked by one-way UP_WALLs.
 - Hypothesis 2: Direct Surf to beach. Result: Beach is a dead end.
-- Hypothesis 3: Cut tree at (11, 13). Result: Tree is a solid wall.
-- Hypothesis 4: Southern loop via Row 51. Result: Blocked by Row 50 ledges.
+- Hypothesis 3: Cut tree at (11, 13). Result: Fake tree (solid wall).
