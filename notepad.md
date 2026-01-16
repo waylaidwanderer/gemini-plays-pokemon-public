@@ -1,9 +1,10 @@
 # Suicune Quest: Cianwood City
 ## Verified Strategy: The Terrace Climb
-The northern plateau (14, 10) is accessible via a series of one-way "upward" transitions that bypass the ledge system. This is a pure land route requiring a detour to the southern part of the city. Land travel south is blocked at Row 46, so a Surf detour is required.
+The northern plateau (14, 10) is accessible via a series of one-way "upward" transitions that bypass the ledge system. This is a pure land route requiring a detour to the southern part of the city. Land travel south is blocked at Row 46 (Hypothesis: FLOOR_UP_WALL is one-way North), so a Surf detour is required.
+- Quest Start: Turn 50120 (approx)
 
 ### Execution Plan
-1. Surf Detour: Surf south from (24, 33) and land on the beach at (23, 51). (In Progress)
+1. Surf Detour: Surf south from (28, 45) via the eastern channel (Cols 30-31) and land on the beach at (23, 51).
 2. Southern Approach: Walk West to (6, 51) and North to (6, 47).
 3. First Climb: Move North from (6, 47) through (6, 46) [UP_WALL] to reach Row 45.
 4. Second Climb: Move North from (6, 35) through (6, 34) [UP_WALL] to reach Row 33.
@@ -14,7 +15,7 @@ The northern plateau (14, 10) is accessible via a series of one-way "upward" tra
 
 ## Tile Mechanics
 - FLOOR: Land (Traversable).
-- FLOOR_UP_WALL: One-way North. Blocks DOWN movement (e.g., (6, 46), (6, 34), (4, 30), (4, 20)).
+- FLOOR_UP_WALL: One-way North (Hypothesis). Blocks DOWN movement (e.g., (6, 46), (6, 34), (4, 30), (4, 20)).
 - LEDGE_HOP_DOWN: One-way South. Blocks NORTH movement (e.g., (10, 15)).
 
 ## Battle Plan: Eusine
