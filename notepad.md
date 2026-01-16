@@ -7,8 +7,8 @@ The northern plateau (14, 10) is a high-altitude zone protected by south-facing 
 
 ### Execution Plan
 1. Eastern Shore: Walk to (23, 33). (Done)
-2. Ocean Entry: Face Right and use SURF (GORP). (In Progress)
-3. Sea Transit: Surf South along X=24 to (24, 51).
+2. Ocean Entry: Face Right and use SURF (GORP). (Done)
+3. Sea Transit: Surf South along X=24 to (24, 51). (In Progress)
 4. Southern Landing: Land at (24, 51).
 5. Southern Traverse: Walk West along Row 51 to (4, 51).
 6. Coastal Ascent: Walk North along X=4 to (4, 21).
