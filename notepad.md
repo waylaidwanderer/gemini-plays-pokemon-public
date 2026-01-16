@@ -1,14 +1,9 @@
 # Strategy: The Suicune Pursuit
 - **Quest Started:** Turn #50620 (Cianwood City)
-- **Phase 1: Clearing Obstacles**
-  - Smashed rock at (5, 29) - Turn #50703
-  - Smashed rock at (4, 25) - Turn #50712
-  - Smashed rock at (4, 19) - Turn #50728
-  - Smashed rock at (9, 17) - Turn #50733
-  - Smashed rock at (8, 16) - Turn #50741
+- **Status:** All boulders cleared. Phase 1 complete.
 - **Phase 2: Reaching the Sighting Spot**
   - Target: (14, 10) in northern Cianwood.
-  - Path: Move East to X=11, then North through the gap at (11, 15).
+  - Path: Surf from the water on the right (e.g., from 14, 16) to land at (14, 14) or (13, 14).
   - Note: Be prepared for Eusine battle immediately after Suicune bolts.
 
 # Tile Mechanics (Verified)
