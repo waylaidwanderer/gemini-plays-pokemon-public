@@ -1,49 +1,4 @@
 {
-  "menu_navigator_refined_v2": {
-    "description": "Presses a sequence of buttons to navigate menus or interact with objects. Bypasses directional/action button restrictions. Returns a JSON array of button strings. Refined for efficiency. v2.1",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "buttons": {
-          "type": "array",
-          "items": {
-            "type": "string"
-          }
-        },
-        "autopress_buttons": {
-          "type": "boolean",
-          "default": false
-        }
-      },
-      "required": [
-        "buttons",
-        "autopress_buttons"
-      ]
-    },
-    "python_script": "import json\nimport sys\n\ndef main():\n    try:\n        input_data = json.load(sys.stdin)\n        buttons = input_data.get('buttons', [])\n        \n        # Validation: Ensure all buttons are valid strings\n        valid_buttons = ['A', 'B', 'Select', 'Start', 'Right', 'Left', 'Up', 'Down', 'R', 'L']\n        cleaned_buttons = []\n        for b in buttons:\n            if b in valid_buttons or b.startswith('sleep '):\n                cleaned_buttons.append(b)\n            else:\n                print(f\"Error: Invalid button '{b}'\")\n                sys.exit(1)\n        \n        print(json.dumps(cleaned_buttons))\n    except Exception as e:\n        print(f\"Error: {str(e)}\")\n        sys.exit(1)\n\nif __name__ == \"__main__\":\n    main()\n",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-01-15T18:51:18.021Z",
-        "action_counter": 49463
-      },
-      {
-        "commit_message": "Fixing sandbox errors by redefining the tool with the required commit message. Simplified logic for returning button array.",
-        "timestamp": "2026-01-15T23:08:32.011Z",
-        "action_counter": 49743
-      },
-      {
-        "commit_message": "Fixing sandbox issues by adding a version comment. Simplified logic for returning button array. v2.1",
-        "timestamp": "2026-01-15T23:19:09.791Z",
-        "action_counter": 49754
-      },
-      {
-        "commit_message": "Added missing commit message and refined validation.",
-        "timestamp": "2026-01-16T17:56:00.530Z",
-        "action_counter": 51254
-      }
-    ]
-  },
   "find_path_v9": {
     "description": "Finds a path using BFS on the current map XML, handling walls, objects, warps (DOOR), and obstacles identified by markers. Returns a JSON array of button strings. v9.9.1.",
     "input_schema": {
