@@ -6,8 +6,8 @@
     - Status: Max Repel Active.
     - Loop: Wiggle in grass -> Shuffle Ecruteak/Rt 37 -> Repeat.
 - **Status:** Walking to Goldenrod (Route 37).
-- **Strategy:** Navigate to (18, 35) via Row 28 (The "Street") to avoid Lass at (23, 29).
-- **Observation:** Lass is patrolling Row 29. Row 28 is safe.
+- **Strategy:** Navigate to (18, 35) via Row 28 (The "Street") to avoid Lass at (21, 29).
+- **Observation:** Moving Up to Row 28 to bypass the Lass, then Left and Down to the exit.
 - **Session Stats:** Approx 57 shuffle cycles. Repels EMPTY. Restocking.
 
 # Mechanics
