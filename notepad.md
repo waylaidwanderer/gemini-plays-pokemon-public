@@ -3,9 +3,8 @@
 - **Status:** All boulders cleared. Phase 1 complete.
 - **Phase 2: Reaching the Sighting Spot**
   - Target: (14, 10) in northern Cianwood.
-  - Path A: Use the warp at (5, 17) labeled "Suicune Sighting Area Entrance".
-  - Path B: If Path A fails, use the far-left corridor (X=0 to 2) to walk north to Row 10, then East to (14, 10).
-  - Path C: Surf around the wall at Row 15 (requires going to X=23).
+  - Path A: Use the warp at (5, 17) labeled 'Suicune Sighting Area Entrance'.
+  - Path B: Loop south to Row 46, use the Terrace Climb at (6, 46) to reach the left side (X=0-4), then walk north to Row 10, and east to (14, 10).
   - Note: Be prepared for Eusine battle immediately after Suicune bolts.
 
 # Tile Mechanics (Verified)
@@ -20,7 +19,7 @@
 
 # Lessons Learned
 - **Cianwood Pathing:** (11, 15) leads to a dead-end pocket at (11, 14). Do not use.
-- **Menu Navigation:** The "Switch items?" confirmation box is modal; B button does not close it. Use A on NO to exit.
+- **Menu Navigation:** The 'Switch items?' confirmation box is modal; B button does not close it. Use A on NO to exit.
 - **Fly Map:** Cursor positions: New Bark (East), Cherrygrove (West), Violet (North), Azalea (South), Goldenrod (West/North), Olivine (West), Cianwood (Far West).
 - **Coordinates:** Notepad coordinates refer to the internal map grid, not Fly Map cursor.
 - **Suicune Spot:** (14, 10) in Cianwood City. Requires Rock Smash at (4, 19) and (8, 16) to reach. [Verified - Advisor]
