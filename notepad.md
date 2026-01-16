@@ -1,7 +1,8 @@
 # Cianwood City Progression
 ## Strategy: Trigger Suicune Sighting at (14, 10)
 - **Start Turn:** 50283
-- **Status:** Investigating accessibility. Land boulders may block all routes.
+- **Status:** Confirmed Rock Smash-free land route found via far-west bypass.
+- **Route:** (11, 14) -> (10, 15) [Ledge] -> (10, 21) -> (4, 21) -> (4, 20) [Slope] -> (2, 20) -> (2, 14) -> (8, 14) -> (8, 10) -> (14, 10).
 - **Plan:**
   1. Verify if land route to (14, 10) is possible without Rock Smash.
   2. If blocked, obtain TM08 Rock Smash from Pokefan M (Main map, ID 2) or Route 36 NPC.
