@@ -1,16 +1,20 @@
 # Suicune Quest: Cianwood City
-## Active Strategy: The Rock Smash Solution
-The northern plateau (14, 10) is blocked by rocks. I need TM08 Rock Smash to proceed.
+## Active Strategy: The Northern Plateau Surf Landing
+The northern plateau (14, 10) is accessible by Surfing north through the central lake (X=15 corridor) and landing at (13, 16). This bypasses all city walls and smashable rocks.
 
-### Action Plan
-1. Search Cianwood houses for the Rock Smash NPC.
-2. Teach Rock Smash to a party member (GNEISS or GORP).
-3. Clear the rocks at (8,16) or (10,27) to reach Suicune.
+### The Path to Suicune
+1. Navigate to the shore at (12, 28). (In Progress)
+2. Surf North to Row 16 at (14, 16).
+3. Land at (13, 16).
+4. Walk North-East to trigger Suicune at (14, 10).
 
-## Tile Mechanics
-- FLOOR_UP_WALL: Acts as an impassable wall from the North. (Verified at 8,48 and 12,50).
-- Smashable Rocks: Blocking paths at (8,16), (9,17), (4,19), (4,25), (10,27), (5,29).
-- NPC Mania: In house at (17,41). Requesting Shuckle back.
+## Verified Mechanics
+- Central Lake: X=15 is a clear vertical corridor of WATER from Row 30 to Row 16.
+- Plateau Landing: (13, 16) is a FLOOR tile adjacent to WATER (14, 16), allowing landing.
+- Smashable Rocks: Only necessary for the western land path. Surf bypasses them.
+
+## Progress Tracking
+- Pivot to Surf Strategy: Turn 49965.
 
 ## Battle Plan: Eusine
 - Lead: Calcifer (Lv64 Typhlosion).
@@ -19,8 +23,3 @@ The northern plateau (14, 10) is blocked by rocks. I need TM08 Rock Smash to pro
 
 ## Phone Contacts
 - Tully, Alan, Arnie, Chad, Dana.
-- **Rock Smash Search Start:** Turn 49951.
-- Searched Houses:
-  - Manias House (17,41): Mania (Rocker) - Does NOT give Rock Smash.
-- Next: Scout northern rocks (Row 16-27) for the TM NPC.
-- Note: Advisor says NPC is typically outside near the rocks.
