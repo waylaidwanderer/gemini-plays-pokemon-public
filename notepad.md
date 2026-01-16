@@ -1,13 +1,12 @@
 # Suicune Quest: Cianwood City
 ## Verified Strategy: The Terrace Climb
-The northern plateau (14, 10) is accessible via a series of one-way "upward" transitions that bypass the ledge system. This is a pure land route requiring a detour to the southern part of the city. Land travel south is blocked at Row 46 (Hypothesis: FLOOR_UP_WALL is one-way North), so a Surf detour is required via Route 41.
-- Quest Start: Turn 50120 (approx)
+The northern plateau (14, 10) is accessible via a series of one-way "upward" transitions that bypass the ledge system. This is a pure land route requiring a detour to the southern part of the city. Land travel south in Cianwood is blocked at Row 46 (Hypothesis: FLOOR_UP_WALL is one-way North).
 
 ### Execution Plan
-1. Surf Detour: Surf east from (27, 44) or (27, 45) onto the water.
-2. Route 41 Entry: Move East to (29, 44) to enter Route 41.
-3. Route 41 Transit: Surf south in Route 41 to the southern re-entry point (approx. Row 49).
-4. Southern Approach: Re-enter Cianwood City at (29, 49), walk West to (6, 51) and North to (6, 47).
+1. Re-entry: Return to Cianwood City via the (0, 45) warp in Route 41. (In Progress)
+2. Surf South: In Cianwood, Surf south from (29, 45) along the eastern water channel to Row 51.
+3. Landing: Land on the southern beach at (23, 51).
+4. Southern Approach: Walk West to (6, 51) and North to (6, 47).
 5. First Climb: Move North from (6, 47) through (6, 46) [UP_WALL] to reach Row 45.
 6. Second Climb: Move North from (6, 35) through (6, 34) [UP_WALL] to reach Row 33.
 7. Third Climb: Move West to (4, 31) and North through (4, 30) [UP_WALL] to reach Row 29.
@@ -20,13 +19,6 @@ The northern plateau (14, 10) is accessible via a series of one-way "upward" tra
 - FLOOR_UP_WALL: One-way North (Hypothesis). Blocks DOWN movement (e.g., (6, 46), (6, 34), (4, 30), (4, 20)).
 - LEDGE_HOP_DOWN: One-way South. Blocks NORTH movement (e.g., (10, 15)).
 
-## Battle Plan: Eusine
-- Expected Team: Drowzee (Lv23), Haunter (Lv23), Electrode (Lv25).
-- Lead: Calcifer (Lv64 Typhlosion). Strategy: Flamethrower sweep.
-
-## Map Markers
-- (14, 10): ✨ Suicune Trigger Point
-- (6, 34): 🧗 Terrace Climb 1
-- (4, 30): 🧗 Terrace Climb 2
-- (4, 20): 🧗 Terrace Climb 3
-- (5, 29), (10, 27), (4, 25), (4, 19): 🪨 Smashable Rocks.
+## Observations
+- Route 41 (0, 49) is NOT a transition point (confirmed via Left movement failure).
+- Route 41 (0, 44) and (0, 45) ARE verified transitions.
