@@ -1,35 +1,4 @@
 {
-  "find_path_v6_fixed_refined_v2": {
-    "description": "Finds a path using BFS on the current map XML, handling walls, objects, and one-way ledge jumps. Returns a JSON array of button strings. Avoids DOOR tiles unless they are the target. Refined for efficiency.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "target_x": {
-          "type": "integer"
-        },
-        "target_y": {
-          "type": "integer"
-        }
-      },
-      "required": [
-        "target_x",
-        "target_y"
-      ]
-    },
-    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\nimport json\n\ndef find_path(xml_string, start, target):\n    try:\n        root = ET.fromstring(xml_string)\n    except Exception:\n        return None\n        \n    grid = {}\n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            t_type = tile.attrib['type']\n            has_obj = tile.attrib.get('has-object') == 'true'\n            grid[(x, y)] = (t_type, has_obj)\n\n    queue = deque([(start, [])])\n    visited = {start}\n    \n    while queue:\n        (x, y), path = queue.popleft()\n        if (x, y) == target:\n            return path\n            \n        for dx, dy, move in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n            nx, ny = x + dx, y + dy\n            if (nx, ny) in grid:\n                ntype, nobj = grid[(nx, ny)]\n                if ntype == 'WALL' or nobj or ntype == 'BUOY':\n                    continue\n                if ntype == 'DOOR' and (nx, ny) != target:\n                    continue\n                if dy == 1 and ntype == 'FLOOR_UP_WALL':\n                    continue\n                if dy == -1 and ntype == 'LEDGE_HOP_DOWN':\n                    continue\n                \n                if (nx, ny) not in visited:\n                    visited.add((nx, ny))\n                    queue.append(((nx, ny), path + [move]))\n    return None\n\ntry:\n    target_x = int(input_data['target_x'])\n    target_y = int(input_data['target_y'])\n    root = ET.fromstring(map_xml_string)\n    start_x, start_y = None, None\n    for row in root.findall('Row'):\n        for tile in row.findall('Tile'):\n            if tile.find('Player') is not None:\n                start_x = int(tile.attrib['id'])\n                start_y = int(row.attrib['id'])\n                break\n        if start_x is not None: break\n    \n    if start_x is not None:\n        path = find_path(map_xml_string, (start_x, start_y), (target_x, target_y))\n        print(json.dumps(path if path else []))\n    else:\n        print(json.dumps([]))\nexcept Exception:\n    print(json.dumps([]))",
-    "history": [
-      {
-        "commit_message": "Refining BFS logic to handle directional tiles and adding safety limits.",
-        "timestamp": "2026-01-15T17:23:36.994Z",
-        "action_counter": 49364
-      },
-      {
-        "commit_message": "Refined pathfinding with robust collision and one-way ledge handling.",
-        "timestamp": "2026-01-15T18:12:40.975Z",
-        "action_counter": 49415
-      }
-    ]
-  },
   "menu_navigator_refined": {
     "description": "Presses a sequence of buttons to navigate menus or interact with objects. Bypasses directional/action button restrictions. Returns a JSON array of button strings. Refined for efficiency.",
     "input_schema": {
@@ -90,15 +59,10 @@
       }
     ]
   },
-  "find_path_v7": {
-    "description": "Finds a path using BFS on the current map XML, handling walls, objects, and one-way ledge jumps. Returns a JSON array of button strings. Refined for efficiency and accuracy. v7.0.",
+  "find_path_v8": {
+    "description": "Finds a path using BFS on the current map XML, handling walls, objects, and one-way ledge jumps. Returns a JSON array of button strings. Refined for efficiency and accuracy. v8.0.",
     "input_schema": {
       "properties": {
-        "autopress_buttons": {
-          "default": false,
-          "description": "If true and the tool returns a list of buttons, they will be pressed automatically. Safety limit of 50 buttons per turn.",
-          "type": "boolean"
-        },
         "target_x": {
           "type": "integer"
         },
@@ -108,54 +72,16 @@
       },
       "required": [
         "target_x",
-        "target_y",
-        "autopress_buttons"
+        "target_y"
       ],
       "type": "object"
     },
-    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\nimport json\n\ndef solve():\n    try:\n        root = ET.fromstring(map_xml_string)\n        width = int(root.get('width'))\n        height = int(root.get('height'))\n        \n        # Get current player position\n        start_node = root.find(\".//Tile[Player]\")\n        if start_node is None:\n            print(json.dumps({\"error\": \"Player position not found in map XML.\"}))\n            return\n        \n        start_x = int(start_node.get('id'))\n        start_y = int(start_node.find(\"..\").get('id'))\n        \n        target_x = int(input_data['target_x'])\n        target_y = int(input_data['target_y'])\n        \n        if start_x == target_x and start_y == target_y:\n            print(json.dumps([]))\n            return\n\n        grid = {}\n        for row in root.findall('Row'):\n            y = int(row.get('id'))\n            for tile in row.findall('Tile'):\n                x = int(tile.get('id'))\n                t_type = tile.get('type')\n                has_obj = tile.get('has-object') == 'true'\n                \n                # Basic collision\n                is_wall = (t_type == \"WALL\" or t_type == \"BUOY\" or has_obj)\n                grid[(x, y)] = {\"wall\": is_wall, \"type\": t_type}\n\n        queue = deque([(start_x, start_y, [])])\n        visited = {(start_x, start_y)}\n        \n        while queue:\n            x, y, path = queue.popleft()\n            \n            if x == target_x and y == target_y:\n                print(json.dumps(path))\n                return\n            \n            for dx, dy, move in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n                nx, ny = x + dx, y + dy\n                \n                if 0 <= nx < width and 0 <= ny < height and (nx, ny) not in visited:\n                    tile_info = grid.get((nx, ny))\n                    if not tile_info or tile_info.get(\"wall\", True):\n                        # Exception: Allow target tile even if it has an object (to interact with it)\n                        if (nx, ny) != (target_x, target_y):\n                            continue\n                    \n                    # One-way ledge handling (FLOOR_UP_WALL)\n                    if tile_info.get(\"type\") == \"FLOOR_UP_WALL\" and move == \"Up\":\n                        continue\n                    \n                    visited.add((nx, ny))\n                    queue.append((nx, ny, path + [move]))\n                    \n        print(json.dumps({\"error\": f\"No path found to ({target_x}, {target_y})\"}))\n    except Exception as e:\n        print(json.dumps({\"error\": str(e)}))\n\nsolve()",
+    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\nimport json\n\ndef solve():\n    try:\n        root = ET.fromstring(map_xml_string)\n        width = int(root.get('width'))\n        height = int(root.get('height'))\n        \n        # Find player tile and its parent Row\n        player_tile = None\n        player_row = None\n        for row in root.findall('Row'):\n            for tile in row.findall('Tile'):\n                if tile.find('Player') is not None:\n                    player_tile = tile\n                    player_row = row\n                    break\n            if player_tile: break\n            \n        if not player_tile:\n            print(json.dumps({\"error\": \"Player position not found in map XML.\"}))\n            return\n        \n        start_x = int(player_tile.get('id'))\n        start_y = int(player_row.get('id'))\n        \n        target_x = int(input_data['target_x'])\n        target_y = int(input_data['target_y'])\n        \n        if start_x == target_x and start_y == target_y:\n            print(json.dumps([]))\n            return\n\n        # Collision map\n        grid = {}\n        for row in root.findall('Row'):\n            y = int(row.get('id'))\n            for tile in row.findall('Tile'):\n                x = int(tile.get('id'))\n                t_type = tile.get('type')\n                has_obj = tile.get('has-object') == 'true'\n                is_wall = (t_type in [\"WALL\", \"BUOY\"] or has_obj)\n                grid[(x, y)] = {\"wall\": is_wall, \"type\": t_type}\n\n        queue = deque([(start_x, start_y, [])])\n        visited = {(start_x, start_y)}\n        \n        while queue:\n            x, y, path = queue.popleft()\n            \n            if x == target_x and y == target_y:\n                print(json.dumps(path))\n                return\n            \n            for dx, dy, move in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n                nx, ny = x + dx, y + dy\n                \n                if 0 <= nx < width and 0 <= ny < height and (nx, ny) not in visited:\n                    tile_info = grid.get((nx, ny), {\"wall\": True, \"type\": \"unseen\"})\n                    \n                    if tile_info[\"wall\"] and (nx, ny) != (target_x, target_y):\n                        continue\n                    \n                    if tile_info[\"type\"] == \"FLOOR_UP_WALL\" and move == \"Up\":\n                        continue\n                    \n                    visited.add((nx, ny))\n                    queue.append((nx, ny, path + [move]))\n                    if len(path) > 1000: break\n                        \n        print(json.dumps({\"error\": f\"No path found to ({target_x}, {target_y})\"}))\n    except Exception as e:\n        print(json.dumps({\"error\": str(e)}))\n\nsolve()",
     "history": [
       {
         "commit_message": "Initial version",
-        "timestamp": "2026-01-16T02:08:35.877Z",
-        "action_counter": 49981
-      },
-      {
-        "commit_message": "Fixed NoneType error in BFS loop by ensuring tile_info existence check.",
-        "timestamp": "2026-01-16T02:09:28.419Z",
-        "action_counter": 49984
-      }
-    ]
-  },
-  "find_path_v7_fixed": {
-    "description": "Finds a path using BFS on the current map XML, handling walls, objects, and one-way ledge jumps. Returns a JSON array of button strings. Refined for efficiency and accuracy. v7.0.",
-    "input_schema": {
-      "properties": {
-        "autopress_buttons": {
-          "default": false,
-          "description": "If true and the tool returns a list of buttons, they will be pressed automatically. Safety limit of 50 buttons per turn.",
-          "type": "boolean"
-        },
-        "target_x": {
-          "type": "integer"
-        },
-        "target_y": {
-          "type": "integer"
-        }
-      },
-      "required": [
-        "target_x",
-        "target_y",
-        "autopress_buttons"
-      ],
-      "type": "object"
-    },
-    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\nimport json\n\ndef solve():\n    try:\n        root = ET.fromstring(map_xml_string)\n        width = int(root.get('width'))\n        height = int(root.get('height'))\n        \n        # Get current player position\n        start_node = root.find(\".//Tile[Player]\")\n        if start_node is None:\n            print(json.dumps({\"error\": \"Player position not found in map XML.\"}))\n            return\n        \n        start_x = int(start_node.get('id'))\n        start_y = int(start_node.find(\"..\").get('id'))\n        \n        target_x = int(input_data['target_x'])\n        target_y = int(input_data['target_y'])\n        \n        if start_x == target_x and start_y == target_y:\n            print(json.dumps([]))\n            return\n\n        grid = {}\n        for row in root.findall('Row'):\n            y = int(row.get('id'))\n            for tile in row.findall('Tile'):\n                x = int(tile.get('id'))\n                t_type = tile.get('type')\n                has_obj = tile.get('has-object') == 'true'\n                \n                # Basic collision\n                is_wall = (t_type == \"WALL\" or t_type == \"BUOY\" or has_obj)\n                grid[(x, y)] = {\"wall\": is_wall, \"type\": t_type}\n\n        queue = deque([(start_x, start_y, [])])\n        visited = {(start_x, start_y)}\n        \n        while queue:\n            x, y, path = queue.popleft()\n            \n            if x == target_x and y == target_y:\n                print(json.dumps(path))\n                return\n            \n            for dx, dy, move in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n                nx, ny = x + dx, y + dy\n                \n                if 0 <= nx < width and 0 <= ny < height and (nx, ny) not in visited:\n                    tile_info = grid.get((nx, ny), {\"wall\": True, \"type\": \"unseen\"})\n                    \n                    if tile_info[\"wall\"]:\n                        if (nx, ny) != (target_x, target_y):\n                            continue\n                    \n                    if tile_info[\"type\"] == \"FLOOR_UP_WALL\" and move == \"Up\":\n                        continue\n                    \n                    visited.add((nx, ny))\n                    queue.append((nx, ny, path + [move]))\n                    if len(path) > 500: # Safety break\n                        break\n                        \n        print(json.dumps({\"error\": f\"No path found to ({target_x}, {target_y})\"}))\n    except Exception as e:\n        print(json.dumps({\"error\": str(e)}))\n\nsolve()",
-    "history": [
-      {
-        "commit_message": "Fixed NoneType error in BFS loop by ensuring tile_info existence check and robust handling of unseen tiles.",
-        "timestamp": "2026-01-16T02:10:45.933Z",
-        "action_counter": 49987
+        "timestamp": "2026-01-16T02:13:29.335Z",
+        "action_counter": 49991
       }
     ]
   }

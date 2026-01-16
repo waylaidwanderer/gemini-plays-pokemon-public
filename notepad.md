@@ -3,10 +3,9 @@
 The northern plateau (14, 10) is blocked by boulders. I need TM08 Rock Smash to proceed. 
 
 ### Action Plan
-1. Search the northern rock clusters (Row 16-27) for the TM NPC. This is the most likely source.
-2. Systematic check of remaining buildings: Pharmacy (15, 47) and Lugia Speech House (15, 37).
-3. Teach Rock Smash to GNEISS (Graveler) or GORP (Snorlax).
-4. Clear boulders at (8, 16) or (10, 27) and reach Suicune.
+1. Search for the NPC outside near the northern rock clusters (Row 16-27) to obtain TM08. (In Progress)
+2. Teach Rock Smash to GNEISS (Graveler) or GORP (Snorlax).
+3. Clear boulders at (8, 16) or (10, 27) and reach Suicune.
 
 ## Verified Mechanics
 - FLOOR_UP_WALL: One-way ledge/impassable from the North.
@@ -15,8 +14,7 @@ The northern plateau (14, 10) is blocked by boulders. I need TM08 Rock Smash to 
 
 ## Battle Plan: Eusine
 - Calcifer (Lv64 Typhlosion) sweep.
-- Drowzee/Haunter: Flamethrower.
-- Electrode: Thunderpunch or Return.
+- Strategy: Flamethrower for all (Drowzee, Haunter, Electrode).
 
 ## Phone Contacts
 - Tully, Alan, Arnie, Chad, Dana.
