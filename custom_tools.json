@@ -1,29 +1,4 @@
 {
-  "menu_navigator_refined": {
-    "description": "Presses a sequence of buttons to navigate menus or interact with objects. Bypasses directional/action button restrictions. Returns a JSON array of button strings. Refined for efficiency.",
-    "input_schema": {
-      "properties": {
-        "buttons": {
-          "items": {
-            "type": "string"
-          },
-          "type": "array"
-        }
-      },
-      "required": [
-        "buttons"
-      ],
-      "type": "object"
-    },
-    "python_script": "import json\nprint(json.dumps(input_data['buttons']))\n",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-01-15T16:14:41.225Z",
-        "action_counter": 49291
-      }
-    ]
-  },
   "find_path_v6_fixed_refined_v2": {
     "description": "Finds a path using BFS on the current map XML, handling walls, objects, and one-way ledge jumps. Returns a JSON array of button strings. Avoids DOOR tiles unless they are the target. Refined for efficiency.",
     "input_schema": {
@@ -52,6 +27,31 @@
         "commit_message": "Refined pathfinding with robust collision and one-way ledge handling.",
         "timestamp": "2026-01-15T18:12:40.975Z",
         "action_counter": 49415
+      }
+    ]
+  },
+  "menu_navigator_refined": {
+    "description": "Presses a sequence of buttons to navigate menus or interact with objects. Bypasses directional/action button restrictions. Returns a JSON array of button strings. Refined for efficiency.",
+    "input_schema": {
+      "properties": {
+        "buttons": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        }
+      },
+      "required": [
+        "buttons"
+      ],
+      "type": "object"
+    },
+    "python_script": "import json\nprint(json.dumps(input_data['buttons']))\n",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-15T16:14:41.225Z",
+        "action_counter": 49291
       }
     ]
   },
