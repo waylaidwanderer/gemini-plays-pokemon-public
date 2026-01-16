@@ -1,14 +1,14 @@
 # Strategy: Trigger Suicune Sighting
-- Plan: The Northern Surf Route.
+- Plan: The Zigzag Surf Route.
 - Steps:
-  1. Surf East to (27, 10).
-  2. Surf North to (27, 8).
-  3. Surf West to (19, 8).
-  4. Surf South to (19, 11).
-  5. Surf West to reach land at (16, 11) or (15, 11).
-  6. Walk to (14, 10) to trigger Suicune.
+  1. Surf Down to (24, 16).
+  2. Surf West to (21, 16) (Bypasses Col 22 buoy wall).
+  3. Surf North to (21, 14).
+  4. Surf West to (18, 14) (Bypasses Col 19 buoy wall).
+  5. Surf North to (18, 11).
+  6. Surf West to land at (16, 11).
+  7. Walk to (14, 10) to trigger Suicune.
 - Battle Prep: Lead Calcifer (Lv64 Typhlosion).
-- Note: This route bypasses the buoy walls at Row 9 (Cols 22-26) and Column 19 (Rows 15-20).
 
 # Tile Mechanics
 - FLOOR: Standard traversable tile.
@@ -24,8 +24,9 @@
 - Great Southern Loop: Blocked by one-way slopes (Row 48/50).
 - Row 9 direct crossing: Blocked by buoy wall (Cols 22-26).
 - Column 24 North: Blocked by buoy at (24, 9).
+- Northern Surf Route: Blocked by buoy at (26, 8). (Failed 1 time)
 
 # Time Tracking
 - Goal: Trigger Suicune sighting in Cianwood.
 - Started: Turn 51530.
-- Current: Turn 51571.
+- Current: Turn 51573.
