@@ -1,7 +1,7 @@
 # Strategic Status
 - **Goal:** Catch Raikou (#243) & Entei (#244).
 - **Hunt Duration:** ~14,350 turns. Resumed: Turn 41847.
-- **Status:** Roamer Hunt Loop (Last Repel).
+- **Status:** Resupply Run (Goldenrod - Out of Repels).
 - **Plan:**
     1. **Execute Loop:**
        a. Start at Route 37 Gate (8,0).
