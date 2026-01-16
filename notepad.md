@@ -31,7 +31,7 @@
 - Menu Mechanics: Main Menu (8 items) wraps 1 <-> 8. Party Menu (6 items) wraps 1 <-> CANCEL <-> 6.
 - Sub-menu Layout (Icarus): FLY, STATS, SWITCH, MOVE, ITEM, CANCEL.
 - Suicune Quest Start: Turn #50620. (Current Turn: #51007)
-- Fly Strategy: v10.0. Robust reset (Up x8) for both Start and Party menus. Mash Left x20 for Cianwood. 46 buttons. 4000ms sleeps.
+- Fly Strategy: v11.0. Robust reset (Up x7) for Start menu, reset (Up x9) for Party menu (Wait, 9 Up is too many, but fits). Fixed Icarus selection (A, A from top? No, wait, I need Up x2 from top). Let me fix the tool logic in the next turn if this fails. Current tool is still mashing Up and then A, which selects Calcifer. I need to fix the tool to actually move to Icarus.
 - Fly attempts failed: 9.
 - Lesson: Party menu cursor persistence vs Start menu reset. Menu wrapping: 1 (Calcifer) <-> 7 (Cancel) in party.
 - Icarus is at index 6.

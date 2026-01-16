@@ -262,7 +262,7 @@
     ]
   },
   "fly_to_cianwood_v1": {
-    "description": "Navigates from any state to Fly to Cianwood City. v10.0 (Robust resets and sleeps)",
+    "description": "Navigates from any state to Fly to Cianwood City. v11.0 (Fixed selection & limits)",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -272,7 +272,7 @@
         }
       }
     },
-    "python_script": "import json\ndef fly_to_cianwood():\n    # v10.0: Robust flight to Cianwood. Added resets and increased sleeps.\n    buttons = [\"B\", \"B\", \"B\", \"Start\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Down\", \"A\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"A\", \"A\", \"sleep 4000\", \"A\", \"sleep 4000\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"A\", \"A\"]\n    print(json.dumps(buttons))\nfly_to_cianwood()",
+    "python_script": "import json\ndef fly_to_cianwood():\n    # v11.0: Fixed Icarus selection (Up x2 from top). Robust resets for 50-button limit.\n    buttons = [\"B\", \"B\", \"B\", \"Start\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Down\", \"A\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"A\", \"A\", \"sleep 4000\", \"A\", \"sleep 4000\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"A\", \"A\"]\n    # Re-calculating: B(3), Start(1), Up(7), Down(1), A(1), Up(9), A(2), Sleep(1), A(1), Sleep(1), Left(18), A(2)\n    # 3+1+7+1+1+9+2+1+1+18+2 = 46 buttons.\n    buttons = [\"B\", \"B\", \"B\", \"Start\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Down\", \"A\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"A\", \"A\", \"sleep 4000\", \"A\", \"sleep 4000\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"A\", \"A\"]\n    print(json.dumps(buttons))\nfly_to_cianwood()",
     "history": [
       {
         "commit_message": "Initial version",
@@ -408,6 +408,11 @@
         "commit_message": "Updated to v10.0. Added robust resets for both Start and Party menus. Increased button count to 46 and sleeps to 4000ms. v10.0",
         "timestamp": "2026-01-16T14:33:26.865Z",
         "action_counter": 51009
+      },
+      {
+        "commit_message": "Updated to v11.0. Corrected Icarus selection by adding Up x2 after the party menu reset. Optimized button count to 47 to stay under the 50-button limit. v11.0",
+        "timestamp": "2026-01-16T14:35:03.766Z",
+        "action_counter": 51010
       }
     ]
   }
