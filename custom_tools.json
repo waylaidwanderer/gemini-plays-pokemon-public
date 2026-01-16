@@ -257,7 +257,7 @@
     ]
   },
   "fly_to_city_v2": {
-    "description": "Automatically navigates the menu and Fly map to a specified city. Assumes starting from the overworld. v2.0",
+    "description": "Automatically navigates the menu and Fly map to a specified city. Assumes starting from the overworld. v2.0.1",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -299,12 +299,17 @@
         "target_city"
       ]
     },
-    "python_script": "import json\n\noffsets = {\n    'NEW_BARK': (14, 10),\n    'CHERRYGROVE': (11, 10),\n    'VIOLET': (11, 7),\n    'AZALEA': (8, 12),\n    'GOLDENROD': (5, 9),\n    'ECRUTEAK': (8, 6),\n    'OLIVINE': (5, 6),\n    'CIANWOOD': (1, 6),\n    'MAHOGANY': (11, 6),\n    'BLACKTHORN': (14, 6),\n    'INDIGO_PLATEAU': (14, 4)\n}\n\ntarget_city = input_data['target_city'].upper()\ncurrent_city = input_data['current_city'].upper()\n\nt_x, t_y = offsets[target_city]\nc_x, c_y = offsets[current_city]\n\ndx = t_x - c_x\ndy = t_y - c_y\n\n# Sequence: B's to exit menus, Start, Up x 8 (to reach Pokedex), Down (to Pokemon), A, Up (from slot 1 to slot 6), A, A (select Fly)\nbuttons = ['B', 'B', 'B', 'B', 'B', 'Start', 'Up', 'Up', 'Up', 'Up', 'Up', 'Up', 'Up', 'Up', 'Down', 'A', 'Up', 'A', 'A', 'sleep 1000']\n\nif dx < 0:\n    buttons += ['Left'] * abs(dx)\nelif dx > 0:\n    buttons += ['Right'] * dx\n\nif dy < 0:\n    buttons += ['Up'] * abs(dy)\nelif dy > 0:\n    buttons += ['Down'] * dy\n\nbuttons += ['A']\nprint(json.dumps(buttons))",
+    "python_script": "import json\n\noffsets = {\n    'NEW_BARK': (14, 10),\n    'CHERRYGROVE': (11, 10),\n    'VIOLET': (11, 7),\n    'AZALEA': (8, 12),\n    'GOLDENROD': (5, 9),\n    'ECRUTEAK': (8, 6),\n    'OLIVINE': (5, 6),\n    'CIANWOOD': (1, 6),\n    'MAHOGANY': (11, 6),\n    'BLACKTHORN': (14, 6),\n    'INDIGO_PLATEAU': (14, 4)\n}\n\ntarget_city = input_data['target_city'].upper()\ncurrent_city = input_data['current_city'].upper()\n\nt_x, t_y = offsets[target_city]\nc_x, c_y = offsets[current_city]\n\ndx = t_x - c_x\ndy = t_y - c_y\n\n# Robust sequence: \n# 1. Clear menus (B x 5)\n# 2. Start\n# 3. Up x 8 (Reset to top of Start menu: POKEDEX)\n# 4. Down x 1 (Move to POKEMON)\n# 5. A (Open Party menu)\n# 6. Up x 6 (Reset to top of Party menu: Slot 1)\n# 7. Down x 5 (Move to Slot 6: ICARUS)\n# 8. A (Open Icarus sub-menu)\n# 9. A (Select FLY - usually the first option)\n# 10. sleep 1000 (Wait for Fly map)\nbuttons = ['B', 'B', 'B', 'B', 'B', 'Start', 'Up', 'Up', 'Up', 'Up', 'Up', 'Up', 'Up', 'Up', 'Down', 'A', 'Up', 'Up', 'Up', 'Up', 'Up', 'Up', 'Down', 'Down', 'Down', 'Down', 'Down', 'A', 'A', 'sleep 1000']\n\nif dx < 0:\n    buttons += ['Left'] * abs(dx)\nelif dx > 0:\n    buttons += ['Right'] * dx\n\nif dy < 0:\n    buttons += ['Up'] * abs(dy)\nelif dy > 0:\n    buttons += ['Down'] * dy\n\nbuttons += ['A']\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2026-01-16T08:22:32.866Z",
         "action_counter": 50528
+      },
+      {
+        "commit_message": "Refined for robust menu navigation using cursor reset technique.",
+        "timestamp": "2026-01-16T08:24:09.842Z",
+        "action_counter": 50530
       }
     ]
   }
