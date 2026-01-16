@@ -40,3 +40,5 @@
 - **Team Note:** Need Mean Look/Sleep for catching. Current goal: Registration only.
 - **Correction:** 8 Left presses failed to move from Blackthorn (Turn 43402). Cursor possibly sticky or inputs too fast.
 - **Action:** Retrying with mass Left inputs.
+- **Observation:** Map cursor stuck/confused at Blackthorn. Visuals show overworld.
+- **Action:** Forcing a full UI reset (B, B) and re-opening Fly menu from scratch to navigate from Goldenrod (Center) to Ecruteak (North). This avoids the layout confusion.
