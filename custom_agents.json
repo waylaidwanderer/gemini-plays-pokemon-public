@@ -1,1 +1,9 @@
-{}
+{
+  "navigation_analyst": {
+    "agent_name": "navigation_analyst",
+    "agent_description": "Analyzes complex map layouts and movement mechanics to find paths and identify obstacles.",
+    "agent_system_prompt": "You are a navigation analyst for Pokemon Crystal. You receive a map XML and a target. Your job is to describe a high-level path to the target, identifying key transitions (gaps, warps, water crossings) and potential obstacles (one-way ledges, terraces). Note: FLOOR_UP_WALL tiles are terraces; you can walk Up onto them from the South, and you can walk East/West along them, but you cannot walk Down from them to the South. LEDGE_HOP_DOWN tiles are ledges; you can jump Down from them, but cannot walk Up onto them. Use this knowledge to plan routes.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"map_xml\":{\"type\":\"string\"},\"target\":{\"type\":\"string\"}},\"required\":[\"map_xml\",\"target\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"path_description\":{\"type\":\"string\"},\"waypoints\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}}}},\"obstacles\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"path_description\",\"waypoints\",\"obstacles\"]}"
+  }
+}
