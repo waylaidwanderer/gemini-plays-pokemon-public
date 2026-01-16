@@ -14,12 +14,18 @@
 
 # Strategy: Trigger Suicune Sighting (Started: Turn 51131)
 - Objective: Reach the northern coast of Cianwood City at (14, 10).
-- Current Strategy: Land Route (Verified Turn 51236).
+- Current Strategy: Outer Sea Route (Pivoted Turn 51253).
 - Execution Plan:
-  1. Walk East to (13, 29).
-  2. Walk South to (13, 35) (detour around vertical walls).
-  3. Walk West to (2, 35) (enter western corridor).
-  4. Walk North to (2, 14) (bypass all northern horizontal walls).
-  5. Walk East to (8, 14) and North to (8, 12).
-  6. Walk East to (14, 12) and North to (14, 10).
+  1. Walk to (23, 32) FLOOR.
+  2. Face Right and SURF at (24, 32) WATER.
+  3. Surf North to (24, 8) to bypass the buoy line at X=22.
+  4. Surf West to (14, 8).
+  5. Surf South to (14, 9) and move Down to land at (14, 10).
 - Battle Prep: Lead Calcifer (Lv64 Typhlosion) for Eusine encounter.
+
+# Discovered Obstacles
+- Rock at (10, 27).
+- Rock at (4, 19).
+- Rock at (9, 17).
+- Tully has an item for me on Route 42.
+- Eusine is waiting at the northern coast.
