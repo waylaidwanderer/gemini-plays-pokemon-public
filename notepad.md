@@ -1,33 +1,31 @@
 # Suicune Quest: Cianwood City
 - **Quest Start:** Turn 49885
-- **Current Status:** Executing the "Gem Corridor" (X=6) route.
+- **Status:** Executing the "Ocean Loop" to bypass island elevation traps.
 
-## Active Strategy: The Gem Corridor (X=6)
-The northern plateau (14, 10) is accessible via the western coastal highway (X=2). This route uses the X=6 corridor to bypass central walls and elevation traps.
+## The Strategy: The Ocean Loop
+The northern plateau (14, 10) is a high-altitude zone protected by south-facing elevation traps (FLOOR_UP_WALL). The only entry is via the western coastal highway (X=2). To reach X=2 without hitting traps, we loop through the eastern ocean.
 
 ### Execution Plan
-1. Central Ascent: Walk North from (12, 47) to (12, 44), then West to (6, 44). (In Progress)
-2. Terrace Sprint: Walk North along X=6 to (6, 18).
-3. West Coast Entry: Walk West to (4, 18), South to (4, 20), and West to (2, 20).
-4. Highway Dash: Walk North along X=2 to Row 10.
-5. Final Approach: Walk East to (14, 10) and trigger Suicune.
+1. Eastern Shore: Walk to (23, 33). (In Progress)
+2. Ocean Entry: Face Right and use SURF (GORP).
+3. Sea Transit: Surf South along X=24 to (24, 51).
+4. Southern Landing: Land at (24, 51).
+5. Southern Traverse: Walk West along Row 51 to (4, 51).
+6. Coastal Ascent: Walk North along X=4 to (4, 21).
+7. Mechanical Bypass: Move North through (4, 20) [UP_WALL] to reach the highway.
+8. The Dash: Walk North along X=2 to Row 12.
+9. Victory: Walk East to (14, 12) and North to Suicune at (14, 10).
 
 ## Verified Mechanics
-- UP_WALL: Blocks DOWN movement. Moving UP is allowed. (e.g., (6, 34), (4, 20), (6, 46)).
-- X=6 Corridor: Clear north-south path from Row 44 to Row 18.
+- Row 51: Completely clear land bridge from X=2 to X=24.
+- UP_WALL: Blocks DOWN movement. Moving UP is allowed. (e.g., (4, 20)).
+- X=4 Corridor: Clear north-south path from Row 51 to Row 20.
 - X=2 Highway: Clear north-south path from Row 20 to Row 10.
 
 ## Battle Plan: Eusine
-- Expected Team: Drowzee (Lv23), Haunter (Lv23), Electrode (Lv25).
-- Lead: Calcifer (Lv64 Typhlosion). Strategy: Flamethrower.
-
-## Failed Hypotheses
-- Hypothesis 1: Land access via X=11 (blocked by Row 31 wall).
-- Hypothesis 2: Direct Surf to beach (dead end).
-- Hypothesis 3: Cut tree at (11, 13) (fake tree).
-- Hypothesis 4: Southern loop via Row 51 (blocked by elevation traps).
+- Roster: Drowzee (Lv23), Haunter (Lv23), Electrode (Lv25).
+- Lead: Calcifer (Lv64 Typhlosion). Strategy: Flamethrower sweep.
 
 ## Map Markers (Obstacles)
 - (5, 29), (10, 27), (4, 25), (4, 19): Smashable Rocks.
 - (14, 10): Suicune trigger point.
-- (5, 18): Western Bypass gap.
