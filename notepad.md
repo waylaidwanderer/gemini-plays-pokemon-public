@@ -38,3 +38,5 @@
 - Cooltrainer Gaven (Route 26): Ready.
 - Bug Catcher Wade (Route 31): Offering Berries.
 - **Team Note:** Need Mean Look/Sleep for catching. Current goal: Registration only.
+- **Correction:** 8 Left presses failed to move from Blackthorn (Turn 43402). Cursor possibly sticky or inputs too fast.
+- **Action:** Retrying with mass Left inputs.
