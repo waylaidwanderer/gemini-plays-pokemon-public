@@ -262,9 +262,9 @@
     ]
   },
   "fly_to_cianwood_v1": {
-    "description": "Navigates from the overworld to Fly to Cianwood City. Assumes starting from the overworld. v2.0",
+    "description": "Navigates from the overworld to Fly to Cianwood City. Assumes starting from the overworld or a menu. v2.1",
     "input_schema": {},
-    "python_script": "import json\n# Sequence:\n# 1. B x5 (Exit to overworld)\n# 2. Start (Open menu)\n# 3. Up x5 (Reset to top of menu - POKEDEX)\n# 4. Down (Move to POKEMON) -> A\n# 5. sleep 500\n# 6. Up x5 (Reset to 1st PKMN - Calcifer)\n# 7. Down x5 (Move to 6th PKMN - ICARUS) -> A\n# 8. sleep 500\n# 9. A (Select FLY)\n# 10. sleep 1000\n# 11. Left x20 (Move far west on map)\n# 12. A -> A (Confirm flight)\nprint(json.dumps(['B']*5 + ['Start'] + ['Up']*5 + ['Down', 'A', 'sleep 500'] + ['Up']*5 + ['Down']*5 + ['A', 'sleep 500', 'A', 'sleep 1000'] + ['Left']*20 + ['A', 'A']))",
+    "python_script": "import json\n# Sequence:\n# 1. B x5 (Exit to overworld)\n# 2. Start (Open menu)\n# 3. Up x4 (Move from SAVE to POKEMON) -> A\n# 4. sleep 500\n# 5. Up x10 (Reset to 1st PKMN - Calcifer)\n# 6. Down x5 (Move to 6th PKMN - ICARUS) -> A\n# 7. sleep 500\n# 8. A (Select FLY)\n# 9. sleep 1000\n# 10. Left x25 (Move far west on map)\n# 11. A -> A (Confirm flight)\nprint(json.dumps(['B']*5 + ['Start', 'Up', 'Up', 'Up', 'Up', 'A', 'sleep 500'] + ['Up']*10 + ['Down']*5 + ['A', 'sleep 500', 'A', 'sleep 1000'] + ['Left']*25 + ['A', 'A']))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -320,6 +320,11 @@
         "commit_message": "v2.0: Robust sequence starting from any state. Uses resets and sleeps for stability. 47 buttons.",
         "timestamp": "2026-01-16T14:05:14.000Z",
         "action_counter": 50987
+      },
+      {
+        "commit_message": "v2.1: Robust sequence. Clears save menu, assumes cursor on SAVE. Uses 10x Up for party reset. 50 buttons.",
+        "timestamp": "2026-01-16T14:07:19.573Z",
+        "action_counter": 50988
       }
     ]
   }
