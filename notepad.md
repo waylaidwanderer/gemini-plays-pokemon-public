@@ -1,28 +1,25 @@
 # Suicune Quest: Cianwood City
-## Verified Strategy: The Plateau Landing
-The northern plateau (14, 10) is most efficiently reached by Surfing from the central land mass and landing at the northern plateau landing (13, 16). This bypasses all one-way terrace slopes.
+## Verified Strategy: The Western Bypass
+The northern plateau (14, 10) is accessible via a pure land route that bypasses the central walls and ledges by looping through the western section of the city.
 
 ### Execution Plan
-1. Central Approach: Walk to the central Surf point at (12, 28). (In Progress)
-2. Central Surf: Surf East into the central lake and navigate North to (14, 16).
-3. Plateau Landing: Land at (13, 16) and walk West/North around the internal walls.
-4. Trigger Suicune: Reach (14, 10) to initiate the event.
+1. Western Loop: Walk South to Row 38, then West through the gap at (9, 38). (In Progress)
+2. Western Ascent: Walk North along Column 2 (or adjacent clear rows) to Row 14.
+3. Plateau Entry: Walk East along Row 14 to (8, 14) and North to Row 12.
+4. Final Approach: Walk East along Row 12 to (14, 12) and North to Suicune at (14, 10).
 
-### Land Path from Landing (13, 16) to Suicune (14, 10)
-- Walk West to (0, 16).
-- Walk Up to (0, 14).
-- Walk East to (8, 14).
-- Walk Up to (8, 12).
-- Walk East to (14, 12).
-- Walk Up to (14, 10).
+### Key Transition Points
+- (9, 38): Gap between walls at the central land mass.
+- (4, 30), (4, 20): FLOOR_UP_WALL tiles (One-way North) that allow access to upper terraces.
+- (11, 15): Gap in the ledge system (FLOOR tile) at Column 11.
+- (8, 14) -> (8, 13) -> (8, 12): Gap in the northern walls.
 
 ## Tile Mechanics
 - FLOOR: Standard land (Traversable).
 - WATER: Water (Requires Surf).
 - WALL: Impassable.
-- BUOY: Impassable water barrier.
-- FLOOR_UP_WALL: One-way North (e.g., Row 46, 34, 20).
-- LEDGE_HOP_DOWN: One-way South (e.g., Row 15).
+- FLOOR_UP_WALL: One-way North (e.g., (6, 46), (4, 30), (4, 20)).
+- LEDGE_HOP_DOWN: One-way South (e.g., (10, 15)).
 
 ## Battle Plan: Eusine
 - Expected Team: Drowzee (Lv23), Haunter (Lv23), Electrode (Lv25).
