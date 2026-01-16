@@ -1,13 +1,12 @@
-# Strategy: Trigger Suicune Sighting (Started: Turn 51131, Turn 51341 - Refined Plan)
-- City Logic: Vertical walls partition the city. Row 51 is the only continuous horizontal highway. Gaps in the Row 50 terraces exist at X=11 and X=20.
-- The Long Trek (Execution Plan):
-  1. Walk West to (12, 32), then South to (12, 49).
-  2. Walk West to (10, 49), then South to (10, 50).
-  3. Walk East to (11, 50), then South to (11, 51) (Southern Highway).
-  4. Walk West along Row 51 to (2, 51) (Western Corridor).
-  5. Walk North along X=2 to (2, 14).
-  6. Walk East to (8, 14), then North to (8, 10).
-  7. Walk East to (14, 10) for the Suicune sighting.
+# Strategy: Trigger Suicune Sighting (Started: Turn 51131, Turn 51342 - Refined Plan)
+- City Logic: Vertical walls partition the city. Row 13 and Row 15 are major barriers. Gaps exist at (11, 15), (8, 13), and (13, 13).
+- The Center Shortcut (Execution Plan):
+  1. Walk North to (12, 28).
+  2. Use SURF at (12, 28) to cross the Row 20 water; land at (12, 19).
+  3. Walk North to (12, 16), then West to (11, 16).
+  4. Walk North to (11, 14), then West to (8, 14).
+  5. Walk North through the gap at (8, 13) to (8, 12).
+  6. Walk East to (14, 12), then North to (14, 10) for the Suicune sighting.
 - Battle Prep: Lead Calcifer (Lv64 Typhlosion).
 
 # Tile Mechanics
