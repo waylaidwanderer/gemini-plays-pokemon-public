@@ -1,9 +1,10 @@
 # Strategy: Trigger Suicune Sighting (Started: Turn 51131)
-- Execution Plan (The Outer Sea Highway):
-  1. Surf North along Column 28 to Row 10.
-  2. Surf West to (19, 10).
-  3. Land at (18, 10) or (17, 10) and walk West to (14, 10).
-  4. Trigger Suicune sighting.
+- Execution Plan (The Great Outer Sea Bypass):
+  1. Surf North along Column 28 to Row 6.
+  2. Surf West along Row 6 to (19, 6) (Bypasses buoy rings at Col 26 and Col 22).
+  3. Surf South to (19, 11).
+  4. Surf West and land at (16, 11).
+  5. Walk West to (14, 11) and North to (14, 10).
 - Battle Prep: Lead Calcifer (Lv64 Typhlosion).
 
 # Tile Mechanics
