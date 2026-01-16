@@ -16,3 +16,4 @@
 - **Fly Map:** Starts at current town. Cursor moves smoothly. Relative positions: New Bark (East), Cherrygrove (West), Violet (North), Azalea (South), Goldenrod (West/North), Olivine (West), Cianwood (Far West).
 - **Coordinates:** Notepad coordinates (e.g., Cianwood 14, 10) refer to the internal map grid, not the Fly Map cursor position.
 - **Suicune Spot:** (14, 10) in Cianwood City. Requires Rock Smash at (4, 19) and (8, 16) to reach. [Hypothesis - Advisor]
+- **Annotation Alert:** The screen annotation system incorrectly labels Fly map tiles with overworld coordinates and 'Player' markers. Ignore these labels while on the Fly map.
