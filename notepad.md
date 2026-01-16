@@ -1,10 +1,10 @@
 # Strategy: The Suicune Pursuit
 - **Quest Started:** Turn #50620 (Cianwood City)
-- **Status:** All boulders cleared. Phase 1 complete.
+- **Status:** Phase 1 (Boulders) complete. Phase 2 (Sighting) in progress.
 - **Phase 2: Reaching the Sighting Spot**
   - Target: (14, 10) in northern Cianwood.
-  - Path: Surf from (13, 16) onto (14, 16). Surf North to Row 10. Land at (16, 10) or (17, 10). Walk West to (14, 10).
-  - Alternative Path: Check the far left side (X=0, 1, 2) to see if it leads north, or check the warp at (5, 17).
+  - Hypothesis 1: Use the warp at (5, 17) labeled "Suicune Sighting Area Entrance".
+  - Hypothesis 2: Surf around the wall at Row 15. Requires going East to X=23 to bypass buoys, then North to Row 14, then West to land.
   - Note: Be prepared for Eusine battle immediately after Suicune bolts.
 
 # Tile Mechanics (Verified)
@@ -18,6 +18,7 @@
 - ROCK (Object): Blocks movement; can be cleared with Rock Smash.
 
 # Lessons Learned
+- **Cianwood Pathing:** (11, 15) leads to a dead-end pocket at (11, 14). Do not use.
 - **Menu Navigation:** The "Switch items?" confirmation box is modal; B button does not close it. Use A on NO to exit.
 - **Fly Map:** Cursor positions: New Bark (East), Cherrygrove (West), Violet (North), Azalea (South), Goldenrod (West/North), Olivine (West), Cianwood (Far West).
 - **Coordinates:** Notepad coordinates refer to the internal map grid, not Fly Map cursor.
