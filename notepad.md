@@ -5,7 +5,7 @@
 - **Plan:**
     1. **Execute Loop:**
        a. Start at Route 37 Gate (8,0).
-       b. Use Super Repel.
+       b. Use Super Repel (if expired).
        c. Call `check_route37_grass` (Enters grass, checks, returns to gate).
        d. Call `enter_ecruteak_from_route37` (Resets map).
        e. Call `exit_ecruteak_to_route37` (Returns to gate).
