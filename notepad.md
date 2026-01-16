@@ -3,7 +3,8 @@
 - **Status:** All boulders cleared. Phase 1 complete.
 - **Phase 2: Reaching the Sighting Spot**
   - Target: (14, 10) in northern Cianwood.
-  - Path: Check the warp at (5, 17). If it's just a house, use the Row 12 corridor: (6, 20) -> (6, 19) -> (4, 19) -> (4, 14) -> (5, 14) -> (5, 12) -> (14, 12) -> (14, 10).
+  - Path: Use the left-side corridor (X=0, 1, 2) to bypass the Row 15 wall. 
+  - Route: (13, 16) -> (13, 19) -> (4, 19) -> (4, 20) -> (2, 20) -> (2, 10) -> (14, 10).
   - Note: Be prepared for Eusine battle immediately after Suicune bolts.
 
 # Tile Mechanics (Verified)
