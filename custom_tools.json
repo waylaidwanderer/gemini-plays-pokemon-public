@@ -262,9 +262,9 @@
     ]
   },
   "fly_to_cianwood_v1": {
-    "description": "Navigates from the overworld to Fly to Cianwood City. Assumes starting from a city east of Cianwood with the menu cursor on POKÉGEAR. v1.8",
+    "description": "Navigates from the overworld to Fly to Cianwood City. Assumes starting from a city east of Cianwood with the menu cursor on POKÉGEAR. v1.9",
     "input_schema": {},
-    "python_script": "import json\n# Sequence:\n# 1. Start (Open menu)\n# 2. Up x2 (GEAR -> POKEMON) -> A\n# 3. Up x2 (1st PKMN -> CANCEL -> 6th PKMN - ICARUS) -> A\n# 4. A (Select FLY)\n# 5. Left x20 (Move far west on map to Cianwood)\n# 6. A -> A (Confirm flight)\nprint(json.dumps(['Start', 'Up', 'Up', 'A', 'Up', 'Up', 'A', 'A'] + ['Left']*20 + ['A', 'A']))",
+    "python_script": "import json\n# Sequence:\n# 1. B x5 (Exit to overworld)\n# 2. Start (Open menu)\n# 3. Up x2 (From GEAR to POKEMON) -> A\n# 4. Up x7 (Reset to 1st PKMN - Calcifer)\n# 5. Down x5 (Move to 6th PKMN - ICARUS) -> A\n# 6. A (Select FLY)\n# 7. Left x20 (Move far west on map)\n# 8. A -> A (Confirm flight)\nprint(json.dumps(['B']*5 + ['Start', 'Up', 'Up', 'A'] + ['Up']*7 + ['Down']*5 + ['A', 'A'] + ['Left']*20 + ['A', 'A']))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -310,6 +310,11 @@
         "commit_message": "v1.8: Corrected party menu navigation (Up, Up for 6th PKMN) and sub-menu selection (A for FLY). Assumes overworld start and GEAR as last selected main menu option.",
         "timestamp": "2026-01-16T14:03:12.675Z",
         "action_counter": 50985
+      },
+      {
+        "commit_message": "v1.9: Comprehensive sequence. Exits all menus, resets party cursor to top (Calcifer) with 7x Up, moves to Icarus (6th) with 5x Down, selects FLY, and moves far west on map. 45 buttons total.",
+        "timestamp": "2026-01-16T14:04:14.803Z",
+        "action_counter": 50986
       }
     ]
   }
