@@ -45,5 +45,7 @@
 - Goal: Verify if cursor moves and identifies cities between New Bark Town and Cianwood.
 
 # Fly Map Observation
-- When the map opens, a "Where? [Current City]" prompt appears. This must be cleared or handled before directional input is accepted.
-- Attempt 25: Pressing A to select FLY. Goal is to reach the map and clear the prompt.
+- When the map opens, a "Where? [Current City]" prompt appears.
+- Pressing A immediately confirms the current city.
+- To change destination, move the cursor with directional buttons BEFORE pressing A.
+- Attempt 26: Move to (14, 6) to reset overworld state, then try again with manual cursor movement.
