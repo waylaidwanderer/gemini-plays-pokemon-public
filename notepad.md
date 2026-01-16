@@ -1,9 +1,11 @@
 # Strategy: Trigger Suicune Sighting (Started: Turn 51131)
-- City Logic: Vertical walls divide the city into corridors. The Western Corridor (X=2) is the primary land route to the north, bypassing major obstacles. Row 12 is a horizontal corridor that connects the Western Corridor to the sighting spot at (14, 10).
+- City Logic: The city is divided by vertical walls. The primary land gaps are at Row 33 (for X=9) and Row 35 (for X=5 and X=3). The Western Corridor (X=0-2) allows passage north through the Row 15 wall. Row 12 is a horizontal corridor that connects the western side to the sighting spot at (14, 10).
 - Execution Plan:
-  1. Navigate to (2, 34) via the gap south of the Photo Studio.
-  2. Walk North to (2, 12).
-  3. Walk East to (14, 12) and North to (14, 10).
+  1. Navigate to (10, 33) to reach the gap in the X=9 wall.
+  2. Walk West to (9, 33), then navigate to (6, 35) to cross the X=5 wall.
+  3. Walk West to (2, 35) to enter the Western Corridor.
+  4. Hike North through the Western Corridor to Row 12.
+  5. Walk East to (14, 12) and North to (14, 10).
 - Battle Prep: Lead Calcifer (Lv64 Typhlosion).
 
 # Tile Mechanics
