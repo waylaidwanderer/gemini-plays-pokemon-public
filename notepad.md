@@ -32,3 +32,13 @@
 - Pokefan F (10, 46): Hint only.
 - Mania (2, 4): Dead end (asks for Shuckle).
 - Lass (14, 44): Dead end (talks about Chuck).
+## Strategy: The Eastern Water Route (Surf)
+- **Start Turn:** 50338
+- **Goal:** Reach Suicune at (14, 10) without Rock Smash.
+- **Steps:**
+  1. Navigate to the Surf spot at (12, 28).
+  2. Surf North into the water pocket (West of the buoy line).
+  3. Surf North to (14, 16).
+  4. Land West on the plateau at (13, 16).
+  5. Walk North to the trigger point at (14, 10).
+- **Verification:** Pathfinder (Turn 50310) confirmed land route requires Rock Smash. Water pocket is continuous from Row 27 to Row 16.
