@@ -18,4 +18,4 @@ The northern plateau (14, 10) is accessible via a series of one-way "upward" tra
 
 ## Progress Log
 - Turn 50120: Quest Start.
-- Turn 50198: Attempting to move South into (6, 46) to verify one-way mechanic.
+- Turn 50198: Attempted to move South into (6, 46); movement failed, confirming FLOOR_UP_WALL is one-way North.
