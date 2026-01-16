@@ -30,4 +30,8 @@
 - Suicune Sighting #1: Cianwood City, northern coast (approx 14, 10). Pending.
 - Menu Mechanics: Main Menu (8 items) wraps 1 <-> 8. Party Menu (6 items) wraps 1 <-> CANCEL <-> 6.
 - Sub-menu Layout (Icarus): FLY, STATS, SWITCH, MOVE, ITEM, CANCEL.
-- Fly Strategy: Select FLY -> Clear "[PKMN] used FLY!" text with A -> Move cursor on map -> A to confirm. Tool v3.0 used. Failed flight attempts: 4. Current location: New Bark Town.
+- Fly Strategy: Select FLY -> Clear "[PKMN] used FLY!" text with A -> Move cursor on map -> A to confirm. Tool v3.0 failed due to wrapping logic error (selected Kimchi). Failed flight attempts: 5. Current location: New Bark Town.
+- Yanma Swarm: Route 35 (Turn #50832). Caught: Yes.
+- Party Order: 1. Calcifer, 2. XENON, 3. KIMCHI, 4. GNEISS, 5. GORP, 6. ICARUS.
+- Party Navigation (from top): Up, Up -> Icarus.
+- Main Menu (8 items): Pokedex, Pokemon, Pack, Player, Pokegear, Save, Option, Exit. Wrapping active.
