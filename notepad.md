@@ -7,16 +7,14 @@
 - Start Turn: 49771
 - Start Time: 3:29 PM
 
-## Strategy: The Row 34 Western Bypass (via Row 44 Gap)
-The Western Corridor (X=0-2) is the only land path to the plateau. Row 34 allows entry to the corridor, but its ledges must be approached from the south.
-1. Walk West along Row 32 to (12, 32). (In Progress)
-2. Walk South along X=12 corridor to (12, 44).
-3. Walk West through the gap at (9, 44) to (8, 44).
-4. Walk North along X=8 to (8, 35).
-5. Walk North to (8, 34) (Jumping the FLOOR_UP_WALL ledge).
-6. Walk West along Row 34 to (2, 34).
-7. Walk North through the Western Corridor to (2, 10).
-8. Walk East along Row 10 to (14, 10) to trigger Suicune.
+## Strategy: The Great Southern Loop (Final)
+The Western Corridor (X=0-2) is the only path to the plateau. It is only accessible from the southern clearway (Row 51).
+1. Walk East to (23, 32). (In Progress)
+2. Surf South at X=24/25 to Row 51.
+3. Land at (23, 51) or (24, 51).
+4. Walk West along Row 51 to (2, 51).
+5. Walk North through the Western Corridor to (2, 10).
+6. Walk East along Row 10 to (14, 10) to trigger Suicune.
 
 # Battle Preparation: Eusine
 - Expected Roster: Drowzee (Lv23), Haunter (Lv23), Electrode (Lv25).
@@ -25,7 +23,7 @@ The Western Corridor (X=0-2) is the only land path to the plateau. Row 34 allows
 
 # Progress Notes
 - Verified: FLOOR_UP_WALL blocks entry from the North (Turn 49811).
-- Verified: Row 34 (X=2-5) is a clear corridor to the Western Corridor.
-- Note: Out of Repels. No wild encounters on land in the city.
+- Verified: Land routes to Row 51 are blocked by South-facing ledges.
+- Note: Out of Repels. Running from wild encounters.
 - Hypothesis: (14, 10) is the trigger point for the Suicune sighting.
 - Hypothesis: FLOOR_UP_WALL is passable from South to North. (Testing at (8, 34)).
