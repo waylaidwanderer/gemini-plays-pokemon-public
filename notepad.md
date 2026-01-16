@@ -31,7 +31,7 @@
 - Menu Mechanics: Main Menu (8 items) wraps 1 <-> 8. Party Menu (6 items) wraps 1 <-> CANCEL <-> 6.
 - Sub-menu Layout (Icarus): FLY, STATS, SWITCH, MOVE, ITEM, CANCEL.
 - Suicune Quest Start: Turn #50620. (Current Turn: #51007)
-- Fly Strategy: SUCCESS (Landing). Attempt #19 landed in New Bark Town due to a "Double-Click" error in the script. Sequence A (Select) -> A (Select Fly) -> A (Select Destination) happened before the cursor could move. I am currently in PlayersHouse1F (6, 7) after accidentally walking inside. Total Fly failures: 19. Current Turn: #51033. Goal: Cianwood (14, 10). Strategy: Exit house, walk to clear space, and Fly to Cianwood (Left x20, then A). Logic: Accuracy over speed. No more double-clicking the destination.
+- Fly Strategy: v17.0. Attempt #20. Sequence: B(x3) -> Start -> Reset Start (Up x5) -> POKEMON (Down) -> A -> Reset Party (Up x5) -> Icarus (Down x5) -> A -> sleep -> A (FLY) -> sleep -> Left x20 -> A. Total Fly failures: 19. Current Turn: #51034. Goal: Cianwood (14, 10). Prep: Calcifer in lead. Focus: SUICUNE. Logic: 19 manual/tool failures necessitated a full-system reset sequence with explicit slot selection and map transition delays. Accuracy is the only priority.
 - Fly attempts failed: 9.
 - Lesson: Party menu cursor persistence vs Start menu reset. Menu wrapping: 1 (Calcifer) <-> 7 (Cancel) in party.
 - Icarus is at index 6.
