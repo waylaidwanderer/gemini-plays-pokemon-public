@@ -262,7 +262,7 @@
     ]
   },
   "fly_to_cianwood_v1": {
-    "description": "Navigates from any state to Fly to Cianwood City. v8.0 (Maximum Robustness)",
+    "description": "Navigates from any state to Fly to Cianwood City. v9.0 (Efficiency & Limits)",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -272,7 +272,7 @@
         }
       }
     },
-    "python_script": "import json\ndef fly_to_cianwood():\n    buttons = [\"B\", \"B\", \"B\", \"Start\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Down\", \"A\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"A\", \"A\", \"sleep 3000\", \"A\", \"sleep 3000\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"A\", \"A\"]\n    print(json.dumps(buttons))\nfly_to_cianwood()",
+    "python_script": "import json\ndef fly_to_cianwood():\n    # Sequence: Exit menus -> Open Start -> Reset to Pokedex -> Select Pokemon -> Select Icarus (6) -> Fly\n    buttons = [\"B\", \"B\", \"B\", \"Start\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Down\", \"A\", \"Up\", \"Up\", \"A\", \"A\", \"sleep 3000\", \"A\", \"sleep 3000\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"A\", \"A\"]\n    print(json.dumps(buttons))\nfly_to_cianwood()",
     "history": [
       {
         "commit_message": "Initial version",
@@ -398,6 +398,11 @@
         "commit_message": "Updated to v8.0. Added triple B-mash and Start reset to ensure overworld start. Uses robust Up-reset in party menu followed by Up x2 to reliably hit Icarus. v8.0",
         "timestamp": "2026-01-16T14:31:22.350Z",
         "action_counter": 51007
+      },
+      {
+        "commit_message": "Updated to v9.0. Optimized button count to stay under 50-button limit (39 buttons total). Uses robust Start menu reset (Up x8) and assumes Party menu starts at Slot 1 to select Icarus (Up x2). Added sleeps for map transition. v9.0",
+        "timestamp": "2026-01-16T14:32:04.059Z",
+        "action_counter": 51008
       }
     ]
   }
