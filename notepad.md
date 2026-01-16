@@ -2,7 +2,7 @@
 - **Goal:** Catch Raikou (#243) & Entei (#244).
 - **Hunt Duration:** ~14,350 turns. Resumed: Turn 41847.
 - **Status:** Hunting Roamers (Route 37 <-> Ecruteak Loop).
-- **Roamer Checks:** 12 (Current Batch).
+- **Roamer Checks:** 13 (Current Batch).
 - **Active Effects:** Super Repel (Lead: Lv37 Gyarados).
 - **Plan:**
     1. Check Route 37 Grass (`check_route37_grass`).
