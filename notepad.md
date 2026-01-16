@@ -1,10 +1,9 @@
 # Johto Progression: The Rock Smash Quest
 ## Primary Goal: Obtain TM08 Rock Smash
-- **Strategy:** Talk to NPCs on Route 36.
-- **Hypothesis:** The Fisher at (44, 9) gives TM08.
-- **Status:** Talked to Fisher (Turn 50434), he explained the move but didn't give the TM.
-- **Next Step:** Talk to him again, then explore Route 36 west of (35, 9).
-- **Quest Start:** Turn 50407.
+- **Strategy:** Find the NPC on Route 36 who gives TM08.
+- **Hypothesis:** The NPC is near the (35, 9) junction where Sudowoodo was.
+- **Quest Started:** Turn 50407.
+- **Next Step:** Explore Route 36 west of (35, 9).
 
 ## Secondary Goal: Trigger Suicune Sighting in Cianwood City
 - **Location:** (14, 10) in Cianwood City.
@@ -19,16 +18,13 @@
 - LEDGE_HOP_DOWN: One-way South jump.
 - FLOOR_UP_WALL: One-way North climb.
 - SMASHABLE_ROCK (Object): Impassable. Requires Rock Smash move to clear.
+- HEADBUTT_TREE: Impassable. Can be shaken with Headbutt.
 
-## Failed Hypotheses
+## Verified Information & Failed Hypotheses
 - Eastern Water Route (Cianwood): Blocked by Row 15 wall/buoy line.
 - Cianwood NPCs: Hints only (Turns 50278-50364).
 - Western Land Bypass (Cianwood): Blocked by rocks at (4, 19). Rock Smash is a hard requirement.
-- **Hypothesis 2:** The Lass at (51, 8) gives TM08.
-- **Status:** Heading to (51, 8).
-- **Hypothesis 3:** The NPC who gives TM08 is near the (35, 9) junction but off-screen.
-- **Hypothesis 4:** I already received it and accidentally stored it in the PC (unlikely, but worth checking).
-- **Hypothesis 2 (Lass):** Failed (Turn 50444), she moved out of range. Low priority.
-- **Hypothesis 5:** Arthur at (45, 6) gives TM08 (unlikely, but he's here for the Hard Stone).
-- **Hypothesis 6:** Someone inside the gatehouse at (47, 13) gives TM08.
-- **Status:** Heading to Arthur at (45, 6).
+- Fisher at (44, 9): Only provides flavor text about Rock Smash. (Tested Turn 50434)
+- Lass at (51, 8): Does not give TM08.
+- Youngster Arthur at (45, 6): Gives Hard Stone on Thursdays.
+- PC Storage: Unlikely to contain TM08 as I haven't received the item yet. Skip PC check.
