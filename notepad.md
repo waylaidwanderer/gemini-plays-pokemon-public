@@ -45,11 +45,15 @@
 - Goal: Verify if cursor moves and identifies cities between New Bark Town and Cianwood.
 
 # Fly Map Observation
-- When the map opens, a "Where? [Current City]" prompt appears.
-- This is a UI element. Moving the cursor updates this text.
-- Pressing A confirms the destination. Avoid mashing A.
-- Discovery: Up x5 from New Bark Town reached Ecruteak City.
-- Discovery: Left from New Bark Town (tested 40x) is unresponsive.
-- Current State: Cursor is on Ecruteak City.
-- Target: Cianwood City (Far West).
-- Strategy: Move Left from Ecruteak City to find Olivine or Cianwood.
+- When the map opens, a "Where? [Current City]" prompt appears as a UI element.
+- The map cursor moves on a DIAGONAL grid.
+- Verified Mapping: 1 Up press = 1 unit North-West (-1, -1 in screen coordinates).
+- 5 Up presses moved the cursor from New Bark Town (19, 9) to Ecruteak City (14, 4).
+- Hypothesis:
+  - Up: North-West (-1, -1)
+  - Down: South-East (+1, +1)
+  - Left: South-West (-1, +1)
+  - Right: North-East (+1, -1)
+- Goal: Reach Cianwood City (Far West, South of Ecruteak).
+- Strategy: Test 'Down' to verify the diagonal axis. Then combine 'Up' and 'Left' to move West.
+- Current Test: Pressing Down 5 times to see if it returns toward New Bark Town.
