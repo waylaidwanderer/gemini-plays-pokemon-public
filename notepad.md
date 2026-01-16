@@ -1,12 +1,9 @@
 # Strategy: Trigger Suicune Sighting (Started: Turn 51131)
-- Execution Plan (The Verified Land Route):
-  1. Clear Surf text (Land at 28, 38 surfing).
-  2. Surf South to (28, 44) and land at (27, 44).
-  3. Walk West along Row 44 to (6, 44).
-  4. Walk South to (6, 47) and North to (6, 46) (Climb Terrace).
-  5. Walk West to Column 2 (Western Corridor).
-  6. Walk North along Column 2 to Row 12.
-  7. Walk East along Row 12 to (14, 12) and North to (14, 10).
+- Execution Plan (The Outer Sea Highway):
+  1. Surf North along Column 28 to Row 10.
+  2. Surf West to (19, 10).
+  3. Land at (18, 10) or (17, 10) and walk West to (14, 10).
+  4. Trigger Suicune sighting.
 - Battle Prep: Lead Calcifer (Lv64 Typhlosion).
 
 # Tile Mechanics
