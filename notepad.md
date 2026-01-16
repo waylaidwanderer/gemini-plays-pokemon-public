@@ -1,22 +1,20 @@
 # Suicune Quest: Cianwood City
-## Active Strategy: The Western Corridor Sprint
-The northern plateau (14, 10) is only accessible via the Western Corridor (X=0-2), which can be entered from the southern clearway (Row 51-53).
+## Active Strategy: The Great Sea Loop
+The northern plateau (14, 10) is isolated by ledges and walls. The only entrance is via the Western Corridor (X=0-2), which is blocked from the East by city-wide ledges. I must Surf around the southern tip of the island to reach the western shore.
 
-1. Dismiss battle text and RUN. (Completed)
-2. Land at (23, 32). (Completed)
-3. Walk West along Row 32 to (12, 32). (Completed)
-4. Walk South along X=12 to (12, 49). (In Progress)
-5. Walk to (11, 51) via the gap in the Row 50 ledges (11, 50).
-6. Walk West along Row 51 to (2, 51).
-7. Walk North through the Western Corridor (X=0-2) to Row 12.
-8. Walk East along Row 12 to (14, 12), then North to (14, 10) to trigger Suicune.
+1. Heal at the Pokemon Center (23, 43). (In Progress)
+2. Walk to the shore at (27, 44).
+3. Surf East, then South to Row 51.
+4. Surf West along Row 51 to (2, 51).
+5. Land and walk North through the Western Corridor to Row 12.
+6. Walk East to the plateau and trigger Suicune at (14, 10).
 
 ## Verified Mechanics
-- FLOOR_UP_WALL: Blocks SOUTH movement (Confirmed at Row 46, X=28 and Row 50, X=12).
-- Row 50 Gap: (11, 50) and (10, 50) are FLOOR, allowing passage to the southern clearway.
-- Western Corridor: X=0-2 is clear of ledges from Row 51 to the northern plateau.
+- FLOOR_UP_WALL: Impassable wall (Confirmed at Row 50, X=12). Not jumpable.
+- Western Corridor: X=0-2 is the only path to the northern plateau.
+- Southern Shore: Reachable via water at Row 51.
 
 ## Battle Plan: Eusine
 - Lead: Calcifer (Lv64 Typhlosion).
-- Strategy: Flamethrower for Drowzee/Haunter, Thunderpunch for Electrode.
-- Status: Party healthy. No Repels; run from wild encounters.
+- Strategy: Flamethrower/Thunderpunch sweep.
+- Status: Need to heal at PC for PP restoration.
