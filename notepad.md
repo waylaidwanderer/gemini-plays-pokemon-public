@@ -1,15 +1,13 @@
 # Suicune Quest: Cianwood City
 ## Active Strategy: The Western Highway (X=2)
-Direct land access to the northern plateau is blocked by one-way ledges and walls. I must navigate to the western coast via a specific gap sequence.
+Direct land access to the northern plateau is blocked by one-way ledges and central walls. The only viable land route is via the western coast corridor.
 
-### Verified Path to Suicune
-1. Navigate to (13, 24). (Done)
-2. Surf West to (9, 24).
-3. Walk West through the gap at (5, 24).
-4. Walk North to (4, 21), then North through the UP_WALL at (4, 20).
-5. Walk West to (2, 20) to reach the Western Highway.
-6. Walk North along X=2 to Row 10.
-7. Walk East to (14, 10).
+### Execution Path
+1. Navigate south to Row 51 to bypass central wall and ledge systems. (In Progress)
+2. Walk west along Row 51 to (2, 51).
+3. Walk north along X=2 to Row 14.
+4. Walk east to (14, 12) via Row 12.
+5. Trigger Suicune sighting at (14, 10).
 
 ## Global Tile Mechanics
 - FLOOR: Land (Traversable).
@@ -20,8 +18,8 @@ Direct land access to the northern plateau is blocked by one-way ledges and wall
 
 ## Battle Plan: Eusine
 - Lead: Calcifer (Lv64 Typhlosion).
-- Strategy: Flamethrower sweep.
+- Strategy: Flamethrower sweep (against Lv23-25 targets).
 - Status: Fully healed.
 
 ## Tool Notes
-- find_path_v9.6: Optimized for land/surf transitions and one-way barriers. Marker-based blocking refined to rock/blocked keywords.
+- find_path_v9.7: Handles land/surf transitions, starting state detection, and one-way barrier logic.
