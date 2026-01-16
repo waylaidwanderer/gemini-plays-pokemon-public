@@ -1,16 +1,16 @@
 # Johto Progression: The Rock Smash Quest
 ## Primary Goal: Obtain TM08 Rock Smash
-- **Status:** Fisher at (44, 9) says "smash 'em up!" but TM08 is missing from Bag and PC (Turn 50513).
+- **Status:** Missing from Bag/PC. Fisher on Route 36 says "smash 'em up!" (Post-gift dialogue).
 - **Strategy:**
   1. Fly to Goldenrod City.
-  2. Buy TM08 at Dept. Store 5F (¥1000).
-  3. If unavailable, talk to clerk at Flower Shop.
-  4. Teach Rock Smash to GNEISS (Graveler).
-- **Quest History:** Checked Route 36 NPCs (Turns 50430-50490); PC storage empty (Turn 50513).
+  2. Visit Dept. Store 5F and buy TM08 (¥1000).
+  3. Teach to GNEISS (Graveler).
+- **Quest History:** Checked Route 36 NPCs; PC empty (Turn 50513).
+- **Tool Maintenance:** fly_to_city_v1 failed (Turn 50526). Redefining fly_to_city_v2.
 
 ## Secondary Goal: Trigger Suicune Sighting in Cianwood City
 - **Location:** (14, 10) in Cianwood City.
-- **Status:** Blocked by boulders. Rock Smash is mandatory.
+- **Status:** Blocked by boulders. Rock Smash mandatory.
 
 ## Global Tile Mechanics
 - FLOOR: Traversable.
@@ -20,5 +20,6 @@
 - SMASHABLE_ROCK (Object): Requires Rock Smash.
 
 ## Lessons Learned
-- **Fisher Dialogue:** "If any rocks are in your way, just smash 'em up!" is the post-gift dialogue. Receiving the TM flag is set even if the item is gone.
+- **Fisher Dialogue:** "If any rocks are in your way..." is post-gift. Acquisition flag is set even if item is gone.
+- **Fly Logic:** Slot 6 (Icarus) is 'Up' x 1 from Slot 1 in Pokémon menu.
 - **Arthur (45, 6):** Only gives Hard Stone on Thursdays.
