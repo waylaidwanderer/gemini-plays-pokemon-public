@@ -1,15 +1,15 @@
 # Strategy: Trigger Suicune Sighting (Started: Turn 51131)
-- City Logic: Vertical walls partition the city into corridors. The inner sea is a dead end due to buoy barriers. Land gaps exist at (11, 33), (8, 33), (5, 34-37), and (8/13, 13).
-- Mechanic Verification:
-  - Hypothesis: FLOOR_UP_WALL tiles allow horizontal movement (East/West).
-  - Test: Walk onto (6, 34) from (6, 35), then try moving West to (5, 34).
+- City Logic: Vertical walls partition the city. Row 51 is the only continuous horizontal highway. Gaps in the Row 50 terraces exist at X=11 and X=20.
 - The Grand Loop (Execution Plan):
-  1. Surf South to (11, 32) and land at (11, 33).
-  2. Walk West to (8, 33) (Gap), then to (6, 33).
-  3. Walk South to (6, 35), then North onto (6, 34) (Terrace).
-  4. Walk West to (2, 34) (Western Corridor).
-  5. Walk North to (2, 12), then East to (14, 12).
-  6. Walk North to (14, 10) for Suicune.
+  1. Surf South to (11, 26) and land.
+  2. Walk South to (11, 51) (Gap in Row 50 terrace).
+  3. Walk West along Row 51 to (2, 51) (Western Corridor).
+  4. Walk North through the Western Corridor to (2, 14).
+  5. Walk East to (8, 14), then North to (8, 12) (Gap in Row 13).
+  6. Walk East along Row 12 to (14, 12), then North to (14, 10) for Suicune.
+- Mechanic Verification:
+  - Terrace (FLOOR_UP_WALL): Test horizontal movement at (6, 46) or (6, 34).
+  - Ledge (LEDGE_HOP_DOWN): Jump Down from (10, 15) to confirm blockage from North.
 - Battle Prep: Lead Calcifer (Lv64 Typhlosion).
 
 # Tile Mechanics
@@ -20,10 +20,9 @@
 - FLOOR_UP_WALL: Terrace/Slope. Walk ONTO from south to climb. Hypothesis: Allows horizontal movement. Blocked from North.
 - ROCK (Object): Impassable until cleared with ROCK SMASH.
 
-# Map Markers (Refined)
+# Map Markers (Key Points)
 - (12, 28): 🏄 Surf spot to inner sea
 - (14, 10): 🎯 Suicune Sighting Spot
 - (6, 34): 🧗 Terrace Gap (Verification Target)
-- (5, 35): 📍 Western Gap (X=5)
-- (8, 13): 📍 Northern Gap (X=8)
-- (11, 33): 🏝️ Grand Loop Landing Spot
+- (11, 50): 📍 Southern Gap (Row 50)
+- (8, 13): 📍 Northern Gap (Row 13)
