@@ -1,24 +1,24 @@
 # Strategy: Trigger Suicune Sighting (Started: Turn 51131)
-- Objective: Reach (14, 10) via land to bypass buoy and wall barriers.
-- Execution Plan (The X=11 Corridor):
-  1. Use SURF at (11, 26) to cross Row 22-25 water; land at (11, 21).
-  2. Walk North along X=11 to (11, 12).
-  3. Walk East to (14, 12), then North to (14, 10).
+- Objective: Reach (14, 10) on the northern coast.
+- Current Route: The X=11/13 Weave.
+  1. Surf at (11, 26) and land at (11, 21).
+  2. Walk North along Column 11 to (11, 14).
+  3. Walk East to (13, 14) and North to (13, 12) (via Gap at Row 13).
+  4. Walk East to (14, 12) and North to (14, 10).
+- Mechanic Verification (Priority):
+  - Hypothesis: FLOOR_UP_WALL (Terrace) allows horizontal movement.
+  - Test: Walk onto (12, 50) from (12, 51), then move West to (11, 50).
+- Battle Prep: Lead Calcifer (Lv64 Typhlosion).
 
-# Mechanic Verification
-- Hypothesis: FLOOR_UP_WALL (Terrace) allows horizontal movement.
-- Test: Walk onto (4, 20) from (4, 21), then move West to (3, 20).
-
-# Tile Mechanics (Verified)
+# Tile Mechanics
 - FLOOR: Standard traversable tile.
-- WALL / BUOY: Impassable collision.
-- WATER: Traversable only while using SURF.
-- LEDGE_HOP_DOWN: One-way passage (South only). Blocks North.
-- FLOOR_UP_WALL: Terrace. Walk ONTO from south to climb. Blocks South from North.
-- ROCK (Object): Impassable until cleared with ROCK SMASH.
+- WALL / BUOY: Impassable.
+- WATER: Requires SURF.
+- LEDGE_HOP_DOWN: One-way (South). Blocks North.
+- FLOOR_UP_WALL: Terrace. Walk ONTO from South to climb. Blocks South from North. Hypothesis: Allows horizontal movement.
 
-# Map Markers Reference
-- (12, 28): 🏄 Surf spot to inner sea
+# Map Markers (Key Points)
+- (14, 10): 🎯 Suicune Sighting Spot
 - (11, 33): 🏝️ Grand Loop Landing Spot
 - (8, 13): 📍 Northern Gap (X=8)
 - (15, 37): 🏠 Lugia Speech House
