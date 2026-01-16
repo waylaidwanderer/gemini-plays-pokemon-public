@@ -1,8 +1,8 @@
 # Strategic Status
 - **Goal:** Catch Raikou (#243) & Entei (#244).
 - **Hunt Duration:** ~14,350 turns. Resumed: Turn 41847.
-- **Status:** Boarding Magnet Train to Goldenrod.
-- **Detour Start:** Turn 43267. Current Turn: 43371.
+- **Status:** Arrived in Goldenrod. Resuming Hunt.
+- **Detour Duration:** Turn 43267 - 43385 (~118 turns).
 - **Plan:**
     1. **Supply Run:**
        a. Fly to Goldenrod City.
