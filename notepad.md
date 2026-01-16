@@ -30,3 +30,8 @@
 
 # Progress Tracking
 - Smashed Rocks: (5, 29), (4, 25), (8, 16), (9, 17).
+## Menu Relational Behavior
+- Start Menu: Pressing Up from Pokedex (1) wraps to EXIT (8).
+- Party Menu: Pressing Up from Slot 1 wraps to CANCEL (7).
+- Bag (Items): Vertical list with scrolling. Cursor persists on last item selected.
+- Sub-menus: Usually 4-6 items. Pressing Up from item 1 wraps to the bottom item.
