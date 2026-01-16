@@ -5,9 +5,9 @@
     - Repel Trick: Lead Lv37 > Wilds (Lv ~20) but < Roamers (Lv 40).
     - Status: Max Repel Active.
     - Loop: Wiggle in grass -> Shuffle Ecruteak/Rt 37 -> Repeat.
-- **Status:** Exiting Ecruteak Mart.
-- **Strategy:** Confirm Quit (A) -> Walk out -> Fly to Goldenrod.
-- **Observation:** Ecruteak Mart only has basic items. Goldenrod Dept Store is required for Super Repels.
+- **Status:** Exiting Mart -> Flying to Goldenrod.
+- **Strategy:** Exit Mart -> Use Fly (Mistral) -> Goldenrod City.
+- **Observation:** Heading to Dept Store for Super Repels.
 - **Session Stats:** Approx 57 shuffle cycles. Repels EMPTY. Restocking.
 
 # Mechanics
