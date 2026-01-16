@@ -262,9 +262,9 @@
     ]
   },
   "fly_to_cianwood_v1": {
-    "description": "Navigates from the overworld to Fly to Cianwood City. Assumes starting from the overworld or a menu. v2.5",
+    "description": "Navigates from the overworld to Fly to Cianwood City. Assumes starting from the overworld or a menu. v2.6",
     "input_schema": {},
-    "python_script": "import json\n# Sequence:\n# 1. B x3 (Clear menus to overworld)\n# 2. Start (Open menu)\n# 3. Up x5 (Reset to top of menu - POKEDEX)\n# 4. Down (Move to POKEMON) -> A\n# 5. Up x7 (Reset to 1st PKMN - Calcifer)\n# 6. Down x5 (Move to 6th PKMN - ICARUS) -> A\n# 7. A (Select FLY - 1st sub-menu option)\n# 8. sleep 1000\n# 9. A (Clear \"[PKMN] used FLY!\" text box)\n# 10. sleep 1000\n# 11. Left x20 (Move far west on map)\n# 12. A -> A (Confirm flight)\nprint(json.dumps(['B']*3 + ['Start', 'Up', 'Up', 'Up', 'Up', 'Up', 'Down', 'A'] + ['Up']*7 + ['Down']*5 + ['A', 'A', 'sleep 1000', 'A', 'sleep 1000'] + ['Left']*20 + ['A', 'A']))",
+    "python_script": "import json\n# Sequence:\n# 1. B x3 (Clear menus to overworld)\n# 2. Start (Open menu)\n# 3. Up x5 (Reset to top of menu - POKEDEX)\n# 4. Down (Move to POKEMON) -> A\n# 5. Up x7 (Reset to 1st PKMN - Calcifer)\n# 6. Down x5 (Move to 6th PKMN - ICARUS) -> A\n# 7. A (Select FLY - 1st sub-menu option)\n# 8. A x10 (Clear \"[PKMN] used FLY!\" text box and any lag)\n# 9. Left x10 (Move far west on map)\n# 10. A -> A (Confirm flight)\nprint(json.dumps(['B']*3 + ['Start'] + ['Up']*5 + ['Down', 'A'] + ['Up']*7 + ['Down']*5 + ['A', 'A'] + ['A']*10 + ['Left']*10 + ['A', 'A']))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -345,6 +345,11 @@
         "commit_message": "v2.5: Added A press to clear \"Used FLY\" text box. Uses reset strategy and fits under 50-button limit. 48 buttons.",
         "timestamp": "2026-01-16T14:12:27.301Z",
         "action_counter": 50993
+      },
+      {
+        "commit_message": "v2.6: Increased A-mashing to 10x to ensure \"Used FLY\" text is cleared before moving cursor. 49 buttons total.",
+        "timestamp": "2026-01-16T14:12:57.850Z",
+        "action_counter": 50994
       }
     ]
   }
