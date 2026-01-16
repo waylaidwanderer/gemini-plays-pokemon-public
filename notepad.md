@@ -23,11 +23,14 @@
 - **Advisor Advice:** "Forget the South Bypass; the path is strictly north."
 - **Time Check:** Attempting sighting since Turn #50620. Commit to X=2 corridor by Turn #50900.
 - **Movement Discovery:** (6, 34) blocks South movement from (6, 33). Terrace edges (FLOOR_UP_WALL) appear to be one-way barriers (allowing North, blocking South).
-- **Refined Path to Suicune (The X=2 Corridor):**
-  1. From (6, 29), move West to (4, 29).
-  2. Move North to (4, 25) and smash the rock.
-  3. Continue North to (4, 22).
-  4. Move West through the gap at (3, 22) to (2, 22).
-  5. Move North to (2, 10).
+- **Refined Path to Suicune (The Grand Loop):**
+  1. Move East to (11, 26).
+  2. Move South to (11, 47).
+  3. Move West to (5, 47).
+  4. Move North to (5, 46) and then West to (2, 46).
+  5. Move North to (2, 10) (X=2 corridor is a clear shot).
   6. Move East to (14, 10) for the sighting.
+- **Smashed Rocks:** (5, 29), (4, 25), (4, 19), (9, 17), (8, 16). They respawn on map exit.
+- **Barriers:** (4, 23) is a WALL. (4, 30), (6, 34), (6, 46) are one-way ledges (North only).
+- **Time Check:** Attempting sighting since Turn #50620. Commit to Grand Loop.
 - **Verification:** (3, 22) is confirmed FLOOR in Mental Map. X=3 wall exists from Y=23 to Y=29.
