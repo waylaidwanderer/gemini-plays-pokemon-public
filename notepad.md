@@ -7,7 +7,7 @@
     - Loop: Wiggle in grass -> Shuffle Ecruteak/Rt 37 -> Repeat.
 - **Status:** Walking to Goldenrod (Route 37).
 - **Strategy:** Move Left to Col 18, then Down to Exit (18, 35).
-- **Observation:** At (20, 29). Lass is to the Right. Path Left is clear.
+- **Observation:** At (19, 29). Tree below. Must go Left first.
 - **Session Stats:** Approx 57 shuffle cycles. Repels EMPTY. Restocking.
 
 # Mechanics
