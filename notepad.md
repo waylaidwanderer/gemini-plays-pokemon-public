@@ -5,9 +5,9 @@
     - Repel Trick: Lead Lv37 > Wilds (Lv ~20) but < Roamers (Lv 40).
     - Status: Max Repel Active.
     - Loop: Wiggle in grass -> Shuffle Ecruteak/Rt 37 -> Repeat.
-- **Status:** Re-applying Repel (Turn 41631).
-- **Strategy:** Open Pack -> Use Max Repel -> Resume Wiggle.
-- **Observation:** Opened menu. Entering Pack to find Max Repel. Cursor likely remembers last position.
+- **Status:** Wiggling on Route 37 (Turn 41632).
+- **Strategy:** Resume wiggle at (8,2). If no encounter -> Shuffle.
+- **Observation:** Repel re-applied. Resuming the hunt immediately.
 
 # Mechanics
 - **Roamers:** Move to an adjacent route when player transitions maps.
