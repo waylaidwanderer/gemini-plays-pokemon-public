@@ -1,9 +1,9 @@
 # Strategic Status
 - **Goal:** Catch Raikou (#243) & Entei (#244).
 - **Hunt Duration:** ~14,350 turns. Resumed: Turn 41847.
-- **Status:** Fly Map: Azalea Town selected.
-- **Action:** Moving North to Ecruteak (Azalea -> Goldenrod -> Ecruteak).
-- **Next:** Confirm Ecruteak.
+- **Status:** Fly Map: Ecruteak City selected.
+- **Action:** Confirming Fly destination (Press A).
+- **Next:** Arrive Ecruteak & Resume Hunt.
 - **Secondary Targets:** Catch Stantler (Route 37/36 Night) or Growlithe.
 
 # PC Storage Check
