@@ -5,9 +5,9 @@
     - Repel Trick: Lead Lv37 > Wilds (Lv ~20) but < Roamers (Lv 40).
     - Status: Max Repel Active.
     - Loop: Wiggle in grass -> Shuffle Ecruteak/Rt 37 -> Repeat.
-- **Status:** Abandoning Fly. Walking to Goldenrod.
-- **Strategy:** Exit Ecruteak (South) -> Route 37 -> Route 36 -> Route 35 -> Goldenrod.
-- **Observation:** Fly map navigation is unreliable/stuck on East side. Walking is deterministic.
+- **Status:** Walking to Goldenrod (Route 37).
+- **Strategy:** Exit Ecruteak South -> Route 37 -> Route 36 -> Route 35 -> Goldenrod.
+- **Observation:** Currently in Ecruteak. Heading South.
 - **Session Stats:** Approx 57 shuffle cycles. Repels EMPTY. Restocking.
 
 # Mechanics
