@@ -262,7 +262,7 @@
     ]
   },
   "fly_to_cianwood_v1": {
-    "description": "Navigates from the overworld or a menu to Fly to Cianwood City. v5.0",
+    "description": "Navigates from the overworld or a menu to Fly to Cianwood City. v6.0 (Gear Start)",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -272,7 +272,7 @@
         }
       }
     },
-    "python_script": "import json\ndef fly_to_cianwood():\n    buttons = [\"B\", \"B\", \"Start\", \"Down\", \"A\", \"Up\", \"Up\", \"A\", \"A\", \"sleep 2000\", \"A\", \"sleep 2000\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"A\", \"A\"]\n    print(json.dumps(buttons))\nfly_to_cianwood()",
+    "python_script": "import json\ndef fly_to_cianwood():\n    # Assumes cursor is on POKEGEAR (5) in Start menu.\n    buttons = [\"B\", \"B\", \"Start\", \"Up\", \"Up\", \"Up\", \"A\", \"Up\", \"Up\", \"A\", \"A\", \"sleep 3000\", \"A\", \"sleep 3000\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"A\", \"A\"]\n    print(json.dumps(buttons))\nfly_to_cianwood()",
     "history": [
       {
         "commit_message": "Initial version",
@@ -383,6 +383,11 @@
         "commit_message": "Fixed wrapping logic to select Icarus (Up, Up from top) and added menu exit sequence (B, B) to ensure overworld start. v5.0",
         "timestamp": "2026-01-16T14:24:16.396Z",
         "action_counter": 51002
+      },
+      {
+        "commit_message": "Updated to v6.0. Corrected menu navigation from POKEGEAR to POKEMON (Up x3) and confirmed Icarus selection (Up x2). v6.0",
+        "timestamp": "2026-01-16T14:25:40.688Z",
+        "action_counter": 51003
       }
     ]
   }

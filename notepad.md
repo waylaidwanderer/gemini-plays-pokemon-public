@@ -30,8 +30,8 @@
 - Suicune Sighting #1: Cianwood City, northern coast (approx 14, 10). Pending.
 - Menu Mechanics: Main Menu (8 items) wraps 1 <-> 8. Party Menu (6 items) wraps 1 <-> CANCEL <-> 6.
 - Sub-menu Layout (Icarus): FLY, STATS, SWITCH, MOVE, ITEM, CANCEL.
-- Fly Strategy: Exit menu (B, B) -> Start -> Down -> A -> Up, Up (Icarus) -> A -> A (Fly) -> Clear text (A) -> Navigate Left x12 -> A.
-- Item Change: Icarus (Pidgeotto) is now holding a POKé BALL. AMULET COIN is in the bag.
+- Fly Strategy: Exit menu (B, B) -> Start -> Up x3 (Pokemon) -> A -> Up x2 (Icarus) -> A -> A (Fly) -> Clear text (A) -> Navigate Left x15 -> A. Attempt #7.
+- Item Change: Icarus (Pidgeotto) is holding a POKé BALL. AMULET COIN is in bag. (Fix later).
 - Party Order: 1. Calcifer, 2. XENON, 3. KIMCHI, 4. GNEISS, 5. GORP, 6. ICARUS.
 - Party Navigation (from top): Up, Up -> Icarus.
 - Main Menu (8 items): Pokedex, Pokemon, Pack, Player, Pokegear, Save, Option, Exit. Wrapping active.
