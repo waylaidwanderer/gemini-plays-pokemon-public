@@ -5,9 +5,9 @@
     - Repel Trick: Lead Lv37 > Wilds (Lv ~20) but < Roamers (Lv 40).
     - Status: Max Repel Active.
     - Loop: Wiggle in grass -> Shuffle Ecruteak/Rt 37 -> Repeat.
-- **Status:** In Buying Menu (Ecruteak Mart).
-- **Strategy:** Scroll to SUPER REPEL. Buy 30.
-- **Observation:** "BUY" selected. Opening item list.
+- **Status:** Buying Items (Scrolling).
+- **Strategy:** Scroll down to find SUPER REPEL.
+- **Observation:** Currently at top of list. Scrolling down.
 - **Session Stats:** Approx 57 shuffle cycles. Repels EMPTY. Restocking.
 
 # Mechanics
