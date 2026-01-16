@@ -5,7 +5,7 @@
 
 ## Secondary Goal: Trigger Suicune Sighting in Cianwood City
 - **Location:** (14, 10) in Cianwood City.
-- **Status:** Blocked by boulders. Requires Rock Smash.
+- **Status:** Blocked by boulders at (4, 19) and (8, 16).
 - **Plan:** After obtaining TM08, return to Cianwood and clear the path.
 
 ## Global Tile Mechanics
@@ -15,9 +15,9 @@
 - DOOR / WARP_CARPET: Warp point.
 - LEDGE_HOP_DOWN: One-way South jump.
 - FLOOR_UP_WALL: One-way North climb.
-- SMASHABLE_ROCK (Object): Impassable. Requires Rock Smash.
+- SMASHABLE_ROCK (Object): Impassable. Requires Rock Smash move to clear.
 
 ## Failed Hypotheses
 - Eastern Water Route: Blocked by Row 15 wall/buoy line.
-- Cianwood NPCs: None provided TM08 immediately (Hints only or unrelated info).
+- Cianwood NPCs: None provided TM08 immediately (Hints only).
 - Western Land Bypass: Blocked by rocks at (4, 19). Rock Smash is a hard requirement.
