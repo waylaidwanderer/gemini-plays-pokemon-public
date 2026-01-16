@@ -6,8 +6,8 @@
     - Status: Max Repel Active.
     - Loop: Wiggle in grass -> Shuffle Ecruteak/Rt 37 -> Repeat.
 - **Status:** Traversing Route 37 (Southbound).
-- **Strategy:** Walk South to Route 36. Hop ledges. Destination: Goldenrod.
-- **Observation:** No Repels. Expect wild encounters. Ignoring Apricorns for speed.
+- **Strategy:** Walk South to Route 36. Hop ledges to save time.
+- **Observation:** No Repels. Opportunity to catch Stantler/Growlithe if they appear.
 - **Session Stats:** Approx 57 shuffle cycles. Repels EMPTY. Restocking.
 
 # Mechanics
