@@ -13,10 +13,10 @@
 - Fly Map (Johto):
   - Cursor cycles through cities.
   - Multiple presses (approx 2-3) of a direction may be required to reach the next city node.
-  - Sequence using UP from New Bark Town: New Bark -> Ecruteak -> Azalea -> Mahogany -> Olivine -> Silver Cave -> Goldenrod.
-  - UP cycles through fly points.
-  - Current Position: Fly map at Goldenrod City.
-  - Goal: Cianwood City.
+  - Sequence using UP from New Bark Town: New Bark -> Ecruteak -> Azalea -> Mahogany -> Olivine -> Silver Cave -> Goldenrod -> Violet -> Cianwood.
+  - UP cycles through fly points. Approx 5-10 presses per jump.
+  - Current Position: Cianwood City (23, 44).
+  - Goal: Cianwood City (14, 10).
 
 # Strategy: Fly to Cianwood (Suicune Pursuit)
 - Time Tracking: Started Turn 50620.
