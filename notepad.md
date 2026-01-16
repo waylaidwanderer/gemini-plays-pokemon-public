@@ -1,28 +1,19 @@
+# Strategic Status
+- **Goal:** Catch Raikou (#243) & Entei (#244).
+- **Session Start:** Turn 40947.
+- **Current Strategy:** "Blind Gatehouse Shuffle" on Route 37.
+    - Repel Trick: Lead Lv37 > Wilds (Lv ~20) but < Roamers (Lv 40).
+    - Status: Max Repel Active.
+    - Loop: Wiggle in grass -> Shuffle Ecruteak/Rt 37 -> Repeat.
+- **Observation:** 0 encounters in 500+ turns confirms Repel works. Roamers simply haven't appeared on Route 37 yet.
+
 # Mechanics
-- **Battle Cursor:** Remembers last move used.
-- **Fly Map:** Visual Map (Cursor based). Use D-pad to select city. **Cursor persists:** Verify destination text.
-- **Pokegear Map:** Visual. (Does NOT track Roamers in Crystal - Use Pokedex).
-- **Menu Memory:** Start Menu and Pokegear cursors remember their last position. Always verify state.
-- **Repel Safety:** Always re-apply Repel IMMEDIATELY upon expiration.
+- **Roamers:** Move to an adjacent route when player transitions maps.
+- **Repel:** Prevents encounters with wild Pokemon lower level than the lead.
+- **Battle Cursor:** Remembers last move.
+- **Gatehouses:** "Sticky" warps require moving *into* travel direction.
 
 # Tile Mechanics
-- **WARP_CARPET_RIGHT:** Usually requires walking off the map edge.
-- **Sticky Warps (Gatehouses):** Require walking *into* the wall/direction of travel while ON the warp tile (e.g., Double Tap Right to enter).
-- **TALL_GRASS:** Wild encounters possible.
-- **LEDGE_HOP:** One-way movement.
-- **WARP_CARPET_LEFT:** Walk off map edge to exit.
-
-# Strategic Status
-- **Session Start:** Turn 40947 (Max Repel Applied).
-- **Pokedex Mode:** Old (National Dex). Target: #243 Raikou, #244 Entei.
-- **Strategy:** Blind Gatehouse Shuffle.
-    1. Shuffle (Route 37 <-> Ecruteak).
-    2. Run in grass for ~20 steps.
-    3. If no encounter, repeat.
-    - **Repel Trick:** Lead Pokemon (Lv 37) > Wild Pokemon (Lv ~20) but < Roamers (Lv 40). Max Repel ACTIVE. Only Roamers should appear.
-- **Mechanics Note:** Repel likely active (0 encounters recently). Inputs after a warp are likely ignored.
-- **Current Task:** Hunting Entei/Raikou on Route 37.
-- **Status:** Shuffling (Entering Ecruteak).
-- **Strategy:** Resume shuffling. Ecruteak <-> Route 37.
-- **Observation:** Patrol complete (Turn 41481). No encounters. Repel active. Roamers not present.
-- Pokedex Status: National Mode. SEEN: 195, OWN: 46.
+- **WARP_CARPET_RIGHT/LEFT:** Walk off map edge.
+- **LEDGE_HOP:** One-way.
+- **TALL_GRASS:** Encounters.
