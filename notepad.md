@@ -22,20 +22,34 @@ Trigger the Suicune sighting at (14, 10) in Cianwood City (Map 22_3).
 - SMASHABLE_ROCK (Object): Impassable. Requires Rock Smash to clear.
 
 - **Start Turn:** 50283
-- **Status:** Searching for TM08 Rock Smash. Pokefan M (18, 33) gives a hint but no TM.
+- **Status:** Searching for TM08 Rock Smash.
 - **Plan:**
-  1. Talk to Lass at (14, 40). (Next)
-  2. Check Lugia Speech House at (15, 37).
-  3. Stun Pokefan M (ID 2) and talk to him from the front (17, 34) or (18, 34).
-  4. Re-verify Route 36 if Cianwood is a dead end.
+  1. Talk to Lass at (14, 41) or (14, 44). (Current)
+  2. Talk to Guy in Cap at (14, 43).
+  3. Obtain SecretPotion from Pharmacy (15, 47).
+  4. Investigate Lugia Speech House (15, 37).
+  5. Check Route 36 (Guy who gives TM08 after Sudowoodo).
+
+## Tile Mechanics
+- FLOOR: Traversable.
+- WALL: Impassable.
+- WATER: Requires Surf.
+- BUOY: Impassable (Water barrier).
+- DOOR: Warp point.
+- LEDGE_HOP_DOWN: One-way South jump. Impassable from North/East/West.
+- FLOOR_UP_WALL: One-way North climb. Impassable from North/East/West.
+- SMASHABLE_ROCK (Object): Impassable. Requires Rock Smash to clear.
 
 ## Failed Hypotheses
-- **Hypothesis 1:** Pokefan M (18, 33) gives TM08 by just talking.
+- **Hypothesis 1:** Pokefan M (18, 33) gives TM08.
   - **Attempts:** 10+ (Turns 50278-50314)
-  - **Result:** Hint only. NPC movement makes interaction difficult.
-- **Hypothesis 2:** Talking to Pokefan F (10, 46) triggers the gift from her husband.
+  - **Result:** Hint only.
+- **Hypothesis 2:** Pokefan F (10, 46) gives TM08.
   - **Attempts:** 1 (Turn 50300)
-  - **Result:** She mentions him, but he still doesn't give the TM.
+  - **Result:** Hint only.
 - **Hypothesis 3:** Mania (2, 4) gives TM08.
   - **Attempts:** 1 (Turn 50291)
   - **Result:** Dead end.
+- **Hypothesis 4:** Rock Smash is not required for the Western Bypass.
+  - **Attempts:** 1 (Turn 50310, pathfinder check)
+  - **Result:** Pathfinder failed to find a route without Rock Smash. Verified.
