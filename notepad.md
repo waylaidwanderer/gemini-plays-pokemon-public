@@ -24,10 +24,10 @@
 - **Sighting Trigger:** Move to (14, 10).
 
 # Progress Tracking
-- Started Suicune Quest: Turn #50620. (Current Turn: #50997)
+- Started Suicune Quest: Turn #50620. (Current Turn: #51000)
 - Smashed Rocks (Cianwood): (5, 29), (4, 25), (8, 16), (9, 17). Verified as FLOOR.
 - Defeated Trainers (Route 41): Swimmer Mathew (17, 46).
 - Suicune Sighting #1: Cianwood City, northern coast (approx 14, 10). Pending.
 - Menu Mechanics: Main Menu (8 items) wraps 1 <-> 8. Party Menu (6 items) wraps 1 <-> CANCEL <-> 6.
 - Sub-menu Layout (Icarus): FLY, STATS, SWITCH, MOVE, ITEM, CANCEL.
-- Fly Strategy: Select FLY -> Clear "[PKMN] used FLY!" text with A -> Move cursor on map -> A to confirm. Tool v2.8 used. Attempting re-flight from New Bark Town.
+- Fly Strategy: Select FLY -> Clear "[PKMN] used FLY!" text with A -> Move cursor on map -> A to confirm. Tool v3.0 used. Failed flight attempts: 4. Current location: New Bark Town.
