@@ -1,10 +1,10 @@
 # Strategy: The Suicune Pursuit
 - **Objective:** Trigger Suicune sighting at (14, 10) in northern Cianwood.
 - **Eusine Battle Prep:** Drowzee (Lv23), Haunter (Lv23), Electrode (Lv25). Strategy: Lead with Lv64 Calcifer. Sweep with Flamethrower/Thunderpunch.
-- **Current Plan (The X=2 Corridor):**
+- **Current Plan (The Grand Loop):**
   1. Currently at (12, 31).
-  2. Move to (12, 44) then West to (2, 44).
-  3. Move North to (2, 10) (X=2 corridor is clear of all barriers).
+  2. Move to (21, 51) via the eastern gap at X=21.
+  3. Move West to (2, 51) then North to (2, 10) (X=2 corridor).
   4. Move East to (14, 10) for the sighting.
 
 # Tile Mechanics (Global)
@@ -17,9 +17,9 @@
 - ROCK (Object): Blocks movement; cleared with Rock Smash. Respawns upon map transition.
 
 # Area Notes: Cianwood City
-- **Barriers:** Row 15 is a solid wall/buoy barrier from X=3 to X=22, EXCEPT for a gap at (11, 15).
+- **Barriers:** Row 15 is a solid wall/buoy barrier from X=3 to X=22, EXCEPT for a gap at (11, 15). Row 13 is solid at X=11, making (11, 15) a dead end.
 - **Smashed Rocks:** (5, 29), (4, 25), (4, 19), (9, 17), (8, 16).
-- **Terrace Climbs:** (4, 30), (6, 34), (6, 46), (21, 46)+, (8, 48)+, (12, 50)+. All block South movement.
+- **Terrace Climbs:** (4, 30), (6, 34), (6, 46), (21, 46), (8, 48), (12, 50). All block South movement.
 
 # Lessons Learned
 - **Time Check:** Attempting sighting since Turn #50620.
