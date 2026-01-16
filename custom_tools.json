@@ -262,7 +262,7 @@
     ]
   },
   "fly_to_cianwood_v1": {
-    "description": "Navigates from any state to Fly to Cianwood City. v15.0 (Robust overworld start)",
+    "description": "Navigates from any state to Fly to Cianwood City. v16.0 (Robust overworld start)",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -272,7 +272,7 @@
         }
       }
     },
-    "python_script": "import json\ndef fly_to_cianwood():\n    # v15.0: Robust flight from overworld. Clear -> Start -> Reset -> PKMN -> Reset -> Icarus -> Fly -> West.\n    buttons = [\"B\", \"B\", \"B\", \"Start\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Down\", \"A\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"A\", \"A\", \"sleep 4000\", \"A\", \"sleep 4000\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"A\", \"A\"]\n    print(json.dumps(buttons))\nfly_to_cianwood()",
+    "python_script": "import json\ndef fly_to_cianwood():\n    # v16.0: Extreme robustness. Clear -> Start -> Reset Start -> PKMN -> Reset Party -> Icarus -> Fly -> Map -> Cianwood.\n    buttons = [\"B\", \"B\", \"B\", \"Start\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Down\", \"A\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"A\", \"A\", \"sleep 4000\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"A\", \"sleep 4000\", \"A\"]\n    print(json.dumps(buttons))\nfly_to_cianwood()",
     "history": [
       {
         "commit_message": "Initial version",
@@ -433,6 +433,11 @@
         "commit_message": "Updated to v15.0. Robust overworld-to-Cianwood flight. Uses full resets for both Start (Up x8) and Party (Up x6) menus to ensure reliable selection of POKEMON and ICARUS. Fits within 50-button limit (48 buttons). v15.0",
         "timestamp": "2026-01-16T14:40:56.822Z",
         "action_counter": 51014
+      },
+      {
+        "commit_message": "Updated to v16.0. Extreme robustness for flight. Includes triple B-clear, 8x Up reset for Start menu, 7x Up reset for Party menu, and 20x Left for map navigation. Fits within 50-button limit (47 buttons). v16.0",
+        "timestamp": "2026-01-16T14:49:58.915Z",
+        "action_counter": 51025
       }
     ]
   }
