@@ -1,29 +1,26 @@
 # Strategy: The Suicune Pursuit
+- **Time Check:** Attempting sighting since Turn #50620.
 - **Objective:** Trigger Suicune sighting at (14, 10) in northern Cianwood.
-- **Eusine Battle Prep:** Drowzee (Lv23), Haunter (Lv23), Electrode (Lv25). Strategy: Lead with Lv64 Calcifer. Sweep with Flamethrower/Thunderpunch.
-- **Current Plan (The Grand Loop):**
-  1. Land at (27, 44) and move West to (18, 44).
-  2. Move South through the gap at (18, 46) to Row 47.
-  3. Move West to (6, 47) and then South to Row 51.
-  4. Move West to (2, 51) and then North via the X=2 corridor.
-  5. Sighting at (14, 10).
-- **Verification:** X=18 (Row 46) and X=6 (Row 50) are the only gaps that allow South movement past the cliffs.
-- **Land Route:** X=2 corridor is clear of Terrace Climbs and Ledges from Row 51 to Row 10.
+- **Eusine Battle Prep:** Drowzee (Lv23), Haunter (Lv23), Electrode (Lv25). Lead with Lv64 Calcifer.
+- **Current Plan (The Inner Maze Path):**
+  1. Move North to Row 33, then West to (10, 33).
+  2. Move North to (10, 29) then West to (4, 29) via (5, 29) shortcut.
+  3. Move North to (4, 24) then East to (6, 24).
+  4. Move North to (6, 20) then East to (11, 20).
+  5. Move North through (11, 15) gap to Row 14.
+  6. Move East on Row 14 to (13, 14) then North to (13, 10).
+  7. Move East to (14, 10) for the sighting.
+- **Verification:** Row 33 is a clear corridor from X=24 to X=6. Row 23 is open at X=6. Row 13 is open at X=13.
 
 # Tile Mechanics (Global)
 - FLOOR: Standard traversable terrain.
 - WALL / BUOY: Impassable terrain.
 - WATER: Traversable only with Surf.
-- DOOR / WARP_CARPET: Map transition points.
-- LEDGE_HOP_DOWN: One-way jump down (South). Blocks North.
-- FLOOR_UP_WALL (Terrace Climb): One-way barrier. Allows North movement, blocks South.
-- ROCK (Object): Blocks movement; cleared with Rock Smash. Respawns upon map transition.
+- LEDGE_HOP_DOWN: One-way jump DOWN (South). Blocks North.
+- FLOOR_UP_WALL (Terrace Climb): One-way jump UP (North). Blocks South.
+- ROCK (Object): Blocks movement; cleared with Rock Smash.
 
 # Area Notes: Cianwood City
-- **Barriers:** Row 15 is a solid wall/buoy barrier from X=3 to X=22, EXCEPT for a gap at (11, 15). Row 13 is solid at X=11, making (11, 15) a dead end.
-- **Shortcut Tiles:** (5, 29), (4, 25) (Smashed Rocks).
-- **Terrace Climbs:** (4, 30), (6, 34), (6, 46), (21, 46), (8, 48), (12, 50). All block South movement.
-
-# Lessons Learned
-- **Time Check:** Attempting sighting since Turn #50620.
-- **Verification:** X=2 corridor confirmed clear of Terrace Climbs and Ledges in Mental Map.
+- **Dead Ends:** (11, 15) is a pocket if Row 13 is solid. Row 13 is solid from X=9 to X=12. Gap exists at X=13.
+- **Shortcut Tiles:** (5, 29), (4, 25), (8, 16), (9, 17) (Smashed Rocks).
+- **Partition wall:** (29, 49) is a confirmed dead end from the North.
