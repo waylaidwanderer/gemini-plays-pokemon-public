@@ -31,7 +31,7 @@
 - Menu Mechanics: Main Menu (8 items) wraps 1 <-> 8. Party Menu (6 items) wraps 1 <-> CANCEL <-> 6.
 - Sub-menu Layout (Icarus): FLY, STATS, SWITCH, MOVE, ITEM, CANCEL.
 - Suicune Quest Start: Turn #50620. (Current Turn: #51007)
-- Fly Strategy: v16.0. Plan: Enter Lab (6, 3) to reset menu cursor. Then: B -> Start -> Pokemon (Down) -> A -> Reset Party (Up x6) -> Icarus (Up x2) -> A -> Fly. Failed attempts: 13. Current Turn: #51018. Goal: Cianwood (14, 10). Prep: Calcifer in lead. Focus: SUICUNE. Logic: Building entry/exit resets menu selection. path_analyzer/find_path failed, using navigate tool.
+- Fly Strategy: v17.0. Manual sequence from inside Lab (reset state). B (clear) -> Start -> Down (Pokemon) -> A -> Up x6 (Reset Party) -> Up x2 (Icarus) -> A -> Fly. Failed attempts: 13. Current Turn: #51019. Goal: Cianwood (14, 10). Prep: Calcifer in lead. Focus: SUICUNE. Logic: Confirmed menu reset via building entry. Manual execution to bypass tool overhead.
 - Fly attempts failed: 9.
 - Lesson: Party menu cursor persistence vs Start menu reset. Menu wrapping: 1 (Calcifer) <-> 7 (Cancel) in party.
 - Icarus is at index 6.
