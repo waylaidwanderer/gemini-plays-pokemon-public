@@ -2,14 +2,12 @@
 - **Time Check:** Attempting sighting since Turn #50620.
 - **Objective:** Trigger Suicune sighting at (14, 10) in northern Cianwood.
 - **Eusine Battle Prep:** Lead with Lv64 Calcifer. Sweep with Flamethrower/Thunderpunch.
-- **Current Plan (Route 41 Southern Bypass):**
-  1. Move Right to (29, 45) and transition to Route 41 (0, 45).
-  2. Surf South on Route 41 to Row 51.
-  3. Move Left to transition back to Cianwood at (29, 51).
-  4. Walk West on Row 51 to (2, 51).
-  5. Walk North via X=2 corridor to (2, 10).
-  6. Walk East to (14, 10) for the sighting.
-- **Verification:** BFS confirmed path via Route 41 and X=2 corridor.
+- **Current Plan (The Northern Bay Bypass):**
+  1. Currently at Route 41 (0, 45). Surf North to (0, 6).
+  2. Move Left to transition back to Cianwood at (29, 6).
+  3. Surf West to (17, 6) then South to (17, 10).
+  4. Land West at (16, 10) and walk to (14, 10) for the sighting.
+- **Verification:** Route 41 western edge (X=0-3) and Cianwood Northern Bay (Row 6) confirmed clear of buoys.
 
 # Tile Mechanics (Global)
 - FLOOR: Standard traversable terrain.
