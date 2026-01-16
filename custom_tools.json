@@ -225,31 +225,5 @@
         "action_counter": 50927
       }
     ]
-  },
-  "find_path_v10": {
-    "description": "BFS pathfinding that handles FLOOR_UP_WALL (North only) and LEDGE_HOP_DOWN (South only) mechanics. Returns a JSON array of button strings.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "target_x": {
-          "type": "integer"
-        },
-        "target_y": {
-          "type": "integer"
-        }
-      },
-      "required": [
-        "target_x",
-        "target_y"
-      ]
-    },
-    "python_script": "import json\nimport sys\nimport xml.etree.ElementTree as ET\nfrom collections import deque\n\ndef main():\n    try:\n        input_data = json.load(sys.stdin)\n        target_x = int(input_data['target_x'])\n        target_y = int(input_data['target_y'])\n        \n        root = ET.fromstring(map_xml_string)\n        \n        start_pos = None\n        for row in root.findall('Row'):\n            for tile in row.findall('Tile'):\n                if tile.find('Player') is not None or tile.attrib.get('has-player') == 'true':\n                    start_pos = (int(tile.attrib['id']), int(row.attrib['id']))\n                    break\n            if start_pos: break\n            \n        if not start_pos:\n            print(\"Error: Player not found on map\")\n            sys.exit(1)\n            \n        grid = {}\n        for row in root.findall('Row'):\n            y = int(row.attrib['id'])\n            for tile in row.findall('Tile'):\n                x = int(tile.attrib['id'])\n                t_type = tile.attrib['type']\n                has_obj = tile.attrib.get('has-object') == 'true'\n                if has_obj:\n                    grid[(x, y)] = 'WALL'\n                else:\n                    grid[(x, y)] = t_type\n                    \n        queue = deque([(start_pos, [])])\n        visited = {start_pos}\n        \n        while queue:\n            (curr_x, curr_y), path = queue.popleft()\n            if (curr_x, curr_y) == (target_x, target_y):\n                print(json.dumps(path))\n                return\n                \n            for dx, dy, move in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n                nx, ny = curr_x + dx, curr_y + dy\n                if (nx, ny) in grid and (nx, ny) not in visited:\n                    t_type = grid[(nx, ny)]\n                    can_move = False\n                    if t_type in ['FLOOR', 'DOOR', 'WATER']:\n                        can_move = True\n                    elif t_type == 'FLOOR_UP_WALL' and dy == -1:\n                        can_move = True\n                    elif t_type == 'LEDGE_HOP_DOWN' and dy == 1:\n                        can_move = True\n                    \n                    if can_move:\n                        visited.add((nx, ny))\n                        queue.append(((nx, ny), path + [move]))\n        print(\"[]\")\n    except Exception as e:\n        print(f\"Error: {str(e)}\")\n        sys.exit(1)\n\nif __name__ == \"__main__\":\n    main()\n",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-01-16T18:04:40.754Z",
-        "action_counter": 51267
-      }
-    ]
   }
 }
