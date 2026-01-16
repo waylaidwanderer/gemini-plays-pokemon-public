@@ -5,17 +5,22 @@
       "type": "object",
       "properties": {
         "buttons": {
+          "type": "array",
           "items": {
             "type": "string"
-          },
-          "type": "array"
+          }
+        },
+        "autopress_buttons": {
+          "type": "boolean",
+          "default": false
         }
       },
       "required": [
-        "buttons"
+        "buttons",
+        "autopress_buttons"
       ]
     },
-    "python_script": "# v2.1 - Simplified button return\nimport json\nprint(json.dumps(input_data['buttons']))",
+    "python_script": "import json\nimport sys\n\ndef main():\n    try:\n        input_data = json.load(sys.stdin)\n        buttons = input_data.get('buttons', [])\n        \n        # Validation: Ensure all buttons are valid strings\n        valid_buttons = ['A', 'B', 'Select', 'Start', 'Right', 'Left', 'Up', 'Down', 'R', 'L']\n        cleaned_buttons = []\n        for b in buttons:\n            if b in valid_buttons or b.startswith('sleep '):\n                cleaned_buttons.append(b)\n            else:\n                print(f\"Error: Invalid button '{b}'\")\n                sys.exit(1)\n        \n        print(json.dumps(cleaned_buttons))\n    except Exception as e:\n        print(f\"Error: {str(e)}\")\n        sys.exit(1)\n\nif __name__ == \"__main__\":\n    main()\n",
     "history": [
       {
         "commit_message": "Initial version",
@@ -31,6 +36,11 @@
         "commit_message": "Fixing sandbox issues by adding a version comment. Simplified logic for returning button array. v2.1",
         "timestamp": "2026-01-15T23:19:09.791Z",
         "action_counter": 49754
+      },
+      {
+        "commit_message": "Added missing commit message and refined validation.",
+        "timestamp": "2026-01-16T17:56:00.530Z",
+        "action_counter": 51254
       }
     ]
   },
