@@ -1,11 +1,11 @@
-# Strategy: Trigger Suicune Sighting (Started: Turn 51131, Turn #51366 - Resumed)
-- City Logic: Vertical walls partition the city into corridors. Row 51 is the primary horizontal highway.
-- The Grand Loop (Execution Plan):
-  1. Walk South to (11, 51) (Gap in Row 50 terrace).
-  2. Walk West along Row 51 to (2, 51) (Western Corridor).
-  3. Walk North through the Western Corridor to (2, 14).
+# Strategy: Trigger Suicune Sighting (Started: Turn 51131, Turn 51369 - Resumed)
+- City Logic: Vertical walls partition the city into corridors. Gaps in the walls exist at (5, 34-37), (8, 13), and (13, 13). Row 15 is clear at (0-2, 15) and (11, 15).
+- The Western Gap Route (Execution Plan):
+  1. Walk West to (6, 21), then South to (6, 35).
+  2. Walk West to (2, 35) (Gap in X=5 wall).
+  3. Walk North through the Western Corridor (X=2) to (2, 14).
   4. Walk East to (8, 14), then North to (8, 12) (Gap in Row 13).
-  5. Walk East to (14, 12), then North to (14, 10) for Suicune.
+  5. Walk East along Row 12 to (14, 12), then North to (14, 10) for Suicune.
 - Battle Prep: Lead Calcifer (Lv64 Typhlosion).
 
 # Tile Mechanics & Verification
@@ -13,13 +13,8 @@
 - WALL / BUOY: Impassable collision.
 - WATER: Traversable only while using SURF.
 - LEDGE_HOP_DOWN: One-way passage (South only). Jump FROM the ledge tile to the tile below it.
-- FLOOR_UP_WALL (Terrace): Walk ONTO from the south (climb up). Allows horizontal (East/West) movement while on the elevated tier. Blocked from the North.
+- FLOOR_UP_WALL (Terrace): Walk ONTO from the south (climb up). Hypothesis: Allows horizontal (East/West) movement while on the elevated tier. Blocked from the North.
 - ROCK (Object): Impassable until cleared with ROCK SMASH. Rocks respawn upon map re-entry or Fly.
-
-# Map Layout Notes
-- Western Corridor (X=0-2): Primary land route to the north, accessible via Row 51 highway.
-- Southern Highway: Row 51 connects all land corridors.
-- Row 13 & 15 Walls: Major land barriers partitioning the city. Gaps exist at X=8 (Row 13) and X=13 (Row 13).
 
 # Map Markers (Summary)
 - Suicune Sighting: (14, 10)
