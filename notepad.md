@@ -20,6 +20,7 @@ The plateau (X=13-16, Row 10-14) is accessible by landing on its eastern edge (X
 - Verified: Buoy maze has specific gaps at (27, 9), (26, 16), (22, 16), and (18, 11).
 - Note: Out of Repels. Running from wild encounters.
 - Hypothesis: (16, 11) is a valid landing point for the plateau.
+- Turn 49826: Wild Tentacruel battle at (24, 16). Running.
 
 # Reflection Turn (49823)
 - Immediate Execution: Executing the "True Sea Route". This path utilizes verified buoy gaps to navigate the sea barriers and reach the plateau's eastern shore.
