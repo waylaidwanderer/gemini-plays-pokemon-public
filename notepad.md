@@ -23,3 +23,6 @@
 - **Fisher Dialogue:** "If any rocks are in your way..." is post-gift. flag set even if item gone.
 - **Fly Map:** Cursor moves one tile per press but requires short delays for reliability. Sequence from New Bark (14,10) to Goldenrod (5,9): 9 Left, 1 Up.
 - **Arthur (45, 6):** Only gives Hard Stone on Thursdays.
+- **New Lead:** TM08 Rock Smash is sold at Goldenrod Dept. Store 5F (¥1000). This is the fallback if the Route 36 NPC remains bugged.
+- **Fly Map:** New Bark (14,10) to Goldenrod (5,9) is 9 Left, 1 Up.
+- **Current Task:** Exit all menus and Fly to Goldenrod City.
