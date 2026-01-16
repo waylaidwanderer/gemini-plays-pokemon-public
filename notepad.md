@@ -1,21 +1,20 @@
 # Suicune Quest: Cianwood City
 ## Verified Strategy: The Terrace Climb
-The northern plateau (14, 10) is accessible via a series of one-way "upward" transitions that bypass the ledge system. This is a pure land route requiring a detour to the southern part of the city. Land travel south in Cianwood is blocked at Row 46 (Hypothesis: FLOOR_UP_WALL is one-way North).
+The northern plateau (14, 10) is accessible via a series of one-way upward transitions that bypass the ledge system. This is a land route requiring a detour to the southern part of the city.
+
+### Verified Mechanics
+- FLOOR_UP_WALL: One-way North. Blocks South movement (Verified at (6, 46) on Turn 50198).
+- LEDGE_HOP_DOWN: One-way South. Blocks North movement.
 
 ### Execution Plan
-1. Verification: Test the FLOOR_UP_WALL mechanic by attempting to move South onto (6, 46) from (6, 45). (In Progress)
-2. Surf Detour: Return to Route 41 and Surf to (0, 51), then re-enter Cianwood City at (29, 51).
-3. Southern Approach: Once at the southern beach, follow the terrace sequence to Suicune.
-
-## Tile Mechanics
-- FLOOR: Land (Traversable).
-- FLOOR_UP_WALL: One-way North (Hypothesis). Blocks DOWN movement (e.g., (6, 46), (6, 34), (4, 30), (4, 20)).
-- LEDGE_HOP_DOWN: One-way South. Blocks NORTH movement (e.g., (10, 15)).
+1. Southern Re-entry: Find a coordinate on Route 41 (Map 22_2) that transitions into Cianwood City (Map 22_3) south of the Row 46-49 walls.
+2. Terrace Ascent: From the southern beach (approx Row 51), follow the sequence of upward transitions:
+   - Climb 1: (6, 46)
+   - Climb 2: (6, 34)
+   - Climb 3: (4, 30)
+   - Climb 4: (4, 20)
+3. Trigger Suicune: Reach (14, 10) to initiate the event.
 
 ## Battle Plan: Eusine
 - Expected Team: Drowzee (Lv23), Haunter (Lv23), Electrode (Lv25).
 - Lead: Calcifer (Lv64 Typhlosion). Strategy: Flamethrower sweep.
-
-## Progress Log
-- Turn 50120: Quest Start.
-- Turn 50198: Attempted to move South into (6, 46); movement failed, confirming FLOOR_UP_WALL is one-way North.
