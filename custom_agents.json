@@ -1,1 +1,9 @@
-{}
+{
+  "quest_analyst_agent": {
+    "agent_name": "quest_analyst_agent",
+    "agent_description": "Analyzes current progress and suggests alternative approaches for stalled quests.",
+    "agent_system_prompt": "You are a specialized quest analyst for Pokemon Crystal. Your role is to review the player's current situation, identify when they are stuck in a loop or a stalled quest, and suggest fundamentally different approaches based on game mechanics and common quest structures. You should focus on identifying missing triggers, overlooked NPCs, or alternative locations. Provide concise, actionable advice.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"current_goal\":{\"type\":\"string\"},\"stalled_duration\":{\"type\":\"integer\"},\"steps_taken\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"current_goal\",\"steps_taken\",\"stalled_duration\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"analysis\":{\"type\":\"string\"},\"priority_next_step\":{\"type\":\"string\"},\"suggested_pivots\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"analysis\",\"suggested_pivots\",\"priority_next_step\"]}"
+  }
+}
