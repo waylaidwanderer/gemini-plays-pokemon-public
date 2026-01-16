@@ -3,10 +3,11 @@
 The northern plateau (14, 10) is accessible via the western coastal corridor (X=2). This requires a long loop through the southern terrace gaps to bypass the central walls and elevation traps.
 
 ### Execution Plan
-1. Southern Descent: Navigate to (10, 51) via the gap at (10, 34). (In Progress)
-2. Western Crossing: Walk west along Row 51 to (2, 51).
-3. Coastal Ascent: Walk north along X=2 to Row 12.
-4. Final Approach: Walk east to (14, 12) and north to (14, 10).
+1. Navigate to (10, 51). (In Progress)
+2. Walk west along Row 51 to (4, 51).
+3. Walk north along X=4 to Row 20.
+4. Move Left to X=2 to reach the Western Highway.
+5. Walk North along X=2 to Row 12, then East to (14, 10).
 
 ## Global Tile Mechanics
 - FLOOR: Land (Traversable).
@@ -18,4 +19,4 @@ The northern plateau (14, 10) is accessible via the western coastal corridor (X=
 ## Battle Plan: Eusine
 - Expected Team: Drowzee (Lv23), Haunter (Lv23), Electrode (Lv25).
 - Lead: Calcifer (Lv64 Typhlosion).
-- Strategy: Flamethrower sweep. (Flamethrower is super effective against Haunter and neutral but high damage against the others. Level gap provides a massive safety margin.)
+- Strategy: Flamethrower sweep. Calcifer's high level ensures OHKOs on Eusine's entire roster.
