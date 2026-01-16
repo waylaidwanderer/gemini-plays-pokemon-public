@@ -29,3 +29,4 @@
 - **Clerk 3 (3F, 6,1):** Sells X Speed/Special/Defend/Attack, Dire Hit, Guard Spec, X Accuracy. NO Repels.
 - **Clerk 4 (4F, 13,5):** Sells Vitamins (Protein, Iron, Carbos, Calcium, HP Up). NO Repels.
 - **Clerk 5 (5F, 8,5):** Sells TMs (41, 48, 33, 02, 08). NO Repels.
+- **Vending Machine (6F):** Fresh Water, Soda Pop, Lemonade. NO Repels.
