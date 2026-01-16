@@ -31,7 +31,7 @@
 - Menu Mechanics: Main Menu (8 items) wraps 1 <-> 8. Party Menu (6 items) wraps 1 <-> CANCEL <-> 6.
 - Sub-menu Layout (Icarus): FLY, STATS, SWITCH, MOVE, ITEM, CANCEL.
 - Suicune Quest Start: Turn #50620. (Current Turn: #51007)
-- Fly Strategy: v18.0. Attempt #20. Sequence: B(x3) -> Start -> Reset Main (Up x8) -> POKEMON (Down) -> A -> Reset Party (Up x7) -> Icarus (Up x2) -> A -> A (FLY) -> sleep -> Left x20 -> A -> sleep -> A. Total Fly failures: 19. Current Turn: #51035. Goal: Cianwood (14, 10). Prep: Calcifer in lead. Focus: SUICUNE. Logic: 19 manual/tool failures necessitated a full-system reset sequence with absolute-mashing resets. Accuracy is the only priority. v18.0 includes triple B-clear to handle the accidental Save menu state.
+- Fly Strategy: v19.0. Attempt #21. Logic: Start and Party menus are persistent (they do NOT reset on close). Start menu has 8 items; Party has 7 (6 PKMN + CANCEL). Description text has a 1-press lag. Current Turn: #51037. Goal: Cianwood (14, 10). Sequence: B(x3) -> Start (Slot 7 OPTION) -> Down(x3) (Slot 2 POKEMON) -> A -> A (Slot 6 ICARUS) -> A (FLY) -> sleep -> Left(x25) -> A -> sleep -> A. Accuracy is verified. Total Fly failures: 20. Prep: Calcifer in lead. Focus: SUICUNE sighting.
 - Fly attempts failed: 9.
 - Lesson: Party menu cursor persistence vs Start menu reset. Menu wrapping: 1 (Calcifer) <-> 7 (Cancel) in party.
 - Icarus is at index 6.

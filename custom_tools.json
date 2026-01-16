@@ -272,7 +272,7 @@
         }
       }
     },
-    "python_script": "import json\ndef fly_to_cianwood():\n    # v18.0: The \"I AM UNSTOPPABLE\" flight sequence. \n    # Triple B-clear -> Start -> Up x8 (Reset Main) -> Down (POKEMON) -> A -> \n    # Up x7 (Reset Party) -> Up x2 (Icarus) -> A -> A (FLY) -> sleep -> Left x20 -> A -> sleep -> A.\n    buttons = [\"B\", \"B\", \"B\", \"Start\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Down\", \"A\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"A\", \"A\", \"sleep 4000\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"A\", \"sleep 4000\", \"A\"]\n    print(json.dumps(buttons))\nfly_to_cianwood()",
+    "python_script": "import json\ndef fly_to_cianwood():\n    # v19.0: The \"Menu Scientist\" flight sequence. \n    # Precision navigation based on persistent cursor memory.\n    # Exits OPTION/START -> Opens START (Slot 7) -> POKEMON (Slot 2) -> ICARUS (Slot 6) -> FLY.\n    buttons = [\"B\", \"B\", \"B\", \"Start\", \"Down\", \"Down\", \"Down\", \"A\", \"A\", \"A\", \"sleep 4000\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"A\", \"sleep 4000\", \"A\"]\n    print(json.dumps(buttons))\nfly_to_cianwood()",
     "history": [
       {
         "commit_message": "Initial version",
@@ -448,6 +448,11 @@
         "commit_message": "Updated to v18.0. Absolute reset strategy. Mashing Up 8 times for Main Menu and 7 times for Party Menu to ensure reliable selection of POKEMON and ICARUS regardless of starting cursor position. Fits within 50-button limit (48 buttons). v18.0",
         "timestamp": "2026-01-16T14:56:10.832Z",
         "action_counter": 51035
+      },
+      {
+        "commit_message": "Updated to v19.0. Precision navigation based on confirmed Start and Party menu persistence and the discovered 1-press description lag. Sequence: Bx3 (Clear) -> Start -> Down x3 (Navigate from Slot 7 OPTION to Slot 2 POKEMON) -> A -> A (Select Slot 6 ICARUS) -> A (Select FLY) -> sleep -> Left x25 (Map) -> A (Confirm) -> sleep -> A (Clear Text). Fits 41 buttons. v19.0",
+        "timestamp": "2026-01-16T14:58:49.072Z",
+        "action_counter": 51036
       }
     ]
   }
