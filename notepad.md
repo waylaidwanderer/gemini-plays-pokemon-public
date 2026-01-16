@@ -1,11 +1,13 @@
 # Suicune Quest: Cianwood City
-## Active Strategy: Western Bypass (X=2)
-Land corridors near the plateau are blocked by ledges and walls. Investigation confirms a clear land path exists via the western edge (X=2).
-1. Navigate south to Row 33 to clear the central wall (X=9).
-2. Loop north to Row 18 to clear the western wall (X=5).
-3. Loop south to Row 30 to clear the western wall (X=3).
-4. Walk north along X=2 to Row 10.
-5. Walk east to trigger Suicune at (14, 10).
+## Active Strategy: The Great Western Bypass
+Direct landing on the northern plateau is blocked by ledges. The only valid path is to loop around the entire island via the western corridor (X=2).
+
+### Execution Plan
+1. Return to Mainland: Surf south from (13, 16) to (13, 28). (In Progress)
+2. Reach Southern Clearway: Walk to (13, 51).
+3. Cross to West Side: Walk to (4, 51).
+4. Coastal Highway: Walk north along X=2/X=4 to Row 10.
+5. Trigger Event: Walk east to (14, 10).
 
 ## Global Tile Mechanics
 - FLOOR: Land (Traversable).
@@ -16,8 +18,8 @@ Land corridors near the plateau are blocked by ledges and walls. Investigation c
 
 ## Battle Plan: Eusine
 - Lead: Calcifer (Lv64 Typhlosion).
-- Strategy: Flamethrower sweep.
+- Strategy: Flamethrower sweep. (Lv23-25 targets).
 - Status: Fully healed.
 
 ## Tool Lessons
-- find_path_v9: BFS optimized for land/surf transitions and obstacle markers.
+- find_path_v9: BFS optimized for land/surf transitions. Limited to 50 buttons per turn. Handles obstacle markers. v9.5 adds 'A' button logic for Surfing.
