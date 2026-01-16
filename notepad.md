@@ -2,8 +2,8 @@
 - **Goal:** Catch Raikou (#243) & Entei (#244).
 - **Hunt Duration:** ~13,000 turns. Resumed: Turn 41847.
 - **Plan:**
-    1. Finish checking Player's PC for Master Ball (Currently at "Protein").
-    2. If not found, assume used/unavailable.
+    1. Exit Player's House.
+    2. Fly to Ecruteak City (or nearest point).
     3. Resume Roamer hunt with Repel Trick (Route 37/36).
 - **Secondary Targets:** Catch Stantler (Route 37/36 Night) or Growlithe.
 
