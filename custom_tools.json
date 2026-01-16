@@ -262,9 +262,9 @@
     ]
   },
   "fly_to_cianwood_v1": {
-    "description": "Navigates from the overworld to Fly to Cianwood City. Assumes starting from the overworld or a menu. v2.3",
+    "description": "Navigates from the overworld to Fly to Cianwood City. Assumes starting from the overworld or a menu. v2.4",
     "input_schema": {},
-    "python_script": "import json\n# Sequence:\n# 1. B x3 (Clear menus to overworld)\n# 2. Start (Open menu)\n# 3. Up x4 (Move from SAVE to POKEMON) -> A\n# 4. Down x5 (Move to 6th PKMN - ICARUS) -> A\n# 5. sleep 500\n# 6. Down (Select FLY) -> A\n# 7. sleep 1000\n# 8. Left x25 (Move far west on map)\n# 9. A -> A (Confirm flight)\nprint(json.dumps(['B']*3 + ['Start', 'Up', 'Up', 'Up', 'Up', 'A', 'Down', 'Down', 'Down', 'Down', 'Down', 'A', 'sleep 500', 'Down', 'A', 'sleep 1000'] + ['Left']*25 + ['A', 'A']))",
+    "python_script": "import json\n# Sequence:\n# 1. B x3 (Clear menus to overworld)\n# 2. Start (Open menu)\n# 3. Up x4 (Move from SAVE to POKEMON) -> A\n# 4. Down x5 (Move to 6th PKMN - ICARUS) -> A\n# 5. A (Select FLY - assumes it's the first sub-menu option)\n# 6. sleep 1000\n# 7. Left x25 (Move far west on map)\n# 8. A -> A (Confirm flight)\nprint(json.dumps(['B']*3 + ['Start', 'Up', 'Up', 'Up', 'Up', 'A', 'Down', 'Down', 'Down', 'Down', 'Down', 'A', 'A', 'sleep 1000'] + ['Left']*25 + ['A', 'A']))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -335,6 +335,11 @@
         "commit_message": "v2.3: Robust sequence from overworld. Uses 5x Down for Icarus and 1x Down for FLY. 47 buttons.",
         "timestamp": "2026-01-16T14:09:22.168Z",
         "action_counter": 50990
+      },
+      {
+        "commit_message": "v2.4: Optimized for flyers with only one field move. Assumes FLY is the first option in the sub-menu. 45 buttons.",
+        "timestamp": "2026-01-16T14:10:38.390Z",
+        "action_counter": 50991
       }
     ]
   }
