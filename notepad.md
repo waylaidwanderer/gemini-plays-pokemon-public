@@ -1,6 +1,6 @@
 # Strategic Status
 - **Goal:** Catch Raikou (#243) & Entei (#244).
-- **Hunt Duration:** ~13,000 turns. Resumed: Turn 41847 (Current: 42439).
+- **Hunt Duration:** ~13,000 turns. Resumed: Turn 41847 (Current: 42440).
 - **Status:** Repel Active (Turn 42400).
 - **Plan:**
     1. **Execute Loop:**
