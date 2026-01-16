@@ -1,7 +1,10 @@
 # Strategic Status
 - **Goal:** Catch Raikou (#243) & Entei (#244).
 - **Immediate Task:** Restock Super Repels at Goldenrod Dept Store.
-- **Current Action:** Exiting Route 37 South (at 8, 14). Next: Route 36.
+- **Status:** Handling Gaven's Call (Route 37).
+- **Strategy:** Clear dialogue -> Continue South to Route 36.
+- **Observation:** Gaven interrupts again. Position confirmed at (8, 15).
+- **Session Stats:** Repels EMPTY. Paused hunting to restock.
 - **Secondary Hunt:** Catch Stantler (Route 37/36 Night) or Growlithe while walking.
 - **Session Stats:** Repels EMPTY. Paused hunting to restock.
 
