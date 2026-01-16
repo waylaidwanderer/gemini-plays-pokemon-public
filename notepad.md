@@ -31,3 +31,10 @@
 
 # Progress Tracking
 - Smashed Rocks: (5, 29), (4, 25), (8, 16), (9, 17).
+
+# Trainer Rosters
+- Eusine (Suicune Hunter): Drowzee, Haunter, Electrode. (Last seen: Ecruteak Gym). Will battle in Cianwood.
+
+# Fly Map Navigation (Verified)
+- New Bark Town to Cianwood: [Pending verification of exact presses]
+- Observation: Map cursor may require a delay or specific text clearance before moving.
