@@ -1,9 +1,9 @@
 # Strategy: Trigger Suicune Sighting
-- Plan: The Direct City Path (Verified).
+- Plan: The Direct City Path (Bypass Water).
 - Steps:
-  1. Walk West along Row 32 to (12, 32).
-  2. Walk North along Column 12 to (12, 29).
-  3. Walk West to (11, 29).
+  1. Walk West to (9, 26).
+  2. Walk North along Column 9 to (9, 21).
+  3. Walk East to (11, 21).
   4. Walk North along Column 11 through the gap at (11, 15) to (11, 14).
   5. Walk East to (13, 14) and North through the gap at (13, 13) to (13, 12).
   6. Walk East along Row 12 to (14, 12) and North to (14, 10).
