@@ -1,9 +1,9 @@
 # Strategic Status
 - **Goal:** Catch Raikou (#243) & Entei (#244).
 - **Immediate Task:** Restock Super Repels at Goldenrod Dept Store.
-- **Status:** Turning South at Route 36 Intersection.
-- **Strategy:** Move South to Row 13, then West to Exit.
-- **Observation:** Successfully bypassed the tree line. Now heading to the lower route.
+- **Status:** Traversing Route 36 (Detour to Row 14).
+- **Strategy:** Move South to Row 13, Left to Col 33, Down to Row 14.
+- **Observation:** Walls block Row 13 Westbound. Switching to Row 14 corridor.
 - **Session Stats:** Repels EMPTY. Paused hunting to restock.
 - **Secondary Hunt:** Catch Stantler (Route 37/36 Night) or Growlithe while walking.
 - **Session Stats:** Repels EMPTY. Paused hunting to restock.
