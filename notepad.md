@@ -2,9 +2,9 @@
 - City Logic: Vertical walls divide the city. The Western Corridor (X=0-2) is the main land route to the north, but requires a long detour to Row 51 or using Surf to bypass walls.
 - Execution Plan:
   1. Use SURF at (12, 28) to enter the water.
-  2. Surf North to Row 20, then East to X=23 to bypass the Row 15 buoy barrier.
-  3. Surf North to Row 11, then West and land on the northern coast.
-  4. Walk to (14, 10) for the Suicune sighting.
+  2. Surf North to Row 21, then East to X=27 to bypass the buoy barriers at Row 15 and Row 9.
+  3. Surf North to Row 8, then West to X=14.
+  4. Land at (14, 11) and walk to (14, 10) for the Suicune sighting.
 
 # Tile Mechanics
 - FLOOR: Standard traversable tile.
