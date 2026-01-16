@@ -1,9 +1,9 @@
 # Strategic Status
 - **Goal:** Catch Raikou (#243) & Entei (#244).
 - **Immediate Task:** Restock Super Repels at Goldenrod Dept Store.
-- **Status:** Traversing Route 36 (Bottom Path).
-- **Strategy:** Move West on Row 15 to bypass Alan (31, 14). Target: Cut Tree at (17, 17).
-- **Observation:** Top path is complex. Bottom path leads to a Cutable tree shortcut to Route 35.
+- **Status:** Traversing Route 36 (Westbound).
+- **Strategy:** Move West on Row 15 to bypass Alan. Heading to Cut Tree at (16, 16) or similar.
+- **Observation:** Moving West towards the blockage.
 - **Session Stats:** Repels EMPTY. Paused hunting to restock.
 - **Secondary Hunt:** Catch Stantler (Route 37/36 Night) or Growlithe while walking.
 - **Session Stats:** Repels EMPTY. Paused hunting to restock.
