@@ -22,3 +22,12 @@
 - **Cianwood Pathing:** (11, 15) is a dead-end pocket. (6, 46) blocks South movement from (6, 45).
 - **Advisor Advice:** "Forget the South Bypass; the path is strictly north."
 - **Time Check:** Attempting sighting since Turn #50620. Commit to X=2 corridor by Turn #50900.
+- **Movement Discovery:** (6, 34) blocks South movement from (6, 33). Terrace edges (FLOOR_UP_WALL) appear to be one-way barriers (allowing North, blocking South).
+- **Refined Path to Suicune (The X=2 Corridor):**
+  1. From (6, 33), move North to (6, 29).
+  2. Move West through smashed rock (5, 29) to (4, 29).
+  3. Move North to (4, 22).
+  4. Move West through the gap in the X=3 wall at (3, 22) to (2, 22).
+  5. Move North to (2, 10).
+  6. Move East to (14, 10) for the sighting.
+- **Verification:** (3, 22) is confirmed FLOOR in Mental Map. X=3 wall exists from Y=23 to Y=29.
