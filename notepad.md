@@ -45,11 +45,9 @@
 - Goal: Verify if cursor moves and identifies cities between New Bark Town and Cianwood.
 
 # Fly Map Observation
-- When the map opens, a "Where? [Current City]" prompt appears.
-- This is a UI element. Moving the cursor updates this text.
-- Pressing A confirms the destination. Avoid mashing A.
-- The map requires a short initialization period before accepting input.
-- New Bark Town to Cianwood: [Calculating exact presses...]
-- Fly Map Observation: 35 Left and 10 Up presses from New Bark Town reached Blackthorn City (NE). This indicates the cursor moves and identifies locations.
-- Target: Cianwood City (Far West).
-- Current Action: Moving Left 40 times to reach the western edge of the Johto map.
+- When the map opens, a "Where? [Current City]" prompt appears as a UI element.
+- The map cursor moves on a grid, NOT city-to-city. Multiple presses are required to move between locations.
+- The 'menu_analyst' agent's suggestion that 1 press = 1 city is INCORRECT.
+- 35 Left and 10 Up from New Bark Town reached Blackthorn City.
+- Goal: Find Cianwood City by moving West (Left) and adjusting Y-axis.
+- Current Test: Pressing Left 40 times to find the western edge.
