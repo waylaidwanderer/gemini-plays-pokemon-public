@@ -50,4 +50,6 @@
 - Pressing A confirms the destination. Avoid mashing A.
 - The map requires a short initialization period before accepting input.
 - New Bark Town to Cianwood: [Calculating exact presses...]
-- Current Test: Moving Left 35 times and Up 10 times to reach Cianwood City on the western edge of the Fly map. Previous tests (5 and 25 presses) failed to change the destination from New Bark Town. Goal: Identify if the map uses a tile-based grid or a continuous cursor.
+- Fly Map Observation: 35 Left and 10 Up presses from New Bark Town reached Blackthorn City (NE). This indicates the cursor moves and identifies locations.
+- Target: Cianwood City (Far West).
+- Current Action: Moving Left 40 times to reach the western edge of the Johto map.
