@@ -6,8 +6,8 @@
 The northern plateau (14, 10) is a high-altitude zone protected by south-facing elevation traps (FLOOR_UP_WALL). The only entry is via the western coastal highway (X=2). To reach X=2 without hitting traps, we loop through the eastern ocean.
 
 ### Execution Plan
-1. Eastern Shore: Walk to (23, 33). (In Progress)
-2. Ocean Entry: Face Right and use SURF (GORP).
+1. Eastern Shore: Walk to (23, 33). (Done)
+2. Ocean Entry: Face Right and use SURF (GORP). (In Progress)
 3. Sea Transit: Surf South along X=24 to (24, 51).
 4. Southern Landing: Land at (24, 51).
 5. Southern Traverse: Walk West along Row 51 to (4, 51).
