@@ -3,9 +3,9 @@
 The northern plateau (14, 10) is isolated by walls and rocks. The only land bridge is the southern clearway at Row 51, which connects the east side to the western corridor.
 
 ### The Path to Suicune
-1. Surf South to Row 51 at (28, 51). (In Progress)
-2. Surf West to (24, 51) and land.
-3. Walk West along Row 51 to (2, 51).
+1. Surf South on Route 41 to Row 51 at (0, 51). (In Progress)
+2. Enter Cianwood City at (29, 51).
+3. Walk West along Row 51 to the western corridor (X=2).
 4. Walk North along X=2 to Row 14.
 5. Walk East to X=8, then North to Row 12.
 6. Walk East along Row 12 to (14, 12).
