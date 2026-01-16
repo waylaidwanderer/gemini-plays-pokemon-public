@@ -5,10 +5,10 @@
     - Repel Trick: Lead Lv37 > Wilds (Lv ~20) but < Roamers (Lv 40).
     - Status: Max Repel Active.
     - Loop: Wiggle in grass -> Shuffle Ecruteak/Rt 37 -> Repeat.
-- **Status:** Using Last Max Repel.
-- **Strategy:** Use Max Repel -> Resume shuffling until expired -> Go buy more.
-- **Observation:** Only 1 Max Repel left. Must restock soon.
-- **Session Stats:** Approx 55 shuffle cycles. Repel EXPIRED. Re-applying (Last one).
+- **Status:** Resuming Wiggle (Route 37).
+- **Strategy:** Resume shuffling until expired -> Go buy more.
+- **Observation:** Max Repel used. Stock is now empty.
+- **Session Stats:** Approx 55 shuffle cycles. Repel Active (Last one).
 
 # Mechanics
 - **Roamers:** Move to an adjacent route when player transitions maps.
