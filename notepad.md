@@ -1,13 +1,11 @@
 # Strategy: Trigger Suicune Sighting
 - Plan: The Eastern Surf Route.
 - Steps:
-  1. Walk Up to (12, 31).
-  2. Walk Right to (20, 31).
-  3. Use Surf on the water at (20, 31).
-  4. Surf East to Column 24.
-  5. Surf North along Column 24 to Row 10.
-  6. Surf West and land at (15, 10).
-  7. Walk to (14, 10) to trigger Suicune.
+  1. Surf East to Column 24.
+  2. Surf North along Column 24 to Row 8.
+  3. Surf West along Row 8 to (17, 8).
+  4. Surf South to (17, 10) and land on the coast.
+  5. Walk West to (14, 10) to trigger Suicune.
 - Battle Prep: Lead Calcifer (Lv64 Typhlosion).
 - Note: This route bypasses the complex city walls and one-way slopes. Row 31 is a clear path to the water. Row 10/11/12 are clear paths to the sighting spot.
 
