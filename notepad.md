@@ -1,7 +1,7 @@
 # Strategic Status
 - **Goal:** Catch Raikou (#243) & Entei (#244).
 - **Hunt Duration:** ~13,000 turns. Resumed: Turn 41847 (Current: 42964).
-- **Status:** Moving to Route 37.
+- **Status:** Roamer Hunt Loop (Route 37 <-> Ecruteak).
 - **Plan:**
     1. **Execute Loop:**
        a. Start at Route 37 Gate (8,0).
