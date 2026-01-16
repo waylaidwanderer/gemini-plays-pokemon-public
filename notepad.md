@@ -1,21 +1,21 @@
 # Suicune Quest: Cianwood City
 - **Start Turn:** 49885
-- **Current Status:** Executing the "Great Southern Loop" via Row 46.
+- **Current Status:** Executing the "Gem Corridor" (X=6) route to bypass central walls.
 
-## Active Strategy: The Great Southern Loop
-The northern plateau (14, 10) is accessible via the western coastal highway (X=2). This path bypasses central walls by looping through Row 46 and Row 51.
+## Active Strategy: The Gem Corridor (X=6)
+The northern plateau (14, 10) is accessible via a clear north-south corridor along the X=6 column, which leads to the western terrace system.
 
 ### Execution Plan
-1. Central Descent: Walk west to (12, 32), then south to (12, 46). (In Progress)
-2. Westward Crossing: Walk west along Row 46 to (4, 46) (bypass (6, 46) UP_WALL).
-3. Southern Clearway: Walk south to (4, 51), then west to (2, 51).
-4. Coastal Ascent: Walk north along X=2 to Row 14.
-5. Final Approach: Walk east along Row 14 to (6, 14), then north to Row 12, then east to (14, 10).
+1. Central Ascent: Walk North from (12, 46) to Row 33, then West to (6, 33). (In Progress)
+2. Terrace Navigation: Walk North along X=6 to Row 18.
+3. West Coast Entry: Walk West to (4, 18), South to (4, 20), and West to (2, 20).
+4. Highway North: Walk North along X=2 to Row 12.
+5. Final Approach: Walk East to (14, 12) and North to Suicune at (14, 10).
 
 ## Verified Mechanics
-- Row 46: Clear westward crossing from X=12 to X=4. (6, 46) is UP_WALL but allows horizontal movement.
-- X=4 Corridor: Clear north-south path from Row 34 to Row 50.
-- Row 51: Completely clear land bridge across the bottom.
+- X=6: A clear north-south land corridor from Row 33 to Row 18.
+- X=12: A clear north-south land corridor from Row 46 to Row 33.
+- FLOOR_UP_WALL: Blocks DOWN movement (e.g., Row 50; 6, 34). Moving UP is allowed.
 
 ## Battle Plan: Eusine
 - Expected Team: Drowzee (Lv23), Haunter (Lv23), Electrode (Lv25).
@@ -23,11 +23,7 @@ The northern plateau (14, 10) is accessible via the western coastal highway (X=2
 - Strategy: Flamethrower sweep. Overleveled status ensures OHKOs.
 
 ## Failed Hypotheses
-- Hypothesis 1: Land access via X=11 (blocked by Row 30 wall).
-- Hypothesis 2: Land access via X=6 (blocked by Row 34 elevation trap).
-- Hypothesis 3: Cut tree at (11, 13) (fake tree).
-- Hypothesis 4: Direct Surf to beach (dead end).
-
-## Map Markers (Verified ROCKs)
-- (4, 19), (4, 25), (10, 27), (5, 29), (8, 16), (9, 17): ROCK objects.
-- (14, 10): Suicune sighting point.
+- Hypothesis 1: Land access via X=2 or X=11. Result: Blocked by ledges/rocks.
+- Hypothesis 2: Direct Surf to beach. Result: Beach is a dead end.
+- Hypothesis 3: Cut tree at (11, 13). Result: Tree is a solid wall.
+- Hypothesis 4: Southern loop via Row 51. Result: Blocked by Row 50 ledges.
