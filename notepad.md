@@ -1,7 +1,7 @@
 # Strategic Status
 - **Goal:** Catch Raikou (#243) & Entei (#244).
 - **Hunt Duration:** ~14,350 turns. Resumed: Turn 41847.
-- **Status:** Inside Dept Store 1F, going to 2F.
+- **Status:** At Dept Store 2F Counter.
 - **Plan:**
     1. **Supply Run:**
        a. Fly to Goldenrod City.
