@@ -8,7 +8,7 @@
   5. Walk East to (8, 14), then North through gap at (8, 13).
   6. Walk East to (14, 12), then North to (14, 10).
 
-# Mechanic Verification (Higher Priority than Navigation)
+# Mechanic Verification (Priority)
 - Hypothesis 1: FLOOR_UP_WALL tiles allow horizontal movement (East/West).
 - Hypothesis 2: FLOOR_UP_WALL tiles block movement from the North (cannot walk South onto them).
 - Test Plan: Once at Row 46 or 50, attempt horizontal movement. Attempt to walk South onto a terrace from the North.
@@ -22,7 +22,6 @@
 
 # Map Markers Reference
 - (12, 28): 🏄 Surf spot to inner sea
-- (14, 10): 🎯 Suicune Sighting Spot
 - (11, 33): 🏝️ Grand Loop Landing Spot
 - (8, 13): 📍 Northern Gap (X=8)
 - (15, 37): 🏠 Lugia Speech House
