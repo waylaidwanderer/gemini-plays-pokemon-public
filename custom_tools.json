@@ -153,38 +153,27 @@
       }
     ]
   },
-  "perform_route37_cycle": {
-    "description": "Performs a full Roamer check cycle: Exits Ecruteak, checks Route 37 grass, and returns to Ecruteak. Assumes starting at Ecruteak (18, 35) or Route 37 (8, 0).",
+  "check_route37_grass": {
+    "description": "Walks south from the Route 37 gate into the grass, performs a wiggle check for wild Pokemon, and returns to the gate. Assumes starting at (8, 0).",
     "input_schema": {
       "type": "object",
       "properties": {
         "cycles": {
           "type": "integer",
-          "description": "Number of left-right wiggle cycles in grass. Default is 10.",
-          "default": 10
-        },
-        "current_map_id": {
-          "type": "string",
-          "description": "Current Map ID. 4_9 for Ecruteak, 10_4 for Route 37.",
-          "default": "4_9"
-        },
-        "autopress_buttons": {
-          "type": "boolean",
-          "description": "Must be true.",
-          "default": true
+          "description": "Number of left-right wiggles.",
+          "default": 5
         }
       },
       "required": [
-        "current_map_id",
-        "autopress_buttons"
+        "cycles"
       ]
     },
-    "python_script": "import json\n\ndef run(input_data):\n    cycles = input_data.get('cycles', 10)\n    current_map_id = input_data.get('current_map_id', '4_9')\n    \n    buttons = []\n    \n    # Starting from Ecruteak City (18, 35)\n    if current_map_id == \"4_9\":\n        buttons.append(\"Down\") # Enter Route 37\n        buttons.append(\"sleep 2000\") # Wait for transition\n        # Now at Route 37 (8, 0)\n        \n    # From Route 37 Entrance (8, 0) to Grass (8, 2)\n    buttons.extend([\"Down\", \"Down\"])\n    \n    # Wiggle in grass\n    for _ in range(cycles):\n        buttons.extend([\"Left\", \"Right\"])\n        \n    # Return to Entrance (8, 0)\n    buttons.extend([\"Up\", \"Up\"])\n    \n    # Exit back to Ecruteak (triggers warp at 8,0 moving Up)\n    buttons.append(\"Up\")\n    buttons.append(\"sleep 2000\")\n    \n    print(json.dumps(buttons))\n\nrun(input_data)",
+    "python_script": "import json\ncycles = input_data.get('cycles', 5)\nbuttons = [\"Down\", \"Down\"]\nfor _ in range(cycles):\n    buttons.extend([\"Left\", \"Right\"])\nbuttons.extend([\"Up\", \"Up\"])\nprint(json.dumps(buttons))",
     "history": [
       {
-        "commit_message": "Defined a full cycle tool for checking Route 37. Starts at Ecruteak Exit (18, 35) or Route 37 Entrance (8, 0), enters grass, patrols, and returns to Ecruteak to reset roamers.",
-        "timestamp": "2026-01-16T09:27:31.134Z",
-        "action_counter": 42213
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-16T09:48:49.954Z",
+        "action_counter": 42241
       }
     ]
   }
