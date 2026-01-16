@@ -3,12 +3,13 @@
 The northern plateau (14, 10) is blocked by rocks. I need TM08 Rock Smash to proceed. Advisor says the NPC is typically outside, but I will check all buildings systematically to be sure.
 
 ### Search Progress
-1. Poke Seer (5, 17): In Progress. Talking to Granny at (2, 3).
-2. Photo Studio (9, 31): Next.
-3. Pokefan M (17, 33): Outside.
-4. Lugia Speech House (15, 37).
+1. Poke Seer (5, 17): Searched. (Turn 49970).
+2. X=2 Corridor: Testing for land access to northern plateau. (Turn 49975).
+3. Photo Studio (9, 31): Next if X=2 is blocked.
+4. Pharmacy (15, 47): Next.
 5. Pokefan F (10, 46): Outside.
-6. Pharmacy (15, 47).
+6. Pokefan M (17, 33): Outside. Mentioned Rock Smash.
+7. Lugia Speech House (15, 37).
 
 ## Verified Mechanics
 - FLOOR_UP_WALL: Impassable south-facing ledge/wall.
