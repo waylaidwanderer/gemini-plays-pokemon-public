@@ -48,3 +48,5 @@
 - **Action:** Transitioning to Ecruteak to reset roamers.
 - **Log:** Reset complete (Ecruteak).
 - **Action:** Returning to Route 37 to check grass again.
+- **Log:** Route 37 Grass Check #2: Commencing.
+- **Action:** Executing `check_route37_grass`.
