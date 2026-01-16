@@ -7,7 +7,7 @@
     - Loop: Wiggle in grass -> Shuffle Ecruteak/Rt 37 -> Repeat.
 - **Status:** Moving to Mart (Ecruteak).
 - **Strategy:** Navigate to (29,28) via Row 28 to avoid trees/NPCs. Then Up to Mart.
-- **Observation:** Trees block direct path. Row 28 is clear.
+- **Observation:** Continuing North to Row 28, then East.
 - **Session Stats:** Approx 57 shuffle cycles. Repels EMPTY. Restocking.
 
 # Mechanics
