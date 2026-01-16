@@ -18,8 +18,9 @@
 - **Ecruteak Mart:** No Super Repels.
 - **Goldenrod Dept Store:**
   - 2F: Standard Items / Medicine.
-  - 3F: Battle Items.
-  - **Plan:** Check 4F for Super Repels.
+  - 3F: Battle Items (X Items).
+  - 4F: Directory says "Pump Up Your Pokemon" (Likely Vitamins). Checking Clerk.
+  - **Plan:** Check 4F Clerk, then 5F if needed.
 - **Celadon Dept Store:** Super/Max Repels on 2F.
 - **Fly Map:** Sticky cursor; walking preferred.
 
