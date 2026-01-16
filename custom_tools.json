@@ -262,7 +262,7 @@
     ]
   },
   "fly_to_cianwood_v1": {
-    "description": "Navigates from any state to Fly to Cianwood City. v21.0 (Robust overworld start)",
+    "description": "Navigates from any state to Fly to Cianwood City. v23.0 (Surgical precision from Turn 51050 state)",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -272,7 +272,7 @@
         }
       }
     },
-    "python_script": "import json\ndef fly_to_cianwood():\n    # v22.0: Step 1 of a robust flight plan.\n    # Right (Clear Hallucination) -> Bx2 (Clear) -> Start -> Reset Main -> POKEMON -> Reset Party -> ICARUS -> Reset Sub -> FLY.\n    buttons = [\"Right\", \"B\", \"B\", \"Start\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Down\", \"A\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"A\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"A\"]\n    print(json.dumps(buttons))\nfly_to_cianwood()",
+    "python_script": "import json\ndef fly_to_cianwood():\n    # v23.0: The \"23rd Time's the Charm\" flight sequence.\n    # Bx5 (Clear) -> Right (Clear Hallucination) -> Start -> Down (POKEMON) -> A -> \n    # Down (ICARUS) -> A -> Up x5 (Reset Sub to FLY) -> A (Select FLY) -> sleep -> \n    # Left x25 (Map) -> A (Select) -> sleep -> A (Confirm) -> sleep -> A (Clear).\n    buttons = [\"B\", \"B\", \"B\", \"B\", \"B\", \"Right\", \"Start\", \"Down\", \"A\", \"Down\", \"A\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"A\", \"sleep 4000\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"A\", \"sleep 4000\", \"A\", \"sleep 4000\", \"A\"]\n    print(json.dumps(buttons))\nfly_to_cianwood()",
     "history": [
       {
         "commit_message": "Initial version",
@@ -468,6 +468,11 @@
         "commit_message": "Updated to v22.0. Robust 2-step flight (Step 1). Clears menus, resets all menu levels (Main, Party, Sub-menu), and selects FLY. Fits safely within 50-button limit (31 buttons). v22.0",
         "timestamp": "2026-01-16T15:13:23.812Z",
         "action_counter": 51049
+      },
+      {
+        "commit_message": "Updated to v23.0. Surgical precision based on Turn 51050 state. Uses Bx5 clear, Start menu reset assumption (Slot 1), and Party menu persistence (Slot 5 GORP -> Down -> Slot 6 ICARUS). Fits 48 buttons. v23.0",
+        "timestamp": "2026-01-16T15:15:09.241Z",
+        "action_counter": 51050
       }
     ]
   }
