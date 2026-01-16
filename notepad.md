@@ -1,12 +1,11 @@
 # Strategy: Trigger Suicune Sighting (Started: Turn 51131)
 - Objective: Reach (14, 10) on the northern coast.
-- Execution Plan (The Outer Sea Route):
-  1. Surf South to (12, 28) and land.
-  2. Walk to (19, 31) (Eastern Land's End).
-  3. Surf East to Column 23.
-  4. Surf North along Column 23 to Row 10.
-  5. Surf West to (19, 10) and land at (18, 10).
-  6. Walk West to (14, 10).
+- Execution Plan (The Great Western Detour):
+  1. Surf East to (20, 31) and head South to the Route 41 transition.
+  2. Use Route 41 to bypass the city walls and re-enter at (29, 51).
+  3. Walk West along Row 51 (Southern Highway) to Column 2 (Western Corridor).
+  4. Walk North along Column 2 to Row 12.
+  5. Walk East to (14, 12) and North to (14, 10).
 - Battle Prep: Lead Calcifer (Lv64 Typhlosion).
 
 # Tile Mechanics
