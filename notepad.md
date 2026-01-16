@@ -2,15 +2,14 @@
 - **Time Check:** Attempting sighting since Turn #50620.
 - **Objective:** Trigger Suicune sighting at (14, 10) in northern Cianwood.
 - **Eusine Battle Prep:** Drowzee (Lv23), Haunter (Lv23), Electrode (Lv25). Lead with Lv64 Calcifer.
-- **Current Plan (The Grand Loop via X=18):**
-  1. Currently at (27, 44). Move West to (18, 44).
-  2. Move South to (18, 51) (Bypassing Terrace Climbs via X=18 gap).
-  3. Move West on Row 51 to (4, 51).
-  4. Move North to (4, 49) then West to (2, 49).
-  5. Move North via X=2 corridor to (2, 14).
-  6. Move East on Row 14 to (13, 14) then North to (13, 10).
-  7. Move East to (14, 10) for the sighting.
-- **Verification:** Row 51 is a clear southern passage. X=2 corridor is clear of Terrace Climbs.
+- **Current Plan (The Grand Loop):**
+  1. Move West to (18, 44) then South to (18, 47).
+  2. Move East to (20, 47) then South to (20, 49).
+  3. Move West on Row 49 to (2, 49).
+  4. Move North via X=2 corridor to (2, 14).
+  5. Move East on Row 14 to (6, 14) then North to (6, 10).
+  6. Move East on Row 10 to (14, 10) for the sighting.
+- **Verification:** X=2 corridor and Row 14 are confirmed clear of all barriers.
 
 # Tile Mechanics (Global)
 - FLOOR: Standard traversable terrain.
