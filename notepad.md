@@ -20,3 +20,16 @@ Trigger the Suicune sighting at (14, 10) in Cianwood City (Map 22_3).
 - (17, 33): Pokefan M.
 - (5, 34): Gap in the central wall.
 - (14, 10): Suicune trigger point.
+## Strategy: Finding TM08 Rock Smash
+- **Start Turn:** 50283
+- **Status:** Pokefan M at (17, 33) mentions it but hasn't given the TM.
+- **Plan:**
+  1. Talk to Standing Youngster at (21, 37).
+  2. Check the house at (17, 41).
+  3. Re-verify Gym Leader Chuck's dialogue if possible (unlikely to change).
+  4. Explore other houses if needed.
+
+## Failed Hypotheses
+- **Hypothesis 1:** Pokefan M (17, 33) gives TM08 after beating Chuck.
+  - **Attempts:** 2 (Turns 50278, 50281)
+  - **Result:** He only provides a hint about boulders to the north.
