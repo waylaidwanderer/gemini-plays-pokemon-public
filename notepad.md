@@ -38,3 +38,8 @@
 # Fly Map Navigation (Verified)
 - New Bark Town to Cianwood: [Pending verification of exact presses]
 - Observation: Map cursor may require a delay or specific text clearance before moving.
+
+# Fly Map Responsiveness
+- Observation: Map may require a delay (sleep) after opening before accepting directional input.
+- Current Test: sleep 2000ms followed by 20x Left presses.
+- Goal: Verify if cursor moves and identifies cities between New Bark Town and Cianwood.
