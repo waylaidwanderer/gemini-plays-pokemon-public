@@ -1,15 +1,15 @@
 # Strategy: Trigger Suicune Sighting
-- Plan: The Great Southern Loop (Verified).
+- Plan: The Eastern Surf Route.
 - Steps:
-  1. Walk South along Column 12 to (12, 51).
-  2. Walk West along Row 51 to (2, 51).
-  3. Walk North along Column 2 to (2, 14).
-  4. Walk East along Row 14 to (8, 14).
-  5. Walk North through the gap at (8, 13) to (8, 12).
-  6. Walk East along Row 12 to (14, 12).
-  7. Walk North to (14, 10) to trigger Suicune.
+  1. Walk Up to (12, 31).
+  2. Walk Right to (20, 31).
+  3. Use Surf on the water at (20, 31).
+  4. Surf East to Column 24.
+  5. Surf North along Column 24 to Row 10.
+  6. Surf West and land at (15, 10).
+  7. Walk to (14, 10) to trigger Suicune.
 - Battle Prep: Lead Calcifer (Lv64 Typhlosion).
-- Note: Row 51 is a clear crossing from Column 12 to Column 2. Column 2 is a clear corridor up to the north coast area.
+- Note: This route bypasses the complex city walls and one-way slopes. Row 31 is a clear path to the water. Row 10/11/12 are clear paths to the sighting spot.
 
 # Tile Mechanics
 - FLOOR: Standard traversable tile.
