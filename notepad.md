@@ -1,7 +1,7 @@
 # Strategic Status
 - **Goal:** Catch Raikou (#243) & Entei (#244).
 - **Hunt Duration:** ~14,350 turns. Resumed: Turn 41847.
-- **Status:** In Celadon Dept Store 1F. Heading to 2F for Repels.
+- **Status:** At Celadon Dept Store 2F. Buying Super Repels.
 - **Detour Start:** Turn 43267. Current Turn: 43355.
 - **Plan:**
     1. **Supply Run:**
