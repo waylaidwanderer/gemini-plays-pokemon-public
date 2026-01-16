@@ -2,9 +2,10 @@
 - **Goal:** Catch Raikou (#243) & Entei (#244).
 - **Hunt Duration:** ~13,000 turns. Resumed: Turn 41847.
 - **Plan:**
-    1. Exit Player's House.
-    2. Fly to Ecruteak City (or nearest point).
-    3. Resume Roamer hunt with Repel Trick (Route 37/36).
+    1. Go to Route 37 Grass (South of Ecruteak).
+    2. Use Super Repel (Lead: Gyarados Lv 37).
+    3. "Blind Hunt" Strategy: Run in grass -> Change Map (Ecruteak) -> Repeat until Encounter.
+    4. Goal: Encounter Entei/Raikou to register in Pokedex.
 - **Secondary Targets:** Catch Stantler (Route 37/36 Night) or Growlithe.
 
 # PC Storage Check
