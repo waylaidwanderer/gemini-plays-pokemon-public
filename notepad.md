@@ -15,6 +15,6 @@
 # Lessons Learned
 - **Fisher Dialogue:** "If any rocks are in your way..." is post-gift. flag set even if item gone. (Verified on Route 36)
 - **Menu Navigation:** The "Switch items?" confirmation box is modal; B button does not close it. Use A on NO to exit.
-- **Fly Map:** Cursor behavior: smooth movement; requires many directional presses to traverse between town hitboxes. Relative positions: New Bark (East), Cherrygrove (West of New Bark), Violet (North of Cherrygrove), Azalea (South), Goldenrod (West/North of Azalea), Olivine (West), Cianwood (Far West). Always verify destination text before pressing A.
+- **Fly Map:** Starts at New Bark Town. Sequences: 9L+1U (Cherrygrove), 4L+2U (Azalea), 3L+3U (Olivine), ~15L (Cianwood). Always verify text before A.
 - **Coordinates:** Notepad coordinates (e.g., Cianwood 14, 10) refer to the internal map grid, not the Fly Map cursor position.
 - **Suicune Spot:** (14, 10) in Cianwood City. Requires Rock Smash at (4, 19) and (8, 16) to reach.
