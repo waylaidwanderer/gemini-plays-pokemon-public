@@ -20,7 +20,7 @@ The northern plateau (14, 10) is only accessible via the Western Corridor (X=0-2
 - WATER: Requires Surf.
 - BUOY: Impassable (Water wall).
 - LEDGE_HOP_DOWN: One-way jump (South).
-- FLOOR_UP_WALL: Impassable wall (Confirmed at Row 50, X=12).
+- FLOOR_UP_WALL: Impassable wall (Confirmed at Row 50, X=12, 19).
 - DOOR/WARP_CARPET: Warp points.
 
 ## Battle Plan: Eusine
