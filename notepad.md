@@ -5,9 +5,9 @@
     - Repel Trick: Lead Lv37 > Wilds (Lv ~20) but < Roamers (Lv 40).
     - Status: Max Repel Active.
     - Loop: Wiggle in grass -> Shuffle Ecruteak/Rt 37 -> Repeat.
-- **Status:** Exiting Mart (Again).
+- **Status:** Exiting Mart -> Flying to Goldenrod.
 - **Strategy:** Walk Down -> Exit Mart -> Fly to Goldenrod.
-- **Observation:** Gaven's phone call interrupted the exit.
+- **Observation:** Gaven's call finished. Resuming exit.
 - **Session Stats:** Approx 57 shuffle cycles. Repels EMPTY. Restocking.
 
 # Mechanics
