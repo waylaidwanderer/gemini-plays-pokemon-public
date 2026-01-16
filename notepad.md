@@ -1,8 +1,10 @@
 # Strategic Status
 - **Goal:** Catch Raikou (#243) & Entei (#244).
+- **Hunt Duration:** ~13,000 turns. Resumed: Turn 41847.
 - **Plan:**
-    1. Travel to Goldenrod City via Route 36/35 to restock Super Repels.
-    2. Resume Roamer hunt with Repel Trick.
+    1. Restock Super Repels at Goldenrod Dept Store 2F.
+    2. Check 5F for TMs.
+    3. Resume Roamer hunt with Repel Trick (Route 37/36).
 - **Secondary Targets:** Catch Stantler (Route 37/36 Night) or Growlithe.
 
 # Locations & Logistics
