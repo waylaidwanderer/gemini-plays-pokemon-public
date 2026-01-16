@@ -23,6 +23,6 @@
 - **Mechanics Note:** Repel confirmed working in current session (Turns 40947-41004, zero encounters).
 - **Current Task:** Hunting Entei/Raikou on Route 37.
 - **Attempt:** 20 (Route 37 Grass).
-- **Status:** Hunting on Route 37. Repel Active (~140/250 steps used).
+- **Status:** Repel wore off. Re-applying Max Repel.
 - Pokedex Status: National Mode. SEEN: 195, OWN: 46.
 - Goal: Check entries #243 (Raikou) and #244 (Entei).
