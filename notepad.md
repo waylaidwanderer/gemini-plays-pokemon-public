@@ -1,9 +1,9 @@
 # Strategic Status
 - **Goal:** Catch Raikou (#243) & Entei (#244).
 - **Immediate Task:** Restock Super Repels at Goldenrod Dept Store.
-- **Status:** Traversing Route 36 (East Detour).
-- **Strategy:** Navigate to Intersection (35, 9) -> South to Row 13 -> West to Row 14 -> Exit South.
-- **Observation:** Direct West path is blocked. Taking the "U-turn" route via Ruins of Alph entrance.
+- **Status:** Approaching Intersection (Route 36).
+- **Strategy:** Reach (35, 9) -> Turn South to (35, 13) -> West to Exit.
+- **Observation:** Almost through the tree maze.
 - **Session Stats:** Repels EMPTY. Paused hunting to restock.
 - **Secondary Hunt:** Catch Stantler (Route 37/36 Night) or Growlithe while walking.
 - **Session Stats:** Repels EMPTY. Paused hunting to restock.
