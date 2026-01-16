@@ -17,4 +17,4 @@
 - **Coordinates:** Notepad coordinates (e.g., Cianwood 14, 10) refer to the internal map grid, not the Fly Map cursor position.
 - **Suicune Spot:** (14, 10) in Cianwood City. Requires Rock Smash at (4, 19) and (8, 16) to reach. [Hypothesis - Advisor]
 - **Annotation Alert:** The screen annotation system incorrectly labels Fly map tiles with overworld coordinates and 'Player' markers. Ignore these labels while on the Fly map.
-- **Progress:** Smashed rock at (5, 29) on Turn #50703 and rock at (4, 25) on Turn #50712. Heading to the Suicune sighting area entrance at (5, 17).
+- **Progress:** Smashed rocks at (5, 29), (4, 25), and (4, 19). Heading to the next boulder at (8, 16) to reach the Suicune sighting spot at (14, 10).
