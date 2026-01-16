@@ -31,3 +31,8 @@
 - Smashed Rocks: (5, 29), (4, 25), (8, 16), (9, 17).
 - Defeated Swimmer Mathew (17, 46).
 - Arrived in Cianwood via Fly: Turn 51131.
+
+# Fly Map Discovery: Johto City Cycle
+- Sequence using UP: New Bark -> Ecruteak -> Azalea -> Mahogany -> Olivine -> Silver Cave -> Goldenrod -> Violet -> Cianwood.
+- Each jump requires approx 5-10 presses of UP.
+- This cycle bypasses the need for complex grid navigation.
