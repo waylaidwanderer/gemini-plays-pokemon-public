@@ -1,35 +1,27 @@
 # Strategy: The Suicune Pursuit
 - **Objective:** Trigger Suicune sighting at (14, 10) in northern Cianwood.
 - **Eusine Battle Prep:** Drowzee (Lv23), Haunter (Lv23), Electrode (Lv25). Strategy: Lead with Lv64 Calcifer. Sweep with Flamethrower/Thunderpunch.
-- **Current Plan (North Bypass via X=2):**
-  1. From (6, 29), move South to (6, 34) to bypass the X=5 wall.
-  2. Move West to (2, 34) and enter the X=2 corridor.
-  3. Move North to (2, 10) and then East to (14, 10) for the Suicune sighting.
-- **Smashed Rocks:** (5, 29), (4, 25), (4, 19), (9, 17), (8, 16). They respawn on map exit.
-- **Alternative (Northern Wall Check):** Check if (12, 15) or (11, 15) are mislabeled rocks.
+- **Current Plan (The Grand Loop):**
+  1. Currently at (11, 47).
+  2. Move West to (2, 47) via Row 50/51 (bypassing WALL at (7, 47)).
+  3. Move North to (2, 10) (X=2 corridor is clear of Terrace Climbs).
+  4. Move East to (14, 10) for the sighting.
 - **Contingency:** If walking paths fail, use Surf around the east side buoy gap at (23, 7). Landing spot: (16, 10).
 
-# Tile Mechanics (Verified)
+# Tile Mechanics (Global)
 - FLOOR: Standard traversable terrain.
 - WALL / BUOY: Impassable terrain.
 - WATER: Traversable only with Surf.
 - DOOR / WARP_CARPET: Map transition points.
 - LEDGE_HOP_DOWN: One-way jump down (South). Blocks North.
-- FLOOR_UP_WALL: Terrace edges. (6, 46) blocks Down movement from (6, 45).
+- FLOOR_UP_WALL (Terrace Climb): One-way barrier. Allows North movement, blocks South.
 - ROCK (Object): Blocks movement; cleared with Rock Smash. Respawns upon map transition.
 
+# Area Notes: Cianwood City
+- **Barriers:** (4, 23) is a WALL. (4, 30), (6, 34), (6, 46) are Terrace Climbs (North only).
+- **Smashed Rocks:** (5, 29), (4, 25), (4, 19), (9, 17), (8, 16).
+- **Dead Ends:** (11, 15) is a pocket blocked by a ledge.
+
 # Lessons Learned
-- **Cianwood Pathing:** (11, 15) is a dead-end pocket. (6, 46) blocks South movement from (6, 45).
-- **Advisor Advice:** "Forget the South Bypass; the path is strictly north."
-- **Time Check:** Attempting sighting since Turn #50620. Commit to X=2 corridor by Turn #50900.
-- **Movement Discovery:** (6, 34) blocks South movement from (6, 33). Terrace edges (FLOOR_UP_WALL) appear to be one-way barriers (allowing North, blocking South).
-- **Refined Path to Suicune (The Grand Loop):**
-  1. Currently at (11, 47).
-  2. Move West to (2, 47) (bypassing WALL at (7, 47) via Row 44).
-  3. Move North to (2, 10) (X=2 corridor is clear).
-  4. Move East to (14, 10) for the sighting.
-- **Smashed Rocks:** (5, 29), (4, 25), (4, 19), (9, 17), (8, 16). They respawn on map exit.
-- **Barriers:** (4, 23) is a WALL. (4, 30), (6, 34), (6, 46) are one-way ledges (North only).
 - **Time Check:** Attempting sighting since Turn #50620. Loop initiated at Turn #50840.
-- **Verification:** X=2 corridor confirmed clear of ledges in Mental Map.
-- **Yanma Swarm:** Route 35 (Arnie). Priority: Low.
+- **Verification:** X=2 corridor confirmed clear of Terrace Climbs in Mental Map.
