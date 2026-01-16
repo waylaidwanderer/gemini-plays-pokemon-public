@@ -41,6 +41,6 @@
 - **Action:** Forcing a full UI reset (B, B) and re-opening Fly menu from scratch to navigate from Goldenrod (Center) to Ecruteak (North). This avoids the layout confusion.
 - **Mechanics Note:** Party Menu cursor REMEMBERS its position even after exiting/re-entering. Blind macros must assume random start or force a reset (e.g., extensive scrolling).
 - **Correction:** `open_fly_map` tool failed due to this persistence. Switching to manual/visual navigation.
-- **Status:** Closing Menu.
-- **Action:** Exiting menu to Overworld.
-- **Next:** Execute `check_route37_grass` loop.
+- **Status:** Hunting Roamers (Registration Only).
+- **Action:** Executing `check_route37_grass` (Walk South -> Wiggle -> Walk North).
+- **Note:** Repel Trick active (Lv37 Lead). Only Roamers will appear.
