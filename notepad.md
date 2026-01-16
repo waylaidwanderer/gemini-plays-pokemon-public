@@ -20,10 +20,11 @@
 - Navigation: Pressing Up from the first item wraps to the last item.
 
 # Strategy: Trigger Suicune Sighting (Started: Turn 51131)
+- City Logic: The city is divided by vertical walls. The primary cross-corridor is the southern highway at Row 51/53. The northern coast is accessible via the long Western Corridor at X=2, which leads to a gap at Row 12. Row 15 is a major horizontal barrier with limited gaps.
 - Execution Plan:
-  1. Navigate to the Western Corridor (X=2) using the gaps at Row 33 and Row 35.
-  2. Hike North through the Western Corridor to Row 14.
-  3. Loop East through Row 12 to reach the sighting spot at (14, 10).
-- Battle Prep: Lead Calcifer (Lv64 Typhlosion) for potential Eusine encounter.
-- City Navigation: Vertical walls divide the city. Gaps exist at Row 33, Row 35, and Row 12. Row 15 is a major horizontal barrier with a gap at (2, 15) and (11, 15).
-- Discovery: Tully has an item for me on Route 42. Suicune sighting spot is on the northern coast.
+  1. Navigate to the southern highway at (18, 51) to bypass vertical dividers.
+  2. Walk West to (2, 51) to enter the Western Corridor.
+  3. Hike North to (2, 12), then East to (14, 12).
+  4. Move North to (14, 10) to trigger the sighting.
+- Battle Prep: Lead Calcifer (Lv64 Typhlosion) for potential trainer encounters.
+- Discovery: Tully has an item for me on Route 42. Suicune sighting spot is confirmed at (14, 10).
