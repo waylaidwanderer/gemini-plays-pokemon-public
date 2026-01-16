@@ -31,7 +31,7 @@
 - Menu Mechanics: Main Menu (8 items) wraps 1 <-> 8. Party Menu (6 items) wraps 1 <-> CANCEL <-> 6.
 - Sub-menu Layout (Icarus): FLY, STATS, SWITCH, MOVE, ITEM, CANCEL.
 - Suicune Quest Start: Turn #50620. (Current Turn: #51007)
-- Fly Strategy: SUCCESS. Attempt #19 (Manual) succeeded. I have arrived in Cianwood City at (13, 6). The sequence A (Select) -> A (Fly) -> Left x20 (Map West) -> A (Confirm) -> A (Clear Text) worked perfectly. Total Fly failures before success: 18. Current Turn: #51032. Goal: Cianwood (14, 10). Prep: Calcifer in lead. Focus: SUICUNE sighting trigger. Logic: Now that I'm finally in Cianwood, I need to navigate to the northern coast at (14, 10) to trigger the Suicune event. I'll check my surroundings and proceed north.
+- Fly Strategy: SUCCESS (Landing). Attempt #19 landed in New Bark Town due to a "Double-Click" error in the script. Sequence A (Select) -> A (Select Fly) -> A (Select Destination) happened before the cursor could move. I am currently in PlayersHouse1F (6, 7) after accidentally walking inside. Total Fly failures: 19. Current Turn: #51033. Goal: Cianwood (14, 10). Strategy: Exit house, walk to clear space, and Fly to Cianwood (Left x20, then A). Logic: Accuracy over speed. No more double-clicking the destination.
 - Fly attempts failed: 9.
 - Lesson: Party menu cursor persistence vs Start menu reset. Menu wrapping: 1 (Calcifer) <-> 7 (Cancel) in party.
 - Icarus is at index 6.
