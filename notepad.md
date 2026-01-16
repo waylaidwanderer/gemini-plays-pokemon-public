@@ -1,11 +1,13 @@
 # Strategy: Trigger Suicune Sighting
-- Plan: The Western Corridor Bypass via Southern Highway.
+- Plan: The Direct City Path (Verified).
 - Steps:
-  1. Walk South along Column 24 to Row 51.
-  2. Walk West along Row 51 to Column 2.
-  3. Walk North along Column 2 to Row 10.
-  4. Walk East along Row 10 to (14, 10).
-  5. Trigger Suicune sighting and battle Eusine.
+  1. Walk West along Row 32 to (12, 32).
+  2. Walk North along Column 12 to (12, 29).
+  3. Walk West to (11, 29).
+  4. Walk North along Column 11 through the gap at (11, 15) to (11, 14).
+  5. Walk East to (13, 14) and North through the gap at (13, 13) to (13, 12).
+  6. Walk East along Row 12 to (14, 12) and North to (14, 10).
+  7. Trigger Suicune sighting and battle Eusine.
 - Battle Prep: Lead Calcifer (Lv64 Typhlosion).
 
 # Tile Mechanics

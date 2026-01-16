@@ -126,5 +126,47 @@
         "action_counter": 50927
       }
     ]
+  },
+  "path_analyzer_v2": {
+    "description": "Finds a path using BFS on the current map XML, handling one-way ledges (LEDGE_HOP_DOWN), slopes (FLOOR_UP_WALL), and water. Returns a JSON array of target coordinates. v3.4",
+    "input_schema": {
+      "properties": {
+        "allow_water": {
+          "default": false,
+          "type": "boolean"
+        },
+        "ignore_objects": {
+          "default": false,
+          "type": "boolean"
+        },
+        "start_x": {
+          "type": "integer"
+        },
+        "start_y": {
+          "type": "integer"
+        },
+        "target_x": {
+          "type": "integer"
+        },
+        "target_y": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "start_x",
+        "start_y",
+        "target_x",
+        "target_y"
+      ],
+      "type": "object"
+    },
+    "python_script": "import json\nimport xml.etree.ElementTree as ET\nfrom collections import deque\nimport sys\n\ndef find_path(xml_str, start_x, start_y, target_x, target_y, ignore_objects=False, allow_water=False):\n    try:\n        root = ET.fromstring(xml_str)\n    except Exception:\n        return []\n        \n    grid = {}\n    traversable_types = ['FLOOR', 'DOOR', 'LEDGE_HOP_DOWN', 'FLOOR_UP_WALL', 'WARP_CARPET_DOWN', 'unseen']\n    if allow_water:\n        traversable_types.append('WATER')\n        \n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            tile_type = tile.attrib['type']\n            has_object = tile.attrib.get('has-object') == 'true'\n            traversable = tile_type in traversable_types\n            if not ignore_objects and has_object:\n                traversable = False\n            grid[(x, y)] = (traversable, tile_type)\n\n    queue = deque([(start_x, start_y, [])])\n    visited = set([(start_x, start_y)])\n    \n    while queue:\n        cx, cy, path = queue.popleft()\n        if (cx, cy) == (target_x, target_y):\n            return path\n            \n        _, curr_ttype = grid.get((cx, cy), (False, 'WALL'))\n        \n        for dx, dy, move in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n            nx, ny = cx + dx, cy + dy\n            if (nx, ny) in grid:\n                traversable, target_ttype = grid[(nx, ny)]\n                can_move = False\n                if traversable:\n                    can_move = True\n                    # Leaving current tile\n                    if curr_ttype == 'LEDGE_HOP_DOWN' and move != 'Down':\n                        can_move = False\n                    # FLOOR_UP_WALL (Terrace): Assume it's a slope facing SOUTH (climb by moving UP).\n                    # This means you can move UP onto it, and move horizontal/UP while on it.\n                    # You CANNOT move DOWN onto it from the north (Acts as WALL).\n                    if curr_ttype == 'FLOOR_UP_WALL' and move == 'Down':\n                        can_move = False\n                        \n                    # Entering target tile\n                    if target_ttype == 'LEDGE_HOP_DOWN' and move != 'Down':\n                        can_move = False\n                    if target_ttype == 'FLOOR_UP_WALL' and move == 'Down':\n                        can_move = False\n                \n                if can_move and (nx, ny) not in visited:\n                    visited.add((nx, ny))\n                    queue.append((nx, ny, path + [move]))\n    return []\n\ninput_data = json.loads(sys.stdin.read())\npath = find_path(map_xml_string, int(input_data['start_x']), int(input_data['start_y']), int(input_data['target_x']), int(input_data['target_y']), input_data.get('ignore_objects', False), input_data.get('allow_water', False))\n\n# Convert moves to coordinates for path_plan\ncurr_x, curr_y = int(input_data['start_x']), int(input_data['start_y'])\ncoords = [{'x': curr_x, 'y': curr_y}]\nfor move in path:\n    if move == 'Up': curr_y -= 1\n    elif move == 'Down': curr_y += 1\n    elif move == 'Left': curr_x -= 1\n    elif move == 'Right': curr_x += 1\n    coords.append({'x': curr_x, 'y': curr_y})\n\nprint(json.dumps(coords))\n",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-16T22:12:22.683Z",
+        "action_counter": 51544
+      }
+    ]
   }
 }
