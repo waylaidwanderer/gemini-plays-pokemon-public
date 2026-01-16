@@ -62,3 +62,5 @@
 - **Next:** Check #4.
 - **Log:** Transitioned to Ecruteak.
 - **Action:** Returning to Route 37 for Grass Check #4.
+- **Log:** Route 37 Grass Check #4: Commencing.
+- **Action:** Executing `check_route37_grass`.
