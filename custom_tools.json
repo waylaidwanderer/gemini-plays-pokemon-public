@@ -262,9 +262,9 @@
     ]
   },
   "fly_to_cianwood_v1": {
-    "description": "Navigates from the overworld to Fly to Cianwood City. Assumes starting from a city east of Cianwood. Moves cursor to the far west of the Johto map. v1.4",
+    "description": "Navigates from the overworld to Fly to Cianwood City. Assumes starting from a city east of Cianwood. Moves cursor to the far west of the Johto map. v1.5",
     "input_schema": {},
-    "python_script": "import json\n# B x4 -> Start -> Up x2 -> A -> Down x5 -> A -> A -> Left x20 -> A -> A\nprint(json.dumps(['B']*4 + ['Start', 'Up', 'Up', 'A'] + ['Down']*5 + ['A', 'A'] + ['Left']*20 + ['A', 'A']))",
+    "python_script": "import json\n# Sequence:\n# 1. B x4 (Exit to overworld)\n# 2. Start (Open menu)\n# 3. Up x8 (Reset to POKEDEX)\n# 4. Down (Select POKEMON) -> A\n# 5. Up x8 (Reset to 1st PKMN)\n# 6. Down x5 (Select 6th PKMN - ICARUS) -> A\n# 7. A (Select FLY)\n# 8. Left x20 (Move far west on map)\n# 9. A -> A (Confirm flight)\nprint(json.dumps(['B']*4 + ['Start'] + ['Up']*8 + ['Down', 'A'] + ['Up']*8 + ['Down']*5 + ['A', 'A'] + ['Left']*20 + ['A', 'A']))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -290,6 +290,11 @@
         "commit_message": "Updated to v1.4. Simplified sequence: back out of menus, open POKEMON from GEAR position, select 6th PKMN (ICARUS), select FLY, and move far west on map.",
         "timestamp": "2026-01-16T13:57:00.012Z",
         "action_counter": 50978
+      },
+      {
+        "commit_message": "Updated to v1.5. Uses a robust 'reset' strategy (mashing Up) at every menu level to ensure correct selection of POKEMON, ICARUS, and FLY. Increased Left inputs to 20 for map navigation.",
+        "timestamp": "2026-01-16T13:58:31.439Z",
+        "action_counter": 50980
       }
     ]
   }
