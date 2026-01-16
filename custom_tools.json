@@ -162,12 +162,12 @@
     ]
   },
   "reset_map_spawns": {
-    "description": "Moves Up to enter Ecruteak City, waits 5.5 seconds for the transition, then moves Down to return to Route 37. Designed for efficient map resetting from Route 37 (8, 0).",
+    "description": "Moves Up to enter Ecruteak City, waits 8.5 seconds for the transition, then moves Down to return to Route 37. Designed for efficient map resetting from Route 37 (8, 0).",
     "input_schema": {
       "type": "object",
       "properties": {}
     },
-    "python_script": "cmds = [\"Up\", \"sleep 5500\", \"Down\"]\nimport json\nprint(json.dumps(cmds))",
+    "python_script": "cmds = [\"Up\", \"sleep 8500\", \"Down\"]\nimport json\nprint(json.dumps(cmds))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -178,6 +178,11 @@
         "commit_message": "Increased sleep duration to 5500ms to ensure the map fully loads before attempting to return.",
         "timestamp": "2026-01-16T22:24:56.981Z",
         "action_counter": 43458
+      },
+      {
+        "commit_message": "Increased sleep duration to 8500ms (8.5s) to guarantee map transition completion before returning.",
+        "timestamp": "2026-01-16T22:31:37.007Z",
+        "action_counter": 43471
       }
     ]
   }
