@@ -1,27 +1,28 @@
 # Suicune Quest: Cianwood City
-## Verified Strategy: The Terrace Climb
-The northern plateau (14, 10) is accessible via a series of one-way upward transitions that bypass the ledge system. This is a land route requiring a detour to the southern part of the city via the gap at Row 37.
-
-### Verified Mechanics
-- FLOOR_UP_WALL: One-way North. Blocks South movement (Verified at (6, 46)).
-- LEDGE_HOP_DOWN: One-way South. Blocks North movement.
+## Verified Strategy: The Plateau Landing
+The northern plateau (14, 10) is most efficiently reached by Surfing from the central land mass and landing at the northern plateau landing (13, 16). This bypasses all one-way terrace slopes.
 
 ### Execution Plan
-1. Southern Detour: Walk North to Row 37, West to Column 4, and South to Row 47+.
-2. Terrace Ascent: From the southern beach, follow the sequence of upward transitions:
-   - Climb 1: (6, 46)
-   - Climb 2: (6, 34)
-   - Climb 3: (4, 30)
-   - Climb 4: (4, 20)
-3. Trigger Suicune: Reach (14, 10) to initiate the event.
+1. Central Approach: Walk to the central Surf point at (12, 28). (In Progress)
+2. Central Surf: Surf East into the central lake and navigate North to (14, 16).
+3. Plateau Landing: Land at (13, 16) and walk West/North around the internal walls.
+4. Trigger Suicune: Reach (14, 10) to initiate the event.
+
+### Land Path from Landing (13, 16) to Suicune (14, 10)
+- Walk West to (0, 16).
+- Walk Up to (0, 14).
+- Walk East to (8, 14).
+- Walk Up to (8, 12).
+- Walk East to (14, 12).
+- Walk Up to (14, 10).
 
 ## Tile Mechanics
 - FLOOR: Standard land (Traversable).
 - WATER: Water (Requires Surf).
 - WALL: Impassable.
 - BUOY: Impassable water barrier.
-- FLOOR_UP_WALL: One-way North.
-- LEDGE_HOP_DOWN: One-way South.
+- FLOOR_UP_WALL: One-way North (e.g., Row 46, 34, 20).
+- LEDGE_HOP_DOWN: One-way South (e.g., Row 15).
 
 ## Battle Plan: Eusine
 - Expected Team: Drowzee (Lv23), Haunter (Lv23), Electrode (Lv25).
