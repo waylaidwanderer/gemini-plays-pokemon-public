@@ -46,7 +46,8 @@
 
 # Fly Map Observation
 - When the map opens, a "Where? [Current City]" prompt appears.
-- This is a UI element, NOT a blocking text box.
-- Directional buttons move the cursor immediately.
-- Pressing A confirms the city currently under the cursor.
-- Attempt 26: Moving cursor Left to reach western cities.
+- This is a UI element. Moving the cursor updates this text.
+- Pressing A confirms the destination. Avoid mashing A.
+- The map requires a short initialization period before accepting input.
+- New Bark Town to Cianwood: [Calculating exact presses...]
+- Current Test: Moving Left 5 times with delays to verify responsiveness.
