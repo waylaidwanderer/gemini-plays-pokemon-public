@@ -16,14 +16,11 @@
 - Objective: Reach the northern coast of Cianwood City at (14, 10).
 - Current Strategy: Land Route (Pivoted Turn 51180).
 - Execution Plan:
-  1. Walk West to (6, 35).
-  2. Move Up at (6, 34) to reach (6, 33).
-  3. Walk West to (2, 33).
-  4. Walk North to (2, 14).
-  5. Walk East to (6, 14).
-  6. Walk North to (6, 12).
-  7. Walk East to (14, 12).
-  8. Walk North to (14, 10).
+  1. Walk North to (12, 29) to bypass the Photo Studio.
+  2. Walk West to (2, 29) using the shortcut at (5, 29).
+  3. Walk North through (2, 15) to reach the northern corridor at (2, 14).
+  4. Walk East to (8, 14), then North to (8, 12).
+  5. Walk East to (14, 12) and North to (14, 10).
 - Battle Prep: Lead Calcifer (Lv64 Typhlosion) in case of an encounter with Eusine.
 
 # Discoveries & Progress
