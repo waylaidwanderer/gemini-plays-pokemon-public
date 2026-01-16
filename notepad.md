@@ -5,7 +5,7 @@ The northern plateau (14, 10) is only accessible via the Western Corridor (X=0-2
 ### Current Plan (Turn 49918)
 - **Objective:** Reach the southern clearway at (21, 51).
 - **Route:** (13, 44) -> (13, 49) -> (18, 49) -> (21, 49) -> (21, 51).
-- **Status:** Moving to (21, 51).
+- **Status:** Moving to (4, 51) via Row 46 detour.
 
 ## Lessons Learned & Tile Mechanics
 - **FLOOR_UP_WALL:** This tile type acts as an impassable wall when moving **Down** (North to South). It is NOT jumpable. Confirmed at Row 50, Row 46, and Row 34.
