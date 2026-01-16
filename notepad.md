@@ -2,10 +2,13 @@
 - **Goal:** Catch Raikou (#243) & Entei (#244).
 - **Hunt Duration:** ~13,000 turns. Resumed: Turn 41847.
 - **Plan:**
-    1. Check Lab PC for Master Ball (Elm didn't give one).
+    1. Finish checking Player's PC for Master Ball (Currently at "Protein").
     2. If not found, assume used/unavailable.
     3. Resume Roamer hunt with Repel Trick (Route 37/36).
 - **Secondary Targets:** Catch Stantler (Route 37/36 Night) or Growlithe.
+
+# PC Storage Check
+- **Items Found:** Moon Stone x2, Repel x1, X Attack x2, X Special x2, Everstone x2, Ice Berry x1, Miracle Seed x1, PsnCureBerry x1, Protein x3... (Continuing Search)
 
 # Locations & Logistics
 - **Ecruteak Mart:** Limited inventory. DOES NOT sell Super Repels.
