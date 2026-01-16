@@ -28,7 +28,7 @@
 - Smashed Rocks (Cianwood): (5, 29), (4, 25), (8, 16), (9, 17). Verified as FLOOR.
 - Defeated Trainers (Route 41): Swimmer Mathew (17, 46).
 Item Crisis Management:
-1. Move to (15, 11) to clear hallucination zone.
+1. Move to (15, 11) to clear hallucination zone (Done).
 2. Open POKEMON menu.
 3. Select GORP (Slot 5).
 4. Select ITEM -> TAKE (Recover Master Ball).
@@ -45,8 +45,8 @@ Progress: Turn #50620 start. Smashed rocks (5, 29), (4, 25), (8, 16), (9, 17). D
 Menu Mechanics: 
 - Start Menu: 1. Pokedex, 2. Pokemon. (1 Down from Slot 1).
 - Party Menu: 1. Calcifer, 2. Xenon, 3. Kimchi, 4. Gneiss, 5. Gorp, 6. Icarus. (4 Downs from Slot 1).
-- Gorp Sub-menu: 1. Surf, 2. Stats, 3. Switch, 4. Item. (3 Downs from Slot 1).
+- Gorp Sub-menu: 1. Surf, 2. Stats, 3. Switch, 4. Move, 5. Item, 6. Cancel. (4 Downs from Slot 1).
 - Item Sub-menu: 1. Give, 2. Take. (1 Down from Slot 1).
 - Fly Map: New Bark Town (East), Cianwood (West). (20-25 Lefts).
 - Text Clear: Mash A/B to clear "Took item" or "Arrived" text boxes.
-- Hallucination Zone: Avoid (14, 10) and (13, 10). Currently at (15, 10). Moving to (15, 11).
+- Hallucination Zone: Avoid (14, 10) and (13, 10). Currently at (15, 11). Logic: Corrected turn number. Accuracy is the only priority.
