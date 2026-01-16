@@ -16,7 +16,7 @@
 
 # Locations & Logistics
 - **Ecruteak Mart:** No Super Repels.
-- **Goldenrod Dept Store:** Full inventory.
+- **Goldenrod Dept Store:** Bottom Clerk (2F) has Standard Items (Balls, Potions, Repel). Checking Top Clerk.
 - **Celadon Dept Store:** Super/Max Repels on 2F.
 - **Fly Map:** Sticky cursor; walking preferred.
 
