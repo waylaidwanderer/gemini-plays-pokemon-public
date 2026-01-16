@@ -7,6 +7,7 @@
 - **Location:** (14, 10) in Cianwood City.
 - **Status:** Blocked by boulders at (4, 19) and (8, 16).
 - **Plan:** After obtaining TM08, return to Cianwood and clear the path.
+- **Route to Suicune:** (12, 17) -> (11, 16) -> (11, 12) -> (14, 12) -> (14, 10).
 
 ## Global Tile Mechanics
 - FLOOR: Traversable.
