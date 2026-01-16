@@ -14,12 +14,15 @@
 - Fly Map: New Bark Town (East), Cianwood (West).
 
 # Strategy: Fly to Cianwood (Suicune Pursuit)
-- Time Tracking: Started Turn 50620 (Current Turn: 51083).
+- Time Tracking: Started Turn 50620 (Current Turn: 51086).
 - Status: Item Crisis Resolved. Master Ball and Leftovers restored.
 - Plan:
   1. Fly to Cianwood (Far West on map).
   2. Move to (14, 10) in Cianwood to trigger Suicune sighting.
 - Prep: Lead Calcifer for Eusine battle.
+- Fly Attempt Log:
+  - Attempt 24: Map opened but cursor was unresponsive to "Left" inputs (65+ presses).
+  - Current Action: Exiting map and moving to (14, 13) to reset overworld/menu state and clear hallucination warning.
 
 # Progress Tracking
 - Smashed Rocks (Cianwood): (5, 29), (4, 25), (8, 16), (9, 17).
@@ -30,4 +33,4 @@
 - Party Menu: Pressing Up from Slot 1 wraps to CANCEL (7).
 - Bag (Items): Vertical list with scrolling. Cursor persists on last item selected.
 - Sub-menus: Usually 4-6 items. Pressing Up from item 1 wraps to the bottom item.
-- Fly Map: Cursor starts at current location. Left moves west. A selects.
+- Fly Map: Cursor starts at current location. Left moves west. A selects. Unresponsive in Attempt 24.
