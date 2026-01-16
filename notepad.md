@@ -1,13 +1,18 @@
 # Suicune Quest: Cianwood City
-## Active Strategy: The North-West Passage
-The northern plateau (14, 10) is accessible via the Western Corridor (X=0-2). I have found a clear path through the city's internal walls by heading North to Row 29, which is clear of ledges and walls between X=2 and X=15.
+## Active Strategy: The Southern Clearway Sprint
+The northern plateau (14, 10) is only accessible via the Western Corridor (X=0-2). This corridor is blocked from the main city by a long North-South wall. I must reach the southern clearway at Row 51, which provides a land path to the corridor.
 
-1. Walk North to Row 30 at (19, 30). (In Progress)
-2. Walk West to (15, 30).
-3. Walk North to Row 29 at (15, 29).
-4. Walk West along Row 29 to the Western Corridor at (2, 29).
-5. Walk North along X=2 to the plateau entry at (2, 12).
-6. Walk East along Row 12 to (14, 12), then North to (14, 10) to trigger Suicune.
+1. Walk to (20, 51) via the eastern land corridor (X=19-23) and Row 40 detour. (In Progress)
+2. Walk West along Row 51 to (2, 51).
+3. Walk North along X=2 to Row 12.
+4. Walk East to (14, 12), then North to trigger Suicune at (14, 10).
+
+## Route Details (Current Turn)
+- (6, 29) -> (15, 29) [Right]
+- (15, 29) -> (15, 30) [Down]
+- (15, 30) -> (19, 30) [Right]
+- (19, 30) -> (19, 39) [Down]
+- (19, 39) -> (20, 39) -> (20, 41) -> (20, 51) [Detour around WALL at 19, 40]
 
 ## Tile Mechanics
 - FLOOR: Traversable.
@@ -15,13 +20,13 @@ The northern plateau (14, 10) is accessible via the Western Corridor (X=0-2). I 
 - WATER: Requires Surf.
 - BUOY: Impassable (Water wall).
 - LEDGE_HOP_DOWN: One-way jump (South).
-- FLOOR_UP_WALL: Impassable wall (Blocks North movement). Verified at Row 50, X=12; Row 46, X=26; and Row 34, X=6-8.
+- FLOOR_UP_WALL: Impassable wall (Confirmed at Row 50, X=12).
 - DOOR/WARP_CARPET: Warp points.
 
 ## Battle Plan: Eusine
 - Lead: Calcifer (Lv64 Typhlosion).
-- Strategy: Flamethrower for Drowzee/Haunter, Thunderpunch for Electrode.
-- Status: Fully healed at PC. Ready to sweep!
+- Strategy: Flamethrower/Thunderpunch sweep.
+- Status: Fully healed.
 
 ## Phone Contacts & Swarms
 - Tully (Fisher): Route 42.
