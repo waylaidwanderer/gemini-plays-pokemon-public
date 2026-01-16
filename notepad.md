@@ -43,3 +43,7 @@
 - Observation: Map may require a delay (sleep) after opening before accepting directional input.
 - Current Test: sleep 2000ms followed by 20x Left presses.
 - Goal: Verify if cursor moves and identifies cities between New Bark Town and Cianwood.
+
+# Fly Map Observation
+- When the map opens, a "Where? [Current City]" prompt appears. This must be cleared or handled before directional input is accepted.
+- Attempt 25: Pressing A to select FLY. Goal is to reach the map and clear the prompt.
