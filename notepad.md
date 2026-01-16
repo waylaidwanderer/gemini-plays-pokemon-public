@@ -6,8 +6,8 @@
     - Status: Max Repel Active.
     - Loop: Wiggle in grass -> Shuffle Ecruteak/Rt 37 -> Repeat.
 - **Status:** Navigating Fly Map (Silver Cave -> West).
-- **Strategy:** Press Left x3. Target: Violet City area.
-- **Observation:** Cursor at Silver Cave. Goldenrod is West.
+- **Strategy:** Press Left x2. Check destination.
+- **Observation:** Currently at Silver Cave. Moving Left (West) to traverse the map towards Goldenrod.
 - **Session Stats:** Approx 57 shuffle cycles. Repels EMPTY. Restocking.
 
 # Mechanics
