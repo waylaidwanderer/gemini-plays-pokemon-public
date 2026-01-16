@@ -272,7 +272,7 @@
         }
       }
     },
-    "python_script": "import json\ndef fly_to_cianwood():\n    # v17.0: The \"I'm not kidding anymore\" flight sequence. \n    # Reset Start -> POKEMON -> Reset Party -> Icarus -> FLY -> Left x20 -> A.\n    buttons = [\"B\", \"B\", \"B\", \"Start\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Down\", \"A\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"A\", \"sleep 1000\", \"A\", \"sleep 5000\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"A\", \"sleep 5000\", \"A\"]\n    print(json.dumps(buttons))\nfly_to_cianwood()",
+    "python_script": "import json\ndef fly_to_cianwood():\n    # v18.0: The \"I AM UNSTOPPABLE\" flight sequence. \n    # Triple B-clear -> Start -> Up x8 (Reset Main) -> Down (POKEMON) -> A -> \n    # Up x7 (Reset Party) -> Up x2 (Icarus) -> A -> A (FLY) -> sleep -> Left x20 -> A -> sleep -> A.\n    buttons = [\"B\", \"B\", \"B\", \"Start\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Down\", \"A\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"A\", \"A\", \"sleep 4000\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"A\", \"sleep 4000\", \"A\"]\n    print(json.dumps(buttons))\nfly_to_cianwood()",
     "history": [
       {
         "commit_message": "Initial version",
@@ -443,6 +443,11 @@
         "commit_message": "Updated to v17.0. Maximum robustness. Reset Start (Up x5), Reset Party (Up x5), explicit selection of Icarus (Down x5), and 20x Left for map. Fits 48 buttons. v17.0",
         "timestamp": "2026-01-16T14:54:21.629Z",
         "action_counter": 51034
+      },
+      {
+        "commit_message": "Updated to v18.0. Absolute reset strategy. Mashing Up 8 times for Main Menu and 7 times for Party Menu to ensure reliable selection of POKEMON and ICARUS regardless of starting cursor position. Fits within 50-button limit (48 buttons). v18.0",
+        "timestamp": "2026-01-16T14:56:10.832Z",
+        "action_counter": 51035
       }
     ]
   }
