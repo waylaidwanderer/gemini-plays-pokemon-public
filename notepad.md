@@ -20,7 +20,7 @@
     2. Run in grass for ~20 steps.
     3. If no encounter, repeat.
     - **Repel Trick:** Lead Pokemon (Lv 37) > Wild Pokemon (Lv ~20) but < Roamers (Lv 40). Max Repel ACTIVE. Only Roamers should appear.
-- **Mechanics Note:** Repel likely active (0 encounters recently).
+- **Mechanics Note:** Repel likely active (0 encounters recently). Inputs after a warp are likely ignored.
 - **Current Task:** Hunting Entei/Raikou on Route 37.
-- **Status:** Shuffling (Route 37 -> Ecruteak).
+- **Status:** Shuffling (Entering Ecruteak).
 - Pokedex Status: National Mode. SEEN: 195, OWN: 46.
