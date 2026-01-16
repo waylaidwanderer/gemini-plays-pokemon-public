@@ -1,20 +1,19 @@
 # Suicune Quest: Cianwood City
-## Active Strategy: The Northern Plateau Surf Landing
-The northern plateau (14, 10) is accessible by Surfing north through the central lake (X=15 corridor) and landing at (13, 16). This bypasses all city walls and smashable rocks.
+## Active Strategy: House-to-House Search for Rock Smash
+The northern plateau (14, 10) is blocked by rocks. I need TM08 Rock Smash to proceed. Advisor says the NPC is typically outside, but I will check all buildings systematically to be sure.
 
-### The Path to Suicune
-1. Navigate to the shore at (12, 28). (In Progress)
-2. Surf North to Row 16 at (14, 16).
-3. Land at (13, 16).
-4. Walk North-East to trigger Suicune at (14, 10).
+### Search Progress
+1. Poke Seer (5, 17): In Progress.
+2. Photo Studio (9, 31): Next.
+3. Pokefan M (17, 33): Outside.
+4. Lugia Speech House (15, 37).
+5. Pokefan F (10, 46): Outside.
+6. Pharmacy (15, 47).
 
 ## Verified Mechanics
-- Central Lake: X=15 is a clear vertical corridor of WATER from Row 30 to Row 16.
-- Plateau Landing: (13, 16) is a FLOOR tile adjacent to WATER (14, 16), allowing landing.
-- Smashable Rocks: Only necessary for the western land path. Surf bypasses them.
-
-## Progress Tracking
-- Pivot to Surf Strategy: Turn 49965.
+- FLOOR_UP_WALL: Impassable south-facing ledge/wall.
+- Vertical Walls: Continuous barriers at X=5/6 and X=16-20.
+- Smashable Rocks: (8,16), (9,17), (4,19), (4,25), (10,27), (5,29).
 
 ## Battle Plan: Eusine
 - Lead: Calcifer (Lv64 Typhlosion).
