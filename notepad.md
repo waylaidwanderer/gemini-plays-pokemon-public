@@ -30,3 +30,4 @@
 - **Clerk 4 (4F, 13,5):** Sells Vitamins (Protein, Iron, Carbos, Calcium, HP Up). NO Repels.
 - **Clerk 5 (5F, 8,5):** Sells TMs (41, 48, 33, 02, 08). NO Repels.
 - **Vending Machine (6F):** Fresh Water, Soda Pop, Lemonade. NO Repels.
+- **Logistics:** Cannot Fly from inside Dept Store (Roof included). Plan: Take Elevator to 1F -> Exit -> Magnet Train to Kanto -> Celadon.
