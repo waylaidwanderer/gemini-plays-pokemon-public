@@ -23,8 +23,10 @@
 - Objective: Reach the northern coast of Cianwood City at (14, 10).
 - Current Strategy: Western Corridor Land Route (Verified Turn 51265).
 - Execution Plan:
-  1. Walk South to (12, 46), East to (13, 46), and South to (13, 51) (bypass walls).
-  2. Walk West to (2, 51) to enter the Western Corridor (X=2).
-  3. Walk North to (2, 14) (bypass Row 15 wall).
-  4. Walk East to (14, 14) and North to (14, 10) to trigger Suicune sighting.
+  1. Walk East to (24, 45) to find the gap in the Row 50 ledge.
+  2. Walk South through the gap to Row 51.
+  3. Walk West to (2, 51) to enter the Western Corridor (X=2).
+  4. Walk North to (2, 12) through the clear corridor.
+  5. Walk East to (14, 12) and North to (14, 10) to trigger Suicune sighting.
 - Battle Prep: Lead Calcifer (Lv64 Typhlosion) for Eusine encounter.
+- Note: Vertical walls divide the city; Row 51 is the primary cross-corridor. Row 50 ledge blocks most south movement.
