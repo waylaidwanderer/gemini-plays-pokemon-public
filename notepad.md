@@ -12,14 +12,15 @@ Trigger the Suicune sighting at (14, 10) in Cianwood City (Map 22_3).
 5. Trigger Event: Reach (14, 10).
 
 ## Tile Mechanics
-- FLOOR_UP_WALL: One-way North slopes (e.g., (4, 30), (4, 20), (6, 46)).
-- LEDGE_HOP_DOWN: One-way South ledges (e.g., (10, 15)).
-- WALL: Solid barriers partitioning the city.
+- FLOOR: Traversable.
+- WALL: Impassable.
+- WATER: Requires Surf.
+- BUOY: Impassable (Water barrier).
+- DOOR: Warp point.
+- LEDGE_HOP_DOWN: One-way South jump. Impassable from North/East/West.
+- FLOOR_UP_WALL: One-way North climb. Impassable from North/East/West.
+- SMASHABLE_ROCK (Object): Impassable. Requires Rock Smash to clear.
 
-## Key Coordinates
-- (17, 33): Pokefan M.
-- (5, 34): Gap in the central wall.
-- (14, 10): Suicune trigger point.
 ## Strategy: Finding TM08 Rock Smash
 - **Start Turn:** 50283
 - **Status:** Searching for the TM source. Pokefan F mentioned her husband (Pokefan M).
@@ -27,9 +28,12 @@ Trigger the Suicune sighting at (14, 10) in Cianwood City (Map 22_3).
   1. Talk to Standing Youngster at (21, 37). (Completed: Talks about Fly)
   2. Check Mania's House at (17, 41). (Completed: Mania asks for his Shuckle back)
   3. Talk to Pokefan F at (11, 46). (Completed: Talks about her husband)
-  4. Re-verify Pokefan M (18, 33) by talking from the south (18, 34). (Next)
+  4. Re-verify Pokefan M (16, 33) by talking from the south (16, 34). (Current loop)
   5. Talk to Lass at (14, 40).
   6. Check Lugia Speech House at (15, 37).
+  7. Check Pokemon Center (23, 43).
+  8. Check Pharmacy (15, 47).
+  9. Check Gym (8, 43).
 
 ## Failed Hypotheses
 - **Hypothesis 1:** Pokefan M (17, 33) gives TM08 immediately after beating Chuck.
@@ -44,6 +48,6 @@ Trigger the Suicune sighting at (14, 10) in Cianwood City (Map 22_3).
 - **Hypothesis 4:** Pokefan F (9, 46) gives TM08.
   - **Attempts:** 1 (Turn 50300)
   - **Result:** Talks about her husband (Pokefan M) needing to train harder.
-- **Hypothesis 5:** Pokefan M (18, 33) gives TM08 after talking to his wife.
-  - **Attempts:** 0
-  - **Result:** TBD. Trying to talk from the front.
+- **Hypothesis 5:** Pokefan M (16, 33) gives TM08 after talking to his wife.
+  - **Attempts:** 5+ (Turns 50301-50310)
+  - **Result:** Chasing his moving position. Need to commit or pivot.
