@@ -28,5 +28,9 @@
 - Fisher at (44, 9): Flavor text only.
 - Youngster Arthur at (45, 6): Hard Stone on Thursdays.
 - Sudowoodo Junction (35, 9): No NPC currently present.
-- PC Storage: Empty.
-- Bag: TM08 is NOT in the TM/HM pocket.
+- PC Storage: Empty (Verified Turn 50513). TM08 is not in storage.
+- Strategy:
+  1. Fly to Goldenrod City.
+  2. Visit the Goldenrod Dept. Store (5F) and buy TM08 Rock Smash (¥1000).
+  3. If not for sale, visit the Flower Shop and talk to the clerk.
+  4. Once obtained, teach Rock Smash to GNEISS (Graveler).
