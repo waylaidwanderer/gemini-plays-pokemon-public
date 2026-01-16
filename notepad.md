@@ -8,11 +8,11 @@
 
 ## Strategy: Finding TM08 Rock Smash
 - **Start Turn:** 50283
-- **Status:** Searching for the TM. Pokefan M (18, 33) only hints. Pharmacy was a dead end.
-- **Remaining Leads:**
-  1. Investigate Lugia Speech House (15, 37). (Next)
-  2. Re-check Gym Leader Chuck (8, 43) or his wife outside.
-  3. Fly to Route 36 to find the NPC near where Sudowoodo was.
+- **Status:** Searching for the TM. Pokefan M (18, 33) only hints (Confirmed: He only gives TM08 in G/S, not Crystal).
+- **Plan:**
+  1. Investigate Lugia Speech House (15, 37). (Current)
+  2. Fly to Route 36 to find the NPC near where Sudowoodo was (Primary lead for Crystal).
+  3. Re-check Gym Leader Chuck (8, 43) if needed.
 
 ## Global Tile Mechanics
 - FLOOR: Traversable.
