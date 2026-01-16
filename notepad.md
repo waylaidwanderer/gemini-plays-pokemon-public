@@ -1,20 +1,19 @@
 # Suicune Quest: Cianwood City
-## Active Strategy: The True Sea Route (Final)
-The northern plateau (X=13-16, Row 10-14) is accessible by landing on its eastern edge (X=16) from a specific sea pocket.
+## Active Strategy: The Great Southern Sea Loop (Final)
+The city is a maze of one-way ledges. Row 51 is the only clear path to the Western Corridor (X=0-2), which leads to the northern plateau.
 
-1. Surf North to (24, 16). (In Progress)
-2. Surf West through the gap at (22, 16) to (20, 16).
-3. Surf North to (20, 11).
-4. Surf West and land at (16, 11).
-5. Walk North to (16, 10) (Jumping the FLOOR_UP_WALL ledge).
-6. Walk West to (14, 10) to trigger Suicune sighting.
+1. Surf South along column X=28 to Row 51. (In Progress)
+2. Land at (24, 51).
+3. Walk West along Row 51 to (2, 51).
+4. Walk North through the Western Corridor (X=2) to Row 10.
+5. Walk East along Row 10 to (14, 10) to trigger Suicune.
 
 ## Verified Mechanics
 - FLOOR_UP_WALL: Blocks SOUTH movement (Confirmed at (10, 47) -> (10, 48)).
-- Western Corridor: X=0-2 is clear of ledges from Row 51 to Row 10. (Backup route).
-- Central Pool: Enclosed by buoys; no exit to the north or west.
+- Western Corridor: X=0-2 is a clear path from Row 51 to the northern plateau.
+- Row 51: Clear horizontal passage across the southern edge of the city.
 
 ## Battle Plan: Eusine
 - Lead: Calcifer (Lv64 Typhlosion).
 - Strategy: Flamethrower for Drowzee/Haunter, Thunderpunch for Electrode.
-- Status: Party healthy. No Repels remaining; run from wild encounters.
+- Status: Party healthy. No Repels; run from wild encounters.

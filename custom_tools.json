@@ -89,31 +89,5 @@
         "action_counter": 49754
       }
     ]
-  },
-  "find_path_v7": {
-    "description": "Finds a path using BFS on the current map XML, handling walls, objects, and one-way movement. Returns a JSON array of button strings. v7.0",
-    "input_schema": {
-      "properties": {
-        "target_x": {
-          "type": "integer"
-        },
-        "target_y": {
-          "type": "integer"
-        }
-      },
-      "required": [
-        "target_x",
-        "target_y"
-      ],
-      "type": "object"
-    },
-    "python_script": "import collections\nimport xml.etree.ElementTree as ET\nimport json\n\ndef solve():\n    try:\n        target_x = int(input_data['target_x'])\n        target_y = int(input_data['target_y'])\n        \n        root = ET.fromstring(map_xml_string)\n        \n        # Get player pos\n        start_x, start_y = None, None\n        for row in root.findall('Row'):\n            y = int(row.attrib['id'])\n            for tile in row.findall('Tile'):\n                if tile.find('Player') is not None:\n                    start_x = int(tile.attrib['id'])\n                    start_y = y\n                    break\n            if start_x is not None: break\n        \n        if start_x is None:\n            print(json.dumps([]))\n            return\n\n        # BFS\n        queue = collections.deque([(start_x, start_y, [])])\n        visited = set([(start_x, start_y)])\n        \n        while queue:\n            cx, cy, path = queue.popleft()\n            if cx == target_x and cy == target_y:\n                print(json.dumps(path))\n                return\n            \n            # Get current tile info\n            curr_tile_type = \"unseen\"\n            for row in root.findall(f\"Row[@id='{cy}']\"):\n                tile = row.find(f\"Tile[@id='{cx}']\")\n                if tile is not None:\n                    curr_tile_type = tile.attrib['type']\n                    break\n\n            for dx, dy, move in [(0, -1, \"Up\"), (0, 1, \"Down\"), (-1, 0, \"Left\"), (1, 0, \"Right\")]:\n                nx, ny = cx + dx, cy + dy\n                if (nx, ny) in visited: continue\n                \n                # Find target tile in XML\n                target_tile = None\n                for row in root.findall(f\"Row[@id='{ny}']\"):\n                    target_tile = row.find(f\"Tile[@id='{nx}']\")\n                    if target_tile is not None: break\n                \n                if target_tile is None:\n                    # Treat unseen as walkable\n                    if 0 <= nx < 30 and 0 <= ny < 54:\n                        visited.add((nx, ny))\n                        queue.append((nx, ny, path + [move]))\n                    continue\n                \n                t_type = target_tile.attrib['type']\n                has_obj = target_tile.find('Object') is not None\n                \n                if t_type == \"WALL\" or t_type == \"BUOY\": continue\n                if has_obj and (nx != target_x or ny != target_y): continue\n                \n                # FLOOR_UP_WALL: Blocks SOUTH movement\n                if move == \"Down\" and t_type == \"FLOOR_UP_WALL\": continue\n                # LEDGE_HOP_DOWN: Blocks NORTH movement\n                if move == \"Up\" and curr_tile_type == \"LEDGE_HOP_DOWN\": continue\n                \n                visited.add((nx, ny))\n                queue.append((nx, ny, path + [move]))\n        \n        print(json.dumps([]))\n    except Exception as e:\n        print(json.dumps([]))\n\nsolve()",
-    "history": [
-      {
-        "commit_message": "Fixing Python sandbox error by defining a new tool version. Refined BFS logic to handle one-way tiles and unseen coordinates. v7.0",
-        "timestamp": "2026-01-16T00:42:55.429Z",
-        "action_counter": 49864
-      }
-    ]
   }
 }
