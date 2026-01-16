@@ -255,5 +255,39 @@
         "action_counter": 50491
       }
     ]
+  },
+  "fly_to_destination": {
+    "description": "Navigates the Fly map from the starting position (New Bark Town) to a specified Johto city and initiates the flight. Returns a sequence of button presses.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "destination": {
+          "type": "string",
+          "enum": [
+            "New Bark Town",
+            "Cherrygrove City",
+            "Violet City",
+            "Azalea Town",
+            "Goldenrod City",
+            "Ecruteak City",
+            "Olivine City",
+            "Cianwood City",
+            "Mahogany Town",
+            "Blackthorn City"
+          ]
+        }
+      },
+      "required": [
+        "destination"
+      ]
+    },
+    "python_script": "import json\n\ndef get_path(dest):\n    d = dest.lower()\n    if \"new bark\" in d:\n        return [\"A\"]\n    elif \"cherrygrove\" in d:\n        return [\"Left\"]*9 + [\"Up\"]*1 + [\"A\"]\n    elif \"azalea\" in d:\n        return [\"Left\"]*9 + [\"Up\"]*1 + [\"Left\"]*4 + [\"Up\"]*2 + [\"A\"]\n    elif \"olivine\" in d:\n        return [\"Left\"]*9 + [\"Up\"]*1 + [\"Left\"]*4 + [\"Up\"]*2 + [\"Left\"]*3 + [\"Up\"]*3 + [\"A\"]\n    elif \"ecruteak\" in d:\n        return [\"Left\"]*9 + [\"Up\"]*1 + [\"Left\"]*4 + [\"Up\"]*2 + [\"Left\"]*3 + [\"Up\"]*3 + [\"Down\"]*1 + [\"A\"]\n    elif \"goldenrod\" in d:\n        return [\"Left\"]*9 + [\"Up\"]*1 + [\"Left\"]*4 + [\"Up\"]*2 + [\"Left\"]*3 + [\"Up\"]*3 + [\"Down\"]*2 + [\"A\"]\n    elif \"cianwood\" in d:\n        return [\"Left\"]*9 + [\"Up\"]*1 + [\"Left\"]*4 + [\"Up\"]*2 + [\"Left\"]*3 + [\"Up\"]*3 + [\"Left\"]*20 + [\"Down\"]*10 + [\"A\"]\n    return []\n\ndest = input_data.get(\"destination\", \"\")\nprint(json.dumps(get_path(dest)))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-16T09:40:28.847Z",
+        "action_counter": 50652
+      }
+    ]
   }
 }
