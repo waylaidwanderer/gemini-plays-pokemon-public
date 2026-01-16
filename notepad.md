@@ -16,7 +16,7 @@
 - Objective: Reach the northern coast of Cianwood City at (14, 10).
 - Current Strategy: Land Route (Verified Turn 51236).
 - Execution Plan:
-  1. Walk East to (12, 29).
+  1. Walk East to (12, 29). (Done)
   2. Walk South to (12, 32).
   3. Walk West to (2, 32).
   4. Walk North through the western corridor (X=2) to (2, 14).
