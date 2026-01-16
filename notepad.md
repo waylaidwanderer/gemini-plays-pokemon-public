@@ -21,4 +21,5 @@ The northern plateau (14, 10) is accessible via a series of one-way "upward" tra
 ## Observations
 - Route 41 (0, 49) is NOT a transition point (confirmed via Left movement failure).
 - Route 41 (0, 44) and (0, 45) ARE verified transitions.
-- Eastern water channel (Column 30) appears to be the only path to the southern beach.
+- Eastern water channel (Column 30) is the correct path to the southern beach. (Verified via run_code).
+- Attempted to Surf south at (0, 49) in Route 41 but was blocked by Buoys. Must stay in Column 30+.
