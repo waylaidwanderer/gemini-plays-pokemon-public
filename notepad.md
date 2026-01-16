@@ -1,7 +1,7 @@
 # Strategic Status
 - **Goal:** Catch Raikou (#243) & Entei (#244).
 - **Hunt Duration:** ~14,350 turns. Resumed: Turn 41847.
-- **Status:** In Saffron City. Walking to Magnet Train Station.
+- **Status:** Walking to Magnet Train Station to return to Goldenrod.
 - **Detour Start:** Turn 43267. Current Turn: 43371.
 - **Plan:**
     1. **Supply Run:**
