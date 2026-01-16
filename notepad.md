@@ -14,9 +14,8 @@
 
 # Active Strategy: The Suicune Pursuit
 - **Primary Goal:** Trigger Suicune sighting in Cianwood City.
-- **Target Coordinate:** (14, 10) in Cianwood.
-- **Pathing:** Northern coastline, Rows 13-15.
-- **Obstacles:** One-way jump barriers.
+- **Target Coordinate:** (14, 10) in Cianwood (Northern coastline).
+- **Pathing:** Rows 13-15.
 - **Battle Prep:** Lead with Calcifer (Lv64 Typhlosion) for Eusine (Drowzee, Haunter, Electrode).
 
 # Area Notes: Cianwood City
@@ -25,6 +24,7 @@
 - **Sighting Trigger:** Move to (14, 10).
 
 # Progress Tracking
-- Started Suicune Quest: Turn #50620. (Current Turn: #50982)
+- Started Suicune Quest: Turn #50620. (Current Turn: #50983)
 - Smashed Rocks (Cianwood): (5, 29), (4, 25), (8, 16), (9, 17). Verified as FLOOR.
 - Defeated Trainers (Route 41): Swimmer Mathew (17, 46).
+- Suicune Sighting #1: Cianwood City, northern coast (approx 14, 10). Pending.
