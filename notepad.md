@@ -24,5 +24,5 @@
 - **HEADBUTT_TREE:** Impassable obstacle.
 - **WARP_CARPET_DOWN/UP/LEFT/RIGHT:** Transition to adjacent map. Walk *off* the map edge to trigger.
 - **LEDGE_HOP:** One-way traversal (jump down).
-- **Clerk 1 (Top, 13,5):** Likely sells specialized items (Potions/Repels?). Access from (13,3) facing Down.
-- **Clerk 2 (Bottom, 13,6):** Sells Standard Balls/Repel/Revive/Full Heal/Doll.
+- **Clerk 1 (Top, 13,5):** Sells Potions, Antidote, Burn/Ice/Parlyz Heal, Awakening. NO Repels.
+- **Clerk 2 (Bottom, 13,6):** Sells Standard Balls, Escape Rope, Repel (Standard), Revive, Full Heal, Poke Doll. NO Super Repels.
