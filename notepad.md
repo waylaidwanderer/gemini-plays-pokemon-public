@@ -17,8 +17,9 @@
 # Locations & Logistics
 - **Ecruteak Mart:** No Super Repels.
 - **Goldenrod Dept Store:**
-  - 2F: Checked. No Super Repels.
-  - **Plan:** Check 3F for Super Repels.
+  - 2F: Standard Items / Medicine.
+  - 3F: Battle Items.
+  - **Plan:** Check 4F for Super Repels.
 - **Celadon Dept Store:** Super/Max Repels on 2F.
 - **Fly Map:** Sticky cursor; walking preferred.
 
