@@ -1,13 +1,15 @@
 # Strategy: Trigger Suicune Sighting
-- Plan: The Eastern Surf Route.
+- Plan: The Eastern Surf Route (Refined).
 - Steps:
-  1. Surf East to Column 24.
-  2. Surf North along Column 24 to Row 8.
-  3. Surf West along Row 8 to (17, 8).
-  4. Surf South to (17, 10) and land on the coast.
-  5. Walk West to (14, 10) to trigger Suicune.
+  1. Surf Down to Row 16.
+  2. Surf West to (22, 16) (Gap in Column 22 buoy wall).
+  3. Surf South to Row 21.
+  4. Surf West to (18, 21) (Gap in Column 19 buoy wall).
+  5. Surf North to (18, 10).
+  6. Land at (15, 10).
+  7. Walk to (14, 10) to trigger Suicune.
 - Battle Prep: Lead Calcifer (Lv64 Typhlosion).
-- Note: This route bypasses the complex city walls and one-way slopes. Row 31 is a clear path to the water. Row 10/11/12 are clear paths to the sighting spot.
+- Note: This route avoids the solid buoy walls at Column 22 (Rows 9-15) and Column 19 (Rows 15-20). Row 21 and Row 16 are the key bypasses.
 
 # Tile Mechanics
 - FLOOR: Standard traversable tile.
