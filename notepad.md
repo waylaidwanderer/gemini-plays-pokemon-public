@@ -50,4 +50,4 @@
 - Pressing A confirms the destination. Avoid mashing A.
 - The map requires a short initialization period before accepting input.
 - New Bark Town to Cianwood: [Calculating exact presses...]
-- Current Test: Moving Left 5 times with delays to verify responsiveness.
+- Current Test: Moving Left 35 times and Up 10 times to reach Cianwood City on the western edge of the Fly map. Previous tests (5 and 25 presses) failed to change the destination from New Bark Town. Goal: Identify if the map uses a tile-based grid or a continuous cursor.
