@@ -10,7 +10,7 @@ The northern plateau (14, 10) is blocked by boulders. I need TM08 Rock Smash to 
 
 ## Verified Mechanics
 - FLOOR_UP_WALL: One-way ledge/impassable from the North.
-- ROCK: Impassable without Rock Smash.
+- ROCK: Impassable without Rock Smash. (8,16), (9,17), (4,19), (4,25), (10,27), (5,29).
 - Vertical Walls: Major barriers at X=5/6 and X=16-20.
 
 ## Battle Plan: Eusine
