@@ -1,11 +1,12 @@
-# Strategy: Trigger Suicune Sighting (Started: Turn 51131, Turn 51332 - Refined Plan)
-- City Logic: Vertical walls and buoy barriers partition the city. No direct water path exists to the northern coast. Row 32 is a major horizontal highway.
+# Strategy: Trigger Suicune Sighting (Started: Turn 51131, Turn 51339 - Refined Plan)
+- City Logic: Vertical walls and buoy barriers partition the city. No direct water path exists to the northern coast. Row 51, Row 32 (partial), Row 12, and Column 2 are the primary highways.
 - The Grand Loop (Execution Plan):
-  1. Surf to (24, 32) and land at (23, 32).
-  2. Walk West along Row 32 to (2, 32).
-  3. Walk North through the Western Corridor (X=2) to Row 14.
-  4. Walk East to (8, 14), then North to (8, 10).
-  5. Walk East to (14, 10) for the Suicune sighting.
+  1. Walk West to (13, 32), then South to (13, 49).
+  2. Walk East to (20, 49), then South to (20, 51) (Southern Highway).
+  3. Walk West along Row 51 to (2, 51) (Western Corridor).
+  4. Walk North along X=2 to (2, 12) (Northern Highway).
+  5. Walk East along Row 12 to (14, 12), then North to (14, 10).
+- Battle Prep: Lead Calcifer (Lv64 Typhlosion).
 
 # Tile Mechanics
 - FLOOR: Standard traversable tile.
