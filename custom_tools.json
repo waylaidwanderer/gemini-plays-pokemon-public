@@ -262,9 +262,9 @@
     ]
   },
   "fly_to_cianwood_v1": {
-    "description": "Navigates from the overworld to Fly to Cianwood City. Assumes starting from a city east of Cianwood. Moves cursor to the far west of the Johto map. v1.5",
+    "description": "Navigates from the overworld to Fly to Cianwood City. Assumes starting from a city east of Cianwood. Moves cursor to the far west of the Johto map. v1.6",
     "input_schema": {},
-    "python_script": "import json\n# Sequence:\n# 1. B x4 (Exit to overworld)\n# 2. Start (Open menu)\n# 3. Up x8 (Reset to POKEDEX)\n# 4. Down (Select POKEMON) -> A\n# 5. Up x8 (Reset to 1st PKMN)\n# 6. Down x5 (Select 6th PKMN - ICARUS) -> A\n# 7. A (Select FLY)\n# 8. Left x20 (Move far west on map)\n# 9. A -> A (Confirm flight)\nprint(json.dumps(['B']*4 + ['Start'] + ['Up']*8 + ['Down', 'A'] + ['Up']*8 + ['Down']*5 + ['A', 'A'] + ['Left']*20 + ['A', 'A']))",
+    "python_script": "import json\n# Sequence (Safe & Efficient):\n# 1. Start (Open menu)\n# 2. Up x7 (Ensure cursor is at top: POKEDEX)\n# 3. Down (Select POKEMON) -> A\n# 4. Up x6 (Ensure cursor is at top: 1st PKMN)\n# 5. Down x5 (Select 6th PKMN - ICARUS) -> A\n# 6. A (Select FLY)\n# 7. Left x15 (Move far west on map)\n# 8. A -> A (Confirm flight)\nprint(json.dumps(['Start'] + ['Up']*7 + ['Down', 'A'] + ['Up']*6 + ['Down']*5 + ['A', 'A'] + ['Left']*15 + ['A', 'A']))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -295,6 +295,11 @@
         "commit_message": "Updated to v1.5. Uses a robust 'reset' strategy (mashing Up) at every menu level to ensure correct selection of POKEMON, ICARUS, and FLY. Increased Left inputs to 20 for map navigation.",
         "timestamp": "2026-01-16T13:58:31.439Z",
         "action_counter": 50980
+      },
+      {
+        "commit_message": "Refined v1.6: Shortened sequence to 40 buttons to stay within safety limits while maintaining robust reset strategy.",
+        "timestamp": "2026-01-16T13:59:11.973Z",
+        "action_counter": 50982
       }
     ]
   }
