@@ -7,14 +7,13 @@
 - Start Turn: 49771
 - Start Time: 3:29 PM
 
-## Strategy: The Great Southern Loop (v3)
-The city is a maze. The Western Corridor (X=0-2) is the ONLY path to the plateau, but is only reachable from the southern clearway (Row 51). The central city ledges block southward land travel. Row 34/35 are unreachable from the east due to the X=9 wall.
-1. Walk to (23, 32). (In Progress)
-2. Surf South to Row 51.
-3. Land at (23, 51) or (24, 51).
-4. Walk West along Row 51 to (2, 51).
-5. Walk North through the corridor to (2, 10).
-6. Walk East along Row 10 to (14, 10) to trigger Suicune sighting.
+## Strategy: The True Sea Route (Final)
+The plateau (X=13-16, Row 10-14) is accessible by landing on its eastern edge (X=16) from the water.
+1. Clear Surf text and Surf to (23, 15). (In Progress)
+2. Surf North to Row 14, then West to (18, 14).
+3. Surf North to Row 10.
+4. Surf West and land at (16, 10).
+5. Walk West to (14, 10) to trigger Suicune sighting.
 
 # Battle Preparation: Eusine
 - Expected Roster: Drowzee (Lv23), Haunter (Lv23), Electrode (Lv25).
