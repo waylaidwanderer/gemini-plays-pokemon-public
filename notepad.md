@@ -5,10 +5,9 @@
     - Repel Trick: Lead Lv37 > Wilds (Lv ~20) but < Roamers (Lv 40).
     - Status: Max Repel Active.
     - Loop: Wiggle in grass -> Shuffle Ecruteak/Rt 37 -> Repeat.
-- **Status:** Navigating Fly Map (Testing Position).
-- **Strategy:** Press Down.
-- **Observation:** Text says New Bark, but game logic suggests Ecruteak (Current Loc).
-- **Hypothesis:** If Ecruteak -> Down = Goldenrod. If New Bark -> Down = No Change.
+- **Status:** Navigating Fly Map (Silver Cave -> West).
+- **Strategy:** Press Left x3. Target: Violet City area.
+- **Observation:** Cursor at Silver Cave. Goldenrod is West.
 - **Session Stats:** Approx 57 shuffle cycles. Repels EMPTY. Restocking.
 
 # Mechanics
