@@ -6,8 +6,8 @@
     - Status: Max Repel Active.
     - Loop: Wiggle in grass -> Shuffle Ecruteak/Rt 37 -> Repeat.
 - **Status:** Buying Items (Scrolling).
-- **Strategy:** Scroll down to find SUPER REPEL.
-- **Observation:** Currently at top of list. Scrolling down.
+- **Strategy:** Scroll past Status Healers to find SUPER REPEL.
+- **Observation:** Currently at ANTIDOTE. Repels should be further down.
 - **Session Stats:** Approx 57 shuffle cycles. Repels EMPTY. Restocking.
 
 # Mechanics
