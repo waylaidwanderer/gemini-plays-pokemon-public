@@ -1,11 +1,11 @@
-# Strategy: Trigger Suicune Sighting (Started: Turn 51131, Turn 51301 - Resumed)
-- City Logic: Vertical walls divide the city. The Western Corridor (X=0-2) is the main land route to the north, but requires a long detour to Row 51 or using Surf to bypass walls.
+# Strategy: Trigger Suicune Sighting (Started: Turn 51131, Turn 51318 - Refined Plan)
+- Quest Start: Turn 51131.
+- City Logic: Vertical walls divide the city. The Outer Sea (X=24+) is the most reliable route to the northern coast, bypassing internal barriers.
 - Execution Plan:
-  1. Walk to (23, 32) via Row 32.
-  2. Use SURF at (23, 32) to enter the Outer Sea at (24, 32).
-  3. Surf North to Row 11, then East to X=27 to bypass the Row 9 buoy barrier.
-  4. Surf North to Row 8, then West to X=14.
-  5. Land at (14, 11) and walk to (14, 10) for the Suicune sighting.
+  1. Surf North to (24, 21), then East to (27, 21) to clear the Row 15 buoy barrier.
+  2. Surf North to (27, 8) to clear the Row 9 buoy barrier.
+  3. Surf West to (14, 8), then South to (14, 11).
+  4. Land at (14, 11) and walk to (14, 10) for the Suicune sighting.
 
 # Tile Mechanics
 - FLOOR: Standard traversable tile.
