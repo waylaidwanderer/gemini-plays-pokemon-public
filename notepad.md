@@ -5,9 +5,9 @@
     - Repel Trick: Lead Lv37 > Wilds (Lv ~20) but < Roamers (Lv 40).
     - Status: Max Repel Active.
     - Loop: Wiggle in grass -> Shuffle Ecruteak/Rt 37 -> Repeat.
-- **Status:** Walking to Goldenrod (Route 37).
-- **Strategy:** Move Down column 18 to Exit (18, 35).
-- **Observation:** At (18, 31). Path South is clear. Lass is to the East (Right).
+- **Status:** Exiting Ecruteak to Route 37.
+- **Strategy:** Walk Down to transition map.
+- **Observation:** At the southern edge of Ecruteak. Heading to Goldenrod via Route 37 -> 36 -> 35.
 - **Session Stats:** Approx 57 shuffle cycles. Repels EMPTY. Restocking.
 
 # Mechanics
