@@ -1,13 +1,13 @@
 # Strategy: The Suicune Pursuit
 - **Quest Started:** Turn #50620 (Cianwood City)
-- **Status:** Rocks respawned after traveling. Need to smash (5, 29) to access the left corridor.
-- **Walking Route to Suicune (14, 10):**
-  1. Navigate to (6, 29).
-  2. Smash rock at (5, 29).
-  3. Move to (2, 30) via (4, 29) -> (4, 30) -> (3, 30).
-  4. Walk North to (2, 14).
-  5. Walk East to (8, 14), then North to (8, 12).
-  6. Walk East to (14, 12), then North to (14, 10).
+- **Status:** Exploring walking route to Suicune (14, 10).
+- **Walking Route (Testing):**
+  1. Navigate to (4, 20) via (6, 20).
+  2. Move West to (2, 20) to reach the left corridor.
+  3. Walk North to (2, 14).
+  4. Walk East to (8, 14), then North to (8, 12).
+  5. Walk East to (14, 12), then North to (14, 10).
+- **Alternative:** Surf around the east side (X=23) if walking route is blocked.
 - **Note:** Be prepared for Eusine battle immediately after Suicune bolts.
 
 # Tile Mechanics (Verified)
@@ -25,5 +25,5 @@
 - **Respawn Logic:** Overworld rocks respawn when leaving and re-entering the area.
 - **Menu Navigation:** The 'Switch items?' confirmation box is modal; B button does not close it. Use A on NO to exit.
 - **Fly Map:** Cursor positions: New Bark (East), Cherrygrove (West), Violet (North), Azalea (South), Goldenrod (West/North), Olivine (West), Cianwood (Far West).
-- **Suicune Spot:** (14, 10) in Cianwood City. Requires Rock Smash at (5, 29) to reach via walking. [Verified]
+- **Suicune Spot:** (14, 10) in Cianwood City. 
 - **Annotation Alert:** Ignore overworld coordinate labels while on the Fly map.
