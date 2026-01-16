@@ -1,7 +1,7 @@
 # Johto Progression: The Rock Smash Quest
 ## Primary Goal: Obtain TM08 Rock Smash
 - **Strategy:** Buy TM08 at Goldenrod Dept. Store 5F (¥1000).
-- **Quest History:** Verified Fisher (44, 9) gives post-gift dialogue. TM08 not in Bag or PC (Turn 50513).
+- **Quest History:** Verified Fisher (44, 9) gives post-gift dialogue. TM08 not in Bag or PC (Turn 50513). Route 36 NPCs checked (Turns 50430-50490).
 
 ## Secondary Goal: Trigger Suicune Sighting in Cianwood City
 - **Location:** (14, 10) in Cianwood City.
