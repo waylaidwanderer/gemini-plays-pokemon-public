@@ -10,8 +10,8 @@
 - **Plan:**
   1. Investigate Lugia Speech House (15, 37). (Current: Talking to Lass)
   2. Exit and find Pokefan M.
-  3. Wait in Pokefan M's path to intercept him for reliable interaction.
-  4. If interaction fails, reconsider Route 36.
+  3. Stun Pokefan M (Sprite ID 2) and talk to him from the front.
+  4. If interaction fails, check for other triggers (like the SecretPotion).
 
 ## Global Tile Mechanics
 - FLOOR: Traversable.
