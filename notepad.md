@@ -22,17 +22,21 @@ Trigger the Suicune sighting at (14, 10) in Cianwood City (Map 22_3).
 - (14, 10): Suicune trigger point.
 ## Strategy: Finding TM08 Rock Smash
 - **Start Turn:** 50283
-- **Status:** Searching for the TM source.
+- **Status:** Searching for the TM source. Mania was a dead end.
 - **Plan:**
   1. Talk to Standing Youngster at (21, 37). (Completed: Talks about Fly)
-  2. Check the house at (17, 41). (Next)
-  3. Re-verify Gym Leader Chuck's dialogue if possible.
-  4. Explore other houses if needed.
+  2. Check Mania's House at (17, 41). (Completed: Mania asks for his Shuckle back)
+  3. Talk to Pokefan F at (11, 46). (Next)
+  4. Re-verify Pokefan M (17, 33) by talking from the front (17, 34).
+  5. Explore other houses if needed.
 
 ## Failed Hypotheses
-- **Hypothesis 1:** Pokefan M (17, 33) gives TM08 after beating Chuck.
+- **Hypothesis 1:** Pokefan M (17, 33) gives TM08 immediately after beating Chuck.
   - **Attempts:** 2 (Turns 50278, 50281)
-  - **Result:** He only provides a hint about boulders to the north.
+  - **Result:** He only provides a hint. Might need different positioning or trigger.
 - **Hypothesis 2:** Standing Youngster (21, 37) gives TM08.
   - **Attempts:** 1 (Turn 50286)
-  - **Result:** He only talks about using Fly to return to Olivine.
+  - **Result:** Talks about Fly.
+- **Hypothesis 3:** Mania (2, 4) in Mania's House gives TM08.
+  - **Attempts:** 1 (Turn 50291)
+  - **Result:** Asks for his Shuckle back.
