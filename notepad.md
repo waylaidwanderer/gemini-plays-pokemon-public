@@ -25,4 +25,3 @@
 - **Attempt:** 46 (Route 37 Grass).
 - **Status:** Repel wore off. Re-applying Max Repel.
 - Pokedex Status: National Mode. SEEN: 195, OWN: 46.
-- Goal: Check entries #243 (Raikou) and #244 (Entei).
