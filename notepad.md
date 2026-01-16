@@ -16,7 +16,7 @@
 - WALL / BUOY: Impassable collision.
 - WATER: Requires SURF.
 - LEDGE_HOP_DOWN: One-way (South). Blocks North.
-- FLOOR_UP_WALL: Terrace. Walk ONTO from climb side to climb. Hypothesis: Allows jumping down (South move) from the north. Allows horizontal movement while elevated.
+- FLOOR_UP_WALL: Terrace. Walk ONTO from climb side to climb. Conclusion: Blocks jumping down from the north (Acts as wall). Allows horizontal movement while elevated.
 - BREAKABLE ROCK: Requires ROCK SMASH.
 
 # Map Markers (Summary)
