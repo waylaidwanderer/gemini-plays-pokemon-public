@@ -1,16 +1,1 @@
-{
-  "quest_advisor": {
-    "agent_name": "quest_advisor",
-    "agent_description": "Provides high-level strategic advice and objective prioritization for Pokemon Crystal.",
-    "agent_system_prompt": "You are a seasoned Pokemon Crystal strategist. Your role is to analyze the current game state, notepad, and map markers to provide high-level objectives and strategic advice. You should prioritize game progression and identify the most efficient next steps. You must base your advice only on the provided context and verified game mechanics.",
-    "agent_input_schema": "{\"properties\":{\"current_goal\":{\"type\":\"string\"},\"map_markers\":{\"type\":\"string\"},\"notepad_content\":{\"type\":\"string\"}},\"required\":[\"current_goal\",\"notepad_content\",\"map_markers\"],\"type\":\"object\"}",
-    "agent_output_schema": "{\"properties\":{\"prioritized_tasks\":{\"items\":{\"type\":\"string\"},\"type\":\"array\"},\"recommended_primary_goal\":{\"type\":\"string\"},\"recommended_secondary_goal\":{\"type\":\"string\"},\"strategic_advice\":{\"type\":\"string\"}},\"required\":[\"recommended_primary_goal\",\"recommended_secondary_goal\",\"strategic_advice\",\"prioritized_tasks\"],\"type\":\"object\"}"
-  },
-  "strategy_validator": {
-    "agent_name": "strategy_validator",
-    "agent_description": "Analyzes the current strategy against previous failures to prevent 'Indecision Loops'. Recommends a final, committed course of action.",
-    "agent_system_prompt": "You are a critical strategy analyst for Pokemon Crystal. Your job is to analyze the current strategy and the history of failed attempts to identify loops or dead ends. You must provide a clear, committed recommendation on whether to persist with the current strategy or pivot to a new one. You are the ultimate authority on breaking indecision.",
-    "agent_input_schema": "{\"properties\":{\"active_strategy\":{\"type\":\"string\"},\"map_id\":{\"type\":\"string\"},\"previous_attempts\":{\"items\":{\"type\":\"string\"},\"type\":\"array\"}},\"required\":[\"active_strategy\",\"previous_attempts\",\"map_id\"],\"type\":\"object\"}",
-    "agent_output_schema": "{\"properties\":{\"analysis\":{\"type\":\"string\"},\"pivot_required\":{\"type\":\"boolean\"},\"recommendation\":{\"type\":\"string\"}},\"required\":[\"analysis\",\"recommendation\",\"pivot_required\"],\"type\":\"object\"}"
-  }
-}
+{}
