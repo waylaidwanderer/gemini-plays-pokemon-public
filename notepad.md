@@ -1,13 +1,17 @@
 # Strategy: Trigger Suicune Sighting
-- Plan: The Direct City Path (Bypass Water).
+- Plan: The Western Bypass Path.
 - Steps:
-  1. Walk West to (9, 26).
-  2. Walk North along Column 9 to (9, 21).
-  3. Walk East to (11, 21).
-  4. Walk North along Column 11 through the gap at (11, 15) to (11, 14).
-  5. Walk East to (13, 14) and North through the gap at (13, 13) to (13, 12).
-  6. Walk East along Row 12 to (14, 12) and North to (14, 10).
-  7. Trigger Suicune sighting and battle Eusine.
+  1. Walk South to (11, 19).
+  2. Walk West to (5, 19).
+  3. Break Rock at (4, 19) using Rock Smash.
+  4. Walk South to (4, 20).
+  5. Walk West to (2, 20).
+  6. Walk North along Column 2 to (2, 14).
+  7. Walk East to (8, 14).
+  8. Walk North through the gap at (8, 13) to (8, 12).
+  9. Walk East along Row 12 to (14, 12).
+  10. Walk North to (14, 10) to trigger Suicune.
+- Battle Prep: Lead Calcifer (Lv64 Typhlosion).
 - Battle Prep: Lead Calcifer (Lv64 Typhlosion).
 
 # Tile Mechanics
