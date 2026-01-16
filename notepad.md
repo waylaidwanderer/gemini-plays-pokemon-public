@@ -1,15 +1,12 @@
 # Strategy: Trigger Suicune Sighting (Started: Turn 51131)
 - Objective: Reach (14, 10) on the northern coast.
 - Execution Plan:
-  1. Walk North to Row 45 (via Column 11).
-  2. Walk East to Column 21 (Row 45).
-  3. Walk South to Row 51 (via gap at Column 21).
-  4. Walk West along Row 51 to Column 4.
-  5. Walk North to Row 49.
-  6. Walk West to Column 2 (Western Corridor).
-  7. Walk North along Column 2 to Row 12.
-  8. Walk East along Row 12 to (14, 12).
-  9. Walk North to (14, 10).
+  1. Walk to (27, 44) and Surf to Route 41 transition at (29, 44).
+  2. In Route 41, move South to Row 51.
+  3. Re-enter Cianwood City at (29, 51).
+  4. Walk West along Row 51 (Southern Highway) to Column 2 (Western Corridor).
+  5. Walk North along Column 2 to Row 12.
+  6. Walk East along Row 12 to (14, 12) and North to (14, 10).
 - Battle Prep: Lead Calcifer (Lv64 Typhlosion).
 
 # Tile Mechanics
