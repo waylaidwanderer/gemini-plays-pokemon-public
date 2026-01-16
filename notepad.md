@@ -1,15 +1,17 @@
 # Strategy: Trigger Suicune Sighting (Started: Turn 51131)
 - Objective: Reach (14, 10) on the northern coast.
-- Execution Plan (The Golden Land Path):
-  1. Clear Surf text (Land at 28, 44 surfing).
-  2. Move Left to (27, 44) to land.
-  3. Walk West along Row 44 to (12, 44).
-  4. Walk North along Column 12 to (12, 29).
-  5. Walk West to (11, 29) and North to (11, 26).
-  6. Walk West to (9, 26) and North to (9, 16).
-  7. Walk East to (11, 16) and North through (11, 15) to Row 14.
-  8. Walk East to (13, 14) and North through (13, 13) to Row 12.
-  9. Walk East to (14, 12) and North to (14, 10).
+- Execution Plan (The Terrace Climb Land Route):
+  1. Walk West to (15, 44).
+  2. Walk North to (15, 43) and West along Row 43 to (12, 43) to bypass the Lass.
+  3. Walk South to (12, 47).
+  4. Walk West to (6, 47).
+  5. Walk North to (6, 46) (Climb Terrace).
+  6. Walk West to (2, 46).
+  7. Walk North along Column 2 to (2, 14).
+  8. Walk East along Row 14 to (8, 14).
+  9. Walk North along Column 8 to (8, 12).
+  10. Walk East along Row 12 to (14, 12).
+  11. Walk North to (14, 10).
 - Battle Prep: Lead Calcifer (Lv64 Typhlosion).
 
 # Tile Mechanics
