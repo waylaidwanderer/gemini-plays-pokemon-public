@@ -1,7 +1,8 @@
 # Strategic Status
 - **Goal:** Catch Raikou (#243) & Entei (#244).
 - **Hunt Duration:** ~14,350 turns. Resumed: Turn 41847.
-- **Status:** Opening Pack to use Super Repel.
+- **Status:** Using Super Repel.
+- **Action:** Selecting 'USE' and resuming hunt.
 - **Roamer Checks:** 16 (Current Batch).
 - **Active Effects:** Super Repel (Lead: Lv37 Gyarados).
 - **Plan:**
