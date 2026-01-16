@@ -257,7 +257,7 @@
     ]
   },
   "fly_to_destination": {
-    "description": "Navigates the Fly map from the starting position (New Bark Town) to a specified Johto city and initiates the flight. Returns a sequence of button presses.",
+    "description": "Navigates the Fly map from the starting position (New Bark Town) to a specified Johto city and initiates the flight. Returns a sequence of button presses (max 50).",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -281,12 +281,17 @@
         "destination"
       ]
     },
-    "python_script": "import json\n\ndef get_path(dest):\n    d = dest.lower()\n    if \"new bark\" in d:\n        return [\"A\"]\n    elif \"cherrygrove\" in d:\n        return [\"Left\"]*9 + [\"Up\"]*1 + [\"A\"]\n    elif \"azalea\" in d:\n        return [\"Left\"]*9 + [\"Up\"]*1 + [\"Left\"]*4 + [\"Up\"]*2 + [\"A\"]\n    elif \"olivine\" in d:\n        return [\"Left\"]*9 + [\"Up\"]*1 + [\"Left\"]*4 + [\"Up\"]*2 + [\"Left\"]*3 + [\"Up\"]*3 + [\"A\"]\n    elif \"ecruteak\" in d:\n        return [\"Left\"]*9 + [\"Up\"]*1 + [\"Left\"]*4 + [\"Up\"]*2 + [\"Left\"]*3 + [\"Up\"]*3 + [\"Down\"]*1 + [\"A\"]\n    elif \"goldenrod\" in d:\n        return [\"Left\"]*9 + [\"Up\"]*1 + [\"Left\"]*4 + [\"Up\"]*2 + [\"Left\"]*3 + [\"Up\"]*3 + [\"Down\"]*2 + [\"A\"]\n    elif \"cianwood\" in d:\n        return [\"Left\"]*9 + [\"Up\"]*1 + [\"Left\"]*4 + [\"Up\"]*2 + [\"Left\"]*3 + [\"Up\"]*3 + [\"Left\"]*20 + [\"Down\"]*10 + [\"A\"]\n    return []\n\ndest = input_data.get(\"destination\", \"\")\nprint(json.dumps(get_path(dest)))",
+    "python_script": "import json\n\ndef get_path(dest):\n    d = dest.lower()\n    path = []\n    if \"new bark\" in d:\n        path = [\"A\"]\n    elif \"cherrygrove\" in d:\n        path = [\"Left\"]*9 + [\"Up\"]*1 + [\"A\"]\n    elif \"azalea\" in d:\n        path = [\"Left\"]*9 + [\"Up\"]*1 + [\"Left\"]*4 + [\"Up\"]*2 + [\"A\"]\n    elif \"olivine\" in d:\n        path = [\"Left\"]*9 + [\"Up\"]*1 + [\"Left\"]*4 + [\"Up\"]*2 + [\"Left\"]*3 + [\"Up\"]*3 + [\"A\"]\n    elif \"ecruteak\" in d:\n        path = [\"Left\"]*9 + [\"Up\"]*1 + [\"Left\"]*4 + [\"Up\"]*2 + [\"Left\"]*3 + [\"Up\"]*3 + [\"Down\"]*1 + [\"A\"]\n    elif \"goldenrod\" in d:\n        path = [\"Left\"]*9 + [\"Up\"]*1 + [\"Left\"]*4 + [\"Up\"]*2 + [\"Left\"]*3 + [\"Up\"]*3 + [\"Down\"]*2 + [\"A\"]\n    elif \"cianwood\" in d:\n        # Optimized sequence to stay under 50: 9+1 + 4+2 + 3+3 + 17+10 + 1 = 50\n        path = [\"Left\"]*9 + [\"Up\"]*1 + [\"Left\"]*4 + [\"Up\"]*2 + [\"Left\"]*3 + [\"Up\"]*3 + [\"Left\"]*17 + [\"Down\"]*10 + [\"A\"]\n    return path[:50]\n\ndest = input_data.get(\"destination\", \"\")\nprint(json.dumps(get_path(dest)))",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2026-01-16T09:40:28.847Z",
         "action_counter": 50652
+      },
+      {
+        "commit_message": "Optimized Cianwood sequence to 50 buttons to fit safety limit. Added safety slice to result.",
+        "timestamp": "2026-01-16T09:47:23.292Z",
+        "action_counter": 50662
       }
     ]
   }
