@@ -1,13 +1,11 @@
 # Strategy: Trigger Suicune Sighting (Started: Turn 51131)
-- Execution Plan (The Golden Land Path):
-  1. Walk West to (12, 44).
-  2. Walk North to (12, 29).
-  3. Walk West to (11, 29) and North to (11, 26).
-  4. Walk West to (9, 26) and North to (9, 21).
-  5. Walk East to (11, 21) and North to (11, 15).
-  6. Walk North through gap at (11, 15) to Row 14.
-  7. Walk East to (13, 14) and North through gap at (13, 13) to Row 12.
-  8. Walk East to (14, 12) and North to (14, 10).
+- Execution Plan (The Row 51 Western Corridor Path):
+  1. Walk to (11, 44) via Row 44.
+  2. Walk South through the gap at (11, 50) to (11, 51).
+  3. Walk West along Row 51 (Southern Highway) to (2, 51).
+  4. Walk North through the Western Corridor (Column 2) to (2, 14).
+  5. Walk East to (5, 14) and North to (5, 12).
+  6. Walk East along Row 12 to (14, 12) and North to (14, 10).
 - Battle Prep: Lead Calcifer (Lv64 Typhlosion).
 
 # Tile Mechanics
@@ -15,5 +13,5 @@
 - WALL / BUOY: Impassable collision.
 - WATER: Requires SURF.
 - LEDGE_HOP_DOWN: One-way (South). Blocks North.
-- FLOOR_UP_WALL: Terrace. Walk ONTO from climb side to climb. Conclusion: Blocks jumping down from the north (Acts as wall). Allows horizontal movement while elevated.
+- FLOOR_UP_WALL: Terrace. Walk ONTO from climb side to climb. Acts as WALL from the top (cannot jump down). Allows horizontal movement while elevated.
 - BREAKABLE ROCK: Requires ROCK SMASH.
