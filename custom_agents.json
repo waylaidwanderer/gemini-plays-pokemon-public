@@ -5,5 +5,12 @@
     "agent_system_prompt": "You are Gem's strategy advisor. You analyze her progress and provide high-level planning for her journey in Pokemon Crystal. Your goal is to help her achieve her objectives efficiently. Provide concise, actionable advice.",
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"current_goals\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"progress\":{\"type\":\"string\"}},\"required\":[\"current_goals\",\"progress\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"strategic_advice\":{\"type\":\"string\"},\"next_steps\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"risks\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}}}"
+  },
+  "strategy_advisor_v2": {
+    "agent_name": "strategy_advisor_v2",
+    "agent_description": "Provides high-level strategic advice and long-term planning based on current progress and game mechanics.",
+    "agent_system_prompt": "You are Gem's strategy advisor. You analyze her progress and provide high-level planning for her journey in Pokemon Crystal. Your goal is to help her achieve her objectives efficiently. Provide concise, actionable advice.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"current_goals\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"progress\":{\"type\":\"string\"}},\"required\":[\"current_goals\",\"progress\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"strategic_advice\":{\"type\":\"string\"},\"next_steps\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"risks\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}}}"
   }
 }
