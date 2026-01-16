@@ -1,10 +1,11 @@
 # Strategy: The Suicune Pursuit
 - **Quest Started:** Turn #50620 (Cianwood City)
-- **Status:** Phase 1 (Boulders) complete. Phase 2 (Sighting) in progress.
+- **Status:** All boulders cleared. Phase 1 complete.
 - **Phase 2: Reaching the Sighting Spot**
   - Target: (14, 10) in northern Cianwood.
-  - Hypothesis 1: Use the warp at (5, 17) labeled "Suicune Sighting Area Entrance".
-  - Hypothesis 2: Surf around the wall at Row 15. Requires going East to X=23 to bypass buoys, then North to Row 14, then West to land.
+  - Path A: Use the warp at (5, 17) labeled "Suicune Sighting Area Entrance".
+  - Path B: If Path A fails, use the far-left corridor (X=0 to 2) to walk north to Row 10, then East to (14, 10).
+  - Path C: Surf around the wall at Row 15 (requires going to X=23).
   - Note: Be prepared for Eusine battle immediately after Suicune bolts.
 
 # Tile Mechanics (Verified)
