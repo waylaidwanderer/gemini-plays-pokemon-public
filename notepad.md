@@ -6,7 +6,7 @@
     - Status: Max Repel Active.
     - Loop: Wiggle in grass -> Shuffle Ecruteak/Rt 37 -> Repeat.
 - **Status:** Patrolling Route 37 Grass (Turn 41560). Repel Active.
-- **Strategy:** Move to grass -> Wiggle. If no encounter, shuffle using `enter_ecruteak_from_route37` & `exit_ecruteak_to_route37`.
+- **Strategy:** Wiggle (Left/Right) using `patrol_area`. If no encounter, shuffle using `enter_ecruteak_from_route37` & `exit_ecruteak_to_route37`.
 - **Observation:** Back on Route 37. Searching for Roamers.
 
 # Mechanics
