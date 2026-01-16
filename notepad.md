@@ -1,7 +1,10 @@
 # Johto Progression: The Rock Smash Quest
 ## Primary Goal: Obtain TM08 Rock Smash
-- **Strategy:** Fly to Violet City. Navigate west to Route 36. Obtain TM08 from the NPC near where Sudowoodo was.
-- **Menu Navigation:** ICARUS (Pidgeotto) is in Party Slot 6. FLY is the 1st option.
+- **Strategy:** Talk to NPCs on Route 36.
+- **Hypothesis:** The Fisher at (44, 9) gives TM08.
+- **Status:** Talked to Fisher (Turn 50434), he explained the move but didn't give the TM.
+- **Next Step:** Talk to him again, then explore Route 36 west of (35, 9).
+- **Quest Start:** Turn 50407.
 
 ## Secondary Goal: Trigger Suicune Sighting in Cianwood City
 - **Location:** (14, 10) in Cianwood City.
@@ -18,6 +21,6 @@
 - SMASHABLE_ROCK (Object): Impassable. Requires Rock Smash move to clear.
 
 ## Failed Hypotheses
-- Eastern Water Route: Blocked by Row 15 wall/buoy line.
+- Eastern Water Route (Cianwood): Blocked by Row 15 wall/buoy line.
 - Cianwood NPCs: Hints only (Turns 50278-50364).
-- Western Land Bypass: Blocked by rocks at (4, 19). Rock Smash is a hard requirement.
+- Western Land Bypass (Cianwood): Blocked by rocks at (4, 19). Rock Smash is a hard requirement.
