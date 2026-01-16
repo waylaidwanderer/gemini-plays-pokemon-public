@@ -5,10 +5,10 @@
     - Repel Trick: Lead Lv37 > Wilds (Lv ~20) but < Roamers (Lv 40).
     - Status: Max Repel Active.
     - Loop: Wiggle in grass -> Shuffle Ecruteak/Rt 37 -> Repeat.
-- **Status:** Shuffling (Exit Ecruteak).
-- **Strategy:** Return to Route 37 grass (8,2). If no encounter -> Shuffle.
-- **Observation:** In Ecruteak. Exiting to Route 37 to reset roamers. Repel active.
-- **Session Stats:** Approx 55 shuffle cycles attempts. Repel active (Fresh).
+- **Status:** Repel Expired (Route 37).
+- **Strategy:** Re-apply Max Repel (Check count). Then resume checking grass at (8,2).
+- **Observation:** Repel wore off upon entering Route 37.
+- **Session Stats:** Approx 55 shuffle cycles. Repel EXPIRED. Re-applying.
 
 # Mechanics
 - **Roamers:** Move to an adjacent route when player transitions maps.
