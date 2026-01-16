@@ -31,7 +31,7 @@
 - Menu Mechanics: Main Menu (8 items) wraps 1 <-> 8. Party Menu (6 items) wraps 1 <-> CANCEL <-> 6.
 - Sub-menu Layout (Icarus): FLY, STATS, SWITCH, MOVE, ITEM, CANCEL.
 - Suicune Quest Start: Turn #50620. (Current Turn: #51007)
-- Fly Strategy: Attempt #22 (Chunked). Logic: Start and Party menus are persistent. Total Fly failures: 21. Current Turn: #51042. Goal: Cianwood (14, 10). Strategy: Move to (13, 10) to clear the hallucination warning area, then manually open POKEMON menu and select ICARUS. Logic: Breaking the sequence into smaller chunks to ensure map screen visibility and cursor movement. Accuracy > Speed. v22.0. Status: Moving to clear position.
+- Fly Strategy: Attempt #22 (Manual Precision). Logic: Start menu (8 items) and Party menu (7 items) are persistent. Current Position: New Bark Town (13, 10). Total Fly failures: 21. Goal: Cianwood (14, 10). Strategy: B(x3) -> Start (Assume Slot 3 PACK) -> Up (Navigate to POKEMON Slot 2) -> A -> A (Assume Slot 6 ICARUS) -> A (Select FLY) -> sleep(4s) -> Left(x20) (Map West) -> A (Select Cianwood) -> sleep(4s) -> A (Confirm YES) -> sleep(4s) -> A (Clear arrived text). Logic: Breaking the curse with precision navigation and map transition delays. v23.0.
 - Fly attempts failed: 9.
 - Lesson: Party menu cursor persistence vs Start menu reset. Menu wrapping: 1 (Calcifer) <-> 7 (Cancel) in party.
 - Icarus is at index 6.
