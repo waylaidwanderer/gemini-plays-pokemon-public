@@ -1,17 +1,19 @@
 # Suicune Quest: Cianwood City
 ## Verified Strategy: The Terrace Climb
-The northern plateau (14, 10) is accessible via a series of one-way "upward" transitions that bypass the ledge system. This is a pure land route requiring a detour to the southern part of the city. Land travel south is blocked at Row 46 (Hypothesis: FLOOR_UP_WALL is one-way North), so a Surf detour is required.
+The northern plateau (14, 10) is accessible via a series of one-way "upward" transitions that bypass the ledge system. This is a pure land route requiring a detour to the southern part of the city. Land travel south is blocked at Row 46 (Hypothesis: FLOOR_UP_WALL is one-way North), so a Surf detour is required via Route 41.
 - Quest Start: Turn 50120 (approx)
 
 ### Execution Plan
-1. Surf Detour: Surf south from (28, 45) via the eastern channel (Cols 30-31) and land on the beach at (23, 51).
-2. Southern Approach: Walk West to (6, 51) and North to (6, 47).
-3. First Climb: Move North from (6, 47) through (6, 46) [UP_WALL] to reach Row 45.
-4. Second Climb: Move North from (6, 35) through (6, 34) [UP_WALL] to reach Row 33.
-5. Third Climb: Move West to (4, 31) and North through (4, 30) [UP_WALL] to reach Row 29.
-6. Fourth Climb: Move North from (4, 21) through (4, 20) [UP_WALL] to reach Row 19.
-7. Plateau Entry: Walk to (4, 14), then East to (8, 14), then North to (8, 12).
-8. Final Approach: Walk East along Row 12 to (14, 12) and North to Suicune at (14, 10).
+1. Surf Detour: Surf east from (27, 44) or (27, 45) onto the water.
+2. Route 41 Entry: Move East to (29, 44) to enter Route 41.
+3. Route 41 Transit: Surf south in Route 41 to the southern re-entry point (approx. Row 49).
+4. Southern Approach: Re-enter Cianwood City at (29, 49), walk West to (6, 51) and North to (6, 47).
+5. First Climb: Move North from (6, 47) through (6, 46) [UP_WALL] to reach Row 45.
+6. Second Climb: Move North from (6, 35) through (6, 34) [UP_WALL] to reach Row 33.
+7. Third Climb: Move West to (4, 31) and North through (4, 30) [UP_WALL] to reach Row 29.
+8. Fourth Climb: Move North from (4, 21) through (4, 20) [UP_WALL] to reach Row 19.
+9. Plateau Entry: Walk to (4, 14), then East to (8, 14), then North to (8, 12).
+10. Final Approach: Walk East along Row 12 to (14, 12) and North to Suicune at (14, 10).
 
 ## Tile Mechanics
 - FLOOR: Land (Traversable).
@@ -21,9 +23,6 @@ The northern plateau (14, 10) is accessible via a series of one-way "upward" tra
 ## Battle Plan: Eusine
 - Expected Team: Drowzee (Lv23), Haunter (Lv23), Electrode (Lv25).
 - Lead: Calcifer (Lv64 Typhlosion). Strategy: Flamethrower sweep.
-
-## Hallucination Correction
-- Previous claim that the plateau is "inaccessible from land" was incorrect. The UP_WALL tiles are traversable from the South, providing a valid path.
 
 ## Map Markers
 - (14, 10): ✨ Suicune Trigger Point
