@@ -5,9 +5,9 @@
     - Repel Trick: Lead Lv37 > Wilds (Lv ~20) but < Roamers (Lv 40).
     - Status: Max Repel Active.
     - Loop: Wiggle in grass -> Shuffle Ecruteak/Rt 37 -> Repeat.
-- **Status:** Moving to Mart (Ecruteak).
-- **Strategy:** Navigate to (29,22) via Col 18 (North) -> Row 22 (East). Avoids Lass at (21,29).
-- **Observation:** Col 18 and Row 22 are clear.
+- **Status:** Approaching Mart (Ecruteak).
+- **Strategy:** Navigating via Row 22 "Highway". Checking stock.
+- **Observation:** Row 22 offers a clear path East-West.
 - **Session Stats:** Approx 57 shuffle cycles. Repels EMPTY. Restocking.
 
 # Mechanics
