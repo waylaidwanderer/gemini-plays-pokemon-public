@@ -22,3 +22,11 @@ The northern plateau (14, 10) is blocked by rocks. I need TM08 Rock Smash to pro
 
 ## Phone Contacts
 - Tully, Alan, Arnie, Chad, Dana.
+- **Suicune Quest Timeline:**
+  - Started: Turn 49885
+  - Rock Smash Search Start: Turn 49951
+- **Searched Locations:**
+  - Manias House (17,41): No Rock Smash.
+  - Poke Seer's House (5,17): Poke Seer tells Pokemon history. No Rock Smash.
+- **Hypothesis:** Rock Smash is required to clear boulders at (8,16) or (10,27) to access the northern plateau.
+- **Target:** Search the Pharmacy (15,47) and the Photo Studio (9,31).
