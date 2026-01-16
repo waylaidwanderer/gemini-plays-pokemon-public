@@ -6,8 +6,8 @@
     - Status: Max Repel Active.
     - Loop: Wiggle in grass -> Shuffle Ecruteak/Rt 37 -> Repeat.
 - **Status:** Exiting Mart -> Flying to Goldenrod.
-- **Strategy:** Walk Down -> Exit Mart -> Fly to Goldenrod.
-- **Observation:** Gaven's call finished. Resuming exit.
+- **Strategy:** Walk Down (Exit) -> Use Fly (Mistral) -> Goldenrod City.
+- **Observation:** At door. Stepping out.
 - **Session Stats:** Approx 57 shuffle cycles. Repels EMPTY. Restocking.
 
 # Mechanics
