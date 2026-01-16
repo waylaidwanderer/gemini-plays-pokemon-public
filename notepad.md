@@ -1,12 +1,13 @@
 # Strategy: Trigger Suicune Sighting (Started: Turn 51131)
 - Objective: Reach (14, 10) on the northern coast.
-- Execution Plan (Inner Sea Crossing):
-  1. Walk North along Column 12 to the Surf spot at (12, 28).
-  2. Surf North along Column 12 (bypassing buoys) and land at (12, 19).
-  3. Walk North to Row 16, then West to Column 11.
-  4. Walk North through the gap at (11, 15) to Row 14.
-  5. Walk East to Column 13 and North through the gap at (13, 13) to Row 12.
-  6. Walk East to Column 14 and North to (14, 10).
+- Execution Plan (The Southern Bypass):
+  1. Turn South and Surf to (12, 28).
+  2. Walk South to (12, 47).
+  3. Walk West to (6, 47).
+  4. Walk North to (6, 46) to climb the terrace.
+  5. Walk West to the Western Corridor (Column 2).
+  6. Walk North along Column 2 to Row 12.
+  7. Walk East to (14, 12) and North to (14, 10).
 - Battle Prep: Lead Calcifer (Lv64 Typhlosion).
 
 # Tile Mechanics
