@@ -5,9 +5,9 @@
     - Repel Trick: Lead Lv37 > Wilds (Lv ~20) but < Roamers (Lv 40).
     - Status: Max Repel Active.
     - Loop: Wiggle in grass -> Shuffle Ecruteak/Rt 37 -> Repeat.
-- **Status:** Navigating Fly Map (Cherrygrove -> Goldenrod).
-- **Strategy:** Left (Violet) -> Left (Ecruteak) -> Down (Goldenrod).
-- **Observation:** Cursor stuck at Cherrygrove last turn. Moving West then South.
+- **Status:** Navigating Fly Map (New Bark -> Goldenrod).
+- **Strategy:** Press Right x3.
+- **Observation:** 'Left' inputs kept me at New Bark. Trying 'Right' to move West/Next.
 - **Session Stats:** Approx 57 shuffle cycles. Repels EMPTY. Restocking.
 
 # Mechanics
