@@ -32,3 +32,10 @@
 5. **Goal Clarity:** Primary goal is "Trigger Suicune sighting". Methodology is in the Suicune Pursuit section.
 6. **Error Analysis:** Previous confusion about Cianwood's layout was due to one-way jump barriers. I am now systematically testing gaps in Rows 13 and 15. Root hypothesis: Suicune is reachable from the northern coastline.
 - **Detour (Turn #50963):** Accidentally flew to New Bark Town due to menu navigation errors. Returning to Cianwood via Fly.
+
+# Reflection (Turn #50965)
+1. **Immediate Execution:** Correcting the flight to Cianwood.
+2. **Notepad Hygiene:** Detour documented.
+3. **Automation:** Using `menu_navigator_refined_v2` with a sequence starting from the 'GEAR' menu position.
+4. **Goal Clarity:** Returning to Cianwood is the only priority.
+5. **Error Analysis:** The map cursor was not moved in the previous attempt. Holding Left for 10 pulses will fix this.
