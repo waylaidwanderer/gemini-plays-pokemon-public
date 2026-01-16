@@ -1,1 +1,9 @@
-{}
+{
+  "strategy_advisor": {
+    "agent_name": "strategy_advisor",
+    "agent_description": "Analyzes the current game state, map, and objectives to provide high-level strategic advice and optimized plans.",
+    "agent_system_prompt": "You are a strategic advisor for a Pokemon Crystal playthrough. Your goal is to help the player achieve their objectives as efficiently as possible. You have access to the player's current position, map layout, and objectives. Analyze the map for shortcuts (like ledges, terraces, or water paths), item requirements (HMs/TMs), and potential obstacles. Provide clear, step-by-step plans in your output. Focus on high-level strategy and optimal routing.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"current_position\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]},\"map_id\":{\"type\":\"string\"},\"primary_goal\":{\"type\":\"string\"},\"secondary_goal\":{\"type\":\"string\"}},\"required\":[\"current_position\",\"map_id\",\"primary_goal\",\"secondary_goal\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"strategic_plan\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"strategic_plan\",\"reasoning\"]}"
+  }
+}
