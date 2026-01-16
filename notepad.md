@@ -1,12 +1,9 @@
 # Strategic Status
 - **Goal:** Catch Raikou (#243) & Entei (#244).
-- **Immediate Task:** Restock Super Repels at Goldenrod Dept Store.
-- **Status:** Traversing Route 36 (Westbound).
-- **Strategy:** Move West on Row 15 to bypass Alan. Heading to Cut Tree at (16, 16) or similar.
-- **Observation:** Moving West towards the blockage.
-- **Session Stats:** Repels EMPTY. Paused hunting to restock.
-- **Secondary Hunt:** Catch Stantler (Route 37/36 Night) or Growlithe while walking.
-- **Session Stats:** Repels EMPTY. Paused hunting to restock.
+- **Plan:**
+    1. Travel to Goldenrod City via Route 36/35 to restock Super Repels.
+    2. Resume Roamer hunt with Repel Trick.
+- **Secondary Targets:** Catch Stantler (Route 37/36 Night) or Growlithe.
 
 # Locations & Logistics
 - **Ecruteak Mart:** Limited inventory. DOES NOT sell Super Repels.
@@ -19,6 +16,9 @@
 - **Gatehouses:** "Sticky" warps require moving *into* travel direction.
 
 # Tile Mechanics
-- **WARP_CARPET_RIGHT/LEFT:** Walk off map edge.
-- **LEDGE_HOP:** One-way.
-- **TALL_GRASS:** Encounters.
+- **FLOOR:** Standard traversable terrain.
+- **WALL:** Impassable terrain.
+- **TALL_GRASS:** Traversable, triggers wild encounters.
+- **HEADBUTT_TREE:** Impassable obstacle.
+- **WARP_CARPET_DOWN/UP/LEFT/RIGHT:** Transition to adjacent map. Walk *off* the map edge to trigger.
+- **LEDGE_HOP:** One-way traversal (jump down).
