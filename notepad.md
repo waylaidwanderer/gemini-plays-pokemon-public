@@ -3,10 +3,9 @@
 The northern plateau (14, 10) is accessible via a series of one-way "upward" transitions that bypass the ledge system. This is a pure land route requiring a detour to the southern part of the city. Land travel south in Cianwood is blocked at Row 46 (Hypothesis: FLOOR_UP_WALL is one-way North).
 
 ### Execution Plan
-1. Re-entry: Return to Cianwood City via the (0, 45) warp in Route 41. (In Progress)
-2. Path Analysis: Use run_code in Cianwood to find a definitive path to the southern beach, accounting for buoys, ledges, and smashable rocks.
-3. Verification: Test the FLOOR_UP_WALL mechanic by attempting to move South onto (6, 46) from (6, 45).
-4. Southern Approach: Once at the southern beach, follow the terrace sequence to Suicune.
+1. Verification: Test the FLOOR_UP_WALL mechanic by attempting to move South onto (6, 46) from (6, 45). (In Progress)
+2. Surf Detour: Return to Route 41 and Surf to (0, 51), then re-enter Cianwood City at (29, 51).
+3. Southern Approach: Once at the southern beach, follow the terrace sequence to Suicune.
 
 ## Tile Mechanics
 - FLOOR: Land (Traversable).
@@ -16,3 +15,7 @@ The northern plateau (14, 10) is accessible via a series of one-way "upward" tra
 ## Battle Plan: Eusine
 - Expected Team: Drowzee (Lv23), Haunter (Lv23), Electrode (Lv25).
 - Lead: Calcifer (Lv64 Typhlosion). Strategy: Flamethrower sweep.
+
+## Progress Log
+- Turn 50120: Quest Start.
+- Turn 50198: Attempting to move South into (6, 46) to verify one-way mechanic.
