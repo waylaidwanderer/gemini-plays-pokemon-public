@@ -6,8 +6,8 @@
     - Status: Max Repel Active.
     - Loop: Wiggle in grass -> Shuffle Ecruteak/Rt 37 -> Repeat.
 - **Status:** Walking to Goldenrod (Route 37).
-- **Strategy:** Move Left to Col 18, then Down to Exit (18, 35).
-- **Observation:** At (19, 29). Tree below. Must go Left first.
+- **Strategy:** Move Down column 18 to Exit (18, 35).
+- **Observation:** Passed the trees. Clear path South.
 - **Session Stats:** Approx 57 shuffle cycles. Repels EMPTY. Restocking.
 
 # Mechanics
