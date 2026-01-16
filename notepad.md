@@ -22,18 +22,19 @@ Trigger the Suicune sighting at (14, 10) in Cianwood City (Map 22_3).
 - (14, 10): Suicune trigger point.
 ## Strategy: Finding TM08 Rock Smash
 - **Start Turn:** 50283
-- **Status:** Searching for the TM source. Pokefan F was a dead end.
+- **Status:** Searching for the TM source. Pokefan F mentioned her husband (Pokefan M).
 - **Plan:**
   1. Talk to Standing Youngster at (21, 37). (Completed: Talks about Fly)
   2. Check Mania's House at (17, 41). (Completed: Mania asks for his Shuckle back)
   3. Talk to Pokefan F at (11, 46). (Completed: Talks about her husband)
-  4. Re-verify Pokefan M (17, 33) by talking from the south (17, 34). (Next)
-  5. Explore other houses if needed.
+  4. Re-verify Pokefan M (18, 33) by talking from the south (18, 34). (Next)
+  5. Talk to Lass at (14, 40).
+  6. Check Lugia Speech House at (15, 37).
 
 ## Failed Hypotheses
 - **Hypothesis 1:** Pokefan M (17, 33) gives TM08 immediately after beating Chuck.
   - **Attempts:** 2 (Turns 50278, 50281)
-  - **Result:** He only provides a hint. Might need different positioning or trigger.
+  - **Result:** He only provides a hint. Might need different positioning or trigger (wife's dialogue).
 - **Hypothesis 2:** Standing Youngster (21, 37) gives TM08.
   - **Attempts:** 1 (Turn 50286)
   - **Result:** Talks about Fly.
@@ -43,3 +44,6 @@ Trigger the Suicune sighting at (14, 10) in Cianwood City (Map 22_3).
 - **Hypothesis 4:** Pokefan F (9, 46) gives TM08.
   - **Attempts:** 1 (Turn 50300)
   - **Result:** Talks about her husband (Pokefan M) needing to train harder.
+- **Hypothesis 5:** Pokefan M (18, 33) gives TM08 after talking to his wife.
+  - **Attempts:** 0
+  - **Result:** TBD. Trying to talk from the front.
