@@ -20,13 +20,8 @@
 - Navigation: Pressing Up from the first item wraps to the last item.
 
 # Strategy: Trigger Suicune Sighting (Started: Turn 51131)
-- Objective: Reach the northern coast of Cianwood City at (14, 10).
-- Current Strategy: Western Corridor Land Route (Verified Turn 51265).
 - Execution Plan:
-  1. Walk East to (24, 45) to find the gap in the Row 50 ledge.
-  2. Walk South through the gap to Row 51.
-  3. Walk West to (2, 51) to enter the Western Corridor (X=2).
-  4. Walk North to (2, 12) through the clear corridor.
-  5. Walk East to (14, 12) and North to (14, 10) to trigger Suicune sighting.
-- Battle Prep: Lead Calcifer (Lv64 Typhlosion) for Eusine encounter.
-- Note: Vertical walls divide the city; Row 51 is the primary cross-corridor. Row 50 ledge blocks most south movement.
+  1. Use automated pathfinding to reach the northern coast at (14, 10).
+  2. Navigate around the city's vertical wall dividers and horizontal ledges.
+- Battle Prep: Lead Calcifer (Lv64 Typhlosion) in case of a trainer battle.
+- City Logic: Reach the northern coast by bypassing central walls via southern gaps (Row 51) or the western corridor (X=2). Row 15 has a gap at X=11.
