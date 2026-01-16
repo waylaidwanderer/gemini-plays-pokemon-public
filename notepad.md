@@ -1,19 +1,18 @@
 # Suicune Quest: Cianwood City
-## Active Strategy: Northern Sea Exploration
-Previous attempts to reach the northern plateau via land and the southern sea have failed due to one-way ledges and land barriers. Exploring the northern sea boundary to find a path to the Western Corridor (X=0-2).
+## Active Strategy: The Northern Sea Bypass
+The city's internal walls and ledges block direct access to the northern plateau. The only viable path is to surf around the city via the northern sea.
 
-1. Run from current battle at (28, 45).
-2. Surf North along X=28 to Row 0.
-3. Surf West along Row 0 to explore the northern boundary.
-4. Locate a passage to the western side of the island.
-5. Reach the Western Corridor (X=0-2) and walk to the trigger point at (14, 10).
+1. Run from the current battle at (28, 45). (In Progress)
+2. Surf North along X=28/27 to Row 8, passing through the buoy gap at (27, 9).
+3. Surf West along Row 8 to X=14 (Directly above the trigger point).
+4. Move South to land at (14, 10) and trigger the Suicune sighting.
+5. Defeat Eusine (Lead: Calcifer Lv64).
 
 ## Verified Mechanics
-- FLOOR_UP_WALL: Blocks SOUTH movement (Confirmed at Row 46, X=28).
-- Southern Sea: Blocked by land at Row 46.
-- Central City: Blocked by internal walls and one-way ledges.
+- FLOOR_UP_WALL: Blocks SOUTH movement (e.g., Row 46, Row 34).
+- LEDGE_HOP_DOWN: Blocks NORTH movement (e.g., Row 15).
+- Buoy Gap: (27, 9) is a confirmed passage to the northern sea.
 
-## Battle Plan: Eusine
-- Lead: Calcifer (Lv64 Typhlosion).
-- Strategy: Flamethrower for Drowzee/Haunter, Thunderpunch for Electrode.
-- Status: Party healthy. No Repels; run from wild encounters.
+## Progress Tracking
+- Turn 49869: Escaping wild Tentacool.
+- Goal: Reach (14, 10) approach from the North.
