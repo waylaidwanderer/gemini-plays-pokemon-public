@@ -205,9 +205,13 @@
     ]
   },
   "path_analyzer": {
-    "description": "Finds a path using BFS on the current map XML, handling one-way ledges (LEDGE_HOP_DOWN) and slopes (FLOOR_UP_WALL). Returns a JSON array of button strings.",
+    "description": "Finds a path using BFS on the current map XML, handling one-way ledges (LEDGE_HOP_DOWN), slopes (FLOOR_UP_WALL), and water. Returns a JSON array of button strings.",
     "input_schema": {
       "properties": {
+        "allow_water": {
+          "default": false,
+          "type": "boolean"
+        },
         "autopress_buttons": {
           "default": false,
           "type": "boolean"
@@ -238,7 +242,7 @@
       ],
       "type": "object"
     },
-    "python_script": "import json\nimport xml.etree.ElementTree as ET\nfrom collections import deque\nimport sys\n\ndef find_path(xml_str, start_x, start_y, target_x, target_y, ignore_objects=False):\n    try:\n        root = ET.fromstring(xml_str)\n    except Exception:\n        return []\n        \n    grid = {}\n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            tile_type = tile.attrib['type']\n            has_object = tile.attrib.get('has-object') == 'true'\n            # Treat all non-traversable or objects as walls\n            traversable = tile_type in ['FLOOR', 'DOOR', 'LEDGE_HOP_DOWN', 'FLOOR_UP_WALL', 'WARP_CARPET_DOWN']\n            if not ignore_objects and has_object:\n                traversable = False\n            grid[(x, y)] = (traversable, tile_type)\n\n    queue = deque([(start_x, start_y, [])])\n    visited = set([(start_x, start_y)])\n    \n    while queue:\n        cx, cy, path = queue.popleft()\n        if (cx, cy) == (target_x, target_y):\n            return path\n            \n        for dx, dy, move in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n            nx, ny = cx + dx, cy + dy\n            if (nx, ny) in grid:\n                traversable, ttype = grid[(nx, ny)]\n                can_move = False\n                if traversable:\n                    if ttype == 'LEDGE_HOP_DOWN':\n                        if move == 'Down': can_move = True\n                    elif ttype == 'FLOOR_UP_WALL':\n                        if move == 'Up': can_move = True\n                    else:\n                        can_move = True\n                \n                if can_move and (nx, ny) not in visited:\n                    visited.add((nx, ny))\n                    queue.append((nx, ny, path + [move]))\n    return []\n\nraw_input = sys.stdin.read()\nif not raw_input:\n    print(json.dumps([]))\n    sys.exit(0)\n\ntry:\n    input_data = json.loads(raw_input)\n    path = find_path(map_xml_string, int(input_data['start_x']), int(input_data['start_y']), int(input_data['target_x']), int(input_data['target_y']), input_data.get('ignore_objects', False))\n    if path is None:\n        print(json.dumps([]))\n    else:\n        print(json.dumps(path))\nexcept Exception:\n    print(json.dumps([]))\n",
+    "python_script": "import json\nimport xml.etree.ElementTree as ET\nfrom collections import deque\n\ndef find_path(xml_str, start_x, start_y, target_x, target_y, ignore_objects=False, allow_water=False):\n    try:\n        root = ET.fromstring(xml_str)\n    except Exception:\n        return []\n        \n    grid = {}\n    traversable_types = ['FLOOR', 'DOOR', 'LEDGE_HOP_DOWN', 'FLOOR_UP_WALL', 'WARP_CARPET_DOWN']\n    if allow_water:\n        traversable_types.append('WATER')\n        \n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            tile_type = tile.attrib['type']\n            has_object = tile.attrib.get('has-object') == 'true'\n            traversable = tile_type in traversable_types\n            if not ignore_objects and has_object:\n                traversable = False\n            grid[(x, y)] = (traversable, tile_type)\n\n    queue = deque([(start_x, start_y, [])])\n    visited = set([(start_x, start_y)])\n    \n    while queue:\n        cx, cy, path = queue.popleft()\n        if (cx, cy) == (target_x, target_y):\n            return path\n            \n        for dx, dy, move in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n            nx, ny = cx + dx, cy + dy\n            if (nx, ny) in grid:\n                traversable, ttype = grid[(nx, ny)]\n                can_move = False\n                if traversable:\n                    if ttype == 'LEDGE_HOP_DOWN':\n                        if move == 'Down': can_move = True\n                    elif ttype == 'FLOOR_UP_WALL':\n                        if move == 'Up': can_move = True\n                    else:\n                        can_move = True\n                \n                if can_move and (nx, ny) not in visited:\n                    visited.add((nx, ny))\n                    queue.append((nx, ny, path + [move]))\n    return []\n\npath = find_path(map_xml_string, int(input_data['start_x']), int(input_data['start_y']), int(input_data['target_x']), int(input_data['target_y']), input_data.get('ignore_objects', False), input_data.get('allow_water', False))\nprint(json.dumps(path))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -259,6 +263,11 @@
         "commit_message": "Fixed path_analyzer to return an empty array instead of null when no path is found, preventing tool execution errors.",
         "timestamp": "2026-01-16T06:33:16.036Z",
         "action_counter": 50360
+      },
+      {
+        "commit_message": "Added allow_water parameter and fixed input_data handling.",
+        "timestamp": "2026-01-16T06:38:17.802Z",
+        "action_counter": 50368
       }
     ]
   }
