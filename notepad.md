@@ -14,6 +14,6 @@
 
 # Lessons Learned
 - **Menu Navigation:** The "Switch items?" confirmation box is modal; B button does not close it. Use A on NO to exit.
-- **Fly Map:** Starts at New Bark Town. Sequences: 9L+1U (Cherrygrove), 4L+2U (Azalea), 3L+3U (Olivine), >30L+Down? (Cianwood). Always verify text before A.
+- **Fly Map:** Starts at New Bark Town. Sequences: 9L+1U (Cherrygrove), 4L+2U (Azalea), 3L+3U (Olivine), >30L+Down? (Cianwood). Always verify text before A. Cursor wraps East-West.
 - **Coordinates:** Notepad coordinates (e.g., Cianwood 14, 10) refer to the internal map grid, not the Fly Map cursor position.
 - **Suicune Spot:** (14, 10) in Cianwood City. Requires Rock Smash at (4, 19) and (8, 16) to reach.
