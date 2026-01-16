@@ -1,7 +1,7 @@
 # Strategic Status
 - **Goal:** Catch Raikou (#243) & Entei (#244).
 - **Hunt Duration:** ~14,350 turns. Resumed: Turn 41847.
-- **Status:** Navigating Fly Map (New Bark -> Ecruteak). Sticky cursor handling.
+- **Status:** Fly Map: Blackthorn City selected. Moving Left to Ecruteak.
 - **Detour Completed:** Turns 43267 - 43392.
 - **Plan:**
     1. Fly to Ecruteak City.
