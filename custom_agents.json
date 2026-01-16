@@ -5,5 +5,12 @@
     "agent_system_prompt": "You are Gem's senior advisor. You help her prioritize objectives, identify optimal paths through complex areas, and ensure she is prepared for upcoming battles. You have access to her current state, notepad, and map markers. You should favor efficiency and forward progress.",
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"current_goal\":{\"type\":\"string\"},\"notepad_content\":{\"type\":\"string\"},\"map_markers\":{\"type\":\"string\"}},\"required\":[\"current_goal\",\"notepad_content\",\"map_markers\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"strategic_advice\":{\"type\":\"string\"},\"priority_tasks\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}}}"
+  },
+  "strategy_validator": {
+    "agent_name": "strategy_validator",
+    "agent_description": "Analyzes the current strategy against previous failures to prevent 'Indecision Loops'. Recommends a final, committed course of action.",
+    "agent_system_prompt": "You are a strategic analyst for Pokemon Crystal. Your job is to prevent the player from getting stuck in 'Indecision Loops'. When given a map and a history of attempts, you must evaluate the current active strategy against previous failures. If the player is repeating a failed approach or oscillating between two plans without progress, you must forcefully recommend a single, final course of action and provide the logical reasoning why it is the only viable path. You prioritize consistency and completion over minor optimization. You must provide a concrete, step-by-step action plan to reach the goal.",
+    "agent_input_schema": "{\"properties\":{\"active_strategy\":{\"type\":\"string\"},\"map_id\":{\"type\":\"string\"},\"previous_attempts\":{\"items\":{\"type\":\"string\"},\"type\":\"array\"}},\"required\":[\"active_strategy\",\"map_id\",\"previous_attempts\"],\"type\":\"object\"}",
+    "agent_output_schema": "{\"properties\":{\"action_plan\":{\"items\":{\"type\":\"string\"},\"type\":\"array\"},\"recommendation\":{\"type\":\"string\"},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"recommendation\",\"reasoning\",\"action_plan\"],\"type\":\"object\"}"
   }
 }
