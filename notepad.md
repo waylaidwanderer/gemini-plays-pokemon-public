@@ -1,6 +1,6 @@
-# Strategy: The Rock Smash Pivot
-- **Current Plan:** Purchase TM08 at Goldenrod Dept. Store 5F (¥1000) -> Teach to GNEISS (replacing Defense Curl) -> Fly to Cianwood -> Smash boulders at (4, 19) and (8, 16) to reach Suicune at (14, 10).
-- **Verification:** Route 36 Fisher (44, 9) flag is set but item was missing from bag/PC. Purchase is the confirmed fallback.
+# Strategy: The Suicune Pursuit
+- **Immediate Goal:** Fly to Cianwood -> Smash boulders at (4, 19) and (8, 16) -> Reach Suicune at (14, 10).
+- **Execution:** Use ICARUS (Pidgeotto) to Fly to Cianwood City.
 
 # Global Tile Mechanics
 - FLOOR: Traversable.
@@ -16,5 +16,4 @@
 - **Arthur (45, 6):** Only gives Hard Stone on Thursdays.
 - **Menu Navigation:** The "Switch items?" confirmation box is modal; B button does not close it. Use A on NO to exit.
 - **Fly Map:** Cursor snaps to towns. Relative positions: New Bark (East), Cherrygrove (West of New Bark), Violet (North of Cherrygrove), Azalea (South), Goldenrod (West/North of Azalea), Olivine (West), Cianwood (Far West).
-- **Tool Alert:** fly_to_city_v2 was unreliable due to menu logic; deleted. Use manual menu_navigator_refined_v2 for Flying.
 - **Coordinates:** Notepad coordinates (e.g., New Bark 14, 10) refer to the World Map/Town Map grid, not the Fly Map cursor position.
