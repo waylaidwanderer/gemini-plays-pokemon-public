@@ -1,29 +1,30 @@
-# Game Mechanics & Systems
-## Tile Mechanics
-- FLOOR: Traversable.
-- WALL / BUOY: Impassable.
-- WATER: Traversable via Surf.
-- LEDGE_HOP_DOWN: One-way (South).
-- FLOOR_UP_WALL (Terrace): One-way (North).
-- ROCK (Object): Traversable after Rock Smash.
+# Tile Mechanics
+- FLOOR: Standard traversable tile.
+- WALL / BUOY: Impassable collision.
+- WATER: Traversable only while using SURF.
+- LEDGE_HOP_DOWN: One-way passage (South only).
+- FLOOR_UP_WALL: One-way passage (North only). Also known as terraces.
+- ROCK (Object): Impassable until cleared with ROCK SMASH.
 
-## Menu Mechanics
-- Start Menu (Persistent): 1. POKEDEX, 2. POKEMON, 3. PACK, 4. POKEGEAR, 5. PLAYER, 6. SAVE, 7. OPTION, 8. EXIT.
-- Party Menu (Persistent): 1-6. Pokemon, 7. CANCEL.
-- Sub-menus: Pressing Up from item 1 wraps to the bottom.
+# Game Systems
+## Menu Navigation
+- Start Menu: 1. POKEDEX, 2. POKEMON, 3. PACK, 4. POKEGEAR, 5. PLAYER, 6. SAVE, 7. OPTION, 8. EXIT.
+- Party Menu: 1-6. Pokemon, 7. CANCEL.
+- Navigation: Pressing Up from the first item wraps to the last item.
 
 # Strategy: Trigger Suicune Sighting (Started: Turn 51131)
-- Target: Cianwood City northern coast (14, 10).
-- Land Route Plan:
-  1. Surf West and land at (9, 24) FLOOR.
-  2. Walk West to (6, 24).
-  3. Walk North to (6, 21).
-  4. Walk West to (4, 21).
-  5. Walk North through the terrace at (4, 20) to (4, 19).
-  6. Walk North and East through the path at Y=12-13 to reach (14, 10).
-- Battle Prep: Lead Calcifer (Lv64 Typhlosion) for Eusine.
+- Objective: Reach the northern coast of Cianwood City at (14, 10).
+- Current Strategy: Land Route (Pivoted Turn 51180).
+- Execution Plan:
+  1. Walk West/North to reach the terrace system on the west side of town.
+  2. Navigate to (4, 21).
+  3. Use the terrace at (4, 20) to climb North to (4, 19).
+  4. Continue North through the path at Y=12-13.
+  5. Move East to reach the sighting spot at (14, 10).
+- Battle Prep: Lead Calcifer (Lv64 Typhlosion) in case of an encounter with Eusine.
 
-# Progress Tracking
+# Discoveries & Progress
 - Smashed Rocks: (5, 29), (4, 25), (8, 16), (9, 17).
 - Defeated Swimmer Mathew (17, 46).
-- Landed in Cianwood: Turn 51131.
+- Sighted Suicune: Not yet reached the northern spot.
+- Landed back in Cianwood: Turn 51181.
