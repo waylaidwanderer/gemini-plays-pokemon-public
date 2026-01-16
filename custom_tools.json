@@ -141,15 +141,28 @@
     "description": "Exits Ecruteak City (South) and walks down into the Route 37 grass. Assumes player is at Ecruteak entrance (18, 35).",
     "input_schema": {
       "type": "object",
-      "properties": {},
-      "required": []
+      "properties": {
+        "autopress_buttons": {
+          "type": "boolean",
+          "description": "If true and the tool returns a list of buttons, they will be pressed automatically. Safety limit of 50 buttons per turn.",
+          "default": false
+        }
+      },
+      "required": [
+        "autopress_buttons"
+      ]
     },
-    "python_script": "import json\n\n# 1. Exit Ecruteak (Down)\n# 2. Walk into grass (Down, Down)\n# Note: The first Down triggers the warp. The subsequent Downs happen on Route 37.\nbuttons = [\"Down\", \"sleep 2000\", \"Down\", \"Down\"]\n\nprint(json.dumps(buttons))",
+    "python_script": "import json\nprint(json.dumps([\"Down\"]))",
     "history": [
       {
         "commit_message": "New tool to handle the return trip from Ecruteak City entrance back to the hunting grounds on Route 37.",
         "timestamp": "2026-01-16T02:25:36.956Z",
         "action_counter": 41535
+      },
+      {
+        "commit_message": "Fixed missing commit message error. Tool exits Ecruteak City (South) to Route 37.",
+        "timestamp": "2026-01-16T10:02:53.643Z",
+        "action_counter": 42261
       }
     ]
   },
