@@ -98,5 +98,33 @@
         "action_counter": 41436
       }
     ]
+  },
+  "smart_shuffle_route37": {
+    "description": "Automates the process of walking from Route 37 grass to Ecruteak City and immediately returning, effectively shuffling the Roaming Beasts' positions. Ends back in the grass at (8,2).",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "current_x": {
+          "type": "integer",
+          "description": "Current X coordinate on Route 37"
+        },
+        "current_y": {
+          "type": "integer",
+          "description": "Current Y coordinate on Route 37"
+        }
+      },
+      "required": [
+        "current_x",
+        "current_y"
+      ]
+    },
+    "python_script": "import json\n\ncurrent_x = int(input_data['current_x'])\ncurrent_y = int(input_data['current_y'])\n\nbuttons = []\n\n# 1. Navigate to the gate column (x=8)\nif current_x < 8:\n    buttons.extend([\"Right\"] * (8 - current_x))\nelif current_x > 8:\n    buttons.extend([\"Left\"] * (current_x - 8))\n\n# 2. Navigate to the gate row (y=0)\nif current_y > 0:\n    buttons.extend([\"Up\"] * current_y)\n\n# 3. Step Up to Enter Ecruteak\nbuttons.append(\"Up\")\nbuttons.append(\"sleep 2500\") # Wait for Warp\n\n# 4. Step Down to Exit Ecruteak (Return to Route 37)\nbuttons.append(\"Down\")\nbuttons.append(\"sleep 2500\") # Wait for Warp\n\n# 5. Return to Grass (8, 2)\nbuttons.extend([\"Down\", \"Down\"])\n\nprint(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-16T02:12:19.311Z",
+        "action_counter": 41517
+      }
+    ]
   }
 }
