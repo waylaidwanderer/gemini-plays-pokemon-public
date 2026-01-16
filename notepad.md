@@ -15,10 +15,12 @@
 # Strategy: Trigger Suicune Sighting (Started: Turn 51131)
 - Target: Cianwood City northern coast (14, 10).
 - Revised Plan:
-  1. Land at (15, 28) FLOOR.
-  2. Walk to (23, 32) FLOOR.
-  3. Surf at (23, 32) to enter the outer sea channel at (24, 32).
-  4. Surf North to (24, 10) and move West to (14, 10).
+  1. Surf to (15, 27) to bypass the buoy at (17, 25).
+  2. Surf to (24, 27) to enter the outer sea.
+  3. Surf North to (24, 8) to bypass the buoy line at X=22.
+  4. Surf West to (14, 8) and then South to (14, 16).
+  5. Land at (14, 15) by moving Up from (14, 16).
+  6. Walk North to (14, 10).
 - Battle Prep: Lead Calcifer (Lv64 Typhlosion) for Eusine.
 
 # Progress Tracking
