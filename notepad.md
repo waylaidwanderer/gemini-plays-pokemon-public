@@ -2,12 +2,13 @@
 - **Time Check:** Attempting sighting since Turn #50620.
 - **Objective:** Trigger Suicune sighting at (14, 10) in northern Cianwood.
 - **Eusine Battle Prep:** Lead with Lv64 Calcifer. Sweep with Flamethrower/Thunderpunch.
-- **Current Plan (The Northern Bay Bypass):**
-  1. Currently at Route 41 (0, 45). Surf North to (0, 6).
-  2. Move Left to transition back to Cianwood at (29, 6).
-  3. Surf West to (17, 6) then South to (17, 10).
-  4. Land West at (16, 10) and walk to (14, 10) for the sighting.
-- **Verification:** Route 41 western edge (X=0-3) and Cianwood Northern Bay (Row 6) confirmed clear of buoys.
+- **Current Plan (The Southern Surf Loop):**
+  1. Currently at (29, 6) on WATER.
+  2. Surf South to (29, 51).
+  3. Walk West on Row 51 to (2, 51).
+  4. Walk North via X=2 corridor to (2, 10).
+  5. Walk East to (14, 10) for the sighting.
+- **Verification:** Row 51 is a clear horizontal corridor. X=2 corridor is clear of all one-way barriers.
 
 # Tile Mechanics (Global)
 - FLOOR: Standard traversable terrain.
@@ -18,6 +19,6 @@
 - ROCK (Object): Blocks movement; cleared with Rock Smash.
 
 # Area Notes: Cianwood City
-- **Shortcut Tiles:** (5, 29), (4, 25), (8, 16), (9, 17) (Smashed Rocks).
 - **Dead Ends:** (11, 15) is a pocket blocked by WALL at (11, 13) and (12, 14).
+- **Shortcut Tiles:** (5, 29), (4, 25), (8, 16), (9, 17) (Smashed Rocks).
 - **Partition wall:** (29, 49) is a dead end from the North.
