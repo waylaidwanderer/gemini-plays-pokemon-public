@@ -1,15 +1,16 @@
 # Suicune Quest: Cianwood City
 ## Verified Strategy: The Terrace Climb
-The northern plateau (14, 10) is accessible via a series of one-way "upward" transitions that bypass the ledge system. This is a pure land route requiring a detour to the southern part of the city.
+The northern plateau (14, 10) is accessible via a series of one-way "upward" transitions that bypass the ledge system. This is a pure land route requiring a detour to the southern part of the city. Land travel south is blocked at Row 46, so a Surf detour is required.
 
 ### Execution Plan
-1. Southern Detour: Navigate to (6, 47) via Row 50 or other clear paths. (In Progress)
-2. First Climb: Move North from (6, 47) through (6, 46) [UP_WALL] to reach Row 45.
-3. Second Climb: Move North from (6, 35) through (6, 34) [UP_WALL] to reach Row 33.
-4. Third Climb: Move West to (4, 31) and North through (4, 30) [UP_WALL] to reach Row 29.
-5. Fourth Climb: Move North from (4, 21) through (4, 20) [UP_WALL] to reach Row 19.
-6. Plateau Entry: Walk to (4, 14), then East to (8, 14), then North to (8, 12).
-7. Final Approach: Walk East along Row 12 to (14, 12) and North to Suicune at (14, 10).
+1. Surf Detour: Surf south from (24, 33) and land on the beach at (23, 51). (In Progress)
+2. Southern Approach: Walk West to (6, 51) and North to (6, 47).
+3. First Climb: Move North from (6, 47) through (6, 46) [UP_WALL] to reach Row 45.
+4. Second Climb: Move North from (6, 35) through (6, 34) [UP_WALL] to reach Row 33.
+5. Third Climb: Move West to (4, 31) and North through (4, 30) [UP_WALL] to reach Row 29.
+6. Fourth Climb: Move North from (4, 21) through (4, 20) [UP_WALL] to reach Row 19.
+7. Plateau Entry: Walk to (4, 14), then East to (8, 14), then North to (8, 12).
+8. Final Approach: Walk East along Row 12 to (14, 12) and North to Suicune at (14, 10).
 
 ## Tile Mechanics
 - FLOOR: Land (Traversable).
