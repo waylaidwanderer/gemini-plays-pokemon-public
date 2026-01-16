@@ -7,13 +7,16 @@
 - Start Turn: 49771
 - Start Time: 3:29 PM
 
-## Strategy: The True Sea Route (Final)
-The plateau (X=13-16, Row 10-14) is accessible by landing on its eastern edge (X=16) from the water.
-1. Clear Surf text and Surf to (23, 15). (In Progress)
-2. Surf North to Row 14, then West to (18, 14).
-3. Surf North to Row 10.
-4. Surf West and land at (16, 10).
-5. Walk West to (14, 10) to trigger Suicune sighting.
+## Strategy: The Row 34 Western Bypass (via Row 44 Gap)
+The Western Corridor (X=0-2) is the only land path to the plateau. Row 34 allows entry to the corridor, but its ledges must be approached from the south.
+1. Walk West along Row 32 to (12, 32). (In Progress)
+2. Walk South along X=12 corridor to (12, 44).
+3. Walk West through the gap at (9, 44) to (8, 44).
+4. Walk North along X=8 to (8, 35).
+5. Walk North to (8, 34) (Jumping the FLOOR_UP_WALL ledge).
+6. Walk West along Row 34 to (2, 34).
+7. Walk North through the Western Corridor to (2, 10).
+8. Walk East along Row 10 to (14, 10) to trigger Suicune.
 
 # Battle Preparation: Eusine
 - Expected Roster: Drowzee (Lv23), Haunter (Lv23), Electrode (Lv25).
