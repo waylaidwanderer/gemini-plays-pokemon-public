@@ -33,5 +33,5 @@
 - **4F (13,5):** Gifts (Poke Doll, Lovely/Surf Mail). NO Repels.
 - **5F Left (7,5):** Vitamins (HP Up, Protein, Iron, Carbos). NO Repels.
 - **5F Right (8,5):** Battle Enhancers (X Attack/Defend/Speed/Special, Dire Hit, Guard Spec). NO Repels.
-- **6F:** Vending Machine (Unverified).
+- **6F:** Vending Machines (Soda/Water/Lemonade). NO Repels.
 - **Logistics:** No Fly inside.
