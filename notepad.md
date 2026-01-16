@@ -5,9 +5,9 @@
     - Repel Trick: Lead Lv37 > Wilds (Lv ~20) but < Roamers (Lv 40).
     - Status: Max Repel Active.
     - Loop: Wiggle in grass -> Shuffle Ecruteak/Rt 37 -> Repeat.
-- **Status:** Opening Menu to Fly.
-- **Strategy:** Party -> Mistral -> Fly -> Goldenrod.
-- **Observation:** Just exited Ecruteak Mart. Heading to Goldenrod Dept Store.
+- **Status:** In Menu (Selecting Pokemon).
+- **Strategy:** Up (Select Pokemon) -> A -> Select Pidgey (Slot 6) -> Fly -> Goldenrod.
+- **Observation:** Menu cursor on PACK. Moving to POKéMON.
 - **Session Stats:** Approx 57 shuffle cycles. Repels EMPTY. Restocking.
 
 # Mechanics
