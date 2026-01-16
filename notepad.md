@@ -23,5 +23,5 @@
 - **Dead Ends:** (11, 15) is a pocket blocked by a ledge.
 
 # Lessons Learned
-- **Time Check:** Attempting sighting since Turn #50620. Loop initiated at Turn #50840.
+- **Time Check:** Attempting sighting since Turn #50620.
 - **Verification:** X=2 corridor confirmed clear of Terrace Climbs in Mental Map.
