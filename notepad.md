@@ -31,7 +31,7 @@
 - **2F Right (14,5):** Balls (Poke/Great/Ultra), Escape Rope, Full Heal, Status Heals. NO Repels found.
 - **3F (7,1):** TMs (10, 11, 17, 18, 37). NO Repels.
 - **4F (13,5):** Gifts (Poke Doll, Lovely/Surf Mail). NO Repels.
-- **5F Left (7,5):** Checking...
+- **5F Left (7,5):** Vitamins (HP Up, Protein, Iron, Carbos). NO Repels.
 - **5F Right (8,5):** Battle Enhancers (X Attack/Defend/Speed/Special, Dire Hit, Guard Spec). NO Repels.
 - **6F:** Vending Machine (Unverified).
 - **Logistics:** No Fly inside.
