@@ -1,11 +1,12 @@
 # Suicune Quest: Cianwood City
 ## Strategy: The Great Western Loop
-The northern plateau (14, 10) is accessible via the western coastal corridor (X=2). This requires a long loop through the southern terrace gaps to bypass the central walls and elevation traps.
+The northern plateau (14, 10) is accessible via the western coastal highway (X=2). This requires a long loop through the southern clearway at Row 51 to bypass the central walls and elevation traps.
 
 ### Execution Plan
-1. Western Highway Access: Navigate to Row 51 via the gap at X=12, Row 48.
-2. Coastal Ascent: Walk north along X=2 to Row 12.
-3. Trigger sighting: Walk east to (14, 10).
+1. Eastern Bypass: Navigate to (21, 51) via Row 44. (In Progress)
+2. Southern Clearway: Walk west along Row 51 to (2, 51).
+3. Coastal Ascent: Walk north along X=2 to Row 12.
+4. Final Approach: Walk east to (14, 12) and north to (14, 10).
 
 ## Global Tile Mechanics
 - FLOOR: Land (Traversable).
@@ -18,3 +19,6 @@ The northern plateau (14, 10) is accessible via the western coastal corridor (X=
 - Roster: Drowzee (Lv23), Haunter (Lv23), Electrode (Lv25).
 - Strategy: Calcifer (Lv64 Typhlosion) Flamethrower sweep. Overleveled status ensures OHKOs.
 - Backup: Gorp (Lv50 Snorlax) Body Slam.
+
+## Tool Mechanics
+- find_path_v9.9.1: Multi-modal BFS with one-way awareness, safety truncation, and unexplored area traversal.
