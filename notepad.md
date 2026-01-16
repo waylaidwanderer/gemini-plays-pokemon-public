@@ -6,8 +6,8 @@
     - Status: Max Repel Active.
     - Loop: Wiggle in grass -> Shuffle Ecruteak/Rt 37 -> Repeat.
 - **Status:** Leaving Ecruteak Mart.
-- **Strategy:** Fly to Goldenrod -> Dept Store -> Buy Super Repels.
-- **Observation:** Ecruteak Mart does NOT sell Repels. My mistake.
+- **Strategy:** Exit Menu (Down->Down->A) -> Exit Mart -> Fly to Goldenrod.
+- **Observation:** Ecruteak Mart selection is poor. Goldenrod Dept Store has everything.
 - **Session Stats:** Approx 57 shuffle cycles. Repels EMPTY. Restocking.
 
 # Mechanics
