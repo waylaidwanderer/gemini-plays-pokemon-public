@@ -1,12 +1,12 @@
-# Cianwood City Progression
-## Strategy: Trigger Suicune Sighting at (14, 10)
-- **Start Turn:** 50283
-- **Status:** Confirmed Rock Smash-free land route found via far-west bypass.
-- **Route:** (11, 14) -> (10, 15) [Ledge] -> (10, 21) -> (4, 21) -> (4, 20) [Slope] -> (2, 20) -> (2, 14) -> (8, 14) -> (8, 10) -> (14, 10).
-- **Plan:**
-  1. Verify if land route to (14, 10) is possible without Rock Smash.
-  2. If blocked, obtain TM08 Rock Smash from Pokefan M (Main map, ID 2) or Route 36 NPC.
-  3. Navigate to (14, 10) and trigger sighting.
+# Johto Progression: The Rock Smash Quest
+## Primary Goal: Obtain TM08 Rock Smash
+- **Status:** In Progress. Rock Smash is required to reach the Suicune trigger in Cianwood.
+- **Strategy:** Fly to Violet City and navigate west to Route 36. Obtain TM08 from the NPC near where Sudowoodo was located.
+
+## Secondary Goal: Trigger Suicune Sighting in Cianwood City
+- **Location:** (14, 10) in Cianwood City.
+- **Status:** Blocked by boulders. Requires Rock Smash.
+- **Plan:** After obtaining TM08, return to Cianwood and clear the path.
 
 ## Global Tile Mechanics
 - FLOOR: Traversable.
@@ -17,12 +17,7 @@
 - FLOOR_UP_WALL: One-way North climb.
 - SMASHABLE_ROCK (Object): Impassable. Requires Rock Smash.
 
-## General Lessons
-- **NPC Interaction:** Intercepting moving NPCs is more reliable than chasing them. Position in their walking path and wait.
-
 ## Failed Hypotheses
-- Eastern Water Route: Blocked by Row 15 wall/buoy line in Section 1.
-- Pokefan M (Initial talk): Hint only.
-- Mania (2, 4): Dead end.
-- Lass (14, 44): Dead end.
-- Pharmacy (15, 47): Dead end.
+- Eastern Water Route: Blocked by Row 15 wall/buoy line.
+- Cianwood NPCs: None provided TM08 immediately (Hints only or unrelated info).
+- Western Land Bypass: Blocked by rocks at (4, 19). Rock Smash is a hard requirement.
