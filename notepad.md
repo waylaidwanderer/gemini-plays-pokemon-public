@@ -1,7 +1,7 @@
 # Strategic Status
 - **Goal:** Catch Raikou (#243) & Entei (#244).
 - **Hunt Duration:** ~14,350 turns. Resumed: Turn 41847.
-- **Status:** Entering Celadon City to buy Repels.
+- **Status:** Walking to Celadon Dept Store.
 - **Plan:**
     1. **Supply Run:**
        a. Fly to Goldenrod City.
