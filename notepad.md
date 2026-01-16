@@ -1,14 +1,15 @@
 # Suicune Quest: Cianwood City
-## Active Strategy: Trigger Suicune
-I have landed at (13, 16) and am currently at (13, 18).
-1. Walk West to X=8 to clear the wall at X=9.
-2. Walk North to Row 11 (the first horizontal gap in the X=12 wall).
-3. Walk East to X=14.
-4. Walk North to trigger Suicune at (14, 10).
+## Active Strategy: The Cut Bypass
+The northern plateau (14, 10) is accessible by clearing a cuttable tree at (11, 13).
+1. Navigate to (11, 14). (In Progress)
+2. Face North and use CUT (KIMCHI).
+3. Walk North to Row 12.
+4. Walk East to (14, 12).
+5. Walk North to trigger Suicune at (14, 10).
 
 ## Global Tile Mechanics
 - FLOOR: Traversable.
-- WALL, BUOY: Impassable.
+- WALL, BUOY: Impassable. Note: Some WALL tiles are cuttable trees (e.g., 11, 13).
 - WATER: Requires Surf.
 - DOOR: Warp. BFS tools treat as walls unless targeting the warp.
 - LEDGE_HOP_DOWN: One-way South. Blocks North movement. (e.g. 10, 15)
@@ -24,3 +25,9 @@ I have landed at (13, 16) and am currently at (13, 18).
 - Lead: Calcifer (Lv64 Typhlosion).
 - Strategy: Flamethrower sweep.
 - Status: Fully healed.
+
+## Failed Hypotheses
+- Hypothesis: Reach plateau via Western Corridor (X=2). Result: Blocked by wall at (3, 18).
+- Hypothesis: Reach plateau via Surf from Row 16. Result: Blocked by wall at (14, 15).
+- Hypothesis: Reach plateau via Eastern land bridge. Result: Blocked by wall at X=12.
+Conclusion: The tree at (11, 13) is the only confirmed entrance.
