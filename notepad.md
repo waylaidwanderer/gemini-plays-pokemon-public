@@ -1,14 +1,11 @@
 # Strategy: Trigger Suicune Sighting (Started: Turn 51131)
 - Objective: Reach (14, 10) on the northern coast.
-- Plan: The Western Corridor Route (via Row 51 Bypass).
+- Plan: The Direct City Path.
 - Steps:
-  1. Warp to Route 41 at (29, 44).
-  2. Surf South to Row 51.
-  3. Re-enter Cianwood City at (29, 51).
-  4. Walk West along Row 51 to Column 2 (Western Corridor).
-  5. Walk North along Column 2 to Row 12.
-  6. Walk East along Row 12 to (14, 12).
-  7. Walk North to (14, 10) to trigger Suicune.
+  1. Warp to Cianwood City at (29, 32) from Route 41 (0, 32).
+  2. Navigate through the city center to the land gap at (11, 15).
+  3. Follow the northern shoreline path: (11, 15) -> (13, 13) -> (14, 12) -> (14, 10).
+  4. Trigger Suicune sighting and battle Eusine.
 - Battle Prep: Lead Calcifer (Lv64 Typhlosion).
 
 # Tile Mechanics
