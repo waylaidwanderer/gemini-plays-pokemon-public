@@ -3,7 +3,7 @@
 The northern plateau (14, 10) is accessible via the western coastal highway (X=2). This requires a long loop through the southern clearway at Row 51 to bypass the central walls and elevation traps.
 
 ### Execution Plan
-1. Southern Descent: Navigate to (4, 51) via Row 44. (In Progress)
+1. Southern Descent: Navigate to (7, 51) via the gap at X=7, Row 48. (In Progress)
 2. Western Crossing: Walk west along Row 51 to (2, 51).
 3. Coastal Ascent: Walk north along X=2 to Row 12.
 4. Final Approach: Walk east to (14, 12) and north to (14, 10).
