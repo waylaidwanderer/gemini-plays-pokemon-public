@@ -1,9 +1,9 @@
 # Strategic Status
 - **Goal:** Catch Raikou (#243) & Entei (#244).
 - **Hunt Duration:** ~14,350 turns. Resumed: Turn 41847.
-- **Status:** Fly Map: Ecruteak City selected.
-- **Action:** Confirming Fly destination (Press A).
-- **Next:** Arrive Ecruteak & Resume Hunt.
+- **Status:** Arrived Ecruteak (Fly).
+- **Action:** Walking to Route 37 (South Exit).
+- **Next:** Use Super Repel & Begin Hunt Loop.
 - **Secondary Targets:** Catch Stantler (Route 37/36 Night) or Growlithe.
 
 # PC Storage Check
