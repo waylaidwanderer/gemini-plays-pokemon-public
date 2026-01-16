@@ -46,6 +46,7 @@
 
 # Fly Map Observation
 - When the map opens, a "Where? [Current City]" prompt appears.
-- Pressing A immediately confirms the current city.
-- To change destination, move the cursor with directional buttons BEFORE pressing A.
-- Attempt 26: Move to (14, 6) to reset overworld state, then try again with manual cursor movement.
+- This is a UI element, NOT a blocking text box.
+- Directional buttons move the cursor immediately.
+- Pressing A confirms the city currently under the cursor.
+- Attempt 26: Moving cursor Left to reach western cities.
