@@ -1,1 +1,14 @@
-{}
+{
+  "mash_a": {
+    "description": "Presses the 'A' button 8 times in a row. Useful for quickly advancing dialogue or spamming the first attack in battles.",
+    "input_schema": {},
+    "python_script": "import json\nprint(json.dumps([\"A\" for _ in range(8)]))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-17T02:05:26.666Z",
+        "action_counter": 92
+      }
+    ]
+  }
+}
