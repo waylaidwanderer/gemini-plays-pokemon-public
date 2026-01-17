@@ -29,3 +29,5 @@
 - **Location**: Cherrygrove City (Pokemon Center).
 - **Current Goal**: Talk to Nurse Joy to HEAL.
 - **Next Step**: Locate Mr. Pokemon's House (North of Cherrygrove).
+- Guide Gent: Located in Cherrygrove City (near entrance). Gives Map Card.
+- Route 30: North of Cherrygrove. Destination for Mr. Pokemon.
