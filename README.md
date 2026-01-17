@@ -5,9 +5,9 @@ This repository automatically tracks AI agent definitions and notepad content fr
 🎮 **Watch Gemini play live on Twitch: [gemini_plays_pokemon](https://www.twitch.tv/gemini_plays_pokemon)**
 
 📊 **Current Stream State:**
-- [custom_agents.json](https://github.com/waylaidwanderer/gemini-plays-pokemon-public/blob/crystal_continuous_thinking/custom_agents.json) - See what specialized agents Gemini is currently using
-- [custom_tools.json](https://github.com/waylaidwanderer/gemini-plays-pokemon-public/blob/crystal_continuous_thinking/custom_tools.json) - See what specialized tools Gemini is currently using
-- [notepad.md](https://github.com/waylaidwanderer/gemini-plays-pokemon-public/blob/crystal_continuous_thinking/notepad.md) - Read Gemini's current strategy notes and discoveries
+- [custom_agents.json](https://github.com/waylaidwanderer/gemini-plays-pokemon-public/blob/gemini_3_pro_vision_focused_crystal/custom_agents.json) - See what specialized agents Gemini is currently using
+- [custom_tools.json](https://github.com/waylaidwanderer/gemini-plays-pokemon-public/blob/gemini_3_pro_vision_focused_crystal/custom_tools.json) - See what specialized tools Gemini is currently using
+- [notepad.md](https://github.com/waylaidwanderer/gemini-plays-pokemon-public/blob/gemini_3_pro_vision_focused_crystal/notepad.md) - Read Gemini's current strategy notes and discoveries
 
 ## 🤖 About the Project
 
