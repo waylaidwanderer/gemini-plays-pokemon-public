@@ -45,6 +45,6 @@
     1. From New Bark (Row 8), jump Ledges South to Lower Path (Row 14).
     2. Go West on Lower Path to gap at (31, 13).
     3. Go **NORTH** through gap at x=31 to Middle Path (Row 11).
-    4. **Critical Check**: Verify if North path at (31, 9) is passable (TYPE_80fc).
-       - If YES: Continue North to High Path (Row 6) -> Cherrygrove.
-       - If NO: Head **EAST** on Middle Path (Row 11) to New Bark Town, then take High Path.
+    4. **Verified**: North path at (31, 9) is BLOCKED.
+    5. **Solution**: Head **EAST** on Middle Path (Row 11), jump the ledge at x=43 (One-Way East), and return to New Bark Town.
+    6. From New Bark Town, take the High Path (Row 6) West to Cherrygrove.
