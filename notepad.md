@@ -36,3 +36,5 @@
 - Blocked East at x=40 on Row 16 by Ledge wall. Heading West.
 - Hypothesis: The 'High Road' (North side) to Cherrygrove starts near New Bark Town.
 - Plan: Reset to New Bark Town, then hug the North wall to find the upper path entrance.
+- Tested New Bark Town Exits: (0, 12) and (0, 13) are blocked (Invisible Wall).
+- Retrying Upper Exit at (0, 8) / (0, 9).
