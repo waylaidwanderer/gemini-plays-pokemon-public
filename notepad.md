@@ -37,4 +37,8 @@
 - Items Acquired: Mystery Egg, Pokedex.
 - Status: Healed by Oak.
 - Current Objective: Return to Professor Elm in New Bark Town.
-- Warning: The northern path (Row 8) on Route 29 is blocked at x=43. The middle path (Row 11) is blocked by a Cut Tree at x=21. To reach Cherrygrove, stay on the Southern Path (Row 14) which bypasses both obstacles.
+- Warning: Route 29 Navigation Complexity.
+  - High Path (Row 8): Blocked at x=43 by One-Way Ledge.
+  - Middle Path (Row 11): Blocked at x=21 by Cut Tree.
+  - Lower Path (Row 14): Appears blocked at x=13 by Trees/Ledge. Verifying this now.
+  - Potential Solution: Backtrack to New Bark Town and check for a Northernmost path (Row 6?) or re-examine the High Path blockage.
