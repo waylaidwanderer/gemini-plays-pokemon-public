@@ -49,6 +49,6 @@
       - Option B: Lower Path (Row 14-16) - Verified Dead End at x=13.
       - Option C: Hidden path near the Gatehouse (if it exists).
   - **Plan**: Return to New Bark Town. Walk West on the High Road but hug the NORTH edge (Row 6/5) to see if I can bypass the x=43 barrier.
-- **Plan Update**: The Lower Path (Rows 14-17) is a dead end at x=13.
-  - **Action**: Backtrack East to New Bark Town.
-  - **Target**: High Road (Row 4-6) hugging the North wall to bypass x=43 barrier.
+- **Plan Update**: Confirmed dead end at x=13 (blocked by trees and ledges).
+  - **Action**: Backtrack East to New Bark Town immediately.
+  - **Target**: High Road (Row 4-6) hugging the North wall.
