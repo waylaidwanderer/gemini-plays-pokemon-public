@@ -24,3 +24,5 @@
 - Vertical Ledge at x=28 (Map 24_3) is a one-way jump West (from x=28 to x=27).
 - Continuous Ledge Row at y=9 seems to separate an upper path (y=8) from the lower path.
 - TYPE_5519: Cut Tree (Impassable without Cut)
+- x=28 (Rows 10-12) is a solid tree wall.
+- Trapped in pocket at x=27. Must go South to escape.
