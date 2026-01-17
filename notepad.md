@@ -41,9 +41,8 @@
   - High Path (Row 6/8): Access via New Bark Town. Blocked at x=43 by One-Way Ledge if coming from West, but should be passable heading West?
   - Middle Path (Row 11): Blocked West at x=21 by Cut Tree. Blocked East by Ledge at x=43?
   - Lower Path (Row 13/14): Dead End East at x=54. Dead End West at x=13.
-  - **Escape Route**:
-    1. Go West on Lower Path to gap at (31, 13).
-    2. Go North through gap to Middle Path (Row 11).
-    3. Go **EAST** on Middle Path (cannot go West due to Cut Tree).
-    4. Re-enter New Bark Town outskirts to access High Path (Row 6).
-    5. Go West on High Path to Cherrygrove.
+  - **Cherrygrove Access Route**:
+    1. From New Bark (Row 8), jump Ledges South to Lower Path (Row 14).
+    2. Go West on Lower Path to gap at (31, 13).
+    3. Go **NORTH** through gap at x=31, all the way to High Path (Row 6).
+    4. Go West on High Path to Cherrygrove (bypassing the Cut Tree and Ledge barriers).
