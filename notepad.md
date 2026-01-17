@@ -31,3 +31,5 @@
   - TYPE_c453: Vertical Ledge (One-way Jump East)
 - TYPE_a339: Vertical Ledge (Jumpable West)
 - TYPE_a336: Small Tree/Bush (Check Passability)
+### Party
+- Garnet (CYNDAQUIL): Lv8 (15/25 HP, EXP: 319) | TACKLE: 1, LEER: 30, SMOKESCREEN: 20
