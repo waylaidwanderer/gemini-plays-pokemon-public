@@ -8,15 +8,16 @@
 - **Status**: Party HP Critical. Avoid battles.
 
 ### Route 29 Navigation
-- **Top Lane (Rows 4-9)**: Investigating. Likely the correct path West.
-- **Middle Lane (Rows 10-12)**: Blocked by Cut Tree at (21, 11).
-- **Bottom Lane (Rows 14-17)**: Confirmed Dead End at x=13.
+- **Top Lane (Rows 4-9)**: Blocked by TYPE_80fc wall at x=46 (Row 7) and x=48 (Row 6). Ledge barrier at x=43 blocks West movement on Row 8-12.
+- **Middle Lane (Rows 10-12)**: Blocked West by Ledge barrier at x=43.
+- **Bottom Lane (Rows 14-17)**: Path West available. Identified gap North at x=31.
 - **Gatehouse (Route 46)**: Located North of current position, accessible via Upper Lane.
 
 - **Current Plan**: 
-  1. Head West to x=52.
-  2. Head North to Row 6 (Top Lane).
-  3. Force path West on Row 6 to Cherrygrove (Correction: Path is likely open).
+  1. Jump South over ledges at x=46 to reach Bottom Lane.
+  2. Travel West in Bottom Lane to x=31.
+  3. Go North through gap at x=31.
+  4. Continue West to Cherrygrove.
 
 ### Tile Mechanics
 - **TYPE_c453**: One-Way Ledge.
