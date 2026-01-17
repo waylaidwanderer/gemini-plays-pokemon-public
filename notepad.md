@@ -39,3 +39,4 @@
 
 - Route 30: Path blocked by ledge at y=48. Opening found at x=12.
 - Route 30 Sign: Connects Violet City (North) and Cherrygrove City (South).
+- Berry Tree at (5, 39): Looted. Regenerates daily.
