@@ -32,3 +32,5 @@
 - Path West seems to be at Row 8.
 - Pocket at x=50, y=11 (East of Vertical Ledge).
 - Only exit is South via Ledge at (50, 12).
+- TYPE_fed7: Ledge (Jumpable Down/Impassable Up/Side).
+- Blocked East at x=40 on Row 16 by Ledge wall. Heading West.
