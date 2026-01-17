@@ -18,10 +18,14 @@
 - Hoothoot (Lv 2)
 ### Route 29 Navigation Notes
 - **North Lane (Rows 8-12)**: Blocked Westbound by vertical ledges at x=43. This is the return loop.
-- **South Lane (Row 14-17)**: Dead End at x=13 (Tree Wall).
-  - Blocked North by Small Trees (y=13).
-  - NPC at (14, 11) is on the inaccessible Upper Lane.
-- **Strategy**: Backtrack East to find access to Rows 4-7 (North of the main path).
+- **South Lane (Row 14-17)**: CONFIRMED DEAD END at x=13.
+  - West: Tree Wall.
+  - North: Blocked by Bushes.
+  - South: Trees.
+- **Strategy**: The path to Cherrygrove MUST be on the Northern Plateau (Rows 4-7).
+  - Search for access to Rows 4-7.
+  - Check the "Middle Lane" (Row 11) via the gap at x=31 for paths North.
+  - If fails, return to New Bark Town and check NW corner again.
 - **Key Locations**:
   - New Bark Town Exit: East side.
   - Cherrygrove City Entrance: West side (Upper Lane).
