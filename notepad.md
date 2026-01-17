@@ -24,8 +24,8 @@
 - **South Lane (Row 14-17)**:
   - West: DEAD END at x=13 (Tree Wall).
   - East: DEAD END at x=34 (Tree Wall).
-- **Strategy**: The Westbound path (Rows 4-7) is the only remaining option.
-  - Action: Return to New Bark Town and exhaustively search the West wall (Rows 0-9) for an opening.
+- **Strategy**: The "Secret North Path" in town is a bust. The exit MUST be on Route 29.
+  - Action: Enter Route 29 at (0, 8) (Upper Exit). Hug the North Wall. Do not jump down ledges unless forced.
 - **Key Locations**:
   - New Bark Town Exit: East side.
   - Cherrygrove City Entrance: West side (Upper Lane).
