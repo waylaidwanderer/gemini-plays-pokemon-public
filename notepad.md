@@ -4,7 +4,7 @@
 ### Current Objectives & Strategy
 - **Main Quest**: Begin the Gym Challenge (Violet City).
 
-- **Battle Strategy**: Catch Pidgey/Sentret. Train Garnet (Lv 9) and Amethyst (Rattata Lv 3).
+- **Battle Strategy**: Train Garnet (Lv 9), Amethyst (Lv 3), and new Hoothoot. Heading to Cherrygrove.
 - **Healing**: Mom (New Bark) or Cherrygrove PC.
 
 ### Tile Mechanics

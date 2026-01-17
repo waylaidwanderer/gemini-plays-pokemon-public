@@ -122,5 +122,28 @@
         "action_counter": 364
       }
     ]
+  },
+  "mash_a_fixed": {
+    "description": "Presses the 'A' button 8 times in a row. Useful for quickly advancing dialogue or spamming the first attack in battles.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "autopress_buttons": {
+          "type": "boolean",
+          "default": false
+        }
+      },
+      "required": [
+        "autopress_buttons"
+      ]
+    },
+    "python_script": "print([\"A\", \"A\", \"A\", \"A\", \"A\", \"A\", \"A\", \"A\"])",
+    "history": [
+      {
+        "commit_message": "Re-defining tool to attempt to trigger sandbox re-initialization after 'container not running' error.",
+        "timestamp": "2026-01-17T11:31:30.337Z",
+        "action_counter": 931
+      }
+    ]
   }
 }
