@@ -36,6 +36,6 @@
 - Map Card: Obtained from Guide Gent in Cherrygrove.
 - Guide Gent's House: Likely at (25, 9) in Cherrygrove.
 - Route 30 (Map 26_1): Connected to Cherrygrove City (South).
-- Navigation: Heading North to find Mr. Pokemon.
+
 - Route 30: Path blocked by ledge at y=48. Opening found at x=12.
 - Route 30 Sign: Connects Violet City (North) and Cherrygrove City (South).
