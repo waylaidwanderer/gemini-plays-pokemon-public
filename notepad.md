@@ -24,6 +24,7 @@
 - **South Lane (Row 14-17)**: Dead End at x=13.
   - **Path**: Heading to gap at (31, 13).
   - **Goal**: Go North through gap, then East to New Bark Town to HEAL.
+- **Mom's House**: Mom is currently stuck in a dialogue loop about the errand and does NOT heal.
 - **Party Status**:
   - Garnet (Lv 8): **TACKLE PP DEPLETED (0)**. Must Run from battles.
 - **Key Locations**:
