@@ -4,7 +4,7 @@
 ### Current Objectives & Strategy
 - **Main Quest**: Begin the Gym Challenge (Violet City).
 
-- **Battle Strategy**: Train Garnet (Lv 9), Amethyst (Lv 3), and new Hoothoot. Heading to Cherrygrove.
+- **Battle Strategy**: Train Garnet (Lv 9), Amethyst (Lv 3), and "T" (Hoothoot Lv 3). Heading to Cherrygrove.
 - **Healing**: Mom (New Bark) or Cherrygrove PC.
 
 ### Tile Mechanics
