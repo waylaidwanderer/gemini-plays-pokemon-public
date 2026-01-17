@@ -53,3 +53,6 @@
   - **Observation**: The roof tile at (51, 6) is marked as `TYPE_3fe2` (Walkable) in memory. This suggests the building is a "Walk-Behind" structure or accessible from the sides/back.
   - **Action**: Attempt to flank the building by walking East to (52, 8) then North to (52, 6).
   - **Hypothesis**: Access to Route 46 or the Northern High Path lies behind this building.
+- **Confirrmation**: The ledge at (43, 8) is impassable from the East. It is a one-way return path.
+- **Deduction**: The "High Road" and "Middle Road" are return paths. The path to Cherrygrove **MUST** be on the Lower Path (Row 14/15), where the Tutorial Guy is.
+- **Action**: Return to Lower Path. Re-investigate the "Dead End" at x=13. Look for a gap North or a hidden passage.
