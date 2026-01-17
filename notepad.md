@@ -8,7 +8,7 @@
 - **Status**: Party HP Critical. Avoid battles.
 
 ### Route 29 Navigation
-- **Top Lane (Rows 4-9)**: Previous exploration blocked by ledges/walls. Suspect missed path North of walls.
+- **Top Lane (Rows 4-9)**: Successfully traversed Eastbound. Connects to New Bark Town.
 - **Middle Lane (Rows 10-12)**: Blocked West by Cut Tree (21, 11) and Ledge barrier.
 - **Bottom Lane (Rows 14-17)**: Dead End at x=13 confirmed.
 - **Gatehouse (Route 46)**: Located North, accessible via Upper Lane.
