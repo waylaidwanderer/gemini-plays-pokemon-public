@@ -18,8 +18,12 @@
 - Hoothoot (Lv 2)
 ### Route 29 Navigation Notes
 - **North Lane (Rows 8-12)**: Blocked Westbound by vertical ledges at x=43. Return loop.
-- **Middle Lane (Row 11)**: Accessed via gap at x=31. DEAD END at x=21 (Cut Tree).
-- **South Lane (Row 14-17)**: DEAD END at x=13.
+- **Middle Lane (Row 11)**: Accessed via gap at x=31.
+  - West: DEAD END at x=21 (Cut Tree).
+  - East: Path to New Bark Town.
+- **South Lane (Row 14-17)**:
+  - West: DEAD END at x=13 (Tree Wall).
+  - East: DEAD END at x=34 (Tree Wall).
 - **Strategy**: The exit to the Westbound path (Rows 4-7) must be in New Bark Town, North of the main exit.
   - Action: Backtrack to NBT and hug the West wall from y=0 to y=8 to find the opening.
 - **Key Locations**:
