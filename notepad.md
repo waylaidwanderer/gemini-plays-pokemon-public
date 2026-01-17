@@ -49,10 +49,20 @@
       - Option B: Lower Path (Row 14-16) - Verified Dead End at x=13.
       - Option C: Hidden path near the Gatehouse (if it exists).
   - **Plan**: Return to New Bark Town. Walk West on the High Road but hug the NORTH edge (Row 6/5) to see if I can bypass the x=43 barrier.
-- **Plan Update**: Gatehouse entrance at (51, 7) is BLOCKED (Solid Wall).
-  - **Observation**: The roof tile at (51, 6) is marked as `TYPE_3fe2` (Walkable) in memory. This suggests the building is a "Walk-Behind" structure or accessible from the sides/back.
-  - **Action**: Attempt to flank the building by walking East to (52, 8) then North to (52, 6).
-  - **Hypothesis**: Access to Route 46 or the Northern High Path lies behind this building.
-- **Confirrmation**: The ledge at (43, 8) is impassable from the East. It is a one-way return path.
-- **Deduction**: The "High Road" and "Middle Road" are return paths. The path to Cherrygrove **MUST** be on the Lower Path (Row 14/15), where the Tutorial Guy is.
-- **Action**: Return to Lower Path. Re-investigate the "Dead End" at x=13. Look for a gap North or a hidden passage.
+
+# Navigation Paradox: Route 29
+- **Goal**: Reach Cherrygrove City (West).
+- **Current Status**: All known paths appear blocked.
+  1. **High Road (Row 6/8)**: Blocked at x=43 by One-Way Ledge (allows East, blocks West). Access to Row 6 blocked by trees at x=45.
+  2. **Middle Road (Row 10/11)**: Investigating. Expected blockage at x=21 (Cut Tree).
+  3. **Lower Road (Row 14/16)**: Previously identified as "Dead End" at x=13.
+  4. **Gatehouse (52, 7)**: Front door locked/wall. Back/Side did not reveal path.
+
+- **Hypothesis**:
+  - **A**: The "Dead End" at Lower Road (x=13) is false. There is a gap or path North.
+  - **B**: There is a hidden gap in the Ledge Barrier at x=43.
+  - **C**: The Gatehouse has a specific trigger or entrance I missed.
+
+- **Immediate Plan**:
+  1. Confirm Cut Tree on Middle Road (x=21).
+  2. **CRITICAL**: Return to Lower Road and painstakingly check every tile near x=13 for a passage.
