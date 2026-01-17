@@ -14,9 +14,9 @@
 - **Gatehouse (Route 46)**: Located North of current position, accessible via Upper Lane.
 
 - **Current Plan**: 
-  1. Head East to New Bark Town entrance (x=59) to bypass ledges.
-  2. Switch to Upper Lane (North to y=8).
-  3. Head West on Upper Lane to Cherrygrove.
+  1. Head West to x=52.
+  2. Head North to Row 6 (Top Lane).
+  3. Force path West on Row 6 to Cherrygrove (Correction: Path is likely open).
 
 ### Tile Mechanics
 - **TYPE_c453**: One-Way Ledge.
