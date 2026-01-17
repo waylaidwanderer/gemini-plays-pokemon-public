@@ -24,7 +24,7 @@
   - Row 15/16 West ends at x=13.
   - The "Middle Section" (Rows 8-12, East of x=40) is a ledge trap; escape East via ledge at (43, 12).
   - New Bark Town Exits (0,12) and (0,13) are blocked.
-- **Strategy**: Explore South New Bark Town (Rows 12-13) for a path to Route 29's lower lane.
+- **Strategy**: Return to Route 29 Upper Lane. Jump South into "Middle Section" and try to travel West to jump the vertical ledge at x=28.
 - **Key Mechanics**:
   - TYPE_2889: Tree (Impassable)
   - TYPE_80fc: Ledge (One-way Jump Down)
