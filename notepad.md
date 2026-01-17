@@ -22,7 +22,7 @@
 - **Exits**: Route 29 (East), Route 30 (North).
 
 #### Route 30 (Map 26_1)
-- **Layout**: Splits into West (Grass/Items) and East (Trainers) paths? Currently on West/Main path.
+- **Layout**: Splits into West (Blocked by Event) and East (Trainers) paths. Currently on East path.
 - **Obstacles**: Ledge at y=48 (Passable via gap at x=12).
 - **Resources**: Berry Tree at (5, 39) [Looted].
 - **NPCs**: Youngster Joey (12, 27), Youngster Mikey (6, 30).
