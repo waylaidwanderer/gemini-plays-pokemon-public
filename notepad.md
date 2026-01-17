@@ -12,11 +12,11 @@
   - Upper Lanes (Row 6-9) Westbound blocked by Ledge/Tree walls (x=43, x=45).
   - Middle Lane (Row 10-12) Westbound blocked by Cut Tree (x=21).
   - Lower Lane (Row 14) Westbound leads to Dead End (x=13).
-- **Solution (Refined)**: 
-  1. From East side (x=50+), go South to Row 14 (jump ledges at x=50).
-  2. Go West on Lower Lane (Row 14/16) to x=31.
-  3. Go North on x=31 (Gap) to Row 8.
-  4. Go West on Row 8 to Cherrygrove (West of the x=43 barrier).
+  - Gap at x=31 leads to Middle Lane but access to Upper Lane (Row 8) is blocked at (31, 9).
+- **Current Plan**: 
+  1. Backtrack East to New Bark Town (x=59).
+  2. Re-enter Route 29 and attempt to stay on the Top Lane (Row 0-8) immediately.
+  3. Avoid dropping down ledges to the Middle Lane.
 
 ### Tile Mechanics
 - **TYPE_c453**: One-Way Ledge (East/South depending on context).
