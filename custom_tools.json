@@ -88,5 +88,31 @@
         "action_counter": 363
       }
     ]
+  },
+  "find_nearest_unseen": {
+    "description": "Finds the nearest 'unseen' tile in the Mental Map to the current player position. Useful for systematically clearing fog of war.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "player_x": {
+          "type": "integer"
+        },
+        "player_y": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "player_x",
+        "player_y"
+      ]
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nimport math\n\nmap_xml = map_xml_string\npx = input_data['player_x']\npy = input_data['player_y']\n\nroot = ET.fromstring(map_xml)\nunseen_tiles = []\n\nfor row in root.findall('Row'):\n    y = int(row.get('id'))\n    for tile in row.findall('Tile'):\n        t_type = tile.get('type')\n        if t_type == 'unseen':\n            x = int(tile.get('id'))\n            dist = math.sqrt((x - px)**2 + (y - py)**2)\n            unseen_tiles.append({'x': x, 'y': y, 'dist': dist})\n\nif not unseen_tiles:\n    print(\"No unseen tiles found.\")\nelse:\n    # Sort by distance\n    unseen_tiles.sort(key=lambda t: t['dist'])\n    nearest = unseen_tiles[0]\n    print(f\"Nearest unseen tile is at ({nearest['x']}, {nearest['y']}) with distance {nearest['dist']:.2f}\")",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-17T05:16:24.634Z",
+        "action_counter": 364
+      }
+    ]
   }
 }

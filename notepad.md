@@ -24,7 +24,7 @@
   - Row 15/16 West ends at x=13.
   - The "Middle Section" (Rows 8-12, East of x=40) is a ledge trap; escape East via ledge at (43, 12).
   - New Bark Town Exits (0,12) and (0,13) are blocked.
-- **Strategy**: Re-enter Route 29 at (59, 8). Check for a path West on Rows 6-7 (North of the main path) or Rows 9-11 (South of the main path) to bypass the blockage at x=43.
+- **Strategy**: Systematically explore the "Blockade" at x=43 on all accessible rows (6-12). Verify if it is truly impassable or if there's a trick. Use 'find_nearest_unseen' to clear any fog.
 - **Key Mechanics**:
   - TYPE_2889: Tree (Impassable)
   - TYPE_80fc: Ledge (One-way Jump Down)
