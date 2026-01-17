@@ -21,9 +21,9 @@
 - **Middle Lane (Row 11)**: Accessed via gap at x=31.
   - West: DEAD END at x=21 (Cut Tree).
   - East: Ledge jump to return to New Bark Town entrance area.
-- **South Lane (Row 14-17)**:
-  - **Path**: Constricted to Rows 14-15 between x=20 and x=23 due to trees on Row 16.
-  - **Goal**: West to x=13 to re-verify the "Tree Wall".
+- **South Lane (Row 14-17)**: Confirmed Dead End at x=13.
+  - **Path**: Backtracking East to gap at x=25.
+  - **Goal**: Reach (25, 14) and head North to Row 10.
 - **Party Status**:
   - Garnet (Lv 8): **TACKLE PP DEPLETED (0)**. Must Run from battles.
 - **Key Locations**:
