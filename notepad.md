@@ -10,13 +10,15 @@
 ### Route 29 Navigation
 - **Finding**: 
   - Upper Lanes (Row 6-9) Westbound blocked by Ledge/Tree walls (x=43, x=45).
-  - Middle Lane (Row 10-12) Westbound blocked by Cut Tree (x=21).
-  - Lower Lane (Row 14) Westbound leads to Dead End (x=13).
-  - Gap at x=31 leads to Middle Lane but access to Upper Lane (Row 8) is blocked at (31, 9).
+  - Bottom Lane (Row 14) is OPEN at x=43, allowing Westbound travel.
+  - Middle Lane (Row 10-12) Westbound blocked by Cut Tree at (21, 11).
+  - **Correction**: I likely missed a path around the Cut Tree at (21, 10) or (21, 9).
 - **Current Plan**: 
-  1. Backtrack East to New Bark Town (x=59).
-  2. Re-enter Route 29 and attempt to stay on the Top Lane (Row 0-8) immediately.
-  3. Avoid dropping down ledges to the Middle Lane.
+  1. Backtrack East to x=50.
+  2. Go South to Bottom Lane (Row 14).
+  3. Travel West to x=31 Gap.
+  4. Go North to Middle Lane.
+  5. Travel West to x=21 and investigate path North of the Cut Tree.
 
 ### Tile Mechanics
 - **TYPE_c453**: One-Way Ledge (East/South depending on context).
