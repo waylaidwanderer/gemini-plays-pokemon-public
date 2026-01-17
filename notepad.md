@@ -2,8 +2,8 @@
 - Started: Friday, January 16, 2026 at 5:08 PM PST
 
 ### Current Objectives & Strategy
-- **Main Quest**: Return to Professor Elm (Started ~Turn 740).
-  - **Status**: Defeated Rival in Cherrygrove. Heading to New Bark Town.
+- **Main Quest**: Begin the Gym Challenge (Violet City).
+  - **Status**: Talk to Mom, then head North to Route 30/31.
 - **Battle Strategy**: RUN from wild battles (Garnet Lv 9). Heal at Cherrygrove PC if needed.
 - **Healing**: Cherrygrove City Pokemon Center.
 
