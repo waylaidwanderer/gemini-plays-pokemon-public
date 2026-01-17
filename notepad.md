@@ -41,10 +41,11 @@
   - High Path (Row 6/8): Access via New Bark Town. Blocked at x=43 by One-Way Ledge if coming from West, but should be passable heading West?
   - Middle Path (Row 11): Blocked West at x=21 by Cut Tree. Blocked East by Ledge at x=43?
   - Lower Path (Row 13/14): Dead End East at x=54. Dead End West at x=13.
-  - **Cherrygrove Access Route**:
-    1. From New Bark (Row 8), jump Ledges South to Lower Path (Row 14).
-    2. Go West on Lower Path to gap at (31, 13).
-    3. Go **NORTH** through gap at x=31 to Middle Path (Row 11).
-    4. **Verified**: North path at (31, 9) is BLOCKED.
-    5. **Solution**: Head **EAST** on Middle Path (Row 11), jump the ledge at x=43 (One-Way East), and return to New Bark Town.
-    6. From New Bark Town, take the High Path (Row 6) West to Cherrygrove.
+  - **Navigation Critical Info**:
+    - **Ledge Barrier (x=43)**: This is a ONE-WAY barrier allowing EASTBOUND jumps (return to New Bark). It BLOCKS Westbound travel on Rows 8 and 11.
+    - **Implication**: The High Road and Middle Road are return paths.
+    - **Search Area**: The path to Cherrygrove MUST be elsewhere. 
+      - Option A: Very Top Edge (Row 4-6) - Check for a gap North of the ledge barrier.
+      - Option B: Lower Path (Row 14-16) - Re-verify the "dead end" at x=13.
+      - Option C: Hidden path near the Gatehouse (if it exists).
+  - **Plan**: Return to New Bark Town. Walk West on the High Road but hug the NORTH edge (Row 6/5) to see if I can bypass the x=43 barrier.
