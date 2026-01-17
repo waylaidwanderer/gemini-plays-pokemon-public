@@ -11,14 +11,14 @@
 ### Route 29 Navigation
 - **Top Lane (Rows 4-9)**: One-Way Eastbound from x=43. Connects to New Bark Town at (0, 8).
 - **Middle Lane (Rows 10-12)**: Blocked Westbound by Cut Tree (21, 11) and Ledge barrier.
-- **Lower Lane (Rows 14-17)**: The main Westbound path to Cherrygrove. Rows 14-15 blocked at x=37. Use Row 16/17.
-- **New Bark Town Access**: The opening at (0, 12) is NOT an exit. Must use the main exit at (0, 8) and jump ledges in Route 29 to reach Lower Lane.
+- **Lower Lane (Rows 14-17)**: DEAD END West of x=23. Blocked by trees at x=13 and x=37.
 - **Escape Route**: Gap in ledges at x=31 allows access to Upper Lane.
 - **Gatehouse (Route 46)**: Located North at (51, 7).
 
 - **Current Plan**: 
-  1. Travel West on Lower Lane (Row 16) to Cherrygrove City.
-  2. Investigate Tree Wall at x=23.
+  1. Backtrack East to the gap in ledges at x=31.
+  2. Travel North to the Top Lane (Row 6).
+  3. Travel West on Top Lane to Cherrygrove City.
 
 ### Tile Mechanics
 - **TYPE_c453**: One-Way Ledge.
