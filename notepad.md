@@ -38,4 +38,3 @@
 - Route 30 (Map 26_1): Connected to Cherrygrove City (South).
 - Navigation: Heading North to find Mr. Pokemon.
 - Route 30: Path blocked by ledge at y=48. Opening found at x=12.
-- Navigation: Moving North through tall grass field.
