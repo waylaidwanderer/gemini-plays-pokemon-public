@@ -31,3 +31,5 @@
 - **Next Step**: Locate Mr. Pokemon's House (North of Cherrygrove).
 - Guide Gent: Located in Cherrygrove City (near entrance). Gives Map Card.
 - Route 30: North of Cherrygrove. Destination for Mr. Pokemon.
+- Cherrygrove City: Contains Pokemon Center and Mart.
+- Guide Gent Tour: Pokemon Center, Mart, Route 30 Exit, Sea, House.
