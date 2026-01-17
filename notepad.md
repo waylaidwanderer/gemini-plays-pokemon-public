@@ -41,3 +41,5 @@
 - Confirmed: Area East of x=43 (y=12) is a dead end pocket.
 - Route: Go South to Lower Lane (y=16), West to Gap at x=31, then North.
 - Re-investigate West path from x=31.
+- Blocked West at x=37 on Row 14/15 by Tree Wall.
+- Moving South to Row 16 to bypass.
