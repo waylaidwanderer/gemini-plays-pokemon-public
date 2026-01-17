@@ -16,9 +16,9 @@
 - **Gatehouse (Route 46)**: Located North, accessible via Upper Lane.
 
 - **Current Plan**: 
-  1. Head East on Bottom Lane (Row 14) to New Bark Town (x=59).
-  2. Re-enter Route 29 on the Top Lane.
-  3. Thoroughly explore Rows 4-6 for a path West.
+  1. Travel East on Middle Lane (Row 11) to x=49.
+  2. Locate the gap North to the Top Lane (Row 6).
+  3. Travel West on Top Lane to Cherrygrove City.
 
 ### Tile Mechanics
 - **TYPE_c453**: One-Way Ledge.
