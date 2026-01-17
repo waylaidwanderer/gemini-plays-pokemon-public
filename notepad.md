@@ -35,3 +35,4 @@
   - Cherrygrove City Entrance: West side.
 ### Party
 - Garnet (CYNDAQUIL): Lv8 (15/25 HP, EXP: 319) | TACKLE: 1, LEER: 30, SMOKESCREEN: 20
+- **Elm's Lab**: Elm talks about Mr. Pokemon but did not auto-heal. Checking the machine in the top-left corner as a last resort.
