@@ -36,3 +36,5 @@
 ### Party
 - Garnet (CYNDAQUIL): Lv8 (15/25 HP, EXP: 319) | TACKLE: 1, LEER: 30, SMOKESCREEN: 20
 - **Elm's Lab**: Elm talks about Mr. Pokemon but did not auto-heal. Checking the machine in the top-left corner as a last resort.
+- **Healing Check**: The machine at (3, 1) in Elm's Lab is unresponsive. Elm does not heal. Mom does not heal.
+- **Strategy**: Running to Cherrygrove City. Must Run from all battles due to 0 PP on Tackle.
