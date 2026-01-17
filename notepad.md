@@ -8,3 +8,4 @@
 - TYPE_ffbb: Entrance Mat (Warp)
 - TYPE_201b: House Door (Warp)
 - TYPE_4e8c: Water (Impassable without Surf)
+- TYPE_2889: Tree (Impassable on Map 24_4)
