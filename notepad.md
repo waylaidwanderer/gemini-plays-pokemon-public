@@ -3,7 +3,7 @@
 
 ### Current Objectives & Strategy
 - **Main Quest**: Begin the Gym Challenge (Violet City).
-  - **Status**: Heading West to Route 29.
+
 - **Battle Strategy**: Catch Pidgey/Sentret/Rattata if encountered. Train Garnet to Lv 10.
 - **Healing**: Mom (New Bark) or Cherrygrove PC.
 
