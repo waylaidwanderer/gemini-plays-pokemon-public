@@ -10,15 +10,11 @@
 ### Route 29 Navigation
 - **Finding**: 
   - Upper Lanes (Row 6-9) Westbound blocked by Ledge/Tree walls (x=43, x=45).
-  - Bottom Lane (Row 14) is OPEN at x=43, allowing Westbound travel.
   - Middle Lane (Row 10-12) Westbound blocked by Cut Tree at (21, 11).
-  - **Correction**: I likely missed a path around the Cut Tree at (21, 10) or (21, 9).
+  - **Correction needed**: Previous exploration of Bottom Lane and Gatehouse was a hallucination during battle.
 - **Current Plan**: 
-  1. Backtrack East to x=50.
-  2. Go South to Bottom Lane (Row 14).
-  3. Travel West to x=31 Gap.
-  4. Go North to Middle Lane.
-  5. Travel West to x=21 and investigate path North of the Cut Tree.
+  1. Head East to x=50, then North to investigate the Gatehouse at (51, 7).
+  2. If Gatehouse is a dead end, explore Bottom Lane (Row 14/16) Westbound *for real*.
 
 ### Tile Mechanics
 - **TYPE_c453**: One-Way Ledge (East/South depending on context).
