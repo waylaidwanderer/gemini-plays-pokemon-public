@@ -27,8 +27,8 @@
 - **Healing Options**: Mom (Loop), Elm (Loop), Lab Machine (Broken). New Bark Town has NO healing.
 - **Strategy**: RUN from all wild battles. Priority is reaching Cherrygrove Pokemon Center.
 - **Navigation**:
-  - **North Lane**: Blocked at x=43.
-  - **South Lane (Row 16)**: Currently exploring Westbound.
+  - **North Lane (Row 6)**: Successfully bypassed obstacles. Heading West to Cherrygrove.
+  - **South Lane**: Abandoned due to dead ends.
 - **Party Status**: Garnet (Lv 8) - 0 PP Tackle.
 - **Escape Route**: Confirmed vertical path at x=31 connecting South Lane (Row 16) to Middle/North Lanes.
 - **Plan**: Go to x=31, head North to Row 8, then West to Cherrygrove.
