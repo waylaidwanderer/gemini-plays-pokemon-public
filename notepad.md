@@ -7,22 +7,15 @@
 - **Healing**: Mom (New Bark) does NOT heal. Elm did NOT heal. Relied on Berries.
 - **Status**: Party HP Critical. Need Pokemon Center.
 
-### Route 29 Navigation Puzzle
-- **Problem**: Returned from Cherrygrove via "Ledge Path" (One-way East). Now need to go West.
-- **Observations**:
-  - **Upper Path (Rows 8-9)**: Seemed to be one-way ledges facing East.
-  - **Middle Path (Row 11)**: Blocked by Cut Tree at x=21.
-  - **Lower Path (Row 14)**: Currently traversing.
-    - Blocked at x=37 by trees.
-    - **Solution**: Go South to Row 16 to bypass the tree line at x=34-37.
-    - **Goal**: Reach the corridor at x=26.
-- **Hypothesis**:
-  - **A**: The path to Cherrygrove involves weaving between tree lines on the south side.
-  - **B**: Once at x=26, head North/West to bypass the "Dead End" at x=13.
-- **Plan**:
-  1. Check South-East entrance of Route 29 (below the ledge output).
-  2. If blocked, check North-East entrance (above the ledge output).
-  3. Look closely for gaps in the ledge line.
+### Route 29 Navigation
+- **Finding**: Lower and Middle lanes are dead ends or blocked by Cut Trees.
+- **Solution**: The correct Westbound route is the Upper Path (Row 6), accessed via the East side near New Bark Town.
+- **Item**: Found item at (48, 2) blocked by Cut Tree.
+
+### Tile Mechanics
+- **TYPE_c453**: One-Way Ledge (East/South depending on context).
+- **TYPE_2889**: Tree Wall (Solid).
+- **TYPE_5519**: Cut Tree (Requires HM01).
 
 ### Key Locations
 - **Cherrygrove City**: Pokemon Center, Mart.
