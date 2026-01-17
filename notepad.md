@@ -22,7 +22,7 @@
 - **Dead Ends**:
   - Row 16 East ends at x=43 (Tree Wall).
   - Row 15/16 West ends at x=13.
-  - The "Middle Section" (Rows 8-12, East of x=40) is a ledge trap; escape South.
+  - The "Middle Section" (Rows 8-12, East of x=40) is a ledge trap; escape East via ledge at (43, 12).
   - New Bark Town Exits (0,12) and (0,13) are blocked.
 - **Strategy**: Backtrack to x=31, go North through Ledge Gap at (31, 13), then EXPLORE EAST along Row 11.
 - **Key Mechanics**:
