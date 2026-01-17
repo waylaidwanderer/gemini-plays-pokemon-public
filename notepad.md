@@ -17,16 +17,12 @@
 ### Route 29 Encounters (Night)
 - Hoothoot (Lv 2)
 ### Route 29 Navigation Notes
-- **Structure**: Divided into North Lane (Rows 4-11) and South Lane (Rows 12-17).
-- **South Lane**: One-way Eastbound path returning from Cherrygrove. Contains ledges preventing Northward movement.
-- **North Lane (Current)**: The Westbound path to Cherrygrove.
-  - Keep North of Row 12 to avoid dropping down ledges.
-  - **Dead Ends**:
-    - South Lane West ends at x=13.
-    - South Lane East ends at x=43.
+- **North Lane (Rows 8-12)**: Blocked Westbound by vertical ledges at x=43. This is the return loop.
+- **South Lane (Row 16)**: Likely the Westbound path.
+  - Path: Head South to Row 16, then West.
+  - Gap at x=43 on Row 14/15 allows access South.
 - **Key Locations**:
   - New Bark Town Exit: East side.
   - Cherrygrove City Entrance: West side.
-  - Gatehouse: West end (Row 4-5).
 ### Party
 - Garnet (CYNDAQUIL): Lv8 (15/25 HP, EXP: 319) | TACKLE: 1, LEER: 30, SMOKESCREEN: 20
