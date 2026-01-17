@@ -33,3 +33,9 @@
 - **Cut Trees**: Require Badge 2 + HM01.
 - Aide in New Bark Town (after Lab) gives Pokegear tutorial, NOT Potions.
 - Confirmed: Must travel to Cherrygrove to heal.
+### Route 29 Lane Analysis
+- **Top Lane (Rows 4-9)**: Blocked by Cut Tree at (30, 9)? Needs verification.
+- **Middle Lane (Rows 10-12)**: Blocked by Cut Tree at (21, 11).
+- **Bottom Lane (Rows 14-17)**: Currently testing. Suspect Dead End at x=13.
+- **Hypothesis**: If all lanes are blocked, there must be a diagonal switch or a specific gap I missed. 
+- **Immediate Task**: Verify collision of 'TYPE_2889' (Tree texture) at (20, 16). If solid, x=0-12 on Row 14 is likely a wall.
