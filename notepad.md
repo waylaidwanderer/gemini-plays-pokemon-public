@@ -17,19 +17,16 @@
 ### Route 29 Encounters (Night)
 - Hoothoot (Lv 2)
 ### Route 29 Navigation Notes
-- **General Layout**: The route is divided by ledges into upper and lower lanes.
-- **Lower Lane (Current Path)**: Located on Rows 16-17. Travels West towards Cherrygrove.
-- **Dead Ends**:
-  - Row 16 East ends at x=43 (Tree Wall).
-  - Row 15/16 West ends at x=13.
-  - The "Middle Section" (Rows 8-12, East of x=40) is a ledge trap; escape East via ledge at (43, 12).
-  - New Bark Town Exits (0,12) and (0,13) are blocked.
-- **Strategy**: The Main Path (Rows 8-16) appears to be a one-way return route from Cherrygrove. The route WEST must be on the "Northern Plateau" (Rows 4-5). I need to find the entrance to this plateau, likely in the NW corner of New Bark Town (y < 8).
-- **Key Mechanics**:
-  - TYPE_2889: Tree (Impassable)
-  - TYPE_80fc: Ledge (One-way Jump Down)
-  - TYPE_c453: Vertical Ledge (One-way Jump East)
-- TYPE_a339: Vertical Ledge (Jumpable West)
-- TYPE_a336: Small Tree/Bush (Check Passability)
+- **Structure**: Divided into North Lane (Rows 4-11) and South Lane (Rows 12-17).
+- **South Lane**: One-way Eastbound path returning from Cherrygrove. Contains ledges preventing Northward movement.
+- **North Lane (Current)**: The Westbound path to Cherrygrove.
+  - Keep North of Row 12 to avoid dropping down ledges.
+  - **Dead Ends**:
+    - South Lane West ends at x=13.
+    - South Lane East ends at x=43.
+- **Key Locations**:
+  - New Bark Town Exit: East side.
+  - Cherrygrove City Entrance: West side.
+  - Gatehouse: West end (Row 4-5).
 ### Party
 - Garnet (CYNDAQUIL): Lv8 (15/25 HP, EXP: 319) | TACKLE: 1, LEER: 30, SMOKESCREEN: 20
