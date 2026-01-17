@@ -21,9 +21,9 @@
 - **Middle Lane (Row 11)**: Accessed via gap at x=31.
   - West: DEAD END at x=21 (Cut Tree).
   - East: Ledge jump to return to New Bark Town entrance area.
-- **South Lane (Row 14-17)**: Dead End at x=13.
-  - **Path**: Heading to gap at (31, 13).
-  - **Goal**: Go North through gap, then East to New Bark Town to HEAL.
+- **South Lane (Row 14-17)**: Confirmed Dead End at x=13 (Tree Wall).
+  - **Path**: Backtracking East to gap at (31, 13).
+  - **Goal**: Go North through gap at x=31, then check North Lane (Row 6).
 - **Healing Options**: Mom (Loop), Elm (Loop), Lab Machine (Broken). New Bark Town has NO healing.
 - **Strategy**: RUN from all wild battles. Priority is reaching Cherrygrove Pokemon Center.
 - **Navigation**:
