@@ -20,9 +20,10 @@
 - **General Layout**: The route is divided by ledges into upper and lower lanes.
 - **Lower Lane (Current Path)**: Located on Rows 16-17. Travels West towards Cherrygrove.
 - **Dead Ends**:
-  - Row 15 West ends at x=13.
+  - Row 15/16 West is a DEAD END. Trees block x=10-23 on Row 16.
   - The "Middle Section" (Rows 8-12, East of x=40) is a ledge trap; escape South.
   - New Bark Town Exits (0,12) and (0,13) are blocked.
+- **Strategy**: Backtrack to x=31 and use Ledge Gap at (31, 13) to go North.
 - **Key Mechanics**:
   - TYPE_2889: Tree (Impassable)
   - TYPE_80fc: Ledge (One-way Jump Down)
