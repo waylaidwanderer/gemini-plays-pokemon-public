@@ -28,3 +28,5 @@
   - TYPE_2889: Tree (Impassable)
   - TYPE_80fc: Ledge (One-way Jump Down)
   - TYPE_c453: Vertical Ledge (One-way Jump East)
+- TYPE_a339: Vertical Ledge (Jumpable West)
+- TYPE_a336: Small Tree/Bush (Check Passability)
