@@ -38,7 +38,7 @@
 - Status: Healed by Oak.
 - Current Objective: Return to Professor Elm in New Bark Town.
 - Warning: Route 29 Navigation Complexity.
-  - High Path (Row 8): Blocked at x=43 by One-Way Ledge.
-  - Middle Path (Row 11): Blocked at x=21 by Cut Tree.
-  - Lower Path (Row 14): Dead End at x=13.
-  - Solution: Backtrack East to x=24, then head North to Row 6 to access the main path to Cherrygrove.
+  - High Path (Row 6/8): Access via New Bark Town. Blocked at x=43 by One-Way Ledge if coming from West, but should be passable heading West?
+  - Middle Path (Row 11): Blocked West at x=21 by Cut Tree. Blocked East by Ledge at x=43?
+  - Lower Path (Row 13/14): Dead End East at x=54. Dead End West at x=13.
+  - Solution: From Lower Path, use gap at (31, 13) to reach Middle Path (Row 11). Then head East to New Bark Town to access High Path (Row 6).
