@@ -38,3 +38,6 @@
 - Plan: Reset to New Bark Town, then hug the North wall to find the upper path entrance.
 - Tested New Bark Town Exits: (0, 12) and (0, 13) are blocked (Invisible Wall).
 - Retrying Upper Exit at (0, 8) / (0, 9).
+- Confirmed: Area East of x=43 (y=12) is a dead end pocket.
+- Route: Go South to Lower Lane (y=16), West to Gap at x=31, then North.
+- Re-investigate West path from x=31.
