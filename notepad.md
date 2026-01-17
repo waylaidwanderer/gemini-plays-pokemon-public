@@ -26,7 +26,6 @@
   - **Goal**: Go North through gap at x=31, then check North Lane (Row 6).
 - **Healing Options**: Mom (Loop), Elm (Loop), Lab Machine (Broken). New Bark Town has NO healing.
 - **Strategy**: RUN from all wild battles. Priority is reaching Cherrygrove Pokemon Center.
-- **Location**: Cherrygrove City.
-- **Tool Status**: 'mash_a' updated and operational.
-- **Current Goal**: Heal at Pokemon Center (Red Roof).
-- **Guide Gent**: Located at (32, 6). Trying to bypass to heal first.
+- **Location**: Cherrygrove City (Pokemon Center).
+- **Current Goal**: Talk to Nurse Joy to HEAL.
+- **Next Step**: Locate Mr. Pokemon's House (North of Cherrygrove).
