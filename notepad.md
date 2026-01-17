@@ -14,3 +14,5 @@
 - Sentret (Lv 2-4)
 - Hoppip (Lv 2-3)
 - Note: Rattata/Hoothoot are Night only.
+### Route 29 Encounters (Night)
+- Hoothoot (Lv 2)
