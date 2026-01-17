@@ -29,3 +29,5 @@
 ### Mechanics
 - **Ledges**: Jump South (usually). Or East? Route 29 has specific directional ledges?
 - **Cut Trees**: Require Badge 2 + HM01.
+- Aide in New Bark Town (after Lab) gives Pokegear tutorial, NOT Potions.
+- Confirmed: Must travel to Cherrygrove to heal.
