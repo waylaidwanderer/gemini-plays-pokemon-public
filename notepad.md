@@ -21,3 +21,5 @@
 - Row 15 West leads to a dead end at x=13.
 - Route 29 Lower Lane (y=15/16) seems to be a one-way return path from ledges.
 - x=34, y=15 is blocked by trees. Path continues East at y=16.
+- Vertical Ledge at x=28 (Map 24_3) is a one-way jump West (from x=28 to x=27).
+- Continuous Ledge Row at y=9 seems to separate an upper path (y=8) from the lower path.
