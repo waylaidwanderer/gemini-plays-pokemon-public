@@ -46,9 +46,9 @@
     - **Implication**: The High Road and Middle Road are return paths.
     - **Search Area**: The path to Cherrygrove MUST be elsewhere. 
       - Option A: Very Top Edge (Row 4-6) - Check for a gap North of the ledge barrier.
-      - Option B: Lower Path (Row 14-16) - Re-verify the "dead end" at x=13.
+      - Option B: Lower Path (Row 14-16) - Verified Dead End at x=13.
       - Option C: Hidden path near the Gatehouse (if it exists).
   - **Plan**: Return to New Bark Town. Walk West on the High Road but hug the NORTH edge (Row 6/5) to see if I can bypass the x=43 barrier.
-- **Plan Update**: The North/Middle paths (Rows 6-12) seem blocked by trees and one-way ledges at x=43. The Lower Path (Rows 14-17) uses `TYPE_fed7` which may be walkable slopes.
-  - **Action**: Jump down to Lower Path at (49, 12).
-  - **Target**: Traverse West past x=43 using the Lower Path. Check for a gap North at x=31 to bypass the x=13 dead end.
+- **Plan Update**: The Lower Path (Rows 14-17) is a dead end at x=13.
+  - **Action**: Backtrack East to New Bark Town.
+  - **Target**: High Road (Row 4-6) hugging the North wall to bypass x=43 barrier.
