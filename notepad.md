@@ -12,7 +12,7 @@
 - **Top Lane (Rows 4-9)**: One-Way Eastbound from x=43. Connects to New Bark Town at (0, 8).
 - **Middle Lane (Rows 10-12)**: Blocked Westbound by Cut Tree (21, 11) and Ledge barrier.
 - **Lower Lane (Rows 14-17)**: DEAD END West of x=23. Blocked by trees at x=13 and x=37.
-- **Escape Route**: Gap in ledges at x=31 allows access to Upper Lane.
+- **Escape Route**: Gap at x=31 leads from Lower to Middle Lane. Gap at x=49 leads from Middle to Top Lane.
 - **Gatehouse (Route 46)**: Located North at (51, 7).
 
 - **Current Plan**: 
