@@ -40,5 +40,5 @@
 - Warning: Route 29 Navigation Complexity.
   - High Path (Row 8): Blocked at x=43 by One-Way Ledge.
   - Middle Path (Row 11): Blocked at x=21 by Cut Tree.
-  - Lower Path (Row 14): Appears blocked at x=13 by Trees/Ledge. Verifying this now.
-  - Potential Solution: Backtrack to New Bark Town and check for a Northernmost path (Row 6?) or re-examine the High Path blockage.
+  - Lower Path (Row 14): Dead End at x=13.
+  - Solution: Backtrack East to x=24, then head North to Row 6 to access the main path to Cherrygrove.
