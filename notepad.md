@@ -16,30 +16,14 @@
 - Note: Rattata/Hoothoot are Night only.
 ### Route 29 Encounters (Night)
 - Hoothoot (Lv 2)
-- TYPE_2889: Tree (Impassable on Map 24_3)
-- TYPE_80fc: Ledge (Jumpable Down)
-- Row 15 West leads to a dead end at x=13.
-- Route 29 Lower Lane (y=15/16) seems to be a one-way return path from ledges.
-- x=34, y=15 is blocked by trees. Path continues East at y=16.
-- Vertical Ledge at x=28 (Map 24_3) is a one-way jump West (from x=28 to x=27).
-- Continuous Ledge Row at y=9 seems to separate an upper path (y=8) from the lower path.
-- TYPE_5519: Cut Tree (Impassable without Cut)
-- x=28 (Rows 10-12) is a solid tree wall.
-- Trapped in pocket at x=27. Must go South to escape.
-- TYPE_c453: Vertical Ledge (Jumpable East).
-- Jumped ledge at x=43, now stuck on East side. Must find path North to Upper Lane.
-- Row 6 West at x=48 is blocked (Ledge tile cannot be entered from the side).
-- Row 8 West is blocked by Vertical Ledge at x=43 (Jumpable East only).
-- Pocket at x=50, y=11 (East of Vertical Ledge).
-- Only exit is South via Ledge at (50, 12).
-- TYPE_fed7: Ledge (Jumpable Down/Impassable Up/Side).
-- Blocked East at x=40 on Row 16 by Ledge wall. Heading West.
-- Hypothesis: The 'High Road' (North side) to Cherrygrove starts near New Bark Town.
-- Plan: Reset to New Bark Town, then hug the North wall to find the upper path entrance.
-- Tested New Bark Town Exits: (0, 12) and (0, 13) are blocked (Invisible Wall).
-- Retrying Upper Exit at (0, 8) / (0, 9).
-- Confirmed: Area East of x=43 (y=12) is a dead end pocket.
-- Route: Go South to Lower Lane (y=16), West to Gap at x=31, then North.
-- Re-investigate West path from x=31.
-- Blocked West at x=37 on Row 14/15 by Tree Wall.
-- Moving South to Row 16 to bypass.
+### Route 29 Navigation Notes
+- **General Layout**: The route is divided by ledges into upper and lower lanes.
+- **Lower Lane (Current Path)**: Located on Rows 16-17. Travels West towards Cherrygrove.
+- **Dead Ends**:
+  - Row 15 West ends at x=13.
+  - The "Middle Section" (Rows 8-12, East of x=40) is a ledge trap; escape South.
+  - New Bark Town Exits (0,12) and (0,13) are blocked.
+- **Key Mechanics**:
+  - TYPE_2889: Tree (Impassable)
+  - TYPE_80fc: Ledge (One-way Jump Down)
+  - TYPE_c453: Vertical Ledge (One-way Jump East)
