@@ -24,17 +24,9 @@
 - **South Lane (Row 14-17)**: Dead End at x=13.
   - **Path**: Heading to gap at (31, 13).
   - **Goal**: Go North through gap, then East to New Bark Town to HEAL.
-- **Mom's House**: Mom is currently stuck in a dialogue loop about the errand and does NOT heal.
-- **Party Status**:
-  - Garnet (Lv 8): **TACKLE PP DEPLETED (0)**. Must Run from battles.
-- **Key Locations**:
-  - New Bark Town Exit: East side.
-  - Cherrygrove City Entrance: West side (Upper Lane).
-- **Key Locations**:
-  - New Bark Town Exit: East side.
-  - Cherrygrove City Entrance: West side.
-### Party
-- Garnet (CYNDAQUIL): Lv8 (15/25 HP, EXP: 319) | TACKLE: 1, LEER: 30, SMOKESCREEN: 20
-- **Elm's Lab**: Elm talks about Mr. Pokemon but did not auto-heal. Checking the machine in the top-left corner as a last resort.
-- **Healing Check**: The machine at (3, 1) in Elm's Lab is unresponsive. Elm does not heal. Mom does not heal.
-- **Strategy**: Running to Cherrygrove City. Must Run from all battles due to 0 PP on Tackle.
+- **Healing Options**: Mom (Loop), Elm (Loop), Lab Machine (Broken). New Bark Town has NO healing.
+- **Strategy**: RUN from all wild battles. Priority is reaching Cherrygrove Pokemon Center.
+- **Navigation**:
+  - **North Lane**: Blocked at x=43.
+  - **South Lane (Row 16)**: Currently exploring Westbound.
+- **Party Status**: Garnet (Lv 8) - 0 PP Tackle.
