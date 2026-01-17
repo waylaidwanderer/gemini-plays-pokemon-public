@@ -24,7 +24,7 @@
   - Row 15/16 West ends at x=13.
   - The "Middle Section" (Rows 8-12, East of x=40) is a ledge trap; escape East via ledge at (43, 12).
   - New Bark Town Exits (0,12) and (0,13) are blocked.
-- **Strategy**: Systematically explore the "Blockade" at x=43 on all accessible rows (6-12). Verify if it is truly impassable or if there's a trick. Use 'find_nearest_unseen' to clear any fog.
+- **Strategy**: The Main Path (Rows 8-16) appears to be a one-way return route from Cherrygrove. The route WEST must be on the "Northern Plateau" (Rows 4-5). I need to find the entrance to this plateau, likely in the NW corner of New Bark Town (y < 8).
 - **Key Mechanics**:
   - TYPE_2889: Tree (Impassable)
   - TYPE_80fc: Ledge (One-way Jump Down)
