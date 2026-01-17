@@ -10,12 +10,15 @@
 ### Route 29 Navigation Puzzle
 - **Problem**: Returned from Cherrygrove via "Ledge Path" (One-way East). Now need to go West.
 - **Observations**:
-  - **Upper Path (Rows 8-9)**: Seemed to be one-way ledges facing East. But heatmap shows x=50-59 is accessible.
+  - **Upper Path (Rows 8-9)**: Seemed to be one-way ledges facing East.
   - **Middle Path (Row 11)**: Blocked by Cut Tree at x=21.
-  - **Lower Path (Row 14)**: Visited x=50 area before (heatmap). Likely accessible via ledge jump at (50, 12).
+  - **Lower Path (Row 14)**: Currently traversing.
+    - Blocked at x=37 by trees.
+    - **Solution**: Go South to Row 16 to bypass the tree line at x=34-37.
+    - **Goal**: Reach the corridor at x=26.
 - **Hypothesis**:
-  - **A**: Jump ledge at (50, 12) to access Lower Path.
-  - **B**: If blocked, check South-East entrance of Route 29 (New Bark Town).
+  - **A**: The path to Cherrygrove involves weaving between tree lines on the south side.
+  - **B**: Once at x=26, head North/West to bypass the "Dead End" at x=13.
 - **Plan**:
   1. Check South-East entrance of Route 29 (below the ledge output).
   2. If blocked, check North-East entrance (above the ledge output).
