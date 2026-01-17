@@ -3,9 +3,9 @@
 
 ### Current Objectives & Strategy
 - **Main Quest**: Begin the Gym Challenge (Violet City).
-  - **Status**: Talk to Mom, then head North to Route 30/31.
-- **Battle Strategy**: RUN from wild battles (Garnet Lv 9). Heal at Cherrygrove PC if needed.
-- **Healing**: Cherrygrove City Pokemon Center.
+  - **Status**: Heading West to Route 29.
+- **Battle Strategy**: Catch Pidgey/Sentret/Rattata if encountered. Train Garnet to Lv 10.
+- **Healing**: Mom (New Bark) or Cherrygrove PC.
 
 ### Tile Mechanics
 - **Ledges (TYPE_fed7)**: One-way jumpable (South). On Route 29, these are often walkable slopes. Verify by testing upward movement.
