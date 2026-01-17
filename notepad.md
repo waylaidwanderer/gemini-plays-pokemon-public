@@ -23,3 +23,4 @@
 - x=34, y=15 is blocked by trees. Path continues East at y=16.
 - Vertical Ledge at x=28 (Map 24_3) is a one-way jump West (from x=28 to x=27).
 - Continuous Ledge Row at y=9 seems to separate an upper path (y=8) from the lower path.
+- TYPE_5519: Cut Tree (Impassable without Cut)
