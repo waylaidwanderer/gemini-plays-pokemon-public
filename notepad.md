@@ -21,12 +21,11 @@
 - **Middle Lane (Row 11)**: Accessed via gap at x=31.
   - West: DEAD END at x=21 (Cut Tree).
   - East: Ledge jump to return to New Bark Town entrance area.
-- **South Lane (Row 14-17)**: CONFIRMED OPEN West of x=34.
-  - Currently exploring Westbound.
-  - Previous report of Dead End at x=13 is suspect.
-  - Trainer at (27, 17).
-- **Strategy**: Follow South Lane West to Cherrygrove.
-  - **CRITICAL**: Garnet has 0 PP for Tackle. AVOID ALL BATTLES.
+- **South Lane (Row 14-17)**:
+  - **Path**: Constricted to Rows 14-15 between x=20 and x=23 due to trees on Row 16.
+  - **Goal**: West to x=13 to re-verify the "Tree Wall".
+- **Party Status**:
+  - Garnet (Lv 8): **TACKLE PP DEPLETED (0)**. Must Run from battles.
 - **Key Locations**:
   - New Bark Town Exit: East side.
   - Cherrygrove City Entrance: West side (Upper Lane).
