@@ -49,6 +49,7 @@
       - Option B: Lower Path (Row 14-16) - Verified Dead End at x=13.
       - Option C: Hidden path near the Gatehouse (if it exists).
   - **Plan**: Return to New Bark Town. Walk West on the High Road but hug the NORTH edge (Row 6/5) to see if I can bypass the x=43 barrier.
-- **Plan Update**: Confirmed dead end at x=13 (blocked by trees and ledges).
-  - **Action**: Backtrack East to New Bark Town immediately.
-  - **Target**: High Road (Row 4-6) hugging the North wall.
+- **Plan Update**: High Road (Row 6) is blocked by trees at x=45. Ledge at x=43 blocks Westbound travel on Row 8.
+  - **Hypothesis**: The Gatehouse at (52, 7) might lead to Route 46, which could bypass the barrier.
+  - **Action**: Check the Gatehouse entrance.
+  - **Alternative**: If Gatehouse fails, re-investigate Lower Path (Row 13/14) extremely thoroughly for a North passage.
