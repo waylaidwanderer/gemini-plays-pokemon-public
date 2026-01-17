@@ -17,7 +17,7 @@
 ### Route 29 Encounters (Night)
 - Hoothoot (Lv 2)
 ### Route 29 Navigation Notes
-- **North Lane (Rows 8-12)**: Blocked Westbound by vertical ledges at x=43. Return loop.
+- **North Lane (Row 6)**: The correct path West to Cherrygrove. Bypasses the ledges.
 - **Middle Lane (Row 11)**: Accessed via gap at x=31.
   - West: DEAD END at x=21 (Cut Tree).
   - East: Ledge jump to return to New Bark Town entrance area.
