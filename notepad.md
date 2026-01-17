@@ -34,3 +34,5 @@
 - Only exit is South via Ledge at (50, 12).
 - TYPE_fed7: Ledge (Jumpable Down/Impassable Up/Side).
 - Blocked East at x=40 on Row 16 by Ledge wall. Heading West.
+- Hypothesis: The 'High Road' (North side) to Cherrygrove starts near New Bark Town.
+- Plan: Reset to New Bark Town, then hug the North wall to find the upper path entrance.
