@@ -66,3 +66,9 @@
 - **Immediate Plan**:
   1. Confirm Cut Tree on Middle Road (x=21).
   2. **CRITICAL**: Return to Lower Road and painstakingly check every tile near x=13 for a passage.
+- **Confirrmation**: Row 14 at x=13 is BLOCKED by a vertical tree wall (verified visually and by map data).
+- **Correction**: The "Lower Road" (Rows 14-17) is a dead end unless there is a hidden warp.
+- **Escape Plan**: Backtrack East to the gap at x=31 (Row 13) to return to the Middle/Upper lanes.
+- **New Strategy**: The path to Cherrygrove MUST be on the Northern edge (Rows 4-5), North of the Ledge Barrier.
+  - I previously checked Row 6 and hit trees, but I didn't check Rows 4 or 5 thoroughly.
+  - **Action**: Go to x=31 Gap -> Head East to Start -> Hug North Wall (Row 4).
