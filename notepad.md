@@ -26,3 +26,5 @@
 - TYPE_5519: Cut Tree (Impassable without Cut)
 - x=28 (Rows 10-12) is a solid tree wall.
 - Trapped in pocket at x=27. Must go South to escape.
+- TYPE_c453: Vertical Ledge (Jumpable East).
+- Jumped ledge at x=43, now stuck on East side. Must find path North to Upper Lane.
