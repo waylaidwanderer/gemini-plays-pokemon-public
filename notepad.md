@@ -37,4 +37,3 @@
 - **Middle Lane (Rows 10-12)**: Blocked by Cut Tree at (21, 11).
 - **Bottom Lane (Rows 14-17)**: Confirmed Dead End at x=13.
 - **Hypothesis**: The path West is likely the Top Lane (Row 0-8), accessible from the East (New Bark side). I must backtrack East to x=50+ to find a way back up to the Top Lane, then head West.
-- **Navigation Plan**: Verify (31, 9) blockage one last time, then head East to x=50.
