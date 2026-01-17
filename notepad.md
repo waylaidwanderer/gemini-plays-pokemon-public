@@ -29,7 +29,7 @@
 - TYPE_c453: Vertical Ledge (Jumpable East).
 - Jumped ledge at x=43, now stuck on East side. Must find path North to Upper Lane.
 - Row 6 West at x=48 is blocked (Ledge tile cannot be entered from the side).
-- Path West seems to be at Row 8.
+- Row 8 West is blocked by Vertical Ledge at x=43 (Jumpable East only).
 - Pocket at x=50, y=11 (East of Vertical Ledge).
 - Only exit is South via Ledge at (50, 12).
 - TYPE_fed7: Ledge (Jumpable Down/Impassable Up/Side).
