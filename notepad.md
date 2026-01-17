@@ -35,6 +35,6 @@
 ### Route 29 Lane Analysis
 - **Top Lane (Rows 4-9)**: Blocked by Cut Tree at (30, 9)? Needs verification.
 - **Middle Lane (Rows 10-12)**: Blocked by Cut Tree at (21, 11).
-- **Bottom Lane (Rows 14-17)**: Currently testing. Suspect Dead End at x=13.
-- **Hypothesis**: If all lanes are blocked, there must be a diagonal switch or a specific gap I missed. 
-- **Immediate Task**: Verify collision of 'TYPE_2889' (Tree texture) at (20, 16). If solid, x=0-12 on Row 14 is likely a wall.
+- **Bottom Lane (Rows 14-17)**: Confirmed Dead End at x=13.
+- **Hypothesis**: The path West is likely the Top Lane (Row 0-8), accessible from the East (New Bark side). The Middle Lane is blocked by a Cut Tree at x=21. The Bottom Lane is a dead end.
+- **Immediate Task**: Backtrack East to x=31, access the Middle Lane, and head East/North to find a way to the Top Lane.
