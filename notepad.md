@@ -4,7 +4,7 @@
 ### Current Objectives & Strategy
 - **Main Quest**: Return to Professor Elm (Started ~Turn 740).
   - **Status**: Defeated Rival in Cherrygrove. Heading to New Bark Town.
-- **Battle Strategy**: RUN from wild battles (Garnet Lv 8). Heal at Cherrygrove PC if needed.
+- **Battle Strategy**: RUN from wild battles (Garnet Lv 9). Heal at Cherrygrove PC if needed.
 - **Healing**: Cherrygrove City Pokemon Center.
 
 ### Tile Mechanics
