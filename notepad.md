@@ -9,3 +9,8 @@
 - TYPE_201b: House Door (Warp)
 - TYPE_4e8c: Water (Impassable without Surf)
 - TYPE_2889: Tree (Impassable on Map 24_4)
+### Route 29 Encounters (Day)
+- Pidgey (Lv 2-4)
+- Sentret (Lv 2-4)
+- Hoppip (Lv 2-3)
+- Note: Rattata/Hoothoot are Night only.
