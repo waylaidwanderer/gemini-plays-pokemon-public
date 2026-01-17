@@ -6,3 +6,5 @@
 - TYPE_a82: TV (Impassable)
 - TYPE_17bc: Stairs (Warp)
 - TYPE_ffbb: Entrance Mat (Warp)
+- TYPE_201b: House Door (Warp)
+- TYPE_4e8c: Water (Impassable without Surf)
