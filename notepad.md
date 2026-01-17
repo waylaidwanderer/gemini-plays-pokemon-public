@@ -11,7 +11,8 @@
 ### Route 29 Navigation
 - **Top Lane (Rows 4-9)**: Successfully traversed Eastbound. Connects to New Bark Town.
 - **Middle Lane (Rows 10-12)**: Blocked West by Cut Tree (21, 11) and Ledge barrier.
-- **Bottom Lane (Rows 14-17)**: Dead End at x=13 confirmed.
+- **Lower Lane (Rows 14-17)**: Dead End to the EAST (Blocked by Trees at x=48). Must backtrack West to x=31 to find the gap North.
+- **Escape Route**: Gap in ledges at x=31 allows access to Upper Lane.
 - **Gatehouse (Route 46)**: Located North, accessible via Upper Lane.
 
 - **Current Plan**: 
