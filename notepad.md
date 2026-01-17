@@ -20,7 +20,8 @@
 - **North Lane (Rows 8-12)**: Blocked Westbound by vertical ledges at x=43. This is the return loop.
 - **South Lane (Row 16)**: Likely the Westbound path.
   - Path: Head South to Row 16, then West.
-  - Gap at x=43 on Row 14/15 allows access South.
+  - Gap at x=31 allows access North to Row 12.
+  - Trainer at (27, 17) on South Lane.
 - **Key Locations**:
   - New Bark Town Exit: East side.
   - Cherrygrove City Entrance: West side.
