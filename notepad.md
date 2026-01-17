@@ -21,11 +21,12 @@
 - **Middle Lane (Row 11)**: Accessed via gap at x=31.
   - West: DEAD END at x=21 (Cut Tree).
   - East: Ledge jump to return to New Bark Town entrance area.
-- **South Lane (Row 14-17)**:
-  - West: DEAD END at x=13 (Tree Wall).
-  - East: DEAD END at x=34 (Tree Wall).
-- **Strategy**: The "Secret North Path" in town is a bust. The exit MUST be on Route 29.
-  - Action: Enter Route 29 at (0, 8) (Upper Exit). Hug the North Wall. Do not jump down ledges unless forced.
+- **South Lane (Row 14-17)**: CONFIRMED OPEN West of x=34.
+  - Currently exploring Westbound.
+  - Previous report of Dead End at x=13 is suspect.
+  - Trainer at (27, 17).
+- **Strategy**: Follow South Lane West to Cherrygrove.
+  - **CRITICAL**: Garnet has 0 PP for Tackle. AVOID ALL BATTLES.
 - **Key Locations**:
   - New Bark Town Exit: East side.
   - Cherrygrove City Entrance: West side (Upper Lane).
