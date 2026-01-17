@@ -16,3 +16,4 @@
 - Note: Rattata/Hoothoot are Night only.
 ### Route 29 Encounters (Night)
 - Hoothoot (Lv 2)
+- TYPE_2889: Tree (Impassable on Map 24_3)
