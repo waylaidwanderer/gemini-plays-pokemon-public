@@ -8,7 +8,7 @@
 - **Healing**: Cherrygrove City Pokemon Center.
 
 ### Tile Mechanics
-- **Ledges (TYPE_fed7)**: One-way jumpable (South).
+- **Ledges (TYPE_fed7)**: One-way jumpable (South). On Route 29, these are often walkable slopes. Verify by testing upward movement.
 - **Trees (TYPE_2889)**: Impassable.
 - **Small Trees (Cut)**: Breakable with Cut HM (e.g. Route 29 x=21).
 - **Water (TYPE_4e8c)**: Impassable without Surf.
