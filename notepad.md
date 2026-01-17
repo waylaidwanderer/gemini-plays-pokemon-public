@@ -5,3 +5,4 @@
 - TYPE_3fe2: Indoor Floor/Wall (Context Dependent)
 - TYPE_a82: TV (Impassable)
 - TYPE_17bc: Stairs (Warp)
+- TYPE_ffbb: Entrance Mat (Warp)
