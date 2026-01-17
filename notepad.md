@@ -37,3 +37,4 @@
 - Items Acquired: Mystery Egg, Pokedex.
 - Status: Healed by Oak.
 - Current Objective: Return to Professor Elm in New Bark Town.
+- Warning: The northern path (Row 8) on Route 29 is blocked at x=43 by a one-way ledge. Must use the southern path (Row 12-16) to travel West, using the gap at (31, 13).
