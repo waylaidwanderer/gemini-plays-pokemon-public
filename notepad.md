@@ -2,8 +2,8 @@
 - Started: Friday, January 16, 2026 at 5:08 PM PST
 
 ### Current Objectives & Strategy
-- **Main Quest**: Go to Mr. Pokemon's House (Started ~Turn 600).
-  - **Status**: En route North on Route 30.
+- **Main Quest**: Return to Professor Elm (Started ~Turn 740).
+  - **Status**: Defeated Rival in Cherrygrove. Heading to New Bark Town.
 - **Battle Strategy**: RUN from wild battles (Garnet Lv 8). Heal at Cherrygrove PC if needed.
 - **Healing**: Cherrygrove City Pokemon Center.
 
