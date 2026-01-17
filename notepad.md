@@ -12,10 +12,11 @@
   - Upper Lanes (Row 6-9) Westbound blocked by Ledge/Tree walls (x=43, x=45).
   - Middle Lane (Row 10-12) Westbound blocked by Cut Tree (x=21).
   - Lower Lane (Row 14) Westbound leads to Dead End (x=13).
-- **Solution**: 
-  1. Loop back East on Lower Lane (Row 14/16) to New Bark Town entrance.
-  2. Go North to Row 6 (Upper Lane) from the far East side (x=50+).
-  3. Traverse Upper Lane West to Cherrygrove.
+- **Solution (Refined)**: 
+  1. From East side (x=50+), go South to Row 14 (jump ledges at x=50).
+  2. Go West on Lower Lane (Row 14/16) to x=31.
+  3. Go North on x=31 (Gap) to Row 8.
+  4. Go West on Row 8 to Cherrygrove (West of the x=43 barrier).
 
 ### Tile Mechanics
 - **TYPE_c453**: One-Way Ledge (East/South depending on context).
