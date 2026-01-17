@@ -32,3 +32,5 @@
 - **North Lane (Row 6)**: Path to Cherrygrove.
 - **Encounters**: Pidgey, Sentret, Hoppip (Day); Hoothoot, Rattata (Night).
 - Note: TYPE_fed7 is NOT always a ledge. It is the common ground tile on Route 30. Movement confirms passability.
+- Mr. Pokemon's House: Located at Route 30 (17, 5).
+- Plot: Met Mr. Pokemon and Professor Oak inside.
