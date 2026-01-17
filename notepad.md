@@ -30,3 +30,6 @@
   - **North Lane**: Blocked at x=43.
   - **South Lane (Row 16)**: Currently exploring Westbound.
 - **Party Status**: Garnet (Lv 8) - 0 PP Tackle.
+- **Escape Route**: Confirmed vertical path at x=31 connecting South Lane (Row 16) to Middle/North Lanes.
+- **Plan**: Go to x=31, head North to Row 8, then West to Cherrygrove.
+- **Tool Status**: 'mash_a' is broken (sandbox error). Will redefine upon reaching safety.
