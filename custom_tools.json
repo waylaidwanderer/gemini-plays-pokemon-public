@@ -195,13 +195,29 @@
   },
   "run_from_battle": {
     "description": "Automates the sequence to run from a wild Pokemon battle (Down -> Right -> A).",
-    "input_schema": {},
-    "python_script": "print('[\"Down\", \"Right\", \"A\"]')",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "autopress_buttons": {
+          "type": "boolean",
+          "default": false
+        }
+      },
+      "required": [
+        "autopress_buttons"
+      ]
+    },
+    "python_script": "print([\"Down\", \"Right\", \"A\"])",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2026-01-17T14:26:27.544Z",
         "action_counter": 1176
+      },
+      {
+        "commit_message": "Refined run_from_battle to strictly follow the Down -> Right -> A sequence for Gen 2 menus.",
+        "timestamp": "2026-01-17T22:44:14.380Z",
+        "action_counter": 1861
       }
     ]
   }

@@ -5,7 +5,7 @@
 - **Main Quest**: Begin the Gym Challenge (Violet City).
 - **Immediate Goal**: Reach Cherrygrove City.
 - **Healing**: Mom (Bank Only) confirmed. No healing at home. Must reach Cherrygrove.
-- **Survival Plan**: Use Berry on Cyndaquil immediately.
+
 - **Status**: Party HP Critical. Avoid battles.
 
 ### Route 29 Navigation
