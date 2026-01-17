@@ -18,3 +18,4 @@
 - Hoothoot (Lv 2)
 - TYPE_2889: Tree (Impassable on Map 24_3)
 - TYPE_80fc: Ledge (Jumpable Down)
+- Row 15 West leads to a dead end at x=13.
