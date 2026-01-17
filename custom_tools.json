@@ -220,5 +220,43 @@
         "action_counter": 1861
       }
     ]
+  },
+  "pathfinding_bfs": {
+    "description": "A specialized pathfinding tool that parses the Mental Map XML to find a valid path between two coordinates. It accounts for specific tile types (e.g., ledges, trees) and returns a step-by-step path if one exists.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "start_x": {
+          "type": "integer"
+        },
+        "start_y": {
+          "type": "integer"
+        },
+        "target_x": {
+          "type": "integer"
+        },
+        "target_y": {
+          "type": "integer"
+        },
+        "allow_80fc": {
+          "type": "boolean",
+          "default": false
+        }
+      },
+      "required": [
+        "start_x",
+        "start_y",
+        "target_x",
+        "target_y"
+      ]
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nimport collections\n\ndef bfs_path(start_x, start_y, target_x, target_y, allow_80fc):\n    try:\n        try:\n            map_xml = map_xml_string\n        except NameError:\n            print(\"Error: map_xml_string not found.\")\n            return\n\n        root = ET.fromstring(map_xml)\n        width = int(root.attrib['width'])\n        height = int(root.attrib['height'])\n\n        grid = {}\n        for row in root.findall('Row'):\n            y = int(row.attrib['id'])\n            for tile in row.findall('Tile'):\n                x = int(tile.attrib['id'])\n                t_type = tile.attrib['type']\n                grid[(x, y)] = t_type\n\n        # Define walkable types\n        walkable_types = {'TYPE_3fe2', 'unseen', 'TYPE_fed7', 'TYPE_a336'} # fed7 is ledge, a336 is gate/floor\n        if allow_80fc:\n            walkable_types.add('TYPE_80fc')\n\n        # BFS\n        queue = collections.deque([(start_x, start_y, [])])\n        visited = set([(start_x, start_y)])\n\n        while queue:\n            curr_x, curr_y, path = queue.popleft()\n\n            if curr_x == target_x and curr_y == target_y:\n                print(f\"Path found: {path}\")\n                return\n\n            # Directions: Up, Down, Left, Right\n            # Note: Logic for ledges/walls is simplified here. \n            # In a real scenario, we'd check if (curr) -> (next) is allowed by specific tile mechanics.\n            # For now, we assume simple adjacency for Walkable tiles.\n            \n            moves = [\n                (0, -1, \"Up\"), (0, 1, \"Down\"), \n                (-1, 0, \"Left\"), (1, 0, \"Right\")\n            ]\n\n            for dx, dy, direction in moves:\n                nx, ny = curr_x + dx, curr_y + dy\n                \n                if 0 <= nx < width and 0 <= ny < height:\n                    if (nx, ny) not in visited:\n                        tile_type = grid.get((nx, ny), \"\")\n                        \n                        # Basic Collision Check\n                        if tile_type in walkable_types:\n                            # Heuristic: Avoid jumping OFF ledges if we want to go back UP\n                            # But for general connectivity, we treat them as nodes.\n                            visited.add((nx, ny))\n                            queue.append((nx, ny, path + [direction]))\n        \n        print(\"No path found.\")\n\n    except Exception as e:\n        print(f\"Error: {e}\")\n\nbfs_path(start_x, start_y, target_x, target_y, allow_80fc)",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-17T23:25:53.139Z",
+        "action_counter": 1921
+      }
+    ]
   }
 }
