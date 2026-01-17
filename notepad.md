@@ -8,8 +8,13 @@
 - **Status**: Party HP Critical. Need Pokemon Center.
 
 ### Route 29 Navigation
-- **Finding**: Lower and Middle lanes are dead ends or blocked by Cut Trees.
-- **Solution**: The correct Westbound route is the Upper Path (Row 6), accessed via the East side near New Bark Town.
+- **Finding**: Direct West travel on Upper Lanes (Row 6-9) is blocked by a Ledge Wall at x=43 and Tree Wall at x=45.
+- **Solution**:
+  1. Go South to Row 14 (via ledge jump at x=50).
+  2. Go West to x=31.
+  3. Go North through Ledge Gap at (31, 13).
+  4. Go North to Row 8 (bypassing Cut Tree at 30, 9).
+  5. Go West on Row 8 to Cherrygrove.
 - **Item**: Found item at (48, 2) blocked by Cut Tree.
 
 ### Tile Mechanics
