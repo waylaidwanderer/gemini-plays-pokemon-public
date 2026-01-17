@@ -1,7 +1,7 @@
 # Pokémon Crystal Playthrough
 - Started: Friday, January 16, 2026 at 5:08 PM PST
 ### Tile Mechanics
-- TYPE_2889: Ambiguous (Check Visuals)
+- TYPE_2889: Tree (Impassable)
 - TYPE_3fe2: Generic Overworld Tile (Check Visuals)
 - TYPE_a82: TV (Impassable)
 - TYPE_17bc: Stairs (Warp)
