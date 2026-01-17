@@ -162,21 +162,31 @@
         },
         "target_y": {
           "type": "integer"
+        },
+        "autopress_buttons": {
+          "type": "boolean",
+          "default": false
         }
       },
       "required": [
         "start_x",
         "start_y",
         "target_x",
-        "target_y"
+        "target_y",
+        "autopress_buttons"
       ]
     },
-    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\n\ndef run(input_data):\n    try:\n        start_x = input_data['start_x']\n        start_y = input_data['start_y']\n        target_x = input_data['target_x']\n        target_y = input_data['target_y']\n        \n        root = ET.fromstring(map_xml_string)\n        width = int(root.get('width'))\n        height = int(root.get('height'))\n        \n        grid = {}\n        for row in root.findall('Row'):\n            y = int(row.get('id'))\n            for tile in row.findall('Tile'):\n                x = int(tile.get('id'))\n                t_type = tile.get('type')\n                grid[(x, y)] = t_type\n\n        start_pos = (start_x, start_y)\n        target_pos = (target_x, target_y)\n        \n        # Walkable types\n        walkable_types = {'TYPE_3fe2', 'TYPE_80fc', 'TYPE_a336', 'TYPE_a339', 'TYPE_c453', 'TYPE_fed7', 'TYPE_5519'} \n        # Note: Including ledge types as potentially walkable for connectivity check to see if a geometric path exists, \n        # even if one-way logic isn't fully simulated here. \n        # Refined check: Exclude known solid walls if identified.\n        # TYPE_2889 is typically Tree/Wall.\n        \n        queue = deque([(start_pos, 0)])\n        visited = set([start_pos])\n        \n        while queue:\n            (cx, cy), dist = queue.popleft()\n            \n            if (cx, cy) == target_pos:\n                print(f'{{\"connected\": true, \"distance\": {dist}}}')\n                return\n            \n            for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n                nx, ny = cx + dx, cy + dy\n                if 0 <= nx < width and 0 <= ny < height:\n                    if (nx, ny) not in visited:\n                        tile_type = grid.get((nx, ny), 'unseen')\n                        if tile_type != 'TYPE_2889': # Assuming 2889 is the main hard obstacle\n                            visited.add((nx, ny))\n                            queue.append(((nx, ny), dist + 1))\n                            \n        print('{\"connected\": false}')\n    except Exception as e:\n        print(f'{{\"error\": \"{str(e)}\"}}')",
+    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\n\ndef bfs_path(xml_string, start, target):\n    try:\n        root = ET.fromstring(xml_string)\n        rows = {int(r.get('id')): r for r in root.findall('Row')}\n        \n        # Parse map to find walkable tiles\n        walkable = set()\n        for y, row in rows.items():\n            for tile in row.findall('Tile'):\n                # Heuristic: TYPE_3fe2 (Floor), TYPE_80fc (Grass) are usually walkable.\n                # Adjust this list based on game knowledge.\n                t_type = tile.get('type')\n                if t_type in [\"TYPE_3fe2\", \"TYPE_80fc\", \"TYPE_a336\", \"TYPE_a339\"]: \n                    walkable.add((int(tile.get('id')), y))\n        \n        start_tuple = (start['x'], start['y'])\n        target_tuple = (target['x'], target['y'])\n        \n        if start_tuple not in walkable:\n            print(f\"Start {start_tuple} is not a known walkable tile.\")\n            # Depending on strictness, might return False or try anyway\n            \n        if target_tuple not in walkable:\n            print(f\"Target {target_tuple} is not a known walkable tile.\")\n            return False, 0\n\n        queue = deque([(start_tuple, 0)])\n        visited = {start_tuple}\n        \n        while queue:\n            curr, dist = queue.popleft()\n            if curr == target_tuple:\n                return True, dist\n            \n            x, y = curr\n            neighbors = [(x+1, y), (x-1, y), (x, y+1), (x, y-1)]\n            for nx, ny in neighbors:\n                if (nx, ny) in walkable and (nx, ny) not in visited:\n                    visited.add((nx, ny))\n                    queue.append(((nx, ny), dist + 1))\n                    \n        return False, 0\n        \n    except Exception as e:\n        print(f\"Error parsing map or pathfinding: {e}\")\n        return False, 0\n\n# Expects map_xml_string to be available in the global scope (injected by system)\n# Tool arguments provided in input_data variable\nstart = {'x': input_data['start_x'], 'y': input_data['start_y']}\ntarget = {'x': input_data['target_x'], 'y': input_data['target_y']}\n\nexists, length = bfs_path(map_xml_string, start, target)\nprint(f\"Path exists: {exists}, Length: {length}\")\n",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2026-01-17T13:46:49.913Z",
         "action_counter": 1128
+      },
+      {
+        "commit_message": "Initial definition of BFS pathfinding tool to check connectivity on the Mental Map.",
+        "timestamp": "2026-01-17T18:35:27.285Z",
+        "action_counter": 1502
       }
     ]
   },
