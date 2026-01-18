@@ -15,9 +15,9 @@
 - **Gatehouse (Route 46)**: (51, 7) appears to be a solid wall/locked. Not the way.
 
 - **Current Plan**: 
-  1. Move East to x=41 in Middle Lane.
-  2. Travel North through the gap at x=41 to reach Top Lane (Row 6).
-  3. Travel West in Top Lane to reach Cherrygrove City.
+  1. Continue West on Top Lane (Row 6) to Cherrygrove City.
+  2. Heal at Pokemon Center.
+  3. Head North to Route 30.
 
 ### Tile Mechanics
 - **TYPE_c453**: One-Way Ledge.
