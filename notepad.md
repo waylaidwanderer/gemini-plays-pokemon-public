@@ -28,11 +28,11 @@
 - Dark Cave entrance at Route 31 (34, 5).
 
 ### Reflection (Turn 3305)
-- **Status**: Captured Sandshrew "Bolin" (Lv6).
+- **Status**: Exploring Union Cave 1F.
 - **Location**: (16, 15).
+- **Recent Event**: Caught Sandshrew "Bolin" (sent to PC).
 - **Navigation**:
-  - Moving West to Col 15, then South.
-  - Path blocked South at (16, 16).
+  - Moving West to Col 14, then South towards the Trainer.
 
 ### Exploration Notes
 - **Union Cave 1F**:
