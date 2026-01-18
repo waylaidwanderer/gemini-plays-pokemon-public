@@ -15,9 +15,10 @@
 - **Gatehouse (Route 46)**: (51, 7) appears to be a solid wall/locked. Not the way.
 
 - **Current Plan**: 
-  1. Travel South from Top Lane (50, 6) to Middle Lane (Row 10).
-  2. Move West to Ledge at (45, 12) and jump South.
-  3. **STRICTLY** follow Row 17 Westbound to check for a gap at x=13.
+  1. Confirm blockage at x=13 on Row 14/15.
+  2. Backtrack East to x=31.
+  3. Use Ledge Gap at (31, 13) to access Middle Lane (Row 11/12).
+  4. Explore Middle Lane Westbound.
 
 ### Tile Mechanics
 - **TYPE_c453**: One-Way Ledge.
