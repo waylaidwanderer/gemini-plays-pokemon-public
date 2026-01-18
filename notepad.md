@@ -3,11 +3,11 @@
 
 ### Current Objectives & Strategy
 - **Main Quest**: Journey to Azalea Town.
-- **Immediate Goal**: Buy Supplies (Repels/Potions).
-- **Status**: Shopping in Violet City Mart.
-- **Location**: Violet City Mart (10_6).
+- **Immediate Goal**: Head South to Route 32.
+- **Status**: Leaving Violet City.
+- **Location**: Violet City (10_5).
 - **Accomplishments**: Defeated Falkner (Zephyr Badge), Sprout Tower Cleared, Received Togepi Egg.
-- **Next Steps**: Finish shopping -> Route 32 -> Union Cave.
+- **Next Steps**: Route 32 -> Union Cave.
 
 ### Violet City Information
 - **Pokemon Center**: (31, 25) - Visited.
