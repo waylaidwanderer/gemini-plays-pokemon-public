@@ -27,13 +27,11 @@
 - Route 31 Lower Path was the key to Violet City.
 - Dark Cave entrance at Route 31 (34, 5).
 
-### Reflection (Turn 3293)
-- **Status**: Wild Battle vs Sandshrew in Union Cave.
+### Reflection (Turn 3294)
+- **Status**: Wild Battle vs Sandshrew (Lv6).
+- **Strategy**: HP is low (Yellow). Ember would KO. Attempting to catch with Poke Ball.
+- **Inventory**: 3 Poke Balls.
 - **Location**: (16, 15).
-- **Navigation**:
-  - Moved South to (16, 15).
-  - Encountered Wild Sandshrew (New Dex entry!).
-  - Detected potential trainer at (14, 19).
 
 ### Exploration Notes
 - **Union Cave 1F**:
