@@ -58,3 +58,4 @@
   - **Key Items**: Old Rod, Map Card, Phone Card.
   - **TMs**: Mud-Slap (TM31), Flash (HM05).
   - **Recent Catch**: Zubat "Jet" (Box 1).
+- **Union Cave 1F**: Encountering trainer (Firebreather/Hiker?) at (14, 16).
