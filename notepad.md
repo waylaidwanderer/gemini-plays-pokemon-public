@@ -13,8 +13,8 @@
 - **East Path**: Leads to Mr. Pokemon's House (Dead End).
 - **West Path**: Leads to Violet City. Open.
 - **Observation**: Registered Youngster Joey's phone number at (3, 28).
-- **Current Status**: Moving West on Route 31 towards Violet City Gatehouse.
-- **Reflection (Turn 2312)**: Finished with NPC. Heading straight for the city to heal and restock balls.
+- **Current Status**: At the NPC area (Dead End). Backtracking East to jump the ledge at (16, 11) to access the lower path to Violet City.
+- **Reflection (Turn 2313)**: The path West is blocked by ledges. Found a jumpable ledge to the South-East.
 
 ### Tile Mechanics
 - **TYPE_3fe2**: Walkable Ground.
