@@ -30,6 +30,5 @@
 - **Route 30**: Path to Violet City.
 - **Correction**: `TYPE_2889` is confirmed to be an OBSTACLE (Trees/Walls), not walkable grass. Previous agent pathfinding failed because of this.
 - **Observation**: `TYPE_fed7` on Route 29 (Middle/Lower transition) is **Walkable**, confirming it's a ledge top or walkable grass, NOT a wall.
-- **Lower Lane Strategy**: Attempting to bypass Cut Tree (x=21) via Row 14. 
-  - **Risk**: Potential U-Trap. If Row 13 (North edge) is all ledges/walls between x=13 and x=21, I cannot get back North.
-  - **Action**: Check for gaps North on Row 12/13. If none, backtrack East to x=31.
+- **Lower Lane Strategy**: FAILED. Confirmed Dead End at x=13 on all rows.
+- **Action**: Backtracking East to x=31 to use the Ledge Gap.
