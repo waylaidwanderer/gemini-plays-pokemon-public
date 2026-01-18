@@ -27,13 +27,13 @@
 - Route 31 Lower Path was the key to Violet City.
 - Dark Cave entrance at Route 31 (34, 5).
 
-### Reflection (Turn 3289)
+### Reflection (Turn 3291)
 - **Status**: Exploring Union Cave 1F.
-- **Location**: (17, 11).
+- **Location**: (16, 13).
 - **Navigation**:
-  - Path blocked South at (17, 12).
-  - Shifting West to Column 16 to continue South.
-  - The "East Corridor" seems to be Column 16/17.
+  - Following Column 16 South.
+  - Path appears to be blocked at Row 16, requiring a turn West at Row 15.
+  - Goal: Reach (16, 15) and turn West.
 
 ### Exploration Notes
 - **Union Cave 1F**:
@@ -42,9 +42,8 @@
   - **Hiker Russell**: Defeated at (11, 8).
   - **Items**: Found **X Attack** at (4, 2).
   - **Navigation**:
-    - Row 8 blocked by water (West) and Russell (Center).
-    - Passed Russell, found East corridor.
-    - Moving South along Column 16.
+    - East Corridor (Col 16) leads South.
+    - Path seems to zig-zag.
 
 ### Exploration Notes
 - **Union Cave 1F**:
