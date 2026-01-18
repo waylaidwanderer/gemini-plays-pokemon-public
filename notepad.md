@@ -46,3 +46,4 @@
 - Repels (If available, Goal: 3)
 - Navigation: Tree line at X=21 divides the city. Cross at Y=18 to reach the Gym/West side.
 - Obtained Miracle Seed from NPC on Route 32 (Turn 2861).
+- Route 32: Vertical ledge at X=17 divides the path. Must loop North to Row 5 to cross to the West side for the trainer.
