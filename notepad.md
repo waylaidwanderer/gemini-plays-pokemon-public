@@ -54,9 +54,8 @@
 - **Strategy**: Quilava's Ember was effective despite accuracy drops.
 ### Exploration Notes
 - **Route 32**: Found Repel at (3, 30). Backtracking East to find a valid path South.
-- **Route 32 Navigation**: The path to Union Cave requires crossing to the West side at Row 71. Proceed South to (7, 76) and attempt to jump the ledge. Do not go further East than X=9.
 - **Route 32**: Defeated Camper Roland (3, 43) and Youngster Gordon (4, 60).
-- **Route 32 Navigation**: The path forward is along the far West edge, bypassing the central ledges.
+- **Route 32 Navigation**: The West path (Row 71-76) is blocked by impassable bushes. The correct path is to cross East to X=11 (past the Pokemon Center) and head South.
 - **Blocked Paths**: East side (X=15) and Central West (X=13) are dead ends for southbound travel.
 - **Miracle Seed**: Obtained from NPC on Route 32 (Turn 2861).
 - **Recent Catch**: Zubat "Jet" (Box 1).
