@@ -55,11 +55,12 @@
 ### Exploration Notes
 - **Route 32**: Found Repel at (3, 30). Backtracking East to find a valid path South.
 - **Route 32**: Defeated Camper Roland (3, 43) and Youngster Gordon (4, 60).
-- **Route 32 Navigation**: Attempting to jump `TYPE_fea1` ledge at (4, 72). Previous failure at (10, 86) might have been due to input eating during text box closure.
-- **Route 32 Maze Solution**:
-  - **West Side (Col 4)**: Investigating if `TYPE_fea1` is jumpable.
-  - **East Side (Col 10-12)**: Blocked South at Row 86 (Wall/Ledge).
-  - **Middle (Col 6-9)**: Blocked South at Row 76 (Bushes/Wall).
+- **Route 32 Navigation**: The West path is blocked by a wall (`TYPE_fea1`) at (4, 72).
+- **Route 32 Maze Status**:
+  - **West (Col 4)**: Blocked at Row 72.
+  - **East (Col 10)**: Blocked at Row 86.
+  - **Middle (Col 7)**: Investigating `TYPE_fea1` at (7, 76). If this is a ledge, I can jump to the Middle area and cross West at Row 77.
+- **Blocked Paths**: Row 72 (West), Row 86 (East).
 - **Blocked Paths**: Row 86 (East), Row 76 (Middle), Row 78 (Col 9 Wall), Row 83 (Col 5 Wall).
 
 - **Miracle Seed**: Obtained from NPC on Route 32 (Turn 2861).
