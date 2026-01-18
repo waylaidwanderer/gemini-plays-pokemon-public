@@ -9,13 +9,11 @@
 
 ### Route 30 Navigation
 - **Goal**: Reach Violet City.
-- **Key Obstacle**: Battling Trainers at (5, 26). Need to verify if they have moved.
+- **Key Obstacle**: Battling Trainers at (5, 26). Blockage CLEARED. Path North open.
 - **East Path**: Leads to Mr. Pokemon's House (Dead End).
-- **West Path**: Leads to Violet City.
-- **Observation**: `TYPE_fed7` North of the Berry House appears to be **Tall Grass**, not ledges. Attempting to traverse.
-
-- **Current Status**: Traversing West Path (x=4). Approaching Youngster Mikey at (2, 28).
-- **Next Step**: Defeat Mikey, then check blockage at (5, 26).
+- **West Path**: Leads to Violet City. Open.
+- **Observation**: Passed Youngster Mikey at (3, 28) without battling. Can return later.
+- **Current Status**: Moving North on West Path. Approaching Trainer at (5, 23).
 
 ### Tile Mechanics
 - **TYPE_3fe2**: Walkable Ground.
