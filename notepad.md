@@ -3,10 +3,10 @@
 
 ### Current Objectives & Strategy
 - **Main Quest**: Defeat Azalea Gym (Bugsy).
-- **Immediate Goal**: Heal Team.
-- **Location**: Azalea Town Pokemon Center.
-- **Status**: Arrived in Azalea Town. Encountered Rocket Grunt at the Well.
-- **Next Steps**: Heal, then explore Azalea Town. Check Gym and Kurt's House.
+- **Immediate Goal**: Explore House at (21, 13).
+- **Location**: Inside House at Azalea (21, 13).
+- **Status**: Searching for Kurt. Investigating if this is the Charcoal Kiln.
+- **Next Steps**: Talk to NPCs in this house. Find Kurt. Check Gym.
 
 ### Team Status
 - **Party**: Garnet (Lv19), Basil (Lv6), Egg (Lv5), Amethyst (Lv3), T (Lv3), Jasper (Lv2).
