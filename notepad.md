@@ -27,20 +27,22 @@
 - Route 31 Lower Path was the key to Violet City.
 - Dark Cave entrance at Route 31 (34, 5).
 
-### Reflection (Turn 3275)
-- **Status**: Battling Hiker Russell's 3rd Geodude (Lv8).
-- **Strategy**: Cursor memory confirms battle menu is a vertical list and remembers last move. Since I used Ember last turn, cursor is on Ember. Pressing 'A' should select it.
+### Reflection (Turn 3276)
+- **Status**: Exploring Union Cave 1F.
+- **Location**: (11, 7).
+- **Accomplishments**: Defeated Hiker Russell. Garnet reached Level 18.
+- **Next Step**: Navigate around Russell and continue South.
 
 ### Exploration Notes
 - **Union Cave 1F**:
   - **Entrance**: From Route 32 at (17, 3).
   - **Hiker Daniel**: Defeated at (4, 6).
-  - **Hiker Russell**: Encountered at (11, 8). Team: Geodude (Lv4), Geodude (Lv6), Geodude (Lv8).
+  - **Hiker Russell**: Defeated at (11, 8).
   - **Items**: Found **X Attack** at (4, 2).
   - **Navigation**:
-    - Row 8 is blocked by water.
-    - Row 7 is blocked by rocks.
-    - Path East is along Row 6.
+    - Row 8 blocked by water (West) and Russell (Center).
+    - Can bypass Russell via (10, 8) or (12, 8).
+    - Path continues South/East.
 
 ### Exploration Notes
 - **Union Cave 1F**:
