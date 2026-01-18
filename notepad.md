@@ -9,18 +9,13 @@
 - **Status**: Party HP Critical. Avoid battles.
 
 ### Route 29 Navigation
-- **Top Lane (Row 6)**: BLOCKED Westbound by Bushes at x=48.
-- **Middle Lane (Rows 10-12)**: Connects Top and Lower Lanes.
-- **Lower Lane (Rows 14-17)**: The primary Westbound path. Must explore Row 17 (Bottom Edge).
-- **Transitions**: 
-  - Gap at x=49 connects Top (Row 6) and Middle (Row 10).
-  - Ledge at x=46 (approx) connects Middle (Row 11) to Lower (Row 13).
-  - Gap at x=31 connects Lower and Middle.
-
-- **Current Plan**: 
-  1. Travel South to Middle Lane (Row 10).
-  2. Locate Ledge jump at x=46 to enter Lower Lane.
-  3. Travel West on **Row 17** (Bottom Edge) to bypass trees at x=13.
+- **Top Lane (Row 6)**: Blocked at x=46. **CRITICAL: Agent pathfinder suggested a bypass on Row 5 (Turn 1997). Must verify this.**
+- **Middle Lane**: Blocked by Cut Tree (x=21).
+- **Lower Lane**: Currently verifying Dead End at x=13 (Row 15).
+- **Current Plan**:
+  1. Verify x=13 blockage (Lower Lane).
+  2. If blocked, BACKTRACK East to x=31 -> Middle Lane -> x=49 -> Top Lane.
+  3. Attempt **Row 5 Bypass** on Top Lane.
 
 ### Tile Mechanics
 - **TYPE_c453**: One-Way Ledge.
