@@ -34,4 +34,4 @@
 - Hint: The Charcoal Man's Pokemon can use CUT.
 - **Gym Strategy**: Use Garnet's Ember to sweep Bug-type Pokemon.
 - **Gym Trainers**: Twins (Defeated), Bug Catcher Al (Defeated), Bug Catcher Benny (Defeated).
-- **Path to Bugsy**: Clearing left flank. Defeat Josh at (0,4) then find path to Bugsy.
+- **Path to Bugsy**: Path clear. Go Right -> Up to bypass Josh, then navigate to Bugsy.
