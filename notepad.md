@@ -5,7 +5,7 @@
 - **Main Quest**: Defeat Azalea Gym (Bugsy).
 - **Immediate Goal**: Defeat Rocket Grunt (3rd).
 - **Location**: Slowpoke Well B1F.
-- **Status**: In battle vs Rattata (Lv 7).
+- **Status**: In battle vs Rattata (Lv 7). Used Leer by mistake last turn.
 - **Next Steps**: Win battle. Rescue Slowpokes.
 
 ### Team Status
