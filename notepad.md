@@ -3,10 +3,10 @@
 
 ### Current Objectives & Strategy
 - **Main Quest**: Defeat Azalea Gym (Bugsy).
-- **Immediate Goal**: Defeat Rocket Grunt (3rd).
+- **Immediate Goal**: Explore Slowpoke Well B1F.
 - **Location**: Slowpoke Well B1F.
-- **Status**: In battle vs Zubat. Selected Ember.
-- **Next Steps**: Win battle. Rescue Slowpokes.
+- **Status**: Defeated 3rd Rocket Grunt.
+- **Next Steps**: Bypass Grunt. Find Proton/Executives. Rescue Slowpokes.
 
 ### Team Status
 - **Party**: Garnet (Lv19), Basil (Lv6), Egg (Lv5), Amethyst (Lv3), T (Lv3), Jasper (Lv2).
