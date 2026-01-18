@@ -38,6 +38,14 @@
 - **TYPE_80fc**: Bush (Solid Obstacle).
 - **TYPE_c453**: Ledge (Jumpable South).
 - **TYPE_fea1**: Blockage/Wall (Confirmed impassable at Rows 72, 76, 86).
+
+### Planned Route to Union Cave
+1. Pass Picnicker at (7, 70).
+2. Go South on X=7 to Row 74.
+3. Cross East to X=10.
+4. Go South to Row 84 (Union Cave Sign).
+5. Go West to X=4 (via Row 83/77).
+6. Go South on X=4 to Union Cave.
 - **Battle Note**: Cursor remembers last move (Ember/BR). To reuse Ember, just press 'A'. Blind navigation is risky due to wrapping.
 ### Boss Battle: Falkner
 - **Status**: Defeated on Turn 2770.
