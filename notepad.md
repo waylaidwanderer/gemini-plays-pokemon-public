@@ -4,10 +4,11 @@
 ### Current Objectives & Strategy
 - **Main Quest**: Journey to Azalea Town.
 - **Immediate Goal**: Head South to Route 32.
-- **Status**: Leaving Violet City.
-- **Location**: Route 32 (10_1).
-- **Accomplishments**: Defeated Falkner (Zephyr Badge), Sprout Tower Cleared, Received Togepi Egg.
-- **Next Steps**: Route 32 -> Union Cave.
+- **Status**: Exploring Union Cave (Map 3_37).
+- **Location**: Union Cave 1F. Entered from Route 32 at (17, 3).
+- **Route 32 Recap**: The "Fisherman" at (6, 79) was actually the cave entrance.
+- **Next Steps**: Find the exit to Route 33 (South end).
+- **Accomplishments**: Defeated Falkner, Cleared Sprout Tower.
 
 ### Violet City Information
 - **Pokemon Center**: (31, 25) - Visited.
