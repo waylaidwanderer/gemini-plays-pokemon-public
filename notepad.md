@@ -9,16 +9,15 @@
 - **Status**: Party HP Critical. Avoid battles.
 
 ### Route 29 Navigation
-- **Top Lane (Rows 4-9)**: One-Way Eastbound from x=43. Connects to New Bark Town at (0, 8).
+- **Top Lane (Rows 4-9)**: One-Way Eastbound from x=43. BLOCKED Westbound.
 - **Middle Lane (Rows 10-12)**: Blocked Westbound by Cut Tree (21, 11) and Ledge barrier.
-- **Lower Lane (Rows 14-17)**: DEAD END West of x=23. Blocked by trees at x=13 and x=37.
+- **Lower Lane (Rows 14-17)**: The only potential path West. Must investigate Row 17.
 - **Escape Route**: Gap at x=31 leads from Lower to Middle Lane. Gap at x=49 leads from Middle to Top Lane.
 - **Gatehouse (Route 46)**: Located North at (51, 7).
 
 - **Current Plan**: 
-  1. Backtrack East to the gap in ledges at x=31.
-  2. Travel North to the Top Lane (Row 6).
-  3. Travel West on Top Lane to Cherrygrove City.
+  1. Travel South from Top Lane to Lower Lane (Row 16/17).
+  2. Travel West on Lower Lane, specifically checking Row 17 for a path past x=23.
 
 ### Tile Mechanics
 - **TYPE_c453**: One-Way Ledge.
