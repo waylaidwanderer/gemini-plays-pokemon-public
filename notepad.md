@@ -14,9 +14,8 @@
 - **West Path**: Leads to Violet City.
 - **Observation**: `TYPE_fed7` North of the Berry House appears to be **Tall Grass**, not ledges. Attempting to traverse.
 
-- **Correction**: I am currently on the **East Path** (x=12), which leads to Mr. Pokemon's House (Dead End).
-- **Action**: Backtrack South to Row 40, cross West, then head North on the **West Path** to reach Violet City.
-- **Joey**: Appears non-responsive or already defeated. Ignoring him.
+- **Current Status**: Traversing West Path (x=4). Approaching Youngster Mikey at (2, 28).
+- **Next Step**: Defeat Mikey, then check blockage at (5, 26).
 
 ### Tile Mechanics
 - **TYPE_3fe2**: Walkable Ground.
