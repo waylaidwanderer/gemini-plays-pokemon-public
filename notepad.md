@@ -3,11 +3,11 @@
 
 ### Current Objectives & Strategy
 - **Main Quest**: Journey to Azalea Town.
-- **Immediate Goal**: Collect Mystery Egg & Head South.
-- **Status**: Healing in Violet City Pokemon Center.
+- **Immediate Goal**: Head South to Route 32.
+- **Status**: Collected Mystery Egg. Leaving Violet City.
 - **Location**: Violet City Pokemon Center (10_10).
-- **Accomplishments**: Defeated Falkner (Zephyr Badge), Sprout Tower Cleared.
-- **Next Steps**: Talk to Elm's Aide, then head South to Route 32.
+- **Accomplishments**: Defeated Falkner (Zephyr Badge), Sprout Tower Cleared, Received Togepi Egg.
+- **Next Steps**: South through Violet City -> Route 32 -> Union Cave.
 
 ### Violet City Information
 - **Pokemon Center**: (31, 25) - Visited.
