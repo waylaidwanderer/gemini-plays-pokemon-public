@@ -39,3 +39,8 @@
 - **Status**: Defeated on Turn 2770.
 - **Result**: Earned Zephyr Badge & TM31 (Mud-Slap).
 - **Strategy**: Quilava's Ember was effective despite accuracy drops.
+### Shopping List
+- Potions (Goal: 6+)
+- Antidotes (Goal: 3+)
+- Paralyze Heals (Goal: 2)
+- Repels (If available, Goal: 3)
