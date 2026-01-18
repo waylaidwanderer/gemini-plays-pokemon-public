@@ -27,11 +27,11 @@
 - Route 31 Lower Path was the key to Violet City.
 - Dark Cave entrance at Route 31 (34, 5).
 
-### Reflection (Turn 3310)
+### Reflection (Turn 3312)
 - **Status**: Battling Firebreather Bill.
-- **Opponent**: Koffing (Lv6).
-- **Strategy**: Using Ember (Special Attack) to bypass Koffing's high Physical Defense.
-- **Menu State**: Cursor reset to 'Tackle'. Pressing 'Down' x3 to reach 'Ember'.
+- **Opponent**: Koffing #2 (Lv6).
+- **Strategy**: Ember 1-hit KO'd the first one. Staying in with Garnet.
+- **Battle Log**: Defeated Koffing #1.
 
 ### Exploration Notes
 - **Union Cave 1F**:
