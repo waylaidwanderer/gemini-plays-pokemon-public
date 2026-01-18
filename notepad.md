@@ -27,11 +27,11 @@
 - Route 31 Lower Path was the key to Violet City.
 - Dark Cave entrance at Route 31 (34, 5).
 
-### Reflection (Turn 3276)
-- **Status**: Exploring Union Cave 1F.
-- **Location**: (11, 7).
-- **Accomplishments**: Defeated Hiker Russell. Garnet reached Level 18.
-- **Next Step**: Navigate around Russell and continue South.
+### Reflection (Turn 3282)
+- **Status**: Wild Battle vs Rattata in Union Cave.
+- **Location**: (15, 8).
+- **Recent Movement**: Successfully bypassed the rock at (12, 8) and moved East.
+- **Goal**: Defeat Rattata and continue East/South.
 
 ### Exploration Notes
 - **Union Cave 1F**:
@@ -41,8 +41,8 @@
   - **Items**: Found **X Attack** at (4, 2).
   - **Navigation**:
     - Row 8 blocked by water (West) and Russell (Center).
-    - Can bypass Russell via (10, 8) or (12, 8).
-    - Path continues South/East.
+    - Passed Russell, now in the Eastern corridor.
+    - Path seems to lead towards the East wall then likely South.
 
 ### Exploration Notes
 - **Union Cave 1F**:
