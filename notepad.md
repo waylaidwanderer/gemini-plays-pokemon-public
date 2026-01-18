@@ -34,6 +34,7 @@
 - **TYPE_5519**: Cut Tree (Requires HM01).
 - **TYPE_c453**: One-Way Ledge (Jumpable South).
 - **TYPE_8564**: Ladder/Stairs.
+- **TYPE_fea1**: Solid Wall/Ledge (Not Jumpable from North).
 - **Battle Note**: Cursor remembers last move (Ember/BR). To reuse Ember, just press 'A'. Blind navigation is risky due to wrapping.
 ### Boss Battle: Falkner
 - **Status**: Defeated on Turn 2770.
