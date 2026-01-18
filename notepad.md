@@ -3,18 +3,25 @@
 
 ### Current Objectives & Strategy
 - **Main Quest**: Begin the Gym Challenge (Violet City).
-- **Immediate Goal**: Reach Cherrygrove City.
-- **Healing**: Mom (Bank Only) confirmed. No healing at home. Must reach Cherrygrove.
-- **Status**: Party Healed. Ready to catch Pokemon (Spinarak?).
+- **Immediate Goal**: Buy Poke Balls in Violet City Mart.
+- **Status**: Party fully healed. Ready for action.
 
-### Route 30 Navigation
-- **Goal**: Reach Violet City.
-- **Key Obstacle**: Battling Trainers at (5, 26). Blockage CLEARED. Path North open.
-- **East Path**: Leads to Mr. Pokemon's House (Dead End).
-- **West Path**: Leads to Violet City. Open.
-- **Observation**: Registered Youngster Joey's phone number at (3, 28).
-- **Current Status**: Jumped ledge to lower Route 31. Heading West to Violet City. Avoiding trainer/item to the East due to low health.
-- **Reflection (Turn 2314)**: Successfully bypassed the dead end. Team health is critical. Prioritizing the Pokemon Center.
+### Violet City Information
+- **Pokemon Center**: (31, 25) - Visited.
+- **Poke Mart**: (10, 17) - Current Location.
+- **Gym**: (18, 16) - Faulkner (Flying type).
+- **Sprout Tower**: Expected North.
+- **School**: (30, 17).
+
+### Contacts
+- **Youngster Joey**: Route 30 (3, 28).
+
+### Route 30/31 Recap
+- Passed Cherrygrove City.
+- Defeated Rival (Silver).
+- Delivered Mystery Egg to Elm.
+- Route 31 Lower Path was the key to Violet City.
+- Dark Cave entrance at Route 31 (34, 5).
 
 ### Tile Mechanics
 - **TYPE_3fe2**: Walkable Ground.
@@ -23,16 +30,3 @@
 - **TYPE_80fc**: Tree/Bush (Obstacle).
 - **TYPE_5519**: Cut Tree (Requires HM01).
 - **TYPE_c453**: One-Way Ledge (Jumpable South).
-- **TYPE_a339**: Unknown (Possible City Gate/Edge).
-
-### Key Locations
-- **Cherrygrove City**: Pokemon Center, Mart.
-- Found Poké Ball at (18, 15) on Route 31 (Lower Path).
-- Heading West to Violet City.
-- Route 31 Lower Path confirmed as the correct route to Violet City.
-- Exploring Upper Path West of Berry Tree (North of ledges) for a route to Violet City.
-- Located Violet City Gym at (18, 16).
-- Searching South for Pokemon Center.
-- Found PRZCUREBERRY at (14, 29).
-- Validated: Building at (10, 17) is a Mart.
-- Validated: Building at (31, 25) has a "POKE" sign (Pokemon Center). Returning to heal.
