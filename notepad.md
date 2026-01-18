@@ -4,8 +4,8 @@
 ### Current Objectives & Strategy
 - **Main Quest**: Begin the Gym Challenge (Violet City).
 - **Immediate Goal**: Explore Sprout Tower.
-- **Status**: On 3rd Floor (3_1). Defeated Sage Chow. Garnet leads.
-- **Location**: (3, 1). Heading South.
+- **Status**: On 3rd Floor (3_1). Taking ladder at (2, 6) down. Garnet leads.
+- **Location**: (2, 5). Entering Ladder.
 
 ### Violet City Information
 - **Pokemon Center**: (31, 25) - Visited.
