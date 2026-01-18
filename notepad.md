@@ -4,11 +4,9 @@
 ### Current Objectives & Strategy
 - **Main Quest**: Begin the Gym Challenge (Violet City).
 - **Immediate Goal**: Explore Sprout Tower.
-- **Battle Note**: Vertical Menu confirmed. Ember is Slot 4 (Down x3).
-- **Status**: On 2nd Floor (3_2). Battling Sage Edmond (3rd/Final Bellsprout).
+- **Status**: On 2nd Floor (3_2). Victory against Sage Edmond.
 - **Location**: (9, 15).
-- **Discoveries**: Found Ladder at (10, 14) and Item at (12, 15).
-- **Strategy**: Finish battle, grab item, take ladder to 3F Central Area.
+- **Strategy**: Grab Item at (12, 15), then take Ladder at (10, 14) to 3F.
 
 ### Violet City Information
 - **Pokemon Center**: (31, 25) - Visited.
