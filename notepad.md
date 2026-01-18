@@ -40,7 +40,7 @@
 - **TYPE_fea1**: Blockage/Wall (Confirmed impassable at Rows 72, 76, 86).
 
 ### Planned Route to Union Cave
-1. Pass Picnicker at (7, 70).
+1. Pass Slowpoketail Seller at (7, 70).
 2. Go South on X=7 to Row 74.
 3. Cross East to X=10.
 4. Go South to Row 84 (Union Cave Sign).
