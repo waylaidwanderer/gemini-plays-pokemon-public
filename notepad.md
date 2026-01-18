@@ -4,9 +4,9 @@
 ### Current Objectives & Strategy
 - **Main Quest**: Begin the Gym Challenge (Violet City).
 - **Immediate Goal**: Explore Sprout Tower.
-- **Status**: On 3rd Floor (3_3). Battling Sage Neal.
+- **Status**: On 3rd Floor (3_3). Defeated Sage Neal.
 - **Location**: (11, 12).
-- **Immediate Goal**: Defeat Sage Neal, then proceed North.
+- **Strategy**: Go Left and North to bypass Sage Neal and find Elder Li.
 - **Strategy**: Use Ember. Vertical Menu.
 
 ### Violet City Information
