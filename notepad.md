@@ -50,3 +50,4 @@
 - **Blocked Paths**: East side (X=15) and Central West (X=13) are dead ends for southbound travel.
 - **Miracle Seed**: Obtained from NPC on Route 32 (Turn 2861).
 - **Recent Catch**: Zubat "Jet" (Box 1).
+- **Key Items**: Obtained Old Rod from Fishing Guru in Route 32 Pokemon Center.
