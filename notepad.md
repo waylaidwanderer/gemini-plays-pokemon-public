@@ -4,10 +4,10 @@
 ### Current Objectives & Strategy
 - **Main Quest**: Begin the Gym Challenge (Violet City).
 - **Immediate Goal**: Explore Sprout Tower.
-- **Status**: On 3rd Floor (3_3). Exploring East Side.
-- **Location**: (10, 14). Back from 2F.
-- **Immediate Goal**: Engage Sage at (11, 11), then proceed North to Elder Li.
-- **Strategy**: Move East then North. Battle Sage Troy?
+- **Status**: On 3rd Floor (3_3). Engaging Sage at (11, 11).
+- **Location**: (11, 12). Facing Sage.
+- **Immediate Goal**: Defeat Sage Troy(?), then proceed North.
+- **Strategy**: Use Ember. Vertical Menu.
 
 ### Violet City Information
 - **Pokemon Center**: (31, 25) - Visited.
