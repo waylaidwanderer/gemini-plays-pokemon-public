@@ -49,4 +49,4 @@
 - **Union Cave 1F**:
   - Hiker at (3, 6).
   - Water (`TYPE_4e8c`) blocks South at Row 8.
-  - Path continues East along Row 7.
+  - Path continues East along Row 6 (Row 7 blocked by rocks).
