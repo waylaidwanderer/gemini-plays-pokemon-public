@@ -4,12 +4,11 @@
 ### Current Objectives & Strategy
 - **Main Quest**: Begin the Gym Challenge (Violet City).
 - **Immediate Goal**: Explore Sprout Tower.
-- **Status**: On 3rd Floor (3_3). Facing Elder Li.
+- **Status**: On 3rd Floor (3_3). Battling Elder Li.
 - **Location**: (11, 5).
-- **Immediate Goal**: Battle Elder Li.
+- **Immediate Goal**: Defeat Elder Li.
 - **Strategy**: Use Ember. Vertical Menu.
 - **Note**: Silver escaped. Item ball visible at (14, 1).
-- **Strategy**: Use Ember. Vertical Menu.
 
 ### Violet City Information
 - **Pokemon Center**: (31, 25) - Visited.
