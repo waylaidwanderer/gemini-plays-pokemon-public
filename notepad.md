@@ -27,12 +27,20 @@
 - Route 31 Lower Path was the key to Violet City.
 - Dark Cave entrance at Route 31 (34, 5).
 
-### Reflection (Turn 3305)
-- **Status**: Exploring Union Cave 1F.
-- **Location**: (16, 15).
-- **Recent Event**: Caught Sandshrew "Bolin" (sent to PC).
-- **Navigation**:
-  - Moving West to Col 14, then South towards the Trainer.
+### Reflection (Turn 3310)
+- **Status**: Battling Firebreather Bill.
+- **Opponent**: Koffing (Lv6).
+- **Strategy**: Using Ember (Special Attack) to bypass Koffing's high Physical Defense.
+- **Menu State**: Cursor reset to 'Tackle'. Pressing 'Down' x3 to reach 'Ember'.
+
+### Exploration Notes
+- **Union Cave 1F**:
+  - **Entrance**: From Route 32 at (17, 3).
+  - **Hikers**: Daniel (Defeated), Russell (Defeated).
+  - **Items**: Found **X Attack** at (4, 2).
+  - **Navigation**:
+    - East Corridor leads South, then zigs West at Row 15.
+    - Continuing South towards Route 33 exit.
 
 ### Exploration Notes
 - **Union Cave 1F**:
