@@ -64,3 +64,4 @@
 - **TYPE_4e8c**: Likely Ledge (Southbound) or Coast.
 - **TYPE_fea1**: Water.
 - Defeated Firebreather Ray at (11, 27).
+- Cleared Union Cave 1F. Exiting to Route 33 via (17, 32).
