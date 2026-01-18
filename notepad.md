@@ -2,12 +2,12 @@
 - Started: Friday, January 16, 2026 at 5:08 PM PST
 
 ### Current Objectives & Strategy
-- **Main Quest**: Begin the Gym Challenge (Violet City).
-- **Immediate Goal**: Challenge Violet Gym.
-- **Status**: Preparing in Pokemon Center.
-- **Location**: Violet City.
+- **Main Quest**: Earn the Zephyr Badge.
+- **Immediate Goal**: Defeat Falkner.
+- **Status**: Challenging Violet Gym. Started Turn 2731.
+- **Location**: Violet Gym (10_7).
 - **Accomplishments**: Sprout Tower Cleared. Garnet evolved into Quilava! Obtained HM05 (Flash).
-- **Next Steps**: Heal up, then head to Gym.
+- **Next Steps**: Defeat the trainers, then the Leader.
 
 ### Violet City Information
 - **Pokemon Center**: (31, 25) - Visited.
