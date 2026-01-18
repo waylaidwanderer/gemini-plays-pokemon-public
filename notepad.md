@@ -35,4 +35,4 @@
 - **TYPE_5519**: Cut Tree (Requires HM01).
 - **TYPE_c453**: One-Way Ledge (Jumpable South).
 - **TYPE_8564**: Ladder/Stairs.
-- **Battle Note**: "Right" from Smokescreen failed to select Ember. The menu appears to be vertical due to text length. Try "Down" next time.
+- **Battle Note**: Battle menu is a 2x2 GRID. TL=Tackle, TR=Leer, BL=Smoke, BR=Ember. Use 'Right, Down' for Ember.
