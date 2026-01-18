@@ -27,13 +27,11 @@
 - Route 31 Lower Path was the key to Violet City.
 - Dark Cave entrance at Route 31 (34, 5).
 
-### Reflection (Turn 3298)
-- **Status**: Nicknaming caught Sandshrew (Lv6).
-- **Name Idea**: "Bolin" (Earthbender).
+### Reflection (Turn 3305)
+- **Status**: Captured Sandshrew "Bolin" (Lv6).
 - **Location**: (16, 15).
 - **Navigation**:
-  - Caught Sandshrew!
-  - Must go West to Col 15, then South to continue.
+  - Moving West to Col 15, then South.
   - Path blocked South at (16, 16).
 
 ### Exploration Notes
