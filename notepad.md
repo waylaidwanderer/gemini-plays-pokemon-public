@@ -55,9 +55,8 @@
 ### Exploration Notes
 - **Route 32**: Found Repel at (3, 30). Backtracking East to find a valid path South.
 - **Route 32**: Defeated Camper Roland (3, 43) and Youngster Gordon (4, 60).
-- **Route 32 Navigation**: The West path is blocked by a Fisherman at (6, 79). The path to Union Cave seems to be on the East side. Heading to the sign at (10, 84).
-- **Blocked Paths**: West side (Col 6) is blocked by bushes and an NPC.
-- **Dead Ends**: (6, 80) leads to the Fisherman.
+- **Route 32 Navigation**: Row 86 is blocked by a wall (X=6 to X=14). Must backtrack North to Row 83, cross West to X=4, then head South to Union Cave.
+- **Blocked Paths**: West (Row 79 Fisherman), East/Center (Row 86 Wall).
 
 - **Miracle Seed**: Obtained from NPC on Route 32 (Turn 2861).
 - **Recent Catch**: Zubat "Jet" (Box 1).
