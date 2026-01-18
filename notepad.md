@@ -27,3 +27,5 @@
 
 ### Key Locations
 - **Cherrygrove City**: Pokemon Center, Mart.
+- Found Poké Ball at (18, 15) on Route 31 (Lower Path).
+- Heading West to Violet City.
