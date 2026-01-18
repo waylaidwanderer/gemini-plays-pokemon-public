@@ -4,7 +4,8 @@
 ### Current Objectives & Strategy
 - **Main Quest**: Begin the Gym Challenge (Violet City).
 - **Immediate Goal**: Explore Sprout Tower.
-- **Status**: Stocked up on Poké Balls (5 Total). Heading North to Sprout Tower.
+- **Status**: On 2nd Floor (3_2). Basil is paralyzed. Garnet leads.
+- **Location**: (11, 1). Heading East/South to find ladder.
 
 ### Violet City Information
 - **Pokemon Center**: (31, 25) - Visited.
