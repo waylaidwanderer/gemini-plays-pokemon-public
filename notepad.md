@@ -3,9 +3,9 @@
 
 ### Current Objectives & Strategy
 - **Main Quest**: Defeat Azalea Gym (Bugsy).
-- **Immediate Goal**: Defeat Rocket Grunt (Zubat).
+- **Immediate Goal**: Defeat Rocket Grunt (Ekans).
 - **Location**: Slowpoke Well B1F.
-- **Status**: In battle. Selected Ember.
+- **Status**: In battle. Declined switch.
 - **Next Steps**: Finish battle. Continue exploring West.
 
 ### Team Status
