@@ -13,7 +13,7 @@
 - **East Path**: Leads to Mr. Pokemon's House (Dead End).
 - **West Path**: Leads to Violet City. Open.
 - **Observation**: Registered Youngster Joey's phone number at (3, 28).
-- **Current Status**: Defeated Bug Catcher Don at (1, 9). Approaching Violet City Gate.
+- **Current Status**: Arrived on Route 31 (Map 26_2). Path North blocked by Cut Tree at (25, 10). Detouring East through tall grass.
 
 ### Tile Mechanics
 - **TYPE_3fe2**: Walkable Ground.
