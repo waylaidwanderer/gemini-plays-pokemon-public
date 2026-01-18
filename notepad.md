@@ -4,7 +4,7 @@
 ### Current Objectives & Strategy
 - **Main Quest**: Begin the Gym Challenge (Violet City).
 - **Immediate Goal**: Explore Sprout Tower.
-- **Battle Note**: 'Right', 'Down' selected LEER last time. Trying 'Down', 'Right' for EMBER.
+- **Battle Note**: Menu seems VERTICAL. Start 1->Down->2(Leer). Start 2->Down->3(Smoke). Start 3->Down->4(Ember). Trying this logic.
 - **Status**: On 2nd Floor (3_2). Battling Sage Edmond.
 - **Location**: (9, 15).
 - **Discoveries**: Found Ladder at (10, 14) and Item at (12, 15).
