@@ -3,10 +3,10 @@
 
 ### Current Objectives & Strategy
 - **Main Quest**: Defeat Azalea Gym (Bugsy).
-- **Immediate Goal**: Enter Kurt's House.
-- **Location**: Azalea Town (Outside Kurt's House).
-- **Status**: Found Kurt's House at (9, 5).
-- **Next Steps**: Talk to Kurt. Clear Slowpoke Well. Get Hive Badge.
+- **Immediate Goal**: Enter Slowpoke Well.
+- **Location**: Kurt's House (Azalea Town).
+- **Status**: Kurt ran off to Slowpoke Well to fight Team Rocket.
+- **Next Steps**: Follow Kurt to the Well. Defeat Team Rocket.
 
 ### Team Status
 - **Party**: Garnet (Lv19), Basil (Lv6), Egg (Lv5), Amethyst (Lv3), T (Lv3), Jasper (Lv2).
