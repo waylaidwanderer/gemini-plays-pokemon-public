@@ -5,7 +5,8 @@
 - **Main Quest**: Defeat Azalea Gym (Bugsy).
 - **Immediate Goal**: Talk to Kurt to complete the Slowpoke Well quest.
 - **Location**: Azalea Gym (Leader's Chamber).
-- **Status**: Battling Gym Leader Bugsy. Opponent: Scyther (Ace). Positioning cursor for Ember.
+- **Status**: About to defeat Bugsy. Scyther is low.
+- **Gym Strategy**: Final blow with Ember.
 - **Gym Strategy**: Burn everything with Ember. Keep health up for Scyther.
 - **Next Steps**: Win battle. Find Proton/Executives. Rescue Slowpokes.
 
