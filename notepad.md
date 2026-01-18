@@ -40,6 +40,7 @@
 - **Result**: Earned Zephyr Badge & TM31 (Mud-Slap).
 - **Strategy**: Quilava's Ember was effective despite accuracy drops.
 ### Exploration Notes
-- **Route 32**: Ledge at (12, 34) failed to jump. Retrying West path (X=8) to jump ledge at (8, 36).
+- **Route 32**: Ledge at (13, 34) appears unjumpable. Abandoning South jump.
+- **New Plan**: Heading West through gap at Row 32 to explore unseen area (X<5).
 - **Miracle Seed**: Obtained from NPC on Route 32 (Turn 2861).
 - **Recent Catch**: Zubat "Jet" (Box 1).
