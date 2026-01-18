@@ -27,46 +27,28 @@
 - Route 31 Lower Path was the key to Violet City.
 - Dark Cave entrance at Route 31 (34, 5).
 
-### Reflection (Turn 3314)
-- **Status**: Exploring Union Cave 1F.
-- **Location**: (14, 15).
-- **Recent Event**: Defeated Firebreather Bill (2 Koffings).
-- **Navigation**:
-  - Bill blocks the path at (14, 16).
-  - Left path (Col 13) is a dead end at Row 17 (Wall).
-  - Must go Right to Col 15 to bypass him.
+### Union Cave 1F Exploration
+- **Entrance**: From Route 32 at (17, 3).
+- **Status**: Exploring South-East section. Currently backtracking from dead-end at (16, 21).
+- **Navigation Log**:
+  - Zig-zagged East/West to progress South.
+  - Path blocked at Row 16 (East side).
+  - Must backtrack North to ~Row 15 to cross West to Column 14/15.
+- **Trainers Defeated**:
+  - Hiker Daniel (4, 6)
+  - Hiker Russell (11, 8)
+  - Firebreather Bill (14, 16)
+- **Items Found**:
+  - **X Attack** (4, 2)
+  - **Great Ball** (16, 21) - *Dead End*
+- **Recent Catches**:
+  - Sandshrew "Bolin" (Lv6, Male) - *Sent to PC*
 
-### Exploration Notes
-- **Union Cave 1F**:
-  - **Entrance**: From Route 32 at (17, 3).
-  - **Trainers**: Daniel (Defeated), Russell (Defeated), Bill (Defeated).
-  - **Items**: Found **X Attack** at (4, 2).
-  - **Navigation**:
-    - East Corridor leads South, zigs West to Col 14.
-    - Continuing South via Col 15.
+### Current Objectives
+- **Goal**: Reach Azalea Town (South exit of Union Cave).
+- **Immediate**: Backtrack North to (14, 15) to find the path South.
 
-### Exploration Notes
-- **Union Cave 1F**:
-  - **Entrance**: From Route 32 at (17, 3).
-  - **Hikers**: Daniel (Defeated), Russell (Defeated).
-  - **Items**: Found **X Attack** at (4, 2).
-  - **Navigation**:
-    - East Corridor leads South, then zigs West at Row 15.
-    - Continuing South towards Route 33 exit.
-
-### Exploration Notes
-- **Union Cave 1F**:
-  - **Entrance**: From Route 32 at (17, 3).
-  - **Hiker Daniel**: Defeated at (4, 6).
-  - **Hiker Russell**: Encountered at (11, 8).
-  - **Items**: Found **X Attack** at (4, 2).
-  - **Navigation**:
-    - Row 8 is blocked by water.
-    - Row 7 is blocked by rocks.
-    - Path East is along Row 6.
-
-- **Inventory/Key Items**:
-  - **Key Items**: Old Rod, Map Card, Phone Card.
-  - **TMs**: Mud-Slap (TM31), Flash (HM05).
-  - **Recent Catch**: Zubat "Jet" (Box 1).
-- **Union Cave 1F**: Found **Great Ball** at (17, 21). Path South is blocked. Backtracking to Row 16 to cross to West side.
+### Key Items & Progress
+- **Badges**: Zephyr Badge.
+- **TMs**: Mud-Slap (TM31), Flash (HM05).
+- **Party**: Garnet (Lv18), Basil (Lv6), Egg (Lv5), etc.
