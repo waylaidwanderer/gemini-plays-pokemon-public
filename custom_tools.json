@@ -55,7 +55,7 @@
     ]
   },
   "check_path_connectivity": {
-    "description": "Checks if a path exists between coordinates in the Mental Map, respecting obstacles and ledges. Useful for checking if you are trapped or if a route is valid.",
+    "description": "Checks if a path exists between two coordinates using BFS on the Mental Map XML. Returns path length and steps if found.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -70,18 +70,16 @@
         },
         "target_y": {
           "type": "integer"
-        },
-        "target_min_x": {
-          "type": "integer"
         }
       },
       "required": [
         "start_x",
-        "start_y"
-      ],
-      "additionalProperties": false
+        "start_y",
+        "target_x",
+        "target_y"
+      ]
     },
-    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\n\ndef main(input_data):\n    start_x = input_data['start_x']\n    start_y = input_data['start_y']\n    target_x = input_data.get('target_x')\n    target_y = input_data.get('target_y')\n    target_min_x = input_data.get('target_min_x')\n\n    try:\n        root = ET.fromstring(map_xml_string)\n        width = int(root.attrib['width'])\n        height = int(root.attrib['height'])\n        \n        grid = {}\n        # Known obstacles\n        obstacles = {\n            'TYPE_2889', # Tree Wall\n            'TYPE_5519', # Cut Tree\n            'TYPE_c453', # Ledge (Treat as obstacle for safety)\n        }\n        \n        for row in root.findall('Row'):\n            y = int(row.attrib['id'])\n            for tile in row.findall('Tile'):\n                x = int(tile.attrib['id'])\n                t_type = tile.attrib.get('type', 'unseen')\n                \n                is_walkable = True\n                if t_type in obstacles:\n                    is_walkable = False\n                \n                # Check markers for manual overrides\n                markers = tile.findall('Marker')\n                for m in markers:\n                    if 'Blocked' in m.text or 'Wall' in m.text or 'Dead End' in m.text:\n                        is_walkable = False\n                \n                grid[(x, y)] = is_walkable\n\n        # BFS\n        queue = deque([(start_x, start_y, [])])\n        visited = set([(start_x, start_y)])\n        \n        found_path = None\n        \n        while queue:\n            cx, cy, path = queue.popleft()\n            \n            if target_x is not None and target_y is not None:\n                if cx == target_x and cy == target_y:\n                    found_path = path + [(cx, cy)]\n                    break\n            elif target_min_x is not None:\n                if cx >= target_min_x:\n                    found_path = path + [(cx, cy)]\n                    break\n            \n            for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n                nx, ny = cx + dx, cy + dy\n                if 0 <= nx < width and 0 <= ny < height:\n                    if (nx, ny) not in visited and grid.get((nx, ny), False):\n                        visited.add((nx, ny))\n                        queue.append((nx, ny, path + [(cx, cy)]))\n        \n        if found_path:\n            print(f\"Path found (Length {len(found_path)})\")\n        else:\n            print(\"No path found.\")\n\n    except Exception as e:\n        print(f\"Error: {e}\")\n\nif __name__ == \"__main__\":\n    main(input_data)",
+    "python_script": "import xml.etree.ElementTree as ET\nimport collections\n\nstart_x = input_data['start_x']\nstart_y = input_data['start_y']\ntarget_x = input_data['target_x']\ntarget_y = input_data['target_y']\n\ntry:\n    root = ET.fromstring(map_xml_string)\n    width = int(root.get(\"width\"))\n    height = int(root.get(\"height\"))\n    grid = {}\n    \n    for row in root.findall(\"Row\"):\n        y = int(row.get(\"id\"))\n        for tile in row.findall(\"Tile\"):\n            x = int(tile.get(\"id\"))\n            t_type = tile.get(\"type\")\n            grid[(x, y)] = t_type\n\n    start = (start_x, start_y)\n    target = (target_x, target_y)\n    \n    if start not in grid or target not in grid:\n        print(f\"Error: Coordinates out of bounds or not in map data.\")\n        exit()\n\n    queue = collections.deque([[start]])\n    visited = set([start])\n    \n    found = False\n    final_path = []\n    \n    # Simple passable check - assume anything not explicitly a known wall is passable for now\n    # This can be refined\n    WALL_TYPES = [\"TYPE_2889\", \"TYPE_80fc\", \"TYPE_5519\", \"TYPE_a336\", \"TYPE_fed7\"] \n    # Note: TYPE_c453 is ledge, handled as one-way usually, but for simple connectivity checks might treat as passable or blocked depending on direction. \n    # For this simple BFS, let's treat it as passable but risky, or just block it if we want strictness.\n    # Let's verify specific blocked types from notepad.\n    \n    while queue:\n        path = queue.popleft()\n        x, y = path[-1]\n        \n        if (x, y) == target:\n            found = True\n            final_path = path\n            break\n        \n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            nx, ny = x + dx, y + dy\n            if 0 <= nx < width and 0 <= ny < height:\n                if (nx, ny) not in visited:\n                    tile_type = grid.get((nx, ny), \"unseen\")\n                    if tile_type not in WALL_TYPES:\n                        visited.add((nx, ny))\n                        new_path = list(path)\n                        new_path.append((nx, ny))\n                        queue.append(new_path)\n\n    if found:\n        print(f\"Path found! Length: {len(final_path)}. Path: {final_path}\")\n    else:\n        print(\"No path found.\")\n\nexcept Exception as e:\n    print(f\"Error parsing map or finding path: {e}\")",
     "history": [
       {
         "commit_message": "Initial version",
@@ -97,6 +95,11 @@
         "commit_message": "Initial definition of check_path_connectivity tool to help verify navigation paths.",
         "timestamp": "2026-01-17T19:59:31.235Z",
         "action_counter": 1608
+      },
+      {
+        "commit_message": "Initial definition of check_path_connectivity tool for verifying paths on the mental map.",
+        "timestamp": "2026-01-18T00:52:36.653Z",
+        "action_counter": 2016
       }
     ]
   },
