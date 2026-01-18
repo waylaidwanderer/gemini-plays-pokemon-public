@@ -5,7 +5,7 @@
 - **Main Quest**: Defeat Azalea Gym (Bugsy).
 - **Immediate Goal**: Talk to Kurt to complete the Slowpoke Well quest.
 - **Location**: Slowpoke Well B1F.
-- **Status**: Inside Azalea Gym. Defeated Bug Catcher Al. Challenging next trainer.
+- **Status**: Inside Azalea Gym. Defeated Benny. Approaching Bugsy at (5, 7).
 - **Next Steps**: Win battle. Find Proton/Executives. Rescue Slowpokes.
 
 ### Team Status
