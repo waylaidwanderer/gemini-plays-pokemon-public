@@ -13,7 +13,7 @@
 - **East Path**: Leads to Mr. Pokemon's House (Dead End).
 - **West Path**: Leads to Violet City. Open.
 - **Observation**: Registered Youngster Joey's phone number at (3, 28).
-- **Current Status**: Arrived on Route 31 (Map 26_2). Path North blocked by Cut Tree at (25, 10). Detouring East through tall grass.
+- **Current Status**: Caught Bellsprout (Basil) at (31, 14). Detouring East through tall grass to bypass Cut Tree.
 
 ### Tile Mechanics
 - **TYPE_3fe2**: Walkable Ground.
