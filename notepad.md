@@ -3,10 +3,10 @@
 
 ### Current Objectives & Strategy
 - **Main Quest**: Navigate Ilex Forest to Goldenrod City.
-- **Immediate Goal**: Heal then Enter Ilex Forest.
+- **Immediate Goal**: Enter Ilex Forest.
 - **Location**: Azalea Pokemon Center.
-- **Status**: Healing party after Rival battle.
-- **Next Steps**: Enter Ilex Forest gatehouse.
+- **Status**: Healed up and ready.
+- **Next Steps**: Enter Ilex Forest gatehouse to the West.
 
 ### Team Status
 - **Party**: Garnet (Lv19), Basil (Lv6), Egg (Lv5), Amethyst (Lv3), T (Lv3), Jasper (Lv2).
