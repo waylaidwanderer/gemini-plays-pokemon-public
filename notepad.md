@@ -4,11 +4,10 @@
 ### Current Objectives & Strategy
 - **Main Quest**: Begin the Gym Challenge (Violet City).
 - **Immediate Goal**: Explore Sprout Tower.
-- **Status**: On 3rd Floor (3_3). Battling Elder Li.
-- **Location**: (11, 5).
-- **Immediate Goal**: Defeat Elder Li.
-- **Strategy**: Use Ember. Menu is 2x2 Grid. Input: Up, Right, Down.
-- **Note**: Silver escaped. Item ball visible at (14, 1).
+- **Status**: On 3rd Floor (3_3). Tower Cleared!
+- **Location**: (10, 3).
+- **Accomplishments**: Defeated Elder Li. Garnet evolved into Quilava! Obtained HM05 (Flash).
+- **Next Steps**: Grab item at (14, 1) (Escape Rope?), then exit tower and head to Gym.
 
 ### Violet City Information
 - **Pokemon Center**: (31, 25) - Visited.
