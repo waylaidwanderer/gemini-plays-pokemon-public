@@ -5,7 +5,7 @@
 - **Main Quest**: Defeat Azalea Gym (Bugsy).
 - **Immediate Goal**: Talk to Kurt to complete the Slowpoke Well quest.
 - **Location**: Slowpoke Well B1F.
-- **Status**: Inside Azalea Gym. Talking to Gym Guide. Garnet is fully healed and ready.
+- **Status**: Inside Azalea Gym. Defeated Bug Catcher Al. Challenging next trainer.
 - **Next Steps**: Win battle. Find Proton/Executives. Rescue Slowpokes.
 
 ### Team Status
