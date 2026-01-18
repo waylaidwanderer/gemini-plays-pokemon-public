@@ -69,3 +69,5 @@
 - **TYPE_3fe2**: Grass/Floor (Walkable).
 - **TYPE_a339**: Fruit Tree (Interactable).
 - **TYPE_80fc**: Small Tree (Cut Tree/Obstacle).
+- Garnet used last Potion. Current HP: 6/53. Critical battle state.
+- Accidental Smokescreen used. Praying for Geodude miss.
