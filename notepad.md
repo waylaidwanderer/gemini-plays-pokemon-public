@@ -4,7 +4,7 @@
 ### Current Objectives & Strategy
 - **Main Quest**: Begin the Gym Challenge (Violet City).
 - **Immediate Goal**: Explore Sprout Tower.
-- **Status**: On 3rd Floor (3_1). Basil is paralyzed. Garnet leads.
+- **Status**: On 3rd Floor (3_1). Basil is healthy. Garnet leads.
 - **Location**: (17, 3). Just arrived from 2nd Floor via Ladder. Nearby item at (16, 7).
 
 ### Violet City Information
