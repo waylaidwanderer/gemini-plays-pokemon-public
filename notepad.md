@@ -33,3 +33,4 @@
 - Exploring Upper Path West of Berry Tree (North of ledges) for a route to Violet City.
 - Located Violet City Gym at (18, 16).
 - Searching South for Pokemon Center.
+- Found PRZCUREBERRY at (14, 29).
