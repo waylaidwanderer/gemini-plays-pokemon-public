@@ -15,9 +15,8 @@
 - **Gatehouse (Route 46)**: (51, 7) appears to be a solid wall/locked. Not the way.
 
 - **Current Plan**: 
-  1. Bypass Tree Wall (x=20) by moving North to Row 3.
-  2. Travel West on Row 3 to Cherrygrove City.
-  3. Heal at Pokemon Center.
+  1. Continue West on Row 6 to Cherrygrove City.
+  2. Heal at Pokemon Center.
 
 ### Tile Mechanics
 - **TYPE_c453**: One-Way Ledge.
