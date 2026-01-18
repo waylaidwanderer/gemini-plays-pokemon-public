@@ -59,3 +59,4 @@
 - **TYPE_fea1**: Water (Requires Surf).
 - **TYPE_2889**: Rock Wall (Impassable).
 - **TYPE_3fe2**: Floor (Walkable).
+- Found **X Defend** at (17, 23).
