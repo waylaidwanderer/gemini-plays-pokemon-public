@@ -14,7 +14,7 @@
 - **West Path**: Leads to Violet City. Open.
 - **Observation**: Registered Youngster Joey's phone number at (3, 28).
 - **Current Status**: In battle with Wild Poliwag (Red HP). Amethyst (Rattata) is out. 1 Poké Ball left. CRITICAL MOMENT.
-- **Reflection (Turn 2288)**: Current screen shows 'ITEMS' pocket empty. Gen 2 Battle Pack uses Left/Right for pockets. Pressing Right to switch to 'BALLS'.
+- **Reflection (Turn 2289)**: Currently in TM/HM pocket. Correcting navigation: Pressing LEFT twice to reach BALLS pocket (TM/HM -> KeyItems -> Balls).
 
 ### Tile Mechanics
 - **TYPE_3fe2**: Walkable Ground.
