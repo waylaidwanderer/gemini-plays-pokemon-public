@@ -35,3 +35,7 @@
 - **TYPE_c453**: One-Way Ledge (Jumpable South).
 - **TYPE_8564**: Ladder/Stairs.
 - **Battle Note**: Cursor remembers last move (Ember/BR). To reuse Ember, just press 'A'. Blind navigation is risky due to wrapping.
+### Boss Battle: Falkner
+- **Attempt 1 Start**: Turn 2752.
+- **Strategy**: Quilava used Ember. Burn everything.
+- **Notes**: Watch out for Mud-Slap (accuracy drop).
