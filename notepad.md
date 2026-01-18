@@ -5,8 +5,9 @@
 - **Main Quest**: Defeat Azalea Gym (Bugsy).
 - **Immediate Goal**: Talk to Kurt to complete the Slowpoke Well quest.
 - **Location**: Azalea Gym (Leader's Chamber).
-- **Status**: Garnet fainted. Wipe imminent. Scyther is at red HP.
-- **Gym Strategy**: Survive? (Unlikely). Prepare for rematch.
+- **Status**: Garnet fainted. UI Confusion (Bag Open?). Attempting to recover and send Amethyst.
+- **Gym Strategy**: Scyther is active. Party is weak. Wipe likely.
+- **Immediate Goal**: Send out Amethyst.
 - **Gym Strategy**: Burn everything with Ember. Keep health up for Scyther.
 - **Next Steps**: Win battle. Find Proton/Executives. Rescue Slowpokes.
 
