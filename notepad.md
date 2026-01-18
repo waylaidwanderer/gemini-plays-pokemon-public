@@ -9,16 +9,16 @@
 - **Status**: Party HP Critical. Avoid battles.
 
 ### Route 29 Navigation
-- **Top Lane (Row 6)**: Westbound travel BLOCKED by Bushes (TYPE_80fc) at x=46.
-- **Row 7**: Blocked at x=46.
+- **Top Lane (Row 6)**: BLOCKED Westbound by Bushes at x=46. Agent pathfinding failed (Row 5 is trees).
 - **Middle Lane (Rows 10-12)**: Blocked Westbound by Cut Tree (21, 11).
-- **Lower Lane (Rows 14-17)**: CONFIRMED DEAD END at x=13.
+- **Lower Lane (Rows 14-17)**: Previous "Dead End" at x=13 was only verified on Row 15. **MUST CHECK ROW 16/17.**
 - **Escape Route**: Gap at x=31 leads from Lower to Middle Lane. Gap at x=49 leads from Middle to Top Lane.
-- **Gatehouse (Route 46)**: Located North at (51, 7). POTENTIAL DETOUR?
+- **Gatehouse (Route 46)**: Located North at (51, 7). Likely not the path to Cherrygrove.
 
 - **Current Plan**: 
-  1. Use Pathfinder to verify if ANY path exists West of x=43.
-  2. If blocked, investigate the Gatehouse at (51, 7).
+  1. Travel South to Middle Lane via gap at (49, 10).
+  2. Jump Ledge South to Lower Lane (around x=45 or x=50).
+  3. Travel West on **Row 17** (Bottom Edge) to check for a path past x=13.
 
 ### Tile Mechanics
 - **TYPE_c453**: One-Way Ledge.
