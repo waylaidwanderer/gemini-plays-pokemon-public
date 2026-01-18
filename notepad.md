@@ -5,8 +5,8 @@
 - **Main Quest**: Defeat Azalea Gym (Bugsy).
 - **Immediate Goal**: Defeat Rocket Grunt (3rd).
 - **Location**: Slowpoke Well B1F.
-- **Status**: In battle. Cursor on Smokescreen. Selecting Ember.
-- **Next Steps**: Win battle. Rescue Slowpokes.
+- **Status**: In battle. Selected Ember. Rattata used Quick Attack.
+- **Next Steps**: Finish battle. Rescue Slowpokes.
 
 ### Team Status
 - **Party**: Garnet (Lv19), Basil (Lv6), Egg (Lv5), Amethyst (Lv3), T (Lv3), Jasper (Lv2).
