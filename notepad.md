@@ -9,14 +9,13 @@
 - **Status**: Party HP Critical. Avoid battles.
 
 ### Route 29 Navigation
-- **Top Lane (Row 6)**: Blocked at x=46. **CRITICAL: Agent pathfinder suggested a bypass on Row 5 (Turn 1997). Must verify this.**
+- **Top Lane (Row 6)**: Blocked at x=46. Row 5 bypass idea was based on false pathfinding (Row 5 is trees).
 - **Middle Lane**: Blocked by Cut Tree (x=21).
 - **Lower Lane (Rows 14-17)**: CONFIRMED DEAD END at x=13 (Tree Wall).
 - **Current Plan**: 
-  1. Backtrack East to x=31 -> Gap to Middle Lane.
-  2. Travel East to x=51.
-  3. **Thoroughly investigate Gatehouse** entrance at (50-52, 7).
-  4. If Gatehouse fails, jump ledge to Row 17 and go West.
+  1. Travel East to x=51.
+  2. **Thoroughly investigate Gatehouse** entrance at (50-52, 7).
+  3. If Gatehouse fails, jump ledge to Row 17 and go West.
 
 ### Tile Mechanics
 - **TYPE_c453**: One-Way Ledge.
