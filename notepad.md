@@ -3,10 +3,10 @@
 
 ### Current Objectives & Strategy
 - **Main Quest**: Defeat Azalea Gym (Bugsy).
-- **Immediate Goal**: Find Kurt's House (likely NW).
-- **Location**: Azalea Town (Exiting Charcoal Kiln).
-- **Status**: Confirmed House at (21, 13) is Charcoal Kiln. Need Cut.
-- **Next Steps**: Go West. Find Kurt. Clear Slowpoke Well.
+- **Immediate Goal**: Enter Kurt's House.
+- **Location**: Azalea Town (Outside Kurt's House).
+- **Status**: Found Kurt's House at (9, 5).
+- **Next Steps**: Talk to Kurt. Clear Slowpoke Well. Get Hive Badge.
 
 ### Team Status
 - **Party**: Garnet (Lv19), Basil (Lv6), Egg (Lv5), Amethyst (Lv3), T (Lv3), Jasper (Lv2).
