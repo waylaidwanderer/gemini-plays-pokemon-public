@@ -5,28 +5,25 @@
 - **Main Quest**: Begin the Gym Challenge (Violet City).
 - **Immediate Goal**: Reach Cherrygrove City.
 - **Healing**: Mom (Bank Only) confirmed. No healing at home. Must reach Cherrygrove.
-
 - **Status**: Party HP Critical. Avoid battles.
 
 ### Route 29 Navigation
-- **Top Lane (Row 6)**: Blocked at x=46.
+- **Top Lane (Row 6)**: Currently traversing West.
 - **Middle Lane**: Blocked by Cut Tree (x=21).
-- **Lower Lane (Rows 14-17)**: Previous "Dead End" check at x=13 was on Row 15. **Row 17 (Bottom Edge) is the last hope.**
-- **Gatehouse (Route 46)**: (51, 7) appears to be a solid wall/locked. Not the way.
+- **Lower Lane**: Dead End at x=13.
 
 - **Current Plan**: 
   1. Continue West on Row 6 to Cherrygrove City.
   2. Heal at Pokemon Center.
 
 ### Tile Mechanics
-- **TYPE_c453**: One-Way Ledge.
-- **TYPE_2889**: Tree Wall.
+- **TYPE_3fe2**: Walkable Ground.
+- **TYPE_fed7**: Walkable Grass/Ledge Top.
+- **TYPE_2889**: Tree Wall (Obstacle).
+- **TYPE_80fc**: Tree/Bush (Obstacle).
 - **TYPE_5519**: Cut Tree (Requires HM01).
+- **TYPE_c453**: One-Way Ledge (Jumpable South).
+- **TYPE_a339**: Unknown (Possible City Gate/Edge).
 
 ### Key Locations
 - **Cherrygrove City**: Pokemon Center, Mart.
-- **Route 30**: Path to Violet City.
-- **Correction**: `TYPE_2889` is confirmed to be an OBSTACLE (Trees/Walls), not walkable grass. Previous agent pathfinding failed because of this.
-- **Observation**: `TYPE_fed7` on Route 29 (Middle/Lower transition) is **Walkable**, confirming it's a ledge top or walkable grass, NOT a wall.
-- **Lower Lane Strategy**: FAILED. Confirmed Dead End at x=13 on all rows.
-- **Action**: Backtracking East to x=31 to use the Ledge Gap.
