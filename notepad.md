@@ -27,12 +27,11 @@
 - Route 31 Lower Path was the key to Violet City.
 - Dark Cave entrance at Route 31 (34, 5).
 
-### Reflection (Turn 3246)
-- **Status**: Exploring Union Cave 1F.
-- **Location**: (5, 6).
-- **Goal**: Navigate South/West to Route 33 exit.
-- **Strategy**: Follow the path East along Row 6 since Row 7 is blocked by rocks and Row 8 is water.
-- **Battle**: Defeated Hiker Daniel (Onix). Garnet Lv17 is strong.
+### Reflection (Turn 3268)
+- **Status**: Battling Hiker Russell's 2nd Geodude.
+- **Lesson Learned**: The Move Selection Menu is a **VERTICAL LIST**, not a grid. I was pressing 'Right' to go from Move 3 to Move 4, but I needed to press 'Down'.
+- **Action**: Correcting battle inputs.
+- **Goal**: Finish battle and explore Union Cave.
 
 ### Exploration Notes
 - **Union Cave 1F**:
