@@ -12,8 +12,8 @@
 - **Key Obstacle**: Battling Trainers at (5, 26). Blockage CLEARED. Path North open.
 - **East Path**: Leads to Mr. Pokemon's House (Dead End).
 - **West Path**: Leads to Violet City. Open.
-- **Observation**: Passed Youngster Mikey at (3, 28) without battling. Can return later.
-- **Current Status**: Moving North on West Path. Approaching Trainer at (5, 23).
+- **Observation**: Registered Youngster Joey's phone number at (3, 28).
+- **Current Status**: Defeated Youngster Mikey at (5, 23). Moving North towards Violet City.
 
 ### Tile Mechanics
 - **TYPE_3fe2**: Walkable Ground.
