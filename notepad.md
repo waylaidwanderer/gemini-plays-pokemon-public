@@ -14,7 +14,7 @@
 - **West Path**: Leads to Violet City. Open.
 - **Observation**: Registered Youngster Joey's phone number at (3, 28).
 - **Current Status**: In battle with Wild Poliwag (Red HP). Amethyst (Rattata) is out. 1 Poké Ball left. CRITICAL MOMENT.
-- **Reflection (Turn 2285)**: Cleared text to access battle menu. Must navigate to Pack -> Ball Pocket -> Throw last ball. Do not attack.
+- **Reflection (Turn 2287)**: Navigating menu. Pressed Down previously, landed on Key Items. Balls should be UP. Correcting navigation: Left -> Up -> Right.
 
 ### Tile Mechanics
 - **TYPE_3fe2**: Walkable Ground.
