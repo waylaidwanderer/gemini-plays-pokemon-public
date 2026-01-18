@@ -14,8 +14,9 @@
 - **Lower Lane (Rows 14-17)**: CONFIRMED DEAD END at x=13 (Tree Wall).
 - **Current Plan**: 
   1. Backtrack East to x=31 -> Gap to Middle Lane.
-  2. Travel East to x=49 -> Gap to Top Lane.
-  3. **Execute Row 5 Bypass**: At (49, 6), go UP to (49, 5) and travel West.
+  2. Travel East to x=51.
+  3. **Thoroughly investigate Gatehouse** entrance at (50-52, 7).
+  4. If Gatehouse fails, jump ledge to Row 17 and go West.
 
 ### Tile Mechanics
 - **TYPE_c453**: One-Way Ledge.
