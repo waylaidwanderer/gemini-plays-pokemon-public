@@ -13,8 +13,8 @@
 - **Lower Lane**: Dead End at x=13.
 
 - **Current Plan**: 
-  1. Heal at Pokemon Center (Current).
-  2. Buy Potions at Mart (Separate Building).
+  1. Finish shopping (Poke Balls).
+  2. Exit Mart.
   3. Head North to Route 30.
 
 ### Tile Mechanics
