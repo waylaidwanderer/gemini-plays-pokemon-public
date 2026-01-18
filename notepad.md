@@ -27,12 +27,12 @@
 - Route 31 Lower Path was the key to Violet City.
 - Dark Cave entrance at Route 31 (34, 5).
 
-### Reflection (Turn 3287)
-- **Status**: Running from Wild Geodude.
+### Reflection (Turn 3288)
+- **Status**: Exploring Union Cave 1F.
 - **Location**: (17, 10).
 - **Navigation**:
-  - Decided to flee to save HP/PP.
-  - Continuing South along the East wall.
+  - Escaped wild Geodude.
+  - Continuing South along the East wall to reveal unseen area (Row 12+).
 
 ### Exploration Notes
 - **Union Cave 1F**:
