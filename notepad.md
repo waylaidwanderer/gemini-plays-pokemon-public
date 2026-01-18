@@ -44,6 +44,7 @@
 ### Exploration Notes
 - **Route 32**: Found Repel at (3, 30). Backtracking East to find a valid path South.
 - **Navigation**: East side (X=15) is a dead end. West side (X=13) is blocked at Row 34.
-- **Correction**: Must explore Far West (X=3) past the Repel location to find the path South.
+- **Correction**: The West side (Columns 2-4) opens up into a walkable path South of Row 34.
+- **Route 32 Navigation**: Proceeding South along the West edge (X=3).
 - **Miracle Seed**: Obtained from NPC on Route 32 (Turn 2861).
 - **Recent Catch**: Zubat "Jet" (Box 1).
