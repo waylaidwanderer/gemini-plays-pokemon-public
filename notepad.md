@@ -36,7 +36,6 @@
 - **TYPE_8564**: Ladder/Stairs.
 - **Battle Note**: Cursor remembers last move (Ember/BR). To reuse Ember, just press 'A'. Blind navigation is risky due to wrapping.
 ### Boss Battle: Falkner
-- **Attempt 1 Start**: Turn 2752.
-- **Strategy**: Quilava used Ember. Burn everything.
-- **Notes**: Watch out for Mud-Slap (accuracy drop).
-- **Battle Mechanic**: Menu cursor likely wraps vertically (Bottom -> Top). Last turn 'Down' from Ember went to Leer. Correcting by using 'Down, Right' again from Leer should hit Ember.
+- **Status**: Defeated on Turn 2770.
+- **Result**: Earned Zephyr Badge & TM31 (Mud-Slap).
+- **Strategy**: Quilava's Ember was effective despite accuracy drops.
