@@ -35,11 +35,10 @@
 
 ### Exploration Notes
 - **Route 32**: Defeated Camper Roland (3, 43) and Youngster Gordon (4, 60).
-- **Route 32 Maze Solution**:
-  - **Goal**: Reach West Strip (Col 4) BELOW the wall at Row 72.
-  - **Path**: Navigate North past the Fishermen at (6, 82) and (6, 79). At Row 78, cross West to Col 4. Then head South to Union Cave.
-  - **Obstacles**: Fisherman Justin at (6, 82) and another Fisherman at (6, 79). Must defeat/pass them.
-- **Blocked Paths**: Col 4 (North of Row 72), Col 7 (South of Row 76), Col 10 (South of Row 86).
+- **Union Cave Strategy**:
+  - **Layout**: 1F connects Route 32 to Route 33.
+  - **Obstacles**: Rock walls and Hikers.
+  - **Goal**: Navigate South/West to the exit.
 
 - **Miracle Seed**: Obtained from NPC on Route 32 (Turn 2861).
 - **Recent Catch**: Zubat "Jet" (Box 1).
