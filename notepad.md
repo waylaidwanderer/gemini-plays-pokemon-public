@@ -4,8 +4,9 @@
 ### Current Objectives & Strategy
 - **Main Quest**: Begin the Gym Challenge (Violet City).
 - **Immediate Goal**: Explore Sprout Tower.
-- **Status**: On 3rd Floor (3_1). Fighting Sages. Garnet leads.
-- **Location**: (3, 6). Back from 2F dead end. Battling Sage at (3, 5).
+- **Status**: On 3rd Floor (3_1). Blocked by Sage. Trying to bypass or trigger battle.
+- **Location**: (3, 6). Sage at (3, 5) blocks North. Ladder at (2, 6) might be a warp.
+- **Plan**: Try bumping Sage. If no battle, try using Ladder or finding path on 2F.
 
 ### Violet City Information
 - **Pokemon Center**: (31, 25) - Visited.
