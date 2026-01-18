@@ -60,3 +60,6 @@
 - **TYPE_2889**: Rock Wall (Impassable).
 - **TYPE_3fe2**: Floor (Walkable).
 - Found **X Defend** at (17, 23).
+### Tile Mechanics (3_37)
+- **TYPE_4e8c**: Likely Ledge (Southbound) or Coast.
+- **TYPE_fea1**: Water.
