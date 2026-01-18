@@ -4,9 +4,10 @@
 ### Current Objectives & Strategy
 - **Main Quest**: Begin the Gym Challenge (Violet City).
 - **Immediate Goal**: Explore Sprout Tower.
-- **Status**: On 3rd Floor (3_3). Healing Garnet.
-- **Location**: (7, 14).
-- **Strategy**: Heal Garnet, then head East to find Elder Li.
+- **Status**: On 2nd Floor (3_2). Returning to 3F.
+- **Location**: (10, 14). Accidentally warped down.
+- **Correction**: The "item" at (12, 15) is just a statue.
+- **Strategy**: Go back up the ladder at (10, 14) to 3F, then head East/North to find Elder Li.
 
 ### Violet City Information
 - **Pokemon Center**: (31, 25) - Visited.
