@@ -31,4 +31,5 @@
 - **Cherrygrove City**: Pokemon Center, Mart.
 - **Route 30**: Path to Violet City.
 - **Correction**: `TYPE_2889` is confirmed to be an OBSTACLE (Trees/Walls), not walkable grass. Previous agent pathfinding failed because of this.
-- **Observation**: `TYPE_fed7` on Route 29 (Middle Lane, x=44-47) appears to be **Walkable Ledge Top**, not an obstacle.
+- **Observation**: `TYPE_fed7` on Route 29 (Middle/Lower transition) is **Walkable**, confirming it's a ledge top or walkable grass, NOT a wall.
+- **Lower Lane Strategy**: Must verify blockage at x=13/23 on **Row 16 and 17**. Previous checks were too high (Row 14/15).
