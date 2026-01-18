@@ -32,3 +32,5 @@
 - Defeated Falkner.
 - Crossed Union Cave.
 - Hint: The Charcoal Man's Pokemon can use CUT.
+- **Gym Strategy**: Use Garnet's Ember to sweep Bug-type Pokemon.
+- **Gym Trainers**: Twins (4,10)/(5,10), Bug Catcher (8,8).
