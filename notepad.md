@@ -26,43 +26,19 @@
 - Route 31 Lower Path was the key to Violet City.
 - Dark Cave entrance at Route 31 (34, 5).
 
-### Reflection (Turn 3164)
-- **Status**: Stuck on Route 32 (Southbound).
-- **Blockages**: West (Row 72), Center (Row 76), East (Row 86) all blocked by `TYPE_fea1`.
-- **Hypothesis**: `TYPE_fea1` might be a ledge, or there is a crossover path I missed (e.g. at Row 74).
-- **Action**: Running BFS to find the valid path.
-### Tile Mechanics
-- **TYPE_3fe2**: Walkable Ground.
-- **TYPE_fed7**: Walkable Grass/Ledge Top.
-- **TYPE_2889**: Tree/Wall (Impassable).
-- **TYPE_80fc**: Bush (Solid Obstacle).
-- **TYPE_c453**: Ledge (Jumpable South).
-- **TYPE_fea1**: Blockage/Wall (Confirmed impassable at Rows 72, 76, 86).
+### Reflection (Turn 3218)
+- **Progress**: Mapping Route 32 has been slow due to complex walls (`TYPE_fea1`). Identified a likely path via Col 6.
+- **Strategy**: The "Bridge Path" (Col 6) bypasses the West Wall (Row 72) and Middle Wall (Row 76).
+- **Execution**: Must defeat Fisherman Justin (6, 82) and the second Fisherman (6, 79) to access the crossover at Row 78.
+- **Goal**: Reach Row 78 on Col 6, cross West to Col 4, then South to Union Cave.
 
-### Planned Route to Union Cave (The Zig-Zag)
-1. Go South to Row 74.
-2. Cross East to X=10 (avoid Row 76 blockage).
-3. Go South to Row 82.
-4. Cross West to X=7 (via Row 82).
-5. Go North to Row 77.
-6. Cross West to X=4 (via Row 77).
-7. Go South on X=4 to Union Cave.
-- **Battle Note**: Cursor remembers last move (Ember/BR). To reuse Ember, just press 'A'. Blind navigation is risky due to wrapping.
-### Boss Battle: Falkner
-- **Status**: Defeated on Turn 2770.
-- **Result**: Earned Zephyr Badge (Enables Flash) & TM31 (Mud-Slap).
-- **Strategy**: Quilava's Ember was effective despite accuracy drops.
 ### Exploration Notes
-- **Route 32**: Found Repel at (3, 30). Backtracking East to find a valid path South.
 - **Route 32**: Defeated Camper Roland (3, 43) and Youngster Gordon (4, 60).
-- **Route 32 Navigation**: The West path is blocked by a wall (`TYPE_fea1`) at (4, 72).
-- **Route 32 Maze Status**:
-  - **West (Col 4)**: Blocked South at Row 72 by `TYPE_fea1`.
-  - **Middle (Col 7)**: Blocked South at Row 76 by `TYPE_fea1`.
-  - **East (Col 10+)**: Blocked South at Row 86 by `TYPE_fea1`/Wall.
-  - **Hypothesis**: The Fisherman at (6, 79) is the key. Access him from the South via Row 83.
-- **Action Plan**: Navigate to (6, 80) and interact with the Fisherman.
-- **Blocked Paths**: Row 86 (East), Row 76 (Middle), Row 78 (Col 9 Wall), Row 83 (Col 5 Wall).
+- **Route 32 Maze Solution**:
+  - **Goal**: Reach West Strip (Col 4) BELOW the wall at Row 72.
+  - **Path**: Navigate North past the Fishermen at (6, 82) and (6, 79). At Row 78, cross West to Col 4. Then head South to Union Cave.
+  - **Obstacles**: Fisherman Justin at (6, 82) and another Fisherman at (6, 79). Must defeat/pass them.
+- **Blocked Paths**: Col 4 (North of Row 72), Col 7 (South of Row 76), Col 10 (South of Row 86).
 
 - **Miracle Seed**: Obtained from NPC on Route 32 (Turn 2861).
 - **Recent Catch**: Zubat "Jet" (Box 1).
