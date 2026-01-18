@@ -4,8 +4,8 @@
 ### Current Objectives & Strategy
 - **Main Quest**: Navigate Ilex Forest to Goldenrod City.
 - **Immediate Goal**: Heal at Pokemon Center.
-- **Location**: Azalea Town.
-- **Status**: Reached Azalea Town. Heading to Pokemon Center to heal Garnet.
+- **Location**: Azalea Pokemon Center.
+- **Status**: Inside Pokemon Center. Healing Garnet and the team.
 - **Next Steps**: Heal, then head West to Ilex Forest.
 
 ### Team Status
