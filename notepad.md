@@ -41,9 +41,10 @@
 
 ### Planned Route to Union Cave
 1. Cross to East Channel (X=10) at Row 74.
-2. Proceed South to Row 85 (near Union Cave Sign).
-3. Systematically test Row 86 (TYPE_fea1) for the entrance (X=8 to X=12).
-4. Enter Union Cave.
+2. Proceed South to Row 78.
+3. Check for West Crossover at Row 78 (Target X=4).
+4. If blocked, continue South to Row 85.
+5. Enter Union Cave via X=4 or Row 86 gap.
 - **Battle Note**: Cursor remembers last move (Ember/BR). To reuse Ember, just press 'A'. Blind navigation is risky due to wrapping.
 ### Boss Battle: Falkner
 - **Status**: Defeated on Turn 2770.
