@@ -36,17 +36,16 @@
 
 ### Exploration Notes
 - **Union Cave 1F**:
-  - Hiker Daniel at (4, 6).
-  - Water (`TYPE_4e8c`) blocks South at Row 8.
-  - Path continues East along Row 6.
-  - Found **X Attack** at (4, 2).
+  - **Entrance**: From Route 32 at (17, 3).
+  - **Hiker Daniel**: Defeated at (4, 6).
+  - **Hiker Russell**: Encountered at (11, 8).
+  - **Items**: Found **X Attack** at (4, 2).
+  - **Navigation**:
+    - Row 8 is blocked by water.
+    - Row 7 is blocked by rocks.
+    - Path East is along Row 6.
 
-- **Miracle Seed**: Obtained from NPC on Route 32 (Turn 2861).
-- **Recent Catch**: Zubat "Jet" (Box 1).
-- **Key Items**: Obtained Old Rod from Fishing Guru in Route 32 Pokemon Center.
-- **Observation**: `TYPE_a336` at (6, 81) and (8, 81) acts as a bridge railing/blockage. Walkable path is likely Column 7.
-- Found **X Attack** at Union Cave (4, 2).
-- **Union Cave 1F**:
-  - Hiker at (3, 6).
-  - Water (`TYPE_4e8c`) blocks South at Row 8.
-  - Path continues East along Row 6 (Row 7 blocked by rocks).
+- **Inventory/Key Items**:
+  - **Key Items**: Old Rod, Map Card, Phone Card.
+  - **TMs**: Mud-Slap (TM31), Flash (HM05).
+  - **Recent Catch**: Zubat "Jet" (Box 1).
