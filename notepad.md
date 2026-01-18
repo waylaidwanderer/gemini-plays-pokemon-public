@@ -27,11 +27,11 @@
 - Route 31 Lower Path was the key to Violet City.
 - Dark Cave entrance at Route 31 (34, 5).
 
-### Reflection (Turn 3218)
-- **Progress**: Mapping Route 32 has been slow due to complex walls (`TYPE_fea1`). Identified a likely path via Col 6.
-- **Strategy**: The "Bridge Path" (Col 6) bypasses the West Wall (Row 72) and Middle Wall (Row 76).
-- **Execution**: Must defeat Fisherman Justin (6, 82) and the second Fisherman (6, 79) to access the crossover at Row 78.
-- **Goal**: Reach Row 78 on Col 6, cross West to Col 4, then South to Union Cave.
+### Reflection (Turn 3244)
+- **Status**: Battling Hiker Daniel in Union Cave.
+- **Location**: Union Cave 1F.
+- **Strategy**: Garnet's Ember is effective against Onix due to low Special Defense, despite type resistance.
+- **Goal**: Traverse Union Cave to Route 33.
 
 ### Exploration Notes
 - **Route 32**: Defeated Camper Roland (3, 43) and Youngster Gordon (4, 60).
