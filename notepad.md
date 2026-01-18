@@ -4,10 +4,9 @@
 ### Current Objectives & Strategy
 - **Main Quest**: Begin the Gym Challenge (Violet City).
 - **Immediate Goal**: Explore Sprout Tower.
-- **Status**: On 3rd Floor (3_3). Central Area.
-- **Location**: (10, 14). Arrived from 2F South Ladder.
-- **Immediate Objectives**: Get item at (6, 14), defeat Sages, find Elder Li.
-- **Strategy**: Head West to the item, likely battling the Sage at (8, 13).
+- **Status**: On 3rd Floor (3_3). Victory against Sage Jin.
+- **Location**: (8, 14). Facing item.
+- **Strategy**: Get Item at (6, 14). Then find path to Elder Li.
 
 ### Violet City Information
 - **Pokemon Center**: (31, 25) - Visited.
