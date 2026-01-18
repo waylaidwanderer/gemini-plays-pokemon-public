@@ -13,7 +13,7 @@
 - **East Path**: Leads to Mr. Pokemon's House (Dead End).
 - **West Path**: Leads to Violet City. Open.
 - **Observation**: Registered Youngster Joey's phone number at (3, 28).
-- **Current Status**: Defeated Youngster Mikey at (5, 23). Moving North towards Violet City.
+- **Current Status**: Defeated Bug Catcher Don at (1, 9). Approaching Violet City Gate.
 
 ### Tile Mechanics
 - **TYPE_3fe2**: Walkable Ground.
