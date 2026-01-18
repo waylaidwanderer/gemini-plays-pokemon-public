@@ -27,11 +27,14 @@
 - Route 31 Lower Path was the key to Violet City.
 - Dark Cave entrance at Route 31 (34, 5).
 
-### Reflection (Turn 3294)
-- **Status**: Wild Battle vs Sandshrew (Lv6).
-- **Strategy**: HP is low (Yellow). Ember would KO. Attempting to catch with Poke Ball.
-- **Inventory**: 3 Poke Balls.
+### Reflection (Turn 3298)
+- **Status**: Nicknaming caught Sandshrew (Lv6).
+- **Name Idea**: "Bolin" (Earthbender).
 - **Location**: (16, 15).
+- **Navigation**:
+  - Caught Sandshrew!
+  - Must go West to Col 15, then South to continue.
+  - Path blocked South at (16, 16).
 
 ### Exploration Notes
 - **Union Cave 1F**:
