@@ -4,8 +4,8 @@
 ### Current Objectives & Strategy
 - **Main Quest**: Begin the Gym Challenge (Violet City).
 - **Immediate Goal**: Explore Sprout Tower.
-- **Status**: On 2nd Floor (3_2). Exploring isolated corridor. Garnet leads.
-- **Location**: (2, 6). Came down from 3F. Checking for items.
+- **Status**: On 2nd Floor (3_2). Returning to 3F. Garnet leads.
+- **Location**: (2, 1). Found X Accuracy. Heading back to ladder at (2, 6).
 
 ### Violet City Information
 - **Pokemon Center**: (31, 25) - Visited.
