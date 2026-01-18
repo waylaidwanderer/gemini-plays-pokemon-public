@@ -5,7 +5,7 @@
 - **Main Quest**: Defeat Azalea Gym (Bugsy).
 - **Immediate Goal**: Talk to Kurt to complete the Slowpoke Well quest.
 - **Location**: Slowpoke Well B1F.
-- **Status**: Defeated Josh. Curing Poison. Planning route around him.
+- **Status**: Standing before Bugsy. Ready to challenge for the Hive Badge.
 - **Next Steps**: Win battle. Find Proton/Executives. Rescue Slowpokes.
 
 ### Team Status
