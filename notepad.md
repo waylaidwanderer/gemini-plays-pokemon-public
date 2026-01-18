@@ -31,3 +31,4 @@
 - Cleared Sprout Tower.
 - Defeated Falkner.
 - Crossed Union Cave.
+- Hint: The Charcoal Man's Pokemon can use CUT.
