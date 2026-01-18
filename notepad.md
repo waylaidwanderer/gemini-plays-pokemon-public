@@ -39,7 +39,7 @@
 - **Battle Note**: Cursor remembers last move (Ember/BR). To reuse Ember, just press 'A'. Blind navigation is risky due to wrapping.
 ### Boss Battle: Falkner
 - **Status**: Defeated on Turn 2770.
-- **Result**: Earned Zephyr Badge & TM31 (Mud-Slap).
+- **Result**: Earned Zephyr Badge (Enables Flash) & TM31 (Mud-Slap).
 - **Strategy**: Quilava's Ember was effective despite accuracy drops.
 ### Exploration Notes
 - **Route 32**: Found Repel at (3, 30). Backtracking East to find a valid path South.
