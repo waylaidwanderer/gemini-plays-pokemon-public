@@ -34,3 +34,5 @@
 - Located Violet City Gym at (18, 16).
 - Searching South for Pokemon Center.
 - Found PRZCUREBERRY at (14, 29).
+- Validated: Building at (10, 17) is a Mart.
+- Validated: Building at (31, 25) has a "POKE" sign (Pokemon Center). Returning to heal.
