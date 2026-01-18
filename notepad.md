@@ -13,8 +13,8 @@
 - **East Path**: Leads to Mr. Pokemon's House (Dead End).
 - **West Path**: Leads to Violet City. Open.
 - **Observation**: Registered Youngster Joey's phone number at (3, 28).
-- **Current Status**: In battle with Wild Poliwag (Red HP). Amethyst (Rattata) is out. Throwing LAST Poké Ball.
-- **Reflection (Turn 2290)**: Successfully navigated to Balls pocket. Selected Poké Ball. Committing to throw.
+- **Current Status**: Poliwag capture FAILED (0 Balls left). Switching to Basil (Bellsprout) to defeat it.
+- **Reflection (Turn 2292)**: Out of Poké Balls. Priority is now reaching Violet City to heal and restock.
 
 ### Tile Mechanics
 - **TYPE_3fe2**: Walkable Ground.
