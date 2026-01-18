@@ -52,3 +52,5 @@
 - **Badges**: Zephyr Badge.
 - **TMs**: Mud-Slap (TM31), Flash (HM05).
 - **Party**: Garnet (Lv18), Basil (Lv6), Egg (Lv5), etc.
+- Found **Potion** at (4, 17).
+- Spotted Ladder to B1F at (5, 19).
