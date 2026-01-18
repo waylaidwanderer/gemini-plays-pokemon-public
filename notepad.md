@@ -5,7 +5,7 @@
 - **Main Quest**: Defeat Azalea Gym (Bugsy).
 - **Immediate Goal**: Defeat Rocket Grunt (3rd).
 - **Location**: Slowpoke Well B1F.
-- **Status**: In battle. Selected Ember. Rattata used Quick Attack.
+- **Status**: In battle. Selecting Ember with robust sequence (Down+Right).
 - **Next Steps**: Finish battle. Rescue Slowpokes.
 
 ### Team Status
