@@ -32,3 +32,4 @@
 - Defeated Falkner.
 - Crossed Union Cave.
 - Hint: The Charcoal Man's Pokemon can use CUT.
+- Note: The path east of the Conflicted Grunt (lower corridor) is a dead end. Backtracking to find a northern route.
