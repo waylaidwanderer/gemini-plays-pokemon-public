@@ -40,6 +40,6 @@
 - **Result**: Earned Zephyr Badge & TM31 (Mud-Slap).
 - **Strategy**: Quilava's Ember was effective despite accuracy drops.
 ### Exploration Notes
-- **Route 32 Ledge Area**: Currently navigating the raised ledge area around (15, 22). Youngster Albert is at (14, 22). Path seems to be North then West.
+- **Route 32**: Attempting to jump ledge at Row 26 to rejoin main path. Alternative: Passage at (13, 27).
 - **Miracle Seed**: Obtained from NPC on Route 32 (Turn 2861).
-- Caught Zubat (Female, Level 6) on Route 32. Nickname: Jet. Sent to PC Box 1 (Party Full).
+- **Recent Catch**: Zubat "Jet" (Box 1).
