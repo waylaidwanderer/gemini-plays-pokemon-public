@@ -13,8 +13,8 @@
 - **East Path**: Leads to Mr. Pokemon's House (Dead End).
 - **West Path**: Leads to Violet City. Open.
 - **Observation**: Registered Youngster Joey's phone number at (3, 28).
-- **Current Status**: Poliwag capture FAILED (0 Balls left). Switching to Basil (Bellsprout) to defeat it.
-- **Reflection (Turn 2292)**: Out of Poké Balls. Priority is now reaching Violet City to heal and restock.
+- **Current Status**: Moving West on Route 31 towards Violet City.
+- **Reflection (Turn 2304)**: Retrieved Potion. No balls left. Avoiding battles if possible until Violet City.
 
 ### Tile Mechanics
 - **TYPE_3fe2**: Walkable Ground.
