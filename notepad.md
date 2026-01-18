@@ -55,3 +55,7 @@
 - Found **Potion** at (4, 17).
 - Spotted Ladder to B1F at (5, 19).
 - Defeated Pokemaniac Larry at (4, 21).
+### Tile Mechanics (3_38)
+- **TYPE_fea1**: Water (Requires Surf).
+- **TYPE_2889**: Rock Wall (Impassable).
+- **TYPE_3fe2**: Floor (Walkable).
