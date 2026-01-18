@@ -43,6 +43,7 @@
 - **Strategy**: Quilava's Ember was effective despite accuracy drops.
 ### Exploration Notes
 - **Route 32**: Found Repel at (3, 30). Backtracking East to find a valid path South.
-- **Navigation**: West side (X<14) seems to be a dead end for South travel. Must cross to East side.
+- **Navigation**: East side (X=15) is a dead end. West side (X=13) is blocked at Row 34.
+- **Correction**: Must explore Far West (X=3) past the Repel location to find the path South.
 - **Miracle Seed**: Obtained from NPC on Route 32 (Turn 2861).
 - **Recent Catch**: Zubat "Jet" (Box 1).
