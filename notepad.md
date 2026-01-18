@@ -4,8 +4,8 @@
 ### Current Objectives & Strategy
 - **Main Quest**: Navigate Ilex Forest to Goldenrod City.
 - **Immediate Goal**: Heal at Pokemon Center.
-- **Location**: Azalea Gym.
-- **Status**: Defeated Bugsy and obtained Hive Badge! Amethyst grew to Lv 8.
+- **Location**: Azalea Town.
+- **Status**: Reached Azalea Town. Heading to Pokemon Center to heal Garnet.
 - **Next Steps**: Heal, then head West to Ilex Forest.
 
 ### Team Status
