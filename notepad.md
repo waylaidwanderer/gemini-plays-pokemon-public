@@ -28,3 +28,4 @@
 ### Key Locations
 - **Cherrygrove City**: Pokemon Center, Mart.
 - **Route 30**: Path to Violet City.
+- **Correction**: `TYPE_2889` is confirmed to be an OBSTACLE (Trees/Walls), not walkable grass. Previous agent pathfinding failed because of this.
