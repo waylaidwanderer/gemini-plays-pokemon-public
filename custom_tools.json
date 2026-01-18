@@ -1,20 +1,8 @@
 {
   "mash_a": {
-    "description": "Presses the 'A' button 8 times in a row. Useful for quickly advancing dialogue or spamming the first attack in battles.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "autopress_buttons": {
-          "type": "boolean",
-          "default": false,
-          "description": "If true and the tool returns a list of buttons, they will be pressed automatically."
-        }
-      },
-      "required": [
-        "autopress_buttons"
-      ]
-    },
-    "python_script": "print([\"A\", \"A\", \"A\", \"A\", \"A\", \"A\", \"A\", \"A\"])",
+    "description": "Presses the 'A' button 8 times.",
+    "input_schema": {},
+    "python_script": "print([\"A\"] * 8)",
     "history": [
       {
         "commit_message": "Initial version",
@@ -30,6 +18,11 @@
         "commit_message": "Re-defining mash_a to attempt to reset the python sandbox state after a reported failure.",
         "timestamp": "2026-01-18T03:11:20.547Z",
         "action_counter": 2251
+      },
+      {
+        "commit_message": "Replaced tool with a simple print statement to avoid sandbox errors.",
+        "timestamp": "2026-01-18T04:13:50.299Z",
+        "action_counter": 2342
       }
     ]
   },
