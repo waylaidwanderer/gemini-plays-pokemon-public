@@ -9,13 +9,15 @@
 - **Status**: Party HP Critical. Avoid battles.
 
 ### Route 29 Navigation
-- **Top Lane (Row 6)**: Blocked at x=46. Row 5 bypass idea was based on false pathfinding (Row 5 is trees).
+- **Top Lane (Row 6)**: Blocked at x=46.
 - **Middle Lane**: Blocked by Cut Tree (x=21).
-- **Lower Lane (Rows 14-17)**: CONFIRMED DEAD END at x=13 (Tree Wall).
+- **Lower Lane (Rows 14-17)**: Previous "Dead End" check at x=13 was on Row 15. **Row 17 (Bottom Edge) is the last hope.**
+- **Gatehouse (Route 46)**: (51, 7) appears to be a solid wall/locked. Not the way.
+
 - **Current Plan**: 
-  1. Travel East to x=51.
-  2. **Thoroughly investigate Gatehouse** entrance at (50-52, 7).
-  3. If Gatehouse fails, jump ledge to Row 17 and go West.
+  1. Travel South from Top Lane (50, 6) to Middle Lane (Row 10).
+  2. Move West to Ledge at (45, 12) and jump South.
+  3. **STRICTLY** follow Row 17 Westbound to check for a gap at x=13.
 
 ### Tile Mechanics
 - **TYPE_c453**: One-Way Ledge.
