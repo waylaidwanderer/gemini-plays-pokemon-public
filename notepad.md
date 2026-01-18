@@ -2,13 +2,11 @@
 - Started: Friday, January 16, 2026 at 5:08 PM PST
 
 ### Current Objectives & Strategy
-- **Main Quest**: Defeat Azalea Gym (Bugsy).
-- **Immediate Goal**: Talk to Kurt to complete the Slowpoke Well quest.
-- **Location**: Azalea Gym (Leader's Chamber).
-- **Status**: Defeated Bugsy! Amethyst (the hero) finished Scyther. Garnet is fainted. Leveling up Amethyst.
-- **Immediate Goal**: Finish dialogue, get Badge/TM, then HEAL.
-- **Gym Strategy**: Burn everything with Ember. Keep health up for Scyther.
-- **Next Steps**: Win battle. Find Proton/Executives. Rescue Slowpokes.
+- **Main Quest**: Navigate Ilex Forest to Goldenrod City.
+- **Immediate Goal**: Heal at Pokemon Center.
+- **Location**: Azalea Gym.
+- **Status**: Defeated Bugsy and obtained Hive Badge! Amethyst grew to Lv 8.
+- **Next Steps**: Heal, then head West to Ilex Forest.
 
 ### Team Status
 - **Party**: Garnet (Lv19), Basil (Lv6), Egg (Lv5), Amethyst (Lv3), T (Lv3), Jasper (Lv2).
