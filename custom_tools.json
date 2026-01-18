@@ -1,31 +1,4 @@
 {
-  "mash_a": {
-    "description": "Presses the 'A' button 8 times.",
-    "input_schema": {},
-    "python_script": "print([\"A\"] * 8)",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-01-17T02:05:26.666Z",
-        "action_counter": 92
-      },
-      {
-        "commit_message": "Fixed sandbox error and ensured the tool returns a valid list of buttons.",
-        "timestamp": "2026-01-17T07:39:14.105Z",
-        "action_counter": 575
-      },
-      {
-        "commit_message": "Re-defining mash_a to attempt to reset the python sandbox state after a reported failure.",
-        "timestamp": "2026-01-18T03:11:20.547Z",
-        "action_counter": 2251
-      },
-      {
-        "commit_message": "Replaced tool with a simple print statement to avoid sandbox errors.",
-        "timestamp": "2026-01-18T04:13:50.299Z",
-        "action_counter": 2342
-      }
-    ]
-  },
   "patrol_grass": {
     "description": "Moves the player Left and Right to search for wild Pokemon, and presses A to handle battle introductions.",
     "input_schema": {},
