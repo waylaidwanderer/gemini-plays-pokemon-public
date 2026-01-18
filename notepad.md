@@ -7,7 +7,7 @@
 - **Status**: On 3rd Floor (3_3). Battling Elder Li.
 - **Location**: (11, 5).
 - **Immediate Goal**: Defeat Elder Li.
-- **Strategy**: Use Ember. Vertical Menu.
+- **Strategy**: Use Ember. Menu is 2x2 Grid. Input: Up, Right, Down.
 - **Note**: Silver escaped. Item ball visible at (14, 1).
 
 ### Violet City Information
