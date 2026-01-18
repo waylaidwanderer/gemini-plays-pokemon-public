@@ -13,8 +13,8 @@
 - **East Path**: Leads to Mr. Pokemon's House (Dead End).
 - **West Path**: Leads to Violet City. Open.
 - **Observation**: Registered Youngster Joey's phone number at (3, 28).
-- **Current Status**: Moving West on Route 31 towards Violet City.
-- **Reflection (Turn 2304)**: Retrieved Potion. No balls left. Avoiding battles if possible until Violet City.
+- **Current Status**: Harvested Bitter Berry at (16, 7). Talking to NPC at (17, 7) before entering Violet City.
+- **Reflection (Turn 2308)**: Bitter Berry acquired. Advancing text and moving to interact with the nearby NPC.
 
 ### Tile Mechanics
 - **TYPE_3fe2**: Walkable Ground.
