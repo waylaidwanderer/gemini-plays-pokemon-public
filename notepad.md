@@ -35,9 +35,9 @@
 - **TYPE_3fe2**: Walkable Ground.
 - **TYPE_fed7**: Walkable Grass/Ledge Top.
 - **TYPE_2889**: Tree/Wall (Impassable).
-- **TYPE_80fc**: Bush (Obstacle - Requires Cut?).
+- **TYPE_80fc**: Bush (Solid Obstacle).
 - **TYPE_c453**: Ledge (Jumpable South).
-- **TYPE_fea1**: Unknown Barrier (Testing...).
+- **TYPE_fea1**: Blockage/Wall (Confirmed impassable at Rows 72, 76, 86).
 - **Battle Note**: Cursor remembers last move (Ember/BR). To reuse Ember, just press 'A'. Blind navigation is risky due to wrapping.
 ### Boss Battle: Falkner
 - **Status**: Defeated on Turn 2770.
