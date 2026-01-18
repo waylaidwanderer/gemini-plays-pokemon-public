@@ -65,3 +65,6 @@
 - **TYPE_fea1**: Water.
 - Defeated Firebreather Ray at (11, 27).
 - Cleared Union Cave 1F. Exiting to Route 33 via (17, 32).
+### Tile Mechanics (8_6)
+- **TYPE_3fe2**: Grass/Floor (Walkable).
+- **TYPE_a339**: Fruit Tree (Interactable).
