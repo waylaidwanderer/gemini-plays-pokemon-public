@@ -4,9 +4,10 @@
 ### Current Objectives & Strategy
 - **Main Quest**: Begin the Gym Challenge (Violet City).
 - **Immediate Goal**: Explore Sprout Tower.
-- **Status**: On 2nd Floor (3_2). Exploring South.
-- **Location**: (2, 6). Just arrived from 3F.
-- **Strategy**: Head South down the left corridor. The wall at x=4 seems to divide this floor. I need to find a way around it or a different ladder to reach the central 3F area.
+- **Status**: On 2nd Floor (3_2). Southern Corridor.
+- **Location**: (7, 15).
+- **Discoveries**: Found Ladder at (10, 14) and Item at (12, 15). Sage guarding them at (9, 14).
+- **Strategy**: Battle Sage, grab item, take ladder to 3F Central Area.
 
 ### Violet City Information
 - **Pokemon Center**: (31, 25) - Visited.
