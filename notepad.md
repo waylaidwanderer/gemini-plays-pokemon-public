@@ -3,9 +3,9 @@
 
 ### Current Objectives & Strategy
 - **Main Quest**: Defeat Azalea Gym (Bugsy).
-- **Immediate Goal**: Defeat Rocket Grunt (Rattata).
+- **Immediate Goal**: Defeat Rocket Grunt (2nd Rattata).
 - **Location**: Slowpoke Well B1F.
-- **Status**: In battle. Using Ember.
+- **Status**: In battle. Declined switch.
 - **Next Steps**: Finish battle. Heal if needed. Explore well.
 
 ### Team Status
