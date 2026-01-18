@@ -15,10 +15,10 @@
 - **Gatehouse (Route 46)**: (51, 7) appears to be a solid wall/locked. Not the way.
 
 - **Current Plan**: 
-  1. Confirm blockage at x=13 on Row 14/15.
+  1. Confirm blockage at x=13 on Row 16/17 (DONE).
   2. Backtrack East to x=31.
-  3. Use Ledge Gap at (31, 13) to access Middle Lane (Row 11/12).
-  4. Explore Middle Lane Westbound.
+  3. Use Ledge Gap at (31, 13) to access Middle Lane (Row 12).
+  4. Find path West from Middle/Top Lane (Cut Tree at x=21 is the main issue).
 
 ### Tile Mechanics
 - **TYPE_c453**: One-Way Ledge.
