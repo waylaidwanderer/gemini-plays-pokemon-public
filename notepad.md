@@ -4,10 +4,11 @@
 ### Current Objectives & Strategy
 - **Main Quest**: Begin the Gym Challenge (Violet City).
 - **Immediate Goal**: Explore Sprout Tower.
-- **Status**: On 3rd Floor (3_3). Witnessing Cutscene (Rival vs Elder).
+- **Status**: On 3rd Floor (3_3). Facing Elder Li.
 - **Location**: (11, 5).
-- **Observation**: Silver is here. Elder Li is speaking.
-- **Strategy**: Wait for Silver to leave, then battle Elder Li.
+- **Immediate Goal**: Battle Elder Li.
+- **Strategy**: Use Ember. Vertical Menu.
+- **Note**: Silver escaped. Item ball visible at (14, 1).
 - **Strategy**: Use Ember. Vertical Menu.
 
 ### Violet City Information
