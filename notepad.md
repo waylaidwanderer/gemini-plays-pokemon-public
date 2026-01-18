@@ -14,11 +14,9 @@
 - **West Path**: Leads to Violet City.
 - **Observation**: `TYPE_fed7` North of the Berry House appears to be **Tall Grass**, not ledges. Attempting to traverse.
 
-- **Current Plan**: 
-  1. Head North to the path split.
-  2. Check the West path for the battling trainers.
-  3. If clear, proceed to Violet City.
-  4. Catch new Pokemon along the way (Bug types?).
+- **Correction**: I am currently on the **East Path** (x=12), which leads to Mr. Pokemon's House (Dead End).
+- **Action**: Backtrack South to Row 40, cross West, then head North on the **West Path** to reach Violet City.
+- **Joey**: Appears non-responsive or already defeated. Ignoring him.
 
 ### Tile Mechanics
 - **TYPE_3fe2**: Walkable Ground.
