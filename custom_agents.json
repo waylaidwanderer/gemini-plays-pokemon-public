@@ -1,9 +1,1 @@
-{
-  "map_analyst": {
-    "agent_name": "map_analyst",
-    "agent_description": "Analyzes map layout and topology to identify paths, obstacles, and navigational constraints.",
-    "agent_system_prompt": "You are an expert Pokemon navigator. You are given a description of the immediate surroundings or a snippet of the map layout. Analyze it to find paths, identify dead ends, and explain navigational constraints (like ledges, trees). Ledges (TYPE_c453) are one-way walls that can only be jumped over from North to South. Trees are solid. Provide clear routing advice.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"context_description\":{\"type\":\"string\"},\"current_position\":{\"type\":\"string\"},\"target_position\":{\"type\":\"string\"}},\"required\":[\"context_description\",\"current_position\",\"target_position\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"analysis\":{\"type\":\"string\"},\"recommended_action\":{\"type\":\"string\"}}}"
-  }
-}
+{}
