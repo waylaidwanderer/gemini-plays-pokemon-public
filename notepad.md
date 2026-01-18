@@ -3,10 +3,10 @@
 
 ### Current Objectives & Strategy
 - **Main Quest**: Defeat Azalea Gym (Bugsy).
-- **Immediate Goal**: Defeat Team Rocket in Slowpoke Well.
+- **Immediate Goal**: Defeat Rocket Grunt (Rattata).
 - **Location**: Slowpoke Well B1F.
-- **Status**: Kurt is injured at the entrance. I must clear the well.
-- **Next Steps**: Explore the cave. Defeat all Rockets. Rescue Slowpokes.
+- **Status**: In battle. Using Ember.
+- **Next Steps**: Finish battle. Heal if needed. Explore well.
 
 ### Team Status
 - **Party**: Garnet (Lv19), Basil (Lv6), Egg (Lv5), Amethyst (Lv3), T (Lv3), Jasper (Lv2).
