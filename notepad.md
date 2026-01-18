@@ -13,8 +13,8 @@
 - **East Path**: Leads to Mr. Pokemon's House (Dead End).
 - **West Path**: Leads to Violet City. Open.
 - **Observation**: Registered Youngster Joey's phone number at (3, 28).
-- **Current Status**: In battle with Wild Poliwag (Red HP). Amethyst (Rattata) is out. 1 Poké Ball left. CRITICAL MOMENT.
-- **Reflection (Turn 2289)**: Currently in TM/HM pocket. Correcting navigation: Pressing LEFT twice to reach BALLS pocket (TM/HM -> KeyItems -> Balls).
+- **Current Status**: In battle with Wild Poliwag (Red HP). Amethyst (Rattata) is out. Throwing LAST Poké Ball.
+- **Reflection (Turn 2290)**: Successfully navigated to Balls pocket. Selected Poké Ball. Committing to throw.
 
 ### Tile Mechanics
 - **TYPE_3fe2**: Walkable Ground.
