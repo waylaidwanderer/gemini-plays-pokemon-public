@@ -43,7 +43,7 @@
 - **Strategy**: Quilava's Ember was effective despite accuracy drops.
 ### Exploration Notes
 - **Route 32**: Found Repel at (3, 30). Backtracking East to find a valid path South.
-- **Route 32 Navigation**: The valid path South is along the far West edge (Columns 2-4). Access this path by crossing West at Row 75 (Gap in trees). Avoid East side (X=15) and Central pockets.
+- **Route 32 Navigation**: The valid path South is along the far West edge (Columns 2-4). Access this path by crossing West at Row 71 (North of bushes). Avoid East side (X=15) and Central pockets.
 - **Route 32**: Defeated Camper Roland (3, 43) and Youngster Gordon (4, 60).
 - **Route 32 Navigation**: The path forward is along the far West edge, bypassing the central ledges.
 - **Blocked Paths**: East side (X=15) and Central West (X=13) are dead ends for southbound travel.
