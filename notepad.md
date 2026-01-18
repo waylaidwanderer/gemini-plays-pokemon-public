@@ -3,7 +3,7 @@
 
 ### Current Objectives & Strategy
 - **Main Quest**: Defeat Azalea Gym (Bugsy).
-- **Immediate Goal**: Bypass Conflicted Grunt at (6,6).
+- **Immediate Goal**: Talk to Kurt to complete the Slowpoke Well quest.
 - **Location**: Slowpoke Well B1F.
 - **Status**: Escaped wild Zubat. Engaging 4th Rocket Grunt.
 - **Next Steps**: Win battle. Find Proton/Executives. Rescue Slowpokes.
