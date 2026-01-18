@@ -27,18 +27,19 @@
 - Route 31 Lower Path was the key to Violet City.
 - Dark Cave entrance at Route 31 (34, 5).
 
-### Reflection (Turn 3244)
-- **Status**: Battling Hiker Daniel in Union Cave.
-- **Location**: Union Cave 1F.
-- **Strategy**: Garnet's Ember is effective against Onix due to low Special Defense, despite type resistance.
-- **Goal**: Traverse Union Cave to Route 33.
+### Reflection (Turn 3246)
+- **Status**: Exploring Union Cave 1F.
+- **Location**: (5, 6).
+- **Goal**: Navigate South/West to Route 33 exit.
+- **Strategy**: Follow the path East along Row 6 since Row 7 is blocked by rocks and Row 8 is water.
+- **Battle**: Defeated Hiker Daniel (Onix). Garnet Lv17 is strong.
 
 ### Exploration Notes
-- **Route 32**: Defeated Camper Roland (3, 43) and Youngster Gordon (4, 60).
-- **Union Cave Strategy**:
-  - **Layout**: 1F connects Route 32 to Route 33.
-  - **Obstacles**: Rock walls and Hikers.
-  - **Goal**: Navigate South/West to the exit.
+- **Union Cave 1F**:
+  - Hiker Daniel at (4, 6).
+  - Water (`TYPE_4e8c`) blocks South at Row 8.
+  - Path continues East along Row 6.
+  - Found **X Attack** at (4, 2).
 
 - **Miracle Seed**: Obtained from NPC on Route 32 (Turn 2861).
 - **Recent Catch**: Zubat "Jet" (Box 1).
