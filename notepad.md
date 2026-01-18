@@ -3,7 +3,7 @@
 
 ### Current Objectives & Strategy
 - **Main Quest**: Navigate Ilex Forest to Goldenrod City.
-- **Immediate Goal**: Heal at Pokemon Center.
+- **Immediate Goal**: Defeat Rival Silver.
 - **Location**: Azalea Town (West Exit).
 - **Status**: Battling Rival Silver!
 - **Next Steps**: Defeat Silver, then head West to Ilex Forest.
