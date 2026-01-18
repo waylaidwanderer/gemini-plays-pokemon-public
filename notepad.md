@@ -39,12 +39,14 @@
 - **TYPE_c453**: Ledge (Jumpable South).
 - **TYPE_fea1**: Blockage/Wall (Confirmed impassable at Rows 72, 76, 86).
 
-### Planned Route to Union Cave
-1. Cross to East Channel (X=10) at Row 74.
-2. Proceed South to Row 78.
-3. Check for West Crossover at Row 78 (Target X=4).
-4. If blocked, continue South to Row 85.
-5. Enter Union Cave via X=4 or Row 86 gap.
+### Planned Route to Union Cave (The Zig-Zag)
+1. Go South to Row 74.
+2. Cross East to X=10 (avoid Row 76 blockage).
+3. Go South to Row 82.
+4. Cross West to X=7 (via Row 82).
+5. Go North to Row 77.
+6. Cross West to X=4 (via Row 77).
+7. Go South on X=4 to Union Cave.
 - **Battle Note**: Cursor remembers last move (Ember/BR). To reuse Ember, just press 'A'. Blind navigation is risky due to wrapping.
 ### Boss Battle: Falkner
 - **Status**: Defeated on Turn 2770.
