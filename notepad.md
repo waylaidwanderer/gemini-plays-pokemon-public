@@ -69,4 +69,4 @@
   - **Key Items**: Old Rod, Map Card, Phone Card.
   - **TMs**: Mud-Slap (TM31), Flash (HM05).
   - **Recent Catch**: Zubat "Jet" (Box 1).
-- **Union Cave 1F**: Defeated Firebreather Bill at (14, 16). Heading to item at (17, 21).
+- **Union Cave 1F**: Found **Great Ball** at (17, 21). Path South is blocked. Backtracking to Row 16 to cross to West side.
