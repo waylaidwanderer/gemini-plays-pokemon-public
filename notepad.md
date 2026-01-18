@@ -29,11 +29,11 @@
 
 ### Union Cave 1F Exploration
 - **Entrance**: From Route 32 at (17, 3).
-- **Status**: Exploring South-East section. Currently backtracking from dead-end at (16, 21).
+- **Status**: Backtracking from SE dead end to cross to West path (Col 12/13).
 - **Navigation Log**:
-  - Zig-zagged East/West to progress South.
-  - Path blocked at Row 16 (East side).
-  - Must backtrack North to ~Row 15 to cross West to Column 14/15.
+  - Found Great Ball at (16, 21). South blocked.
+  - Backtracking North to Row 15.
+  - Plan: Go West to Col 13, then South.
 - **Trainers Defeated**:
   - Hiker Daniel (4, 6)
   - Hiker Russell (11, 8)
