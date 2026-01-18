@@ -2,12 +2,12 @@
 - Started: Friday, January 16, 2026 at 5:08 PM PST
 
 ### Current Objectives & Strategy
-- **Main Quest**: Earn the Zephyr Badge.
-- **Immediate Goal**: Defeat Falkner.
-- **Status**: Challenging Violet Gym. Started Turn 2731.
-- **Location**: Violet Gym (10_7).
-- **Accomplishments**: Sprout Tower Cleared. Garnet evolved into Quilava! Obtained HM05 (Flash).
-- **Next Steps**: Defeat the trainers, then the Leader.
+- **Main Quest**: Journey to Azalea Town.
+- **Immediate Goal**: Collect Mystery Egg & Head South.
+- **Status**: Healing in Violet City Pokemon Center.
+- **Location**: Violet City Pokemon Center (10_10).
+- **Accomplishments**: Defeated Falkner (Zephyr Badge), Sprout Tower Cleared.
+- **Next Steps**: Talk to Elm's Aide, then head South to Route 32.
 
 ### Violet City Information
 - **Pokemon Center**: (31, 25) - Visited.
