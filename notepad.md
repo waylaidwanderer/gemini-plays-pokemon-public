@@ -5,9 +5,8 @@
 - **Main Quest**: Defeat Azalea Gym (Bugsy).
 - **Immediate Goal**: Talk to Kurt to complete the Slowpoke Well quest.
 - **Location**: Azalea Gym (Leader's Chamber).
-- **Status**: Garnet fainted. Amethyst (Lv3) vs Scyther (Red HP). Scyther has lowered accuracy.
-- **Gym Strategy**: Zerg rush Scyther with chip damage. Hoping for misses.
-- **Immediate Goal**: Use Tackle.
+- **Status**: Defeated Bugsy! Amethyst (the hero) finished Scyther. Garnet is fainted. Leveling up Amethyst.
+- **Immediate Goal**: Finish dialogue, get Badge/TM, then HEAL.
 - **Gym Strategy**: Burn everything with Ember. Keep health up for Scyther.
 - **Next Steps**: Win battle. Find Proton/Executives. Rescue Slowpokes.
 
