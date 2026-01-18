@@ -27,20 +27,23 @@
 - Route 31 Lower Path was the key to Violet City.
 - Dark Cave entrance at Route 31 (34, 5).
 
-### Reflection (Turn 3312)
-- **Status**: Battling Firebreather Bill.
-- **Opponent**: Koffing #2 (Lv6).
-- **Strategy**: Ember 1-hit KO'd the first one. Staying in with Garnet.
-- **Battle Log**: Defeated Koffing #1.
+### Reflection (Turn 3314)
+- **Status**: Exploring Union Cave 1F.
+- **Location**: (14, 15).
+- **Recent Event**: Defeated Firebreather Bill (2 Koffings).
+- **Navigation**:
+  - Bill blocks the path at (14, 16).
+  - Left path (Col 13) is a dead end at Row 17 (Wall).
+  - Must go Right to Col 15 to bypass him.
 
 ### Exploration Notes
 - **Union Cave 1F**:
   - **Entrance**: From Route 32 at (17, 3).
-  - **Hikers**: Daniel (Defeated), Russell (Defeated).
+  - **Trainers**: Daniel (Defeated), Russell (Defeated), Bill (Defeated).
   - **Items**: Found **X Attack** at (4, 2).
   - **Navigation**:
-    - East Corridor leads South, then zigs West at Row 15.
-    - Continuing South towards Route 33 exit.
+    - East Corridor leads South, zigs West to Col 14.
+    - Continuing South via Col 15.
 
 ### Exploration Notes
 - **Union Cave 1F**:
