@@ -73,4 +73,6 @@
 - Accidental Smokescreen used. Praying for Geodude miss.
 - Defeated Hiker Anthony.
 - Garnet leveled up to 19! Current HP: 1/56.
-- CRITICAL: Use Repel immediately to reach Azalea Center safely.
+### Tile Mechanics (8_7)
+- **TYPE_2889**: Wall/Obstacle.
+- **TYPE_201b**: Door (Pokemon Center).
