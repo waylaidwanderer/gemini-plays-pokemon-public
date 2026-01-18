@@ -29,7 +29,7 @@
 ### Tile Mechanics
 - **TYPE_3fe2**: Walkable Ground.
 - **TYPE_fed7**: Walkable Grass/Ledge Top.
-- **TYPE_2889**: Tree Wall (Obstacle).
+- **TYPE_2889**: Tree/Wall (Impassable).
 - **TYPE_80fc**: Tree/Bush (Obstacle).
 - **TYPE_5519**: Cut Tree (Requires HM01).
 - **TYPE_c453**: One-Way Ledge (Jumpable South).
