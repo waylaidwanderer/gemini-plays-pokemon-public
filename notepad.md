@@ -5,8 +5,8 @@
 - **Main Quest**: Defeat Azalea Gym (Bugsy).
 - **Immediate Goal**: Talk to Kurt to complete the Slowpoke Well quest.
 - **Location**: Azalea Gym (Leader's Chamber).
-- **Status**: Critical HP (8/63). Scyther used Quick Attack. Garnet used Smokescreen.
-- **Strategy**: Robust input sequence (Right, Right, Down, Down) to ensure Ember selection. Hoping for a miss.
+- **Status**: Garnet fainted. Wipe imminent. Scyther is at red HP.
+- **Gym Strategy**: Survive? (Unlikely). Prepare for rematch.
 - **Gym Strategy**: Burn everything with Ember. Keep health up for Scyther.
 - **Next Steps**: Win battle. Find Proton/Executives. Rescue Slowpokes.
 
