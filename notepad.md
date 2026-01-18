@@ -5,13 +5,14 @@
 - **Main Quest**: Begin the Gym Challenge (Violet City).
 - **Immediate Goal**: Reach Cherrygrove City.
 - **Healing**: Mom (Bank Only) confirmed. No healing at home. Must reach Cherrygrove.
-- **Status**: Party HP Critical. Avoid battles.
+- **Status**: Party Healed. Ready to catch Pokemon (Spinarak?).
 
 ### Route 30 Navigation
 - **Goal**: Reach Violet City.
 - **Key Obstacle**: Battling Trainers at (5, 26). Need to verify if they have moved.
 - **East Path**: Leads to Mr. Pokemon's House (Dead End).
 - **West Path**: Leads to Violet City.
+- **Observation**: `TYPE_fed7` North of the Berry House appears to be **Tall Grass**, not ledges. Attempting to traverse.
 
 - **Current Plan**: 
   1. Head North to the path split.
