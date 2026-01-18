@@ -4,9 +4,9 @@
 ### Current Objectives & Strategy
 - **Main Quest**: Begin the Gym Challenge (Violet City).
 - **Immediate Goal**: Explore Sprout Tower.
-- **Status**: On 3rd Floor (3_1). Moving North to Central Ladder.
-- **Location**: (3, 6). Bypassing Sage at (3, 5) via (2, 6).
-- **Target**: Ladder at (6, 4) which likely leads to the top.
+- **Status**: On 3rd Floor (3_1). Bypassing Sage at (3, 5).
+- **Location**: (2, 6). Just arrived from 2F.
+- **Strategy**: Move North from the ladder tile (2, 6) to (2, 5) to flank the Sage, since walking onto (2, 6) from the side causes a warp.
 
 ### Violet City Information
 - **Pokemon Center**: (31, 25) - Visited.
