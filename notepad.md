@@ -55,11 +55,11 @@
 ### Exploration Notes
 - **Route 32**: Found Repel at (3, 30). Backtracking East to find a valid path South.
 - **Route 32**: Defeated Camper Roland (3, 43) and Youngster Gordon (4, 60).
+- **Route 32 Navigation**: Attempting to jump `TYPE_fea1` ledge at (4, 72). Previous failure at (10, 86) might have been due to input eating during text box closure.
 - **Route 32 Maze Solution**:
-  - **East Side (Col 10-12)**: Blocked South at Row 86 (Wall).
+  - **West Side (Col 4)**: Investigating if `TYPE_fea1` is jumpable.
+  - **East Side (Col 10-12)**: Blocked South at Row 86 (Wall/Ledge).
   - **Middle (Col 6-9)**: Blocked South at Row 76 (Bushes/Wall).
-  - **West Side (Col 4)**: Open path South to Union Cave.
-  - **The Path**: Go North to Row 74, cross Left to Col 7, go North to Row 71, cross Left to Col 4, then head South.
 - **Blocked Paths**: Row 86 (East), Row 76 (Middle), Row 78 (Col 9 Wall), Row 83 (Col 5 Wall).
 
 - **Miracle Seed**: Obtained from NPC on Route 32 (Turn 2861).
