@@ -27,11 +27,13 @@
 - Route 31 Lower Path was the key to Violet City.
 - Dark Cave entrance at Route 31 (34, 5).
 
-### Reflection (Turn 3282)
-- **Status**: Wild Battle vs Rattata in Union Cave.
+### Reflection (Turn 3284)
+- **Status**: Exploring Union Cave 1F.
 - **Location**: (15, 8).
-- **Recent Movement**: Successfully bypassed the rock at (12, 8) and moved East.
-- **Goal**: Defeat Rattata and continue East/South.
+- **Navigation**:
+  - The path South is blocked by walls at Row 10 for columns 11-15.
+  - There is a gap at Columns 16-17.
+  - Plan: Move East to Col 17, then South.
 
 ### Exploration Notes
 - **Union Cave 1F**:
@@ -42,7 +44,7 @@
   - **Navigation**:
     - Row 8 blocked by water (West) and Russell (Center).
     - Passed Russell, now in the Eastern corridor.
-    - Path seems to lead towards the East wall then likely South.
+    - Path leads towards the East wall then South.
 
 ### Exploration Notes
 - **Union Cave 1F**:
