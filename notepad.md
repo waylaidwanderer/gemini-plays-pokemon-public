@@ -5,7 +5,7 @@
 - **Main Quest**: Defeat Azalea Gym (Bugsy).
 - **Immediate Goal**: Defeat Rocket Grunt (Ekans).
 - **Location**: Slowpoke Well B1F.
-- **Status**: In battle. Declined switch.
+- **Status**: In battle. Opening Move Menu to select Ember carefully.
 - **Next Steps**: Finish battle. Continue exploring West.
 
 ### Team Status
