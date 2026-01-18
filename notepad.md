@@ -5,7 +5,7 @@
 - **Main Quest**: Defeat Azalea Gym (Bugsy).
 - **Immediate Goal**: Talk to Kurt to complete the Slowpoke Well quest.
 - **Location**: Slowpoke Well B1F.
-- **Status**: Inside Azalea Gym. Defeated Benny. Approaching Bugsy at (5, 7).
+- **Status**: Battling Bug Catcher Josh at (0, 4). Garnet is poisoned.
 - **Next Steps**: Win battle. Find Proton/Executives. Rescue Slowpokes.
 
 ### Team Status
