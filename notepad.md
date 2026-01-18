@@ -4,9 +4,9 @@
 ### Current Objectives & Strategy
 - **Main Quest**: Begin the Gym Challenge (Violet City).
 - **Immediate Goal**: Explore Sprout Tower.
-- **Status**: On 2nd Floor (3_2). Southern Corridor.
-- **Location**: (7, 15).
-- **Discoveries**: Found Ladder at (10, 14) and Item at (12, 15). Sage guarding them at (9, 14).
+- **Status**: On 2nd Floor (3_2). Battling Sage at (9, 14).
+- **Location**: (9, 15).
+- **Discoveries**: Found Ladder at (10, 14) and Item at (12, 15).
 - **Strategy**: Battle Sage, grab item, take ladder to 3F Central Area.
 
 ### Violet City Information
