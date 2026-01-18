@@ -4,14 +4,14 @@
 ### Current Objectives & Strategy
 - **Main Quest**: Begin the Gym Challenge (Violet City).
 - **Immediate Goal**: Explore Sprout Tower.
-- **Status**: On 2nd Floor (3_2). Basil is paralyzed. Garnet leads.
-- **Location**: (11, 1). Heading East/South to find ladder.
+- **Status**: On 3rd Floor (3_1). Basil is paralyzed. Garnet leads.
+- **Location**: (17, 3). Just arrived from 2nd Floor via Ladder. Nearby item at (16, 7).
 
 ### Violet City Information
 - **Pokemon Center**: (31, 25) - Visited.
-- **Poke Mart**: (10, 17) - Current Location.
-- **Gym**: (18, 16) - Faulkner (Flying type).
-- **Sprout Tower**: Expected North.
+- **Poke Mart**: (10, 17) - Visited.
+- **Gym**: (18, 16) - Falkner (Flying type).
+- **Sprout Tower**: (23, 5).
 - **School**: (30, 17).
 
 ### Contacts
@@ -31,3 +31,4 @@
 - **TYPE_80fc**: Tree/Bush (Obstacle).
 - **TYPE_5519**: Cut Tree (Requires HM01).
 - **TYPE_c453**: One-Way Ledge (Jumpable South).
+- **TYPE_8564**: Ladder/Stairs.
