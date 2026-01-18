@@ -15,10 +15,9 @@
 - **Gatehouse (Route 46)**: (51, 7) appears to be a solid wall/locked. Not the way.
 
 - **Current Plan**: 
-  1. Confirm blockage at x=13 on Row 16/17 (DONE).
-  2. Backtrack East to x=31.
-  3. Use Ledge Gap at (31, 13) to access Middle Lane (Row 12).
-  4. Find path West from Middle/Top Lane (Cut Tree at x=21 is the main issue).
+  1. Move East to x=41 in Middle Lane.
+  2. Travel North through the gap at x=41 to reach Top Lane (Row 6).
+  3. Travel West in Top Lane to reach Cherrygrove City.
 
 ### Tile Mechanics
 - **TYPE_c453**: One-Way Ledge.
