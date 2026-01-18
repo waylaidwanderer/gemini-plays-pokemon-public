@@ -13,12 +13,12 @@
 - **Middle Lane (Rows 10-12)**: Blocked Westbound by Cut Tree (21, 11).
 - **Lower Lane (Rows 14-17)**: Previous "Dead End" at x=13 was only verified on Row 15. **MUST CHECK ROW 16/17.**
 - **Escape Route**: Gap at x=31 leads from Lower to Middle Lane. Gap at x=49 leads from Middle to Top Lane.
-- **Gatehouse (Route 46)**: Located North at (51, 7). Likely not the path to Cherrygrove.
+- **Gatehouse (Route 46)**: Located North at (51, 7). CONFIRMED INACCESSIBLE.
 
 - **Current Plan**: 
-  1. Travel South to Middle Lane via gap at (49, 10).
-  2. Jump Ledge South to Lower Lane (around x=45 or x=50).
-  3. Travel West on **Row 17** (Bottom Edge) to check for a path past x=13.
+  1. Travel South to Middle Lane via gap at (50, 8).
+  2. Travel West to x=45 and Jump Ledge South to Lower Lane.
+  3. Travel West on **Row 17** (Bottom Edge) to bypass trees at x=13.
 
 ### Tile Mechanics
 - **TYPE_c453**: One-Way Ledge.
