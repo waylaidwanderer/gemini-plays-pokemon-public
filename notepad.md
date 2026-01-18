@@ -55,8 +55,10 @@
 ### Exploration Notes
 - **Route 32**: Found Repel at (3, 30). Backtracking East to find a valid path South.
 - **Route 32**: Defeated Camper Roland (3, 43) and Youngster Gordon (4, 60).
-- **Route 32 Navigation**: The West path (Row 71-76) is blocked by impassable bushes. The correct path is to cross East to X=11 (past the Pokemon Center) and head South.
-- **Blocked Paths**: East side (X=15) and Central West (X=13) are dead ends for southbound travel.
+- **Route 32 Navigation**: The West path is blocked by a Fisherman at (6, 79). The path to Union Cave seems to be on the East side. Heading to the sign at (10, 84).
+- **Blocked Paths**: West side (Col 6) is blocked by bushes and an NPC.
+- **Dead Ends**: (6, 80) leads to the Fisherman.
+
 - **Miracle Seed**: Obtained from NPC on Route 32 (Turn 2861).
 - **Recent Catch**: Zubat "Jet" (Box 1).
 - **Key Items**: Obtained Old Rod from Fishing Guru in Route 32 Pokemon Center.
