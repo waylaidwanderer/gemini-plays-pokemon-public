@@ -4,7 +4,8 @@
 ### Current Objectives & Strategy
 - **Main Quest**: Begin the Gym Challenge (Violet City).
 - **Immediate Goal**: Buy Poke Balls in Violet City Mart.
-- **Status**: Party fully healed. Ready for action.
+- **Contingency**: If clerk not found, proceed to Sprout Tower or backtrack to Cherrygrove.
+- **Status**: Party fully healed. Attempting final interaction in Mart.
 
 ### Violet City Information
 - **Pokemon Center**: (31, 25) - Visited.
