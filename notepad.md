@@ -68,3 +68,4 @@
 ### Tile Mechanics (8_6)
 - **TYPE_3fe2**: Grass/Floor (Walkable).
 - **TYPE_a339**: Fruit Tree (Interactable).
+- **TYPE_80fc**: Small Tree (Cut Tree/Obstacle).
