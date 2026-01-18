@@ -4,9 +4,10 @@
 ### Current Objectives & Strategy
 - **Main Quest**: Begin the Gym Challenge (Violet City).
 - **Immediate Goal**: Explore Sprout Tower.
-- **Status**: On 2nd Floor (3_2). Victory against Sage Edmond.
-- **Location**: (9, 15).
-- **Strategy**: Grab Item at (12, 15), then take Ladder at (10, 14) to 3F.
+- **Status**: On 2nd Floor (3_2). Moving to 3F Central Area.
+- **Location**: (10, 14). At the ladder.
+- **Notes**: Item at (12, 15) is blocked by a statue. Must access from East side later.
+- **Strategy**: Take Ladder at (10, 14) to reach the central area of 3F.
 
 ### Violet City Information
 - **Pokemon Center**: (31, 25) - Visited.
