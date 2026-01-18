@@ -31,5 +31,3 @@
 - **Correction**: `TYPE_2889` is confirmed to be an OBSTACLE (Trees/Walls), not walkable grass. Previous agent pathfinding failed because of this.
 - **Observation**: `TYPE_fed7` on Route 29 (Middle/Lower transition) is **Walkable**, confirming it's a ledge top or walkable grass, NOT a wall.
 - **Lower Lane Strategy**: Must verify blockage at x=13/23 on **Row 16 and 17**. Previous checks were too high (Row 14/15).
-- Navigation Note: Bypass tree wall at x=37 by using Row 16. Bypass tree wall at x=23 by using Row 15.
-- Path Strategy: Weave between Row 15 and 16 to avoid blockages.
