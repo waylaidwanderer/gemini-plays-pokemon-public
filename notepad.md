@@ -26,16 +26,18 @@
 - Route 31 Lower Path was the key to Violet City.
 - Dark Cave entrance at Route 31 (34, 5).
 
+### Reflection (Turn 3164)
+- **Status**: Stuck on Route 32 (Southbound).
+- **Blockages**: West (Row 72), Center (Row 76), East (Row 86) all blocked by `TYPE_fea1`.
+- **Hypothesis**: `TYPE_fea1` might be a ledge, or there is a crossover path I missed (e.g. at Row 74).
+- **Action**: Running BFS to find the valid path.
 ### Tile Mechanics
 - **TYPE_3fe2**: Walkable Ground.
 - **TYPE_fed7**: Walkable Grass/Ledge Top.
 - **TYPE_2889**: Tree/Wall (Impassable).
-- **TYPE_80fc**: Tree/Bush (Obstacle).
-- **TYPE_5519**: Cut Tree (Requires HM01).
-- **TYPE_c453**: One-Way Ledge (Jumpable South).
-- **TYPE_8564**: Ladder/Stairs.
-- **TYPE_a336**: Cut Tree (Requires HM01).
-- **TYPE_fea1**: Solid Wall/Ledge (Not Jumpable from North).
+- **TYPE_80fc**: Bush (Obstacle - Requires Cut?).
+- **TYPE_c453**: Ledge (Jumpable South).
+- **TYPE_fea1**: Unknown Barrier (Testing...).
 - **Battle Note**: Cursor remembers last move (Ember/BR). To reuse Ember, just press 'A'. Blind navigation is risky due to wrapping.
 ### Boss Battle: Falkner
 - **Status**: Defeated on Turn 2770.
