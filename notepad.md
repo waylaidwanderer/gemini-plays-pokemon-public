@@ -39,3 +39,4 @@
 - **Attempt 1 Start**: Turn 2752.
 - **Strategy**: Quilava used Ember. Burn everything.
 - **Notes**: Watch out for Mud-Slap (accuracy drop).
+- **Battle Mechanic**: Menu cursor likely wraps vertically (Bottom -> Top). Last turn 'Down' from Ember went to Leer. Correcting by using 'Down, Right' again from Leer should hit Ember.
