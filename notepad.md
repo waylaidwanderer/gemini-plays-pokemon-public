@@ -29,21 +29,21 @@
 
 ### Reflection (Turn 3291)
 - **Status**: Exploring Union Cave 1F.
-- **Location**: (16, 13).
+- **Location**: (16, 15).
 - **Navigation**:
-  - Following Column 16 South.
-  - Path appears to be blocked at Row 16, requiring a turn West at Row 15.
-  - Goal: Reach (16, 15) and turn West.
+  - Reached the turn at (16, 15).
+  - Path curves West.
+  - The South path continues via Column 14/15.
+  - Detected a potential trainer (Sprite) at (14, 19).
 
 ### Exploration Notes
 - **Union Cave 1F**:
   - **Entrance**: From Route 32 at (17, 3).
-  - **Hiker Daniel**: Defeated at (4, 6).
-  - **Hiker Russell**: Defeated at (11, 8).
+  - **Hikers**: Daniel (Defeated), Russell (Defeated).
   - **Items**: Found **X Attack** at (4, 2).
   - **Navigation**:
-    - East Corridor (Col 16) leads South.
-    - Path seems to zig-zag.
+    - East Corridor leads South, then zigs West at Row 15.
+    - Continuing South towards Route 33 exit.
 
 ### Exploration Notes
 - **Union Cave 1F**:
