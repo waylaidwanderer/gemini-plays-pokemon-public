@@ -39,13 +39,7 @@
 - **Status**: Defeated on Turn 2770.
 - **Result**: Earned Zephyr Badge & TM31 (Mud-Slap).
 - **Strategy**: Quilava's Ember was effective despite accuracy drops.
-### Shopping List
-- Potions (Goal: 6+)
-- Antidotes (Goal: 3+)
-- Paralyze Heals (Goal: 2)
-- Repels (If available, Goal: 3)
-- Navigation: Tree line at X=21 divides the city. Cross at Y=18 to reach the Gym/West side.
-- Obtained Miracle Seed from NPC on Route 32 (Turn 2861).
-- Route 32: Vertical ledge at X=17 divides the path. Must loop North to Row 5 to cross to the West side for the trainer.
-- Route 32: The ledge at (14, 6) [TYPE_fea1] is not jumpable from the North. The West path seems inaccessible from here. Returning to East path.
+### Exploration Notes
+- **Route 32 Ledge Area**: Currently navigating the raised ledge area around (15, 22). Youngster Albert is at (14, 22). Path seems to be North then West.
+- **Miracle Seed**: Obtained from NPC on Route 32 (Turn 2861).
 - Caught Zubat (Female, Level 6) on Route 32. Nickname: Jet. Sent to PC Box 1 (Party Full).
