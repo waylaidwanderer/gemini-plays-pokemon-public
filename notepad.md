@@ -3,11 +3,11 @@
 
 ### Current Objectives & Strategy
 - **Main Quest**: Begin the Gym Challenge (Violet City).
-- **Immediate Goal**: Explore Sprout Tower.
-- **Status**: On 3rd Floor (3_3). Tower Cleared!
-- **Location**: (10, 3).
-- **Accomplishments**: Defeated Elder Li. Garnet evolved into Quilava! Obtained HM05 (Flash).
-- **Next Steps**: Use Escape Rope to exit, then head to Gym.
+- **Immediate Goal**: Challenge Violet Gym.
+- **Status**: Preparing in Pokemon Center.
+- **Location**: Violet City.
+- **Accomplishments**: Sprout Tower Cleared. Garnet evolved into Quilava! Obtained HM05 (Flash).
+- **Next Steps**: Heal up, then head to Gym.
 
 ### Violet City Information
 - **Pokemon Center**: (31, 25) - Visited.
