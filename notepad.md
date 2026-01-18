@@ -30,3 +30,4 @@
 - Found Poké Ball at (18, 15) on Route 31 (Lower Path).
 - Heading West to Violet City.
 - Lower path of Route 31 (south of ledges) is a dead end to the West. Backtracking East to Route 30 to reach Violet City.
+- Exploring Upper Path West of Berry Tree (North of ledges) for a route to Violet City.
