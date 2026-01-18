@@ -11,11 +11,11 @@
 ### Route 29 Navigation
 - **Top Lane (Row 6)**: Blocked at x=46. **CRITICAL: Agent pathfinder suggested a bypass on Row 5 (Turn 1997). Must verify this.**
 - **Middle Lane**: Blocked by Cut Tree (x=21).
-- **Lower Lane**: Currently verifying Dead End at x=13 (Row 15).
-- **Current Plan**:
-  1. Verify x=13 blockage (Lower Lane).
-  2. If blocked, BACKTRACK East to x=31 -> Middle Lane -> x=49 -> Top Lane.
-  3. Attempt **Row 5 Bypass** on Top Lane.
+- **Lower Lane (Rows 14-17)**: CONFIRMED DEAD END at x=13 (Tree Wall).
+- **Current Plan**: 
+  1. Backtrack East to x=31 -> Gap to Middle Lane.
+  2. Travel East to x=49 -> Gap to Top Lane.
+  3. **Execute Row 5 Bypass**: At (49, 6), go UP to (49, 5) and travel West.
 
 ### Tile Mechanics
 - **TYPE_c453**: One-Way Ledge.
