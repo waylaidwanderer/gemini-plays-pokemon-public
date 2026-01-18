@@ -3,7 +3,7 @@
 
 ### Current Objectives & Strategy
 - **Main Quest**: Defeat Azalea Gym (Bugsy).
-- **Immediate Goal**: Defeat Rocket Grunt (4th).
+- **Immediate Goal**: Bypass Conflicted Grunt at (6,6).
 - **Location**: Slowpoke Well B1F.
 - **Status**: Escaped wild Zubat. Engaging 4th Rocket Grunt.
 - **Next Steps**: Win battle. Find Proton/Executives. Rescue Slowpokes.
