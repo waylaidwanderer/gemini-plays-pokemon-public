@@ -5,7 +5,7 @@
 - **Main Quest**: Defeat Azalea Gym (Bugsy).
 - **Immediate Goal**: Defeat Rocket Grunt (Zubat).
 - **Location**: Slowpoke Well B1F.
-- **Status**: In battle. Used Smokescreen by accident.
+- **Status**: In battle. Selected Ember.
 - **Next Steps**: Finish battle. Continue exploring West.
 
 ### Team Status
