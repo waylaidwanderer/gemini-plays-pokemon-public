@@ -27,11 +27,22 @@
 - Route 31 Lower Path was the key to Violet City.
 - Dark Cave entrance at Route 31 (34, 5).
 
-### Reflection (Turn 3268)
-- **Status**: Battling Hiker Russell's 2nd Geodude.
-- **Lesson Learned**: The Move Selection Menu is a **VERTICAL LIST**, not a grid. I was pressing 'Right' to go from Move 3 to Move 4, but I needed to press 'Down'.
-- **Action**: Correcting battle inputs.
-- **Goal**: Finish battle and explore Union Cave.
+### Reflection (Turn 3271)
+- **Status**: Battling Hiker Russell's 2nd Geodude (Lv6).
+- **Issue**: Struggling to select Ember. Previous inputs of 'Right' resulted in Smokescreen (cursor stay/wrap?). Previous 'Down' input also resulted in Smokescreen (input eaten?).
+- **Plan**: Trying 'Down' again with careful timing. If Menu is a List, 'Down' -> Ember. If Grid, 'Down' -> Tackle. Both are acceptable to advance the state.
+- **Warning**: Automated system hallucinated a Wild Rattata encounter. Ignoring.
+
+### Exploration Notes
+- **Union Cave 1F**:
+  - **Entrance**: From Route 32 at (17, 3).
+  - **Hiker Daniel**: Defeated at (4, 6).
+  - **Hiker Russell**: Encountered at (11, 8).
+  - **Items**: Found **X Attack** at (4, 2).
+  - **Navigation**:
+    - Row 8 is blocked by water.
+    - Row 7 is blocked by rocks.
+    - Path East is along Row 6.
 
 ### Exploration Notes
 - **Union Cave 1F**:
