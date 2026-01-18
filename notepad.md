@@ -40,6 +40,7 @@
 - **Result**: Earned Zephyr Badge & TM31 (Mud-Slap).
 - **Strategy**: Quilava's Ember was effective despite accuracy drops.
 ### Exploration Notes
-- **Route 32**: Defeated Picnicker Liz at (10, 30). Continuing South towards Union Cave.
+- **Route 32**: West path (X<14) is a dead end blocked by ledges/walls at Row 34/36. Defeated Liz here.
+- **Navigation**: Must backtrack North to cross the wall at X=14 and access the East path (X=15) to continue South.
 - **Miracle Seed**: Obtained from NPC on Route 32 (Turn 2861).
 - **Recent Catch**: Zubat "Jet" (Box 1).
