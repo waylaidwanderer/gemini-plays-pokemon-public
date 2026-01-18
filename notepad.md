@@ -43,3 +43,4 @@
 - **Miracle Seed**: Obtained from NPC on Route 32 (Turn 2861).
 - **Recent Catch**: Zubat "Jet" (Box 1).
 - **Key Items**: Obtained Old Rod from Fishing Guru in Route 32 Pokemon Center.
+- **Observation**: `TYPE_a336` at (6, 81) and (8, 81) acts as a bridge railing/blockage. Walkable path is likely Column 7.
