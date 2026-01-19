@@ -38,3 +38,5 @@
 - **Anomaly**: Heatmap shows 14 visits to (23, 0) and 33 visits to (23, 3). This suggests I have traversed this gatehouse multiple times without exiting.
 - **Hypothesis**: The Gatehouse might not be the exit, or requires a specific trigger. Or the exit is blocked by a cuttable bush in the North West.
 - **Plan**: Move to (23, 0). If no warp, move Left to investigate the path to Wayne and the North West bushes.
+- **Discovery**: The "Gatehouse" facade has a gap at (23, 3) leading to a path behind it at Row 0.
+- **Plan**: Follow the path at Row 0 to the West. It appears to be a narrow corridor behind the trees.
