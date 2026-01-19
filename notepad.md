@@ -4,7 +4,7 @@
 ### Current Objectives & Strategy
 - **Main Quest**: Navigate Ilex Forest to Goldenrod City.
 - **Location**: Northern Ilex Forest (Gatehouse Front).
-- **Status**: At (22, 4). Preparing to attempt entering the Left Door at (22, 3) from the South.
+- **Status**: Moving to (22, 4) to attempt entry into (22, 3).
 - **Fact**: The path West of (23, 0) loops back to the start of the forest.
 - **Fact**: (23, 3) is a gap, not a warp.
 - **Plan**: Enter (22, 3) directly from the South. The map data claims it is a warp.
