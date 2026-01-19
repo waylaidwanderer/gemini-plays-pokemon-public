@@ -7,7 +7,7 @@
 - **Goal**: Explore East Goldenrod for Bike Shop.
 - **Sub-Goals**: Get Radio Card (North), Visit Daycare (South).
 - **Team**: Fully Healed.
-- **Next**: Head East from Pokemon Center.
+- **Next**: Enter Department Store to map it, then find Bike Shop (East).
 
 ### Team Status
 - **Party**: Garnet (Lv23), Amethyst (Lv8), T (Lv3), Jasper (Lv2), Basil (Lv6), Pearl (Togepi, Lv5).
