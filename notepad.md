@@ -68,6 +68,6 @@
 - Action: Investigating NPC at (5, 31) and exploring North.
 - Dialogue: NPC at (5, 31) says he got booted out of the Game Corner.
 - Battle: Super Nerd Eric.
-- Status: Garnet Poisoned (42/69 HP). In Menu.
-- Action: Scrolling down to find Antidote (Item list is alphabetical in memory, not screen).
-- Exploration: Explore Underground for items (Coin Case?).
+- Status: Garnet Cured of Poison.
+- Exploration: Exploring Underground Northbound.
+- Goal: Find Coin Case and hidden items.
