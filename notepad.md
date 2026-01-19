@@ -77,6 +77,6 @@
 - Status: Garnet (36/69 HP). Coin Case obtained.
 - Goal: Exit to Surface -> Heal -> Radio Tower.
 - Battle: PokeManiac Donald (Slowpoke Lv10).
-- Status: Slowpoke (Yellow HP). Garnet (34/69 HP).
+- Status: Slowpoke (Critical HP). Garnet (34/69 HP).
 - Strategy: Finishing it off. Spamming A.
-- Note: Garnet getting dangerously low. Priority: Exit -> PC.
+- Warning: Garnet HP critical. NO HEALING ITEMS. Must reach PC immediately after battle. Avoid all trainers.
