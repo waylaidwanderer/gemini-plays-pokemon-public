@@ -79,7 +79,7 @@
 - Next: Goldenrod City -> Radio Tower (North-West).
 - Location: Radio Tower 1F (Map 3_17).
 - Status: Answering Radio Card Quiz.
-- Question 3: "Does HM01 contain the move FLASH?" -> Answering NO.
+- Question 4: "Is Falkner the Violet Gym Leader?" -> Answering YES.
 - Cheat Sheet:
   1. Morning Pokemon? -> YES (A).
   2. Impossible to buy Berries? -> YES (A).
