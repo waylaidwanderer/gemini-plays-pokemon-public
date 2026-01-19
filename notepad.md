@@ -5,9 +5,10 @@
 - **Main Quest**: Navigate Ilex Forest to Goldenrod City.
 - **Location**: Northern Ilex Forest (Gatehouse Front).
 - **Goal**: Enter the Gatehouse via the Left Door at (22, 3).
-- **Status**: At (24, 4). Right Door (24, 3) is solid.
-- **Plan**: Move Left to (22, 4) and try walking UP through (22, 3) into (22, 2). Heatmap indicates (22, 3) is walkable.
-- **Fact**: (22, 3) is visited/walkable. (24, 3) is unvisited/solid.
+- **Status**: At (22, 4). Left Door (22, 3) and Right Door (24, 3) are both SOLID (blocked movement).
+- **Anomaly**: Mental Map lists the "Pillar" tile at (23, 3) as `TYPE_3fe2` (Walkable), while the doors are `TYPE_a336` (Solid?).
+- **Plan**: Move Right to (23, 4) and try walking UP through the "Pillar" at (23, 3).
+- **Fact**: Doors blocked movement. Testing the space between them.
 
 ### Team Status
 - **Party**: Garnet (Lv23), Amethyst (Lv8), T (Lv3), Jasper (Lv2), Basil (Lv6), Pearl (Togepi, Lv5).
