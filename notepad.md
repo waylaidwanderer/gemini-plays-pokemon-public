@@ -78,9 +78,9 @@
 - Status: Exiting PC.
 - Next: Goldenrod City -> Radio Tower (North-West).
 - Location: Radio Tower 1F (Map 3_17).
-- Status: Answering Radio Card Quiz (Q3 Incoming).
-- Action: Advancing text to reveal Question 3.
-- PREPARE TO ANSWER NO.
+- Status: Answering Radio Card Quiz (Q3).
+- Action: Moving cursor to NO.
+- Strategy: Split input. Press Down now. Verify cursor is on NO. Press A next turn.
 - Cheat Sheet (Permanent):
   1. Morning Pokemon? -> YES (A).
   2. Impossible to buy Berries? -> YES (A).
