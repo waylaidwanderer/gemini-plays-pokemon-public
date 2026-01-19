@@ -46,5 +46,4 @@
   1. Push Farfetch'd West to (8, 35).
   2. Interact from East (9, 35) to force it North to (8, 34) (since West is blocked).
   3. Follow North to Apprentice.
-- Status: Talking to Charcoal Master for HM01 Cut reward.
-- Plan: Move around the group (Down, Left, Up) to speak to the Boss.
+- Status: Receiving HM01 Cut from Charcoal Master.
