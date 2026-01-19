@@ -78,8 +78,12 @@
 - Status: Exiting PC.
 - Next: Goldenrod City -> Radio Tower (North-West).
 - Location: Radio Tower 1F (Map 3_17).
-- Status: Radio Card Quiz - Intro.
-- Action: Advancing intro text to reach "Do you want to take the quiz?".
-- Strategy: Select "YES" to start.
-- Expected Q1: "Is there a Pokemon that appears only in the morning?" (Answer: YES).
+- Status: Radio Card Quiz - Intro Dialogue.
+- Action: Advancing text. Expecting "Want to take the quiz?" -> YES.
+- Quiz Cheat Sheet:
+  1. Morning Pokemon? YES.
+  2. Buy Berries? YES (Impossible).
+  3. HM01 Flash? NO.
+  4. Falkner Violet? YES.
+  5. Charmander Slots? NO.
 - Goal: Get Radio Card.
