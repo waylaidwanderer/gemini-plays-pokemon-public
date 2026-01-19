@@ -74,7 +74,6 @@
 - Action: Clearing text. Will check Haircut Brothers then explore North.
 - Warning: Low HP. Avoid unnecessary battles or heal at PC if critical.
 - Location: Pokemon Center (Map 3_54).
-- Status: Garnet (30/69 HP). (5, 24) failed. Returning to (4, 24).
-- Action: Left -> Up -> A (Multiple times). Avoiding 'B' to prevent cancelling.
-- Backup: Use PC to heal (Deposit/Withdraw) if Nurse Joy remains unresponsive.
-- Next: Exit PC (South) -> Find Radio Tower (North-West).
+- Status: Garnet (30/69 HP). REALIZATION: Blocked by plants at Row 23!
+- Action: Navigate around plants: Left -> Up -> Right to reach (4, 22).
+- Next: Heal at (4, 22) -> Exit PC (South) -> Find Radio Tower (North-West).
