@@ -78,8 +78,7 @@
 - Status: Exiting PC.
 - Next: Goldenrod City -> Radio Tower (North-West).
 - Location: Radio Tower 1F (Map 3_17).
-- Status: In Dialogue with Receptionist (Quiz).
-- Action: Advancing text to start the quiz.
-- Strategy: Read questions carefully.
-  - Q1: Usually "Is it impossible to buy Berries at a Mart?" (YES) or "Can you check map...?" (YES).
+- Status: Radio Card Quiz - Question 1.
+- Action: Advancing text to see Question 1.
+- Expected Q1: "Is there a Pokemon that appears only in the morning?" (Answer: YES).
 - Goal: Get Radio Card.
