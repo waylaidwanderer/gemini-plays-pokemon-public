@@ -9,11 +9,11 @@
     - Confirmed hidden path at **x=14** connects the Backyard (Row 0) to the West Front area.
     - Walking South from (14, 0) allows bypassing the blocked Gatehouse front.
 - **Findings**:
-    - Path along the pond (Row 7) continues West.
-    - Confirmed narrow corridor between Bushes (Row 6) and Pond (Row 8).
-- **Plan**: Follow this corridor West to the edge of the map (x=0?).
-- **Hypothesis**: The path will turn North at the West edge to bypass the Gatehouse and exit to Route 34.
-- **Context**: "Forest Bypass" strategy is active. The Gatehouse was a decoy.
+    - Path West led to a gap in the trees at **(1, 5)**.
+    - Tile (1, 5) is `TYPE_201b` (likely a Warp/Exit).
+- **Plan**: Enter the warp at (1, 5).
+- **Hypothesis**: This is the exit to Route 34.
+- **Success**: The "Forest Bypass" strategy worked. The Gatehouse was indeed a decoy.
 
 ### Team Status
 - **Party**: Garnet (Lv23), Amethyst (Lv8), T (Lv3), Jasper (Lv2), Basil (Lv6), Pearl (Togepi, Lv5).
