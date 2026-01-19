@@ -79,7 +79,7 @@
 - Next: Goldenrod City -> Radio Tower (North-West).
 - Location: Radio Tower 1F (Map 3_17).
 - Status: Answering Radio Card Quiz.
-- Question 1: "Is there a Pokemon that appears only in the morning?" -> Answering YES.
+- Question 2: "Is it impossible to buy Berries at a Mart?" -> Answering YES.
 - Cheat Sheet:
   1. Morning Pokemon? -> YES (A).
   2. Impossible to buy Berries? -> YES (A).
