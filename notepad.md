@@ -5,9 +5,10 @@
 - **Main Quest**: Navigate Ilex Forest to Goldenrod City.
 - **Location**: Northern Ilex Forest (Gatehouse Front).
 - **Goal**: Enter the Gatehouse via the Left Door at (22, 3).
-- **Fact**: Walking North at (23, 0) led to a collision (no warp). This area is likely just the back alley of the building.
-- **Hypothesis**: The actual exit requires entering the Gatehouse interior via the doors at (22, 3) or (24, 3).
-- **Plan**: Return to (23, 3) and try entering the Left Door at (22, 3) again. The previous failure was likely due to the phone call.
+- **Fact**: Left Door (22, 3) confirmed SOLID.
+- **Plan**: Exploring East path (Row 1) behind the Gatehouse facade.
+- **Observation**: Row 1 appears walkable up to x=27. Checking for hidden items or cuttable trees.
+- **Context**: West path was a dead end. East is the only remaining option here.
 
 ### Team Status
 - **Party**: Garnet (Lv23), Amethyst (Lv8), T (Lv3), Jasper (Lv2), Basil (Lv6), Pearl (Togepi, Lv5).
