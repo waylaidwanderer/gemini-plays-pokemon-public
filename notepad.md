@@ -78,11 +78,13 @@
 - Status: Exiting PC.
 - Next: Goldenrod City -> Radio Tower (North-West).
 - Location: Radio Tower 1F (Map 3_17).
-- Status: Advancing Radio Quiz Intro (Attempt 3).
+- Status: Answering Radio Card Quiz (Attempt 4).
+- Action: Answering YES to Q1 (Morning Pokemon) and Q2 (Berry Mart).
+- Critical: STOP before Q3 (HM01 Flash). Press B for Q3.
 - Cheat Sheet (Permanent):
   1. Morning Pokemon? -> YES (A).
   2. Impossible to buy Berries? -> YES (A).
-  3. HM01 Flash? -> NO (B). (CRITICAL: PRESS B)
+  3. HM01 Flash? -> NO (B).
   4. Falkner Violet? -> YES (A).
   5. Charmander Slots? -> NO (B).
 - Goal: Get Radio Card.
