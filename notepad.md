@@ -3,11 +3,10 @@
 
 ### Current Objectives & Strategy
 - **Main Quest**: Navigate Ilex Forest to Goldenrod City.
-- **Location**: Northern Ilex Forest (Hidden Path).
-- **Status**: At (15, 0). Verified that the path West loops back to the Bug Catcher Wayne area (x=12).
-- **Correction**: The exit must be at the Gatehouse (x=23). The "Hidden Path" is likely just a connector.
-- **Navigation**: Backtracking East to (23, 0) to re-attempt the Gatehouse Warp at (23, 2)/(23, 3).
-- **Hypothesis**: The Hoothoot battle at (23, 2) interrupted the warp. I need to step on (23, 2) again without an encounter.
+- **Location**: Northern Ilex Forest (Gatehouse Front).
+- **Status**: At (22, 4). Preparing to attempt entering the Left Door at (22, 3) from the South.
+- **Previous Failures**: (23, 3) gap didn't warp. Side entries to (22, 3)/(24, 3) failed. Row 0 path West looped.
+- **Plan**: Try (22, 3) front entry. If blocked, try East path along Row 0.
 
 ### Team Status
 - **Party**: Garnet (Lv23), Amethyst (Lv8), T (Lv3), Jasper (Lv2), Basil (Lv6), Pearl (Togepi, Lv5).
