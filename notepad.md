@@ -3,8 +3,9 @@
 
 ### Current Objectives & Strategy
 - **Main Quest**: Navigate Ilex Forest to Goldenrod City.
-- **Location**: Central Ilex Forest.
-- **Status**: At (8, 12), turning South to (8, 14) then West to skirt the pond.
+- **Location**: Central Ilex Forest (West side).
+- **Status**: Reading sign at (3, 17). It warns of overgrown trees and dropped items (hidden items hint?).
+- **Navigation**: Heading North from (3, 16).
 
 ### Team Status
 - **Party**: Garnet (Lv23), Amethyst (Lv8), T (Lv3), Jasper (Lv2), Basil (Lv6), Pearl (Togepi, Lv5).
