@@ -8,10 +8,11 @@
 - **Findings**:
     - Front West access (Row 4, x<21) is blocked by walls.
     - Backyard Path (Row 0) allows East-West travel.
-    - Potential Vertical Path at x=14: (15,0) -> (15,1) -> (14,1) -> (14,2)...
-- **Plan**: Navigate to (14, 1) via Row 0. Then head South.
-- **Hypothesis**: The "West Front" area connects to Route 34.
-- **Marker**: Placed "One-Way Ledge" markers on front doors to avoid loops.
+    - **CRITICAL**: Mental Map shows a walkable path South at **x=14**.
+        - (15,0) -> (15,1) -> (14,1) -> (14,2) -> (14,3)...
+- **Plan**: Navigate to (15, 0), Down to (15, 1), Left to (14, 1), then South.
+- **Hypothesis**: This path at x=14 bypasses the blocked front area and leads to the West side of the forest.
+- **Marker**: Placed "One-Way Ledge" markers on front doors.
 
 ### Team Status
 - **Party**: Garnet (Lv23), Amethyst (Lv8), T (Lv3), Jasper (Lv2), Basil (Lv6), Pearl (Togepi, Lv5).
