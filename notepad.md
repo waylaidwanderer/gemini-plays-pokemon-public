@@ -5,9 +5,9 @@
 - **Main Quest**: Navigate Ilex Forest to Goldenrod City.
 - **Location**: Northern Ilex Forest (Gatehouse Front).
 - **Goal**: Enter the Gatehouse via the Left Door at (22, 3).
-- **Status**: At (13, 1). Path to Wayne appears to be a dead end. Bush at (13, 0) didn't respond to 'A', likely solid.
-- **Plan**: Return to the Gatehouse at (23, 3) and investigate why the doors are solid and why I could walk through the middle.
-- **Hypothesis**: The "Gatehouse" visual might be misleading, or I missed a trigger. I need to probe the coordinates (22,3), (23,3), (24,3) carefully.
+- **Status**: At (13, 1). Clearing Joey's phone call.
+- **Plan**: Return to (23, 3) and retry the Gatehouse door.
+- **Correction**: The "solid door" anomaly was likely caused by the phone call interrupting my movement input. Retrying is the priority.
 
 ### Team Status
 - **Party**: Garnet (Lv23), Amethyst (Lv8), T (Lv3), Jasper (Lv2), Basil (Lv6), Pearl (Togepi, Lv5).
