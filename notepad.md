@@ -73,8 +73,9 @@
 - Status: Garnet (36/69 HP). No Potions left.
 - Action: Clearing text. Will check Haircut Brothers then explore North.
 - Warning: Low HP. Avoid unnecessary battles or heal at PC if critical.
-- Location: Pokemon Center (Map 3_54).
-- Status: Exiting.
-- Destination: Department Store at (24, 27) in Goldenrod City.
-- Goal: Buy Potions to heal Garnet (30/69 HP).
-- Next: Find Radio Tower (North-West).
+- Location: Goldenrod City (Map 11_2).
+- Position: (11, 30). Just exited Game Corner South.
+- Realization: I likely mistook the Game Corner for the Pokemon Center!
+- Action: Heading to the ACTUAL Pokemon Center at (15, 27) to heal.
+- Route: Down -> Right (x4) -> Up (x2) to (15, 29).
+- Next: Enter PC -> Heal -> Find Radio Tower.
