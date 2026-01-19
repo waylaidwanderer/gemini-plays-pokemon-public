@@ -52,3 +52,5 @@
 - **Menu Wrapping**: Uncertainty exists. Assuming CLAMP at top for now based on past behavior.
 - **Input Dropping**: Rapid inputs (e.g., `A, Up, Up`) during menu opening often fail. The menu needs time to fully open before accepting navigation inputs.
 - **Current Status**: Inputs failed, cursor remained on Ember. Happy accident.
+- **Daycare Access**: The entrance to the Daycare yard is at Row 22 (gap in fence).
+- **NPC Obstacle**: Trainer (?) at (10, 17) facing East. Bypassing on the Left.
