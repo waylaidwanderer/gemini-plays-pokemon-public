@@ -45,6 +45,6 @@
 - **Battle Menu**: Vertical List (1. Quick Attack, 2. Leer, 3. Smokescreen, 4. Ember).
 - **Cursor Behavior**: Resets to Top (Move 1) at start of battle. Remembers last position within battle.
 - **Navigation**: Inputs can drop if too fast. Use single-step or the `battle_select_move` tool with delays.
-- **Daycare Access**: The entrance to the Daycare yard is at Row 22 (gap in fence).
-- **NPC Obstacle**: Trainer (?) at (10, 17) facing East. Bypassing on the Left.
-- **NPC Obstacle**: Officer at (9, 11) blocking the path North. Attempting to bypass on the West (Left).
+- **Daycare Location**: Confirmed at (13, 15). I can see the door! Prioritizing healing first.
+- **NPC Obstacle**: Officer at (9, 11). Bypassed on the Left.
+- **Pathing**: Heading North along Column 8 to reach Goldenrod City.
