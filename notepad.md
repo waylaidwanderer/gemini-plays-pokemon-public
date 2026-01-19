@@ -65,10 +65,10 @@
 - Note: Cleaning up hallucinated map markers.
 - Exploration: In Underground (Map 3_53).
 - Location: Underground (3_53).
-- NPCs: Haircut Brothers at (5, 27).
+- NPCs: Haircut Brothers (Absent - Likely Monday).
 - Quest: Find Radio Tower (Surface).
-- Status: Bicycle Registered. Garnet Healthy.
-- Tile Mechanics: Input drops frequent. Move slowly.
+- Status: Garnet (36/69 HP). Need PC.
+- Action: Heading North to exit Underground.
 - Battle: Pokemaniac Issac Defeated.
 - Status: Garnet (36/69 HP). No Potions left.
 - Action: Clearing text. Will check Haircut Brothers then explore North.
