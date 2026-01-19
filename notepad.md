@@ -40,3 +40,5 @@
 - **Plan**: Move to (23, 0). If no warp, move Left to investigate the path to Wayne and the North West bushes.
 - **Discovery**: The "Gatehouse" facade has a gap at (23, 3) leading to a path behind it at Row 0.
 - **Plan**: Follow the path at Row 0 to the West. It appears to be a narrow corridor behind the trees.
+- **Observation**: Following the hidden path at Row 0 to the West. I haven't been to (14, 0) yet.
+- **Possibility**: This path might lead to the other side of the forest or a cuttable tree shortcut.
