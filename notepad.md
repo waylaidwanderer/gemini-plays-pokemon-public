@@ -3,9 +3,9 @@
 
 ### Current Objectives & Strategy
 - **Main Quest**: Navigate Ilex Forest to Goldenrod City.
-- **Location**: Route 34 (Entering).
-- **Status**: Exiting Ilex Forest at (23, 0).
-- **Navigation**: Continue North into Route 34/Goldenrod City.
+- **Location**: Northern Ilex Forest (Gatehouse Anomaly).
+- **Status**: Currently at (23, 0), North of the Gatehouse. The warp at (23, 3) failed to trigger, allowing me to walk past it into the map boundary.
+- **Navigation**: Backtracking South to (23, 4) to re-attempt entering the warp at (23, 3).
 
 ### Team Status
 - **Party**: Garnet (Lv23), Amethyst (Lv8), T (Lv3), Jasper (Lv2), Basil (Lv6), Pearl (Togepi, Lv5).
