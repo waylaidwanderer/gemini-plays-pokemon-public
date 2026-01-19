@@ -49,4 +49,4 @@
     4. Ember
 - **Cursor Memory**: The cursor resets to Top (Move 1) at the start of a new battle. Within the same battle, it remembers the last position.
 - **Battle Menu Quirks**: Navigate slowly. Single-step verification recommended.
-- **Menu Wrapping**: Pressing Up at the top of the list wraps to the bottom.
+- **Menu Wrapping**: Uncertainty exists. Assuming CLAMP at top for now based on past behavior.
