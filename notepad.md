@@ -7,7 +7,7 @@
 - **Goal**: Find Bike Shop (East/South-East).
 - **Sub-Goals**: Get Radio Card (North), Visit Daycare (South).
 - **Team**: Fully Healed.
-- **Next**: Move East past the NPC to x=31, then look for a path South to the Bike Shop.
+- **Next**: Move Left to x=29, then South through the narrow alley to reach the area behind the buildings.
 
 ### Team Status
 - **Party**: Garnet (Lv23), Amethyst (Lv8), T (Lv3), Jasper (Lv2), Basil (Lv6), Pearl (Togepi, Lv5).
