@@ -46,4 +46,4 @@
   1. Push Farfetch'd West to (8, 35).
   2. Interact from East (9, 35) to force it North to (8, 34) (since West is blocked).
   3. Follow North to Apprentice.
-- Current Step: Clearing text, then moving to (10, 35) to push bird from (9, 35) to (8, 35).
+- Current Step: Farfetch'd fled North to (8, 31). Following it back to the Apprentice.
