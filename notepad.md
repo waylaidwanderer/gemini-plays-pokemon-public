@@ -3,9 +3,9 @@
 
 ### Current Objectives & Strategy
 - **Main Quest**: Navigate Ilex Forest to Goldenrod City.
-- **Location**: Northern Ilex Forest (Exit Path).
-- **Status**: Gatehouse doors at (22, 3) and (24, 3) are blocked/walls. The gap at (23, 3) is traversable.
-- **Navigation**: Move to (23, 4) then head North through the gap to find the true exit (likely at Row 0).
+- **Location**: Route 34 (Entering).
+- **Status**: Exiting Ilex Forest at (23, 0).
+- **Navigation**: Continue North into Route 34/Goldenrod City.
 
 ### Team Status
 - **Party**: Garnet (Lv23), Amethyst (Lv8), T (Lv3), Jasper (Lv2), Basil (Lv6), Pearl (Togepi, Lv5).
