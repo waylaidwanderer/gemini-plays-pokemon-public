@@ -3,10 +3,10 @@
 
 ### Current Objectives & Strategy
 - **Main Quest**: Navigate Ilex Forest to Goldenrod City.
-- **Location**: Northern Ilex Forest (Gatehouse Entrance).
-- **Status**: At (23, 2). Just finished Joey's call after battle. Resetting warp.
-- **Navigation**: Move South to (23, 3) then North to (23, 2) to trigger the warp.
-- **Hypothesis**: Battle + Phone Call suppressed the warp. Stepping off and on is required.
+- **Location**: Northern Ilex Forest (Gatehouse Interior).
+- **Status**: At (23, 2). Testing the "Side Entry" hypothesis.
+- **Navigation**: Moving Down to (23, 3), then attempting to walk Left into (22, 3) and Right into (24, 3) to find the warp.
+- **Hypothesis**: The "door" tiles (22, 3) and (24, 3) are the true warps but are only enterable from the side (the gap at 23, 3).
 
 ### Team Status
 - **Party**: Garnet (Lv23), Amethyst (Lv8), T (Lv3), Jasper (Lv2), Basil (Lv6), Pearl (Togepi, Lv5).
