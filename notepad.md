@@ -48,4 +48,4 @@
   3. Flank North, push South along Col 14 to (14, 35).
   4. Flank East, push West to Col 8.
   5. Push North to Apprentice.
-- Current Step: Pushing Farfetch'd South from (15, 30) to (15, 31), forcing it into the corner to make it slide West.
+- Current Step: Moving to (14, 31) to push Farfetch'd South from (14, 32).
