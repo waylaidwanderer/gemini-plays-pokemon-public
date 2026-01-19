@@ -7,7 +7,7 @@
 - **Goal**: Quickly check 1F, then find Bike Shop.
 - **Sub-Goals**: Get Radio Card (North), Visit Daycare (South).
 - **Team**: Fully Healed.
-- **Next**: Advance text (Receptionist greeting).
+- **Next**: Read Directory Board to map floors.
 
 ### Team Status
 - **Party**: Garnet (Lv23), Amethyst (Lv8), T (Lv3), Jasper (Lv2), Basil (Lv6), Pearl (Togepi, Lv5).
