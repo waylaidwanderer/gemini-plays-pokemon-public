@@ -78,7 +78,8 @@
 - Status: Exiting PC.
 - Next: Goldenrod City -> Radio Tower (North-West).
 - Location: Radio Tower 1F (Map 3_17).
-- Status: Radio Card Quiz - Question 1.
-- Action: Advancing text to see Question 1.
+- Status: Radio Card Quiz - Intro.
+- Action: Advancing intro text to reach "Do you want to take the quiz?".
+- Strategy: Select "YES" to start.
 - Expected Q1: "Is there a Pokemon that appears only in the morning?" (Answer: YES).
 - Goal: Get Radio Card.
