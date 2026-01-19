@@ -12,8 +12,8 @@
 - **Location**: Southern end of Route 34, just exited Ilex Forest.
 - **Goal**: Reach Goldenrod City (North).
 - **Sub-Goal**: Defeat trainers for EXP, locate Daycare.
-- **Team**: Garnet is Paralyzed and at half HP. Need to be careful or visit a Center soon.
-- **Fact**: The "Forest Bypass" worked. The Gatehouse was skipped.
+- **Team**: Garnet is Healthy (Cured of Paralysis). HP is 34/66.
+- **Next**: Head North to Goldenrod. Watch out for trainers.
 
 ### Team Status
 - **Party**: Garnet (Lv23), Amethyst (Lv8), T (Lv3), Jasper (Lv2), Basil (Lv6), Pearl (Togepi, Lv5).
