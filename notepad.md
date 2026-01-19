@@ -7,9 +7,9 @@
 - **Goal**: Enter the Gatehouse via the Left Door at (22, 3).
 - **Findings**:
     - "Gatehouse" doors (22, 3)/(24, 3) are one-way ledges Southward.
-    - (22, 0) and (23, 0) North are solid walls.
-- **Plan**: Run from battle, then test (24, 0).
-- **Hypothesis**: If (24, 0) is solid, the exit is elusive (maybe hidden path or interaction).
+    - (22, 0), (23, 0), and (24, 0) North are solid walls.
+- **Plan**: Explore East along Row 0/1 again. I might have missed something or turned back too early at (27, 1).
+- **Hypothesis**: The exit could be on the far East side or hidden in the corner.
 
 ### Team Status
 - **Party**: Garnet (Lv23), Amethyst (Lv8), T (Lv3), Jasper (Lv2), Basil (Lv6), Pearl (Togepi, Lv5).
