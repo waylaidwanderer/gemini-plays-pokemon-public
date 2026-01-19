@@ -3,9 +3,9 @@
 
 ### Current Objectives & Strategy
 - **Main Quest**: Navigate Ilex Forest to Goldenrod City.
-- **Location**: Northern Ilex Forest (Exit).
-- **Status**: Reached the Northern Gatehouse at (22, 3). Exiting Ilex Forest towards Goldenrod City!
-- **Navigation**: Enter the Gatehouse and proceed to Route 34/Goldenrod.
+- **Location**: Northern Ilex Forest (Gatehouse).
+- **Status**: Entering the Gatehouse at (22, 3) to reach Route 34.
+- **Navigation**: Walk North into the warp.
 
 ### Team Status
 - **Party**: Garnet (Lv23), Amethyst (Lv8), T (Lv3), Jasper (Lv2), Basil (Lv6), Pearl (Togepi, Lv5).
