@@ -68,6 +68,6 @@
 - Action: Investigating NPC at (5, 31) and exploring North.
 - Dialogue: NPC at (5, 31) says he got booted out of the Game Corner.
 - Battle: Super Nerd Eric.
-- Battle Status: Garnet poisoned. Used Smokescreen by accident (cursor drift).
-- Strategy: Clear text, then Select Ember (Slot 4).
-- Note: Cursor likely on Slot 3 (Smokescreen). Pressing Down once.
+- Battle Status: Garnet poisoned. Grimer Accuracy fell.
+- Strategy: Clearing text, then selecting Ember (Slot 4) manually.
+- Assumption: Cursor on Smokescreen (Slot 3). Pressing Down -> A.
