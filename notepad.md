@@ -47,3 +47,4 @@
 - Exploration: North-West path (Game Corner/Tracks) appeared blocked. Needs re-verification.
 - Exploration: Flower Shop is at (19, 1).
 - Hypothesis: Radio Tower might be accessible via a specific gap in the West side or I missed a building entrance.
+- Navigation: Sweeping South-West side (currently x=5).
