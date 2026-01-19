@@ -75,6 +75,7 @@
 - Warning: Low HP. Avoid unnecessary battles or heal at PC if critical.
 - Map 11_20 (Goldenrod PC): Nurse Joy at (4, 1), PC at (9, 1).
 - Map 11_2 (Goldenrod City): Pokemon Center at (15, 27), Game Corner at (11, 29).
-- Status: Withdrawing Garnet from Bill's PC.
-- Concern: Game State says Box 1 is empty, but Garnet is missing from party.
-- Next: Radio Tower.
+- Status: Searching for Garnet in PC.
+- Anomaly: Game State says Box 1 is empty (0/20), but Garnet is not in party.
+- Action: Bill's PC -> Withdraw Pkmn -> Check List.
+- Next: Retrieve Garnet -> Radio Tower.
