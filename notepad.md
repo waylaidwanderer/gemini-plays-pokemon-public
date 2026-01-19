@@ -74,8 +74,8 @@
 - Action: Clearing text. Will check Haircut Brothers then explore North.
 - Warning: Low HP. Avoid unnecessary battles or heal at PC if critical.
 - Location: Goldenrod City (Map 11_2).
-- Navigation: Trying to reach Pokemon Center (15, 27).
-- Route: Go South to Row 32 via Game Corner frontage (Col 11).
-- Path: Down to (9, 30) -> Right to (11, 30) -> Down to (11, 32) -> Right to (15, 32) -> Up to PC.
+- Realization: Pink tiles (TYPE_3fe2) are WALKABLE pavement, not walls.
+- Navigation: Moving from (13, 31) to PC Entrance (15, 27).
+- Route: Right (x2) to Col 15 -> Up (x4) to Door.
 - Goal: Heal Garnet.
 - Next: Radio Tower.
