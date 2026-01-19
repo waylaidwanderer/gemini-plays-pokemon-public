@@ -73,14 +73,8 @@
 - Status: Garnet (36/69 HP). No Potions left.
 - Action: Clearing text. Will check Haircut Brothers then explore North.
 - Warning: Low HP. Avoid unnecessary battles or heal at PC if critical.
-- Navigation: Abandoning Top Wall (blocked). Heading South to scan for stairs/side-exit.
-- Path: Moving South along Column 5 to avoid obstacles at (2,6) and (4,6).
-- Status: Garnet (30/69 HP).
-- Goal: Find North Exit or retreat to South Exit.
-- Battle: PokeManiac Donald Defeated.
-- Status: Garnet (30/69 HP). Heading to PC.
-- Location: Underground (South).
-- Action: Exiting to Surface via stairs at (5, 25).
-- Next: Heal at Pokemon Center.
-- Note: North Exit was locked/blocked.
+- Navigation: Pathing to Surface. Current: Underground (5, 24).
+- Issue: Stairs at (5, 25) didn't warp on touch/interact. Retrying from (5, 24) -> Down.
+- Goal: Heal at Pokemon Center (North/East).
+- To-Do: Find Radio Tower (North-West?).
 - Status: Garnet (30/69 HP).
