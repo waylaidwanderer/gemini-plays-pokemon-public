@@ -78,13 +78,12 @@
 - Status: Exiting PC.
 - Next: Goldenrod City -> Radio Tower (North-West).
 - Location: Radio Tower 1F (Map 3_17).
-- Status: Failed Quiz (Attempt 5) on Q5.
-- Reason: Mashed A on Q5 (Charmander), selecting YES. Answer is NO.
-- Action: Clearing text and restarting.
+- Status: Restarting Quiz (Attempt 6).
+- Action: Advancing Intro Text.
 - Cheat Sheet (Permanent):
   1. Morning Pokemon? -> YES (A).
   2. Impossible to buy Berries? -> YES (A).
-  3. HM01 Flash? -> NO (B).
+  3. HM01 Flash? -> NO (B). (CRITICAL)
   4. Falkner Violet? -> YES (A).
-  5. Charmander Slots? -> NO (B). (CRITICAL: PRESS B)
+  5. Charmander Slots? -> NO (B). (CRITICAL)
 - Goal: Get Radio Card.
