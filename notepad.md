@@ -7,7 +7,7 @@
 - **Goal**: Find Bike Shop (East/South-East).
 - **Sub-Goals**: Get Radio Card (North), Visit Daycare (South).
 - **Team**: Fully Healed.
-- **Next**: NPC moved, so conversation is over. Heading East to check building at x=34.
+- **Next**: Move East along the building frontage (x=34+) to find a door.
 
 ### Team Status
 - **Party**: Garnet (Lv23), Amethyst (Lv8), T (Lv3), Jasper (Lv2), Basil (Lv6), Pearl (Togepi, Lv5).
