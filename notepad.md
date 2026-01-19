@@ -56,7 +56,5 @@
 - Action: Clearing Joey's call text, then moving Right -> Up.
 - Task: Register Bicycle inside.
 - Event: Received phone call from Joey at (9, 31). Handling text.
-- Navigation: Blocked at (10, 30) by invisible obstacle (Right/Down).
-- Hypothesis: Invisible NPC or input lag.
-- Strategy: Flanking wide Left -> South -> East to approach Door (11, 29) from below.
-- Path: (10, 30) -> (9, 30) -> (9, 31) -> (11, 31) -> (11, 30) -> (11, 29).
+- Exploration: Entered Game Corner via South Entrance (11, 29).
+- Task: Register Bicycle (Open Menu -> Pack -> Key Items).
