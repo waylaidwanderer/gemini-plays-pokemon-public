@@ -76,3 +76,5 @@
 - Navigation: Moving North through Underground (3_53) to Northern Exit.
 - Status: Garnet (36/69 HP). Coin Case obtained.
 - Goal: Exit to Surface -> Heal -> Radio Tower.
+- Navigation: Path blocked by crates at (5, 15). Switching to Green Carpet path on Column 6.
+- NPC: Spotted at (7, 15). Potential trainer.
