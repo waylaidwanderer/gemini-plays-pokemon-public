@@ -3,8 +3,8 @@
 
 ### Current Objectives & Strategy
 - **Main Quest**: Explore Goldenrod City.
-- **Location**: Bike Shop (Map 11_5). CONFIRMED: Bikes are on display on the walls.
-- **Goal**: Get a Bicycle.
+- **Location**: WRONG HOUSE (Map 11_5). This is NOT the Bike Shop (No bikes, generic NPC dialogue).
+- **Goal**: Find the ACTUAL Bike Shop.
 - **Sub-Goals**: Get Radio Card (North), Visit Daycare (South).
 - **Team**: Fully Healed.
 - **Next**: Use 'A' to advance text, but follow with 'Down' to break the loop if conversation ends. 'B' failed to advance text.
