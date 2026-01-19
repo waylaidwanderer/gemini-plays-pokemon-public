@@ -77,7 +77,6 @@
 - Status: Garnet (36/69 HP). Coin Case obtained.
 - Goal: Exit to Surface -> Heal -> Radio Tower.
 - Battle: PokeManiac Donald (Slowpoke Lv10).
-- Status: Garnet (36/69 HP).
-- Strategy: Ember (Target SpDef).
-- Note: Slowpoke (Lv10) lacks Water Gun. Safe.
-- Input: A -> Down x3 -> A (Select Ember).
+- Status: Slowpoke (Yellow HP). Garnet (36/69 HP).
+- Strategy: Spam A (Uses Ember if cursor remembered, or Quick Attack).
+- Note: Ember is resisted but targets weaker SpDef. Quick Attack is neutral. Both work.
