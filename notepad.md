@@ -41,3 +41,4 @@
 - **Directory**:
   - 1F: Service Counter
   - 2F: Trainer's Market
+  - 3F: Battle Collection
