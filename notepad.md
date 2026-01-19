@@ -80,7 +80,7 @@
 - Location: Radio Tower 1F (Map 3_17).
 - Status: Answering Radio Card Quiz (Q2).
 - Current: Question 2 ("Impossible to buy Berries?").
-- Action: Answering YES (A).
+- Action: Advancing text -> Answering YES.
 - Next: Q3 (HM01 Flash?). CRITICAL: Answer NO (B).
 - Cheat Sheet (Permanent):
   1. Morning Pokemon? -> YES (A).
