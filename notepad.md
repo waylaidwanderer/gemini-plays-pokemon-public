@@ -30,3 +30,4 @@
 - **TYPE_80fc**: Small trees/bushes. Usually obstacles. Some might be cuttable, but default to treating as walls.
 - **TYPE_2889**: Large trees (Walls).
 - **TYPE_a339**: Ledge (Jumpable downwards?).
+- **TYPE_4e8c**: Water/Pond (Obstacle).
