@@ -42,10 +42,10 @@
 - **Observation**: Following the hidden path at Row 0 to the West. I haven't been to (14, 0) yet.
 - **Possibility**: This path might lead to the other side of the forest or a cuttable tree shortcut.
 ### Game Mechanics
-- **Move Menu Layout**: 2x2 Grid.
-    - Top-Left (1): Quick Attack
-    - Top-Right (2): Leer
-    - Bottom-Left (3): Smokescreen
-    - Bottom-Right (4): Ember
-- **Cursor Memory**: The cursor resets to Top-Left (Move 1) at the start of a new battle. Within the same battle, it remembers the last position.
-- **Battle Menu Quirks**: Inputs like `Down, Right` in a single turn might drop the second input. Navigate slowly.
+- **Move Menu Layout**: Vertical List (confirmed by visual inspection).
+    1. Quick Attack
+    2. Leer
+    3. Smokescreen
+    4. Ember
+- **Cursor Memory**: The cursor resets to Top (Move 1) at the start of a new battle. Within the same battle, it remembers the last position.
+- **Battle Menu Quirks**: Navigate slowly. Single-step verification recommended.
