@@ -69,3 +69,4 @@
 - Quest: Find Radio Tower (Surface).
 - Status: Bicycle Registered. Garnet Healthy.
 - Tile Mechanics: Input drops frequent. Move slowly.
+- Battle: Pokemaniac Issac.
