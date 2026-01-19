@@ -3,10 +3,11 @@
 
 ### Current Objectives & Strategy
 - **Main Quest**: Navigate Ilex Forest to Goldenrod City.
-- **Location**: Northern Ilex Forest (Gatehouse Entrance).
-- **Status**: At (23, 2). Moving to test the Left Door at (22, 3).
-- **Anomaly**: Mental Map identifies (22, 3) and (24, 3) as `TYPE_a336` (Warp), but previous attempts felt blocked. The middle gap at (23, 3) is Floor but didn't warp.
-- **Strategy**: Reset to (22, 4) and force movement North into (22, 3). Trusting XML data over visual intuition.
+- **Location**: Northern Ilex Forest (Gatehouse Glitch).
+- **Status**: At (22, 4). Attempting to enter the Left Door (22, 3) from the side (23, 3).
+- **Observation**: (23, 2) is visually a ROOF tile but is walkable. This implies I missed the warp at Row 3.
+- **Hypothesis**: The warps are at (22, 3) or (24, 3) and must be entered from the side gap at (23, 3).
+- **Navigation**: Move Right to (23, 4), Up to (23, 3), then Left into (22, 3).
 
 ### Team Status
 - **Party**: Garnet (Lv23), Amethyst (Lv8), T (Lv3), Jasper (Lv2), Basil (Lv6), Pearl (Togepi, Lv5).
