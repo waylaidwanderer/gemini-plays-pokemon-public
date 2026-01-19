@@ -1,36 +1,45 @@
 {
-  "patrol_grass": {
-    "description": "Moves the player Left and Right to search for wild Pokemon, and presses A to handle battle introductions.",
-    "input_schema": {},
-    "python_script": "import json\ncmds = [\"Left\", \"Right\", \"Left\", \"Right\", \"A\", \"A\", \"A\", \"A\"]\nprint(json.dumps(cmds))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-01-17T02:06:33.549Z",
-        "action_counter": 93
-      }
-    ]
-  },
-  "scan_surroundings": {
-    "description": "Scans the Mental Map around the player and returns the type and coordinates of nearby tiles. Useful for identifying walls, ledges, and navigable paths without walking into them.",
+  "bfs_check_path": {
+    "description": "Checks if a path exists between two points using BFS on the Mental Map. Returns True/False and the path length.",
     "input_schema": {
       "type": "object",
       "properties": {
-        "radius": {
-          "type": "integer",
-          "description": "The radius of tiles to scan around the player. Defaults to 2."
+        "start_x": {
+          "type": "integer"
+        },
+        "start_y": {
+          "type": "integer"
+        },
+        "target_x": {
+          "type": "integer"
+        },
+        "target_y": {
+          "type": "integer"
         }
       },
       "required": [
-        "radius"
+        "start_x",
+        "start_y",
+        "target_x",
+        "target_y"
       ]
     },
-    "python_script": "import xml.etree.ElementTree as ET\n\ntry:\n    root = ET.fromstring(map_xml_string)\n    player_pos = None\n    \n    # Find player position\n    for row in root.findall(\"Row\"):\n        for tile in row.findall(\"Tile\"):\n            if tile.find(\"Player\") is not None:\n                player_pos = (int(tile.get(\"id\")), int(row.get(\"id\")))\n                break\n        if player_pos: break\n\n    if not player_pos:\n        print(\"Error: Player not found in Mental Map.\")\n    else:\n        px, py = player_pos\n        radius = input_data.get('radius', 2)\n        map_id = root.get('id')\n        print(f\"Scanning radius {radius} around {player_pos} on map {map_id}:\")\n        \n        for y in range(py - radius, py + radius + 1):\n            row = root.find(f\"./Row[@id='{y}']\")\n            if row is not None:\n                row_str = \"\"\n                for x in range(px - radius, px + radius + 1):\n                    tile = row.find(f\"./Tile[@id='{x}']\")\n                    if tile is not None:\n                        t_type = tile.get(\"type\")\n                        row_str += f\"[{x},{y}: {t_type}] \"\n                    else:\n                        row_str += f\"[{x},{y}: N/A] \"\n                print(row_str)\n            else:\n                print(f\"Row {y} not found.\")\n\nexcept Exception as e:\n    print(f\"Error executing scan_surroundings: {e}\")",
+    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\n\ndef check_path(start_x, start_y, target_x, target_y):\n    try:\n        # map_xml_string is injected into the environment\n        if 'map_xml_string' not in globals():\n            print(\"Error: map_xml_string not found in globals.\")\n            return\n\n        root = ET.fromstring(map_xml_string)\n        \n        # Parse map dimensions\n        width = int(root.attrib['width'])\n        height = int(root.attrib['height'])\n        \n        # Build grid of walkable tiles\n        walkable = set()\n        for row in root.findall('Row'):\n            y = int(row.attrib['id'])\n            for tile in row.findall('Tile'):\n                x = int(tile.attrib['id'])\n                t_type = tile.attrib.get('type', 'unseen')\n                \n                # Define walkable types\n                # Excluding known walls/obstacles\n                # TYPE_2889: Tree/Wall\n                # TYPE_80fc: Wall/Roof?\n                # TYPE_5519: Cut Tree\n                # TYPE_fed7: Ledge (Usually one way, treating as obstacle for general BFS unless logic added)\n                # TYPE_c453: Ledge\n                if t_type not in ['TYPE_2889', 'TYPE_80fc', 'TYPE_5519', 'TYPE_fed7', 'TYPE_c453']: \n                    walkable.add((x, y))\n                    \n        start = (start_x, start_y)\n        target = (target_x, target_y)\n        \n        if start not in walkable:\n            print(f\"Start {start} is not walkable or is an obstacle.\")\n            # return # Attempt to path anyway if start is 'obstacle' (e.g. current pos on ledge)\n            \n        if target not in walkable:\n            print(f\"Target {target} is not walkable or is an obstacle.\")\n            return\n\n        queue = deque([(start, 0)])\n        visited = {start}\n        \n        while queue:\n            (curr_x, curr_y), dist = queue.popleft()\n            \n            if (curr_x, curr_y) == target:\n                print(f\"Path found! Distance: {dist}\")\n                return\n            \n            # Check neighbors (Up, Down, Left, Right)\n            for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n                nx, ny = curr_x + dx, curr_y + dy\n                \n                if (nx, ny) in walkable and (nx, ny) not in visited:\n                    visited.add((nx, ny))\n                    queue.append(((nx, ny), dist + 1))\n                    \n        print(\"No path found.\")\n\n    except Exception as e:\n        print(f\"Error: {e}\")\n\ncheck_path(start_x, start_y, target_x, target_y)",
     "history": [
       {
         "commit_message": "Initial version",
-        "timestamp": "2026-01-17T03:27:06.196Z",
-        "action_counter": 213
+        "timestamp": "2026-01-17T13:46:49.913Z",
+        "action_counter": 1128
+      },
+      {
+        "commit_message": "Initial definition of BFS pathfinding tool to check connectivity on the Mental Map.",
+        "timestamp": "2026-01-17T18:35:27.285Z",
+        "action_counter": 1502
+      },
+      {
+        "commit_message": "Initial definition of BFS path checking tool to replace the broken connectivity tool.",
+        "timestamp": "2026-01-17T21:09:57.634Z",
+        "action_counter": 1713
       }
     ]
   },
@@ -109,50 +118,6 @@
       }
     ]
   },
-  "bfs_check_path": {
-    "description": "Checks if a path exists between two points using BFS on the Mental Map. Returns True/False and the path length.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "start_x": {
-          "type": "integer"
-        },
-        "start_y": {
-          "type": "integer"
-        },
-        "target_x": {
-          "type": "integer"
-        },
-        "target_y": {
-          "type": "integer"
-        }
-      },
-      "required": [
-        "start_x",
-        "start_y",
-        "target_x",
-        "target_y"
-      ]
-    },
-    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\n\ndef check_path(start_x, start_y, target_x, target_y):\n    try:\n        # map_xml_string is injected into the environment\n        if 'map_xml_string' not in globals():\n            print(\"Error: map_xml_string not found in globals.\")\n            return\n\n        root = ET.fromstring(map_xml_string)\n        \n        # Parse map dimensions\n        width = int(root.attrib['width'])\n        height = int(root.attrib['height'])\n        \n        # Build grid of walkable tiles\n        walkable = set()\n        for row in root.findall('Row'):\n            y = int(row.attrib['id'])\n            for tile in row.findall('Tile'):\n                x = int(tile.attrib['id'])\n                t_type = tile.attrib.get('type', 'unseen')\n                \n                # Define walkable types\n                # Excluding known walls/obstacles\n                # TYPE_2889: Tree/Wall\n                # TYPE_80fc: Wall/Roof?\n                # TYPE_5519: Cut Tree\n                # TYPE_fed7: Ledge (Usually one way, treating as obstacle for general BFS unless logic added)\n                # TYPE_c453: Ledge\n                if t_type not in ['TYPE_2889', 'TYPE_80fc', 'TYPE_5519', 'TYPE_fed7', 'TYPE_c453']: \n                    walkable.add((x, y))\n                    \n        start = (start_x, start_y)\n        target = (target_x, target_y)\n        \n        if start not in walkable:\n            print(f\"Start {start} is not walkable or is an obstacle.\")\n            # return # Attempt to path anyway if start is 'obstacle' (e.g. current pos on ledge)\n            \n        if target not in walkable:\n            print(f\"Target {target} is not walkable or is an obstacle.\")\n            return\n\n        queue = deque([(start, 0)])\n        visited = {start}\n        \n        while queue:\n            (curr_x, curr_y), dist = queue.popleft()\n            \n            if (curr_x, curr_y) == target:\n                print(f\"Path found! Distance: {dist}\")\n                return\n            \n            # Check neighbors (Up, Down, Left, Right)\n            for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n                nx, ny = curr_x + dx, curr_y + dy\n                \n                if (nx, ny) in walkable and (nx, ny) not in visited:\n                    visited.add((nx, ny))\n                    queue.append(((nx, ny), dist + 1))\n                    \n        print(\"No path found.\")\n\n    except Exception as e:\n        print(f\"Error: {e}\")\n\ncheck_path(start_x, start_y, target_x, target_y)",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-01-17T13:46:49.913Z",
-        "action_counter": 1128
-      },
-      {
-        "commit_message": "Initial definition of BFS pathfinding tool to check connectivity on the Mental Map.",
-        "timestamp": "2026-01-17T18:35:27.285Z",
-        "action_counter": 1502
-      },
-      {
-        "commit_message": "Initial definition of BFS path checking tool to replace the broken connectivity tool.",
-        "timestamp": "2026-01-17T21:09:57.634Z",
-        "action_counter": 1713
-      }
-    ]
-  },
   "navigate_to": {
     "description": "Navigates to a target coordinate using BFS on the Mental Map. Returns a list of buttons. Requires 'target_x' and 'target_y'. Optional 'avoid_coords' list of list [[x,y], [x,y]].",
     "input_schema": {
@@ -190,6 +155,41 @@
         "commit_message": "Implemented BFS navigation logic to parse map_xml_string and return a path to target coordinates, avoiding obstacles.",
         "timestamp": "2026-01-19T01:21:39.683Z",
         "action_counter": 3936
+      }
+    ]
+  },
+  "patrol_grass": {
+    "description": "Moves the player Left and Right to search for wild Pokemon, and presses A to handle battle introductions.",
+    "input_schema": {},
+    "python_script": "import json\ncmds = [\"Left\", \"Right\", \"Left\", \"Right\", \"A\", \"A\", \"A\", \"A\"]\nprint(json.dumps(cmds))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-17T02:06:33.549Z",
+        "action_counter": 93
+      }
+    ]
+  },
+  "scan_surroundings": {
+    "description": "Scans the Mental Map around the player and returns the type and coordinates of nearby tiles. Useful for identifying walls, ledges, and navigable paths without walking into them.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "radius": {
+          "type": "integer",
+          "description": "The radius of tiles to scan around the player. Defaults to 2."
+        }
+      },
+      "required": [
+        "radius"
+      ]
+    },
+    "python_script": "import xml.etree.ElementTree as ET\n\ntry:\n    root = ET.fromstring(map_xml_string)\n    player_pos = None\n    \n    # Find player position\n    for row in root.findall(\"Row\"):\n        for tile in row.findall(\"Tile\"):\n            if tile.find(\"Player\") is not None:\n                player_pos = (int(tile.get(\"id\")), int(row.get(\"id\")))\n                break\n        if player_pos: break\n\n    if not player_pos:\n        print(\"Error: Player not found in Mental Map.\")\n    else:\n        px, py = player_pos\n        radius = input_data.get('radius', 2)\n        map_id = root.get('id')\n        print(f\"Scanning radius {radius} around {player_pos} on map {map_id}:\")\n        \n        for y in range(py - radius, py + radius + 1):\n            row = root.find(f\"./Row[@id='{y}']\")\n            if row is not None:\n                row_str = \"\"\n                for x in range(px - radius, px + radius + 1):\n                    tile = row.find(f\"./Tile[@id='{x}']\")\n                    if tile is not None:\n                        t_type = tile.get(\"type\")\n                        row_str += f\"[{x},{y}: {t_type}] \"\n                    else:\n                        row_str += f\"[{x},{y}: N/A] \"\n                print(row_str)\n            else:\n                print(f\"Row {y} not found.\")\n\nexcept Exception as e:\n    print(f\"Error executing scan_surroundings: {e}\")",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-17T03:27:06.196Z",
+        "action_counter": 213
       }
     ]
   }
