@@ -43,4 +43,4 @@
 - Discovery: Mental Map XML indicates tiles (9, 35) and (10, 35) are walkable (TYPE_3fe2). The 'Dead End' marker at (8, 35) is likely incorrect. I must investigate this path.
 - Mechanic: Farfetch'd moves away from the player interaction. It resets if pushed into a blocked path or cornered incorrectly.
 - Strategy: Herd Farfetch'd South from (15, 25) to Row 28/29, then push West.
-- Current Step: Interrupting battle at (17, 23). Plan: Escape, then move Left->Left->Down to (15, 24) to push Farfetch'd South.
+- Current Step: Pushing Farfetch'd South from (15, 25). Goal: Reach Row 28/29 to flank West.
