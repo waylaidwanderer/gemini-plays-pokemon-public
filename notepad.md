@@ -77,7 +77,7 @@
 - Status: Garnet (36/69 HP). Coin Case obtained.
 - Goal: Exit to Surface -> Heal -> Radio Tower.
 - Battle: PokeManiac Donald (Slowpoke #2).
-- Status: Slowpoke (Full HP, Acc Down). Garnet (34/69 HP).
-- Turn State: Opponent's turn pending.
-- Strategy: Clear text (B). Wait for my turn.
-- Diagnosis: Cursor wraps 4->1. "Down x3" from Slot 4 lands on Slot 3. MUST track cursor manually. Current Pos: Slot 3.
+- Status: Slowpoke (Full HP, Acc Down). Garnet (32/69 HP).
+- Strategy: Manually correcting cursor.
+- Logic: Cursor remembered Slot 3 (Smokescreen). Need Slot 4 (Ember).
+- Input: A (Fight) -> Down (Slot 3->4) -> A (Select).
