@@ -80,3 +80,5 @@
 - Battle: PokeManiac Donald Defeated.
 - Status: Garnet (30/69 HP). Heading to PC.
 - Location: Exiting Underground (North).
+- Exploration: North Door at (3,0)-(4,0) is blocked/locked. No text?
+- Action: Heading South to find stairs or exit.
