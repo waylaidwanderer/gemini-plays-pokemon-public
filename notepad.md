@@ -3,9 +3,9 @@
 
 ### Current Objectives & Strategy
 - **Main Quest**: Navigate Ilex Forest to Goldenrod City.
-- **Immediate Goal**: Navigate South then West to escape the ledge pocket and reconnect with the main path.
-- **Location**: North-East Ilex Forest.
-- **Status**: Trapped below ledges in NE corner. Heading to (22, 9) to loop West.
+- **Immediate Goal**: Defeat Picnicker at (15, 14) and continue South.
+- **Location**: Central Ilex Forest.
+- **Status**: Explored NE corner (dead end). Moving South along the main path.
 
 ### Team Status
 - **Party**: Garnet (Lv23), Amethyst (Lv8), T (Lv3), Jasper (Lv2), Basil (Lv6), Pearl (Togepi, Lv5).
