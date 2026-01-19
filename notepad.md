@@ -76,7 +76,8 @@
 - Navigation: Moving North through Underground (3_53) to Northern Exit.
 - Status: Garnet (36/69 HP). Coin Case obtained.
 - Goal: Exit to Surface -> Heal -> Radio Tower.
-- Battle: PokeManiac Donald (Pokemon 2 Incoming).
-- Status: Garnet (34/69 HP).
-- Strategy: Decline switch. Continue attacking.
-- Warning: Garnet HP low. Critical need for PC after this.
+- Battle: PokeManiac Donald (Slowpoke #2).
+- Status: Slowpoke (Full HP). Garnet (34/69 HP).
+- Strategy: Force Ember (Slot 4).
+- Note: Slowpoke does ~2 damage with Tackle. Safe to trade hits.
+- Input: A -> Down x3 -> A to ensure Ember selection.
