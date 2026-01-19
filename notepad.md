@@ -74,7 +74,7 @@
 - Action: Clearing text. Will check Haircut Brothers then explore North.
 - Warning: Low HP. Avoid unnecessary battles or heal at PC if critical.
 - Location: Goldenrod City (Map 11_2).
-- Status: Interrupted by Joey's Call. Clearing text...
-- Navigation: Trapped at (13, 30).
-- Escape Route: Down to (13, 31) -> Left to (9, 31) -> Up to Row 27 -> Right to PC.
-- Goal: Reach Pokemon Center at (15, 27).
+- Status: Escaping Game Corner South alcove.
+- Path: Down to Row 31 -> Left to Col 9 -> Up to Row 27 -> Right to PC (15, 27).
+- Goal: Heal at Pokemon Center.
+- Next: Find Radio Tower (North-West).
