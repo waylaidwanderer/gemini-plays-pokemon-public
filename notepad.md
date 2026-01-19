@@ -43,3 +43,4 @@
   - 2F: Trainer's Market
   - 3F: Battle Collection
   - 4F: Medicine Box
+  - 5F: TM Corner
