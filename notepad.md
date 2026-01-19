@@ -46,3 +46,4 @@
   - 5F: TM Corner
   - 6F: Tranquil Square
   - Rooftop: Lookout
+- Map 10_14: Flower Shop. NPC discusses Sudowoodo (Strange Tree). Needs Badge for SquirtBottle.
