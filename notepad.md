@@ -78,8 +78,9 @@
 - Status: Exiting PC.
 - Next: Goldenrod City -> Radio Tower (North-West).
 - Location: Radio Tower 1F (Map 3_17).
-- Status: Starting Radio Card Quiz (Attempt 6).
-- Action: Advancing text to reach "Do you want to take the quiz?".
+- Status: Radio Card Quiz - Intro Dialogue.
+- Action: Advancing text to "Do you want to take the quiz?".
+- Next: Select YES to start.
 - Cheat Sheet (Permanent):
   1. Morning Pokemon? -> YES (A).
   2. Impossible to buy Berries? -> YES (A).
