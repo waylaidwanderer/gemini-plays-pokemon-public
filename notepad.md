@@ -75,5 +75,6 @@
 - Warning: Low HP. Avoid unnecessary battles or heal at PC if critical.
 - Map 11_20 (Goldenrod PC): Nurse Joy at (4, 1), PC at (9, 1).
 - Map 11_2 (Goldenrod City): Pokemon Center at (15, 27), Game Corner at (11, 29).
-- Current Task: Healing at Goldenrod PC.
-- Next: Exit PC -> Radio Tower (North/North-West).
+- Status: Healing Stuck. Reseting position.
+- Plan: Down -> Up -> Interact. If fail, use PC.
+- Next: Radio Tower.
