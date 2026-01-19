@@ -7,7 +7,7 @@
 - **Goal**: Get a Bicycle.
 - **Sub-Goals**: Get Radio Card (North), Visit Daycare (South).
 - **Team**: Fully Healed.
-- **Next**: Advance text to the "Lend a Bicycle?" prompt (almost there).
+- **Next**: Advance text carefully with single 'A' presses. Watch for "Lend a Bicycle?" prompt. Do not mash buttons to avoid restarting conversation or skipping prompts.
 
 ### Team Status
 - **Party**: Garnet (Lv23), Amethyst (Lv8), T (Lv3), Jasper (Lv2), Basil (Lv6), Pearl (Togepi, Lv5).
