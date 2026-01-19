@@ -78,13 +78,13 @@
 - Status: Exiting PC.
 - Next: Goldenrod City -> Radio Tower (North-West).
 - Location: Radio Tower 1F (Map 3_17).
-- Status: Answering Radio Card Quiz (Q4 Incoming).
-- Action: Advancing text to reveal Question 4.
-- Expected Q4: "Is Falkner the Violet Gym Leader?" -> YES (A).
+- Status: Answering Radio Card Quiz (Q4).
+- Question 4: "Is FALKNER the VIOLET GYM LEADER?" -> Answering YES.
+- Next: Question 5 ("Charmander Slots?"). CRITICAL: Answer NO (B).
 - Cheat Sheet (Permanent):
   1. Morning Pokemon? -> YES (A).
   2. Impossible to buy Berries? -> YES (A).
-  3. HM01 Flash? -> NO (B). (Correctly answered NO).
+  3. HM01 Flash? -> NO (B).
   4. Falkner Violet? -> YES (A).
   5. Charmander Slots? -> NO (B).
 - Goal: Get Radio Card.
