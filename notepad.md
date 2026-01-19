@@ -3,9 +3,9 @@
 
 ### Current Objectives & Strategy
 - **Main Quest**: Navigate Ilex Forest to Goldenrod City.
-- **Immediate Goal**: Explore Ilex Forest.
-- **Location**: West Ilex Forest (Column 0).
-- **Status**: Heading North along the western path.
+- **Immediate Goal**: Heal Garnet and talk to the NPC at (12, 1).
+- **Location**: North-East Ilex Forest.
+- **Status**: Recovering from battle with Bug Catcher Wayne.
 
 ### Team Status
 - **Party**: Garnet (Lv23), Amethyst (Lv8), T (Lv3), Jasper (Lv2), Basil (Lv6), Egg (Lv5).
