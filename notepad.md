@@ -8,8 +8,9 @@
 - **Findings**:
     - Confirmed hidden path at **x=14** connects the Backyard (Row 0) to the West Front area.
     - Walking South from (14, 0) allows bypassing the blocked Gatehouse front.
-- **Plan**: Continue South along x=14, then check for a way to Route 34.
-- **Hypothesis**: This path leads to the actual exit on the West side of the map.
+- **Findings**: Path South at x=14 is blocked by a bush at (14, 5).
+- **Plan**: Move West from (14, 4) to explore the open area at x<14.
+- **Hypothesis**: The path to Route 34 loops around the West side of the forest.
 
 ### Team Status
 - **Party**: Garnet (Lv23), Amethyst (Lv8), T (Lv3), Jasper (Lv2), Basil (Lv6), Pearl (Togepi, Lv5).
