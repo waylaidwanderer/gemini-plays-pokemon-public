@@ -60,6 +60,6 @@
 - Status: Bicycle Registered.
 - Exploration: Inside Game Corner (South Entrance).
 - Goal: Look around briefly, then find Radio Tower.
-- Exploration: Inside Game Corner (South). Row 23 blocked by slot machines.
-- Action: Talking to Gamer at (3, 27), then exploring East.
-- Note: No Coin Case yet. Can't play.
+- Exploration: Discovered stairs to Underground at (5, 25).
+- Action: Descending to check out the "shops".
+- Note: Cleaning up hallucinated map markers.
