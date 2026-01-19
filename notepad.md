@@ -44,7 +44,7 @@
   - 6F: Tranquil Square
   - Rooftop: Lookout
 - Map 10_14: Flower Shop. NPC discusses Sudowoodo (Strange Tree). Needs Badge for SquirtBottle.
-- Exploration: North-West path (Game Corner/Tracks) appeared blocked. Needs re-verification.
+- Exploration: North-West path (Game Corner/Tracks) appeared blocked.
 - Exploration: Flower Shop is at (19, 1).
-- Hypothesis: Radio Tower might be accessible via a specific gap in the West side or I missed a building entrance.
-- Navigation: Sweeping South-West side (currently x=5).
+- Strategy: Using 'find_nearest_unseen' tool to systematically clear fog of war in NW corner.
+- Hypothesis: Radio Tower is accessible via a hidden path or building in the NW sector.
