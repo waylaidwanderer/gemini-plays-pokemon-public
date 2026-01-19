@@ -41,3 +41,10 @@
 - **Plan**: Follow the path at Row 0 to the West. It appears to be a narrow corridor behind the trees.
 - **Observation**: Following the hidden path at Row 0 to the West. I haven't been to (14, 0) yet.
 - **Possibility**: This path might lead to the other side of the forest or a cuttable tree shortcut.
+### Game Mechanics
+- **Move Menu Layout**: 2x2 Grid.
+    - Top-Left (1): Quick Attack
+    - Top-Right (2): Leer
+    - Bottom-Left (3): Smokescreen
+    - Bottom-Right (4): Ember
+- **Cursor Memory**: The cursor remembers the last selected move in the battle menu.
