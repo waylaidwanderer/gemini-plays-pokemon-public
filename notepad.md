@@ -27,7 +27,7 @@
 - Rival Defeated in Azalea.
 ### Tile Mechanics (Ilex Forest)
 - **TYPE_3fe2**: Walkable floor.
-- **TYPE_80fc**: Small trees/bushes. Usually obstacles. Some might be cuttable, but default to treating as walls.
+- **TYPE_80fc**: Small trees/bushes. Validated as NON-CUTTABLE WALLS in this area (e.g., at 2,14 and 10,13). Treat as obstacles.
 - **TYPE_2889**: Large trees (Walls).
 - **TYPE_a339**: Ledge (Jumpable downwards?).
 - **TYPE_4e8c**: Water/Pond (Obstacle).
