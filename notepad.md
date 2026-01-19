@@ -3,8 +3,8 @@
 
 ### Current Objectives & Strategy
 - **Main Quest**: Explore Goldenrod City.
-- **Location**: REAL Bike Shop (Map 11_4). Found it!
-- **Goal**: Get a Bicycle.
+- **Location**: REAL Bike Shop (Map 11_4).
+- **Goal**: Register Bicycle and Test Ride.
 - **Sub-Goals**: Get Radio Card (North), Visit Daycare (South).
 - **Team**: Fully Healed.
 - **Next**: Accept the bike offer from the shop owner.
