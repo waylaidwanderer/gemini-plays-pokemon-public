@@ -78,8 +78,16 @@
 - Status: Exiting PC.
 - Next: Goldenrod City -> Radio Tower (North-West).
 - Location: Radio Tower 1F (Map 3_17).
-- Status: Switching Receptionist.
-- Observation: NPC at (5, 6) only says "Welcome!" (Looping).
-- Hypothesis: Wrong NPC. The Radio Card giver is likely the other receptionist.
-- Action: Moving to (8, 4) to talk to the receptionist at (8, 6).
+- Status: Switching Receptionist again.
+- Observation:
+  - NPC at (5, 6): "Welcome!" (Greeter).
+  - NPC at (8, 6): Lucky Number Show.
+  - NPC at (12, 6): **Target** (Likely Radio Card Quiz).
+- Action: Clear Lucky Number text -> Move to (12, 4) -> Talk to NPC at (12, 6).
+- Quiz Cheat Sheet:
+  1. Morning Pokemon? -> YES.
+  2. Impossible to buy Berries? -> YES.
+  3. HM01 Flash? -> NO.
+  4. Falkner Violet? -> YES.
+  5. Charmander Slots? -> NO.
 - Goal: Get Radio Card.
