@@ -44,3 +44,6 @@
   - 6F: Tranquil Square
   - Rooftop: Lookout
 - Map 10_14: Flower Shop. NPC discusses Sudowoodo (Strange Tree). Needs Badge for SquirtBottle.
+- Exploration: North-West path (Game Corner/Tracks) appeared blocked.
+- Exploration: Flower Shop is at (19, 1).
+- Current: Exploring North-East area.
