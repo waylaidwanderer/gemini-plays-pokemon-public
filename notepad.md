@@ -7,7 +7,7 @@
 - **Goal**: Find Bike Shop (East/South-East).
 - **Sub-Goals**: Get Radio Card (North), Visit Daycare (South).
 - **Team**: Fully Healed.
-- **Next**: Return to main street (x=21), then head North to find a path to the East side.
+- **Next**: Move North along main street (Column 21) to bypass Dept Store, then look East.
 
 ### Team Status
 - **Party**: Garnet (Lv23), Amethyst (Lv8), T (Lv3), Jasper (Lv2), Basil (Lv6), Pearl (Togepi, Lv5).
