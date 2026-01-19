@@ -74,8 +74,8 @@
 - Action: Clearing text. Will check Haircut Brothers then explore North.
 - Warning: Low HP. Avoid unnecessary battles or heal at PC if critical.
 - Location: Pokemon Center (Map 3_54).
-- Status: Trying (5, 22). Garnet (30/69 HP).
-- Issue: No response at (4, 22). Nurse sprite not clearly visible?
-- Action: Moving Right to (5, 22) -> Face Up -> Interact.
-- Backup: If this fails, will use PC to deposit/withdraw for healing.
-- Exit Plan: Retrace path! (4, 22) -> Left to (2, 22) -> Down to (2, 29) -> Right to Exit (4, 29).
+- Status: Garnet (30/69 HP). Interactions failed at (4, 22) and (5, 22).
+- Hypothesis: Nurse interaction point is precise or I was facing wrong.
+- Action: Retrying (4, 22) Face Up. Then checking PC at (7, 22).
+- PC Location: Likely Top-Right corner (X=7 or X=8).
+- Exit Plan: South to (4, 29).
