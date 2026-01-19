@@ -8,12 +8,12 @@
 - **Findings**:
     - Confirmed hidden path at **x=14** connects the Backyard (Row 0) to the West Front area.
     - Walking South from (14, 0) allows bypassing the blocked Gatehouse front.
-- **Findings**:
-    - Path West led to a gap in the trees at **(1, 5)**.
-    - Tile (1, 5) is `TYPE_201b` (likely a Warp/Exit).
-- **Plan**: Enter the warp at (1, 5).
-- **Hypothesis**: This is the exit to Route 34.
-- **Success**: The "Forest Bypass" strategy worked. The Gatehouse was indeed a decoy.
+- **Status**: Arrived at Route 34 (Map 11_23).
+- **Location**: Southern end of Route 34, just exited Ilex Forest.
+- **Goal**: Reach Goldenrod City (North).
+- **Sub-Goal**: Defeat trainers for EXP, locate Daycare.
+- **Team**: Garnet is Paralyzed and at half HP. Need to be careful or visit a Center soon.
+- **Fact**: The "Forest Bypass" worked. The Gatehouse was skipped.
 
 ### Team Status
 - **Party**: Garnet (Lv23), Amethyst (Lv8), T (Lv3), Jasper (Lv2), Basil (Lv6), Pearl (Togepi, Lv5).
