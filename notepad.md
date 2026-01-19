@@ -50,3 +50,5 @@
 - **Cursor Memory**: The cursor resets to Top (Move 1) at the start of a new battle. Within the same battle, it remembers the last position.
 - **Battle Menu Quirks**: Navigate slowly. Single-step verification recommended.
 - **Menu Wrapping**: Uncertainty exists. Assuming CLAMP at top for now based on past behavior.
+- **Input Dropping**: Rapid inputs (e.g., `A, Up, Up`) during menu opening often fail. The menu needs time to fully open before accepting navigation inputs.
+- **Current Status**: Inputs failed, cursor remained on Ember. Happy accident.
