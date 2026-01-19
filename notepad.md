@@ -77,7 +77,7 @@
 - Status: Garnet (36/69 HP). Coin Case obtained.
 - Goal: Exit to Surface -> Heal -> Radio Tower.
 - Battle: PokeManiac Donald (Slowpoke #2).
-- Status: Slowpoke (Yellow HP). Garnet (32/69 HP).
-- Turn State: Waiting for Enemy Attack.
-- Strategy: Clear text (B), then spam A (Uses Ember).
-- Note: Garnet HP > 30 is safe from Tackle (~2 dmg). No panic.
+- Status: Slowpoke (Yellow HP). Garnet (30/69 HP).
+- Strategy: Spam A (Ember).
+- Note: Slowpoke accuracy is lowered (Smokescreen). I am safe.
+- Post-Battle: EMERGENCY RUN to PC.
