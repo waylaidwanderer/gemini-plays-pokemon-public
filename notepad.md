@@ -74,8 +74,9 @@
 - Action: Clearing text. Will check Haircut Brothers then explore North.
 - Warning: Low HP. Avoid unnecessary battles or heal at PC if critical.
 - Location: Goldenrod City (Map 11_2).
-- Status: Escaping Alcove at (13, 30).
-- Route: Down to (13, 31) -> Left to (9, 31) -> Down to (9, 32) -> Right to (15, 32) -> Up to PC.
-- Insight: The alcove at (13, 30) is a trap; must flank West to exit.
+- Status: STUCK in alcove at (13, 31).
+- Issue: Left movement to (12, 31) failed multiple times.
+- Hypothesis: Invisible collision or object at (12, 31).
+- Action: Testing collision at (13, 30) and interacting with (12, 31).
+- Path Attempt: Up -> Left (Sign?) -> Down -> A (Interact) -> Left.
 - Goal: Heal Garnet.
-- Next: Radio Tower.
