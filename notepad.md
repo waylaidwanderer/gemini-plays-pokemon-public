@@ -70,6 +70,6 @@
 - Status: Bicycle Registered. Garnet Healthy.
 - Tile Mechanics: Input drops frequent. Move slowly.
 - Battle: Pokemaniac Issac (Lickitung Lv12).
-- Status: Garnet (42/69 HP).
-- Strategy: Use Ember (Slot 4).
-- Note: Manual input A -> Down x3 -> A to reach Ember from top.
+- Status: Garnet (36/69 HP).
+- Strategy: Double Tap A (Uses Last Move: Ember, or Quick Attack if reset).
+- Note: Both moves are effective enough. Saving inputs.
