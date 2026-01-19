@@ -42,4 +42,4 @@
 - Plan: Interact from South -> Bird moves North/East -> Follow it clockwise around the trees to return to the Apprentice.
 - Discovery: Mental Map XML indicates tiles (9, 35) and (10, 35) are walkable (TYPE_3fe2). The 'Dead End' marker at (8, 35) is likely incorrect. I must investigate this path.
 - Mechanic: Farfetch'd moves away from the player interaction. It resets if pushed into a blocked path or cornered incorrectly.
-- Status: Cutting the tree at (8, 25) to enter Ilex Forest proper.
+- Status: Exploring Ilex Forest.
