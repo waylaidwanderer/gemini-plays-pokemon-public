@@ -73,8 +73,8 @@
 - Status: Garnet (36/69 HP). No Potions left.
 - Action: Clearing text. Will check Haircut Brothers then explore North.
 - Warning: Low HP. Avoid unnecessary battles or heal at PC if critical.
-- Location: Exiting Building (Map 3_54).
-- Suspect: This might be the Underground Entrance again (Stairs at 5,25).
-- Action: Exiting to Goldenrod City to verify coordinates.
-- Goal: Pokemon Center (Expected at 15, 27).
+- Location: Pokemon Center (Map 3_54).
+- Note: Map ID 3_54 is shared between Game Corner South and PC. Visuals confirm PC.
+- Action: Healing Party.
+- Next: Find Radio Tower (North-West).
 - Status: Garnet (30/69 HP).
