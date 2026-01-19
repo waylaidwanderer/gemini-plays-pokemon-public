@@ -44,3 +44,5 @@
   - 3F: Battle Collection
   - 4F: Medicine Box
   - 5F: TM Corner
+  - 6F: Tranquil Square
+  - Rooftop: Lookout
