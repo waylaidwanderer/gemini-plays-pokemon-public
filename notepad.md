@@ -78,13 +78,12 @@
 - Status: Exiting PC.
 - Next: Goldenrod City -> Radio Tower (North-West).
 - Location: Radio Tower 1F (Map 3_17).
-- Status: Talking to Third Receptionist (Quiz).
-- Target: NPC at (12, 6).
-- Action: Advancing Text -> Answering YES to Q1/Q2.
-- Quiz Cheat Sheet:
-  1. Morning Pokemon? -> YES.
-  2. Impossible to buy Berries? -> YES.
-  3. HM01 Flash? -> NO.
-  4. Falkner Violet? -> YES.
-  5. Charmander Slots? -> NO.
+- Status: Starting Radio Card Quiz (Receptionist 3).
+- Action: Advancing text to start questions.
+- Cheat Sheet:
+  1. Morning Pokemon? -> YES (A).
+  2. Impossible to buy Berries? -> YES (A).
+  3. HM01 Flash? -> NO (B).
+  4. Falkner Violet? -> YES (A).
+  5. Charmander Slots? -> NO (B).
 - Goal: Get Radio Card.
