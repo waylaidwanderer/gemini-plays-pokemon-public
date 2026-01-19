@@ -52,6 +52,5 @@
 - Navigation: Pathing to House at (11, 29). Previous Down attempt from (17, 22) failed. Trying Right-Down wiggle to reach Row 23. Path: (17, 22) -> (18, 22) -> (18, 23) -> West to (9, 23).
 - Navigation: Retrying move to Row 23. Path: (18, 24) -> (18, 23) -> West to (9, 23) -> South to (9, 30) -> East to (11, 29). Previous Up attempt failed (likely wall bump or input drop).
 - System: Python sandbox appears down/unresponsive. Switched to manual navigation.
-- Navigation: Manual Navigation. Current: (17, 22). Obstacle at (16, 22) (Trash Can).
-- Strategy: Moving South to Row 23, then West.
-- Anomaly: Previous inputs confusing. Verifying movement with small steps.
+- Navigation: Manual Unstuck. Attempting (17, 22) -> Right (18, 22) -> Down (18, 23) -> West to Column 9.
+- Note: 'Down' input from (18, 22) seemed to fail last turn. Retrying with explicit sequence.
