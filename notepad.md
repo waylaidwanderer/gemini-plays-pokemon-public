@@ -5,8 +5,8 @@
 - **Main Quest**: Navigate Ilex Forest to Goldenrod City.
 - **Immediate Goal**: Find the Farfetch'd.
 - **Location**: Ilex Forest.
-- **Status**: Backtracking North along the West path to access the central area.
-- **Next Steps**: Go to (1, 33) then head East to search the center.
+- **Status**: Backtracking to the Apprentice to re-investigate the path South-East.
+- **Next Steps**: Go to (8, 35) and check East.
 
 ### Team Status
 - **Party**: Garnet (Lv19), Basil (Lv6), Egg (Lv5), Amethyst (Lv3), T (Lv3), Jasper (Lv2).
