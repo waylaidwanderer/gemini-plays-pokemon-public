@@ -4,8 +4,8 @@
 ### Current Objectives & Strategy
 - **Main Quest**: Navigate Ilex Forest to Goldenrod City.
 - **Location**: Northern Ilex Forest (Gatehouse Entrance).
-- **Status**: Standing at (23, 3). Attempting to enter the Gatehouse. (22, 3) appeared blocked previously.
-- **Navigation**: Try entering via (23, 3) or (24, 3).
+- **Status**: At (23, 2). Enters battle with Hoothoot. (23, 3) was traversable but did NOT warp.
+- **Navigation**: Run from battle. Then continue North to find the exit (possibly at Row 0).
 
 ### Team Status
 - **Party**: Garnet (Lv23), Amethyst (Lv8), T (Lv3), Jasper (Lv2), Basil (Lv6), Pearl (Togepi, Lv5).
