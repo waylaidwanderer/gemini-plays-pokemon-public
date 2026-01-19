@@ -69,4 +69,7 @@
 - Quest: Find Radio Tower (Surface).
 - Status: Bicycle Registered. Garnet Healthy.
 - Tile Mechanics: Input drops frequent. Move slowly.
-- Battle: Pokemaniac Issac.
+- Battle: Pokemaniac Issac (Lickitung Lv12).
+- Status: Garnet (42/69 HP).
+- Strategy: Use Ember (Slot 4).
+- Note: Manual input A -> Down x3 -> A to reach Ember from top.
