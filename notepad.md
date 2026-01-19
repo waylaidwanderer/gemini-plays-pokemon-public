@@ -2,18 +2,12 @@
 - Started: Friday, January 16, 2026 at 5:08 PM PST
 
 ### Current Objectives & Strategy
-- **Main Quest**: Navigate Ilex Forest to Goldenrod City.
-- **Location**: Northern Ilex Forest (Gatehouse Front).
-- **Goal**: Enter the Gatehouse via the Left Door at (22, 3).
-- **Findings**:
-    - Confirmed hidden path at **x=14** connects the Backyard (Row 0) to the West Front area.
-    - Walking South from (14, 0) allows bypassing the blocked Gatehouse front.
-- **Status**: Arrived at Route 34 (Map 11_23).
-- **Location**: Southern end of Route 34, just exited Ilex Forest.
-- **Goal**: Reach Goldenrod City (North).
-- **Sub-Goal**: Defeat trainers for EXP, locate Daycare.
-- **Team**: Garnet is Healthy (Cured of Paralysis). HP is 34/66.
-- **Next**: Head North to Goldenrod. Watch out for trainers.
+- **Main Quest**: Reach Goldenrod City.
+- **Location**: Route 34 (Map 11_1).
+- **Goal**: Head North to Goldenrod City.
+- **Sub-Goals**: Defeat trainers for EXP, locate Daycare.
+- **Team**: Garnet is Healthy (34/66 HP).
+- **Next**: Read nearby sign, then head North.
 
 ### Team Status
 - **Party**: Garnet (Lv23), Amethyst (Lv8), T (Lv3), Jasper (Lv2), Basil (Lv6), Pearl (Togepi, Lv5).
