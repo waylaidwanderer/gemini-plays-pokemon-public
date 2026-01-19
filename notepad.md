@@ -79,9 +79,9 @@
 - Next: Goldenrod City -> Radio Tower (North-West).
 - Location: Radio Tower 1F (Map 3_17).
 - Status: Answering Radio Card Quiz (Q5 - Final).
-- Current Text: "Do GOLDENROD GAME CORNER's slots..."
-- Action: Pressing A ONE TIME to see "...have CHARMANDER?".
-- Next: When YES/NO appears, press B (or Down -> A) to answer NO.
+- Action: Selecting answer for "Charmander at Game Corner?".
+- Strategy: Moving cursor to NO. Pressing 'Down' only.
+- Next: Verify cursor position, then press 'A'.
 - Cheat Sheet (Permanent):
   1. Morning Pokemon? -> YES (A).
   2. Impossible to buy Berries? -> YES (A).
