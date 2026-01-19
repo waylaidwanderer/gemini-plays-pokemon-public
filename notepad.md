@@ -68,6 +68,6 @@
 - Action: Investigating NPC at (5, 31) and exploring North.
 - Dialogue: NPC at (5, 31) says he got booted out of the Game Corner.
 - Battle: Super Nerd Eric.
-- Battle Status: Garnet poisoned. 1st Grimer defeated. 2nd Grimer incoming.
-- Strategy: Decline switch. Continue using Ember.
-- Item Check: Antidote available if needed (HP 61/69).
+- Battle Status: Fighting 2nd Grimer (Lv11). Garnet is Poisoned.
+- Strategy: Force selecting Ember (Slot 4) to ensure KO.
+- Note: Using 'Down' x3 to guarantee Slot 4 selection regardless of cursor memory.
