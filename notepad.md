@@ -47,4 +47,5 @@
     - Top-Right (2): Leer
     - Bottom-Left (3): Smokescreen
     - Bottom-Right (4): Ember
-- **Cursor Memory**: The cursor remembers the last selected move in the battle menu, even across battles. (Correction: Starting position in new battle was LEER, implying memory or offset).
+- **Cursor Memory**: The cursor resets to Top-Left (Move 1) at the start of a new battle. Within the same battle, it remembers the last position.
+- **Battle Menu Quirks**: Inputs like `Down, Right` in a single turn might drop the second input. Navigate slowly.
