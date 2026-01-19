@@ -34,8 +34,8 @@
 - Hint: The Charcoal Man's Pokemon can use CUT.
 - **Gym Strategy**: Use Garnet's Ember to sweep Bug-type Pokemon.
 - **Gym Trainers**: Twins (Defeated), Bug Catcher Al (Defeated), Bug Catcher Benny (Defeated).
-- Note: The path South from (8, 29) to (8, 35) is a dead end.
-- Note: The path South from (2, 29) connects back to the entrance at (3, 42). Re-investigate for Farfetch'd.
+- Note: The path South from (8, 29) leads to an Eastern passage at (8, 35).
+- Note: The path South from (2, 29) connects back to the entrance at (3, 42). Confirmed empty.
 - Critical Insight: The map is 30 tiles wide. I have only explored the West side (X < 9). I need to explore the East side (X > 9) to find the Farfetch'd.
 - Task: Locate Farfetch'd West of the Apprentice.
 - Farfetch'd Location: Suspected West of Apprentice (X < 7).
