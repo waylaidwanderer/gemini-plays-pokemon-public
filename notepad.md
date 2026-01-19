@@ -3,9 +3,8 @@
 
 ### Current Objectives & Strategy
 - **Main Quest**: Navigate Ilex Forest to Goldenrod City.
-- **Immediate Goal**: Defeat Picnicker at (15, 14) and continue South.
 - **Location**: Central Ilex Forest.
-- **Status**: Explored NE corner (dead end). Moving South along the main path.
+- **Status**: Explored NE corner. Attempting to interact with Picnicker. Wayne mentioned Headbutt knocks Pokemon out of trees.
 
 ### Team Status
 - **Party**: Garnet (Lv23), Amethyst (Lv8), T (Lv3), Jasper (Lv2), Basil (Lv6), Pearl (Togepi, Lv5).
