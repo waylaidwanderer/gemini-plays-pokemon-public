@@ -73,8 +73,8 @@
 - Status: Garnet (36/69 HP). No Potions left.
 - Action: Clearing text. Will check Haircut Brothers then explore North.
 - Warning: Low HP. Avoid unnecessary battles or heal at PC if critical.
-- Navigation: Pathing to Surface. Current: Underground (5, 24).
-- Issue: Stairs at (5, 25) didn't warp on touch/interact. Retrying from (5, 24) -> Down.
-- Goal: Heal at Pokemon Center (North/East).
-- To-Do: Find Radio Tower (North-West?).
+- Navigation: Moving South to exit (Row 35).
+- Correction: (5, 25) was not the stairs.
+- Observation: Doors at (5, 28) etc are likely Shops.
 - Status: Garnet (30/69 HP).
+- Goal: Reach South Exit -> Pokemon Center.
