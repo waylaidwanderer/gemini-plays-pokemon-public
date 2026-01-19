@@ -4,8 +4,8 @@
 ### Current Objectives & Strategy
 - **Main Quest**: Navigate Ilex Forest to Goldenrod City.
 - **Location**: Central Ilex Forest (West side).
-- **Status**: Reading sign at (3, 17). It warns of overgrown trees and dropped items (hidden items hint?).
-- **Navigation**: Heading North from (3, 16).
+- **Status**: At (3, 14). Realized the "NPC" was just a tree. Attempting to Cut the bush at (2, 14).
+- **Navigation**: Try to Cut bush at (2, 14). If successful, head North.
 
 ### Team Status
 - **Party**: Garnet (Lv23), Amethyst (Lv8), T (Lv3), Jasper (Lv2), Basil (Lv6), Pearl (Togepi, Lv5).
