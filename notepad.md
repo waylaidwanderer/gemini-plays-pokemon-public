@@ -76,7 +76,7 @@
 - Navigation: Moving North through Underground (3_53) to Northern Exit.
 - Status: Garnet (36/69 HP). Coin Case obtained.
 - Goal: Exit to Surface -> Heal -> Radio Tower.
-- Battle: PokeManiac Donald (Slowpoke Lv10).
-- Status: Slowpoke (Critical HP). Garnet (34/69 HP).
-- Strategy: Finishing it off. Spamming A.
-- Warning: Garnet HP critical. NO HEALING ITEMS. Must reach PC immediately after battle. Avoid all trainers.
+- Battle: PokeManiac Donald (Pokemon 2 Incoming).
+- Status: Garnet (34/69 HP).
+- Strategy: Decline switch. Continue attacking.
+- Warning: Garnet HP low. Critical need for PC after this.
