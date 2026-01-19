@@ -75,7 +75,8 @@
 - Warning: Low HP. Avoid unnecessary battles or heal at PC if critical.
 - Location: Pokemon Center (Map 3_54).
 - Status: Garnet (30/69 HP).
-- Obstacle: Central Planter Block at Row 23 blocks direct North path.
-- Action: Backtracking South to Row 27, then flanking Left to reach the counter.
-- Route: (5, 24) -> Left -> Down (x3) -> Left (x2) -> Up (x5).
+- Map Structure: U-Shaped Planter Trap at Rows 23-26, Cols 3-6.
+- Obstacles: North (Row 23), West (Col 3), East (Col 6). Exit is SOUTH (Row 27).
+- Action: Moving South to Row 27, then West to Column 2 to flank.
+- Route: (4, 24) -> Down (x3) -> Left (x2) -> Up (x5) to Counter.
 - Next: Heal -> Exit PC -> Find Radio Tower (North-West).
