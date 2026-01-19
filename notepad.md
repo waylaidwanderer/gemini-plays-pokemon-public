@@ -78,11 +78,7 @@
 - Status: Exiting PC.
 - Next: Goldenrod City -> Radio Tower (North-West).
 - Location: Radio Tower 1F (Map 3_17).
-- Status: Answering Radio Card Quiz.
-- Current: Question 2 (Berries at Mart).
-- Action: Answering YES (A).
-- Next: Question 3 (HM01 Flash).
-- CRITICAL: Answer NO (B) to Question 3.
+- Status: Taking Radio Card Quiz.
 - Cheat Sheet (Permanent):
   1. Morning Pokemon? -> YES (A).
   2. Impossible to buy Berries? -> YES (A).
