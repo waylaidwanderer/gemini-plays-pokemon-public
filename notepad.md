@@ -69,7 +69,7 @@
 - Quest: Find Radio Tower (Surface).
 - Status: Bicycle Registered. Garnet Healthy.
 - Tile Mechanics: Input drops frequent. Move slowly.
-- Battle: Pokemaniac Issac. Lickitung (Critical Hit).
-- Status: Garnet (36/69 HP).
-- Action: Clearing text (B mash). Expecting Lickitung to faint.
-- Next: Check if Issac has more Pokemon.
+- Battle: Pokemaniac Issac Defeated.
+- Status: Garnet (36/69 HP). No Potions left.
+- Action: Clearing text. Will check Haircut Brothers then explore North.
+- Warning: Low HP. Avoid unnecessary battles or heal at PC if critical.
