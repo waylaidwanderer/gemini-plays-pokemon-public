@@ -5,8 +5,8 @@
 - **Main Quest**: Navigate Ilex Forest to Goldenrod City.
 - **Immediate Goal**: Find the Farfetch'd.
 - **Location**: Ilex Forest.
-- **Status**: Exploring the path South from (4, 29).
-- **Next Steps**: Follow the path to find Farfetch'd.
+- **Status**: Exploring the West path (Columns 0-1) heading South.
+- **Next Steps**: Follow this new path South to find Farfetch'd.
 
 ### Team Status
 - **Party**: Garnet (Lv19), Basil (Lv6), Egg (Lv5), Amethyst (Lv3), T (Lv3), Jasper (Lv2).
