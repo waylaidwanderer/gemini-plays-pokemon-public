@@ -52,6 +52,5 @@
 - Navigation: Pathing to House at (11, 29). Previous Down attempt from (17, 22) failed. Trying Right-Down wiggle to reach Row 23. Path: (17, 22) -> (18, 22) -> (18, 23) -> West to (9, 23).
 - Navigation: Retrying move to Row 23. Path: (18, 24) -> (18, 23) -> West to (9, 23) -> South to (9, 30) -> East to (11, 29). Previous Up attempt failed (likely wall bump or input drop).
 - System: Python sandbox appears down/unresponsive. Switched to manual navigation.
-- Navigation: Located at (19, 23) on Main Street.
-- Path: West along Row 23 to Column 9 -> South to Row 29 -> East to House (11, 29).
-- Task: Register Bicycle to Select button for future speed.
+- Navigation: Moving West to Intersection (9, 23), then South to (9, 29).
+- Task: Register Bicycle to Select button next turn.
