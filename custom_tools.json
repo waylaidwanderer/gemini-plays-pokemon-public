@@ -153,57 +153,6 @@
       }
     ]
   },
-  "navigate_to": {
-    "description": "Navigates to a target coordinate using BFS on the Mental Map. Returns a list of buttons.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "target_x": {
-          "type": "integer"
-        },
-        "target_y": {
-          "type": "integer"
-        },
-        "avoid_coords": {
-          "type": "array",
-          "items": {
-            "type": "array",
-            "items": {
-              "type": "integer"
-            }
-          },
-          "nullable": true
-        }
-      },
-      "required": [
-        "target_x",
-        "target_y"
-      ]
-    },
-    "python_script": "import xml.etree.ElementTree as ET\nimport collections\n\n# Parse XML\nroot = ET.fromstring(map_xml_string)\nmap_width = int(root.attrib['width'])\nmap_height = int(root.attrib['height'])\n\ngrid = {}\nplayer_pos = None\n\nfor row in root.findall('Row'):\n    y_coord = int(row.attrib['id'])\n    for tile in row.findall('Tile'):\n        x_coord = int(tile.attrib['id'])\n        t_type = tile.attrib.get('type')\n        grid[(x_coord, y_coord)] = t_type\n        if tile.find('Player') is not None:\n            player_pos = (x_coord, y_coord)\n\nif player_pos is None:\n    print(\"[]\")\n    exit()\n\ntarget = (target_x, target_y)\navoid = set()\n\nif 'avoid_coords' in globals() and avoid_coords:\n    for c in avoid_coords:\n        avoid.add(tuple(c))\n\ndef bfs(start, tgt, grid_map, w, h, avoid_set):\n    queue = collections.deque([(start, [])])\n    visited = set([start])\n    \n    while queue:\n        (cx, cy), path = queue.popleft()\n        if (cx, cy) == tgt:\n            return path\n        \n        # Try 4 directions\n        for dx, dy, move in [(-1, 0, 'Left'), (1, 0, 'Right'), (0, -1, 'Up'), (0, 1, 'Down')]:\n            nx, ny = cx + dx, cy + dy\n            \n            if 0 <= nx < w and 0 <= ny < h:\n                if (nx, ny) not in visited and (nx, ny) not in avoid_set:\n                    tile_type = grid_map.get((nx, ny), 'unseen')\n                    \n                    # Walkability Rule:\n                    # TYPE_3fe2 is floor.\n                    # Treat everything else as obstacle unless it is the target.\n                    # This helps avoid 'stuck' loops on walls/trees.\n                    \n                    is_walkable = (tile_type == 'TYPE_3fe2')\n                    is_target = ((nx, ny) == tgt)\n                    \n                    if is_walkable or is_target:\n                        visited.add((nx, ny))\n                        queue.append(((nx, ny), path + [move]))\n    return None\n\npath_moves = bfs(player_pos, target, grid, map_width, map_height, avoid)\n\nif path_moves is not None:\n    print(str(path_moves).replace(\"'\", '\"'))\nelse:\n    print(\"[]\")",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-01-18T06:37:45.170Z",
-        "action_counter": 2522
-      },
-      {
-        "commit_message": "Implemented BFS navigation logic to parse map_xml_string and return a path to target coordinates, avoiding obstacles.",
-        "timestamp": "2026-01-19T01:21:39.683Z",
-        "action_counter": 3936
-      },
-      {
-        "commit_message": "Fixing tool by adding required commit message and ensuring robustness.",
-        "timestamp": "2026-01-19T03:58:58.882Z",
-        "action_counter": 4142
-      },
-      {
-        "commit_message": "Refined navigation logic: TYPE_80fc is now treated as an obstacle by default unless it is the explicit target, to prevent getting stuck on non-cuttable trees. Re-initializing tool to ensure sandbox is active.",
-        "timestamp": "2026-01-19T04:22:05.580Z",
-        "action_counter": 4171
-      }
-    ]
-  },
   "patrol_grass": {
     "description": "Moves the player Left and Right to search for wild Pokemon, and presses A to handle battle introductions.",
     "input_schema": {},
