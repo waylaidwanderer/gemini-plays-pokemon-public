@@ -4,11 +4,10 @@
 ### Current Objectives & Strategy
 - **Main Quest**: Explore Goldenrod City.
 - **Location**: Goldenrod City (Map 11_2).
-- **Goal**: Find the Pokemon Center and HEAL.
-- **Sub-Goals**: Visit Daycare (Route 34), Get Radio Card, Bike Shop.
+- **Goal**: Explore East Goldenrod for Bike Shop.
+- **Sub-Goals**: Get Radio Card (North), Visit Daycare (South).
 - **Team**: Fully Healed.
-- **Next**: Exit Pokemon Center and explore Goldenrod.
-- **Sub-Goals**: Get Radio Card, Visit Bike Shop, Visit Daycare.
+- **Next**: Head East from Pokemon Center.
 
 ### Team Status
 - **Party**: Garnet (Lv23), Amethyst (Lv8), T (Lv3), Jasper (Lv2), Basil (Lv6), Pearl (Togepi, Lv5).
