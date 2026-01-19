@@ -75,6 +75,6 @@
 - Warning: Low HP. Avoid unnecessary battles or heal at PC if critical.
 - Map 11_20 (Goldenrod PC): Nurse Joy at (4, 1), PC at (9, 1).
 - Map 11_2 (Goldenrod City): Pokemon Center at (15, 27), Game Corner at (11, 29).
-- Status: Accessing PC to heal Garnet.
-- Action: Bill's PC -> Deposit Garnet -> Withdraw Garnet.
+- Status: In Bill's PC Menu.
+- Action: Deposit Garnet (Slot 1) -> Withdraw Garnet.
 - Next: Radio Tower.
