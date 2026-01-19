@@ -74,7 +74,6 @@
 - Action: Clearing text. Will check Haircut Brothers then explore North.
 - Warning: Low HP. Avoid unnecessary battles or heal at PC if critical.
 - Location: Pokemon Center (Map 3_54).
-- Note: Map ID 3_54 is shared between Game Corner South and PC. Visuals confirm PC.
-- Action: Healing Party.
-- Next: Find Radio Tower (North-West).
-- Status: Garnet (30/69 HP).
+- Action: Healing sequence active.
+- Next: Exit PC -> Find Radio Tower (North-West).
+- Status: Healing...
