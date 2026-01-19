@@ -76,7 +76,7 @@
 - Navigation: Moving North through Underground (3_53) to Northern Exit.
 - Status: Garnet (36/69 HP). Coin Case obtained.
 - Goal: Exit to Surface -> Heal -> Radio Tower.
-- Battle: PokeManiac Donald Defeated.
-- Status: Garnet (30/69 HP). Critical.
-- Action: Exit Underground North -> Pokemon Center immediately.
-- Note: Avoid all trainers. Run if spotted.
+- Status: Garnet (30/69 HP). Battle Won.
+- Action: Clearing text. Heading North to Surface.
+- Quest: Heal at Pokemon Center -> Find Radio Tower.
+- Note: Donald defeated. Path North should be clear of him.
