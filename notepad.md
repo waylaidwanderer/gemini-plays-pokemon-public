@@ -68,6 +68,7 @@
 - Action: Investigating NPC at (5, 31) and exploring North.
 - Dialogue: NPC at (5, 31) says he got booted out of the Game Corner.
 - Battle: Super Nerd Eric.
-- Battle Status: 2nd Grimer (Red HP). Garnet Poisoned (50/69 HP).
-- Strategy: Clearing poison text, then using Ember (Slot 4).
-- Note: Assuming cursor remembers Slot 4. If resets, Quick Attack (Slot 1) should also finish it.
+- Battle Status: 2nd Grimer (Red HP). Garnet Poisoned (42/69 HP).
+- Strategy: Finishing off Grimer with Ember.
+- Post-Battle: MUST use Antidote or heal at PC immediately.
+- Note: Game State confirms Ember used successfully last turn, so cursor is likely on Slot 4.
