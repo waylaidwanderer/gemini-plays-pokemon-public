@@ -75,7 +75,7 @@
 - Warning: Low HP. Avoid unnecessary battles or heal at PC if critical.
 - Location: Pokemon Center (Map 3_54).
 - Status: Garnet (30/69 HP).
-- Map Structure: U-Shaped Planter Trap at Rows 23-26, Cols 3-6.
-- Plan: Avoid NPC at (3, 27) by going South to Row 28.
-- Route: (4, 27) -> Down -> Left (x2) -> Up (to Row 22) -> Right (to Nurse).
+- Navigation: Flanking Planter Wall (Row 23).
+- Route: (2, 25) -> Up (x3) -> Right (x2) to (4, 22).
+- Goal: Reach Counter at Row 22/21.
 - Next: Heal -> Exit PC -> Find Radio Tower (North-West).
