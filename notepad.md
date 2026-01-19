@@ -6,13 +6,10 @@
 - **Location**: Northern Ilex Forest (Gatehouse Front).
 - **Goal**: Enter the Gatehouse via the Left Door at (22, 3).
 - **Findings**:
-    - Front West access (Row 4, x<21) is blocked by walls.
-    - Backyard Path (Row 0) allows East-West travel.
-    - **CRITICAL**: Mental Map shows a walkable path South at **x=14**.
-        - (15,0) -> (15,1) -> (14,1) -> (14,2) -> (14,3)...
-- **Plan**: Navigate to (15, 0), Down to (15, 1), Left to (14, 1), then South.
-- **Hypothesis**: This path at x=14 bypasses the blocked front area and leads to the West side of the forest.
-- **Marker**: Placed "One-Way Ledge" markers on front doors.
+    - Confirmed hidden path at **x=14** connects the Backyard (Row 0) to the West Front area.
+    - Walking South from (14, 0) allows bypassing the blocked Gatehouse front.
+- **Plan**: Continue South along x=14, then check for a way to Route 34.
+- **Hypothesis**: This path leads to the actual exit on the West side of the map.
 
 ### Team Status
 - **Party**: Garnet (Lv23), Amethyst (Lv8), T (Lv3), Jasper (Lv2), Basil (Lv6), Pearl (Togepi, Lv5).
