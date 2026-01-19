@@ -77,7 +77,6 @@
 - Path: Moving South along Column 5 to avoid obstacles at (2,6) and (4,6).
 - Status: Garnet (30/69 HP).
 - Goal: Find North Exit or retreat to South Exit.
-- Status: Garnet (30/69 HP). Battle Won.
-- Action: Clearing text. Heading North to Surface.
-- Quest: Heal at Pokemon Center -> Find Radio Tower.
-- Note: Donald defeated. Path North should be clear of him.
+- Battle: PokeManiac Donald Defeated.
+- Status: Garnet (30/69 HP). Heading to PC.
+- Location: Exiting Underground (North).
