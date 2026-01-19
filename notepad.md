@@ -38,3 +38,5 @@
 - **Daycare Location**: Confirmed at (13, 15). I can see the door! Prioritizing healing first.
 - **NPC Obstacle**: Officer at (9, 11). Bypassed on the Left.
 - **Pathing**: Heading North along Column 8 to reach Goldenrod City.
+- **Directory**:
+  - 1F: Service Counter
