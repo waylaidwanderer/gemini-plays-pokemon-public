@@ -4,7 +4,7 @@
 ### Current Objectives & Strategy
 - **Main Quest**: Navigate Ilex Forest to Goldenrod City.
 - **Location**: Central Ilex Forest.
-- **Status**: Path South at (13, 14) is a dead end. Backtracking to (13, 11) to head West. Picnicker is inaccessible from here.
+- **Status**: Navigating West along the water's edge at (12, 11) towards (8, 12). Picnicker skipped.
 
 ### Team Status
 - **Party**: Garnet (Lv23), Amethyst (Lv8), T (Lv3), Jasper (Lv2), Basil (Lv6), Pearl (Togepi, Lv5).
