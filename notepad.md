@@ -57,4 +57,6 @@
 - Task: Register Bicycle inside.
 - Event: Received phone call from Joey at (9, 31). Handling text.
 - Exploration: Entered Game Corner via South Entrance (11, 29).
-- Task: Register Bicycle (Open Menu -> Pack -> Key Items).
+- Status: Bicycle Registered.
+- Exploration: Inside Game Corner (South Entrance).
+- Goal: Look around briefly, then find Radio Tower.
