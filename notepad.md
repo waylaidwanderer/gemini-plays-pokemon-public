@@ -74,7 +74,7 @@
 - Action: Clearing text. Will check Haircut Brothers then explore North.
 - Warning: Low HP. Avoid unnecessary battles or heal at PC if critical.
 - Location: Goldenrod City (Map 11_2).
-- Status: Escaping Game Corner South alcove.
-- Path: Down to Row 31 -> Left to Col 9 -> Up to Row 27 -> Right to PC (15, 27).
+- Status: Approaching Pokemon Center Entrance.
+- Path: Up to Row 28 -> Right along street to (15, 28) -> Up into (15, 27).
 - Goal: Heal at Pokemon Center.
 - Next: Find Radio Tower (North-West).
