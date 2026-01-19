@@ -37,6 +37,6 @@
 - Note: The path South from (8, 29) to (8, 35) is a dead end.
 - Note: The path South from (2, 29) connects back to the entrance at (3, 42). Re-investigate for Farfetch'd.
 - Critical Insight: The map is 30 tiles wide. I have only explored the West side (X < 9). I need to explore the East side (X > 9) to find the Farfetch'd.
-- Task: Herd Farfetch'd West along Row 29 to the Apprentice at (7, 28).
-- Farfetch'd Location: Likely at (14, 29). I am positioning at (15, 29) to push it West.
+- Task: Herd Farfetch'd South to Row 34/35, then flank East to push it West through the gap at (13, 34).
+- Farfetch'd Location: At (14, 29). Pushing South.
 - Discovery: Mental Map XML indicates tiles (9, 35) and (10, 35) are walkable (TYPE_3fe2). The 'Dead End' marker at (8, 35) is likely incorrect. I must investigate this path.
