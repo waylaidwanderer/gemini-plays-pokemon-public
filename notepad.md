@@ -52,6 +52,6 @@
 - Navigation: Pathing to House at (11, 29). Previous Down attempt from (17, 22) failed. Trying Right-Down wiggle to reach Row 23. Path: (17, 22) -> (18, 22) -> (18, 23) -> West to (9, 23).
 - Navigation: Retrying move to Row 23. Path: (18, 24) -> (18, 23) -> West to (9, 23) -> South to (9, 30) -> East to (11, 29). Previous Up attempt failed (likely wall bump or input drop).
 - System: Python sandbox appears down/unresponsive. Switched to manual navigation.
-- Navigation: Correction. Failed to move South from (19, 22). Currently at (17, 22).
-- Action: Moving South to Row 23, then West to Column 9.
-- Path: (17, 22) -> (17, 23) -> (9, 23) -> South.
+- Navigation: Stuck at (17, 22) again. Obstacle at (16, 22) (Trash Can/Sign) seems sticky.
+- Strategy: Repeating unstick sequence from Turn 5074: Clear text (B), move East away from obstacle, then South.
+- Path: (17, 22) -> (19, 22) -> (19, 23) -> West.
