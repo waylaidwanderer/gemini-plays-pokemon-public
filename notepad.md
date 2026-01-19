@@ -48,4 +48,4 @@
   3. Flank North, push South along Col 14 to (14, 35).
   4. Flank East, push West to Col 8.
   5. Push North to Apprentice.
-- Current Step: Moving to (11, 35) to push Farfetch'd West from (10, 35).
+- Current Step: Pushing Farfetch'd West from (9, 35) to (8, 35). This confirms the 'Dead End' was a false assumption.
