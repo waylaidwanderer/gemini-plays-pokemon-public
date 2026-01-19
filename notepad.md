@@ -74,7 +74,7 @@
 - Action: Clearing text. Will check Haircut Brothers then explore North.
 - Warning: Low HP. Avoid unnecessary battles or heal at PC if critical.
 - Location: Pokemon Center (Map 3_54).
-- Issue: Healing taking multiple turns. Possible input lag or long dialogue.
-- Action: Mashing 'A' to complete.
+- Issue: Healing stalled at (5, 24).
+- Action: Moving Down -> Left -> Up to (4, 24) to retry interaction.
 - Next: Exit PC (Down) -> Find Radio Tower (North-West).
-- Status: Garnet (30/69 HP). Waiting for HP update...
+- Status: Garnet (30/69 HP). Repositioning...
