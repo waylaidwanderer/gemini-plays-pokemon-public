@@ -6,12 +6,12 @@
 - **Location**: Northern Ilex Forest (Gatehouse Front).
 - **Goal**: Enter the Gatehouse via the Left Door at (22, 3).
 - **Findings**:
-    - East path dead-ends at (27, 1).
-    - Map data shows **(25, 3)** is also `TYPE_a336` (Door). This implies a double-wide door at (24-25).
-    - Previous tests of (22,0) and (24,0) failed.
-- **Plan**: Test North Exit at **(25, 0)**.
-- **Hypothesis**: The exit corresponds to the wider door.
-- **Contingency**: If (25, 0) fails, test walking South from **(25, 2)** (the other half of the right door).
+    - Right Door is 2 tiles wide: (24, 3) and (25, 3).
+    - (24, 3) is a One-Way Ledge.
+    - (25, 0) North is solid (tested Turn 4481).
+- **Plan**: Test (25, 3) from the North. Move (25, 0) -> (25, 2) -> (25, 3).
+- **Hypothesis**: If (25, 3) is also a ledge, then the exit must be hidden or requires interaction (Cut/Headbutt?).
+- **Inventory**: Low on balls (1 Great, 1 Lure). Prioritize reaching Goldenrod.
 
 ### Team Status
 - **Party**: Garnet (Lv23), Amethyst (Lv8), T (Lv3), Jasper (Lv2), Basil (Lv6), Pearl (Togepi, Lv5).
