@@ -5,10 +5,9 @@
 - **Main Quest**: Navigate Ilex Forest to Goldenrod City.
 - **Location**: Northern Ilex Forest (Gatehouse Front).
 - **Goal**: Enter the Gatehouse via the Left Door at (22, 3).
-- **Discovery**: The "Gatehouse" doors are solid decorations. The "Pillar" at (23, 3) is an open archway leading to the back area.
-- **Plan**: Walk straight North through the archway at (23, 0) to exit the map.
-- **Contingency**: If (23, 0) is blocked North, explore the path to the East at Row 0.
-- **Fact**: West path (Row 0) led to Bug Catcher Wayne and dead-end bushes.
+- **Fact**: Walking North at (23, 0) led to a collision (no warp). This area is likely just the back alley of the building.
+- **Hypothesis**: The actual exit requires entering the Gatehouse interior via the doors at (22, 3) or (24, 3).
+- **Plan**: Return to (23, 3) and try entering the Left Door at (22, 3) again. The previous failure was likely due to the phone call.
 
 ### Team Status
 - **Party**: Garnet (Lv23), Amethyst (Lv8), T (Lv3), Jasper (Lv2), Basil (Lv6), Pearl (Togepi, Lv5).
