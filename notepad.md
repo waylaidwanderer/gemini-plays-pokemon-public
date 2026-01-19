@@ -76,8 +76,7 @@
 - Navigation: Moving North through Underground (3_53) to Northern Exit.
 - Status: Garnet (36/69 HP). Coin Case obtained.
 - Goal: Exit to Surface -> Heal -> Radio Tower.
-- Battle: PokeManiac Donald (Slowpoke #2).
-- Status: Slowpoke (Yellow HP). Garnet (30/69 HP).
-- Strategy: Spam A (Ember).
-- Note: Slowpoke accuracy is lowered (Smokescreen). I am safe.
-- Post-Battle: EMERGENCY RUN to PC.
+- Battle: PokeManiac Donald Defeated.
+- Status: Garnet (30/69 HP). Critical.
+- Action: Exit Underground North -> Pokemon Center immediately.
+- Note: Avoid all trainers. Run if spotted.
