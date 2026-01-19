@@ -73,7 +73,6 @@
 - Status: Garnet (36/69 HP). No Potions left.
 - Action: Clearing text. Will check Haircut Brothers then explore North.
 - Warning: Low HP. Avoid unnecessary battles or heal at PC if critical.
-- Exploration: Found Coin Case. Exiting Underground.
-- Navigation: Moving North to exit.
-- Status: Garnet (36/69 HP). Needs healing.
-- Time: Monday (Haircut Brothers closed).
+- Navigation: Moving North through Underground (3_53) to Northern Exit.
+- Status: Garnet (36/69 HP). Coin Case obtained.
+- Goal: Exit to Surface -> Heal -> Radio Tower.
