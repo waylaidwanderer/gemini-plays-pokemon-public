@@ -9,6 +9,7 @@
 
 ### Team Status
 - **Party**: Garnet (Lv23), Basil (Lv6), Egg (Lv5), Amethyst (Lv8), T (Lv3), Jasper (Lv2).
+- **PC**: Jade (Oddish).
 
 ### Key Items & Progress
 - **Badges**: Zephyr Badge, Hive Badge.
