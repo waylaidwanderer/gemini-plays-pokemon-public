@@ -60,3 +60,5 @@
 - Status: Bicycle Registered.
 - Exploration: Inside Game Corner (South Entrance).
 - Goal: Look around briefly, then find Radio Tower.
+- Navigation: Discrepancy between Visual (3, 27) and RAM (4, 27). Trusting Visual.
+- Observation: Row 23 appears blocked by machines and a Gentleman. This area might be a dead end.
