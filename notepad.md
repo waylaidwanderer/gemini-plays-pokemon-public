@@ -3,10 +3,9 @@
 
 ### Current Objectives & Strategy
 - **Main Quest**: Navigate Ilex Forest to Goldenrod City.
-- **Location**: Northern Ilex Forest (Gatehouse Mystery).
-- **Status**: At (23, 3). Gatehouse doors at (22, 3) and (24, 3) are solid/blocked from South and West.
-- **Anomaly**: Walking North through the gap at (23, 3) does NOT warp.
-- **Navigation**: Testing interaction with door tiles and attempting to reset position by moving South.
+- **Location**: Northern Ilex Forest (Gatehouse Entrance).
+- **Status**: At (25, 4). The "windows" at (22,3), (24,3), (25,3) are solid. The "door" at (23,3) is permeable but didn't warp on the last attempt.
+- **Navigation**: Moving to (23, 4) to deliberately enter (23, 3) again and interact (Press A). Checking for a locked door mechanic or misaligned warp.
 
 ### Team Status
 - **Party**: Garnet (Lv23), Amethyst (Lv8), T (Lv3), Jasper (Lv2), Basil (Lv6), Pearl (Togepi, Lv5).
