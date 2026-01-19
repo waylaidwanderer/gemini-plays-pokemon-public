@@ -68,6 +68,6 @@
 - Action: Investigating NPC at (5, 31) and exploring North.
 - Dialogue: NPC at (5, 31) says he got booted out of the Game Corner.
 - Battle: Super Nerd Eric.
-- Battle Status: Fighting 2nd Grimer (Lv11). Garnet is Poisoned.
-- Strategy: Force selecting Ember (Slot 4) to ensure KO.
-- Note: Using 'Down' x3 to guarantee Slot 4 selection regardless of cursor memory.
+- Battle Status: Fighting 2nd Grimer (Lv11). Garnet Poisoned. Used Smokescreen twice by accident.
+- Strategy: Clearing text with 'B'. Will select Ember carefully next turn.
+- Note: Inputs 'Down' were likely dropped previous turn.
