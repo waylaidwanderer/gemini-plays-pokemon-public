@@ -78,7 +78,9 @@
 - Status: Exiting PC.
 - Next: Goldenrod City -> Radio Tower (North-West).
 - Location: Radio Tower 1F (Map 3_17).
-- Status: Taking Radio Card Quiz.
+- Status: Answering Radio Card Quiz (Q3).
+- Action: Advancing text to read Question 3.
+- Critical: Verify question is "HM01 Flash?" before answering.
 - Cheat Sheet (Permanent):
   1. Morning Pokemon? -> YES (A).
   2. Impossible to buy Berries? -> YES (A).
