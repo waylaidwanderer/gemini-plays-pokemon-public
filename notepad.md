@@ -67,3 +67,4 @@
 - Location: Stairs to Game Corner at (3, 33).
 - Action: Investigating NPC at (5, 31) and exploring North.
 - Dialogue: NPC at (5, 31) says he got booted out of the Game Corner.
+- Battle: Super Nerd Eric.
