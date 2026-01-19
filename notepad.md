@@ -38,5 +38,3 @@
 - Note: The path South from (2, 29) connects back to the entrance at (3, 42). Re-investigate for Farfetch'd.
 - Critical Insight: The map is 30 tiles wide. I have only explored the West side (X < 9). I need to explore the East side (X > 9) to find the Farfetch'd.
 - Task: Finish loop to entrance, then head East.
-- Warning: I have been stuck in a loop between the Gatehouse (11_22) and the Forest (3_52). I must verify I am in Map 3_52 before assuming I can explore.
-- Action: Walk Left to exit Gatehouse. Walk Up to enter Forest.
