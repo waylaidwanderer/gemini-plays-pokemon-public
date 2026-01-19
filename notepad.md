@@ -7,7 +7,7 @@
 - **Goal**: Find Bike Shop (East/South-East).
 - **Sub-Goals**: Get Radio Card (North), Visit Daycare (South).
 - **Team**: Fully Healed.
-- **Next**: Finish conversation with NPC about Bike Shop location.
+- **Next**: Finish conversation to learn Bike Shop location.
 
 ### Team Status
 - **Party**: Garnet (Lv23), Amethyst (Lv8), T (Lv3), Jasper (Lv2), Basil (Lv6), Pearl (Togepi, Lv5).
