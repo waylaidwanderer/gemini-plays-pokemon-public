@@ -7,7 +7,7 @@
 - **Goal**: Get a Bicycle.
 - **Sub-Goals**: Get Radio Card (North), Visit Daycare (South).
 - **Team**: Fully Healed.
-- **Next**: Advance through Joey's call to return to the Bike Shop dialogue.
+- **Next**: Finish Joey's call (Rattata talk), then get the Bike.
 
 ### Team Status
 - **Party**: Garnet (Lv23), Amethyst (Lv8), T (Lv3), Jasper (Lv2), Basil (Lv6), Pearl (Togepi, Lv5).
