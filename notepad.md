@@ -4,9 +4,9 @@
 ### Current Objectives & Strategy
 - **Main Quest**: Navigate Ilex Forest to Goldenrod City.
 - **Immediate Goal**: Find the Farfetch'd.
-- **Location**: Ilex Forest (near Apprentice).
-- **Status**: Backtracking West past the Apprentice to search for the bird.
-- **Next Steps**: Go to (4, 29) and scan for side paths.
+- **Location**: Ilex Forest.
+- **Status**: Exploring the path South from (4, 29).
+- **Next Steps**: Follow the path to find Farfetch'd.
 
 ### Team Status
 - **Party**: Garnet (Lv19), Basil (Lv6), Egg (Lv5), Amethyst (Lv3), T (Lv3), Jasper (Lv2).
