@@ -40,3 +40,4 @@
 - **Pathing**: Heading North along Column 8 to reach Goldenrod City.
 - **Directory**:
   - 1F: Service Counter
+  - 2F: Trainer's Market
