@@ -3,11 +3,11 @@
 
 ### Current Objectives & Strategy
 - **Main Quest**: Navigate Ilex Forest to Goldenrod City.
-- **Location**: Northern Ilex Forest (Gatehouse Grid Search).
-- **Status**: At (23, 3). Side entry to Left Door (22, 3) failed (Blocked).
-- **Navigation**: Executing grid search of the "interior" tiles behind the facade.
-- **Path**: Attempting Right (check 24,3), Up (to 23,2), Right (to 24,2), Down (to 24,3 from behind).
-- **Hypothesis**: The warp might be accessible from the North side of the door tiles, or I need to step on a specific hidden trigger.
+- **Location**: Northern Ilex Forest (Gatehouse Debug).
+- **Status**: At (24, 4). "Windows" at (22, 3) and (24, 3) are blocked from South. Middle door (23, 3) is open but fails to warp.
+- **Anomaly**: (24, 3) is walkable from the West (side) but acts as a ledge jumping South?
+- **Navigation**: Testing the rightmost "Warp" tile at (25, 3). Moving Right to (25, 4) then Up.
+- **Hypothesis**: The door might be offset or I need to trigger a specific tile.
 
 ### Team Status
 - **Party**: Garnet (Lv23), Amethyst (Lv8), T (Lv3), Jasper (Lv2), Basil (Lv6), Pearl (Togepi, Lv5).
