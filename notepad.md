@@ -5,10 +5,11 @@
 - **Main Quest**: Navigate Ilex Forest to Goldenrod City.
 - **Location**: Northern Ilex Forest (Gatehouse Front).
 - **Goal**: Enter the Gatehouse via the Left Door at (22, 3).
-- **Anomaly**: "Gatehouse" doors (22, 3) and (24, 3) are solid from the South.
-- **Hypothesis**: Input buffering issue on previous turn caused failure to move. Retrying access from the North (Inside/Backyard).
-- **Plan**: Move to (22, 2) and try walking South into (22, 3). If blocked, try the same for (24, 3).
-- **Contingency**: If all doors are solid walls, check for Cuttable trees or other exits.
+- **Findings**:
+    - "Gatehouse" doors (22, 3)/(24, 3) are one-way ledges Southward.
+    - (22, 0) and (23, 0) North are solid walls.
+- **Plan**: Run from battle, then test (24, 0).
+- **Hypothesis**: If (24, 0) is solid, the exit is elusive (maybe hidden path or interaction).
 
 ### Team Status
 - **Party**: Garnet (Lv23), Amethyst (Lv8), T (Lv3), Jasper (Lv2), Basil (Lv6), Pearl (Togepi, Lv5).
