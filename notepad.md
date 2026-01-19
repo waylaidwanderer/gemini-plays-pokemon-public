@@ -78,9 +78,8 @@
 - Status: Exiting PC.
 - Next: Goldenrod City -> Radio Tower (North-West).
 - Location: Radio Tower 1F (Map 3_17).
-- Status: Answering Radio Card Quiz (Q4).
-- Action: Answering YES to Q4 ("Falkner uses Bird Pokemon").
-- Next: Question 5 ("Charmander at Game Corner?").
+- Status: Answering Radio Card Quiz (Q5 - Final).
+- Action: Advancing text to reveal Q5 ("Charmander at Game Corner?").
 - CRITICAL: Answer NO (B) to Question 5.
 - Cheat Sheet (Permanent):
   1. Morning Pokemon? -> YES (A).
