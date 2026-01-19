@@ -56,6 +56,7 @@
 - Action: Clearing Joey's call text, then moving Right -> Up.
 - Task: Register Bicycle inside.
 - Event: Received phone call from Joey at (9, 31). Handling text.
-- Navigation: Stuck at (10, 30). Previous attempts to move Right or Down failed/reset.
-- Strategy: Moving Down to (10, 31) then Right to (11, 31) to flank the door.
-- Observation: Possible input drops or invisible collision. Taking small steps.
+- Navigation: Blocked at (10, 30) by invisible obstacle (Right/Down).
+- Hypothesis: Invisible NPC or input lag.
+- Strategy: Flanking wide Left -> South -> East to approach Door (11, 29) from below.
+- Path: (10, 30) -> (9, 30) -> (9, 31) -> (11, 31) -> (11, 30) -> (11, 29).
