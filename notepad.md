@@ -64,10 +64,8 @@
 - Action: Descending to check out the "shops".
 - Note: Cleaning up hallucinated map markers.
 - Exploration: In Underground (Map 3_53).
-- Location: Stairs to Game Corner at (3, 33).
-- Action: Investigating NPC at (5, 31) and exploring North.
-- Dialogue: NPC at (5, 31) says he got booted out of the Game Corner.
-- Battle: Super Nerd Eric.
-- Status: Garnet Cured of Poison.
-- Exploration: Exploring Underground Northbound.
-- Goal: Find Coin Case and hidden items.
+- Location: Underground (3_53).
+- NPCs: Haircut Brothers at (5, 27).
+- Quest: Find Radio Tower (Surface).
+- Status: Bicycle Registered. Garnet Healthy.
+- Tile Mechanics: Input drops frequent. Move slowly.
