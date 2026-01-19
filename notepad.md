@@ -3,9 +3,9 @@
 
 ### Current Objectives & Strategy
 - **Main Quest**: Navigate Ilex Forest to Goldenrod City.
-- **Immediate Goal**: Explore East towards Goldenrod City.
+- **Immediate Goal**: Navigate South through the gap at (23, 3) to bypass the ledges.
 - **Location**: North-East Ilex Forest.
-- **Status**: Defeated Wayne. He mentioned Headbutt knocks Pokemon out of trees.
+- **Status**: East path was a dead end. Heading South. Wayne mentioned Headbutt.
 
 ### Team Status
 - **Party**: Garnet (Lv23), Amethyst (Lv8), T (Lv3), Jasper (Lv2), Basil (Lv6), Egg (Lv5).
