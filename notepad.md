@@ -73,3 +73,4 @@
 - Status: Garnet (36/69 HP). No Potions left.
 - Action: Clearing text. Will check Haircut Brothers then explore North.
 - Warning: Low HP. Avoid unnecessary battles or heal at PC if critical.
+- Exploration: Spotted item ball at (7, 25). Backtracking to pickup.
