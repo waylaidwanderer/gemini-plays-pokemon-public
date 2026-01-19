@@ -78,7 +78,8 @@
 - Status: Exiting PC.
 - Next: Goldenrod City -> Radio Tower (North-West).
 - Location: Radio Tower 1F (Map 3_17).
-- Action: Navigate around the partition wall to reach Receptionist.
-- Path: Up to Row 4 -> Right to Col 5 -> Down to interact.
-- Goal: Start Radio Card Quiz.
-- Next: Answer Questions -> Get Radio Card.
+- Status: In Dialogue with Receptionist (Quiz).
+- Action: Advancing text to start the quiz.
+- Strategy: Read questions carefully.
+  - Q1: Usually "Is it impossible to buy Berries at a Mart?" (YES) or "Can you check map...?" (YES).
+- Goal: Get Radio Card.
