@@ -74,6 +74,7 @@
 - Action: Clearing text. Will check Haircut Brothers then explore North.
 - Warning: Low HP. Avoid unnecessary battles or heal at PC if critical.
 - Location: Pokemon Center (Map 3_54).
-- Action: Healing sequence active.
+- Action: Retrying Healing Sequence.
+- Issue: HP not updated yet (30/69). Likely cancelled with 'B' or mashed past 'Yes'.
 - Next: Exit PC -> Find Radio Tower (North-West).
 - Status: Healing...
