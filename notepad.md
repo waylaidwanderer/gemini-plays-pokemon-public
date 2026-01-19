@@ -46,4 +46,5 @@
   1. Push Farfetch'd West to (8, 35).
   2. Interact from East (9, 35) to force it North to (8, 34) (since West is blocked).
   3. Follow North to Apprentice.
-- Status: Receiving HM01 Cut from Charcoal Master.
+- Status: Teaching HM01 Cut to Basil (Bellsprout).
+- Next: Cut the tree at (8, 25) and proceed North.
