@@ -5,10 +5,10 @@
 - **Main Quest**: Navigate Ilex Forest to Goldenrod City.
 - **Location**: Northern Ilex Forest (Gatehouse Front).
 - **Goal**: Enter the Gatehouse via the Left Door at (22, 3).
-- **Anomaly**: Both Gatehouse doors (22, 3) and (24, 3) are solid from the South. The middle (23, 3) is walkable.
-- **Hypothesis**: The "Doors" might be accessible from the *side* (from 23, 3) or the "Backyard" contains the exit.
-- **Plan**: Move to (23, 3). Try moving Left into (22, 3) and Right into (24, 3).
-- **Contingency**: If that fails, sweep the backyard (Row 0) for hidden warps at (22, 0) and (24, 0).
+- **Anomaly**: Right Door (24, 3) blocked movement from the West (side). Doors seem solid from all tested sides.
+- **Plan**: Investigate "Internal Rooms" `(22, 2)` and `(24, 2)`. Check for hidden triggers or interactions facing South (back of doors).
+- **Hypothesis**: The exit might be a hidden interaction or I need to Cut a tree in the "Backyard".
+- **Action**: Move to (22, 2), Face South, Press A. Then (24, 2), Face South, Press A.
 
 ### Team Status
 - **Party**: Garnet (Lv23), Amethyst (Lv8), T (Lv3), Jasper (Lv2), Basil (Lv6), Pearl (Togepi, Lv5).
