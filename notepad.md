@@ -63,4 +63,6 @@
 - Exploration: Discovered stairs to Underground at (5, 25).
 - Action: Descending to check out the "shops".
 - Note: Cleaning up hallucinated map markers.
-- Exploration: Entering Underground via stairs at (5, 25). Expecting "shops" and potentially the Coin Case.
+- Exploration: In Underground (Map 3_53).
+- Location: Stairs to Game Corner at (3, 33).
+- Action: Investigating NPC at (5, 31) and exploring North.
