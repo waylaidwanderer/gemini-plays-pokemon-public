@@ -37,6 +37,6 @@
 - Note: The path South from (8, 29) to (8, 35) is a dead end.
 - Note: The path South from (2, 29) connects back to the entrance at (3, 42). Re-investigate for Farfetch'd.
 - Critical Insight: The map is 30 tiles wide. I have only explored the West side (X < 9). I need to explore the East side (X > 9) to find the Farfetch'd.
-- Task: Herd Farfetch'd South to (14, 35), then flank East to push it West through the gap.
+- Task: Push Farfetch'd to the dead end at (14, 35). Expecting it to move West when pushed from the North since South and East are blocked.
 - Farfetch'd Location: Moving South down Column 14. Currently near (14, 33).
 - Discovery: Mental Map XML indicates tiles (9, 35) and (10, 35) are walkable (TYPE_3fe2). The 'Dead End' marker at (8, 35) is likely incorrect. I must investigate this path.
