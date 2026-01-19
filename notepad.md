@@ -6,12 +6,11 @@
 - **Location**: Northern Ilex Forest (Gatehouse Front).
 - **Goal**: Enter the Gatehouse via the Left Door at (22, 3).
 - **Findings**:
-    - Right Door is 2 tiles wide: (24, 3) and (25, 3).
-    - (24, 3) is a One-Way Ledge.
-    - (25, 0) North is solid (tested Turn 4481).
-- **Plan**: Test (25, 3) from the North. Move (25, 0) -> (25, 2) -> (25, 3).
-- **Hypothesis**: If (25, 3) is also a ledge, then the exit must be hidden or requires interaction (Cut/Headbutt?).
-- **Inventory**: Low on balls (1 Great, 1 Lure). Prioritize reaching Goldenrod.
+    - The "Backyard" (Row 0-2) seems to be a dead-end trap.
+    - Doors (22,3), (24,3), (25,3) act as One-Way Ledges (Southbound).
+    - Middle Arch (23,3) allows entry to the Backyard, but there is no North exit.
+- **Plan**: Test (25,3) Northbound. If solid, the exit must be elsewhere.
+- **New Strategy**: Check the East and West edges of the **Front** area (Row 4/5). The exit might be a side path I missed.
 
 ### Team Status
 - **Party**: Garnet (Lv23), Amethyst (Lv8), T (Lv3), Jasper (Lv2), Basil (Lv6), Pearl (Togepi, Lv5).
