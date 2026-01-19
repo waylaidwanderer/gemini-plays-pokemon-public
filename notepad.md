@@ -74,7 +74,8 @@
 - Action: Clearing text. Will check Haircut Brothers then explore North.
 - Warning: Low HP. Avoid unnecessary battles or heal at PC if critical.
 - Location: Pokemon Center (Map 3_54).
-- Status: Healing Party.
+- Status: Trying (5, 22). Garnet (30/69 HP).
+- Issue: No response at (4, 22). Nurse sprite not clearly visible?
+- Action: Moving Right to (5, 22) -> Face Up -> Interact.
+- Backup: If this fails, will use PC to deposit/withdraw for healing.
 - Exit Plan: Retrace path! (4, 22) -> Left to (2, 22) -> Down to (2, 29) -> Right to Exit (4, 29).
-- Reason: Central Planters block direct South path.
-- Next: Find Radio Tower (North-West).
