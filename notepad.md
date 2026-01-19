@@ -35,3 +35,6 @@
 - **TYPE_a339**: Ledge (Jumpable downwards?).
 - **TYPE_4e8c**: Water/Pond (Obstacle).
 - **TYPE_a336**: Gatehouse Door/Warp.
+- **Anomaly**: Heatmap shows 14 visits to (23, 0) and 33 visits to (23, 3). This suggests I have traversed this gatehouse multiple times without exiting.
+- **Hypothesis**: The Gatehouse might not be the exit, or requires a specific trigger. Or the exit is blocked by a cuttable bush in the North West.
+- **Plan**: Move to (23, 0). If no warp, move Left to investigate the path to Wayne and the North West bushes.
