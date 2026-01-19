@@ -74,7 +74,7 @@
 - Action: Clearing text. Will check Haircut Brothers then explore North.
 - Warning: Low HP. Avoid unnecessary battles or heal at PC if critical.
 - Location: Pokemon Center (Map 3_54).
-- Issue: Healing interaction failed multiple times. Input desync/lag suspected.
-- Action: Moving Down/Up to reset position, then interacting ONCE.
-- Next: Exit PC -> Find Radio Tower (North-West).
+- Issue: Healing failed at x=4. Trying x=5. (5, 25) is blocked (PC?), so aiming for (5, 24).
+- Action: Moving Right -> Up -> A to talk to Nurse Joy.
+- Next: Exit PC -> Find Radio Tower (North-West, past Game Corner).
 - Status: Garnet (30/69 HP). Not Healed.
