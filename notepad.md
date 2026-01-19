@@ -42,3 +42,4 @@
   - 1F: Service Counter
   - 2F: Trainer's Market
   - 3F: Battle Collection
+  - 4F: Medicine Box
