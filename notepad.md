@@ -73,10 +73,10 @@
 - Status: Garnet (36/69 HP). No Potions left.
 - Action: Clearing text. Will check Haircut Brothers then explore North.
 - Warning: Low HP. Avoid unnecessary battles or heal at PC if critical.
-- Navigation: Testing North Door interaction (Press A).
-- Hypothesis: Door might be locked or requires interaction to open.
-- Plan: Sweep x=5 to x=2 interacting with the wall.
-- Status: Garnet (30/69 HP). Needs healing.
+- Navigation: Abandoning Top Wall (blocked). Heading South to scan for stairs/side-exit.
+- Path: Moving South along Column 5 to avoid obstacles at (2,6) and (4,6).
+- Status: Garnet (30/69 HP).
+- Goal: Find North Exit or retreat to South Exit.
 - Status: Garnet (30/69 HP). Battle Won.
 - Action: Clearing text. Heading North to Surface.
 - Quest: Heal at Pokemon Center -> Find Radio Tower.
