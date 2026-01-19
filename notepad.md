@@ -4,9 +4,9 @@
 ### Current Objectives & Strategy
 - **Main Quest**: Navigate Ilex Forest to Goldenrod City.
 - **Location**: Northern Ilex Forest (Gatehouse Entrance).
-- **Status**: At (23, 2). Escaped battle. Attempting to reset the warp trigger.
+- **Status**: At (23, 2). Just finished Joey's call after battle. Resetting warp.
 - **Navigation**: Move South to (23, 3) then North to (23, 2) to trigger the warp.
-- **Hypothesis**: The battle at (23, 2) suppressed the warp. Stepping off and on should fix it.
+- **Hypothesis**: Battle + Phone Call suppressed the warp. Stepping off and on is required.
 
 ### Team Status
 - **Party**: Garnet (Lv23), Amethyst (Lv8), T (Lv3), Jasper (Lv2), Basil (Lv6), Pearl (Togepi, Lv5).
