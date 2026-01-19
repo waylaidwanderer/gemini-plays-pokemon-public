@@ -3,11 +3,11 @@
 
 ### Current Objectives & Strategy
 - **Main Quest**: Explore Goldenrod City.
-- **Location**: Goldenrod City (Map 11_2).
-- **Goal**: Find Bike Shop (East/South-East).
+- **Location**: Bike Shop (Map 11_5).
+- **Goal**: Get a Bicycle.
 - **Sub-Goals**: Get Radio Card (North), Visit Daycare (South).
 - **Team**: Fully Healed.
-- **Next**: Move Down to Row 22, then Right to align with door at (31, 21), and Enter.
+- **Next**: Talk to the Clerk to get a bike.
 
 ### Team Status
 - **Party**: Garnet (Lv23), Amethyst (Lv8), T (Lv3), Jasper (Lv2), Basil (Lv6), Pearl (Togepi, Lv5).
