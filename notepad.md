@@ -43,9 +43,7 @@
 - Discovery: Mental Map XML indicates tiles (9, 35) and (10, 35) are walkable (TYPE_3fe2). The 'Dead End' marker at (8, 35) is likely incorrect. I must investigate this path.
 - Mechanic: Farfetch'd moves away from the player interaction. It resets if pushed into a blocked path or cornered incorrectly.
 - Strategy:
-  1. Push South to (15, 29).
-  2. Flank East, push West to (14, 29).
-  3. Flank North, push South along Col 14 to (14, 35).
-  4. Flank East, push West to Col 8.
-  5. Push North to Apprentice.
-- Current Step: Pushing Farfetch'd West from (9, 35) to (8, 35). This confirms the 'Dead End' was a false assumption.
+  1. Push Farfetch'd West to (8, 35).
+  2. Interact from East (9, 35) to force it North to (8, 34) (since West is blocked).
+  3. Follow North to Apprentice.
+- Current Step: Clearing text, then moving to (10, 35) to push bird from (9, 35) to (8, 35).
