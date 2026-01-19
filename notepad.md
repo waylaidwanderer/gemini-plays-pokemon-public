@@ -7,7 +7,7 @@
 - **Goal**: Register Bicycle and Test Ride.
 - **Sub-Goals**: Get Radio Card (North), Visit Daycare (South).
 - **Team**: Fully Healed.
-- **Next**: Open Pack, Register Bicycle to Select button.
+- **Next**: Mount Bicycle (Select) and head North to find the Radio Tower.
 
 ### Team Status
 - **Party**: Garnet (Lv23), Amethyst (Lv8), T (Lv3), Jasper (Lv2), Basil (Lv6), Pearl (Togepi, Lv5).
