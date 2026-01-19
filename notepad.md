@@ -8,7 +8,7 @@
 - **Status**: Trapped below ledges in NE corner. Heading to (22, 9) to loop West.
 
 ### Team Status
-- **Party**: Garnet (Lv23), Amethyst (Lv8), T (Lv3), Jasper (Lv2), Basil (Lv6), Egg (Lv5).
+- **Party**: Garnet (Lv23), Amethyst (Lv8), T (Lv3), Jasper (Lv2), Basil (Lv6), Pearl (Togepi, Lv5).
 - **PC**: Jade (Oddish).
 
 ### Key Items & Progress
