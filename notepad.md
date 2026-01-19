@@ -73,8 +73,7 @@
 - Status: Garnet (36/69 HP). No Potions left.
 - Action: Clearing text. Will check Haircut Brothers then explore North.
 - Warning: Low HP. Avoid unnecessary battles or heal at PC if critical.
-- Location: Goldenrod City (Map 11_2).
-- Status: Flanking Pokemon Center via East Alley (Col 18).
-- Route: Right to (18, 23) -> Down to (18, 28) -> Left to (15, 28) -> Up to PC.
+- Location: Entering Pokemon Center (Map 11_2 -> 3_54).
+- Action: Moving Down to Row 28 -> Left to Col 15 -> Up to Enter.
 - Goal: Heal Garnet (30/69 HP).
 - Next: Radio Tower.
