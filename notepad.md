@@ -36,3 +36,5 @@
 - **Gym Trainers**: Twins (Defeated), Bug Catcher Al (Defeated), Bug Catcher Benny (Defeated).
 - Note: The path South from (8, 29) to (8, 35) is a dead end.
 - Note: The path South from (2, 29) connects back to the entrance at (3, 42). Re-investigate for Farfetch'd.
+- Critical Insight: The map is 30 tiles wide. I have only explored the West side (X < 9). I need to explore the East side (X > 9) to find the Farfetch'd.
+- Task: Finish loop to entrance, then head East.
