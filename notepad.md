@@ -73,10 +73,9 @@
 - Status: Garnet (36/69 HP). No Potions left.
 - Action: Clearing text. Will check Haircut Brothers then explore North.
 - Warning: Low HP. Avoid unnecessary battles or heal at PC if critical.
-- Navigation: Struggling to find North Exit at Underground (3_53).
-- Coordinates: Currently at (3, 1). Blocked North at x=3 and x=4.
-- Hypothesis: Exit might be at x=2 or x=5, or requires interaction.
-- Action: Testing x=2 (Left -> Up).
+- Navigation: Testing North Exit at x=2.
+- History: x=3, x=4 blocked.
+- Strategy: Try Up. If blocked, move Right to x=5.
 - Status: Garnet (30/69 HP). Needs healing.
 - Status: Garnet (30/69 HP). Battle Won.
 - Action: Clearing text. Heading North to Surface.
