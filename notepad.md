@@ -50,4 +50,4 @@
 - Hypothesis: Radio Tower is accessible via a hidden path or building in the NW sector.
 - Exploration: Confirmed Dead End at (7, 9) (Alley behind Game Corner).
 - Navigation: Pathing to House at (11, 29). Previous Down attempt from (17, 22) failed. Trying Right-Down wiggle to reach Row 23. Path: (17, 22) -> (18, 22) -> (18, 23) -> West to (9, 23).
-- Navigation: Route confirmed. (18, 24) -> North to Row 23 -> West to Col 9 -> South to Row 30 -> East to (11, 30) -> Enter House at (11, 29).
+- Navigation: Retrying move to Row 23. Path: (18, 24) -> (18, 23) -> West to (9, 23) -> South to (9, 30) -> East to (11, 29). Previous Up attempt failed (likely wall bump or input drop).
