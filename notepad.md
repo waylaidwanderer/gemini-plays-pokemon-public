@@ -56,3 +56,4 @@
 - Action: Clearing Joey's call text, then moving Right -> Up.
 - Task: Register Bicycle inside.
 - Event: Received phone call from Joey at (9, 31). Handling text.
+- Navigation: Move Right failed last turn. Suspect input drop due to phone call lag. Retrying entry to House (11, 29).
