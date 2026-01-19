@@ -78,9 +78,9 @@
 - Status: Exiting PC.
 - Next: Goldenrod City -> Radio Tower (North-West).
 - Location: Radio Tower 1F (Map 3_17).
-- Status: Answering Radio Card Quiz (Q1 & Q2).
-- Action: Answering YES to Start, YES to Q1, YES to Q2.
-- CRITICAL NEXT STEP: Press B for Question 3 (HM01 Flash). Do NOT press A again.
+- Status: Answering Radio Card Quiz (Q2).
+- Action: Answering YES to Q2 ("Impossible to buy Berries").
+- CRITICAL: Next is Question 3 (HM01 Flash). Answer is NO (B). Do not mash A.
 - Cheat Sheet (Permanent):
   1. Morning Pokemon? -> YES (A).
   2. Impossible to buy Berries? -> YES (A).
