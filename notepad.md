@@ -42,15 +42,8 @@
 - **Observation**: Following the hidden path at Row 0 to the West. I haven't been to (14, 0) yet.
 - **Possibility**: This path might lead to the other side of the forest or a cuttable tree shortcut.
 ### Game Mechanics
-- **Move Menu Layout**: Vertical List (confirmed by visual inspection).
-    1. Quick Attack
-    2. Leer
-    3. Smokescreen
-    4. Ember
-- **Cursor Memory**: The cursor resets to Top (Move 1) at the start of a new battle. Within the same battle, it remembers the last position.
-- **Battle Menu Quirks**: Navigate slowly. Single-step verification recommended.
-- **Menu Wrapping**: Uncertainty exists. Assuming CLAMP at top for now based on past behavior.
-- **Input Dropping**: Rapid inputs (e.g., `A, Up, Up`) during menu opening often fail. The menu needs time to fully open before accepting navigation inputs.
-- **Current Status**: Inputs failed, cursor remained on Ember. Happy accident.
+- **Battle Menu**: Vertical List (1. Quick Attack, 2. Leer, 3. Smokescreen, 4. Ember).
+- **Cursor Behavior**: Resets to Top (Move 1) at start of battle. Remembers last position within battle.
+- **Navigation**: Inputs can drop if too fast. Use single-step or the `battle_select_move` tool with delays.
 - **Daycare Access**: The entrance to the Daycare yard is at Row 22 (gap in fence).
 - **NPC Obstacle**: Trainer (?) at (10, 17) facing East. Bypassing on the Left.
