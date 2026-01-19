@@ -7,7 +7,7 @@
 - **Goal**: Find the ACTUAL Bike Shop.
 - **Sub-Goals**: Get Radio Card (North), Visit Daycare (South).
 - **Team**: Fully Healed.
-- **Next**: Use 'A' to advance text, but follow with 'Down' to break the loop if conversation ends. 'B' failed to advance text.
+- **Next**: Exit the house and look for a building with bicycles inside. Check signs.
 
 ### Team Status
 - **Party**: Garnet (Lv23), Amethyst (Lv8), T (Lv3), Jasper (Lv2), Basil (Lv6), Pearl (Togepi, Lv5).
