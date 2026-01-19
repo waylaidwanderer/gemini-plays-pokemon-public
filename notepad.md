@@ -7,7 +7,7 @@
 - **Goal**: Register Bicycle and Test Ride.
 - **Sub-Goals**: Get Radio Card (North), Visit Daycare (South).
 - **Team**: Fully Healed.
-- **Next**: Accept the bike offer from the shop owner.
+- **Next**: Open Pack, Register Bicycle to Select button.
 
 ### Team Status
 - **Party**: Garnet (Lv23), Amethyst (Lv8), T (Lv3), Jasper (Lv2), Basil (Lv6), Pearl (Togepi, Lv5).
