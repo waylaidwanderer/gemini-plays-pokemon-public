@@ -6,11 +6,12 @@
 - **Location**: Northern Ilex Forest (Gatehouse Front).
 - **Goal**: Enter the Gatehouse via the Left Door at (22, 3).
 - **Findings**:
-    - East side bush (29, 4) is not interactable.
-    - Front area (Row 4/5) extends West.
-- **Plan**: Move West to investigate the left side of the Gatehouse Front (around x=10).
-- **Hypothesis**: The real path to Goldenrod might be a path bypassing the building on the West.
-- **Refinement**: I previously explored the "Backyard" West side (Row 1) and found Wayne. This is the "Front" West side (Row 4/5).
+    - Row 5 is blocked by bushes at (27, 5).
+    - Row 4 is walkable East-to-West in front of the Gatehouse.
+    - West of the Gatehouse (x < 22), the path is blocked by trees at x=21 (per map data).
+- **Plan**: Go to the Middle Arch (23, 3).
+- **New Strategy**: Re-enter the "Backyard" via the Arch, go West to x=14, and try walking **South** from there.
+- **Hypothesis**: There is a "West Front" pocket (Row 4, x<15) accessible only from the Backyard path (Row 1).
 
 ### Team Status
 - **Party**: Garnet (Lv23), Amethyst (Lv8), T (Lv3), Jasper (Lv2), Basil (Lv6), Pearl (Togepi, Lv5).
