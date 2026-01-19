@@ -172,24 +172,24 @@
               "type": "integer"
             }
           }
-        },
-        "autopress_buttons": {
-          "type": "boolean",
-          "default": false
         }
       },
       "required": [
         "target_x",
-        "target_y",
-        "autopress_buttons"
+        "target_y"
       ]
     },
-    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\nimport json\n\ndef navigate_to(target_x, target_y, avoid_coords_list, map_xml_str):\n    root = ET.fromstring(map_xml_str)\n    width = int(root.attrib['width'])\n    height = int(root.attrib['height'])\n    \n    # Parse map and find player\n    grid = {}\n    start_x, start_y = None, None\n    \n    # Define walkable tile types (Update this list as needed)\n    # TYPE_3fe2: Generic Floor/Ground\n    # TYPE_fed7: Grass/Ledge Top\n    # TYPE_ffbb: Carpet/Floor\n    walkable_types = ['TYPE_3fe2', 'TYPE_fed7', 'TYPE_ffbb'] \n    \n    avoid_set = set()\n    if avoid_coords_list:\n        for coord in avoid_coords_list:\n            avoid_set.add(tuple(coord))\n\n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            t_type = tile.attrib.get('type', 'unseen')\n            \n            # check for player\n            if tile.find('Player') is not None:\n                start_x, start_y = x, y\n            \n            is_walkable = t_type in walkable_types\n            if (x, y) in avoid_set:\n                is_walkable = False\n                \n            grid[(x, y)] = is_walkable\n\n    if start_x is None:\n        print(json.dumps([\"Error: Player not found in map XML.\"]))\n        return\n\n    # BFS\n    queue = deque([(start_x, start_y, [])])\n    visited = set([(start_x, start_y)])\n    \n    while queue:\n        x, y, path = queue.popleft()\n        if x == target_x and y == target_y:\n            print(json.dumps(path))\n            return\n        \n        # Directions: Up, Down, Left, Right\n        moves = [\n            (0, -1, 'Up'), (0, 1, 'Down'), \n            (-1, 0, 'Left'), (1, 0, 'Right')\n        ]\n        \n        for dx, dy, move_name in moves:\n            nx, ny = x + dx, y + dy\n            \n            # Check bounds\n            if 0 <= nx < width and 0 <= ny < height:\n                # Check visited\n                if (nx, ny) not in visited:\n                    # Check walkable\n                    if grid.get((nx, ny), False):\n                        visited.add((nx, ny))\n                        queue.append((nx, ny, path + [move_name]))\n                        \n    print(json.dumps([])) # No path found\n\n# Extract arguments from tool_input\ntarget_x = tool_input.get('target_x')\ntarget_y = tool_input.get('target_y')\navoid_coords = tool_input.get('avoid_coords', [])\nnavigate_to(target_x, target_y, avoid_coords, map_xml_string)",
+    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\nimport json\n\ndef solve():\n    try:\n        root = ET.fromstring(map_xml_string)\n        \n        start_x, start_y = -1, -1\n        grid = {}\n        # Blocked types: Trees (2849), Walls (63e2), Unseen\n        # Allowed types: Floor (2889), Path (3fe2), Gate/Mat (ffbe, f871)\n        # Note: 'unseen' is the string literal for unseen tiles\n        blocked_types = {'TYPE_2849', 'TYPE_63e2', 'unseen'} \n        \n        # Parse Map\n        for row in root.findall('Row'):\n            y = int(row.get('id'))\n            for tile in row.findall('Tile'):\n                x = int(tile.get('id'))\n                t_type = tile.get('type')\n                \n                # Check for player\n                if tile.find('Player') is not None:\n                    start_x, start_y = x, y\n                \n                # Determine walkability\n                is_walkable = t_type not in blocked_types\n                grid[(x,y)] = is_walkable\n                \n        if start_x == -1:\n            print(\"[]\") # Player not found\n            return\n            \n        target_x = input_data.get('target_x')\n        target_y = input_data.get('target_y')\n        avoid_coords = input_data.get('avoid_coords', [])\n        \n        # Mark avoided coords as blocked\n        for coord in avoid_coords:\n            grid[tuple(coord)] = False\n            \n        # BFS\n        queue = deque([(start_x, start_y, [])])\n        visited = {(start_x, start_y)}\n        \n        directions = [\n            (0, -1, 'Up'),\n            (0, 1, 'Down'),\n            (-1, 0, 'Left'),\n            (1, 0, 'Right')\n        ]\n        \n        path_buttons = []\n        found = False\n        \n        while queue:\n            cx, cy, path = queue.popleft()\n            \n            if cx == target_x and cy == target_y:\n                path_buttons = path\n                found = True\n                break\n                \n            for dx, dy, btn in directions:\n                nx, ny = cx + dx, cy + dy\n                \n                if (nx, ny) in grid and grid[(nx, ny)] and (nx, ny) not in visited:\n                    visited.add((nx, ny))\n                    queue.append((nx, ny, path + [btn]))\n                    \n        if found:\n            print(json.dumps(path_buttons))\n        else:\n            print(\"[]\") # No path found\n    except Exception as e:\n        print(\"[]\")\n\nsolve()",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2026-01-18T06:37:45.170Z",
         "action_counter": 2522
+      },
+      {
+        "commit_message": "Implemented BFS navigation logic to parse map_xml_string and return a path to target coordinates, avoiding obstacles.",
+        "timestamp": "2026-01-19T01:21:39.683Z",
+        "action_counter": 3936
       }
     ]
   }
