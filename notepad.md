@@ -77,3 +77,12 @@
 - Map 11_2 (Goldenrod City): Pokemon Center at (15, 27), Game Corner at (11, 29).
 - Status: Exiting PC.
 - Next: Goldenrod City -> Radio Tower (North-West).
+- Location: Radio Tower 1F (Map 3_17).
+- Goal: Get Radio Card from Receptionist.
+- NPC Locations: Receptionist at (5, 6). Pokemon? at (8, 6).
+- Quiz Answers Reminder:
+  1. Morning Pokemon? YES.
+  2. Buy Berries? NO. (Wait, checking: "You can't buy a Berry at a Mart." -> YES, true. Wait. Questions vary. Will read carefully.)
+  3. HM01 is Flash? NO (Cut).
+  4. Falkner is Violet Leader? YES.
+  5. Slots have Charmander? NO.
