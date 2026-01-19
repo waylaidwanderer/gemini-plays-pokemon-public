@@ -4,8 +4,8 @@
 ### Current Objectives & Strategy
 - **Main Quest**: Navigate Ilex Forest to Goldenrod City.
 - **Location**: Central Ilex Forest (Center).
-- **Status**: At (9, 13). Found a path North around the bushes.
-- **Navigation**: Moving Up to (9, 12), then navigating East via row 11 to bypass the bush cluster.
+- **Status**: At (14, 11). Path East blocked by bush at (15, 11).
+- **Navigation**: Detouring North to Row 10, then continuing East towards the map edge.
 
 ### Team Status
 - **Party**: Garnet (Lv23), Amethyst (Lv8), T (Lv3), Jasper (Lv2), Basil (Lv6), Pearl (Togepi, Lv5).
