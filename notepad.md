@@ -76,7 +76,7 @@
 - Navigation: Moving North through Underground (3_53) to Northern Exit.
 - Status: Garnet (36/69 HP). Coin Case obtained.
 - Goal: Exit to Surface -> Heal -> Radio Tower.
-- Navigation: Located at (5, 12). Previous 'Right' input seemingly failed or path was walkable.
-- Obstacles: Objects at (5, 11)/(5, 10) might be solid. Avoiding via Column 4.
-- Trainer: Super Nerd at (6, 9). Stunning and bypassing.
-- Goal: Exit Underground North.
+- Navigation: Moving North along Column 4.
+- NPC: Spotted Girl at (2, 6). Stunning to bypass safely.
+- Goal: Reach Northern Exit (Stairs/Door).
+- Status: Garnet (36/69 HP). Avoid battles.
