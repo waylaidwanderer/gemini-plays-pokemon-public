@@ -79,7 +79,7 @@
 - Next: Goldenrod City -> Radio Tower (North-West).
 - Location: Radio Tower 1F (Map 3_17).
 - Status: Answering Radio Card Quiz.
-- Question 2: "Is it impossible to buy Berries at a Mart?" -> Answering YES.
+- Question 3: "Does HM01 contain the move FLASH?" -> Answering NO.
 - Cheat Sheet:
   1. Morning Pokemon? -> YES (A).
   2. Impossible to buy Berries? -> YES (A).
