@@ -75,7 +75,8 @@
 - Warning: Low HP. Avoid unnecessary battles or heal at PC if critical.
 - Map 11_20 (Goldenrod PC): Nurse Joy at (4, 1), PC at (9, 1).
 - Map 11_2 (Goldenrod City): Pokemon Center at (15, 27), Game Corner at (11, 29).
-- Status: Searching for Garnet in PC.
-- Anomaly: Game State says Box 1 is empty (0/20), but Garnet is not in party.
-- Action: Bill's PC -> Withdraw Pkmn -> Check List.
-- Next: Retrieve Garnet -> Radio Tower.
+- Status: Withdrawing Garnet.
+- Anomaly: Game State is desynced (shows empty box). Visuals show Jade, Bolin, Jet, Garnet.
+- Unknowns: Who are Bolin and Jet? (Jet is a gem, Bolin is not).
+- Action: Down (x3) -> A (Select Garnet).
+- Next: Confirm Withdraw -> Radio Tower.
