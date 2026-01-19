@@ -3,9 +3,9 @@
 
 ### Current Objectives & Strategy
 - **Main Quest**: Navigate Ilex Forest to Goldenrod City.
-- **Immediate Goal**: Heal Garnet and talk to the NPC at (12, 1).
+- **Immediate Goal**: Explore East towards Goldenrod City.
 - **Location**: North-East Ilex Forest.
-- **Status**: Recovering from battle with Bug Catcher Wayne.
+- **Status**: Defeated Wayne. He mentioned Headbutt knocks Pokemon out of trees.
 
 ### Team Status
 - **Party**: Garnet (Lv23), Amethyst (Lv8), T (Lv3), Jasper (Lv2), Basil (Lv6), Egg (Lv5).
