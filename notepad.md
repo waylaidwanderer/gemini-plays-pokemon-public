@@ -7,7 +7,7 @@
 - **Goal**: Get a Bicycle.
 - **Sub-Goals**: Get Radio Card (North), Visit Daycare (South).
 - **Team**: Fully Healed.
-- **Next**: Advance text with B. If text box closes, MOVE DOWN. Do not press A again immediately.
+- **Next**: Use 'A' to advance text, but follow with 'Down' to break the loop if conversation ends. 'B' failed to advance text.
 
 ### Team Status
 - **Party**: Garnet (Lv23), Amethyst (Lv8), T (Lv3), Jasper (Lv2), Basil (Lv6), Pearl (Togepi, Lv5).
