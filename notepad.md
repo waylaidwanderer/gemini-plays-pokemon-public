@@ -3,9 +3,9 @@
 
 ### Current Objectives & Strategy
 - **Main Quest**: Navigate Ilex Forest to Goldenrod City.
-- **Location**: Central Ilex Forest (West side).
-- **Status**: Bush at (2, 14) is NOT cuttable. West path seems to be a dead end with a sign.
-- **Navigation**: Backtracking East to (8, 14) to check bushes at (10, 13)-(12, 13) or find another path North.
+- **Location**: Central Ilex Forest (Center).
+- **Status**: At (8, 14). West side was a dead end. Checking bushes at (10, 13) for a path East.
+- **Navigation**: Move to (9, 13) and attempt to Cut bush at (10, 13).
 
 ### Team Status
 - **Party**: Garnet (Lv23), Amethyst (Lv8), T (Lv3), Jasper (Lv2), Basil (Lv6), Pearl (Togepi, Lv5).
