@@ -3,10 +3,11 @@
 
 ### Current Objectives & Strategy
 - **Main Quest**: Navigate Ilex Forest to Goldenrod City.
-- **Location**: Northern Ilex Forest (Gatehouse Final Attempt).
-- **Status**: At (23, 2). I have traversed (23, 3), (24, 3), and (25, 3) without warping. (22, 3) is the only tile in the gatehouse row I haven't stepped on (blocked previously).
-- **Navigation**: Move Down to (23, 4), Left to (22, 4), then attempt to walk Up into (22, 3).
-- **Contingency**: If this fails, I will assume a soft-lock or major puzzle miss and consider re-exploring the forest for missed triggers.
+- **Location**: Northern Ilex Forest (Behind Gatehouse).
+- **Status**: At (23, 0). The "Gatehouse" facade at Row 3 was a red herring or broken.
+- **Discovery**: Row 0 is a walkable path extending West behind the trees.
+- **Navigation**: Heading West along Row 0 to find the true map exit or path.
+- **Hypothesis**: The exit to Route 34 is not straight North but requires traversing this hidden northern path.
 
 ### Team Status
 - **Party**: Garnet (Lv23), Amethyst (Lv8), T (Lv3), Jasper (Lv2), Basil (Lv6), Pearl (Togepi, Lv5).
