@@ -6,12 +6,11 @@
 - **Location**: Northern Ilex Forest (Gatehouse Front).
 - **Goal**: Enter the Gatehouse via the Left Door at (22, 3).
 - **Findings**:
-    - Gatehouse Doors (22,3), (24,3), (25,3) are Southbound Ledges.
-    - Backyard (Rows 0-2) has no North exit (tested 22, 23, 24, 25).
-    - Backyard side paths (Wayne, East End) are dead ends.
-- **Plan**: Explore the East side of the Front Area (Row 4).
-- **Hypothesis**: There might be a path around the building or a cuttable bush at (29, 4).
-- **Note**: The building layout is very strange. It might be a puzzle or I'm missing a key item/interaction.
+    - East side bush (29, 4) is not interactable.
+    - Front area (Row 4/5) extends West.
+- **Plan**: Move West to investigate the left side of the Gatehouse Front (around x=10).
+- **Hypothesis**: The real path to Goldenrod might be a path bypassing the building on the West.
+- **Refinement**: I previously explored the "Backyard" West side (Row 1) and found Wayne. This is the "Front" West side (Row 4/5).
 
 ### Team Status
 - **Party**: Garnet (Lv23), Amethyst (Lv8), T (Lv3), Jasper (Lv2), Basil (Lv6), Pearl (Togepi, Lv5).
