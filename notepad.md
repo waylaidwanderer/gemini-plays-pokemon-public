@@ -60,5 +60,6 @@
 - Status: Bicycle Registered.
 - Exploration: Inside Game Corner (South Entrance).
 - Goal: Look around briefly, then find Radio Tower.
-- Navigation: Discrepancy between Visual (3, 27) and RAM (4, 27). Trusting Visual.
-- Observation: Row 23 appears blocked by machines and a Gentleman. This area might be a dead end.
+- Exploration: Inside Game Corner (South). Row 23 blocked by slot machines.
+- Action: Talking to Gamer at (3, 27), then exploring East.
+- Note: No Coin Case yet. Can't play.
