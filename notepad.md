@@ -3,9 +3,10 @@
 
 ### Current Objectives & Strategy
 - **Main Quest**: Navigate Ilex Forest to Goldenrod City.
-- **Location**: Northern Ilex Forest (Gatehouse Interior).
-- **Status**: In battle with Hoothoot at (23, 2). Escape failed.
-- **Navigation**: Defeat Hoothoot, then move South to (23, 3) and re-enter (23, 2) to test if the battle interrupted the warp.
+- **Location**: Northern Ilex Forest (Gatehouse Entrance).
+- **Status**: At (23, 2). Escaped battle. Attempting to reset the warp trigger.
+- **Navigation**: Move South to (23, 3) then North to (23, 2) to trigger the warp.
+- **Hypothesis**: The battle at (23, 2) suppressed the warp. Stepping off and on should fix it.
 
 ### Team Status
 - **Party**: Garnet (Lv23), Amethyst (Lv8), T (Lv3), Jasper (Lv2), Basil (Lv6), Pearl (Togepi, Lv5).
