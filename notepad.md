@@ -76,7 +76,8 @@
 - Navigation: Moving North through Underground (3_53) to Northern Exit.
 - Status: Garnet (36/69 HP). Coin Case obtained.
 - Goal: Exit to Surface -> Heal -> Radio Tower.
-- Navigation: Moving North along Column 4.
-- NPC: Spotted Girl at (2, 6). Stunning to bypass safely.
-- Goal: Reach Northern Exit (Stairs/Door).
-- Status: Garnet (36/69 HP). Avoid battles.
+- Battle: PokeManiac Donald (Triggered).
+- Status: Garnet (36/69 HP).
+- Strategy: Win quickly. Ember/Quick Attack.
+- Note: Stun failed to prevent trainer engagement.
+- Goal: Survive and exit North.
