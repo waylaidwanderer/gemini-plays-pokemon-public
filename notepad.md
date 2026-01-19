@@ -41,8 +41,4 @@
 - Strategy: The bird is at (15, 25). I am at (15, 26).
 - Plan: Interact from South -> Bird moves North/East -> Follow it clockwise around the trees to return to the Apprentice.
 - Discovery: Mental Map XML indicates tiles (9, 35) and (10, 35) are walkable (TYPE_3fe2). The 'Dead End' marker at (8, 35) is likely incorrect. I must investigate this path.
-### Reflection (Turn 4048)
-- **Progress**: Found Farfetch'd at (20, 24).
-- **Issue**: Bird seems cornered. West (19, 24) and South (20, 25) are trees. Interaction from East (21, 24) did not move it. Interaction from North (20, 23) previously failed.
-- **Hypothesis**: The bird moves away from the player. Blocked paths prevent movement.
-- **Plan**: Try interacting from North (20, 23) one more time. If it fails to slide East, I must assume the puzzle is in a "stuck" state and needs a map reset (leave area and return).
+- Mechanic: Farfetch'd moves away from the player interaction. Blocked paths prevent movement.
