@@ -73,7 +73,7 @@
 - Status: Garnet (36/69 HP). No Potions left.
 - Action: Clearing text. Will check Haircut Brothers then explore North.
 - Warning: Low HP. Avoid unnecessary battles or heal at PC if critical.
-- Exploration: Found Coin Case at (7, 25).
-- Status: Garnet (36/69 HP). Low Health.
-- Action: Heading North to find the exit and a Pokemon Center.
-- Quest: Find Radio Tower (Surface).
+- Exploration: Found Coin Case. Exiting Underground.
+- Navigation: Moving North to exit.
+- Status: Garnet (36/69 HP). Needs healing.
+- Time: Monday (Haircut Brothers closed).
