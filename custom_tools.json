@@ -203,5 +203,35 @@
         "action_counter": 213
       }
     ]
+  },
+  "battle_select_move": {
+    "description": "Navigates the battle menu to select a specific move slot (1-4). Assumes the cursor is currently on 'FIGHT'. Resets cursor position to Top-Left (Slot 1) before navigating to ensure accuracy.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "move_slot": {
+          "type": "integer",
+          "description": "The move slot to select (1=Top-Left, 2=Top-Right, 3=Bottom-Left, 4=Bottom-Right)",
+          "enum": [
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      },
+      "required": [
+        "move_slot"
+      ],
+      "autopress_buttons": true
+    },
+    "python_script": "import json\n\ndef get_buttons(move_slot):\n    # Start by entering the \"FIGHT\" menu\n    buttons = [\"A\", \"sleep 500\"]\n    \n    # Reset cursor to Top-Left (Slot 1) by spamming Up and Left\n    # We do this twice to be safe against dropped inputs or starting position\n    buttons.extend([\"Up\", \"Left\", \"Up\", \"Left\", \"sleep 200\"])\n    \n    # Navigate to the target slot from Slot 1\n    if move_slot == 2: # Top-Right\n        buttons.append(\"Right\")\n    elif move_slot == 3: # Bottom-Left\n        buttons.append(\"Down\")\n    elif move_slot == 4: # Bottom-Right\n        buttons.extend([\"Down\", \"Right\"])\n        \n    # Add a small delay and confirm selection\n    buttons.extend([\"sleep 200\", \"A\"])\n    \n    return buttons\n\n# Extract input (adjust based on how the system passes args)\n# The system passes args as a dictionary named 'input_data' or similar, \n# but for 'define_tool', the script is executed with variables in the global scope?\n# Standard protocol: The arguments are available as global variables matching the schema keys.\n# Wait, checking documentation... \"The variable `map_xml_string` is automatically available... All other variables... must be defined explicitly\".\n# Actually, for `define_tool`, the input arguments are injected as global variables.\n# So `move_slot` should be available.\n\nif 'move_slot' in globals():\n    print(json.dumps(get_buttons(move_slot)))\nelse:\n    # Fallback or error if argument missing\n    print(json.dumps([]))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-19T12:37:54.505Z",
+        "action_counter": 4591
+      }
+    ]
   }
 }
