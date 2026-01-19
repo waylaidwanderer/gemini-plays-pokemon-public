@@ -7,7 +7,7 @@
 - **Goal**: Find Bike Shop (East/South-East).
 - **Sub-Goals**: Get Radio Card (North), Visit Daycare (South).
 - **Team**: Fully Healed.
-- **Next**: Move South to y=29, then East to coordinates (29, 29) to enter the suspected Bike Shop.
+- **Next**: Move North to (21, 17), then head East to search for a path South (behind the buildings). The door at (29, 29) appears blocked from the West.
 
 ### Team Status
 - **Party**: Garnet (Lv23), Amethyst (Lv8), T (Lv3), Jasper (Lv2), Basil (Lv6), Pearl (Togepi, Lv5).
