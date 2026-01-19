@@ -37,6 +37,7 @@
 - Note: The path South from (8, 29) leads to an Eastern passage at (8, 35).
 - Note: The path South from (2, 29) connects back to the entrance at (3, 42). Confirmed empty.
 - Critical Insight: The map is 30 tiles wide. I have only explored the West side (X < 9). I need to explore the East side (X > 9) to find the Farfetch'd.
-- Task: Locate Farfetch'd West of the Apprentice.
-- Farfetch'd Location: Suspected West of Apprentice (X < 7).
+- Task: Herd Farfetch'd back to the Apprentice.
+- Strategy: The bird is at (15, 25). I am at (15, 26).
+- Plan: Interact from South -> Bird moves North/East -> Follow it clockwise around the trees to return to the Apprentice.
 - Discovery: Mental Map XML indicates tiles (9, 35) and (10, 35) are walkable (TYPE_3fe2). The 'Dead End' marker at (8, 35) is likely incorrect. I must investigate this path.
