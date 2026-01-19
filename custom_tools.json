@@ -119,7 +119,7 @@
     ]
   },
   "navigate_to": {
-    "description": "Navigates to a target coordinate using BFS on the Mental Map. Returns a list of buttons. Requires 'target_x' and 'target_y'. Optional 'avoid_coords' list of list [[x,y], [x,y]].",
+    "description": "Navigates to a target coordinate using BFS on the Mental Map. Returns a list of buttons.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -136,7 +136,8 @@
             "items": {
               "type": "integer"
             }
-          }
+          },
+          "nullable": true
         }
       },
       "required": [
@@ -144,7 +145,7 @@
         "target_y"
       ]
     },
-    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\nimport json\n\ndef solve():\n    try:\n        root = ET.fromstring(map_xml_string)\n        \n        start_x, start_y = -1, -1\n        grid = {}\n        # Blocked types: Trees (2849), Walls (63e2), Unseen\n        # Allowed types: Floor (2889), Path (3fe2), Gate/Mat (ffbe, f871)\n        # Note: 'unseen' is the string literal for unseen tiles\n        blocked_types = {'TYPE_2849', 'TYPE_63e2', 'unseen'} \n        \n        # Parse Map\n        for row in root.findall('Row'):\n            y = int(row.get('id'))\n            for tile in row.findall('Tile'):\n                x = int(tile.get('id'))\n                t_type = tile.get('type')\n                \n                # Check for player\n                if tile.find('Player') is not None:\n                    start_x, start_y = x, y\n                \n                # Determine walkability\n                is_walkable = t_type not in blocked_types\n                grid[(x,y)] = is_walkable\n                \n        if start_x == -1:\n            print(\"[]\") # Player not found\n            return\n            \n        target_x = input_data.get('target_x')\n        target_y = input_data.get('target_y')\n        avoid_coords = input_data.get('avoid_coords', [])\n        \n        # Mark avoided coords as blocked\n        for coord in avoid_coords:\n            grid[tuple(coord)] = False\n            \n        # BFS\n        queue = deque([(start_x, start_y, [])])\n        visited = {(start_x, start_y)}\n        \n        directions = [\n            (0, -1, 'Up'),\n            (0, 1, 'Down'),\n            (-1, 0, 'Left'),\n            (1, 0, 'Right')\n        ]\n        \n        path_buttons = []\n        found = False\n        \n        while queue:\n            cx, cy, path = queue.popleft()\n            \n            if cx == target_x and cy == target_y:\n                path_buttons = path\n                found = True\n                break\n                \n            for dx, dy, btn in directions:\n                nx, ny = cx + dx, cy + dy\n                \n                if (nx, ny) in grid and grid[(nx, ny)] and (nx, ny) not in visited:\n                    visited.add((nx, ny))\n                    queue.append((nx, ny, path + [btn]))\n                    \n        if found:\n            print(json.dumps(path_buttons))\n        else:\n            print(\"[]\") # No path found\n    except Exception as e:\n        print(\"[]\")\n\nsolve()",
+    "python_script": "import xml.etree.ElementTree as ET\nimport collections\n\n# Parse XML\nroot = ET.fromstring(map_xml_string)\nmap_width = int(root.attrib['width'])\nmap_height = int(root.attrib['height'])\n\ngrid = {}\nplayer_pos = None\n\nfor row in root.findall('Row'):\n    y_coord = int(row.attrib['id'])\n    for tile in row.findall('Tile'):\n        x_coord = int(tile.attrib['id'])\n        t_type = tile.attrib.get('type')\n        grid[(x_coord, y_coord)] = t_type\n        if tile.find('Player') is not None:\n            player_pos = (x_coord, y_coord)\n\nif player_pos is None:\n    print(\"[]\")\n    exit()\n\ntarget = (target_x, target_y)\navoid = set()\n\n# Handle avoid_coords being possibly None or list\nif 'avoid_coords' in globals() and avoid_coords:\n    for c in avoid_coords:\n        avoid.add(tuple(c))\n\ndef bfs(start, tgt, grid_map, w, h, avoid_set):\n    queue = collections.deque([(start, [])])\n    visited = set([start])\n    \n    while queue:\n        (cx, cy), path = queue.popleft()\n        if (cx, cy) == tgt:\n            return path\n        \n        # Try 4 directions: Left, Right, Up, Down\n        for dx, dy, move in [(-1, 0, 'Left'), (1, 0, 'Right'), (0, -1, 'Up'), (0, 1, 'Down')]:\n            nx, ny = cx + dx, cy + dy\n            \n            # Check bounds\n            if 0 <= nx < w and 0 <= ny < h:\n                if (nx, ny) not in visited and (nx, ny) not in avoid_set:\n                    tile_type = grid_map.get((nx, ny), 'unseen')\n                    \n                    # Walkability Rule:\n                    # 1. TYPE_3fe2 is definitely floor.\n                    # 2. Allow moving ONTO the target regardless of type (allows bumping/interaction).\n                    # 3. Disallow trees (TYPE_2889) unless it is the target.\n                    # 4. Allow TYPE_80fc (Cut tree) as target\n                    \n                    is_walkable = (tile_type == 'TYPE_3fe2')\n                    is_target = ((nx, ny) == tgt)\n                    \n                    if is_walkable or is_target:\n                        visited.add((nx, ny))\n                        queue.append(((nx, ny), path + [move]))\n    return None\n\npath_moves = bfs(player_pos, target, grid, map_width, map_height, avoid)\n\nif path_moves is not None:\n    # Print as JSON array string\n    print(str(path_moves).replace(\"'\", '\"'))\nelse:\n    print(\"[]\")",
     "history": [
       {
         "commit_message": "Initial version",
@@ -155,6 +156,11 @@
         "commit_message": "Implemented BFS navigation logic to parse map_xml_string and return a path to target coordinates, avoiding obstacles.",
         "timestamp": "2026-01-19T01:21:39.683Z",
         "action_counter": 3936
+      },
+      {
+        "commit_message": "Fixing tool by adding required commit message and ensuring robustness.",
+        "timestamp": "2026-01-19T03:58:58.882Z",
+        "action_counter": 4142
       }
     ]
   },
