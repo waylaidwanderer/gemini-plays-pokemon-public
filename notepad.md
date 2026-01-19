@@ -7,7 +7,7 @@
 - **Goal**: Find the Pokemon Center and HEAL.
 - **Sub-Goals**: Visit Daycare (Route 34), Get Radio Card, Bike Shop.
 - **Team**: Garnet is Hurt (17/69 HP). Priority is Healing.
-- **Next**: Talk to Nurse Joy (Performing movement check to ensure responsiveness).
+- **Next**: Talk to NPC at (6, 1) (Testing interaction mechanics, Joy interaction failed).
 
 ### Team Status
 - **Party**: Garnet (Lv23), Amethyst (Lv8), T (Lv3), Jasper (Lv2), Basil (Lv6), Pearl (Togepi, Lv5).
