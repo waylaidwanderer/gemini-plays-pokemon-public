@@ -74,8 +74,7 @@
 - Action: Clearing text. Will check Haircut Brothers then explore North.
 - Warning: Low HP. Avoid unnecessary battles or heal at PC if critical.
 - Location: Pokemon Center (Map 3_54).
-- Status: Garnet (30/69 HP). Interactions failed at (4, 22) and (5, 22).
-- Hypothesis: Nurse interaction point is precise or I was facing wrong.
-- Action: Retrying (4, 22) Face Up. Then checking PC at (7, 22).
-- PC Location: Likely Top-Right corner (X=7 or X=8).
+- Status: Garnet (30/69 HP). Nurse interaction flaky.
+- Action: Using PC at (8, 21) to heal via Deposit/Withdraw.
+- Steps: Move Right to (8, 22) -> Face Up -> Press A -> Access Bill's PC/Player's PC.
 - Exit Plan: South to (4, 29).
