@@ -5,8 +5,9 @@
 - **Main Quest**: Navigate Ilex Forest to Goldenrod City.
 - **Location**: Northern Ilex Forest (Gatehouse Front).
 - **Status**: At (22, 4). Preparing to attempt entering the Left Door at (22, 3) from the South.
-- **Previous Failures**: (23, 3) gap didn't warp. Side entries to (22, 3)/(24, 3) failed. Row 0 path West looped.
-- **Plan**: Try (22, 3) front entry. If blocked, try East path along Row 0.
+- **Fact**: The path West of (23, 0) loops back to the start of the forest.
+- **Fact**: (23, 3) is a gap, not a warp.
+- **Plan**: Enter (22, 3) directly from the South. The map data claims it is a warp.
 
 ### Team Status
 - **Party**: Garnet (Lv23), Amethyst (Lv8), T (Lv3), Jasper (Lv2), Basil (Lv6), Pearl (Togepi, Lv5).
