@@ -79,7 +79,8 @@
 - Goal: Find North Exit or retreat to South Exit.
 - Battle: PokeManiac Donald Defeated.
 - Status: Garnet (30/69 HP). Heading to PC.
-- Location: Underground (North).
-- Observation: North Exit doors at Row 0 seem locked/blocked.
-- Action: Retreating to South Exit to heal and find Radio Tower.
-- Status: Garnet (30/69 HP). Trainers defeated.
+- Location: Underground (South).
+- Action: Exiting to Surface via stairs at (5, 25).
+- Next: Heal at Pokemon Center.
+- Note: North Exit was locked/blocked.
+- Status: Garnet (30/69 HP).
