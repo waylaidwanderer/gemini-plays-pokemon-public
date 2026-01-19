@@ -74,8 +74,8 @@
 - Action: Clearing text. Will check Haircut Brothers then explore North.
 - Warning: Low HP. Avoid unnecessary battles or heal at PC if critical.
 - Location: Goldenrod City (Map 11_2).
-- Realization: Pink tiles (TYPE_3fe2) are WALKABLE pavement, not walls.
-- Navigation: Moving from (13, 31) to PC Entrance (15, 27).
-- Route: Right (x2) to Col 15 -> Up (x4) to Door.
+- Status: Escaping Alcove at (13, 30).
+- Route: Down to (13, 31) -> Left to (9, 31) -> Down to (9, 32) -> Right to (15, 32) -> Up to PC.
+- Insight: The alcove at (13, 30) is a trap; must flank West to exit.
 - Goal: Heal Garnet.
 - Next: Radio Tower.
