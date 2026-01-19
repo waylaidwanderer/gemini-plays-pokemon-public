@@ -2,12 +2,12 @@
 - Started: Friday, January 16, 2026 at 5:08 PM PST
 
 ### Current Objectives & Strategy
-- **Main Quest**: Reach Goldenrod City.
-- **Location**: Route 34 (Map 11_1).
-- **Goal**: Head North to Goldenrod City.
-- **Sub-Goals**: Defeat trainers for EXP, locate Daycare.
-- **Team**: Garnet is Healthy (34/66 HP).
-- **Next**: Read nearby sign, then head North.
+- **Main Quest**: Explore Goldenrod City.
+- **Location**: Goldenrod City (Map 11_2).
+- **Goal**: Find the Pokemon Center and HEAL.
+- **Sub-Goals**: Visit Daycare (Route 34), Get Radio Card, Bike Shop.
+- **Team**: Garnet is Hurt (17/69 HP). Priority is Healing.
+- **Next**: Head North/Central to find the PC.
 
 ### Team Status
 - **Party**: Garnet (Lv23), Amethyst (Lv8), T (Lv3), Jasper (Lv2), Basil (Lv6), Pearl (Togepi, Lv5).
