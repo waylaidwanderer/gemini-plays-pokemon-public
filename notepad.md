@@ -63,3 +63,4 @@
 - Exploration: Discovered stairs to Underground at (5, 25).
 - Action: Descending to check out the "shops".
 - Note: Cleaning up hallucinated map markers.
+- Exploration: Entering Underground via stairs at (5, 25). Expecting "shops" and potentially the Coin Case.
