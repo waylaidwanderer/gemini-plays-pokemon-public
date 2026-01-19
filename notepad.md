@@ -47,3 +47,4 @@
 - **Navigation**: Inputs can drop if too fast. Use single-step or the `battle_select_move` tool with delays.
 - **Daycare Access**: The entrance to the Daycare yard is at Row 22 (gap in fence).
 - **NPC Obstacle**: Trainer (?) at (10, 17) facing East. Bypassing on the Left.
+- **NPC Obstacle**: Officer at (9, 11) blocking the path North. Attempting to bypass on the West (Left).
