@@ -29,7 +29,7 @@
 - Rival Defeated in Azalea.
 ### Tile Mechanics (Goldenrod City)
 - **General**: Urban environment. Watch for doors and blocked paths.
-- **Map 11_20**: Pokemon Center.
+- **Map 11_20**: Pokemon Center. Obstacle at Column 5 separating PC and Counter.
 
 ### Game Mechanics
 - **Battle Menu**: Vertical List (1. Quick Attack, 2. Leer, 3. Smokescreen, 4. Ember).
