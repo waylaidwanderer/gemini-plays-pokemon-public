@@ -9,11 +9,12 @@
     - Confirmed hidden path at **x=14** connects the Backyard (Row 0) to the West Front area.
     - Walking South from (14, 0) allows bypassing the blocked Gatehouse front.
 - **Findings**:
-    - At (10, 4), West is blocked by trees.
-    - Path forces movement South to (10, 5).
-- **Plan**: Follow the path South/West.
-- **Hypothesis**: The path wraps around the West side of the map (x<10) to reach the North exit.
-- **Context**: The Gatehouse was a decoy. The real exit path is likely this "Forest Bypass" on the West.
+    - At (10, 4), West blocked. Path forced South to (10, 6).
+    - At (9, 6), West blocked by bushes. Path forces South to Row 7.
+    - Row 7 (North of Pond) allows travel West.
+- **Plan**: Follow the path West along the water's edge (Row 7).
+- **Hypothesis**: The path wraps around the West side (North-West corner) to reach the exit.
+- **Context**: The Gatehouse was a decoy. This "Forest Bypass" is the only remaining option.
 
 ### Team Status
 - **Party**: Garnet (Lv23), Amethyst (Lv8), T (Lv3), Jasper (Lv2), Basil (Lv6), Pearl (Togepi, Lv5).
