@@ -76,8 +76,8 @@
 - Navigation: Moving North through Underground (3_53) to Northern Exit.
 - Status: Garnet (36/69 HP). Coin Case obtained.
 - Goal: Exit to Surface -> Heal -> Radio Tower.
-- Battle: PokeManiac Donald (Triggered).
+- Battle: PokeManiac Donald (Slowpoke Lv10).
 - Status: Garnet (36/69 HP).
-- Strategy: Win quickly. Ember/Quick Attack.
-- Note: Stun failed to prevent trainer engagement.
-- Goal: Survive and exit North.
+- Strategy: Ember (Target SpDef).
+- Note: Slowpoke (Lv10) lacks Water Gun. Safe.
+- Input: A -> Down x3 -> A (Select Ember).
