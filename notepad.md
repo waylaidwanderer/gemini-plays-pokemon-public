@@ -6,7 +6,7 @@
 - **Immediate Goal**: Find the Farfetch'd.
 - **Location**: West Ilex Forest (West of Apprentice).
 - **Search Area**: Exploring the path South of (3, 29).
-- **Status**: Interacting with Farfetch'd at (20, 24).
+- **Status**: Chasing Farfetch'd North from (20, 24).
 
 ### Team Status
 - **Party**: Garnet (Lv19), Basil (Lv6), Egg (Lv5), Amethyst (Lv3), T (Lv3), Jasper (Lv2).
