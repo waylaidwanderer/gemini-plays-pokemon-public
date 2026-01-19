@@ -49,4 +49,4 @@
 - Strategy: Using 'find_nearest_unseen' tool to systematically clear fog of war in NW corner.
 - Hypothesis: Radio Tower is accessible via a hidden path or building in the NW sector.
 - Exploration: Confirmed Dead End at (7, 9) (Alley behind Game Corner).
-- Navigation: Pathing to House at (11, 29). Avoiding obstacle at (16, 22).
+- Navigation: Pathing to House at (11, 29) via West Flank. Route: (17, 22) -> (9, 23) -> (9, 30) -> (11, 30) -> (11, 29).
