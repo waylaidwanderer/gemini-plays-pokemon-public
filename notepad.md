@@ -73,8 +73,8 @@
 - Status: Garnet (36/69 HP). No Potions left.
 - Action: Clearing text. Will check Haircut Brothers then explore North.
 - Warning: Low HP. Avoid unnecessary battles or heal at PC if critical.
-- Location: Pokemon Center (3_54).
-- Note: Map 3_54 reused for PC and GC South. Mental Map may be unreliable.
-- Action: Healing Party.
-- Next: Find Radio Tower.
+- Location: Building at (11, 29) (Wrong Building).
+- Observation: Looks like a PC but no Nurse Joy.
+- Action: Exiting to go to Real PC at (15, 27).
+- Goal: Heal, then find Radio Tower.
 - Status: Garnet (30/69 HP).
