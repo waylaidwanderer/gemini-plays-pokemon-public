@@ -4,9 +4,9 @@
 ### Current Objectives & Strategy
 - **Main Quest**: Navigate Ilex Forest to Goldenrod City.
 - **Location**: Northern Ilex Forest (Gatehouse Interior).
-- **Status**: At (23, 2). Testing the "Side Entry" hypothesis.
-- **Navigation**: Moving Down to (23, 3), then attempting to walk Left into (22, 3) and Right into (24, 3) to find the warp.
-- **Hypothesis**: The "door" tiles (22, 3) and (24, 3) are the true warps but are only enterable from the side (the gap at 23, 3).
+- **Status**: Retrying the warp at (23, 2) after resetting position at (23, 3).
+- **Navigation**: Walking North through (23, 2) all the way to the map edge.
+- **Hypothesis**: The battle interrupted the warp. If (23, 2) fails, the exit must be at the northernmost edge (Row 0 or -1).
 
 ### Team Status
 - **Party**: Garnet (Lv23), Amethyst (Lv8), T (Lv3), Jasper (Lv2), Basil (Lv6), Pearl (Togepi, Lv5).
