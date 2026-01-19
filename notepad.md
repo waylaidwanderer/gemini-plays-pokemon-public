@@ -68,6 +68,6 @@
 - Action: Investigating NPC at (5, 31) and exploring North.
 - Dialogue: NPC at (5, 31) says he got booted out of the Game Corner.
 - Battle: Super Nerd Eric.
-- Battle Status: Battle Won. Garnet Poisoned (42/69 HP).
-- Immediate Action: Open Pack -> Use Antidote on Garnet.
-- Exploration: Continue North in Underground after healing.
+- Status: Garnet Poisoned (42/69 HP).
+- Immediate Action: Clear text, Open Pack -> Use Antidote.
+- Exploration: Explore Underground for items (Coin Case?).
