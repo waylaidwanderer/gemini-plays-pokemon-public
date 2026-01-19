@@ -69,7 +69,7 @@
 - Quest: Find Radio Tower (Surface).
 - Status: Bicycle Registered. Garnet Healthy.
 - Tile Mechanics: Input drops frequent. Move slowly.
-- Battle: Pokemaniac Issac (Lickitung Lv12).
+- Battle: Pokemaniac Issac. Lickitung (Critical Hit).
 - Status: Garnet (36/69 HP).
-- Strategy: Double Tap A (Uses Last Move: Ember, or Quick Attack if reset).
-- Note: Both moves are effective enough. Saving inputs.
+- Action: Clearing text (B mash). Expecting Lickitung to faint.
+- Next: Check if Issac has more Pokemon.
