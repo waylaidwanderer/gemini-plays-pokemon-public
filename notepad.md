@@ -7,7 +7,7 @@
 - **Goal**: Get a Bicycle.
 - **Sub-Goals**: Get Radio Card (North), Visit Daycare (South).
 - **Team**: Fully Healed.
-- **Next**: Finish Joey's call (Ledyba story), then accept the Bicycle offer.
+- **Next**: Finish Joey's call and obtain the Bicycle.
 
 ### Team Status
 - **Party**: Garnet (Lv23), Amethyst (Lv8), T (Lv3), Jasper (Lv2), Basil (Lv6), Pearl (Togepi, Lv5).
