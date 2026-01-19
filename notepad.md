@@ -74,6 +74,7 @@
 - Action: Clearing text. Will check Haircut Brothers then explore North.
 - Warning: Low HP. Avoid unnecessary battles or heal at PC if critical.
 - Location: Pokemon Center (Map 3_54).
-- Status: Garnet (30/69 HP). (4, 24) interaction yielded no response.
-- Action: Moving Right to (5, 24) to try Nurse interaction there.
+- Status: Garnet (30/69 HP). (5, 24) failed. Returning to (4, 24).
+- Action: Left -> Up -> A (Multiple times). Avoiding 'B' to prevent cancelling.
+- Backup: Use PC to heal (Deposit/Withdraw) if Nurse Joy remains unresponsive.
 - Next: Exit PC (South) -> Find Radio Tower (North-West).
