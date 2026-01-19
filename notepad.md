@@ -78,17 +78,13 @@
 - Status: Exiting PC.
 - Next: Goldenrod City -> Radio Tower (North-West).
 - Location: Radio Tower 1F (Map 3_17).
-- Status: Failed Quiz on Q3 (HM01 Flash?).
-- Reason: Answered NO, but got it wrong.
-- Hypothesis:
-  - Did I misread the question?
-  - Did I accidentally press A (YES)?
-  - Is the question actually "Is HM01 Cut?" (YES)?
-- Action: Restart Quiz. Pay close attention to Q3.
-- Cheat Sheet (Revised):
+- Status: Restarting Radio Quiz (Attempt 3).
+- Action: Advancing Intro Text.
+- Strategy: READ QUESTION 3.
+- Cheat Sheet:
   1. Morning Pokemon? -> YES (A).
   2. Impossible to buy Berries? -> YES (A).
-  3. READ Q3 CAREFULLY.
+  3. HM01 Flash? -> NO (B). (Unless it asks if it's Cut -> YES).
   4. Falkner Violet? -> YES (A).
   5. Charmander Slots? -> NO (B).
 - Goal: Get Radio Card.
