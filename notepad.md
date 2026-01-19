@@ -42,9 +42,4 @@
 - Plan: Interact from South -> Bird moves North/East -> Follow it clockwise around the trees to return to the Apprentice.
 - Discovery: Mental Map XML indicates tiles (9, 35) and (10, 35) are walkable (TYPE_3fe2). The 'Dead End' marker at (8, 35) is likely incorrect. I must investigate this path.
 - Mechanic: Farfetch'd moves away from the player interaction. It resets if pushed into a blocked path or cornered incorrectly.
-- Strategy:
-  1. Push Farfetch'd West to (8, 35).
-  2. Interact from East (9, 35) to force it North to (8, 34) (since West is blocked).
-  3. Follow North to Apprentice.
-- Status: Proceeding to Cut Tree at (8, 25) with Basil.
-- Next: Cut the tree at (8, 25) and proceed North.
+- Status: Cutting the tree at (8, 25) to enter Ilex Forest proper.
