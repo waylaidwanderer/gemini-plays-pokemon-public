@@ -79,7 +79,7 @@
 - Next: Goldenrod City -> Radio Tower (North-West).
 - Location: Radio Tower 1F (Map 3_17).
 - Status: Answering Radio Card Quiz (Q3).
-- Action: Advancing text ("Question 3") -> Answering NO.
+- Action: Advancing text to reveal Question 3.
 - Cheat Sheet (Permanent):
   1. Morning Pokemon? -> YES (A).
   2. Impossible to buy Berries? -> YES (A).
