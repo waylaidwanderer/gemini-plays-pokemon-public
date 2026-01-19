@@ -6,11 +6,12 @@
 - **Location**: Northern Ilex Forest (Gatehouse Front).
 - **Goal**: Enter the Gatehouse via the Left Door at (22, 3).
 - **Findings**:
-    - The "Backyard" (Row 0-2) seems to be a dead-end trap.
-    - Doors (22,3), (24,3), (25,3) act as One-Way Ledges (Southbound).
-    - Middle Arch (23,3) allows entry to the Backyard, but there is no North exit.
-- **Plan**: Test (25,3) Northbound. If solid, the exit must be elsewhere.
-- **New Strategy**: Check the East and West edges of the **Front** area (Row 4/5). The exit might be a side path I missed.
+    - Gatehouse Doors (22,3), (24,3), (25,3) are Southbound Ledges.
+    - Backyard (Rows 0-2) has no North exit (tested 22, 23, 24, 25).
+    - Backyard side paths (Wayne, East End) are dead ends.
+- **Plan**: Explore the East side of the Front Area (Row 4).
+- **Hypothesis**: There might be a path around the building or a cuttable bush at (29, 4).
+- **Note**: The building layout is very strange. It might be a puzzle or I'm missing a key item/interaction.
 
 ### Team Status
 - **Party**: Garnet (Lv23), Amethyst (Lv8), T (Lv3), Jasper (Lv2), Basil (Lv6), Pearl (Togepi, Lv5).
