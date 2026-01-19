@@ -56,6 +56,6 @@
 - Action: Clearing Joey's call text, then moving Right -> Up.
 - Task: Register Bicycle inside.
 - Event: Received phone call from Joey at (9, 31). Handling text.
-- Navigation: Retrying entry to House (11, 29). Previous Right move failed (possible invisible NPC or input drop).
-- Path: Circling South. (10, 30) -> (10, 31) -> (11, 31) -> (11, 30) -> (11, 29).
-- Task: Register Bicycle inside.
+- Navigation: Stuck at (10, 30). Previous attempts to move Right or Down failed/reset.
+- Strategy: Moving Down to (10, 31) then Right to (11, 31) to flank the door.
+- Observation: Possible input drops or invisible collision. Taking small steps.
