@@ -1,4 +1,39 @@
 {
+  "battle_select_move": {
+    "description": "Navigates the battle menu to select a specific move slot (1-4). Assumes the cursor is currently on 'FIGHT'. Resets cursor position to Top (Slot 1) before navigating to ensure accuracy. Menu is a Vertical List.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "move_slot": {
+          "type": "integer",
+          "description": "The move slot to select (1=Top, 2=Second, 3=Third, 4=Bottom)",
+          "enum": [
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      },
+      "required": [
+        "move_slot"
+      ],
+      "autopress_buttons": true
+    },
+    "python_script": "import json\n\ndef get_buttons(move_slot):\n    # Start by entering the \"FIGHT\" menu\n    buttons = [\"A\", \"sleep 500\"]\n    \n    # Reset cursor to Top (Slot 1) by spamming Up\n    # We do this multiple times to be safe against dropped inputs or starting position\n    buttons.extend([\"Up\", \"Up\", \"Up\", \"sleep 200\"])\n    \n    # Navigate to the target slot from Slot 1\n    # Menu is a vertical list:\n    # 1. Quick Attack\n    # 2. Leer\n    # 3. Smokescreen\n    # 4. Ember\n    \n    presses = move_slot - 1\n    for _ in range(presses):\n        buttons.extend([\"Down\", \"sleep 200\"])\n        \n    # Add a small delay and confirm selection\n    buttons.extend([\"sleep 200\", \"A\"])\n    \n    return buttons\n\nif 'move_slot' in globals():\n    print(json.dumps(get_buttons(move_slot)))\nelse:\n    # Fallback\n    print(json.dumps([]))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-19T12:37:54.505Z",
+        "action_counter": 4591
+      },
+      {
+        "commit_message": "Updated logic for vertical list menu layout (1 column, 4 rows).",
+        "timestamp": "2026-01-19T12:41:47.811Z",
+        "action_counter": 4596
+      }
+    ]
+  },
   "bfs_check_path": {
     "description": "Checks if a path exists between two points using BFS on the Mental Map. Returns True/False and the path length.",
     "input_schema": {
@@ -201,41 +236,6 @@
         "commit_message": "Initial version",
         "timestamp": "2026-01-17T03:27:06.196Z",
         "action_counter": 213
-      }
-    ]
-  },
-  "battle_select_move": {
-    "description": "Navigates the battle menu to select a specific move slot (1-4). Assumes the cursor is currently on 'FIGHT'. Resets cursor position to Top (Slot 1) before navigating to ensure accuracy. Menu is a Vertical List.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "move_slot": {
-          "type": "integer",
-          "description": "The move slot to select (1=Top, 2=Second, 3=Third, 4=Bottom)",
-          "enum": [
-            1,
-            2,
-            3,
-            4
-          ]
-        }
-      },
-      "required": [
-        "move_slot"
-      ],
-      "autopress_buttons": true
-    },
-    "python_script": "import json\n\ndef get_buttons(move_slot):\n    # Start by entering the \"FIGHT\" menu\n    buttons = [\"A\", \"sleep 500\"]\n    \n    # Reset cursor to Top (Slot 1) by spamming Up\n    # We do this multiple times to be safe against dropped inputs or starting position\n    buttons.extend([\"Up\", \"Up\", \"Up\", \"sleep 200\"])\n    \n    # Navigate to the target slot from Slot 1\n    # Menu is a vertical list:\n    # 1. Quick Attack\n    # 2. Leer\n    # 3. Smokescreen\n    # 4. Ember\n    \n    presses = move_slot - 1\n    for _ in range(presses):\n        buttons.extend([\"Down\", \"sleep 200\"])\n        \n    # Add a small delay and confirm selection\n    buttons.extend([\"sleep 200\", \"A\"])\n    \n    return buttons\n\nif 'move_slot' in globals():\n    print(json.dumps(get_buttons(move_slot)))\nelse:\n    # Fallback\n    print(json.dumps([]))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-01-19T12:37:54.505Z",
-        "action_counter": 4591
-      },
-      {
-        "commit_message": "Updated logic for vertical list menu layout (1 column, 4 rows).",
-        "timestamp": "2026-01-19T12:41:47.811Z",
-        "action_counter": 4596
       }
     ]
   }
