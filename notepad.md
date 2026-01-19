@@ -5,9 +5,9 @@
 - **Main Quest**: Navigate Ilex Forest to Goldenrod City.
 - **Location**: Northern Ilex Forest (Gatehouse Front).
 - **Goal**: Enter the Gatehouse via the Left Door at (22, 3).
-- **Status**: At (23, 4). Escaped battle. Aligning to (22, 4) to enter (22, 3).
-- **Hypothesis**: The map data `TYPE_a336` indicates a warp. Previous failures might be due to battles or misalignment.
-- **Plan**: Move Left, then Up. If (22, 3) is solid, try interacting. If it is walkable but no warp, move North to Row 0.
+- **Status**: At (23, 4). Escaped battle. Moving Left to (22, 4) then Up into (22, 3).
+- **Hypothesis**: (22, 3) is the correct warp based on map data. Previous attempts may have been botched by inputs or collision misunderstandings.
+- **Plan**: Press Left, Up, Up. If successful, I should warp. If I hit a wall, I will document it as a confirmed collision.
 
 ### Team Status
 - **Party**: Garnet (Lv23), Amethyst (Lv8), T (Lv3), Jasper (Lv2), Basil (Lv6), Pearl (Togepi, Lv5).
