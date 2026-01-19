@@ -3,10 +3,10 @@
 
 ### Current Objectives & Strategy
 - **Main Quest**: Navigate Ilex Forest to Goldenrod City.
-- **Location**: Northern Ilex Forest (Gatehouse Interior).
-- **Status**: Retrying the warp at (23, 2) after resetting position at (23, 3).
-- **Navigation**: Walking North through (23, 2) all the way to the map edge.
-- **Hypothesis**: The battle interrupted the warp. If (23, 2) fails, the exit must be at the northernmost edge (Row 0 or -1).
+- **Location**: Northern Ilex Forest (Gatehouse Anomaly).
+- **Status**: At (23, 0), North of the Gatehouse. Walking North did not trigger a map transition.
+- **Navigation**: Moving South back to (23, 4) to fully reset the position.
+- **Plan**: Will attempt to enter the gatehouse again, possibly testing if the warp is direction-dependent or lagging.
 
 ### Team Status
 - **Party**: Garnet (Lv23), Amethyst (Lv8), T (Lv3), Jasper (Lv2), Basil (Lv6), Pearl (Togepi, Lv5).
