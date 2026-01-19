@@ -74,8 +74,7 @@
 - Action: Clearing text. Will check Haircut Brothers then explore North.
 - Warning: Low HP. Avoid unnecessary battles or heal at PC if critical.
 - Location: Goldenrod City (Map 11_2).
-- Issue: Trapped in Game Corner South alcove at (13, 30).
-- Obstacle: Fence/Tracks block East/South. Building blocks North.
-- Solution: Navigate West to Col 9, then North to Row 23 to circle around.
-- Path: Down -> Left (to Col 9) -> Up (to Row 23) -> Right (to PC).
+- Status: Interrupted by Joey's Call. Clearing text...
+- Navigation: Trapped at (13, 30).
+- Escape Route: Down to (13, 31) -> Left to (9, 31) -> Up to Row 27 -> Right to PC.
 - Goal: Reach Pokemon Center at (15, 27).
