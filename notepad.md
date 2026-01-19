@@ -78,9 +78,9 @@
 - Status: Exiting PC.
 - Next: Goldenrod City -> Radio Tower (North-West).
 - Location: Radio Tower 1F (Map 3_17).
-- Status: Moving to Third Receptionist.
-- Target: NPC at (12, 6) (Likely Quiz Giver).
-- Action: Dismiss Lucky Number dialogue (B) -> Move Right to (12, 4) -> Interact.
+- Status: Talking to Third Receptionist (Quiz).
+- Target: NPC at (12, 6).
+- Action: Advancing Text -> Answering YES to Q1/Q2.
 - Quiz Cheat Sheet:
   1. Morning Pokemon? -> YES.
   2. Impossible to buy Berries? -> YES.
