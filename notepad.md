@@ -3,11 +3,8 @@
 
 ### Current Objectives & Strategy
 - **Main Quest**: Explore Goldenrod City.
-- **Location**: Goldenrod City (Map 11_2).
-- **Goal**: Get Radio Card (Radio Tower, North).
-- **Sub-Goals**: Challenge Gym, Visit Daycare (South).
-- **Team**: Fully Healed.
-- **Next**: Ride North to Radio Tower.
+- **Goal**: Find Radio Tower (Check North-West).
+- **Sub-Goals**: Get Radio Card, Challenge Gym, Visit Daycare.
 
 ### Team Status
 - **Party**: Garnet (Lv23), Amethyst (Lv8), T (Lv3), Jasper (Lv2), Basil (Lv6), Pearl (Togepi, Lv5).
