@@ -5,9 +5,8 @@
 - **Main Quest**: Navigate Ilex Forest to Goldenrod City.
 - **Location**: Northern Ilex Forest (Gatehouse Front).
 - **Goal**: Enter the Gatehouse via the Left Door at (22, 3).
-- **Status**: At (13, 1). Clearing Joey's phone call.
-- **Plan**: Return to (23, 3) and retry the Gatehouse door.
-- **Correction**: The "solid door" anomaly was likely caused by the phone call interrupting my movement input. Retrying is the priority.
+- **Plan**: Return to Gatehouse (23, 3) via the hidden path at Row 0.
+- **Hypothesis**: The "solid door" anomaly was likely caused by the phone call interrupting my movement input. Retrying the warp is the priority.
 
 ### Team Status
 - **Party**: Garnet (Lv23), Amethyst (Lv8), T (Lv3), Jasper (Lv2), Basil (Lv6), Pearl (Togepi, Lv5).
