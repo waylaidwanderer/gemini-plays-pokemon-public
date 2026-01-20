@@ -41,4 +41,4 @@
     - Miltank (Lv20) - Active. Def Down. Spams Stomp.
   - (9, 6) Lass Bridget [Defeated]
 - Status: T (Lv3) fainted (Sacrifice successful). Garnet (Lv26) sent back in. Toxic counter reset.
-- Inventory: Super Potion x4.
+- Inventory: Super Potion x3 (Used second one).
