@@ -20,6 +20,6 @@
   - NW Path blocked (Game Corner/Tracks).
   - Underground: Haircut Brothers absent.
 ### Gym Notes
-- Status: In Goldenrod City (Phone Call).
-- Task: Finish Joey's call -> Enter Flower Shop.
+- Status: In Goldenrod City.
+- Task: Enter Flower Shop (North of Gym).
 - Next: Route 34 (Daycare).
