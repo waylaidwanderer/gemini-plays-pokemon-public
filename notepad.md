@@ -20,5 +20,5 @@
   - Underground: Haircut Brothers absent.
 - Exploration: Moving up the West wall (Column 0).
 - Observation: Passed Lass at (3, 12) without battling? She didn't react.
-- Current Battle: Beauty Victoria at (0, 4).
+- Current Battle: Beauty Victoria at (0, 4). Sandbox DOWN - Manual Inputs.
 - Goal: Reach North end of Maze to find Whitney.
