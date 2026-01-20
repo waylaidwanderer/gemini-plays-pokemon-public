@@ -38,11 +38,11 @@
 - Trainers:
   - (8, 3) Whitney [Battling]
     - Miltank (Lv20) - Active. Def Down. Rollout #2 Incoming.
-- Status: Party Wiped. Respawning at Pokemon Center.
-- Lesson Learned: Do not mash buttons. Use precise inputs.
-- Action Plan:
-  1. Teach TM31 Mud-Slap to Garnet.
-  2. Buy more Super Potions (if money allows/needed).
-  3. Return to Gym and challenge Whitney again.
-- Strategy for Rematch: Lead with Mud-Slap to lower Miltank's accuracy immediately while dealing chip damage.
-- Inventory: Super Potion x2. TM31 available.
+- Status: Party Healed. Garnet learned Mud-Slap (TM31).
+- Location: Outside Pokemon Center (15, 28).
+- Plan:
+  1. Go to Dept Store (East).
+  2. Buy Super Potions (Target: 10 total).
+  3. Rematch Whitney.
+- Strategy: Lead Garnet. Mud-Slap Miltank immediately.
+- Inventory: Super Potion x2. Mud-Slap (Learned).
