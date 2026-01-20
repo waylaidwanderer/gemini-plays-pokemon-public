@@ -31,9 +31,14 @@
   - (19, 7) Samantha [Defeated]
   - (9, 13) Carrie [Defeated]
 - Path: Calculating route... East side blocked. Moving to West Side (Col 2).
-- Route: East Side (Dead End).
-- Correction: Entry to center is via Row 13 (Carrie).
-- Path: Down to Row 17 -> West to Col 2 -> Up to Row 13 -> East to Col 11 -> Up to Row 6 -> West to Col 8 (Whitney).
+- Route: Bottom Zigzag confirmed via Map Analysis.
+- Steps:
+  1. (19,14) -> (19,16) -> (17,16) -> (17,17).
+  2. (17,17) -> West to (12,17).
+  3. (12,17) -> Up to (12,16) -> West to (9,16).
+  4. (9,16) -> Down to (9,17) -> West to (2,17).
+  5. (2,17) -> Up West Corridor (Col 2) to Row 13.
+  6. Row 13 -> Center.
 - Prep: Bought 5 Super Potions. Ready for Whitney.
 - Health: Full. Heading South down West corridor (Col 0).
 - Location: Center of Gym (8, 4). Facing Whitney.
