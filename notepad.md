@@ -27,5 +27,6 @@
 - **Navigation**: West side of Goldenrod is accessed via the South path near Radio Tower. Alley west of Game Corner is a dead end.
 - Navigation: Flower Shop confirmed at (19, 1). Talk to the girl, then exit and search West of the Flower Shop for the Route 35 Gatehouse.
 - Navigation: East side (X>30) appears to be a dead end. Returning to center.
-- Navigation: Plan to check paths West (X=16) and East (X=23) of the Flower Shop (at 19, 1) to find the North exit.
+- Navigation: Investigating building at (9, 5). Previous assumption "Game Corner" likely incorrect; suspecting it is the Route 35 Gatehouse.
+- Navigation: Path to (9, 5) is via Row 8.
 - System: Python sandbox tools are down. Using manual navigation.
