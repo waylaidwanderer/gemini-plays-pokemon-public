@@ -28,5 +28,4 @@
 - Trainers:
   - (0, 4) Victoria [Defeated]
   - (19, 7) Samantha [Defeated]
-  - (15, 5) Red-Haired Trainer [Target]
-- Path: Top Right -> Middle Left -> Center?
+- Path: Backtracking to Top Right to find inner spiral.
