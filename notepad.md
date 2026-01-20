@@ -39,4 +39,5 @@
 - Goal: Defeat Whitney.
 - Trainers:
   - (8, 3) Whitney [Battling]
+    - Clefairy (Lv18) - Used Toxic. Acc Down.
   - (9, 6) Lass Bridget [Defeated]
