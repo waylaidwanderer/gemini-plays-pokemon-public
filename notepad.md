@@ -34,8 +34,8 @@
 - Progress: Bypassing Lass at (0, 2) and Victoria at (0, 4).
 - Prep: Bought 5 Super Potions. Ready for Whitney.
 - Health: Full. Heading South down West corridor (Col 0).
-- Route: Top Corridor (Row 1) Westbound. Looking for gap South into Inner Maze.
-- Goal: Find entrance to center area (possibly near Col 7-8).
+- Path: (18,2) -> (18,5) -> (16,5) -> (16,6) -> (15,6) -> (15,8) -> (16,8) -> (17,9) -> (17,12) -> (15,12) -> (13,13).
+- Goal: Execute the "East Side Wiggle" to reach the Center.
 - Trainers:
   - (8, 3) Trainer (Red Hair) - Unfought
   - (9, 6) Lass (Blue Hair) - Unfought
