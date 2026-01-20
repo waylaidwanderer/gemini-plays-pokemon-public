@@ -18,3 +18,5 @@
 - **Blockages**:
   - NW Path blocked (Game Corner/Tracks).
   - Underground: Haircut Brothers absent.
+- Note: Visual desync detected in Gym. RAM (9, 16) vs Screen (9, 12). Trusting RAM.
+- Exploration: East side (Row 16) appears to be a dead end. Backtracking to West side.
