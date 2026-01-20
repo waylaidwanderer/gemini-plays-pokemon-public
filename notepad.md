@@ -41,7 +41,7 @@
 - Status: Party Healed. Garnet learned Mud-Slap (TM31).
 - Location: Dept Store 2F (11, 4).
 - Plan:
-  1. Buy 6 Super Potions (Total 8). Cost: 4200.
+  1. Return to Gym.
   2. Rematch Whitney.
 - Strategy: Lead Garnet. Mud-Slap Miltank immediately.
-- Inventory: Super Potion x2. Mud-Slap (Learned).
+- Inventory: Super Potion x8. Mud-Slap (Learned). Money: ¥351.
