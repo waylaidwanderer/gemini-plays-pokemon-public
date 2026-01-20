@@ -78,7 +78,13 @@
 - Status: Exiting PC.
 - Next: Goldenrod City -> Radio Tower (North-West).
 - Location: Radio Tower 1F (Map 3_17).
-- Status: Answering Radio Card Quiz (Q5 - Final).
-- Action: Cursor confirmed on NO. Pressing A.
-- Next: Dialogue should verify correctness and award Radio Card.
+- Status: Quiz PASSED!
+- Action: Advancing text to receive the Radio Card.
+- Next: Check Radio Card in Pokegear -> Explore Radio Tower or Challenge Whitney.
+- Cheat Sheet (Permanent):
+  1. Morning Pokemon? -> YES (A).
+  2. Impossible to buy Berries? -> YES (A).
+  3. HM01 Flash? -> NO (B).
+  4. Falkner Violet? -> YES (A).
+  5. Charmander Slots? -> NO (B).
 - Goal: Get Radio Card.
