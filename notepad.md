@@ -40,4 +40,4 @@
     - Clefairy (Lv18) - Fainted.
     - Miltank (Lv20) - Unfought.
   - (9, 6) Lass Bridget [Defeated]
-- Status: Garnet (Badly Poisoned). HP 41/71.
+- Status: Garnet Lv26 (Badly Poisoned). HP 44/74.
