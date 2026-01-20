@@ -23,7 +23,10 @@
 - Mechanic: Battle Move Menu WRAPS (Bottom -> Top).
 - Exploration: Column 0 blocked by Victoria (0, 4). Detouring via Row 7 to Column 2.
 - Goal: Reach North end of Maze to find Whitney.
-- Hypothesis: Path winds through (3, 5) -> (2, 4) -> (1, 4) to bypass Victoria.
-- Gym Layout: Row 1 is a clear corridor West -> East.
-- Trainer at (8, 3) walled off from Row 1.
-- Column 6 is a dead end at (6, 2).
+### Gym Notes
+- Structure: Clefairy Shape. Winding path.
+- Trainers:
+  - (0, 4) Victoria [Defeated]
+  - (19, 7) Samantha [Defeated]
+  - (15, 5) Red-Haired Trainer [Target]
+- Path: Top Right -> Middle Left -> Center?
