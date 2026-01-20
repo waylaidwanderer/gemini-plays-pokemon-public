@@ -42,3 +42,4 @@
 - Plan: Return to Gym and defeat Whitney.
 - Strategy: Lead Garnet. Mud-Slap Miltank immediately.
 - Inventory: Super Potion x8. Mud-Slap (Learned). Money: ¥351.
+- Obstacle: NPC at (11, 7) blocking exit path. Attempting to interact/wait.
