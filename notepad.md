@@ -39,10 +39,9 @@
   - (8, 3) Whitney [Battling]
     - Miltank (Lv20) - Active. Def Down. Rollout #2 Incoming.
 - Status: Party Healed. Garnet learned Mud-Slap (TM31).
-- Location: Dept Store 1F (12, 7).
+- Location: Dept Store 2F (11, 4).
 - Plan:
-  1. Go to Dept Store 2F (Escalator NE).
-  2. Buy Super Potions (Target: 10 total).
-  3. Rematch Whitney.
+  1. Buy 6 Super Potions (Total 8). Cost: 4200.
+  2. Rematch Whitney.
 - Strategy: Lead Garnet. Mud-Slap Miltank immediately.
 - Inventory: Super Potion x2. Mud-Slap (Learned).
