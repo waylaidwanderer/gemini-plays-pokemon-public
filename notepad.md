@@ -27,6 +27,6 @@
 - **Navigation**: West side of Goldenrod is accessed via the South path near Radio Tower. Alley west of Game Corner is a dead end.
 - Navigation: West Edge (X=5) confirmed blocked/wall.
 - Navigation: Building at (15, 7) confirmed as Name Rater (Dead End).
-- Navigation: Main Road North identified at X=32 (East side).
-- Plan: Exit house, Go East to X=32, then North to Gatehouse.
+- Navigation: East side blocked by Gym. Backtracking to center.
+- Plan: Investigate Main Avenue (X=13) for Gatehouse or path North.
 - System: Python sandbox tools are down. Using manual navigation.
