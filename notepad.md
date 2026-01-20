@@ -44,3 +44,4 @@
 - Inventory: Super Potion x8. Mud-Slap (Learned). Money: ¥351.
 - Obstacle: NPC at (11, 7) blocking exit path. Attempting to interact/wait.
 - Navigation Lesson: Dept Store 1F has a U-shaped layout blocked by shelves/NPCs at the bottom. Must loop around the top (Row 3) to exit.
+- Layout Hypothesis: The exit (SE corner) seems blocked by counters (Row 4) and an NPC (11, 7). Testing if counters are permeable or if there's a specific gap.
