@@ -43,3 +43,5 @@
 - Plan: Return to Gym and defeat Whitney.
 - Strategy: Lead Garnet. Mud-Slap Miltank immediately.
 - Inventory: Super Potion x8. Mud-Slap (Learned). Money: ¥351.
+- Route Update: Entry to center is via East Side Maze.
+- Path: Top Row (1,1 -> 17,1) -> Down East Side -> Weave through (16,8)/(17,9) area -> Bottom Connectors (Row 13) -> Center.
