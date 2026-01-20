@@ -35,11 +35,9 @@
 - Prep: Bought 5 Super Potions. Ready for Whitney.
 - Health: Full. Heading South down West corridor (Col 0).
 - Location: Center of Gym (8, 4). Facing Whitney.
-- Path: Reached Whitney.
-- Goal: Defeat Whitney.
 - Trainers:
   - (8, 3) Whitney [Battling]
-    - Clefairy (Lv18) - Used Toxic. Acc Down. Def Down.
+    - Clefairy (Lv18) - Used Toxic, Mimic(Leer). Acc Down, Def Down.
     - Miltank (Lv20) - Unfought.
   - (9, 6) Lass Bridget [Defeated]
 - Status: Garnet (Badly Poisoned).
