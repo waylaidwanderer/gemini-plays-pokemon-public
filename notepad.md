@@ -40,6 +40,5 @@
     - Clefairy (Lv18) - Fainted.
     - Miltank (Lv20) - Active. Def Down. Spams Stomp.
   - (9, 6) Lass Bridget [Defeated]
-- Status: Garnet Lv26 (Badly Poisoned - CRITICAL TICK DAMAGE). HP 31/74.
-- Strategy: Tactical Sacrifice. Switching to T to reset Toxic counter on Garnet.
+- Status: T (Lv3) active (Sacrifice). Garnet (Lv26) withdrawn to reset Toxic.
 - Inventory: Super Potion x4.
