@@ -31,8 +31,9 @@
   - (19, 7) Samantha [Defeated]
   - (9, 13) Carrie [Defeated]
 - Path: Calculating route... East side blocked. Moving to West Side (Col 2).
-- Route: Weaving West Side: Col 1 (Row 2-4) -> Col 2 (Row 4-6) -> Col 0 (Row 7-8).
-- Progress: Bypassing Lass at (0, 2) and Victoria at (0, 4).
+- Route: Weaving West Side (DEAD END).
+- Correction: Entry to center is via East Side Maze.
+- Path: Bottom Traverse (Row 17) -> Up East Side -> Inward at Row 12 (Gap near Col 15-17).
 - Prep: Bought 5 Super Potions. Ready for Whitney.
 - Health: Full. Heading South down West corridor (Col 0).
 - Location: Center of Gym (8, 4). Facing Whitney.
