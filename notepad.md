@@ -20,5 +20,6 @@
   - NW Path blocked (Game Corner/Tracks).
   - Underground: Haircut Brothers absent.
 ### Gym Notes
-- Status: Cleared!
-- Next: Exit Gym -> Flower Shop -> Route 34.
+- Status: Leaving Gym.
+- Route: Retracing steps. South from Whitney -> East to wall -> North to Exit.
+- Task: Get SquirtBottle.
