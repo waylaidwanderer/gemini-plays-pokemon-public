@@ -18,7 +18,5 @@
 - **Blockages**:
   - NW Path blocked (Game Corner/Tracks).
   - Underground: Haircut Brothers absent.
-- Exploration: Navigating Clefairy Maze. Heading to East edge (Column 14/15) to find a path North.
-- Observed: Planters block direct access to Lass at (9, 13).
-- Exploration: Column 19 is a dead end blocked by Beauty Samantha at (19, 7). Backtracking.
-- Exploration: Need to find a path into the central maze area.
+- Exploration: Navigating from East side (Column 15) to Center via Row 17.
+- Goal: Find a path North through the planters in the central columns (10-14).
