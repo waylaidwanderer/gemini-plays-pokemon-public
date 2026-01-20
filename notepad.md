@@ -18,5 +18,5 @@
 - **Blockages**:
   - NW Path blocked (Game Corner/Tracks).
   - Underground: Haircut Brothers absent.
-- Exploration: Navigating from East side (Column 15) to Center via Row 17.
-- Goal: Find a path North through the planters in the central columns (10-14).
+- Exploration: Right side (Col 19) and Center (Col 12/15) seem blocked.
+- Plan: Backtrack to Entrance (2, 17) and explore the West perimeter (Column 2) Northwards.
