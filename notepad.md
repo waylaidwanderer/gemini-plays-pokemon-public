@@ -39,5 +39,7 @@
 - Goal: Defeat Whitney.
 - Trainers:
   - (8, 3) Whitney [Battling]
-    - Clefairy (Lv18) - Used Toxic. Acc Down.
+    - Clefairy (Lv18) - Used Toxic. Acc Down. Def Down.
+    - Miltank (Lv20) - Unfought.
   - (9, 6) Lass Bridget [Defeated]
+- Status: Garnet (Badly Poisoned).
