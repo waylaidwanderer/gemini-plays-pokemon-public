@@ -38,7 +38,7 @@
 - Trainers:
   - (8, 3) Whitney [Battling]
     - Miltank (Lv20) - Active. Def Down. Rollout #2 Incoming.
-- Status: Garnet (Lv26) Poisoned. HP 40/74 (Screen). GameState says 74 (Lag?).
-- Strategy: Rollout #2 did ~34 dmg. #3 (Power 120) will kill. Must Smokescreen and hope for miss/outspeed.
-- Speed Check: Garnet (51) vs Miltank (~45-50). Likely faster.
-- Inventory: Super Potion x2.
+- Status: Garnet (Lv26) Poisoned. HP 40/74.
+- Strategy: Smokescreen (Slot 3) to force Rollout miss (32.5% survival chance).
+- Menu: Cursor on PACK. Move Up->Fight. Inside Fight: Top->Down->Down->Smokescreen.
+- Speed: Garnet should outspeed.
