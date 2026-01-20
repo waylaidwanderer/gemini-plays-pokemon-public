@@ -34,8 +34,8 @@
 - Progress: Bypassing Lass at (0, 2) and Victoria at (0, 4).
 - Prep: Bought 5 Super Potions. Ready for Whitney.
 - Health: Full. Heading South down West corridor (Col 0).
-- Path: (15,8) -> (16,8) -> (16,9) -> (17,9) -> (17,12) -> (15,12) -> (15,13) -> (13,13) -> Center.
-- Goal: Navigate safely around walls at (14,12) and (16,10).
+- Path: Approaching Center Area via (13, 12) -> (11, 12).
+- Goal: Locate Whitney (Likely North around Row 8-9).
 - Trainers:
   - (8, 3) Trainer (Red Hair) - Unfought
   - (9, 6) Lass (Blue Hair) - Unfought
