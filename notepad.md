@@ -13,8 +13,8 @@
 
 ### Quests
 - **Route 35 Gatehouse**: Guard Randy wants to give me a Spearow with Mail to deliver to Route 31.
-  - **Status**: Blocked. Need a free party slot.
-  - **Plan**: Deposit Pokemon at PC -> Return to Gatehouse -> Accept Spearow -> Proceed to Route 36.
+  - **Status**: Party slot cleared (5/6). Returning to accept Spearow.
+  - **Plan**: Return to Gatehouse -> Accept Spearow -> Proceed to Route 36.
 
 ### Tile Mechanics
 - TYPE_3fe2: Floor (Walkable)
