@@ -21,6 +21,6 @@
 - Exploration: Moving up the West wall (Column 0).
 - Observation: Passed Lass at (3, 12) without battling? She didn't react.
 - Mechanic: Battle Move Menu WRAPS (Bottom -> Top).
-- Current Battle: Beauty Victoria at (0, 4). Sandbox DOWN - Manual Inputs.
-- Action: Cursor on Smokescreen (Slot 3). Pressing Down ONCE to reach Ember (Slot 4).
+- Status: Defeated Beauty Victoria at (0, 4).
+- Exploration: Continuing North along West wall (Column 0).
 - Goal: Reach North end of Maze to find Whitney.
