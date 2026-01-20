@@ -67,7 +67,7 @@
 - Location: Underground (3_53).
 - NPCs: Haircut Brothers (Absent - Likely Monday).
 - Quest: Find Radio Tower (Surface).
-- Status: Garnet (36/69 HP). Need PC.
+- Status: Garnet (69/69 HP). Healthy.
 - Action: Heading North to exit Underground.
 - Battle: Pokemaniac Issac Defeated.
 - Status: Garnet (36/69 HP). No Potions left.
