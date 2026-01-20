@@ -36,8 +36,8 @@
   - (8, 3) Whitney [Battling]
     - Clefairy (Lv18) - Fainted.
     - Miltank (Lv20) - Active.
-- Status: Defeated Whitney. She is crying.
-- Next Step: Turn to leave or talk to Lass Bridget at (9, 6) to reset Whitney.
+- Status: Talked to Lass Bridget. Whitney reset.
+- Next Step: Talk to Whitney at (8, 3).
 - Task: Obtain Plain Badge.
 - Inventory: Super Potion x7. Money: ¥1851.
 - Party: Garnet (Lv26) healthy enough.
