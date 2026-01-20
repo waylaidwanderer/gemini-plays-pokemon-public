@@ -41,5 +41,6 @@
     - Miltank (Lv20) - Active. Full HP. Def Down. Rollout Active (1 hit).
   - (9, 6) Lass Bridget [Defeated]
 - Status: Garnet (Lv26) Poisoned. HP 28/74 (Visual).
-- Strategy: CRITICAL. Rollout power doubling. Must Heal next turn, then Smokescreen.
+- Strategy: HEAL IMMEDIATELY. Rollout #2 (Base 60) incoming. Survival of #3 (Base 120) unlikely without Acc drop.
+- Plan: Heal -> Smokescreen next turn.
 - Inventory: Super Potion x3.
