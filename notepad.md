@@ -38,8 +38,8 @@
 - Trainers:
   - (8, 3) Whitney [Battling]
     - Clefairy (Lv18) - Fainted.
-    - Miltank (Lv20) - Active. Def Down. Used Stomp (High Dmg).
+    - Miltank (Lv20) - Active. Def Down. Spams Stomp.
   - (9, 6) Lass Bridget [Defeated]
-- Status: Garnet Lv26 (Badly Poisoned). HP 15/74 (CRITICAL).
-- Note: Must heal immediately.
-- Inventory: Super Potion x4 (Used one).
+- Status: Garnet Lv26 (Badly Poisoned - CRITICAL TICK DAMAGE). HP 31/74.
+- Strategy: Tactical Sacrifice. Switching to T to reset Toxic counter on Garnet.
+- Inventory: Super Potion x4.
