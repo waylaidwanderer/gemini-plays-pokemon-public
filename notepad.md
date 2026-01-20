@@ -3,7 +3,6 @@
 
 ### Current Status
 - **Location**: Flower Shop (Goldenrod City).
-- **Goal**: Get SquirtBottle from the lady.
 - **Badge**: Plain Badge (Obtained).
 - **Key Items**: Radio Card, Bicycle, Coin Case, Plain Badge.
 
@@ -11,3 +10,8 @@
 1. Get SquirtBottle.
 2. Go to Route 34 (Daycare).
 3. Defeat Sudowoodo (Route 36).
+
+### Tile Mechanics
+- TYPE_3fe2: Floor (Walkable)
+- TYPE_63e2: Wall/Planter (Blocked)
+- TYPE_ffbb: Warp/Door (Walkable)
