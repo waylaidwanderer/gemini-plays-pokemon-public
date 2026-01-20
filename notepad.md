@@ -38,10 +38,11 @@
 - Trainers:
   - (8, 3) Whitney [Battling]
     - Miltank (Lv20) - Active. Def Down. Rollout #2 Incoming.
-- Status: Pearl (FNT). Sending Amethyst (Lv8). Last stand.
-- Outcome: Wipe Imminent.
-- Strategy Update: REALIZED I HAVE TM31 MUD-SLAP.
-- Post-Wipe Plan:
-  1. Heal at Center.
-  2. Teach TM31 Mud-Slap to Garnet (replaces Leer or Quick Attack).
-  3. Return to Gym and crush Miltank with Accuracy drops.
+- Status: Party Wiped. Respawning at Pokemon Center.
+- Lesson Learned: Do not mash buttons. Use precise inputs.
+- Action Plan:
+  1. Teach TM31 Mud-Slap to Garnet.
+  2. Buy more Super Potions (if money allows/needed).
+  3. Return to Gym and challenge Whitney again.
+- Strategy for Rematch: Lead with Mud-Slap to lower Miltank's accuracy immediately while dealing chip damage.
+- Inventory: Super Potion x2. TM31 available.
