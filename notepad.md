@@ -31,9 +31,12 @@
   - (19, 7) Samantha [Defeated]
   - (9, 13) Carrie [Defeated]
 - Path: Calculating route... East side blocked. Moving to West Side (Col 2).
-- Route: East Approach (Confirmed).
-- Logic: West/North access blocked by walls. Entry is via gap in East wall at Row 12/13.
-- Path: Return to East Side -> Up to Row 13 -> West across Row 13 to Center.
+- Route: East Weave (Confirmed).
+- Steps:
+  1. Go North up Col 19 to Row 6.
+  2. Go West to (15, 6).
+  3. Go Down to (15, 8) -> East to (16, 8) -> South to (16, 9) -> East to (17, 9).
+  4. South to (17, 12) -> West to (15, 12) -> South to (15, 13) -> West to Center.
 - Prep: Bought 5 Super Potions. Ready for Whitney.
 - Health: Full. Heading South down West corridor (Col 0).
 - Location: Center of Gym (8, 4). Facing Whitney.
