@@ -28,6 +28,7 @@
 - Navigation: Flower Shop confirmed at (19, 1). Talk to the girl, then exit and search West of the Flower Shop for the Route 35 Gatehouse.
 - Navigation: East side (X>30) appears to be a dead end. Returning to center.
 - Navigation: Confirmed (9, 5) on Map 11_2 is the Game Corner, NOT the Gatehouse.
-- Navigation: East side (X>30) confirmed dead end. Returned to Main Road (X=15).
-- Plan: Go North via East alley (X=18) to find Gatehouse.
+- Navigation: West side and Center alleys confirmed dead ends/blocked.
+- Navigation: Identified potential winding path on East side.
+- Plan: Go East to X=36 (Row 7), then North to Row 5, then West to X=32, then North.
 - System: Python sandbox tools are down. Using manual navigation.
