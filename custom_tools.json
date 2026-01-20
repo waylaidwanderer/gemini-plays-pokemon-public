@@ -193,5 +193,41 @@
         "action_counter": 5911
       }
     ]
+  },
+  "find_map_edge": {
+    "description": "Finds a path from the current position to a specified map edge (North, South, East, West) and returns the button sequence.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "start_x": {
+          "type": "integer"
+        },
+        "start_y": {
+          "type": "integer"
+        },
+        "edge": {
+          "type": "string",
+          "enum": [
+            "North",
+            "South",
+            "East",
+            "West"
+          ]
+        }
+      },
+      "required": [
+        "start_x",
+        "start_y",
+        "edge"
+      ]
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\n\ndef find_edge_path(xml_string, sx, sy, edge):\n    try:\n        root = ET.fromstring(xml_string)\n    except:\n        print(\"[]\")\n        return\n\n    width = int(root.get('width'))\n    height = int(root.get('height'))\n    \n    # Parse grid\n    grid = set()\n    rows = root.findall('Row')\n    for row in rows:\n        y = int(row.get('id'))\n        tiles = row.findall('Tile')\n        for tile in tiles:\n            x = int(tile.get('id'))\n            t_type = tile.get('type')\n            # Common walkable types + doors + unseen\n            # Adjust this list as we discover more types\n            if t_type in ['TYPE_3fe2', 'TYPE_ffbb', 'TYPE_201b', 'TYPE_unseen', 'TYPE_989e', 'TYPE_1dc2', 'TYPE_2889', 'TYPE_4e8c']:\n                grid.add((x,y))\n\n    queue = deque([(sx, sy, [])])\n    visited = set([(sx, sy)])\n    \n    while queue:\n        x, y, path = queue.popleft()\n        \n        # Check condition\n        at_edge = False\n        if edge == \"North\" and y == 0: at_edge = True\n        elif edge == \"South\" and y == height - 1: at_edge = True\n        elif edge == \"West\" and x == 0: at_edge = True\n        elif edge == \"East\" and x == width - 1: at_edge = True\n        \n        if at_edge:\n            # Convert to buttons\n            buttons = []\n            curr_x, curr_y = sx, sy\n            full_path = path + [(x, y)]\n            for px, py in full_path[1:]:\n                if px > curr_x: buttons.append(\"Right\")\n                elif px < curr_x: buttons.append(\"Left\")\n                elif py > curr_y: buttons.append(\"Down\")\n                elif py < curr_y: buttons.append(\"Up\")\n                curr_x, curr_y = px, py\n            print(str(buttons).replace(\"'\", '\"'))\n            return\n\n        for dx, dy in [(0, -1), (0, 1), (-1, 0), (1, 0)]:\n            nx, ny = x + dx, y + dy\n            if (nx, ny) in grid and (nx, ny) not in visited:\n                visited.add((nx, ny))\n                queue.append((nx, ny, path + [(x, y)]))\n    \n    print(\"[]\")\n\nfind_edge_path(map_xml_string, start_x, start_y, edge)",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-20T18:27:53.838Z",
+        "action_counter": 6331
+      }
+    ]
   }
 }
