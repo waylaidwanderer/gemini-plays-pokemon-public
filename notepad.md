@@ -34,5 +34,5 @@
 - Progress: Bypassing Lass at (0, 2) and Victoria at (0, 4).
 - Prep: Bought 5 Super Potions. Ready for Whitney.
 - Health: Full. Heading South down West corridor (Col 0).
-- Route: Crossing to East Side via Row 16 corridor.
-- Goal: Reach (12, 16) and explore North-East quadrant.
+- Route: Retrying East Side. Heading to (17, 17) then North.
+- Hypothesis: Path is Spiral (East -> North -> West -> Center). I missed a turn on the East side previously.
