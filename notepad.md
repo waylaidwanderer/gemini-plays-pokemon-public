@@ -38,8 +38,8 @@
 - Trainers:
   - (8, 3) Whitney [Battling]
     - Clefairy (Lv18) - Fainted.
-    - Miltank (Lv20) - Active. Full HP. Def Down. Spams Stomp (~25 dmg).
+    - Miltank (Lv20) - Active. Full HP. Def Down. Rollout Active (1 hit).
   - (9, 6) Lass Bridget [Defeated]
-- Status: Garnet (Lv26) Poisoned (Converted to Normal Poison via switch). Taking ~9 dmg/turn.
-- Strategy: Smokescreen Miltank, maintain HP > 35. Stomp does ~16-29 dmg.
+- Status: Garnet (Lv26) Poisoned. HP 28/74 (Visual).
+- Strategy: CRITICAL. Rollout power doubling. Must Heal next turn, then Smokescreen.
 - Inventory: Super Potion x3.
