@@ -27,7 +27,8 @@
 - **Navigation**: West side of Goldenrod is accessed via the South path near Radio Tower. Alley west of Game Corner is a dead end.
 - Navigation: West Edge (X=5) confirmed blocked/wall.
 - Navigation: Building at (15, 7) confirmed as Name Rater (Dead End).
-- Navigation: Building at (33, 9) is a residential house (Dead End).
-- Navigation: East path blocked. Need to re-examine the area North of the Gym.
-- Plan: Exit house. Go West to X=28 (Gym area). Search for a path North *immediately* next to the Gym.
+- Navigation: Path North at X=13 appears to be an alley or entrance.
+- Navigation: Previously identified Name Rater at (15, 7).
+- Plan: Go West to X=13. Walk North to the wall at Row 5. Check if it's a Gatehouse.
+- Backup: Re-check House at (29, 5).
 - System: Python sandbox tools are down. Using manual navigation.
