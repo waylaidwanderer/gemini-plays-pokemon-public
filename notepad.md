@@ -38,6 +38,10 @@
 - Trainers:
   - (8, 3) Whitney [Battling]
     - Miltank (Lv20) - Active. Def Down. Rollout #2 Incoming.
-- Status: Basil (FNT). Sending Pearl (Lv5). Miltank HP Full.
+- Status: Pearl (FNT). Sending Amethyst (Lv8). Last stand.
 - Outcome: Wipe Imminent.
-- Plan: Finish battle, heal, teach TM31 Mud-Slap to Garnet. Rematch.
+- Strategy Update: REALIZED I HAVE TM31 MUD-SLAP.
+- Post-Wipe Plan:
+  1. Heal at Center.
+  2. Teach TM31 Mud-Slap to Garnet (replaces Leer or Quick Attack).
+  3. Return to Gym and crush Miltank with Accuracy drops.
