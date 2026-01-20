@@ -15,6 +15,4 @@
 - TYPE_3fe2: Floor (Walkable)
 - TYPE_63e2: Wall/Planter (Blocked)
 - TYPE_ffbb: Warp/Door (Walkable)
-- Issue: Resolved. Inside Flower Shop.
-- Action: Talked to sister. She mentioned the tree. Older sister still giving generic text.
-- Plan: Must visit Sudowoodo on Route 36 to trigger the event, then return to Flower Shop for SquirtBottle.
+- Plan: Visit Sudowoodo on Route 36 to trigger the event, then return to Flower Shop for SquirtBottle.
