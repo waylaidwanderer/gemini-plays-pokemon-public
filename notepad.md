@@ -15,5 +15,5 @@
 - TYPE_3fe2: Floor (Walkable)
 - TYPE_63e2: Wall/Planter (Blocked)
 - TYPE_ffbb: Warp/Door (Walkable)
-- Issue: Flower Shop dialogue loop. Lady talks about Oak. Girl talks about Tree.
-- Plan: Retrying Girl dialogue. If failed, will exit/re-enter map. If that fails, will visit Tree.
+- Issue: Flower Shop dialogue loop.
+- Plan: Exiting/Re-entering map to reset. If that fails, will visit Sudowoodo to trigger "seen tree" flag.
