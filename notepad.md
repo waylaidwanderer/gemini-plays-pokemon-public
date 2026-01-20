@@ -1,25 +1,13 @@
 # Pokémon Crystal Playthrough
 - Started: Friday, January 16, 2026 at 5:08 PM PST
 
-### Current Objectives
-- **Main Goal**: Win Plain Badge (Whitney).
-- **Sub-Goals**: Visit Daycare (Route 34), Get SquirtBottle (Need Badge).
+### Current Status
+- **Location**: Flower Shop (Goldenrod City).
+- **Goal**: Get SquirtBottle from the lady.
+- **Badge**: Plain Badge (Obtained).
+- **Key Items**: Radio Card, Bicycle, Coin Case, Plain Badge.
 
-### Status
-- **Location**: Goldenrod City (11_2).
-- **Task**: Return to Gym & Defeat Whitney.
-- **Party**: Garnet (Lv26), Amethyst (Lv8), T (Lv3), Jasper (Lv2), Basil (Lv6), Pearl (Lv5).
-- **Health**: Good.
-- **Key Items**: Radio Card, Bicycle, Coin Case.
-
-### Notes
-- **Correction**: Map 11_14 is Dept Store 2F. Map 11_11 is Dept Store 1F.
-- **Radio Tower**: 3F blocked by guard ("Personnel only").
-- **Flower Shop**: Needs Badge for SquirtBottle.
-- **Blockages**:
-  - NW Path blocked (Game Corner/Tracks).
-  - Underground: Haircut Brothers absent.
-### Gym Notes
-- Status: In Goldenrod City.
-- Task: Enter Flower Shop (North of Gym).
-- Next: Route 34 (Daycare).
+### Objectives
+1. Get SquirtBottle.
+2. Go to Route 34 (Daycare).
+3. Defeat Sudowoodo (Route 36).
