@@ -15,4 +15,4 @@
 - TYPE_3fe2: Floor (Walkable)
 - TYPE_63e2: Wall/Planter (Blocked)
 - TYPE_ffbb: Warp/Door (Walkable)
-- Plan: Navigate East to x=29+, then head North to find the Route 35 Gatehouse.
+- Plan: Backtrack South to Row 15. Cross tracks at x=18. Go West to Radio Tower. Explore the Northwest Unseen area (x<5, y<15) for the path to Route 35.
