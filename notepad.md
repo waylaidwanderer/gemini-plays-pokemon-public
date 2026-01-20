@@ -37,7 +37,7 @@
 - Location: Center of Gym (8, 4). Facing Whitney.
 - Trainers:
   - (8, 3) Whitney [Battling]
-    - Clefairy (Lv18) - Used Toxic, Mimic(Leer). Acc Down, Def Down.
+    - Clefairy (Lv18) - Used Toxic, Mimic(Leer), Doubleslap. Acc Down, Def Down. Low HP.
     - Miltank (Lv20) - Unfought.
   - (9, 6) Lass Bridget [Defeated]
-- Status: Garnet (Badly Poisoned).
+- Status: Garnet (Badly Poisoned). HP 41/71 (Screen) vs 58/71 (RAM lag).
