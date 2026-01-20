@@ -38,6 +38,7 @@
 - Trainers:
   - (8, 3) Whitney [Battling]
     - Miltank (Lv20) - Active. Def Down. Rollout #2 Incoming.
-- Status: Garnet (FNT). Sending Jasper (Lv2). Miltank HP Full.
+- Status: Jasper (FNT). Sending Basil (Lv6). Miltank HP Full.
 - Outcome: Wipe Imminent.
-- Plan: Sacrifice remaining party members to finish the battle.
+- Mistake Realization: I have TM31 Mud-Slap in inventory! Should have taught it to Garnet for accuracy drops.
+- Plan: Finish wipe, heal, teach Mud-Slap, retry.
