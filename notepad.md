@@ -2,7 +2,7 @@
 - Started: Friday, January 16, 2026 at 5:08 PM PST
 
 ### Current Status
-- **Location**: Flower Shop (Goldenrod City).
+- **Location**: Goldenrod City.
 - **Badge**: Plain Badge (Obtained).
 - **Key Items**: Radio Card, Bicycle, Coin Case, Plain Badge.
 
@@ -11,14 +11,17 @@
 2. Go to Route 34 (Daycare).
 3. Defeat Sudowoodo (Route 36).
 
+### Quests
+- **Route 35 Gatehouse**: Guard Randy wants to give me a Spearow with Mail to deliver to Route 31.
+  - **Status**: Blocked. Need a free party slot.
+  - **Plan**: Deposit Pokemon at PC -> Return to Gatehouse -> Accept Spearow -> Proceed to Route 36.
+
 ### Tile Mechanics
 - TYPE_3fe2: Floor (Walkable)
 - TYPE_63e2: Wall/Planter (Blocked)
 - TYPE_ffbb: Warp/Door (Walkable)
 - TYPE_989e: Door Mat (Likely Blocked/Collision)
-- Strategy: Interact with Sudowoodo on Route 36 to 'activate' the need for the SquirtBottle, then return to Goldenrod Flower Shop.
-- Quest: Guard at Route 35 Gatehouse (11_8) is worried about his sister visiting the wiggly tree on Route 36.
-- Plan: Finish dialogue. He will likely ask for a favor (delivery) to let me pass.
-- Dead End: The alley west of the Game Corner (around 6,6) is blocked by walls. Must go south to Radio Tower to access the west side.
-- Obstacle: NPC blocking (2, 4) in Gatehouse.
-- Requirement: Need free party slot to accept Guard's quest (Spearow with Mail). Heading to PC.
+
+### Notes
+- **Sudowoodo Strategy**: Interact with the tree on Route 36 to 'activate' the need for the SquirtBottle, then return to Goldenrod Flower Shop.
+- **Navigation**: West side of Goldenrod is accessed via the South path near Radio Tower. Alley west of Game Corner is a dead end.
