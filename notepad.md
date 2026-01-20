@@ -42,10 +42,12 @@
 - Location: Center of Gym (8, 4). Facing Whitney.
 - Trainers:
   - (8, 3) Whitney [Battling]
-    - Miltank (Lv20) - Active. Def Down. Rollout #2 Incoming.
-- Status: Party Healed. Garnet learned Mud-Slap (TM31).
-- Plan: Return to Gym and defeat Whitney.
-- Strategy: Lead Garnet. Mud-Slap Miltank immediately.
+    - Clefairy (Lv18) - Pending.
+    - Miltank (Lv20) - Pending.
+- Status: In Battle vs Whitney.
+- Strategy:
+  1. Clefairy: Burn with Ember.
+  2. Miltank: Spam Mud-Slap to break Rollout accuracy. Heal with Super Potions if < 40 HP.
 - Inventory: Super Potion x8. Mud-Slap (Learned). Money: ¥351.
 - Route Update: Entry to center is via East Side Maze.
 - Path: Top Row (1,1 -> 17,1) -> Down East Side -> Weave through (16,8)/(17,9) area -> Bottom Connectors (Row 13) -> Center.
