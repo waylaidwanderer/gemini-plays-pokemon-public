@@ -40,5 +40,5 @@
     - Clefairy (Lv18) - Fainted.
     - Miltank (Lv20) - Active. Def Down. Spams Stomp.
   - (9, 6) Lass Bridget [Defeated]
-- Status: T (Lv3) active (Sacrifice). Garnet (Lv26) withdrawn to reset Toxic.
+- Status: T (Lv3) fainted (Sacrifice successful). Garnet (Lv26) sent back in. Toxic counter reset.
 - Inventory: Super Potion x4.
