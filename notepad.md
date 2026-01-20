@@ -15,4 +15,4 @@
 - TYPE_3fe2: Floor (Walkable)
 - TYPE_63e2: Wall/Planter (Blocked)
 - TYPE_ffbb: Warp/Door (Walkable)
-- Plan: Head North along the West road (x=6) to find the Route 35 Gatehouse. Then Sudowoodo.
+- Plan: Explore the Unseen area West of the Radio Tower (x < 5) to find the path North.
