@@ -15,4 +15,4 @@
 - TYPE_3fe2: Floor (Walkable)
 - TYPE_63e2: Wall/Planter (Blocked)
 - TYPE_ffbb: Warp/Door (Walkable)
-- Plan: Navigate North. Check (13, 5) and (16, 7) for gaps. Then Sudowoodo.
+- Plan: Head North along the West road (x=6) to find the Route 35 Gatehouse. Then Sudowoodo.
