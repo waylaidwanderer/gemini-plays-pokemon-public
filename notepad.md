@@ -28,8 +28,8 @@
 - Trainers:
   - (0, 4) Victoria [Defeated]
   - (19, 7) Samantha [Defeated]
-  - (12, 13) Carrie [Defeated]
-- Path: Spiral Path: (16,9) -> (12,13) -> Center?
+  - (9, 13) Carrie [Defeated]
+- Path: Spiral Path: East Side (Row 17) -> North
 - Discovery: Some "Green Planter" tiles in the gym are walkable (e.g., 12,12 and 13,12). The maze path is not strictly defined by the floor color.
 - Prep: Bought 5 Super Potions. Ready for Whitney.
 - Health: Full. In Gym (2,11). Exploring East side next.
