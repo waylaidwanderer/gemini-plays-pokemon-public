@@ -6,7 +6,7 @@
 - **Sub-Goals**: Visit Daycare (Route 34), Get SquirtBottle (Need Badge).
 
 ### Status
-- **Location**: Goldenrod Gym (Map 11_3).
+- **Location**: Dept Store 1F (11_14).
 - **Task**: Challenge Gym Trainers & Whitney.
 - **Party**: Garnet (Lv24), Amethyst (Lv8), T (Lv3), Jasper (Lv2), Basil (Lv6), Pearl (Lv5).
 - **Health**: Good.
