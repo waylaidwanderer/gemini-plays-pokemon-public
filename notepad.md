@@ -25,21 +25,13 @@
 - Exploration: Column 0 blocked by Victoria (0, 4). Detouring via Row 7 to Column 2.
 - Goal: Reach North end of Maze to find Whitney.
 ### Gym Notes
-- Structure: Clefairy Shape. Winding path.
-- Trainers:
-  - (0, 4) Victoria [Defeated]
-  - (19, 7) Samantha [Defeated]
-  - (9, 13) Carrie [Defeated]
-- Path: Calculating route... East side blocked. Moving to West Side (Col 2).
-- Route: East Weave (Confirmed).
-- Steps:
-  1. Go North up Col 19 to Row 6.
-  2. Go West to (15, 6).
-  3. Go Down to (15, 8) -> East to (16, 8) -> South to (16, 9) -> East to (17, 9).
-  4. South to (17, 12) -> West to (15, 12) -> South to (15, 13) -> West to Center.
-- Prep: Bought 5 Super Potions. Ready for Whitney.
-- Health: Full. Heading South down West corridor (Col 0).
-- Location: Center of Gym (8, 4). Facing Whitney.
+- Structure: Clefairy Shape.
+- Trainers: All defeated.
+- Strategy vs Whitney:
+  - Clefairy: Defeated.
+  - Miltank: Spam Mud-Slap (Slot 2).
+  - Insight: Miltank's Attract FAILS because Garnet is Female.
+  - Healing: Super Potion if HP < 40.
 - Trainers:
   - (8, 3) Whitney [Battling]
     - Clefairy (Lv18) - Fainted.
