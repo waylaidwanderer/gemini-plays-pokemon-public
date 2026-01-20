@@ -18,4 +18,5 @@
 - **Blockages**:
   - NW Path blocked (Game Corner/Tracks).
   - Underground: Haircut Brothers absent.
-- Exploration: Clefairy Maze. East side seemed blocked. Trying West side (Column 5).
+- Exploration: Navigating Clefairy Maze. Heading to East edge (Column 14/15) to find a path North.
+- Observed: Planters block direct access to Lass at (9, 13).
