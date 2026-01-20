@@ -32,4 +32,4 @@
 - Path: Spiral Path: (16,9) -> (12,13) -> Center?
 - Discovery: Some "Green Planter" tiles in the gym are walkable (e.g., 12,12 and 13,12). The maze path is not strictly defined by the floor color.
 - Prep: Bought 5 Super Potions. Ready for Whitney.
-- Health: Full. Heading back to Gym.
+- Health: Full. In Gym (2,11). Exploring East side next.
