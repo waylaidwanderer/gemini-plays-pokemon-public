@@ -202,5 +202,41 @@
         "action_counter": 213
       }
     ]
+  },
+  "scan_map_tiles": {
+    "description": "Scans the Mental Map for specific rows, columns, or rectangular regions and returns tile types. Modes: 'row' (scans full rows), 'col' (scans full columns), 'rect' (scans a region defined by [x_min, x_max, y_min, y_max]).",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "mode": {
+          "type": "string",
+          "enum": [
+            "row",
+            "col",
+            "rect"
+          ],
+          "description": "The scanning mode."
+        },
+        "values": {
+          "type": "array",
+          "items": {
+            "type": "integer"
+          },
+          "description": "For 'row'/'col', a list of indices. For 'rect', a list of 4 integers: [x_min, x_max, y_min, y_max]."
+        }
+      },
+      "required": [
+        "mode",
+        "values"
+      ]
+    },
+    "python_script": "import xml.etree.ElementTree as ET\n\ndef scan_map_tiles(mode, values, map_xml):\n    try:\n        root = ET.fromstring(map_xml)\n        results = []\n        \n        if mode == \"row\":\n            target_rows = [str(v) for v in values]\n            for row in root.findall('Row'):\n                if row.get('id') in target_rows:\n                    row_data = []\n                    for tile in row.findall('Tile'):\n                        row_data.append(f\"({tile.get('id')}, {row.get('id')}): {tile.get('type')}\")\n                    results.append(f\"Row {row.get('id')}: \" + \", \".join(row_data))\n                    \n        elif mode == \"col\":\n             target_cols = set(values)\n             cols_data = {c: [] for c in target_cols}\n             for row in root.findall('Row'):\n                 rid = row.get('id')\n                 for tile in row.findall('Tile'):\n                     tid = int(tile.get('id'))\n                     if tid in target_cols:\n                         cols_data[tid].append(f\"({tid}, {rid}): {tile.get('type')}\")\n             for c in sorted(list(target_cols)):\n                 results.append(f\"Col {c}: \" + \", \".join(cols_data[c]))\n                 \n        elif mode == \"rect\":\n            # Expecting [x_min, x_max, y_min, y_max]\n            if len(values) != 4:\n                return \"Error: 'rect' mode requires exactly 4 values: [x_min, x_max, y_min, y_max]\"\n            x_min, x_max, y_min, y_max = values\n            for row in root.findall('Row'):\n                rid = int(row.get('id'))\n                if y_min <= rid <= y_max:\n                    for tile in row.findall('Tile'):\n                        tid = int(tile.get('id'))\n                        if x_min <= tid <= x_max:\n                            results.append(f\"({tid}, {rid}): {tile.get('type')}\")\n                            \n        return \"\\n\".join(results)\n    except Exception as e:\n        return f\"Error: {e}\"\n\nprint(scan_map_tiles(mode, values, map_xml_string))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-20T06:28:37.825Z",
+        "action_counter": 5911
+      }
+    ]
   }
 }
