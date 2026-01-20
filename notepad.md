@@ -20,6 +20,6 @@
   - NW Path blocked (Game Corner/Tracks).
   - Underground: Haircut Brothers absent.
 ### Gym Notes
-- Status: Leaving Gym.
-- Route: Retracing steps. South from Whitney -> East to wall -> North to Exit.
-- Task: Get SquirtBottle.
+- Status: In Goldenrod City.
+- Task: Get SquirtBottle from Flower Shop (North of Gym).
+- Next: Route 34 (Daycare).
