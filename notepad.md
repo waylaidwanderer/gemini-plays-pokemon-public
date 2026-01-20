@@ -15,4 +15,4 @@
 - TYPE_3fe2: Floor (Walkable)
 - TYPE_63e2: Wall/Planter (Blocked)
 - TYPE_ffbb: Warp/Door (Walkable)
-- Plan: Bypass the wall at (4, 17) by going South to (4, 18), then West to x=3. Proceed North past the Rocket.
+- Plan: Continue North along the West side (x=3) to reach the Route 35 Gatehouse.
