@@ -15,5 +15,5 @@
 - TYPE_3fe2: Floor (Walkable)
 - TYPE_63e2: Wall/Planter (Blocked)
 - TYPE_ffbb: Warp/Door (Walkable)
-- Issue: Flower Shop dialogue loop.
-- Plan: Exiting/Re-entering map to reset. If that fails, will visit Sudowoodo to trigger "seen tree" flag.
+- Issue: Flower Shop dialogue loop. Re-entry failed.
+- Plan: Go to Route 36 via Route 35 (North of Goldenrod) to interact with Sudowoodo, then return.
