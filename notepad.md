@@ -42,4 +42,4 @@
   - (9, 6) Lass Bridget [Defeated]
 - Status: Garnet Lv26 (Badly Poisoned). HP 15/74 (CRITICAL).
 - Note: Must heal immediately.
-- Inventory: Super Potion x5 (Slot 4?).
+- Inventory: Super Potion x5 (Below X Defend). Search in progress.
