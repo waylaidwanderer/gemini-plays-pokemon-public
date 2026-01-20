@@ -37,10 +37,7 @@
 - Location: Center of Gym (8, 4). Facing Whitney.
 - Trainers:
   - (8, 3) Whitney [Battling]
-    - Clefairy (Lv18) - Fainted.
-    - Miltank (Lv20) - Active. Full HP. Def Down. Rollout Active (1 hit).
-  - (9, 6) Lass Bridget [Defeated]
-- Status: Garnet (Lv26) Poisoned. HP 28/74 (Visual).
-- Strategy: HEAL IMMEDIATELY. Rollout #2 (Base 60) incoming. Survival of #3 (Base 120) unlikely without Acc drop.
-- Plan: Heal -> Smokescreen next turn.
-- Inventory: Super Potion x3.
+    - Miltank (Lv20) - Active. Def Down. Rollout #2 Incoming.
+- Status: Garnet (Lv26) Poisoned. HP 74/74.
+- Strategy: Survive Rollout #2, then Smokescreen.
+- Inventory: Super Potion x2 (approx).
