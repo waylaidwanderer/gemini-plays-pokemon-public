@@ -87,4 +87,4 @@
   3. HM01 Flash? -> NO (B).
   4. Falkner Violet? -> YES (A).
   5. Charmander Slots? -> NO (B).
-- Goal: Get Radio Card.
+- Goal: Explore upper floors of Radio Tower.
