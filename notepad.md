@@ -31,4 +31,4 @@
   - (12, 13) Carrie [Defeated]
 - Path: Spiral Path: (16,9) -> (12,13) -> Center?
 - Discovery: Some "Green Planter" tiles in the gym are walkable (e.g., 12,12 and 13,12). The maze path is not strictly defined by the floor color.
-- Health: Low (28/71). Attempting to talk to Nurse Joy.
+- Health: Low (28/71). Retreating from Gym to Pokemon Center (Real one). Mistook Gym Trainer for Nurse Joy.
