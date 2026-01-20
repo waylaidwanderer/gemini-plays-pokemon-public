@@ -37,9 +37,9 @@
     - Clefairy (Lv18) - Fainted.
     - Miltank (Lv20) - Active.
 - Status: In Battle vs Whitney.
-- Miltank Status: -3 Accuracy. HP ~60%. Used Stomp (Hit).
-- Garnet Status: 40/74 HP (Took 17 dmg).
-- Turn Strategy: Check Move Cursor, then Mud-Slap (Slot 2).
+- Miltank Status: -4 Accuracy (Estimate). HP ~60%. Used Stomp (Hit).
+- Garnet Status: 40/74 HP.
+- Turn Strategy: Clear text, then Spam Mud-Slap.
 - Risk: Stomp Crit (~34 dmg). Safe at 40 HP.
 - Cursor: Likely on Mud-Slap (Slot 2) due to memory.
 - Advantage: Garnet is Female, immune to Attract.
