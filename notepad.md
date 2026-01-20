@@ -34,5 +34,7 @@
 - Progress: Bypassing Lass at (0, 2) and Victoria at (0, 4).
 - Prep: Bought 5 Super Potions. Ready for Whitney.
 - Health: Full. Heading South down West corridor (Col 0).
-- Route: Retrying East Side. Heading to (17, 17) then North.
-- Hypothesis: Path is Spiral (East -> North -> West -> Center). I missed a turn on the East side previously.
+- Route: Bypassing passive trainer at (19, 5) via Col 18.
+- Goal: Reach North end (Row 2-3) and look for path to Center.
+- Trainers:
+  - (19, 5) Bridget? [Defeated/Passive]
