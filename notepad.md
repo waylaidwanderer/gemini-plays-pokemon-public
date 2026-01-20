@@ -15,4 +15,4 @@
 - TYPE_3fe2: Floor (Walkable)
 - TYPE_63e2: Wall/Planter (Blocked)
 - TYPE_ffbb: Warp/Door (Walkable)
-- Plan: Explore the Unseen area West of the Radio Tower (x < 5) to find the path North.
+- Plan: Finish call. Move North to Row 15, then East to x=18. Go North through the gap at (18, 5) to reach Route 35.
