@@ -18,5 +18,6 @@
 - **Blockages**:
   - NW Path blocked (Game Corner/Tracks).
   - Underground: Haircut Brothers absent.
-- Exploration: Right side (Col 19) and Center (Col 12/15) seem blocked.
-- Plan: Backtrack to Entrance (2, 17) and explore the West perimeter (Column 2) Northwards.
+- Exploration: Moving up the West wall (Column 0).
+- Observation: Passed Lass at (3, 12) without battling? She didn't react.
+- Goal: Reach North end of Maze to find Whitney.
