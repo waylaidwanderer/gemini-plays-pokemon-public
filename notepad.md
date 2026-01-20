@@ -48,7 +48,9 @@
 - Miltank Status: -2 Accuracy.
 - Garnet Status: 57/74 HP.
 - Turn Strategy: Use Mud-Slap (Slot 2).
-- Cursor: Should be on Mud-Slap (last used move).
+- Cursor: On PACK (Main Menu).
+- Strategy: Press UP to FIGHT, then Select Mud-Slap (Slot 2).
+- Miltank Status: -2 Accuracy. 2 Mud-Slaps damage.
 - Advantage: Garnet is Female, immune to Attract.
 - Inventory: Super Potion x8. Mud-Slap (Learned). Money: ¥351.
 - Route Update: Entry to center is via East Side Maze.
