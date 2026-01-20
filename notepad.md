@@ -45,11 +45,10 @@
     - Clefairy (Lv18) - Fainted.
     - Miltank (Lv20) - Active.
 - Status: In Battle vs Whitney.
-- Turn Strategy:
-  1. HEAL GARNET! HP is critical (32/74). Miltank next hit could kill.
-  2. Open Pack -> Use Super Potion.
 - Miltank Status: -2 Accuracy.
-- Garnet Status: 32/74 HP. Risk of KO from Rollout #2 or Stomp.
+- Garnet Status: 57/74 HP.
+- Turn Strategy: Use Mud-Slap (Slot 2).
+- Cursor: Should be on Mud-Slap (last used move).
 - Advantage: Garnet is Female, immune to Attract.
 - Inventory: Super Potion x8. Mud-Slap (Learned). Money: ¥351.
 - Route Update: Entry to center is via East Side Maze.
