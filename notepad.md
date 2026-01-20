@@ -16,5 +16,5 @@
 - TYPE_63e2: Wall/Planter (Blocked)
 - TYPE_ffbb: Warp/Door (Walkable)
 - Issue: Resolved. Inside Flower Shop.
-- Action: Talking to Flower Shop Lady (3,2) to get SquirtBottle after getting hint from sister.
-- Plan: Go to Route 36 via Route 35 (North of Goldenrod) to interact with Sudowoodo, then return.
+- Action: Talked to sister. She mentioned the tree. Older sister still giving generic text.
+- Plan: Must visit Sudowoodo on Route 36 to trigger the event, then return to Flower Shop for SquirtBottle.
