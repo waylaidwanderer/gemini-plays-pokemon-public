@@ -28,7 +28,7 @@
 - Navigation: West Edge (X=5) confirmed blocked/wall.
 - Navigation: Building at (15, 7) confirmed as Name Rater (Dead End).
 - Navigation: Building at (29, 5) confirmed as Flower Sister's House (Dead End).
-- Navigation: Gatehouse is likely at the Northern Map Edge (Y=0), not in the middle of the city.
-- Plan: Go West to Main Avenue (X=13/14). Walk North to Y=0 to find the Gatehouse.
-- Correction: Ignore houses at Row 5/8. Focus on Map Edge.
+- Navigation: Main Avenue (X=13-16) is the most likely route. Blockage at Row 5 might be the Gatehouse.
+- Plan: Go South to Row 10, West to X=13. Walk North to Row 6. Inspect tiles (13, 5) to (16, 5) for a door or passage.
+- Context: Name Rater is at (15, 7). Path might be to the left (X=13).
 - System: Python sandbox tools are down. Using manual navigation.
