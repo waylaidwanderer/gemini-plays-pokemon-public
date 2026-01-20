@@ -19,3 +19,4 @@
 - Strategy: Interact with Sudowoodo on Route 36 to 'activate' the need for the SquirtBottle, then return to Goldenrod Flower Shop.
 - Issue: Route 35 Gatehouse (Map 11_8) appears blocked by a guard and a solid door mat.
 - Plan: Check West side of Goldenrod for alternative exits (near Radio Tower). If none, return to Gatehouse and troubleshoot (use tools).
+- Dead End: The alley west of the Game Corner (around 6,6) is blocked by walls. Must go south to Radio Tower to access the west side.
