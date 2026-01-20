@@ -38,8 +38,7 @@
 - Trainers:
   - (8, 3) Whitney [Battling]
     - Miltank (Lv20) - Active. Def Down. Rollout #2 Incoming.
-- Status: Garnet (Lv26) Poisoned. HP 40/74.
-- Mistake: Menu inputs too fast. Used Quick Attack instead of Smokescreen.
-- Danger: Miltank Rollout #3 (Base 120) incoming. Survival unlikely (~50 dmg vs 40 HP).
-- Hope: 10% Miss chance.
+- Status: Garnet Fainted. Wipe Imminent.
+- Mistake: Input buffering failed. Selected Quick Attack. Miltank Rollout confirmed kill.
+- Outcome: Loss inevitable. Miltank Rollout streak is active.
 - Inventory: Super Potion x2.
