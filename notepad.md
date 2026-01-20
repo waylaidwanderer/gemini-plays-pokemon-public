@@ -31,4 +31,4 @@
   - (12, 13) Carrie [Defeated]
 - Path: Spiral Path: (16,9) -> (12,13) -> Center?
 - Discovery: Some "Green Planter" tiles in the gym are walkable (e.g., 12,12 and 13,12). The maze path is not strictly defined by the floor color.
-- Health: Healing at Pokemon Center.
+- Health: Low (28/71). Attempting to talk to Nurse Joy.
