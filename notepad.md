@@ -28,4 +28,5 @@
 - Trainers:
   - (0, 4) Victoria [Defeated]
   - (19, 7) Samantha [Defeated]
-- Path: Backtracking to Top Right to find inner spiral.
+  - (12, 13) Carrie [Defeated]
+- Path: Spiral Path: (16,9) -> (12,13) -> Center?
