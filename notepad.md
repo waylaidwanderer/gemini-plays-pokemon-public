@@ -34,9 +34,9 @@
 - Progress: Bypassing Lass at (0, 2) and Victoria at (0, 4).
 - Prep: Bought 5 Super Potions. Ready for Whitney.
 - Health: Full. Heading South down West corridor (Col 0).
-- Location: Center of Gym (Row 9).
+- Location: Center of Gym (11, 9). Found Whitney at (11, 8).
 - Goal: Defeat Whitney.
-- Strategy: Use Smokescreen/Mud-Slap if available to lower Miltank's accuracy. Burn with Ember.
+- Strategy: Garnet (Lv25). Use Ember/Quick Attack. Watch out for Miltank's Rollout.
 - Trainers:
   - (8, 3) Trainer (Red Hair) - Unfought
   - (9, 6) Lass (Blue Hair) - Unfought
