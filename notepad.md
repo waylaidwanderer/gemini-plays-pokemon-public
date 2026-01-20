@@ -20,3 +20,5 @@
 - Quest: Guard at Route 35 Gatehouse (11_8) is worried about his sister visiting the wiggly tree on Route 36.
 - Plan: Finish dialogue. He will likely ask for a favor (delivery) to let me pass.
 - Dead End: The alley west of the Game Corner (around 6,6) is blocked by walls. Must go south to Radio Tower to access the west side.
+- Obstacle: NPC blocking (2, 4) in Gatehouse.
+- Requirement: Need free party slot to accept Guard's quest (Spearow with Mail). Heading to PC.
