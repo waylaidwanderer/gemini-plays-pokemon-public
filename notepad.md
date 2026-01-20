@@ -17,6 +17,7 @@
 - TYPE_ffbb: Warp/Door (Walkable)
 - TYPE_989e: Door Mat (Likely Blocked/Collision)
 - Strategy: Interact with Sudowoodo on Route 36 to 'activate' the need for the SquirtBottle, then return to Goldenrod Flower Shop.
-- Issue: Route 35 Gatehouse (Map 11_8) appears blocked by a guard and a solid door mat.
-- Plan: Check West side of Goldenrod for alternative exits (near Radio Tower). If none, return to Gatehouse and troubleshoot (use tools).
+- Issue: Route 35 Gatehouse (Map 11_8) was blocked by a guard.
+- Hypothesis: The guard might move now that I have the Plain Badge.
+- Plan: Return to Route 35 Gatehouse (29, 5) and attempt to pass. If still blocked, investigate Radio Tower area exits again.
 - Dead End: The alley west of the Game Corner (around 6,6) is blocked by walls. Must go south to Radio Tower to access the west side.
