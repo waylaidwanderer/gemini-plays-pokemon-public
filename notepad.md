@@ -37,13 +37,13 @@
     - Clefairy (Lv18) - Fainted.
     - Miltank (Lv20) - Active.
 - Status: In Battle vs Whitney.
-- Miltank Status: -6 Accuracy, Burned. HP ~40% (Yellow).
+- Miltank Status: -6 Accuracy, Burned (Atk Halved). HP ~40% (Yellow).
 - Garnet Status: 40/74 HP.
 - Turn Strategy: Spam Ember (Slot 4).
-- Note: Burn helps passive damage & reduces Atk.
+- Safety: Burn halves Miltank's Attack. Stomp damage should be negligible (~10 dmg).
 - Cursor: Should be on Ember (Slot 4).
 - Input: B (Clear Text) -> Fight -> Ember.
-- Advantage: Accuracy debuff + Burn = Winning position.
+- Advantage: Winning position. Keep attacking.
 - Inventory: Super Potion x7. Mud-Slap (Learned). Money: ¥351.
 - Route Update: Entry to center is via East Side Maze.
 - Path: Top Row (1,1 -> 17,1) -> Down East Side -> Weave through (16,8)/(17,9) area -> Bottom Connectors (Row 13) -> Center.
