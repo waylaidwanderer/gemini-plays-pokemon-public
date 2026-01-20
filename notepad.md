@@ -36,14 +36,12 @@
   - (8, 3) Whitney [Battling]
     - Clefairy (Lv18) - Fainted.
     - Miltank (Lv20) - Active.
-- Status: In Battle vs Whitney.
-- Miltank Status: -6 Accuracy, Burned (Atk Halved). HP ~40% (Yellow).
-- Garnet Status: 40/74 HP.
-- Turn Strategy: Spam Ember (Slot 4).
-- Safety: Burn halves Miltank's Attack. Stomp damage should be negligible (~10 dmg).
-- Cursor: Should be on Ember (Slot 4).
-- Input: B (Clear Text) -> Fight -> Ember.
-- Advantage: Winning position. Keep attacking.
+- Status: Defeated Whitney!
+- Next Step: Talk to Whitney. (She might cry).
+- Task: Get Plain Badge.
+- Health: Garnet 31/74 HP.
+- Inventory: Super Potion x7.
+- Strategy: If she cries, try leaving or talking to the other trainer to reset her.
 - Inventory: Super Potion x7. Mud-Slap (Learned). Money: ¥351.
 - Route Update: Entry to center is via East Side Maze.
 - Path: Top Row (1,1 -> 17,1) -> Down East Side -> Weave through (16,8)/(17,9) area -> Bottom Connectors (Row 13) -> Center.
