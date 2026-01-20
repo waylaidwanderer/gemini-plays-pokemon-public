@@ -33,4 +33,5 @@
 - Route: Weaving West Side: Col 1 (Row 2-4) -> Col 2 (Row 4-6) -> Col 0 (Row 7-8).
 - Progress: Bypassing Lass at (0, 2) and Victoria at (0, 4).
 - Prep: Bought 5 Super Potions. Ready for Whitney.
-- Health: Full. In Gym (2,11). Exploring East side next.
+- Health: Full. Heading South down West corridor (Col 0).
+- Route: West Wall (Col 0) -> South to Row 12 -> Inward?
