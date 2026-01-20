@@ -15,4 +15,4 @@
 - TYPE_3fe2: Floor (Walkable)
 - TYPE_63e2: Wall/Planter (Blocked)
 - TYPE_ffbb: Warp/Door (Walkable)
-- Plan: Backtrack South to Row 17. Go West to x=1. Explore Unseen area at (1, 5) for North exit.
+- Plan: Bypass the wall at (4, 17) by going South to (4, 18), then West to x=3. Proceed North past the Rocket.
