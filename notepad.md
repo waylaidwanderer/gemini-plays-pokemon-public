@@ -77,8 +77,8 @@
 - Map 11_2 (Goldenrod City): Pokemon Center at (15, 27), Game Corner at (11, 29).
 - Status: Exiting PC.
 - Next: Challenge Whitney.
-- Location: Radio Tower 1F (Map 3_17).
-- Status: Radio Card Obtained.
+- Location: Goldenrod City (Map 11_2).
+- Status: Finished Radio Tower. Heading to Gym.
 - Cheat Sheet (Permanent):
   1. Morning Pokemon? -> YES (A).
   2. Impossible to buy Berries? -> YES (A).
