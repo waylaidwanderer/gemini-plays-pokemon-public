@@ -15,4 +15,4 @@
 - TYPE_3fe2: Floor (Walkable)
 - TYPE_63e2: Wall/Planter (Blocked)
 - TYPE_ffbb: Warp/Door (Walkable)
-- Plan: Visit Sudowoodo on Route 36 to trigger the event, then return to Flower Shop for SquirtBottle.
+- Plan: Navigate North. Check (13, 5) and (16, 7) for gaps. Then Sudowoodo.
