@@ -20,6 +20,7 @@
   - Underground: Haircut Brothers absent.
 - Exploration: Moving up the West wall (Column 0).
 - Observation: Passed Lass at (3, 12) without battling? She didn't react.
+- Mechanic: Battle Move Menu WRAPS (Bottom -> Top).
 - Current Battle: Beauty Victoria at (0, 4). Sandbox DOWN - Manual Inputs.
-- Action: Enemy missed. Clearing text and selecting Ember (Down from Smokescreen).
+- Action: Cursor on Smokescreen (Slot 3). Pressing Down ONCE to reach Ember (Slot 4).
 - Goal: Reach North end of Maze to find Whitney.
