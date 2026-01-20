@@ -21,6 +21,5 @@
 - Exploration: Moving up the West wall (Column 0).
 - Observation: Passed Lass at (3, 12) without battling? She didn't react.
 - Mechanic: Battle Move Menu WRAPS (Bottom -> Top).
-- Status: Defeated Beauty Victoria at (0, 4).
-- Exploration: Continuing North along West wall (Column 0).
+- Exploration: Column 0 blocked by Victoria (0, 4). Detouring via Row 7 to Column 2.
 - Goal: Reach North end of Maze to find Whitney.
