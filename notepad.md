@@ -38,7 +38,6 @@
 - Trainers:
   - (8, 3) Whitney [Battling]
     - Miltank (Lv20) - Active. Def Down. Rollout #2 Incoming.
-- Status: Garnet Fainted. Wipe Imminent.
-- Mistake: Input buffering failed. Selected Quick Attack. Miltank Rollout confirmed kill.
-- Outcome: Loss inevitable. Miltank Rollout streak is active.
-- Inventory: Super Potion x2.
+- Status: Garnet (FNT). Sending Jasper (Lv2). Miltank HP Full.
+- Outcome: Wipe Imminent.
+- Plan: Sacrifice remaining party members to finish the battle.
