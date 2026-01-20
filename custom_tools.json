@@ -1,49 +1,4 @@
 {
-  "battle_select_move": {
-    "description": "Navigates the battle menu to select a specific move slot (1-4). Assumes the cursor is currently on 'FIGHT'. Resets cursor position to Top (Slot 1) before navigating to ensure accuracy. Menu is a Vertical List.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "move_slot": {
-          "type": "integer",
-          "enum": [
-            1,
-            2,
-            3,
-            4
-          ],
-          "description": "The move slot to select (1=Top, 2=Second, 3=Third, 4=Bottom)"
-        },
-        "autopress_buttons": {
-          "type": "boolean",
-          "description": "If true and the tool returns a list of buttons, they will be pressed automatically.",
-          "default": false
-        }
-      },
-      "required": [
-        "move_slot",
-        "autopress_buttons"
-      ]
-    },
-    "python_script": "def run(input_data):\n    slot = input_data['move_slot']\n    buttons = [\"A\"] # Enter Fight\n    if slot == 2:\n        buttons.append(\"Down\")\n    elif slot == 3:\n        buttons.append(\"Down\")\n        buttons.append(\"Down\")\n    elif slot == 4:\n        buttons.append(\"Down\")\n        buttons.append(\"Down\")\n        buttons.append(\"Down\")\n    buttons.append(\"A\") # Select Move\n    print(f'{{\"buttons\": {buttons}, \"message\": \"Selected Move Slot {slot} (Assuming starting at Top)\"}}')",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-01-19T12:37:54.505Z",
-        "action_counter": 4591
-      },
-      {
-        "commit_message": "Updated logic for vertical list menu layout (1 column, 4 rows).",
-        "timestamp": "2026-01-19T12:41:47.811Z",
-        "action_counter": 4596
-      },
-      {
-        "commit_message": "Fixing previous error: Added commit message. Tool for selecting battle moves reliably.",
-        "timestamp": "2026-01-20T03:11:51.896Z",
-        "action_counter": 5642
-      }
-    ]
-  },
   "bfs_check_path": {
     "description": "Checks if a path exists between two points using BFS on the Mental Map. Returns True/False and the path length.",
     "input_schema": {

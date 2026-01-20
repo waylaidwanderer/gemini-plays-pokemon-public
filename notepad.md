@@ -36,11 +36,9 @@
   - (8, 3) Whitney [Battling]
     - Clefairy (Lv18) - Fainted.
     - Miltank (Lv20) - Active.
-- Status: Talked to Lass Bridget. Whitney reset.
-- Next Step: Talk to Whitney at (8, 3).
-- Task: Obtain Plain Badge.
-- Inventory: Super Potion x7. Money: ¥1851.
-- Party: Garnet (Lv26) healthy enough.
+- Status: Receiving Plain Badge from Whitney.
+- Next Step: Get TM45 (Attract) -> Leave Gym.
+- Task: Get SquirtBottle from Flower Shop.
 - Key Locations:
   - Flower Shop (Need Badge).
   - Dept Store (Restock if needed).
