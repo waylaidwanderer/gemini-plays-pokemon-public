@@ -28,8 +28,8 @@
 - Trainers:
   - (0, 4) Victoria [Defeated]
   - (19, 7) Samantha [Defeated]
-  - (12, 13) Carrie [Defeated]
-- Path: Recovering from dead end at (17, 14). Returning to Row 17 to find opening in Columns 9-12.
-- Note: Relying on XML Map types (TYPE_2889=Wall, TYPE_3fe2=Floor) over visuals.
+  - (9, 13) Carrie [Defeated]
+- Path: Calculating route... East side blocked. Moving to West Side (Col 2).
+- Route: (12, 17) -> Up -> Left (Row 16) -> Down -> Left (Row 17) -> Up (Col 2).
 - Prep: Bought 5 Super Potions. Ready for Whitney.
 - Health: Full. In Gym (2,11). Exploring East side next.
