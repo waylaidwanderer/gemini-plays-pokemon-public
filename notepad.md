@@ -40,5 +40,6 @@
     - Clefairy (Lv18) - Fainted.
     - Miltank (Lv20) - Active. Full HP. Def Down. Spams Stomp (~25 dmg).
   - (9, 6) Lass Bridget [Defeated]
-- Status: Garnet (Lv26) Poisoned. HP 49/74.
+- Status: Garnet (Lv26) Poisoned (Converted to Normal Poison via switch). Taking ~9 dmg/turn.
+- Strategy: Smokescreen Miltank, maintain HP > 35. Stomp does ~16-29 dmg.
 - Inventory: Super Potion x3.
