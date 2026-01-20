@@ -36,13 +36,12 @@
   - (8, 3) Whitney [Battling]
     - Clefairy (Lv18) - Fainted.
     - Miltank (Lv20) - Active.
-- Status: Whitney is crying.
-- Next Step: Advance text. If she doesn't give badge, turn South to leave/talk to Lass.
-- Task: Get Plain Badge.
-- Health: Garnet 31/74 HP.
-- Inventory: Super Potion x7.
-- Strategy: If she cries, try leaving or talking to the other trainer to reset her.
-- Inventory: Super Potion x7. Mud-Slap (Learned). Money: ¥351.
+- Status: Defeated Whitney. She is crying.
+- Next Step: Turn to leave or talk to Lass Bridget at (9, 6) to reset Whitney.
+- Task: Obtain Plain Badge.
+- Inventory: Super Potion x7. Money: ¥1851.
+- Party: Garnet (Lv26) healthy enough.
+- Key Locations:
+  - Flower Shop (Need Badge).
+  - Dept Store (Restock if needed).
 - Route Update: Entry to center is via East Side Maze.
-- Path: Top Row (1,1 -> 17,1) -> Down East Side -> Weave through (16,8)/(17,9) area -> Bottom Connectors (Row 13) -> Center.
-- Critical Path: The entrance to the center area is a gap in the wall on the East side around Row 12/13.
