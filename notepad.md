@@ -25,3 +25,4 @@
 ### Notes
 - **Sudowoodo Strategy**: Interact with the tree on Route 36 to 'activate' the need for the SquirtBottle, then return to Goldenrod Flower Shop.
 - **Navigation**: West side of Goldenrod is accessed via the South path near Radio Tower. Alley west of Game Corner is a dead end.
+- Note: The building at (29, 5) in Goldenrod is a house. The Route 35 Gatehouse is at (29, 8).
