@@ -30,3 +30,5 @@
   - (19, 7) Samantha [Defeated]
   - (12, 13) Carrie [Defeated]
 - Path: Spiral Path: (16,9) -> (12,13) -> Center?
+- Discovery: Some "Green Planter" tiles in the gym are walkable (e.g., 12,12 and 13,12). The maze path is not strictly defined by the floor color.
+- Health: Garnet (28/71). Need to heal before Whitney. Backtracking.
