@@ -26,8 +26,7 @@
 - **Sudowoodo Strategy**: Interact with the tree on Route 36 to 'activate' the need for the SquirtBottle, then return to Goldenrod Flower Shop.
 - **Navigation**: West side of Goldenrod is accessed via the South path near Radio Tower. Alley west of Game Corner is a dead end.
 - Navigation: West Edge (X=5) confirmed blocked/wall.
-- Navigation: Confirmed TYPE_2889 is Wall/Solid.
-- Navigation: Only gap in Row 5 wall is at X=18/19.
-- Plan: Go South to Row 8, East to X=18, then North through the gap to explore the enclosed area.
-- Hypothesis: Exit might be via a path East of the Flower Shop (X=19).
+- Navigation: Flower Shop Courtyard (X=18-21) is enclosed. Dead end.
+- Navigation: Main Road North identified at X=32 (East side).
+- Plan: Exit Courtyard (South to Row 8), Go East to X=32, then North to Gatehouse.
 - System: Python sandbox tools are down. Using manual navigation.
