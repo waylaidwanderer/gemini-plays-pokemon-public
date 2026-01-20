@@ -25,21 +25,5 @@
 - Exploration: Column 0 blocked by Victoria (0, 4). Detouring via Row 7 to Column 2.
 - Goal: Reach North end of Maze to find Whitney.
 ### Gym Notes
-- Structure: Clefairy Shape.
-- Trainers: All defeated.
-- Strategy vs Whitney:
-  - Clefairy: Defeated.
-  - Miltank: Spam Mud-Slap (Slot 2).
-  - Insight: Miltank's Attract FAILS because Garnet is Female.
-  - Healing: Super Potion if HP < 40.
-- Trainers:
-  - (8, 3) Whitney [Battling]
-    - Clefairy (Lv18) - Fainted.
-    - Miltank (Lv20) - Active.
-- Status: Receiving Plain Badge from Whitney.
-- Next Step: Get TM45 (Attract) -> Leave Gym.
-- Task: Get SquirtBottle from Flower Shop.
-- Key Locations:
-  - Flower Shop (Need Badge).
-  - Dept Store (Restock if needed).
-- Route Update: Entry to center is via East Side Maze.
+- Status: Cleared!
+- Next: Exit Gym -> Flower Shop -> Route 34.
