@@ -37,12 +37,11 @@
     - Clefairy (Lv18) - Fainted.
     - Miltank (Lv20) - Active.
 - Status: In Battle vs Whitney.
-- Miltank Status: -2 Accuracy.
+- Miltank Status: -3 Accuracy (Verify). HP ~60%.
 - Garnet Status: 57/74 HP.
-- Turn Strategy: Use Mud-Slap (Slot 2).
-- Cursor: On PACK (Main Menu).
-- Strategy: Press UP to FIGHT, then Select Mud-Slap (Slot 2).
-- Miltank Status: -2 Accuracy. 2 Mud-Slaps damage.
+- Turn Strategy: Spam Mud-Slap.
+- Cursor: Likely on FIGHT. Move cursor on Mud-Slap (Slot 2).
+- Miltank Status: -3 Accuracy. 3 Mud-Slaps damage.
 - Advantage: Garnet is Female, immune to Attract.
 - Inventory: Super Potion x7. Mud-Slap (Learned). Money: ¥351.
 - Route Update: Entry to center is via East Side Maze.
