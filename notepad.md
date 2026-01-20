@@ -36,8 +36,8 @@
   - (8, 3) Whitney [Battling]
     - Clefairy (Lv18) - Fainted.
     - Miltank (Lv20) - Active.
-- Status: Defeated Whitney!
-- Next Step: Talk to Whitney. (She might cry).
+- Status: Whitney is crying.
+- Next Step: Advance text. If she doesn't give badge, turn South to leave/talk to Lass.
 - Task: Get Plain Badge.
 - Health: Garnet 31/74 HP.
 - Inventory: Super Potion x7.
