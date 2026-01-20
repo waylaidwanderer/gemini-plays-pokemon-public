@@ -46,8 +46,9 @@
     - Miltank (Lv20) - Active.
 - Status: In Battle vs Whitney.
 - Strategy:
-  1. Miltank: Spam Mud-Slap to break Rollout accuracy.
+  1. Miltank: Spam Mud-Slap (Slot 2) to lower accuracy.
   2. Healing: Use Super Potion if HP < 40.
+- Cursor: Moving from Slot 4 (Ember) -> Down -> Slot 1 -> Down -> Slot 2 (Mud-Slap).
 - Advantage: Garnet is Female, immune to Attract.
 - Inventory: Super Potion x8. Mud-Slap (Learned). Money: ¥351.
 - Route Update: Entry to center is via East Side Maze.
