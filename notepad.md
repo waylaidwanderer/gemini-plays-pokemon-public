@@ -39,6 +39,7 @@
   - (8, 3) Whitney [Battling]
     - Miltank (Lv20) - Active. Def Down. Rollout #2 Incoming.
 - Status: Garnet (Lv26) Poisoned. HP 40/74.
-- Strategy: Smokescreen (Slot 3) to force Rollout miss (32.5% survival chance).
-- Menu: Cursor on PACK. Move Up->Fight. Inside Fight: Top->Down->Down->Smokescreen.
-- Speed: Garnet should outspeed.
+- Mistake: Menu inputs too fast. Used Quick Attack instead of Smokescreen.
+- Danger: Miltank Rollout #3 (Base 120) incoming. Survival unlikely (~50 dmg vs 40 HP).
+- Hope: 10% Miss chance.
+- Inventory: Super Potion x2.
