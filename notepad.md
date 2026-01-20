@@ -23,3 +23,4 @@
 - Mechanic: Battle Move Menu WRAPS (Bottom -> Top).
 - Exploration: Column 0 blocked by Victoria (0, 4). Detouring via Row 7 to Column 2.
 - Goal: Reach North end of Maze to find Whitney.
+- Hypothesis: Path winds through (3, 5) -> (2, 4) -> (1, 4) to bypass Victoria.
