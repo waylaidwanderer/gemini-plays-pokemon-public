@@ -6,13 +6,14 @@
 - **Sub-Goals**: Visit Daycare (Route 34), Get SquirtBottle (Need Badge).
 
 ### Status
-- **Location**: Dept Store 1F (11_14).
-- **Task**: Challenge Gym Trainers & Whitney.
-- **Party**: Garnet (Lv24), Amethyst (Lv8), T (Lv3), Jasper (Lv2), Basil (Lv6), Pearl (Lv5).
+- **Location**: Dept Store 1F (11_11).
+- **Task**: Return to Gym & Defeat Whitney.
+- **Party**: Garnet (Lv26), Amethyst (Lv8), T (Lv3), Jasper (Lv2), Basil (Lv6), Pearl (Lv5).
 - **Health**: Good.
 - **Key Items**: Radio Card, Bicycle, Coin Case.
 
 ### Notes
+- **Correction**: Map 11_14 is Dept Store 2F. Map 11_11 is Dept Store 1F.
 - **Radio Tower**: 3F blocked by guard ("Personnel only").
 - **Flower Shop**: Needs Badge for SquirtBottle.
 - **Blockages**:
