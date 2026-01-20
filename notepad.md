@@ -43,7 +43,7 @@
 - Trainers:
   - (8, 3) Whitney [Battling]
     - Clefairy (Lv18) - Fainted.
-    - Miltank (Lv20) - Pending.
+    - Miltank (Lv20) - Active.
 - Status: In Battle vs Whitney.
 - Strategy:
   1. Miltank: Spam Mud-Slap to break Rollout accuracy.
