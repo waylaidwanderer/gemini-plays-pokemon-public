@@ -15,4 +15,4 @@
 - TYPE_3fe2: Floor (Walkable)
 - TYPE_63e2: Wall/Planter (Blocked)
 - TYPE_ffbb: Warp/Door (Walkable)
-- Plan: Continue North along the West side (x=3) to reach the Route 35 Gatehouse.
+- Plan: Move Up to Row 17. Head East to x=18. Go North along x=18 to reach the North exit/Route 35.
