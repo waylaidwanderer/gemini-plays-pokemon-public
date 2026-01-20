@@ -34,9 +34,7 @@
 - Progress: Bypassing Lass at (0, 2) and Victoria at (0, 4).
 - Prep: Bought 5 Super Potions. Ready for Whitney.
 - Health: Full. Heading South down West corridor (Col 0).
-- Location: Center of Gym (11, 8). Moving North to find Whitney.
-- Goal: Defeat Whitney.
-- Observation: Sprite seen earlier was likely further North due to perspective or moved.
+- Location: Center of Gym (11, 6). Approaching Trainer at (8, 3).
 - Strategy: Garnet (Lv25). Use Ember/Quick Attack. Watch out for Miltank's Rollout.
 - Trainers:
   - (8, 3) Trainer (Red Hair) - Unfought
