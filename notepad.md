@@ -34,11 +34,10 @@
 - Progress: Bypassing Lass at (0, 2) and Victoria at (0, 4).
 - Prep: Bought 5 Super Potions. Ready for Whitney.
 - Health: Full. Heading South down West corridor (Col 0).
-- Location: Center of Gym (10, 6). Adjacent to Lass at (9, 6).
-- Path: Challenging Lass at (9, 6). If path remains blocked, will loop South to Row 9 and come up Column 8.
-- Goal: Defeat Lass, then Red-Haired Trainer at (8, 3).
+- Location: Center of Gym (10, 6). Battling Lass Bridget at (9, 6).
+- Goal: Defeat Lass Bridget, then Red-Haired Trainer at (8, 3).
 - Trainers:
   - (8, 3) Trainer (Red Hair) - Unfought
-  - (9, 6) Lass (Blue Hair) - Unfought
+  - (9, 6) Lass Bridget [Battling]
 - Trainers:
   - (19, 5) Bridget? [Defeated/Passive]
