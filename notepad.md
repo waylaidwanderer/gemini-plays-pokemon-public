@@ -27,9 +27,8 @@
 - **Navigation**: West side of Goldenrod is accessed via the South path near Radio Tower. Alley west of Game Corner is a dead end.
 - Navigation: West Edge (X=5) confirmed blocked/wall.
 - Navigation: Building at (15, 7) confirmed as Name Rater (Dead End).
-- Navigation: Building at (29, 5) is the Flower Sister's House (Dead End).
-- Navigation: Previously identified Name Rater at (15, 7).
-- Log Discrepancy: Log 6391 mentions entering Gatehouse at (29, 8).
-- Plan: Exit house. Investigate tile (29, 8) specifically. It is South of this house.
-- Hypothesis: The Gatehouse might be the building entrance at (29, 8) or nearby.
+- Navigation: Building at (29, 5) confirmed as Flower Sister's House (Dead End).
+- Navigation: East side (X=29 area) seems to be a cul-de-sac.
+- Plan: Go South to Row 10, West to Main Avenue (X=13), then Scan North Edge (Y=5) for Gatehouse or Gap.
+- Hypothesis: Gatehouse is likely centrally located (X=10-15) or far North (Y=0).
 - System: Python sandbox tools are down. Using manual navigation.
