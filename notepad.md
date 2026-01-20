@@ -88,3 +88,4 @@
   4. Falkner Violet? -> YES (A).
   5. Charmander Slots? -> NO (B).
 - Goal: Explore upper floors of Radio Tower.
+- Radio Tower 3F blocked by guard ('Personnel only').
