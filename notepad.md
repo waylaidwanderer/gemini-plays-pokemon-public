@@ -21,3 +21,4 @@
 - Exploration: Navigating Clefairy Maze. Heading to East edge (Column 14/15) to find a path North.
 - Observed: Planters block direct access to Lass at (9, 13).
 - Exploration: Found open path along East wall (Column 19). Ascending.
+- Battle Info: Meowth (Lv16) is 2HKO by Garnet's Ember.
