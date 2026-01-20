@@ -30,7 +30,7 @@
   - (19, 7) Samantha [Defeated]
   - (9, 13) Carrie [Defeated]
 - Path: Calculating route... East side blocked. Moving to West Side (Col 2).
-- Route: Weaving West side. (3, 11) -> (0, 8) -> North to Row 4.
-- Note: Victoria (0, 4) is defeated, so path past her should be clear.
+- Route: Top Corridor (Row 1) Westbound -> Down West Wall (Col 2).
+- Note: Avoiding trainer at (9, 6) by staying on Row 1.
 - Prep: Bought 5 Super Potions. Ready for Whitney.
 - Health: Full. In Gym (2,11). Exploring East side next.
