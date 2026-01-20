@@ -15,4 +15,4 @@
 - TYPE_3fe2: Floor (Walkable)
 - TYPE_63e2: Wall/Planter (Blocked)
 - TYPE_ffbb: Warp/Door (Walkable)
-- Plan: Finish call. Move North to Row 15, then East to x=18. Go North through the gap at (18, 5) to reach Route 35.
+- Plan: Backtrack South to Row 17. Go West to x=1. Explore Unseen area at (1, 5) for North exit.
