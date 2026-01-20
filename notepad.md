@@ -53,4 +53,9 @@
 - Path: Top Row (1,1 -> 17,1) -> Down East Side -> Weave through (16,8)/(17,9) area -> Bottom Connectors (Row 13) -> Center.
 - Critical Path: The entrance to the center area is a gap in the wall on the East side around Row 12/13.
 - Strategy: Clefairy (Ember), Miltank (Mud-Slap spam).
-- Mechanic: Move Menu Wraps. To get Ember (Slot 4), press UP from Slot 1.
+- Mechanic: Battle Menu Cursor remembers last used move position.
+- Cursor Status: Currently on Slot 3 (Smokescreen).
+- Strategy:
+  1. Clefairy: Use Ember (Slot 4). Press DOWN from Smokescreen.
+  2. Miltank: Spam Mud-Slap (Slot 2).
+  3. Healing: Use Super Potion if HP < 40.
