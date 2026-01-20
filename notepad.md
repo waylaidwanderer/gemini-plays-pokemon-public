@@ -20,6 +20,6 @@
   - NW Path blocked (Game Corner/Tracks).
   - Underground: Haircut Brothers absent.
 ### Gym Notes
-- Status: In Goldenrod City.
-- Task: Get SquirtBottle from Flower Shop (North of Gym).
+- Status: In Goldenrod City (Phone Call).
+- Task: Finish Joey's call -> Enter Flower Shop.
 - Next: Route 34 (Daycare).
