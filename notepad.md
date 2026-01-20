@@ -38,6 +38,7 @@
 - Trainers:
   - (8, 3) Whitney [Battling]
     - Clefairy (Lv18) - Fainted.
-    - Miltank (Lv20) - Active. Full HP.
+    - Miltank (Lv20) - Active. Def Down.
   - (9, 6) Lass Bridget [Defeated]
 - Status: Garnet Lv26 (Badly Poisoned). HP 44/74.
+- Note: Last move used was Leer (Slot 2). Cursor likely on Slot 2. Next: Smokescreen (Slot 3).
