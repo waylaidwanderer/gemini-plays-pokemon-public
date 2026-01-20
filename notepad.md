@@ -44,7 +44,7 @@
 - Strategy: Press UP to FIGHT, then Select Mud-Slap (Slot 2).
 - Miltank Status: -2 Accuracy. 2 Mud-Slaps damage.
 - Advantage: Garnet is Female, immune to Attract.
-- Inventory: Super Potion x8. Mud-Slap (Learned). Money: ¥351.
+- Inventory: Super Potion x7. Mud-Slap (Learned). Money: ¥351.
 - Route Update: Entry to center is via East Side Maze.
 - Path: Top Row (1,1 -> 17,1) -> Down East Side -> Weave through (16,8)/(17,9) area -> Bottom Connectors (Row 13) -> Center.
 - Critical Path: The entrance to the center area is a gap in the wall on the East side around Row 12/13.
