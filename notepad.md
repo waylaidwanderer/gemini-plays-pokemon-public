@@ -37,7 +37,9 @@
 3. Find Sister at Route 36.
 - **System**: Python sandbox is down. Relying on manual navigation.
 - Tile Mechanic: `TYPE_3fe2` is ambiguous! It represents BOTH walkable gray pavement and solid walls/bushes. Must rely on visual confirmation (Screen) rather than just XML types.
-- Navigation Plan: Found a path North at x=31 (East of Sister's House). Heading North to find Route 35 Gatehouse.
+- Navigation Plan: East House (33, 9) was the PP House (Dead End).
+- New Plan: Check the far East edge (Columns 36-39). Heatmap shows this area is unexplored to the North.
 - Dead Ends Confirmed: x=18 (North blocked by building), x=16 (Row 8->North blocked), x=5 (Row 8 blocked), x=3 (Tracks North).
+- Objective: Find Route 35 Gatehouse. Confirmed to be North of Goldenrod.
 - Task: Find Floria at Route 36.
 - Sandbox verification: 'check_execution_env' failed at Turn 7713. Sandbox confirmed down. Proceeding with manual navigation.
