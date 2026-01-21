@@ -2,10 +2,10 @@
 - Started: Friday, January 16, 2026
 
 ### Navigation Notes
-- **Strategy**: Underground Bypass (active).
-- **Plan**: Move Down to Row 16 (Main Corridor) -> West to x=9 -> South to Row 29 -> East to Underground Entrance (11, 29).
-- **Reasoning**: Row 15 is blocked Westward. Column 10 is blocked Southward. Path via x=9 is clear.
-- **Timestamp**: Turn 8042.
+- **Strategy**: Underground Bypass (North Entrance).
+- **Plan**: Go West to x=1 (West Road) -> North to Row 5 -> East to Game Corner (9, 5) -> Enter Underground.
+- **Reasoning**: South path (x=9) blocked by building at Row 20. East path (x=18) blocked by Officer. West Road (x=1) connects North past Row 10 wall.
+- **Timestamp**: Turn 8044.
 
 ### Key Locations
 - **Sister's House**: (29, 5).
