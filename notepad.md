@@ -35,3 +35,4 @@
 2. Talk to Sister's House (Done). Clue: Sister went to Route 36 to see the wiggly tree.
 3. Find Sister at Route 36.
 - **System**: Python sandbox is down. Relying on manual navigation.
+- Tile Mechanic: `TYPE_3fe2` in Goldenrod City (e.g. Row 3, Col 18) looks like a wall/roof but is walkable pavement. Trust the map data over visuals here.
