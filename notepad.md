@@ -30,7 +30,8 @@
 - Route 34 Item Ball at (7, 30) is blocked by a ledge at x=9 (One-way West->East?). Must approach from Goldenrod City/West side.
 - Confirmed: Wall at x=35 blocks East access from Row 6-19.
 - Tracks blocked at (3, 16) by Rude Tourist.
-- Plan: Currently at (30, 7) (Flower Shop). Heading West to x=18 to check for a path North between the Gym and the Tracks.
-- Flower Shop is at (29, 5). The path East of it is a dead end.
-- East path (x=32) blocked at Row 9/6.
-- Sandbox is down; manual navigation required.
+- Plan: Currently at (29, 7). Moving West to Main Avenue (x=18). Will attempt to go North from x=18 or x=16.
+- Flower Shop is at (29, 5). Path East is dead end.
+- Gym blocks x=24.
+- Hypothesis: Exit is North along Main Avenue (x=18).
+- Sandbox status: Checking...
