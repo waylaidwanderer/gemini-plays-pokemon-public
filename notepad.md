@@ -2,10 +2,9 @@
 - Started: Friday, January 16, 2026
 
 ### Navigation Notes (Goldenrod - Map 3_54)
-- **Location**: Underground (West Entrance).
-- **Navigation**: Returning to East Side (Game Corner area) via Underground.
-- **Goal**: Investigate East Side again. Summary claims Gatehouse is at (29, 8).
-- **Potential**: Check for Cut trees or hidden paths on East side.
+- **Location**: Goldenrod City (West Side).
+- **Correction**: Previous attempt to find Main Road failed because I stayed too far Left (x=7). Main Road is likely at x=10-14.
+- **Goal**: Exit Underground, go South to clear obstacles, go East to x=12, then NORTH.
 
 ### Key Locations
 - **Flower Shop**: (19, 1). Needs Sudowoodo interaction.
