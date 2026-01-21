@@ -28,8 +28,8 @@
 - Navigation: West Edge (X=5) confirmed blocked/wall.
 - Navigation: Building at (15, 7) confirmed as Name Rater (Dead End).
 - Navigation: Building at (29, 5) confirmed as Flower Sister's House (Dead End).
-- Navigation: Main Avenue (X=13) is a dead end at Row 5.
-- Navigation: Gap in wall confirmed at X=18 (Row 5).
-- Plan: Go Down to Row 8, Right to X=18, then Up through the gap. Explore the area North of Row 5 (Flower Shop area) for a path to Y=0.
-- Hypothesis: The Gatehouse is likely North of the Flower Shop or immediately West of it at the Map Edge.
+- Navigation: Main Avenue (X=13-16) blocked by building at Row 5.
+- Hypothesis: This building IS the Gatehouse to Route 35.
+- Plan: Go to Main Avenue (X=15, Y=6). Enter the building at (15, 5) or adjacent tiles (14, 5), (13, 5).
+- Correction: Previous "Wall" assessment likely mistook the Gatehouse for a solid obstacle.
 - System: Python sandbox tools are down. Using manual navigation.
