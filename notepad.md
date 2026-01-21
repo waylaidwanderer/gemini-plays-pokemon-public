@@ -2,10 +2,11 @@
 - Started: Friday, January 16, 2026
 
 ### Navigation Notes
-- **Objective**: Find Floria at Route 36 (Sudowoodo).
-- **Route**: Route 34 -> Goldenrod City -> Gatehouse (29, 8) -> Route 35 -> Route 36.
-- **Immediate**: Head North to Goldenrod City. Bypass NPC at (9, 11).
-- **Timestamp**: Turn 7956.
+- **Correction**: Route 35 Gatehouse is likely in the North-East corner (x=33 path).
+- **Objective**: Find Floria at Route 36.
+- **Route**: (24, 8) -> (29, 8) -> (29, 7) -> (33, 7) -> North to Exit.
+- **Immediate**: Go East to x=33, then North.
+- **Timestamp**: Turn 7968.
 
 ### Key Locations
 - **Sister's House**: (29, 5).
