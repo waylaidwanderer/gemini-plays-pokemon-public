@@ -17,8 +17,8 @@
 
 ### Quests
 - **Sister's House**: (29, 5). The sister is missing (Route 36).
-- **Route 35 Gatehouse**: Likely reached via the path at x=32 (East of Gym).
-- **Navigation**: Backtracking from Flower Shop (Dead End). Heading East on Row 8 to x=32, then North.
+- **Route 35 Gatehouse**: Location likely North-West. East side (x=30+) seems blocked.
+- **Navigation**: Heading West on Row 8 to find a gap in the North wall (Row 7). Checking x=16, 13, 9.
 
 ### Status
 - Badges: 3 (Zephyr, Hive, Plain).
