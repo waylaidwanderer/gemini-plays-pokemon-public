@@ -26,6 +26,11 @@
 - Badges: 3 (Zephyr, Hive, Plain).
 - Party: Quilava (26), Sentret (2), Bellsprout (6), Togepi (5), Rattata (8).
 - Route 34 Navigation: To reach the Daycare, travel North along the West path (main road) and enter the yard through the gap in the fence at (11, 15). Watch out for the Officer at (10, 16).
-- Navigation Target: North Exit of Goldenrod (approx 16, 0).
-- Pathing: The East alley (x=18) is a dead end containing the Flower Shop. Backtrack to Row 9, cross West to the main road (x=15), then head North to the exit.
+- Navigation Target: North Exit of Goldenrod (approx 24, 0).
+- Pathing: The city layout is complex. Row 4 is a major barrier. The only valid path North seems to be on the far East side.
+  1. From the center (Row 8), go East past x=22.
+  2. Navigate to x=32/33 (use Row 7 or 10 to bypass walls).
+  3. Go North to Row 3.
+  4. Go West along Row 3 to x=23-26.
+  5. Go North to the Exit.
 - Received Odd Egg (Turn 7045). Contains unknown Pokemon (fingers crossed for a shiny!).
