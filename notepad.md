@@ -2,9 +2,10 @@
 - Started: Friday, January 16, 2026
 
 ### Navigation Notes (Goldenrod - Map 3_54)
-- **Location**: Goldenrod City (West Side).
-- **Status**: West side is a dead end (Wall at Row 21).
-- **Strategy**: Return to Underground, go back to Game Corner (East Side), and find the connection to the Main Road from there.
+- **Location**: Underground (West Entrance).
+- **Navigation**: Returning to East Side (Game Corner area) via Underground.
+- **Goal**: Investigate East Side again. Summary claims Gatehouse is at (29, 8).
+- **Potential**: Check for Cut trees or hidden paths on East side.
 
 ### Key Locations
 - **Flower Shop**: (19, 1). Needs Sudowoodo interaction.
