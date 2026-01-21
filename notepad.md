@@ -13,9 +13,9 @@
 
 ### Quests
 - **Sister's House**: (29, 5). The sister is missing (Route 36).
-- **Route 35 Gatehouse**: Entering building at (9, 5) to investigate.
-- **Previous Checks**: East (x=32) blocked by fence. West Tracks (x=3) blocked by wall/NPC.
-- **Hypothesis**: This building is either the Gatehouse or the Underground Entrance.
+- **Route 35 Gatehouse**: Still searching. House at (33, 9) was just a PP info house.
+- **Previous Checks**: West Tracks (x=3) blocked. West side (x=7) blocked. East side walls seem solid.
+- **Next Step**: Check the fence gap at (31, 6) again. Critique suggested it might be open.
 
 ### Status
 - Badges: 3 (Zephyr, Hive, Plain).
