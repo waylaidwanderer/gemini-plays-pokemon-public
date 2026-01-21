@@ -29,7 +29,7 @@
 - Route 34 Navigation: To reach the Daycare, travel North along the West path (main road) and enter the yard through the gap in the fence at (11, 15). Watch out for the Officer at (10, 16).
 - Route 34 Item Ball at (7, 30) is blocked by a ledge at x=9 (One-way West->East?). Must approach from Goldenrod City/West side.
 - Confirmed: Wall at x=35 blocks East access from Row 6-19.
-- Plan: Check West side (x=6) at Row 8. If dead end, go South to Row 20, then West to Tracks (x=4), then North past NPC at (3, 16).
+- Plan: Currently at (18, 16). Heading West to the Tracks (x=4) to inspect the blocking NPC at (3, 16). If blocked, will try to loop around via Row 20 or Row 8.
 - Flower Shop path (x=19) is likely a cul-de-sac.
 - East path (x=32) blocked at Row 9/6.
 - Exit is likely at North-West (x=14-16, y=0), accessible via Tracks.
