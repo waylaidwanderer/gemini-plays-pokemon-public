@@ -30,7 +30,7 @@
 - Navigation: Building at (29, 5) confirmed as Flower Sister's House (Dead End).
 - Navigation: West path (Radio Tower) is a dead end.
 - Navigation: Central path (Flower Shop) is a dead end.
-- Navigation: Route 35 Exit is via the FAR EAST channel (X=36-39).
-- Path: Go South to Row 20 (gap in wall). Go East to X=36. Go North to Exit.
-- Status: Visited Flower Shop. Lady refused SquirtBottle.
+- Navigation: North Exit is at X=23-26 (East Side).
+- Path: Go North to Row 8. Go East to X=25. Go North to Exit.
+- Status: Visited Flower Shop (Dead End). Need to access East side.
 - Requirement: Interact with Sudowoodo (Route 36) -> Return to Flower Shop.
