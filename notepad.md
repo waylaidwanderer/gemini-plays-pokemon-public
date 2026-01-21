@@ -28,24 +28,8 @@
 - Party: Quilava (26), Sentret (2), Bellsprout (6), Togepi (5), Rattata (8).
 - Route 34 Navigation: To reach the Daycare, travel North along the West path (main road) and enter the yard through the gap in the fence at (11, 15). Watch out for the Officer at (10, 16).
 - Route 34 Item Ball at (7, 30) is blocked by a ledge at x=9 (One-way West->East?). Must approach from Goldenrod City/West side.
-
-- Received Odd Egg (Turn 7045). Contains unknown Pokemon (fingers crossed for a shiny!).
-
-### Quest Log: SquirtBottle
-1. Talk to Flower Shop (Done).
-2. Talk to Sister's House (Done). Clue: Sister went to Route 36 to see the wiggly tree.
-3. Find Sister at Route 36.
-- **System**: Python sandbox is down. Relying on manual navigation.
-- Tile Mechanic: `TYPE_3fe2` is ambiguous! It represents BOTH walkable gray pavement and solid walls/bushes. Must rely on visual confirmation (Screen) rather than just XML types.
-- Navigation Plan: Route 35 Exit via Far East Edge (Final Attempt).
-- Confirmed: North (x=18), West (x=4), and Center-East (x=31) are blocked.
 - Confirmed: Wall at x=35 blocks East access from Row 6-19.
-- Solution: Go South to Row 20 (gap in wall). Go East to x=36. Go North along the edge.
-- Dead Ends: x=18, x=3, x=4, x=31, x=35 (Rows 6-19).
-- Objective: Reach (36, 20).
-- Task: Find Floria at Route 36.
-- Sandbox verification: 'check_execution_env' failed at Turn 7713. Sandbox confirmed down. Proceeding with manual navigation.
-- Reflection (Turn 7790): Stuck finding Route 35 Exit for ~50 turns. Sandbox down.
-- Strategy: Manually verifying map edges. Currently checking East side (Col 32+) based on ambiguous XML data.
-- Observation from XML: Row 0 has 'TYPE_3fe2' at x=14, 15, 16. This suggests the exit is Top-Center-Left, behind the Name Rater/Flower Shop block. Access is the puzzle.
-- Hypothesis: If East fails, re-examine the "Wall" at x=13/14 around Row 5.
+- Plan: Check West side (x=6) at Row 8. If dead end, go South to Row 20, then West to Tracks (x=4), then North past NPC at (3, 16).
+- Flower Shop path (x=19) is likely a cul-de-sac.
+- East path (x=32) blocked at Row 9/6.
+- Exit is likely at North-West (x=14-16, y=0), accessible via Tracks.
