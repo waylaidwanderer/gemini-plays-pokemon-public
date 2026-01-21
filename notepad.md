@@ -37,9 +37,12 @@
 3. Find Sister at Route 36.
 - **System**: Python sandbox is down. Relying on manual navigation.
 - Tile Mechanic: `TYPE_3fe2` is ambiguous! It represents BOTH walkable gray pavement and solid walls/bushes. Must rely on visual confirmation (Screen) rather than just XML types.
-- Strategy Correction: Cancel South Detour. Critique suggests Route 35 Gatehouse is at the north end of the main road (x=18) and I likely mistook it for a wall.
-- Plan: Return to Main Road (x=18). Go North. Investigate the end of the road for a door or gatehouse entrance.
-- Dead Ends Confirmed: x=3 (Tracks North), x=35 (North from Row 10 blocked). Re-evaluating x=18 North.
+- Navigation Plan: Route 35 Exit via East Edge (Col 36).
+- Obstacle: Wall at x=35 blocks access from Row 6 to Row 19.
+- Solution: Go South to Row 20 (gap in wall). Cross to x=36. Go North along East edge.
+- Note: Previous check of North Gatehouse (x=18) confirmed blocked by Flower Shop.
+- Dead Ends: x=18 (North), x=3 (Tracks), x=35 (Row 10).
+- Objective: Reach (36, 20), then head North.
 - Objective: Find Route 35 Gatehouse. Confirmed to be North of Goldenrod.
 - Task: Find Floria at Route 36.
 - Sandbox verification: 'check_execution_env' failed at Turn 7713. Sandbox confirmed down. Proceeding with manual navigation.
