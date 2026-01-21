@@ -3,9 +3,9 @@
 
 ### Navigation Notes
 - **Strategy**: Underground Bypass (active).
-- **Reasoning**: South Loop on Route 34 requires jumping a one-way ledge into Ilex Forest, which is the wrong direction.
-- **Plan**: Return to Goldenrod -> Enter Underground at (11, 29) -> Exit North -> Find path West to Route 35 Gatehouse.
-- **Timestamp**: Turn 8013.
+- **Plan**: Move Down to Row 16 (Main Corridor) -> West to x=9 -> South to Row 29 -> East to Underground Entrance (11, 29).
+- **Reasoning**: Row 15 is blocked Westward. Column 10 is blocked Southward. Path via x=9 is clear.
+- **Timestamp**: Turn 8042.
 
 ### Key Locations
 - **Sister's House**: (29, 5).
