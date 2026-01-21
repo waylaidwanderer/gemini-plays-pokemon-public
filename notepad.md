@@ -5,10 +5,10 @@
 - **North Exit Puzzle**: The path to Route 35 is blocked by walls.
   - **Center (Flower Shop)**: Blocked at Row 1 (Dead End at 19, 5).
   - **East (Gym)**: Blocked at Row 6-19.
-  - **Blocked**: West Tracks at (3, 16) by Tourist NPC ("So this is the Radio Tower...").
+  - **Blocked**: West Tracks at (3, 16) by Tourist NPC.
 - **Blocked**: East Highway at Flower Shop.
-- **Inside**: Underground Entrance (South) at (9, 13).
-- **Goal**: Navigate Underground to reach North Goldenrod.
+- **Checked**: Door at (9, 13) is Magnet Train (Dead End for now).
+- **Goal**: Find Underground Entrance (South). Expected near Game Corner or Radio Tower?
 
 ### Key Locations
 - **Flower Shop**: (19, 1). Needs Sudowoodo interaction.
