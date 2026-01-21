@@ -3,8 +3,8 @@
 
 ### Navigation Notes (Goldenrod - Map 3_54)
 - **Location**: Underground (Tunnel).
-- **Navigation**: Heading South (screen-wise) from y=6 towards exit at y=35.
-- **Observations**: Avoiding trainers. Path seems clear.
+- **Navigation**: Traversing tunnel from Top (South Ent) to Bottom (North Ent).
+- **Goal**: Reach Exit at y=35.
 
 ### Key Locations
 - **Flower Shop**: (19, 1). Needs Sudowoodo interaction.
