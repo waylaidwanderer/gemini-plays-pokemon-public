@@ -4,9 +4,9 @@
 ### Navigation Notes (Goldenrod - Map 11_2)
 - **Current Location**: Central North area (x=12, y=8).
 - **Target**: North Exit to Route 35 (Row 0).
-- **Route**: Investigating door at (9, 5) (Underground Entrance?).
-- **Alternate**: If dead end, try West on Row 8 to x=6.
-- **Correction**: The exit is likely centrally located, or via the tracks.
+- **Route**: Confirmed door at (9, 5) is North Underground Entrance (Map 3_54).
+- **Correction**: This is not the way to Route 35. Exit is likely North-East (x>20, y<10).
+- **Plan**: Exit building, go East to Column 20+, then North.
 
 ### Key Locations
 - **Flower Shop**: (19, 1). Needs Sudowoodo interaction.
