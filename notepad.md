@@ -1,12 +1,11 @@
 # Pokémon Crystal Playthrough
 - Started: Friday, January 16, 2026
 
-### Navigation Notes (Route 34 - Map 11_1)
-- **Current Location**: Route 34 (South of Goldenrod).
-- **Correction**: Confirmed Route 35 Gatehouse location at (29, 8). I previously visited it but got sidetracked.
-- **Plan**: Return North to Goldenrod, go to (29, 8) Gatehouse, and proceed to Route 35 to find the Sister at Route 36.
-- **Abort**: South Loop strategy is based on incorrect assumptions about reaching Route 36.
-- **Timestamp**: Turn 7952.
+### Navigation Notes
+- **Objective**: Find Floria at Route 36 (Sudowoodo).
+- **Route**: Route 34 -> Goldenrod City -> Gatehouse (29, 8) -> Route 35 -> Route 36.
+- **Immediate**: Head North to Goldenrod City. Bypass NPC at (9, 11).
+- **Timestamp**: Turn 7956.
 
 ### Key Locations
 - **Sister's House**: (29, 5).
