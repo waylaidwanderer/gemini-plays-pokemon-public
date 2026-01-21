@@ -3,12 +3,12 @@
 
 ### Navigation Notes
 - **Correction**: Main Road (x=18) dead-ends at the Flower Shop (Row 1). Wall at x=17 blocks West access.
-- **Correction**: The "Path" at x=13 is a dead end (Building wall at Row 5).
-- **Current Strategy**: Systematically scan the North Wall (Row 5-8) for the exit.
-- **Status**: x=4 (Tracks) blocked. x=13 blocked. x=18 (Main) blocked by Flower Shop. x=31 blocked.
-- **Hypothesis**: Missed a path between x=20 and x=28 (near Gym) or x=6 and x=12.
-- **Immediate**: Go East to Main Road, then check area near Gym again.
-- **Timestamp**: Turn 7985.
+- **Correction**: The "Path" at x=13 is a dead end.
+- **Strategy**: Underground Tunnel Bypass.
+- **Hypothesis**: The Underground connects South Goldenrod to the North Exit (Route 35).
+- **Plan**: Enter Underground South (11, 29) -> Exit Underground North -> Find Gatehouse.
+- **Immediate**: Go South to (11, 29).
+- **Timestamp**: Turn 7987.
 
 ### Key Locations
 - **Sister's House**: (29, 5).
