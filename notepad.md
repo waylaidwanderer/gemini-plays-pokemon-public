@@ -17,8 +17,11 @@
 
 ### Quests
 - **Sister's House**: (29, 5). The sister is missing (Route 36).
-- **Route 35 Gatehouse**: Possible exit at x=16, Row 0. Access path unknown (blocked at Row 4/7).
-- **Navigation**: Checking x=9 (Underground Ent?) and x=16 blockage.
+- **Route 35 Gatehouse**: Location likely North-East.
+- **Navigation**: Investigating East side.
+  - Possibility A: Path North at x=32 (Critique suggestion).
+  - Possibility B: Gap in East Wall at Row 20 (x=35), leading to x=36 corridor.
+- **Critique Note**: Sandbox is down. Relying on manual checks.
 
 ### Status
 - Badges: 3 (Zephyr, Hive, Plain).
