@@ -16,8 +16,8 @@
 - **Route 34 Exit**: South edge of map (Row 35).
 
 ### Quests
-- **Route 35 Gatehouse**: Deliver Mail (Randy).
-- **Sudowoodo**: Route 36 (North).
+- **Sister's House**: (29, 5). The sister is missing (Route 36).
+- **Route 35 Gatehouse**: Location is NOT (29, 5). Must be further North or East. Previous summary mentioned (29, 8) but that might be incorrect or refer to the *path* to it.
 
 ### Status
 - Badges: 3 (Zephyr, Hive, Plain).
