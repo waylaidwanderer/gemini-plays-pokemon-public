@@ -9,7 +9,7 @@
 - **Blocked**: East Highway at Flower Shop.
 - **Checked**: Door at (9, 13) is Magnet Train (Dead End).
 - **Checked**: Door at (31, 21) is Happiness Rater (Dead End).
-- **Goal**: Find Underground Entrance. Checking South-West sector (near Name Rater).
+- **Goal**: Find Underground Entrance. Heading to building at (11, 29) in Southwest corner.
 
 ### Key Locations
 - **Flower Shop**: (19, 1). Needs Sudowoodo interaction.
