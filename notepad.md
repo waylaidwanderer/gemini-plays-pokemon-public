@@ -17,9 +17,9 @@
 
 ### Quests
 - **Sister's House**: (29, 5). The sister is missing (Route 36).
-- **Route 35 Gatehouse**: Investigating building at (9, 5).
-- **Navigation**: Backtracking via Row 16 to Main Road (x=18), then North to Row 9, then West to (9, 5).
-- **Blockages**: Row 19 is blocked at x=12. Row 20 is a wall from x=0-17. Row 14 is a wall. Access is via Row 16.
+- **Route 35 Gatehouse**: Investigating (9, 5). East (x=32) and West Tracks (x=3) were dead ends.
+- **Navigation**: Using x=19 to bypass NPC at (18, 16), then Row 9 West to (9, 5).
+- **Hypothesis**: The building at (9, 5) might be the Gatehouse or lead to it (e.g. via Underground).
 
 ### Status
 - Badges: 3 (Zephyr, Hive, Plain).
