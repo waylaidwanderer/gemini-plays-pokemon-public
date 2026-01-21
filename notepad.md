@@ -2,9 +2,15 @@
 - Started: Friday, January 16, 2026
 
 ### Navigation Notes (Goldenrod - Map 11_2)
-- **Current Location**: Heading to Main Road.
-- **Target**: Route 35 Gatehouse (North Exit).
-- **Correction**: The "Gatehouse" at (29, 8) mentioned in summaries was a mistake. That area contains the Sister's House and PP House. The real Gatehouse is likely at the north end of the main road (approx x=18).
+- **Current Location**: Backtracking East from x=6.
+- **Target**: North-East Corner (Row 0, Col 32+).
+- **Correction**: The West side (x=6) at Row 8 is a dead end. The "Main Road" tracks are blocked by an NPC at (3, 16).
+- **Hypothesis**: The Exit to Route 35 is in the North-East corner, past the Sister's House (x=29, y=5). Heatmap shows Row 0-1 there are unseen.
+
+### Key Locations
+- **Flower Shop**: (19, 1). Needs Sudowoodo interaction.
+- **Gym**: (24, 7).
+- **Sister's House**: (29, 5).
 
 ### Key Locations
 - **Flower Shop**: (19, 1). Needs Sudowoodo interaction.
