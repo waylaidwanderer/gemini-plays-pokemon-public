@@ -28,10 +28,5 @@
 - Navigation: West Edge (X=5) confirmed blocked/wall.
 - Navigation: Building at (15, 7) confirmed as Name Rater (Dead End).
 - Navigation: Building at (29, 5) confirmed as Flower Sister's House (Dead End).
-- Objective: Locate Route 35 Gatehouse.
-- Obstacle: Row 5 Wall (X=14-17).
-- Strategy: Check Western Path (North of Radio Tower).
-- Path: Go Down to Row 8, Left to X=5. Go North.
-- Hypothesis: Main road continues North on the far West side.
-- Backup: Underground Tunnel (if road is blocked).
+- Navigation: Route 35 Gatehouse found East of the Gym.
 - System: Python sandbox tools are down. Using manual navigation.
