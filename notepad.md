@@ -22,10 +22,10 @@
 - Party: Quilava (26), Sentret (2), Bellsprout (6), Togepi (5), Rattata (8).
 - Route 34 Navigation: To reach the Daycare, travel North along the West path (main road) and enter the yard through the gap in the fence at (11, 15). Watch out for the Officer at (10, 16).
 - Navigation Target: North Exit of Goldenrod (approx 24, 0).
-- Pathing: Found a gap at (32, 7) leading to the far East side.
-  1. Go Up to Row 7.
-  2. Go East through the gap at x=32.
-  3. Head North along Column 33 to the exit.
+- Pathing: Found a gap in the fence at x=31.
+  1. Go Left to x=31.
+  2. Go Up through the gap.
+  3. Head North to the city exit.
 - Received Odd Egg (Turn 7045). Contains unknown Pokemon (fingers crossed for a shiny!).
 
 ### Quest Log: SquirtBottle
