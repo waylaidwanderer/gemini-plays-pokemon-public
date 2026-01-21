@@ -2,9 +2,9 @@
 - Started: Friday, January 16, 2026
 
 ### Navigation Notes (Goldenrod - Map 3_54)
-- **Location**: Goldenrod City (Map 3_54).
-- **Situation**: Game Corner area is fenced in. Backtracking South to Row 28 to access the Main Road (West of x=18).
-- **Goal**: Follow Main Road North to Route 35 Gatehouse.
+- **Strategy**: Use the Underground (Entrance at 21, 25) to bypass the surface walls and reach the North side of Goldenrod.
+- **Location**: South Goldenrod (Game Corner area).
+- **Goal**: Enter Underground -> Go North -> Exit at North end -> Find Route 35 Gatehouse.
 
 ### Key Locations
 - **Flower Shop**: (19, 1). Needs Sudowoodo interaction.
