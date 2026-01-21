@@ -2,10 +2,10 @@
 - Started: Friday, January 16, 2026
 
 ### Navigation Notes (Goldenrod - Map 3_54)
-- **Location**: Goldenrod City (Map 11_2) - Main Road.
-- **Correction**: I am at (18, 2). The gap to the West Corridor is at **Row 8** (x=17 is walkable there).
-- **Action**: Moving South to Row 8, then West to x=16, then North.
-- **Goal**: Reach Route 35 Gatehouse via x=16 corridor.
+- **Location**: Goldenrod City (Map 11_2) - Main Road (North end).
+- **Status**: Clearing phone call.
+- **Action**: Heading South to Row 8 to access the West Corridor (x=16).
+- **Goal**: Reach Route 35 Gatehouse.
 
 ### Key Locations
 - **Flower Shop**: (19, 1). Needs Sudowoodo interaction.
