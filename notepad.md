@@ -36,10 +36,8 @@
 2. Talk to Sister's House (Done). Clue: Sister went to Route 36 to see the wiggly tree.
 3. Find Sister at Route 36.
 - **System**: Python sandbox is down. Relying on manual navigation.
-- Tile Mechanic: `TYPE_3fe2` in Goldenrod City (e.g. Row 3, Col 18) looks like a wall/roof but is walkable pavement. Trust the map data over visuals here.
-- Navigation Plan: Route 35 Exit via West Tracks failed (Dead End at 3, 14).
-- West Path blocked at (5, 8) by Wall.
-- New Plan: Go East to Main Road (x=18). Go East past Gym. Check North-East corner for Route 35 Exit.
-- Dead Ends Confirmed: x=18 (North), x=16 (Row 8->North blocked), x=5 (Row 8 blocked), x=3 (Tracks North).
+- Tile Mechanic: `TYPE_3fe2` is ambiguous! It represents BOTH walkable gray pavement and solid walls/bushes. Must rely on visual confirmation (Screen) rather than just XML types.
+- Navigation Plan: Found a path North at x=31 (East of Sister's House). Heading North to find Route 35 Gatehouse.
+- Dead Ends Confirmed: x=18 (North blocked by building), x=16 (Row 8->North blocked), x=5 (Row 8 blocked), x=3 (Tracks North).
 - Task: Find Floria at Route 36.
 - Sandbox verification: 'check_execution_env' failed at Turn 7713. Sandbox confirmed down. Proceeding with manual navigation.
