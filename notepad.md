@@ -20,9 +20,8 @@
 ### Quests
 - **Sister's House**: (29, 5). The sister is missing (Route 36).
 - **Route 35 Gatehouse**: East Side (x=31) is a dead end.
-- **Status**: Successfully navigated to West Corridor (Row 8) via Row 15 bypass.
-- **Plan**: Go West along Row 8 to x=10, then head North to find Route 35 Exit.
-- **Correction**: "Gap" at x=16 is actually the start of the Westward street.
+- **Plan**: Execute South Loop via Route 34 to access West Tracks (x=4).
+- **Correction**: Row 23 shortcut blocked at x=7. Must go all the way South.
 - **Objective**: Reach North-West corner for Route 35.
 
 ### Status
