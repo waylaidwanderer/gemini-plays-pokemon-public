@@ -30,11 +30,10 @@
 - Navigation: Building at (29, 5) confirmed as Flower Sister's House (Dead End).
 - Navigation: West path (Radio Tower) is a dead end.
 - Navigation: Central path (Flower Shop) is a dead end.
-- Navigation: Path to Route 35 Exit confirmed.
-- Step 1: Go North to Row 10 (current X=19).
-- Step 2: Go East across gaps at X=22 and X=32 to reach Far East Channel (X=36).
-- Step 3: Go North on X=36 to Row 4.
-- Step 4: Go West to X=23.
-- Step 5: Go North to Exit (Row 0).
+- Navigation: Path to Route 35 Exit is ELUSIVE.
+- Failed Theories: West Channel (Blocked), Center Channel (Flower Shop Blocked), Far East Channel (Blocked by Walls).
+- New Strategy: Investigate the "Unknown Bldg" at (31, 21) in the South East.
+- Hypothesis: It might be a passage or have a path behind it.
+- Path: Go West to X=19, South to Row 21, East to X=31.
 - Status: Visited Flower Shop (Dead End).
 - Requirement: Interact with Sudowoodo (Route 36) -> Return to Flower Shop.
