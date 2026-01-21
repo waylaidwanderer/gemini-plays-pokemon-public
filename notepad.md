@@ -17,8 +17,9 @@
 
 ### Quests
 - **Sister's House**: (29, 5). The sister is missing (Route 36).
-- **Route 35 Gatehouse**: Path likely North through fence gap at x=31, x=29, or x=36.
-- **Navigation**: Testing gaps in fence at Row 6.
+- **Route 35 Gatehouse**: Testing x=32 path. XML says wall (2889) but Critique says open.
+- **Navigation**: Move (31,6) -> (31,7) -> (32,7) -> Try (32,6).
+- **Backup**: If x=32 blocked, use Row 20 gap to reach x=36 corridor.
 
 ### Status
 - Badges: 3 (Zephyr, Hive, Plain).
