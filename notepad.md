@@ -1,11 +1,10 @@
 # Pokémon Crystal Playthrough
 - Started: Friday, January 16, 2026
 
-### Navigation Notes (Goldenrod - Map 3_54)
-- **Location**: Goldenrod City (Map 11_2).
-- **Hypothesis**: The "Sister's House" at (29, 5) IS the Route 35 Gatehouse.
-- **Evidence**: Summary says Gatehouse is at (29, 8). NPC inside talks about Route 36. Gatehouses often contain NPCs.
-- **Action**: Return to (29, 5), enter, and try to walk NORTH through the room.
+### Navigation Notes (Goldenrod - Map 11_2)
+- **Current Location**: Exiting Sister's House (Entrance at 29, 5).
+- **Target**: Route 35 Gatehouse.
+- **Plan**: Exit House. Check (29, 8) (South of here) for the Gatehouse entrance. If not there, head West to the main road and go North.
 
 ### Key Locations
 - **Flower Shop**: (19, 1). Needs Sudowoodo interaction.
