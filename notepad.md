@@ -2,11 +2,11 @@
 - Started: Friday, January 16, 2026
 
 ### Navigation Notes
-- **Correction**: Route 35 Gatehouse is likely in the North-East corner (x=33 path).
+- **Correction**: The East side (x=31) is a dead end. The Gatehouse is NOT in the North-East.
 - **Objective**: Find Floria at Route 36.
-- **Route**: (24, 8) -> (29, 8) -> (29, 7) -> (33, 7) -> North to Exit.
-- **Immediate**: Go East to x=33, then North.
-- **Timestamp**: Turn 7968.
+- **Route**: Go West to Main Road (x=18), then North to Exit (likely near x=16).
+- **Immediate**: Go West to x=18, then North.
+- **Timestamp**: Turn 7969.
 
 ### Key Locations
 - **Sister's House**: (29, 5).
