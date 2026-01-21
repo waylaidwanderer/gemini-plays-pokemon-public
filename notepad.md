@@ -25,4 +25,4 @@
 ### Status
 - Badges: 3 (Zephyr, Hive, Plain).
 - Party: Quilava (26), Sentret (2), Bellsprout (6), Togepi (5), Rattata (8).
-- Route 34 Navigation: To reach the Daycare, travel North along the West path (main road) and look for an entrance on the right near the top (around Y=9).
+- Route 34 Navigation: To reach the Daycare, travel North along the West path (main road) and enter the yard through the gap in the fence at (11, 15). Watch out for the Officer at (10, 16).
