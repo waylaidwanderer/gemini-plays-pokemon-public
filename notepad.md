@@ -2,10 +2,10 @@
 - Started: Friday, January 16, 2026
 
 ### Navigation Notes (Goldenrod - Map 11_2)
-- **Current Location**: (6, 9).
-- **Obstacle**: West path (Row 9) is blocked at x=5.
-- **Insight**: Column 18 appears clear North past the Gym/Name Rater.
-- **Plan**: Move North along Column 18 to Route 35. Check for Gatehouse at Row 0.
+- **Current Location**: North Main Road (18, 2).
+- **Observation**: Building with door at (19, 1). Likely the Flower Shop.
+- **Plan**: Move North to Row 0. If no transition, check the building or explore West.
+- **Goal**: Find Route 35 Exit.
 
 ### Key Locations
 - **Flower Shop**: (19, 1). Needs Sudowoodo interaction.
