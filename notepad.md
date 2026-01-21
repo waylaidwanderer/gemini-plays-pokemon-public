@@ -7,8 +7,8 @@
   - **East (Gym)**: Blocked at Row 6-19.
   - **Blocked**: West Tracks at (3, 16) by Tourist NPC ("So this is the Radio Tower...").
 - **Blocked**: East Highway at Flower Shop.
-- **Investigating**: Door at (9, 13) - North of Radio Tower street.
-- **Goal**: Find North Exit (Route 35) or Underground Entrance.
+- **Inside**: Underground Entrance (South) at (9, 13).
+- **Goal**: Navigate Underground to reach North Goldenrod.
 
 ### Key Locations
 - **Flower Shop**: (19, 1). Needs Sudowoodo interaction.
