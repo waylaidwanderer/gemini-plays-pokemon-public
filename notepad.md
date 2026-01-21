@@ -8,11 +8,11 @@
 
 ### Navigation Notes (Goldenrod)
 - **North Exit Puzzle**: The path to Route 35 is blocked by walls.
-  - **Center**: Blocked.
+  - **Center (Flower Shop)**: Blocked at Row 1 (Dead End at 19, 5).
   - **East (Gym)**: Blocked at Row 6-19.
+  - **West**: Investigating path west of Column 15.
   - **Goal**: Reach Route 36 (North Exit).
-- **Strategy**: Find a path to the North East quadrant (x > 31, y < 6).
-- **Route 34**: Went there to hatch egg/level up. Returning North now.
+- **Strategy**: Backtrack South to Row 8/10, then head West to find a street North.
 
 ### Key Locations
 - **Flower Shop**: (19, 1). Needs Sudowoodo interaction.
