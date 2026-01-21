@@ -2,10 +2,11 @@
 - Started: Friday, January 16, 2026
 
 ### Navigation Notes (Goldenrod - Map 11_2)
-- **Current Location**: Central Area (12, 8).
-- **Observation**: Row of buildings blocks North (Row 7/5). Doors at (12, 7) and (15, 7).
-- **Plan**: Move West along Row 8 to find a gap or reach the Tracks.
-- **Hypothesis**: Access to Route 35 is via the Tracks (West side) or a gap I haven't seen yet.
+- **Current Location**: Central West (6, 8).
+- **Insight**: Row 5 and Column 4 appear to be solid walls separating the North-West.
+- **Hypothesis**: The North-West area (Route 35 Exit) is accessible via the Tracks (West side).
+- **Obstacle**: Cannot access Tracks from Central area due to Radio Tower wall.
+- **Plan**: Execute "South Loop". Go South to Route 34 entrance, switch to the far West lane (Tracks), then head North.
 
 ### Key Locations
 - **Flower Shop**: (19, 1). Needs Sudowoodo interaction.
