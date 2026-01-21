@@ -38,7 +38,8 @@
 - **System**: Python sandbox is down. Relying on manual navigation.
 - Tile Mechanic: `TYPE_3fe2` in Goldenrod City (e.g. Row 3, Col 18) looks like a wall/roof but is walkable pavement. Trust the map data over visuals here.
 - Navigation Plan: Route 35 Exit via West Tracks failed (Dead End at 3, 14).
-- New Plan: Escape via Row 18 to Main Road. Head North to Row 8. Check for gap at x=16.
-- Dead Ends Confirmed: x=18 (North), x=16 (Row 8->North?), x=6 (Row 8->North), x=3 (Tracks North).
+- West Path blocked at (5, 8) by Wall.
+- New Plan: Go East to Main Road (x=18). Go East past Gym. Check North-East corner for Route 35 Exit.
+- Dead Ends Confirmed: x=18 (North), x=16 (Row 8->North blocked), x=5 (Row 8 blocked), x=3 (Tracks North).
 - Task: Find Floria at Route 36.
 - Sandbox verification: 'check_execution_env' failed at Turn 7713. Sandbox confirmed down. Proceeding with manual navigation.
