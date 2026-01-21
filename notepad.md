@@ -13,7 +13,7 @@
 
 ### Quests
 - **Sister's House**: (29, 5). The sister is missing (Route 36).
-- **Route 35 Gatehouse**: House at (33, 9) was a dead end.
+- **Route 35 Gatehouse**: House at (33, 9) confirmed as PP Info House (Dead End).
 - **Next Target**: Check fence gap at (31, 6).
 - **Backup Plan**: If (31, 6) is blocked, re-examine the area North of the Gym (Row 4-5) for Cut trees or hidden paths.
 
