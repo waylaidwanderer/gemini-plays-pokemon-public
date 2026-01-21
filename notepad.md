@@ -25,3 +25,4 @@
 ### Status
 - Badges: 3 (Zephyr, Hive, Plain).
 - Party: Quilava (26), Sentret (2), Bellsprout (6), Togepi (5), Rattata (8).
+- Fence Analysis: The fence separating the west path from the Daycare (East) seems to open up around Y=32. Heading south to loop around.
