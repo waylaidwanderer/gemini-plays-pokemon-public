@@ -37,6 +37,6 @@
 3. Find Sister at Route 36.
 - **System**: Python sandbox is down. Relying on manual navigation.
 - Tile Mechanic: `TYPE_3fe2` in Goldenrod City (e.g. Row 3, Col 18) looks like a wall/roof but is walkable pavement. Trust the map data over visuals here.
-- Navigation Plan: Go East to x=9 to avoid the Officer at (8, 17). Go South to Row 32. Cross West to the Main Road tracks (x=1). Go North all the way to the Gatehouse.
-- Rationale: The tracks (x=0,1) are separated by a fence (x=2). Access is only possible from the South (Row 20+ or Route 34).
+- Navigation Plan: Continue South along x=18 to Row 32. Then go West to the Main Road tracks (x=1). Go North all the way to the Gatehouse.
+- Rationale: The tracks (x=0,1) are separated by a fence (x=2). Access is only possible from the South (Row 32+).
 - Task: Find Floria at Route 36.
