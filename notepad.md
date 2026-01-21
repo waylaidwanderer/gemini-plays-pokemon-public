@@ -29,9 +29,6 @@
 - Navigation: Building at (15, 7) confirmed as Name Rater (Dead End).
 - Navigation: Building at (29, 5) confirmed as Flower Sister's House (Dead End).
 - Navigation: Building at (33, 9) is the "PP House" (Dead End).
-- Navigation: Route 35 Gatehouse location is elusive.
-- Obstacle: Continuous wall at X=35 from Row 6 to Row 19?
-- Obstacle: Row 8 is blocked from X=32 to X=35.
-- Strategy: Exit PP House and head North. The Gatehouse must be the North exit of the city.
-- Note: Flower Sister's House at (29, 5) is a dead end.
-- System: Python sandbox tools are down. Using manual navigation.
+- Strategy: Head North along the central path (X=19) past the Gym.
+- Objective: Visit Flower Shop at (19, 1) for SquirtBottle.
+- Objective: Find Route 35 Gatehouse at the northern city limit.
