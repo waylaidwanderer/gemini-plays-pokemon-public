@@ -17,9 +17,9 @@
 
 ### Quests
 - **Sister's House**: (29, 5). The sister is missing (Route 36).
-- **Route 35 Gatehouse**: Navigating North via West Tracks (x=3).
-- **Observation**: Tile (3, 14) is marked as TYPE_2889 (Wall?) in XML but visually is tracks. Testing traversability.
-- **Hypothesis**: Tracks lead to Magnet Train Station or North Exit.
+- **Route 35 Gatehouse**: West Tracks (x=3) are a DEAD END at (3, 14).
+- **Navigation**: Backtracking South. Heading to check the building at (9, 5) (North of Game Corner).
+- **Hypothesis**: The Gatehouse might be the building at (9, 5), or accessible via the Underground.
 
 ### Status
 - Badges: 3 (Zephyr, Hive, Plain).
