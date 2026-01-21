@@ -28,5 +28,9 @@
 - Navigation: West Edge (X=5) confirmed blocked/wall.
 - Navigation: Building at (15, 7) confirmed as Name Rater (Dead End).
 - Navigation: Building at (29, 5) confirmed as Flower Sister's House (Dead End).
-- Navigation: Route 35 Gatehouse found East of the Gym.
+- Navigation: Route 35 Gatehouse location is elusive.
+- Obstacle: Continuous wall at X=35 from Row 6 to Row 19?
+- Obstacle: Row 8 is blocked from X=32 to X=35.
+- Strategy: Investigating building at (33, 9) which has a door. It might be the pass-through or the Gatehouse.
+- Note: Flower Sister's House at (29, 5) is a dead end.
 - System: Python sandbox tools are down. Using manual navigation.
