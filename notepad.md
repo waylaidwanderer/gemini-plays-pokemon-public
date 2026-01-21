@@ -13,9 +13,9 @@
 
 ### Quests
 - **Sister's House**: (29, 5). The sister is missing (Route 36).
-- **Route 35 Gatehouse**: Still searching. House at (33, 9) was just a PP info house.
-- **Previous Checks**: West Tracks (x=3) blocked. West side (x=7) blocked. East side walls seem solid.
-- **Next Step**: Check the fence gap at (31, 6) again. Critique suggested it might be open.
+- **Route 35 Gatehouse**: Investigation continues. House at (33, 9) was dead end (PP info).
+- **Current Target**: Fence gap at (31, 6).
+- **Backup**: If (31, 6) fails, check around the Gym again or look for Cut trees.
 
 ### Status
 - Badges: 3 (Zephyr, Hive, Plain).
