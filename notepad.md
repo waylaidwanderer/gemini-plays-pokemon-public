@@ -11,14 +11,11 @@
 
 ### Key Locations
 - **Sister's House**: (29, 5).
-- **Route 34 Exit**: South edge (Row 35).
-- **Tracks**: West edge (Column 3-4).
-
-### Key Locations
 - **Flower Shop**: (19, 1). Needs Sudowoodo interaction.
 - **Gym**: (24, 7).
-- **Sister's House**: (29, 5).
-- **Route 34 Exit**: South edge of map (Row 35).
+- **Route 34 Exit**: South edge (Row 35).
+- **Tracks**: West edge (Column 3-4).
+- **Underground Entrances**: South at (11, 29), North presumably near Game Corner (9, 5).
 
 ### Quests
 - **Sister's House**: (29, 5). The sister is missing (Route 36).
