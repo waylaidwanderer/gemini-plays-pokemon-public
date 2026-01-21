@@ -2,9 +2,9 @@
 - Started: Friday, January 16, 2026
 
 ### Navigation Notes (Goldenrod - Map 3_54)
-- **Location**: Entering Underground (South Entrance).
-- **Goal**: Go North through the tunnel to reach the North Entrance/Exit.
-- **Next Step**: Locate Route 35 Gatehouse upon exiting.
+- **Location**: Underground (Map 3_53).
+- **Orientation**: Entered from Game Corner (South) at (3, 2).
+- **Goal**: Traverse the tunnel by heading "Down" (screen-wise) to reach the North Exit at the other end.
 
 ### Key Locations
 - **Flower Shop**: (19, 1). Needs Sudowoodo interaction.
