@@ -17,9 +17,9 @@
 
 ### Quests
 - **Sister's House**: (29, 5). The sister is missing (Route 36).
-- **Route 35 Gatehouse**: Investigating (9, 5). East (x=32) and West Tracks (x=3) were dead ends.
-- **Navigation**: Using x=19 to bypass NPC at (18, 16), then Row 9 West to (9, 5).
-- **Hypothesis**: The building at (9, 5) might be the Gatehouse or lead to it (e.g. via Underground).
+- **Route 35 Gatehouse**: Entering building at (9, 5) to investigate.
+- **Previous Checks**: East (x=32) blocked by fence. West Tracks (x=3) blocked by wall/NPC.
+- **Hypothesis**: This building is either the Gatehouse or the Underground Entrance.
 
 ### Status
 - Badges: 3 (Zephyr, Hive, Plain).
