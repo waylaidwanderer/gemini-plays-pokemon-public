@@ -2,9 +2,9 @@
 - Started: Friday, January 16, 2026
 
 ### Navigation Notes (Goldenrod - Map 3_54)
-- **Location**: Goldenrod City (Map 3_54).
-- **Navigation**: x=7 was blocked. Trying Central Avenue (x=12).
-- **Goal**: Reach Route 35 Gatehouse (North Exit).
+- **Location**: Goldenrod City (West Side).
+- **Status**: West side is a dead end (Wall at Row 21).
+- **Strategy**: Return to Underground, go back to Game Corner (East Side), and find the connection to the Main Road from there.
 
 ### Key Locations
 - **Flower Shop**: (19, 1). Needs Sudowoodo interaction.
