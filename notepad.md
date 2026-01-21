@@ -5,7 +5,7 @@
 - **Current Location**: (6, 9).
 - **Obstacle**: West path (Row 9) is blocked at x=5.
 - **Insight**: Column 18 appears clear North past the Gym/Name Rater.
-- **Plan**: Go East to Column 18, then North to Exit.
+- **Plan**: Move North along Column 18 to Route 35. Check for Gatehouse at Row 0.
 
 ### Key Locations
 - **Flower Shop**: (19, 1). Needs Sudowoodo interaction.
