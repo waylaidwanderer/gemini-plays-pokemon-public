@@ -2,9 +2,9 @@
 - Started: Friday, January 16, 2026
 
 ### Navigation Notes (Goldenrod - Map 3_54)
-- **Location**: Underground (Tunnel).
-- **Navigation**: Heading North to (3, 2) to return to Game Corner (East Side).
-- **Plan**: Once at Game Corner, move South to find a gap in the fence to access the Main Road.
+- **Observation**: The Underground connects the SW (PokeCenter) and SE (Game Corner) areas but does not lead North.
+- **Navigation**: Heading South to Row 30, then East to the center (x=10-15) to find the Main Road North.
+- **Goal**: Find the path North to Route 35 Gatehouse.
 
 ### Key Locations
 - **Flower Shop**: (19, 1). Needs Sudowoodo interaction.
