@@ -2,10 +2,9 @@
 - Started: Friday, January 16, 2026
 
 ### Navigation Notes (Goldenrod - Map 3_54)
-- **Location**: Goldenrod City (Map 11_2) - South-West.
-- **Goal**: Reach Route 35 Gatehouse (North Exit).
-- **Navigation**: Head East from (11, 30) to the Main Road (approx x=24), then go North past the Gym.
-- **Quest Chain**: Beat Whitney (Done) -> Get SquirtBottle (Need to find Sister at Route 36 first?).
+- **Strategy**: West Side is a dead end. Using Underground to return to East Side.
+- **Goal**: Enter Underground at (11, 29) -> Traverse to East Exit -> Find Main Road (x=20+) -> Go North.
+- **Note**: Main Road is East of Game Corner.
 
 ### Key Locations
 - **Flower Shop**: (19, 1). Needs Sudowoodo interaction.
