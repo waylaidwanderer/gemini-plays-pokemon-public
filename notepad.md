@@ -3,9 +3,9 @@
 
 ### Navigation Notes
 - **Correction**: Main Road (x=18) dead-ends at the Flower Shop (Row 1). Wall at x=17 blocks West access.
-- **Route**: Backtrack South to Row 8, West to x=13, then North to Exit.
-- **Immediate**: South to (18, 8), West to (13, 8), North.
-- **Timestamp**: Turn 7973.
+- **Route**: Found the path! Heading North from x=13 (West of Name Rater) to the Gatehouse.
+- **Immediate**: Go North to Row 0.
+- **Timestamp**: Turn 7974.
 
 ### Key Locations
 - **Sister's House**: (29, 5).
