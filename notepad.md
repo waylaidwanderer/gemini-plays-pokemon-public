@@ -17,8 +17,8 @@
 
 ### Quests
 - **Sister's House**: (29, 5). The sister is missing (Route 36).
-- **Route 35 Gatehouse**: x=32 path blocked by fence. Heading West to check x=9 (near Underground Exit N).
-- **Navigation**: Taking Row 8 West highway to x=9.
+- **Route 35 Gatehouse**: Likely at the north end of the main avenue (West side).
+- **Navigation**: Traversing West on Row 8 to reach the main street, then heading North.
 
 ### Status
 - Badges: 3 (Zephyr, Hive, Plain).
