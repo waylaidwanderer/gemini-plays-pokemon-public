@@ -45,3 +45,7 @@
 - Objective: Find Route 35 Gatehouse. Confirmed to be North of Goldenrod.
 - Task: Find Floria at Route 36.
 - Sandbox verification: 'check_execution_env' failed at Turn 7713. Sandbox confirmed down. Proceeding with manual navigation.
+- Reflection (Turn 7790): Stuck finding Route 35 Exit for ~50 turns. Sandbox down.
+- Strategy: Manually verifying map edges. Currently checking East side (Col 32+) based on ambiguous XML data.
+- Observation from XML: Row 0 has 'TYPE_3fe2' at x=14, 15, 16. This suggests the exit is Top-Center-Left, behind the Name Rater/Flower Shop block. Access is the puzzle.
+- Hypothesis: If East fails, re-examine the "Wall" at x=13/14 around Row 5.
