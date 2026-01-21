@@ -2,9 +2,9 @@
 - Started: Friday, January 16, 2026
 
 ### Navigation Notes (Goldenrod - Map 3_54)
-- **Correction**: Underground connects SE Goldenrod (Game Corner) and SW Goldenrod (PokeCenter). It is NOT a path to the North.
-- **Navigation**: Returning to SE Side (Game Corner).
-- **Goal**: Find Main Road on surface (likely between x=12 and x=20) and head North.
+- **Location**: Goldenrod City (East Side - Game Corner).
+- **Navigation**: Heading South to Row 30 to bypass fences, then West to Main Road.
+- **Goal**: Reach Route 35 Gatehouse (North Exit).
 
 ### Key Locations
 - **Flower Shop**: (19, 1). Needs Sudowoodo interaction.
