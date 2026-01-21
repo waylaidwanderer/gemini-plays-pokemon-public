@@ -3,9 +3,11 @@
 
 ### Navigation Notes
 - **Correction**: Main Road (x=18) dead-ends at the Flower Shop (Row 1). Wall at x=17 blocks West access.
-- **Route**: Found the path! Heading North from x=13 (West of Name Rater) to the Gatehouse.
-- **Immediate**: Go North to Row 0.
-- **Timestamp**: Turn 7974.
+- **Correction**: The "Path" at x=13 is a dead end (Building wall at Row 5).
+- **Hypothesis**: The Route 35 Exit is on the far West side (Tracks/Radio Tower area) or finding a gap in the buildings.
+- **Plan**: Go South to Row 10, then West to x=4 (Tracks). Check for path North.
+- **Note**: TYPE_2889 tiles at Row 5 seem to be building walls.
+- **Timestamp**: Turn 7976.
 
 ### Key Locations
 - **Sister's House**: (29, 5).
