@@ -29,8 +29,8 @@
 - Route 34 Navigation: To reach the Daycare, travel North along the West path (main road) and enter the yard through the gap in the fence at (11, 15). Watch out for the Officer at (10, 16).
 - Route 34 Item Ball at (7, 30) is blocked by a ledge at x=9 (One-way West->East?). Must approach from Goldenrod City/West side.
 - Confirmed: Wall at x=35 blocks East access from Row 6-19.
-- Tracks blocked at (3, 16) by Rude Tourist. Must find another way North.
-- Plan: Head East to Main Avenue (x=18), then North to Sister's House (29, 5). Check for exit in the unseen area at North-East corner (Row 0-4, Col 29+).
-- Flower Shop path (x=19) is likely a cul-de-sac.
+- Tracks blocked at (3, 16) by Rude Tourist.
+- Plan: Continue East to check North-East corner (Sister's House area) for hidden exit.
+- Flower Shop path (x=19) leads to dead end.
 - East path (x=32) blocked at Row 9/6.
-- Exit is likely at North-West (x=14-16, y=0), accessible via Tracks.
+- Sandbox is down; manual navigation required.
