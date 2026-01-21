@@ -2,9 +2,9 @@
 - Started: Friday, January 16, 2026
 
 ### Navigation Notes (Goldenrod - Map 3_54)
-- **Strategy**: West Side is a dead end. Using Underground to return to East Side.
-- **Goal**: Enter Underground at (11, 29) -> Traverse to East Exit -> Find Main Road (x=20+) -> Go North.
-- **Note**: Main Road is East of Game Corner.
+- **Strategy**: West Side (PokeCenter) is a confirmed dead end (blocked at Row 21).
+- **Action**: Return to East Side (Game Corner) via Underground.
+- **Goal**: Find the Main Road North from the East Side.
 
 ### Key Locations
 - **Flower Shop**: (19, 1). Needs Sudowoodo interaction.
