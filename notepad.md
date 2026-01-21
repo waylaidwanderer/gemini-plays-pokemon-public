@@ -30,7 +30,8 @@
 - Navigation: Building at (29, 5) confirmed as Flower Sister's House (Dead End).
 - Navigation: West path (Radio Tower) is a dead end.
 - Navigation: Central path (Flower Shop) is a dead end.
-- Navigation: North Exit is at X=23-26 (East Side).
-- Path: Go North to Row 8. Go East to X=25. Go North to Exit.
-- Status: Visited Flower Shop (Dead End). Need to access East side.
+- Navigation: North Exit is via the Far East Channel (X=36).
+- Path: Go South from (13, 8) to Row 20. Cross East to X=36. Go North to Top.
+- Obstacle: Row 8 to Row 19 is blocked by a wall at X=35/34.
+- Status: Visited Flower Shop (Dead End).
 - Requirement: Interact with Sudowoodo (Route 36) -> Return to Flower Shop.
