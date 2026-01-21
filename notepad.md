@@ -2,10 +2,10 @@
 - Started: Friday, January 16, 2026
 
 ### Navigation Notes (Goldenrod - Map 3_54)
-- **Location**: Goldenrod City (Map 11_2) - Main Road.
-- **Action**: Moving South to Row 8 to access the West Corridor (x=16).
-- **Goal**: Follow x=16 North to the Gatehouse.
-- **Lesson**: Don't assume walls are solid; check coordinates. The gap was at Row 8/7 all along.
+- **Location**: Goldenrod City (Map 11_2).
+- **Hypothesis**: The "Sister's House" at (29, 5) IS the Route 35 Gatehouse.
+- **Evidence**: Summary says Gatehouse is at (29, 8). NPC inside talks about Route 36. Gatehouses often contain NPCs.
+- **Action**: Return to (29, 5), enter, and try to walk NORTH through the room.
 
 ### Key Locations
 - **Flower Shop**: (19, 1). Needs Sudowoodo interaction.
