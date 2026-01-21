@@ -3,12 +3,11 @@
 
 ### Navigation Notes
 - **Correction**: Main Road (x=18) dead-ends at the Flower Shop (Row 1). Wall at x=17 blocks West access.
-- **Correction**: The "Path" at x=13 is a dead end.
-- **Strategy**: Underground Tunnel Bypass.
-- **Hypothesis**: The Underground connects South Goldenrod to the North Exit (Route 35).
-- **Plan**: Enter Underground South (11, 29) -> Exit Underground North -> Find Gatehouse.
-- **Immediate**: Go South to (11, 29).
-- **Timestamp**: Turn 7987.
+- **Correction**: The "Gap" at Row 22 is blocked at x=16.
+- **Discovery**: Row 15 is the Key Crossing from East (Main Road) to West (Radio Tower side).
+- **Plan**: Go North to Row 15 -> West to x=8 -> South to Row 29 -> East to Underground Entrance.
+- **Immediate**: Escape dead end (Up, Right to Main Road).
+- **Timestamp**: Turn 7993.
 
 ### Key Locations
 - **Sister's House**: (29, 5).
