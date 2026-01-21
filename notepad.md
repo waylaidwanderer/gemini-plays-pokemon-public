@@ -34,3 +34,8 @@
   4. Go West along Row 3 to x=23-26.
   5. Go North to the Exit.
 - Received Odd Egg (Turn 7045). Contains unknown Pokemon (fingers crossed for a shiny!).
+
+### Quest Log: SquirtBottle
+1. Talk to Flower Shop (Done).
+2. Talk to Sister's House (Done). Clue: Sister went to Route 36 to see the wiggly tree.
+3. Find Sister at Route 36.
