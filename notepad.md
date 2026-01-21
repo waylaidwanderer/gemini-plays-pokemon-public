@@ -17,9 +17,9 @@
 
 ### Quests
 - **Sister's House**: (29, 5). The sister is missing (Route 36).
-- **Route 35 Gatehouse**: Checking West Tracks (x=3).
-- **Navigation**: moving to (3, 16).
-- **Backup**: If blocked, return to East side and try gaps at (31, 6) or (29, 6) which I missed earlier due to a wall at (32, 6).
+- **Route 35 Gatehouse**: Investigating West Tracks (x=3).
+- **Navigation**: Moving to (3, 16) to check path.
+- **Observations**: Move Tutor detected at (12, 16).
 
 ### Status
 - Badges: 3 (Zephyr, Hive, Plain).
