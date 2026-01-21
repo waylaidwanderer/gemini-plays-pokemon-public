@@ -30,10 +30,9 @@
 - Navigation: Building at (29, 5) confirmed as Flower Sister's House (Dead End).
 - Navigation: West path (Radio Tower) is a dead end.
 - Navigation: Central path (Flower Shop) is a dead end.
-- Navigation: Path to Route 35 Exit is ELUSIVE.
-- Failed Theories: West Channel (Blocked), Center Channel (Flower Shop Blocked), Far East Channel (Blocked by Walls).
-- New Strategy: Investigate the "Unknown Bldg" at (31, 21) in the South East.
-- Hypothesis: It might be a passage or have a path behind it.
-- Path: Go West to X=19, South to Row 21, East to X=31.
+- Navigation: Path to Route 35 Exit (North) is blocked/elusive.
+- Strategy: Exiting South to Route 34 (Daycare) first.
+- Hypothesis: Re-entering Goldenrod from the South might reveal new paths or resetting the map view might help.
+- Objective: Reach Route 34, visit Daycare, then return to find Route 35 Exit.
 - Status: Visited Flower Shop (Dead End).
 - Requirement: Interact with Sudowoodo (Route 36) -> Return to Flower Shop.
