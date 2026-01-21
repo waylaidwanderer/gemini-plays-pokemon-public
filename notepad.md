@@ -2,10 +2,10 @@
 - Started: Friday, January 16, 2026
 
 ### Navigation Notes (Goldenrod - Map 11_2)
-- **Current Location**: Backtracking East from x=6.
-- **Target**: North-East Corner (Row 0, Col 32+).
-- **Correction**: The West side (x=6) at Row 8 is a dead end. The "Main Road" tracks are blocked by an NPC at (3, 16).
-- **Hypothesis**: The Exit to Route 35 is in the North-East corner, past the Sister's House (x=29, y=5). Heatmap shows Row 0-1 there are unseen.
+- **Current Location**: Central North area (x=12, y=8).
+- **Target**: North Exit to Route 35 (Row 0).
+- **Route**: Found a path North along column 13.
+- **Correction**: The exit is likely centrally located, not in the corners.
 
 ### Key Locations
 - **Flower Shop**: (19, 1). Needs Sudowoodo interaction.
