@@ -2,11 +2,10 @@
 - Started: Friday, January 16, 2026
 
 ### Navigation Notes (Goldenrod - Map 11_2)
-- **Current Location**: Central North area (x=12, y=8).
+- **Current Location**: Sister's House (Map 11_8) at (29, 5).
 - **Target**: North Exit to Route 35 (Row 0).
-- **Route**: Confirmed door at (9, 5) is North Underground Entrance (Map 3_54).
-- **Correction**: This is not the way to Route 35. Exit is likely North-East (x>20, y<10).
-- **Plan**: Exit building, go East to Column 20+, then North.
+- **Confirmed**: Building at (29, 5) is Sister's House, NOT Route 35 Gatehouse.
+- **Hypothesis**: Route 35 Exit is likely further North/East or via the tracks.
 
 ### Key Locations
 - **Flower Shop**: (19, 1). Needs Sudowoodo interaction.
