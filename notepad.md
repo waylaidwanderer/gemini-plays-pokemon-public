@@ -2,17 +2,17 @@
 - Started: Friday, January 16, 2026
 
 ### Objectives
-1. **Primary**: Go to Route 34 (South).
-2. **Secondary**: Get SquirtBottle.
-3. **Tertiary**: Find Route 35 Gatehouse (North).
+1. **Primary**: Get SquirtBottle.
+2. **Secondary**: Investigate Sudowoodo on Route 36.
+3. **Tertiary**: Hatch Odd Egg.
 
 ### Navigation Notes (Goldenrod)
-- **North Exit Puzzle**: The path to Route 35 is blocked by complex walls.
-  - **Center (Flower Shop)**: Blocked at Row 1.
-  - **West (Radio Tower)**: Dead end.
+- **North Exit Puzzle**: The path to Route 35 is blocked by walls.
+  - **Center**: Blocked.
   - **East (Gym)**: Blocked at Row 6-19.
-  - **Far East**: Need to find a crossover point. Row 5 looks promising but access is tricky.
-- **Strategy**: Exiting South to Route 34 first.
+  - **Goal**: Reach Route 36 (North Exit).
+- **Strategy**: Find a path to the North East quadrant (x > 31, y < 6).
+- **Route 34**: Went there to hatch egg/level up. Returning North now.
 
 ### Key Locations
 - **Flower Shop**: (19, 1). Needs Sudowoodo interaction.
