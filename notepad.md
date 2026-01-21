@@ -2,9 +2,9 @@
 - Started: Friday, January 16, 2026
 
 ### Navigation Notes
-- **Strategy**: South Loop (active).
-- **Reasoning**: Direct path North blocked by Officer (x=18) and Tourist (x=3). Row 23 shortcut blocked by wall.
-- **Plan**: Exit Goldenrod South to Route 34 -> Go West to x=4 (Tracks) -> Re-enter Goldenrod Northbound.
+- **Strategy**: Underground Bypass (active).
+- **Reasoning**: South Loop on Route 34 requires jumping a one-way ledge into Ilex Forest, which is the wrong direction.
+- **Plan**: Return to Goldenrod -> Enter Underground at (11, 29) -> Exit North -> Find path West to Route 35 Gatehouse.
 - **Timestamp**: Turn 8013.
 
 ### Key Locations
