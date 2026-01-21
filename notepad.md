@@ -37,6 +37,6 @@
 3. Find Sister at Route 36.
 - **System**: Python sandbox is down. Relying on manual navigation.
 - Tile Mechanic: `TYPE_3fe2` in Goldenrod City (e.g. Row 3, Col 18) looks like a wall/roof but is walkable pavement. Trust the map data over visuals here.
-- Navigation Plan: Continue South along x=18 to Row 32. Then go West to the Main Road tracks (x=1). Go North all the way to the Gatehouse.
-- Rationale: The tracks (x=0,1) are separated by a fence (x=2). Access is only possible from the South (Row 32+).
+- Navigation Plan: Go South past the Daycare to finding a gap in the fence (likely near the Ilex Forest gate). Cross to the West side (x<9), then follow the tracks North back to Goldenrod.
+- Current Status: In battle with Wild Abra! Attempting to catch.
 - Task: Find Floria at Route 36.
