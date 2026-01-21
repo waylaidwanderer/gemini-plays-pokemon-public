@@ -3,9 +3,9 @@
 
 ### Navigation Notes (Goldenrod - Map 3_54)
 - **Location**: Goldenrod City (Map 11_2) - Main Road.
-- **Action**: Heading North to Row 4.
-- **Investigation**: Inspecting the wall at x=17/16 for a Cut tree or hidden path.
-- **Logic**: Map shows a walkable path at x=16 starting at Row 3 going North. The entrance must be around Row 4 or 5.
+- **Action**: Inspecting West Wall (x=17) at Row 4, 3, 2 and End of Road (x=18, y=1).
+- **Hypothesis**: Hidden entrance or Cut tree leads to the x=16 corridor.
+- **Fact**: Route 35 is North. The exit MUST be here somewhere.
 
 ### Key Locations
 - **Flower Shop**: (19, 1). Needs Sudowoodo interaction.
