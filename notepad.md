@@ -37,5 +37,5 @@
 3. Find Sister at Route 36.
 - **System**: Python sandbox is down. Relying on manual navigation.
 - Tile Mechanic: `TYPE_3fe2` in Goldenrod City (e.g. Row 3, Col 18) looks like a wall/roof but is walkable pavement. Trust the map data over visuals here.
-- Navigation Plan: Found a gap in the wall at x=18 (Rows 4-8). Go West to x=18, then North through the gap, then West to x=16 to reach the exit at (16, 0).
+- Navigation Plan: Exit Game Corner. I am currently at y=5 in the city, which is North of the blockage at y=16. The Route 35 exit must be nearby. I will check the area West of the Game Corner (x<9) and East (x>9) for a path North to y=0.
 - Correction: The summary indicates I've been to the Route 35 Gatehouse at (29, 8) before. I likely left to clear a party slot and got sidetracked.
