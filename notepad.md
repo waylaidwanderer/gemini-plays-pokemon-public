@@ -3,8 +3,9 @@
 
 ### Navigation Notes (Route 34 - Map 11_1)
 - **Current Location**: Route 34 (South of Goldenrod).
-- **Correction**: Route 36 is NORTH of Goldenrod. I do not need to access the West Tracks of Goldenrod to get there.
-- **Plan**: Verify West connectivity. If blocked/difficult, return North to Goldenrod, then go North-East to Route 35 Gatehouse.
+- **Correction**: Confirmed Route 35 Gatehouse location at (29, 8). I previously visited it but got sidetracked.
+- **Plan**: Return North to Goldenrod, go to (29, 8) Gatehouse, and proceed to Route 35 to find the Sister at Route 36.
+- **Abort**: South Loop strategy is based on incorrect assumptions about reaching Route 36.
 - **Timestamp**: Turn 7952.
 
 ### Key Locations
