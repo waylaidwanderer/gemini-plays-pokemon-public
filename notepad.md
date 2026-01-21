@@ -2,10 +2,10 @@
 - Started: Friday, January 16, 2026
 
 ### Navigation Notes (Goldenrod - Map 11_2)
-- **Current Location**: North Main Road (18, 2).
-- **Observation**: Building with door at (19, 1). Likely the Flower Shop.
-- **Plan**: Move North to Row 0. If no transition, check the building or explore West.
+- **Current Location**: Outside Gym (17, 8).
 - **Goal**: Find Route 35 Exit.
+- **Fact**: Column 17/18 blocked by Gym/Flower Shop.
+- **Plan**: Move West past the Gym to find the open road North (possibly Column 12 or 10).
 
 ### Key Locations
 - **Flower Shop**: (19, 1). Needs Sudowoodo interaction.
