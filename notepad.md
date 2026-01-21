@@ -37,3 +37,5 @@
 - Exit Hypothesis: Route 35 Exit is in the North-West corner, accessible via the tracks/Radio Tower path.
 - Facts: Main Avenue (x=18) and East Side (x=29) are dead ends.
 - Sandbox status: Down.
+- **Transition**: Goldenrod (18, 35) connects to Route 34 (8, 0).
+- **Plan**: Move West in Route 34 to finding the Tracks entrance (likely x=4 or lower).
