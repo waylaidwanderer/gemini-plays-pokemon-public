@@ -2,9 +2,10 @@
 - Started: Friday, January 16, 2026
 
 ### Navigation Notes (Goldenrod - Map 3_54)
-- **Location**: Goldenrod City (East Side - Near Underground Entrance).
-- **Navigation**: Investigating potential path North at x=13 (between Game Corner area and Gym).
-- **Goal**: Reach Route 35 Gatehouse.
+- **Location**: Goldenrod City (Map 11_2) - Game Corner Entrance.
+- **Action**: Clearing phone call with Joey.
+- **Navigation Plan**: Move South to Row 8 (to bypass wall at x=14), then head East to the Main Road (approx x=18-24).
+- **Goal**: Find Route 35 Gatehouse North of the Gym.
 
 ### Key Locations
 - **Flower Shop**: (19, 1). Needs Sudowoodo interaction.
