@@ -20,9 +20,10 @@
 ### Quests
 - **Sister's House**: (29, 5). The sister is missing (Route 36).
 - **Route 35 Gatehouse**: East Side (x=31) is a dead end.
-- **New Lead**: Gap to West Corridor (x=16) found at Row 8.
-- **Plan**: Exit Sister's House -> Go to Main Road (18, 8) -> Go West to x=16 -> Go North to Gatehouse.
-- **Fact**: Sister is at Route 36 (Sudowoodo).
+- **Status**: Successfully navigated to West Corridor (Row 8) via Row 15 bypass.
+- **Plan**: Go West along Row 8 to x=10, then head North to find Route 35 Exit.
+- **Correction**: "Gap" at x=16 is actually the start of the Westward street.
+- **Objective**: Reach North-West corner for Route 35.
 
 ### Status
 - Badges: 3 (Zephyr, Hive, Plain).
