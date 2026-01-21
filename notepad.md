@@ -37,5 +37,5 @@
 3. Find Sister at Route 36.
 - **System**: Python sandbox is down. Relying on manual navigation.
 - Tile Mechanic: `TYPE_3fe2` in Goldenrod City (e.g. Row 3, Col 18) looks like a wall/roof but is walkable pavement. Trust the map data over visuals here.
-- Navigation Plan: Exit Flower Shop. Find Route 35 Gatehouse (likely North/West of here). Go to Route 36. Talk to Floria (Sister) near Sudowoodo. Return to Flower Shop to get SquirtBottle.
-- Correction: The girl in the shop is useless until I talk to Floria at Route 36.
+- Navigation Plan: Go South to Row 8 to clear the wall. Then go West to the main road (x<17). Then go North to find the Route 35 Gatehouse.
+- Task: Find Floria at Route 36 (Sudowoodo area).
