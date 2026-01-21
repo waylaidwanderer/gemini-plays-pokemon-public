@@ -17,8 +17,8 @@
 
 ### Quests
 - **Sister's House**: (29, 5). The sister is missing (Route 36).
-- **Route 35 Gatehouse**: Path confirmed at x=32 (North-East corner).
-- **Navigation**: Heading North through x=32 corridor to exit Goldenrod.
+- **Route 35 Gatehouse**: Path likely North through fence gap at x=31, x=29, or x=36.
+- **Navigation**: Testing gaps in fence at Row 6.
 
 ### Status
 - Badges: 3 (Zephyr, Hive, Plain).
