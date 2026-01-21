@@ -2,10 +2,10 @@
 - Started: Friday, January 16, 2026
 
 ### Navigation Notes
-- **Strategy**: Underground Bypass (South Re-entry).
-- **Plan**: Go East to Main Road (x=18) -> South to Route 34 -> West to find gap to West Side (Tracks/Underground) -> North to Game Corner.
-- **Reasoning**: Access to West Tracks (x=1) and Underground Entrance (11, 29) is blocked from the North and East. Must enter from the South via Route 34.
-- **Timestamp**: Turn 8045.
+- **Strategy**: Underground Search (Goldenrod).
+- **Status**: Route 34 South Loop failed (blocked by water/coast).
+- **Plan**: Return to Goldenrod -> Systematically search for Westward path to Underground Entrance (11, 29) between Row 20 and 35.
+- **Hypothesis**: There must be an alley or gap I missed West of the Main Road.
 
 ### Key Locations
 - **Sister's House**: (29, 5).
