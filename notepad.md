@@ -28,8 +28,7 @@
 - Navigation: West Edge (X=5) confirmed blocked/wall.
 - Navigation: Building at (15, 7) confirmed as Name Rater (Dead End).
 - Navigation: Building at (29, 5) confirmed as Flower Sister's House (Dead End).
-- Navigation: North Exit is accessed via the Far East path (X=36).
-- Path: Go South to Row 20, cross East to X=36, then North to top.
-- Strategy: Moving from (29, 8) to (19, 20) to loop around the East Wall.
+- Navigation: North Exit is likely via the far West path (X=0-4).
+- Path: Go South to Row 16 (Radio Tower). Go West through gap at (5, 16). Head North along West edge.
 - Status: Visited Flower Shop. Lady refused SquirtBottle.
 - Requirement: Interact with Sudowoodo (Route 36) -> Return to Flower Shop.
