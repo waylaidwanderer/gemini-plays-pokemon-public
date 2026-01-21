@@ -28,8 +28,8 @@
 - Navigation: West Edge (X=5) confirmed blocked/wall.
 - Navigation: Building at (15, 7) confirmed as Name Rater (Dead End).
 - Navigation: Building at (29, 5) confirmed as Flower Sister's House (Dead End).
-- Navigation: Path to Route 35 is likely via the East side.
-- Obstacle: Walls at X=17 and X=22 divide the city.
-- Strategy: Investigate the area around Flower Sister's House (29, 5).
-- Hypothesis: There is a path around the house leading North.
-- Backup: Check far East path at X=36 (requires looping South to Row 20?).
+- Navigation: North Exit is accessed via the Far East path (X=36).
+- Path: Go South to Row 20, cross East to X=36, then North to top.
+- Strategy: Moving from (29, 8) to (19, 20) to loop around the East Wall.
+- Status: Visited Flower Shop. Lady refused SquirtBottle.
+- Requirement: Interact with Sudowoodo (Route 36) -> Return to Flower Shop.
