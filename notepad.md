@@ -2,10 +2,10 @@
 - Started: Friday, January 16, 2026
 
 ### Navigation Notes (Goldenrod - Map 3_54)
-- **Location**: Goldenrod City (Map 11_2) - South of Gym.
-- **Action**: Moving West to Main Road (x=18).
-- **Navigation Plan**: Head North to Row 4. Inspect wall at x=17 for gaps or Cut trees leading to x=16 corridor.
-- **Goal**: Reach Route 35 Gatehouse.
+- **Location**: Goldenrod City (Map 11_2) - Main Road.
+- **Action**: Heading North to Row 4.
+- **Investigation**: Inspecting the wall at x=17/16 for a Cut tree or hidden path.
+- **Logic**: Map shows a walkable path at x=16 starting at Row 3 going North. The entrance must be around Row 4 or 5.
 
 ### Key Locations
 - **Flower Shop**: (19, 1). Needs Sudowoodo interaction.
