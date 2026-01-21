@@ -2,10 +2,10 @@
 - Started: Friday, January 16, 2026
 
 ### Navigation Notes
-- **Strategy**: Underground Search (Goldenrod).
-- **Status**: Route 34 South Loop failed (blocked by water/coast).
-- **Plan**: Return to Goldenrod -> Systematically search for Westward path to Underground Entrance (11, 29) between Row 20 and 35.
-- **Hypothesis**: There must be an alley or gap I missed West of the Main Road.
+- **Strategy**: Main Road North (Active).
+- **Plan**: Walk North on x=19 to bypass Officer at (18, 10). Reach Route 35 Gatehouse at North end of city.
+- **Correction**: Previous "South Loop" and "Underground" plans were unnecessary/failed. Main road is passable on the right.
+- **Timestamp**: Turn 8071.
 
 ### Key Locations
 - **Sister's House**: (29, 5).
