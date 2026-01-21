@@ -23,11 +23,8 @@
 - Badges: 3 (Zephyr, Hive, Plain).
 - Party: Quilava (26), Sentret (2), Bellsprout (6), Togepi (5), Rattata (8).
 - Route 34 Navigation: To reach the Daycare, travel North along the West path (main road) and enter the yard through the gap in the fence at (11, 15). Watch out for the Officer at (10, 16).
-- Navigation Target: North Exit of Goldenrod (approx 24, 0).
-- Pathing: Escaping East side dead end.
-  1. Go South to Row 10.
-  2. Go West to Column 21 (Gym/Flower Shop gap).
-  3. Go North along Column 21.
+- Navigation Target: Route 35 Gatehouse at (29, 8). (East of Gym). I already found this!
+- Pathing: Go East from current location to Main Ave, then East to Col 29.
 - Received Odd Egg (Turn 7045). Contains unknown Pokemon (fingers crossed for a shiny!).
 
 ### Quest Log: SquirtBottle
