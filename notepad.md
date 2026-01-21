@@ -18,8 +18,8 @@
 ### Quests
 - **Sister's House**: (29, 5). The sister is missing (Route 36).
 - **Route 35 Gatehouse**: East Side (x=31) is a dead end.
-- **Plan**: Return to Goldenrod -> Enter Underground at (11, 29) -> Exit North -> Find path West to Route 35 Gatehouse.
-- **Reasoning**: South Loop failed due to one-way ledges. Underground is the best bet to bypass city blocks.
+- **Plan**: Proceed North on Main Road (x=19) -> Pass Officer -> Exit North to Route 35.
+- **Reasoning**: Direct path North is open on the right side of the road. No detour needed.
 - **Objective**: Reach North-West corner for Route 35.
 
 ### Status
