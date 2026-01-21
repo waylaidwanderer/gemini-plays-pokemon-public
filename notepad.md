@@ -2,10 +2,10 @@
 - Started: Friday, January 16, 2026
 
 ### Navigation Notes
-- **Strategy**: Underground Bypass (North Entrance).
-- **Plan**: Go West to x=1 (West Road) -> North to Row 5 -> East to Game Corner (9, 5) -> Enter Underground.
-- **Reasoning**: South path (x=9) blocked by building at Row 20. East path (x=18) blocked by Officer. West Road (x=1) connects North past Row 10 wall.
-- **Timestamp**: Turn 8044.
+- **Strategy**: Underground Bypass (South Re-entry).
+- **Plan**: Go East to Main Road (x=18) -> South to Route 34 -> West to find gap to West Side (Tracks/Underground) -> North to Game Corner.
+- **Reasoning**: Access to West Tracks (x=1) and Underground Entrance (11, 29) is blocked from the North and East. Must enter from the South via Route 34.
+- **Timestamp**: Turn 8045.
 
 ### Key Locations
 - **Sister's House**: (29, 5).
