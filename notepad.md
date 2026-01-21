@@ -2,9 +2,9 @@
 - Started: Friday, January 16, 2026
 
 ### Navigation Notes (Goldenrod - Map 3_54)
-- **Location**: Goldenrod City (West Main Road).
-- **Navigation**: Moving North. Passing distinct buildings.
-- **Goal**: Reach the Northern City Limits (Route 35 Gatehouse).
+- **Location**: Goldenrod City (West Side).
+- **Navigation**: x=7 blocked at Row 21. Backtracking to PC area (y=29).
+- **Goal**: Find the main road (likely East of PC or West of Game Corner).
 
 ### Key Locations
 - **Flower Shop**: (19, 1). Needs Sudowoodo interaction.
