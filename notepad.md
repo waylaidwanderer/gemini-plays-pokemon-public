@@ -1,38 +1,27 @@
 # Pokémon Crystal Playthrough
-- Started: Friday, January 16, 2026 at 5:08 PM PST
-
-### Current Status
-- **Location**: Goldenrod City.
-- **Badge**: Plain Badge (Obtained).
-- **Key Items**: Radio Card, Bicycle, Coin Case, Plain Badge.
+- Started: Friday, January 16, 2026
 
 ### Objectives
-1. Get SquirtBottle.
-2. Go to Route 34 (Daycare).
-3. Defeat Sudowoodo (Route 36).
+1. **Primary**: Go to Route 34 (South).
+2. **Secondary**: Get SquirtBottle.
+3. **Tertiary**: Find Route 35 Gatehouse (North).
+
+### Navigation Notes (Goldenrod)
+- **North Exit Puzzle**: The path to Route 35 is blocked by complex walls.
+  - **Center (Flower Shop)**: Blocked at Row 1.
+  - **West (Radio Tower)**: Dead end.
+  - **East (Gym)**: Blocked at Row 6-19.
+  - **Far East**: Need to find a crossover point. Row 5 looks promising but access is tricky.
+- **Strategy**: Exiting South to Route 34 first.
+
+### Key Locations
+- **Flower Shop**: (19, 1). Needs Sudowoodo interaction.
+- **Route 34 Exit**: South edge of map (Row 35).
 
 ### Quests
-- **Route 35 Gatehouse**: Guard Randy wants to give me a Spearow with Mail to deliver to Route 31.
-  - **Status**: Party slot cleared (5/6). Returning to accept Spearow.
-  - **Plan**: Return to Gatehouse -> Accept Spearow -> Proceed to Route 36.
+- **Route 35 Gatehouse**: Deliver Mail (Randy).
+- **Sudowoodo**: Route 36 (North).
 
-### Tile Mechanics
-- TYPE_3fe2: Floor (Walkable)
-- TYPE_63e2: Wall/Planter (Blocked)
-- TYPE_ffbb: Warp/Door (Walkable)
-- TYPE_989e: Door Mat (Likely Blocked/Collision)
-
-### Notes
-- **Sudowoodo Strategy**: Interact with the tree on Route 36 to 'activate' the need for the SquirtBottle, then return to Goldenrod Flower Shop.
-- **Navigation**: West side of Goldenrod is accessed via the South path near Radio Tower. Alley west of Game Corner is a dead end.
-- Navigation: West Edge (X=5) confirmed blocked/wall.
-- Navigation: Building at (15, 7) confirmed as Name Rater (Dead End).
-- Navigation: Building at (29, 5) confirmed as Flower Sister's House (Dead End).
-- Navigation: West path (Radio Tower) is a dead end.
-- Navigation: Central path (Flower Shop) is a dead end.
-- Navigation: Path to Route 35 Exit (North) is blocked/elusive.
-- Strategy: Exiting South to Route 34 (Daycare) first.
-- Hypothesis: Re-entering Goldenrod from the South might reveal new paths or resetting the map view might help.
-- Objective: Reach Route 34, visit Daycare, then return to find Route 35 Exit.
-- Status: Visited Flower Shop (Dead End).
-- Requirement: Interact with Sudowoodo (Route 36) -> Return to Flower Shop.
+### Status
+- Badges: 3 (Zephyr, Hive, Plain).
+- Party: Quilava (26), Sentret (2), Bellsprout (6), Togepi (5), Rattata (8).
