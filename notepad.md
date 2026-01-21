@@ -2,12 +2,10 @@
 - Started: Friday, January 16, 2026
 
 ### Navigation Notes
-- **Correction**: Main Road (x=18) dead-ends at the Flower Shop (Row 1). Wall at x=17 blocks West access.
-- **Correction**: The "Gap" at Row 22 is blocked at x=16.
-- **Discovery**: Row 15 is the Key Crossing from East (Main Road) to West (Radio Tower side).
-- **Plan**: Go North to Row 15 -> East to Main Road (x=18) -> North to Row 8 -> West through Gap to x=16 -> Explore North for Route 35 Exit.
-- **Immediate**: Escape dead end (Up, Right to Main Road).
-- **Timestamp**: Turn 7993.
+- **Strategy**: South Loop (active).
+- **Reasoning**: Direct path North blocked by Officer (x=18) and Tourist (x=3). Row 23 shortcut blocked by wall.
+- **Plan**: Exit Goldenrod South to Route 34 -> Go West to x=4 (Tracks) -> Re-enter Goldenrod Northbound.
+- **Timestamp**: Turn 8013.
 
 ### Key Locations
 - **Sister's House**: (29, 5).
