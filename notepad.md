@@ -5,9 +5,10 @@
 - **North Exit Puzzle**: The path to Route 35 is blocked by walls.
   - **Center (Flower Shop)**: Blocked at Row 1 (Dead End at 19, 5).
   - **East (Gym)**: Blocked at Row 6-19.
-  - **West**: Investigating path west of Column 15.
-  - **Goal**: Reach Route 36 (North Exit).
-- **Strategy**: Backtrack South to Row 8/10, then head West to find a street North.
+  - **Blocked**: West Tracks at (3, 16) by Tourist NPC ("So this is the Radio Tower...").
+- **Blocked**: East Highway at Flower Shop.
+- **Investigating**: Door at (9, 13) - North of Radio Tower street.
+- **Goal**: Find North Exit (Route 35) or Underground Entrance.
 
 ### Key Locations
 - **Flower Shop**: (19, 1). Needs Sudowoodo interaction.
