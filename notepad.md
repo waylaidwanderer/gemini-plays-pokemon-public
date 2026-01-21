@@ -22,10 +22,10 @@
 - Party: Quilava (26), Sentret (2), Bellsprout (6), Togepi (5), Rattata (8).
 - Route 34 Navigation: To reach the Daycare, travel North along the West path (main road) and enter the yard through the gap in the fence at (11, 15). Watch out for the Officer at (10, 16).
 - Navigation Target: North Exit of Goldenrod (approx 24, 0).
-- Pathing: Column 18 (Flower Shop) was a dead end.
-  1. Head West to the main avenue/tracks (Column 4-10).
-  2. Go North from there.
-  3. Locate the North Gatehouse.
+- Pathing: West (Tracks) and Center (Flower Shop) are blocked North.
+  1. Head East via Row 8 to the Gym area (x=24).
+  2. Continue East to x=29.
+  3. Head North from x=29 to bypass the walls.
 - Received Odd Egg (Turn 7045). Contains unknown Pokemon (fingers crossed for a shiny!).
 
 ### Quest Log: SquirtBottle
