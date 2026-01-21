@@ -3,8 +3,8 @@
 
 ### Navigation Notes (Goldenrod - Map 3_54)
 - **Location**: Underground (Tunnel).
-- **Navigation**: Traversing tunnel from Top (South Ent) to Bottom (North Ent).
-- **Goal**: Reach Exit at y=35.
+- **Navigation**: Approaching Exit at (3, 35).
+- **Goal**: Exit to North Goldenrod and locate Route 35 Gatehouse.
 
 ### Key Locations
 - **Flower Shop**: (19, 1). Needs Sudowoodo interaction.
