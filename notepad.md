@@ -17,8 +17,8 @@
 
 ### Quests
 - **Sister's House**: (29, 5). The sister is missing (Route 36).
-- **Route 35 Gatehouse**: Likely at the north end of the main avenue (West side).
-- **Navigation**: Traversing West on Row 8 to reach the main street, then heading North.
+- **Route 35 Gatehouse**: Likely North of the main intersection (x=6 to x=11).
+- **Navigation**: Approaching the main North-South avenue.
 
 ### Status
 - Badges: 3 (Zephyr, Hive, Plain).
