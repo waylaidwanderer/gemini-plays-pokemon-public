@@ -37,5 +37,5 @@
 3. Find Sister at Route 36.
 - **System**: Python sandbox is down. Relying on manual navigation.
 - Tile Mechanic: `TYPE_3fe2` in Goldenrod City (e.g. Row 3, Col 18) looks like a wall/roof but is walkable pavement. Trust the map data over visuals here.
-- Navigation Plan: Talk to the Flower Shop Girl. She is the one who gives the SquirtBottle after defeating Whitney.
-- Clarification: The Sister is back in Goldenrod (at her house). The objective is to go to Route 36 to water the Sudowoodo.
+- Navigation Plan: Exit Flower Shop. Find Route 35 Gatehouse (likely North/West of here). Go to Route 36. Talk to Floria (Sister) near Sudowoodo. Return to Flower Shop to get SquirtBottle.
+- Correction: The girl in the shop is useless until I talk to Floria at Route 36.
