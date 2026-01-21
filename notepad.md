@@ -2,10 +2,10 @@
 - Started: Friday, January 16, 2026
 
 ### Navigation Notes (Goldenrod - Map 11_2)
-- **Current Location**: Outside Gym (17, 8).
-- **Goal**: Find Route 35 Exit.
-- **Fact**: Column 17/18 blocked by Gym/Flower Shop.
-- **Plan**: Move West past the Gym to find the open road North (possibly Column 12 or 10).
+- **Current Location**: Outside Name Rater's House (17, 8).
+- **Blockage**: Columns 13-17 blocked by Name Rater's building.
+- **Plan**: Move West to Column 12 (Gap between Name Rater and whatever is West), then head North.
+- **Goal**: Find Route 35 Exit (likely North-Central or North-West).
 
 ### Key Locations
 - **Flower Shop**: (19, 1). Needs Sudowoodo interaction.
