@@ -2,11 +2,10 @@
 - Started: Friday, January 16, 2026
 
 ### Navigation Notes
-- **Correction**: The East side (x=31) is a dead end. The Gatehouse is NOT in the North-East.
-- **Objective**: Find Floria at Route 36.
-- **Route**: Go West to Main Road (x=18), then North to Exit (likely near x=16).
-- **Immediate**: Go West to x=18, then North.
-- **Timestamp**: Turn 7969.
+- **Correction**: Main Road (x=18) dead-ends at the Flower Shop (Row 1). Wall at x=17 blocks West access.
+- **Route**: Backtrack South to Row 8, West to x=13, then North to Exit.
+- **Immediate**: South to (18, 8), West to (13, 8), North.
+- **Timestamp**: Turn 7973.
 
 ### Key Locations
 - **Sister's House**: (29, 5).
