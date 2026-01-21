@@ -4,7 +4,7 @@
 ### Navigation Notes (Goldenrod - Map 11_2)
 - **Current Location**: Central East (12, 9).
 - **Target**: Tracks (West side) via South Loop.
-- **Plan**: Go South to Row 35 (Route 34 Exit), then re-enter Goldenrod on the far West side to reach the tracks.
+- **Plan**: Go South to Row 30 (jump ledge), then head West to reach the tracks.
 - **Timestamp**: Turn 7921 (Start of South Loop).
 - **Wall Alert**: (6, 10) is a visual wall despite XML data.
 
