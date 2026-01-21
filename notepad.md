@@ -17,7 +17,8 @@
 
 ### Quests
 - **Sister's House**: (29, 5). The sister is missing (Route 36).
-- **Route 35 Gatehouse**: Location is NOT (29, 5). Must be further North or East. Previous summary mentioned (29, 8) but that might be incorrect or refer to the *path* to it.
+- **Route 35 Gatehouse**: Location is likely North-Central or North-West. Previous summary's (29, 8) was incorrect (it's pavement).
+- **Navigation**: Heading West on Row 9/10 to find a path North.
 
 ### Status
 - Badges: 3 (Zephyr, Hive, Plain).
