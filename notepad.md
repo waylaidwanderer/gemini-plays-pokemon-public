@@ -30,5 +30,5 @@
 - Navigation: Building at (29, 5) confirmed as Flower Sister's House (Dead End).
 - Navigation: Building at (33, 9) is the "PP House" (Dead End).
 - Strategy: Head North along the central path (X=19) past the Gym.
-- Objective: Visit Flower Shop at (19, 1) for SquirtBottle.
+- Status: Visited Flower Shop. Lady refused SquirtBottle. Must interact with Sudowoodo first.
 - Objective: Find Route 35 Gatehouse at the northern city limit.
