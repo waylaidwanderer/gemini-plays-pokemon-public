@@ -32,3 +32,4 @@
 1. Talk to Flower Shop (Done).
 2. Talk to Sister's House (Done). Clue: Sister went to Route 36 to see the wiggly tree.
 3. Find Sister at Route 36.
+- **System**: Python sandbox is down. Relying on manual navigation.
