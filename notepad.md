@@ -2,10 +2,10 @@
 - Started: Friday, January 16, 2026
 
 ### Navigation Notes (Goldenrod - Map 11_2)
-- **Current Location**: Main Road (16, 8).
-- **Target**: Route 35 Exit (North).
-- **Plan**: Heading straight North along Column 16.
-- **Hypothesis**: The exit is at (16, 0) or nearby. The "Route 35 Gatehouse" at (29, 8) was a misunderstanding (Sister's House).
+- **Current Location**: (16, 8).
+- **Obstacle**: Column 16 is blocked North by Name Rater's House.
+- **Plan**: Move West to Column 13, then head straight North.
+- **Insight**: Previous exploration of Col 13 was diverted to Underground (9, 5). Must push past it to Row 0.
 
 ### Key Locations
 - **Flower Shop**: (19, 1). Needs Sudowoodo interaction.
