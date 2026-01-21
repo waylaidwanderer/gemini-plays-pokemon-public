@@ -13,9 +13,10 @@
 
 ### Quests
 - **Sister's House**: (29, 5). The sister is missing (Route 36).
-- **Route 35 Gatehouse**: House at (33, 9) confirmed as PP Info House (Dead End).
-- **Next Target**: Check fence gap at (31, 6).
-- **Backup Plan**: If (31, 6) is blocked, re-examine the area North of the Gym (Row 4-5) for Cut trees or hidden paths.
+- **Route 35 Gatehouse**: House at (33, 9) is "PP Info House" (Dead End).
+- **Investigation**: Checking alcove at (31, 6).
+- **Theory**: North Exit might be via the Far East strip (x=36), but access is blocked by a wall at x=35.
+- **Next**: If (31, 6) fails, inspect the fence at (32, 6) for a Cut tree.
 
 ### Status
 - Badges: 3 (Zephyr, Hive, Plain).
