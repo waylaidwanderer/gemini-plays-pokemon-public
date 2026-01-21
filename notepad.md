@@ -29,8 +29,9 @@
 - Navigation: Building at (15, 7) confirmed as Name Rater (Dead End).
 - Navigation: Building at (29, 5) confirmed as Flower Sister's House (Dead End).
 - Objective: Locate Route 35 Gatehouse.
-- Obstacle: Solid Wall of buildings at Row 5/6 (X=0-17).
-- Hypothesis 1: Access via Gap at X=18 (Flower Shop Courtyard). Need to re-inspect closely.
-- Hypothesis 2: Access via Underground Tunnel (Entrance at South X=11, Y=29).
-- Action: Attempt 'find_map_edge' to North. If fails, go to X=18. If blocked, go to Underground.
+- Obstacle: Row 5/6 Wall (X=14-17).
+- Strategy: Loop around the wall via Row 8.
+- Path: Go Down to Row 8, Right to X=18, then Up through the gap.
+- Search Area: North of Row 5 (Flower Shop area). Look for a path West behind the buildings or North to Y=0.
+- Note: Underground is a backup plan.
 - System: Python sandbox tools are down. Using manual navigation.
