@@ -2,9 +2,9 @@
 - Started: Friday, January 16, 2026
 
 ### Navigation Notes (Goldenrod - Map 3_54)
-- **Location**: Goldenrod City (Map 3_54) - West Side (near PokeCenter).
-- **Status**: Exited Underground at (5, 25). Bypassed Game Corner fences.
-- **Goal**: Head North along the main road to find Route 35 Gatehouse.
+- **Location**: Goldenrod City (West Side).
+- **Status**: Exited Underground at (5, 25). Currently in an alcove.
+- **Goal**: Move South to clear obstacles, then find the main road to head North to Route 35.
 
 ### Key Locations
 - **Flower Shop**: (19, 1). Needs Sudowoodo interaction.
