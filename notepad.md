@@ -2,10 +2,16 @@
 - Started: Friday, January 16, 2026
 
 ### Navigation Notes (Goldenrod - Map 11_2)
-- **Current Location**: Central West (6, 9) blocked by wall South at (6, 10).
+- **Current Location**: Central East (12, 9).
 - **Target**: Tracks (West side) via South Loop.
-- **Correction**: Building at (29, 5) is Sister's House (Map 11_8), NOT Route 35 Gatehouse.
-- **Plan**: Go East to Column 12, then South to Row 30, then West to Tracks.
+- **Plan**: Go South to Row 35 (Route 34 Exit), then re-enter Goldenrod on the far West side to reach the tracks.
+- **Timestamp**: Turn 7921 (Start of South Loop).
+- **Wall Alert**: (6, 10) is a visual wall despite XML data.
+
+### Key Locations
+- **Sister's House**: (29, 5).
+- **Route 34 Exit**: South edge (Row 35).
+- **Tracks**: West edge (Column 3-4).
 
 ### Key Locations
 - **Flower Shop**: (19, 1). Needs Sudowoodo interaction.
