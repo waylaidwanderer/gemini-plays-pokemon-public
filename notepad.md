@@ -37,6 +37,6 @@
 3. Find Sister at Route 36.
 - **System**: Python sandbox is down. Relying on manual navigation.
 - Tile Mechanic: `TYPE_3fe2` in Goldenrod City (e.g. Row 3, Col 18) looks like a wall/roof but is walkable pavement. Trust the map data over visuals here.
-- Navigation Plan: Move Left to x=11, then Down to Row 18. Move West along Row 18 to x=3. Then go North to check the blockade at (3, 16).
-- Rationale: Row 17 has a wall at x=4. Row 18 is clear Westbound.
-- Destination: Route 35 Gatehouse (North of the blockade).
+- Navigation Plan: Go East to x=9 to avoid the Officer at (8, 17). Go South to Row 32. Cross West to the Main Road tracks (x=1). Go North all the way to the Gatehouse.
+- Rationale: The tracks (x=0,1) are separated by a fence (x=2). Access is only possible from the South (Row 20+ or Route 34).
+- Task: Find Floria at Route 36.
