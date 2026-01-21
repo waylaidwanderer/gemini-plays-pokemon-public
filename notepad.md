@@ -26,4 +26,4 @@
 - Badges: 3 (Zephyr, Hive, Plain).
 - Party: Quilava (26), Sentret (2), Bellsprout (6), Togepi (5), Rattata (8).
 - Fence Analysis: The fence/ledge separates me (West) from the Daycare (East). The Daycare is at Y=15, but I am at Y=25. I must head South to Y=32 to find a gap/path to loop back North.
-- Route 34 Navigation: The Daycare is surrounded by ledges/fences. The entrance to this enclosed area is likely at the NORTH (around Y=7-9), not the South. I must go back to the West side, head North, and cross over near the top. The East side South of Y=21 is a dead end for reaching the Daycare.
+- Route 34 Navigation: The East path is a dead end. Loop South to Y=38 to cross to the West path, then head North to find the Daycare entrance.
