@@ -8,7 +8,6 @@
   - **Blocked**: West Tracks at (3, 16) by Tourist NPC.
 - **Blocked**: East Highway at Flower Shop.
 - **Checked**: Door at (9, 13) is Magnet Train (Dead End for now).
-- **Goal**: Find Underground Entrance (South). Expected near Game Corner or Radio Tower?
 
 ### Key Locations
 - **Flower Shop**: (19, 1). Needs Sudowoodo interaction.

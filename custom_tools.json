@@ -218,5 +218,20 @@
         "action_counter": 213
       }
     ]
+  },
+  "test_sandbox": {
+    "description": "A simple test to verify if the Python sandbox is functioning correctly.",
+    "input_schema": {
+      "type": "object",
+      "properties": {}
+    },
+    "python_script": "print(\"Sandbox is working!\")",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-21T08:09:47.817Z",
+        "action_counter": 7231
+      }
+    ]
   }
 }
