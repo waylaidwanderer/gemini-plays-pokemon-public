@@ -17,9 +17,9 @@
 
 ### Quests
 - **Sister's House**: (29, 5). The sister is missing (Route 36).
-- **Route 35 Gatehouse**: West Tracks path (x=3) blocked at (4, 16) by Rude NPC.
-- **Strategy**: Flanking via Row 18. Attempting to get behind him at (3, 16).
-- **Backup**: If West dead ends, revisit Northeast corner (x=32/36) or Row 30 flank.
+- **Route 35 Gatehouse**: Attempting North path via West Tracks (x=3).
+- **Navigation**: Flanked Rude NPC. Moving North from (3, 16).
+- **Observation**: x=14-16 (Main Road) and x=32 (East) seemed blocked by walls in XML. Tracks seem the only option.
 
 ### Status
 - Badges: 3 (Zephyr, Hive, Plain).
