@@ -1,12 +1,11 @@
 # Pokémon Crystal Playthrough
 - Started: Friday, January 16, 2026
 
-### Navigation Notes (Goldenrod - Map 11_2)
-- **Current Location**: Central East (12, 9).
-- **Target**: Tracks (West side) via South Loop.
-- **Plan**: Go South to Row 30 (jump ledge), then head West to reach the tracks.
-- **Timestamp**: Turn 7921 (Start of South Loop).
-- **Wall Alert**: (6, 10) is a visual wall despite XML data.
+### Navigation Notes (Route 34 - Map 11_1)
+- **Current Location**: Route 34 (South of Goldenrod).
+- **Correction**: Route 36 is NORTH of Goldenrod. I do not need to access the West Tracks of Goldenrod to get there.
+- **Plan**: Verify West connectivity. If blocked/difficult, return North to Goldenrod, then go North-East to Route 35 Gatehouse.
+- **Timestamp**: Turn 7952.
 
 ### Key Locations
 - **Sister's House**: (29, 5).
