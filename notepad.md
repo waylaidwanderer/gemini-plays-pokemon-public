@@ -2,9 +2,9 @@
 - Started: Friday, January 16, 2026
 
 ### Navigation Notes (Goldenrod - Map 3_54)
-- **Location**: Underground (Map 3_53).
-- **Orientation**: Entered from Game Corner (South) at (3, 2).
-- **Goal**: Traverse the tunnel by heading "Down" (screen-wise) to reach the North Exit at the other end.
+- **Location**: Underground (Tunnel).
+- **Navigation**: Heading South (screen-wise) from y=6 towards exit at y=35.
+- **Observations**: Avoiding trainers. Path seems clear.
 
 ### Key Locations
 - **Flower Shop**: (19, 1). Needs Sudowoodo interaction.
