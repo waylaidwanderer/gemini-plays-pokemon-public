@@ -37,6 +37,6 @@
 3. Find Sister at Route 36.
 - **System**: Python sandbox is down. Relying on manual navigation.
 - Tile Mechanic: `TYPE_3fe2` in Goldenrod City (e.g. Row 3, Col 18) looks like a wall/roof but is walkable pavement. Trust the map data over visuals here.
-- Navigation Plan: Go Up to Row 17 (the Cross Street). Go West to x=5. Then go North to x=5, y=16. Then West to x=4 to check the "Blocked by NPC" spot at (3, 16).
-- Rationale: The NPC at (3, 16) blocked the main road 400 turns ago. With the Plain Badge, they may have moved. If not, I will talk to them.
+- Navigation Plan: Move Left to x=11, then Down to Row 18. Move West along Row 18 to x=3. Then go North to check the blockade at (3, 16).
+- Rationale: Row 17 has a wall at x=4. Row 18 is clear Westbound.
 - Destination: Route 35 Gatehouse (North of the blockade).
