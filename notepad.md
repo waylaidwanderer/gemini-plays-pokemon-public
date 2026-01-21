@@ -2,10 +2,10 @@
 - Started: Friday, January 16, 2026
 
 ### Navigation Notes (Goldenrod - Map 3_54)
-- **Location**: Goldenrod City (Map 11_2) - Main Road.
-- **Discovery**: The wall separating the Main Road (x=18) and the West Corridor (x=16) ends at Row 7.
-- **Action**: Backtracking South to Row 7 to enter the x=16 corridor.
-- **Goal**: Follow x=16 North to the Gatehouse.
+- **Location**: Goldenrod City (Map 11_2) - West Corridor (x=16).
+- **Status**: Successfully entered the corridor at Row 7.
+- **Goal**: Follow this path North to the Map Edge (Row 0). This is almost certainly the exit to Route 35.
+- **Notes**: The Main Road (x=18) dead-ends at the Flower Shop, but this parallel path bypasses it.
 
 ### Key Locations
 - **Flower Shop**: (19, 1). Needs Sudowoodo interaction.
