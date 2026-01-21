@@ -1,15 +1,9 @@
 # Pokémon Crystal Playthrough
 - Started: Friday, January 16, 2026
 
-### Navigation Notes (Goldenrod)
-- **North Exit Puzzle**: The path to Route 35 is blocked by walls.
-  - **Center (Flower Shop)**: Blocked at Row 1 (Dead End at 19, 5).
-  - **East (Gym)**: Blocked at Row 6-19.
-  - **Blocked**: West Tracks at (3, 16) by Tourist NPC.
-- **Blocked**: East Highway at Flower Shop.
-- **Checked**: Door at (9, 13) is Magnet Train (Dead End).
-- **Checked**: Door at (31, 21) is Happiness Rater (Dead End).
-- **Goal**: Find Underground Entrance. Heading to building at (11, 29) in Southwest corner.
+### Navigation Notes (Goldenrod - Map 3_54)
+- **Location**: Game Corner (20, 29).
+- **Goal**: Reach Route 35 Gatehouse (likely North/North-East).
 
 ### Key Locations
 - **Flower Shop**: (19, 1). Needs Sudowoodo interaction.
