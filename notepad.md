@@ -3,8 +3,8 @@
 
 ### Navigation Notes (Goldenrod - Map 3_54)
 - **Location**: Goldenrod City (West Side).
-- **Status**: Exited Underground at (5, 25). Currently in an alcove.
-- **Goal**: Move South to clear obstacles, then find the main road to head North to Route 35.
+- **Navigation**: Heading North along column x=7.
+- **Goal**: Reach the North Exit (Route 35 Gatehouse).
 
 ### Key Locations
 - **Flower Shop**: (19, 1). Needs Sudowoodo interaction.
