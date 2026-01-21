@@ -37,6 +37,10 @@
 3. Find Sister at Route 36.
 - **System**: Python sandbox is down. Relying on manual navigation.
 - Tile Mechanic: `TYPE_3fe2` in Goldenrod City (e.g. Row 3, Col 18) looks like a wall/roof but is walkable pavement. Trust the map data over visuals here.
-- Navigation Plan: Go South to the Ilex Forest Gatehouse area (Row 41+). Look for a path to wrap around to the West side of the route.
+- Navigation Plan: Route 35 Exit via West Tracks.
+- Step 1: Go South to Row 16 on Main Road (x=18).
+- Step 2: Go West to x=3 to check if Tourist NPC at (3, 16) has moved.
+- Step 3: If clear, head North along tracks. If blocked, check Radio Tower area.
+- Dead Ends Confirmed: x=18 (North), x=16 (Row 8->North), x=6 (Row 8->North).
 - Task: Find Floria at Route 36.
 - Sandbox verification: 'check_execution_env' failed at Turn 7713. Sandbox confirmed down. Proceeding with manual navigation.
