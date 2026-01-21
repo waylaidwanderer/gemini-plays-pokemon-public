@@ -28,9 +28,7 @@
 - Navigation: West Edge (X=5) confirmed blocked/wall.
 - Navigation: Building at (15, 7) confirmed as Name Rater (Dead End).
 - Navigation: Building at (29, 5) confirmed as Flower Sister's House (Dead End).
-- Navigation: Building at (33, 9) is the "PP House" (Dead End).
-- Strategy: Head North along the central path (X=19) past the Gym.
 - Status: Visited Flower Shop. Lady refused SquirtBottle.
-- Requirement: Must go to Route 36 and interact with Sudowoodo (wiggly tree) to prove I need the bottle.
-- Next Step: Exit Goldenrod City to the North (Route 35).
-- Objective: Find Route 35 Gatehouse at the northern city limit.
+- Requirement: Interact with Sudowoodo (Route 36) -> Return to Flower Shop.
+- Navigation: Flower Shop is at (19, 1). Name Rater is South at (15, 7).
+- Strategy: The exit to Route 35 should be directly North. Heading to X=16, Y=0.
