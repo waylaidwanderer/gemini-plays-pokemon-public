@@ -37,11 +37,12 @@
 3. Find Sister at Route 36.
 - **System**: Python sandbox is down. Relying on manual navigation.
 - Tile Mechanic: `TYPE_3fe2` is ambiguous! It represents BOTH walkable gray pavement and solid walls/bushes. Must rely on visual confirmation (Screen) rather than just XML types.
-- Navigation Plan: Check gap East of Sister's House (Col 32).
-- Logic: XML shows columns 32-37 are open at Row 5. I turned back at Col 31 previously.
-- Path: Go East to x=32, then North.
-- Dead Ends: x=18 (North), x=3 (Tracks), x=31 (Alcove), x=13 (Row 5), x=4 (West Route Blocked).
-- Objective: Find Route 35 Gatehouse.
+- Navigation Plan: Route 35 Exit via Far East Edge (Final Attempt).
+- Confirmed: North (x=18), West (x=4), and Center-East (x=31) are blocked.
+- Confirmed: Wall at x=35 blocks East access from Row 6-19.
+- Solution: Go South to Row 20 (gap in wall). Go East to x=36. Go North along the edge.
+- Dead Ends: x=18, x=3, x=4, x=31, x=35 (Rows 6-19).
+- Objective: Reach (36, 20).
 - Task: Find Floria at Route 36.
 - Sandbox verification: 'check_execution_env' failed at Turn 7713. Sandbox confirmed down. Proceeding with manual navigation.
 - Reflection (Turn 7790): Stuck finding Route 35 Exit for ~50 turns. Sandbox down.
