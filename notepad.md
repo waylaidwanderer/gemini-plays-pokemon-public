@@ -28,8 +28,8 @@
 - Navigation: West Edge (X=5) confirmed blocked/wall.
 - Navigation: Building at (15, 7) confirmed as Name Rater (Dead End).
 - Navigation: Building at (29, 5) confirmed as Flower Sister's House (Dead End).
-- Navigation: Main Avenue (X=13-16) blocked by building at Row 5.
-- Hypothesis: This building IS the Gatehouse to Route 35.
-- Plan: Go to Main Avenue (X=15, Y=6). Enter the building at (15, 5) or adjacent tiles (14, 5), (13, 5).
-- Correction: Previous "Wall" assessment likely mistook the Gatehouse for a solid obstacle.
+- Navigation: Building at (15, 7) is DEFINITELY the Name Rater. NOT the Gatehouse.
+- Navigation: Route 35 Gatehouse must be at the northern map edge (Y=0).
+- Plan: Exit house. Go to gap at X=18. Use 'find_map_edge' to locate the path to Y=0.
+- Reflection: Stop entering random houses in the middle of the city. Focus on the map edge.
 - System: Python sandbox tools are down. Using manual navigation.
