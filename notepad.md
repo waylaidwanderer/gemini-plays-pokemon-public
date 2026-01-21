@@ -2,9 +2,9 @@
 - Started: Friday, January 16, 2026
 
 ### Navigation Notes (Goldenrod - Map 3_54)
-- **Location**: Goldenrod City (West Side).
-- **Correction**: Previous attempt to find Main Road failed because I stayed too far Left (x=7). Main Road is likely at x=10-14.
-- **Goal**: Exit Underground, go South to clear obstacles, go East to x=12, then NORTH.
+- **Location**: Underground (Tunnel).
+- **Navigation**: Heading North to (3, 2) to return to Game Corner (East Side).
+- **Plan**: Once at Game Corner, move South to find a gap in the fence to access the Main Road.
 
 ### Key Locations
 - **Flower Shop**: (19, 1). Needs Sudowoodo interaction.
