@@ -37,6 +37,6 @@
 3. Find Sister at Route 36.
 - **System**: Python sandbox is down. Relying on manual navigation.
 - Tile Mechanic: `TYPE_3fe2` in Goldenrod City (e.g. Row 3, Col 18) looks like a wall/roof but is walkable pavement. Trust the map data over visuals here.
-- Navigation Plan: Go East to x=18 (Southbound Street). Go South to Row 18. Then go West to the Main Road (x=4). Finally, head North to finding the Route 35 Gatehouse.
-- Reason: West path at Row 8 is blocked by a wall. Direct South is blocked. x=18 is a clear vertical corridor.
-- Task: Find Floria at Route 36 (Sudowoodo area).
+- Navigation Plan: Go Up to Row 17 (the Cross Street). Go West to x=5. Then go North to x=5, y=16. Then West to x=4 to check the "Blocked by NPC" spot at (3, 16).
+- Rationale: The NPC at (3, 16) blocked the main road 400 turns ago. With the Plain Badge, they may have moved. If not, I will talk to them.
+- Destination: Route 35 Gatehouse (North of the blockade).
