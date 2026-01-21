@@ -11,9 +11,6 @@
 - **Flower Shop**: (19, 1). Needs Sudowoodo interaction.
 - **Gym**: (24, 7).
 - **Sister's House**: (29, 5).
-
-### Key Locations
-- **Flower Shop**: (19, 1). Needs Sudowoodo interaction.
 - **Route 34 Exit**: South edge of map (Row 35).
 
 ### Quests
