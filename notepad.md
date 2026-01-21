@@ -2,10 +2,10 @@
 - Started: Friday, January 16, 2026
 
 ### Navigation Notes (Goldenrod - Map 11_2)
-- **Current Location**: (16, 8).
-- **Obstacle**: Column 16 is blocked North by Name Rater's House.
-- **Plan**: Move West to Column 13, then head straight North.
-- **Insight**: Previous exploration of Col 13 was diverted to Underground (9, 5). Must push past it to Row 0.
+- **Current Location**: (9, 6) near Underground Entrance.
+- **Obstacle**: West path at Row 6 is blocked by a wall at x=5.
+- **Plan**: Go South to Row 15 (Radio Tower area), then try West to the tracks.
+- **Goal**: Reach Tracks (x=4) North of the Tourist (y=16).
 
 ### Key Locations
 - **Flower Shop**: (19, 1). Needs Sudowoodo interaction.
