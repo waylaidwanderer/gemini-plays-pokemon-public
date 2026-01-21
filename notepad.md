@@ -2,10 +2,10 @@
 - Started: Friday, January 16, 2026
 
 ### Navigation Notes (Goldenrod - Map 11_2)
-- **Current Location**: Outside Name Rater's House (17, 8).
-- **Blockage**: Columns 13-17 blocked by Name Rater's building.
-- **Plan**: Move West to Column 12 (Gap between Name Rater and whatever is West), then head North.
-- **Goal**: Find Route 35 Exit (likely North-Central or North-West).
+- **Current Location**: Central Area (12, 8).
+- **Observation**: Row of buildings blocks North (Row 7/5). Doors at (12, 7) and (15, 7).
+- **Plan**: Move West along Row 8 to find a gap or reach the Tracks.
+- **Hypothesis**: Access to Route 35 is via the Tracks (West side) or a gap I haven't seen yet.
 
 ### Key Locations
 - **Flower Shop**: (19, 1). Needs Sudowoodo interaction.
