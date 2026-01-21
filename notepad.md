@@ -2,10 +2,10 @@
 - Started: Friday, January 16, 2026
 
 ### Navigation Notes (Goldenrod - Map 11_2)
-- **Current Location**: (9, 6) near Underground Entrance.
-- **Obstacle**: West path at Row 6 is blocked by a wall at x=5.
-- **Plan**: Go South to Row 15 (Radio Tower area), then try West to the tracks.
-- **Goal**: Reach Tracks (x=4) North of the Tourist (y=16).
+- **Current Location**: (6, 9).
+- **Obstacle**: West path (Row 9) is blocked at x=5.
+- **Insight**: Column 18 appears clear North past the Gym/Name Rater.
+- **Plan**: Go East to Column 18, then North to Exit.
 
 ### Key Locations
 - **Flower Shop**: (19, 1). Needs Sudowoodo interaction.
