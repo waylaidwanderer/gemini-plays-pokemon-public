@@ -38,9 +38,8 @@
 - **Status**: Moving North, bypassing sprites at (3, 27).
 - **Navigation**: Using East wall (Column 4) to avoid obstacles in center.
 ### Navigation Update (Turn 8998)
-- **Location**: Goldenrod City (Flower Shop Area).
+- **Location**: Goldenrod City (North).
 - **Goal**: Reach Route 35 Gatehouse.
-- **Status**: Flower Shop pocket (x>17, y<8) seems isolated from the Gatehouse path (x<17).
-- **Correction**: Access to Route 35 is likely via a path/door West of the Flower Shop, accessible from Row 10.
-- **Next Step**: Go South to Row 10 -> Move West to Column 14-16 -> Search for Gatehouse Door.
-- **Hypothesis**: The Gatehouse is located at (13-16, 4-7) and the entrance was missed.
+- **Tactics**: Currently at (19, 9) near Flower Shop. Row 9 appears to be a clear East-West corridor.
+- **Next Step**: Move West to x=10-14 -> Head North to find the Gatehouse exit.
+- **Hypothesis**: The Gatehouse is centrally located at the north edge of the map.
