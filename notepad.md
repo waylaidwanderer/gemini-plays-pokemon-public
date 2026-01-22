@@ -53,9 +53,8 @@
 - **Timestamp**: Turn 8355.
 - **Reasoning**: The city is divided by vertical walls. The only reliable crossover point seems to be the very bottom (Row 35).
 - **Timestamp**: Turn 8337.
-- **Status**: Goldenrod Underground (3_54) at (4, 24). Facing Super Nerd at (4, 23).
-- **Action**: Interacting with Super Nerd.
+- **Status**: Goldenrod Underground (3_54) at (4, 24). Interacting with Super Nerd.
+- **Action**: Using advance_dialogue to trigger interaction/battle.
 - **Goal**: Clear path North.
-- **Observation**: The path ahead is 1-tile wide and blocked by the NPC. He might be a trainer.
-- **Alternative**: If blocked, backtrack to Row 29 and try side corridors (x=2 or x=7).
-- **Next**: Press A -> Handle Interaction.
+- **Contingency**: If he doesn't move/battle, backtrack to Row 29 and try corridor at x=2 or x=7.
+- **Next**: Handle dialogue/battle or Backtrack.
