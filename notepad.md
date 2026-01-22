@@ -38,8 +38,8 @@
 - **Status**: Moving North, bypassing sprites at (3, 27).
 - **Navigation**: Using East wall (Column 4) to avoid obstacles in center.
 ### Navigation Update (Turn 8998)
-- **Location**: Underground Tunnel (South End).
-- **Goal**: Exit to Goldenrod City (West Side).
-- **Tactics**: Entering warp at (3, 35).
-- **Next Step**: Exit building -> Head North past Radio Tower.
-- **Hypothesis**: The West side of the city offers a path to Route 35/36.
+- **Location**: Goldenrod City (West Side Surface).
+- **Goal**: Move North past Radio Tower.
+- **Tactics**: Heading North along Column 4/5.
+- **Next Step**: Reach Row 15 (Radio Tower Latitude).
+- **Hypothesis**: A path exists between the Radio Tower (East) and Train Tracks (West).
