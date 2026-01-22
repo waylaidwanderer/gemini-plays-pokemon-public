@@ -19,8 +19,8 @@
 ### Quests
 - **Sister's House**: (29, 5). The sister is missing (Route 36).
 - **Route 35 Gatehouse**: East Side (x=31) is a dead end.
-- **Plan**: Proceed North on Main Road (x=19) -> Pass Officer -> Exit North to Route 35.
-- **Reasoning**: Direct path North is open on the right side of the road. No detour needed.
+- **Plan**: Access Route 35 via the West Tracks (from Row 16).
+- **Reasoning**: Main Road and East side are dead ends.
 - **Objective**: Reach North-West corner for Route 35.
 
 ### Status
