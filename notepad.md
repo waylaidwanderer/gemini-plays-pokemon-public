@@ -38,9 +38,10 @@
 - **Status**: Moving North, bypassing sprites at (3, 27).
 - **Navigation**: Using East wall (Column 4) to avoid obstacles in center.
 ### Navigation Update (Turn 8998)
-- **Location**: Goldenrod City (West Side) at (4, 29).
-- **Map Context**: Map 3_54 appears to cover the main city areas (West and East), while Map 11_2 is the Southern Entrance.
-- **Goal**: Reach Route 35 (North).
-- **Plan**: Head North along the West Side road (Columns 4-5).
-- **Correction**: Previous assumption that this area was "Enclosed" was likely due to lack of exploration North of y=25.
-- **Quest**: Find Floria at Route 36 to get SquirtBottle.
+- **Correction**: The area North of (4, 24) is a dead end (Row 23 is blocked).
+- **Current Plan**:
+    1. Return to Underground via (5, 25).
+    2. Go to North Exit (3, 2) -> East Side (21, 25).
+    3. FORCE navigate South from (21, 25) to the Route 34 Exit at (20, 35).
+    4. Loop via Route 34 to the Main City Entrance.
+- **Hypothesis**: The East Side MUST connect to Route 34, allowing a loop to the West Side.
