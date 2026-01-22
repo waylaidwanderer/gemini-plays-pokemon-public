@@ -13,9 +13,9 @@
 ### Navigation Notes
 - **Location**: Goldenrod Underground (Map 3_54).
 - **Goal**: Reach the North Exit (leads to Goldenrod City North).
-- **Status**: Just entered from the South (Goldenrod South x=11, y=29).
-- **Plan**: Travel North through the tunnel to exit at the other end.
-- **Surface Obstacles**: The "Main Street" on the surface was blocked, and the tracks were impassable. This tunnel bypasses both.
+- **Status**: Exploring the South-West corner (around x=5, y=25).
+- **Observation**: West Tunnel (x<10) is a dead end at Row 21 (Solid Wall).
+- **Plan**: Investigate the door/mat at (5, 25). If that fails, check the East side (x>10).
 
 ### Map Structure
 - **Goldenrod Underground**: Connects South (y=29 on surface) to North (y=6 on surface).
