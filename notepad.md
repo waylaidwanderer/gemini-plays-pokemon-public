@@ -53,7 +53,8 @@
 - **Timestamp**: Turn 8355.
 - **Reasoning**: The city is divided by vertical walls. The only reliable crossover point seems to be the very bottom (Row 35).
 - **Timestamp**: Turn 8337.
-- **Status**: Goldenrod City (11_2) at (16, 23). Waiting for Joey to hang up.
-- **Action**: Finishing call.
-- **Goal**: Reach Underground Entrance South (11, 29).
-- **Next**: Left to x=9 -> South to Row 30 -> East to x=11 -> Enter.
+- **Status**: Goldenrod City (11_2) at (11, 30). Entering Underground.
+- **Action**: Moving Up to (11, 29).
+- **Goal**: Traverse Underground to North Exit (near Game Corner).
+- **Reasoning**: Surface is blocked. Underground is the bypass.
+- **Next**: Up -> Navigate Underground.
