@@ -283,5 +283,30 @@
         "action_counter": 8284
       }
     ]
+  },
+  "buy_current_item": {
+    "description": "Automates the purchase of the currently selected item in a shop menu by setting the quantity and confirming. Assumes the cursor is already on the desired item.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "quantity": {
+          "type": "integer",
+          "description": "The number of items to buy.",
+          "minimum": 1,
+          "maximum": 99
+        }
+      },
+      "required": [
+        "quantity"
+      ]
+    },
+    "python_script": "def run(input_data):\n    quantity = input_data.get('quantity', 1)\n    buttons = []\n    \n    # Select the item\n    buttons.append(\"A\")\n    buttons.append(\"sleep 500\")\n    \n    # Adjust quantity\n    if quantity > 1:\n        # Press Up quantity-1 times (assuming Up increments from 1)\n        # Note: In some games Down goes to max, but Up is safer for specific counts\n        for _ in range(quantity - 1):\n            buttons.append(\"Up\")\n            # buttons.append(\"sleep 100\") # Small delay if needed\n            \n    # Confirm quantity\n    buttons.append(\"A\")\n    buttons.append(\"sleep 500\")\n    \n    # Handle \"Here you go\" dialogue?\n    # Usually requires one more A or B to clear text.\n    # Let's add one A to be safe, but user might need to handle dialogue.\n    buttons.append(\"A\")\n    \n    print(f'{{\"buttons\": {buttons}}}')",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-22T06:18:21.849Z",
+        "action_counter": 8464
+      }
+    ]
   }
 }

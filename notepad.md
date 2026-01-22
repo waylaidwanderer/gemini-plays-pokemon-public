@@ -53,7 +53,7 @@
 - **Timestamp**: Turn 8355.
 - **Reasoning**: The city is divided by vertical walls. The only reliable crossover point seems to be the very bottom (Row 35).
 - **Timestamp**: Turn 8337.
-- **Status**: Goldenrod Dept Store 2F (11_12). Moving to Escalator (Down).
-- **Action**: Moving Right to wall, then Up to Escalator at (15, 0).
-- **Goal**: Exit Dept Store.
-- **Next**: Route 36.
+- **Status**: Goldenrod Dept Store 2F (11_12). Navigating to Exit.
+- **Action**: Moving Left around NPC, then Up and Right to Escalator (15, 0).
+- **Goal**: Reach Route 36 via North Gate.
+- **Next**: Down Escalator -> Exit Store -> North through City.
