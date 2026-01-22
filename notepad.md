@@ -33,7 +33,7 @@
 3. **Get Bottle**: Return to Flower Shop (19, 1).
 4. **Sudowoodo**: Use Bottle to clear path.
 - **Progress**: Successfully crossed to West Goldenrod via Underground!
-- **Current Location**: Enclosed area behind Pokemon Center (West Goldenrod).
-- **Goal**: Enter Pokemon Center (Back Door) to reach Main Street.
-- **Hypothesis**: The building at (4-5, 29) is the Pokemon Center. Entering it should allow exiting to the street.
-- **Route**: Move South to (5, 29).
+- **Current Location**: Enclosed Area (West Goldenrod).
+- **Status**: Pokemon Center Back Door (5, 29) seems locked/inactive.
+- **New Plan**: Re-enter Underground at (5, 25) and head to the North-West Exit (3, 2).
+- **Hypothesis**: The NW Exit leads to the main West Side street, bypassing the tracks and Radio Tower.
