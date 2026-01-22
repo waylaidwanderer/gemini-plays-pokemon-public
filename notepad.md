@@ -40,7 +40,6 @@
 ### Navigation Update (Turn 8998)
 - **Current Location**: Goldenrod City East Side (21, 25).
 - **Goal**: Exit Underground via (4, 2) to Main City Entrance Hall.
-- **Fact**: Tile (3, 2) is the ONLY North warp. It leads to (21, 25).
-- **Fact**: Tile (4, 2) is NOT a warp.
-- **Plan**: Exit via (3, 2). Then, navigate on surface from (21, 25) to Route 35.
-- **Route**: (21, 25) -> South to (21, 29) -> West to Main Street -> North to Route 35.
+- **Correction**: The "Isolated East Side" connects to the main city via the South.
+- **Plan**: Move South to (21, 29), then West to Main Street, then North to Route 35.
+- **Goal**: Reach Route 35 Gatehouse.
