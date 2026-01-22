@@ -4,11 +4,10 @@
 ### Navigation Notes
 - **Goal**: Reach Goldenrod City West Side (Main Road).
 - **Strategy**: Flank via Route 34.
-- **Status**: Exiting Gatehouse (11_23) North via (4,0).
+- **Status**: Inside Gatehouse (11_23) at (3, 1).
+- **Action**: Moving Right then Up to exit via (4, 0).
 - **Goal**: Check if this exit leads to the West side of Route 34.
-- **Hypothesis**: The left door (4,0) might lead to the West path.
 - **Next**: Verify position on Route 34. If East (x>10), then crossing failed. If West (x<10), success.
-- **Info**: Received phone call from Joey (Turn 8401). Call ended.
 
 ### Resource Alert
 - **Pokeballs**: 0 (Only 1 Lure Ball). Need to buy balls at Goldenrod Dept Store.
