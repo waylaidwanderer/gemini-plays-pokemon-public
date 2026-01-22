@@ -40,6 +40,6 @@
 ### Navigation Update (Turn 8998)
 - **Location**: Goldenrod City (East Side Surface).
 - **Goal**: Reach Route 35 Gatehouse (North Edge).
-- **Tactics**: Moving North along the East Side (Column 21).
-- **Next Step**: Reach Flower Shop at (19, 1) -> Cut West to Gatehouse.
-- **Hypothesis**: The East Side connects to the North Edge, bypassing the central/western blockades.
+- **Tactics**: Planters block Row 23 at x=21. Moving West to gap at x=17.
+- **Next Step**: Go West to x=17 -> North through gap -> Head to Flower Shop (19, 1).
+- **Hypothesis**: The gap at x=17 connects to the northern open area.
