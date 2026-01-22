@@ -3,10 +3,9 @@
 
 ### Navigation Notes
 - **Location**: Goldenrod Underground (3_53).
-- **Goal**: Reach South Exit (3, 35).
-- **Current Action**: Moving South to Row 27.
-- **Next Obstacle**: Haircut Brothers/Super Nerd at (3, 27).
-- **Plan**: Stay in current lane (x=4) to bypass any potential trainers, then exit South.
+- **Goal**: Cut Tree at (9, 22) in West Goldenrod.
+- **Action**: Exiting South to West Goldenrod.
+- **Plan**: Exit -> Head North to Tree -> Cut -> Access Gym.
 
 ### Resource Alert
 - **Pokeballs**: 10 Poké Balls, 1 Lure Ball.
