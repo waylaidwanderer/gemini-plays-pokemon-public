@@ -33,7 +33,7 @@
 3. **Get Bottle**: Return to Flower Shop (19, 1).
 4. **Sudowoodo**: Use Bottle to clear path.
 - **Progress**: Successfully crossed to West Goldenrod via Underground!
-- **Current Location**: Enclosed Area (West Goldenrod).
-- **Status**: Pokemon Center Back Door (5, 29) seems locked/inactive.
-- **New Plan**: Re-enter Underground at (5, 25) and head to the North-West Exit (3, 2).
-- **Hypothesis**: The NW Exit leads to the main West Side street, bypassing the tracks and Radio Tower.
+- **Current Location**: Underground Tunnel (South End).
+- **Discovery**: The "South Exit" (3, 34) leads to the Enclosed Area, not the street.
+- **Goal**: Reach North-West Exit (3, 2).
+- **Plan**: Head North through tunnel, exit at (3, 2) to reach West Goldenrod.
