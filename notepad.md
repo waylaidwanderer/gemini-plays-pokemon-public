@@ -3,10 +3,10 @@
 
 ### Navigation Notes
 - **Strategy**: Underground Re-Do.
-- **Status**: Inside Flower Shop (10_14). Breaking dialogue loop.
-- **Plan**: Press B repeatedly to close the dialogue with the Lady, then move Right to talk to the Flower Shop Girl.
-- **Reasoning**: I've been talking to the Lady for too long. She likely only provides lore. The Girl is the one who usually gives the SquirtBottle. The automated `advance_dialogue` tool was likely closing and restarting the conversation.
-- **Timestamp**: Turn 8297.
+- **Status**: Inside Flower Shop (10_14). Finishing conversation with Lady.
+- **Plan**: Mash B to finish text, then move Down and Right to talk to the Girl at (6, 5).
+- **Reasoning**: I'm midway through the Lady's dialogue ("Three years ago..."). Pressing B advances text without risking restarting the conversation. Once free, I'll speak to the Girl for the SquirtBottle.
+- **Timestamp**: Turn 8298.
 
 ### Key Locations
 - **Sister's House**: (29, 5).
