@@ -21,4 +21,4 @@
 - **Sister's House**: (29, 5). The sister is missing (Route 36).
 - **Route 35 Gatehouse**: East Side (x=31) is a dead end.
 - **Plan**: Proceed North to Route 35 via Main Road.
-- **Status**: Moving West through the city center.
+- **Status**: Approaching the Pokemon Center.
