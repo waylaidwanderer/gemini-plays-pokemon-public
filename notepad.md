@@ -29,3 +29,4 @@
 - **Tile Anomaly**: Tile `TYPE_2889` appears to be used for both "Yellow Path" and "Visual Walls".
 - **Dead End Confirmed**: (3, 15) is blocked to the North. The corridor at x=3 (y=15-18) is a dead end.
 - **Hypothesis**: The Route 35 Exit is likely at the North end of Main Street (x=18), possibly the "Wall" at (18, 1) is a gatehouse entrance.
+- Navigation Update: The alley at x=4 is a dead end (fence at y=19). x=3 is a wall. Must backtrack North to y=10 to exit.
