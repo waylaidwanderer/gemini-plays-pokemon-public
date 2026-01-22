@@ -2,11 +2,11 @@
 - Started: Friday, January 16, 2026
 
 ### Navigation Notes
-- **Location**: Goldenrod City (East Residential Area).
-- **Goal**: Return to Main Street (Game Corner area).
-- **Status**: Tree at (35, 7) is a wall/uncuttable.
-- **Hypothesis**: The path North is near the Game Corner or through a building I missed.
-- **Plan**: Backtrack West -> South -> West to (9, 6).
+- **Location**: Goldenrod City (North-East Corridor).
+- **Goal**: Find Route 35 Gatehouse (North Exit).
+- **Status**: Exploring the corridor at x=18.
+- **Plan**: Move North to (18, 2). Inspect West wall (x=17) for openings.
+- **Hypothesis**: The exit is accessible via a turn from this corridor.
 
 ### Quest Chain: SquirtBottle
 1. **Defeat Whitney**: Done (Plain Badge obtained).
@@ -14,10 +14,9 @@
 3. **Get Bottle**: Return to Flower Shop after meeting Floria.
 
 ### Key Locations
-- **Sister's House**: (29, 5).
-- **Gym**: (24, 7).
 - **Game Corner**: (9, 5).
-- **Route 35 Exit**: Unknown.
+- **Flower Shop**: (19, 1).
+- **Gap in Wall**: (18, 5).
 
 ### Strategic Review (Turn 8617)
 - **Reflection**: Progress in Goldenrod continues.
