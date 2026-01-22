@@ -32,3 +32,6 @@
 2. **Find Floria**: Check Route 36 (North of Route 35).
 3. **Get Bottle**: Return to Flower Shop (19, 1).
 4. **Sudowoodo**: Use Bottle to clear path.
+- **Progress**: Successfully crossed to West Goldenrod via Underground!
+- **Current Location**: Goldenrod City (West Side), near (5, 25).
+- **Next Step**: Head North along the West side to bypass the Radio Tower blockade and reach Route 35.
