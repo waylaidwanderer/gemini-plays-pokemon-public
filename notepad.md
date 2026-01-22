@@ -3,10 +3,10 @@
 
 ### Navigation Notes
 - **Strategy**: Underground Re-Do.
-- **Status**: Inside Underground Entrance (South) (3_54).
-- **Plan**: Enter the Underground Tunnel via stairs at (5, 25). Traverse North to exit at Goldenrod City (North).
-- **Reasoning**: Surface routes are blocked. This path bypasses the obstacles.
-- **Timestamp**: Turn 8238.
+- **Status**: In Underground Tunnel (3_53). Moving North.
+- **Plan**: Navigate past trainers to North Exit (approx 3, 2).
+- **Reasoning**: Current path blocked by trainer at (3, 27). Need to side-step and continue North.
+- **Timestamp**: Turn 8241.
 
 ### Key Locations
 - **Sister's House**: (29, 5).
