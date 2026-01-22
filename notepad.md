@@ -3,10 +3,10 @@
 
 ### Navigation Notes
 - **Strategy**: Underground Re-Do.
-- **Status**: In Underground Tunnel (3_53). Approaching Super Nerd at (6, 9).
-- **Plan**: Move North on Column 3 to (3, 9) to pass the Super Nerd. Then switch to Right side (Column 5) to pass the next trainer at (3, 4).
-- **Reasoning**: Column 2 is blocked until Row 9. Column 3 is the safest path past the first nerd.
-- **Timestamp**: Turn 8246.
+- **Status**: In Underground Tunnel (3_53). Facing Trainer at (2, 6).
+- **Plan**: Move North. Expecting battle with the trainer at (2, 6) who is blocking the path. After that, dodge the Nerd at (3, 4).
+- **Reasoning**: Trainer at (2, 6) faces Right, covering the entire corridor. Battle is likely unavoidable.
+- **Timestamp**: Turn 8247.
 
 ### Key Locations
 - **Sister's House**: (29, 5).
