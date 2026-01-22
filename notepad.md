@@ -4,8 +4,8 @@
 ### Navigation Notes
 - **Location**: Goldenrod City (East of Gym).
 - **Goal**: Find path to Route 35 Gatehouse.
-- **Status**: Interrupted by text box ("Huh?"). Likely a phone call or event.
-- **Method**: Clearing text, then continuing East to bypass the Gym.
+- **Status**: EGG HATCHING EVENT! The Odd Egg is hatching!
+- **Method**: Watch the hatching animation, then resume search.
 
 ### Quest Chain: SquirtBottle
 1. **Defeat Whitney**: Done (Plain Badge obtained).
