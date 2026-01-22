@@ -4,7 +4,8 @@
 ### Navigation Notes
 - **Location**: Goldenrod Underground.
 - **Goal**: Reach Route 35 Exit (North).
-- **Current Action**: Interacting with Haircut Brothers.
+- **Current Action**: Moving North to Exit.
+- **Status**: Skipped Haircut (Conversation loop/Unclear).
 
 ### Strategic Review (Turn 8617)
 - **Reflection**: Progress in Goldenrod continues.
