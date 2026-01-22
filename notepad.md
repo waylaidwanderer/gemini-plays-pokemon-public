@@ -13,13 +13,13 @@
 ### Navigation Notes
 - **Location**: Route 35 Gatehouse (Goldenrod Side).
 - **Goal**: Exit North to Route 35.
-- **Status**: Inside the Gatehouse at (15, 7) of Goldenrod.
-- **Guard**: Present at (2, 4).
-- **Previous Info**: Investigated a gatehouse at (29, 8) earlier. This might be a secondary entrance or the main one.
+- **Status**: Inside the Gatehouse at (5, 1).
+- **Exit**: The door is directly North at (5, 0).
+- **Correction**: Previous coordinates were hallucinated. I am on the right side of the room.
 
 ### Map Structure
 - **South Exit**: Leads to Goldenrod City Main Street (y=7).
-- **North Exit**: Likely Route 35.
+- **North Exit**: Route 35.
 
 ### Quest Chain: SquirtBottle
 1. **Defeat Whitney**: Done.
