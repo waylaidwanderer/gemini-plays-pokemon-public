@@ -31,3 +31,7 @@
 1. **Defeat Whitney**: Done (Plain Badge obtained).
 2. **Find Floria**: Currently seeking at Route 36.
 3. **Get Bottle**: Return to Flower Shop after meeting Floria.
+- **Correction**: The area North of y=8 is divided by a wall at x=17.
+- **West Section (x < 17)**: Blocked at y=5 (Wall of buildings). Underground Entrance at (9, 5).
+- **East Section (x >= 18)**: Leads to Flower Shop. Needs thorough re-investigation for a North exit.
+- **Plan**: Move to (18, 8) and explore North. Check for any path West from the x=18 corridor.
