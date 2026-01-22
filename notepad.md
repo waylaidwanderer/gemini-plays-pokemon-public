@@ -40,6 +40,6 @@
 ### Navigation Update (Turn 8998)
 - **Location**: Underground Tunnel.
 - **Goal**: Reach North-West Exit (3, 2).
-- **Tactics**: Right path (Col 4) failed/blocked. Switching to Left path (Col 2).
+- **Tactics**: Column 2 blocked at Row 25 (Wall). Shifting to Column 4/5.
 - **Next Step**: Exit at (3, 2) -> East Side Goldenrod.
 - **Hypothesis**: East Side allows access to Route 34 (South).
