@@ -4,7 +4,7 @@
 ### Navigation Notes
 - **Location**: Goldenrod Underground (3_53).
 - **Goal**: Reach North Exit (3, 2) to enter Goldenrod City (North/West side).
-- **Current Action**: Moving past PokeManiac Donald (Already Defeated).
+- **Current Action**: Exiting Underground (avoiding Super Nerd at 3,3).
 - **Path**: North along the main corridor.
 
 ### Resource Alert
