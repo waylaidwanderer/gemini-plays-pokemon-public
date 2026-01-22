@@ -2,10 +2,10 @@
 - Started: Friday, January 16, 2026
 
 ### Navigation Notes
-- **Location**: Goldenrod City (East Side).
+- **Location**: Goldenrod City (East Side - Outside Underground).
 - **Goal**: Reach Route 35 Gatehouse (North).
-- **Status**: Exited Underground at (21, 25). Now heading North.
-- **Hypothesis**: The Underground bypassed the obstacles blocking the path North.
+- **Status**: Navigating out of fenced area. Heading South to go around.
+- **Hypothesis**: The Underground exit is fenced; must go South to Row 28 to exit East/West.
 
 ### Resource Alert
 - **Pokeballs**: 10 Poké Balls, 1 Lure Ball.
