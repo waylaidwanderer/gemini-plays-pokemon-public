@@ -4,12 +4,13 @@
 ### Navigation Notes
 - **Location**: Goldenrod Underground (3_53).
 - **Goal**: Reach East Goldenrod (Exit at North end).
-- **Current Action**: Moving North (hugging Left/x=2 to avoid Beauty).
-- **Strategy**: 
-  1. Pass Beauty (Row 15) on the far left (x=2).
-  2. Switch to Right (x=4) before Row 9 to pass Super Nerd.
-  3. Weave past Trainer at Row 6.
-- **Plan**: Exit at (3, 2).
+- **Current Action**: Moving North (Lane Correction).
+- **Correction**: x=2 is blocked by planters/walls from Row 10 to Row 20.
+- **Revised Path**:
+  1. Move to x=3 (Right) to pass the blockage and the Beauty (Row 15).
+  2. At Row 9, switch to x=2 (Left) to maximize distance from Super Nerd (6, 9).
+  3. Prepare for Trainer at (2, 6).
+- **Plan**: Move Right, then North.
 
 ### Resource Alert
 - **Pokeballs**: 10 Poké Balls, 1 Lure Ball.
