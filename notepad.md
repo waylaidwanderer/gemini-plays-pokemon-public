@@ -9,8 +9,8 @@
 
 ### Navigation Notes
 - **Location**: Underground Tunnel.
-- **Goal**: Reach South Exit (to West Goldenrod).
-- **Status**: Moving South.
+- **Goal**: Reach South Exit to West Goldenrod.
+- **Status**: Bypassing Haircut Brothers at (3, 27).
 ### Tile Mechanics
 - **Underground Walkable**: TYPE_3fe2, TYPE_8564, TYPE_63e2.
 - **City Walkable**: TYPE_3fe2, TYPE_8564, TYPE_ffbb.
