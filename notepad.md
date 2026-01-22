@@ -4,9 +4,9 @@
 ### Navigation Notes
 - **Location**: Goldenrod City West (3_54).
 - **Goal**: Reach Route 35 Gatehouse (North).
-- **Current Action**: Heading North along the Main Road.
-- **Context**: Exited Underground at (5, 25). This puts me on the West side of the city.
-- **Plan**: Go North. The "blocked" area was on the East side. The Main Road should be clear.
+- **Current Action**: Navigating around the Underground Entrance.
+- **Observation**: Currently North of the entrance at (5, 24). North is blocked.
+- **Plan**: Move West and South to bypass the entrance structure and reach the Main Road.
 
 ### Resource Alert
 - **Pokeballs**: 10 Poké Balls, 1 Lure Ball.
