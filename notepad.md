@@ -2,14 +2,14 @@
 - Started: Friday, January 16, 2026
 
 ### Navigation Notes
-- **Location**: Goldenrod City (Flower Shop).
+- **Location**: Goldenrod City (North-East).
 - **Goal**: Reach Route 35 Gatehouse (North Exit).
-- **Status**: Exiting Flower Shop.
-- **Insight**: Need to trigger the Sudowoodo event at Route 36 first.
+- **Status**: Flower Shop (x=19) is a dead end.
 - **Plan**: 
-    1. Exit Shop.
-    2. Head West to the Radio Tower area.
-    3. Hug the West wall and travel North to find the exit.
+    1. Travel South to (18, 10) to clear the wall.
+    2. Travel West to the Game Corner area (x=9).
+    3. Push Far West to (0, 6) to check the extreme western edge for a path North.
+- **Hypothesis**: The exit path is hidden on the far West edge of the map (x=0, 1), which is currently "unseen".
 
 ### Quest Chain: SquirtBottle
 1. **Defeat Whitney**: Done (Plain Badge obtained).
@@ -19,7 +19,7 @@
 ### Key Locations
 - **Game Corner**: (9, 5).
 - **Flower Shop**: (19, 1).
-- **Radio Tower**: (5, 15).
+- **Far West Edge**: x=0.
 
 ### Strategic Review (Turn 8617)
 - **Reflection**: Progress in Goldenrod continues.
