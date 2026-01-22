@@ -38,9 +38,9 @@
 - **Status**: Moving North, bypassing sprites at (3, 27).
 - **Navigation**: Using East wall (Column 4) to avoid obstacles in center.
 ### Navigation Update (Turn 8998)
-- **Location**: Goldenrod City (West Side).
-- **Goal**: Reach Main Street (Center).
-- **Tactics**: Exploring the Southern Connection (Rows 33-35).
-- **Observation**: A vertical wall at x=9 blocks Eastward movement from y=21 to y=33.
-- **Hypothesis**: The connection to the Main Street is at the very bottom of the map (Route 34 junction).
-- **Plan**: Move South to y=34 -> Move East past x=9 -> Head North on Main Street.
+- **Location**: Goldenrod City (South-West Pocket).
+- **Goal**: Rejoin Main Street.
+- **Tactics**: Underground Entrance (11, 29) leads to a small area.
+- **Discovery**: Column 9 is open to the North!
+- **Path**: (11, 30) -> West to (9, 30) -> North along Col 9 to Row 22 -> East to Main Street.
+- **Correction**: Previous "Wall at x=9" note was regarding Eastward movement from the far West. Here, Col 9 is the escape route.
