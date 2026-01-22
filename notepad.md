@@ -3,10 +3,10 @@
 
 ### Navigation Notes
 - **Strategy**: Underground Re-Do.
-- **Status**: Goldenrod City (3_54). Outside Game Corner (21, 29).
-- **Plan**: Move West to the main street, then head North to Route 35.
-- **Reasoning**: The Underground exit placed me near the Game Corner. I need to navigate to the main road to proceed North.
-- **Timestamp**: Turn 8259.
+- **Status**: Goldenrod City (11_2). Outside Game Corner (9, 6).
+- **Plan**: Head East to main road (x=16), then North to Route 35.
+- **Reasoning**: Successfully exited the back alley area. Now on the main city map.
+- **Timestamp**: Turn 8260.
 
 ### Key Locations
 - **Sister's House**: (29, 5).
