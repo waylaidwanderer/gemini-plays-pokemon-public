@@ -33,7 +33,8 @@
 3. **Get Bottle**: Return to Flower Shop (19, 1).
 4. **Sudowoodo**: Use Bottle to clear path.
 - **Progress**: Successfully crossed to West Goldenrod via Underground!
-- **Current Location**: Enclosed area behind Pokemon Center (West Goldenrod).
-- **Status**: Area appears isolated. Exits are Underground (5, 25) and Pokemon Center (4-5, 29).
-- **Plan**: Enter Pokemon Center via back/side door (?) to reach Main Street.
-- **Route**: Head South to (5, 29).
+- **Current Location**: Underground Tunnel (South End).
+- **Goal**: Exit to Goldenrod City (South-West).
+- **Recent Event**: Warped from West Goldenrod (Enclosed Area) at (5, 25).
+- **Hypothesis**: The Underground connects the "Enclosed Area" (via North/Back door) to the Main Street (via South/Front door).
+- **Plan**: Exit South to Entrance Hall, then to Main Street.
