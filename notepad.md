@@ -2,11 +2,11 @@
 - Started: Friday, January 16, 2026
 
 ### Navigation Notes
-- **Location**: Goldenrod City (Central).
-- **Goal**: Reach North Goldenrod via the Central-East street (x=10-15).
-- **Current Action**: Repositioning to Row 29 (South Cross-Street) to access the central road.
-- **Reasoning**: Column 9 appears to be a "curb" or barrier that cannot cross to Column 10 (Street) except at the bottom (Row 29). I am currently stuck on the curb at (9, 24).
-- **Plan**: Move Down to (9, 29), then Right to (11, 29), then North.
+- **Location**: Goldenrod City (Central-South).
+- **Goal**: Cross to the East Side (x=10+) via Row 29, then head North.
+- **Current Action**: Moving Down to Row 29, then East to x=12.
+- **Reasoning**: I need to bypass the vertical barrier at x=9. The road at Row 29 should connect West and East Goldenrod.
+- **Plan**: Down to (9, 29), Right to (12, 29), then Up to explore the x=12 corridor.
 
 ### Resource Alert
 - **Pokeballs**: 10 Poké Balls, 1 Lure Ball.
