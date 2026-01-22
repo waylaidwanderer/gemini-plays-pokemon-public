@@ -2,11 +2,11 @@
 - Started: Friday, January 16, 2026
 
 ### Navigation Notes
-- **Location**: Goldenrod City (East Side - Enclosed Yard).
-- **Goal**: Escape this yard to reach Main Street.
-- **Status**: North is blocked by wall at Row 21. West is blocked by wall at Col 15.
-- **Hypothesis**: The tiles at (20, 29) and (21, 29) are a back door (possibly Game Corner or Dept Store).
-- **Plan**: Enter building at (20, 29) to traverse to Main Street.
+- **Location**: Goldenrod City (East Side - Game Corner Yard).
+- **Goal**: Enter Game Corner via Back Door at (20, 29).
+- **Status**: Standing on door mat (20, 29).
+- **Next Action**: Walk South to enter.
+- **Hypothesis**: This is a two-way door. If locked, I'm stuck and need to re-evaluate the "open" yard area.
 
 ### Quest Chain: SquirtBottle
 1. **Defeat Whitney**: Done (Plain Badge obtained).
@@ -15,7 +15,7 @@
 
 ### Key Locations
 - **Underground Exit**: (21, 25).
-- **Mystery Door**: (20-21, 29).
+- **Game Corner Back Door**: (20, 29).
 - **Gym**: Accessible from Main Street (West).
 
 ### Strategic Review (Turn 8617)
