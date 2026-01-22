@@ -37,3 +37,9 @@
 - **Goal**: Reach North-West Exit (3, 2).
 - **Status**: Moving North, bypassing sprites at (3, 27).
 - **Navigation**: Using East wall (Column 4) to avoid obstacles in center.
+### Navigation Update (Turn 8998)
+- **Current Location**: Goldenrod City East Side (21, 25).
+- **Observation**: North (Row 21) appears blocked by a wall/building.
+- **Hypothesis**: The East Side is isolated from the North.
+- **Plan**: Head South to the City Entrance (Route 34). Check if I can cross to the West Side from the South.
+- **Goal**: Reach West Side Main Street to access Radio Tower and Route 35.
