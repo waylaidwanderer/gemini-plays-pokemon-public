@@ -53,7 +53,8 @@
 - **Timestamp**: Turn 8355.
 - **Reasoning**: The city is divided by vertical walls. The only reliable crossover point seems to be the very bottom (Row 35).
 - **Timestamp**: Turn 8337.
-- **Status**: Goldenrod City (11_2) at (14, 23). Moving West on Cross Street.
-- **Action**: Moving Left to Main Street (x~9).
-- **Goal**: Reach Main Street, then head North to Route 35 Gatehouse.
-- **Next**: Left to x=9 -> North.
+- **Status**: Goldenrod City (11_2) at (14, 23). Backtracking to East Street.
+- **Action**: Moving Right to x=18, then North to Row 17.
+- **Goal**: Reach Row 17 (Cross Street) to access West Side.
+- **Correction**: Row 23 West is blocked by Game Corner. Must go North on East Street first.
+- **Next**: Right to x=18 -> North to Row 17 -> West.
