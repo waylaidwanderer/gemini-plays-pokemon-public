@@ -2,10 +2,10 @@
 - Started: Friday, January 16, 2026
 
 ### Navigation Notes
-- **Location**: Goldenrod City (Main Street).
+- **Location**: Goldenrod City (Central - Outside Game Corner).
 - **Goal**: Reach Route 35 Gatehouse (North).
-- **Status**: Teleported from Game Corner Backyard to Main Entrance (9, 5).
-- **Path**: Heading North to Exit at (16, 0).
+- **Status**: Answering Joey's Phone Call.
+- **Path**: South to Row 8 -> East to Main St -> North to Exit.
 
 ### Quest Chain: SquirtBottle
 1. **Defeat Whitney**: Done (Plain Badge obtained).
