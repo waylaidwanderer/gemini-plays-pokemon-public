@@ -30,7 +30,8 @@
 - Route 34 Item Ball at (7, 30) is blocked by a ledge at x=9 (One-way West->East?). Must approach from Goldenrod City/West side.
 - Confirmed: Wall at x=35 blocks East access from Row 6-19.
 - Tracks blocked at (3, 16) by Rude Tourist.
-- Plan: Abandoned South Loop. Proceeding through Underground to bypass city blocks.
+- Status: Exiting Underground at North side.
+- Plan: Exit building -> Locate Route 35 Gatehouse (North-West).
 - Exit Hypothesis: Route 35 Exit is in the North-West corner, accessible via the tracks/Radio Tower path.
 - Facts: Main Avenue (x=18) and East Side (x=29) are dead ends.
 - Sandbox status: Down.
