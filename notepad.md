@@ -2,10 +2,10 @@
 - Started: Friday, January 16, 2026
 
 ### Navigation Notes
-- **Location**: Goldenrod City (3_54).
-- **Goal**: Enter Underground (North Entrance).
-- **Current Action**: Moving to Entrance at (21, 25).
-- **Path**: East on Row 28 to x=21, then North.
+- **Location**: Goldenrod Underground (3_53).
+- **Goal**: Reach South Exit (3, 35) to enter Goldenrod City (South/Main Road).
+- **Current Action**: Heading South to exit.
+- **Path**: South along the corridor.
 
 ### Resource Alert
 - **Pokeballs**: 10 Poké Balls, 1 Lure Ball.
