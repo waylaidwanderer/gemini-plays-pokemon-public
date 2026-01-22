@@ -38,8 +38,9 @@
 - **Status**: Moving North, bypassing sprites at (3, 27).
 - **Navigation**: Using East wall (Column 4) to avoid obstacles in center.
 ### Navigation Update (Turn 8998)
-- **Location**: Flower Shop (Goldenrod City).
-- **Goal**: Find Floria / Inspect Sudowoodo.
-- **Status**: Spoke to girl. She mentioned the tree wriggles but gave no bottle.
-- **Requirement**: Must find Floria at Route 36 or interact with the tree first.
-- **Next Step**: Exit Shop -> North to Route 35 -> Route 36.
+- **Location**: Goldenrod City (Flower Shop Area).
+- **Goal**: Reach Route 35 Gatehouse.
+- **Status**: Flower Shop pocket (x>17, y<8) seems isolated from the Gatehouse path (x<17).
+- **Correction**: Access to Route 35 is likely via a path/door West of the Flower Shop, accessible from Row 10.
+- **Next Step**: Go South to Row 10 -> Move West to Column 14-16 -> Search for Gatehouse Door.
+- **Hypothesis**: The Gatehouse is located at (13-16, 4-7) and the entrance was missed.
