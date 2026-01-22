@@ -11,15 +11,17 @@
     3.Systematically explore North from there, hugging the West edge.
 
 ### Navigation Notes
-- **Location**: Goldenrod City North.
-- **Goal**: Reach Route 35.
-- **Status**: At the Gatehouse/Building blocking Main Street (y=7).
-- **Observation**: The street is blocked by a building spanning x=14 to x=17.
-- **Action**: Entering the door at (15, 7).
-- **Hypothesis**: This building connects the South side (y=8) to the North side (y=0).
+- **Location**: Route 35 Gatehouse (Goldenrod Side).
+- **Goal**: Exit North to Route 35.
+- **Status**: Inside the Gatehouse at (15, 7) of Goldenrod.
+- **Guard**: Present at (2, 4).
+- **Previous Info**: Investigated a gatehouse at (29, 8) earlier. This might be a secondary entrance or the main one.
 
 ### Map Structure
-- **Gatehouse/Passage**: (15, 7).
-- **Route 35 Exit**: Likely at (16, 0).
-- **Flower Shop**: Accessible via x=18 gap, but likely a cul-de-sac.
-- **Gym**: East side (24, 7).
+- **South Exit**: Leads to Goldenrod City Main Street (y=7).
+- **North Exit**: Likely Route 35.
+
+### Quest Chain: SquirtBottle
+1. **Defeat Whitney**: Done.
+2. **Find Floria**: Check Route 36 (North of Route 35).
+3. **Get Bottle**: Return to Flower Shop.
