@@ -11,24 +11,22 @@
     3.Systematically explore North from there, hugging the West edge.
 
 ### Navigation Notes
-- **Location**: Goldenrod City (Tracks - East).
-- **Goal**: Reach West Side via Tracks.
-- **Status**: At (18, 12). Heading West along tracks to (9, 14).
+- **Location**: Goldenrod City (South-Central).
+- **Goal**: Reach North-West Quadrant (Route 35 Exit).
+- **Status**: At (9, 14) (South of Tracks).
 - **Plan**: 
-    1. Traverse West to Main Street (x=9).
-    2. Head North to Game Corner (9, 5).
-    3. Explore Far West (x<6) for the exit.
+    1. Navigate West to Radio Tower (5, 16).
+    2. Check for track crossing at x<6.
+    3. If blocked, backtrack to East Crossing (18, 14), cross North, then travel ALL the way West on the North side (Row 7).
+- **Realization**: I previously explored the North-West only up to x=6 and stopped. The exit is likely further West (x=0-5).
 
 ### Quest Chain: SquirtBottle
 1. **Defeat Whitney**: Done (Plain Badge obtained).
 2. **Find Floria**: Currently seeking at Route 36.
 3. **Get Bottle**: Return to Flower Shop after meeting Floria.
 
-### Resource Alert
-- **Pokeballs**: 10 Poké Balls, 1 Lure Ball.
-
 ### Key Locations
-- **Sister's House**: (29, 5).
-- **Flower Shop**: (19, 1).
 - **Game Corner**: (9, 5).
-- **Radio Tower**: (5, 15).
+- **Radio Tower**: (5, 16).
+- **East Crossing**: (18, 14).
+- **Potential Exit**: (4, 0).
