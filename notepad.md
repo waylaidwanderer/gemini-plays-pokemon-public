@@ -4,8 +4,8 @@
 ### Navigation Notes
 - **Location**: Goldenrod City (Main Street - North).
 - **Goal**: Reach Route 35 Gatehouse (North).
-- **Status**: Heading North, bypassing NPC at (18, 7).
-- **Path**: Detour East to (19, 8), then North.
+- **Status**: Navigating North via Main Street to Route 35 Exit.
+- **Method**: Follow the road North to the map edge.
 
 ### Quest Chain: SquirtBottle
 1. **Defeat Whitney**: Done (Plain Badge obtained).
