@@ -3,10 +3,10 @@
 
 ### Navigation Notes
 - **Location**: Goldenrod City (East Side - Main Street).
-- **Goal**: Reach Flower Shop (19, 1) and Route 35 (North).
-- **Current Action**: Exploring East along Row 22 to bypass the building at Row 21.
-- **Observation**: The path North at x=17 is blocked by a building (Row 21). Moving East to find a way around or an entrance.
-- **Plan**: North to Row 22, then East.
+- **Goal**: Find Department Store Entrance / Path North.
+- **Current Action**: Moving West along Row 22 to find the building corner or entrance.
+- **Observation**: The building at Row 21 spans from at least x=16 to x=25 with no visible door.
+- **Hypothesis**: The entrance or street is further West (x < 16).
 
 ### Resource Alert
 - **Pokeballs**: 10 Poké Balls, 1 Lure Ball.
