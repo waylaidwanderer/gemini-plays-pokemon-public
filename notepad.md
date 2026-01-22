@@ -5,7 +5,7 @@
 - **Location**: Goldenrod City (Flower Shop).
 - **Goal**: Find Route 35 Gatehouse (North Exit).
 - **Status**: Inside Flower Shop.
-- **Action**: Talking to Flower Shop Girl.
+- **Action**: Moving closer to Flower Shop Girl to talk (previously too far away).
 - **Quest Info**: Looking for information on Floria or the SquirtBottle.
 
 ### Quest Chain: SquirtBottle
