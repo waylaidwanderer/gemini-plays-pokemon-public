@@ -39,11 +39,7 @@
 - **Navigation**: Using East wall (Column 4) to avoid obstacles in center.
 ### Navigation Update (Turn 8998)
 - **Location**: Underground Tunnel (North Exit).
-- **Goal**: Exit to Goldenrod Center (Main St).
-- **Tactics**: Testing Exit Variance.
-    - Left Tile (3, 2) -> East Alley (Dead End).
-    - Right Tile (4, 2) -> Main Street (Hypothesis).
-- **Confirmed Dead Ends**:
-    - East Side (x>16): Blocked by Planters/Walls.
-    - West Side (x<6): Blocked by Walls/Tracks.
-    - Center (x=16): Blocked by Name Rater's House? (Need to re-verify).
+- **Goal**: Exit to Goldenrod City (East Side).
+- **Tactics**: Right Tile (4, 1) is not an exit (Blocked). Moving to Left Tile (3, 1).
+- **Next Step**: Exit at (3, 1) -> Re-evaluate East Side pathing.
+- **Hypothesis**: The East Side path North was not fully explored. Must check columns 17-20 for a gap in the planters.
