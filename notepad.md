@@ -36,14 +36,13 @@
 - Note: Sandbox is down. Manual navigation active.
 - **Transition**: Goldenrod (18, 35) connects to Route 34 (8, 0).
 - **Plan**: Move West in Route 34 to finding the Tracks entrance (likely x=4 or lower).
-- **Status**: Goldenrod City (11_2) at (19, 35). Just arrived from Route 34.
-- **Problem**: I am on the East side (X=19). The West side (X<17) is blocked by a wall at (17, 35).
-- **Discovery**: Route 34 (9, 0) connects to Goldenrod (19, 35). This is the East entrance.
+- **Status**: Route 34 (11_1) at (9, 0). East side.
+- **Hypothesis**: The large block of walls at Row 3-5 (Columns 4-7) is likely the Gatehouse structure. The Main Road is to the West (Columns 0-3).
 - **Plan**: 
-    1. Go back South to Route 34.
-    2. Move West to Column 6 or lower (navigating around obstacles).
-    3. Enter Goldenrod from the West side (Column 6 -> Goldenrod X=16).
-    4. Move West/North to Underground (11, 29).
-- **Timestamp**: Turn 8354.
+    1. Go South to Row 8 (where the barrier at x=7 ends).
+    2. Move West into the Unseen area (Columns 0-3).
+    3. Head North to enter Goldenrod from the Main Road.
+- **Reasoning**: To access the West side of Goldenrod, I must be on the West side of the Gatehouse.
+- **Timestamp**: Turn 8355.
 - **Reasoning**: The city is divided by vertical walls. The only reliable crossover point seems to be the very bottom (Row 35).
 - **Timestamp**: Turn 8337.
