@@ -3,10 +3,10 @@
 
 ### Navigation Notes
 - **Strategy**: Underground Re-Do.
-- **Status**: Inside Flower Shop (10_14). Dialogue with Lady.
-- **Plan**: Continue pressing A to advance text.
-- **Reasoning**: The text "there are in the world." is on screen with a prompt arrow. The conversation is proceeding, just slowly.
-- **Timestamp**: Turn 8292.
+- **Status**: Inside Flower Shop (10_14). Dialogue with Lady stuck on "there are in the world."
+- **Plan**: Press B then A manually to try and unstick the dialogue box.
+- **Reasoning**: The automated tool `advance_dialogue` has not advanced the text for 3 turns. Switching to manual inputs and trying B to cancel/advance.
+- **Timestamp**: Turn 8296.
 
 ### Key Locations
 - **Sister's House**: (29, 5).
