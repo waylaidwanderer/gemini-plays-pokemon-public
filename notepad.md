@@ -4,10 +4,9 @@
 ### Navigation Notes
 - **Location**: Goldenrod Underground (3_53).
 - **Goal**: Reach South Exit (3, 35).
-- **Current Action**: Moving South to (3, 16).
-- **Upcoming Obstacle**: PokeManiac Donald at (3, 20).
-- **Plan**: Shift Right to Lane 4/5 at Row 17 to bypass Donald.
-- **Safety**: Beauty at (7, 15) is screened by the wall at x=6.
+- **Current Action**: Moving past Donald (3, 20).
+- **Plan**: Move Right to x=4 to walk around Donald, then continue South.
+- **Next Hazard**: PokeManiac at (7, 21). Will try to hug Left wall (x=3) after passing Donald.
 
 ### Resource Alert
 - **Pokeballs**: 10 Poké Balls, 1 Lure Ball.
