@@ -3,10 +3,10 @@
 
 ### Navigation Notes
 - **Strategy**: Underground Re-Do.
-- **Status**: Inside Radio Tower (1F). Checking Reception.
-- **Plan**: Talk to Receptionist. Exit Radio Tower. Check if "Rude Tourist" at (3, 16) has moved. If not, check Main Road (x=8-12) Northbound.
-- **Reasoning**: Tourist blocked the tracks. He was admiring the Radio Tower. Entering/Exiting or talking to staff might clear him.
-- **Timestamp**: Turn 8227.
+- **Status**: Outside Radio Tower (5, 16).
+- **Plan**: Move East to the Main Road (approx x=12). Then head North to find the Route 35 Gatehouse (approx 15, 0).
+- **Reasoning**: The "Rude Tourist" blocks the West path (Tracks). The East side (Flower Shop) was a dead end. The central Main Road is the most likely exit.
+- **Timestamp**: Turn 8231.
 
 ### Key Locations
 - **Sister's House**: (29, 5).
