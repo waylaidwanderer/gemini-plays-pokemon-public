@@ -53,7 +53,7 @@
 - **Timestamp**: Turn 8355.
 - **Reasoning**: The city is divided by vertical walls. The only reliable crossover point seems to be the very bottom (Row 35).
 - **Timestamp**: Turn 8337.
-- **Status**: Route 34 (11_1) at (9, 12). Defeated Officer Keith.
-- **Action**: Moving around Officer Keith (Left -> Up).
-- **Goal**: Enter Goldenrod City (North).
-- **Note**: Daycare and Gatehouse are behind me (South). Route is clear North.
+- **Status**: Route 34 (11_1). Approaching Goldenrod City entrance.
+- **Action**: Moving North to cross the map border (Row 0).
+- **Goal**: Enter Goldenrod City and heal/restock.
+- **Note**: Daycare passed. Route clear.
