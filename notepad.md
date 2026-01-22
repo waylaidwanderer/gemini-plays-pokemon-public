@@ -3,10 +3,10 @@
 
 ### Navigation Notes
 - **Strategy**: Underground Re-Do.
-- **Status**: Inside Flower Shop (10_14). Dialogue with Lady stuck on "there are in the world."
-- **Plan**: Press B then A manually to try and unstick the dialogue box.
-- **Reasoning**: The automated tool `advance_dialogue` has not advanced the text for 3 turns. Switching to manual inputs and trying B to cancel/advance.
-- **Timestamp**: Turn 8296.
+- **Status**: Inside Flower Shop (10_14). Breaking dialogue loop.
+- **Plan**: Press B repeatedly to close the dialogue with the Lady, then move Right to talk to the Flower Shop Girl.
+- **Reasoning**: I've been talking to the Lady for too long. She likely only provides lore. The Girl is the one who usually gives the SquirtBottle. The automated `advance_dialogue` tool was likely closing and restarting the conversation.
+- **Timestamp**: Turn 8297.
 
 ### Key Locations
 - **Sister's House**: (29, 5).
