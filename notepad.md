@@ -40,7 +40,7 @@
 ### Navigation Update (Turn 8998)
 - **Current Location**: Goldenrod City East Side (21, 25).
 - **Goal**: Exit Underground via (4, 2) to Main City Entrance Hall.
-- **Observation**: Tile (3, 2) is **walkable**, not a warp.
-- **Hypothesis**: The actual exits are at Row 0 (Top of stairs).
-- **Plan**: Target (4, 0) (Right Side) for Main City exit.
-- **Reasoning**: Column 4 previously aligned with the Main City entrance. Column 3 led to the dead end.
+- **Fact**: Tile (3, 2) is the ONLY North warp. It leads to (21, 25).
+- **Fact**: Tile (4, 2) is NOT a warp.
+- **Plan**: Exit via (3, 2). Then, navigate on surface from (21, 25) to Route 35.
+- **Route**: (21, 25) -> South to (21, 29) -> West to Main Street -> North to Route 35.
