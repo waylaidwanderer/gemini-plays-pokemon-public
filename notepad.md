@@ -2,11 +2,10 @@
 - Started: Friday, January 16, 2026
 
 ### Navigation Notes
-- **Location**: Goldenrod City (Central-West).
-- **Goal**: Access North Goldenrod via Tree at (9, 22).
-- **Status**: Recovering from Menu navigation error.
-- **Action**: Exiting Menu -> Face Tree -> Cut.
-- **Hypothesis**: The tree at (9, 22) is the intended path.
+- **Location**: Goldenrod City (South-West).
+- **Goal**: Cut tree at (9, 22) to access unexplored area.
+- **Status**: Interacting with tree.
+- **Hypothesis**: This path bypasses obstacles or leads to hidden items.
 
 ### Resource Alert
 - **Pokeballs**: 10 Poké Balls, 1 Lure Ball.
