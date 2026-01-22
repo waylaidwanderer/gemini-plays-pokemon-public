@@ -3,10 +3,10 @@
 
 ### Navigation Notes
 - **Strategy**: Underground Re-Do.
-- **Status**: Inside Flower Shop (10_14). Listening to Lady's story.
-- **Plan**: Press A to advance text.
-- **Reasoning**: Text is not finished. She is talking about Prof Oak.
-- **Timestamp**: Turn 8278.
+- **Status**: Inside Flower Shop (10_14). Dialogue with Lady.
+- **Plan**: Continue pressing A.
+- **Reasoning**: Still listening to the story about Pokemon species.
+- **Timestamp**: Turn 8279.
 
 ### Key Locations
 - **Sister's House**: (29, 5).
