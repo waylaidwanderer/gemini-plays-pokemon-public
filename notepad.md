@@ -3,10 +3,10 @@
 
 ### Navigation Notes
 - **Strategy**: Underground Re-Do.
-- **Status**: Goldenrod City (11_2). Outside Flower Shop.
-- **Plan**: Head North to the Route 35 Gatehouse.
-- **Reasoning**: Need to reach Route 36 to find Floria.
-- **Timestamp**: Turn 8305.
+- **Status**: Goldenrod City (11_2). Moving West to Main Street.
+- **Plan**: Move West to x=16, then head North to the Route 35 Gatehouse.
+- **Reasoning**: The main street (Column 16) is the primary path North.
+- **Timestamp**: Turn 8308.
 
 ### Key Locations
 - **Sister's House**: (29, 5).
