@@ -11,14 +11,11 @@
     3.Systematically explore North from there, hugging the West edge.
 
 ### Navigation Notes
-- **Location**: Goldenrod City (South Side).
+- **Location**: Goldenrod City (Radio Tower Area).
 - **Goal**: Reach Far West Edge (x=0).
-- **Status**: Moving to Radio Tower Area (5, 16).
-- **Reasoning**: To reach the Far West, I must pass the choke point at (4, 16) which was previously blocked by an NPC.
-- **Plan**:
-    1. Go South to Row 16.
-    2. Go West to (5, 16).
-    3. Interact with NPC at (4, 16) or walk past if gone.
+- **Status**: Bypassing NPC at (4, 16) via Row 18.
+- **Path**: (5, 16) -> South to (5, 18) -> West to (3, 18) -> North to (3, 16).
+- **Hypothesis**: The column at x=3 or a path further West (x=0) leads North to Route 35.
 
 ### Quest Chain: SquirtBottle
 1. **Defeat Whitney**: Done (Plain Badge obtained).
@@ -26,6 +23,6 @@
 3. **Get Bottle**: Return to Flower Shop after meeting Floria.
 
 ### Key Locations
-- **East Crossing**: (18, 14).
-- **Radio Tower**: (5, 15).
-- **Choke Point**: (4, 16).
+- **NPC Block**: (4, 16).
+- **Bypass Path**: (3, 18).
+- **Potential Exit**: x=0-3 corridor.
