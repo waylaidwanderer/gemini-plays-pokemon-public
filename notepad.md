@@ -53,8 +53,8 @@
 - **Timestamp**: Turn 8355.
 - **Reasoning**: The city is divided by vertical walls. The only reliable crossover point seems to be the very bottom (Row 35).
 - **Timestamp**: Turn 8337.
-- **Status**: Goldenrod City (11_2) at (21, 26). Outside Dept Store.
-- **Action**: Moving Down to Row 28, then Right to Dept Store Entrance (24, 27).
-- **Goal**: Buy Poké Balls on 2F.
-- **Correction**: Direct East path is blocked by hedges. Must go South to Row 28 first.
+- **Status**: Goldenrod City (11_2) at (21, 25). Blocked by NPC South.
+- **Action**: Flanking Left (20, 25) then South to Row 28.
+- **Goal**: Enter Dept Store at (24, 27).
+- **Reasoning**: NPC at (21, 26) blocks direct path.
 - **Next**: Find Sister at Route 36.
