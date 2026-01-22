@@ -53,7 +53,7 @@
 - **Timestamp**: Turn 8355.
 - **Reasoning**: The city is divided by vertical walls. The only reliable crossover point seems to be the very bottom (Row 35).
 - **Timestamp**: Turn 8337.
-- **Status**: Goldenrod City (11_2) at (19, 18). Blocked by NPC at (19, 17).
-- **Action**: Moving Left to x=18, then Up to Row 17, then West.
-- **Goal**: Flank the NPC and reach Main Street (x~9) via Row 17.
-- **Next**: Left -> Up -> West.
+- **Status**: Goldenrod City (11_2) at (14, 17). Traversing Cross Street (Row 17).
+- **Action**: Moving Left to Main Street (x=9).
+- **Goal**: Reach Main Street, then head North to Route 35 Gatehouse.
+- **Next**: Left to x=9 -> North.
