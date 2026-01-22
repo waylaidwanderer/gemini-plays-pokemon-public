@@ -31,7 +31,7 @@
 1. **Defeat Whitney**: Done (Plain Badge obtained).
 2. **Find Floria**: Currently seeking at Route 36.
 3. **Get Bottle**: Return to Flower Shop after meeting Floria.
-- **Observation**: x=16 and x=23 are potential North Exits.
-- **Problem**: x=16 is blocked from the South (y=4 wall). x=23 is blocked from the South (y=4 wall).
-- **Hypothesis**: Access to x=23 (and Route 35) is via the East side, North of the Gym (x=24).
-- **Plan**: Go South to y=8, East to x=24 (Gym), then North to find the path to (23, 0).
+- **Discovery**: The "Sister's House" at (29, 5) is a dead end (Flower Shop sibling).
+- **Hypothesis**: The Main Street is `x=16`. The `TYPE_2889` tiles at `y=7` to `y=4` might be walkable (Gatehouse floor?) or I missed a gap.
+- **Plan**: Move to (16, 8) and attempt to walk North through the `TYPE_2889` tiles. If blocked, check `x=15` or `x=17`.
+- **Backup**: If `x=16` fails, the only remaining unexplored area is the far West (`x=0, 1`).
