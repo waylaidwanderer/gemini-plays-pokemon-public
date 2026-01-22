@@ -26,5 +26,6 @@
 - **Current Path**: x=3 corridor.
 - **Radio Tower**: (5, 15).
 - **Potential Exit**: (3, 0) or (4, 0).
-- **Tile Anomaly**: Tile `TYPE_2889` appears to be used for both "Yellow Path" and "Visual Walls". This implies either the walls are walkable (rooftop?) or the ID is misleading.
-- **Hypothesis**: I might be navigating a rooftop area where the "walls" are just edges I can step on.
+- **Tile Anomaly**: Tile `TYPE_2889` appears to be used for both "Yellow Path" and "Visual Walls".
+- **Dead End Confirmed**: (3, 15) is blocked to the North. The corridor at x=3 (y=15-18) is a dead end.
+- **Hypothesis**: The Route 35 Exit is likely at the North end of Main Street (x=18), possibly the "Wall" at (18, 1) is a gatehouse entrance.
