@@ -2,10 +2,11 @@
 - Started: Friday, January 16, 2026
 
 ### Navigation Notes
-- **Location**: Goldenrod City (East of Gym).
-- **Goal**: Find path to Route 35 Gatehouse.
-- **Status**: Nickname "Amber" confirmed.
-- **Next**: Resume Northward navigation to explore the unseen area.
+- **Location**: Goldenrod City (East Residential Area).
+- **Goal**: Find Route 35 Gatehouse.
+- **Status**: At Sister's House (29, 5). Dead end.
+- **Next**: Backtrack South, then explore East edge (x=33) for path North.
+- **Hypothesis**: The Gatehouse is likely on the Main Street, but I might have missed the door. Checking East edge first to be sure.
 
 ### Quest Chain: SquirtBottle
 1. **Defeat Whitney**: Done (Plain Badge obtained).
@@ -13,10 +14,9 @@
 3. **Get Bottle**: Return to Flower Shop after meeting Floria.
 
 ### Key Locations
-- **Game Corner**: (9, 5).
+- **Sister's House**: (29, 5).
 - **Gym**: (24, 7).
-- **Flower Shop**: (19, 1).
-- **Route 35 Exit**: Unknown (North).
+- **Route 35 Exit**: Unknown (likely North-Central).
 
 ### Strategic Review (Turn 8617)
 - **Reflection**: Progress in Goldenrod continues.
