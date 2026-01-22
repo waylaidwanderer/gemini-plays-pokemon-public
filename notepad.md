@@ -4,9 +4,9 @@
 ### Navigation Notes
 - **Location**: Goldenrod Underground (3_53).
 - **Goal**: Reach East Goldenrod (Exit at North end).
-- **Current Action**: Moving North to exit at (3, 2).
-- **Connection**: South End (3, 34) connects to West Goldenrod (5, 25). North End (3, 2) connects to East Goldenrod (21, 25).
-- **Plan**: Go North, Exit, then Find Flower Shop (19, 1) and Gym (24, 7).
+- **Current Action**: Moving North past obstacles and trainers.
+- **Strategy**: Bypassing PokeManiac Donald (Row 20) by hugging the right side (Column 4).
+- **Plan**: Continue North to Exit (3, 2), then enter East Goldenrod (21, 25).
 
 ### Resource Alert
 - **Pokeballs**: 10 Poké Balls, 1 Lure Ball.
