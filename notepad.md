@@ -11,21 +11,15 @@
     3.Systematically explore North from there, hugging the West edge.
 
 ### Navigation Notes
-- **Location**: Goldenrod City North (West Side).
-- **Goal**: Locate Exit to Route 35.
-- **Status**: Trapped in a pocket at (7, 6).
-- **Observation**:
-    - North (Row 5): Blocked.
-    - West (x=5): Blocked.
-    - East (x=8): Blocked by Sign.
-    - South: Open back to Row 9.
-- **Plan**:
-    1. Move South to Row 9/10.
-    2. Move East to Main Street (x=16) or Gym area (x=24).
-    3. Look for a gap in Row 5/6 to head further North.
-- **Hypothesis**: The path to Route 35 is likely on the main street (x=16) or near the Gym.
+- **Location**: Goldenrod City North.
+- **Goal**: Reach Route 35.
+- **Status**: At the Gatehouse/Building blocking Main Street (y=7).
+- **Observation**: The street is blocked by a building spanning x=14 to x=17.
+- **Action**: Entering the door at (15, 7).
+- **Hypothesis**: This building connects the South side (y=8) to the North side (y=0).
 
 ### Map Structure
-- **Underground Exit**: (9, 6).
-- **Gym**: (24, 7).
-- **Blockade**: Row 5 seems to be the northern limit of this section. Route 35 is North of this.
+- **Gatehouse/Passage**: (15, 7).
+- **Route 35 Exit**: Likely at (16, 0).
+- **Flower Shop**: Accessible via x=18 gap, but likely a cul-de-sac.
+- **Gym**: East side (24, 7).
