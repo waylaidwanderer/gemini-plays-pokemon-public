@@ -53,8 +53,6 @@
 - **Timestamp**: Turn 8355.
 - **Reasoning**: The city is divided by vertical walls. The only reliable crossover point seems to be the very bottom (Row 35).
 - **Timestamp**: Turn 8337.
-- **Status**: Goldenrod Underground (3_54) at (4, 24). Dead end detected.
-- **Action**: Backtracking to Cross-Corridor at Row 28.
-- **Goal**: Reach East Corridor (x=7) to head North.
-- **Reasoning**: The center path (x=4) ends at a wall/NPC. Row 28 connects to the side paths.
-- **Next**: Down to Row 28 -> Right to x=7 -> North.
+- **Status**: Goldenrod Underground (3_53) at (3, 29). Moving North.
+- **Action**: Approaching Trainer at (3, 27).
+- **Goal**: Defeat Trainer and reach North Exit (3, 2).
