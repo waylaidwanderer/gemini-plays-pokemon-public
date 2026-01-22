@@ -38,8 +38,13 @@
 - **Status**: Moving North, bypassing sprites at (3, 27).
 - **Navigation**: Using East wall (Column 4) to avoid obstacles in center.
 ### Navigation Update (Turn 8998)
-- **Location**: Underground Tunnel.
-- **Goal**: Reach South Exit (West Goldenrod).
-- **Tactics**: Returning to West Side to find Main Street connection.
-- **Hypothesis**: The Pokemon Center area (5, 29) connects to the Main Street (Center) via a path I missed.
-- **Plan**: Traverse Tunnel South -> Exit -> Head to Pokemon Center -> Check East.
+- **Location**: Goldenrod City (West Side).
+- **Goal**: Reach Main Street (Center).
+- **Tactics**: Checking the area near the Pokemon Center (5, 29).
+- **Hypothesis**: A path to the Main Street exists East of the Pokemon Center.
+- **Previous Findings**:
+    - North West (Tracks): Blocked.
+    - East Side (Dept Store): Blocked.
+    - Underground North Exit: Leads to East Side.
+    - Underground South Exit: Leads to West Side.
+- **Plan**: Exit Underground -> Go South -> Check East at Row 29.
