@@ -38,9 +38,9 @@
 - **Status**: Moving North, bypassing sprites at (3, 27).
 - **Navigation**: Using East wall (Column 4) to avoid obstacles in center.
 ### Navigation Update (Turn 8998)
-- **Location**: Goldenrod City (Main Street).
-- **Goal**: Reach Flower Shop (19, 1).
-- **Tactics**: Path confirmed via Row 23. Heading North on Column 18.
-- **Next Step**: Go North past the Officer at (18, 10) -> Reach Flower Shop.
-- **Hypothesis**: The Officer is likely just a trainer or a non-blocking NPC.
-- **Route**: (16, 23) -> East to (18, 23) -> North.
+- **Location**: Flower Shop (Goldenrod City).
+- **Goal**: Obtain SquirtBottle.
+- **Status**: Inside the shop.
+- **Task**: Talk to NPCs to check if Floria has returned or for clues.
+- **Route to Here**: Goldenrod City (11_2) -> Entrance at Column 19 (North).
+- **Next Step**: Talk to girl at (6, 5). If she mentions Route 36, head there.
