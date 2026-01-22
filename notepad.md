@@ -3,10 +3,10 @@
 
 ### Navigation Notes
 - **Location**: Goldenrod City (Central-South).
-- **Goal**: Cross to the East Side (x=10+) via Row 29, then head North.
-- **Current Action**: Moving Down to Row 29, then East to x=12.
-- **Reasoning**: I need to bypass the vertical barrier at x=9. The road at Row 29 should connect West and East Goldenrod.
-- **Plan**: Down to (9, 29), Right to (12, 29), then Up to explore the x=12 corridor.
+- **Goal**: Reach Row 30+ to cross to East Side, then North.
+- **Current Action**: Side-stepping to Column 8 to bypass obstacle at (9, 26).
+- **Observation**: Movement South at x=9 was blocked at (9, 26).
+- **Plan**: Move Left to x=8, then South to Row 29+. Then East to x=12+.
 
 ### Resource Alert
 - **Pokeballs**: 10 Poké Balls, 1 Lure Ball.
