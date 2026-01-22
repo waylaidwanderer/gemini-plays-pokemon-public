@@ -3,10 +3,10 @@
 
 ### Navigation Notes
 - **Strategy**: Underground Re-Do.
-- **Status**: Goldenrod City (11_2) at (18, 8). On Main Street.
-- **Plan**: Walk North to reach the Route 35 Gatehouse.
-- **Reasoning**: Successfully navigated out of the side areas. The main road North appears clear.
-- **Timestamp**: Turn 8261.
+- **Status**: Goldenrod City (11_2) at (18, 3). Facing a building.
+- **Plan**: Inspect the building at (19, 1). It might be the Gatehouse or Flower Shop.
+- **Reasoning**: The path North is blocked by this building. I need to check if I can enter it to proceed to Route 35.
+- **Timestamp**: Turn 8263.
 
 ### Key Locations
 - **Sister's House**: (29, 5).
