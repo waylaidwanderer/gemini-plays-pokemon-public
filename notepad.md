@@ -4,9 +4,12 @@
 ### Navigation Notes
 - **Location**: Goldenrod Underground (3_53).
 - **Goal**: Reach East Goldenrod (Exit at North end).
-- **Current Action**: Moving North past obstacles and trainers.
-- **Strategy**: Bypassing PokeManiac Donald (Row 20) by hugging the right side (Column 4).
-- **Plan**: Continue North to Exit (3, 2), then enter East Goldenrod (21, 25).
+- **Current Action**: Moving North (hugging Left/x=2 to avoid Beauty).
+- **Strategy**: 
+  1. Pass Beauty (Row 15) on the far left (x=2).
+  2. Switch to Right (x=4) before Row 9 to pass Super Nerd.
+  3. Weave past Trainer at Row 6.
+- **Plan**: Exit at (3, 2).
 
 ### Resource Alert
 - **Pokeballs**: 10 Poké Balls, 1 Lure Ball.
@@ -16,7 +19,3 @@
 - **Flower Shop**: (19, 1).
 - **Pokemon Center**: (4, 29).
 - **Underground Entrances**: West (5, 25), East (21, 25).
-
-### Quests
-- **SquirtBottle**: Go to Flower Shop.
-- **Sister**: Find at Route 36.
