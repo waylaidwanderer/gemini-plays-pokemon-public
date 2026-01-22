@@ -8,9 +8,9 @@
 - **Hypothesis**: The path to Route 35 bypasses the Radio Tower blockade via this western alley.
 
 ### Navigation Notes
-- **Location**: Goldenrod City (North East).
-- **Goal**: Cross to West Side.
-- **Hypothesis**: Surface path blocked at Row 21. Must use Underground or find specific gap.
+- **Location**: Underground Tunnel.
+- **Goal**: Reach South Exit (to West Goldenrod).
+- **Status**: Moving South.
 ### Tile Mechanics
 - **Underground Walkable**: TYPE_3fe2, TYPE_8564, TYPE_63e2.
 - **City Walkable**: TYPE_3fe2, TYPE_8564, TYPE_ffbb.
