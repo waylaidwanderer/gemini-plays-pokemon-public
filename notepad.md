@@ -3,9 +3,9 @@
 
 ### Navigation Notes
 - **Strategy**: Underground Re-Do.
-- **Status**: Goldenrod City (11_2). Outside Game Corner (9, 6).
-- **Plan**: Head East to main road (x=16), then North to Route 35.
-- **Reasoning**: Successfully exited the back alley area. Now on the main city map.
+- **Status**: Goldenrod City (11_2) at (13, 6). Blocked by buildings.
+- **Plan**: Move South to Row 8, then East to the main road (x=18), then North to Route 35.
+- **Reasoning**: Currently in a cul-de-sac. Row 8 appears to be a clear path East connecting this area to the main street.
 - **Timestamp**: Turn 8260.
 
 ### Key Locations
