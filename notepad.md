@@ -38,9 +38,7 @@
 - **Status**: Moving North, bypassing sprites at (3, 27).
 - **Navigation**: Using East wall (Column 4) to avoid obstacles in center.
 ### Navigation Update (Turn 8998)
-- **Observation**: Underground North Exits:
-    - (3, 2) (TYPE_8564) -> Warps to East Side (21, 25).
-    - (4, 2) (TYPE_3fe2) -> No Warp.
-- **Hypothesis**: The West-most tile (2, 2) might be the exit to the West Side (Main City).
-- **Plan**: Test (2, 2). If that fails, head to South End (Row 34).
-- **Goal**: Reach Main Street.
+- **Fact**: North Exit (3, 2) -> East Side (21, 25).
+- **Fact**: North Exits (2, 2) and (4, 2) are NOT warps.
+- **Hypothesis**: The Main Street exit is at the South End of the tunnel, likely at (4, 34) or (2, 34).
+- **Plan**: Go South. Avoid (3, 34) (leads to Enclosed Area). Check (2, 34) and (4, 34).
