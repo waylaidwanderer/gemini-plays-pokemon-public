@@ -1,46 +1,32 @@
 # Pokémon Crystal Playthrough
 - Started: Friday, January 16, 2026
 
-### Strategic Reflection (Turn 8925)
-- **Status**: Pivot to West Side Strategy.
-- **Progress**: Explored East and Center of Goldenrod North. Confirmed dead ends.
-- **Current Plan**: Explore the narrow path west of the Radio Tower (Column 3).
-- **Hypothesis**: The path to Route 35 bypasses the Radio Tower blockade via this western alley.
+### Current Objectives
+1. **Find Floria**: Located at Route 36 (North of Route 35).
+2. **Get SquirtBottle**: Return to Flower Shop (19, 1) after finding Floria.
+3. **Clear Sudowoodo**: Use SquirtBottle on Route 36.
 
-### Navigation Notes
-- **Location**: Underground Tunnel.
-- **Goal**: Reach South Exit to West Goldenrod.
-- **Status**: Bypassing Haircut Brothers at (3, 27).
-### Tile Mechanics
-- **Underground Walkable**: TYPE_3fe2, TYPE_8564, TYPE_63e2.
-- **City Walkable**: TYPE_3fe2, TYPE_8564, TYPE_ffbb.
-- **Verified Locations**:
+### Navigation Status: Goldenrod City North
+- **Goal**: Reach Route 35 Gatehouse (North Exit).
+- **Current Strategy**: Taking the Main Street (Column 15-18) North.
+- **Recent Discoveries**:
+    - **Underground Entrance (North)**: Located at (9, 5). NOT the Gatehouse.
     - **Flower Shop**: Entrance at (19, 1).
     - **Name Rater**: Entrance at (15, 7).
-    - **Radio Tower**: Entrance area around (5, 15).
-    - **Underground Entrances**: North Stairs at (21, 25), South-West at (11, 29).
-    - **Department Store**: Entrance at (20-21, 29).
-- **Pathing**:
-    - East Side (x>16): Dead ends / Cul-de-sacs.
-    - Center (x=16): Blocked by Name Rater's House.
-    - West Side (x<5): Dead End (Blocked by Walls/Tracks).
-    - **Current Route**: Using Row 17 to cross from West (x=11) to East (x=20) to reach the North Gap.
-- **Correction**: Route 35 Exit is likely at (16, 0), accessed via the gap at x=20 and looping back West behind the buildings.
+    - **Gym**: Entrance at (24, 7).
+- **Dead Ends Confirmed**:
+    - **West (Tracks)**: Blocked at (5, 9).
+    - **East (Flower Shop Area)**: Planters block access to the road from the shop entrance.
+    - **Underground Tunnel**: Exits lead to isolated pockets (West (11, 29) or East (21, 25)).
 
-### Quest Chain: SquirtBottle
-1. **Defeat Whitney**: Done (Plain Badge).
-2. **Find Floria**: Check Route 36 (North of Route 35).
-3. **Get Bottle**: Return to Flower Shop (19, 1).
-4. **Sudowoodo**: Use Bottle to clear path.
-- **Progress**: Successfully crossed to West Goldenrod via Underground!
-- **Current Location**: Underground Tunnel.
-- **Goal**: Reach North-West Exit (3, 2).
-- **Status**: Moving North, bypassing sprites at (3, 27).
-- **Navigation**: Using East wall (Column 4) to avoid obstacles in center.
-### Navigation Update (Turn 8998)
-- **Location**: Goldenrod City (North).
-- **Goal**: Reach Route 35 Gatehouse.
-- **Fact**: Building at (9, 5) is the Underground Entrance.
-- **Correction**: The Game Corner assumption was wrong.
-- **Plan**: Move East to x=16 (Main Street) -> Head North.
-- **Hypothesis**: The Gatehouse is located centrally at the North edge, accessible via the Main Street.
+### Verified Locations
+- **Goldenrod City**:
+    - Pokemon Center: (15, 27)
+    - Dept Store: (24, 27)
+    - Game Corner: (14, 21)
+    - Bike Shop: (29, 29)
+    - Underground Entrances: (11, 29) [South], (9, 5) [North]
+
+### Quest Log
+- **Badges**: Zephyr, Hive, Plain.
+- **Party**: Quilava (27), Sentret (2), Bellsprout (6), Togepi (5), Rattata (8), Igglybuff (5).
