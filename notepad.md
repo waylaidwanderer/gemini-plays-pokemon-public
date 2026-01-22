@@ -3,9 +3,10 @@
 
 ### Navigation Notes
 - **Location**: Goldenrod City (East Side).
-- **Goal**: Reach Route 35 Gatehouse (North Exit).
-- **Status**: Heading North along the main road.
-- **Hypothesis**: The Gatehouse is at the northern edge of the map.
+- **Goal**: Cross Row 21 to reach North Goldenrod.
+- **Status**: Approaching potential blockade at Row 21.
+- **Anomaly**: Mental Map lists Row 21 as fully blocked (TYPE_2889), despite previous successful traversal to Gym.
+- **Plan**: Inspect Row 21 visually and find the gap.
 
 ### Quest Chain: SquirtBottle
 1. **Defeat Whitney**: Done (Plain Badge obtained).
@@ -17,6 +18,7 @@
 - **Flower Shop**: (19, 1).
 - **Gym**: (24, 7).
 - **North Gate**: ~ (20, 0).
+- **Underground Exits**: SW (5, 25), N? (21, 25).
 
 ### Strategic Review (Turn 8617)
 - **Reflection**: Progress in Goldenrod continues.
