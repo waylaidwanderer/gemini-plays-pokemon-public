@@ -40,9 +40,7 @@
 ### Navigation Update (Turn 8998)
 - **Current Location**: Goldenrod City East Side (21, 25).
 - **Goal**: Exit Underground via (4, 2) to Main City Entrance Hall.
-- **Correction**: The tile at (3, 2) warps to the Isolated East Side (21, 25). I must avoid it.
-- **Plan**:
-    1. Re-enter Underground at (21, 25).
-    2. Move Right to Column 4.
-    3. Move Down to (4, 3) to position for entry.
-    4. Move UP into (4, 2) to trigger the correct warp.
+- **Observation**: Row 1 is walkable (TYPE_3fe2).
+- **Hypothesis**: The true exits might be at Row 1 (Top of stairs), not Row 2.
+- **Plan**: Move UP to (3, 1). If no warp, move Right to (4, 1).
+- **Goal**: Find the North Entrance Hall exit (leading to 9, 6).
