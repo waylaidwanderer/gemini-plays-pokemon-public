@@ -4,8 +4,8 @@
 ### Navigation Notes
 - **Location**: Goldenrod City (East Residential Area).
 - **Goal**: Find Route 35 Gatehouse.
-- **Status**: Answering Joey's Phone Call (Again).
-- **Next**: Resume search at East edge (x=33).
+- **Status**: Finished phone call.
+- **Next**: Move East to (33, 7) to check for a path North.
 
 ### Quest Chain: SquirtBottle
 1. **Defeat Whitney**: Done (Plain Badge obtained).
