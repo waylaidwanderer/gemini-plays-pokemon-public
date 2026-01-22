@@ -4,7 +4,8 @@
 ### Navigation Notes
 - **Location**: Goldenrod City (East Side).
 - **Goal**: Return to West Side via Underground.
-- **Current Action**: Moving East to Underground Entrance (21, 25).
+- **Current Action**: Navigating around wall at x=18 to reach Entrance (21, 25).
+- **Path**: Down to Row 28, Right to x=21, Up to Entrance.
 - **Split City Theory**:
   - **East Side**: Game Corner, Dept Store (Back/Side?), Dead End.
   - **West Side**: Main Path, Tree at (9, 22) (Requires Cut).
