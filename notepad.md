@@ -38,8 +38,9 @@
 - **Status**: Moving North, bypassing sprites at (3, 27).
 - **Navigation**: Using East wall (Column 4) to avoid obstacles in center.
 ### Navigation Update (Turn 8998)
-- **Location**: Goldenrod City (North-West).
-- **Goal**: Find Route 35 Gatehouse.
-- **Tactics**: West at (6, 9) blocked. North path open.
-- **Action**: Reading sign at (8, 6) and checking door at (9, 5).
-- **Hypothesis**: The building at (9, 5) is the Game Corner. The Gatehouse must be elsewhere, possibly obscured by the "NPC Block" at (4, 16) or the "Tracks Dead End".
+- **Location**: Goldenrod City (North).
+- **Goal**: Reach Route 35 Gatehouse.
+- **Fact**: Building at (9, 5) is the Underground Entrance.
+- **Correction**: The Game Corner assumption was wrong.
+- **Plan**: Move East to x=16 (Main Street) -> Head North.
+- **Hypothesis**: The Gatehouse is located centrally at the North edge, accessible via the Main Street.
