@@ -2,11 +2,11 @@
 - Started: Friday, January 16, 2026
 
 ### Navigation Notes
-- **Location**: Goldenrod City (Central -> East).
+- **Location**: Goldenrod City (Central -> North-East).
 - **Goal**: Reach Route 35 Gatehouse (North Exit).
-- **Status**: West Side (x<9) and Central Wall (Row 5) confirmed blocked.
-- **Hypothesis**: The Exit is accessible from the North-East, perhaps by looping around the Flower Shop or Name Rater.
-- **Plan**: Move to (18, 7), then North. Inspect the area North of the Name Rater (Row 0-4, Col 15-17).
+- **Status**: Retrying North-East Corridor (x=18).
+- **Hypothesis**: The previous "dead end" assessment might have been premature. Checking for West turns at y=0, 1, 2.
+- **Backup**: If East fails again, re-check the area directly North of the Game Corner for a hidden door.
 
 ### Quest Chain: SquirtBottle
 1. **Defeat Whitney**: Done (Plain Badge obtained).
@@ -16,7 +16,7 @@
 ### Key Locations
 - **Game Corner**: (9, 5).
 - **Flower Shop**: (19, 1).
-- **Target Area**: North of Name Rater.
+- **Corridor**: x=18.
 
 ### Strategic Review (Turn 8617)
 - **Reflection**: Progress in Goldenrod continues.
