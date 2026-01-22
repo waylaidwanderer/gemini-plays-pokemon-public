@@ -38,8 +38,8 @@
 - **Status**: Moving North, bypassing sprites at (3, 27).
 - **Navigation**: Using East wall (Column 4) to avoid obstacles in center.
 ### Navigation Update (Turn 8998)
-- **Location**: Goldenrod City (West Side Tracks).
-- **Goal**: Move North to Route 35 Gatehouse.
-- **Tactics**: Moving North along Column 1/2.
-- **Next Step**: Reach Row 15 -> Continue North.
-- **Hypothesis**: This path bypasses the Radio Tower blockade and connects to the Gatehouse.
+- **Location**: Goldenrod City (West Side Surface).
+- **Goal**: Find a path North around the Radio Tower.
+- **Tactics**: West Track Path blocked at Row 21 (Wall). Moving East along Row 22 to find a gap.
+- **Next Step**: Scan Row 21 for openings or corners.
+- **Hypothesis**: The Radio Tower blocks the center. A path must exist on one of the sides or through the building.
