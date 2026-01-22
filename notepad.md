@@ -3,9 +3,9 @@
 
 ### Navigation Notes
 - **Strategy**: Underground Re-Do.
-- **Status**: Inside Flower Shop (10_14). Dialogue with Lady.
-- **Plan**: Advance text to receive SquirtBottle.
-- **Reasoning**: Currently interacting with the Flower Shop Lady.
+- **Status**: Inside Flower Shop (10_14). Listening to story.
+- **Plan**: Continue pressing A to get through the dialogue and receive the SquirtBottle.
+- **Reasoning**: She's talking about Professor Oak. This is the script for getting the item.
 - **Timestamp**: Turn 8274.
 
 ### Key Locations
