@@ -4,9 +4,12 @@
 ### Navigation Notes
 - **Goal**: Reach Goldenrod City West Side (Main Road).
 - **Strategy**: Flank via Route 34.
-- **Status**: Route 34 (11_1) at (13, 37). Attempting to re-enter Gatehouse.
-- **Goal**: Cross Gatehouse interior to exit on West side (Main Road).
-- **Next**: Move Up then Down to trigger warp.
+- **Status**: Route 34 (11_1) at (13, 37). Struggling to re-enter Gatehouse.
+- **Hypothesis**: Warp might require stepping South into the wall, or I need to use the other door tile at (14, 37).
+- **Plan**: 
+    1. Try pressing Down firmly.
+    2. If that fails, try the tile to the right (14, 37).
+    3. If locked out, explore North for a crossover.
 
 ### Resource Alert
 - **Pokeballs**: 0 (Only 1 Lure Ball). Need to buy balls at Goldenrod Dept Store.
