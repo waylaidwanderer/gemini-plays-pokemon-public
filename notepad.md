@@ -2,10 +2,10 @@
 - Started: Friday, January 16, 2026
 
 ### Navigation Notes
-- **Location**: Goldenrod Underground (3_53).
-- **Goal**: Reach North Exit (3, 2) to enter Goldenrod City (North/West side).
-- **Current Action**: Exiting Underground (avoiding Super Nerd at 3,3).
-- **Path**: North along the main corridor.
+- **Location**: Goldenrod City North (3_54).
+- **Goal**: Reach Route 35 Gatehouse (North).
+- **Current Action**: Heading North.
+- **Underground Exit**: (21, 25).
 
 ### Resource Alert
 - **Pokeballs**: 10 Poké Balls, 1 Lure Ball.
@@ -14,9 +14,7 @@
 - **Sister's House**: (29, 5).
 - **Flower Shop**: (19, 1). Needs Sudowoodo interaction.
 - **Gym**: (24, 7).
-- **Route 34 Exit**: South edge (Row 35).
-- **Tracks**: West edge (Column 3-4).
-- **Underground Entrances**: South at (11, 29), North presumably near Game Corner (9, 5).
+- **Underground Entrances**: North at (21, 25).
 
 ### Quests
 - **Sister's House**: (29, 5). The sister is missing (Route 36).
