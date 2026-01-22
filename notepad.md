@@ -40,9 +40,6 @@
 ### Navigation Update (Turn 8998)
 - **Location**: Goldenrod City (North-West).
 - **Goal**: Find Route 35 Gatehouse.
-- **Tactics**: Testing pathing assumptions.
-    1. **Tracks**: Check if walkable at (5, 9).
-    2. **Sign**: Read sign at (8, 6) for location info.
-    3. **Building**: Investigate door at (9, 5).
-- **Hypothesis**: The tracks might be the path North, or the "Game Corner" label is wrong and (9, 5) is the Gatehouse.
-- **Current Pos**: (6, 9). Heading West to test tracks.
+- **Tactics**: West at (6, 9) blocked. North path open.
+- **Action**: Reading sign at (8, 6) and checking door at (9, 5).
+- **Hypothesis**: The building at (9, 5) is the Game Corner. The Gatehouse must be elsewhere, possibly obscured by the "NPC Block" at (4, 16) or the "Tracks Dead End".
