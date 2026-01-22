@@ -3,9 +3,9 @@
 
 ### Navigation Notes
 - **Strategy**: Underground Re-Do.
-- **Status**: Goldenrod City (North). At (29, 6), near Sister's House.
-- **Plan**: Move South to Row 7. Go East to x=36 (gap in wall). Go North through gap, then wrap West to find Route 35 Exit.
-- **Reasoning**: Row 6 is blocked by walls at x=32-35. Row 7 is clear. x=36 offers a path North.
+- **Status**: At (27, 9). Blocked by wall at (26, 9).
+- **Plan**: Move Up to Row 8. Travel West past the Gym (x=24) to the central area (x~15). Look for Route 35 Exit North.
+- **Reasoning**: Wall at (26, 9) blocked Westward movement. Row 8 is clear. Exit is likely Central-North, accessible from the West side of the houses.
 - **Timestamp**: Turn 8165.
 
 ### Key Locations
