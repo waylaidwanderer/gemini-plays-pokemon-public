@@ -38,8 +38,8 @@
 - **Status**: Moving North, bypassing sprites at (3, 27).
 - **Navigation**: Using East wall (Column 4) to avoid obstacles in center.
 ### Navigation Update (Turn 8998)
-- **Location**: Goldenrod City (South Main Street).
-- **Goal**: Reach the path West of the Radio Tower (Column 3/4).
-- **Tactics**: Moving West from (16, 28) to the far West side.
-- **Next Step**: Reach x=4, then head North.
-- **Hypothesis**: A narrow path exists between the Radio Tower and the train tracks/west wall.
+- **Location**: Goldenrod City (East Side).
+- **Goal**: Return to Main Street via Underground.
+- **Tactics**: East Side is isolated. Entering Underground at (21, 25) to exit at South-West (11, 29).
+- **Next Step**: Right to x=21 -> Up to (21, 25) -> Enter Tunnel.
+- **Hypothesis**: The South-West exit leads to the Main Street, allowing access to the West path.
