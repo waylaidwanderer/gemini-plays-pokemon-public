@@ -4,9 +4,11 @@
 ### Navigation Notes
 - **Location**: Goldenrod City (East Side).
 - **Goal**: Return to West Side via Underground.
-- **Reasoning**: The East side appears to be a cul-de-sac containing the Game Corner and the back of the Dept Store. The Main Street and Gym are likely accessible from the West Side, past the tree at (9, 22).
-- **Hypothesis**: The city is split by a wall at x=15. Connection is via Underground.
-- **Plan**: Enter Underground (East) -> Exit South (West) -> Cut Tree at (9, 22).
+- **Current Action**: Moving East to Underground Entrance (21, 25).
+- **Split City Theory**:
+  - **East Side**: Game Corner, Dept Store (Back/Side?), Dead End.
+  - **West Side**: Main Path, Tree at (9, 22) (Requires Cut).
+- **Plan**: Enter Underground -> Exit West -> Cut Tree -> Explore North.
 
 ### Resource Alert
 - **Pokeballs**: 10 Poké Balls, 1 Lure Ball.
