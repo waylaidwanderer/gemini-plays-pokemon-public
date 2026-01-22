@@ -11,11 +11,13 @@
     3.Systematically explore North from there, hugging the West edge.
 
 ### Navigation Notes
-- **Location**: Goldenrod City (North-East -> South).
-- **Goal**: Return to West Side via Tracks.
-- **Status**: Moving South to Tracks Crossing (18, 14).
-- **Reasoning**: Direct West path at Row 10 is blocked by fences/walls. Must loop South to Row 14.
-- **Next**: From (18, 14), head West to (9, 14), then North to Game Corner.
+- **Location**: Goldenrod City (Tracks - East).
+- **Goal**: Reach West Side via Tracks.
+- **Status**: At (18, 12). Heading West along tracks to (9, 14).
+- **Plan**: 
+    1. Traverse West to Main Street (x=9).
+    2. Head North to Game Corner (9, 5).
+    3. Explore Far West (x<6) for the exit.
 
 ### Quest Chain: SquirtBottle
 1. **Defeat Whitney**: Done (Plain Badge obtained).
@@ -28,6 +30,5 @@
 ### Key Locations
 - **Sister's House**: (29, 5).
 - **Flower Shop**: (19, 1).
-- **Gym**: (24, 7).
-- **Game Corner**: (20, 29).
-- **Underground Entrances**: West (5, 25), East (21, 25).
+- **Game Corner**: (9, 5).
+- **Radio Tower**: (5, 15).
