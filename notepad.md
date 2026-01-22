@@ -2,11 +2,11 @@
 - Started: Friday, January 16, 2026
 
 ### Navigation Notes
-- **Strategy**: Surface Navigation (East).
-- **Status**: Goldenrod City (11_2) at (16, 8). House blocking North.
-- **Plan**: Move East to find a path North around the buildings.
-- **Reasoning**: Direct path North on Column 16 is blocked by a house.
-- **Timestamp**: Turn 8312.
+- **Strategy**: Underground Re-Do (Confirmed).
+- **Status**: Goldenrod City (11_2). Returning South to Underground.
+- **Plan**: Go South to Row 29, then West to Entrance (11, 29).
+- **Reasoning**: Surface North is blocked by a continuous wall of buildings (Name Rater, Gym, Houses) at Row 5-7. Gaps at x=13 and x=18 are dead ends. Underground is the required path.
+- **Timestamp**: Turn 8313.
 
 ### Key Locations
 - **Sister's House**: (29, 5).
