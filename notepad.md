@@ -2,10 +2,10 @@
 - Started: Friday, January 16, 2026
 
 ### Navigation Notes
-- **Location**: Goldenrod City (Flower Shop Area).
+- **Location**: Goldenrod City (Main Street - North).
 - **Goal**: Reach Route 35 Gatehouse (North).
-- **Status**: Dead end at Flower Shop. Backtracking South to Row 8 to access Main Street.
-- **Path**: South to (19, 8) -> West to Main St -> North to Exit.
+- **Status**: Investigating potential path North at x=13 (West side of road).
+- **Hypothesis**: The "Main Street" splits around the Name Rater/Game Corner. The East path (x=18) was a dead end. The West path (x=13) needs checking.
 
 ### Quest Chain: SquirtBottle
 1. **Defeat Whitney**: Done (Plain Badge obtained).
