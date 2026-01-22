@@ -3,10 +3,10 @@
 
 ### Navigation Notes
 - **Strategy**: Underground Re-Do.
-- **Status**: Inside Flower Shop (10_14). Dialogue with Lady.
-- **Plan**: Continue pressing A.
-- **Reasoning**: Text advanced to "different kinds." but the story isn't over.
-- **Timestamp**: Turn 8289.
+- **Status**: Inside Flower Shop (10_14). Dialogue seems stuck or finished.
+- **Plan**: Press B to close the dialogue box. Then talk to the Girl at (6, 3).
+- **Reasoning**: The text "there were 150 different kinds." has been on screen for two turns despite pressing A. This likely marks the end of the conversation, or requires B to close.
+- **Timestamp**: Turn 8291.
 
 ### Key Locations
 - **Sister's House**: (29, 5).
