@@ -10,7 +10,8 @@
 ### Navigation Notes
 - **Location**: Underground Tunnel.
 - **Goal**: Reach North Exit to Goldenrod City.
-- **Status**: Moving North through the tunnel.
+### Tile Mechanics
+- **Underground Walkable**: TYPE_3fe2, TYPE_8564, TYPE_63e2.
 - **Verified Locations**:
     - **Flower Shop**: Entrance at (19, 1).
     - **Name Rater**: Entrance at (15, 7).
