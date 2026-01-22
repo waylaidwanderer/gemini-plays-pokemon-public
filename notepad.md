@@ -3,10 +3,10 @@
 
 ### Navigation Notes
 - **Strategy**: Underground Re-Do.
-- **Status**: Goldenrod City (11_2) at (19, 2). Finalizing Joey's call.
-- **Plan**: Press A to close the call, then enter the building at (19, 1).
-- **Reasoning**: Joey is finishing his pep talk.
-- **Timestamp**: Turn 8269.
+- **Status**: Goldenrod City (11_2) at (19, 2). Stuck in Joey's call.
+- **Plan**: clear the dialogue, then enter the building at (19, 1).
+- **Reasoning**: Joey is rambling about not catching a wild Pokemon or something.
+- **Timestamp**: Turn 8270.
 
 ### Key Locations
 - **Sister's House**: (29, 5).
