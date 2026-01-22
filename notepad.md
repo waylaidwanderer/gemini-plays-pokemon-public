@@ -3,10 +3,10 @@
 
 ### Navigation Notes
 - **Strategy**: Underground Re-Do.
-- **Status**: Inside Flower Shop (10_14). Clearing dialogue.
-- **Plan**: Press A/B to finish the conversation, then exit.
-- **Reasoning**: The text has a prompt arrow, indicating more text. I cannot move until it's done.
-- **Timestamp**: Turn 8303.
+- **Status**: Exiting Flower Shop (10_14).
+- **Plan**: Go to Route 36 (North of Goldenrod).
+- **Reasoning**: Dialogue confirms the tree is the issue. The girl didn't give the bottle, so I must find her sister Floria at the tree first.
+- **Timestamp**: Turn 8304.
 
 ### Key Locations
 - **Sister's House**: (29, 5).
