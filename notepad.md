@@ -36,6 +36,7 @@
 - Note: Sandbox is down. Manual navigation active.
 - **Transition**: Goldenrod (18, 35) connects to Route 34 (8, 0).
 - **Plan**: Move West in Route 34 to finding the Tracks entrance (likely x=4 or lower).
-- **Obstacle**: Walls at x=13 and x=16 block Westward movement on Rows 18-26.
-- **Solution**: Go North to Row 17, then West to cross to the left side of the city.
-- **Timestamp**: Turn 8333.
+- **Status**: Goldenrod City (11_2) at (13, 17). Successfully crossed to West side.
+- **Plan**: Move South on Column 11 to Underground Entrance (11, 29).
+- **Reasoning**: Path South is clear on this side of the city.
+- **Timestamp**: Turn 8335.
