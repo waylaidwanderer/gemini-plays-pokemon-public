@@ -3,9 +3,9 @@
 
 ### Navigation Notes
 - **Strategy**: Underground Re-Do.
-- **Status**: Inside Flower Shop (10_14).
-- **Plan**: Break potential dialogue loop and talk to the Flower Shop Girl at (6, 4).
-- **Reasoning**: The Lady is repeating the Professor Oak story. I may need to speak to the Girl first or simply reset the interaction to get the SquirtBottle.
+- **Status**: Inside Flower Shop (10_14). Listening to Lady.
+- **Plan**: Advance dialogue.
+- **Reasoning**: Dialogue box is still open ("there were 150 different kinds"). Must finish conversation before moving.
 - **Timestamp**: Turn 8287.
 
 ### Key Locations
