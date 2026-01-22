@@ -2,11 +2,11 @@
 - Started: Friday, January 16, 2026
 
 ### Navigation Notes
-- **Location**: Goldenrod City (North-East Corridor).
-- **Goal**: Reach Route 35 Gatehouse (North Exit).
-- **Status**: Confirmed x=18 corridor is a dead end (leads only to Flower Shop).
-- **Correction**: The Route 35 Exit must be on the Far West side (West of Game Corner).
-- **Plan**: Backtrack South -> Go West to Game Corner -> Continue West to x=0.
+- **Location**: Goldenrod City (Central).
+- **Goal**: Find North Underground Entrance / Route 35 Exit.
+- **Status**: West side (x=6) is a dead end.
+- **Plan**: Inspect the area East of Game Corner (x=10 to 12).
+- **Hypothesis**: The Underground Entrance (and potentially the path North) is located between the Game Corner and the Name Rater.
 
 ### Quest Chain: SquirtBottle
 1. **Defeat Whitney**: Done (Plain Badge obtained).
@@ -15,8 +15,8 @@
 
 ### Key Locations
 - **Game Corner**: (9, 5).
-- **Flower Shop**: (19, 1).
-- **Far West Edge**: Unexplored (x<5).
+- **Name Rater**: (15, 7).
+- **Potential Entrance**: ~ (12, 5).
 
 ### Strategic Review (Turn 8617)
 - **Reflection**: Progress in Goldenrod continues.
