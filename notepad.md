@@ -2,11 +2,11 @@
 - Started: Friday, January 16, 2026
 
 ### Navigation Notes
-- **Location**: Goldenrod City (South-West).
-- **Goal**: Find the path North (likely between x=10 and x=15).
-- **Current Action**: Repositioning to search the Central-East corridor.
-- **Reasoning**: The West side (x=0-9) and Far East side (x=16+) are blocked at Row 21. The Underground connects SW to SE only. The gap North MUST be in the x=10-15 range, possibly along the Department Store.
-- **Plan**: Move South to clear obstacles, then East to x=12, then North.
+- **Location**: Goldenrod City (Central-East).
+- **Goal**: Find the path North (checking x=13 corridor).
+- **Current Action**: Moving East to x=13, then North.
+- **Reasoning**: The West (x=2) and Far East (x=21) paths are blocked by Row 21 walls. The Center (x=9) is blocked by a tree. I am checking the gap between x=10 and x=15.
+- **Hypothesis**: There might be a path or a building entrance (Department Store?) here.
 
 ### Resource Alert
 - **Pokeballs**: 10 Poké Balls, 1 Lure Ball.
