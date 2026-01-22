@@ -3,10 +3,10 @@
 
 ### Navigation Notes
 - **Strategy**: Underground Re-Do.
-- **Status**: Goldenrod City (11_2) at (19, 2). Handling Joey's call.
-- **Plan**: Finish the call, then enter the building at (19, 1).
-- **Reasoning**: Phone call interrupted movement. Need to clear dialogue.
-- **Timestamp**: Turn 8265.
+- **Status**: Goldenrod City (11_2) at (19, 2). Finishing Joey's call.
+- **Plan**: Press A to complete the call, then enter the building at (19, 1).
+- **Reasoning**: Still stuck in dialogue with Joey.
+- **Timestamp**: Turn 8266.
 
 ### Key Locations
 - **Sister's House**: (29, 5).
