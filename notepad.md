@@ -4,13 +4,15 @@
 ### Navigation Notes
 - **Goal**: Reach Goldenrod City West Side (Main Road).
 - **Strategy**: Flank via Route 34.
-- **Status**: Route 34 (11_1) at (6, 16). In battle with Abra.
-- **Obstacle**: Water to the West, Fence to the East.
+- **Status**: Route 34 (11_1) at (6, 17). East of the pond.
+- **Barrier**: Row 24 is blocked by Water (x=6-7) and Walls (x=8-9). Must traverse on the East side (x>=10).
 - **Plan**: 
-    1. Run from Abra (No Pokeballs).
-    2. Head South to find a crossing over the water or a path to the Main Road (Columns 0-3).
-    3. Enter Goldenrod from the West side.
-- **Timestamp**: Turn 8358.
+    1. Move East to x=10 to bypass the Row 24 barrier.
+    2. Head South to the Ilex Forest Gate area (Row 40+).
+    3. Cross to the West side (Main Road) at the bottom.
+    4. Head North on the Main Road to enter Goldenrod West.
+- **Reasoning**: The East side path forces me south, but routes usually converge at the map exits.
+- **Timestamp**: Turn 8363.
 
 ### Resource Alert
 - **Pokeballs**: 0 (Only 1 Lure Ball). Need to buy balls at Goldenrod Dept Store.
