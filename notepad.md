@@ -13,12 +13,12 @@
 ### Navigation Notes
 - **Location**: Goldenrod City (South Side).
 - **Goal**: Reach Far West Edge (x=0).
-- **Status**: Executing South Loop. Moving South from Tracks (18, 14) to (18, 20).
-- **Reasoning**: Direct West path along tracks is blocked. Looping South to bypass obstacles.
+- **Status**: Moving to Radio Tower Area (5, 16).
+- **Reasoning**: To reach the Far West, I must pass the choke point at (4, 16) which was previously blocked by an NPC.
 - **Plan**:
-    1. Go South to Row 20.
-    2. Go West to (4, 20).
-    3. Head North along the Far West edge.
+    1. Go South to Row 16.
+    2. Go West to (5, 16).
+    3. Interact with NPC at (4, 16) or walk past if gone.
 
 ### Quest Chain: SquirtBottle
 1. **Defeat Whitney**: Done (Plain Badge obtained).
@@ -28,4 +28,4 @@
 ### Key Locations
 - **East Crossing**: (18, 14).
 - **Radio Tower**: (5, 15).
-- **Target Area**: (0, 20).
+- **Choke Point**: (4, 16).
