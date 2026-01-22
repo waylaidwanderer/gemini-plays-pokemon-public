@@ -3,10 +3,10 @@
 
 ### Navigation Notes
 - **Strategy**: Underground Re-Do.
-- **Status**: Inside Flower Shop (10_14). Dialogue seems stuck or finished.
-- **Plan**: Press B to close the dialogue box. Then talk to the Girl at (6, 3).
-- **Reasoning**: The text "there were 150 different kinds." has been on screen for two turns despite pressing A. This likely marks the end of the conversation, or requires B to close.
-- **Timestamp**: Turn 8291.
+- **Status**: Inside Flower Shop (10_14). Testing for "Softlock".
+- **Plan**: Attempt to move Down to (4, 3).
+- **Reasoning**: The dialogue text "there were 150 different kinds" has persisted for 5 turns despite input. I need to verify if I am actually locked in dialogue or if the text box is a visual glitch/finished. If I can move, I will talk to the Girl.
+- **Timestamp**: Turn 8292.
 
 ### Key Locations
 - **Sister's House**: (29, 5).
