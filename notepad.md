@@ -4,9 +4,9 @@
 ### Navigation Notes
 - **Strategy**: Underground Re-Do.
 - **Status**: Inside Flower Shop (10_14). Dialogue with Lady.
-- **Plan**: Continue pressing A.
-- **Reasoning**: Still listening to the story about Pokemon species.
-- **Timestamp**: Turn 8279.
+- **Plan**: Continue pressing A to finish the story.
+- **Reasoning**: She is still talking about the 150 Pokemon from 3 years ago.
+- **Timestamp**: Turn 8281.
 
 ### Key Locations
 - **Sister's House**: (29, 5).
