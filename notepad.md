@@ -38,8 +38,8 @@
 - **Status**: Moving North, bypassing sprites at (3, 27).
 - **Navigation**: Using East wall (Column 4) to avoid obstacles in center.
 ### Navigation Update (Turn 8998)
-- **Location**: Underground Tunnel (North).
-- **Goal**: Exit to Goldenrod City (North).
-- **Tactics**: Reached Exit at (3, 2). Proceeding to surface.
-- **Next Step**: Exit -> Find Route 35 / Floria.
-- **Hypothesis**: The exit leads to the enclosed area behind the Radio Tower.
+- **Location**: Goldenrod City (East Side).
+- **Goal**: Explore East Alley (Column 24).
+- **Tactics**: Blocked at (23, 25). Looping South to Row 28 to cross East.
+- **Next Step**: Go South -> East -> North up the alley.
+- **Hypothesis**: The East Alley leads to the open area behind the Radio Tower.
