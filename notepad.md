@@ -53,8 +53,9 @@
 - **Timestamp**: Turn 8355.
 - **Reasoning**: The city is divided by vertical walls. The only reliable crossover point seems to be the very bottom (Row 35).
 - **Timestamp**: Turn 8337.
-- **Status**: Goldenrod Underground (3_54) at (4, 29).
-- **Action**: Moving North along the corridor.
-- **Goal**: Reach the North Exit.
-- **Reasoning**: Previous BFS failed (unconnected/unseen). Exploring North to find the path.
-- **Next**: Up.
+- **Status**: Goldenrod Underground (3_54) at (4, 24). Facing Super Nerd at (4, 23).
+- **Action**: Interacting with Super Nerd.
+- **Goal**: Clear path North.
+- **Observation**: The path ahead is 1-tile wide and blocked by the NPC. He might be a trainer.
+- **Alternative**: If blocked, backtrack to Row 29 and try side corridors (x=2 or x=7).
+- **Next**: Press A -> Handle Interaction.
