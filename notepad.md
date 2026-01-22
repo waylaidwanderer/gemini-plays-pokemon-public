@@ -3,9 +3,9 @@
 
 ### Navigation Notes
 - **Strategy**: Underground Re-Do.
-- **Status**: North of Underground. In Goldenrod City (North side). Heading to Route 35.
-- **Plan**: Move East to finding a path North towards the Gatehouse (approx x=16, y=0).
-- **Reasoning**: Surface paths South were blocked. Underground bypass successful. Now navigating to Route 35.
+- **Status**: Goldenrod City (North). Near Flower Shop (19, 2).
+- **Plan**: Retreat South to Row 9. Move East past the Gym/Sister's House area. Look for a path North that loops back West to the Exit (suspected at x=16, y=0).
+- **Reasoning**: Direct North path blocked by Flower Shop. x=17 is a wall. Need to flank East.
 - **Timestamp**: Turn 8086.
 
 ### Key Locations
