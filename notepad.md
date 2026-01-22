@@ -53,6 +53,7 @@
 - **Timestamp**: Turn 8355.
 - **Reasoning**: The city is divided by vertical walls. The only reliable crossover point seems to be the very bottom (Row 35).
 - **Timestamp**: Turn 8337.
-- **Status**: Goldenrod Underground (3_53) at (3, 29). Moving North.
-- **Action**: Approaching Trainer at (3, 27).
-- **Goal**: Defeat Trainer and reach North Exit (3, 2).
+- **Status**: Goldenrod Underground (3_53) at (3, 28). Battling Super Nerd.
+- **Action**: Interacting with Trainer at (3, 27).
+- **Goal**: Defeat Trainer to clear path and gain EXP/Money.
+- **Next**: Win battle -> Continue North to Exit (3, 2).
