@@ -4,8 +4,8 @@
 ### Navigation Notes
 - **Strategy**: Underground Re-Do.
 - **Status**: Inside Flower Shop (10_14). Dialogue with Lady.
-- **Plan**: Mash A to get the SquirtBottle.
-- **Reasoning**: The text "Three years ago..." is still on screen. Need to advance it.
+- **Plan**: Continue advancing text.
+- **Reasoning**: She is still talking about Pokemon types.
 - **Timestamp**: Turn 8276.
 
 ### Key Locations
