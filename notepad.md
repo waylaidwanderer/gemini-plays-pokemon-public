@@ -38,8 +38,8 @@
 - **Status**: Moving North, bypassing sprites at (3, 27).
 - **Navigation**: Using East wall (Column 4) to avoid obstacles in center.
 ### Navigation Update (Turn 8998)
-- **Location**: Goldenrod City (East Side).
-- **Goal**: Follow the narrow corridor at Row 22 West.
-- **Tactics**: Wall at Row 21, Planters at Row 23. Path is West.
-- **Next Step**: Go West along Row 22.
-- **Hypothesis**: This corridor connects back to the main street or bypasses the blockade.
+- **Location**: Goldenrod City (Central Connector Row 22).
+- **Goal**: Return to Main Street (West).
+- **Tactics**: Moving West to bypass the Row 21 Wall.
+- **Next Step**: Reach x=13, then head North.
+- **Hypothesis**: The Underground exit placed me North of the street blockage.
