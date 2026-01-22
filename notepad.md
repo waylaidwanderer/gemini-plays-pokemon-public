@@ -38,7 +38,9 @@
 - **Status**: Moving North, bypassing sprites at (3, 27).
 - **Navigation**: Using East wall (Column 4) to avoid obstacles in center.
 ### Navigation Update (Turn 8998)
-- **Fact**: South Exit (3, 34) -> West Side Enclosed Area (Dead End).
-- **Hypothesis**: The Main Street connection is at the South End, possibly (4, 34) or (2, 34).
-- **Plan**: Test (4, 34) first. If no warp, try (2, 34).
-- **Contingency**: If both fail, the "Enclosed Area" might be the only way out, meaning I missed a path there.
+- **Fact**: The Underground Tunnel (3_53) has multiple exits.
+    - North (3, 2) -> East Side Alley (3_54).
+    - South (3, 34) -> West Side Backyard (3_54).
+- **Hypothesis**: There is a THIRD exit at the South End leading to the Main Street (Entrance Hall).
+- **Plan**: Test tiles (4, 34), (2, 34), and Row 35.
+- **Goal**: Find the warp to the Main Street Entrance.
