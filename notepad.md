@@ -12,10 +12,10 @@
 - **Verified Dead Ends**:
     - **Sister's House Area (29, 5)**: Blocked.
     - **Alcove (31, 6)**: Blocked by fence.
+    - **East House (33, 9)**: NPCs discussing PP. Likely no passage.
 - **Hypothesis**:
-    1. **East House (33, 9)**: Might be a passage. Access from South via (33, 10).
-    2. **Route 34 Loop**: Might need to exit South and re-enter on the East side?
-- **Immediate Plan**: Enter East House (33, 9).
+    1. **Gatehouse (29, 8)**: This MUST be the exit to Route 35. I visited it before but maybe didn't go through?
+- **Immediate Plan**: Talk to Red NPC, then exit and head to Gatehouse (29, 8).
 
 ### Verified Locations
 - **Goldenrod City**:
