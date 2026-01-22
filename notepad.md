@@ -53,8 +53,8 @@
 - **Timestamp**: Turn 8355.
 - **Reasoning**: The city is divided by vertical walls. The only reliable crossover point seems to be the very bottom (Row 35).
 - **Timestamp**: Turn 8337.
-- **Status**: Goldenrod City (11_2) at (16, 23). Detouring to Dept Store.
-- **Action**: Moving Right to x=18, then South.
-- **Goal**: Buy Pokeballs at Dept Store before heading North.
-- **Reasoning**: I have 0 Pokeballs. Need supplies for Sudowoodo.
-- **Next**: Right to x=18 -> South to Row 27 -> East.
+- **Status**: Goldenrod City (11_2) at (16, 23). Handling Joey's Phone Call.
+- **Correction**: Inventory check shows 10 Poké Balls. No need to shop.
+- **Action**: Finishing call, then resuming path to Underground.
+- **Goal**: Reach Underground Entrance South (11, 29).
+- **Next**: Finish call -> Left to x=9 -> South.
