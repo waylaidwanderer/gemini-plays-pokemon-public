@@ -4,9 +4,9 @@
 ### Navigation Notes
 - **Location**: Goldenrod City (Central-West).
 - **Goal**: Access North Goldenrod via Tree at (9, 22).
-- **Action**: Using **Start Menu** to trigger Cut (Interaction failed).
-- **Sequence**: Start -> Pokémon -> Basil -> Cut.
-- **Hypothesis**: The "Interact" method is finicky or I'm misaligned. Menu selection forces the game to evaluate the move usage.
+- **Action**: Closing Menu and using direct Interaction to Cut.
+- **Hypothesis**: Simple interaction (A) works if facing the tree.
+- **Backup**: If this fails, the tree might not be cuttable or I'm missing something fundamental.
 
 ### Resource Alert
 - **Pokeballs**: 10 Poké Balls, 1 Lure Ball.
