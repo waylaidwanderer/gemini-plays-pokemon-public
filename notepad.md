@@ -2,11 +2,10 @@
 - Started: Friday, January 16, 2026
 
 ### Navigation Notes
-- **Location**: Goldenrod City (East Side - Game Corner Yard).
-- **Goal**: Enter Game Corner via Back Door at (20, 29).
-- **Status**: Standing on door mat (20, 29).
-- **Next Action**: Walk South to enter.
-- **Hypothesis**: This is a two-way door. If locked, I'm stuck and need to re-evaluate the "open" yard area.
+- **Location**: Goldenrod City (Main Street).
+- **Goal**: Reach Route 35 Gatehouse (North).
+- **Status**: Teleported from Game Corner Backyard to Main Entrance (9, 5).
+- **Path**: Heading North to Exit at (16, 0).
 
 ### Quest Chain: SquirtBottle
 1. **Defeat Whitney**: Done (Plain Badge obtained).
@@ -14,9 +13,10 @@
 3. **Get Bottle**: Return to Flower Shop after meeting Floria.
 
 ### Key Locations
-- **Underground Exit**: (21, 25).
-- **Game Corner Back Door**: (20, 29).
-- **Gym**: Accessible from Main Street (West).
+- **Game Corner**: (9, 5).
+- **Gym**: (24, 7).
+- **Flower Shop**: (19, 1).
+- **Route 35 Exit**: ~ (16, 0).
 
 ### Strategic Review (Turn 8617)
 - **Reflection**: Progress in Goldenrod continues.
