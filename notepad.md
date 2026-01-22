@@ -1,29 +1,25 @@
 # Pokémon Crystal Playthrough
 - Started: Friday, January 16, 2026
 
+### Strategic Reflection (Turn 8719)
+- **Status**: Stuck in Goldenrod for ~100 turns.
+- **Issue**: Oscillating between East/West without clearing the "fog of war".
+- **Insight**: The North-East (Flower Shop) is a cul-de-sac. The Central North Wall seems solid. The only remaining option is the North-West quadrant, which is largely "unseen".
+- **Action Plan**: 
+    1. Return to Main Street (y=10).
+    2. Move West to x=6.
+    3.Systematically explore North from there, hugging the West edge.
+
 ### Navigation Notes
 - **Location**: Goldenrod City (North-East).
 - **Goal**: Reach Route 35 Gatehouse (North Exit).
-- **Status**: Flower Shop (x=19) is a dead end.
-- **Plan**: 
-    1. Travel South to (18, 10) to clear the wall.
-    2. Travel West to the Game Corner area (x=9).
-    3. Push Far West to (0, 6) to check the extreme western edge for a path North.
-- **Hypothesis**: The exit path is hidden on the far West edge of the map (x=0, 1), which is currently "unseen".
+- **Immediate Target**: Main Street at (9, 10).
+- **Next Step**: Sweep the West Side (x<9).
 
 ### Quest Chain: SquirtBottle
 1. **Defeat Whitney**: Done (Plain Badge obtained).
 2. **Find Floria**: Currently seeking at Route 36.
 3. **Get Bottle**: Return to Flower Shop after meeting Floria.
-
-### Key Locations
-- **Game Corner**: (9, 5).
-- **Flower Shop**: (19, 1).
-- **Far West Edge**: x=0.
-
-### Strategic Review (Turn 8617)
-- **Reflection**: Progress in Goldenrod continues.
-- **Primary Goal**: Reach Route 35/36 to find Floria.
 
 ### Resource Alert
 - **Pokeballs**: 10 Poké Balls, 1 Lure Ball.
