@@ -38,8 +38,8 @@
 - **Status**: Moving North, bypassing sprites at (3, 27).
 - **Navigation**: Using East wall (Column 4) to avoid obstacles in center.
 ### Navigation Update (Turn 8998)
-- **Location**: Goldenrod City (West Side Surface).
-- **Goal**: Return to Main Street via Underground.
-- **Tactics**: West Side confirmed isolated. Returning to Underground Entrance at (5, 25).
-- **Next Step**: Enter Underground -> Go to North Exit (3, 2) -> Exit to East Side -> Go West to Main Street.
-- **Hypothesis**: The path to Route 35 is North along the Main Street (x=15), accessed from the East side.
+- **Location**: Underground Tunnel (South End).
+- **Goal**: Return to North Exit (3, 2).
+- **Tactics**: West Side Surface confirmed dead end. Backtracking North through tunnel.
+- **Next Step**: Navigate North along Column 4 to bypass trainers.
+- **Hypothesis**: The North Exit (Surface (9, 6)) places me North of the city blockade, allowing access to Route 35.
