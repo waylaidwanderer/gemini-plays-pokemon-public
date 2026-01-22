@@ -2,11 +2,11 @@
 - Started: Friday, January 16, 2026
 
 ### Navigation Notes
-- **Location**: Goldenrod City (Central).
-- **Goal**: Find the path North to Route 35.
-- **Current Action**: Moving South to Row 28, then West to x=2 (Main Road).
-- **Reasoning**: The center path (x=9) is blocked by a tree at (9, 22). I need to verify if the Main Road at x=2 is open past Row 21.
-- **Hypothesis**: The Mental Map showing Row 21 as fully blocked might be incorrect or contain a pass-through gate I haven't seen up close.
+- **Location**: Goldenrod City (South-West).
+- **Goal**: Verify path North along Main Road (x=2).
+- **Current Action**: Moving to (2, 22) to inspect the "Wall" at Row 21.
+- **Hypothesis**: The XML shows Row 21 as a solid wall across the entire city. This must be incorrect or there is a door/gate I missed.
+- **Plan**: Move West to x=2, then North. If blocked, re-evaluate East side or Underground.
 
 ### Resource Alert
 - **Pokeballs**: 10 Poké Balls, 1 Lure Ball.
