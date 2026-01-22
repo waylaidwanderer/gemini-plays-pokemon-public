@@ -2,11 +2,11 @@
 - Started: Friday, January 16, 2026
 
 ### Navigation Notes
-- **Location**: Goldenrod City (South).
-- **Goal**: Find the path East to the Main Street/Route 35.
-- **Current Action**: Moving South to Row 31 to find the cross-street.
-- **Reasoning**: Row 29 is blocked by bushes/obstacles at x=9. The main road connecting West and East must be lower (Row 30+).
-- **Plan**: Move South to Row 31, then East across the map.
+- **Location**: Goldenrod City (South-West).
+- **Goal**: Escape the SW Quadrant.
+- **Current Action**: Analyzing Map Topology via Code.
+- **Problem**: I appear to be trapped in a region bounded by Rows 30-32 (South), Column 9 (East), and Row 21 (North). I need to find the specific tile that bridges this area to the rest of the city.
+- **Hypothesis**: There is a narrow path I missed, possibly obscured by "unseen" tiles or misidentified walls.
 
 ### Resource Alert
 - **Pokeballs**: 10 Poké Balls, 1 Lure Ball.
@@ -17,7 +17,3 @@
 - **Pokemon Center**: (4, 29).
 - **Game Corner**: (20, 29).
 - **Underground Entrances**: SW (5, 25), SE (21, 25).
-
-### Quests
-- **SquirtBottle**: Go to Flower Shop.
-- **Sister**: Find at Route 36.
