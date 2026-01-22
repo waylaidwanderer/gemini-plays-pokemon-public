@@ -3,10 +3,10 @@
 
 ### Navigation Notes
 - **Strategy**: Underground Re-Do.
-- **Status**: Outside Radio Tower (5, 16).
-- **Plan**: Move East to the Main Road (approx x=12). Then head North to find the Route 35 Gatehouse (approx 15, 0).
-- **Reasoning**: The "Rude Tourist" blocks the West path (Tracks). The East side (Flower Shop) was a dead end. The central Main Road is the most likely exit.
-- **Timestamp**: Turn 8231.
+- **Status**: Goldenrod City (11, 16). Blocked by Station and Tourist.
+- **Plan**: Return to Underground Entrance (South) at (11, 29). traverse Underground to North Exit.
+- **Reasoning**: The "Rude Tourist" still blocks the Tracks (confirmed Turn 8231). The Main Road is blocked by the Station. The East side is a dead end. The Underground is the only confirmed path to the North side of the city.
+- **Timestamp**: Turn 8233.
 
 ### Key Locations
 - **Sister's House**: (29, 5).
