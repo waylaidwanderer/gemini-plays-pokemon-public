@@ -3,10 +3,10 @@
 
 ### Navigation Notes
 - **Strategy**: Underground Re-Do.
-- **Status**: Goldenrod City (11_2) at (19, 1). Entering building.
-- **Plan**: Inspect the interior. If it's the Flower Shop, ask about the SquirtBottle. If it's a Gatehouse, proceed to Route 35.
-- **Reasoning**: Joey finally hung up. The path forward is through this door.
-- **Timestamp**: Turn 8272.
+- **Status**: Inside Flower Shop (10_14).
+- **Plan**: Talk to the Flower Shop Lady at (3, 2) to get the SquirtBottle.
+- **Reasoning**: I have the Plain Badge. She should give me the item now.
+- **Timestamp**: Turn 8273.
 
 ### Key Locations
 - **Sister's House**: (29, 5).
