@@ -53,7 +53,7 @@
 - **Timestamp**: Turn 8355.
 - **Reasoning**: The city is divided by vertical walls. The only reliable crossover point seems to be the very bottom (Row 35).
 - **Timestamp**: Turn 8337.
-- **Status**: Arriving in Goldenrod City (South Entrance).
-- **Goal**: Reach Department Store to buy Poké Balls.
-- **Next**: Head North through the city to the Department Store.
-- **Note**: Route 34 cleared. Officer Keith defeated.
+- **Status**: Goldenrod City (11_2). Heading to Dept Store.
+- **Action**: Moving East to Dept Store Entrance (24, 27).
+- **Goal**: Buy Poké Balls on 2F.
+- **Next**: Find Sister at Route 36.
