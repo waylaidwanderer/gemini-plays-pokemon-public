@@ -3,10 +3,10 @@
 
 ### Navigation Notes
 - **Strategy**: Underground Re-Do.
-- **Status**: Inside Flower Shop (10_14). Listening to story.
-- **Plan**: Continue pressing A to get through the dialogue and receive the SquirtBottle.
-- **Reasoning**: She's talking about Professor Oak. This is the script for getting the item.
-- **Timestamp**: Turn 8274.
+- **Status**: Inside Flower Shop (10_14). Dialogue with Lady.
+- **Plan**: Mash A to get the SquirtBottle.
+- **Reasoning**: The text "Three years ago..." is still on screen. Need to advance it.
+- **Timestamp**: Turn 8276.
 
 ### Key Locations
 - **Sister's House**: (29, 5).
