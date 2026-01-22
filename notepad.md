@@ -26,3 +26,5 @@
 - **Current Path**: x=3 corridor.
 - **Radio Tower**: (5, 15).
 - **Potential Exit**: (3, 0) or (4, 0).
+- **Tile Anomaly**: Tile `TYPE_2889` appears to be used for both "Yellow Path" and "Visual Walls". This implies either the walls are walkable (rooftop?) or the ID is misleading.
+- **Hypothesis**: I might be navigating a rooftop area where the "walls" are just edges I can step on.
