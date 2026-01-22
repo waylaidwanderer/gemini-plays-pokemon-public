@@ -2,11 +2,18 @@
 - Started: Friday, January 16, 2026
 
 ### Navigation Notes
-- **Strategy**: Underground Re-Do (Confirmed).
-- **Status**: Goldenrod City (11_2). Returning South to Underground.
-- **Plan**: Go South to Row 29, then West to Entrance (11, 29).
-- **Reasoning**: Surface North is blocked by a continuous wall of buildings (Name Rater, Gym, Houses) at Row 5-7. Gaps at x=13 and x=18 are dead ends. Underground is the required path.
-- **Timestamp**: Turn 8313.
+- **Goal**: Reach Goldenrod City West Side (Main Road).
+- **Strategy**: Flank via Route 34.
+- **Status**: Route 34 (11_1) at (6, 16). In battle with Abra.
+- **Obstacle**: Water to the West, Fence to the East.
+- **Plan**: 
+    1. Run from Abra (No Pokeballs).
+    2. Head South to find a crossing over the water or a path to the Main Road (Columns 0-3).
+    3. Enter Goldenrod from the West side.
+- **Timestamp**: Turn 8358.
+
+### Resource Alert
+- **Pokeballs**: 0 (Only 1 Lure Ball). Need to buy balls at Goldenrod Dept Store.
 
 ### Key Locations
 - **Sister's House**: (29, 5).
