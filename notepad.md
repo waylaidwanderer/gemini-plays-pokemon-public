@@ -2,11 +2,11 @@
 - Started: Friday, January 16, 2026
 
 ### Navigation Notes
-- **Location**: Goldenrod City (Central-East).
-- **Goal**: Find the path North (checking x=13 corridor).
-- **Current Action**: Moving East to x=13, then North.
-- **Reasoning**: The West (x=2) and Far East (x=21) paths are blocked by Row 21 walls. The Center (x=9) is blocked by a tree. I am checking the gap between x=10 and x=15.
-- **Hypothesis**: There might be a path or a building entrance (Department Store?) here.
+- **Location**: Goldenrod City (Central).
+- **Goal**: Reach North Goldenrod via the Central-East street (x=10-15).
+- **Current Action**: Repositioning to Row 29 (South Cross-Street) to access the central road.
+- **Reasoning**: Column 9 appears to be a "curb" or barrier that cannot cross to Column 10 (Street) except at the bottom (Row 29). I am currently stuck on the curb at (9, 24).
+- **Plan**: Move Down to (9, 29), then Right to (11, 29), then North.
 
 ### Resource Alert
 - **Pokeballs**: 10 Poké Balls, 1 Lure Ball.
