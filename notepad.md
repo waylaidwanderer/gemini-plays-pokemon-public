@@ -13,7 +13,7 @@
     3. Enter Goldenrod City.
 
 ### Resource Alert
-- **Pokeballs**: 0 (Only 1 Lure Ball). Need to buy balls at Goldenrod Dept Store.
+- **Pokeballs**: 10 Poké Balls, 1 Lure Ball.
 
 ### Key Locations
 - **Sister's House**: (29, 5).
