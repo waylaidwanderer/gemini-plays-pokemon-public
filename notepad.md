@@ -53,8 +53,8 @@
 - **Timestamp**: Turn 8355.
 - **Reasoning**: The city is divided by vertical walls. The only reliable crossover point seems to be the very bottom (Row 35).
 - **Timestamp**: Turn 8337.
-- **Status**: Goldenrod City (11_2) at (14, 28). Resuming movement.
-- **Action**: Moving Left to Main Street (x=10), then North.
-- **Goal**: Reach Route 35 Gatehouse (North).
-- **Reasoning**: Pokemon Center blocks North. Must flank West to Main Street.
-- **Next**: Head North to Route 35.
+- **Status**: Goldenrod City (11_2) at (14, 28). Stuck in corner.
+- **Action**: Moving Right to x=18 to clear obstacles.
+- **Goal**: Reach Row 23 to cross West.
+- **Correction**: Path Left and Up is blocked by walls (PC). Must backtrack East, go North to Row 23, then cross West.
+- **Next**: Up to Row 23 -> Left to Main Street.
