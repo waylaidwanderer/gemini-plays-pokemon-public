@@ -12,13 +12,13 @@
 
 ### Navigation Notes
 - **Location**: Goldenrod City (Tracks Crossing).
-- **Goal**: Investigate "Wall" at x=5 (West of Game Corner).
-- **Status**: Crossing tracks North at (18, 14).
+- **Goal**: Reach North-West Quadrant.
+- **Status**: Moving North to cross tracks.
 - **Plan**: 
-    1. Cross tracks to (18, 10).
-    2. Move West along Row 8/9/10 to (6, 8).
-    3. Verify if (5, 8) is truly a solid wall or if there is a gap I missed.
-- **Hypothesis**: The path to the far West (and Route 35) is past the x=5 line.
+    1. Move to (18, 10) to cross tracks.
+    2. Move West to (6, 8).
+    3. Verify "Wall" at (5, 8).
+    4. If no gap, enter Game Corner (9, 5) to check for a path.
 
 ### Quest Chain: SquirtBottle
 1. **Defeat Whitney**: Done (Plain Badge obtained).
@@ -27,4 +27,4 @@
 
 ### Key Locations
 - **Game Corner**: (9, 5).
-- **Target**: (5, 8).
+- **Target**: (6, 8).
