@@ -53,7 +53,7 @@
 - **Timestamp**: Turn 8355.
 - **Reasoning**: The city is divided by vertical walls. The only reliable crossover point seems to be the very bottom (Row 35).
 - **Timestamp**: Turn 8337.
-- **Status**: Goldenrod Dept Store 2F (11_12). Purchase complete.
-- **Action**: Exiting menus.
-- **Goal**: Exit Dept Store and head to Route 36.
-- **Inventory**: Added 10 Poké Balls. Total Money: ¥1321.
+- **Status**: Goldenrod Dept Store 2F (11_12). Moving to Escalator (Down).
+- **Action**: Moving Right to wall, then Up to Escalator at (15, 0).
+- **Goal**: Exit Dept Store.
+- **Next**: Route 36.
