@@ -15,8 +15,8 @@
 - **Goal**: Reach Route 35 Gatehouse (North Exit).
 - **Status**: Exploring the area North of the Magnet Train tracks. Currently at (6, 8).
 - **Observation**: Row 5 is a wall of buildings from x=5 to x=17.
-- **Correction**: The path North of the Officer (x=18) was NOT fully explored. I likely turned away too soon.
-- **Plan**: Return to x=18 (North of Officer) and head straight North to finding the Gatehouse.
+- **Correction**: x=17 is a vertical wall separating the Flower Shop (East) from the Main Street (West). x=18 leads only to the Flower Shop.
+- **Plan**: Backtrack South to y=8, move West to x=16, then head North. x=16 appears to be the correct path to the Gatehouse.
 
 ### Map Structure
 - **Tracks**: Run East-West around y=13.
