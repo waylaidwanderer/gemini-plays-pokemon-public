@@ -53,8 +53,8 @@
 - **Timestamp**: Turn 8355.
 - **Reasoning**: The city is divided by vertical walls. The only reliable crossover point seems to be the very bottom (Row 35).
 - **Timestamp**: Turn 8337.
-- **Status**: Goldenrod City (11_2) at (14, 17). Moving to Cross Street (Row 23).
-- **Action**: Moving Right to x=18, then South to Row 23.
-- **Goal**: Reach Row 23 to cross West to the Underground Entrance side.
-- **Reasoning**: Row 17 West is a cul-de-sac. Row 23 is the valid crossing south of the Game Corner.
-- **Next**: Right to x=18 -> South to Row 23 -> West.
+- **Status**: Goldenrod City (11_2) at (16, 23). Turning West on Cross Street.
+- **Action**: Moving Left to x=9.
+- **Goal**: Reach Main Street (x=9) to access Underground Entrance (South).
+- **Reasoning**: Row 23 is the gap between Game Corner and Dept Store.
+- **Next**: Left to x=9 -> South.
