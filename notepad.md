@@ -3,10 +3,10 @@
 
 ### Navigation Notes
 - **Strategy**: Underground Re-Do.
-- **Status**: Goldenrod City (11_2) at (18, 3). Facing a building.
-- **Plan**: Inspect the building at (19, 1). It might be the Gatehouse or Flower Shop.
-- **Reasoning**: The path North is blocked by this building. I need to check if I can enter it to proceed to Route 35.
-- **Timestamp**: Turn 8263.
+- **Status**: Goldenrod City (11_2) at (19, 2). Handling Joey's call.
+- **Plan**: Finish the call, then enter the building at (19, 1).
+- **Reasoning**: Phone call interrupted movement. Need to clear dialogue.
+- **Timestamp**: Turn 8265.
 
 ### Key Locations
 - **Sister's House**: (29, 5).
