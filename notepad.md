@@ -53,8 +53,8 @@
 - **Timestamp**: Turn 8355.
 - **Reasoning**: The city is divided by vertical walls. The only reliable crossover point seems to be the very bottom (Row 35).
 - **Timestamp**: Turn 8337.
-- **Status**: Goldenrod Dept Store 2F (11_12). Moving to Right Side.
-- **Action**: Moving Right to (12, 2) area.
-- **Goal**: Buy Standard Poké Balls.
-- **Hypothesis**: Cashiers might be at the far right counter.
-- **Next**: Interact with anyone behind a counter. If none, check 3F.
+- **Status**: Goldenrod Dept Store 2F (11_12). Bypassing Red Girl.
+- **Action**: Moving Down and Right to (12, 3) to explore the far right.
+- **Goal**: Find the Clerk.
+- **Hypothesis**: Clerk might be on the right side or bottom.
+- **Next**: Check top right corner. If empty, check Blue Sprite at (9, 6).
