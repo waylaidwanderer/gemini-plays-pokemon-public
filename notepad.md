@@ -38,10 +38,9 @@
 - **Status**: Moving North, bypassing sprites at (3, 27).
 - **Navigation**: Using East wall (Column 4) to avoid obstacles in center.
 ### Navigation Update (Turn 8998)
-- **Location**: Goldenrod City (Central Connector).
-- **Goal**: Cross to Main Street (East).
-- **Tactics**: Moving East along Row 23.
-- **Discovery**: Row 23 is a corridor that connects the West side (Column 9) to the East side (Main Street).
-- **Gap**: The dividing wall at x=16 has a gap at Row 23.
-- **Next Step**: Reach x=18 -> Head North to Gym/Route 35.
-- **Plan**: Down to (9, 23) -> Right to (18, 23) -> Up.
+- **Location**: Goldenrod City (Main Street).
+- **Goal**: Reach Flower Shop (19, 1).
+- **Tactics**: Path confirmed via Row 23. Heading North on Column 18.
+- **Next Step**: Go North past the Officer at (18, 10) -> Reach Flower Shop.
+- **Hypothesis**: The Officer is likely just a trainer or a non-blocking NPC.
+- **Route**: (16, 23) -> East to (18, 23) -> North.
