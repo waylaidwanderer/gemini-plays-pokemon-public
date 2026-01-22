@@ -39,7 +39,8 @@
 - **Navigation**: Using East wall (Column 4) to avoid obstacles in center.
 ### Navigation Update (Turn 8998)
 - **Current Location**: Goldenrod City East Side (21, 25).
-- **Observation**: East Side (Row 21+) is a dead end to the North.
-- **Plan**: Head South to the City Entrance (Route 34).
-- **Hypothesis**: The City Entrance connects both West and East sides. I can cross the tracks there.
-- **Goal**: Reach West Side Main Street -> Radio Tower -> Route 35.
+- **Discovery**: Underground North Exit is split!
+    - **(3, 2)** -> Warps to East Side (21, 25) (Isolated Dead End).
+    - **(4, 2)** -> Warps to Main City (9, 6) (Confirmed in Turn 8861).
+- **Plan**: Enter Underground at (21, 25), switch to column 4, and exit via (4, 2) to reach Main City.
+- **Route**: Go to (21, 25) -> Enter -> Move to (4, 2) -> Exit.
