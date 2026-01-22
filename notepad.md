@@ -53,4 +53,6 @@
 - **Timestamp**: Turn 8355.
 - **Reasoning**: The city is divided by vertical walls. The only reliable crossover point seems to be the very bottom (Row 35).
 - **Timestamp**: Turn 8337.
-- **Turn 8408**: In battle with Rattata. Attempting to flee.
+- **Status**: Route 34 (11_1) at (12, 31). Fled battle.
+- **Action**: Moving North along Column 12 to bypass obstacle at (13, 33).
+- **Goal**: Reach Daycare at Row 15.
