@@ -53,7 +53,8 @@
 - **Timestamp**: Turn 8355.
 - **Reasoning**: The city is divided by vertical walls. The only reliable crossover point seems to be the very bottom (Row 35).
 - **Timestamp**: Turn 8337.
-- **Status**: Goldenrod Underground (3_53) at (3, 28). Battling Super Nerd.
-- **Action**: Interacting with Trainer at (3, 27).
-- **Goal**: Defeat Trainer to clear path and gain EXP/Money.
-- **Next**: Win battle -> Continue North to Exit (3, 2).
+- **Status**: Goldenrod Underground (3_53) at (3, 28). Interaction: Haircut Brother.
+- **Action**: Declining service (Pressing B) and moving around him.
+- **Goal**: Exit Underground via North Exit (3, 2).
+- **Reasoning**: The "Super Nerd" is actually the Younger Haircut Brother (Wednesday). He blocks the path, but I can walk around.
+- **Next**: Clear dialogue -> Move Left/Right to bypass -> North.
