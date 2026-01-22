@@ -3,9 +3,9 @@
 
 ### Navigation Notes
 - **Location**: Goldenrod Underground (3_53).
-- **Goal**: Reach South Exit (3, 35) to enter Goldenrod City (South/Main Road).
-- **Current Action**: Heading South to exit.
-- **Path**: South along the corridor.
+- **Goal**: Reach South Exit to enter Goldenrod City (South/Main Road).
+- **Current Action**: Exiting South.
+- **Path**: South to exit at (3, 35).
 
 ### Resource Alert
 - **Pokeballs**: 10 Poké Balls, 1 Lure Ball.
@@ -21,4 +21,4 @@
 - **Sister's House**: (29, 5). The sister is missing (Route 36).
 - **Route 35 Gatehouse**: East Side (x=31) is a dead end.
 - **Plan**: Traverse Underground South to reach Main Road.
-- **Status**: Entering Underground.
+- **Status**: Exiting Underground to surface.
