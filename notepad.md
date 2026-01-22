@@ -38,8 +38,8 @@
 - **Status**: Moving North, bypassing sprites at (3, 27).
 - **Navigation**: Using East wall (Column 4) to avoid obstacles in center.
 ### Navigation Update (Turn 8998)
-- **Location**: Goldenrod City (West Side Surface).
-- **Goal**: Move North along the Train Tracks (West Edge).
-- **Tactics**: North at (5, 23) is blocked. Moving South to Row 29, then West to Column 1.
-- **Next Step**: Go South -> West -> North along tracks.
-- **Hypothesis**: The path along the tracks (Columns 0-2) bypasses the city center blockades.
+- **Location**: Goldenrod City (West Side Tracks).
+- **Goal**: Move North to Route 35 Gatehouse.
+- **Tactics**: Moving North along Column 1/2.
+- **Next Step**: Reach Row 15 -> Continue North.
+- **Hypothesis**: This path bypasses the Radio Tower blockade and connects to the Gatehouse.
