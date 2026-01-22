@@ -4,9 +4,8 @@
 ### Navigation Notes
 - **Location**: Goldenrod City (Central - Main St).
 - **Goal**: Find path to Route 35 Gatehouse.
-- **Status**: West path (x=13) is blocked by building. East path (x=18) was blocked by Flower Shop.
-- **Plan**: Backtrack South to Row 10, then explore far East (x>24) or far West (x<9).
-- **Hypothesis**: The path North is likely on the perimeter, not the center.
+- **Status**: Navigating East via Row 10/11 to bypass obstacles and reach the Gym area.
+- **Method**: Flanking East to find a path North along the map edge.
 
 ### Quest Chain: SquirtBottle
 1. **Defeat Whitney**: Done (Plain Badge obtained).
