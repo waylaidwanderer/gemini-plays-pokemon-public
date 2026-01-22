@@ -36,3 +36,5 @@
 - Note: Sandbox is down. Manual navigation active.
 - **Transition**: Goldenrod (18, 35) connects to Route 34 (8, 0).
 - **Plan**: Move West in Route 34 to finding the Tracks entrance (likely x=4 or lower).
+- **Obstacle**: Potential invisible block or ledge at (13, 29) / (14, 29) boundary. Attempting to bypass by going South.
+- **Timestamp**: Turn 8328.
