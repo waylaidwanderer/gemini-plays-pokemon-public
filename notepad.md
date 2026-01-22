@@ -2,11 +2,11 @@
 - Started: Friday, January 16, 2026
 
 ### Navigation Notes
-- **Strategy**: Central Corridor (x=6).
-- **Discovery**: x=3 (Tracks) ends at Row 14. x=18 (Main) ends at Flower Shop.
-- **Plan**: Go North along x=6. This appears to be a road running under the elevated tracks (Type 2889).
-- **Hypothesis**: The "walls" at x=6 are actually overhead tracks.
-- **Timestamp**: Turn 8085.
+- **Strategy**: Underground Re-Do.
+- **Correction**: x=6 (Central) is blocked by Officer at (6, 15). x=3 (Tracks) is a dead end. Main Road is a dead end.
+- **Plan**: Go East to Main Road -> South to Row 23 -> West to x=9 -> South to Row 29 -> Enter Underground (11, 29).
+- **Goal**: Reach North Exit (9, 6) and find path to Route 35.
+- **Timestamp**: Turn 8086.
 
 ### Key Locations
 - **Sister's House**: (29, 5).
