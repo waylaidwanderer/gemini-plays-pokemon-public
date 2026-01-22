@@ -53,8 +53,8 @@
 - **Timestamp**: Turn 8355.
 - **Reasoning**: The city is divided by vertical walls. The only reliable crossover point seems to be the very bottom (Row 35).
 - **Timestamp**: Turn 8337.
-- **Status**: Goldenrod City (11_2) at (14, 28). Retrying movement to escape corner.
-- **Action**: Pressing B (clear state), then Down, then Right to x=18.
-- **Goal**: Reach Row 23 to cross West.
+- **Status**: Goldenrod City (11_2) at (17, 29). Moving North past PC.
+- **Action**: Moving Right to x=18, then Up to Row 23.
+- **Goal**: Reach Row 23 to cross West to Main Street.
 - **Correction**: Path Left and Up is blocked by walls (PC). Must backtrack East, go North to Row 23, then cross West.
 - **Next**: Up to Row 23 -> Left to Main Street.
