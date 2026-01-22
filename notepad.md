@@ -30,9 +30,10 @@
 - Route 34 Item Ball at (7, 30) is blocked by a ledge at x=9 (One-way West->East?). Must approach from Goldenrod City/West side.
 - Confirmed: Wall at x=35 blocks East access from Row 6-19.
 - Tracks blocked at (3, 16) by Rude Tourist.
-- Status: Approaching Main Road (Row 8).
-- Plan: Reach Main Road at (18, 8) -> Head North to Route 35 Exit.
-- Reasoning: I am North of the Officer at (18, 10). The path North is clear.
+- Status: At Row 16 (Main West Corridor).
+- Plan: Go West to Radio Tower area (x=5) -> Check for path North to Route 35.
+- Reasoning: North Main Road is blocked. East side is blocked. Route 35 Exit must be on the West side (Tracks/Radio Tower).
+- Observation: Need to re-verify "NPC Block" at (4, 16).
 - Note: Sandbox is down. Manual navigation active.
 - **Transition**: Goldenrod (18, 35) connects to Route 34 (8, 0).
 - **Plan**: Move West in Route 34 to finding the Tracks entrance (likely x=4 or lower).
