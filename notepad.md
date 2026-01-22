@@ -34,7 +34,6 @@
 4. **Sudowoodo**: Use Bottle to clear path.
 - **Progress**: Successfully crossed to West Goldenrod via Underground!
 - **Current Location**: Underground Tunnel (South End).
-- **Goal**: Exit to Goldenrod City (South-West).
-- **Recent Event**: Warped from West Goldenrod (Enclosed Area) at (5, 25).
-- **Hypothesis**: The Underground connects the "Enclosed Area" (via North/Back door) to the Main Street (via South/Front door).
-- **Plan**: Exit South to Entrance Hall, then to Main Street.
+- **Goal**: Exit to Goldenrod City Main Streets via Entrance Hall.
+- **Hypothesis**: Exiting South leads to the main South-West Entrance Hall, which exits to the main street.
+- **Route**: Press Down to exit tunnel -> Exit building -> Head North on West Side.
