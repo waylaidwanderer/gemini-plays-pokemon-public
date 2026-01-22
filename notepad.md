@@ -30,10 +30,9 @@
 - Route 34 Item Ball at (7, 30) is blocked by a ledge at x=9 (One-way West->East?). Must approach from Goldenrod City/West side.
 - Confirmed: Wall at x=35 blocks East access from Row 6-19.
 - Tracks blocked at (3, 16) by Rude Tourist.
-- Status: West Side exploration.
-- Observation: x=3 (Tracks) appears to dead-end at Row 14 (Metal Barrier).
-- Plan: Check path North along x=8/9. There is a door at (9, 13).
-- Hypothesis: Access to North Goldenrod is via the central corridor or through a building.
+- Status: Returning to Underground (South Entrance).
+- Plan: Go East to Main Road (x=18) -> South to Row 23 -> West to x=9 -> South to Row 29 -> Enter Underground (11, 29).
+- Reasoning: Surface paths North (Main Road & Tracks) are blocked. Underground is the proven path to the North side.
 - Note: Sandbox is down. Manual navigation active.
 - **Transition**: Goldenrod (18, 35) connects to Route 34 (8, 0).
 - **Plan**: Move West in Route 34 to finding the Tracks entrance (likely x=4 or lower).
