@@ -38,11 +38,9 @@
 - **Status**: Moving North, bypassing sprites at (3, 27).
 - **Navigation**: Using East wall (Column 4) to avoid obstacles in center.
 ### Navigation Update (Turn 8998)
-- **Fact**: The Underground Tunnel (3_53) has multiple exits.
-    - North (3, 2) -> East Side Alley (3_54).
-    - South (3, 34) -> West Side Backyard (3_54).
-- **Hypothesis**: The Main Street connection is a separate tile, or the "Backyard" has an exit I missed.
+- **Fact**: No exit on Underground Row 35.
 - **Plan**:
-    1. Test Row 35 tiles: (2, 35), (3, 35), (4, 35).
-    2. If no warp, return to West Side Backyard via (3, 34).
-    3. thoroughly inspect Backyard for a way out (Fence gaps, doors, cuttable trees?).
+    1. Return to West Enclosed Area via (3, 34).
+    2. thoroughly explore boundaries (x=4 to x=6, y=25 to y=30).
+    3. If dead end, take North Exit (3, 2) to East Side.
+    4. On East Side, head SOUTH past Dept Store to Route 34 to cross tracks.
