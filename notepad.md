@@ -38,8 +38,8 @@
 - **Status**: Moving North, bypassing sprites at (3, 27).
 - **Navigation**: Using East wall (Column 4) to avoid obstacles in center.
 ### Navigation Update (Turn 8998)
-- **Location**: Underground Tunnel (North Exit).
-- **Goal**: Exit to Goldenrod City (East Side).
-- **Tactics**: Right Tile (4, 1) is not an exit (Blocked). Moving to Left Tile (3, 1).
-- **Next Step**: Exit at (3, 1) -> Re-evaluate East Side pathing.
-- **Hypothesis**: The East Side path North was not fully explored. Must check columns 17-20 for a gap in the planters.
+- **Location**: Goldenrod City (East Side Surface).
+- **Goal**: Reach Route 35 (North of Goldenrod).
+- **Tactics**: Underground Exit only leads to East Side.
+- **Next Step**: Go South to Row 29 -> West to Main Street -> North to Route 35 Gatehouse.
+- **Hypothesis**: The path North through the city is clear. The "blockage" is Sudowoodo on Route 36.
