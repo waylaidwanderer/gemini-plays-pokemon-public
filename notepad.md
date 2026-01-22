@@ -2,11 +2,11 @@
 - Started: Friday, January 16, 2026
 
 ### Navigation Notes
-- **Location**: Goldenrod City (East Side - Dept Store Front).
-- **Goal**: Find the entrance (Door).
-- **Current Action**: Moving East to x=25.
-- **Observation**: Still following the wall at Row 21. No door yet.
-- **Hypothesis**: Entrance is likely at the corner or on the side (x=25+).
+- **Location**: Goldenrod City (East Side).
+- **Goal**: Find Dept Store Entrance.
+- **Current Action**: Backtracking West along Row 22 to inspect the wall closely.
+- **Hypothesis**: I missed the door, or it's further West.
+- **Strategy**: Move West and check if x=15 is truly a dead end or if there's a door there.
 
 ### Resource Alert
 - **Pokeballs**: 10 Poké Balls, 1 Lure Ball.
