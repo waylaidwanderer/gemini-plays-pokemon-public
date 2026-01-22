@@ -38,8 +38,8 @@
 - **Status**: Moving North, bypassing sprites at (3, 27).
 - **Navigation**: Using East wall (Column 4) to avoid obstacles in center.
 ### Navigation Update (Turn 8998)
-- **Current Location**: Goldenrod City East Side (21, 25).
-- **Goal**: Exit Underground via (4, 2) to Main City Entrance Hall.
-- **Correction**: The "Isolated East Side" connects to the main city via the South.
-- **Plan**: Move South to (21, 29), then West to Main Street, then North to Route 35.
-- **Goal**: Reach Route 35 Gatehouse.
+- **Location**: Goldenrod City (South East) at (20, 29).
+- **Goal**: Reach West Side Main Street via South City Entrance.
+- **Plan**: Move West/South to Route 34 entrance, then cross to West Side.
+- **Key Insight**: The Underground connects the "Isolated East" (via North exit) to the "Enclosed West" (via South exit). The surface streets connect at the South.
+- **Route**: (20, 29) -> West to Main Street -> North to Radio Tower/Route 35.
