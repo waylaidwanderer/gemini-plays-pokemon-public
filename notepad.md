@@ -8,10 +8,11 @@
 - **Hypothesis**: The path to Route 35 bypasses the Radio Tower blockade via this western alley.
 
 ### Navigation Notes
-- **Location**: Underground Tunnel.
-- **Goal**: Reach North Exit to Goldenrod City.
+- **Location**: Goldenrod City (North East).
+- **Goal**: Reach Route 35 Gatehouse.
 ### Tile Mechanics
 - **Underground Walkable**: TYPE_3fe2, TYPE_8564, TYPE_63e2.
+- **City Walkable**: TYPE_3fe2, TYPE_8564, TYPE_ffbb.
 - **Verified Locations**:
     - **Flower Shop**: Entrance at (19, 1).
     - **Name Rater**: Entrance at (15, 7).
