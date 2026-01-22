@@ -3,10 +3,10 @@
 
 ### Navigation Notes
 - **Location**: Goldenrod City (South-West).
-- **Goal**: Verify path North along Main Road (x=2).
-- **Current Action**: Moving to (2, 22) to inspect the "Wall" at Row 21.
-- **Hypothesis**: The XML shows Row 21 as a solid wall across the entire city. This must be incorrect or there is a door/gate I missed.
-- **Plan**: Move West to x=2, then North. If blocked, re-evaluate East side or Underground.
+- **Goal**: Find the path North (likely between x=10 and x=15).
+- **Current Action**: Repositioning to search the Central-East corridor.
+- **Reasoning**: The West side (x=0-9) and Far East side (x=16+) are blocked at Row 21. The Underground connects SW to SE only. The gap North MUST be in the x=10-15 range, possibly along the Department Store.
+- **Plan**: Move South to clear obstacles, then East to x=12, then North.
 
 ### Resource Alert
 - **Pokeballs**: 10 Poké Balls, 1 Lure Ball.
