@@ -53,8 +53,8 @@
 - **Timestamp**: Turn 8355.
 - **Reasoning**: The city is divided by vertical walls. The only reliable crossover point seems to be the very bottom (Row 35).
 - **Timestamp**: Turn 8337.
-- **Status**: Goldenrod Underground (3_53) at (3, 28). Interaction: Haircut Brother.
-- **Action**: Declining service (Pressing B) and moving around him.
+- **Status**: Goldenrod Underground (3_53) at (3, 28). Interaction: Haircut Brother (Persistent).
+- **Action**: Clearing text (B) and bypassing on the Left.
 - **Goal**: Exit Underground via North Exit (3, 2).
-- **Reasoning**: The "Super Nerd" is actually the Younger Haircut Brother (Wednesday). He blocks the path, but I can walk around.
-- **Next**: Clear dialogue -> Move Left/Right to bypass -> North.
+- **Reasoning**: Text "you give them haircuts" persists. Mashing B to clear, then stepping Left (x=2) to walk past him.
+- **Next**: Left -> Up -> North to Exit.
