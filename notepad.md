@@ -38,10 +38,9 @@
 - **Status**: Moving North, bypassing sprites at (3, 27).
 - **Navigation**: Using East wall (Column 4) to avoid obstacles in center.
 ### Navigation Update (Turn 8998)
-- **Observation**: East Side (Row 29) is blocked at x=15 (Wall). Cannot reach Main Street or South Exit.
-- **Conclusion**: This area is a dead end. I must return to the Underground.
-- **Plan**:
-    1. Enter Underground at (21, 25).
-    2. Go to South End of Tunnel.
-    3. Search for a SECOND exit at the South End (possibly corresponding to the Main South Entrance at 11, 29).
-    4. If that fails, retry North Exit (4, 2) with extreme prejudice.
+- **Observation**: Underground connects two isolated areas:
+    1. North Exit (3, 2) -> East Side (21, 25) (Dead End).
+    2. South Exit (3, 34) -> West Side (5, 25) (Enclosed).
+- **Hypothesis**: There is a THIRD exit in the Underground leading to the Main Street.
+- **Plan**: Check the **South-East** corner of the Underground (Columns 4-5, Row 34+).
+- **Reasoning**: I only checked the South-West exit (Col 3). The Main Street entrance is likely on the other side.
