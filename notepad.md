@@ -8,8 +8,10 @@
 
 ### Navigation Status: Goldenrod City North
 - **Goal**: Reach Route 35 Gatehouse (North Exit).
-- **Current Strategy**: Taking the Main Street (Column 15-18) North.
+- **Current Strategy**: Taking the East Side path (Column 18) to bypass the wall at (16, 4).
 - **Recent Discoveries**:
+    - **Wall at (16, 4)**: Blocks the direct Main Street path north.
+    - **Path Found**: Route exists via (18, 8) -> (18, 5).
     - **Underground Entrance (North)**: Located at (9, 5). NOT the Gatehouse.
     - **Flower Shop**: Entrance at (19, 1).
     - **Name Rater**: Entrance at (15, 7).
