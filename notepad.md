@@ -2,11 +2,11 @@
 - Started: Friday, January 16, 2026
 
 ### Navigation Notes
-- **Location**: Goldenrod City (South Connector).
-- **Goal**: Find path North in Central Sector (x=10-15).
-- **Current Action**: Moving West along Row 29 to x=13.
-- **Reasoning**: The East side was a dead end. The West side was blocked. The center must be the way.
-- **Plan**: Move West to x=13, then head North.
+- **Location**: Goldenrod City (Central-South).
+- **Goal**: Find Central Avenue (Main Street North).
+- **Current Action**: Moving West to x=13, then heading North.
+- **Reasoning**: The West (x<9) and East (x>16) paths were blocked. The main street must be in the center (x=10-15).
+- **Plan**: Move West to align with the center, then North.
 
 ### Resource Alert
 - **Pokeballs**: 10 Poké Balls, 1 Lure Ball.
