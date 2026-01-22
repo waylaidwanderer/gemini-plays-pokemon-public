@@ -4,16 +4,10 @@
 ### Navigation Notes
 - **Goal**: Reach Goldenrod City West Side (Main Road).
 - **Strategy**: Flank via Route 34.
-- **Status**: Inside Gatehouse (11_23) at (3, 3). Talking to NPC.
-- **Observation**: Gatehouse is a single room (width 10). North exits at (4,0) and (5,0). No internal access to a "West Wing".
-- **Hypothesis**: To reach Route 34 West, I must either:
-    1. Exit via (4,0) and hope it puts me West of the fence.
-    2. Find a separate exterior door on Route 34 West.
-    3. Enter from Goldenrod City West.
-- **Plan**: 
-    1. Finish dialogue.
-    2. Exit North via (4, 0).
-    3. Check position. If East, search West along the building exterior.
+- **Status**: Exiting Gatehouse (11_23) North via (4,0).
+- **Goal**: Check if this exit leads to the West side of Route 34.
+- **Hypothesis**: The left door (4,0) might lead to the West path.
+- **Next**: Verify position on Route 34. If East (x>10), then crossing failed. If West (x<10), success.
 
 ### Resource Alert
 - **Pokeballs**: 0 (Only 1 Lure Ball). Need to buy balls at Goldenrod Dept Store.
