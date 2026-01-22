@@ -11,14 +11,15 @@
     3.Systematically explore North from there, hugging the West edge.
 
 ### Navigation Notes
-- **Location**: Goldenrod City (Central -> South-West).
-- **Goal**: Investigate NPC Block at Radio Tower.
-- **Status**: At (6, 7). Moving to Radio Tower (5, 15).
+- **Location**: Goldenrod City (Central).
+- **Goal**: Reach Radio Tower (South-West).
+- **Status**: Wall at Row 10 (x=6-12) blocks direct South path.
+- **Correction**: Must route East to the gap at x=14, then South to Tracks Crossing (18, 14), then West to Radio Tower.
 - **Plan**: 
-    1. Cross tracks at x=8 (verified walkable).
-    2. Go to Radio Tower entrance.
-    3. Talk to/Inspect NPC at (4, 16).
-- **Hypothesis**: The path North is past the NPC on the West side.
+    1. Navigate to East Crossing (18, 14).
+    2. Cross Tracks.
+    3. Navigate West to Radio Tower (5, 15).
+    4. Investigate NPC at (4, 16).
 
 ### Quest Chain: SquirtBottle
 1. **Defeat Whitney**: Done (Plain Badge obtained).
@@ -28,4 +29,4 @@
 ### Key Locations
 - **Game Corner**: (9, 5).
 - **Radio Tower**: (5, 15).
-- **NPC Block**: (4, 16).
+- **East Crossing**: (18, 14).
