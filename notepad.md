@@ -19,7 +19,8 @@
 - **Pathing**:
     - East Side (x>16): Dead ends / Cul-de-sacs.
     - Center (x=16): Blocked by Name Rater's House.
-    - West Side (x<5): Investigating NOW.
+    - West Side (x<5): Dead End (Blocked by Walls/Tracks).
+- **Correction**: Route 35 Exit is likely at (16, 0), accessed via the gap at x=20 and looping back West behind the buildings.
 
 ### Quest Chain: SquirtBottle
 1. **Defeat Whitney**: Done (Plain Badge).
