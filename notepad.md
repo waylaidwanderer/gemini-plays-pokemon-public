@@ -3,9 +3,9 @@
 
 ### Navigation Notes
 - **Location**: Goldenrod City (East Residential Area).
-- **Goal**: Find Route 35 Gatehouse.
-- **Status**: Finished phone call.
-- **Next**: Move East to (33, 7) to check for a path North.
+- **Goal**: Find path to Route 35 Gatehouse.
+- **Status**: At (34, 7). Attempting to Cut tree at (35, 7).
+- **Hypothesis**: This tree blocks the path to the East Edge (Col 36), which leads North.
 
 ### Quest Chain: SquirtBottle
 1. **Defeat Whitney**: Done (Plain Badge obtained).
