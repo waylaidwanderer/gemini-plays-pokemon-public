@@ -39,8 +39,10 @@
 - **Navigation**: Using East wall (Column 4) to avoid obstacles in center.
 ### Navigation Update (Turn 8998)
 - **Current Location**: Goldenrod City East Side (21, 25).
-- **Discovery**: Underground North Exit is split!
-    - **(3, 2)** -> Warps to East Side (21, 25) (Isolated Dead End).
-    - **(4, 2)** -> Warps to Main City (9, 6) (Confirmed in Turn 8861).
-- **Plan**: Enter Underground at (21, 25), switch to column 4, and exit via (4, 2) to reach Main City.
-- **Route**: Go to (21, 25) -> Enter -> Move to (4, 2) -> Exit.
+- **Goal**: Exit Underground via (4, 2) to Main City Entrance Hall.
+- **Correction**: The tile at (3, 2) warps to the Isolated East Side (21, 25). I must avoid it.
+- **Plan**:
+    1. Re-enter Underground at (21, 25).
+    2. Move Right to Column 4.
+    3. Move Down to (4, 3) to position for entry.
+    4. Move UP into (4, 2) to trigger the correct warp.
