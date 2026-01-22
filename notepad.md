@@ -38,8 +38,8 @@
 - **Status**: Moving North, bypassing sprites at (3, 27).
 - **Navigation**: Using East wall (Column 4) to avoid obstacles in center.
 ### Navigation Update (Turn 8998)
-- **Location**: Goldenrod City (East Side).
-- **Goal**: Return to Main Street via Underground.
-- **Tactics**: East Side is isolated. Entering Underground at (21, 25) to exit at South-West (11, 29).
-- **Next Step**: Right to x=21 -> Up to (21, 25) -> Enter Tunnel.
-- **Hypothesis**: The South-West exit leads to the Main Street, allowing access to the West path.
+- **Location**: Underground Tunnel (North End).
+- **Goal**: Exit at South End (to West Goldenrod).
+- **Tactics**: Traversing tunnel South.
+- **Next Step**: Go South to Row 35.
+- **Hypothesis**: Exiting South places me at (11, 29) on Main Street.
