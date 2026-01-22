@@ -2,11 +2,11 @@
 - Started: Friday, January 16, 2026
 
 ### Navigation Notes
-- **Location**: Goldenrod City (South-West).
-- **Goal**: Reach East Goldenrod (Game Corner/Flower Shop) via Route 34.
-- **Current Action**: Heading to Route 34 Gatehouse at (4, 29).
-- **Reasoning**: The West side (where I am) is isolated from the East side by barriers at x=9 and Row 21. The only way to the East side seems to be exiting South to Route 34, moving East, and re-entering.
-- **Hypothesis**: The city is split into two sections at the South end, connected via Route 34.
+- **Location**: Goldenrod City (West Side).
+- **Goal**: Reach East Goldenrod via Underground.
+- **Current Action**: Moving to Underground Entrance (SW) at (5, 25).
+- **Reasoning**: The West side (x=0-9) is isolated. The "Gatehouse" at (4, 29) appears to be the Pokemon Center, and Row 30 is blocked. The only way to the East side (Main Road) is to re-enter the Underground and exit at the other end (likely x=21).
+- **Plan**: Enter Underground at (5, 25) -> Go North -> Exit at the other end -> Arrive in East Goldenrod.
 
 ### Resource Alert
 - **Pokeballs**: 10 Poké Balls, 1 Lure Ball.
@@ -14,6 +14,9 @@
 ### Key Locations
 - **Sister's House**: (29, 5).
 - **Flower Shop**: (19, 1).
-- **Gatehouse (West)**: (4, 29).
-- **Game Corner**: (20, 29).
+- **Pokemon Center**: (4, 29).
 - **Underground Entrances**: SW (5, 25), SE (21, 25).
+
+### Quests
+- **SquirtBottle**: Go to Flower Shop.
+- **Sister**: Find at Route 36.
