@@ -4,8 +4,8 @@
 ### Navigation Notes
 - **Location**: Goldenrod City (East of Gym).
 - **Goal**: Find path to Route 35 Gatehouse.
-- **Status**: EGG HATCHING EVENT! The Odd Egg is hatching!
-- **Method**: Watch the hatching animation, then resume search.
+- **Status**: Nicknaming newly hatched Igglybuff "Amber".
+- **Method**: Typing name, then resuming navigation.
 
 ### Quest Chain: SquirtBottle
 1. **Defeat Whitney**: Done (Plain Badge obtained).
