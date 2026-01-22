@@ -4,9 +4,9 @@
 ### Navigation Notes
 - **Strategy**: Underground Re-Do.
 - **Status**: Goldenrod City (North). At (12, 8).
-- **Plan**: Check door at (12, 7). If no exit, retreat South-West to check the Tracks (West side) for a path North.
-- **Reasoning**: Row 4 seems to be a solid wall of buildings from X=0 to X=17, blocking access to the North edge (Route 35). The only gaps lead to dead ends (Flower Shop). The Tracks (X=3) might be the true path, possibly past the "Rude Tourist".
-- **Timestamp**: Turn 8173.
+- **Plan**: Move South to Row 18 to cross to the West side (Tracks). Investigate the Tracks for a path North to Route 35.
+- **Reasoning**: Access to the West side (Tracks) seems blocked by buildings/walls at Row 5-15. Need to loop South to find a crossing. East side (Flower Shop) is a dead end. Underground Entrance (9, 5) is likely just the underground.
+- **Timestamp**: Turn 8176.
 
 ### Key Locations
 - **Sister's House**: (29, 5).
