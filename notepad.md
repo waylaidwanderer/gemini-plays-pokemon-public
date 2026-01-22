@@ -3,10 +3,10 @@
 
 ### Navigation Notes
 - **Strategy**: Underground Re-Do.
-- **Status**: In Underground Tunnel (3_53). Facing Trainer at (2, 6).
-- **Plan**: Move North. Expecting battle with the trainer at (2, 6) who is blocking the path. After that, dodge the Nerd at (3, 4).
-- **Reasoning**: Trainer at (2, 6) faces Right, covering the entire corridor. Battle is likely unavoidable.
-- **Timestamp**: Turn 8247.
+- **Status**: At Underground North Exit (3_53).
+- **Plan**: Exit the Underground, then head North to Route 35.
+- **Reasoning**: Successfully navigated the Underground.
+- **Timestamp**: Turn 8248.
 
 ### Key Locations
 - **Sister's House**: (29, 5).
