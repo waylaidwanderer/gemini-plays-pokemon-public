@@ -39,9 +39,10 @@
 - **Navigation**: Using East wall (Column 4) to avoid obstacles in center.
 ### Navigation Update (Turn 8998)
 - **Location**: Goldenrod City (North-West).
-- **Goal**: Reach Route 35 Gatehouse.
-- **Tactics**: Row 5 (Buildings) blocks North movement from x=2 to x=17.
-- **Hypothesis**: The path North is either:
-    1. Through the door at (9, 5) (Game Corner?).
-    2. Along the West edge (Train Tracks).
-- **Plan**: Move West to x=4 -> Check path North along the tracks.
+- **Goal**: Find Route 35 Gatehouse.
+- **Tactics**: Testing pathing assumptions.
+    1. **Tracks**: Check if walkable at (5, 9).
+    2. **Sign**: Read sign at (8, 6) for location info.
+    3. **Building**: Investigate door at (9, 5).
+- **Hypothesis**: The tracks might be the path North, or the "Game Corner" label is wrong and (9, 5) is the Gatehouse.
+- **Current Pos**: (6, 9). Heading West to test tracks.
