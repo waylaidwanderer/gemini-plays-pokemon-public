@@ -3,10 +3,13 @@
 
 ### Navigation Notes
 - **Location**: Goldenrod City (Flower Shop).
-- **Goal**: Find Route 35 Gatehouse (North Exit).
-- **Status**: Inside Flower Shop.
-- **Action**: Moving closer to Flower Shop Girl to talk (previously too far away).
-- **Quest Info**: Looking for information on Floria or the SquirtBottle.
+- **Goal**: Reach Route 35 Gatehouse (North Exit).
+- **Status**: Exiting Flower Shop.
+- **Insight**: Need to trigger the Sudowoodo event at Route 36 first.
+- **Plan**: 
+    1. Exit Shop.
+    2. Head West to the Radio Tower area.
+    3. Hug the West wall and travel North to find the exit.
 
 ### Quest Chain: SquirtBottle
 1. **Defeat Whitney**: Done (Plain Badge obtained).
@@ -16,7 +19,7 @@
 ### Key Locations
 - **Game Corner**: (9, 5).
 - **Flower Shop**: (19, 1).
-- **Potential Exit**: (16, 5).
+- **Radio Tower**: (5, 15).
 
 ### Strategic Review (Turn 8617)
 - **Reflection**: Progress in Goldenrod continues.
