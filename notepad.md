@@ -30,3 +30,5 @@
 - **Dead End Confirmed**: (3, 15) is blocked to the North. The corridor at x=3 (y=15-18) is a dead end.
 - **Hypothesis**: The Route 35 Exit is likely at the North end of Main Street (x=18), possibly the "Wall" at (18, 1) is a gatehouse entrance.
 - Navigation Update: The alley at x=4 is a dead end (fence at y=19). x=3 is a wall. Must backtrack North to y=10 to exit.
+- Navigation Update: Tracks at (6, 15) are solid. No direct North path here.
+- Plan: Return to Main Street (x=18). Check if Officer at (18, 10) is blocking. If yes, use Underground (Entrance at 11, 29 or 5, 25) to bypass.
