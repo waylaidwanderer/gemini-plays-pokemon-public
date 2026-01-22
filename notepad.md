@@ -38,8 +38,8 @@
 - **Status**: Moving North, bypassing sprites at (3, 27).
 - **Navigation**: Using East wall (Column 4) to avoid obstacles in center.
 ### Navigation Update (Turn 8998)
-- **Location**: Underground Tunnel (South End).
-- **Goal**: Return to North Exit (3, 2).
-- **Tactics**: West Side Surface confirmed dead end. Backtracking North through tunnel.
-- **Next Step**: Navigate North along Column 4 to bypass trainers.
-- **Hypothesis**: The North Exit (Surface (9, 6)) places me North of the city blockade, allowing access to Route 35.
+- **Location**: Goldenrod City (East Side Surface).
+- **Goal**: Reach Route 35 Gatehouse (North Edge).
+- **Tactics**: Moving North along the East Side (Column 21).
+- **Next Step**: Reach Flower Shop at (19, 1) -> Cut West to Gatehouse.
+- **Hypothesis**: The East Side connects to the North Edge, bypassing the central/western blockades.
