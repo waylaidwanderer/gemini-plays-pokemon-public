@@ -2,11 +2,11 @@
 - Started: Friday, January 16, 2026
 
 ### Navigation Notes
-- **Location**: Goldenrod City (East Side).
-- **Goal**: Cross Row 21 to reach North Goldenrod.
-- **Status**: Approaching potential blockade at Row 21.
-- **Anomaly**: Mental Map lists Row 21 as fully blocked (TYPE_2889), despite previous successful traversal to Gym.
-- **Plan**: Inspect Row 21 visually and find the gap.
+- **Location**: Goldenrod City (East Side - Enclosed Yard).
+- **Goal**: Escape this yard to reach Main Street.
+- **Status**: North is blocked by wall at Row 21. West is blocked by wall at Col 15.
+- **Hypothesis**: The tiles at (20, 29) and (21, 29) are a back door (possibly Game Corner or Dept Store).
+- **Plan**: Enter building at (20, 29) to traverse to Main Street.
 
 ### Quest Chain: SquirtBottle
 1. **Defeat Whitney**: Done (Plain Badge obtained).
@@ -14,11 +14,9 @@
 3. **Get Bottle**: Return to Flower Shop after meeting Floria.
 
 ### Key Locations
-- **Sister's House**: (29, 5).
-- **Flower Shop**: (19, 1).
-- **Gym**: (24, 7).
-- **North Gate**: ~ (20, 0).
-- **Underground Exits**: SW (5, 25), N? (21, 25).
+- **Underground Exit**: (21, 25).
+- **Mystery Door**: (20-21, 29).
+- **Gym**: Accessible from Main Street (West).
 
 ### Strategic Review (Turn 8617)
 - **Reflection**: Progress in Goldenrod continues.
