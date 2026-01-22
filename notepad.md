@@ -3,10 +3,10 @@
 
 ### Navigation Notes
 - **Strategy**: Underground Re-Do.
-- **Status**: Goldenrod City (11, 16). Blocked by Station and Tourist.
-- **Plan**: Return to Underground Entrance (South) at (11, 29). traverse Underground to North Exit.
-- **Reasoning**: The "Rude Tourist" still blocks the Tracks (confirmed Turn 8231). The Main Road is blocked by the Station. The East side is a dead end. The Underground is the only confirmed path to the North side of the city.
-- **Timestamp**: Turn 8233.
+- **Status**: Inside Underground Entrance (South) (3_54).
+- **Plan**: Enter the Underground Tunnel via stairs at (5, 25). Traverse North to exit at Goldenrod City (North).
+- **Reasoning**: Surface routes are blocked. This path bypasses the obstacles.
+- **Timestamp**: Turn 8238.
 
 ### Key Locations
 - **Sister's House**: (29, 5).
