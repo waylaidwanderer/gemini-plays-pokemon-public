@@ -38,8 +38,8 @@
 - **Status**: Moving North, bypassing sprites at (3, 27).
 - **Navigation**: Using East wall (Column 4) to avoid obstacles in center.
 ### Navigation Update (Turn 8998)
-- **Location**: Goldenrod City (East Side Dead End).
-- **Goal**: Return to Main Street (West).
-- **Tactics**: East Side confirmed isolated. Returning to Underground.
-- **Next Step**: Enter Underground at (21, 25) -> Exit at (11, 29).
-- **Hypothesis**: Main Street leads to Route 35 Gatehouse. Blockage is further North.
+- **Location**: Goldenrod City (South Main Street).
+- **Goal**: Reach the path West of the Radio Tower (Column 3/4).
+- **Tactics**: Moving West from (16, 28) to the far West side.
+- **Next Step**: Reach x=4, then head North.
+- **Hypothesis**: A narrow path exists between the Radio Tower and the train tracks/west wall.
