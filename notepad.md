@@ -53,8 +53,8 @@
 - **Timestamp**: Turn 8355.
 - **Reasoning**: The city is divided by vertical walls. The only reliable crossover point seems to be the very bottom (Row 35).
 - **Timestamp**: Turn 8337.
-- **Status**: Goldenrod Underground (3_53) at (3, 28). Interaction: Haircut Brother (Persistent).
-- **Action**: Clearing text (B) and bypassing on the Left.
-- **Goal**: Exit Underground via North Exit (3, 2).
-- **Reasoning**: Text "you give them haircuts" persists. Mashing B to clear, then stepping Left (x=2) to walk past him.
-- **Next**: Left -> Up -> North to Exit.
+- **Status**: Goldenrod Underground (3_53) at (2, 26). Moving North through Corridor.
+- **Action**: Moving Up into unexplored area.
+- **Goal**: Connect South section to North section and exit at (3, 2).
+- **Note**: Bypassed Haircut Brother. Approaching potential trainers in the middle section.
+- **Next**: Continue North to Exit.
