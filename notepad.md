@@ -12,18 +12,17 @@
 
 ### Navigation Notes
 - **Location**: Goldenrod City North.
-- **Goal**: Reach Route 35.
-- **Status**: Exiting the Name Rater's House (Map 11_10).
-- **Correction**: The building at (15, 7) is the Name Rater's House, NOT the Gatehouse.
+- **Goal**: Reach Route 35 Gatehouse.
+- **Status**: Exiting Name Rater's House.
+- **Correction**: The Route 35 Gatehouse is likely at (29, 8) (East of the Gym), NOT on the main street.
 - **Plan**:
-    1. Exit to Goldenrod City.
-    2. Check columns x=16, 17, 18 for the path North.
-    3. The Gatehouse must be further North or to the side of this building.
+    1. Move East past the Gym (24, 7).
+    2. Locate the Gatehouse entrance at (29, 8).
 
 ### Map Structure
 - **Name Rater**: (15, 7).
 - **Gym**: (24, 7).
-- **Route 35 Exit**: Unknown, likely North of y=7.
+- **Route 35 Gatehouse**: ~ (29, 8).
 
 ### Quest Chain: SquirtBottle
 1. **Defeat Whitney**: Done.
