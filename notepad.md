@@ -40,11 +40,7 @@
 ### Navigation Update (Turn 8998)
 - **Location**: Goldenrod City (West Side).
 - **Goal**: Reach Main Street (Center).
-- **Tactics**: Checking the area near the Pokemon Center (5, 29).
-- **Hypothesis**: A path to the Main Street exists East of the Pokemon Center.
-- **Previous Findings**:
-    - North West (Tracks): Blocked.
-    - East Side (Dept Store): Blocked.
-    - Underground North Exit: Leads to East Side.
-    - Underground South Exit: Leads to West Side.
-- **Plan**: Exit Underground -> Go South -> Check East at Row 29.
+- **Tactics**: Exploring the Southern Connection (Rows 33-35).
+- **Observation**: A vertical wall at x=9 blocks Eastward movement from y=21 to y=33.
+- **Hypothesis**: The connection to the Main Street is at the very bottom of the map (Route 34 junction).
+- **Plan**: Move South to y=34 -> Move East past x=9 -> Head North on Main Street.
