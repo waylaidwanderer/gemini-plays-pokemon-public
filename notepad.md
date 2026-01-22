@@ -21,4 +21,8 @@
 - **Sister's House**: (29, 5). The sister is missing (Route 36).
 - **Route 35 Gatehouse**: East Side (x=31) is a dead end.
 - **Plan**: Proceed North to Route 35 via Main Road.
-- **Status**: Approaching the Pokemon Center.
+- **Status**: Stuck at (16, 28) (West blocked by building).
+- **Correction**: x=10-15 is a solid building block. Cannot go West.
+- **Plan**: Explore North along the East Corridor (x=16) to see if there is a gap in the barrier at Row 21, or if it's a Cut-able tree.
+- **Hypothesis**: Row 21 might be a fence or tree line.
+- **Backup**: Check Game Corner at (20, 29) or return to Underground.
