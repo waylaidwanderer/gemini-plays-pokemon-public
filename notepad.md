@@ -3,10 +3,10 @@
 
 ### Navigation Notes
 - **Strategy**: Underground Re-Do.
-- **Status**: Goldenrod City (North). At (12, 8).
-- **Plan**: Move South to Row 18 to cross to the West side (Tracks). Investigate the Tracks for a path North to Route 35.
-- **Reasoning**: Access to the West side (Tracks) seems blocked by buildings/walls at Row 5-15. Need to loop South to find a crossing. East side (Flower Shop) is a dead end. Underground Entrance (9, 5) is likely just the underground.
-- **Timestamp**: Turn 8176.
+- **Status**: At (3, 25) (Dead End).
+- **Plan**: Retreat South to Row 30. Cross East to Main Road. Go North to Row 18. Go West to Radio Tower. Access Tracks North from Radio Tower (x=3).
+- **Reasoning**: Current location (3, 25) is a dead end. Path to tracks is likely via Radio Tower frontage (Row 16).
+- **Timestamp**: Turn 8186.
 
 ### Key Locations
 - **Sister's House**: (29, 5).
