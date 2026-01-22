@@ -13,9 +13,9 @@
 ### Navigation Notes
 - **Location**: Goldenrod City (Radio Tower Area).
 - **Goal**: Reach Far West Edge (x=0).
-- **Status**: Clearing Joey's Call -> Bypassing NPC at (4, 16).
-- **Path**: (5, 16) -> South to (5, 18) -> West to (3, 18) -> North.
-- **Hypothesis**: The path to Route 35 is North of the Radio Tower, accessible by hugging the West edge.
+- **Status**: Finishing Joey's Call.
+- **Immediate Action**: Bypass NPC at (4, 16) using the southern path (Row 18).
+- **Path**: (5, 16) -> (5, 18) -> (3, 18) -> (3, 16) -> North.
 
 ### Quest Chain: SquirtBottle
 1. **Defeat Whitney**: Done (Plain Badge obtained).
@@ -25,4 +25,4 @@
 ### Key Locations
 - **NPC Block**: (4, 16).
 - **Bypass Path**: (3, 18).
-- **Potential Exit**: x=0-3 corridor.
+- **Target**: Far West Corridor (x=0-3).
