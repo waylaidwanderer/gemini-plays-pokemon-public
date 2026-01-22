@@ -3,10 +3,10 @@
 
 ### Navigation Notes
 - **Strategy**: Underground Re-Do.
-- **Status**: Inside Flower Shop (10_14). Dialogue with Girl about the Tree.
-- **Plan**: Advance text. If she doesn't give the bottle, I must go to Route 36 to find her sister.
-- **Reasoning**: She is confirming the tree blockage. If she doesn't hand over the SquirtBottle immediately, it means I haven't triggered the "Sister Found" flag yet.
-- **Timestamp**: Turn 8301.
+- **Status**: Inside Flower Shop (10_14). Dialogue finished.
+- **Plan**: Exit the shop and head North to Route 35/36.
+- **Reasoning**: The girl didn't give the bottle. This confirms I need to find her sister Floria at Route 36 (by the Sudowoodo) first.
+- **Timestamp**: Turn 8302.
 
 ### Key Locations
 - **Sister's House**: (29, 5).
