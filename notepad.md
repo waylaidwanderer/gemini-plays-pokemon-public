@@ -11,11 +11,16 @@
     3.Systematically explore North from there, hugging the West edge.
 
 ### Navigation Notes
-- **Location**: Goldenrod Underground (Map 3_54).
-- **Goal**: Reach the North Exit (leads to Goldenrod City North).
-- **Status**: Exploring the South-West corner (around x=5, y=25).
-- **Observation**: West Tunnel (x<10) is a dead end at Row 21 (Solid Wall).
-- **Plan**: Investigate the door/mat at (5, 25). If that fails, check the East side (x>10).
+- **Location**: Goldenrod Underground (Map 3_53).
+- **Goal**: Reach the North Exit at (3, 2).
+- **Status**: Re-entered the main tunnel. Heading North.
+- **Connection**: Exiting at (3, 2) leads to Goldenrod City North (likely around x=9, y=6), bypassing the surface blockages.
+- **History**: Visited previously (Turns 7374-8104).
+
+### Map Structure
+- **3_54**: Southern Entrance Hall.
+- **3_53**: Main Underground Tunnel. Contains Haircut Brothers, Trainers, etc.
+- **Exit**: Top of the map (Row 2).
 
 ### Map Structure
 - **Goldenrod Underground**: Connects South (y=29 on surface) to North (y=6 on surface).
