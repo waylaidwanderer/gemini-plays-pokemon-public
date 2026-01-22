@@ -53,7 +53,7 @@
 - **Timestamp**: Turn 8355.
 - **Reasoning**: The city is divided by vertical walls. The only reliable crossover point seems to be the very bottom (Row 35).
 - **Timestamp**: Turn 8337.
-- **Status**: Goldenrod Dept Store 1F (11_11). Heading to Escalator.
-- **Action**: Moving Right to wall, then Up to 2F Escalator.
-- **Goal**: Buy Poké Balls on 2F.
+- **Status**: Goldenrod Dept Store 2F (11_12). Arrived via Escalator.
+- **Action**: Locating Clerk to buy Poké Balls.
+- **Goal**: Buy Standard Poké Balls.
 - **Next**: Find Sister at Route 36.
