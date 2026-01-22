@@ -38,8 +38,10 @@
 - **Status**: Moving North, bypassing sprites at (3, 27).
 - **Navigation**: Using East wall (Column 4) to avoid obstacles in center.
 ### Navigation Update (Turn 8998)
-- **Location**: Goldenrod City (North).
+- **Location**: Goldenrod City (North-West).
 - **Goal**: Reach Route 35 Gatehouse.
-- **Tactics**: Currently at (19, 9) near Flower Shop. Row 9 appears to be a clear East-West corridor.
-- **Next Step**: Move West to x=10-14 -> Head North to find the Gatehouse exit.
-- **Hypothesis**: The Gatehouse is centrally located at the north edge of the map.
+- **Tactics**: Row 5 (Buildings) blocks North movement from x=2 to x=17.
+- **Hypothesis**: The path North is either:
+    1. Through the door at (9, 5) (Game Corner?).
+    2. Along the West edge (Train Tracks).
+- **Plan**: Move West to x=4 -> Check path North along the tracks.
