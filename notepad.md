@@ -39,7 +39,7 @@
 - **Navigation**: Using East wall (Column 4) to avoid obstacles in center.
 ### Navigation Update (Turn 8998)
 - **Location**: Goldenrod City (East Side).
-- **Goal**: Explore East Alley (Column 24).
-- **Tactics**: Blocked at (23, 25). Looping South to Row 28 to cross East.
-- **Next Step**: Go South -> East -> North up the alley.
-- **Hypothesis**: The East Alley leads to the open area behind the Radio Tower.
+- **Goal**: Follow the narrow corridor at Row 22 West.
+- **Tactics**: Wall at Row 21, Planters at Row 23. Path is West.
+- **Next Step**: Go West along Row 22.
+- **Hypothesis**: This corridor connects back to the main street or bypasses the blockade.
