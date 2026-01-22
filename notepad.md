@@ -3,10 +3,10 @@
 
 ### Navigation Notes
 - **Strategy**: Underground Re-Do.
-- **Status**: Inside Magnet Train Station (11_7). Dead End.
-- **Plan**: Exit Station. Head West to investigate the Radio Tower (Black Building). Find path North to Route 35.
-- **Reasoning**: Magnet Train is not the way. The "Rude Tourist" mentioned the Radio Tower, implying it's the building to the West. The exit to Route 35 must be past it.
-- **Timestamp**: Turn 8222.
+- **Status**: Goldenrod City (11_2). Outside Magnet Train Station (9, 13).
+- **Plan**: Head West to the Radio Tower (Entrance approx 5, 15).
+- **Reasoning**: The Magnet Train Station was a dead end. The Radio Tower is the large black building to the West. Route 35 should be accessible past it or via the main avenue.
+- **Timestamp**: Turn 8223.
 
 ### Key Locations
 - **Sister's House**: (29, 5).
