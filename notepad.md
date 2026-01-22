@@ -53,8 +53,8 @@
 - **Timestamp**: Turn 8355.
 - **Reasoning**: The city is divided by vertical walls. The only reliable crossover point seems to be the very bottom (Row 35).
 - **Timestamp**: Turn 8337.
-- **Status**: Goldenrod Underground (3_53) at (2, 26). Moving North through Corridor.
-- **Action**: Moving Up into unexplored area.
-- **Goal**: Connect South section to North section and exit at (3, 2).
-- **Note**: Bypassed Haircut Brother. Approaching potential trainers in the middle section.
-- **Next**: Continue North to Exit.
+- **Status**: Goldenrod Underground (3_53) at (2, 26). Correction: Wall Ahead.
+- **Action**: Moving Right to Main Corridor (x=3), then North.
+- **Goal**: Reach North Exit (3, 2).
+- **Correction**: (2, 25) is a wall. Must realign to x=3.
+- **Next**: Right -> Up towards Exit.
