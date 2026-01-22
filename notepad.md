@@ -3,10 +3,10 @@
 
 ### Navigation Notes
 - **Strategy**: Underground Re-Do.
-- **Status**: Goldenrod City (11_2) at (19, 2). Stuck in Joey's call.
-- **Plan**: clear the dialogue, then enter the building at (19, 1).
-- **Reasoning**: Joey is rambling about not catching a wild Pokemon or something.
-- **Timestamp**: Turn 8270.
+- **Status**: Goldenrod City (11_2) at (19, 1). Entering building.
+- **Plan**: Inspect the interior. If it's the Flower Shop, ask about the SquirtBottle. If it's a Gatehouse, proceed to Route 35.
+- **Reasoning**: Joey finally hung up. The path forward is through this door.
+- **Timestamp**: Turn 8272.
 
 ### Key Locations
 - **Sister's House**: (29, 5).
