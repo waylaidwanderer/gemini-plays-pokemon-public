@@ -38,7 +38,7 @@
 - **Status**: Moving North, bypassing sprites at (3, 27).
 - **Navigation**: Using East wall (Column 4) to avoid obstacles in center.
 ### Navigation Update (Turn 8998)
-- **Fact**: North Exit (3, 2) -> East Side (21, 25).
-- **Fact**: North Exits (2, 2) and (4, 2) are NOT warps.
-- **Hypothesis**: The Main Street exit is at the South End of the tunnel, likely at (4, 34) or (2, 34).
-- **Plan**: Go South. Avoid (3, 34) (leads to Enclosed Area). Check (2, 34) and (4, 34).
+- **Fact**: South Exit (3, 34) -> West Side Enclosed Area (Dead End).
+- **Hypothesis**: The Main Street connection is at the South End, possibly (4, 34) or (2, 34).
+- **Plan**: Test (4, 34) first. If no warp, try (2, 34).
+- **Contingency**: If both fail, the "Enclosed Area" might be the only way out, meaning I missed a path there.
