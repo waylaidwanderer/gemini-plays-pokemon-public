@@ -3,9 +3,9 @@
 
 ### Navigation Notes
 - **Strategy**: Underground Re-Do.
-- **Status**: Inside Flower Shop (10_14). Testing for "Softlock".
-- **Plan**: Attempt to move Down to (4, 3).
-- **Reasoning**: The dialogue text "there were 150 different kinds" has persisted for 5 turns despite input. I need to verify if I am actually locked in dialogue or if the text box is a visual glitch/finished. If I can move, I will talk to the Girl.
+- **Status**: Inside Flower Shop (10_14). Dialogue with Lady.
+- **Plan**: Continue pressing A to advance text.
+- **Reasoning**: The text "there are in the world." is on screen with a prompt arrow. The conversation is proceeding, just slowly.
 - **Timestamp**: Turn 8292.
 
 ### Key Locations
