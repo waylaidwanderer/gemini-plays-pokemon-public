@@ -18,7 +18,8 @@
     - **Flower Shop**: Entrance at (19, 1).
     - **Name Rater**: Entrance at (15, 7).
     - **Radio Tower**: Entrance area around (5, 15).
-    - **Underground Entrances**: North (9, 5), South-West (11, 29).
+    - **Underground Entrances**: North Stairs at (21, 25), South-West at (11, 29).
+    - **Department Store**: Entrance at (20-21, 29).
 - **Pathing**:
     - East Side (x>16): Dead ends / Cul-de-sacs.
     - Center (x=16): Blocked by Name Rater's House.
