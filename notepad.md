@@ -13,9 +13,10 @@
 ### Navigation Notes
 - **Location**: Goldenrod City (South of Tracks).
 - **Goal**: Reach Underground Entrance (South) at (11, 29).
-- **Status**: Heading East to loop around the Game Corner building.
-- **Reasoning**: The tracks at y=13 and the buildings at y=18-20 block direct North/South movement in the center. The Underground is the confirmed way to cross the tracks.
-- **Plan**: Go to x=18, head South to y=22, then West to x=11, then South to y=29.
+- **Status**: Backtracking East to x=18 to bypass the ledge/wall at y=24.
+- **Correction**: The "Ledge" at y=24 (x=11 to x=16) is impassable Southbound.
+- **Path**: Loop East to x=18, then South to y=29, then West to x=11.
+- **Underground Entrance**: Confirmed at (11, 29). likely need to enter from South (y=30).
 
 ### Map Structure
 - **Tracks**: Run East-West around y=13.
