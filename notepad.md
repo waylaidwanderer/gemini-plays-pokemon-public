@@ -6,20 +6,18 @@
 2. **Get SquirtBottle**: Return to Flower Shop (19, 1) after finding Floria.
 3. **Clear Sudowoodo**: Use SquirtBottle on Route 36.
 
-### Navigation Status: Goldenrod City North
-- **Goal**: Reach Route 35 Gatehouse (North Exit).
-- **Current Strategy**: Taking the East Side path (Column 18) to bypass the wall at (16, 4).
+### Navigation Status: Goldenrod City (Puzzle)
+- **Goal**: Reach Route 35 (North).
+- **Problem**: Main path blocked at (16, 4). East Path blocked at (32, 6) and (35, x).
+- **Hypothesis**:
+    1. **Sister's House (29, 5)**: Might have a back exit or be the key.
+    2. **East Gap (32-37)**: Visible gap in Row 4, but access from South blocked at Row 11 & Row 6.
+    3. **Route 34 Loop**: Might need to exit South and re-enter on the East side.
+- **Immediate Plan**: Navigate to Sister's House (29, 6) to inspect.
 - **Recent Discoveries**:
-    - **Wall at (16, 4)**: Blocks the direct Main Street path north.
-    - **Path Found**: Route exists via (18, 8) -> (18, 5).
-    - **Underground Entrance (North)**: Located at (9, 5). NOT the Gatehouse.
-    - **Flower Shop**: Entrance at (19, 1).
-    - **Name Rater**: Entrance at (15, 7).
-    - **Gym**: Entrance at (24, 7).
-- **Dead Ends Confirmed**:
-    - **West (Tracks)**: Blocked at (5, 9).
-    - **East (Flower Shop Area)**: Planters block access to the road from the shop entrance.
-    - **Underground Tunnel**: Exits lead to isolated pockets (West (11, 29) or East (21, 25)).
+    - Row 4 is a massive wall with gaps at 18-21 (Flower Shop) and 32-37 (East).
+    - Column 29 leads to Sister's House but seemingly dead-ends.
+    - Column 36 is isolated by Column 35 walls.
 
 ### Verified Locations
 - **Goldenrod City**:
