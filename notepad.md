@@ -53,7 +53,7 @@
 - **Timestamp**: Turn 8355.
 - **Reasoning**: The city is divided by vertical walls. The only reliable crossover point seems to be the very bottom (Row 35).
 - **Timestamp**: Turn 8337.
-- **Status**: Goldenrod City (11_2). Moving to Main Street.
-- **Action**: Moving Left to x=16, then North.
+- **Status**: Goldenrod City (11_2). Moving North along Main Street.
+- **Action**: Moving Up to (16, 23).
 - **Goal**: Reach Route 35 Gatehouse (North).
-- **Next**: Head North along the main road to the gate.
+- **Next**: Continue North to Exit.
