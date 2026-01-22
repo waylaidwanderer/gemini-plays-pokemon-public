@@ -38,10 +38,12 @@
 - **Status**: Moving North, bypassing sprites at (3, 27).
 - **Navigation**: Using East wall (Column 4) to avoid obstacles in center.
 ### Navigation Update (Turn 8998)
-- **Location**: Goldenrod City (East Side Surface).
-- **Goal**: Reach Center Goldenrod (x=9, y=6).
-- **Tactics**: East Side (x>16) is isolated. Returning to Underground.
-- **Hypothesis**: The Underground North Exit has two destinations.
-    - Exiting at (3, 2) -> East Side (21, 25).
-    - Exiting at (4, 2) -> Center (9, 6).
-- **Next Step**: Enter at (21, 25) -> In Tunnel, move to x=4 -> Exit North.
+- **Location**: Underground Tunnel (North Exit).
+- **Goal**: Exit to Goldenrod Center (Main St).
+- **Tactics**: Testing Exit Variance.
+    - Left Tile (3, 2) -> East Alley (Dead End).
+    - Right Tile (4, 2) -> Main Street (Hypothesis).
+- **Confirmed Dead Ends**:
+    - East Side (x>16): Blocked by Planters/Walls.
+    - West Side (x<6): Blocked by Walls/Tracks.
+    - Center (x=16): Blocked by Name Rater's House? (Need to re-verify).
