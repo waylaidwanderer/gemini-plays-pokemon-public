@@ -3,10 +3,10 @@
 
 ### Navigation Notes
 - **Strategy**: Underground Re-Do.
-- **Status**: Inside Flower Shop (10_14). Dialogue with Lady.
-- **Plan**: Continue pressing A to finish the story.
-- **Reasoning**: She is still talking about the 150 Pokemon from 3 years ago.
-- **Timestamp**: Turn 8281.
+- **Status**: Inside Flower Shop (10_14).
+- **Plan**: Break potential dialogue loop and talk to the Flower Shop Girl at (6, 4).
+- **Reasoning**: The Lady is repeating the Professor Oak story. I may need to speak to the Girl first or simply reset the interaction to get the SquirtBottle.
+- **Timestamp**: Turn 8287.
 
 ### Key Locations
 - **Sister's House**: (29, 5).
