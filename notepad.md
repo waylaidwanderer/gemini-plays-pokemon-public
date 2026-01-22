@@ -4,12 +4,9 @@
 ### Navigation Notes
 - **Goal**: Reach Goldenrod City West Side (Main Road).
 - **Strategy**: Flank via Route 34.
-- **Status**: Route 34 (11_1) at (13, 34). North of Gatehouse (East Side).
-- **Correction**: I am North of the Gatehouse, not South. The door at (13, 37) leads South into the Gatehouse.
-- **Plan**: 
-    1. Enter Gatehouse (South).
-    2. Inside, move Left to the West side.
-    3. Exit North via the West door.
+- **Status**: Route 34 (11_1) at (13, 37). Just exited Gatehouse (East Side).
+- **Action**: Re-entering Gatehouse to cross to the West exit.
+- **Goal**: Reach Goldenrod West Side via Route 34 West path.
 - **Reasoning**: I need to cross from East to West inside the Gatehouse to reach the main road.
 - **Timestamp**: Turn 8381.
 
