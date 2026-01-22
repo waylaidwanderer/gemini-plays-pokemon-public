@@ -3,10 +3,10 @@
 
 ### Navigation Notes
 - **Strategy**: Underground Re-Do.
-- **Status**: Goldenrod City (11_2) at (19, 2). Completing Joey's call.
-- **Plan**: Press A to finish the dialogue, then enter the building at (19, 1).
-- **Reasoning**: Joey is still talking. "Raring to go, just like always."
-- **Timestamp**: Turn 8267.
+- **Status**: Goldenrod City (11_2) at (19, 2). Finalizing Joey's call.
+- **Plan**: Press A to close the call, then enter the building at (19, 1).
+- **Reasoning**: Joey is finishing his pep talk.
+- **Timestamp**: Turn 8269.
 
 ### Key Locations
 - **Sister's House**: (29, 5).
