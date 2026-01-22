@@ -53,8 +53,8 @@
 - **Timestamp**: Turn 8355.
 - **Reasoning**: The city is divided by vertical walls. The only reliable crossover point seems to be the very bottom (Row 35).
 - **Timestamp**: Turn 8337.
-- **Status**: Goldenrod Dept Store 2F (11_12). Navigating to Clerk.
-- **Action**: Moving to the left counter (6, 2) to buy items.
+- **Status**: Goldenrod Dept Store 2F (11_12). Searching for Clerk.
+- **Action**: Talking to NPC at (8, 2) to check if she is a clerk or customer.
 - **Goal**: Buy Standard Poké Balls.
-- **Note**: NPC at (8, 2) is blocking the right counter.
-- **Next**: Find Sister at Route 36.
+- **Hypothesis**: "Shelves" at y=1 might be merchandise displays. Clerk might be behind the NPC or elsewhere.
+- **Next**: If NPC is customer, search Bottom Left or Top Right.
