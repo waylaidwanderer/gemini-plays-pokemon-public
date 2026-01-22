@@ -53,7 +53,7 @@
 - **Timestamp**: Turn 8355.
 - **Reasoning**: The city is divided by vertical walls. The only reliable crossover point seems to be the very bottom (Row 35).
 - **Timestamp**: Turn 8337.
-- **Status**: Route 34 (11_1). Approaching Goldenrod City entrance.
-- **Action**: Moving North to cross the map border (Row 0).
-- **Goal**: Enter Goldenrod City and heal/restock.
-- **Note**: Daycare passed. Route clear.
+- **Status**: Arriving in Goldenrod City (South Entrance).
+- **Goal**: Reach Department Store to buy Poké Balls.
+- **Next**: Head North through the city to the Department Store.
+- **Note**: Route 34 cleared. Officer Keith defeated.
