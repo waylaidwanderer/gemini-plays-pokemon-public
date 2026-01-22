@@ -11,15 +11,14 @@
     3.Systematically explore North from there, hugging the West edge.
 
 ### Navigation Notes
-- **Location**: Goldenrod City (Central).
-- **Goal**: Reach Radio Tower (South-West).
-- **Status**: Wall at Row 10 (x=6-12) blocks direct South path.
-- **Correction**: Must route East to the gap at x=14, then South to Tracks Crossing (18, 14), then West to Radio Tower.
-- **Plan**: 
-    1. Navigate to East Crossing (18, 14).
-    2. Cross Tracks.
-    3. Navigate West to Radio Tower (5, 15).
-    4. Investigate NPC at (4, 16).
+- **Location**: Goldenrod City (Central -> South).
+- **Goal**: Reach Far West Side (North of Tracks).
+- **Status**: Heading to East Crossing (18, 14) to cross to the South Side.
+- **Reasoning**: The North-Central area is walled off. The West side (x=6) was a dead end. I must loop South to the Radio Tower area and check for a Far West crossing or path (x=0-4).
+- **Plan**:
+    1. Cross Tracks at (18, 14).
+    2. Travel West to Radio Tower (5, 15).
+    3. Search for a path North along the extreme West edge (x=0).
 
 ### Quest Chain: SquirtBottle
 1. **Defeat Whitney**: Done (Plain Badge obtained).
@@ -27,6 +26,6 @@
 3. **Get Bottle**: Return to Flower Shop after meeting Floria.
 
 ### Key Locations
-- **Game Corner**: (9, 5).
-- **Radio Tower**: (5, 15).
 - **East Crossing**: (18, 14).
+- **Radio Tower**: (5, 15).
+- **Target Area**: Far West (x=0, y<10).
