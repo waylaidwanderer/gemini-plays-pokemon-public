@@ -38,8 +38,8 @@
 - **Status**: Moving North, bypassing sprites at (3, 27).
 - **Navigation**: Using East wall (Column 4) to avoid obstacles in center.
 ### Navigation Update (Turn 8998)
-- **Location**: Underground Tunnel (North End).
-- **Goal**: Exit at South End (to West Goldenrod).
-- **Tactics**: Traversing tunnel South.
-- **Next Step**: Go South to Row 35.
-- **Hypothesis**: Exiting South places me at (11, 29) on Main Street.
+- **Location**: Underground Tunnel (South End).
+- **Goal**: Exit to Goldenrod City (West Side).
+- **Tactics**: Entering warp at (3, 35).
+- **Next Step**: Exit building -> Head North past Radio Tower.
+- **Hypothesis**: The West side of the city offers a path to Route 35/36.
