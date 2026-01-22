@@ -3,10 +3,10 @@
 
 ### Navigation Notes
 - **Strategy**: Underground Re-Do.
-- **Status**: Inside Flower Shop (10_14). Dialogue with Girl.
-- **Plan**: Advance text to see if she gives the SquirtBottle.
-- **Reasoning**: She mentions the tree. I need to know if I need to do more steps (like finding her sister) or if she gives me the item now.
-- **Timestamp**: Turn 8300.
+- **Status**: Inside Flower Shop (10_14). Dialogue with Girl about the Tree.
+- **Plan**: Advance text. If she doesn't give the bottle, I must go to Route 36 to find her sister.
+- **Reasoning**: She is confirming the tree blockage. If she doesn't hand over the SquirtBottle immediately, it means I haven't triggered the "Sister Found" flag yet.
+- **Timestamp**: Turn 8301.
 
 ### Key Locations
 - **Sister's House**: (29, 5).
