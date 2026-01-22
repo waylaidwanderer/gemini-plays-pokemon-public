@@ -38,8 +38,8 @@
 - **Status**: Moving North, bypassing sprites at (3, 27).
 - **Navigation**: Using East wall (Column 4) to avoid obstacles in center.
 ### Navigation Update (Turn 8998)
-- **Location**: Goldenrod City (West Alley).
-- **Goal**: Rejoin Main Street (Center).
-- **Tactics**: Row 21 is a solid wall. Row 22 is blocked at x=9.
-- **Next Step**: Move South to Row 23 -> East past x=9 -> North on Main Street.
-- **Hypothesis**: The path to Route 35 is via the main road (x=15), navigating around the Name Rater's house.
+- **Location**: Goldenrod City (West Side Surface).
+- **Goal**: Return to Main Street via Underground.
+- **Tactics**: West Side confirmed isolated. Returning to Underground Entrance at (5, 25).
+- **Next Step**: Enter Underground -> Go to North Exit (3, 2) -> Exit to East Side -> Go West to Main Street.
+- **Hypothesis**: The path to Route 35 is North along the Main Street (x=15), accessed from the East side.
