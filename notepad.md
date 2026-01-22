@@ -3,10 +3,10 @@
 
 ### Navigation Notes
 - **Strategy**: Underground Re-Do.
-- **Status**: Inside Flower Shop (10_14). Talking to Flower Shop Girl (6, 3).
-- **Plan**: Get the SquirtBottle.
-- **Reasoning**: I have the Plain Badge. The girl should give me the item needed to clear the Sudowoodo.
-- **Timestamp**: Turn 8299.
+- **Status**: Inside Flower Shop (10_14). Dialogue with Girl.
+- **Plan**: Advance text to see if she gives the SquirtBottle.
+- **Reasoning**: She mentions the tree. I need to know if I need to do more steps (like finding her sister) or if she gives me the item now.
+- **Timestamp**: Turn 8300.
 
 ### Key Locations
 - **Sister's House**: (29, 5).
