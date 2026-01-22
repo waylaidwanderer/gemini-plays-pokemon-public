@@ -36,12 +36,8 @@
 - Note: Sandbox is down. Manual navigation active.
 - **Transition**: Goldenrod (18, 35) connects to Route 34 (8, 0).
 - **Plan**: Move West in Route 34 to finding the Tracks entrance (likely x=4 or lower).
-- **Status**: Goldenrod City (11_2). Trapped in Central Courtyard (x=11, y=19). Blocked South.
-- **Correction**: The Underground Entrance (11, 29) is walled off from this courtyard.
-- **Plan**: 
-    1. Exit courtyard: Go North to Row 17, then East to Main Street (x=18).
-    2. Go South to the Route 34 Gate (Row 35).
-    3. Traverse West along the map edge (or dip into Route 34) to reach the West side (Column 8).
-    4. Head North to the Underground Entrance.
+- **Status**: Goldenrod City (11_2). On Main Street (Column 19). Heading South.
+- **Plan**: Go South to Row 35, then West to reach the West Side and the Underground Entrance.
+- **Reasoning**: The center of the city is blocked by walls. The only way to the West side (and the Underground) is via the bottom edge.
 - **Reasoning**: The city is divided by vertical walls. The only reliable crossover point seems to be the very bottom (Row 35).
 - **Timestamp**: Turn 8337.
