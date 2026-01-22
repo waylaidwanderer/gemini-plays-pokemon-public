@@ -53,7 +53,7 @@
 - **Timestamp**: Turn 8355.
 - **Reasoning**: The city is divided by vertical walls. The only reliable crossover point seems to be the very bottom (Row 35).
 - **Timestamp**: Turn 8337.
-- **Status**: Goldenrod Dept Store 2F (11_12). Interacting with Bottom Clerk.
-- **Action**: Selecting "BUY" to check inventory.
-- **Goal**: Buy Standard Poké Balls.
-- **Next**: Purchase 10 Poké Balls if available. Then find Sister at Route 36.
+- **Status**: Goldenrod Dept Store 2F (11_12). Selecting Quantity.
+- **Action**: Selecting "POKé BALL" and choosing quantity.
+- **Goal**: Buy 10 Poké Balls (¥2000).
+- **Next**: Confirm purchase, then exit store to Route 36.
