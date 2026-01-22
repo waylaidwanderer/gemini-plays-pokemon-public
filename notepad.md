@@ -8,16 +8,14 @@
 
 ### Navigation Status: Goldenrod City (Puzzle)
 - **Goal**: Reach Route 35 (North).
-- **Problem**: Main path blocked at (16, 4). East Path blocked at (32, 6) and (35, x).
+- **Problem**: Main path blocked at (16, 4). East Path blocked at (32, 6) by fence.
+- **Verified Dead Ends**:
+    - **Sister's House Area (29, 5)**: Blocked.
+    - **Alcove (31, 6)**: Blocked by fence.
 - **Hypothesis**:
-    1. **Sister's House (29, 5)**: Might have a back exit or be the key.
-    2. **East Gap (32-37)**: Visible gap in Row 4, but access from South blocked at Row 11 & Row 6.
-    3. **Route 34 Loop**: Might need to exit South and re-enter on the East side.
-- **Immediate Plan**: Navigate to Sister's House (29, 6) to inspect.
-- **Recent Discoveries**:
-    - Row 4 is a massive wall with gaps at 18-21 (Flower Shop) and 32-37 (East).
-    - Column 29 leads to Sister's House but seemingly dead-ends.
-    - Column 36 is isolated by Column 35 walls.
+    1. **East House (33, 9)**: Might be a passage. Access from South via (33, 10).
+    2. **Route 34 Loop**: Might need to exit South and re-enter on the East side?
+- **Immediate Plan**: Enter East House (33, 9).
 
 ### Verified Locations
 - **Goldenrod City**:
