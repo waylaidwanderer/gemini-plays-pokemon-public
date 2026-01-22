@@ -3,9 +3,9 @@
 
 ### Navigation Notes
 - **Location**: Goldenrod City (Central).
-- **Goal**: Access North Goldenrod.
-- **Action**: Cutting Tree at (9, 22).
-- **Next**: Head North to Flower Shop (19, 1) and Gym (24, 7).
+- **Goal**: Obtain SquirtBottle at Flower Shop (19, 1).
+- **Status**: Tree at (9, 22) Cut. Path Open.
+- **Next**: Move East to Main Street, then North to Flower Shop.
 
 ### Resource Alert
 - **Pokeballs**: 10 Poké Balls, 1 Lure Ball.
