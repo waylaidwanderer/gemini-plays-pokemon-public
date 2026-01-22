@@ -3,10 +3,10 @@
 
 ### Navigation Notes
 - **Strategy**: Underground Re-Do.
-- **Status**: In Underground Tunnel (3_53). Moving North.
-- **Plan**: Navigate past trainers to North Exit (approx 3, 2).
-- **Reasoning**: Current path blocked by trainer at (3, 27). Need to side-step and continue North.
-- **Timestamp**: Turn 8241.
+- **Status**: In Underground Tunnel (3_53). Passed trainer at (3, 27). Moving North.
+- **Plan**: Continue North along the main path (Column 3) to the exit at (3, 2).
+- **Reasoning**: Successfully bypassed the first trainer. Path ahead seems clear for now.
+- **Timestamp**: Turn 8243.
 
 ### Key Locations
 - **Sister's House**: (29, 5).
