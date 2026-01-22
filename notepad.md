@@ -33,5 +33,7 @@
 3. **Get Bottle**: Return to Flower Shop (19, 1).
 4. **Sudowoodo**: Use Bottle to clear path.
 - **Progress**: Successfully crossed to West Goldenrod via Underground!
-- **Current Location**: Goldenrod City (West Side), near (5, 25).
-- **Next Step**: Head North along the West side to bypass the Radio Tower blockade and reach Route 35.
+- **Current Location**: Enclosed area behind Pokemon Center (West Goldenrod).
+- **Status**: Area appears isolated. Exits are Underground (5, 25) and Pokemon Center (4-5, 29).
+- **Plan**: Enter Pokemon Center via back/side door (?) to reach Main Street.
+- **Route**: Head South to (5, 29).
