@@ -41,6 +41,8 @@
 - **Fact**: The Underground Tunnel (3_53) has multiple exits.
     - North (3, 2) -> East Side Alley (3_54).
     - South (3, 34) -> West Side Backyard (3_54).
-- **Hypothesis**: There is a THIRD exit at the South End leading to the Main Street (Entrance Hall).
-- **Plan**: Test tiles (4, 34), (2, 34), and Row 35.
-- **Goal**: Find the warp to the Main Street Entrance.
+- **Hypothesis**: The Main Street connection is a separate tile, or the "Backyard" has an exit I missed.
+- **Plan**:
+    1. Test Row 35 tiles: (2, 35), (3, 35), (4, 35).
+    2. If no warp, return to West Side Backyard via (3, 34).
+    3. thoroughly inspect Backyard for a way out (Fence gaps, doors, cuttable trees?).
