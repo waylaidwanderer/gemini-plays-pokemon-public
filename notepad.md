@@ -11,17 +11,18 @@
     3.Systematically explore North from there, hugging the West edge.
 
 ### Navigation Notes
-- **Location**: Goldenrod City (South of Tracks).
-- **Goal**: Reach Underground Entrance (South) at (11, 29).
-- **Status**: Backtracking East to x=18 to bypass the ledge/wall at y=24.
-- **Correction**: The "Ledge" at y=24 (x=11 to x=16) is impassable Southbound.
-- **Path**: Loop East to x=18, then South to y=29, then West to x=11.
-- **Underground Entrance**: Confirmed at (11, 29). likely need to enter from South (y=30).
+- **Location**: Goldenrod Underground (Map 3_54).
+- **Goal**: Reach the North Exit (leads to Goldenrod City North).
+- **Status**: Just entered from the South (Goldenrod South x=11, y=29).
+- **Plan**: Travel North through the tunnel to exit at the other end.
+- **Surface Obstacles**: The "Main Street" on the surface was blocked, and the tracks were impassable. This tunnel bypasses both.
 
 ### Map Structure
-- **Tracks**: Run East-West around y=13.
-- **Gym**: Likely the building at (24, 7).
-- **Flower Shop**: North-East cul-de-sac.
+- **Goldenrod Underground**: Connects South (y=29 on surface) to North (y=6 on surface).
+- **Goldenrod Surface**:
+    - **Tracks**: Run East-West around y=13.
+    - **Gym**: Likely the building at (24, 7).
+    - **Flower Shop**: North-East cul-de-sac.
 - **Barriers**: Row 5 seems to be a significant barrier.
 - **Anomalies**: `TYPE_2889` is both path and wall. visual confirmation required.
 
