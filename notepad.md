@@ -11,16 +11,21 @@
     3.Systematically explore North from there, hugging the West edge.
 
 ### Navigation Notes
-- **Location**: Goldenrod Underground (Map 3_53).
-- **Goal**: Reach the North Exit at (3, 2).
-- **Status**: Re-entered the main tunnel. Heading North.
-- **Connection**: Exiting at (3, 2) leads to Goldenrod City North (likely around x=9, y=6), bypassing the surface blockages.
-- **History**: Visited previously (Turns 7374-8104).
+- **Location**: Goldenrod Underground Entrance (North Side) - Map 3_54.
+- **Goal**: Exit to Goldenrod City North.
+- **Status**: Just finished traversing the Underground Tunnel.
+- **Next Step**: Exit building, find Floria (Sister) at Route 36.
+- **Context**: The Underground bypassed the surface blockages. I should now be on the North side of the city.
 
 ### Map Structure
-- **3_54**: Southern Entrance Hall.
-- **3_53**: Main Underground Tunnel. Contains Haircut Brothers, Trainers, etc.
-- **Exit**: Top of the map (Row 2).
+- **3_54 (South)**: x=4, y=29 (Connects to South Goldenrod).
+- **3_53**: Main Tunnel (Connects North/South).
+- **3_54 (North)**: x=21, y=29 (Connects to North Goldenrod).
+
+### Quest Chain: SquirtBottle
+1. **Defeat Whitney**: Done.
+2. **Find Floria**: Check Route 36 (North of Goldenrod).
+3. **Get Bottle**: Return to Flower Shop.
 
 ### Map Structure
 - **Goldenrod Underground**: Connects South (y=29 on surface) to North (y=6 on surface).
