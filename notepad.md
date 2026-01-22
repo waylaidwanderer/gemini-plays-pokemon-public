@@ -38,8 +38,8 @@
 - **Status**: Moving North, bypassing sprites at (3, 27).
 - **Navigation**: Using East wall (Column 4) to avoid obstacles in center.
 ### Navigation Update (Turn 8998)
-- **Location**: Goldenrod City (East Alley Dead End).
-- **Goal**: Reach Route 35 Gatehouse (North).
-- **Tactics**: East Alley blocked at (15, 22). Returning to South Main Street.
-- **Next Step**: Go South to Row 29 -> West to Main Street -> North.
-- **Hypothesis**: The Main Street is clear up to the Gatehouse. The blockage is on Route 36.
+- **Location**: Goldenrod City (East Side Dead End).
+- **Goal**: Return to Main Street (West).
+- **Tactics**: East Side confirmed isolated. Returning to Underground.
+- **Next Step**: Enter Underground at (21, 25) -> Exit at (11, 29).
+- **Hypothesis**: Main Street leads to Route 35 Gatehouse. Blockage is further North.
