@@ -3,10 +3,10 @@
 
 ### Navigation Notes
 - **Strategy**: Underground Re-Do.
-- **Status**: Goldenrod City (3_54) at (16, 22). Blocked North/West.
-- **Plan**: Search East for a path North to Route 35.
-- **Reasoning**: Encountered a solid wall at Row 21 and a building to the West. The path North must be elsewhere, likely East or South-around.
-- **Timestamp**: Turn 8252.
+- **Status**: Goldenrod City (3_54) at (21, 22). Stuck in 'Back Alley'.
+- **Plan**: Move East to see if the path wraps around.
+- **Reasoning**: West is blocked by a long wall (Column 15). North is blocked by a building (Row 21). The only open direction is East or South.
+- **Timestamp**: Turn 8254.
 
 ### Key Locations
 - **Sister's House**: (29, 5).
