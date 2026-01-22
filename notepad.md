@@ -3,9 +3,9 @@
 
 ### Navigation Notes
 - **Strategy**: Underground Re-Do.
-- **Correction**: x=6 (Central) is blocked by Officer at (6, 15). x=3 (Tracks) is a dead end. Main Road is a dead end.
-- **Plan**: Go East to Main Road -> South to Row 23 -> West to x=9 -> South to Row 29 -> Enter Underground (11, 29).
-- **Goal**: Reach North Exit (9, 6) and find path to Route 35.
+- **Status**: At Main Road (18, 17). Executing Underground Re-Do.
+- **Plan**: Go South to Row 23 -> West to x=9 -> South to Row 29 -> Enter Underground (11, 29).
+- **Reasoning**: Main Road x=18 is clear Southbound. Row 23 avoids the building at Row 20. x=9 leads to Underground.
 - **Timestamp**: Turn 8086.
 
 ### Key Locations
