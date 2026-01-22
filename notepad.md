@@ -3,10 +3,10 @@
 
 ### Navigation Notes
 - **Strategy**: Underground Re-Do.
-- **Status**: Inside Flower Shop (10_14).
-- **Plan**: Talk to the Flower Shop Lady at (3, 2) to get the SquirtBottle.
-- **Reasoning**: I have the Plain Badge. She should give me the item now.
-- **Timestamp**: Turn 8273.
+- **Status**: Inside Flower Shop (10_14). Dialogue with Lady.
+- **Plan**: Advance text to receive SquirtBottle.
+- **Reasoning**: Currently interacting with the Flower Shop Lady.
+- **Timestamp**: Turn 8274.
 
 ### Key Locations
 - **Sister's House**: (29, 5).
