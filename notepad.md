@@ -11,14 +11,11 @@
     3.Systematically explore North from there, hugging the West edge.
 
 ### Navigation Notes
-- **Location**: Goldenrod City (Tracks).
-- **Goal**: Reach Route 35 Gatehouse (North Exit).
-- **Status**: Relocating to West Side (Radio Tower area).
-- **Observation**: The "Main Street" at x=16 is blocked by a wall at y=7.
-- **Recall**: [Turn 8741] Discovered a narrow path at x=3 west of the Radio Tower, bypassing the NPC blocking the way at (4, 16).
-- **Plan**: Explore the "unseen" area in the North-West quadrant using the x=3 path.
-- **Hypothesis**: The path to the exit is the narrow alley on the far West side.
-- **Immediate Goal**: Move West along tracks to x=6, then head North to the Radio Tower.
+- **Location**: Goldenrod City (South of Tracks).
+- **Goal**: Reach Underground Entrance (South) at (11, 29).
+- **Status**: Heading East to loop around the Game Corner building.
+- **Reasoning**: The tracks at y=13 and the buildings at y=18-20 block direct North/South movement in the center. The Underground is the confirmed way to cross the tracks.
+- **Plan**: Go to x=18, head South to y=22, then West to x=11, then South to y=29.
 
 ### Map Structure
 - **Tracks**: Run East-West around y=13.
