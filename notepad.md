@@ -3,9 +3,9 @@
 
 ### Navigation Notes
 - **Strategy**: Underground Re-Do.
-- **Status**: Goldenrod City (3_54) at (21, 25).
-- **Plan**: Go North to Route 35.
-- **Reasoning**: Exited Underground at (21, 25) (East side). Need to navigate streets North.
+- **Status**: Goldenrod City (3_54). Moving to main street.
+- **Plan**: Move South to Row 28, West to Column 16, then North to Route 35.
+- **Reasoning**: Current alley is a dead end to the North. Path West is blocked by NPC at (19, 27). Must loop around South (Row 28) to access the main vertical road (Column 16/17).
 - **Timestamp**: Turn 8249.
 
 ### Key Locations
