@@ -14,9 +14,11 @@
 - **Location**: Goldenrod City (North of Tracks).
 - **Goal**: Reach Route 35 Gatehouse (North Exit).
 - **Status**: Exploring the area North of the Magnet Train tracks. Currently at (6, 8).
-- **Observation**: Row 5 is NOT a complete wall. There is a path gap at x=4 and x=5 (Yellow Bricks).
-- **Correction**: The "Wall" at x=5 was an assumption. The screenshot shows x=4 and x=5 are walkable paths.
-- **Plan**: Move West to x=4, then head North through the gap to reach Route 35.
+- **Observation**: Row 5 is blocked from x=5 to x=17.
+- **Correction**: x=4 and x=5 are WALLS (confirmed by collision).
+- **Plan**: The West path failed. The only remaining option is the path at x=16.
+- **Hypothesis**: The "Main Street" is at x=16. I likely navigated away from it too early.
+- **Goal**: Return to x=16 and head North to the map edge.
 
 ### Map Structure
 - **Tracks**: Run East-West around y=13.
