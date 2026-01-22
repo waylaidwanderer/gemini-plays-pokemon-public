@@ -9,7 +9,8 @@
 
 ### Navigation Notes
 - **Location**: Goldenrod City (North East).
-- **Goal**: Reach Route 35 Gatehouse.
+- **Goal**: Cross to West Side.
+- **Hypothesis**: Surface path blocked at Row 21. Must use Underground or find specific gap.
 ### Tile Mechanics
 - **Underground Walkable**: TYPE_3fe2, TYPE_8564, TYPE_63e2.
 - **City Walkable**: TYPE_3fe2, TYPE_8564, TYPE_ffbb.
@@ -17,7 +18,7 @@
     - **Flower Shop**: Entrance at (19, 1).
     - **Name Rater**: Entrance at (15, 7).
     - **Radio Tower**: Entrance area around (5, 15).
-    - **Underground Entrance (North)**: (9, 5).
+    - **Underground Entrances**: North (9, 5), South-West (11, 29).
 - **Pathing**:
     - East Side (x>16): Dead ends / Cul-de-sacs.
     - Center (x=16): Blocked by Name Rater's House.
