@@ -3,10 +3,11 @@
 
 ### Navigation Notes
 - **Location**: Goldenrod City (Central-West).
-- **Goal**: Find path to Main Street/North Goldenrod.
-- **Current Action**: Moving onto the cut tree tile at (9, 22).
-- **Observation**: x=10 appears to be a solid wall. x=9 might be a lane.
-- **Plan**: Inspect (9, 22). If blocked North/East, follow x=9 South or head to Row 35 to cross to Main Street.
+- **Goal**: Access North Goldenrod (Gym/Flower Shop).
+- **Barrier**: Row 21 appears to be a solid wall across the entire city.
+- **Hypothesis**: The "Cut Tree" at (9, 22) is the key. It likely grants access to a hidden path or door.
+- **Action**: Explicitly Cutting Tree at (9, 22) using the Menu to ensure success.
+- **Backup**: If tree is solid, inspect Row 21 wall for hidden doors (e.g. at x=4,5).
 
 ### Resource Alert
 - **Pokeballs**: 10 Poké Balls, 1 Lure Ball.
