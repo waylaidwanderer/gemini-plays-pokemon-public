@@ -1,11 +1,12 @@
 # Pokémon Crystal Playthrough
 - Started: Friday, January 16, 2026
 
-### Navigation Notes
-- **Location**: Goldenrod City (South-West).
-- **Goal**: Investigate alley behind houses (Column 9).
-- **Status**: Checking if I can walk around the tree at (9, 22).
-- **Hypothesis**: The path might be accessible from (8, 23) without Cutting.
+### Strategic Review (Turn 8617)
+- **Reflection**: 50 turns since last check. Progress in Goldenrod has been slow but thorough.
+- **Current Status**: At (9, 23), investigating a potentially cuttable tree at (9, 22).
+- **Hypothesis**: The tree is against a wall (9, 21), likely making it a dead end or a hidden item spot.
+- **Immediate Plan**: Attempt Cut once more via interaction. If it fails or reveals nothing, abandon and head North to Route 35.
+- **Primary Goal**: Reach Route 35/36 to find Floria.
 
 ### Resource Alert
 - **Pokeballs**: 10 Poké Balls, 1 Lure Ball.
