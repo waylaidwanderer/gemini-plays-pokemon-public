@@ -4,9 +4,9 @@
 ### Navigation Notes
 - **Strategy**: Underground Re-Do.
 - **Status**: Inside Flower Shop (10_14). Listening to Lady.
-- **Plan**: Advance dialogue.
-- **Reasoning**: Dialogue box is still open ("there were 150 different kinds"). Must finish conversation before moving.
-- **Timestamp**: Turn 8287.
+- **Plan**: Advance dialogue until SquirtBottle is received.
+- **Reasoning**: Still in the middle of the "150 kinds" story.
+- **Timestamp**: Turn 8288.
 
 ### Key Locations
 - **Sister's House**: (29, 5).
