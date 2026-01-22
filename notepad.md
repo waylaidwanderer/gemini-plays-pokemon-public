@@ -3,10 +3,10 @@
 
 ### Navigation Notes
 - **Strategy**: Underground Re-Do.
-- **Status**: Goldenrod City (3_54) at (21, 22). Stuck in 'Back Alley'.
-- **Plan**: Move East to see if the path wraps around.
-- **Reasoning**: West is blocked by a long wall (Column 15). North is blocked by a building (Row 21). The only open direction is East or South.
-- **Timestamp**: Turn 8254.
+- **Status**: At Underground North Exit (3_53).
+- **Plan**: Exit to Goldenrod City. Explore the "Back Alley" area thoroughly, specifically checking SOUTH of the exit for a path to the main streets.
+- **Reasoning**: Previous exploration of the North Exit area hit dead ends to the West and North. I missed checking South.
+- **Timestamp**: Turn 8256.
 
 ### Key Locations
 - **Sister's House**: (29, 5).
