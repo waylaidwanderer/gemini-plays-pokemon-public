@@ -53,7 +53,7 @@
 - **Timestamp**: Turn 8355.
 - **Reasoning**: The city is divided by vertical walls. The only reliable crossover point seems to be the very bottom (Row 35).
 - **Timestamp**: Turn 8337.
-- **Status**: Route 34 (11_1) at (9, 12). Facing Officer Keith.
-- **Action**: Engaging Officer Keith (Nighttime Trainer).
+- **Status**: Route 34 (11_1) at (9, 12). Battling Officer Keith.
+- **Action**: Using Mud-Slap (Super Effective).
 - **Goal**: Defeat Trainer, then enter Goldenrod City.
 - **Note**: Daycare Man is blocking the gate at (10, 13). Passed him on the left.
