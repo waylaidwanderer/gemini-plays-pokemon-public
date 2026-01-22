@@ -38,9 +38,9 @@
 - **Status**: Moving North, bypassing sprites at (3, 27).
 - **Navigation**: Using East wall (Column 4) to avoid obstacles in center.
 ### Navigation Update (Turn 8998)
-- **Observation**: Underground connects two isolated areas:
-    1. North Exit (3, 2) -> East Side (21, 25) (Dead End).
-    2. South Exit (3, 34) -> West Side (5, 25) (Enclosed).
-- **Hypothesis**: There is a THIRD exit in the Underground leading to the Main Street.
-- **Plan**: Check the **South-East** corner of the Underground (Columns 4-5, Row 34+).
-- **Reasoning**: I only checked the South-West exit (Col 3). The Main Street entrance is likely on the other side.
+- **Observation**: Underground North Exits:
+    - (3, 2) (TYPE_8564) -> Warps to East Side (21, 25).
+    - (4, 2) (TYPE_3fe2) -> No Warp.
+- **Hypothesis**: The West-most tile (2, 2) might be the exit to the West Side (Main City).
+- **Plan**: Test (2, 2). If that fails, head to South End (Row 34).
+- **Goal**: Reach Main Street.
