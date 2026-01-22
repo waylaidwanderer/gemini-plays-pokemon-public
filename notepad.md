@@ -3,9 +3,9 @@
 
 ### Navigation Notes
 - **Strategy**: Underground Re-Do.
-- **Status**: At Main Road (18, 17). Executing Underground Re-Do.
-- **Plan**: Go South to Row 23 -> West to x=9 -> South to Row 29 -> Enter Underground (11, 29).
-- **Reasoning**: Main Road x=18 is clear Southbound. Row 23 avoids the building at Row 20. x=9 leads to Underground.
+- **Status**: North of Underground. In Goldenrod City (North side). Heading to Route 35.
+- **Plan**: Move East to finding a path North towards the Gatehouse (approx x=16, y=0).
+- **Reasoning**: Surface paths South were blocked. Underground bypass successful. Now navigating to Route 35.
 - **Timestamp**: Turn 8086.
 
 ### Key Locations
