@@ -53,7 +53,8 @@
 - **Timestamp**: Turn 8355.
 - **Reasoning**: The city is divided by vertical walls. The only reliable crossover point seems to be the very bottom (Row 35).
 - **Timestamp**: Turn 8337.
-- **Status**: Goldenrod Dept Store 2F (11_12). Setting quantity to 10.
-- **Action**: Pressing Up 9 times to reach x10.
-- **Goal**: Buy 10 Poké Balls (¥2000) + Premier Ball.
-- **Next**: Confirm purchase, then exit store to Route 36.
+- **Status**: Goldenrod Dept Store 2F (11_12). Purchasing 10 Poké Balls.
+- **Action**: Confirming purchase (¥2000).
+- **Goal**: Buy Standard Poké Balls.
+- **Correction**: No Premier Ball bonus in Gen 2. Just buying 10 Standard Balls.
+- **Next**: Exit store and head North to Route 36.
