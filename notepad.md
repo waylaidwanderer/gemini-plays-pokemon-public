@@ -40,6 +40,6 @@
 ### Navigation Update (Turn 8998)
 - **Location**: Underground Tunnel.
 - **Goal**: Reach North-West Exit (3, 2).
-- **Tactics**: Sidestepping blocked path at (3, 27) (Haircut Bros). Using Column 4.
+- **Tactics**: Right path (Col 4) failed/blocked. Switching to Left path (Col 2).
 - **Next Step**: Exit at (3, 2) -> East Side Goldenrod.
 - **Hypothesis**: East Side allows access to Route 34 (South).
