@@ -53,7 +53,7 @@
 - **Timestamp**: Turn 8355.
 - **Reasoning**: The city is divided by vertical walls. The only reliable crossover point seems to be the very bottom (Row 35).
 - **Timestamp**: Turn 8337.
-- **Status**: Exiting Goldenrod Dept Store (11_11).
-- **Action**: Moving South to enter Goldenrod City (11_2).
-- **Goal**: Reach Route 36 via Route 35 (North Gate).
-- **Next**: Travel North through Goldenrod City.
+- **Status**: Goldenrod City (11_2) at (24, 28). Outside Dept Store.
+- **Action**: Moving Left to main street (x=18), then North.
+- **Goal**: Reach Route 35 Gatehouse (North).
+- **Next**: Travel North to Exit.
