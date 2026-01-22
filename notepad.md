@@ -4,14 +4,14 @@
 ### Navigation Notes
 - **Goal**: Reach Goldenrod City West Side (Main Road).
 - **Strategy**: Flank via Route 34.
-- **Status**: Ilex Forest Gate (11_23).
-- **Goal**: Reach Route 34 West Side (Main Road).
+- **Status**: Route 34 (11_1) at (13, 37). South of Gatehouse.
+- **Error Analysis**: Previous attempt to exit North failed, likely exited South by mistake or got turned around.
 - **Plan**: 
-    1. Enter Ilex Forest (South).
-    2. Exit Ilex Forest (North) and hope it deposits me on the West side of Route 34 or gives me a choice.
-    3. If that fails, explore the Gatehouse for other exits.
-- **Reasoning**: The East side of Route 34 is a dead end. I need to crossover.
-- **Timestamp**: Turn 8372.
+    1. Enter Gatehouse (Up).
+    2. Inside, move Left to the West side (x<4).
+    3. Exit North to reach Route 34 West.
+- **Reasoning**: The South area (x=13) is walled off from the West. I must cross inside the building.
+- **Timestamp**: Turn 8379.
 
 ### Resource Alert
 - **Pokeballs**: 0 (Only 1 Lure Ball). Need to buy balls at Goldenrod Dept Store.
