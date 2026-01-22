@@ -39,7 +39,7 @@
 - **Navigation**: Using East wall (Column 4) to avoid obstacles in center.
 ### Navigation Update (Turn 8998)
 - **Location**: Goldenrod City (West Side Surface).
-- **Goal**: Move North past Radio Tower.
-- **Tactics**: Heading North along Column 4/5.
-- **Next Step**: Reach Row 15 (Radio Tower Latitude).
-- **Hypothesis**: A path exists between the Radio Tower (East) and Train Tracks (West).
+- **Goal**: Move North along the Train Tracks (West Edge).
+- **Tactics**: North at (5, 23) is blocked. Moving South to Row 29, then West to Column 1.
+- **Next Step**: Go South -> West -> North along tracks.
+- **Hypothesis**: The path along the tracks (Columns 0-2) bypasses the city center blockades.
