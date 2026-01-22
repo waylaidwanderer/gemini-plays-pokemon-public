@@ -2,11 +2,11 @@
 - Started: Friday, January 16, 2026
 
 ### Navigation Notes
-- **Location**: Goldenrod City (East Side).
-- **Goal**: Find Department Store Entrance / Path North.
-- **Current Action**: Moving East along Row 22.
-- **Observation**: West (x=15) is blocked by a wall. The building spans West to East.
-- **Plan**: Move East to scan the rest of the building face for a door or a path around the East side.
+- **Location**: Goldenrod City (East Side - Dept Store Front).
+- **Goal**: Find the entrance (Door).
+- **Current Action**: Moving East to x=25.
+- **Observation**: Still following the wall at Row 21. No door yet.
+- **Hypothesis**: Entrance is likely at the corner or on the side (x=25+).
 
 ### Resource Alert
 - **Pokeballs**: 10 Poké Balls, 1 Lure Ball.
