@@ -2,10 +2,10 @@
 - Started: Friday, January 16, 2026
 
 ### Navigation Notes
-- **Location**: Goldenrod City (Central - Main St).
+- **Location**: Goldenrod City (East of Gym).
 - **Goal**: Find path to Route 35 Gatehouse.
-- **Status**: Navigating East via Row 10/11 to bypass obstacles and reach the Gym area.
-- **Method**: Flanking East to find a path North along the map edge.
+- **Status**: Successfully bypassed obstacles. Now East of the Gym.
+- **Method**: Exploring the North-East corner for an exit.
 
 ### Quest Chain: SquirtBottle
 1. **Defeat Whitney**: Done (Plain Badge obtained).
