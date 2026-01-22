@@ -2,13 +2,12 @@
 - Started: Friday, January 16, 2026
 
 ### Navigation Notes
-- **Location**: Goldenrod Underground (North End).
-- **Goal**: Reach West Goldenrod (South Exit).
-- **Connection Verified**: 
-  - North End (3, 2) <-> East City (21, 25).
-  - South End (3, 35) <-> West City (5, 25).
-- **Action**: Traverse South to exit at (3, 35).
-- **Plan**: Exit West -> Cut Tree at (9, 22) -> Access Gym/Flower Shop.
+- **Location**: Goldenrod Underground (3_53).
+- **Goal**: Reach South Exit (3, 35).
+- **Current Action**: Moving South to Row 11.
+- **Lane**: Hugging x=3 to minimize detection risk.
+- **Risks**: Super Nerd at (6, 9). Lane 3 is 3 tiles away. May initiate battle.
+- **Plan**: Continue South past Beauty (7, 15) and PokeManiac (Row 20).
 
 ### Resource Alert
 - **Pokeballs**: 10 Poké Balls, 1 Lure Ball.
