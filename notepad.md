@@ -2,10 +2,11 @@
 - Started: Friday, January 16, 2026
 
 ### Navigation Notes
-- **Location**: Goldenrod City (Main Street - North).
-- **Goal**: Reach Route 35 Gatehouse (North).
-- **Status**: Testing the "Wall" at (13, 5).
-- **Hypothesis**: The map data says Row 5 is a wall, but this might be an archway or error. Testing for collision.
+- **Location**: Goldenrod City (Central - Main St).
+- **Goal**: Find path to Route 35 Gatehouse.
+- **Status**: West path (x=13) is blocked by building. East path (x=18) was blocked by Flower Shop.
+- **Plan**: Backtrack South to Row 10, then explore far East (x>24) or far West (x<9).
+- **Hypothesis**: The path North is likely on the perimeter, not the center.
 
 ### Quest Chain: SquirtBottle
 1. **Defeat Whitney**: Done (Plain Badge obtained).
@@ -16,7 +17,7 @@
 - **Game Corner**: (9, 5).
 - **Gym**: (24, 7).
 - **Flower Shop**: (19, 1).
-- **Route 35 Exit**: ~ (16, 0).
+- **Route 35 Exit**: Unknown (North).
 
 ### Strategic Review (Turn 8617)
 - **Reflection**: Progress in Goldenrod continues.
