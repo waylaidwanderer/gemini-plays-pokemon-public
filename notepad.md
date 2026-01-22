@@ -2,11 +2,10 @@
 - Started: Friday, January 16, 2026
 
 ### Navigation Notes
-- **Location**: Goldenrod City (East Side).
+- **Location**: Goldenrod City (East Side - Main Street).
 - **Goal**: Reach Flower Shop (19, 1) and Route 35 (North).
-- **Current Action**: Heading West to x=17 to bypass trees.
-- **Observation**: The trees block North movement at x=18-23. However, the map shows a walkable gap at x=16 and x=17 (Row 23).
-- **Plan**: Move Left to x=17, then North through the gap to reach the Gym and Flower Shop.
+- **Current Action**: Moving North through the gap at (17, 23).
+- **Path**: North along x=17 to pass the tree line, then look for the Flower Shop.
 
 ### Resource Alert
 - **Pokeballs**: 10 Poké Balls, 1 Lure Ball.
