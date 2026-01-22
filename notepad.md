@@ -3,9 +3,10 @@
 
 ### Navigation Notes
 - **Location**: Goldenrod City (East Residential Area).
-- **Goal**: Find path to Route 35 Gatehouse.
-- **Status**: At (34, 7). Attempting to Cut tree at (35, 7).
-- **Hypothesis**: This tree blocks the path to the East Edge (Col 36), which leads North.
+- **Goal**: Return to Main Street (Game Corner area).
+- **Status**: Tree at (35, 7) is a wall/uncuttable.
+- **Hypothesis**: The path North is near the Game Corner or through a building I missed.
+- **Plan**: Backtrack West -> South -> West to (9, 6).
 
 ### Quest Chain: SquirtBottle
 1. **Defeat Whitney**: Done (Plain Badge obtained).
@@ -15,7 +16,8 @@
 ### Key Locations
 - **Sister's House**: (29, 5).
 - **Gym**: (24, 7).
-- **Route 35 Exit**: Unknown (likely North-Central).
+- **Game Corner**: (9, 5).
+- **Route 35 Exit**: Unknown.
 
 ### Strategic Review (Turn 8617)
 - **Reflection**: Progress in Goldenrod continues.
