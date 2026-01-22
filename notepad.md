@@ -3,10 +3,10 @@
 
 ### Navigation Notes
 - **Strategy**: Underground Re-Do.
-- **Status**: At (3, 25) (Dead End).
-- **Plan**: Retreat South to Row 30. Cross East to Main Road. Go North to Row 18. Go West to Radio Tower. Access Tracks North from Radio Tower (x=3).
-- **Reasoning**: Current location (3, 25) is a dead end. Path to tracks is likely via Radio Tower frontage (Row 16).
-- **Timestamp**: Turn 8186.
+- **Status**: Goldenrod City (North). At (18, 5).
+- **Plan**: Backtrack South to Row 8. Cross West to Column 16. Proceed North to Route 35 Gatehouse (approx 16, 0).
+- **Reasoning**: Column 17 is a dividing wall. The East side (current) dead-ends at Row 2. The West side (X=16) leads to the exit.
+- **Timestamp**: Turn 8198.
 
 ### Key Locations
 - **Sister's House**: (29, 5).
