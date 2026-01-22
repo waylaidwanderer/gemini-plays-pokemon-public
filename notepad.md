@@ -4,9 +4,9 @@
 ### Navigation Notes
 - **Location**: Goldenrod City (Central -> East).
 - **Goal**: Reach Route 35 Gatehouse (North Exit).
-- **Status**: Resuming exploration of North-East Corridor (x=18).
-- **Reasoning**: Critique indicates I may have abandoned this path too early. It is the only confirmed gap in the North Wall.
-- **Plan**: Go to (18, 5). Check for hidden paths/doors West or East. Inspect area around Flower Shop.
+- **Status**: Clearing phone call, then returning to North-East Corridor (x=18).
+- **Plan**: Go to (18, 5). Walk North. Check for West turns at y=2, 3, 4. Inspect the Flower Shop area carefully.
+- **Correction**: Previous assessment of x=18 as a dead end was likely hasty.
 
 ### Quest Chain: SquirtBottle
 1. **Defeat Whitney**: Done (Plain Badge obtained).
