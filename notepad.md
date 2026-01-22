@@ -38,8 +38,8 @@
 - **Status**: Moving North, bypassing sprites at (3, 27).
 - **Navigation**: Using East wall (Column 4) to avoid obstacles in center.
 ### Navigation Update (Turn 8998)
-- **Location**: Goldenrod City (East Side Surface).
-- **Goal**: Reach Route 35 (North of Goldenrod).
-- **Tactics**: Underground Exit only leads to East Side.
-- **Next Step**: Go South to Row 29 -> West to Main Street -> North to Route 35 Gatehouse.
-- **Hypothesis**: The path North through the city is clear. The "blockage" is Sudowoodo on Route 36.
+- **Location**: Underground Tunnel.
+- **Goal**: Reach South Exit (West Goldenrod).
+- **Tactics**: Returning to West Side to find Main Street connection.
+- **Hypothesis**: The Pokemon Center area (5, 29) connects to the Main Street (Center) via a path I missed.
+- **Plan**: Traverse Tunnel South -> Exit -> Head to Pokemon Center -> Check East.
