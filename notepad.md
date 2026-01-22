@@ -53,7 +53,7 @@
 - **Timestamp**: Turn 8355.
 - **Reasoning**: The city is divided by vertical walls. The only reliable crossover point seems to be the very bottom (Row 35).
 - **Timestamp**: Turn 8337.
-- **Status**: Goldenrod City (11_2) at (21, 28). On phone with Joey.
-- **Action**: Clearing phone call text.
+- **Status**: Goldenrod City (11_2) at (21, 28). Finishing call with Joey.
+- **Action**: Advancing dialogue to end call.
 - **Goal**: Reach Route 35 Gatehouse (North).
-- **Next**: Finish call, then continue Left to Main Street.
+- **Next**: Move Left to Main Street, then North.
