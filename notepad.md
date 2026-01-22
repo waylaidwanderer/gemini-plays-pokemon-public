@@ -4,9 +4,9 @@
 ### Navigation Notes
 - **Location**: Goldenrod City (Central-West).
 - **Goal**: Access North Goldenrod via Tree at (9, 22).
-- **Correction**: Previous Cut attempt failed due to menu navigation error and facing North instead of East.
-- **Action**: Facing East (Right) towards tree, then interacting to Cut.
-- **Hypothesis**: Cutting the tree at (9, 22) will open a path North or East through the Row 21 barrier.
+- **Action**: Using **Start Menu** to trigger Cut (Interaction failed).
+- **Sequence**: Start -> Pokémon -> Basil -> Cut.
+- **Hypothesis**: The "Interact" method is finicky or I'm misaligned. Menu selection forces the game to evaluate the move usage.
 
 ### Resource Alert
 - **Pokeballs**: 10 Poké Balls, 1 Lure Ball.
