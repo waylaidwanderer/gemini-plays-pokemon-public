@@ -2,10 +2,11 @@
 - Started: Friday, January 16, 2026
 
 ### Navigation Notes
-- **Strategy**: Lane Switch (Row 8 Crossover).
-- **Discovery**: Main Road (x=19) dead-ends at Flower Shop. Exit path appears to be parallel at x=16, separated by a wall.
-- **Plan**: Backtrack South to Row 8 -> Crossover West to x=16 -> Head North to Route 35 Exit.
-- **Timestamp**: Turn 8079.
+- **Strategy**: West Side Gap (Row 16).
+- **Correction**: Path North on x=16 is blocked by walls at Row 7. Previous "Lane Switch" plan invalid.
+- **Plan**: Go South to Row 16 -> Go West to x=3 (Tracks) -> Go North to Route 35.
+- **Reasoning**: Row 16 is the main E-W corridor. The Tourist at (3, 16) should be gone/passable now that I have the Plain Badge.
+- **Timestamp**: Turn 8080.
 
 ### Key Locations
 - **Sister's House**: (29, 5).
