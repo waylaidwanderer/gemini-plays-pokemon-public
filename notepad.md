@@ -4,9 +4,9 @@
 ### Navigation Notes
 - **Location**: Goldenrod City (West Main Road).
 - **Goal**: Reach Route 35 Gatehouse (North).
-- **Current Action**: Heading North.
-- **Context**: Moving along the main street.
-- **Plan**: Continue North. Look for a path to the East side to reach the Flower Shop (approx x=19).
+- **Current Action**: Correcting path to Main Road (x=2).
+- **Observation**: x=4 is blocked by planters at Row 23. Main Road is at x=0-2.
+- **Plan**: Go South to Row 28, West to x=2, then North.
 
 ### Resource Alert
 - **Pokeballs**: 10 Poké Balls, 1 Lure Ball.
