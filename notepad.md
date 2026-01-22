@@ -38,8 +38,8 @@
 - **Status**: Moving North, bypassing sprites at (3, 27).
 - **Navigation**: Using East wall (Column 4) to avoid obstacles in center.
 ### Navigation Update (Turn 8998)
-- **Location**: Goldenrod City (West Side Surface).
-- **Goal**: Find a path North around the Radio Tower.
-- **Tactics**: West Track Path blocked at Row 21 (Wall). Moving East along Row 22 to find a gap.
-- **Next Step**: Scan Row 21 for openings or corners.
-- **Hypothesis**: The Radio Tower blocks the center. A path must exist on one of the sides or through the building.
+- **Location**: Goldenrod City (West Alley).
+- **Goal**: Rejoin Main Street (Center).
+- **Tactics**: Row 21 is a solid wall. Row 22 is blocked at x=9.
+- **Next Step**: Move South to Row 23 -> East past x=9 -> North on Main Street.
+- **Hypothesis**: The path to Route 35 is via the main road (x=15), navigating around the Name Rater's house.
