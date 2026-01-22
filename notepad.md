@@ -3,13 +3,9 @@
 
 ### Navigation Notes
 - **Location**: Goldenrod City (West Side).
-- **Goal**: Cut Tree at (9, 22) to access Central/North Goldenrod.
-- **Current Action**: Moving West to Main Road (x=2), then North.
-- **Path**:
-  1. South to Row 28 to bypass planters/obstacles.
-  2. West to Main Road (x=2).
-  3. North to Row 22.
-  4. East to Tree at (9, 22).
+- **Goal**: Cut Tree at (9, 22).
+- **Current Action**: Moving North along Main Road (x=2), then East to the tree.
+- **Path**: North to (2, 22), then East to (8, 22).
 
 ### Resource Alert
 - **Pokeballs**: 10 Poké Balls, 1 Lure Ball.
