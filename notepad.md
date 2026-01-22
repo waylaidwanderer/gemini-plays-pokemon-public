@@ -11,14 +11,14 @@
     3.Systematically explore North from there, hugging the West edge.
 
 ### Navigation Notes
-- **Location**: Goldenrod City (North of Tracks).
+- **Location**: Goldenrod City (Tracks).
 - **Goal**: Reach Route 35 Gatehouse (North Exit).
-- **Status**: Exploring the area North of the Magnet Train tracks. Currently at (6, 8).
-- **Observation**: Row 5 is blocked from x=5 to x=17.
-- **Correction**: x=4 and x=5 are WALLS (confirmed by collision).
-- **Plan**: The West path failed. The only remaining option is the path at x=16.
-- **Hypothesis**: The "Main Street" is at x=16. I likely navigated away from it too early.
-- **Goal**: Return to x=16 and head North to the map edge.
+- **Status**: Relocating to West Side (Radio Tower area).
+- **Observation**: The "Main Street" at x=16 is blocked by a wall at y=7.
+- **Recall**: [Turn 8741] Discovered a narrow path at x=3 west of the Radio Tower, bypassing the NPC blocking the way at (4, 16).
+- **Plan**: Explore the "unseen" area in the North-West quadrant using the x=3 path.
+- **Hypothesis**: The path to the exit is the narrow alley on the far West side.
+- **Immediate Goal**: Move West along tracks to x=6, then head North to the Radio Tower.
 
 ### Map Structure
 - **Tracks**: Run East-West around y=13.
