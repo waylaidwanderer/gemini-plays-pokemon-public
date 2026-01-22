@@ -19,8 +19,8 @@
 ### Quests
 - **Sister's House**: (29, 5). The sister is missing (Route 36).
 - **Route 35 Gatehouse**: East Side (x=31) is a dead end.
-- **Plan**: Access Route 35 via the West Tracks (from Row 16).
-- **Reasoning**: Main Road and East side are dead ends.
+- **Plan**: Bypass blocker at (4, 16) via Row 18. Reach West Tracks (Column 3) and head North.
+- **Reasoning**: NPC blocking (4, 16). Wall at (4, 17). Row 18 appears clear.
 - **Objective**: Reach North-West corner for Route 35.
 
 ### Status
