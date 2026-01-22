@@ -4,8 +4,8 @@
 ### Navigation Notes
 - **Location**: Goldenrod City (Main Street - North).
 - **Goal**: Reach Route 35 Gatehouse (North).
-- **Status**: Investigating potential path North at x=13 (West side of road).
-- **Hypothesis**: The "Main Street" splits around the Name Rater/Game Corner. The East path (x=18) was a dead end. The West path (x=13) needs checking.
+- **Status**: Testing the "Wall" at (13, 5).
+- **Hypothesis**: The map data says Row 5 is a wall, but this might be an archway or error. Testing for collision.
 
 ### Quest Chain: SquirtBottle
 1. **Defeat Whitney**: Done (Plain Badge obtained).
