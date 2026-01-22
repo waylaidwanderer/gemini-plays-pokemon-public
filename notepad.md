@@ -3,9 +3,9 @@
 
 ### Navigation Notes
 - **Location**: Goldenrod City (South-West).
-- **Goal**: Cut tree at (9, 22) to access unexplored area.
-- **Status**: Interacting with tree.
-- **Hypothesis**: This path bypasses obstacles or leads to hidden items.
+- **Goal**: Investigate alley behind houses (Column 9).
+- **Status**: Checking if I can walk around the tree at (9, 22).
+- **Hypothesis**: The path might be accessible from (8, 23) without Cutting.
 
 ### Resource Alert
 - **Pokeballs**: 10 Poké Balls, 1 Lure Ball.
