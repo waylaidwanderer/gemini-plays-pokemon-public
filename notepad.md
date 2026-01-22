@@ -2,10 +2,10 @@
 - Started: Friday, January 16, 2026
 
 ### Navigation Notes
-- **Strategy**: Main Road North (Active).
-- **Plan**: Walk North on x=19 to bypass Officer at (18, 10). Reach Route 35 Gatehouse at North end of city.
-- **Correction**: Previous "South Loop" and "Underground" plans were unnecessary/failed. Main road is passable on the right.
-- **Timestamp**: Turn 8071.
+- **Strategy**: Lane Switch (Row 8 Crossover).
+- **Discovery**: Main Road (x=19) dead-ends at Flower Shop. Exit path appears to be parallel at x=16, separated by a wall.
+- **Plan**: Backtrack South to Row 8 -> Crossover West to x=16 -> Head North to Route 35 Exit.
+- **Timestamp**: Turn 8079.
 
 ### Key Locations
 - **Sister's House**: (29, 5).
