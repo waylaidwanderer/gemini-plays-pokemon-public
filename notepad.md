@@ -3,10 +3,10 @@
 
 ### Navigation Notes
 - **Strategy**: Underground Re-Do.
-- **Status**: Inside Flower Shop (10_14). Dialogue finished.
-- **Plan**: Exit the shop and head North to Route 35/36.
-- **Reasoning**: The girl didn't give the bottle. This confirms I need to find her sister Floria at Route 36 (by the Sudowoodo) first.
-- **Timestamp**: Turn 8302.
+- **Status**: Inside Flower Shop (10_14). Clearing dialogue.
+- **Plan**: Press A/B to finish the conversation, then exit.
+- **Reasoning**: The text has a prompt arrow, indicating more text. I cannot move until it's done.
+- **Timestamp**: Turn 8303.
 
 ### Key Locations
 - **Sister's House**: (29, 5).
