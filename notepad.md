@@ -14,9 +14,9 @@
 - **Location**: Goldenrod City (North of Tracks).
 - **Goal**: Reach Route 35 Gatehouse (North Exit).
 - **Status**: Exploring the area North of the Magnet Train tracks. Currently at (6, 8).
-- **Observation**: Row 5 is a wall of buildings from x=5 to x=17.
-- **Correction**: x=17 is a vertical wall separating the Flower Shop (East) from the Main Street (West). x=18 leads only to the Flower Shop.
-- **Plan**: Backtrack South to y=8, move West to x=16, then head North. x=16 appears to be the correct path to the Gatehouse.
+- **Observation**: Row 5 is a wall of buildings from x=12 to x=17. x=16 is blocked.
+- **Fact**: The door at (9, 5) is the Underground North Entrance.
+- **Plan**: Exit the Underground. Move West from (9, 6) to find a path North. The Route 35 Gatehouse must be in the North-West area.
 
 ### Map Structure
 - **Tracks**: Run East-West around y=13.
