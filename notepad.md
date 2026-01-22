@@ -3,9 +3,9 @@
 
 ### Navigation Notes
 - **Strategy**: Underground Re-Do.
-- **Status**: Goldenrod City (3_54) at (16, 25). Heading North.
-- **Plan**: Walk North on main street (Column 16) to Route 35.
-- **Reasoning**: Successfully reached the main street. Checking if the path North is clear.
+- **Status**: Goldenrod City (3_54) at (16, 22). Blocked North/West.
+- **Plan**: Search East for a path North to Route 35.
+- **Reasoning**: Encountered a solid wall at Row 21 and a building to the West. The path North must be elsewhere, likely East or South-around.
 - **Timestamp**: Turn 8252.
 
 ### Key Locations
