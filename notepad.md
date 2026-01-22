@@ -38,10 +38,10 @@
 - **Status**: Moving North, bypassing sprites at (3, 27).
 - **Navigation**: Using East wall (Column 4) to avoid obstacles in center.
 ### Navigation Update (Turn 8998)
-- **Correction**: The area North of (4, 24) is a dead end (Row 23 is blocked).
-- **Current Plan**:
-    1. Return to Underground via (5, 25).
-    2. Go to North Exit (3, 2) -> East Side (21, 25).
-    3. FORCE navigate South from (21, 25) to the Route 34 Exit at (20, 35).
-    4. Loop via Route 34 to the Main City Entrance.
-- **Hypothesis**: The East Side MUST connect to Route 34, allowing a loop to the West Side.
+- **Location**: Underground Tunnel (South End).
+- **Goal**: Reach East Side of Goldenrod via North Exit (3, 2).
+- **Plan**:
+    1. Navigate North to (3, 2).
+    2. Exit to Goldenrod East Side.
+    3. Head SOUTH to the bottom edge of the map (Route 34 connection).
+- **Hypothesis**: The East Side connects to Route 34, allowing a loop to the West Side Main Street.
