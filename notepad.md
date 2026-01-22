@@ -53,8 +53,8 @@
 - **Timestamp**: Turn 8355.
 - **Reasoning**: The city is divided by vertical walls. The only reliable crossover point seems to be the very bottom (Row 35).
 - **Timestamp**: Turn 8337.
-- **Status**: Goldenrod City (11_2) at (16, 23). Turning West on Cross Street.
-- **Action**: Moving Left to x=9.
-- **Goal**: Reach Main Street (x=9) to access Underground Entrance (South).
-- **Reasoning**: Row 23 is the gap between Game Corner and Dept Store.
-- **Next**: Left to x=9 -> South.
+- **Status**: Goldenrod City (11_2) at (16, 23). Detouring to Dept Store.
+- **Action**: Moving Right to x=18, then South.
+- **Goal**: Buy Pokeballs at Dept Store before heading North.
+- **Reasoning**: I have 0 Pokeballs. Need supplies for Sudowoodo.
+- **Next**: Right to x=18 -> South to Row 27 -> East.
