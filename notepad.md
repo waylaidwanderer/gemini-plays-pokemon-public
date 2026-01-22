@@ -4,9 +4,9 @@
 ### Navigation Notes
 - **Location**: Goldenrod Underground (3_53).
 - **Goal**: Reach South Exit (3, 35).
-- **Current Action**: Moving past Donald (3, 20).
-- **Plan**: Move Right to x=4 to walk around Donald, then continue South.
-- **Next Hazard**: PokeManiac at (7, 21). Will try to hug Left wall (x=3) after passing Donald.
+- **Current Action**: Moving South to Row 27.
+- **Next Obstacle**: Haircut Brothers/Super Nerd at (3, 27).
+- **Plan**: Stay in current lane (x=4) to bypass any potential trainers, then exit South.
 
 ### Resource Alert
 - **Pokeballs**: 10 Poké Balls, 1 Lure Ball.
