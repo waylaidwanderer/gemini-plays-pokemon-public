@@ -53,8 +53,7 @@
 - **Timestamp**: Turn 8355.
 - **Reasoning**: The city is divided by vertical walls. The only reliable crossover point seems to be the very bottom (Row 35).
 - **Timestamp**: Turn 8337.
-- **Status**: Goldenrod City (11_2) at (16, 23). Handling Joey's Phone Call.
-- **Correction**: Inventory check shows 10 Poké Balls. No need to shop.
-- **Action**: Finishing call, then resuming path to Underground.
+- **Status**: Goldenrod City (11_2) at (16, 23). Waiting for Joey to hang up.
+- **Action**: Finishing call.
 - **Goal**: Reach Underground Entrance South (11, 29).
-- **Next**: Finish call -> Left to x=9 -> South.
+- **Next**: Left to x=9 -> South to Row 30 -> East to x=11 -> Enter.
