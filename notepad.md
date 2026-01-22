@@ -4,10 +4,10 @@
 ### Navigation Notes
 - **Location**: Goldenrod Underground (3_53).
 - **Goal**: Reach South Exit (3, 35).
-- **Current Action**: Moving South to Row 11.
-- **Lane**: Hugging x=3 to minimize detection risk.
-- **Risks**: Super Nerd at (6, 9). Lane 3 is 3 tiles away. May initiate battle.
-- **Plan**: Continue South past Beauty (7, 15) and PokeManiac (Row 20).
+- **Current Action**: Moving South to (3, 16).
+- **Upcoming Obstacle**: PokeManiac Donald at (3, 20).
+- **Plan**: Shift Right to Lane 4/5 at Row 17 to bypass Donald.
+- **Safety**: Beauty at (7, 15) is screened by the wall at x=6.
 
 ### Resource Alert
 - **Pokeballs**: 10 Poké Balls, 1 Lure Ball.
