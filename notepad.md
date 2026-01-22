@@ -38,9 +38,8 @@
 - **Status**: Moving North, bypassing sprites at (3, 27).
 - **Navigation**: Using East wall (Column 4) to avoid obstacles in center.
 ### Navigation Update (Turn 8998)
-- **Fact**: No exit on Underground Row 35.
-- **Plan**:
-    1. Return to West Enclosed Area via (3, 34).
-    2. thoroughly explore boundaries (x=4 to x=6, y=25 to y=30).
-    3. If dead end, take North Exit (3, 2) to East Side.
-    4. On East Side, head SOUTH past Dept Store to Route 34 to cross tracks.
+- **Location**: Enclosed Area (West Goldenrod).
+- **Goal**: Escape to Main Street.
+- **Hypothesis**: The NPC at (3, 27) might have info, or the building at (4-5, 29) is passable.
+- **Plan**: Talk to NPC. Try to enter building at (4, 29).
+- **Contingency**: If stuck, return to Underground and re-evaluate East Side (South Route).
