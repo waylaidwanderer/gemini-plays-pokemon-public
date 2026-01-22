@@ -38,8 +38,8 @@
 - **Status**: Moving North, bypassing sprites at (3, 27).
 - **Navigation**: Using East wall (Column 4) to avoid obstacles in center.
 ### Navigation Update (Turn 8998)
-- **Location**: Goldenrod City (East Side Surface).
-- **Goal**: Reach Route 35 Gatehouse (North Edge).
-- **Tactics**: Planters block Row 23 at x=21. Moving West to gap at x=17.
-- **Next Step**: Go West to x=17 -> North through gap -> Head to Flower Shop (19, 1).
-- **Hypothesis**: The gap at x=17 connects to the northern open area.
+- **Location**: Goldenrod City (East Side).
+- **Goal**: Check Main Street (x=10-15) for a path North.
+- **Tactics**: East Side (x>17) and West Side (x<6) are blocked at Row 21. Checking Center.
+- **Next Step**: Go South to Row 28 -> West to x=13 -> North to Row 21.
+- **Hypothesis**: The Main Street has a gap in the Row 21 wall leading to the Gym/Route 35.
