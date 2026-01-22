@@ -3,10 +3,10 @@
 
 ### Navigation Notes
 - **Strategy**: Underground Re-Do.
-- **Status**: Goldenrod City (3_54). Moving to main street.
-- **Plan**: Move South to Row 28, West to Column 16, then North to Route 35.
-- **Reasoning**: Current alley is a dead end to the North. Path West is blocked by NPC at (19, 27). Must loop around South (Row 28) to access the main vertical road (Column 16/17).
-- **Timestamp**: Turn 8249.
+- **Status**: Goldenrod City (3_54) at (16, 25). Heading North.
+- **Plan**: Walk North on main street (Column 16) to Route 35.
+- **Reasoning**: Successfully reached the main street. Checking if the path North is clear.
+- **Timestamp**: Turn 8252.
 
 ### Key Locations
 - **Sister's House**: (29, 5).
