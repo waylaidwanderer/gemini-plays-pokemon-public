@@ -36,9 +36,9 @@
 - Note: Sandbox is down. Manual navigation active.
 - **Transition**: Goldenrod (18, 35) connects to Route 34 (8, 0).
 - **Plan**: Move West in Route 34 to finding the Tracks entrance (likely x=4 or lower).
-- **Status**: Route 34 (11_1) at (9, 0). Just exited Goldenrod from the SE corner.
-- **Plan**: Move South to find a gap in the fence/ledge, then cross West to the Main Road. Head back North to Goldenrod (West Side).
-- **Reasoning**: To bypass the walls in Goldenrod, I need to enter from the SW entrance (Main Road).
-- **Timestamp**: Turn 8346.
+- **Status**: Route 34 (11_1) at (6, 9). Moving North to Goldenrod.
+- **Plan**: Move East to Column 9 to bypass the wall at Row 5, then head North to enter Goldenrod City (West Side).
+- **Reasoning**: Columns 6 and 7 are blocked by walls at Row 5. Column 9 is the Main Road and is clear.
+- **Timestamp**: Turn 8351.
 - **Reasoning**: The city is divided by vertical walls. The only reliable crossover point seems to be the very bottom (Row 35).
 - **Timestamp**: Turn 8337.
