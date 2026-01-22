@@ -270,12 +270,17 @@
         }
       }
     },
-    "python_script": "num = input_data.get('num_presses', 5)\nbuttons = []\nfor _ in range(num):\n    buttons.append(\"A\")\n    buttons.append(\"sleep 500\") # Wait 0.5s between presses to allow text to scroll/advance\nprint(f'{buttons}')",
+    "python_script": "import json\nnum = input_data.get('num_presses', 5)\nbuttons = []\nfor _ in range(num):\n    buttons.append(\"A\")\n    buttons.append(\"sleep 500\") # Wait 0.5s between presses\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2026-01-22T03:56:36.634Z",
         "action_counter": 8282
+      },
+      {
+        "commit_message": "Fixed bug where output was not valid JSON. Added json import and usage.",
+        "timestamp": "2026-01-22T03:57:54.764Z",
+        "action_counter": 8284
       }
     ]
   }
