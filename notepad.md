@@ -11,14 +11,15 @@
     3.Systematically explore North from there, hugging the West edge.
 
 ### Navigation Notes
-- **Location**: Goldenrod City (Central -> South).
-- **Goal**: Reach Far West Side (North of Tracks).
-- **Status**: Heading to East Crossing (18, 14) to cross to the South Side.
-- **Reasoning**: The North-Central area is walled off. The West side (x=6) was a dead end. I must loop South to the Radio Tower area and check for a Far West crossing or path (x=0-4).
-- **Plan**:
-    1. Cross Tracks at (18, 14).
-    2. Travel West to Radio Tower (5, 15).
-    3. Search for a path North along the extreme West edge (x=0).
+- **Location**: Goldenrod City (Central).
+- **Goal**: Reach South Side (Tracks).
+- **Status**: Rerouting around blocking Officer at (18, 10).
+- **Plan**: 
+    1. Go North to (17, 9) and East to (20, 9) to bypass Officer.
+    2. Go South to (20, 14).
+    3. Cross Tracks at (18, 14).
+    4. Head to Underground Entrance at (11, 29).
+- **New Strategy**: The Route 35 Exit is likely accessed via the Underground (finding a North-West exit instead of the East one).
 
 ### Quest Chain: SquirtBottle
 1. **Defeat Whitney**: Done (Plain Badge obtained).
@@ -26,6 +27,6 @@
 3. **Get Bottle**: Return to Flower Shop after meeting Floria.
 
 ### Key Locations
+- **Underground Ent**: (11, 29).
 - **East Crossing**: (18, 14).
 - **Radio Tower**: (5, 15).
-- **Target Area**: Far West (x=0, y<10).
