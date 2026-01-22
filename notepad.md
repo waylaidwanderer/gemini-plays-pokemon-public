@@ -3,10 +3,10 @@
 
 ### Navigation Notes
 - **Strategy**: Underground Re-Do.
-- **Status**: Goldenrod City (North). Near Flower Shop (19, 2).
-- **Plan**: Retreat South to Row 9. Move East past the Gym/Sister's House area. Look for a path North that loops back West to the Exit (suspected at x=16, y=0).
-- **Reasoning**: Direct North path blocked by Flower Shop. x=17 is a wall. Need to flank East.
-- **Timestamp**: Turn 8086.
+- **Status**: Goldenrod City (North). At (29, 6), near Sister's House.
+- **Plan**: Move South to Row 7. Go East to x=36 (gap in wall). Go North through gap, then wrap West to find Route 35 Exit.
+- **Reasoning**: Row 6 is blocked by walls at x=32-35. Row 7 is clear. x=36 offers a path North.
+- **Timestamp**: Turn 8165.
 
 ### Key Locations
 - **Sister's House**: (29, 5).
