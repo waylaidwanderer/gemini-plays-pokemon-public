@@ -3,10 +3,10 @@
 
 ### Navigation Notes
 - **Strategy**: Underground Re-Do.
-- **Status**: Goldenrod City (North). At (18, 5).
-- **Plan**: Backtrack South to Row 8. Cross West to Column 16. Proceed North to Route 35 Gatehouse (approx 16, 0).
-- **Reasoning**: Column 17 is a dividing wall. The East side (current) dead-ends at Row 2. The West side (X=16) leads to the exit.
-- **Timestamp**: Turn 8198.
+- **Status**: Goldenrod City (North). At (19, 13).
+- **Plan**: Go South to Row 20+. Cross West to the Main Road (approx x=8-12). Head North to Route 35 Gatehouse.
+- **Reasoning**: The Exit (x=16, y=0) is blocked from the East by a wall at x=17. I must approach from the West side of Goldenrod.
+- **Timestamp**: Turn 8204.
 
 ### Key Locations
 - **Sister's House**: (29, 5).
