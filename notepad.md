@@ -11,36 +11,21 @@
     3.Systematically explore North from there, hugging the West edge.
 
 ### Navigation Notes
-- **Location**: Goldenrod Underground Entrance (North Side) - Map 3_54.
-- **Goal**: Exit to Goldenrod City North.
-- **Status**: Just finished traversing the Underground Tunnel.
-- **Next Step**: Exit building, find Floria (Sister) at Route 36.
-- **Context**: The Underground bypassed the surface blockages. I should now be on the North side of the city.
+- **Location**: Goldenrod City North (West Side).
+- **Goal**: Locate Exit to Route 35.
+- **Status**: Trapped in a pocket at (7, 6).
+- **Observation**:
+    - North (Row 5): Blocked.
+    - West (x=5): Blocked.
+    - East (x=8): Blocked by Sign.
+    - South: Open back to Row 9.
+- **Plan**:
+    1. Move South to Row 9/10.
+    2. Move East to Main Street (x=16) or Gym area (x=24).
+    3. Look for a gap in Row 5/6 to head further North.
+- **Hypothesis**: The path to Route 35 is likely on the main street (x=16) or near the Gym.
 
 ### Map Structure
-- **3_54 (South)**: x=4, y=29 (Connects to South Goldenrod).
-- **3_53**: Main Tunnel (Connects North/South).
-- **3_54 (North)**: x=21, y=29 (Connects to North Goldenrod).
-
-### Quest Chain: SquirtBottle
-1. **Defeat Whitney**: Done.
-2. **Find Floria**: Check Route 36 (North of Goldenrod).
-3. **Get Bottle**: Return to Flower Shop.
-
-### Map Structure
-- **Goldenrod Underground**: Connects South (y=29 on surface) to North (y=6 on surface).
-- **Goldenrod Surface**:
-    - **Tracks**: Run East-West around y=13.
-    - **Gym**: Likely the building at (24, 7).
-    - **Flower Shop**: North-East cul-de-sac.
-- **Barriers**: Row 5 seems to be a significant barrier.
-- **Anomalies**: `TYPE_2889` is both path and wall. visual confirmation required.
-
-### Quest Chain: SquirtBottle
-1. **Defeat Whitney**: Done (Plain Badge obtained).
-2. **Find Floria**: Currently seeking at Route 36.
-3. **Get Bottle**: Return to Flower Shop after meeting Floria.
-- **Discovery**: The "Sister's House" at (29, 5) is a dead end (Flower Shop sibling).
-- **Hypothesis**: The Main Street is `x=16`. The `TYPE_2889` tiles at `y=7` to `y=4` might be walkable (Gatehouse floor?) or I missed a gap.
-- **Plan**: Move to (16, 8) and attempt to walk North through the `TYPE_2889` tiles. If blocked, check `x=15` or `x=17`.
-- **Backup**: If `x=16` fails, the only remaining unexplored area is the far West (`x=0, 1`).
+- **Underground Exit**: (9, 6).
+- **Gym**: (24, 7).
+- **Blockade**: Row 5 seems to be the northern limit of this section. Route 35 is North of this.
