@@ -2,15 +2,10 @@
 - Started: Friday, January 16, 2026
 
 ### Navigation Notes
-- **Goal**: Reach Goldenrod City West Side (Main Road).
-- **Strategy**: Flank via Route 34.
-- **Status**: Route 34 (11_1) at (13, 37). On the Main Path.
-- **Correction**: The Daycare is at x=13 (Row 15), so I am on the correct side for the Daycare and Goldenrod.
-- **Observation**: The fence at x=11 and x=16 channels the path here, but it likely opens up North.
-- **Plan**: 
-    1. Head North to the Daycare (Row 15).
-    2. Check for access to the West grassy area (x < 10) to loop back for the Item Ball.
-    3. Enter Goldenrod City.
+- **Location**: Goldenrod Underground (3_53).
+- **Goal**: Reach North Exit (3, 2) to enter Goldenrod City (North/West side).
+- **Current Action**: Battling PokeManiac Donald at (3, 20).
+- **Path**: North along the main corridor.
 
 ### Resource Alert
 - **Pokeballs**: 10 Poké Balls, 1 Lure Ball.
