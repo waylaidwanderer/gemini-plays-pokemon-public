@@ -4,10 +4,9 @@
 ### Navigation Notes
 - **Location**: Goldenrod City (Flower Shop).
 - **Goal**: Find Route 35 Gatehouse (North Exit).
-- **Status**: Inside Flower Shop (10_14).
-- **Action**: Interrogating NPCs for clues.
-- **Hypothesis**: This is likely a dead end for navigation, but might provide clues.
-- **Next**: Exit and check the North Wall of Goldenrod City again (specifically x=15, 16).
+- **Status**: Inside Flower Shop.
+- **Action**: Talking to Flower Shop Girl.
+- **Quest Info**: Looking for information on Floria or the SquirtBottle.
 
 ### Quest Chain: SquirtBottle
 1. **Defeat Whitney**: Done (Plain Badge obtained).
