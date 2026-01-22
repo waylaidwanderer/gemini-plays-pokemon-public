@@ -39,8 +39,7 @@
 - **Navigation**: Using East wall (Column 4) to avoid obstacles in center.
 ### Navigation Update (Turn 8998)
 - **Location**: Flower Shop (Goldenrod City).
-- **Goal**: Obtain SquirtBottle.
-- **Status**: Inside the shop.
-- **Task**: Talk to NPCs to check if Floria has returned or for clues.
-- **Route to Here**: Goldenrod City (11_2) -> Entrance at Column 19 (North).
-- **Next Step**: Talk to girl at (6, 5). If she mentions Route 36, head there.
+- **Goal**: Find Floria / Inspect Sudowoodo.
+- **Status**: Spoke to girl. She mentioned the tree wriggles but gave no bottle.
+- **Requirement**: Must find Floria at Route 36 or interact with the tree first.
+- **Next Step**: Exit Shop -> North to Route 35 -> Route 36.
