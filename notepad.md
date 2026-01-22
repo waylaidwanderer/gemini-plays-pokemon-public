@@ -2,14 +2,12 @@
 - Started: Friday, January 16, 2026
 
 ### Navigation Notes
-- **Location**: Goldenrod City (North-East).
+- **Location**: Goldenrod City (Flower Shop).
 - **Goal**: Find Route 35 Gatehouse (North Exit).
-- **Status**: Checking Flower Shop at (19, 1).
-- **Plan**: 
-    1. Enter Flower Shop. Check for back door or clues.
-    2. If dead end, backtrack South.
-    3. Inspect the North Wall at x=15, 16, 17 (South of the "unreachable" x=16 column).
-- **Hypothesis**: The Exit is a door at (15, 5) or (16, 5) that I missed, or through the Flower Shop.
+- **Status**: Inside Flower Shop (10_14).
+- **Action**: Interrogating NPCs for clues.
+- **Hypothesis**: This is likely a dead end for navigation, but might provide clues.
+- **Next**: Exit and check the North Wall of Goldenrod City again (specifically x=15, 16).
 
 ### Quest Chain: SquirtBottle
 1. **Defeat Whitney**: Done (Plain Badge obtained).
