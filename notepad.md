@@ -2,11 +2,11 @@
 - Started: Friday, January 16, 2026
 
 ### Navigation Notes
-- **Location**: Goldenrod City (Central - North Wall).
-- **Goal**: Find Route 35 Gatehouse / North Underground Entrance.
-- **Status**: Checked 11, 12, 13. Blocked.
-- **Plan**: Inspect remaining wall segments at (10, 5) and (14, 5).
-- **Hypothesis**: The door is in the corners of this building block (next to Game Corner or Name Rater).
+- **Location**: Goldenrod City (Central -> West).
+- **Goal**: Find Route 35 Gatehouse (North Exit).
+- **Status**: Checked North Wall at (10, 5) and (12, 5). Blocked.
+- **Plan**: Move West to (6, 7) and force-check the West Wall (x=5) and North-West corner.
+- **Hypothesis**: The path North is a narrow alley on the far West side (x<6).
 
 ### Quest Chain: SquirtBottle
 1. **Defeat Whitney**: Done (Plain Badge obtained).
@@ -15,8 +15,8 @@
 
 ### Key Locations
 - **Game Corner**: (9, 5).
-- **Name Rater**: (15, 7).
-- **Targets**: (10, 5), (14, 5).
+- **North Wall**: Solid (Row 5).
+- **Target**: Far West Alley.
 
 ### Strategic Review (Turn 8617)
 - **Reflection**: Progress in Goldenrod continues.
