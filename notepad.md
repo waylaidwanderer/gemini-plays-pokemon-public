@@ -3,10 +3,10 @@
 
 ### Navigation Notes
 - **Location**: Goldenrod City (South-West).
-- **Goal**: Escape the SW Quadrant.
-- **Current Action**: Analyzing Map Topology via Code.
-- **Problem**: I appear to be trapped in a region bounded by Rows 30-32 (South), Column 9 (East), and Row 21 (North). I need to find the specific tile that bridges this area to the rest of the city.
-- **Hypothesis**: There is a narrow path I missed, possibly obscured by "unseen" tiles or misidentified walls.
+- **Goal**: Reach East Goldenrod (Game Corner/Flower Shop) via Route 34.
+- **Current Action**: Heading to Route 34 Gatehouse at (4, 29).
+- **Reasoning**: The West side (where I am) is isolated from the East side by barriers at x=9 and Row 21. The only way to the East side seems to be exiting South to Route 34, moving East, and re-entering.
+- **Hypothesis**: The city is split into two sections at the South end, connected via Route 34.
 
 ### Resource Alert
 - **Pokeballs**: 10 Poké Balls, 1 Lure Ball.
@@ -14,6 +14,6 @@
 ### Key Locations
 - **Sister's House**: (29, 5).
 - **Flower Shop**: (19, 1).
-- **Pokemon Center**: (4, 29).
+- **Gatehouse (West)**: (4, 29).
 - **Game Corner**: (20, 29).
 - **Underground Entrances**: SW (5, 25), SE (21, 25).
