@@ -38,8 +38,8 @@
 - **Status**: Moving North, bypassing sprites at (3, 27).
 - **Navigation**: Using East wall (Column 4) to avoid obstacles in center.
 ### Navigation Update (Turn 8998)
-- **Location**: Enclosed Area (West Goldenrod).
-- **Goal**: Escape to Main Street.
-- **Hypothesis**: The NPC at (3, 27) might have info, or the building at (4-5, 29) is passable.
-- **Plan**: Talk to NPC. Try to enter building at (4, 29).
-- **Contingency**: If stuck, return to Underground and re-evaluate East Side (South Route).
+- **Location**: Goldenrod City (Main Street) at (11, 30).
+- **Status**: Escaped "Enclosed Area" (which was likely the backyard of the building at 4,29).
+- **Goal**: Reach Route 35 (North).
+- **Plan**: Head North along the main street.
+- **Quest**: Find Floria at Route 36 to get SquirtBottle.
