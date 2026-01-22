@@ -11,11 +11,12 @@
     3.Systematically explore North from there, hugging the West edge.
 
 ### Navigation Notes
-- **Location**: Goldenrod City (Radio Tower Area).
-- **Goal**: Reach Far West Edge (x=0).
-- **Status**: Finishing Joey's Call.
-- **Immediate Action**: Bypass NPC at (4, 16) using the southern path (Row 18).
-- **Path**: (5, 16) -> (5, 18) -> (3, 18) -> (3, 16) -> North.
+- **Location**: Goldenrod City (West of Radio Tower).
+- **Goal**: Follow West Corridor (x=3) North to Route 35.
+- **Status**: Finishing Joey's call at (3, 16).
+- **Action**: Heading North along the x=3 line.
+- **Observation**: This path bypasses the NPC and the Radio Tower.
+- **Hypothesis**: This corridor leads directly to the Route 35 Gatehouse (or a transition).
 
 ### Quest Chain: SquirtBottle
 1. **Defeat Whitney**: Done (Plain Badge obtained).
@@ -23,6 +24,6 @@
 3. **Get Bottle**: Return to Flower Shop after meeting Floria.
 
 ### Key Locations
-- **NPC Block**: (4, 16).
-- **Bypass Path**: (3, 18).
-- **Target**: Far West Corridor (x=0-3).
+- **NPC Block**: (4, 16) [Bypassed].
+- **Current Path**: x=3.
+- **Radio Tower**: (5, 15).
