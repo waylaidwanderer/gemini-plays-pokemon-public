@@ -11,10 +11,11 @@
     3.Systematically explore North from there, hugging the West edge.
 
 ### Navigation Notes
-- **Location**: Goldenrod City (North-East).
-- **Goal**: Reach Route 35 Gatehouse (North Exit).
-- **Immediate Target**: Main Street at (9, 10).
-- **Next Step**: Sweep the West Side (x<9).
+- **Location**: Goldenrod City (North-East -> South).
+- **Goal**: Return to West Side via Tracks.
+- **Status**: Moving South to Tracks Crossing (18, 14).
+- **Reasoning**: Direct West path at Row 10 is blocked by fences/walls. Must loop South to Row 14.
+- **Next**: From (18, 14), head West to (9, 14), then North to Game Corner.
 
 ### Quest Chain: SquirtBottle
 1. **Defeat Whitney**: Done (Plain Badge obtained).
