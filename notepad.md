@@ -5,7 +5,7 @@
 - **Location**: Goldenrod City (East of Gym).
 - **Goal**: Find path to Route 35 Gatehouse.
 - **Status**: Nicknaming newly hatched Igglybuff "Amber".
-- **Method**: Typing name, then resuming navigation.
+- **Method**: Typing "ber", then navigating to END.
 
 ### Quest Chain: SquirtBottle
 1. **Defeat Whitney**: Done (Plain Badge obtained).
