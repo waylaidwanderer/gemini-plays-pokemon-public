@@ -3,10 +3,10 @@
 
 ### Navigation Notes
 - **Strategy**: Underground Re-Do.
-- **Status**: At Underground North Exit (3_53).
-- **Plan**: Exit the Underground, then head North to Route 35.
-- **Reasoning**: Successfully navigated the Underground.
-- **Timestamp**: Turn 8248.
+- **Status**: Goldenrod City (3_54) at (21, 25).
+- **Plan**: Go North to Route 35.
+- **Reasoning**: Exited Underground at (21, 25) (East side). Need to navigate streets North.
+- **Timestamp**: Turn 8249.
 
 ### Key Locations
 - **Sister's House**: (29, 5).
