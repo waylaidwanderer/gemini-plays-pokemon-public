@@ -38,10 +38,8 @@
 - **Status**: Moving North, bypassing sprites at (3, 27).
 - **Navigation**: Using East wall (Column 4) to avoid obstacles in center.
 ### Navigation Update (Turn 8998)
-- **Location**: Underground Tunnel (South End).
-- **Goal**: Reach East Side of Goldenrod via North Exit (3, 2).
-- **Plan**:
-    1. Navigate North to (3, 2).
-    2. Exit to Goldenrod East Side.
-    3. Head SOUTH to the bottom edge of the map (Route 34 connection).
-- **Hypothesis**: The East Side connects to Route 34, allowing a loop to the West Side Main Street.
+- **Location**: Underground Tunnel.
+- **Goal**: Reach North-West Exit (3, 2).
+- **Tactics**: Sidestepping blocked path at (3, 27) (Haircut Bros). Using Column 4.
+- **Next Step**: Exit at (3, 2) -> East Side Goldenrod.
+- **Hypothesis**: East Side allows access to Route 34 (South).
