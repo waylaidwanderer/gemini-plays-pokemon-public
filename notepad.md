@@ -39,7 +39,7 @@
 - **Navigation**: Using East wall (Column 4) to avoid obstacles in center.
 ### Navigation Update (Turn 8998)
 - **Current Location**: Goldenrod City East Side (21, 25).
-- **Observation**: North (Row 21) appears blocked by a wall/building.
-- **Hypothesis**: The East Side is isolated from the North.
-- **Plan**: Head South to the City Entrance (Route 34). Check if I can cross to the West Side from the South.
-- **Goal**: Reach West Side Main Street to access Radio Tower and Route 35.
+- **Observation**: East Side (Row 21+) is a dead end to the North.
+- **Plan**: Head South to the City Entrance (Route 34).
+- **Hypothesis**: The City Entrance connects both West and East sides. I can cross the tracks there.
+- **Goal**: Reach West Side Main Street -> Radio Tower -> Route 35.
