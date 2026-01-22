@@ -11,14 +11,14 @@
     3.Systematically explore North from there, hugging the West edge.
 
 ### Navigation Notes
-- **Location**: Goldenrod City (Central - West Side).
-- **Goal**: Reach Route 35 Gatehouse (North Exit).
-- **Status**: At (8, 8). Moving West to inspect the wall at x=5.
+- **Location**: Goldenrod City (Central -> South-West).
+- **Goal**: Investigate NPC Block at Radio Tower.
+- **Status**: At (6, 7). Moving to Radio Tower (5, 15).
 - **Plan**: 
-    1. Move to (6, 8).
-    2. Inspect (5, 8) and (5, 7).
-    3. Move North to (6, 5) to inspect the area West of the Game Corner.
-- **Hypothesis**: A path North exists along the x=5 line, or the Game Corner has a side entrance.
+    1. Cross tracks at x=8 (verified walkable).
+    2. Go to Radio Tower entrance.
+    3. Talk to/Inspect NPC at (4, 16).
+- **Hypothesis**: The path North is past the NPC on the West side.
 
 ### Quest Chain: SquirtBottle
 1. **Defeat Whitney**: Done (Plain Badge obtained).
@@ -27,4 +27,5 @@
 
 ### Key Locations
 - **Game Corner**: (9, 5).
-- **Target**: (5, 8).
+- **Radio Tower**: (5, 15).
+- **NPC Block**: (4, 16).
