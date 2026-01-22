@@ -4,9 +4,8 @@
 ### Navigation Notes
 - **Location**: Goldenrod City (East Residential Area).
 - **Goal**: Find Route 35 Gatehouse.
-- **Status**: At Sister's House (29, 5). Dead end.
-- **Next**: Backtrack South, then explore East edge (x=33) for path North.
-- **Hypothesis**: The Gatehouse is likely on the Main Street, but I might have missed the door. Checking East edge first to be sure.
+- **Status**: Answering Joey's Phone Call (Again).
+- **Next**: Resume search at East edge (x=33).
 
 ### Quest Chain: SquirtBottle
 1. **Defeat Whitney**: Done (Plain Badge obtained).
