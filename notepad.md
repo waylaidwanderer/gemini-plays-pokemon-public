@@ -14,20 +14,18 @@
 
 ### Validated Routes
 - **Flower Shop**: CONFIRMED at Goldenrod City (29, 5).
-- **Gatehouse**: Still searching. Likely North on the main road (approx x=13).
-- **Underground**: Connects South (11, 29) to North (9, 5). Warning: Confusing layout.
+- **Gatehouse**: Likely North of Row 0. Access via gap between Name Rater and Gym (x=18-21).
+- **Underground**: Connects South (11, 29) to North (9, 5).
 
 ### Ruled Out Routes
-- **West Side (Radio Tower)**: Blocked at x=8.
-- **Station Front (x=9-13)**: Blocked by Station Building.
-- **Direct North (x=8)**: Blocked by Building edge at (8, 13).
-- **Flower Shop (19, 1)**: Dead End.
+- **West Side (x=6-8)**: Blocked by buildings at Row 5.
+- **Center (x=9-11)**: Blocked by Underground Entrance at (9, 5).
+- **Gym East (x>24)**: Dead ends.
 
 ### Navigation Plan
-- **Current Location**: (18, 12).
-- **Observation**: Successfully crossed tracks at x=18.
-- **Action**: Move North past Officer (Row 10), then head West to Name Rater (15, 7) or North to Gatehouse.
-- **Goal**: Reach Route 35 Gatehouse.
+- **Current Location**: (6, 6) - Blocked North.
+- **Action**: Move South to Row 9, then East to x=18.
+- **Goal**: Navigate through the gap between Name Rater and Gym (x=18-21) to reach Row 0.
 
 ### Quest Log
 - **Badges**: Zephyr, Hive, Plain.
