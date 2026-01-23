@@ -6,17 +6,16 @@
 2. **Get SquirtBottle**: Return to Flower Shop (19, 1) after finding Floria.
 3. **Clear Sudowoodo**: Use SquirtBottle on Route 36.
 
-### Critical Testing Plan
-- **Contradiction**: Critique says exit is at x=18/20 on Row 0. XML says Wall.
-- **Action**: Physically bump into the tiles at (18, 1) and (20, 1) to verify collision.
-- **Current Pos**: (19, 2).
-- **Step 1**: Move Left to (18, 2) -> Press Up.
-- **Step 2**: Move Right to (20, 2) -> Press Up.
+### Navigation Update
+- **Fact**: Map 11_9 (at 33, 9) is a residential house, not the Gatehouse.
+- **Plan**: Exit this house and resume search.
+- **Potential Location**: Re-examine the area North of the Train Station (x=8-13) or the far North-East (x=36, y=4).
 
 ### Validated Routes
 - **Flower Shop**: (19, 1).
 - **Floria's Sister**: (29, 5).
 - **Underground**: Connects South (11, 29) to North (9, 5).
+- **House (11_9)**: Located at (33, 9). Contains Randy. Not a Gatehouse.
 
 ### Quest Log
 - **Badges**: Zephyr, Hive, Plain.
