@@ -34,7 +34,7 @@
 ### Quest Log
 - **Badges**: Zephyr, Hive, Plain.
 - **Party**: Quilava (27), Sentret (2), Bellsprout (6), Togepi (5), Rattata (8), Igglybuff (5).
-- **Storage**: Drowzee (Topaz) [Box 1].
+- **Storage**: Drowzee (Topaz) [Box 1] (System Warning: Box count reports 0/20. Verify at PC).
 ### Reflection (Turn 9251)
 - **Progress**: Confirmed West tracks are a dead end.
 - **Plan**: Enter Underground via South Entrance (11, 29).
