@@ -8,8 +8,9 @@
 
 ### Navigation Status: Goldenrod City
 - **Goal**: Reach Route 35 (North).
-- **Current Situation**: At West Side (near Radio Tower). Path North blocked by NPC.
-- **Plan**: Move East to main street, then head North past the Gym to find the Route 35 Gatehouse.
+- **Current Situation**: At (19, 6), North of the Rail Line. The path North seems blocked by walls at y=4/5. 
+- **Hypothesis**: The path might involve navigating around the blocked Main Street, possibly via the far East side or a hidden gap I missed. 
+- **Plan**: Use pathfinding to locate a valid route to the Gatehouse at (16, 0). If blocked, investigate the East side (x>29).
 
 ### Verified Locations
 - **Goldenrod City (Map 11_2)**:
