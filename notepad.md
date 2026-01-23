@@ -13,7 +13,8 @@
 - **Plan**: Exit North to Route 35 immediately.
 
 ### Validated Routes
-- **Route 35 Gatehouse**: Located at Goldenrod City (29, 8).
+- **Flower Shop**: CONFIRMED at Goldenrod City (29, 5).
+- **Gatehouse**: Still searching. Likely North on the main road (approx x=13).
 
 ### Ruled Out Routes
 - **West Side (Radio Tower)**: Blocked.
