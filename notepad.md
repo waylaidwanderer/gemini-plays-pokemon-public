@@ -6,21 +6,16 @@
 2. **Get SquirtBottle**: Return to Flower Shop (19, 1) after finding Floria.
 3. **Clear Sudowoodo**: Use SquirtBottle on Route 36.
 
-### Navigation Status: Goldenrod City (Puzzle)
+### Navigation Status: Goldenrod & Route 34
 - **Goal**: Reach Route 35 (North).
-- **Problem**: Main path blocked at (16, 4). East Path blocked at (32, 6) by fence.
-- **Verified Dead Ends**:
-    - **Sister's House Area (29, 5)**: Blocked.
-    - **Alcove (31, 6)**: Blocked by fence.
-    - **East House (33, 9)**: NPCs discussing PP. Likely no passage.
-    - **Route 34 East Loop**: Blocked by fence at Row 3.
-- **Confirmed Info**: Floria is at Route 36 (North of Goldenrod).
-- **Navigation Plan**: 
-    1. The North-East sector (Row 5-8, Col 20-35) seems to be a dead end (House, Gym).
-    2. Return to Underground North Entrance (9, 5).
-    3. Take Underground to South Entrance (11, 29).
-    4. From South-West, navigate North along the West Edge (past Radio Tower) to reach Route 35.
-- **Hypothesis**: The path to Route 35 is strictly on the West side of the city.
+- **Route 34**: 
+    - **East Side**: Main Path, Daycare (13, 15), Gatehouse (13, 37).
+    - **West Side**: Grassy area. Access via gap at Row 9.
+    - **Barrier**: Trees/Fence at x=9 separates East/West.
+- **Goldenrod City**:
+    - **Main Path**: Blocked North of Gym.
+    - **West Strip**: Access required to reach Route 35.
+- **Plan**: Check Ilex Forest Gatehouse for a path to Route 34 West Side. If not, backtrack to Row 9 gap.
 
 ### Verified Locations
 - **Goldenrod City (Map 11_2)**:
