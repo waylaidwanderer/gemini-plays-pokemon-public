@@ -7,17 +7,19 @@
 3. **Clear Sudowoodo**: Use SquirtBottle on Route 36.
 
 ### Navigation Plan
-- **Hypothesis**: The Main Road (West) is blocked by the Game Corner/Walls.
-- **Strategy**: Flank East past the Gym to finding a path North.
+- **Status**: East Side (x>24) is a dead end.
+- **New Strategy**: Return to West Side (Main Road) and investigate the North boundary (y=5) for the Gatehouse.
+- **Hypothesis**: The Gatehouse is likely at the top of the road (x=4 to x=9), possibly disguised or at x<6.
 - **Route**:
-  - (24, 8) -> East to x=32 (Far East Corridor).
-  - (32, 8) -> North to (32, 0) to check for Route 35 connection.
+  - (34, 7) -> West to (24, 8) [Gym].
+  - (24, 8) -> West to (6, 8) [Main Road].
+  - (6, 8) -> Explore North-West (x<6, y<8).
 
 ### Validated Routes
 - **Flower Shop**: (19, 1) (Dead End for exit).
-- **Randy's House**: (33, 9).
-- **Floria's Sister's House**: (29, 5).
+- **East Dead End**: (34, 7).
 - **Gym**: (24, 7).
+- **Underground**: Entrance at (9, 5).
 
 ### Quest Log
 - **Badges**: Zephyr, Hive, Plain.
