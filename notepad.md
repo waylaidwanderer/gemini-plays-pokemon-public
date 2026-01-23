@@ -48,6 +48,6 @@
 - **Explore North-East**: Move North to Row 10, then East past the Gym.
 - **Goal**: Reach the area East of the Gym (x>24) and find the exit to Route 35.
 - [9794] Map 11_9 is a RESIDENTIAL HOUSE, not the Gatehouse. Contains Randy (gives Kenya quest).
-- **Hypothesis**: The "Underground Ent N" at (9, 5) might actually be the Route 35 Gatehouse or lead to the area behind the wall.
-- **Plan**: Finish call, then check building at (9, 5).
-- **Backup**: Explore North-West corner (x<9) if (9, 5) is just the Underground.
+- **Observation**: Found a path North between Name Rater (x=15) and Gym (x=24).
+- **Hypothesis**: This path leads to the Route 35 Gatehouse.
+- **Plan**: Follow the path North from (20, 8).
