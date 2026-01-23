@@ -14,9 +14,13 @@
     - **Alcove (31, 6)**: Blocked by fence.
     - **East House (33, 9)**: NPCs discussing PP. Likely no passage.
     - **Route 34 East Loop**: Blocked by fence at Row 3.
-- **Correction**: Route 35 Gatehouse is likely in the North-East, not North-West. Past summaries mention visiting a building at (29, 8).
-- **Navigation**: I am at (13, 6). I need to go South to Row 8, then East past the Name Rater to reach the North-East sector.
-- **Goal**: Reach (29, 8) and check if it's the Gatehouse or the Sister's House. Find the exit to Route 35.
+- **Confirmed Info**: Floria is at Route 36 (North of Goldenrod).
+- **Navigation Plan**: 
+    1. The North-East sector (Row 5-8, Col 20-35) seems to be a dead end (House, Gym).
+    2. Return to Underground North Entrance (9, 5).
+    3. Take Underground to South Entrance (11, 29).
+    4. From South-West, navigate North along the West Edge (past Radio Tower) to reach Route 35.
+- **Hypothesis**: The path to Route 35 is strictly on the West side of the city.
 
 ### Verified Locations
 - **Goldenrod City**:
