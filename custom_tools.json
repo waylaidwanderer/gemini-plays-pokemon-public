@@ -308,5 +308,28 @@
         "action_counter": 7231
       }
     ]
+  },
+  "find_reachable_exits": {
+    "description": "Uses BFS to find all reachable tiles on the map boundaries (Row 0, Col 0, Row H-1, Col W-1) and specific warp tiles (TYPE_201b) from the current position. Returns a list of reachable exit coordinates and warp locations.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "autopress_buttons": {
+          "type": "boolean",
+          "default": false
+        }
+      },
+      "required": [
+        "autopress_buttons"
+      ]
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\n\ndef solve():\n    try:\n        root = ET.fromstring(map_xml_string)\n        width = int(root.get(\"width\"))\n        height = int(root.get(\"height\"))\n        \n        walkable = set()\n        warps = set()\n        \n        # Parse map\n        for row in root.findall('Row'):\n            y = int(row.get('id'))\n            for tile in row.findall('Tile'):\n                x = int(tile.get('id'))\n                t_type = tile.get('type')\n                \n                # Walkable types based on observation:\n                # TYPE_3fe2: Standard floor\n                # TYPE_4e8c: Tracks (Walkable?)\n                # TYPE_201b: Door/Warp Mat\n                # TYPE_bc52: Carpet/Floor variation? (Adding common ones just in case)\n                # We will be generous and assume anything NOT 2889 (Wall) might be walkable if we are desperate,\n                # but let's stick to positive inclusion first.\n                \n                if t_type in ['TYPE_3fe2', 'TYPE_4e8c', 'TYPE_201b', 'TYPE_c453', 'TYPE_ffbb']: \n                    walkable.add((x, y))\n                \n                if t_type == 'TYPE_201b':\n                    warps.add((x, y))\n\n        # Find player position dynamically or pass it?\n        # The prompt says player position is in game state. \n        # But for the tool, I'll scan the XML for <Player/> tag to be safe, or just use a known start.\n        # Actually, let's scan for Player tag.\n        start_pos = None\n        for row in root.findall('Row'):\n            y = int(row.get('id'))\n            for tile in row.findall('Tile'):\n                if tile.find('Player') is not None:\n                    start_pos = (int(tile.get('id')), y)\n                    break\n            if start_pos: break\n            \n        if not start_pos:\n            print(\"Player not found in XML. Defaulting to (33, 10).\")\n            start_pos = (33, 10)\n            if start_pos not in walkable:\n                walkable.add(start_pos)\n\n        queue = deque([start_pos])\n        visited = {start_pos}\n        exits = []\n        reachable_warps = []\n        \n        while queue:\n            cx, cy = queue.popleft()\n            \n            # Check if boundary\n            if cx == 0 or cy == 0 or cx == width - 1 or cy == height - 1:\n                exits.append((cx, cy))\n            \n            # Check if warp\n            if (cx, cy) in warps:\n                reachable_warps.append((cx, cy))\n\n            for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n                nx, ny = cx + dx, cy + dy\n                if (nx, ny) in walkable and (nx, ny) not in visited:\n                    visited.add((nx, ny))\n                    queue.append((nx, ny))\n        \n        print(f\"Analysis complete from {start_pos}.\")\n        print(f\"Reachable Map Edge Exits: {sorted(list(set(exits)))}\")\n        print(f\"Reachable Warp Tiles: {sorted(list(set(reachable_warps)))}\")\n        \n        if not exits and not reachable_warps:\n             print(\"No exits found! You might be trapped or walkable types are missing.\")\n\n    except Exception as e:\n        print(f\"Error: {e}\")\n\nsolve()",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-23T20:36:44.830Z",
+        "action_counter": 9932
+      }
+    ]
   }
 }
