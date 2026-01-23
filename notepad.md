@@ -48,6 +48,6 @@
 - **Explore North-East**: Move North to Row 10, then East past the Gym.
 - **Goal**: Reach the area East of the Gym (x>24) and find the exit to Route 35.
 - [9794] Map 11_9 is a RESIDENTIAL HOUSE, not the Gatehouse. Contains Randy (gives Kenya quest).
-- **Observation**: Found a path North between Name Rater (x=15) and Gym (x=24).
-- **Hypothesis**: This path leads to the Route 35 Gatehouse.
-- **Plan**: Follow the path North from (20, 8).
+- **Observation**: At (15, 8), facing Name Rater. Main street is to the West.
+- **Plan**: Move West to x=10, then head North to find the Gatehouse.
+- **Correction**: Previous "Path North" at x=20 led to dead ends. The true exit is likely aligned with the main vertical road (x~9).
