@@ -8,8 +8,8 @@
 
 ### Navigation Status: Goldenrod City
 - **Goal**: Reach Route 35 (North).
-- **Current Situation**: Near Goldenrod Gym (23, 9).
-- **Plan**: Go West to (19, 5) to bypass the Gym, then head North to the Gatehouse.
+- **Current Situation**: North of Goldenrod Gym at (19, 5).
+- **Plan**: Head North-West to the Gatehouse at (16, 0) to exit the city.
 
 ### Verified Locations
 - **Goldenrod City (Map 11_2)**:
