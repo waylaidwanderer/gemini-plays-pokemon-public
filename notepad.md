@@ -34,3 +34,4 @@
 ### Current Plan
 - **Explore East Side**: Move East past the Gym (x > 24) and scan for a path North (y < 10).
 - **Goal**: Find the exit to Route 35.
+- [9730] Navigation Note: Fence runs along y=11. Passable gap exists at y=9 to access the East Side (Gym area).
