@@ -6,10 +6,20 @@
 2. **Get SquirtBottle**: Return to Flower Shop (19, 1) after finding Floria.
 3. **Clear Sudowoodo**: Use SquirtBottle on Route 36.
 
-### Navigation Status: Goldenrod City
-- **Goal**: Reach Route 35 (North).
-- **Current Situation**: South of Goldenrod Gym at (18, 10). Blocked by NPC at (19, 10).
-- **Plan**: Navigate East around the NPC, then head North along the East side of the city to reach Route 35.
+### Navigation Status: Route 35 Gatehouse
+- **Current Location**: Map 11_9 (Route 35 Gatehouse).
+- **Goal**: Pass through to Route 35 (North).
+- **Obstacle**: Guard at (2, 4).
+- **Plan**: Walk around the guard (Right -> Up) to reach the North Exit at (3, 0).
+
+### Validated Routes
+- **Route 35 Gatehouse**: Located at Goldenrod City (29, 8).
+
+### Ruled Out Routes
+- **West Side (Radio Tower)**: Blocked.
+- **Narrow Path (x=3)**: Dead End.
+- **Flower Shop (19, 1)**: Dead End.
+- **Underground**: Not the target.
 
 ### Verified Locations
 - **Goldenrod City (Map 11_2)**:
