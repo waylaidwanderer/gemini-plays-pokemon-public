@@ -28,7 +28,9 @@
     - Dept Store: (24, 27)
     - Game Corner: (14, 21)
     - Bike Shop: (29, 29)
-    - Underground Entrances: (11, 29) [South], (9, 5) [North]
+    - Underground Entrances: (11, 29) [South], (9, 5) [North] (Connects to Underground Tunnel 3_53)
+    - Tunnel North Exit (3, 2) -> North Entrance Hall -> City (9, 6) (Near Route 35 Gate)
+    - Tunnel South Exit (3, 34) -> South Entrance Hall -> City (11, 29)
 
 ### Quest Log
 - **Badges**: Zephyr, Hive, Plain.
