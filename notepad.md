@@ -8,8 +8,8 @@
 
 ### Navigation Status: Goldenrod City
 - **Goal**: Reach Route 35 (North).
-- **Current Situation**: In Goldenrod Underground (Map 3_53) at (3, 28). Moving North to the exit at (3, 2).
-- **Plan**: Exit the Underground at the North end, then explore the North side of Goldenrod City to find the Route 35 Gatehouse.
+- **Current Situation**: Exiting the Underground North Entrance.
+- **Plan**: Head North to the Route 35 Gatehouse.
 
 ### Verified Locations
 - **Goldenrod City (Map 11_2)**:
