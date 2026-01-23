@@ -23,14 +23,18 @@
 - **Hypothesis**: The path to Route 35 is strictly on the West side of the city.
 
 ### Verified Locations
-- **Goldenrod City**:
+- **Goldenrod City (Map 11_2)**:
     - Pokemon Center: (15, 27)
     - Dept Store: (24, 27)
     - Game Corner: (14, 21)
     - Bike Shop: (29, 29)
-    - Underground Entrances: (11, 29) [South], (9, 5) [North] (Connects to Underground Tunnel 3_53)
-    - Tunnel North Exit (3, 2) -> North Entrance Hall -> City (9, 6) (Near Route 35 Gate)
-    - Tunnel South Exit (3, 34) -> South Entrance Hall -> City (11, 29)
+    - Underground Entrances: (11, 29) [South], (9, 5) [North]
+- **Underground Halls (Map 3_54)**:
+    - North Hall: Stairs (21, 25) <-> Exit (21, 29) -> City North
+    - South Hall: Stairs (5, 25) <-> Exit (4, 29) -> City South
+- **Underground Tunnel (Map 3_53)**:
+    - North Exit: (3, 2) -> North Hall
+    - South Exit: (3, 34) -> South Hall
 
 ### Quest Log
 - **Badges**: Zephyr, Hive, Plain.
