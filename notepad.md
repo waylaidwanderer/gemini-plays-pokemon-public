@@ -13,9 +13,10 @@
     - **Sister's House Area (29, 5)**: Blocked.
     - **Alcove (31, 6)**: Blocked by fence.
     - **East House (33, 9)**: NPCs discussing PP. Likely no passage.
+    - **Route 34 East Loop**: Blocked by fence at Row 3.
 - **Hypothesis**:
-    1. **Gatehouse (29, 8)**: This MUST be the exit to Route 35. I visited it before but maybe didn't go through?
-- **Immediate Plan**: Talk to Red NPC, then exit and head to Gatehouse (29, 8).
+    1. **Underground North Exit**: The North Exit of the Underground (9, 6) dumps me North of the blocking wall. I can reach the Flower Shop and Route 35 from there.
+- **Immediate Plan**: Enter Goldenrod, go to Underground (11, 29), take North Exit.
 
 ### Verified Locations
 - **Goldenrod City**:
