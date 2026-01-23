@@ -32,8 +32,8 @@
 ### Reflection (Turn 9251)
 - **Progress**: Confirmed West tracks are a dead end.
 - **Plan**: Enter Underground via South Entrance (11, 29).
-- **Underground Reality**: The Underground Tunnel (Map 3_53) connects two Southern entrances:
-    - West Ent: Goldenrod (11, 29)
-    - East Ent: Goldenrod (21, 25) [My current location]
-    - Conclusion: The Underground does NOT lead to the North side (Row 6).
-- **New Plan**: Navigate on the surface. Go West to the main street, then North to the Radio Tower area. Look for the "Narrow Path" at x=3 to bypass the blockade at (4, 16).
+- **Surface Navigation**: successfully exited Underground at (5, 25).
+- **Strategy**: The area immediately North of the exit is blocked by planters.
+    - Path found: Go South to Row 27, then West to the edge (x=1 or x=2), then North.
+    - This aligns with the "Narrow Path" hypothesis.
+- **Goal**: Navigate North along the West edge (x=2) to reach the Radio Tower/Route 35 area.
