@@ -33,3 +33,4 @@
 - **Storage**: Drowzee (Topaz) [Box 1].
 - [9544] The 'Back Door' at (20, 29) is locked/inaccessible. Retrying Underground.
 - [9542] Discovery: Underground Exit (21, 25) leads to a sealed 'Backyard'.
+- [9590] CONFIRMED: Goldenrod Underground has side exits to enclosed 'Backyards'. The main City entrances/exits are at (11, 29) [South] and (9, 5) [North]. To traverse the city, use these.
