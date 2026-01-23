@@ -10,7 +10,12 @@
 - **Current Location**: Map 11_9 (Route 35 Gatehouse).
 - **Goal**: Pass through to Route 35 via door at (5, 0).
 - **Obstacle**: Party is full.
-- **Plan**: Use PC at (2,1) to deposit a Pokemon, then accept Guard's quest. Then exit North.
+- **Plan**:
+  1. Finish Joey call.
+  2. Turn Right, Access PC at (2, 1).
+  3. Deposit Sentret.
+  4. Talk to Officer (Randy) to get Kenya.
+  5. Go North to Route 35.
 
 ### Validated Routes
 - **Route 35 Gatehouse**: Located at Goldenrod City (29, 8).
