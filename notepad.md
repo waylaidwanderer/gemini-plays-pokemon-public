@@ -28,7 +28,9 @@
 ### Ruled Out Routes
 - **West Side (Radio Tower)**: Blocked by NPC.
 - **North-West (Flower Shop)**: Dead end at (19, 1).
-- **Underground**: Good for crossing tracks, but exits lead to enclosed areas or dead ends so far.
+- **Underground**: Exits lead to enclosed areas (9, 5) or back to start.
+- **Direct North**: Path to (16, 0) is blocked from (19, 11).
 
 ### Current Plan
-- Explore East Side (past Gym) to find a path North.
+- **Explore East Side**: Move East past the Gym (x > 24) and scan for a path North (y < 10).
+- **Goal**: Find the exit to Route 35.
