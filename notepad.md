@@ -14,10 +14,9 @@
     - **Alcove (31, 6)**: Blocked by fence.
     - **East House (33, 9)**: NPCs discussing PP. Likely no passage.
     - **Route 34 East Loop**: Blocked by fence at Row 3.
-- **Success**: Reached Goldenrod City North via Underground Exit (9, 5). Currently at (9, 6).
-- **Location**: I am now North of the blockade (Row 10/16).
-- **Immediate Goal**: Explore North (y < 6) to find the Route 35 Gatehouse.
-- **Route 35**: Should be at the top edge of the map.
+- **Correction**: Route 35 Gatehouse is likely in the North-East, not North-West. Past summaries mention visiting a building at (29, 8).
+- **Navigation**: I am at (13, 6). I need to go South to Row 8, then East past the Name Rater to reach the North-East sector.
+- **Goal**: Reach (29, 8) and check if it's the Gatehouse or the Sister's House. Find the exit to Route 35.
 
 ### Verified Locations
 - **Goldenrod City**:
