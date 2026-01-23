@@ -37,3 +37,4 @@
     - Path found: Go South to Row 27, then West to the edge (x=1 or x=2), then North.
     - This aligns with the "Narrow Path" hypothesis.
 - **Goal**: Navigate North along the West edge (x=2) to reach the Radio Tower/Route 35 area.
+- **Blockage**: (2, 25) seems impassable despite looking like floor. Attempting to bypass via column 3.
