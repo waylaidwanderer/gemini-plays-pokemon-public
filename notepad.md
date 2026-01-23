@@ -37,5 +37,8 @@
     - This aligns with the "Narrow Path" hypothesis.
 - **Goal**: Navigate North along the West edge (x=2) to reach the Radio Tower/Route 35 area.
 - **Blockage**: (2, 25) seems impassable despite looking like floor. Attempting to bypass via column 3.
-- **Navigation Update**: The central area (x=6-17, y=10-20) is enclosed. Must use the corridor at x=18 to move North/South.
-- **Plan**: Go South via x=18 to Row 27, then West to the coast to bypass the city center.
+- **City Layout**: Goldenrod appears divided into vertical strips.
+    - **East Strip**: Flower Shop, Residence. Dead end North.
+    - **Center Strip**: Enclosed/Blocked.
+    - **West Strip**: Radio Tower, Route 35 Gate. Accessible via Underground or wrapping around South?
+- **Plan**: Move South to Row 27, then West past Pokemon Center. If blocked, use Underground (11, 29) to reach West Side (5, 25) again and retry navigating North from there.
