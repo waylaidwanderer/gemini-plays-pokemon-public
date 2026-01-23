@@ -52,5 +52,6 @@
 - **Plan**: Move West to x=10, then head North to find the Gatehouse.
 - **Correction**: Previous "Path North" at x=20 led to dead ends. The true exit is likely aligned with the main vertical road (x~9).
 - **Observation**: Building at (9, 5) is the Underground Entrance (North).
-- **Navigation**: The area East of x=5 is separated from the Main Street (West of x=5) by a long wall.
-- **Plan**: Head South to y=16 to find a gap in the wall, then cross to the West side (Main Street) and head North to the Gatehouse.
+- **Observation**: Crossing West at y=16 to reach Main Street.
+- **Plan**: Move West to x~8, then Head North to find the Route 35 Gatehouse.
+- **Note**: Radio Tower is at (5, 15), so aim for x=8 to avoid blockage.
