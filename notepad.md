@@ -7,18 +7,17 @@
 3. **Clear Sudowoodo**: Use SquirtBottle on Route 36.
 
 ### Navigation Plan
-- **Hypothesis**: The City is split into West (Road) and East (Gym) sections by a central block.
-- **Problem**: West side seems blocked at y=5.
-- **Strategy**: Explore the East side (Gym area) for a path North (x>27).
+- **Hypothesis**: The Main Road (West) is blocked by the Game Corner/Walls.
+- **Strategy**: Flank East past the Gym to finding a path North.
 - **Route**:
-  - (20, 7) -> South to y=8.
-  - (20, 8) -> East to x=24 (Gym Front).
-  - (24, 8) -> North/East to explore x>27.
+  - (24, 8) -> East to x=32 (Far East Corridor).
+  - (32, 8) -> North to (32, 0) to check for Route 35 connection.
 
 ### Validated Routes
 - **Flower Shop**: (19, 1) (Dead End for exit).
-- **Underground**: Connects South (11, 29), North (9, 5), South-East (21, 25).
-- **Gaps**: Central wall has gaps at y=8, 9, 10.
+- **Randy's House**: (33, 9).
+- **Floria's Sister's House**: (29, 5).
+- **Gym**: (24, 7).
 
 ### Quest Log
 - **Badges**: Zephyr, Hive, Plain.
