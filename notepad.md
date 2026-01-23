@@ -9,8 +9,8 @@
 ### Navigation Status: Route 35 Gatehouse
 - **Current Location**: Map 11_9 (Route 35 Gatehouse).
 - **Goal**: Pass through to Route 35 via door at (5, 0).
-- **Obstacle**: Party is full (cannot accept Guard's Spearow), skipping quest for now.
-- **Plan**: Move to (5, 0) to exit North.
+- **Obstacle**: Party is full.
+- **Plan**: Use PC at (2,1) to deposit a Pokemon, then accept Guard's quest. Then exit North.
 
 ### Validated Routes
 - **Route 35 Gatehouse**: Located at Goldenrod City (29, 8).
