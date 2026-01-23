@@ -24,11 +24,10 @@
 - **Flower Shop (19, 1)**: Dead End.
 
 ### Navigation Plan
-- **Current Location**: (8, 14).
-- **Observation**: x=8 blocked North. x=7 blocked Left.
-- **Insight**: Tracks block Row 14 from x=2 to x=17. Gap exists at x=18.
-- **Action**: Move Down to Row 16, East to x=18, then North through the gap.
-- **Goal**: Cross the tracks at x=18 and reach the North side of the city.
+- **Current Location**: (18, 12).
+- **Observation**: Successfully crossed tracks at x=18.
+- **Action**: Move North past Officer (Row 10), then head West to Name Rater (15, 7) or North to Gatehouse.
+- **Goal**: Reach Route 35 Gatehouse.
 
 ### Quest Log
 - **Badges**: Zephyr, Hive, Plain.
