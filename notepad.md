@@ -9,8 +9,8 @@
 ### Navigation Hypothesis
 - **Realization**: I HAVE A FREE PARTY SLOT (5/6)! Sentret is missing (Daycare?).
 - **Correction**: I don't need to deposit anyone.
-- **Action**: Exit PC immediately. Go to Randy's House (33, 9).
-- **Goal**: Accept "Kenya" quest from Randy.
+- **Action**: Go to Route 35 Gatehouse (North Goldenrod).
+- **Goal**: Accept "Kenya" quest from Guard Randy.
 
 ### Validated Routes
 - **Flower Shop**: (19, 1).
