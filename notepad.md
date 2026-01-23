@@ -47,3 +47,5 @@
 - **Explore North-East**: Move North to Row 10, then East past the Gym.
 - **Goal**: Reach the area East of the Gym (x>24) and find the exit to Route 35.
 - [9730] Navigation Note: Fence runs along y=11. Passable gap exists at y=9 to access the East Side (Gym area).
+- **Observation**: North door at (5, 0) appears solid/locked.
+- **Plan**: Check for side exits or talk to NPC if stuck.
