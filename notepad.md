@@ -23,10 +23,10 @@
 - **Flower Shop Area (x=18-21)**: Row 4 walls block access to the North-West exits.
 
 ### Navigation Plan
-- **Current Location**: (9, 6).
-- **Hypothesis**: A gap exists in the North Wall (Row 5) at x=32 (Far East).
-- **Action**: Move East from (9, 6) to x=32.
-- **Goal**: Pass through the gap at x=32 and head North to find the Route 35 Gatehouse.
+- **Current Location**: (19, 8).
+- **Hypothesis**: The Route 35 Gatehouse is located in the unexplored North-East corner (x>29, y<5) or North of the Gym.
+- **Action**: Move East from (19, 8) past the Gym to x=32, then head North.
+- **Goal**: Find the North exit in the top-right sector of the map.
 
 ### Quest Log
 - **Badges**: Zephyr, Hive, Plain.
