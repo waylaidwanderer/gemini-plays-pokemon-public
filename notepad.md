@@ -7,9 +7,11 @@
 3. **Clear Sudowoodo**: Use SquirtBottle on Route 36.
 
 ### Navigation Hypothesis
-- **Finding**: `find_reachable_exits` failed to find a North exit because it ignores `unseen` tiles.
-- **Analysis**: XML data shows a walkable corridor North around x=32/33 (East of Gym) that leads into `unseen` tiles at Row 1.
-- **Goal**: Navigate to x=33, then push North into the fog of war to reveal the Route 35 Gatehouse.
+- **Dead End**: The North-East corridor was a dead end / blocked.
+- **New Lead**: The house at (33, 9) contains Randy (Guard). He gives a quest involving a Spearow with Mail ("Kenya").
+- **Requirement**: Free party slot to accept the quest.
+- **Action**: Depositing Sentret in PC. Return to Randy (33, 9).
+- **Hope**: Accepting the quest unlocks the gate or provides direction.
 
 ### Validated Routes
 - **Flower Shop**: (19, 1).
