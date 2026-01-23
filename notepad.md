@@ -26,12 +26,13 @@
 - **Storage**: Drowzee (Topaz) [Box 1].
 - [9590] CONFIRMED: Goldenrod Underground has side exits to enclosed 'Backyards'. The main City entrances/exits are at (11, 29) [South] and (9, 5) [North].
 ### Ruled Out Routes
+- **West Side (Radio Tower)**: Blocked by NPC.
+- **Narrow Path (x=3)**: CONFIRMED DEAD END (y=14). Memory was likely about Underground.
 - **North-West (Flower Shop)**: Dead end at (19, 1).
 - **Underground**: Exits lead to enclosed areas (9, 5) or back to start.
 - **Direct North**: Path to (16, 0) is blocked from (19, 11).
 
 ### Current Plan
-- **Investigate West Side**: Summary [Turn 8741] mentions a narrow path at x=3 bypassing the NPC at (4, 16).
-- **Goal**: Reach the area West of the Radio Tower and find this path.
-- **Immediate Action**: Move from East side back to West side (near Radio Tower).
+- **Explore North-East**: Return to the East side (past Gym) and check the area East of the Sister's House (x>29) for a path North.
+- **Goal**: Find the exit to Route 35.
 - [9730] Navigation Note: Fence runs along y=11. Passable gap exists at y=9 to access the East Side (Gym area).
