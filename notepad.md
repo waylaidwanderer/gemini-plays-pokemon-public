@@ -8,15 +8,11 @@
 
 ### Navigation Status: Goldenrod City
 - **Goal**: Reach Route 35 (North).
-- **Current Situation**: 
-    - **West Strip South** (accessed via Underground South Exit) is a dead end at Row 21.
-    - **Route 34 West Flank** failed.
-    - **Hypothesis**: Access to Radio Tower/Route 35 must be from the **North-East Sector** (near Gym/Underground North) or a missed path in the center.
+- **Current Situation**: Successfully exited Underground Loop. Currently on Main Street (Row 22), heading North towards the Gym and Route 35 Gatehouse.
 - **Plan**: 
-    1. Enter Underground at (11, 29).
-    2. Go to North Exit (9, 5).
-    3. Thoroughly explore the area West of (9, 5) and North of the Gym for a path.
-    4. Check for gaps in the "Tracks/Wall" along Row 14.
+    1. Continue North along the main road.
+    2. Pass the Gym (Row 7).
+    3. Locate the Gatehouse to Route 35.
 
 ### Verified Locations
 - **Goldenrod City (Map 11_2)**:
