@@ -37,3 +37,5 @@
     - This aligns with the "Narrow Path" hypothesis.
 - **Goal**: Navigate North along the West edge (x=2) to reach the Radio Tower/Route 35 area.
 - **Blockage**: (2, 25) seems impassable despite looking like floor. Attempting to bypass via column 3.
+- **Navigation Update**: The central area (x=6-17, y=10-20) is enclosed. Must use the corridor at x=18 to move North/South.
+- **Plan**: Go South via x=18 to Row 27, then West to the coast to bypass the city center.
