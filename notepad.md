@@ -7,11 +7,10 @@
 3. **Clear Sudowoodo**: Use SquirtBottle on Route 36.
 
 ### Navigation Hypothesis
-- **Dead End**: The North-East corridor was a dead end / blocked.
-- **New Lead**: The house at (33, 9) contains Randy (Guard). He gives a quest involving a Spearow with Mail ("Kenya").
-- **Requirement**: Free party slot to accept the quest.
-- **Action**: Depositing Sentret in PC. Return to Randy (33, 9).
-- **Hope**: Accepting the quest unlocks the gate or provides direction.
+- **Realization**: I HAVE A FREE PARTY SLOT (5/6)! Sentret is missing (Daycare?).
+- **Correction**: I don't need to deposit anyone.
+- **Action**: Exit PC immediately. Go to Randy's House (33, 9).
+- **Goal**: Accept "Kenya" quest from Randy.
 
 ### Validated Routes
 - **Flower Shop**: (19, 1).
@@ -21,4 +20,4 @@
 
 ### Quest Log
 - **Badges**: Zephyr, Hive, Plain.
-- **Party**: Quilava (27), Sentret (2), Bellsprout (6), Togepi (5), Rattata (8), Igglybuff (5).
+- **Party**: Quilava (27), Bellsprout (6), Togepi (5), Rattata (8), Igglybuff (5).
