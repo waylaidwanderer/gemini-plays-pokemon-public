@@ -16,7 +16,7 @@
     - **Route 34 East Loop**: Blocked by fence at Row 3.
 - **Hypothesis**:
     1. **Underground North Exit**: The North Exit of the Underground (9, 6) dumps me North of the blocking wall. I can reach the Flower Shop and Route 35 from there.
-- **Immediate Plan**: Go to (9, 6) to investigate Underground Entrance/North path. If blocked, check narrow path at x=3 near Radio Tower.
+- **Immediate Plan**: Re-enter Underground at (21, 25). Check for alternate stairs at North end of tunnel (x=4?). Goal: Exit at (9, 6).
 
 ### Verified Locations
 - **Goldenrod City**:
