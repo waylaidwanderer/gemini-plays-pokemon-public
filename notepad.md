@@ -14,9 +14,10 @@
     - **Alcove (31, 6)**: Blocked by fence.
     - **East House (33, 9)**: NPCs discussing PP. Likely no passage.
     - **Route 34 East Loop**: Blocked by fence at Row 3.
-- **Immediate Plan**: Navigate North through Underground to Exit (9, 5). From there, attempt to reach Route 35 (West) or the Radio Tower.
-- **Previous Attempt**: The East Alley path worked to reach the Flower Shop, but the path North from there was blocked by a house/trees.
-- **Current Theory**: The Underground North Exit puts me past the main street blockade. I need to navigate carefully from (9, 6) to avoid getting stuck again.
+- **Success**: Reached Goldenrod City North via Underground Exit (9, 5). Currently at (9, 6).
+- **Location**: I am now North of the blockade (Row 10/16).
+- **Immediate Goal**: Explore North (y < 6) to find the Route 35 Gatehouse.
+- **Route 35**: Should be at the top edge of the map.
 
 ### Verified Locations
 - **Goldenrod City**:
