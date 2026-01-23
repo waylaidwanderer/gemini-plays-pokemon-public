@@ -32,6 +32,6 @@
 - [9590] CONFIRMED: Goldenrod Underground has side exits to enclosed 'Backyards'. The main City entrances/exits are at (11, 29) [South] and (9, 5) [North]. To traverse the city, use these.
 [9651] Reflection:
 - Progress: Good exploration of Goldenrod. Need to find the path North to Route 35. The layout around Row 4/5 is confusing (block of walls).
-- Strategy: Move South to Row 8, then explore West to find a gap in the wall leading North.
+- Strategy: The direct path North from the West side is blocked. Move East past the Gym (Row 7, Col 24) and navigate through the open area around Col 30-35 to reach the North exit (Route 35).
 - Hygiene: Map and Notepad are in good shape.
 - Tool Failure: 'bfs_navigate' failed to find a path to (16, 2), confirming the direct path is blocked. Manual exploration required.
