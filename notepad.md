@@ -10,7 +10,7 @@
 - **Current Location**: Map 11_9 (Route 35 Gatehouse).
 - **Goal**: Pass through to Route 35 (North).
 - **Obstacle**: Guard at (2, 4).
-- **Plan**: Walk around the guard (Right -> Up) to reach the North Exit at (5, 0).
+- **Plan**: Try North Exit at (4, 0) (Left -> Up) since (5, 0) was blocked.
 
 ### Validated Routes
 - **Route 35 Gatehouse**: Located at Goldenrod City (29, 8).
