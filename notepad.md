@@ -15,7 +15,7 @@
 - **Goldenrod City**:
     - **Main Path**: Blocked North of Gym.
     - **West Strip**: Access required to reach Route 35.
-- **Plan**: Backtrack North to Row 9 on Route 34 to find the gap in the fence and access the West Side. Ilex Forest Gatehouse is a dead end for West access.
+- **Plan**: Use Underground South Entrance (11, 29) to reach North Entrance (9, 5). From (9, 5), head strictly WEST to find the path to Route 35. The "Route 34 Flank" failed and led to Main Street.
 
 ### Verified Locations
 - **Goldenrod City (Map 11_2)**:
