@@ -31,3 +31,4 @@
 - **Badges**: Zephyr, Hive, Plain.
 - **Party**: Quilava (27), Sentret (2), Bellsprout (6), Togepi (5), Rattata (8), Igglybuff (5).
 - **Storage**: Drowzee (Topaz) [Box 1].
+- [9516] Resuming navigation in Goldenrod Underground. Trying to bypass Haircut Brothers.
