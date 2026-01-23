@@ -6,20 +6,16 @@
 2. **Get SquirtBottle**: Return to Flower Shop (19, 1) after finding Floria.
 3. **Clear Sudowoodo**: Use SquirtBottle on Route 36.
 
-### Navigation Plan
-- **Status**: East Side (x>24) is a dead end.
-- **New Strategy**: Return to West Side (Main Road) and investigate the North boundary (y=5) for the Gatehouse.
-- **Hypothesis**: The Gatehouse is likely at the top of the road (x=4 to x=9), possibly disguised or at x<6.
-- **Route**:
-  - (34, 7) -> West to (24, 8) [Gym].
-  - (24, 8) -> West to (6, 8) [Main Road].
-  - (6, 8) -> Explore North-West (x<6, y<8).
+### Exploration Status
+- **East Side (x>17)**: Dead ends (Gym, Houses) or Shops (Flower Shop at 19,1). No exit found.
+- **Center (x=6-17)**: Blocked at Row 5 by Walls and Underground Entrance (9,5).
+- **West (x<6)**: Radio Tower area. Need to investigate path West of Radio Tower (x=3) or Tracks (x=0-1).
 
-### Validated Routes
-- **Flower Shop**: (19, 1) (Dead End for exit).
-- **East Dead End**: (34, 7).
+### Validated Locations
+- **Flower Shop**: (19, 1).
+- **Underground Entrance**: (9, 5).
+- **Radio Tower**: (5, 15).
 - **Gym**: (24, 7).
-- **Underground**: Entrance at (9, 5).
 
 ### Quest Log
 - **Badges**: Zephyr, Hive, Plain.
