@@ -20,4 +20,6 @@
 ### Quest Log
 - **Badges**: Zephyr, Hive, Plain.
 - **Party**: Quilava (27), Bellsprout (6), Togepi (5), Rattata (8), Igglybuff (5).
-- **West Narrow Path**: Currently exploring the path behind the Radio Tower (x=3). This bypasses the NPC at (4, 16). Expecting to find a way North to the Gatehouse.
+- **West Narrow Path**: Explored (x=3, y=15). Dead end to the North.
+- **Hypothesis**: The "Wall" at the North end of the Main Road (Row 5, x=6-8) might be the Gatehouse. Need to inspect closely.
+- **Tracks**: Possible path North along the tracks (x=0-1)? Need to find access point (likely South).
