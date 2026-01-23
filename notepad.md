@@ -31,8 +31,9 @@
 - **North-West (Flower Shop)**: Dead end at (19, 1).
 - **Underground**: Exits lead to enclosed areas (9, 5) or back to start.
 - **Direct North**: Path to (16, 0) is blocked from (19, 11).
+- **Row 10 West**: Blocked by Officer at (18, 10).
 
 ### Current Plan
-- **Explore North-East**: Return to the East side (past Gym) and check the area East of the Sister's House (x>29) for a path North.
-- **Goal**: Find the exit to Route 35.
+- **Explore North-East**: Move North to Row 10, then East past the Gym.
+- **Goal**: Reach the area East of the Gym (x>24) and find the exit to Route 35.
 - [9730] Navigation Note: Fence runs along y=11. Passable gap exists at y=9 to access the East Side (Gym area).
