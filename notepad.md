@@ -14,8 +14,9 @@
     - **Alcove (31, 6)**: Blocked by fence.
     - **East House (33, 9)**: NPCs discussing PP. Likely no passage.
     - **Route 34 East Loop**: Blocked by fence at Row 3.
-- **Path Confirmed**: The East Alley (col 19) allows bypass of the blockade. Successfully reached Flower Shop (19, 1).
-- **Immediate Plan**: Exit Flower Shop, go North to Route 35, then Route 36. Find Floria near the Sudowoodo. Return to Flower Shop to get SquirtBottle.
+- **Immediate Plan**: Navigate North through Underground to Exit (9, 5). From there, attempt to reach Route 35 (West) or the Radio Tower.
+- **Previous Attempt**: The East Alley path worked to reach the Flower Shop, but the path North from there was blocked by a house/trees.
+- **Current Theory**: The Underground North Exit puts me past the main street blockade. I need to navigate carefully from (9, 6) to avoid getting stuck again.
 
 ### Verified Locations
 - **Goldenrod City**:
