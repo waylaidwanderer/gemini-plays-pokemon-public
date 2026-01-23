@@ -22,12 +22,6 @@
 - **Center (x=9-13)**: Row 5 blocked by Underground Entrance and walls.
 - **Flower Shop Area (x=18-21)**: Row 4 walls block access to the North-West exits.
 
-### Navigation Plan
-- **Current Location**: (19, 8).
-- **Hypothesis**: The Route 35 Gatehouse is located in the unexplored North-East corner (x>29, y<5) or North of the Gym.
-- **Action**: Move East from (19, 8) past the Gym to x=32, then head North.
-- **Goal**: Find the North exit in the top-right sector of the map.
-
 ### Quest Log
 - **Badges**: Zephyr, Hive, Plain.
 - **Party**: Quilava (27), Sentret (2), Bellsprout (6), Togepi (5), Rattata (8), Igglybuff (5).
