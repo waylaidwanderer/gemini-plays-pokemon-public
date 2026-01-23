@@ -25,4 +25,10 @@
 - **Party**: Quilava (27), Sentret (2), Bellsprout (6), Togepi (5), Rattata (8), Igglybuff (5).
 - **Storage**: Drowzee (Topaz) [Box 1].
 - [9590] CONFIRMED: Goldenrod Underground has side exits to enclosed 'Backyards'. The main City entrances/exits are at (11, 29) [South] and (9, 5) [North].
-- [9704] Strategy Update: Navigation in Goldenrod North is tricky due to walls. Plan is to use the East-West corridor on Row 9 to reach the East side (near Gym), then look for a path North to Route 35.
+### Ruled Out Routes
+- **West Side (Radio Tower)**: Blocked by NPC.
+- **North-West (Flower Shop)**: Dead end at (19, 1).
+- **Underground**: Good for crossing tracks, but exits lead to enclosed areas or dead ends so far.
+
+### Current Plan
+- Explore East Side (past Gym) to find a path North.
