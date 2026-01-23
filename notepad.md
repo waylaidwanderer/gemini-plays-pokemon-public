@@ -15,21 +15,19 @@
 ### Validated Routes
 - **Flower Shop**: CONFIRMED at Goldenrod City (29, 5).
 - **Gatehouse**: Still searching. Likely North on the main road (approx x=13).
+- **Underground**: Connects South (11, 29) to North (9, 5). Warning: Confusing layout.
 
 ### Ruled Out Routes
-- **West Side (Radio Tower)**: Blocked.
-- **Narrow Path (x=3)**: Dead End.
+- **East Side (Gym)**: Path North of Gym (x>24) leads to dead ends or loops.
+- **Station Front (x=9-13)**: Blocked by Station Building.
+- **Direct North (x=8)**: Blocked by Building edge at (8, 13).
 - **Flower Shop (19, 1)**: Dead End.
-- **Underground**: Not the target.
 
-### Verified Locations
-- **Goldenrod City (Map 11_2)**:
-    - Pokemon Center: (15, 27)
-    - Dept Store: (24, 27)
-    - Game Corner: (14, 21)
-    - Gym: (24, 7)
-    - Underground Entrances: (11, 29) [South], (9, 5) [North]
-- **Underground**: Connects South (11, 29) to North (9, 5).
+### Navigation Plan
+- **Current Location**: (8, 14).
+- **Observation**: Tried moving North at x=8, blocked by building.
+- **Action**: Move West to x=6 (Pavement), then head North.
+- **Goal**: Find the path North of the Station/Radio Tower to reach the Gatehouse.
 
 ### Quest Log
 - **Badges**: Zephyr, Hive, Plain.
