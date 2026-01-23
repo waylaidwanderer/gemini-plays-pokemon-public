@@ -51,3 +51,5 @@
 - **Observation**: At (15, 8), facing Name Rater. Main street is to the West.
 - **Plan**: Move West to x=10, then head North to find the Gatehouse.
 - **Correction**: Previous "Path North" at x=20 led to dead ends. The true exit is likely aligned with the main vertical road (x~9).
+- **Action**: Checking sign at (8, 6) to identify the building at (9, 5).
+- **Hypothesis**: Building is either Underground Entrance or Route 35 Gatehouse.
