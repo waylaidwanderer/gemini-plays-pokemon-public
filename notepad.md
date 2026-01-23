@@ -18,16 +18,17 @@
 - **Underground**: Connects South (11, 29) to North (9, 5). Warning: Confusing layout.
 
 ### Ruled Out Routes
-- **East Side (Gym)**: Path North of Gym (x>24) leads to dead ends or loops.
+- **West Side (Radio Tower)**: Blocked at x=8.
 - **Station Front (x=9-13)**: Blocked by Station Building.
 - **Direct North (x=8)**: Blocked by Building edge at (8, 13).
 - **Flower Shop (19, 1)**: Dead End.
 
 ### Navigation Plan
 - **Current Location**: (8, 14).
-- **Observation**: Tried moving North at x=8, blocked by building.
-- **Action**: Move West to x=6 (Pavement), then head North.
-- **Goal**: Find the path North of the Station/Radio Tower to reach the Gatehouse.
+- **Observation**: x=8 blocked North. x=7 blocked Left.
+- **Insight**: Tracks block Row 14 from x=2 to x=17. Gap exists at x=18.
+- **Action**: Move Down to Row 16, East to x=18, then North through the gap.
+- **Goal**: Cross the tracks at x=18 and reach the North side of the city.
 
 ### Quest Log
 - **Badges**: Zephyr, Hive, Plain.
