@@ -6,11 +6,12 @@
 2. **Get SquirtBottle**: Return to Flower Shop (19, 1) after finding Floria.
 3. **Clear Sudowoodo**: Use SquirtBottle on Route 36.
 
-### Navigation Hypothesis
-- **Realization**: I HAVE A FREE PARTY SLOT (5/6)! Sentret is missing (Daycare?).
-- **Correction**: I don't need to deposit anyone.
-- **Action**: Go to Route 35 Gatehouse (North Goldenrod).
-- **Goal**: Accept "Kenya" quest from Guard Randy.
+### Navigation Plan
+- **Route**: Detour East to avoid obstacles.
+  - (6, 9) -> (20, 9) [East Pivot]
+  - (20, 9) -> (20, 16) [South Corridor]
+  - (20, 16) -> (5, 16) [West Crossing]
+  - (5, 16) -> North to Route 35 Gatehouse.
 
 ### Validated Routes
 - **Flower Shop**: (19, 1).
