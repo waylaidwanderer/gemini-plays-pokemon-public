@@ -13,20 +13,20 @@
 - **Plan**: Exit North to Route 35 immediately.
 
 ### Validated Routes
-- **Flower Shop**: CONFIRMED at Goldenrod City (19, 1).
+- **Flower Shop**: CONFIRMED at Goldenrod City (19, 1). Dead end.
 - **Floria's Sister's House**: Goldenrod City (29, 5).
-- **Gatehouse**: Still searching. Likely at the North end of the Main Street (x=6-13).
+- **Underground**: Connects South (11, 29) to North (9, 5).
 
 ### Ruled Out Routes
-- **Row 1 (Flower Shop)**: Dead End (Building).
-- **West Side (x=6-8)**: Previously thought blocked, need to re-verify path past Radio Tower.
-- **Center (x=9-11)**: Blocked by Underground Entrance at (9, 5).
-- **Gym East (x>24)**: Dead ends.
+- **West Side (x=6-8)**: Row 5 blocked by walls.
+- **Center (x=9-13)**: Row 5 blocked by Underground Entrance and walls.
+- **Flower Shop Area (x=18-21)**: Row 4 walls block access to the North-West exits.
 
 ### Navigation Plan
-- **Current Location**: Inside Flower Shop (Map 10_14).
-- **Action**: Exit South.
-- **Goal**: Move West from (19, 2) to find the Main Street and the Gatehouse.
+- **Current Location**: (9, 6).
+- **Hypothesis**: A gap exists in the North Wall (Row 5) at x=32 (Far East).
+- **Action**: Move East from (9, 6) to x=32.
+- **Goal**: Pass through the gap at x=32 and head North to find the Route 35 Gatehouse.
 
 ### Quest Log
 - **Badges**: Zephyr, Hive, Plain.
