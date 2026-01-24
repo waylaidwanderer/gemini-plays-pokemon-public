@@ -6,12 +6,11 @@
 2. **Get SquirtBottle**: Return to Flower Shop (19, 1) after finding Floria.
 3. **Clear Sudowoodo**: Use SquirtBottle on Route 36.
 
-### Navigation Strategy: Goldenrod City
-- **Route 35 Exit**: Accessed via the back door of the Flower Shop (19, 1). Warps to Map 10_2 (Alley/Route 35).
-- **Map 10_2**: The area behind the buildings. Follow the path North to reach Route 36.
-- **Connections**:
-  - South: Warps back to Flower Shop (9, 33).
-  - North: Leads to Route 36 (Floria's location).
+### Route 36 Exploration
+- **Location**: East side of Route 36.
+- **Blockers**: Psychic at (5, 11), Trees at Row 5 (x=8-11).
+- **Path**: Gap in trees at x=12/13.
+- **Target**: NPC at (14, 4), then North to Sudowoodo.
 
 ### Validated Locations
 - **Flower Shop**: (19, 1).
