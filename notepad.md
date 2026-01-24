@@ -17,8 +17,8 @@
 - **Poison Alert**: Garnet is poisoned. No Antidote in bag. Prioritize reaching a Pokemon Center (Violet City East?) or finding Floria quickly.
 - **SquirtBottle**: Requires Plain Badge (Have), inspecting tree (Done), and finding Floria.
 - **Map Intel**: "North Gate" at (25,3) was invalid. Heading South-East to find the East Exit (Route 36).
-### Reflection (Turn 11577)
-- **Map Update**: Moved to (14,8). Encountered wild Ditto.
-- **Navigation**: Attempting to cross from East (Tall Grass) to West (Gatehouse path).
-- **Hypothesis**: The "fence" might not be a hard barrier at Row 8, or the map XML doesn't show it as a wall. Testing connectivity.
-- **Status**: Garnet Poisoned (53 HP). Urgency: High. Run from Ditto.
+### Reflection (Turn 11582)
+- **Map Mechanics**: Row 8 connects East and West sides of Route 35. Row 5/6 have walls (TYPE_2889).
+- **Correction**: TYPE_2889 is a Wall/Impassable. Do not use in pathfinding.
+- **Plan**: Escape battle -> Walk West to X=3 on Row 8 -> Walk North to Gatehouse at (3,5).
+- **Status**: Garnet Poisoned (52 HP). Urgency: High. Battle with Nidoran.
