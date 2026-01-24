@@ -17,9 +17,9 @@
 - **Poison Alert**: Garnet is poisoned. No Antidote in bag. Prioritize reaching a Pokemon Center (Violet City East?) or finding Floria quickly.
 - **SquirtBottle**: Requires Plain Badge (Have), inspecting tree (Done), and finding Floria.
 - **Map Intel**: "North Gate" at (25,3) was invalid. Heading South-East to find the East Exit (Route 36).
-### Reflection (Turn 11633)
-- **Location**: Arrived at Route 35 South Gatehouse (Entrance to Goldenrod).
-- **Status**: Garnet Poisoned (59 HP). Plenty of health to reach the Center.
-- **Progress**: Successfully bypassed trainers and obstacles on Route 35.
-- **Next**: Enter Gatehouse -> Enter Goldenrod City -> Heal at Center.
-- **Quest**: After healing, go to Flower Shop to get SquirtBottle (Floria is likely back or we have new info).
+### Reflection (Turn 11642)
+- **Location**: Goldenrod Pokemon Center.
+- **Status**: Party Healed! Garnet is safe.
+- **Goal**: Find Floria at Route 36 (Sudowoodo Area).
+- **Plan**: Exit Goldenrod North -> Route 35 -> National Park (East Exit) -> Route 36.
+- **Note**: Check if Cut can be used on Route 35 for a shortcut.
