@@ -17,8 +17,9 @@
 - **Poison Alert**: Garnet is poisoned. No Antidote in bag. Prioritize reaching a Pokemon Center (Violet City East?) or finding Floria quickly.
 - **SquirtBottle**: Requires Plain Badge (Have), inspecting tree (Done), and finding Floria.
 - **Map Intel**: "North Gate" at (25,3) was invalid. Heading South-East to find the East Exit (Route 36).
-### Reflection (Turn 11601)
-- **Location**: Exiting National Park via South Gatehouse (10, 48).
-- **Status**: Garnet Poisoned (22 HP). ~88 steps remaining before fainting.
-- **Plan**: Rushing to Goldenrod Pokemon Center via Route 35. Minimizing steps is critical.
-- **Route**: Gatehouse -> Route 35 (South) -> Goldenrod Gatehouse -> Pokemon Center.
+### Reflection (Turn 11605)
+- **Status**: Garnet Poisoned (22 HP). ~88 steps survival time.
+- **Inventory**: Found 5 Super Potions in bag! (Safety net available).
+- **Location**: (10, 47) National Park South Exit.
+- **Action**: Entering Gatehouse. Previous move interrupted by Irwin's call.
+- **Plan**: Gatehouse -> Route 35 (Stay on path) -> Goldenrod. Use Super Potion if HP < 10.
