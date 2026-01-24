@@ -10,7 +10,7 @@
 - **Location**: East side of Route 36.
 - **Blockers**: Psychic at (5, 11), Trees at Row 5 (x=8-11).
 - **Path**: Gap in trees at x=12/13.
-- **Target**: NPC at (14, 4), then North to Sudowoodo.
+- **Target**: Schoolboy Alan at (26, 6), then North to Sudowoodo.
 
 ### Validated Locations
 - **Flower Shop**: (19, 1).
