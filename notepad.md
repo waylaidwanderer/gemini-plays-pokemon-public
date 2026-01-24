@@ -9,7 +9,7 @@
 
 ### Quest Log
 - **Badges**: Zephyr, Hive, Plain.
-- **Party**: All Healthy (Garnet Poisoned).
+- **Party**: All Healthy.
 - **Mail Quest**: Active.
 - **Contest**: Not entered (lack of Sport Balls/Bug Catching logic).
 
