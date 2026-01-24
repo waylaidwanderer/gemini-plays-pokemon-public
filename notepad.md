@@ -28,7 +28,8 @@
 - **Hypothesis**: The Train Tracks at the far West (x=0-1) might offer a path North.
 - **West Side Access**: The path at x=8 is blocked at y=24 by a fence. A continuous vertical barrier (wall/ledge/fence) exists at x=9, separating East and West sides.
 - **West Side Access**: The path at x=8 is blocked. The South area (Gatehouse) does not connect to the West side.
-- **Plan**: Return to Goldenrod City, then head North to Route 36 to find Floria and the Sudowoodo.
+- **Correction**: The Northern path at y=2 is a dead end (blocked by trees at x=9).
+- **Plan**: Return South to the main road at y=26, then head West to find Floria and the Sudowoodo.
 - **Tracks**: Possible path North along the tracks?
 ### Navigation Strategy: Route 36
 - **Current Location**: Route 36 (North of Route 35).
