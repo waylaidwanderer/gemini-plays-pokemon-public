@@ -23,7 +23,7 @@
 - **Badges**: Zephyr, Hive, Plain.
 - **Party**: Quilava (27), Bellsprout (6), Togepi (5), Rattata (8), Igglybuff (5).
 - **West Narrow Path**: Explored (x=3, y=15). Dead end to the North.
-- **Correction**: The East side is a dead end. The "Happiness Rater" is at (33, 9).
-- **Analysis**: The "Reachable Exits" scan confirms NO North surface exit from this area. The only path forward is to traverse the "Underground" to bypass the city's partition.
-- **Plan**: Enter Underground at (9, 5), cross the tunnel, and exit on the North side.
+- **Correction**: The East side and Center are dead ends. The Underground path leads South (wrong way).
+- **Hypothesis**: The Train Tracks at the far West (x=0-1) might offer a path North.
+- **Plan**: Exit Underground Entrance, go West to x=1, and follow tracks North.
 - **Tracks**: Possible path North along the tracks (x=0-1)? Need to find access point (likely South).
