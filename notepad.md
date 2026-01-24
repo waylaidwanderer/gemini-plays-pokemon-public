@@ -28,14 +28,15 @@
 - **Hypothesis**: The Train Tracks at the far West (x=0-1) might offer a path North.
 - **West Side Access**: The path at x=8 is blocked.
 - **Correction**: The Northern path at y=2 is a dead end.
-- **Update**: Reached the Schoolboy at (11, 16). Passive NPC.
-- **Plan**: Continue North to finding the main East-West road of Route 36.
+- **Update**: The "gap" at (0, 10) appears blocked by a tree line at x=1.
+- **Correction**: The main East-West road seems to be the path at y=20 (Type fed7).
+- **Plan**: Move South from current position (7, 12) to intersect the path at (7, 20), then explore West for Sudowoodo.
 ### Navigation Strategy: Route 36
-- **Current Location**: Route 36 (South/Connector).
-- **Objective**: Reach the T-intersection.
+- **Current Location**: Route 36 (North of Road).
+- **Objective**: Reach the path at y=20.
   - **West**: National Park.
   - **East**: Violet City.
-  - **Center**: Sudowoodo (Blocked).
+  - **Center**: Sudowoodo (Likely West of x=7 on the road).
 - **Search Area**: Look for Floria near the Sudowoodo.
 ### Tile Mechanics
 - **Walkable**: `TYPE_3fe2` (Grass), `TYPE_3f8d` (Tall Grass), `TYPE_fed7` (Path)
