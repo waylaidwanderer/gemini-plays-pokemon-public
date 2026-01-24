@@ -16,3 +16,11 @@
 ### Strategic Notes
 - **SquirtBottle**: Requires Plain Badge (Have), inspecting tree (Done), and finding Floria.
 - **Map Intel**: "North Gate" at (25,3) was invalid. Heading South-East to find the East Exit (Route 36).
+### Reflection (Turn 11510)
+- **Tool Ideas**:
+  1. `battle_agent`: Handle type matchups and move selection intelligently.
+  2. `path_validator`: Verify if blocked paths are truly blocked or just unseen.
+  3. `inventory_manager`: Automate healing/item usage.
+  4. `dialogue_parser`: Extract quest info from logs.
+  5. `move_learner`: Logic for learning new moves/forgetting old ones.
+- **Battle Strategy**: Ensure move selection accounts for UI layout (Vertical List vs Grid). Visuals imply vertical list on this screen.
