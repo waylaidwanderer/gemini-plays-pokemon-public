@@ -43,3 +43,5 @@
 
 ### Quest Progress
 - **Find Floria**: Started ~Turn 10589.
+- **Route 36 Layout**: Gatehouse is at South end (y=48). Main road appears to be North (y=20-30). I likely overshot South.
+- **Plan**: Talk to Alan, then head North to find the East-West road and the Sudowoodo.
