@@ -1,6 +1,6 @@
 # Pokémon Crystal Playthrough
 - Started: Friday, January 16, 2026
-- Current Location: Route 35 (East Side)
+- Current Location: Goldenrod City (East Alley)
 
 ### Immediate Goals
 1. **Find Sudowoodo**: Located on Route 36.
