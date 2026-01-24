@@ -7,9 +7,9 @@
 3. **Clear Sudowoodo**: Use SquirtBottle on Route 36.
 
 ### Exploration Status
-- **Route 35**: The path is likely further East, past the Gym.
-- **Correction**: x=18 is a dead end alley. The main road continues East at Row 8.
-- **Plan**: Follow Row 8 East to the Gym (x=24), then look for a North exit (x=23-26).
+- **Route 35**: The North-East cul-de-sac at (31, 7) is a dead end. Blocked by walls at x=35 and Row 5.
+- **Hypothesis**: The path to Route 35 requires accessing the far East corridor (x=36) from the South (near Row 34?), or navigating West of the Radio Tower.
+- **Plan**: Backtrack to Main Road, head South, and investigate access to the East side (x>35) from the bottom of the map.
 - **Center (x=6-17)**: Blocked at Row 5 by Walls and Underground Entrance (9,5).
 - **West (x<6)**: Radio Tower area. Need to investigate path West of Radio Tower (x=3) or Tracks (x=0-1).
 
