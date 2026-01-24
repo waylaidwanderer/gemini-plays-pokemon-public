@@ -11,7 +11,8 @@
 - **Center (x=6-17)**: Blocked by Underground Entrance (9, 5).
 - **West Side (x<6)**:
   - **Radio Tower Area**: North path (x=3) is a dead end.
-  - **Tracks (x=0-1)**: Potential path North? Need to find access point (likely South near Route 34 junction).
+  - **Tracks (x=0-1)**: Potential path North? Access via Route 34 (South).
+- **Navigation Note**: x=14 is isolated from x=11 by a building. Must loop South through Route 34 to access West side.
 
 ### Validated Locations
 - **Flower Shop**: (19, 1).
