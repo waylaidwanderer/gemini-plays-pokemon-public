@@ -26,18 +26,15 @@
 - **West Narrow Path**: Explored (x=3, y=15). Dead end to the North.
 - **Correction**: The East side and Center are dead ends. The Underground path leads South (wrong way).
 - **Hypothesis**: The Train Tracks at the far West (x=0-1) might offer a path North.
-- **West Side Access**: The path at x=8 is blocked.
-- **Correction**: The Northern path at y=2 is a dead end.
-- **Update**: The "gap" at (0, 10) appears blocked by a tree line at x=1.
-- **Correction**: The main East-West road seems to be the path at y=20 (Type fed7).
-- **Plan**: Return South to the main road at y=20, then head West to find Sudowoodo. I got sidetracked by a wild Pokemon.
 ### Navigation Strategy: Route 36
-- **Current Location**: Route 36 (North of Road).
-- **Objective**: Reach the path at y=20.
-  - **West**: National Park.
-  - **East**: Violet City.
-  - **Center**: Sudowoodo (Likely West of x=7 on the road).
-- **Search Area**: Look for Floria near the Sudowoodo.
+- **Layout**: Main road runs East-West around y=20 and connects South to y=48.
+- **West**: Likely leads to Sudowoodo and National Park.
+- **East**: Leads to Violet City.
+- **South**: Leads to Route 35 Gatehouse (y=48).
+- **Current Plan**: Follow the road South/West to find Sudowoodo and Floria.
+- **Recent Findings**:
+  - Path at x=4 goes South to y=23, then turns East.
+  - Needs further exploration South of y=24.
 ### Tile Mechanics
 - **Walkable**: `TYPE_3fe2` (Grass), `TYPE_3f8d` (Tall Grass), `TYPE_fed7` (Path)
 - **Obstacle**: `TYPE_2889` (Tree/Fence)
