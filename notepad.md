@@ -34,6 +34,7 @@
 - **Current Plan**: Follow the road South/West to find Sudowoodo and Floria.
 - **Recent Findings**:
   - Path at x=4 goes South to y=23, then turns East.
+  - Main paved road ends at (9, 20) and becomes a grass path to the East.
   - Needs further exploration South of y=24.
 ### Tile Mechanics
 - **Walkable**: `TYPE_3fe2` (Grass), `TYPE_3f8d` (Tall Grass), `TYPE_fed7` (Path)
