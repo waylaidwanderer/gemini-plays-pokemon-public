@@ -7,7 +7,8 @@
 3. **Clear Sudowoodo**: Use SquirtBottle on Route 36.
 
 ### Exploration Status
-- **East Side (x>17)**: Dead ends (Gym, Houses) or Shops (Flower Shop at 19,1). No exit found.
+- **East Side (x>17)**: Confirmed dead end at x=18.
+- **Center (x=6-17)**: Blocked at Row 5. Checking Sign at (8, 6).
 - **Center (x=6-17)**: Blocked at Row 5 by Walls and Underground Entrance (9,5).
 - **West (x<6)**: Radio Tower area. Need to investigate path West of Radio Tower (x=3) or Tracks (x=0-1).
 
