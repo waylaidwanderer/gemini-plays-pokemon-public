@@ -30,7 +30,7 @@
 - **West Side Access**: The path at x=8 is blocked. The South area (Gatehouse) does not connect to the West side.
 - **Correction**: The Northern path at y=2 is a dead end (blocked by trees at x=9).
 - **Update**: Reached the Schoolboy at (14, 4). He only talks about mail from his daughter.
-- **Plan**: Head West through the gap at y=6 to explore the unknown area (x < 8).
+- **Plan**: Move South from the tall grass (x=10) to locate the main road at y=20+, then search for Floria.
 - **Tracks**: Possible path North along the tracks?
 ### Navigation Strategy: Route 36
 - **Current Location**: Route 36 (North of Route 35).
