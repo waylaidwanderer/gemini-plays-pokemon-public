@@ -26,5 +26,6 @@
 - **West Narrow Path**: Explored (x=3, y=15). Dead end to the North.
 - **Correction**: The East side and Center are dead ends. The Underground path leads South (wrong way).
 - **Hypothesis**: The Train Tracks at the far West (x=0-1) might offer a path North.
-- **Plan**: Head South to y=28 where the water obstruction ends (x=7 becomes Walkable). Turn West at (8, 28) to access the tracks area.
+- **West Side Access**: The path at x=8 is blocked at y=24 by a fence. The barrier at x=9 continues South.
+- **Plan**: Continue South on the East side (x>9) to the Ilex Forest entrance area, then attempt to loop North along the West side.
 - **Tracks**: Possible path North along the tracks?
