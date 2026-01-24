@@ -37,3 +37,8 @@
   - **East**: Violet City.
   - **Center**: Sudowoodo (Blocked).
 - **Search Area**: Look for Floria near the Sudowoodo.
+- **Reflection Turn 10632:**
+  - **Progress:** Wandering Route 36. Found "Not Floria". Need to locate the actual Floria and Sudowoodo.
+  - **Strategy:** Search the main East-West axis of the route (y=20 to y=30 seems likely for the road).
+  - **Hygiene:** Map markers are clean.
+  - **Tools:** `bfs_navigate` is good.
