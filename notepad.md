@@ -14,6 +14,6 @@
 - **Contest**: Not entered (lack of Sport Balls/Bug Catching logic).
 
 ### Strategic Notes
-- **SquirtBottle**: Requires Plain Badge (Have), inspecting tree (Done), and finding Floria.
-- **Map Intel**: Navigating the National Park. The North Gate (Map 11_10) was a house. The actual path seems to be through the central openings.
-- **Current Path**: Loop West to Col 21, then head North through the gap to reach the North-East section.
+- **SquirtBottle**: Inspected Sudowoodo. Returning to Flower Shop in Goldenrod to claim the bottle.
+- **Map Intel**: Sudowoodo is blocking the path at (35, 9) in National Park. Need SquirtBottle to proceed East.
+- **Current Path**: Return to Goldenrod City via South Gate (Route 35).
