@@ -32,8 +32,8 @@
 - **Plan**: Investigate the building at (2, 26). It might be the gate to National Park.
 - **Sudowoodo**: Should be nearby, possibly blocking a path.
 ### Tile Mechanics
-- **Walkable**: `TYPE_3fe2` (Grass), `TYPE_3f8d` (Tall Grass)
-- **Obstacle**: `TYPE_2889` (Tree/Fence/Building), `TYPE_fed7` (Tree/Bush)
+- **Walkable**: `TYPE_3fe2` (Grass), `TYPE_3f8d` (Tall Grass), `TYPE_fed7` (Forest/Bush - Walkable)
+- **Obstacle**: `TYPE_2889` (Tree/Fence/Building)
 
 ### Quest Progress
 - **Find Floria**: Started ~Turn 10589.
