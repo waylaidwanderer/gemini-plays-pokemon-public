@@ -14,9 +14,9 @@
 - **National Park Gate**: Located at (25, 2) - North East. (Currently accessible but leads to park, not Sudowoodo?).
 
 ### Current Plan
-1. Navigate South to the crossing point (approx Y=28).
-2. Cross to the West side.
-3. Head North along the West path to reach the Route 36 Gatehouse at (3, 5).
+1. Enter the Flower Shop at (19, 1) in Goldenrod City (North).
+2. Exit through the back door to reach the West side of Route 35.
+3. Navigate North to the Route 36 Gatehouse to find Sudowoodo and Floria.
 
 ### Key Locations
 - **Goldenrod City**: South of Route 35.
