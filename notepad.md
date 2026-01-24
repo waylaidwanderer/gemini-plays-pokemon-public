@@ -1,6 +1,6 @@
 # Pokémon Crystal Playthrough
 - Started: Friday, January 16, 2026
-- Current Location: Route 35 (Map 10_2)
+- Current Location: Goldenrod Flower Shop (Map 10_14)
 
 ### Immediate Goals
 1. **Find Floria**: Explore the North-East corner of the National Park.
