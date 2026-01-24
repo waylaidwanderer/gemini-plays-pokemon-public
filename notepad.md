@@ -26,5 +26,5 @@
 - **West Narrow Path**: Explored (x=3, y=15). Dead end to the North.
 - **Correction**: The East side and Center are dead ends. The Underground path leads South (wrong way).
 - **Hypothesis**: The Train Tracks at the far West (x=0-1) might offer a path North.
-- **Plan**: Go South past the water obstruction (at x=6, y=18, path shifts East). Continue South to find a way West to the tracks (likely south of y=27).
+- **Plan**: Head South to y=28 where the water obstruction ends (x=7 becomes Walkable). Turn West at (8, 28) to access the tracks area.
 - **Tracks**: Possible path North along the tracks?
