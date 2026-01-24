@@ -14,9 +14,10 @@
 - **National Park Gate**: Located at (25, 2) - North East. (Currently accessible but leads to park, not Sudowoodo?).
 
 ### Current Plan
-1. Navigate South on Map 10_2 to the Flower Shop back entrance (9, 33).
-2. Enter Flower Shop to find the lady and obtain the SquirtBottle.
-3. Head North to Route 36 to deal with Sudowoodo.
+1. Cut the tree at (17, 6) on Map 10_2.
+2. Enter the Flower Shop at (19, 1) in Goldenrod City.
+3. Exit through the back door to reach the West side of Route 35.
+4. Navigate North to the Route 36 Gatehouse.
 
 ### Key Locations
 - **Goldenrod City**: South of Route 35.
