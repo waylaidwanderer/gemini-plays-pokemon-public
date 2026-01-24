@@ -15,10 +15,5 @@
 
 ### Strategic Notes
 - **SquirtBottle**: Requires Plain Badge (Have), inspecting tree (Done), and finding Floria.
-- **Map Intel**: "North Gate" at (25,3) was invalid. Heading South-East to find the East Exit (Route 36).
-### Reflection (Turn 11667)
-- **Correction**: Map 11_10 is a HOUSE (likely Name Rater's), NOT the Gatehouse. There is no North exit.
-- **Action**: Exiting back to Goldenrod City.
-- **Plan**: Bypass this building to reach the real Gatehouse at the North edge of the map.
-- **Navigation**: Will check path to the WEST (Left) of this building, as East was a dead end.
-- **Quest**: Find Floria (Route 36) -> Get SquirtBottle.
+- **Map Intel**: Navigating the National Park. The North Gate (Map 11_10) was a house. The actual path seems to be through the central openings.
+- **Current Path**: Loop West to Col 21, then head North through the gap to reach the North-East section.
