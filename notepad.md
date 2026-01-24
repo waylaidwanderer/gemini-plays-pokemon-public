@@ -17,8 +17,8 @@
 - **Poison Alert**: Garnet is poisoned. No Antidote in bag. Prioritize reaching a Pokemon Center (Violet City East?) or finding Floria quickly.
 - **SquirtBottle**: Requires Plain Badge (Have), inspecting tree (Done), and finding Floria.
 - **Map Intel**: "North Gate" at (25,3) was invalid. Heading South-East to find the East Exit (Route 36).
-### Reflection (Turn 11582)
-- **Map Mechanics**: Row 8 connects East and West sides of Route 35. Row 5/6 have walls (TYPE_2889).
-- **Correction**: TYPE_2889 is a Wall/Impassable. Do not use in pathfinding.
-- **Plan**: Escape battle -> Walk West to X=3 on Row 8 -> Walk North to Gatehouse at (3,5).
-- **Status**: Garnet Poisoned (52 HP). Urgency: High. Battle with Nidoran.
+### Reflection (Turn 11593)
+- **Location**: National Park (3_15). Deep in tall grass.
+- **Goal**: Reach North-East Gatehouse (Route 36 Exit) at (33, 19).
+- **Status**: Garnet Poisoned (41 HP). Critical urgency to avoid battles and walk steps.
+- **Action**: Run from Nidoran, then seek paved path (TYPE_3fe2) to avoid encounters.
