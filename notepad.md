@@ -21,3 +21,4 @@
 - **East Alley Item**: Item Ball at (13, 16) in Goldenrod East Alley blocked by trees.
 - **Route 35 Navigation**: Need to reach X < 12 to return to Goldenrod Main St.
 - Correction: The crossing from East to West in Goldenrod Alley is at Row 8/9. I missed it by walking South.
+- Navigation Update: The wall at Col 12 is solid. Must backtrack North to Row 9 to cross to West side.
