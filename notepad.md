@@ -23,7 +23,10 @@
 - **Badges**: Zephyr, Hive, Plain.
 - **Party**: Quilava (27), Bellsprout (6), Togepi (5), Rattata (8), Igglybuff (5).
 - **West Narrow Path**: Explored (x=3, y=15). Dead end to the North.
-- **Discovery**: The central street (x=19, Flower Shop) and East street (x=24, Gym) are dead ends for North travel. The Gym blocks x=23-24.
-- **Solution**: The XML shows a clear path North along column x=16 (West of Flower Shop). Access via the gap at (17, 10).
-- **Plan**: Go South to (19, 10), West to (16, 10), then North to (16, 0).
+- **Discovery**: The North path is via the East side, but it requires a zig-zag.
+- **Route**:
+  1. Enter the gap at x=36 (Row 6 is walkable).
+  2. Move North/West to x=32 (Rows 4-5 are open).
+  3. Go North along x=32 to reach the Map Edge (Route 35).
+- **Plan**: Navigate to (36, 10), then North through the gap.
 - **Tracks**: Possible path North along the tracks (x=0-1)? Need to find access point (likely South).
