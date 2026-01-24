@@ -26,14 +26,12 @@
 - **West Narrow Path**: Explored (x=3, y=15). Dead end to the North.
 - **Correction**: The East side and Center are dead ends. The Underground path leads South (wrong way).
 - **Hypothesis**: The Train Tracks at the far West (x=0-1) might offer a path North.
-- **West Side Access**: The path at x=8 is blocked at y=24 by a fence. A continuous vertical barrier (wall/ledge/fence) exists at x=9, separating East and West sides.
-- **West Side Access**: The path at x=8 is blocked. The South area (Gatehouse) does not connect to the West side.
-- **Correction**: The Northern path at y=2 is a dead end (blocked by trees at x=9).
-- **Update**: Reached the Schoolboy at (11, 16). He is unresponsive/passive. Moving North past him to find the main road.
-- **Plan**: Move South from the tall grass (x=10) to locate the main road at y=20+, then search for Floria.
-- **Tracks**: Possible path North along the tracks?
+- **West Side Access**: The path at x=8 is blocked.
+- **Correction**: The Northern path at y=2 is a dead end.
+- **Update**: Reached the Schoolboy at (11, 16). Passive NPC.
+- **Plan**: Continue North to finding the main East-West road of Route 36.
 ### Navigation Strategy: Route 36
-- **Current Location**: Route 36 (North of Route 35).
+- **Current Location**: Route 36 (South/Connector).
 - **Objective**: Reach the T-intersection.
   - **West**: National Park.
   - **East**: Violet City.
