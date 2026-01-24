@@ -7,9 +7,10 @@
 3. **Clear Sudowoodo**: Use SquirtBottle on Route 36.
 
 ### Exploration Status
-- **Route 35**: The North-East cul-de-sac at (31, 7) is a dead end. Blocked by walls at x=35 and Row 5.
-- **Hypothesis**: The path to Route 35 requires accessing the far East corridor (x=36) from the South (near Row 34?), or navigating West of the Radio Tower.
-- **Plan**: Backtrack to Main Road, head South, and investigate access to the East side (x>35) from the bottom of the map.
+- **East Side (x>17)**: Dead End. The path North is blocked by walls and houses.
+- **Center (x=6-17)**: Blocked by Underground Entrance (9, 5).
+- **West Side (x<6)**: Investigating path North of Radio Tower (x=3) or along Tracks (x=0-1).
+- **Hypothesis**: The exit to Route 35 is on the far West side or requires a specific path past the Radio Tower.
 - **Center (x=6-17)**: Blocked at Row 5 by Walls and Underground Entrance (9,5).
 - **West (x<6)**: Radio Tower area. Need to investigate path West of Radio Tower (x=3) or Tracks (x=0-1).
 
