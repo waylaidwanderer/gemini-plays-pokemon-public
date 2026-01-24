@@ -18,6 +18,7 @@
 - **Underground Entrance**: (9, 5).
 - **Radio Tower**: (5, 15).
 - **Gym**: (24, 7).
+- **Sticker Girl**: Route 36 (15, 24). Not Floria.
 
 ### Quest Log
 - **Badges**: Zephyr, Hive, Plain.
