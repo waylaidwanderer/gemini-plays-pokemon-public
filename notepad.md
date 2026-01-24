@@ -23,10 +23,7 @@
 - **Badges**: Zephyr, Hive, Plain.
 - **Party**: Quilava (27), Bellsprout (6), Togepi (5), Rattata (8), Igglybuff (5).
 - **West Narrow Path**: Explored (x=3, y=15). Dead end to the North.
-- **Discovery**: The North path is via the East side using a zig-zag.
-- **Route**:
-  1. Go South to (19, 10) to exit Flower Shop area.
-  2. Go East to x=36, then North to (36, 4).
-  3. Go West to x=33, then North to Route 35 (Unseen area).
-- **Plan**: Navigate to (33, 4) to verify this path.
+- **Correction**: The East side is a dead end. The "Happiness Rater" is at (33, 9).
+- **Analysis**: The "Reachable Exits" scan confirms NO North surface exit from this area. The only path forward is to traverse the "Underground" to bypass the city's partition.
+- **Plan**: Enter Underground at (9, 5), cross the tunnel, and exit on the North side.
 - **Tracks**: Possible path North along the tracks (x=0-1)? Need to find access point (likely South).
