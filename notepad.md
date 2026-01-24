@@ -17,7 +17,7 @@
 - **Poison Alert**: Garnet is poisoned. No Antidote in bag. Prioritize reaching a Pokemon Center (Violet City East?) or finding Floria quickly.
 - **SquirtBottle**: Requires Plain Badge (Have), inspecting tree (Done), and finding Floria.
 - **Map Intel**: "North Gate" at (25,3) was invalid. Heading South-East to find the East Exit (Route 36).
-### Reflection (Turn 11564)
+### Reflection (Turn 11567)
 - **Map Update**: Confirmed Route 35 East Side is a dead end to the South (Blocked by wall at Row 32).
 - **Plan**: Aborting Southward path. Must head **North** to Route 36, then **West** to National Park, then **South** through the Gatehouse to reach the Main Road (West Side) and Goldenrod.
-- **Status**: Garnet Poisoned. Urgency: High. Battle with Pidgey initiated - Running away.
+- **Status**: Garnet Poisoned. Urgency: High. Ran away from Pidgey. Continuing North.
