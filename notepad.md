@@ -1,6 +1,6 @@
 # Pokémon Crystal Playthrough
 - Started: Friday, January 16, 2026
-- Current Location: National Park (Map 3_15)
+- Current Location: National Park (Map 10_3)
 
 ### Immediate Goals
 1. **Find Floria**: Explore the North-East corner of the National Park.
