@@ -23,6 +23,7 @@
 - **Badges**: Zephyr, Hive, Plain.
 - **Party**: Quilava (27), Bellsprout (6), Togepi (5), Rattata (8), Igglybuff (5).
 - **West Narrow Path**: Explored (x=3, y=15). Dead end to the North.
-- **Correction**: The area around the Gym (24, 7) is a dead end for the North path. The wall at y=5 seems to block the entire center. Need to find a gap, possibly on the far West (x=0-1) or verify if the Underground has a different exit.
-- **Hypothesis**: Use 'find_reachable_exits' to check if the North edge (y=0) is reachable from current position. If not, must find a new route (e.g. West tracks).
+- **Discovery**: The central street (x=19, Flower Shop) and East street (x=24, Gym) are dead ends for North travel. The Gym blocks x=23-24.
+- **Solution**: The XML shows a clear path North along column x=16 (West of Flower Shop). Access via the gap at (17, 10).
+- **Plan**: Go South to (19, 10), West to (16, 10), then North to (16, 0).
 - **Tracks**: Possible path North along the tracks (x=0-1)? Need to find access point (likely South).
