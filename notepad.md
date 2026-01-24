@@ -14,6 +14,6 @@
 - **Contest**: Not entered (lack of Sport Balls/Bug Catching logic).
 
 ### Strategic Notes
-- **SquirtBottle**: Inspected Sudowoodo. Returning to Flower Shop in Goldenrod to claim the bottle.
-- **Map Intel**: Sudowoodo is blocking the path at (35, 9) in National Park. Need SquirtBottle to proceed East.
-- **Current Path**: Return to Goldenrod City via South Gate (Route 35).
+- **SquirtBottle**: Inspected Sudowoodo. Returning to Flower Shop. If refused, must locate Floria (likely near Sudowoodo or Route 36).
+- **Map Intel**: Sudowoodo is blocking the path at (35, 9) in National Park.
+- **Current Path**: Route 35 -> Goldenrod City (Flower Shop).
