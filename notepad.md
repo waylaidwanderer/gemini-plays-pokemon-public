@@ -9,11 +9,12 @@
 
 ### Quest Log
 - **Badges**: Zephyr, Hive, Plain.
-- **Party**: All Healthy.
+- **Party**: All Healthy (Garnet Poisoned).
 - **Mail Quest**: Active.
 - **Contest**: Not entered (lack of Sport Balls/Bug Catching logic).
 
 ### Strategic Notes
+- **Poison Alert**: Garnet is poisoned. No Antidote in bag. Prioritize reaching a Pokemon Center (Violet City East?) or finding Floria quickly.
 - **SquirtBottle**: Requires Plain Badge (Have), inspecting tree (Done), and finding Floria.
 - **Map Intel**: "North Gate" at (25,3) was invalid. Heading South-East to find the East Exit (Route 36).
 ### Reflection (Turn 11510)
