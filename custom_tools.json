@@ -123,6 +123,10 @@
         },
         "target_y": {
           "type": "integer"
+        },
+        "autopress_buttons": {
+          "type": "boolean",
+          "default": false
         }
       },
       "required": [
@@ -132,7 +136,7 @@
         "target_y"
       ]
     },
-    "python_script": "import xml.etree.ElementTree as ET\nimport collections\n\nstart_x = input_data['start_x']\nstart_y = input_data['start_y']\ntarget_x = input_data['target_x']\ntarget_y = input_data['target_y']\n\ntry:\n    root = ET.fromstring(map_xml_string)\n    width = int(root.get(\"width\"))\n    height = int(root.get(\"height\"))\n    grid = {}\n    \n    for row in root.findall(\"Row\"):\n        y = int(row.get(\"id\"))\n        for tile in row.findall(\"Tile\"):\n            x = int(tile.get(\"id\"))\n            t_type = tile.get(\"type\")\n            grid[(x, y)] = t_type\n\n    start = (start_x, start_y)\n    target = (target_x, target_y)\n    \n    if start not in grid or target not in grid:\n        print(f\"Error: Coordinates out of bounds or not in map data.\")\n        exit()\n\n    queue = collections.deque([[start]])\n    visited = set([start])\n    \n    found = False\n    final_path = []\n    \n    # Simple passable check - assume anything not explicitly a known wall is passable for now\n    # This can be refined\n    WALL_TYPES = [\"TYPE_2889\", \"TYPE_80fc\", \"TYPE_5519\", \"TYPE_a336\", \"TYPE_fed7\"] \n    # Note: TYPE_c453 is ledge, handled as one-way usually, but for simple connectivity checks might treat as passable or blocked depending on direction. \n    # For this simple BFS, let's treat it as passable but risky, or just block it if we want strictness.\n    # Let's verify specific blocked types from notepad.\n    \n    while queue:\n        path = queue.popleft()\n        x, y = path[-1]\n        \n        if (x, y) == target:\n            found = True\n            final_path = path\n            break\n        \n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            nx, ny = x + dx, y + dy\n            if 0 <= nx < width and 0 <= ny < height:\n                if (nx, ny) not in visited:\n                    tile_type = grid.get((nx, ny), \"unseen\")\n                    if tile_type not in WALL_TYPES:\n                        visited.add((nx, ny))\n                        new_path = list(path)\n                        new_path.append((nx, ny))\n                        queue.append(new_path)\n\n    if found:\n        print(f\"Path found! Length: {len(final_path)}. Path: {final_path}\")\n    else:\n        print(\"No path found.\")\n\nexcept Exception as e:\n    print(f\"Error parsing map or finding path: {e}\")",
+    "python_script": "import sys\nimport json\nimport xml.etree.ElementTree as ET\nimport collections\n\n# Get input data\nstart_x = input_data['start_x']\nstart_y = input_data['start_y']\ntarget_x = input_data['target_x']\ntarget_y = input_data['target_y']\nautopress = input_data.get('autopress_buttons', False)\n\ntry:\n    root = ET.fromstring(map_xml_string)\n    width = int(root.get(\"width\"))\n    height = int(root.get(\"height\"))\n    grid = {}\n    \n    for row in root.findall(\"Row\"):\n        y = int(row.get(\"id\"))\n        for tile in row.findall(\"Tile\"):\n            x = int(tile.get(\"id\"))\n            t_type = tile.get(\"type\")\n            grid[(x, y)] = t_type\n\n    start = (start_x, start_y)\n    target = (target_x, target_y)\n    \n    if start not in grid or target not in grid:\n        if autopress:\n            print(json.dumps([]))\n        else:\n            print(json.dumps({\"error\": \"Coordinates out of bounds or not in map data\"}))\n        exit()\n\n    queue = collections.deque([[start]])\n    visited = set([start])\n    \n    found = False\n    final_path = []\n    \n    # Standard wall types to avoid\n    WALL_TYPES = [\"TYPE_2889\", \"TYPE_80fc\", \"TYPE_5519\", \"TYPE_a336\"]\n    \n    while queue:\n        path = queue.popleft()\n        x, y = path[-1]\n        \n        if (x, y) == target:\n            found = True\n            final_path = path\n            break\n        \n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            nx, ny = x + dx, y + dy\n            if 0 <= nx < width and 0 <= ny < height:\n                if (nx, ny) not in visited:\n                    tile_type = grid.get((nx, ny), \"unseen\")\n                    if tile_type not in WALL_TYPES:\n                        visited.add((nx, ny))\n                        new_path = list(path)\n                        new_path.append((nx, ny))\n                        queue.append(new_path)\n\n    if found:\n        # Convert path to buttons\n        buttons = []\n        for i in range(len(final_path) - 1):\n            curr = final_path[i]\n            next_tile = final_path[i+1]\n            dx = next_tile[0] - curr[0]\n            dy = next_tile[1] - curr[1]\n            if dx == 1: buttons.append(\"Right\")\n            elif dx == -1: buttons.append(\"Left\")\n            elif dy == 1: buttons.append(\"Down\")\n            elif dy == -1: buttons.append(\"Up\")\n\n        if autopress:\n            print(json.dumps(buttons))\n        else:\n            # Return JSON object\n            print(json.dumps({\"found\": True, \"length\": len(final_path), \"path\": str(final_path), \"buttons\": buttons}))\n    else:\n        if autopress:\n            print(json.dumps([]))\n        else:\n            print(json.dumps({\"found\": False}))\n\nexcept Exception as e:\n    # Return valid JSON error or empty list\n    if autopress:\n        print(json.dumps([]))\n    else:\n        print(json.dumps({\"error\": str(e)}))\n",
     "history": [
       {
         "commit_message": "Initial version",
@@ -153,6 +157,11 @@
         "commit_message": "Initial definition of check_path_connectivity tool for verifying paths on the mental map.",
         "timestamp": "2026-01-18T00:52:36.653Z",
         "action_counter": 2016
+      },
+      {
+        "commit_message": "Fixed JSON parsing error by ensuring only valid JSON is printed to stdout.",
+        "timestamp": "2026-01-24T13:10:59.316Z",
+        "action_counter": 11043
       }
     ]
   },
@@ -175,6 +184,10 @@
             "East",
             "West"
           ]
+        },
+        "autopress_buttons": {
+          "type": "boolean",
+          "default": false
         }
       },
       "required": [
@@ -183,12 +196,17 @@
         "edge"
       ]
     },
-    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\n\ndef find_edge_path(xml_string, sx, sy, edge):\n    try:\n        root = ET.fromstring(xml_string)\n    except:\n        print(\"[]\")\n        return\n\n    width = int(root.get('width'))\n    height = int(root.get('height'))\n    \n    # Parse grid\n    grid = set()\n    rows = root.findall('Row')\n    for row in rows:\n        y = int(row.get('id'))\n        tiles = row.findall('Tile')\n        for tile in tiles:\n            x = int(tile.get('id'))\n            t_type = tile.get('type')\n            # Common walkable types + doors + unseen\n            # Adjust this list as we discover more types\n            if t_type in ['TYPE_3fe2', 'TYPE_ffbb', 'TYPE_201b', 'TYPE_unseen', 'TYPE_989e', 'TYPE_1dc2', 'TYPE_2889', 'TYPE_4e8c']:\n                grid.add((x,y))\n\n    queue = deque([(sx, sy, [])])\n    visited = set([(sx, sy)])\n    \n    while queue:\n        x, y, path = queue.popleft()\n        \n        # Check condition\n        at_edge = False\n        if edge == \"North\" and y == 0: at_edge = True\n        elif edge == \"South\" and y == height - 1: at_edge = True\n        elif edge == \"West\" and x == 0: at_edge = True\n        elif edge == \"East\" and x == width - 1: at_edge = True\n        \n        if at_edge:\n            # Convert to buttons\n            buttons = []\n            curr_x, curr_y = sx, sy\n            full_path = path + [(x, y)]\n            for px, py in full_path[1:]:\n                if px > curr_x: buttons.append(\"Right\")\n                elif px < curr_x: buttons.append(\"Left\")\n                elif py > curr_y: buttons.append(\"Down\")\n                elif py < curr_y: buttons.append(\"Up\")\n                curr_x, curr_y = px, py\n            print(str(buttons).replace(\"'\", '\"'))\n            return\n\n        for dx, dy in [(0, -1), (0, 1), (-1, 0), (1, 0)]:\n            nx, ny = x + dx, y + dy\n            if (nx, ny) in grid and (nx, ny) not in visited:\n                visited.add((nx, ny))\n                queue.append((nx, ny, path + [(x, y)]))\n    \n    print(\"[]\")\n\nfind_edge_path(map_xml_string, start_x, start_y, edge)",
+    "python_script": "import sys\nimport json\nimport xml.etree.ElementTree as ET\nimport collections\n\n# Get input data\nstart_x = input_data['start_x']\nstart_y = input_data['start_y']\nedge = input_data['edge']\nautopress = input_data.get('autopress_buttons', False)\n\n# Parse the map XML\ntry:\n    root = ET.fromstring(map_xml_string)\n    width = int(root.get(\"width\"))\n    height = int(root.get(\"height\"))\n    grid = {}\n    \n    for row in root.findall(\"Row\"):\n        y = int(row.get(\"id\"))\n        for tile in row.findall(\"Tile\"):\n            x = int(tile.get(\"id\"))\n            t_type = tile.get(\"type\")\n            grid[(x, y)] = t_type\n\n    start = (start_x, start_y)\n    \n    if start not in grid:\n        print(json.dumps([])) # Return empty if start invalid\n        exit()\n\n    # Define target condition based on edge\n    def is_target(x, y):\n        if edge == \"North\": return y == 0\n        if edge == \"South\": return y == height - 1\n        if edge == \"West\": return x == 0\n        if edge == \"East\": return x == width - 1\n        return False\n\n    # BFS\n    queue = collections.deque([[start]])\n    visited = set([start])\n    \n    # Common walkable types plus unseen. \n    WALKABLE_TYPES = [\"TYPE_3fe2\", \"TYPE_3f8d\", \"TYPE_fed7\", \"TYPE_2849\", \"unseen\"] \n    \n    found_path = None\n    \n    while queue:\n        path = queue.popleft()\n        x, y = path[-1]\n        \n        if is_target(x, y):\n            found_path = path\n            break\n        \n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            nx, ny = x + dx, y + dy\n            if 0 <= nx < width and 0 <= ny < height:\n                if (nx, ny) not in visited:\n                    tile_type = grid.get((nx, ny), \"unseen\")\n                    # Check passability\n                    if tile_type in WALKABLE_TYPES or tile_type == \"unseen\": \n                        visited.add((nx, ny))\n                        new_path = list(path)\n                        new_path.append((nx, ny))\n                        queue.append(new_path)\n\n    if found_path:\n        # Convert path to buttons\n        buttons = []\n        for i in range(len(found_path) - 1):\n            curr = found_path[i]\n            next_tile = found_path[i+1]\n            dx = next_tile[0] - curr[0]\n            dy = next_tile[1] - curr[1]\n            if dx == 1: buttons.append(\"Right\")\n            elif dx == -1: buttons.append(\"Left\")\n            elif dy == 1: buttons.append(\"Down\")\n            elif dy == -1: buttons.append(\"Up\")\n            \n        print(json.dumps(buttons))\n    else:\n        print(json.dumps([]))\n\nexcept Exception as e:\n    # On error, return empty list to avoid crashing the tool runner\n    print(json.dumps([]))\n",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2026-01-20T18:27:53.838Z",
         "action_counter": 6331
+      },
+      {
+        "commit_message": "Fixed NameError by ensuring variable definitions match input extraction.",
+        "timestamp": "2026-01-24T13:10:59.315Z",
+        "action_counter": 11043
       }
     ]
   },
