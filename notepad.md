@@ -9,8 +9,9 @@
 ### Route 35 / North Exit Exploration
 - **Location**: North end of Route 35 (Map 3_15).
 - **Structure**: National Park Gatehouse at (25, 2).
-- **Current Status**: Investigating the path running West behind the gatehouse/trees (Row 2).
-- **Goal**: Find entrance to National Park or Sudowoodo.
+- **Current Status**: At (25, 3). The Gatehouse door at (25, 2) failed to warp previously. Retrying entry to confirm if locked/fake.
+- **Next Step**: If gatehouse fails, defeat Schoolboy Alan at (26, 6) and explore the path East of him.
+- **West Path**: Previously explored to (10, 2) and turned back. Might need to go further West if East fails.
 
 ### Validated Locations
 - **Flower Shop**: (19, 1).
