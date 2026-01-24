@@ -31,3 +31,4 @@
 - **Party**: Garnet (29), Basil (6), Pearl (5), Amethyst (8), Amber (5), Spider (14).
 - **Mail Quest**: Met Mail NPC at (15, 4). No item received yet.
 - Note: The alleyway at x=17 contains ledges. It is a one-way path South.
+- Encountered trainers and wild Pokemon (Yanma) in the alleyway/grassy area south of x=17. This might be a hidden area of Goldenrod or a map transition anomaly.
