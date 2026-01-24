@@ -40,3 +40,4 @@
 - **Plan**: Talk to Alan, then head North to find the East-West road and the Sudowoodo.
 - **Reflection (Turn 10735)**: The nook at (14, 5) is a dead end. Confirmed by Schoolboy NPC. Exiting South to search the Western area (x < 14) for the main road or Floria. My previous assumption about the North path was wrong.
 - **Sign**: "National Park Warden's Office" at (26, 31).
+- **Turn 10964**: Entered the structure at the North end of Route 35 (25, 2). Appears to be the National Park Gatehouse. Heading North to exit.
