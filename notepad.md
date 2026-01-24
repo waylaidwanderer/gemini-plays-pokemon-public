@@ -16,7 +16,7 @@
 ### Strategic Notes
 - **SquirtBottle**: Inspected Sudowoodo. Returning to Flower Shop. If refused, must locate Floria (likely near Sudowoodo or Route 36).
 - **Map Intel**: Sudowoodo is blocking the path at (35, 9) in National Park.
-- **Current Path**: Route 35 -> Goldenrod City (Flower Shop).
+
 ### Reflection (Turn 11820)
 - **Progress**: Returned to Route 35, navigated to the building at the south end.
 - **Correction**: The "Flower Shop Back Door" at (9, 33) needs verification. If it's not a door, I might need to go around to the main gatehouse entrance.
