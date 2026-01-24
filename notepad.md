@@ -23,5 +23,6 @@
 - **Badges**: Zephyr, Hive, Plain.
 - **Party**: Quilava (27), Bellsprout (6), Togepi (5), Rattata (8), Igglybuff (5).
 - **West Narrow Path**: Explored (x=3, y=15). Dead end to the North.
-- **Correction**: Access to Route 35 is blocked by a wall at y=5 (Underground Ent). Confirmed path North is via the Gym area (East side, x=24). Moving East to bypass the central block.
+- **Correction**: The area around the Gym (24, 7) is a dead end for the North path. The wall at y=5 seems to block the entire center. Need to find a gap, possibly on the far West (x=0-1) or verify if the Underground has a different exit.
+- **Hypothesis**: Use 'find_reachable_exits' to check if the North edge (y=0) is reachable from current position. If not, must find a new route (e.g. West tracks).
 - **Tracks**: Possible path North along the tracks (x=0-1)? Need to find access point (likely South).
