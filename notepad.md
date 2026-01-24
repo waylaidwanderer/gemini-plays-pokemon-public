@@ -26,5 +26,5 @@
 - **West Narrow Path**: Explored (x=3, y=15). Dead end to the North.
 - **Correction**: The East side and Center are dead ends. The Underground path leads South (wrong way).
 - **Hypothesis**: The Train Tracks at the far West (x=0-1) might offer a path North.
-- **Plan**: Exit Underground Entrance, go West to x=1, and follow tracks North.
-- **Tracks**: Possible path North along the tracks (x=0-1)? Need to find access point (likely South).
+- **Plan**: Loop South into Route 34, find a gap in the fence (approx y=8?), head West to x=0-5, then head North to re-enter Goldenrod on the west side.
+- **Tracks**: Possible path North along the tracks?
