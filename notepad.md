@@ -10,8 +10,10 @@
 - **Location**: North end of Route 35 (Map 3_15).
 - **Structure**: National Park Gatehouse at (25, 2).
 - **Current Status**: At (25, 3). The Gatehouse door at (25, 2) failed to warp previously. Retrying entry to confirm if locked/fake.
-- **Next Step**: If gatehouse fails, defeat Schoolboy Alan at (26, 6) and explore the path East of him.
-- **West Path**: Previously explored to (10, 2) and turned back. Might need to go further West if East fails.
+- **Route 35 Gatehouse**: Located at North end.
+- **East Side (Alan)**: Dead end explored at Turn 10991.
+- **West Maze**: Explored to (2, 8) in Turn 10974. Needs full check to (0, 10).
+- **Current Action**: Checking adjacent archway at (22, 2) for entry. Then West maze.
 
 ### Validated Locations
 - **Flower Shop**: (19, 1).
