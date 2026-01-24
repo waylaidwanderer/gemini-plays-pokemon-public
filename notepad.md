@@ -12,7 +12,7 @@
 - **Current Status**: At (25, 3). The Gatehouse door at (25, 2) failed to warp previously. Retrying entry to confirm if locked/fake.
 - **Route 35 Gatehouse**: Located at North end.
 - **East Side (Alan)**: Dead end explored at Turn 10991.
-- **West Maze**: Explored to (2, 8) in Turn 10974. Needs full check to (0, 10).
+- **West Maze**: Explored deep South along x=0 corridor. Currently at (0, 25). Seemingly bypasses the route.
 - **Current Action**: Checking adjacent archway at (22, 2) for entry. Then West maze.
 
 ### Validated Locations
