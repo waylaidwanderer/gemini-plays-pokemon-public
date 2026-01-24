@@ -6,13 +6,12 @@
 2. **Get SquirtBottle**: Return to Flower Shop (19, 1) after finding Floria.
 3. **Clear Sudowoodo**: Use SquirtBottle on Route 36.
 
-### Exploration Status
-- **East Side (x>17)**: DEAD END. Blocked by walls/houses.
-- **Center (x=6-17)**: Blocked by Underground Entrance (9, 5).
-- **West Side (x<6)**:
-  - **Radio Tower Area**: North path (x=3) is a dead end.
-  - **Tracks (x=0-1)**: Potential path North? Access via Route 34 (South).
-- **Navigation Note**: x=14 is isolated from x=11 by a building. Must loop South through Route 34 to access West side.
+### Navigation Strategy: Goldenrod City
+- **Route 35 Exit**: Located at the North Map Edge (y=0) around x=16 and x=24.
+- **Access**: The corridors leading North are separated by buildings.
+  - **x=19 Corridor**: Dead End (Flower Shop). Must loop South to Row 8 to exit.
+  - **x=16 Corridor**: Connects to Exit. Enter from Row 8.
+  - **x=24 Corridor**: Connects to Exit.
 
 ### Validated Locations
 - **Flower Shop**: (19, 1).
