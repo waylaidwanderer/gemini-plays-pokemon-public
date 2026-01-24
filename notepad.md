@@ -7,11 +7,11 @@
 3. **Clear Sudowoodo**: Use SquirtBottle on Route 36.
 
 ### Navigation Strategy: Goldenrod City
-- **Route 35 Exit**: Located at the North Map Edge (y=0) around x=16 and x=24.
-- **Access**: The corridors leading North are separated by buildings.
-  - **x=19 Corridor**: Dead End (Flower Shop). Must loop South to Row 8 to exit.
-  - **x=16 Corridor**: Connects to Exit. Enter from Row 8.
-  - **x=24 Corridor**: Connects to Exit.
+- **Route 35 Exit**: Accessed via the back door of the Flower Shop (19, 1). Warps to Map 10_2 (Alley/Route 35).
+- **Map 10_2**: The area behind the buildings. Follow the path North to reach Route 36.
+- **Connections**:
+  - South: Warps back to Flower Shop (9, 33).
+  - North: Leads to Route 36 (Floria's location).
 
 ### Validated Locations
 - **Flower Shop**: (19, 1).
