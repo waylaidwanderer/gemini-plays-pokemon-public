@@ -30,3 +30,4 @@
 - **Badges**: Zephyr, Hive, Plain.
 - **Party**: Garnet (29), Basil (6), Pearl (5), Amethyst (8), Amber (5), Spider (14).
 - **Mail Quest**: Met Mail NPC at (15, 4). No item received yet.
+- Note: The alleyway at x=17 contains ledges. It is a one-way path South.
