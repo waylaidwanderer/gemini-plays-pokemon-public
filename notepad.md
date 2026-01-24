@@ -2,7 +2,7 @@
 - Started: Friday, January 16, 2026
 
 ### Current Objectives
-1. **Find Floria**: Located at Route 36 (North of Route 35).
+1. **Talk to Floria**: Found at Route 36 (15, 24).
 2. **Get SquirtBottle**: Return to Flower Shop (19, 1) after finding Floria.
 3. **Clear Sudowoodo**: Use SquirtBottle on Route 36.
 
