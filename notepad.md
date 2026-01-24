@@ -17,8 +17,9 @@
 - **Poison Alert**: Garnet is poisoned. No Antidote in bag. Prioritize reaching a Pokemon Center (Violet City East?) or finding Floria quickly.
 - **SquirtBottle**: Requires Plain Badge (Have), inspecting tree (Done), and finding Floria.
 - **Map Intel**: "North Gate" at (25,3) was invalid. Heading South-East to find the East Exit (Route 36).
-### Reflection (Turn 11646)
-- **Status**: Party Fully Healed.
-- **Goal**: Find Floria at Route 36 (Sudowoodo Area).
-- **Plan**: Exit Goldenrod North -> Route 35 -> National Park (East Exit) -> Route 36.
-- **Quest**: Talk to Floria -> Return to Flower Shop -> Get SquirtBottle -> Water the Tree.
+### Reflection (Turn 11660)
+- **Map Intel**: Col 20 is a dead end at the North (Blocked at Row 1).
+- **Correction**: Must traverse North via **Col 16**.
+- **Path**: Go South to Row 10 -> West to Col 16 -> North to Exit at (16, 0).
+- **Status**: Clearing Irwin's call.
+- **Quest**: Find Floria (Route 36) -> Get SquirtBottle.
