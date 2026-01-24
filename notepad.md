@@ -29,3 +29,10 @@
 - **West Side Access**: The path at x=8 is blocked. The South area (Gatehouse) does not connect to the West side.
 - **Plan**: Return to Goldenrod City, then head North to Route 36 to find Floria and the Sudowoodo.
 - **Tracks**: Possible path North along the tracks?
+### Navigation Strategy: Route 36
+- **Current Location**: Route 36 (North of Route 35).
+- **Objective**: Reach the T-intersection.
+  - **West**: National Park.
+  - **East**: Violet City.
+  - **Center**: Sudowoodo (Blocked).
+- **Search Area**: Look for Floria near the Sudowoodo.
