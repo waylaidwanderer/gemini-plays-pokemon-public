@@ -15,4 +15,4 @@
 
 ### Strategic Notes
 - **SquirtBottle**: Requires Plain Badge (Have), inspecting tree (Done), and finding Floria.
-- **Map Intel**: "North Gate" at (25,3) was invalid. Heading East.
+- **Map Intel**: "North Gate" at (25,3) was invalid. Heading South-East to find the East Exit (Route 36).
