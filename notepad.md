@@ -14,4 +14,5 @@
 
 ### Strategic Notes
 - **SquirtBottle**: Requires Plain Badge (Have) and inspecting tree (Done).
+- **Hint**: Girl mentioned "watered it with a SQUIRTBOTTLE". Likely the solution.
 - **Navigation**: Flower Shop connects Goldenrod (South) and Route 35 (North).
