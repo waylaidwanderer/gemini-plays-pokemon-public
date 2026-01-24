@@ -40,3 +40,4 @@
 - **Route 36 Layout**: Gatehouse is at South end (y=48). Main road appears to be North (y=20-30). I likely overshot South.
 - **Plan**: Talk to Alan, then head North to find the East-West road and the Sudowoodo.
 - **Reflection (Turn 10735)**: The nook at (14, 5) is a dead end. Confirmed by Schoolboy NPC. Exiting South to search the Western area (x < 14) for the main road or Floria. My previous assumption about the North path was wrong.
+- **Sign**: "National Park Warden's Office" at (26, 31).
