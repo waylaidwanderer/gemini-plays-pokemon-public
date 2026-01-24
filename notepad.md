@@ -6,11 +6,11 @@
 2. **Get SquirtBottle**: Return to Flower Shop (19, 1) after finding Floria.
 3. **Clear Sudowoodo**: Use SquirtBottle on Route 36.
 
-### Route 36 Exploration
-- **Location**: East side of Route 36.
-- **Blockers**: Psychic at (5, 11), Trees at Row 5 (x=8-11).
-- **Path**: Gap in trees at x=12/13.
-- **Target**: Schoolboy Alan at (26, 6), then North to Sudowoodo.
+### Route 35 / North Exit Exploration
+- **Location**: North end of Route 35 (Map 3_15).
+- **Structure**: National Park Gatehouse at (25, 2).
+- **Current Status**: Investigating the path running West behind the gatehouse/trees (Row 2).
+- **Goal**: Find entrance to National Park or Sudowoodo.
 
 ### Validated Locations
 - **Flower Shop**: (19, 1).
