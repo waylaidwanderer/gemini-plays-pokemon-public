@@ -26,6 +26,7 @@
 - **West Narrow Path**: Explored (x=3, y=15). Dead end to the North.
 - **Correction**: The East side and Center are dead ends. The Underground path leads South (wrong way).
 - **Hypothesis**: The Train Tracks at the far West (x=0-1) might offer a path North.
-- **West Side Access**: The path at x=8 is blocked at y=24 by a fence. The barrier at x=9 continues South.
-- **Plan**: Continue South on the East side (x>9) to the Ilex Forest entrance area, then attempt to loop North along the West side.
+- **West Side Access**: The path at x=8 is blocked at y=24 by a fence. A continuous vertical barrier (wall/ledge/fence) exists at x=9, separating East and West sides.
+- **Hypothesis**: Access to the West side (and tracks) might be via a loop at the far South (near Ilex Forest Gate) or it requires Surf (if blocked by water).
+- **Plan**: Reach Ilex Forest Gate (y=37). Check for westward path. If blocked, return to Goldenrod and head North to Route 36 to find Floria.
 - **Tracks**: Possible path North along the tracks?
