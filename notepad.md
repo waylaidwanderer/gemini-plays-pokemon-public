@@ -15,7 +15,8 @@
 
 ### Strategic Notes
 - **SquirtBottle**: Inspected Sudowoodo. Returning to Flower Shop. If refused, must locate Floria (likely near Sudowoodo or Route 36).
-- **Map Intel**: Sudowoodo is blocking the path at (35, 9) in National Park.
+- **Map Intel**: Sudowoodo (Route 36/National Park junction) needs to be cleared.
+- **Quest**: Talk to Flower Shop sister (current), then find Floria (likely Route 36 or near Sudowoodo).
 
 ### Reflection (Turn 11820)
 - **Progress**: Returned to Route 35, navigated to the building at the south end.
