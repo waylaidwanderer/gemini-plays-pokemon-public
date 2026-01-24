@@ -17,9 +17,9 @@
 - **Poison Alert**: Garnet is poisoned. No Antidote in bag. Prioritize reaching a Pokemon Center (Violet City East?) or finding Floria quickly.
 - **SquirtBottle**: Requires Plain Badge (Have), inspecting tree (Done), and finding Floria.
 - **Map Intel**: "North Gate" at (25,3) was invalid. Heading South-East to find the East Exit (Route 36).
-### Reflection (Turn 11664)
-- **Map Intel**: Entered the Goldenrod North Gatehouse (Map 11_10).
-- **Correction**: The "Name Rater" marker was incorrect. This is the Gatehouse.
-- **Action**: Navigating North to Route 35. Guard blocks the direct path, must circle around.
+### Reflection (Turn 11667)
+- **Correction**: Map 11_10 is a HOUSE (likely Name Rater's), NOT the Gatehouse. There is no North exit.
+- **Action**: Exiting back to Goldenrod City.
+- **Plan**: Bypass this building to reach the real Gatehouse at the North edge of the map.
+- **Navigation**: Will check path to the WEST (Left) of this building, as East was a dead end.
 - **Quest**: Find Floria (Route 36) -> Get SquirtBottle.
-- **Status**: Party Healed. Ready to explore.
