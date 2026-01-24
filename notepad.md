@@ -32,5 +32,5 @@
 - **Mail Quest**: Met Mail NPC at (15, 4). No item received yet.
 - Note: The alleyway at x=17 contains ledges. It is a one-way path South.
 - Encountered trainers and wild Pokemon (Yanma) in the alleyway/grassy area south of x=17. This might be a hidden area of Goldenrod or a map transition anomaly.
-- ALERT: Trapped in East Alley (Cols 13-19). North blocked by ledges (Row 18), West by trees/fence (Col 12), South by trees (Row 32). Need to verify if there is ANY exit using code.
+- Path North on Col 16 confirmed open. Escaping East Alley via (17, 6).
 - Item Ball spotted at (13, 16) in the East Alley, but blocked by trees. Requires access from a different angle (likely North or South specific entrance).
