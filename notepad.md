@@ -29,7 +29,7 @@
 - **West Side Access**: The path at x=8 is blocked at y=24 by a fence. A continuous vertical barrier (wall/ledge/fence) exists at x=9, separating East and West sides.
 - **West Side Access**: The path at x=8 is blocked. The South area (Gatehouse) does not connect to the West side.
 - **Correction**: The Northern path at y=2 is a dead end (blocked by trees at x=9).
-- **Plan**: Return South to the main road at y=26, then head West to find Floria and the Sudowoodo.
+- **Plan**: Head West from (27, 12) across the tall grass to reach the center of Route 36.
 - **Tracks**: Possible path North along the tracks?
 ### Navigation Strategy: Route 36
 - **Current Location**: Route 36 (North of Route 35).
