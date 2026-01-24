@@ -17,10 +17,8 @@
 - **Poison Alert**: Garnet is poisoned. No Antidote in bag. Prioritize reaching a Pokemon Center (Violet City East?) or finding Floria quickly.
 - **SquirtBottle**: Requires Plain Badge (Have), inspecting tree (Done), and finding Floria.
 - **Map Intel**: "North Gate" at (25,3) was invalid. Heading South-East to find the East Exit (Route 36).
-### Reflection (Turn 11576)
-- **Map Update**: Route 35 path North blocked by trees at (16,6) and Trainer at (17,7).
-- **Navigation**: Must go West (Left) to bypass the tree line at Row 6.
-- **Hypothesis**: Map 10_2 (Route 35) connects Left/Right sides at the North end.
-- **Plan**: Navigate West to (3,6) to investigate the Gatehouse/Exit at (3,5) and cross to the Left side.
-- **Status**: Garnet Poisoned (54 HP). Urgency: High.
-- **Discrepancy**: GameState reports position (17,7) but Screen shows (16,7). Trusting Screen/Logic.
+### Reflection (Turn 11577)
+- **Map Update**: Moved to (14,8). Encountered wild Ditto.
+- **Navigation**: Attempting to cross from East (Tall Grass) to West (Gatehouse path).
+- **Hypothesis**: The "fence" might not be a hard barrier at Row 8, or the map XML doesn't show it as a wall. Testing connectivity.
+- **Status**: Garnet Poisoned (53 HP). Urgency: High. Run from Ditto.
