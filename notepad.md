@@ -34,3 +34,5 @@
 - Encountered trainers and wild Pokemon (Yanma) in the alleyway/grassy area south of x=17. This might be a hidden area of Goldenrod or a map transition anomaly.
 - Path North on Col 16 confirmed open. Escaping East Alley via (17, 6).
 - Item Ball spotted at (13, 16) in the East Alley, but blocked by trees. Requires access from a different angle (likely North or South specific entrance).
+- Transitioned to Route 35 (Map 10_3) at (17, 17).
+- Goal: Find a path to the West side of Route 35 to loop back to Goldenrod City Main Street for healing.
