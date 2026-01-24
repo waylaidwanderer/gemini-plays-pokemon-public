@@ -27,18 +27,13 @@
 - **Correction**: The East side and Center are dead ends. The Underground path leads South (wrong way).
 - **Hypothesis**: The Train Tracks at the far West (x=0-1) might offer a path North.
 ### Navigation Strategy: Route 36
-- **Layout**: Main road runs East-West around y=20 and connects South to y=48.
-- **West**: Likely leads to Sudowoodo and National Park.
-- **East**: Leads to Violet City.
-- **South**: Leads to Route 35 Gatehouse (y=48).
-- **Current Plan**: Follow the road South/West to find Sudowoodo and Floria.
-- **Recent Findings**:
-  - Path at x=4 goes South to y=23, then turns East.
-  - Main paved road ends at (9, 20) and becomes a grass path to the East.
-  - Needs further exploration South of y=24.
+- **Layout**: Route 36 extends Westward.
+- **Building**: A structure is located at (2, 26).
+- **Plan**: Investigate the building at (2, 26). It might be the gate to National Park.
+- **Sudowoodo**: Should be nearby, possibly blocking a path.
 ### Tile Mechanics
-- **Walkable**: `TYPE_3fe2` (Grass), `TYPE_3f8d` (Tall Grass), `TYPE_fed7` (Path)
-- **Obstacle**: `TYPE_2889` (Tree/Fence)
+- **Walkable**: `TYPE_3fe2` (Grass), `TYPE_3f8d` (Tall Grass)
+- **Obstacle**: `TYPE_2889` (Tree/Fence/Building), `TYPE_fed7` (Tree/Bush)
 
 ### Quest Progress
 - **Find Floria**: Started ~Turn 10589.
