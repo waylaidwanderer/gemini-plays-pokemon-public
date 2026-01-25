@@ -20,3 +20,9 @@
 - **Correction**: The girl at (14, 24) is the Sticker Girl ("Check out my bag!"), not Floria.
 - **Plan**: Explore the North/North-East section of the National Park.
 - **Hypothesis**: Floria might be near the Persian statue (if it exists here) or near the North Gatehouse.
+### Tile Types
+- **TYPE_3fe2**: Walkable Ground/Grass
+- **TYPE_2889**: Obstacle (Wall/Tree)
+- **TYPE_3f8d**: Tall Grass (Wild Encounters)
+- **TYPE_fed7**: Obstacle (Likely Benches or Fountain Edge)
+- **TYPE_f871**: Warp/Gatehouse Door
