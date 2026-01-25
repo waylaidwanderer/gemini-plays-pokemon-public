@@ -47,5 +47,11 @@
 - **Goal**: Reach (3, 5) Gatehouse entrance to return to National Park/Route 36.
 - **Item**: Received FIRE STONE from the girl at (31, 14).
 - **Question**: Is this Floria? Need to see if she mentions the Flower Shop or moves after this dialogue.
-- **Action**: Interacted with Sudowoodo. Checking for reaction.
-- **Hypothesis**: If Floria isn't here, I'll search the path to the East towards Violet City. She might be further down the road.
+- **Action**: Inspected Sudowoodo.
+- **Observation**: Floria is NOT at the tree.
+- **Hypothesis**:
+  1. Inspecting the tree might be the trigger to get the SquirtBottle from the Flower Shop.
+  2. Floria might be hiding in the tall grass on Route 36 or in the National Park.
+- **Plan**:
+  1. Check the tall grass on Route 36 (South-East).
+  2. If not found, return to Goldenrod Flower Shop to see if the "Seen Tree" flag unlocked the bottle.
