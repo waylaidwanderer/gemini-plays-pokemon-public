@@ -27,6 +27,7 @@
 - Tool: `type_text` active. Layout verified (9 cols). Row 4: UPPER (0-2), DEL (3-5), END (6-8).
 - Status Update: Currently out of Poké Balls. Need to restock at next opportunity.
 - Navigation Update: Tree at (11, 5) is NOT cuttable (just a wall).
-- Navigation Strategy: Reach Fence Gap (7, 10) via Safe Path.
-- Safe Path: (11, 6) -> West to (8, 6) -> South to (8, 9) -> West to (7, 9) -> South to Gap (7, 10).
-- Maze Analysis: Direct West/North path from (7, 10) blocked. BFS likely routes South to Row 27 to access Col 0/1, then back North to Gate. This is a very long path.
+- Navigation Analysis: Route to (6, 4) is blocked North/West from (7, 10).
+- Solution: Must loop South to Row 26 to access Col 0 Service Lane, then North to (0, 10) to enter maze.
+- Route: South to (11, 26) -> West to (0, 26) -> North to (0, 10) -> East into maze -> (6, 4).
+- Goal: National Park Gate.
