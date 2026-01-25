@@ -62,3 +62,4 @@
 - **Update**: Floria is NOT at the tree.
 - **Action**: Returning to Goldenrod Flower Shop.
 - **Reasoning**: I inspected the tree. This might update the dialogue at the shop. Or I missed a step. Checking shop again is the safest bet.
+- **Battle Update**: Defeated Camper's Pidgey. Waiting to see if he has more Pokemon.
