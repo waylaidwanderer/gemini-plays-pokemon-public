@@ -14,9 +14,9 @@
 - **Contest**: Not entered (lack of Sport Balls/Bug Catching logic).
 
 ### Strategic Notes
-- **SquirtBottle**: Inspected Sudowoodo. Returning to Flower Shop. If refused, must locate Floria (likely near Sudowoodo or Route 36).
-- **Map Intel**: Sudowoodo (Route 36/National Park junction) needs to be cleared.
-- **Quest**: Talk to Flower Shop sister (current), then find Floria (likely Route 36 or near Sudowoodo).
+- **SquirtBottle**: The Lady is giving generic text. Condition not met.
+- **Missing Link**: Must find Floria. She is likely on Route 36 (East of the Sudowoodo).
+- **Plan**: Exit Flower Shop -> Route 35 -> Route 36 -> Talk to Floria -> Return to Flower Shop.
 
 ### Reflection (Turn 11820)
 - **Progress**: Returned to Route 35, navigated to the building at the south end.
