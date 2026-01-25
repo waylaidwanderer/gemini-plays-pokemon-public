@@ -21,11 +21,12 @@
   1. Check "Schoolboy Alan" at (26, 6) -> Checked. Just printing Pokedex.
   2. Scan North-East area of National Park.
   3. Check for any other NPCs in the northern section.
-- **Status**: Interacting with Flower Shop Girl at (6,3).
+- **Status**: Interacting with Flower Shop Girl at (6,4) (Attempt 2).
 - **Plan**:
-  1. Confirm if she gives SquirtBottle.
-  2. If not, confirm Floria's location (likely Route 36).
-  3. If Floria is still missing, return to Route 36 Sudowoodo tree and LOOK HARDER.
+  1. Talk to Girl (she was likely out of range last turn).
+  2. Confirm dialogue.
+  3. Talk to Lady at (3,2) if needed.
+  4. If no bottle, head to National Park / Route 36 to find Floria.
 - **Note**: Psychic at (5, 11) was unresponsive or silent.
 ### Tile Types
 - **TYPE_3fe2**: Walkable Ground/Grass (Safe)
