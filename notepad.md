@@ -16,15 +16,15 @@
 ### Strategic Notes
 - **SquirtBottle**: Need to talk to Floria to progress.
 - **Current Location**: Route 36 / National Park East (Map 10_3).
-- **Status**: Engaging Trainer at (14, 28) on Route 35 East.
-- **Location**: (16, 27) -> Moving Left to (14, 27).
-- **Goal**: Reach the bottom loop at Row 33 to access the West path (Column 13).
+- **Status**: Engaging Camper at (14, 28) on Route 35 East.
+- **Location**: (14, 27).
+- **Goal**: Clear the path South to reach the bottom loop.
 - **Next**: Retrieve item at (13, 16).
 - **Quest**: Get SquirtBottle.
 - **Notes**: 
   - Verified Floria is NOT at Sudowoodo Tree.
   - NPC at (31, 14) Route 36 was a Fire Stone giver.
-  - Trainer at (14, 28) blocks the path South.
+  - Trainer at (10, 26) is on the other side of the wall.
 - **Status**: Inside Flower Shop. Attempting to talk to Girl at (6,4)/(6,3).
 - **Plan**:
   1. Interact with Girl.
