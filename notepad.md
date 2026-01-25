@@ -27,5 +27,4 @@
 - Tool: `type_text` active. Layout verified (9 cols). Row 4: UPPER (0-2), DEL (3-5), END (6-8).
 - Status Update: Currently out of Poké Balls. Need to restock at next opportunity.
 - Navigation Update: Tree at (11, 5) is NOT cuttable (just a wall).
-- Correct Path: Go South to Row 10. Cross West to (4, 10). Go North to Gate (6, 4).
-- Constraint: Must traverse grass on East side to reach crossing.
+- Navigation Path: From (4, 10) -> South to (4, 12) -> West to (2, 12) -> North to (2, 8) -> East to (4, 8) -> North to (4, 6) -> East to (6, 6) -> North to Gate (6, 4).
