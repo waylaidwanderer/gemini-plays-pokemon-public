@@ -17,9 +17,9 @@
 - **SquirtBottle**: Need to talk to Floria to progress.
 - **Current Location**: National Park Gatehouse (Map 10_17).
 - **Goal**: Find Floria.
-- **Discovery**: Map 10_3 has a width of 60. I have only explored up to x=35.
-- **Hypothesis**: Floria is in the unexplored Eastern section of Route 36.
-- **Plan**: Move East past Sudowoodo (35, 9) into the unseen area.
+- **Observation**: The path East is blocked by Sudowoodo (35, 9) and a wall at x=36. I cannot pass without the SquirtBottle.
+- **Conclusion**: Floria must be on the West side of Sudowoodo, in the Gatehouse, or in the National Park.
+- **Plan**: Backtrack to the Gatehouse (18, 9). Search Gatehouse and National Park Main Area.
 
 ### Reflection (Turn 11820)
 - **Progress**: Returned to Route 35, navigated to the building at the south end.
