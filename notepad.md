@@ -26,6 +26,6 @@
 - Navigation Update: The right side of the Route 35 Gatehouse (approx x=13) appears to be an exit-only or blocked path. The main entrance is likely on the left side (approx x=10).
 - Tool: `type_text` active. Layout verified (9 cols). Row 4: UPPER (0-2), DEL (3-5), END (6-8).
 - Status Update: Currently out of Poké Balls. Need to restock at next opportunity.
-- Navigation Update: Path to National Park Gate (6, 4) likely requires cutting a tree at (11, 5) to bypass walls.
-- Plan: Go to (11, 6). Cut Tree at (11, 5). Go North to (11, 4). Go West to (6, 4).
-- Backup Plan: Huge U-turn via Row 27 and Col 0.
+- Navigation Update: Attempting to CUT tree at (11, 5) to bypass maze.
+- Plan: Interact with tree -> Select YES -> Proceed to (6, 4).
+- Backup: If CUT fails, check menu or assume tree is not cuttable and navigate South.
