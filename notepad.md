@@ -1,6 +1,6 @@
 # Pokémon Crystal Playthrough
 - Started: Friday, January 16, 2026
-- Current Location: Goldenrod City (Map 11_2)
+- Current Location: Goldenrod Dept Store (Map 11_11)
 
 ### Immediate Goals
 1. **Buy Balls**: Stock up on Poke Balls/Great Balls at Goldenrod Dept Store.
