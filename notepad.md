@@ -17,6 +17,6 @@
 - **SquirtBottle**: Need to talk to Floria to progress.
 - **Current Location**: Route 36 / National Park East (Map 10_3).
 - **Goal**: Find Floria.
-- **Hypothesis**: Floria might be in the National Park, possibly near the North-East corner or sitting on a bench.
-- **Plan**: Explore the National Park Main Area (Map 3_15).
-- **Status**: Just entered from East Gatehouse. Starting search.
+- **Hypothesis**: Floria is the girl near the flowers at (15, 24) or near the benches.
+- **Plan**: Navigate to (15, 24) to check the sprite.
+- **Status**: Moving from NE entrance towards the flower beds.
