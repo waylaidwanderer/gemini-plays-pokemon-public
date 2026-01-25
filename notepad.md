@@ -29,5 +29,5 @@
 - **TYPE_3f8d**: Tall Grass (Wild Encounters, Safe)
 - **TYPE_fed7**: Mixed (Benches/Obstacles & Gaps). Avoid for BFS if possible.
 - **TYPE_f871**: Warp/Gatehouse Door
-- **Reflection**: East Gate failure might be due to Saturday Bug Catching Contest. Need to confirm rules/exits.
+- **Reflection**: East Gate issue was likely poor positioning. Successfully exited to Route 36.
 - **Current Task**: Talking to NPC at (14, 4) for info.
