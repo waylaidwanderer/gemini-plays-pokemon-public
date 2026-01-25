@@ -41,3 +41,5 @@
 - **Observation**: Route 35 is divided vertically by a wall at Column 12. I am on the West side. The item at (13, 16) is on the East side and currently unreachable from here.
 - **Plan**: Head North to the Gatehouse warp at (3, 5) to reach National Park.
 - **Issue**: Movement blocked at (9, 19) -> (8, 19). Possible invisible obstacle or trainer interaction. Investigating Bug Catcher at (9, 18).
+- **Update**: Bypassing fence at Row 18 via gap at Column 5.
+- **Goal**: Reach (3, 5) Gatehouse entrance to return to National Park/Route 36.
