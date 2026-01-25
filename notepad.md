@@ -19,7 +19,7 @@
 - **Goal**: Find Floria. Route blocked by Sudowoodo.
 - **Hypothesis**: Bypass Sudowoodo by going through the National Park (Main Area) to the East Exit.
 - **Plan**: Go to the Gatehouse at (18, 9).
-- **Issue**: Stuck at (32, 12). Inputs may be failing or path blocked. Retrying with manual movement.
+- **Tactics**: Moving manually South to Row 15 to bypass the trainer at (31, 14), then West to the gatehouse.
 
 ### Reflection (Turn 11820)
 - **Progress**: Returned to Route 35, navigated to the building at the south end.
