@@ -1,6 +1,6 @@
 # Pokémon Crystal Playthrough
 - Started: Friday, January 16, 2026
-- Current Location: National Park (Map 3_15)
+- Current Location: Route 36 Gatehouse (Map 10_17)
 
 ### Immediate Goals
 1. **Traverse National Park**: Enter via Gatehouse, exit East to reach Route 36.
