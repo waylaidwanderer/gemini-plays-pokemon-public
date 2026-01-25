@@ -18,9 +18,10 @@
 - **Current Location**: Route 36 / National Park East (Map 10_3).
 - **Goal**: Find Floria.
 - **Plan**:
-  1. Check "Schoolboy Alan" at (26, 6) -> Checked. Just printing Pokedex.
-  2. Scan North-East area of National Park.
-  3. Check for any other NPCs in the northern section.
+  1. Head to the East Gate of National Park (33, 19).
+  2. Exit to Route 36.
+  3. Check the Sudowoodo Tree area for Floria.
+  4. If she's not there, verify the North-East corner of the Park again.
 - **Status**: Inside Flower Shop. Attempting to talk to Girl at (6,4)/(6,3).
 - **Plan**:
   1. Interact with Girl.
