@@ -2,38 +2,28 @@
 - Started: Friday, January 16, 2026 (Turn #12392)
 
 ### Immediate Goals
-1. **Traverse National Park**: Enter via Gatehouse, exit East to reach Route 36.
-2. **Find Floria**: Look for her near Sudowoodo on Route 36.
-3. **Get SquirtBottle**: Return to Goldenrod Flower Shop after finding Floria.
-4. **Move Sudowoodo**: Use SquirtBottle on the tree to clear the path to Ecruteak.
+1. **Get SquirtBottle**: Return to Goldenrod Flower Shop.
+2. **Move Sudowoodo**: Use SquirtBottle on the tree at (35, 9) on Route 36.
+3. **Reach Ecruteak City**: Proceed past Sudowoodo.
 
 ### Quest Log
 - **Badges**: Zephyr, Hive, Plain.
 - **Party**: All Healthy.
 - **Mail Quest**: Active.
+- **Sudowoodo**: Inspected at Turn 12797 ("It's a weird tree. It wiggles when touched.").
 
 ### Strategic Notes
-- **Navigation**: Search the area around the Sudowoodo (35, 9) for Floria.
-- **SquirtBottle**: Requires finding Floria first.
-- **Floria**: Last seen/rumored near the "wiggly tree" (Sudowoodo).
+- **Navigation**: Heading back to Goldenrod City via Route 36 Gatehouse.
+- **SquirtBottle**: Now that the tree is inspected, the Flower Shop sister should give the bottle.
+- **Floria**: Likely back at the Flower Shop or will appear after watering the tree.
 
 ### Tile Types
 - **TYPE_3fe2**: Walkable Ground/Grass (Safe)
 - **TYPE_2889**: Obstacle (Wall/Tree)
 - **TYPE_fed7**: Mixed (Benches/Obstacles & Gaps).
-- Checked Berry Tree at (21, 4). It is just an Ice Berry tree. Floria is not here.
 - **Navigation Constraint**: Route 35 East is separated from Goldenrod Gatehouse by a fence. Must use the West side (via National Park) to reach the Gatehouse from the North.
 - Navigation Update: The right side of the Route 35 Gatehouse (approx x=13) appears to be an exit-only or blocked path. The main entrance is likely on the left side (approx x=10).
 - Tool: `type_text` active. Layout verified (9 cols). Row 4: UPPER (0-2), DEL (3-5), END (6-8).
 - Status Update: Currently out of Poké Balls. Need to restock at next opportunity.
 - Navigation Update: Tree at (11, 5) is NOT cuttable (just a wall).
-- Active Navigation Plan: Reach National Park Gate (6, 4).
-- Discovery: Path exists through "Maze" without using Service Lane.
-- Route:
-  1. (16, 38) -> North to (16, 28) [Bypass tree at (16, 36) via Col 17].
-  2. West to (6, 28) -> North to (6, 27).
-  3. West to (4, 27) -> North to (4, 25).
-  4. West to (2, 25) [Key Crossing].
-  5. North on Col 2 to (2, 8).
-  6. East to (4, 8) -> North to Gate.
-- Immediate Action: Navigate to (6, 27).
+- Active Navigation Plan: Return to Goldenrod Flower Shop.
