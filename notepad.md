@@ -23,3 +23,4 @@
 - **TYPE_fed7**: Mixed (Benches/Obstacles & Gaps).
 - Checked Berry Tree at (21, 4). It is just an Ice Berry tree. Floria is not here.
 - **Navigation Constraint**: Route 35 East is separated from Goldenrod Gatehouse by a fence. Must use the West side (via National Park) to reach the Gatehouse from the North.
+- Navigation Update: The right side of the Route 35 Gatehouse (approx x=13) appears to be an exit-only or blocked path. The main entrance is likely on the left side (approx x=10).
