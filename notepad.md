@@ -27,7 +27,6 @@
 - Tool: `type_text` active. Layout verified (9 cols). Row 4: UPPER (0-2), DEL (3-5), END (6-8).
 - Status Update: Currently out of Poké Balls. Need to restock at next opportunity.
 - Navigation Update: Tree at (11, 5) is NOT cuttable (just a wall).
-- Navigation Analysis: Route to (6, 4) is blocked North/West from (7, 10).
-- Solution: Must loop South to Row 26 to access Col 0 Service Lane, then North to (0, 10) to enter maze.
-- Route: South to (11, 26) -> West to (0, 26) -> North to (0, 10) -> East into maze -> (6, 4).
-- Goal: National Park Gate.
+- Navigation Update: Re-evaluated map. Route to (6, 4) is open via (5, 7).
+- Correct Path: From (7, 10) go West to (5, 10). Go North to (5, 6). Go East to (6, 6). Go North to Gate (6, 4).
+- Status: Finishing call with Joey, then executing path.
