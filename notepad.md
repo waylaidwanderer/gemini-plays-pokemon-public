@@ -28,10 +28,7 @@
 - Status Update: Currently out of Poké Balls. Need to restock at next opportunity.
 - Navigation Update: Tree at (11, 5) is NOT cuttable (just a wall).
 - Active Navigation Plan: Reach National Park Gate (6, 4).
-- Obstacle: Direct North path blocked by walls/fences.
-- Strategy: 'Service Lane' Detour.
-- Steps:
-  1. Escape current battle and move West to Paved Path (13, 6).
-  2. Travel South on paved path to Row 26.
-  3. Cross West to Column 0 (Service Lane).
-  4. Travel North on Col 0 to bypass walls, then East to Gate.
+- Current Position: (6, 27) in the Southern Maze.
+- Immediate Step: Navigate the fence maze at Rows 27-31 to cross from East to West.
+- Target: Service Lane at (1, 26).
+- Next Step: Go North on Col 0 to bypass walls, then East to Gate.
