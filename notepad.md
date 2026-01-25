@@ -18,7 +18,8 @@
 - **Current Location**: Route 36 / National Park East (Map 10_3).
 - **Goal**: Find Floria.
 - **Hypothesis**: Floria is in the National Park Main Area (Map 3_15).
-- **Plan**: Bypass trainer at (20, 13), enter Gatehouse (18, 9), then enter National Park Main Area to search.
+- **Plan**: Enter Gatehouse at (18, 9), then enter National Park Main Area to search.
+- **Status**: Entering Gatehouse.
 
 ### Reflection (Turn 11820)
 - **Progress**: Returned to Route 35, navigated to the building at the south end.
