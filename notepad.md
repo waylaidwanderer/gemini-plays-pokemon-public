@@ -17,7 +17,9 @@
 - **SquirtBottle**: Need to talk to Floria to progress.
 - **Current Location**: National Park Gatehouse (Map 10_17).
 - **Goal**: Find Floria.
-- **Plan**: Check Gatehouse for Floria. If not found, enter National Park Main Area.
+- **Hypothesis**: I missed checking the area immediately next to Sudowoodo (35, 10). The NPC at (31, 14) was a trainer, but there might be another one closer to the tree.
+- **Plan**: Exit Gatehouse East to Route 36. Go to (35, 10). Check for Floria.
+- **Backup**: If not found, check National Park Main Area.
 
 ### Reflection (Turn 11820)
 - **Progress**: Returned to Route 35, navigated to the building at the south end.
