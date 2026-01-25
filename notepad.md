@@ -17,17 +17,13 @@
 - **SquirtBottle**: Need to talk to Floria to progress.
 - **Current Location**: Route 36 / National Park East (Map 10_3).
 - **Status**: Heading South on Route 35 East (Map 10_2).
-- **Goal**: Retrieve item at (13, 16) by looping around from the South.
-- **Hypothesis**: The item is in Column 13, separated from my current path (Column 16) by a wall. The map suggests these paths merge at the bottom (around Row 33).
-- **Plan**:
-  1. Go South to the bottom of the route.
-  2. Loop West into Column 13.
-  3. Head North up Column 13 to grab the item.
-  4. Return South and exit to Goldenrod.
+- **Goal**: Reach the bottom loop at Row 33 to access the West path (Column 13).
+- **Next**: Retrieve item at (13, 16).
 - **Quest**: Get SquirtBottle.
 - **Notes**: 
   - Verified Floria is NOT at Sudowoodo Tree.
   - NPC at (31, 14) Route 36 was a Fire Stone giver.
+  - Trainer spotted at (14, 28). Might trigger battle.
 - **Status**: Inside Flower Shop. Attempting to talk to Girl at (6,4)/(6,3).
 - **Plan**:
   1. Interact with Girl.
