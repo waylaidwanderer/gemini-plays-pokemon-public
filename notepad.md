@@ -23,3 +23,8 @@
 - **Correction**: The "Flower Shop Back Door" at (9, 33) needs verification. If it's not a door, I might need to go around to the main gatehouse entrance.
 - **Hygiene**: Cleaned up markers. Navigation tool requires precise targets.
 - **Plan**: Enter building -> Goldenrod -> Flower Shop -> SquirtBottle.
+### Reflection (Turn 11872)
+- **Status**: Still looking for Floria. Flower Shop lady requires talking to her.
+- **Hypothesis**: Floria is on Route 36. The path to Route 36 from Goldenrod is likely via the "Right Side" of Route 35 (past the Cut tree), bypassing the Park.
+- **Action**: Navigate to the Right side of Route 35, head North past the Cut tree at (17, 6).
+- **Goal**: Reach Route 36 and find Floria.
