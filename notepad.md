@@ -19,15 +19,9 @@
 - **Goal**: Find Floria.
 - **Hypothesis**: Floria is in the National Park Main Area (Map 3_15).
 - **Plan**: Enter Gatehouse at (18, 9), then enter National Park Main Area to search.
-- **Status**: Entering Gatehouse.
+- **Obstacles**: Trainer at (20, 13) blocks direct path North; must flank East.
 
-### Reflection (Turn 11820)
-- **Progress**: Returned to Route 35, navigated to the building at the south end.
-- **Correction**: The "Flower Shop Back Door" at (9, 33) needs verification. If it's not a door, I might need to go around to the main gatehouse entrance.
-- **Hygiene**: Cleaned up markers. Navigation tool requires precise targets.
-- **Plan**: Enter building -> Goldenrod -> Flower Shop -> SquirtBottle.
-### Reflection (Turn 11872)
-- **Status**: Still looking for Floria. Flower Shop lady requires talking to her.
-- **Hypothesis**: Floria is on Route 36. The path to Route 36 from Goldenrod is likely via the "Right Side" of Route 35 (past the Cut tree), bypassing the Park.
-- **Action**: Navigate to the Right side of Route 35, head North past the Cut tree at (17, 6).
-- **Goal**: Reach Route 36 and find Floria.
+### Reflection (Turn 11924)
+- **Progress**: Navigated around obstacles on Route 36. Verified Floria is not at (31, 14).
+- **Map Knowledge**: Clarified layout of Route 36 East. Discovered I cannot pass Sudowoodo yet.
+- **Next Steps**: Thoroughly check National Park and Gatehouse.
