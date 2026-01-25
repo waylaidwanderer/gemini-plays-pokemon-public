@@ -27,6 +27,6 @@
 - Tool: `type_text` active. Layout verified (9 cols). Row 4: UPPER (0-2), DEL (3-5), END (6-8).
 - Status Update: Currently out of Poké Balls. Need to restock at next opportunity.
 - Navigation Update: Tree at (11, 5) is NOT cuttable (just a wall).
-- Navigation Analysis: Direct path North from (7, 10) is blocked by walls at Row 5-9.
-- Hypothesis: Must loop South via Row 27 to access Col 0/1 service lane, then North to (6, 4).
-- Action: Using BFS to confirm path to (6, 4). This may be a long run.
+- Navigation Correction: BFS took me deep into East grass. Path exists on West side via maze.
+- Correct Path to Gate (6, 4): From Gap (7, 10) -> West to (3, 10) -> North to (3, 8) -> East to (4, 8) -> North to (4, 6) -> East to (6, 6) -> North to (6, 4).
+- Immediate Action: Flee battle, return to (7, 10), execute West side path manually.
