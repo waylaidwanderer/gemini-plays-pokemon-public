@@ -40,3 +40,4 @@
 - **Observation**: Exited Flower Shop via back door to Map 10_2 (9, 33). This is likely the East side of Route 35. Heading North to see if I can cross to National Park or Route 36.
 - **Observation**: Route 35 is divided vertically by a wall at Column 12. I am on the West side. The item at (13, 16) is on the East side and currently unreachable from here.
 - **Plan**: Head North to the Gatehouse warp at (3, 5) to reach National Park.
+- **Issue**: Movement blocked at (9, 19) -> (8, 19). Possible invisible obstacle or trainer interaction. Investigating Bug Catcher at (9, 18).
