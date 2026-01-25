@@ -26,6 +26,8 @@
 - Navigation Update: The right side of the Route 35 Gatehouse (approx x=13) appears to be an exit-only or blocked path. The main entrance is likely on the left side (approx x=10).
 - Tool: `type_text` active. Layout verified (9 cols). Row 4: UPPER (0-2), DEL (3-5), END (6-8).
 - Status Update: Currently out of Poké Balls. Need to restock at next opportunity.
-- Navigation Update: Passed fence gap at (7, 10).
-- Obstacle: Wall at (6, 7) blocks direct North path on col 6.
-- Path: Go West to Col 5 to bypass wall, then North to Gate (6, 4).
+- Navigation Update: Path to National Park Gate (6, 4) is complex.
+- Step 1: Go South to Row 10.
+- Step 2: Go West through Gap at (7, 10).
+- Step 3: From West side, use BFS to solve the maze to (6, 4).
+- Note: Potential path via Col 0 service lane or Col 2/3 winding path.
