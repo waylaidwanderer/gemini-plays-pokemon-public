@@ -36,3 +36,4 @@
 - **TYPE_f871**: Warp/Gatehouse Door
 - **Reflection**: East Gate issue was likely poor positioning. Successfully exited to Route 36.
 - **Current Task**: Talking to NPC at (14, 4) for info.
+- **Dialogue Log**: Girl says "I heard it became wild when someone..." (likely watered it). This confirms the mechanic but I still need the item.
