@@ -55,3 +55,5 @@
 - **Plan**:
   1. Check the tall grass on Route 36 (South-East).
   2. If not found, return to Goldenrod Flower Shop to see if the "Seen Tree" flag unlocked the bottle.
+- **Update**: Checked Sudowoodo. No Floria.
+- **Action**: Scouting East towards Violet City to see if she's further down the road.
