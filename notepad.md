@@ -23,8 +23,8 @@
   3. Check for any other NPCs in the northern section.
 - **Status**: Inside Goldenrod Flower Shop (Map 10_14).
 - **Plan**:
-  1. Finish phone call with Alan.
-  2. Speak to Floria/Sister for SquirtBottle.
+  1. Talk to Flower Shop Lady at (3,2).
+  2. Talk to Flower Shop Girl at (6,5) to get SquirtBottle.
 - **Note**: Psychic at (5, 11) was unresponsive or silent.
 ### Tile Types
 - **TYPE_3fe2**: Walkable Ground/Grass (Safe)
