@@ -21,3 +21,5 @@
 - **TYPE_3fe2**: Walkable Ground/Grass (Safe)
 - **TYPE_2889**: Obstacle (Wall/Tree)
 - **TYPE_fed7**: Mixed (Benches/Obstacles & Gaps).
+- Checked Berry Tree at (21, 4). It is just an Ice Berry tree. Floria is not here.
+- Returning to Sudowoodo at (35, 9) to search for Floria again.
