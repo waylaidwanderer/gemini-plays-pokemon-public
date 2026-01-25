@@ -28,12 +28,12 @@
 - Status Update: Currently out of Poké Balls. Need to restock at next opportunity.
 - Navigation Update: Tree at (11, 5) is NOT cuttable (just a wall).
 - Active Navigation Plan: Reach National Park Gate (6, 4).
-- Correction: Wall at (15, 35) blocks direct West movement.
-- Revised Path:
-  1. Current: (16, 35).
-  2. Go North to (16, 32) (Passes wall).
-  3. Go West to (8, 32).
-  4. Go North to (8, 29).
-  5. Go West to Service Lane (1, 29).
-  6. North to Gate.
-- Immediate Action: Navigate to (8, 29).
+- Obstacle Update: Wall at (5, 29) blocks West path from (8, 29).
+- Strategy: Loop South-East to bypass central wall cluster.
+- Path:
+  1. Go North to (8, 28).
+  2. Go East along Row 28 to (16, 28).
+  3. Go South to (16, 40).
+  4. Loop West to Service Lane (1, 40).
+  5. North to Gate.
+- Immediate Action: Navigate to (16, 40).
