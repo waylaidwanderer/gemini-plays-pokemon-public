@@ -65,6 +65,6 @@
 - **Battle Update**: Defeated Camper's Pidgey. Waiting to see if he has more Pokemon.
 - **Battle Status**: Fighting Bird Keeper Bryan.
 - **Opponent**: Pidgeotto (Active).
-- **Strategy**: Use Ember (or Quick Attack if low HP).
+- **Strategy**: Select FIGHT -> EMBER.
 - **Location**: (14, 27) on Route 35 East.
 - **Goal**: Win battle -> Move to Column 13 -> Retrieve item at (13, 16).
