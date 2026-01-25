@@ -21,10 +21,12 @@
   1. Check "Schoolboy Alan" at (26, 6) -> Checked. Just printing Pokedex.
   2. Scan North-East area of National Park.
   3. Check for any other NPCs in the northern section.
-- **Status**: Bypassed Arnie, heading East to Sudowoodo.
+- **Status**: Returning to Goldenrod Flower Shop.
+- **Reasoning**: Floria is not at the tree. I likely encountered her earlier (Turn 11891) or she's already returned.
 - **Plan**:
-  1. Navigate to (35, 9).
-  2. Inspect Sudowoodo / Look for Floria.
+  1. Navigate back to Goldenrod City.
+  2. Go to Flower Shop.
+  3. Talk to both sisters to get SquirtBottle.
 - **Note**: Psychic at (5, 11) was unresponsive or silent.
 ### Tile Types
 - **TYPE_3fe2**: Walkable Ground/Grass (Safe)
