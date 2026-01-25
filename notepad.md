@@ -16,12 +16,12 @@
 ### Strategic Notes
 - **SquirtBottle**: Need to talk to Floria to progress.
 - **Current Location**: Route 36 / National Park East (Map 10_3).
-- **Goal**: Find Floria.
+- **Status**: In National Park (Map 3_15). Received phone call from Alan while heading to East Gate.
+- **Goal**: Reach East Gate (33, 18/19) to access Route 36 and find Floria.
 - **Plan**:
-  1. Head to the East Gate of National Park (33, 19).
-  2. Exit to Route 36.
-  3. Check the Sudowoodo Tree area for Floria.
-  4. If she's not there, verify the North-East corner of the Park again.
+  1. Finish phone call.
+  2. Continue East to the Gatehouse.
+  3. Search for Floria near Sudowoodo.
 - **Status**: Inside Flower Shop. Attempting to talk to Girl at (6,4)/(6,3).
 - **Plan**:
   1. Interact with Girl.
