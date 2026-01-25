@@ -27,6 +27,6 @@
 - Tool: `type_text` active. Layout verified (9 cols). Row 4: UPPER (0-2), DEL (3-5), END (6-8).
 - Status Update: Currently out of Poké Balls. Need to restock at next opportunity.
 - Navigation Update: Tree at (11, 5) is NOT cuttable (just a wall).
-- Navigation Strategy: Escape battle. Move West to (13, 6) to exit grass.
-- Safe Path to Gap: From (13, 6) go West to (8, 6), South to (8, 8), West to (7, 8), South to Gap (7, 10).
-- West Side Maze: From (7, 10) -> West to (3, 10) -> North to (3, 8) -> East to (4, 8) -> North to Gate (6, 4).
+- Navigation Strategy: West Side Maze Route.
+- Detailed Path: From (7, 10) West to (4, 10) -> South to (4, 12) -> West to (2, 12) -> North to (2, 8) -> East to (4, 8) -> North to (4, 6) -> East to (6, 6) -> North to Gate (6, 4).
+- Note: This avoids walls at (3, 10) and (4, 9).
