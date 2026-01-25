@@ -17,6 +17,6 @@
 - **SquirtBottle**: Need to talk to Floria to progress.
 - **Current Location**: Route 36 / National Park East (Map 10_3).
 - **Goal**: Find Floria.
-- **Hypothesis**: Floria is the girl near the flowers at (15, 24) or near the benches.
-- **Plan**: Navigate to (15, 24) to check the sprite.
-- **Status**: Moving from NE entrance towards the flower beds.
+- **Correction**: The girl at (14, 24) is the Sticker Girl ("Check out my bag!"), not Floria.
+- **Plan**: Explore the North/North-East section of the National Park.
+- **Hypothesis**: Floria might be near the Persian statue (if it exists here) or near the North Gatehouse.
