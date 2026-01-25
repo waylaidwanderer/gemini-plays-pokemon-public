@@ -16,8 +16,9 @@
 ### Strategic Notes
 - **SquirtBottle**: Need to talk to Floria to progress.
 - **Current Location**: Route 36 / National Park East (Map 10_3).
-- **Status**: Interrupted by Wild Nidoran♀ on Route 35 East.
-- **Immediate Goal**: Run from battle, then retrieve item at (13, 16).
+- **Status**: Running from Wild Nidoran♀ on Route 35 East.
+- **Immediate Goal**: Retrieve item at (13, 16).
+- **Next**: Head South to the Flower Shop back door.
 - **Quest**: Still need to confirm if inspecting Sudowoodo unlocked the SquirtBottle.
 - **Notes**: 
   - NPC at (31, 14) Route 36 was a Fire Stone giver.
