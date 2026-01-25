@@ -16,9 +16,9 @@
 ### Strategic Notes
 - **SquirtBottle**: Need to talk to Floria to progress.
 - **Current Location**: Route 36 / National Park East (Map 10_3).
-- **Status**: Engaging Bug Catcher Arnie at (16, 7) on Route 35 East.
-- **Action**: Attempting to bypass potential obstacle at (16, 6) by cutting the tree at (17, 6).
-- **Observation**: `TYPE_80fc` at (16, 6) might be an obstacle or special tile. I was pushed back to (16, 5) last turn.
+- **Status**: Cutting tree at (17, 6) on Route 35 East.
+- **Reason**: Bypass weird tile at (16, 6) that pushed me back.
+- **Immediate Goal**: Engage Bug Catcher Arnie at (16, 7).
 - **Quest**: Still need to confirm if inspecting Sudowoodo unlocked the SquirtBottle.
 - **Notes**: 
   - NPC at (31, 14) Route 36 was a Fire Stone giver.
