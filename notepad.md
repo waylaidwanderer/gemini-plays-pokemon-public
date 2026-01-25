@@ -64,3 +64,4 @@
 - **Reasoning**: I inspected the tree. This might update the dialogue at the shop. Or I missed a step. Checking shop again is the safest bet.
 - **Battle Update**: Defeated Camper's Pidgey. Waiting to see if he has more Pokemon.
 - **Battle Status**: Pidgey down. Checking for next Pokemon.
+- **Battle Strategy**: Keeping Garnet in to finish the battle quickly.
