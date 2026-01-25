@@ -17,11 +17,11 @@
 - **SquirtBottle**: Need to talk to Floria to progress.
 - **Current Location**: Route 36 / National Park East (Map 10_3).
 - **Goal**: Find Floria.
-- **Plan**: Check NPCs in National Park.
-  1. Lass at (4, 26).
-  2. NPC at (14, 4).
-  3. Check near Schoolboy Alan (26, 6).
-- **Status**: Heading to Lass at (4, 26).
+- **Correction**: No Lass at (4, 26). Marker was incorrect.
+- **Plan**: Continue search in National Park.
+  1. Check "Trainer?" marker at (8, 14).
+  2. Check "Psychic" marker at (5, 11).
+  3. Scan center area for other NPCs.
 ### Tile Types
 - **TYPE_3fe2**: Walkable Ground/Grass (Safe)
 - **TYPE_2889**: Obstacle (Wall/Tree)
