@@ -68,5 +68,7 @@
 - **Strategy**: Select FIGHT -> EMBER.
 - **Location**: (14, 27) on Route 35 East.
 - **Goal**: Win battle -> Move to Column 13 -> Retrieve item at (13, 16).
-- **Action**: Executing Ember on Pidgeotto.
-- **Next**: Finish battle, grab item at (13, 16).
+- **Action**: Clearing dialogue and enemy turn.
+- **Correction**: Accidentally used Mud-Slap (Ground) on Pidgeotto (Flying) - No Effect. Must have mis-navigated the menu.
+- **Next**: Select Ember (or Quick Attack) carefully.
+- **Goal**: Win battle -> Move to Column 13 -> Retrieve item at (13, 16).
