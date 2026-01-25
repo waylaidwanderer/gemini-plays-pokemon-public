@@ -18,10 +18,10 @@
 - **Current Location**: Route 36 / National Park East (Map 10_3).
 - **Goal**: Find Floria.
 - **Hypothesis**: Floria is in the National Park Main Area (Map 3_15).
-- **Plan**: Enter Gatehouse at (18, 9), then enter National Park Main Area to search.
+- **Plan**: Enter Gatehouse via the Gate at (21, 7).
 - **Obstacles**: Trainer at (20, 13) blocks direct path North; must flank East.
 
-### Reflection (Turn 11924)
-- **Progress**: Navigated around obstacles on Route 36. Verified Floria is not at (31, 14).
-- **Map Knowledge**: Clarified layout of Route 36 East. Discovered I cannot pass Sudowoodo yet.
-- **Next Steps**: Thoroughly check National Park and Gatehouse.
+### Reflection (Turn 11925)
+- **Progress**: Verified Floria is not at (31, 14).
+- **Correction**: The entrance to the gatehouse appears to be the gate at (21, 7), not the pink building at (17, 8).
+- **Next Steps**: Enter Gatehouse, check for Floria, then proceed to National Park.
