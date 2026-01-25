@@ -17,11 +17,11 @@
 - **SquirtBottle**: Need to talk to Floria to progress.
 - **Current Location**: Route 36 / National Park East (Map 10_3).
 - **Goal**: Find Floria.
-- **Plan**: Check NPCs in National Park.
-  1. Check "Schoolboy?" at (14, 4) -> Checked. It's a Mail NPC.
-  2. Check "Schoolboy Alan" at (26, 6).
-  3. Scan North-East area.
-- **Status**: Interrupted by Wild Weedle. Heading to Schoolboy Alan (26, 6).
+- **Plan**:
+  1. Check "Schoolboy Alan" at (26, 6).
+  2. Scan North-East area of National Park.
+  3. Check for any other NPCs in the northern section.
+- **Status**: In battle with Weedle. Finishing it, then heading East to (26, 6).
 - **Note**: Psychic at (5, 11) was unresponsive or silent.
 ### Tile Types
 - **TYPE_3fe2**: Walkable Ground/Grass (Safe)
