@@ -22,6 +22,7 @@
 - **TYPE_2889**: Obstacle (Wall/Tree)
 - **TYPE_fed7**: Mixed (Benches/Obstacles & Gaps).
 
-- **Navigation**: Inside Flower Shop. Talking to Girl to get SquirtBottle.
+- **Navigation**: Outside Flower Shop (Goldenrod). Heading to Route 36 via National Park.
+- Obstacle at (17, 2) forces detour South to y=8 to reach Main Road.
 - Floria is missing. Shop Girl says tree "wriggles". Must find Floria at Route 36 (near Sudowoodo) to trigger SquirtBottle event.
 - Route: Goldenrod -> Route 35 -> National Park -> Route 36.
