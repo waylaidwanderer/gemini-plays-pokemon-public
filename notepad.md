@@ -27,6 +27,10 @@
 - Tool: `type_text` active. Layout verified (9 cols). Row 4: UPPER (0-2), DEL (3-5), END (6-8).
 - Status Update: Currently out of Poké Balls. Need to restock at next opportunity.
 - Navigation Update: Tree at (11, 5) is NOT cuttable (just a wall).
-- Navigation Update: Re-evaluated map. Route to (6, 4) is open via (5, 7).
-- Correct Path: From (7, 10) go West to (5, 10). Go North to (5, 6). Go East to (6, 6). Go North to Gate (6, 4).
-- Status: Finishing call with Joey, then executing path.
+- Navigation Correction: Path via (5, 7) is blocked by walls at (5, 9) and (6, 7).
+- CONFIRMED PATH:
+  1. South to Row 29.
+  2. West to Col 0 (Crossover at Row 29).
+  3. North on Col 0 to Row 10.
+  4. East to (2, 10) -> North to (2, 8) -> East to (4, 8) -> North to (6, 4).
+- Status: Finishing call, then starting the long run South.
