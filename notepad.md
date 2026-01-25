@@ -16,14 +16,13 @@
 ### Strategic Notes
 - **SquirtBottle**: Need to talk to Floria to progress.
 - **Current Location**: Route 36 / National Park East (Map 10_3).
-- **Status**: Exploring Route 35 East (Map 10_2).
-- **Location**: (17, 7), heading South past Bug Catcher Arnie (Defeated).
-- **Immediate Goal**: Explore South for items and the path back to the Flower Shop.
+- **Status**: Interrupted by Wild Nidoran♀ on Route 35 East.
+- **Immediate Goal**: Run from battle, then retrieve item at (13, 16).
 - **Quest**: Still need to confirm if inspecting Sudowoodo unlocked the SquirtBottle.
 - **Notes**: 
   - NPC at (31, 14) Route 36 was a Fire Stone giver.
   - Floria was NOT at the Sudowoodo tree.
-  - Arnie was defeated previously (Phone number registered).
+  - Arnie was defeated previously.
 - **Status**: Inside Flower Shop. Attempting to talk to Girl at (6,4)/(6,3).
 - **Plan**:
   1. Interact with Girl.
