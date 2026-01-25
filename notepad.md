@@ -13,7 +13,7 @@
 - **Mail Quest**: Active.
 
 ### Strategic Notes
-- **Navigation**: Head North to the Gatehouse at (15, 0) to reach Route 35. The tree shortcut was a false lead.
+- **Navigation**: Head to Flower Shop at (19, 1). Use the back exit (or cut tree?) to reach Route 35. The direct North path seems blocked.
 - **SquirtBottle**: Requires finding Floria first.
 - **Floria**: Last seen/rumored near the "wiggly tree" (Sudowoodo).
 
