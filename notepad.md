@@ -16,9 +16,9 @@
 ### Strategic Notes
 - **SquirtBottle**: Need to talk to Floria to progress.
 - **Current Location**: Route 36 / National Park East (Map 10_3).
-- **Status**: Retrieved TM04 (Rollout) at (13, 17) on Route 35 East.
+- **Status**: Finished phone call with Joey at (13, 17) on Route 35 East.
 - **Action**: Returning to Goldenrod City.
-- **Navigation**: Moving South to exit Route 35 East (currently interrupted by Joey's call).
+- **Navigation**: Move South down Column 13 to Row 33, then Left to Flower Shop Back Door (9, 33).
 - **Quest**: Get SquirtBottle.
 - **Notes**:
   - Defeated Bird Keeper Bryan at (14, 27).
