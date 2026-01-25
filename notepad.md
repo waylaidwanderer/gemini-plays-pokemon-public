@@ -44,3 +44,5 @@
 - **Issue**: Movement blocked at (9, 19) -> (8, 19). Possible invisible obstacle or trainer interaction. Investigating Bug Catcher at (9, 18).
 - **Update**: Bypassing fence at Row 18 via gap at Column 5.
 - **Goal**: Reach (3, 5) Gatehouse entrance to return to National Park/Route 36.
+- **Item**: Received FIRE STONE from the girl at (31, 14).
+- **Question**: Is this Floria? Need to see if she mentions the Flower Shop or moves after this dialogue.
