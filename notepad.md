@@ -21,7 +21,7 @@
   1. Check "Schoolboy Alan" at (26, 6) -> Checked. Just printing Pokedex.
   2. Scan North-East area of National Park.
   3. Check for any other NPCs in the northern section.
-- **Status**: On Route 36 (10_3). Heading East to check Sudowoodo (35, 9) for Floria.
+- **Status**: Backtracking from dead end at (30, 14) to find path North (possibly x=20 corridor or x=24 Cut trees).
 - **Note**: Psychic at (5, 11) was unresponsive or silent.
 ### Tile Types
 - **TYPE_3fe2**: Walkable Ground/Grass (Safe)
