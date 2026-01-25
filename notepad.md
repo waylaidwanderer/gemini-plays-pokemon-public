@@ -23,4 +23,5 @@
 - **TYPE_fed7**: Mixed (Benches/Obstacles & Gaps).
 
 - **Navigation**: Inside Flower Shop. Talking to Girl to get SquirtBottle.
-- Verified Shop Girl (Sister?) dialogue. No SquirtBottle. Floria likely still at Route 36/National Park.
+- Floria is missing. Shop Girl says tree "wriggles". Must find Floria at Route 36 (near Sudowoodo) to trigger SquirtBottle event.
+- Route: Goldenrod -> Route 35 -> National Park -> Route 36.
