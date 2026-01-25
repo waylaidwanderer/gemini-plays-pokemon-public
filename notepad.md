@@ -25,3 +25,4 @@
 - **Navigation Constraint**: Route 35 East is separated from Goldenrod Gatehouse by a fence. Must use the West side (via National Park) to reach the Gatehouse from the North.
 - Navigation Update: The right side of the Route 35 Gatehouse (approx x=13) appears to be an exit-only or blocked path. The main entrance is likely on the left side (approx x=10).
 - Tool: `type_text` active. Layout verified (9 cols). Row 4: UPPER (0-2), DEL (3-5), END (6-8).
+- Status Update: Currently out of Poké Balls. Need to restock at next opportunity.
