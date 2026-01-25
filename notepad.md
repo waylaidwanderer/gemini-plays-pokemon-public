@@ -26,8 +26,5 @@
 - Navigation Update: The right side of the Route 35 Gatehouse (approx x=13) appears to be an exit-only or blocked path. The main entrance is likely on the left side (approx x=10).
 - Tool: `type_text` active. Layout verified (9 cols). Row 4: UPPER (0-2), DEL (3-5), END (6-8).
 - Status Update: Currently out of Poké Balls. Need to restock at next opportunity.
-- Navigation Strategy: Winding path to Gate.
-- Step 1: South to (8, 10). West to (2, 10).
-- Step 2: North to (2, 8). East to (4, 8).
-- Step 3: North to (4, 7). East to (5, 7).
-- Step 4: North to (5, 6). East to (6, 6). North to Gate (6, 4).
+- Navigation Update: BFS moved player to (15, 4) (East Side) before interruption. Path to West Side blocked by walls on Row 4-9.
+- Plan: Go South to (15, 10). Go West through Gap at (7, 10). Go North to Gate (6, 4).
