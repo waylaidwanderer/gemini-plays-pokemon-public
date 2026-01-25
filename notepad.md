@@ -16,13 +16,13 @@
 ### Strategic Notes
 - **SquirtBottle**: Need to talk to Floria to progress.
 - **Current Location**: Route 36 / National Park East (Map 10_3).
-- **Status**: Running from Wild Nidoran♀ on Route 35 East (Map 10_2).
-- **Observation**: Object at (13, 16) is on the West side of the fence. Unreachable from current position (East side).
-- **Plan**:
-  1. Escape battle.
-  2. Continue South to the Flower Shop back door (9, 33).
-  3. Enter Flower Shop and check for SquirtBottle or info.
-  4. If needed, re-explore West side of Route 35 to reach the object at (13, 16) (possible Floria location?).
+- **Status**: Heading South on Route 35 East (Map 10_2).
+- **Goal**: Reach Goldenrod City via the southern exit of this path.
+- **Hypothesis**: This path bypasses the main route and dumps me into the East side of Goldenrod. From there, I can walk to the Flower Shop.
+- **Quest**: Find Floria / Get SquirtBottle.
+- **Notes**: 
+  - Item at (13, 16) is unreachable from this side.
+  - Floria was not at the Sudowoodo tree.
 - **Status**: Inside Flower Shop. Attempting to talk to Girl at (6,4)/(6,3).
 - **Plan**:
   1. Interact with Girl.
