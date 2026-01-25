@@ -14,7 +14,7 @@
 - **Mail Quest**: Active.
 
 ### Strategic Notes
-- **Navigation**: Head to Flower Shop at (19, 1). Use the back exit (or cut tree?) to reach Route 35. The direct North path seems blocked.
+- **Navigation**: Search the area around the Sudowoodo (35, 9) for Floria.
 - **SquirtBottle**: Requires finding Floria first.
 - **Floria**: Last seen/rumored near the "wiggly tree" (Sudowoodo).
 
