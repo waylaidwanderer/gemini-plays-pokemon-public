@@ -21,7 +21,7 @@
   1. Check "Schoolboy Alan" at (26, 6) -> Checked. Just printing Pokedex.
   2. Scan North-East area of National Park.
   3. Check for any other NPCs in the northern section.
-- **Status**: Finished with Alan. Moving to North-East area.
+- **Status**: East Gate (33, 18) blocked. Checking North-East (33, 6) for Floria.
 - **Note**: Psychic at (5, 11) was unresponsive or silent.
 ### Tile Types
 - **TYPE_3fe2**: Walkable Ground/Grass (Safe)
