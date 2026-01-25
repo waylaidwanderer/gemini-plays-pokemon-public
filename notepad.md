@@ -16,13 +16,13 @@
 ### Strategic Notes
 - **SquirtBottle**: Need to talk to Floria to progress.
 - **Current Location**: Route 36 / National Park East (Map 10_3).
-- **Status**: Exploring Route 35 East (Map 10_2).
-- **Location**: (17, 10).
-- **Immediate Goal**: Retrieve item at (13, 16).
+- **Status**: In battle with Wild Nidoran♀ on Route 35 East (Map 10_2).
+- **Location**: (16, 15).
+- **Observation**: An object (SPRITE_5e6a) appeared at (13, 16). This is likely the item I was looking for.
+- **Issue**: The item is at Column 13. I am at Column 16. There is a wall at Columns 14-15 blocking direct access.
+- **Immediate Goal**: Escape battle.
+- **Next**: Check if I can reach (13, 16) from the East side (likely need to loop South or go back North).
 - **Quest**: Find Floria.
-  - She was not at the Sudowoodo tree.
-  - She might be in this area (Route 35 East) or I missed her.
-  - If not here, I'll check the Flower Shop again.
 - **Notes**: 
   - NPC at (31, 14) Route 36 was a Fire Stone giver.
   - Arnie (16, 7) was defeated.
