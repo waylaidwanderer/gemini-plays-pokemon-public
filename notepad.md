@@ -17,5 +17,6 @@
 - **SquirtBottle**: Need to talk to Floria to progress.
 - **Current Location**: Route 36 / National Park East (Map 10_3).
 - **Goal**: Find Floria.
-- **Correction**: The pink building at (17, 8) IS the Gatehouse entrance. (Confirmed by past turn 11909).
-- **Plan**: Enter Gatehouse (Left). Cross to National Park (West Exit). Search National Park for Floria.
+- **Hypothesis**: Floria might be in the National Park, possibly near the North-East corner or sitting on a bench.
+- **Plan**: Explore the National Park Main Area (Map 3_15).
+- **Status**: Just entered from East Gatehouse. Starting search.
