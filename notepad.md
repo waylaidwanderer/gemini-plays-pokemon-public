@@ -16,12 +16,13 @@
 ### Strategic Notes
 - **SquirtBottle**: Need to talk to Floria to progress.
 - **Current Location**: Route 36 / National Park East (Map 10_3).
-- **Status**: In National Park (Map 3_15). Received phone call from Alan while heading to East Gate.
-- **Goal**: Reach East Gate (33, 18/19) to access Route 36 and find Floria.
+- **Status**: Entering National Park East Gatehouse (Map 3_15 -> Route 36 Gate).
+- **Goal**: Find Floria.
 - **Plan**:
-  1. Finish phone call.
-  2. Continue East to the Gatehouse.
-  3. Search for Floria near Sudowoodo.
+  1. Exit Gatehouse to Route 36.
+  2. Find Floria near the Sudowoodo Tree.
+  3. Talk to her to send her back to Goldenrod.
+  4. Return to Goldenrod Flower Shop for SquirtBottle.
 - **Status**: Inside Flower Shop. Attempting to talk to Girl at (6,4)/(6,3).
 - **Plan**:
   1. Interact with Girl.
