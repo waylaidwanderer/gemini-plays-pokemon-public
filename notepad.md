@@ -16,17 +16,13 @@
 ### Strategic Notes
 - **SquirtBottle**: Need to talk to Floria to progress.
 - **Current Location**: Route 36 / National Park East (Map 10_3).
-- **Status**: In battle with Wild Nidoran♀ on Route 35 East (Map 10_2).
-- **Location**: (16, 15).
-- **Observation**: An object (SPRITE_5e6a) appeared at (13, 16). This is likely the item I was looking for.
-- **Issue**: The item is at Column 13. I am at Column 16. There is a wall at Columns 14-15 blocking direct access.
-- **Immediate Goal**: Escape battle.
-- **Next**: Check if I can reach (13, 16) from the East side (likely need to loop South or go back North).
-- **Quest**: Find Floria.
-- **Notes**: 
-  - NPC at (31, 14) Route 36 was a Fire Stone giver.
-  - Arnie (16, 7) was defeated.
-  - Path south seems to have ledges. Committing to the jump.
+- **Status**: Running from Wild Nidoran♀ on Route 35 East (Map 10_2).
+- **Observation**: Object at (13, 16) is on the West side of the fence. Unreachable from current position (East side).
+- **Plan**:
+  1. Escape battle.
+  2. Continue South to the Flower Shop back door (9, 33).
+  3. Enter Flower Shop and check for SquirtBottle or info.
+  4. If needed, re-explore West side of Route 35 to reach the object at (13, 16) (possible Floria location?).
 - **Status**: Inside Flower Shop. Attempting to talk to Girl at (6,4)/(6,3).
 - **Plan**:
   1. Interact with Girl.
