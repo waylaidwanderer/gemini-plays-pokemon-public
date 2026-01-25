@@ -1,10 +1,8 @@
 # Pokémon Crystal Playthrough
 - Started: Friday, January 16, 2026 (Turn #12392)
 
-### Immediate Goals
-1. **Get SquirtBottle**: Return to Goldenrod Flower Shop.
-2. **Move Sudowoodo**: Use SquirtBottle on the tree at (35, 9) on Route 36.
-3. **Reach Ecruteak City**: Proceed past Sudowoodo.
+### Current Task
+- **SquirtBottle Run**: Return to Goldenrod Flower Shop via Route 35 Gatehouse.
 
 ### Quest Log
 - **Badges**: Zephyr, Hive, Plain.
