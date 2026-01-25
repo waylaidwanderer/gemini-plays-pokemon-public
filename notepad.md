@@ -21,7 +21,11 @@
   1. Check "Schoolboy Alan" at (26, 6) -> Checked. Just printing Pokedex.
   2. Scan North-East area of National Park.
   3. Check for any other NPCs in the northern section.
-- **Status**: Backtracking from dead end at (30, 14) to find path North (possibly x=20 corridor or x=24 Cut trees).
+- **Status**: Heading to Cut trees at x=23 (North of current position) to access Eastern area.
+- **Plan**:
+  1. Navigate to (23, 10).
+  2. Use Cut to bypass trees.
+  3. Find Sudowoodo at (35, 9).
 - **Note**: Psychic at (5, 11) was unresponsive or silent.
 ### Tile Types
 - **TYPE_3fe2**: Walkable Ground/Grass (Safe)
