@@ -27,8 +27,8 @@
 - Tool: `type_text` active. Layout verified (9 cols). Row 4: UPPER (0-2), DEL (3-5), END (6-8).
 - Status Update: Currently out of Poké Balls. Need to restock at next opportunity.
 - Navigation Update: Tree at (11, 5) is NOT cuttable (just a wall).
-- Navigation Analysis: Verified map geometry.
-- The path to (6, 4) is blocked by walls on Rows 7-11.
-- MUST go South to Row 27/28 to cross to Col 0.
-- Current Status: In grass at (7, 12).
-- Immediate Plan: Move West to (5, 12) to exit grass. Then navigate South to (0, 28). Then North to Gate.
+- Navigation Re-Analysis: Detailed wall check confirms earlier hypothesis.
+- Obstacles: Walls at (3, 10) and (2, 11) isolate the target area from the immediate East.
+- Route: MUST access Column 0/1 to reach the North-West area.
+- Access Point: Crossover to Col 0 is available at Row 26+.
+- Plan: Escape battle -> Go West to (13, 6) -> South to (13, 26) -> West to (0, 26) -> North to Gate.
