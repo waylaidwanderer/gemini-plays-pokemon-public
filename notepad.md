@@ -16,13 +16,10 @@
 ### Strategic Notes
 - **SquirtBottle**: Need to talk to Floria to progress.
 - **Current Location**: Route 36 / National Park East (Map 10_3).
-- **Status**: Approaching Sudowoodo Tree (35, 9).
-- **Goal**: Find Floria.
-- **Observation**: Floria is not immediately visible on screen near the tree.
-- **Plan**:
-  1. Stand in front of the tree (35, 10).
-  2. Interact with the tree.
-  3. Search the area to the East if she's not here.
+- **Status**: Returning to Goldenrod Flower Shop via Route 35 East.
+- **Reasoning**: Floria was not found at the Sudowoodo tree. Inspecting the tree might have been the trigger, or I need to speak to the sister again.
+- **Navigation**: Entering Route 35 from the North. Will proceed South to the Flower Shop back door (9, 33).
+- **Notes**: NPC at (31, 14) on Route 36 gave Fire Stone but was not Floria.
 - **Status**: Inside Flower Shop. Attempting to talk to Girl at (6,4)/(6,3).
 - **Plan**:
   1. Interact with Girl.
