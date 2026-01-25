@@ -64,7 +64,7 @@
 - **Reasoning**: I inspected the tree. This might update the dialogue at the shop. Or I missed a step. Checking shop again is the safest bet.
 - **Battle Update**: Defeated Camper's Pidgey. Waiting to see if he has more Pokemon.
 - **Battle Status**: Fighting Bird Keeper Bryan.
-- **Opponent**: Pidgeotto (Incoming).
-- **Strategy**: Use Ember/Quick Attack.
+- **Opponent**: Pidgeotto (Active).
+- **Strategy**: Use Ember (or Quick Attack if low HP).
 - **Location**: (14, 27) on Route 35 East.
 - **Goal**: Win battle -> Move to Column 13 -> Retrieve item at (13, 16).
