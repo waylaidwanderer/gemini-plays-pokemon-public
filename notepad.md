@@ -27,8 +27,8 @@
 - Tool: `type_text` active. Layout verified (9 cols). Row 4: UPPER (0-2), DEL (3-5), END (6-8).
 - Status Update: Currently out of Poké Balls. Need to restock at next opportunity.
 - Navigation Update: Tree at (11, 5) is NOT cuttable (just a wall).
-- Navigation Update: Path to (6, 4) confirmed via Col 0 Service Lane.
-- Step 1: Close phone call.
-- Step 2: Go South to Row 29 (avoiding grass).
-- Step 3: Cross West to Col 0.
-- Step 4: Go North on Col 0 to Row 11, then weave East to Gate.
+- Navigation Analysis: Verified map geometry.
+- The path to (6, 4) is blocked by walls on Rows 7-11.
+- MUST go South to Row 27/28 to cross to Col 0.
+- Current Status: In grass at (7, 12).
+- Immediate Plan: Move West to (5, 12) to exit grass. Then navigate South to (0, 28). Then North to Gate.
