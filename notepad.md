@@ -22,4 +22,4 @@
 - **TYPE_2889**: Obstacle (Wall/Tree)
 - **TYPE_fed7**: Mixed (Benches/Obstacles & Gaps).
 
-- **Navigation**: Currently at (17, 8). Moving North to (17, 0).
+- **Navigation**: In National Park Gatehouse (10_15). Exiting South to Route 35.
