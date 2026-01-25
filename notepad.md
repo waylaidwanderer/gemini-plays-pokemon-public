@@ -22,4 +22,4 @@
 - **TYPE_2889**: Obstacle (Wall/Tree)
 - **TYPE_fed7**: Mixed (Benches/Obstacles & Gaps).
 
-- **Navigation**: Route 35 West. Heading South to Goldenrod City.
+- **Navigation**: Inside Flower Shop. Talking to Girl to get SquirtBottle.
