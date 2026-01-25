@@ -21,12 +21,13 @@
   1. Check "Schoolboy Alan" at (26, 6) -> Checked. Just printing Pokedex.
   2. Scan North-East area of National Park.
   3. Check for any other NPCs in the northern section.
-- **Status**: On Route 35 (10_2). Cutting tree at (16, 6) to access main road.
-- **Reasoning**: Need to bypass the tree to reach Goldenrod City.
+- **Status**: On Route 35 (10_2). Attempting to Cut tree at (16, 6) using the Start Menu.
+- **Reasoning**: Direct interaction (A button) with the tree failed multiple times. Switching to menu-based Cut.
 - **Plan**:
-  1. Cut tree at (16, 6).
-  2. Navigate South to Goldenrod City Gatehouse at (9, 33).
-  3. Get SquirtBottle.
+  1. Open Start Menu.
+  2. Select Pokemon -> Basil -> Cut.
+  3. Navigate South to Goldenrod City Gatehouse at (9, 33).
+  4. Get SquirtBottle.
 - **Note**: Psychic at (5, 11) was unresponsive or silent.
 ### Tile Types
 - **TYPE_3fe2**: Walkable Ground/Grass (Safe)
