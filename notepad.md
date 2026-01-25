@@ -23,5 +23,4 @@
 - **TYPE_fed7**: Mixed (Benches/Obstacles & Gaps).
 
 - **Navigation**: Inside Flower Shop. Talking to Girl to get SquirtBottle.
-- Talked to Flower Shop Girl at (6, 3) again; no SquirtBottle yet. Trying the Flower Shop Lady at (3, 2).
-- Flower Shop Girl confirms the tree "wriggles around if you talk to it". Now asking the Lady.
+- Verified Shop Girl (Sister?) dialogue. No SquirtBottle. Floria likely still at Route 36/National Park.
