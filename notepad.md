@@ -3,10 +3,9 @@
 - Current Location: Goldenrod Dept Store (Map 11_11)
 
 ### Immediate Goals
-1. **Buy Balls**: Stock up on Poke Balls/Great Balls at Goldenrod Dept Store (2F Bottom-Right Clerk).
-2. **Find Floria**: Go to National Park/Route 36 (near Sudowoodo) and talk to the NPC (likely Floria).
-3. **Get SquirtBottle**: Return to Goldenrod Flower Shop after finding Floria.
-4. **Move Sudowoodo**: Use SquirtBottle on the tree to clear the path to Ecruteak.
+1. **Find Floria**: Go to National Park/Route 36 (near Sudowoodo) and talk to the NPC (likely Floria).
+2. **Get SquirtBottle**: Return to Goldenrod Flower Shop after finding Floria.
+3. **Move Sudowoodo**: Use SquirtBottle on the tree to clear the path to Ecruteak.
 
 ### Quest Log
 - **Badges**: Zephyr, Hive, Plain.
