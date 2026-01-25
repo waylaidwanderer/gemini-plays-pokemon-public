@@ -57,3 +57,6 @@
   2. If not found, return to Goldenrod Flower Shop to see if the "Seen Tree" flag unlocked the bottle.
 - **Update**: Checked Sudowoodo. No Floria.
 - **Action**: Scouting East towards Violet City to see if she's further down the road.
+- **Update**: Floria is NOT at the tree.
+- **Action**: Returning to Goldenrod Flower Shop.
+- **Reasoning**: I inspected the tree. This might update the dialogue at the shop. Or I missed a step. Checking shop again is the safest bet.
