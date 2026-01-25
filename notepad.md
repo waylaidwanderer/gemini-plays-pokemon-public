@@ -26,6 +26,6 @@
 - Navigation Update: The right side of the Route 35 Gatehouse (approx x=13) appears to be an exit-only or blocked path. The main entrance is likely on the left side (approx x=10).
 - Tool: `type_text` active. Layout verified (9 cols). Row 4: UPPER (0-2), DEL (3-5), END (6-8).
 - Status Update: Currently out of Poké Balls. Need to restock at next opportunity.
-- Navigation Update: Attempting to CUT tree at (11, 5) to bypass maze.
-- Plan: Interact with tree -> Select YES -> Proceed to (6, 4).
-- Backup: If CUT fails, check menu or assume tree is not cuttable and navigate South.
+- Navigation Update: Tree at (11, 5) is NOT cuttable (just a wall).
+- Correct Path: Go South to Row 10. Cross West to (4, 10). Go North to Gate (6, 4).
+- Constraint: Must traverse grass on East side to reach crossing.
