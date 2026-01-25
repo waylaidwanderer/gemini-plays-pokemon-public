@@ -17,9 +17,11 @@
 - **SquirtBottle**: Need to talk to Floria to progress.
 - **Current Location**: Route 36 / National Park East (Map 10_3).
 - **Goal**: Find Floria.
-- **Correction**: The girl at (14, 24) is the Sticker Girl ("Check out my bag!"), not Floria.
-- **Plan**: Explore the North/North-East section of the National Park.
-- **Hypothesis**: Floria might be near the Persian statue (if it exists here) or near the North Gatehouse.
+- **Plan**: Check NPCs in National Park.
+  1. Lass at (4, 26).
+  2. NPC at (14, 4).
+  3. Check near Schoolboy Alan (26, 6).
+- **Status**: Heading to Lass at (4, 26).
 ### Tile Types
 - **TYPE_3fe2**: Walkable Ground/Grass
 - **TYPE_2889**: Obstacle (Wall/Tree)
