@@ -1,73 +1,25 @@
 # Pokémon Crystal Playthrough
 - Started: Friday, January 16, 2026
-- Current Location: Goldenrod Flower Shop (Map 10_14)
+- Current Location: Route 35 East (Map 10_2)
 
 ### Immediate Goals
-1. **Find Floria**: Explore the North-East corner of the National Park.
-2. **Find Exit to Route 36**: Likely in the North-East.
-3. **Get SquirtBottle**: Return to Flower Shop after finding Floria.
+1. **Loop Back to Goldenrod**: Navigate Route 35 East (North) -> National Park -> Gatehouse -> Route 35 West -> Goldenrod.
+2. **Get SquirtBottle**: Talk to Flower Shop Girl again.
+3. **Use SquirtBottle**: Water the Sudowoodo on Route 36.
 
 ### Quest Log
 - **Badges**: Zephyr, Hive, Plain.
 - **Party**: All Healthy.
 - **Mail Quest**: Active.
-- **Contest**: Not entered (lack of Sport Balls/Bug Catching logic).
 
 ### Strategic Notes
-- **SquirtBottle**: Need to talk to Floria to progress.
-- **Current Location**: Route 36 / National Park East (Map 10_3).
-- **Status**: Finished phone call with Joey at (13, 17) on Route 35 East.
-- **Action**: Returning to Goldenrod City.
-- **Navigation**: Move South down Column 13 to Row 33, then Left to Flower Shop Back Door (9, 33).
-- **Quest**: Get SquirtBottle.
-- **Notes**:
-  - Defeated Bird Keeper Bryan at (14, 27).
-  - Verified Floria is NOT at Sudowoodo Tree.
-  - Item at (13, 16) was TM04.
-- **Status**: Inside Flower Shop. Attempting to talk to Girl at (6,4)/(6,3).
-- **Plan**:
-  1. Interact with Girl.
-  2. If no SquirtBottle, confirm Floria's location.
-  3. Talk to Lady at (3,2) as backup.
-  4. If directed, search National Park / Route 36 East for Floria.
-- **Note**: Psychic at (5, 11) was unresponsive or silent.
+- **Route 35 East**: Dead end to the South (ledge). Must backtrack North to exit.
+- **SquirtBottle**: Inspecting the tree might have triggered the dialogue update needed.
+- **Floria**: Not found at the tree. Likely still missing or will appear after Sudowoodo event.
+
 ### Tile Types
 - **TYPE_3fe2**: Walkable Ground/Grass (Safe)
 - **TYPE_2889**: Obstacle (Wall/Tree)
-- **TYPE_3f8d**: Tall Grass (Wild Encounters, Safe)
-- **TYPE_fed7**: Mixed (Benches/Obstacles & Gaps). Avoid for BFS if possible.
-- **TYPE_f871**: Warp/Gatehouse Door
-- **Reflection**: East Gate issue was likely poor positioning. Successfully exited to Route 36.
-- **Current Task**: Talking to NPC at (14, 4) for info.
-- **Dialogue Log**: Girl says "I heard it became wild when someone..." (likely watered it). This confirms the mechanic but I still need the item.
-- **Observation**: Exited Flower Shop via back door to Map 10_2 (9, 33). This is likely the East side of Route 35. Heading North to see if I can cross to National Park or Route 36.
-- **Observation**: Route 35 is divided vertically by a wall at Column 12. I am on the West side. The item at (13, 16) is on the East side and currently unreachable from here.
-- **Plan**: Head North to the Gatehouse warp at (3, 5) to reach National Park.
-- **Issue**: Movement blocked at (9, 19) -> (8, 19). Possible invisible obstacle or trainer interaction. Investigating Bug Catcher at (9, 18).
-- **Update**: Bypassing fence at Row 18 via gap at Column 5.
-- **Goal**: Reach (3, 5) Gatehouse entrance to return to National Park/Route 36.
-- **Item**: Received FIRE STONE from the girl at (31, 14).
-- **Question**: Is this Floria? Need to see if she mentions the Flower Shop or moves after this dialogue.
-- **Action**: Inspected Sudowoodo.
-- **Observation**: Floria is NOT at the tree.
-- **Hypothesis**:
-  1. Inspecting the tree might be the trigger to get the SquirtBottle from the Flower Shop.
-  2. Floria might be hiding in the tall grass on Route 36 or in the National Park.
-- **Plan**:
-  1. Check the tall grass on Route 36 (South-East).
-  2. If not found, return to Goldenrod Flower Shop to see if the "Seen Tree" flag unlocked the bottle.
-- **Update**: Checked Sudowoodo. No Floria.
-- **Action**: Scouting East towards Violet City to see if she's further down the road.
-- **Update**: Floria is NOT at the tree.
-- **Action**: Returning to Goldenrod Flower Shop.
-- **Reasoning**: I inspected the tree. This might update the dialogue at the shop. Or I missed a step. Checking shop again is the safest bet.
-- **Battle Update**: Defeated Camper's Pidgey. Waiting to see if he has more Pokemon.
-- **Battle Status**: Fighting Bird Keeper Bryan.
-- **Opponent**: Pidgeotto (Active).
-- **Strategy**: Select FIGHT -> EMBER.
-- **Location**: (14, 27) on Route 35 East.
-- **Goal**: Win battle -> Move to Column 13 -> Retrieve item at (13, 16).
-- **Action**: Clearing dialogue and enemy turn.
-- **Correction**: Accidentally used Mud-Slap (Ground) on Pidgeotto (Flying) - No Effect. Must have mis-navigated the menu.
-- **Next**: Select Ember (or Quick Attack) carefully.
-- **Goal**: Win battle -> Move to Column 13 -> Retrieve item at (13, 16).
+- **TYPE_fed7**: Mixed (Benches/Obstacles & Gaps).
+
+- **Navigation**: Currently at (17, 8). Moving North to (17, 0).
