@@ -16,15 +16,14 @@
 ### Strategic Notes
 - **SquirtBottle**: Need to talk to Floria to progress.
 - **Current Location**: Route 36 / National Park East (Map 10_3).
-- **Status**: Battling Camper on Route 35 East (Map 10_2).
-- **Location**: (14, 27).
-- **Goal**: Win battle, then walk around the trainer (West side) to reach the bottom loop.
-- **Next**: Retrieve item at (13, 16).
+- **Status**: Retrieved TM04 (Rollout) at (13, 17) on Route 35 East.
+- **Action**: Returning to Goldenrod City.
+- **Navigation**: Moving South to exit Route 35 East (currently interrupted by Joey's call).
 - **Quest**: Get SquirtBottle.
-- **Notes**: 
+- **Notes**:
+  - Defeated Bird Keeper Bryan at (14, 27).
   - Verified Floria is NOT at Sudowoodo Tree.
-  - NPC at (31, 14) Route 36 was a Fire Stone giver.
-  - Trainer at (14, 28) engaged. Path around him exists on the Left (Column 13).
+  - Item at (13, 16) was TM04.
 - **Status**: Inside Flower Shop. Attempting to talk to Girl at (6,4)/(6,3).
 - **Plan**:
   1. Interact with Girl.
