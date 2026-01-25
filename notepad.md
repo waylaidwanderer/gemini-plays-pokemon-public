@@ -17,6 +17,6 @@
 - **SquirtBottle**: Need to talk to Floria to progress.
 - **Current Location**: Route 36 / National Park East (Map 10_3).
 - **Goal**: Find Floria.
-- **Correction**: The "gate" at (21, 7) is a sign/obstacle. The real gatehouse entrance is at (17, 8) (Red Carpet).
-- **New Lead**: A sprite appeared at (21, 4). Investigating if this is Floria.
-- **Plan**: Talk to sprite at (21, 4). If not Floria, enter Gatehouse at (17, 8).
+- **Correction**: The "sprite" at (21, 4) was just a Berry Tree.
+- **Plan**: Enter National Park Gatehouse at (18, 8).
+- **Hypothesis**: Floria is in the National Park Main Area.
