@@ -16,10 +16,10 @@
 ### Strategic Notes
 - **SquirtBottle**: Need to talk to Floria to progress.
 - **Current Location**: National Park (East Section). Access gained via Cut tree on Route 35.
-- **Goal**: Find Floria. Route blocked by Sudowoodo.
-- **Hypothesis**: Bypass Sudowoodo by going through the National Park (Main Area) to the East Exit.
-- **Plan**: Go to the Gatehouse at (18, 9).
-- **Tactics**: Moving manually South to Row 15 to bypass the trainer at (31, 14), then West to the gatehouse.
+- **Goal**: Find Floria.
+- **Hypothesis**: Floria might be in the National Park Gatehouse or the Main Park area.
+- **Plan**: Enter the Gatehouse at (18, 9).
+- **Status**: Approaching Gatehouse entrance. Passed trainer at (20, 13).
 
 ### Reflection (Turn 11820)
 - **Progress**: Returned to Route 35, navigated to the building at the south end.
