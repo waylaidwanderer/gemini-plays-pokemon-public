@@ -22,4 +22,4 @@
 - **TYPE_2889**: Obstacle (Wall/Tree)
 - **TYPE_fed7**: Mixed (Benches/Obstacles & Gaps).
 
-- **Navigation**: In National Park Gatehouse (10_15). Exiting South to Route 35.
+- **Navigation**: Route 35 West. Heading South to Goldenrod City.
