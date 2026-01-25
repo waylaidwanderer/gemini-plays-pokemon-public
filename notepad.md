@@ -37,3 +37,4 @@
 - **Reflection**: East Gate issue was likely poor positioning. Successfully exited to Route 36.
 - **Current Task**: Talking to NPC at (14, 4) for info.
 - **Dialogue Log**: Girl says "I heard it became wild when someone..." (likely watered it). This confirms the mechanic but I still need the item.
+- **Observation**: Exited Flower Shop via back door to Map 10_2 (9, 33). This is likely the East side of Route 35. Heading North to see if I can cross to National Park or Route 36.
