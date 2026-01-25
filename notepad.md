@@ -13,7 +13,7 @@
 - **Mail Quest**: Active.
 
 ### Strategic Notes
-- **Navigation**: Currently in Goldenrod. Exit North to Route 35.
+- **Navigation**: Currently in Goldenrod. Try cutting tree at (17, 6) or use Flower Shop back exit to reach Route 35.
 - **SquirtBottle**: Requires finding Floria first.
 - **Floria**: Last seen/rumored near the "wiggly tree" (Sudowoodo).
 
