@@ -16,12 +16,14 @@
 ### Strategic Notes
 - **SquirtBottle**: Need to talk to Floria to progress.
 - **Current Location**: Route 36 / National Park East (Map 10_3).
-- **Status**: On Route 36 (Map 10_3). Standing next to a girl at (31, 14) who looks like Floria.
-- **Goal**: Talk to Floria.
+- **Status**: On Route 36 (Map 10_3).
+- **Goal**: Find Floria.
 - **Plan**:
-  1. Talk to the girl.
-  2. If it is Floria, she should return to Goldenrod.
-  3. Head back to Goldenrod Flower Shop for the SquirtBottle.
+  1. Go to the Sudowoodo Tree at (35, 9).
+  2. Look for Floria (likely standing right next to it).
+  3. Talk to her to send her back to Goldenrod.
+  4. Return to Goldenrod Flower Shop for SquirtBottle.
+- **Notes**: NPC at (31, 14) was a trainer (likely Alan), not Floria. Received Fire Stone.
 - **Status**: Inside Flower Shop. Attempting to talk to Girl at (6,4)/(6,3).
 - **Plan**:
   1. Interact with Girl.
