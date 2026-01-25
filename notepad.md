@@ -16,8 +16,8 @@
 ### Strategic Notes
 - **SquirtBottle**: Need to talk to Floria to progress.
 - **Current Location**: National Park (East Section). Access gained via Cut tree on Route 35.
-- **Goal**: Find Floria. Checking near Sudowoodo (35, 9) or trying to exit to Route 36.
-- **Plan**: Interact with NPC at (33, 13), then head North to Sudowoodo.
+- **Goal**: Find Floria. Checking NPC at (31, 14).
+- **Plan**: Talk to the girl at (31, 14) to see if she is Floria.
 
 ### Reflection (Turn 11820)
 - **Progress**: Returned to Route 35, navigated to the building at the south end.
