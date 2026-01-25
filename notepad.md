@@ -21,13 +21,10 @@
   1. Check "Schoolboy Alan" at (26, 6) -> Checked. Just printing Pokedex.
   2. Scan North-East area of National Park.
   3. Check for any other NPCs in the northern section.
-- **Status**: On Route 35 (10_2). Correcting target to Cut tree at (17, 6).
-- **Reasoning**: The tree at (16, 6) is not cuttable (TYPE_80fc). The real cuttable tree is at (17, 6) (TYPE_5519).
+- **Status**: On Route 35 (10_2). Cut the tree at (17, 6).
 - **Plan**:
-  1. Move to (17, 5).
-  2. Cut tree at (17, 6).
-  3. Navigate South to Goldenrod City Gatehouse at (9, 33).
-  4. Get SquirtBottle.
+  1. Navigate South to Goldenrod City Gatehouse at (9, 33).
+  2. Get SquirtBottle from Flower Shop.
 - **Note**: Psychic at (5, 11) was unresponsive or silent.
 ### Tile Types
 - **TYPE_3fe2**: Walkable Ground/Grass (Safe)
