@@ -18,10 +18,9 @@
 - **Current Location**: Route 36 / National Park East (Map 10_3).
 - **Goal**: Find Floria.
 - **Plan**: Check NPCs in National Park.
-  1. Check "Schoolboy?" at (14, 4).
+  1. Check "Schoolboy?" at (14, 4) -> Checked. It's a Mail NPC.
   2. Check "Schoolboy Alan" at (26, 6).
   3. Scan North-East area.
-- **Status**: Moving to (14, 4).
 - **Note**: Psychic at (5, 11) was unresponsive or silent.
 ### Tile Types
 - **TYPE_3fe2**: Walkable Ground/Grass (Safe)
