@@ -23,8 +23,8 @@
   3. Check near Schoolboy Alan (26, 6).
 - **Status**: Heading to Lass at (4, 26).
 ### Tile Types
-- **TYPE_3fe2**: Walkable Ground/Grass
+- **TYPE_3fe2**: Walkable Ground/Grass (Safe)
 - **TYPE_2889**: Obstacle (Wall/Tree)
-- **TYPE_3f8d**: Tall Grass (Wild Encounters)
-- **TYPE_fed7**: Obstacle (Likely Benches or Fountain Edge)
+- **TYPE_3f8d**: Tall Grass (Wild Encounters, Safe)
+- **TYPE_fed7**: Mixed (Benches/Obstacles & Gaps). Avoid for BFS if possible.
 - **TYPE_f871**: Warp/Gatehouse Door
