@@ -21,7 +21,7 @@
   1. Check "Schoolboy Alan" at (26, 6).
   2. Scan North-East area of National Park.
   3. Check for any other NPCs in the northern section.
-- **Status**: In battle with Weedle. Finishing it, then heading East to (26, 6).
+- **Status**: Battle finished. Moving to Schoolboy Alan (26, 6).
 - **Note**: Psychic at (5, 11) was unresponsive or silent.
 ### Tile Types
 - **TYPE_3fe2**: Walkable Ground/Grass (Safe)
