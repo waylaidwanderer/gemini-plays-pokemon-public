@@ -17,9 +17,10 @@
 - **SquirtBottle**: Need to talk to Floria to progress.
 - **Current Location**: National Park (East Section). Access gained via Cut tree on Route 35.
 - **Goal**: Find Floria.
-- **Correction**: Trainer at (20, 13) blocks the direct North path.
-- **Plan**: Flank the trainer by moving East to (21, 14) then North-West to the Gatehouse.
-- **Status**: Moving to (21, 14) to bypass trainer. Expecting battle.
+- **Correction**: Trainer at (20, 13) is an obstacle.
+- **Test**: Attempting to pass the trainer by walking North at x=21.
+- **Contingency**: If x=21 is a ledge (blocked), I must backtrack East to x=32 to find the North path.
+- **Status**: Moving North from (21, 14).
 
 ### Reflection (Turn 11820)
 - **Progress**: Returned to Route 35, navigated to the building at the south end.
