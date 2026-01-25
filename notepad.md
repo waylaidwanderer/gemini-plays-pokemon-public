@@ -17,8 +17,9 @@
 - **SquirtBottle**: Need to talk to Floria to progress.
 - **Current Location**: Route 36 / National Park East (Map 10_3).
 - **Status**: Exploring Route 35 East (Map 10_2).
-- **Location**: (16, 2), heading South.
-- **Immediate Goal**: Defeat trainer at (16, 7) and explore the rest of this path.
+- **Location**: (16, 2), moving to engage trainer at (16, 7).
+- **Observation**: Found `TYPE_80fc` tiles here, likely walkable grass variation.
+- **Immediate Goal**: Defeat Bug Catcher at (16, 7).
 - **Quest**: Still need to confirm if inspecting Sudowoodo unlocked the SquirtBottle.
 - **Notes**: 
   - NPC at (31, 14) Route 36 was a Fire Stone giver.
