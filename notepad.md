@@ -16,14 +16,13 @@
 ### Strategic Notes
 - **SquirtBottle**: Need to talk to Floria to progress.
 - **Current Location**: Route 36 / National Park East (Map 10_3).
-- **Status**: Moving towards Sudowoodo Tree (35, 9) on Route 36.
+- **Status**: Approaching Sudowoodo Tree (35, 9).
 - **Goal**: Find Floria.
+- **Observation**: Floria is not immediately visible on screen near the tree.
 - **Plan**:
-  1. Navigate to the Sudowoodo Tree.
-  2. Check for Floria in the immediate vicinity.
-  3. If found, talk to her.
-  4. If not found, check the path to the East or the National Park entrance area again.
-- **Notes**: NPC at (31, 14) is NOT Floria. Gave Fire Stone.
+  1. Stand in front of the tree (35, 10).
+  2. Interact with the tree.
+  3. Search the area to the East if she's not here.
 - **Status**: Inside Flower Shop. Attempting to talk to Girl at (6,4)/(6,3).
 - **Plan**:
   1. Interact with Girl.
