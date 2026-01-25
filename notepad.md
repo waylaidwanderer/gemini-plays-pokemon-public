@@ -21,9 +21,9 @@
   1. Check "Schoolboy Alan" at (26, 6) -> Checked. Just printing Pokedex.
   2. Scan North-East area of National Park.
   3. Check for any other NPCs in the northern section.
-- **Status**: Entering Goldenrod City via Gatehouse.
+- **Status**: Inside Goldenrod Flower Shop (Map 10_14).
 - **Plan**:
-  1. Go to Flower Shop (Goldenrod City).
+  1. Finish phone call with Alan.
   2. Speak to Floria/Sister for SquirtBottle.
 - **Note**: Psychic at (5, 11) was unresponsive or silent.
 ### Tile Types
