@@ -17,9 +17,9 @@
 - **SquirtBottle**: Need to talk to Floria to progress.
 - **Current Location**: National Park Gatehouse (Map 10_17).
 - **Goal**: Find Floria.
-- **Hypothesis**: I missed checking the area immediately next to Sudowoodo (35, 10). The NPC at (31, 14) was a trainer, but there might be another one closer to the tree.
-- **Plan**: Exit Gatehouse East to Route 36. Go to (35, 10). Check for Floria.
-- **Backup**: If not found, check National Park Main Area.
+- **Discovery**: Map 10_3 has a width of 60. I have only explored up to x=35.
+- **Hypothesis**: Floria is in the unexplored Eastern section of Route 36.
+- **Plan**: Move East past Sudowoodo (35, 9) into the unseen area.
 
 ### Reflection (Turn 11820)
 - **Progress**: Returned to Route 35, navigated to the building at the south end.
