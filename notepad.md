@@ -18,7 +18,8 @@
 - **Current Location**: National Park (East Section). Access gained via Cut tree on Route 35.
 - **Goal**: Find Floria. Route blocked by Sudowoodo.
 - **Hypothesis**: Bypass Sudowoodo by going through the National Park (Main Area) to the East Exit.
-- **Plan**: Go to the Gatehouse at (18, 9), enter National Park, find East Exit to Route 36.
+- **Plan**: Go to the Gatehouse at (18, 9).
+- **Issue**: Stuck at (32, 12). Inputs may be failing or path blocked. Retrying with manual movement.
 
 ### Reflection (Turn 11820)
 - **Progress**: Returned to Route 35, navigated to the building at the south end.
