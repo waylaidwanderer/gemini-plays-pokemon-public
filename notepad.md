@@ -16,10 +16,14 @@
 ### Strategic Notes
 - **SquirtBottle**: Need to talk to Floria to progress.
 - **Current Location**: Route 36 / National Park East (Map 10_3).
-- **Status**: Returning to Goldenrod Flower Shop via Route 35 East.
-- **Reasoning**: Floria was not found at the Sudowoodo tree. Inspecting the tree might have been the trigger, or I need to speak to the sister again.
-- **Navigation**: Entering Route 35 from the North. Will proceed South to the Flower Shop back door (9, 33).
-- **Notes**: NPC at (31, 14) on Route 36 gave Fire Stone but was not Floria.
+- **Status**: Exploring Route 35 East (Map 10_2).
+- **Location**: (16, 2), heading South.
+- **Immediate Goal**: Defeat trainer at (16, 7) and explore the rest of this path.
+- **Quest**: Still need to confirm if inspecting Sudowoodo unlocked the SquirtBottle.
+- **Notes**: 
+  - NPC at (31, 14) Route 36 was a Fire Stone giver.
+  - Floria was NOT at the Sudowoodo tree.
+  - This path (Route 35 East) might be a dead end with items, or loop back. Need to verify.
 - **Status**: Inside Flower Shop. Attempting to talk to Girl at (6,4)/(6,3).
 - **Plan**:
   1. Interact with Girl.
