@@ -22,5 +22,3 @@
 - **TYPE_2889**: Obstacle (Wall/Tree)
 - **TYPE_fed7**: Mixed (Benches/Obstacles & Gaps).
 - Checked Berry Tree at (21, 4). It is just an Ice Berry tree. Floria is not here.
-- Navigation: Returning to Goldenrod Flower Shop. Floria was not found at Sudowoodo (35, 9) or Berry Tree (21, 4).
-- Hypothesis: I may have missed a trigger, or she is already back at the shop.
