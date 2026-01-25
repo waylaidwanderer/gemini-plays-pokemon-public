@@ -26,6 +26,8 @@
 - Navigation Update: The right side of the Route 35 Gatehouse (approx x=13) appears to be an exit-only or blocked path. The main entrance is likely on the left side (approx x=10).
 - Tool: `type_text` active. Layout verified (9 cols). Row 4: UPPER (0-2), DEL (3-5), END (6-8).
 - Status Update: Currently out of Poké Balls. Need to restock at next opportunity.
-- Navigation Strategy: To minimize encounters, hug the West wall of the East section (Column 8).
-- Path: From (13, 6) go West to (8, 6). Go South to (8, 10). Go West through Gap at (7, 10) to the paved path.
-- Target: National Park Gate at (6, 4).
+- Navigation Strategy: Winding path to Gate.
+- Step 1: South to (8, 10). West to (2, 10).
+- Step 2: North to (2, 8). East to (4, 8).
+- Step 3: North to (4, 7). East to (5, 7).
+- Step 4: North to (5, 6). East to (6, 6). North to Gate (6, 4).
