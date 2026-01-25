@@ -27,6 +27,6 @@
 - Tool: `type_text` active. Layout verified (9 cols). Row 4: UPPER (0-2), DEL (3-5), END (6-8).
 - Status Update: Currently out of Poké Balls. Need to restock at next opportunity.
 - Navigation Update: Tree at (11, 5) is NOT cuttable (just a wall).
-- Navigation Strategy: West Side Maze Route.
-- Detailed Path: From (7, 10) West to (4, 10) -> South to (4, 12) -> West to (2, 12) -> North to (2, 8) -> East to (4, 8) -> North to (4, 6) -> East to (6, 6) -> North to Gate (6, 4).
-- Note: This avoids walls at (3, 10) and (4, 9).
+- Navigation Strategy: Reach Fence Gap (7, 10) via Safe Path.
+- Safe Path: (11, 6) -> West to (8, 6) -> South to (8, 9) -> West to (7, 9) -> South to Gap (7, 10).
+- Maze Analysis: Direct West/North path from (7, 10) blocked. BFS likely routes South to Row 27 to access Col 0/1, then back North to Gate. This is a very long path.
