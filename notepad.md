@@ -17,11 +17,6 @@
 - **SquirtBottle**: Need to talk to Floria to progress.
 - **Current Location**: Route 36 / National Park East (Map 10_3).
 - **Goal**: Find Floria.
-- **Hypothesis**: Floria is in the National Park Main Area (Map 3_15).
-- **Plan**: Enter Gatehouse via the Gate at (21, 7).
-- **Obstacles**: Trainer at (20, 13) blocks direct path North; must flank East.
-
-### Reflection (Turn 11925)
-- **Progress**: Verified Floria is not at (31, 14).
-- **Correction**: The entrance to the gatehouse appears to be the gate at (21, 7), not the pink building at (17, 8).
-- **Next Steps**: Enter Gatehouse, check for Floria, then proceed to National Park.
+- **Correction**: The "gate" at (21, 7) is a sign/obstacle. The real gatehouse entrance is at (17, 8) (Red Carpet).
+- **New Lead**: A sprite appeared at (21, 4). Investigating if this is Floria.
+- **Plan**: Talk to sprite at (21, 4). If not Floria, enter Gatehouse at (17, 8).
