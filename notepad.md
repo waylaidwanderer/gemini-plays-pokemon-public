@@ -47,3 +47,5 @@
 - **Goal**: Reach (3, 5) Gatehouse entrance to return to National Park/Route 36.
 - **Item**: Received FIRE STONE from the girl at (31, 14).
 - **Question**: Is this Floria? Need to see if she mentions the Flower Shop or moves after this dialogue.
+- **Action**: Interacted with Sudowoodo. Checking for reaction.
+- **Hypothesis**: If Floria isn't here, I'll search the path to the East towards Violet City. She might be further down the road.
