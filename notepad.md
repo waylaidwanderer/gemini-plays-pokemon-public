@@ -3,7 +3,7 @@
 
 ### Current Task
 - **Location**: Ilex Forest (near Shrine).
-- **Immediate**: Defeat Officer Dirk (Use Mud-Slap with 'Right' at move menu), then clear text and proceed North to Route 36.
+- **Immediate**: Finish call with Joey, then proceed North to Route 36.
 - **Sudowoodo Strategy**: Save game. Use Garnet's Smokescreen/Pearl's Charm. Chip health carefully. Try Amber's Sing. Catch.
 
 ### Quest Log
