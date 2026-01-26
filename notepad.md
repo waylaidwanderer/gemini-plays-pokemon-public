@@ -21,3 +21,4 @@
 - **TYPE_4e8c**: Water (Impassable).
 - **TYPE_a339/a336**: Ledges (One-way South). Exclude from Northbound navigation.
 - Met Sticker fanatics at National Park South Entrance (10,41) & (11,41). They have printed stickers.
+- Girl at (17, 39) warned about grass but gave no item. Quick Claw lady not found on bench yet.
