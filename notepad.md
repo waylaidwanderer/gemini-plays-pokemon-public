@@ -23,4 +23,4 @@
 - Tool: `type_text` active. Layout verified (9 cols).
 - Status Update: Currently out of Poké Balls.
 - Glitch Encounter: The girl at (16, 7) triggered Arnie's phone battle script. She is now blocking the door and repeating Arnie's text.
-- Fix Plan: Enter Route 35 Gatehouse (3, 5) to reload the map. If the girl is still blocking the front, try to find the back entrance via the Route 35 Alley.
+- Fix Plan: Talk to the girl in the Route 35 Gatehouse (currently at 6, 3) to see if she is Floria. If not, exit South to Goldenrod and check the Flower Shop.
