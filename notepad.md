@@ -16,8 +16,7 @@
 - Note: Low level team members need grinding.
 
 ### Game Info
-- **Navigation**: Route 35 connects Goldenrod (North) and National Park (North-East, via Gate).
-- **Time**: Sunday Night.
+- **Time**: Monday Morning.
 - **TYPE_4e8c**: Water (Impassable).
 - **TYPE_a339/a336**: Ledges (One-way South). Exclude from Northbound navigation.
 - Met Sticker fanatics at National Park South Entrance (10,41) & (11,41). They have printed stickers.
