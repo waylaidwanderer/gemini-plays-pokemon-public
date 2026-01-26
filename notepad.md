@@ -43,8 +43,8 @@
 - **Correction**: Accidentally entered Fight menu. Backing out to switch to Topaz properly.
 - **Menu Path**: B (Exit Fight) -> Right (PKMN) -> A -> Down x4 (Topaz) -> A (Switch).
 - **Strategy**: 
-  - **Status**: Croconaw took ~40-50% damage (Yellow HP). Garnet 71/88 HP.
-  - **Action**: Clear text -> End Turn (Enemy Attack) -> Select Flame Wheel.
-  - **Sequence**: B x4 (Clear Text) -> A (Fight) -> Right (Select Flame Wheel) -> A (Confirm).
-  - **Reasoning**: Croconaw will attack next. Need to clear that text, then queue up the next Flame Wheel. Flame Wheel is slot 4 (Bottom Right).
+  - **Status**: Garnet (71/88) vs Croconaw (Yellow HP).
+  - **Action**: Advance text (Enemy Turn).
+  - **Sequence**: B x8.
+  - **Reasoning**: "It's not very effective" is on screen. Croconaw still needs to attack. Mashing B will clear my attack text, his attack text, and any effect text, bringing up the menu or close to it.
   - **Endgame**: Sweep Rival's team.
