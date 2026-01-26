@@ -8,7 +8,7 @@
 - **Immediate Action**: Transition to 3_13 and move Right.
 
 ### Party Status
-- Garnet (32) [Critical], Basil (9), Amethyst (10) [Fainted], Spinarak (14), Topaz (15) [Fainted], Harrz (14) [Fainted].
+- Garnet (32), Basil (9), Amethyst (10) [Fainted], Spinarak (14), Topaz (15) [Fainted], Harrz (14) [Fainted].
 
 ### Notes
 - **Map 3_13**: Burned Tower 1F (Outer). Connects to Ecruteak. Warp at (10, 9) leads to 3_14.
