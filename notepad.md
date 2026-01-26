@@ -7,9 +7,6 @@
 - **Goal**: Find the B1F drop on Map 3_13.
 - **Immediate Action**: Transition to 3_13 and move Right.
 
-### Party Status
-- Garnet (32), Basil (9), Amethyst (10) [Fainted], Spinarak (14), Topaz (15) [Fainted], Harrz (14) [Fainted].
-
 ### Notes
 - **Map 3_13**: Burned Tower 1F (Outer). Warp at (10, 9) leads to 3_14.
 - **Map 3_14**: Burned Tower 1F (Center). Exit at (7, 15) leads to 3_13.
