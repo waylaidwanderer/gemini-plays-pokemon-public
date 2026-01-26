@@ -13,7 +13,7 @@
 - **Gym**: Ecruteak Gym (Ghost). Leader Morty.
 
 ### Party Status
-- Garnet (31), Basil (7), Amethyst (10), Spinarak (14), Topaz (15), Harrz (14).
+- Garnet (31), Basil (7), Amethyst (10), Wda agx... (Spinarak) (14), Topaz (15), Harrz (14).
 - Note: Low level team members need grinding.
 
 ### Game Info
