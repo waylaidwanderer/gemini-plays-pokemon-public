@@ -43,8 +43,8 @@
 - **Correction**: Accidentally entered Fight menu. Backing out to switch to Topaz properly.
 - **Menu Path**: B (Exit Fight) -> Right (PKMN) -> A -> Down x4 (Topaz) -> A (Switch).
 - **Strategy**: 
-  - **Status**: Garnet (36/88) vs Zubat. Smokescreen applied.
-  - **Action**: Advance text (Zubat's Turn).
-  - **Sequence**: B x6.
-  - **Reasoning**: "ACCURACY fell!" is waiting for input. Need to clear this, watch Zubat's attack (likely miss or low damage), then get to menu.
+  - **Status**: Garnet (36/88) vs Zubat. Main Menu Open.
+  - **Action**: Use Flame Wheel (Slot 4).
+  - **Sequence**: A (Fight) -> Up, Left (Reset to TL) -> Down, Right (Select BR) -> A (Confirm).
+  - **Reasoning**: Ensuring 100% cursor accuracy to hit Flame Wheel. Smokescreen/Mud-Slap are not options.
   - **Endgame**: Sweep Rival's team.
