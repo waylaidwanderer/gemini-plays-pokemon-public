@@ -42,10 +42,10 @@
 - **Hypothesis**: The path to the Rival is Entrance -> Left -> North -> East -> South -> Center.
 - **Correction**: Accidentally entered Fight menu. Backing out to switch to Topaz properly.
 - **Menu Path**: B (Exit Fight) -> Right (PKMN) -> A -> Down x4 (Topaz) -> A (Switch).
-- **Status**: Running from Wild Rattata.
-- **Action**: Select RUN.
-- **Sequence**: Down -> Right -> A.
-- **Route**: After escape, move Left to explore the West side of the tower for an exit.
-- **Reasoning**: Center (10, 16) and Right (13-14, 14) exits were blocked by `TYPE_fea1` (likely one-way barriers). West side is the last unexplored option.
+- **Status**: Escaped Rattata. Exploring West Side for Exit.
+- **Location**: (11, 13).
+- **Plan**: Move Left to find a path South that bypasses the entrance mat (x=6 to x=11).
+- **Route**: Left to x=4 -> South to Exit.
+- **Reasoning**: Right side was blocked. Center is one-way. Left side is the only remaining option.
 - **Party**: Garnet (27/90). Critical.
 - **Goal**: Heal at Pokémon Center.
