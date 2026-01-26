@@ -43,9 +43,9 @@
 - **Correction**: Accidentally entered Fight menu. Backing out to switch to Topaz properly.
 - **Menu Path**: B (Exit Fight) -> Right (PKMN) -> A -> Down x4 (Topaz) -> A (Switch).
 - **Strategy**: 
-  - **Status**: Selected Super Potion. Entering Party Menu.
-  - **Action**: Use Super Potion.
-  - **Sequence**: A (Select) -> A (Use).
-  - **Observation**: Need to verify Party Menu cursor start position (Likely Amethyst/Slot 3).
-  - **Next**: Navigate to Garnet (Slot 1) -> Confirm Heal.
+  - **Status**: Party Menu (Use Item). Cursor on Topaz.
+  - **Action**: Heal Garnet.
+  - **Observation**: Cursor started on Topaz (Slot 5).
+  - **Sequence**: Up x4 (to Garnet) -> A (Use).
+  - **Next**: Mash B to exit menus -> Monitor Amethyst.
   - **Endgame**: Garnet sweeps.
