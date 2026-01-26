@@ -404,5 +404,30 @@
         "action_counter": 13565
       }
     ]
+  },
+  "battle_select_move": {
+    "description": "Selects a move in the battle menu by slot number (1=TL, 2=TR, 3=BL, 4=BR), handling cursor reset automatically. Assumes the player is at the Main Battle Menu (cursor on FIGHT or elsewhere) and needs to enter FIGHT mode first.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "slot": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 4,
+          "description": "The move slot to select (1-4)."
+        }
+      },
+      "required": [
+        "slot"
+      ]
+    },
+    "python_script": "import json\n\nslot = int(input_data['slot'])\nbuttons = []\n\n# Enter Fight Menu\nbuttons.append('A')\nbuttons.append('sleep 300') # Wait for menu to open\n\n# Reset cursor to Top-Left (Slot 1)\n# Using multiple inputs to ensure reset even if cursor memory is weird or inputs drop\nbuttons.extend(['Up', 'Left', 'Up', 'Left']) \n\n# Navigate to target\nif slot == 1:\n    pass\nelif slot == 2:\n    buttons.append('Right')\nelif slot == 3:\n    buttons.append('Down')\nelif slot == 4:\n    buttons.append('Down')\n    buttons.append('Right')\n\n# Confirm\nbuttons.append('A')\n\nprint(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-26T21:54:10.782Z",
+        "action_counter": 13891
+      }
+    ]
   }
 }
