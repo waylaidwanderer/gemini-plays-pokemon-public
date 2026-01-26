@@ -43,8 +43,9 @@
 - **Correction**: Accidentally entered Fight menu. Backing out to switch to Topaz properly.
 - **Menu Path**: B (Exit Fight) -> Right (PKMN) -> A -> Down x4 (Topaz) -> A (Switch).
 - **Strategy**: 
-  - **Status**: Garnet (71/88) vs Croconaw (Yellow HP).
-  - **Action**: Advance text (Enemy Turn).
-  - **Sequence**: B x8.
-  - **Reasoning**: "It's not very effective" is on screen. Croconaw still needs to attack. Mashing B will clear my attack text, his attack text, and any effect text, bringing up the menu or close to it.
+  - **Status**: Croconaw Fainted. Basil grew to Level 9. Garnet (71/88).
+  - **Action**: Reject Switch -> Keep Garnet in.
+  - **Sequence**: B x3 (Advance Text / Decline Switch).
+  - **Reasoning**: Garnet is the only viable battler. Basil and Spinarak are too low level.
+  - **Next**: Use Flame Wheel on whatever comes out (Gastly, Zubat, or Magnemite).
   - **Endgame**: Sweep Rival's team.
