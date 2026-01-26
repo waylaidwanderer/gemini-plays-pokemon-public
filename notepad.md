@@ -2,12 +2,11 @@
 - Started: Friday, January 16, 2026
 
 ### Current Task
-- **Status**: Running from Wild Koffing.
-- **Location**: (10, 6).
-- **Plan**: Select RUN.
-- **Post-Battle**: Move North to (10, 4) to investigate the sprite seen earlier.
-- **Reasoning**: The "Hole" event likely requires interaction or specific positioning near the legendary beasts/Eusine.
-- **Party**: Garnet (27/90). Critical.
+- **Status**: In Bag (Heal Mode). Trapped in Center.
+- **Immediate**: Heal Garnet (27/90) with Super Potion.
+- **Plan**: Locate Super Potion -> Heal -> Talk to Sprite at (10, 4).
+- **Reasoning**: Need health before triggering events.
+- **Party**: Garnet (27/90) [Critical].
 - **Goal**: Escape via B1F.
 
 ### Party Status
