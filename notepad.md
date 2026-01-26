@@ -43,9 +43,8 @@
 - **Correction**: Accidentally entered Fight menu. Backing out to switch to Topaz properly.
 - **Menu Path**: B (Exit Fight) -> Right (PKMN) -> A -> Down x4 (Topaz) -> A (Switch).
 - **Strategy**: 
-  - **Status**: Garnet is Confused. Turn in progress.
-  - **Action**: Advance text to see confusion result.
-  - **Sequence**: B x6.
-  - **Reasoning**: "Garnet is confused!" is the pre-attack check. Need to see if I hit myself or Zubat. No menu interaction yet.
-  - **Backup**: If Garnet hits herself and takes significant damage, next turn consider using Full Heal (I have 1).
+  - **Status**: Garnet (46/88) is Confused. Main Battle Menu.
+  - **Action**: Use Flame Wheel (Slot 4).
+  - **Sequence**: A (Fight) -> Up, Left (Force Reset to TL) -> Down, Right (Select BR) -> A (Confirm).
+  - **Reasoning**: Garnet took self-hit damage (~25). 46 HP is enough to risk one more confusion check. Full Heal/Potion if HP drops further. Cursor reset is essential to stop using Mud-Slap.
   - **Endgame**: Sweep Rival's team.
