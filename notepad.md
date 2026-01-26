@@ -2,27 +2,18 @@
 - Started: Friday, January 16, 2026 (Turn #12392)
 
 ### Current Task
-- **Backtrack**: Ilex Forest -> Route 34 -> Goldenrod -> Route 35 -> Route 36.
-- **Objective**: Catch Sudowoodo.
+- **Location**: Route 35 (North), entering Goldenrod City.
+- **Immediate**: Catch Venonat -> Heal Party -> Go to Route 36 (Sudowoodo).
 
 ### Quest Log
 - **Badges**: Zephyr, Hive, Plain.
-- **Party**: All Healthy.
-- **Mail Quest**: Active.
-- **Sudowoodo**: Inspected at Turn 12797.
+- **Key Items**: SquirtBottle, Bicycle, Coin Case.
+- **Sudowoodo**: Blocking Route 36. Needs SquirtBottle.
 
-### Strategic Notes
-- **Navigation**: In Ilex Forest, heading North to Route 34.
-- **SquirtBottle**: Need to get this to move Sudowoodo.
-- **Floria**: Likely the girl outside or inside the shop.
+### Party Status
+- Garnet (30), Basil (6), Pearl (5), Amethyst (10), Amber (5), Spinarak (14).
+- Note: Low level team members need grinding.
 
-### Tile Types
-- **TYPE_3fe2**: Walkable Ground/Grass (Safe)
-- **TYPE_2889**: Obstacle (Wall/Tree)
-- **TYPE_5519**: Cut Tree (Ilex Forest)
-- **TYPE_fed7**: Mixed (Benches/Obstacles & Gaps).
-- **Navigation Constraint**: Route 35 East is separated from Goldenrod Gatehouse by a fence.
-- Tool: `type_text` active. Layout verified (9 cols).
-- Status Update: Obtained SquirtBottle! Obtained TM12 (Sweet Scent).
-- Inventory: 10 Poké Balls + 1 Premier Ball purchased.
-- Caught Paras (nickname: "T") on Route 34. Sent to PC.
+### Game Info
+- **Navigation**: Route 35 connects Goldenrod (North) and National Park (North-East, via Gate).
+- **Time**: Sunday Night.
