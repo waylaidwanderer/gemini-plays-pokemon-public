@@ -44,7 +44,8 @@
 - **Menu Path**: B (Exit Fight) -> Right (PKMN) -> A -> Down x4 (Topaz) -> A (Switch).
 - **Strategy**: 
   - **Status**: Garnet (71/88) vs Zubat (Level 20).
-  - **Action**: Use Flame Wheel (Slot 4).
-  - **Sequence**: A (Fight) -> Down x2 -> Right x2 -> A (Confirm).
-  - **Reasoning**: Zubat is weak. Flame Wheel is the best move. Using double inputs to combat potential drops and ensure cursor reaches Bottom-Right (Slot 4) regardless of starting position.
+  - **Observation**: Last turn used Mud-Slap (Immune) instead of Flame Wheel. Cursor likely desynced.
+  - **Action**: Clear text -> Force Cursor Reset -> Use Flame Wheel.
+  - **Sequence**: B x6 (Clear "Doesn't affect" + Zubat's Turn) -> A (Fight) -> Up -> Left (Reset to TL) -> Down -> Right (Move to BR) -> A (Confirm).
+  - **Reasoning**: Universal navigation to Slot 4 (BR) from unknown position by forcing TL reset first.
   - **Endgame**: Sweep Rival's team.
