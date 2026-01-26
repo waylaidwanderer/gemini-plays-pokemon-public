@@ -3,7 +3,7 @@
 
 ### Current Task
 - **Location**: Route 36 (West side).
-- **Immediate**: Cut tree at (22, 13), defeat/bypass trainer, proceed East to Sudowoodo (35, 9).
+- **Immediate**: Proceed East to Sudowoodo (35, 9). Be cautious of Schoolboy Alan (likely defeated).
 - **Sudowoodo Strategy**: Save game. Use Garnet's Smokescreen/Pearl's Charm. Chip health carefully. Try Amber's Sing. Catch.
 
 ### Quest Log
