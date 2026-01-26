@@ -2,7 +2,7 @@
 - Started: Friday, January 16, 2026 (Turn #12392)
 
 ### Current Task
-- **SquirtBottle**: Talk to the girl outside the Flower Shop (16, 7). If that fails, Cut the tree at (17, 6) to enter.
+- **Fix Glitch**: Enter Route 35 Gatehouse (3, 5) to reset the map and move the glitched girl blocking the Flower Shop.
 
 ### Quest Log
 - **Badges**: Zephyr, Hive, Plain.
