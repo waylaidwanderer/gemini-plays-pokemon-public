@@ -6,10 +6,11 @@
 - **Status**: Encountered Rival Silver.
 - **Immediate**: Defeat Rival Silver.
 - **Strategy**: 
-  - **Status**: Garnet is CURSED. Must switch.
-  - **Plan**: Switch to **Harrz (Stantler)**. (Correction: Stantler does not have Intimidate in Gen 2, but switching is still required to clear Curse).
-  - **Tactics**: Croconaw has -1 Accuracy. Harrz might survive a hit. If Harrz faints, safe switch to Garnet.
-  - **Math**: Garnet is win condition. Sacrifice Harrz if necessary.
+  - **Status**: Harrz is active. Garnet's Curse is cleared.
+  - **Plan**: Sacrifice Harrz to get a safe switch to Garnet.
+  - **Action**: Use Leer to lower Croconaw's Defense.
+  - **Follow-up**: When Harrz faints, send Garnet in to Flame Wheel.
+  - **Math**: Croconaw does ~18 dmg. Harrz has 27 HP. Might survive one more hit if lucky (or if Smokescreen triggers).
 
 ### Quest Log
 - **Badges**: Zephyr, Hive, Plain.
