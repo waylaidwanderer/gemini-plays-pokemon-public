@@ -42,8 +42,9 @@
 - **Hypothesis**: The path to the Rival is Entrance -> Left -> North -> East -> South -> Center.
 - **Correction**: Accidentally entered Fight menu. Backing out to switch to Topaz properly.
 - **Menu Path**: B (Exit Fight) -> Right (PKMN) -> A -> Down x4 (Topaz) -> A (Switch).
-- **Status**: Encountered Wild Rattata at (8, 14).
-- **Action**: Advance text -> Run.
+- **Status**: Running from Wild Rattata at (8, 14).
+- **Action**: Select RUN.
+- **Sequence**: Down -> Right -> A.
 - **Route**: (8, 14) -> Right to (10, 14) -> Up to (10, 10) (Hole).
 - **Party**: Garnet (27/90). Critical.
 - **Goal**: Escape via B1F.
