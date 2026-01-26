@@ -42,10 +42,10 @@
 - **Hypothesis**: The path to the Rival is Entrance -> Left -> North -> East -> South -> Center.
 - **Correction**: Accidentally entered Fight menu. Backing out to switch to Topaz properly.
 - **Menu Path**: B (Exit Fight) -> Right (PKMN) -> A -> Down x4 (Topaz) -> A (Switch).
-- **Status**: Exploring West Side for Exit.
-- **Location**: (6, 13).
-- **Plan**: Move Left to x=3, then South.
-- **Reasoning**: Access to South exit seems blocked at Center (x=6-11) and Right (x>13). XML shows open floor types at x=2,3 on Row 16.
-- **Route**: Left to (3, 13) -> South to Exit.
-- **Party**: Garnet (27/90). Critical.
-- **Goal**: Heal at Pokémon Center.
+- **Status**: Trapped in Burned Tower 1F Center.
+- **Analysis**: `find_reachable_exits` confirmed no walk-out exits. South exits are one-way blocked.
+- **Conclusion**: Must fall down the hole at (10, 10) to progress/exit via B1F.
+- **Action**: Heal Garnet -> Jump in Hole.
+- **Party**: Garnet (27/90).
+- **Inventory**: Super Potion x2.
+- **Plan**: Use Super Potion on Garnet. Then move to (10, 10).
