@@ -4,7 +4,7 @@
 ### Current Task
 - **Location**: Ecruteak City (Burned Tower Entrance).
 - **Status**: Encountered Rival Silver.
-- **Immediate**: Defeat Rival Silver (Switch Basil out immediately!).
+- **Immediate**: Switch Garnet to lead (Safety first!).
 
 ### Quest Log
 - **Badges**: Zephyr, Hive, Plain.
