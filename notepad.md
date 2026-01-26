@@ -43,8 +43,9 @@
 - **Correction**: Accidentally entered Fight menu. Backing out to switch to Topaz properly.
 - **Menu Path**: B (Exit Fight) -> Right (PKMN) -> A -> Down x4 (Topaz) -> A (Switch).
 - **Strategy**: 
-  - **Status**: Amethyst fainted.
-  - **Action**: Send out Garnet (Slot 1).
-  - **Observation**: Garnet is fully healed and ready.
-  - **Sequence**: A (Clear Text) -> Select Garnet.
-  - **Endgame**: Garnet's Flame Wheel sweeps Croconaw, Gastly, Zubat, Magnemite.
+  - **Status**: Garnet vs Croconaw. Level advantage (+9).
+  - **Action**: Use Flame Wheel (Move 4).
+  - **Reasoning**: Level 31 STAB likely outdamages Level 22 bulk despite resistance.
+  - **Sequence**: A (Fight) -> Down -> Right -> A (Flame Wheel).
+  - **Backup**: If damage is low, switch to Smokescreen/Mud-Slap.
+  - **Endgame**: Sweep Rival's team.
