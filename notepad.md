@@ -44,8 +44,9 @@
 - **Menu Path**: B (Exit Fight) -> Right (PKMN) -> A -> Down x4 (Topaz) -> A (Switch).
 - **Strategy**: 
   - **Matchup**: Garnet (25/88) vs Magnemite (Level 18).
-  - **Status**: Main Battle Menu.
-  - **Action**: Use Flame Wheel (Slot 4).
-  - **Sequence**: Call `battle_select_move(slot=4)`.
-  - **Reasoning**: Magnemite is Steel type. Flame Wheel is Super Effective and should OHKO. Garnet is faster.
+  - **Status**: Landed Flame Wheel (Super Effective).
+  - **Action**: Advance text (Expect KO).
+  - **Sequence**: B x6.
+  - **Reasoning**: Clearing "Super Effective" text and subsequent faint message.
+  - **Next**: Final Pokemon (Gastly). Use Flame Wheel.
   - **Endgame**: Sweep Rival's team.
