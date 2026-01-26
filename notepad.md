@@ -17,3 +17,5 @@
 ### Game Info
 - **Navigation**: Route 35 connects Goldenrod (North) and National Park (North-East, via Gate).
 - **Time**: Sunday Night.
+- **TYPE_4e8c**: Tall Grass (Walkable).
+- **TYPE_a339/a336**: Ledges (One-way South). Exclude from Northbound navigation.
