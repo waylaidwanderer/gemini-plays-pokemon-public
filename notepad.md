@@ -43,9 +43,9 @@
 - **Correction**: Accidentally entered Fight menu. Backing out to switch to Topaz properly.
 - **Menu Path**: B (Exit Fight) -> Right (PKMN) -> A -> Down x4 (Topaz) -> A (Switch).
 - **Strategy**: 
-  - **Status**: Topaz fainted. Garnet (54/88 HP) is at risk of dying to Water Gun.
-  - **Plan**: Switch to **Amethyst** (Rattata) or **Spinarak** as fodder.
-  - **Action**: Use **Super Potion** on Garnet while fodder is active.
-  - **Goal**: Heal Garnet to full (88/88).
-  - **Endgame**: Garnet sweeps with full HP.
-  - **Math**: Croconaw Water Gun does significant damage. 54 HP is unsafe. Healing is mandatory.
+  - **Status**: Topaz fainted. Cursor is on Topaz (Slot 5).
+  - **Plan**: Switch to **Amethyst** (Slot 3).
+  - **Action**: Up x2 -> A -> A.
+  - **Next Turn**: Use **Super Potion** on Garnet (Slot 1).
+  - **Goal**: Sacrifice Amethyst to heal Garnet safely.
+  - **Endgame**: Garnet sweeps.
