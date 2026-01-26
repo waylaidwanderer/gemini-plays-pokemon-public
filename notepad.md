@@ -43,8 +43,9 @@
 - **Correction**: Accidentally entered Fight menu. Backing out to switch to Topaz properly.
 - **Menu Path**: B (Exit Fight) -> Right (PKMN) -> A -> Down x4 (Topaz) -> A (Switch).
 - **Status**: Trapped in Burned Tower 1F Center.
-- **Hypothesis**: The "Ledge" at (10, 11) might be walkable North (Map XML says `TYPE_3fe2` Floor).
-- **Plan**: Attempt to move North to (10, 10) and find the hole.
-- **Contingency**: If blocked, retry South exit (10, 16) assuming `TYPE_fea1` is a door.
+- **Location**: (10, 10).
+- **Observation**: Standing on potential hole site but didn't fall.
+- **Plan**: Move North to (10, 9) to search for the drop zone.
+- **Contingency**: If I fall to B1F, heal immediately.
 - **Party**: Garnet (27/90). Critical.
-- **Goal**: Escape via B1F (Hole) or Exit.
+- **Goal**: Find Hole -> Fall -> Exit via B1F.
