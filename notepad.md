@@ -42,8 +42,8 @@
 - **Hypothesis**: The path to the Rival is Entrance -> Left -> North -> East -> South -> Center.
 - **Correction**: Accidentally entered Fight menu. Backing out to switch to Topaz properly.
 - **Menu Path**: B (Exit Fight) -> Right (PKMN) -> A -> Down x4 (Topaz) -> A (Switch).
-- **Status**: Wild Koffing appeared.
-- **Action**: Advance intro text.
-- **Plan**: Run from battle (save HP/PP). Garnet (Lv 32) >> Koffing (Lv ~14), so escape is guaranteed.
-- **Route**: After battle, check (10, 10) for "hole" status. If safe, exit South (10, 11).
+- **Status**: Running from Wild Koffing.
+- **Action**: Select RUN.
+- **Sequence**: Down -> Right -> A.
+- **Route**: After escape, move Right to (10, 8) -> Down to Exit.
 - **Party**: Garnet (27/90). Critical.
