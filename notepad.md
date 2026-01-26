@@ -42,9 +42,8 @@
 - **Hypothesis**: The path to the Rival is Entrance -> Left -> North -> East -> South -> Center.
 - **Correction**: Accidentally entered Fight menu. Backing out to switch to Topaz properly.
 - **Menu Path**: B (Exit Fight) -> Right (PKMN) -> A -> Down x4 (Topaz) -> A (Switch).
-- **Strategy**: 
-  - **Status**: Battle Won. Listening to Silver's rant.
-  - **Immediate**: Heal at Pokémon Center.
-  - **Plan**: Mash B to clear dialogue -> Exit South -> Go to Center.
-  - **Party**: Critical condition. Garnet (27/90), others fainted/low.
-  - **Goal**: Survival and Recovery.
+- **Status**: Defeated Rival Silver. Team in critical condition.
+- **Immediate**: Heal at Pokémon Center.
+- **Plan**: Listen to Silver's post-battle dialogue -> Navigate carefully to exit (avoid holes) -> Heal.
+- **Party**: Garnet (27/90). Rest fainted/low.
+- **Goal**: Survival.
