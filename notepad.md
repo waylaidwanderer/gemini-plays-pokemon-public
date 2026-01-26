@@ -44,8 +44,9 @@
 - **Menu Path**: B (Exit Fight) -> Right (PKMN) -> A -> Down x4 (Topaz) -> A (Switch).
 - **Strategy**: 
   - **Matchup**: Garnet (25/88) vs Zubat.
-  - **Status**: Tool failed (Used Quick Attack instead of Flame Wheel). Input timing issue?
-  - **Action**: Manual Input -> Use Flame Wheel (Slot 4).
-  - **Sequence**: A (Fight) -> Down -> Right -> A (Confirm).
-  - **Reasoning**: Last move was Quick Attack (Slot 1), so cursor is at TL. Down+Right goes to BR (Flame Wheel). Manual input to ensure no dropped inputs.
+  - **Status**: Used Mud-Slap (Immune). 0 PP Left.
+  - **Action**: Advance text (Zubat's Turn).
+  - **Sequence**: B x8.
+  - **Reasoning**: Need to clear "Doesn't affect" text. Zubat will attack next. Then menu.
+  - **Note**: `Down` inputs seem to be dropping. Will double-press or verify cursor next turn.
   - **Endgame**: Sweep Rival's team.
