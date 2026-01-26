@@ -43,7 +43,9 @@
 - **Correction**: Accidentally entered Fight menu. Backing out to switch to Topaz properly.
 - **Menu Path**: B (Exit Fight) -> Right (PKMN) -> A -> Down x4 (Topaz) -> A (Switch).
 - **Strategy**: 
-  - **Status**: Harrz fainted. Free switch available.
-  - **Plan**: Switch to **Topaz** (Slot 5).
-  - **Action**: Use Sand-Attack until Topaz faints or Croconaw is -6 Accuracy.
-  - **Endgame**: Garnet sweeps.
+  - **Status**: Topaz (Lv 15) vs Croconaw (Lv 22). Garnet (54/88) is safe in back.
+  - **Tactics**: 
+    1. Topaz uses **Sand-Attack**. Goal: -2 Accuracy.
+    2. Topaz can tank ~2 hits (Water Gun/Bite do ~18 dmg).
+    3. If Topaz faints, Garnet comes in to clean up.
+  - **Note**: Croconaw has -1 Accuracy from Smokescreen already. -2 or -3 makes him very unreliable.
