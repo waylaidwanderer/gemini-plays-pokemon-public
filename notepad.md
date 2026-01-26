@@ -12,7 +12,7 @@
 - **Sudowoodo**: Inspected at Turn 12797.
 
 ### Strategic Notes
-- **Navigation**: Currently in Goldenrod City near the Flower Shop.
+- **Navigation**: Currently in Ilex Forest, traversing south to Azalea Town.
 - **SquirtBottle**: Need to get this to move Sudowoodo.
 - **Floria**: Likely the girl outside or inside the shop.
 
