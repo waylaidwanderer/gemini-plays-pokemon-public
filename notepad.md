@@ -2,12 +2,11 @@
 - Started: Friday, January 16, 2026
 
 ### Current Task
-- **Status**: In Bag (Heal Mode). Trapped in Center.
-- **Immediate**: Heal Garnet (27/90) with Super Potion.
-- **Plan**: Locate Super Potion -> Heal -> Talk to Sprite at (10, 4).
-- **Reasoning**: Need health before triggering events.
-- **Party**: Garnet (27/90) [Critical].
-- **Goal**: Escape via B1F.
+- **Status**: Standing at (10, 11). Sprite ahead at (10, 12).
+- **Correction**: Previous turn failed to open menu (Moved instead).
+- **Immediate**: Open Bag -> Heal Garnet -> Interact with Sprite.
+- **Plan**: `Start` -> `Down` x2 -> `A` (Open Pack).
+- **Goal**: Escape via B1F (Trigger event).
 
 ### Party Status
 - Garnet (32) [Critical], Basil (9), Amethyst (10) [Fainted], Spinarak (14), Topaz (15) [Fainted], Harrz (14) [Fainted].
