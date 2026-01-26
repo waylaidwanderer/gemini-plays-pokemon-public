@@ -43,8 +43,8 @@
 - **Correction**: Accidentally entered Fight menu. Backing out to switch to Topaz properly.
 - **Menu Path**: B (Exit Fight) -> Right (PKMN) -> A -> Down x4 (Topaz) -> A (Switch).
 - **Strategy**: 
-  - **Status**: Topaz (26/46 HP) vs Croconaw.
-  - **Action**: Use **Sand-Attack** (Move 2, Top-Right).
-  - **Goal**: Lower Croconaw's accuracy further.
-  - **Contingency**: If Topaz faints, send Garnet to finish with Flame Wheel.
-  - **Note**: Croconaw -1 Acc from earlier Smokescreen. Sand-Attack will make it -2.
+  - **Status**: Topaz (8/46 HP) vs Croconaw.
+  - **Action**: Use **Sand-Attack**. Try pressing **Right**.
+  - **Observation**: Last turn 'Right' resulted in Tackle. Possible input drop or vertical menu layout? Trying 'Right' again.
+  - **Contingency**: If Topaz faints, choose YES to switch, then select Garnet (Slot 1).
+  - **Endgame**: Garnet uses Flame Wheel.
