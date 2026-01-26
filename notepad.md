@@ -4,7 +4,7 @@
 ### Current Task
 - **Location**: Ecruteak City (Burned Tower Entrance).
 - **Status**: Encountered Rival Silver.
-- **Immediate**: Enter Burned Tower and defeat Rival Silver. Garnet is leading.
+- **Immediate**: Talk to Eusine. Be ready for Rival battle (Garnet leading).
 
 ### Quest Log
 - **Badges**: Zephyr, Hive, Plain.
