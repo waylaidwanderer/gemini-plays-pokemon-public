@@ -42,9 +42,8 @@
 - **Hypothesis**: The path to the Rival is Entrance -> Left -> North -> East -> South -> Center.
 - **Correction**: Accidentally entered Fight menu. Backing out to switch to Topaz properly.
 - **Menu Path**: B (Exit Fight) -> Right (PKMN) -> A -> Down x4 (Topaz) -> A (Switch).
-- **Status**: Stuck at Entrance Mat (10, 16).
-- **Hypothesis**: The entrance mat is a one-way ledge (North-only). Must exit via side path.
-- **Plan**: Navigate to Right Side path (Column 13).
-- **Route**: Up to (10, 13) -> Right to (13, 13) -> Down to jump ledge at (13, 14) -> Exit South.
+- **Status**: Exiting Burned Tower via Side Path.
+- **Action**: Jump ledge and exit South.
+- **Route**: (13, 13) -> Down (Jump Ledge) -> South to Exit.
 - **Party**: Garnet (27/90). Critical.
-- **Goal**: Escape and Heal.
+- **Goal**: Heal at Pokémon Center.
