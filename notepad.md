@@ -3,9 +3,9 @@
 
 ### Current Task
 - **Status**: Searching Bag for Super Potion.
-- **Action**: Scroll Down x5 to scan bag contents.
-- **Observation**: Bag order is not alphabetical. Need to visually locate healing items.
-- **Next**: Select Super Potion -> Heal Garnet -> Interact with Sprite (10, 12).
+- **Action**: Scroll Down x5 (Items 7-11).
+- **Current Item**: Ether (#6).
+- **Next**: Identify Super Potion -> Use on Garnet.
 - **Party**: Garnet (27/90). Critical.
 - **Goal**: Escape via B1F.
 
