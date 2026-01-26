@@ -4,7 +4,7 @@
 ### Current Task
 - **Location**: Ecruteak City (Pokémon Center).
 - **Status**: Party Organized.
-- **Immediate**: Heal team.
+- **Immediate**: Switch Basil to lead and explore Ecruteak.
 
 ### Quest Log
 - **Badges**: Zephyr, Hive, Plain.
