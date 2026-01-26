@@ -2,10 +2,12 @@
 - Started: Friday, January 16, 2026
 
 ### Current Task
-- **Status**: Standing on Hole at (7, 15).
-- **Map**: Changed from 3_14 to 3_13 (1F with Hole).
-- **Issue**: Did not fall immediately upon arrival.
-- **Solution**: Step off (Up) and step back on (Down) to trigger the warp.
+- **Status**: Trapped in Burned Tower 1F.
+- **Location**: (7, 15).
+- **Observation**: Standing on `TYPE_8564` (Hole graphic?) but not falling.
+- **Discovery**: Tiles (9, 15) and (10, 15) are `TYPE_ffbb` (Likely Warp/Hole).
+- **Plan**: Navigate to (10, 15) to try falling there.
+- **Route**: Up to (7, 14) -> Right to (10, 14) -> Down to (10, 15).
 - **Party**: Garnet (77/90).
 - **Goal**: Fall to B1F -> Find Legendary Beasts.
 
