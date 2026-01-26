@@ -43,8 +43,9 @@
 - **Correction**: Accidentally entered Fight menu. Backing out to switch to Topaz properly.
 - **Menu Path**: B (Exit Fight) -> Right (PKMN) -> A -> Down x4 (Topaz) -> A (Switch).
 - **Strategy**: 
-  - **Status**: Topaz (8/46 HP) vs Croconaw.
-  - **Action**: Use **Sand-Attack**. Try pressing **Right**.
-  - **Observation**: Last turn 'Right' resulted in Tackle. Possible input drop or vertical menu layout? Trying 'Right' again.
-  - **Contingency**: If Topaz faints, choose YES to switch, then select Garnet (Slot 1).
-  - **Endgame**: Garnet uses Flame Wheel.
+  - **Status**: Topaz fainted. Garnet (54/88 HP) is at risk of dying to Water Gun.
+  - **Plan**: Switch to **Amethyst** (Rattata) or **Spinarak** as fodder.
+  - **Action**: Use **Super Potion** on Garnet while fodder is active.
+  - **Goal**: Heal Garnet to full (88/88).
+  - **Endgame**: Garnet sweeps with full HP.
+  - **Math**: Croconaw Water Gun does significant damage. 54 HP is unsafe. Healing is mandatory.
