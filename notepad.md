@@ -42,10 +42,10 @@
 - **Hypothesis**: The path to the Rival is Entrance -> Left -> North -> East -> South -> Center.
 - **Correction**: Accidentally entered Fight menu. Backing out to switch to Topaz properly.
 - **Menu Path**: B (Exit Fight) -> Right (PKMN) -> A -> Down x4 (Topaz) -> A (Switch).
-- **Status**: Trapped in Burned Tower 1F Center.
-- **Location**: (10, 10).
-- **Observation**: Standing on potential hole site but didn't fall.
-- **Plan**: Move North to (10, 9) to search for the drop zone.
-- **Contingency**: If I fall to B1F, heal immediately.
+- **Status**: Exploring Burned Tower 1F.
+- **Location**: (10, 8).
+- **Observation**: Passed (10, 10) without falling. "Hole" might be inactive or elsewhere.
+- **Target**: Sprite at (10, 4) (likely Eusine or Morty).
+- **Action**: Move North to investigate.
 - **Party**: Garnet (27/90). Critical.
-- **Goal**: Find Hole -> Fall -> Exit via B1F.
+- **Goal**: Talk to Sprite -> Escape/Heal.
