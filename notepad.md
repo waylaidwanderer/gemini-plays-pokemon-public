@@ -43,8 +43,8 @@
 - **Correction**: Accidentally entered Fight menu. Backing out to switch to Topaz properly.
 - **Menu Path**: B (Exit Fight) -> Right (PKMN) -> A -> Down x4 (Topaz) -> A (Switch).
 - **Strategy**: 
-  - **Status**: Garnet vs Croconaw.
+  - **Status**: Main Battle Menu.
   - **Action**: Use Flame Wheel (Move 4).
-  - **Navigation**: B (Clear Text) -> A (Fight) -> Down x2 (Row 2) -> Right x2 (Col 2) -> A.
-  - **Reasoning**: Previous turns showed input drops (Down dropped then Right dropped). Doubling inputs to ensure Bottom-Right selection.
+  - **Sequence**: A (Enter Fight) -> Right (Select Flame Wheel) -> A (Confirm).
+  - **Reasoning**: Last used move was Smokescreen (Slot 3). Cursor should be there. Right moves to Slot 4 (Flame Wheel).
   - **Endgame**: Sweep Rival's team.
