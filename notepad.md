@@ -12,7 +12,7 @@
 - **Sudowoodo**: Inspected at Turn 12797.
 
 ### Strategic Notes
-- **Navigation**: Currently in Ilex Forest, traversing south to Azalea Town.
+- **Navigation**: In Azalea Town. Entering Mart to buy Poké Balls.
 - **SquirtBottle**: Need to get this to move Sudowoodo.
 - **Floria**: Likely the girl outside or inside the shop.
 
