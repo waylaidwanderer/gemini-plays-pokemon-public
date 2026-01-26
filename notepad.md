@@ -24,4 +24,8 @@
 - Girl at (17, 39) warned about grass. Quick Claw lady not found on bench at (22, 40). Bench was empty.
 - Route 37: Left side (x<10) is a dead end with a Trainer Tips sign. Path to Ecruteak is on the Right side (x>11).
 - Apricorn Trees on Route 37: (13, 5) 🔴 Red, (16, 5) 🔵 Blue. Black was harvested earlier.
-- Navigation: Apricorn Grove is at Row 5. Trees at x=13, 16. Enter/Exit via South (Row 6) or North (Row 4).
+- Navigation:
+  - Route 37 has two lanes divided by trees at x=10-11.
+  - Left Lane (x<10): Path to Ecruteak (North).
+  - Right Lane (x>11): Apricorn Grove (Dead End, blocked by ledges at North).
+  - Strategy: Go South to exit Right Lane, cross to Left Lane, then go North.
