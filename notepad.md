@@ -21,8 +21,8 @@
 - **TYPE_fed7**: Mixed (Benches/Obstacles & Gaps).
 - **Navigation Constraint**: Route 35 East is separated from Goldenrod Gatehouse by a fence.
 - Tool: `type_text` active. Layout verified (9 cols).
-- Status Update: Inside Goldenrod Flower Shop (Map 11_8).
-- Goal: Talk to the girl at (2, 4) to receive the SquirtBottle.
-- Note: Confirmed Map 11_8 is the Flower Shop Interior.
-- Glitch Encounter: The girl at (16, 7) triggered Arnie's phone battle script. She is now blocking the door and repeating Arnie's text.
-- Fix Plan: Exit South to Goldenrod City and check the Flower Shop (16, 7). If the door is blocked, use the back entrance via Route 35 Alley (requires navigating to the secret exit in this Gatehouse at 4, 0).
+- Status Update: Obtained SquirtBottle!
+- Immediate Plan:
+  1. Heal at Goldenrod Pokémon Center.
+  2. Buy Poké Balls at the Dept Store (need to catch Sudowoodo).
+  3. Head to Route 36 to clear the tree.
