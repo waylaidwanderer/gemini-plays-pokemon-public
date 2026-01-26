@@ -42,9 +42,10 @@
 - **Hypothesis**: The path to the Rival is Entrance -> Left -> North -> East -> South -> Center.
 - **Correction**: Accidentally entered Fight menu. Backing out to switch to Topaz properly.
 - **Menu Path**: B (Exit Fight) -> Right (PKMN) -> A -> Down x4 (Topaz) -> A (Switch).
-- **Status**: Trapped in Burned Tower 1F Center.
-- **Analysis**: West side (Col 2-3) is walled off. Center exit is one-way. Right side blocked by barrier.
-- **Conclusion**: The only exit is falling down a hole to B1F.
-- **Action**: Heal Garnet -> Find Hole (likely near 10,10) -> Fall.
+- **Status**: Exiting Burned Tower.
+- **Correction**: I accidentally opened the Pokedex instead of the Pack.
+- **Observation**: I am NOT trapped. The West side (x=5) is open.
+- **Action**: Close Menus -> Move Left -> Exit South.
+- **Route**: (6, 15) -> Left to (5, 15) -> Down to Exit.
 - **Party**: Garnet (27/90). Critical.
-- **Goal**: Escape via B1F.
+- **Goal**: Heal at Pokémon Center.
