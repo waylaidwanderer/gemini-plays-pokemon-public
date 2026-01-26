@@ -43,10 +43,8 @@
 - **Correction**: Accidentally entered Fight menu. Backing out to switch to Topaz properly.
 - **Menu Path**: B (Exit Fight) -> Right (PKMN) -> A -> Down x4 (Topaz) -> A (Switch).
 - **Strategy**: 
-  - **Status**: Garnet vs Croconaw.
-  - **Action**: Advance text.
-  - **Observation**: Used Mud-Slap instead of Flame Wheel (Input error?). Croconaw's accuracy fell.
-  - **Sequence**: B x3 (Clear Text).
-  - **Next**: Select Flame Wheel (Carefully).
-  - **Note**: Cursor likely on Mud-Slap (Slot 2) or Flame Wheel (Slot 4) depending on how inputs were read. Will reset or check.
+  - **Status**: Garnet vs Croconaw (Acc -1).
+  - **Action**: Use Flame Wheel (Move 4).
+  - **Navigation**: A (Fight) -> Left (Reset Col) -> Down (Row 2) -> Right (Col 2) -> A.
+  - **Reasoning**: Robust sequence to target Bottom-Right slot (Move 4) regardless of cursor memory.
   - **Endgame**: Sweep Rival's team.
