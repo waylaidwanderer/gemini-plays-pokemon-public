@@ -2,10 +2,11 @@
 - Started: Friday, January 16, 2026
 
 ### Current Task
-- **Status**: Navigating to Hole at (10, 9).
-- **Correction**: Path North from (10, 12) is blocked by rocks at Row 11.
-- **Plan**: Loop around via the West side (Row 14 -> Col 3).
-- **Route**: Down to (10, 14) -> Left to (3, 14) -> Up to Row 9 -> Right to (10, 9).
+- **Status**: Troubleshooting B1F Access.
+- **Analysis**: The "Center Hole" at (10, 9) is inaccessible due to wall blocks on Rows 10-12.
+- **Lead**: The hole Eusine used at (7, 15) (`TYPE_8564`) is the only reachable exit tile.
+- **Action**: Move to (7, 15) and attempt to fall/interact.
+- **Route**: Right to (7, 14) -> Down to (7, 15).
 - **Party**: Garnet (77/90).
 - **Goal**: Fall to B1F.
 
