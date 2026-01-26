@@ -2,8 +2,8 @@
 - Started: Friday, January 16, 2026 (Turn #12392)
 
 ### Current Task
-- **Location**: Route 35 (West side), looping South to cross fence.
-- **Immediate**: Find fence gap -> Cross to East side -> Go North to Route 36.
+- **Location**: Route 35 (East side), heading North to Route 36.
+- **Immediate**: Navigate around obstacles to reach Route 36 entrance.
 
 ### Quest Log
 - **Badges**: Zephyr, Hive, Plain.
