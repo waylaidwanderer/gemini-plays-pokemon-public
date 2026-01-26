@@ -45,7 +45,8 @@
 - **Strategy**: 
   - **Status**: In Item Menu (Target Selection). Amethyst is decoy.
   - **Action**: Heal Garnet.
-  - **Observation**: Cursor defaulted to Harrz (Slot 6).
-  - **Sequence**: Up x6 (to Garnet) -> A (Use).
+  - **Observation**: Party Menu remembers cursor position.
+  - **Correction**: Cursor was on Harrz (Slot 6) due to wrap from Cancel.
+  - **Sequence**: B (Clear Text) -> Up x5 (to Garnet) -> A (Use).
   - **Next**: Clear text -> Watch Amethyst take damage -> Switch to Garnet if Amethyst faints.
   - **Endgame**: Garnet sweeps.
