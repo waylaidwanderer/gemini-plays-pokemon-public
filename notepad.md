@@ -23,8 +23,8 @@
 - Tool: `type_text` active. Layout verified (9 cols).
 - Status Update: Obtained SquirtBottle!
 - Immediate Plan:
-  1. Heal at Goldenrod Pokémon Center.
-  2. Buy Poké Balls at the Dept Store (need to catch Sudowoodo).
-  3. Head to Route 36 to clear the tree.
+  1. Travel to Azalea Town to buy Poké Balls (Goldenrod Dept Store 2F clerks are bugged/missing).
+  2. Return to Route 36 to catch Sudowoodo.
+
 - Warning: The clerks at Goldenrod Dept Store 2F seem to be missing or inactive (interacting yields shelf text). Checking the wandering NPC.
 - Contingency: If Goldenrod Dept Store clerks are missing/inactive on 2F, travel to Azalea Town Mart to buy Poké Balls before heading to Route 36.
