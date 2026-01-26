@@ -22,3 +22,5 @@
 - **Navigation Constraint**: Route 35 East is separated from Goldenrod Gatehouse by a fence.
 - Tool: `type_text` active. Layout verified (9 cols).
 - Status Update: Currently out of Poké Balls.
+- Glitch Encounter: The girl at (16, 7) triggered Arnie's phone battle script. She is now blocking the door and repeating Arnie's text.
+- Fix Plan: Enter the Route 35 Gatehouse (3, 5) to reload the map and reset her position/script.
