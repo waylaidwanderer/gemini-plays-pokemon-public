@@ -3,8 +3,8 @@
 
 ### Current Task
 - **Location**: Route 36.
-- **Status**: Sudowoodo DEFEATED (Crit Ember). Failed to catch.
-- **Immediate**: Talk to the guy who was next to the tree to get Rock Smash (TM08). Then head North to Ecruteak City.
+- **Status**: Sudowoodo DEFEATED. Garnet learned FLAME WHEEL (replaced Ember).
+- **Immediate**: Talk to the Rock Smash guy (fat guy) nearby to get TM08. Then head North to Ecruteak City.
 
 ### Quest Log
 - **Badges**: Zephyr, Hive, Plain.
