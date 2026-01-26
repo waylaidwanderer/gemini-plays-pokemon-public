@@ -30,3 +30,4 @@
   - Right Lane (x>11): Apricorn Grove (Dead End North).
 - **Observation**: Select button swapping failed in Party Menu. Will use 'A' -> 'SWITCH' method.
 - **Observation**: `advance_dialogue` caused a loop with Eusine. Using 'B' presses to escape.
+- **Hypothesis**: The tile (13, 12) might be a trigger for Eusine's dialogue, causing a loop. Attempting to move UP to break it.
