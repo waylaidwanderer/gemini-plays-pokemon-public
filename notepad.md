@@ -3,8 +3,8 @@
 
 ### Current Task
 - **Location**: Route 37.
-- **Status**: Defeated Twins Ann & Anne.
-- **Immediate**: Go North to Ecruteak City.
+- **Status**: Battling Psychic Greg.
+- **Immediate**: Win battle, then North to Ecruteak City.
 
 ### Quest Log
 - **Badges**: Zephyr, Hive, Plain.
