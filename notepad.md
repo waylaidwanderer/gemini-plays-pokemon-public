@@ -30,4 +30,4 @@
 
 - Warning: The clerks at Goldenrod Dept Store 2F seem to be missing or inactive (interacting yields shelf text). Checking the wandering NPC.
 - Contingency: If Goldenrod Dept Store clerks are missing/inactive on 2F, travel to Azalea Town Mart to buy Poké Balls before heading to Route 36.
-- Turn 13121: At Azalea Mart. Attempting to interact with clerk at (1, 3) from (3, 3).
+- Turn 13126: Purchased 10 Poké Balls. Secured Premier Ball. Heading to Route 36.
