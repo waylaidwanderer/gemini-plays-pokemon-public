@@ -2,8 +2,9 @@
 - Started: Friday, January 16, 2026 (Turn #12392)
 
 ### Current Task
-- **Location**: Route 36 (In Battle with Sudowoodo).
-- **Sudowoodo Strategy**: Garnet is leading. Sudowoodo HP ~40% (Yellow). Accuracy lowered. Crit Ember used. Next: Advance text, let Sudowoodo attack, then use Quick Attack (Move 1) to chip safely.
+- **Location**: Route 36.
+- **Status**: Sudowoodo DEFEATED (Crit Ember). Failed to catch.
+- **Immediate**: Talk to the guy who was next to the tree to get Rock Smash (TM08). Then head North to Ecruteak City.
 
 ### Quest Log
 - **Badges**: Zephyr, Hive, Plain.
