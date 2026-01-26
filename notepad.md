@@ -2,8 +2,8 @@
 - Started: Friday, January 16, 2026 (Turn #12392)
 
 ### Current Task
-- **Location**: Ilex Forest (near Shrine).
-- **Immediate**: Proceed North through National Park to Route 36.
+- **Location**: Route 36 (West side).
+- **Immediate**: Cut tree at (22, 13), defeat/bypass trainer, proceed East to Sudowoodo (35, 9).
 - **Sudowoodo Strategy**: Save game. Use Garnet's Smokescreen/Pearl's Charm. Chip health carefully. Try Amber's Sing. Catch.
 
 ### Quest Log
