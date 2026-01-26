@@ -2,10 +2,11 @@
 - Started: Friday, January 16, 2026
 
 ### Current Task
-- **Status**: Wild Rattata Encounter at (7, 14).
-- **Action**: Advance text -> Run.
-- **Reasoning**: Must clear battle to reach the hole at (7, 15).
-- **Route**: (7, 14) -> Down to (7, 15) [Hole].
+- **Status**: Escaped Rattata. Standing at (7, 14).
+- **Observation**: Tile (7, 15) is the hole (`TYPE_8564`).
+- **Hypothesis**: Stepping on (7, 15) warps to Map `3_13` (B1F?).
+- **Action**: Clear text -> Step Down.
+- **Note**: Last time I warped to `3_13`, I immediately walked Up and warped back. This time, I will stay on `3_13` and explore.
 - **Party**: Garnet (77/90).
 - **Goal**: Fall to B1F -> Find Legendary Beasts.
 
