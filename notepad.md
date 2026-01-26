@@ -43,9 +43,10 @@
 - **Correction**: Accidentally entered Fight menu. Backing out to switch to Topaz properly.
 - **Menu Path**: B (Exit Fight) -> Right (PKMN) -> A -> Down x4 (Topaz) -> A (Switch).
 - **Strategy**: 
-  - **Status**: Garnet vs Croconaw. Level advantage (+9).
-  - **Action**: Use Flame Wheel (Move 4).
-  - **Reasoning**: Level 31 STAB likely outdamages Level 22 bulk despite resistance.
-  - **Sequence**: A (Fight) -> Down -> Right -> A (Flame Wheel).
-  - **Backup**: If damage is low, switch to Smokescreen/Mud-Slap.
+  - **Status**: Garnet vs Croconaw.
+  - **Action**: Advance text.
+  - **Observation**: Used Mud-Slap instead of Flame Wheel (Input error?). Croconaw's accuracy fell.
+  - **Sequence**: B x3 (Clear Text).
+  - **Next**: Select Flame Wheel (Carefully).
+  - **Note**: Cursor likely on Mud-Slap (Slot 2) or Flame Wheel (Slot 4) depending on how inputs were read. Will reset or check.
   - **Endgame**: Sweep Rival's team.
