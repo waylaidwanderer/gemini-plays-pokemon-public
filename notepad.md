@@ -3,7 +3,7 @@
 
 ### Current Task
 - **Location**: Ilex Forest (near Shrine).
-- **Immediate**: Clear text, then navigate North via Column 23 gap to traverse the northern edge (Row 0) towards Route 34 Gatehouse.
+- **Immediate**: Navigate North to (23, 0), then West to (15, 0) to cross the tree line towards Route 34 Gatehouse.
 
 ### Quest Log
 - **Badges**: Zephyr, Hive, Plain.
