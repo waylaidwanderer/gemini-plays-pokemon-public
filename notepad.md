@@ -42,9 +42,9 @@
 - **Hypothesis**: The path to the Rival is Entrance -> Left -> North -> East -> South -> Center.
 - **Correction**: Accidentally entered Fight menu. Backing out to switch to Topaz properly.
 - **Menu Path**: B (Exit Fight) -> Right (PKMN) -> A -> Down x4 (Topaz) -> A (Switch).
-- **Status**: Searching for Exit.
-- **Location**: Moving from Right Side (14, 13) to Left Side.
-- **Reasoning**: Center exit (10, 16) is blocked (One-way IN). Right side ledges failed. Exploring Bottom-Left for exit.
-- **Route**: Left to x=3 -> South.
+- **Status**: Wild Rattata Encounter at (11, 13).
+- **Action**: Advance intro text -> RUN.
+- **Reasoning**: Garnet (27/90) is critical. Cannot risk battle.
+- **Route**: After escape, continue Left to x=3 or check for ledge jump at y=14.
 - **Party**: Garnet (27/90). Critical.
 - **Goal**: Heal at Pokémon Center.
