@@ -6,11 +6,10 @@
 - **Status**: Encountered Rival Silver.
 - **Immediate**: Defeat Rival Silver.
 - **Strategy**: 
-  - **Status**: Basil (Lv 7) was sent out by mistake. Garnet's Curse is cleared.
-  - **Plan**: Advance text. 
-  - **Scenario A (Basil Faints)**: Send in **Garnet** to revenge kill with Flame Wheel.
-  - **Scenario B (Basil Lives)**: Switch to **Topaz** to preserve Basil and debuff.
-  - **Math**: Croconaw is Lv 22. Basil is Lv 7. Basil surviving is highly unlikely unless Smokescreen causes a miss.
+  - **Status**: Basil survived (Miss)! Switching to **Topaz**.
+  - **Plan**: Switch Topaz in. Use **Sand-Attack**.
+  - **Goal**: Lower Croconaw's accuracy to -2 or -3.
+  - **Endgame**: Clean up with Garnet's Flame Wheel.
 
 ### Quest Log
 - **Badges**: Zephyr, Hive, Plain.
