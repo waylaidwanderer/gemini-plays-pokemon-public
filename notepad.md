@@ -4,7 +4,8 @@
 ### Current Task
 - **Location**: Ecruteak City (Burned Tower Entrance).
 - **Status**: Encountered Rival Silver.
-- **Immediate**: Finish Eusine dialogue. Defeat Rival.
+- **Immediate**: Defeat Rival Silver.
+- **Strategy**: Garnet (Lv 31) must sweep. Watch out for Croconaw. Use Mud-Slap on Magnemite/Haunter. Smokescreen on Croconaw if needed.
 
 ### Quest Log
 - **Badges**: Zephyr, Hive, Plain.
