@@ -2,10 +2,10 @@
 - Started: Friday, January 16, 2026
 
 ### Current Task
-- **Status**: Searching Bag for Super Potion.
-- **Action**: Scroll Down x5 (Items 7-11).
-- **Current Item**: Ether (#6).
-- **Next**: Identify Super Potion -> Use on Garnet.
+- **Status**: In Bag. Cursor on Full Heal (#11).
+- **Action**: Select Super Potion (#7).
+- **Sequence**: Up x4 -> A (Select) -> A (Use).
+- **Next**: Select Garnet in Party Menu.
 - **Party**: Garnet (27/90). Critical.
 - **Goal**: Escape via B1F.
 
