@@ -43,8 +43,8 @@
 - **Correction**: Accidentally entered Fight menu. Backing out to switch to Topaz properly.
 - **Menu Path**: B (Exit Fight) -> Right (PKMN) -> A -> Down x4 (Topaz) -> A (Switch).
 - **Strategy**: 
-  - **Status**: Rival Silver Defeated!
+  - **Status**: Battle Won. Listening to Silver's rant.
   - **Immediate**: Heal at Pokémon Center.
-  - **Plan**: Listen to Silver's dialogue -> Exit Burned Tower -> Heal -> Return to explore.
-  - **Party**: Garnet (Lv 32) needs healing. Topaz, Amethyst, Harrz fainted.
-  - **Goal**: Recovery.
+  - **Plan**: Mash B to clear dialogue -> Exit South -> Go to Center.
+  - **Party**: Critical condition. Garnet (27/90), others fainted/low.
+  - **Goal**: Survival and Recovery.
