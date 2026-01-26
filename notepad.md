@@ -2,11 +2,11 @@
 - Started: Friday, January 16, 2026
 
 ### Current Task
-- **Status**: Searching for B1F Warp.
-- **Location**: (7, 15) -> Moving to (9, 15).
-- **Observation**: Standing on (7, 15) (Hole Graphic) did not warp me.
-- **Discovery**: Map 3_13 has `TYPE_ffbb` tiles at (9, 15) and (10, 15). These are likely the active warps.
-- **Action**: Move Right x2 to step on (9, 15).
+- **Status**: Exploring Map 3_13 (Active Burned Tower).
+- **Location**: (9, 15) -> Moving to (10, 9).
+- **Observation**: (7, 15) and (9, 15) did not warp.
+- **Hypothesis**: The real hole is at (10, 9) (`TYPE_1357`), or (10, 15) (`TYPE_ffbb`).
+- **Route**: Right to (10, 15) -> Up to (10, 9).
 - **Party**: Garnet (77/90).
 - **Goal**: Fall to B1F.
 
