@@ -43,8 +43,8 @@
 - **Correction**: Accidentally entered Fight menu. Backing out to switch to Topaz properly.
 - **Menu Path**: B (Exit Fight) -> Right (PKMN) -> A -> Down x4 (Topaz) -> A (Switch).
 - **Strategy**: 
-  - **Status**: Cursor on Amethyst (Active). Garnet (Slot 1) needs healing.
-  - **Action**: Up x2 -> A -> A (Confirm Heal).
-  - **Expectation**: Garnet heals to full. Croconaw attacks Amethyst.
-  - **Next Turn**: If Amethyst faints, send in Garnet. If she lives, attack or switch? (Likely faints).
+  - **Status**: Main Battle Menu. Garnet needs healing.
+  - **Action**: Open Pack -> Reset Cursor -> Select Super Potion -> Heal Garnet.
+  - **Sequence**: A (Pack) -> Up x15 (Reset) -> Down x10 (Super Potion) -> A -> A (Use) -> Up x2 (Garnet) -> A.
+  - **Note**: This sequence is robust against cursor memory.
   - **Endgame**: Garnet sweeps.
