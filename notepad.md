@@ -43,8 +43,8 @@
 - **Correction**: Accidentally entered Fight menu. Backing out to switch to Topaz properly.
 - **Menu Path**: B (Exit Fight) -> Right (PKMN) -> A -> Down x4 (Topaz) -> A (Switch).
 - **Strategy**: 
-  - **Status**: Main Battle Menu.
-  - **Action**: Use Flame Wheel (Move 4).
-  - **Sequence**: A (Enter Fight) -> Right (Select Flame Wheel) -> A (Confirm).
-  - **Reasoning**: Last used move was Smokescreen (Slot 3). Cursor should be there. Right moves to Slot 4 (Flame Wheel).
+  - **Status**: Text on screen ("ACCURACY fell!").
+  - **Action**: Advance text/Turn.
+  - **Sequence**: B x4.
+  - **Reasoning**: The menu is not open yet. Need to clear the text of Smokescreen's effect. Croconaw may attack next if he is slower, or the turn may end if he was faster.
   - **Endgame**: Sweep Rival's team.
