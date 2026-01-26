@@ -43,8 +43,9 @@
 - **Correction**: Accidentally entered Fight menu. Backing out to switch to Topaz properly.
 - **Menu Path**: B (Exit Fight) -> Right (PKMN) -> A -> Down x4 (Topaz) -> A (Switch).
 - **Strategy**: 
-  - **Status**: Garnet (46/88). Snapped out of confusion.
-  - **Action**: Advance text (Turn playing out).
-  - **Sequence**: B x5.
-  - **Reasoning**: "Confused no more!" means she will execute Flame Wheel now. Need to clear the text of her attack and Zubat getting roasted.
+  - **Status**: Garnet (41/88) vs Zubat (Full HP). Menu Open.
+  - **Observation**: Last turn used Mud-Slap (Slot 2). Cursor is likely there.
+  - **Action**: Use Flame Wheel (Slot 4).
+  - **Sequence**: A (Fight) -> Left (Reset to Col 1) -> Down (Row 2) -> Right (Col 2) -> A (Confirm).
+  - **Reasoning**: "Left, Down, Right" is a robust path to Bottom-Right (Flame Wheel) from any starting position (QA, Mud-Slap, Smokescreen, or FW itself).
   - **Endgame**: Sweep Rival's team.
