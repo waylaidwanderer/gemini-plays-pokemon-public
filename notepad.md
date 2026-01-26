@@ -6,9 +6,9 @@
 - **Status**: Encountered Rival Silver.
 - **Immediate**: Defeat Rival Silver.
 - **Strategy**: 
-  - **Status**: Basil survived (Miss)! Switching to **Topaz**.
-  - **Plan**: Switch Topaz in. Use **Sand-Attack**.
-  - **Goal**: Lower Croconaw's accuracy to -2 or -3.
+  - **Status**: Topaz fainted. Amethyst is the current decoy.
+  - **Plan**: Heal Garnet with Super Potion.
+  - **Goal**: Ensure Garnet is healthy for the sweep.
   - **Endgame**: Clean up with Garnet's Flame Wheel.
 
 ### Quest Log
