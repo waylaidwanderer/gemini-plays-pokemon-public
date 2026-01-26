@@ -43,9 +43,8 @@
 - **Correction**: Accidentally entered Fight menu. Backing out to switch to Topaz properly.
 - **Menu Path**: B (Exit Fight) -> Right (PKMN) -> A -> Down x4 (Topaz) -> A (Switch).
 - **Strategy**: 
-  - **Status**: Party Menu (Use Item). Cursor on Topaz.
-  - **Action**: Heal Garnet.
-  - **Observation**: Cursor started on Topaz (Slot 5).
-  - **Sequence**: Up x4 (to Garnet) -> A (Use).
-  - **Next**: Mash B to exit menus -> Monitor Amethyst.
-  - **Endgame**: Garnet sweeps.
+  - **Status**: Garnet Healed (Full HP). Amethyst is active (Decoy).
+  - **Action**: Clear text -> Let Amethyst faint or Switch to Garnet.
+  - **Observation**: Garnet is ready to sweep.
+  - **Next**: Press B to progress battle text.
+  - **Endgame**: Garnet's Flame Wheel.
