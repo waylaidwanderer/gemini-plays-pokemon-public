@@ -42,10 +42,10 @@
 - **Hypothesis**: The path to the Rival is Entrance -> Left -> North -> East -> South -> Center.
 - **Correction**: Accidentally entered Fight menu. Backing out to switch to Topaz properly.
 - **Menu Path**: B (Exit Fight) -> Right (PKMN) -> A -> Down x4 (Topaz) -> A (Switch).
-- **Status**: Exploring Burned Tower 1F.
-- **Location**: (10, 8).
-- **Observation**: Passed (10, 10) without falling. "Hole" might be inactive or elsewhere.
-- **Target**: Sprite at (10, 4) (likely Eusine or Morty).
-- **Action**: Move North to investigate.
+- **Status**: Trapped in Burned Tower 1F Center.
+- **Location**: (10, 6).
+- **Observation**: West/East/South exits blocked. Floor at (10, 10) didn't collapse.
+- **Hypothesis**: Must interact with Eusine/Morty at (10, 4) to trigger the floor collapse event.
+- **Action**: Approach sprite and talk.
 - **Party**: Garnet (27/90). Critical.
-- **Goal**: Talk to Sprite -> Escape/Heal.
+- **Goal**: Trigger event -> Fall to B1F -> Heal -> Escape.
