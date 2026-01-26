@@ -2,10 +2,12 @@
 - Started: Friday, January 16, 2026
 
 ### Current Task
-- **Status**: Trapped in Burned Tower 1F Center. Eusine fled.
-- **Location**: (10, 5).
-- **Goal**: Escape via B1F (Hole) or Hidden Exit.
-- **Immediate**: Heal Garnet if HP drops. Search center area for triggers.
+- **Status**: Wild Koffing Encounter at (10, 6).
+- **Action**: Advance text -> Run.
+- **Reasoning**: Garnet (27/90) is critical. Need to save HP for the drop to B1F.
+- **Plan**: Run away, then continue South to (10, 10) to find the hole.
+- **Party**: Garnet (27/90). Critical.
+- **Goal**: Escape via B1F (Hole).
 
 ### Party Status
 - Garnet (32) [Critical], Basil (9), Amethyst (10) [Fainted], Spinarak (14), Topaz (15) [Fainted], Harrz (14) [Fainted].
