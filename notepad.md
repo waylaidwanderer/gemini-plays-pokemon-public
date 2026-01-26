@@ -42,9 +42,9 @@
 - **Hypothesis**: The path to the Rival is Entrance -> Left -> North -> East -> South -> Center.
 - **Correction**: Accidentally entered Fight menu. Backing out to switch to Topaz properly.
 - **Menu Path**: B (Exit Fight) -> Right (PKMN) -> A -> Down x4 (Topaz) -> A (Switch).
-- **Status**: Trapped in Burned Tower 1F Center.
-- **Correction**: (5, 15) is a Wall (`TYPE_2889`). (6, 16) is a Barrier (`TYPE_fea1`). The tool was correct: no walk-out exits.
-- **Plan**: Fall down the hole at (10, 10) to reach B1F.
-- **Action**: Move to center (10, 10).
+- **Status**: Trapped in Center Section.
+- **Analysis**: West side access blocked by Wall at x=5. Front exit blocked by one-way ledge `TYPE_fea1`.
+- **Plan**: Navigate to the hole near (10, 10) and fall to B1F.
+- **Route**: Up to Row 14 -> Right to x=10 -> Up to Hole.
 - **Party**: Garnet (27/90). Critical.
 - **Goal**: Escape via B1F.
