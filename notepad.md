@@ -43,8 +43,8 @@
 - **Correction**: Accidentally entered Fight menu. Backing out to switch to Topaz properly.
 - **Menu Path**: B (Exit Fight) -> Right (PKMN) -> A -> Down x4 (Topaz) -> A (Switch).
 - **Strategy**: 
-  - **Status**: Text on screen ("ACCURACY fell!").
-  - **Action**: Advance text/Turn.
-  - **Sequence**: B x4.
-  - **Reasoning**: The menu is not open yet. Need to clear the text of Smokescreen's effect. Croconaw may attack next if he is slower, or the turn may end if he was faster.
+  - **Status**: Garnet hit by Water Gun (Super Effective). HP 71/88.
+  - **Action**: Clear text -> Select Flame Wheel.
+  - **Sequence**: B x3 (Clear) -> A (Fight) -> Right (Select Flame Wheel) -> A (Confirm).
+  - **Reasoning**: Flame Wheel (Effective Power ~45) > Quick Attack (40). Smokescreen was used last, so cursor is at Slot 3. Right moves to Slot 4.
   - **Endgame**: Sweep Rival's team.
