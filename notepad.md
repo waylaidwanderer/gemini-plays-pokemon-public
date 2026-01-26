@@ -3,7 +3,7 @@
 
 ### Current Task
 - **Location**: Ecruteak City (Pokémon Center).
-- **Status**: Met Bill.
+- **Status**: Party Organized.
 - **Immediate**: Heal team.
 
 ### Quest Log
@@ -13,7 +13,7 @@
 - **Gym**: Ecruteak Gym (Ghost). Leader Morty.
 
 ### Party Status
-- Garnet (30), Basil (6), Pearl (5), Amethyst (10), Amber (5), Spinarak (14).
+- Garnet (31), Basil (7), Amethyst (10), Spinarak (14), Topaz (15), Harrz (14).
 - Note: Low level team members need grinding.
 
 ### Game Info
