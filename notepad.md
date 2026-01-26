@@ -6,11 +6,10 @@
 - **Status**: Encountered Rival Silver.
 - **Immediate**: Defeat Rival Silver.
 - **Strategy**: 
-  - **Status**: Harrz is active. Garnet's Curse is cleared.
-  - **Plan**: Sacrifice Harrz to get a safe switch to Garnet.
-  - **Action**: Use Leer to lower Croconaw's Defense.
-  - **Follow-up**: When Harrz faints, send Garnet in to Flame Wheel.
-  - **Math**: Croconaw does ~18 dmg. Harrz has 27 HP. Might survive one more hit if lucky (or if Smokescreen triggers).
+  - **Status**: Garnet is CURSED and still in battle (Switch failed). 
+  - **Plan**: Switch to **Topaz (Pidgeotto)**. She is full HP (46/46) and has Sand-Attack.
+  - **Action**: Menu navigation correction: Up x10 to reset, Down x4 to Topaz, A to Switch.
+  - **Follow-up**: Use Sand-Attack to cripple Croconaw further, then revive Garnet or switch back when Topaz faints.
 
 ### Quest Log
 - **Badges**: Zephyr, Hive, Plain.
