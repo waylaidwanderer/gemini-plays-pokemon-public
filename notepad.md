@@ -2,12 +2,12 @@
 - Started: Friday, January 16, 2026
 
 ### Current Task
-- **Status**: Following Eusine's path.
-- **Location**: (9, 13) -> Moving to (7, 15).
-- **Observation**: Tile (7, 15) is the hole Eusine created/revealed.
-- **Action**: Move Left x2 -> Down x2 -> Fall to B1F.
+- **Status**: Standing on Hole at (7, 15).
+- **Map**: Changed from 3_14 to 3_13 (1F with Hole).
+- **Issue**: Did not fall immediately upon arrival.
+- **Solution**: Step off (Up) and step back on (Down) to trigger the warp.
 - **Party**: Garnet (77/90).
-- **Goal**: Find Legendary Beasts in B1F.
+- **Goal**: Fall to B1F -> Find Legendary Beasts.
 
 ### Party Status
 - Garnet (32) [Critical], Basil (9), Amethyst (10) [Fainted], Spinarak (14), Topaz (15) [Fainted], Harrz (14) [Fainted].
