@@ -25,3 +25,4 @@
 - Tool: `type_text` active. Layout verified (9 cols).
 - Status Update: Obtained SquirtBottle! Obtained TM12 (Sweet Scent).
 - Inventory: 10 Poké Balls + 1 Premier Ball purchased.
+- Caught Paras (nickname: "T") on Route 34. Sent to PC.
