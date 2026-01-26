@@ -43,9 +43,8 @@
 - **Correction**: Accidentally entered Fight menu. Backing out to switch to Topaz properly.
 - **Menu Path**: B (Exit Fight) -> Right (PKMN) -> A -> Down x4 (Topaz) -> A (Switch).
 - **Strategy**: 
-  - **Status**: Garnet (36/88) vs Zubat.
-  - **Observation**: Smokescreen used (likely due to dropped 'Right' input last turn).
+  - **Status**: Garnet (36/88) vs Zubat. Smokescreen applied.
   - **Action**: Advance text (Zubat's Turn).
-  - **Sequence**: B x8.
-  - **Reasoning**: Zubat needs to attack. I cannot select a move yet.
+  - **Sequence**: B x6.
+  - **Reasoning**: "ACCURACY fell!" is waiting for input. Need to clear this, watch Zubat's attack (likely miss or low damage), then get to menu.
   - **Endgame**: Sweep Rival's team.
