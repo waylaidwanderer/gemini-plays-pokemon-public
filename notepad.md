@@ -42,8 +42,8 @@
 - **Hypothesis**: The path to the Rival is Entrance -> Left -> North -> East -> South -> Center.
 - **Correction**: Accidentally entered Fight menu. Backing out to switch to Topaz properly.
 - **Menu Path**: B (Exit Fight) -> Right (PKMN) -> A -> Down x4 (Topaz) -> A (Switch).
-- **Correction**: Cursor memory caused switch to Harrz instead of Topaz.
-- **Status**: Harrz (9 HP) is active.
-- **Plan**: Use Tackle. Expect Harrz to faint.
-- **Next**: Send out Topaz to Sand-Attack.
-- **Note**: Do not switch manually this turn; take the free switch after faint.
+- **Strategy**: 
+  - **Status**: Harrz fainted. Free switch available.
+  - **Plan**: Switch to **Topaz** (Slot 5).
+  - **Action**: Use Sand-Attack until Topaz faints or Croconaw is -6 Accuracy.
+  - **Endgame**: Garnet sweeps.
