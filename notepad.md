@@ -22,7 +22,7 @@
 - **TYPE_fed7**: Mixed (Benches/Obstacles & Gaps).
 - **Navigation Constraint**: Route 35 East is separated from Goldenrod Gatehouse by a fence.
 - Tool: `type_text` active. Layout verified (9 cols).
-- Status Update: Obtained SquirtBottle!
+- Status Update: Obtained SquirtBottle! Obtained TM12 (Sweet Scent).
 - Immediate Plan:
   1. Travel to Azalea Town to buy Poké Balls (Goldenrod Dept Store 2F clerks are bugged/missing).
   2. Return to Route 36 to catch Sudowoodo.
