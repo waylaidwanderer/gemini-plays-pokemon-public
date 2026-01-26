@@ -2,12 +2,13 @@
 - Started: Friday, January 16, 2026
 
 ### Current Task
-- **Status**: Wild Koffing Encounter at (10, 6).
-- **Action**: Run (Garnet 27/90).
-- **Analysis**: `find_reachable_exits` found NO standard warps or exits. The "Hole" must be a scripted tile, not a standard warp.
-- **Plan**: Post-battle, grid-search (9,9) to (11,11) to trigger the fall.
+- **Status**: Running from Wild Koffing.
+- **Location**: (10, 6).
+- **Plan**: Select RUN.
+- **Post-Battle**: Move North to (10, 4) to investigate the sprite seen earlier.
+- **Reasoning**: The "Hole" event likely requires interaction or specific positioning near the legendary beasts/Eusine.
 - **Party**: Garnet (27/90). Critical.
-- **Goal**: Trigger Fall -> B1F -> Escape.
+- **Goal**: Escape via B1F.
 
 ### Party Status
 - Garnet (32) [Critical], Basil (9), Amethyst (10) [Fainted], Spinarak (14), Topaz (15) [Fainted], Harrz (14) [Fainted].
