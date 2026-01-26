@@ -9,7 +9,8 @@
 ### Quest Log
 - **Badges**: Zephyr, Hive, Plain.
 - **Key Items**: SquirtBottle, Bicycle, Coin Case.
-- **Sudowoodo**: Blocking Route 36. Needs SquirtBottle.
+- **Sudowoodo**: Cleared.
+- **Gym**: Ecruteak Gym (Ghost). Leader Morty.
 
 ### Party Status
 - Garnet (30), Basil (6), Pearl (5), Amethyst (10), Amber (5), Spinarak (14).
