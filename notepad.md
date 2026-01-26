@@ -3,9 +3,9 @@
 
 ### Current Task
 - **Status**: Talking to Eusine.
-- **Dialogue**: "Thank you!"
+- **Dialogue**: "I'm going to track SUICUNE."
 - **Action**: Advance text.
-- **Expectation**: Eusine leaves or reveals the hole.
+- **Expectation**: Eusine finishes talking and the event triggers.
 - **Party**: Garnet (77/90).
 - **Goal**: Fall to B1F -> Find Legendary Beasts.
 
