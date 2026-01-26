@@ -25,7 +25,7 @@
 - Route 37: Left side (x<10) is a dead end with a Trainer Tips sign. Path to Ecruteak is on the Right side (x>11).
 - Apricorn Trees on Route 37: (13, 5) 🔴 Red, (16, 5) 🔵 Blue. Black was harvested earlier.
 - Navigation:
-  - Route 37 has two lanes divided by trees at x=10-11.
-  - Left Lane (x<10): Path to Ecruteak (North).
-  - Right Lane (x>11): Apricorn Grove (Dead End, blocked by ledges at North).
-  - Strategy: Go South to exit Right Lane, cross to Left Lane, then go North.
+  - Route 37 has two lanes separated by trees (x=10-11).
+  - Left Lane (x<10): Main Path to Ecruteak (North). I haven't explored North of Row 5 yet.
+  - Right Lane (x>11): Apricorn Grove (Dead End North).
+  - Strategy: Go South to Row 16 to cross from Right Lane to Left Lane, then head North.
