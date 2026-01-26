@@ -19,6 +19,7 @@
 ### Tile Types
 - **TYPE_3fe2**: Walkable Ground/Grass (Safe)
 - **TYPE_2889**: Obstacle (Wall/Tree)
+- **TYPE_5519**: Cut Tree (Ilex Forest)
 - **TYPE_fed7**: Mixed (Benches/Obstacles & Gaps).
 - **Navigation Constraint**: Route 35 East is separated from Goldenrod Gatehouse by a fence.
 - Tool: `type_text` active. Layout verified (9 cols).
