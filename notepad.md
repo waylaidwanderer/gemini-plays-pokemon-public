@@ -2,7 +2,8 @@
 - Started: Friday, January 16, 2026 (Turn #12392)
 
 ### Current Task
-- **Fix Glitch**: Enter Route 35 Gatehouse (3, 5) to reset the map and move the glitched girl blocking the Flower Shop.
+- **Travel to Azalea Town**: Buy Poké Balls at the Mart (Goldenrod clerks are bugged).
+- **Next**: Return to Route 36 to catch Sudowoodo.
 
 ### Quest Log
 - **Badges**: Zephyr, Hive, Plain.
