@@ -43,9 +43,10 @@
 - **Correction**: Accidentally entered Fight menu. Backing out to switch to Topaz properly.
 - **Menu Path**: B (Exit Fight) -> Right (PKMN) -> A -> Down x4 (Topaz) -> A (Switch).
 - **Strategy**: 
-  - **Matchup**: Garnet (25/88) vs Zubat.
-  - **Status**: Menu Open. Ready to attack.
-  - **Action**: Use Flame Wheel (Slot 4).
-  - **Sequence**: Call `battle_select_move(slot=4)`.
-  - **Reasoning**: Using the robust tool to ensure Flame Wheel selection.
+  - **Status**: Zubat Fainted. Garnet (25/88).
+  - **Observation**: Used Quick Attack again? Tool might be too fast for menu opening.
+  - **Action**: Advance text -> Decline Switch.
+  - **Sequence**: B x5.
+  - **Reasoning**: Clearing EXP text and switch prompt. Garnet stays in.
+  - **Next**: Check opponent (Gastly/Magnemite) -> Use Flame Wheel.
   - **Endgame**: Sweep Rival's team.
