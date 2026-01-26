@@ -44,9 +44,8 @@
 - **Menu Path**: B (Exit Fight) -> Right (PKMN) -> A -> Down x4 (Topaz) -> A (Switch).
 - **Strategy**: 
   - **Matchup**: Garnet (31/88) vs Zubat.
-  - **Status**: Mud-Slap failed (Immune). Waiting for Zubat's turn.
-  - **Action**: Advance battle text.
-  - **Sequence**: B x8.
-  - **Reasoning**: Clearing "Doesn't affect" text. Zubat will attack next. Then menu.
-  - **Next**: Use `battle_select_move(slot=4)` (Updated with delays) to pick Flame Wheel.
+  - **Status**: Menu Open. Zubat did not damage me last turn (or missed).
+  - **Action**: Use Flame Wheel (Slot 4).
+  - **Sequence**: Call `battle_select_move(slot=4)`.
+  - **Reasoning**: Garnet is faster. Flame Wheel should KO.
   - **Endgame**: Sweep Rival's team.
