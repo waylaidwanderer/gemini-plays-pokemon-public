@@ -3,7 +3,7 @@
 
 ### Current Task
 - **Location**: Ilex Forest (near Shrine).
-- **Immediate**: Finish call with Joey, then proceed North to Route 36.
+- **Immediate**: Proceed North through National Park to Route 36.
 - **Sudowoodo Strategy**: Save game. Use Garnet's Smokescreen/Pearl's Charm. Chip health carefully. Try Amber's Sing. Catch.
 
 ### Quest Log
