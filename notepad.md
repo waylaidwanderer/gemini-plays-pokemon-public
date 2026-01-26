@@ -3,8 +3,8 @@
 
 ### Current Task
 - **Location**: Route 37.
-- **Status**: Battling Psychic Greg.
-- **Immediate**: Win battle, then North to Ecruteak City.
+- **Status**: Defeated Psychic Greg.
+- **Immediate**: Go North to Ecruteak City.
 
 ### Quest Log
 - **Badges**: Zephyr, Hive, Plain.
