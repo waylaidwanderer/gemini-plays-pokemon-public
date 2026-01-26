@@ -6,9 +6,10 @@
 - **Status**: Encountered Rival Silver.
 - **Immediate**: Defeat Rival Silver.
 - **Strategy**: 
-  - **Croconaw**: Garnet (Lv 31) stays in.
-  - **Math**: Flame Wheel (STAB+Resist = 45 BP) > Quick Attack (40 BP) > Mud-Slap (20 BP).
-  - **Plan**: Decline switch. Use Flame Wheel to brute force. Mud-Slap if I need to dodge hits. Basil is too weak.
+  - **Status**: Garnet is CURSED (-22 HP/turn). 
+  - **Plan**: Switch to **Harrz (Stantler)** immediately to clear Curse and trigger Intimidate.
+  - **Follow-up**: If Harrz survives, Leer. If he faints, safe switch back to Garnet.
+  - **Croconaw**: Likely missed last turn (0 dmg taken besides Curse). Smokescreen is working.
 
 ### Quest Log
 - **Badges**: Zephyr, Hive, Plain.
