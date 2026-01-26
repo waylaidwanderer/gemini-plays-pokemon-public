@@ -2,9 +2,9 @@
 - Started: Friday, January 16, 2026 (Turn #12392)
 
 ### Current Task
-- **Location**: Route 37.
-- **Status**: Defeated Psychic Greg.
-- **Immediate**: Go North to Ecruteak City.
+- **Location**: Ecruteak City (Pokémon Center).
+- **Status**: Met Bill.
+- **Immediate**: Heal team.
 
 ### Quest Log
 - **Badges**: Zephyr, Hive, Plain.
