@@ -12,5 +12,5 @@
 
 ### Notes
 - **Map 3_14**: 1F Center (Trapped). (7, 15) is the transition.
-- **Map 3_13**: Active Burned Tower (Holes). The big hole is at (10, 9).
-- **Navigation**: On 3_13, (7, 15) -> Right -> Navigate to (10, 9).
+- **Map 3_13**: Active Burned Tower (Holes). Holes at (9, 15), (10, 15).
+- **Navigation**: Jump down hole at (9, 15) to reach B1F.
