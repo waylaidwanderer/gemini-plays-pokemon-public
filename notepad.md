@@ -43,9 +43,8 @@
 - **Correction**: Accidentally entered Fight menu. Backing out to switch to Topaz properly.
 - **Menu Path**: B (Exit Fight) -> Right (PKMN) -> A -> Down x4 (Topaz) -> A (Switch).
 - **Strategy**: 
-  - **Status**: Croconaw Fainted. Basil grew to Level 9. Garnet (71/88).
-  - **Action**: Reject Switch -> Keep Garnet in.
-  - **Sequence**: B x3 (Advance Text / Decline Switch).
-  - **Reasoning**: Garnet is the only viable battler. Basil and Spinarak are too low level.
-  - **Next**: Use Flame Wheel on whatever comes out (Gastly, Zubat, or Magnemite).
+  - **Status**: Rival sending out next Pokemon (likely Gastly, Zubat, or Magnemite).
+  - **Action**: Advance text -> Identify Pokemon -> Select Flame Wheel.
+  - **Sequence**: B x4 (Clear entry text).
+  - **Reasoning**: Need to see who comes out to confirm type match-up, though Flame Wheel is optimal for all three remaining (Magnemite is weak, others neutral).
   - **Endgame**: Sweep Rival's team.
