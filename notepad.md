@@ -42,9 +42,8 @@
 - **Hypothesis**: The path to the Rival is Entrance -> Left -> North -> East -> South -> Center.
 - **Correction**: Accidentally entered Fight menu. Backing out to switch to Topaz properly.
 - **Menu Path**: B (Exit Fight) -> Right (PKMN) -> A -> Down x4 (Topaz) -> A (Switch).
-- **Status**: Defeated Rival Silver. Team in critical condition.
-- **Immediate**: Heal at Pokémon Center.
-- **Plan**: Exit Burned Tower via Center Path (10, 11).
-- **Reasoning**: Side paths are blocked. The "hole" at (10, 10) was likely a visual misinterpretation or a safe floor I crossed earlier.
-- **Party**: Garnet (27/90). Rest fainted/low.
-- **Goal**: Survival.
+- **Status**: Wild Koffing appeared.
+- **Action**: Advance intro text.
+- **Plan**: Run from battle (save HP/PP). Garnet (Lv 32) >> Koffing (Lv ~14), so escape is guaranteed.
+- **Route**: After battle, check (10, 10) for "hole" status. If safe, exit South (10, 11).
+- **Party**: Garnet (27/90). Critical.
