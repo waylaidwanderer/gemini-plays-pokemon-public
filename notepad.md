@@ -3,8 +3,8 @@
 
 ### Current Task
 - **Location**: Route 37.
-- **Status**: Battling Twins Ann & Anne (Route 37).
-- **Immediate**: Win battle (Garnet Encored into Quick Attack), then North to Ecruteak.
+- **Status**: Defeated Twins Ann & Anne.
+- **Immediate**: Go North to Ecruteak City.
 
 ### Quest Log
 - **Badges**: Zephyr, Hive, Plain.
