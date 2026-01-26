@@ -2,8 +2,8 @@
 - Started: Friday, January 16, 2026 (Turn #12392)
 
 ### Current Task
-- **Location**: Route 35 (East side), heading North to Route 36.
-- **Immediate**: Navigate around obstacles to reach Route 36 entrance.
+- **Location**: Route 35 (East side).
+- **Immediate**: Backtrack South to Gap (Row 34) -> Cross to West side -> Route 36.
 
 ### Quest Log
 - **Badges**: Zephyr, Hive, Plain.
