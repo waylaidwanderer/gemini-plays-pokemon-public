@@ -2,11 +2,11 @@
 - Started: Friday, January 16, 2026
 
 ### Current Task
-- **Status**: Post-Battle. Standing at (8, 14).
-- **Target**: Hole at (7, 15).
-- **Action**: Clear text -> Move Left -> Down into the hole.
-- **Route**: (8, 14) -> Left to (7, 14) -> Down to (7, 15).
-- **Reasoning**: Eusine used this specific tile to exit.
+- **Status**: Searching for B1F Warp.
+- **Location**: (7, 15) -> Moving to (9, 15).
+- **Observation**: Standing on (7, 15) (Hole Graphic) did not warp me.
+- **Discovery**: Map 3_13 has `TYPE_ffbb` tiles at (9, 15) and (10, 15). These are likely the active warps.
+- **Action**: Move Right x2 to step on (9, 15).
 - **Party**: Garnet (77/90).
 - **Goal**: Fall to B1F.
 
