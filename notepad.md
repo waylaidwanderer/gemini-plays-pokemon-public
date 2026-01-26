@@ -2,12 +2,14 @@
 - Started: Friday, January 16, 2026
 
 ### Current Task
-- **Status**: Standing on Hole (7, 15) on Map 3_13.
-- **Observation**: Battle ended. Map ID changed to 3_13 (Post-Event 1F).
-- **Issue**: Did not fall immediately after moving onto the tile.
-- **Action**: Move Up (7, 14) -> Move Down (7, 15) to re-trigger the warp.
+- **Status**: Searching for B1F Hole.
+- **Location**: (7, 15).
+- **Observation**: Tile (7, 15) (`TYPE_8564`) did not warp me when walking on it.
+- **Plan**: 
+    1. Press A on (7, 15) (Ladder?).
+    2. Check (9, 15) and (10, 15) (`TYPE_ffbb`) which look suspicious.
 - **Party**: Garnet (77/90).
-- **Goal**: Fall to B1F -> Find Legendary Beasts.
+- **Goal**: Fall to B1F.
 
 ### Party Status
 - Garnet (32) [Critical], Basil (9), Amethyst (10) [Fainted], Spinarak (14), Topaz (15) [Fainted], Harrz (14) [Fainted].
