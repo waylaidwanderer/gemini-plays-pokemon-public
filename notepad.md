@@ -2,11 +2,12 @@
 - Started: Friday, January 16, 2026
 
 ### Current Task
-- **Status**: Standing at (10, 11). Sprite ahead at (10, 12).
-- **Correction**: Previous turn failed to open menu (Moved instead).
-- **Immediate**: Open Bag -> Heal Garnet -> Interact with Sprite.
-- **Plan**: `Start` -> `Down` x2 -> `A` (Open Pack).
-- **Goal**: Escape via B1F (Trigger event).
+- **Status**: Searching Bag for Super Potion.
+- **Action**: Scroll Down x5 to scan bag contents.
+- **Observation**: Bag order is not alphabetical. Need to visually locate healing items.
+- **Next**: Select Super Potion -> Heal Garnet -> Interact with Sprite (10, 12).
+- **Party**: Garnet (27/90). Critical.
+- **Goal**: Escape via B1F.
 
 ### Party Status
 - Garnet (32) [Critical], Basil (9), Amethyst (10) [Fainted], Spinarak (14), Topaz (15) [Fainted], Harrz (14) [Fainted].
