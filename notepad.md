@@ -3,7 +3,7 @@
 
 ### Current Task
 - **Location**: Ilex Forest (near Shrine).
-- **Immediate**: Backtrack South and find path to Route 34 (North-East).
+- **Immediate**: Backtrack South and navigate to Route 34 Gatehouse (North-West) at (1, 5).
 
 ### Quest Log
 - **Badges**: Zephyr, Hive, Plain.
