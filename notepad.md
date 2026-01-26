@@ -2,9 +2,9 @@
 - Started: Friday, January 16, 2026 (Turn #12392)
 
 ### Current Task
-- **Location**: Route 36 (East side).
-- **Status**: Obtained TM08 (Rock Smash).
-- **Immediate**: Head West to the intersection, then North to Route 37 and Ecruteak City.
+- **Location**: Route 37.
+- **Status**: Caught Stantler (Harry). Nicknaming in progress.
+- **Immediate**: Finish nicknaming, then go North to Ecruteak City.
 
 ### Quest Log
 - **Badges**: Zephyr, Hive, Plain.
