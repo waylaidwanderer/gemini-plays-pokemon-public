@@ -3,7 +3,7 @@
 
 ### Current Task
 - **Location**: Ilex Forest (near Shrine).
-- **Immediate**: Enter Goldenrod City, heal if necessary, then proceed North to Route 35 -> Route 36 to face Sudowoodo.
+- **Immediate**: Defeat trainers on Route 35, then proceed to Route 36 to deal with Sudowoodo.
 - **Sudowoodo Strategy**: Save game. Use Garnet's Smokescreen/Pearl's Charm. Chip health carefully. Try Amber's Sing. Catch.
 
 ### Quest Log
