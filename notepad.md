@@ -6,10 +6,9 @@
 - **Status**: Encountered Rival Silver.
 - **Immediate**: Defeat Rival Silver.
 - **Strategy**: 
-  - **Haunter**: Flame Wheel (Down->Right).
-  - **Magnemite**: Mud-Slap (4x Eff) or Flame Wheel.
-  - **Zubat**: Flame Wheel.
-  - **Croconaw**: DANGER. Use Smokescreen, then chip away. DO NOT switch to Basil.
+  - **Croconaw**: Garnet (Lv 31) stays in.
+  - **Math**: Flame Wheel (STAB+Resist = 45 BP) > Quick Attack (40 BP) > Mud-Slap (20 BP).
+  - **Plan**: Decline switch. Use Flame Wheel to brute force. Mud-Slap if I need to dodge hits. Basil is too weak.
 
 ### Quest Log
 - **Badges**: Zephyr, Hive, Plain.
