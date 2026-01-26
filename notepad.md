@@ -2,13 +2,12 @@
 - Started: Friday, January 16, 2026
 
 ### Current Task
-- **Status**: Approaching the Main Hole.
-- **Location**: (10, 12) -> Moving to (10, 9).
-- **Observation**: (10, 9) is a distinct `TYPE_1357` tile (Visual: Big Black Hole).
-- **Hypothesis**: This is the hole Eusine "dug".
-- **Action**: Move Up x3 to step into the abyss.
+- **Status**: Navigating to Hole at (10, 9).
+- **Correction**: Path North from (10, 12) is blocked by rocks at Row 11.
+- **Plan**: Loop around via the West side (Row 14 -> Col 3).
+- **Route**: Down to (10, 14) -> Left to (3, 14) -> Up to Row 9 -> Right to (10, 9).
 - **Party**: Garnet (77/90).
-- **Goal**: Fall to B1F -> Legendary Beasts.
+- **Goal**: Fall to B1F.
 
 ### Party Status
 - Garnet (32) [Critical], Basil (9), Amethyst (10) [Fainted], Spinarak (14), Topaz (15) [Fainted], Harrz (14) [Fainted].
