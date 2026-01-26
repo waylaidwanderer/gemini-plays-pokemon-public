@@ -43,9 +43,9 @@
 - **Correction**: Accidentally entered Fight menu. Backing out to switch to Topaz properly.
 - **Menu Path**: B (Exit Fight) -> Right (PKMN) -> A -> Down x4 (Topaz) -> A (Switch).
 - **Strategy**: 
-  - **Status**: Garnet (71/88) vs Zubat (Level 20).
-  - **Observation**: Last turn used Mud-Slap (Immune) instead of Flame Wheel. Cursor likely desynced.
-  - **Action**: Clear text -> Force Cursor Reset -> Use Flame Wheel.
-  - **Sequence**: B x6 (Clear "Doesn't affect" + Zubat's Turn) -> A (Fight) -> Up -> Left (Reset to TL) -> Down -> Right (Move to BR) -> A (Confirm).
-  - **Reasoning**: Universal navigation to Slot 4 (BR) from unknown position by forcing TL reset first.
+  - **Status**: Garnet is Confused. Turn in progress.
+  - **Action**: Advance text to see confusion result.
+  - **Sequence**: B x6.
+  - **Reasoning**: "Garnet is confused!" is the pre-attack check. Need to see if I hit myself or Zubat. No menu interaction yet.
+  - **Backup**: If Garnet hits herself and takes significant damage, next turn consider using Full Heal (I have 1).
   - **Endgame**: Sweep Rival's team.
