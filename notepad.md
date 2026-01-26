@@ -44,7 +44,7 @@
 - **Menu Path**: B (Exit Fight) -> Right (PKMN) -> A -> Down x4 (Topaz) -> A (Switch).
 - **Status**: Defeated Rival Silver. Team in critical condition.
 - **Immediate**: Heal at Pokémon Center.
-- **Plan**: Exit Burned Tower via gap at (6, 8) -> South -> Center.
-- **Reasoning**: Center path is blocked by a hole at (10, 10). Must retrace steps through the left side path (Col 3).
+- **Plan**: Exit Burned Tower via Center Path (10, 11).
+- **Reasoning**: Side paths are blocked. The "hole" at (10, 10) was likely a visual misinterpretation or a safe floor I crossed earlier.
 - **Party**: Garnet (27/90). Rest fainted/low.
 - **Goal**: Survival.
