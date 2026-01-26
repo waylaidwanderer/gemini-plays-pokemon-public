@@ -44,9 +44,9 @@
 - **Menu Path**: B (Exit Fight) -> Right (PKMN) -> A -> Down x4 (Topaz) -> A (Switch).
 - **Strategy**: 
   - **Matchup**: Garnet (25/88) vs Zubat.
-  - **Status**: Used Mud-Slap (Immune). 0 PP Left.
+  - **Status**: Mud-Slap (Slot 2) used due to dropped 'Down' input. 0 PP.
   - **Action**: Advance text (Zubat's Turn).
   - **Sequence**: B x8.
-  - **Reasoning**: Need to clear "Doesn't affect" text. Zubat will attack next. Then menu.
-  - **Note**: `Down` inputs seem to be dropping. Will double-press or verify cursor next turn.
+  - **Reasoning**: Clearing "Doesn't affect" text. Zubat will attack next.
+  - **Next**: Use `battle_select_move(slot=4)` which has delays to prevent drops.
   - **Endgame**: Sweep Rival's team.
