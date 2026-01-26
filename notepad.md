@@ -27,3 +27,4 @@
   2. Buy Poké Balls at the Dept Store (need to catch Sudowoodo).
   3. Head to Route 36 to clear the tree.
 - Warning: The clerks at Goldenrod Dept Store 2F seem to be missing or inactive (interacting yields shelf text). Checking the wandering NPC.
+- Contingency: If Goldenrod Dept Store clerks are missing/inactive on 2F, travel to Azalea Town Mart to buy Poké Balls before heading to Route 36.
