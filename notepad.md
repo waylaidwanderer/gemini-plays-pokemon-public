@@ -42,8 +42,8 @@
 - **Hypothesis**: The path to the Rival is Entrance -> Left -> North -> East -> South -> Center.
 - **Correction**: Accidentally entered Fight menu. Backing out to switch to Topaz properly.
 - **Menu Path**: B (Exit Fight) -> Right (PKMN) -> A -> Down x4 (Topaz) -> A (Switch).
-- **Status**: Running from Wild Koffing.
-- **Action**: Select RUN.
-- **Sequence**: Down -> Right -> A.
-- **Route**: After escape, move Right to (10, 8) -> Down to Exit.
+- **Status**: Escaped Koffing.
+- **Action**: Exit Burned Tower.
+- **Route**: (9, 8) -> Right (10, 8) -> South through (10, 11) bottleneck.
 - **Party**: Garnet (27/90). Critical.
+- **Goal**: Heal at Pokémon Center.
