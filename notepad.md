@@ -43,10 +43,9 @@
 - **Correction**: Accidentally entered Fight menu. Backing out to switch to Topaz properly.
 - **Menu Path**: B (Exit Fight) -> Right (PKMN) -> A -> Down x4 (Topaz) -> A (Switch).
 - **Strategy**: 
-  - **Status**: In Bag (Item Pocket). Searching for Super Potion.
-  - **Action**: Locate Super Potion.
-  - **Observation**: Bag order is unclear. X Accuracy is at top (#1). Item #11 failed (Fire Stone?).
-  - **Plan**: Scroll down to scan items.
-  - **Sequence**: B (Close Submenu) -> Down x5.
-  - **Next**: Identify Super Potion -> Use on Garnet.
+  - **Status**: Selected Super Potion. Entering Party Menu.
+  - **Action**: Use Super Potion.
+  - **Sequence**: A (Select) -> A (Use).
+  - **Observation**: Need to verify Party Menu cursor start position (Likely Amethyst/Slot 3).
+  - **Next**: Navigate to Garnet (Slot 1) -> Confirm Heal.
   - **Endgame**: Garnet sweeps.
