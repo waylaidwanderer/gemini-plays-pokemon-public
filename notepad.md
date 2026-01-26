@@ -42,8 +42,9 @@
 - **Hypothesis**: The path to the Rival is Entrance -> Left -> North -> East -> South -> Center.
 - **Correction**: Accidentally entered Fight menu. Backing out to switch to Topaz properly.
 - **Menu Path**: B (Exit Fight) -> Right (PKMN) -> A -> Down x4 (Topaz) -> A (Switch).
-- **Status**: Exiting Burned Tower via Side Path.
-- **Action**: Jump ledge and exit South.
-- **Route**: (13, 13) -> Down (Jump Ledge) -> South to Exit.
+- **Status**: Exiting Burned Tower.
+- **Issue**: Down inputs at (13, 13) failed to register (no movement/turning).
+- **Action**: Reposition to (14, 13) and try jumping ledge there.
+- **Route**: Right -> Down (Jump) -> South to Exit.
 - **Party**: Garnet (27/90). Critical.
 - **Goal**: Heal at Pokémon Center.
