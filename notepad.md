@@ -3,7 +3,7 @@
 
 ### Current Task
 - **Location**: Ilex Forest (near Shrine).
-- **Immediate**: Continue West from (9, 7) to (1, 7), then North to Gatehouse at (1, 5).
+- **Immediate**: Traverse Route 34 North to Goldenrod City.
 
 ### Quest Log
 - **Badges**: Zephyr, Hive, Plain.
