@@ -3,7 +3,7 @@
 
 ### Current Task
 - **Location**: Route 36 (In Battle with Sudowoodo).
-- **Sudowoodo Strategy**: Garnet is leading. Mud-Slap used once (Super Effective). Using Smokescreen to lower accuracy. Avoid killing it. Do NOT switch in low-level team members (Amber/Pearl) as they will be one-shot. Use Great Balls/Poké Balls when HP is red.
+- **Sudowoodo Strategy**: Garnet is leading. Sudowoodo HP ~40% (Yellow). Accuracy lowered. Crit Ember used. Next: Advance text, let Sudowoodo attack, then use Quick Attack (Move 1) to chip safely.
 
 ### Quest Log
 - **Badges**: Zephyr, Hive, Plain.
