@@ -2,12 +2,10 @@
 - Started: Friday, January 16, 2026
 
 ### Current Task
-- **Status**: Healed Garnet. Menu Closed.
-- **Location**: (10, 11).
-- **Target**: Sprite at (10, 12) (Eusine).
-- **Action**: Talk to Eusine.
-- **Expectation**: Trigger floor collapse event.
-- **Party**: Garnet (~77/90).
+- **Status**: Interacting with Eusine at (10, 12).
+- **Action**: Press A to talk.
+- **Expectation**: Dialogue -> Floor Collapse Event -> Fall to B1F.
+- **Party**: Garnet (77/90). Ready.
 - **Goal**: Escape via B1F.
 
 ### Party Status
