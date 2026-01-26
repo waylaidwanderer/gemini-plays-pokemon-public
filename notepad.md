@@ -43,9 +43,7 @@
 - **Correction**: Accidentally entered Fight menu. Backing out to switch to Topaz properly.
 - **Menu Path**: B (Exit Fight) -> Right (PKMN) -> A -> Down x4 (Topaz) -> A (Switch).
 - **Strategy**: 
-  - **Status**: Cursor is on Topaz (FNT).
-  - **Plan**: Switch to **Amethyst** (Slot 3).
-  - **Action**: B (Clear Text) -> Up x2 -> A -> A.
-  - **Next Turn**: Use **Super Potion** on Garnet (Slot 1).
-  - **Goal**: Sacrifice Amethyst to heal Garnet safely.
-  - **Endgame**: Garnet sweeps.
+  - **Status**: Amethyst is active. Garnet (54/88 HP) needs healing.
+  - **Action**: Open **PACK** (Down -> A). Find **Super Potion**.
+  - **Plan**: Use Super Potion on Garnet. Amethyst will likely faint (Sacrifice).
+  - **Endgame**: Garnet enters with full HP to sweep.
