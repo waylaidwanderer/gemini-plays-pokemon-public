@@ -28,3 +28,4 @@
   - Route 37 has two lanes separated by trees (x=10-11).
   - Left Lane (x<10): Main Path to Ecruteak (North).
   - Right Lane (x>11): Apricorn Grove (Dead End North).
+- **Observation**: Select button swapping failed in Party Menu. Will use 'A' -> 'SWITCH' method.
