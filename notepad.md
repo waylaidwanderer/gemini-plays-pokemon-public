@@ -3,8 +3,8 @@
 
 ### Current Task
 - **Location**: Route 37.
-- **Status**: Caught Stantler (Harry). Nicknaming in progress.
-- **Immediate**: Finish nicknaming, then go North to Ecruteak City.
+- **Status**: Caught Stantler (Harrz).
+- **Immediate**: Go Left to avoid ledges, then North to Ecruteak City.
 
 ### Quest Log
 - **Badges**: Zephyr, Hive, Plain.
