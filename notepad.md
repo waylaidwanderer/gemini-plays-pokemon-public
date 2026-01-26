@@ -23,4 +23,4 @@
 - Tool: `type_text` active. Layout verified (9 cols).
 - Status Update: Currently out of Poké Balls.
 - Glitch Encounter: The girl at (16, 7) triggered Arnie's phone battle script. She is now blocking the door and repeating Arnie's text.
-- Fix Plan: Talk to the girl in the Route 35 Gatehouse (currently at 6, 3) to see if she is Floria. If not, exit South to Goldenrod and check the Flower Shop.
+- Fix Plan: Exit South to Goldenrod City and check the Flower Shop (16, 7). If the door is blocked, use the back entrance via Route 35 Alley (requires navigating to the secret exit in this Gatehouse at 4, 0).
