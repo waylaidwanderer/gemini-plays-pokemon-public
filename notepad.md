@@ -2,8 +2,8 @@
 - Started: Friday, January 16, 2026 (Turn #12392)
 
 ### Current Task
-- **Location**: Route 35 (North), heading to Route 36.
-- **Immediate**: Go to Route 36 (Sudowoodo).
+- **Location**: Route 35 (West side), heading North.
+- **Immediate**: Reach Route 36 entrance (Sudowoodo).
 
 ### Quest Log
 - **Badges**: Zephyr, Hive, Plain.
