@@ -43,7 +43,7 @@
 - **Correction**: Accidentally entered Fight menu. Backing out to switch to Topaz properly.
 - **Menu Path**: B (Exit Fight) -> Right (PKMN) -> A -> Down x4 (Topaz) -> A (Switch).
 - **Strategy**: 
-  - **Status**: Topaz fainted. Cursor is on Topaz (Slot 5).
+  - **Status**: Topaz fainted. Cursor on Topaz (Slot 5).
   - **Plan**: Switch to **Amethyst** (Slot 3).
   - **Action**: Up x2 -> A -> A.
   - **Next Turn**: Use **Super Potion** on Garnet (Slot 1).
