@@ -43,10 +43,8 @@
 - **Correction**: Accidentally entered Fight menu. Backing out to switch to Topaz properly.
 - **Menu Path**: B (Exit Fight) -> Right (PKMN) -> A -> Down x4 (Topaz) -> A (Switch).
 - **Strategy**: 
-  - **Matchup**: Garnet (25/88) vs Magnemite (Level 18).
-  - **Status**: Landed Flame Wheel (Super Effective).
-  - **Action**: Advance text (Expect KO).
-  - **Sequence**: B x6.
-  - **Reasoning**: Clearing "Super Effective" text and subsequent faint message.
-  - **Next**: Final Pokemon (Gastly). Use Flame Wheel.
-  - **Endgame**: Sweep Rival's team.
+  - **Status**: Rival Silver Defeated!
+  - **Immediate**: Heal at Pokémon Center.
+  - **Plan**: Listen to Silver's dialogue -> Exit Burned Tower -> Heal -> Return to explore.
+  - **Party**: Garnet (Lv 32) needs healing. Topaz, Amethyst, Harrz fainted.
+  - **Goal**: Recovery.
