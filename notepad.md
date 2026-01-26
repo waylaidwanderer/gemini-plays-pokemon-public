@@ -43,9 +43,9 @@
 - **Correction**: Accidentally entered Fight menu. Backing out to switch to Topaz properly.
 - **Menu Path**: B (Exit Fight) -> Right (PKMN) -> A -> Down x4 (Topaz) -> A (Switch).
 - **Strategy**: 
-  - **Matchup**: Garnet (25/88) vs Magnemite.
-  - **Status**: Rival switching to Magnemite.
-  - **Action**: Reject Switch (Press B) -> Advance Text.
-  - **Sequence**: B x5.
-  - **Reasoning**: Need to decline the switch to keep Garnet in. Garnet outlevels Magnemite (31 vs ~18) and should OHKO with Flame Wheel.
+  - **Matchup**: Garnet (25/88) vs Magnemite (Level 18).
+  - **Status**: Main Battle Menu.
+  - **Action**: Use Flame Wheel (Slot 4).
+  - **Sequence**: Call `battle_select_move(slot=4)`.
+  - **Reasoning**: Magnemite is Steel type. Flame Wheel is Super Effective and should OHKO. Garnet is faster.
   - **Endgame**: Sweep Rival's team.
