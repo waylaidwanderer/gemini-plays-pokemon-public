@@ -43,10 +43,9 @@
 - **Correction**: Accidentally entered Fight menu. Backing out to switch to Topaz properly.
 - **Menu Path**: B (Exit Fight) -> Right (PKMN) -> A -> Down x4 (Topaz) -> A (Switch).
 - **Strategy**: 
-  - **Status**: Zubat Fainted. Garnet (25/88).
-  - **Observation**: Used Quick Attack again? Tool might be too fast for menu opening.
-  - **Action**: Advance text -> Decline Switch.
+  - **Matchup**: Garnet (25/88) vs Magnemite.
+  - **Status**: Rival switching to Magnemite.
+  - **Action**: Reject Switch (Press B) -> Advance Text.
   - **Sequence**: B x5.
-  - **Reasoning**: Clearing EXP text and switch prompt. Garnet stays in.
-  - **Next**: Check opponent (Gastly/Magnemite) -> Use Flame Wheel.
+  - **Reasoning**: Need to decline the switch to keep Garnet in. Garnet outlevels Magnemite (31 vs ~18) and should OHKO with Flame Wheel.
   - **Endgame**: Sweep Rival's team.
