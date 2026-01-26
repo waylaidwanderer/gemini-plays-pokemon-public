@@ -2,14 +2,12 @@
 - Started: Friday, January 16, 2026
 
 ### Current Task
-- **Status**: Trapped in Burned Tower 1F.
-- **Location**: (10, 15).
-- **Correction**: Tiles (9, 15) and (10, 15) are NOT holes (Wall/Floor).
-- **Goal**: Return to (7, 15) (`TYPE_8564`) which is the confirmed hole graphic.
-- **Hypothesis**: The map switch 3_14 <-> 3_13 indicates the hole mechanism. Must persist on tile.
-- **Route**: Up to (10, 14) -> Left to (7, 14) -> Down to (7, 15).
+- **Status**: Wild Rattata Encounter at (7, 14).
+- **Action**: Advance text -> Run.
+- **Reasoning**: Must clear battle to reach the hole at (7, 15).
+- **Route**: (7, 14) -> Down to (7, 15) [Hole].
 - **Party**: Garnet (77/90).
-- **Next**: Fall to B1F.
+- **Goal**: Fall to B1F -> Find Legendary Beasts.
 
 ### Party Status
 - Garnet (32) [Critical], Basil (9), Amethyst (10) [Fainted], Spinarak (14), Topaz (15) [Fainted], Harrz (14) [Fainted].
