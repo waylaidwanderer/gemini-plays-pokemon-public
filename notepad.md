@@ -42,9 +42,9 @@
 - **Hypothesis**: The path to the Rival is Entrance -> Left -> North -> East -> South -> Center.
 - **Correction**: Accidentally entered Fight menu. Backing out to switch to Topaz properly.
 - **Menu Path**: B (Exit Fight) -> Right (PKMN) -> A -> Down x4 (Topaz) -> A (Switch).
-- **Status**: Running from Wild Rattata at (8, 14).
-- **Action**: Select RUN.
-- **Sequence**: Down -> Right -> A.
+- **Status**: Trapped in Burned Tower 1F Center.
+- **Analysis**: West side blocked by walls. South exit blocked by one-way barrier. Tool confirmed no walk-out exits.
+- **Plan**: Fall down the hole at (10, 10) to reach B1F.
 - **Route**: (8, 14) -> Right to (10, 14) -> Up to (10, 10) (Hole).
 - **Party**: Garnet (27/90). Critical.
 - **Goal**: Escape via B1F.
