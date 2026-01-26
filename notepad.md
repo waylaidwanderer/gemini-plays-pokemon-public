@@ -43,9 +43,9 @@
 - **Correction**: Accidentally entered Fight menu. Backing out to switch to Topaz properly.
 - **Menu Path**: B (Exit Fight) -> Right (PKMN) -> A -> Down x4 (Topaz) -> A (Switch).
 - **Strategy**: 
-  - **Status**: Garnet (36/88) vs Zubat (Full HP).
-  - **Observation**: Last turn accidentally used Smokescreen (Slot 3).
-  - **Action**: Use Flame Wheel (Slot 4).
-  - **Sequence**: A (Fight) -> Up, Left (Reset to Slot 1) -> Down, Right (Navigate to Slot 4) -> A (Confirm).
-  - **Reasoning**: Universal navigation sequence to ensure Slot 4 selection regardless of previous cursor memory.
+  - **Status**: Garnet (36/88) vs Zubat.
+  - **Observation**: Smokescreen used (likely due to dropped 'Right' input last turn).
+  - **Action**: Advance text (Zubat's Turn).
+  - **Sequence**: B x8.
+  - **Reasoning**: Zubat needs to attack. I cannot select a move yet.
   - **Endgame**: Sweep Rival's team.
