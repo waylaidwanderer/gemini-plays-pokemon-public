@@ -3,7 +3,7 @@
 
 ### Current Task
 - **Location**: Ilex Forest (near Shrine).
-- **Immediate**: Navigate North to (23, 0), then West to (15, 0) to cross the tree line towards Route 34 Gatehouse.
+- **Immediate**: Run from Oddish, then navigate West to x=11, South to y=7, then West to Gatehouse.
 
 ### Quest Log
 - **Badges**: Zephyr, Hive, Plain.
