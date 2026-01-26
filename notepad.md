@@ -3,9 +3,9 @@
 
 ### Current Task
 - **Status**: Talking to Eusine.
-- **Dialogue**: "I dug a hole here, too..."
+- **Dialogue**: "For ten years I chased SUICUNE..."
 - **Action**: Advance text.
-- **Expectation**: Eusine moves or floor collapses, allowing access to B1F.
+- **Expectation**: Event trigger after dialogue concludes.
 - **Party**: Garnet (77/90).
 - **Goal**: Fall to B1F -> Find Legendary Beasts.
 
