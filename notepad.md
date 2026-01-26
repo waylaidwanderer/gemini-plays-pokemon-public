@@ -3,7 +3,7 @@
 
 ### Current Task
 - **Location**: Ilex Forest (near Shrine).
-- **Immediate**: Run from Oddish, then navigate West to x=11, South to y=7, then West to Gatehouse.
+- **Immediate**: Continue West from (9, 7) to (1, 7), then North to Gatehouse at (1, 5).
 
 ### Quest Log
 - **Badges**: Zephyr, Hive, Plain.
