@@ -2,8 +2,8 @@
 - Started: Friday, January 16, 2026 (Turn #12392)
 
 ### Current Task
-- **Location**: Route 35 (North), entering Goldenrod City.
-- **Immediate**: Catch Venonat -> Heal Party -> Go to Route 36 (Sudowoodo).
+- **Location**: Route 35 (North), heading to Route 36.
+- **Immediate**: Go to Route 36 (Sudowoodo).
 
 ### Quest Log
 - **Badges**: Zephyr, Hive, Plain.
