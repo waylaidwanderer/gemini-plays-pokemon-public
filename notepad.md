@@ -3,7 +3,7 @@
 
 ### Current Task
 - **Location**: Route 35 (East side).
-- **Immediate**: Backtrack South to Gap (Row 34) -> Cross to West side -> Route 36.
+- **Immediate**: Backtrack South to Gap (Row 34) -> Cross to West side -> Go North via x=0 path.
 
 ### Quest Log
 - **Badges**: Zephyr, Hive, Plain.
