@@ -2,11 +2,12 @@
 - Started: Friday, January 16, 2026
 
 ### Current Task
-- **Status**: Interacting with Eusine at (10, 12).
-- **Action**: Press A to talk.
-- **Expectation**: Dialogue -> Floor Collapse Event -> Fall to B1F.
-- **Party**: Garnet (77/90). Ready.
-- **Goal**: Escape via B1F.
+- **Status**: Talking to Eusine.
+- **Dialogue**: "I dug a hole here, too..."
+- **Action**: Advance text.
+- **Expectation**: Eusine moves or floor collapses, allowing access to B1F.
+- **Party**: Garnet (77/90).
+- **Goal**: Fall to B1F -> Find Legendary Beasts.
 
 ### Party Status
 - Garnet (32) [Critical], Basil (9), Amethyst (10) [Fainted], Spinarak (14), Topaz (15) [Fainted], Harrz (14) [Fainted].
