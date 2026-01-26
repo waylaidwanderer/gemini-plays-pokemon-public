@@ -29,3 +29,4 @@
   - Left Lane (x<10): Main Path to Ecruteak (North).
   - Right Lane (x>11): Apricorn Grove (Dead End North).
 - **Observation**: Select button swapping failed in Party Menu. Will use 'A' -> 'SWITCH' method.
+- **Observation**: `advance_dialogue` caused a loop with Eusine. Using 'B' presses to escape.
