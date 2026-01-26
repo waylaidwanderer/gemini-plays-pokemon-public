@@ -11,6 +11,6 @@
 - Garnet (32) [Critical], Basil (9), Amethyst (10) [Fainted], Spinarak (14), Topaz (15) [Fainted], Harrz (14) [Fainted].
 
 ### Notes
-- **Map 3_14**: 1F Center (Trapped). (7, 15) is the transition.
-- **Map 3_13**: Active Burned Tower (Holes). DO NOT step on (10, 9) (TYPE_1357) - it warps back to 3_14.
-- **Navigation**: Go back to (7, 15) on 3_14 to return to 3_13. Then explore 3_13 for the REAL way down.
+- **Map 3_13**: Burned Tower 1F (Outer). Connects to Ecruteak. Warp at (10, 9) leads to 3_14.
+- **Map 3_14**: Burned Tower 1F (Center/Rival Room). Exit at (7, 15) leads to 3_13.
+- **Goal**: Go to 3_14 and find the Hole to B1F (likely near the center, NOT the exit).
