@@ -43,9 +43,9 @@
 - **Correction**: Accidentally entered Fight menu. Backing out to switch to Topaz properly.
 - **Menu Path**: B (Exit Fight) -> Right (PKMN) -> A -> Down x4 (Topaz) -> A (Switch).
 - **Strategy**: 
-  - **Status**: Sent out Amethyst (Lv 10) by mistake. (Menu navigation error).
-  - **Plan**: Switch Amethyst OUT immediately.
-  - **Target**: **Topaz** (Slot 5).
-  - **Action**: Open Party Menu (Right -> A). Then select Topaz carefully next turn.
-  - **Goal**: Use Topaz to Sand-Attack Croconaw.
-  - **Note**: Croconaw is Rival's 2nd Pokemon. Zubat/Magnemite likely still in back. Preserving Garnet is priority.
+  - **Status**: Choosing Pokemon after Harrz fainted. Cursor is on Amethyst (Slot 3).
+  - **Correction**: Amethyst was NOT sent out yet. Still in menu.
+  - **Plan**: Move Cursor Down to **Topaz** (Slot 5).
+  - **Action**: Down x2 -> A -> A (Confirm).
+  - **Goal**: Topaz uses Sand-Attack.
+  - **Endgame**: Garnet cleans up.
