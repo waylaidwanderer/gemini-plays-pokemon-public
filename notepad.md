@@ -2,8 +2,8 @@
 - Started: Friday, January 16, 2026 (Turn #12392)
 
 ### Current Task
-- **Location**: Route 35 (East side).
-- **Immediate**: Head North to Route 36.
+- **Location**: Ilex Forest (near Shrine).
+- **Immediate**: Backtrack South and find path to Route 34 (North-East).
 
 ### Quest Log
 - **Badges**: Zephyr, Hive, Plain.
