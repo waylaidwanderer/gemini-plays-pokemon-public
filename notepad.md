@@ -2,11 +2,10 @@
 - Started: Friday, January 16, 2026
 
 ### Current Task
-- **Status**: Escaped Rattata. Standing at (7, 14).
-- **Observation**: Tile (7, 15) is the hole (`TYPE_8564`).
-- **Hypothesis**: Stepping on (7, 15) warps to Map `3_13` (B1F?).
-- **Action**: Clear text -> Step Down.
-- **Note**: Last time I warped to `3_13`, I immediately walked Up and warped back. This time, I will stay on `3_13` and explore.
+- **Status**: Standing on Hole (7, 15) on Map 3_13.
+- **Observation**: Battle ended. Map ID changed to 3_13 (Post-Event 1F).
+- **Issue**: Did not fall immediately after moving onto the tile.
+- **Action**: Move Up (7, 14) -> Move Down (7, 15) to re-trigger the warp.
 - **Party**: Garnet (77/90).
 - **Goal**: Fall to B1F -> Find Legendary Beasts.
 
