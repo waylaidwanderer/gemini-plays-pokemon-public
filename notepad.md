@@ -42,9 +42,8 @@
 - **Hypothesis**: The path to the Rival is Entrance -> Left -> North -> East -> South -> Center.
 - **Correction**: Accidentally entered Fight menu. Backing out to switch to Topaz properly.
 - **Menu Path**: B (Exit Fight) -> Right (PKMN) -> A -> Down x4 (Topaz) -> A (Switch).
-- **Status**: Trapped in Center Section.
-- **Analysis**: West side access blocked by Wall at x=5. Front exit blocked by one-way ledge `TYPE_fea1`.
-- **Plan**: Navigate to the hole near (10, 10) and fall to B1F.
-- **Route**: Up to Row 14 -> Right to x=10 -> Up to Hole.
+- **Status**: Encountered Wild Rattata at (8, 14).
+- **Action**: Advance text -> Run.
+- **Route**: (8, 14) -> Right to (10, 14) -> Up to (10, 10) (Hole).
 - **Party**: Garnet (27/90). Critical.
 - **Goal**: Escape via B1F.
