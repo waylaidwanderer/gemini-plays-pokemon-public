@@ -4,7 +4,7 @@
 ### Current Task
 - **Location**: Ecruteak City (Burned Tower Entrance).
 - **Status**: Encountered Rival Silver.
-- **Immediate**: Re-enter Burned Tower. Walk PAST Eusine/Morty to find Rival. Do not back out.
+- **Immediate**: Finish Eusine dialogue. Defeat Rival.
 
 ### Quest Log
 - **Badges**: Zephyr, Hive, Plain.
