@@ -33,3 +33,5 @@
 - **Hypothesis**: The tile (13, 12) might be a trigger for Eusine's dialogue, causing a loop. Attempting to move UP to break it.
 - **Observation**: Row 11 is a rock wall blocking the center (x=5 to x=12). Must use side paths (x=3 or x=13) to proceed North.
 - **Plan**: Taking the Left path (x=3) to explore the northern section.
+- **Observation**: Access to the top right requires traversing Row 1 (North Corridor) to bypass rock walls at x=6.
+- **Hypothesis**: The path to the Rival is Entrance -> Left -> North -> East -> South -> Center.
