@@ -4,7 +4,7 @@
 ### Current Task
 - **Location**: Route 37.
 - **Status**: Caught Stantler (Harrz).
-- **Immediate**: Go Left to avoid ledges, then North to Ecruteak City.
+- **Immediate**: Defeat Twins Ann & Anne, then North to Ecruteak City.
 
 ### Quest Log
 - **Badges**: Zephyr, Hive, Plain.
