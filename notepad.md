@@ -2,10 +2,11 @@
 - Started: Friday, January 16, 2026
 
 ### Current Task
-- **Status**: Wild Koffing Encounter at (8, 14).
-- **Action**: Advance text -> Run.
-- **Reasoning**: Garnet needs to save resources for B1F.
-- **Plan**: Run, then move Right to (10, 14) -> Up to (10, 10) to find the hole Eusine mentioned.
+- **Status**: Post-Battle. Standing at (8, 14).
+- **Target**: Hole at (7, 15).
+- **Action**: Clear text -> Move Left -> Down into the hole.
+- **Route**: (8, 14) -> Left to (7, 14) -> Down to (7, 15).
+- **Reasoning**: Eusine used this specific tile to exit.
 - **Party**: Garnet (77/90).
 - **Goal**: Fall to B1F.
 
