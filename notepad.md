@@ -43,8 +43,9 @@
 - **Correction**: Accidentally entered Fight menu. Backing out to switch to Topaz properly.
 - **Menu Path**: B (Exit Fight) -> Right (PKMN) -> A -> Down x4 (Topaz) -> A (Switch).
 - **Strategy**: 
-  - **Status**: Turn playing out. "ZUBAT's ACCURACY fell!" on screen.
-  - **Action**: Advance text (Zubat's Turn).
-  - **Sequence**: B x6.
-  - **Reasoning**: Zubat still needs to move. I am NOT in the menu. My previous inputs failed because I was inputting during the turn animation.
+  - **Status**: Garnet (36/88) vs Zubat (Full HP).
+  - **Observation**: Last turn accidentally used Smokescreen (Slot 3).
+  - **Action**: Use Flame Wheel (Slot 4).
+  - **Sequence**: A (Fight) -> Up, Left (Reset to Slot 1) -> Down, Right (Navigate to Slot 4) -> A (Confirm).
+  - **Reasoning**: Universal navigation sequence to ensure Slot 4 selection regardless of previous cursor memory.
   - **Endgame**: Sweep Rival's team.
