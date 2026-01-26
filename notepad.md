@@ -43,8 +43,9 @@
 - **Correction**: Accidentally entered Fight menu. Backing out to switch to Topaz properly.
 - **Menu Path**: B (Exit Fight) -> Right (PKMN) -> A -> Down x4 (Topaz) -> A (Switch).
 - **Status**: Exiting Burned Tower.
-- **Issue**: Down inputs at (13, 13) failed to register (no movement/turning).
-- **Action**: Reposition to (14, 13) and try jumping ledge there.
-- **Route**: Right -> Down (Jump) -> South to Exit.
+- **Location**: (14, 13).
+- **Action**: Jump ledge (Down) -> Walk South to exit.
+- **Route**: (14, 13) -> Jump to (14, 15) -> South to Exit.
+- **Reasoning**: Row 16 is floor at x=14, bypassing the blockage I faced at x=10.
 - **Party**: Garnet (27/90). Critical.
 - **Goal**: Heal at Pokémon Center.
