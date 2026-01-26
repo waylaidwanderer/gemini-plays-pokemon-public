@@ -43,7 +43,8 @@
 - **Correction**: Accidentally entered Fight menu. Backing out to switch to Topaz properly.
 - **Menu Path**: B (Exit Fight) -> Right (PKMN) -> A -> Down x4 (Topaz) -> A (Switch).
 - **Strategy**: 
-  - **Status**: Amethyst is active. Garnet (54/88 HP) needs healing.
-  - **Action**: Open **PACK** (Down -> A). Find **Super Potion**.
-  - **Plan**: Use Super Potion on Garnet. Amethyst will likely faint (Sacrifice).
-  - **Endgame**: Garnet enters with full HP to sweep.
+  - **Status**: Found Super Potion. Amethyst active.
+  - **Action**: Use **Super Potion** on **Garnet** (Slot 1).
+  - **Plan**: Select Item -> Use -> Select Garnet.
+  - **Risk**: Ensure cursor is on Garnet before confirming.
+  - **Endgame**: Garnet sweeps.
