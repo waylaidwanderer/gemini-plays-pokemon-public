@@ -43,9 +43,8 @@
 - **Correction**: Accidentally entered Fight menu. Backing out to switch to Topaz properly.
 - **Menu Path**: B (Exit Fight) -> Right (PKMN) -> A -> Down x4 (Topaz) -> A (Switch).
 - **Strategy**: 
-  - **Status**: Choosing Pokemon after Harrz fainted. Cursor is on Amethyst (Slot 3).
-  - **Correction**: Amethyst was NOT sent out yet. Still in menu.
-  - **Plan**: Move Cursor Down to **Topaz** (Slot 5).
-  - **Action**: Down x2 -> A -> A (Confirm).
-  - **Goal**: Topaz uses Sand-Attack.
-  - **Endgame**: Garnet cleans up.
+  - **Status**: Topaz (26/46 HP) vs Croconaw.
+  - **Action**: Use **Sand-Attack** (Move 2, Top-Right).
+  - **Goal**: Lower Croconaw's accuracy further.
+  - **Contingency**: If Topaz faints, send Garnet to finish with Flame Wheel.
+  - **Note**: Croconaw -1 Acc from earlier Smokescreen. Sand-Attack will make it -2.
