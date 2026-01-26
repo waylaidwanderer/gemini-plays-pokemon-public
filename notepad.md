@@ -2,12 +2,12 @@
 - Started: Friday, January 16, 2026
 
 ### Current Task
-- **Status**: Eusine departed. Path unlocked.
-- **Observation**: Eusine walked to (7, 15). The tile changed type to `TYPE_8564` (Ladder/Hole?).
-- **Action**: Clear text -> Follow Eusine's path.
-- **Route**: South to (10, 13) -> Left to (7, 13) -> South to (7, 15).
+- **Status**: Following Eusine's path.
+- **Location**: (9, 13) -> Moving to (7, 15).
+- **Observation**: Tile (7, 15) is the hole Eusine created/revealed.
+- **Action**: Move Left x2 -> Down x2 -> Fall to B1F.
 - **Party**: Garnet (77/90).
-- **Goal**: Fall to B1F -> Find Legendary Beasts.
+- **Goal**: Find Legendary Beasts in B1F.
 
 ### Party Status
 - Garnet (32) [Critical], Basil (9), Amethyst (10) [Fainted], Spinarak (14), Topaz (15) [Fainted], Harrz (14) [Fainted].
