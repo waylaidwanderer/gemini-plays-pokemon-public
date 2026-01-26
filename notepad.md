@@ -12,7 +12,7 @@
 - **Sudowoodo**: Inspected at Turn 12797.
 
 ### Strategic Notes
-- **Navigation**: In Azalea Town. Entering Mart to buy Poké Balls.
+- **Navigation**: In Azalea Mart. Buying Poké Balls.
 - **SquirtBottle**: Need to get this to move Sudowoodo.
 - **Floria**: Likely the girl outside or inside the shop.
 
