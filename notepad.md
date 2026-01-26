@@ -40,3 +40,5 @@
 - **Plan**: Taking the Left path (x=3) to explore the northern section.
 - **Observation**: Access to the top right requires traversing Row 1 (North Corridor) to bypass rock walls at x=6.
 - **Hypothesis**: The path to the Rival is Entrance -> Left -> North -> East -> South -> Center.
+- **Correction**: Accidentally entered Fight menu. Backing out to switch to Topaz properly.
+- **Menu Path**: B (Exit Fight) -> Right (PKMN) -> A -> Down x4 (Topaz) -> A (Switch).
