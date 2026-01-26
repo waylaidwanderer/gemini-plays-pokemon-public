@@ -23,4 +23,4 @@
 - Met Sticker fanatics at National Park South Entrance (10,41) & (11,41). They have printed stickers.
 - Girl at (17, 39) warned about grass. Quick Claw lady not found on bench at (22, 40). Bench was empty.
 - Route 37: Left side (x<10) is a dead end with a Trainer Tips sign. Path to Ecruteak is on the Right side (x>11).
-- Apricorn Trees on Route 37: (13, 5), (15, 7), (16, 5). Harvest daily.
+- Apricorn Trees on Route 37: (13, 5) Red, (15, 5) Blue, (16, 5) Black. Harvest daily.
