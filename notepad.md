@@ -2,9 +2,9 @@
 - Started: Friday, January 16, 2026 (Turn #12392)
 
 ### Current Task
-- **Location**: Ecruteak City (Pokémon Center).
-- **Status**: Party Organized.
-- **Immediate**: Switch Basil to lead and explore Ecruteak.
+- **Location**: Ecruteak City (Burned Tower Entrance).
+- **Status**: Encountered Rival Silver.
+- **Immediate**: Defeat Rival Silver (Switch Basil out immediately!).
 
 ### Quest Log
 - **Badges**: Zephyr, Hive, Plain.
