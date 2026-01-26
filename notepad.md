@@ -12,5 +12,5 @@
 
 ### Notes
 - **Map 3_14**: 1F Center (Trapped). (7, 15) is the transition.
-- **Map 3_13**: Active Burned Tower (Holes). Holes at (9, 15), (10, 15).
-- **Navigation**: Jump down hole at (9, 15) to reach B1F.
+- **Map 3_13**: Active Burned Tower (Holes). DO NOT step on (10, 9) (TYPE_1357) - it warps back to 3_14.
+- **Navigation**: Go back to (7, 15) on 3_14 to return to 3_13. Then explore 3_13 for the REAL way down.
