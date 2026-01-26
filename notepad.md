@@ -42,8 +42,8 @@
 - **Hypothesis**: The path to the Rival is Entrance -> Left -> North -> East -> South -> Center.
 - **Correction**: Accidentally entered Fight menu. Backing out to switch to Topaz properly.
 - **Menu Path**: B (Exit Fight) -> Right (PKMN) -> A -> Down x4 (Topaz) -> A (Switch).
-- **Status**: Escaped Koffing.
-- **Action**: Exit Burned Tower.
-- **Route**: (9, 8) -> Right (10, 8) -> South through (10, 11) bottleneck.
+- **Status**: Exiting Burned Tower.
+- **Action**: Move South to exit.
+- **Route**: (10, 11) -> South to (10, 15) -> Exit to Ecruteak City.
 - **Party**: Garnet (27/90). Critical.
 - **Goal**: Heal at Pokémon Center.
