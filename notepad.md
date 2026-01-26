@@ -4,7 +4,7 @@
 ### Current Task
 - **Location**: Ecruteak City (Burned Tower Entrance).
 - **Status**: Encountered Rival Silver.
-- **Immediate**: Switch Garnet to lead (Safety first!).
+- **Immediate**: Enter Burned Tower and defeat Rival Silver. Garnet is leading.
 
 ### Quest Log
 - **Badges**: Zephyr, Hive, Plain.
