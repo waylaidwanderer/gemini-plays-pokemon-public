@@ -2,12 +2,12 @@
 - Started: Friday, January 16, 2026
 
 ### Current Task
-- **Status**: Searching for B1F Hole.
+- **Status**: Searching for Active Hole.
 - **Location**: (7, 15).
-- **Observation**: Tile (7, 15) (`TYPE_8564`) did not warp me when walking on it.
-- **Plan**: 
-    1. Press A on (7, 15) (Ladder?).
-    2. Check (9, 15) and (10, 15) (`TYPE_ffbb`) which look suspicious.
+- **Observation**: (7, 15) has a hole graphic but isn't warping me.
+- **Hypothesis**: Eusine said "I dug a hole here, *too*." Implies (10, 10) might now be open.
+- **Plan**: Check (10, 10) since triggering the event.
+- **Route**: Up to (7, 14) -> Right to (10, 14) -> Up to (10, 10).
 - **Party**: Garnet (77/90).
 - **Goal**: Fall to B1F.
 
