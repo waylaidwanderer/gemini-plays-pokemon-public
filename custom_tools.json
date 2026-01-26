@@ -421,12 +421,17 @@
         "slot"
       ]
     },
-    "python_script": "import json\n\nslot = int(input_data['slot'])\nbuttons = []\n\n# Enter Fight Menu\nbuttons.append('A')\nbuttons.append('sleep 300') # Wait for menu to open\n\n# Reset cursor to Top-Left (Slot 1)\n# Using multiple inputs to ensure reset even if cursor memory is weird or inputs drop\nbuttons.extend(['Up', 'Left', 'Up', 'Left']) \n\n# Navigate to target\nif slot == 1:\n    pass\nelif slot == 2:\n    buttons.append('Right')\nelif slot == 3:\n    buttons.append('Down')\nelif slot == 4:\n    buttons.append('Down')\n    buttons.append('Right')\n\n# Confirm\nbuttons.append('A')\n\nprint(json.dumps(buttons))",
+    "python_script": "import json\n\nslot = int(input_data['slot'])\nbuttons = []\n\n# Enter Fight Menu\nbuttons.append('A')\nbuttons.append('sleep 300') # Wait for menu to open\n\n# Reset cursor to Top-Left (Slot 1)\n# Using multiple inputs with delays to ensure reset\nbuttons.extend(['Up', 'sleep 50', 'Left', 'sleep 50', 'Up', 'sleep 50', 'Left', 'sleep 50']) \n\n# Navigate to target\nif slot == 1:\n    pass\nelif slot == 2:\n    buttons.extend(['Right', 'sleep 50'])\nelif slot == 3:\n    buttons.extend(['Down', 'sleep 50'])\nelif slot == 4:\n    buttons.extend(['Down', 'sleep 50', 'Right', 'sleep 50'])\n\n# Confirm\nbuttons.append('A')\n\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2026-01-26T21:54:10.782Z",
         "action_counter": 13891
+      },
+      {
+        "commit_message": "Added 50ms delays between navigation buttons to prevent input drops in menus.",
+        "timestamp": "2026-01-26T21:55:50.818Z",
+        "action_counter": 13893
       }
     ]
   }

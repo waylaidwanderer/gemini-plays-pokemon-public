@@ -43,8 +43,8 @@
 - **Correction**: Accidentally entered Fight menu. Backing out to switch to Topaz properly.
 - **Menu Path**: B (Exit Fight) -> Right (PKMN) -> A -> Down x4 (Topaz) -> A (Switch).
 - **Strategy**: 
-  - **Status**: Garnet (36/88) vs Zubat. Main Battle Menu.
-  - **Action**: Use Flame Wheel (Slot 4).
-  - **Sequence**: Call `battle_select_move(slot=4)`.
-  - **Reasoning**: Using the new tool to ensure accurate selection of Flame Wheel and avoid accidental Smokescreen/Mud-Slap usage.
+  - **Matchup**: Garnet vs Zubat.
+  - **Goal**: Use Flame Wheel (Slot 4).
+  - **Issue**: Input drops caused Mud-Slap selection.
+  - **Fix**: Updated tool with delays. Clearing text this turn.
   - **Endgame**: Sweep Rival's team.
