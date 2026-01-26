@@ -3,9 +3,7 @@
 
 ### Current Task
 - **Mechanic**: Stepping on (7, 15) transitions between Map 3_14 (Upper) and Map 3_13 (Lower/Hole State).
-- **Instruction**: When on Map 3_13, DO NOT move Up (returns to 3_14). Move Right/Down to explore.
 - **Goal**: Find the B1F drop on Map 3_13.
-- **Immediate Action**: Transition to 3_13 and move Right.
 
 ### Notes
 - **Map 3_13**: Burned Tower 1F (Outer). Warp at (10, 9) leads to 3_14.
