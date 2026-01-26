@@ -5,7 +5,11 @@
 - **Location**: Ecruteak City (Burned Tower Entrance).
 - **Status**: Encountered Rival Silver.
 - **Immediate**: Defeat Rival Silver.
-- **Strategy**: Garnet (Lv 31) must sweep. Use Flame Wheel (Down->Right) on Haunter for max damage. Mud-Slap is too weak (40 vs 90 power).
+- **Strategy**: 
+  - **Haunter**: Flame Wheel (Down->Right).
+  - **Magnemite**: Mud-Slap (4x Eff) or Flame Wheel.
+  - **Zubat**: Flame Wheel.
+  - **Croconaw**: DANGER. Use Smokescreen, then chip away. DO NOT switch to Basil.
 
 ### Quest Log
 - **Badges**: Zephyr, Hive, Plain.
