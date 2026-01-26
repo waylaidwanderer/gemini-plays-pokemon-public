@@ -2,10 +2,10 @@
 - Started: Friday, January 16, 2026
 
 ### Current Task
-- **Status**: Talking to Eusine.
-- **Dialogue**: "I'm going to track SUICUNE."
-- **Action**: Advance text.
-- **Expectation**: Eusine finishes talking and the event triggers.
+- **Status**: Eusine departed. Path unlocked.
+- **Observation**: Eusine walked to (7, 15). The tile changed type to `TYPE_8564` (Ladder/Hole?).
+- **Action**: Clear text -> Follow Eusine's path.
+- **Route**: South to (10, 13) -> Left to (7, 13) -> South to (7, 15).
 - **Party**: Garnet (77/90).
 - **Goal**: Fall to B1F -> Find Legendary Beasts.
 
