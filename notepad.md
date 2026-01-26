@@ -43,8 +43,8 @@
 - **Correction**: Accidentally entered Fight menu. Backing out to switch to Topaz properly.
 - **Menu Path**: B (Exit Fight) -> Right (PKMN) -> A -> Down x4 (Topaz) -> A (Switch).
 - **Strategy**: 
-  - **Status**: Garnet hit by Water Gun (Super Effective). HP 71/88.
+  - **Status**: Garnet vs Croconaw. "ACCURACY fell!" on screen.
   - **Action**: Clear text -> Select Flame Wheel.
-  - **Sequence**: B x3 (Clear) -> A (Fight) -> Right (Select Flame Wheel) -> A (Confirm).
-  - **Reasoning**: Flame Wheel (Effective Power ~45) > Quick Attack (40). Smokescreen was used last, so cursor is at Slot 3. Right moves to Slot 4.
+  - **Sequence**: B x5 (Clear Text) -> A (Fight) -> Down -> Right -> A (Flame Wheel).
+  - **Reasoning**: Text clearing requires multiple presses. "Down, Right" is robust for navigating to Flame Wheel (BR) from either TL (Quick Attack) or BL (Smokescreen).
   - **Endgame**: Sweep Rival's team.
