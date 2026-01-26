@@ -3,13 +3,13 @@
 
 ### Current Task
 - **Status**: Trapped in Burned Tower 1F.
-- **Location**: (7, 15).
-- **Observation**: Standing on `TYPE_8564` (Hole graphic?) but not falling.
-- **Discovery**: Tiles (9, 15) and (10, 15) are `TYPE_ffbb` (Likely Warp/Hole).
-- **Plan**: Navigate to (10, 15) to try falling there.
-- **Route**: Up to (7, 14) -> Right to (10, 14) -> Down to (10, 15).
+- **Location**: (10, 15).
+- **Correction**: Tiles (9, 15) and (10, 15) are NOT holes (Wall/Floor).
+- **Goal**: Return to (7, 15) (`TYPE_8564`) which is the confirmed hole graphic.
+- **Hypothesis**: The map switch 3_14 <-> 3_13 indicates the hole mechanism. Must persist on tile.
+- **Route**: Up to (10, 14) -> Left to (7, 14) -> Down to (7, 15).
 - **Party**: Garnet (77/90).
-- **Goal**: Fall to B1F -> Find Legendary Beasts.
+- **Next**: Fall to B1F.
 
 ### Party Status
 - Garnet (32) [Critical], Basil (9), Amethyst (10) [Fainted], Spinarak (14), Topaz (15) [Fainted], Harrz (14) [Fainted].
