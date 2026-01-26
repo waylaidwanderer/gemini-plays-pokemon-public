@@ -6,10 +6,10 @@
 - **Status**: Encountered Rival Silver.
 - **Immediate**: Defeat Rival Silver.
 - **Strategy**: 
-  - **Status**: Garnet is CURSED (-22 HP/turn). 
-  - **Plan**: Switch to **Harrz (Stantler)** immediately to clear Curse and trigger Intimidate.
-  - **Follow-up**: If Harrz survives, Leer. If he faints, safe switch back to Garnet.
-  - **Croconaw**: Likely missed last turn (0 dmg taken besides Curse). Smokescreen is working.
+  - **Status**: Garnet is CURSED. Must switch.
+  - **Plan**: Switch to **Harrz (Stantler)**. (Correction: Stantler does not have Intimidate in Gen 2, but switching is still required to clear Curse).
+  - **Tactics**: Croconaw has -1 Accuracy. Harrz might survive a hit. If Harrz faints, safe switch to Garnet.
+  - **Math**: Garnet is win condition. Sacrifice Harrz if necessary.
 
 ### Quest Log
 - **Badges**: Zephyr, Hive, Plain.
