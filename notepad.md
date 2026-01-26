@@ -2,8 +2,8 @@
 - Started: Friday, January 16, 2026 (Turn #12392)
 
 ### Current Task
-- **Travel to Azalea Town**: Buy Poké Balls at the Mart (Goldenrod clerks are bugged).
-- **Next**: Return to Route 36 to catch Sudowoodo.
+- **Backtrack**: Ilex Forest -> Route 34 -> Goldenrod -> Route 35 -> Route 36.
+- **Objective**: Catch Sudowoodo.
 
 ### Quest Log
 - **Badges**: Zephyr, Hive, Plain.
@@ -12,7 +12,7 @@
 - **Sudowoodo**: Inspected at Turn 12797.
 
 ### Strategic Notes
-- **Navigation**: In Azalea Mart. Buying Poké Balls.
+- **Navigation**: In Ilex Forest, heading North to Route 34.
 - **SquirtBottle**: Need to get this to move Sudowoodo.
 - **Floria**: Likely the girl outside or inside the shop.
 
@@ -24,10 +24,4 @@
 - **Navigation Constraint**: Route 35 East is separated from Goldenrod Gatehouse by a fence.
 - Tool: `type_text` active. Layout verified (9 cols).
 - Status Update: Obtained SquirtBottle! Obtained TM12 (Sweet Scent).
-- Immediate Plan:
-  1. Travel to Azalea Town to buy Poké Balls (Goldenrod Dept Store 2F clerks are bugged/missing).
-  2. Return to Route 36 to catch Sudowoodo.
-
-- Warning: The clerks at Goldenrod Dept Store 2F seem to be missing or inactive (interacting yields shelf text). Checking the wandering NPC.
-- Contingency: If Goldenrod Dept Store clerks are missing/inactive on 2F, travel to Azalea Town Mart to buy Poké Balls before heading to Route 36.
-- Turn 13126: Purchased 10 Poké Balls. Secured Premier Ball. Heading to Route 36.
+- Inventory: 10 Poké Balls + 1 Premier Ball purchased.
