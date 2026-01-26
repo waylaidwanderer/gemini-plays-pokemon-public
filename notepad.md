@@ -43,9 +43,8 @@
 - **Correction**: Accidentally entered Fight menu. Backing out to switch to Topaz properly.
 - **Menu Path**: B (Exit Fight) -> Right (PKMN) -> A -> Down x4 (Topaz) -> A (Switch).
 - **Strategy**: 
-  - **Status**: Garnet (41/88) vs Zubat (Full HP). Menu Open.
-  - **Observation**: Last turn used Mud-Slap (Slot 2). Cursor is likely there.
-  - **Action**: Use Flame Wheel (Slot 4).
-  - **Sequence**: A (Fight) -> Left (Reset to Col 1) -> Down (Row 2) -> Right (Col 2) -> A (Confirm).
-  - **Reasoning**: "Left, Down, Right" is a robust path to Bottom-Right (Flame Wheel) from any starting position (QA, Mud-Slap, Smokescreen, or FW itself).
+  - **Status**: Turn playing out. "ZUBAT's ACCURACY fell!" on screen.
+  - **Action**: Advance text (Zubat's Turn).
+  - **Sequence**: B x6.
+  - **Reasoning**: Zubat still needs to move. I am NOT in the menu. My previous inputs failed because I was inputting during the turn animation.
   - **Endgame**: Sweep Rival's team.
