@@ -2,9 +2,8 @@
 - Started: Friday, January 16, 2026 (Turn #12392)
 
 ### Current Task
-- **Location**: Route 36 (West side).
-- **Immediate**: Proceed East to Sudowoodo (35, 9). Be cautious of Schoolboy Alan (likely defeated).
-- **Sudowoodo Strategy**: Save game. Use Garnet's Smokescreen/Pearl's Charm. Chip health carefully. Try Amber's Sing. Catch.
+- **Location**: Route 36 (In Battle with Sudowoodo).
+- **Sudowoodo Strategy**: Garnet is leading. Mud-Slap used once (Super Effective). Using Smokescreen to lower accuracy. Avoid killing it. Do NOT switch in low-level team members (Amber/Pearl) as they will be one-shot. Use Great Balls/Poké Balls when HP is red.
 
 ### Quest Log
 - **Badges**: Zephyr, Hive, Plain.
