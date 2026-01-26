@@ -47,4 +47,5 @@
   - **Action**: Open Pack -> Reset Cursor -> Select Super Potion -> Heal Garnet.
   - **Sequence**: A (Pack) -> Up x15 (Reset) -> Down x10 (Super Potion) -> A -> A (Use) -> Up x2 (Garnet) -> A.
   - **Note**: This sequence is robust against cursor memory.
+  - **Correction**: Previous attempt to navigate Party Menu failed (wrapped to Cancel). Re-entering Party Menu now.
   - **Endgame**: Garnet sweeps.
