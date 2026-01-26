@@ -2,12 +2,10 @@
 - Started: Friday, January 16, 2026
 
 ### Current Task
-- **Status**: Searching for Active Hole.
-- **Location**: (7, 15).
-- **Observation**: (7, 15) has a hole graphic but isn't warping me.
-- **Hypothesis**: Eusine said "I dug a hole here, *too*." Implies (10, 10) might now be open.
-- **Plan**: Check (10, 10) since triggering the event.
-- **Route**: Up to (7, 14) -> Right to (10, 14) -> Up to (10, 10).
+- **Status**: Wild Koffing Encounter at (8, 14).
+- **Action**: Advance text -> Run.
+- **Reasoning**: Garnet needs to save resources for B1F.
+- **Plan**: Run, then move Right to (10, 14) -> Up to (10, 10) to find the hole Eusine mentioned.
 - **Party**: Garnet (77/90).
 - **Goal**: Fall to B1F.
 
