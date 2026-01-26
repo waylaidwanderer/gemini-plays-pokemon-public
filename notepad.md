@@ -43,9 +43,9 @@
 - **Correction**: Accidentally entered Fight menu. Backing out to switch to Topaz properly.
 - **Menu Path**: B (Exit Fight) -> Right (PKMN) -> A -> Down x4 (Topaz) -> A (Switch).
 - **Strategy**: 
-  - **Status**: Main Battle Menu. Garnet needs healing.
-  - **Action**: Open Pack -> Reset Cursor -> Select Super Potion -> Heal Garnet.
-  - **Sequence**: A (Pack) -> Up x15 (Reset) -> Down x10 (Super Potion) -> A -> A (Use) -> Up x2 (Garnet) -> A.
-  - **Note**: This sequence is robust against cursor memory.
-  - **Correction**: Previous attempt to navigate Party Menu failed (wrapped to Cancel). Re-entering Party Menu now.
+  - **Status**: In Item Menu (Target Selection). Amethyst is decoy.
+  - **Action**: Heal Garnet.
+  - **Observation**: Cursor defaulted to Harrz (Slot 6).
+  - **Sequence**: Up x6 (to Garnet) -> A (Use).
+  - **Next**: Clear text -> Watch Amethyst take damage -> Switch to Garnet if Amethyst faints.
   - **Endgame**: Garnet sweeps.
