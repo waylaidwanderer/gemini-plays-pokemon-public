@@ -21,7 +21,7 @@
 - **TYPE_a339/a336**: Ledges (One-way South). Exclude from Northbound navigation.
 - Met Sticker fanatics at National Park South Entrance (10,41) & (11,41). They have printed stickers.
 - Girl at (17, 39) warned about grass. Quick Claw lady not found on bench at (22, 40). Bench was empty.
-- Route 37: Left side (x<10) is a dead end with a Trainer Tips sign. Path to Ecruteak is on the Right side (x>11).
+
 - Apricorn Trees on Route 37: (13, 5) 🔴 Red, (16, 5) 🔵 Blue. Black was harvested earlier.
 - Navigation:
   - Route 37 has two lanes separated by trees (x=10-11).
