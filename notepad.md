@@ -44,9 +44,8 @@
 - **Menu Path**: B (Exit Fight) -> Right (PKMN) -> A -> Down x4 (Topaz) -> A (Switch).
 - **Strategy**: 
   - **Matchup**: Garnet (25/88) vs Zubat.
-  - **Status**: Mud-Slap (Slot 2) used due to dropped 'Down' input. 0 PP.
-  - **Action**: Advance text (Zubat's Turn).
-  - **Sequence**: B x8.
-  - **Reasoning**: Clearing "Doesn't affect" text. Zubat will attack next.
-  - **Next**: Use `battle_select_move(slot=4)` which has delays to prevent drops.
+  - **Status**: Menu Open. Ready to attack.
+  - **Action**: Use Flame Wheel (Slot 4).
+  - **Sequence**: Call `battle_select_move(slot=4)`.
+  - **Reasoning**: Using the robust tool to ensure Flame Wheel selection.
   - **Endgame**: Sweep Rival's team.
