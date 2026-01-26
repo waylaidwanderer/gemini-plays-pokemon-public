@@ -6,10 +6,11 @@
 - **Status**: Encountered Rival Silver.
 - **Immediate**: Defeat Rival Silver.
 - **Strategy**: 
-  - **Status**: Garnet is CURSED and still in battle (Switch failed). 
-  - **Plan**: Switch to **Topaz (Pidgeotto)**. She is full HP (46/46) and has Sand-Attack.
-  - **Action**: Menu navigation correction: Up x10 to reset, Down x4 to Topaz, A to Switch.
-  - **Follow-up**: Use Sand-Attack to cripple Croconaw further, then revive Garnet or switch back when Topaz faints.
+  - **Status**: Basil (Lv 7) was sent out by mistake. Garnet's Curse is cleared.
+  - **Plan**: Advance text. 
+  - **Scenario A (Basil Faints)**: Send in **Garnet** to revenge kill with Flame Wheel.
+  - **Scenario B (Basil Lives)**: Switch to **Topaz** to preserve Basil and debuff.
+  - **Math**: Croconaw is Lv 22. Basil is Lv 7. Basil surviving is highly unlikely unless Smokescreen causes a miss.
 
 ### Quest Log
 - **Badges**: Zephyr, Hive, Plain.
