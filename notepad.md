@@ -43,10 +43,10 @@
 - **Correction**: Accidentally entered Fight menu. Backing out to switch to Topaz properly.
 - **Menu Path**: B (Exit Fight) -> Right (PKMN) -> A -> Down x4 (Topaz) -> A (Switch).
 - **Strategy**: 
-  - **Status**: In Item Menu (Target Selection). Amethyst is decoy.
-  - **Action**: Heal Garnet.
-  - **Observation**: Party Menu remembers cursor position.
-  - **Correction**: Cursor was on Harrz (Slot 6) due to wrap from Cancel.
-  - **Sequence**: B (Clear Text) -> Up x5 (to Garnet) -> A (Use).
-  - **Next**: Clear text -> Watch Amethyst take damage -> Switch to Garnet if Amethyst faints.
+  - **Status**: In Bag (Item Pocket). Searching for Super Potion.
+  - **Action**: Locate Super Potion.
+  - **Observation**: Bag order is unclear. X Accuracy is at top (#1). Item #11 failed (Fire Stone?).
+  - **Plan**: Scroll down to scan items.
+  - **Sequence**: B (Close Submenu) -> Down x5.
+  - **Next**: Identify Super Potion -> Use on Garnet.
   - **Endgame**: Garnet sweeps.
