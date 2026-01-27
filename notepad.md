@@ -33,7 +33,7 @@
 - **Tool Warning**: `battle_select_move` assumes 2x2 grid layout. Gen 2 uses a vertical list. Do NOT use this tool; navigate moves manually.
 - **Battle Note**: Check if cursor remembers last move position in Gen 2.
 - **Logistics**: Garnet healed and PP restored.
-- **Current Task**: Exit Ecruteak PC -> West Gate -> Route 38.
+- **Current Task**: Explore Route 38. Switch-training Basil.
 - **Map Note**: 4_3 is Ecruteak PC.
 - **Task**: Teach Surf to a Pokémon (e.g., Psyduck) before reaching the ocean.
 - **Badge Check**: Fog Badge allows Surf outside battle. I can use it now.
