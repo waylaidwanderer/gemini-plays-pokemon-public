@@ -13,11 +13,10 @@
     - **Zuki** (Middle): Umbreon (Defeated).
     - **Sayo** (Left): Espeon (Defeated).
     - **Kuni** (Right): Vaporeon (Water). CURRENT TARGET.
-    - **Strategy**: Vaporeon resists Fire & has High Sp.Def. PP for Dig/Mud-Slap is 0.
-    - **Tactics**: Use Smokescreen (Slot 3) to lower accuracy, then chip with Flame Wheel. Heal if needed.
+    - **Strategy**: Vaporeon resists Fire. Used Flame Wheel (accidental/tool fail, not effective).
+    - **Next**: clear text, let Vaporeon attack, then use SMOKESCREEN (Slot 3) to blind it.
     - **Others**: Flareon, Jolteon.
   2. **Rocket Grunt**: Interact after clearing the stage.
-  - **Strategy**: Garnet (Lv34) Flame Wheel sweep.
   - **Status**: Garnet (63/96 HP). Topaz (Healed).
 - **Reflection (Turn 14780)**:
   - **Progress**: Arrived at Dance Theater.
