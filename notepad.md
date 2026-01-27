@@ -21,6 +21,6 @@
   - Struggled with menu navigation for switching.
 - **Route 38**:
   - Beware of poison.
-- **Status**: Battle vs Beauty Valerie. Basil Fainted (RIP).
+- **Status**: Battle vs Bird Keeper Toby (Mistakenly thought it was Beauty Valerie).
 - **Party**: Basil (FNT), Garnet (Lv 35), Topaz (Lv 15).
-- **Task**: Win battle -> Return to Center (again) to revive Basil? Or push to Olivine?
+- **Task**: Win battle -> Return to Ecruteak immediately to revive Basil.
