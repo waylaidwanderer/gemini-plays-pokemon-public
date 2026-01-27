@@ -21,3 +21,6 @@
   - Struggled with menu navigation for switching.
 - **Route 38**:
   - Beware of poison.
+- **Battle Emergency**: Accidentally switched in Bolin (Lv 8) vs Skiploom (Lv 17).
+- **Action**: Must switch to Garnet immediately.
+- **Status**: Garnet is Poisoned (48/98 HP). Skiploom is Grass/Flying (weak to Fire).
