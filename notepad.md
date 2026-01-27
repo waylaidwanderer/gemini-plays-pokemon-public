@@ -21,7 +21,7 @@
   - Struggled with menu navigation for switching.
 - **Route 38**:
   - Beware of poison.
-- **Status**: Clearing post-battle text (Wild Magnemite Defeated).
+- **Status**: Battle vs Sailor (Route 38).
 - **Party**: Basil (FNT), Spinarak (FNT), Garnet (Lv 35), Topaz (Lv 15).
-- **Task**: Finish battle text -> Travel East to Ecruteak Gate -> Heal.
-- **Battle Mechanics**: Garnet's Dig (Slot 1) is very effective. Auto-battle accidental win.
+- **Task**: Win battle -> Continue East to Ecruteak.
+- **Battle Mechanics**: Menu is vertical list, wraps. Use `battle_select_move_smart`.
