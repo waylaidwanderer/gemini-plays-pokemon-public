@@ -25,8 +25,3 @@
 - **Immediate Task**: Heal -> Teach Dig -> Buy Potions -> Re-enter Gym.
 ### Mechanics
 - **Ecruteak Gym**: Falling into a pitfall warps to the entrance. Intentionally stepping on one is faster than walking back.
-- **Shopping Plan**:
-  - Budget: ¥3610.
-  - Target: Revive (x1) @ ¥1500, Super Potion (x3) @ ¥700. Total: ¥3600.
-  - Backup: Super Potion (x5) @ ¥3500.
-  - Current Action: Cancel Poké Ball selection and scroll down to find Revive.
