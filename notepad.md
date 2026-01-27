@@ -6,10 +6,11 @@
 - **Goal**: Find the B1F drop on Map 3_13.
 
 ### Notes
-- **Map 3_14**: Burned Tower 1F (Center).
-- **Map 3_13**: Likely Burned Tower B1F (Beasts Room).
-- **Hypothesis**: The beasts are in the center of 3_13, near the ladder/warp at (10, 9). I missed them.
-- **Goal**: Return to 3_13 via (7, 15) and CAREFULLY explore the center without stepping on (10, 9).
+- **Map 3_13**: Burned Tower 1F (Entrance/Outer). Contains exit to Ecruteak at (9, 16).
+- **Map 3_14**: Burned Tower B1F (Center Room). Accessible via warp/hole from 1F.
+- **Problem**: Explored 3_14 and found no Beasts.
+- **Hypothesis**: Either I missed them in 3_14, or there is another section of B1F accessible via a different hole/ladder.
+- **Action**: Heal, get Rock Smash user (Bolin/Sandshrew), then re-explore 1F to find other holes or breakable rocks.
 - **URGENT**: Garnet is POISONED (PSN). Need to find the drop/beasts quickly or retreat to heal.
 
 - **Map 3_13**: Tile (15, 4) is a BREAKABLE ROCK (impassable), despite being TYPE_3fe2. BFS will fail here. Go around via the Left side (Col 4).
