@@ -18,3 +18,4 @@
   - **Progress**: Arrived at Dance Theater.
   - **Goal**: Win these battles.
   - **Lesson**: Manual healing was faster than debugging the Joy loop. Adaptability wins.
+- **Map 4_5**: Row 4 is a stage ledge. Access via stairs at x=1 and x=10.
