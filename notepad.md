@@ -9,6 +9,5 @@
 - **Mechanics**:
   - `TYPE_fed7` is Walkable Grass (Green). Don't avoid it!
   - `TYPE_c453` is Cuttable Tree.
-- **Battle**: Beauty Valerie defeated. Basil grew to Level 13!
-- **Status**: Entering Route 39 (West of Route 38).
-- **Strategy**: Head South to Olivine City. Watch out for Miltank (Tanky).
+- **Battle**: vs Pokéfan Ruth (Likely Pikachu Lv 17).
+- **Strategy**: Switch Basil out to Garnet or Topaz immediately to share XP.
