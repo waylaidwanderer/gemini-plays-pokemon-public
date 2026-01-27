@@ -9,13 +9,11 @@
 - **Next**: Exit Mart -> Kimono Girls (Dance Theater).
 
 - **Battle Plan**:
-  - **Current**: Kimono Girl Kuni (Vaporeon).
-  - **Status**: Garnet 30/96 HP (CRITICAL - Risk of Crit Death). Vaporeon Burned.
-  - **Turn Order**: Vaporeon moved FIRST last turn? (Possible Quick Claw or Speed tie loss).
-  - **Immediate Action**: HEAL with Super Potion.
-  - **Sequence**: Clear text -> Burn Damage -> Open Pack -> Super Potion.
-  - **Next**: Once healthy, use Smokescreen.
+  - **Status**: Vaporeon Defeated (Burn/Chip).
+  - **Garnet**: 30/96 HP. Needs HEALING.
   - **Remaining**: Flareon, Jolteon.
+  - **Strategy**: Heal -> Find next girl -> Flame Wheel.
+  - **Notes**: Vaporeon went down unexpectedly fast (Burn damage?). Money not yet collected.
   2. **Rocket Grunt**: Interact after clearing the stage.
   - **Status**: Garnet (30/96 HP). Topaz (Healed).
 - **Reflection (Turn 14780)**:
