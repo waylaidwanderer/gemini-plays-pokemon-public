@@ -21,8 +21,7 @@
   - Struggled with menu navigation for switching.
 - **Route 38**:
   - Beware of poison.
-- **Status**: Escaping Route 38 "Trap" via Grass Path (North).
-- **Party**: Basil (FNT), Garnet (Lv 35), Topaz (Lv 15).
-- **Task**: Escape North via Grass (x=9) -> Return to Ecruteak Center.
-- **Correction**: x=8/9 is GRASS, not trees. I can walk North!
+- **Status**: Battle vs Wild Magnemite (Route 38).
+- **Party**: Basil (FNT), Spinarak (Confused, Critical HP), Garnet (Lv 35), Topaz (Lv 15).
+- **Task**: Switch to Garnet -> Run or Defeat Magnemite -> Heal Basil.
 - **Battle Mechanics**: Menu is vertical list, wraps. Use `battle_select_move_smart`.
