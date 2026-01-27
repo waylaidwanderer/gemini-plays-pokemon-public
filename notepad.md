@@ -11,7 +11,8 @@
 - **Battle Plan**:
   1. **Kimono Girls**: Defeat all 5 for Surf.
     - **Zuki** (Middle): Umbreon (Defeated).
-    - Others: Flareon, Espeon, Vaporeon, Jolteon.
+    - **Sayo** (Left): Espeon (Psychic). Strategy: Flame Wheel.
+    - Others: Flareon, Vaporeon, Jolteon.
   2. **Rocket Grunt**: Interact after clearing the stage.
   - **Strategy**: Garnet (Lv34) Flame Wheel sweep.
   - **Status**: Garnet (Healthy, PP low on Mud-Slap). Topaz (Healed).
