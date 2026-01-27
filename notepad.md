@@ -17,3 +17,4 @@
 - **Status**: Basil reached Lv14. Vine Whip is out of PP.
 - **Battle**: Psychic Norman (Route 39). Basil leading.
 - **Trainer Defeated**: Psychic Norman (Route 39).
+- **Quest**: Heal Sick Miltank (Moomoo Farm). Needs regular Berries.
