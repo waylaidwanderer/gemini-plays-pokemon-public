@@ -11,7 +11,7 @@
 - **Kimono Girls Gauntlet**:
   - **Defeated**: Umbreon, Espeon, Vaporeon, Jolteon, Flareon.
   - **Status**: All defeated!
-  - **Next**: Talk to Gentleman at (7, 9) for Surf.
+  - **Current**: Talking to Gentleman at (3, 6) for Surf.
 - **Rocket Grunt**: Interact after clearing the stage.
 - **Reflection (Turn 14780)**:
   - **Progress**: Arrived at Dance Theater.
