@@ -3,9 +3,11 @@
 
 ### Current Task
 - **Map 4_7**: Ecruteak Gym.
-- **Goal**: Defeated Morty! Earned Fog Badge.
-- **Badge Effect**: Pokémon up to Lv 50 obey. Can use Surf out of battle.
-- **Next**: Heal, then maybe check the Towers or head West to Route 38.
+- **Goal**: Exiting Gym.
+- **Badge**: Fog Badge obtained.
+- **Loot**: TM30 Shadow Ball.
+- **Next Step**: Heal, then Dance Theater for Surf.
+- **Note**: Falling into a pitfall warps to the entrance. Intentionally stepping on one is faster than walking back.
 
 - **Map 3_13**: Tile (15, 4) is a BREAKABLE ROCK (impassable), despite being TYPE_3fe2. BFS will fail here. Go around via the Left side (Col 4).
 - **Map 3_13**: Item at (14, 2) is blocked by Breakable Rock at (15, 4). Requires Rock Smash.
