@@ -9,8 +9,8 @@
   - Lead: Garnet (Lv 33).
   - Current Status: 24/93 HP.
   - Next Opponent: Gengar (Lv 25).
-  - Strategy: STAY IN. Use Super Potion immediately. Gengar is fast and dangerous.
-  - Risk: Hypnosis/Dream Eater. Use Awakening if slept.
+  - Strategy: Switched to Topaz (Normal) to absorb Ghost moves.
+  - Next: Heal Garnet (24/93) while Topaz tanks.
 
 - **Map 3_13**: Tile (15, 4) is a BREAKABLE ROCK (impassable), despite being TYPE_3fe2. BFS will fail here. Go around via the Left side (Col 4).
 - **Map 3_13**: Item at (14, 2) is blocked by Breakable Rock at (15, 4). Requires Rock Smash.
