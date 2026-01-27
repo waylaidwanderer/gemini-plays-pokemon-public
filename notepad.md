@@ -27,12 +27,7 @@
   - **Strategy**: Switching Garnet out to clear Curse/Paralysis danger. Topaz (Normal/Flying) is immune to Ghost moves.
   - **Gym Maze**: Documenting safe path. Pitfall at (7, 13).
   - **Next**: Defeat Sage Ping, then heal if needed.
-- Battle Status: Bolin (Trapped) vs Gastly.
-- Mistake: Used X ACCURACY on Bolin (Battle Item). Wasted turn.
-- Turn Outcome: Bolin takes Night Shade (16 dmg) -> 6/22 HP.
-- Strategy:
-  1. Clear text/animations.
-  2. Open Pack.
-  3. Scroll carefully to SUPER POTION (Check below ETHER).
-  4. Heal Garnet (21 -> 71 HP).
-  5. Bolin faints next turn -> Switch to Garnet.
+- Battle Status: Victory against Sage Ping.
+- Team Status: Garnet/Topaz Fainted. No items.
+- Insight: Mud-Slap (Ground) hits Ghosts (Poison) for Super Effective damage.
+- Next: Exit Gym -> Heal at Center -> Buy Potions -> Return for Morty.
