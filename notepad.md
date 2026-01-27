@@ -4,8 +4,9 @@
 ### Current Task
 - **Map 4_6**: Ecruteak Mart.
 - **Action**: Purchase complete.
-- **Status**: Revive (used), Super Potion (x4) obtained. Money: ¥10.
-- **Next**: Use Super Potion on Topaz -> Exit Mart -> Kimono Girls.
+- **Status**: Revive (used), Super Potion (x3) left. Money: ¥10.
+- **Correction**: I do NOT have TM28 (Dig). Plan: Rely on Flame Wheel (90 BP with STAB) vs Mud-Slap (40 BP with SE).
+- **Next**: Exit Mart -> Kimono Girls (Dance Theater).
 
 - **Map 3_13**: Tile (15, 4) is a BREAKABLE ROCK (impassable), despite being TYPE_3fe2. BFS will fail here. Go around via the Left side (Col 4).
 - **Map 3_13**: Item at (14, 2) is blocked by Breakable Rock at (15, 4). Requires Rock Smash.
