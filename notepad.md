@@ -9,10 +9,9 @@
   - Lead: Garnet (Lv 33).
   - Current Status: 24/93 HP.
   - Next Opponent: Gengar (Lv 25).
-  - Strategy: Topaz was already FNT (My mistake). Amethyst is now active.
-  - Matchup: Amethyst (Normal) is immune to Shadow Ball.
-  - Plan: Correcting input error. Press B to clear "No Effect", then Up, Up to select Garnet (Slot 1).
-  - Note: Amethyst is active (Slot 3). Super Potion must be applied to Garnet.
+  - Strategy: Amethyst (Normal) is active meat shield (immune to Ghost).
+  - Action: Applying Super Potion to Garnet (Slot 1) while Amethyst takes the hit.
+  - Note: Gengar will likely use Hypnosis.
 
 - **Map 3_13**: Tile (15, 4) is a BREAKABLE ROCK (impassable), despite being TYPE_3fe2. BFS will fail here. Go around via the Left side (Col 4).
 - **Map 3_13**: Item at (14, 2) is blocked by Breakable Rock at (15, 4). Requires Rock Smash.
