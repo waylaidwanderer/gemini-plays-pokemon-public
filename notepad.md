@@ -2,12 +2,14 @@
 - Started: Friday, January 16, 2026
 
 ### Current Task
-- **Map 4_7**: Ecruteak Gym.
-- **Goal**: Exiting Gym.
-- **Badge**: Fog Badge obtained.
-- **Loot**: TM30 Shadow Ball.
-- **Next Step**: Heal, then Dance Theater for Surf.
-- **Note**: Falling into a pitfall warps to the entrance. Intentionally stepping on one is faster than walking back.
+- **Map 4_3**: Ecruteak City Pokémon Center.
+- **Goal**: Heal Team & Adjust Party.
+- **Status**: Topaz Fainted, Garnet Low PP.
+- **Plan**:
+  1. Heal at Nurse Joy.
+  2. PC: Deposit Amethyst (Lv 12 Rattata), Withdraw Headache (Psyduck) for Surf.
+  3. Buy Super Potions/Repels at Mart.
+  4. Go to Dance Theater (Ecruteak) to battle Kimono Girls and get HM03 Surf.
 
 - **Map 3_13**: Tile (15, 4) is a BREAKABLE ROCK (impassable), despite being TYPE_3fe2. BFS will fail here. Go around via the Left side (Col 4).
 - **Map 3_13**: Item at (14, 2) is blocked by Breakable Rock at (15, 4). Requires Rock Smash.
