@@ -37,3 +37,5 @@
 - **Map Note**: 4_3 is Ecruteak PC.
 - **Task**: Teach Surf to a Pokémon (e.g., Psyduck) before reaching the ocean.
 - **Badge Check**: Fog Badge allows Surf outside battle. I can use it now.
+- **Map ID**: 1_12 is Route 38.
+- **Location**: Entered from East (Ecruteak Gate). Heading West.
