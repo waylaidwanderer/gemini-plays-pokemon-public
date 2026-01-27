@@ -21,8 +21,8 @@
   - Struggled with menu navigation for switching.
 - **Route 38**:
   - Beware of poison.
-- **Status**: Backtracking East on Route 38 (Ledge Trap).
+- **Status**: Escaping Route 38 "Trap" via Grass Path (North).
 - **Party**: Basil (FNT), Garnet (Lv 35), Topaz (Lv 15).
-- **Task**: Find a way back up to the main road (North/West blockage confirmed).
-- **Exploration**: West path at (4, 16) is a dead end. Tree wall at x=7 seems impassable.
+- **Task**: Escape North via Grass (x=9) -> Return to Ecruteak Center.
+- **Correction**: x=8/9 is GRASS, not trees. I can walk North!
 - **Battle Mechanics**: Menu is vertical list, wraps. Use `battle_select_move_smart`.
