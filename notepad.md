@@ -2,8 +2,8 @@
 - Started: Friday, January 16, 2026
 
 ### Current Task
-- **Map 4_6**: Ecruteak Mart.
-- **Action**: Purchase complete.
+- **Map 4_5**: Dance Theater Interior.
+- **Action**: In the lobby. Moving to the stage to fight the Kimono Girls.
 - **Status**: Revive (used), Super Potion (x3) left. Money: ¥10.
 - **Correction**: I do NOT have TM28 (Dig). Plan: Rely on Flame Wheel (90 BP with STAB) vs Mud-Slap (40 BP with SE).
 - **Next**: Exit Mart -> Kimono Girls (Dance Theater).
