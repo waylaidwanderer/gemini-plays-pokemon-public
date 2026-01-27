@@ -10,5 +10,5 @@
   - `TYPE_fed7` is Walkable Grass (Green). Don't avoid it!
   - `TYPE_c453` is Cuttable Tree.
 - **Battle**: Beauty Valerie defeated. Basil grew to Level 13!
-- **Status**: Finished phone call. Healing Basil next.
-- **Strategy**: Use Super Potion on Basil. Traverse Route 38 West to Olivine.
+- **Status**: Clearing phone call text. Basil needs healing (12/36 HP).
+- **Strategy**: Finish call. Use Super Potion on Basil. Navigate West via (3, 8) or (5, 8).
