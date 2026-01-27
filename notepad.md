@@ -27,11 +27,12 @@
   - **Strategy**: Switching Garnet out to clear Curse/Paralysis danger. Topaz (Normal/Flying) is immune to Ghost moves.
   - **Gym Maze**: Documenting safe path. Pitfall at (7, 13).
   - **Next**: Defeat Sage Ping, then heal if needed.
-- Battle Status: Topaz (13/46 HP, Cursed/Trapped).
-- Turn State: Gastly moved (Failed). Topaz needs to Gust.
-- Math:
-  - Topaz HP 13. Curse (-11) -> 2 HP at end of turn.
-  - Next Turn: Gastly (faster) uses Night Shade (16 dmg) -> Topaz Faints.
-  - Backup: Garnet (21 HP). Night Shade (16 dmg) -> Garnet survives with 5 HP.
-  - Garnet (Lvl 32) Flame Wheel -> OHKO Gastly.
-- Plan: Press B to advance text/turn. Do not heal Topaz. Prepare to sacrifice Topaz if Gust doesn't kill.
+- Battle Status: Topaz (2 HP) vs Gastly (Full).
+- Turn Plan:
+  1. Topaz attempts Sand-Attack (Slot 2) as a parting gift.
+  2. Topaz likely faints (Night Shade or Curse dmg).
+  3. Switch to Garnet (Paralyzed, 21 HP).
+- Garnet Strategy:
+  1. Use PARLYZ HEAL immediately. (Survive Night Shade with 5 HP).
+  2. Outspeed and OHKO with Flame Wheel next turn.
+- Rationale: Healing guarantees a win against Night Shade. Attacking has 25% failure risk. Both lose to Hypnosis.
