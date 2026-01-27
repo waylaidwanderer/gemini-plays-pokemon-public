@@ -13,3 +13,5 @@
 - **Route 39**: Heading South to Olivine City.
 - **Party**: Basil (Lead, 0 PP Vine Whip), Garnet (Typhlosion), etc.
 - **Battle**: Pokéfan Derek (Route 39). Pikachu Lv17 vs Basil. Switching to Garnet.
+- **Trainer Defeated**: Pokéfan Derek (Route 39).
+- **Status**: Basil reached Lv14. Vine Whip is out of PP.
