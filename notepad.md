@@ -28,11 +28,11 @@
   - **Gym Maze**: Documenting safe path. Pitfall at (7, 13).
   - **Next**: Defeat Sage Ping, then heal if needed.
 - Battle Status: Bolin (Trapped) vs Gastly.
-- Action: Used Super Potion on Garnet.
-- Garnet HP: 21 -> 71.
-- Bolin Status: Alive (22/22). Will take Night Shade (16 dmg) -> 6 HP.
+- Correction: Super Potion failed (Action cancelled). Re-trying.
+- Action: Enter Pack -> Find Super Potion -> Heal Garnet.
+- Garnet HP: 21/90 (Needs Heal).
+- Bolin Status: Alive (22/22).
 - Strategy:
-  1. Let Bolin faint (Trapped).
-  2. Switch to Garnet (Keep Paralysis to block Hypnosis).
-  3. Garnet sweeps with Flame Wheel.
-- Note: Do NOT cure Paralysis. Avoids Sleep risk.
+  1. Heal Garnet (Super Potion).
+  2. Let Bolin faint.
+  3. Garnet sweeps.
