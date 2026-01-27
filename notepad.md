@@ -4,7 +4,7 @@
 ### Current Status
 - **Location**: Route 38 (Map 1_12).
 - **Goal**: Reach Olivine City.
-- **Party**: Basil (Lead, Level 9), Garnet (Level 35), etc.
+- **Party**: Basil (Lead, Level 10), Garnet (Level 35), etc.
 - **Health**: Garnet is Poisoned (PSN).
 
 ### Tasks
