@@ -9,11 +9,10 @@
 - **Next**: Exit Mart -> Kimono Girls (Dance Theater).
 
 - **Kimono Girls Gauntlet**:
-  - **Defeated**: Umbreon, Espeon, Vaporeon.
-  - **Current**: Miki (Jolteon) [CRITICAL HP].
-  - **Remaining**: Flareon.
+  - **Defeated**: Umbreon, Espeon, Vaporeon, Jolteon.
+  - **Remaining**: Flareon (Naoko).
   - **Status**: Garnet (80/96 HP, -1 Def).
-  - **Strategy**: Flame Wheel to finish Jolteon.
+  - **Strategy**: Find Naoko (likely on the Left side). Flame Wheel.
 - **Rocket Grunt**: Interact after clearing the stage.
 - **Reflection (Turn 14780)**:
   - **Progress**: Arrived at Dance Theater.
