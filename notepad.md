@@ -21,7 +21,7 @@
   - Struggled with menu navigation for switching.
 - **Route 38**:
   - Beware of poison.
-- **Status**: Entering Ecruteak Gatehouse.
-- **Party**: Basil (FNT), Spinarak (FNT), Garnet (Lv 35), Topaz (Lv 15).
-- **Task**: Enter Gate -> Cross to Ecruteak City -> Heal at Center.
+- **Status**: Exiting Ecruteak PC. Heading to Route 38.
+- **Party**: Basil (Lead, Level 10), Garnet (Level 35), Topaz (Level 15), etc. All Healthy.
+- **Task**: Travel West to Route 38 -> Reach Olivine City.
 - **Battle Mechanics**: Menu is vertical list, wraps. Use `battle_select_move_smart`.
