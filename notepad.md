@@ -22,7 +22,7 @@
   - **Lesson**: Manual healing was faster than debugging the Joy loop. Adaptability wins.
 - **Map 4_5**: Row 4 is a stage ledge. Access via stairs at x=1 and x=10.
 - **Reflection (Turn 14832)**:
-  - **Status**: Battling Espeon. Used Mud-Slap by accident (dropped input?), but accuracy drop helps.
-  - **Plan**: Switch back to Flame Wheel (Slot 4).
+  - **Status**: Battling Espeon. Used Smokescreen (Slot 3) by accident (meant Flame Wheel).
+  - **Plan**: Switch to Flame Wheel (Slot 4).
   - **Hygiene**: Notepad and markers are clean.
   - **Goal**: Clear the theater, get Surf.
