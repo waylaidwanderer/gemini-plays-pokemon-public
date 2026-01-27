@@ -31,3 +31,5 @@
 - Team Status: Garnet/Topaz Fainted. No items.
 - Insight: Mud-Slap (Ground) hits Ghosts (Poison) for Super Effective damage.
 - Next: Exit Gym -> Heal at Center -> Buy Potions -> Return for Morty.
+- Strategy Insight: Amethyst (Normal) is immune to Ghost moves. Can wall Ghosts lacking non-Ghost attacks.
+- Plan Update: Buy Potions/Super Potions and maybe Awakenings (for Hypnosis) at the Mart after healing.
