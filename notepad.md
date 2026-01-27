@@ -26,3 +26,6 @@
 - **Task**: Win battle (Use Flame Wheel, NOT Ground moves) -> Return to Ecruteak.
 - **Note**: Mud-Slap/Dig (Ground) have NO EFFECT on Flying types. Used Mud-Slap by mistake.
 - **Strategy**: Manual move selection (A -> Down -> A) to ensure Flame Wheel (Slot 4) from Mud-Slap (Slot 2).
+- **Battle Error**: `battle_select_move` failed to select Flame Wheel (Slot 4) multiple times, selecting Dig (Slot 1) instead.
+- **Correction**: Will use manual button presses for move selection to guarantee Flame Wheel.
+- **Situation**: Garnet is using Dig (Ground) on Flying type. It will fail. Next turn, MUST select Flame Wheel manually.
