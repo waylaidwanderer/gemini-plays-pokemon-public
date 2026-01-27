@@ -21,7 +21,7 @@
   - Struggled with menu navigation for switching.
 - **Route 38**:
   - Beware of poison.
-- **Status**: Returning to Ecruteak to heal Basil (Fainted).
+- **Status**: Stuck in dialogue loop with Bird Keeper Toby at (12, 14).
 - **Party**: Basil (FNT), Garnet (Lv 35), Topaz (Lv 15).
-- **Task**: Return to Ecruteak -> Buy Potions -> Heal -> Return to Route 38.
+- **Task**: Escape dialogue (Use B button to avoid re-triggering) -> Return to Ecruteak.
 - **Battle Mechanics**: Menu is vertical list, wraps. Use `battle_select_move_smart` and track cursor.
