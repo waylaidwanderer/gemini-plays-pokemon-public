@@ -24,5 +24,6 @@
 - **Status**: Exploring Route 38 Westbound.
 - **Party**: Basil (FNT), Garnet (Lv 35), Topaz (Lv 15).
 - **Task**: Cut tree -> Find path to main road -> Heal at Miltank Farm or Olivine?
-- **Exploration**: Cutting tree at (7, 14) to bypass ledge trap.
+- **Exploration**: Tree at (7, 14) is NOT a Cut tree (uncuttable wall).
+- **Correction**: Found a path south at y=16. Navigating west through (7, 16).
 - **Mechanics**: Fainted Pokemon CAN use field moves.
