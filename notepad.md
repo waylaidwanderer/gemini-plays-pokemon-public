@@ -27,12 +27,8 @@
   - **Strategy**: Switching Garnet out to clear Curse/Paralysis danger. Topaz (Normal/Flying) is immune to Ghost moves.
   - **Gym Maze**: Documenting safe path. Pitfall at (7, 13).
   - **Next**: Defeat Sage Ping, then heal if needed.
-- Battle Status: Topaz is Cursed (Switching removes this!).
+- Battle Status: Topaz is Cursed AND Trapped (Mean Look?).
 - Matchup: Topaz's Normal moves failed.
-- Strategy: Switch to Garnet (Quilava).
-  - Removes Curse from Topaz.
-  - Garnet (Lvl 32) can OHKO with Flame Wheel or Mud-Slap (Super Effective).
-- Tactic: Switching to Amethyst (Rattata) first.
-  - Why? Rattata is Normal type (Immune to Ghost).
-  - Goal: Clear Topaz's Curse, scout Gastly's moves safely.
-  - Next: Heal Garnet or bring Topaz back in for Gust.
+- Strategy: Topaz CANNOT switch. Must fight to the death.
+  - Use Gust (Flying) immediately.
+  - Heal if HP gets critical, but offense is priority.
