@@ -3,14 +3,14 @@
 
 ### Current Task
 - **Map 4_3**: Ecruteak City Pokémon Center.
-- **Goal**: Heal Team & Adjust Party.
-- **Status**: Headache (Psyduck) in party. Topaz Fainted.
-- **Issue**: Nurse Joy interaction failing repeatedly.
+- **Goal**: Exit and go to Mart.
+- **Issue**: Nurse Joy is unresponsive (Bug/Glitch?).
 - **Plan**:
-  1. Spam 'A' button to force interaction frame.
-  2. Heal team.
-  3. Buy Super Potions/Repels at Mart.
+  1. Go to Ecruteak Mart.
+  2. Buy Revives (if available) and Super Potions.
+  3. Manually heal Topaz and Garnet.
   4. Go to Dance Theater (Ecruteak) to battle Kimono Girls and get HM03 Surf.
+  5. Try Center again later or use a different city's Center.
 
 - **Map 3_13**: Tile (15, 4) is a BREAKABLE ROCK (impassable), despite being TYPE_3fe2. BFS will fail here. Go around via the Left side (Col 4).
 - **Map 3_13**: Item at (14, 2) is blocked by Breakable Rock at (15, 4). Requires Rock Smash.
