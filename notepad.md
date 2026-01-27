@@ -9,10 +9,9 @@
 - **Next**: Exit Mart -> Kimono Girls (Dance Theater).
 
 - **Battle Plan**:
-  1. **Rocket Grunt**: Defeat him to save the girl.
-    - **Issue**: Dialogue loop/Restarting? Player facing UP?
-    - **Fix**: Press B to close dialogue, Turn DOWN, Interact.
-  2. **Kimono Girls**: Defeat all 5 for Surf.
+  1. **Kimono Girls**: Defeat all 5 for Surf.
+    - **Reason**: Rocket Grunt won't interact/fight until they are beaten.
+  2. **Rocket Grunt**: Interact after clearing the stage.
   - **Strategy**: Garnet (Lv34) Flame Wheel sweep.
   - **Status**: Garnet (Healthy). Topaz (Healed).
 - **Reflection (Turn 14780)**:
