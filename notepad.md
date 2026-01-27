@@ -21,7 +21,8 @@
   - Struggled with menu navigation for switching.
 - **Route 38**:
   - Beware of poison.
-- **Status**: Retreating to Ecruteak to heal (Basil & Spinarak Fainted).
+- **Status**: Retreating to Ecruteak (Route 38 Eastbound).
 - **Party**: Basil (FNT), Spinarak (FNT), Garnet (Lv 35), Topaz (Lv 15).
-- **Task**: Navigate East to Ecruteak Gate -> Heal.
+- **Task**: Travel East to Ecruteak Gate -> Heal.
+- **Exploration**: Route 38 North side is tall grass (x=8-13). Main road starts further East.
 - **Battle Mechanics**: Menu is vertical list, wraps. Use `battle_select_move_smart`.
