@@ -5,9 +5,9 @@
 - **Map 4_3**: Ecruteak City Pokémon Center.
 - **Goal**: Heal Team & Adjust Party.
 - **Status**: Headache (Psyduck) withdrawn. Topaz Fainted.
-- **Issue**: Healing dialogue loop/failure.
+- **Issue**: 'A' button inputs seem to be ignored or failing to trigger Nurse Joy.
 - **Plan**:
-  1. Force Reset: Move Down -> Up -> Interact.
+  1. Debug: Move Left -> Right -> Up -> A to reset position/orientation logic.
   2. Heal at Nurse Joy.
   3. Buy Super Potions/Repels at Mart.
   4. Go to Dance Theater (Ecruteak) to battle Kimono Girls and get HM03 Surf.
