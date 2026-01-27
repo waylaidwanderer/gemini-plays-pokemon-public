@@ -21,6 +21,6 @@
   - Struggled with menu navigation for switching.
 - **Route 38**:
   - Beware of poison.
-- **Status**: Resuming journey to Olivine City.
-- **Party**: Basil (Lv 10), Garnet (Lv 35), Topaz (Lv 15).
-- **Task**: Travel Route 38 -> Route 39 -> Olivine.
+- **Status**: Battle vs Beauty Valerie. Basil Fainted (RIP).
+- **Party**: Basil (FNT), Garnet (Lv 35), Topaz (Lv 15).
+- **Task**: Win battle -> Return to Center (again) to revive Basil? Or push to Olivine?
