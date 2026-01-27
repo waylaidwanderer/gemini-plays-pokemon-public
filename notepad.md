@@ -7,8 +7,8 @@
 
 ### Notes
 - **Map 3_14**: Burned Tower 1F (Center).
-- **Goal**: Interact with Silver at (10, 3) (directly North of me).
-- **Status**: Garnet recovered. 'A' interaction failed. Trying to bump/move around.
+- **Goal**: Investigate Row 2 (Type fea1). Step on it to see if it's the hole or event trigger.
+- **Status**: Silver sighting unconfirmed.
 
 - **Map 3_13**: Tile (15, 4) is a BREAKABLE ROCK (impassable), despite being TYPE_3fe2. BFS will fail here. Go around via the Left side (Col 4).
 - **Map 3_13**: Item at (14, 2) is blocked by Breakable Rock at (15, 4). Requires Rock Smash.
