@@ -3,8 +3,9 @@
 
 ### Current Task
 - **Map 4_6**: Ecruteak Mart.
-- **Action**: Purchasing Revive (x1).
-- **Next**: Buy Super Potions (x3), then manual heal.
+- **Action**: Buying Super Potions (x3).
+- **Status**: Revive purchased. Remaining Funds: ¥2110.
+- **Next**: Manual heal Topaz/Garnet. Then Kimono Girls.
 
 - **Map 3_13**: Tile (15, 4) is a BREAKABLE ROCK (impassable), despite being TYPE_3fe2. BFS will fail here. Go around via the Left side (Col 4).
 - **Map 3_13**: Item at (14, 2) is blocked by Breakable Rock at (15, 4). Requires Rock Smash.
