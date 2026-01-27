@@ -5,8 +5,9 @@
 - **Map 4_3**: Ecruteak City Pokémon Center.
 - **Goal**: Heal Team & Adjust Party.
 - **Status**: Headache (Psyduck) in party. Topaz Fainted.
+- **Issue**: Nurse Joy interaction failing repeatedly.
 - **Plan**:
-  1. Face Nurse Joy (Up) and press A once.
+  1. Spam 'A' button to force interaction frame.
   2. Heal team.
   3. Buy Super Potions/Repels at Mart.
   4. Go to Dance Theater (Ecruteak) to battle Kimono Girls and get HM03 Surf.
