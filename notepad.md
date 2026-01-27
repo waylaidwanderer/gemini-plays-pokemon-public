@@ -21,7 +21,8 @@
   - Struggled with menu navigation for switching.
 - **Route 38**:
   - Beware of poison.
-- **Status**: Battle vs Wild Magnemite (Garnet Active).
+- **Status**: Battle won vs Magnemite.
 - **Party**: Basil (FNT), Spinarak (FNT), Garnet (Lv 35), Topaz (Lv 15).
-- **Task**: Use Flame Wheel (Slot 4) or Dig (Slot 1) to defeat Magnemite -> Retreat to Ecruteak.
+- **Task**: Move North through grass (Column 9) -> Find path back to Main Road -> Retreat to Ecruteak.
+- **Exploration**: `TYPE_fed7` is Tall Grass here. `TYPE_c453` is the tree wall.
 - **Battle Mechanics**: Menu is vertical list, wraps. Use `battle_select_move_smart`.
