@@ -5,10 +5,10 @@
 - **Map 4_7**: Ecruteak Gym.
 - **Goal**: Defeat Morty. He is at the North end of the gym.
 - **Gym Maze**: Invisible floor.
-  - Safe: (7, 16) -> (8, 16) -> (8, 15) -> (8, 14) -> (7, 14).
+  - Safe: (7, 16) -> ... -> (7, 14). Left Path: (4, 14) -> (4, 13).
   - Pitfall: (7, 13).
   - Respawn: (4, 14).
-- **Plan**: Test path North from (4, 14). Try (4, 13).
+- **Plan**: Defeat Trainer at (3, 13), then continue North.
 
 - **Map 3_13**: Tile (15, 4) is a BREAKABLE ROCK (impassable), despite being TYPE_3fe2. BFS will fail here. Go around via the Left side (Col 4).
 - **Map 3_13**: Item at (14, 2) is blocked by Breakable Rock at (15, 4). Requires Rock Smash.
