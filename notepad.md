@@ -1,46 +1,23 @@
 # Pokémon Crystal Playthrough
 - Started: Friday, January 16, 2026
 
-### Current Task
-- **Map 4_5**: Dance Theater Interior.
-- **Action**: In the lobby. Moving to the stage to fight the Kimono Girls.
-- **Status**: Revive (used), Super Potion (x3) left. Money: ¥10.
-- **Correction**: I do NOT have TM28 (Dig). Plan: Rely on Flame Wheel (90 BP with STAB) vs Mud-Slap (40 BP with SE).
-- **Next**: Exit Mart -> Kimono Girls (Dance Theater).
+### Current Status
+- **Location**: Route 38 (Map 1_12).
+- **Goal**: Reach Olivine City.
+- **Party**: Basil (Lead, Level 9), Garnet (Level 35), etc.
+- **Health**: Garnet is Poisoned (PSN).
 
-- **Kimono Girls Gauntlet**:
-  - **Status**: COMPLETED.
-  - **Reward**: HM03 (Surf) obtained!
-- **Current Task**: Travel to Olivine City.
-  - **Route**: Ecruteak City -> West Gate -> Route 38 -> Route 39 -> Olivine City.
-  - **Goal**: Help the sick Pokémon (Ampharos) / Challenge Gym.
-- **Rocket Grunt**: Interact after clearing the stage.
-- **Reflection (Turn 14780)**:
-  - **Progress**: Arrived at Dance Theater.
-  - **Goal**: Win these battles.
-  - **Lesson**: Manual healing was faster than debugging the Joy loop. Adaptability wins.
-- **Map 4_5**: Row 4 is a stage ledge. Access via stairs at x=1 and x=10.
-- **Reflection (Turn 14832)**:
-  - **Status**: Battling Espeon. Used Smokescreen (Slot 3) by accident (meant Flame Wheel).
-  - **Plan**: Switch to Flame Wheel (Slot 4).
-  - **Hygiene**: Notepad and markers are clean.
-  - **Goal**: Clear the theater, get Surf.
-- **Correction**: Blocked by Kuni at (9,1). Rerouting to (11,2).
-- **Reflection (Turn 14884)**:
-  - **Mechanic**: Battle Move List is vertical (1 column), not 2x2 grid. Manual navigation required to ensure correct selection.
-  - **Critical**: Out of Ground-type PP (Dig/Mud-Slap). Must brute-force Naoko with Flame Wheel.
-  - **Status**: Garnet is strong enough (Lv 34 vs 17) to ignore resistance.
-- **Tool Warning**: `battle_select_move` assumes 2x2 grid layout. Gen 2 uses a vertical list. Do NOT use this tool; navigate moves manually.
-- **Battle Note**: Check if cursor remembers last move position in Gen 2.
-- **Logistics**: Garnet healed and PP restored.
-- **Current Task**: Explore Route 38. Switch-training Basil.
-- **Map Note**: 4_3 is Ecruteak PC.
-- **Task**: Teach Surf to a Pokémon (e.g., Psyduck) before reaching the ocean.
-- **Badge Check**: Fog Badge allows Surf outside battle. I can use it now.
-- **Map ID**: 1_12 is Route 38.
-- **Location**: Entered from East (Ecruteak Gate). Heading West.
-- **Battle Mistake**: Used Dig (Ground) on Hoppip (Flying). Immune.
-- **Correction**: Must use Flame Wheel (Slot 4). Press Down x3 in move menu.
-- **Status**: Garnet is Poisoned (PSN).
-- **Battle Note**: Dig seemed to fail immediately against Flying type, or cycle completed.
-- **Action**: Switching to Flame Wheel.
+### Tasks
+- **Immediate**: Win battle vs Lass Dana. Switch-train Basil.
+- **Short-term**: Reach Olivine City. Heal Garnet's poison.
+- **Long-term**: Get badges, beat Elite Four.
+
+### Notes
+- **Mechanics**:
+  - Battle menu is a vertical list. Cursor memory is inconsistent. Use `Up` x3 to reset to top before selecting moves.
+  - Fog Badge allows Surf out of battle.
+- **Mistakes**:
+  - Used Dig on Flying type (Hoppip).
+  - Struggled with menu navigation for switching.
+- **Route 38**:
+  - Beware of poison.
