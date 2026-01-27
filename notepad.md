@@ -21,6 +21,8 @@
   - Struggled with menu navigation for switching.
 - **Route 38**:
   - Beware of poison.
-- **Status**: Battle vs Bird Keeper Toby (Mistakenly thought it was Beauty Valerie).
+- **Status**: Battle vs Bird Keeper Toby (Doduo).
 - **Party**: Basil (FNT), Garnet (Lv 35), Topaz (Lv 15).
-- **Task**: Win battle -> Return to Ecruteak immediately to revive Basil.
+- **Task**: Win battle (Use Flame Wheel, NOT Ground moves) -> Return to Ecruteak.
+- **Note**: Mud-Slap/Dig (Ground) have NO EFFECT on Flying types. Used Mud-Slap by mistake.
+- **Strategy**: Manual move selection (A -> Down -> A) to ensure Flame Wheel (Slot 4) from Mud-Slap (Slot 2).
