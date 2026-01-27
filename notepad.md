@@ -32,3 +32,4 @@
   - **Status**: Garnet is strong enough (Lv 34 vs 17) to ignore resistance.
 - **Tool Warning**: `battle_select_move` assumes 2x2 grid layout. Gen 2 uses a vertical list. Do NOT use this tool; navigate moves manually.
 - **Battle Note**: Check if cursor remembers last move position in Gen 2.
+- **Logistics**: Garnet is out of Ground-type PP (Dig/Mud-Slap). Must heal at Ecruteak PC before leaving for Route 38.
