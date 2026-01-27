@@ -32,3 +32,7 @@
 - Strategy: Switch to Garnet (Quilava).
   - Removes Curse from Topaz.
   - Garnet (Lvl 32) can OHKO with Flame Wheel or Mud-Slap (Super Effective).
+- Tactic: Switching to Amethyst (Rattata) first.
+  - Why? Rattata is Normal type (Immune to Ghost).
+  - Goal: Clear Topaz's Curse, scout Gastly's moves safely.
+  - Next: Heal Garnet or bring Topaz back in for Gust.
