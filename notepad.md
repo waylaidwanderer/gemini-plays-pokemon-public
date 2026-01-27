@@ -27,8 +27,8 @@
   - **Strategy**: Switching Garnet out to clear Curse/Paralysis danger. Topaz (Normal/Flying) is immune to Ghost moves.
   - **Gym Maze**: Documenting safe path. Pitfall at (7, 13).
   - **Next**: Defeat Sage Ping, then heal if needed.
-- Battle Status: Topaz (24/46 HP) is Cursed & Trapped.
-- Danger: Night Shade + Curse = KO this turn if Gastly attacks.
-- Plan A: Gust (Move 3). If Topaz faints, switch to Garnet.
-- Backup: Garnet (21/90 HP, Paralyzed) can survive one Night Shade and OHKO with Flame Wheel.
-- Note: Amethyst (Rattata) cannot hit Gastly (only Normal moves). Do not send Amethyst.
+- Battle Status: Topaz (13/46 HP) is Cursed & Trapped.
+- Critical: Gastly is likely faster. Night Shade (16 dmg) = KO. Lick = Immune.
+- Action: Using Gust (Slot 3).
+- Contingency: If Topaz faints, send Garnet.
+- Note: Garnet is Paralyzed (21/90 HP). Must heal or finish fast.
