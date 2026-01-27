@@ -21,8 +21,7 @@
   - Struggled with menu navigation for switching.
 - **Route 38**:
   - Beware of poison.
-- **Status**: Battle vs Wild Magnemite (Encountered while retreating).
+- **Status**: Clearing post-battle text (Wild Magnemite Defeated).
 - **Party**: Basil (FNT), Spinarak (FNT), Garnet (Lv 35), Topaz (Lv 15).
-- **Task**: Run from battle -> Continue East to Ecruteak.
-- **Exploration**: Encountered on Route 38 Eastbound (approx (13, 5)).
-- **Battle Mechanics**: Menu is vertical list, wraps. Use `battle_select_move_smart`.
+- **Task**: Finish battle text -> Travel East to Ecruteak Gate -> Heal.
+- **Battle Mechanics**: Garnet's Dig (Slot 1) is very effective. Auto-battle accidental win.
