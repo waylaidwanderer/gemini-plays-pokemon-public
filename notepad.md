@@ -24,5 +24,6 @@
 - **Status**: Battle vs Bird Keeper Toby (Part 2).
 - **Party**: Basil (FNT), Garnet (Lv 35), Topaz (Lv 15).
 - **Task**: Win battle -> Return to Ecruteak to heal Basil.
-- **Battle Mechanics**: Move menu is a vertical list.
-- **Tool Update**: Created `battle_select_move_v2` to correctly handle vertical list selection (Up x3 to reset, Down x(N-1)).
+- **Battle Mechanics**: Move menu remembers last selection.
+- **Strategy**: Use `battle_select_move_smart` which takes `current_slot` and `target_slot`.
+- **Current Action**: Manual press (A -> Down x3 -> A) assuming current=1 (Dig) to target=4 (Flame Wheel).
