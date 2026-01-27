@@ -32,5 +32,7 @@
   - **Status**: Garnet is strong enough (Lv 34 vs 17) to ignore resistance.
 - **Tool Warning**: `battle_select_move` assumes 2x2 grid layout. Gen 2 uses a vertical list. Do NOT use this tool; navigate moves manually.
 - **Battle Note**: Check if cursor remembers last move position in Gen 2.
-- **Logistics**: Garnet is out of Ground-type PP (Dig/Mud-Slap). Must heal at Ecruteak PC before leaving for Route 38.
+- **Logistics**: Garnet has Dig (0 PP). Notepad was incorrect about not having it. Healing now to restore PP.
+- **Map Note**: 4_3 is Ecruteak PC.
+- **Current Task**: Heal -> Check PP -> Head to Route 38 (West Gate).
 - **Map Note**: There is a building at (22-25, 24-25) between the Dance Theater and Pokémon Center. Must navigate around it.
