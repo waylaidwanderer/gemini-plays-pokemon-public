@@ -26,7 +26,9 @@
 - **Task**: Win battle -> Return to Ecruteak to heal Basil.
 - **Battle Mechanics**:
   - Menu remembers last selection.
-  - Menu WRAPS (Down from Slot 4 -> Slot 1).
+  - Menu WRAPS in both directions (Up from Slot 1 -> Slot 4).
+  - **CRITICAL**: `battle_select_move_v2` (Up x3 reset) is BROKEN because of wrapping. Do not use.
+  - Must use `battle_select_move_smart` and track cursor.
   - Current cursor: Slot 3 (Smokescreen).
 - **Strategy**: Use `battle_select_move_smart` with `current_slot=3` next turn.
-- **Current Action**: Advance text (Enemy turn pending).
+- **Current Action**: Advancing text to see Doduo's move.
