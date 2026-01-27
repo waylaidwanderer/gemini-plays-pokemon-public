@@ -3,7 +3,7 @@
 
 ### Current Task
 - **Map 4_9**: Ecruteak City.
-- **Plan**: Heal Garnet at Pokemon Center (23, 27), withdraw Bolin (Sandshrew) for Rock Smash, then return to Burned Tower.
+- **Plan**: Heal Garnet, Deposit a Pokemon, Withdraw Bolin (Sandshrew), Teach Bolin Rock Smash (TM08).
 - **Burned Tower**: Entrance at (5, 5).
 - **Goal**: Find the B1F drop on Map 3_13 (Burned Tower 1F).
 - **Hypothesis**: The beasts are in the center of 3_13. Need Rock Smash to explore fully.
