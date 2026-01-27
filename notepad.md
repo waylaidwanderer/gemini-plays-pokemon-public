@@ -21,6 +21,6 @@
   - Struggled with menu navigation for switching.
 - **Route 38**:
   - Beware of poison.
-- **Battle Status**: Topaz (Lv 15) vs Skiploom (Lv 17).
-- **Strategy**: Use Gust (Flying STAB).
-- **Logistics**: Garnet fainted (0 HP). Needs revival.
+- **Status**: Retreating to Ecruteak to heal Garnet (Fainted).
+- **Party**: Basil (Lv 10), Garnet (Lv 35 - FNT), Topaz (Lv 15).
+- **Task**: Heal -> Return to Route 38.
