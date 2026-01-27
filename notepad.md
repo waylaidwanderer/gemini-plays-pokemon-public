@@ -28,8 +28,11 @@
   - **Gym Maze**: Documenting safe path. Pitfall at (7, 13).
   - **Next**: Defeat Sage Ping, then heal if needed.
 - Battle Status: Bolin (Trapped) vs Gastly.
-- Action: Scrolling to Super Potion (Index 6 approx).
-- Sequence: Down (to Index 6) -> A (Select) -> A (Use) -> Up x5 (Select Garnet) -> A (Confirm).
-- Backup: If wrong item, might waste turn or apply to Bolin. Acceptable risk.
-- Strategy: Heal Garnet (21 -> 71 HP). Keep Paralysis.
-- Next: Bolin faints -> Switch to Garnet.
+- Mistake: Used X ACCURACY on Bolin (Battle Item). Wasted turn.
+- Turn Outcome: Bolin takes Night Shade (16 dmg) -> 6/22 HP.
+- Strategy:
+  1. Clear text/animations.
+  2. Open Pack.
+  3. Scroll carefully to SUPER POTION (Check below ETHER).
+  4. Heal Garnet (21 -> 71 HP).
+  5. Bolin faints next turn -> Switch to Garnet.
