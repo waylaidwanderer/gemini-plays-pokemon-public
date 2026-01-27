@@ -21,8 +21,7 @@
   - Struggled with menu navigation for switching.
 - **Route 38**:
   - Beware of poison.
-- **Status**: Battle won vs Magnemite.
+- **Status**: Retreating to Ecruteak to heal (Basil & Spinarak Fainted).
 - **Party**: Basil (FNT), Spinarak (FNT), Garnet (Lv 35), Topaz (Lv 15).
-- **Task**: Move North through grass (Column 9) -> Find path back to Main Road -> Retreat to Ecruteak.
-- **Exploration**: `TYPE_fed7` is Tall Grass here. `TYPE_c453` is the tree wall.
+- **Task**: Navigate East to Ecruteak Gate -> Heal.
 - **Battle Mechanics**: Menu is vertical list, wraps. Use `battle_select_move_smart`.
