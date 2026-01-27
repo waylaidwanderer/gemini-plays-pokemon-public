@@ -15,3 +15,4 @@
   - Progress: Healed team, taught Rock Smash. Now back in Burned Tower.
   - Plan: Smash rock at (15, 4) to access East side/Item. Avoid hole at (7, 15).
   - Hypothesis: Rock Smash opens path to new area or item. Beasts might be elsewhere (B1F center).
+- **Loot**: Found HP Up at (14, 2) in Burned Tower 1F.
