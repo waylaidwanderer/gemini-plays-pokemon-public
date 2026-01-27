@@ -27,8 +27,6 @@
   - **Strategy**: Switching Garnet out to clear Curse/Paralysis danger. Topaz (Normal/Flying) is immune to Ghost moves.
   - **Gym Maze**: Documenting safe path. Pitfall at (7, 13).
   - **Next**: Defeat Sage Ping, then heal if needed.
-- Battle Status: Topaz is Cursed AND Trapped (Mean Look?).
-- Matchup: Topaz's Normal moves failed.
-- Strategy: Topaz CANNOT switch. Must fight to the death.
-  - Use Gust (Flying) immediately.
-  - Heal if HP gets critical, but offense is priority.
+- Battle Status: Topaz is Cursed and Trapped.
+- Action: Closing Party Menu, switching to Gust.
+- Note: 'It doesn't affect' msg confirms I used Tackle (Normal) previously. Gust (Flying) will hit.
