@@ -21,7 +21,7 @@
   - Struggled with menu navigation for switching.
 - **Route 38**:
   - Beware of poison.
-- **Status**: Dialogue with Sailor (Post-Battle).
+- **Status**: Dialogue with Juggler Irwin (Phone Registration).
 - **Party**: Basil (FNT), Spinarak (FNT), Garnet (Lv 35), Topaz (Lv 15).
-- **Task**: Finish dialogue -> Check if Sailor blocks path -> If blocked, walk West to reset -> Travel East to Ecruteak.
+- **Task**: Finish phone dialogue -> Travel East to Ecruteak Gate -> Heal.
 - **Battle Mechanics**: Menu is vertical list, wraps. Use `battle_select_move_smart`.
