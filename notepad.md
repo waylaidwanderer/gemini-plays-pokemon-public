@@ -9,9 +9,10 @@
   - Lead: Garnet (Lv 33).
   - Current Status: 24/93 HP.
   - Next Opponent: Gengar (Lv 25).
-  - Strategy: Topaz Fainted instantly (Unknown Cause - Psychic/Thunderbolt? Normal is immune to Ghost).
-  - New Plan: Sacrifice Amethyst (Lv 11) to heal Garnet.
-  - Action: Switch Amethyst -> Super Potion on Garnet -> Amethyst Faints -> Send Garnet -> Dig.
+  - Strategy: Topaz was already FNT (My mistake). Amethyst is now active.
+  - Matchup: Amethyst (Normal) is immune to Shadow Ball.
+  - Plan: Use Super Potion on Garnet (Safety first). Amethyst is fodder/wall.
+  - Note: If Amethyst gets trapped (Mean Look), we wait for her to faint (Hypnosis+Dream Eater) or struggle.
 
 - **Map 3_13**: Tile (15, 4) is a BREAKABLE ROCK (impassable), despite being TYPE_3fe2. BFS will fail here. Go around via the Left side (Col 4).
 - **Map 3_13**: Item at (14, 2) is blocked by Breakable Rock at (15, 4). Requires Rock Smash.
