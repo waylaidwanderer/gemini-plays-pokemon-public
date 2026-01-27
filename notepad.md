@@ -9,11 +9,11 @@
 - **Next**: Exit Mart -> Kimono Girls (Dance Theater).
 
 - **Kimono Girls Gauntlet**:
-  - **Defeated**: Umbreon, Espeon, Vaporeon, Jolteon, Flareon.
-  - **Status**: All defeated!
-  - **Issue**: Both Gentlemen (3, 6) and (7, 10) give generic text.
-  - **Hypothesis**: Wrong NPC, or need to speak to Rhydon/Director, or need to confirm victory with Naoko.
-  - **Next**: Check Rhydon and other lobby NPCs. Then check Naoko if needed.
+  - **Status**: COMPLETED.
+  - **Reward**: HM03 (Surf) obtained!
+- **Current Task**: Travel to Olivine City.
+  - **Route**: Ecruteak City -> West Gate -> Route 38 -> Route 39 -> Olivine City.
+  - **Goal**: Help the sick Pokémon (Ampharos) / Challenge Gym.
 - **Rocket Grunt**: Interact after clearing the stage.
 - **Reflection (Turn 14780)**:
   - **Progress**: Arrived at Dance Theater.
