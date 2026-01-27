@@ -11,8 +11,9 @@
 - **Kimono Girls Gauntlet**:
   - **Defeated**: Umbreon, Espeon, Vaporeon, Jolteon, Flareon.
   - **Status**: All defeated!
-  - **Correction**: The NPC at (3, 6) is a generic patron. The real quest giver is likely the Gentleman (misidentified as Rocket Grunt) at (7, 9).
-  - **Next**: Talk to NPC at (7, 9) for Surf.
+  - **Correction**: The NPC at (3, 6) is a generic patron.
+  - **Target**: Gentleman at (7, 10) (previously identified as Rocket Grunt at 7, 9).
+  - **Next**: Talk to him for Surf.
 - **Rocket Grunt**: Interact after clearing the stage.
 - **Reflection (Turn 14780)**:
   - **Progress**: Arrived at Dance Theater.
