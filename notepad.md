@@ -26,3 +26,5 @@
 - **Status**: Garnet is Poisoned (48/98 HP). Skiploom is Grass/Flying (weak to Fire).
 - **Battle Update**: Switched Garnet in. Skiploom will attack this turn.
 - **Next**: Clear text -> Fight -> Flame Wheel.
+- **Emergency Update**: Garnet fainted (Poison/Damage?).
+- **Action**: Switching to Topaz (Lv 15, Flying) to counter Skiploom.
