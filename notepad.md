@@ -39,3 +39,5 @@
 - **Badge Check**: Fog Badge allows Surf outside battle. I can use it now.
 - **Map ID**: 1_12 is Route 38.
 - **Location**: Entered from East (Ecruteak Gate). Heading West.
+- **Battle Mistake**: Used Dig (Ground) on Hoppip (Flying). Immune.
+- **Correction**: Must use Flame Wheel (Slot 4). Press Down x3 in move menu.
