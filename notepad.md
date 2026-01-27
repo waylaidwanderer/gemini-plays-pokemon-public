@@ -8,7 +8,7 @@
 - **Health**: All Healthy.
 
 ### Tasks
-- **Immediate**: Enter Route 38 Gate. Switch-train Basil.
+- **Immediate**: Traverse Route 38. Switch-train Basil.
 - **Short-term**: Reach Olivine City.
 - **Long-term**: Get badges, beat Elite Four.
 
