@@ -10,10 +10,10 @@
 
 - **Kimono Girls Gauntlet**:
   - **Defeated**: Umbreon, Espeon, Vaporeon.
-  - **Current**: Miki (Jolteon).
+  - **Current**: Miki (Jolteon) [CRITICAL HP].
   - **Remaining**: Flareon.
-  - **Status**: Garnet (80/96 HP).
-  - **Strategy**: Flame Wheel sweep.
+  - **Status**: Garnet (80/96 HP, -1 Def).
+  - **Strategy**: Flame Wheel to finish Jolteon.
 - **Rocket Grunt**: Interact after clearing the stage.
 - **Reflection (Turn 14780)**:
   - **Progress**: Arrived at Dance Theater.
