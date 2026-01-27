@@ -21,7 +21,7 @@
   - Struggled with menu navigation for switching.
 - **Route 38**:
   - Beware of poison.
-- **Status**: Battle vs Trainer (Flaaffy).
+- **Status**: Dialogue with Sailor (Battle Won).
 - **Party**: Basil (FNT), Spinarak (FNT), Garnet (Lv 35), Topaz (Lv 15).
-- **Task**: Win battle (Dig is active) -> Continue East to Ecruteak.
+- **Task**: Finish dialogue -> Continue East to Ecruteak Gate -> Heal.
 - **Battle Mechanics**: Menu is vertical list, wraps. Use `battle_select_move_smart`.
