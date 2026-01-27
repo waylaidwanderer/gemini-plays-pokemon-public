@@ -37,3 +37,4 @@
 - **Current Task**: Heal -> Check PP -> Head to Route 38 (West Gate).
 - **Map Note**: There is a building at (22-25, 24-25) between the Dance Theater and Pokémon Center. Must navigate around it.
 - **Correction**: Nurse Joy interaction failed at (5, 3). Trying alignment at (4, 3) (centered with door).
+- **Debugging**: Healing at (4, 3) failed multiple times (stats not updated). Trying from (3, 3).
