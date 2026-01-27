@@ -27,9 +27,11 @@
   - **Strategy**: Switching Garnet out to clear Curse/Paralysis danger. Topaz (Normal/Flying) is immune to Ghost moves.
   - **Gym Maze**: Documenting safe path. Pitfall at (7, 13).
   - **Next**: Defeat Sage Ping, then heal if needed.
-- Battle Status: Victory against Sage Ping.
-- Team Status: Garnet/Topaz Fainted. No items.
-- Insight: Mud-Slap (Ground) hits Ghosts (Poison) for Super Effective damage.
-- Next: Exit Gym -> Heal at Center -> Buy Potions -> Return for Morty.
-- Strategy Insight: Amethyst (Normal) is immune to Ghost moves. Can wall Ghosts lacking non-Ghost attacks.
-- Plan Update: Buy Potions/Super Potions and maybe Awakenings (for Hypnosis) at the Mart after healing.
+### Strategy Log
+- **Ecruteak Gym**:
+  - **Mechanics**: Ghosts here are Poison/Ghost.
+  - **Weaknesses**: Ground (Dig/Mud-Slap), Psychic.
+  - **Immunities**: Normal types (Amethyst/Bolin) are immune to Ghost moves.
+  - **Lesson**: Mud-Slap hits Gastly (No Levitate in Gen 2).
+  - **Plan**: Teach TM28 (Dig) to Garnet for high-power Ground coverage.
+- **Immediate Task**: Heal -> Teach Dig -> Buy Potions -> Re-enter Gym.
