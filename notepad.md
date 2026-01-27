@@ -10,5 +10,5 @@
   - `TYPE_fed7` is Walkable Grass (Green). Don't avoid it!
   - `TYPE_c453` is Cuttable Tree.
 - **Battle**: Beauty Valerie defeated. Basil grew to Level 13!
-- **Status**: Traversing Route 38.
-- **Strategy**: Heal Basil with Super Potion. Continue West to Olivine City.
+- **Status**: Route 38. Team healthy.
+- **Strategy**: Continue West to Olivine City. Keep switching Basil in for XP.
