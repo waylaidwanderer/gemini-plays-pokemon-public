@@ -7,8 +7,9 @@
 
 ### Notes
 - **Map 3_14**: Burned Tower 1F (Center).
-- **Goal**: Investigate Row 2 (Type fea1). Step on it to see if it's the hole or event trigger.
-- **Status**: Silver sighting unconfirmed.
+- **Map 3_13**: Likely Burned Tower B1F (Beasts Room).
+- **Hypothesis**: The beasts are in the center of 3_13, near the ladder/warp at (10, 9). I missed them.
+- **Goal**: Return to 3_13 via (7, 15) and CAREFULLY explore the center without stepping on (10, 9).
 
 - **Map 3_13**: Tile (15, 4) is a BREAKABLE ROCK (impassable), despite being TYPE_3fe2. BFS will fail here. Go around via the Left side (Col 4).
 - **Map 3_13**: Item at (14, 2) is blocked by Breakable Rock at (15, 4). Requires Rock Smash.
