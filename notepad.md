@@ -9,5 +9,5 @@
 - **Mechanics**:
   - `TYPE_fed7` is Walkable Grass (Green). Don't avoid it!
   - `TYPE_c453` is Cuttable Tree.
-- **Battle**: Beauty Valerie defeated. Basil gained EXP.
-- **Strategy**: Continue West to Olivine City. Heal Basil if needed.
+- **Battle**: Beauty Valerie defeated. Basil grew to Level 13!
+- **Strategy**: Finish phone call. Heal Basil (12/36 HP) with Super Potion. Continue West to Olivine.
