@@ -27,3 +27,6 @@
   - **Strategy**: Switching Garnet out to clear Curse/Paralysis danger. Topaz (Normal/Flying) is immune to Ghost moves.
   - **Gym Maze**: Documenting safe path. Pitfall at (7, 13).
   - **Next**: Defeat Sage Ping, then heal if needed.
+- Battle Status: Topaz is Cursed (loses 1/4 HP/turn). Gastly is at ~50% HP.
+- Matchup: Topaz (Normal) is immune to Ghost moves (Lick, Night Shade).
+- Strategy: Use Gust (Flying) to finish Gastly quickly. Tackle/Quick Attack are useless (Normal vs Ghost).
