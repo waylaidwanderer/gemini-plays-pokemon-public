@@ -10,10 +10,11 @@
 
 - **Battle Plan**:
   1. **Kimono Girls**: Defeat all 5 for Surf.
-    - **Reason**: Rocket Grunt won't interact/fight until they are beaten.
+    - **Zuki**: Umbreon (Dark). Strategy: Flame Wheel.
+    - Others: Flareon, Espeon, Vaporeon, Jolteon.
   2. **Rocket Grunt**: Interact after clearing the stage.
-  - **Strategy**: Garnet (Lv34) Flame Wheel sweep.
-  - **Status**: Garnet (Healthy). Topaz (Healed).
+  - **Strategy**: Garnet (Lv34) Flame Wheel sweep. Note: Dig has 0 PP (Not healed).
+  - **Status**: Garnet (Healthy, PP low on Mud-Slap). Topaz (Healed).
 - **Reflection (Turn 14780)**:
   - **Progress**: Arrived at Dance Theater.
   - **Goal**: Win these battles.
