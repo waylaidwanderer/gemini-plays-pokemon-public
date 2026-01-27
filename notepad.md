@@ -10,10 +10,11 @@
 
 - **Battle Plan**:
   1. **Rocket Grunt**: Defeat him to save the girl.
-  2. **Kimono Girls**: Defeat all 5 for Surf (Flareon, Espeon, Umbreon, Vaporeon, Jolteon).
+    - **Issue**: Dialogue loop/Restarting? Player facing UP?
+    - **Fix**: Press B to close dialogue, Turn DOWN, Interact.
+  2. **Kimono Girls**: Defeat all 5 for Surf.
   - **Strategy**: Garnet (Lv34) Flame Wheel sweep.
   - **Status**: Garnet (Healthy). Topaz (Healed).
-  - **Correction**: Rocket Grunt IS present. He is bragging about beating the Kimono Girls. Proceeding to battle him.
 - **Reflection (Turn 14780)**:
   - **Progress**: Arrived at Dance Theater.
   - **Goal**: Win these battles.
