@@ -21,8 +21,7 @@
   - Struggled with menu navigation for switching.
 - **Route 38**:
   - Beware of poison.
-- **Status**: Traveling East on Route 38 (Row 3).
+- **Status**: Encountered Trainer at (24, 4) (Says "I've been overseas...").
 - **Party**: Basil (FNT), Spinarak (FNT), Garnet (Lv 35), Topaz (Lv 15).
-- **Task**: Travel East to Ecruteak Gate -> Heal.
-- **Threats**: Lass at (24, 5) might spot me on Row 3.
+- **Task**: Win battle -> Travel East to Ecruteak Gate -> Heal.
 - **Battle Mechanics**: Menu is vertical list, wraps. Use `battle_select_move_smart`.
