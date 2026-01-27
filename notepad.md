@@ -2,10 +2,10 @@
 - Started: Friday, January 16, 2026
 
 ### Current Status
-- **Location**: Route 38 (Map 1_12).
+- **Location**: Ecruteak City Pokémon Center (Map 4_3).
 - **Goal**: Reach Olivine City.
 - **Party**: Basil (Lead, Level 10), Garnet (Level 35), etc.
-- **Health**: All Healthy.
+- **Health**: Basil (FNT), Spinarak (FNT).
 
 ### Tasks
 - **Immediate**: Traverse Route 38. Switch-train Basil.
