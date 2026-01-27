@@ -41,3 +41,6 @@
 - **Location**: Entered from East (Ecruteak Gate). Heading West.
 - **Battle Mistake**: Used Dig (Ground) on Hoppip (Flying). Immune.
 - **Correction**: Must use Flame Wheel (Slot 4). Press Down x3 in move menu.
+- **Status**: Garnet is Poisoned (PSN).
+- **Battle Note**: Dig seemed to fail immediately against Flying type, or cycle completed.
+- **Action**: Switching to Flame Wheel.
