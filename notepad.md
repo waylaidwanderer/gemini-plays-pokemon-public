@@ -21,7 +21,7 @@
   - Struggled with menu navigation for switching.
 - **Route 38**:
   - Beware of poison.
-- **Status**: Post-battle dialogue with Overseas Trainer.
+- **Status**: Approaching Ecruteak Gate (Route 38 East end).
 - **Party**: Basil (FNT), Spinarak (FNT), Garnet (Lv 35), Topaz (Lv 15).
-- **Task**: Finish dialogue -> Travel East to Ecruteak Gate -> Heal.
+- **Task**: Enter Gate (approx 35, 8) -> Enter Ecruteak -> Heal.
 - **Battle Mechanics**: Menu is vertical list, wraps. Use `battle_select_move_smart`.
