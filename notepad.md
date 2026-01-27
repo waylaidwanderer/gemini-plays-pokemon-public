@@ -7,8 +7,8 @@
 
 ### Notes
 - **Map 3_14**: Burned Tower 1F (Center).
-- **Goal**: Explore North area (Col 10 corridor) to find the B1F hole.
-- **Status**: Garnet recovered from poison.
+- **Goal**: Interact with Silver at (10, 4) to clear the path.
+- **Status**: Garnet recovered. Ready for potential rival battle.
 
 - **Map 3_13**: Tile (15, 4) is a BREAKABLE ROCK (impassable), despite being TYPE_3fe2. BFS will fail here. Go around via the Left side (Col 4).
 - **Map 3_13**: Item at (14, 2) is blocked by Breakable Rock at (15, 4). Requires Rock Smash.
