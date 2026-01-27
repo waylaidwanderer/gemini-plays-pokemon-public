@@ -8,10 +8,10 @@
 - **Battle Plan**:
   - Lead: Garnet (Lv 33).
   - Current Status: Garnet 74/93 HP.
-  - Active: Amethyst (Normal).
-  - Opponent: Gengar.
-  - Strategy: Amethyst tanks the hit (Ghost immunity). If Amethyst survives/faints, switch Garnet in safely.
-  - Threat: Hypnosis (Sleep).
+  - Active: Garnet (Lv 33).
+  - Opponent: Gengar (Lv 25) - Hit by Dig (Super Effective).
+  - Strategy: Dig landed. Expecting KO. Continue sweeping with Dig.
+  - Note: Amethyst was used to pivot safely.
 
 - **Map 3_13**: Tile (15, 4) is a BREAKABLE ROCK (impassable), despite being TYPE_3fe2. BFS will fail here. Go around via the Left side (Col 4).
 - **Map 3_13**: Item at (14, 2) is blocked by Breakable Rock at (15, 4). Requires Rock Smash.
