@@ -30,6 +30,6 @@
 - Battle Status: Bolin (Trapped) vs Gastly.
 - Mistake: Sent Bolin instead of Amethyst.
 - Strategy: Use Bolin as a meat shield to heal Garnet.
-- Action: Finding Super Potion in Pack.
-- Plan: Heal Garnet to full. Keep Paralysis (Anti-Hypnosis).
+- Bag Order: Non-alphabetical (Mixed).
+- Plan: Find Super Potion -> Heal Garnet (Slot 1). Keep Paralysis.
 - Next: When Bolin faints, switch to Garnet and sweep.
