@@ -21,7 +21,7 @@
   - Struggled with menu navigation for switching.
 - **Route 38**:
   - Beware of poison.
-- **Status**: Battle vs Wild Magnemite (Spinarak Fainted).
+- **Status**: Battle vs Wild Magnemite (Garnet Active).
 - **Party**: Basil (FNT), Spinarak (FNT), Garnet (Lv 35), Topaz (Lv 15).
-- **Task**: Switch to Garnet -> Win battle -> Retreat to Ecruteak.
+- **Task**: Use Flame Wheel (Slot 4) or Dig (Slot 1) to defeat Magnemite -> Retreat to Ecruteak.
 - **Battle Mechanics**: Menu is vertical list, wraps. Use `battle_select_move_smart`.
