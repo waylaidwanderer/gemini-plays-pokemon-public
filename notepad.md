@@ -13,4 +13,4 @@
 - **Map 3_13**: Tile (15, 4) is a BREAKABLE ROCK (impassable), despite being TYPE_3fe2. BFS will fail here. Go around via the Left side (Col 4).
 - **Map 3_13**: Item at (14, 2) is blocked by Breakable Rock at (15, 4). Requires Rock Smash.
 - **Exploration**: Checking bottom-right area (Cols 14-16) before leaving.
-- **Correction**: Nurse Joy is at (4,1). Tile (3,1) contains a PC/Machine, not an NPC.
+- **Correction**: Nurse Joy is at (4,1). The entity at (3,1) is a generic NPC (speaks dialogue).
