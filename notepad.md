@@ -29,3 +29,6 @@
 - **Battle Error**: `battle_select_move` failed to select Flame Wheel (Slot 4) multiple times, selecting Dig (Slot 1) instead.
 - **Correction**: Will use manual button presses for move selection to guarantee Flame Wheel.
 - **Situation**: Garnet is using Dig (Ground) on Flying type. It will fail. Next turn, MUST select Flame Wheel manually.
+- **Mechanics Update**: The battle move menu is a **vertical list (1x4)**, not a 2x2 grid. 
+- **Tool Failure**: `battle_select_move` assumes a grid (Down -> Right for Slot 4), which fails on a list (results in Slot 2).
+- **Fix**: Must use manual `Down` presses to navigate moves. Slot 4 requires 3 `Down` presses from the top.
