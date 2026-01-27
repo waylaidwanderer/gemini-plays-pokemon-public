@@ -22,12 +22,11 @@
 - **Mapping**: Warp/Hole located at (10, 9) in Burned Tower 1F. Expecting drop to B1F center.
 - **Achievement**: Released the Legendary Beasts (Raikou, Entei, Suicune) from Burned Tower B1F.
 - **Mapping**: Ladder to 1F located at (7, 15) in Burned Tower B1F.
-- **Reflection (Turn 14312)**:
-  - **Progress**: Released Legendary Beasts, started Ecruteak Gym.
-  - **Mistakes**: Used Normal moves on Ghost types (twice). Need to verify immunities.
-  - **Strategy**: Switching Garnet out to clear Curse/Paralysis danger. Topaz (Normal/Flying) is immune to Ghost moves.
-  - **Gym Maze**: Documenting safe path. Pitfall at (7, 13).
-  - **Next**: Defeat Sage Ping, then heal if needed.
+- **Reflection (Turn 14676)**:
+  - **Progress**: Defeated Morty, got Fog Badge. Currently trying to heal at Ecruteak PC.
+  - **Issues**: Struggle with inputs registering after phone call. Topaz still fainted.
+  - **Plan**: Force interaction with Nurse Joy. Then swap Amethyst for Psyduck (Headache) to use Surf.
+  - **Mechanic**: Remember to check "Game State" for HP/Status to verify healing, not just assume it happened.
 ### Strategy Log
 - **Ecruteak Gym**:
   - **Mechanics**: Ghosts here are Poison/Ghost.
