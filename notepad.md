@@ -21,8 +21,8 @@
   - Struggled with menu navigation for switching.
 - **Route 38**:
   - Beware of poison.
-- **Status**: Stuck in dialogue loop with Bird Keeper Toby at (12, 14).
+- **Status**: Exploring Route 38 Westbound.
 - **Party**: Basil (FNT), Garnet (Lv 35), Topaz (Lv 15).
-- **Task**: Escape dialogue (Use B button to avoid re-triggering) -> Return to Ecruteak.
-- **Battle Mechanics**: Menu is vertical list, wraps. Use `battle_select_move_smart` and track cursor.
-- **Exploration**: Encountered a wall of Cut trees at x=7 on Route 38 (Map 1_12). Attempting to Cut through with fainted Basil.
+- **Task**: Cut tree -> Find path to main road -> Heal at Miltank Farm or Olivine?
+- **Exploration**: Cutting tree at (7, 14) to bypass ledge trap.
+- **Mechanics**: Fainted Pokemon CAN use field moves.
