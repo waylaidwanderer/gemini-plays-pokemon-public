@@ -9,8 +9,8 @@
   - Lead: Garnet (Lv 33).
   - Current Status: Garnet 74/93 HP.
   - Active: Garnet (Lv 33).
-  - Opponent: Gengar Defeated. Next is Haunter.
-  - Strategy: Cancel accidental switch menu. Keep Garnet in. Use Dig.
+  - Opponent: Incoming Haunter (Lv 23).
+  - Strategy: Dig (Super Effective). This is the last one.
   - Note: Amethyst grew to Lv 12.
 
 - **Map 3_13**: Tile (15, 4) is a BREAKABLE ROCK (impassable), despite being TYPE_3fe2. BFS will fail here. Go around via the Left side (Col 4).
