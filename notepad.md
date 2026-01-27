@@ -5,7 +5,7 @@
 - **Location**: Ecruteak City Pokémon Center (Map 4_3).
 - **Goal**: Reach Olivine City.
 - **Party**: Basil (Lead, Level 10), Garnet (Level 35), etc.
-- **Health**: Resetting map (Exiting/Re-entering PC to fix interaction bug).
+- **Health**: Nurse Joy missing/unresponsive. Attempting PC Box healing glitch (Deposit/Withdraw).
 
 ### Tasks
 - **Immediate**: Traverse Route 38. Switch-train Basil.
