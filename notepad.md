@@ -3,15 +3,14 @@
 
 ### Current Task
 - **Map 4_7**: Ecruteak Gym.
-- **Goal**: Navigate Invisible Maze and Defeat Morty (North end).
-- **Gym Status**:
-  - Sage Ping (Right side): Defeated.
-  - Medium Martha (Left side, 3, 13): Passive/Defeated.
-- **Maze Path (Hypothesis)**:
-  - Left Path: (4, 14) -> (4, 13) [Safe]. Next: Try (4, 12).
-  - Pitfalls: (7, 13).
-  - Respawn: (4, 14) or (7, 14).
-- **Party**: Garnet (Lead, Dig/Mud-Slap). 4 Awakenings.
+- **Goal**: Defeat Morty (Leader).
+- **Location**: Player at (6, 5). Morty is at (5, 1).
+- **Path**: Left to (5, 5), then Up to (5, 2).
+- **Battle Plan**:
+  - Lead: Garnet (Lv 33).
+  - Main Move: Dig (Super Effective vs Ghost/Poison).
+  - Backup: Mud-Slap (Accuracy drop), Flame Wheel.
+  - Items: 4 Awakenings (Priority use if Hypnotized).
 
 - **Map 3_13**: Tile (15, 4) is a BREAKABLE ROCK (impassable), despite being TYPE_3fe2. BFS will fail here. Go around via the Left side (Col 4).
 - **Map 3_13**: Item at (14, 2) is blocked by Breakable Rock at (15, 4). Requires Rock Smash.
