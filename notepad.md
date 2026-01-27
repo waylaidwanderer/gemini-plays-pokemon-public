@@ -5,12 +5,12 @@
 - **Map 4_7**: Ecruteak Gym.
 - **Goal**: Defeat Morty (Leader).
 - **Location**: Player at (6, 5). Morty is at (5, 1).
-- **Path**: Left to (5, 5), then Up to (5, 2).
 - **Battle Plan**:
   - Lead: Garnet (Lv 33).
-  - Main Move: Dig (Super Effective vs Ghost/Poison).
-  - Backup: Mud-Slap (Accuracy drop), Flame Wheel.
-  - Items: 4 Awakenings (Priority use if Hypnotized).
+  - Current Status: 24/93 HP.
+  - Next Opponent: Gengar (Lv 25).
+  - Strategy: STAY IN. Use Super Potion immediately. Gengar is fast and dangerous.
+  - Risk: Hypnosis/Dream Eater. Use Awakening if slept.
 
 - **Map 3_13**: Tile (15, 4) is a BREAKABLE ROCK (impassable), despite being TYPE_3fe2. BFS will fail here. Go around via the Left side (Col 4).
 - **Map 3_13**: Item at (14, 2) is blocked by Breakable Rock at (15, 4). Requires Rock Smash.
