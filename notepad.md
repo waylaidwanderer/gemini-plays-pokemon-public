@@ -12,12 +12,13 @@
   1. **Kimono Girls**: Defeat all 5 for Surf.
     - **Zuki** (Middle): Umbreon (Defeated).
     - **Sayo** (Left): Espeon (Defeated).
-    - **Status**: Garnet has NO PP for Dig or Mud-Slap. Relies solely on Flame Wheel (22 PP).
-    - **Threat**: Vaporeon (Water) will resist Fire. Be careful.
+    - **Kuni** (Right): Vaporeon (Water). CURRENT TARGET.
+    - **Strategy**: Vaporeon resists Fire & has High Sp.Def. PP for Dig/Mud-Slap is 0.
+    - **Tactics**: Use Smokescreen (Slot 3) to lower accuracy, then chip with Flame Wheel. Heal if needed.
     - **Others**: Flareon, Jolteon.
   2. **Rocket Grunt**: Interact after clearing the stage.
   - **Strategy**: Garnet (Lv34) Flame Wheel sweep.
-  - **Status**: Garnet (Healthy). Topaz (Healed).
+  - **Status**: Garnet (63/96 HP). Topaz (Healed).
 - **Reflection (Turn 14780)**:
   - **Progress**: Arrived at Dance Theater.
   - **Goal**: Win these battles.
