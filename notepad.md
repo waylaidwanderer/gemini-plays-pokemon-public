@@ -9,5 +9,5 @@
 - **Mechanics**:
   - `TYPE_fed7` is Walkable Grass (Green). Don't avoid it!
   - `TYPE_c453` is Cuttable Tree.
-- **Battle**: Schoolboy Chad defeated. Basil grew to Level 12!
-- **Strategy**: Continue West to Olivine City. Switch-training Basil.
+- **Battle**: vs Beauty Valerie (Corsola Lv 19 vs Basil Lv 12).
+- **Strategy**: Basil used Vine Whip (Super Effective). Mash A to finish or attack again. Corsola is Water/Rock (4x weak to Grass).
