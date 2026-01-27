@@ -21,7 +21,7 @@
   - Struggled with menu navigation for switching.
 - **Route 38**:
   - Beware of poison.
-- **Status**: Battle vs Wild Magnemite (Route 38).
-- **Party**: Basil (FNT), Spinarak (Confused, Critical HP), Garnet (Lv 35), Topaz (Lv 15).
-- **Task**: Switch to Garnet -> Run or Defeat Magnemite -> Heal Basil.
+- **Status**: Battle vs Wild Magnemite (Turn 2/3).
+- **Party**: Basil (FNT), Spinarak (Critical HP/Confused), Garnet (Lv 35), Topaz (Lv 15).
+- **Task**: Survive turn -> Switch to Garnet -> Run or Win.
 - **Battle Mechanics**: Menu is vertical list, wraps. Use `battle_select_move_smart`.
