@@ -21,7 +21,7 @@
   - Struggled with menu navigation for switching.
 - **Route 38**:
   - Beware of poison.
-- **Status**: Approaching Ecruteak Gate (Route 38 East end).
+- **Status**: Entering Ecruteak Gatehouse.
 - **Party**: Basil (FNT), Spinarak (FNT), Garnet (Lv 35), Topaz (Lv 15).
-- **Task**: Enter Gate (approx 35, 8) -> Enter Ecruteak -> Heal.
+- **Task**: Enter Gate -> Cross to Ecruteak City -> Heal at Center.
 - **Battle Mechanics**: Menu is vertical list, wraps. Use `battle_select_move_smart`.
