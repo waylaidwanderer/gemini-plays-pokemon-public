@@ -9,6 +9,5 @@
 - **Mechanics**:
   - `TYPE_fed7` is Walkable Grass (Green). Don't avoid it!
   - `TYPE_c453` is Cuttable Tree.
-- **Goals**:
-  - Battle Schoolboy Chad.
-  - Reach Olivine City.
+- **Battle**: vs Schoolboy Chad (Mr. Mime Lv 19 vs Basil Lv 10).
+- **Strategy**: Basil stuck in turn (Mr. Mime used Barrier). Switch to Garnet ASAP! Use Flame Wheel (Special) to bypass Barrier.
