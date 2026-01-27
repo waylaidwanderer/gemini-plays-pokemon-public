@@ -21,10 +21,6 @@
   - Struggled with menu navigation for switching.
 - **Route 38**:
   - Beware of poison.
-- **Battle Emergency**: Accidentally switched in Bolin (Lv 8) vs Skiploom (Lv 17).
-- **Action**: Must switch to Garnet immediately.
-- **Status**: Garnet is Poisoned (48/98 HP). Skiploom is Grass/Flying (weak to Fire).
-- **Battle Update**: Switched Garnet in. Skiploom will attack this turn.
-- **Next**: Clear text -> Fight -> Flame Wheel.
-- **Emergency Update**: Garnet fainted (Poison/Damage?).
-- **Action**: Switching to Topaz (Lv 15, Flying) to counter Skiploom.
+- **Battle Status**: Topaz (Lv 15) vs Skiploom (Lv 17).
+- **Strategy**: Use Gust (Flying STAB) to exploit weakness.
+- **Logistics**: Garnet fainted. Must revive/heal at Olivine or back at Ecruteak if needed.
