@@ -14,8 +14,9 @@
     - **Sayo** (Left): Espeon (Defeated).
     - **Kuni** (Right): Vaporeon (Water). CURRENT TARGET.
     - **Strategy**: Vaporeon resists Fire.
-    - **Damage Check**: Vaporeon deals ~16 dmg. Garnet at 47/96 HP (Safe for ~2 more hits).
-    - **Next**: Clear text -> Use SMOKESCREEN (Slot 3) to blind it -> Chip with Flame Wheel.
+    - **Damage Check**: Vaporeon deals ~16 dmg. Garnet at 47/96 HP.
+    - **Action**: Clearing text -> Selecting Smokescreen (Slot 3) to blind Vaporeon.
+    - **Backup**: If Smokescreen fails/misses, heal with Super Potion.
     - **Others**: Flareon, Jolteon.
   2. **Rocket Grunt**: Interact after clearing the stage.
   - **Status**: Garnet (47/96 HP). Topaz (Healed).
