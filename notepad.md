@@ -21,6 +21,6 @@
   - Struggled with menu navigation for switching.
 - **Route 38**:
   - Beware of poison.
-- **Status**: Retreating to Ecruteak to heal Garnet (Fainted).
-- **Party**: Basil (Lv 10), Garnet (Lv 35 - FNT), Topaz (Lv 15).
-- **Task**: Heal -> Return to Route 38.
+- **Status**: Resuming journey to Olivine City.
+- **Party**: Basil (Lv 10), Garnet (Lv 35), Topaz (Lv 15).
+- **Task**: Travel Route 38 -> Route 39 -> Olivine.
