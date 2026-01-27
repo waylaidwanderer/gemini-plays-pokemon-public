@@ -13,11 +13,12 @@
     - **Zuki** (Middle): Umbreon (Defeated).
     - **Sayo** (Left): Espeon (Defeated).
     - **Kuni** (Right): Vaporeon (Water). CURRENT TARGET.
-    - **Strategy**: Vaporeon resists Fire. Used Flame Wheel (accidental/tool fail, not effective).
-    - **Next**: clear text, let Vaporeon attack, then use SMOKESCREEN (Slot 3) to blind it.
+    - **Strategy**: Vaporeon resists Fire.
+    - **Damage Check**: Vaporeon deals ~16 dmg. Garnet at 47/96 HP (Safe for ~2 more hits).
+    - **Next**: Clear text -> Use SMOKESCREEN (Slot 3) to blind it -> Chip with Flame Wheel.
     - **Others**: Flareon, Jolteon.
   2. **Rocket Grunt**: Interact after clearing the stage.
-  - **Status**: Garnet (63/96 HP). Topaz (Healed).
+  - **Status**: Garnet (47/96 HP). Topaz (Healed).
 - **Reflection (Turn 14780)**:
   - **Progress**: Arrived at Dance Theater.
   - **Goal**: Win these battles.
