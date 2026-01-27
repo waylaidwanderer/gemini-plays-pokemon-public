@@ -10,7 +10,8 @@
   - Current Status: Garnet 74/93 HP.
   - Active: Garnet (Lv 33).
   - Opponent: Incoming Haunter (Lv 23).
-  - Strategy: Dig (Super Effective). This is the last one.
+  - Status: Dig is out of PP (0/10).
+  - Strategy: Use Flame Wheel (Strongest Move). Do NOT use Ether (Risk of Sleep).
   - Note: Amethyst grew to Lv 12.
 
 - **Map 3_13**: Tile (15, 4) is a BREAKABLE ROCK (impassable), despite being TYPE_3fe2. BFS will fail here. Go around via the Left side (Col 4).
