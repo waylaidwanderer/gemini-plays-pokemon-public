@@ -9,17 +9,14 @@
 - **Next**: Exit Mart -> Kimono Girls (Dance Theater).
 
 - **Battle Plan**:
-  1. **Kimono Girls**: Defeat all 5 for Surf.
-    - **Zuki** (Middle): Umbreon (Defeated).
-    - **Sayo** (Left): Espeon (Defeated).
-    - **Kuni** (Right): Vaporeon (Water). CURRENT TARGET.
-    - **Strategy**: Vaporeon resists Fire.
-    - **Damage Check**: Vaporeon deals ~16 dmg. Garnet at 47/96 HP.
-    - **Action**: Clearing text -> Selecting Smokescreen (Slot 3) to blind Vaporeon.
-    - **Backup**: If Smokescreen fails/misses, heal with Super Potion.
-    - **Others**: Flareon, Jolteon.
+  - **Current**: Kimono Girl Kuni (Vaporeon).
+  - **Status**: Garnet 30/96 HP. Vaporeon Burned (~80% HP).
+  - **Strategy**: Use Smokescreen (Slot 3) to blind Vaporeon, then Flame Wheel.
+  - **Contingency**: Heal with Super Potion if HP < 20.
+  - **Next**: Clear "Super Effective" text -> Handle Burn damage -> Select Smokescreen.
+  - **Remaining**: Flareon, Jolteon.
   2. **Rocket Grunt**: Interact after clearing the stage.
-  - **Status**: Garnet (47/96 HP). Topaz (Healed).
+  - **Status**: Garnet (30/96 HP). Topaz (Healed).
 - **Reflection (Turn 14780)**:
   - **Progress**: Arrived at Dance Theater.
   - **Goal**: Win these battles.
