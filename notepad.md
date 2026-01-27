@@ -25,3 +25,7 @@
   - **Hygiene**: Notepad and markers are clean.
   - **Goal**: Clear the theater, get Surf.
 - **Correction**: Blocked by Kuni at (9,1). Rerouting to (11,2).
+- **Reflection (Turn 14884)**:
+  - **Mechanic**: Battle Move List is vertical (1 column), not 2x2 grid. Manual navigation required to ensure correct selection.
+  - **Critical**: Out of Ground-type PP (Dig/Mud-Slap). Must brute-force Naoko with Flame Wheel.
+  - **Status**: Garnet is strong enough (Lv 34 vs 17) to ignore resistance.
