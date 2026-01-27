@@ -9,5 +9,5 @@
 - **Mechanics**:
   - `TYPE_fed7` is Walkable Grass (Green). Don't avoid it!
   - `TYPE_c453` is Cuttable Tree.
-- **Battle**: vs Schoolboy Chad (Mr. Mime Lv 19 vs Basil Lv 10).
-- **Strategy**: Basil stuck in turn (Mr. Mime used Barrier). Switch to Garnet ASAP! Use Flame Wheel (Special) to bypass Barrier.
+- **Battle**: vs Schoolboy Chad (Mr. Mime Lv 19 vs Garnet Lv 35).
+- **Strategy**: Garnet switched in. Use Flame Wheel to attack.
