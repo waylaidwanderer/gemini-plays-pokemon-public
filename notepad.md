@@ -8,7 +8,7 @@
 - **Health**: Garnet is Poisoned (PSN).
 
 ### Tasks
-- **Immediate**: Win battle vs Lass Dana. Switch-train Basil.
+- **Immediate**: Retreat to Ecruteak and heal.
 - **Short-term**: Reach Olivine City. Heal Garnet's poison.
 - **Long-term**: Get badges, beat Elite Four.
 
