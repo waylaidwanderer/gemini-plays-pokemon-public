@@ -3,16 +3,9 @@
 
 ### Current Task
 - **Map 4_7**: Ecruteak Gym.
-- **Goal**: Defeat Morty (Leader).
-- **Location**: Player at (6, 5). Morty is at (5, 1).
-- **Battle Plan**:
-  - Lead: Garnet (Lv 33).
-  - Current Status: Garnet 74/93 HP.
-  - Active: Garnet (Lv 33).
-  - Opponent: Incoming Haunter (Lv 23).
-  - Status: Dig is out of PP (0/10).
-  - Strategy: Use Flame Wheel (Strongest Move). Do NOT use Ether (Risk of Sleep).
-  - Note: Amethyst grew to Lv 12.
+- **Goal**: Defeated Morty! Earned Fog Badge.
+- **Badge Effect**: Pokémon up to Lv 50 obey. Can use Surf out of battle.
+- **Next**: Heal, then maybe check the Towers or head West to Route 38.
 
 - **Map 3_13**: Tile (15, 4) is a BREAKABLE ROCK (impassable), despite being TYPE_3fe2. BFS will fail here. Go around via the Left side (Col 4).
 - **Map 3_13**: Item at (14, 2) is blocked by Breakable Rock at (15, 4). Requires Rock Smash.
