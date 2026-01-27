@@ -10,4 +10,4 @@
   - `TYPE_fed7` is Walkable Grass (Green). Don't avoid it!
   - `TYPE_c453` is Cuttable Tree.
 - **Battle**: vs Beauty Valerie (Corsola Lv 19 vs Basil Lv 12).
-- **Strategy**: Basil is faster! Vine Whip again to finish it. Corsola boosted Defense.
+- **Strategy**: Basil used Vine Whip again. Corsola should faint.
