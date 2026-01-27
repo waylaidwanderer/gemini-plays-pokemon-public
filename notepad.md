@@ -27,10 +27,9 @@
   - **Strategy**: Switching Garnet out to clear Curse/Paralysis danger. Topaz (Normal/Flying) is immune to Ghost moves.
   - **Gym Maze**: Documenting safe path. Pitfall at (7, 13).
   - **Next**: Defeat Sage Ping, then heal if needed.
-- Battle Status: Topaz fainted. Menu opening.
-- Strategy: Send Amethyst (Slot 3).
-- Tactics:
-  1. Amethyst (Normal) is immune to Night Shade/Lick.
-  2. While Amethyst walls, heal Garnet (Super Potion, Parlyz Heal).
-  3. If Amethyst trapped (Mean Look), wait for faint, then send healthy Garnet.
-  4. If not trapped, switch to Garnet once healthy.
+- Battle Status: Bolin (Trapped) vs Gastly.
+- Mistake: Sent Bolin instead of Amethyst.
+- Strategy: Use Bolin as a meat shield to heal Garnet.
+- Action: Finding Super Potion in Pack.
+- Plan: Heal Garnet to full. Keep Paralysis (Anti-Hypnosis).
+- Next: When Bolin faints, switch to Garnet and sweep.
