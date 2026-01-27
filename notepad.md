@@ -35,3 +35,5 @@
 - **Logistics**: Garnet healed and PP restored.
 - **Current Task**: Exit Ecruteak PC -> West Gate -> Route 38.
 - **Map Note**: 4_3 is Ecruteak PC.
+- **Task**: Teach Surf to a Pokémon (e.g., Psyduck) before reaching the ocean.
+- **Badge Check**: Fog Badge allows Surf outside battle. I can use it now.
