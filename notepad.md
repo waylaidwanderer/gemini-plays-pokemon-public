@@ -24,3 +24,4 @@
   - **Plan**: Switch to Flame Wheel (Slot 4).
   - **Hygiene**: Notepad and markers are clean.
   - **Goal**: Clear the theater, get Surf.
+- **Correction**: Blocked by Kuni at (9,1). Rerouting to (11,2).
