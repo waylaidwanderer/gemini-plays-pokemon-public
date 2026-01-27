@@ -11,8 +11,8 @@
   - Next Opponent: Gengar (Lv 25).
   - Strategy: Topaz was already FNT (My mistake). Amethyst is now active.
   - Matchup: Amethyst (Normal) is immune to Shadow Ball.
-  - Plan: Use Super Potion on Garnet (Safety first). Amethyst is fodder/wall.
-  - Note: If Amethyst gets trapped (Mean Look), we wait for her to faint (Hypnosis+Dream Eater) or struggle.
+  - Plan: Correcting input error. Press B to clear "No Effect", then Up, Up to select Garnet (Slot 1).
+  - Note: Amethyst is active (Slot 3). Super Potion must be applied to Garnet.
 
 - **Map 3_13**: Tile (15, 4) is a BREAKABLE ROCK (impassable), despite being TYPE_3fe2. BFS will fail here. Go around via the Left side (Col 4).
 - **Map 3_13**: Item at (14, 2) is blocked by Breakable Rock at (15, 4). Requires Rock Smash.
