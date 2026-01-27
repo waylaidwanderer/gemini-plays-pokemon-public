@@ -5,11 +5,11 @@
 - **Location**: Route 38 (Map 1_12).
 - **Goal**: Reach Olivine City.
 - **Party**: Basil (Lead, Level 10), Garnet (Level 35), etc.
-- **Health**: Garnet is Poisoned (PSN).
+- **Health**: All Healthy.
 
 ### Tasks
-- **Immediate**: Retreat to Ecruteak and heal.
-- **Short-term**: Reach Olivine City. Heal Garnet's poison.
+- **Immediate**: Travel to Route 38.
+- **Short-term**: Reach Olivine City.
 - **Long-term**: Get badges, beat Elite Four.
 
 ### Notes
