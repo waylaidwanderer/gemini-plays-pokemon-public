@@ -10,9 +10,10 @@
 
 - **Kimono Girls Gauntlet**:
   - **Defeated**: Umbreon, Espeon, Vaporeon.
-  - **Remaining**: Flareon, Jolteon.
-  - **Status**: Garnet (80/96 HP). Super Potion used.
-  - **Strategy**: Flame Wheel sweep. Use Smokescreen (Slot 3) if needed.
+  - **Current**: Miki (Jolteon).
+  - **Remaining**: Flareon.
+  - **Status**: Garnet (80/96 HP).
+  - **Strategy**: Flame Wheel sweep.
 - **Rocket Grunt**: Interact after clearing the stage.
 - **Reflection (Turn 14780)**:
   - **Progress**: Arrived at Dance Theater.
