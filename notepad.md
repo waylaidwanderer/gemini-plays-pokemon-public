@@ -12,3 +12,4 @@
 - **Status**: Garnet evolved into Typhlosion!
 - **Route 39**: Heading South to Olivine City.
 - **Party**: Basil (Lead, 0 PP Vine Whip), Garnet (Typhlosion), etc.
+- **Battle**: Pokéfan Derek (Route 39). Pikachu Lv17 vs Basil. Switching to Garnet.
