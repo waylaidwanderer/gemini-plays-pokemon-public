@@ -10,10 +10,11 @@
 
 - **Battle Plan**:
   - **Current**: Kimono Girl Kuni (Vaporeon).
-  - **Status**: Garnet 30/96 HP. Vaporeon Burned (~80% HP).
-  - **Strategy**: Use Smokescreen (Slot 3) to blind Vaporeon, then Flame Wheel.
-  - **Contingency**: Heal with Super Potion if HP < 20.
-  - **Next**: Clear "Super Effective" text -> Handle Burn damage -> Select Smokescreen.
+  - **Status**: Garnet 30/96 HP (CRITICAL - Risk of Crit Death). Vaporeon Burned.
+  - **Turn Order**: Vaporeon moved FIRST last turn? (Possible Quick Claw or Speed tie loss).
+  - **Immediate Action**: HEAL with Super Potion.
+  - **Sequence**: Clear text -> Burn Damage -> Open Pack -> Super Potion.
+  - **Next**: Once healthy, use Smokescreen.
   - **Remaining**: Flareon, Jolteon.
   2. **Rocket Grunt**: Interact after clearing the stage.
   - **Status**: Garnet (30/96 HP). Topaz (Healed).
