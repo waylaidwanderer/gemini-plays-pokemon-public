@@ -36,3 +36,5 @@
   - **Lesson**: Mud-Slap hits Gastly (No Levitate in Gen 2).
   - **Plan**: Teach TM28 (Dig) to Garnet for high-power Ground coverage.
 - **Immediate Task**: Heal -> Teach Dig -> Buy Potions -> Re-enter Gym.
+### Mechanics
+- **Ecruteak Gym**: Falling into a pitfall warps to the entrance. Intentionally stepping on one is faster than walking back.
