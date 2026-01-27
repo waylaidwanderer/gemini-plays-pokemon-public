@@ -9,10 +9,9 @@
 - **Next**: Exit Mart -> Kimono Girls (Dance Theater).
 
 - **Kimono Girls Gauntlet**:
-  - **Defeated**: Umbreon, Espeon, Vaporeon, Jolteon.
-  - **Remaining**: Flareon (Naoko).
-  - **Status**: Garnet (80/96 HP, -1 Def).
-  - **Strategy**: Find Naoko (likely on the Left side). Flame Wheel.
+  - **Defeated**: Umbreon, Espeon, Vaporeon, Jolteon, Flareon.
+  - **Status**: All defeated!
+  - **Next**: Talk to Gentleman at (7, 9) for Surf.
 - **Rocket Grunt**: Interact after clearing the stage.
 - **Reflection (Turn 14780)**:
   - **Progress**: Arrived at Dance Theater.
