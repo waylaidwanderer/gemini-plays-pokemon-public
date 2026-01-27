@@ -22,5 +22,5 @@
 - **Route 38**:
   - Beware of poison.
 - **Battle Status**: Topaz (Lv 15) vs Skiploom (Lv 17).
-- **Strategy**: Use Gust (Flying STAB) to exploit weakness.
-- **Logistics**: Garnet fainted. Must revive/heal at Olivine or back at Ecruteak if needed.
+- **Strategy**: Use Gust (Flying STAB).
+- **Logistics**: Garnet fainted (0 HP). Needs revival.
