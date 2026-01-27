@@ -21,7 +21,7 @@
   - Struggled with menu navigation for switching.
 - **Route 38**:
   - Beware of poison.
-- **Status**: Encountered Trainer at (24, 4) (Says "I've been overseas...").
+- **Status**: Battle vs Trainer (Wooper).
 - **Party**: Basil (FNT), Spinarak (FNT), Garnet (Lv 35), Topaz (Lv 15).
-- **Task**: Win battle -> Travel East to Ecruteak Gate -> Heal.
+- **Task**: Finish Dig -> Win Battle -> Retreat to Ecruteak.
 - **Battle Mechanics**: Menu is vertical list, wraps. Use `battle_select_move_smart`.
