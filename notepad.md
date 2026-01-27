@@ -7,11 +7,11 @@
 - **Location**: Player at (6, 5). Morty is at (5, 1).
 - **Battle Plan**:
   - Lead: Garnet (Lv 33).
-  - Current Status: 24/93 HP.
-  - Next Opponent: Gengar (Lv 25).
-  - Strategy: Amethyst (Normal) is active meat shield (immune to Ghost).
-  - Action: Applying Super Potion to Garnet (Slot 1) while Amethyst takes the hit.
-  - Note: Gengar will likely use Hypnosis.
+  - Current Status: Garnet 74/93 HP.
+  - Active: Amethyst (Normal).
+  - Opponent: Gengar.
+  - Strategy: Amethyst tanks the hit (Ghost immunity). If Amethyst survives/faints, switch Garnet in safely.
+  - Threat: Hypnosis (Sleep).
 
 - **Map 3_13**: Tile (15, 4) is a BREAKABLE ROCK (impassable), despite being TYPE_3fe2. BFS will fail here. Go around via the Left side (Col 4).
 - **Map 3_13**: Item at (14, 2) is blocked by Breakable Rock at (15, 4). Requires Rock Smash.
