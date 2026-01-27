@@ -4,12 +4,11 @@
 ### Current Task
 - **Map 4_3**: Ecruteak City Pokémon Center.
 - **Goal**: Heal Team & Adjust Party.
-- **Status**: Topaz Fainted, Garnet Low PP.
+- **Status**: Headache (Psyduck) withdrawn. Topaz Fainted.
 - **Plan**:
   1. Heal at Nurse Joy.
-  2. PC: Deposit Amethyst (Lv 12 Rattata), Withdraw Headache (Psyduck) for Surf.
-  3. Buy Super Potions/Repels at Mart.
-  4. Go to Dance Theater (Ecruteak) to battle Kimono Girls and get HM03 Surf.
+  2. Buy Super Potions/Repels at Mart.
+  3. Go to Dance Theater (Ecruteak) to battle Kimono Girls and get HM03 Surf.
 
 - **Map 3_13**: Tile (15, 4) is a BREAKABLE ROCK (impassable), despite being TYPE_3fe2. BFS will fail here. Go around via the Left side (Col 4).
 - **Map 3_13**: Item at (14, 2) is blocked by Breakable Rock at (15, 4). Requires Rock Smash.
