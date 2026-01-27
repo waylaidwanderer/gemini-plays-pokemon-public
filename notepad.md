@@ -9,10 +9,11 @@
 - **Next**: Exit Mart -> Kimono Girls (Dance Theater).
 
 - **Battle Plan**:
-  1. **Kimono Girls**: Defeat all 5 for Surf (Flareon, Espeon, Umbreon, Vaporeon, Jolteon).
+  1. **Rocket Grunt**: Defeat him to save the girl.
+  2. **Kimono Girls**: Defeat all 5 for Surf (Flareon, Espeon, Umbreon, Vaporeon, Jolteon).
   - **Strategy**: Garnet (Lv34) Flame Wheel sweep.
   - **Status**: Garnet (Healthy). Topaz (Healed).
-  - **Note**: Rocket Grunt was not present. Proceeding to Kimono Girls directly.
+  - **Correction**: Rocket Grunt IS present. He is bragging about beating the Kimono Girls. Proceeding to battle him.
 - **Reflection (Turn 14780)**:
   - **Progress**: Arrived at Dance Theater.
   - **Goal**: Win these battles.
