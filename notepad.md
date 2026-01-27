@@ -2,11 +2,13 @@
 - Started: Friday, January 16, 2026
 
 ### Current Task
-- **Map 4_9**: Ecruteak City.
-- **Goal**: Defeat Morty at Ecruteak Gym (6, 27).
-- **Status**: Legendary Beasts released. Team healed. Garnet (Lv 32) should sweep with Mud-Slap/Flame Wheel.
-- **Gym Strategy**: The gym has an invisible floor maze. Must follow the correct path to reach Morty.
-- **Team**: Garnet is the carry. Mud-Slap is super effective vs Ghost/Poison. Flame Wheel is backup.
+- **Map 4_7**: Ecruteak Gym.
+- **Goal**: Defeat Morty. He is at the North end of the gym.
+- **Gym Maze**: Invisible floor.
+  - Safe: (7, 16) -> (8, 16) -> (8, 15) -> (8, 14) -> (7, 14).
+  - Pitfall: (7, 13).
+  - Respawn: (4, 14).
+- **Plan**: Test path North from (4, 14). Try (4, 13).
 
 - **Map 3_13**: Tile (15, 4) is a BREAKABLE ROCK (impassable), despite being TYPE_3fe2. BFS will fail here. Go around via the Left side (Col 4).
 - **Map 3_13**: Item at (14, 2) is blocked by Breakable Rock at (15, 4). Requires Rock Smash.
