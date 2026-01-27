@@ -10,5 +10,5 @@
   - `TYPE_fed7` is Walkable Grass (Green). Don't avoid it!
   - `TYPE_c453` is Cuttable Tree.
 - **Battle**: vs Pokéfan Ruth (Pikachu Lv 17).
-- **Strategy**: Switch failed (Input error). Finish turn, then switch to Garnet.
+- **Strategy**: Clear text, then switch to Garnet (Slot 3) to counter Double Team.
 - **Route 39**: Heading South to Olivine.
