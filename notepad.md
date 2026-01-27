@@ -21,12 +21,7 @@
   - Struggled with menu navigation for switching.
 - **Route 38**:
   - Beware of poison.
-- **Status**: Battle vs Bird Keeper Toby (Part 2).
+- **Status**: Returning to Ecruteak to heal Basil (Fainted).
 - **Party**: Basil (FNT), Garnet (Lv 35), Topaz (Lv 15).
-- **Task**: Win battle -> Return to Ecruteak to heal Basil.
-- **Battle Mechanics**:
-  - Menu remembers last selection.
-  - Menu WRAPS.
-  - `battle_select_move_smart` tracks cursor relative to `current_slot`.
-- **Status**: Battle won. Basil Fainted.
-- **Task**: Retreat to Ecruteak Center -> Return to Route 38.
+- **Task**: Return to Ecruteak -> Buy Potions -> Heal -> Return to Route 38.
+- **Battle Mechanics**: Menu is vertical list, wraps. Use `battle_select_move_smart` and track cursor.
