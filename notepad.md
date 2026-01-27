@@ -8,14 +8,12 @@
 - **Correction**: I do NOT have TM28 (Dig). Plan: Rely on Flame Wheel (90 BP with STAB) vs Mud-Slap (40 BP with SE).
 - **Next**: Exit Mart -> Kimono Girls (Dance Theater).
 
-- **Battle Plan**:
-  - **Status**: Vaporeon Defeated (Burn/Chip).
-  - **Garnet**: 30/96 HP. Needs HEALING.
+- **Kimono Girls Gauntlet**:
+  - **Defeated**: Umbreon, Espeon, Vaporeon.
   - **Remaining**: Flareon, Jolteon.
-  - **Strategy**: Heal -> Find next girl -> Flame Wheel.
-  - **Notes**: Vaporeon went down unexpectedly fast (Burn damage?). Money not yet collected.
-  2. **Rocket Grunt**: Interact after clearing the stage.
-  - **Status**: Garnet (30/96 HP). Topaz (Healed).
+  - **Status**: Garnet (30/96 HP) - **CRITICAL: HEAL NOW**.
+  - **Strategy**: Use Super Potion -> Flame Wheel sweep.
+- **Rocket Grunt**: Interact after clearing the stage.
 - **Reflection (Turn 14780)**:
   - **Progress**: Arrived at Dance Theater.
   - **Goal**: Win these battles.
