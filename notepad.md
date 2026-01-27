@@ -21,9 +21,8 @@
   - Struggled with menu navigation for switching.
 - **Route 38**:
   - Beware of poison.
-- **Status**: Exploring Route 38 Westbound.
+- **Status**: Backtracking East on Route 38 (Ledge Trap).
 - **Party**: Basil (FNT), Garnet (Lv 35), Topaz (Lv 15).
-- **Task**: Cut tree -> Find path to main road -> Heal at Miltank Farm or Olivine?
-- **Exploration**: Tree at (7, 14) is NOT a Cut tree (uncuttable wall).
-- **Correction**: Found a path south at y=16. Navigating west through (7, 16).
-- **Mechanics**: Fainted Pokemon CAN use field moves.
+- **Task**: Find a way back up to the main road (North/West blockage confirmed).
+- **Exploration**: West path at (4, 16) is a dead end. Tree wall at x=7 seems impassable.
+- **Battle Mechanics**: Menu is vertical list, wraps. Use `battle_select_move_smart`.
