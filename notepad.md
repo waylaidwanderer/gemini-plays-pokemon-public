@@ -28,5 +28,7 @@
   - **Gym Maze**: Documenting safe path. Pitfall at (7, 13).
   - **Next**: Defeat Sage Ping, then heal if needed.
 - Battle Status: Topaz is Cursed and Trapped.
-- Action: Closing Party Menu, switching to Gust.
-- Note: 'It doesn't affect' msg confirms I used Tackle (Normal) previously. Gust (Flying) will hit.
+- Critical: Clearing text ("It doesn't affect" -> "But it failed!").
+- Plan: Spam B to clear text safely.
+- Next Turn: Use 'battle_select_move(slot=3)' for GUST. Do not manually navigate to avoid input dropping.
+- Urgency: Topaz has ~2 turns left due to Curse + Night Shade. Must hit.
