@@ -27,11 +27,10 @@
   - **Strategy**: Switching Garnet out to clear Curse/Paralysis danger. Topaz (Normal/Flying) is immune to Ghost moves.
   - **Gym Maze**: Documenting safe path. Pitfall at (7, 13).
   - **Next**: Defeat Sage Ping, then heal if needed.
-- Battle Status: Topaz (2 HP) -> Fainting this turn.
-- Next: Switch to Garnet (Paralyzed, 21 HP).
-- Garnet Strategy:
-  1. Turn 1: Use SUPER POTION on Garnet.
-     - Buffer HP to survive Hypnosis + Night Shade spam.
-     - Do NOT attack or heal paralysis yet (risk of Hypnosis death).
-  2. Turn 2+: Once HP is high, Attack or Heal Paralysis.
-- Amethyst (Rattata) is immune to Night Shade (Normal vs Ghost in Gen 2). Good backup wall.
+- Battle Status: Topaz fainted. Menu opening.
+- Strategy: Send Amethyst (Slot 3).
+- Tactics:
+  1. Amethyst (Normal) is immune to Night Shade/Lick.
+  2. While Amethyst walls, heal Garnet (Super Potion, Parlyz Heal).
+  3. If Amethyst trapped (Mean Look), wait for faint, then send healthy Garnet.
+  4. If not trapped, switch to Garnet once healthy.
