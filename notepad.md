@@ -8,8 +8,9 @@
 - **Correction**: I do NOT have TM28 (Dig). Plan: Rely on Flame Wheel (90 BP with STAB) vs Mud-Slap (40 BP with SE).
 - **Next**: Exit Mart -> Kimono Girls (Dance Theater).
 
-- **Battle Plan**: Defeat all 5 Kimono Girls to get Surf.
-  - **Opponents**: Flareon, Espeon, Umbreon, Vaporeon, Jolteon.
+- **Battle Plan**:
+  1. **Rocket Grunt**: Defeat him to save the girl.
+  2. **Kimono Girls**: Defeat all 5 for Surf (Flareon, Espeon, Umbreon, Vaporeon, Jolteon).
   - **Strategy**: Garnet (Lv34) Flame Wheel sweep.
   - **Status**: Garnet (Healthy). Topaz (Healed).
 - **Reflection (Turn 14780)**:
