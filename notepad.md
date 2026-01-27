@@ -17,3 +17,4 @@
   - Hypothesis: Rock Smash opens path to new area or item. Beasts might be elsewhere (B1F center).
 - **Loot**: Found HP Up at (14, 2) in Burned Tower 1F.
 - **Mapping**: Warp/Hole located at (10, 9) in Burned Tower 1F. Expecting drop to B1F center.
+- **Discovery**: Found the Legendary Beasts (Raikou, Entei, Suicune) at (10, 6) in Burned Tower B1F.
