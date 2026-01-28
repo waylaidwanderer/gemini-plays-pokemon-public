@@ -3,7 +3,7 @@
 
 ### Current Status
 - **Location**: Route 41 (22_2). Entered from West. Exploring North-East quadrant?
-- **Navigation Strategy**: Defeated Swimmer Mathew at (19, 44). Proceeding South to (19, 46) to pick up the item and check for a path to Cianwood.
+- **Navigation Strategy**: Cleared battle with Swimmer Mathew. Moving around him (Left path) to retrieve item at (19, 46) and explore South.
 - **Reflection**: Turn 16285. Navigating Route 41 is slow due to battles and whirlpools. Strategy: Clear swimmers, check unseen tiles for paths South.
 - **Party**: Garnet (Lvl 39), Headache (Surf).
 - **Quest**: Reach Cianwood City (Start: Turn 15979).
