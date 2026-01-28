@@ -7,6 +7,6 @@
 
 ### Notes
 - **Strategy**: Explore Olivine City. Locate Pokémon Center to heal team. Find Jasmine (Gym Leader) at the Lighthouse.
-- **Status**: Garnet evolved into Typhlosion! Silver left. Searching for PC.
+- **Status**: Garnet evolved into Typhlosion! Healing at Pokémon Center.
 - **Quest**: Heal Sick Miltank (Moomoo Farm). Gave 1 Berry. Needs more (approx 4-6 more regular Berries).
 - **Trainer Defeated**: Sailor Eugene (Route 39).
