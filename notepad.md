@@ -13,6 +13,6 @@
 - **Route 39**: Heading South to Olivine City.
 - **Party**: Basil (Lead, 0 PP Vine Whip), Garnet (Typhlosion), etc.
 - **Trainer Defeated**: Pokéfan Derek (Route 39).
-- **Status**: Basil reached Lv14. Vine Whip is out of PP.
+
 - **Trainer Defeated**: Psychic Norman (Route 39).
 - **Quest**: Heal Sick Miltank (Moomoo Farm). Gave 1 Berry. Needs more (currently 0 in inventory).
