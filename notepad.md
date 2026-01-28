@@ -15,4 +15,4 @@
 - **Trainer Defeated**: Pokéfan Derek (Route 39).
 - **Status**: Basil reached Lv14. Vine Whip is out of PP.
 - **Trainer Defeated**: Psychic Norman (Route 39).
-- **Quest**: Heal Sick Miltank (Moomoo Farm). Needs regular Berries.
+- **Quest**: Heal Sick Miltank (Moomoo Farm). Gave 1 Berry. Needs more (currently 0 in inventory).
