@@ -3,7 +3,7 @@
 
 ### Current Status
 - **Location**: Route 41 (22_2). Entered from West. Exploring North-East quadrant?
-- **Navigation Strategy**: Column 24 blocked by whirlpools at Row 39. Shifting West to Column 23, which appears clear to the South.
+- **Navigation Strategy**: Path South at Column 23 blocked by rocks at Row 46. Moving West to Column 19 to collect visible item and find a passage South.
 - **Reflection**: 50 turns passed. Goal remains Cianwood. Current obstacle: Navigation Maze. Creating `scan_map_perimeter` tool to help finding exits.
 - **Party**: Garnet (Lvl 39), Headache (Surf).
 - **Quest**: Reach Cianwood City (Start: Turn 15979).
