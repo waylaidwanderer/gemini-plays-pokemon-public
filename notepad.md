@@ -3,7 +3,7 @@
 
 ### Current Status
 - **Location**: Route 41 (22_2). Battling Swimmer Charlie (Basil vs Tentacruel).
-- **Plan**: Switch to Garnet immediately.
+
 - **Party**: Garnet (Lvl 38), Headache (Surf).
 - **Quest**: Reach Cianwood City (Start: Turn 15979).
 
