@@ -2,9 +2,9 @@
 - Started: Friday, January 16, 2026
 
 ### Current Status
-- **Location**: Route 41 (22_3), at (13, 18).
-- **Navigation Strategy**: Blocked North by Row 15 walls/whirlpools and West by Row 18 walls/whirlpools. Must head East into the map transition (Blue Zone) to enter the Eastern section of Route 41, then navigate North to circle back to Cianwood.
-- **Reflection**: Direct path North/West is impossible without Whirlpool. The gap at (11, 15) is a dead end. The gap at (23, 15) is in the East map.
+- **Location**: Route 41 (22_3), at (13, 16).
+- **Navigation Strategy**: Recovering from navigation error. Heading West to x=6 via Row 18, then South to Row 33 to access the East Map (22_2) transition at (29, 33).
+- **Reflection**: Previous pathfinding failed due to incorrect walkable types. The path West through Row 18 seems clear in the Mental Map.
 - **Party**: Garnet (Lvl 40), Headache (Surf).
 - **Quest**: Reach Cianwood City (Start: Turn 15979).
 
