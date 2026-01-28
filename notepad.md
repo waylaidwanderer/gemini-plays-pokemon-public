@@ -8,9 +8,9 @@
 ### Lighthouse Navigation
 - **1F**: Entrance (10, 17). Stairs Up (3, 11).
 - **2F**: Stairs Down (3, 11). Stairs Up to 3F at (5, 3).
-- **3F**: Stairs Down at (5, 3). Stairs Up to 4F at (13, 3).
-- **4F**: Stairs Down at (13, 3). Stairs Up to 5F at (3, 5).
-- **5F**: Exploring.
+- **3F (3_44)**: Main stairs (13, 3) <-> 4F. Center stairs (9, 5) guarded by Sailor -> Likely to 4F Center.
+- **4F (3_45)**: Main stairs (13, 3) <-> 3F. Stairs (3, 5) <-> 5F Left. Hole/Drop leads to 3F Center?
+- **Plan**: Defeated Sailor on 3F. Take stairs at (9, 5) UP to 4F Center.
 
 ### Notes
 - **Strategy**: Explore Olivine City. Locate Pokémon Center to heal team. Find Jasmine (Gym Leader) at the Lighthouse.
