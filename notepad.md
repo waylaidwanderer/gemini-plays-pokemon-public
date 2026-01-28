@@ -17,3 +17,4 @@
 - **Quest**: Heal Sick Miltank (Moomoo Farm). Gave 1 Berry. Needs more (approx 4-6 more regular Berries).
 - **Quest**: Heal Amphy (Ampharos) at Lighthouse. Jasmine is with it. Need to cure it to challenge her.
 - **Hint**: Gentleman Preston mentions Jasmine *used to* use Rock Pokémon like Onix. Implies she might have switched types (likely Steel).
+- **Hint**: Sailor Kent suggests the Pharmacy in Cianwood has medicine.
