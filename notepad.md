@@ -3,7 +3,7 @@
 
 ### Current Status
 - **Location**: Route 41 (22_2). Entered from West. Exploring North-East quadrant?
-- **Navigation Strategy**: In battle with Swimmer Mathew at (19, 44). Using Garnet to power through. Will continue South after victory.
+- **Navigation Strategy**: In battle with Swimmer Mathew. Accidentally used Mud-Slap (Menu is a vertical list, Right button did nothing). Next turn: Use Down x3 to reach Flame Wheel.
 - **Reflection**: Turn 16285. Navigating Route 41 is slow due to battles and whirlpools. Strategy: Clear swimmers, check unseen tiles for paths South.
 - **Party**: Garnet (Lvl 39), Headache (Surf).
 - **Quest**: Reach Cianwood City (Start: Turn 15979).
