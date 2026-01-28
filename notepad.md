@@ -2,9 +2,9 @@
 - Started: Friday, January 16, 2026
 
 ### Current Status
-- **Location**: Olivine Pokémon Center (1_1).
-- **Party**: Garnet (Lvl 37), Basil (Lvl 17), Topaz (Lvl 15). Team Healed.
-- **Next**: Teach Surf to Headache (Psyduck).
+- **Location**: Olivine City.
+- **Party**: Garnet (Lvl 37), Headache (Surf).
+- **Next**: Surf west to Cianwood.
 
 ### Lighthouse Navigation
 - **1F**: Entrance (10, 17). Stairs Up (3, 11).
