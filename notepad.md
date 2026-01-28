@@ -8,9 +8,9 @@
 ### Lighthouse Navigation
 - **1F**: Entrance (10, 17). Stairs Up (3, 11).
 - **2F**: Stairs Down (3, 11). Stairs Up to 3F at (5, 3).
-- **5F Center (3_46)**: Accessed via 4F (9, 5). Defeated Sailor Ernest. Found Super Repel at (6, 15). Warp to 6F at (9, 15).
-- **6F (3_47)**: Top floor. Jasmine and Amphy here. Quest: Get medicine from Cianwood Pharmacy.
-- **Plan**: Warp down to 5F, grab missed item, then exit Lighthouse to start journey to Cianwood.
+- **5F Center (3_46)**: Accessed via 4F (9, 5). South side has holes (Row 17) and a warp to 6F (9, 15).
+- **Navigation**: Center Shaft is entered via ledge on 4F (One Way). Exit must be falling down a hole on 5F to a different area of 4F.
+- **Plan**: Go South to Row 17 on 5F and fall down a hole (e.g., at 6, 17) to escape the lighthouse.
 
 ### Notes
 - **Strategy**: Explore Olivine City. Locate Pokémon Center to heal team. Find Jasmine (Gym Leader) at the Lighthouse.
