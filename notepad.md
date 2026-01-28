@@ -3,7 +3,7 @@
 
 ### Current Status
 - **Location**: Route 41 (22_2). Entered from West. Exploring North-East quadrant?
-- **Navigation Strategy**: Found clear channel at Column 20 on Map 22_2. Engaging Swimmer at (17, 4) then heading South to bypass the barrier.
+- **Navigation Strategy**: Engaging Swimmer at (17, 4). Column 20 is blocked at Row 10. Adjusting path to Column 22 to bypass the barrier.
 - **Reflection**: 50 turns passed. Goal remains Cianwood. Current obstacle: Navigation Maze. Creating `scan_map_perimeter` tool to help finding exits.
 - **Party**: Garnet (Lvl 39), Headache (Surf).
 - **Quest**: Reach Cianwood City (Start: Turn 15979).
