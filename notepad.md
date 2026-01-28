@@ -3,7 +3,7 @@
 
 ### Current Status
 - **Location**: Route 41 (22_2). Entered from West. Exploring North-East quadrant?
-- **Navigation Strategy**: Column 23 blocked by whirlpool at (23, 33). Shifting East to Column 24 to pass. Watch out for Swimmer at (27, 34).
+- **Navigation Strategy**: Intercepted by Swimmer at (25, 34) while trying to bypass the whirlpool. Engaging in battle. Will continue South after victory.
 - **Reflection**: 50 turns passed. Goal remains Cianwood. Current obstacle: Navigation Maze. Creating `scan_map_perimeter` tool to help finding exits.
 - **Party**: Garnet (Lvl 39), Headache (Surf).
 - **Quest**: Reach Cianwood City (Start: Turn 15979).
