@@ -24,4 +24,6 @@
   - **West Side**: Stairs Up to 5F Left (3, 5). Stairs Down to 3F (13, 3) - Wait, (13,3) is East side.
   - **East Side**: Stairs Up to 5F Center (9, 5)? Need to verify. Stairs Down to 3F (13, 3).
 - **Plan**: Take Bottom Corridor (Row 14) to East Side, then check Stairs at (9, 5).
-- **3F? (3_42)**: Fell here from 4F. Trainer at (16, 11). Need to find stairs down. Map marker "Exit" at (10, 17) is likely incorrect (probably 1F exit location).
+- **1F (3_42)**: Entrance/Exit at (10, 17). Stairs Up (3, 11).
+- **Status**: Descending. Currently on 1F.
+- **Plan**: Exit Lighthouse to Olivine City. Then heal and Surf to Cianwood.
