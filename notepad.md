@@ -2,10 +2,10 @@
 - Started: Friday, January 16, 2026
 
 ### Current Status
-- **Location**: Route 41 (22_3). Central-West Section.
-- **Navigation Strategy**: Navigating West on Map 22_3 towards Cianwood. Passing a Whirl Island.
-- **Reflection**: Crossed into the western section of Route 41. Found a cave entrance at (9, 31). Continuing West to find the city.
-- **Party**: Garnet (Lvl 39), Headache (Surf).
+- **Location**: Route 41 (22_3), South-West area (12, 49).
+- **Navigation Strategy**: Navigating West along Row 50 to reach Cianwood. Bypassing whirlpools.
+- **Reflection**: Defeated Eusine at (11, 16). Navigated south through the channel. Now attempting to cross West.
+- **Party**: Garnet (Lvl 40), Headache (Surf).
 - **Quest**: Reach Cianwood City (Start: Turn 15979).
 
 ### Objectives
