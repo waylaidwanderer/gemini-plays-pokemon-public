@@ -2,9 +2,9 @@
 - Started: Friday, January 16, 2026
 
 ### Current Status
-- **Location**: Route 41 (22_3), South-West area (12, 49).
-- **Navigation Strategy**: Navigating West along Row 50 to reach Cianwood. Bypassing whirlpools.
-- **Reflection**: Defeated Eusine at (11, 16). Navigated south through the channel. Now attempting to cross West.
+- **Location**: Route 41 (22_3), traversing Central Channel South.
+- **Navigation Strategy**: Backtracking South to Row 33 (East-West Highway), then heading West to Cianwood.
+- **Reflection**: North path (Col 11) was a dead end with Eusine. West path at Row 50 was blocked. Best bet is Row 33 West.
 - **Party**: Garnet (Lvl 40), Headache (Surf).
 - **Quest**: Reach Cianwood City (Start: Turn 15979).
 
