@@ -14,7 +14,7 @@
 
 ### Notes
 - **Strategy**: Explore Olivine City. Locate Pokémon Center to heal team. Find Jasmine (Gym Leader) at the Lighthouse.
-- **Status**: Garnet evolved into Typhlosion! Inside Olivine Lighthouse. Climbing to find Jasmine.
+- **Status**: Met Jasmine. She needs SecretPotion. Exiting Lighthouse to head to Cianwood.
 - **Quest**: Heal Sick Miltank (Moomoo Farm). Gave 1 Berry. Needs more (approx 4-6 more regular Berries).
 - **Quest**: Heal Amphy (Ampharos) at Lighthouse. Jasmine is with it. Need to cure it to challenge her.
 - **Hint**: Gentleman Preston mentions Jasmine *used to* use Rock Pokémon like Onix. Implies she might have switched types (likely Steel).
