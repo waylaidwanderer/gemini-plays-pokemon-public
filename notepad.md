@@ -6,7 +6,8 @@
 - **Party**: Basil (Lvl 15, Sleep Powder), Garnet (Lvl 36), Topaz (Lvl 15). All healed.
 
 ### Lighthouse Navigation
-- **1F**: Entrance at (10, 17). Exploring.
+- **1F**: Entrance (10, 17). Stairs Up (3, 11).
+- **2F**: Stairs Down (3, 11). Exploring.
 
 ### Notes
 - **Strategy**: Explore Olivine City. Locate Pokémon Center to heal team. Find Jasmine (Gym Leader) at the Lighthouse.
