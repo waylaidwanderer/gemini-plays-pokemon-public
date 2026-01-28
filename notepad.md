@@ -3,8 +3,8 @@
 
 ### Current Status
 - **Location**: Route 41 (22_3), at (9, 16).
-- **Navigation Strategy**: Navigate South to Row 33 via Column 7 (to avoid wall at 9, 30). Then head East to the map transition (22_2).
-- **Reflection**: Path South at Column 9 blocked by wall at Row 30. Column 7 has a gap.
+- **Navigation Strategy**: Avoid Swimmer at (8, 16) by moving South to Row 18, then shifting West to Column 7. Proceed South to Row 33, then East to the map transition.
+- **Reflection**: Swimmer blocks immediate Left. Column 9 is blocked at Row 30. Column 7 is the safe lane South.
 - **Party**: Garnet (Lvl 40), Headache (Surf).
 - **Quest**: Reach Cianwood City (Start: Turn 15979).
 
