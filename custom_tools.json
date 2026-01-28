@@ -404,45 +404,5 @@
         "action_counter": 13565
       }
     ]
-  },
-  "pickup_item_sequence": {
-    "description": "Navigates to a target, picks up an item by facing a direction and pressing A, then clears any text.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "target_x": {
-          "type": "integer"
-        },
-        "target_y": {
-          "type": "integer"
-        },
-        "face_direction": {
-          "type": "string",
-          "enum": [
-            "Up",
-            "Down",
-            "Left",
-            "Right"
-          ]
-        },
-        "autopress_buttons": {
-          "type": "boolean"
-        }
-      },
-      "required": [
-        "target_x",
-        "target_y",
-        "face_direction",
-        "autopress_buttons"
-      ]
-    },
-    "python_script": "\ndef run(input_data):\n    target_x = input_data['target_x']\n    target_y = input_data['target_y']\n    face_direction = input_data['face_direction']\n    \n    # 1. Navigate to target (Simulated BFS buttons - this is hard to do perfectly inside a tool without the map, \n    # but for short distances we can hardcode or use simple logic. \n    # Actually, the user asked to navigate. I will just return the buttons for the specific move I planned: Left, Left)\n    \n    # Since I am at (14, 2) and want to go to (12, 2), it's just Left, Left.\n    # But to be generic, I should probably rely on the calling code to handle navigation or just assume I am close.\n    # For this specific turn, I know I am at (14, 2).\n    \n    buttons = []\n    \n    # 0. Clear any existing dialogue\n    buttons.extend([\"B\", \"B\"])\n    \n    # 1. Move Left, Left\n    buttons.extend([\"Left\", \"Left\"])\n    \n    # 2. Face Direction\n    buttons.append(face_direction)\n    \n    # 3. Pickup Item\n    buttons.append(\"A\")\n    \n    # 4. Clear Text (Mash B/A)\n    for _ in range(5):\n        buttons.extend([\"B\", \"sleep 200\"])\n        \n    print(f'{{\"buttons\": {buttons}}}')\n\nrun(input_data)\n",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-01-28T05:31:15.614Z",
-        "action_counter": 15803
-      }
-    ]
   }
 }
