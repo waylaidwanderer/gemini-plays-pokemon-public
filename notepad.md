@@ -16,3 +16,4 @@
 - **Lighthouse Return**: Will need to climb back up to 6F to give SecretPotion to Jasmine.
 - **Moomoo Farm**: Sick Miltank needs more berries (5-6).
 - **Cianwood Pharmacy**: Has the SecretPotion.
+- **Navigation**: Found whirlpool barrier at Row 26 West. Attempting to bypass via North (Row 14), shifting to Column 20 to avoid whirlpool at (19, 19).
