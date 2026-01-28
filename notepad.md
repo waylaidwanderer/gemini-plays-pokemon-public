@@ -2,9 +2,9 @@
 - Started: Friday, January 16, 2026
 
 ### Current Status
-- **Location**: Route 41 (22_2). West Edge.
-- **Navigation Strategy**: Exploring North along West edge (Column 0). Attempting to exit West to reach Cianwood.
-- **Reflection**: Route 41 is a maze of whirlpools. West edge seems to be the way, but need to find the transition point.
+- **Location**: Route 41 (22_3). Central-West Section.
+- **Navigation Strategy**: Navigating West on Map 22_3 towards Cianwood. Passing a Whirl Island.
+- **Reflection**: Crossed into the western section of Route 41. Found a cave entrance at (9, 31). Continuing West to find the city.
 - **Party**: Garnet (Lvl 39), Headache (Surf).
 - **Quest**: Reach Cianwood City (Start: Turn 15979).
 
