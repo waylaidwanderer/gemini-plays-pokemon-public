@@ -9,8 +9,8 @@
 - **1F**: Entrance (10, 17). Stairs Up (3, 11).
 - **2F**: Stairs Down (3, 11). Stairs Up to 3F at (5, 3).
 - **5F Center (3_46)**: Blocked from reaching holes at Row 17 by wall at Row 16. Must drop from 6F.
-- **6F (3_47)**: Top floor. Jasmine is here. Need to find a hole to drop to 5F South.
-- **Plan**: Warp to 6F (9, 15). Find hole on 6F to drop past the barrier on 5F. Then drop to 4F balcony to exit.
+- **6F (3_47)**: Top floor. Jasmine is here.
+- **Plan**: Talk to Jasmine (if not done). Then exit Lighthouse to heal and head to Cianwood.
 
 ### Notes
 - **Strategy**: Explore Olivine City. Locate Pokémon Center to heal team. Find Jasmine (Gym Leader) at the Lighthouse.
