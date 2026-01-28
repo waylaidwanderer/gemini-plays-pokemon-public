@@ -3,7 +3,7 @@
 
 ### Current Status
 - **Location**: Route 41 (22_2). Entered from West. Exploring North-East quadrant?
-- **Navigation Strategy**: Defeated Swimmer Susie at (23, 19). Navigating around her (Left -> Down) to rejoin Column 23, which appears clear South past Row 24.
+- **Navigation Strategy**: Defeated Swimmer Berke at (23, 26). Continuing South along Column 23 to find Cianwood City.
 - **Reflection**: 50 turns passed. Goal remains Cianwood. Current obstacle: Navigation Maze. Creating `scan_map_perimeter` tool to help finding exits.
 - **Party**: Garnet (Lvl 39), Headache (Surf).
 - **Quest**: Reach Cianwood City (Start: Turn 15979).
