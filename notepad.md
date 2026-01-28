@@ -2,9 +2,9 @@
 - Started: Friday, January 16, 2026
 
 ### Current Status
-- **Location**: Route 41 (22_2). Entered from West. Exploring North-East quadrant?
-- **Navigation Strategy**: Confirmed item at (19, 44) was a misidentified Swimmer. Continuing South on Column 19 to finding Cianwood.
-- **Reflection**: Turn 16285. Navigating Route 41 is slow due to battles and whirlpools. Strategy: Clear swimmers, check unseen tiles for paths South.
+- **Location**: Route 41 (22_2). West Edge.
+- **Navigation Strategy**: Exploring North along West edge (Column 0). Attempting to exit West to reach Cianwood.
+- **Reflection**: Route 41 is a maze of whirlpools. West edge seems to be the way, but need to find the transition point.
 - **Party**: Garnet (Lvl 39), Headache (Surf).
 - **Quest**: Reach Cianwood City (Start: Turn 15979).
 
