@@ -2,9 +2,9 @@
 - Started: Friday, January 16, 2026
 
 ### Current Status
-- **Location**: Route 41 (22_3), at (13, 16).
-- **Navigation Strategy**: Recovering from navigation error. Heading West to x=6 via Row 18, then South to Row 33 to access the East Map (22_2) transition at (29, 33).
-- **Reflection**: Previous pathfinding failed due to incorrect walkable types. The path West through Row 18 seems clear in the Mental Map.
+- **Location**: Route 41 (22_3), at (9, 16).
+- **Navigation Strategy**: Navigate South along Column 9 to reach the "East-West Highway" at Row 33. Then head East to the map transition (22_2) or West to Cianwood if a path exists.
+- **Reflection**: Swimmer blocking (8, 16). Heading South avoids him. Column 9 appears clear of obstacles down to Row 33.
 - **Party**: Garnet (Lvl 40), Headache (Surf).
 - **Quest**: Reach Cianwood City (Start: Turn 15979).
 
