@@ -3,7 +3,7 @@
 
 ### Current Status
 - **Location**: Route 41 (22_2). Entered from West. Exploring North-East quadrant?
-- **Navigation Strategy**: Intercepted by Swimmer at (25, 34) while trying to bypass the whirlpool. Engaging in battle. Will continue South after victory.
+- **Navigation Strategy**: Intercepted by Swimmer at (25, 34). In battle against Seel (Lv22). Seel used Rest. Garnet (Lv39) attacking with Flame Wheel. Will continue South after victory.
 - **Reflection**: 50 turns passed. Goal remains Cianwood. Current obstacle: Navigation Maze. Creating `scan_map_perimeter` tool to help finding exits.
 - **Party**: Garnet (Lvl 39), Headache (Surf).
 - **Quest**: Reach Cianwood City (Start: Turn 15979).
