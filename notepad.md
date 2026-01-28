@@ -9,8 +9,8 @@
 - **1F**: Entrance (10, 17). Stairs Up (3, 11).
 - **2F**: Stairs Down (3, 11). Stairs Up to 3F at (5, 3).
 - **5F Center (3_46)**: Accessed via 4F (9, 5). South side has holes (Row 17) and a warp to 6F (9, 15).
-- **Navigation**: Center Shaft is entered via ledge on 4F (One Way). Exit must be falling down a hole on 5F to a different area of 4F.
-- **Plan**: Go South to Row 17 on 5F and fall down a hole (e.g., at 6, 17) to escape the lighthouse.
+- **Navigation**: Center Shaft entered via ledge on 4F. To exit, must fall down hole at (6, 17) or (10, 17) to drop to 4F balcony.
+- **Plan**: Avoid warp at (9, 15). Go around Sailor at (9, 12). Fall down hole at (6, 17).
 
 ### Notes
 - **Strategy**: Explore Olivine City. Locate Pokémon Center to heal team. Find Jasmine (Gym Leader) at the Lighthouse.
