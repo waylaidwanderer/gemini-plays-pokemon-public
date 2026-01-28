@@ -2,9 +2,9 @@
 - Started: Friday, January 16, 2026
 
 ### Current Status
-- **Location**: Route 41 (22_3), at (7, 33).
-- **Navigation Strategy**: Navigate North to Row 29 to bypass the rock barrier at Col 5, then head West/South to Cianwood.
-- **Reflection**: Path West at Row 33 is blocked by rocks at Col 5. A gap appears to exist at (5, 29).
+- **Location**: Route 41 (22_3), at (4, 29).
+- **Navigation Strategy**: Stuck in a channel between x=3 (Wall) and x=5 (Open water/Wall). A whirlpool blocks South at (4, 30). Must head North to find a gap in the West wall (x=3).
+- **Reflection**: The path West at Row 29 is blocked by a wall. The whirlpool at (4, 30) prevents going South.
 - **Party**: Garnet (Lvl 40), Headache (Surf).
 - **Quest**: Reach Cianwood City (Start: Turn 15979).
 
