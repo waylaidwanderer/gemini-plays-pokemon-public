@@ -6,7 +6,7 @@
 - **Party**: Basil (Lvl 15, Sleep Powder), Garnet (Lvl 36), Topaz (Lvl 15). Basil needs healing.
 
 ### Notes
-- **Strategy**: Heading South to Olivine City. Gym Leader might be at Lighthouse.
-- **Status**: Garnet evolved into Typhlosion!
+- **Strategy**: Explore Olivine City. Locate Pokémon Center to heal team. Locate Gym.
+- **Status**: Garnet evolved into Typhlosion! Arrived in Olivine City.
 - **Quest**: Heal Sick Miltank (Moomoo Farm). Gave 1 Berry. Needs more (approx 4-6 more regular Berries).
 - **Trainer Defeated**: Sailor Eugene (Route 39).
