@@ -2,10 +2,10 @@
 - Started: Friday, January 16, 2026
 
 ### Current Status
-- **Location**: Cianwood City (22_6), Inside Pokémon Center.
-- **Navigation Strategy**: Talk to the NPC blocking the Nurse. Heal team. Locate Pharmacy for SecretPotion.
-- **Reflection**: Successfully navigated Route 41. Reached Cianwood.
-- **Party**: Garnet (Lvl 40), Headache (Surf).
+- **Location**: Cianwood City (22_3), Outside at (15, 48).
+- **Navigation Strategy**: Check the house at (15, 47) (Potential Pharmacy). Then return to Pokémon Center to HEAL properly (HP confirmed not full).
+- **Reflection**: I failed to heal at the PC due to NPC interruption. Must ensure healing is completed.
+- **Party**: Garnet (Lvl 40, Injured), Headache (Surf).
 - **Quest**: Obtain Mineral Badge (Jasmine).
 
 ### Objectives
