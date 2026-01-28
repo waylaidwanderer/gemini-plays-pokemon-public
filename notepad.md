@@ -2,7 +2,7 @@
 - Started: Friday, January 16, 2026
 
 ### Current Status
-- **Location**: Route 41 (22_2). Surfing to Cianwood.
+- **Location**: Route 41 (22_2). Battling Swimmer Charlie (Garnet vs Tentacruel).
 - **Party**: Garnet (Lvl 38), Headache (Surf).
 - **Quest**: Reach Cianwood City (Start: Turn 15979).
 
