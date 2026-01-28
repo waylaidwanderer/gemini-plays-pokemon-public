@@ -3,8 +3,8 @@
 
 ### Current Status
 - **Location**: Cianwood City (22_7), Inside House at (2, 7).
-- **Navigation Strategy**: Talk to the NPC at (2, 3) to see if this is the Pharmacy. Then return to Pokémon Center to HEAL properly.
-- **Reflection**: Entered a building. Need to confirm if it's the Pharmacy.
+- **Navigation Strategy**: Exit this house (Medicine Shop). Search the building south of the Gym (Cianwood Pharmacy). Heal at Pokémon Center.
+- **Reflection**: The house at (15, 47) was a Medicine Shop, not the Pharmacy.
 - **Party**: Garnet (Lvl 40, Injured), Headache (Surf).
 - **Quest**: Obtain Mineral Badge (Jasmine).
 
