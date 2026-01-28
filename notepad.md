@@ -15,6 +15,6 @@
 
 ### Notes
 - **Cianwood Pharmacy**: Supposed to have the SecretPotion.
-- **Gym**: Chuck (Fighting Type). Weak to Psychic/Flying. Requires Strength for boulders.
+- **Gym**: Chuck (Fighting Type). Weak to Psychic/Flying. Requires Strength for boulders (HM04 is in Olivine Café - missed it!). Will need to backtrack to Olivine to get HM04 before challenging Chuck if boulders block the path.
 - **Return Trip**: Will need to climb Olivine Lighthouse again.
 - **Moomoo Farm**: Needs Berries.
