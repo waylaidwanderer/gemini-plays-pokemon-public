@@ -5,7 +5,7 @@
 - **Location**: Route 41 (22_2). Entered from West. Exploring North-East quadrant?
 - **Navigation Strategy**: In battle with Swimmer Mathew. Used Mud-Slap (TR) instead of Flame Wheel (BR) due to dropped 'Down' input.
   - Current Status: Waiting for Krabby's turn.
-  - Next Menu Action: Cursor will be on Mud-Slap (TR). Press DOWN to reach Flame Wheel (BR).
+  - Next Menu Action: Cursor will be on Mud-Slap (TR). Press DOWN -> RIGHT to robustly reach Flame Wheel (BR).
 - **Reflection**: Turn 16285. Navigating Route 41 is slow due to battles and whirlpools. Strategy: Clear swimmers, check unseen tiles for paths South.
 - **Party**: Garnet (Lvl 39), Headache (Surf).
 - **Quest**: Reach Cianwood City (Start: Turn 15979).
