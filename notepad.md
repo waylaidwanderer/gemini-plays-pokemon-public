@@ -2,9 +2,9 @@
 - Started: Friday, January 16, 2026
 
 ### Current Status
-- **Location**: Route 41 (22_3), at (23, 32).
-- **Navigation Strategy**: East path blocked by solid wall (TYPE_4e8c) at x=24. Heading South along the eastern wall to explore the southern region (Rows 40-50) for a passage East or West.
-- **Reflection**: The "East Map" transition is not accessible at Row 32/33 due to a wall. The map edge seems closed off here.
+- **Location**: Route 41 (22_3), at (23, 37).
+- **Navigation Strategy**: Found open water East of the barrier at Row 40. Navigating through the channel at x=26 to continue South-East.
+- **Reflection**: The wall at x=24 opened up. There is a path to the East around the purple barrier.
 - **Party**: Garnet (Lvl 40), Headache (Surf).
 - **Quest**: Reach Cianwood City (Start: Turn 15979).
 
