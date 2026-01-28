@@ -3,7 +3,7 @@
 
 ### Current Status
 - **Location**: Route 41 (22_2). Entered from West. Exploring North-East quadrant?
-- **Navigation Strategy**: Intercepted by Swimmer at (25, 34). Battle vs Seel (Lv22, Asleep). Accidentally used Smokescreen. Correcting to Flame Wheel (Bottom-Right). Will continue South after victory.
+- **Navigation Strategy**: Defeated Swimmer Denise at (25, 34). Continuing South along Column 24 to find Cianwood City.
 - **Reflection**: 50 turns passed. Goal remains Cianwood. Current obstacle: Navigation Maze. Creating `scan_map_perimeter` tool to help finding exits.
 - **Party**: Garnet (Lvl 39), Headache (Surf).
 - **Quest**: Reach Cianwood City (Start: Turn 15979).
