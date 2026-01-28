@@ -19,3 +19,4 @@
 - **Quest**: Heal Amphy (Ampharos) at Lighthouse. Jasmine is with it. Need to cure it to challenge her.
 - **Hint**: Gentleman Preston mentions Jasmine *used to* use Rock Pokémon like Onix. Implies she might have switched types (likely Steel).
 - **Hint**: Sailor Kent suggests the Pharmacy in Cianwood has medicine.
+- **5F**: Left corridor (TM34) and Right corridor (Rare Candy) seem to be dead ends. Center area appears inaccessible from here. Might need to fall from a specific spot?
