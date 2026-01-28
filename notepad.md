@@ -3,7 +3,7 @@
 
 ### Current Status
 - **Location**: Route 39 (Moomoo Farm entrance).
-- **Party**: Basil (Lvl 15, Sleep Powder), Garnet (Lvl 36), Topaz (Lvl 15). All healed.
+- **Party**: Basil (Lvl 17, Cut/Sleep Pwd - Lost Vine Whip!), Garnet (Lvl 36), Topaz (Lvl 15). All healed.
 
 ### Lighthouse Navigation
 - **1F**: Entrance (10, 17). Stairs Up (3, 11).
