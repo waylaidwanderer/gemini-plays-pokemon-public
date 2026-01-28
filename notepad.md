@@ -2,9 +2,9 @@
 - Started: Friday, January 16, 2026
 
 ### Current Status
-- **Location**: Olivine City.
-- **Party**: Garnet (Lvl 37), Headache (Surf).
-- **Next**: Surf west to Cianwood.
+- **Location**: Route 40 (22_1). Surfing South.
+- **Party**: Garnet (Lvl 38), Headache (Surf).
+- **Quest**: Reach Cianwood City (Start: Turn 15979).
 
 ### Lighthouse Navigation (Archived)
 - **1F**: Entrance (10, 17). Stairs Up (3, 11).
