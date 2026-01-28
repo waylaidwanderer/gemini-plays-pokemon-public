@@ -2,8 +2,8 @@
 - Started: Friday, January 16, 2026
 
 ### Current Status
-- **Location**: Route 39 (Moomoo Farm entrance).
-- **Party**: Basil (Lvl 17, Cut/Sleep Pwd - Lost Vine Whip!), Garnet (Lvl 36), Topaz (Lvl 15). All healed.
+- **Location**: Olivine City (1_14). Near Lighthouse.
+- **Party**: Garnet (Lvl 37), Basil (Lvl 17), Topaz (Lvl 15). Needs healing.
 
 ### Lighthouse Navigation
 - **1F**: Entrance (10, 17). Stairs Up (3, 11).
