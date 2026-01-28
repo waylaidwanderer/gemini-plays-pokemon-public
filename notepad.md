@@ -5,6 +5,9 @@
 - **Location**: Route 39 (Moomoo Farm entrance).
 - **Party**: Basil (Lvl 15, Sleep Powder), Garnet (Lvl 36), Topaz (Lvl 15). All healed.
 
+### Lighthouse Navigation
+- **1F**: Entrance at (10, 17). Exploring.
+
 ### Notes
 - **Strategy**: Explore Olivine City. Locate Pokémon Center to heal team. Find Jasmine (Gym Leader) at the Lighthouse.
 - **Status**: Garnet evolved into Typhlosion! Inside Olivine Lighthouse. Climbing to find Jasmine.
