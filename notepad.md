@@ -3,8 +3,8 @@
 
 ### Current Status
 - **Location**: Route 41 (22_3), at (4, 29).
-- **Navigation Strategy**: Stuck in a channel between x=3 (Wall) and x=5 (Open water/Wall). A whirlpool blocks South at (4, 30). Must head North to find a gap in the West wall (x=3).
-- **Reflection**: The path West at Row 29 is blocked by a wall. The whirlpool at (4, 30) prevents going South.
+- **Navigation Strategy**: Path North is blocked by a wall at Row 23 (Cols 3, 4, 5). Must detour East to Col 6, then North to Row 22, then West through the gap at (3, 22) to Cianwood.
+- **Reflection**: The wall at Row 23 forces a detour. The gap at Row 22 seems to be the key to going West.
 - **Party**: Garnet (Lvl 40), Headache (Surf).
 - **Quest**: Reach Cianwood City (Start: Turn 15979).
 
