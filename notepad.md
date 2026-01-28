@@ -2,9 +2,9 @@
 - Started: Friday, January 16, 2026
 
 ### Current Status
-- **Location**: Route 41 (22_3), at (7, 33).
-- **Navigation Strategy**: West path blocked by rocks. Heading East along Row 33 to Map 22_2 (East Route 41). Will attempt to circle North/West from there to reach Cianwood.
-- **Reflection**: Direct path West blocked. Previous attempts North failed.
+- **Location**: Route 41 (22_3), at (23, 32).
+- **Navigation Strategy**: East path blocked by solid wall (TYPE_4e8c) at x=24. Heading South along the eastern wall to explore the southern region (Rows 40-50) for a passage East or West.
+- **Reflection**: The "East Map" transition is not accessible at Row 32/33 due to a wall. The map edge seems closed off here.
 - **Party**: Garnet (Lvl 40), Headache (Surf).
 - **Quest**: Reach Cianwood City (Start: Turn 15979).
 
