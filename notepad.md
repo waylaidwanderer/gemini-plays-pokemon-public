@@ -9,3 +9,4 @@
 - **Strategy**: Heading South to Olivine City. Gym Leader might be at Lighthouse.
 - **Status**: Garnet evolved into Typhlosion!
 - **Quest**: Heal Sick Miltank (Moomoo Farm). Gave 1 Berry. Needs more (approx 4-6 more regular Berries).
+- **Trainer Defeated**: Sailor Eugene (Route 39).
