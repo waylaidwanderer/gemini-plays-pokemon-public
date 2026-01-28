@@ -3,7 +3,7 @@
 
 ### Current Status
 - **Location**: Route 39 (Moomoo Farm entrance).
-- **Party**: Basil (Lvl 15, Sleep Powder), Garnet (Lvl 36), Topaz (Lvl 15). Basil needs healing.
+- **Party**: Basil (Lvl 15, Sleep Powder), Garnet (Lvl 36), Topaz (Lvl 15). All healed.
 
 ### Notes
 - **Strategy**: Explore Olivine City. Locate Pokémon Center to heal team. Find Jasmine (Gym Leader) at the Lighthouse.
