@@ -3,7 +3,7 @@
 
 ### Current Status
 - **Location**: Route 39 (Moomoo Farm entrance).
-- **Party**: Basil (Lead, Level 10), Garnet (Level 35), Topaz (Level 15), etc. All Healthy.
+- **Party**: Basil (Lead, Level 10), Garnet (Level 36), Topaz (Level 15), etc. All Healthy.
 
 ### Notes
 - **Strategy**: Heading South to Olivine City. Gym Leader might be at Lighthouse.
