@@ -8,8 +8,8 @@
 ### Lighthouse Navigation
 - **1F**: Entrance (10, 17). Stairs Up (3, 11).
 - **2F**: Stairs Down (3, 11). Stairs Up to 3F at (5, 3).
-- **5F Center (3_46)**: Accessed via 4F (9, 5). Currently fighting Sailor. Path continues South.
-- **Plan**: Defeat Sailor, then explore South of 5F Center to find Jasmine or 6F.
+- **5F Center (3_46)**: Accessed via 4F (9, 5). Defeated Sailor Ernest. Path continues South.
+- **Plan**: Explore South of 5F Center to find Jasmine or 6F.
 
 ### Notes
 - **Strategy**: Explore Olivine City. Locate Pokémon Center to heal team. Find Jasmine (Gym Leader) at the Lighthouse.
