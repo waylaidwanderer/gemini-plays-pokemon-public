@@ -2,9 +2,9 @@
 - Started: Friday, January 16, 2026
 
 ### Current Status
-- **Location**: Route 41 (22_3), at (6, 26).
-- **Navigation Strategy**: Navigate North-East to bypass the central rock/wall barrier. Target (13, 12) to cross Row 12 Westward towards Cianwood.
-- **Reflection**: Path West at Row 22/29/etc is blocked. Access to Row 14 is blocked by walls at Row 17/15. Only gap North seems to be at x=13 leading to Row 12.
+- **Location**: Route 41 (22_3), at (13, 18).
+- **Navigation Strategy**: Blocked North by Row 15 walls/whirlpools and West by Row 18 walls/whirlpools. Must head East into the map transition (Blue Zone) to enter the Eastern section of Route 41, then navigate North to circle back to Cianwood.
+- **Reflection**: Direct path North/West is impossible without Whirlpool. The gap at (11, 15) is a dead end. The gap at (23, 15) is in the East map.
 - **Party**: Garnet (Lvl 40), Headache (Surf).
 - **Quest**: Reach Cianwood City (Start: Turn 15979).
 
