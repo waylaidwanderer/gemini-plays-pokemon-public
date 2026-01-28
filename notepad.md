@@ -2,9 +2,9 @@
 - Started: Friday, January 16, 2026
 
 ### Current Status
-- **Location**: Route 41 (22_3), at (26, 41).
-- **Navigation Strategy**: Exploring the South-East quadrant. Heading South to Row 50 to look for a passage West along the bottom of the map (Looping under the islands).
-- **Reflection**: The East edge seems blocked by walls so far. The islands are blocking the West. The only open path is South.
+- **Location**: Cianwood City (22_3), at (26, 41).
+- **Navigation Strategy**: Identified a Pokémon Center at (23, 43). Navigating to (23, 44) to land and heal.
+- **Reflection**: I seem to have reached Cianwood City! The "East" path wrapped around or I misjudged the map layout, but there is a city here.
 - **Party**: Garnet (Lvl 40), Headache (Surf).
 - **Quest**: Reach Cianwood City (Start: Turn 15979).
 
