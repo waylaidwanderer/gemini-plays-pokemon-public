@@ -2,7 +2,7 @@
 - Started: Friday, January 16, 2026
 
 ### Current Status
-- **Location**: Route 40 (22_1). Surfing South.
+- **Location**: Route 40 (22_2). Battling Swimmer Charlie. Basil vs Tentacool.
 - **Party**: Garnet (Lvl 38), Headache (Surf).
 - **Quest**: Reach Cianwood City (Start: Turn 15979).
 
