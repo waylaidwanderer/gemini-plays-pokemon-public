@@ -2,9 +2,9 @@
 - Started: Friday, January 16, 2026
 
 ### Current Status
-- **Location**: Route 41 (22_3), at (4, 29).
-- **Navigation Strategy**: Path North is blocked by a wall at Row 23 (Cols 3, 4, 5). Must detour East to Col 6, then North to Row 22, then West through the gap at (3, 22) to Cianwood.
-- **Reflection**: The wall at Row 23 forces a detour. The gap at Row 22 seems to be the key to going West.
+- **Location**: Route 41 (22_3), at (6, 26).
+- **Navigation Strategy**: Navigate North-East to bypass the central rock/wall barrier. Target (13, 12) to cross Row 12 Westward towards Cianwood.
+- **Reflection**: Path West at Row 22/29/etc is blocked. Access to Row 14 is blocked by walls at Row 17/15. Only gap North seems to be at x=13 leading to Row 12.
 - **Party**: Garnet (Lvl 40), Headache (Surf).
 - **Quest**: Reach Cianwood City (Start: Turn 15979).
 
