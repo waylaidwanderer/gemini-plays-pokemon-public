@@ -19,5 +19,7 @@
 - **Quest**: Heal Amphy (Ampharos) at Lighthouse. Jasmine is with it. Need to cure it to challenge her.
 - **Hint**: Gentleman Preston mentions Jasmine *used to* use Rock Pokémon like Onix. Implies she might have switched types (likely Steel).
 - **Hint**: Sailor Kent suggests the Pharmacy in Cianwood has medicine.
-- **5F**: Side corridors (TM34/Rare Candy) are dead ends. Hole at (16, 7) leads to 4F Center.
-- **4F (Center)**: Accessed via hole from 5F. Exploring.
+- **5F**: Side corridors (TM34/Rare Candy) are dead ends. Hole at (16, 7) leads to 4F East Side (Dead end?).
+- **4F (East Side)**: Accessed via hole from 5F (16, 7). Connected to Main Area via Top Corridor?
+- **Hypothesis**: The Center Area of 4F (with stairs to Jasmine?) is isolated. Need to find a DIFFERENT hole on 5F (likely near center) to drop into it.
+- **Plan**: Go to stairs at (3, 5) to return to 5F, then search for a central hole.
