@@ -2,7 +2,9 @@
 - Started: Friday, January 16, 2026
 
 ### Current Status
-- **Location**: Route 41 (22_3). Surfing to Cianwood.
+- **Location**: Route 41 (22_2). Entered from West. Exploring North-East quadrant?
+- **Navigation Strategy**: West path on 22_3 was blocked by whirlpools. Moved East to 22_2 to try and find a Northern passage to wrap around.
+- **Reflection**: 50 turns passed. Goal remains Cianwood. Current obstacle: Navigation Maze. Creating `scan_map_perimeter` tool to help finding exits.
 - **Party**: Garnet (Lvl 39), Headache (Surf).
 - **Quest**: Reach Cianwood City (Start: Turn 15979).
 
