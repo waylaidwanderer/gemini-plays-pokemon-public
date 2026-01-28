@@ -3,7 +3,7 @@
 
 ### Current Status
 - **Location**: Route 41 (22_2). Battling Swimmer Kaylee.
-- **Party**: Garnet (Lvl 38), Headache (Surf).
+- **Party**: Garnet (Lvl 39), Headache (Surf).
 - **Quest**: Reach Cianwood City (Start: Turn 15979).
 
 ### Objectives
