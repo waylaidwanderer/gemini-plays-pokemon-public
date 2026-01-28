@@ -6,12 +6,15 @@
 - **Party**: Garnet (Lvl 37), Headache (Surf).
 - **Next**: Surf west to Cianwood.
 
-### Lighthouse Navigation
+### Lighthouse Navigation (Archived)
 - **1F**: Entrance (10, 17). Stairs Up (3, 11).
-- **2F**: Stairs Down (3, 11). Stairs Up to 3F at (5, 3).
-- **5F Center (3_46)**: Blocked from reaching holes at Row 17 by wall at Row 16. Must drop from 6F.
-- **6F (3_47)**: Top floor. Jasmine is here.
-- **Plan**: Talk to Jasmine (if not done). Then exit Lighthouse to heal and head to Cianwood.
+- **6F**: Jasmine is here.
+- **Return Trip**: Will need to climb back up to give SecretPotion.
+
+### Sea Route Strategy
+- **Route 40/41**: Surf West/South to Cianwood.
+- **Hazards**: Tentacool, Swimmers, Whirlpools (avoid).
+- **Goal**: Reach Cianwood City (South-West).
 
 ### Notes
 - **Strategy**: Explore Olivine City. Locate Pokémon Center to heal team. Find Jasmine (Gym Leader) at the Lighthouse.
