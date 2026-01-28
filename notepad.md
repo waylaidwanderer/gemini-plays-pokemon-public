@@ -2,9 +2,9 @@
 - Started: Friday, January 16, 2026
 
 ### Current Status
-- **Location**: Cianwood City (22_3), Outside at (15, 48).
-- **Navigation Strategy**: Check the house at (15, 47) (Potential Pharmacy). Then return to Pokémon Center to HEAL properly (HP confirmed not full).
-- **Reflection**: I failed to heal at the PC due to NPC interruption. Must ensure healing is completed.
+- **Location**: Cianwood City (22_7), Inside House at (2, 7).
+- **Navigation Strategy**: Talk to the NPC at (2, 3) to see if this is the Pharmacy. Then return to Pokémon Center to HEAL properly.
+- **Reflection**: Entered a building. Need to confirm if it's the Pharmacy.
 - **Party**: Garnet (Lvl 40, Injured), Headache (Surf).
 - **Quest**: Obtain Mineral Badge (Jasmine).
 
