@@ -3,10 +3,10 @@
 
 ### Current Status
 - **Location**: Cianwood City (22_9), Inside Pharmacy.
-- **Interaction**: Answering 'NO' to "Do you remember the four islands?"
-- **Hypothesis**: Answering YES leads to lore and ends conversation without potion. Answering NO might trigger the "You must be worried/tired" dialogue and yield the potion.
+- **Interaction**: Answering 'NO' triggered lore explanation about the "mythical sea creature" (Lugia).
+- **Status**: Listening to explanation. Expecting SecretPotion after dialogue concludes.
 - **Plan**: 
-  1. Answer NO (A -> Down -> A).
+  1. Advance text.
   2. Verify receipt of SecretPotion.
   3. Exit and continue plan.
 - **Party**: Garnet (Lvl 40, 64/128 HP), Headache (Surf).
