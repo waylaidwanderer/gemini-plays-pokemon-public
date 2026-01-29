@@ -1,9 +1,6 @@
 # Pokémon Crystal Playthrough
 - Started: Friday, January 16, 2026
 
-### Current Status
-- **Health**: Garnet (75/128 HP) - Healed (Used all Potions). Surfing to Olivine.
-
 ### Objectives
 - **Primary**: Obtain Mineral Badge (Jasmine).
 - **Secondary**: Obtain HM04 Strength (Olivine Cafe).
