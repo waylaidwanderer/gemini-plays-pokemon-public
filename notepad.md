@@ -4,19 +4,17 @@
 ### Current Status
 - **Location**: Cianwood City (22_9), Inside Pharmacy.
 - **Goal**: Get SecretPotion.
-- **Status**: Talking to Pharmacist (Stuck in Loop).
+- **Status**: Leaving Cianwood.
 - **Reasoning**:
-  1. Dialogue loops: "You came from OLIVINE?" -> "Do you remember..." -> "Mythical sea creature..." -> Repeat.
-  2. Suspect a YES/NO question is being auto-answered "YES" (leading to lore) or "NO" (leading to loop?).
-  3. Attempting to answer "NO" (Down+A) to "You came from OLIVINE?" or "Do you remember..." to break the loop.
-  4. If this fails, I may need to re-trigger the flag in Olivine (Jasmine).
+  1. Pharmacist dialogue loop implies Quest Flag is NOT active.
+  2. I likely missed a trigger with Jasmine in Olivine (or the game requires Strength first?).
+  3. **CRITICAL**: I NEED HM04 Strength to challenge the Cianwood Gym (Chuck).
+  4. HM04 is in Olivine City (Cafe).
+  5. Plan: Go back to Olivine, get Strength, re-talk to Jasmine, then return.
 - **Plan**:
-  1. Go to Pharmacy (15, 47).
-  2. Buy Repels (since it's a Mart).
-  3. Try asking for Potion *once* more.
-  4. Surf back to Olivine.
-  5. Get Strength (Cafe).
-  6. Re-talk to Jasmine.
+  1. Exit Pharmacy.
+  2. Go to Mart (15, 48) to buy Repels (for the swim back).
+  3. Surf back to Olivine City.
 - **Revised Plan (The "Slow & Steady" Approach)**:
   1. Clear dialogue/Reset room.
   2. Talk to Pharmacist.
