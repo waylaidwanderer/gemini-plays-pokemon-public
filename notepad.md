@@ -5,12 +5,14 @@
 - **Location**: Cianwood City (22_9), Inside Pharmacy.
 - **Goal**: Get SecretPotion.
 - **Status**: Heading North to investigate Suicune event.
-- **Reasoning**: Pharmacy interaction is stuck in "Shop Mode". Summary claims I defeated Eusine on Route 41, but Eusine usually fights in Cianwood. Suspect summary error or event flag confusion. Checking North Cianwood to see if Suicune is there.
+- **Correction**: Was stuck reading the "CIANWOOD CITY PHARMACY" sign. Closing text now.
+- **Reasoning**: Pharmacy interaction is stuck in "Shop Mode". Need to clear local events.
 - **Plan**:
-  1. Go North.
-  2. If Suicune is present, approach it.
-  3. If Eusine appears, defeat him.
-  4. Return to Pharmacy.
+  1. Close sign text (Press B).
+  2. Go North to ~Row 20.
+  3. If Suicune is present, approach it.
+  4. If Eusine appears, defeat him.
+  5. Return to Pharmacy.
 - **Revised Plan (The "Slow & Steady" Approach)**:
   1. Clear dialogue/Reset room.
   2. Talk to Pharmacist.
