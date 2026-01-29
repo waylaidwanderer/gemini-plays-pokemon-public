@@ -4,12 +4,12 @@
 ### Current Status
 - **Location**: Cianwood City (22_9), Inside Pharmacy.
 - **Goal**: Get SecretPotion.
-- **Status**: 'Down' input had no effect. Text requires 'A' to advance.
-- **Interaction Rule**: Press 'A' ONCE to advance text. The menu should appear in the next state. Do not double-press.
-- **Plan**: 
-  1. Press 'A' (Current Step).
-  2. Verify Yes/No menu visibility in next turn.
-  3. Press 'Down', then 'A'.
+- **Status**: Clearing lore text (Accidentally selected Yes).
+- **Plan**:
+  1. Mash 'A' to finish dialogue.
+  2. Exit and Re-enter.
+  3. Talk to Pharmacist.
+  4. At "along the way?", press 'B' to see if it advances/cancels. If not, carefully 'Down' then 'A'.
 - **Next**: Buy Repels, Surf to Olivine.
 
 ### Objectives
