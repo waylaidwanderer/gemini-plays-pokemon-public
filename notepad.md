@@ -13,15 +13,14 @@
 ### Quest Log
 - **SecretPotion**: Pharmacist gives generic "Whirl Islands" text. Implies Jasmine flag was not fully set.
 - **Lighthouse Navigation**: 
-  - **Current Floor**: 1F (Map 3_42) - GROUND FLOOR.
-  - **Goal**: Climb to 2F.
-  - **Known Locations on 1F**:
-    - Exit to City: (10, 17).
-    - Stairs UP to 2F: (3, 11) - CONFIRMED.
-    - (16, 13) is NOT stairs.
+  - **Current Floor**: 2F (Map 3_43).
+  - **Goal**: Climb to 3F.
+  - **Known Locations on 2F**:
+    - Stairs DOWN to 1F: (3, 11).
+    - Stairs UP to 3F: Suspected at (16, 13).
   - **Action Plan**:
-    1. Go to (3, 11) on 1F to climb to 2F.
-    2. On 2F, search NORTH area for stairs to 3F.
+    1. Navigate to (16, 13).
+    2. Climb stairs to 3F.
 
 ### Important Locations
 - **Cianwood Pharmacy**: (15, 37) in Cianwood.
