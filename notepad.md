@@ -6,15 +6,14 @@
 - **Goal**: Get SecretPotion.
 - **Status**: Battling Swimmer Kara (Pokemon 2: Starmie).
 - **Reasoning**:
-  1. Kara is sending out **Starmie**.
-  2. Garnet (38/128 HP) is my only viable fighter.
-  3. **Action**: declining the switch (Cursor on YES -> Press DOWN -> A).
-  4. **Strategy**: 
-     - Garnet is Lv 40. Starmie likely Lv 20-22. Garnet *should* outspeed.
-     - Potion only heals 20 HP, likely less than Starmie's damage.
-     - Best bet is to attack (Flame Wheel) and hope to 2HKO or OHKO before going down.
+  1. Kara sent out **Starmie**.
+  2. Text "SWIMMER♀ KARA sent out..." is on screen.
+  3. **Action**: Pressing 'A' to advance text ("STARMIE!", "Go! Garnet!").
+  4. **Next Turn**: Expecting FIGHT menu.
+  5. **Strategy**: Attack with Flame Wheel. Garnet (Lvl 40) should outspeed and hopefully 2HKO Starmie (Lvl ~22).
+  6. **Contingency**: If Garnet faints, I have Revives and fodder Pokemon to execute a revive strategy.
 - **Plan**:
-  1. Decline Switch.
+  1. Advance text.
   2. Select FLAME WHEEL.
   3. Win.
   4. Surf North.
