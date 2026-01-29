@@ -4,7 +4,7 @@
 ### Current Status
 - **Location**: Cianwood City (22_9), Inside Pharmacy.
 - **Goal**: Get SecretPotion.
-- **Status**: Advancing text loop (Sea Creature -> Special Move). Next: "...get past them."
+- **Status**: Advancing text loop. Next: "...get past them." (Final check).
 - **Plan**:
   1. Finish text.
   2. Talk to girl at (5, 5).
