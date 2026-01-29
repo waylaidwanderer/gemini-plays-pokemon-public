@@ -2,9 +2,9 @@
 - Started: Friday, January 16, 2026
 
 ### Current Status
-- **Location**: Cianwood City (22_6), Leaving Pokémon Center.
-- **Navigation Strategy**: Exit to Cianwood (22_3), then immediately re-enter to reset the Gym Guy's position. Then Heal.
-- **Reflection**: The Gym Guy at (5,3) was unmovable. Resetting the map is the standard fix.
+- **Location**: Cianwood City (22_6), Inside Pokémon Center.
+- **Navigation Strategy**: Flank the blocking NPC at (5, 3) by moving to (6, 1). Face Left and talk to Nurse Joy.
+- **Reflection**: The Gym Guy is blocking the standard healing spot. The side path (x=6) appears open and walkable.
 - **Party**: Garnet (Lvl 40, 64/128 HP), Headache (Surf).
 - **Quest**: Obtain Mineral Badge (Jasmine).
 
