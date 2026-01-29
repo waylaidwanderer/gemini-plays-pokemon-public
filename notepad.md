@@ -35,8 +35,8 @@
 - Defeated Blackbelt Lao.
 - Defeated Blackbelt Nob.
 - Defeated Blackbelt Lung (Mankey).
-- Status: Standing at (4, 5). Facing Gym Leader Chuck at (4, 4).
-- **Gym Puzzle**: Solved. Path cleared.
-- **Plan**: Defeat Chuck and get the Storm Badge (wait, it's Storm Badge here? No, Storm is Cianwood. Mineral is Jasmine). Badge from Chuck is Storm Badge.
-- **Battle Strategy**: Garnet (Lv 41) vs Fighting types. Flame Wheel/Mud-Slap should work.
+- Status: Standing at (4, 5). Facing Boulder at (4, 4).
+- **Map Update**: Chuck is further North (approx 4, 1). Lung is at (5, 5).
+- **Puzzle**: (3, 5) is a wall. (5, 5) is blocked by Lung. Must push Boulder at (4, 4) UP through the logs (which appear to be walkable).
+- **Plan**: Clear text, Push Boulder UP, Battle Chuck.
 - **Tip**: Cianwood PC Interaction Point is (3,3) facing Up.
