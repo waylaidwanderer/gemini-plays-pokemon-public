@@ -4,18 +4,17 @@
 ### Current Status
 - **Location**: Cianwood City (22_9), Inside Pharmacy.
 - **Goal**: Get SecretPotion.
-- **Status**: Battling Swimmer Kara on Route 41.
+- **Status**: Battle Won! Resuming travel to Olivine.
 - **Reasoning**:
-  1. Garnet used Flame Wheel. "It's not very effective..." but Staryu took significant damage (HP &lt; 50%).
-  2. **Current State**: Waiting for Staryu's turn.
-  3. **Action**: Pressing 'A' to advance text.
-  4. **Next Turn**: Staryu will attack. I have enough HP (38) to survive a Water Gun (~13 dmg).
-  5. **Goal**: Survive, then use Flame Wheel again to finish it.
+  1. Staryu fainted! The "not very effective" hit was enough.
+  2. **Current State**: Battle victory screen.
+  3. **Action**: Pressing 'A' to clear XP/Money text.
+  4. **Next Steps**: Continue Surfing North to Route 40/Olivine.
+  5. **Note**: Garnet is at 38 HP. Need to heal after battle.
 - **Plan**:
-  1. Defeat Kara.
-  2. Surf North to Olivine City.
-  3. Get HM04 (Strength) from Café.
-  4. Climb Lighthouse, Heal Amphy.
+  1. Finish battle dialogue.
+  2. Heal Garnet (Potion).
+  3. Surf North.
 
 ### Objectives
 - **Primary**: Obtain Mineral Badge (Jasmine).
