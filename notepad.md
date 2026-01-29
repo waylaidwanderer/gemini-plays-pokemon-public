@@ -20,9 +20,9 @@
     - Stairs Up to 5F (Left): (3, 5) -> Leads to DEAD END on 5F.
     - Stairs Up to 5F (Center): (9, 7) -> Correct path to 6F.
     - Layout: West Side isolated at top. Must go South (Row 14), Cross to East, Go North (Row 2), then West to Center.
-    - Obstacles: Sailor Kent at (7, 14) blocking bridge.
-    - Strategy: Center Stairs (9, 7) on 4F are isolated. Must fall from (9, 3) to reach them via 3F.
-  - **Next Step**: Fall through hole at (9, 3), land on 3F, take stairs back up to isolated 4F area.
+    - Obstacles: Sailor and Lass blocking path at (11, 2-3).
+    - Strategy: Use West Stairs (3, 5) to reach 5F, then fall through a hole to land in the isolated Center Room of 4F.
+  - **Next Step**: Go South, cross bridge to West Side, ascend West Stairs to 5F.
 
 ### Important Locations
 - **Cianwood Pharmacy**: (15, 37) in Cianwood.
