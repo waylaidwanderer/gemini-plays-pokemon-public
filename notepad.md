@@ -4,15 +4,14 @@
 ### Current Status
 - **Location**: Cianwood City (22_9), Inside Pharmacy.
 - **Goal**: Get SecretPotion.
-- **Status**: Clearing lore text. 'B' failed to advance text, resuming 'A'.
+- **Status**: Resetting.
 - **Plan**:
-  1. Advance text until dialogue closes.
-  2. Exit Pharmacy immediately to reset state.
+  1. Spam 'B' to clear current dialogue.
+  2. Exit Pharmacy.
   3. Re-enter.
   4. Talk to Pharmacist.
-  5. Wait for "...along the way?".
-  6. SEE THE MENU.
-  7. Press Down -> A.
+  5. Answer 'Yes' to "From Olivine?".
+  6. Answer 'No' to "Islands?". USE 'B' TO ANSWER NO/CANCEL.
 - **Next**: Buy Repels, Surf to Olivine.
 
 ### Objectives
