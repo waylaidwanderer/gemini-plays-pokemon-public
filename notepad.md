@@ -33,4 +33,4 @@
 ### Cianwood Gym Progress
 - Defeated Blackbelt Yoshi.
 - Defeated Blackbelt Lao.
-- Status: Retreating to heal before Chuck.
+- Status: Healed, returning to Gym to face Chuck.
