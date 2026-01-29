@@ -10,6 +10,8 @@
   2. Encountered Swimmer Kara.
   3. Garnet has 8 PP for Flame Wheel (Fire), but Dig/Mud-Slap are empty.
   4. Need to select Flame Wheel manually.
+  5. **Control Issue**: Previous attempts to select Flame Wheel resulted in Smokescreen. Likely due to input eating or cursor memory.
+  6. **Strategy**: Taking it slow. Will clear text, enter menu, and move cursor this turn. Will confirm selection next turn.
 - **Plan**:
   1. Defeat Kara.
   2. Surf North to Olivine City.
