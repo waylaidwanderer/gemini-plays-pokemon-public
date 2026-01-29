@@ -2,8 +2,8 @@
 - Started: Friday, January 16, 2026
 
 ### Current Status
-- **Location**: Olivine City - Interior (Map 1_1).
-- **Goal**: Find Olivine Cafe (Strength HM) and Pokémon Center.
+- **Location**: Olivine Cafe (Map 1_7).
+- **Goal**: Talk to Sailor for HM04 Strength.
 - **Health**: Garnet (75/128 HP). Exploring city.
 
 ### Objectives
