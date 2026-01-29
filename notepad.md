@@ -3,8 +3,12 @@
 
 ### Current Status
 - **Location**: Cianwood City (22_9), Inside Pharmacy.
-- **Navigation Strategy**: Talk to the Pharmacist to get SecretPotion.
-- **Reflection**: Found the Pharmacy! Time to get the medicine for Amphy.
+- **Interaction**: Answering 'YES' to "You came from OLIVINE?" to get SecretPotion.
+- **Reflection**: Dialogue loop detected. Avoiding button mashing.
+- **Plan**: 
+  1. Confirm YES.
+  2. Verify receipt of SecretPotion.
+  3. Exit and continue plan.
 - **Party**: Garnet (Lvl 40, 64/128 HP), Headache (Surf).
 - **Quest**: Obtain Mineral Badge (Jasmine).
 
