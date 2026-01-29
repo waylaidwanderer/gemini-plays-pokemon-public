@@ -3,7 +3,6 @@
 
 ### Current Status
 - **Location**: Cianwood City (22_9), Inside Pharmacy.
-- **Current Task**: Resetting Pharmacist interaction.
 - **Goal**: Get SecretPotion.
 - **Next**: Exit building, re-enter, answer 'NO' to islands question.
 - **Party**: Garnet (Lvl 40, 64/128 HP), Headache (Surf).
