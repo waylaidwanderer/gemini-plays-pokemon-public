@@ -4,7 +4,7 @@
 ### Current Status
 - **Location**: Route 41 (Map 22_2), Surfing North towards Olivine.
 - **Goal**: Return to Olivine City.
-- **Health**: Garnet (55/128 HP) - Healing. Using another Potion.
+- **Health**: Garnet (75/128 HP) - Healed (Used all Potions). Surfing to Olivine.
 
 ### Objectives
 - **Primary**: Obtain Mineral Badge (Jasmine).
