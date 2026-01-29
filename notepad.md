@@ -4,22 +4,16 @@
 ### Current Status
 - **Location**: Cianwood City (22_9), Inside Pharmacy.
 - **Goal**: Get SecretPotion.
-- **Status**: Battling Swimmer Kara (Pokemon 2: Starmie).
+- **Status**: Battle Won!
 - **Reasoning**:
-  1. Garnet attacked (Flame Wheel). "It's not very effective...".
-  2. **Turn State**: Garnet acted. Now it's Starmie's turn.
-  3. **Danger**: Garnet has 15 HP. Starmie's Bubblebeam does ~23 dmg.
-  4. **Prediction**: Starmie attacks -> Garnet faints.
-  5. **Next Steps**:
-     - Send out fodder (Spinarak).
-     - Use **Revive** on Garnet.
-     - Spinarak faints (free switch).
-     - Send out Garnet.
-     - Finish Starmie.
+  1. Starmie fainted! Garnet survived with 15 HP.
+  2. **Current State**: XP/Level Up/Defeat text sequence.
+  3. **Immediate Action**: Press 'A' to clear battle text.
+  4. **Post-Battle**: IMMEDIATELY heal Garnet with Potions (I have 3). 15 HP is too risky for a long surf.
 - **Plan**:
-  1. Advance text.
-  2. Watch Garnet faint.
-  3. Execute Revive Strategy.
+  1. Finish battle text.
+  2. Open Bag -> Use Potions on Garnet.
+  3. Surf North to Route 40.
 
 ### Objectives
 - **Primary**: Obtain Mineral Badge (Jasmine).
