@@ -47,4 +47,4 @@
   3. Move to (5, 8). Push Boulder (5, 7) UP to (5, 6) (Done).
   4. From (5, 7), Push Boulder (4, 7) **LEFT** to (3, 7) (Done).
   5. Walk UP through (4, 7) -> (4, 6) -> Leader (Done).
-- **Current Task**: Battling Gym Leader Chuck.
+- **Current Task**: Battling Gym Leader Chuck (Primeape defeated).
