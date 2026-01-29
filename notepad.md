@@ -6,15 +6,22 @@
 - **Goal**: Get SecretPotion.
 - **Status**: Battling Swimmer Kara (Pokemon 2: Starmie).
 - **Reasoning**:
-  1. **Visual Confirmation**: Move Menu Open. Cursor is on **FLAME WHEEL**.
-  2. **Action**: Pressing 'A' to attack.
-  3. **Math**: Garnet (38 HP) can survive ~2-3 Water Guns. Flame Wheel is NVE but Lv 40 vs Lv 20 should deal decent damage.
-  4. **Contingency**: If Garnet faints, I have 3 Revives.
+  1. **Situation Critical**: Garnet has 15/128 HP. Starmie has ~60% HP.
+  2. **Speed**: Garnet (Lv 40) is faster than Starmie (Lv 20), so I get one more attack.
+  3. **Damage**: Flame Wheel is NVE. Unlikely to OHKO from 60%.
+  4. **Outcome**: Garnet will likely faint next turn.
+  5. **Strategy (The "Phoenix" Protocol)**:
+     - Attack with Flame Wheel.
+     - If Garnet faints:
+       1. Send out fodder (e.g., Spinarak).
+       2. Use **REVIVE** on Garnet.
+       3. Fodder faints.
+       4. Send out Garnet (64 HP).
+       5. Finish Starmie.
 - **Plan**:
-  1. Attack with Flame Wheel.
-  2. Defeat Starmie.
-  3. Heal Garnet.
-  4. Surf North.
+  1. Advance Text.
+  2. Select FLAME WHEEL.
+  3. Prepare for Revive Strat.
 
 ### Objectives
 - **Primary**: Obtain Mineral Badge (Jasmine).
