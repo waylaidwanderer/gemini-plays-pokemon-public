@@ -4,17 +4,13 @@
 ### Current Status
 - **Location**: Cianwood City (22_9), Inside Pharmacy.
 - **Goal**: Get SecretPotion.
-- **Status**: Stuck in Shop Menu loop. Flag for SecretPotion seems missing.
-- **Possibilities**:
-  1. Wrong building? (Unlikely, this is a Pharmacy).
-  2. Need to beat Chuck first? (Unlikely).
-  3. Didn't trigger Jasmine properly? (Possible).
-  4. Need to talk to someone else in Cianwood first?
+- **Status**: Failed to get SecretPotion from Pharmacist (Only offers Shop).
+- **Fact**: Pharmacist currently offers only standard shop menu. SecretPotion flag likely unset or requires external trigger.
 - **Plan**:
-  1. Close Shop (Press B).
-  2. Exit building.
-  3. Locate the Gym and other buildings to ensure I haven't missed a "Real Pharmacy".
-  4. If nothing else found, challenge Chuck. Maybe winning triggers the Pharmacist?
+  1. Exit Pharmacy.
+  2. Explore Cianwood for any other "Pharmacy" signs (just in case).
+  3. Challenge Gym Leader Chuck (Might be a trigger).
+  4. If all else fails, return to Olivine to re-talk to Jasmine.
 - **Revised Plan (The "Slow & Steady" Approach)**:
   1. Clear dialogue/Reset room.
   2. Talk to Pharmacist.
