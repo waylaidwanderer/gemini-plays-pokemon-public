@@ -4,13 +4,11 @@
 ### Current Status
 - **Location**: Cianwood City (22_9), Inside Pharmacy.
 - **Goal**: Get SecretPotion.
-- **Status**: Restarting dialogue (Turn 16701).
-- **Reflection**: Previous attempts failed. 'Down' input seemed ignored, 'A' selected YES.
-- **New Hypothesis**: The menu might require 'A' to appear, OR 'Down' was eaten.
+- **Status**: Advancing text (Step 2).
 - **Plan**:
-  1. Advance "You came from OLIVINE?" (Current Step).
-  2. Advance "Do you remember...".
-  3. At "...along the way?", try `['Down', 'A']`. This covers both "Menu Open" and "Text Waiting" cases better than single inputs.
+  1. Advance "Do you remember..." (Current Step).
+  2. At "...along the way?", EXECUTE `['Down', 'A']`.
+  3. Verify 'NO' response (Dialogue should end or change).
 - **Next**: Buy Repels, Surf to Olivine.
 
 ### Objectives
