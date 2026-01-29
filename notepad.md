@@ -30,3 +30,6 @@
 - **TYPE_3fe2**: Water (Surfable).
 - **Mechanic**: TYPE_3fe2 is shallow water (walkable). TYPE_4e8c is deep water (surfable).
 - **Correction**: The "invisible wall" was simply the boundary between shallow and deep water while not Surfing. Now Surfing to Cianwood.
+### Cianwood Gym Progress
+- Defeated Blackbelt Yoshi.
+- Currently fighting Blackbelt Lao.
