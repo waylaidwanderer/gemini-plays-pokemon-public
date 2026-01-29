@@ -24,3 +24,6 @@
 - **Cianwood Pharmacy**: (15, 37) in Cianwood.
 - **Olivine Cafe**: Somewhere in Olivine City (West side?).
 - **Surfing to Olivine**: Started Turn 17101.
+### Tile Mechanics
+- **TYPE_4e8c**: Water (Surfable).
+- **TYPE_1f49**: Rock boundary (Impassable).
