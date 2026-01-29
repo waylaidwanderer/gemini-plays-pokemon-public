@@ -17,9 +17,10 @@
   - **Goal**: Reach 5F.
   - **4F (Map 3_45)**:
     - Stairs Down to 3F: (13, 3).
-    - Stairs Up to 5F: (9, 7) (Center) and (3, 5) (Left).
+    - Stairs Up to 5F (Left): (3, 5) -> Leads to DEAD END on 5F.
+    - Stairs Up to 5F (Center): (9, 7) -> Correct path to 6F.
     - Layout: Split east/west, connects at bottom (Row 14).
-  - **Next Step**: Go South, cross bottom, head North to (9, 7).
+  - **Next Step**: Go back to 4F, go South, cross to East side, head North to (9, 7).
 
 ### Important Locations
 - **Cianwood Pharmacy**: (15, 37) in Cianwood.
