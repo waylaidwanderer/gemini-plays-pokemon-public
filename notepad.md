@@ -2,8 +2,6 @@
 - Started: Friday, January 16, 2026
 
 ### Current Status
-- **Location**: Route 41 (Map 22_2), Surfing North towards Olivine.
-- **Goal**: Return to Olivine City.
 - **Health**: Garnet (75/128 HP) - Healed (Used all Potions). Surfing to Olivine.
 
 ### Objectives
