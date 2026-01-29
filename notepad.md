@@ -4,16 +4,16 @@
 ### Current Status
 - **Location**: Cianwood City (22_9), Inside Pharmacy.
 - **Goal**: Get SecretPotion.
-- **Status**: Clearing lore text (failed attempt 16672).
-- **Strategy**: 
-  1. Spam 'B' to clear lore text. 'B' avoids accidental 'Yes' confirmation.
-  2. When "You came from OLIVINE?" reappears, proceed carefully.
-  3. When "Do you remember... islands... along the way?" appears:
-     - DO NOT PRESS 'A' TO ADVANCE.
-     - Press 'B'. 'B' often defaults to 'No' or cancels the menu.
-     - If 'B' fails, try 'Down' then 'A'.
-- **Party**: Garnet (Lvl 40, 64/128 HP), Headache (Surf).
-- **Quest**: Obtain Mineral Badge (Jasmine).
+- **Status**: Clearing lore text. 'B' failed to advance text, resuming 'A'.
+- **Plan**:
+  1. Advance text until dialogue closes.
+  2. Exit Pharmacy immediately to reset state.
+  3. Re-enter.
+  4. Talk to Pharmacist.
+  5. Wait for "...along the way?".
+  6. SEE THE MENU.
+  7. Press Down -> A.
+- **Next**: Buy Repels, Surf to Olivine.
 
 ### Objectives
 - **Primary**: Obtain Mineral Badge (Jasmine).
