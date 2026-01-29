@@ -44,3 +44,8 @@
 - Hypothesis: Missing a flag from Jasmine or Olivine Cafe.
 - Plan: Fly to Olivine, talk to Jasmine at Lighthouse, then check Cafe if needed.
 - Fly Map Navigation: 'Down' moves backwards (New Bark direction), 'Up' moves forwards (Blackthorn direction). List appears to be Chronological.
+- Reflection (Turn 17741):
+  - Progress: Climbed from 1F to 5F. Encountered "Pharmacist Loop" where he gave lore instead of potion.
+  - Plan: Reaching Jasmine is the priority to trigger the potion flag.
+  - Mechanic: Lighthouse navigation requires careful checking of floors for holes vs stairs.
+  - Hygiene: Map markers for defeated trainers are helpful. Will continue marking.
