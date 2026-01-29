@@ -11,13 +11,13 @@
 - **Tertiary**: Explore Olivine City.
 
 ### Quest Log
-- **SecretPotion**: Pharmacist in Cianwood refused to give it. Potentially missing a trigger or need to visit Olivine Cafe/Jasmine again.
-- **Gym**: Chuck (Cianwood) requires Strength (HM04) to access.
+- **SecretPotion**: Pharmacist in Cianwood refused previously. Spoke to Jasmine, now re-visiting.
+- **Gym**: Defeated Chuck. Badge obtained.
 - **HM04 Strength**: Taught to Bolin.
 - **Plan**:
-  1. Heal at Pokémon Center.
-  2. Surf back to Cianwood City.
-  3. Challenge Gym Leader Chuck.
+  1. Get SecretPotion from Pharmacist (Current).
+  2. Fly to Olivine City.
+  3. Heal Amphy.
 
 ### Important Locations
 - **Cianwood Pharmacy**: (15, 37) in Cianwood.
