@@ -37,3 +37,4 @@
 - Status: Exiting to heal before Leader Chuck.
 - **Blockage**: Schoolboy Alan is standing at (5, 3) in the Cianwood PC, blocking the direct path to Nurse Joy. Trying to access her from (4, 3) or (3, 3).
 - **Reflection (Turn 17428)**: Realized I hallucinated the blockage at the PC. Schoolboy is at (5,3), healing spot (4,3) is free. Flanking was impossible due to walls. Correcting course.
+- **Correction (Turn 17449)**: (5, 2) appears to be blocked (likely a structure). Nurse Joy might be at (3, 1) or (4, 1). Attempts to heal at (4, 3) failed. Trying (3, 3). Schoolboy at (5, 3) is confirmed obstacle.
