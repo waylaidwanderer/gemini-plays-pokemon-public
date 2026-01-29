@@ -4,14 +4,13 @@
 ### Current Status
 - **Location**: Cianwood City (22_9), Inside Pharmacy.
 - **Goal**: Get SecretPotion.
-- **Status**: Clearing lore text (Accidentally selected YES previously).
+- **Status**: Dialogue loop reset. Back at 'You came from OLIVINE?'.
 - **Critical Instruction**: Answer 'NO' to "Do you remember the four islands?".
 - **Plan**:
-  1. Clear current lore text. (Current Step - text is "mythical sea creature")
-  2. Reset position (Move Down, then Up).
-  3. Talk.
-  4. Advance text to "...along the way?".
-  5. **CRITICAL**: Do NOT press 'A' alone. Execute `['A', 'Down', 'A']` or use `B`.
+  1. Advance "You came from OLIVINE?". (Current Step)
+  2. Text will change to "Do you remember...".
+  3. Wait for "...along the way?".
+  4. Execute `['A', 'Down', 'A']` CAREFULLY.
 - **Next**: Buy Repels, Surf to Olivine.
 - **Party**: Garnet (Lvl 40, 64/128 HP), Headache (Surf).
 - **Quest**: Obtain Mineral Badge (Jasmine).
