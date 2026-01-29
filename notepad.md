@@ -3,8 +3,8 @@
 
 ### Current Status
 - **Location**: Cianwood City (22_6), Inside Pokémon Center.
-- **Navigation Strategy**: Heal team. Exit PC. Locate Pharmacy south of the Gym (West side of town).
-- **Reflection**: Phone call interrupted healing previously. Must confirm full heal.
+- **Navigation Strategy**: Heal team. Locate Pharmacy (South of Gym). Investigate Gym for Strength requirement.
+- **Reflection**: Confirmed lack of HM04 Strength. If Gym requires it, I must Surf back to Olivine. If not, I can get the Storm Badge and HM02 Fly here!
 - **Party**: Garnet (Lvl 40), Headache (Surf).
 - **Quest**: Obtain Mineral Badge (Jasmine).
 
