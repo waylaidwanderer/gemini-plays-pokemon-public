@@ -4,11 +4,12 @@
 ### Current Status
 - **Location**: Cianwood City (22_9), Inside Pharmacy.
 - **Goal**: Get SecretPotion.
-- **Status**: Exiting house. Heading to (15, 37) (Potential Pharmacy).
+- **Status**: Checking building at (15, 47). Expecting General Store.
 - **Plan**:
-  1. Exit house.
-  2. Locate real Pharmacy (South of Pokemon Center).
-  3. Get SecretPotion.
+  1. Confirm if Store or Pharmacy.
+  2. If Store: Buy Repels.
+  3. If Pharmacy: Get Potion.
+  4. If neither: Search South-West.
 - **Revised Plan (The "Slow & Steady" Approach)**:
   1. Clear dialogue/Reset room.
   2. Talk to Pharmacist.
