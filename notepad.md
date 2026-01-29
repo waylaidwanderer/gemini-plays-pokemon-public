@@ -15,8 +15,8 @@
 - **Lighthouse Navigation**: 
   - 4F Center Room (with stairs to top) is ISOLATED by walls.
   - MUST fall from 5F to reach 4F Center.
-  - Hole at (16, 7) on 5F is a TRAP (drops to 4F Right Side).
-  - **Current Task**: Return to 5F, check for holes near the center (x=9) or near the Bird Keeper.
+  - Hole at (16, 7) on 5F leads to 4F Right.
+  - **Current Task**: Re-examine Right Side of 5F and the destination of the 'Trap Hole'.
 
 ### Important Locations
 - **Cianwood Pharmacy**: (15, 37) in Cianwood.
