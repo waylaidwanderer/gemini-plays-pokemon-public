@@ -35,6 +35,7 @@
 - Defeated Blackbelt Lao.
 - Defeated Blackbelt Nob.
 - Defeated Blackbelt Lung (Mankey).
-- Status: Defeated Lung. Clearing boulder puzzle to reach Chuck.
-- **Gym Puzzle**: Strength active. Plan: Push boulder at (4, 6) Left, then push boulder at (5, 5) Right to open path.
+- Status: At (5, 6). Strength inactive. Activating Strength on Bolin.
+- **Gym Puzzle**: Push boulder at (5, 5) UP. Then navigate around Lung.
+- **Bolin Moves**: Has Rock Smash and Strength. Need to select Strength from menu.
 - **Tip**: Cianwood PC Interaction Point is (3,3) facing Up.
