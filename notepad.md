@@ -6,14 +6,9 @@
 - **Goal**: Get SecretPotion.
 - **Status**: Battling Swimmer Kara on Route 41.
 - **Reasoning**:
-  1. **CORRECTION**: The move menu layout is a **VERTICAL LIST**, not a 2x2 grid.
-     - Line 1: DIG
-     - Line 2: MUD-SLAP
-     - Line 3: SMOKESCREEN (Current Selection)
-     - Line 4: FLAME WHEEL
-  2. **ERROR**: I have been pressing 'Right' assuming a grid layout, which does nothing in a vertical list.
-  3. **SOLUTION**: Press **DOWN** to move from Smokescreen to Flame Wheel.
-  4. **Next Turn**: Verify cursor is on Flame Wheel, then press 'A'.
+  1. **Visual Confirmation**: Cursor is definitively on **FLAME WHEEL**.
+  2. **Action**: Pressing 'A' to attack.
+  3. **Expectation**: Garnet attacks. Staryu should take heavy damage.
 - **Plan**:
   1. Defeat Kara.
   2. Surf North to Olivine City.
