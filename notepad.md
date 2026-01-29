@@ -4,10 +4,10 @@
 ### Current Status
 - **Location**: Cianwood City (22_9), Inside Pharmacy.
 - **Goal**: Get SecretPotion.
-- **Status**: Returning to Olivine City.
+- **Status**: Talking to Pharmacist (Dialogue in progress).
 - **Reasoning**:
-  1. Suicune disappeared/inactive.
-  2. Pharmacy is stuck in Shop Mode.
+  1. Pharmacist asked "Do you remember the four islands along the way?".
+  2. Need to navigate this dialogue tree to get the SecretPotion.
   3. **CRITICAL**: I missed HM04 Strength in Olivine. Cannot beat Cianwood Gym without it.
 - **Plan**:
   1. Go to Pharmacy (15, 47).
