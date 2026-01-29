@@ -15,10 +15,10 @@
 - **Lighthouse Navigation**: 
   - 5F Center is isolated. Must access from 4F Center.
   - 4F Center is isolated. Must fall from 5F.
-  - Only accessible hole on 5F is at (16, 7) (Right Side).
-  - Previously thought (16, 7) was a trap.
-  - **New Hypothesis**: (16, 7) leads to a path on 4F or 3F that eventually reaches 4F Center.
-  - **Current Task**: Jump down (16, 7) and exhaustively search the landing area for holes, hidden paths, or stairs.
+  - Hole at (16, 7) on 5F leads to 4F Right (Isolated Ledge).
+  - 4F Right has holes at (16, 9).
+  - **Hypothesis**: 4F Right Hole -> 3F Right -> Path to Center?
+  - **Current Task**: Finish phone call, then fall down hole at (16, 9) on 4F.
 
 ### Important Locations
 - **Cianwood Pharmacy**: (15, 37) in Cianwood.
