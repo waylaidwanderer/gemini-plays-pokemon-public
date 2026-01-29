@@ -13,14 +13,15 @@
 ### Quest Log
 - **SecretPotion**: Pharmacist gives generic "Whirl Islands" text. Implies Jasmine flag was not fully set.
 - **Lighthouse Navigation**: 
-  - 5F Center is isolated. Must access from 4F Center.
-  - 4F Center is isolated. Must fall from 5F.
-  - Right Side Drop (Hole 5F (16,7) -> 4F (16,9) -> 3F) is CONFIRMED DEAD END (shortcut to exit).
-  - **Current Task**: Return to 5F. Find a DIFFERENT hole.
+  - **Current Floor**: 2F (Map 3_42).
+  - **Goal**: Find stairs to 3F.
+  - **Known Locations**:
+    - Stairs DOWN to 1F (Exit/Shortcut): (16, 13).
+    - Stairs DOWN to 1F (Entrance?): (3, 11) - CONFIRMED DOWN.
+    - Stairs UP to 3F: SEARCHING.
   - **Action Plan**:
-    1. Climb back to 5F.
-    2. AVOID hole at (16, 7) (Exit Shortcut).
-    3. Explore North and West areas of 5F for the correct hole to the Center.
+    1. Defeat Sailor.
+    2. Systematically search Top-Right and Top-Left corners for stairs UP.
 
 ### Important Locations
 - **Cianwood Pharmacy**: (15, 37) in Cianwood.
