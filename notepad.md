@@ -4,17 +4,19 @@
 ### Current Status
 - **Location**: Cianwood City (22_9), Inside Pharmacy.
 - **Goal**: Get SecretPotion.
-- **Status**: Battle Won! Resuming travel to Olivine.
+- **Status**: Battling Swimmer Kara (Pokemon 2).
 - **Reasoning**:
-  1. Staryu fainted! The "not very effective" hit was enough.
-  2. **Current State**: Battle victory screen.
-  3. **Action**: Pressing 'A' to clear XP/Money text.
-  4. **Next Steps**: Continue Surfing North to Route 40/Olivine.
-  5. **Note**: Garnet is at 38 HP. Need to heal after battle.
+  1. False Alarm: Battle is NOT over. Kara has another Pokemon.
+  2. **Current State**: "SWIMMER♀ KARA is about to use..."
+  3. **Action**: Pressing 'A' to reveal the next Pokemon.
+  4. **Strategy**: Keep Garnet in (Others are too low level). Say "NO" to switch.
+  5. **Health Check**: Garnet 38/128 HP.
 - **Plan**:
-  1. Finish battle dialogue.
-  2. Heal Garnet (Potion).
-  3. Surf North.
+  1. Decline Switch.
+  2. Assess next Pokemon.
+  3. Heal or Attack (Flame Wheel).
+  4. Finish Battle.
+  5. Surf North.
 
 ### Objectives
 - **Primary**: Obtain Mineral Badge (Jasmine).
