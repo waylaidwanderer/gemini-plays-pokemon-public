@@ -5,6 +5,8 @@
 - **Location**: Cianwood City (22_9), Inside Pharmacy.
 - **Interaction**: Pharmacist dialogue loop.
 - **Hypothesis**: Mashing 'A' selects 'YES' to "Do you remember the four islands?", causing a lore loop. I need to answer 'NO' or carefully navigate the dialogue.
+- **Status**: Carefully advancing dialogue with single 'A' presses to avoid accidental 'YES' selection.
+- **Loop Fix Strategy**: If 'Do you remember...?' appears, ensure I answer 'NO' (Down -> A).
 - **Plan**: 
   1. Press 'A' singly to reach the decision point.
   2. If Yes/No menu appears, select 'NO' (Down -> A).
