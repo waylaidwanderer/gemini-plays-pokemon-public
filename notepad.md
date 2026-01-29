@@ -3,7 +3,7 @@
 
 ### Current Status
 - **Location**: Olivine City Pokémon Center (Map 1_1).
-- **Goal**: Teach HM04 Strength to Bolin.
+- **Goal**: Return to Cianwood City (Surf).
 
 ### Objectives
 - **Primary**: Defeat Chuck (Cianwood Gym).
