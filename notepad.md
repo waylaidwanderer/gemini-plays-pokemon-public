@@ -4,11 +4,13 @@
 ### Current Status
 - **Location**: Cianwood City (22_9), Inside Pharmacy.
 - **Goal**: Get SecretPotion.
-- **Status**: Retrying interaction with Pharmacist after Joey's call.
+- **Status**: Shop menu opening.
+- **Hypothesis**: Buying an item might trigger the "Thank you" script and potentially the potion dialogue afterwards.
 - **Plan**:
-  1. Talk to Pharmacist.
-  2. If Shop opens: Buy 1 Potion (Reset/Trigger check).
-  3. If Dialogue triggers: Get Potion.
+  1. Buy 1 Potion.
+  2. Exit Shop.
+  3. Talk again.
+  4. If fails: Double check Jasmine flag (requires returning to Olivine, worst case).
 - **Revised Plan (The "Slow & Steady" Approach)**:
   1. Clear dialogue/Reset room.
   2. Talk to Pharmacist.
