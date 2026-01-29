@@ -4,12 +4,12 @@
 ### Current Status
 - **Location**: Cianwood City (22_9), Inside Pharmacy.
 - **Goal**: Get SecretPotion.
-- **Status**: Requesting SecretPotion from Pharmacist.
-- **Hypothesis**: Jasmine's request should override the shop script.
+- **Status**: Clearing "See you around" text.
 - **Plan**:
-  1. Talk to Pharmacist.
-  2. If Shop opens again: Cancel and inspect room/check guides.
-  3. If Dialogue triggers: Get Potion.
+  1. Clear text.
+  2. Talk to Pharmacist again immediately.
+  3. If Shop opens again: Buy 1 Potion (to try and reset state), then talk again.
+  4. If Dialogue triggers: Get Potion.
 - **Revised Plan (The "Slow & Steady" Approach)**:
   1. Clear dialogue/Reset room.
   2. Talk to Pharmacist.
