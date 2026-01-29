@@ -4,13 +4,12 @@
 ### Current Status
 - **Location**: Cianwood City (22_9), Inside Pharmacy.
 - **Goal**: Get SecretPotion.
-- **Status**: Approaching Pharmacist.
-- **Interaction Rule**: When "Do you remember..." text finishes, press 'DOWN' immediately, then 'A'.
+- **Status**: Dialogue initiated.
+- **Interaction Rule**: When "Do you remember..." text finishes/appears, PRESS 'DOWN' immediately, then 'A'. DO NOT press 'A' to "spawn" the menu.
 - **Plan**: 
-  1. Talk to Pharmacist.
-  2. Advance "You came from OLIVINE?".
-  3. Wait for "...along the way?".
-  4. EXECUTE 'DOWN' then 'A'.
+  1. Advance "You came from OLIVINE?".
+  2. Wait for "...along the way?".
+  3. EXECUTE 'DOWN' then 'A'.
 - **Next**: Buy Repels, Surf to Olivine.
 
 ### Objectives
