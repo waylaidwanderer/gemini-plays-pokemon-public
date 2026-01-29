@@ -6,10 +6,10 @@
 - **Goal**: Get SecretPotion.
 - **Status**: Battling Swimmer Kara on Route 41.
 - **Reasoning**:
-  1. **Visual Confirmation**: Move menu is open. Cursor is pointing to **SMOKESCREEN** (Bottom-Left).
-  2. **Target**: **FLAME WHEEL** (Bottom-Right).
-  3. **Action**: Pressing 'Right' to move cursor.
-  4. **Next Turn**: Will VISUALLY confirm cursor is on Flame Wheel, THEN press 'A'.
+  1. **CRITICAL**: The cursor is STILL on **SMOKESCREEN** despite pressing 'Right' last turn. The input was likely eaten or ignored during a transition.
+  2. **Goal**: Move cursor to **FLAME WHEEL**.
+  3. **Action**: Pressing 'Right' again.
+  4. **Next Turn**: Must VISUALLY confirm the cursor has moved to the bottom-right slot before pressing 'A'. Do NOT rush.
 - **Plan**:
   1. Defeat Kara.
   2. Surf North to Olivine City.
