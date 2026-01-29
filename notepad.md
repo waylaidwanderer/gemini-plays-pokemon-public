@@ -29,3 +29,6 @@
   6. Deliver Potion to Amphy.
 - **Shuckle Guy**: Found at (17, 41) in Cianwood (Map 22_4). Offers a Shuckle to look after.
 - **Search Update**: Building at (17, 41) is NOT the Pharmacy. Pharmacy is likely South of the Pokemon Center.
+- **Discovery**: Found a previously unnoticed door at (15, 37) in Cianwood.
+- **Hypothesis**: This is likely the Pharmacy.
+- **Plan**: Navigate to (15, 38) and enter.
