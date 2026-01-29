@@ -40,10 +40,8 @@
 - **Puzzle**: Boulder is now at (4, 3). Need to see if I can push it further or move around.
 - **Plan**: Move to (4, 4), then reach Chuck.
 - **Tip**: Cianwood PC Interaction Point is (3,3) facing Up.
-- **Gym Puzzle Strategy**: Previous attempt glitched at (4, 4).
-- **New Plan**:
-  1. Exit and Re-enter Gym to reset boulders.
-  2. Push the first boulder at (4, 6) Left or Right to clear path.
-  3. Walk to (5, 4) (if possible) or (4, 5).
-  4. Push the second boulder at (4, 4) **LEFT** to (3, 4).
-  5. Walk straight up through (4, 4) -> (4, 3) -> (4, 2) to reach Chuck.
+- **Gym Puzzle Strategy**: "The Split"
+  1. Move to (3, 8). Push Boulder (3, 7) UP to (3, 6).
+  2. Move to (5, 8). Push Boulder (5, 7) UP to (5, 6).
+  3. Move to (3, 7) (now empty). Push Boulder (4, 7) RIGHT to (5, 7).
+  4. Walk UP through (4, 7) -> (4, 6) -> Leader.
