@@ -37,6 +37,6 @@
 ### Current Objectives
 - **Current Task**: Obtain SecretPotion.
 - **Next Steps**:
-  1. Teach HM02 (Fly) to Topaz.
+  1. Teach HM02 (Fly) to Topaz (Done).
   2. Check Cianwood Pharmacy (Badge obtained).
   3. Fly to Olivine City.
