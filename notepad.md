@@ -11,13 +11,14 @@
 - **Tertiary**: Explore Olivine City.
 
 ### Quest Log
-- **SecretPotion**: Pharmacist in Cianwood refused previously. Spoke to Jasmine, now re-visiting.
+- **SecretPotion**: Pharmacist gives generic "Whirl Islands" text. Implies Jasmine flag was not fully set.
 - **Gym**: Defeated Chuck. Badge obtained.
 - **HM04 Strength**: Taught to Bolin.
 - **Plan**:
-  1. Get SecretPotion from Pharmacist (Current).
-  2. Fly to Olivine City.
-  3. Heal Amphy.
+  1. Fly to Olivine City.
+  2. Climb Lighthouse and talk to Jasmine/Amphy again. Ensure dialogue is exhausted.
+  3. Fly back to Cianwood.
+  4. Get SecretPotion.
 
 ### Important Locations
 - **Cianwood Pharmacy**: (15, 37) in Cianwood.
