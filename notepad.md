@@ -32,4 +32,5 @@
 - **Correction**: The "invisible wall" was simply the boundary between shallow and deep water while not Surfing. Now Surfing to Cianwood.
 ### Cianwood Gym Progress
 - Defeated Blackbelt Yoshi.
-- Currently fighting Blackbelt Lao.
+- Defeated Blackbelt Lao.
+- Status: Retreating to heal before Chuck.
