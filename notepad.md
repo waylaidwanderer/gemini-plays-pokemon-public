@@ -11,10 +11,7 @@
   2. Reset position (Move Down, then Up).
   3. Talk.
   4. Advance text to "...along the way?".
-  5. STOP. Verify screen.
-  6. Press 'A' to spawn menu. STOP.
-  7. Press 'Down'. STOP.
-  8. Press 'A' to confirm NO.
+  5. **CRITICAL**: Do NOT press 'A' alone. Execute `['A', 'Down', 'A']` or use `B`.
 - **Next**: Buy Repels, Surf to Olivine.
 - **Party**: Garnet (Lvl 40, 64/128 HP), Headache (Surf).
 - **Quest**: Obtain Mineral Badge (Jasmine).
