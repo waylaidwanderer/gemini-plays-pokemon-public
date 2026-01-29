@@ -13,16 +13,13 @@
 ### Quest Log
 - **SecretPotion**: Pharmacist gives generic "Whirl Islands" text. Implies Jasmine flag was not fully set.
 - **Lighthouse Navigation**: 
-  - **Current Floor**: 4F (Map 3_45).
-  - **Status**: Returned to 4F Center Room via 3F (9, 5).
-  - **4F (Map 3_45)**:
-    - Stairs Down to 3F: (13, 3) and (9, 5) (Center).
-    - Stairs Up to 5F (Left): (3, 5) -> Leads to room on 5F. Needs re-investigation.
-    - Stairs Up to 5F (Center): (9, 7) -> Correct path to 6F.
-    - Layout: West Side isolated at top. Must go South (Row 14), Cross to East, Go North (Row 2), then West to Center.
-    - Obstacles: Sailor and Lass blocking path at (11, 2-3).
-    - Strategy: The hole at (9, 3) was a transfer to the Center Room.
-  - **Next Step**: Take stairs at (9, 7) to 5F.
+  - **Current Floor**: 5F (Map 3_46).
+  - **Status**: Ascended from 4F Center. Now in 5F Center Corridor.
+  - **5F (Map 3_46)**:
+    - Stairs Down to 4F: (9, 7).
+    - Stairs Up to 6F: (9, 15).
+    - Obstacles: Sailor Ernest (Defeated).
+  - **Next Step**: Head South to (9, 15) and ascend to 6F to talk to Jasmine.
 
 ### Important Locations
 - **Cianwood Pharmacy**: (15, 37) in Cianwood.
