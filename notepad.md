@@ -4,11 +4,11 @@
 ### Current Status
 - **Location**: Cianwood City (22_9), Inside Pharmacy.
 - **Goal**: Get SecretPotion.
-- **Status**: Clearing "See you around" text.
+- **Status**: Phone call with Joey (Interrupted "See you around").
 - **Plan**:
-  1. Clear text.
-  2. Talk to Pharmacist again immediately.
-  3. If Shop opens again: Buy 1 Potion (to try and reset state), then talk again.
+  1. Finish phone call.
+  2. Talk to Pharmacist again.
+  3. If Shop opens: Buy 1 Potion to reset/check, then talk again.
   4. If Dialogue triggers: Get Potion.
 - **Revised Plan (The "Slow & Steady" Approach)**:
   1. Clear dialogue/Reset room.
