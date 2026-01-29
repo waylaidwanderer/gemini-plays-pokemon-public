@@ -6,11 +6,15 @@
 - **Goal**: Get SecretPotion.
 - **Status**: Battling Swimmer Kara on Route 41.
 - **Reasoning**:
-  1. Staryu used Water Gun. Super Effective. Garnet HP: 38/128.
-  2. Need to end this battle NOW.
-  3. Control issues caused repeated Smokescreen usage.
-  4. **Action**: Pressing 'A' ONCE to clear battle text and open the command menu.
-  5. **Next Turn**: Will carefully navigate to FIGHT and identify the correct move slot for Flame Wheel.
+  1. **Battle State**: Garnet (38/128 HP) vs Staryu (Lv 20).
+  2. **Damage Calc**: Staryu's Water Gun did ~13 damage (51 -> 38). I can survive at least 2 more hits.
+  3. **Action**: Pressing 'A' to enter the FIGHT menu.
+  4. **Next Turn**: VISUALLY confirm which move is selected.
+     - Move 1 (Top-Left): DIG (0 PP)
+     - Move 2 (Top-Right): MUD-SLAP (0 PP)
+     - Move 3 (Bottom-Left): SMOKESCREEN (11 PP)
+     - Move 4 (Bottom-Right): FLAME WHEEL (8 PP)
+  5. **Goal**: Navigate cursor to Move 4 (Flame Wheel).
 - **Plan**:
   1. Defeat Kara.
   2. Surf North to Olivine City.
