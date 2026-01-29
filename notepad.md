@@ -4,7 +4,7 @@
 ### Current Status
 - **Location**: Olivine City (Map 1_1).
 - **Goal**: Heal at Pokémon Center.
-- **Health**: Garnet (75/128 HP).
+- **Health**: Garnet (75/128 HP). Exploring city.
 
 ### Objectives
 - **Primary**: Obtain Mineral Badge (Jasmine).
