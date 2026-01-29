@@ -43,3 +43,4 @@
 - Pharmacist gave Whirl Islands lore instead of SecretPotion.
 - Hypothesis: Missing a flag from Jasmine or Olivine Cafe.
 - Plan: Fly to Olivine, talk to Jasmine at Lighthouse, then check Cafe if needed.
+- Fly Map Navigation: 'Down' moves backwards (New Bark direction), 'Up' moves forwards (Blackthorn direction). List appears to be Chronological.
