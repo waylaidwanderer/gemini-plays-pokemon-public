@@ -2,7 +2,7 @@
 - Started: Friday, January 16, 2026
 
 ### Current Status
-- **Location**: Olivine City (Map 1_14).
+- **Location**: Olivine City (Map 1_1).
 - **Goal**: Heal at Pokémon Center.
 - **Health**: Garnet (75/128 HP).
 
