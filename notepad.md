@@ -4,13 +4,17 @@
 ### Current Status
 - **Location**: Cianwood City (22_9), Inside Pharmacy.
 - **Goal**: Get SecretPotion.
-- **Status**: Resetting interaction to try "No" option.
-- **Hypothesis**: The "Need some medicine?" prompt defaults to "Yes" (Shop). Saying "No" might trigger the quest dialogue.
+- **Status**: Stuck in Shop Menu loop. Flag for SecretPotion seems missing.
+- **Possibilities**:
+  1. Wrong building? (Unlikely, this is a Pharmacy).
+  2. Need to beat Chuck first? (Unlikely).
+  3. Didn't trigger Jasmine properly? (Possible).
+  4. Need to talk to someone else in Cianwood first?
 - **Plan**:
-  1. Clear "See you around" text (Press A).
-  2. Talk to Pharmacist again.
-  3. When "Need some medicine?" appears, DO NOT PRESS A immediately.
-  4. Press 'B' or 'Down' -> 'A' to select No.
+  1. Close Shop (Press B).
+  2. Exit building.
+  3. Locate the Gym and other buildings to ensure I haven't missed a "Real Pharmacy".
+  4. If nothing else found, challenge Chuck. Maybe winning triggers the Pharmacist?
 - **Revised Plan (The "Slow & Steady" Approach)**:
   1. Clear dialogue/Reset room.
   2. Talk to Pharmacist.
