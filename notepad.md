@@ -4,12 +4,12 @@
 ### Current Status
 - **Location**: Cianwood City (22_9), Inside Pharmacy.
 - **Goal**: Get SecretPotion.
-- **Status**: Advancing text to question end.
-- **Interaction Rule**: When "...along the way?" appears, the menu should spawn. EXECUTE 'DOWN' then 'A' immediately.
+- **Status**: Question displayed. Testing input.
+- **Interaction Rule**: Try pressing 'DOWN' exclusively to select NO. Do not press 'A' to avoid accidental Yes.
 - **Plan**: 
-  1. Advance "Do you remember..." (Current Step - Done).
-  2. Expect "...along the way?".
-  3. EXECUTE 'DOWN' then 'A'.
+  1. Press 'DOWN' (Current Step).
+  2. If menu appears/cursor moves, press 'A'.
+  3. If nothing happens, reassess.
 - **Next**: Buy Repels, Surf to Olivine.
 
 ### Objectives
