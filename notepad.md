@@ -3,12 +3,9 @@
 
 ### Current Status
 - **Location**: Cianwood City (22_9), Inside Pharmacy.
-- **Status**: Clearing dialogue loop.
-- **Strategy**: 
-  1. Finish current conversation.
-  2. Exit and re-enter Pharmacy to reset state.
-  3. Talk to Pharmacist.
-  4. Use 'Down' + 'A' blindly when asked about islands to ensure 'No' is selected.
+- **Current Task**: Resetting Pharmacist interaction.
+- **Goal**: Get SecretPotion.
+- **Next**: Exit building, re-enter, answer 'NO' to islands question.
 - **Party**: Garnet (Lvl 40, 64/128 HP), Headache (Surf).
 - **Quest**: Obtain Mineral Badge (Jasmine).
 
