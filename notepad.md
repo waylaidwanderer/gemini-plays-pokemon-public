@@ -4,13 +4,13 @@
 ### Current Status
 - **Location**: Cianwood City (22_9), Inside Pharmacy.
 - **Goal**: Get SecretPotion.
-- **Status**: Testing "No" response to "Need some medicine?".
-- **Hypothesis**: Refusing to buy might prompt the "What do you want?" dialogue.
+- **Status**: Resetting interaction to try "No" option.
+- **Hypothesis**: The "Need some medicine?" prompt defaults to "Yes" (Shop). Saying "No" might trigger the quest dialogue.
 - **Plan**:
-  1. Press 'B' (Refuse).
-  2. Read response.
-  3. If "See you around": Try walking behind counter or check specific tiles.
-  4. If new text: Celebrate.
+  1. Clear "See you around" text (Press A).
+  2. Talk to Pharmacist again.
+  3. When "Need some medicine?" appears, DO NOT PRESS A immediately.
+  4. Press 'B' or 'Down' -> 'A' to select No.
 - **Revised Plan (The "Slow & Steady" Approach)**:
   1. Clear dialogue/Reset room.
   2. Talk to Pharmacist.
