@@ -28,3 +28,5 @@
 - **TYPE_4e8c**: Water (Surfable).
 - **TYPE_1f49**: Rock boundary (Impassable).
 - **TYPE_3fe2**: Water (Surfable).
+- **Anomaly**: Encountered invisible wall/blockage at Row 14 on Route 40 (approx X=10 to X=15). Unable to Surf South despite clear water.
+- **Hypothesis**: Blockage might be related to Swimmers or specific route boundaries. Will try interacting with Swimmers.
