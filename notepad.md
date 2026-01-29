@@ -1,6 +1,11 @@
 # Pokémon Crystal Playthrough
 - Started: Friday, January 16, 2026
 
+### Current Status
+- **Location**: Olivine City (Map 1_14).
+- **Goal**: Heal at Pokémon Center.
+- **Health**: Garnet (75/128 HP).
+
 ### Objectives
 - **Primary**: Obtain Mineral Badge (Jasmine).
 - **Secondary**: Obtain HM04 Strength (Olivine Cafe).
