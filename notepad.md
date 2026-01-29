@@ -6,10 +6,14 @@
 - **Goal**: Get SecretPotion.
 - **Status**: Battling Swimmer Kara on Route 41.
 - **Reasoning**:
-  1. **CRITICAL**: The cursor is STILL on **SMOKESCREEN** despite pressing 'Right' last turn. The input was likely eaten or ignored during a transition.
-  2. **Goal**: Move cursor to **FLAME WHEEL**.
-  3. **Action**: Pressing 'Right' again.
-  4. **Next Turn**: Must VISUALLY confirm the cursor has moved to the bottom-right slot before pressing 'A'. Do NOT rush.
+  1. **CORRECTION**: The move menu layout is a **VERTICAL LIST**, not a 2x2 grid.
+     - Line 1: DIG
+     - Line 2: MUD-SLAP
+     - Line 3: SMOKESCREEN (Current Selection)
+     - Line 4: FLAME WHEEL
+  2. **ERROR**: I have been pressing 'Right' assuming a grid layout, which does nothing in a vertical list.
+  3. **SOLUTION**: Press **DOWN** to move from Smokescreen to Flame Wheel.
+  4. **Next Turn**: Verify cursor is on Flame Wheel, then press 'A'.
 - **Plan**:
   1. Defeat Kara.
   2. Surf North to Olivine City.
