@@ -4,12 +4,12 @@
 ### Current Status
 - **Location**: Cianwood City (22_9), Inside Pharmacy.
 - **Goal**: Get SecretPotion.
-- **Status**: Question displayed. Testing input.
-- **Interaction Rule**: Try pressing 'DOWN' exclusively to select NO. Do not press 'A' to avoid accidental Yes.
+- **Status**: 'Down' input had no effect. Text requires 'A' to advance.
+- **Interaction Rule**: Press 'A' ONCE to advance text. The menu should appear in the next state. Do not double-press.
 - **Plan**: 
-  1. Press 'DOWN' (Current Step).
-  2. If menu appears/cursor moves, press 'A'.
-  3. If nothing happens, reassess.
+  1. Press 'A' (Current Step).
+  2. Verify Yes/No menu visibility in next turn.
+  3. Press 'Down', then 'A'.
 - **Next**: Buy Repels, Surf to Olivine.
 
 ### Objectives
