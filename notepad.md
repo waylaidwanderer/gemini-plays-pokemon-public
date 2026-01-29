@@ -4,11 +4,13 @@
 ### Current Status
 - **Location**: Cianwood City (22_9), Inside Pharmacy.
 - **Goal**: Get SecretPotion.
-- **Status**: Advancing text (Step 2).
-- **Plan**:
-  1. Advance "Do you remember..." (Current Step).
-  2. At "...along the way?", EXECUTE `['Down', 'A']`.
-  3. Verify 'NO' response (Dialogue should end or change).
+- **Status**: Question displayed. 'Down' and 'B' failed previously.
+- **New Strategy**: Execute `['A', 'B']`.
+  - 'A' advances the text "along the way? ▼".
+  - 'B' immediately cancels the subsequent Yes/No menu (selecting NO).
+- **Plan**: 
+  1. Execute `['A', 'B']` (Current Step).
+  2. Verify if dialogue changes to "You don't?" (Success) or "I heard..." (Fail).
 - **Next**: Buy Repels, Surf to Olivine.
 
 ### Objectives
