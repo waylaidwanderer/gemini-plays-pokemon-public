@@ -4,10 +4,11 @@
 ### Current Status
 - **Location**: Cianwood City (22_9), Inside Pharmacy.
 - **Goal**: Get SecretPotion.
-- **Status**: Moving to check girl NPC. Confirmed: This is a HOUSE, not the Pharmacy.
+- **Status**: Exiting the "Lugia Lore House".
 - **Plan**:
-  1. Talk to girl at (5, 5).
-  2. Exit and find real Pharmacy (likely South of Center).
+  1. Exit house.
+  2. Locate real Pharmacy (South of Pokemon Center).
+  3. Get SecretPotion.
 - **Revised Plan (The "Slow & Steady" Approach)**:
   1. Clear dialogue/Reset room.
   2. Talk to Pharmacist.
