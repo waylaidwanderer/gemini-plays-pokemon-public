@@ -13,13 +13,12 @@
 ### Quest Log
 - **SecretPotion**: Pharmacist gives generic "Whirl Islands" text. Implies Jasmine flag was not fully set.
 - **Lighthouse Navigation**: 
-  - **Current Floor**: 5F (Map 3_46).
-  - **Status**: Ascended from 4F Center. Now in 5F Center Corridor.
-  - **5F (Map 3_46)**:
-    - Stairs Down to 4F: (9, 7).
-    - Stairs Up to 6F: (9, 15).
-    - Obstacles: Sailor Ernest (Defeated).
-  - **Next Step**: Head South to (9, 15) and ascend to 6F to talk to Jasmine.
+  - **Current Floor**: 6F (Map 3_47).
+  - **Status**: Reached the top floor!
+  - **6F (Map 3_47)**:
+    - Stairs Down to 5F: (9, 15).
+    - Goal: Find Jasmine.
+  - **Next Step**: Head North to find Jasmine.
 
 ### Important Locations
 - **Cianwood Pharmacy**: (15, 37) in Cianwood.
