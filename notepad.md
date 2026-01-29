@@ -27,3 +27,5 @@
   4. Surf back to Olivine City.
   5. Get HM04 Strength.
   6. Deliver Potion to Amphy.
+- **Shuckle Guy**: Found at (17, 41) in Cianwood (Map 22_4). Offers a Shuckle to look after.
+- **Search Update**: Building at (17, 41) is NOT the Pharmacy. Pharmacy is likely South of the Pokemon Center.
