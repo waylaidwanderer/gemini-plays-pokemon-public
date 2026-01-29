@@ -4,13 +4,17 @@
 ### Current Status
 - **Location**: Cianwood City (22_9), Inside Pharmacy.
 - **Goal**: Get SecretPotion.
-- **Status**: Failed to get SecretPotion from Pharmacist (Only offers Shop).
-- **Fact**: Pharmacist currently offers only standard shop menu. SecretPotion flag likely unset or requires external trigger.
+- **Status**: Investigating why SecretPotion isn't available.
+- **Hypothesis**: Might need to trigger Suicune event in North Cianwood first.
+- **Facts**:
+  - Pharmacist only sells medicine (Shop Mode).
+  - Sign at (19, 47) says "500 Years of Tradition" (Confirmed Pharmacy).
+  - Already beat Eusine on Route 41 (Wait, did I? Summary says yes).
 - **Plan**:
-  1. Exit Pharmacy.
-  2. Explore Cianwood for any other "Pharmacy" signs (just in case).
-  3. Challenge Gym Leader Chuck (Might be a trigger).
-  4. If all else fails, return to Olivine to re-talk to Jasmine.
+  1. Explore North part of Cianwood.
+  2. Look for Suicune.
+  3. If found/triggered, return to Pharmacy.
+  4. If not, check Gym.
 - **Revised Plan (The "Slow & Steady" Approach)**:
   1. Clear dialogue/Reset room.
   2. Talk to Pharmacist.
