@@ -6,11 +6,11 @@
 - **Interaction**: Pharmacist dialogue loop.
 - **Hypothesis**: "You came from OLIVINE?" is just text. The question is "Do you remember the four islands along the way?". Answering YES leads to lore. I must answer NO.
 - **Strategy**: 
-  1. Advance "You came from OLIVINE?".
-  2. Advance "Do you remember...".
-  3. STOP at "...along the way?".
+  1. Advance "You came from OLIVINE?". (Done)
+  2. Advance "Do you remember...". (Done)
+  3. STOP at "...along the way?". (Next Step)
   4. Perform specific input `['Down', 'A']` to select NO.
-- **Current Step**: Advancing "You came from OLIVINE?".
+- **Current Step**: Advancing "Do you remember the four islands" to "...along the way?".
 - **Party**: Garnet (Lvl 40, 64/128 HP), Headache (Surf).
 - **Quest**: Obtain Mineral Badge (Jasmine).
 
