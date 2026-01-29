@@ -3,27 +3,22 @@
 
 ### Current Status
 - **Location**: Olivine City - Interior (Map 1_1).
-- **Goal**: Talk to Sailor (Check for Strength HM).
+- **Goal**: Find Olivine Cafe (Strength HM) and Pokémon Center.
 - **Health**: Garnet (75/128 HP). Exploring city.
 
 ### Objectives
 - **Primary**: Obtain Mineral Badge (Jasmine).
 - **Secondary**: Obtain HM04 Strength (Olivine Cafe).
-- **Tertiary**: Train Basil to Lvl 21.
+- **Tertiary**: Explore Olivine City.
 
 ### Quest Log
 - **SecretPotion**: Pharmacist in Cianwood refused to give it. Potentially missing a trigger or need to visit Olivine Cafe/Jasmine again.
 - **Gym**: Chuck (Cianwood) requires Strength (HM04) to access.
-- **HM04 Strength**: Located in Olivine Cafe (Next Destination).
+- **HM04 Strength**: Located in Olivine Cafe (Next Destination). Sailor in random house didn't have it.
 - **Plan**:
-  1. Surf to Olivine City.
+  1. Exit house.
   2. Heal at Center.
-  3. Get HM04 Strength from Sailor in Cafe.
-  4. Re-visit Jasmine at Lighthouse to confirm trigger.
-  5. Return to Cianwood (Surf).
-  6. Defeat Chuck (using Strength).
-  7. Get SecretPotion (hopefully triggered).
-  8. Fly back to Olivine (if Fly is usable) or Surf.
+  3. Find Olivine Cafe and get Strength.
 
 ### Important Locations
 - **Cianwood Pharmacy**: (15, 37) in Cianwood.
