@@ -34,6 +34,8 @@
 - Defeated Blackbelt Yoshi.
 - Defeated Blackbelt Lao.
 - Defeated Blackbelt Nob.
-- Status: Battling Blackbelt (Mankey) directly in front of Chuck.
-- **Gym Puzzle**: Push outer boulders UP to clear path to Chuck.
+- Defeated Blackbelt Lung (Mankey).
+- Status: Trying to pass Lung. Blocked at (4, 4).
+- **Obstacle**: Sprite at (5, 5). Investigating.
+- **Gym Puzzle**: Move boulders to clear path.
 - **Tip**: Cianwood PC Interaction Point is (3,3) facing Up.
