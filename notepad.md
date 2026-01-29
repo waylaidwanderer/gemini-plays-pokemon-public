@@ -12,13 +12,11 @@
 
 ### Quest Log
 - **SecretPotion**: Pharmacist gives generic "Whirl Islands" text. Implies Jasmine flag was not fully set.
-- **Gym**: Defeated Chuck. Badge obtained.
-- **HM04 Strength**: Taught to Bolin.
-- **Plan**:
-  1. Fly to Olivine City.
-  2. Climb Lighthouse and talk to Jasmine/Amphy again. Ensure dialogue is exhausted.
-  3. Fly back to Cianwood.
-  4. Get SecretPotion.
+- **Lighthouse Navigation**: 
+  - 4F Center Room (with stairs to top) is ISOLATED by walls.
+  - MUST fall from 5F to reach 4F Center.
+  - 4F Right Side (past Sailor) only has stairs DOWN.
+  - **Current Task**: Return to 5F Left Side and find the correct hole to fall into.
 
 ### Important Locations
 - **Cianwood Pharmacy**: (15, 37) in Cianwood.
