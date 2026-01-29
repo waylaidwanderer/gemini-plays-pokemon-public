@@ -4,7 +4,7 @@
 ### Current Status
 - **Location**: Cianwood City (22_9), Inside Pharmacy.
 - **Goal**: Get SecretPotion.
-- **Status**: Advancing text loop (2/4). Next: "...are caused by the sea creature."
+- **Status**: Advancing text loop (3/4). Next: "sea creature."
 - **Revised Plan (The "Slow & Steady" Approach)**:
   1. Clear dialogue/Reset room.
   2. Talk to Pharmacist.
