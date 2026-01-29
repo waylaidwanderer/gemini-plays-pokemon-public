@@ -4,10 +4,10 @@
 ### Current Status
 - **Location**: Cianwood City (22_9), Inside Pharmacy.
 - **Goal**: Get SecretPotion.
-- **Status**: Failed again (Selected YES). Clearing lore text.
+- **Status**: Clearing lore text (Accidentally selected YES previously).
 - **Critical Instruction**: Answer 'NO' to "Do you remember the four islands?".
-- **New Plan**: Single-Step Confirmation.
-  1. Clear current text.
+- **Plan**:
+  1. Clear current lore text. (Current Step)
   2. Reset position (Move Down, then Up).
   3. Talk.
   4. Advance text to "...along the way?".
