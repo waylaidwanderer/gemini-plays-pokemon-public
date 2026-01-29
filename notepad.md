@@ -20,7 +20,8 @@
     - Stairs Up to 5F (Left): (3, 5) -> Leads to DEAD END on 5F.
     - Stairs Up to 5F (Center): (9, 7) -> Correct path to 6F.
     - Layout: West Side isolated at top. Must go South (Row 14), Cross to East, Go North (Row 2), then West to Center.
-  - **Next Step**: Go South to bridge, cross to East side, loop around top to (9, 7).
+    - Obstacles: Sailor Kent at (7, 14) blocking bridge.
+  - **Next Step**: Cross bridge at (7, 14) to East Side, then head North to finding path to (9, 7).
 
 ### Important Locations
 - **Cianwood Pharmacy**: (15, 37) in Cianwood.
