@@ -2,9 +2,9 @@
 - Started: Friday, January 16, 2026
 
 ### Current Status
-- **Location**: Cianwood City (22_3).
-- **Navigation Strategy**: Enter the building at (17, 41) (Likely Pharmacy).
-- **Reflection**: Just exited Pokemon Center. Need SecretPotion.
+- **Location**: Cianwood City (22_9), Inside Pharmacy.
+- **Navigation Strategy**: Talk to the Pharmacist to get SecretPotion.
+- **Reflection**: Found the Pharmacy! Time to get the medicine for Amphy.
 - **Party**: Garnet (Lvl 40, 64/128 HP), Headache (Surf).
 - **Quest**: Obtain Mineral Badge (Jasmine).
 
