@@ -19,7 +19,6 @@
     - Stairs DOWN to 1F: (3, 11).
     - Stairs UP to 3F (West Wing): (5, 3).
     - Hole to 1F: (16, 13) - AVOID.
-    - Currently exploring 3F West Wing.
   - **Action Plan**:
     1. Explore Top Right (13, 2).
     2. Explore Top Left if not found.
