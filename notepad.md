@@ -3,15 +3,13 @@
 
 ### Current Status
 - **Location**: Cianwood City (22_9), Inside Pharmacy.
-- **Interaction**: Dialogue with Pharmacist resumed after phone call.
-- **Status**: Answering questions (likely 'YES' due to A-mashing) to reach the SecretPotion handout.
-- **Inventory Check**: 16/20 Item slots used. Key Items pocket has space.
+- **Interaction**: Pharmacist dialogue loop.
+- **Hypothesis**: Mashing 'A' selects 'YES' to "Do you remember the four islands?", causing a lore loop. I need to answer 'NO' or carefully navigate the dialogue.
 - **Plan**: 
-  1. Advance text until dialogue ends.
-  2. Verify receipt of SecretPotion (Key Item).
-  3. Exit Pharmacy.
-  4. Buy Repels.
-  5. Surf back to Olivine.
+  1. Press 'A' singly to reach the decision point.
+  2. If Yes/No menu appears, select 'NO' (Down -> A).
+  3. Verify receipt of SecretPotion.
+  4. Exit and continue plan.
 - **Party**: Garnet (Lvl 40, 64/128 HP), Headache (Surf).
 - **Quest**: Obtain Mineral Badge (Jasmine).
 
