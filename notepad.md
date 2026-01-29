@@ -40,3 +40,6 @@
   1. Teach HM02 (Fly) to Topaz (Done).
   2. Check Cianwood Pharmacy (Badge obtained).
   3. Fly to Olivine City.
+- Pharmacist gave Whirl Islands lore instead of SecretPotion.
+- Hypothesis: Missing a flag from Jasmine or Olivine Cafe.
+- Plan: Fly to Olivine, talk to Jasmine at Lighthouse, then check Cafe if needed.
