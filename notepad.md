@@ -3,10 +3,10 @@
 
 ### Current Status
 - **Location**: Cianwood City (22_9), Inside Pharmacy.
-- **Interaction**: Answering 'YES' to "You came from OLIVINE?" to get SecretPotion.
-- **Reflection**: Dialogue loop detected. Avoiding button mashing.
+- **Interaction**: Answering 'NO' to "Do you remember the four islands?"
+- **Hypothesis**: Answering YES leads to lore and ends conversation without potion. Answering NO might trigger the "You must be worried/tired" dialogue and yield the potion.
 - **Plan**: 
-  1. Confirm YES.
+  1. Answer NO (A -> Down -> A).
   2. Verify receipt of SecretPotion.
   3. Exit and continue plan.
 - **Party**: Garnet (Lvl 40, 64/128 HP), Headache (Surf).
