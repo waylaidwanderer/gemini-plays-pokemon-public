@@ -21,7 +21,8 @@
     - Stairs Up to 5F (Center): (9, 7) -> Correct path to 6F.
     - Layout: West Side isolated at top. Must go South (Row 14), Cross to East, Go North (Row 2), then West to Center.
     - Obstacles: Sailor Kent at (7, 14) blocking bridge.
-  - **Next Step**: Cross bridge at (7, 14) to East Side, then head North to finding path to (9, 7).
+    - Strategy: Center Stairs (9, 7) on 4F are isolated. Must fall from (9, 3) to reach them via 3F.
+  - **Next Step**: Fall through hole at (9, 3), land on 3F, take stairs back up to isolated 4F area.
 
 ### Important Locations
 - **Cianwood Pharmacy**: (15, 37) in Cianwood.
