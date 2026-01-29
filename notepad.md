@@ -6,9 +6,12 @@
 - **Goal**: Get SecretPotion.
 - **Status**: Battling Swimmer Kara on Route 41.
 - **Reasoning**:
-  1. Staryu's attack missed! Garnet (38/128 HP) is safe for now.
-  2. Action: Pressing 'A' to clear the "attack missed!" text and return to the main battle menu.
-  3. **Next Turn**: Will VISUALLY confirm the "FIGHT" menu is present before pressing any other buttons.
+  1. Main Battle Menu is visible. Cursor is on **FIGHT**.
+  2. Action: Pressing 'A' to open the Move Selection Menu.
+  3. **Hypothesis**: Cursor might default to **SMOKESCREEN** (last used move).
+  4. **Next Turn**: Will VISUALLY confirm cursor position before moving it.
+     - If on Smokescreen (Bottom-Left) -> Press Right.
+     - If on Dig (Top-Left) -> Press Down, Right.
 - **Plan**:
   1. Defeat Kara.
   2. Surf North to Olivine City.
