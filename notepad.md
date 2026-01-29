@@ -4,13 +4,13 @@
 ### Current Status
 - **Location**: Cianwood City (22_9), Inside Pharmacy.
 - **Goal**: Get SecretPotion.
-- **Status**: Shop menu opening.
-- **Hypothesis**: Buying an item might trigger the "Thank you" script and potentially the potion dialogue afterwards.
+- **Status**: Testing "No" response to "Need some medicine?".
+- **Hypothesis**: Refusing to buy might prompt the "What do you want?" dialogue.
 - **Plan**:
-  1. Buy 1 Potion.
-  2. Exit Shop.
-  3. Talk again.
-  4. If fails: Double check Jasmine flag (requires returning to Olivine, worst case).
+  1. Press 'B' (Refuse).
+  2. Read response.
+  3. If "See you around": Try walking behind counter or check specific tiles.
+  4. If new text: Celebrate.
 - **Revised Plan (The "Slow & Steady" Approach)**:
   1. Clear dialogue/Reset room.
   2. Talk to Pharmacist.
