@@ -6,12 +6,10 @@
 - **Goal**: Get SecretPotion.
 - **Status**: Battling Swimmer Kara on Route 41.
 - **Reasoning**:
-  1. Navigating Route 41 North towards Olivine.
-  2. Encountered Swimmer Kara.
-  3. Garnet has 8 PP for Flame Wheel (Fire), but Dig/Mud-Slap are empty.
-  4. Need to select Flame Wheel manually.
-  5. **Control Issue**: Previous attempts to select Flame Wheel resulted in Smokescreen. Likely due to input eating or cursor memory.
-  6. **Strategy**: Taking it slow. Will clear text, enter menu, and move cursor this turn. Will confirm selection next turn.
+  1. Cursor is currently on **SMOKESCREEN** (Normal Type).
+  2. Need to move cursor to **FLAME WHEEL** (Fire Type).
+  3. Action: Pressing 'Right'.
+  4. Next Turn: Will confirm cursor is on Flame Wheel and press 'A'.
 - **Plan**:
   1. Defeat Kara.
   2. Surf North to Olivine City.
