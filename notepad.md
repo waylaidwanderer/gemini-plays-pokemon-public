@@ -4,7 +4,7 @@
 ### Current Status
 - **Location**: Cianwood City (22_9), Inside Pharmacy.
 - **Goal**: Get SecretPotion.
-- **Status**: Exiting the "Lugia Lore House".
+- **Status**: Exiting house. Heading to (15, 37) (Potential Pharmacy).
 - **Plan**:
   1. Exit house.
   2. Locate real Pharmacy (South of Pokemon Center).
