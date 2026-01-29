@@ -4,14 +4,8 @@
 ### Current Status
 - **Location**: Cianwood City (22_9), Inside Pharmacy.
 - **Goal**: Get SecretPotion.
-- **Status**: Resetting state. Exiting and re-entering.
-- **Plan**:
-  1. Re-enter Pharmacy.
-  2. Talk to Pharmacist.
-  3. Advance "You came from OLIVINE?".
-  4. Advance "Do you remember...".
-  5. Wait for "...along the way?".
-  6. **ACTION**: Press 'DOWN', then 'A'. Do NOT press 'A' to spawn menu.
+- **Interaction Rule**: When asked about the four islands, press 'DOWN' then 'A' to answer NO.
+- **Status**: Starting dialogue.
 - **Next**: Buy Repels, Surf to Olivine.
 
 ### Objectives
