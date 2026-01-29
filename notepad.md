@@ -35,6 +35,6 @@
 - Defeated Blackbelt Lao.
 - Defeated Blackbelt Nob.
 - Defeated Blackbelt Lung (Mankey).
-- Status: Talking to Leader Chuck at (4, 4).
-- **Gym Puzzle**: Path cleared.
+- Status: Defeated Lung. Path to Chuck is blocked by boulders at (4, 3) and (5, 3).
+- **Gym Puzzle**: Strength active. Need to push boulders at (4, 3) or (5, 3) to reach Chuck.
 - **Tip**: Cianwood PC Interaction Point is (3,3) facing Up.
