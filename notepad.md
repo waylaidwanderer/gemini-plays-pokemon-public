@@ -4,7 +4,7 @@
 ### Current Status
 - **Location**: Cianwood City (22_9), Inside Pharmacy.
 - **Goal**: Get SecretPotion.
-- **Status**: Initiating conversation with Pharmacist.
+- **Status**: Listening to Pharmacist (Text: "I've heard that the whirlpools...").
 - **Revised Plan (The "Slow & Steady" Approach)**:
   1. Clear dialogue/Reset room.
   2. Talk to Pharmacist.
