@@ -40,8 +40,11 @@
   1. Teach HM02 (Fly) to Topaz (Done).
   2. Check Cianwood Pharmacy (Badge obtained).
   3. Fly to Olivine City.
-- Pharmacist gave Whirl Islands lore instead of SecretPotion.
-- Hypothesis: Missing a flag from Jasmine or Olivine Cafe.
-- Plan: Fly to Olivine, talk to Jasmine at Lighthouse, then check Cafe if needed.
+- Confirmed: Talking to Jasmine at the top of the Lighthouse was the missing flag.
+- Next Steps:
+  1. Finish dialogue with Jasmine.
+  2. Fly to Cianwood City.
+  3. Obtain SecretPotion from Pharmacist (now that the flag is set).
+  4. Fly back to Olivine and heal Amphy.
 - Fly Map Navigation: 'Down' moves backwards (New Bark direction), 'Up' moves forwards (Blackthorn direction). List appears to be Chronological.
 - Mechanic: TYPE_2889 is a solid wall (South wall of Lighthouse 6F).
