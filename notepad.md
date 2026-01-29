@@ -34,5 +34,6 @@
 - Defeated Blackbelt Yoshi.
 - Defeated Blackbelt Lao.
 - Defeated Blackbelt Nob.
-- Status: Searching for Leader Chuck.
+- Status: Battling Blackbelt (Mankey) directly in front of Chuck.
+- **Gym Puzzle**: Push outer boulders UP to clear path to Chuck.
 - **Tip**: Cianwood PC Interaction Point is (3,3) facing Up.
