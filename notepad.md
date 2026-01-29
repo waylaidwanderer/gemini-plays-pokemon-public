@@ -4,7 +4,6 @@
 ### Current Status
 - **Location**: Olivine City Pokémon Center (Map 1_1).
 - **Goal**: Surf back to Cianwood City.
-- **Status**: Healed and ready. Strength taught to Bolin.
 
 ### Objectives
 - **Primary**: Defeat Chuck (Cianwood Gym).
