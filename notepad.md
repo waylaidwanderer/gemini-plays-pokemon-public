@@ -16,8 +16,9 @@
 - **HM04 Strength**: Obtained from Sailor in Olivine Cafe.
 - **Plan**:
   1. Teach Strength to Bolin (Sandshrew).
-  2. Surf back to Cianwood City.
-  3. Challenge Gym Leader Chuck.
+  2. Heal at Pokémon Center.
+  3. Surf back to Cianwood City.
+  4. Challenge Gym Leader Chuck.
 
 ### Important Locations
 - **Cianwood Pharmacy**: (15, 37) in Cianwood.
