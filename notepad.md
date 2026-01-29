@@ -30,11 +30,9 @@
 - **Surfing to Olivine**: Started Turn 17101.
 
 ### Tile Mechanics
-- **TYPE_4e8c**: Water (Surfable).
-- **TYPE_1f49**: Rock boundary (Impassable).
-- **TYPE_3fe2**: Water (Surfable).
-- **Mechanic**: TYPE_3fe2 is shallow water (walkable). TYPE_4e8c is deep water (surfable).
-- **Correction**: The "invisible wall" was simply the boundary between shallow and deep water while not Surfing. Now Surfing to Cianwood.
+- **TYPE_3fe2**: Lighthouse Floor (Walkable).
+- **TYPE_8564**: Lighthouse Floor (Walkable).
+- **TYPE_2889**: Wall/Void (Impassable).
 ### Cianwood Gym Progress
 - Defeated Gym Leader Chuck. Obtained Storm Badge and TM01.
 - Received HM02 (Fly) from Chuck's Wife.
