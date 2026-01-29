@@ -13,12 +13,11 @@
 ### Quest Log
 - **SecretPotion**: Pharmacist in Cianwood refused to give it. Potentially missing a trigger or need to visit Olivine Cafe/Jasmine again.
 - **Gym**: Chuck (Cianwood) requires Strength (HM04) to access.
-- **HM04 Strength**: Obtained from Sailor in Olivine Cafe.
+- **HM04 Strength**: Taught to Bolin.
 - **Plan**:
-  1. Teach Strength to Bolin (Sandshrew).
-  2. Heal at Pokémon Center.
-  3. Surf back to Cianwood City.
-  4. Challenge Gym Leader Chuck.
+  1. Heal at Pokémon Center.
+  2. Surf back to Cianwood City.
+  3. Challenge Gym Leader Chuck.
 
 ### Important Locations
 - **Cianwood Pharmacy**: (15, 37) in Cianwood.
