@@ -4,7 +4,7 @@
 ### Current Status
 - **Location**: Cianwood City (22_9), Inside Pharmacy.
 - **Goal**: Get SecretPotion.
-- **Status**: Clearing lore text (Accidentally selected Yes).
+- **Status**: Positioning to talk to Pharmacist.
 - **Revised Plan (The "Slow & Steady" Approach)**:
   1. Clear dialogue/Reset room.
   2. Talk to Pharmacist.
