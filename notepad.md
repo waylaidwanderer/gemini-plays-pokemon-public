@@ -23,3 +23,4 @@
 ### Important Locations
 - **Cianwood Pharmacy**: (15, 37) in Cianwood.
 - **Olivine Cafe**: Somewhere in Olivine City (West side?).
+- **Surfing to Olivine**: Started Turn 17101.
