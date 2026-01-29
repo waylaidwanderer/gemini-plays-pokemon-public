@@ -4,13 +4,16 @@
 ### Current Status
 - **Location**: Cianwood City (22_9), Inside Pharmacy.
 - **Goal**: Get SecretPotion.
-- **Status**: Question displayed. 'Down' and 'B' failed previously.
-- **New Strategy**: Execute `['A', 'B']`.
-  - 'A' advances the text "along the way? ▼".
-  - 'B' immediately cancels the subsequent Yes/No menu (selecting NO).
-- **Plan**: 
-  1. Execute `['A', 'B']` (Current Step).
-  2. Verify if dialogue changes to "You don't?" (Success) or "I heard..." (Fail).
+- **Status**: Clearing lore text (Accidentally selected Yes).
+- **Revised Plan (The "Slow & Steady" Approach)**:
+  1. Clear dialogue/Reset room.
+  2. Talk to Pharmacist.
+  3. Advance text to "...along the way?".
+  4. Press 'A' *once*.
+  5. **WAIT** for the next turn to visually confirm the Yes/No menu.
+  6. Press 'Down'.
+  7. **WAIT** to confirm cursor moved.
+  8. Press 'A'.
 - **Next**: Buy Repels, Surf to Olivine.
 
 ### Objectives
