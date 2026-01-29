@@ -6,11 +6,9 @@
 - **Goal**: Get SecretPotion.
 - **Status**: Battling Swimmer Kara on Route 41.
 - **Reasoning**:
-  1. **Battle State**: Garnet (38/128 HP) vs Staryu (Lv 20).
-  2. **Menu State**: Cursor is on **SMOKESCREEN** (Bottom-Left).
-  3. **Target**: **FLAME WHEEL** (Bottom-Right).
-  4. **Action**: Pressing 'Right' to move cursor.
-  5. **Next Turn**: Will VISUALLY confirm cursor is on Flame Wheel, THEN press 'A'.
+  1. **Visual Confirmation**: Cursor is pointing to **FLAME WHEEL**.
+  2. **Action**: Pressing 'A' to execute the move.
+  3. **Expectation**: Garnet attacks Staryu. Hopefully a OHKO.
 - **Plan**:
   1. Defeat Kara.
   2. Surf North to Olivine City.
