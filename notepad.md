@@ -35,6 +35,6 @@
 - Defeated Blackbelt Lao.
 - Defeated Blackbelt Nob.
 - Defeated Blackbelt Lung (Mankey).
-- Status: Defeated Lung. Pushing boulder at (5, 5) UP to reach Chuck.
-- **Gym Puzzle**: Strength active. Pushing boulder at (5, 5) UP.
+- Status: Defeated Lung. Clearing boulder puzzle to reach Chuck.
+- **Gym Puzzle**: Strength active. Plan: Push boulder at (4, 6) Left, then push boulder at (5, 5) Right to open path.
 - **Tip**: Cianwood PC Interaction Point is (3,3) facing Up.
