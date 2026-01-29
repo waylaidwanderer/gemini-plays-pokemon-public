@@ -35,8 +35,8 @@
 - Defeated Blackbelt Lao.
 - Defeated Blackbelt Nob.
 - Defeated Blackbelt Lung (Mankey).
-- Status: Standing at (4, 5). Facing Boulder at (4, 4).
-- **Map Update**: Chuck is further North (approx 4, 1). Lung is at (5, 5).
-- **Puzzle**: (3, 5) is a wall. (5, 5) is blocked by Lung. Must push Boulder at (4, 4) UP through the logs (which appear to be walkable).
-- **Plan**: Clear text, Push Boulder UP, Battle Chuck.
+- Status: Moving to (4, 4). Boulder pushed to (4, 3).
+- **Map Update**: Chuck is at (4, 1).
+- **Puzzle**: Boulder is now at (4, 3). Need to see if I can push it further or move around.
+- **Plan**: Move to (4, 4), then reach Chuck.
 - **Tip**: Cianwood PC Interaction Point is (3,3) facing Up.
