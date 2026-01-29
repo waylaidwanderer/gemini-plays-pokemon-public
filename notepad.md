@@ -7,10 +7,12 @@
 - **Hypothesis**: "You came from OLIVINE?" is just text. The question is "Do you remember the four islands along the way?". Answering YES leads to lore. I must answer NO.
 - **Status**: Currently in "YES" branch (Lore). Previous attempt to select "NO" failed (likely pressed A on default YES).
 - **Strategy**: 
-  1. Manually advance lore text until the question loops back.
-  2. When "Do you remember..." appears again, STOP.
-  3. Try pressing 'B' instead of 'A'. 'B' usually acts as 'NO' or Cancel, which is safer than blind navigation.
-- **Current Step**: Advancing lore text.
+  1. Advance "You came from OLIVINE?". (Done)
+  2. Advance "Do you remember...". (Done)
+  3. STOP at "...along the way?". (Next Step - Expecting this screen next)
+  4. Press 'A' to spawn menu.
+  5. Perform specific input `['Down', 'A']` to select NO.
+- **Current Step**: Pressing 'A' to advance text to the end of the question.
 - **Party**: Garnet (Lvl 40, 64/128 HP), Headache (Surf).
 - **Quest**: Obtain Mineral Badge (Jasmine).
 
