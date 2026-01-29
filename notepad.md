@@ -6,9 +6,11 @@
 - **Goal**: Get SecretPotion.
 - **Status**: Battling Swimmer Kara on Route 41.
 - **Reasoning**:
-  1. **Visual Confirmation**: Cursor is definitively on **FLAME WHEEL**.
-  2. **Action**: Pressing 'A' to attack.
-  3. **Expectation**: Garnet attacks. Staryu should take heavy damage.
+  1. Garnet used Flame Wheel. "It's not very effective..." but Staryu took significant damage (HP &lt; 50%).
+  2. **Current State**: Waiting for Staryu's turn.
+  3. **Action**: Pressing 'A' to advance text.
+  4. **Next Turn**: Staryu will attack. I have enough HP (38) to survive a Water Gun (~13 dmg).
+  5. **Goal**: Survive, then use Flame Wheel again to finish it.
 - **Plan**:
   1. Defeat Kara.
   2. Surf North to Olivine City.
