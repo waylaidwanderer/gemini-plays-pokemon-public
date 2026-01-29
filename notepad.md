@@ -15,10 +15,12 @@
 - **Lighthouse Navigation**: 
   - 5F Center is isolated. Must access from 4F Center.
   - 4F Center is isolated. Must fall from 5F.
-  - Hole at (16, 7) on 5F leads to 4F Right (Isolated Ledge).
-  - 4F Right has holes at (16, 9).
-  - **Hypothesis**: 4F Right Hole -> 3F Right -> Path to Center?
-  - **Current Task**: Finish phone call, then fall down hole at (16, 9) on 4F.
+  - Right Side Drop (Hole 5F (16,7) -> 4F (16,9) -> 3F) is CONFIRMED DEAD END (shortcut to exit).
+  - **Current Task**: Return to 5F. Find a DIFFERENT hole.
+  - **Suspects**:
+    - Top corridor of 5F (North of center).
+    - Hidden hole near Bird Keeper?
+    - Is there a hole in the dark/unseen tiles?
 
 ### Important Locations
 - **Cianwood Pharmacy**: (15, 37) in Cianwood.
