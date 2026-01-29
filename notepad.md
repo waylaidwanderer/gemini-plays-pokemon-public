@@ -2,9 +2,9 @@
 - Started: Friday, January 16, 2026
 
 ### Current Status
-- **Location**: Cianwood City (22_6), Inside Pokémon Center.
-- **Navigation Strategy**: NPC blocking (5, 3). Flanking via (6, 1) to speak to Nurse Joy from the side.
-- **Reflection**: Confirmed lack of HM04 Strength. If Gym requires it, I must Surf back to Olivine.
+- **Location**: Cianwood City (22_6), Inside Pokémon Center at (6, 3).
+- **Navigation Strategy**: Clear Irwin's phone call. Move to (6, 1) to flank the blocking NPC and heal from the side.
+- **Reflection**: Irwin called right as I was moving to heal. Interruptions are constant. Must persist.
 - **Party**: Garnet (Lvl 40), Headache (Surf).
 - **Quest**: Obtain Mineral Badge (Jasmine).
 
