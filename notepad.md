@@ -33,4 +33,4 @@
 ### Cianwood Gym Progress
 - Defeated Blackbelt Yoshi.
 - Defeated Blackbelt Lao.
-- Status: Healed, returning to Gym to face Chuck.
+- Status: At Pokemon Center, attempting to heal (blocked by Juggler).
