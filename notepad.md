@@ -2,8 +2,8 @@
 - Started: Friday, January 16, 2026
 
 ### Current Status
-- **Location**: Olivine City (Map 1_1).
-- **Goal**: Heal at Pokémon Center.
+- **Location**: Olivine City - Interior (Map 1_1).
+- **Goal**: Talk to Sailor (Check for Strength HM).
 - **Health**: Garnet (75/128 HP). Exploring city.
 
 ### Objectives
