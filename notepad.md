@@ -4,8 +4,12 @@
 ### Current Status
 - **Location**: Cianwood City (22_9), Inside Pharmacy.
 - **Goal**: Get SecretPotion.
-- **Interaction Rule**: When text "...along the way?" appears, DO NOT PRESS 'A' immediately. The menu may be active. Press 'DOWN' to select 'NO', then 'A'.
-- **Status**: Advancing "Do you remember the four islands".
+- **Status**: Failed to answer NO (B selected YES). Clearing lore text.
+- **Critical Correction**: 'B' does NOT work to answer NO here. Must use 'DOWN' -> 'A'.
+- **Plan**:
+  1. Clear current lore text (Spam B).
+  2. If dialogue loops to start ("From Olivine?"), prepare 'DOWN' -> 'A' for the islands question.
+  3. If dialogue ends, Exit/Re-enter to reset, then talk again.
 - **Next**: Buy Repels, Surf to Olivine.
 
 ### Objectives
