@@ -2,7 +2,7 @@
 - Started: Friday, January 16, 2026
 
 ### Current Status
-- **Location**: Olivine City Pokémon Center (Map 1_1).
+- **Location**: Route 40 (Map 22_1).
 - **Goal**: Surf back to Cianwood City.
 
 ### Objectives
