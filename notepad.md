@@ -17,9 +17,9 @@
   - **Goal**: Find stairs to 3F (Main Area).
   - **2F (Map 3_43)**:
     - Stairs DOWN to 1F: (3, 11).
-    - Stairs UP to 3F (Dead End Balcony): (5, 3).
+    - Stairs UP to 3F (West Wing): (5, 3).
     - Hole to 1F: (16, 13) - AVOID.
-    - Stairs UP to 3F (Main): UNKNOWN. Searching Top Right.
+    - Currently exploring 3F West Wing.
   - **Action Plan**:
     1. Explore Top Right (13, 2).
     2. Explore Top Left if not found.
