@@ -2,9 +2,9 @@
 - Started: Friday, January 16, 2026
 
 ### Current Status
-- **Location**: Cianwood City (22_6), Inside Pokémon Center.
-- **Navigation Strategy**: Move Down to Row 4, Left to Col 4, then Up to (4, 3) to talk to Nurse Joy.
-- **Reflection**: Gym Guy blocks (5, 3). Must go around.
+- **Location**: Cianwood City (22_3).
+- **Navigation Strategy**: Enter the building at (17, 41) (Likely Pharmacy).
+- **Reflection**: Just exited Pokemon Center. Need SecretPotion.
 - **Party**: Garnet (Lvl 40, 64/128 HP), Headache (Surf).
 - **Quest**: Obtain Mineral Badge (Jasmine).
 
