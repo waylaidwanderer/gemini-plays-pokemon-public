@@ -2,13 +2,12 @@
 - Started: Friday, January 16, 2026
 
 ### Current Status
-- **Location**: Olivine Cafe (Map 1_7).
-- **Goal**: Talk to Sailor for HM04 Strength.
-- **Health**: Garnet (75/128 HP). Exploring city.
+- **Location**: Olivine City Pokémon Center (Map 1_1).
+- **Goal**: Teach HM04 Strength to Bolin.
 
 ### Objectives
-- **Primary**: Obtain Mineral Badge (Jasmine).
-- **Secondary**: Obtain HM04 Strength (Olivine Cafe).
+- **Primary**: Defeat Chuck (Cianwood Gym).
+- **Secondary**: Obtain Mineral Badge (Jasmine).
 - **Tertiary**: Explore Olivine City.
 
 ### Quest Log
@@ -16,15 +15,15 @@
 - **Gym**: Chuck (Cianwood) requires Strength (HM04) to access.
 - **HM04 Strength**: Obtained from Sailor in Olivine Cafe.
 - **Plan**:
-  1. Heal at Pokémon Center (Building at 13, 21).
-  2. Teach Strength to a party member (likely Bolin or Garnet).
-  3. Surf back to Cianwood City.
-  4. Challenge Gym Leader Chuck.
+  1. Teach Strength to Bolin (Sandshrew).
+  2. Surf back to Cianwood City.
+  3. Challenge Gym Leader Chuck.
 
 ### Important Locations
 - **Cianwood Pharmacy**: (15, 37) in Cianwood.
-- **Olivine Cafe**: Somewhere in Olivine City (West side?).
+- **Olivine Cafe**: Olivine City.
 - **Surfing to Olivine**: Started Turn 17101.
+
 ### Tile Mechanics
 - **TYPE_4e8c**: Water (Surfable).
 - **TYPE_1f49**: Rock boundary (Impassable).
