@@ -4,11 +4,18 @@
 ### Current Status
 - **Location**: Cianwood City (22_9), Inside Pharmacy.
 - **Goal**: Get SecretPotion.
-- **Status**: Interacting with Suicune at (10, 15).
+- **Status**: Returning to Olivine City.
+- **Reasoning**:
+  1. Suicune disappeared/inactive.
+  2. Pharmacy is stuck in Shop Mode.
+  3. **CRITICAL**: I missed HM04 Strength in Olivine. Cannot beat Cianwood Gym without it.
 - **Plan**:
-  1. Trigger Suicune event (it should flee).
-  2. Battle Eusine (if he appears).
-  3. Return to Pharmacy to claim SecretPotion.
+  1. Go to Pharmacy (15, 47).
+  2. Buy Repels (since it's a Mart).
+  3. Try asking for Potion *once* more.
+  4. Surf back to Olivine.
+  5. Get Strength (Cafe).
+  6. Re-talk to Jasmine.
 - **Revised Plan (The "Slow & Steady" Approach)**:
   1. Clear dialogue/Reset room.
   2. Talk to Pharmacist.
