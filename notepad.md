@@ -5,7 +5,11 @@
 - **Location**: Cianwood City (22_9), Inside Pharmacy.
 - **Goal**: Get SecretPotion.
 - **Critical Instruction**: Answer 'NO' to "Do you remember the four islands?".
-- **Input Sequence**: Advance text -> When "Do you remember..." starts, PRESS DOWN immediately, then A. Do not wait for menu visibility if it risks selecting Yes.
+- **Input Sequence**: 
+  1. Advance "Do you remember..." (Current Step).
+  2. Wait for "...along the way?".
+  3. When "...along the way?" appears, DO NOT PRESS 'A' ALONE.
+  4. Perform sequence `['A', 'Down', 'A']` to spawn menu, move to NO, and select NO.
 - **Next**: Buy Repels, Surf to Olivine.
 - **Party**: Garnet (Lvl 40, 64/128 HP), Headache (Surf).
 - **Quest**: Obtain Mineral Badge (Jasmine).
