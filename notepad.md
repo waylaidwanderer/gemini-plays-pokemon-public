@@ -2,9 +2,9 @@
 - Started: Friday, January 16, 2026
 
 ### Current Status
-- **Location**: Cianwood City (22_6), Inside Pokémon Center at (6, 3).
-- **Navigation Strategy**: Finish dialogue with blocking NPC. Exit and re-enter to reset NPC position. Heal team.
-- **Reflection**: The Gym Guide is standing exactly at (5, 3), blocking Nurse Joy. I must reset the room.
+- **Location**: Cianwood City (22_6), Leaving Pokémon Center.
+- **Navigation Strategy**: Exit to Cianwood (22_3), then immediately re-enter to reset the Gym Guy's position. Then Heal.
+- **Reflection**: The Gym Guy at (5,3) was unmovable. Resetting the map is the standard fix.
 - **Party**: Garnet (Lvl 40, 64/128 HP), Headache (Surf).
 - **Quest**: Obtain Mineral Badge (Jasmine).
 
