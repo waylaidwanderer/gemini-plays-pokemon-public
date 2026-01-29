@@ -6,11 +6,11 @@
 - **Goal**: Get SecretPotion.
 - **Status**: Battling Swimmer Kara on Route 41.
 - **Reasoning**:
-  1. **CRITICAL**: Smokescreen was used AGAIN (Game State: Smokescreen PP 12->11). My cursor correction failed or was eaten.
-  2. The screen shows "Enemy STARYU's ACCURACY fell!".
-  3. This means Garnet acted. Now it is Staryu's turn.
-  4. **Action**: Pressing 'A' to advance battle text (Staryu's attack).
-  5. **Next Turn**: Must wait for the FIGHT menu to appear, then VISUALLY confirm cursor position before pressing A.
+  1. Staryu used Water Gun. Super Effective. Garnet HP: 38/128.
+  2. Need to end this battle NOW.
+  3. Control issues caused repeated Smokescreen usage.
+  4. **Action**: Pressing 'A' ONCE to clear battle text and open the command menu.
+  5. **Next Turn**: Will carefully navigate to FIGHT and identify the correct move slot for Flame Wheel.
 - **Plan**:
   1. Defeat Kara.
   2. Surf North to Olivine City.
