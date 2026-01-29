@@ -3,9 +3,9 @@
 
 ### Current Status
 - **Location**: Cianwood City (22_6), Inside Pokémon Center at (6, 3).
-- **Navigation Strategy**: Clear Irwin's phone call. Move to (6, 1) to flank the blocking NPC and heal from the side.
-- **Reflection**: Irwin called right as I was moving to heal. Interruptions are constant. Must persist.
-- **Party**: Garnet (Lvl 40), Headache (Surf).
+- **Navigation Strategy**: Finish dialogue with blocking NPC. Exit and re-enter to reset NPC position. Heal team.
+- **Reflection**: The Gym Guide is standing exactly at (5, 3), blocking Nurse Joy. I must reset the room.
+- **Party**: Garnet (Lvl 40, 64/128 HP), Headache (Surf).
 - **Quest**: Obtain Mineral Badge (Jasmine).
 
 ### Objectives
