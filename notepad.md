@@ -3,12 +3,15 @@
 
 ### Current Status
 - **Location**: Cianwood City (22_9), Inside Pharmacy.
-- **Interaction**: Answering 'NO' triggered lore explanation about the "mythical sea creature" (Lugia).
-- **Status**: Listening to explanation. Expecting SecretPotion after dialogue concludes.
+- **Interaction**: Dialogue with Pharmacist resumed after phone call.
+- **Status**: Answering questions (likely 'YES' due to A-mashing) to reach the SecretPotion handout.
+- **Inventory Check**: 16/20 Item slots used. Key Items pocket has space.
 - **Plan**: 
-  1. Advance text.
-  2. Verify receipt of SecretPotion.
-  3. Exit and continue plan.
+  1. Advance text until dialogue ends.
+  2. Verify receipt of SecretPotion (Key Item).
+  3. Exit Pharmacy.
+  4. Buy Repels.
+  5. Surf back to Olivine.
 - **Party**: Garnet (Lvl 40, 64/128 HP), Headache (Surf).
 - **Quest**: Obtain Mineral Badge (Jasmine).
 
