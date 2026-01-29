@@ -4,14 +4,13 @@
 ### Current Status
 - **Location**: Cianwood City (22_9), Inside Pharmacy.
 - **Interaction**: Pharmacist dialogue loop.
-- **Hypothesis**: Mashing 'A' selects 'YES' to "Do you remember the four islands?", causing a lore loop. I need to answer 'NO' or carefully navigate the dialogue.
-- **Status**: Carefully advancing dialogue with single 'A' presses to avoid accidental 'YES' selection.
-- **Loop Fix Strategy**: If 'Do you remember...?' appears, ensure I answer 'NO' (Down -> A).
-- **Plan**: 
-  1. Press 'A' singly to reach the decision point.
-  2. If Yes/No menu appears, select 'NO' (Down -> A).
-  3. Verify receipt of SecretPotion.
-  4. Exit and continue plan.
+- **Hypothesis**: "You came from OLIVINE?" is just text. The question is "Do you remember the four islands along the way?". Answering YES leads to lore. I must answer NO.
+- **Strategy**: 
+  1. Advance "You came from OLIVINE?".
+  2. Advance "Do you remember...".
+  3. STOP at "...along the way?".
+  4. Perform specific input `['Down', 'A']` to select NO.
+- **Current Step**: Advancing "You came from OLIVINE?".
 - **Party**: Garnet (Lvl 40, 64/128 HP), Headache (Surf).
 - **Quest**: Obtain Mineral Badge (Jasmine).
 
