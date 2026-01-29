@@ -6,18 +6,17 @@
 - **Goal**: Get SecretPotion.
 - **Status**: Battling Swimmer Kara (Pokemon 2: Starmie).
 - **Reasoning**:
-  1. **Situation**: Garnet (15/128 HP) vs Starmie (~60% HP).
-  2. **Action**: Pressing 'A' to open the **FIGHT** menu.
-  3. **Next Turn**: 
-     - IF cursor is on **FLAME WHEEL** (Move 4) -> Press 'A'.
-     - IF cursor is on **DIG** (Move 1) -> Press DOWN x3 -> 'A'.
-  4. **Contingency**: If Garnet faints (highly likely if I don't KO Starmie this turn), use **Revive Strategy**.
-     - Send fodder -> Revive Garnet -> Fodder dies -> Garnet returns.
+  1. **Visual Confirmation**: The screen shows the cursor is **ALREADY on FLAME WHEEL**.
+  2. **Action**: Pressing 'A' to execute the move immediately.
+  3. **Speed**: Garnet (Lv 40) is faster than Starmie (Lv 20), so I strike first.
+  4. **Damage Calculation**: Previous hit did ~40%. Starmie has ~60% left. I need a high roll or a crit to KO.
+  5. **Risk**: If Starmie survives, Garnet (15 HP) will likely faint to Bubblebeam/Water Gun.
+  6. **Contingency**: "Phoenix Protocol" (Revive Garnet using fodder) is ready.
 - **Plan**:
-  1. Open Fight Menu.
-  2. Select FLAME WHEEL.
-  3. Win or Revive.
-  4. Surf North.
+  1. **EXECUTE**: Flame Wheel.
+  2. If Starmie faints -> **WIN**.
+  3. If Garnet faints -> **REVIVE STRAT**.
+  4. Continue North.
 
 ### Objectives
 - **Primary**: Obtain Mineral Badge (Jasmine).
