@@ -20,8 +20,8 @@
     - Stairs UP to 2F: (3, 11) - CONFIRMED.
     - (16, 13) is NOT stairs.
   - **Action Plan**:
-    1. Take stairs at (16, 13) UP to 2F.
-    2. On 2F (Map 3_43), find stairs UP to 3F.
+    1. Go to (3, 11) on 1F to climb to 2F.
+    2. On 2F, search NORTH area for stairs to 3F.
 
 ### Important Locations
 - **Cianwood Pharmacy**: (15, 37) in Cianwood.
