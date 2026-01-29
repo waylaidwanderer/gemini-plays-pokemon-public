@@ -35,7 +35,8 @@
 - Defeated Blackbelt Lao.
 - Defeated Blackbelt Nob.
 - Defeated Blackbelt Lung (Mankey).
-- Status: At (5, 6). Defeated Lung at (5, 5).
-- **Hypothesis**: Lung is at (5, 5). (4, 4) might be clear or have the next trainer.
-- **Plan**: Move to (4, 5) and check (4, 4).
+- Status: Standing at (4, 5). Facing Gym Leader Chuck at (4, 4).
+- **Gym Puzzle**: Solved. Path cleared.
+- **Plan**: Defeat Chuck and get the Storm Badge (wait, it's Storm Badge here? No, Storm is Cianwood. Mineral is Jasmine). Badge from Chuck is Storm Badge.
+- **Battle Strategy**: Garnet (Lv 41) vs Fighting types. Flame Wheel/Mud-Slap should work.
 - **Tip**: Cianwood PC Interaction Point is (3,3) facing Up.
