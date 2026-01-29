@@ -4,8 +4,12 @@
 ### Current Status
 - **Location**: Cianwood City (22_9), Inside Pharmacy.
 - **Goal**: Get SecretPotion.
+- **Status**: Interrupted by phone call (Alan).
 - **Interaction Rule**: When asked about the four islands, press 'DOWN' then 'A' to answer NO.
-- **Status**: Starting dialogue.
+- **Plan**: 
+  1. Finish phone call.
+  2. Talk to Pharmacist.
+  3. Answer 'NO' (Down -> A) to islands question.
 - **Next**: Buy Repels, Surf to Olivine.
 
 ### Objectives
