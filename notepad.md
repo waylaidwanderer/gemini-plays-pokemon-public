@@ -40,8 +40,10 @@
 - **Puzzle**: Boulder is now at (4, 3). Need to see if I can push it further or move around.
 - **Plan**: Move to (4, 4), then reach Chuck.
 - **Tip**: Cianwood PC Interaction Point is (3,3) facing Up.
-- **Gym Puzzle Strategy**: "The Split"
-  1. Move to (3, 8). Push Boulder (3, 7) UP to (3, 6).
-  2. Move to (5, 8). Push Boulder (5, 7) UP to (5, 6).
-  3. Move to (3, 7) (now empty). Push Boulder (4, 7) RIGHT to (5, 7).
-  4. Walk UP through (4, 7) -> (4, 6) -> Leader.
+- **Mechanic**: Strength resets upon map exit. MUST re-activate.
+- **Gym Puzzle Strategy**: "The Split" (Corrected)
+  1. **Activate Strength** (Interact with boulder).
+  2. Push Boulder (3, 7) UP to (3, 6).
+  3. Move to (5, 8). Push Boulder (5, 7) UP to (5, 6).
+  4. Move to (3, 7) (now empty). Push Boulder (4, 7) RIGHT to (5, 7).
+  5. Walk UP through (4, 7) -> (4, 6) -> Leader.
