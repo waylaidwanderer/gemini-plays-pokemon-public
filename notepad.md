@@ -4,12 +4,11 @@
 ### Current Status
 - **Location**: Cianwood City (22_9), Inside Pharmacy.
 - **Goal**: Get SecretPotion.
-- **Status**: Advancing text (Lore loop). Suspect this is NOT the Pharmacy.
-- **Visual Evidence**: Room has TV, bookshelves, table, NO counter. Looks like a house.
+- **Status**: Advancing text loop (Sea Creature -> Special Move).
 - **Plan**:
   1. Finish text.
   2. Talk to girl at (5, 5).
-  3. If no potion, exit and search for the real Pharmacy.
+  3. Exit and find real Pharmacy (likely South of Center).
 - **Revised Plan (The "Slow & Steady" Approach)**:
   1. Clear dialogue/Reset room.
   2. Talk to Pharmacist.
