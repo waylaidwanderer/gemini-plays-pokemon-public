@@ -4,15 +4,9 @@
 ### Current Status
 - **Location**: Cianwood City (22_9), Inside Pharmacy.
 - **Interaction**: Pharmacist dialogue loop.
-- **Hypothesis**: "You came from OLIVINE?" is just text. The question is "Do you remember the four islands along the way?". Answering YES leads to lore. I must answer NO.
-- **Status**: Dialogue loop reset. Back at 'You came from OLIVINE?'.
 - **Strategy**: 
-  1. Advance "You came from OLIVINE?". (Executing Now)
-  2. Advance "Do you remember...".
-  3. STOP at "...along the way?".
-  4. Press 'A' to spawn menu.
-  5. Perform specific input `['Down', 'A']` to select NO.
-- **Current Step**: Pressing 'A' to advance to the next line of dialogue.
+  1. Advance text with 'B' to attempt 'No' selection or cancel.
+  2. If lore persists, finish dialogue and re-evaluate Jasmine trigger.
 - **Party**: Garnet (Lvl 40, 64/128 HP), Headache (Surf).
 - **Quest**: Obtain Mineral Badge (Jasmine).
 
