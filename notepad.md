@@ -4,11 +4,10 @@
 ### Current Status
 - **Location**: Cianwood City (22_9), Inside Pharmacy.
 - **Goal**: Get SecretPotion.
-- **Status**: Advancing text loop. Next: "...get past them." (Final check).
+- **Status**: Moving to check girl NPC. Confirmed: This is a HOUSE, not the Pharmacy.
 - **Plan**:
-  1. Finish text.
-  2. Talk to girl at (5, 5).
-  3. Exit and find real Pharmacy (likely South of Center).
+  1. Talk to girl at (5, 5).
+  2. Exit and find real Pharmacy (likely South of Center).
 - **Revised Plan (The "Slow & Steady" Approach)**:
   1. Clear dialogue/Reset room.
   2. Talk to Pharmacist.
