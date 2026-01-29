@@ -28,5 +28,5 @@
 - **TYPE_4e8c**: Water (Surfable).
 - **TYPE_1f49**: Rock boundary (Impassable).
 - **TYPE_3fe2**: Water (Surfable).
-- **Anomaly**: Encountered invisible wall/blockage at Row 14 on Route 40. Possible relation to Swimmers forming a blockade line.
-- **Plan**: Interact with Swimmers at (15, 12) and (11, 13) to check if they are the source of the blockage or need to be defeated.
+- **Mechanic**: TYPE_3fe2 is shallow water (walkable). TYPE_4e8c is deep water (surfable).
+- **Correction**: The "invisible wall" was simply the boundary between shallow and deep water while not Surfing. Now Surfing to Cianwood.
