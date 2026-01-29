@@ -47,5 +47,8 @@
   3. Move to (5, 8). Push Boulder (5, 7) UP to (5, 6) (Done).
   4. From (5, 7), Push Boulder (4, 7) **LEFT** to (3, 7) (Done).
   5. Walk UP through (4, 7) -> (4, 6) -> Leader (Done).
-- **Current Task**: Obtained Storm Badge & TM01. Next: Get HM02 Fly (Wife outside) & SecretPotion.
-- **Battle Update**: Garnet defeated Primeape and Poliwrath. Level 42 (84/135 HP).
+- **Current Task**: Obtain SecretPotion.
+- **Next Steps**:
+  1. Receive HM02 (Fly).
+  2. Check Cianwood Pharmacy again (Badge might be the trigger).
+  3. If no potion, Fly to Olivine City.
