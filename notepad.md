@@ -3,8 +3,8 @@
 
 ### Current Status
 - **Location**: Cianwood City (22_6), Inside Pokémon Center.
-- **Navigation Strategy**: Flank the blocking NPC at (5, 3) by moving to (6, 1). Face Left and talk to Nurse Joy.
-- **Reflection**: The Gym Guy is blocking the standard healing spot. The side path (x=6) appears open and walkable.
+- **Navigation Strategy**: Move Down to Row 4, Left to Col 4, then Up to (4, 3) to talk to Nurse Joy.
+- **Reflection**: Gym Guy blocks (5, 3). Must go around.
 - **Party**: Garnet (Lvl 40, 64/128 HP), Headache (Surf).
 - **Quest**: Obtain Mineral Badge (Jasmine).
 
