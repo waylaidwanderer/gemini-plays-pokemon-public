@@ -4,19 +4,20 @@
 ### Current Status
 - **Location**: Cianwood City (22_9), Inside Pharmacy.
 - **Goal**: Get SecretPotion.
-- **Status**: Battling Swimmer Kara (Pokemon 2).
+- **Status**: Battling Swimmer Kara (Pokemon 2: Starmie).
 - **Reasoning**:
-  1. False Alarm: Battle is NOT over. Kara has another Pokemon.
-  2. **Current State**: "SWIMMER♀ KARA is about to use..."
-  3. **Action**: Pressing 'A' to reveal the next Pokemon.
-  4. **Strategy**: Keep Garnet in (Others are too low level). Say "NO" to switch.
-  5. **Health Check**: Garnet 38/128 HP.
+  1. Kara is sending out **Starmie**.
+  2. Garnet (38/128 HP) is my only viable fighter.
+  3. **Action**: declining the switch (Cursor on YES -> Press DOWN -> A).
+  4. **Strategy**: 
+     - Garnet is Lv 40. Starmie likely Lv 20-22. Garnet *should* outspeed.
+     - Potion only heals 20 HP, likely less than Starmie's damage.
+     - Best bet is to attack (Flame Wheel) and hope to 2HKO or OHKO before going down.
 - **Plan**:
   1. Decline Switch.
-  2. Assess next Pokemon.
-  3. Heal or Attack (Flame Wheel).
-  4. Finish Battle.
-  5. Surf North.
+  2. Select FLAME WHEEL.
+  3. Win.
+  4. Surf North.
 
 ### Objectives
 - **Primary**: Obtain Mineral Badge (Jasmine).
