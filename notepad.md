@@ -35,3 +35,4 @@
 - Defeated Blackbelt Lao.
 - Defeated Blackbelt Nob.
 - Status: Exiting to heal before Leader Chuck.
+- **Blockage**: Schoolboy Alan is standing at (5, 3) in the Cianwood PC, blocking the direct path to Nurse Joy. Trying to access her from (4, 3) or (3, 3).
