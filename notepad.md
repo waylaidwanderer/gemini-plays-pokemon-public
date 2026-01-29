@@ -31,16 +31,10 @@
 - **Mechanic**: TYPE_3fe2 is shallow water (walkable). TYPE_4e8c is deep water (surfable).
 - **Correction**: The "invisible wall" was simply the boundary between shallow and deep water while not Surfing. Now Surfing to Cianwood.
 ### Cianwood Gym Progress
-- Defeated Blackbelt Yoshi.
-- Defeated Blackbelt Lao.
-- Defeated Blackbelt Nob.
-- Defeated Blackbelt Lung (Mankey).
-- Status: Moving to (4, 4). Boulder pushed to (4, 3).
-- **Map Update**: Chuck is at (4, 1).
-- **Puzzle**: Boulder is now at (4, 3). Need to see if I can push it further or move around.
-- **Plan**: Move to (4, 4), then reach Chuck.
-- **Tip**: Cianwood PC Interaction Point is (3,3) facing Up.
-- **Mechanic**: Strength resets upon map exit. MUST re-activate.
+- Defeated Gym Leader Chuck. Obtained Storm Badge and TM01.
+- Received HM02 (Fly) from Chuck's Wife.
+
+### Current Objectives
 - **Current Task**: Obtain SecretPotion.
 - **Next Steps**:
   1. Teach HM02 (Fly) to Topaz.
