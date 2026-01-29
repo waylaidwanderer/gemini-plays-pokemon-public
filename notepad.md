@@ -17,8 +17,8 @@
   - **Goal**: Climb to 2F.
   - **Known Locations on 1F**:
     - Exit to City: (10, 17).
-    - Stairs UP to 2F (Right): (16, 13).
-    - Stairs UP to 2F (Left): (3, 11).
+    - Stairs UP to 2F: (3, 11) - CONFIRMED.
+    - (16, 13) is NOT stairs.
   - **Action Plan**:
     1. Take stairs at (16, 13) UP to 2F.
     2. On 2F (Map 3_43), find stairs UP to 3F.
