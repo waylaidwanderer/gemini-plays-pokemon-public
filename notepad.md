@@ -8,9 +8,11 @@
 - **Strategy**: 
   1. Advance "You came from OLIVINE?". (Done)
   2. Advance "Do you remember...". (Done)
-  3. STOP at "...along the way?". (Next Step)
-  4. Perform specific input `['Down', 'A']` to select NO.
-- **Current Step**: Advancing "Do you remember the four islands" to "...along the way?".
+  3. STOP at "...along the way?". (Done - Current Screen)
+  4. Press 'A' to spawn menu. (Executing Now)
+  5. Perform specific input `['Down', 'A']` to select NO.
+- **Current Step**: Pressing 'A' to transition from question text to Yes/No menu.
+- **Expectation**: Next screen should show the Yes/No menu.
 - **Party**: Garnet (Lvl 40, 64/128 HP), Headache (Surf).
 - **Quest**: Obtain Mineral Badge (Jasmine).
 
