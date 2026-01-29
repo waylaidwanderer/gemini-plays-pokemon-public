@@ -6,10 +6,9 @@
 - **Goal**: Get SecretPotion.
 - **Status**: Battling Swimmer Kara on Route 41.
 - **Reasoning**:
-  1. Cursor is currently on **SMOKESCREEN** (Normal Type).
-  2. Need to move cursor to **FLAME WHEEL** (Fire Type).
-  3. Action: Pressing 'Right'.
-  4. Next Turn: Will confirm cursor is on Flame Wheel and press 'A'.
+  1. Cursor confirmed on **FLAME WHEEL**.
+  2. Action: Pressing 'A' to attack.
+  3. Expectation: Staryu takes damage.
 - **Plan**:
   1. Defeat Kara.
   2. Surf North to Olivine City.
