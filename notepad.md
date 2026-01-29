@@ -21,8 +21,8 @@
     - Stairs Up to 5F (Center): (9, 7) -> Correct path to 6F.
     - Layout: West Side isolated at top. Must go South (Row 14), Cross to East, Go North (Row 2), then West to Center.
     - Obstacles: Sailor and Lass blocking path at (11, 2-3).
-    - Strategy: Battle/Pass trainers at (11, 2-3) on 4F to reach Center Stairs (9, 7).
-  - **Next Step**: Return to 4F, go South, cross bridge to East Side, Go North to (11, 2-3).
+    - Strategy: Access Hole at (9, 3) from the WEST side (Row 2) to avoid trainers. Fall to 3F, then find stairs up to 4F Center.
+  - **Next Step**: Go North to Row 2, head East to (9, 2), fall into hole at (9, 3).
 
 ### Important Locations
 - **Cianwood Pharmacy**: (15, 37) in Cianwood.
