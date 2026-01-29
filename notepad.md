@@ -30,8 +30,3 @@
 - **TYPE_3fe2**: Water (Surfable).
 - **Mechanic**: TYPE_3fe2 is shallow water (walkable). TYPE_4e8c is deep water (surfable).
 - **Correction**: The "invisible wall" was simply the boundary between shallow and deep water while not Surfing. Now Surfing to Cianwood.
-### Reflection (Turn 17272)
-- **Progress**: En route to Cianwood. Delays caused by "invisible wall" confusion (resolved).
-- **Strategy**: Avoiding trainer battles where possible to speed up travel, but fighting wild encounters if escape fails.
-- **Hygiene**: Map markers for defeated swimmers are helpful. Notepad "Quest Log" is up to date.
-- **Next Steps**: Re-verify Pharmacy trigger. If that fails, re-verify Olivine Lighthouse/Gym.
