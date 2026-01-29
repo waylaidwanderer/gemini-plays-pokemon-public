@@ -261,34 +261,6 @@
       }
     ]
   },
-  "scan_map_perimeter": {
-    "description": "Scans the perimeter of the current map (rows 0 and H-1, columns 0 and W-1) and prints any tiles that are NOT the common wall type (TYPE_2889) or whirlpools (TYPE_1f49) to identify potential exits or unexplored edge areas.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "autopress_buttons": {
-          "type": "boolean",
-          "default": false
-        }
-      },
-      "required": [
-        "autopress_buttons"
-      ]
-    },
-    "python_script": "import xml.etree.ElementTree as ET\n\ndef scan_perimeter(map_xml_str):\n    try:\n        root = ET.fromstring(map_xml_str)\n        width = int(root.attrib['width'])\n        height = int(root.attrib['height'])\n        \n        # Common wall/block types to ignore (adjust based on observation)\n        # TYPE_2889: Standard rock wall\n        # TYPE_1f49: Whirlpool\n        ignored_types = ['TYPE_2889', 'TYPE_1f49', 'unseen']\n        \n        exits = []\n        \n        # Function to check a tile\n        def check_tile(x, y, row_element):\n            for tile in row_element.findall('Tile'):\n                if int(tile.attrib['id']) == x:\n                    t_type = tile.attrib.get('type', 'unseen')\n                    if t_type not in ignored_types:\n                        return (x, y, t_type)\n            return None\n\n        # Scan Top and Bottom Rows\n        for r_idx in [0, height - 1]:\n            row = root.find(f\"./Row[@id='{r_idx}']\")\n            if row:\n                for x in range(width):\n                    result = check_tile(x, r_idx, row)\n                    if result:\n                        exits.append(f\"Edge {r_idx} (Row): {result}\")\n\n        # Scan Left and Right Columns\n        for y in range(height):\n            row = root.find(f\"./Row[@id='{y}']\")\n            if row:\n                for c_idx in [0, width - 1]:\n                    result = check_tile(c_idx, y, row)\n                    if result:\n                        side = \"Left\" if c_idx == 0 else \"Right\"\n                        exits.append(f\"Edge {side} (Col {c_idx}): {result}\")\n\n        if exits:\n            print(\"Potential Exits found on perimeter:\")\n            for e in exits:\n                print(e)\n        else:\n            print(\"No obvious open exits found on the perimeter (or perimeter is unseen/blocked).\")\n            \n    except Exception as e:\n        print(f\"Error parsing map XML: {e}\")\n\nscan_perimeter(map_xml_string)",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-01-24T19:14:48.879Z",
-        "action_counter": 11461
-      },
-      {
-        "commit_message": "Initial definition of scan_map_perimeter tool.",
-        "timestamp": "2026-01-28T19:08:23.398Z",
-        "action_counter": 16182
-      }
-    ]
-  },
   "scan_surroundings": {
     "description": "Scans the Mental Map around the player and returns the type and coordinates of nearby tiles. Useful for identifying walls, ledges, and navigable paths without walking into them.",
     "input_schema": {
