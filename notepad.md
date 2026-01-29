@@ -44,6 +44,6 @@
 - **Gym Puzzle Strategy**: "The Split" (Corrected)
   1. **Activate Strength** (Done).
   2. Push Boulder (3, 7) UP to (3, 6) (Done).
-  3. Move to (5, 8). Push Boulder (5, 7) UP to (5, 6).
-  4. Move to (3, 7) (now empty). Push Boulder (4, 7) RIGHT to (5, 7).
+  3. Move to (5, 8). Push Boulder (5, 7) UP to (5, 6) (Done).
+  4. From (5, 7), Push Boulder (4, 7) **LEFT** to (3, 7).
   5. Walk UP through (4, 7) -> (4, 6) -> Leader.
