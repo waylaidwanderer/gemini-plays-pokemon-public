@@ -13,10 +13,12 @@
 ### Quest Log
 - **SecretPotion**: Pharmacist gives generic "Whirl Islands" text. Implies Jasmine flag was not fully set.
 - **Lighthouse Navigation**: 
-  - 4F Center Room (with stairs to top) is ISOLATED by walls.
-  - MUST fall from 5F to reach 4F Center.
-  - Hole at (16, 7) on 5F leads to 4F Right.
-  - **Current Task**: Re-examine Right Side of 5F and the destination of the 'Trap Hole'.
+  - 5F Center is isolated. Must access from 4F Center.
+  - 4F Center is isolated. Must fall from 5F.
+  - Only accessible hole on 5F is at (16, 7) (Right Side).
+  - Previously thought (16, 7) was a trap.
+  - **New Hypothesis**: (16, 7) leads to a path on 4F or 3F that eventually reaches 4F Center.
+  - **Current Task**: Jump down (16, 7) and exhaustively search the landing area for holes, hidden paths, or stairs.
 
 ### Important Locations
 - **Cianwood Pharmacy**: (15, 37) in Cianwood.
