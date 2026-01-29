@@ -4,12 +4,12 @@
 ### Current Status
 - **Location**: Cianwood City (22_9), Inside Pharmacy.
 - **Goal**: Get SecretPotion.
-- **Status**: Interrupted by phone call (Alan).
-- **Interaction Rule**: When asked about the four islands, press 'DOWN' then 'A' to answer NO.
+- **Status**: Finishing phone call (Alan).
+- **Interaction Rule**: When "Do you remember..." text finishes, DO NOT PRESS 'A'. Press 'DOWN' immediately to target 'NO'.
 - **Plan**: 
   1. Finish phone call.
   2. Talk to Pharmacist.
-  3. Answer 'NO' (Down -> A) to islands question.
+  3. Execute Interaction Rule.
 - **Next**: Buy Repels, Surf to Olivine.
 
 ### Objectives
