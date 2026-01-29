@@ -35,7 +35,7 @@
 - Defeated Blackbelt Lao.
 - Defeated Blackbelt Nob.
 - Defeated Blackbelt Lung (Mankey).
-- Status: At (5, 6). Strength inactive. Activating Strength on Bolin.
-- **Gym Puzzle**: Push boulder at (5, 5) UP. Then navigate around Lung.
-- **Bolin Moves**: Has Rock Smash and Strength. Need to select Strength from menu.
+- Status: At (5, 6). Strength active.
+- **Gym Puzzle**: The "boulder" at (5, 5) is a Trainer (solid). The real boulder is at (4, 6).
+- **Plan**: Push boulder at (4, 6) Left to clear path to (4, 6) -> (4, 5).
 - **Tip**: Cianwood PC Interaction Point is (3,3) facing Up.
