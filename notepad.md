@@ -4,14 +4,13 @@
 ### Current Status
 - **Location**: Cianwood City (22_9), Inside Pharmacy.
 - **Goal**: Get SecretPotion.
-- **Status**: Resetting.
+- **Status**: Exiting to reset state.
 - **Plan**:
-  1. Spam 'B' to clear current dialogue.
-  2. Exit Pharmacy.
-  3. Re-enter.
-  4. Talk to Pharmacist.
-  5. Answer 'Yes' to "From Olivine?".
-  6. Answer 'No' to "Islands?". USE 'B' TO ANSWER NO/CANCEL.
+  1. Exit Pharmacy (Move Down).
+  2. Re-enter Pharmacy.
+  3. Talk to Pharmacist.
+  4. Answer 'Yes' to "From Olivine?".
+  5. Answer 'No' to "Islands?". **CRITICAL: Press 'B' or 'Down+A'**.
 - **Next**: Buy Repels, Surf to Olivine.
 
 ### Objectives
