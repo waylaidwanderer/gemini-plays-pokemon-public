@@ -4,13 +4,13 @@
 ### Current Status
 - **Location**: Cianwood City (22_9), Inside Pharmacy.
 - **Goal**: Get SecretPotion.
-- **Status**: Searching for Suicune in North Cianwood.
-- **Logic**: Pharmacy is in "Shop Mode". Need to clear events.
+- **Status**: Smashing rocks to reach North Cianwood.
+- **Correction**: Mistook a rock for Eusine earlier. Path is blocked by breakable rocks.
 - **Plan**:
-  1. Go North to finding Suicune (around the rocky area/house).
-  2. Trigger event.
-  3. Defeat Eusine if he challenges me.
-  4. Return to Pharmacy.
+  1. Smash rock.
+  2. Continue North.
+  3. Locate Suicune/Eusine.
+  4. Trigger event to reset Pharmacy state.
 - **Revised Plan (The "Slow & Steady" Approach)**:
   1. Clear dialogue/Reset room.
   2. Talk to Pharmacist.
