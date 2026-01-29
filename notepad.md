@@ -6,14 +6,14 @@
 - **Goal**: Get SecretPotion.
 - **Status**: Battling Swimmer Kara (Pokemon 2: Starmie).
 - **Reasoning**:
-  1. Kara sent out **Starmie**.
-  2. Text "SWIMMER♀ KARA sent out..." is on screen.
-  3. **Action**: Pressing 'A' to advance text ("STARMIE!", "Go! Garnet!").
-  4. **Next Turn**: Expecting FIGHT menu.
-  5. **Strategy**: Attack with Flame Wheel. Garnet (Lvl 40) should outspeed and hopefully 2HKO Starmie (Lvl ~22).
-  6. **Contingency**: If Garnet faints, I have Revives and fodder Pokemon to execute a revive strategy.
+  1. Main Battle Menu is visible. Cursor is on **FIGHT**.
+  2. **Action**: Pressing 'A' to open the Move Selection Menu.
+  3. **Hypothesis**: Cursor *should* be on **FLAME WHEEL** (Slot 4) since I used it last turn.
+  4. **Next Turn**: VISUALLY CONFIRM cursor position.
+     - If on Slot 4 (Flame Wheel) -> Press 'A'.
+     - If on Slot 1 (Dig) -> Press Down x3.
 - **Plan**:
-  1. Advance text.
+  1. Open Fight Menu.
   2. Select FLAME WHEEL.
   3. Win.
   4. Surf North.
