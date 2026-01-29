@@ -48,3 +48,4 @@
   4. From (5, 7), Push Boulder (4, 7) **LEFT** to (3, 7) (Done).
   5. Walk UP through (4, 7) -> (4, 6) -> Leader (Done).
 - **Current Task**: Battling Gym Leader Chuck. Garnet vs Poliwrath. Flame Wheel did minimal damage.
+- **Battle Update**: Garnet took ~43 damage (80/131 HP). Poliwrath is Burned. Used Dig to stall/damage.
