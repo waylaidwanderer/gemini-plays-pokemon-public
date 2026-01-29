@@ -2,9 +2,11 @@
 - Started: Friday, January 16, 2026
 
 ### Current Status
-- **Location**: Cianwood City (22_9), Inside Pharmacy.
-- **Goal**: Get SecretPotion.
-- **Next**: Exit building, re-enter, answer 'NO' to islands question.
+- **Location**: Cianwood City (22_3).
+- **Goal**: Re-enter Pharmacy (15, 37) and get SecretPotion.
+- **Critical Instruction**: Answer 'NO' to "Do you remember the four islands?".
+- **Input Sequence**: Advance text -> Wait for question -> Press DOWN -> Press A.
+- **Next**: Buy Repels, Surf to Olivine.
 - **Party**: Garnet (Lvl 40, 64/128 HP), Headache (Surf).
 - **Quest**: Obtain Mineral Badge (Jasmine).
 
