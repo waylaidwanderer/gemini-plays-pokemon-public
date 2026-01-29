@@ -35,7 +35,7 @@
 - Defeated Blackbelt Lao.
 - Defeated Blackbelt Nob.
 - Defeated Blackbelt Lung (Mankey).
-- Status: At (5, 6). Strength active.
-- **Gym Puzzle**: The "boulder" at (5, 5) is a Trainer (solid). The real boulder is at (4, 6).
-- **Plan**: Push boulder at (4, 6) Left to clear path to (4, 6) -> (4, 5).
+- Status: At (5, 6). Defeated Lung at (5, 5).
+- **Hypothesis**: Lung is at (5, 5). (4, 4) might be clear or have the next trainer.
+- **Plan**: Move to (4, 5) and check (4, 4).
 - **Tip**: Cianwood PC Interaction Point is (3,3) facing Up.
