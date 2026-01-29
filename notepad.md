@@ -4,7 +4,7 @@
 ### Current Status
 - **Location**: Cianwood City (22_9), Inside Pharmacy.
 - **Goal**: Get SecretPotion.
-- **Status**: Positioning to talk to Pharmacist.
+- **Status**: Moving Left to bypass invisible blockage at (2, 4).
 - **Revised Plan (The "Slow & Steady" Approach)**:
   1. Clear dialogue/Reset room.
   2. Talk to Pharmacist.
