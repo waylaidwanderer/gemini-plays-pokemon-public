@@ -33,4 +33,4 @@
 ### Cianwood Gym Progress
 - Defeated Blackbelt Yoshi.
 - Defeated Blackbelt Lao.
-- Status: Inside Gym, approaching the third trainer.
+- Status: Fighting Blackbelt Nob (3rd Trainer).
