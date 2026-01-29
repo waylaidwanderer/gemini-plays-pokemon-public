@@ -27,3 +27,4 @@
 ### Tile Mechanics
 - **TYPE_4e8c**: Water (Surfable).
 - **TYPE_1f49**: Rock boundary (Impassable).
+- **TYPE_3fe2**: Water (Surfable).
