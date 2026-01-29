@@ -17,10 +17,10 @@
   - 4F Center is isolated. Must fall from 5F.
   - Right Side Drop (Hole 5F (16,7) -> 4F (16,9) -> 3F) is CONFIRMED DEAD END (shortcut to exit).
   - **Current Task**: Return to 5F. Find a DIFFERENT hole.
-  - **Suspects**:
-    - Top corridor of 5F (North of center).
-    - Hidden hole near Bird Keeper?
-    - Is there a hole in the dark/unseen tiles?
+  - **Action Plan**:
+    1. Climb back to 5F.
+    2. AVOID hole at (16, 7) (Exit Shortcut).
+    3. Explore North and West areas of 5F for the correct hole to the Center.
 
 ### Important Locations
 - **Cianwood Pharmacy**: (15, 37) in Cianwood.
