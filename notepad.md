@@ -4,13 +4,12 @@
 ### Current Status
 - **Location**: Cianwood City (22_9), Inside Pharmacy.
 - **Goal**: Get SecretPotion.
-- **Status**: Inside Cianwood Pharmacy (22_7). NPC asks "Need some medicine?".
-- **Observation**: This building (15, 47) seems to be the Pharmacy/Mart combo.
+- **Status**: Inside Cianwood Pharmacy (22_7).
+- **Observation**: Shop confirmed as Pharmacy (Healing items only, NO Repels).
 - **Plan**:
-  1. Advance text.
-  2. If Shop Menu opens: Buy Repels.
-  3. If Dialogue continues: Read carefully for SecretPotion.
-  4. If no Potion after interaction, try talking again or selecting "No" to buying.
+  1. Cancel shop menu.
+  2. Talk to Pharmacist again to request SecretPotion.
+  3. Exit and find General Store for Repels if needed.
 - **Revised Plan (The "Slow & Steady" Approach)**:
   1. Clear dialogue/Reset room.
   2. Talk to Pharmacist.
