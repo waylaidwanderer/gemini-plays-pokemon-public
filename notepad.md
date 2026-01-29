@@ -7,14 +7,10 @@
 - **Status**: Battling Swimmer Kara on Route 41.
 - **Reasoning**:
   1. **Battle State**: Garnet (38/128 HP) vs Staryu (Lv 20).
-  2. **Damage Calc**: Staryu's Water Gun did ~13 damage (51 -> 38). I can survive at least 2 more hits.
-  3. **Action**: Pressing 'A' to enter the FIGHT menu.
-  4. **Next Turn**: VISUALLY confirm which move is selected.
-     - Move 1 (Top-Left): DIG (0 PP)
-     - Move 2 (Top-Right): MUD-SLAP (0 PP)
-     - Move 3 (Bottom-Left): SMOKESCREEN (11 PP)
-     - Move 4 (Bottom-Right): FLAME WHEEL (8 PP)
-  5. **Goal**: Navigate cursor to Move 4 (Flame Wheel).
+  2. **Menu State**: Cursor is on **SMOKESCREEN** (Bottom-Left).
+  3. **Target**: **FLAME WHEEL** (Bottom-Right).
+  4. **Action**: Pressing 'Right' to move cursor.
+  5. **Next Turn**: Will VISUALLY confirm cursor is on Flame Wheel, THEN press 'A'.
 - **Plan**:
   1. Defeat Kara.
   2. Surf North to Olivine City.
