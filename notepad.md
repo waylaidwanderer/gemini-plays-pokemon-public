@@ -4,27 +4,17 @@
 ### Current Status
 - **Location**: Cianwood City (22_9), Inside Pharmacy.
 - **Goal**: Get SecretPotion.
-- **Status**: Leaving Cianwood.
+- **Status**: Battling Swimmer Kara on Route 41.
 - **Reasoning**:
-  1. Pharmacist dialogue loop implies Quest Flag is NOT active.
-  2. I likely missed a trigger with Jasmine in Olivine (or the game requires Strength first?).
-  3. **CRITICAL**: I NEED HM04 Strength to challenge the Cianwood Gym (Chuck).
-  4. HM04 is in Olivine City (Cafe).
-  5. Plan: Go back to Olivine, get Strength, re-talk to Jasmine, then return.
+  1. Navigating Route 41 North towards Olivine.
+  2. Encountered Swimmer Kara.
+  3. Garnet has 8 PP for Flame Wheel (Fire), but Dig/Mud-Slap are empty.
+  4. Need to select Flame Wheel manually.
 - **Plan**:
-  1. Exit Pharmacy.
-  2. Go to Mart (15, 48) to buy Repels (for the swim back).
-  3. Surf back to Olivine City.
-- **Revised Plan (The "Slow & Steady" Approach)**:
-  1. Clear dialogue/Reset room.
-  2. Talk to Pharmacist.
-  3. Advance text to "...along the way?".
-  4. Press 'A' *once*.
-  5. **WAIT** for the next turn to visually confirm the Yes/No menu.
-  6. Press 'Down'.
-  7. **WAIT** to confirm cursor moved.
-  8. Press 'A'.
-- **Next**: Buy Repels, Surf to Olivine.
+  1. Defeat Kara.
+  2. Surf North to Olivine City.
+  3. Get HM04 (Strength) from Café.
+  4. Climb Lighthouse, Heal Amphy.
 
 ### Objectives
 - **Primary**: Obtain Mineral Badge (Jasmine).
