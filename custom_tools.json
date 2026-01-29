@@ -92,21 +92,6 @@
       }
     ]
   },
-  "check_execution_env": {
-    "description": "A simple system check to verify code execution environment availability.",
-    "input_schema": {
-      "type": "object",
-      "properties": {}
-    },
-    "python_script": "print(\"Execution environment is active.\")",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-01-21T08:14:32.627Z",
-        "action_counter": 7236
-      }
-    ]
-  },
   "check_path_connectivity": {
     "description": "Checks if a path exists between two coordinates using BFS on the Mental Map XML. Returns path length and steps if found.",
     "input_schema": {
