@@ -7,7 +7,7 @@
 - **Status**: Clearing lore text (Accidentally selected YES previously).
 - **Critical Instruction**: Answer 'NO' to "Do you remember the four islands?".
 - **Plan**:
-  1. Clear current lore text. (Current Step)
+  1. Clear current lore text. (Current Step - text is "mythical sea creature")
   2. Reset position (Move Down, then Up).
   3. Talk.
   4. Advance text to "...along the way?".
