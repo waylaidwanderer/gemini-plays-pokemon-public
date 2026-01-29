@@ -4,12 +4,12 @@
 ### Current Status
 - **Location**: Cianwood City (22_9), Inside Pharmacy.
 - **Goal**: Get SecretPotion.
-- **Status**: Inside Cianwood Pharmacy (22_7).
-- **Observation**: Shop confirmed as Pharmacy (Healing items only, NO Repels).
+- **Status**: Interacting with Pharmacist.
+- **Observation**: Canceling shop menu yielded "See you around.".
 - **Plan**:
-  1. Cancel shop menu.
-  2. Talk to Pharmacist again to request SecretPotion.
-  3. Exit and find General Store for Repels if needed.
+  1. Clear "See you around" text.
+  2. Talk to Pharmacist again to trigger story dialogue.
+  3. If still just a shop, explore the rest of the room (right side).
 - **Revised Plan (The "Slow & Steady" Approach)**:
   1. Clear dialogue/Reset room.
   2. Talk to Pharmacist.
