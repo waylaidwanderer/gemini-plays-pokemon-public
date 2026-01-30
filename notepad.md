@@ -44,5 +44,5 @@
 - **Next Step**: Falling from 4F (16,9) to 3F. This should land me in the Right Section of 3F.
 - **Progress**: Fell to 3F (16,9). This area connects to the stairs UP to 4F at (13,3) and the cross-over path at Row 14.
 - **Progress**: Checked (12,1), it's a mirror (no item).
-- **Progress**: Descended to 2F.
-- **Exit Strategy**: Navigate to stairs at (3,11) to reach 1F and exit to Olivine.
+- **Status**: On 2F, navigating to exit.
+- **Next**: Reach stairs at (3,11), then exit Lighthouse and Fly to Cianwood.
