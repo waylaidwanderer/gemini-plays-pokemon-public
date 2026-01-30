@@ -26,6 +26,6 @@
 - **Fly Map**: Grid based. New Bark (East) -> Cherrygrove -> Violet -> Ecruteak -> Olivine (West).
 
 ### Current Status
-- **Current Status**: Navigating Fly Map (Cursor at New Bark Town).
-- **Immediate Goal**: Move cursor to Cianwood City.
-- **Navigation**: Press UP x7 (New Bark -> Cherrygrove -> Violet -> Azalea -> Goldenrod -> Ecruteak -> Olivine -> Cianwood). Verify text "CIANWOOD CITY".
+- **Current Status**: Flying to Cianwood City.
+- **Immediate Goal**: Enter Cianwood Pharmacy and speak to the Pharmacist.
+- **Quest State**: Jasmine spoke to us. Flag should be active.
