@@ -4,9 +4,9 @@
 ### Current Status
 - **Location**: Cianwood Pharmacy (Map 22_9).
 - **Goal**: Talk to the Green-Haired NPC.
-- **Item**: Obtained **Silver Wing** from the customer at (7, 5).
-- **Issue**: The Pharmacist is the guy at (2, 1). I need to talk to him and answer **YES** to "You came from OLIVINE?".
-- **NPCs**: Pharmacist at (2, 1). Customer (Green Hair) at (7, 5). Lady at (0, 2).
+- **Info**: Customer at (7, 5) discussed the **Silver Wing**.
+- **Issue**: Answering "YES" to the Pharmacist at (2, 4).
+- **NPCs**: Pharmacist at (2, 4). Customer at (7, 5). Lady at (0, 2).
 
 - **Key Items**: No SecretPotion found in inventory.
 
