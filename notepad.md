@@ -21,7 +21,7 @@
 - **Current Status**: In Goldenrod City (Dept Store 2F).
 
 ### Game Mechanics
-- **Menu Memory**: The Pokémon menu remembers the last cursor position.
+- **Menu Memory**: The Pokémon menu remembers the last cursor position. ALWAYS press UP multiple times to reset to Slot 1 before navigating.
 - **Nurse Joy**: Interaction can be sticky; ensure dialogue fully closes before moving.
 
 ### Lighthouse Navigation (For Ascent)
