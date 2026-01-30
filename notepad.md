@@ -26,6 +26,6 @@
 - **Fly Map**: Grid based. New Bark (East) -> Cherrygrove -> Violet -> Ecruteak -> Olivine (West).
 
 ### Current Status
-- **Current Status**: Searching 'SELL' Menu for HP UP.
-- **Immediate Goal**: Scroll down until HP UP appears.
-- **Observation**: Items seen: Miracle Seed, Battle Items, Berries, Apricorns. HP Up (Vitamin) likely further down.
+- **Current Status**: Found HP UP in 'SELL' Menu.
+- **Immediate Goal**: Select HP UP and confirm sale.
+- **Action**: Cursor on Super Potion. Moving UP x4 to HP UP.
