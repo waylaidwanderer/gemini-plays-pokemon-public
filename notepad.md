@@ -37,4 +37,4 @@
 - **Confirmed**: Goldenrod Dept Store 2F was unstaffed. 3F sells Battle Items only.
 - **Plan**: Fly to Ecruteak Mart for Revives. Then back to Olivine.
 - **Navigation**: Flying from Ecruteak City to Olivine City to deliver medicine.
-- **Current Status**: Opening Party Menu to select Topaz.
+- **Current Status**: Selecting Topaz (Slot 3) to use Fly.
