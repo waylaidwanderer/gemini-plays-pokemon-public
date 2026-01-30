@@ -26,6 +26,6 @@
 - **Fly Map**: Grid based. New Bark (East) -> Cherrygrove -> Violet -> Ecruteak -> Olivine (West).
 
 ### Current Status
-- **Current Status**: Inside Olivine Mart.
-- **Immediate Goal**: Navigate to the bottom-left counter (1, 5) to find the clerk.
-- **Navigation**: Left to main aisle (3, 2), then Down to (3, 5).
+- **Current Status**: Facing Clerk at (1, 3) over the counter.
+- **Immediate Goal**: Talk to Clerk, select SELL, sell HP Up.
+- **Navigation**: Interactions.
