@@ -7,15 +7,14 @@
 
 ### Exploration Notes
 - **2F (3_43)**:
-  - Stairs at (5, 3) go to 3F (Left Side).
-  - Stairs at (3, 11) go to 1F (Exit).
-  - Confirmed: No other stairs found on 2F.
+  - Connected Left Side (Entrance) to Right Side via top corridor.
+  - Exploring Right Side (Col 16-17) for stairs going UP to 3F (Right Side).
+  - Known features on Right Side: Gentleman Alfred (16, 8), Landing (16, 11), Hole (16, 13).
+  - **Plan**: Check Col 17 for stairs.
 - **3F (3_44)**:
-  - Window at (4, 1): No interaction.
-  - NPC "Schoolboy Chad" at (3, 9): Non-hostile (didn't battle). Complained about not being able to go up.
-  - Stairs at (3, 11): Investigating now. Likely lead to 1F (Exit).
-  - **Puzzle**: Path to 4F (Right Side) is inaccessible from here. Need to find a way to cross or a different route up from 1F/2F.
-  - **Plan**: Check South Wall for windows/doors. If nothing, take stairs at (3, 11).
+  - Left Side is a dead end (Theo/Chad).
+  - Right Side leads to 4F.
+  - Need to reach Right Side from 2F.
 
 ### Objectives
 - **Primary**: Obtain SecretPotion.
