@@ -37,4 +37,4 @@
 - **Confirmed**: Goldenrod Dept Store 2F was unstaffed. 3F sells Battle Items only.
 - **Plan**: Fly to Ecruteak Mart for Revives. Then back to Olivine.
 - **Navigation**: Flying from New Bark Town to Olivine City.
-- **Current Status**: Correcting selection. Cursor was on Headache (Slot 5). Closing text and moving Up to Topaz (Slot 3).
+- **Current Status**: Selected "FLY". Map opening.
