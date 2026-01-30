@@ -43,3 +43,6 @@
   3. Go UP the Right Side to Row 2.
   4. Walk LEFT along Row 2 to reach the Center Stairs at (9,7).
   5. Take those stairs to 5F (Center).
+- **Correction**: The Center Box on 4F (x=8-9, y=4-7) is FULLY ENCLOSED by walls and holes on this floor. It cannot be entered from 4F.
+- **Hypothesis**: The entrance is from **3F**, via a ladder/stairs that leads up to `(9, 5)` (marked "To 3F Sailor Room").
+- **Plan**: Descend to 3F via stairs at `(13, 3)`, then find the path to the Center Stairs on 3F.
