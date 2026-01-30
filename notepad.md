@@ -2,8 +2,8 @@
 - Started: Friday, January 16, 2026
 
 ### Current Status
-- **Location**: Ecruteak City (Map 4_9) - Accidental Detour.
-- **Goal**: Fly to Cianwood City to obtain SecretPotion.
+- **Location**: Cianwood City (Map 22_3).
+- **Goal**: Enter Pharmacy to get SecretPotion.
 
 ### Objectives
 - **Primary**: Obtain SecretPotion from Cianwood Pharmacy.
