@@ -37,4 +37,4 @@
 - **Confirmed**: Goldenrod Dept Store 2F was unstaffed. 3F sells Battle Items only.
 - **Plan**: Fly to Ecruteak Mart for Revives. Then back to Olivine.
 - **Navigation**: In Violet City. Flying to Olivine City.
-- **Current Status**: Correcting selection from Headache to Topaz. Menu memory placed me on Slot 5.
+- **Current Status**: Selected "FLY". Waiting for map to open.
