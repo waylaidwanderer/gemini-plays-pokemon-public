@@ -11,7 +11,7 @@
 - **Tertiary**: Explore Olivine City.
 
 ### Quest Log
-- **SecretPotion**: Pharmacist gives generic "Whirl Islands" text. Implies Jasmine flag was not fully set.
+- **SecretPotion**: Pharmacist gives generic "Whirl Islands" text (LIKELY WRONG NPC). Real Pharmacist is at (0, 1).
 - **Cianwood City**:
   - **Goal**: Get SecretPotion from Pharmacy (15, 37).
   - **Next**: Fly back to Olivine.
