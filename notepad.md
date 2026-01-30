@@ -35,9 +35,8 @@
 - **Immediate Plan**: Heal -> Reorder Party (Garnet lead) -> Mart -> Lighthouse (Talk to Jasmine).
 - **Turn 19204**: Difficulty healing. Previous attempts with `advance_dialogue` failed to update HP. Attempting again with deliberate focus.
 - **Plan**: Heal -> Party Menu (Garnet to Slot 1) -> Mart -> Lighthouse.
-- **Action Plan**:
-  1. **Completed**: Recovered Garnet from Box 1.
-  2. **Current**: Swapped Garnet to Slot 1.
-  3. **Next**: Walk to Nurse Joy (4,3) -> Heal (Polite A presses) -> Mart -> Lighthouse.
+- **Strategy Change**: Abandoned Pokemon Center healing due to persistent soft-lock/input issues.
+- **New Plan**: Buy Potions/Super Potions at Mart -> Heal manually -> Return to Lighthouse.
+- **Current Party**: Garnet (Full HP) leading. Others are critical/fainted.
 - **Quest Status**: Pharmacist gave lore, no potion.
 - **Hypothesis**: Must speak to Jasmine again to confirm the quest flag or trigger a specific dialogue state.
