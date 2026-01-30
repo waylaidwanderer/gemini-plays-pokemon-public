@@ -2,13 +2,17 @@
 - Started: Friday, January 16, 2026
 
 ### Current Status
-- **Location**: Glitter Lighthouse 3F (Map 3_44).
-- **Goal**: Explore 3F and find the path forward (previously marked as Dead End, need to verify).
+- **Location**: Glitter Lighthouse 2F (Map 3_43).
+- **Goal**: Re-examine 3F Balcony. Suspect hidden path or jumpable ledge.
 
-### Reflection (Turn 18260)
-- **Progress**: Wasted time looking for a non-existent Graveler and backtracking.
-- **Correction**: Systematic exploration of Lighthouse required. 3F is not just a balcony; it has a trainer.
-- **Hygiene**: Cleaning up misleading markers.
+### Exploration Notes
+- **2F (3_43)**:
+  - Left Stairs (5, 3) -> 3F Balcony.
+  - Right Side: Contains Alfred (16, 8) and Landing/Holes. Seems to be the "Down" path.
+  - No obvious stairs up on 2F Right Side.
+- **3F (3_44)**:
+  - Left Strip: Battled Theo. Marked as dead end previously.
+  - **Hypothesis**: The "wall" on the right side of the balcony might be jumpable, or there's a window.
 
 ### Objectives
 - **Primary**: Defeat Chuck (Cianwood Gym).
