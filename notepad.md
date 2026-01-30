@@ -4,7 +4,8 @@
 ### Current Status
 - **Location**: Cianwood Pharmacy (Map 22_9).
 - **Goal**: Obtain SecretPotion from Pharmacist at (2, 4).
-- **Info**: Customer at (7, 5) discussed the **Silver Wing**.
+- **Issue**: Stuck in dialogue loop. Pharmacist discusses Whirl Islands.
+- **Plan**: Finish current dialogue. If no Potion, Fly to Olivine to verify flag with Jasmine.
 - **NPCs**: Pharmacist (Red Hair) at (2, 4). Customer (Green Hair) at (7, 5). Lady at (0, 2).
 
 ### Recent Reflection
