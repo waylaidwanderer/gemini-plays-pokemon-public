@@ -17,9 +17,10 @@
 - **Quest State**: Pharmacist in Cianwood only gave lore. Must confirm "Jasmine sent me" flag by speaking to her again.
 
 ### Lighthouse Navigation (For Ascent)
+- **Map IDs**: 1F = 3_42, 2F = 3_43.
 - **Route to Top**:
   1. **1F -> 2F**: Stairs at (3,11).
-  2. **2F -> 3F**: Stairs at (5,3).
+  2. **2F -> 3F**: Stairs at (5,3)? (Need to verify location on 2F).
   3. **3F -> 4F**: Stairs at (13,3) (Right Side).
   4. **4F -> 3F (Center)**: Drop down hole at (9,3) to reach 3F Center.
   5. **3F (Center) -> 4F (Center)**: Stairs at (9,5).
