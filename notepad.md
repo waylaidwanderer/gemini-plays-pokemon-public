@@ -28,4 +28,4 @@
 ### Current Status
 - **Current Status**: Searching 'SELL' Menu for HP UP.
 - **Immediate Goal**: Scroll down until HP UP appears.
-- **Observation**: Bag is disorganized. Scrolling deeper.
+- **Observation**: Items seen: Miracle Seed, Battle Items, Berries, Apricorns. HP Up (Vitamin) likely further down.
