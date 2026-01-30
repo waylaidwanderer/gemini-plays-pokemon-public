@@ -26,6 +26,6 @@
 - **Fly Map**: Grid based. New Bark (East) -> Cherrygrove -> Violet -> Ecruteak -> Olivine (West).
 
 ### Current Status
-- **Current Status**: Lighthouse 4F Center (3_45). Dialogue cleared.
-- **Immediate Goal**: Take Stairs at (9, 7) to 5F.
-- **Navigation**: Down x2.
+- **Current Status**: Lighthouse 5F Center (3_46).
+- **Immediate Goal**: Reach Stairs to 6F at (9, 15).
+- **Navigation**: Walk Down (South). Expecting Trainer (likely defeated).
