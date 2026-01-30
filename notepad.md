@@ -36,5 +36,5 @@
   7. **5F (Center) -> 6F**: Stairs at (9,15).
 - **Confirmed**: Goldenrod Dept Store 2F was unstaffed. 3F sells Battle Items only.
 - **Plan**: Fly to Ecruteak Mart for Revives. Then back to Olivine.
-- **Navigation**: In New Bark Town (accidentally). Finishing call with Joey, then Flying to Olivine.
-- **Current Status**: Joey is talking about his Rattata... again.
+- **Navigation**: In New Bark Town. Finishing call with Joey.
+- **Current Status**: Joey is talking about his party. Advancing text to hang up.
