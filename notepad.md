@@ -26,6 +26,6 @@
 - **Fly Map**: Grid based. New Bark (East) -> Cherrygrove -> Violet -> Ecruteak -> Olivine (West).
 
 ### Current Status
-- **Current Status**: Flying to Cianwood City.
-- **Immediate Goal**: Enter Cianwood Pharmacy and speak to the Pharmacist.
-- **Quest State**: Jasmine spoke to us. Flag should be active.
+- **Current Status**: Arrived in Cianwood City.
+- **Immediate Goal**: Enter Cianwood Pharmacy (15, 37) to get SecretPotion.
+- **Quest State**: Jasmine triggered. Pharmacist should now provide the item.
