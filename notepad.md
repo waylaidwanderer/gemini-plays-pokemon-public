@@ -36,5 +36,5 @@
   7. **5F (Center) -> 6F**: Stairs at (9,15).
 - **Confirmed**: Goldenrod Dept Store 2F was unstaffed. 3F sells Battle Items only.
 - **Plan**: Fly to Ecruteak Mart for Revives. Then back to Olivine.
-- **Navigation**: Walking North into Ecruteak City via Route 37.
-- **Current Status**: Bypassing Twins by walking on the right side.
+- **Navigation**: Switching to the East Lane of Route 37 to reach Ecruteak.
+- **Current Status**: Backtracking South to Row 16 to crossover.
