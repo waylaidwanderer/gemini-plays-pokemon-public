@@ -11,8 +11,9 @@
 
 ### Recent Reflection
 - **Progress**: Arrived in Cianwood, defeated Chuck, got Storm Badge and Fly.
-- **Current Task**: Finishing phone call with Joey. Then Flying to Olivine City.
-- **Correction**: The Pharmacist dialogue loop suggests I might be missing a flag or a specific trigger. I will verify with Jasmine.
+- **Current Task**: Flying to Olivine City.
+- **Correction**: The Pharmacist dialogue loop confirms I need to trigger the "Jasmine sent me" flag.
+- **Plan**: Fly to Olivine -> Climb Lighthouse -> Talk to Jasmine -> Return to Cianwood.
 - **Hygiene**: Map markers updated.
 - **Strategy**: Exit Pharmacy -> Fly to Olivine -> Climb Lighthouse -> Talk to Jasmine.
 
@@ -21,6 +22,7 @@
 ### Objectives
 - **Primary**: Obtain SecretPotion from Cianwood Pharmacy.
 - **Secondary**: Heal Amphy at the Lighthouse.
+- **Tertiary**: Explore remaining Cianwood houses (Photo Studio, etc.) upon return.
 
 ### Lighthouse Navigation (For Return)
 - **Route to Top**:
@@ -32,4 +34,4 @@
   6. **4F (Center) -> 5F (Center)**: Stairs at (9,7).
   7. **5F (Center) -> 6F**: Stairs at (9,15).
 - **Interrupt**: Phone call from Chad interrupted the Pharmacist interaction. Must finish call and retry.
-- Suspicion: The Pharmacist is giving the "Whirl Islands" lore, which might mean the "Jasmine sent me" flag isn't set. If no SecretPotion is received after this dialogue, I must return to the Lighthouse and speak to Jasmine again, ensuring I exhaust her dialogue.
+- **Suspicion**: Validated. Pharmacist loop confirmed missing flag.
