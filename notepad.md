@@ -26,6 +26,6 @@
 - **Fly Map**: Grid based. New Bark (East) -> Cherrygrove -> Violet -> Ecruteak -> Olivine (West).
 
 ### Current Status
-- **Current Status**: In Party Menu. Cursor on Topaz (Slot 3).
-- **Immediate Goal**: Switch to Garnet (Slot 1) to use Dig.
-- **Navigation**: B (Back), Up x2 (To Garnet), A (Select), Dig.
+- **Current Status**: Escaping Lighthouse via Dig.
+- **Immediate Goal**: Wait for transition to Outside (1_14).
+- **Next Step**: Fly to Cianwood City.
