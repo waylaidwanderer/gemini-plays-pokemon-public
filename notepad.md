@@ -11,11 +11,11 @@
   - Stairs at (3, 11) go to 1F (Exit).
   - Confirmed: No other stairs found on 2F.
 - **3F (3_44)**:
-  - Layout: Split into Left and Right sides by a void.
-  - Left Side (Current): Has stairs down to 2F.
-  - Right Side: Has stairs up to 4F.
-  - **Problem**: Need to cross from Left to Right.
-  - **Hypothesis**: Check Windows (e.g., at 4,1) or traverse via outside. Or hidden path past Theo.
+  - Window at (4, 1): Investigated, likely just scenery (no interaction).
+  - Bird Keeper Theo at (3, 9): Blocking path to south.
+  - South Stairs at (3, 11): Go to 1F. Need to verify if this is a special path or just an exit.
+  - **Plan**: Fight Theo, then check stairs at (3, 11).
+  - **Battle Strategy**: Lead is Spinarak (Weak to Flying). Switch to Topaz (Pidgeotto) Turn 1.
 
 ### Objectives
 - **Primary**: Obtain SecretPotion.
