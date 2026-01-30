@@ -26,6 +26,6 @@
 - **Fly Map**: Grid based. New Bark (East) -> Cherrygrove -> Violet -> Ecruteak -> Olivine (West).
 
 ### Current Status
-- **Current Status**: Found HP UP in 'SELL' Menu.
-- **Immediate Goal**: Select HP UP and confirm sale.
-- **Action**: Cursor on Super Potion. Moving UP x4 to HP UP.
+- **Current Status**: Sold HP UP.
+- **Immediate Goal**: Exit Mart and head to Lighthouse.
+- **Navigation**: Exit menu (B button spam), then Walk Down/Left to exit.
