@@ -26,6 +26,6 @@
 - **Fly Map**: Grid based. New Bark (East) -> Cherrygrove -> Violet -> Ecruteak -> Olivine (West).
 
 ### Current Status
-- **Current Status**: Outside Olivine Lighthouse (1_14).
-- **Immediate Goal**: Fly to Cianwood City using Topaz (Slot 3).
-- **Navigation**: Start -> Pokemon -> Topaz -> Fly -> Navigate Map.
+- **Current Status**: Navigating Fly Map (Cursor at New Bark Town).
+- **Immediate Goal**: Move cursor to Cianwood City.
+- **Navigation**: Press UP x7 (New Bark -> Cherrygrove -> Violet -> Azalea -> Goldenrod -> Ecruteak -> Olivine -> Cianwood). Verify text "CIANWOOD CITY".
