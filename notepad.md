@@ -38,3 +38,11 @@
 - **Issue**: `bfs_navigate` fails to account for NPCs (like Sailor Kent at 7,14) as obstacles.
 - **Action**: Must manually bypass NPCs.
 - **Goal**: Reach 5F (Left) -> 5F (Center) -> 6F.
+- **Route Confirmed**: 
+  1. Go to 4F Left Side (via Row 15 -> Left). 
+  2. Take Stairs at `(3, 5)` to 5F. 
+  3. On 5F, go to Top Center `(9, 2)`. 
+  4. **FALL** down the hole at `(9, 4)` (or nearby) to land in 4F Center.
+  5. Take Stairs at 4F `(9, 7)` to 5F Center (Isolated).
+  6. Take Stairs to 6F.
+- **Current Action**: Navigate to 4F `(3, 5)` to restart this loop.
