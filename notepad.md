@@ -26,6 +26,6 @@
 - **Fly Map**: Grid based. New Bark (East) -> Cherrygrove -> Violet -> Ecruteak -> Olivine (West).
 
 ### Current Status
-- **Current Status**: Dialogue with Pharmacist continuing.
-- **Immediate Goal**: Advance text to receive SecretPotion.
-- **Quest State**: Listening to Pharmacist's explanation. Item not yet in inventory.
+- **Current Status**: Listening to Pharmacist's lore.
+- **Immediate Goal**: Mash A to get the SecretPotion.
+- **Quest State**: Pharmacist talking about "mythical sea creature" (Lugia?). Item pending.
