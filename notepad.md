@@ -26,6 +26,6 @@
 - **Fly Map**: Grid based. New Bark (East) -> Cherrygrove -> Violet -> Ecruteak -> Olivine (West).
 
 ### Current Status
-- **Current Status**: Pharmacist asking about "four islands" (Whirl Islands).
+- **Current Status**: Pharmacist asking about "four islands".
 - **Immediate Goal**: Advance dialogue to receive SecretPotion.
 - **Quest State**: "Do you remember the four islands" -> Lore -> SecretPotion.
