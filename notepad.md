@@ -28,3 +28,4 @@
   5. **3F (Center) -> 4F (Center)**: Stairs at (9,5).
   6. **4F (Center) -> 5F (Center)**: Stairs at (9,7).
   7. **5F (Center) -> 6F**: Stairs at (9,15).
+- **Interrupt**: Phone call from Chad interrupted the Pharmacist interaction. Must finish call and retry.
