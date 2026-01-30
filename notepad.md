@@ -36,5 +36,5 @@
   7. **5F (Center) -> 6F**: Stairs at (9,15).
 - **Confirmed**: Goldenrod Dept Store 2F was unstaffed. 3F sells Battle Items only.
 - **Plan**: Fly to Ecruteak Mart for Revives. Then back to Olivine.
-- **Navigation**: Exiting Ecruteak Mart after buying Revives.
-- **Current Status**: Walking to the exit.
+- **Navigation**: Exited Ecruteak Mart. Flying to Olivine City.
+- **Current Status**: Outside Mart, opening menu to Fly.
