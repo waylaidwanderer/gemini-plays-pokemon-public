@@ -38,4 +38,4 @@
 - **Plan**: Fly to Ecruteak Mart for Revives. Then back to Olivine.
 - **Mechanic**: Party Menu cursor remembers last position. Always verify slot # before selecting.
 - **Navigation**: In Violet City. Restarting Fly sequence.
-- **Current Status**: Fly Map Opening. preparing to navigate to Olivine.
+- **Current Status**: Navigating Fly Map. Cursor at New Bark. Moving Left to Olivine.
