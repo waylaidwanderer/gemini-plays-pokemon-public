@@ -36,5 +36,5 @@
   7. **5F (Center) -> 6F**: Stairs at (9,15).
 - **Confirmed**: Goldenrod Dept Store 2F was unstaffed. 3F sells Battle Items only.
 - **Plan**: Fly to Ecruteak Mart for Revives. Then back to Olivine.
-- **Navigation**: Accidentally flew to Violet City. Retrying Fly to Olivine City.
-- **Current Status**: Opening Start Menu in Violet City.
+- **Navigation**: In Violet City. Opening Party Menu to fly to Olivine.
+- **Current Status**: Selecting 'POKEMON' from Start Menu.
