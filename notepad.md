@@ -26,6 +26,6 @@
 - **Fly Map**: Grid based. New Bark (East) -> Cherrygrove -> Violet -> Ecruteak -> Olivine (West).
 
 ### Current Status
-- **Current Status**: Arrived in Olivine City (13, 22).
-- **Immediate Goal**: Head to Mart (19, 17) to sell HP Up, then Lighthouse (29, 27).
-- **Navigation**: Move East/North to Mart.
+- **Current Status**: Inside Olivine Mart.
+- **Immediate Goal**: Sell HP Up to the clerk at (6, 2).
+- **Navigation**: Walk Up to aisle 3, then Right to counter.
