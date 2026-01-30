@@ -31,3 +31,4 @@
   6. **4F (Center) -> 5F (Center)**: Stairs at (9,7).
   7. **5F (Center) -> 6F**: Stairs at (9,15).
 - **Interrupt**: Phone call from Chad interrupted the Pharmacist interaction. Must finish call and retry.
+- Suspicion: The Pharmacist is giving the "Whirl Islands" lore, which might mean the "Jasmine sent me" flag isn't set. If no SecretPotion is received after this dialogue, I must return to the Lighthouse and speak to Jasmine again, ensuring I exhaust her dialogue.
