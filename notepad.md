@@ -36,5 +36,5 @@
   7. **5F (Center) -> 6F**: Stairs at (9,15).
 - **Confirmed**: Goldenrod Dept Store 2F was unstaffed. 3F sells Battle Items only.
 - **Plan**: Fly to Ecruteak Mart for Revives. Then back to Olivine.
-- **Navigation**: Backtracking West to X=35. The North turn to Ecruteak (Route 37) must be there (Sudowoodo Junction). I overshot it.
-- **Current Status**: On Route 36 (East Side, moving West).
+- **Navigation**: Moving West on Row 9 to bypass trees. `TYPE_2889` tiles are bushes/trees (obstacles).
+- **Current Status**: On Route 36 (Near Psychic, moving West).
