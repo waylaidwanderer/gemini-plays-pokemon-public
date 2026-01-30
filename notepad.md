@@ -26,6 +26,6 @@
 - **Fly Map**: Grid based. New Bark (East) -> Cherrygrove -> Violet -> Ecruteak -> Olivine (West).
 
 ### Current Status
-- **Current Status**: Party Menu Open (Selecting Topaz).
-- **Situation**: Prepare to Fly.
-- **Plan**: Reset cursor (UPx5), Downx2 to Topaz, Select, Fly, Left x4 to Olivine.
+- **Current Status**: Topaz selected. Opening Fly Map.
+- **Situation**: Prepare to navigate to Olivine.
+- **Plan**: Press A (Menu) -> Press A (Fly) -> Wait for Map -> Navigate manually.
