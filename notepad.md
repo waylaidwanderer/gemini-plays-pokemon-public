@@ -34,3 +34,5 @@
   5. **3F (Center) -> 4F (Center)**: Stairs at (9,5).
   6. **4F (Center) -> 5F (Center)**: Stairs at (9,7).
   7. **5F (Center) -> 6F**: Stairs at (9,15).
+- **Confirmed**: Goldenrod Dept Store 2F is unstaffed. No clerks at counters.
+- **Plan**: Check 3F clerk. If no Revives, Fly to Ecruteak Mart.
