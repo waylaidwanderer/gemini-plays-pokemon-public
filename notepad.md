@@ -26,6 +26,6 @@
 - **Fly Map**: Grid based. New Bark (East) -> Cherrygrove -> Violet -> Ecruteak -> Olivine (West).
 
 ### Current Status
-- **Current Status**: Pharmacist discussing Whirl Islands lore.
-- **Immediate Goal**: Advance text to get SecretPotion.
-- **Note**: The "mythical sea creature" is Lugia. Need Whirlpool HM later.
+- **Current Status**: Pharmacist explaining Whirl Islands history.
+- **Immediate Goal**: obtain SecretPotion.
+- **Lore**: Whirl Islands (4 islands) hide a creature. Kids play there.
