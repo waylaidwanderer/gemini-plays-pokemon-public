@@ -46,3 +46,5 @@
   5. Take Stairs at 4F `(9, 7)` to 5F Center (Isolated).
   6. Take Stairs to 6F.
 - **Current Action**: Navigate to 4F `(3, 5)` to restart this loop.
+- **Correction**: `TYPE_2889` on Map 3_45 is definitely a WALL/VOID. Do NOT include it in walkable types for `bfs_navigate`.
+- **Navigation**: To cross from Right to Left on 4F, use the bottom corridor (Row 15) to avoid the central void and Sailor Kent.
