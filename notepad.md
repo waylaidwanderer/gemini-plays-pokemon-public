@@ -36,5 +36,5 @@
   7. **5F (Center) -> 6F**: Stairs at (9,15).
 - **Confirmed**: Goldenrod Dept Store 2F was unstaffed. 3F sells Battle Items only.
 - **Plan**: Fly to Ecruteak Mart for Revives. Then back to Olivine.
-- **Navigation**: Flying to Olivine City.
-- **Current Status**: Map opened. Moving cursor Left to Olivine and selecting it.
+- **Navigation**: Accidentally flew to New Bark Town instead of Olivine.
+- **Current Status**: Answering Joey's phone call. Need to re-fly to Olivine after this.
