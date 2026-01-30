@@ -37,4 +37,4 @@
 - **Confirmed**: Goldenrod Dept Store 2F was unstaffed. 3F sells Battle Items only.
 - **Plan**: Fly to Ecruteak Mart for Revives. Then back to Olivine.
 - **Navigation**: Flying from New Bark Town to Olivine City.
-- **Current Status**: Selecting Topaz (Slot 3) to use Fly.
+- **Current Status**: Selected Topaz. Menu displays "SURF" (likely a visual/OCR glitch as Topaz knows Fly). Attempting to Fly.
