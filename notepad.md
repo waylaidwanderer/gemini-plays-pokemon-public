@@ -26,6 +26,6 @@
 - **Fly Map**: Grid based. New Bark (East) -> Cherrygrove -> Violet -> Ecruteak -> Olivine (West).
 
 ### Current Status
-- **Location**: In Fly Menu (Overworld ID 10_5).
-- **Situation**: Cursor stuck at New Bark Town despite inputs. Retrying navigation to Olivine.
-- **Plan**: Press LEFT x4 to reach Olivine. Confirm visual before Flying.
+- **Current Status**: In New Bark Town (Map 24_4).
+- **Situation**: Finishing call with Irwin.
+- **Plan**: Fly to Olivine City. Move cursor LEFT 4 times carefully.
