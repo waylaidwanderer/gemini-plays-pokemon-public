@@ -15,6 +15,8 @@
 - **Mechanic**: The Pokémon menu remembers the last cursor position. Re-entering it does NOT reset to Slot 1.
 - **Mechanic**: Fly map uses List Selection (Up/Down) for towns, not spatial movement.
 - **Quest State**: Pharmacist in Cianwood only gave lore. Must confirm "Jasmine sent me" flag by speaking to her again.
+- **Interruption**: Stopped by "Hey, let's battle again!" dialogue (Phone call or Sailor Huey).
+- **Critical Issue**: Typhlosion missing from Party and Box 1. MUST check other boxes.
 
 ### Lighthouse Navigation (For Ascent)
 - **Map IDs**: 1F = 3_42, 2F = 3_43.
