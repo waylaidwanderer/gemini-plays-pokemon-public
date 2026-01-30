@@ -25,3 +25,4 @@
 ### Objectives
 - **Primary**: Obtain SecretPotion.
 - **Secondary**: Heal Amphy.
+- **Correction**: On Map 3_45 (Lighthouse 4F), the floor tiles are `TYPE_3fe2`. Previous navigation failed because I treated them as walls. `(3, 5)` is connected to the rest of the floor.
