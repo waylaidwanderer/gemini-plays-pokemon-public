@@ -26,6 +26,6 @@
 - **Fly Map**: Grid based. New Bark (East) -> Cherrygrove -> Violet -> Ecruteak -> Olivine (West).
 
 ### Current Status
-- **Current Status**: Listening to Pharmacist's Whirl Islands lore.
-- **Immediate Goal**: Advance text to receive SecretPotion.
-- **Lore**: Whirl Islands (4 islands) hide a creature. Kids play there. Item pending.
+- **Current Status**: Pharmacist acknowledged Olivine origin.
+- **Immediate Goal**: Mash A to receive SecretPotion.
+- **Quest State**: "You came from OLIVINE?" -> Expecting handover.
