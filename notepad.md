@@ -26,6 +26,6 @@
 - **Fly Map**: Grid based. New Bark (East) -> Cherrygrove -> Violet -> Ecruteak -> Olivine (West).
 
 ### Current Status
-- **Current Status**: Stuck on Dialogue "the four islands along the way?".
-- **Observation**: This appears to be a Yes/No question or a text wait.
-- **Action**: Mashing 'A' to answer YES/Advance. Ensuring conversation completes to get SecretPotion.
+- **Current Status**: Pharmacist Dialogue "You came from OLIVINE?".
+- **Immediate Goal**: Confirm "Yes" to receive SecretPotion.
+- **Action**: Pressing 'A' to confirm selection. Previous turn screen showed the question. Expecting item next.
