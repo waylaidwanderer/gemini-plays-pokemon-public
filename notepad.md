@@ -4,8 +4,8 @@
 ### Current Status
 - **Location**: Cianwood Pharmacy (Map 22_9).
 - **Goal**: Obtain SecretPotion from Pharmacist at (2, 4).
-- **Issue**: Stuck in dialogue loop. Pharmacist discusses Whirl Islands.
-- **Plan**: Finish current dialogue. If no Potion, Fly to Olivine to verify flag with Jasmine.
+- **Correction**: "You came from OLIVINE?" is likely rhetorical/linear text, not a menu. I must listen to the full monologue.
+- **Plan**: Advance text to completion. If no Potion, Fly to Olivine.
 - **NPCs**: Pharmacist (Red Hair) at (2, 4). Customer (Green Hair) at (7, 5). Lady at (0, 2).
 
 ### Recent Reflection
