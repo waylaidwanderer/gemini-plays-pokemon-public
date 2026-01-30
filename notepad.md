@@ -37,4 +37,4 @@
 - **Confirmed**: Goldenrod Dept Store 2F was unstaffed. 3F sells Battle Items only.
 - **Plan**: Fly to Ecruteak Mart for Revives. Then back to Olivine.
 - **Navigation**: Flying to Ecruteak City to buy Revives.
-- **Current Status**: Selected Pidgeotto (Topaz). Menu shows "SURF" for some reason, but attempting to Fly.
+- **Current Status**: Correcting menu mistake. Moving cursor from Headache (Slot 5) to Topaz (Slot 3).
