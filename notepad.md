@@ -44,5 +44,5 @@
 - **Next Step**: Falling from 4F (16,9) to 3F. This should land me in the Right Section of 3F.
 - **Progress**: Fell to 3F (16,9). This area connects to the stairs UP to 4F at (13,3) and the cross-over path at Row 14.
 - **Progress**: Checked (12,1), it's a mirror (no item).
-- **Status**: On 1F (Lobby).
-- **Next**: Exit Lighthouse, Fly to Cianwood, Get Potion.
+- **Status**: In Olivine City. Flying to Cianwood.
+- **Quest**: Jasmine asked for medicine. Pharmacy should give it now.
