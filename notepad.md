@@ -8,13 +8,14 @@
 
 ### Objectives
 - **Primary**: Obtain SecretPotion from Cianwood Pharmacy.
-- **Secondary**: Heal party at Ecruteak or Goldenrod Pokemon Center (Olivine PC suspect).
+- **Secondary**: Shop at Goldenrod Department Store (Buy Revives, Full Heals, Potions).
 - **Tertiary**: Ascend Lighthouse to speak to Jasmine.
 
 ### Important Notes
 - **Mechanic**: The Pokémon menu remembers the last cursor position.
 - **Critical Success**: Garnet (Typhlosion) retrieved!
-- **Immediate Goal**: Revive Topaz -> Fly to Ecruteak/Goldenrod -> Heal -> Return.
+- **Status**: Party Healed at Goldenrod Center.
+- **Immediate Goal**: Shop at Dept Store -> Fly to Olivine -> Lighthouse.
 - **Quest State**: Pharmacist in Cianwood only gave lore.
 - **Hypothesis**: Must speak to Jasmine again to confirm the quest flag.
 
