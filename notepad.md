@@ -26,6 +26,6 @@
 - **Fly Map**: Grid based. New Bark (East) -> Cherrygrove -> Violet -> Ecruteak -> Olivine (West).
 
 ### Current Status
-- **Current Status**: Topaz selected. Opening Fly Map.
-- **Situation**: Prepare to navigate to Olivine.
-- **Plan**: Press A (Menu) -> Press A (Fly) -> Wait for Map -> Navigate manually.
+- **Current Status**: In Fly Map. Cursor moving to Olivine.
+- **Situation**: Navigating cursor West.
+- **Plan**: Press LEFT x4. Verify 'OLIVINE CITY' text before selecting.
