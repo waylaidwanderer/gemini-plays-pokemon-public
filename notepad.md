@@ -26,6 +26,6 @@
 - **Fly Map**: Grid based. New Bark (East) -> Cherrygrove -> Violet -> Ecruteak -> Olivine (West).
 
 ### Current Status
-- **Current Status**: In Fly Map. Cursor at New Bark Town.
-- **Situation**: Previous 'Left' inputs failed to move cursor. Testing connectivity.
-- **Plan**: Press LEFT x2. Expect 'VIOLET CITY'. If fails, will reset menu.
+- **Current Status**: Resetting Fly Map to ensure input control.
+- **Situation**: Cursor stuck at New Bark. Previous inputs failed.
+- **Plan**: Press B (Close Map), A (Open Map), Left x4 (to Olivine).
