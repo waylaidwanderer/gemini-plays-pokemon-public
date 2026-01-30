@@ -9,9 +9,9 @@
 
 ### Recent Reflection
 - **Progress**: Arrived in Cianwood, defeated Chuck, got Storm Badge and Fly.
-- **Current Task**: Stuck in dialogue with Pharmacist. Need to answer "YES" to get SecretPotion.
+- **Current Task**: Pharmacist loop confirmed. Flying to Olivine City to verify quest state with Jasmine.
 - **Hygiene**: Map markers updated. Notepad needs to stay focused on the immediate task.
-- **Strategy**: Use single button presses to navigate the dialogue carefully.
+- **Strategy**: Verify flags, then return to Pharmacist if needed.
 
 - **Key Items**: No SecretPotion found in inventory.
 
