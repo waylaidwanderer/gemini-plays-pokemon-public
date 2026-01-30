@@ -46,12 +46,12 @@
 - **Correction**: The Center Box on 4F (x=8-9, y=4-7) is FULLY ENCLOSED by walls and holes on this floor. It cannot be entered from 4F.
 - **Hypothesis**: The entrance is from **3F**, via a ladder/stairs that leads up to `(9, 5)` (marked "To 3F Sailor Room").
 - **Plan**: Descend to 3F via stairs at `(13, 3)`, then find the path to the Center Stairs on 3F.
-### Status Update (Turn 18551)
-- **Success**: Fell through the hole at 4F (9, 3) and landed in the **3F Center Room** at (9, 3).
-- **Confirmation**: This isolated room connects to the stairs at (9, 5) leading to **4F Center**.
-- **Current Task**: Defeat Sailor Terrell at (9, 2) who is blocking the way (or just angry I dropped in).
+### Status Update (Turn 18563)
+- **Location**: 3F Center Room (3_44).
+- **Situation**: Standing at (9, 3). Sailor is at (9, 2). Stairs are at (9, 5).
+- **Realization**: The Sailor is NORTH of me. The exit is SOUTH. He is not blocking the way!
+- **Plan**: Finish the conversation (which seems to be a hint about Jasmine's Steel type) and walk SOUTH to the stairs.
 - **Next Steps**:
-  1. Win Battle.
-  2. Take Stairs at (9, 5) UP to 4F Center.
-  3. Take Stairs at 4F (9, 7) UP to 5F Center.
-  4. Take Stairs at 5F UP to 6F (Top).
+  1. Take Stairs at (9, 5) UP to 4F Center.
+  2. Take Stairs at 4F (9, 7) UP to 5F Center.
+  3. Take Stairs at 5F UP to 6F (Top).
