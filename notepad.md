@@ -12,14 +12,8 @@
 
 ### Quest Log
 - **SecretPotion**: Pharmacist gives generic "Whirl Islands" text. Implies Jasmine flag was not fully set.
-- **Lighthouse Navigation**: 
-  - **Current Floor**: 6F (Map 3_47).
-  - **Status**: Reached the top floor!
-  - **6F (Map 3_47)**:
-    - Stairs Down to 5F: (9, 15).
-    - Goal: Talk to Jasmine at (8, 8) (DONE).
-    - Obstacle: Amphy at (9, 8) (Sick).
-  - **Next Step**: Finish dialogue, use Dig to exit Lighthouse, then Fly to Cianwood.
+- **Lighthouse Progress**: Spoke to Jasmine on 6F. Flag set for SecretPotion.
+- **Navigation**: Exiting Lighthouse via Dig.
 
 ### Important Locations
 - **Cianwood Pharmacy**: (15, 37) in Cianwood.
