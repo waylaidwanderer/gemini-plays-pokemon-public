@@ -26,6 +26,6 @@
 - **Fly Map**: Grid based. New Bark (East) -> Cherrygrove -> Violet -> Ecruteak -> Olivine (West).
 
 ### Current Status
-- **Current Status**: Speaking to Jasmine (Lighthouse 6F).
-- **Immediate Goal**: Finish dialogue to activate SecretPotion quest.
-- **Navigation**: Advance text.
+- **Current Status**: Finished speaking with Jasmine. Quest active.
+- **Immediate Goal**: Exit Lighthouse (Use Dig).
+- **Next Step**: Fly to Cianwood City.
