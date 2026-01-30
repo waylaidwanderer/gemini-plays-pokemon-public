@@ -18,7 +18,7 @@
 - **Main Quest**: Pharmacist in Cianwood gave lore but no potion.
 - **Hypothesis**: Must speak to Jasmine again to confirm the quest flag.
 - **Lighthouse**: Need to ascend to speak to Jasmine.
-- **Current Status**: In Goldenrod City (Dept Store 2F).
+- **Current Status**: In Goldenrod City (Overworld).
 
 ### Game Mechanics
 - **Menu Memory**: The Pokémon menu remembers the last cursor position. ALWAYS press UP multiple times to reset to Slot 1 before navigating.
