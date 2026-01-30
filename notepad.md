@@ -26,6 +26,6 @@
 - **Fly Map**: Grid based. New Bark (East) -> Cherrygrove -> Violet -> Ecruteak -> Olivine (West).
 
 ### Current Status
-- **Current Status**: Sold HP UP successfully (Money: 6340).
-- **Immediate Goal**: Exit Mart and head to Lighthouse.
-- **Navigation**: Exit menu -> Walk Down to exit -> Walk East to Lighthouse.
+- **Current Status**: Exiting Olivine Mart.
+- **Immediate Goal**: Walk East/South to the Lighthouse.
+- **Navigation**: Down (Exit) -> East to Lighthouse.
