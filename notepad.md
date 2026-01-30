@@ -3,9 +3,9 @@
 
 ### Current Status
 - **Location**: Cianwood Pharmacy (Map 22_9).
-- **Goal**: Find the Pharmacist.
-- **Issue**: No Pharmacist visible behind the counter. A Lady is at (0, 2) blocking the spot. Another NPC is at (6, 4).
-- **Plan**: Talk to the other NPC, then re-enter the map to reset positions.
+- **Goal**: Talk to the Pharmacist.
+- **Insight**: The Lady at (0, 2) is blocking the Pharmacist at (0, 1). I moved to (1, 2) to bypass her.
+- **Plan**: From (1, 2), face UP to interact with the Counter (1, 1). This should trigger the Pharmacist script.
 
 ### Objectives
 - **Primary**: Obtain SecretPotion from Cianwood Pharmacy.
