@@ -3,14 +3,22 @@
 
 ### Objectives
 - **Primary**: Obtain SecretPotion from Cianwood Pharmacy.
-- **Secondary**: Shop at Goldenrod Department Store (Buy Revives, Full Heals, Potions).
+- **Secondary**: Shop at Goldenrod Dept Store 2F (Medicine).
 - **Tertiary**: Ascend Lighthouse to speak to Jasmine.
+
+### Important Locations
+- **Goldenrod Dept Store**:
+  - **2F**: Medicine (Potions, Revives, Full Heals).
+  - **3F**: Battle Items (X Speed, etc).
+  - **4F**: Vitamins (Protein, Iron, etc).
+  - **5F**: TMs.
+  - **6F**: Rooftop (Vending Machines).
 
 ### Quest Log
 - **Main Quest**: Pharmacist in Cianwood gave lore but no potion.
 - **Hypothesis**: Must speak to Jasmine again to confirm the quest flag.
 - **Lighthouse**: Need to ascend to speak to Jasmine.
-- **Current Status**: In Goldenrod City.
+- **Current Status**: In Goldenrod City (Dept Store 2F).
 
 ### Game Mechanics
 - **Menu Memory**: The Pokémon menu remembers the last cursor position.
@@ -26,4 +34,3 @@
   5. **3F (Center) -> 4F (Center)**: Stairs at (9,5).
   6. **4F (Center) -> 5F (Center)**: Stairs at (9,7).
   7. **5F (Center) -> 6F**: Stairs at (9,15).
-- **Observation**: Goldenrod Dept Store 2F appears unstaffed (no clerks visible). NPC at (8,2) is a customer.
