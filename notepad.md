@@ -35,9 +35,9 @@
 - **Immediate Plan**: Heal -> Reorder Party (Garnet lead) -> Mart -> Lighthouse (Talk to Jasmine).
 - **Turn 19204**: Difficulty healing. Previous attempts with `advance_dialogue` failed to update HP. Attempting again with deliberate focus.
 - **Plan**: Heal -> Party Menu (Garnet to Slot 1) -> Mart -> Lighthouse.
-- **Troubleshooting**: Healing interaction at (4,3) failing repeatedly.
 - **Action Plan**:
-  1. Toggle Start Menu (Start, B) to confirm input responsiveness and reset UI.
-  2. Press 'A' **ONCE** to initiate interaction.
-  3. **WAIT** for visual confirmation of text box in next turn before continuing.
-- **Next Steps**: Confirm Heal -> Switch Garnet to Slot 1 -> Mart -> Lighthouse.
+  1. **Completed**: Recovered Garnet from Box 1.
+  2. **Current**: Swapped Garnet to Slot 1.
+  3. **Next**: Walk to Nurse Joy (4,3) -> Heal (Polite A presses) -> Mart -> Lighthouse.
+- **Quest Status**: Pharmacist gave lore, no potion.
+- **Hypothesis**: Must speak to Jasmine again to confirm the quest flag or trigger a specific dialogue state.
