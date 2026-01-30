@@ -36,5 +36,5 @@
   7. **5F (Center) -> 6F**: Stairs at (9,15).
 - **Confirmed**: Goldenrod Dept Store 2F was unstaffed. 3F sells Battle Items only.
 - **Plan**: Fly to Ecruteak Mart for Revives. Then back to Olivine.
-- **Navigation**: Testing if West Lane is passable. Moving to Row 6 to check the barrier at Row 5.
-- **Current Status**: Moving North past the Twins.
+- **Navigation**: Heading South to Row 16 to cross over to the East Lane, then North to Ecruteak.
+- **Current Status**: Walking South. Expecting to potentially battle Twins.
