@@ -36,6 +36,5 @@
   7. **5F (Center) -> 6F**: Stairs at (9,15).
 - **Confirmed**: Goldenrod Dept Store 2F was unstaffed. 3F sells Battle Items only.
 - **Plan**: Fly to Ecruteak Mart for Revives. Then back to Olivine.
-- **Navigation**: Testing the "Ledge" theory at Row 5 on Route 37. Moving to West Lane (X=8) to physically attempt to walk North.
-- **Hypothesis**: The ledges might be passable, or I missed a gap.
-- **Current Status**: Moving to West Lane (X=8).
+- **Navigation**: Flying to Ecruteak City to buy Revives.
+- **Current Status**: Opening Menu to Fly.
