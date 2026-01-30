@@ -26,6 +26,6 @@
 - **Fly Map**: Grid based. New Bark (East) -> Cherrygrove -> Violet -> Ecruteak -> Olivine (West).
 
 ### Current Status
-- **Current Status**: Scrolling 'SELL' Menu.
-- **Immediate Goal**: Find HP UP.
-- **Action**: Scrolling down to reveal more items. Screen list is NOT alphabetical.
+- **Current Status**: Searching 'SELL' Menu for HP UP.
+- **Immediate Goal**: Scroll down until HP UP appears.
+- **Observation**: Bag is disorganized. Scrolling deeper.
