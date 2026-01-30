@@ -28,3 +28,12 @@
 ### Objectives
 - **Primary**: Obtain SecretPotion.
 - **Secondary**: Heal Amphy.
+### Investigation: The Central Column Trap
+- **Problem**: I am currently on 6F. To leave, I must go down. The stairs at (9,15) lead to 5F Center. 5F Center leads to 4F Center. 4F Center leads to 3F Center.
+- **Concern**: I previously identified 3F Center, 4F Center, and 5F Center as "dead ends" or "traps" with no connection to the main floors.
+- **Hypothesis 1**: There is an exit in 3F Center I missed (maybe a walk-through wall or hidden door).
+- **Hypothesis 2**: There is a hole or exit on 6F I missed.
+- **Hypothesis 3**: There is a ledge or bridge on 4F or 5F Center I missed.
+- **Plan**:
+    1. Check 6F for exits using `find_reachable_exits`.
+    2. If none, descend to 5F, 4F, 3F and scan specifically for connections to the outer areas.
