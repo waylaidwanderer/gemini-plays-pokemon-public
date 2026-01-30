@@ -26,6 +26,6 @@
 - **Fly Map**: Grid based. New Bark (East) -> Cherrygrove -> Violet -> Ecruteak -> Olivine (West).
 
 ### Current Status
-- **Current Status**: Listening to Pharmacist about the Whirl Islands.
-- **Immediate Goal**: Advance text to finally get the SecretPotion.
-- **Lore**: A mythical sea creature is hiding in the Whirl Islands.
+- **Current Status**: Listening to Pharmacist's Whirl Islands lore.
+- **Immediate Goal**: Advance text to receive SecretPotion.
+- **Lore**: Whirl Islands (4 islands) hide a creature. Kids play there. Item pending.
