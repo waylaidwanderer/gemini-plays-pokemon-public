@@ -3,9 +3,9 @@
 
 ### Current Status
 - **Location**: Cianwood Pharmacy (Map 22_9).
-- **Goal**: Find the Pharmacist.
-- **Insight**: The counter is empty (just books). The Lady at (0, 2) seems to be a customer. There is another NPC (Green Hair) at the bottom right.
-- **Plan**: Talk to the Green Haired NPC. She might be the Pharmacist or know where he is.
+- **Goal**: Talk to the Pharmacist.
+- **Correction**: The Pharmacist is actually at (2, 2), right in front of the table. I am currently talking to him from (2, 3).
+- **Dialogue**: He asked if I remember the four islands.
 
 ### Objectives
 - **Primary**: Obtain SecretPotion from Cianwood Pharmacy.
