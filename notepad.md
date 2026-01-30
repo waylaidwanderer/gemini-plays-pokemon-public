@@ -26,6 +26,6 @@
 - **Fly Map**: Grid based. New Bark (East) -> Cherrygrove -> Violet -> Ecruteak -> Olivine (West).
 
 ### Current Status
-- **Current Status**: En route to Lighthouse (Approaching Column 29).
-- **Immediate Goal**: Reach (29, 27).
-- **Navigation**: Move East to align with Lighthouse, then South.
+- **Current Status**: En route to Lighthouse.
+- **Immediate Goal**: Navigate South around the water obstacle, then East to the Lighthouse.
+- **Navigation**: Down -> Right -> South to (29, 27).
