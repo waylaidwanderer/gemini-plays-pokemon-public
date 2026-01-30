@@ -26,6 +26,6 @@
 - **Fly Map**: Grid based. New Bark (East) -> Cherrygrove -> Violet -> Ecruteak -> Olivine (West).
 
 ### Current Status
-- **Current Status**: Exiting Cianwood Pharmacy. Quest flag missing.
-- **Immediate Goal**: Fly to Olivine City to re-speak to Jasmine.
-- **Reason**: Pharmacist won't give potion. Likely canceled Jasmine's request too early.
+- **Current Status**: In Party Menu. Correcting selection to Topaz.
+- **Immediate Goal**: Fly to Olivine City.
+- **Reason**: Previous attempt selected Headache (Surf) due to cursor memory. Resetting to Topaz.
