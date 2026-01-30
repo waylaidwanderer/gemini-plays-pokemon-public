@@ -41,3 +41,6 @@
 - **Tactic**: Spinarak acts as the sacrifice to allow the item use.
 - **Status Update**: Headache took ~7 damage on switch-in (10/34 HP). Poliwhirl is faster.
 - **Action**: Using SURF. Hope it KO's or Headache survives one more hit (approx 3 HP margin).
+- **Combat Crisis**: Headache fainted to a Crit.
+- **Action**: Sending Spinarak (7/37 HP) back in.
+- **Hope**: Poliwhirl uses Hypnosis or misses. If Spinarak survives, I will use a Revive on Topaz or Basil (if he faints).
