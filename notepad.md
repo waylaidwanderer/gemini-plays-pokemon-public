@@ -2,7 +2,7 @@
 - Started: Friday, January 16, 2026
 
 ### Current Status
-- **Location**: Olivine City (Map 1_14).
+- **Location**: Ecruteak City (Map 4_9) - Accidental Detour.
 - **Goal**: Fly to Cianwood City to obtain SecretPotion.
 
 ### Objectives

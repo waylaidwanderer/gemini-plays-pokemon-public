@@ -341,5 +341,28 @@
         "action_counter": 13565
       }
     ]
+  },
+  "activate_fly_map": {
+    "description": "Automates the UI interaction to open the Fly map. Steps: Open Start Menu -> Pokemon -> Select Party Member -> Select 'Fly' (Assumes Fly is the first option).",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "party_slot": {
+          "type": "integer",
+          "description": "The party slot number (1-6) of the flyer."
+        }
+      },
+      "required": [
+        "party_slot"
+      ]
+    },
+    "python_script": "import json\n\nparty_slot = input_data.get('party_slot', 3)\nbuttons = []\n\n# Open Start Menu\nbuttons.append(\"Start\")\nbuttons.append(\"sleep 800\")\n\n# Navigate to POKEMON (Assumes cursor starts at POKEDEX or similar, POKEMON is usually 2nd)\nbuttons.append(\"Down\")\nbuttons.append(\"sleep 200\")\nbuttons.append(\"A\")\nbuttons.append(\"sleep 1500\") # Wait for party screen\n\n# Navigate to Slot\n# Cursor starts at Slot 1\nfor _ in range(party_slot - 1):\n    buttons.append(\"Down\")\n    buttons.append(\"sleep 200\")\n\n# Select Pokemon\nbuttons.append(\"A\")\nbuttons.append(\"sleep 800\") # Wait for menu (Cut/Fly/etc)\n\n# Select Fly (Assumed 1st option)\nbuttons.append(\"A\")\nbuttons.append(\"sleep 2000\") # Wait for map\n\nprint(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-30T07:43:18.869Z",
+        "action_counter": 18671
+      }
+    ]
   }
 }
