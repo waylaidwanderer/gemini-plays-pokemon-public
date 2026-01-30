@@ -2,8 +2,8 @@
 - Started: Friday, January 16, 2026
 
 ### Current Status
-- **Location**: Cianwood City (Map 22_3).
-- **Goal**: Enter Pharmacy to get SecretPotion.
+- **Location**: Cianwood Pharmacy (Map 22_9).
+- **Goal**: Talk to Pharmacist to get SecretPotion.
 
 ### Objectives
 - **Primary**: Obtain SecretPotion from Cianwood Pharmacy.
