@@ -7,12 +7,12 @@
 
 ### Exploration Notes
 - **2F (3_43)**:
-  - **TRAP WARNING**: Area at (2-3, 10-11) is isolated. Stairs at (3, 11) lead to/from 1F exit path only. Do not use to climb.
-  - **Goal**: Reach Right Side of 2F (Main Area).
-  - **Plan**: Go to 1F, find Main Stairs (likely center/north), return to 2F Main, then search Right Side for stairs to 3F.
-  - **Note**: Previous search of Right Side 2F was incomplete. Check top-right corner and near Gentleman Alfred carefully.
+  - **Correction**: Stairs at (3, 11) connect to the Main Area via the bottom corridor. NOT A TRAP.
+  - **Goal**: Take stairs at (3, 11) UP to 2F.
+  - **Plan**: Walk East along the bottom corridor to reach the Right Side.
+  - **Search**: Thoroughly check Right Side (Cols 16-17) for stairs to 3F.
 - **3F (3_44)**:
-  - Left Side is dead end. Right Side reachable from 2F Right Side?
+  - Left Side is dead end. Right Side reachable from 2F Right Side.
 
 ### Objectives
 - **Primary**: Obtain SecretPotion.
