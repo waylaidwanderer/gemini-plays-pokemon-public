@@ -1,10 +1,6 @@
 # Pokémon Crystal Playthrough
 - Started: Friday, January 16, 2026
 
-### Objectives
-- **Primary**: Obtain SecretPotion from Cianwood Pharmacy.
-- **Secondary**: Return to Olivine and Heal Amphy.
-
 ### Lighthouse Navigation (For Return)
 - **Route to Top**:
   1. **1F -> 2F**: Stairs at (3,11).
