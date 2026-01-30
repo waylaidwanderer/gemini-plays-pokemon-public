@@ -26,7 +26,7 @@
 - **Fly Map**: Grid based. New Bark (East) -> Cherrygrove -> Violet -> Ecruteak -> Olivine (West).
 
 ### Current Status
-- **Current Status**: Outside Olivine Lighthouse (Approaching Entrance).
-- **Immediate Goal**: Enter Lighthouse (29, 27).
-- **Plan**: Climb to top, talk to Jasmine, ENSURE DIALOGUE COMPLETES.
-- **Reason**: Pharmacist didn't give potion, implying quest flag wasn't set.
+- **Current Status**: Inside Olivine Lighthouse 1F. Retrying ascent.
+- **Immediate Goal**: Reach Stairs to 2F at (3, 11).
+- **Reason**: Need to confirm Jasmine's quest flag.
+- **Route**: 1F -> 2F -> 3F -> 4F (Right) -> 3F (Center) -> 4F (Center) -> 5F -> 6F.
