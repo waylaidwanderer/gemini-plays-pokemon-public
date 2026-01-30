@@ -36,5 +36,5 @@
   7. **5F (Center) -> 6F**: Stairs at (9,15).
 - **Confirmed**: Goldenrod Dept Store 2F was unstaffed. 3F sells Battle Items only.
 - **Plan**: Fly to Ecruteak Mart for Revives. Then back to Olivine.
-- **Navigation**: The West lane is blocked by ledges at Row 5 (Southbound only). Backtracking to switch to the East lane at the bottom of Route 37.
-- **Current Status**: On Route 37 (Backtracking South).
+- **Navigation**: Returning to West Lane (X=8) to verify if the "Ledges" at Row 5 are actually passable or a false assumption. East lane appears blocked by trees/ledges too.
+- **Current Status**: On Route 37 (Moving West).
