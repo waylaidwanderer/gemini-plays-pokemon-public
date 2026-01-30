@@ -26,6 +26,6 @@
 - **Fly Map**: Grid based. New Bark (East) -> Cherrygrove -> Violet -> Ecruteak -> Olivine (West).
 
 ### Current Status
-- **Current Status**: Escaping Lighthouse via Dig.
-- **Immediate Goal**: Wait for transition to Outside (1_14).
+- **Current Status**: Digging out of Lighthouse.
+- **Immediate Goal**: Wait for warp to Olivine City.
 - **Next Step**: Fly to Cianwood City.
