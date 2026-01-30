@@ -26,6 +26,6 @@
 - **Fly Map**: Grid based. New Bark (East) -> Cherrygrove -> Violet -> Ecruteak -> Olivine (West).
 
 ### Current Status
-- **Current Status**: In Fly Map. Cursor moving to Olivine.
-- **Situation**: Navigating cursor West.
-- **Plan**: Press LEFT x4. Verify 'OLIVINE CITY' text before selecting.
+- **Current Status**: In Fly Map. Cursor at New Bark Town.
+- **Situation**: Previous 'Left' inputs failed to move cursor. Testing connectivity.
+- **Plan**: Press LEFT x2. Expect 'VIOLET CITY'. If fails, will reset menu.
