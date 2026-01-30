@@ -26,6 +26,6 @@
 - **Fly Map**: Grid based. New Bark (East) -> Cherrygrove -> Violet -> Ecruteak -> Olivine (West).
 
 ### Current Status
-- **Current Status**: Pharmacist asking about "four islands along the way".
-- **Immediate Goal**: Advance dialogue.
-- **Quest State**: Answering question or advancing text to get SecretPotion.
+- **Current Status**: Dialogue Loop Detected.
+- **Observation**: "You came from OLIVINE?" appears, then conversation seems to reset to Lore Dump. Item NOT in bag.
+- **Action**: Pressing 'A' carefully to confirm YES if prompted. Monitoring for item receipt.
