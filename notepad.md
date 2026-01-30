@@ -35,8 +35,7 @@
 - **Immediate Plan**: Heal -> Reorder Party (Garnet lead) -> Mart -> Lighthouse (Talk to Jasmine).
 - **Turn 19204**: Difficulty healing. Previous attempts with `advance_dialogue` failed to update HP. Attempting again with deliberate focus.
 - **Plan**: Heal -> Party Menu (Garnet to Slot 1) -> Mart -> Lighthouse.
-- **Strategy Change**: Abandoned Pokemon Center healing due to persistent soft-lock/input issues.
-- **New Plan**: Buy Potions/Super Potions at Mart -> Heal manually -> Return to Lighthouse.
-- **Current Party**: Garnet (Full HP) leading. Others are critical/fainted.
+- **Bug/Mechanic**: Olivine Pokemon Center Nurse Joy interaction is soft-locked or extremely finicky (Turn 19164-19230). Interaction fails to trigger or complete. Avoid unless necessary.
+- **Door Loop**: BFS navigators may route through door warps unintentionally. Manually step away from doors before engaging auto-pilot.
 - **Quest Status**: Pharmacist gave lore, no potion.
 - **Hypothesis**: Must speak to Jasmine again to confirm the quest flag or trigger a specific dialogue state.
