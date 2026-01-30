@@ -26,6 +26,6 @@
 - **Fly Map**: Grid based. New Bark (East) -> Cherrygrove -> Violet -> Ecruteak -> Olivine (West).
 
 ### Current Status
-- **Current Status**: Dialogue Loop Detected.
-- **Observation**: "You came from OLIVINE?" appears, then conversation seems to reset to Lore Dump. Item NOT in bag.
-- **Action**: Pressing 'A' carefully to confirm YES if prompted. Monitoring for item receipt.
+- **Current Status**: Stuck on Dialogue "the four islands along the way?".
+- **Observation**: This appears to be a Yes/No question or a text wait.
+- **Action**: Mashing 'A' to answer YES/Advance. Ensuring conversation completes to get SecretPotion.
