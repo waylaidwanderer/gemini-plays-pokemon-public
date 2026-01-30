@@ -32,3 +32,4 @@
 - **Navigation**: Trying 'Left' x4 from New Bark Town to reach Olivine City.
 - **Mechanic Note**: The Pokémon menu remembers the last cursor position. Re-entering it does NOT reset to Slot 1. Always verify cursor start position.
 - **Correction**: Misinterpreted menu state in Turn 18999, causing accidental SURF attempt. Corrected by backing out and manually selecting Topaz.
+- **Navigation Update**: Pressing 'Left' from New Bark Town had no effect. It seems the map does not wrap West from the start. Trying 'Right' to move East towards Cherrygrove.
