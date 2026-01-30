@@ -37,4 +37,4 @@
 - **Confirmed**: Goldenrod Dept Store 2F was unstaffed. 3F sells Battle Items only.
 - **Plan**: Fly to Ecruteak Mart for Revives. Then back to Olivine.
 - **Navigation**: Inside Ecruteak Mart. Buying 8 Revives.
-- **Current Status**: Scrolling menu to find Revives.
+- **Current Status**: Scrolling menu past Parlyz Heal to find Revives.
