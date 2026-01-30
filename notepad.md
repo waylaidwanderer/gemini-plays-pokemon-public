@@ -26,6 +26,6 @@
 - **Fly Map**: Grid based. New Bark (East) -> Cherrygrove -> Violet -> Ecruteak -> Olivine (West).
 
 ### Current Status
-- **Current Status**: Finished speaking with Jasmine. Quest active.
-- **Immediate Goal**: Exit Lighthouse (Use Dig).
-- **Next Step**: Fly to Cianwood City.
+- **Current Status**: Jasmine's dialogue is looping/active.
+- **Immediate Goal**: Close text box safely using 'B' to avoid re-triggering.
+- **Next Step**: Use Dig to exit.
