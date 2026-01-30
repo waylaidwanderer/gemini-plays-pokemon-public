@@ -38,4 +38,4 @@
 - **Plan**: Fly to Ecruteak Mart for Revives. Then back to Olivine.
 - **Mechanic**: Party Menu cursor remembers last position. Always verify slot # before selecting.
 - **Navigation**: In Violet City. Restarting Fly sequence.
-- **Current Status**: In Party Menu. Opening Topaz's menu to Fly.
+- **Current Status**: Fly Map Opening. preparing to navigate to Olivine.
