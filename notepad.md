@@ -3,9 +3,9 @@
 
 ### Current Status
 - **Location**: Cianwood Pharmacy (Map 22_9).
-- **Goal**: Talk to the Pharmacist.
-- **Correction**: The Pharmacist is actually at (2, 2), right in front of the table. I am currently talking to him from (2, 3).
-- **Dialogue**: He asked if I remember the four islands.
+- **Goal**: Talk to the Green-Haired NPC.
+- **Issue**: The Pharmacist at (2, 2) only discusses the Whirl Islands. Checking if the other NPC has the potion or triggers the event.
+- **Key Items**: No SecretPotion found in inventory.
 
 ### Objectives
 - **Primary**: Obtain SecretPotion from Cianwood Pharmacy.
