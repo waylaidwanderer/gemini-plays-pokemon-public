@@ -3,7 +3,8 @@
 
 ### Current Status
 - **Location**: Cianwood Pharmacy (Map 22_9).
-- **Goal**: Talk to Pharmacist to get SecretPotion.
+- **Goal**: Talk to the Real Pharmacist at (0, 1).
+- **Note**: The Pharmacist is located behind the counter at (0, 1). I need to stand at (0, 2) and face UP to talk to him.
 
 ### Objectives
 - **Primary**: Obtain SecretPotion from Cianwood Pharmacy.
