@@ -3,9 +3,9 @@
 
 ### Current Status
 - **Location**: Cianwood Pharmacy (Map 22_9).
-- **Goal**: Talk to the Pharmacist.
-- **Insight**: The Lady at (0, 2) is blocking the Pharmacist at (0, 1). I moved to (1, 2) to bypass her.
-- **Plan**: From (1, 2), face UP to interact with the Counter (1, 1). This should trigger the Pharmacist script.
+- **Goal**: Find the Pharmacist.
+- **Insight**: The counter is empty (just books). The Lady at (0, 2) seems to be a customer. There is another NPC (Green Hair) at the bottom right.
+- **Plan**: Talk to the Green Haired NPC. She might be the Pharmacist or know where he is.
 
 ### Objectives
 - **Primary**: Obtain SecretPotion from Cianwood Pharmacy.
