@@ -26,6 +26,6 @@
 - **Fly Map**: Grid based. New Bark (East) -> Cherrygrove -> Violet -> Ecruteak -> Olivine (West).
 
 ### Current Status
-- **Current Status**: Lighthouse 2F (3_43). Ascending.
-- **Immediate Goal**: Reach Stairs to 3F at (5, 3).
-- **Navigation**: Walk Up/Right avoiding holes. BFS active.
+- **Current Status**: Lighthouse 2F (10, 3). Blocked by Sailor Huey.
+- **Immediate Goal**: Navigate around Huey via Row 2 to reach Stairs (5, 3).
+- **Navigation**: Up -> Left x5 -> Down.
