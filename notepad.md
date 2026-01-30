@@ -3,21 +3,18 @@
 
 ### Current Status
 - **Location**: Glitter Lighthouse 2F (Map 3_43).
-- **Goal**: Re-examine 3F Balcony. Suspect hidden path or jumpable ledge.
+- **Goal**: Find the stairs UP on the Right Side of 2F.
 
 ### Exploration Notes
 - **2F (3_43)**:
-  - Left Stairs (5, 3) -> 3F Balcony.
-  - Right Side: Contains Alfred (16, 8) and Landing/Holes. Seems to be the "Down" path.
-  - No obvious stairs up on 2F Right Side.
-- **3F (3_44)**:
-  - Left Strip: Battled Theo. Marked as dead end previously.
-  - **Hypothesis**: The "wall" on the right side of the balcony might be jumpable, or there's a window.
+  - Left Stairs (5, 3) -> 3F Balcony (Dead End).
+  - Right Side: Connected to Left Side. Contains Alfred (16, 8).
+  - **Task**: Systematically search the area North and West of Alfred on the Right Side.
+  - Potential hidden stairs at (9, 3), (13, 3), or (12, 8).
 
 ### Objectives
-- **Primary**: Defeat Chuck (Cianwood Gym).
-- **Secondary**: Obtain Mineral Badge (Jasmine).
-- **Tertiary**: Explore Olivine City.
+- **Primary**: Obtain SecretPotion.
+- **Secondary**: Heal Amphy.
 
 ### Quest Log
 - **SecretPotion**: Pharmacist gives generic "Whirl Islands" text (LIKELY WRONG NPC). Real Pharmacist is at (0, 1).
