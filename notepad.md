@@ -17,9 +17,9 @@
   - **Status**: Reached the top floor!
   - **6F (Map 3_47)**:
     - Stairs Down to 5F: (9, 15).
-    - Goal: Talk to Jasmine at (8, 8).
+    - Goal: Talk to Jasmine at (8, 8) (DONE).
     - Obstacle: Amphy at (9, 8) (Sick).
-  - **Next Step**: Break dialogue loop with Amphy. Move Left to (8, 9), face Up, and talk to Jasmine.
+  - **Next Step**: Finish dialogue, use Dig to exit Lighthouse, then Fly to Cianwood.
 
 ### Important Locations
 - **Cianwood Pharmacy**: (15, 37) in Cianwood.
