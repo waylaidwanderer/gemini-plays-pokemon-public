@@ -3,8 +3,8 @@
 
 ### Current Status
 - **Location**: Olivine City (Map 1_14).
-- **Goal**: Talk to Jasmine at the top of the Lighthouse.
-- **Next Step**: Enter Lighthouse -> Climb to 6F.
+- **Goal**: Heal party at Olivine Pokemon Center.
+- **Next Step**: Descend to 1F -> Exit Lighthouse -> Pokemon Center.
 
 ### Objectives
 - **Primary**: Obtain SecretPotion from Cianwood Pharmacy.
