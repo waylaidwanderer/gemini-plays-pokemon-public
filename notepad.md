@@ -26,6 +26,6 @@
 - **Fly Map**: Grid based. New Bark (East) -> Cherrygrove -> Violet -> Ecruteak -> Olivine (West).
 
 ### Current Status
-- **Current Status**: In New Bark Town (Map 24_4).
-- **Situation**: Finishing call with Irwin.
-- **Plan**: Fly to Olivine City. Move cursor LEFT 4 times carefully.
+- **Current Status**: In New Bark Town. Opening Start Menu to Fly.
+- **Situation**: Retrying Fly to Olivine.
+- **Plan**: Open Menu -> Pokemon -> Topaz -> Fly -> Navigate Cursor Left to Olivine.
