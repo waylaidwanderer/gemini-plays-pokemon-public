@@ -26,6 +26,6 @@
 - **Fly Map**: Grid based. New Bark (East) -> Cherrygrove -> Violet -> Ecruteak -> Olivine (West).
 
 ### Current Status
-- **Current Status**: Speaking to Cianwood Pharmacist.
-- **Immediate Goal**: Advance dialogue to receive SecretPotion.
-- **Quest State**: "You came from OLIVINE?" text confirmed. Potion incoming.
+- **Current Status**: Dialogue with Pharmacist continuing.
+- **Immediate Goal**: Advance text to receive SecretPotion.
+- **Quest State**: Listening to Pharmacist's explanation. Item not yet in inventory.
