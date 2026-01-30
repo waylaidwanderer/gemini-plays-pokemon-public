@@ -36,5 +36,5 @@
   7. **5F (Center) -> 6F**: Stairs at (9,15).
 - **Confirmed**: Goldenrod Dept Store 2F was unstaffed. 3F sells Battle Items only.
 - **Plan**: Fly to Ecruteak Mart for Revives. Then back to Olivine.
-- **Navigation**: Backtracking East along the southern path (Row 14) to find the turn North to Ecruteak (likely near X=35).
-- **Current Status**: On Route 36 (West End, moving to Main Road).
+- **Navigation**: Move East to X=35, then cross North to find the turn to Route 37/Ecruteak.
+- **Current Status**: On Route 36 (Bypassing Schoolboy Alan).
