@@ -35,3 +35,7 @@
 - **Immediate Plan**: Heal -> Reorder Party (Garnet lead) -> Mart -> Lighthouse (Talk to Jasmine).
 - **Turn 19204**: Difficulty healing. Previous attempts with `advance_dialogue` failed to update HP. Attempting again with deliberate focus.
 - **Plan**: Heal -> Party Menu (Garnet to Slot 1) -> Mart -> Lighthouse.
+- **Turn 19212**: Testing "Bump Animation Lockout" hypothesis.
+  - Theory: Pressing 'Up' into the counter triggers a bump animation, ignoring subsequent 'A' inputs until resolved.
+  - Action: Zero movement. Only `advance_dialogue`.
+- **Planned Sequence**: Heal -> Party Menu -> Mart.
