@@ -26,7 +26,6 @@
 - **Fly Map**: Grid based. New Bark (East) -> Cherrygrove -> Violet -> Ecruteak -> Olivine (West).
 
 ### Current Status
-- **Current Status**: Dialogue Loop Confirmed. NO POTION received.
-- **Diagnosis**: Likely failed to fully accept Jasmine's quest (backed out of dialogue too early).
-- **Plan**: Fly back to Olivine, speak to Jasmine properly, then return.
-- **Immediate Action**: Close dialogue and exit.
+- **Current Status**: Exiting Cianwood Pharmacy. Quest flag missing.
+- **Immediate Goal**: Fly to Olivine City to re-speak to Jasmine.
+- **Reason**: Pharmacist won't give potion. Likely canceled Jasmine's request too early.
