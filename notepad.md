@@ -26,7 +26,7 @@
 - **Fly Map**: Grid based. New Bark (East) -> Cherrygrove -> Violet -> Ecruteak -> Olivine (West).
 
 ### Current Status
-- **Current Status**: In Olivine City. Heading to Lighthouse.
+- **Current Status**: Outside Olivine Lighthouse (Approaching Entrance).
 - **Immediate Goal**: Enter Lighthouse (29, 27).
 - **Plan**: Climb to top, talk to Jasmine, ENSURE DIALOGUE COMPLETES.
 - **Reason**: Pharmacist didn't give potion, implying quest flag wasn't set.
