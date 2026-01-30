@@ -37,4 +37,4 @@
 - **Confirmed**: Goldenrod Dept Store 2F was unstaffed. 3F sells Battle Items only.
 - **Plan**: Fly to Ecruteak Mart for Revives. Then back to Olivine.
 - **Navigation**: Moving South-East to (13, 16) to cross to the East Lane.
-- **Current Status**: Navigating past Twins at (6, 12).
+- **Current Status**: Finishing phone call with Dana.
