@@ -35,3 +35,5 @@
   7. **5F (Center) -> 6F**: Stairs at (9,15).
 - **Interrupt**: Phone call from Chad interrupted the Pharmacist interaction. Must finish call and retry.
 - **Suspicion**: Validated. Pharmacist loop confirmed missing flag.
+- **Observation**: The Fly map cursor seems to wrap around. Pressing 'Right' from Cianwood (West edge) sent me to New Bark Town (East edge).
+- **Navigation**: Trying 'Left' x4 from New Bark Town to reach Olivine City.
