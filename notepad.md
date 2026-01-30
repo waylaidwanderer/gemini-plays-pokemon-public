@@ -2,63 +2,29 @@
 - Started: Friday, January 16, 2026
 
 ### Current Status
-- **Location**: Glitter Lighthouse 3F (Map 3_44).
-- **Goal**: Find the way to 4F (Right Side).
+- **Location**: Glitter Lighthouse 6F (Map 3_47).
+- **Goal**: Exit Lighthouse and Fly to Cianwood to get SecretPotion.
 
 ### Lighthouse Navigation Fact Sheet
-- **1F (3_42)**: Main Lobby. Stairs at (3,11) lead to 2F.
-- **2F (3_43)**:
-  - Stairs at (3,11) come from 1F.
-  - Stairs at (5,3) go to 3F (Left Side).
-  - Right Side: Explored, but NO stairs found yet. Needs re-verification if 3F fails.
-- **4F (3_45)**:
-  - Arrived via stairs at (13, 3).
-  - Layout matches 3F: Central void, connected by bottom corridor.
-  - **Action**: Bypassing Sailor Kent (defeated) at (7, 14) via Row 15.
-  - **Goal**: Reach Left Side and find stairs to 5F.
+- **Route to Top**:
+  1. **1F -> 2F**: Stairs at (3,11).
+  2. **2F -> 3F**: Stairs at (5,3).
+  3. **3F -> 4F**: Stairs at (13,3) (Right Side).
+  4. **4F -> 3F (Center)**: Drop down hole at (9,3) or (10,3)? Wait, I took stairs UP from 3F Center. How did I get TO 3F Center?
+     - **Correction**: On 4F (Map 3_45), go to Row 2, then to (9,2) and down to (9,7)? No, I dropped from 4F to 3F Center?
+     - Let's re-read the log. "Solves navigation puzzle by jumping down a hole at (9, 3) on Lighthouse 4F".
+     - YES. **The Drop**: On 4F, go to (9,3) area and fall to reach 3F Center.
+  5. **3F (Center) -> 4F (Center)**: Stairs at (9,5).
+  6. **4F (Center) -> 5F (Center)**: Stairs at (9,7).
+  7. **5F (Center) -> 6F**: Stairs at (9,15).
 
 ### Immediate Plan
-1. **Verify Window**: Check window at (4,1) one last time.
-2. **Verify South 3F**: Walk past Chad to the south end of the room. Check for stairs or windows.
-3. **Fallback**: If 3F is a dead end, scour 2F Right Side again.
+1. **Exit Lighthouse**: Retrace steps down or find holes to fall through.
+   - 6F -> 5F -> 4F -> 3F -> 2F -> 1F.
+2. **Fly to Cianwood**: Use HM02.
+3. **Get SecretPotion**: Pharmacy at (2,7) in Cianwood.
+4. **Return**: Fly back to Olivine, climb Lighthouse again.
 
 ### Objectives
 - **Primary**: Obtain SecretPotion.
 - **Secondary**: Heal Amphy.
-- **Correction**: On Map 3_45 (Lighthouse 4F), the floor tiles are `TYPE_3fe2`. Previous navigation failed because I treated them as walls. `(3, 5)` is connected to the rest of the floor.
-- **Map Structure**: Lighthouse 4F (3_45) has three vertical columns.
-  - **Left (x=2-5)**: Isolated at top, accessible via Row 15? No, blocked at Row 11. 
-  - **Center (x=8-9)**: Contains stairs to 5F at (9,7). Accessible via Top Row (Row 2).
-  - **Right (x=12-17)**: Main vertical corridor. Connects to Center via Row 2.
-- **Path to 5F**: From Bottom (Row 15), go Right to x=14, Up to Row 2, Left to x=8, Down to (9,7). Avoid (9,5) (Potential Hole).
-- **Lighthouse 5F (3_46)**: Arrived at `(3, 5)`. This Left Section seems isolated from the Center Column. The Center Column (with stairs to 6F) is likely only accessible from **4F Center**.
-- **Plan**: Go back to 4F, navigate to Row 2, then across to `(9, 2)` and down to `(9, 7)` to ascend to 5F Center.
-### Reflection (Turn 18521)
-- **Status**: Currently on 5F (Left). Confirmed this section is a dead end (no items, just a window).
-- **Correction**: The "falling from 5F" strategy was a hallucination. The "void" at (9,4) is a wall.
-- **New Hypothesis**: The path to the Center Column is on **4F**, via the **Top Row (Row 2)**.
-- **Action Plan**:
-  1. Return to 4F via stairs at (3,5).
-  2. Navigate from Left Side to Right Side via Bottom Corridor (Row 15), bypassing Sailor Kent.
-  3. Go UP the Right Side to Row 2.
-  4. Walk LEFT along Row 2 to reach the Center Stairs at (9,7).
-  5. Take those stairs to 5F (Center).
-- **Correction**: The Center Box on 4F (x=8-9, y=4-7) is FULLY ENCLOSED by walls and holes on this floor. It cannot be entered from 4F.
-- **Hypothesis**: The entrance is from **3F**, via a ladder/stairs that leads up to `(9, 5)` (marked "To 3F Sailor Room").
-- **Plan**: Descend to 3F via stairs at `(13, 3)`, then find the path to the Center Stairs on 3F.
-### Status Update (Turn 18563)
-- **Location**: 3F Center Room (3_44).
-- **Situation**: Standing at (9, 3). Sailor is at (9, 2). Stairs are at (9, 5).
-- **Realization**: The Sailor is NORTH of me. The exit is SOUTH. He is not blocking the way!
-- **Plan**: Finish the conversation (which seems to be a hint about Jasmine's Steel type) and walk SOUTH to the stairs.
-- **Next Steps**:
-  1. Take Stairs at (9, 5) UP to 4F Center.
-  2. Take Stairs at 4F (9, 7) UP to 5F Center.
-  3. Take Stairs at 5F UP to 6F (Top).
-### Status Update (Turn 18568)
-- **Success**: Reached **6F (Top)** of Glitter Lighthouse (Map 3_47).
-- **Location**: Entrance at (9, 15).
-- **Goal**: Talk to Jasmine and Amphy at (8-9, 8).
-- **Previous Route Summary**:
-  - 3F (Sailor Room) -> 4F (Center) -> 5F (Center) -> 6F.
-- **Next Step**: Interact with Jasmine to initiate the medication quest or heal Amphy.
