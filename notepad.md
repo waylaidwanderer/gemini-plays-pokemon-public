@@ -36,5 +36,5 @@
   7. **5F (Center) -> 6F**: Stairs at (9,15).
 - **Confirmed**: Goldenrod Dept Store 2F was unstaffed. 3F sells Battle Items only.
 - **Plan**: Fly to Ecruteak Mart for Revives. Then back to Olivine.
-- **Navigation**: Move South to the main road (Row 12), then East to find the North turn to Ecruteak.
-- **Current Status**: On Route 36 (West End, North of Main Road).
+- **Navigation**: Backtracking East along the southern path (Row 14) to find the turn North to Ecruteak (likely near X=35).
+- **Current Status**: On Route 36 (West End, moving to Main Road).
