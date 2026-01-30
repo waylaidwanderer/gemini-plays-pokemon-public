@@ -26,3 +26,4 @@
   5. **3F (Center) -> 4F (Center)**: Stairs at (9,5).
   6. **4F (Center) -> 5F (Center)**: Stairs at (9,7).
   7. **5F (Center) -> 6F**: Stairs at (9,15).
+- **Observation**: Goldenrod Dept Store 2F appears unstaffed (no clerks visible). NPC at (8,2) is a customer.
