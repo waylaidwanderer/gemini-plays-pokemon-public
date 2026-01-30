@@ -36,5 +36,5 @@
   7. **5F (Center) -> 6F**: Stairs at (9,15).
 - **Confirmed**: Goldenrod Dept Store 2F was unstaffed. 3F sells Battle Items only.
 - **Plan**: Fly to Ecruteak Mart for Revives. Then back to Olivine.
-- **Navigation**: Backtracking South to (12, 16) to switch to the East lane. The West lane is blocked by ledges.
-- **Current Status**: On Route 37 (Correcting Path).
+- **Navigation**: Moving North along the West lane (X=8) to bypass the trees and reach the Twins at (6,12)/(7,12).
+- **Current Status**: On Route 37 (Approaching Twins).
