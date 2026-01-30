@@ -11,12 +11,11 @@
   - Stairs at (3,11) come from 1F.
   - Stairs at (5,3) go to 3F (Left Side).
   - Right Side: Explored, but NO stairs found yet. Needs re-verification if 3F fails.
-- **3F (3_44)**:
-  - **Discovery**: The Left and Right sides are CONNECTED via the bottom corridor (Row 14). The "void" is only in the center.
-  - **Path**: Walk South past Schoolboy Chad, then East along the bottom wall.
-  - **Current Position**: Right Side of 3F.
-  - **Goal**: Reach Stairs to 4F at (13, 3).
-  - **Status**: Gentleman Preston (13, 5) defeated.
+- **4F (3_45)**:
+  - Arrived via stairs at (13, 3).
+  - Layout matches 3F: Central void, connected by bottom corridor.
+  - **Action**: Bypassing Sailor Kent (defeated) at (7, 14) via Row 15.
+  - **Goal**: Reach Left Side and find stairs to 5F.
 
 ### Immediate Plan
 1. **Verify Window**: Check window at (4,1) one last time.
