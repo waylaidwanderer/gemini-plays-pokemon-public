@@ -11,11 +11,11 @@
   - Stairs at (3, 11) go to 1F (Exit).
   - Confirmed: No other stairs found on 2F.
 - **3F (3_44)**:
-  - Window at (4, 1): Investigated, likely just scenery (no interaction).
-  - Bird Keeper Theo at (3, 9): Blocking path to south.
-  - South Stairs at (3, 11): Go to 1F. Need to verify if this is a special path or just an exit.
-  - **Plan**: Fight Theo, then check stairs at (3, 11).
-  - **Battle Strategy**: Lead is Spinarak (Weak to Flying). Switch to Topaz (Pidgeotto) Turn 1.
+  - Window at (4, 1): No interaction.
+  - NPC "Schoolboy Chad" at (3, 9): Non-hostile (didn't battle). Complained about not being able to go up.
+  - Stairs at (3, 11): Investigating now. Likely lead to 1F (Exit).
+  - **Puzzle**: Path to 4F (Right Side) is inaccessible from here. Need to find a way to cross or a different route up from 1F/2F.
+  - **Plan**: Check South Wall for windows/doors. If nothing, take stairs at (3, 11).
 
 ### Objectives
 - **Primary**: Obtain SecretPotion.
