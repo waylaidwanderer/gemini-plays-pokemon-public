@@ -36,9 +36,6 @@
   7. **5F (Center) -> 6F**: Stairs at (9,15).
 - **Confirmed**: Goldenrod Dept Store 2F was unstaffed. 3F sells Battle Items only.
 - **Plan**: Fly to Ecruteak Mart for Revives. Then back to Olivine.
-- **Tool Note**: The `activate_fly_map` tool assumes menus do not wrap, but they likely do. Needs verification and fixing. Using manual inputs for now.
-- **Fly Map Navigation**:
-  - **Status**: Successfully arrived in Violet City.
-  - **Next Step**: Walk West to Ecruteak City (Route 36).
-  - **Goal**: Reach Ecruteak City (Hub).
-- **Fly Map Confusion**: On Turn 19409, Fly map text said "NEW BARK TOWN" but visual cursor seemed to be Top-Right. Treating text as truth.
+- **Fly Map Mechanics**: The cursor animation blocks input. Sending multiple directions in one turn causes inputs to be "eaten". Always use single inputs or long delays.
+- **Route 36 Navigation**: Avoid targeting Gate tiles directly with BFS; target the tile adjacent to them.
+- **Current Status**: On Route 36 (Walking to Ecruteak).
