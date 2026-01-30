@@ -26,6 +26,6 @@
 - **Fly Map**: Grid based. New Bark (East) -> Cherrygrove -> Violet -> Ecruteak -> Olivine (West).
 
 ### Current Status
-- **Current Status**: Lighthouse 5F Center (3_46).
-- **Immediate Goal**: Reach Stairs to 6F at (9, 15).
-- **Navigation**: Walk Down (South). Expecting Trainer (likely defeated).
+- **Current Status**: Lighthouse 6F (3_47). Summit reached.
+- **Immediate Goal**: Speak to Jasmine at (8, 8).
+- **Navigation**: Walk Up to (8, 9) and press A.
