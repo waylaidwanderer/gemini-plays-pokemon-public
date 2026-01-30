@@ -46,7 +46,12 @@
 - **Correction**: The Center Box on 4F (x=8-9, y=4-7) is FULLY ENCLOSED by walls and holes on this floor. It cannot be entered from 4F.
 - **Hypothesis**: The entrance is from **3F**, via a ladder/stairs that leads up to `(9, 5)` (marked "To 3F Sailor Room").
 - **Plan**: Descend to 3F via stairs at `(13, 3)`, then find the path to the Center Stairs on 3F.
-### Status Update (Turn 18542)
-- **Insight**: 4F Center is inaccessible from 4F.
-- **New Goal**: Go to 3F via stairs at (13, 3). Find the path up to the Center from there.
-- **Immediate Action**: Finish call with Arnie, then navigate to (13, 3) via the bottom corridor (Row 15) to avoid Sailor Kent.
+### Status Update (Turn 18551)
+- **Success**: Fell through the hole at 4F (9, 3) and landed in the **3F Center Room** at (9, 3).
+- **Confirmation**: This isolated room connects to the stairs at (9, 5) leading to **4F Center**.
+- **Current Task**: Defeat Sailor Terrell at (9, 2) who is blocking the way (or just angry I dropped in).
+- **Next Steps**:
+  1. Win Battle.
+  2. Take Stairs at (9, 5) UP to 4F Center.
+  3. Take Stairs at 4F (9, 7) UP to 5F Center.
+  4. Take Stairs at 5F UP to 6F (Top).
