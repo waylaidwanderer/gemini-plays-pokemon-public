@@ -36,3 +36,6 @@
 - **Navigation Trick**: Pressing `Left` then `Up` in the Main Battle Menu reliably resets the cursor to `FIGHT` (Top-Left), regardless of whether it started on RUN, PACK, or PKMN (assuming no wrap-around).
 - **Battle Strategy Update**: Sending Spinarak (15/37 HP) to tank a hit.
 - **Next Turn**: Use REVIVE on Basil (Bellsprout). Basil is the only one who can resist Water and deal damage (Cut/Growth).
+- **Correction**: Basil is ALIVE (5/46 HP) but unusable without potions.
+- **Strategy Change**: Using REVIVE on Headache (Psyduck). Headache resists Water and can tank Poliwhirl's bubbles significantly better than anyone else.
+- **Tactic**: Spinarak acts as the sacrifice to allow the item use.
