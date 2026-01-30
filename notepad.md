@@ -40,3 +40,5 @@
 - **Escape Plan**: Found potential holes at (16,5) and (17,5) on 6F. Attempting to fall down them to bypass the "Trap Column" and reach the lower floors' outer areas.
 - **Progress**: Fell from 6F (16,5) to 5F (16,5).
 - **Next Step**: Falling from 5F (16,7) to 4F. Expecting to land in the Right Section of 4F.
+- **Progress**: Fell from 5F (16,7) to 4F (16,7).
+- **Next Step**: Falling from 4F (16,9) to 3F. This should land me in the Right Section of 3F.
