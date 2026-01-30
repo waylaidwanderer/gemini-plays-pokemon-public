@@ -26,6 +26,6 @@
 - **Fly Map**: Grid based. New Bark (East) -> Cherrygrove -> Violet -> Ecruteak -> Olivine (West).
 
 ### Current Status
-- **Current Status**: Jasmine's dialogue is looping/active.
-- **Immediate Goal**: Close text box safely using 'B' to avoid re-triggering.
-- **Next Step**: Use Dig to exit.
+- **Current Status**: Jasmine Quest Active. Preparing to leave Lighthouse.
+- **Immediate Goal**: Use Dig to escape, then Fly to Cianwood.
+- **Navigation**: Open Menu -> Pokemon -> Garnet -> Dig.
