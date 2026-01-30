@@ -44,3 +44,5 @@
 - **Combat Crisis**: Headache fainted to a Crit.
 - **Action**: Sending Spinarak (7/37 HP) back in.
 - **Hope**: Poliwhirl uses Hypnosis or misses. If Spinarak survives, I will use a Revive on Topaz or Basil (if he faints).
+- **Correction**: Successfully sent out Spinarak. Currently in Item Menu.
+- **Action**: Using Revive on Headache. Spinarak will likely faint this turn, but Headache will be ready to switch in.
