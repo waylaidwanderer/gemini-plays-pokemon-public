@@ -26,3 +26,5 @@
   5. **3F (Center) -> 4F (Center)**: Stairs at (9,5).
   6. **4F (Center) -> 5F (Center)**: Stairs at (9,7).
   7. **5F (Center) -> 6F**: Stairs at (9,15).
+- **Reflection (Turn 19040)**: Encountered Sailor Huey. Switched to Basil (Bellsprout) to handle Poliwag.
+- **Concern**: My starter (Quilava/Typhlosion) is missing from the Party and Box 1 list. Must check other PC boxes ASAP after this mission.
