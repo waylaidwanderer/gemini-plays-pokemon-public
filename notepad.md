@@ -36,5 +36,5 @@
   7. **5F (Center) -> 6F**: Stairs at (9,15).
 - **Confirmed**: Goldenrod Dept Store 2F was unstaffed. 3F sells Battle Items only.
 - **Plan**: Fly to Ecruteak Mart for Revives. Then back to Olivine.
-- **Navigation**: Inside Ecruteak Mart. Buying 8 Revives.
-- **Current Status**: Selected Revive. Setting quantity to 8.
+- **Navigation**: Inside Ecruteak Mart. Bought 8 Revives.
+- **Current Status**: Transaction complete. Exiting menu.
