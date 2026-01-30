@@ -37,3 +37,4 @@
 - **Confirmed**: Goldenrod Dept Store 2F was unstaffed. 3F sells Battle Items only.
 - **Plan**: Fly to Ecruteak Mart for Revives. Then back to Olivine.
 - **Tool Note**: The `activate_fly_map` tool assumes menus do not wrap, but they likely do. Needs verification and fixing. Using manual inputs for now.
+- **Fly Map Confusion**: On Turn 19409, Fly map text said "NEW BARK TOWN" but visual cursor seemed to be Top-Right. Treating text as truth. Plan: Left -> Cherrygrove, Up -> Violet.
