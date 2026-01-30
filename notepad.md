@@ -4,8 +4,9 @@
 ### Current Status
 - **Location**: Cianwood Pharmacy (Map 22_9).
 - **Goal**: Obtain SecretPotion from Pharmacist at (2, 4).
-- **Correction**: "You came from OLIVINE?" is likely rhetorical/linear text, not a menu. I must listen to the full monologue.
-- **Plan**: Advance text to completion. If no Potion, Fly to Olivine.
+- **Correction**: The Pharmacist only gives lore about Whirl Islands. This confirms the "Jasmine sent me" flag is NOT set.
+- **Action**: Leaving Cianwood Pharmacy immediately.
+- **Plan**: Fly to Olivine -> Climb Lighthouse -> Talk to Jasmine -> Return to Cianwood.
 - **NPCs**: Pharmacist (Red Hair) at (2, 4). Customer (Green Hair) at (7, 5). Lady at (0, 2).
 
 ### Recent Reflection
