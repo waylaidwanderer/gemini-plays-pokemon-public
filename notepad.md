@@ -30,3 +30,5 @@
 - **Concern**: My starter (Quilava/Typhlosion) is missing from the Party and Box 1 list. Must check other PC boxes ASAP after this mission.
 - **Combat Note**: Basil (Bellsprout) lacks a Grass-type attack (only PoisonPowder, Growth, Cut, Sleep Powder). This limits his effectiveness against Water types despite the resistance.
 - **Inventory Warning**: No Potions or HP recovery items in inventory. Must rely on Pokemon Center.
+- **Combat Update**: Topaz fainted against Poliwhirl. Headache (Psyduck) is now the active Pokemon.
+- **Strategy**: Using Surf despite resistance because it deals more damage than Scratch due to STAB and Base Power.
