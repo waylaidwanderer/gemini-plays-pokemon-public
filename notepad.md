@@ -44,4 +44,5 @@
 - **Next Step**: Falling from 4F (16,9) to 3F. This should land me in the Right Section of 3F.
 - **Progress**: Fell to 3F (16,9). This area connects to the stairs UP to 4F at (13,3) and the cross-over path at Row 14.
 - **Progress**: Checked (12,1), it's a mirror (no item).
-- **Exit Strategy**: Head South to Row 14, cross to Left Side, and take stairs at (5,3) down to 2F.
+- **Progress**: Descended to 2F.
+- **Exit Strategy**: Navigate to stairs at (3,11) to reach 1F and exit to Olivine.
