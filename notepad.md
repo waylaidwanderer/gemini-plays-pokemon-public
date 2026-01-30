@@ -26,6 +26,6 @@
 - **Fly Map**: Grid based. New Bark (East) -> Cherrygrove -> Violet -> Ecruteak -> Olivine (West).
 
 ### Current Status
-- **Current Status**: Pharmacist acknowledged Olivine origin.
+- **Current Status**: Pharmacist telling stories about Lugia/Whirl Islands.
 - **Immediate Goal**: Advance dialogue to receive SecretPotion.
-- **Quest State**: "You came from OLIVINE?" -> Expecting handover.
+- **Quest State**: "You came from OLIVINE?" -> Lore dump -> SecretPotion.
