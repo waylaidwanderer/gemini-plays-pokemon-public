@@ -27,5 +27,5 @@
 
 ### Current Status
 - **Current Status**: Pharmacist acknowledged Olivine origin.
-- **Immediate Goal**: Mash A to receive SecretPotion.
+- **Immediate Goal**: Advance dialogue to receive SecretPotion.
 - **Quest State**: "You came from OLIVINE?" -> Expecting handover.
