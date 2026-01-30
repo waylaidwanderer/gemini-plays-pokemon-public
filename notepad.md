@@ -46,3 +46,5 @@
 - **Hope**: Poliwhirl uses Hypnosis or misses. If Spinarak survives, I will use a Revive on Topaz or Basil (if he faints).
 - **Correction**: Successfully sent out Spinarak. Currently in Item Menu.
 - **Action**: Using Revive on Headache. Spinarak will likely faint this turn, but Headache will be ready to switch in.
+- **Combat Update**: Spinarak fainted. Headache (17/34 HP) is the last hope.
+- **Plan**: Switch to Headache. Use SURF.
