@@ -26,6 +26,6 @@
 - **Fly Map**: Grid based. New Bark (East) -> Cherrygrove -> Violet -> Ecruteak -> Olivine (West).
 
 ### Current Status
-- **Current Status**: Lighthouse 6F (3_47). Summit reached.
-- **Immediate Goal**: Speak to Jasmine at (8, 8).
-- **Navigation**: Walk Up to (8, 9) and press A.
+- **Current Status**: Speaking to Jasmine (Lighthouse 6F).
+- **Immediate Goal**: Finish dialogue to activate SecretPotion quest.
+- **Navigation**: Advance text.
