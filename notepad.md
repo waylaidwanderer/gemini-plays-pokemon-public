@@ -2,8 +2,8 @@
 - Started: Friday, January 16, 2026
 
 ### Current Status
-- **Location**: Route 40 (Map 22_1).
-- **Goal**: Surf back to Cianwood City.
+- **Location**: Olivine City Pokémon Center (Map 1_1).
+- **Goal**: Heal, verify Jasmine flag, then return to Cianwood.
 
 ### Objectives
 - **Primary**: Defeat Chuck (Cianwood Gym).
