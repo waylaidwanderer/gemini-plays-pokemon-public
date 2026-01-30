@@ -36,5 +36,5 @@
   7. **5F (Center) -> 6F**: Stairs at (9,15).
 - **Confirmed**: Goldenrod Dept Store 2F was unstaffed. 3F sells Battle Items only.
 - **Plan**: Fly to Ecruteak Mart for Revives. Then back to Olivine.
-- **Navigation**: Switching to Column 8 (Middle Lane) to head North, as the East Lane is blocked and Col 9 is blocked by trees.
-- **Current Status**: Walking West to Column 8.
+- **Navigation**: The Middle Lane (Cols 4-9) is blocked by ledges at Row 5. The East Lane entrance must be on Route 36.
+- **Current Status**: Exiting South to Route 36 to find the East Lane entrance.
