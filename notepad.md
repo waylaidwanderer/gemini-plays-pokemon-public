@@ -44,6 +44,5 @@
 - **Next Step**: Falling from 4F (16,9) to 3F. This should land me in the Right Section of 3F.
 - **Progress**: Fell to 3F (16,9). This area connects to the stairs UP to 4F at (13,3) and the cross-over path at Row 14.
 - **Progress**: Checked (12,1), it's a mirror (no item).
-- **Status**: On 3F (3_44), attempting to descend to 2F (3_43) again.
-- **Problem**: Accidental warping back and forth.
-- **Plan**: Step Down (off stairs), Up (warp to 2F), Down (move away from stairs).
+- **Status**: On 2F (3_43), confirmed.
+- **Path**: Moving Left from (5,3) to avoid stairs, then navigating to (3,11).
