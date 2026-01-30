@@ -9,9 +9,10 @@
 
 ### Recent Reflection
 - **Progress**: Arrived in Cianwood, defeated Chuck, got Storm Badge and Fly.
-- **Current Task**: Re-entering Pharmacy to listen to the *entire* Pharmacist monologue. Critique suggests Potion may be given at the end.
-- **Hygiene**: Map markers updated. Notepad needs to stay focused on the immediate task.
-- **Strategy**: Talk to Pharmacist, answer YES, then advance text until dialogue closes completely. DO NOT EXIT EARLY.
+- **Current Task**: Finishing phone call with Joey. Then Flying to Olivine City.
+- **Correction**: The Pharmacist dialogue loop suggests I might be missing a flag or a specific trigger. I will verify with Jasmine.
+- **Hygiene**: Map markers updated.
+- **Strategy**: Exit Pharmacy -> Fly to Olivine -> Climb Lighthouse -> Talk to Jasmine.
 
 - **Key Items**: No SecretPotion found in inventory.
 
