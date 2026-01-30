@@ -7,12 +7,15 @@
 
 ### Exploration Notes
 - **2F (3_43)**:
-  - Stairs at (5, 3) go to 3F.
+  - Stairs at (5, 3) go to 3F (Left Side).
   - Stairs at (3, 11) go to 1F (Exit).
-  - **Scanner Confirmed**: NO other stairs on this floor. The "Right Side" hypothesis was wrong.
+  - Confirmed: No other stairs found on 2F.
 - **3F (3_44)**:
-  - Previously thought to be a dead end.
-  - **Plan**: Go past Bird Keeper Theo (South). Check for windows to jump through or hidden paths.
+  - Layout: Split into Left and Right sides by a void.
+  - Left Side (Current): Has stairs down to 2F.
+  - Right Side: Has stairs up to 4F.
+  - **Problem**: Need to cross from Left to Right.
+  - **Hypothesis**: Check Windows (e.g., at 4,1) or traverse via outside. Or hidden path past Theo.
 
 ### Objectives
 - **Primary**: Obtain SecretPotion.
