@@ -38,7 +38,7 @@
 - **Plan**: Fly to Ecruteak Mart for Revives. Then back to Olivine.
 - **Tool Note**: The `activate_fly_map` tool assumes menus do not wrap, but they likely do. Needs verification and fixing. Using manual inputs for now.
 - **Fly Map Navigation**:
-  - **Insight**: Fly Map Cursor requires 1 input per turn to avoid dropped inputs during animation.
-  - **Plan**: Fly to Violet City. If Ecruteak select fails, land in Violet and walk West (Route 36) to Ecruteak.
+  - **Result**: Unable to select Ecruteak from Violet/Cherrygrove (inputs failed).
+  - **Plan**: Flying to Violet City. Walking West to Ecruteak (Route 36).
   - **Goal**: Reach Ecruteak City (Hub).
 - **Fly Map Confusion**: On Turn 19409, Fly map text said "NEW BARK TOWN" but visual cursor seemed to be Top-Right. Treating text as truth.
