@@ -36,5 +36,5 @@
   7. **5F (Center) -> 6F**: Stairs at (9,15).
 - **Confirmed**: Goldenrod Dept Store 2F was unstaffed. 3F sells Battle Items only.
 - **Plan**: Fly to Ecruteak Mart for Revives. Then back to Olivine.
-- **Navigation**: In Violet City. Resetting the Fly menu interaction.
-- **Current Status**: Closing the map to restart the process. The cursor was glitching/stuck on New Bark Town.
+- **Navigation**: In Violet City. Retrying Fly to Olivine City.
+- **Current Status**: Start Menu open. Selecting Topaz to open Fly map.
