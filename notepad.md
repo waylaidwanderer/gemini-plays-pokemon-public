@@ -1,11 +1,6 @@
 # Pokémon Crystal Playthrough
 - Started: Friday, January 16, 2026
 
-### Current Status
-- **Location**: Cianwood Pharmacy (Map 22_9).
-- **Goal**: Talk to the Real Pharmacist at (0, 1).
-- **Note**: The Pharmacist is located behind the counter at (0, 1). I need to stand at (0, 2) and face UP to talk to him.
-
 ### Objectives
 - **Primary**: Obtain SecretPotion from Cianwood Pharmacy.
 - **Secondary**: Return to Olivine and Heal Amphy.
