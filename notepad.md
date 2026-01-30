@@ -26,6 +26,6 @@
 - **Fly Map**: Grid based. New Bark (East) -> Cherrygrove -> Violet -> Ecruteak -> Olivine (West).
 
 ### Current Status
-- **Current Status**: Exiting Olivine Mart.
-- **Immediate Goal**: Walk East/South to the Lighthouse.
-- **Navigation**: Down (Exit) -> East to Lighthouse.
+- **Current Status**: Outside Olivine Mart (19, 18).
+- **Immediate Goal**: Navigate to the Lighthouse (29, 27).
+- **Navigation**: Head East to the cliff edge, then South.
