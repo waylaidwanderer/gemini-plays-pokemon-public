@@ -51,3 +51,6 @@
 - **Combat Update**: Spinarak fainted. Headache (17/34 HP) is the last hope.
 - **Plan**: Switch to Headache. Use SURF.
 - **Bug/Issue**: Turn 19128 - Navigated from 2F to 1F, then attempted to walk to exit. GameState shows I remained at (3, 11) despite buttons being pressed. Possible input drop during map transition. Retrying navigation.
+- **Reflection (Turn 19145)**: Realized I failed to heal earlier. Prioritizing finding Typhlosion in PC.
+- **Mechanic Reminder**: In Gen 2, switching PC boxes requires SAVING the game. Do not be alarmed by the save prompt.
+- **Goal Refinement**: Check Box 2 for Typhlosion -> Withdraw -> HEAL properly.
