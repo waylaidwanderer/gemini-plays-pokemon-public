@@ -26,3 +26,8 @@
 - **Primary**: Obtain SecretPotion.
 - **Secondary**: Heal Amphy.
 - **Correction**: On Map 3_45 (Lighthouse 4F), the floor tiles are `TYPE_3fe2`. Previous navigation failed because I treated them as walls. `(3, 5)` is connected to the rest of the floor.
+- **Map Structure**: Lighthouse 4F (3_45) has three vertical columns.
+  - **Left (x=2-5)**: Isolated at top, accessible via Row 15? No, blocked at Row 11. 
+  - **Center (x=8-9)**: Contains stairs to 5F at (9,7). Accessible via Top Row (Row 2).
+  - **Right (x=12-17)**: Main vertical corridor. Connects to Center via Row 2.
+- **Path to 5F**: From Bottom (Row 15), go Right to x=14, Up to Row 2, Left to x=8, Down to (9,7). Avoid (9,5) (Potential Hole).
