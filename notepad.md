@@ -33,3 +33,5 @@
 - **Quest Status**: Pharmacist gave lore, no potion.
 - **Hypothesis**: Must speak to Jasmine again to confirm the quest flag or trigger a specific dialogue state.
 - **Immediate Plan**: Heal -> Reorder Party (Garnet lead) -> Mart -> Lighthouse (Talk to Jasmine).
+- **Turn 19204**: Difficulty healing. Previous attempts with `advance_dialogue` failed to update HP. Attempting again with deliberate focus.
+- **Plan**: Heal -> Party Menu (Garnet to Slot 1) -> Mart -> Lighthouse.
