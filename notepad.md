@@ -11,18 +11,9 @@
 
 ### Recent Reflection
 - **Progress**: Arrived in Cianwood, defeated Chuck, got Storm Badge and Fly.
-- **Current Task**: Flying to Olivine City.
 - **Correction**: The Pharmacist dialogue loop confirms I need to trigger the "Jasmine sent me" flag.
 - **Plan**: Fly to Olivine -> Climb Lighthouse -> Talk to Jasmine -> Return to Cianwood.
-- **Hygiene**: Map markers updated.
 - **Strategy**: Exit Pharmacy -> Fly to Olivine -> Climb Lighthouse -> Talk to Jasmine.
-
-- **Key Items**: No SecretPotion found in inventory.
-
-### Objectives
-- **Primary**: Obtain SecretPotion from Cianwood Pharmacy.
-- **Secondary**: Heal Amphy at the Lighthouse.
-- **Tertiary**: Explore remaining Cianwood houses (Photo Studio, etc.) upon return.
 
 ### Lighthouse Navigation (For Return)
 - **Route to Top**:
