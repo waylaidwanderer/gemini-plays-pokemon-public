@@ -26,6 +26,6 @@
 - **Fly Map**: Grid based. New Bark (East) -> Cherrygrove -> Violet -> Ecruteak -> Olivine (West).
 
 ### Current Status
-- **Current Status**: In New Bark Town. Opening Start Menu to Fly.
-- **Situation**: Retrying Fly to Olivine.
-- **Plan**: Open Menu -> Pokemon -> Topaz -> Fly -> Navigate Cursor Left to Olivine.
+- **Current Status**: Party Menu Open (Selecting Topaz).
+- **Situation**: Prepare to Fly.
+- **Plan**: Reset cursor (UPx5), Downx2 to Topaz, Select, Fly, Left x4 to Olivine.
