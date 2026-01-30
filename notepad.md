@@ -36,5 +36,5 @@
   7. **5F (Center) -> 6F**: Stairs at (9,15).
 - **Confirmed**: Goldenrod Dept Store 2F was unstaffed. 3F sells Battle Items only.
 - **Plan**: Fly to Ecruteak Mart for Revives. Then back to Olivine.
-- **Navigation**: Entering Route 37 (East Lane) by walking through the cut tree at (33, 0).
-- **Current Status**: Moving Right then Up.
+- **Navigation**: In the East Lane of Route 37. Walking North to check the path and collect Apricorns at Row 5.
+- **Current Status**: Moving North towards Red Apricorn at (13, 5).
