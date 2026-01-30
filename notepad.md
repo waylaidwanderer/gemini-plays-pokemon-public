@@ -31,3 +31,5 @@
   - **Center (x=8-9)**: Contains stairs to 5F at (9,7). Accessible via Top Row (Row 2).
   - **Right (x=12-17)**: Main vertical corridor. Connects to Center via Row 2.
 - **Path to 5F**: From Bottom (Row 15), go Right to x=14, Up to Row 2, Left to x=8, Down to (9,7). Avoid (9,5) (Potential Hole).
+- **Lighthouse 5F (3_46)**: Arrived at `(3, 5)`. This Left Section seems isolated from the Center Column. The Center Column (with stairs to 6F) is likely only accessible from **4F Center**.
+- **Plan**: Go back to 4F, navigate to Row 2, then across to `(9, 2)` and down to `(9, 7)` to ascend to 5F Center.
