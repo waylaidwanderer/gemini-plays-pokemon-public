@@ -33,18 +33,13 @@
 - **Path to 5F**: From Bottom (Row 15), go Right to x=14, Up to Row 2, Left to x=8, Down to (9,7). Avoid (9,5) (Potential Hole).
 - **Lighthouse 5F (3_46)**: Arrived at `(3, 5)`. This Left Section seems isolated from the Center Column. The Center Column (with stairs to 6F) is likely only accessible from **4F Center**.
 - **Plan**: Go back to 4F, navigate to Row 2, then across to `(9, 2)` and down to `(9, 7)` to ascend to 5F Center.
-### Reflection (Turn 18469)
-- **Progress**: Overcame "floor is lava" hallucination on 4F.
-- **Issue**: `bfs_navigate` fails to account for NPCs (like Sailor Kent at 7,14) as obstacles.
-- **Action**: Must manually bypass NPCs.
-- **Goal**: Reach 5F (Left) -> 5F (Center) -> 6F.
-- **Route Confirmed**: 
-  1. Go to 4F Left Side (via Row 15 -> Left). 
-  2. Take Stairs at `(3, 5)` to 5F. 
-  3. On 5F, go to Top Center `(9, 2)`. 
-  4. **FALL** down the hole at `(9, 4)` (or nearby) to land in 4F Center.
-  5. Take Stairs at 4F `(9, 7)` to 5F Center (Isolated).
-  6. Take Stairs to 6F.
-- **Current Action**: Navigate to 4F `(3, 5)` to restart this loop.
-- **Correction**: `TYPE_2889` on Map 3_45 is definitely a WALL/VOID. Do NOT include it in walkable types for `bfs_navigate`.
-- **Navigation**: To cross from Right to Left on 4F, use the bottom corridor (Row 15) to avoid the central void and Sailor Kent.
+### Reflection (Turn 18521)
+- **Status**: Currently on 5F (Left). Confirmed this section is a dead end (no items, just a window).
+- **Correction**: The "falling from 5F" strategy was a hallucination. The "void" at (9,4) is a wall.
+- **New Hypothesis**: The path to the Center Column is on **4F**, via the **Top Row (Row 2)**.
+- **Action Plan**:
+  1. Return to 4F via stairs at (3,5).
+  2. Navigate from Left Side to Right Side via Bottom Corridor (Row 15), bypassing Sailor Kent.
+  3. Go UP the Right Side to Row 2.
+  4. Walk LEFT along Row 2 to reach the Center Stairs at (9,7).
+  5. Take those stairs to 5F (Center).
