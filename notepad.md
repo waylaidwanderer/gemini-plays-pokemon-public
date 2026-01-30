@@ -26,6 +26,6 @@
 - **Fly Map**: Grid based. New Bark (East) -> Cherrygrove -> Violet -> Ecruteak -> Olivine (West).
 
 ### Current Status
-- **Current Status**: Lighthouse 3F. Passing Trainer Chad (3, 9).
-- **Immediate Goal**: Move to bottom corridor (Row 14), then East.
-- **Navigation**: Down x5 to (2, 14), then Right.
+- **Current Status**: Lighthouse 3F. Moving across bottom corridor.
+- **Immediate Goal**: Navigate U-shape path. Bottom corridor (Row 14) -> Up right side.
+- **Navigation**: Right x3 to (5, 13), Down to (5, 14), Right to (13, 14), Up.
