@@ -26,6 +26,6 @@
 - **Fly Map**: Grid based. New Bark (East) -> Cherrygrove -> Violet -> Ecruteak -> Olivine (West).
 
 ### Current Status
-- **Current Status**: Navigating Fly Map (New Bark Town).
-- **Immediate Goal**: Fly to Olivine City.
-- **Navigation**: Press UP x6 (New Bark -> Cherrygrove -> Violet -> Azalea -> Goldenrod -> Ecruteak -> Olivine). Verify text.
+- **Current Status**: Flying to Olivine City.
+- **Immediate Goal**: Re-ascend Lighthouse to speak to Jasmine properly.
+- **Reason**: Pharmacist check failed. Need to ensure "Please get the medicine" dialogue completes fully.
