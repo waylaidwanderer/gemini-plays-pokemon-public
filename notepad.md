@@ -26,6 +26,6 @@
 - **Fly Map**: Grid based. New Bark (East) -> Cherrygrove -> Violet -> Ecruteak -> Olivine (West).
 
 ### Current Status
-- **Current Status**: Inside Olivine Lighthouse 1F (3_42).
-- **Immediate Goal**: Reach Stairs to 2F at (3, 11).
-- **Navigation**: Path winds Right -> Up -> Left -> Down. Using BFS.
+- **Current Status**: Inside Olivine Lighthouse 2F (3_43).
+- **Immediate Goal**: Reach Stairs to 3F at (5, 3).
+- **Navigation**: Using BFS to navigate around obstacles. Avoiding holes.
