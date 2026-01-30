@@ -26,6 +26,6 @@
 - **Fly Map**: Grid based. New Bark (East) -> Cherrygrove -> Violet -> Ecruteak -> Olivine (West).
 
 ### Current Status
-- **Current Status**: Listening to Pharmacist's lore.
-- **Immediate Goal**: Mash A to get the SecretPotion.
-- **Quest State**: Pharmacist talking about "mythical sea creature" (Lugia?). Item pending.
+- **Current Status**: Pharmacist discussing Whirl Islands lore.
+- **Immediate Goal**: Advance text to get SecretPotion.
+- **Note**: The "mythical sea creature" is Lugia. Need Whirlpool HM later.
