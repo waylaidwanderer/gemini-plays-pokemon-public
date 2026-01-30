@@ -4,8 +4,8 @@
 ### Current Status
 - **Location**: Cianwood Pharmacy (Map 22_9).
 - **Goal**: Talk to the Green-Haired NPC.
-- **Issue**: The Pharmacist is the Green-Haired NPC wandering near (6, 5). He discusses Whirl Islands. I need to answer "YES" to his question about Olivine.
-- **NPCs**: Wandering Guy (Pharmacist) near (6, 5). Lady at (0, 2).
+- **Issue**: The Pharmacist is the Blue-Haired Guy behind the counter at (2, 1). The Green-Haired Guy at (6, 5) is just a customer. I must return to (2, 1) and answer "YES".
+- **NPCs**: Pharmacist (Blue Hair) at (2, 1). Customer (Green Hair) at (6, 5). Lady at (0, 2).
 
 - **Key Items**: No SecretPotion found in inventory.
 
