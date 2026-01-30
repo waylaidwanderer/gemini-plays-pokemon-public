@@ -26,6 +26,7 @@
 - **Fly Map**: Grid based. New Bark (East) -> Cherrygrove -> Violet -> Ecruteak -> Olivine (West).
 
 ### Current Status
-- **Current Status**: Inside Olivine Lighthouse 3F (3_44).
-- **Immediate Goal**: Reach Stairs to 4F at (13, 3).
-- **Navigation**: Path is U-shaped. Down to Row 14, Right, then Up.
+- **Current Status**: Inside Olivine Lighthouse 3F (3_44). Position (2, 4).
+- **Situation**: Previous BFS run failed/diverged. Retrying manually via Column 2.
+- **Immediate Goal**: Move Down to bottom of room (Row 13), then Right.
+- **Navigation**: Down x9 to (2, 13). Checking for Trainer Chad at (3, 9).
