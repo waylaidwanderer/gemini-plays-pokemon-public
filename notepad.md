@@ -36,5 +36,5 @@
   7. **5F (Center) -> 6F**: Stairs at (9,15).
 - **Confirmed**: Goldenrod Dept Store 2F was unstaffed. 3F sells Battle Items only.
 - **Plan**: Fly to Ecruteak Mart for Revives. Then back to Olivine.
-- **Navigation**: Path North at X=36 is blocked by trees. Moving East to find the main intersection for Route 37 (Ecruteak).
-- **Current Status**: On Route 36 (Heading East).
+- **Navigation**: Investigating path North at X=49 (Gap in trees/ledges). This likely leads to Route 37.
+- **Current Status**: On Route 36 (East of Psychic, Checking North Path).
