@@ -37,4 +37,4 @@
 - **Confirmed**: Goldenrod Dept Store 2F was unstaffed. 3F sells Battle Items only.
 - **Plan**: Fly to Ecruteak Mart for Revives. Then back to Olivine.
 - **Navigation**: In Violet City. Flying to Olivine City.
-- **Current Status**: Map Open. Cursor at New Bark Town. Moving Left to Cherrygrove.
+- **Current Status**: Cursor stuck at New Bark Town. Sending multiple LEFT inputs to force movement West towards Olivine.
