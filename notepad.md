@@ -34,3 +34,5 @@
 - **Strategy**: Using Surf despite resistance because it deals more damage than Scratch due to STAB and Base Power.
 - **Battle Mechanic**: Main Battle Menu (FIGHT/PKMN/PACK/RUN) remembers the last cursor position (e.g., if you tried to RUN, it stays on RUN).
 - **Navigation Trick**: Pressing `Left` then `Up` in the Main Battle Menu reliably resets the cursor to `FIGHT` (Top-Left), regardless of whether it started on RUN, PACK, or PKMN (assuming no wrap-around).
+- **Battle Strategy Update**: Sending Spinarak (15/37 HP) to tank a hit.
+- **Next Turn**: Use REVIVE on Basil (Bellsprout). Basil is the only one who can resist Water and deal damage (Cut/Growth).
