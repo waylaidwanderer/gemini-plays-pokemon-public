@@ -7,12 +7,13 @@
 
 ### Exploration Notes
 - **2F (3_43)**:
-  - **Correction**: Stairs at (3, 11) connect to the Main Area via the bottom corridor. NOT A TRAP.
-  - **Goal**: Take stairs at (3, 11) UP to 2F.
-  - **Plan**: Walk East along the bottom corridor to reach the Right Side.
-  - **Search**: Thoroughly check Right Side (Cols 16-17) for stairs to 3F.
+  - Explored Right Side thoroughly. No stairs to 3F found.
+  - Center area is void/walls.
+  - Conclusion: The path upwards is NOT on 2F.
 - **3F (3_44)**:
-  - Left Side is dead end. Right Side reachable from 2F Right Side.
+  - Left Side (accessible from 2F Left) has Schoolboy Chad.
+  - **Hypothesis**: There is a "door" or "window" on 3F Left Side that leads to an outside balcony.
+  - **Plan**: Return to 3F. Inspect all walls/windows for a way out. Verify if we can walk past Chad.
 
 ### Objectives
 - **Primary**: Obtain SecretPotion.
