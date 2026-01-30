@@ -1,6 +1,16 @@
 # Pokémon Crystal Playthrough
 - Started: Friday, January 16, 2026
 
+### Current Status
+- **Location**: Cianwood Pharmacy (Map 22_9).
+- **Goal**: Find the Pharmacist.
+- **Issue**: No Pharmacist visible behind the counter. A Lady is at (0, 2) blocking the spot. Another NPC is at (6, 4).
+- **Plan**: Talk to the other NPC, then re-enter the map to reset positions.
+
+### Objectives
+- **Primary**: Obtain SecretPotion from Cianwood Pharmacy.
+- **Secondary**: Heal Amphy at the Lighthouse.
+
 ### Lighthouse Navigation (For Return)
 - **Route to Top**:
   1. **1F -> 2F**: Stairs at (3,11).
