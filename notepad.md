@@ -12,8 +12,11 @@
 
 ### Quest Log
 - **SecretPotion**: Pharmacist gives generic "Whirl Islands" text. Implies Jasmine flag was not fully set.
-- **Lighthouse Progress**: Spoke to Jasmine. Quest Accepted.
-- **Navigation**: Exiting Lighthouse via Dig. Fly to Cianwood.
+- **Lighthouse Cleared**: 
+  - Jasmine spoke to on 6F.
+  - Flag set for SecretPotion.
+- **Current Task**: Travel to Cianwood.
+  - Method: Dig out of Lighthouse, then Fly.
 
 ### Important Locations
 - **Cianwood Pharmacy**: (15, 37) in Cianwood.
