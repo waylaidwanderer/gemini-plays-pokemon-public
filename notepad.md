@@ -3,14 +3,16 @@
 
 ### Current Status
 - **Location**: Glitter Lighthouse 2F (Map 3_43).
-- **Goal**: Find the stairs UP on the Right Side of 2F.
+- **Goal**: Return to 3F and find the path past Bird Keeper Theo.
 
 ### Exploration Notes
 - **2F (3_43)**:
-  - Left Stairs (5, 3) -> 3F Balcony (Dead End).
-  - Right Side: Connected to Left Side. Contains Alfred (16, 8).
-  - **Task**: Systematically search the area North and West of Alfred on the Right Side.
-  - Potential hidden stairs at (9, 3), (13, 3), or (12, 8).
+  - Stairs at (5, 3) go to 3F.
+  - Stairs at (3, 11) go to 1F (Exit).
+  - **Scanner Confirmed**: NO other stairs on this floor. The "Right Side" hypothesis was wrong.
+- **3F (3_44)**:
+  - Previously thought to be a dead end.
+  - **Plan**: Go past Bird Keeper Theo (South). Check for windows to jump through or hidden paths.
 
 ### Objectives
 - **Primary**: Obtain SecretPotion.
