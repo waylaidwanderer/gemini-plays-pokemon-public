@@ -36,5 +36,5 @@
   7. **5F (Center) -> 6F**: Stairs at (9,15).
 - **Confirmed**: Goldenrod Dept Store 2F was unstaffed. 3F sells Battle Items only.
 - **Plan**: Fly to Ecruteak Mart for Revives. Then back to Olivine.
-- **Navigation**: Investigating the blockage at Row 5. Moving to (6, 6) to read the Trainer Tips sign and inspect the ledge.
-- **Current Status**: Moving West to bypass trees, then North.
+- **Navigation**: Path blocked by Twin Anne at (6, 6) and small trees (Row 5).
+- **Current Status**: Interacting with Twin Anne to initiate battle or clear path.
