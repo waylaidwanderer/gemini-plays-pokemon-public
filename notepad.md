@@ -36,5 +36,6 @@
   7. **5F (Center) -> 6F**: Stairs at (9,15).
 - **Confirmed**: Goldenrod Dept Store 2F was unstaffed. 3F sells Battle Items only.
 - **Plan**: Fly to Ecruteak Mart for Revives. Then back to Olivine.
-- **Navigation**: In Violet City. Stuck in 'You can't SURF' loop with Headache. Backing out to select Topaz.
-- **Current Status**: Pressing B to exit Headache's menu, moving Up to Topaz.
+- **Mechanic**: Party Menu cursor remembers last position. Always verify slot # before selecting.
+- **Navigation**: In Violet City. Restarting Fly sequence.
+- **Current Status**: Opening Start Menu.
