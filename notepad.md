@@ -7,14 +7,12 @@
 
 ### Exploration Notes
 - **2F (3_43)**:
-  - Connected Left Side (Entrance) to Right Side via top corridor.
-  - Exploring Right Side (Col 16-17) for stairs going UP to 3F (Right Side).
-  - Known features on Right Side: Gentleman Alfred (16, 8), Landing (16, 11), Hole (16, 13).
-  - **Plan**: Check Col 17 for stairs.
+  - **TRAP WARNING**: Area at (2-3, 10-11) is isolated. Stairs at (3, 11) lead to/from 1F exit path only. Do not use to climb.
+  - **Goal**: Reach Right Side of 2F (Main Area).
+  - **Plan**: Go to 1F, find Main Stairs (likely center/north), return to 2F Main, then search Right Side for stairs to 3F.
+  - **Note**: Previous search of Right Side 2F was incomplete. Check top-right corner and near Gentleman Alfred carefully.
 - **3F (3_44)**:
-  - Left Side is a dead end (Theo/Chad).
-  - Right Side leads to 4F.
-  - Need to reach Right Side from 2F.
+  - Left Side is dead end. Right Side reachable from 2F Right Side?
 
 ### Objectives
 - **Primary**: Obtain SecretPotion.
