@@ -17,8 +17,9 @@
   - **Status**: Reached the top floor!
   - **6F (Map 3_47)**:
     - Stairs Down to 5F: (9, 15).
-    - Goal: Find Jasmine.
-  - **Next Step**: Head North to find Jasmine.
+    - Goal: Talk to Jasmine at (10, 8).
+    - Obstacle: Amphy at (9, 8) (Sick).
+  - **Next Step**: Move to (10, 9) and talk to Jasmine.
 
 ### Important Locations
 - **Cianwood Pharmacy**: (15, 37) in Cianwood.
