@@ -37,4 +37,4 @@
 - **Confirmed**: Goldenrod Dept Store 2F was unstaffed. 3F sells Battle Items only.
 - **Plan**: Fly to Ecruteak Mart for Revives. Then back to Olivine.
 - **Navigation**: Inside Ecruteak Mart. Buying 8 Revives.
-- **Current Status**: Retrying interaction with the clerk at (3, 2). The previous 'A' press didn't trigger dialogue.
+- **Current Status**: Attempting to speak to the clerk at (3, 2) again. Ensuring I am facing Up.
