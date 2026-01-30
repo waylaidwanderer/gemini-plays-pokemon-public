@@ -37,4 +37,4 @@
 - **Confirmed**: Goldenrod Dept Store 2F was unstaffed. 3F sells Battle Items only.
 - **Plan**: Fly to Ecruteak Mart for Revives. Then back to Olivine.
 - **Navigation**: Flying to Olivine City.
-- **Current Status**: Cursor at Cherrygrove. Moving Left to find Olivine.
+- **Current Status**: Cursor at Cherrygrove. Navigating West (Left) to reach Olivine.
