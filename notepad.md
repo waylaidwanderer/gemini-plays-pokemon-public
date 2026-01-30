@@ -2,22 +2,21 @@
 - Started: Friday, January 16, 2026
 
 ### Current Status
-- **Location**: New Bark Town (Map 24_4).
-- **Goal**: Fly to Olivine City.
-- **Current Action**: Manually navigating Fly menu to avoid cursor errors.
-- **Plan**: Open Menu -> Select Pokemon -> Select Topaz -> Fly.
+- **Location**: Olivine City (Map 1_14).
+- **Goal**: Talk to Jasmine at the top of the Lighthouse.
+- **Next Step**: Enter Lighthouse -> Climb to 6F.
 
-### Navigation Logic
-- **Start Menu**: POKEDEX, POKEMON, PACK, POKEGEAR, STATUS, SAVE, OPTION, EXIT.
-- **Cursor Memory**: Likely on SAVE. Needs verification.
+### Objectives
+- **Primary**: Obtain SecretPotion from Cianwood Pharmacy.
+- **Secondary**: Heal Amphy at the Lighthouse.
+- **Tertiary**: Return to Cianwood Pharmacy.
 
-### Recent Reflection
-- **Progress**: Arrived in Cianwood, defeated Chuck, got Storm Badge and Fly.
-- **Correction**: The Pharmacist dialogue loop confirms I need to trigger the "Jasmine sent me" flag.
-- **Plan**: Fly to Olivine -> Climb Lighthouse -> Talk to Jasmine -> Return to Cianwood.
-- **Strategy**: Exit Pharmacy -> Fly to Olivine -> Climb Lighthouse -> Talk to Jasmine.
+### Important Notes
+- **Mechanic**: The Pokémon menu remembers the last cursor position. Re-entering it does NOT reset to Slot 1.
+- **Mechanic**: Fly map uses List Selection (Up/Down) for towns, not spatial movement.
+- **Quest State**: Pharmacist in Cianwood only gave lore. Must confirm "Jasmine sent me" flag by speaking to her again.
 
-### Lighthouse Navigation (For Return)
+### Lighthouse Navigation (For Ascent)
 - **Route to Top**:
   1. **1F -> 2F**: Stairs at (3,11).
   2. **2F -> 3F**: Stairs at (5,3).
@@ -26,11 +25,3 @@
   5. **3F (Center) -> 4F (Center)**: Stairs at (9,5).
   6. **4F (Center) -> 5F (Center)**: Stairs at (9,7).
   7. **5F (Center) -> 6F**: Stairs at (9,15).
-- **Interrupt**: Phone call from Chad interrupted the Pharmacist interaction. Must finish call and retry.
-- **Suspicion**: Validated. Pharmacist loop confirmed missing flag.
-- **Observation**: The Fly map cursor seems to wrap around. Pressing 'Right' from Cianwood (West edge) sent me to New Bark Town (East edge).
-- **Navigation**: Trying 'Left' x4 from New Bark Town to reach Olivine City.
-- **Mechanic Note**: The Pokémon menu remembers the last cursor position. Re-entering it does NOT reset to Slot 1. Always verify cursor start position.
-- **Correction**: Misinterpreted menu state in Turn 18999, causing accidental SURF attempt. Corrected by backing out and manually selecting Topaz.
-- **Navigation Update**: Pressing 'Left' from New Bark Town had no effect. It seems the map does not wrap West from the start. Trying 'Right' to move East towards Cherrygrove.
-- **Navigation Hypothesis**: The Fly map might be controlled by a list selection (Up/Down) rather than spatial movement (Left/Right), indicated by the red arrows on the UI. Testing 'Up'.
