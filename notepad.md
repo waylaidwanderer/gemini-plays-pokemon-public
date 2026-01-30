@@ -26,6 +26,7 @@
 - **Fly Map**: Grid based. New Bark (East) -> Cherrygrove -> Violet -> Ecruteak -> Olivine (West).
 
 ### Current Status
-- **Current Status**: Pharmacist Dialogue "You came from OLIVINE?".
-- **Immediate Goal**: Confirm "Yes" to receive SecretPotion.
-- **Action**: Pressing 'A' to confirm selection. Previous turn screen showed the question. Expecting item next.
+- **Current Status**: Dialogue Loop Confirmed. NO POTION received.
+- **Diagnosis**: Likely failed to fully accept Jasmine's quest (backed out of dialogue too early).
+- **Plan**: Fly back to Olivine, speak to Jasmine properly, then return.
+- **Immediate Action**: Close dialogue and exit.
