@@ -26,6 +26,6 @@
 - **Fly Map**: Grid based. New Bark (East) -> Cherrygrove -> Violet -> Ecruteak -> Olivine (West).
 
 ### Current Status
-- **Current Status**: Target 'OLIVINE CITY' locked on Fly Map.
-- **Discovery**: Fly Map uses UP/DOWN list navigation. UP advances list.
-- **Plan**: Press A to Fly to Olivine. Then head to Lighthouse.
+- **Current Status**: Arrived in Olivine City (13, 22).
+- **Immediate Goal**: Head to Mart (19, 17) to sell HP Up, then Lighthouse (29, 27).
+- **Navigation**: Move East/North to Mart.
