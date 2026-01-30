@@ -26,6 +26,6 @@
 - **Fly Map**: Grid based. New Bark (East) -> Cherrygrove -> Violet -> Ecruteak -> Olivine (West).
 
 ### Current Status
-- **Current Status**: Lighthouse 4F Center (3_45). Interrupted by Arnie's call.
-- **Immediate Goal**: Finish call, then take Stairs at (9, 7).
-- **Navigation**: Clear dialogue -> Down x2.
+- **Current Status**: Lighthouse 4F Center (3_45).
+- **Immediate Goal**: Finish Arnie's call, then take Stairs at (9, 7) to 5F.
+- **Navigation**: Down x2 to stairs.
