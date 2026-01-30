@@ -36,6 +36,5 @@
   7. **5F (Center) -> 6F**: Stairs at (9,15).
 - **Confirmed**: Goldenrod Dept Store 2F was unstaffed. 3F sells Battle Items only.
 - **Plan**: Fly to Ecruteak Mart for Revives. Then back to Olivine.
-- **Fly Map Mechanics**: The cursor animation blocks input. Sending multiple directions in one turn causes inputs to be "eaten". Always use single inputs or long delays.
-- **Route 36 Navigation**: Avoid targeting Gate tiles directly with BFS; target the tile adjacent to them.
-- **Current Status**: On Route 36 (Walking to Ecruteak).
+- **Navigation**: Walking to Ecruteak City via Route 36. Investigating path North near X=21 (Possible Cut Trees).
+- **Current Status**: On Route 36 (Near National Park Gate).
