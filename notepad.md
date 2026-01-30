@@ -28,3 +28,5 @@
   7. **5F (Center) -> 6F**: Stairs at (9,15).
 - **Reflection (Turn 19040)**: Encountered Sailor Huey. Switched to Basil (Bellsprout) to handle Poliwag.
 - **Concern**: My starter (Quilava/Typhlosion) is missing from the Party and Box 1 list. Must check other PC boxes ASAP after this mission.
+- **Combat Note**: Basil (Bellsprout) lacks a Grass-type attack (only PoisonPowder, Growth, Cut, Sleep Powder). This limits his effectiveness against Water types despite the resistance.
+- **Inventory Warning**: No Potions or HP recovery items in inventory. Must rely on Pokemon Center.
