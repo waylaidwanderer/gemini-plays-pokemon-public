@@ -26,6 +26,6 @@
 - **Fly Map**: Grid based. New Bark (East) -> Cherrygrove -> Violet -> Ecruteak -> Olivine (West).
 
 ### Current Status
-- **Current Status**: Resetting Fly Map to ensure input control.
-- **Situation**: Cursor stuck at New Bark. Previous inputs failed.
-- **Plan**: Press B (Close Map), A (Open Map), Left x4 (to Olivine).
+- **Current Status**: Target 'OLIVINE CITY' locked on Fly Map.
+- **Discovery**: Fly Map uses UP/DOWN list navigation. UP advances list.
+- **Plan**: Press A to Fly to Olivine. Then head to Lighthouse.
