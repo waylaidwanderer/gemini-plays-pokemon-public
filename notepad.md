@@ -29,30 +29,7 @@
   5. **3F (Center) -> 4F (Center)**: Stairs at (9,5).
   6. **4F (Center) -> 5F (Center)**: Stairs at (9,7).
   7. **5F (Center) -> 6F**: Stairs at (9,15).
-- **Reflection (Turn 19040)**: Encountered Sailor Huey. Switched to Basil (Bellsprout) to handle Poliwag.
-- **Concern**: My starter (Quilava/Typhlosion) is missing from the Party and Box 1 list. Must check other PC boxes ASAP after this mission.
-- **Combat Note**: Basil (Bellsprout) lacks a Grass-type attack (only PoisonPowder, Growth, Cut, Sleep Powder). This limits his effectiveness against Water types despite the resistance.
-- **Inventory Warning**: No Potions or HP recovery items in inventory. Must rely on Pokemon Center.
-- **Combat Update**: Topaz fainted against Poliwhirl. Headache (Psyduck) is now the active Pokemon.
-- **Strategy**: Using Surf despite resistance because it deals more damage than Scratch due to STAB and Base Power.
-- **Battle Mechanic**: Main Battle Menu (FIGHT/PKMN/PACK/RUN) remembers the last cursor position (e.g., if you tried to RUN, it stays on RUN).
-- **Navigation Trick**: Pressing `Left` then `Up` in the Main Battle Menu reliably resets the cursor to `FIGHT` (Top-Left), regardless of whether it started on RUN, PACK, or PKMN (assuming no wrap-around).
-- **Battle Strategy Update**: Sending Spinarak (15/37 HP) to tank a hit.
-- **Next Turn**: Use REVIVE on Basil (Bellsprout). Basil is the only one who can resist Water and deal damage (Cut/Growth).
-- **Correction**: Basil is ALIVE (5/46 HP) but unusable without potions.
-- **Strategy Change**: Using REVIVE on Headache (Psyduck). Headache resists Water and can tank Poliwhirl's bubbles significantly better than anyone else.
-- **Tactic**: Spinarak acts as the sacrifice to allow the item use.
-- **Status Update**: Headache took ~7 damage on switch-in (10/34 HP). Poliwhirl is faster.
-- **Action**: Using SURF. Hope it KO's or Headache survives one more hit (approx 3 HP margin).
-- **Combat Crisis**: Headache fainted to a Crit.
-- **Action**: Sending Spinarak (7/37 HP) back in.
-- **Hope**: Poliwhirl uses Hypnosis or misses. If Spinarak survives, I will use a Revive on Topaz or Basil (if he faints).
-- **Correction**: Successfully sent out Spinarak. Currently in Item Menu.
-- **Action**: Using Revive on Headache. Spinarak will likely faint this turn, but Headache will be ready to switch in.
-- **Combat Update**: Spinarak fainted. Headache (17/34 HP) is the last hope.
-- **Plan**: Switch to Headache. Use SURF.
-- **Bug/Issue**: Turn 19128 - Navigated from 2F to 1F, then attempted to walk to exit. GameState shows I remained at (3, 11) despite buttons being pressed. Possible input drop during map transition. Retrying navigation.
-- **Reflection (Turn 19145)**: Realized I failed to heal earlier. Prioritizing finding Typhlosion in PC.
-- **Mechanic Reminder**: In Gen 2, switching PC boxes requires SAVING the game. Do not be alarmed by the save prompt.
-- **Goal Refinement**: Check Box 2 for Typhlosion -> Withdraw -> HEAL properly.
-- **Turn 19188**: Struggling to get Nurse Joy to heal. Mashing 'A' hasn't worked. Resetting position (Down/Up) and trying again with deliberate presses.
+- **Reflection (Turn 19196)**: Recovered Typhlosion from PC bug. Currently trying to heal but got interrupted by Arnie. Need to finish healing, reorder party, and buy supplies.
+- **Quest Status**: Pharmacist gave lore, no potion.
+- **Hypothesis**: Must speak to Jasmine again to confirm the quest flag or trigger a specific dialogue state.
+- **Immediate Plan**: Heal -> Reorder Party (Garnet lead) -> Mart -> Lighthouse (Talk to Jasmine).
