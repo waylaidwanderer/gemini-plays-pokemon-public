@@ -4,8 +4,9 @@
 ### Current Status
 - **Location**: Cianwood Pharmacy (Map 22_9).
 - **Goal**: Talk to the Green-Haired NPC.
-- **Issue**: The Pharmacist is the **Green-Haired Guy** wandering near (6, 5). The "guy behind the counter" is a TV. I need to talk to the Green-Haired Guy again and answer "YES" to "You came from OLIVINE?".
-- **NPCs**: Pharmacist (Green Hair) wandering near (6, 5). Lady at (0, 2).
+- **Item**: Obtained **Silver Wing** from the customer at (7, 5).
+- **Issue**: The Pharmacist is the guy at (2, 1). I need to talk to him and answer **YES** to "You came from OLIVINE?".
+- **NPCs**: Pharmacist at (2, 1). Customer (Green Hair) at (7, 5). Lady at (0, 2).
 
 - **Key Items**: No SecretPotion found in inventory.
 
