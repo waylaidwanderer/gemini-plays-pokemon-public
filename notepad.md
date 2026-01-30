@@ -8,16 +8,15 @@
 
 ### Objectives
 - **Primary**: Obtain SecretPotion from Cianwood Pharmacy.
-- **Secondary**: Heal Amphy at the Lighthouse.
-- **Tertiary**: Return to Cianwood Pharmacy.
+- **Secondary**: Heal party at Ecruteak or Goldenrod Pokemon Center (Olivine PC suspect).
+- **Tertiary**: Ascend Lighthouse to speak to Jasmine.
 
 ### Important Notes
-- **Mechanic**: The Pokémon menu remembers the last cursor position. Re-entering it does NOT reset to Slot 1.
-- **Mechanic**: Fly map uses List Selection (Up/Down) for towns, not spatial movement.
-- **Critical Success**: Garnet (Typhlosion) retrieved! He is in Slot 6 (135/135 HP).
-- **Immediate Goal**: Heal the rest of the team at the Pokemon Center.
-- **Next Step**: Exit Center -> Buy Potions -> Return to Cianwood or call Jasmine?
-- **Quest State**: Pharmacist in Cianwood only gave lore. Soft-lock suspicion. Plan: Talk to Jasmine again to reset/confirm flag.
+- **Mechanic**: The Pokémon menu remembers the last cursor position.
+- **Critical Success**: Garnet (Typhlosion) retrieved!
+- **Immediate Goal**: Revive Topaz -> Fly to Ecruteak/Goldenrod -> Heal -> Return.
+- **Quest State**: Pharmacist in Cianwood only gave lore.
+- **Hypothesis**: Must speak to Jasmine again to confirm the quest flag.
 
 ### Lighthouse Navigation (For Ascent)
 - **Map IDs**: 1F = 3_42, 2F = 3_43.
