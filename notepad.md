@@ -36,5 +36,5 @@
   7. **5F (Center) -> 6F**: Stairs at (9,15).
 - **Confirmed**: Goldenrod Dept Store 2F was unstaffed. 3F sells Battle Items only.
 - **Plan**: Fly to Ecruteak Mart for Revives. Then back to Olivine.
-- **Navigation**: Moving North on Column 8. The "barriers" at Row 5 are Tall Grass (TYPE_fed7), not ledges.
-- **Current Status**: Navigating to (8, 0) via Col 8. Expecting battle with Twins.
+- **Navigation**: Moving North on Column 8.
+- **Current Status**: In battle with Wild Pidgey. Running away.
