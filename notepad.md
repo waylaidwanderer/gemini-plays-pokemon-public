@@ -2,12 +2,11 @@
 - Started: Friday, January 16, 2026
 
 ### Current Status
-- **Location**: Cianwood Pharmacy (Map 22_9).
-- **Goal**: Obtain SecretPotion from Pharmacist at (2, 4).
-- **Correction**: The Pharmacist only gives lore about Whirl Islands. This confirms the "Jasmine sent me" flag is NOT set.
-- **Action**: Leaving Cianwood Pharmacy immediately.
-- **Plan**: Fly to Olivine -> Climb Lighthouse -> Talk to Jasmine -> Return to Cianwood.
-- **NPCs**: Pharmacist (Red Hair) at (2, 4). Customer (Green Hair) at (7, 5). Lady at (0, 2).
+- **Location**: New Bark Town (Map 24_4).
+- **Goal**: Fly to Olivine City.
+- **Correction**: Accidentally flew to New Bark Town. Correcting course.
+- **Plan**: Open Fly Map -> Navigate to Olivine -> Fly.
+- **NPCs**: Mom is here.
 
 ### Recent Reflection
 - **Progress**: Arrived in Cianwood, defeated Chuck, got Storm Badge and Fly.
