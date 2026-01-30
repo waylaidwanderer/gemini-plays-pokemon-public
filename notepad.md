@@ -14,8 +14,8 @@
 ### Important Notes
 - **Mechanic**: The Pokémon menu remembers the last cursor position. Re-entering it does NOT reset to Slot 1.
 - **Mechanic**: Fly map uses List Selection (Up/Down) for towns, not spatial movement.
-- **Critical Issue**: Typhlosion missing from Party and Box 1. Checking Box 2 via PC.
-- **Quest Update**: Failed to heal at Center (mashed too fast?). HP still critical. Must heal after checking PC.
+- **Critical Issue**: Found Typhlosion (Garnet) in Box 1! Game State updated to show 14 Pokemon.
+- **Immediate Action**: Withdraw Garnet (Slot 14) -> HEAL.
 - **Quest State**: Pharmacist in Cianwood only gave lore. Must confirm "Jasmine sent me" flag by speaking to her again.
 
 ### Lighthouse Navigation (For Ascent)
