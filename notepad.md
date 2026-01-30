@@ -4,8 +4,9 @@
 ### Current Status
 - **Location**: Cianwood Pharmacy (Map 22_9).
 - **Goal**: Talk to the Green-Haired NPC.
-- **Issue**: The Pharmacist at (2, 1) (Guy) discusses the Whirl Islands. He asked "You came from OLIVINE?" once. I need to answer YES correctly.
-- **NPCs**: Guy at (2, 1), Lady at (0, 2). Lady talks about picture books (shelves).
+- **Issue**: The Pharmacist is the Green-Haired NPC wandering near (6, 5). He discusses Whirl Islands. I need to answer "YES" to his question about Olivine.
+- **NPCs**: Wandering Guy (Pharmacist) near (6, 5). Lady at (0, 2).
+
 - **Key Items**: No SecretPotion found in inventory.
 
 ### Objectives
