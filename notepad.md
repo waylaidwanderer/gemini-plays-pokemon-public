@@ -26,7 +26,6 @@
 - **Fly Map**: Grid based. New Bark (East) -> Cherrygrove -> Violet -> Ecruteak -> Olivine (West).
 
 ### Current Status
-- **Current Status**: Inside Olivine Lighthouse 1F. Retrying ascent.
-- **Immediate Goal**: Reach Stairs to 2F at (3, 11).
-- **Reason**: Need to confirm Jasmine's quest flag.
-- **Route**: 1F -> 2F -> 3F -> 4F (Right) -> 3F (Center) -> 4F (Center) -> 5F -> 6F.
+- **Current Status**: Lighthouse 2F (3_43). Ascending.
+- **Immediate Goal**: Reach Stairs to 3F at (5, 3).
+- **Navigation**: Walk Up/Right avoiding holes. BFS active.
