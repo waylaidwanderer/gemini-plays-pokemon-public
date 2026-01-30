@@ -36,5 +36,5 @@
   7. **5F (Center) -> 6F**: Stairs at (9,15).
 - **Confirmed**: Goldenrod Dept Store 2F was unstaffed. 3F sells Battle Items only.
 - **Plan**: Fly to Ecruteak Mart for Revives. Then back to Olivine.
-- **Navigation**: Inside Ecruteak Mart. Cleared phone call. Positioned at (3, 4) facing Left to speak to the clerk at (2, 4).
-- **Current Status**: Initiating dialogue with clerk.
+- **Navigation**: Inside Ecruteak Mart. Moving to the counter at (2, 5) to speak to the clerk (likely at 1, 5).
+- **Current Status**: Moving to the counter.
