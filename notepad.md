@@ -55,7 +55,10 @@
   1. Take Stairs at (9, 5) UP to 4F Center.
   2. Take Stairs at 4F (9, 7) UP to 5F Center.
   3. Take Stairs at 5F UP to 6F (Top).
-### Status Update (Turn 18567)
-- **Success**: Ascended from 3F (9, 5) to **4F Center** at (9, 5).
-- **Route Confirmed**: The Center Column of the Lighthouse is a vertical shaft accessible only via the "Sailor Room" on 3F.
-- **Next Step**: Take stairs at (9, 7) to reach **5F Center**, then hopefully 6F.
+### Status Update (Turn 18568)
+- **Success**: Reached **6F (Top)** of Glitter Lighthouse (Map 3_47).
+- **Location**: Entrance at (9, 15).
+- **Goal**: Talk to Jasmine and Amphy at (8-9, 8).
+- **Previous Route Summary**:
+  - 3F (Sailor Room) -> 4F (Center) -> 5F (Center) -> 6F.
+- **Next Step**: Interact with Jasmine to initiate the medication quest or heal Amphy.
