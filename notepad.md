@@ -12,10 +12,10 @@
 
 ### Quest Log
 - **SecretPotion**: Pharmacist gives generic "Whirl Islands" text. Implies Jasmine flag was not fully set.
-- **Lighthouse Quest**: 
-  - Spoke to Jasmine on 6F.
-  - Flag set for SecretPotion.
-  - Next: Get Potion from Cianwood.
+- **Cianwood City**:
+  - **Goal**: Get SecretPotion from Pharmacy (15, 37).
+  - **Next**: Fly back to Olivine.
+  - **Note**: Jasmine flag is set. Potion should be available.
 
 ### Important Locations
 - **Cianwood Pharmacy**: (15, 37) in Cianwood.
