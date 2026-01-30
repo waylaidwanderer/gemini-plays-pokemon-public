@@ -2,8 +2,13 @@
 - Started: Friday, January 16, 2026
 
 ### Current Status
-- **Location**: Olivine City Pokémon Center (Map 1_1).
-- **Goal**: Heal, verify Jasmine flag, then return to Cianwood.
+- **Location**: Glitter Lighthouse 3F (Map 3_44).
+- **Goal**: Explore 3F and find the path forward (previously marked as Dead End, need to verify).
+
+### Reflection (Turn 18260)
+- **Progress**: Wasted time looking for a non-existent Graveler and backtracking.
+- **Correction**: Systematic exploration of Lighthouse required. 3F is not just a balcony; it has a trainer.
+- **Hygiene**: Cleaning up misleading markers.
 
 ### Objectives
 - **Primary**: Defeat Chuck (Cianwood Gym).
