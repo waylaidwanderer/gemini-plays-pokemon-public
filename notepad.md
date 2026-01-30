@@ -42,3 +42,5 @@
 - **Next Step**: Falling from 5F (16,7) to 4F. Expecting to land in the Right Section of 4F.
 - **Progress**: Fell from 5F (16,7) to 4F (16,7).
 - **Next Step**: Falling from 4F (16,9) to 3F. This should land me in the Right Section of 3F.
+- **Progress**: Fell to 3F (16,9). This area connects to the stairs UP to 4F at (13,3) and the cross-over path at Row 14.
+- **Exit Strategy**: Check for items here, then walk South to Row 14, cross to Left Side, and take stairs at (5,3) down to 2F.
