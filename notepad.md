@@ -26,6 +26,6 @@
 - **Fly Map**: Grid based. New Bark (East) -> Cherrygrove -> Violet -> Ecruteak -> Olivine (West).
 
 ### Current Status
-- **Current Status**: Digging out of Lighthouse.
-- **Immediate Goal**: Wait for warp to Olivine City.
-- **Next Step**: Fly to Cianwood City.
+- **Current Status**: Outside Olivine Lighthouse (1_14).
+- **Immediate Goal**: Fly to Cianwood City using Topaz (Slot 3).
+- **Navigation**: Start -> Pokemon -> Topaz -> Fly -> Navigate Map.
