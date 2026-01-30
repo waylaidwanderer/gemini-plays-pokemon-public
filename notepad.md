@@ -55,3 +55,4 @@
 - **Reflection (Turn 19145)**: Realized I failed to heal earlier. Prioritizing finding Typhlosion in PC.
 - **Mechanic Reminder**: In Gen 2, switching PC boxes requires SAVING the game. Do not be alarmed by the save prompt.
 - **Goal Refinement**: Check Box 2 for Typhlosion -> Withdraw -> HEAL properly.
+- **Turn 19188**: Struggling to get Nurse Joy to heal. Mashing 'A' hasn't worked. Resetting position (Down/Up) and trying again with deliberate presses.
