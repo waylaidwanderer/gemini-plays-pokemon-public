@@ -39,3 +39,5 @@
 - **Correction**: Basil is ALIVE (5/46 HP) but unusable without potions.
 - **Strategy Change**: Using REVIVE on Headache (Psyduck). Headache resists Water and can tank Poliwhirl's bubbles significantly better than anyone else.
 - **Tactic**: Spinarak acts as the sacrifice to allow the item use.
+- **Status Update**: Headache took ~7 damage on switch-in (10/34 HP). Poliwhirl is faster.
+- **Action**: Using SURF. Hope it KO's or Headache survives one more hit (approx 3 HP margin).
