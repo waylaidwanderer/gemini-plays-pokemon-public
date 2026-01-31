@@ -23,7 +23,7 @@
 - **Menu Memory**: Menus remember cursor position. Reset with UP/DOWN mash.
 - **Fly Map**: Use UP/DOWN to cycle towns. List: New Bark -> Cherrygrove -> Violet -> Azalea -> Goldenrod -> Ecruteak -> Olivine -> Cianwood.
 
-### Active Quest: Medicine
-- **Task**: Retrieve SecretPotion from Cianwood Pharmacy.
-- **Status**: Delivering SecretPotion to Jasmine on Top Floor.
-- **Plan**: Talk to Jasmine -> Heal Amphy -> Gym Challenge.
+### Active Quest: Gym Challenge
+- **Task**: Defeat Jasmine in Olivine Gym.
+- **Status**: Medicine delivered. Jasmine returned to Gym.
+- **Plan**: Descend Lighthouse -> Heal -> Go to Gym.
