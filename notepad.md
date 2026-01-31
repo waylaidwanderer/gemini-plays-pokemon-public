@@ -25,7 +25,8 @@
 - **Mt. Mortar Progress**:
   - Path: Entrance (9, 1) -> Connector (9_3) -> Main Cave (9_5).
   - Current Location: Mt. Mortar 1F (9_5).
-  - Goal: Navigate East/North to find the exit to Mahogany Town.
+  - **Blocked**: North path at (9, 26) blocked by non-hostile Super Nerd.
+  - **Plan**: Retreat South to (9, 32) and check East for item/path.
   - Notes:
     - (5, 5) on Route 42 is a LEDGE, not a cut tree.
     - Gatehouse at (17, 7) on Route 42 is a dead end.
