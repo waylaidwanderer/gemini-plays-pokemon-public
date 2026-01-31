@@ -23,7 +23,7 @@
 
 ### Game Mechanics
 - **Menu Memory**: Menus remember cursor position. Reset with UP/DOWN mash.
-- **Fly Map**: Grid based. New Bark (East) -> Cherrygrove -> Violet -> Ecruteak -> Olivine (West).
+- **Fly Map**: Use UP/DOWN to cycle towns. List: New Bark -> Cherrygrove -> Violet -> Azalea -> Goldenrod -> Ecruteak -> Olivine -> Cianwood.
 
 ### Active Quest: Medicine
 - **Task**: Retrieve SecretPotion from Cianwood Pharmacy.
