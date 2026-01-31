@@ -28,6 +28,6 @@
 ### Current Status
 - **Current Status**: New Bark Town (24_4).
 - **Immediate Goal**: Fly to Cianwood City.
-- **Navigation**: Open Menu -> Pokemon -> Topaz -> Fly -> Cianwood.
+- **Navigation**: Correct Pokemon (Topaz) -> Fly -> Left x5 -> A.
 - **Critical**: Get SecretPotion from Pharmacist.
-- **Note**: Accidental flight to New Bark. Cianwood is West-most. From New Bark, press Left 5 times.
+- **Note**: Currently on Headache's menu (Surf). Need to switch to Topaz.
