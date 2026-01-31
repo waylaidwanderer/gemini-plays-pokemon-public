@@ -26,7 +26,7 @@
 - **Fly Map**: Grid based. New Bark (East) -> Cherrygrove -> Violet -> Ecruteak -> Olivine (West).
 
 ### Current Status
-- **Current Status**: Lighthouse 6F (3_47).
-- **Immediate Goal**: Dig out and Fly to Cianwood.
-- **Navigation**: Use Dig (Garnet) -> Fly to Cianwood.
-- **Critical**: Medicine quest should be active now.
+- **Current Status**: Olivine City (1_14).
+- **Immediate Goal**: Fly to Cianwood City.
+- **Navigation**: Open Menu -> Pokemon -> Topaz -> Fly -> Cianwood.
+- **Critical**: Get SecretPotion from Pharmacist.
