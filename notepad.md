@@ -24,9 +24,9 @@
   - Gatehouse at (17,7) is a dead end.
 - **Hiker Benjamin**:
   - Located at x=19, moves between y=8 and y=9.
-  - Blocks one path at a time.
+  - Currently at (19, 8).
   - **Strategy**: 
     1. Clear dialogue completely (Press B/A). 
     2. Wait for next turn to confirm position. 
     3. Move through the open lane.
-  - **Status**: Wasted 900 yen on 3 candies. STOP BUYING.
+  - **Status**: Wasted 1200 yen on 4 candies. STOP BUYING.
