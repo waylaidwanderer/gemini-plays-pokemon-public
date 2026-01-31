@@ -28,6 +28,6 @@
 ### Current Status
 - **Current Status**: New Bark Town (24_4).
 - **Immediate Goal**: Fly to Cianwood City.
-- **Navigation**: Reset Menu (B x3) -> Start -> Select Pokemon -> Topaz -> Fly.
+- **Navigation**: Back out of error -> Select Topaz (Slot 3) -> Fly -> Map Left x6 -> A.
 - **Critical**: Get SecretPotion from Pharmacist.
-- **Note**: Previous fly attempts failed. Resetting UI state to ensure clean execution.
+- **Note**: Correcting menu selection from Headache (Slot 5) to Topaz (Slot 3).
