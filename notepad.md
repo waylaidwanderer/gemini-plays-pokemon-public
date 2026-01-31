@@ -7,5 +7,5 @@
 
 ### Quest Status
 - **Badge #6 (Mineral Badge)**: Obtained.
-- **Current Task**: Transit (Cherrygrove -> Ecruteak).
+- **Current Task**: Transit (Violet -> Ecruteak).
 - **Next Step**: Fly to Ecruteak City.
