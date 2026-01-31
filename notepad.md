@@ -1,6 +1,6 @@
 # Pokémon Crystal Playthrough
 - Started: Friday, January 16, 2026
-- Current Leg: Violet City Healing Detour
+- Current Leg: Route 42 Surfing
 - Current Task: Surf from Ecruteak to Mahogany via Route 42
 - **Gym**: Located at (7, 13).
 - **Lake of Rage**: Locals mention it (Route 43 North).
