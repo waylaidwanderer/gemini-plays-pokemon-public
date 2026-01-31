@@ -49,4 +49,5 @@
 - Checking if this is a trainer battle or just lore.
 - Mt. Mortar Inner (9_6) blocked by "Angry Gyarados" event.
 - Team Rocket at Gatehouse (9_4) charges ¥1000 toll. Avoiding.
-- Plan: Surf East from Route 42 to reach Mahogany Town.
+- Current Task: Surf East from Route 42 to reach Mahogany Town.
+- Note: Surf interaction requires standing still and facing the water before pressing A.
