@@ -9,3 +9,4 @@
 - **Badge #6 (Mineral Badge)**: Obtained.
 - **Current Task**: Transit (Violet -> Ecruteak).
 - **Next Step**: Fly to Ecruteak City.
+- **Game Mechanic**: Party menu cursor remembers the last selected Pokémon position. Be careful when navigating!
