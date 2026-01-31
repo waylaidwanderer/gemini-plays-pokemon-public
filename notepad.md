@@ -44,3 +44,4 @@
 - Trainer ahead at (14, 7).
 - Trainer at (14, 7) mentions "Some SILVE guy" (Rival) passed through here.
 - Defeated Pokemaniac Ben at (13, 5). Path East is blocked, must go West to bypass.
+- Investigating possible exit at (10, 0) in Mt. Mortar 1F.
