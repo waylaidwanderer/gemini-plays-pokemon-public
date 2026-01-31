@@ -32,7 +32,8 @@
   - **Status**: Wasted 1200 yen on 4 candies. STOP BUYING.
 - Tile Type `TYPE_a336` confirmed as Cut Tree.
 - Attempting to Cut tree at (9, 5) using deliberate interaction to avoid movement cancellation.
-- Found upper path at Row 3!
-- Bypassed the RageCandyBar Hiker by going North around the cuttable trees.
-- Cave entrance spotted at (9, 1). Likely another Mt. Mortar entrance.
-- Path East on Row 3 seems clear.
+- Upper path at Row 3 is a DEAD END (Blocked by trees at x=16).
+- Must return to Route 42 main path by Cutting tree at (15, 7).
+- Hiker Benjamin (x=19) is the only way East. MUST PASS HIM without buying candy.
+- Use 'B' to cancel dialogue with Hiker.
+- Cave at (9, 1) is unexplored.
