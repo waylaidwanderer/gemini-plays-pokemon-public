@@ -6,4 +6,5 @@
 
 ### Quest Status
 - **Badge #6 (Mineral Badge)**: Obtained.
-- **Next Step**: Heal at Center, then travel to Mahogany Town.
+- **Current Task**: Healing at Olivine Center.
+- **Next Step**: Travel to Mahogany Town.
