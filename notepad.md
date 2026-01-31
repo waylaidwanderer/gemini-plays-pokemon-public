@@ -11,15 +11,13 @@
 - **Lighthouse**: Route to top documented below.
 
 ### Lighthouse Navigation (Ascent)
-- **Map IDs**: 1F=3_42, 2F=3_43, 3F=3_44, 4F=3_45, 5F=3_47, 6F=??.
+- **Map IDs**: 1F=3_42, 2F=3_43, 3F=3_44, 4F=3_45, 5F=3_47 (Top Floor).
 - **Route**:
   1. 1F->2F: Stairs (3,11).
   2. 2F->3F: Stairs (5,3).
   3. 3F->4F: Stairs (13,3) (Right).
-  4. 4F->3F (Center): Drop hole (9,3) - *Verified: Actually stairs at (9,7)? No, navigated to (9,15) on 4F to warp to 5F?*
-  5. 3F (Center) -> 4F (Center): Stairs (9,5).
-  6. 4F (Center) -> 5F: Stairs (9,15).
-  7. 5F -> 6F: Find stairs (likely North).
+  4. 4F->5F (Top): Navigate to (9,15) on 4F -> Warp to 5F/6F.
+  5. Top Floor: Jasmine is here.
 
 ### Game Mechanics
 - **Menu Memory**: Menus remember cursor position. Reset with UP/DOWN mash.
@@ -27,5 +25,5 @@
 
 ### Active Quest: Medicine
 - **Task**: Retrieve SecretPotion from Cianwood Pharmacy.
-- **Status**: Jasmine event triggered.
-- **Plan**: Dig out -> Fly to Cianwood -> Pharmacy -> Return to Olivine.
+- **Status**: Delivering SecretPotion to Jasmine on Top Floor.
+- **Plan**: Talk to Jasmine -> Heal Amphy -> Gym Challenge.
