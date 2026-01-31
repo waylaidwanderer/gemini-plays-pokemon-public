@@ -16,3 +16,4 @@
 - **Fly Points**: Ecruteak (Unlocked).
 - **Mechanics**: Start/Party menus remember cursor position.
 - Bought RageCandyBar from Hiker Benjamin at Route 42 (19, 8) for ¥300.
+- Gatehouse at Route 42 (17, 7) appears to be a dead end with no exit to Mahogany Town. Must return to Route 42 and find another way (Surf?).
