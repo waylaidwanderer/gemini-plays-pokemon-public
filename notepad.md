@@ -26,8 +26,8 @@
 - **Fly Map**: Grid based. New Bark (East) -> Cherrygrove -> Violet -> Ecruteak -> Olivine (West).
 
 ### Current Status
-- **Current Status**: New Bark Town (24_4) - On Phone with Huey.
+- **Current Status**: New Bark Town (24_4) - Finishing Phone Call.
 - **Immediate Goal**: Finish call -> Fly to Cianwood.
 - **Navigation**: Advance Text -> Open Menu -> Pokemon -> Topaz -> Fly.
 - **Critical**: Get SecretPotion from Pharmacist.
-- **Note**: Interrupted by Sailor Huey call. Resuming Fly after.
+- **Note**: Clearing Sailor Huey's dialogue. Fly next turn.
