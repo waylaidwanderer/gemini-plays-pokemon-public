@@ -20,3 +20,8 @@
   - Explored 1F and Upper area partially.
   - "Angry Gyarados" event blocks inner path.
   - Exits known: (9, 51) West, (17, 35) Middle?
+- **Mahogany Town**:
+  - Nurse Joy is MISSING from the Pokemon Center. Cannot heal here.
+  - Gentleman reports Team Rocket at Lake of Rage.
+  - Team Rocket has returned.
+  - Need to investigate Lake of Rage (North).
