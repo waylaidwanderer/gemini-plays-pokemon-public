@@ -25,9 +25,6 @@
 - **Menu Memory**: Menus remember cursor position. Reset with UP/DOWN mash.
 - **Fly Map**: Grid based. New Bark (East) -> Cherrygrove -> Violet -> Ecruteak -> Olivine (West).
 
-### Current Status
-- **Current Status**: New Bark Town (24_4) - Party Menu.
-- **Immediate Goal**: Fly to Cianwood City.
-- **Navigation**: Select Topaz (Up x2 -> A) -> Select Fly (A).
-- **Critical**: Get SecretPotion from Pharmacist.
-- **Note**: Cursor on Headache (Slot 5). Moving to Topaz (Slot 3).
+### Active Quest: Medicine
+- **Status**: Jasmine/Amphy event re-triggered on Lighthouse 6F.
+- **Next Step**: Fly to Cianwood -> Speak to Pharmacist for SecretPotion.
