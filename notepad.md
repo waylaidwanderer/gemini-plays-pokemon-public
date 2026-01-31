@@ -26,6 +26,6 @@
 - **Fly Map**: Grid based. New Bark (East) -> Cherrygrove -> Violet -> Ecruteak -> Olivine (West).
 
 ### Current Status
-- **Current Status**: Lighthouse 4F (3_45).
-- **Immediate Goal**: Walk Left to the hole at (9, 3) and drop down.
-- **Route**: 4F (Right) -> 3F (Center).
+- **Current Status**: Lighthouse 3F Center (3_44). Landed from hole.
+- **Immediate Goal**: Take Stairs at (9, 5) to ascend to 4F Center.
+- **Route**: 3F (Center) -> 4F (Center) -> 5F -> 6F.
