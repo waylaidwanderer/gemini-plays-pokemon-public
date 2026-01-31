@@ -26,6 +26,7 @@
 - **Fly Map**: Grid based. New Bark (East) -> Cherrygrove -> Violet -> Ecruteak -> Olivine (West).
 
 ### Current Status
-- **Current Status**: Lighthouse 4F Center (3_45). Ascended from 3F.
-- **Immediate Goal**: Take Stairs at (9, 7) to ascend to 5F Center.
-- **Navigation**: Down x2 to (9, 7).
+- **Current Status**: Lighthouse 5F Center (3_46).
+- **Immediate Goal**: Reach Stairs to 6F at (9, 15).
+- **Navigation**: Walk South to (9, 15).
+- **Critical**: Must speak to Jasmine on 6F to confirm quest flag.
