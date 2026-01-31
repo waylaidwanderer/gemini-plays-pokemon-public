@@ -24,7 +24,6 @@
   - Gatehouse at (17,7) is a dead end.
 - **Hiker Benjamin**:
   - Located at x=19, moves between y=8 and y=9.
-  - Currently at (19, 8).
   - **Strategy**: 
     1. Clear dialogue completely (Press B/A). 
     2. Wait for next turn to confirm position. 
