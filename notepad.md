@@ -1,12 +1,7 @@
 # Pokémon Crystal Playthrough
 - Started: Friday, January 16, 2026
-- Current Leg: Route 42 Water Navigation
-
-### Objectives
-- **Primary**: Explore Mahogany Town.
-- **Secondary**: Unlock Fly Point at Mahogany.
-- **Tertiary**: Heal at Pokemon Center.
-- **Location**: Violet City (Healing Detour).
+- Current Leg: Violet City Healing Detour
+- Current Task: Heal Garnet via PC
 - **Gym**: Located at (7, 13).
 - **Lake of Rage**: Locals mention it (Route 43 North).
 - **Route 42**: Came from West.
