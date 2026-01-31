@@ -26,6 +26,6 @@
 - **Fly Map**: Grid based. New Bark (East) -> Cherrygrove -> Violet -> Ecruteak -> Olivine (West).
 
 ### Current Status
-- **Current Status**: Joey's call concluding (Lighthouse 3F).
-- **Immediate Goal**: Finish dialogue and move.
-- **Navigation**: Down to Row 14 -> Right -> Up to (13, 3).
+- **Current Status**: Joey's call finished. Resuming ascent.
+- **Immediate Goal**: Reach Stairs to 4F at (13, 3).
+- **Navigation**: Down to Row 14 -> Right -> Up to (13, 3). Using BFS.
