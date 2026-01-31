@@ -15,3 +15,4 @@
 ### Important Notes
 - **Fly Points**: Ecruteak (Unlocked).
 - **Mechanics**: Start/Party menus remember cursor position.
+- Bought RageCandyBar from Hiker Benjamin at Route 42 (19, 8) for ¥300.
