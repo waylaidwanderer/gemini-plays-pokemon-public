@@ -36,10 +36,8 @@ Reflection (Turn 20878):
 - Previous movement passed through the entrance tile (1,5) from the North without warping, suggesting directionality (must enter from South).
 - Current Position: (1,6). Plan: Move Up into (1,5).
 - Will teach Flash to Basil once inside.
-Reflection (Turn 20879):
-- Cave entrance at (1, 5) seems impassable or requires different interaction.
-- Tree at (4, 4) is effectively uncuttable due to menu/facing issues.
-- Realization: Path on Row 6 is open to the East.
-- Map analysis shows water around x=10. I have Surf.
-- The Fruit Tree at (15, 4) can likely be reached by Surfing to the eastern shore and walking up, bypassing the cut tree entirely.
-- Plan: Abandon Cut/Cave. Move East, Surf across water, reach Mahogany/Fruit Tree.
+Reflection (Turn 20882):
+- Abandoned Cut tree at (4, 4) due to interaction issues.
+- Corrected Hallucination: Tile TYPE_2889 at x=10 is Mountain/Cave, not water.
+- Current Position: (5, 6).
+- Plan: Investigate Mt. Mortar entrance at (9, 7) to bypass the blockage.
