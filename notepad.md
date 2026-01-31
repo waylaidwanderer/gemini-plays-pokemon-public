@@ -38,7 +38,9 @@
 - CRITICAL: Hiker Benjamin strategy FAILED. Abandoning direct pass attempt.
 - Retreating West to find alternate route (Surf or Mt. Mortar).
 - Upper path at Row 3 was a dead end.
-- Cave at (9, 1) is unexplored (Mt. Mortar?).
+- Entered Mt. Mortar via Route 42 (9, 1).
+- Current Map: Mt. Mortar 9_5. Start Position: (9, 51).
+- Exit back to Route 42 is at (9, 55).
 - Need to find a place to SURF.
 - bought 13 RageCandyBars. Waste of money.
 - Mt. Mortar entrance at (1, 5) is BLOCKED (Wall).
