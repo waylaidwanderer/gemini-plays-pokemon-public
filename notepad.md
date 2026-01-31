@@ -47,10 +47,6 @@
 - Investigating possible exit at (10, 0) in Mt. Mortar 1F.
 - NPC at (20, 26) mentions "The GYARADOS are angry!" (Lake of Rage hint).
 - Checking if this is a trainer battle or just lore.
-- NPC at (20, 26) in Mt. Mortar Inner (9_6) blocks the path, mentioning "The GYARADOS are angry!".
-- This path is a dead end due to the event flag.
-- Plan: Backtrack to (17, 31) -> Gatehouse -> (17, 35) -> (4, 7) -> Route 42.
-- Then use Surf on Route 42 to bypass the blockade.
-- Confirmed: Team Rocket at Gatehouse (9_4) forcibly takes ¥1000 every time you enter/trigger the event.
-- Avoiding this area to conserve money.
-- Plan: Exit South to Route 42 and Surf East.
+- Mt. Mortar Inner (9_6) blocked by "Angry Gyarados" event.
+- Team Rocket at Gatehouse (9_4) charges ¥1000 toll. Avoiding.
+- Plan: Surf East from Route 42 to reach Mahogany Town.
