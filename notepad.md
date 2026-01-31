@@ -26,7 +26,6 @@
 - **Fly Map**: Grid based. New Bark (East) -> Cherrygrove -> Violet -> Ecruteak -> Olivine (West).
 
 ### Active Quest: Medicine
-- **Status**: Pharmacist finished Whirl Islands lore.
-- **Immediate Goal**: Clear text -> Talk to Pharmacist AGAIN.
-- **Analysis**: Saw "You came from OLIVINE?" but have no Potion. Must confirm if he gives it on re-talk.
-- **Hypothesis**: Might have mashed past a prompt or the text was just a greeting.
+- **Task**: Return to Olivine Lighthouse to fix missing SecretPotion trigger.
+- **Status**: Pharmacist dialogue failed (Whirl Islands lore only).
+- **Log**: "You came from OLIVINE?" text seen but no item received.
