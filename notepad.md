@@ -36,3 +36,4 @@
 
 - **Route 43 (Map 9_5) Mechanic**: Tiles of `TYPE_fed7` are **WALKABLE**, even if they look like trees. This allows bypassing obstacles/trainers by walking through the "forest" edge.
 - **Map 9_6 Identification**: This is the **Lake of Rage** area (or entrance). It has water, rain/snow, and the "Angry Gyarados" event. It is NOT Mt. Mortar inner cave as previously thought.
+- Detour: Fly to Cherrygrove City to trade Red Scale for Exp. Share with Mr. Pokemon (Route 30). Then Fly to Mahogany.
