@@ -28,6 +28,6 @@
 ### Current Status
 - **Current Status**: New Bark Town (24_4).
 - **Immediate Goal**: Fly to Cianwood City.
-- **Navigation**: Map Open. Press Left x5 to reach Cianwood.
+- **Navigation**: Map Open. Retrying Left x5 to reach Cianwood (Inputs ignored last turn).
 - **Critical**: Get SecretPotion from Pharmacist.
-- **Note**: Verifying cursor position before confirming flight.
+- **Note**: Map is fully loaded now. Inputs should register.
