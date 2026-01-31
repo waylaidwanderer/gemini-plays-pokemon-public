@@ -26,7 +26,7 @@
   - Located at x=19, moves between y=8 and y=9.
   - Blocks one path at a time.
   - **Strategy**: 
-    1. Clear dialogue completely (Press B). 
+    1. Clear dialogue completely (Press B/A). 
     2. Wait for next turn to confirm position. 
     3. Move through the open lane.
   - **Status**: Wasted 900 yen on 3 candies. STOP BUYING.
