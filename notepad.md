@@ -36,5 +36,5 @@
   - Notes:
     - (5, 5) on Route 42 is a LEDGE, not a cut tree.
     - Gatehouse at Route 42 (17, 7) is a dead end.
-- Paid ¥1000 toll (?) to Team Rocket at Mahogany Gate (9_4).
+- Team Rocket grunts in Mahogany Gate (9_4) moved aside after interaction.
 - Proceeding North to Mahogany Town.
