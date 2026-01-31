@@ -43,3 +43,5 @@
 - Reached end of corridor at (18, 8). Path turns West.
 - Trainer ahead at (14, 7).
 - Trainer at (14, 7) mentions "Some SILVE guy" (Rival) passed through here.
+- Fighting Pokemaniac Ben (Slowbro).
+- Garnet's Dig/Mud-Slap are out of PP. Must use Flame Wheel (Bottom-Right).
