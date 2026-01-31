@@ -26,6 +26,7 @@
 - **Fly Map**: Grid based. New Bark (East) -> Cherrygrove -> Violet -> Ecruteak -> Olivine (West).
 
 ### Active Quest: Medicine
-- **Status**: In Cianwood Pharmacy. Pharmacist asked "You came from OLIVINE?".
-- **Immediate Goal**: Finish dialogue to receive SecretPotion.
-- **Next Step**: Fly to Olivine -> Return to Lighthouse 6F.
+- **Status**: Pharmacist finished Whirl Islands lore.
+- **Immediate Goal**: Clear text -> Talk to Pharmacist AGAIN.
+- **Analysis**: Saw "You came from OLIVINE?" but have no Potion. Must confirm if he gives it on re-talk.
+- **Hypothesis**: Might have mashed past a prompt or the text was just a greeting.
