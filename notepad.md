@@ -7,6 +7,5 @@
 
 ### Quest Status
 - **Badge #6 (Mineral Badge)**: Obtained.
-- **Current Task**: Transit (Violet -> Ecruteak).
 - **Next Step**: Fly to Ecruteak City.
 - **Game Mechanic**: Menus (Start, Party) remember the last selected position. Be careful when navigating!
