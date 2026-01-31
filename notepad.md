@@ -5,11 +5,12 @@
 ### Objectives
 - **Primary**: Reach Mahogany Town.
 - **Secondary**: Reach Ecruteak City & Unlock Fly Point.
-- **Immediate**: Traverse Route 42 Eastward to Mahogany Town.
+- **Immediate**: Land South at (20, 10) and continue East.
 
 ### Route 42 Status
 - Entered Turn 20657.
-- **Goal**: Go East.
+- **Current Action**: Surfing.
+- **Obstacle**: Wall at X=20 blocks direct East path. Detour South to land.
 
 ### Ecruteak City Status
 - **Fly Point**: UNLOCKED.
