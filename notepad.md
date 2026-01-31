@@ -3,11 +3,13 @@
 - Current Leg: Route 42 Water Navigation
 
 ### Objectives
-- **Primary**: Reach Mahogany Town (East).
+- **Primary**: Explore Mahogany Town.
 - **Secondary**: Unlock Fly Point at Mahogany.
-
-### Current Task
-- Surf East across Route 42 water to reach Mahogany.
+- **Tertiary**: Heal at Pokemon Center.
+- **Location**: Reached Mahogany Town (Map 2_7).
+- **Gym**: Located at (7, 13).
+- **Lake of Rage**: Locals mention it (Route 43 North).
+- **Route 42**: Came from West.
 
 ### Important Mechanics & Notes
 - **Hiker Benjamin**: Sells RageCandyBars at (19,8). STOP BUYING.
