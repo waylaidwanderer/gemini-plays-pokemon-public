@@ -2,12 +2,12 @@
 - Started: Friday, January 16, 2026
 
 ### Objectives
-- **Primary**: Obtain SecretPotion from Cianwood Pharmacy.
-- **Secondary**: Ascend Olivine Lighthouse to speak to Jasmine.
-- **Tertiary**: Sell valuable items (HP Up).
+- **Primary**: Deliver SecretPotion to Jasmine in Olivine Lighthouse.
+- **Secondary**: Sell valuable items (HP Up) at Olivine Mart.
+- **Tertiary**: Ascend Olivine Lighthouse.
 
 ### Quest Status
-- **Medicine**: Jasmine event re-triggered. Fly to Cianwood to get SecretPotion.
+- **Medicine**: Obtained SecretPotion from Cianwood Pharmacy (Map 22_7). Delivering to Jasmine.
 - **Lighthouse**: Route to top documented below.
 
 ### Lighthouse Navigation (Ascent)
