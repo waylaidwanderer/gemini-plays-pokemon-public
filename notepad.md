@@ -28,7 +28,8 @@
     - Defeated Pokemaniac Brent (11, 20). 
     - Bypassed Clefairy Fan (9, 26).
     - Collected Max Ether (12, 32).
-  - **Plan**: Jump ledge at Row 33, head to exit at (17, 35).
+    - Defeated Camper Spencer (13, 37).
+  - **Plan**: Exit via door at (17, 35).
   - **Exits**: 
     - (9, 51): Back to Route 42 West (Secret Path).
     - (17, 35): Target Exit (Likely Route 42 Middle/East).
