@@ -37,3 +37,4 @@
   - Previous history identifying this as Mt. Mortar was incorrect.
 
 - Northwest corner (0,4) is a dead end.
+- **Route 43 (Map 9_5) Mechanic**: Tiles of `TYPE_fed7` are **WALKABLE**, even if they look like trees. This allows bypassing obstacles/trainers by walking through the "forest" edge.
