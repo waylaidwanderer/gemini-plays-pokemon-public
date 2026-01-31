@@ -42,3 +42,4 @@
 - Currently in Upper Mt Mortar. Proceeding North.
 - Reached end of corridor at (18, 8). Path turns West.
 - Trainer ahead at (14, 7).
+- Trainer at (14, 7) mentions "Some SILVE guy" (Rival) passed through here.
