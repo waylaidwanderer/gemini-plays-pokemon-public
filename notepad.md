@@ -23,5 +23,6 @@
   - Mt. Mortar entrances: (1,5) requires South entry; (9,7) is valid.
   - Gatehouse at (17,7) is a dead end.
 - **Hiker Benjamin**:
-  - Located at (19,8) (Current). Blocks upper path.
-  - **Action**: Currently at (18,8). Dialogue active. Press B to decline. Move DOWN to (18,9) then RIGHT.
+  - Located at (19,9) (Current). Blocks lower path.
+  - **Action**: Currently at (18,9). Dialogue active ("Hiya, kid!"). Press A to advance, B to decline/cancel. Move UP to (18,8) then RIGHT.
+  - **Status**: Wasted 900 yen on 3 candies. STOP BUYING.
