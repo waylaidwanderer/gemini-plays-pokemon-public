@@ -53,3 +53,5 @@
 - Verified Entrance at (9, 1) (Upper Ledge).
 - Plan: Cut tree at (5, 5), move North/East to (9, 1), and enter.
 - Hiker Benjamin (x=19) is impassable. Route 42 Row 3 is dead end.
+- Anomaly: Tile at (7, 5) looks like a Cut Tree but is labeled TYPE_3fe2 (Walkable). Might be a deception or data error. Sticking to confirmed Cut Tree at (5, 5).
+- Path to (9, 1) confirmed via Row 4 after cutting tree.
