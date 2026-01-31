@@ -26,7 +26,7 @@
 - **Fly Map**: Grid based. New Bark (East) -> Cherrygrove -> Violet -> Ecruteak -> Olivine (West).
 
 ### Current Status
-- **Current Status**: Lighthouse 5F Center (3_46).
-- **Immediate Goal**: Reach Stairs to 6F at (9, 15).
-- **Navigation**: Walk South to (9, 15).
-- **Critical**: Must speak to Jasmine on 6F to confirm quest flag.
+- **Current Status**: Lighthouse 6F (3_47).
+- **Immediate Goal**: Speak to Amphy then Dig Out.
+- **Navigation**: Move to (9, 9), Talk to Amphy, then Dig.
+- **Critical**: Ensure medicine event is fully triggered.
