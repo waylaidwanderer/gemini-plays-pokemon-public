@@ -20,3 +20,5 @@
   - Gentleman reports Team Rocket at Lake of Rage.
   - Team Rocket has returned.
   - Need to investigate Lake of Rage (North).
+### Tile Mechanics
+- **Route 42 (TYPE_3fe2)**: Can be shoreline or water. Test via bumping/interaction, don't assume.
