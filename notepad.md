@@ -5,7 +5,11 @@
 ### Objectives
 - **Primary**: Reach Mahogany Town.
 - **Secondary**: Reach Ecruteak City & Unlock Fly Point.
-- **Immediate**: Navigate Route 36 -> Route 37 (East Side) -> Ecruteak.
+- **Immediate**: Heal at Pokemon Center, then head East to Mahogany Town.
+
+### Ecruteak City Status
+- Arrived Turn 20616.
+- **To Do**: Heal, Check Fly status.
 
 ### Route 37 Navigation Plan
 - Entry from Route 36 is at (26, 0) on Map 10_3, which corresponds to (6, 17) on Map 10_4.
