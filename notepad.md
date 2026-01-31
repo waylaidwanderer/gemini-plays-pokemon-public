@@ -26,7 +26,8 @@
   - Path: Entrance (9, 1) -> Connector (9_3) -> Main Cave (9_5).
   - Current Location: Mt. Mortar 1F (9_5) - East Side.
   - **Status**: Defeated Pokemaniac Brent at (11, 20).
-  - **Plan**: Loop South-East to retrieve Item Ball at (12, 32), then find exit.
+  - **Loot**: Retrieved Max Ether at (12, 32).
+  - **Plan**: Jump ledge at Row 33 and exit via door at (17, 35).
   - Notes:
     - (5, 5) on Route 42 is a LEDGE, not a cut tree.
     - Gatehouse at (17, 7) on Route 42 is a dead end.
