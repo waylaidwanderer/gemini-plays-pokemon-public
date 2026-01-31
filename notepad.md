@@ -11,7 +11,7 @@
 
 ### Important Mechanics & Notes
 - **Hiker Benjamin**: Sells RageCandyBars at (19,8). STOP BUYING.
-- **Gatehouse (17, 7)**: Dead end/Toll. Avoid.
+- **Gatehouse (15, 13)**: Connector to Map 2_3. Currently Exploring.
 - **Route 42 Secrets**: Fake tree at (7, 5) leads to Mt. Mortar upper entrance.
 - **Mt. Mortar**:
   - Explored 1F and Upper area partially.
