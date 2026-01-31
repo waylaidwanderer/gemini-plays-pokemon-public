@@ -26,14 +26,15 @@
 ### Active Quest: Gym Challenge
 - **Task**: Defeat Jasmine in Olivine Gym.
 - **Status**: Medicine delivered. Descending Lighthouse.
-- **Current Obstacle**: Stuck in Central Column.
+- **Current Obstacle**: Finding exit from Central Column (3F Center).
 - **Plan**: 
   1. Descend to 3F Center (via stairs at 9,5 on 4F).
-  2. Look for exit on 3F Center (ledge/door).
-  3. If no exit on 3F, return to 5F Center and look there.
+  2. VITAL: Check SOUTH wall of 3F Center for a ledge drop.
+  3. Check for any "mat" tiles or invisible transitions.
+  4. Do not ascend until exit is confirmed or 3F is fully mapped.
 
 ### Lighthouse Navigation
 - **Outer Ring**: Connects 1F-4F (Right side).
 - **Center Column**: Connects 3F-6F.
 - **Connection**: 4F Outer -> 3F Center (via Hole).
-- **Exit Strategy**: Find the exit from Center Column to Outer Ring (likely on 3F or 5F).
+- **Exit Strategy**: Escape via 3F Center ledge/door to Outer Ring.
