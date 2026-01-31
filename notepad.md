@@ -10,6 +10,6 @@
 - **Next Step**: Walk East to Col 14, then North to Ecruteak.
 - **Game Mechanic**: Menus (Start, Party) remember the last selected position. Be careful when navigating!
 - **Map Note**: The tree at Route 37 (8, 7) looks cuttable but is NOT. Do not attempt to cut.
-- **Navigation**: Route 37 Northbound requires using the Eastmost lane (Cols 13+). Middle and West lanes are blocked by ledges/trees.
+- **Navigation**: Route 37 Northbound: Up Col 5, Right to Col 6 (at y=8), Up past trees, Left to Col 4 (at y=6), Up to Ecruteak.
 - **Correction**: Route 37 East lane (Cols 13+) is a dead end with Apricorns. Must use West lane to reach Ecruteak.
 - **Navigation**: Route 37 Main Path is Cols 6-7. Col 9 is blocked by Cut trees. Col 13+ is Apricorn dead end.
