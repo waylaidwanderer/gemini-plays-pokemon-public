@@ -3,11 +3,11 @@
 
 ### Objectives
 - **Primary**: Reach Mahogany Town.
-- **Route**: Violet -> Route 36 -> Route 37 (South Connector to East Lane) -> Ecruteak City.
+- **Route**: Violet -> Route 36 -> Route 37 (Switching to East Lane via Bottom) -> Ecruteak City.
 
 ### Quest Status
 - **Badge #6 (Mineral Badge)**: Obtained.
-- **Next Step**: Navigate the East Lane of Route 37 North to Ecruteak.
+- **Next Step**: Walk East to Col 14, then North to Ecruteak.
 - **Game Mechanic**: Menus (Start, Party) remember the last selected position. Be careful when navigating!
 - **Map Note**: The tree at Route 37 (8, 7) looks cuttable but is NOT. Do not attempt to cut.
 - **Navigation**: Route 37 Northbound requires using the Eastmost lane (Cols 13+). Middle and West lanes are blocked by ledges/trees.
