@@ -17,18 +17,12 @@
 - **Mechanics**: Start/Party menus remember cursor position.
 - Bought RageCandyBar from Hiker Benjamin at Route 42 (19, 8). Total: 3.
 - Gatehouse at Route 42 (17, 7) appears to be a dead end with no exit to Mahogany Town. Must return to Route 42 and find another way (Surf?).
-Reflection (Turn 20858):
-- Progress: Stuck at tree (3,4) for several turns.
-- Action: Using Start Menu to invoke Cut reliably, bypassing potential interaction glitches.
-- Map: Must stay on upper path (Y=4) to reach Fruit Tree at (15,4).
-- Goals: Reach Mahogany Town via Route 42 East.
-Reflection (Turn 20882):
-- Abandoned Cut tree at (4, 4) due to interaction issues.
-- Corrected Hallucination: Tile TYPE_2889 at x=10 is Mountain/Cave, not water.
-- Current Position: (5, 6).
-- Plan: Investigate Mt. Mortar entrance at (9, 7) to bypass the blockage.
-Reflection (Turn 20910):
-- 50-Turn Check: Route 42 navigation has been messy (Tree issues, tile hallucinations).
-- Accidental RageCandyBar purchases due to button mashing.
-- Goal: Bypass Hiker Benjamin (blocking x=19, y=9) by taking the upper path at y=8.
-- Immediate: Finish dialogue, decline purchase if asked, then escape East.
+### Route 42 Strategy & Learnings
+- **Navigation**:
+  - Cut Tree at (4,4) is problematic; bypassed via open path.
+  - Mt. Mortar entrances: (1,5) requires South entry; (9,7) is valid.
+  - Gatehouse at (17,7) is a dead end.
+- **Hiker Benjamin**:
+  - Located at (19,8) / (19,9). Moves vertically.
+  - Blocks path to Mahogany.
+  - **Action**: Monitor position and take the open lane (y=8 or y=9). Avoid talking to him to save money.
