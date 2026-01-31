@@ -26,7 +26,6 @@
 - **Fly Map**: Grid based. New Bark (East) -> Cherrygrove -> Violet -> Ecruteak -> Olivine (West).
 
 ### Active Quest: Medicine
-- **Task**: Return to Olivine Lighthouse to fix missing SecretPotion trigger.
-- **Status**: Pharmacist dialogue loop (Whirl Islands/Lugia lore).
-- **Hypothesis**: I might be exiting the conversation too early or missing a Yes/No prompt.
-- **Plan**: Advance dialogue until it closes naturally. If no item, fly to Olivine.
+- **Task**: Retrieve SecretPotion from Cianwood Pharmacy.
+- **Status**: Jasmine event triggered.
+- **Plan**: Dig out -> Fly to Cianwood -> Pharmacy -> Return to Olivine.
