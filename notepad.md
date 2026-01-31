@@ -51,3 +51,6 @@
 - This path is a dead end due to the event flag.
 - Plan: Backtrack to (17, 31) -> Gatehouse -> (17, 35) -> (4, 7) -> Route 42.
 - Then use Surf on Route 42 to bypass the blockade.
+- Confirmed: Team Rocket at Gatehouse (9_4) forcibly takes ¥1000 every time you enter/trigger the event.
+- Avoiding this area to conserve money.
+- Plan: Exit South to Route 42 and Surf East.
