@@ -24,9 +24,9 @@
   - Entrance to Mt. Mortar: (9, 1) on the Upper Ledge.
 - **Mt. Mortar Progress**:
   - Path: Entrance (9, 1) -> Connector (9_3) -> Main Cave (9_5).
-  - Current Location: Mt. Mortar 1F (9_5).
-  - **Blocked**: North path at (9, 26) blocked by Super Nerd (Clefairy fan).
-  - **Action**: Bypassing via (10, 26) -> (10, 25).
+  - Current Location: Mt. Mortar 1F (9_5) - East Side.
+  - **Status**: Defeated Pokemaniac Brent at (11, 20).
+  - **Plan**: Loop South-East to retrieve Item Ball at (12, 32), then find exit.
   - Notes:
     - (5, 5) on Route 42 is a LEDGE, not a cut tree.
     - Gatehouse at (17, 7) on Route 42 is a dead end.
