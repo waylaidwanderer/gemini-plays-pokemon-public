@@ -32,5 +32,8 @@
   - (47, 8): Swimmer Simon (Glitchy interaction).
 - **Mahogany Town / Route 42 Confusion**: Map 2_7 seems to be Mahogany Town (Gym at 7,13).
 - The building at (9, 1) is the only gap in the northern tree line. It leads to Map 9_3.
-- Need to verify if Map 9_3/9_5 leads to Route 43 or Mt. Mortar.
+- **Map 9_5 Identification**: Confirmed to be **Route 43** (not Mt. Mortar). It connects Mahogany Town (South) to Lake of Rage (North).
+  - Contains Trainers: Pokemaniacs Ron, Ben, Camper Spencer.
+  - Previous history identifying this as Mt. Mortar was incorrect.
+
 - Northwest corner (0,4) is a dead end.
