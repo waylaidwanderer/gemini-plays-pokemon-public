@@ -20,8 +20,9 @@
 ### Route 42 Strategy & Learnings
 - **Navigation**:
   - Route 42 West: **SECRET PATH** at (7, 5). Walk through the "tree" to bypass ledges.
-  - Mt. Mortar: Enter at (9, 1) (Upper Ledge) using the secret path at (7, 5).
-  - Note: Lower entrance (9, 7) appears blocked.
+  - Mt. Mortar: Accessed via Secret Path -> Connector (9_3) -> Main Cave (9_5).
+  - Current Position: Mt. Mortar 1F (9_5) at (9, 51).
+  - Goal: Explore North/East to find exit to Mahogany Town.
   - Gatehouse at (17,7) is a dead end.
 - **Hiker Benjamin**: Failed to pass. Bypassing via Mt. Mortar.
 - Tile Type `TYPE_a336` confirmed as Cut Tree.
