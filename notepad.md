@@ -3,9 +3,9 @@
 
 ### Objectives
 - **Primary**: Reach Mahogany Town.
-- **Route**: Fly from Cherrygrove to Ecruteak -> East to Route 42.
+- **Route**: Walk to Ecruteak (West of Violet) -> East to Route 42.
 
 ### Quest Status
 - **Badge #6 (Mineral Badge)**: Obtained.
-- **Next Step**: Fly to Ecruteak City.
+- **Next Step**: Walk to Ecruteak City.
 - **Game Mechanic**: Menus (Start, Party) remember the last selected position. Be careful when navigating!
