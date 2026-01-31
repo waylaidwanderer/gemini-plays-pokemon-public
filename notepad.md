@@ -26,6 +26,6 @@
 - **Fly Map**: Grid based. New Bark (East) -> Cherrygrove -> Violet -> Ecruteak -> Olivine (West).
 
 ### Current Status
-- **Current Status**: On phone with Joey (Lighthouse 3F).
-- **Immediate Goal**: End call, then continue navigation to (13, 3).
+- **Current Status**: Joey's call concluding.
+- **Immediate Goal**: Finish dialogue.
 - **Navigation**: Down to Row 14 -> Right -> Up.
