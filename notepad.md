@@ -18,17 +18,20 @@
 - Bought RageCandyBar from Hiker Benjamin at Route 42 (19, 8). Total: 13. STOP BUYING.
 - Gatehouse at Route 42 (17, 7) appears to be a dead end with no exit to Mahogany Town. Must return to Route 42 and find another way (Surf?).
 ### Route 42 & Mt. Mortar Navigation
-- **Objective**: Bypass blocking Hiker Benjamin on Route 42 via Mt. Mortar.
+- **Objective**: Reach Mahogany Town via Mt. Mortar (East Exit).
 - **Route 42 Secrets**:
-  - **SECRET PATH** at (7, 5): Walkable tile disguised as a tree. Use this to access the Upper Ledge.
-  - Entrance to Mt. Mortar: (9, 1) on the Upper Ledge.
+  - **Secret Path**: Tile at (7, 5) on Route 42 is walkable (fake tree). Access Upper Ledge here.
+  - Entrance used: (9, 1) on Upper Ledge -> Connector (9_3) -> Main Cave (9_5).
 - **Mt. Mortar Progress**:
-  - Path: Entrance (9, 1) -> Connector (9_3) -> Main Cave (9_5).
-  - Current Location: Mt. Mortar 1F (9_5) - East Side.
-  - **Status**: Defeated Pokemaniac Brent at (11, 20).
-  - **Loot**: Retrieved Max Ether at (12, 32).
-  - **Plan**: Jump ledge at Row 33 and exit via door at (17, 35).
+  - **Current Location**: Mt. Mortar 1F (9_5).
+  - **Status**: 
+    - Defeated Pokemaniac Brent (11, 20). 
+    - Bypassed Clefairy Fan (9, 26).
+    - Collected Max Ether (12, 32).
+  - **Plan**: Jump ledge at Row 33, head to exit at (17, 35).
+  - **Exits**: 
+    - (9, 51): Back to Route 42 West (Secret Path).
+    - (17, 35): Target Exit (Likely Route 42 Middle/East).
   - Notes:
     - (5, 5) on Route 42 is a LEDGE, not a cut tree.
-    - Gatehouse at (17, 7) on Route 42 is a dead end.
-    - Item Ball at (12, 32) in 9_5 is currently unreachable.
+    - Gatehouse at Route 42 (17, 7) is a dead end.
