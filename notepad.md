@@ -30,3 +30,7 @@
 - **Route 42 (East Side) Obstacles**:
   - (45, 9): Small Tree (TYPE_2889) in the water.
   - (47, 8): Swimmer Simon (Glitchy interaction).
+- **Mahogany Town / Route 42 Confusion**: Map 2_7 seems to be Mahogany Town (Gym at 7,13).
+- The building at (9, 1) is the only gap in the northern tree line. It leads to Map 9_3.
+- Need to verify if Map 9_3/9_5 leads to Route 43 or Mt. Mortar.
+- Northwest corner (0,4) is a dead end.
