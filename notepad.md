@@ -27,6 +27,6 @@
 
 ### Current Status
 - **Current Status**: Lighthouse 6F (3_47).
-- **Immediate Goal**: Speak to Amphy then Dig Out.
-- **Navigation**: Move to (9, 9), Talk to Amphy, then Dig.
-- **Critical**: Ensure medicine event is fully triggered.
+- **Immediate Goal**: Dig out and Fly to Cianwood.
+- **Navigation**: Use Dig (Garnet) -> Fly to Cianwood.
+- **Critical**: Medicine quest should be active now.
