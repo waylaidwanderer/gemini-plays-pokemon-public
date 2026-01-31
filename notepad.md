@@ -22,3 +22,7 @@ Reflection (Turn 20858):
 - Action: Using Start Menu to invoke Cut reliably, bypassing potential interaction glitches.
 - Map: Must stay on upper path (Y=4) to reach Fruit Tree at (15,4).
 - Goals: Reach Mahogany Town via Route 42 East.
+Reflection (Turn 20861):
+- Stuck in menu loop trying to Cut tree at (4,4).
+- "Nothing to Cut" message implies facing issue, but menu navigation prevents fixing it.
+- Plan: Exit all menus completely, ensure facing Right, then interact with tree directly.
