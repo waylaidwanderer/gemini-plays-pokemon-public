@@ -26,8 +26,9 @@
 - **Fly Map**: Grid based. New Bark (East) -> Cherrygrove -> Violet -> Ecruteak -> Olivine (West).
 
 ### Current Status
-- **Current Status**: New Bark Town (24_4) - Fly Map (Opening).
+- **Current Status**: New Bark Town (24_4) - Fly Map.
 - **Immediate Goal**: Fly to Cianwood City.
-- **Navigation**: Left x5 -> A.
+- **Navigation**: Left x5 (Reach Edge) -> A x2 (Confirm).
 - **Critical**: Get SecretPotion from Pharmacist.
-- **Note**: Sending movement inputs anticipating map load.
+- **Note**: Re-triggering Jasmine Quest complete. Returning to Cianwood.
+- **Reflection**: Recovered from menu fumbles. Navigation to West edge (Cianwood) in progress.
