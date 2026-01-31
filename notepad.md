@@ -26,9 +26,8 @@
 - **Fly Map**: Grid based. New Bark (East) -> Cherrygrove -> Violet -> Ecruteak -> Olivine (West).
 
 ### Current Status
-- **Current Status**: New Bark Town (24_4) - Fly Map.
+- **Current Status**: New Bark Town (24_4) - Overworld.
 - **Immediate Goal**: Fly to Cianwood City.
-- **Navigation**: Left x5 (Reach Edge) -> A x2 (Confirm).
+- **Navigation**: Open Start Menu -> Pokemon -> Select Topaz -> Fly.
 - **Critical**: Get SecretPotion from Pharmacist.
-- **Note**: Re-triggering Jasmine Quest complete. Returning to Cianwood.
-- **Reflection**: Recovered from menu fumbles. Navigation to West edge (Cianwood) in progress.
+- **Note**: Previous Fly attempt failed (did not move). Restarting procedure carefully.
