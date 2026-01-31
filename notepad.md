@@ -41,3 +41,4 @@
 - Stun failed or Hiker moved despite stun? He is now at (19, 9).
 - Dialogue active. Pressing 'B' to refuse candy.
 - Path strategy: Once dialogue clears, Hiker is at (19, 9), so go UP to (18, 8) and RIGHT through (19, 8).
+- SAFETY: Using dedicated turn to spam 'B' to ensure dialogue clears without accidentally selecting 'YES' with movement keys.
