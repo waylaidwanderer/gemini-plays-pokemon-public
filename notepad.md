@@ -28,4 +28,4 @@
 ### Active Quest: Medicine
 - **Status**: Jasmine/Amphy event re-triggered on Lighthouse 6F.
 - **Next Step**: Fly to Cianwood -> Speak to Pharmacist for SecretPotion.
-- **Note**: Map screen stable. Sending Left x6 to reach Cianwood. Previous inputs failed due to animation lag.
+- **Note**: Map interactive. Attempting to move cursor to Cianwood (West).
