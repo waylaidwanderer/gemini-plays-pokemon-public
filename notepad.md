@@ -19,8 +19,9 @@
 - Gatehouse at Route 42 (17, 7) appears to be a dead end with no exit to Mahogany Town. Must return to Route 42 and find another way (Surf?).
 ### Route 42 Strategy & Learnings
 - **Navigation**:
-  - Route 42 West: Use Row 4 to bypass ledge at (7, 2).
-  - Mt. Mortar: Enter at (9, 1) (Upper Ledge) via Cut Tree at (5, 5).
+  - Route 42 West: `TYPE_a336` at (5, 5) is a LEDGE (South-only), not a Cut Tree.
+  - Plan: Check (7, 5) which is marked as Walkable on map.
+  - If (7, 5) fails, must find another way back to Upper Ledge (possibly West to previous map).
   - Note: Lower entrance (9, 7) appears blocked.
   - Gatehouse at (17,7) is a dead end.
 - **Hiker Benjamin**: Failed to pass. Bypassing via Mt. Mortar.
