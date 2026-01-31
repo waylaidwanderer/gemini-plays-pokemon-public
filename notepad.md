@@ -7,5 +7,5 @@
 
 ### Quest Status
 - **Badge #6 (Mineral Badge)**: Obtained.
-- **Next Step**: Walk to Ecruteak City.
+- **Next Step**: Walk to Ecruteak City via Route 36.
 - **Game Mechanic**: Menus (Start, Party) remember the last selected position. Be careful when navigating!
