@@ -22,14 +22,7 @@
   - Cut Tree at (4,4) is problematic; bypassed via open path.
   - Mt. Mortar entrances: (1,5) requires South entry; (9,7) is valid.
   - Gatehouse at (17,7) is a dead end.
-- **Hiker Benjamin**:
-  - Located at x=19, moves between y=8 and y=9.
-  - Currently at (19, 9) (Blocking lower path).
-  - **Strategy**: 
-    1. Clear dialogue completely (Press A to advance, B to decline). 
-    2. Wait for next turn to confirm position. 
-    3. Move through the open lane (Likely UP to y=8).
-  - **Status**: Wasted 1200 yen on 4 candies. STOP BUYING.
+- **Hiker Benjamin**: Failed to pass. Bypassing via Mt. Mortar.
 - Tile Type `TYPE_a336` confirmed as Cut Tree.
 - Attempting to Cut tree at (9, 5) using deliberate interaction to avoid movement cancellation.
 - Upper path at Row 3 is a DEAD END (Blocked by trees at x=16).
