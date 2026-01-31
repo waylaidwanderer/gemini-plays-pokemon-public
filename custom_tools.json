@@ -26,7 +26,7 @@
     ]
   },
   "bfs_navigate": {
-    "description": "Navigates to a target coordinate using BFS. You MUST provide the list of valid walkable tile TYPE IDs for the current map.",
+    "description": "Navigates to a target coordinate using BFS. You MUST provide the list of valid walkable tile TYPE IDs for the current map. Returns an empty list [] if no path is found.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -41,10 +41,6 @@
           "items": {
             "type": "string"
           }
-        },
-        "autopress_buttons": {
-          "type": "boolean",
-          "default": false
         }
       },
       "required": [
@@ -53,7 +49,7 @@
         "walkable_types"
       ]
     },
-    "python_script": "import sys\nimport xml.etree.ElementTree as ET\nimport heapq\nimport json\n\ndef get_player_pos(root):\n    for row in root.findall('Row'):\n        for tile in row.findall('Tile'):\n            if tile.find('Player') is not None:\n                return int(tile.get('id')), int(row.get('id'))\n    return None\n\ndef bfs(start, target, grid, walkable_types, width, height):\n    queue = [(0, start, [])]\n    visited = set([start])\n    \n    while queue:\n        cost, current, path = heapq.heappop(queue)\n        \n        if current == target:\n            return path\n        \n        x, y = current\n        neighbors = [\n            (x, y - 1, 'Up'), (x, y + 1, 'Down'),\n            (x - 1, y, 'Left'), (x + 1, y, 'Right')\n        ]\n        \n        for nx, ny, direction in neighbors:\n            if 0 <= nx < width and 0 <= ny < height:\n                tile_type = grid.get((nx, ny))\n                if (nx, ny) not in visited and tile_type in walkable_types:\n                    visited.add((nx, ny))\n                    heapq.heappush(queue, (cost + 1, (nx, ny), path + [direction]))\n    return None\n\ntry:\n    # input_data is injected\n    target_x = int(input_data['target_x'])\n    target_y = int(input_data['target_y'])\n    walkable_types = set(input_data['walkable_types'])\n    autopress = input_data.get('autopress_buttons', False)\n\n    # map_xml_string is injected\n    root = ET.fromstring(map_xml_string)\n    width = int(root.get('width'))\n    height = int(root.get('height'))\n    \n    grid = {}\n    player_pos = None\n    \n    for row in root.findall('Row'):\n        y = int(row.get('id'))\n        for tile in row.findall('Tile'):\n            x = int(tile.get('id'))\n            tile_type = tile.get('type')\n            grid[(x, y)] = tile_type\n            if tile.find('Player') is not None:\n                player_pos = (x, y)\n                \n    if not player_pos:\n        print(json.dumps({\"error\": \"Player not found\"}))\n        sys.exit(0)\n        \n    path = bfs(player_pos, (target_x, target_y), grid, walkable_types, width, height)\n    \n    if path:\n        print(json.dumps(path))\n    else:\n        print(json.dumps({\"error\": \"No path found\"}))\n\nexcept Exception as e:\n    print(json.dumps({\"error\": str(e)}))",
+    "python_script": "import sys\nimport json\nimport xml.etree.ElementTree as ET\nfrom collections import deque\n\ntry:\n    # Parse Map XML\n    root = ET.fromstring(map_xml_string)\n    width = int(root.attrib['width'])\n    height = int(root.attrib['height'])\n    \n    tiles = {}\n    player_pos = None\n    \n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            tile_type = tile.attrib['type']\n            tiles[(x, y)] = tile_type\n            if tile.find('Player') is not None:\n                player_pos = (x, y)\n                \n    if player_pos is None:\n        print(json.dumps([]))\n        sys.exit(0)\n\n    target_pos = (target_x, target_y)\n    valid_types = set(walkable_types)\n\n    # BFS\n    queue = deque([(player_pos, [])])\n    visited = set([player_pos])\n    path_found = None\n    \n    while queue:\n        curr_pos, path = queue.popleft()\n        \n        if curr_pos == target_pos:\n            path_found = path\n            break\n            \n        cx, cy = curr_pos\n        # Directions: Up, Down, Left, Right\n        moves = [\n            ((cx, cy - 1), 'Up'),\n            ((cx, cy + 1), 'Down'),\n            ((cx - 1, cy), 'Left'),\n            ((cx + 1, cy), 'Right')\n        ]\n        \n        for next_pos, move in moves:\n            nx, ny = next_pos\n            if 0 <= nx < width and 0 <= ny < height:\n                if next_pos not in visited:\n                    if tiles.get(next_pos) in valid_types:\n                        visited.add(next_pos)\n                        queue.append((next_pos, path + [move]))\n                        \n    if path_found is not None:\n        print(json.dumps(path_found))\n    else:\n        print(json.dumps([]))\n\nexcept Exception:\n    print(json.dumps([]))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -64,6 +60,11 @@
         "commit_message": "Fixed NameError by ensuring variable scope is correct in the try/except block.",
         "timestamp": "2026-01-22T02:39:20.905Z",
         "action_counter": 8194
+      },
+      {
+        "commit_message": "Fixed output format to always return a JSON list (empty if no path) to prevent autopress_buttons crashes.",
+        "timestamp": "2026-01-31T07:47:05.052Z",
+        "action_counter": 20401
       }
     ]
   },
