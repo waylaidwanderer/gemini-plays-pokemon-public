@@ -1,18 +1,21 @@
 # Pokémon Crystal Playthrough
 - Started: Friday, January 16, 2026
+- Current Leg: Violet City to Mahogany Town (Started Turn 20321)
 
 ### Objectives
 - **Primary**: Reach Mahogany Town.
-- **Route**: Violet -> Route 36 -> Route 37 (Switching to East Lane via Bottom) -> Ecruteak City.
+- **Secondary**: Reach Ecruteak City & Unlock Fly Point.
+- **Immediate**: Navigate Route 36 -> Route 37 (East Side) -> Ecruteak.
 
-### Quest Status
-- **Badge #6 (Mineral Badge)**: Obtained.
-- **Next Step**: Walk East to Col 14, then North to Ecruteak.
-- **Game Mechanic**: Menus (Start, Party) remember the last selected position. Be careful when navigating!
-- **Map Note**: The tree at Route 37 (8, 7) looks cuttable but is NOT. Do not attempt to cut.
-- **Navigation**: Route 37 Northbound: Up Col 5, Right to Col 6 (at y=8), Up past trees, Left to Col 4 (at y=6), Up to Ecruteak.
+### Route 37 Navigation Plan
+- Entry from Route 36 is at (26, 0) on Map 10_3, which corresponds to (6, 17) on Map 10_4.
+- **Route 37 Path**:
+  1. Head North on Cols 6-7.
+  2. Avoid Col 9 (Cut trees) and Col 13+ (Apricorn dead end).
+  3. Traverse: Up Col 5 -> Right to Col 6 (at y=8) -> Up past trees -> Left to Col 4 (at y=6) -> Up to Ecruteak.
+- **Warning**: Tree at (8, 7) is NOT cuttable.
 
-- **Navigation**: Route 37 Main Path is Cols 6-7. Col 9 is blocked by Cut trees. Col 13+ is Apricorn dead end.
-
-- **Map Alignment**: Route 37 (10_4) X + 20 = Route 36 (10_3) X. Entry from Route 36 (x=26) leads to Route 37 (x=6).
-- **Important**: Ecruteak City Fly Point is NOT unlocked. Must walk from Violet City.
+### Important Notes
+- **Mechanics**: Start/Party menus remember cursor position.
+- **Fly Point**: Ecruteak is NOT unlocked yet.
+- **Route 36 Navigation**: Wall of trees at X=36-39 blocks Westward movement until Y=9. Must head South to Y=9 to pass.
