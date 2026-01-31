@@ -48,7 +48,8 @@
 - Cave at (9, 1) is unexplored (Mt. Mortar?).
 - Need to find a place to SURF.
 - bought 13 RageCandyBars. Waste of money.
-- Mt. Mortar entrance at (9, 7) acts as a solid wall (blocked). Cannot enter.
-- Heading West to try the other entrance at (1, 5) or find water to Surf.
-- Route 42 Upper Path (Row 3) is a DEAD END at x=16.
-- Hiker Benjamin (x=19) seems impassable without buying candy (loop).
+- Mt. Mortar entrance at (1, 5) is BLOCKED (Wall).
+- Mt. Mortar entrance at (9, 7) is BLOCKED (Wall).
+- Verified Entrance at (9, 1) (Upper Ledge).
+- Plan: Cut tree at (5, 5), move North/East to (9, 1), and enter.
+- Hiker Benjamin (x=19) is impassable. Route 42 Row 3 is dead end.
