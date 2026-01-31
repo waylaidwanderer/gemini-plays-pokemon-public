@@ -48,5 +48,6 @@
 - NPC at (20, 26) mentions "The GYARADOS are angry!" (Lake of Rage hint).
 - Checking if this is a trainer battle or just lore.
 - NPC at (20, 26) in Mt. Mortar Inner (9_6) blocks the path, mentioning "The GYARADOS are angry!".
-- This path seems to be a dead end for now.
-- Plan: Return to Route 42 and try Surfing East to bypass the Hiker blockade.
+- This path is a dead end due to the event flag.
+- Plan: Backtrack to (17, 31) -> Gatehouse -> (17, 35) -> (4, 7) -> Route 42.
+- Then use Surf on Route 42 to bypass the blockade.
