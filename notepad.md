@@ -23,5 +23,5 @@
   - Mt. Mortar entrances: (1,5) requires South entry; (9,7) is valid.
   - Gatehouse at (17,7) is a dead end.
 - **Hiker Benjamin**:
-  - Located at (19,8) (Current). Moves vertically.
-  - **Action**: Currently at (18,8). Hiker at (19,8). Path blocked. Must go DOWN to (18,9) then RIGHT.
+  - Located at (19,9) (Current). Blocks lower path.
+  - **Action**: Currently at (18,9). Dialogue active. Press B to decline. Move UP to (18,8) to bypass.
