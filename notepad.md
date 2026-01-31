@@ -14,3 +14,4 @@
 
 - **Navigation**: Route 37 Main Path is Cols 6-7. Col 9 is blocked by Cut trees. Col 13+ is Apricorn dead end.
 - **Map Issue**: Row 5 appears to be a solid wall of Ledges (cols 4-9) and Trees (cols 0-3, 10-11). Need to find a gap or Cuttable tree. Suspect trees at Row 7 or the "Blocked" trees at Row 3 might be the key.
+- **Map Alignment**: Route 37 (10_4) X + 18 = Route 36 (10_3) X. Entry from Route 36 (x=26) leads to Route 37 (x=8).
