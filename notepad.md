@@ -26,7 +26,8 @@
 - **Fly Map**: Grid based. New Bark (East) -> Cherrygrove -> Violet -> Ecruteak -> Olivine (West).
 
 ### Current Status
-- **Current Status**: Olivine City (1_14).
+- **Current Status**: New Bark Town (24_4).
 - **Immediate Goal**: Fly to Cianwood City.
 - **Navigation**: Open Menu -> Pokemon -> Topaz -> Fly -> Cianwood.
 - **Critical**: Get SecretPotion from Pharmacist.
+- **Note**: Accidental flight to New Bark. Cianwood is West-most. From New Bark, press Left 5 times.
