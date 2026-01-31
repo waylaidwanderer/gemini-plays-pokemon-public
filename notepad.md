@@ -30,11 +30,8 @@
 - **Route 42 (East Side) Obstacles**:
   - (45, 9): Small Tree (TYPE_2889) in the water.
   - (47, 8): Swimmer Simon (Glitchy interaction).
-- **Mahogany Town / Route 42 Confusion**: Map 2_7 seems to be Mahogany Town (Gym at 7,13).
-- The building at (9, 1) is the only gap in the northern tree line. It leads to Map 9_3.
-- **Map 9_5 Identification**: Confirmed to be **Route 43** (not Mt. Mortar). It connects Mahogany Town (South) to Lake of Rage (North).
-  - Contains Trainers: Pokemaniacs Ron, Ben, Camper Spencer.
-  - Previous history identifying this as Mt. Mortar was incorrect.
+- **Route 43 (Map 9_5)**:
+  - Connects Mahogany Town (South) to Lake of Rage (North).
+  - **Trainers**: Pokemaniacs Ron, Ben, Camper Spencer (Defeated).
 
-- Northwest corner (0,4) is a dead end.
 - **Route 43 (Map 9_5) Mechanic**: Tiles of `TYPE_fed7` are **WALKABLE**, even if they look like trees. This allows bypassing obstacles/trainers by walking through the "forest" edge.
