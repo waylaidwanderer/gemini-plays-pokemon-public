@@ -40,3 +40,5 @@
 - Proceeding North to Mahogany Town.
 - Gatehouse (9_4) acts as a connector/elevator between Lower Mt Mortar (17, 35) and Upper Mt Mortar (17, 31).
 - Currently in Upper Mt Mortar. Proceeding North.
+- Reached end of corridor at (18, 8). Path turns West.
+- Trainer ahead at (14, 7).
