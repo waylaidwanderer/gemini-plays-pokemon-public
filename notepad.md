@@ -27,3 +27,6 @@
   - (8, 13): Big Tree (TYPE_80fc), not cuttable.
   - (7, 14): Small Tree (TYPE_2889).
   - Boxed in at (7, 13). Must backtrack West to escape.
+- **Route 42 (East Side) Obstacles**:
+  - (45, 9): Small Tree (TYPE_2889) in the water.
+  - (47, 8): Swimmer Simon (Glitchy interaction).
