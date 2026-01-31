@@ -32,10 +32,12 @@
 - Retreating West to find alternate route (Surf or Mt. Mortar).
 - Upper path at Row 3 was a dead end.
 - Entered Mt. Mortar via Route 42 (9, 1).
-- Current Map: Mt. Mortar 9_5. Start Position: (9, 51).
-- Plan: Exit Mt. Mortar back to Route 42, then use Surf on Route 42 to bypass Hiker Benjamin.
-- Item Ball observed at (12, 32) in Mt. Mortar. Checking accessibility.
-- Navigation: Moving South to (9, 32) and then to exit at (9, 55).
+- Current Map: Route 42 (2_7). Position: (9, 2).
+- Status: Exited Mt. Mortar but looped back to the start (West Side).
+- Hiker Benjamin (x=19) is still blocking the path East.
+- Plan: Cut tree at (9, 5), head South to find water, and Surf East to bypass the Hiker.
+- If Surf fails, re-enter Mt. Mortar and explore deeper to find the East exit.
+- Item Ball at (12, 32) in Mt. Mortar remains uncollected.
 - bought 13 RageCandyBars. Waste of money.
 - Mt. Mortar entrance at (1, 5) is BLOCKED (Wall).
 - Mt. Mortar entrance at (9, 7) is BLOCKED (Wall).
