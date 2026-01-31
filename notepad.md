@@ -34,14 +34,7 @@
 - Attempting to Cut tree at (9, 5) using deliberate interaction to avoid movement cancellation.
 - Upper path at Row 3 is a DEAD END (Blocked by trees at x=16).
 - Must return to Route 42 main path by Cutting tree at (15, 7).
-- Hiker Benjamin (x=19) is the only way East. MUST PASS HIM without buying candy.
-- Use 'B' to cancel dialogue with Hiker. DO NOT PRESS 'A'.
-- Current Strategy: Hiker is at (19, 8). Path at (19, 9) is clear. Walk through (19, 9).
-- Cave at (9, 1) is unexplored.
-- Stun failed or Hiker moved despite stun? He is now at (19, 9).
-- Dialogue active. Pressing 'B' to refuse candy.
-- Path strategy: Once dialogue clears, Hiker is at (19, 9), so go UP to (18, 8) and RIGHT through (19, 8).
-- SAFETY: Using dedicated turn to spam 'B' to ensure dialogue clears without accidentally selecting 'YES' with movement keys.
+- Hiker Benjamin Strategy Failed. Abandoned.
 - CRITICAL: Hiker Benjamin strategy FAILED. Abandoning direct pass attempt.
 - Retreating West to find alternate route (Surf or Mt. Mortar).
 - Upper path at Row 3 was a dead end.
