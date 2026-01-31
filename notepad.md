@@ -35,5 +35,6 @@
 - Upper path at Row 3 is a DEAD END (Blocked by trees at x=16).
 - Must return to Route 42 main path by Cutting tree at (15, 7).
 - Hiker Benjamin (x=19) is the only way East. MUST PASS HIM without buying candy.
-- Use 'B' to cancel dialogue with Hiker.
+- Use 'B' to cancel dialogue with Hiker. DO NOT PRESS 'A'.
+- Current Strategy: Hiker is at (19, 8). Path at (19, 9) is clear. Walk through (19, 9).
 - Cave at (9, 1) is unexplored.
