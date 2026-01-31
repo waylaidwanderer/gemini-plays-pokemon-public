@@ -13,7 +13,7 @@
 
 ### Important Mechanics & Notes
 - **Hiker Benjamin**: Sells RageCandyBars at (19,8). STOP BUYING.
-- **Gatehouse (15, 13)**: Cable Club (Dead End).
+- **Gatehouse (15, 13)**: Pokemon Center (Sign says POKE).
 - **Route 42 Navigation**: Path East is blocked by trees at x=18. Must go South to y=16/17 to bypass.
 - **Route 42 Secrets**: Fake tree at (7, 5) leads to Mt. Mortar upper entrance.
 - **Mt. Mortar**:
