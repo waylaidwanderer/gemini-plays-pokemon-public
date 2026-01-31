@@ -6,7 +6,7 @@
 - **Primary**: Explore Mahogany Town.
 - **Secondary**: Unlock Fly Point at Mahogany.
 - **Tertiary**: Heal at Pokemon Center.
-- **Location**: Reached Mahogany Town (Map 2_7).
+- **Location**: Violet City (Healing Detour).
 - **Gym**: Located at (7, 13).
 - **Lake of Rage**: Locals mention it (Route 43 North).
 - **Route 42**: Came from West.
