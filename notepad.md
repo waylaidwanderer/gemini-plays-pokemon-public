@@ -5,12 +5,15 @@
 ### Objectives
 - **Primary**: Reach Mahogany Town.
 - **Secondary**: Reach Ecruteak City & Unlock Fly Point.
-- **Immediate**: Locate East Exit to Route 42 (likely near Y=21).
+- **Immediate**: Traverse Route 42 Eastward to Mahogany Town.
+
+### Route 42 Status
+- Entered Turn 20657.
+- **Goal**: Go East.
 
 ### Ecruteak City Status
-- Arrived Turn 20616.
-- **Fly Point**: UNLOCKED (Verified by visiting Center).
-- **To Do**: Head East to Mahogany.
+- **Fly Point**: UNLOCKED.
+- **Done**: Left via East Gate.
 
 ### Route 37 Navigation Plan
 - Entry from Route 36 is at (26, 0) on Map 10_3, which corresponds to (6, 17) on Map 10_4.
