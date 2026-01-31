@@ -4,7 +4,5 @@
 ### Objectives
 - **Primary**: Defeat Jasmine in Olivine Gym.
 
-### Battle Strategy
-- **Jasmine**: Magnemite x2, Steelix.
-- **Tactic**: Spam Flame Wheel (Special Attack vs Steelix's low Sp. Def).
-- **Backup**: Mud-Slap/Dig.
+### Quest Status
+- **Badge #6 (Mineral Badge)**: Defeated Jasmine. Collecting Badge.
