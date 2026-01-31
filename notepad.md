@@ -26,6 +26,6 @@
 - **Fly Map**: Grid based. New Bark (East) -> Cherrygrove -> Violet -> Ecruteak -> Olivine (West).
 
 ### Active Quest: Medicine
-- **Status**: Jasmine/Amphy event re-triggered on Lighthouse 6F.
-- **Next Step**: Fly to Cianwood -> Speak to Pharmacist for SecretPotion.
-- **Note**: Fly map inputs unresponsive. Resetting state: B (Cancel) -> A (Select Fly) -> Left (Move).
+- **Status**: In Cianwood Pharmacy. Pharmacist asked "You came from OLIVINE?".
+- **Immediate Goal**: Finish dialogue to receive SecretPotion.
+- **Next Step**: Fly to Olivine -> Return to Lighthouse 6F.
