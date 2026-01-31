@@ -7,7 +7,7 @@
 - **Tertiary**: Sell valuable items (HP Up).
 
 ### Quest Status
-- **Medicine**: Cianwood Pharmacist didn't give potion. Need to re-trigger Jasmine event in Olivine Lighthouse.
+- **Medicine**: Jasmine event re-triggered. Fly to Cianwood to get SecretPotion.
 - **Lighthouse**: Route to top documented below.
 
 ### Lighthouse Navigation (Ascent)
