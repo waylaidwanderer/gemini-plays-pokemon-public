@@ -22,3 +22,8 @@
   - Need to investigate Lake of Rage (North).
 ### Tile Mechanics
 - **Route 42 (TYPE_3fe2)**: Can be shoreline or water. Test via bumping/interaction, don't assume.
+- Route 42 Obstacles:
+  - (7, 12): Small Tree (TYPE_2889).
+  - (8, 13): Big Tree (TYPE_80fc), not cuttable.
+  - (7, 14): Small Tree (TYPE_2889).
+  - Boxed in at (7, 13). Must backtrack West to escape.
