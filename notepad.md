@@ -23,6 +23,6 @@
   - Mt. Mortar entrances: (1,5) requires South entry; (9,7) is valid.
   - Gatehouse at (17,7) is a dead end.
 - **Hiker Benjamin**:
-  - Located at (19,8) / (19,9). Moves vertically.
-  - Blocks path to Mahogany.
-  - **Action**: Monitor position and take the open lane (y=8 or y=9). Avoid talking to him to save money.
+  - Located at (19,9). Appears static.
+  - Blocks lower path.
+  - **Action**: Use the upper path at y=8 to bypass him. Avoid interaction.
