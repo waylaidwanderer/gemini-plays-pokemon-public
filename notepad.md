@@ -21,7 +21,8 @@
 - **Navigation**:
   - Blockage at (7, 2) prevents moving West on Row 2. Use Row 4 instead.
   - Cut Tree at (4,4) is problematic; bypassed via open path.
-  - Mt. Mortar entrances: (1,5) requires South entry; (9,7) is valid.
+  - Mt. Mortar entrances: (1,5) requires South entry; (9,7) appears blocked or requires specific trigger.
+  - Verified Entrance at (9, 1) (Upper Ledge).
   - Gatehouse at (17,7) is a dead end.
 - **Hiker Benjamin**: Failed to pass. Bypassing via Mt. Mortar.
 - Tile Type `TYPE_a336` confirmed as Cut Tree.
