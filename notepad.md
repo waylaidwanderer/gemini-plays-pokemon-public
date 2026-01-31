@@ -1,7 +1,7 @@
 # Pokémon Crystal Playthrough
 - Started: Friday, January 16, 2026
 - Current Leg: Route 42 Surfing
-- Current Task: Surf from Ecruteak to Mahogany via Route 42
+- Current Task: Investigate radio signal in Mahogany Town (Lance's Lead)
 - **Gym**: Located at (7, 13).
 - **Lake of Rage**: Locals mention it (Route 43 North).
 - **Route 42**: Came from West.
