@@ -26,8 +26,8 @@
 - **Fly Map**: Grid based. New Bark (East) -> Cherrygrove -> Violet -> Ecruteak -> Olivine (West).
 
 ### Current Status
-- **Current Status**: New Bark Town (24_4).
-- **Immediate Goal**: Fly to Cianwood City.
-- **Navigation**: Open Menu -> Topaz (Slot 3) -> Fly -> Map Left x6 -> A.
+- **Current Status**: Player's House (24_6).
+- **Immediate Goal**: Exit House and Fly to Cianwood.
+- **Navigation**: Walk Down to exit -> Open Menu -> Fly.
 - **Critical**: Get SecretPotion from Pharmacist.
-- **Note**: Re-opening menu from scratch to ensure correct state.
+- **Note**: Accidentally entered house. Resetting positioning.
