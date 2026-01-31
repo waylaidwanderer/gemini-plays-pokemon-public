@@ -27,3 +27,4 @@
   - (8, 13): Big Tree (TYPE_80fc), not cuttable.
   - (7, 14): Small Tree (TYPE_2889).
   - Boxed in at (7, 13). Must backtrack West to escape.
+- **Possible Glitch (Turn 21644)**: Phone call from Arnie triggered while interacting with Swimmer Simon. Dialogue seems stuck on "Wow, you must know some pretty rare". Attempting to clear with A/B mashing.
