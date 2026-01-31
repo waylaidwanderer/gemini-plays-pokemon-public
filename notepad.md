@@ -30,3 +30,5 @@
     2. Wait for next turn to confirm position. 
     3. Move through the open lane (Likely UP to y=8).
   - **Status**: Wasted 1200 yen on 4 candies. STOP BUYING.
+- Tile Type `TYPE_a336` confirmed as Cut Tree.
+- Attempting to Cut tree at (9, 5) using deliberate interaction to avoid movement cancellation.
