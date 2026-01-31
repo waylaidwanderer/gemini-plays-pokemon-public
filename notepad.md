@@ -38,3 +38,5 @@
     - Gatehouse at Route 42 (17, 7) is a dead end.
 - Team Rocket grunts in Mahogany Gate (9_4) moved aside after interaction.
 - Proceeding North to Mahogany Town.
+- Gatehouse (9_4) acts as a connector/elevator between Lower Mt Mortar (17, 35) and Upper Mt Mortar (17, 31).
+- Currently in Upper Mt Mortar. Proceeding North.
