@@ -17,3 +17,8 @@
 - **Mechanics**: Start/Party menus remember cursor position.
 - Bought RageCandyBar from Hiker Benjamin at Route 42 (19, 8) for ¥300.
 - Gatehouse at Route 42 (17, 7) appears to be a dead end with no exit to Mahogany Town. Must return to Route 42 and find another way (Surf?).
+Reflection (Turn 20858):
+- Progress: Stuck at tree (3,4) for several turns.
+- Action: Using Start Menu to invoke Cut reliably, bypassing potential interaction glitches.
+- Map: Must stay on upper path (Y=4) to reach Fruit Tree at (15,4).
+- Goals: Reach Mahogany Town via Route 42 East.
