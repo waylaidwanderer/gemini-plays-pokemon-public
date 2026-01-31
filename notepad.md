@@ -27,3 +27,8 @@ Reflection (Turn 20882):
 - Corrected Hallucination: Tile TYPE_2889 at x=10 is Mountain/Cave, not water.
 - Current Position: (5, 6).
 - Plan: Investigate Mt. Mortar entrance at (9, 7) to bypass the blockage.
+Reflection (Turn 20910):
+- 50-Turn Check: Route 42 navigation has been messy (Tree issues, tile hallucinations).
+- Accidental RageCandyBar purchases due to button mashing.
+- Goal: Bypass Hiker Benjamin (blocking x=19, y=9) by taking the upper path at y=8.
+- Immediate: Finish dialogue, decline purchase if asked, then escape East.
