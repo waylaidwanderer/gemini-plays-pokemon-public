@@ -26,3 +26,8 @@ Reflection (Turn 20861):
 - Stuck in menu loop trying to Cut tree at (4,4).
 - "Nothing to Cut" message implies facing issue, but menu navigation prevents fixing it.
 - Plan: Exit all menus completely, ensure facing Right, then interact with tree directly.
+Reflection (Turn 20877):
+- Previous attempt to enter Mt. Mortar at (1, 5) failed or was not confirmed.
+- Current Position: (1, 6). Entrance is at (1, 5).
+- Plan: Move Up to enter. If blocked, check party for Flash candidates and reconsider Route 42 mechanics (Surf?).
+- Note: Cut tree at (4, 4) is uncooperative. Mt. Mortar is the primary bypass.
