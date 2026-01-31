@@ -342,5 +342,20 @@
         "action_counter": 13565
       }
     ]
+  },
+  "cut_tree": {
+    "description": "Automates the interaction to cut a tree. Assumes player is facing the tree. Sequence: Interact (A) -> Wait -> Confirm (A) -> Wait -> Move Forward (Up).",
+    "input_schema": {
+      "type": "object",
+      "properties": {}
+    },
+    "python_script": "import json\nprint(json.dumps([\"A\", \"sleep 1500\", \"A\", \"sleep 3000\", \"Up\"]))",
+    "history": [
+      {
+        "commit_message": "Defined cut_tree tool for reliable tree removal.",
+        "timestamp": "2026-01-31T17:01:12.528Z",
+        "action_counter": 21151
+      }
+    ]
   }
 }
