@@ -32,3 +32,7 @@
   - **Status**: Wasted 1200 yen on 4 candies. STOP BUYING.
 - Tile Type `TYPE_a336` confirmed as Cut Tree.
 - Attempting to Cut tree at (9, 5) using deliberate interaction to avoid movement cancellation.
+- Found upper path at Row 3!
+- Bypassed the RageCandyBar Hiker by going North around the cuttable trees.
+- Cave entrance spotted at (9, 1). Likely another Mt. Mortar entrance.
+- Path East on Row 3 seems clear.
