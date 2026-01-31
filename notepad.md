@@ -42,6 +42,9 @@
 - Dialogue active. Pressing 'B' to refuse candy.
 - Path strategy: Once dialogue clears, Hiker is at (19, 9), so go UP to (18, 8) and RIGHT through (19, 8).
 - SAFETY: Using dedicated turn to spam 'B' to ensure dialogue clears without accidentally selecting 'YES' with movement keys.
-- Hiker moved to (19, 8). Path at (19, 9) is OPEN.
-- Dialogue appears cleared.
-- Sprinting Right through (19, 9).
+- CRITICAL: Hiker Benjamin strategy FAILED. Abandoning direct pass attempt.
+- Retreating West to find alternate route (Surf or Mt. Mortar).
+- Upper path at Row 3 was a dead end.
+- Cave at (9, 1) is unexplored (Mt. Mortar?).
+- Need to find a place to SURF.
+- bought 13 RageCandyBars. Waste of money.
