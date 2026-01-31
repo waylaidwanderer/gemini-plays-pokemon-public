@@ -45,3 +45,5 @@
 - Trainer at (14, 7) mentions "Some SILVE guy" (Rival) passed through here.
 - Defeated Pokemaniac Ben at (13, 5). Path East is blocked, must go West to bypass.
 - Investigating possible exit at (10, 0) in Mt. Mortar 1F.
+- NPC at (20, 26) mentions "The GYARADOS are angry!" (Lake of Rage hint).
+- Checking if this is a trainer battle or just lore.
