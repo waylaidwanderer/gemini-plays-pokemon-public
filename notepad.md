@@ -31,3 +31,8 @@ Reflection (Turn 20877):
 - Current Position: (1, 6). Entrance is at (1, 5).
 - Plan: Move Up to enter. If blocked, check party for Flash candidates and reconsider Route 42 mechanics (Surf?).
 - Note: Cut tree at (4, 4) is uncooperative. Mt. Mortar is the primary bypass.
+Reflection (Turn 20878):
+- Entering Mt. Mortar.
+- Previous movement passed through the entrance tile (1,5) from the North without warping, suggesting directionality (must enter from South).
+- Current Position: (1,6). Plan: Move Up into (1,5).
+- Will teach Flash to Basil once inside.
