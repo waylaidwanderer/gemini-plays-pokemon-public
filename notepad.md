@@ -27,5 +27,6 @@
 
 ### Active Quest: Medicine
 - **Task**: Return to Olivine Lighthouse to fix missing SecretPotion trigger.
-- **Status**: Pharmacist dialogue failed (Whirl Islands lore only).
-- **Log**: "You came from OLIVINE?" text seen but no item received.
+- **Status**: Pharmacist dialogue loop (Whirl Islands/Lugia lore).
+- **Hypothesis**: I might be exiting the conversation too early or missing a Yes/No prompt.
+- **Plan**: Advance dialogue until it closes naturally. If no item, fly to Olivine.
