@@ -24,5 +24,5 @@
   - Gatehouse at (17,7) is a dead end.
 - **Hiker Benjamin**:
   - Located at (19,8) (Current). Blocks upper path.
-  - **Action**: Currently at (18,9). Dialogue active. Press A/B to clear. Move RIGHT to (19,9) through open lane.
+  - **Action**: Currently at (18,9). Dialogue active. Press B to decline/cancel. Confirm dialogue closed. THEN move RIGHT.
   - **Status**: Wasted 900 yen on 3 candies. STOP BUYING.
