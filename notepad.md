@@ -3,9 +3,9 @@
 
 ### Objectives
 - **Primary**: Reach Mahogany Town.
-- **Route**: Walk to Ecruteak (West of Violet) -> East to Route 42.
+- **Route**: Violet -> Route 36 -> Route 37 -> Ecruteak City.
 
 ### Quest Status
 - **Badge #6 (Mineral Badge)**: Obtained.
-- **Next Step**: Walk to Ecruteak City via Route 36.
+- **Next Step**: Enter Ecruteak City.
 - **Game Mechanic**: Menus (Start, Party) remember the last selected position. Be careful when navigating!
