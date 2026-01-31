@@ -5,11 +5,12 @@
 ### Objectives
 - **Primary**: Reach Mahogany Town.
 - **Secondary**: Reach Ecruteak City & Unlock Fly Point.
-- **Immediate**: Exit Pokemon Center, check Fly status, then head East to Mahogany.
+- **Immediate**: Locate East Exit to Route 42 (likely near Y=21).
 
 ### Ecruteak City Status
 - Arrived Turn 20616.
-- **To Do**: Check Fly status (Healing skipped due to technical difficulties).
+- **Fly Point**: UNLOCKED (Verified by visiting Center).
+- **To Do**: Head East to Mahogany.
 
 ### Route 37 Navigation Plan
 - Entry from Route 36 is at (26, 0) on Map 10_3, which corresponds to (6, 17) on Map 10_4.
