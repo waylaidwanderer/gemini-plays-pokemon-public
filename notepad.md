@@ -3,9 +3,9 @@
 
 ### Objectives
 - **Primary**: Reach Mahogany Town.
-- **Route**: Fly to Ecruteak City -> East to Route 42.
+- **Route**: Fly from Cherrygrove to Ecruteak -> East to Route 42.
 
 ### Quest Status
 - **Badge #6 (Mineral Badge)**: Obtained.
-- **Current Task**: Healing at Olivine Center.
+- **Current Task**: Transit (Cherrygrove -> Ecruteak).
 - **Next Step**: Fly to Ecruteak City.
