@@ -70,4 +70,4 @@
 - **Computers**:
   - (19, 11): Security Switch (OFF).
   - (20, 11): "Team Rocket Oath".
-  - (21, 11): Unchecked.
+  - (21, 11): "Team Rocket Oath" (Same as 20,11).
