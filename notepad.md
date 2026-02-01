@@ -69,3 +69,6 @@
 - **Locked Door (23, 14)**: Interaction yielded NO TEXT. Likely requires a specific event flag or key item (Password?) to be active before it even registers as a door.
 - **Exploration Logic**: Since B2F North is cut off by a wall, and I haven't found the Boss, there MUST be another staircase on B1F leading to the other side of B2F.
 - **Next Step**: Return to B1F and search the North-East area (accessed via Warp Panel) for a missed staircase.
+- **B2F Navigation**: Confirmed solid wall at Row 12 separates South Corridor (where I am) from the North Room (where the sprite at 7,9 is).
+- **Strategy**: Must find stairs on B1F that lead to the North-West section of B2F.
+- **Hypothesis**: The stairs might be in the area accessible via the Warp Tile or past the disabled statues on B1F.
