@@ -16,6 +16,7 @@
 - **B1F**: Northeast & Northwest Statues checked (Empty). Grunt at (2, 4) useless.
 - **B2F**: East Section explored. Stairs at (27, 14) lead to current location.
 - **Mechanics**: Alarms disabled. Warp tiles exist.
+- **Recent**: Defeated Scientist Ross at (23, 11). Murkrow fled. Need to find it again.
 
 ### Current Plan
 - Interact with Murkrow to get the password.
