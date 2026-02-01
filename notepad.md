@@ -24,3 +24,4 @@
 - **Obstacle**: Blocker at (28,9) blocks North-East path.
 - **Layout Update**: Wall at Col 18 separates East and West wings. Gap at (18, 14).
 - **Layout Update**: Wall at Col 2 separates the far west strip. Gap at (2, 16).
+- **Obstacle**: Grunt blocking path at (26, 8). Interacting.
