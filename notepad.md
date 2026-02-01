@@ -54,5 +54,5 @@
   - **Traps**: Floor traps exist (e.g., at 2,4).
 - **Goal**: Find the "secret switch" (Suspicious machine found at 24, 5).
 - **Exploration Note**: West corridor (x<6) is a dead end with a trap at (2,4). Lower corridor accessed via gap at (9, 4).
-- **Statue Alarm**: x=24 statues appear inactive or directional (passed safely Westbound).
+- **Statue Alarm**: x=24 statues are ACTIVE. Triggered battle at (24, 6). Likely infinite respawn.
 - **Statue Alarm**: Expecting battle at x=6 (Active).
