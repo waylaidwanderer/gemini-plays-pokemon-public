@@ -20,7 +20,6 @@
 - **Souvenir Shop Exit**: (27, 2). Avoid stepping here unless leaving.
 - Northeast Statues: Checked (24, 6). Empty.
 - Exploring Eastern Wall of Northeast Room.
-- Northwest Statues: (6, 1) checked (empty).
-- Checking Middle Statue at (6, 4)/(6, 5).
-- Checking Bottom Statue at (6, 7)/(6, 8).
-- Previous check at (6, 6) was a floor tile (error).
+- Northwest Wall Gap: Investigating walkable tiles at (6, 2) and (6, 3).
+- Remaining checks: Bottom wall (6, 7)/(6, 8), Grunt at (2, 4).
+- Northwest Statues: (6, 1) checked (empty). (6, 4)/(6, 5)/(6, 6) checked (empty).
