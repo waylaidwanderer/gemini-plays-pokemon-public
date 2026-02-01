@@ -5,41 +5,21 @@
 
 ### Team Rocket HQ Status
 - **Location**: Map 3_51 (Secret Room via B2F Stairs).
-- **Objective**: Find Murkrow. Checked West Wing. Currently searching North East via gap at (26, 10).
+- **Objective**: Open Shutter at (14, 11) to access North West Corner/Find Murkrow.
+- **Current Action**: Searching West Wing servers for a switch.
 
-### Leads & Clues
+### Clues & Passwords
 - **Password 1**: "Hail Giovanni".
-- **Password 2**: Held by Murkrow.
-- **Locked Door**: B2F (23, 14).
-
-### Exploration Log
-- **B1F**: Northeast & Northwest Statues checked (Empty). Grunt at (2, 4) useless.
-- **B2F**: East Section explored. Stairs at (27, 14) lead to current location.
-- **Mechanics**: Alarms disabled. Warp tiles exist.
+- **Password 2**: Held by Murkrow (Unknown).
+- **Target Door**: B2F (23, 14).
 
 ### Map 3_51 Layout
-- **West Wing (Cols 0-5)**: 2 Grunts (Defeated). Narrow path at Col 1 is a dead end.
-- **Central Area (Cols 12-16)**: Entrance via stairs at (27,14). Shutter blocks North at (14,11).
-- **East Wing (Cols 17-29)**: Connects North (Row 3) and South (Row 16).
-- **Obstacle**: Blocker at (28,9) blocks North-East path.
-- **Layout Update**: Wall at Col 18 separates East and West wings. Gap at (18, 14).
-- **Layout Update**: Wall at Col 2 separates the far west strip. Gap at (2, 16).
-- **Obstacle**: Grunt at (26, 8) is non-responsive/blocking. Bypassing.
-- **Obstacle**: Grunt at (25, 6). Facing South. Passive/Blocker. Bypassing.
-- **Exploration**: Successfully bypassed Grunt at (16, 13). Heading North up Central Corridor (Cols 16-17) to Row 3.
-- **Layout Update**: Row 4 is a solid wall (Cols 13-27). Gaps at Col 28 and Col 16-17.
-- **Layout Update**: Col 18 is a solid wall from Row 0 to Row 13. Gap at Row 3 and Row 14.
-- **Plan**: Blocker at (28, 11). Backtracking to Row 15, then West to Col 17 to bypass Grunt at (16, 13) and reach North Corridor (Row 3).
-- **Obstacle**: Grunt at (16, 13). Passive/Ignored interaction. Bypassing via Col 17 to access Shutter Area.
-- **Exploration**: Reached North Corridor (Row 3). Sweeping West.
-- **Exploration**: Blocked by Wall at Col 15. Sweeping East along North Corridor (Row 1) to check North East Corner.
-- **Exploration**: Reached North East Corner (Row 2). Checking for Murkrow.
-- **Exploration**: Checking East Wall (Col 28) South of Stairs.
-- **Layout Connection**: Map 3_51 (27, 2) connects to Map 3_50 (B2F) (27, 2).
-- **Correction**: Stairs at (27, 2) on Map 3_51 lead to B2F, not the shop.
-- **Exploration**: Sweeping East Corridor (Col 28) South to Row 6.
-- **Correction**: No blocker at (28, 11). Path clear.
-- **Plan**: Moving South to Row 15, then West to Central Area to explore West of Col 16.
-- **Exploration**: Confronting Grunt at (16, 13). Searching area North of Central Corridor.
-- **Exploration**: Shutter at (14, 11) is locked. Checking West Wing (North of Grunt at 11, 15).
-- **Plan**: Searching West Wing desks for a switch to open the Shutter at (14, 11).
+- **West Wing (Cols 0-7)**: Servers/Desks at Cols 4-7. Dead end at Col 1.
+- **Central Area (Cols 12-16)**: Shutter at (14, 11) (Locked). Corridor North via Cols 16-17.
+- **East Wing (Cols 17-29)**: Stairs to B2F at (27, 14) and (27, 2).
+- **North Corridor (Row 1-3)**: Accessible via Central or East. Connects to North East corner.
+
+### Objects of Interest
+- **Shutter**: (14, 11) - Locked. Needs switch.
+- **Murkrow**: Not found in accessible areas. Likely behind Shutter.
+- **Servers**: Located at (4-7, 12). Checking for switches.
