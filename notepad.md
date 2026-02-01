@@ -41,6 +41,6 @@
 - **Hypothesis**: This Grunt might be guarding the switch or possess the password.
 - **Intel**: Grunt at (21, 7) gave password "SLOWPOKETAIL".
 - **Passwords Known**: "Hail Giovanni" (Lance), "SLOWPOKETAIL" (Grunt).
-- **Uncertainty**: Do I still need the Murkrow? Is the shutter switch still needed?
-- **Plan**: Check nearby computers at (24, 10) and (25, 10) for the shutter switch just in case.
-- **Route**: Move East to Col 26, then South to Row 10 to access computers.
+- **Status**: Flag likely set. Murkrow/Grunt arc complete?
+- **Plan**: Quickly check computers at (24, 10) and (25, 10) for any hidden items/switches, then head to B2F Boss Door.
+- **Route**: Move East to Col 26, then South to Row 10.
