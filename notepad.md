@@ -29,3 +29,5 @@
 - Path West: Likely via Col 20 (South Corridor).
 - Plan: Check Stairs at (27, 14) first. Then try Col 20 if needed.
 - Murkrow Hunt: Checking where these stairs lead.
+- Defeated Rocket Grunt at (25, 14).
+- Taking Stairs at (27, 14).
