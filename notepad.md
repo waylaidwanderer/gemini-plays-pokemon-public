@@ -53,4 +53,4 @@
   - **Statue Alarms**: Passing in front of Persian statues (e.g., at x=6) triggers Grunt battles. They respawn indefinitely until a "secret switch" is found.
   - **Traps**: Floor traps exist (e.g., at 2,4).
 - **Goal**: Find the "secret switch" to disable the alarms.
-- **Alert**: Using Ether on Garnet's Dig.
+- **Alert**: Garnet's Dig PP restored (10/10).
