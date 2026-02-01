@@ -30,5 +30,6 @@
 ### Mechanics
 - **Warp Tiles**: "Back to entrance" = Northeast Side of B1F.
 - **Alarms**: Disabled.
-- **Map Note**: Tile (2, 5) appears to be impassable (invisible wall/blockage). Must flank via Column 3.
-- **Grunt at (2, 4)**: Investigated. Useless/Flavor text only ("where the traps are planted").
+- **Map Note**: Northeast Corner of B1F (approx 27, 2) is the Exit to the Souvenir Shop (3_48).
+- **Murkrow Status**: Not found in initial sweep. Needs a systematic re-check of B1F.
+- **Hypothesis**: Murkrow might have been missed in the "invisible wall" area or near the Scientist's room. Or I triggered it and it fled to a specific spot.
