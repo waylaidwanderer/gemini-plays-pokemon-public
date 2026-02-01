@@ -28,3 +28,4 @@
 - **Objective**: Murkrow at (23, 11). Entrance likely on South side (Col 21-22).
 - **Obstacle**: Blocker at (28,9) blocks North-East path.
 - **Layout Update**: Wall at Col 18 separates East and West wings. Gap at (18, 14).
+- **Layout Update**: Wall at Col 2 separates the far west strip. Gap at (2, 16).
