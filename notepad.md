@@ -30,3 +30,5 @@
 - Talk to Scientist Mitch at (11, 15) for clues about the shutter or switch.
 - **Plan**: Head South down the corridor (Col 17) to check the terminals behind Scientist Ross (23, 11) for the switch.
 - **Suspicion**: Tile (22, 11) might be a warp/trap that sends me to (22, 14). Avoid stepping on it while inspecting computers.
+- **New Intel**: A Grunt appeared at (21, 7) after I checked the area. Maybe he was triggered by something?
+- **Plan**: Inspect computers at (20, 10) and (21, 10). Then test (22, 11) for warp. If warped, circle back to check (23, 10).
