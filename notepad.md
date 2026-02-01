@@ -70,3 +70,4 @@
 - **B2F Navigation**: Confirmed solid wall at Row 12 separates South Corridor (where I am) from the North Room (where the sprite at 7,9 is).
 - **Strategy**: Must find stairs on B1F that lead to the North-West section of B2F.
 - **Hypothesis**: The stairs might be in the area accessible via the Warp Tile or past the disabled statues on B1F.
+- **Trap Corridor (West Wing)**: The corridor at x=2 (from y=12 up to y=4) is heavily trapped with Voltorb, Koffing, and Geodude. Every step is a potential battle. Proceed with caution.
