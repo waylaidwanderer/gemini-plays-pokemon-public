@@ -22,17 +22,9 @@
 
 ### Objects of Interest
 - **Shutter**: (14, 11) - Locked. Needs switch.
-- **Murkrow**: Not found in accessible areas. Likely behind Shutter.
-- **Servers**: Located at (4-7, 12). Checking for switches.
-- **Observation**: Terminal at (7, 13) contains "Team Rocket Oath". No switch found.
-- **Observation**: Terminal at (6, 12) contains "Team Rocket Oath". No switch found.
-- **Observation**: Terminal at (6, 13) says "Exploit POKéMON for profit!". (5, 13) inaccessible.
-- **Current Action**: Going around Grunt to check Terminal at (4, 13).
-- **Observation**: Terminal at (6, 13) contains "Team Rocket Oath". No switch found.
-- **Discovery**: (1, 12) was a Protein.
-- **Current Action**: Interacting with Terminal at (4, 13). This is the last accessible terminal.
-- **Note**: Terminal at (5, 13) is blocked by a defeated Grunt at (5, 14).
-- **Hypothesis**: Switch might be on this last terminal. If not, re-evaluate.
-- **Observation**: Terminal at (4, 13) contains "Team Rocket Oath". Checking for hidden switch.
-- **Observation**: All accessible terminals checked. No switch.
-- **Plan**: Talk to Scientist Mitch at (11, 15) for clues.
+- **Murkrow**: Likely behind Shutter.
+- **Terminals**: Checked (4-7, 12-13). All contain propaganda. No switches found.
+- **Items**: Protein found at (1, 12).
+
+### Current Plan
+- Talk to Scientist Mitch at (11, 15) for clues about the shutter or switch.
