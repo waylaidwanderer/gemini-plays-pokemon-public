@@ -77,4 +77,10 @@
   3. Investigate "Supply Crates" at (27, 10) and "Walk-through Grunt" area at (26, 9) for a hidden path/staircase.
   4. Search for a **SECOND STAIRCASE** on B1F leading to the North section of B2F (Boss Room).
 - **Garnet**: Level 45 (Typhlosion). Moves: Swift [1], Mud-Slap [2], Smokescreen [3], Flame Wheel [4].
-- **Trap Corridor (West Wing)**: x=2 is heavily trapped. Found Geodude trap at (4, 7) as well.
+- **Bolin**: Level 19 (Sandshrew).
+- **Trap Corridor (West Wing)**: x=2 is heavily trapped. Found Geodude/Koffing traps at x=4 as well (Rows 7, 9, 12, 13). This entire area is a minefield.
+- **Search Plan**:
+  1. Exit Trap Corridor to South (Row 16).
+  2. Traverse East to x>20 via South Corridor.
+  3. Investigate "Supply Crates" (27, 10) and "Walk-through Grunt" (26, 9).
+  4. Find SECOND STAIRCASE to Boss Room.
