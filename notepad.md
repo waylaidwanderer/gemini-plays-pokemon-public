@@ -28,6 +28,11 @@
 - **Walkable Trees**: `TYPE_fed7` tiles are walkable (Route 30/43).
 - **Battle Menu**: Cursor remembers last position. Use manual inputs.
 ### Current Strategy
-- **Goal**: Access the "Ghost Grunt" area (26, 9) from the Central Area.
-- **Path**: Move West to gap at (9, 4) -> Go South to Row 5 -> Go East to (26, 9).
-- **Hypothesis**: The "Hidden Room" with the Boss is accessed via a secret near the Ghost Grunt or the Crates at (27, 10).
+- **Cleared**:
+  - "Ghost Grunt" (26, 9): Just a graphical glitch or flavor. No stairs.
+  - Crates (27, 10): Empty.
+  - "Suspicious Machine" (24, 5): Checked twice, dud.
+- **Current Goal**: Find the entrance to the "Hidden Room" (Boss).
+  - **Hypothesis 1**: Entrance is near the disabled Persian Statues (x=6).
+  - **Hypothesis 2**: Hidden door in Central Area North Wall (y=4, x=10-18).
+- **Path**: Move West to x=6. Inspect statues and walls.
