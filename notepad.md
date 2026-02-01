@@ -29,6 +29,6 @@
 - **Exploration**: Successfully bypassed Grunt at (16, 13). Heading North up Central Corridor (Cols 16-17) to Row 3.
 - **Layout Update**: Row 4 is a solid wall (Cols 13-27). Gaps at Col 28 and Col 16-17.
 - **Layout Update**: Col 18 is a solid wall from Row 0 to Row 13. Gap at Row 3 and Row 14.
-- **Plan**: In East Wing (19, 14). Navigating East along Row 15 to Col 26, then North to search for Murkrow.
+- **Plan**: Heading North along Col 26 to (26, 9) to confront/bypass Grunt and access North East area.
 - **Obstacle**: Grunt at (16, 13). Facing Right. Will attempt to bypass or battle.
 - **Exploration**: Reached North Corridor (Row 3). Sweeping West.
