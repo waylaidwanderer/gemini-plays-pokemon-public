@@ -40,6 +40,6 @@
 - **Action**: Interacting with Grunt at (21, 7).
 - **Hypothesis**: This Grunt might be guarding the switch or possess the password.
 - **Battle**: vs Grunt (Gloom). Garnet Paralyzed.
-- **Action**: Retrying Flame Wheel (Press A).
-- **Status**: Back in Move Menu. Cursor on Flame Wheel (TR/BR).
-- **Hypothesis**: Gloom is toast.
+- **Status**: Gloom attacking (Absorb? Not effective).
+- **Action**: Clearing text. Waiting for Garnet to attack (hopefully Flame Wheel).
+- **Note**: PP unchanged, so Garnet hasn't moved yet.
