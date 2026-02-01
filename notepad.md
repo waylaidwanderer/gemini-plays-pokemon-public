@@ -29,4 +29,4 @@
 - **Obstacle**: Blocker at (28,9) blocks North-East path.
 - **Layout Update**: Wall at Col 18 separates East and West wings. Gap at (18, 14).
 - **Layout Update**: Wall at Col 2 separates the far west strip. Gap at (2, 16).
-- **Murkrow Sighting**: False alarm at (3, 12) (Item Ball). Searching West Strip (Col 1).
+- **Murkrow Sighting**: False alarm at (3, 12) (Item Ball). Checked West Strip. Returning to East Wing to loop north.
