@@ -4,14 +4,7 @@
 - Current Task: Investigate radio signal in Mahogany Town (Lance's Lead)
 - **Gym**: Located at (7, 13).
 - **Lake of Rage**: Locals mention it (Route 43 North).
-- **Route 42**: Came from West.
-
 ### Important Mechanics & Notes
-- **Gatehouse (15, 13)**: Pokemon Center (Sign says POKE).
-- **Mt. Mortar**:
-  - Explored 1F and Upper area partially.
-  - "Angry Gyarados" event blocks inner path.
-  - Exits known: (9, 51) West, (17, 35) Middle?
 - **Mahogany Town**:
   - Nurse Joy is MISSING from the Pokemon Center. Cannot heal here.
   - Gentleman reports Team Rocket at Lake of Rage.
