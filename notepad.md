@@ -34,3 +34,5 @@
 - **Note**: Terminal at (5, 13) is blocked by a defeated Grunt at (5, 14).
 - **Hypothesis**: Switch might be on this last terminal. If not, re-evaluate.
 - **Observation**: Terminal at (4, 13) contains "Team Rocket Oath". Checking for hidden switch.
+- **Observation**: All accessible terminals checked. No switch.
+- **Plan**: Talk to Scientist Mitch at (11, 15) for clues.
