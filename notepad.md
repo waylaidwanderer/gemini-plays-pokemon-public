@@ -30,4 +30,5 @@
 - **Layout Update**: Wall at Col 18 separates East and West wings. Gap at (18, 14).
 - **Layout Update**: Wall at Col 2 separates the far west strip. Gap at (2, 16).
 - **Murkrow Sighting**: False alarm at (3, 12) (Item Ball). Checked West Strip. Returning to East Wing to loop north.
-- **Murkrow Search**: Checked West. Heading to North East section (Row 5-10, Col 20-29).
+- **Murkrow Search**: Checked West. Searching North East (access via gap at 26, 10).
+- **Enemies**: Active Grunt likely at (24, 14). Facing Left? Avoiding Row 14.
