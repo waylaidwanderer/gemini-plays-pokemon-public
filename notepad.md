@@ -40,3 +40,5 @@
 - Route 31 Connection: The Cut tree at (25, 10) on Map 26_2 connects to the WEST side of Route 30 (x=5), creating a loop. The East side entrance (Mr. Pokemon) must be further East.
 - **Fly Menu Navigation**: Use **UP/DOWN** buttons to select towns. Left/Right does not work.
 - **Route 30 Mechanics**: Confirmed that `TYPE_fed7` tiles are walkable trees. Path to Mr. Pokemon: Go East to x=17, then North. Must dogleg East at (17, 18) to bypass walls at (17, 17)/(17, 16), then cut back West at (18, 14).
+- **Exp. Share**: Obtained and equipped on Bolin (Sandshrew).
+- **Next Step**: Fly to Mahogany Town and investigate the Souvenir Shop (Team Rocket HQ).
