@@ -66,3 +66,4 @@
   - (20, 11): "Team Rocket Oath".
   - (21, 11): "Team Rocket Oath" (Same as 20,11).
 - **Tool Note**: `bfs_navigate` is currently broken (returns empty paths). Needs debugging/fixing. Use manual movement for now.
+- **Tool Error**: `bfs_navigate` failed with `NameError: name 'target_x' is not defined`. The arguments are not being injected into the global scope as expected. Needs investigation. Using manual movement.
