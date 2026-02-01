@@ -3,14 +3,21 @@
 - **Primary Goal**: Open B2F Door with Password ("Hail Giovanni").
 - **Secondary Goal**: Defeat Executive.
 
-### Team Rocket HQ (B1F - Current)
-- **Location**: Jed's Lab (Central Area).
-- **Key Locations**:
-  - **Stairs to B2F**: (3, 14).
-  - **Computer (Password 1)**: (20, 11) "Hail Giovanni".
-  - **Jed**: Useless (Just warp tutorial).
-- **Objective**: Return to B2F and find the SECOND password.
-- **Clue**: Look for a Murkrow or another Grunt on B2F who might know the second password.
+### Team Rocket HQ (B1F)
+- **Location**: West Wing / Stairs.
+- **Objective**: Use Warp Tile at (5, 15) to reach East Side.
+- **Goal**: Find stairs on East Side leading to B2F (behind the locked door).
+
+### Leads & Clues
+- **Password 1**: "Hail Giovanni" (Got it).
+- **Password 2**: Unknown. Find Murkrow/Grunt on B2F (East Side).
+- **Sprite at (7, 9) on B2F**: unreachable from South. Must flank via East/North route.
+
+### Pathing
+1. Go Up Stairs to B1F (3, 14).
+2. Go to Warp Panel at (5, 15).
+3. Warp to East Side.
+4. Search for Stairs down.
 
 ### Leads & Clues
 - **Password 1**: "Hail Giovanni".
