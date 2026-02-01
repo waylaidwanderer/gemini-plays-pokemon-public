@@ -33,3 +33,4 @@
 - **Current Action**: Interacting with Terminal at (4, 13). This is the last accessible terminal.
 - **Note**: Terminal at (5, 13) is blocked by a defeated Grunt at (5, 14).
 - **Hypothesis**: Switch might be on this last terminal. If not, re-evaluate.
+- **Observation**: Terminal at (4, 13) contains "Team Rocket Oath". Checking for hidden switch.
