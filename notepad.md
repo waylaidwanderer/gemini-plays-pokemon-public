@@ -39,7 +39,8 @@
 - **Observation**: Checked back of Ross's computer (23, 10). Nothing happened.
 - **Action**: Interacting with Grunt at (21, 7).
 - **Hypothesis**: This Grunt might be guarding the switch or possess the password.
-- **Status**: Obtained both passwords ("Hail Giovanni" + "SLOWPOKETAIL").
-- **Intel**: Grunt at (21, 7) gave the password. No need to chase Murkrow.
-- **Objective**: Open the Boss's Door on B2F at (23, 14).
-- **Route**: Leaving B1F via stairs at (27, 14). Then navigating B2F to the door.
+- **Status**: Back on B2F (Map 3_50).
+- **Inventory**: Passwords "Hail Giovanni" and "SLOWPOKETAIL".
+- **Objective**: Unlock the Boss's Door at (23, 14).
+- **Target**: Move Left to (24, 14) and interact with the door.
+- **Note**: Rival Silver is at (25, 13), likely watching.
