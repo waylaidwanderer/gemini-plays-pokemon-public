@@ -22,5 +22,5 @@
 - Return to B2F Locked Door.
 - Murkrow is at (23, 11). Access blocked from South and Left.
 - Potential path: Go Right to Col 28, Up to Row 9, Left across top, Down to Murkrow.
-- Sprite at (28, 9) might be an obstacle or Lance.
-- Action: Flanking Right to reach Murkrow.
+- NPC at (28, 9) is offering an item, but Inventory is full.
+- Action: Use Hyper Potion to free a slot, then receive item.
