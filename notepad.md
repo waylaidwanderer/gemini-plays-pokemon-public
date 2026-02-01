@@ -70,6 +70,11 @@
 - **B2F Navigation**: Confirmed solid wall at Row 12 separates South Corridor (where I am) from the North Room (where the sprite at 7,9 is).
 - **Strategy**: Must find stairs on B1F that lead to the North-West section of B2F.
 - **Hypothesis**: The stairs might be in the area accessible via the Warp Tile or past the disabled statues on B1F.
+- **Battle Menu**: Menus WRAP. 'Up' from top goes to bottom. **Resetting is impossible without visual feedback.** Use manual inputs for battles.
+- **Search Plan**:
+  1. Finish battle & exit Trap Corridor.
+  2. Return to East Wing (x>20) via South Corridor.
+  3. Investigate "Supply Crates" at (27, 10) and "Walk-through Grunt" area at (26, 9) for a hidden path/staircase.
+  4. Search for a **SECOND STAIRCASE** on B1F leading to the North section of B2F (Boss Room).
 - **Garnet**: Level 45 (Typhlosion). Moves: Swift [1], Mud-Slap [2], Smokescreen [3], Flame Wheel [4].
-- **Battle Menu**: Menus WRAP. 'Up' from top goes to bottom. Custom tool `battle_move_select` is BROKEN because it assumes non-wrapping. Use manual inputs.
 - **Trap Corridor (West Wing)**: x=2 is heavily trapped. Found Geodude trap at (4, 7) as well.
