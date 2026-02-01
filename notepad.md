@@ -41,5 +41,5 @@
 - **Hypothesis**: This Grunt might be guarding the switch or possess the password.
 - **Battle**: vs Grunt (Gloom). Garnet Paralyzed.
 - **Move Slots**: TL=Swift, TR=Mud-Slap, BL=Smokescreen, BR=Flame Wheel.
-- **Status**: Clearing text (Smokescreen used). Waiting for Gloom's move.
-- **Plan**: Mash B/A to clear text. Next turn: Use Flame Wheel (BR).
+- **Action**: Using Flame Wheel (BR).
+- **Hypothesis**: Gloom should go down in one hit if I can move.
