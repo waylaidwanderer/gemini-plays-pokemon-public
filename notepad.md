@@ -5,8 +5,8 @@
 
 ### Team Rocket HQ (B1F)
 - **Status**: Exploring East Wing (South End).
-- **Objective**: Find Stairs to B2F East.
-- **Path**: Flank Grunt at (26, 14), then head North along East Wall (Column 28).
+- **Objective**: Explore Southeast Corner of B1F (current location).
+- **Path**: Investigated (26, 14) - Grunt missing/area empty. Continuing to check southeast corner for Murkrow or items.
 
 ### Leads & Clues
 - **Password 1**: "Hail Giovanni".
