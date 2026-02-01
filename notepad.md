@@ -40,6 +40,7 @@
 - **Action**: Interacting with Grunt at (21, 7).
 - **Hypothesis**: This Grunt might be guarding the switch or possess the password.
 - **Status**: At B2F Boss Door (23, 14).
-- **Issue**: Door not opening. Verified passwords "Hail Giovanni" and "SLOWPOKETAIL".
-- **Plan**: Interact with the top tile of the door (23, 14) from (24, 14).
-- **Contingency**: If this fails, the Grunt at (21, 7) might have more dialogue, or I need to find the Murkrow again.
+- **Issue**: Door not opening despite having passwords.
+- **Action**: Trying interaction with the BOTTOM tile of the door (23, 15) from (24, 15).
+- **Reasoning**: Door interactions can be finicky about which tile is the "active" one.
+- **Passwords**: "Hail Giovanni", "SLOWPOKETAIL".
