@@ -5,7 +5,9 @@
 
 ### Team Rocket HQ (B1F)
 - **Status**: Exploring Central Area (Persian Statue Room).
-- **Objective**: Interact with Grunt at (9, 4) and check for Murkrow.
+- **Objective**: Explore Northern Corridor (Row 1-3) moving East.
+- **Path**: Moving from (9, 4) to the East side of the room to find Murkrow.
+- **Notes**: (9, 4) was empty (no Grunt). Area is clear.
 
 ### Leads & Clues
 - **Password 1**: "Hail Giovanni".
