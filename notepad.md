@@ -66,4 +66,3 @@
   - (20, 11): "Team Rocket Oath".
   - (21, 11): "Team Rocket Oath" (Same as 20,11).
 - **Tool Note**: `bfs_navigate` is currently broken (returns empty paths). Needs debugging/fixing. Use manual movement for now.
-- **Exploration**: Currently exploring the South-East corner of B1F (Map 3_49).
