@@ -4,9 +4,8 @@
 - **Secondary Goal**: Open B2F Door with Password ("Hail Giovanni" + Password 2).
 
 ### Team Rocket HQ (B1F)
-- **Status**: Exploring East Wing (South End).
-- **Objective**: Explore Southwest Area of B1F.
-- **Path**: Moving West along Row 16 towards the trap fields and stairs. Checking for Murkrow.
+- **Status**: Moving West along Row 16 to Southwest Area.
+- **Objective**: Check Southwest Corner for Murkrow.
 
 ### Leads & Clues
 - **Password 1**: "Hail Giovanni".
