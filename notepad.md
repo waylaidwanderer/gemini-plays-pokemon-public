@@ -54,11 +54,9 @@
   - y=16 Corridor (West side) is a dead end at x=6.
   - Must backtrack East to x=17 to return to y=14 Main Corridor.
   - **Target**: Investigating room at (7, 9) (Sprite detected). Likely accessible from y=14 or via a specific door.
-- **Reflection (Turn 22469)**: 
-  - Realized I was searching for a B2F room on B1F. Fixed.
-  - Current Goal: Reach room at (7, 9) on Map 3_50 (B2F).
-  - Path: Head East to (17, 14), then loop back North/West.
-  - BFS tool is unreliable in this complex map; relying on manual pathing/connectivity checks.
+- **Navigation Update (Turn 22737)**: 
+  - Central area (Row 9) blocked from North.
+  - Route to B2F Stairs: Go East to x=19, North to Row 5, West to Gap at (9,4), then South-West to Stairs at (3,14).
 - **Scientist Jed Secret**: Mentioned that warp panels lead "back to the entrance". Likely referring to the one at (5, 15) or others.
 - **Security Switch**: Found at (19, 11). CONFIRMED: Disabled the Persian Statue alarms (tested at x=24).
 - **Computers**:
