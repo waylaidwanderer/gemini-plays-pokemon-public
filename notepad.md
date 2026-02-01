@@ -34,5 +34,6 @@
 - **Route**: (20, 11) -> South/East via Row 14/15 -> (25, 11). Expecting battle with Grunt at (24, 14).
 - **New Intel**: A Grunt appeared at (21, 7) after I checked the area. Maybe he was triggered by something?
 - **Plan**: Inspect computers at (20, 10) and (21, 10). Then test (22, 11) for warp. If warped, circle back to check (23, 10).
-- **Action**: Finished dialogue with Grunt (he was beaten by Lance).
-- **Plan**: Go around the Grunt (Left side) to access computers at (24, 11) and (25, 11).
+- **Layout Clarification**: Computers are at Row 10. Ross is at (23, 11). Grunt is way south at (24, 14) behind a different desk.
+- **Plan**: Walk past Ross (via Row 12) to check computers at (24, 10) and (25, 10).
+- **Route**: (22, 12) -> Right -> Right -> Up -> Inspect.
