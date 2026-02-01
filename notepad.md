@@ -34,7 +34,8 @@
   - Connects Mahogany Town (South) to Lake of Rage (North).
   - **Trainers**: Pokemaniacs Ron, Ben, Camper Spencer (Defeated).
 
-- **Route 43 (Map 9_5) Mechanic**: Tiles of `TYPE_fed7` are **WALKABLE**, even if they look like trees. This allows bypassing obstacles/trainers by walking through the "forest" edge.
+### Tile Mechanics
+- **Walkable Trees (TYPE_fed7)**: These tiles look like trees but are walkable. Essential for navigating Route 30 and Route 43 to bypass obstacles.
 - **Map 9_6 Identification**: This is the **Lake of Rage** area (or entrance). It has water, rain/snow, and the "Angry Gyarados" event. It is NOT Mt. Mortar inner cave as previously thought.
 - Detour: Fly to Cherrygrove City to trade Red Scale for Exp. Share with Mr. Pokemon (Route 30). Then Fly to Mahogany.
 - Route 31 Connection: The Cut tree at (25, 10) on Map 26_2 connects to the WEST side of Route 30 (x=5), creating a loop. The East side entrance (Mr. Pokemon) must be further East.
