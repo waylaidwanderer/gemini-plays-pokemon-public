@@ -40,5 +40,6 @@
 - **Action**: Interacting with Grunt at (21, 7).
 - **Hypothesis**: This Grunt might be guarding the switch or possess the password.
 - **Battle**: vs Grunt (Gloom). Garnet Paralyzed.
-- **Status**: Clearing text (Smokescreen result). Gloom will attack next.
-- **Next Action**: Mash B to clear. Then Flame Wheel (BR).
+- **Status**: Gloom used draining move. Clearing text.
+- **Next Action**: Select Fight -> Flame Wheel (BR).
+- **Hypothesis**: Gloom is weak, should die to one Flame Wheel.
