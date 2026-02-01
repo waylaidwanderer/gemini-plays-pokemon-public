@@ -47,6 +47,10 @@
 - **Alert**: Garnet only has PP for Flame Wheel (14). All other moves are empty (0).
 
 ### Team Rocket HQ (Map 3_49)
+- **Start Time**: Turn ~22050.
 - **Entrance**: Stairs from Souvenir Shop.
-- **Statues**: Persian statues act as alarms (trigger battles with Grunts). DO NOT WALK IN FRONT OF THEM if possible.
-- **Floor Traps**: Beware of "chute" traps that send us back to the start (if applicable in this version).
+- **Mechanics**:
+  - **Statue Alarms**: Passing in front of Persian statues (e.g., at x=6) triggers Grunt battles. They respawn indefinitely until a "secret switch" is found.
+  - **Traps**: Floor traps exist (e.g., at 2,4).
+- **Goal**: Find the "secret switch" to disable the alarms.
+- **Alert**: Garnet only has PP for Flame Wheel (13). Other moves 0 PP. Needs Ether.
