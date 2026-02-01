@@ -56,6 +56,7 @@
   - (1, 8): Voltorb Trap (Can't Run).
   - (5, 8): Koffing Trap (Can't Run?).
   - (5, 10): Geodude Trap (Can't Run).
+  - (4, 11): Koffing Trap (Can't Run).
 - **Goal**: Find the "secret switch" (Suspicious machine found at 24, 5).
 - **Exploration Note**: West corridor (x<6) is a dead end with a trap at (2,4). Lower corridor accessed via gap at (9, 4).
 - **Statue Alarm**: x=24 statues are ACTIVE. Triggered battle at (24, 6). Likely infinite respawn.
