@@ -38,3 +38,4 @@
 - **Map 9_6 Identification**: This is the **Lake of Rage** area (or entrance). It has water, rain/snow, and the "Angry Gyarados" event. It is NOT Mt. Mortar inner cave as previously thought.
 - Detour: Fly to Cherrygrove City to trade Red Scale for Exp. Share with Mr. Pokemon (Route 30). Then Fly to Mahogany.
 - Route 31 Connection: The Cut tree at (25, 10) on Map 26_2 connects to the WEST side of Route 30 (x=5), creating a loop. The East side entrance (Mr. Pokemon) must be further East.
+- **Fly Menu Navigation**: Use **UP/DOWN** buttons to select towns. Left/Right does not work.
