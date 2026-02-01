@@ -1,90 +1,29 @@
 # Pokémon Crystal Playthrough
-- Started: Friday, January 16, 2026
-- Current Leg: Route 42 Surfing
-- Current Task: Investigate radio signal in Mahogany Town (Lance's Lead)
-- **Gym**: Located at (7, 13).
-- **Lake of Rage**: Locals mention it (Route 43 North).
-### Important Mechanics & Notes
-- **Mahogany Town**:
-  - Nurse Joy is MISSING from the Pokemon Center. Cannot heal here.
-  - Gentleman reports Team Rocket at Lake of Rage.
-  - Team Rocket has returned.
-  - Need to investigate Lake of Rage (North).
+- **Current Leg**: Team Rocket HQ (Mahogany Town)
+- **Primary Goal**: Find password and Boss to open B2F door.
 
-### Tile Mechanics
-- **Walkable Trees (TYPE_fed7)**: These tiles look like trees but are walkable. Essential for navigating Route 30 and Route 43 to bypass obstacles.
-- **Map 9_6 Identification**: This is the **Lake of Rage** area (or entrance). It has water, rain/snow, and the "Angry Gyarados" event. It is NOT Mt. Mortar inner cave as previously thought.
-- Detour: Fly to Cherrygrove City to trade Red Scale for Exp. Share with Mr. Pokemon (Route 30). Then Fly to Mahogany.
-- Route 31 Connection: The Cut tree at (25, 10) on Map 26_2 connects to the WEST side of Route 30 (x=5), creating a loop. The East side entrance (Mr. Pokemon) must be further East.
-- **Fly Menu Navigation**: Use **UP/DOWN** buttons to select towns. Left/Right does not work.
-- **Route 30 Mechanics**: Confirmed that `TYPE_fed7` tiles are walkable trees. Path to Mr. Pokemon: Go East to x=17, then North. Must dogleg East at (17, 18) to bypass walls at (17, 17)/(17, 16), then cut back West at (18, 14).
-- **Exp. Share**: Obtained and equipped on Bolin (Sandshrew).
-- **Current Location**: Team Rocket HQ - B1F.
-- **Goal**: Find password for B2F door.
-- **Status of Leads**:
-  - Scientist Jed (18, 12): Useless.
-  - Grunt at (3, 4): Useless.
-  - East Wing (x=24): Dead end.
-  - **Active Lead**: Search for the Boss (Executive) on B1F to get the password.
-  - Clue: Grunt at (21, 14) B2F says 'Only the boss knows the password'.
-- **Warp Panel**: Located at (5, 15). Warps to (25, 2).
-
-### Team Rocket HQ (Map 3_49)
-- **Start Time**: Turn ~22050.
-- **Entrance**: Stairs from Souvenir Shop.
+### Team Rocket HQ (Map 3_49 - B1F)
+- **Layout**:
+  - **West Wing (x=1-5)**: "Trap Corridor". Contains traps (Voltorb, Koffing, Geodude).
+  - **East Wing (x>20)**: Contains Supply Crates and Warp Landing. Dead end.
+  - **Central Area (x=7-19)**: Likely location of the Boss/Second Staircase. Accessible via gap at (9, 4).
+- **Navigation**:
+  - **West Corridor**: Connects to Center ONLY via Row 3 (North). Row 4 is blocked.
+  - **Stairs Bypass**: The stairs at (3, 14) block the safe path (Col 3). Bypass via (2, 14).
 - **Mechanics**:
-  - **Statue Alarms**: Passing in front of Persian statues (e.g., at x=6) triggers Grunt battles. They respawn indefinitely until a "secret switch" is found.
-  - **Traps**: Floor traps exist.
-  - (2, 4): Koffing/Geodude?
-  - (1, 8): Voltorb Trap (Can't Run).
-  - (5, 8): Koffing Trap (Can't Run?).
-  - (5, 10): Geodude Trap (Can't Run).
-  - (4, 11): Koffing Trap (Can't Run).
-- **Goal**: Find the "secret switch" (Suspicious machine found at 24, 5).
-- **Exploration Note**: West corridor (x<6) is a dead end with a trap at (2,4). Lower corridor accessed via gap at (9, 4).
-- **Statue Alarm**: x=24 statues are ACTIVE. Triggered battle at (24, 6). Likely infinite respawn.
-- **Statue Alarm**: Expecting battle at x=6 (Active).
-- **Battle Menu Mechanics**: 
-  - The move selection menu is a **Vertical List**.
-  - **Cursor Memory**: The cursor **remembers the last used move** position within the battle. It does NOT reset to the top when re-entering the FIGHT menu.
-  - To re-use the same move: Just press 'A'.
-  - To switch moves: You must account for the current cursor position.
-  - Wraps: Up from Top -> Bottom, Down from Bottom -> Top.
-- **Map 3_50 Notes**:
-  - y=16 Corridor (West side) is a dead end at x=6.
-  - Must backtrack East to x=17 to return to y=14 Main Corridor.
-  - **Target**: Investigating room at (7, 9) (Sprite detected). Likely accessible from y=14 or via a specific door.
+  - **Security Switch**: Found at (19, 11). Disables Persian Statue alarms.
+  - **Warp Panels**: (5, 15) -> (25, 2). "Lead back to entrance".
+  - **Statue Alarms**: Infinite battles if active.
+- **Traps**:
+  - Col 2: (2,7), (2,10), (2,11), (2,12).
+  - Col 3: (3,8).
+  - Col 4/5: Multiple traps.
 
-- **Scientist Jed Secret**: Mentioned that warp panels lead "back to the entrance". Likely referring to the one at (5, 15) or others.
-- **Security Switch**: Found at (19, 11). CONFIRMED: Disabled the Persian Statue alarms (tested at x=24).
-- **Computers**:
-  - (19, 11): Security Switch (OFF).
-  - (20, 11): "Team Rocket Oath".
-  - (21, 11): "Team Rocket Oath" (Same as 20,11).
-- **Tool Status**: `bfs_navigate` fixed (Turn 22718). Checks globals and tool_args.
-- **Exploration**: Heading back to B2F to find the Boss/Password.
-- **Oath**: Found "Team Rocket Oath" on computers at (20,11)/(21,11). Might be the password, but need to trigger the option to say it.
-- **Locked Door (23, 14)**: Interaction yielded NO TEXT. Likely requires a specific event flag or key item (Password?) to be active before it even registers as a door.
-- **Exploration Logic**: Since B2F North is cut off by a wall, and I haven't found the Boss, there MUST be another staircase on B1F leading to the other side of B2F.
-- **Next Step**: Return to B1F and search the North-East area (accessed via Warp Panel) for a missed staircase.
-- **B2F Navigation**: Confirmed solid wall at Row 12 separates South Corridor (where I am) from the North Room (where the sprite at 7,9 is).
-- **Strategy**: Must find stairs on B1F that lead to the North-West section of B2F.
-- **Hypothesis**: The stairs might be in the area accessible via the Warp Tile or past the disabled statues on B1F.
-- **Battle Menu**: Menus WRAP. 'Up' from top goes to bottom. **Resetting is impossible without visual feedback.** Use manual inputs for battles.
-- **Search Plan**:
-  1. Finish battle & exit Trap Corridor.
-  2. Return to East Wing (x>20) via South Corridor.
-  3. Investigate "Supply Crates" at (27, 10) and "Walk-through Grunt" area at (26, 9) for a hidden path/staircase.
-  4. Search for a **SECOND STAIRCASE** on B1F leading to the North section of B2F (Boss Room).
-- **Garnet**: Level 45 (Typhlosion). Moves: Swift [1], Mud-Slap [2], Smokescreen [3], Flame Wheel [4].
-- **Bolin**: Level 19 (Sandshrew).
-- **Trap Corridor (West Wing)**: x=2 is heavily trapped. Found Geodude/Koffing traps at x=4 as well (Rows 7, 9, 12, 13). This entire area is a minefield.
-- **Search Plan**:
-  1. Exit Trap Corridor to South (Row 16).
-  2. Traverse East to x>20 via South Corridor.
-  3. Investigate "Supply Crates" (27, 10) and "Walk-through Grunt" (26, 9).
-  4. Find SECOND STAIRCASE to Boss Room.
-- **West Corridor Separation**: Row 4 is blocked by walls at x=6,7,8. The West Corridor (x=1-5) connects to the Center (x=7+) ONLY via Row 3 (past the statues).
-- **Bypass Stairs**: To stay on B1F, bypass the stairs at (3, 14) by walking on (2, 14) or (4, 14).
-- **Correction**: The West Corridor (x=1-5) connects to the Center (x=7+) ONLY via Row 3 (past the statues). Row 4 is blocked.
-- **Plan**: Go South to Row 16 -> West to x=5 -> North to Row 3 -> East to (9, 4).
+### Leads & Clues
+- **Password**: "Team Rocket Oath" on computers (20, 11).
+- **Locked Door**: B2F (23, 14). Needs password.
+- **Boss**: "Only the boss knows the password". Found in "hidden room"?
+
+### Important Mechanics
+- **Walkable Trees**: `TYPE_fed7` tiles are walkable (Route 30/43).
+- **Battle Menu**: Cursor remembers last position. Use manual inputs.
