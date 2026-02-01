@@ -65,5 +65,6 @@
   - (19, 11): Security Switch (OFF).
   - (20, 11): "Team Rocket Oath".
   - (21, 11): "Team Rocket Oath" (Same as 20,11).
-- **Tool Note**: `bfs_navigate` is currently broken (returns empty paths). Needs debugging/fixing. Use manual movement for now.
-- **Tool Error**: `bfs_navigate` failed with `NameError: name 'target_x' is not defined`. The arguments are not being injected into the global scope as expected. Needs investigation. Using manual movement.
+- **Tool Status**: `bfs_navigate` fixed (Turn 22718). Checks globals and tool_args.
+- **Exploration**: Heading back to B2F to find the Boss/Password.
+- **Oath**: Found "Team Rocket Oath" on computers at (20,11)/(21,11). Might be the password, but need to trigger the option to say it.
