@@ -7,7 +7,8 @@
 - **Status**: Re-entering B1F from Souvenir Shop (3_48).
 - **Objective**: Explore Northern Corridor (Row 1-3) moving West to East.
 - **Path**: Re-enter via stairs at (7, 1).
-- **Notes**: Accidentally exited to Souvenir Shop. Must go back down.
+- **Notes**: Stairs at (6, 1) appear blocked/closed. Must re-activate the switch on the cabinet at (7, 1) or find the trigger.
+- **Current Status**: Stuck in Souvenir Shop. Attempting to re-open B1F entrance.
 
 ### Leads & Clues
 - **Password 1**: "Hail Giovanni".
