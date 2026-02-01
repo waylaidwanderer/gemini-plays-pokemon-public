@@ -4,8 +4,8 @@
 - **Secondary Goal**: Open B2F Door with Password ("Hail Giovanni" + Password 2).
 
 ### Team Rocket HQ (B1F)
-- **Status**: Moving West along Row 16 to Southwest Area.
-- **Objective**: Check Southwest Corner for Murkrow.
+- **Status**: Exploring Central Area (Persian Statue Room).
+- **Objective**: Interact with Grunt at (9, 4) and check for Murkrow.
 
 ### Leads & Clues
 - **Password 1**: "Hail Giovanni".
