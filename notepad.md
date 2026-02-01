@@ -40,6 +40,6 @@
 - **Action**: Interacting with Grunt at (21, 7).
 - **Hypothesis**: This Grunt might be guarding the switch or possess the password.
 - **Battle**: vs Grunt (Gloom). Garnet Paralyzed.
-- **Status**: Gloom attacking (Absorb? Not effective).
-- **Action**: Clearing text. Waiting for Garnet to attack (hopefully Flame Wheel).
-- **Note**: PP unchanged, so Garnet hasn't moved yet.
+- **Action**: Using Flame Wheel (A).
+- **State**: Move Menu active. Cursor on Flame Wheel.
+- **Observation**: "It's not very effective" text visible, likely from Gloom's Absorb.
