@@ -24,9 +24,8 @@
 - Grunt at (2, 4): "Don't know where traps are." Useless.
 - Status: Searching Southwest Room (Stairs/Traps area).
 - Murkrow Hunt: Not found in North. Checking South.
-- Entered B2F (Map 3_50).
-- Locked Doors at (23, 14) and (23, 15).
-- Wall at x=23 separates West and East.
-- Plan: Explore North along East side (Col 26-28) to bypass wall.
-- Targets: Item at (3, 10), Voltorb-like sprites at (22, 7)/(22, 9).
-- Murkrow likely in B2F.
+- B2F East Section: Row 10 is blocked by walls. Dead end to the North.
+- Found Stairs at (27, 14) in the East Section!
+- Path West: Likely via Col 20 (South Corridor).
+- Plan: Check Stairs at (27, 14) first. Then try Col 20 if needed.
+- Murkrow Hunt: Checking where these stairs lead.
