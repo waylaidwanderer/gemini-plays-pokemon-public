@@ -22,5 +22,5 @@
 - Return to B2F Locked Door.
 - Murkrow is at (23, 11). Access blocked from South and Left.
 - Potential path: Go Right to Col 28, Up to Row 9, Left across top, Down to Murkrow.
-- NPC at (28, 9) gave Full Heal but blocks North path.
-- Action: Flanking West via the southern corridor (Row 16) to reach Murkrow.
+- Northwest corridor (Cols 16-17) is a dead end with an Ice Heal.
+- Action: Return to Row 16 and explore the Southwest area for a path to Murkrow.
