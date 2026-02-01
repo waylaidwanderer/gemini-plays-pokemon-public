@@ -36,6 +36,6 @@
 - **Plan**: Inspect computers at (20, 10) and (21, 10). Then test (22, 11) for warp. If warped, circle back to check (23, 10).
 - **Layout**: Computers at Row 10 (Cols 20-25). Ross at (23, 11).
 - **Plan**: Check fronts of (25, 10) and (24, 10).
-- **Action**: Checking back of computer at (23, 10).
-- **Target**: Grunt at (21, 7). He might be the key.
-- **Hypothesis**: The switch might be on the back of a computer or guarded by this specific Grunt.
+- **Observation**: Checked back of Ross's computer (23, 10). Nothing happened.
+- **Action**: Interacting with Grunt at (21, 7).
+- **Hypothesis**: This Grunt might be guarding the switch or possess the password.
