@@ -344,7 +344,7 @@
     ]
   },
   "battle_move_select": {
-    "description": "Selects a move in the battle menu (1-4) by navigating from the Fight button. Assumes the cursor is initially on 'FIGHT'. Handles the grid layout (2x2) correctly. 1:Top-Left, 2:Top-Right, 3:Bottom-Left, 4:Bottom-Right. Returns valid JSON array of buttons.",
+    "description": "Selects a move in the battle menu (1-4) by navigating from the Fight button. Assumes the cursor is initially on 'FIGHT'. Handles the vertical list layout correctly. 1:Top, 2:Second, 3:Third, 4:Bottom. Returns valid JSON array of buttons.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -359,7 +359,7 @@
         "move_slot"
       ]
     },
-    "python_script": "import sys\nimport json\n\ntry:\n    move_slot = int(input_data.get('move_slot', 1))\n    \n    # Sequence to get into the move menu\n    # Assumes cursor is on \"FIGHT\" (top-left of main menu)\n    buttons = ['A'] \n    \n    # Wait for move menu to open\n    buttons.append('sleep 500')\n\n    # Grid layout for moves:\n    # 1 2\n    # 3 4\n    \n    if move_slot == 1:\n        # Top-Left: Already there\n        pass\n    elif move_slot == 2:\n        # Top-Right: Press Right\n        buttons.append('Right')\n    elif move_slot == 3:\n        # Bottom-Left: Press Down\n        buttons.append('Down')\n    elif move_slot == 4:\n        # Bottom-Right: Press Down, then Right (or Right then Down)\n        buttons.append('Right')\n        buttons.append('Down')\n        \n    # Select the move\n    buttons.append('A')\n    \n    print(json.dumps(buttons))\n\nexcept Exception as e:\n    # Fallback to just pressing A if something goes wrong, to avoid crashing the tool interface\n    # But print it as a list so the system accepts it\n    print(json.dumps(['A']))",
+    "python_script": "import sys\nimport json\n\ntry:\n    move_slot = int(input_data.get('move_slot', 1))\n    \n    # Sequence to get into the move menu\n    # Assumes cursor is on \"FIGHT\" (top-left of main menu)\n    buttons = ['A'] \n    \n    # Wait for move menu to open\n    buttons.append('sleep 500')\n\n    # Vertical List layout for moves:\n    # 1\n    # 2\n    # 3\n    # 4\n    \n    # Cursor starts at 1\n    num_downs = move_slot - 1\n    \n    for _ in range(num_downs):\n        buttons.append('Down')\n        \n    # Select the move\n    buttons.append('A')\n    \n    print(json.dumps(buttons))\n\nexcept Exception as e:\n    # Fallback to just pressing A if something goes wrong\n    print(json.dumps(['A']))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -375,6 +375,11 @@
         "commit_message": "Fixed bug where tool produced no output on error. Added try-except block to ensure JSON output.",
         "timestamp": "2026-02-01T04:53:05.352Z",
         "action_counter": 22231
+      },
+      {
+        "commit_message": "Updated to handle Vertical List layout (Gen 2 standard) instead of Grid layout. Uses Down presses to navigate.",
+        "timestamp": "2026-02-01T05:04:28.296Z",
+        "action_counter": 22247
       }
     ]
   }
