@@ -33,3 +33,4 @@
 - **Obstacle**: Grunt at (16, 13). Facing Right. Will attempt to bypass or battle.
 - **Exploration**: Reached North Corridor (Row 3). Sweeping West.
 - **Exploration**: Blocked by Wall at Col 15. Sweeping East along North Corridor (Row 1) to check North East Corner.
+- **Exploration**: Reached North East Corner (Row 2). Checking for Murkrow.
