@@ -25,7 +25,8 @@
   - Scientist Jed (18, 12): Useless.
   - Grunt at (3, 4): Useless.
   - East Wing (x=24): Dead end.
-  - **Active Lead**: Room at (7, 9) on **B2F (Map 3_50)**. (Mistook for B1F).
+  - **Active Lead**: Search for the Boss (Executive) on B1F to get the password.
+  - Clue: Grunt at (21, 14) B2F says 'Only the boss knows the password'.
 - **Warp Panel**: Located at (5, 15). Warps to (25, 2).
 
 ### Team Rocket HQ (Map 3_49)
