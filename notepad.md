@@ -29,4 +29,4 @@
 - **Exploration**: Sweeping North Corridor (Row 3). Checking for Murkrow.
 - **Layout Update**: Row 4 is a solid wall (Cols 13-27). Gaps at Col 28 and Col 16-17.
 - **Layout Update**: Col 18 is a solid wall from Row 0 to Row 13. Gap at Row 3 and Row 14.
-- **Plan**: Escaping desk maze. Heading South to (18, 14) to cross to Central Area, then North to sweep Row 3.
+- **Plan**: Blocked by desk at (19, 13). Looping East to (21, 14) to reach Central Area, then North to sweep Row 3.
