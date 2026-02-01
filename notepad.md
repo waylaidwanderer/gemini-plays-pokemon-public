@@ -7,10 +7,7 @@
 - **Route 42**: Came from West.
 
 ### Important Mechanics & Notes
-- **Hiker Benjamin**: Sells RageCandyBars at (19,8). STOP BUYING.
 - **Gatehouse (15, 13)**: Pokemon Center (Sign says POKE).
-- **Route 42 Navigation**: Path East is blocked by trees at x=18. Must go South to y=16/17 to bypass.
-- **Route 42 Secrets**: Fake tree at (7, 5) leads to Mt. Mortar upper entrance.
 - **Mt. Mortar**:
   - Explored 1F and Upper area partially.
   - "Angry Gyarados" event blocks inner path.
@@ -20,19 +17,6 @@
   - Gentleman reports Team Rocket at Lake of Rage.
   - Team Rocket has returned.
   - Need to investigate Lake of Rage (North).
-### Tile Mechanics
-- **Route 42 (TYPE_3fe2)**: Can be shoreline or water. Test via bumping/interaction, don't assume.
-- Route 42 Obstacles:
-  - (7, 12): Small Tree (TYPE_2889).
-  - (8, 13): Big Tree (TYPE_80fc), not cuttable.
-  - (7, 14): Small Tree (TYPE_2889).
-  - Boxed in at (7, 13). Must backtrack West to escape.
-- **Route 42 (East Side) Obstacles**:
-  - (45, 9): Small Tree (TYPE_2889) in the water.
-  - (47, 8): Swimmer Simon (Glitchy interaction).
-- **Route 43 (Map 9_5)**:
-  - Connects Mahogany Town (South) to Lake of Rage (North).
-  - **Trainers**: Pokemaniacs Ron, Ben, Camper Spencer (Defeated).
 
 ### Tile Mechanics
 - **Walkable Trees (TYPE_fed7)**: These tiles look like trees but are walkable. Essential for navigating Route 30 and Route 43 to bypass obstacles.
