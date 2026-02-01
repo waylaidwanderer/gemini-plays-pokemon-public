@@ -9,6 +9,8 @@
 ## Search for Shutter Switch
 - **Area**: East Wing (Cols 17-29).
 - **Target**: West Wing Computers (Verify "Propaganda" claim).
+- **Checked (West Wing)**:
+  - Row 11: (12, 11), (11, 11) - Nothing.
 - **Checked (East Wing)**: 
   - Row 10 (South): All (20-25).
   - Row 6 (North): All (20-25).
