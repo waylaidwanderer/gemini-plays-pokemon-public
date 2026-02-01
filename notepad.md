@@ -28,3 +28,4 @@
 ### Mechanics
 - **Warp Tiles**: "Back to entrance" = Northeast Side of B1F.
 - **Alarms**: Disabled.
+- **Map Note**: Tile (2, 5) appears to be impassable (invisible wall/blockage). Must flank via Column 3.
