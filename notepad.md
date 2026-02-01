@@ -6,7 +6,8 @@
 ### Team Rocket HQ Status
 - **Location**: Map 3_51 (Secret Room via B2F Stairs).
 - **Objective**: Open Shutter at (14, 11) to access North West Corner/Find Murkrow.
-- **Current Action**: Searching West Wing servers for a switch.
+- **Current Action**: Checking desks at (6, 13) and (4, 13).
+- **Observation**: Terminal at (7, 13) contains "Team Rocket Oath". No switch found.
 
 ### Clues & Passwords
 - **Password 1**: "Hail Giovanni".
