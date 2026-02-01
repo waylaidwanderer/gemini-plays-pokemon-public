@@ -39,7 +39,6 @@
 - **Observation**: Checked back of Ross's computer (23, 10). Nothing happened.
 - **Action**: Interacting with Grunt at (21, 7).
 - **Hypothesis**: This Grunt might be guarding the switch or possess the password.
-- **Battle**: vs Grunt (Gloom). Won!
-- **Status**: Clearing end-of-battle text.
-- **Next Steps**: Talk to Grunt (clues?), then check computers at (24, 10) and (25, 10).
-- **Target**: Find the shutter switch.
+- **Grunt Interaction**: Defeated Grunt at (21, 7). He taunted "The password is... unless you have two passwords." Useless.
+- **Plan**: Check computers at (24, 10) and (25, 10) for the switch.
+- **Route**: Go East to Col 26, then South to Row 11, then West to access computers.
