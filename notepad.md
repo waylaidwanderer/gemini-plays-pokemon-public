@@ -21,5 +21,6 @@
 - Northeast Statues: Checked (24, 6). Empty.
 - Exploring Eastern Wall of Northeast Room.
 - Northwest Statues: All checked (Empty).
-- Talking to Grunt at (2, 4) to verify.
-- Next Search Area: Southwest Room (Stairs/Warp area).
+- Grunt at (2, 4): "Don't know where traps are." Useless.
+- Status: Searching Southwest Room (Stairs/Traps area).
+- Murkrow Hunt: Not found in North. Checking South.
