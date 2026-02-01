@@ -1,6 +1,6 @@
 # Pokémon Crystal Playthrough
 - **Current Leg**: Team Rocket HQ (Mahogany Town)
-- **Primary Goal**: Find the Second Password (Murkrow).
+- **Primary Goal**: Find the Second Password (Murkrow) in Northeast Room (Statue Area).
 - **Secondary Goal**: Open B2F Door with Password ("Hail Giovanni" + Password 2).
 
 ### Team Rocket HQ (B1F)
