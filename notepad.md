@@ -20,3 +20,4 @@
 - **Souvenir Shop Exit**: (27, 2). Avoid stepping here unless leaving.
 - Northeast Statues: Checked (24, 6). Empty.
 - Exploring Eastern Wall of Northeast Room.
+- Heading to Northwest Room to check Statue at (6, 3).
