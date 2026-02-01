@@ -86,3 +86,5 @@
   4. Find SECOND STAIRCASE to Boss Room.
 - **West Corridor Separation**: Row 4 is blocked by walls at x=6,7,8. The West Corridor (x=1-5) connects to the Center (x=7+) ONLY via Row 3 (past the statues).
 - **Bypass Stairs**: To stay on B1F, bypass the stairs at (3, 14) by walking on (2, 14) or (4, 14).
+- **Correction**: The West Corridor (x=1-5) connects to the Center (x=7+) ONLY via Row 3 (past the statues). Row 4 is blocked.
+- **Plan**: Go South to Row 16 -> West to x=5 -> North to Row 3 -> East to (9, 4).
