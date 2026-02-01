@@ -22,5 +22,5 @@
 - Return to B2F Locked Door.
 - Murkrow is at (23, 11). Access blocked from South and Left.
 - Potential path: Go Right to Col 28, Up to Row 9, Left across top, Down to Murkrow.
-- Found narrow corridor at Col 1 heading North.
-- Action: Follow Col 1 North to reach Murkrow.
+- Col 1 North is a dead end (Wall at Row 11).
+- Action: Return to Center and check (14, 11) for a passage North.
