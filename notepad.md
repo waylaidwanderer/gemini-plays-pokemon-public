@@ -66,3 +66,4 @@
   - Path: Head East to (17, 14), then loop back North/West.
   - BFS tool is unreliable in this complex map; relying on manual pathing/connectivity checks.
 - **Scientist Jed Secret**: Mentioned that warp panels lead "back to the entrance". Likely referring to the one at (5, 15) or others.
+- **Security Switch**: Found at (19, 11). Screen says "The switch is turned off." Hopefully this disables the Persian Statue alarms.
