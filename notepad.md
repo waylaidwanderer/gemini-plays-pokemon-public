@@ -42,9 +42,9 @@
 - **Fly Menu Navigation**: Use **UP/DOWN** buttons to select towns. Left/Right does not work.
 - **Route 30 Mechanics**: Confirmed that `TYPE_fed7` tiles are walkable trees. Path to Mr. Pokemon: Go East to x=17, then North. Must dogleg East at (17, 18) to bypass walls at (17, 17)/(17, 16), then cut back West at (18, 14).
 - **Exp. Share**: Obtained and equipped on Bolin (Sandshrew).
-- **Current Location**: Team Rocket HQ - B2F (Lance Area).
+- **Current Location**: Team Rocket HQ - B1F.
 - **Garnet Status**: Fully Healed by Lance.
-- **Goal**: Disable statue alarms. DONE (Computer at 19,11).
+- **Goal**: Find password for B2F door. (Check Scientist Jed at 18,12).
 - **Warp Panel Hint**: Scientist warned of a warp panel "up ahead".
 
 ### Team Rocket HQ (Map 3_49)
