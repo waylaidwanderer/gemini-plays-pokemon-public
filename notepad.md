@@ -44,7 +44,7 @@
 - **Exp. Share**: Obtained and equipped on Bolin (Sandshrew).
 - **Current Location**: Team Rocket HQ - West Corridor (Battling Rocket Grunt).
 - **Goal**: Find the "secret switch" to disable the statue alarms.
-- **Alert**: Garnet has 0 PP on Dig/Mud-Slap. Needs Ether eventually.
+- **Alert**: Garnet only has PP for Flame Wheel (14). All other moves are empty (0).
 
 ### Team Rocket HQ (Map 3_49)
 - **Entrance**: Stairs from Souvenir Shop.
