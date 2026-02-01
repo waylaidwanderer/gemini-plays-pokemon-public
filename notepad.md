@@ -66,3 +66,6 @@
 - **Tool Status**: `bfs_navigate` fixed (Turn 22718). Checks globals and tool_args.
 - **Exploration**: Heading back to B2F to find the Boss/Password.
 - **Oath**: Found "Team Rocket Oath" on computers at (20,11)/(21,11). Might be the password, but need to trigger the option to say it.
+- **Locked Door (23, 14)**: Interaction yielded NO TEXT. Likely requires a specific event flag or key item (Password?) to be active before it even registers as a door.
+- **Exploration Logic**: Since B2F North is cut off by a wall, and I haven't found the Boss, there MUST be another staircase on B1F leading to the other side of B2F.
+- **Next Step**: Return to B1F and search the North-East area (accessed via Warp Panel) for a missed staircase.
