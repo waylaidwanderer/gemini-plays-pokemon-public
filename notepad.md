@@ -1,37 +1,22 @@
 # Pokémon Crystal Playthrough
 - **Current Leg**: Team Rocket HQ (Mahogany Town)
-- **Primary Goal**: Find the Second Password (Murkrow) in Northeast Room (Statue Area).
+- **Primary Goal**: Get Second Password from Murkrow.
 - **Secondary Goal**: Open B2F Door with Password ("Hail Giovanni" + Password 2).
 
-### Team Rocket HQ (B1F)
-- **Status**: Searching for Murkrow.
-- **Objective**: Check Scientist Jed's Room (Southeast) and Central Area.
-- **Hypothesis**: Murkrow is either with Jed or fleeing to a specific "dead end" I haven't checked since disabling alarms.
-- **Navigation**: Pathing to Scientist Jed at (18, 12).
+### Team Rocket HQ Status
+- **Location**: Map 3_51 (Secret Room via B2F Stairs).
+- **Objective**: Murkrow found at (26, 13). Need to obtain password from it.
 
 ### Leads & Clues
 - **Password 1**: "Hail Giovanni".
-- **Password 2**: Unknown. Likely with Murkrow.
+- **Password 2**: Held by Murkrow.
 - **Locked Door**: B2F (23, 14).
 
-### Mechanics / Notes
-- **Warp Tiles**: "Back to entrance" = Northeast Side of B1F. Rug in Souvenir Shop = Warp to B1F.
-- **Alarms**: Disabled.
-- **Souvenir Shop Exit**: (27, 2). Avoid stepping here unless leaving.
-- Northeast Statues: Checked (24, 6). Empty.
-- Exploring Eastern Wall of Northeast Room.
-- Northwest Statues: All checked (Empty).
-- Grunt at (2, 4): "Don't know where traps are." Useless.
-- Status: Searching Southwest Room (Stairs/Traps area).
-- Murkrow Hunt: Not found in North. Checking South.
-- B2F East Section: Row 10 is blocked by walls. Dead end to the North.
-- Found Stairs at (27, 14) in the East Section!
-- Path West: Likely via Col 20 (South Corridor).
-- Plan: Check Stairs at (27, 14) first. Then try Col 20 if needed.
-- Murkrow Hunt: Checking where these stairs lead.
-- Defeated Rocket Grunt at (25, 14).
-- Taking Stairs at (27, 14).
-- Found Murkrow at (26, 13) in Map 3_51 (Secret Room).
-- Lance confirmed two passwords needed. He knows "Hail Giovanni".
-- Murkrow has the second password.
-- Objective: Catch/Talk to Murkrow to get the password.
+### Exploration Log
+- **B1F**: Northeast & Northwest Statues checked (Empty). Grunt at (2, 4) useless.
+- **B2F**: East Section explored. Stairs at (27, 14) lead to current location.
+- **Mechanics**: Alarms disabled. Warp tiles exist.
+
+### Current Plan
+- Interact with Murkrow to get the password.
+- Return to B2F Locked Door.
