@@ -39,9 +39,8 @@
 - **Observation**: Checked back of Ross's computer (23, 10). Nothing happened.
 - **Action**: Interacting with Grunt at (21, 7).
 - **Hypothesis**: This Grunt might be guarding the switch or possess the password.
-- **Status**: At B2F Boss Door.
-- **Issue**: Interacting with (23, 14) and (23, 15) did nothing.
-- **Observation**: Tile (22, 15) is also Type 63e2 (Door).
-- **Plan**: Move to (22, 16) and interact with (22, 15).
-- **Hypothesis**: The "active" part of the door might be the left side.
+- **Status**: At B2F Boss Door (22, 16).
+- **Problem**: Door interaction yields no text/reaction.
+- **Action**: Interacting with the Grunt at (21, 13).
+- **Reasoning**: The door might be guarded or triggered by this specific Grunt, or he provides the prompt.
 - **Passwords**: "Hail Giovanni", "SLOWPOKETAIL".
