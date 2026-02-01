@@ -39,8 +39,7 @@
 - **Observation**: Checked back of Ross's computer (23, 10). Nothing happened.
 - **Action**: Interacting with Grunt at (21, 7).
 - **Hypothesis**: This Grunt might be guarding the switch or possess the password.
-- **Intel**: Grunt at (21, 7) gave password "SLOWPOKETAIL".
-- **Passwords Known**: "Hail Giovanni" (Lance), "SLOWPOKETAIL" (Grunt).
-- **Status**: Flag likely set. Murkrow/Grunt arc complete?
-- **Plan**: Quickly check computers at (24, 10) and (25, 10) for any hidden items/switches, then head to B2F Boss Door.
-- **Route**: Move East to Col 26, then South to Row 10.
+- **Status**: Obtained both passwords ("Hail Giovanni" + "SLOWPOKETAIL").
+- **Correction**: The "Grunt" at (23, 6) is a machine. B1F exploration complete.
+- **Objective**: Open the Boss's Door on B2F.
+- **Route**: East to Col 26, then South to Stairs at (27, 14).
