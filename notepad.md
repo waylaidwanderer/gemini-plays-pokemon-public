@@ -24,3 +24,6 @@
 - Grunt at (2, 4): "Don't know where traps are." Useless.
 - Status: Searching Southwest Room (Stairs/Traps area).
 - Murkrow Hunt: Not found in North. Checking South.
+- Entered B2F (Map 3_50).
+- Wall at Row 12 blocks direct access North.
+- Goal: Navigate East to bypass wall, reach Item at (3, 10) and Sprite at (7, 9).
