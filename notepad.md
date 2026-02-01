@@ -32,8 +32,8 @@
   - "Ghost Grunt" (26, 9): Just a graphical glitch or flavor. No stairs.
   - Crates (27, 10): Empty.
   - "Suspicious Machine" (24, 5): Checked twice, dud.
-- **Current Goal**: Find the entrance to the "Hidden Room" (Boss).
-  - **Hypothesis 1**: Entrance is near the Persian Statues (x=6).
-  - **Hypothesis 2**: Hidden door in Central Area North Wall (y=4, x=10-18).
-- **Status**: Statue at (6, 1) has "shiny eyes" (Alarm might be ACTIVE). Switch at (19, 11) might not have worked or affects something else.
-- **Path**: Test Alarm at (6, 3). If safe, inspect wall at (6, 4). If battle, retreat and try Hypothesis 2.
+- **Current Goal**: Investigate Unexplored Corridor at (7, 10).
+  - **Discovery**: Missed a path South from (7, 9) and (8, 9).
+  - **Hypothesis**: This leads to the "Hidden Room" or the Boss.
+- **Status**: Statues and North Wall were dead ends.
+- **Path**: Loop East to (19, 5) -> South to (19, 9) -> West to (7, 9) -> South into new area.
