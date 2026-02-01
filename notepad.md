@@ -43,9 +43,13 @@
 - **Route 30 Mechanics**: Confirmed that `TYPE_fed7` tiles are walkable trees. Path to Mr. Pokemon: Go East to x=17, then North. Must dogleg East at (17, 18) to bypass walls at (17, 17)/(17, 16), then cut back West at (18, 14).
 - **Exp. Share**: Obtained and equipped on Bolin (Sandshrew).
 - **Current Location**: Team Rocket HQ - B1F.
-- **Goal**: Find password for B2F door. (Check Scientist Jed at 18,12).
-- **Grunt at (3,4)**: "Doesn't even know where the traps are." Useless.
-- **Warp Panel Hint**: Scientist warned of a warp panel "up ahead".
+- **Goal**: Find password for B2F door.
+- **Leads**:
+  - Scientist Jed (18, 12): Only gave info about warp panel (Secret?).
+  - Grunt at (3, 4): "Useless".
+  - Grunt at (24, 6): Defeated earlier. Need to talk to him?
+  - Room at (7, 9): Unexplored.
+- **Warp Panel**: Located at (5, 15). Warps to (25, 2).
 
 ### Team Rocket HQ (Map 3_49)
 - **Start Time**: Turn ~22050.
