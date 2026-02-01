@@ -37,3 +37,4 @@
 - **Exploration**: Checking East Wall (Col 28) South of Stairs.
 - **Layout Connection**: Map 3_51 (27, 2) connects to Map 3_50 (B2F) (27, 2).
 - **Correction**: Stairs at (27, 2) on Map 3_51 lead to B2F, not the shop.
+- **Exploration**: Sweeping East Corridor (Col 28) South to Row 6.
