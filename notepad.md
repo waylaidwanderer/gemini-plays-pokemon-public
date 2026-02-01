@@ -39,8 +39,7 @@
 - **Observation**: Checked back of Ross's computer (23, 10). Nothing happened.
 - **Action**: Interacting with Grunt at (21, 7).
 - **Hypothesis**: This Grunt might be guarding the switch or possess the password.
-- **Status**: Back on B2F (Map 3_50).
-- **Inventory**: Passwords "Hail Giovanni" and "SLOWPOKETAIL".
-- **Objective**: Unlock the Boss's Door at (23, 14).
-- **Target**: Move Left to (24, 14) and interact with the door.
-- **Note**: Rival Silver is at (25, 13), likely watching.
+- **Status**: At B2F Boss Door (23, 14).
+- **Action**: Interacting with the door to input passwords.
+- **Expectation**: Rival Silver intervention or door opening.
+- **Passwords**: "Hail Giovanni", "SLOWPOKETAIL".
