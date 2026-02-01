@@ -45,6 +45,7 @@
 - **Current Location**: Team Rocket HQ - B1F.
 - **Garnet Status**: Fully Healed by Lance.
 - **Goal**: Find password for B2F door. (Check Scientist Jed at 18,12).
+- **Grunt at (3,4)**: "Doesn't even know where the traps are." Useless.
 - **Warp Panel Hint**: Scientist warned of a warp panel "up ahead".
 
 ### Team Rocket HQ (Map 3_49)
