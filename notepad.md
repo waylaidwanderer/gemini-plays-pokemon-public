@@ -31,3 +31,4 @@
 - **Layout Update**: Col 18 is a solid wall from Row 0 to Row 13. Gap at Row 3 and Row 14.
 - **Plan**: Blocked by desk at (19, 13). Looping East to (21, 14) to reach Central Area, then North to sweep Row 3.
 - **Obstacle**: Grunt at (16, 13). Facing Right. Will attempt to bypass or battle.
+- **Exploration**: Reached North Corridor (Row 3). Sweeping West.
