@@ -27,3 +27,4 @@
 - **East Wing (Cols 17-29)**: Connects North (Row 3) and South (Row 16).
 - **Objective**: Murkrow at (23, 11). Entrance likely on South side (Col 21-22).
 - **Obstacle**: Blocker at (28,9) blocks North-East path.
+- **Layout Update**: Wall at Col 18 separates East and West wings. Gap at (18, 14).
