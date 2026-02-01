@@ -7,7 +7,9 @@
 - **Status**: Re-entering B1F from Souvenir Shop (3_48).
 - **Objective**: Explore Northern Corridor (Row 1-3) moving West to East.
 - **Path**: Re-enter via stairs at (7, 1).
-- **Notes**: Stairs at (6, 1) appear blocked/closed. Must re-activate the switch on the cabinet at (7, 1) or find the trigger.
+- **Notes**: Stairs at (6, 1) are physically blocked despite visual appearance.
+- **Hypothesis**: The "Incense Burner" text at (6, 1) or the cabinet at (7, 1) conceals a switch. "What is this?" text suggests a hidden mechanism.
+- **Current Action**: Talking to Grandma to see if she resets the passage or offers a clue. Then re-investigating the burner/cabinet.
 
 ### Leads & Clues
 - **Password 1**: "Hail Giovanni".
