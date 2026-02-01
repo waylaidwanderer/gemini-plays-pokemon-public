@@ -40,6 +40,7 @@
 - **Action**: Interacting with Grunt at (21, 7).
 - **Hypothesis**: This Grunt might be guarding the switch or possess the password.
 - **Status**: At B2F Boss Door (23, 14).
-- **Action**: Interacting with the door to input passwords.
-- **Expectation**: Rival Silver intervention or door opening.
+- **Issue**: Door interaction not triggering text.
+- **Hypothesis**: Rival Silver (25, 13) must be spoken to first, or he interrupts the unlocking process.
+- **Action**: Interact with Rival Silver.
 - **Passwords**: "Hail Giovanni", "SLOWPOKETAIL".
