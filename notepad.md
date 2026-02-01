@@ -34,3 +34,4 @@
 - **Exploration**: Reached North Corridor (Row 3). Sweeping West.
 - **Exploration**: Blocked by Wall at Col 15. Sweeping East along North Corridor (Row 1) to check North East Corner.
 - **Exploration**: Reached North East Corner (Row 2). Checking for Murkrow.
+- **Exploration**: Checking East Wall (Col 28) South of Stairs.
