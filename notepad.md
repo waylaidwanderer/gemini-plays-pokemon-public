@@ -18,4 +18,5 @@
 - **Warp Tiles**: "Back to entrance" = Northeast Side of B1F. Rug in Souvenir Shop = Warp to B1F.
 - **Alarms**: Disabled.
 - **Souvenir Shop Exit**: (27, 2). Avoid stepping here unless leaving.
-- Northeast Statues: Checking (24, 6).
+- Northeast Statues: Checked (24, 6). Empty.
+- Exploring Eastern Wall of Northeast Room.
