@@ -12,12 +12,13 @@
   - **Stairs to B2F**: (3, 14).
   - **Gap to Lower Level**: (9, 4).
   - **Security Switch**: (19, 11) (Used).
-- **Planned Path**:
-  1. Exit Jed's Room: (7, 10).
-  2. Navigate East to (19, 8) to bypass walls.
-  3. Go North to (19, 5), then West to (9, 5).
-  4. Enter Gap at (9, 4) to North Hall.
-  5. Go West to (3, 14) (B2F Stairs).
+### Team Rocket HQ (B2F - Current)
+- **Location**: South Corridor (Row 14).
+- **Key Locations**:
+  - **Stairs to B1F**: (3, 14).
+  - **Locked Door**: (23, 14). Needs password "Hail Giovanni".
+  - **Item Ball**: (3, 10). Blocked by wall at Row 12. Must access from North.
+- **Objectives**: Open the door and find the Boss.
 
 ### Leads & Clues
 - **Password**: "Hail Giovanni". Found at (20, 11).
