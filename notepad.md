@@ -81,3 +81,4 @@
   - Current Goal: Reach room at (7, 9) on Map 3_50 (B2F).
   - Path: Head East to (17, 14), then loop back North/West.
   - BFS tool is unreliable in this complex map; relying on manual pathing/connectivity checks.
+- **Scientist Jed Secret**: Mentioned that warp panels lead "back to the entrance". Likely referring to the one at (5, 15) or others.
