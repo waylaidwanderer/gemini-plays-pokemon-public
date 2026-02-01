@@ -12,6 +12,7 @@
 - **Checked (West Wing)**:
   - Row 11: (12-9, 11) - Nothing.
   - Row 13: (7-4, 13) - Oath (Note: 5,13 blocked).
+  - Target: (3, 13). *Note: Map Type ID matches floor (Walkable?), unlike other machines.*
 - **Checked (East Wing)**: 
   - Row 10 (South): All (20-25).
   - Row 6 (North): All (20-25).
