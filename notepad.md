@@ -24,3 +24,5 @@
 - Potential path: Go Right to Col 28, Up to Row 9, Left across top, Down to Murkrow.
 - Central Passage (14, 11) is blocked by a shutter/door.
 - Action: Flank East via Column 17 to bypass the Grunt and finding a path North.
+- Corridor at Col 17 has an opening to the East at Row 3 (Col 18).
+- This likely connects to the top-right area (behind the Grunt?).
