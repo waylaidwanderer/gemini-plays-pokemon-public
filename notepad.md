@@ -4,11 +4,10 @@
 - **Secondary Goal**: Open B2F Door with Password ("Hail Giovanni" + Password 2).
 
 ### Team Rocket HQ (B1F)
-- **Status**: Re-entering B1F from Souvenir Shop (3_48).
-- **Objective**: Activate secret switch on Incense Burner to open stairs.
-- **Path**: Interact with (6, 1) -> Enter B1F.
-- **Notes**: Stairs at (6, 1) are physically blocked.
-- **Hypothesis**: The "Incense Burner" text at (6, 1) conceals a switch.
+- **Status**: Explored Souvenir Shop, returned to B1F via rug at (7, 3).
+- **Objective**: Systematically search the Northern Corridor (Row 2) moving West.
+- **Path**: Moving from Northeast corner (27, 2) towards the West.
+- **Notes**: The rug in the shop is the warp. Staircase model is misleading.
 
 ### Leads & Clues
 - **Password 1**: "Hail Giovanni".
