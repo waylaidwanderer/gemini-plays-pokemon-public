@@ -43,6 +43,7 @@
 - **Route 30 Mechanics**: Confirmed that `TYPE_fed7` tiles are walkable trees. Path to Mr. Pokemon: Go East to x=17, then North. Must dogleg East at (17, 18) to bypass walls at (17, 17)/(17, 16), then cut back West at (18, 14).
 - **Exp. Share**: Obtained and equipped on Bolin (Sandshrew).
 - **Current Location**: Team Rocket HQ - B1F (Computer Room).
+- **Garnet Status**: HP 111/141. PP: Dig (2), Flame Wheel (4). **ACTION NEEDED**: Use Max Ether on Dig/Flame Wheel soon.
 - **Goal**: Disable statue alarms. DONE (Computer at 19,11).
 - **Warp Panel Hint**: Scientist warned of a warp panel "up ahead".
 
