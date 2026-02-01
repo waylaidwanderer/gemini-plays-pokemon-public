@@ -40,3 +40,4 @@
 - **Exploration**: Sweeping East Corridor (Col 28) South to Row 6.
 - **Correction**: No blocker at (28, 11). Path clear.
 - **Plan**: Moving South to Row 15, then West to Central Area to explore West of Col 16.
+- **Exploration**: Confronting Grunt at (16, 13). Searching area North of Central Corridor.
