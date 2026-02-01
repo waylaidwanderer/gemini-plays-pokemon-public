@@ -29,6 +29,5 @@
 - **Observation**: Terminal at (6, 13) says "Exploit POKéMON for profit!". (5, 13) inaccessible.
 - **Current Action**: Going around Grunt to check Terminal at (4, 13).
 - **Observation**: Terminal at (6, 13) contains "Team Rocket Oath". No switch found.
-- **Discovery**: Murkrow found at (1, 15). Interacting to get Password.
-- **Plan**: Heading to (1, 12) via Row 16 to investigate.
-- **Observation**: Interaction with Murkrow at (1, 14) yielded no text so far. Retrying with explicit 'Face Up' + 'A'.
+- **Correction**: Sprite at (1, 12) is visually an Item Ball. Checking to confirm.
+- **Plan**: Inspect (1, 12), then check last server at (4, 12).
