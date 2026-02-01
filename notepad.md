@@ -76,3 +76,8 @@
   - y=16 Corridor (West side) is a dead end at x=6.
   - Must backtrack East to x=17 to return to y=14 Main Corridor.
   - **Target**: Investigating room at (7, 9) (Sprite detected). Likely accessible from y=14 or via a specific door.
+- **Reflection (Turn 22469)**: 
+  - Realized I was searching for a B2F room on B1F. Fixed.
+  - Current Goal: Reach room at (7, 9) on Map 3_50 (B2F).
+  - Path: Head East to (17, 14), then loop back North/West.
+  - BFS tool is unreliable in this complex map; relying on manual pathing/connectivity checks.
