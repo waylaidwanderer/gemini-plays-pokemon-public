@@ -55,8 +55,9 @@
 - **Exploration Note**: West corridor (x<6) is a dead end with a trap at (2,4). Lower corridor accessed via gap at (9, 4).
 - **Statue Alarm**: x=24 statues are ACTIVE. Triggered battle at (24, 6). Likely infinite respawn.
 - **Statue Alarm**: Expecting battle at x=6 (Active).
-- **Battle Menu Mechanics**: The move selection menu is a **Vertical List**, not a Grid. 'Right' does not reliably move to column 2. Use 'Down' to navigate moves (or 'Up' to wrap).
-  - Slot 1: Top
-  - Slot 2: 2nd
-  - Slot 3: 3rd
-  - Slot 4: Bottom
+- **Battle Menu Mechanics**: 
+  - The move selection menu is a **Vertical List**.
+  - **Cursor Memory**: The cursor **remembers the last used move** position within the battle. It does NOT reset to the top when re-entering the FIGHT menu.
+  - To re-use the same move: Just press 'A'.
+  - To switch moves: You must account for the current cursor position.
+  - Wraps: Up from Top -> Bottom, Down from Bottom -> Top.
