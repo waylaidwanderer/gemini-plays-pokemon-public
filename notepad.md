@@ -52,9 +52,7 @@
 - **Mechanics**:
   - **Statue Alarms**: Passing in front of Persian statues (e.g., at x=6) triggers Grunt battles. They respawn indefinitely until a "secret switch" is found.
   - **Traps**: Floor traps exist (e.g., at 2,4).
-- **Goal**: Find the "secret switch" to disable the alarms.
-- **Alert**: Garnet's Dig PP restored (10/10).
-- **Exploration Note**: West corridor (x<6) appears to be a dead end with a trap at (2,4). Retrying exploration from Entrance area (East).
-- **Exploration Path**: Found a potential gap in the wall at (9, 4). Aiming for that to access the lower corridor.
+- **Goal**: Find the "secret switch" (Suspicious machine found at 24, 5).
+- **Exploration Note**: West corridor (x<6) is a dead end with a trap at (2,4). Lower corridor accessed via gap at (9, 4).
 - **Statue Alarm**: x=24 statues appear inactive or directional (passed safely Westbound).
 - **Statue Alarm**: Expecting battle at x=6 (Active).
