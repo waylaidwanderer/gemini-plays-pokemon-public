@@ -70,5 +70,6 @@
 - **B2F Navigation**: Confirmed solid wall at Row 12 separates South Corridor (where I am) from the North Room (where the sprite at 7,9 is).
 - **Strategy**: Must find stairs on B1F that lead to the North-West section of B2F.
 - **Hypothesis**: The stairs might be in the area accessible via the Warp Tile or past the disabled statues on B1F.
-- **Garnet**: Level 45 (Typhlosion). Moves: Swift, Mud-Slap, Smokescreen, Flame Wheel. (Accidentally replaced Dig with Swift at Turn 22813).
-- **Trap Corridor (West Wing)**: The corridor at x=2 (from y=12 up to y=4) is heavily trapped with Voltorb, Koffing, and Geodude. Every step is a potential battle. Proceed with caution.
+- **Garnet**: Level 45 (Typhlosion). Moves: Swift [1], Mud-Slap [2], Smokescreen [3], Flame Wheel [4].
+- **Battle Menu**: Menus WRAP. 'Up' from top goes to bottom. Custom tool `battle_move_select` is BROKEN because it assumes non-wrapping. Use manual inputs.
+- **Trap Corridor (West Wing)**: x=2 is heavily trapped. Found Geodude trap at (4, 7) as well.
