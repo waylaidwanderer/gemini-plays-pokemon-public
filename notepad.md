@@ -8,10 +8,11 @@
 
 ## Search for Shutter Switch
 - **Area**: East Wing (Cols 17-29).
-- **Target**: Computers at Row 10 (Cols 24, 25).
+- **Target**: Computers at Row 10 (Cols 17-25).
 - **Checked**: 
   - West Wing (All propaganda).
   - Ross's Computer (23, 10) - Nothing.
+  - Computer (22, 10) - Nothing.
   - Grunt (21, 7) - Password only.
 
 ## Key Locations (Map 3_51)
