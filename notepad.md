@@ -27,3 +27,6 @@
 - **Obstacle**: Grunt at (26, 8) is non-responsive/blocking. Bypassing.
 - **Obstacle**: Grunt at (25, 6). Facing South. Passive/Blocker. Bypassing.
 - **Exploration**: Sweeping North Corridor (Row 3). Checking for Murkrow.
+- **Layout Update**: Row 4 is a solid wall (Cols 13-27). Gaps at Col 28 and Col 16-17.
+- **Layout Update**: Col 18 is a solid wall from Row 0 to Row 13. Gap at Row 3 and Row 14.
+- **Plan**: Moving to Gap at (28, 3) to access Top Corridor (Row 3).
