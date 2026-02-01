@@ -39,8 +39,7 @@
 - **Observation**: Checked back of Ross's computer (23, 10). Nothing happened.
 - **Action**: Interacting with Grunt at (21, 7).
 - **Hypothesis**: This Grunt might be guarding the switch or possess the password.
-- **Status**: At B2F Boss Door (22, 16).
-- **Problem**: Door interaction yields no text/reaction.
-- **Action**: Interacting with the Grunt at (21, 13).
-- **Reasoning**: The door might be guarded or triggered by this specific Grunt, or he provides the prompt.
-- **Passwords**: "Hail Giovanni", "SLOWPOKETAIL".
+- **Critical Realization**: The Boss Door is voice-activated. I need the **Murkrow** to open it. The bird mimics the voice.
+- **Objective**: Return to B1F. Find the switch to open the shutter at (14, 11).
+- **Target**: Computer at (23, 10) (Front) - Ross was blocking this. Or check the area near the password Grunt again.
+- **Current Action**: Finishing dialogue with B2F Grunt.
