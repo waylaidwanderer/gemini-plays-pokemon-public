@@ -42,8 +42,9 @@
 - **Fly Menu Navigation**: Use **UP/DOWN** buttons to select towns. Left/Right does not work.
 - **Route 30 Mechanics**: Confirmed that `TYPE_fed7` tiles are walkable trees. Path to Mr. Pokemon: Go East to x=17, then North. Must dogleg East at (17, 18) to bypass walls at (17, 17)/(17, 16), then cut back West at (18, 14).
 - **Exp. Share**: Obtained and equipped on Bolin (Sandshrew).
-- **Current Location**: Team Rocket HQ - West Corridor (Battling Rocket Grunt).
-- **Goal**: Find the "secret switch" to disable the statue alarms. The machine at (24, 5) is just part of the statue and does not have a switch.
+- **Current Location**: Team Rocket HQ - B1F (Computer Room).
+- **Goal**: Disable statue alarms. DONE (Computer at 19,11).
+- **Warp Panel Hint**: Scientist warned of a warp panel "up ahead".
 
 ### Team Rocket HQ (Map 3_49)
 - **Start Time**: Turn ~22050.
