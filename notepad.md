@@ -28,12 +28,7 @@
 - **Walkable Trees**: `TYPE_fed7` tiles are walkable (Route 30/43).
 - **Battle Menu**: Cursor remembers last position. Use manual inputs.
 ### Current Strategy
-- **Cleared**:
-  - "Ghost Grunt" (26, 9): Just a graphical glitch or flavor. No stairs.
-  - Crates (27, 10): Empty.
-  - "Suspicious Machine" (24, 5): Checked twice, dud.
-- **Current Goal**: Investigate Unexplored Corridor at (7, 10).
-  - **Discovery**: Missed a path South from (7, 9) and (8, 9).
-  - **Hypothesis**: This leads to the "Hidden Room" or the Boss.
-- **Status**: Statues and North Wall were dead ends.
-- **Path**: Loop East to (19, 5) -> South to (19, 9) -> West to (7, 9) -> South into new area.
+- **Status**: Found Password ("Hail Giovanni") from Jed's room.
+- **Goal**: Return to B2F Stairs at (3, 14).
+- **Path**: Backtrack to (9, 4) -> West to (3, 14).
+- **Caution**: Navigate the Trap Corridor (West Wing) carefully. Use the safe path if possible, or tank known traps.
