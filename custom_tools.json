@@ -344,7 +344,7 @@
     ]
   },
   "battle_move_select": {
-    "description": "Selects a move in the battle menu (1-4) by navigating from the Fight button. Assumes the cursor is initially on 'FIGHT'. Handles the grid layout (2x2) correctly. 1:Top-Left, 2:Top-Right, 3:Bottom-Left, 4:Bottom-Right.",
+    "description": "Selects a move in the battle menu (1-4) by navigating from the Fight button. Assumes the cursor is initially on 'FIGHT'. Handles the grid layout (2x2) correctly. 1:Top-Left, 2:Top-Right, 3:Bottom-Left, 4:Bottom-Right. Returns valid JSON array of buttons.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -359,12 +359,17 @@
         "move_slot"
       ]
     },
-    "python_script": "def run(input_data):\n    move_slot = input_data['move_slot']\n    buttons = []\n    \n    # Enter Fight Menu\n    buttons.append(\"A\")\n    \n    # Wait for menu to open (implicit in next turn, but we can just press buttons)\n    # Grid layout:\n    # 1 2\n    # 3 4\n    \n    if move_slot == 1:\n        # Top-Left: Already there\n        buttons.append(\"A\")\n    elif move_slot == 2:\n        # Top-Right\n        buttons.append(\"Right\")\n        buttons.append(\"A\")\n    elif move_slot == 3:\n        # Bottom-Left\n        buttons.append(\"Down\")\n        buttons.append(\"A\")\n    elif move_slot == 4:\n        # Bottom-Right\n        buttons.append(\"Right\")\n        buttons.append(\"Down\")\n        buttons.append(\"A\")\n        \n    print(buttons)",
+    "python_script": "import json\n\ndef run(input_data):\n    move_slot = input_data['move_slot']\n    buttons = [\"A\"] # Enter Fight Menu\n    \n    # Grid layout:\n    # 1 2\n    # 3 4\n    \n    # Add a wait to ensure menu opens\n    buttons.append(\"sleep 500\")\n\n    if move_slot == 2:\n        buttons.extend([\"Right\", \"A\"])\n    elif move_slot == 3:\n        buttons.extend([\"Down\", \"A\"])\n    elif move_slot == 4:\n        buttons.extend([\"Right\", \"Down\", \"A\"])\n    else: # Slot 1\n        buttons.append(\"A\")\n        \n    print(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2026-02-01T04:31:59.518Z",
         "action_counter": 22203
+      },
+      {
+        "commit_message": "Fixed JSON output formatting and added commit message.",
+        "timestamp": "2026-02-01T04:36:48.207Z",
+        "action_counter": 22210
       }
     ]
   }
