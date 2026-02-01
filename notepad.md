@@ -40,7 +40,7 @@
 - **Action**: Interacting with Grunt at (21, 7).
 - **Hypothesis**: This Grunt might be guarding the switch or possess the password.
 - **Status**: At B2F Boss Door (23, 14).
-- **Issue**: Interacting from the side (Col 24) yielded no results.
-- **Hypothesis**: The door might need to be approached from the South (Standing at 23, 16 facing Up), or it's a scripted sequence triggered elsewhere.
-- **Action**: Move to (23, 16) and interact facing Up.
-- **Passwords**: "Hail Giovanni", "SLOWPOKETAIL".
+- **Situation**: Standing at (23, 16) facing Up (Door).
+- **Action**: Pressing A to open.
+- **Contingency**: If "Locked" message repeats without password prompt, I must find the Murkrow on B1F.
+- **Passwords**: "Hail Giovanni" (Lance), "SLOWPOKETAIL" (Grunt).
