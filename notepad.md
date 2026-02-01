@@ -30,4 +30,5 @@
 - **Current Action**: Going around Grunt to check Terminal at (4, 13).
 - **Observation**: Terminal at (6, 13) contains "Team Rocket Oath". No switch found.
 - **Discovery**: (1, 12) was a Protein.
-- **Plan**: Check last server at (4, 12). If no switch, re-evaluate North West access.
+- **Current Action**: Moving to (4, 14) to check last server at (4, 12).
+- **Hypothesis**: Switch might be on this last terminal. If not, re-evaluate.
