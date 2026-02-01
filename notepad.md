@@ -42,3 +42,4 @@
 - **Plan**: Moving South to Row 15, then West to Central Area to explore West of Col 16.
 - **Exploration**: Confronting Grunt at (16, 13). Searching area North of Central Corridor.
 - **Exploration**: Shutter at (14, 11) is locked. Checking West Wing (North of Grunt at 11, 15).
+- **Plan**: Searching West Wing desks for a switch to open the Shutter at (14, 11).
