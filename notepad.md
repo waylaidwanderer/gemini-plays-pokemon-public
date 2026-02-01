@@ -39,7 +39,7 @@
 - **Observation**: Checked back of Ross's computer (23, 10). Nothing happened.
 - **Action**: Interacting with Grunt at (21, 7).
 - **Hypothesis**: This Grunt might be guarding the switch or possess the password.
-- **Battle**: vs Grunt (Gloom). Garnet Paralyzed.
-- **Action**: Using Flame Wheel (A).
-- **State**: Move Menu active. Cursor on Flame Wheel.
-- **Observation**: "It's not very effective" text visible, likely from Gloom's Absorb.
+- **Battle**: vs Grunt (Gloom). Won!
+- **Status**: Clearing end-of-battle text.
+- **Next Steps**: Talk to Grunt (clues?), then check computers at (24, 10) and (25, 10).
+- **Target**: Find the shutter switch.
