@@ -12,6 +12,7 @@
 - **Checked (West Wing)**:
   - Row 11: (12-9, 11) - Nothing.
   - Row 13: (7, 13), (6, 13) - Oath.
+  - Note: (5, 13) blocked by Grunt at (5, 14). Check from behind later.
 - **Checked (East Wing)**: 
   - Row 10 (South): All (20-25).
   - Row 6 (North): All (20-25).
