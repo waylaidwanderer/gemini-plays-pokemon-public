@@ -28,3 +28,4 @@
 
 ### Current Plan
 - Talk to Scientist Mitch at (11, 15) for clues about the shutter or switch.
+- **Plan**: Checking East Wing terminals near Scientist Ross for the shutter switch.
