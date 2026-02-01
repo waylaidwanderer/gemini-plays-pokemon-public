@@ -29,5 +29,5 @@
 - **Observation**: Terminal at (6, 13) says "Exploit POKéMON for profit!". (5, 13) inaccessible.
 - **Current Action**: Going around Grunt to check Terminal at (4, 13).
 - **Observation**: Terminal at (6, 13) contains "Team Rocket Oath". No switch found.
-- **Discovery**: SPRITE_5e6a detected at (1, 12) in West Wing Dead End. Potentially Murkrow!
+- **Discovery**: Murkrow found at (1, 15). Interacting to get Password.
 - **Plan**: Heading to (1, 12) via Row 16 to investigate.
