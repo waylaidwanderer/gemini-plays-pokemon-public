@@ -69,5 +69,5 @@
 - **Security Switch**: Found at (19, 11). CONFIRMED: Disabled the Persian Statue alarms (tested at x=24).
 - **Computers**:
   - (19, 11): Security Switch (OFF).
-  - (20, 11): Unchecked.
+  - (20, 11): "Team Rocket Oath".
   - (21, 11): Unchecked.
