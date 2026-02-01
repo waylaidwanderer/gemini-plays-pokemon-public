@@ -24,3 +24,5 @@ Navigation Plan to Northeast:
 3. Go West to (9, 5).
 4. Go North to (9, 2).
 5. Go East to (24, 2).
+- Checked (26, 1): Empty.
+- Checking Statue at (24, 1).
