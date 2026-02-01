@@ -20,6 +20,7 @@
 - **Souvenir Shop Exit**: (27, 2). Avoid stepping here unless leaving.
 - Northeast Statues: Checked (24, 6). Empty.
 - Exploring Eastern Wall of Northeast Room.
-- Northwest Statues: Checked (6, 6). Empty. Checking (6, 4).
-- Murkrow search ongoing.
-- Next: Check Grunt at (2, 4) if statue is empty.
+- Northwest Statues: (6, 1) checked (empty).
+- Checking Middle Statue at (6, 4)/(6, 5).
+- Checking Bottom Statue at (6, 7)/(6, 8).
+- Previous check at (6, 6) was a floor tile (error).
