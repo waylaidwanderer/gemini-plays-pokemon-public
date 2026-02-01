@@ -42,4 +42,10 @@
 - **Fly Menu Navigation**: Use **UP/DOWN** buttons to select towns. Left/Right does not work.
 - **Route 30 Mechanics**: Confirmed that `TYPE_fed7` tiles are walkable trees. Path to Mr. Pokemon: Go East to x=17, then North. Must dogleg East at (17, 18) to bypass walls at (17, 17)/(17, 16), then cut back West at (18, 14).
 - **Exp. Share**: Obtained and equipped on Bolin (Sandshrew).
-- **Next Step**: Fly to Mahogany Town and investigate the Souvenir Shop (Team Rocket HQ).
+- **Current Location**: Team Rocket HQ (Mahogany Town).
+- **Goal**: Locate the password/key to progress. Watch out for statue traps (Persian/Geodude?).
+
+### Team Rocket HQ (Map 3_49)
+- **Entrance**: Stairs from Souvenir Shop.
+- **Statues**: Persian statues act as alarms (trigger battles with Grunts). DO NOT WALK IN FRONT OF THEM if possible.
+- **Floor Traps**: Beware of "chute" traps that send us back to the start (if applicable in this version).
