@@ -29,3 +29,4 @@
 ### Current Plan
 - Talk to Scientist Mitch at (11, 15) for clues about the shutter or switch.
 - **Plan**: Head South down the corridor (Col 17) to check the terminals behind Scientist Ross (23, 11) for the switch.
+- **Suspicion**: Tile (22, 11) might be a warp/trap that sends me to (22, 14). Avoid stepping on it while inspecting computers.
