@@ -25,7 +25,8 @@
 - Status: Searching Southwest Room (Stairs/Traps area).
 - Murkrow Hunt: Not found in North. Checking South.
 - Entered B2F (Map 3_50).
-- Locked Door at (23, 14) blocks direct East path.
-- Wall at Row 12 blocks direct North path.
-- Plan: Go South to Row 16, East to x=24, North to bypass wall.
-- Target: Item (3, 10) & Sprite (7, 9).
+- Locked Doors at (23, 14) and (23, 15).
+- Wall at x=23 separates West and East.
+- Plan: Explore North along East side to find a crossing to the West.
+- Targets: Item at (3, 10), Sprite near (22, 9).
+- Murkrow likely in B2F.
