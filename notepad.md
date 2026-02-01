@@ -33,6 +33,7 @@
   - Crates (27, 10): Empty.
   - "Suspicious Machine" (24, 5): Checked twice, dud.
 - **Current Goal**: Find the entrance to the "Hidden Room" (Boss).
-  - **Hypothesis 1**: Entrance is near the disabled Persian Statues (x=6).
+  - **Hypothesis 1**: Entrance is near the Persian Statues (x=6).
   - **Hypothesis 2**: Hidden door in Central Area North Wall (y=4, x=10-18).
-- **Path**: Move West to x=6. Inspect statues and walls.
+- **Status**: Statue at (6, 1) has "shiny eyes" (Alarm might be ACTIVE). Switch at (19, 11) might not have worked or affects something else.
+- **Path**: Test Alarm at (6, 3). If safe, inspect wall at (6, 4). If battle, retreat and try Hypothesis 2.
