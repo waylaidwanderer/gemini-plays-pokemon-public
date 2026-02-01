@@ -4,16 +4,10 @@
 - **Secondary Goal**: Open B2F Door with Password ("Hail Giovanni" + Password 2).
 
 ### Team Rocket HQ (B1F)
-- **Location**: West Wing / Stairs.
-- **Objective**: Use Warp Tile at (5, 15) to reach East Side.
-- **Goal**: Find stairs on East Side leading to B2F (behind the locked door).
-
-### Pathing Plan
-1. Go back UP to B1F (Currently on B2F).
-2. Use Warp Panel at (5, 15) on B1F.
-3. Arrive at East Side (Entrance Area).
-4. Explore South/East B1F for stairs down to B2F East.
-5. Find Murkrow on B2F East.
+- **Status**: Explored Northeast (Dead End).
+- **Layout Insight**: Row 4 is a solid wall from x=10 to x=29. The Warp Tile resets you to the North side of this wall.
+- **Objective**: Explore Southeast B1F.
+- **Path**: Must go West to the Gap at (9, 4), cross South, then head East to the unexplored Southeast corner.
 
 ### Leads & Clues
 - **Password 1**: "Hail Giovanni".
@@ -22,5 +16,5 @@
 - **Sprite at (7, 9) on B2F**: Unreachable from South B2F. Accessible via East B2F?
 
 ### Mechanics
-- **Warp Tiles**: "Back to entrance" = East Side of B1F.
+- **Warp Tiles**: "Back to entrance" = Northeast Side of B1F.
 - **Alarms**: Disabled.
