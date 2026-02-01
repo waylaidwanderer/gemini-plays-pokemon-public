@@ -18,3 +18,9 @@
 - **Warp Tiles**: "Back to entrance" = Northeast Side of B1F. Rug in Souvenir Shop = Warp to B1F.
 - **Alarms**: Disabled.
 - **Souvenir Shop Exit**: (27, 2). Avoid stepping here unless leaving.
+Navigation Plan to Northeast:
+1. Go East to (19, 9).
+2. Go North to (19, 5).
+3. Go West to (9, 5).
+4. Go North to (9, 2).
+5. Go East to (24, 2).
