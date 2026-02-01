@@ -68,3 +68,7 @@
   - To re-use the same move: Just press 'A'.
   - To switch moves: You must account for the current cursor position.
   - Wraps: Up from Top -> Bottom, Down from Bottom -> Top.
+- **Map 3_50 Notes**:
+  - y=16 Corridor (West side) is a dead end at x=6.
+  - Must backtrack East to x=17 to return to y=14 Main Corridor.
+  - **Target**: Investigating room at (7, 9) (Sprite detected). Likely accessible from y=14 or via a specific door.
