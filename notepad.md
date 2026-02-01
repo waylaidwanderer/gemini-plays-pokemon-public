@@ -54,3 +54,4 @@
   - **Traps**: Floor traps exist (e.g., at 2,4).
 - **Goal**: Find the "secret switch" to disable the alarms.
 - **Alert**: Garnet's Dig PP restored (10/10).
+- **Exploration Note**: West corridor (x<6) appears to be a dead end with a trap at (2,4). Retrying exploration from Entrance area (East).
