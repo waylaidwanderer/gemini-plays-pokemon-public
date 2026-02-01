@@ -40,7 +40,5 @@
 - **Action**: Interacting with Grunt at (21, 7).
 - **Hypothesis**: This Grunt might be guarding the switch or possess the password.
 - **Battle**: vs Grunt (Gloom). Garnet Paralyzed.
-- **Move Slots**: TL=Swift, TR=Mud-Slap, BL=Smokescreen, BR=Flame Wheel.
-- **Status**: Command Phase. Cursor on Smokescreen (BL).
-- **Action**: Using Flame Wheel (BR).
-- **Target**: Grunt at (21, 7). He might be the key.
+- **Status**: Clearing text (Smokescreen result). Gloom will attack next.
+- **Next Action**: Mash B to clear. Then Flame Wheel (BR).
