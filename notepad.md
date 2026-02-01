@@ -13,6 +13,8 @@
   - West Wing (All propaganda).
   - Ross's Computer (23, 10) - Nothing.
   - Computer (22, 10) - Nothing.
+  - Computer (21, 10) - Nothing.
+  - Computer (20, 10) - Nothing.
   - Grunt (21, 7) - Password only.
 
 ## Key Locations (Map 3_51)
