@@ -27,3 +27,4 @@
 - **Observation**: Terminal at (7, 13) contains "Team Rocket Oath". No switch found.
 - **Observation**: Terminal at (6, 12) contains "Team Rocket Oath". No switch found.
 - **Observation**: Checking Server at (5, 12).
+- **Observation**: Terminal at (6, 13) contains "Team Rocket Oath". No switch found.
