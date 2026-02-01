@@ -43,7 +43,7 @@
 - **Route 30 Mechanics**: Confirmed that `TYPE_fed7` tiles are walkable trees. Path to Mr. Pokemon: Go East to x=17, then North. Must dogleg East at (17, 18) to bypass walls at (17, 17)/(17, 16), then cut back West at (18, 14).
 - **Exp. Share**: Obtained and equipped on Bolin (Sandshrew).
 - **Current Location**: Team Rocket HQ - West Corridor (Battling Rocket Grunt).
-- **Goal**: Find the "secret switch" to disable the statue alarms.
+- **Goal**: Find the "secret switch" to disable the statue alarms. The machine at (24, 5) is just part of the statue and does not have a switch.
 - **Alert**: Garnet has PP for Flame Wheel (7) and Dig (7). Mud-Slap/Smokescreen are empty.
 
 ### Team Rocket HQ (Map 3_49)
