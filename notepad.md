@@ -20,9 +20,9 @@
   - Col 4/5: Multiple traps.
 
 ### Leads & Clues
-- **Password**: "Team Rocket Oath" on computers (20, 11).
+- **Password**: "Hail Giovanni" or "for the glory of TEAM ROCKET!" (Confirmed). Found on PC at (20, 11).
 - **Locked Door**: B2F (23, 14). Needs password.
-- **Boss**: "Only the boss knows the password". Found in "hidden room"?
+- **Boss**: "Only the boss knows the password". Probably behind B2F door.
 
 ### Important Mechanics
 - **Walkable Trees**: `TYPE_fed7` tiles are walkable (Route 30/43).
