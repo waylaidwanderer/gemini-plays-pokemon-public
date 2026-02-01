@@ -39,6 +39,6 @@
 - **Observation**: Checked back of Ross's computer (23, 10). Nothing happened.
 - **Action**: Interacting with Grunt at (21, 7).
 - **Hypothesis**: This Grunt might be guarding the switch or possess the password.
-- **Battle Note**: Garnet is Paralyzed.
-- **Move Slots**: BL=Smokescreen, BR=Mud-Slap. Hypothesize TR=Flame Wheel, TL=Swift.
-- **Plan**: Clear text, survive Gloom's attack, then try Top-Right for Flame Wheel.
+- **Battle**: vs Grunt (Gloom). Garnet Paralyzed.
+- **Move Slots**: BL=Smokescreen, BR=Mud-Slap. TR likely Flame Wheel.
+- **Plan**: Use Flame Wheel (TR). Input: Right from TL.
