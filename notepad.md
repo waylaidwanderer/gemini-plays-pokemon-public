@@ -40,6 +40,6 @@
 - **Action**: Interacting with Grunt at (21, 7).
 - **Hypothesis**: This Grunt might be guarding the switch or possess the password.
 - **Status**: Obtained both passwords ("Hail Giovanni" + "SLOWPOKETAIL").
-- **Correction**: The "Grunt" at (23, 6) is a machine. B1F exploration complete.
-- **Objective**: Open the Boss's Door on B2F.
-- **Route**: East to Col 26, then South to Stairs at (27, 14).
+- **Intel**: Grunt at (21, 7) gave the password. No need to chase Murkrow.
+- **Objective**: Open the Boss's Door on B2F at (23, 14).
+- **Route**: Leaving B1F via stairs at (27, 14). Then navigating B2F to the door.
