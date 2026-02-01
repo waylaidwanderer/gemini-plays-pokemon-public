@@ -56,4 +56,5 @@
 - **Alert**: Garnet's Dig PP restored (10/10).
 - **Exploration Note**: West corridor (x<6) appears to be a dead end with a trap at (2,4). Retrying exploration from Entrance area (East).
 - **Exploration Path**: Found a potential gap in the wall at (9, 4). Aiming for that to access the lower corridor.
-- **Statue Alarm**: Expecting battle at x=24.
+- **Statue Alarm**: x=24 statues appear inactive or directional (passed safely Westbound).
+- **Statue Alarm**: Expecting battle at x=6 (Active).
