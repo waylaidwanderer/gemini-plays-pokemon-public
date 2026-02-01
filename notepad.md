@@ -13,7 +13,7 @@
   - Row 11: (12-8, 11) - Nothing.
   - Row 13: (7-4, 13) - Oath. (3, 13) - Hidden X Special (Full Bag).
   - Note: (5, 13) blocked by Grunt.
-  - Target: Re-check (8, 11), then check (7-4, 11).
+  - Target: Computers at Row 11 (Cols 7-4) from FRONT. Note: Back seems inaccessible.
 - **Checked (East Wing)**: 
   - Row 10 (South): All (20-25).
   - Row 6 (North): All (20-25).
