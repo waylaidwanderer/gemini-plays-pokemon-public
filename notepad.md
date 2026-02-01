@@ -44,11 +44,11 @@
 - **Exp. Share**: Obtained and equipped on Bolin (Sandshrew).
 - **Current Location**: Team Rocket HQ - B1F.
 - **Goal**: Find password for B2F door.
-- **Leads**:
-  - Scientist Jed (18, 12): Only gave info about warp panel (Secret?).
-  - Grunt at (3, 4): "Useless".
-  - Grunt at (24, 6): Defeated earlier. Need to talk to him?
-  - Room at (7, 9): Unexplored.
+- **Status of Leads**:
+  - Scientist Jed (18, 12): Useless (Warp panel info).
+  - Grunt at (3, 4): Useless.
+  - East Wing (x=24): Machine is decoration, "Computer" at (24,1) is a statue. Dead end.
+  - **Active Lead**: Room at (7, 9). Saw a sprite there earlier. Unexplored.
 - **Warp Panel**: Located at (5, 15). Warps to (25, 2).
 
 ### Team Rocket HQ (Map 3_49)
