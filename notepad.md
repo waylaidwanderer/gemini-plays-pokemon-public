@@ -40,6 +40,6 @@
 - **Action**: Interacting with Grunt at (21, 7).
 - **Hypothesis**: This Grunt might be guarding the switch or possess the password.
 - **Battle**: vs Grunt (Gloom). Garnet Paralyzed.
-- **Status**: "Fully Paralyzed" (Turn lost). Gloom likely attacks next.
-- **Plan**: Mash B to clear text/enemy attack. Then Retry Flame Wheel.
-- **Hypothesis**: Gloom is not a threat, just annoying.
+- **Action**: Retrying Flame Wheel (Press A).
+- **Status**: Back in Move Menu. Cursor on Flame Wheel (TR/BR).
+- **Hypothesis**: Gloom is toast.
