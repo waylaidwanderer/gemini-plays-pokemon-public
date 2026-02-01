@@ -31,3 +31,6 @@
 - Murkrow Hunt: Checking where these stairs lead.
 - Defeated Rocket Grunt at (25, 14).
 - Taking Stairs at (27, 14).
+- Lance Encounter: Mentioned two passwords.
+- Location: Map 3_51 (Likely B1F Secret Area).
+- Goal: Find Murkrow here.
