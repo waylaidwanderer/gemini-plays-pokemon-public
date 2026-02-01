@@ -32,3 +32,4 @@
 - **Plan**: Blocker at (28, 11). Backtracking to Row 15, then West to Col 17 to bypass Grunt at (16, 13) and reach North Corridor (Row 3).
 - **Obstacle**: Grunt at (16, 13). Facing Right. Will attempt to bypass or battle.
 - **Exploration**: Reached North Corridor (Row 3). Sweeping West.
+- **Exploration**: Accessed North Corridor. Sweeping West (Row 2) to check (0, 2) area.
