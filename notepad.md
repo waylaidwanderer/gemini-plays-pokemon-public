@@ -20,9 +20,9 @@
 ### Current Plan
 - Interact with Murkrow to get the password.
 - Return to B2F Locked Door.
-- Murkrow is at (23, 11). Access blocked from South and Left.
-- Potential path: Go Right to Col 28, Up to Row 9, Left across top, Down to Murkrow.
-- Central Passage (14, 11) is blocked by a shutter/door.
-- Action: Flank East via Column 17 to bypass the Grunt and finding a path North.
-- Corridor at Col 17 has an opening to the East at Row 3 (Col 18).
-- This likely connects to the top-right area (behind the Grunt?).
+### Map 3_51 Layout
+- **West Wing (Cols 0-5)**: 2 Grunts (Defeated). Narrow path at Col 1 is a dead end.
+- **Central Area (Cols 12-16)**: Entrance via stairs at (27,14). Shutter blocks North at (14,11).
+- **East Wing (Cols 17-29)**: Connects North (Row 3) and South (Row 16).
+- **Objective**: Murkrow at (23, 11). Entrance likely on South side (Col 21-22).
+- **Obstacle**: Blocker at (28,9) blocks North-East path.
