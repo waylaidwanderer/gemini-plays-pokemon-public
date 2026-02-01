@@ -29,6 +29,6 @@
 - **Exploration**: Successfully bypassed Grunt at (16, 13). Heading North up Central Corridor (Cols 16-17) to Row 3.
 - **Layout Update**: Row 4 is a solid wall (Cols 13-27). Gaps at Col 28 and Col 16-17.
 - **Layout Update**: Col 18 is a solid wall from Row 0 to Row 13. Gap at Row 3 and Row 14.
-- **Plan**: Blocked by desk at (19, 13). Looping East to (21, 14) to reach Central Area, then North to sweep Row 3.
+- **Plan**: Moving South to Row 9, then East to check Blocker at (28, 9) or find access to Col 29.
 - **Obstacle**: Grunt at (16, 13). Facing Right. Will attempt to bypass or battle.
 - **Exploration**: Reached North Corridor (Row 3). Sweeping West.
