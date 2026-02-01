@@ -31,3 +31,4 @@
 - **Observation**: Terminal at (6, 13) contains "Team Rocket Oath". No switch found.
 - **Discovery**: Murkrow found at (1, 15). Interacting to get Password.
 - **Plan**: Heading to (1, 12) via Row 16 to investigate.
+- **Observation**: Interaction with Murkrow at (1, 14) yielded no text so far. Retrying with explicit 'Face Up' + 'A'.
