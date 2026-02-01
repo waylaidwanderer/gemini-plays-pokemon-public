@@ -4,10 +4,10 @@
 - **Secondary Goal**: Open B2F Door with Password ("Hail Giovanni" + Password 2).
 
 ### Team Rocket HQ (B1F)
-- **Status**: Exploring Central Area (Persian Statue Room).
-- **Objective**: Explore Northern Corridor (Row 1-3) moving East.
-- **Path**: Moving from (9, 4) to the East side of the room to find Murkrow.
-- **Notes**: (9, 4) was empty (no Grunt). Area is clear.
+- **Status**: Re-entering B1F from Souvenir Shop (3_48).
+- **Objective**: Explore Northern Corridor (Row 1-3) moving West to East.
+- **Path**: Re-enter via stairs at (7, 1).
+- **Notes**: Accidentally exited to Souvenir Shop. Must go back down.
 
 ### Leads & Clues
 - **Password 1**: "Hail Giovanni".
