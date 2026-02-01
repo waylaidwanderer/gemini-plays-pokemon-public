@@ -39,7 +39,8 @@
 - **Observation**: Checked back of Ross's computer (23, 10). Nothing happened.
 - **Action**: Interacting with Grunt at (21, 7).
 - **Hypothesis**: This Grunt might be guarding the switch or possess the password.
-- **Grunt Interaction**: Defeated Grunt at (21, 7). He taunted "The password to the boss's room is... unless you have two passwords." Useless.
-- **Plan**: Check computers at (24, 10) and (25, 10) for the switch.
-- **Route**: Move Right (East) to Col 26, then South to Row 11, then West to access computers.
-- **Observation**: Garnet is Paralyzed. Ignore for now (doesn't affect walking).
+- **Intel**: Grunt at (21, 7) gave password "SLOWPOKETAIL".
+- **Passwords Known**: "Hail Giovanni" (Lance), "SLOWPOKETAIL" (Grunt).
+- **Uncertainty**: Do I still need the Murkrow? Is the shutter switch still needed?
+- **Plan**: Check nearby computers at (24, 10) and (25, 10) for the shutter switch just in case.
+- **Route**: Move East to Col 26, then South to Row 10 to access computers.
