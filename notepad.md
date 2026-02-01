@@ -28,6 +28,6 @@
 - **Walkable Trees**: `TYPE_fed7` tiles are walkable (Route 30/43).
 - **Battle Menu**: Cursor remembers last position. Use manual inputs.
 ### Current Strategy
-- **Goal**: Reach Warp Panel at (5, 15) to access East Wing.
-- **Target**: Investigate "Ghost Grunt" (26, 9) and Crates (27, 10) for hidden stairs to B2F North.
-- **Path**: South down Col 3 (accept trap at 3,8), bypass stairs at (3, 14).
+- **Goal**: Access the "Ghost Grunt" area (26, 9) from the Central Area.
+- **Path**: Move West to gap at (9, 4) -> Go South to Row 5 -> Go East to (26, 9).
+- **Hypothesis**: The "Hidden Room" with the Boss is accessed via a secret near the Ghost Grunt or the Crates at (27, 10).
