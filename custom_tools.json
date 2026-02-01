@@ -362,56 +362,5 @@
         "action_counter": 13565
       }
     ]
-  },
-  "battle_move_select": {
-    "description": "Selects a move in the battle menu (1-4). Resets cursor to top (Up x3) then navigates to slot. Handles vertical list layout.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "move_slot": {
-          "type": "integer",
-          "minimum": 1,
-          "maximum": 4,
-          "description": "The slot of the move to use (1-4)."
-        },
-        "autopress_buttons": {
-          "type": "boolean",
-          "description": "If true, automatically presses the buttons.",
-          "default": false
-        }
-      },
-      "required": [
-        "move_slot",
-        "autopress_buttons"
-      ]
-    },
-    "python_script": "import json\n\n# Get input data\nmove_slot = input_data['move_slot']\nautopress = input_data.get('autopress_buttons', False)\n\n# Validate input\nif not (1 <= move_slot <= 4):\n    print(json.dumps({\"error\": \"move_slot must be between 1 and 4\"}))\n    exit()\n\n# Logic: Reset to top by pressing UP 3 times\n# Then press DOWN to reach target slot.\nbuttons = []\n\n# Reset cursor to top (Generic safety for Gen 2 lists that might not wrap top-to-bottom or to be safe)\nbuttons.extend([\"Up\", \"Up\", \"Up\"])\n\n# Navigate to slot\nnum_downs = move_slot - 1\nfor _ in range(num_downs):\n    buttons.append(\"Down\")\n\n# Select\nbuttons.append(\"A\")\n\nif autopress:\n    print(json.dumps(buttons))\nelse:\n    print(json.dumps({\"buttons\": buttons}))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-02-01T04:31:59.518Z",
-        "action_counter": 22203
-      },
-      {
-        "commit_message": "Fixed JSON output formatting and added commit message.",
-        "timestamp": "2026-02-01T04:36:48.207Z",
-        "action_counter": 22210
-      },
-      {
-        "commit_message": "Fixed bug where tool produced no output on error. Added try-except block to ensure JSON output.",
-        "timestamp": "2026-02-01T04:53:05.352Z",
-        "action_counter": 22231
-      },
-      {
-        "commit_message": "Updated to handle Vertical List layout (Gen 2 standard) instead of Grid layout. Uses Down presses to navigate.",
-        "timestamp": "2026-02-01T05:04:28.296Z",
-        "action_counter": 22247
-      },
-      {
-        "commit_message": "Fixed cursor memory issue by adding 3 Up presses to reset to top before selecting move.",
-        "timestamp": "2026-02-01T11:51:56.106Z",
-        "action_counter": 22801
-      }
-    ]
   }
 }
