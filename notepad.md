@@ -27,6 +27,6 @@
 - Entered B2F (Map 3_50).
 - Locked Doors at (23, 14) and (23, 15).
 - Wall at x=23 separates West and East.
-- Plan: Explore North along East side to find a crossing to the West.
-- Targets: Item at (3, 10), Sprite near (22, 9).
+- Plan: Explore North along East side (Col 26-28) to bypass wall.
+- Targets: Item at (3, 10), Voltorb-like sprites at (22, 7)/(22, 9).
 - Murkrow likely in B2F.
