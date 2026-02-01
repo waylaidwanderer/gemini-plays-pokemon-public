@@ -26,3 +26,4 @@
 - **Layout Update**: Wall at Col 2 separates the far west strip. Gap at (2, 16).
 - **Obstacle**: Grunt at (26, 8) is non-responsive/blocking. Bypassing.
 - **Obstacle**: Grunt at (25, 6). Facing South. Passive/Blocker. Bypassing.
+- **Exploration**: Sweeping North Corridor (Row 3). Checking for Murkrow.
