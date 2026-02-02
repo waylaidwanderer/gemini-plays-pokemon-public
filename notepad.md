@@ -13,8 +13,7 @@
 - **Correct Path**: Loop East to Col 28, go South to Row 12, then West into room.
 
 ## Status
-- **Location**: B2F Central Room (14, 12).
-- **Goal**: Re-activate Shutter Switch in NE Room.
-- **Hypothesis**: Warp at (21, 9) reset the switch. Must hit switch and AVOID warp.
-- **Target**: Computer at (23, 3).
-- **Plan**: Move East to NE Room Entrance (22, 13) -> Move North (Stay East of Col 21) -> Activate Switch.
+- **Location**: B2F Northeast Room (22, 13).
+- **Goal**: Toggle Switch at (23, 3).
+- **Plan**: Navigate North along Col 22/23. AVOID (21, 9) WARP.
+- **Reason**: Warp resets the shutter. Must toggle switch and exit cleanly.
