@@ -23,3 +23,4 @@
 - (24, 14): Grunt (Defeated/Passive) - "The guy in the cape..."
 - (15, 10): Inspected (Solid/No Interaction).
 - (14, 11): Locked Shutter.
+- (15, 16): Locked Shutter (Suspected).
