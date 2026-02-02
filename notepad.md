@@ -137,14 +137,6 @@
 - Passed Grunt at (4, 1).
 - Exploring the corridor to the East.
 - B2F also has a Row 1 corridor. This seems to be a feature of the base.
-- Cleared B2F West Wing (Cols 1-4).
-- Checked (1, 12): Empty (Item likely picked up earlier).
-- Confirmed path along Row 16 connects West Wing to Central Area.
-- Moving to Central Area (Cols 8-15) to interact with Scientist Mitch (11, 15).
-- Goal: Get info/key from Mitch or find Shutter Switch nearby.
-- Shutter is at (14, 11).
-- Scientist Mitch Dialogue: "If we turn up the power of our radio..." (Likely explaining the Lake of Rage signal).
-- Anticipating Battle with Scientist Mitch.
-- Objective: Defeat him to hopefully unlock the shutter or get information.
-- Scientist Mitch Dialogue: "The very thought excites me!" (Referring to nationwide broadcast of the signal).
-- Battle Imminent.
+- Battling Scientist Mitch at (11, 15).
+- Objective: Defeat him to unlock the shutter or get information.
+- Dialogue: "If we turn up the power of our radio... signal for broadcast nationwide... The very thought excites me!"
