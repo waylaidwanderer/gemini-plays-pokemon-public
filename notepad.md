@@ -42,3 +42,4 @@
 - (6, 13): Oath (Text only).
 - (7, 13): Oath (Text only).
 - (15, 10): Wall/Shutter (Solid).
+- (16, 0): Checked (Wall/Terminal?).
