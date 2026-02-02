@@ -144,7 +144,7 @@
 - Checking gap at B2F (14, 4) which leads to the area "Behind the Desks" (Rows 5-10).
 - This area was previously missed. It might contain the Shutter Switch or access to the Persian Statues.
 - Leaving Mitch for now.
-- Correction: Row 2 is blocked by walls. Must traverse via Row 1.
-- Moving Up to Row 1, then West to (3, 2).
-- Route: (24, 2) -> (24, 1) -> West Corridor -> (3, 1) -> (3, 2).
-- Goal: Return to B2F West Side via Stairs at (3, 2).
+- Traversing B1F (3_50) Corridor Westbound.
+- Route: (15, 1) -> (5, 1) -> (5, 2) -> Stairs at (3, 2).
+- Bypassing Grunt at (4, 1) via Row 2.
+- Goal: Return to B2F West Side to check Persian Statues and "Sealed Area".
