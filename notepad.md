@@ -1,170 +1,34 @@
 # Team Rocket HQ (Mahogany Town)
 ## Objectives
-- Find Shutter Switch on B1F.
-- Get Murkrow (requires Shutter open).
-- Open Boss Door on B2F (requires Murkrow).
+- **Primary**: Disable Persian Statue Alarms (likely at B1F Row 1).
+- **Secondary**: Defeat Scientist Mitch (B1F Central Room).
+- **Tertiary**: Find Shutter Switch (likely guarded by Mitch or Statues).
+- **Goal**: Get Murkrow (requires Shutter open) -> Open Boss Door (B2F).
 
 ## Status
-- **Status**: Password "SLOWPOKETAIL" failed on B2F Boss Door.
-- **Requirement**: "Useless unless you have..." likely means the Boss's Voice (Murkrow).
-- **Murkrow**: Found at (3, 12) and (28, 9) but acts as a "Ghost" (non-interactive).
-- **Current Goal**: Find the switch to make Murkrow solid/catchable.
-- **Target**: Persian Statues at (12, 1).
-- **Oath Text**: "Exploit POKéMON for profit!" (Confirmed).
-- **Location Change**: Accidentally took stairs at (27, 2) on B1F.
-- **Current Location**: B2F (Map 3_50), NE Corner (New Area).
-- **Analysis**: B1F Row 2 is NOT a corridor. It was just a stair landing.
-- **Plan**: Explore this new room on B2F. It might contain the missing key/switch.
-- **After**: Return to B1F via these stairs.
-- **Hypothesis**: The solution to the Locked Shutter/Ghost Murkrow might be here.
-- **Hypothesis**: Hidden switch on statues.
-- **Murkrow**: Still need to solve the Ghost issue.
-- **Status**: Passwords obtained but insufficient. Need Boss's Voice.
+- **Current Location**: B1F Central Room (Map 3_51, Row 12-16).
+- **Key Mechanics**:
+  - **Persian Statues**: Located at B1F (12, 1) and (13, 1). Act as alarms. Need to find a switch on them or near them.
+  - **Locked Shutters**: B1F (14, 11). Block access between North and South central areas.
+  - **Murkrow**: Currently a "Ghost". Need to solve the puzzle (Switch?) to make it interactive.
+- **Passwords Known**: "Hail Giovanni" (B1F Computer), "SLOWPOKETAIL" (B1F Grunt).
+- **Boss Door**: B2F (23, 14). Requires 2 passwords + Boss's Voice (Murkrow).
 
-## Exploration Log (Map 3_51)
-- **Tile Mechanics**:
-  - `TYPE_1fdc`: Solid (Machine/Oath?).
-  - `TYPE_2889`/`TYPE_63e2`: Solid (Walls/Desks/Plants).
-  - `TYPE_3fe2`: Walkable Floor.
-  - **Barriers**:
-    - Row 4 (East): Solid Wall from Col 18 to 27. Gap at Col 16-17.
-    - Row 11 (West): Blocked by desks (Cols 1-13). No gap at Col 10 (Correction).
-    - Row 12 (West): Blocked by plants at Col 2.
-- **Cleared Areas (Nothing Found)**:
-  - East Wing (Rows 6, 10), North Wall (Row 0), West Wing (Row 11).
-  - Computers: Row 11 (Cols 1, 8-13), Row 10 (Cols 20-25).
-  - Specifics: (4-7, 13) Oath (Text only), (1, 11) Wall/Dead End.
-  - West Strip (Col 1): Fully explored. Dead End.
-- **Findings**:
-  - Items: X Special (3, 13), Protein (1, 12).
-  - Oath Carpet: Row 13 (Cols 4-7).
-- Target: NE Area (Murkrow Search). SE Computers (Re-verify).
-- Suspect: Hidden switch might be in the SE area or on a computer I missed in the East.
-- (15, 16): Inspected (Solid/No Interaction) - Confirmed Shutter/Wall.
-- (15, 11): Suspected Shutter/Wall (Type 63e2).
-- (14, 11): Locked Shutter (Verified non-interactive/Locked).
-- (15, 16): Suspected Shutter.
-- Note: Displaced Murkrow at (28, 9). It fled. Tracking it down (likely North/West).
-- **Grunt Info**: Grunt at (5, 14) is useless (gives bad password "Raticate Tail").
-- (1, 11): Wall (Dead End).
-- Plan: Investigate "Oath" area (Row 13, Cols 4-7) and objects at Row 12.
-- Check West Room for Murkrow.
-- **Map Update**: Continuous barrier of plants/walls at Column 2 (Rows 11-15). Access to West Strip is only via Row 16 or Row 10 (if gap exists, but Row 10 seemed blocked earlier).
-- Note: Confirmed no stairs at (3, 14). Summary error.
-- West Strip (Col 1): Confirmed Dead End. Blocked at (1, 11).
-- Plan: Search South-East Area (Rows 12-16, Cols 20-29) for Murkrow.
-- Location: Moving to SE Area.
-- (4, 13): Oath (Text only).
-- (5, 13): Inaccessible (Blocked by Grunt at 5, 14 and walls).
-- (6, 13): Oath (Text only).
-- (7, 13): Oath (Text only).
-- (15, 10): Wall/Shutter (Solid).
-- (16, 0): Checked (Wall/Terminal?).
-- (18, 12-13): Wall (Solid). Passage to East Wing at Row 13 (Gap at Col 15).
-- (27, 14): Stairs to B2F (Confirmed).
-- (28, 16): Checked (Empty).
-- (20-28, 16): Checked (Empty).
-- Hypothesis: Murkrow might be trapped behind the shutter in the NW area. To get it, I must find the switch first.
-- Hypothesis: Check the Statues/machines at (12, 1) again?
-- **Tool Status**: `bfs_navigate` confirmed unreliable in this area (Turn 24369-24372). Using manual pathing.
-- **Search Plan**:
-  1. Check West Murkrow Spawn at (3, 12).
-  2. If empty, return to NE Spawn at (28, 9).
-  3. Investigate "Sealed Area" hypothesis (NW Room seems inaccessible except via Shutter).
+## Map Data (B1F)
+- **North Corridor (Row 1)**: Connects East Stairs (27, 2) to West. Contains Persian Statues (12, 1).
+- **Central Room (South)**: Where I am now. Contains Scientist Mitch (11, 15). Accessed via gap at (15, 12).
+- **West Wing**: Isolated. Accessed via B2F West Corridor.
+- **East Wing**: Explored. Oath Machines.
 
-- **Current Hypothesis**: Murkrow location cycles between NE (28,9) and West (3,12). Interaction physics unclear.
-- (15, 10): Checking potential Shutter/Door.
-- **Interaction Attempt**: Stepped OFF Murkrow at (28, 11) to (28, 12), facing UP, pressing A.
-- **Interaction Attempt**: Moving Left to (27, 11), facing Right to interact.
-- **Ghost Bird Conclusion**: Murkrow at (28, 11) is non-interactive/non-solid. Abandoning interaction attempts. Focusing on finding Shutter Switch or "Real" Murkrow elsewhere.
-- **Strategy Shift**: Testing "Raticate Tail" password on B2F Boss Door. Grunt at (5, 14) provided it. Hypothesis: Murkrow hunt might be skippable if this password works.
-- **Observation**: Rival Silver spotted at (24, 13) and Grunt at (25, 13) on B2F. They appear static.
-- **Action**: Attempting to open Boss Door at (23, 14) with "Raticate Tail" (Player Hypothesis).
-- **Anomaly**: Rival Silver at (24, 13) disappeared when player stepped onto the tile. Possible glitch or cutscene skip?
-- **Action**: Talking to Grunt at (25, 13) to see if he triggers the door or battle.
-- **Result**: "Raticate Tail" password FAILED. Boss Door remains locked.
-- **Next Step**: Returning to B1F to investigate Persian Statues at (12, 1) and (13, 1).
-- **Oath Machine**: Investigating text at (6, 13).
-- **Oath Text 1**: "Exploit POKéMON for profit!" (Machine at 6, 13).
-- **Computer Sweep**: Computers at 20-22 checked (no result).
-- **Plan**: Exploring area behind computers (Rows 7-9).
-- **Oath Text**: "Exploit POKéMON for profit!" (Both machines).
-- **Murkrow Anomaly**: Murkrow at (3, 12) is non-solid/non-interactive (Ghost).
-- **Obstacle**: (27, 13) is `TYPE_63e2` (Solid/Wall). Must use Column 28.
-- **Plan**: Moving Right to Col 28, then Up to check Murkrow locations.
-- **Targets**: (28, 11) and (28, 9).
-- **Hypothesis**: "Ghost" behavior might change if I approach differently or if the password attempt reset something.
-- **Murkrow Status**: CONFIRMED GHOST. Player sprite walked onto (28, 9) overlapping Murkrow. No interaction.
-- **Hypothesis**: The real Murkrow is trapped or I need to activate a switch first.
-- **Target**: Persian Statues (Gold Statues) at (12, 1) and (13, 1). Possible hidden switch location.
-- **Plan**: Go South to Row 16, West to Center, North to Row 1.
-- **Discovery**: B2F NE Stairs (27, 2) lead to a corridor along Row 1.
-- **Ghost Grunt**: At (24, 1). Walked through him. Non-solid.
-- **Exploration**: Moving West along Row 1.
-- **Path**: (23, 1), (22, 1), (21, 1)... appear walkable.
-- **Hypothesis**: This secret corridor leads to the item/switch needed for the Shutter/Murkrow.
-- **Corridor Mapping**: Investigating Row 1 Corridor (B2F).
-- **Current Position**: (9, 1). Moving West.
-- **Goal**: Reach the end of this secret passage.
-- **Hypothesis**: This corridor likely leads to the NW corner of B2F, possibly bypassing the shutter or containing the switch.
-- **Dead End**: B2F West Area (Row 6-10) is a dead end containing TM46.
-- **Action**: Returning to B1F via Stairs at (3, 6).
-- **Plan**: Investigate "Trap Tile" (Geodude?) at B1F (5, 6).
-- **Hypothesis**: The switch might be disguised as the trap tile or nearby.
-- **Next**: Check connectivity of B1F West Corridor (can I go South to 3, 14?).
-- Explored B1F West Wing (Row 6-11). It is isolated and connects to B2F West Corridor via Stairs at (3, 6).
-- Row 12 is blocked, preventing access to the South West Wing from here.
-- Found Item Ball at (3, 10).
-- Need to check (5, 6) for switch/trap.
-- Bag is full (20/20). Item at (3, 10) disappeared upon pickup attempt, but inventory appears unchanged. Might be a duplicate of an existing item (e.g., Full Heal) or a glitch.
-- Investigating the northern part of the West Wing (Row 5-6).
-- Row 12 is a wall, so I cannot go South to the Grunt at (5, 14) from here.
-- Plan: Explore (5, 6) and (5, 5), then likely return to B2F.
-- Standing at (5, 6). This tile is safe. The "Trap Tiles" (Geodude statues) are visible at (7, 5) but are separated by a wall at Column 6.
-- Found another set of Stairs at (3, 2) in this West Wing.
-- Taking Stairs at (3, 2).
-- Confirmed: B1F West Wing is split by a wall at Row 4.
-- South Part (where I am): Accessed via Stairs at (3, 6). Contains nothing but empty halls.
-- North Part (where I want to be): Contains Stairs at (3, 2) and a Grunt.
-- Conclusion: Path to North Part is NOT from here. Must return to B2F and find the path to the stairs at (3, 2) from below (likely via the Secret Corridor on B2F Row 1).
-- Action: Returning to B2F via Stairs at (3, 6).
-- On B1F (3_50) NW Isolated Room.
-- Arrived via stairs at (3, 2) from B2F West Bridge.
-- Grunt at (4, 1). Marker says "Defeated".
-- Investigating this room for Shutter Switch.
-- Must check walls and corners.
-- Discovered: B1F Row 1 is a continuous corridor running East-West.
-- Passed Grunt at (4, 1).
-- Exploring the corridor to the East.
-- B2F also has a Row 1 corridor. This seems to be a feature of the base.
-- Battling Scientist Mitch at (11, 15).
-- Objective: Defeat him to unlock the shutter or get information.
-- Dialogue: "If we turn up the power of our radio... signal for broadcast nationwide... The very thought excites me!"
-- Scientist Mitch dialogue seems to loop ("If we turn up the power..."). He might not be a trainer or I've already triggered his flag?
-- Checking gap at B2F (14, 4) which leads to the area "Behind the Desks" (Rows 5-10).
-- This area was previously missed. It might contain the Shutter Switch or access to the Persian Statues.
-- Leaving Mitch for now.
-- Traversing B1F (3_50) Corridor Eastbound.
-- Current Pos: (10, 1). Destination: Stairs at (27, 2).
-- Reason: Need to loop back to B2F NE Area to access the "Gap" at B2F (14, 4).
-- This will allow me to reach the corridor where Rival Silver is waiting (B2F Row 2, Col 7).
-- Silver and Murkrow are separated from the West side by a wall at (6, 2).
-- I must approach them from the East side (Row 4 -> Col 14 -> Col 7).
-- Confronting Rival Silver at B2F (7, 2).
-- Murkrow is at (7, 1).
-- Expecting cutscene/dialogue where Silver mentions he doesn't want the weak Murkrow.
-- This should clear the way to catch the Murkrow for the password.
-- Visual Confirmation: Silver is at (7, 2), but separated by a wall at (6, 2).
-- I am on the wrong side of the wall.
-- Access to Silver (Zone 2 North) is blocked by walls (Col 6, Col 15) and Shutter (Row 11).
-- Confirmed: North West Area is sealed by Shutter at (14, 11).
-- Goal: Find Shutter Switch to open (14, 11).
-- Access to Silver (Zone 2 North) is blocked by walls at Column 6 (West Side).
-- Confirmed: Column 6 is a solid wall from Row 1 downwards.
-- Route Correction: Must access Silver from the Central/East side.
-- Currently in B1F South West Wing (Map 3_50).
-- Re-investigating this room for secret switches or hidden paths.
-- Wall at Column 6 seems to block access to the "Trap Room" (Geodude Statues) at Column 7.
-- Plan: Inspect Wall at (6, 6) and (6, 5). Check tile (5, 6) for interaction.
-- If this fails, this room is likely just an Item Room (item already taken).
-- Next Step: Return to B1F Main Corridor (Row 1) and scan walls there.
+## Action Plan
+1. **Defeat Scientist Mitch**: He is at (11, 15). He might have the switch or info.
+2. **Explore Central Room**: Check for items/switches.
+3. **Go to Persian Statues**: If no switch here, backtrack to Stairs (27, 2) -> Row 1 West -> Interact with Statues at (12, 1).
+4. **Find Shutter Switch**: Open the path to the North.
+
+## Important Coordinates
+- **Scientist Mitch**: (11, 15)
+- **Persian Statues**: (12, 1), (13, 1)
+- **Locked Shutter**: (14, 11)
+- **Stairs to B2F (NE)**: (27, 2)
+- **Stairs to B2F (SW)**: (3, 6)
