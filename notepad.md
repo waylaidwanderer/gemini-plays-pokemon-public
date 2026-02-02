@@ -67,9 +67,9 @@
 - Hypothesis: Check the Statues/machines at (12, 1) again?
 - **Tool Status**: `bfs_navigate` confirmed unreliable in this area (Turn 24369-24372). Using manual pathing.
 - **Search Plan**:
-  1. Investigate Persian Statues at (12, 1) and (13, 1) via Col 16/17. (Top priority - Unchecked).
-  2. If Statues are empty, return to Ghost Bird (28, 9) and test interaction angles carefully.
-  3. STOP checking computers marked with X.
+  1. Check West Murkrow Spawn at (3, 12).
+  2. If empty, return to NE Spawn at (28, 9).
+  3. Investigate "Sealed Area" hypothesis (NW Room seems inaccessible except via Shutter).
 
 - **Current Hypothesis**: Murkrow location cycles between NE (28,9) and West (3,12). Interaction physics unclear.
 - (15, 10): Checking potential Shutter/Door.
