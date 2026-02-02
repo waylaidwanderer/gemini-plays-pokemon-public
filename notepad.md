@@ -16,5 +16,6 @@
 - **Findings**:
   - Row 13 (Cols 4-7): Team Rocket Oath.
   - (3, 13): Hidden Item (X Special) - Collected.
+  - (1, 12): Item (Protein) - Collected.
 - Target: Check computer at (1, 11).
 - (14, 11): Locked Shutter.
