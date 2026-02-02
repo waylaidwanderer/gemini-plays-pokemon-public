@@ -15,26 +15,16 @@
   - `TYPE_2889`/`TYPE_63e2`: Solid (Walls/Desks/Plants).
   - `TYPE_3fe2`: Walkable Floor.
   - **Barriers**:
+    - Row 4 (East): Solid Wall from Col 18 to 27. Gap at Col 16-17.
     - Row 11 (West): Blocked by desks/walls (Cols 1-13).
     - Row 12 (West): Blocked by plants at Col 2.
-- **Checked (Nothing Found)**:
-  - East Wing: Rows 6 & 10 (Cols 20-25).
-  - North Wall: Row 0 (Cols 16-21).
-  - West Wing: Row 11 (Cols 8-12).
-  - Row 13 (Cols 4-7): Team Rocket Oath (Walkable).
-  - (3, 13): Hidden Item (X Special).
-  - (1, 12): Item (Protein).
-- **Checked Computers**:
-  - Row 11: Cols 1, 8, 9, 10, 11, 12, 13.
-  - East Wing & North Wall: Clear.
-- (4-7, 11): Inaccessible (Blocked by chairs at Row 12).
-- Target: Check large desk at (9-11, 13) from South side.
-- (4, 13): Checked (Oath).
-- (1, 11): Checked (Empty).
-- (23, 11): Standing on/near Scientist Ross.
-- (20, 10): Checked (Empty).
-- (25, 10): Checked (Empty).
-- (24, 10): Checked (Empty).
+- **Cleared Areas (Nothing Found)**:
+  - East Wing (Rows 6, 10), North Wall (Row 0), West Wing (Row 11).
+  - Computers: Row 11 (Cols 1, 8-13), Row 10 (Cols 20-25).
+  - Specifics: (4, 13) Oath, (1, 11) Empty.
+- **Findings**:
+  - Items: X Special (3, 13), Protein (1, 12).
+  - Oath Carpet: Row 13 (Cols 4-7).
 - Target: Re-evaluate strategy. All known accessible computers checked.
 - Suspect: Hidden switch in a seemingly solid object, or the inaccessible area behind Row 11 is key.
 - (15, 16): Inspected (Solid/No Interaction) - Confirmed Shutter/Wall.
