@@ -107,3 +107,6 @@
 - **Current Position**: (9, 1). Moving West.
 - **Goal**: Reach the end of this secret passage.
 - **Hypothesis**: This corridor likely leads to the NW corner of B2F, possibly bypassing the shutter or containing the switch.
+- **Encounter**: Trainer found at (4, 1) in B2F North Corridor.
+- **Dialogue**: "Oh, a kid? I don't really like this..."
+- **Action**: Preparing for battle.
