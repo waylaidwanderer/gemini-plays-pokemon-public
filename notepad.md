@@ -108,7 +108,7 @@
 - **Goal**: Reach the end of this secret passage.
 - **Hypothesis**: This corridor likely leads to the NW corner of B2F, possibly bypassing the shutter or containing the switch.
 - **Battle Status**: Victory against Grunt.
-- **Action**: Clearing text.
+- **Action**: Clearing post-battle text.
 - **Navigation**: Moving Down to Row 2, then West to Stairs at (3, 2).
 - **Hypothesis**: Stairs connect to NW B1F (Persian Statues).
 - **Grunt**: Was at (4, 1). Bypassing via (4, 2).
