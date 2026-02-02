@@ -10,12 +10,16 @@
 - **Plan**: Chase Murkrow from (28, 9) and obtain the password. Locate Shutter Switch if path is blocked.
 
 ## Exploration Log (Map 3_51)
+- **Tile Mechanics**:
+  - `TYPE_1fdc`: Walkable (Carpet/Oath/Interactable).
+  - `TYPE_2889`/`TYPE_63e2`: Solid (Walls/Desks/Plants).
+  - `TYPE_3fe2`: Walkable Floor.
 - **Checked (Nothing Found)**:
   - East Wing: Rows 6 & 10 (Cols 20-25).
   - North Wall: Row 0 (Cols 16-21).
   - West Wing: Row 11 (Cols 8-12).
 - **Findings**:
-  - Row 13 (Cols 4-7): Team Rocket Oath.
+  - Row 13 (Cols 4-7): Team Rocket Oath (Walkable).
   - (3, 13): Hidden Item (X Special) - Collected.
   - (1, 12): Item (Protein) - Collected.
 - (2, 11): Blocked by plant.
