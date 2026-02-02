@@ -138,8 +138,8 @@
 - Exploring the corridor to the East.
 - B2F also has a Row 1 corridor. This seems to be a feature of the base.
 - Exploring B1F Row 1 Secret Corridor.
-- Currently at (12, 1). Moving East.
-- Correction: (12, 1) is a walkable corridor tile, not the Persian Statues.
-- Heading towards potential Persian Statues or Shutter Switch.
-- Grunt at (4, 1) bypassed.
+- Reached (17, 1). Continuing East.
+- Observed `SPRITE_7afb` (likely Voltorb/Electrode trap) at (22, 5) in the room below.
+- This corridor seems to bypass the main rooms.
+- Goal: Reach the end of this corridor (likely NE corner).
 - Note: Player is in Rocket Disguise.
