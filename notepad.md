@@ -11,7 +11,7 @@
 - **Correct Path**: Loop East to Col 28, go South to Row 12, then West into room.
 
 ## Status
-- **Location**: B2F NE Room (22, 7).
+- **Location**: B2F NE Room (25, 7).
 - **Key Item/Flag**: Obtained "Raticate Tail" password from Grunt at (5, 14).
 - **Murkrow**: Disappeared from (8, 12). Likely in NW corner.
 - **Boss Door**: B2F (23, 14). Requires 2 passwords.
