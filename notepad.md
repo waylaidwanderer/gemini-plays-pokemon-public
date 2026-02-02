@@ -13,10 +13,10 @@
 - **Correct Path**: Loop East to Col 28, go South to Row 12, then West into room.
 
 ## Status
-- **Location**: B2F Northwest (3, 2).
-- **Goal**: Talk to Silver (7, 2) to reach Murkrow (8, 3).
-- **Path**: Just arrived from B1F stairs.
+- **Location**: B2F Northwest (5, 2).
+- **Goal**: Talk to Silver at (7, 2). Then catch Murkrow at (8, 3).
+- **Path**: Move Right -> Talk.
 - **Checked**: NE Room, SW Room.
 - **To Check**: NW Room (Current).
 - **Traps**: Cols 1-3 (Reset to 5,16) - Watch out!
-- **Murkrow**: Locked behind shutters.
+- **Murkrow**: Found at (8, 3)!
