@@ -112,3 +112,7 @@
 - **Plan**: Investigate "Trap Tile" (Geodude?) at B1F (5, 6).
 - **Hypothesis**: The switch might be disguised as the trap tile or nearby.
 - **Next**: Check connectivity of B1F West Corridor (can I go South to 3, 14?).
+- Explored B1F West Wing (Row 6-11). It is isolated and connects to B2F West Corridor via Stairs at (3, 6).
+- Row 12 is blocked, preventing access to the South West Wing from here.
+- Found Item Ball at (3, 10).
+- Need to check (5, 6) for switch/trap.
