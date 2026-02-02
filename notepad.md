@@ -13,8 +13,7 @@
 - **Correct Path**: Loop East to Col 28, go South to Row 12, then West into room.
 
 ## Status
-- **Location**: B2F Northeast Room (21, 5).
-- **Goal**: Check Back of Grunt's Computer (21, 6).
-- **Action**: Move Left to (21, 5) -> Face Down -> Interact.
-- **Reason**: Previous check at (21, 5) might have faced Right (arrival direction). Need to ensure I face the computer.
-- **Note**: This computer is guarded by a Grunt, making it the primary suspect.
+- **Location**: B2F Northeast Room (22, 7).
+- **Goal**: Check Computer (23, 6) and (20, 6).
+- **Obstacle**: Defeated Grunt at (21, 7) blocks (21, 6).
+- **Plan**: Check Grunt -> Check (23, 6) -> Loop South around Warp (21, 9) to reach West side.
