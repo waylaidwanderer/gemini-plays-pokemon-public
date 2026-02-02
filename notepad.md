@@ -5,10 +5,13 @@
 - Open Boss Door on B2F (requires Murkrow).
 
 ## Status
-- **Password**: "SLOWPOKETAIL" (Grunt at 20, 7).
-- **Hint**: "Useless unless you have..." (Need full text).
-- **Hypothesis**: Talking to this Grunt might activate the Murkrow or is required to use the password.
-- **Plan**: Finish dialogue. Go to B2F to test password. If fails, return to Murkrow (now potentially active).
+- **Passwords Obtained**:
+  1. "Hail Giovanni" (Scientist Jed/Computer).
+  2. "SLOWPOKETAIL" (Grunt at 20, 7).
+- **Grunt Hint**: "Useless unless you have two passwords." (Confirmed I need both).
+- **Plan**: Head to B2F Boss Door immediately.
+- **Murkrow**: Likely irrelevant now that I have the password.
+- **Path**: Exit computer area via Col 19 gap, then to stairs at (27, 14).
 - **Oath Text**: "Exploit POKéMON for profit!" (Both machines).
 
 ## Exploration Log (Map 3_51)
