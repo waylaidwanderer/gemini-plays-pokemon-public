@@ -41,3 +41,4 @@
 - (5, 13): Inaccessible (Blocked by Grunt at 5, 14 and walls).
 - (6, 13): Oath (Text only).
 - (7, 13): Oath (Text only).
+- (15, 10): Wall/Shutter (Solid).
