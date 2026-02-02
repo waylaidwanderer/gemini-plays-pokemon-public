@@ -11,6 +11,8 @@
   - NE Area: Cleared.
   - West Strip (Col 1): Cleared (Empty).
   - West Wing Main: checking now.
+  - West Strip (Col 1): Cleared (Empty).
+  - Oath Machines: Checked (Text only).
 - **Hypothesis**: Murkrow is the key. Follow the bird.
 - **Pathing**: Moving West via Row 15/16 to bypass obstacles.
 - **Barriers**:
