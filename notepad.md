@@ -164,5 +164,5 @@
 - Goal: Find Shutter Switch to open (14, 11).
 - Current Strategy: Investigating Persian Statues at (12, 1) in the B2F NW Corridor.
 - Route: East Room (South) -> Gap (17, 4) -> East Room (North) -> Stairs (27, 2).
-- Previous move (Turn 24658) failed to update position (Rubber-banding?). Retrying navigation with BFS.
+- Manual Navigation: Moving West to Gap at (17, 4).
 - Next: Return to B1F via East Stairs (27, 2) -> Cross B1F to West Stairs (3, 2).
