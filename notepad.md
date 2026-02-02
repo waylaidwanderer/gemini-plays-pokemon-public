@@ -107,9 +107,8 @@
 - **Current Position**: (9, 1). Moving West.
 - **Goal**: Reach the end of this secret passage.
 - **Hypothesis**: This corridor likely leads to the NW corner of B2F, possibly bypassing the shutter or containing the switch.
-- **Observation**: Path South at (3, 8) is blocked by a barrier (`TYPE_63e2`).
-- **Solution**: Bypass barrier via Column 1 (Walkable).
-- **Plan**: Move Left to Col 1, then South to Row 10, then East to Item.
-- **Item**: Located at (3, 10).
-- **Next**: Continue South to Stairs at (3, 14).
+- **Location**: B2F West Corridor (3, 10).
+- **Action**: Picking up Item at (3, 10).
+- **Next**: Move South to Stairs at (3, 14).
 - **Hypothesis**: Stairs at (3, 14) lead to B1F Sealed Room.
+- **Connection**: This area connects B2F to the isolated B1F sections.
