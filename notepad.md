@@ -13,8 +13,9 @@
 - **Correct Path**: Loop East to Col 28, go South to Row 12, then West into room.
 
 ## Status
-- **Location**: B2F East Corridor (28, 14).
-- **Goal**: Reach NE Stairs (27, 2) -> B1F -> NW Room.
+- **Location**: B1F Northeast (27, 2).
+- **Goal**: Traverse North Corridor (Row 1) West to NW Stairs (3, 2).
+- **Path**: (27, 2) -> (27, 1) -> West to (3, 2).
 - **Checked**: NE Room (All Computers), SW Room (All Computers).
 - **To Check**: NW Room (Silver's location).
 - **Traps**: Cols 1-3 (Reset to 5,16). (21, 9) (Warp).
