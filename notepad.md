@@ -107,7 +107,7 @@
 - **Current Position**: (9, 1). Moving West.
 - **Goal**: Reach the end of this secret passage.
 - **Hypothesis**: This corridor likely leads to the NW corner of B2F, possibly bypassing the shutter or containing the switch.
-- **Battle Status**: Zubat fainted. Grunt sending out 3rd Pokemon.
-- **Action**: No switch. Keeping Garnet in.
+- **Battle Status**: Grunt sent out Rattata Lv17 (3rd Pokemon).
+- **Action**: Using Swift (Slot 1).
 - **Navigation**: After battle, move to Stairs at (3, 2).
 - **Hypothesis**: Stairs at (3, 2) lead to the NW corner of B1F.
