@@ -18,7 +18,8 @@
   - (3, 13): Hidden Item (X Special) - Collected.
   - (1, 12): Item (Protein) - Collected.
 - (2, 11): Blocked by plant.
-- Target: Cut plant at (2, 12) to access computer at (2, 11).
+- (2, 12): Plant (Solid/No Interaction).
+- Target: Check computers at (4, 11) to (7, 11).
 - (1, 11): Checked (Empty).
 - (24, 14): Grunt (Defeated/Passive) - "The guy in the cape..."
 - (15, 10): Inspected (Solid/No Interaction).
