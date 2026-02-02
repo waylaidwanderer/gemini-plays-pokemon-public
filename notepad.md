@@ -5,7 +5,7 @@
 - Open Boss Door on B2F (requires Murkrow).
 
 ## Status
-- **Murkrow Status**: Current Hypothesis is that location cycles between NE (28,9) and West (3,12). Interaction physics unclear (Ghost Bird?).
+- **Murkrow Status**: Confirmed NOT at West Spawn (3, 12). Returning to NE Spawn (28, 9).
 - **Switch Hunt**:
   - SE Area: Cleared.
   - NE Area: Cleared.
