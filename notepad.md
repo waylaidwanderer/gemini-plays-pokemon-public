@@ -166,8 +166,9 @@
 - Confirmed: North West Area is sealed by Shutter at (14, 11).
 - Goal: Find Shutter Switch to open (14, 11).
 - Route:
-  1. Move East to (14, 16) -> North to (14, 12) -> East through Gap (15, 12) to East Room.
-  2. Move North to Gap (17, 4) -> East to Stairs (27, 2).
-  3. Return to B1F -> Cross to Stairs (3, 2).
-  4. Descend to B2F West Corridor -> South to Stairs (3, 6).
-  5. Ascend to B1F South Wing (Trap Tile).
+  1. Move North to (14, 12) -> Check Shutter one last time.
+  2. Move East to (17, 12) (Central Highway).
+  3. Move North to (17, 2) -> East to Stairs (27, 2).
+  4. Return to B1F -> Cross to Stairs (3, 2).
+  5. Descend to B2F West Corridor -> South to Stairs (3, 6).
+  6. Ascend to B1F South Wing (Trap Tile).
