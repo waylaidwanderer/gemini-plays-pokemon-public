@@ -107,8 +107,7 @@
 - **Current Position**: (9, 1). Moving West.
 - **Goal**: Reach the end of this secret passage.
 - **Hypothesis**: This corridor likely leads to the NW corner of B2F, possibly bypassing the shutter or containing the switch.
-- **Battle Status**: Rattata fainted. Grunt sending out next Pokemon.
-- **Plan**: Finish battle (No switching).
-- **Navigation**: After battle, move Down to Row 2, then West to Stairs at (3, 2).
-- **Discovery**: Stairs at (3, 2) likely bypass the Locked Shutter on B1F.
-- **Hypothesis**: The switch/key is in the NW B1F area.
+- **Battle Status**: Grunt sent out Zubat Lv17.
+- **Plan**: Using Swift (Garnet) to bypass accuracy checks and hit Flying type.
+- **Observation**: Mud-Slap ineffective vs Flying.
+- **Navigation**: After battle, move to Stairs at (3, 2).
