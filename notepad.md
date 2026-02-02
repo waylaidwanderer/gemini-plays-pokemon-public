@@ -14,6 +14,6 @@
 
 ## Status
 - **Location**: B1F Southeast (27, 14).
-- **Goal**: Return to B2F Southeast (27, 14).
-- **Action**: Manual: Right, Left to warp back down.
-- **Reason**: BFS took the path through the stairs, causing an accidental warp. Correcting now.
+- **Goal**: Flank Murkrow via B1F NE Stairs (27, 2).
+- **Path**: North to (27, 2) -> Down to B2F -> West to Murkrow.
+- **Reason**: B2F blocked by shutters. Flanking from North is the only way.
