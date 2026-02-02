@@ -159,8 +159,10 @@
 - Access to Silver (Zone 2 North) is blocked by walls (Col 6, Col 15) and Shutter (Row 11).
 - Confirmed: North West Area is sealed by Shutter at (14, 11).
 - Goal: Find Shutter Switch to open (14, 11).
-- Current Strategy: Checking East Room Computers (Row 10).
-- Checked (22, 10): Flavor text "Radio signal...".
-- Checking: (24, 10) and (25, 10).
-- Next: Move West to check (16, 10), (17, 10), (20, 10), (21, 10).
+- Access to Silver (Zone 2 North) is blocked by walls (Col 6, Col 15) and Shutter (Row 11).
+- Confirmed: North West Area is sealed by Shutter at (14, 11).
+- Goal: Find Shutter Switch to open (14, 11).
+- Current Strategy: Checking Computers (16, 10) and (17, 10).
+- Checked (Row 10 East): (20, 10), (21, 10), (22, 10), (24, 10), (25, 10). All Empty.
 - Scientist Ross (23, 11) blocks (23, 10).
+- Previous checks: SW Room Computers (Rows 11) - All Empty.
