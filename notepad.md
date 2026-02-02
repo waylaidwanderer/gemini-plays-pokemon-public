@@ -12,8 +12,8 @@
 
 ## Status
 - **Location**: B2F NW Corner (3, 2).
-- **Goal**: Interact with Silver (7, 2) / Murkrow (8, 3).
-- **Obstacle**: Separated by wall at x=6? Investigating.
+- **Goal**: Reach Silver/Murkrow from B2F Central Area (East Side).
+- **Obstacle**: Wall at x=6 blocks access from West stairs.
 - **Boss Door**: B2F (23, 14). Requires 2 passwords.
 
 ## Exploration Plan
