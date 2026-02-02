@@ -137,9 +137,9 @@
 - Passed Grunt at (4, 1).
 - Exploring the corridor to the East.
 - B2F also has a Row 1 corridor. This seems to be a feature of the base.
-- Entered B2F Central Area via gap at (16, 3-4).
-- Moved South to Row 12.
-- Discovered that the "Shutter" wall at Column 15 ends at Row 11.
-- Accessing the Central-West Area (Rows 6-12, Cols 8-15) via the gap at (15, 12).
-- Plan: Search this area for the Shutter Switch or the Real Murkrow.
-- Note: This area was previously inaccessible from the West Wing due to a wall at Row 12.
+- Exploring B2F Central-West Room (Rows 12-16, Cols 8-15).
+- Currently at (14, 12).
+- Found Scientist Mitch at (11, 15).
+- There is a row of desks at Row 11.
+- Plan: Inspect computer at (11, 11) and talk to Scientist Mitch.
+- Goal: Find Shutter Switch for the shutter at (14, 11).
