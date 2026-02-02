@@ -13,8 +13,8 @@
 - **Correct Path**: Loop East to Col 28, go South to Row 12, then West into room.
 
 ## Status
-- **Location**: B1F Northeast (27, 2).
-- **Goal**: Warp to B2F (27, 2).
-- **Action**: Step Right (28, 2) -> Step Left (27, 2) to Warp.
-- **Next**: On B2F, move East/South to (28, 15) -> West to (22, 13) -> Central Room.
-- **Reason**: Access Murkrow from the Central Room entrance. NW/SW stairs are isolated/wrong side.
+- **Location**: B2F Northeast (27, 2).
+- **Goal**: Reach Murkrow at (8, 3) via South Route.
+- **Path**: South to (28, 15) -> West to (22, 13) -> North through Shutter (14, 11).
+- **Reason**: North Corridor (Row 2) blocked by walls at x=8,9. Must loop South.
+- **Switch**: Confirmed hit at (23, 3). Shutter at (14, 11) should be open.
