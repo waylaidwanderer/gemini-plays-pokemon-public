@@ -137,9 +137,9 @@
 - Passed Grunt at (4, 1).
 - Exploring the corridor to the East.
 - B2F also has a Row 1 corridor. This seems to be a feature of the base.
-- Exploring B2F West Wing (Cols 1-4).
-- Cleared Oath Machine text.
-- Moving to (1, 12) via South path (Row 16).
-- Goal: Check (1, 12) for hidden items/switches.
-- Note: Contradictory notes about Protein at (1, 12). Verifying emptiness.
-- If empty, the B2F West area is likely a dead end.
+- Cleared B2F West Wing (Cols 1-4).
+- Checked (1, 12): Empty (Item likely picked up earlier).
+- Confirmed path along Row 16 connects West Wing to Central Area.
+- Moving to Central Area (Cols 8-15) to interact with Scientist Mitch (11, 15).
+- Goal: Get info/key from Mitch or find Shutter Switch nearby.
+- Shutter is at (14, 11).
