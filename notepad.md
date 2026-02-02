@@ -134,6 +134,6 @@
 - Investigating this room for Shutter Switch.
 - Must check walls and corners.
 - Discovered: B1F Row 1 is a continuous corridor running East-West.
-- Currently blocked by Grunt dialogue at (4, 1).
-- Plan: Close dialogue, walk around Grunt via (5, 2) to (5, 1), then head East.
+- Passed Grunt at (4, 1).
+- Exploring the corridor to the East.
 - B2F also has a Row 1 corridor. This seems to be a feature of the base.
