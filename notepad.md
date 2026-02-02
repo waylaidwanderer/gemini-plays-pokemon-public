@@ -11,9 +11,9 @@
 - **Correct Path**: Loop East to Col 28, go South to Row 12, then West into room.
 
 ## Status
-- **Location**: B2F NW Corner (3, 2).
-- **Goal**: Reach Silver/Murkrow from B2F Central Area (East Side).
-- **Obstacle**: Wall at x=6 blocks access from West stairs.
+- **Location**: B1F NW Corner (3, 2).
+- **Goal**: Return to B2F NE Stairs via Hidden Corridor, then find path West to Silver.
+- **Silver/Murkrow**: Spotted at B2F (7, 2) / (8, 3). Accessible from Central Area.
 - **Boss Door**: B2F (23, 14). Requires 2 passwords.
 
 ## Exploration Plan
