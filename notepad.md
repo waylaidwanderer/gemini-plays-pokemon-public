@@ -1,8 +1,8 @@
 # Team Rocket HQ (Mahogany Town)
 ## Objectives
-- **Primary**: Disable Persian Statue Alarms (likely at B1F Row 1).
-- **Secondary**: Defeat Scientist Mitch (B1F Central Room).
-- **Tertiary**: Find Shutter Switch (likely guarded by Mitch or Statues).
+- **Primary**: Disable Persian Statue Alarms (B1F Row 1).
+- **Secondary**: Find Shutter Switch (B1F).
+- **Tertiary**: Get Murkrow.
 - **Goal**: Get Murkrow (requires Shutter open) -> Open Boss Door (B2F).
 
 ## Status
