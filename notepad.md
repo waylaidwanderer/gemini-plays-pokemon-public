@@ -5,20 +5,11 @@
 - Open Boss Door on B2F (requires Murkrow).
 
 ## Status
-- **Murkrow Status**: FOUND at West Spawn (3, 12).
-- **Switch Hunt**:
-  - SE Area: Cleared.
-  - NE Area: Cleared.
-  - West Wing: Cleared.
-
-- **Pathing**: Moving West via Row 15/16 to bypass obstacles.
-- **Barriers**:
-  - Shutter at (14, 11) - Locked.
-  - Plants at Row 12/Col 2 - Block access to far west strip?
-- **To-Do**:
-  - Re-visit West Wing.
-  - Check if Murkrow is there.
-  - If not, check NE area again (maybe it flew back?).
+- **Murkrow Status**: FOUND at West Spawn (3, 12) (Ghost/Non-interactive).
+- **Password Discovery**: Grunt at (21, 7) is revealing the password!
+- **Oath Text**: "Exploit POKéMON for profit!" (Both machines).
+- **Plan**: Get password, then head to B2F Boss Door.
+- **Switch Hunt**: Suspended. Found password source directly.
 
 ## Exploration Log (Map 3_51)
 - **Tile Mechanics**:
