@@ -49,3 +49,4 @@
 - (18, 12-13): Wall (Solid). Passage to East Wing at Row 14.
 - (27, 14): Stairs to B2F (Confirmed).
 - (28, 16): Checked (Empty).
+- (20-28, 16): Checked (Empty).
