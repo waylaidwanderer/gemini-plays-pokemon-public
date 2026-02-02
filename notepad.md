@@ -13,8 +13,8 @@
 - **Correct Path**: Loop East to Col 28, go South to Row 12, then West into room.
 
 ## Status
-- **Location**: B1F Northwest (3, 2).
+- **Location**: B1F Northwest (5, 2).
 - **Goal**: Traverse East to NE Stairs (27, 2).
-- **Action**: Manual: Right -> Up -> Right (Avoid wall at 6,2).
-- **Reason**: Successfully warped to B1F. Navigating manually to clear the stairs and avoid accidental re-warp.
-- **Next**: Use BFS to reach (27, 2) once clear.
+- **Action**: Use BFS to navigate East (around wall at 6,2).
+- **Reason**: Navigating manually hit a wall. BFS should find the path around.
+- **Next**: Descend to B2F -> Enter Central Area (East Side) -> Find Murkrow at (8, 3).
