@@ -159,11 +159,12 @@
 - Access to Silver (Zone 2 North) is blocked by walls (Col 6, Col 15) and Shutter (Row 11).
 - Confirmed: North West Area is sealed by Shutter at (14, 11).
 - Goal: Find Shutter Switch to open (14, 11).
-- Access to Silver (Zone 2 North) is blocked by walls (Col 6, Col 15) and Shutter (Row 11).
-- Confirmed: North West Area is sealed by Shutter at (14, 11).
-- Goal: Find Shutter Switch to open (14, 11).
-- Current Strategy: Confronting Rival Silver at (7, 2) via B2F West Corridor (Row 1).
-- Route: (3, 2) -> (3, 1) -> East to (7, 1).
-- Interaction: Confront Silver from the North (7, 1).
-- Note: Murkrow is at (8, 3).
-- Next: If no key from Silver, continue East to Persian Statues at (12, 1).
+- Access to Silver (Zone 2 North) is blocked by walls at Column 6 (West Side).
+- Confirmed: Column 6 is a solid wall from Row 1 downwards.
+- Silver (7, 2) is in the "Mid-West" section, NOT the "Far-West" section.
+- Route Correction: Must access Silver from the Central/East side.
+- Plan:
+  1. Return to B1F via Stairs (3, 2).
+  2. Traverse B1F Corridor East to Stairs (27, 2).
+  3. Return to B2F East Room.
+  4. Navigate: East Room South -> Central Area -> Mid-West Area (Row 5 gap?) -> Silver.
