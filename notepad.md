@@ -47,7 +47,7 @@
 - (14, 11): Locked Shutter.
 - (15, 16): Suspected Shutter.
 - Note: Displaced Murkrow at (28, 9). It fled. Tracking it down (likely North/West).
-- **Grunt Info**: Grunt at (5, 14) thinks the password is "RATICATE TAIL" (likely incorrect/guess).
+- **Grunt Info**: Grunt at (5, 14) is useless (gives bad password "Raticate Tail").
 - (1, 11): Wall (Dead End).
 - Plan: Investigate "Oath" area (Row 13, Cols 4-7) and objects at Row 12.
 - Check West Room for Murkrow.
