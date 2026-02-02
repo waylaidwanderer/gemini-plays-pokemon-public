@@ -73,11 +73,4 @@
 - **Pathing**: Moving to East Wing via Row 16 -> Row 12 to bypass Scientist at (11, 15).
 - **Observation**: `bfs_navigate` failed to find a path from (25, 16) to (23, 12) despite a clear path existing via Row 16. Possible XML parsing issue or type mismatch.
 - **Strategy**: Manual navigation to bypass Grunt at (24, 14) via Row 16.
-- **Murkrow Log**: Fled from (28, 9) again (Turn 24329). Suspect ping-pong behavior. Heading to West Wing.
-- **Murkrow Log**: Found at (3, 12) (West Wing) on Turn 24340. Fled immediately. Confirming ping-pong pattern. Heading back to NE Spawn (28, 9).
-- **Murkrow Log**: Found at (28, 11) (East Wing) on Turn 24343. Bumping to interact.
-- **Observation**: Player and Murkrow sprites overlapping at (28, 11). Pressing A.
-- **Anomaly**: Murkrow at (28, 11) appears non-solid (walked through/overlapping). Attempting to interact from North ((28, 10)).
-- **Troubleshooting**: Murkrow at (28, 11) is non-solid/non-interactive. Cycling stairs to B2F to reset map state.
-- **Observation**: Player was able to walk onto (28, 9). Checking if Murkrow is present or if it fled/is intangible.
-- **Ghost Bird**: Confirmed Murkrow at (28, 9) is non-solid and non-interactive. Ignoring it and returning to West Wing (3, 12) to find the "real" instance.
+- **Current Hypothesis**: Murkrow location cycles between NE (28,9) and West (3,12). Interaction physics unclear.
