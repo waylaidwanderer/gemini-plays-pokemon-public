@@ -78,3 +78,4 @@
 - **Murkrow Log**: Found at (28, 11) (East Wing) on Turn 24343. Bumping to interact.
 - **Observation**: Player and Murkrow sprites overlapping at (28, 11). Pressing A.
 - **Anomaly**: Murkrow at (28, 11) appears non-solid (walked through/overlapping). Attempting to interact from North ((28, 10)).
+- **Troubleshooting**: Murkrow at (28, 11) is non-solid/non-interactive. Cycling stairs to B2F to reset map state.
