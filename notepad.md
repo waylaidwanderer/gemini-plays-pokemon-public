@@ -13,10 +13,10 @@
 - **Correct Path**: Loop East to Col 28, go South to Row 12, then West into room.
 
 ## Status
-- **Location**: B1F Northeast (27, 2).
-- **Goal**: Traverse North Corridor (Row 1) West to NW Stairs (3, 2).
-- **Path**: (27, 2) -> (27, 1) -> West to (3, 2).
-- **Checked**: NE Room (All Computers), SW Room (All Computers).
-- **To Check**: NW Room (Silver's location).
-- **Traps**: Cols 1-3 (Reset to 5,16). (21, 9) (Warp).
+- **Location**: B2F Northwest (3, 2).
+- **Goal**: Talk to Silver (7, 2) to reach Murkrow (8, 3).
+- **Path**: Just arrived from B1F stairs.
+- **Checked**: NE Room, SW Room.
+- **To Check**: NW Room (Current).
+- **Traps**: Cols 1-3 (Reset to 5,16) - Watch out!
 - **Murkrow**: Locked behind shutters.
