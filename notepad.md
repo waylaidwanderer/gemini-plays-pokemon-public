@@ -20,9 +20,9 @@
 - (2, 11): Blocked by plant.
 - (2, 12): Plant (Solid/No Interaction).
 - **Checked Computers**:
-  - Row 11: Cols 1, 12, 13.
+  - Row 11: Cols 1, 8, 9, 10, 11, 12, 13.
   - East Wing & North Wall: Clear.
-- **Target Range**: Check computers at (11, 11) down to (4, 11).
+- **Target Range**: Check computers at (7, 11) down to (4, 11).
 - (15, 11): Suspected Shutter/Wall (Type 63e2).
 - (14, 11): Locked Shutter.
 - (15, 16): Suspected Shutter.
