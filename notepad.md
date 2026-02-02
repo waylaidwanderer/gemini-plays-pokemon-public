@@ -27,8 +27,9 @@
 - (4, 13): Checked (Oath).
 - (2, 12): Plant (Solid/No Interaction) - Checked West side.
 - (1, 11): Checked (Empty).
+- (23, 11): Standing on/near Scientist Ross.
+- Target: Check computers along Row 10 (East Wing).
 - (15, 16): Inspected (Solid/No Interaction) - Confirmed Shutter/Wall.
-- Target: Return to East Wing. Re-check computers and look for Murkrow.
 - (15, 11): Suspected Shutter/Wall (Type 63e2).
 - (14, 11): Locked Shutter.
 - (15, 16): Suspected Shutter.
