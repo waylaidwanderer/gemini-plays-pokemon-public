@@ -15,5 +15,6 @@
 ## Status
 - **Location**: B2F Northeast (27, 2).
 - **Goal**: Reach Murkrow at (8, 3).
-- **Path**: Attempt West via Row 3. If blocked by Ledge at (18, 3), loop South to Row 14.
-- **Reason**: Testing if "Passage to East" is one-way. BFS will attempt it.
+- **Path**: Navigate West via Row 2/3.
+- **Note**: Targeting (9, 3) adjacent to Murkrow. Including 'unseen' tiles in navigation.
+- **Reason**: Previous BFS failed due to unseen tiles and targeting the object directly.
