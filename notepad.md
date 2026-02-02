@@ -25,8 +25,9 @@
 - (4-7, 11): Inaccessible (Blocked by chairs at Row 12).
 - Target: Check large desk at (9-11, 13) from South side.
 - (4, 13): Checked (Oath).
-- Target: Check Plant at (2, 12) from West Side (1, 12).
-- Target: Investigate Suspected Shutter/Switch at (15, 16).
+- (2, 12): Plant (Solid/No Interaction) - Checked West side.
+- (1, 11): Checked (Empty).
+- Target: Investigate (15, 16) - Suspected Shutter/Switch.
 - (15, 11): Suspected Shutter/Wall (Type 63e2).
 - (14, 11): Locked Shutter.
 - (15, 16): Suspected Shutter.
