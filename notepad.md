@@ -170,4 +170,4 @@
   2. Return to B1F -> Cross to Stairs (3, 2).
   3. Descend to B2F West Corridor -> South to Stairs (3, 6).
   4. Ascend to B1F South Wing (Trap Tile).
-- Current Action: Moving North through Gap at (17, 4) to Stairs.
+- Current Action: Moving East along Row 2 to Stairs at (27, 2).
