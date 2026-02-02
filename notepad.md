@@ -79,3 +79,4 @@
 - **Observation**: Player and Murkrow sprites overlapping at (28, 11). Pressing A.
 - **Anomaly**: Murkrow at (28, 11) appears non-solid (walked through/overlapping). Attempting to interact from North ((28, 10)).
 - **Troubleshooting**: Murkrow at (28, 11) is non-solid/non-interactive. Cycling stairs to B2F to reset map state.
+- **Observation**: Player was able to walk onto (28, 9). Checking if Murkrow is present or if it fled/is intangible.
