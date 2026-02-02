@@ -24,3 +24,4 @@
 ## Important Coordinates
 - **Scientist Mitch**: B1F (11, 15)
 - **Stairs**: B2F (27, 2) [NE], (3, 6) [SW], (27, 14) [SE].
+- **West Wing Structure**: Confirmed B2F West side is split by a wall at Row 4. SW area (accessed via stairs at 3,6) is isolated from NW area (accessed via stairs at 3,2). Must use B1F to transit between them.
