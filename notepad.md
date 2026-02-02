@@ -138,8 +138,8 @@
 - Exploring the corridor to the East.
 - B2F also has a Row 1 corridor. This seems to be a feature of the base.
 - Exploring B1F Row 1 Secret Corridor.
-- Currently at (7, 1). Moving East.
-- Saw "Trap Tile" (Voltorb/Geodude statue) at (7, 5) from the corridor, but it's separated by a wall.
+- Currently at (12, 1). Moving East.
+- Correction: (12, 1) is a walkable corridor tile, not the Persian Statues.
 - Heading towards potential Persian Statues or Shutter Switch.
 - Grunt at (4, 1) bypassed.
 - Note: Player is in Rocket Disguise.
