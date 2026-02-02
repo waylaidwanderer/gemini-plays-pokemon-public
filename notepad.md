@@ -17,10 +17,11 @@
 - **Murkrow**: Found as ghost on B1F and B2F? Need to find the real one.
 
 ## Exploration Plan
-1. Wall at (6, 2) is likely blocking access to Silver/Murkrow. Verify and return to B1F.
-2. Return to NE B2F via Secret Corridor (Row 1) -> NE Stairs (27, 2).
-3. Access Silver/Murkrow from the East side of the wall by entering the "Corridor x=7" via gaps at (8, 12) or (8, 16).
-4. Chase Murkrow.
+1. Navigate East to (16, 12), then North through gap at (16, 11).
+2. Go to NE Stairs at (27, 2) and ascend to B1F.
+3. Take Secret Corridor (Row 1) West to NW Stairs (3, 2).
+4. Descend to B2F West Wing.
+5. Go South to Row 10, then East through gap at (6, 10) to reach Silver at (7, 2).
 
 ## Important Coordinates
 - **Scientist Mitch**: B1F (11, 15)
