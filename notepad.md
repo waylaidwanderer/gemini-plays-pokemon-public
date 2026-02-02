@@ -11,11 +11,12 @@
 - **Current Goal**: Find the switch to make Murkrow solid/catchable.
 - **Target**: Persian Statues at (12, 1).
 - **Oath Text**: "Exploit POKéMON for profit!" (Confirmed).
-- **Strategy Update**: Row 2 connects the Entrance (27, 2) to the Persian Statues (12, 1).
-- **Target**: Persian Statues at (12, 1) and (13, 1).
-- **Hypothesis**: The switch is on the statues, accessible from the North side (Row 2).
-- **Plan**: Move to (27, 2), then go West along Row 2 to (12, 2). Interact with statues.
-- **Previous**: South approach blocked by Shutter at (14, 11). North approach seems open.
+- **Location Change**: Accidentally took stairs at (27, 2) on B1F.
+- **Current Location**: B2F (Map 3_50), NE Corner (New Area).
+- **Analysis**: B1F Row 2 is NOT a corridor. It was just a stair landing.
+- **Plan**: Explore this new room on B2F. It might contain the missing key/switch.
+- **After**: Return to B1F via these stairs.
+- **Hypothesis**: The solution to the Locked Shutter/Ghost Murkrow might be here.
 - **Hypothesis**: Hidden switch on statues.
 - **Murkrow**: Still need to solve the Ghost issue.
 - **Status**: Passwords obtained but insufficient. Need Boss's Voice.
