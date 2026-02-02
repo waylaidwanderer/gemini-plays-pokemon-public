@@ -161,5 +161,6 @@
 - Goal: Find Shutter Switch to open (14, 11).
 - Current Strategy: Checking East Room Computers (Row 10).
 - Checked (22, 10): Flavor text "Radio signal...".
-- Plan: Check (24, 10), (25, 10) (East of Ross) and (16, 10), (17, 10) (West of Ross).
-- Scientist Ross is at (23, 11).
+- Checking: (24, 10) and (25, 10).
+- Next: Move West to check (16, 10), (17, 10), (20, 10), (21, 10).
+- Scientist Ross (23, 11) blocks (23, 10).
