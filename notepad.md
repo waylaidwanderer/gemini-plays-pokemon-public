@@ -16,5 +16,5 @@
 - **Mitch**: Defeated previously. Just flavor text now.
 - **Murkrow**: Locked behind shutters.
 - **Boss Door**: Needs 2 passwords.
-- **Plan**: Re-check Row 17 computers (5-13) properly (was facing wrong way). Then check 1-4.
-- **Checked**: (12, 17).
+- **Plan**: Finish checking Row 17 (13, 4-1). Then check Central Machine.
+- **Checked**: Row 17 (5-12).
