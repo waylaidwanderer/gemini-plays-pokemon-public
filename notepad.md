@@ -13,10 +13,8 @@
 - **Correct Path**: Loop East to Col 28, go South to Row 12, then West into room.
 
 ## Status
-- **Location**: B2F Northwest (6, 2).
-- **Goal**: Talk to Silver at (7, 2).
-- **Plan**: Move Right to (6, 2) -> Talk -> Advance Text -> Silver Leaves.
-- **Next**: Interact with Murkrow at (8, 3).
+- **Location**: B2F Northwest (5, 2).
+- **Goal**: Talk to Silver (7, 2) -> Get him to move -> Catch Murkrow (8, 3).
+- **Issue**: Moved Right last turn but ended up back at (5, 2). Re-attempting interaction.
 - **Checked**: NE Room, SW Room.
-- **Traps**: Cols 1-3 (Reset to 5,16).
 - **Murkrow**: Found at (8, 3)!
