@@ -83,3 +83,6 @@
 - **Plan**: Exploring area behind computers (Rows 7-9).
 - **Oath Text**: "Exploit POKéMON for profit!" (Both machines).
 - **Murkrow Anomaly**: Murkrow at (3, 12) is non-solid/non-interactive (Ghost).
+- **Door Issue**: Boss Door at (23, 14) is not responding to interaction (no text).
+- **Hypothesis**: Might need to interact with Rival Silver (24, 13) or Grunt (25, 13) first.
+- **Action**: Attempting to talk to Rival Silver.
