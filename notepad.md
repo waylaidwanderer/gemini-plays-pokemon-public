@@ -152,8 +152,8 @@
 - Murkrow is at (7, 1).
 - Expecting cutscene/dialogue where Silver mentions he doesn't want the weak Murkrow.
 - This should clear the way to catch the Murkrow for the password.
-- At B2F (5, 2).
-- Blocked by Wall at (6, 2).
-- Rival Silver is at (7, 2) (Behind Wall).
-- Hypothesis: Need to trigger a cutscene or open a hidden door here.
-- Attempting to interact with the wall.
+- Visual Confirmation: Silver is at (7, 2), but separated by a wall at (6, 2).
+- I am on the wrong side of the wall.
+- Access to Silver's corridor (Column 7) must be from the Main Area (likely via Row 4).
+- Plan: Backtrack to B1F -> East Stairs (27, 2) -> B2F NE Area -> Gap at (14, 4) -> Column 7.
+- This loop is necessary to reach the "Real" interaction.
