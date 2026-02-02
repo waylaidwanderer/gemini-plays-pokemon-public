@@ -20,7 +20,7 @@
 - **Cleared Areas (Nothing Found)**:
   - East Wing (Rows 6, 10), North Wall (Row 0), West Wing (Row 11).
   - Computers: Row 11 (Cols 1, 8-13), Row 10 (Cols 20-25).
-  - Specifics: (4, 13) Oath, (1, 11) Empty.
+  - Specifics: (4-7, 13) Oath (Text only), (1, 11) Empty.
 - **Findings**:
   - Items: X Special (3, 13), Protein (1, 12).
   - Oath Carpet: Row 13 (Cols 4-7).
