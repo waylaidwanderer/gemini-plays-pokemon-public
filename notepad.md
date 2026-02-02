@@ -72,3 +72,4 @@
 - **Pathing**: Moving to East Wing via Row 16 -> Row 12 to bypass Scientist at (11, 15).
 - **Observation**: `bfs_navigate` failed to find a path from (25, 16) to (23, 12) despite a clear path existing via Row 16. Possible XML parsing issue or type mismatch.
 - **Strategy**: Manual navigation to bypass Grunt at (24, 14) via Row 16.
+- **Murkrow Log**: Fled from (28, 9) again (Turn 24329). Suspect ping-pong behavior. Heading to West Wing.
