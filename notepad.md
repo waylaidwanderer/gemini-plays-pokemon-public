@@ -11,12 +11,12 @@
 - **Correct Path**: Loop East to Col 28, go South to Row 12, then West into room.
 
 ## Status
-- **Location**: B1F Central Corridor (23, 14).
-- **Map Correction**: Currently on B1F (Map 3_51). Previous checks were on B1F computers.
-- **Checked**: B1F NE Room Computers (No switch).
-- **Missed**: B1F (23, 10) - Blocked by Ross (Defeated).
+- **Location**: B2F Central Area (18, 14).
+- **Map Correction**: Map 3_51 is B2F. Previous confusion resolved.
+- **Checked**: B2F NE Room Computers (No switch found).
+- **Missed**: (23, 10) - Blocked by Ross.
 - **Key Item/Flag**: Obtained "Raticate Tail" password from Grunt at (5, 14).
-- **Murkrow**: Disappeared from (8, 12). Likely in NW corner.
+- **Murkrow**: Likely in B2F NW corner (Access via B1F NW stairs).
 - **Boss Door**: B2F (23, 14). Requires 2 passwords.
 
 ## Exploration Plan
