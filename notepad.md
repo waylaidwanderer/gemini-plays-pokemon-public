@@ -13,7 +13,7 @@
 - **Correct Path**: Loop East to Col 28, go South to Row 12, then West into room.
 
 ## Status
-- **Location**: B2F Southeast (27, 14).
-- **Goal**: Find Murkrow at (8, 3).
-- **Path**: Navigate West/North to (8, 3). Avoid Grunt at (24, 14).
-- **Reason**: Back on B2F. Moving to intercept Murkrow.
+- **Location**: B2F Central Entrance (22, 15).
+- **Goal**: Catch Murkrow at (8, 3).
+- **Path**: Enter room North -> Navigate West to (8, 3).
+- **Reason**: Bypassed Grunt. Clear path to Murkrow.
