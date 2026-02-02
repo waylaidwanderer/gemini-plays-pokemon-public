@@ -6,8 +6,9 @@
 - **Goal**: Get Murkrow (requires Shutter open) -> Open Boss Door (B2F).
 
 ## Status
-- **Current Location**: B1F Central Room (Left Side) (Map 3_51).
-- **Objective**: Systematic check of computers at Row 11 (Cols 8-11).
+- **Current Location**: B1F South West (Map 3_51).
+- **Objective**: Go to B2F via Stairs (27, 14) to check computers in Lance/Silver's room.
+- **Reasoning**: B1F computers are blocked or checked. Need to find switch on B2F.
 - **Route**: South to Row 16 -> West to Center -> North to Row 12.
 
 - **Key Mechanics**:
