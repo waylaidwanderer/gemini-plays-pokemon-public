@@ -5,7 +5,7 @@
 - Open Boss Door on B2F (requires Murkrow).
 
 ## Status
-- **Murkrow Status**: Confirmed NOT at West Spawn (3, 12). Returning to NE Spawn (28, 9).
+- **Murkrow Status**: FOUND at West Spawn (3, 12).
 - **Switch Hunt**:
   - SE Area: Cleared.
   - NE Area: Cleared.
