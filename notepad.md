@@ -26,8 +26,9 @@
 3. **Find Shutter Switch**: Open the path to the North.
 
 ## Exploration Status
-- **Computers (Row 11)**: Checked cols 8-13 (Empty). Checking 4-7 now.
-- **Scientist Mitch**: Defeated/Neutral (Looping dialogue).
+- **Computers (Row 11)**: Checked cols 8-13 (Empty).
+- **West Wing**: Checked (5, 6) (Empty). Heading to Stairs (3, 2).
+- **Plan**: Use B2F Secret Corridor to reach B1F NE (Row 1).
 
 ## Important Coordinates
 - **Scientist Mitch**: (11, 15)
