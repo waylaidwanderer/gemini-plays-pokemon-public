@@ -87,3 +87,5 @@
 - **Oath Text 1**: "Exploit POKéMON for profit!" (Machine at 6, 13).
 - **Oath Text 2**: Same text at (4, 13).
 - **Plan**: Check Murkrow spawn at (3, 12). If empty, head to NE Spawn (28, 9).
+- **Murkrow Anomaly**: Murkrow at (3, 12) is non-solid/non-interactive (Ghost).
+- **Plan**: Abandoning West Murkrow. Heading to check Persian Statues at (12, 1) for hidden switch.
