@@ -137,9 +137,8 @@
 - Passed Grunt at (4, 1).
 - Exploring the corridor to the East.
 - B2F also has a Row 1 corridor. This seems to be a feature of the base.
-- Traversing B2F (3_51) Row 1 Corridor Westbound.
-- Player is at (19, 1).
-- Detected gaps in the South Wall (Row 4) at Cols 16-17 and Col 14.
-- Plan: Investigate these gaps to see if they lead to new areas of B2F.
-- The Boss Door is at (23, 14) in the main area.
-- Opening the shutter on B1F might require a switch found in these central B2F areas.
+- Entered B2F Central Area via gap at (16, 3-4).
+- Currently at (16, 4).
+- This area connects to the main office.
+- Plan: Explore South to see if this path allows access "behind the desks" or to blocked areas.
+- Goal: Find a switch or key item.
