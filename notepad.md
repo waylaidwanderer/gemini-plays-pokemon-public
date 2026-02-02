@@ -46,3 +46,4 @@
 - (7, 13): Oath (Text only).
 - (15, 10): Wall/Shutter (Solid).
 - (16, 0): Checked (Wall/Terminal?).
+- (18, 12-13): Wall (Solid). Passage to East Wing at Row 14.
