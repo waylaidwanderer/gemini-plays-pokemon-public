@@ -13,9 +13,9 @@
 - **Correct Path**: Loop East to Col 28, go South to Row 12, then West into room.
 
 ## Status
-- **Location**: B1F Northwest (3, 2).
-- **Goal**: Traverse East along Row 1 to NE Stairs (27, 2).
-- **Next**: Descend to B2F -> Enter Central Area -> Find Murkrow at (8, 3).
-- **Reason**: Silver & Murkrow are behind the wall, accessible from the East.
+- **Location**: B2F Northwest (3, 2).
+- **Goal**: Re-ascend to B1F via stairs at (3, 2).
+- **Next**: Traverse B1F East to NE Stairs (27, 2).
+- **Issue**: Accidental warp to B2F. Needs correction.
 - **Checked**: West Wall (x=6) is solid.
 - **Murkrow**: Found at (8, 3)!
