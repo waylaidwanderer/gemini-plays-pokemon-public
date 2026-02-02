@@ -18,16 +18,8 @@
   - (3, 13): Hidden Item (X Special) - Collected.
   - (1, 12): Item (Protein) - Collected.
 - (2, 11): Blocked by plant.
-- Maze Path:
-  1. Row 16 East to x=14.
-  2. Up to Row 13.
-  3. East to x=17.
-  4. Down to Row 14.
-  5. East to x=28.
-  6. Up to North Section.
-- Target: Navigate to North Section via East Gap (Col 28), then explore Top-Left (Row 0-10, Col 0-10).
+- Target: Cut plant at (2, 12) to access computer at (2, 11).
 - (1, 11): Checked (Empty).
 - (24, 14): Grunt (Defeated/Passive) - "The guy in the cape..."
 - (15, 10): Inspected (Solid/No Interaction).
 - (14, 11): Locked Shutter.
-- Plan: Access (2, 11) from the North (via gap at Row 12, then up Col 1-5).
