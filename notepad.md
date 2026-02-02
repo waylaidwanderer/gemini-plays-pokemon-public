@@ -31,3 +31,5 @@
 - (14, 11): Locked Shutter.
 - (15, 16): Suspected Shutter.
 - Note: Displaced Murkrow at (28, 9). It fled. Tracking it down (likely North/West).
+- **Grunt Info**: Grunt at (5, 14) thinks the password is "RATICATE TAIL" (likely incorrect/guess).
+- **Murkrow**: Still missing. Checking West Strip (Rows 0-10, Col 1).
