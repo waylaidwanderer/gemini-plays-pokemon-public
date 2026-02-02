@@ -80,3 +80,4 @@
 - **Anomaly**: Murkrow at (28, 11) appears non-solid (walked through/overlapping). Attempting to interact from North ((28, 10)).
 - **Troubleshooting**: Murkrow at (28, 11) is non-solid/non-interactive. Cycling stairs to B2F to reset map state.
 - **Observation**: Player was able to walk onto (28, 9). Checking if Murkrow is present or if it fled/is intangible.
+- **Ghost Bird**: Confirmed Murkrow at (28, 9) is non-solid and non-interactive. Ignoring it and returning to West Wing (3, 12) to find the "real" instance.
