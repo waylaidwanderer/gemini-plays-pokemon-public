@@ -11,13 +11,9 @@
 - **Correct Path**: Loop East to Col 28, go South to Row 12, then West into room.
 
 ## Status
-- **Location**: B2F SW Area (13, 13).
-- **Goal**: Search SW Room for Switch to open Shutters (Row 11).
-- **Obstacles**: Shutters at Row 11 block access to Murkrow (North).
-- **Murkrow**: Located at (8, 3), behind the shutters.
-- **Boss Door**: B2F (23, 14). Requires 2 passwords.
-
-## Exploration Plan
-1. Search SW Room (Mitch, Grunts, Computers).
-2. If switch found, open Shutters.
-3. Catch Murkrow.
+- **Location**: B2F SW Area (12, 15).
+- **Goal**: Find Shutter Switch in SW Room.
+- **Mitch**: Defeated previously. Just flavor text now.
+- **Murkrow**: Locked behind shutters.
+- **Boss Door**: Needs 2 passwords.
+- **Plan**: Check computers in Row 17.
