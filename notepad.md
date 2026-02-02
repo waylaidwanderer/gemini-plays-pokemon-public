@@ -26,7 +26,8 @@
 - (4-7, 11): Inaccessible (Blocked by chairs at Row 12).
 - Target: Check large desk at (9-11, 13) from South side.
 - (4, 13): Checked (Oath).
-- (2, 12): Plant (Solid/No Interaction) - Checked West side.
+- (3, 14): Checked (Empty - No Stairs).
+- (2, 12): Plant (Solid/No Interaction) - Checked West side again.
 - (1, 11): Checked (Empty).
 - (23, 11): Standing on/near Scientist Ross.
 - (20, 10): Checked (Empty).
