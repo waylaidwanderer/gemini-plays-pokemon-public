@@ -5,14 +5,12 @@
 - Open Boss Door on B2F (requires Murkrow).
 
 ## Status
-- **Passwords Obtained**:
-  1. "Hail Giovanni" (Scientist Jed/Computer).
-  2. "SLOWPOKETAIL" (Grunt at 20, 7).
-- **Grunt Hint**: "But it's useless unless you have..." (Text looped). Likely implies need for 2nd password or Boss interactions.
-- **Plan**: Head to B2F Boss Door immediately.
-- **Murkrow**: Likely irrelevant now that I have the password.
-- **Path**: Exit computer area via Col 19 gap, then to stairs at (27, 14).
-- **Oath Text**: "Exploit POKéMON for profit!" (Both machines).
+- **Status**: Password "SLOWPOKETAIL" failed on B2F Boss Door.
+- **Requirement**: "Useless unless you have..." likely means the Boss's Voice (Murkrow).
+- **Murkrow**: Found at (3, 12) and (28, 9) but acts as a "Ghost" (non-interactive).
+- **Current Goal**: Find the switch to make Murkrow solid/catchable.
+- **Target**: Persian Statues at (12, 1).
+- **Oath Text**: "Exploit POKéMON for profit!" / "For the glory of TEAM ROCKET!".
 
 ## Exploration Log (Map 3_51)
 - **Tile Mechanics**:
