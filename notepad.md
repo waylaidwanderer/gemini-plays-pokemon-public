@@ -72,3 +72,4 @@
   3. Re-investigate West Wing access points.
 
 - **Current Hypothesis**: Murkrow location cycles between NE (28,9) and West (3,12). Interaction physics unclear.
+- (15, 10): Checking potential Shutter/Door.
