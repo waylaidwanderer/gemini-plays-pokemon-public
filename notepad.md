@@ -13,7 +13,7 @@
 ## Status
 - **Location**: B2F NE Room (20, 11).
 - **Checked**: Row 6 (All), Row 10 (20-22, 24-25).
-- **Missed**: (23, 10) - Blocked by Ross. Trying from behind.
+- **Missed**: (23, 10) - Blocked by Ross. Uncheckable from behind.
 - **Key Item/Flag**: Obtained "Raticate Tail" password from Grunt at (5, 14).
 - **Murkrow**: Disappeared from (8, 12). Likely in NW corner.
 - **Boss Door**: B2F (23, 14). Requires 2 passwords.
