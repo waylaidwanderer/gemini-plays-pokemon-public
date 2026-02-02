@@ -133,3 +133,6 @@
 - Grunt at (4, 1). Marker says "Defeated".
 - Investigating this room for Shutter Switch.
 - Must check walls and corners.
+- Discovered: B1F Row 1 is a continuous corridor running East-West.
+- The Grunt at (4, 1) was just standing in the way, but I can walk around him via (5, 2).
+- Plan: Follow this corridor East. It likely leads to the Shutter Switch or behind the locked shutter.
