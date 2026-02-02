@@ -65,8 +65,10 @@
 - (20-28, 16): Checked (Empty).
 - Hypothesis: Murkrow might be trapped behind the shutter in the NW area. To get it, I must find the switch first.
 - Hypothesis: Check the Statues/machines at (12, 1) again?
-- **Tool Status**: `bfs_navigate` is unreliable. Needs debugging.
-- **Pathing**: Moving to East Wing via Row 16 -> Row 12 to bypass Scientist at (11, 15).
-- **Observation**: `bfs_navigate` failed to find a path from (25, 16) to (23, 12) despite a clear path existing via Row 16. Possible XML parsing issue or type mismatch.
-- **Strategy**: Manual navigation to bypass Grunt at (24, 14) via Row 16.
+- **Tool Status**: `bfs_navigate` confirmed unreliable in this area (Turn 24369-24372). Using manual pathing.
+- **Search Plan**:
+  1. Re-check NE Computers (Row 6).
+  2. Check Statues/Machines at Row 1 (Cols 12-13).
+  3. Re-investigate West Wing access points.
+
 - **Current Hypothesis**: Murkrow location cycles between NE (28,9) and West (3,12). Interaction physics unclear.
