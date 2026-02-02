@@ -12,18 +12,12 @@
   - **Locked Shutters**: B1F (14, 11). Block access between North and South central areas.
   - **Murkrow**: Currently a "Ghost". Need to solve the puzzle (Switch?) to make it interactive.
 - **Passwords Known**: "Hail Giovanni" (B1F Computer), "SLOWPOKETAIL" (B1F Grunt).
-- **Boss Door**: B2F (23, 14). Requires 2 passwords + Boss's Voice (Murkrow).
-
-## Map Data (B1F)
-- **North Corridor (Row 1)**: Connects East Stairs (27, 2) to West. Contains Persian Statues (12, 1).
-- **Central Room (South)**: Where I am now. Contains Scientist Mitch (11, 15). Accessed via gap at (15, 12).
-- **West Wing**: Isolated. Accessed via B2F West Corridor.
-- **East Wing**: Explored. Oath Machines.
-
-## Action Plan
-1. **Search Central Room for Switches**: Systematically checking Row 11 computers.
-2. **Go to Persian Statues**: If no switch here, re-examine B2F/B1F connectivity for hidden paths to Row 1.
-3. **Find Shutter Switch**: Open the path to the North.
+- **Boss Door**: Confirmed locked. "Hail Giovanni" failed. Need Murkrow's voice.
+- **Plan**: 
+  1. Return to B1F.
+  2. Re-examine Scientist Mitch (B1F 11,15). Ensure he is defeated/checked.
+  3. Re-examine Walls at B1F Col 15 and Col 6.
+  4. Find the switch for the Shutter or Murkrow.
 
 ## Exploration Status
 - **Computers (Row 11)**: Checked cols 8-13 (Empty).
