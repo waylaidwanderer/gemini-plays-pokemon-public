@@ -47,3 +47,4 @@
 - (15, 10): Wall/Shutter (Solid).
 - (16, 0): Checked (Wall/Terminal?).
 - (18, 12-13): Wall (Solid). Passage to East Wing at Row 14.
+- (27, 14): Stairs to B2F (Confirmed).
