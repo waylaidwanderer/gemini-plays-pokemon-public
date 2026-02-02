@@ -10,7 +10,7 @@
 
 ## Exploration Log (Map 3_51)
 - **Tile Mechanics**:
-  - `TYPE_1fdc`: Walkable (Carpet/Oath/Interactable).
+  - `TYPE_1fdc`: Solid (Machine/Oath?).
   - `TYPE_2889`/`TYPE_63e2`: Solid (Walls/Desks/Plants).
   - `TYPE_3fe2`: Walkable Floor.
   - **Barriers**:
