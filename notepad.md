@@ -10,13 +10,14 @@
 - **Current Route**: In Central Area.
 
 ## Status
-- **Location**: B2F Central Area (8, 12).
+- **Location**: B2F Central Area (6, 14).
 - **Silver**: Last seen at (8, 10). ran NW.
-- **Murkrow**: Disappeared from (8, 12). Currently searching.
+- **Murkrow**: Disappeared from (8, 12).
+- **Current Action**: Battling Grunt at (5, 14) who specifically mentioned "The password to the boss's room...".
 - **Boss Door**: B2F (23, 14). Locked.
 
 ## Exploration Plan
-1. Interact with Grunt at (9, 12).
-2. Search nearby for Murkrow.
-3. Chase/Interact with Murkrow to get password.
+1. Defeat Grunt at (5, 14).
+2. Interrogate Grunt for password.
+3. Search nearby for Murkrow if needed.
 4. Open Boss Door.
