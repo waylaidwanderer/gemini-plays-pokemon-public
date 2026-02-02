@@ -162,8 +162,7 @@
 - Access to Silver (Zone 2 North) is blocked by walls at Column 6 (West Side).
 - Confirmed: Column 6 is a solid wall from Row 1 downwards.
 - Route Correction: Must access Silver from the Central/East side.
-- Currently on B1F (3_50) at (3, 2).
+- Currently on B1F (3_50) at (12, 1).
 - Action: Traversing B1F Corridor Eastbound to Stairs (27, 2).
-- Path: (3, 2) -> (5, 2) -> (5, 1) -> East to (27, 1) -> (27, 2).
-- Bypassing Grunt at (4, 1) via Row 2.
-- Goal: Return to B2F East Room to reach Central Area.
+- Goal: Return to B2F East Room, then navigate South to (18, 14) to cross into Central Area.
+- Ultimate Goal: Find Shutter Switch and Confront Silver (Mid-West Area).
