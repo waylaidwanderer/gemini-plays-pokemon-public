@@ -5,7 +5,7 @@
 - Open Boss Door on B2F (requires Murkrow).
 
 ## Status
-- **Location**: B1F Secret Room (Map 3_51).
+- **Location**: B1F Main Area (Map 3_51).
 - **Passwords**: "Hail Giovanni", "SLOWPOKETAIL".
 - **Plan**: Chase Murkrow from (28, 9) and obtain the password. Locate Shutter Switch if path is blocked.
 
