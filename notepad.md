@@ -11,13 +11,9 @@
 - **Correct Path**: Loop East to Col 28, go South to Row 12, then West into room.
 
 ## Status
-- **Location**: B1F NE Corner (27, 2).
-- **Map Info**: Map 3_51 is B2F. Map 3_50 is B1F.
-- **Goal**: Reach NW Stairs at (3, 2) via Northern Hidden Corridor.
-- **Checked**: B2F NE Room Computers (No switch found).
-- **Missed**: (23, 10) - Blocked by Ross.
-- **Key Item/Flag**: Obtained "Raticate Tail" password from Grunt at (5, 14).
-- **Murkrow**: Likely in B2F NW corner (Access via B1F NW stairs).
+- **Location**: B2F NW Corner (3, 2).
+- **Goal**: Interact with Silver (7, 2) / Murkrow (8, 3).
+- **Obstacle**: Separated by wall at x=6? Investigating.
 - **Boss Door**: B2F (23, 14). Requires 2 passwords.
 
 ## Exploration Plan
