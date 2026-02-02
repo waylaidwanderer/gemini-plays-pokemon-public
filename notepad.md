@@ -11,11 +11,9 @@
 - **Correct Path**: Loop East to Col 28, go South to Row 12, then West into room.
 
 ## Status
-- **Location**: B2F SW Area (12, 15).
-- **Goal**: Find Shutter Switch in SW Room.
-- **Mitch**: Defeated previously. Just flavor text now.
+- **Location**: B2F Central Aisle (11, 12).
+- **Goal**: Find Shutter Switch (Systematic Sweep).
+- **Plan**: Check Row 13 Fronts (from Row 14), then Row 11 Backs (from Row 10).
+- **Checked**: Row 17 (5-12), Row 13 (1-4 Front, 9-11 Back), Row 11 (9-11 Front).
+- **Traps**: Cols 1-3 (Reset to 5,16).
 - **Murkrow**: Locked behind shutters.
-- **Boss Door**: Needs 2 passwords.
-- **Trap Warning**: Trap tiles likely present in SW Room (Cols 1-3 reset player to 5,16).
-- **Plan**: Try navigating to Row 12 via Col 8 (East side).
-- **Checked**: Row 17 (5-12), Row 13 (1-4, Front).
