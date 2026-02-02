@@ -20,8 +20,8 @@
 - (2, 11): Blocked by plant.
 - (2, 12): Plant (Solid/No Interaction).
 - (12, 11): Checked (Empty).
-- Plan: Move North along Col 16 to find gap in wall at Col 15.
-- Target: Access West Side (Col 0-14) to check computers at (2, 11) through (12, 11).
+- (15, 0-1): Solid Wall confirmed. No North path.
+- Target: Return to Row 12, go West, and check computers at (11, 11) down to (4, 11).
 - (1, 11): Checked (Empty).
 - (24, 14): Grunt (Defeated/Passive) - "The guy in the cape..."
 - (15, 10): Inspected (Solid/No Interaction).
