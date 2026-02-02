@@ -11,8 +11,8 @@
 - **Current Goal**: Find the switch to make Murkrow solid/catchable.
 - **Target**: Persian Statues at (12, 1).
 - **Oath Text**: "Exploit POKéMON for profit!" (Confirmed).
-- **Current Action**: Moving East via Row 12 to reach Main Corridor.
-- **Target**: Persian Statues at (12, 1).
+- **Current Action**: Exploring SW Room (Row 14).
+- **Target**: Oath Machine at (5, 13) and Desks at Row 11.
 - **Hypothesis**: Hidden switch on statues.
 - **Murkrow**: Still need to solve the Ghost issue.
 - **Status**: Passwords obtained but insufficient. Need Boss's Voice.
