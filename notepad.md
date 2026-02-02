@@ -165,4 +165,5 @@
 - Current Strategy: Investigating Persian Statues at (12, 1) in the B2F NW Corridor.
 - Route: East Room (South) -> Gap (17, 4) -> East Room (North) -> Stairs (27, 2).
 - Currently performing U-turn around the internal wall at Row 4.
+- Confirmed: Column 27 is a solid wall, preventing access to Stairs from the East. Must use Gap at (17, 4).
 - Next: Return to B1F via East Stairs (27, 2) -> Cross B1F to West Stairs (3, 2).
