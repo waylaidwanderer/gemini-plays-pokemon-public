@@ -13,11 +13,9 @@
 - **Correct Path**: Loop East to Col 28, go South to Row 12, then West into room.
 
 ## Status
-- **Location**: B2F Central Area (14, 13).
-- **Goal**: Find Shutter Switch (Systematic Sweep).
-- **Plan**: Attempt to access Row 14 (South of computers). If blocked, assume Row 14 is chairs/solid.
-- **Checked**: Row 17, Row 13, Row 11, Row 10 (NE Room). Row 6 (22-25).
-- **Checking**: NE Room. Specific checks: (23, 10) from North, (20, 6) from South.
-- **Next**: If no switch, consider checking other unchecked spots or moving to NW Room.
-- **Traps**: Cols 1-3 (Reset to 5,16).
+- **Location**: B2F Central Area (23, 12).
+- **Goal**: Check computer at (23, 10) from North.
+- **Checked**: Rows 6 (22-25), 10 (partial), 11, 13, 17.
+- **To Check**: (23, 10), (20, 6).
+- **Traps**: Cols 1-3 (Reset to 5,16). (21, 9) (Warp).
 - **Murkrow**: Locked behind shutters.
