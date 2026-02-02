@@ -50,3 +50,4 @@
 - (27, 14): Stairs to B2F (Confirmed).
 - (28, 16): Checked (Empty).
 - (20-28, 16): Checked (Empty).
+- Hypothesis: Murkrow might be trapped behind the shutter in the NW area. To get it, I must find the switch first.
