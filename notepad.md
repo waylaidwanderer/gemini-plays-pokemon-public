@@ -13,7 +13,8 @@
 - **Correct Path**: Loop East to Col 28, go South to Row 12, then West into room.
 
 ## Status
-- **Location**: B1F Southeast (27, 14).
-- **Goal**: Flank Murkrow via B1F NE Stairs (27, 2).
-- **Path**: North to (27, 2) -> Down to B2F -> West to Murkrow.
-- **Reason**: B2F blocked by shutters. Flanking from North is the only way.
+- **Location**: B1F East (27, 11).
+- **Goal**: Reach B1F NE Stairs (27, 2).
+- **Path**: Navigate around wall at (27, 10).
+- **Reason**: Flanking Murkrow from the North (B2F NE).
+- **Correction**: Excluded TYPE_2889 (Wall) from walkable types.
