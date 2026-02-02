@@ -143,3 +143,6 @@
 - Moving to Central Area (Cols 8-15) to interact with Scientist Mitch (11, 15).
 - Goal: Get info/key from Mitch or find Shutter Switch nearby.
 - Shutter is at (14, 11).
+- Scientist Mitch Dialogue: "If we turn up the power of our radio..." (Likely explaining the Lake of Rage signal).
+- Anticipating Battle with Scientist Mitch.
+- Objective: Defeat him to hopefully unlock the shutter or get information.
