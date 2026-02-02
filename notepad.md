@@ -83,9 +83,8 @@
 - **Plan**: Exploring area behind computers (Rows 7-9).
 - **Oath Text**: "Exploit POKéMON for profit!" (Both machines).
 - **Murkrow Anomaly**: Murkrow at (3, 12) is non-solid/non-interactive (Ghost).
-- **Silver Dialogue**: "password. Too bad for you." (Implies I'm missing something, likely the Voice).
-- **Murkrow**: Essential. "Useless unless you have..." = Boss's Voice.
-- **Plan**: Return to B1F. Find Murkrow.
-  - Last seen locations: (3, 12), (28, 9).
-  - Note: Previous "Ghost" behavior might be me missing the trigger or it fleeing.
-- **Goal**: Corner the Murkrow.
+- **Objective**: Solve Murkrow Puzzle.
+- **Status**: Password "SLOWPOKETAIL" failed without Murkrow.
+- **Hypothesis**: Must catch/interact with Murkrow to get "Boss's Voice".
+- **Plan**: Checking NE Spawn (28, 9) first. Then West Spawn (3, 12).
+- **Previous Issues**: "Ghost" Murkrow. Non-solid. Maybe fixed now?
