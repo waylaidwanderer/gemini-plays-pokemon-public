@@ -29,7 +29,10 @@
 - (1, 11): Checked (Empty).
 - (23, 11): Standing on/near Scientist Ross.
 - (20, 10): Checked (Empty).
-- Target: Check computers at (21, 10) and (22, 10). Then bypass Ross to check (24, 10) and (25, 10).
+- (25, 10): Checked (Empty).
+- (24, 10): Checked (Empty).
+- Target: Re-evaluate strategy. All known accessible computers checked.
+- Suspect: Hidden switch in a seemingly solid object, or the inaccessible area behind Row 11 is key.
 - (15, 16): Inspected (Solid/No Interaction) - Confirmed Shutter/Wall.
 - (15, 11): Suspected Shutter/Wall (Type 63e2).
 - (14, 11): Locked Shutter.
