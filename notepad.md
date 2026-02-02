@@ -16,5 +16,5 @@
 - **Mitch**: Defeated previously. Just flavor text now.
 - **Murkrow**: Locked behind shutters.
 - **Boss Door**: Needs 2 passwords.
-- **Plan**: Finish checking Row 13 (5-7). Then check from behind (Row 12).
-- **Checked**: Row 17 (5-12), Row 13 (1-4).
+- **Plan**: Navigate to (4, 12) via Row 11 to bypass trees. Check machines (4-7) from the back.
+- **Checked**: Row 17 (5-12), Row 13 (1-4, Front).
