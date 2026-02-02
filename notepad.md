@@ -107,7 +107,8 @@
 - **Current Position**: (9, 1). Moving West.
 - **Goal**: Reach the end of this secret passage.
 - **Hypothesis**: This corridor likely leads to the NW corner of B2F, possibly bypassing the shutter or containing the switch.
-- **Encounter**: Battling Rocket Grunt at (4, 1).
-- **Opponent**: Rattata Lv17.
-- **Action**: Using Garnet to clear quickly.
-- **Goal**: Win battle and check behind him.
+- **Discovery**: (3, 2) on B2F is TYPE_8564 (Stairs).
+- **Hypothesis**: These stairs connect to the NW corner of B1F (approx 3, 2), bypassing the Locked Shutter.
+- **Plan**: Finish battle, take stairs at (3, 2) B2F.
+- **Goal**: Reach Persian Statues at (12, 1) B1F from the West.
+- **Battle Status**: Rattata fainted. Expecting more Pokemon or end of battle.
