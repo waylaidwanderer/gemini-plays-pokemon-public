@@ -10,9 +10,9 @@
   - SE Area: Cleared.
   - NE Area: Cleared.
   - West Strip (Col 1): Cleared (Empty).
-  - West Wing Main: checking now.
-  - West Strip (Col 1): Cleared (Empty).
+  - West Wing Main: Cleared (Rows 11-16).
   - Oath Machines: Checked (Text only).
+- **Murkrow**: Found at (28, 9), fled. Not in West Wing. Heading to NE Area.
 - **Hypothesis**: Murkrow is the key. Follow the bird.
 - **Pathing**: Moving West via Row 15/16 to bypass obstacles.
 - **Barriers**:
