@@ -162,3 +162,4 @@
 - Current Strategy: Re-verifying computers in SW Room (Rows 11-13).
 - Checking (10, 11), (9, 11), (8, 11) and Oath Machine at (7, 13).
 - Next: Check Machine behind Mitch at (11, 14) and East Room Computers.
+- Note: (11, 11) checked. Moving left to check the rest.
