@@ -108,7 +108,7 @@
 - **Goal**: Reach the end of this secret passage.
 - **Hypothesis**: This corridor likely leads to the NW corner of B2F, possibly bypassing the shutter or containing the switch.
 - **Battle Status**: Grunt defeated.
-- **Dialogue**: Grunt confirms Silver ("mean-looking kid") wiped him out too.
+- **Dialogue**: Grunt mentions "abducting POKéMON" and getting wiped out by the red-haired kid (Silver).
 - **Action**: Moving to Stairs at (3, 2).
 - **Hypothesis**: Stairs lead to the sealed NW area of B1F (behind Shutter).
 - **Goal**: Find the switch on the Persian Statues or elsewhere in that room.
