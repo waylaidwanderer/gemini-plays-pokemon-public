@@ -7,7 +7,7 @@
 ## Critical Navigation Notes
 - **WEST WALL IS SOLID**: The wall at x=6 on B2F is solid.
 - **NE ROOM ACCESS**: Access via South entrance at Row 12 (Cols 19-26).
-- **NE ROOM BARRIER**: Row 4 is solid. Col 27 is solid/shuttered.
+- **NE ROOM BARRIER**: Row 4 is walkable. Switch found at approx (23, 3).
 - **Correct Path**: Loop East to Col 28, go South to Row 12, then West into room.
 
 ## Status
