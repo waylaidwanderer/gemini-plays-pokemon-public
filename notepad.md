@@ -5,13 +5,12 @@
 - Open Boss Door on B2F (requires Murkrow).
 
 ## Status
-- **Murkrow**: Found at (28, 9), fled. Not in West Strip (Col 1). Searching Main West Wing.
+- **Murkrow Status**: Current Hypothesis is that location cycles between NE (28,9) and West (3,12). Interaction physics unclear (Ghost Bird?).
 - **Switch Hunt**:
   - SE Area: Cleared.
   - NE Area: Cleared.
-  - West Wing: Checked Cols 1 & 3 (Empty). Oath Area text only.
-- **Murkrow**: Found again at (28, 9). Interacting.
-- **Hypothesis**: Murkrow is the key. Follow the bird.
+  - West Wing: Cleared.
+
 - **Pathing**: Moving West via Row 15/16 to bypass obstacles.
 - **Barriers**:
   - Shutter at (14, 11) - Locked.
