@@ -163,6 +163,7 @@
 - Confirmed: North West Area is sealed by Shutter at (14, 11).
 - Goal: Find Shutter Switch to open (14, 11).
 - Current Strategy: Checking Computers (16, 10) and (17, 10).
-- Checked (Row 10 East): (20, 10), (21, 10), (22, 10), (24, 10), (25, 10). All Empty.
+- Checked (Row 10 East): (20-22, 10), (24-25, 10). All Empty.
 - Scientist Ross (23, 11) blocks (23, 10).
-- Previous checks: SW Room Computers (Rows 11) - All Empty.
+- Previous checks: SW Room Computers (Row 11), Machines (Row 13-14), Wall behind Mitch. All Empty.
+- Hypothesis: If all computers fail, the key might be the Persian Statues (12, 1) accessible via B1F Loop.
