@@ -13,8 +13,8 @@
 - **Correct Path**: Loop East to Col 28, go South to Row 12, then West into room.
 
 ## Status
-- **Location**: B2F Southeast (25, 14).
+- **Location**: B2F Central Room (22, 13).
 - **Goal**: Reach Murkrow at (8, 3).
-- **Plan**: Bypass Grunt at (24, 14) via Row 15 -> Check Shutter at (14, 11).
-- **Path**: Down to (25, 15) -> West to (22, 15) -> North to (22, 13) -> West to Shutter.
-- **Hypothesis**: Shutter at (14, 11) is Open (Switch at 23, 3 was hit).
+- **Plan**: Move West to Shutter at (14, 11).
+- **Hypothesis**: Shutter is OPEN (Switch at 23, 3 triggered).
+- **Path**: West along Row 13/12 to (14, 12).
