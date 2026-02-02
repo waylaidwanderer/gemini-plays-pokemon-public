@@ -17,9 +17,10 @@
 - **Murkrow**: Found as ghost on B1F and B2F? Need to find the real one.
 
 ## Exploration Plan
-1. Systematically check all computers in the NE B1F room (current location).
-2. If switch found, proceed to B2F Boss Door.
-3. If not, check Grunt at B2F (25, 13) or other computers.
+1. Check computers at (25,8) and (24,8) from the south (Row 9).
+2. If switch found, head to B2F Boss Door.
+3. If not, check Grunt at B2F (25, 13).
+4. Goal: Find switch for Shutters/Statues or Murkrow location.
 
 ## Important Coordinates
 - **Scientist Mitch**: B1F (11, 15)
