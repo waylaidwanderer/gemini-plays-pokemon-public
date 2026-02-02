@@ -14,7 +14,7 @@
 
 ## Status
 - **Location**: B2F Northeast (28, 2).
-- **Goal**: Reach Murkrow at (8, 3).
-- **Path**: West along Row 2 to (9, 2).
-- **Reason**: Flanking via North Corridor. Attempting to bypass potential ledge at (18, 3) by staying on Row 2.
-- **Hypothesis**: Row 2 might be clear of the ledge.
+- **Goal**: Reach Murkrow via SW Stairs (3, 6).
+- **Plan**: Warp UP to B1F (27, 2) -> Navigate to SW Stairs (3, 6) -> Warp DOWN -> Go North through Shutter (14, 11).
+- **Reason**: Murkrow is West of x=18. East side (B2F) is isolated by ledge/wall. Stairs (27, 2) block Northern crossing on B2F.
+- **Switch**: Confirmed hit at (23, 3). Shutter at (14, 11) should be open.
