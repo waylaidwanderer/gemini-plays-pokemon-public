@@ -107,8 +107,8 @@
 - **Current Position**: (9, 1). Moving West.
 - **Goal**: Reach the end of this secret passage.
 - **Hypothesis**: This corridor likely leads to the NW corner of B2F, possibly bypassing the shutter or containing the switch.
-- **Discovery**: (3, 2) on B2F is TYPE_8564 (Stairs).
-- **Hypothesis**: These stairs connect to the NW corner of B1F (approx 3, 2), bypassing the Locked Shutter.
-- **Plan**: Finish battle, take stairs at (3, 2) B2F.
-- **Goal**: Reach Persian Statues at (12, 1) B1F from the West.
-- **Battle Status**: Rattata fainted. Expecting more Pokemon or end of battle.
+- **Battle Status**: Rattata fainted. Grunt sending out next Pokemon.
+- **Plan**: Finish battle (No switching).
+- **Navigation**: After battle, move Down to Row 2, then West to Stairs at (3, 2).
+- **Discovery**: Stairs at (3, 2) likely bypass the Locked Shutter on B1F.
+- **Hypothesis**: The switch/key is in the NW B1F area.
