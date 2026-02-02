@@ -11,15 +11,13 @@
 - **Correct Path**: Loop East to Col 28, go South to Row 12, then West into room.
 
 ## Status
-- **Location**: B1F NW Corner (3, 2).
-- **Goal**: Return to B2F NE Stairs via Hidden Corridor, then find path West to Silver.
-- **Silver/Murkrow**: Spotted at B2F (7, 2) / (8, 3). Accessible from Central Area.
+- **Location**: B2F SW Area (13, 13).
+- **Goal**: Search SW Room for Switch to open Shutters (Row 11).
+- **Obstacles**: Shutters at Row 11 block access to Murkrow (North).
+- **Murkrow**: Located at (8, 3), behind the shutters.
 - **Boss Door**: B2F (23, 14). Requires 2 passwords.
 
 ## Exploration Plan
-1. Take stairs at (27, 14) UP to B1F.
-2. Navigate to Northwest Stairs at B1F (3, 2).
-3. Take stairs DOWN to B2F Northwest Corner.
-4. Find Murkrow.
-5. Get Password/Voice.
-6. Open Boss Door at B2F (23, 14).
+1. Search SW Room (Mitch, Grunts, Computers).
+2. If switch found, open Shutters.
+3. Catch Murkrow.
