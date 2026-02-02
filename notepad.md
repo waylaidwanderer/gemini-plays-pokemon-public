@@ -11,10 +11,11 @@
 - **Current Goal**: Find the switch to make Murkrow solid/catchable.
 - **Target**: Persian Statues at (12, 1).
 - **Oath Text**: "Exploit POKéMON for profit!" (Confirmed).
-- **Grunt Interaction**: Grunt at (5, 14) repeats "Raticate Tail". No new info.
-- **Machine (5, 13)**: Inaccessible due to Grunt and surrounding objects.
-- **Action**: Moving to Row 12 (via Col 8) to check desks at Row 11.
-- **Hypothesis**: Hidden switch is on one of the desks in the SW room (Row 11).
+- **Action**: Sweeping Desks at Row 11 (South Side).
+- **Target**: (8, 11), (9, 11), (10, 11), (11, 11), (12, 11).
+- **Hypothesis**: Hidden switch is on one of these desks.
+- **Previous**: Machines (5, 13) inaccessible. Grunt unhelpful.
+- **Murkrow**: Still ghosted. Switch likely fixes this.
 - **Hypothesis**: Hidden switch on statues.
 - **Murkrow**: Still need to solve the Ghost issue.
 - **Status**: Passwords obtained but insufficient. Need Boss's Voice.
