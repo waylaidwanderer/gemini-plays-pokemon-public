@@ -128,3 +128,8 @@
 - North Part (where I want to be): Contains Stairs at (3, 2) and a Grunt.
 - Conclusion: Path to North Part is NOT from here. Must return to B2F and find the path to the stairs at (3, 2) from below (likely via the Secret Corridor on B2F Row 1).
 - Action: Returning to B2F via Stairs at (3, 6).
+- On B2F (3_51) West Corridor.
+- This corridor connects Stairs at (3, 6) (South) to Stairs at (3, 2) (North).
+- This is the "Bridge" past the wall on B1F.
+- Taking Stairs at (3, 2) should lead to the isolated NW corner of B1F where the Grunt is.
+- Action: Heading North to Stairs at (3, 2).
