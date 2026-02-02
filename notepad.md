@@ -19,6 +19,7 @@
   - Row 10 (South): All (20-25).
   - Row 6 (North): All (20-25).
     - Note: (21, 6) blocked by Grunt, checked from back.
+  - Row 0 (North Wall): (21, 0) - Nothing. Checking others.
 
 ## Key Locations (Map 3_51)
 - **Shutter**: (14, 11) - Locked.
