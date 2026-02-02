@@ -22,7 +22,9 @@
 - **Checked Computers**:
   - Row 11: Cols 1, 8, 9, 10, 11, 12, 13.
   - East Wing & North Wall: Clear.
-- **Target Range**: Check computers at (7, 11) down to (4, 11).
+- (4-7, 11): Inaccessible (Blocked by chairs at Row 12).
+- Target: Check large desk at (9-11, 13) from South side.
+- Target: Re-check Oath posters (Row 13) for switches.
 - (15, 11): Suspected Shutter/Wall (Type 63e2).
 - (14, 11): Locked Shutter.
 - (15, 16): Suspected Shutter.
