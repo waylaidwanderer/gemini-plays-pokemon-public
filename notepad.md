@@ -24,8 +24,9 @@
   - East Wing & North Wall: Clear.
 - (4-7, 11): Inaccessible (Blocked by chairs at Row 12).
 - Target: Check large desk at (9-11, 13) from South side.
-- (7, 13): Team Rocket Oath.
-- Target: Check Oath posters at (6, 13) and (4, 13).
+- (7, 13): Checked (Team Rocket Oath).
+- Target: Check Oath poster at (6, 13).
+- Target: Check Oath poster at (4, 13). Note: Must go around Grunt at (5, 14) via Row 15.
 - (15, 11): Suspected Shutter/Wall (Type 63e2).
 - (14, 11): Locked Shutter.
 - (15, 16): Suspected Shutter.
