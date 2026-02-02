@@ -28,7 +28,8 @@
 - (2, 12): Plant (Solid/No Interaction) - Checked West side.
 - (1, 11): Checked (Empty).
 - (23, 11): Standing on/near Scientist Ross.
-- Target: Check computers along Row 10 (East Wing).
+- (20, 10): Checked (Empty).
+- Target: Check computers at (21, 10) and (22, 10). Then bypass Ross to check (24, 10) and (25, 10).
 - (15, 16): Inspected (Solid/No Interaction) - Confirmed Shutter/Wall.
 - (15, 11): Suspected Shutter/Wall (Type 63e2).
 - (14, 11): Locked Shutter.
