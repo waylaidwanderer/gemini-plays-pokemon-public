@@ -107,8 +107,8 @@
 - **Current Position**: (9, 1). Moving West.
 - **Goal**: Reach the end of this secret passage.
 - **Hypothesis**: This corridor likely leads to the NW corner of B2F, possibly bypassing the shutter or containing the switch.
-- **Analysis**: Path North from (7, 10) is blocked by Wall at Row 9.
-- **Analysis**: East Room (Scientist/Statues) is sealed by walls on West/South/North and Shutter on SE.
-- **Hypothesis**: Access is via the SECOND set of stairs at (3, 6).
-- **Plan**: Backtrack to West Corridor. Take Stairs at (3, 6).
-- **Expectation**: Leads to B2F, then another stair up to the sealed room.
+- **Location**: Arrived at B2F (3, 6) via stairs from B1F.
+- **Connection**: Stairs at (3, 6) B1F <-> (3, 6) B2F.
+- **Exploration**: Moving South to check Item at (3, 10).
+- **Observation**: Patrolling sprite (SPRITE_7afb) seen around Col 7.
+- **Goal**: Find stairs leading UP to the sealed NW room of B1F.
