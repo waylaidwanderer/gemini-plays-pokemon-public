@@ -162,13 +162,9 @@
 - Access to Silver (Zone 2 North) is blocked by walls at Column 6 (West Side).
 - Confirmed: Column 6 is a solid wall from Row 1 downwards.
 - Route Correction: Must access Silver from the Central/East side.
-- Access to Silver (Zone 2 North) is blocked by walls (Col 6, Col 15) and Shutter (Row 11).
-- Confirmed: North West Area is sealed by Shutter at (14, 11).
-- Goal: Find Shutter Switch to open (14, 11).
-- Route:
-  1. Traverse B1F Corridor West from (27, 2) to (3, 2). (Done)
-  2. Descend to B2F West Corridor via Stairs (3, 2). (Done)
-  3. Go South to Stairs (3, 6). (Executing)
-  4. Ascend to B1F South Wing (Trap Tile).
-- Current Action: Moving South to Stairs at (3, 6).
-- Observation: Silver (7, 2) and Murkrow (8, 3) are visible but walled off at Col 6.
+- Currently in B1F South West Wing (Map 3_50).
+- Re-investigating this room for secret switches or hidden paths.
+- Wall at Column 6 seems to block access to the "Trap Room" (Geodude Statues) at Column 7.
+- Plan: Inspect Wall at (6, 6) and (6, 5). Check tile (5, 6) for interaction.
+- If this fails, this room is likely just an Item Room (item already taken).
+- Next Step: Return to B1F Main Corridor (Row 1) and scan walls there.
