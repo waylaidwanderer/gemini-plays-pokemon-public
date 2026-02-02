@@ -7,7 +7,7 @@
 ## Status
 - **Location**: B1F Main Area (Map 3_51).
 - **Strategy**: Tracking Murkrow.
-- **Murkrow**: Displaced from (28, 8). Searching for next location (likely West/North).
+- **Murkrow**: Displaced from (28, 8). Not in East Strip (Rows 4-12). Checking Main NE Room.
 
 ## Exploration Log (Map 3_51)
 - **Tile Mechanics**:
