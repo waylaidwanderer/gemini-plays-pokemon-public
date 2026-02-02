@@ -21,10 +21,13 @@
 - **East Wing**: Explored. Oath Machines.
 
 ## Action Plan
-1. **Defeat Scientist Mitch**: He is at (11, 15). He might have the switch or info.
-2. **Explore Central Room**: Check for items/switches.
-3. **Go to Persian Statues**: If no switch here, backtrack to Stairs (27, 2) -> Row 1 West -> Interact with Statues at (12, 1).
-4. **Find Shutter Switch**: Open the path to the North.
+1. **Search Central Room for Switches**: Systematically checking Row 11 computers.
+2. **Go to Persian Statues**: If no switch here, re-examine B2F/B1F connectivity for hidden paths to Row 1.
+3. **Find Shutter Switch**: Open the path to the North.
+
+## Exploration Status
+- **Computers (Row 11)**: Checked cols 8-13 (Empty). Checking 4-7 now.
+- **Scientist Mitch**: Defeated/Neutral (Looping dialogue).
 
 ## Important Coordinates
 - **Scientist Mitch**: (11, 15)
