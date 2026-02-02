@@ -16,5 +16,5 @@
 - **Findings**:
   - Row 13 (Cols 4-7): Team Rocket Oath.
   - (3, 13): Hidden Item (X Special). **Action**: Toss item to pickup.
-  - (3, 12): Scientist (Blocked by hidden item).
+  - (3, 12): Scientist (Engaging in battle).
   - (14, 11): Locked Shutter.
