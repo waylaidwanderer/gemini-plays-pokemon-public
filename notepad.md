@@ -25,7 +25,7 @@
 - **Findings**:
   - Items: X Special (3, 13), Protein (1, 12).
   - Oath Carpet: Row 13 (Cols 4-7).
-- Target: South-East Area (Row 14+, Col 20+). Murkrow likely fled there.
+- Target: NE Area (Murkrow Search). SE Computers (Re-verify).
 - Suspect: Hidden switch might be in the SE area or on a computer I missed in the East.
 - (15, 16): Inspected (Solid/No Interaction) - Confirmed Shutter/Wall.
 - (15, 11): Suspected Shutter/Wall (Type 63e2).
