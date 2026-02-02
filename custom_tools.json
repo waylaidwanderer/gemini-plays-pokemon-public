@@ -26,7 +26,7 @@
     ]
   },
   "bfs_navigate": {
-    "description": "Navigates to a target coordinate using BFS. You MUST provide the list of valid walkable tile TYPE IDs for the current map. Returns an empty list [] if no path is found.",
+    "description": "Navigates to a target coordinate using BFS. You MUST provide the list of valid walkable tile TYPE IDs for the current map. If the target is not walkable, it attempts to navigate to the nearest adjacent walkable tile. Returns an empty list [] if no path is found.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -41,20 +41,15 @@
           "items": {
             "type": "string"
           }
-        },
-        "autopress_buttons": {
-          "type": "boolean",
-          "default": false
         }
       },
       "required": [
         "target_x",
         "target_y",
-        "walkable_types",
-        "autopress_buttons"
+        "walkable_types"
       ]
     },
-    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\nimport json\nimport sys\n\ndef bfs_navigate(map_xml_string, target_x, target_y, walkable_types):\n    try:\n        root = ET.fromstring(map_xml_string)\n        \n        # Parse map to find player and build grid\n        player_pos = None\n        grid = {}\n        \n        for row in root.findall('Row'):\n            y = int(row.get('id'))\n            for tile in row.findall('Tile'):\n                x = int(tile.get('id'))\n                tile_type = tile.get('type')\n                grid[(x, y)] = tile_type\n                \n                # Check for player\n                if tile.find('Player') is not None:\n                    player_pos = (x, y)\n        \n        if player_pos is None:\n            return []\n            \n        start_x, start_y = player_pos\n        \n        if (target_x, target_y) not in grid:\n             return []\n\n        # BFS\n        queue = deque([(start_x, start_y, [])])\n        visited = set([(start_x, start_y)])\n        \n        directions = [\n            (0, -1, 'Up'),\n            (0, 1, 'Down'),\n            (-1, 0, 'Left'),\n            (1, 0, 'Right')\n        ]\n        \n        while queue:\n            curr_x, curr_y, path = queue.popleft()\n            \n            if curr_x == target_x and curr_y == target_y:\n                return path\n            \n            for dx, dy, move in directions:\n                next_x, next_y = curr_x + dx, curr_y + dy\n                \n                if (next_x, next_y) in grid and (next_x, next_y) not in visited:\n                    tile_type = grid[(next_x, next_y)]\n                    \n                    if tile_type in walkable_types:\n                        visited.add((next_x, next_y))\n                        queue.append((next_x, next_y, path + [move]))\n                        \n        return []\n\n    except Exception:\n        return []\n\n# Execution Logic\nif __name__ == \"__main__\":\n    try:\n        # 1. Try standard globals injection\n        t_x = globals().get('target_x')\n        t_y = globals().get('target_y')\n        w_types = globals().get('walkable_types')\n        m_xml = globals().get('map_xml_string')\n\n        # 2. Try looking inside a tool_args dict if individual globals fail\n        if t_x is None and 'tool_args' in globals():\n            args = globals()['tool_args']\n            t_x = args.get('target_x')\n            t_y = args.get('target_y')\n            w_types = args.get('walkable_types')\n            \n        # 3. Validation\n        if t_x is None or t_y is None or w_types is None or m_xml is None:\n            # If we can't find arguments, return empty list (fail safe)\n            # We can't print error text because it breaks JSON parsing for autopress\n            print(json.dumps([]))\n        else:\n            path = bfs_navigate(m_xml, t_x, t_y, w_types)\n            print(json.dumps(path))\n            \n    except Exception:\n        print(json.dumps([]))",
+    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\nimport json\n\ndef bfs_solver():\n    if 'map_xml_string' not in globals():\n        print(json.dumps([]))\n        return\n\n    try:\n        root = ET.fromstring(map_xml_string)\n    except:\n        print(json.dumps([]))\n        return\n\n    player_pos = None\n    walkable_tiles = set()\n    \n    # Parse Map\n    for row in root.findall('Row'):\n        y = int(row.get('id'))\n        for tile in row.findall('Tile'):\n            x = int(tile.get('id'))\n            t_type = tile.get('type')\n            \n            if tile.find('Player') is not None:\n                player_pos = (x, y)\n            \n            if t_type in walkable_types:\n                walkable_tiles.add((x, y))\n\n    if not player_pos:\n        print(json.dumps([]))\n        return\n\n    dest = (target_x, target_y)\n    \n    # Smart targeting: if target is not walkable, try adjacent walkable tiles\n    if dest not in walkable_tiles:\n        moves = [(0, -1), (0, 1), (-1, 0), (1, 0)]\n        candidates = []\n        for dx, dy in moves:\n            nx, ny = target_x + dx, target_y + dy\n            if (nx, ny) in walkable_tiles:\n                candidates.append((nx, ny))\n        \n        if not candidates:\n            # Target is completely inaccessible\n            print(json.dumps([]))\n            return\n            \n        # Pick candidate closest to player (Manhattan distance)\n        dest = min(candidates, key=lambda p: abs(p[0]-player_pos[0]) + abs(p[1]-player_pos[1]))\n\n    # BFS\n    queue = deque([(player_pos, [])])\n    visited = {player_pos}\n    moves = [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]\n    \n    while queue:\n        (cx, cy), path = queue.popleft()\n        \n        if (cx, cy) == dest:\n            print(json.dumps(path))\n            return\n            \n        for dx, dy, direction in moves:\n            nx, ny = cx + dx, cy + dy\n            if (nx, ny) in walkable_tiles and (nx, ny) not in visited:\n                visited.add((nx, ny))\n                queue.append(((nx, ny), path + [direction]))\n                \n    print(json.dumps([]))\n\nbfs_solver()",
     "history": [
       {
         "commit_message": "Initial version",
@@ -85,6 +80,11 @@
         "commit_message": "Updating bfs_navigate to robustly handle argument retrieval from globals or tool_args, fixing the NameError issue.",
         "timestamp": "2026-02-01T10:49:33.424Z",
         "action_counter": 22718
+      },
+      {
+        "commit_message": "Refined BFS logic to include 'Smart Targeting' (navigates to nearest walkable neighbor if target is unreachable) and robust XML parsing.",
+        "timestamp": "2026-02-02T05:16:33.791Z",
+        "action_counter": 24244
       }
     ]
   },
