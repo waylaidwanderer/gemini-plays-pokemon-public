@@ -36,8 +36,8 @@
 - Plan: Investigate "Oath" area (Row 13, Cols 4-7) and objects at Row 12.
 - Check West Room for Murkrow.
 - **Map Update**: Continuous barrier of plants/walls at Column 2 (Rows 11-15). Access to West Strip is only via Row 16 or Row 10 (if gap exists, but Row 10 seemed blocked earlier).
-- Note: Discrepancy in summary regarding stairs at (3, 14). Investigating now.
-- Plan: If no stairs at (3, 14), explore West Strip (Col 1) via Row 16.
+- Note: Confirmed no stairs at (3, 14). Summary error.
+- Plan: Explore West Strip (Col 1) starting from Row 16 and moving North to verify blockage at Row 11.
 - (4, 13): Oath (Text only).
 - (5, 13): Inaccessible (Blocked by Grunt at 5, 14 and walls).
 - (6, 13): Oath (Text only).
