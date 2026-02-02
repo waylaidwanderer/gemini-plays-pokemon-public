@@ -15,7 +15,6 @@
 ## Status
 - **Location**: B2F Central Room (14, 12).
 - **Goal**: Reach Murkrow at (8, 3).
-- **Status**: Shutter at (14, 11) is LOCKED.
 - **Path**: East to Col 17 -> North to Row 3 -> West to Murkrow.
-- **Reason**: Column 17 is an open aisle bypassing the locked shutter and desks.
-- **Note**: This path stays West of the ledge at x=18.
+- **Reason**: Column 17 is an open aisle. Avoiding locked shutter at (14, 11).
+- **Walkable**: Excluding stairs (TYPE_8564) to prevent accidental warps.
