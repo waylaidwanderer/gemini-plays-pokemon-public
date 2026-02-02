@@ -79,3 +79,5 @@
 - **Strategy Shift**: Testing "Raticate Tail" password on B2F Boss Door. Grunt at (5, 14) provided it. Hypothesis: Murkrow hunt might be skippable if this password works.
 - **Observation**: Rival Silver spotted at (24, 13) and Grunt at (25, 13) on B2F. They appear static.
 - **Action**: Attempting to open Boss Door at (23, 14) with "Raticate Tail" (Player Hypothesis).
+- **Anomaly**: Rival Silver at (24, 13) disappeared when player stepped onto the tile. Possible glitch or cutscene skip?
+- **Action**: Talking to Grunt at (25, 13) to see if he triggers the door or battle.
