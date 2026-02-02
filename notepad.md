@@ -159,6 +159,5 @@
 - Access to Silver (Zone 2 North) is blocked by walls (Col 6, Col 15) and Shutter (Row 11).
 - Confirmed: North West Area is sealed by Shutter at (14, 11).
 - Goal: Find Shutter Switch to open (14, 11).
-- Current Strategy: Moving to East Room (Cols 16-29) to check computers at Row 10.
-- Obstacle: Wall at (15, 14). Must bypass via Row 13.
+- Current Strategy: Checking Computer at (16, 10). Then moving to East Section (Cols 20+) via Row 14 gap.
 - Checked: SW Room Computers, Machines, and Wall behind Mitch (All Empty).
