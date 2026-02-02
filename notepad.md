@@ -123,3 +123,8 @@
 - Standing at (5, 6). This tile is safe. The "Trap Tiles" (Geodude statues) are visible at (7, 5) but are separated by a wall at Column 6.
 - Found another set of Stairs at (3, 2) in this West Wing.
 - Taking Stairs at (3, 2).
+- Confirmed: B1F West Wing is split by a wall at Row 4.
+- South Part (where I am): Accessed via Stairs at (3, 6). Contains nothing but empty halls.
+- North Part (where I want to be): Contains Stairs at (3, 2) and a Grunt.
+- Conclusion: Path to North Part is NOT from here. Must return to B2F and find the path to the stairs at (3, 2) from below (likely via the Secret Corridor on B2F Row 1).
+- Action: Returning to B2F via Stairs at (3, 6).
