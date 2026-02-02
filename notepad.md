@@ -107,8 +107,7 @@
 - **Current Position**: (9, 1). Moving West.
 - **Goal**: Reach the end of this secret passage.
 - **Hypothesis**: This corridor likely leads to the NW corner of B2F, possibly bypassing the shutter or containing the switch.
-- **Battle Status**: Victory against Grunt.
-- **Action**: Clearing post-battle text.
-- **Navigation**: Moving Down to Row 2, then West to Stairs at (3, 2).
-- **Hypothesis**: Stairs connect to NW B1F (Persian Statues).
-- **Grunt**: Was at (4, 1). Bypassing via (4, 2).
+- **Battle Status**: Battle Won.
+- **Action**: Clearing text and moving to Stairs at (3, 2).
+- **Hypothesis**: Stairs lead to the sealed NW area of B1F (behind Shutter).
+- **Goal**: Find the switch for the Shutter/Murkrow.
