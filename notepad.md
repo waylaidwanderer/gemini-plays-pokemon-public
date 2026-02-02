@@ -27,7 +27,8 @@
 - Target: Check large desk at (9-11, 13) from South side.
 - (4, 13): Checked (Oath).
 - (3, 14): Checked (Empty - No Stairs).
-- (2, 12): Plant (Solid/No Interaction) - Checked West side again.
+- (2, 12-15): Plant Barrier (Solid).
+- (2, 16): Open path.
 - (1, 11): Checked (Empty).
 - (23, 11): Standing on/near Scientist Ross.
 - (20, 10): Checked (Empty).
