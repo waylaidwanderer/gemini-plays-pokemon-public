@@ -13,7 +13,8 @@
 - **Correct Path**: Loop East to Col 28, go South to Row 12, then West into room.
 
 ## Status
-- **Location**: B1F Southeast (27, 11).
-- **Goal**: Return to B2F Southeast (27, 14).
-- **Dead End**: B1F SE is an isolated room. Cannot reach NE Stairs (27, 2).
-- **Plan**: Warp to B2F -> Enter Central Room via (22, 13) -> Navigate carefully to Murkrow.
+- **Location**: B2F Southeast (27, 14).
+- **Goal**: Reach Murkrow at (8, 3) via Central Room.
+- **Plan**: Move East to Corridor -> Enter Room from South (22, 15) -> North to Row 5 -> West to Murkrow.
+- **Reason**: Avoids stairs (warp loop) and potential one-way ledge at (18, 3).
+- **Action**: Move Right to clear stairs.
