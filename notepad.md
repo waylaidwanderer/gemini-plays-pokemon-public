@@ -16,5 +16,6 @@
 - **Mitch**: Defeated previously. Just flavor text now.
 - **Murkrow**: Locked behind shutters.
 - **Boss Door**: Needs 2 passwords.
-- **Plan**: Navigate to (4, 12) via Row 11 to bypass trees. Check machines (4-7) from the back.
+- **Trap Warning**: Trap tiles likely present in SW Room (Cols 1-3 reset player to 5,16).
+- **Plan**: Try navigating to Row 12 via Col 8 (East side).
 - **Checked**: Row 17 (5-12), Row 13 (1-4, Front).
