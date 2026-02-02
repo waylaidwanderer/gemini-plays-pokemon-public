@@ -138,8 +138,8 @@
 - Exploring the corridor to the East.
 - B2F also has a Row 1 corridor. This seems to be a feature of the base.
 - Exploring B2F West Wing (Cols 1-4).
-- Interacted with Oath Machine at (4, 13): "Steal POKéMON for profit!".
-- Blocked by text box in previous turn. Clearing text now.
+- Cleared Oath Machine text.
 - Moving to (1, 12) via South path (Row 16).
 - Goal: Check (1, 12) for hidden items/switches.
+- Note: Contradictory notes about Protein at (1, 12). Verifying emptiness.
 - If empty, the B2F West area is likely a dead end.
