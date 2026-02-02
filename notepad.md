@@ -162,7 +162,7 @@
 - Access to Silver (Zone 2 North) is blocked by walls (Col 6, Col 15) and Shutter (Row 11).
 - Confirmed: North West Area is sealed by Shutter at (14, 11).
 - Goal: Find Shutter Switch to open (14, 11).
-- Current Strategy: Confronting Scientist Ross at (23, 11).
-- Reason: He blocks computer (23, 10). If he moves/battles, I can check it.
-- Hypothesis: The switch might be on the blocked computer or Ross himself.
-- Previous checks: All other computers checked (Empty/Flavor text).
+- Current Strategy: Checking Computer at (23, 10) from the North side (Row 9).
+- Reason: Scientist Ross (23, 11) blocks the South side.
+- Hypothesis: Interaction might be possible from behind, or it's a decoy.
+- Next Plan: If this fails, proceed to B1F Loop to investigate Persian Statues at (12, 1).
