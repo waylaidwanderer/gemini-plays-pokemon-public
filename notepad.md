@@ -17,3 +17,4 @@
 - **Goal**: Check Computer (23, 6) and (20, 6).
 - **Obstacle**: Defeated Grunt at (21, 7) blocks (21, 6).
 - **Plan**: Check Grunt -> Check (23, 6) -> Loop South around Warp (21, 9) to reach West side.
+- **Confirmed**: Grunt at (21, 7) gives password "SLOWPOKETAIL".
