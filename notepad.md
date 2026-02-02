@@ -17,10 +17,11 @@
 - **Murkrow**: Found as ghost on B1F and B2F? Need to find the real one.
 
 ## Exploration Plan
-1. Talk to Scientist Ross at (23, 11).
-2. Navigate to (7, 2) (West side of B2F, East of the wall) to find Murkrow.
-3. If path blocked, investigate gaps at (15, 12) or (16, 4).
-4. Goal: Corner Murkrow to get the password.
+1. Return to B1F via SE Stairs (27, 14).
+2. Walk North on B1F to NE area, then take Secret Corridor West to NW Stairs (3, 2).
+3. Descend to B2F (3, 2) (West Wing).
+4. Find Murkrow at (7, 1).
+5. Chase Murkrow to get password.
 
 ## Important Coordinates
 - **Scientist Mitch**: B1F (11, 15)
