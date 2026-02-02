@@ -85,11 +85,7 @@
 - **Next Step**: Returning to B1F to investigate Persian Statues at (12, 1) and (13, 1).
 - **Oath Machine**: Investigating text at (6, 13).
 - **Oath Text 1**: "Exploit POKéMON for profit!" (Machine at 6, 13).
-- **Oath Text 2**: Same text at (4, 13).
-- **Plan**: Check Murkrow spawn at (3, 12). If empty, head to NE Spawn (28, 9).
+- **Computer Sweep**: Computers at 20-22 checked (no result).
+- **Plan**: Exploring area behind computers (Rows 7-9).
+- **Oath Text**: "Exploit POKéMON for profit!" (Both machines).
 - **Murkrow Anomaly**: Murkrow at (3, 12) is non-solid/non-interactive (Ghost).
-- **Plan**: Abandoning West Murkrow. Heading to check Persian Statues at (12, 1) for hidden switch.
-- **Computer Sweep**: Checking computers at Row 10 (Cols 20-25).
-  - (20, 10): Checking...
-  - (21, 10): Checking...
-  - (22, 10): Checking...
