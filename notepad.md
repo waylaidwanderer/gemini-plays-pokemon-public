@@ -15,8 +15,6 @@
   - West Wing: Row 11 (Cols 8-12).
 - **Findings**:
   - Row 13 (Cols 4-7): Team Rocket Oath.
-  - (3, 13): Hidden Item (X Special). **Action**: Toss item to pickup.
-  - (3, 12): Cleared (Was hidden item X Special).
-- Target: Check computers/walls at (3, 11) and (1, 11).
-  - Note: Must loop via Row 16 to reach Col 1.
-  - (14, 11): Locked Shutter.
+  - (3, 13): Hidden Item (X Special) - Collected.
+- Target: Check computer at (1, 11).
+- (14, 11): Locked Shutter.
