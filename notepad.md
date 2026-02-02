@@ -137,7 +137,9 @@
 - Passed Grunt at (4, 1).
 - Exploring the corridor to the East.
 - B2F also has a Row 1 corridor. This seems to be a feature of the base.
-- Confirmed: B1F Row 1 Corridor connects the West Wing (Stairs at 3, 2) to the East Wing (Stairs at 27, 2).
-- Taking Stairs at (27, 2) down to B2F NE Area.
-- Goal: Re-enter the B2F Secret Corridor (Row 1) via the "Ghost Grunt" at B2F (24, 1).
-- Plan: Explore B2F Row 1 Westbound to find the Shutter Switch.
+- Traversing B2F (3_51) Row 1 Corridor Westbound.
+- This connects the NE Stairs (27, 2) to the NW Stairs (3, 2).
+- I have explored this before (Turn 24508-24531), finding a Grunt at (4, 1).
+- Re-checking for anything missed (hidden switches, doors).
+- Hypothesis: A hidden door might exist in the B1F or B2F Row 1 corridors leading South into the closed rooms.
+- Current Goal: Reach (3, 2) and re-evaluate the NW corner of B2F.
