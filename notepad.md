@@ -26,3 +26,4 @@
 - **Scientist Mitch**: B1F (11, 15)
 - **Stairs**: B2F (27, 2) [NE], (3, 6) [SW], (27, 14) [SE].
 - **West Wing Structure**: Confirmed B2F West side is split by a wall at Row 4. SW area (accessed via stairs at 3,6) is isolated from NW area (accessed via stairs at 3,2). Must use B1F to transit between them.
+- **Map Analysis**: Verified B2F map data. Row 16 (y=16) appears to have a floor connection (`TYPE_3fe2`) across columns 6, 7, and 8. This confirms the access point to the West strip is likely at the bottom.
