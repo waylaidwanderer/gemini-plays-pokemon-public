@@ -87,3 +87,6 @@
 - **Plan**: Moving Right to Col 28, then Up to check Murkrow locations.
 - **Targets**: (28, 11) and (28, 9).
 - **Hypothesis**: "Ghost" behavior might change if I approach differently or if the password attempt reset something.
+- **Murkrow Test**: At (28, 10). Attempting interaction with Murkrow at (28, 9).
+- **Previous Result**: No text observed after previous sequence.
+- **Action**: Pressing A, then walking UP into it to test solidity.
