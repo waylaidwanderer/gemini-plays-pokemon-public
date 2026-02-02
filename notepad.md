@@ -37,3 +37,4 @@
 - Check West Room for Murkrow.
 - **Map Update**: Continuous barrier of plants/walls at Column 2 (Rows 11-15). Access to West Strip is only via Row 16 or Row 10 (if gap exists, but Row 10 seemed blocked earlier).
 - Note: Discrepancy in summary regarding stairs at (3, 14). Currently no stairs visible there. Possible hidden passage or error in summary.
+- (4, 13): Oath (Text only).
