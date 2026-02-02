@@ -6,8 +6,8 @@
 - **Goal**: Get Murkrow (requires Shutter open) -> Open Boss Door (B2F).
 
 ## Status
-- **Current Location**: B1F South East (Map 3_51).
-- **Objective**: Re-check computers in Central Room (Row 11) for the Shutter Switch.
+- **Current Location**: B1F Central Room (Left Side) (Map 3_51).
+- **Objective**: Systematic check of computers at Row 11 (Cols 8-11).
 - **Route**: South to Row 16 -> West to Center -> North to Row 12.
 
 - **Key Mechanics**:
