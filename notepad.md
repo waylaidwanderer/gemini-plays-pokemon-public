@@ -156,6 +156,8 @@
 - This should clear the way to catch the Murkrow for the password.
 - Visual Confirmation: Silver is at (7, 2), but separated by a wall at (6, 2).
 - I am on the wrong side of the wall.
-- Access to Silver's corridor (Column 7) must be from the Main Area (likely via Row 4).
-- Plan: Backtrack to B1F -> East Stairs (27, 2) -> B2F NE Area -> Gap at (14, 4) -> Column 7.
-- This loop is necessary to reach the "Real" interaction.
+- Access to Silver (Zone 2 North) is blocked by walls (Col 6, Col 15) and Shutter (Row 11).
+- Plan: Return to Scientist Mitch's Room (Zone 2 South) via Gap at (15, 12).
+- Goal: Find Shutter Switch in Mitch's Room (Check ALL computers/walls).
+- Current Pos: (17, 2) in East Room.
+- Path: South to Row 12, West to Col 14.
