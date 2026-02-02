@@ -98,3 +98,6 @@
 - **Hypothesis**: The real Murkrow is trapped or I need to activate a switch first.
 - **Target**: Persian Statues (Gold Statues) at (12, 1) and (13, 1). Possible hidden switch location.
 - **Plan**: Go South to Row 16, West to Center, North to Row 1.
+- **Discovery**: Found new area on B2F (NE Corner).
+- **NPC**: Rocket Grunt located at (24, 1).
+- **Action**: Interacting with Grunt. expecting battle or info.
