@@ -9,9 +9,10 @@
 - **Switch Hunt**:
   - SE Area: Cleared.
   - NE Area: Cleared.
-  - West Strip (Col 1): Cleared (Empty).
-  - West Wing Main: Cleared (Rows 11-16).
-  - Oath Machines: Checked (Text only).
+  - **West Wing Search**:
+  - Col 1: Dead End (Empty).
+  - Col 3: Checking now.
+  - Oath Area (Row 13, Col 4-7): Checked text, Grunt blocks (5, 14).
 - **Murkrow**: Found again at (28, 9). Interacting.
 - **Hypothesis**: Murkrow is the key. Follow the bird.
 - **Pathing**: Moving West via Row 15/16 to bypass obstacles.
