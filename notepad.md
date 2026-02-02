@@ -116,3 +116,7 @@
 - Row 12 is blocked, preventing access to the South West Wing from here.
 - Found Item Ball at (3, 10).
 - Need to check (5, 6) for switch/trap.
+- Bag is full (20/20). Item at (3, 10) disappeared upon pickup attempt, but inventory appears unchanged. Might be a duplicate of an existing item (e.g., Full Heal) or a glitch.
+- Investigating the northern part of the West Wing (Row 5-6).
+- Row 12 is a wall, so I cannot go South to the Grunt at (5, 14) from here.
+- Plan: Explore (5, 6) and (5, 5), then likely return to B2F.
