@@ -138,7 +138,8 @@
 - Exploring the corridor to the East.
 - B2F also has a Row 1 corridor. This seems to be a feature of the base.
 - Entered B2F Central Area via gap at (16, 3-4).
-- Currently at (16, 4).
-- This area connects to the main office.
-- Plan: Explore South to see if this path allows access "behind the desks" or to blocked areas.
-- Goal: Find a switch or key item.
+- Moved South to Row 12.
+- Discovered that the "Shutter" wall at Column 15 ends at Row 11.
+- Accessing the Central-West Area (Rows 6-12, Cols 8-15) via the gap at (15, 12).
+- Plan: Search this area for the Shutter Switch or the Real Murkrow.
+- Note: This area was previously inaccessible from the West Wing due to a wall at Row 12.
