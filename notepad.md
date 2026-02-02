@@ -20,13 +20,13 @@
 - **Cleared Areas (Nothing Found)**:
   - East Wing (Rows 6, 10), North Wall (Row 0), West Wing (Row 11).
   - Computers: Row 11 (Cols 1, 8-13), Row 10 (Cols 20-25).
-  - Specifics: (4-7, 13) Oath (Text only), (1, 11) Empty.
-  - West Strip: Accessible via Row 16. Blocked at (1, 11).
+  - Specifics: (4-7, 13) Oath (Text only), (1, 11) Wall/Dead End.
+  - West Strip (Col 1): Fully explored. Dead End.
 - **Findings**:
   - Items: X Special (3, 13), Protein (1, 12).
   - Oath Carpet: Row 13 (Cols 4-7).
-- Target: Re-evaluate strategy. All known accessible computers checked.
-- Suspect: Hidden switch in a seemingly solid object, or the inaccessible area behind Row 11 is key.
+- Target: South-East Area (Row 14+, Col 20+). Murkrow likely fled there.
+- Suspect: Hidden switch might be in the SE area or on a computer I missed in the East.
 - (15, 16): Inspected (Solid/No Interaction) - Confirmed Shutter/Wall.
 - (15, 11): Suspected Shutter/Wall (Type 63e2).
 - (14, 11): Locked Shutter.
