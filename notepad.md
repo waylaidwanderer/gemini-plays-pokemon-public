@@ -13,7 +13,8 @@
 - **Correct Path**: Loop East to Col 28, go South to Row 12, then West into room.
 
 ## Status
-- **Location**: B1F Northeast (27, 2).
-- **Goal**: Return to B2F Northeast (27, 2).
-- **Action**: Manual: Left, Right to warp back down.
-- **Reason**: BFS targeted the stairs tile (27, 2), causing an accidental warp to B1F. Need to be on B2F to reach Murkrow.
+- **Location**: B2F Northeast (27, 2).
+- **Goal**: Intercept Murkrow at (8, 3).
+- **Path**: West along Row 2 to (8, 2) -> South to Murkrow.
+- **Reason**: Successfully flanked via B1F/B2F loop. The shutter was bypassed.
+- **Next**: Interact with Murkrow.
