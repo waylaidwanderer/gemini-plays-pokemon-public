@@ -25,8 +25,8 @@
 
 ## Exploration Status
 - **Computers (Row 11)**: Checked cols 8-13 (Empty).
-- **West Wing**: Checked (5, 6) (Empty). Heading to Stairs (3, 2).
-- **Plan**: Use B2F Secret Corridor to reach B1F NE (Row 1).
+- **West Wing**: Split into NW (Isolated) and SW sections. NW accessible via B2F stairs at (3, 2). SW accessible from Main Area.
+- **Plan**: Go to Main Area (East), then North to B2F NE Stairs (27, 2) or Boss Door.
 
 ## Important Coordinates
 - **Scientist Mitch**: (11, 15)
