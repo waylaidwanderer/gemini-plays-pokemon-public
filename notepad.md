@@ -11,13 +11,12 @@
 - **Current Goal**: Find the switch to make Murkrow solid/catchable.
 - **Target**: Persian Statues at (12, 1).
 - **Oath Text**: "Exploit POKéMON for profit!" (Confirmed).
-- **Action**: Moving to Main Corridor to check Shutter at (14, 11).
-- **Reflection**: Stuck on "Ghost Murkrow" and Locked Shutter.
-- **Hypothesis**:
-  1. Grunt interaction might have unlocked Shutter.
-  2. Switch is hidden on a computer/desk I missed.
-  3. "Ghost" Murkrow is a decoy or glitch; real one is behind Shutter.
-- **Plan**: Check Shutter. If Locked, re-sweep NE computers/statues.
+- **Shutter (14, 11)**: Confirmed Locked (or non-interactive).
+- **Plan**: Abandoning West Wing for now.
+- **New Target**: North East Area (Entrance).
+- **Hypothesis**: Missed a switch near the entrance or in the East Wing (computers/walls).
+- **Murkrow**: Still ghosted.
+- **Passwords**: Have both, but door locked. Need Voice.
 - **Hypothesis**: Hidden switch on statues.
 - **Murkrow**: Still need to solve the Ghost issue.
 - **Status**: Passwords obtained but insufficient. Need Boss's Voice.
