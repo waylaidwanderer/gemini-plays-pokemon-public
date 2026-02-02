@@ -35,3 +35,4 @@
 - **Locked Shutter**: (14, 11)
 - **Stairs to B2F (NE)**: (27, 2)
 - **Stairs to B2F (SW)**: (3, 6)
+- **Anomalies**: "Lance" at B2F (20, 13) appears to be non-solid (walked onto his tile). Possible hologram/ghost like the B1F Murkrow and Grunt.
