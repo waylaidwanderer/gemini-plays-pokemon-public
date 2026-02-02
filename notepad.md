@@ -14,7 +14,7 @@
 
 ## Status
 - **Location**: B2F Central Room (14, 12).
-- **Goal**: Reach Murkrow at (8, 3).
-- **Path**: East to Col 17 -> North to Row 3 -> West to Murkrow.
-- **Reason**: Column 17 is an open aisle. Avoiding locked shutter at (14, 11).
-- **Walkable**: Excluding stairs (TYPE_8564) to prevent accidental warps.
+- **Goal**: Re-activate Shutter Switch in NE Room.
+- **Hypothesis**: Warp at (21, 9) reset the switch. Must hit switch and AVOID warp.
+- **Target**: Computer at (23, 3).
+- **Plan**: Move East to NE Room Entrance (22, 13) -> Move North (Stay East of Col 21) -> Activate Switch.
