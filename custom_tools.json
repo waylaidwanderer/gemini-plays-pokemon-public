@@ -403,5 +403,45 @@
         "action_counter": 25235
       }
     ]
+  },
+  "scan_row": {
+    "description": "Automates scanning a row of interactables. Walks to the standing row, iterates through the specified x-range, faces the target row, and presses A.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "start_x": {
+          "type": "integer"
+        },
+        "end_x": {
+          "type": "integer"
+        },
+        "stand_y": {
+          "type": "integer"
+        },
+        "face_direction": {
+          "type": "string",
+          "enum": [
+            "Up",
+            "Down",
+            "Left",
+            "Right"
+          ]
+        }
+      },
+      "required": [
+        "start_x",
+        "end_x",
+        "stand_y",
+        "face_direction"
+      ]
+    },
+    "python_script": "def scan_row(start_x, end_x, stand_y, face_direction):\n    buttons = []\n    \n    # Determine step direction for x\n    step = 1 if end_x >= start_x else -1\n    \n    # Assuming we start near start_x, stand_y. \n    # But to be safe, we should assume the player might be slightly off.\n    # However, this tool returns a button sequence, it doesn't know current pos.\n    # So we must assume the player calls this when aligned or we include setup moves?\n    # Simpler: The player must navigate to (start_x, stand_y) first, or we assume they are close.\n    # Actually, let's just generate the sequence for moving ALONG the row.\n    # The caller must ensure they are at the start position.\n    \n    # Mapping for facing\n    face_map = {\n        \"Up\": \"Up\",\n        \"Down\": \"Down\",\n        \"Left\": \"Left\",\n        \"Right\": \"Right\"\n    }\n    face_btn = face_map.get(face_direction)\n    \n    current_x = start_x\n    \n    # Iterate through the range\n    # Python range is exclusive at the end, so we need end_x + step\n    for x in range(start_x, end_x + step, step):\n        # We assume we are at (current_x, stand_y).\n        # We need to be at (x, stand_y).\n        \n        # Calculate moves to get from current_x to x\n        diff = x - current_x\n        if diff > 0:\n            buttons.extend([\"Right\"] * diff)\n        elif diff < 0:\n            buttons.extend([\"Left\"] * abs(diff))\n            \n        current_x = x\n        \n        # Face and Interact\n        buttons.append(face_btn)\n        buttons.append(\"A\")\n        # Add a small wait?\n        # buttons.append(\"sleep 100\") # not standard syntax here, handled by harness if supported?\n        # The prompt says: 'Sleep commands: You can include \"sleep <milliseconds>\"'\n        buttons.append(\"sleep 200\")\n        \n    print(buttons)\n\nscan_row(start_x, end_x, stand_y, face_direction)",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-02-02T20:09:02.837Z",
+        "action_counter": 25291
+      }
+    ]
   }
 }
