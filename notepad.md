@@ -16,6 +16,6 @@
 - **Location**: B2F Central Room (14, 12).
 - **Goal**: Reach Murkrow at (8, 3).
 - **Status**: Shutter at (14, 11) is LOCKED.
-- **New Path**: Move East to Col 17 -> North to Row 3 -> West to Murkrow.
-- **Reason**: Map data shows Col 17 is a clear corridor bypassing the desks and shutters.
-- **Note**: Entered via Row 15 gap, so I am already inside the West section. The Ledge at x=18 is to my East, so it won't block me.
+- **Path**: East to Col 17 -> North to Row 3 -> West to Murkrow.
+- **Reason**: Column 17 is an open aisle bypassing the locked shutter and desks.
+- **Note**: This path stays West of the ledge at x=18.
