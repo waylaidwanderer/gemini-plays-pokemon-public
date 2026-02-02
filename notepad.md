@@ -98,8 +98,8 @@
 - **Hypothesis**: The real Murkrow is trapped or I need to activate a switch first.
 - **Target**: Persian Statues (Gold Statues) at (12, 1) and (13, 1). Possible hidden switch location.
 - **Plan**: Go South to Row 16, West to Center, North to Row 1.
-- **Anomaly**: Grunt at (24, 1) is confirmed non-solid (Ghost).
-- **Hypothesis**: This room (NE B2F) contains a hidden switch or item.
-- **Action**: Inspecting wall behind Grunt at (24, 0).
-- **Map Analysis**: Room appears isolated (Walls at Col 23). Must find something here or return to B1F.
-- **Possibility**: Is this a trap? Or a puzzle clue?
+- **Ghost Grunt**: Confirmed non-solid at (24, 1).
+- **Hypothesis**: Interaction might work from the side, or this is a glitch/hologram.
+- **Action**: Moving to (25, 1) to interact with (24, 1) from the side.
+- **Room**: NE Corner B2F (24-28, 1-2). Walls at x=23.
+- **Check**: Test walls for "Ghost" properties too.
