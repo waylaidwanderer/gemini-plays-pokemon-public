@@ -85,4 +85,5 @@
 - **Next Step**: Returning to B1F to investigate Persian Statues at (12, 1) and (13, 1).
 - **Oath Machine**: Investigating text at (6, 13).
 - **Oath Text 1**: "Exploit POKéMON for profit!" (Machine at 6, 13).
-- **Plan**: Check machine at (4, 13), then check Murkrow spawn at (3, 12).
+- **Oath Text 2**: Same text at (4, 13).
+- **Plan**: Check Murkrow spawn at (3, 12). If empty, head to NE Spawn (28, 9).
