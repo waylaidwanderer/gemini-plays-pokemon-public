@@ -107,8 +107,7 @@
 - **Current Position**: (9, 1). Moving West.
 - **Goal**: Reach the end of this secret passage.
 - **Hypothesis**: This corridor likely leads to the NW corner of B2F, possibly bypassing the shutter or containing the switch.
-- **Encounter**: Battle initiated with Trainer at (4, 1).
-- **Dialogue**: "Oh, a kid? I don't really like this... but eliminate you I must."
-- **Analysis**: This dialogue suggests reluctance but duty. Sounds like an Executive or specialized Grunt.
-- **Plan**: Defeat him and proceed West.
-- **Hypothesis**: The solution (Switch/Key) is behind this trainer.
+- **Encounter**: Battling Rocket Grunt at (4, 1).
+- **Opponent**: Rattata Lv17.
+- **Action**: Using Garnet to clear quickly.
+- **Goal**: Win battle and check behind him.
