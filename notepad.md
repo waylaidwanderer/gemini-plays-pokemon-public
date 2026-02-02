@@ -6,7 +6,7 @@
 - **Goal**: Get Murkrow (requires Shutter open) -> Open Boss Door (B2F).
 
 ## Status
-- **Current Location**: B2F North Corridor (Map 3_50, Row 1).
+- **Current Location**: B1F Central Room (Map 3_51, Row 12).
 - **Key Mechanics**:
   - **Persian Statues**: Located at B1F (12, 1) and (13, 1). Act as alarms. Need to find a switch on them or near them.
   - **Locked Shutters**: B1F (14, 11). Block access between North and South central areas.
