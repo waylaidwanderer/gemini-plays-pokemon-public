@@ -13,8 +13,8 @@
 - **Correct Path**: Loop East to Col 28, go South to Row 12, then West into room.
 
 ## Status
-- **Location**: B2F Northwest (5, 2).
-- **Goal**: Talk to Silver (7, 2) -> Get him to move -> Catch Murkrow (8, 3).
-- **Issue**: Moved Right last turn but ended up back at (5, 2). Re-attempting interaction.
-- **Checked**: NE Room, SW Room.
+- **Location**: B2F West Corridor (5, 6).
+- **Goal**: Backtrack to B1F via (3, 2), then to NE Stairs (27, 2), then to B2F Central (9, 3).
+- **Reason**: Silver & Murkrow are behind the East Wall (x=8). Accessible via (8, 3) from the East.
+- **Checked**: West Wall (x=6) is solid.
 - **Murkrow**: Found at (8, 3)!
