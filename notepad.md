@@ -13,9 +13,9 @@
 - **Correct Path**: Loop East to Col 28, go South to Row 12, then West into room.
 
 ## Status
-- **Location**: B2F Central Area (23, 9).
-- **Goal**: Check (23, 10) [Back of Ross's computer].
-- **Checked**: Row 6, Row 10 (most), Row 11, Row 13.
-- **To Check**: (23, 10) Back.
+- **Location**: B2F Central Area (22, 9).
+- **Goal**: Finish checking Row 10 North (24, 25, 22). Then (20, 10).
+- **Checked**: Row 6, Row 10 (partial), Row 11, Row 13.
+- **To Check**: (24, 10), (25, 10), (22, 10), (20, 10), (20, 6).
 - **Traps**: Cols 1-3 (Reset to 5,16). (21, 9) (Warp).
 - **Murkrow**: Locked behind shutters.
