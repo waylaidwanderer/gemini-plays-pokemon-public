@@ -76,3 +76,4 @@
 - **Interaction Attempt**: Stepped OFF Murkrow at (28, 11) to (28, 12), facing UP, pressing A.
 - **Interaction Attempt**: Moving Left to (27, 11), facing Right to interact.
 - **Ghost Bird Conclusion**: Murkrow at (28, 11) is non-interactive/non-solid. Abandoning interaction attempts. Focusing on finding Shutter Switch or "Real" Murkrow elsewhere.
+- **Strategy Shift**: Testing "Raticate Tail" password on B2F Boss Door. Grunt at (5, 14) provided it. Hypothesis: Murkrow hunt might be skippable if this password works.
