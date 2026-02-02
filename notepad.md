@@ -6,10 +6,11 @@
 - **Goal**: Get Murkrow (requires Shutter open) -> Open Boss Door (B2F).
 
 ## Status
-- **Current Location**: B1F South West (Map 3_51).
-- **Objective**: Go to B2F via Stairs (27, 14) to check computers in Lance/Silver's room.
-- **Reasoning**: B1F computers are blocked or checked. Need to find switch on B2F.
-- **Route**: South to Row 16 -> West to Center -> North to Row 12.
+- **Current Location**: B2F Central Area (accessed via SE).
+- **Silver**: Found at B2F (21, 14). Dialogue: "Only the boss knows the password." (Useless).
+- **Objective**: Explore B2F Central Area (Rows 11-14) for Murkrow or Switch.
+- **Reasoning**: B1F Murkrow was a ghost. Real one might be here, or the switch to materialize it.
+- **Route**: Head North from Silver's position.
 
 - **Key Mechanics**:
   - **Persian Statues**: Located at B1F (12, 1) and (13, 1). Act as alarms. Need to find a switch on them or near them.
