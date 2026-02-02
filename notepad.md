@@ -28,4 +28,6 @@
 - Target: Navigate to North Section via East Gap (Col 28), then explore Top-Left (Row 0-10, Col 0-10).
 - (1, 11): Checked (Empty).
 - (24, 14): Grunt (Defeated/Passive) - "The guy in the cape..."
+- (15, 10): Inspected (Solid/No Interaction).
 - (14, 11): Locked Shutter.
+- Plan: Access (2, 11) from the North (via gap at Row 12, then up Col 1-5).
