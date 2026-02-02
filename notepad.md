@@ -144,7 +144,8 @@
 - Checking gap at B2F (14, 4) which leads to the area "Behind the Desks" (Rows 5-10).
 - This area was previously missed. It might contain the Shutter Switch or access to the Persian Statues.
 - Leaving Mitch for now.
-- Mitch won't fight. Advancing text and moving on.
-- Investigating the gap at (14, 4).
-- Hypothesis: This gap allows access to the area BEHIND the locked shutter at (14, 11), effectively bypassing it.
-- If true, I can explore the "Sealed Area" (Rows 5-10, Cols 8-15) which might contain the Murkrow or Switch.
+- Mitch refused to battle (Looping dialogue about radio power).
+- Moving to investigate Gap at (14, 4).
+- Path: East to Col 16, North to Row 4, West to Col 14.
+- Goal: Enter the "Sealed Area" (Rows 5-10, Cols 8-15) behind the locked shutter.
+- Expectation: Find Real Murkrow or Shutter Switch.
