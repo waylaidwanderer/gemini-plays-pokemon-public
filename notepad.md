@@ -7,7 +7,8 @@
 ## Critical Navigation Notes
 - **WEST WALL IS SOLID**: The wall at x=6 on B2F is solid.
 - **DESKS ARE SOLID**: Row 11 (Cols 4-13) is blocked by desks.
-- **EAST WALL**: Wall at x=18 separates the NE room. Gap at top (Row 2-3).
+- **NE ROOM ACCESS**: Wall at x=18 divides room. Gap at top (Row 1-3).
+- **NE ROOM BARRIER**: Row 4 is blocked by desks in NE room (Cols 19-27). Must bypass via East gap at Col 28.
 - **Correct Path to NW**: From South (Row 12), go East to Col 16, North to Row 10, then West.
 
 ## Status
@@ -17,7 +18,8 @@
 - **Boss Door**: B2F (23, 14). Requires 2 passwords.
 
 ## Exploration Plan
-1. Loop North over the wall at x=18 (via Row 3) to reach computers.
-2. Check computers for Switch to open shutters.
-3. If successful, go West to NW corner.
-4. If no switch, return to B1F and use hidden corridor to access NW stairs (3, 2).
+1. Loop North to Row 2.
+2. Go East to Col 28 (bypassing Row 4 barrier).
+3. Go South to Row 6/7 to reach computers.
+4. Check computers for Switch to open shutters.
+5. Go West to NW corner.
