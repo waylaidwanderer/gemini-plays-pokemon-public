@@ -107,8 +107,8 @@
 - **Current Position**: (9, 1). Moving West.
 - **Goal**: Reach the end of this secret passage.
 - **Hypothesis**: This corridor likely leads to the NW corner of B2F, possibly bypassing the shutter or containing the switch.
-- **Location**: B2F West Corridor (3, 10).
-- **Action**: Picking up Item at (3, 10).
-- **Next**: Move South to Stairs at (3, 14).
-- **Hypothesis**: Stairs at (3, 14) lead to B1F Sealed Room.
-- **Connection**: This area connects B2F to the isolated B1F sections.
+- **Item Found**: TM46 Thief at B2F (3, 10).
+- **Action**: Moving South to Stairs at (3, 14).
+- **Hypothesis**: These stairs connect to B1F (3, 14).
+- **Goal**: Check if this leads to the switch or the "real" Murkrow.
+- **Previous**: Stairs at (3, 6) connected B1F and B2F West Corridors.
