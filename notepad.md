@@ -14,6 +14,6 @@
 
 ## Status
 - **Location**: B2F Central Entrance (22, 15).
-- **Goal**: Catch Murkrow at (8, 3).
-- **Path**: Enter room North -> Navigate West to (8, 3).
-- **Reason**: Bypassed Grunt. Clear path to Murkrow.
+- **Goal**: Reach Murkrow at (8, 3) via Northern Corridor.
+- **Path**: (22, 15) -> East to (28, 15) -> North to (27, 2) -> West to (8, 3).
+- **Reason**: Southern approach blocked by desks/shutters. Must loop North.
