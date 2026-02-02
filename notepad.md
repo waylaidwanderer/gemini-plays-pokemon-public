@@ -13,7 +13,7 @@
 - **Correct Path**: Loop East to Col 28, go South to Row 12, then West into room.
 
 ## Status
-- **Location**: B2F Northeast (27, 2).
-- **Goal**: Reach Murkrow at (8, 3) via South Route.
-- **Path**: East to (28, 2) -> South to (28, 15) -> West to (22, 13).
-- **Reason**: "Passage to East" at (18, 3) is likely a one-way ledge blocking Westward movement. South route is safer.
+- **Location**: B1F Southeast (27, 14).
+- **Goal**: Return to B2F Southeast (27, 14).
+- **Action**: Manual: Right, Left to warp back down.
+- **Reason**: BFS took the path through the stairs, causing an accidental warp. Correcting now.
