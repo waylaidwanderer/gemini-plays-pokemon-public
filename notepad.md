@@ -81,3 +81,5 @@
 - **Action**: Attempting to open Boss Door at (23, 14) with "Raticate Tail" (Player Hypothesis).
 - **Anomaly**: Rival Silver at (24, 13) disappeared when player stepped onto the tile. Possible glitch or cutscene skip?
 - **Action**: Talking to Grunt at (25, 13) to see if he triggers the door or battle.
+- **Result**: "Raticate Tail" password FAILED. Boss Door remains locked.
+- **Next Step**: Returning to B1F to investigate Persian Statues at (12, 1) and (13, 1).
