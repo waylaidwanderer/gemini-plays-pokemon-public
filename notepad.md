@@ -83,7 +83,9 @@
 - **Plan**: Exploring area behind computers (Rows 7-9).
 - **Oath Text**: "Exploit POKéMON for profit!" (Both machines).
 - **Murkrow Anomaly**: Murkrow at (3, 12) is non-solid/non-interactive (Ghost).
-- **Silver**: Unresponsive to "A" press from (24, 13).
-- **Action**: Turning Right to talk to Grunt at (25, 13).
-- **Hypothesis**: This Grunt might be the key to the door or the Murkrow puzzle.
-- **Door Status**: Locked (No text). Password "SLOWPOKETAIL" didn't trigger automatically.
+- **Status**: Password "SLOWPOKETAIL" obtained but door is locked.
+- **Hint**: "Useless unless you have..." implies I need the Murkrow (Boss's Voice).
+- **Rival Silver**: At (24, 12). Attempting to talk.
+- **Grunt**: "Heh, I'm just a GRUNT."
+- **Plan**: Talk to Silver. If no help, return to B1F and CATCH THAT MURKROW.
+- **Murkrow**: Last seen at (3, 12) or (28, 9). Must follow it until it stops.
