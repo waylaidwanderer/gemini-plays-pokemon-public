@@ -75,3 +75,4 @@
 - **Strategy**: Manual navigation to bypass Grunt at (24, 14) via Row 16.
 - **Murkrow Log**: Fled from (28, 9) again (Turn 24329). Suspect ping-pong behavior. Heading to West Wing.
 - **Murkrow Log**: Found at (3, 12) (West Wing) on Turn 24340. Fled immediately. Confirming ping-pong pattern. Heading back to NE Spawn (28, 9).
+- **Murkrow Log**: Found at (28, 11) (East Wing) on Turn 24343. Bumping to interact.
