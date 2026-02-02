@@ -120,3 +120,6 @@
 - Investigating the northern part of the West Wing (Row 5-6).
 - Row 12 is a wall, so I cannot go South to the Grunt at (5, 14) from here.
 - Plan: Explore (5, 6) and (5, 5), then likely return to B2F.
+- Standing at (5, 6). This tile is safe. The "Trap Tiles" (Geodude statues) are visible at (7, 5) but are separated by a wall at Column 6.
+- Found another set of Stairs at (3, 2) in this West Wing.
+- Taking Stairs at (3, 2).
