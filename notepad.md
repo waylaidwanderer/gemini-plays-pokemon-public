@@ -53,3 +53,5 @@
 - (20-28, 16): Checked (Empty).
 - Hypothesis: Murkrow might be trapped behind the shutter in the NW area. To get it, I must find the switch first.
 - Hypothesis: Check the Statues/machines at (12, 1) again?
+- **Tool Status**: `bfs_navigate` is unreliable. Needs debugging.
+- **Pathing**: Moving to East Wing via Row 16 -> Row 12 to bypass Scientist at (11, 15).
