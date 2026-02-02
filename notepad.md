@@ -13,9 +13,9 @@
 - **Correct Path**: Loop East to Col 28, go South to Row 12, then West into room.
 
 ## Status
-- **Location**: B2F Central Area (20, 7).
-- **Goal**: Check (20, 6). Then to NW Room via NE Stairs.
-- **Checked**: NE Room (Rows 6, 10, 11), SW Room (Rows 11, 13).
-- **To Check**: NW Room (Silver's location).
+- **Location**: B2F Central Area (23, 9).
+- **Goal**: Check (23, 10) [Back of Ross's computer].
+- **Checked**: Row 6, Row 10 (most), Row 11, Row 13.
+- **To Check**: (23, 10) Back.
 - **Traps**: Cols 1-3 (Reset to 5,16). (21, 9) (Warp).
 - **Murkrow**: Locked behind shutters.
