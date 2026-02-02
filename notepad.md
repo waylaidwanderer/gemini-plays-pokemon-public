@@ -6,8 +6,8 @@
 
 ## Status
 - **Location**: B1F Main Area (Map 3_51).
-- **Passwords**: "Hail Giovanni", "SLOWPOKETAIL".
-- **Plan**: Chase Murkrow from (28, 9) and obtain the password. Locate Shutter Switch if path is blocked.
+- **Strategy**: Sweeping North-East area (Rows 0-9, Cols 18-29).
+- **Murkrow**: Last seen at (28, 9), fled. Searching possible hiding spots in NE sector.
 
 ## Exploration Log (Map 3_51)
 - **Tile Mechanics**:
