@@ -17,9 +17,10 @@
 - **Murkrow**: Found as ghost on B1F and B2F? Need to find the real one.
 
 ## Exploration Plan
-1. Check Grunt at B2F (25, 13).
-2. Check computers in B2F Central Area (Row 9, Row 10).
-3. If B2F clear, return to B1F and check Persian Statue room thoroughly (maybe accessible via SE stairs -> North?).
+1. Traverse B1F Secret Corridor (Row 1) to (24, 1).
+2. Explore NE B1F area (behind statues) for the switch.
+3. Check Grunt at B2F (25, 13).
+4. Check computers in B2F Central Area (Row 9, Row 10).
 
 ## Important Coordinates
 - **Scientist Mitch**: B1F (11, 15)
