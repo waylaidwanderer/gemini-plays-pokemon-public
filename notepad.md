@@ -14,8 +14,7 @@
 - **Location**: B2F Central Area (14, 13).
 - **Goal**: Find Shutter Switch (Systematic Sweep).
 - **Plan**: Attempt to access Row 14 (South of computers). If blocked, assume Row 14 is chairs/solid.
-- **Checked**: Row 17, Row 13, Row 11, Row 10 (South & North). Row 6 (22-25).
-- **Blocked**: Row 6 (21 by Grunt), Row 11 (23 by Ross).
-- **To Check**: Southwest Room (Mitch's Room).
+- **Checked**: Row 17, Row 13, Row 11, Row 10 (NE Room). Row 6 (22-25).
+- **Checking**: SW Room (Mitch's Room). Checked (13, 11). checking 9-12.
 - **Traps**: Cols 1-3 (Reset to 5,16).
 - **Murkrow**: Locked behind shutters.
