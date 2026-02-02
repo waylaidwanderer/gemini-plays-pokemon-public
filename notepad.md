@@ -167,8 +167,8 @@
 - Goal: Find Shutter Switch to open (14, 11).
 - Current Strategy: Confronting Rival Silver at (7, 2) via Central Area.
 - Route:
-  1. (27, 2) -> West to (17, 2).
+  1. (27, 2) -> West to (17, 2). (Done)
   2. South through Gap at (17, 4) -> Continue South to (17, 12).
   3. West through Gap at (15, 12) to Central Area.
   4. Navigate North to Silver (7, 2).
-- Action: Moving West to Gap at (17, 4).
+- Action: Moving South to Gap at (15, 12).
