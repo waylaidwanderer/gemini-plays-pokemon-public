@@ -11,10 +11,9 @@
 - **Correct Path**: Loop East to Col 28, go South to Row 12, then West into room.
 
 ## Status
-- **Location**: B2F Central Aisle (14, 12).
+- **Location**: B2F Central Area (14, 13).
 - **Goal**: Find Shutter Switch (Systematic Sweep).
-- **Anomaly**: Position reset to (14, 12) after previous move. Re-checking Row 13 Fronts to be sure.
-- **Plan**: Check Row 13 Fronts, then loop East to check Row 11 Backs.
+- **Plan**: Attempt to access Row 14 (South of computers). If blocked, assume Row 14 is chairs/solid.
 - **Checked**: Row 17 (5-12), Row 13 (1-4 Front), Row 11 (9-11 South Face), Row 13 (9-11 North Face).
 - **Traps**: Cols 1-3 (Reset to 5,16).
 - **Murkrow**: Locked behind shutters.
