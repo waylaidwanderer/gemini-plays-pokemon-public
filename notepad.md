@@ -107,8 +107,8 @@
 - **Current Position**: (9, 1). Moving West.
 - **Goal**: Reach the end of this secret passage.
 - **Hypothesis**: This corridor likely leads to the NW corner of B2F, possibly bypassing the shutter or containing the switch.
-- **Location**: Arrived at B1F NW Corner (3, 2) via B2F Stairs.
-- **Connection**: Stairs at (3, 2) B2F <-> (3, 2) B1F.
-- **Visible**: Scientist at (7, 2), Grunt at (8, 3).
-- **Goal**: Reach Persian Statues at (12, 1).
-- **Hypothesis**: The switch/Murkrow solution is here.
+- **Location**: B1F NW Corridor (Cols 3-5).
+- **Observation**: Wall at Col 6 separates me from Scientist (7, 2).
+- **Plan**: Move South to Row 10 where Mental Map indicates a gap in the wall. Cross to East side.
+- **Features**: Stairs at (3, 2) (Entry), Stairs at (3, 6) (Unknown).
+- **Goal**: Reach Scientist/Grunt and Persian Statues.
