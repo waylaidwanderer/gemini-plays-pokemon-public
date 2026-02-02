@@ -5,9 +5,10 @@
 - Open Boss Door on B2F (requires Murkrow).
 
 ## Status
-- **Password Obtained**: "SLOWPOKETAIL" (Confirmed by Grunt at 20, 7).
-- **Action**: Heading to B2F Boss Door to try the password.
-- **Contingency**: If password fails, restart Murkrow hunt (Ghost Murkrow issue might be key).
+- **Password**: "SLOWPOKETAIL" (Grunt at 20, 7).
+- **Hint**: "Useless unless you have..." (Need full text).
+- **Hypothesis**: Talking to this Grunt might activate the Murkrow or is required to use the password.
+- **Plan**: Finish dialogue. Go to B2F to test password. If fails, return to Murkrow (now potentially active).
 - **Oath Text**: "Exploit POKéMON for profit!" (Both machines).
 
 ## Exploration Log (Map 3_51)
