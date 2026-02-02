@@ -27,4 +27,5 @@
   6. Up to North Section.
 - Target: Navigate to North Section via East Gap (Col 28), then explore Top-Left (Row 0-10, Col 0-10).
 - (1, 11): Checked (Empty).
+- (24, 14): Grunt (Defeated/Passive) - "The guy in the cape..."
 - (14, 11): Locked Shutter.
