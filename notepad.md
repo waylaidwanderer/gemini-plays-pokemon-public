@@ -5,9 +5,20 @@
 - Open Boss Door on B2F (requires Murkrow).
 
 ## Status
-- **Murkrow**: Found at (28, 9), fled. Likely moved to West Wing/SW Area.
-- **Location**: B1F Main Area (Map 3_51).
-- **Previous Check**: NE Area (Cleared).
+- **Murkrow**: Found at (28, 9), fled. Likely moved to West Wing (Row 12 area?).
+- **Switch Hunt**:
+  - SE Area: Cleared.
+  - NE Area: Cleared (unless hidden in walls?).
+  - West Wing: Needs re-check, especially behind the shutter or near the entrance.
+- **Hypothesis**: Murkrow is the key. Follow the bird.
+- **Pathing**: Moving West via Row 15/16 to bypass obstacles.
+- **Barriers**:
+  - Shutter at (14, 11) - Locked.
+  - Plants at Row 12/Col 2 - Block access to far west strip?
+- **To-Do**:
+  - Re-visit West Wing.
+  - Check if Murkrow is there.
+  - If not, check NE area again (maybe it flew back?).
 
 ## Exploration Log (Map 3_51)
 - **Tile Mechanics**:
