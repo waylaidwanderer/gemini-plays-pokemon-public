@@ -148,8 +148,7 @@
 - Route: (15, 1) -> (5, 1) -> (5, 2) -> Stairs at (3, 2).
 - Bypassing Grunt at (4, 1) via Row 2.
 - Goal: Return to B2F West Side to check Persian Statues and "Sealed Area".
-- Found Rival Silver at (7, 2) and Murkrow at (7, 1).
-- Location: B2F West Corridor (Map 3_51).
-- Approaching to trigger interaction.
-- Expecting Silver to say something about not needing the weak Murkrow or interfering.
-- Murkrow likely fled here after I chased it from B1F.
+- Confronting Rival Silver at B2F (7, 2).
+- Murkrow is at (7, 1).
+- Expecting cutscene/dialogue where Silver mentions he doesn't want the weak Murkrow.
+- This should clear the way to catch the Murkrow for the password.
