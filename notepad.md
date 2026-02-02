@@ -11,11 +11,10 @@
 - **Current Goal**: Find the switch to make Murkrow solid/catchable.
 - **Target**: Persian Statues at (12, 1).
 - **Oath Text**: "Exploit POKéMON for profit!" (Confirmed).
-- **Action**: Sweeping Desks at Row 11 (South Side).
-- **Target**: (8, 11), (9, 11), (10, 11), (11, 11), (12, 11).
-- **Hypothesis**: Hidden switch is on one of these desks.
-- **Previous**: Machines (5, 13) inaccessible. Grunt unhelpful.
-- **Murkrow**: Still ghosted. Switch likely fixes this.
+- **Sweep Update**: Desks at (8-12, 11) checked. Nothing.
+- **Next Target**: Desks at (3, 11) and (1, 11).
+- **Path**: Loop South via Row 15 to bypass blocked area/Grunt.
+- **Then**: If nothing, go to North side (Row 10) via Main Corridor.
 - **Hypothesis**: Hidden switch on statues.
 - **Murkrow**: Still need to solve the Ghost issue.
 - **Status**: Passwords obtained but insufficient. Need Boss's Voice.
