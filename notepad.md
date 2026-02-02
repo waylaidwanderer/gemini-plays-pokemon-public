@@ -99,5 +99,6 @@
 - **Target**: Persian Statues (Gold Statues) at (12, 1) and (13, 1). Possible hidden switch location.
 - **Plan**: Go South to Row 16, West to Center, North to Row 1.
 - **Discovery**: Found new area on B2F (NE Corner).
-- **NPC**: Rocket Grunt located at (24, 1).
-- **Action**: Interacting with Grunt. expecting battle or info.
+- **NPC**: Rocket Grunt located at (24, 0).
+- **Action**: Interacting with Grunt. Expecting battle or info.
+- **Hypothesis**: This Grunt might have the key or switch I need.
