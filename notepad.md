@@ -13,7 +13,8 @@
 - **Correct Path**: Loop East to Col 28, go South to Row 12, then West into room.
 
 ## Status
-- **Location**: B2F Northwest (3, 2).
-- **Goal**: Re-ascend to B1F via stairs at (3, 2).
-- **Action**: Manual Sequence: Right (Reset), Left (Warp), Right, Right (Escape Stairs).
-- **Reason**: BFS on B1F mistakenly presses 'Up', sending me back down. Manual escape required.
+- **Location**: B1F Northwest (3, 2).
+- **Goal**: Traverse East to NE Stairs (27, 2).
+- **Action**: Manual: Right -> Up -> Right (Avoid wall at 6,2).
+- **Reason**: Successfully warped to B1F. Navigating manually to clear the stairs and avoid accidental re-warp.
+- **Next**: Use BFS to reach (27, 2) once clear.
