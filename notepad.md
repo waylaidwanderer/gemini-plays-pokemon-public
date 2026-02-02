@@ -13,7 +13,7 @@
 - **Correct Path**: Loop East to Col 28, go South to Row 12, then West into room.
 
 ## Status
-- **Location**: B2F Central Area (Heading to NE Stairs).
+- **Location**: B2F East Corridor (Heading to NE Stairs).
 - **Goal**: Navigate to NW Room via B1F (Stairs at 27,2).
 - **Checked**: NE Room (All Computers), SW Room (All Computers).
 - **To Check**: NW Room (Silver's location).
