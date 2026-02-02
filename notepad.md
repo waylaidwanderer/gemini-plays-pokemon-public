@@ -107,7 +107,7 @@
 - **Current Position**: (9, 1). Moving West.
 - **Goal**: Reach the end of this secret passage.
 - **Hypothesis**: This corridor likely leads to the NW corner of B2F, possibly bypassing the shutter or containing the switch.
-- **Battle Status**: Grunt sent out Zubat Lv17.
-- **Action**: Using Swift (Slot 1) because Mud-Slap (Slot 2) has no effect and is out of PP.
-- **Navigation**: After battle, move Down to Row 2, then West to Stairs at (3, 2) to bypass the Grunt at (4, 1).
+- **Battle Status**: Zubat fainted. Grunt sending out 3rd Pokemon.
+- **Action**: No switch. Keeping Garnet in.
+- **Navigation**: After battle, move to Stairs at (3, 2).
 - **Hypothesis**: Stairs at (3, 2) lead to the NW corner of B1F.
