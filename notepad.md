@@ -168,5 +168,5 @@
 - B2F Search Result: All accessible areas (East, South-West, West Corridor) searched. No switch found.
 - New Strategy: Return to B1F West Wing via Stairs at (3, 6).
 - Target: Investigate "Trap Tile" at B1F (5, 6) and surrounding walls.
-- Route: B2F Central (14, 12) -> South to Row 16 -> West to Col 3 -> North to Stairs (3, 6).
-- Check Shutter at (14, 11) one last time en route.
+- Route: B2F Central (14, 16) -> West to Col 3 -> North to Stairs (3, 6).
+- Currently traversing B2F South Corridor Westbound.
