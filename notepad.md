@@ -39,6 +39,7 @@
 - Note: Confirmed no stairs at (3, 14). Summary error.
 - West Strip (Col 1): Confirmed Dead End. Blocked at (1, 11).
 - Plan: Search South-East Area (Rows 12-16, Cols 20-29) for Murkrow.
+- Location: Moving to SE Area.
 - (4, 13): Oath (Text only).
 - (5, 13): Inaccessible (Blocked by Grunt at 5, 14 and walls).
 - (6, 13): Oath (Text only).
