@@ -5,9 +5,9 @@
 - Open Boss Door on B2F (requires Murkrow).
 
 ## Status
-- **Murkrow**: Displaced from (28, 8). Currently searching NE Area (Rows 0-9).
+- **Murkrow**: Found at (28, 9), fled. Likely moved to West Wing/SW Area.
 - **Location**: B1F Main Area (Map 3_51).
-- **Previous Check**: NE Area was checked *before* Murkrow fled. Needs re-check.
+- **Previous Check**: NE Area (Cleared).
 
 ## Exploration Log (Map 3_51)
 - **Tile Mechanics**:
