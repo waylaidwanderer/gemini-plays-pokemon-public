@@ -10,7 +10,12 @@
 - **Murkrow**: Found at (3, 12) and (28, 9) but acts as a "Ghost" (non-interactive).
 - **Current Goal**: Find the switch to make Murkrow solid/catchable.
 - **Target**: Persian Statues at (12, 1).
-- **Oath Text**: "Exploit POKéMON for profit!" / "For the glory of TEAM ROCKET!".
+- **Oath Text**: "Exploit POKéMON for profit!" (Confirmed).
+- **Current Action**: Moving East via Row 12 to reach Main Corridor.
+- **Target**: Persian Statues at (12, 1).
+- **Hypothesis**: Hidden switch on statues.
+- **Murkrow**: Still need to solve the Ghost issue.
+- **Status**: Passwords obtained but insufficient. Need Boss's Voice.
 
 ## Exploration Log (Map 3_51)
 - **Tile Mechanics**:
