@@ -7,18 +7,19 @@
 ## Critical Navigation Notes
 - **WEST WALL IS SOLID**: The wall at x=6 on B2F is solid.
 - **DESKS ARE SOLID**: Row 11 (Cols 4-13) is blocked by desks.
-- **NE ROOM ACCESS**: Wall at x=18 divides room. Gap at top (Row 1-3).
-- **NE ROOM BARRIER**: Col 27 is solid (Row 4-11). Must enter NE room via gap at (27, 3).
-- **Correct Path to NW**: From South (Row 12), go East to Col 16, North to Row 10, then West.
+- **NE ROOM ACCESS**: Likely via South entrance at Row 12 (Cols 19-26).
+- **NE ROOM BARRIER**: Row 4 is solid. Col 27 is solid/shuttered.
+- **Correct Path**: Loop East to Col 28, go South to Row 12, then West into room.
 
 ## Status
-- **Location**: B2F NE Room (28, 7).
+- **Location**: B2F NE Room (27, 3).
 - **Key Item/Flag**: Obtained "Raticate Tail" password from Grunt at (5, 14).
 - **Murkrow**: Disappeared from (8, 12). Likely in NW corner.
 - **Boss Door**: B2F (23, 14). Requires 2 passwords.
 
 ## Exploration Plan
-1. Go North to (28, 3).
-2. Go West to (27, 3) to enter NE room.
-3. Check computers at (22, 6) for Switch.
-4. Go West to NW corner.
+1. Go East to Col 28.
+2. Go South to Row 12.
+3. Turn West to enter Computer Room.
+4. Check computers for Switch.
+5. Go West to NW corner.
