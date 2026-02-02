@@ -137,9 +137,9 @@
 - Passed Grunt at (4, 1).
 - Exploring the corridor to the East.
 - B2F also has a Row 1 corridor. This seems to be a feature of the base.
-- Exploring B2F Central-West Room (Rows 12-16, Cols 8-15).
-- Currently at (14, 12).
-- Found Scientist Mitch at (11, 15).
-- There is a row of desks at Row 11.
-- Plan: Inspect computer at (11, 11) and talk to Scientist Mitch.
-- Goal: Find Shutter Switch for the shutter at (14, 11).
+- Exploring B2F West Wing (Cols 1-4).
+- Checked Computer at (4, 12): No result.
+- Path to West Strip (Col 1) is blocked at Row 12-15 by plants.
+- Route: South to Row 16, West to Col 1, then North.
+- Goal: Check (1, 12) for hidden items/switches.
+- If empty, the B2F West area is likely a dead end.
