@@ -38,3 +38,4 @@
 - (15, 11): Suspected Shutter/Wall (Type 63e2).
 - (14, 11): Locked Shutter.
 - (15, 16): Suspected Shutter.
+- Note: Interaction (A) with Murkrow at (28, 9) failed. Trying to bump/walk into it.
