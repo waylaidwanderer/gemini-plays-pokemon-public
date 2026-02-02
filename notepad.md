@@ -157,7 +157,8 @@
 - Visual Confirmation: Silver is at (7, 2), but separated by a wall at (6, 2).
 - I am on the wrong side of the wall.
 - Access to Silver (Zone 2 North) is blocked by walls (Col 6, Col 15) and Shutter (Row 11).
-- Plan: Return to Scientist Mitch's Room (Zone 2 South) via Gap at (15, 12).
-- Goal: Find Shutter Switch in Mitch's Room (Check ALL computers/walls).
-- Current Pos: (17, 2) in East Room.
-- Path: South to Row 12, West to Col 14.
+- Confirmed: North West Area is sealed by Shutter at (14, 11) and walls.
+- Goal: Find Shutter Switch to open (14, 11).
+- Current Pos: (16, 14).
+- Plan: Move to Shutter at (14, 11) via Gap at (15, 12).
+- Action: Inspect Shutter again. Then search Mitch's room (SW Area) thoroughly for switches.
