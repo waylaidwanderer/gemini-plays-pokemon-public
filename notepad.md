@@ -11,7 +11,7 @@
 - **Correct Path**: Loop East to Col 28, go South to Row 12, then West into room.
 
 ## Status
-- **Location**: B2F NE Room (20, 11).
+- **Location**: B2F NE Room (24, 11).
 - **Checked**: Row 6 (All), Row 10 (All except 23,10).
 - **Missed**: (23, 10) - Blocked by Ross (Defeated, Static).
 - **Key Item/Flag**: Obtained "Raticate Tail" password from Grunt at (5, 14).
