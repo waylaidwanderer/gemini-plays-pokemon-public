@@ -11,12 +11,11 @@
 - **Current Goal**: Find the switch to make Murkrow solid/catchable.
 - **Target**: Persian Statues at (12, 1).
 - **Oath Text**: "Exploit POKéMON for profit!" (Confirmed).
-- **Shutter (14, 11)**: Confirmed Locked (or non-interactive).
-- **Plan**: Abandoning West Wing for now.
-- **New Target**: North East Area (Entrance).
-- **Hypothesis**: Missed a switch near the entrance or in the East Wing (computers/walls).
-- **Murkrow**: Still ghosted.
-- **Passwords**: Have both, but door locked. Need Voice.
+- **Strategy Update**: Row 2 connects the Entrance (27, 2) to the Persian Statues (12, 1).
+- **Target**: Persian Statues at (12, 1) and (13, 1).
+- **Hypothesis**: The switch is on the statues, accessible from the North side (Row 2).
+- **Plan**: Move to (27, 2), then go West along Row 2 to (12, 2). Interact with statues.
+- **Previous**: South approach blocked by Shutter at (14, 11). North approach seems open.
 - **Hypothesis**: Hidden switch on statues.
 - **Murkrow**: Still need to solve the Ghost issue.
 - **Status**: Passwords obtained but insufficient. Need Boss's Voice.
