@@ -107,8 +107,8 @@
 - **Current Position**: (9, 1). Moving West.
 - **Goal**: Reach the end of this secret passage.
 - **Hypothesis**: This corridor likely leads to the NW corner of B2F, possibly bypassing the shutter or containing the switch.
-- **Item Found**: TM46 Thief at B2F (3, 10).
-- **Action**: Moving South to Stairs at (3, 14).
-- **Hypothesis**: These stairs connect to B1F (3, 14).
-- **Goal**: Check if this leads to the switch or the "real" Murkrow.
-- **Previous**: Stairs at (3, 6) connected B1F and B2F West Corridors.
+- **Dead End**: B2F West Area (Row 6-10) is a dead end containing TM46.
+- **Action**: Returning to B1F via Stairs at (3, 6).
+- **Plan**: Investigate "Trap Tile" (Geodude?) at B1F (5, 6).
+- **Hypothesis**: The switch might be disguised as the trap tile or nearby.
+- **Next**: Check connectivity of B1F West Corridor (can I go South to 3, 14?).
