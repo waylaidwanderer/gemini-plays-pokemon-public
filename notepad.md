@@ -107,9 +107,8 @@
 - **Current Position**: (9, 1). Moving West.
 - **Goal**: Reach the end of this secret passage.
 - **Hypothesis**: This corridor likely leads to the NW corner of B2F, possibly bypassing the shutter or containing the switch.
-- **Location**: B1F NW Corridor.
-- **Trap**: Passed a Geodude-like tile at (5, 6). Non-solid/Inactive?
-- **Stairs**: Noted Stairs at (3, 6).
-- **Plan**: Moving South to Row 10 to cross the wall gap to the East side.
-- **Goal**: Reach Scientist (7, 2) and Persian Statues (12, 1).
-- **Hypothesis**: Switch is on the Statues.
+- **Analysis**: Path North from (7, 10) is blocked by Wall at Row 9.
+- **Analysis**: East Room (Scientist/Statues) is sealed by walls on West/South/North and Shutter on SE.
+- **Hypothesis**: Access is via the SECOND set of stairs at (3, 6).
+- **Plan**: Backtrack to West Corridor. Take Stairs at (3, 6).
+- **Expectation**: Leads to B2F, then another stair up to the sealed room.
