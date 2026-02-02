@@ -13,8 +13,8 @@
 - **Correct Path**: Loop East to Col 28, go South to Row 12, then West into room.
 
 ## Status
-- **Location**: B2F Northeast Room (23, 5).
-- **Goal**: Toggle Switch at (23, 4) [Front].
-- **Plan**: Move East to (23, 5) -> Face Up -> Interact.
-- **Reason**: Checking from the back (23, 3) failed. Trying the front.
-- **Note**: Warp is at (21, 9). Stay East of Col 21 when exiting.
+- **Location**: B2F Northeast Room (21, 5).
+- **Goal**: Check Back of Grunt's Computer (21, 6).
+- **Action**: Move Left to (21, 5) -> Face Down -> Interact.
+- **Reason**: Previous check at (21, 5) might have faced Right (arrival direction). Need to ensure I face the computer.
+- **Note**: This computer is guarded by a Grunt, making it the primary suspect.
