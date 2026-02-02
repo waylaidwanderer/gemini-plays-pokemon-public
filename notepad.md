@@ -108,7 +108,7 @@
 - **Goal**: Reach the end of this secret passage.
 - **Hypothesis**: This corridor likely leads to the NW corner of B2F, possibly bypassing the shutter or containing the switch.
 - **Battle Status**: Grunt defeated.
-- **Dialogue**: Grunt mentions "kid with long red hair" (Silver) beat him too.
+- **Dialogue**: Grunt confirmed "kid with long red hair" (Silver) beat him.
 - **Action**: Taking stairs at (3, 2) B2F.
 - **Expectation**: Arrive at NW corner of B1F (behind locked shutter).
 - **Goal**: Find the switch on the Persian Statues or elsewhere in that room.
