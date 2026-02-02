@@ -39,3 +39,4 @@
 - Note: Discrepancy in summary regarding stairs at (3, 14). Currently no stairs visible there. Possible hidden passage or error in summary.
 - (4, 13): Oath (Text only).
 - (5, 13): Inaccessible (Blocked by Grunt at 5, 14 and walls).
+- (6, 13): Oath (Text only).
