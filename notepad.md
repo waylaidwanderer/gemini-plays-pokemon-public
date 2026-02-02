@@ -137,5 +137,9 @@
 - Passed Grunt at (4, 1).
 - Exploring the corridor to the East.
 - B2F also has a Row 1 corridor. This seems to be a feature of the base.
-- Grunt at (4, 1) mentions "abducting POKéMON". Seems to be lore/defeat speech.
-- Plan: Finish dialogue, move around him to (5, 2) -> (5, 1), and explore the B1F Row 1 Corridor to the East.
+- Exploring B1F Row 1 Secret Corridor.
+- Currently at (7, 1). Moving East.
+- Saw "Trap Tile" (Voltorb/Geodude statue) at (7, 5) from the corridor, but it's separated by a wall.
+- Heading towards potential Persian Statues or Shutter Switch.
+- Grunt at (4, 1) bypassed.
+- Note: Player is in Rocket Disguise.
