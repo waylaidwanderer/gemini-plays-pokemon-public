@@ -16,6 +16,7 @@
 - **Plan**: Attempt to access Row 14 (South of computers). If blocked, assume Row 14 is chairs/solid.
 - **Checked**: Row 17, Row 13, Row 11, Row 10 (NE Room). Row 6 (22-25).
 - **Checking**: NE Room Computers.
-- **Path**: Loop East (Col 28) past stairs, then West into NE Room.
+- **Path**: Entered NE Room from East (via Row 16).
+- **Next**: Check computers at (24-25, 10) and (23, 10).
 - **Traps**: Cols 1-3 (Reset to 5,16).
 - **Murkrow**: Locked behind shutters.
