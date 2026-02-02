@@ -13,8 +13,8 @@
 - **Correct Path**: Loop East to Col 28, go South to Row 12, then West into room.
 
 ## Status
-- **Location**: B2F Southeast (27, 14).
-- **Goal**: Reach Murkrow at (8, 3) via Central Room.
-- **Plan**: Move East to Corridor -> Enter Room from South (22, 15) -> North to Row 5 -> West to Murkrow.
-- **Reason**: Avoids stairs (warp loop) and potential one-way ledge at (18, 3).
-- **Action**: Move Right to clear stairs.
+- **Location**: B2F East Corridor (28, 14).
+- **Goal**: Reach Murkrow at (8, 3) via South Central Entrance.
+- **Path**: South to (28, 15) -> West to (22, 13) -> North to Murkrow.
+- **Reason**: Avoiding potential one-way ledge at (18, 3) and stair-loops.
+- **Action**: Use BFS to reach Room Entrance (22, 13).
