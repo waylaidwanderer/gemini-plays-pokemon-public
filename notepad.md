@@ -8,7 +8,7 @@
 - **Passwords Obtained**:
   1. "Hail Giovanni" (Scientist Jed/Computer).
   2. "SLOWPOKETAIL" (Grunt at 20, 7).
-- **Grunt Hint**: "Useless unless you have two passwords." (Confirmed I need both).
+- **Grunt Hint**: "But it's useless unless you have..." (Text looped). Likely implies need for 2nd password or Boss interactions.
 - **Plan**: Head to B2F Boss Door immediately.
 - **Murkrow**: Likely irrelevant now that I have the password.
 - **Path**: Exit computer area via Col 19 gap, then to stairs at (27, 14).
