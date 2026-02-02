@@ -6,8 +6,8 @@
 
 ## Critical Navigation Notes
 - **WEST WALL IS SOLID**: The wall at x=6 on B2F is solid.
-- **NE ROOM ACCESS**: Access via South entrance at Row 12 (Cols 19-26).
-- **NE ROOM BARRIER**: Search NE Room for switch (avoid warp at 21,9).
+- **NE ROOM ACCESS**: Enter via South Gap (21-22, 13). East Corridor blocked.
+- **Checking**: North side of computers. Path: South Gap -> Col 26 -> Row 9.
 - **Correct Path**: Loop East to Col 28, go South to Row 12, then West into room.
 
 ## Status
