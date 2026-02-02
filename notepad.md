@@ -13,8 +13,8 @@
 - **Correct Path**: Loop East to Col 28, go South to Row 12, then West into room.
 
 ## Status
-- **Location**: B2F Central Room (22, 13).
+- **Location**: B2F Central Room (14, 12).
 - **Goal**: Reach Murkrow at (8, 3).
-- **Plan**: Move West to Shutter at (14, 11).
-- **Hypothesis**: Shutter is OPEN (Switch at 23, 3 triggered).
-- **Path**: West along Row 13/12 to (14, 12).
+- **Test**: Attempting to pass Shutter at (14, 11).
+- **Contingency**: If blocked, return to NE Corridor (28, 2) and attempt Westward crossing (Verify Ledge).
+- **Status**: Checking shutter...
