@@ -13,7 +13,8 @@
 - **Correct Path**: Loop East to Col 28, go South to Row 12, then West into room.
 
 ## Status
-- **Location**: B2F Central Entrance (22, 15).
-- **Goal**: Reach Murkrow at (8, 3) via Northern Corridor.
-- **Path**: (22, 15) -> East to (28, 15) -> North to (27, 2) -> West to (8, 3).
-- **Reason**: Southern approach blocked by desks/shutters. Must loop North.
+- **Location**: B2F Northeast Room (25, 5).
+- **Goal**: Reach East Corridor via Row 15 (Row 12 is blocked by Shutter).
+- **Path**: South to (22, 15) -> East to (28, 15) -> North to (27, 2).
+- **Reason**: Previous path failed due to Shutter at (27, 12).
+- **Murkrow**: At (8, 3).
