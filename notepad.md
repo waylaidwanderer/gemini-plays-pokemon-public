@@ -83,3 +83,4 @@
 - **Action**: Talking to Grunt at (25, 13) to see if he triggers the door or battle.
 - **Result**: "Raticate Tail" password FAILED. Boss Door remains locked.
 - **Next Step**: Returning to B1F to investigate Persian Statues at (12, 1) and (13, 1).
+- **Oath Machine**: Investigating text at (6, 13).
