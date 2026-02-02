@@ -144,10 +144,12 @@
 - Checking gap at B2F (14, 4) which leads to the area "Behind the Desks" (Rows 5-10).
 - This area was previously missed. It might contain the Shutter Switch or access to the Persian Statues.
 - Leaving Mitch for now.
-- Traversing B1F (3_50) Corridor Westbound.
-- Route: (15, 1) -> (5, 1) -> (5, 2) -> Stairs at (3, 2).
-- Bypassing Grunt at (4, 1) via Row 2.
-- Goal: Return to B2F West Side to check Persian Statues and "Sealed Area".
+- Traversing B1F (3_50) Corridor Eastbound.
+- Current Pos: (10, 1). Destination: Stairs at (27, 2).
+- Reason: Need to loop back to B2F NE Area to access the "Gap" at B2F (14, 4).
+- This will allow me to reach the corridor where Rival Silver is waiting (B2F Row 2, Col 7).
+- Silver and Murkrow are separated from the West side by a wall at (6, 2).
+- I must approach them from the East side (Row 4 -> Col 14 -> Col 7).
 - Confronting Rival Silver at B2F (7, 2).
 - Murkrow is at (7, 1).
 - Expecting cutscene/dialogue where Silver mentions he doesn't want the weak Murkrow.
