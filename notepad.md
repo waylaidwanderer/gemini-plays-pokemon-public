@@ -6,8 +6,8 @@
 
 ## Status
 - **Location**: B1F Main Area (Map 3_51).
-- **Strategy**: Sweeping North-East area (Rows 0-9, Cols 18-29).
-- **Murkrow**: Last seen at (28, 9), fled. Searching possible hiding spots in NE sector.
+- **Strategy**: Tracking Murkrow.
+- **Murkrow**: Displaced from (28, 8). Searching for next location (likely West/North).
 
 ## Exploration Log (Map 3_51)
 - **Tile Mechanics**:
