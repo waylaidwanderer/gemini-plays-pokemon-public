@@ -13,7 +13,7 @@
 - **Correct Path**: Loop East to Col 28, go South to Row 12, then West into room.
 
 ## Status
-- **Location**: B2F East Corridor (28, 15).
-- **Goal**: Reach Murkrow at (8, 3) via Northern Corridor.
-- **Path**: North to (27, 2) -> West to (8, 3).
-- **Reason**: Flanking Murkrow from the North/East.
+- **Location**: B1F Northeast (27, 2).
+- **Goal**: Return to B2F Northeast (27, 2).
+- **Action**: Manual: Left, Right to warp back down.
+- **Reason**: BFS targeted the stairs tile (27, 2), causing an accidental warp to B1F. Need to be on B2F to reach Murkrow.
