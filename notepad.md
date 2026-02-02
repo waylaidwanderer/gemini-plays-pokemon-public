@@ -13,8 +13,8 @@
 - **Correct Path**: Loop East to Col 28, go South to Row 12, then West into room.
 
 ## Status
-- **Location**: B2F Northwest (3, 2).
-- **Goal**: Re-ascend to B1F via stairs at (3, 2).
-- **Action**: Manual Transition: Right (Step Off), Left (Step On).
-- **Next**: Verify Map is 3_50 (B1F). Then move East to (27, 2).
-- **Reason**: BFS causes bouncing/loops. Manual control required.
+- **Location**: B1F Northwest (3, 2).
+- **Goal**: Traverse East to NE Stairs (27, 2).
+- **Path**: Run East along Row 1/2.
+- **Next**: Descend to B2F NE Area -> Enter Central Area (East Side) -> Find Murkrow at (8, 3).
+- **Reason**: Murkrow is in the central area, accessible from the East entrance.
