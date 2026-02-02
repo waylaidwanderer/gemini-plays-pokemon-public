@@ -18,6 +18,13 @@
   - (3, 13): Hidden Item (X Special) - Collected.
   - (1, 12): Item (Protein) - Collected.
 - (2, 11): Blocked by plant.
+- Maze Path:
+  1. Row 16 East to x=14.
+  2. Up to Row 13.
+  3. East to x=17.
+  4. Down to Row 14.
+  5. East to x=28.
+  6. Up to North Section.
 - Target: Navigate to North Section via East Gap (Col 28), then explore Top-Left (Row 0-10, Col 0-10).
 - (1, 11): Checked (Empty).
 - (14, 11): Locked Shutter.
