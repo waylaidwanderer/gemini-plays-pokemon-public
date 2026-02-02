@@ -67,9 +67,9 @@
 - Hypothesis: Check the Statues/machines at (12, 1) again?
 - **Tool Status**: `bfs_navigate` confirmed unreliable in this area (Turn 24369-24372). Using manual pathing.
 - **Search Plan**:
-  1. Re-check NE Computers (Row 6).
-  2. Check Statues/Machines at Row 1 (Cols 12-13).
-  3. Re-investigate West Wing access points.
+  1. Investigate Persian Statues at (12, 1) and (13, 1) via Col 16/17. (Top priority - Unchecked).
+  2. If Statues are empty, return to Ghost Bird (28, 9) and test interaction angles carefully.
+  3. STOP checking computers marked with X.
 
 - **Current Hypothesis**: Murkrow location cycles between NE (28,9) and West (3,12). Interaction physics unclear.
 - (15, 10): Checking potential Shutter/Door.
