@@ -14,9 +14,9 @@
 
 ## Status
 - **Location**: B2F Northwest (5, 2).
-- **Goal**: Talk to Silver at (7, 2). Then catch Murkrow at (8, 3).
-- **Path**: Move Right -> Talk.
+- **Goal**: Talk to Silver (7, 2). Then Interact with Murkrow (8, 3).
+- **Plan**: Move Right to (6, 2) -> Talk -> Advance Text.
 - **Checked**: NE Room, SW Room.
 - **To Check**: NW Room (Current).
-- **Traps**: Cols 1-3 (Reset to 5,16) - Watch out!
+- **Traps**: Cols 1-3 (Reset to 5,16).
 - **Murkrow**: Found at (8, 3)!
