@@ -168,9 +168,9 @@
   - Row 13 is a Wall except for Gap at Cols 21-22.
   - Row 4 is a Wall except for Gap at Col 16-17.
 - Path to Stairs (27, 2):
-  1. (19, 6) -> Right to Col 21.
+  1. (19, 12) -> Right to Col 21.
   2. Down to Row 14 (through Row 13 gap).
   3. Left to Col 17 (cross Col 18).
   4. North to Row 4 Gap.
   5. East to Stairs.
-- Action: Executing Step 1 & 2 (Right to 21, Down to 14).
+- Action: Executing Step 1, 2 & 3 (Right to 21, Down to 14, Left to 17).
