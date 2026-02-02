@@ -148,3 +148,8 @@
 - Route: (15, 1) -> (5, 1) -> (5, 2) -> Stairs at (3, 2).
 - Bypassing Grunt at (4, 1) via Row 2.
 - Goal: Return to B2F West Side to check Persian Statues and "Sealed Area".
+- Returned to B2F West Side via Stairs at (3, 2).
+- Found Rival Silver at (7, 2) and Murkrow at (8, 3).
+- This is a new location for them!
+- Approaching Silver/Murkrow to trigger event.
+- Hypothesis: This is the "Real" Murkrow interaction.
