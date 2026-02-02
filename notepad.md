@@ -14,6 +14,6 @@
 - **Location**: B2F Central Aisle (11, 12).
 - **Goal**: Find Shutter Switch (Systematic Sweep).
 - **Plan**: Check Row 13 Fronts (from Row 14), then Row 11 Backs (from Row 10).
-- **Checked**: Row 17 (5-12), Row 13 (1-4 Front, 9-11 Back), Row 11 (9-11 Front).
+- **Checked**: Row 17 (5-12), Row 13 (1-4 Front), Row 11 (9-11 South Face), Row 13 (9-11 North Face).
 - **Traps**: Cols 1-3 (Reset to 5,16).
 - **Murkrow**: Locked behind shutters.
