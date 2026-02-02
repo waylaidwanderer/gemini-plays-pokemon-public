@@ -166,8 +166,8 @@
 - Confirmed: North West Area is sealed by Shutter at (14, 11).
 - Goal: Find Shutter Switch to open (14, 11).
 - Route:
-  1. Traverse B1F Corridor West from (27, 2) to (3, 2).
+  1. Traverse B1F Corridor West from (27, 2) to (3, 2). (Arriving)
   2. Descend to B2F West Corridor via Stairs (3, 2).
   3. Go South to Stairs (3, 6).
   4. Ascend to B1F South Wing (Trap Tile).
-- Current Action: Traversing B1F Corridor Westbound.
+- Current Action: Approaching Stairs at (3, 2). Then descending.
