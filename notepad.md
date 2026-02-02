@@ -10,13 +10,13 @@
 - **Current Route**: In Central Area.
 
 ## Status
-- **Location**: B2F Central Area (8, 13).
-- **Silver**: Last seen at (8, 10).
-- **Murkrow**: Found at (8, 12). Attempting to interact.
+- **Location**: B2F Central Area (8, 12).
+- **Silver**: Last seen at (8, 10). ran NW.
+- **Murkrow**: Disappeared from (8, 12). Currently searching.
 - **Boss Door**: B2F (23, 14). Locked.
 
 ## Exploration Plan
-1. Interact with Murkrow at (8, 12).
-2. Chase Murkrow if it flees (likely to NW corner).
-3. Get password.
+1. Interact with Grunt at (9, 12).
+2. Search nearby for Murkrow.
+3. Chase/Interact with Murkrow to get password.
 4. Open Boss Door.
