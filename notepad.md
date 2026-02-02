@@ -5,13 +5,13 @@
 - **Tertiary**: Disable Persian Statues (B1F).
 
 ## Status
-- **Location**: B2F West Wing (South Strip), moving to Central Area.
-- **Silver**: B2F (7, 2) (NW Corner).
-- **Murkrow**: B2F (8, 3) (Near Silver).
+- **Location**: B2F Central Area (near x=9, y=10).
+- **Silver**: Encountered at (8, 10). He came from the NW (West then North) and left that way. Confirmed path to NW corner via Row 10.
+- **Murkrow**: Expected in NW Corner (near 7, 2).
 - **Boss Door**: B2F (23, 14). Locked.
 
 ## Exploration Plan
-1. Navigate East along Row 10 to enter Central Area (approx x=16).
-2. Navigate North through Central Area to Row 2/3.
-3. Navigate West to reach Silver (7, 2).
-4. Chase Murkrow.
+1. Follow Silver's path: West along Row 10, then North up the West Wing corridor.
+2. Locate Murkrow in the NW corner.
+3. Chase/Interact with Murkrow to get password.
+4. Open Boss Door.
