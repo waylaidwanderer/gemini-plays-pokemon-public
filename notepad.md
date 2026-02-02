@@ -104,6 +104,6 @@
 - **Path**: (23, 1), (22, 1), (21, 1)... appear walkable.
 - **Hypothesis**: This secret corridor leads to the item/switch needed for the Shutter/Murkrow.
 - **Corridor Mapping**: Investigating Row 1 Corridor (B2F).
-- **Current Position**: (14, 1). Moving West.
+- **Current Position**: (9, 1). Moving West.
 - **Goal**: Reach the end of this secret passage.
-- **Hypothesis**: This corridor bypasses the locked doors or leads to the "real" Murkrow/Switch.
+- **Hypothesis**: This corridor likely leads to the NW corner of B2F, possibly bypassing the shutter or containing the switch.
