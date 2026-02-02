@@ -137,3 +137,5 @@
 - Passed Grunt at (4, 1).
 - Exploring the corridor to the East.
 - B2F also has a Row 1 corridor. This seems to be a feature of the base.
+- Grunt at (4, 1) mentions "abducting POKéMON". Seems to be lore/defeat speech.
+- Plan: Finish dialogue, move around him to (5, 2) -> (5, 1), and explore the B1F Row 1 Corridor to the East.
