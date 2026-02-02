@@ -165,8 +165,9 @@
 - Access to Silver (Zone 2 North) is blocked by walls (Col 6, Col 15) and Shutter (Row 11).
 - Confirmed: North West Area is sealed by Shutter at (14, 11).
 - Goal: Find Shutter Switch to open (14, 11).
-- B2F Search Result: All accessible areas (East, South-West, West Corridor) searched. No switch found.
-- New Strategy: Return to B1F West Wing via Stairs at (3, 6).
-- Target: Investigate "Trap Tile" at B1F (5, 6) and surrounding walls.
-- Route: B2F Central (14, 16) -> West to Col 3 -> North to Stairs (3, 6).
-- Currently traversing B2F South Corridor Westbound.
+- Route:
+  1. Move East to (14, 16) -> North to (14, 12) -> East through Gap (15, 12) to East Room.
+  2. Move North to Gap (17, 4) -> East to Stairs (27, 2).
+  3. Return to B1F -> Cross to Stairs (3, 2).
+  4. Descend to B2F West Corridor -> South to Stairs (3, 6).
+  5. Ascend to B1F South Wing (Trap Tile).
