@@ -17,10 +17,10 @@
 - **Murkrow**: Found as ghost on B1F and B2F? Need to find the real one.
 
 ## Exploration Plan
-1. Check computers at (25,8) and (24,8) (Current).
-2. If no switch, go to B2F via NE Stairs (27, 2).
-3. Travel South on B2F to SE Stairs (27, 14).
-4. Return to B1F (SE) to reach Grunt at (25, 13).
+1. Talk to Scientist Ross at (23, 11).
+2. Navigate to (7, 2) (West side of B2F, East of the wall) to find Murkrow.
+3. If path blocked, investigate gaps at (15, 12) or (16, 4).
+4. Goal: Corner Murkrow to get the password.
 
 ## Important Coordinates
 - **Scientist Mitch**: B1F (11, 15)
