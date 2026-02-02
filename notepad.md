@@ -13,7 +13,8 @@
 - **Correct Path**: Loop East to Col 28, go South to Row 12, then West into room.
 
 ## Status
-- **Location**: B2F East Corridor (28, 14).
-- **Goal**: Reach Murkrow at (8, 3) via Northern Route.
-- **Path**: North to (28, 2) -> West to (8, 3).
-- **Reason**: Flanking from the North avoids shutters and ledges. Stairs excluded from navigation to prevent warps.
+- **Location**: B2F Northeast (28, 2).
+- **Goal**: Reach Murkrow at (8, 3).
+- **Path**: West along Row 2 to (9, 2).
+- **Reason**: Flanking via North Corridor. Attempting to bypass potential ledge at (18, 3) by staying on Row 2.
+- **Hypothesis**: Row 2 might be clear of the ledge.
