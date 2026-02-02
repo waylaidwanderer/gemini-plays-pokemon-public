@@ -13,8 +13,8 @@
 - **Correct Path**: Loop East to Col 28, go South to Row 12, then West into room.
 
 ## Status
-- **Location**: B2F Northeast (27, 2).
-- **Goal**: Reach Murkrow at (8, 3) via South Route.
-- **Path**: South to (28, 15) -> West to (22, 13) -> North through Shutter (14, 11).
-- **Reason**: North Corridor (Row 2) blocked by walls at x=8,9. Must loop South.
-- **Switch**: Confirmed hit at (23, 3). Shutter at (14, 11) should be open.
+- **Location**: B2F Southeast (25, 14).
+- **Goal**: Reach Murkrow at (8, 3).
+- **Plan**: Bypass Grunt at (24, 14) via Row 15 -> Check Shutter at (14, 11).
+- **Path**: Down to (25, 15) -> West to (22, 15) -> North to (22, 13) -> West to Shutter.
+- **Hypothesis**: Shutter at (14, 11) is Open (Switch at 23, 3 was hit).
