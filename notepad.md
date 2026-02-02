@@ -138,8 +138,8 @@
 - Exploring the corridor to the East.
 - B2F also has a Row 1 corridor. This seems to be a feature of the base.
 - Traversing B2F (3_51) Row 1 Corridor Westbound.
-- This connects the NE Stairs (27, 2) to the NW Stairs (3, 2).
-- I have explored this before (Turn 24508-24531), finding a Grunt at (4, 1).
-- Re-checking for anything missed (hidden switches, doors).
-- Hypothesis: A hidden door might exist in the B1F or B2F Row 1 corridors leading South into the closed rooms.
-- Current Goal: Reach (3, 2) and re-evaluate the NW corner of B2F.
+- Player is at (19, 1).
+- Detected gaps in the South Wall (Row 4) at Cols 16-17 and Col 14.
+- Plan: Investigate these gaps to see if they lead to new areas of B2F.
+- The Boss Door is at (23, 14) in the main area.
+- Opening the shutter on B1F might require a switch found in these central B2F areas.
