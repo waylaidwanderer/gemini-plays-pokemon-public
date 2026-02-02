@@ -87,6 +87,7 @@
 - **Plan**: Moving Right to Col 28, then Up to check Murkrow locations.
 - **Targets**: (28, 11) and (28, 9).
 - **Hypothesis**: "Ghost" behavior might change if I approach differently or if the password attempt reset something.
-- **Murkrow Test**: At (28, 10). Attempting interaction with Murkrow at (28, 9).
-- **Previous Result**: No text observed after previous sequence.
-- **Action**: Pressing A, then walking UP into it to test solidity.
+- **Murkrow Status**: CONFIRMED GHOST. Player sprite walked onto (28, 9) overlapping Murkrow. No interaction.
+- **Hypothesis**: The real Murkrow is trapped or I need to activate a switch first.
+- **Target**: Persian Statues (Gold Statues) at (12, 1) and (13, 1). Possible hidden switch location.
+- **Plan**: Go South to Row 16, West to Center, North to Row 1.
