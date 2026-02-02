@@ -138,8 +138,8 @@
 - Exploring the corridor to the East.
 - B2F also has a Row 1 corridor. This seems to be a feature of the base.
 - Exploring B1F Row 1 Secret Corridor.
-- Reached (17, 1). Continuing East.
-- Observed `SPRITE_7afb` (likely Voltorb/Electrode trap) at (22, 5) in the room below.
-- This corridor seems to bypass the main rooms.
-- Goal: Reach the end of this corridor (likely NE corner).
-- Note: Player is in Rocket Disguise.
+- Currently at (22, 1). Moving East.
+- This corridor connects the NW Room (where Grunt was) to the NE Room (Stairs at 27, 2).
+- Plan: Verify connection to NE Stairs, then take stairs down to B2F.
+- Goal: Explore B2F Row 1 Corridor for hidden switches or access to central areas.
+- Note: B1F Row 1 seems to be just a connector.
