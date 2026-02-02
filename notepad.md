@@ -83,8 +83,7 @@
 - **Plan**: Exploring area behind computers (Rows 7-9).
 - **Oath Text**: "Exploit POKéMON for profit!" (Both machines).
 - **Murkrow Anomaly**: Murkrow at (3, 12) is non-solid/non-interactive (Ghost).
-- **Objective**: Solve Murkrow Puzzle.
-- **Status**: Password "SLOWPOKETAIL" failed without Murkrow.
-- **Hypothesis**: Must catch/interact with Murkrow to get "Boss's Voice".
-- **Plan**: Checking NE Spawn (28, 9) first. Then West Spawn (3, 12).
-- **Previous Issues**: "Ghost" Murkrow. Non-solid. Maybe fixed now?
+- **Obstacle**: (27, 13) is `TYPE_63e2` (Solid/Wall). Must use Column 28.
+- **Plan**: Moving Right to Col 28, then Up to check Murkrow locations.
+- **Targets**: (28, 11) and (28, 9).
+- **Hypothesis**: "Ghost" behavior might change if I approach differently or if the password attempt reset something.
