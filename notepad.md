@@ -15,5 +15,5 @@
 ## Status
 - **Location**: B2F Southeast (27, 14).
 - **Goal**: Find Murkrow at (8, 3).
-- **Path**: Navigate via East Corridor to Central Room entrance (22, 13), then North.
-- **Reason**: Back on B2F. Murkrow is waiting!
+- **Path**: Navigate West/North to (8, 3). Avoid Grunt at (24, 14).
+- **Reason**: Back on B2F. Moving to intercept Murkrow.
