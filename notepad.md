@@ -11,12 +11,13 @@
 - **Correct Path**: Loop East to Col 28, go South to Row 12, then West into room.
 
 ## Status
-- **Location**: B2F NE Room (20, 9).
+- **Location**: B2F NE Room (20, 11).
+- **Checked**: Row 6 (All), Row 10 (20-22).
 - **Key Item/Flag**: Obtained "Raticate Tail" password from Grunt at (5, 14).
 - **Murkrow**: Disappeared from (8, 12). Likely in NW corner.
 - **Boss Door**: B2F (23, 14). Requires 2 passwords.
 
 ## Exploration Plan
-1. Check computers at (24, 6) and (20, 6).
-2. If no switch, check computers in Row 10.
-3. If switch found, go to Shutter at (14, 11).
+1. Check computers at (24, 10) and (25, 10).
+2. If switch found, go to Shutter at (14, 11).
+3. If not, check "Transmitter" or re-check B1F.
