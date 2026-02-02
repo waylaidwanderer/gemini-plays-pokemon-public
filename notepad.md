@@ -14,8 +14,8 @@
 
 ## Status
 - **Location**: B2F Central Area (20, 7).
-- **Goal**: Check computer at (20, 6).
-- **Checked**: Row 10 (South), Row 10 (23 Back - Done).
-- **To Check**: (20, 6).
+- **Goal**: Check (20, 6). Then to NW Room via NE Stairs.
+- **Checked**: NE Room (Rows 6, 10, 11), SW Room (Rows 11, 13).
+- **To Check**: NW Room (Silver's location).
 - **Traps**: Cols 1-3 (Reset to 5,16). (21, 9) (Warp).
 - **Murkrow**: Locked behind shutters.
