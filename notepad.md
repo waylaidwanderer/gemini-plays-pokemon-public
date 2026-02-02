@@ -163,6 +163,8 @@
 - Confirmed: North West Area is sealed by Shutter at (14, 11).
 - Goal: Find Shutter Switch to open (14, 11).
 - Current Strategy: Investigating Persian Statues at (12, 1) in the B2F NW Corridor.
-- Passed the Gap at (17, 4). Now in East Room (North Section).
-- Route: Move East to Stairs at (27, 2).
-- Next: Return to B1F via East Stairs (27, 2) -> Cross B1F to West Stairs (3, 2).
+- Returned to B1F (3_50) via NE Stairs (27, 2).
+- Crossing B1F Corridor Westbound to reach Stairs at (3, 2).
+- Goal: Return to B2F West Wing to investigate Persian Statues (12, 1) and Shutter Switch.
+- Navigation: Move West along Row 1.
+- Note: Grunt at (4, 1) might block path; bypass via Row 2 if needed.
