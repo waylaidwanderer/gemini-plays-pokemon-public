@@ -77,3 +77,4 @@
 - **Murkrow Log**: Found at (3, 12) (West Wing) on Turn 24340. Fled immediately. Confirming ping-pong pattern. Heading back to NE Spawn (28, 9).
 - **Murkrow Log**: Found at (28, 11) (East Wing) on Turn 24343. Bumping to interact.
 - **Observation**: Player and Murkrow sprites overlapping at (28, 11). Pressing A.
+- **Anomaly**: Murkrow at (28, 11) appears non-solid (walked through/overlapping). Attempting to interact from North ((28, 10)).
