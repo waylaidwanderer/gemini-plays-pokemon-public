@@ -14,7 +14,6 @@
 
 ## Status
 - **Location**: B2F Northeast (27, 2).
-- **Goal**: Intercept Murkrow at (8, 3).
-- **Path**: West along Row 2 to (8, 2) -> South to Murkrow.
-- **Reason**: Successfully flanked via B1F/B2F loop. The shutter was bypassed.
-- **Next**: Interact with Murkrow.
+- **Goal**: Reach Murkrow at (8, 3).
+- **Path**: Attempt West via Row 3. If blocked by Ledge at (18, 3), loop South to Row 14.
+- **Reason**: Testing if "Passage to East" is one-way. BFS will attempt it.
