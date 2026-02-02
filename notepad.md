@@ -73,3 +73,4 @@
 
 - **Current Hypothesis**: Murkrow location cycles between NE (28,9) and West (3,12). Interaction physics unclear.
 - (15, 10): Checking potential Shutter/Door.
+- **Interaction Attempt**: Stepped OFF Murkrow at (28, 11) to (28, 12), facing UP, pressing A.
