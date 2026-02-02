@@ -17,7 +17,6 @@
 - **Boss Door**: B2F (23, 14). Requires 2 passwords.
 
 ## Exploration Plan
-1. Move West to Col 19 to bypass Row 10 desks.
-2. Go North to Row 7.
-3. Check computers at (22, 6) for Switch.
-4. Go West to NW corner.
+1. Check computers at (24, 6) and (20, 6).
+2. If no switch, check computers in Row 10.
+3. If switch found, go to Shutter at (14, 11).
