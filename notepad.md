@@ -13,8 +13,7 @@
 - **Correct Path**: Loop East to Col 28, go South to Row 12, then West into room.
 
 ## Status
-- **Location**: B1F East (27, 11).
-- **Goal**: Reach B1F NE Stairs (27, 2).
-- **Path**: Navigate around wall at (27, 10).
-- **Reason**: Flanking Murkrow from the North (B2F NE).
-- **Correction**: Excluded TYPE_2889 (Wall) from walkable types.
+- **Location**: B1F Southeast (27, 11).
+- **Goal**: Return to B2F Southeast (27, 14).
+- **Dead End**: B1F SE is an isolated room. Cannot reach NE Stairs (27, 2).
+- **Plan**: Warp to B2F -> Enter Central Room via (22, 13) -> Navigate carefully to Murkrow.
