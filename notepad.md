@@ -17,6 +17,7 @@
   - Row 13 (Cols 4-7): Team Rocket Oath.
   - (3, 13): Hidden Item (X Special) - Collected.
   - (1, 12): Item (Protein) - Collected.
-- Target: Check computer at (2, 11). Then explore Top-Left corner (Row 1-7).
+- (2, 11): Blocked by plant.
+- Target: Navigate to North Section via East Gap (Col 28), then explore Top-Left (Row 0-10, Col 0-10).
 - (1, 11): Checked (Empty).
 - (14, 11): Locked Shutter.
