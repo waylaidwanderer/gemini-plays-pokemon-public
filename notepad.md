@@ -19,8 +19,8 @@
   - (1, 12): Item (Protein) - Collected.
 - (2, 11): Blocked by plant.
 - (2, 12): Plant (Solid/No Interaction).
-- Target: Check computers at (12, 11) down to (4, 11).
-- (13, 11): Checked (Empty).
+- (12, 11): Checked (Empty).
+- Plan: Access (2, 11) from the North via gap at (16, 11).
 - (1, 11): Checked (Empty).
 - (24, 14): Grunt (Defeated/Passive) - "The guy in the cape..."
 - (15, 10): Inspected (Solid/No Interaction).
