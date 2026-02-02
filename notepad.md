@@ -41,7 +41,7 @@
 - Suspect: Hidden switch might be in the SE area or on a computer I missed in the East.
 - (15, 16): Inspected (Solid/No Interaction) - Confirmed Shutter/Wall.
 - (15, 11): Suspected Shutter/Wall (Type 63e2).
-- (14, 11): Locked Shutter.
+- (14, 11): Locked Shutter (Verified non-interactive/Locked).
 - (15, 16): Suspected Shutter.
 - Note: Displaced Murkrow at (28, 9). It fled. Tracking it down (likely North/West).
 - **Grunt Info**: Grunt at (5, 14) is useless (gives bad password "Raticate Tail").
