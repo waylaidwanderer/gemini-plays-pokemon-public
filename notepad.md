@@ -15,8 +15,7 @@
 - **Goal**: Find Shutter Switch (Systematic Sweep).
 - **Plan**: Attempt to access Row 14 (South of computers). If blocked, assume Row 14 is chairs/solid.
 - **Checked**: Row 17, Row 13, Row 11, Row 10 (NE Room). Row 6 (22-25).
-- **Checking**: NE Room Computers.
-- **Path**: Entered NE Room from East (via Row 16).
-- **Next**: Check computers at (24-25, 10) and (23, 10).
+- **Checking**: NE Room. Specific checks: (23, 10) from North, (20, 6) from South.
+- **Next**: If no switch, consider checking other unchecked spots or moving to NW Room.
 - **Traps**: Cols 1-3 (Reset to 5,16).
 - **Murkrow**: Locked behind shutters.
