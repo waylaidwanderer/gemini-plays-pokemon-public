@@ -140,3 +140,7 @@
 - Battling Scientist Mitch at (11, 15).
 - Objective: Defeat him to unlock the shutter or get information.
 - Dialogue: "If we turn up the power of our radio... signal for broadcast nationwide... The very thought excites me!"
+- Scientist Mitch dialogue seems to loop ("If we turn up the power..."). He might not be a trainer or I've already triggered his flag?
+- Checking gap at B2F (14, 4) which leads to the area "Behind the Desks" (Rows 5-10).
+- This area was previously missed. It might contain the Shutter Switch or access to the Persian Statues.
+- Leaving Mitch for now.
