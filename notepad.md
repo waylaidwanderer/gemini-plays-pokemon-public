@@ -7,7 +7,7 @@
 ## Status
 - **Location**: B1F Secret Room (Map 3_51).
 - **Passwords**: "Hail Giovanni", "SLOWPOKETAIL".
-- **Plan**: Loop South to Row 15 to access East Corridor, then check (28, 9) for Murkrow.
+- **Plan**: Chase Murkrow from (28, 9) and obtain the password. Locate Shutter Switch if path is blocked.
 
 ## Exploration Log (Map 3_51)
 - **Checked (Nothing Found)**:
