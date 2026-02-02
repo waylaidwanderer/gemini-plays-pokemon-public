@@ -15,7 +15,7 @@
   - `TYPE_3fe2`: Walkable Floor.
   - **Barriers**:
     - Row 4 (East): Solid Wall from Col 18 to 27. Gap at Col 16-17.
-    - Row 11 (West): Blocked by desks/walls (Cols 1-13).
+    - Row 11 (West): Gap found at Col 10! (Screen shows walkable).
     - Row 12 (West): Blocked by plants at Col 2.
 - **Cleared Areas (Nothing Found)**:
   - East Wing (Rows 6, 10), North Wall (Row 0), West Wing (Row 11).
