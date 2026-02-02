@@ -17,10 +17,9 @@
 - **Murkrow**: Found as ghost on B1F and B2F? Need to find the real one.
 
 ## Exploration Plan
-1. Traverse B1F Secret Corridor (Row 1) to (24, 1).
-2. Explore NE B1F area (behind statues) for the switch.
-3. Check Grunt at B2F (25, 13).
-4. Check computers in B2F Central Area (Row 9, Row 10).
+1. Systematically check all computers in the NE B1F room (current location).
+2. If switch found, proceed to B2F Boss Door.
+3. If not, check Grunt at B2F (25, 13) or other computers.
 
 ## Important Coordinates
 - **Scientist Mitch**: B1F (11, 15)
