@@ -14,16 +14,16 @@
   - `TYPE_1fdc`: Walkable (Carpet/Oath/Interactable).
   - `TYPE_2889`/`TYPE_63e2`: Solid (Walls/Desks/Plants).
   - `TYPE_3fe2`: Walkable Floor.
+  - **Barriers**:
+    - Row 11 (West): Blocked by desks/walls (Cols 1-13).
+    - Row 12 (West): Blocked by plants at Col 2.
 - **Checked (Nothing Found)**:
   - East Wing: Rows 6 & 10 (Cols 20-25).
   - North Wall: Row 0 (Cols 16-21).
   - West Wing: Row 11 (Cols 8-12).
-- **Findings**:
   - Row 13 (Cols 4-7): Team Rocket Oath (Walkable).
-  - (3, 13): Hidden Item (X Special) - Collected.
-  - (1, 12): Item (Protein) - Collected.
-- (2, 11): Blocked by plant.
-- (2, 12): Plant (Solid/No Interaction).
+  - (3, 13): Hidden Item (X Special).
+  - (1, 12): Item (Protein).
 - **Checked Computers**:
   - Row 11: Cols 1, 8, 9, 10, 11, 12, 13.
   - East Wing & North Wall: Clear.
