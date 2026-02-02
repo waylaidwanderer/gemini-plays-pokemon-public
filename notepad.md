@@ -144,8 +144,8 @@
 - Checking gap at B2F (14, 4) which leads to the area "Behind the Desks" (Rows 5-10).
 - This area was previously missed. It might contain the Shutter Switch or access to the Persian Statues.
 - Leaving Mitch for now.
-- Col 15 on B2F appears to be a solid wall separating the East and West sides.
-- Currently on East Side at (16, 7).
-- Goal: Reach the Gap at (14, 4) on the West Side.
-- Plan: Verify if (15, 1) connects the two sides.
-- If blocked, I must loop via B1F: Stairs at (27, 2) -> B1F West -> Stairs at (3, 2) -> B2F West.
+- Confirmed via Mental Map/Heatmap: B2F Row 1 is NOT continuous. Blocked at (15, 1).
+- Plan: Loop around via B1F.
+- Route: Stairs (27, 2) -> B1F -> West Corridor -> Stairs (3, 2) -> B2F West.
+- Goal: Reach B2F West Side to access the Persian Statues (12, 1) and "Sealed Area" behind Shutter.
+- Expectation: Find Shutter Switch or Murkrow in the Sealed Area.
