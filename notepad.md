@@ -11,11 +11,11 @@
 - **Current Goal**: Find the switch to make Murkrow solid/catchable.
 - **Target**: Persian Statues at (12, 1).
 - **Oath Text**: "Exploit POKéMON for profit!" (Confirmed).
-- **Action**: Inspecting (1, 11).
-- **Location**: West Strip (Col 1).
-- **Reason**: (1, 11) is a `TYPE_2889` tile (same as computers) at the end of a dead end. Possible hidden switch.
-- **Previous**: Desk at (3, 11) yielded nothing.
-- **Plan**: Move South to Row 16 -> Left to Col 1 -> Up to (1, 12) -> Inspect (1, 11).
+- **West Strip (Col 1)**: Checked (1, 11) and (3, 11). Nothing found. Dead end.
+- **Action**: Returning to Main Corridor.
+- **Next Target**: Re-inspect Shutter at (14, 11) and then check East Murkrow spawn (28, 9).
+- **Hypothesis**: Murkrow location cycles. If not West, must be East.
+- **Ghost Issue**: Treating previous "Ghost" sighting as potential anomaly or flight animation. Need to re-confirm.
 - **Hypothesis**: Hidden switch on statues.
 - **Murkrow**: Still need to solve the Ghost issue.
 - **Status**: Passwords obtained but insufficient. Need Boss's Voice.
