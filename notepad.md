@@ -1,40 +1,26 @@
 # Team Rocket HQ (Mahogany Town)
 ## Objectives
 - **Primary**: Open Boss Door on B2F (Requires Murkrow Voice + "Raticate Tail").
-- **Secondary**: Find Murkrow to mimic voice/password.
+- **Secondary**: Catch Murkrow (currently in B1F North-East section).
 - **Tertiary**: Defeat Grunt guarding stairs (B1F West).
 
-## Map Structure (Clarified)
-- **Map 3_50**: B2F Main Area (West Corridor, South Area).
-- **Map 3_51**: B1F Main Area (Murkrow, Silver, Scientist Mitch).
-- **Map 3_49**: B1F West Entrance (Persian Statues).
+## Map Structure
+- **Map 3_50 (B2F)**:
+  - North Corridor (Row 1): Connects NW Stairs (3, 2) and NE Stairs (27, 2).
+  - South Corridor (Row 16): Connects SW Stairs (3, 14) and SE Stairs (27, 14).
+  - West Corridor (Column 3) and East Corridor (Column 27) are blocked mid-way.
+- **Map 3_51 (B1F)**:
+  - West Section: Accessible via NW Stairs (3, 2). Contains Persian Statues.
+  - North-East Section: Accessible via NE Stairs (27, 2). Contains Silver & Murkrow.
+  - South-East Section: Accessible via SE Stairs (27, 14). Contains Switch.
 
-## Navigation & Strategy
-- **Current Location**: B2F South (20, 14).
-- **Status**: Password "RATICATE TAIL" obtained. Direct entry failed (Voice ID required?).
-- **Observation**: Silver mentions "knows the password". This confirms Murkrow is needed.
-- **Objective**: Catch Murkrow. Last seen on B1F or B2F?
-  - Murkrow was last seen fleeing. I need to find where it went.
-  - Plan: Go to B1F via stairs at (27, 14).
-  - Hypothesis: Switch at B1F (19, 11) might toggle shutters/statues.
-- **Next Step**: Head to B1F switch.
-- Navigation Note: Row 13 blocked by desks between X=18 and X=26. Use East Corridor (X=27) or Column 21 to bypass.
-- **Switch Location Hypothesis**: The "Switch" previously used at Turn 25756 was likely the wall panel at (18, 11) or the computer accessed from (21, 11). Checking both.
-- **Navigation Update**: Wall detected at X=18 (Rows 9-13). Gap confirmed at (18, 14). Blockage likely at (19, 13). Path to shutters requires looping South to Row 14.
-- **Navigation Update**: Wall confirmed at (15, 14). The gap between East/West B1F is blocked here too.
-- **Strategy**: Locked shutters and walls block access to West B1F. Must backtrack to B2F via stairs at (27, 14), traverse B2F to West stairs, and re-emerge on B1F West side to catch Murkrow.
-- **Navigation Update**: B2F East Corridor (Column 27) blocked at Row 10. Cannot traverse South-to-North on B2F East side.
-- **Revised Route to Murkrow**:
-  1. Go to Stairs at B2F (27, 14).
-  2. Take Stairs UP to B1F (27, 14).
-  3. Travel North on B1F to Stairs at (27, 2).
-  4. Take Stairs DOWN to B2F North (27, 2).
-  5. Travel West along B2F Row 1 to (3, 2).
-  6. Take Stairs UP to B1F West.
-- **Observation (Turn 26334)**: Tile at (6, 2) appears to be a wall (`TYPE_2889`) despite visual similarity to floor. Direct access to Silver from the West is blocked.
-- **Plan**: Navigate South to the gap at (6, 10), then North to approach Silver from the South at (7, 3).
-- **Navigation Strategy**:
-  1. Go West to (5, 10) to bypass the wall at Row 9.
-  2. Go North along Column 5.
-  3. Probe Column 6 (Right Wall) for a hidden gap to reach Silver at (7, 2).
-- **Hypothesis**: The wall separating Column 5 and 7 is not solid along its entire length. There must be a gap between Row 2 and Row 9.
+## Current Plan
+1. **Navigate B2F**: Travel East from current location (3, 2) via Row 1 to NE Stairs (27, 2).
+2. **Ascend to B1F**: Take stairs at (27, 2).
+3. **Intercept**: Locate Silver and Murkrow in B1F NE section.
+4. **Chase**: If Murkrow flees, follow it (likely to B2F again).
+
+## Key Items/Passwords
+- Password 1: "Raticate Tail" (Obtained).
+- Password 2: "Hail Giovanni" (Likely obtained).
+- Requirement: Murkrow's Voice for Boss Door.
