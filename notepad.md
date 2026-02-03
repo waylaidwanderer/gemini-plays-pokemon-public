@@ -30,3 +30,7 @@
 - **Password 1**: "Raticate Tail" (Found, Entered).
 - **Password 2**: "Hail Giovanni" (Likely needed).
 - **Switch**: Needed to toggle warp trap or open shutters.
+- **Discovery**: Secret Passage found at Row 5 (behind computers).
+- **Extent**: Runs from x=19 to x=26.
+- **Hypothesis**: Allows interaction with the computer at (21, 6) which is blocked by a Grunt from the front.
+- **Plan**: Check computer at (21, 6) from the back (at 21, 5).
