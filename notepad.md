@@ -28,9 +28,8 @@
 - **Plan**: Explore NW corner of `3_49` (B1F) to find stairs down to B2F North.
 - **Hazards**: `3_49` West side is a trap minefield.
 - **Position**: B1F West (3, 4).
-- **Status**: Grunt at (2, 4) is useless.
-- **Insight**: Col 6 is a wall dividing West/East B1F. Crossings at (6, 3) and (6, 15).
-- **Objective**: Find the stairs to B2F NW.
-- **Hypothesis**: A hidden switch or path exists in the B1F East/Central area that I missed.
-- **Target**: Persian Statue at (24, 6). I checked (6, 3) and (24, 1), but not this one.
-- **Plan**: Go to (24, 6) via (6, 3) -> (9, 4).
+- **Analysis**: Row 4 is a wall barrier. The only way to the East Section (x>6) is via Row 5.
+- **Route**: (3, 2) -> (9, 2) -> (9, 5) -> East to (19, 5) -> South to (19, 6) -> East to (24, 6).
+- **Target**: Persian Statue at (24, 6).
+- **Hypothesis**: This statue hides the switch or stairs.
+- **Goal**: Reach (24, 6) and interact.
