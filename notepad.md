@@ -30,6 +30,7 @@
    - If warped to **Central Corridor (14, 12)**: Explore North for stairs to B2F.
    - If warped to **Entrance (25, 14)**: Toggle Switch at (19, 11) then retry trap.
 3. **Goal**: Reach B2F North-Central area (Murkrow location).
-- **Discovery**: A gap exists in the dividing wall at (15, 13), allowing access to the B1F Central Area (x<15) from the East.
-- **Plan**: Navigate West on Row 14 to x=16, then Up/Left through (15, 13).
-- **Goal**: Reach Silver (7, 2) and investigate B1F Central for stairs or Murkrow path.
+- **Discovery**: The "Central South" area (x<15, y>9) is a contained pocket reachable via the East Gap (15, 13) or Warp Trap.
+- **Blockage**: North access is blocked by Shutter (14, 11) and Row 9 Wall.
+- **Hypothesis**: A switch inside this pocket opens the Shutter at (14, 11), allowing access to Silver/Murkrow.
+- **Plan**: Navigate to West side of this pocket (via Row 16 to bypass Scientist) and inspect "Oath Machine" at (7, 13).
