@@ -16,7 +16,7 @@
 
 ## Map Connections
 - **B1F (Map 3_51)**:
-  - (3, 14) Stairs <-> B2F (3, 14) [South West]
+  - (3, 6) Stairs <-> B2F (3, 6) [West] (Correction: Not 3,14)
   - (27, 14) Stairs <-> B2F (27, 14) [South East]
   - (3, 2) Stairs <-> B2F (3, 2) [North West]
   - (27, 2) Stairs <-> B2F (27, 2) [North East]
