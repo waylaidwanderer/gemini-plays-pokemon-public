@@ -27,7 +27,7 @@
 - **Goal**: Reach B2F Northwest (Murkrow).
 - **Plan**: Explore NW corner of `3_49` (B1F) to find stairs down to B2F North.
 - **Hazards**: `3_49` West side is a trap minefield.
-- **Position**: B1F West (1, 4).
-- **Observation**: No stairs visible in NW corner behind Grunt.
-- **Action**: Head North to (6, 3) to cross via the gap in the wall.
-- **Hypothesis**: Stairs to B2F NW are in the unexplored Central Corridor.
+- **Position**: B1F Central (19, 12).
+- **Observation**: Access North is blocked by a Computer (19, 11) and Warp Panels (20-21, 11).
+- **Action**: Navigate South-East to (26, 8) to bypass the warp tiles and reach the Northern Corridor.
+- **Hypothesis**: A path exists on the far East side (Col 26).
