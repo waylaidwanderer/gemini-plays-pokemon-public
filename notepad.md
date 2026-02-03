@@ -22,3 +22,5 @@
 - **(3, 2)**: Visually confirmed no stairs.
 - **(27, 4)**: Solid Wall.
 - **(26, 10)**: False Computer is empty.
+- **(4, 7)**: Tested. No Warp.
+- **(3, 5)**: Static Geodude sprite? No interaction.
