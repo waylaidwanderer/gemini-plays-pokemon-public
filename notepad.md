@@ -54,8 +54,9 @@
 - **Plan**: Traverse B1F North Corridor East to (18, 2) to bypass the Grunt and avoid the suspected warp trap at (19, 1).
 - **Goal**: Reach the NE "Trap Room" to find the secret switch for the Boss Door/Shutters.
 - **Note**: Keeping to Row 2 (Bottom Lane) to avoid obstacles.
-- **Correction**: Row 2 on B1F is BLOCKED by walls from x=6 to at least x=15. Must use Row 1.
-- **Plan**: Navigate East on Row 1 to (17, 1).
-- **Hazard**: Suspected warp trap at (19, 1).
-- **Hypothesis**: The trap might be avoidable if Row 2 opens up near x=18, or if it's one-way.
-- **Goal**: Reach B1F NE Room (Trap Room) to find the secret switch.
+- **Status**: Currently at B1F (19, 1).
+- **Discovery**: (19, 1) is SAFE (no warp triggered).
+- **Plan**: Continue East along Row 1 to (24, 1), then turn South to enter the NE Room.
+- **Goal**: Find the "False Computer" or hidden switch in the NE Room to open the Boss Door/Shutters.
+- **Note**: The "Bypass Path" via (3, 2) was successful (despite the warp risk).
+- **Map Info**: Access to NE Room is via gap in wall at x=24.
