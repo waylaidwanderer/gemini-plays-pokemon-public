@@ -28,8 +28,7 @@
 - **Plan**: Explore NW corner of `3_49` (B1F) to find stairs down to B2F North.
 - **Hazards**: `3_49` West side is a trap minefield.
 - **Position**: B2F South (20, 14).
-- **Obstacle**: Rival Silver is static at (21, 14). Dialogue loops. He is not moving.
-- **Action**: Bypass Silver by walking North to Row 13, then East.
-- **Target**: Locked Door at (23, 14).
-- **Goal**: Attempt to open the door with current passwords ("Hail Giovanni", "Raticate Tail").
-- **Hypothesis**: This door leads to the SE Stairs, which lead to B1F SE -> Murkrow.
+- **Status**: Silver dialogue cleared (hopefully). Bypassing him to reach the door.
+- **Action**: Interact with Locked Door at (23, 14).
+- **Test**: Does the door open with just the passwords ("Hail Giovanni", "Raticate Tail"), or does it strictly require the Murkrow?
+- **Contingency**: If it requires Murkrow, I am blocked here. I must find another route on B1F (maybe the "Central Maze" has a hidden switch I missed, or I missed a stair).
