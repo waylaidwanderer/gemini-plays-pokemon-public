@@ -17,8 +17,7 @@
 - **Next**: Investigate "Traps" south of (2, 4).
 
 ## Investigation Log
-- **Current Action**: Sweeping Backstage Row 5 Westward from (19, 5).
-- **Goal**: Find Hidden Switch on the North Wall (Row 4).
-- **Plan**: Move West, check Wall at (19, 4), (18, 4), (17, 4).
-- **Observation**: Row 6 appears to be the "false computers" themselves (Walkable). Row 5 is the space behind them.
-- **Hypothesis**: The passage might connect to the West side or contain the switch.
+- **(7, 6)**: Secret Passage confirmed. Connects Row 5 (Backstage) and Row 7 (Main Room).
+- **Current Action**: Sweeping the West end of Backstage (Cols 6-8).
+- **Goal**: Find Hidden Switch.
+- **Hypothesis**: Switch might be at (7, 4) or on the side of the computer at (8, 6).
