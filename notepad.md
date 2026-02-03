@@ -38,7 +38,7 @@
 - **Anomaly**: In Turn 26800, moving West from (19, 1) seemingly warped me to (5, 1) past the wall at x=6. This suggests a one-way warp or a screen transition I missed.
 - **Plan**: Use B2F to cross back to the East side (NE Stairs), then investigate the NE room thoroughly for the "False Computer".
 - **Map Note**: B2F (3, 2) is a small isolated room. Rival Silver is visible at (7, 2) but blocked by a wall at (6, 2).
-- **Plan**: Return to B1F via stairs at (3, 2). Traverse B1F North Corridor East to reach the NE area/Trap Room.
+- **Plan**: Traverse B1F North Corridor East from (3, 2) to (27, 2) to reach the NE area/Trap Room.
 - **Hypothesis**: The "False Computer" passage is in the B1F Trap Room (likely x=19, y=something). Need to find a way in.
 - **Map Note**: B1F West Corridor is segmented by a wall at y=4. (3, 2) is isolated from (3, 6).
 - **Observation**: There is a door at (3, 8). Need to check if it opens.
