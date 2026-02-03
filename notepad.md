@@ -30,7 +30,6 @@
    - If warped to **Central Corridor (14, 12)**: Explore North for stairs to B2F.
    - If warped to **Entrance (25, 14)**: Toggle Switch at (19, 11) then retry trap.
 3. **Goal**: Reach B2F North-Central area (Murkrow location).
-- **Correction**: The Warp Trap is NOT the desk at (21, 10) (which is solid). It is likely the floor tile at (21, 9) behind the desk.
-- **Plan**: Go around the desk to (21, 9) to trigger the warp. I have toggled the switch, so hopefully it leads to the Central Corridor now.
-- **Action**: Stepping DOWN from (21, 9) into the Warp Trap at (21, 10).
-- **Expectation**: Warp to Central Corridor (14, 12). If Entrance (25, 14), Switch logic is reversed/failed.
+- **Correction**: (21, 10) is a solid desk. The Warp Trap must be the floor tile at (21, 11) (Front of PC).
+- **Plan**: Navigate around the desk to (21, 11). Step on it to trigger the warp.
+- **State**: Switch at (19, 11) has been toggled. Hoping this directs the warp to the Central Area.
