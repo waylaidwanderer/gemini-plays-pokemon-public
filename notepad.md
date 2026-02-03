@@ -37,9 +37,10 @@
 - **Plan**: Go to B2F, head North, take NE Stairs to B1F NE Room (False Computer search).
 - **Anomaly**: In Turn 26800, moving West from (19, 1) seemingly warped me to (5, 1) past the wall at x=6. This suggests a one-way warp or a screen transition I missed.
 - **Plan**: Use B2F to cross back to the East side (NE Stairs), then investigate the NE room thoroughly for the "False Computer".
-- **Correction**: Row 1 on B2F is BLOCKED by a wall at x=6. The "Silver Viewing Room" (x=3-5) is isolated.
-- **Situation**: Stuck in B2F NW (Silver Viewing Room). Stairs at (3, 2) *should* lead to B1F but haven't triggered.
-- **Plan**: Verify blockage at x=6. Retry stairs at (3, 2) by entering from different angles. If fail, investigate South towards (3, 6).
+- **Success**: Successfully warped to B1F (3_50) at (3, 2).
+- **Plan**: Traverse B1F North Corridor East to (27, 2).
+- **Risk**: Potential warp trap near x=19 in the North Corridor. Proceed with caution.
+- **Hypothesis**: The "False Computer" passage is in the B1F Trap Room/NE Area. Need to find a way in.
 - **Risk**: Potential warp tiles in the North Corridor (y=1). In Turn 26800, moving West from (19, 1) warped me to (5, 1). Moving East might be safe or trigger a trap.
 - **Hypothesis**: The "False Computer" passage is in the B1F Trap Room/NE Area. Need to find a way in.
 - **Map Note**: B1F West Corridor is segmented by a wall at y=4. (3, 2) is isolated from (3, 6).
