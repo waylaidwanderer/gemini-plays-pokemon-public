@@ -28,8 +28,9 @@
 - **Plan**: Explore NW corner of `3_49` (B1F) to find stairs down to B2F North.
 - **Hazards**: `3_49` West side is a trap minefield.
 - **Hypothesis**: The stairs to the Murkrow (B2F NW) must be in the B1F West area (x=1-10, y=1-10).
-- **Immediate Plan**: Investigate the Persian Statue at (6, 1).
+- **Observation**: Persian Statue at (6, 1) has "oddly shiny eyes". No switch found yet.
+- **Immediate Plan**: Move to the NW corner (2, 2) to investigate the area behind the Grunt.
 - **Backlog**:
   - Explore the "Trap Field" (Rows 5-10, Cols 4-8).
-  - Defeat the "Useless Grunt" at (2, 4) - he might be blocking a hidden trigger.
+  - Defeat the "Useless Grunt" at (2, 4).
 - **Goal**: Find stairs to B2F NW.
