@@ -5,6 +5,7 @@
 - **Tertiary**: Catch Murkrow.
 
 ## Map Structure & Navigation
+- **IDs**: Map `3_51` = B1F (Upper). Map `3_50` = B2F (Lower).
 - **B1F (Upper Floor)**:
   - **North Corridor (Row 1-2)**: Connects NW and NE.
     - **Hazard**: Warp Trap likely near x=19 (Row 1). Row 2 is safe.
