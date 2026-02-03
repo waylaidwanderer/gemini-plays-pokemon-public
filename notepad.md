@@ -6,11 +6,11 @@
 
 ## Map Structure (Clarified)
 - **Map 3_50**: B2F Main Area (West Corridor, South Area).
-- **Map 3_51**: B2F Northeast Area (Murkrow, Silver, Scientist Mitch).
-- **Map 3_49**: B1F West Area (Entrance).
+- **Map 3_51**: B1F Main Area (Murkrow, Silver, Scientist Mitch).
+- **Map 3_49**: B1F West Entrance (Persian Statues).
 
 ## Navigation & Strategy
-- **Current Location**: B1F East (16, 11).
+- **Current Location**: B1F Main (6, 14).
 - **Obstacle**: Shutter at (14, 11) blocks North path in Middle Strip.
 - **Strategy**: 
   1. The shutter blocks access to Murkrow from the South.
