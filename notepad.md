@@ -24,12 +24,12 @@
 - **Checklist**:
   - [x] Back of Row 10 (via secret passage).
   - [x] Back of Row 6 (via secret passage).
-  - [ ] Front of Row 10:
+  - [x] Front of Row 10:
     - (25, 10): Checked.
     - (24, 10): Checked.
     - (22, 10): Checked.
-    - (21, 10): **Pending** (Trap in front).
-    - (20, 10): **Pending**.
+    - (21, 10): Checked (Front).
+    - (20, 10): Checked (Front).
     - (19, 10): False/Passage.
   - [ ] Front of Row 6:
     - (19, 6): False/Passage.
