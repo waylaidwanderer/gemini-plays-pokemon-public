@@ -26,3 +26,6 @@
 - **Navigation Strategy**: To reach the Murkrow on B1F West, I must perform a "U-Turn" on B2F.
   - Route: Enter B2F at (27, 14) -> North to (27, 2) -> West to (3, 2) -> South to (3, 14) -> Stairs up to B1F West.
   - Reason: Shutters and walls on B1F block direct access.
+- **Correction**: Stairs at Map 3_49 (3, 14) lead to B2F South-West.
+- **Plan Adjustment**: Murkrow is in B1F West Section, accessible via B2F North-West Stairs at (3, 2).
+- **Route**: Return to B2F via (3, 14) -> Go North to (3, 2) -> Ascend to B1F West Section.
