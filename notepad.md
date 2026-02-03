@@ -28,6 +28,7 @@
 - **Plan**: Explore NW corner of `3_49` (B1F) to find stairs down to B2F North.
 - **Hazards**: `3_49` West side is a trap minefield.
 - **Position**: B1F Central (19, 12).
-- **Observation**: East path blocked by wall at (23, 12). North blocked by Warp Panels.
-- **Action**: Backtrack West to (11, 12), go North to (11, 5), then East to (21, 3).
-- **Goal**: Cross the gap at Row 3 (24, 3) to reach the East Side.
+- **Observation**: North blocked by Warps. Row 8 is a Wall from X=7 to X=18.
+- **Action**: Go South-West to (5, 15).
+- **Plan**: Use the West Side (Col 1-5) to go North, then cross East at Row 2/3.
+- **Note**: (5, 15) might be a warp to (25, 2). If so, take it.
