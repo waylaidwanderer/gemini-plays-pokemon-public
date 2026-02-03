@@ -22,3 +22,5 @@
 ## Map Structure
 - **B2F Row 12 Barrier**: Seems to split B2F into North and South halves, forcing use of stairs to cross.
 - **Locked Door**: At (23, 14). Bypassed via gap at (23, 16).
+- **Correction**: No stairs found at B1F West (3, 2). This area seems to be a dead end.
+- **Plan**: Heading back to SW Stairs (3, 14) to access B2F South Corridor and reach Murkrow via the southern gap.
