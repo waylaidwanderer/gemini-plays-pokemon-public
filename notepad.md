@@ -27,8 +27,7 @@
 - **Goal**: Reach B2F Northwest (Murkrow).
 - **Plan**: Explore NW corner of `3_49` (B1F) to find stairs down to B2F North.
 - **Hazards**: `3_49` West side is a trap minefield.
-- **Position**: B1F East (24, 6).
-- **Correction**: Before leaving, I realized I am on the correct side of the wall to access the Supply Crates at (27, 10).
-- **Action**: Navigate to (27, 9) and inspect the crates at (27, 10).
-- **Hypothesis**: A hidden item or switch might be there.
-- **Afterward**: Return to West side (Trap Field) if empty.
+- **Position**: B1F West (Heading to Grunt at 2,4).
+- **Recent**: Checked crates at (27, 10) - Empty.
+- **Action**: Navigate to (3, 4) to check area behind Grunt.
+- **Hypothesis**: Stairs to B2F NW are behind the Grunt or nearby.
