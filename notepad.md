@@ -27,12 +27,9 @@
 - **Goal**: Reach B2F Northwest (Murkrow).
 - **Plan**: Explore NW corner of `3_49` (B1F) to find stairs down to B2F North.
 - **Hazards**: `3_49` West side is a trap minefield.
-- **Position**: B1F Central (7, 9).
-- **Observation**: Wall at (7, 8) is solid. No secrets found in Central Pocket.
-- **New Strategy**: The path to Murkrow (B2F NW) or the switch to activate statues might be accessed via the B1F SE Corner.
-- **Hypothesis**: Stairs in B2F SE Corner (accessed via B2F South) lead to the isolated B1F SE section.
-- **Plan**: 
-    1. Take stairs at B1F (3, 14) down to B2F.
-    2. Traverse B2F South to the SE corner.
-    3. Take stairs there to reach B1F SE.
-- **Goal**: Reach B1F SE Corner.
+- **Position**: B2F South (3, 14).
+- **Observation**: Path North is blocked at (3, 8).
+- **Immediate Plan**: Head East to the Locked Door at (23, 14).
+- **Goal**: Check if I can bypass the door to reach the SE Stairs at (27, 14).
+- **Dependency Check**: If the door blocks the path and requires Murkrow, then the "B2F SE -> B1F SE" route is invalid for *finding* Murkrow.
+- **Rival Alert**: Silver is marked at (21, 14). Be ready for a cutscene/battle.
