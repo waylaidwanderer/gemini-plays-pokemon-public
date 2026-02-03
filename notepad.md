@@ -18,3 +18,4 @@
   - Plan: Go to B1F via stairs at (27, 14).
   - Hypothesis: Switch at B1F (19, 11) might toggle shutters/statues.
 - **Next Step**: Head to B1F switch.
+- **Turn 26263**: System reports position (25, 14) but screen clearly shows (23, 11). This is a desync. Proceeding based on visual confirmation (23, 11) to reach switch at (19, 11).
