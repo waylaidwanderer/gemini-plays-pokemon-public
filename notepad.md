@@ -10,12 +10,11 @@
 - **Map 3_49**: B1F West Area (Main Entrance).
 
 ## Navigation & Strategy
-- **Current Location**: B2F North Corridor (5, 2).
-- **Correction**: Row 2 is blocked by walls (TYPE_2889). The actual corridor is Row 1.
-- **Plan**:
-  1. Move Up to Row 1.
-  2. Go East along Row 1 to x=27.
-  3. Move Down to (27, 2) (Stairs to B1F NE).
-  4. Enter B1F Main/East.
-  5. Find Murkrow.
+- **Current Location**: B1F East (27, 2).
+- **Status**: Successfully flanked the wall! I am now on the same side as the Murkrow.
+- **Task**: Catch the Murkrow. It was last seen at (8, 3).
+- **Map Notes**:
+  - Wall at x=6 separates West (Stairs to B2F West) from East (Stairs to B2F NE).
+  - Grunt at (24, 1).
+  - Murkrow at (8, 3).
 - **Goal**: Reach the *East* side of the partition in `3_51`.
