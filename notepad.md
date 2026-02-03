@@ -28,3 +28,6 @@
 - **Strategy Update**: Avoid the SW corner of the Central Room.
 - **Next Step**: Re-explore Central North (Rows 5-7). Check statues and walls for hidden switches/stairs.
 - **Reflection**: Need to be more careful with menu navigation and status checking. Use Game State block.
+- **Exits**: B1F (27, 2) leads to Mahogany Town Souvenir Shop (3_48).
+- **Navigation Correction**: B1F Northeast room is the entrance/exit, not the path to Murkrow.
+- **Search Area**: Focus search on B1F Central Room (Rows 5-8) and potential hidden paths in B1F West.
