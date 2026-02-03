@@ -28,7 +28,8 @@
 - **Plan**: Explore NW corner of `3_49` (B1F) to find stairs down to B2F North.
 - **Hazards**: `3_49` West side is a trap minefield.
 - **Position**: B1F Central (7, 7).
-- **Observation**: I am back at the North side of the (7, 8) wall.
-- **Action**: Testing if the "Fake Wall" at (7, 8) is interactable (Secret Door).
-- **Plan**: Press A on (7, 8). If nothing, navigate to the South side (7, 9) via the long loop.
-- **Goal**: Find stairs to B2F NW.
+- **Observation**: Wall at (7, 8) is solid and non-interactive.
+- **Hypothesis**: The stairs to B2F NW are in the pocket South of this wall, at (7, 9).
+- **Plan**: Navigate to (7, 9) by looping around the entire East side.
+  - Path: (7, 7) -> (9, 4) -> (17, 12) -> (9, 11) -> (7, 9).
+- **Goal**: Find stairs at (7, 9).
