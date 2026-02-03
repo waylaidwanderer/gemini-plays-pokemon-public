@@ -43,3 +43,5 @@
 - Password 1: "Raticate Tail" (Obtained).
 - Password 2: "Hail Giovanni" (Likely obtained).
 - Requirement: Murkrow's Voice for Boss Door.
+- **Navigation Note**: Path to NE Stairs (27, 2) via Column 26/27 seems clear, but previous attempts failed. Watch for hidden obstacles.
+- **Goal Update**: Heading to B2F via NE Stairs to find a route to the Central Area (Silver/Murkrow).
