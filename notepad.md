@@ -13,10 +13,7 @@
 - **Correct Path**: Loop East to Col 28, go South to Row 12, then West into room.
 
 ## Status
-- **Location**: B2F Central Corridor (16, 7).
-- **Goal**: Find Murkrow in Northwest Area.
-- **Confirmed Passwords**: "Hail Giovanni", "RATICATE TAIL".
-- **Notes**: 
-  - Machine at (6, 13) is a text trap ("Exploit Pokémon").
-  - Computers in NE room checked.
-  - Murkrow likely in NW room.
+- **Location**: B2F Central Corridor (16, 1).
+- **Goal**: Enter NW Room via South Entrance (Row 12).
+- **Correction**: Column 15 is a solid wall (Rows 0-10). Previous attempt to enter West failed.
+- **Plan**: Move South to Row 12 -> Enter West -> Find Murkrow.
