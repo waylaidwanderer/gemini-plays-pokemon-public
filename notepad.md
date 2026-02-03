@@ -33,16 +33,8 @@
 - **Discovery**: The "Central South" area (x<15, y>9) is a contained pocket reachable via the East Gap (15, 13) or Warp Trap.
 - **Blockage**: North access is blocked by Shutter (14, 11) and Row 9 Wall.
 - **Hypothesis**: A switch inside this pocket opens the Shutter at (14, 11), allowing access to Silver/Murkrow.
-- **Plan**: Navigate to West side of this pocket (via Row 16 to bypass Scientist) and inspect "Oath Machine" at (7, 13).
-- **Observation**: Machine at (7, 13) reads "Steal POKEMON for profit!". Just propaganda.
-- **Plan**: Moving Left to check the next machine at (6, 13).
-- **Observation**: Machine at (7, 13) full text: "Steal POKEMON for profit! Exploiting them for the glory of TEAM ROCKET!"
-- **Plan**: Inspecting Machine at (6, 13).
-- **Observation**: Machine at (6, 13) text: "Exploit POKéMON for profit! All POKéMON exist for the glory of Team Rocket!". Propaganda.
-- **Plan**: Moving to inspect Machine at (4, 13). Note: Grunt at (5, 14) blocks access to Machine at (5, 13).
-- **Observation**: Machine at (4, 13) text: "Exploit POKéMON for profit! All POKéMON exist for the glory of Team Rocket!". Just more propaganda.
-- **Plan**: Inspecting the last machine at (5, 13). If no switch found, re-evaluate search area (maybe hidden in a corner or the "Trap" at 2,11).
-- **Observation**: Grunt at (5, 14) gives "Raticate Tail" password but does not move. Machine at (5, 13) remains inaccessible.
+- **Findings**: Machines at (4,13), (6,13), (7,13) contain propaganda. Machine at (5,13) is physically inaccessible. No switches found in this area.
+- **Plan**: Moving to B2F NE Stairs (27, 2) to attempt access to B2F North Corridor.
 - **Reflection (Turn 26629)**:
   - **Progress**: Found B1F Central South pocket.
   - **Status**: At (3, 13). Checking machine backs and suspicious tiles.
