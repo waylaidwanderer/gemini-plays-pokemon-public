@@ -6,7 +6,8 @@
 
 ## Map Hazards (B1F)
 - **Trap Fields**: West Side (Cols 1-5).
-- **Statue Alarms**: Row 3 (Switch at 19,11 disables?).
+- **Statue Alarms**: Row 3 (Switch at 19,11 disables? -> CONFIRMED: Switch disables alarms).
+- **Hypothesis**: The switch might also open the security shutters on B2F West.
 - **Warp Tiles**: (20,11), (21,11) -> Entrance.
 - **Solid Walls**: X=6 (B2F), Row 8 (B1F Central).
 
