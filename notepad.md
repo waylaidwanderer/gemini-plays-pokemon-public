@@ -19,3 +19,4 @@
   - Hypothesis: Switch at B1F (19, 11) might toggle shutters/statues.
 - **Next Step**: Head to B1F switch.
 - **Turn 26263**: System reports position (25, 14) but screen clearly shows (23, 11). This is a desync. Proceeding based on visual confirmation (23, 11) to reach switch at (19, 11).
+- **Turn 26270**: Tried to go Up from (23, 14) to (23, 13) but hit an obstacle, ending up at (19, 14). Row 13 seems blocked by desks/walls between X=18 and X=26. Rerouting via East Corridor (X=27).
