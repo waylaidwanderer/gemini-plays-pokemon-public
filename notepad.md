@@ -25,7 +25,8 @@
   - South Corridor (Row 16) connects SW and SE stairs. (Likely access to Center/Murkrow).
 
 ## Current Plan
-1. **Navigate**: Go East along B2F South Corridor (Row 16).
-2. **Enter Room**: turn North at x=22/23 to enter the Murkrow room.
-3. **Action**: Catch Murkrow / Get Password.
-4. **Boss**: Go to Boss Door (23, 14).
+1. **Warp Strategy**: From B1F Entrance (25, 14), go to Warp Trap at (21, 10).
+2. **Execution**: Step on trap.
+   - If warped to **Central Corridor (14, 12)**: Explore North for stairs to B2F.
+   - If warped to **Entrance (25, 14)**: Toggle Switch at (19, 11) then retry trap.
+3. **Goal**: Reach B2F North-Central area (Murkrow location).
