@@ -15,9 +15,15 @@
   - South-East Section: Accessible via SE Stairs (27, 14). Contains Switch.
 
 ## Current Plan
-1. **Intercept**: Head West from (27, 2) to Silver (7, 2) and Murkrow.
-2. **Chase**: If Murkrow flees, follow it.
-3. **Unlock**: Use passwords and Murkrow voice to open Boss Door on B2F.
+1. **Investigate Warp**: Navigate to the potential warp tile at (21, 9) in the B1F East Section.
+2. **Hypothesis**: This warp may lead to the enclosed Central Area (Silver/Murkrow) which appears inaccessible via walking.
+3. **Contingency**: If warp fails, search for other hidden mechanics or switches in the East Section.
+
+## Map Structure
+- **East Section (Current)**: X > 15. Contains Switch (19, 11), Password PC (21, 11), Warp (21, 9).
+- **Central Area**: X 7-14. Contains Silver (7, 2), Murkrow (7, 1), Shutter (14, 11).
+- **West Section**: X < 6. Connected to B2F West Stairs.
+- **Barriers**: Row 9 Wall, Column 6 Wall, Column 15 Wall (with Shutter).
 
 ## Key Items/Passwords
 - Password 1: "Raticate Tail" (Obtained).
