@@ -10,13 +10,14 @@
 - **Map 3_49**: B1F West Area (Main Entrance).
 
 ## Navigation & Strategy
-- **Current Location**: B1F East (20, 2).
-- **Obstacle**: Wall at x=15 blocks path West to Murkrow (8, 3).
-- **Hypothesis**: Map is divided into vertical strips.
+- **Current Location**: B1F East (16, 10).
+- **Discovery**: The wall at x=15 is NOT solid. There is a gap at (15, 12).
+- **Plan**:
+  1. Go South to (16, 12).
+  2. Go West through the gap at (15, 12).
+  3. Navigate North-West to Murkrow at (8, 3).
+- **Map Structure**:
   - West Strip: x=0-6 (Stairs to B2F West).
   - Middle Strip: x=7-14 (Murkrow, Silver).
-  - East Strip: x=16-29 (Current, Stairs to B2F NE).
-- **Plan**:
-  1. Navigate to (16, 10) to check shutters at (15, 10).
-  2. If blocked, check switch at (19, 11).
-  3. If still blocked, check for other passages (e.g., Row 4).
+  - East Strip: x=16-29 (Stairs to B2F NE).
+  - Connection (East <-> Middle): Gap at (15, 12).
