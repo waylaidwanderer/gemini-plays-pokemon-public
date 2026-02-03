@@ -17,7 +17,8 @@
 - **Next**: Investigate "Traps" south of (2, 4).
 
 ## Investigation Log
-- **Observation**: (28, 4) is a solid wall from the North side.
-- **Plan**: Flank to (28, 5) via the "Backstage" corridor (Row 5/6).
-- **Route**: West to (19, 6) [Passage Entrance] -> East along Row 5/6 to (28, 5).
-- **Goal**: Inspect (28, 4) from the South. Check for switch.
+- **Current Action**: Systematic sweep of Backstage Corridor (Row 5) Westward.
+- **Method**: Move Left, Check North (Wall), Check South (Object back).
+- **Goal**: Find hidden switch.
+- **Range**: Sweeping from (26, 5) to (19, 5).
+- **Hypothesis**: Switch is hidden on the back of a computer or on the wall in this secret area.
