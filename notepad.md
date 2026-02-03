@@ -33,5 +33,5 @@
 - **Password 2**: "SLOWPOKETAIL" (Found).
 - **Objective**: Use passwords at the Boss Door.
 - **Correction**: Computer at (26, 10) is SOLID. The "False Computer" passage might be in the NE Room (x=19?).
-- **Map Note**: B1F SE Room seems isolated. Wall at x=23 blocks access to Center.
-- **Plan**: Explore SE room fully, then try NE Room via B2F North Corridor.
+- **Map Note**: B1F SE Room explored. Dead end. Wall at x=18/19 blocks access to Center.
+- **Plan**: Go to B2F, head North, take NE Stairs to B1F NE Room (False Computer search).
