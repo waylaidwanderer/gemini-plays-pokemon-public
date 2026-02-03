@@ -28,7 +28,8 @@
 - **Plan**: Explore NW corner of `3_49` (B1F) to find stairs down to B2F North.
 - **Hazards**: `3_49` West side is a trap minefield.
 ## Current Action
-- **Position**: B2F South (3, 14).
-- **Realization**: I missed the stairs at B1F (3, 2) which lead to the Murkrow's location (B2F NW). The Grunt at (2, 4) was a distraction.
-- **Immediate Plan**: Return to B1F via stairs at (3, 14). Then go North to (3, 2) and take those stairs.
-- **Goal**: Reach B2F Northwest to find Murkrow.
+- **Position**: B1F North Corridor (3, 2).
+- **Observation**: No stairs at (3, 2). My previous "Realization" was wrong.
+- **New Hypothesis**: Access to B2F NW (Murkrow) might be via the "Central Passage" near (9, 4).
+- **Immediate Plan**: Head East to x=9, then South to investigate the passage.
+- **Goal**: Find the correct stairs down to Murkrow.
