@@ -34,3 +34,5 @@
 - **Extent**: Runs from x=19 to x=26.
 - **Hypothesis**: Allows interaction with the computer at (21, 6) which is blocked by a Grunt from the front.
 - **Plan**: Check computer at (21, 6) from the back (at 21, 5).
+- **Discovery**: Computers at the ends of rows (x=19, x=26) are false tiles/walkable gaps. This applies to both Row 6 and Row 10.
+- **Plan**: Traverse the secret corridor at Row 9 and check the backs of the computers at Row 10.
