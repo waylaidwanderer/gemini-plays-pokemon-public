@@ -22,11 +22,11 @@
 - **Tools**: Existing tools are sufficient.
 
 ## Current Plan
-1. **Toggle Switch**: Test interaction with Computer at (19, 11)/(19, 10) from multiple angles.
-   - Sequence: Move Down to (19, 12), move Up to (19, 11) (facing Up), press A.
-2. **Check Shutter**: If successful, check shutter at (14, 11).
-3. **Warp Puzzle**: If switch fails, re-investigate floor tiles in Row 9/10 using `scan_surroundings`.
-4. **Boss Door**: Return to B2F door if shutter opens.
+1. **Warp Trap Test**: Step on the warp trap at B1F (21, 10) to see if the switch at (19, 11) changed its destination.
+   - If warped to Entrance: Switch failed/Wrong switch. Proceed to B2F North Corridor.
+   - If warped to Murkrow Room: Catch Murkrow.
+2. **Alternative Route**: If trap fails, take NE Stairs (27, 2) to B2F and try to reach Central Area from North Corridor.
+3. **Boss Door**: Once Murkrow is caught/password obtained, go to Boss Door.
 
 ## Mechanics & Notes
 - **Warp Trap**: B1F (21, 10) is a confirmed warp trap that sends to entrance (25, 14).
