@@ -11,8 +11,9 @@
   - East Corridor (Column 27): Blocked at Row 10 (Wall). Cannot travel directly between NE and SE stairs on B2F.
   - West Corridor (Column 3): Blocked mid-way.
 - **Map 3_51 (B1F)**:
-  - West Section: Accessible via NW Stairs (3, 2). Contains Persian Statues.
-  - North-East Section: Accessible via NE Stairs (27, 2). Contains Silver & Murkrow.
+  - North-West Section: Accessible via NW Stairs (3, 2). Dead end separated from Central by wall at x=6.
+  - South-West Section: Accessible via SW Stairs (3, 14). Contains Grunt.
+  - North-East Section: Accessible via NE Stairs (27, 2). Connects to Central Area (Silver/Murkrow).
   - South-East Section: Accessible via SE Stairs (27, 14). Contains Switch.
 
 ## Reflection (Turn 26471)
