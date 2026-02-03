@@ -10,11 +10,11 @@
 - **B2F**: Center Boss Door (Locked). West/East sections connected via B1F.
 
 ## Current Status
-- **Location**: B1F NW Corner (2, 3).
+- **Location**: B1F Backstage (13, 5).
 - **Items**: "RATICATE TAIL", "SLOWPOKETAIL".
 - **Missing**: Murkrow Voice.
-- **Action**: Interrogating Grunt at (2, 4).
-- **Next**: Investigate "Traps" south of (2, 4).
+- **Action**: Exploring Row 5 Corridor Eastbound.
+- **Next**: Check gap at Column 14 to enter main room.
 
 ## Investigation Log
 - **(7, 6)**: Secret Passage confirmed. Connects Row 5 (Backstage) and Row 7 (Main Room).
