@@ -23,3 +23,6 @@
 - **Navigation Update**: Wall detected at X=18 (Rows 9-13). Gap confirmed at (18, 14). Blockage likely at (19, 13). Path to shutters requires looping South to Row 14.
 - **Navigation Update**: Wall confirmed at (15, 14). The gap between East/West B1F is blocked here too.
 - **Strategy**: Locked shutters and walls block access to West B1F. Must backtrack to B2F via stairs at (27, 14), traverse B2F to West stairs, and re-emerge on B1F West side to catch Murkrow.
+- **Navigation Strategy**: To reach the Murkrow on B1F West, I must perform a "U-Turn" on B2F.
+  - Route: Enter B2F at (27, 14) -> North to (27, 2) -> West to (3, 2) -> South to (3, 14) -> Stairs up to B1F West.
+  - Reason: Shutters and walls on B1F block direct access.
