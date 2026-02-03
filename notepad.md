@@ -51,6 +51,7 @@
 - **Target**: Cross West at Row 3, then South down Col 26 to False Computer at (26, 10).
 - **Investigation**:
   - Swept Backstage Row 5 (26 to 19). Checked Wall (Row 4) and Row 6 objects.
-  - Result: No switch found yet in the western part.
-- **Current Action**: Moving back East to check the obstruction at (27, 5) and the wall at (19, 4).
-- **Hypothesis**: The "wall" at (27, 5) might be interactable or false. Or the switch is extremely well hidden.
+  - Result: No switch found in the western backstage.
+- **Current Action**: Exiting backstage to check the East side of the obstruction at (27, 5).
+- **Route**: (26, 5) -> (26, 3) -> (28, 3) -> (28, 5).
+- **Goal**: Check wall at (27, 5) from the East. Then proceed to NW room to find Murkrow.
