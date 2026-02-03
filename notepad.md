@@ -21,3 +21,5 @@
 - Navigation Note: Row 13 blocked by desks between X=18 and X=26. Use East Corridor (X=27) or Column 21 to bypass.
 - **Switch Location Hypothesis**: The "Switch" previously used at Turn 25756 was likely the wall panel at (18, 11) or the computer accessed from (21, 11). Checking both.
 - **Navigation Update**: Wall detected at X=18 (Rows 9-13). Gap confirmed at (18, 14). Blockage likely at (19, 13). Path to shutters requires looping South to Row 14.
+- **Navigation Update**: Wall confirmed at (15, 14). The gap between East/West B1F is blocked here too.
+- **Strategy**: Locked shutters and walls block access to West B1F. Must backtrack to B2F via stairs at (27, 14), traverse B2F to West stairs, and re-emerge on B1F West side to catch Murkrow.
