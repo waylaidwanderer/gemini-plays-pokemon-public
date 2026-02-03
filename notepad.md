@@ -1,7 +1,7 @@
 # Team Rocket HQ (Mahogany Town)
 ## Objectives
 - **Primary**: Open Boss Door on B2F (Requires Murkrow Voice + "Raticate Tail").
-- **Secondary**: Catch Murkrow (currently in B1F North-East section).
+- **Secondary**: Catch Murkrow (currently in B1F Central section, x=7).
 - **Tertiary**: Defeat Grunt guarding stairs (B1F West).
 
 ## Map Structure
