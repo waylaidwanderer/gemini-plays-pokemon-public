@@ -28,7 +28,6 @@
 - **Plan**: Explore NW corner of `3_49` (B1F) to find stairs down to B2F North.
 - **Hazards**: `3_49` West side is a trap minefield.
 ## Current Action
-- **Position**: B1F West side (1, 4).
-- **Correction**: (1, 5) is a wall. Cannot move South directly. (2, 4) is blocked by a Grunt.
-- **Immediate Plan**: Move North to Row 2, then East to Col 3, then South to the stairs at (3, 14).
+- **Position**: B1F West side (3, 2).
+- **Immediate Plan**: Move South through the trap field (Col 3) to the stairs at (3, 14). Expect traps at (3, 8).
 - **Goal**: Reach B2F Northwest to find Murkrow.
