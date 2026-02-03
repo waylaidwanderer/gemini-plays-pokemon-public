@@ -30,3 +30,5 @@
    - If warped to **Central Corridor (14, 12)**: Explore North for stairs to B2F.
    - If warped to **Entrance (25, 14)**: Toggle Switch at (19, 11) then retry trap.
 3. **Goal**: Reach B2F North-Central area (Murkrow location).
+- **Hazard**: Scientist Ross at (23, 11) likely has a vision cone (South/Row 12?) that warps to Entrance. Avoid Row 12 near x=23.
+- **Safe Route**: Use Row 14 to bypass the scientist.
