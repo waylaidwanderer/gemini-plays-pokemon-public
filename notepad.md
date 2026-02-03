@@ -46,3 +46,5 @@
 - **Goal Update**: Heading to B2F via NE Stairs to find a route to the Central Area (Silver/Murkrow).
 - **Observation**: Shutter at (14, 11) is definitely locked.
 - **Plan Update**: Going to toggle switch at (19, 11) and then step on warp trap at (21, 10) to see if it sends me to the Murkrow Room (B2F 22,9).
+- **Observation**: Shutter at (14, 11) is confirmed closed (TYPE_63e2).
+- **Plan**: Heading to step on Warp Trap at (21, 10) to see if the Switch at (19, 11) redirected it to the Murkrow room.
