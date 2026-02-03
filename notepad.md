@@ -31,14 +31,14 @@
     - (21, 10): Checked (Front).
     - (20, 10): Checked (Front).
     - (19, 10): False/Passage.
-  - [ ] Front of Row 6:
+  - [x] Front of Row 6:
     - (19, 6): False/Passage.
     - (20, 6): Checked.
     - (21, 6): Blocked by Grunt.
-    - (22, 6): Checked.
-    - (23, 6): Checked.
-    - (24, 6): Checked.
-    - (25, 6): Checked.
+    - (22, 6): Checked (Back).
+    - (23, 6): Checked (Back).
+    - (24, 6): Checked (Back).
+    - (25, 6): Checked (Back).
     - (26, 6): False/Passage.
 
 ## Key Items & Passwords
