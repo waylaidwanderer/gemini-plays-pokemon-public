@@ -2,7 +2,7 @@
 ## Objectives
 - **Primary**: Open Boss Door on B2F (Requires Murkrow Voice + "Raticate Tail").
 - **Secondary**: Find Murkrow to mimic voice/password.
-- **Tertiary**: Disable Persian Statues (B1F).
+- **Tertiary**: Defeat Grunt guarding stairs (B1F West).
 
 ## Critical Navigation Notes
 - **WEST WALL IS SOLID**: The wall at x=6 on B2F is solid.
