@@ -38,3 +38,5 @@
 - **Plan**: Moving Left to check the next machine at (6, 13).
 - **Observation**: Machine at (7, 13) full text: "Steal POKEMON for profit! Exploiting them for the glory of TEAM ROCKET!"
 - **Plan**: Inspecting Machine at (6, 13).
+- **Observation**: Machine at (6, 13) text: "Exploit POKéMON for profit! All POKéMON exist for the glory of Team Rocket!". Propaganda.
+- **Plan**: Moving to inspect Machine at (4, 13). Note: Grunt at (5, 14) blocks access to Machine at (5, 13).
