@@ -21,7 +21,7 @@
 4. **Warp Hypothesis**: If stuck, return to B1F and check the warp at (21, 9), theorizing it might lead to the enclosed area with the Murkrow.
 
 ## Mechanics & Notes
-- **Warp Trap**: B1F (21, 9) might be a warp trap or a valid transport. Need to verify.
+- **Warp Trap**: B1F (21, 9) is likely the entry point to the hidden B2F room (22, 9) where the Murkrow is trapped.
 - **Solid Objects**: Computers at B1F (27, 12) are solid walls.
 
 ## Map Structure
