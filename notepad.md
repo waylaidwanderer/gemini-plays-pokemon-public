@@ -30,6 +30,6 @@
    - If warped to **Central Corridor (14, 12)**: Explore North for stairs to B2F.
    - If warped to **Entrance (25, 14)**: Toggle Switch at (19, 11) then retry trap.
 3. **Goal**: Reach B2F North-Central area (Murkrow location).
-- **Correction**: (21, 11) is floor. (21, 10) is the Warp Trap (disguised as a desk).
-- **Plan**: Navigate to (21, 11) via Row 15 (to avoid Grunt at 24,14). Then step UP into (21, 10).
-- **Goal**: Warp to B1F Central Area (14, 12). From there, find stairs to B2F North.
+- **Correction**: (21, 10) is a solid desk. The Warp Trap is the floor tile at (21, 9).
+- **Plan**: Navigate to (21, 9) by flanking East (Column 26) to avoid the desk barrier.
+- **Safety**: Using Row 15 to bypass Scientist vision cones and Grunts.
