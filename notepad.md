@@ -5,9 +5,9 @@
 - **Tertiary**: Defeat Grunt guarding stairs (B1F West).
 
 ## Map Structure (Clarified)
-- **Map 3_50**: B2F Main Area (Contains Boss Door, Silver, Trap Rooms).
-- **Map 3_51**: Likely B2F Northeast Room (where I came from).
-- **Map 3_49**: Likely B1F West Area.
+- **Map 3_50**: B2F Main Area (Boss Door, Trap Rooms).
+- **Map 3_51**: B1F Rear Area (Current Loc, Silver, Murkrow).
+- **Map 3_49**: B1F Entrance Area (Persian Statues).
 
 ## Navigation & Strategy
 - **Current Location**: B2F Northeast (27, 2).
