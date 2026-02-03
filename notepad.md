@@ -46,3 +46,5 @@
 - **Hypothesis**: The "False Computer" passage is in the B1F Trap Room/NE Area. Need to find a way in.
 - **Map Note**: B1F West Corridor is segmented by a wall at y=4. (3, 2) is isolated from (3, 6).
 - **Observation**: There is a door at (3, 8). Need to check if it opens.
+- **Map Discrepancy**: Mental Map lists (3, 11) as `TYPE_2889` (Wall), but visually it appears to be a corridor. This caused BFS to fail.
+- **Plan**: Manually test connectivity at (3, 11) by moving South. If blocked, the West strip is segmented.
