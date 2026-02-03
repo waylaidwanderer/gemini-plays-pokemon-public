@@ -37,8 +37,9 @@
 - **Plan**: Go to B2F, head North, take NE Stairs to B1F NE Room (False Computer search).
 - **Anomaly**: In Turn 26800, moving West from (19, 1) seemingly warped me to (5, 1) past the wall at x=6. This suggests a one-way warp or a screen transition I missed.
 - **Plan**: Use B2F to cross back to the East side (NE Stairs), then investigate the NE room thoroughly for the "False Computer".
-- **Correction**: Currently on B2F (3_51) at (4, 2). Attempting to ascend stairs at (3, 2) again.
-- **Plan**: Step Left onto the stairs at (3, 2) to trigger warp to B1F. Then move East.
+- **Correction**: Currently on B2F (3_51) at (3, 2). I am NOT on B1F.
+- **Discovery**: The screen shows Row 1 on B2F is `TYPE_3fe2` (Walkable Floor), contradicting the Mental Map's `TYPE_2889` (Wall). This connects the West and East sides of B2F!
+- **Plan**: Move Up to (3, 1) and traverse East along Row 1 to reach the NE Stairs at (27, 2).
 - **Risk**: Potential warp tiles in the North Corridor (y=1). In Turn 26800, moving West from (19, 1) warped me to (5, 1). Moving East might be safe or trigger a trap.
 - **Hypothesis**: The "False Computer" passage is in the B1F Trap Room/NE Area. Need to find a way in.
 - **Map Note**: B1F West Corridor is segmented by a wall at y=4. (3, 2) is isolated from (3, 6).
