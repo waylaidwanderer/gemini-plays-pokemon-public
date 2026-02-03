@@ -15,7 +15,6 @@
   - "Hail Giovanni" (Likely needed for Boss Door).
 
 ## Current Plan
-1. **Take Shortcut**: Step on Warp Trap at (21, 10) to warp to B1F Central (14, 12).
-2. **Reach B2F**: Go West to SW Stairs (3, 14) -> B2F (3, 14).
-3. **Find Murkrow**: Go East on B2F to the gap in South Wall, enter Murkrow Room (22, 9).
-4. **Boss Door**: With Murkrow/Password, open Boss Door.
+1. **Access B2F**: Take SE Stairs (27, 14) to B2F South Corridor.
+2. **Find Murkrow**: Go West on B2F, enter Murkrow Room via gap in South Wall (Row 16).
+3. **Boss Door**: Get Password/Voice, open Boss Door.
