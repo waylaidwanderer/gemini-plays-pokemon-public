@@ -11,10 +11,9 @@
 
 ## Navigation & Strategy
 - **Current Location**: B1F Main (6, 14).
-- **Obstacle**: Shutter at (14, 11) blocks North path in Middle Strip.
-- **Strategy**: 
-  1. The shutter blocks access to Murkrow from the South.
-  2. Attempt to circle around via the North Corridor (Row 1).
-  3. If Row 1 is blocked at x=15, check switch at (19, 11).
-- **Plan**: Move North to (16, 2). Check if path West is open.
-- Realization: Row 12 appears to be a clear corridor running East-West. The shutter at (14, 11) blocks the vertical path, but I can likely walk BELOW it along Row 12 to reach the West side.
+- **Status**: Password "RATICATE TAIL" obtained from Grunt.
+- **Path**: The path East and North seems clear to Murkrow at (8, 3).
+- **Map Structure**:
+  - The wall separating West/Middle strips seems to be around x=9 in the south, or non-existent here.
+  - Connection available from Row 14 to Row 3.
+- **Objective**: Catch Murkrow at (8, 3).
