@@ -22,36 +22,11 @@
 - **Goal**: Find switch to open Shutter (14, 11) or disable Warp Trap (21, 11).
 - **Mechanic**: Computers at row ends (x=19, x=26) are **FALSE/WALKABLE**.
 - **Checklist**:
-  - [x] Back of Row 10 (via secret passage).
-  - [x] Back of Row 6 (via secret passage).
-  - [x] Front of Row 10:
-    - (25, 10): Checked.
-    - (24, 10): Checked.
-    - (22, 10): Checked.
-    - (21, 10): Checked (Front).
-    - (20, 10): Checked (Front).
-    - (19, 10): False/Passage.
-  - [x] Front of Row 6:
-    - (19, 6): False/Passage.
-    - (20, 6): Checked.
-    - (21, 6): Blocked by Grunt.
-    - (22, 6): Checked (Back).
-    - (23, 6): Checked (Back).
-    - (24, 6): Checked (Back).
-    - (25, 6): Checked (Back).
-    - (26, 6): False/Passage.
+  - [x] Acquired "RATICATE TAIL".
+  - [x] Acquired "SLOWPOKETAIL".
+  - [ ] Open Boss Door at B2F (23, 14).
 
 ## Key Items & Passwords
 - **Password 1**: "Raticate Tail" (Found, Entered).
-- **Password 2**: "Hail Giovanni" (Likely needed).
-- **Switch**: Needed to toggle warp trap or open shutters.
-- **Discovery**: Secret Passage found at Row 5 (behind computers).
-- **Extent**: Runs from x=19 to x=26.
-- **Hypothesis**: Allows interaction with the computer at (21, 6) which is blocked by a Grunt from the front.
-- **Plan**: Check computer at (21, 6) from the back (at 21, 5).
-- **Discovery**: Computers at the ends of rows (x=19, x=26) are false tiles/walkable gaps. This applies to both Row 6 and Row 10.
-- **Plan**: Traverse the secret corridor at Row 9 and check the backs of the computers at Row 10.
-- **Discovery**: Grunt at (21, 7) provided the second password: "SLOWPOKETAIL".
-- **Objective Update**: Use this password. Likely at the Boss Door (B2F) or a terminal.
-- **Blockage**: Grunt is blocking computer at (21, 6).
-- **Goal**: Check if Grunt moves after talking. If so, access computer (21, 6).
+- **Password 2**: "SLOWPOKETAIL" (Found).
+- **Objective**: Use passwords at the Boss Door.
