@@ -5,16 +5,15 @@
 - **Tertiary**: Defeat Grunt guarding stairs (B1F West).
 
 ## Map Structure (Clarified)
-- **Map 3_50**: B2F Main Area (Boss Door, Trap Rooms).
-- **Map 3_51**: B1F Rear Area (Current Loc, Silver, Murkrow).
-- **Map 3_49**: B1F Entrance Area (Persian Statues).
+- **Map 3_50**: B2F Main Area (West Corridor is isolated by wall at x=6).
+- **Map 3_51**: B1F Partitioned Room (West side = Dead end?, East side = Murkrow).
+- **Map 3_49**: B1F West Area (Main Entrance).
 
 ## Navigation & Strategy
-- **Current Location**: B2F Northeast (27, 2).
-- **Target**: B2F Northwest (Murkrow last seen heading this way?).
-- **Route**:
-  - Row 1 is a corridor connecting East (Col 27) to West (Col 4).
-  - Col 10 is a vertical corridor connecting North (Row 1) to South.
-- **Hazards**:
-  - Traps suspected in B2F West.
-  - Locked Boss Door at (23, 14).
+- **Current Location**: B2F West Corridor (3, 6).
+- **Plan**:
+  1. Take stairs at (3, 14) to B1F West (`3_49`).
+  2. Use hidden passage at `3_49` (9, 4) to cross to B1F East.
+  3. Find stairs to B2F Main (Likely NE corner of B1F).
+  4. Access Murkrow room from B2F Main or B1F East.
+- **Goal**: Reach the *East* side of the partition in `3_51`.
