@@ -20,3 +20,4 @@
   - Middle Strip: x=7-14 (Murkrow, Silver).
   - East Strip: x=16-29 (Stairs to B2F NE).
   - Connection (East <-> Middle): Gap at (15, 12).
+- Scientist Mitch at (11, 15) mentions "If we turn up the power of our radio...". Possible clue about the signal.
