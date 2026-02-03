@@ -35,3 +35,6 @@
 - **Goal**: Find a way to the Murkrow (B2F NW).
 - **Observation**: Warp panels confirmed at (20, 11) and (21, 11). Avoiding them by sticking to Row 13.
 - **Task**: Checking crates on the far East wall (Col 26).
+- **Correction**: Wall at x=23 blocks access to crates from the West.
+- **Plan Update**: Return to the West side. The warp at (5, 15) is marked as leading to the East side (25, 2).
+- **Next Step**: Navigate to (5, 15) and take the warp.
