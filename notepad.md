@@ -19,7 +19,7 @@
 1. **Battle Grunt**: Defeat the Rocket Grunt at B2F (25, 13) to clear the path.
 2. **Investigate Boss Door**: Check the locked door at B2F (23, 14) again.
 3. **Murkrow**: If door remains locked, find a way to get the Murkrow (seen at B2F 22,9) to the door.
-4. **Investigation**: Test floor tiles for warps (currently testing Row 10). If no warp found, investigate the Switch at (19, 11) again.
+4. **Investigation**: Toggle Switch at (19, 11) (Computer). Check if Shutter at (14, 11) opens. If not, re-examine floor or look for other switches.
 
 ## Mechanics & Notes
 - **Warp Trap**: B1F (21, 9) is likely the entry point to the hidden B2F room (22, 9) where the Murkrow is trapped.
