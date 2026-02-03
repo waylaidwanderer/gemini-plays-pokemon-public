@@ -48,3 +48,5 @@
 - **Observation**: There is a door at (3, 8). Need to check if it opens.
 - **Map Discrepancy**: Mental Map lists (3, 11) as `TYPE_2889` (Wall), but visually it appears to be a corridor. This caused BFS to fail.
 - **Plan**: Manually test connectivity at (3, 11) by moving South. If blocked, the West strip is segmented.
+- **Blockage Alert**: Grunt encountered near B1F (3, 1) who blocks the path East. Dialog suggests he's defeated or passive, but he remains an obstacle.
+- **Plan**: Test B2F (3, 11) wall. If solid, re-examine B1F North Corridor or search for hidden switches in West Mid pocket.
