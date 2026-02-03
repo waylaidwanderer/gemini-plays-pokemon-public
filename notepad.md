@@ -27,8 +27,8 @@
 - **Goal**: Reach B2F Northwest (Murkrow).
 - **Plan**: Explore NW corner of `3_49` (B1F) to find stairs down to B2F North.
 - **Hazards**: `3_49` West side is a trap minefield.
-- **Position**: B1F Central (9, 4).
-- **Observation**: The path South at x=9 is blocked by crates at Row 6.
-- **Discovery**: x=7 seems to be an open corridor going South (based on visual inspection of `CurrentScreen`).
-- **Plan**: Navigate to (7, 8) to explore this central area. It might lead to the stairs I'm missing.
+- **Position**: B1F Central (7, 7).
+- **Observation**: Visuals show a blue corridor extending South, but `MentalMap` marks (7, 8) as `TYPE_2889` (Solid Wall).
+- **Test**: Attempting to walk South to confirm if it's a wall or a floor.
+- **Contingency**: If blocked, return to (9, 4) and re-examine the Trap Field (Col 1-5) or look for hidden switches on the statues.
 - **Goal**: Find stairs to B2F NW.
