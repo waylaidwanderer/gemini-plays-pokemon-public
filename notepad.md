@@ -10,11 +10,11 @@
 - **B2F**: Center Boss Door (Locked). West/East sections connected via B1F.
 
 ## Current Status
-- **Location**: B1F Backstage (13, 5).
+- **Location**: B1F Main Room (14, 7).
 - **Items**: "RATICATE TAIL", "SLOWPOKETAIL".
 - **Missing**: Murkrow Voice.
-- **Action**: Exploring Row 5 Corridor Eastbound.
-- **Next**: Check gap at Column 14 to enter main room.
+- **Action**: Heading East to find the NE Room.
+- **Next**: Locate the computer with the hidden switch.
 
 ## Investigation Log
 - **(7, 6)**: Secret Passage confirmed. Connects Row 5 (Backstage) and Row 7 (Main Room).
