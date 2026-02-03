@@ -19,12 +19,27 @@
   - **Entry Hypothesis**: Must be accessed via a Warp Trap or a hidden switch in the "Trap Room" on B1F East.
 
 ## Trap Room Investigation (B1F East)
-- **Location**: B1F, Rows 6-11, Cols 19-25.
-- **Features**: 
-  - Warp Trap at (21, 11).
-  - Computer terminals along North (Row 6) and South (Row 10/11) walls.
-  - Switch at (19, 11) (Unverified).
-- **Goal**: Find the switch that disables the trap or opens the shutter to the center.
+- **Goal**: Find switch to open Shutter (14, 11) or disable Warp Trap (21, 11).
+- **Mechanic**: Computers at row ends (x=19, x=26) are **FALSE/WALKABLE**.
+- **Checklist**:
+  - [x] Back of Row 10 (via secret passage).
+  - [x] Back of Row 6 (via secret passage).
+  - [ ] Front of Row 10:
+    - (25, 10): Checked.
+    - (24, 10): Checked.
+    - (22, 10): Checked.
+    - (21, 10): **Pending** (Trap in front).
+    - (20, 10): **Pending**.
+    - (19, 10): False/Passage.
+  - [ ] Front of Row 6:
+    - (19, 6): False/Passage.
+    - (20, 6): Checked.
+    - (21, 6): Blocked by Grunt.
+    - (22, 6): Checked.
+    - (23, 6): Checked.
+    - (24, 6): Checked.
+    - (25, 6): Checked.
+    - (26, 6): False/Passage.
 
 ## Key Items & Passwords
 - **Password 1**: "Raticate Tail" (Found, Entered).
