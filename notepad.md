@@ -43,11 +43,11 @@
 - **Observation**: Machine at (4, 13) text: "Exploit POKéMON for profit! All POKéMON exist for the glory of Team Rocket!". Just more propaganda.
 - **Plan**: Inspecting the last machine at (5, 13). If no switch found, re-evaluate search area (maybe hidden in a corner or the "Trap" at 2,11).
 - **Observation**: Grunt at (5, 14) gives "Raticate Tail" password but does not move. Machine at (5, 13) remains inaccessible.
-- **Reflection (Turn 26676)**:
-  - **Progress**: Found B1F Central South pocket via Gap at (15, 13).
-  - **Findings**: Machines at (4, 13) and (6, 13) are propaganda. Machine at (5, 13) is blocked by a Grunt and solid tiles behind it.
-  - **Hypothesis**: The "Suspicious Tile" at (2, 11) (Yellow/Black) might be a switch or trap.
-  - **Plan**: Inspect (2, 11) from (2, 10). Then check NW Stairs (3, 2).
+- **Reflection (Turn 26629)**:
+  - **Progress**: Found B1F Central South pocket.
+  - **Status**: At (3, 13). Checking machine backs and suspicious tiles.
+  - **Hypothesis**: Machine (5, 13) might have a switch on the back. Tile (2, 11) is visually distinct (Trap/Switch).
+  - **Plan**: Inspect (5, 13) from (5, 12). Inspect (2, 11) from (3, 11). Then head North to Stairs (3, 6)/(3, 2).
 - **Map Notes**:
   - **Gap**: (15, 13) connects East and West B1F.
   - **Barriers**: Row 12 (x<7) is solid `TYPE_2889`. Cannot walk behind machines.
