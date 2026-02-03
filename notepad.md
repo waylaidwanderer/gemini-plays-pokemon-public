@@ -30,6 +30,6 @@
    - If warped to **Central Corridor (14, 12)**: Explore North for stairs to B2F.
    - If warped to **Entrance (25, 14)**: Toggle Switch at (19, 11) then retry trap.
 3. **Goal**: Reach B2F North-Central area (Murkrow location).
-- **Result**: Warp Trap (21, 11) failed.
-- **Plan**: Go to SE Stairs (27, 14) -> B2F. Navigate South to Row 16, then West to bypass walls and reach Murkrow.
-- **Obstacle**: Grunt at (24, 14) is solid. Bypassing via Row 15.
+- **Correction**: (21, 11) is floor. (21, 10) is the Warp Trap (disguised as a desk).
+- **Plan**: Navigate to (21, 11) via Row 15 (to avoid Grunt at 24,14). Then step UP into (21, 10).
+- **Goal**: Warp to B1F Central Area (14, 12). From there, find stairs to B2F North.
