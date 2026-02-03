@@ -27,9 +27,8 @@
 - **Goal**: Reach B2F Northwest (Murkrow).
 - **Plan**: Explore NW corner of `3_49` (B1F) to find stairs down to B2F North.
 - **Hazards**: `3_49` West side is a trap minefield.
-- **Position**: B1F Central (9, 11).
-- **Observation**: Wall at (9, 10) blocks direct North movement.
-- **Plan**: Move West to x=7, then explore North into the maze.
-- **Target**: The area around (7, 8) which I saw from the North but couldn't reach.
-- **Hypothesis**: The stairs to B2F NW are hidden in this central block.
+- **Position**: B1F Central (7, 7).
+- **Observation**: I am back at the North side of the (7, 8) wall.
+- **Action**: Testing if the "Fake Wall" at (7, 8) is interactable (Secret Door).
+- **Plan**: Press A on (7, 8). If nothing, navigate to the South side (7, 9) via the long loop.
 - **Goal**: Find stairs to B2F NW.
