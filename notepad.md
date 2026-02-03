@@ -28,9 +28,7 @@
 - **Plan**: Explore NW corner of `3_49` (B1F) to find stairs down to B2F North.
 - **Hazards**: `3_49` West side is a trap minefield.
 - **Position**: B1F East (24, 6).
-- **Observation**: Statue at (24, 6) is just an alarm (disabled). No secret switch found.
-- **Next Step**: Return to the West side.
-- **Route**: (24, 6) -> (19, 6) -> (19, 5) -> West to (9, 5) -> (5, 6).
-- **Goal**: Re-investigate the "Trap Field" and the area around the Grunt (Col 1-5).
-- **Hypothesis**: The B1F NW stairs or a switch to open the B2F blockage must be hidden in the West sector.
-- **Warning**: B2F blockage at (3, 8) prevents North travel. B2F Door at (23, 14) is locked. B1F is the only option.
+- **Correction**: Before leaving, I realized I am on the correct side of the wall to access the Supply Crates at (27, 10).
+- **Action**: Navigate to (27, 9) and inspect the crates at (27, 10).
+- **Hypothesis**: A hidden item or switch might be there.
+- **Afterward**: Return to West side (Trap Field) if empty.
