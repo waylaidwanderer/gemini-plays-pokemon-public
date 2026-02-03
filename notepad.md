@@ -8,7 +8,11 @@
 - **Trap Fields**: West Side (Cols 1-5).
 - **Statue Alarms**: Row 3 (Switch at 19,11 disables -> CONFIRMED).
 - **Shutters**: B2F West Shutters confirmed CLOSED.
-- **Warp Tiles**: (20,11), (21,11) -> Entrance.
+- **Map Features**:
+  - **Warps at (20,11), (21,11)**: POSTERS (Team Rocket Oath). Not warps.
+  - **Warp at (5, 15)**: Confirmed to send to Entrance (25, 2).
+  - **Stairs at (3, 14)**: Only way down.
+- **Hypothesis**: B2F South is NOT a dead end. I must have missed a passage or trigger.
 
 ## Navigation & Strategy
 - **Current Goal**: Reach B2F Northwest (Murkrow).
