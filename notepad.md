@@ -28,6 +28,6 @@
 - **Plan**: Explore NW corner of `3_49` (B1F) to find stairs down to B2F North.
 - **Hazards**: `3_49` West side is a trap minefield.
 - **Position**: B1F Central (19, 12).
-- **Observation**: Access North is blocked by a Computer (19, 11) and Warp Panels (20-21, 11).
-- **Action**: Navigate South-East to (26, 8) to bypass the warp tiles and reach the Northern Corridor.
-- **Hypothesis**: A path exists on the far East side (Col 26).
+- **Observation**: East path blocked by wall at (23, 12). North blocked by Warp Panels.
+- **Action**: Backtrack West to (11, 12), go North to (11, 5), then East to (21, 3).
+- **Goal**: Cross the gap at Row 3 (24, 3) to reach the East Side.
