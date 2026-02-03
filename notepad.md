@@ -20,3 +20,6 @@
 - **Notes**: 
   - B2F NW Room is inaccessible directly from South (blocked by machines) or East (blocked by walls).
   - Must loop through B1F.
+- **B1F Layout**: Row 12 is a solid wall (x=0 to x=23). South and North sections are separated.
+- **Connection**: Must use East Passage (x=24) to cross between South and North.
+- **Revised Path**: (10, 16) -> East to (24, 16) -> North to Row 11 -> West to (3, 2).
