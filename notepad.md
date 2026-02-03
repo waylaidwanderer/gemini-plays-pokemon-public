@@ -16,13 +16,16 @@
 
 ## Map Connections
 - **B1F (Map 3_51)**:
-  - (3, 6) Stairs <-> B2F (3, 6) [West] (Correction: Not 3,14)
+  - (3, 6) Stairs <-> B2F (3, 6) [West Middle] (Separate from NW and SW?)
   - (27, 14) Stairs <-> B2F (27, 14) [South East]
   - (3, 2) Stairs <-> B2F (3, 2) [North West]
   - (27, 2) Stairs <-> B2F (27, 2) [North East]
+  - (3, 14) Stairs <-> B2F (3, 14) [South West]
 - **B2F (Map 3_50)**:
-  - North Corridor connects NW and NE stairs. (Isolated from Center).
-  - South Corridor (Row 16) connects SW and SE stairs. (Likely access to Center/Murkrow).
+  - **West Side Structure**: Likely 3 isolated pockets (North, Middle, South) separated by walls on B2F, requiring B1F transitions to hop between them.
+  - **Middle Pocket (3, 6)**: Currently exploring. Checked South path.
+  - **North Corridor**: Connects NW and NE stairs. (Isolated from Center).
+  - **South Corridor (Row 16)**: Connects SW and SE stairs. (Likely access to Center/Murkrow).
 
 ## Current Plan
 1. **Warp Strategy**: From B1F Entrance (25, 14), go to Warp Trap at (21, 10).
