@@ -27,8 +27,8 @@
 - **Goal**: Reach B2F Northwest (Murkrow).
 - **Plan**: Explore NW corner of `3_49` (B1F) to find stairs down to B2F North.
 - **Hazards**: `3_49` West side is a trap minefield.
-- **Position**: B1F Central (19, 12).
-- **Observation**: North blocked by Warps. Row 8 is a Wall from X=7 to X=18.
-- **Action**: Go South-West to (5, 15).
-- **Plan**: Use the West Side (Col 1-5) to go North, then cross East at Row 2/3.
-- **Note**: (5, 15) might be a warp to (25, 2). If so, take it.
+- **Position**: B1F South-East (22, 13).
+- **Goal**: Reach B2F Northwest (Murkrow).
+- **Plan**: Navigate West to (6, 15), then explore the West Side (Col 1-5) going North to find stairs to B2F NW.
+- **Hazards**: Avoid traps in West Side (Col 1-5).
+- **Note**: (5, 15) might be a warp. Approach with caution.
