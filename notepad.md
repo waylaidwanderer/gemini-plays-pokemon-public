@@ -29,3 +29,6 @@
 - **Computers**: Top row in NE Room (20-22, 2) are SOLID. No passage.
 - **Warps**: (19, 1) was safe on last pass.
 - **Solid Walls**: B2F (3, 11) is solid.
+- **Anomaly**: Stairs at B2F (3, 14) are `TYPE_3fe2` (Walkable) but did not trigger warp on first attempt.
+- **Action**: Attempting to walk deeper into the stairs (South) to trigger warp.
+- **Contingency**: If stairs fail, must re-evaluate access to B1F SW (perhaps via B1F Center/Trap Room).
