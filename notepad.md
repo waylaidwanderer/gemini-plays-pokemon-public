@@ -15,11 +15,18 @@
   - North-East Section: Accessible via NE Stairs (27, 2). Contains Silver & Murkrow.
   - South-East Section: Accessible via SE Stairs (27, 14). Contains Switch.
 
+## Reflection (Turn 26471)
+- **Progress**: Found Murkrow, got "Raticate Tail" password. Stuck on Boss Door and Switch puzzle.
+- **Hygiene**: Map markers are updated. Notepad plan is current.
+- **Strategy**: Trying to toggle switch at (19, 11). Movement is tricky because tiles are walkable.
+- **Tools**: Existing tools are sufficient.
+
 ## Current Plan
-1. **Battle Grunt**: Defeat the Rocket Grunt at B2F (25, 13) to clear the path.
-2. **Investigate Boss Door**: Check the locked door at B2F (23, 14) again.
-3. **Murkrow**: If door remains locked, find a way to get the Murkrow (seen at B2F 22,9) to the door.
-4. **Investigation**: Toggle Switch at (19, 11) (Computer). Check if Shutter at (14, 11) opens. If not, re-examine floor or look for other switches.
+1. **Toggle Switch**: Test interaction with Computer at (19, 11)/(19, 10) from multiple angles.
+   - Sequence: Move Down to (19, 12), move Up to (19, 11) (facing Up), press A.
+2. **Check Shutter**: If successful, check shutter at (14, 11).
+3. **Warp Puzzle**: If switch fails, re-investigate floor tiles in Row 9/10 using `scan_surroundings`.
+4. **Boss Door**: Return to B2F door if shutter opens.
 
 ## Mechanics & Notes
 - **Warp Trap**: B1F (21, 9) is likely the entry point to the hidden B2F room (22, 9) where the Murkrow is trapped.
