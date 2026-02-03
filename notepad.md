@@ -44,3 +44,5 @@
 - Requirement: Murkrow's Voice for Boss Door.
 - **Navigation Note**: Path to NE Stairs (27, 2) via Column 26/27 seems clear, but previous attempts failed. Watch for hidden obstacles.
 - **Goal Update**: Heading to B2F via NE Stairs to find a route to the Central Area (Silver/Murkrow).
+- **Observation**: Shutter at (14, 11) is definitely locked.
+- **Plan Update**: Going to toggle switch at (19, 11) and then step on warp trap at (21, 10) to see if it sends me to the Murkrow Room (B2F 22,9).
