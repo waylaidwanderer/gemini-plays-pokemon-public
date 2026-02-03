@@ -1,7 +1,7 @@
 # Team Rocket HQ (Mahogany Town)
 ## Objectives
 - **Primary**: Open Boss Door on B2F (Requires Murkrow Voice + "Raticate Tail").
-- **Secondary**: Reach B2F Central Area via B1F Trap -> SW Stairs.
+- **Secondary**: Reach Murkrow via B2F South Corridor (Row 16).
 - **Tertiary**: Catch Murkrow (B2F 22,9).
 
 ## Mechanics & Traps
@@ -14,13 +14,18 @@
   - "Raticate Tail" (Entered at B1F 21,11).
   - "Hail Giovanni" (Likely needed for Boss Door).
 
-## Current Plan
-1. **West Route Loop**: Go West to SW Stairs (3, 14) -> B1F -> NW Stairs (3, 2) -> B2F North Section.
-2. **Find Murkrow**: In B2F North Section, go East to (22, 9).
-3. **Boss Door**: Return to B2F South Section to open Boss Door.
+## Map Connections
+- **B1F (Map 3_51)**:
+  - (3, 14) Stairs <-> B2F (3, 14) [South West]
+  - (27, 14) Stairs <-> B2F (27, 14) [South East]
+  - (3, 2) Stairs <-> B2F (3, 2) [North West]
+  - (27, 2) Stairs <-> B2F (27, 2) [North East]
+- **B2F (Map 3_50)**:
+  - North Corridor connects NW and NE stairs. (Isolated from Center).
+  - South Corridor (Row 16) connects SW and SE stairs. (Likely access to Center/Murkrow).
 
-## Map Structure
-- **B2F Row 12 Barrier**: Seems to split B2F into North and South halves, forcing use of stairs to cross.
-- **Locked Door**: At (23, 14). Bypassed via gap at (23, 16).
-- **Correction**: No stairs found at B1F West (3, 2). This area seems to be a dead end.
-- **Plan**: Heading back to SW Stairs (3, 14) to access B2F South Corridor and reach Murkrow via the southern gap.
+## Current Plan
+1. **Navigate**: Go East along B2F South Corridor (Row 16).
+2. **Enter Room**: turn North at x=22/23 to enter the Murkrow room.
+3. **Action**: Catch Murkrow / Get Password.
+4. **Boss**: Go to Boss Door (23, 14).
