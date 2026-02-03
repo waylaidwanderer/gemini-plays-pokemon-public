@@ -10,16 +10,11 @@
 - **Map 3_49**: B1F West Area (Main Entrance).
 
 ## Navigation & Strategy
-- **Current Location**: B2F West Pocket (3, 6).
-- **Status**: Trapped. 
-  - North blocked by Wall at Row 4.
-  - South blocked by Shutters at Row 8.
-  - East blocked by Wall at Col 6.
+- **Current Location**: B1F West (3, 6).
 - **Plan**:
-  1. Use stairs at (3, 6) to return to Map 3_51 (B1F).
-  2. Walk North to stairs at (3, 2) on Map 3_51.
-  3. Warp to Map 3_50 (3, 2) (North Corridor).
-  4. Go East to (27, 2) (Stairs to B1F NE).
-  5. Enter B1F Main/East from (27, 2).
-  6. Navigate to Murkrow (8, 3).
+  1. Walk North to stairs at (3, 2).
+  2. Take stairs down to B2F North Corridor (3, 2).
+  3. Go East to (27, 2) (Stairs to B1F NE).
+  4. Enter B1F Main/East from (27, 2).
+  5. Navigate to Murkrow (8, 3).
 - **Goal**: Reach the *East* side of the partition in `3_51`.
