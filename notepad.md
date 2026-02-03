@@ -57,3 +57,6 @@
   - If Warped to Entrance: Switch failed.
   - If No Warp: Proceed to Gap (15, 13) to reach North Pocket via B2F loop.
 - **North Access**: To reach (2, 11) (Suspicious Tile) or NW Stairs, I must loop via B2F NE Stairs -> B2F NW Stairs.
+- **Discovery**: Column 2 is a wall of trees, but there is a gap at (2, 16).
+- **Hypothesis**: Column 1 is a hidden corridor leading North, potentially bypassing the Shutter.
+- **Plan**: Navigate South to Row 16, then West to Column 1, then North.
