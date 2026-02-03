@@ -38,3 +38,5 @@
 - **Anomaly**: In Turn 26800, moving West from (19, 1) seemingly warped me to (5, 1) past the wall at x=6. This suggests a one-way warp or a screen transition I missed.
 - **Plan**: Use B2F to cross back to the East side (NE Stairs), then investigate the NE room thoroughly for the "False Computer".
 - **Map Note**: B2F West Corridor is separated from the Center by a wall at x=6, but the map shows a potential 1-tile gap at (6, 10). This could be the entry point to the Center where Silver and Murkrow are.
+- **Map Note**: B1F West Corridor is segmented by a wall at y=4. (3, 2) is isolated from (3, 6).
+- **Observation**: There is a door at (3, 8). Need to check if it opens.
