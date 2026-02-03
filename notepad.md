@@ -10,11 +10,12 @@
 - **Map 3_49**: B1F West Area (Main Entrance).
 
 ## Navigation & Strategy
-- **Current Location**: B1F West (3, 6).
+- **Current Location**: B2F North Corridor (5, 2).
+- **Correction**: Row 2 is blocked by walls (TYPE_2889). The actual corridor is Row 1.
 - **Plan**:
-  1. Walk North to stairs at (3, 2).
-  2. Take stairs down to B2F North Corridor (3, 2).
-  3. Go East to (27, 2) (Stairs to B1F NE).
-  4. Enter B1F Main/East from (27, 2).
-  5. Navigate to Murkrow (8, 3).
+  1. Move Up to Row 1.
+  2. Go East along Row 1 to x=27.
+  3. Move Down to (27, 2) (Stairs to B1F NE).
+  4. Enter B1F Main/East.
+  5. Find Murkrow.
 - **Goal**: Reach the *East* side of the partition in `3_51`.
