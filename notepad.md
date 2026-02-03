@@ -50,7 +50,7 @@
 - **Plan**: Manually test connectivity at (3, 11) by moving South. If blocked, the West strip is segmented.
 - **Blockage Alert**: Grunt encountered near B1F (3, 1) who blocks the path East. Dialog suggests he's defeated or passive, but he remains an obstacle.
 - **Plan**: Test B2F (3, 11) wall. If solid, re-examine B1F North Corridor or search for hidden switches in West Mid pocket.
-- **Correction**: Wall at (3, 11) CONFIRMED solid. Cannot move South from West Mid pocket.
-- **Plan**: Re-enter B2F Center Corridor via Gap at (6, 10).
-- **Goal**: Find a path SOUTH from the Center Corridor (Row 10) to reach the South Corridor (Row 14+).
-- **Investigation**: Check if the shutter at (14, 11) is passable or if there are other openings along Row 10.
+- **Status**: Confirmed on B1F (3_50) at (3, 2). Warp successful.
+- **Plan**: Traverse B1F North Corridor East to (18, 2) to bypass the Grunt and avoid the suspected warp trap at (19, 1).
+- **Goal**: Reach the NE "Trap Room" to find the secret switch for the Boss Door/Shutters.
+- **Note**: Keeping to Row 2 (Bottom Lane) to avoid obstacles.
