@@ -50,9 +50,7 @@
 - **Route Update**: Moving North via safe East Corridor (Col 28) to bypass Statue Alarms at (27, 12-13) and Wall at (27, 4-11).
 - **Target**: Cross West at Row 3, then South down Col 26 to False Computer at (26, 10).
 - **Investigation**:
-  - Investigated Backstage Area (Row 5).
-  - Checked Wall (Row 4) and Back of Obstacles (Row 6) from Col 26 to 23. Empty so far.
-  - Checked Computer Stack at Col 27. Empty.
-  - Checked Computers at Col 25. Empty.
-- **Current Action**: Continuing sweep West along Row 5 to (19, 5).
-- **Goal**: Find Hidden Switch to open Boss Door.
+  - Swept Backstage Row 5 (26 to 19). Checked Wall (Row 4) and Row 6 objects.
+  - Result: No switch found yet in the western part.
+- **Current Action**: Moving back East to check the obstruction at (27, 5) and the wall at (19, 4).
+- **Hypothesis**: The "wall" at (27, 5) might be interactable or false. Or the switch is extremely well hidden.
