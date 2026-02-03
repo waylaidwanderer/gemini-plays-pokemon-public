@@ -35,11 +35,11 @@
 - **Hypothesis**: A switch inside this pocket opens the Shutter at (14, 11), allowing access to Silver/Murkrow.
 - **Findings**: Machines at (4,13), (6,13), (7,13) contain propaganda. Machine at (5,13) is physically inaccessible. No switches found in this area.
 - **Plan**: Moving to B2F NE Stairs (27, 2) to attempt access to B2F North Corridor.
-- **Reflection (Turn 26629)**:
-  - **Progress**: Found B1F Central South pocket.
-  - **Status**: At (3, 13). Checking machine backs and suspicious tiles.
-  - **Hypothesis**: Machine (5, 13) might have a switch on the back. Tile (2, 11) is visually distinct (Trap/Switch).
-  - **Plan**: Inspect (5, 13) from (5, 12). Inspect (2, 11) from (3, 11). Then head North to Stairs (3, 6)/(3, 2).
+- **Reflection (Turn 26639)**:
+  - **Status**: Leaving B1F South Pocket via Gap (15, 13).
+  - **Hypothesis**: Access to Murkrow/Silver is via B2F North Corridor.
+  - **Plan**: Go to NE Stairs (27, 2). Descend to B2F. Attempt to navigate West to reach the Central/North section. Re-verify if the path is truly blocked at x=23.
+  - **Backup**: If blocked, check B2F East section thoroughly for switches or hidden paths.
 - **Map Notes**:
   - **Gap**: (15, 13) connects East and West B1F.
   - **Barriers**: Row 12 (x<7) is solid `TYPE_2889`. Cannot walk behind machines.
