@@ -29,5 +29,5 @@
 - **Hazards**: `3_49` West side is a trap minefield.
 ## Current Action
 - **Position**: B1F East side (22, 2).
-- **Immediate Plan**: Check Persian Statue at (24, 1), then head West along Row 2 to the Grunt at (2, 4).
+- **Immediate Plan**: Head West to the Grunt at (2, 4). Checked Statue at (24, 1) - just text.
 - **Goal**: Access the stairs behind the Grunt to reach B2F Northwest (Murkrow).
