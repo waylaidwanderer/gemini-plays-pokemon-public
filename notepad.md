@@ -15,9 +15,14 @@
   - South-East Section: Accessible via SE Stairs (27, 14). Contains Switch.
 
 ## Current Plan
-1. **Investigate Warp**: Navigate to the potential warp tile at (21, 9) in the B1F East Section.
-2. **Hypothesis**: This warp may lead to the enclosed Central Area (Silver/Murkrow) which appears inaccessible via walking.
-3. **Contingency**: If warp fails, search for other hidden mechanics or switches in the East Section.
+1. **Battle Grunt**: Defeat the Rocket Grunt at B2F (25, 13) to clear the path.
+2. **Investigate Boss Door**: Check the locked door at B2F (23, 14) again.
+3. **Murkrow**: If door remains locked, find a way to get the Murkrow (seen at B2F 22,9) to the door.
+4. **Warp Hypothesis**: If stuck, return to B1F and check the warp at (21, 9), theorizing it might lead to the enclosed area with the Murkrow.
+
+## Mechanics & Notes
+- **Warp Trap**: B1F (21, 9) might be a warp trap or a valid transport. Need to verify.
+- **Solid Objects**: Computers at B1F (27, 12) are solid walls.
 
 ## Map Structure
 - **East Section (Current)**: X > 15. Contains Switch (19, 11), Password PC (21, 11), Warp (21, 9).
