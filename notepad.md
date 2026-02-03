@@ -52,3 +52,6 @@
 - **Hazard Info**: Type `63e2` confirmed as Alarm/Warp tiles. Must exclude from pathing.
 - **Correction**: The tile at B1F (27, 14) is the Staircase/Warp (TYPE_8564). When navigating B1F SE corner, do NOT step on (27, 14) unless descending. Route from (28, 16) to North MUST bypass (27, 14) via (28, 14).
 - **Action**: Currently on B2F (3_50). Stepping Left-Right to warp back to B1F.
+- **Trap Confirmation**: Tile B1F (26, 14) is a confirmed Warp Trap (Alarm). Stepping there sends you to B2F.
+- **Navigation Rule**: On B1F, do NOT step on (26, 14) or (27, 14) (unless descending).
+- **Safe Path**: From B1F (27, 14), go East to (28, 14), then South to (28, 16), then West along Row 16.
