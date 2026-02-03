@@ -51,3 +51,7 @@
 - **Plan**: Check computer at (21, 6) from the back (at 21, 5).
 - **Discovery**: Computers at the ends of rows (x=19, x=26) are false tiles/walkable gaps. This applies to both Row 6 and Row 10.
 - **Plan**: Traverse the secret corridor at Row 9 and check the backs of the computers at Row 10.
+- **Discovery**: Grunt at (21, 7) provided the second password: "SLOWPOKETAIL".
+- **Objective Update**: Use this password. Likely at the Boss Door (B2F) or a terminal.
+- **Blockage**: Grunt is blocking computer at (21, 6).
+- **Goal**: Check if Grunt moves after talking. If so, access computer (21, 6).
