@@ -51,4 +51,9 @@
 - **Map Notes**:
   - **Gap**: (15, 13) connects East and West B1F.
   - **Barriers**: Row 12 (x<7) is solid `TYPE_2889`. Cannot walk behind machines.
-  - **Trap**: Previous "Warp Trap" at (21, 10) was likely disabled or I misunderstood it. Focus on West side.
+  - **Trap Confusion**: Records show I warped from (5, 15) before. The "Trap" at (21, 10) might be a misunderstanding or a second trap.
+- **Plan**: Test Warp Trap at (5, 15).
+  - If Warped to Silver: Proceed.
+  - If Warped to Entrance: Switch failed.
+  - If No Warp: Proceed to Gap (15, 13) to reach North Pocket via B2F loop.
+- **North Access**: To reach (2, 11) (Suspicious Tile) or NW Stairs, I must loop via B2F NE Stairs -> B2F NW Stairs.
