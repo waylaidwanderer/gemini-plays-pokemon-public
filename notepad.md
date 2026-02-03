@@ -27,9 +27,8 @@
 - **Goal**: Reach B2F Northwest (Murkrow).
 - **Plan**: Explore NW corner of `3_49` (B1F) to find stairs down to B2F North.
 - **Hazards**: `3_49` West side is a trap minefield.
-- **Position**: B1F West (3, 4).
-- **Analysis**: Row 4 is a wall barrier. The only way to the East Section (x>6) is via Row 5.
-- **Route**: (3, 2) -> (9, 2) -> (9, 5) -> East to (19, 5) -> South to (19, 6) -> East to (24, 6).
-- **Target**: Persian Statue at (24, 6).
-- **Hypothesis**: This statue hides the switch or stairs.
-- **Goal**: Reach (24, 6) and interact.
+- **Position**: B1F East (24, 6).
+- **Action**: Inspecting Persian Statue at (24, 5) [Top at 24, 4].
+- **Hypothesis**: This statue might have a hidden switch to open the way to Murkrow (B2F NW).
+- **Contingency**: If this fails, the only remaining option is that the "Useless Grunt" at (2, 4) moves after a specific event, or I need to clear the "Trap Field" by triggering the battles.
+- **Goal**: Interact with statue.
