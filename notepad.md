@@ -56,3 +56,6 @@
 - **Confirmation**: Column 1 is BLOCKED by a wall at Row 4 (TYPE_2889). The "Continuous Corridor" hypothesis was false.
 - **Plan**: Walk South on B1F West side to reach SW Stairs (3, 14), then access B2F South Corridor.
 - **Goal**: Access B2F North Section to reach Murkrow (22, 9).
+- **Confirmation**: B1F NE Pocket (x > 15) is isolated from B1F Center by a wall at x=15.
+- **Hypothesis**: The entrance to the Silver/Murkrow pocket (B1F Center) must be a staircase coming up from B2F, located between x=6 and x=15.
+- **Plan**: Return to B2F North Corridor and search for a hidden door or stairs between x=6 and x=15.
