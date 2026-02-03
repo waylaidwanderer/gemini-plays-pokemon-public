@@ -21,9 +21,10 @@
   - **East**: Access via SE Stairs (27, 14) or NE Stairs (27, 2).
 
 ## Current Status
-- **Location**: B1F SE Section (near stairs to B2F), approaching Grunt at (24, 14).
+- **Location**: B2F East Corridor (moving North to NE Stairs).
 - **Items**: "RATICATE TAIL" (Password 1), "SLOWPOKETAIL" (Password 2).
 - **Missing**: Murkrow Voice (Password 3 equivalent).
+- **Plan**: Go to B1F NE (Trap Room) via B2F NE Stairs (27, 2). Find hidden switch or Murkrow.
 
 ## Investigation Log
 - **Computers**: Top row in NE Room (20-22, 2) are SOLID. No passage.
