@@ -27,8 +27,11 @@
 - **Goal**: Reach B2F Northwest (Murkrow).
 - **Plan**: Explore NW corner of `3_49` (B1F) to find stairs down to B2F North.
 - **Hazards**: `3_49` West side is a trap minefield.
-- **Position**: Souvenir Shop (3_48).
-- **Observation**: (27, 2) on B1F is the exit warp to the Shop. I accidentally exited.
-- **Plan**: Re-enter B1F. Upon spawning at (27, 2), IMMEDIATELY move South to (27, 3) to explore the East Strip.
-- **Hypothesis**: There is a path South along the East wall (Col 27-29) leading to the B2F East/South stairs.
-- **Goal**: Find stairs to B2F East.
+- **Position**: B1F East Side (24, 2).
+- **Observation**: Statue at (24, 1) is solid. "Shiny eyes" text.
+- **Goal**: Find stairs to B2F NW (Murkrow).
+- **Hypothesis**: The stairs are in the B1F Central Area (x=6-10), which I haven't fully explored.
+- **Immediate Plan**: 
+    1. Inspect (19, 11) (Summary mentioned a switch there).
+    2. If false, navigate to Central Area (x=9) via the top corridor (Row 2).
+    3. Map the Central Area tile-by-tile to find the path South.
