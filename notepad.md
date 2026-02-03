@@ -33,6 +33,8 @@
   6. Take Stairs UP to B1F West.
 - **Observation (Turn 26334)**: Tile at (6, 2) appears to be a wall (`TYPE_2889`) despite visual similarity to floor. Direct access to Silver from the West is blocked.
 - **Plan**: Navigate South to the gap at (6, 10), then North to approach Silver from the South at (7, 3).
-- **Navigation Update**: Access to Silver (7, 2) and Murkrow (7, 1) is via the gap in Row 9 at Column 5 (or West of it).
-- **Route**: From (7, 10), go West to (5, 10), then North to (7, 3).
-- **Correction**: Row 11 appears to be a solid wall/barrier preventing access to the South section (Row 14) from here. The Oath Machine at (7, 13) is likely inaccessible from the North.
+- **Navigation Strategy**:
+  1. Go West to (5, 10) to bypass the wall at Row 9.
+  2. Go North along Column 5.
+  3. Probe Column 6 (Right Wall) for a hidden gap to reach Silver at (7, 2).
+- **Hypothesis**: The wall separating Column 5 and 7 is not solid along its entire length. There must be a gap between Row 2 and Row 9.
