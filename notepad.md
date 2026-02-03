@@ -40,3 +40,5 @@
 - **Plan**: Inspecting Machine at (6, 13).
 - **Observation**: Machine at (6, 13) text: "Exploit POKéMON for profit! All POKéMON exist for the glory of Team Rocket!". Propaganda.
 - **Plan**: Moving to inspect Machine at (4, 13). Note: Grunt at (5, 14) blocks access to Machine at (5, 13).
+- **Observation**: Machine at (4, 13) text: "Exploit POKéMON for profit! All POKéMON exist for the glory of Team Rocket!". Just more propaganda.
+- **Plan**: Inspecting the last machine at (5, 13). If no switch found, re-evaluate search area (maybe hidden in a corner or the "Trap" at 2,11).
