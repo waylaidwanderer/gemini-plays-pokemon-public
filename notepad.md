@@ -15,6 +15,10 @@
   - "Hail Giovanni" (Likely needed for Boss Door).
 
 ## Current Plan
-1. **Access B2F**: Take SE Stairs (27, 14) to B2F South Corridor.
-2. **Find Murkrow**: Go West on B2F, enter Murkrow Room via gap in South Wall (Row 16).
-3. **Boss Door**: Get Password/Voice, open Boss Door.
+1. **West Route Loop**: Go West to SW Stairs (3, 14) -> B1F -> NW Stairs (3, 2) -> B2F North Section.
+2. **Find Murkrow**: In B2F North Section, go East to (22, 9).
+3. **Boss Door**: Return to B2F South Section to open Boss Door.
+
+## Map Structure
+- **B2F Row 12 Barrier**: Seems to split B2F into North and South halves, forcing use of stairs to cross.
+- **Locked Door**: At (23, 14). Bypassed via gap at (23, 16).
