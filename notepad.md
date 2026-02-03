@@ -32,4 +32,6 @@
 - **Password 1**: "Raticate Tail" (Found, Entered).
 - **Password 2**: "SLOWPOKETAIL" (Found).
 - **Objective**: Use passwords at the Boss Door.
-- **Correction**: Computer at (26, 10) is SOLID. The "False Computer" passage might be at x=19 or elsewhere.
+- **Correction**: Computer at (26, 10) is SOLID. The "False Computer" passage might be in the NE Room (x=19?).
+- **Map Note**: B1F SE Room seems isolated. Wall at x=23 blocks access to Center.
+- **Plan**: Explore SE room fully, then try NE Room via B2F North Corridor.
