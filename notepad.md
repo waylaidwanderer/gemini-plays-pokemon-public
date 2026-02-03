@@ -31,7 +31,7 @@
 ## Mechanics & Notes
 - **Warp Trap**: B1F (21, 10) is a confirmed warp trap that sends to entrance (25, 14).
 - **Hypothesis**: A switch might change the trap's destination or open the shutter at (14, 11).
-- **Solid Objects**: Computers at B1F (27, 12) are solid walls.
+- **Solid Objects**: TYPE_2889 tiles are solid walls (e.g., Row 10 desks, Computers at 27,12).
 
 ## Map Structure
 - **East Section (Current)**: X > 15. Contains Switch (19, 11), Password PC (21, 11), Warp (21, 9).
