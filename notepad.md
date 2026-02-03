@@ -54,6 +54,8 @@
 - **Plan**: Traverse B1F North Corridor East to (18, 2) to bypass the Grunt and avoid the suspected warp trap at (19, 1).
 - **Goal**: Reach the NE "Trap Room" to find the secret switch for the Boss Door/Shutters.
 - **Note**: Keeping to Row 2 (Bottom Lane) to avoid obstacles.
-- **Correction**: Tile B1F (3, 2) is the warp/stairs. Stepping on it from (3, 1) triggered the warp back to B2F.
-- **Strategy**: Warp up to B1F (arrive at 3, 2). From (3, 2), move RIGHT to (4, 2) immediately. DO NOT move Up to (3, 1).
-- **Path**: B1F (3, 2) -> (4, 2) -> (5, 2) -> East.
+- **Correction**: Row 2 on B1F is BLOCKED by walls from x=6 to at least x=15. Must use Row 1.
+- **Plan**: Navigate East on Row 1 to (17, 1).
+- **Hazard**: Suspected warp trap at (19, 1).
+- **Hypothesis**: The trap might be avoidable if Row 2 opens up near x=18, or if it's one-way.
+- **Goal**: Reach B1F NE Room (Trap Room) to find the secret switch.
