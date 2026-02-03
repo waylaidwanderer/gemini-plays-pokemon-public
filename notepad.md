@@ -34,3 +34,5 @@
 - **Blockage**: North access is blocked by Shutter (14, 11) and Row 9 Wall.
 - **Hypothesis**: A switch inside this pocket opens the Shutter at (14, 11), allowing access to Silver/Murkrow.
 - **Plan**: Navigate to West side of this pocket (via Row 16 to bypass Scientist) and inspect "Oath Machine" at (7, 13).
+- **Observation**: Machine at (7, 13) reads "Steal POKEMON for profit!". Just propaganda.
+- **Plan**: Moving Left to check the next machine at (6, 13).
