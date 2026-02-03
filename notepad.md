@@ -22,7 +22,7 @@
   - **East**: Access via SE Stairs (27, 14) or NE Stairs (27, 2).
 
 ## Current Status
-- **Location**: B2F East Corridor (moving North to NE Stairs).
+- **Location**: B1F NE Section (near stairs from B2F), entering Trap Room.
 - **Items**: "RATICATE TAIL" (Password 1), "SLOWPOKETAIL" (Password 2).
 - **Missing**: Murkrow Voice (Password 3 equivalent).
 - **Plan**: Go to B1F NE (Trap Room) via B2F NE Stairs (27, 2). Find hidden switch or Murkrow.
