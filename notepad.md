@@ -13,7 +13,10 @@
 - **Correct Path**: Loop East to Col 28, go South to Row 12, then West into room.
 
 ## Status
-- **Location**: B2F Central Corridor (16, 1).
-- **Goal**: Enter NW Room via South Entrance (Row 12).
-- **Correction**: Column 15 is a solid wall (Rows 0-10). Previous attempt to enter West failed.
-- **Plan**: Move South to Row 12 -> Enter West -> Find Murkrow.
+- **Location**: B2F Southeast Corner (26, 15).
+- **Goal**: Take SE Stairs to B1F to bypass walls.
+- **Target**: Find stairs on B1F that lead down to B2F NW Room (Murkrow location).
+- **Confirmed Passwords**: "Hail Giovanni", "RATICATE TAIL".
+- **Notes**: 
+  - B2F NW Room is inaccessible directly from South (blocked by machines) or East (blocked by walls).
+  - Must loop through B1F.
