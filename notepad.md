@@ -28,6 +28,7 @@
 - **Plan**: Explore NW corner of `3_49` (B1F) to find stairs down to B2F North.
 - **Hazards**: `3_49` West side is a trap minefield.
 - **Position**: B2F West Corridor (3, 13).
-- **Observation**: Moving North. Path blocked at (3, 8) by `TYPE_63e2` (likely a machine/statue).
-- **Plan**: Inspect obstacle at (3, 8). Attempt to bypass it via the gap at (1, 8).
-- **Goal**: Reach (3, 2) stairs to B1F West.
+- **Observation**: The way North is blocked by a wall at Row 12 (`TYPE_2889`). This corridor is a dead end.
+- **Correction**: The stairs to B2F NW (Murkrow) must be in B1F West, but I missed them. Or there is a hidden switch.
+- **Plan**: Return to B1F via stairs at (3, 14). Investigate the Persian Statue at (6, 1) and the NW corner more thoroughly.
+- **Goal**: Find the entrance to B2F NW.
