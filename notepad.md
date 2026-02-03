@@ -32,3 +32,4 @@
 - **Password 1**: "Raticate Tail" (Found, Entered).
 - **Password 2**: "SLOWPOKETAIL" (Found).
 - **Objective**: Use passwords at the Boss Door.
+- **Correction**: `TYPE_2889` is definitely a wall/desk collision type. Do not use for navigation.
