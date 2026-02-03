@@ -44,3 +44,5 @@
 - **Plan**: Inspecting the last machine at (5, 13). If no switch found, re-evaluate search area (maybe hidden in a corner or the "Trap" at 2,11).
 - **Observation**: Grunt at (5, 14) gives "Raticate Tail" password but does not move. Machine at (5, 13) remains inaccessible.
 - **Plan**: Investigating suspicious yellow/black striped tile at (2, 11). It stands out visually.
+- **Idea**: I can access the blocked machine at (5, 13) from BEHIND by walking along Row 12.
+- **Plan**: Inspect (2, 12) briefly, then move East on Row 12 to check the back of machine (5, 13).
