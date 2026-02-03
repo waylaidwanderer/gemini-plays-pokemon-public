@@ -6,28 +6,22 @@
 
 ## Map Hazards (B1F)
 - **Trap Fields**: West Side (Cols 1-5).
-- **Statue Alarms**: Row 3 (Switch at 19,11 disables? -> CONFIRMED: Switch disables alarms).
-- **Shutters**: B2F West Shutters confirmed CLOSED. Switch did not open them.
+- **Statue Alarms**: Row 3 (Switch at 19,11 disables -> CONFIRMED).
+- **Shutters**: B2F West Shutters confirmed CLOSED.
 - **Warp Tiles**: (20,11), (21,11) -> Entrance.
-- **Solid Walls**: X=6 (B2F), Row 8 (B1F Central).
 
 ## Navigation & Strategy
 - **Current Goal**: Reach B2F Northwest (Murkrow).
+- **Paths**:
+  - **Hidden Passage**: (9, 4) connects Central Room to Northern Corridor.
+  - **Stairs to B2F SW**: Located at (3, 14). Guarded by Grunt.
+  - **B2F Connection**: Need to find stairs leading to B2F *Northwest*.
 - **Plan**:
-  1. Navigate West from Central Room (avoid Jed).
-  2. Go North along West Corridor (Cols 1-6).
-  3. Look for stairs to B2F NW in the unexplored areas (Northern Corridor).
-- **B2F Logic**:
-  - `3_50` (South) and `3_51` (North/East) are disconnected.
-  - Must use B1F to bridge the gap to the NW room.
+  1. Swap to Bolin (tank).
+  2. Explore Northern Corridor (West & East ends) for stairs.
+  3. If no stairs in North, head South to (3, 14) via West Corridor.
 
 ## Verified Info
 - **Passwords**: "Hail Giovanni", "RATICATE TAIL".
-- **Shortcuts**: (5, 15) might be a warp/shortcut.
-- **Warp Discovery**: (5, 15) Warps to (25, 2) (NE Corner).
-- **Strategy Update**: Avoid the SW corner of the Central Room.
-- **Next Step**: Re-explore Central North (Rows 5-7). Check statues and walls for hidden switches/stairs.
-- **Reflection**: Need to be more careful with menu navigation and status checking. Use Game State block.
-- **Exits**: B1F (27, 2) leads to Mahogany Town Souvenir Shop (3_48).
-- **Navigation Correction**: B1F Northeast room is the entrance/exit, not the path to Murkrow.
-- **Search Area**: Focus search on B1F Central Room (Rows 5-8) and potential hidden paths in B1F West.
+- **Shortcuts**: (5, 15) Warps to (25, 2).
+- **Search Area**: B1F Northern Corridor (Row 1) and B1F West Corridor.
