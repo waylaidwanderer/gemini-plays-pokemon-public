@@ -47,6 +47,5 @@
 - **Observation**: Shutter at (14, 11) is definitely locked.
 - **Plan Update**: Going to toggle switch at (19, 11) and then step on warp trap at (21, 10) to see if it sends me to the Murkrow Room (B2F 22,9).
 - **Observation**: Shutter at (14, 11) is confirmed closed (TYPE_63e2).
-- **Observation**: Switch at (19, 11) did NOT disable the Warp Trap at (21, 10).
-- **Observation**: Warp Trap at (21, 10) sent me to (14, 12) (Central Corridor, near Shutter).
-- **Plan**: Abandoning B1F traps. Heading to B2F via NE Stairs (27, 2) to approach Murkrow (B2F 22,9) from the East.
+- **Observation**: B2F East Section (Row 1-9, Col 24-27) is isolated from Central Area by walls at x=23.
+- **Plan**: Returning to B1F to take SE Stairs (27, 14) -> B2F Main Room. Checking if Switch (19, 11) opened the B2F Shutter at (20, 10) to access Murkrow.
