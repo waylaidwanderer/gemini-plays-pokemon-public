@@ -24,6 +24,8 @@
 - **Checklist**:
   - [x] Acquired "RATICATE TAIL".
   - [x] Acquired "SLOWPOKETAIL".
+  - [ ] Acquire Murkrow (Voice required for Boss Door).
+  - [ ] Find path to B1F Center (likely via switch in B1F East/Trap Room).
   - [ ] Open Boss Door at B2F (23, 14).
 
 ## Key Items & Passwords
