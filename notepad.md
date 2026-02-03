@@ -33,3 +33,5 @@
 - **Immediate Plan**: Explore the room East of Jed (Rows 12-16). Look for stairs or items, but AVOID the warp panel.
 - **Hypothesis**: If no stairs here, I need to re-evaluate the "Central Passage" or the West Trap Field layout.
 - **Goal**: Find a way to the Murkrow (B2F NW).
+- **Observation**: Warp panels confirmed at (20, 11) and (21, 11). Avoiding them by sticking to Row 13.
+- **Task**: Checking crates on the far East wall (Col 26).
