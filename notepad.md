@@ -1,51 +1,21 @@
 # Team Rocket HQ (Mahogany Town)
 ## Objectives
 - **Primary**: Open Boss Door on B2F (Requires Murkrow Voice + "Raticate Tail").
-- **Secondary**: Catch Murkrow (last seen at B2F (22, 9)).
-- **Tertiary**: Defeat Grunt guarding stairs (B1F West).
+- **Secondary**: Reach B2F Central Area via B1F Trap -> SW Stairs.
+- **Tertiary**: Catch Murkrow (B2F 22,9).
 
-## Map Structure
-- **Map 3_50 (B2F)**:
-  - North Corridor (Row 1): Connects NW Stairs (3, 2) and NE Stairs (27, 2).
-  - South Corridor (Row 16): Connects SW Stairs (3, 14) and SE Stairs (27, 14).
-  - East Corridor (Column 27): Blocked at Row 10 (Wall). Cannot travel directly between NE and SE stairs on B2F.
-  - West Corridor (Column 3): Blocked mid-way.
-- **Map 3_51 (B1F)**:
-  - North-West Section: Accessible via NW Stairs (3, 2). Dead end separated from Central by wall at x=6.
-  - South-West Section: Accessible via SW Stairs (3, 14). Contains Grunt.
-  - North-East Section: Accessible via NE Stairs (27, 2). Connects to Central Area (Silver/Murkrow).
-  - South-East Section: Accessible via SE Stairs (27, 14). Contains Switch.
-
-## Reflection (Turn 26471)
-- **Progress**: Found Murkrow, got "Raticate Tail" password. Stuck on Boss Door and Switch puzzle.
-- **Hygiene**: Map markers are updated. Notepad plan is current.
-- **Strategy**: Trying to toggle switch at (19, 11). Movement is tricky because tiles are walkable.
-- **Tools**: Existing tools are sufficient.
+## Mechanics & Traps
+- **Switch at B1F (19, 11)**: Toggles Warp Trap destination.
+  - **OFF**: Trap at (21, 10) -> Entrance (25, 14).
+  - **ON**: Trap at (21, 10) -> Central Corridor (14, 12).
+- **Warp Trap at B1F (21, 10)**: Currently set to send to (14, 12).
+- **Locked Door (B2F)**: B2F (22, 14). Can be bypassed via gap in South Wall (Row 16).
+- **Passwords**:
+  - "Raticate Tail" (Entered at B1F 21,11).
+  - "Hail Giovanni" (Likely needed for Boss Door).
 
 ## Current Plan
-1. **Reach West Section**: Go to NE Stairs (27, 2) -> B2F North Corridor -> NW Stairs (3, 2) -> B1F West Section.
-2. **Find Murkrow**: Locate Murkrow in the West/Central section (around x=7).
-3. **Boss Door**: Get Murkrow's password/voice and open Boss Door on B2F.
-
-## Mechanics & Notes
-- **Warp Trap**: B1F (21, 10) is a confirmed warp trap that sends to entrance (25, 14).
-- **Hypothesis**: A switch might change the trap's destination or open the shutter at (14, 11).
-- **Solid Objects**: TYPE_2889 tiles are solid walls (e.g., Row 10 desks, Computers at 27,12).
-
-## Map Structure
-- **East Section (Current)**: X > 15. Contains Switch (19, 11), Password PC (21, 11), Warp (21, 9).
-- **Central Area**: X 7-14. Contains Silver (7, 2), Murkrow (7, 1), Shutter (14, 11).
-- **West Section**: X < 6. Connected to B2F West Stairs.
-- **Barriers**: Row 9 Wall, Column 6 Wall, Column 15 Wall (with Shutter).
-
-## Key Items/Passwords
-- Password 1: "Raticate Tail" (Obtained).
-- Password 2: "Hail Giovanni" (Likely obtained).
-- Requirement: Murkrow's Voice for Boss Door.
-- **Navigation Note**: Path to NE Stairs (27, 2) via Column 26/27 seems clear, but previous attempts failed. Watch for hidden obstacles.
-- **Goal Update**: Heading to B2F via NE Stairs to find a route to the Central Area (Silver/Murkrow).
-- **Observation**: Shutter at (14, 11) is definitely locked.
-- **Plan Update**: Going to toggle switch at (19, 11) and then step on warp trap at (21, 10) to see if it sends me to the Murkrow Room (B2F 22,9).
-- **Observation**: Shutter at (14, 11) is confirmed closed (TYPE_63e2).
-- **Observation**: B2F East Section (Row 1-9, Col 24-27) is isolated from Central Area by walls at x=23.
-- **Plan**: Returning to B1F to take SE Stairs (27, 14) -> B2F Main Room. Checking if Switch (19, 11) opened the B2F Shutter at (20, 10) to access Murkrow.
+1. **Take Shortcut**: Step on Warp Trap at (21, 10) to warp to B1F Central (14, 12).
+2. **Reach B2F**: Go West to SW Stairs (3, 14) -> B2F (3, 14).
+3. **Find Murkrow**: Go East on B2F to the gap in South Wall, enter Murkrow Room (22, 9).
+4. **Boss Door**: With Murkrow/Password, open Boss Door.
