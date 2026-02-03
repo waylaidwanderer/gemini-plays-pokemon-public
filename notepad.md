@@ -38,3 +38,5 @@
 - **Action**: Manually re-triggering warp to B1F by stepping Left then Right.
 - **Transition**: Successfully warped to B1F (3_51) at (27, 14).
 - **Navigation**: Heading North via East Corridor (Col 28) to access NE Room from the North, targeting False Computer at (26, 10).
+- **Hazard**: Path West from SE Stairs on B1F (Row 14 -> Up) triggers a warp back to B2F. Likely a statue alarm.
+- **Strategy**: Try hugging the East wall (Col 27) North from the stairs to reach the computer at (26, 10).
