@@ -15,11 +15,13 @@
 - **Paths**:
   - **Hidden Passage**: (9, 4) connects Central Room to Northern Corridor.
   - **Stairs to B2F SW**: Located at (3, 14). Guarded by Grunt.
-  - **B2F Connection**: Need to find stairs leading to B2F *Northwest*.
+  - **B2F Connection**: Stairs at (3, 14) lead to B2F South.
+  - **Status**: Previously thought to be a dead end.
+  - **Correction**: Code scan confirms NO other stairs in B1F. The path to Murkrow MUST be through B2F South (Map 3_50) or a hidden mechanic I missed there.
 - **Plan**:
-  1. Swap to Bolin (tank).
-  2. Explore Northern Corridor (West & East ends) for stairs.
-  3. If no stairs in North, head South to (3, 14) via West Corridor.
+  1. Revive/Heal Garnet.
+  2. Return to B2F South via (3, 14).
+  3. Thoroughly investigate the blockage/layout in B2F South.
 
 ## Verified Info
 - **Passwords**: "Hail Giovanni", "RATICATE TAIL".
