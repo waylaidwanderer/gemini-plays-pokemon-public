@@ -27,10 +27,8 @@
 - **Goal**: Reach B2F Northwest (Murkrow).
 - **Plan**: Explore NW corner of `3_49` (B1F) to find stairs down to B2F North.
 - **Hazards**: `3_49` West side is a trap minefield.
-- **Position**: B2F South (3, 14).
-- **Status**: The Locked Door at (23, 14) is unresponsive. It requires the Murkrow event.
-- **Rival**: Silver blocked the path but I bypassed him. It didn't help.
-- **Next Step**: Returning to B1F via stairs at (3, 14).
-- **New Plan**: Thoroughly explore the B1F "Trap Field" (West side) and the "Central Maze".
-- **Hypothesis**: The stairs to B2F NW (Murkrow) are hidden in the B1F West area, possibly protected by traps I avoided earlier.
-- **Goal**: Find stairs to B2F NW.
+- **Position**: B2F South (22, 14).
+- **Correction**: Tried to walk through Silver at (21, 14) and failed. `bfs_navigate` treats his tile as walkable.
+- **Action**: Manually navigating around Silver via Row 13.
+- **Path**: Up to Row 13, West to Col 3, Down to Stairs at (3, 14).
+- **Goal**: Return to B1F West.
