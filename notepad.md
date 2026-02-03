@@ -17,3 +17,8 @@
   - The wall separating West/Middle strips seems to be around x=9 in the south, or non-existent here.
   - Connection available from Row 14 to Row 3.
 - **Objective**: Catch Murkrow at (8, 3).
+- Hypothesis: The switch at (19, 11) controls both the Persian Statues and the Shutters. 
+  - ON = Statues Active, Shutters Open?
+  - OFF = Statues Inactive, Shutters Closed?
+  - Currently OFF (Statues safe, Shutters locked).
+  - Plan: Turn switch back ON.
