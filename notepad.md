@@ -28,7 +28,8 @@
 - **Plan**: Explore NW corner of `3_49` (B1F) to find stairs down to B2F North.
 - **Hazards**: `3_49` West side is a trap minefield.
 ## Current Action
-- **Position**: B1F Central (9, 9).
-- **Observation**: "Central Passage" at (9, 4) was just a corridor. No stairs at (3, 2).
-- **New Plan**: Fight Scientist Jed at (18, 12). Scientists often hold passwords or keys.
+- **Position**: B1F East Side (17, 12).
+- **Status**: Just spoke to Scientist Jed. He warned of a warp panel "up ahead" that sends you to the entrance.
+- **Immediate Plan**: Explore the room East of Jed (Rows 12-16). Look for stairs or items, but AVOID the warp panel.
+- **Hypothesis**: If no stairs here, I need to re-evaluate the "Central Passage" or the West Trap Field layout.
 - **Goal**: Find a way to the Murkrow (B2F NW).
