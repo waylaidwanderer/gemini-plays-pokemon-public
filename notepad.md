@@ -4,31 +4,22 @@
 - **Secondary**: Find Murkrow to mimic voice/password.
 - **Tertiary**: Defeat Grunt guarding stairs (B1F West).
 
-## Critical Navigation Notes
-- **WEST WALL IS SOLID**: The wall at x=6 on B2F is solid.
-- **NE ROOM ACCESS**: Enter via South Gap (21-22, 13). East Corridor blocked.
-- **Checking**: NE Room Computers (Row 10) from North.
-- **Path**: West along Row 9. Avoid (21, 9) [Warp].
-- **Targets**: (23, 10) [Behind Ross] is priority.
-- **Correct Path**: Loop East to Col 28, go South to Row 12, then West into room.
+## Map Hazards (B1F)
+- **Trap Fields**: West Side (Cols 1-5).
+- **Statue Alarms**: Row 3 (Switch at 19,11 disables?).
+- **Warp Tiles**: (20,11), (21,11) -> Entrance.
+- **Solid Walls**: X=6 (B2F), Row 8 (B1F Central).
 
-## Status
-- **Location**: B2F Southeast Corner (26, 15).
-- **Goal**: Take SE Stairs to B1F to bypass walls.
-- **Target**: Find stairs on B1F that lead down to B2F NW Room (Murkrow location).
-- **Confirmed Passwords**: "Hail Giovanni", "RATICATE TAIL".
-- **Notes**: 
-  - B2F NW Room is inaccessible directly from South (blocked by machines) or East (blocked by walls).
-  - Must loop through B1F.
-- **Map Structure**:
-  - `3_49`: B1F (Entrance, Shop, Traps).
-  - `3_50`: B2F South (Blocked from North).
-  - `3_51`: B2F North/East (Boss Door).
-- **Goal**: Reach B2F Northwest (Murkrow).
-- **Plan**: Explore NW corner of `3_49` (B1F) to find stairs down to B2F North.
-- **Hazards**: `3_49` West side is a trap minefield.
-- **Position**: B1F South-East (22, 13).
-- **Goal**: Reach B2F Northwest (Murkrow).
-- **Plan**: Navigate West to (6, 15), then explore the West Side (Col 1-5) going North to find stairs to B2F NW.
-- **Hazards**: Avoid traps in West Side (Col 1-5).
-- **Note**: (5, 15) might be a warp. Approach with caution.
+## Navigation & Strategy
+- **Current Goal**: Reach B2F Northwest (Murkrow).
+- **Plan**:
+  1. Navigate West from Central Room (avoid Jed).
+  2. Go North along West Corridor (Cols 1-6).
+  3. Look for stairs to B2F NW in the unexplored areas (Northern Corridor).
+- **B2F Logic**:
+  - `3_50` (South) and `3_51` (North/East) are disconnected.
+  - Must use B1F to bridge the gap to the NW room.
+
+## Verified Info
+- **Passwords**: "Hail Giovanni", "RATICATE TAIL".
+- **Shortcuts**: (5, 15) might be a warp/shortcut.
