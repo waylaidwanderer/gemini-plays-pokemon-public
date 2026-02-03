@@ -50,3 +50,5 @@
 - **Route Update**: Moving North via safe East Corridor (Col 28) to bypass Statue Alarms at (27, 12-13) and Wall at (27, 4-11).
 - **Target**: Cross West at Row 3, then South down Col 26 to False Computer at (26, 10).
 - **Hazard Info**: Type `63e2` confirmed as Alarm/Warp tiles. Must exclude from pathing.
+- **Correction**: The tile at B1F (27, 14) is the Staircase/Warp (TYPE_8564). When navigating B1F SE corner, do NOT step on (27, 14) unless descending. Route from (28, 16) to North MUST bypass (27, 14) via (28, 14).
+- **Action**: Currently on B2F (3_50). Stepping Left-Right to warp back to B1F.
