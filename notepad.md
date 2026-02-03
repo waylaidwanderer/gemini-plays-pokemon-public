@@ -29,7 +29,8 @@
 4. **Boss Door**: Return to B2F door if shutter opens.
 
 ## Mechanics & Notes
-- **Warp Trap**: B1F (21, 9) is likely the entry point to the hidden B2F room (22, 9) where the Murkrow is trapped.
+- **Warp Trap**: B1F (21, 10) is a confirmed warp trap that sends to entrance (25, 14).
+- **Hypothesis**: A switch might change the trap's destination or open the shutter at (14, 11).
 - **Solid Objects**: Computers at B1F (27, 12) are solid walls.
 
 ## Map Structure
