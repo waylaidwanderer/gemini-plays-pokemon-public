@@ -23,3 +23,7 @@
 ## Verified Info
 - **Passwords**: "Hail Giovanni", "RATICATE TAIL".
 - **Shortcuts**: (5, 15) might be a warp/shortcut.
+- **Warp Discovery**: (5, 15) Warps to (25, 2) (NE Corner).
+- **Strategy Update**: Avoid the SW corner of the Central Room.
+- **Next Step**: Re-explore Central North (Rows 5-7). Check statues and walls for hidden switches/stairs.
+- **Reflection**: Need to be more careful with menu navigation and status checking. Use Game State block.
