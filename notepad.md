@@ -49,9 +49,7 @@
   5. Approach False Computer (26, 10) from the West/South-West.
 - **Route Update**: Moving North via safe East Corridor (Col 28) to bypass Statue Alarms at (27, 12-13) and Wall at (27, 4-11).
 - **Target**: Cross West at Row 3, then South down Col 26 to False Computer at (26, 10).
-- **Hazard Info**: Type `63e2` confirmed as Alarm/Warp tiles. Must exclude from pathing.
-- **Correction**: The tile at B1F (27, 14) is the Staircase/Warp (TYPE_8564). When navigating B1F SE corner, do NOT step on (27, 14) unless descending. Route from (28, 16) to North MUST bypass (27, 14) via (28, 14).
-- **Action**: Currently on B2F (3_50). Stepping Left-Right to warp back to B1F.
-- **Trap Confirmation**: Tile B1F (26, 14) is a confirmed Warp Trap (Alarm). Stepping there sends you to B2F.
-- **Navigation Rule**: On B1F, do NOT step on (26, 14) or (27, 14) (unless descending).
-- **Safe Path**: From B1F (27, 14), go East to (28, 14), then South to (28, 16), then West along Row 16.
+- **Investigation**: Checked computer at (25, 10) - Empty.
+- **Target**: "False Computer" marker at (19, 10) on the West side of the computer bank. It appears to be a gap in the wall (Walkable Type 3fe2).
+- **Route**: Move South to Row 11, then West along Row 11 (Safe), then North to (19, 10).
+- **Hazards**: Avoid Row 12/13/14 in this area (Statue Alarms/Traps). Row 11 appears safe.
