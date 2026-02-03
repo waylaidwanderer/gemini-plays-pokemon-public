@@ -17,10 +17,9 @@
 - **Next**: Investigate "Traps" south of (2, 4).
 
 ## Investigation Log
-- **(19, 1)**: Tested. No Warp.
-- **(3, 14)**: Confirmed Stairs to B2F. Used them to arrive here.
-- **(3, 2)**: Visually confirmed no stairs.
-- **(27, 4)**: Solid Wall.
-- **(26, 10)**: False Computer is empty.
-- **(4, 7)-(4, 9)**: Tested. No Warp.
-- **(3, 5)**: Static Geodude sprite? No interaction.
+- **Map Structure**: B1F West Side is divided by a wall at Row 11.
+- **Hypothesis**: Use B2F West Corridor to bypass the wall.
+  - Path: B1F (3, 14) [Stairs] -> B2F (3, 14) -> North to B2F (3, 6) [Stairs] -> B1F (3, 6).
+- **Current Action**: Moving North on B2F from (3, 14) to (3, 6).
+- **Hazard**: B2F (2, 8) and (3, 8) are `TYPE_63e2` (Traps/Doors).
+- **Plan**: Bypass traps via Col 1 if possible.
