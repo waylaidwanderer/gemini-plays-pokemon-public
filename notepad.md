@@ -40,3 +40,10 @@
 - **Navigation**: Heading North via East Corridor (Col 28) to access NE Room from the North, targeting False Computer at (26, 10).
 - **Hazard**: Path West from SE Stairs on B1F (Row 14 -> Up) triggers a warp back to B2F. Likely a statue alarm.
 - **Strategy**: Try hugging the East wall (Col 27) North from the stairs to reach the computer at (26, 10).
+- **Tactical Update**: Direct North path from SE Stairs is blocked by Statue Alarms (Col 26/27).
+- **New Route**: Flank South along the bottom wall (Row 16).
+  1. Go East to Col 28 (Safe).
+  2. Go South to Row 16.
+  3. Go West along Row 16 to Col 22.
+  4. Go North up Col 22 to access the center area from the West.
+  5. Approach False Computer (26, 10) from the West/South-West.
