@@ -17,9 +17,7 @@
 - **Next**: Investigate "Traps" south of (2, 4).
 
 ## Investigation Log
-- **Correction**: `(27, 2)` on B1F is the Exit Stairs to the Souvenir Shop (`3_48`).
-- **Action**: Re-entering B1F.
-- **Goal**: Reach `(28, 4)` (Silver's last known location).
-- **Route**: From B1F `(27, 2)`, move East to `(28, 2)`, then South to `(28, 4)`.
-- **Hypothesis**: Silver opened a passage nearby, or the switch is at `(28, 4)`.
-- **Note**: Avoid stepping back on `(27, 2)` once on B1F.
+- **Observation**: (28, 4) is a solid wall from the North side.
+- **Plan**: Flank to (28, 5) via the "Backstage" corridor (Row 5/6).
+- **Route**: West to (19, 6) [Passage Entrance] -> East along Row 5/6 to (28, 5).
+- **Goal**: Inspect (28, 4) from the South. Check for switch.
