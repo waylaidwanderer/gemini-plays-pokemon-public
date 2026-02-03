@@ -49,7 +49,10 @@
   5. Approach False Computer (26, 10) from the West/South-West.
 - **Route Update**: Moving North via safe East Corridor (Col 28) to bypass Statue Alarms at (27, 12-13) and Wall at (27, 4-11).
 - **Target**: Cross West at Row 3, then South down Col 26 to False Computer at (26, 10).
-- **Investigation**: Checked computer at (25, 10) - Empty.
-- **Target**: "False Computer" marker at (19, 10) on the West side of the computer bank. It appears to be a gap in the wall (Walkable Type 3fe2).
-- **Route**: Move South to Row 11, then West along Row 11 (Safe), then North to (19, 10).
-- **Hazards**: Avoid Row 12/13/14 in this area (Statue Alarms/Traps). Row 11 appears safe.
+- **Investigation**:
+  - Investigated Backstage Area (Row 5).
+  - Checked Wall (Row 4) and Back of Obstacles (Row 6) from Col 26 to 23. Empty so far.
+  - Checked Computer Stack at Col 27. Empty.
+  - Checked Computers at Col 25. Empty.
+- **Current Action**: Continuing sweep West along Row 5 to (19, 5).
+- **Goal**: Find Hidden Switch to open Boss Door.
