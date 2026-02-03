@@ -27,11 +27,9 @@
 - **Goal**: Reach B2F Northwest (Murkrow).
 - **Plan**: Explore NW corner of `3_49` (B1F) to find stairs down to B2F North.
 - **Hazards**: `3_49` West side is a trap minefield.
-- **Position**: B1F East Side (17, 12).
-- **Recollection**: Switch at (19, 11) was already used to disable statues. Ignoring it.
-- **Goal**: Find stairs to B2F NW (Murkrow).
-- **Hypothesis**: The stairs might be in the unexplored B1F SE Corner (Rows 12-16, Cols 25-29), accessible via Row 13.
-- **Immediate Plan**: 
-    1. Move South to Row 13 (safe lane).
-    2. Move East to (27, 13).
-    3. Explore the SE Corner for stairs.
+- **Position**: B1F East (22, 13).
+- **Analysis**: Access to SE Corner (x>23) is blocked by a wall at x=23. Row 14 wall blocks South access.
+- **Insight**: I'm in a pocket. I need to escape West via Row 11/12.
+- **New Plan**: Navigate to the Central Maze (x=8-18, y=6-11).
+- **Path**: West to x=9 on Row 11. Then explore North into the maze.
+- **Goal**: Find stairs in the Central Maze leading to B2F.
