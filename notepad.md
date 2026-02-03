@@ -27,11 +27,11 @@
 - **Goal**: Reach B2F Northwest (Murkrow).
 - **Plan**: Explore NW corner of `3_49` (B1F) to find stairs down to B2F North.
 - **Hazards**: `3_49` West side is a trap minefield.
-- **Position**: B1F East Side (24, 2).
-- **Observation**: Statue at (24, 1) is solid. "Shiny eyes" text.
+- **Position**: B1F East Side (17, 12).
+- **Recollection**: Switch at (19, 11) was already used to disable statues. Ignoring it.
 - **Goal**: Find stairs to B2F NW (Murkrow).
-- **Hypothesis**: The stairs are in the B1F Central Area (x=6-10), which I haven't fully explored.
+- **Hypothesis**: The stairs might be in the unexplored B1F SE Corner (Rows 12-16, Cols 25-29), accessible via Row 13.
 - **Immediate Plan**: 
-    1. Inspect (19, 11) (Summary mentioned a switch there).
-    2. If false, navigate to Central Area (x=9) via the top corridor (Row 2).
-    3. Map the Central Area tile-by-tile to find the path South.
+    1. Move South to Row 13 (safe lane).
+    2. Move East to (27, 13).
+    3. Explore the SE Corner for stairs.
