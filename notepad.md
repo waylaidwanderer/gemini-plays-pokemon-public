@@ -28,7 +28,8 @@
 - **Plan**: Explore NW corner of `3_49` (B1F) to find stairs down to B2F North.
 - **Hazards**: `3_49` West side is a trap minefield.
 ## Current Action
-- **Position**: B1F Entrance (25, 2).
-- **Status**: The warp at (5, 15) sent me back to the start. Jed was right about warps being traps.
-- **Immediate Plan**: Head West to the "Central Passage" at (9, 4). I skipped it earlier.
-- **Goal**: Find stairs to B2F NW (Murkrow).
+- **Position**: B1F Central Hall (9, 4).
+- **Hypothesis**: The stairs to the Murkrow (B2F NW) must be in the B1F West area (x=1-10, y=1-10).
+- **Immediate Plan**: Investigate the Persian Statue at (6, 3). It might hide a switch or stairs.
+- **Backlog**: If that fails, explore the "Trap Field" (Rows 5-10, Cols 4-8) thoroughly.
+- **Goal**: Find stairs to B2F NW.
