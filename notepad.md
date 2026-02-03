@@ -17,9 +17,8 @@
 - **Next**: Investigate "Traps" south of (2, 4).
 
 ## Investigation Log
-- **Map Structure**: B1F West Side is divided by a wall at Row 11.
-- **Hypothesis**: Use B2F West Corridor to bypass the wall.
-  - Path: B1F (3, 14) [Stairs] -> B2F (3, 14) -> North to B2F (3, 6) [Stairs] -> B1F (3, 6).
-- **Current Action**: Moving North on B2F from (3, 14) to (3, 6).
-- **Hazard**: B2F (2, 8) and (3, 8) are `TYPE_63e2` (Traps/Doors).
-- **Plan**: Bypass traps via Col 1 if possible.
+- **Map Structure**: B1F West/East connected via North Corridor (Row 2). Row 4 is a Wall divider.
+- **Current Position**: B1F (24, 2).
+- **Goal**: Reach Scientist Jed at (18, 12) or check Silver's spot at (28, 4).
+- **Action**: Moving to (28, 2) to check if path South at (28, 4) is open.
+- **Backup Plan**: If (28, 4) is solid, go West to (9, 4) gap.
