@@ -17,8 +17,7 @@
 - **Next**: Investigate "Traps" south of (2, 4).
 
 ## Investigation Log
-- **Current Action**: Systematic sweep of Backstage Corridor (Row 5) Westward.
-- **Method**: Move Left, Check North (Wall), Check South (Object back).
-- **Goal**: Find hidden switch.
-- **Range**: Sweeping from (26, 5) to (19, 5).
-- **Hypothesis**: Switch is hidden on the back of a computer or on the wall in this secret area.
+- **Current Action**: Sweeping Backstage Row 5 Westward.
+- **(24, 6)**: Statue Alarm! Stepped on it. "Oddly shiny eyes".
+- **Plan**: Move back to Row 5 and continue sweeping West (23 to 19).
+- **Goal**: Find hidden switch on Wall (Row 4) or Computers (Row 6).
