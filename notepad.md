@@ -17,3 +17,4 @@
   2. Attempt to circle around via the North Corridor (Row 1).
   3. If Row 1 is blocked at x=15, check switch at (19, 11).
 - **Plan**: Move North to (16, 2). Check if path West is open.
+- Realization: Row 12 appears to be a clear corridor running East-West. The shutter at (14, 11) blocks the vertical path, but I can likely walk BELOW it along Row 12 to reach the West side.
