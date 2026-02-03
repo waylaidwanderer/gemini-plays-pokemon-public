@@ -29,5 +29,5 @@
 - **Hazards**: `3_49` West side is a trap minefield.
 - **Position**: B1F West (1, 4).
 - **Observation**: No stairs visible in NW corner behind Grunt.
-- **Action**: Head South to (6, 15), then check Central Corridor (X=7-14) for stairs.
+- **Action**: Head North to (6, 3) to cross via the gap in the wall.
 - **Hypothesis**: Stairs to B2F NW are in the unexplored Central Corridor.
