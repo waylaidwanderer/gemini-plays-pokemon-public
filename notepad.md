@@ -29,4 +29,4 @@
 - Plan: Toggle switch back to ON.
 - Change of Plan: I obtained "RATICATE TAIL" from the Grunt. I likely have "Hail Giovanni" from earlier. I will attempt to open the Boss Door on B2F directly, bypassing the Murkrow chase if possible.
 - Target: Boss Door at B2F (23, 14).
-- Route: Stairs at B1F (27, 2) -> B2F Northeast -> Navigate to Door.
+- Route: Stairs at B1F (27, 14) -> B2F South Area -> Unlock Door.
