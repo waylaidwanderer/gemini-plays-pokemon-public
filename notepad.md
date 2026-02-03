@@ -34,3 +34,5 @@
 - **Anomaly**: Stairs at B2F (3, 14) are `TYPE_3fe2` (Walkable) but did not trigger warp on first attempt.
 - **Action**: Attempting to walk deeper into the stairs (South) to trigger warp.
 - **Contingency**: If stairs fail, must re-evaluate access to B1F SW (perhaps via B1F Center/Trap Room).
+- **Anomaly**: Turn 26918 - Found myself back on B2F (3_50) at (27, 14) after attempting to navigate B1F. Possible stair warp loop or input error.
+- **Action**: Manually re-triggering warp to B1F by stepping Left then Right.
