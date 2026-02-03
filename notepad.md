@@ -27,9 +27,9 @@
 - **Goal**: Reach B2F Northwest (Murkrow).
 - **Plan**: Explore NW corner of `3_49` (B1F) to find stairs down to B2F North.
 - **Hazards**: `3_49` West side is a trap minefield.
-- **Position**: B1F East (22, 13).
-- **Analysis**: Access to SE Corner (x>23) is blocked by a wall at x=23. Row 14 wall blocks South access.
-- **Insight**: I'm in a pocket. I need to escape West via Row 11/12.
-- **New Plan**: Navigate to the Central Maze (x=8-18, y=6-11).
-- **Path**: West to x=9 on Row 11. Then explore North into the maze.
+- **Position**: B1F East (19, 12).
+- **Obstacle**: Scientist Jed at (18, 12) blocks the path West.
+- **Correction**: Row 11 is the only corridor crossing x=14.
+- **Plan**: Bypass Jed by looping South (Row 13), then Up to Row 11 at x=17.
+- **Path**: (19, 12) -> South -> West -> North -> West to (9, 11).
 - **Goal**: Find stairs in the Central Maze leading to B2F.
