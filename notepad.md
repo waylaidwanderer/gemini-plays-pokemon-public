@@ -15,10 +15,9 @@
   - South-East Section: Accessible via SE Stairs (27, 14). Contains Switch.
 
 ## Current Plan
-1. **Navigate B2F**: Travel East from current location (3, 2) via Row 1 to NE Stairs (27, 2).
-2. **Ascend to B1F**: Take stairs at (27, 2).
-3. **Intercept**: Locate Silver and Murkrow in B1F NE section.
-4. **Chase**: If Murkrow flees, follow it (likely to B2F again).
+1. **Intercept**: Head West from (27, 2) to Silver (7, 2) and Murkrow.
+2. **Chase**: If Murkrow flees, follow it.
+3. **Unlock**: Use passwords and Murkrow voice to open Boss Door on B2F.
 
 ## Key Items/Passwords
 - Password 1: "Raticate Tail" (Obtained).
