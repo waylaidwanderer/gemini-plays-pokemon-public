@@ -17,9 +17,8 @@
 - **Next**: Investigate "Traps" south of (2, 4).
 
 ## Investigation Log
-- **Current Action**: Sweeping Backstage Row 5 Westward.
-- **(21, 6)**: Statue ("Oddly shiny eyes"). No switch.
-- **(24, 6)**: Statue ("Oddly shiny eyes"). No switch.
-- **Plan**: Continue sweeping West to (19, 5).
-- **Goal**: Find hidden switch on Wall (Row 4) or Computers (Row 6).
-- **Hypothesis**: If not here, maybe the switch is at the end of the hall (19, 5) or on the wall.
+- **Current Action**: Sweeping Backstage Row 5 Westward from (19, 5).
+- **Goal**: Find Hidden Switch on the North Wall (Row 4).
+- **Plan**: Move West, check Wall at (19, 4), (18, 4), (17, 4).
+- **Observation**: Row 6 appears to be the "false computers" themselves (Walkable). Row 5 is the space behind them.
+- **Hypothesis**: The passage might connect to the West side or contain the switch.
