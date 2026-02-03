@@ -32,3 +32,4 @@
 3. **Goal**: Reach B2F North-Central area (Murkrow location).
 - **Hazard**: Scientist Ross at (23, 11) likely has a vision cone (South/Row 12?) that warps to Entrance. Avoid Row 12 near x=23.
 - **Safe Route**: Use Row 14 to bypass the scientist.
+- **Blockage**: Grunt at (24, 14) blocks the direct path west on Row 14. Must bypass via Row 15.
