@@ -17,8 +17,9 @@
 - **Next**: Investigate "Traps" south of (2, 4).
 
 ## Investigation Log
-- **Map Structure**: B1F West/East connected via North Corridor (Row 2). Row 4 is a Wall divider.
-- **Current Position**: B1F (24, 2).
-- **Goal**: Reach Scientist Jed at (18, 12) or check Silver's spot at (28, 4).
-- **Action**: Moving to (28, 2) to check if path South at (28, 4) is open.
-- **Backup Plan**: If (28, 4) is solid, go West to (9, 4) gap.
+- **Correction**: `(27, 2)` on B1F is the Exit Stairs to the Souvenir Shop (`3_48`).
+- **Action**: Re-entering B1F.
+- **Goal**: Reach `(28, 4)` (Silver's last known location).
+- **Route**: From B1F `(27, 2)`, move East to `(28, 2)`, then South to `(28, 4)`.
+- **Hypothesis**: Silver opened a passage nearby, or the switch is at `(28, 4)`.
+- **Note**: Avoid stepping back on `(27, 2)` once on B1F.
