@@ -20,6 +20,10 @@
 - **Notes**: 
   - B2F NW Room is inaccessible directly from South (blocked by machines) or East (blocked by walls).
   - Must loop through B1F.
-- **B1F Layout**: Row 12 is a solid wall (x=0 to x=23). South and North sections are separated.
-- **Connection**: Must use East Passage (x=24) to cross between South and North.
-- **Revised Path**: (10, 16) -> East to (24, 16) -> North to Row 11 -> West to (3, 2).
+- **Map Structure**:
+  - `3_49`: B1F (Entrance, Shop, Traps).
+  - `3_50`: B2F South (Blocked from North).
+  - `3_51`: B2F North/East (Boss Door).
+- **Goal**: Reach B2F Northwest (Murkrow).
+- **Plan**: Explore NW corner of `3_49` (B1F) to find stairs down to B2F North.
+- **Hazards**: `3_49` West side is a trap minefield.
