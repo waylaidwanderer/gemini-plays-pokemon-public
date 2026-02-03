@@ -9,7 +9,7 @@
   - **OFF**: Trap at (21, 10) -> Entrance (25, 14).
   - **ON**: Trap at (21, 10) -> Central Corridor (14, 12).
 - **Warp Trap at B1F (21, 10)**: Currently set to send to (14, 12).
-- **Locked Door (B2F)**: B2F (22, 14). Can be bypassed via gap in South Wall (Row 16).
+- **Locked Door (B2F)**: B2F (23, 14). Can be bypassed via gap in South Wall (Row 16).
 - **Passwords**:
   - "Raticate Tail" (Entered at B1F 21,11).
   - "Hail Giovanni" (Likely needed for Boss Door).
