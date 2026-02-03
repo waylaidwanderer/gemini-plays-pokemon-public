@@ -13,8 +13,6 @@
 - **Correct Path**: Loop East to Col 28, go South to Row 12, then West into room.
 
 ## Status
-- **Location**: B2F Northeast Room (22, 7).
-- **Goal**: Check Computer (23, 6) and (20, 6).
-- **Obstacle**: Defeated Grunt at (21, 7) blocks (21, 6).
-- **Plan**: Check Grunt -> Check (23, 6) -> Loop South around Warp (21, 9) to reach West side.
-- **Confirmed**: Grunt at (21, 7) gives password "RATICATE TAIL".
+- **Location**: B2F West Area (8, 13).
+- **Goal**: Return to Central Corridor to access North area for Murkrow.
+- **Confirmed**: Passwords are "Hail Giovanni" and "RATICATE TAIL". Need Murkrow voice.
