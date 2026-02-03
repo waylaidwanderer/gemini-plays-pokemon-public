@@ -8,7 +8,8 @@
 - **Map 3_50 (B2F)**:
   - North Corridor (Row 1): Connects NW Stairs (3, 2) and NE Stairs (27, 2).
   - South Corridor (Row 16): Connects SW Stairs (3, 14) and SE Stairs (27, 14).
-  - West Corridor (Column 3) and East Corridor (Column 27) are blocked mid-way.
+  - East Corridor (Column 27): Blocked at Row 10 (Wall). Cannot travel directly between NE and SE stairs on B2F.
+  - West Corridor (Column 3): Blocked mid-way.
 - **Map 3_51 (B1F)**:
   - West Section: Accessible via NW Stairs (3, 2). Contains Persian Statues.
   - North-East Section: Accessible via NE Stairs (27, 2). Contains Silver & Murkrow.
