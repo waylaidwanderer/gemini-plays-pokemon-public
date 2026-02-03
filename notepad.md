@@ -18,9 +18,9 @@
 
 ## Investigation Log
 - **(19, 1)**: Tested. No Warp.
-- **(3, 14)**: B1F (3, 14) is NOT stairs. Dead end.
+- **(3, 14)**: Confirmed Stairs to B2F. Used them to arrive here.
 - **(3, 2)**: Visually confirmed no stairs.
 - **(27, 4)**: Solid Wall.
 - **(26, 10)**: False Computer is empty.
-- **(4, 7)**: Tested. No Warp.
+- **(4, 7)-(4, 9)**: Tested. No Warp.
 - **(3, 5)**: Static Geodude sprite? No interaction.
