@@ -1,22 +1,20 @@
 # Team Rocket HQ (Mahogany Town)
 ## Objectives
 - **Primary**: Open Boss Door on B2F (Requires Murkrow Voice + "Raticate Tail").
-- **Secondary**: Reach Murkrow via B2F South Corridor (Row 16).
-- **Tertiary**: Catch Murkrow (B2F 22,9).
+- **Secondary**: Reach Murkrow/Silver on B1F (North Center Pocket).
+- **Tertiary**: Catch Murkrow.
 
-## Mechanics & Traps
-- **Switch at B1F (19, 11)**: Toggles Warp Trap destination.
-  - **OFF**: Trap at (21, 10) -> Entrance (25, 14).
-  - **ON**: Trap at (21, 10) -> Central Corridor (14, 12).
-- **Warp Trap at B1F (21, 10)**: Currently set to send to (14, 12).
-- **Locked Door (B2F)**: B2F (23, 14). Can be bypassed via gap in South Wall (Row 16).
-- **Passwords**:
-  - "Raticate Tail" (Entered at B1F 21,11).
-  - "Hail Giovanni" (Likely needed for Boss Door).
+## Key Discovery
+- **Silver & Murkrow Location**: Spotted on B1F at (7, 2) and (8, 3).
+- **Isolation**: This "North Center" pocket (approx x=7-8) is walled off from the West (x=6 is a wall).
+- **Hypothesis**: I must access this pocket from B2F.
+  - Path 1: B1F NW Stairs -> B2F North Corridor -> Find stairs UP to B1F Center?
+  - Path 2: B1F SW Stairs -> B2F South Corridor -> Find stairs UP?
+  - Path 3: B1F NE Stairs -> ...
 
 ## Map Connections
 - **B1F (Map 3_51)**:
-  - (3, 6) Stairs <-> B2F (3, 6) [West Middle] (Separate from NW and SW?)
+  - (3, 6) Stairs <-> B2F (3, 6) [West Middle] (Dead End)
   - (27, 14) Stairs <-> B2F (27, 14) [South East]
   - (3, 2) Stairs <-> B2F (3, 2) [North West]
   - (27, 2) Stairs <-> B2F (27, 2) [North East]
