@@ -54,7 +54,8 @@
 - **Plan**: Traverse B1F North Corridor East to (18, 2) to bypass the Grunt and avoid the suspected warp trap at (19, 1).
 - **Goal**: Reach the NE "Trap Room" to find the secret switch for the Boss Door/Shutters.
 - **Note**: Keeping to Row 2 (Bottom Lane) to avoid obstacles.
-- **Strategy**: Sweep Row 2 (x=22 to x=20) to find the "False Computer" secret entrance.
-- **Sequence**: Up to Row 1 -> West -> Try Down at each column.
-- **Hypothesis**: One of the computers at (22, 2), (21, 2), or (20, 2) is a secret passage.
-- **Goal**: Enter the Trap Room to find the switch.
+- **Correction**: Computers at (22, 2), (21, 2), (20, 2) are SOLID. No secret passage there.
+- **Plan**: Move East to (24, 1), then enter the NE Room via the gap at (24, 2).
+- **Goal**: Navigate the NE "Trap Room" to find the switch to disable the statues/alarms.
+- **Hazards**: Voltorb/Statues (e.g. at 22, 5). Avoid contact if possible.
+- **Target**: Find a computer terminal inside the room (possibly at x=26 or x=19 in lower rows).
