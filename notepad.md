@@ -27,9 +27,8 @@
 - **Goal**: Reach B2F Northwest (Murkrow).
 - **Plan**: Explore NW corner of `3_49` (B1F) to find stairs down to B2F North.
 - **Hazards**: `3_49` West side is a trap minefield.
-- **Position**: B1F Central Pocket (7, 12).
-- **Observation**: Investigating the area South of the "Fake Wall" at (7, 8).
-- **Target**: Object at (8, 14) looks visually distinct. Checking for interaction.
-- **Contingency**: If (8, 14) is nothing, explore East to x=12.
-- **Backlog**: Defeat Grunt at (2, 4) if this area is empty.
+- **Position**: B1F Central Pocket (7, 9).
+- **Observation**: Object at (8, 14) was non-interactive.
+- **Action**: Inspecting the "Fake Wall" at (7, 8) from the South side.
+- **Hypothesis**: This wall is a secret door connecting North (7, 7) and South (7, 9).
 - **Goal**: Find stairs to B2F NW.
