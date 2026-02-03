@@ -20,3 +20,5 @@
 - **Next Step**: Head to B1F switch.
 - **Turn 26263**: System reports position (25, 14) but screen clearly shows (23, 11). This is a desync. Proceeding based on visual confirmation (23, 11) to reach switch at (19, 11).
 - **Turn 26270**: Tried to go Up from (23, 14) to (23, 13) but hit an obstacle, ending up at (19, 14). Row 13 seems blocked by desks/walls between X=18 and X=26. Rerouting via East Corridor (X=27).
+- **Turn 26276**: At (19, 10). The yellow machine/desk is to the Right at (20, 10). Attempting to interact with it from the side. Also checking the wall at (18, 10/11) which might be the "switch".
+- **Switch Location Hypothesis**: The "Switch" previously used at Turn 25756 was likely the wall panel at (18, 11) or the computer accessed from (21, 11). Checking both.
