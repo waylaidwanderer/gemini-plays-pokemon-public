@@ -30,6 +30,6 @@
    - If warped to **Central Corridor (14, 12)**: Explore North for stairs to B2F.
    - If warped to **Entrance (25, 14)**: Toggle Switch at (19, 11) then retry trap.
 3. **Goal**: Reach B2F North-Central area (Murkrow location).
-- **Connectivity**: B1F South and B1F North-East are connected via a gap in Row 9 (x>15).
-- **Isolation**: B1F North-West (x<15) is isolated by a vertical wall at x=15.
-- **Plan**: Go to NE Stairs (27, 2). Descend to B2F. Verify if B2F North Corridor connects NE to NW, or if there's a path to Murkrow (22, 9).
+- **Discovery**: A gap exists in the dividing wall at (15, 13), allowing access to the B1F Central Area (x<15) from the East.
+- **Plan**: Navigate West on Row 14 to x=16, then Up/Left through (15, 13).
+- **Goal**: Reach Silver (7, 2) and investigate B1F Central for stairs or Murkrow path.
