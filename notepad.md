@@ -27,3 +27,7 @@
 - **Goal**: Reach B2F Northwest (Murkrow).
 - **Plan**: Explore NW corner of `3_49` (B1F) to find stairs down to B2F North.
 - **Hazards**: `3_49` West side is a trap minefield.
+## Reflection (Turn 25586)
+- **Layout Insight**: B2F is divided into North/South sections by walls. The only way to switch sections is via B1F staircases.
+- **Current Task**: Defeat Grunt at (2, 4) to access the Northwest stairs.
+- **Trap Awareness**: The West side of B1F is heavily trapped (Voltorb/Geodude/Koffing tiles). Must proceed with caution.
