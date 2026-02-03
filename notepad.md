@@ -36,3 +36,5 @@
 - **Contingency**: If stairs fail, must re-evaluate access to B1F SW (perhaps via B1F Center/Trap Room).
 - **Anomaly**: Turn 26918 - Found myself back on B2F (3_50) at (27, 14) after attempting to navigate B1F. Possible stair warp loop or input error.
 - **Action**: Manually re-triggering warp to B1F by stepping Left then Right.
+- **Transition**: Successfully warped to B1F (3_51) at (27, 14).
+- **Navigation**: Heading North via East Corridor (Col 28) to access NE Room from the North, targeting False Computer at (26, 10).
