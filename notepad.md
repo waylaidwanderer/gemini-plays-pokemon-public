@@ -22,10 +22,10 @@
   - **East**: Access via SE Stairs (27, 14) or NE Stairs (27, 2).
 
 ## Current Status
-- **Location**: B1F NE Section (near stairs from B2F), entering Trap Room.
+- **Location**: B2F SE Section (at stairs).
 - **Items**: "RATICATE TAIL" (Password 1), "SLOWPOKETAIL" (Password 2).
 - **Missing**: Murkrow Voice (Password 3 equivalent).
-- **Plan**: Go to B1F NE (Trap Room) via B2F NE Stairs (27, 2). Find hidden switch or Murkrow.
+- **Plan**: Ascend to B1F SE via stairs (27, 14), then navigate to False Computer at (26, 10).
 
 ## Investigation Log
 - **Computers**: Top row in NE Room (20-22, 2) are SOLID. No passage.
