@@ -47,3 +47,6 @@
   3. Go West along Row 16 to Col 22.
   4. Go North up Col 22 to access the center area from the West.
   5. Approach False Computer (26, 10) from the West/South-West.
+- **Route Update**: Moving North via safe East Corridor (Col 28) to bypass Statue Alarms at (27, 12-13) and Wall at (27, 4-11).
+- **Target**: Cross West at Row 3, then South down Col 26 to False Computer at (26, 10).
+- **Hazard Info**: Type `63e2` confirmed as Alarm/Warp tiles. Must exclude from pathing.
