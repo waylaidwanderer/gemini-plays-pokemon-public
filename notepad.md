@@ -16,9 +16,9 @@
   - **Hidden Passage**: (9, 4) connects Central Room to Northern Corridor.
   - **Stairs to B2F SW**: Located at (3, 14). Guarded by Grunt.
   - **B2F Connection**: Stairs at (3, 14) lead to B2F South.
-  - **Status**: Previously thought to be a dead end.
-  - **Correction**: B1F NW exploration confirmed NO hidden stairs. The path forward IS through B2F South (Map 3_50).
-  - **Action**: Must re-examine B2F South for hidden switches, items, or a path I missed.
+  - **Status**: The path to Murkrow (B2F Main) is disconnected from B2F South by a locked door.
+  - **Conclusion**: There MUST be another entrance to B2F Main from B1F.
+  - **Action**: Verify if missed stairs exist in Unseen tiles or if a different tile type (Warp/Hole) acts as the entrance.
 - **Plan**:
   1. Navigate to (3, 14) and descend to B2F South.
   2. Inspect every wall and tile in B2F South.
