@@ -28,6 +28,6 @@
 - **Plan**: Explore NW corner of `3_49` (B1F) to find stairs down to B2F North.
 - **Hazards**: `3_49` West side is a trap minefield.
 ## Current Action
-- **Position**: B1F East side (22, 2).
-- **Immediate Plan**: Head West to the Grunt at (2, 4). Checked Statue at (24, 1) - just text.
-- **Goal**: Access the stairs behind the Grunt to reach B2F Northwest (Murkrow).
+- **Position**: B1F West side (1, 4).
+- **Immediate Plan**: Move South through the trap field to the stairs at (3, 14).
+- **Goal**: Reach B2F Northwest to find Murkrow.
