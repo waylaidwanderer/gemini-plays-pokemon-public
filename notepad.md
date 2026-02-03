@@ -28,8 +28,7 @@
 - **Plan**: Explore NW corner of `3_49` (B1F) to find stairs down to B2F North.
 - **Hazards**: `3_49` West side is a trap minefield.
 - **Position**: B2F South (20, 14).
-- **Obstacle**: Rival Silver is standing at (21, 14), blocking the path to the Locked Door (23, 14) and the SE Stairs.
-- **Action**: Interact with Silver. Expecting a battle.
-- **Battle Prep**: Garnet (Typhlosion) is leading. Should be fine.
-- **Goal**: Defeat Silver/Make him move to access the SE Stairs (27, 14).
+- **Obstacle**: Rival Silver is standing at (21, 14). Bumping him didn't trigger a battle automatically.
+- **Action**: Pressing 'A' to initiate dialogue.
+- **Goal**: Defeat Silver to clear the path to the SE Stairs (27, 14).
 - **Hypothesis**: The SE Stairs lead to the B1F SE section, which connects to the B1F West Strip/Murkrow.
