@@ -31,3 +31,5 @@
   4. Take Stairs DOWN to B2F North (27, 2).
   5. Travel West along B2F Row 1 to (3, 2).
   6. Take Stairs UP to B1F West.
+- **Observation (Turn 26334)**: Tile at (6, 2) appears to be a wall (`TYPE_2889`) despite visual similarity to floor. Direct access to Silver from the West is blocked.
+- **Plan**: Navigate South to the gap at (6, 10), then North to approach Silver from the South at (7, 3).
