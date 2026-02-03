@@ -10,14 +10,10 @@
 - **Map 3_49**: B1F West Area (Entrance).
 
 ## Navigation & Strategy
-- **Current Location**: B2F Northeast (12, 15).
-- **Plan**:
-  1. Interact with Scientist Mitch (optional check).
-  2. Navigate North-West to Murkrow at (8, 3).
-  3. Chase Murkrow if it flees.
-- **Map Structure**:
-  - West Strip: x=0-6 (Stairs to B2F West).
-  - Middle Strip: x=7-14 (Murkrow, Silver).
-  - East Strip: x=16-29 (Stairs to B2F NE).
-  - Connection (East <-> Middle): Gap at (15, 12).
-- Scientist Mitch at (11, 15) mentions "If we turn up the power of our radio...". Possible clue about the signal.
+- **Current Location**: B1F East (16, 11).
+- **Obstacle**: Shutter at (14, 11) blocks North path in Middle Strip.
+- **Strategy**: 
+  1. The shutter blocks access to Murkrow from the South.
+  2. Attempt to circle around via the North Corridor (Row 1).
+  3. If Row 1 is blocked at x=15, check switch at (19, 11).
+- **Plan**: Move North to (16, 2). Check if path West is open.
