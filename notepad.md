@@ -22,3 +22,4 @@
   - OFF = Statues Inactive, Shutters Closed?
   - Currently OFF (Statues safe, Shutters locked).
   - Plan: Turn switch back ON.
+- Accessing computer at (21, 10) from the North side (Row 9) previously triggered the "Useless unless you have..." message. Now that I have the password, I should retry from that position.
