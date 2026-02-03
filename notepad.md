@@ -11,9 +11,10 @@
 
 ## Navigation & Strategy
 - **Current Location**: B2F West Corridor (3, 6).
+- **Obstacle**: Shutters at (3, 8) block path South.
 - **Plan**:
-  1. Take stairs at (3, 14) to B1F West (`3_49`).
-  2. Use hidden passage at `3_49` (9, 4) to cross to B1F East.
-  3. Find stairs to B2F Main (Likely NE corner of B1F).
-  4. Access Murkrow room from B2F Main or B1F East.
+  1. Return to North Corridor via (3, 2).
+  2. Go East to (27, 2) (Stairs to B1F NE).
+  3. Enter B1F Main/East from (27, 2).
+  4. Navigate to Murkrow (8, 3).
 - **Goal**: Reach the *East* side of the partition in `3_51`.
