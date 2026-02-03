@@ -52,6 +52,6 @@
 - **Discovery**: Column 2 is a wall of trees, but there is a gap at (2, 16).
 - **Hypothesis**: Column 1 is a hidden corridor leading North, potentially bypassing the Shutter.
 - **Plan**: Navigate South to Row 16, then West to Column 1, then North.
-- **Confirmation**: Column 1 is a continuous open corridor (TYPE_3fe2) from Row 16 up to Row 1.
-- **Plan**: Walk North along Column 1 to reach NW Stairs (3, 2), effectively bypassing the central blockage.
+- **Confirmation**: Column 1 is BLOCKED by a wall at Row 4 (TYPE_2889). The "Continuous Corridor" hypothesis was false.
+- **Plan**: Walk South on B1F West side to reach SW Stairs (3, 14), then access B2F South Corridor.
 - **Goal**: Access B2F North Section to reach Murkrow (22, 9).
