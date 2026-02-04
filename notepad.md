@@ -9,13 +9,15 @@
 - **B1F**: Divided East/West by Wall at Col 15. Connected via Gap at Row 13.
 - **B2F**: Center Boss Door (Locked). West/East sections connected via B1F.
 
-## Current Status
-- **Location**: B1F NW Area (3, 6).
-- **Action**: Searching for NW Stairs.
-- **Problem**: (3, 2) and (3, 6) appear to be normal floor. Stairs reported in summary at (3, 2) are missing.
-- **Plan**: Sweep NW corner (Rows 1-3, Cols 1-5).
-- **Hypothesis**: Summary coordinates might be slightly off, or stairs are visually subtle.
-- **Next**: Navigate to (1, 2) to check corner.
+## Verified Info
+- **B1F NW Corner**: No stairs at (3, 2) or (3, 6). Hallucination corrected.
+- **B2F West**: Divided North/South by Wall at Row 12.
+- **Goal**: Find access to B2F North (Sprite seen at 7, 9).
+
+## Action Plan
+1. Talk to Grunt at B1F (2, 4).
+2. Investigate "Secret Passage" at B1F (7, 6) or (19, 6).
+3. If no path found, check B1F SE Stairs (27, 14) for access to North.
 
 ## Reflection (Turn 27044)
 - **Hazard**: Triggered warp trap at B1F NE Room (27, 2).
