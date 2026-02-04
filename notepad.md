@@ -10,14 +10,13 @@
 - **B2F**: Center Boss Door (Locked). West/East sections connected via B1F.
 
 ## Current Status
-- **Location**: B1F NE Room (25, 1).
+- **Location**: B1F NE Room (27, 1).
 - **Items**: "RATICATE TAIL", "SLOWPOKETAIL".
-- **Action**: Checking remaining computers in NE Room.
-- **Checked**: Row 0 Cols 18-23, 25.
-- **To Check**: (26, 0), (27, 0), (24, 1) [Statue].
-- **Next**: Find Murkrow.
+- **Action**: Finished checking Row 0 computers.
+- **Checked**: Row 0 (All).
+- **Next**: Check computers at Row 4 (South bank in NE Room).
+- **Note**: Vertical passage reported at Col 26? Check Row 4, Col 26.
 
-## Reflection (Turn 27042)
-- **Progress**: Explored B1F NE Room. Safely bypassed Persian Statue at (24, 1) via Row 2.
-- **Hygiene**: Cleared verified tiles from checklist.
-- **Strategy**: Brute-forcing computer checks is effective here. If switch not found, prioritize Murkrow hunt.
+## Reflection (Turn 27043)
+- **Progress**: Checked North Wall computers. No switch found yet.
+- **Strategy**: Moving south to check the next bank of computers. Investigating potential secret passage at Col 26.
