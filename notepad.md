@@ -36,7 +36,8 @@
   - Statue at (22, 14): Switch ACTIVATED.
   - Computer at (19, 11): "Switch is OFF".
   - Shutter at (15, 11): Closed.
-  - Hypothesis: Need 2nd switch? Or switch opened (9,8)/(13,8)?
+  - Grunt at (13, 8): Unresponsive/Blocker.
+  - Action: Check blockage at (9, 8). If closed, head to West Room statues.
 - **Action**: Checking Statue at (24, 13).
 - **Hypothesis**: Need to find a second switch to turn the Computer/Alarm ON or OFF properly.
 - **Observation**: Statue at (6, 1) had shiny eyes (pressed). Computer at (19, 11) still says "Switch is OFF". Shutter at (15, 11) is closed.
