@@ -69,6 +69,5 @@
 - Plan: Cross to West Side via gap at (15, 13) or (15, 12).
 - Then: Head North to inspect Persian Statues at (13, 1) and (12, 1).
 - Warning: Tile (3, 15) is a Warp Trap.
-- Plan: Reach (4, 13) via (4, 15).
-- Route: (6, 14) -> Down -> Left -> Left -> Up -> Up.
-- Goal: Connect with safe path in Column 4 to reach North.
+- Warning: Path (4, 15)->(4, 14)->(4, 13) resulted in warp back to (6, 14). (4, 14) or (4, 13) is a trap.
+- Plan: Backtrack via Row 16 to Gap at (15, 13), then head North to statues.
