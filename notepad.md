@@ -49,3 +49,5 @@
 ## Past Accomplishments (Context)
 - Disabled Persian Alarms at (19, 11).
 - Obtained "Hail Giovanni" and "Raticate Tail".
+- Confirmed switch at (19, 11) says "The switch is turned off." This likely means the alarms are disabled.
+- Path to NE Room: Blocked by wall at Row 10/11 near (19, 12). Must detour West to Col 8, then North, then East to (19, 8).
