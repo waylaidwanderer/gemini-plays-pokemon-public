@@ -35,8 +35,8 @@
   - Statue at (6, 1): "It's a PERSIAN statue..." (Checked).
   - Computer at (19, 11): "The switch is turned off."
   - Shutter at (15, 11): Locked/Solid.
-  - Statue at (22, 14): "Its eyes are oddly shiny." FOUND THE SWITCH! (Correction: I didn't miss it, inputs were consumed).
-  - Action: Activate switch, verify "Click", then check Computer at (19, 11).
+  - Statue at (22, 14): "Its eyes are oddly shiny." SWITCH FOUND & ACTIVATED.
+  - Action: Check Computer at (19, 11) to confirm system status.
 - **Action**: Checking Statue at (24, 13).
 - **Hypothesis**: Need to find a second switch to turn the Computer/Alarm ON or OFF properly.
 - **Observation**: Statue at (6, 1) had shiny eyes (pressed). Computer at (19, 11) still says "Switch is OFF". Shutter at (15, 11) is closed.
