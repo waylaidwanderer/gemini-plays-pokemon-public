@@ -47,3 +47,4 @@
   - Statue at (24, 1): Verified inert (no interaction).
   - Navigation: Row 4 is a Wall. Must use Central Passage (9, 4) or Hidden Path (19, 8) (South side only?).
   - Pathing: To go North->South, use (9, 4). To cross Row 8, use Fake Computer at (19, 8).
+  - Statue at (6, 13): West side verified inert.
