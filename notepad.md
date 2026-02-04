@@ -15,11 +15,13 @@
 - **Warps**: (3, 14) leads to B2F South. (27, 2) leads to Souvenir Shop (Exit).
 - **Goal**: Find Hidden Switch (Likely at Statue) or Murkrow.
 
-## Action Plan
-1. Go to Persian Statue at (24, 1) in NE Room.
-2. Inspect Statue for Hidden Switch.
-3. If no switch, search NE Room for Murkrow.
-4. If Murkrow found, chase it to B2F?
+## Current Status
+- **Location**: B1F NE Room (24, 2).
+- **Action**: Interacting with Persian Statue.
+- **Text**: "Its eyes are oddly shiny."
+- **Event**: Activating Hidden Switch?
+- **Next**: Handle outcome (Battle/Door Open).
+- **Goal**: Disable Alarms/Open Path.
 
 ## Reflection
 - SE Crates checked previously (Empty).
