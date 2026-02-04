@@ -20,9 +20,10 @@
 3. Move South to Row 5, then West to (7, 6).
 4. Enter Secret Passage.
 
-## Reflection (Turn 27095)
-- Grunt at (2, 4) blocks Row 4 East. Must go around via Row 2.
-- Secret Passage (7, 6) is the key to bypassing the wall.
+## Reflection (Turn 27096)
+- **Status**: Dialogue with Grunt interrupted movement.
+- **Action**: Clearing text, then executing bypass route via Row 2.
+- **Path**: (1, 4) -> (1, 3) -> (9, 3) -> (9, 5) -> (7, 5) -> (7, 6).
 
 ## Reflection (Turn 27044)
 - **Hazard**: Triggered warp trap at B1F NE Room (27, 2).
