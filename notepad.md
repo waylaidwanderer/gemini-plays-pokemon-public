@@ -57,3 +57,5 @@
 - **Correction**: (5, 4) is blocked by wall at Col 6.
 - **Plan**: Entering secret passage at (9, 4) (Walkable Computer).
 - **Discovery**: Column 9 (Rows 1-4) appears to be a secret corridor connecting the computer room to the North.
+- **Hypothesis**: The hidden stairs at (3, 2) and (3, 6) only appear when the Switch at (19, 11) is ON (or in the other state).
+- **Plan**: Toggle the switch at (19, 11) and check (3, 2) again.
