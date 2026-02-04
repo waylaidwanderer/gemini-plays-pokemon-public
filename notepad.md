@@ -40,5 +40,5 @@
 - **Action**: Checking Statue at (24, 13).
 - **Hypothesis**: Need to find a second switch to turn the Computer/Alarm ON or OFF properly.
 - **Observation**: Statue at (6, 1) had shiny eyes (pressed). Computer at (19, 11) still says "Switch is OFF". Shutter at (15, 11) is closed.
-- **Teleport Success**: Warped to (25, 2).
 - **Action**: Heading to South side of Statue (22, 14) via Row 15/16.
+- **Correction**: Player is at (28, 2) (Entrance area), not (25, 2). Proceeding to statue.
