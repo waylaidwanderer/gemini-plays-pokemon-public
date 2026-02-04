@@ -31,3 +31,6 @@
    - Next: Interact with Computer at (19, 11).
    - Then: Explore Hidden Path at (19, 8) or (26, 5) to North East area.
 3. **Statue Alarms**: Last resort.
+- **North Hidden Area**:
+  - Statue at (24, 1): Nothing.
+  - Heading to check Statue at (6, 1) from the back.
