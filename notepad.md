@@ -26,12 +26,13 @@
   - Warp Landing: (25, 2).
 
 ## Current Status
-- **Location**: B1F East Section (27, 14).
-- **Action**: Returned to B1F East. Heading to NE Stairs (27, 2).
+- **Location**: B2F North Section (27, 2).
+- **Action**: Arrived via NE Stairs. Murkrow should be nearby.
 - **Next Steps**:
-  1. Take stairs (27, 2) to B2F.
-  2. Check if this leads to Murkrow.
-  3. If not, re-investigate B1F East for switches/passages.
+  1. Navigate to (22, 9) to find Murkrow.
+  2. Defeat Grunts if necessary.
+  3. Obtain "Hail Giovanni" or similar password? No, "Raticate Tail" is first. Second is "Slowpoke Tail"? Need to listen to Murkrow.
+  4. Return to Boss Door.
 
 ## B2F Layout
 - **South**: Boss Door (23, 14). Blocked from North by wall at Row 12 (Cols 0-23).
