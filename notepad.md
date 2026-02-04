@@ -10,11 +10,11 @@
 - **B2F**: Center Boss Door (Locked). West/East sections connected via B1F.
 
 ## Current Status
-- **Location**: B1F Main Room (7, 7).
+- **Location**: B1F Main Room (14, 7).
 - **Items**: "RATICATE TAIL", "SLOWPOKETAIL".
-- **Action**: Retracting from Dead End at (7, 7).
-- **Observation**: (7, 7) appears to be a cul-de-sac. Secret passage (7, 6) leads here but path is blocked.
-- **Next**: Relocate to Main Room via Corridor at (14, 7). Resume Murkrow hunt.
+- **Action**: Moving to B1F SE Room to hunt for Murkrow.
+- **Search**: NE Room (Clear), West Dead End (Clear).
+- **Next**: Check SE Room, then consider B2F.
 
 ## Reflection (Turn 27044)
 - **Hazard**: Triggered warp trap at B1F NE Room (27, 2).
