@@ -71,11 +71,9 @@
 - **Alarms/Traps**: DISABLED! Switch at (19, 11) confirmed effective. (24, 11) was safe.
 - **Action**: Confirmed by standing on (24, 11).
 - **Plan**: 
-  1. Go to SE Stairs (27, 14) (Avoid Grunt at 24, 14).
-  2. Take stairs to B2F.
-  3. Traverse B2F East Corridor North to Stairs at (27, 2).
-  4. Take stairs to B1F (Shop Exit area).
-  5. Go Left to Col 26, then Up to Row 1 (North Corridor).
-  6. Go West to search for hidden stairs.
-- Checking computers at (24, 10) and (25, 10) from the front on the way to the stairs.
-- Goal: Reach B2F and cross to West side to check for hidden stairs.
+  1. Try to go West on B2F to Stairs at (3, 14). (Check if Silver blocks path).
+  2. If blocked, return to B1F (27, 14) and find a path West there (now that traps are disabled).
+  3. Goal: Reach B1F West to find hidden stairs at (3, 2) or (3, 6).
+- **Correction**: B2F East Corridor appears blocked at Row 10 (Wall), preventing direct North travel.
+- **Correction**: B1F East Corridor is blocked at Row 10 (Wall).
+- **Hypothesis**: Must cross to West Side (on B1F or B2F) to reach Northern areas.
