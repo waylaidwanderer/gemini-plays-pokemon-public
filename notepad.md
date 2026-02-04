@@ -33,4 +33,5 @@
 3. **Statue Alarms**: Last resort.
 - **North Hidden Area**:
   - Statue at (6, 1): ACTIVATED SWITCH (Shiny Eyes).
-  - Action: Check Computer at (19, 11).
+  - Computer at (19, 11): Still says "Switch is OFF".
+  - Action: Check Central Shutter at (15, 11) to see if it opened.
