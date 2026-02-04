@@ -16,12 +16,11 @@
 - **Goal**: Find Hidden Switch (Likely at Statue) or Murkrow.
 
 ## Current Status
-- **Location**: B1F Main Room (7, 13).
-- **Action**: Crossing "Trap Field" to reach North Corridor.
-- **Path**: (7, 13) -> West to Col 4 -> North to (4, 2).
-- **Reason**: Row 8 is a wall at Col 7. Must cross via the trap zone (Cols 1-5).
-- **Goal**: Reach Row 2, then head East to SE Room.
-- **Next**: Navigate to (4, 2).
+- **Location**: B1F North Corridor (4, 2).
+- **Action**: Heading East to NE Room/SE Room.
+- **Path**: East along Row 2 to (26, 2) -> South to SE Room.
+- **Goal**: Reach the SE Room (Cols 22-29, Rows 10-16) to find Murkrow.
+- **Note**: Successfully crossed trap field. Avoiding Statue Alarm at (6, 3).
 
 ## Reflection
 - SE Crates checked previously (Empty).
