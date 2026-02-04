@@ -55,3 +55,5 @@
 - Obtained "Hail Giovanni" and "Raticate Tail".
 - Confirmed switch at (19, 11) says "The switch is turned off." This likely means the alarms are disabled.
 - Path to NE Room: Blocked by wall at Row 10/11 near (19, 12). Must detour West to Col 8, then North, then East to (19, 8).
+- **Discovery**: Computers at (9, 4) and (5, 4) are marked as WALKABLE (TYPE_3fe2) in memory, unlike others (TYPE_2889). Likely secret passages!
+- **Plan**: Attempting to enter (5, 4) now. If failed, will check (9, 4).
