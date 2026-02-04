@@ -12,10 +12,11 @@
 ## Current Status
 - **Location**: B1F Main Room (21, 12).
 - **Items**: "RATICATE TAIL", "SLOWPOKETAIL".
-- **Action**: Inspecting shelves at (21, 11).
+- **Action**: Moving to B1F SE Room via South Corridor (Row 16).
 - **Findings**: 
-  - (20, 11): "Steal POKéMON for profit! All POKéMON exist for the glory of Team Rocket!"
-- **Next**: Check (21, 11), then head East to SE Room.
+  - (20, 11): "Steal POKéMON for profit!"
+  - (21, 11): "TEAM ROCKET OATH" (Likely more propaganda).
+- **Next**: Enter SE Room, search for Murkrow and Hidden Switch.
 
 ## Reflection (Turn 27044)
 - **Hazard**: Triggered warp trap at B1F NE Room (27, 2).
