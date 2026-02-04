@@ -27,8 +27,8 @@
    - Possibility C: Interact with "Useless Grunt" at (2, 4) again?
 
 ## Current Status
-- **Location**: B1F West (3, 5).
-- **Action**: Crossing Trap Field (Southbound).
-- **Goal**: Reach Stairs at (3, 14) to return to B2F.
-- **Intel**: Grunt said "Collect your courage and walk." implying we must tank the traps.
-- **Next**: Reach (3, 14). Descend. Check B2F West Wall for gaps.
+- **Location**: B2F SW Corner (3, 14).
+- **Action**: Investigating B2F West Wall (Row 12).
+- **Goal**: Find a gap in the wall to access the North Section.
+- **Hypothesis**: Access to Murkrow is via a gap in Cols 1-3.
+- **Next**: Move North to check (1-3, 12). If blocked, reconsider B1F options.
