@@ -65,3 +65,5 @@
 - Action: Checking Row 4 computers from behind.
 - Checked: (26,4) to (19,4). All empty.
 - Plan: Return to Col 26 and head North to Row 1. Explore North Corridor.
+- Note: Tile (15, 1) has Type 2889 (usually wall) but appears to be walkable floor based on heatmap history.
+- Plan: Inspect Persian Statues at (13, 1) and (12, 1) for switches.
