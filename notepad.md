@@ -10,12 +10,12 @@
 - **B2F**: Center Boss Door (Locked). West/East sections connected via B1F.
 
 ## Current Status
-- **Location**: B1F Main Room (14, 11).
+- **Location**: B1F Main Room (3, 11).
 - **Items**: "RATICATE TAIL", "SLOWPOKETAIL".
-- **Action**: Heading West to Col 3, then South to Row 16.
-- **Reason**: North path at Col 8 is blocked by Row 8 Wall.
-- **Path**: (14, 11) -> West to (3, 11) -> Avoid traps -> South to Row 16 -> East.
-- **Next**: Navigate to (3, 11).
+- **Action**: Taking Warp Shortcut at (5, 15) to East Side.
+- **Path**: (3, 11) -> South/West avoidance path -> (5, 15).
+- **Goal**: Reach B1F East Side to access SE Room.
+- **Next**: Verify warp destination.
 
 ## Reflection (Turn 27044)
 - **Hazard**: Triggered warp trap at B1F NE Room (27, 2).
