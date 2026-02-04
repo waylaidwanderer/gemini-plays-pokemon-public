@@ -63,5 +63,5 @@
 - Goal: Use North Corridor to access other areas or find the switch.
 - Discovery: Row 5 is a hidden walkable corridor.
 - Action: Checking Row 4 computers from behind.
-- Checked: (26,4) to (21,4). All empty.
-- Plan: Check (20,4) and (19,4). Then reassess.
+- Checked: (26,4) to (19,4). All empty.
+- Plan: Return to Col 26 and head North to Row 1. Explore North Corridor.
