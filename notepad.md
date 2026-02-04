@@ -33,3 +33,5 @@
 - **Switch Status**: Computer at (19, 11) says "The switch is turned off." Likely a display.
 - **Hypothesis**: The actual switch is behind the poster at (20, 11).
 - **Safe Path**: Column 5 in B1F West Room appears to be safe from traps (no encounters from y=2 to y=14).
+- **Poster Check**: Poster at (21, 11) is also just "Team Rocket Oath". No switch found in East Room posters.
+- **Next Step**: Checking Central Shutter at (15, 11). Then re-investigate "Mystery Blockage" at (9, 8).
