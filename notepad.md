@@ -42,3 +42,5 @@
 - **Observation**: Statue at (6, 1) had shiny eyes (pressed). Computer at (19, 11) still says "Switch is OFF". Shutter at (15, 11) is closed.
 - **Action**: Heading to South side of Statue (22, 14) via Row 15/16.
 - **Correction**: Player is at (28, 2) (Entrance area), not (25, 2). Proceeding to statue.
+- **Navigation Note**: Tile (5, 15) is a WARP TRAP to Entrance (25, 2). Must avoid it to reach south side.
+- **Plan**: Bypass (5, 15) via Column 4 to reach Row 16 corridor.
