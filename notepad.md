@@ -10,12 +10,12 @@
 - **B2F**: Center Boss Door (Locked). West/East sections connected via B1F.
 
 ## Current Status
-- **Location**: B1F Main Room (17, 12).
+- **Location**: B1F Main Room (21, 12).
 - **Items**: "RATICATE TAIL", "SLOWPOKETAIL".
-- **Obstacle**: Scientist Jed at (18, 12) blocking direct path.
-- **Action**: Bypassing Scientist to check SE Room.
-- **Investigation**: Checking suspicious shelves/boxes at (20, 11) & (21, 11).
-- **Next**: Continue to SE Room to find Murkrow.
+- **Action**: Inspecting shelves at (21, 11).
+- **Findings**: 
+  - (20, 11): "Steal POKéMON for profit!"
+- **Next**: Head East/South to SE Room.
 
 ## Reflection (Turn 27044)
 - **Hazard**: Triggered warp trap at B1F NE Room (27, 2).
