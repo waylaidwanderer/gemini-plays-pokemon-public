@@ -10,11 +10,11 @@
 - **B2F**: Center Boss Door (Locked). West/East sections connected via B1F.
 
 ## Current Status
-- **Location**: B2F South Corridor (7, 13).
-- **Target**: Grunt at (7, 12).
-- **Observation**: Grunt appears to be standing on the wall (Row 12).
-- **Action**: Attempting to talk to Grunt.
-- **Next**: If no interaction, return to B1F and use Stairs at (3, 6).
+- **Location**: B2F South Corridor (3, 14).
+- **Action**: Returning to B1F via SW Stairs.
+- **Reason**: Blocked by wall at Row 12. Cannot reach Grunt/Sprite at (7, 9) from here.
+- **Plan**: Warp to B1F East Side -> Navigate to B2F North Section (NW/NE).
+- **Next**: Take stairs UP to B1F. Then Warp at (5, 15).
 
 ## Reflection (Turn 27044)
 - **Hazard**: Triggered warp trap at B1F NE Room (27, 2).
