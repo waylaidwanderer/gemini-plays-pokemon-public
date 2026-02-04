@@ -16,11 +16,11 @@
 - **Goal**: Find Hidden Switch (Likely at Statue) or Murkrow.
 
 ## Current Status
-- **Location**: B1F Main Room (22, 13).
-- **Action**: Attempting to enter Warp Panel at (22, 14) again.
-- **Previous Attempt**: Failed to move? Position unchanged.
-- **Plan**: Warp to "Entrance" -> Traverse East Side South to SE Room.
-- **Goal**: Find Murkrow.
+- **Location**: B1F Main Room (21, 13).
+- **Action**: Moving West to exit "Central Pocket".
+- **Discovery**: Warp Panel at (22, 14) is SOLID (Type 2889). Cannot be used.
+- **Plan**: Backtrack West -> Go North to Row 2 -> Go East to SE Room.
+- **Goal**: Reach SE Room/East Side.
 
 ## Reflection
 - SE Crates checked previously (Empty).
