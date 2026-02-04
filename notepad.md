@@ -35,13 +35,13 @@
   3. Thoroughly search B1F East Room (Crates) and North Room (Computers) for the switch.
 
 ## Current Status
-- **Location**: B2F (Map 3_50) at (27, 14).
-- **Action**: Accidentally warped to B2F. Returning to B1F (Map 3_51) to check false computer.
-- **Clarification**: Map 3_51 is B1F East. Map 3_50 is B2F.
+- **Location**: B1F East Section (27, 14).
+- **Action**: Safely on B1F. Navigating around obstacle to reach false computer at (26, 10).
+- **Plan**: Go Left to Col 25, then Up to Row 10.
 - **Next Steps**:
-  1. Take stairs back up to B1F.
-  2. Navigate to (26, 10) on B1F.
-  3. Inspect false computer.
+  1. Inspect false computer at (26, 10).
+  2. If it's a switch, activate it.
+  3. Check B1F West for hidden stairs.
 
 ## B2F Layout
 - **South**: Boss Door (23, 14). Blocked from North by wall at Row 12 (Cols 0-23).
