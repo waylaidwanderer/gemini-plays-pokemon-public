@@ -16,9 +16,11 @@
   - Posters at (20, 10), (21, 10) are just the "Oath".
   - Computer at (19, 11) is a display ("Switch is OFF").
 - **West Room**:
+  - Connected to East Room via back corridor (Row 5)!
   - Persian Statue at (6, 1) is just a statue.
   - Trap-free path: Column 5 (y=2 to y=14).
   - Warp Tile at (5, 15) -> (25, 2) (Entrance/Shop Exit).
+  - Grunt at (9, 3) is non-interactive/blocking path North.
 - **B2F**:
   - Accessed via stairs at (3, 14).
   - NOTE: Summary claims stairs at (27, 14), but visual confirmation proves this is FALSE (empty floor).
