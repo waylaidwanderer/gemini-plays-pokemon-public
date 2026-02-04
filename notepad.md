@@ -10,11 +10,11 @@
 - **B2F**: Center Boss Door (Locked). West/East sections connected via B1F.
 
 ## Current Status
-- **Location**: Souvenir Shop (Warped).
+- **Location**: B1F NE Room (27, 2).
 - **Items**: "RATICATE TAIL", "SLOWPOKETAIL".
-- **Action**: Returning to B1F NE Room.
-- **Warp Trap Discovered**: B1F (27, 2) sends to Souvenir Shop.
-- **Next**: Avoid (27, 2), check Row 4 computers.
+- **Action**: Sweeping Row 4 computers.
+- **Hypothesis**: Secret passage at (26, 4).
+- **Next**: Check (27, 4) and (26, 4). Attempt to walk into (26, 4).
 
 ## Reflection (Turn 27044)
 - **Hazard**: Triggered warp trap at B1F NE Room (27, 2).
