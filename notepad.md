@@ -17,10 +17,11 @@
 
 ## Current Status
 - **Location**: B1F Main Room (17, 12).
-- **Action**: Interacting with Scientist Jed (18, 12).
-- **Text**: Finished "Warp Panel" warning.
-- **Next**: Expecting Battle or movement.
-- **Goal**: Clear path to East/South (SE Room).
+- **Action**: Bypassing Scientist Jed (18, 12).
+- **Text**: Looping "Secret" dialogue. He seems to be a non-hostile (or triggered) NPC.
+- **Intel**: "Warp panel up ahead" = Trap to the East.
+- **Plan**: Finish text -> Walk South to (17, 13) -> East to (19, 13).
+- **Goal**: Access SE Room/East Side.
 
 ## Reflection
 - SE Crates checked previously (Empty).
