@@ -40,7 +40,11 @@
 - East Room: (24, 1), (24, 5), (24, 6) [Alarm], (22, 14) [Inert/Already Hit?].
 
 ## Investigation Status
-- **Switch Mystery**: Computer says "Switch is OFF". Need to find the second switch or re-activate the first.
+- **Switch Mystery**: Computer says "Switch is OFF".
+  - Possibility A: Need to turn it ON (find switch).
+  - Possibility B: "Switch is OFF" means the security is active (bad state).
+  - Fact: Activated switch at (22, 14).
+  - Action: Find SECOND switch. Check all statues again or look for hidden wall switches.
 - **Missing Stairs**: Summary said (27, 14) had stairs. It was empty.
 - **Action**: Check Computer (19, 11). Then use Python to find ALL warps/stairs on map.
   - Code Analysis: Stairs ONLY at (27, 2) [Exit] and (3, 14) [West].
