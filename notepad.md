@@ -68,6 +68,7 @@
 - Note: Tile (15, 1) is a solid wall (Type 2889). Row 1 does NOT connect East/West here.
 - Plan: Cross to West Side via gap at (15, 13) or (15, 12).
 - Then: Head North to inspect Persian Statues at (13, 1) and (12, 1).
-- Warning: Tile (3, 15) is a Warp Trap.
-- Warning: Path (4, 15)->(4, 14)->(4, 13) resulted in warp back to (6, 14). (4, 14) or (4, 13) is a trap.
-- Plan: Backtrack via Row 16 to Gap at (15, 13), then head North to statues.
+- Warning: Shutter at (15, 11) is confirmed LOCKED.
+- Plan: Test if the switch at (19, 11) disabled the Warp Traps.
+- Action: Step on known trap at (24, 11).
+- Contingency: If warped, return to search for the real switch (possibly in the Oath area or near Passive Grunt).
