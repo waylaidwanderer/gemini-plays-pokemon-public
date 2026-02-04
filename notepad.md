@@ -10,13 +10,12 @@
 - **B2F**: Center Boss Door (Locked). West/East sections connected via B1F.
 
 ## Current Status
-- **Location**: B1F Main Room (19, 12).
+- **Location**: B1F Main Room (22, 11).
 - **Items**: "RATICATE TAIL", "SLOWPOKETAIL".
-- **Action**: Rerouting to East Corridor via North (Row 2).
-- **Reason**: Trapped in Central Room (Cols 15-22). South (Row 14) and East (Col 23) are walls.
-- **Path**: Up to Row 2 -> East to Col 26 -> South to Row 16.
-- **Correction**: No gap at Row 13. Connections are at Row 1-2 and Row 7.
-- **Next**: Navigate to (26, 2) to bypass central walls and alarms.
+- **Action**: Escaping "Central Pocket" to West side (Col 8).
+- **Reason**: Blocked North (Row 10 Wall) and East. Must loop West to Col 8 to go North.
+- **Path**: South to Row 13 -> West to Col 8 -> North to Row 2.
+- **Next**: Navigate to (8, 11), then (9, 4).
 
 ## Reflection (Turn 27044)
 - **Hazard**: Triggered warp trap at B1F NE Room (27, 2).
