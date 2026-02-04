@@ -10,14 +10,14 @@
 - **B2F**: Center Boss Door (Locked). West/East sections connected via B1F.
 
 ## Current Status
-- **Location**: B1F NE Room (23, 1).
+- **Location**: B1F NE Room (25, 1).
 - **Items**: "RATICATE TAIL", "SLOWPOKETAIL".
-- **Missing**: Murkrow Voice.
-- **Action**: Checking computer at (23, 0) and crossing past Persian Statue.
-- **Next**: Check computers East of the statue (25,0)-(27,0).
+- **Action**: Checking remaining computers in NE Room.
+- **Checked**: Row 0 Cols 18-23, 25.
+- **To Check**: (26, 0), (27, 0), (24, 1) [Statue].
+- **Next**: Find Murkrow.
 
-## Investigation Log
-- **(7, 6)**: Secret Passage confirmed. Connects Row 5 (Backstage) and Row 7 (Main Room).
-- **Current Action**: Sweeping the West end of Backstage (Cols 6-8).
-- **Goal**: Find Hidden Switch.
-- **Hypothesis**: Switch might be at (7, 4) or on the side of the computer at (8, 6).
+## Reflection (Turn 27042)
+- **Progress**: Explored B1F NE Room. Safely bypassed Persian Statue at (24, 1) via Row 2.
+- **Hygiene**: Cleared verified tiles from checklist.
+- **Strategy**: Brute-forcing computer checks is effective here. If switch not found, prioritize Murkrow hunt.
