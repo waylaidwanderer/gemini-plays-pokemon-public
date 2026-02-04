@@ -32,6 +32,5 @@
    - Then: Explore Hidden Path at (19, 8) or (26, 5) to North East area.
 3. **Statue Alarms**: Last resort.
 - **North Hidden Area**:
-  - Statue at (24, 1): "It's a PERSIAN statue..." (Checked).
-  - Statue at (6, 1): "It's a PERSIAN statue..." (Checked front).
-  - Action: Checking (6, 1) from the side. Then checking mystery blockage.
+  - Statue at (6, 1): ACTIVATED SWITCH (Shiny Eyes).
+  - Action: Check Computer at (19, 11).
