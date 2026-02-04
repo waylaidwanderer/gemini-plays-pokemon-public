@@ -16,12 +16,11 @@
 - **Goal**: Find Hidden Switch (Likely at Statue) or Murkrow.
 
 ## Current Status
-- **Location**: B1F NE Room (26, 3).
-- **Action**: Traveling to Scientist Jed (18, 12).
-- **Path**: West to Central Passage (9, 4) -> South to (9, 12) -> East to (17, 12).
-- **Goal**: Confront Jed to progress (Password? Switch?).
-- **Statue**: Persian Statue at (24, 1) verified useless (no switch).
-- **Murkrow**: Still missing. Potentially in B2F North?
+- **Location**: B1F Main Room (17, 12).
+- **Action**: Battling Scientist Jed at (18, 12).
+- **Goal**: Clear the path to B1F SE Room/South Corridor.
+- **Hypothesis**: Jed might drop a password or move after defeat.
+- **Next**: Win battle. Check if path opens.
 
 ## Reflection
 - SE Crates checked previously (Empty).
