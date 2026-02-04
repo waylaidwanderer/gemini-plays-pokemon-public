@@ -54,3 +54,6 @@
   - Statue at (6, 14): Front (South) verified inert.
   - Strategy: Access East side of Statue (6, 13) via North Loop (Row 3, Col 7).
   - Statue at (6, 6): Both West (5, 6) and East (7, 6) sides verified inert.
+  - Anomaly: Reset from (25, 5) to (24, 6) observed in Turn 28422. Retrying East Side checks.
+  - Statue at (24, 5): Checking East Side (25, 5).
+  - Statue at (24, 1): Checking East Side (25, 1).
