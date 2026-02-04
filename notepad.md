@@ -18,7 +18,7 @@
 - **West Room**:
   - Isolated by Wall at Column 6 (except via Row 16?).
   - Persian Statue at (6, 1) is just a statue.
-  - Trap-free path: Column 5 (y=2 to y=14).
+  - Trap-free path: Column 5 (y=2 to y=14) (Avoids Warp Traps, but has battles).
   - Warp Tile at (5, 15) -> (25, 2) (Entrance/Shop Exit).
   - Grunt at (2, 4): "Don't know where traps are" (Useless).
   - Grunt at (9, 3) is non-interactive/blocking path North.
