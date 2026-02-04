@@ -18,8 +18,8 @@
 ## Current Status
 - **Location**: B1F Main Room (17, 12).
 - **Action**: Listening to Scientist Jed (18, 12).
-- **Text**: "That thing on the floor up ahead is a warp panel."
-- **Intel**: Confirms Warp Panels/Traps exist nearby.
+- **Text**: "If you step on it, you'll be warped"
+- **Intel**: Warp Traps confirmed.
 - **Next**: Advance text. Prepare for battle.
 - **Goal**: Defeat Jed to clear the path.
 
