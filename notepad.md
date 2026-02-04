@@ -16,11 +16,12 @@
 - **Goal**: Find Hidden Switch (Likely at Statue) or Murkrow.
 
 ## Current Status
-- **Location**: B1F Main Room (17, 12).
-- **Action**: Moving South to (17, 13) to bypass Scientist Jed.
-- **Intel**: Jed is a non-hostile NPC giving tutorial info about warp tiles.
-- **Path**: (17, 12) -> (17, 13) -> (18, 13) -> (19, 13).
-- **Goal**: Access SE Room/East Side.
+- **Location**: B1F South Corridor (22, 13).
+- **Action**: Exploring Eastbound towards SE Room.
+- **Path**: (17, 13) -> East to (22, 13).
+- **Goal**: Find Murkrow or Hidden Switch in SE Room.
+- **Note**: Jed (18, 12) bypassed. West side traps avoided.
+- **Next**: Scan SE Room (Cols 22-29).
 
 ## Reflection
 - SE Crates checked previously (Empty).
