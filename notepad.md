@@ -53,5 +53,4 @@
   - Investigation: Hidden Corridor (26, 5) and Crates (27, 10) checked. Empty.
   - Statue at (6, 14): Front (South) verified inert.
   - Strategy: Access East side of Statue (6, 13) via North Loop (Row 3, Col 7).
-  - Statue at (6, 6): West side (5, 6) verified inert.
-  - Strategy: Loop via North (Rows 2-3) to reach East side (7, 6).
+  - Statue at (6, 6): Both West (5, 6) and East (7, 6) sides verified inert.
