@@ -10,11 +10,11 @@
 - **B2F**: Center Boss Door (Locked). West/East sections connected via B1F.
 
 ## Current Status
-- **Location**: B1F Main Room (14, 7).
+- **Location**: B1F NE Room (19, 5).
 - **Items**: "RATICATE TAIL", "SLOWPOKETAIL".
 - **Missing**: Murkrow Voice.
-- **Action**: Heading East to find the NE Room.
-- **Next**: Locate the computer with the hidden switch.
+- **Action**: Moving to inspect computers on the North Wall (Row 0).
+- **Next**: Find hidden switch to disable Statue Alarms.
 
 ## Investigation Log
 - **(7, 6)**: Secret Passage confirmed. Connects Row 5 (Backstage) and Row 7 (Main Room).
