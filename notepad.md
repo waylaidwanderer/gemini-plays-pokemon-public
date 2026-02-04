@@ -33,10 +33,10 @@
 3. **Statue Alarms**: Last resort.
 - **North Hidden Area**:
   - Statue at (6, 1): "It's a PERSIAN statue..." (Checked).
-  - Computer at (19, 11): "The switch is turned off." (To be verified).
+  - Computer at (19, 11): "The switch is turned off."
   - Shutter at (15, 11): Locked/Solid.
-  - Statue at (22, 14): "Its eyes are oddly shiny." (Activated?).
-  - Action: Check Computer at (19, 11) to see if switch is ON.
+  - Statue at (22, 14): "It's a PERSIAN statue..." (Checked - No Switch).
+  - Action: Verify Computer at (19, 11), then check West Room Computers.
 - **Action**: Checking Statue at (24, 13).
 - **Hypothesis**: Need to find a second switch to turn the Computer/Alarm ON or OFF properly.
 - **Observation**: Statue at (6, 1) had shiny eyes (pressed). Computer at (19, 11) still says "Switch is OFF". Shutter at (15, 11) is closed.
