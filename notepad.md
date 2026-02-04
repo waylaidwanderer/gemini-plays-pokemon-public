@@ -49,6 +49,8 @@
 - **West Section**: Accessible via NW Stairs (3, 2).
 - **Hypothesis**: Must find secret passage in Row 2 Computers OR activate hidden stairs on B1F to drop into Middle Section.
 - Warning: Tile (26, 10) is a Warp Trap.
-- Warning: Tiles (25, 11) and (26, 11) are Warp Traps.
-- Note: (25, 13) is a solid obstacle.
-- Plan: Flank via Col 26 to reach (24, 11) and check computer at (24, 10). Path: Right -> Up -> Left -> Left -> Up.
+- Warning: Row 11 (Cols 24-26) contains Warp Traps.
+- Warning: Row 13 (Cols 23-25) is blocked by furniture.
+- Obstacle: Scientist Ross at (23, 11) blocks the path from the left.
+- Plan: Access computers from the North (Row 9) via Col 21/22.
+  - Path: (25,14) -> Left to (22,14) -> Up to (22,9) -> Right along Row 9.
