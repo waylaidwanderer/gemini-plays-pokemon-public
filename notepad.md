@@ -10,14 +10,18 @@
 - **B2F**: Center Boss Door (Locked). West/East sections connected via B1F.
 
 ## Verified Info
-- **B1F NW Corner**: No stairs at (3, 2) or (3, 6). Hallucination corrected.
+- **B1F NW Corner**: No stairs visible at (3, 2) or (3, 6).
 - **B2F West**: Divided North/South by Wall at Row 12.
-- **Goal**: Find access to B2F North (Sprite seen at 7, 9).
+- **Goal**: Reach B2F North-West Section.
 
 ## Action Plan
-1. Talk to Grunt at B1F (2, 4).
-2. Investigate "Secret Passage" at B1F (7, 6) or (19, 6).
-3. If no path found, check B1F SE Stairs (27, 14) for access to North.
+1. Finish dialogue with Grunt at (2, 4).
+2. Double-check tiles (3, 6) and (9, 4) ("Central Passage").
+3. If no stairs found, head to B1F SE Stairs (27, 14).
+4. Consider if "Hidden Switch" reveals the stairs.
+
+## Current Text
+- Grunt: "I don't even know where the traps..."
 
 ## Reflection (Turn 27044)
 - **Hazard**: Triggered warp trap at B1F NE Room (27, 2).
