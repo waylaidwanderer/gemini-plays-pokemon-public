@@ -10,11 +10,12 @@
 - **B2F**: Center Boss Door (Locked). West/East sections connected via B1F.
 
 ## Current Status
-- **Location**: B1F Main Room (14, 7).
+- **Location**: B1F Main Room (17, 12).
 - **Items**: "RATICATE TAIL", "SLOWPOKETAIL".
-- **Action**: Moving to B1F SE Room to hunt for Murkrow.
-- **Search**: NE Room (Clear), West Dead End (Clear).
-- **Next**: Check SE Room, then consider B2F.
+- **Obstacle**: Scientist Jed at (18, 12) blocking direct path.
+- **Action**: Bypassing Scientist to check SE Room.
+- **Investigation**: Checking suspicious shelves/boxes at (20, 11) & (21, 11).
+- **Next**: Continue to SE Room to find Murkrow.
 
 ## Reflection (Turn 27044)
 - **Hazard**: Triggered warp trap at B1F NE Room (27, 2).
