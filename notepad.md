@@ -37,4 +37,6 @@
 - **New Discovery**: Hidden Corridor connects NE Room (Row 2) and SE Room (Row 14).
 - **Verification**: (27, 14) is a Floor tile (Verified Turn 27199). No stairs.
 - **Verification**: (22, 14) is Solid/Fake Warp (Verified Turn 27201).
-- **Next**: Talk to Scientist Jed at (18, 12). Then investigate South Corridor (Row 16) via West Trap Room.
+- **Scientist Jed**: Confirms floor traps send you back to the entrance.
+- **Strategy**: Access South Corridor (Row 16) via the Hidden Corridor (Col 26) to bypass traps.
+- **Next**: Go North -> East -> Hidden Corridor -> South to Row 16.
