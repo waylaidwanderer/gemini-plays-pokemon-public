@@ -21,6 +21,7 @@
   - Warp Tile at (5, 15) -> (25, 2) (Entrance/Shop Exit).
 - **B2F**:
   - Accessed via stairs at (3, 14).
+  - NOTE: Summary claims stairs at (27, 14), but visual confirmation proves this is FALSE (empty floor).
   - West Corridor is isolated/dead-end.
   - Need to access Central/North area (Murkrow location).
 
