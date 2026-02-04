@@ -25,14 +25,22 @@
   - Hidden Corridor: Column 9.
   - Warp Landing: (25, 2).
 
+## Reflection (Turn 27458)
+- **Progress:** Reached B2F but dead-ended trying to reach Murkrow. My assumption that I could walk there from the East stairs was wrong (blocked by walls).
+- **Hallucination:** System corrected me on B2F movement; I didn't change floors.
+- **Correction:** The only way to Murkrow is likely the *hidden stairs* on B1F. I MUST find the switch to reveal them.
+- **Plan:** 
+  1. Finish checking B2F Row 2 computers (just in case).
+  2. Return to B1F.
+  3. Thoroughly search B1F East Room (Crates) and North Room (Computers) for the switch.
+
 ## Current Status
-- **Location**: B2F North Section (27, 2).
-- **Action**: Arrived via NE Stairs. Murkrow should be nearby.
+- **Location**: B2F North Section (19, 1).
+- **Action**: Checking computers for secret switch.
 - **Next Steps**:
-  1. Navigate to (22, 9) to find Murkrow.
-  2. Defeat Grunts if necessary.
-  3. Obtain "Hail Giovanni" or similar password? No, "Raticate Tail" is first. Second is "Slowpoke Tail"? Need to listen to Murkrow.
-  4. Return to Boss Door.
+  1. Finish checking computers (Cols 15-18).
+  2. If nothing, go to NE Stairs (27, 2) -> B1F.
+  3. Search B1F.
 
 ## B2F Layout
 - **South**: Boss Door (23, 14). Blocked from North by wall at Row 12 (Cols 0-23).
