@@ -25,6 +25,6 @@
   - Need to access Central/North area (Murkrow location).
 
 ## Action Plan
-1. **Sweep West Room Computers**: Systematically check every computer in the West Room (Rows 2, 4, 10, 12).
-2. **Re-check Central Shutter**: On the way, give it one more poke.
-3. **Investigate (1, 2) Area**: Re-check the NW corner of B1F for hidden stairs or switches.
+1. **West Room Statues**: Check Persian Statues at (6, 6) and (6, 13) for hidden switch.
+2. **West Room Computers**: Check any computers in West Room (Rows 10, 12).
+3. **East Room**: If West fails, return to East Room and re-examine everything.
