@@ -40,3 +40,5 @@
 - **Scientist Jed**: Confirms floor traps send you back to the entrance.
 - **Strategy**: Access South Corridor (Row 16) via the Hidden Corridor (Col 26) to bypass traps.
 - **Next**: Go North -> East -> Hidden Corridor -> South to Row 16.
+- **Exploration**: Successfully navigated Hidden Corridor to South Corridor (Row 16).
+- **Next**: Sweeping South Corridor Westwards. Investigating potential trap at (3, 16).
