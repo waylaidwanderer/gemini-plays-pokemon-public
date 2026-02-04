@@ -16,12 +16,12 @@
 - **Goal**: Find Hidden Switch (Likely at Statue) or Murkrow.
 
 ## Current Status
-- **Location**: B1F Main Room (17, 13).
-- **Action**: Backtracking West to loop around to East Side.
-- **Reason**: Direct East path blocked by wall/fake warp. Direct North blocked by Jed/Wall.
-- **Path**: (17, 13) -> West to (7, 13) -> North to Row 2 -> East to Col 28 -> South to SE Room.
-- **Goal**: Reach SE Room to find Murkrow or Switch.
-- **Note**: "Warp Panel" at (22, 14) is solid. Jed is a tutorial NPC.
+- **Location**: B1F Main Room (7, 13).
+- **Action**: Crossing "Trap Field" to reach North Corridor.
+- **Path**: (7, 13) -> West to Col 4 -> North to (4, 2).
+- **Reason**: Row 8 is a wall at Col 7. Must cross via the trap zone (Cols 1-5).
+- **Goal**: Reach Row 2, then head East to SE Room.
+- **Next**: Navigate to (4, 2).
 
 ## Reflection
 - SE Crates checked previously (Empty).
