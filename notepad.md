@@ -16,13 +16,12 @@
 - **Goal**: Find Hidden Switch (Likely at Statue) or Murkrow.
 
 ## Current Status
-- **Location**: B1F NE Room (26, 2).
-- **Action**: Moving South to B1F SE Room.
-- **Path**: South along Column 26 to (26, 12).
-- **Goal**: Search SE Room thoroughly for Murkrow.
-- **Notes**: Avoiding Exit at (27, 2) and Alarm at (24, 6).
-- **Plan**: Once in SE Room, check every tile/corner.
-- **Hypothesis**: Murkrow is cornered in the SE room or B2F (via a path I haven't found).
+- **Location**: B1F SE Room (26, 12).
+- **Action**: Sweeping SE Room Southbound.
+- **Path**: (26, 12) -> South to (26, 15).
+- **Goal**: Locate Murkrow.
+- **Hypothesis**: It must be in this room. If not, I've missed a path to B2F North.
+- **Next**: Check SE corner.
 
 ## Reflection
 - SE Crates checked previously (Empty).
