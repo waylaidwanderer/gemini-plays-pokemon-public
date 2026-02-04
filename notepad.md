@@ -6,13 +6,6 @@
 - **Notes**: Persian Statue at (6, 1) B1F is just a statue. NE Corner (27, 2) is Souvenir Shop Exit. SE Corner (27, 14) is CONFIRMED Dead End. Grunt at (15, 8) is non-interactive. Row 9 is East-West corridor.
 - **Hidden Path**: Discovered hidden path through fake computer at (19, 8) in East Room. Allows access to north side.
 - **Mystery**: "Invisible walls" at (9, 8) and (13, 8) block movement. (13, 8) has a Grunt. (9, 8) is empty but blocked.
-- **Reflection (Turn 28133)**: 
-  - Investigated B2F West via stairs at (3, 14); confirmed dead end.
-  - Investigated "Hidden Path" in East Room; found computers but no switch yet.
-  - Current blocker: Need to access B2F Main.
-  - Potential leads: NW Corner of B1F (current location), unseen switch in East Room (maybe (21, 11)?), or the mystery blockage at (9, 8).
-  - "Invisible walls" at (9, 8) might be script tiles or require a specific event.
-  - **Plan**: Thoroughly check NW corner, then return to East Room to check *all* posters/computers again.
 
 ## Current Status
 - **Location**: B1F Central Corridor (15, 12).
