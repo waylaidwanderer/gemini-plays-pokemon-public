@@ -50,3 +50,4 @@
 - **Hypothesis**: Must find secret passage in Row 2 Computers OR activate hidden stairs on B1F to drop into Middle Section.
 - Warning: Tile (26, 10) is a Warp Trap. I stepped on it by accident last time.
 - Plan: Stand at (25, 10), Face Right, and Press A. DO NOT WALK ONTO (26, 10).
+- Note: Encountered invisible blockage moving West from (28, 9) to (27, 9). Attempting to flank via Row 8.
