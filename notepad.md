@@ -51,3 +51,5 @@
   - Statue at (24, 5): West side (23, 5) verified inert. Next: Check Front (24, 6) despite alarm risk.
   - Statue at (24, 6): Verified inert (Front). No alarm triggered.
   - Investigation: Hidden Corridor (26, 5) and Crates (27, 10) checked. Empty.
+  - Statue at (6, 14): Front (South) verified inert.
+  - Strategy: Access East side of Statue (6, 13) via North Loop (Row 3, Col 7).
