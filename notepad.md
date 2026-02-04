@@ -21,7 +21,8 @@
 - **West Section**: Stairs at (3, 2) (NW). No stairs at (3, 14) (SW is dead end unless shutter opens).
 - **Current Obstacle**: Shutters at (14, 11) and (15, 10) block access to NW section.
 - **Goal**: Find switch to open shutters.
-- **Action**: Interrogating Scientist Mitch at (11, 15).
+- **Progress**: Obtained password "RATICATE TAIL" from Grunt at (5, 14).
+- **Next Step**: Get Murkrow Voice. Need access to NW B1F to reach Murkrow on B2F.
 - **Blockages**:
   - Row 1: Wall at (15, 1).
   - Row 10: Locked Shutter at (15, 10).
