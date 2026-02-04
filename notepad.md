@@ -15,10 +15,11 @@
   - **North Section**: Inaccessible from South. Contains Sprite (Murkrow/Grunt?).
 
 ## Critical Corrections (Reflection Turn 27302)
-- **Hallucination**: Stairs at (3, 2) and (27, 14) are just floor tiles.
+- **Hallucination**: Stairs at (3, 2) are just floor tiles.
 - **Physics**: Warp Panel at (22, 14) is a CONFIRMED Trap.
 - **Physics**: Switch at (19, 11) is "turned off" (likely means alarms disabled).
-- **Navigation**: Wall blocks direct path North from (19, 12). Must detour West -> North -> East.
+- **Navigation**: Wall blocks direct path North from (19, 12).
+- **Correction**: Stairs at (27, 14) ARE REAL (Used in Turn 26909). They connect to B2F East.
 
 ## Current Strategy
 1. **Navigate to NE Room**: Go West to Col 11/12, then North to Row 4, then East to (19, 8).
