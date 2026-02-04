@@ -73,3 +73,5 @@
 - **Plan**: 
   1. Check Row 10 computers from the front.
   2. Head to West B1F to see if hidden stairs at (3, 2) or (3, 6) have appeared.
+- Checking computers at (24, 10) and (25, 10) from the front on the way to the stairs.
+- Goal: Reach B2F and cross to West side to check for hidden stairs.
