@@ -12,10 +12,10 @@
 ## Current Status
 - **Location**: B1F Main Room (21, 13).
 - **Items**: "RATICATE TAIL", "SLOWPOKETAIL".
-- **Action**: Backtracking West to access South Corridor (Row 16) via Col 3.
-- **Reason**: Row 14 is a wall here. Must loop around via Stairs area.
-- **Path**: West past Jed -> South to Row 16 -> East to SE Room.
-- **Next**: Navigate to (3, 16), avoiding traps.
+- **Action**: Rerouting East to avoid traps/obstacles.
+- **Path**: East to Col 26 -> South to Row 16 -> West to SE Room.
+- **Reason**: West side is a minefield. East side (Col 26) is clear.
+- **Next**: Navigate to (26, 16).
 
 ## Reflection (Turn 27044)
 - **Hazard**: Triggered warp trap at B1F NE Room (27, 2).
