@@ -20,11 +20,10 @@
 - **Physics**: Warp Panel at (22, 14) is solid/fake.
 
 ## Current Strategy
-1. **Sweep SE Room**: Checking for Murkrow or hidden paths.
-2. **Re-evaluate B2F Access**: If SE Room is empty, the path to B2F North MUST be elsewhere.
-   - Possibility A: Hidden Switch reveals stairs.
-   - Possibility B: Murkrow is in B1F West (missed spot?).
-   - Possibility C: Interact with "Useless Grunt" at (2, 4) again?
+1. **Return to B1F**: Use stairs at (3, 14).
+2. **Navigate B1F West**: Avoid traps and reach the NW stairs at (3, 2).
+3. **Descend to B2F North**: Search for Murkrow in the previously inaccessible area north of Row 12.
+4. **Correction**: Re-verify existence of stairs at B1F (3, 2) (previous note about them being fake may be wrong).
 
 ## Current Status
 - **Location**: B2F SW Corner (3, 14).
