@@ -32,4 +32,6 @@
 - **Hypothesis**: Access to Murkrow is via a gap in Cols 1-3.
 - **Next**: Move North to check (1-3, 12). If blocked, reconsider B1F options.
 - **Verification**: Standing on (3, 2) and (3, 6). Both are floor tiles (Verified Turn 27183, 27186). No stairs found in B1F West.
-- **Next**: Investigate "False Computer Passage" at B1F (19, 6).
+- **Verification**: (19, 4) is a solid computer (Tested Turn 27188).
+- **Correction**: The "False Computer" is likely at (19, 8). (XML shows it as Floor, visual shows Computer).
+- **Next**: Walk through (19, 8) to access South B1F. Investigate "Vertical Secret Passage" at Col 26.
