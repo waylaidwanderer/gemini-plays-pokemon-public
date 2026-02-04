@@ -19,9 +19,11 @@
 ## B1F Map Data (Verified)
 - **East Section**: Stairs (27, 14), (27, 2). Scientist Jed, Switch.
 - **West Section**: Stairs at (3, 2) (NW). No stairs at (3, 14) (SW is dead end unless shutter opens).
-- **Current Obstacle**: Shutters at (14, 11) and (15, 10) block access to NW section.
-- **Goal**: Find switch to open shutters.
-- **Progress**: Obtained password "RATICATE TAIL" from Grunt at (5, 14).
+- **Current Obstacle**: Shutters at (14, 11) and (15, 10) block access to NW section (where stairs at 3,2 are).
+- **Hypothesis**: "Raticate Tail" is ONLY for the Boss Door on B2F. It did NOT open the shutters.
+- **Goal**: Find a SECOND switch to open the shutters or a secret passage to the NW quadrant.
+- **Exploration**: Checking SW corner (2, 11) for secrets.
+- **Correction**: No stairs at (3, 14). This is a verified plain floor.
 - **Next Step**: Get Murkrow Voice. Need access to NW B1F to reach Murkrow on B2F.
 - **Blockages**:
   - Row 1: Wall at (15, 1).
