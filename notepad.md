@@ -32,5 +32,5 @@
    - Then: Explore Hidden Path at (19, 8) or (26, 5) to North East area.
 3. **Statue Alarms**: Last resort.
 - **North Hidden Area**:
-  - Statue at (24, 1): "Its eyes are oddly shiny." (Potential switch/trap?).
-  - Heading to check Statue at (6, 1) from the back.
+  - Statue at (24, 1): "Its eyes are oddly shiny." (Likely just flavor text or inactive).
+  - Heading to check Statue at (6, 1).
