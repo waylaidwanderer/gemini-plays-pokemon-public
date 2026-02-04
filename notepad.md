@@ -14,15 +14,16 @@
 ## B1F Layout (Verified)
 - **West**:
   - Maze Entrance: (2,3) / (3,3).
-  - Traps: Multiple warp traps in Cols 1-4. Safe path mapped.
+  - Traps: Multiple warp traps in Cols 1-4.
   - Stairs to B2F South at (3, 14).
   - Exit to Shop at (27, 2).
   - "Passive Grunt" at (2, 4).
 - **East**:
   - NE Room: Computers, Scientist Jed (18, 12), Switch (19, 11).
-  - SE Room: Crates (Currently searching).
+  - SE Room: Crates (Searched - Empty).
   - Hidden Corridor: Column 9.
   - Warp Landing: (25, 2).
+  - Obstacles: Grunt (24, 14), Ross (23, 11), Traps (Row 11).
 
 ## Reflection (Turn 27458)
 - **Progress:** Reached B2F but dead-ended trying to reach Murkrow. My assumption that I could walk there from the East stairs was wrong (blocked by walls).
