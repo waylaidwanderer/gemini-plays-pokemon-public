@@ -54,3 +54,6 @@
 - Obstacle: Scientist Ross at (23, 11) blocks the path from the left.
 - Plan: Access computers from the North (Row 9) via Col 21/22.
   - Path: (25,14) -> Left to (22,14) -> Up to (22,9) -> Right along Row 9.
+- Discovery: The "False Computer" at (19, 10) leads to a secret corridor in Column 19.
+- Exploration: Accessing the area behind Row 6 computers via Row 5.
+- Plan: Check backs of computers in Row 6 for switches.
