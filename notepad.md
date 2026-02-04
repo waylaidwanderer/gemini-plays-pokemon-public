@@ -35,3 +35,6 @@
   - Statue at (6, 1): ACTIVATED SWITCH (Shiny Eyes).
   - Computer at (19, 11): Still says "Switch is OFF".
   - Action: Check Central Shutter at (15, 11) to see if it opened.
+- **Action**: Checking Statue at (24, 13).
+- **Hypothesis**: Need to find a second switch to turn the Computer/Alarm ON or OFF properly.
+- **Observation**: Statue at (6, 1) had shiny eyes (pressed). Computer at (19, 11) still says "Switch is OFF". Shutter at (15, 11) is closed.
