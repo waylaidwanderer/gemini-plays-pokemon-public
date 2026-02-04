@@ -1,25 +1,20 @@
 # Team Rocket HQ (Mahogany Town)
 ## Objectives
-- **Primary**: Find the Murkrow (B2F Middle) to open Boss Door.
-- **Secondary**: Reach NW B1F Stairs (3, 2) to access B2F Middle.
-- **Condition**: Warp Traps on B1F West are DISABLED.
+- **Primary**: Find Murkrow (B2F Middle) for Boss Door password.
+- **Secondary**: Unlock Shutters on B1F or find Secret Stairs to NW B1F.
+- **Hypothesis**: "SlowpokeTail" might open Shutters, or there is a hidden path in the East Room Secret Passage (Row 5).
 
 ## Current Status
-- **Location**: B2F Boss Door (23, 14).
+- **Location**: B1F Central Corridor (15, 12).
 - **Passwords**: "Raticate Tail", "SlowpokeTail".
-- **Boss Door**: Likely requires Murkrow Voice. "SlowpokeTail" did not open it?
-- **Murkrow**: Located in B2F Middle (Accessible from B1F NW).
+- **Boss Door**: Locked (Needs Murkrow).
 
 ## Action Plan
-1. **Confirm Boss Door**: Verify if "SlowpokeTail" works. If not, LEAVE.
-2. **Return to B1F West**: Go back up to B1F East, cross gap at (15, 13).
-3. **Find Path to NW**:
-   - Re-investigate secret area behind plants at (1, 12).
-   - Look for a terminal for "SlowpokeTail" to open Shutters.
-   - Check walls for hidden switches near (3, 11).
+1. **Test Central Shutter**: Interact with Shutter at (15, 11).
+2. **Re-explore East Passage**: If shutter fails, go to East Room Secret Passage (Row 5) and check North Wall for hidden doors.
+3. **Check West Room**: If that fails, re-scan West Room computers.
 
-## Map Data
-- **Shutters**: (14, 11), (15, 10), (15, 16) Locked.
-- **Secrets**: 
-  - False Computer at B1F (19, 10), (26, 10).
-  - Passage at (1, 12) (Needs re-check).
+## Verified Data
+- **Not Terminals**: Computers at (8,12), (9,11), (9,12), (13,11), (13,12).
+- **Dead Ends**: Passage at (1,12) is empty.
+- **Solid Shutters**: (14,11) West Room.
