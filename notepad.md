@@ -33,5 +33,6 @@
 - **Next**: Move North to check (1-3, 12). If blocked, reconsider B1F options.
 - **Verification**: Standing on (3, 2) and (3, 6). Both are floor tiles (Verified Turn 27183, 27186). No stairs found in B1F West.
 - **Verification**: (19, 4) is a solid computer (Tested Turn 27188).
-- **Verification**: Walked through fake computer at (19, 8) (Verified Turn 27190). It connects Row 7 and Row 9.
-- **Next**: Investigate "Vertical Secret Passage" at Col 26. Check for switches or items.
+- **Verification**: Walked through fake computer at (19, 8) (Verified Turn 27190). It connects to a "Hidden Corridor" at Col 26 running North-South.
+- **New Discovery**: Hidden Corridor connects NE Room (Row 2) and SE Room (Row 14).
+- **Next**: Verify (27, 14) "Stairs" and (22, 14) "Fake Warp".
