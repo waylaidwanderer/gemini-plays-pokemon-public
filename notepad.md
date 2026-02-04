@@ -20,10 +20,11 @@
 3. Move South to Row 5, then West to (7, 6).
 4. Enter Secret Passage.
 
-## Reflection (Turn 27096)
-- **Status**: Dialogue with Grunt interrupted movement.
-- **Action**: Clearing text, then executing bypass route via Row 2.
-- **Path**: (1, 4) -> (1, 3) -> (9, 3) -> (9, 5) -> (7, 5) -> (7, 6).
+## Reflection (Turn 27097)
+- **Status**: Moving to bypass Grunt and Statue.
+- **Path**: (4, 3) -> Row 2 (bypass Statue Alarm at 6,3) -> Col 9 -> (7, 6).
+- **Hazard**: Persian Statue at (6, 1). Crossing its sight line.
+- **Hope**: Row 2 is safe, or the alarm is disabled/battle-only.
 
 ## Reflection (Turn 27044)
 - **Hazard**: Triggered warp trap at B1F NE Room (27, 2).
