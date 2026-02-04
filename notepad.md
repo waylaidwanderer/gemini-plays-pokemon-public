@@ -10,12 +10,12 @@
 - **B2F**: Center Boss Door (Locked). West/East sections connected via B1F.
 
 ## Current Status
-- **Location**: B1F SW Corner (4, 14).
+- **Location**: B1F SW Corner (2, 15).
 - **Items**: "RATICATE TAIL", "SLOWPOKETAIL".
-- **Action**: Inspecting SW Stairs area.
-- **Goal**: Check for Murkrow before descending.
-- **Observation**: Stairs at (3, 14). Checking adjacent tiles.
-- **Next**: Interact with Stairs/Descend to B2F.
+- **Action**: Checking the extreme SW corner for Murkrow.
+- **Path**: (4, 14) -> (4, 15) -> (3, 15) -> (2, 15).
+- **Reason**: Avoiding Stairs (3, 14) and Warp Trap (3, 16).
+- **Next**: Check (1, 16). If empty, take stairs to B2F.
 
 ## Reflection (Turn 27044)
 - **Hazard**: Triggered warp trap at B1F NE Room (27, 2).
