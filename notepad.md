@@ -33,5 +33,5 @@
 3. **Statue Alarms**: Last resort.
 - **North Hidden Area**:
   - Statue at (24, 1): "It's a PERSIAN statue..." (Checked).
-  - Statue at (6, 1): "Its eyes are oddly shiny." (CURRENTLY INVESTIGATING).
-  - Action: Interact with (6, 1) to find the switch.
+  - Statue at (6, 1): "It's a PERSIAN statue..." (Checked front).
+  - Action: Checking (6, 1) from the side. Then checking mystery blockage.
