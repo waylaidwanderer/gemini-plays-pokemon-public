@@ -32,5 +32,6 @@
    - Then: Explore Hidden Path at (19, 8) or (26, 5) to North East area.
 3. **Statue Alarms**: Last resort.
 - **North Hidden Area**:
-  - Statue at (24, 1): Normal statue.
-  - Statue at (6, 1): "Its eyes are oddly shiny." FOUND THE SECRET!
+  - Statue at (24, 1): "Its eyes are oddly shiny." (I left too early! Go back!).
+  - Statue at (6, 1): "It's a PERSIAN statue..." (Likely nothing).
+  - Action: Return to (24, 1) to investigate shiny eyes.
