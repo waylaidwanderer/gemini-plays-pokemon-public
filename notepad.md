@@ -36,5 +36,7 @@
 
 ## B2F Layout
 - **South**: Boss Door (23, 14). Blocked from North by wall at Row 12 (Cols 0-23).
-- **North**: Contains Murkrow. Accessed via hidden stairs from B1F or East Side Gap (Row 12, Cols 24-28).
-- **East/West Connection**: Access via Row 16 Corridor (Gap at 17,15).
+- **North (Middle)**: Murkrow is here (22, 9). Seemingly isolated by walls (Col 6 & 23) and Computers (Row 2).
+- **East Section**: Accessible via NE Stairs (27, 2).
+- **West Section**: Accessible via NW Stairs (3, 2).
+- **Hypothesis**: Must find secret passage in Row 2 Computers OR activate hidden stairs on B1F to drop into Middle Section.
