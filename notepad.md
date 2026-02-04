@@ -10,11 +10,12 @@
 - **B2F**: Center Boss Door (Locked). West/East sections connected via B1F.
 
 ## Current Status
-- **Location**: B1F NW Corner (3, 2).
-- **Action**: Moving South to check for Stairs at (3, 6).
-- **Observation**: Tile at (3, 2) is floor, not stairs. Previous summary might be slightly off.
-- **Risk**: Grunt at (2, 4). Traps start at Row 7.
-- **Next**: Reach (3, 6). If no stairs, check surrounding tiles.
+- **Location**: B1F NW Area (3, 6).
+- **Action**: Searching for NW Stairs.
+- **Problem**: (3, 2) and (3, 6) appear to be normal floor. Stairs reported in summary at (3, 2) are missing.
+- **Plan**: Sweep NW corner (Rows 1-3, Cols 1-5).
+- **Hypothesis**: Summary coordinates might be slightly off, or stairs are visually subtle.
+- **Next**: Navigate to (1, 2) to check corner.
 
 ## Reflection (Turn 27044)
 - **Hazard**: Triggered warp trap at B1F NE Room (27, 2).
