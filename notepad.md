@@ -18,10 +18,10 @@
 ## Current Status
 - **Location**: B1F Main Room (17, 12).
 - **Action**: Listening to Scientist Jed (18, 12).
-- **Text**: "All right. I'll divulge a secret"
-- **Goal**: Obtain critical intel (Password/Switch location).
-- **Hypothesis**: Jed knows how to open the Boss Door or disable traps.
-- **Next**: Advance text. Record secret. Battle if necessary.
+- **Text**: "That thing on the floor up ahead is a warp panel."
+- **Intel**: Confirms Warp Panels/Traps exist nearby.
+- **Next**: Advance text. Prepare for battle.
+- **Goal**: Defeat Jed to clear the path.
 
 ## Reflection
 - SE Crates checked previously (Empty).
