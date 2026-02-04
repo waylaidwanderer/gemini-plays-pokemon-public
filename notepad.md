@@ -32,24 +32,20 @@
 - **Hypothesis**: Access to Murkrow is via a gap in Cols 1-3.
 - **Next**: Move North to check (1-3, 12). If blocked, reconsider B1F options.
 ## Verified Map Features
-- **B1F West**: (3, 2) and (3, 6) are floors (no stairs). (3, 16) is safe (not a trap).
-- **B1F East**: (19, 4) Solid Computer. (19, 8) Fake Computer (Passage). (27, 14) Floor (no stairs). (22, 14) Solid (Fake Warp).
-- **Traps**: Floor traps warp to entrance (Confirmed by Scientist Jed).
+- **B1F West**: (3, 2) and (3, 6) are floors. (3, 16) is safe.
+- **B1F East**: (19, 8) Fake Computer (Passage). (22, 14) Solid Fake Warp.
+- **Traps**: Floor traps warp to entrance.
 - **Hidden Corridor**: Connects Row 2 (NE) to Row 16 (South).
-- **South Corridor**: Contains Warp at (5, 15).
+- **South Corridor**: Warp at (5, 15) -> B1F East (25, 2).
+- **B2F**: Row 12 Wall is solid. Boss Door at (23, 14) requires Password + Murkrow.
 
 ## Current Strategy
-1. **Sweep South Corridor**: Move East to (28, 16). Check for switches.
-2. **Investigate Warp at (5, 15)**: Verify destination.
-3. **Locate Murkrow**: If not in South, check B2F North via other means.
-- **Central Passage**: (9, 4) leads South to a dead end at (9, 6). Checked for switch (Turn 27215) - Result: Negative (assuming no text).
-- **Next**: Return to B2F via Stairs (3, 14).
-- **Verification**: B2F West Wall (Row 12) at Cols 1-6 is solid (Verified).
-- **Boss Door**: Located at (23, 14). Access from South is blocked by solid tiles (Row 15).
-- **Strategy**: Approach Door from (22, 14). Loop around Silver via Row 13.
-- **Passwords**: I have "Hail Giovanni" and "Raticate Tail" (or "Slowpoketail"? Need to verify).
-- **Action**: Move to (22, 14) and Interact.
-- **Possibilities**:
-    - Switch in NE Room (Computers)?
-    - Switch in SE Room (Crates)?
-    - Hidden stairs at (3, 2) or (27, 14) need to be activated.
+1. **Search B1F NE Room**: Inspect all computers for a hidden switch to reveal stairs (likely at 3,2).
+    - Current Location: (13, 3).
+    - Plan: Sweep Row 4 computers (West to East).
+2. **Search B1F SE Room**: Check Crates if NE Room fails.
+3. **Locate Murkrow**: B2F North (accessible via hidden stairs).
+
+## Past Accomplishments (Context)
+- Disabled Persian Alarms at (19, 11).
+- Obtained "Hail Giovanni" and "Raticate Tail".
