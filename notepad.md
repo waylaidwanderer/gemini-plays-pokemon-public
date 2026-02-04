@@ -26,13 +26,12 @@
   - Warp Landing: (25, 2).
 
 ## Current Status
-- **Location**: B1F West Maze (3, 13).
-- **Action**: Navigated maze successfully. Heading to B2F to cross to East side.
+- **Location**: B1F East Section (27, 14).
+- **Action**: Returned to B1F East. Heading to NE Stairs (27, 2).
 - **Next Steps**:
-  1. Take stairs (3, 14) to B2F.
-  2. Cross B2F to East stairs (27, 2) or (27, 14).
-  3. Search B1F East Side (Crates, Computers, Switch at 19,11).
-  4. Find the switch to reveal stairs to Murkrow.
+  1. Take stairs (27, 2) to B2F.
+  2. Check if this leads to Murkrow.
+  3. If not, re-investigate B1F East for switches/passages.
 
 ## B2F Layout
 - **South**: Boss Door (23, 14). Blocked from North by wall at Row 12 (Cols 0-23).
