@@ -17,10 +17,10 @@
 
 ## Current Status
 - **Location**: B1F NE Room (24, 2).
-- **Action**: Interacting with Persian Statue.
-- **Text**: "It's a PERSIAN statue..." (Down Arrow).
-- **Goal**: Advance text to "shiny eyes" and activate switch.
-- **Next**: Press A. Confirm "Activate?" prompt.
+- **Action**: Activating Hidden Switch.
+- **Text**: "Its eyes are oddly shiny." (Wait for prompt).
+- **Goal**: Trigger switch to disable alarms.
+- **Next**: Select "Yes" if prompted.
 
 ## Reflection
 - SE Crates checked previously (Empty).
