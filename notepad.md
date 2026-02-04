@@ -61,3 +61,5 @@
 - Discovery: The secret corridor in Column 26 connects Row 6 to the North Corridor (Row 1).
 - Plan: Traverse North to (26, 1). Check computers at (25, 5), (25, 4), (25, 3) along the way.
 - Goal: Use North Corridor to access other areas or find the switch.
+- Discovery: Row 5 is a hidden walkable corridor (disguised as computers) connecting Col 19 and Col 26.
+- Plan: Check the backs of Row 4 computers for switches while moving West along Row 5.
