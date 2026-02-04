@@ -10,12 +10,11 @@
 - **B2F**: Center Boss Door (Locked). West/East sections connected via B1F.
 
 ## Current Status
-- **Location**: B2F SW Corner (3, 14).
+- **Location**: B2F South Corridor (7, 14).
 - **Items**: "RATICATE TAIL", "SLOWPOKETAIL".
-- **Action**: Exploring B2F West Side.
-- **Target**: Unknown Sprite at (7, 9).
-- **Observation**: Row 14 appears to connect West and East sections.
-- **Next**: Move East to Col 7, then North to investigate sprite.
+- **Action**: Investigating path to Sprite at (7, 9).
+- **Observation**: Checking if Row 12 Wall blocks access North.
+- **Next**: If blocked, return to B1F and take Stairs at (3, 6).
 
 ## Reflection (Turn 27044)
 - **Hazard**: Triggered warp trap at B1F NE Room (27, 2).
