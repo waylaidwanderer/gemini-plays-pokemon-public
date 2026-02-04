@@ -17,10 +17,10 @@
 
 ## Current Status
 - **Location**: B1F Main Room (17, 12).
-- **Action**: Listening to Scientist Jed (18, 12).
-- **Text**: "back to the entrance." (Warp Panel warning).
-- **Next**: Battle Scientist Jed.
-- **Goal**: Clear path to East/South.
+- **Action**: Interacting with Scientist Jed (18, 12).
+- **Text**: Finished "Warp Panel" warning.
+- **Next**: Expecting Battle or movement.
+- **Goal**: Clear path to East/South (SE Room).
 
 ## Reflection
 - SE Crates checked previously (Empty).
