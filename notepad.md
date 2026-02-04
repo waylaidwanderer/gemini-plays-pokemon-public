@@ -31,3 +31,5 @@
 - **Goal**: Find a gap in the wall to access the North Section.
 - **Hypothesis**: Access to Murkrow is via a gap in Cols 1-3.
 - **Next**: Move North to check (1-3, 12). If blocked, reconsider B1F options.
+- **Verification**: Standing on (3, 2). It is definitely a floor tile.
+- **Hypothesis**: The "Stairs to B2F" mentioned in summary at (3, 6) might be real. Checking (3, 6) next.
