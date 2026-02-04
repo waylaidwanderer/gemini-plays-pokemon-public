@@ -10,17 +10,21 @@
 - **B2F**: Center Boss Door (Locked). West/East sections connected via B1F.
 
 ## Verified Info
-- **B1F SE Corner**: No stairs at (27, 14). Previous assumption was wrong.
+- **B1F SE Corner**: No stairs at (27, 14).
 - **B1F NW Corner**: No stairs at (3, 2).
-- **Passages**: (19, 6) confirmed.
-- **Goal**: Find Hidden Switch in NE Room or access B2F North.
+- **Warps**: (3, 14) leads to B2F South. (27, 2) leads to Souvenir Shop (Exit).
+- **Goal**: Find Hidden Switch (Likely at Statue) or Murkrow.
 
 ## Action Plan
-1. Inspect Crates in SE Room (26, 10) & (27, 10).
-2. Move North to NE Room.
-3. Inspect Persian Statue at (24, 1) (Hidden Switch?).
-4. Check (27, 2) (Is it Exit or B2F Stairs?).
-5. Find Murkrow.
+1. Go to Persian Statue at (24, 1) in NE Room.
+2. Inspect Statue for Hidden Switch.
+3. If no switch, search NE Room for Murkrow.
+4. If Murkrow found, chase it to B2F?
+
+## Reflection
+- SE Crates checked previously (Empty).
+- (27, 2) is a known exit/trap.
+- B2F North access is the main bottleneck. Maybe the switch opens a path?
 
 ## Reflection (Turn 27097)
 - **Status**: Moving to bypass Grunt and Statue.
