@@ -26,12 +26,13 @@
   - Warp Landing: (25, 2).
 
 ## Current Status
-- **Location**: B1F SE Room (25, 10).
-- **Action**: Searching crates for a switch.
+- **Location**: B1F West Maze (3, 13).
+- **Action**: Navigated maze successfully. Heading to B2F to cross to East side.
 - **Next Steps**:
-  1. Finish crate search.
-  2. If nothing found, investigate "Backstage" area (Row 6) via Secret Passage.
-  3. Re-visit Passive Grunt and try "walking" into specific tiles/traps.
+  1. Take stairs (3, 14) to B2F.
+  2. Cross B2F to East stairs (27, 2) or (27, 14).
+  3. Search B1F East Side (Crates, Computers, Switch at 19,11).
+  4. Find the switch to reveal stairs to Murkrow.
 
 ## B2F Layout
 - **South**: Boss Door (23, 14). Blocked from North by wall at Row 12.
