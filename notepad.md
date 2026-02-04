@@ -14,16 +14,17 @@
   - **South Section**: Accessed via B1F (3, 14). Blocked by Wall at Row 12.
   - **North Section**: Inaccessible from South. Contains Sprite (Murkrow/Grunt?).
 
-## Critical Corrections (Reflection Turn 27146)
-- **Hallucination**: "Shiny Eyes" text on Persian Statue (24, 1). Reality: Standard text.
-- **Hallucination**: Stairs at (3, 2) and (27, 14). Reality: Floor tiles (Confirmed Turn 27173 - No visual stairs).
-- **Physics**: Warp Panel at (22, 14) is a CONFIRMED Trap (sends to entrance).
+## Critical Corrections (Reflection Turn 27302)
+- **Hallucination**: Stairs at (3, 2) and (27, 14) are just floor tiles.
+- **Physics**: Warp Panel at (22, 14) is a CONFIRMED Trap.
+- **Physics**: Switch at (19, 11) is "turned off" (likely means alarms disabled).
+- **Navigation**: Wall blocks direct path North from (19, 12). Must detour West -> North -> East.
 
 ## Current Strategy
-1. **Return to B1F**: Use stairs at (3, 14).
-2. **Navigate B1F West**: Avoid traps and reach the NW stairs at (3, 2).
-3. **Descend to B2F North**: Search for Murkrow in the previously inaccessible area north of Row 12.
-4. **Correction**: Re-verify existence of stairs at B1F (3, 2) (previous note about them being fake may be wrong).
+1. **Navigate to NE Room**: Go West to Col 11/12, then North to Row 4, then East to (19, 8).
+2. **Systematic Search**: Interact with EVERY computer in the NE Room (Rows 4, 5, 8).
+3. **If NE Room fails**: Go to SE Room and check crates.
+4. **Goal**: Find hidden switch for B2F North stairs.
 
 ## Current Status
 - **Location**: B2F SW Corner (3, 14).
