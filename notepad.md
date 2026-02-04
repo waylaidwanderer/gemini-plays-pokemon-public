@@ -17,10 +17,9 @@
 
 ## Current Status
 - **Location**: B1F Main Room (17, 12).
-- **Action**: Bypassing Scientist Jed (18, 12).
-- **Text**: Looping "Secret" dialogue. He seems to be a non-hostile (or triggered) NPC.
-- **Intel**: "Warp panel up ahead" = Trap to the East.
-- **Plan**: Finish text -> Walk South to (17, 13) -> East to (19, 13).
+- **Action**: Moving South to (17, 13) to bypass Scientist Jed.
+- **Intel**: Jed is a non-hostile NPC giving tutorial info about warp tiles.
+- **Path**: (17, 12) -> (17, 13) -> (18, 13) -> (19, 13).
 - **Goal**: Access SE Room/East Side.
 
 ## Reflection
