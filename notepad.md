@@ -32,34 +32,11 @@
    - Next: Interact with Computer at (19, 11).
    - Then: Explore Hidden Path at (19, 8) or (26, 5) to North East area.
 3. **Statue Alarms**: Last resort.
-- **North Hidden Area**:
-  - Statue at (6, 1): No switch.
-  - Statue at (22, 14): Switch ACTIVATED.
-  - Computer at (19, 11): "Switch is OFF".
-  - Shutter at (15, 11): Verified Closed.
-  - Grunt at (13, 8): Unresponsive/Blocker.
-  - Action: Check blockage at (9, 8). If closed, head to West Room statues.
-- **Current Status**:
-  - Location: West Room (B1F).
-  - Goal: Investigate Statue at (6, 13) for 2nd switch.
-  - Navigation Note: Avoid Warp Trap at (5, 15).
-- Clarification: Party Typhlosion (Garnet) Lv46 has NO Dig. PC Typhlosion (Garnet) Lv42 HAS Dig.
-  - Statue at (24, 1): Verified inert (no interaction).
-  - Navigation: Row 4 is a Wall. Must use Central Passage (9, 4) or Hidden Path (19, 8) (South side only?).
-  - Pathing: To go North->South, use (9, 4). To cross Row 8, use Fake Computer at (19, 8).
-  - Statue at (6, 13): West side verified inert.
-  - Statue at (24, 5): West side (23, 5) verified inert. Next: Check Front (24, 6) despite alarm risk.
-  - Statue at (24, 6): Verified inert (Front). No alarm triggered.
-  - Investigation: Hidden Corridor (26, 5) and Crates (27, 10) checked. Empty.
-  - Statue at (6, 14): Front (South) verified inert.
-  - Strategy: Access East side of Statue (6, 13) via North Loop (Row 3, Col 7).
-  - Statue at (6, 6): Both West (5, 6) and East (7, 6) sides verified inert.
-  - Mechanic: Alarm tiles (e.g. 24, 6) push player back if triggered.
-  - Statue at (24, 5): Checking East Side (25, 5).
-  - Statue at (24, 1): East side (25, 1) verified inert.
-  - Navigation: Row 4 is blocked by Wall (Computers) from Col 10 to 29. No vertical access.
-  - Strategy: To reach NE Corner (25, 1), must loop via Central Passage (9, 4) -> Row 3 -> East.
-  - Next: Check East side of Statue (24, 5). Note: (25, 5) might be a warp/reset point?
-  - Statue at (6, 6): East Side (7, 6) checked. West Side (5, 6) checked.
-  - Anomaly: x=6 seems to be a continuous wall. Checking (6, 5) and (6, 7) for hidden switches.
-  - Action: Verifying (6, 7) and checking (6, 5) from East (7, 5).
+## Cleared/Inert Statues (B1F)
+- West Room: (6, 1), (6, 6), (6, 13), (6, 14).
+- East Room: (24, 1), (24, 5), (24, 6) [Alarm], (22, 14) [Inert/Already Hit?].
+
+## Investigation Status
+- **Switch Mystery**: Computer says "Switch is OFF". Need to find the second switch or re-activate the first.
+- **Missing Stairs**: Summary said (27, 14) had stairs. It was empty.
+- **Action**: Check Computer (19, 11). Then use Python to find ALL warps/stairs on map.
