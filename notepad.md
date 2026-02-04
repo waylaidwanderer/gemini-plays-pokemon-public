@@ -25,7 +25,12 @@
   - Row 11: Locked Shutter at (14, 11).
   - Row 14: Wall at (15, 14).
   - Row 16: Blocked by Locked Shutter at (15, 16).
-- Row 13: Checking gap at (15, 13) (Labeled TYPE_3fe2).
+- Row 13: CONFIRMED GAP at (15, 13). PASSED THROUGH. Now on West Side.
+- **Current Location**: B1F West Side (14, 13).
+- **Plan**: 
+  1. Check Shutter at (14, 11) (North of current pos).
+  2. Navigate to (3, 6) and (3, 2) to check for Hidden Stairs.
+  3. Look for way to B2F Middle (Murkrow).
 
 ## Action Plan
 1. Check path connectivity on B1F from (27, 14) to (3, 14).
