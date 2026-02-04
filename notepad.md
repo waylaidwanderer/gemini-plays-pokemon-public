@@ -44,3 +44,4 @@
   - Goal: Investigate Statue at (6, 13) for 2nd switch.
   - Navigation Note: Avoid Warp Trap at (5, 15).
 - Clarification: Party Typhlosion (Garnet) Lv46 has NO Dig. PC Typhlosion (Garnet) Lv42 HAS Dig.
+  - Statue at (24, 1): Verified inert (no interaction).
