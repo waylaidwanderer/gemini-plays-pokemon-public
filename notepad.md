@@ -35,4 +35,5 @@
 - **Verification**: (19, 4) is a solid computer (Tested Turn 27188).
 - **Verification**: Walked through fake computer at (19, 8) (Verified Turn 27190). It connects to a "Hidden Corridor" at Col 26 running North-South.
 - **New Discovery**: Hidden Corridor connects NE Room (Row 2) and SE Room (Row 14).
-- **Next**: Verify (27, 14) "Stairs" and (22, 14) "Fake Warp".
+- **Verification**: (27, 14) is a Floor tile (Verified Turn 27199). No stairs.
+- **Next**: Verify (22, 14) Warp. Navigate via Row 16.
