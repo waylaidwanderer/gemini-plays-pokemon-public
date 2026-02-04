@@ -48,6 +48,6 @@
 - **East Section**: Accessible via NE Stairs (27, 2).
 - **West Section**: Accessible via NW Stairs (3, 2).
 - **Hypothesis**: Must find secret passage in Row 2 Computers OR activate hidden stairs on B1F to drop into Middle Section.
-- Warning: Tile (26, 10) is a Warp Trap. I stepped on it by accident last time.
-- Plan: Stand at (25, 10), Face Right, and Press A. DO NOT WALK ONTO (26, 10).
-- Note: Encountered invisible blockage moving West from (28, 9) to (27, 9). Attempting to flank via Row 8.
+- Warning: Tiles (26, 9) and (26, 10) are Warp Traps. Do not walk on them.
+- Note: (27, 9) is blocked.
+- Plan: Navigate via Row 15 to reach (25, 10) and inspect (26, 10) from the side.
