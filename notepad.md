@@ -45,11 +45,10 @@
 - **Central Passage**: (9, 4) leads South to a dead end at (9, 6). Checked for switch (Turn 27215) - Result: Negative (assuming no text).
 - **Next**: Return to B2F via Stairs (3, 14).
 - **Verification**: B2F West Wall (Row 12) at Cols 1-6 is solid (Verified).
-- **Boss Door**: Blocked by Silver at (21, 14).
-- **Action Plan**:
-    1. Navigate around Silver via Row 15 to reach Boss Door at (23, 14).
-    2. Interact with Door to confirm if "Raticate Tail" works.
-    3. If locked and no password prompt, Return to B1F to find Murkrow.
+- **Boss Door**: Located at (23, 14). Access from South is blocked by solid tiles (Row 15).
+- **Strategy**: Approach Door from (22, 14). Loop around Silver via Row 13.
+- **Passwords**: I have "Hail Giovanni" and "Raticate Tail" (or "Slowpoketail"? Need to verify).
+- **Action**: Move to (22, 14) and Interact.
 - **Possibilities**:
     - Switch in NE Room (Computers)?
     - Switch in SE Room (Crates)?
