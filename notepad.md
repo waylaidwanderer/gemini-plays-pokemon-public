@@ -10,12 +10,12 @@
 - **B2F**: Center Boss Door (Locked). West/East sections connected via B1F.
 
 ## Current Status
-- **Location**: B1F Main Room (19, 12).
+- **Location**: B1F Main Room (14, 11).
 - **Items**: "RATICATE TAIL", "SLOWPOKETAIL".
-- **Action**: Manually navigating around Scientist Jed.
-- **Reason**: BFS kept trying to walk through Jed at (18, 12).
-- **Path**: Loop South around Jed to reach (14, 11).
-- **Next**: From (14, 11), head West to Col 8, then North.
+- **Action**: Heading West to Col 3, then South to Row 16.
+- **Reason**: North path at Col 8 is blocked by Row 8 Wall.
+- **Path**: (14, 11) -> West to (3, 11) -> Avoid traps -> South to Row 16 -> East.
+- **Next**: Navigate to (3, 11).
 
 ## Reflection (Turn 27044)
 - **Hazard**: Triggered warp trap at B1F NE Room (27, 2).
