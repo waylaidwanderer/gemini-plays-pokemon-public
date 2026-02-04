@@ -36,4 +36,5 @@
 - **Verification**: Walked through fake computer at (19, 8) (Verified Turn 27190). It connects to a "Hidden Corridor" at Col 26 running North-South.
 - **New Discovery**: Hidden Corridor connects NE Room (Row 2) and SE Room (Row 14).
 - **Verification**: (27, 14) is a Floor tile (Verified Turn 27199). No stairs.
-- **Next**: Verify (22, 14) Warp. Navigate via Row 16.
+- **Verification**: (22, 14) is Solid/Fake Warp (Verified Turn 27201).
+- **Next**: Talk to Scientist Jed at (18, 12). Then investigate South Corridor (Row 16) via West Trap Room.
