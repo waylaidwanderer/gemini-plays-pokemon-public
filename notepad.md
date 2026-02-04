@@ -48,6 +48,6 @@
 - **East Section**: Accessible via NE Stairs (27, 2).
 - **West Section**: Accessible via NW Stairs (3, 2).
 - **Hypothesis**: Must find secret passage in Row 2 Computers OR activate hidden stairs on B1F to drop into Middle Section.
-- Warning: Tiles (26, 9) and (26, 10) are Warp Traps. Do not walk on them.
-- Note: (27, 9) is blocked.
-- Plan: Navigate via Row 15 to reach (25, 10) and inspect (26, 10) from the side.
+- Warning: Tile (26, 10) is a Warp Trap.
+- Warning: Tile (26, 11) is likely a Warp Trap (warped me to 26, 14).
+- Plan: Check computers in SE Room (Row 10) from Row 11. Start with (25, 10).
