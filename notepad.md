@@ -16,12 +16,12 @@
 - **Goal**: Find Hidden Switch (Likely at Statue) or Murkrow.
 
 ## Current Status
-- **Location**: B1F SE Room (26, 13).
-- **Action**: Scanning SE Room for Murkrow.
-- **Path**: (22, 13) -> East to (26, 13).
-- **Goal**: Locate Murkrow to get the password.
-- **Hypothesis**: Murkrow might be hiding in the corner or behind crates.
-- **Next**: If not found here, check B2F again or the "Useless Grunt" area.
+- **Location**: B1F Main Room (22, 13).
+- **Action**: Stepping on Warp Panel at (22, 14).
+- **Reason**: Path East is blocked by wall at Col 23.
+- **Intel**: Jed said this warp sends to "entrance" (likely (27, 2) area).
+- **Plan**: Warp to Entrance -> Walk South to SE Room -> Find Murkrow.
+- **Goal**: Access the SE Room which was unreachable from the West.
 
 ## Reflection
 - SE Crates checked previously (Empty).
