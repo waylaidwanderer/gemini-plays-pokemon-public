@@ -25,6 +25,9 @@
   - Need to access Central/North area (Murkrow location).
 
 ## Action Plan
-1. **West Room Statues**: Checked (6, 6) (Nothing). Now checking (6, 13).
-2. **Re-Check East Room**: West Room is a trap hallway, no computers. If statues fail, re-examine East Room.
-3. **Statue Alarms**: Consider triggering alarms at (6, 1) or (24, 6) intentionally?
+1. **West Room Statues**: Checked (6, 6) and (6, 13) - Nothing.
+2. **Re-Check East Room**: Return via Warp (5, 15).
+   - Talk to Scientist Jed at (18, 12) again.
+   - Interact with Computer at (19, 11) again.
+   - Explore Hidden Path at (19, 8) to North East area.
+3. **Statue Alarms**: Last resort.
