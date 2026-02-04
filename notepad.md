@@ -58,4 +58,6 @@
 - Exploration: Accessing the area behind Row 6 computers via Row 5.
 - Plan: Check backs of computers in Row 6 ((23,6), (24,6), (25,6)) for switches or fake tiles.
 - Checked Row 6 computers: (20,6) to (25,6). All empty.
-- Discovery: (26, 6) is a walkable tile (Type 3fe2) disguised as a computer. Likely the entrance to the East Secret Passage.
+- Discovery: The secret corridor in Column 26 connects Row 6 to the North Corridor (Row 1).
+- Plan: Traverse North to (26, 1). Check computers at (25, 5), (25, 4), (25, 3) along the way.
+- Goal: Use North Corridor to access other areas or find the switch.
