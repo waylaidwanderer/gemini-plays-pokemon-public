@@ -57,3 +57,5 @@
 - Discovery: The "False Computer" at (19, 10) leads to a secret corridor in Column 19.
 - Exploration: Accessing the area behind Row 6 computers via Row 5.
 - Plan: Check backs of computers in Row 6 ((23,6), (24,6), (25,6)) for switches or fake tiles.
+- Checked Row 6 computers: (20,6) to (25,6). All empty.
+- Discovery: (26, 6) is a walkable tile (Type 3fe2) disguised as a computer. Likely the entrance to the East Secret Passage.
