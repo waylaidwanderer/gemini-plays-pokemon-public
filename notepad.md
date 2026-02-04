@@ -10,11 +10,11 @@
 - **B2F**: Center Boss Door (Locked). West/East sections connected via B1F.
 
 ## Current Status
-- **Location**: B2F South Corridor (7, 14).
-- **Target**: Rocket Grunt at (7, 13).
-- **Observation**: Row 12 is a solid wall. Cannot go North here.
-- **Action**: Interacting with Grunt.
-- **Next**: Return to B1F and try Stairs at (3, 6) to reach North section.
+- **Location**: B2F South Corridor (7, 13).
+- **Target**: Grunt at (7, 12).
+- **Observation**: Grunt appears to be standing on the wall (Row 12).
+- **Action**: Attempting to talk to Grunt.
+- **Next**: If no interaction, return to B1F and use Stairs at (3, 6).
 
 ## Reflection (Turn 27044)
 - **Hazard**: Triggered warp trap at B1F NE Room (27, 2).
