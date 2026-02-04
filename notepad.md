@@ -31,14 +31,14 @@
 - **Goal**: Find a gap in the wall to access the North Section.
 - **Hypothesis**: Access to Murkrow is via a gap in Cols 1-3.
 - **Next**: Move North to check (1-3, 12). If blocked, reconsider B1F options.
-- **Verification**: Standing on (3, 2) and (3, 6). Both are floor tiles (Verified Turn 27183, 27186). No stairs found in B1F West.
-- **Verification**: (19, 4) is a solid computer (Tested Turn 27188).
-- **Verification**: Walked through fake computer at (19, 8) (Verified Turn 27190). It connects to a "Hidden Corridor" at Col 26 running North-South.
-- **New Discovery**: Hidden Corridor connects NE Room (Row 2) and SE Room (Row 14).
-- **Verification**: (27, 14) is a Floor tile (Verified Turn 27199). No stairs.
-- **Verification**: (22, 14) is Solid/Fake Warp (Verified Turn 27201).
-- **Scientist Jed**: Confirms floor traps send you back to the entrance.
-- **Strategy**: Access South Corridor (Row 16) via the Hidden Corridor (Col 26) to bypass traps.
-- **Next**: Go North -> East -> Hidden Corridor -> South to Row 16.
-- **Exploration**: Successfully navigated Hidden Corridor to South Corridor (Row 16).
-- **Next**: Sweeping South Corridor Westwards. Investigating potential trap at (3, 16).
+## Verified Map Features
+- **B1F West**: (3, 2) and (3, 6) are floors (no stairs). (3, 16) is safe (not a trap).
+- **B1F East**: (19, 4) Solid Computer. (19, 8) Fake Computer (Passage). (27, 14) Floor (no stairs). (22, 14) Solid (Fake Warp).
+- **Traps**: Floor traps warp to entrance (Confirmed by Scientist Jed).
+- **Hidden Corridor**: Connects Row 2 (NE) to Row 16 (South).
+- **South Corridor**: Contains Warp at (5, 15).
+
+## Current Strategy
+1. **Sweep South Corridor**: Move East to (28, 16). Check for switches.
+2. **Investigate Warp at (5, 15)**: Verify destination.
+3. **Locate Murkrow**: If not in South, check B2F North via other means.
