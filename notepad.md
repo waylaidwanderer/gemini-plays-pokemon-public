@@ -25,23 +25,22 @@
   - Warp Landing: (25, 2).
   - Obstacles: Grunt (24, 14), Ross (23, 11), Traps (Row 11).
 
-## Reflection (Turn 27458)
-- **Progress:** Reached B2F but dead-ended trying to reach Murkrow. My assumption that I could walk there from the East stairs was wrong (blocked by walls).
-- **Hallucination:** System corrected me on B2F movement; I didn't change floors.
-- **Correction:** The only way to Murkrow is likely the *hidden stairs* on B1F. I MUST find the switch to reveal them.
-- **Plan:** 
-  1. Finish checking B2F Row 2 computers (just in case).
-  2. Return to B1F.
-  3. Thoroughly search B1F East Room (Crates) and North Room (Computers) for the switch.
+## Reflection (Turn 27509)
+- **Progress:** Confirmed (19, 10) is a walkable tile (False Computer). I am standing on it.
+- **Hypothesis:** This path likely leads to the switch or is the secret passage itself.
+- **Correction:** I need to stop falling down the stairs at (27, 14).
+- **Plan:**
+  1. Investigate (19, 11) and the area behind the computers.
+  2. Find the switch to reveal the hidden stairs (likely for the Boss Door/Murkrow access).
+  3. Avoid Warp Traps in Row 11.
 
 ## Current Status
-- **Location**: B1F East Section (27, 14).
-- **Action**: Safely on B1F. Navigating around obstacle to reach false computer at (26, 10).
-- **Plan**: Go Left to Col 25, then Up to Row 10.
+- **Location**: B1F East Section (19, 10).
+- **Action**: Investigating False Computer area.
 - **Next Steps**:
-  1. Inspect false computer at (26, 10).
-  2. If it's a switch, activate it.
-  3. Check B1F West for hidden stairs.
+  1. Move Down to (19, 11).
+  2. Check for switches.
+  3. Talk to Scientist Jed at (18, 12) if accessible.
 
 ## B2F Layout
 - **South**: Boss Door (23, 14). Blocked from North by wall at Row 12 (Cols 0-23).
