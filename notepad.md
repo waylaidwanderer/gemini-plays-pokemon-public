@@ -24,7 +24,8 @@
   - Row 10: Locked Shutter at (15, 10).
   - Row 11: Locked Shutter at (14, 11).
   - Row 14: Wall at (15, 14).
-  - Row 13: Gap at (15, 13)? Needs verification of access.
+  - Row 16: Blocked by Locked Shutter at (15, 16).
+- Row 13: Checking gap at (15, 13) (Labeled TYPE_3fe2).
 
 ## Action Plan
 1. Check path connectivity on B1F from (27, 14) to (3, 14).
