@@ -10,11 +10,12 @@
 - **B2F**: Center Boss Door (Locked). West/East sections connected via B1F.
 
 ## Current Status
-- **Location**: B1F SE Room (28, 15).
+- **Location**: B1F South Corridor (24, 16).
 - **Items**: "RATICATE TAIL", "SLOWPOKETAIL".
-- **Action**: Checked Crates. Moving South to scan for Murkrow.
-- **Findings**: Crates appear to be empty/scenery.
-- **Next**: Explore the southern end of the SE Room. Check Row 16 Corridor.
+- **Action**: Exploring Row 16 Westbound.
+- **Path**: (28, 15) -> South to Row 16 -> West towards Col 20.
+- **Caution**: Potential traps in this area.
+- **Next**: Continue West. Look for Murkrow.
 
 ## Reflection (Turn 27044)
 - **Hazard**: Triggered warp trap at B1F NE Room (27, 2).
