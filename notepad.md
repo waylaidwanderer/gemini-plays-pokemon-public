@@ -42,5 +42,6 @@
 1. **Sweep South Corridor**: Move East to (28, 16). Check for switches.
 2. **Investigate Warp at (5, 15)**: Verify destination.
 3. **Locate Murkrow**: If not in South, check B2F North via other means.
-- **Lead**: "Central Passage" at B1F (9, 4) (from Summary/Markers). Need to verify if this leads to B2F North access.
-- **Lead**: Check SE Room Crates (27, 10) for switches.
+- **Central Passage**: (9, 4) leads South to a dead end at (9, 6). Checked for switch (Turn 27215) - Result: Negative (assuming no text).
+- **Next**: Return to B2F via Stairs (3, 14).
+- **Priority**: Check B2F West Wall (Row 12, Cols 1-3) for a gap/hidden path to North Section.
