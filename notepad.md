@@ -25,6 +25,6 @@
   - Need to access Central/North area (Murkrow location).
 
 ## Action Plan
-1. **West Room Statues**: Check Persian Statues at (6, 6) and (6, 13) for hidden switch.
-2. **West Room Computers**: Check any computers in West Room (Rows 10, 12).
-3. **East Room**: If West fails, return to East Room and re-examine everything.
+1. **West Room Statues**: Checked (6, 6) (Nothing). Now checking (6, 13).
+2. **Re-Check East Room**: West Room is a trap hallway, no computers. If statues fail, re-examine East Room.
+3. **Statue Alarms**: Consider triggering alarms at (6, 1) or (24, 6) intentionally?
