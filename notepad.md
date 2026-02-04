@@ -16,7 +16,7 @@
 
 ## Critical Corrections (Reflection Turn 27146)
 - **Hallucination**: "Shiny Eyes" text on Persian Statue (24, 1). Reality: Standard text.
-- **Hallucination**: Stairs at (3, 2) and (27, 14). Reality: Floor tiles.
+- **Hallucination**: Stairs at (3, 2) and (27, 14). Reality: Floor tiles (Confirmed Turn 27173 - No visual stairs).
 - **Physics**: Warp Panel at (22, 14) is solid/fake.
 
 ## Current Strategy
