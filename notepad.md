@@ -17,4 +17,4 @@
 ## Verified Data
 - **Not Terminals**: Computers at (8,12), (9,11), (9,12), (13,11), (13,12).
 - **Dead Ends**: Passage at (1,12) is empty.
-- **Solid Shutters**: (14,11) West Room.
+- **Solid Shutters**: (14,11) West, (15,11) Central.
