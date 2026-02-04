@@ -17,11 +17,11 @@
 
 ## Current Status
 - **Location**: B1F NE Room (24, 2).
-- **Action**: Interacting with Persian Statue.
-- **Text**: "Its eyes are oddly shiny."
-- **Event**: Activating Hidden Switch?
-- **Next**: Handle outcome (Battle/Door Open).
-- **Goal**: Disable Alarms/Open Path.
+- **Action**: Activating Hidden Switch on Persian Statue.
+- **Text**: "Its eyes are oddly shiny." -> Advancing to trigger switch.
+- **Goal**: Disable alarms/Open Boss Door.
+- **Next**: Confirm switch activation. Then find Murkrow.
+- **Hypothesis**: This switch disables the warp tiles (Statue Alarms).
 
 ## Reflection
 - SE Crates checked previously (Empty).
