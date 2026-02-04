@@ -10,11 +10,11 @@
 - **B2F**: Center Boss Door (Locked). West/East sections connected via B1F.
 
 ## Current Status
-- **Location**: B1F Main Room (21, 13).
+- **Location**: B1F Main Room (22, 13).
 - **Items**: "RATICATE TAIL", "SLOWPOKETAIL".
-- **Action**: Rerouting East to avoid traps/obstacles.
-- **Path**: East to Col 26 -> South to Row 16 -> West to SE Room.
-- **Reason**: West side is a minefield. East side (Col 26) is clear.
+- **Action**: Navigating to SE Room via safe loop.
+- **Path**: West to Col 8 (cross Row 10 gap) -> East to Col 26 -> South to Row 16.
+- **Reason**: Trapped in South-Middle pocket. Must loop North to escape.
 - **Next**: Navigate to (26, 16).
 
 ## Reflection (Turn 27044)
