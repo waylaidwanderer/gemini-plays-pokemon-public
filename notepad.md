@@ -16,11 +16,12 @@
 - **Goal**: Find Hidden Switch (Likely at Statue) or Murkrow.
 
 ## Current Status
-- **Location**: B1F Main Room (21, 13).
-- **Action**: Moving West to exit "Central Pocket".
-- **Discovery**: Warp Panel at (22, 14) is SOLID (Type 2889). Cannot be used.
-- **Plan**: Backtrack West -> Go North to Row 2 -> Go East to SE Room.
-- **Goal**: Reach SE Room/East Side.
+- **Location**: B1F Main Room (17, 13).
+- **Action**: Backtracking West to loop around to East Side.
+- **Reason**: Direct East path blocked by wall/fake warp. Direct North blocked by Jed/Wall.
+- **Path**: (17, 13) -> West to (7, 13) -> North to Row 2 -> East to Col 28 -> South to SE Room.
+- **Goal**: Reach SE Room to find Murkrow or Switch.
+- **Note**: "Warp Panel" at (22, 14) is solid. Jed is a tutorial NPC.
 
 ## Reflection
 - SE Crates checked previously (Empty).
