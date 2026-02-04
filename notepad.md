@@ -68,5 +68,7 @@
 - Note: Tile (15, 1) is a solid wall (Type 2889). Row 1 does NOT connect East/West here.
 - Plan: Cross to West Side via gap at (15, 13) or (15, 12).
 - Then: Head North to inspect Persian Statues at (13, 1) and (12, 1).
-- Warning: Reached (3, 14) via Row 15 but was warped back to (6, 14). (3, 14) or (5, 15) is likely a trap.
-- Plan: Try reaching Column 3 via Row 16 to bypass (5, 15).
+- Warning: Tile (3, 15) is a Warp Trap.
+- Plan: Reach (4, 13) via (4, 15).
+- Route: (6, 14) -> Down -> Left -> Left -> Up -> Up.
+- Goal: Connect with safe path in Column 4 to reach North.
