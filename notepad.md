@@ -17,10 +17,11 @@
 
 ## Current Status
 - **Location**: B1F Main Room (17, 12).
-- **Action**: Battling Scientist Jed at (18, 12).
-- **Goal**: Clear the path to B1F SE Room/South Corridor.
-- **Hypothesis**: Jed might drop a password or move after defeat.
-- **Next**: Win battle. Check if path opens.
+- **Action**: Listening to Scientist Jed (18, 12).
+- **Text**: "All right. I'll divulge a secret"
+- **Goal**: Obtain critical intel (Password/Switch location).
+- **Hypothesis**: Jed knows how to open the Boss Door or disable traps.
+- **Next**: Advance text. Record secret. Battle if necessary.
 
 ## Reflection
 - SE Crates checked previously (Empty).
