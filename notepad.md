@@ -10,12 +10,11 @@
 - **B2F**: Center Boss Door (Locked). West/East sections connected via B1F.
 
 ## Current Status
-- **Location**: B1F Main Room (22, 13).
+- **Location**: B1F Main Room (14, 11).
 - **Items**: "RATICATE TAIL", "SLOWPOKETAIL".
-- **Action**: Navigating to SE Room via safe loop.
-- **Path**: West to Col 8 (cross Row 10 gap) -> East to Col 26 -> South to Row 16.
-- **Reason**: Trapped in South-Middle pocket. Must loop North to escape.
-- **Next**: Navigate to (26, 16).
+- **Action**: Navigating through trap zone to Row 16.
+- **Path**: Exit pocket at (14, 11) -> South through West Corridor -> East on Row 16.
+- **Next**: Careful navigation to (26, 16).
 
 ## Reflection (Turn 27044)
 - **Hazard**: Triggered warp trap at B1F NE Room (27, 2).
