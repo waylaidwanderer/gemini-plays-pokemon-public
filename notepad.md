@@ -15,7 +15,7 @@
   - **North Section**: Inaccessible from South. Contains Sprite (Murkrow/Grunt?).
 
 ## Critical Corrections (Reflection Turn 27302)
-- **Hallucination**: Stairs at (3, 2) are just floor tiles.
+- **Correction**: Re-verifying stairs at (3, 2). Summary claims they were used (Turn 26644), but later note claimed they were fake. Must investigate.
 - **Physics**: Warp Panel at (22, 14) is a CONFIRMED Trap.
 - **Physics**: Switch at (19, 11) is "turned off" (likely means alarms disabled).
 - **Navigation**: Wall blocks direct path North from (19, 12).
