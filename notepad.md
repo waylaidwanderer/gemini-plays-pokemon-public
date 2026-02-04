@@ -15,9 +15,9 @@
   - **North Section**: Inaccessible from South. Contains Sprite (Murkrow/Grunt?).
 
 ## Critical Corrections (Reflection Turn 27302)
-- **Correction**: Stairs at (3, 2) are currently HIDDEN or Non-Existent (Confirmed Floor Turn 27328).
+- **Correction**: Stairs at (3, 2) AND (3, 6) are currently HIDDEN (Confirmed Floor Turn 27328/27329).
 - **Hypothesis**: A hidden switch reveals these stairs (likely in NE or SE room).
-- **Navigation**: Checking (3, 6) for stairs (referenced in summary).
+- **Strategy**: Return to NE Room and check remaining computers.
 - **Physics**: Warp Panel at (22, 14) is a CONFIRMED Trap.
 - **Physics**: Switch at (19, 11) is "turned off" (likely means alarms disabled).
 - **Navigation**: Wall blocks direct path North from (19, 12).
