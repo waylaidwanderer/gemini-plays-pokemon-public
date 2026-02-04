@@ -35,13 +35,13 @@
   3. Thoroughly search B1F East Room (Crates) and North Room (Computers) for the switch.
 
 ## Current Status
-- **Location**: B2F North Section (15, 1).
-- **Action**: B2F Computer search yielded nothing. Returning to B1F.
+- **Location**: B1F East Section (25, 3).
+- **Action**: Navigating to SE Crate Room.
+- **Correction**: Hit a wall at (27, 4) previously, did not warp.
 - **Next Steps**:
-  1. Take NE Stairs (27, 2) to B1F.
-  2. Re-investigate B1F NE Room (Switch at 19, 11).
-  3. Search B1F SE Room (Crates) for a second switch.
-  4. Check if hidden stairs at B1F (3, 2) have appeared.
+  1. Navigate South via Col 28 (Open path).
+  2. Reach SE Room (Row 10+).
+  3. Search for switch in crates/computers.
 
 ## B2F Layout
 - **South**: Boss Door (23, 14). Blocked from North by wall at Row 12 (Cols 0-23).
