@@ -49,3 +49,5 @@
   - Pathing: To go North->South, use (9, 4). To cross Row 8, use Fake Computer at (19, 8).
   - Statue at (6, 13): West side verified inert.
   - Statue at (24, 5): West side (23, 5) verified inert. Next: Check Front (24, 6) despite alarm risk.
+  - Statue at (24, 6): Verified inert (Front). No alarm triggered.
+  - Investigation: Check Hidden Corridor (26, 5) and Supply Crate area (27, 10) for hidden stairs.
