@@ -26,8 +26,8 @@
 
 ## Action Plan
 1. **West Room Statues**: Checked (6, 6) and (6, 13) - Nothing.
-2. **Re-Check East Room**: Return via Warp (5, 15).
-   - Talk to Scientist Jed at (18, 12) again.
-   - Interact with Computer at (19, 11) again.
-   - Explore Hidden Path at (19, 8) to North East area.
+2. **Re-Check East Room**: 
+   - Talking to Scientist Jed (18, 12) -> He warns about warp panel.
+   - Next: Interact with Computer at (19, 11).
+   - Then: Explore Hidden Path at (19, 8) or (26, 5) to North East area.
 3. **Statue Alarms**: Last resort.
