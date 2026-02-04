@@ -14,7 +14,7 @@
 ## B1F Layout (Verified)
 - **West**:
   - Maze Entrance: (2,3) / (3,3).
-  - Warp Traps: (1,4), (1,6), (2,6), (3,6), (4,3).
+  - Traps: Multiple warp traps in Cols 1-4. Safe path mapped.
   - Stairs to B2F South at (3, 14).
   - Exit to Shop at (27, 2).
   - "Passive Grunt" at (2, 4).
