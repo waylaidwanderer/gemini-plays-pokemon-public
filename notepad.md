@@ -27,3 +27,5 @@
 - **Solid Shutters**: (14,10) West, (15,10) Central.
 - **Secret Passage**: Row 5 (x=7 to x=23) is blocked by (6,5) and (24,5).
 - B2F Layout: West corridor blocked at Row 12. Must use B1F West stairs to reach B2F North.
+- **Switch Status**: Computer at (19, 11) says "The switch is turned off." Likely a display.
+- **Hypothesis**: The actual switch is behind the poster at (20, 11).
