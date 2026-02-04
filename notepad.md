@@ -29,3 +29,4 @@
 - B2F Layout: West corridor blocked at Row 12. Must use B1F West stairs to reach B2F North.
 - **Switch Status**: Computer at (19, 11) says "The switch is turned off." Likely a display.
 - **Hypothesis**: The actual switch is behind the poster at (20, 11).
+- **Safe Path**: Column 5 in B1F West Room appears to be safe from traps (no encounters from y=2 to y=14).
