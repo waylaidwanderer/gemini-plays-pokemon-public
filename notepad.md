@@ -57,3 +57,5 @@
   - Anomaly: Reset from (25, 5) to (24, 6) observed in Turn 28422. Retrying East Side checks.
   - Statue at (24, 5): Checking East Side (25, 5).
   - Statue at (24, 1): Checking East Side (25, 1).
+  - Navigation: Row 4 is blocked by Wall (Computers) from Col 10 to 29. No vertical access.
+  - Strategy: To reach NE Corner (25, 1), must loop via Central Passage (9, 4) -> Row 3 -> East.
