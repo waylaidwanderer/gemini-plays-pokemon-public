@@ -40,3 +40,6 @@
 - **Switch Mystery**: Computer says "Switch is OFF". Need to find the second switch or re-activate the first.
 - **Missing Stairs**: Summary said (27, 14) had stairs. It was empty.
 - **Action**: Check Computer (19, 11). Then use Python to find ALL warps/stairs on map.
+  - Code Analysis: Stairs ONLY at (27, 2) [Exit] and (3, 14) [West].
+  - Conclusion: Access to rest of base MUST be via (3, 14) or a specific Warp.
+  - Action: Re-explore B2F West Corridor carefully. Look for hidden doors or switches.
