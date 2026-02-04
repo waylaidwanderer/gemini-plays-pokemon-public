@@ -44,9 +44,12 @@
 3. **Locate Murkrow**: If not in South, check B2F North via other means.
 - **Central Passage**: (9, 4) leads South to a dead end at (9, 6). Checked for switch (Turn 27215) - Result: Negative (assuming no text).
 - **Next**: Return to B2F via Stairs (3, 14).
-- **Verification**: B2F West Wall (Row 12) at Cols 1-3 is solid.
-- **Hypothesis**: Access to North Section is via stairs on B1F that are currently hidden (e.g., at (3, 2) or (27, 14)).
-- **Action Plan**: 
-    1. Check B2F Wall at (6, 12).
-    2. Head to Boss Door at B2F (23, 14) to check status/hints.
-    3. If locked, return to B1F to find the switch that reveals the stairs.
+- **Verification**: B2F West Wall (Row 12) at Cols 1-6 is solid (Verified).
+- **Action Plan**:
+    1. Head to Boss Door at B2F (23, 14) to check status.
+    2. If locked/stuck, return to B1F.
+    3. Search B1F for a switch to reveal stairs to B2F North (Murkrow location).
+- **Possibilities**:
+    - Switch in NE Room (Computers)?
+    - Switch in SE Room (Crates)?
+    - Hidden stairs at (3, 2) or (27, 14) need to be activated.
