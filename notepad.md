@@ -35,8 +35,8 @@
   - Statue at (6, 1): "It's a PERSIAN statue..." (Checked).
   - Computer at (19, 11): "The switch is turned off."
   - Shutter at (15, 11): Locked/Solid.
-  - Action: Check Statue at (22, 14) from the FRONT (South side). Side/Back failed.
-  - Path: Loop around via West (Col 4) to avoid Warp (5, 15).
+  - Statue at (22, 14): "Its eyes are oddly shiny." FOUND A SWITCH! Activating now.
+  - Action: Activate switch, then check computer/shutter.
 - **Action**: Checking Statue at (24, 13).
 - **Hypothesis**: Need to find a second switch to turn the Computer/Alarm ON or OFF properly.
 - **Observation**: Statue at (6, 1) had shiny eyes (pressed). Computer at (19, 11) still says "Switch is OFF". Shutter at (15, 11) is closed.
