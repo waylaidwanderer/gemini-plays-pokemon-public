@@ -12,10 +12,10 @@
 ## Current Status
 - **Location**: B1F Main Room (19, 12).
 - **Items**: "RATICATE TAIL", "SLOWPOKETAIL".
-- **Action**: Escaping "Central Pocket" via Row 11 Gap.
-- **Reason**: Previous move failed. Retrying navigation to exit pocket.
-- **Path**: (19, 12) -> South to Row 13 -> West to Col 17 -> North to Row 11 -> West to (14, 11).
-- **Next**: Navigate to (14, 11), then Col 8.
+- **Action**: Manually navigating around Scientist Jed.
+- **Reason**: BFS kept trying to walk through Jed at (18, 12).
+- **Path**: Loop South around Jed to reach (14, 11).
+- **Next**: From (14, 11), head West to Col 8, then North.
 
 ## Reflection (Turn 27044)
 - **Hazard**: Triggered warp trap at B1F NE Room (27, 2).
