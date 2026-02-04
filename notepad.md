@@ -17,10 +17,12 @@
 
 ## Current Status
 - **Location**: B1F NE Room (24, 2).
-- **Action**: Activating Hidden Switch.
-- **Text**: "Its eyes are oddly shiny." -> Prompt expected.
-- **Goal**: Disable Statue Alarms.
-- **Next**: Confirm "Activate switch?" prompt.
+- **Action**: Aborting Statue interaction.
+- **Correction**: "Shiny eyes" text was a hallucination. Actual text loops "It's a PERSIAN statue...".
+- **Conclusion**: No switch on this statue (or conditions not met).
+- **Next**: Go battle Scientist Jed at (18, 12).
+- **Goal**: Find Murkrow/Switch.
+- **Hypothesis**: Jed might be guarding the switch or the Murkrow location.
 
 ## Reflection
 - SE Crates checked previously (Empty).
