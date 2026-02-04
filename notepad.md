@@ -18,7 +18,10 @@
 
 ## B1F Map Data (Verified)
 - **East Section**: Stairs (27, 14), (27, 2). Scientist Jed, Switch.
-- **West Section**: Stairs (3, 14), (3, 2), (3, 6). Warp Traps (Disabled).
+- **West Section**: Stairs at (3, 2) (NW). No stairs at (3, 14) (SW is dead end unless shutter opens).
+- **Current Obstacle**: Shutters at (14, 11) and (15, 10) block access to NW section.
+- **Goal**: Find switch to open shutters.
+- **Action**: Interrogating Scientist Mitch at (11, 15).
 - **Blockages**:
   - Row 1: Wall at (15, 1).
   - Row 10: Locked Shutter at (15, 10).
