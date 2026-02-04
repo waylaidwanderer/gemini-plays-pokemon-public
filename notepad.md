@@ -68,7 +68,8 @@
 - Note: Tile (15, 1) is a solid wall (Type 2889). Row 1 does NOT connect East/West here.
 - Plan: Cross to West Side via gap at (15, 13) or (15, 12).
 - Then: Head North to inspect Persian Statues at (13, 1) and (12, 1).
-- Warning: Shutter at (15, 11) is confirmed LOCKED.
-- Plan: Test if the switch at (19, 11) disabled the Warp Traps.
-- Action: Step on known trap at (24, 11).
-- Contingency: If warped, return to search for the real switch (possibly in the Oath area or near Passive Grunt).
+- **Alarms/Traps**: DISABLED! The switch at (19, 11)/(19, 10) turned off the warp traps.
+- **Action**: Confirmed by standing on (24, 11).
+- **Plan**: 
+  1. Check Row 10 computers from the front.
+  2. Head to West B1F to see if hidden stairs at (3, 2) or (3, 6) have appeared.
