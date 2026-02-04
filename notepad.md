@@ -45,10 +45,11 @@
 - **Central Passage**: (9, 4) leads South to a dead end at (9, 6). Checked for switch (Turn 27215) - Result: Negative (assuming no text).
 - **Next**: Return to B2F via Stairs (3, 14).
 - **Verification**: B2F West Wall (Row 12) at Cols 1-6 is solid (Verified).
+- **Boss Door**: Blocked by Silver at (21, 14).
 - **Action Plan**:
-    1. Head to Boss Door at B2F (23, 14) to check status.
-    2. If locked/stuck, return to B1F.
-    3. Search B1F for a switch to reveal stairs to B2F North (Murkrow location).
+    1. Navigate around Silver via Row 15 to reach Boss Door at (23, 14).
+    2. Interact with Door to confirm if "Raticate Tail" works.
+    3. If locked and no password prompt, Return to B1F to find Murkrow.
 - **Possibilities**:
     - Switch in NE Room (Computers)?
     - Switch in SE Room (Crates)?
