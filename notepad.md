@@ -35,7 +35,7 @@
   - Statue at (6, 1): No switch.
   - Statue at (22, 14): Switch ACTIVATED.
   - Computer at (19, 11): "Switch is OFF".
-  - Shutter at (15, 11): Closed.
+  - Shutter at (15, 11): Verified Closed.
   - Grunt at (13, 8): Unresponsive/Blocker.
   - Action: Check blockage at (9, 8). If closed, head to West Room statues.
 - **Current Status**:
