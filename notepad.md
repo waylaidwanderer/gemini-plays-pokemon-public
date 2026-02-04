@@ -16,12 +16,12 @@
 - **Goal**: Find Hidden Switch (Likely at Statue) or Murkrow.
 
 ## Current Status
-- **Location**: B1F South Corridor (22, 13).
-- **Action**: Exploring Eastbound towards SE Room.
-- **Path**: (17, 13) -> East to (22, 13).
-- **Goal**: Find Murkrow or Hidden Switch in SE Room.
-- **Note**: Jed (18, 12) bypassed. West side traps avoided.
-- **Next**: Scan SE Room (Cols 22-29).
+- **Location**: B1F SE Room (26, 13).
+- **Action**: Scanning SE Room for Murkrow.
+- **Path**: (22, 13) -> East to (26, 13).
+- **Goal**: Locate Murkrow to get the password.
+- **Hypothesis**: Murkrow might be hiding in the corner or behind crates.
+- **Next**: If not found here, check B2F again or the "Useless Grunt" area.
 
 ## Reflection
 - SE Crates checked previously (Empty).
