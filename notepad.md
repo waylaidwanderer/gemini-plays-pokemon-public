@@ -3,11 +3,11 @@
 - **Primary**: Find Murkrow (B2F Middle) for Boss Door password.
 - **Secondary**: Unlock Shutters on B1F or find Secret Stairs to NW B1F.
 - **Hypothesis**: "SlowpokeTail" might open Shutters, or there is a hidden path in the East Room Secret Passage (Row 5).
-- **Notes**: Persian Statue at (6, 1) B1F is just a statue (Check again after alarm off?). SE Corner (27, 14) is the Souvenir Shop Exit. Still searching for B2F North access. Shutter at (15, 11) B1F closed. Switch at (19, 11) is "turned off". Row 5 is a hidden corridor accessed via (9, 4). Column 19 connects Row 5 and Row 11. Row 9 is a potential Westbound path.
+- **Notes**: Persian Statue at (6, 1) B1F is just a statue. SE Corner (27, 14) is Souvenir Shop Exit. Grunt at (15, 8) is non-interactive/wall. Row 9 is a major East-West corridor accessed via column 19. Exploring West end of Row 9 for B2F stairs.
 - **Reflection**: 
-  - Need to check (6, 1) statue again.
-  - "Fake Computers" at x=19 need thorough checking.
-  - B2F North access remains the primary blocker.
+  - Grunt at (15, 8) was a red herring.
+  - Row 9 corridor is the key to East-West traversal.
+  - B2F North/Middle access likely at West end of Row 9.
 
 ## Current Status
 - **Location**: B1F Central Corridor (15, 12).
