@@ -15,7 +15,7 @@
 - **West**:
   - Maze Entrance: (2,3) / (3,3).
   - Safe Path So Far: (3,3)->(3,4)->(3,5)->(2,5)->(1,5).
-  - Warp Traps: (1,4), (1,6), (2,6).
+  - Warp Traps: (1,4), (1,6), (2,6), (3,6).
   - Stairs to B2F South at (3, 14).
   - Exit to Shop at (27, 2).
   - "Passive Grunt" at (2, 4).
