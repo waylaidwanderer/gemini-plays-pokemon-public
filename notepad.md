@@ -18,3 +18,4 @@
 - **Not Terminals**: Computers at (8,12), (9,11), (9,12), (13,11), (13,12).
 - **Dead Ends**: Passage at (1,12) is empty.
 - **Solid Shutters**: (14,11) West, (15,11) Central.
+- B2F Layout: West corridor blocked at Row 12. Must use B1F West stairs to reach B2F North.
