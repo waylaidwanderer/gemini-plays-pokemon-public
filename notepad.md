@@ -18,9 +18,9 @@
 ## Current Status
 - **Location**: B1F NE Room (24, 2).
 - **Action**: Activating Hidden Switch.
-- **Text**: "Its eyes are oddly shiny." -> Advancing.
+- **Text**: "Its eyes are oddly shiny." -> Prompt expected.
 - **Goal**: Disable Statue Alarms.
-- **Next**: Handle "Activate?" prompt or confirmation message.
+- **Next**: Confirm "Activate switch?" prompt.
 
 ## Reflection
 - SE Crates checked previously (Empty).
