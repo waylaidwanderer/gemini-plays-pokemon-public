@@ -47,9 +47,15 @@
 - **Switch**: B1F (19, 11) (Activated).
 - **Boss Door**: B2F (23, 14).
 - **Murkrow**: B2F (22, 9) (Inaccessible Middle).
+- **Reflection (Turn 27667)**: 
+  - **Confusion**: I recall using stairs at (3, 14) previously, but they are currently visually missing (just floor).
+  - **Hypothesis**: The stairs are hidden/retractable and need a switch to reappear.
+  - **Action**: Search SW corner (2, 11) and surrounding walls for a switch.
+  - **Note**: "Raticate Tail" did not open shutters.
+  - **Goal**: Find the switch to reveal stairs or open shutters.
 - **Secrets**: 
   - False Computer at B1F (19, 10) (Passage).
-  - False Computer at B1F (26, 10) (Passage). Confirmed! Leads to hidden corridor at Row 5.
+  - False Computer at B1F (26, 10) (Passage). Confirmed! Leads to hidden corridor at Row 5. Checked Row 5 walls - found nothing.
 - **Investigation**: 
   - Row 5 corridor seems to connect Col 19 and Col 26.
   - Need to find exit from Row 5 to North (Row 4/1). Likely another False Computer or hidden wall.
