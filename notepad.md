@@ -26,6 +26,9 @@
    - Possibility B: Murkrow is in B1F West (missed spot?).
    - Possibility C: Interact with "Useless Grunt" at (2, 4) again?
 
-## Action
-- Currently sweeping B1F SE Room.
-- Next: Check (22, 15) area.
+## Current Status
+- **Location**: B1F West (3, 5).
+- **Action**: Crossing Trap Field (Southbound).
+- **Goal**: Reach Stairs at (3, 14) to return to B2F.
+- **Intel**: Grunt said "Collect your courage and walk." implying we must tank the traps.
+- **Next**: Reach (3, 14). Descend. Check B2F West Wall for gaps.
