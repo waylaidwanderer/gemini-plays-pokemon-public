@@ -1,39 +1,31 @@
 # Team Rocket HQ (Mahogany Town)
 ## Objectives
-- **Primary**: Open Boss Door on B2F (Requires Murkrow Voice + "Raticate Tail").
-- **Secondary**: Find Hidden Switch in B1F NE Room to open Shutters/Boss Door.
-- **Tertiary**: Catch Murkrow.
+- **Primary**: Open Boss Door on B2F (Need "Raticate Tail" + Murkrow Voice).
+- **Secondary**: Find Hidden Switch (Likely B1F) to disable alarms/open paths.
+- **Tertiary**: Catch Murkrow (Location unknown, last seen B2F North?).
 
-## Map Structure
-- **IDs**: `3_49`/`3_51` = B1F. `3_50` = B2F.
-- **B1F**: Divided East/West by Wall at Col 15. Connected via Gap at Row 13.
-- **B2F**: Center Boss Door (Locked). West/East sections connected via B1F.
+## Map Structure (Verified)
+- **B1F**: 
+  - **West Side**: Traps (Cols 1-5). Stairs to B2F at (3, 14). Exit at (27, 2).
+  - **East Side**: NE Room (Computers/Statue), SE Room (Crates).
+  - **Connections**: Row 2 (North Corridor), Row 16 (South Corridor).
+  - **Fake/Solid Objects**: Warp at (22, 14), Stairs at (3, 2), Stairs at (27, 14).
+- **B2F**: 
+  - **South Section**: Accessed via B1F (3, 14). Blocked by Wall at Row 12.
+  - **North Section**: Inaccessible from South. Contains Sprite (Murkrow/Grunt?).
 
-## Verified Info
-- **B1F SE Corner**: No stairs at (27, 14).
-- **B1F NW Corner**: No stairs at (3, 2).
-- **Warps**: (3, 14) leads to B2F South. (27, 2) leads to Souvenir Shop (Exit).
-- **Goal**: Find Hidden Switch (Likely at Statue) or Murkrow.
+## Critical Corrections (Reflection Turn 27146)
+- **Hallucination**: "Shiny Eyes" text on Persian Statue (24, 1). Reality: Standard text.
+- **Hallucination**: Stairs at (3, 2) and (27, 14). Reality: Floor tiles.
+- **Physics**: Warp Panel at (22, 14) is solid/fake.
 
-## Current Status
-- **Location**: B1F SE Room (26, 12).
-- **Action**: Sweeping SE Room Southbound.
-- **Path**: (26, 12) -> South to (26, 15).
-- **Goal**: Locate Murkrow.
-- **Hypothesis**: It must be in this room. If not, I've missed a path to B2F North.
-- **Next**: Check SE corner.
+## Current Strategy
+1. **Sweep SE Room**: Checking for Murkrow or hidden paths.
+2. **Re-evaluate B2F Access**: If SE Room is empty, the path to B2F North MUST be elsewhere.
+   - Possibility A: Hidden Switch reveals stairs.
+   - Possibility B: Murkrow is in B1F West (missed spot?).
+   - Possibility C: Interact with "Useless Grunt" at (2, 4) again?
 
-## Reflection
-- SE Crates checked previously (Empty).
-- (27, 2) is a known exit/trap.
-- B2F North access is the main bottleneck. Maybe the switch opens a path?
-
-## Reflection (Turn 27097)
-- **Status**: Moving to bypass Grunt and Statue.
-- **Path**: (4, 3) -> Row 2 (bypass Statue Alarm at 6,3) -> Col 9 -> (7, 6).
-- **Hazard**: Persian Statue at (6, 1). Crossing its sight line.
-- **Hope**: Row 2 is safe, or the alarm is disabled/battle-only.
-
-## Reflection (Turn 27044)
-- **Hazard**: Triggered warp trap at B1F NE Room (27, 2).
-- **Strategy**: Return to B1F. Resume search in NE Room, avoiding the trap tile.
+## Action
+- Currently sweeping B1F SE Room.
+- Next: Check (22, 15) area.
