@@ -10,15 +10,17 @@
 - **B2F**: Center Boss Door (Locked). West/East sections connected via B1F.
 
 ## Verified Info
-- **B1F NW Corner**: No stairs at (3, 2) or (3, 6).
-- **B1F Passages**: (7, 6) is accessible via Central Passage (9, 4).
-- **Goal**: Reach (7, 6) to access South/Central area.
+- **B1F SE Corner**: No stairs at (27, 14). Previous assumption was wrong.
+- **B1F NW Corner**: No stairs at (3, 2).
+- **Passages**: (19, 6) confirmed.
+- **Goal**: Find Hidden Switch in NE Room or access B2F North.
 
 ## Action Plan
-1. Move North to Row 2.
-2. Move East to Col 9 (Central Passage).
-3. Move South to Row 5, then West to (7, 6).
-4. Enter Secret Passage.
+1. Inspect Crates in SE Room (26, 10) & (27, 10).
+2. Move North to NE Room.
+3. Inspect Persian Statue at (24, 1) (Hidden Switch?).
+4. Check (27, 2) (Is it Exit or B2F Stairs?).
+5. Find Murkrow.
 
 ## Reflection (Turn 27097)
 - **Status**: Moving to bypass Grunt and Statue.
