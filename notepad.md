@@ -59,3 +59,5 @@
 - **Discovery**: Column 9 (Rows 1-4) appears to be a secret corridor connecting the computer room to the North.
 - **Hypothesis**: The hidden stairs at (3, 2) and (3, 6) only appear when the Switch at (19, 11) is ON (or in the other state).
 - **Plan**: Toggle the switch at (19, 11) and check (3, 2) again.
+- **Observation**: Grunt at (2, 4) refuses to battle. Says "Collect your courage and walk".
+- **Strategy Change**: Ignoring NW corner for now. Heading to SE Room via Secret Passage to find the other Grunt or a switch.
