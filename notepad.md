@@ -49,4 +49,8 @@
 - **Murkrow**: B2F (22, 9) (Inaccessible Middle).
 - **Secrets**: 
   - False Computer at B1F (19, 10) (Passage).
-  - False Computer at B1F (26, 10) (Passage).
+  - False Computer at B1F (26, 10) (Passage). Confirmed! Leads to hidden corridor at Row 5.
+- **Investigation**: 
+  - Row 5 corridor seems to connect Col 19 and Col 26.
+  - Need to find exit from Row 5 to North (Row 4/1). Likely another False Computer or hidden wall.
+  - Plan: Re-enter via (26, 10), check Row 5, and inspect Row 4 walls.
