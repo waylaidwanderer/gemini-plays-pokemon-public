@@ -11,20 +11,18 @@
 
 ## Verified Info
 - **B1F NW Corner**: No stairs at (3, 2) or (3, 6).
-- **B1F Passages**: (7, 6) and (19, 6) are gaps in the Row 6 wall.
-- **Goal**: Find Murkrow (likely in B1F NE Room or B2F North).
+- **B1F Passages**: (7, 6) is accessible via Central Passage (9, 4).
+- **Goal**: Reach (7, 6) to access South/Central area.
 
 ## Action Plan
-1. Finish dialogue.
-2. Verify Secret Passage at (7, 6).
-3. Travel East to (19, 6) to enter NE Room.
-4. Search NE Room for Hidden Switch or Murkrow.
-5. If nothing, search B2F via SE Stairs (27, 14).
+1. Move North to Row 2.
+2. Move East to Col 9 (Central Passage).
+3. Move South to Row 5, then West to (7, 6).
+4. Enter Secret Passage.
 
-## Reflection (Turn 27094)
-- Hallucinated stairs at (3, 2). Corrected.
-- B2F is split North/South. Need access to North.
-- Murkrow is the key.
+## Reflection (Turn 27095)
+- Grunt at (2, 4) blocks Row 4 East. Must go around via Row 2.
+- Secret Passage (7, 6) is the key to bypassing the wall.
 
 ## Reflection (Turn 27044)
 - **Hazard**: Triggered warp trap at B1F NE Room (27, 2).
