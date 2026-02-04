@@ -17,11 +17,10 @@
 
 ## Current Status
 - **Location**: B1F Main Room (22, 13).
-- **Action**: Stepping on Warp Panel at (22, 14).
-- **Reason**: Path East is blocked by wall at Col 23.
-- **Intel**: Jed said this warp sends to "entrance" (likely (27, 2) area).
-- **Plan**: Warp to Entrance -> Walk South to SE Room -> Find Murkrow.
-- **Goal**: Access the SE Room which was unreachable from the West.
+- **Action**: Attempting to enter Warp Panel at (22, 14) again.
+- **Previous Attempt**: Failed to move? Position unchanged.
+- **Plan**: Warp to "Entrance" -> Traverse East Side South to SE Room.
+- **Goal**: Find Murkrow.
 
 ## Reflection
 - SE Crates checked previously (Empty).
