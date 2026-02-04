@@ -35,5 +35,6 @@
   4. Find the switch to reveal stairs to Murkrow.
 
 ## B2F Layout
-- **South**: Boss Door (23, 14). Blocked from North by wall at Row 12.
-- **North**: Contains Murkrow. Accessed via hidden stairs from B1F.
+- **South**: Boss Door (23, 14). Blocked from North by wall at Row 12 (Cols 0-23).
+- **North**: Contains Murkrow. Accessed via hidden stairs from B1F or East Side Gap (Row 12, Cols 24-28).
+- **East/West Connection**: Access via Row 16 Corridor (Gap at 17,15).
