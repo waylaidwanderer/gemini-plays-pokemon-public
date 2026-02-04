@@ -18,9 +18,9 @@
 ## Current Status
 - **Location**: B1F NE Room (24, 2).
 - **Action**: Interacting with Persian Statue.
-- **Text**: "Its eyes are oddly shiny." (Down Arrow visible).
-- **Goal**: Advance text to activate the Hidden Switch.
-- **Next**: Press A to continue. Expecting "activate switch?" prompt.
+- **Text**: "It's a PERSIAN statue..." (Down Arrow).
+- **Goal**: Advance text to "shiny eyes" and activate switch.
+- **Next**: Press A. Confirm "Activate?" prompt.
 
 ## Reflection
 - SE Crates checked previously (Empty).
