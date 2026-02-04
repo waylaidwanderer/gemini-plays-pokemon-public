@@ -56,6 +56,7 @@
   - Statue at (6, 6): Both West (5, 6) and East (7, 6) sides verified inert.
   - Anomaly: Reset from (25, 5) to (24, 6) observed in Turn 28422. Retrying East Side checks.
   - Statue at (24, 5): Checking East Side (25, 5).
-  - Statue at (24, 1): Checking East Side (25, 1).
+  - Statue at (24, 1): East side (25, 1) verified inert.
   - Navigation: Row 4 is blocked by Wall (Computers) from Col 10 to 29. No vertical access.
   - Strategy: To reach NE Corner (25, 1), must loop via Central Passage (9, 4) -> Row 3 -> East.
+  - Next: Check East side of Statue (24, 5). Note: (25, 5) might be a warp/reset point?
