@@ -10,13 +10,12 @@
 - **B2F**: Center Boss Door (Locked). West/East sections connected via B1F.
 
 ## Current Status
-- **Location**: B1F NE Room (27, 1).
+- **Location**: Souvenir Shop (Warped).
 - **Items**: "RATICATE TAIL", "SLOWPOKETAIL".
-- **Action**: Finished checking Row 0 computers.
-- **Checked**: Row 0 (All).
-- **Next**: Check computers at Row 4 (South bank in NE Room).
-- **Note**: Vertical passage reported at Col 26? Check Row 4, Col 26.
+- **Action**: Returning to B1F NE Room.
+- **Warp Trap Discovered**: B1F (27, 2) sends to Souvenir Shop.
+- **Next**: Avoid (27, 2), check Row 4 computers.
 
-## Reflection (Turn 27043)
-- **Progress**: Checked North Wall computers. No switch found yet.
-- **Strategy**: Moving south to check the next bank of computers. Investigating potential secret passage at Col 26.
+## Reflection (Turn 27044)
+- **Hazard**: Triggered warp trap at B1F NE Room (27, 2).
+- **Strategy**: Return to B1F. Resume search in NE Room, avoiding the trap tile.
