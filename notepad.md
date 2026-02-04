@@ -68,10 +68,14 @@
 - Note: Tile (15, 1) is a solid wall (Type 2889). Row 1 does NOT connect East/West here.
 - Plan: Cross to West Side via gap at (15, 13) or (15, 12).
 - Then: Head North to inspect Persian Statues at (13, 1) and (12, 1).
-- **Alarms/Traps**: DISABLED! The switch at (19, 11)/(19, 10) turned off the warp traps.
+- **Alarms/Traps**: DISABLED! Switch at (19, 11) confirmed effective. (24, 11) was safe.
 - **Action**: Confirmed by standing on (24, 11).
 - **Plan**: 
-  1. Check Row 10 computers from the front.
-  2. Head to West B1F to see if hidden stairs at (3, 2) or (3, 6) have appeared.
+  1. Go to SE Stairs (27, 14) (Avoid Grunt at 24, 14).
+  2. Take stairs to B2F.
+  3. Traverse B2F East Corridor North to Stairs at (27, 2).
+  4. Take stairs to B1F (Shop Exit area).
+  5. Go Left to Col 26, then Up to Row 1 (North Corridor).
+  6. Go West to search for hidden stairs.
 - Checking computers at (24, 10) and (25, 10) from the front on the way to the stairs.
 - Goal: Reach B2F and cross to West side to check for hidden stairs.
