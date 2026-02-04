@@ -32,9 +32,10 @@
    - Then: Explore Hidden Path at (19, 8) or (26, 5) to North East area.
 3. **Statue Alarms**: Last resort.
 - **North Hidden Area**:
-  - Statue at (6, 1): ACTIVATED SWITCH (Shiny Eyes).
-  - Computer at (19, 11): Still says "Switch is OFF".
-  - Action: Check Central Shutter at (15, 11) to see if it opened.
+  - Statue at (6, 1): "It's a PERSIAN statue..." (Checked, NO shiny eyes - Hallucination corrected).
+  - Computer at (19, 11): "The switch is turned off." (Cannot interact further yet).
+  - Shutter at (15, 11): Locked/Solid.
+  - Action: Check Statue at (24, 13).
 - **Action**: Checking Statue at (24, 13).
 - **Hypothesis**: Need to find a second switch to turn the Computer/Alarm ON or OFF properly.
 - **Observation**: Statue at (6, 1) had shiny eyes (pressed). Computer at (19, 11) still says "Switch is OFF". Shutter at (15, 11) is closed.
