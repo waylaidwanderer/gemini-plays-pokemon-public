@@ -14,14 +14,12 @@
   - **South Section**: Accessed via B1F (3, 14). Blocked by Wall at Row 12.
   - **North Section**: Inaccessible from South. Contains Sprite (Murkrow/Grunt?).
 
-## Critical Corrections (Reflection Turn 27302)
-- **Correction**: Stairs at (3, 2) AND (3, 6) are currently HIDDEN (Confirmed Floor Turn 27328/27329).
-- **Hypothesis**: A hidden switch reveals these stairs (likely in NE or SE room).
-- **Strategy**: Return to NE Room and check remaining computers.
-- **Physics**: Warp Panel at (22, 14) is a CONFIRMED Trap.
-- **Physics**: Switch at (19, 11) is "turned off" (likely means alarms disabled).
-- **Navigation**: Wall blocks direct path North from (19, 12).
-- **Correction**: Stairs at (27, 14) ARE REAL (Used in Turn 26909). They connect to B2F East.
+## Confirmed Secrets & Mechanics
+- **Secret Passage**: Found at (9, 4)! Connects NE Room to North Corridor (Row 1).
+- **Hidden Stairs**: Stairs at (3, 2) and (3, 6) are currently HIDDEN/FLOOR. Need a switch to reveal them.
+- **Traps**: Warp at (22, 14) is a trap. Floor traps warp to entrance.
+- **Alarms**: Switch at (19, 11) is OFF (Alarms disabled).
+- **B1F Layout**: Row 1 (North Corridor) connects West and East sides.
 
 ## Current Strategy
 1. **Navigate to NE Room**: Go West to Col 11/12, then North to Row 4, then East to (19, 8).
