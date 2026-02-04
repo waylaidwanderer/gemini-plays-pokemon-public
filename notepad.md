@@ -16,7 +16,7 @@
 3. **Check West Room**: If that fails, re-scan West Room computers.
 
 ## Verified Data
-- **Not Terminals**: Computers at (8,12), (9,11), (9,12), (13,10), (13,12).
+- **Not Terminals**: Computers at (8,12), (9,11), (9,12), (13,10), (13,12), (16,10).
 - **Dead Ends**: Passage at (1,12) is empty.
 - **Solid Shutters**: (14,10) West, (15,10) Central.
 - **Secret Passage**: Row 5 (x=7 to x=23) is blocked by (6,5) and (24,5).
