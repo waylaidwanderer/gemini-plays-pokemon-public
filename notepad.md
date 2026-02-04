@@ -42,3 +42,4 @@
   - Location: West Room (B1F).
   - Goal: Investigate Statue at (6, 13) for 2nd switch.
   - Navigation Note: Avoid Warp Trap at (5, 15).
+- Clarification: Party Typhlosion (Garnet) Lv46 has NO Dig. PC Typhlosion (Garnet) Lv42 HAS Dig.
