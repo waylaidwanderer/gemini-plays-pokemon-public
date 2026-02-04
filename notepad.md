@@ -10,11 +10,11 @@
 - **B2F**: Center Boss Door (Locked). West/East sections connected via B1F.
 
 ## Current Status
-- **Location**: B1F Main Room (5, 15).
-- **Action**: Warping to East Side (25, 2).
-- **Plan**: Warp to East -> Traverse North Corridor West -> Reach NW Stairs (3, 2) or (3, 6).
-- **Reason**: West side Row 7/8 is a trap field. North Corridor is safer.
-- **Next**: Verify warp to (25, 2). Then head West.
+- **Location**: B1F NE Room (25, 2).
+- **Action**: Traveling West to NW Stairs (3, 2).
+- **Plan**: Traverse North Corridor (Row 2) -> Reach NW Stairs -> Descend to B2F North.
+- **Reason**: Need to reach the Grunt/Sprite at B2F (7, 9) which was blocked from the south.
+- **Next**: Navigate to (3, 2).
 
 ## Reflection (Turn 27044)
 - **Hazard**: Triggered warp trap at B1F NE Room (27, 2).
