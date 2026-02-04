@@ -10,11 +10,11 @@
 - **B2F**: Center Boss Door (Locked). West/East sections connected via B1F.
 
 ## Current Status
-- **Location**: B1F NE Room (26, 3).
+- **Location**: B1F Main Room (7, 7).
 - **Items**: "RATICATE TAIL", "SLOWPOKETAIL".
-- **Action**: Sweeping Row 4 computers.
-- **Checked**: (26, 4) is Solid/No Switch.
-- **Next**: Check (27, 4), (28, 4), (25, 4). Look for Murkrow.
+- **Action**: Searching for Murkrow in Main Room.
+- **Computer Sweep**: NE Room checked (no switch).
+- **Next**: Check West side of Main Room, then B2F if not found.
 
 ## Reflection (Turn 27044)
 - **Hazard**: Triggered warp trap at B1F NE Room (27, 2).
