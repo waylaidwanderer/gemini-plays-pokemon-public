@@ -60,3 +60,6 @@
   - Navigation: Row 4 is blocked by Wall (Computers) from Col 10 to 29. No vertical access.
   - Strategy: To reach NE Corner (25, 1), must loop via Central Passage (9, 4) -> Row 3 -> East.
   - Next: Check East side of Statue (24, 5). Note: (25, 5) might be a warp/reset point?
+  - Statue at (6, 6): East Side (7, 6) checked. West Side (5, 6) checked.
+  - Anomaly: x=6 seems to be a continuous wall. Checking (6, 5) and (6, 7) for hidden switches.
+  - Action: Verifying (6, 7) and checking (6, 5) from East (7, 5).
