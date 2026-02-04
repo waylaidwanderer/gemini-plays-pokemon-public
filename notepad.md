@@ -14,8 +14,8 @@
 - **Items**: "RATICATE TAIL", "SLOWPOKETAIL".
 - **Action**: Inspecting shelves at (21, 11).
 - **Findings**: 
-  - (20, 11): "Steal POKéMON for profit!"
-- **Next**: Head East/South to SE Room.
+  - (20, 11): "Steal POKéMON for profit! All POKéMON exist for the glory of Team Rocket!"
+- **Next**: Check (21, 11), then head East to SE Room.
 
 ## Reflection (Turn 27044)
 - **Hazard**: Triggered warp trap at B1F NE Room (27, 2).
