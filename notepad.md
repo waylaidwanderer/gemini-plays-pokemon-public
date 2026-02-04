@@ -45,3 +45,5 @@
   - Navigation Note: Avoid Warp Trap at (5, 15).
 - Clarification: Party Typhlosion (Garnet) Lv46 has NO Dig. PC Typhlosion (Garnet) Lv42 HAS Dig.
   - Statue at (24, 1): Verified inert (no interaction).
+  - Navigation: Row 4 is a Wall. Must use Central Passage (9, 4) or Hidden Path (19, 8) (South side only?).
+  - Pathing: To go North->South, use (9, 4). To cross Row 8, use Fake Computer at (19, 8).
