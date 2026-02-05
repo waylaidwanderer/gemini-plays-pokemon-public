@@ -58,11 +58,11 @@
   - Action: Re-explore B2F West Corridor carefully. Look for hidden doors or switches.
 - **CRITICAL DISCOVERY**: Row 9 in Central Corridor (Cols 6-15) is a SOLID WALL. This separates the North Central area (with Statue at 12,1) from the South Central area (Row 10).
 - **Consequence**: I am trapped in the Upper West Room + Row 10 Corridor loop.
-- **Escape Plan (Revised)**:
-  - **B2F Row 1 Route**: Verified open East-West, but North-South access in Central Area likely blocked by machine rows.
-  - **B1F Loop Route (Preferred)**:
-    1. Take Stairs (27, 2) -> B1F NE.
-    2. Go South in B1F to Stairs (27, 14).
-    3. Take Stairs (27, 14) -> B2F SE.
-    4. Cross Col 23 West via Row 15/16 gap.
-    5. Go North to Murkrow.
+- **Murkrow Access Plan**:
+  - **Current**: At B1F NE Stairs (27, 2).
+  - **Next Step**: Descend to B2F NE.
+  - **B2F Strategy**:
+    1. Navigate West from B2F (27, 2) along Row 1/2.
+    2. Reach Murkrow at (22, 9).
+    3. Chase Murkrow if it flees.
+  - **Backup**: If path blocked, re-evaluate "Switch is OFF" computer at B1F (19, 11).
