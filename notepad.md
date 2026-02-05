@@ -76,14 +76,8 @@
     2. Go West along Row 15/16.
     3. Find way North to Murkrow (22, 9).
 - DISCOVERY: Tile (14, 1) is visually a Bookshelf but logically TYPE_3fe2 (Walkable). Potential Hidden Passage!
-## Current Status (Turn 29125)
-- **Location**: B1F West Room (12, 15).
-- **Action**: Exiting South West Room via (15, 13).
-- **Next Step**: Go to Gap at (6, 10) to access Upper West Room.
-- **Goal**: Check Stairs at (3, 6) and (3, 2).
-- Lore: Scientist Mitch mentions "turning up the power of our radio" (likely the signal controlling Gyarados).
-- Lore: Mitch confirms the plan is to broadcast the signal nationwide.
-- **Navigation Update**: Verified path from East to West.
-  - Route: South to Row 14 -> West to Col 16 -> North to Gap (15, 13) -> West to Col 14 -> South to Row 16 -> West to Col 3 -> North to Row 10.
-  - Avoids traps in Central Row 11 and Shutter walls.
-- **Navigation Note**: Grunt at (24, 14) blocks the path. Must bypass via Row 15. BFS fails here because it doesn't see the sprite.
+## Current Status
+- **Location**: B1F Central Gap (15, 13).
+- **Objective**: Investigate (3, 14) in SW Room for potential stairs to B2F.
+- **Reasoning**: Previous code analysis indicated stairs at (3, 14). Access to NW area likely requires B2F loop.
+- **Lore**: Mitch confirmed nationwide broadcast plan.
