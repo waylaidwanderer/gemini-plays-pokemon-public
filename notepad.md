@@ -34,8 +34,8 @@
   - Currently checking North Wall (Row 9) for hidden passages.
   - DISCOVERY: Fake Wall at (10, 9) leads to HIDDEN OFFICE.
   - Defeated Rocket Executive at (8, 4).
-  - Murkrow is in this room.
-  - Target: Talk to Murkrow for Password.
+  - Murkrow Password: "HAIL GIOVANNI".
+  - Next: Check Statue (12, 1) then Boss Door.
   - Warp Tile at (5, 15) -> (25, 2) (Entrance/Shop Exit).
   - Grunt at (2, 4): "Don't know where traps are" (Useless).
   - Grunt at (9, 3) is non-interactive/blocking path North.
