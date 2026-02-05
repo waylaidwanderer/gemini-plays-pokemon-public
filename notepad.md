@@ -52,9 +52,11 @@
    - Next: Interact with Computer at (19, 11).
    - Then: Explore Hidden Path at (19, 8) or (26, 5) to North East area.
 3. **Statue Alarms**: Last resort.
-## Cleared/Inert Statues (B1F)
-- West Room: (6, 6), (6, 13), (6, 14) [Inert]. (6, 1) [Checking Now].
-- East Room: (24, 1), (24, 5), (24, 6) [Alarm], (22, 14) [Inert/Already Hit?].
+## Cleared/Inert Statues & Computers (B1F)
+- West Room Statues: (6, 6), (6, 13), (6, 14) [Inert]. (6, 1) [Checked-Inert].
+- Hidden Office: (12, 1) [Bookshelf-Oath], (10, 1) [Computer-Oath].
+- Checking Now: (11, 1), (13, 1), (14, 1).
+- East Room Statues: (24, 1), (24, 5), (24, 6) [Alarm], (22, 14) [Inert].
 
 ## Investigation Status
 - **Switch Mystery**: Computer says "Switch is OFF".
