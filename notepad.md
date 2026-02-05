@@ -84,3 +84,6 @@
 - **Goal**: Check Stairs at (3, 6) and (3, 2).
 - Lore: Scientist Mitch mentions "turning up the power of our radio" (likely the signal controlling Gyarados).
 - Lore: Mitch confirms the plan is to broadcast the signal nationwide.
+- **Navigation Update**: Verified path from East to West.
+  - Route: South to Row 14 -> West to Col 16 -> North to Gap (15, 13) -> West to Col 14 -> South to Row 16 -> West to Col 3 -> North to Row 10.
+  - Avoids traps in Central Row 11 and Shutter walls.
