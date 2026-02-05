@@ -63,9 +63,10 @@
   - Fact: Activated switch at (22, 14).
   - Action: Find SECOND switch. Check all statues again or look for hidden wall switches.
 - **Missing Stairs**: Stairs at (27, 14) B1F EXIST and lead to (27, 14) B2F.
-- **Grunt at (25, 13)**: Useless. Says "I don't know the password."
-- **Current Location**: B2F SE Corner (26, 13).
-- **Immediate Goal**: Reach Murkrow at (22, 9). Navigating to (21, 11).
+- **Computer (26, 10)**: Checked. INERT.
+- **B2F East Room**: Divided into North and South by wall at Row 10.
+- **Route Correction**: Cannot reach Murkrow (22, 9) from here (East).
+- **Plan**: Return to B1F via SE stairs (27, 14). Navigate to NW stairs (3, 2) to access Murkrow area.
 - **CRITICAL DISCOVERY**: Row 9 in Central Corridor (Cols 6-15) is a SOLID WALL. This separates the North Central area (with Statue at 12,1) from the South Central area (Row 10).
 - **Consequence**: I am trapped in the Upper West Room + Row 10 Corridor loop.
 - **North Strip (Row 1-3)**: Verified clear. No statue at (12, 1).
