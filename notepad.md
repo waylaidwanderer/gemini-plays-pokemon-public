@@ -4,10 +4,15 @@
 - **3_50**: B2F (Boss Room, Murkrow, Silver).
 
 ## Current Status
-- **Location**: B2F South East Corner (27, 14).
-- **Status**: Accidentally took stairs from B1F.
-- **Action**: Returning to B1F immediately.
-- **Plan**: Navigate to NW Stairs (3, 2) on B1F to access Murkrow area.
+- **Location**: B1F South East Room (27, 14).
+- **Goal**: Navigate to North West Stairs (3, 2).
+- **Immediate Path**: Loop South to Row 16 -> West to Col 16 -> North to Gap (15, 13).
+- **Reasoning**: Bypassing Grunt at (24, 14) and locked shutters.
+
+## Exploration Findings
+- **B2F NE**: Dead end.
+- **B2F SE**: Connected to B1F SE.
+- **B1F Central**: Gap at (15, 13) is the choke point.
 
 ## Key Information
 - **Passwords**:
