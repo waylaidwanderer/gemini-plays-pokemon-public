@@ -23,10 +23,10 @@
   - Grunt at (2, 4): "Don't know where traps are" (Useless).
   - Grunt at (9, 3) is non-interactive/blocking path North.
 - **B2F**:
-  - Accessed via stairs at (3, 14).
-  - NOTE: Confirmed NO STAIRS at (27, 14) or (3, 2). Access to B2F is ONLY via stairs at (3, 14).
+  - Accessed via stairs at (3, 14) (South), (27, 14) (SE), (27, 2) (NE), (3, 2) (NW).
+  - (3, 2) Stairs: Leads to isolated NW room on B2F (Connects to (3, 6)?).
+  - Murkrow Location: B2F (7, 1) (Requires access from East side, likely via (27, 2) stairs).
   - West Corridor is isolated/dead-end.
-  - Need to access Central/North area (Murkrow location).
 
 ## Action Plan
 1. **West Room Statues**: Checked (6, 6) and (6, 13) - Nothing.
