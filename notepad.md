@@ -6,7 +6,13 @@
 ## Objectives
 - **Primary**: Find Murkrow (B2F Middle) for Boss Door password.
 - **Secondary**: Find switch to disable alarms/shutters (likely in West Room computers or hidden corner).
-- **Hypothesis**: "SlowpokeTail" password usage? Hidden switch in West Room?
+- **Passwords**:
+  - "RATICATE TAIL" (Confirmed).
+  - "SLOWPOKETAIL" (Confirmed from Grunt at B1F 21,8).
+  - Boss Door requires BOTH.
+- **B2F Navigation**:
+  - Locked Door at B2F (3, 8) blocks path between NW (Stairs 3, 6) and SW (Stairs 3, 14).
+  - Goal: Open this door OR find way to B1F South West (Stairs 3, 14) from B1F.
 - **Strategy**:
   - Cross to South via Secret Passage at (19, 10) / (19, 11).
   - Reach East Room and Stairs (27, 2).
