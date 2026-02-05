@@ -12,10 +12,10 @@
   - "HAIL GIOVANNI" (Confirmed from Murkrow).
   - Boss Door requires TWO.
 - **Escape Plan**:
-  1. Status: Bookshelf at (14, 1) is a text trap (Oath).
-  2. Action: Check remaining computers at (13, 1) and (11, 1).
-  3. Then: Sweep Hidden Office floor and West Room (North) for Warp Trap.
-  4. Goal: Return to Entrance to flank via East Room.
+  1. Status: (14, 1) is a FAKE BOOKSHELF (Walkable). Priority target.
+  2. Action: Inspect Computer (11, 1), then enter (14, 1).
+  3. Expectation: Hidden switch or warp behind (14, 1).
+  4. Goal: Disable security or find path to B2F Murkrow.
 - **Strategy**:
   - Cross to South via Secret Passage at (19, 10) / (19, 11).
   - Reach East Room and Stairs (27, 2).
