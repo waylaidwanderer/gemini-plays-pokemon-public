@@ -6,8 +6,9 @@
 ## Current Status
 - **Location**: B1F South East Room (27, 14).
 - **Goal**: Navigate to North West Stairs (3, 2).
-- **Immediate Path**: Loop South to Row 16 -> West to Col 16 -> North to Gap (15, 13).
-- **Reasoning**: Bypassing Grunt at (24, 14) and locked shutters.
+- **Immediate Path**: Check Shutter at (15, 10). If locked, Defeat Scientist Mitch (11, 15).
+- **Reasoning**: Shutter (14, 11) was locked. Checking the adjacent one. If both locked, Mitch is the only remaining lead in this sector.
+- **Hypothesis**: Defeating Mitch might disable security or provide a key/password.
 
 ## Exploration Findings
 - **B2F NE**: Dead end.
