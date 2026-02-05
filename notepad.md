@@ -27,18 +27,13 @@
   - Computer at (19, 11) is a display ("Switch is OFF").
 - **West Room**:
   - Split into North (Rows 2-10) and South (Rows 12-16) by Wall at Row 11.
-  - Currently in North Part.
-  - Access to South Part likely via B2F (3, 6) -> B2F (3, 14) connection?
-  - Gap at (6, 10) connects North West Room to Central Corridor (Dead End?).
-  - Shutters at (15, 10) and (14, 11) are LOCKED/INERT (No interaction).
-  - Currently checking North Wall (Row 9) for hidden passages.
-  - DISCOVERY: Fake Wall at (10, 9) leads to HIDDEN OFFICE.
-  - Defeated Rocket Executive at (8, 4).
-  - Murkrow Password: "HAIL GIOVANNI".
-  - Next: Check Statue (12, 1) then Boss Door.
-  - Warp Tile at (5, 15) -> (25, 2) (Entrance/Shop Exit).
-  - Grunt at (2, 4): "Don't know where traps are" (Useless).
-  - Grunt at (9, 3) is non-interactive/blocking path North.
+  - Access to Hidden Office via Fake Wall at (10, 9).
+  - **Hidden Office**:
+    - Murkrow (Password: "HAIL GIOVANNI").
+    - Rocket Executive (Defeated).
+    - Bookshelf at (12, 1) contains "Oath".
+  - Gap at (6, 10) connects North West Room to Central Corridor.
+  - Shutters at (15, 10) and (14, 11) are LOCKED.
 - **B2F Navigation Analysis**:
   - **East Strip (Cols 24+)**: Open up to Row 11. Row 10 blocked by Wall/Computers.
   - **Middle Area (Cols 7-23)**: Open at Row 15/16. Blocked at Row 12 (Solid Wall).
