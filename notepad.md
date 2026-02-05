@@ -4,18 +4,20 @@
 - **3_50**: B2F (Boss Room, Murkrow, Silver).
 
 ## Objectives
-- **Primary**: Find Murkrow (B2F Middle) for Boss Door password.
-- **Secondary**: Find switch to disable alarms/shutters (likely in West Room computers or hidden corner).
+- **Primary**: Explore B2F West via Stairs at (3, 2) to reach Central Murkrow.
+- **Secondary**: Find switch to disable alarms/shutters (check B2F West).
+- **Boss Door Status**: Failed ("Too bad for you").
+  - Suspect: Need B2F Murkrow interaction or Switch activation.
 - **Passwords**:
   - "RATICATE TAIL" (Confirmed).
-  - "SLOWPOKETAIL" (Possible).
-  - "HAIL GIOVANNI" (Confirmed from Murkrow).
-  - Boss Door requires TWO. We have them!
-- **Boss Door Infiltration**:
-  1. Status: Obtained "RATICATE TAIL" from Grunt at (21, 7).
-  2. Action: Return to Boss Door at B2F (23, 14) via stairs at (27, 14).
-  3. Passwords: "RATICATE TAIL" (Confirmed), "HAIL GIOVANNI" (Confirmed).
-  4. Contingency: If door still fails, check "Switch is OFF" computer at (19, 11).
+  - "HAIL GIOVANNI" (Confirmed).
+
+## Action Plan
+1. **Navigate to B1F NW Stairs (3, 2)**:
+   - Route: SE Room -> Hidden Passage (19, 10) -> North Hall -> West to (3, 2).
+2. **Explore B2F West**:
+   - Look for access to Central Area (Murkrow).
+   - Look for "ON/OFF" switch for security.
 
 ## Key Locations & Findings
 - **East Room**:
