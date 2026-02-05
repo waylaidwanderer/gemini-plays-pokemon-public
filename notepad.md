@@ -24,7 +24,7 @@
   - Grunt at (9, 3) is non-interactive/blocking path North.
 - **B2F**:
   - Accessed via stairs at (3, 14).
-  - NOTE: Summary claims stairs at (27, 14), but visual confirmation proves this is FALSE (empty floor).
+  - NOTE: Confirmed NO STAIRS at (27, 14) or (3, 2). Access to B2F is ONLY via stairs at (3, 14).
   - West Corridor is isolated/dead-end.
   - Need to access Central/North area (Murkrow location).
 
