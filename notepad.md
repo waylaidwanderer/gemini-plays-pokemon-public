@@ -11,12 +11,11 @@
   - "SLOWPOKETAIL" (Possible).
   - "HAIL GIOVANNI" (Confirmed from Murkrow).
   - Boss Door requires TWO. We have them!
-- **Infiltration Plan (Boss Door)**:
-  1. Status: At B1F NE (27, 2).
-  2. Action: Head South to (27, 14). XML confirms stairs (TYPE_8564).
-  3. Goal: Reach B2F South-East.
-  4. Then: Navigate West on B2F to the Boss Door.
-  - If blocked, check Persian Statue at (12, 1) or Computers in North area.
+- **Boss Door Infiltration**:
+  1. Status: Standing at Boss Door (23, 14).
+  2. Passwords: "RATICATE TAIL", "HAIL GIOVANNI".
+  3. Action: Open Door and confront Rocket Executive.
+  4. Note: Silver is visible past the door at (21, 14). Be ready for a fight.
 
 ## Key Locations & Findings
 - **East Room**:
