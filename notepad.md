@@ -30,6 +30,8 @@
   - Currently in North Part.
   - Access to South Part likely via B2F (3, 6) -> B2F (3, 14) connection?
   - Gap at (6, 10) connects North West Room to Central Corridor (Dead End?).
+  - Shutters at (15, 10) and (14, 11) are LOCKED/INERT (No interaction).
+  - Currently checking North Wall (Row 9) for hidden passages.
   - Warp Tile at (5, 15) -> (25, 2) (Entrance/Shop Exit).
   - Grunt at (2, 4): "Don't know where traps are" (Useless).
   - Grunt at (9, 3) is non-interactive/blocking path North.
