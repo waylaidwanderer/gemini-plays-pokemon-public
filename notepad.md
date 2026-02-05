@@ -52,10 +52,6 @@
 - **Next Action**: Investigating potential "Warp Trap" at (2, 11) in SW Room. It might jump the wall to the NW section.
 - **Blockage Alert**: Tile (4, 15) appears impassable.
 - **Route Adjustment**: To access the right side of the room (Cols 6-8), use the upper path via Row 12 or lower via Row 16.
-- **Correction**: "Warp Trap" in Col 1 was confirmed as input consumption from text boxes.
-- **Navigation Plan**: Explore narrow corridor (Col 1) for hidden items/switches. Then re-check Scientist Mitch or Computers.
-- **Discovery**: Row 1 on B2F is a continuous corridor connecting the NE Room to the NW Room! I can bypass the internal walls by walking along the top edge.
-- **Goal Update**: Navigate West along Row 1 to reach the stairs at (3, 2) which likely lead to the inaccessible B1F NW area.
-- **Observation**: B2F (3, 6) stairs lead to a small room with a Locked Door at (3, 8). Dead end for now.
-- **Correction**: Previous navigation failed because I treated walls (`TYPE_2889`) as walkable. Retrying with strict pathing.
-- **Hypothesis**: The "Trapped" status in SE corner might be false; just bad navigation inputs. Attempting to walk West to (15, 13).
+- **B2F Navigation**: Row 1 is a continuous corridor connecting NE and NW rooms.
+- **B2F NW**: Stairs at (3, 6) lead to a Locked Door at (3, 8).
+- **Navigation Status**: Attempting to pass Shutter at (15, 11). If locked, will return to B1F NE via B2F Stairs at (27, 2).
