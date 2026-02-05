@@ -77,12 +77,7 @@
     3. Find way North to Murkrow (22, 9).
 - DISCOVERY: Tile (14, 1) is visually a Bookshelf but logically TYPE_3fe2 (Walkable). Potential Hidden Passage!
 ## Current Status
-- **Correction**: No stairs at (3, 14). Likely confused with (3, 2).
-- **New Strategy**: Bypass locked shutters via East Side Hidden Path.
-- **Path**:
-  1. Exit SW Room via (15, 13).
-  2. Go to East Corridor (Col 19).
-  3. Go North through Hidden Passage at (19, 10) to reach North East Area.
-  4. Cross West to Gap at (6, 10) to enter NW Room.
-  5. Reach Stairs at (3, 2).
-- **Lore**: Mitch confirmed nationwide broadcast plan.
+- **Location**: B1F West Room (8, 15).
+- **Objective**: Navigate to East Room via Gap at (15, 13).
+- **Plan**: Bypass Scientist Mitch (11, 15) via Row 16. Then head to Hidden Passage at (19, 10).
+- **Correction**: No stairs at (3, 14). Confirmed.
