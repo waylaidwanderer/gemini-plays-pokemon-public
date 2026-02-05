@@ -59,12 +59,8 @@
 - **CRITICAL DISCOVERY**: Row 9 in Central Corridor (Cols 6-15) is a SOLID WALL. This separates the North Central area (with Statue at 12,1) from the South Central area (Row 10).
 - **Consequence**: I am trapped in the Upper West Room + Row 10 Corridor loop.
 - **Murkrow Access Plan**:
-  - **Current**: At B1F NE Stairs (27, 2).
-  - **Next Step**: Descend to B2F NE.
-  - **B2F Strategy**:
-    1. Navigate West from B2F (27, 2) along Row 1/2.
-    2. Reach Murkrow at (22, 9).
-    3. Chase Murkrow if it flees.
-  - **Backup**: If path blocked, re-evaluate "Switch is OFF" computer at B1F (19, 11).
-- **FOUND IT**: There is a visible gap in the computer row at B2F (24, 2)! This is the way in!
-- **Plan**: Enter via (24, 2) and head towards Murkrow at (22, 9).
+  - **SUCCESS**: Found gap in computers at B2F (24, 2).
+  - **Current**: Inside the East/Central perimeter.
+  - **Goal**: Corner Murkrow at (22, 9).
+  - **Next**: Chase Murkrow to the password door or wherever it flies.
+  - **Note**: The "Switch is OFF" computer might still be relevant for the generator/shutter later.
