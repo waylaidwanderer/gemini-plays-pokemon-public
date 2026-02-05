@@ -57,9 +57,9 @@
 - **Consequence**: I am trapped in the Upper West Room + Row 10 Corridor loop.
 - **Escape Plan**:
   1. **B2F NW Room (Stairs 3,6)**:
-     - Check for hidden switches on walls.
+     - **CRITICAL**: Test Ledge at (3, 4) (South of Grunt). Looks jumpable.
+     - Check for hidden switches on walls using scanner.
      - Re-examine the "Locked Door" at (3, 8).
-     - Check if Ledge at (3, 4) is passable/interactive.
   2. **B1F West Room**:
      - Re-check Row 11 Wall.
      - Check Grunt at (9, 3) (Blocking path?).
