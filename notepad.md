@@ -54,3 +54,5 @@
 - **Route Adjustment**: To access the right side of the room (Cols 6-8), use the upper path via Row 12 or lower via Row 16.
 - **Correction**: "Warp Trap" in Col 1 was confirmed as input consumption from text boxes.
 - **Navigation Plan**: Explore narrow corridor (Col 1) for hidden items/switches. Then re-check Scientist Mitch or Computers.
+- **Discovery**: Row 1 on B2F is a continuous corridor connecting the NE Room to the NW Room! I can bypass the internal walls by walking along the top edge.
+- **Goal Update**: Navigate West along Row 1 to reach the stairs at (3, 2) which likely lead to the inaccessible B1F NW area.
