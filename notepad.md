@@ -60,9 +60,8 @@
 - **Consequence**: I am trapped in the Upper West Room + Row 10 Corridor loop.
 - **North Strip (Row 1-3)**: Verified clear. No statue at (12, 1).
 - **Murkrow Access Plan (South Loop)**:
-  - **Status**: North B2F route (via 27, 2) was blocked from reaching Central Area.
-  - **New Path**:
-    1. B1F: Go South from (27, 2) to Stairs at (27, 14). (CURRENT)
-    2. B2F: Enter via (27, 14).
-    3. B2F: Go West along Row 15/16.
-    4. B2F: Find way North to Murkrow (22, 9).
+  - **Status**: At B1F (27, 14). Preparing to descend to B2F SE.
+  - **Path**:
+    1. Descend Stairs at (27, 14) to B2F.
+    2. Go West along Row 15/16.
+    3. Find way North to Murkrow (22, 9).
