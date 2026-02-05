@@ -79,7 +79,8 @@
 - DISCOVERY: Tile (14, 1) is visually a Bookshelf but logically TYPE_3fe2 (Walkable). Potential Hidden Passage!
 ## Current Status (Turn 29125)
 - **Location**: B1F West Room (12, 15).
-- **Action**: Bypassing Scientist Mitch (11, 15) via south path (Row 16).
-- **Goal**: Check Computer at (10, 15).
+- **Discovery**: Tile (10, 15) is visually a computer but logically TYPE_3fe2 (Walkable).
+- **Hypothesis**: It is a hidden passage or concealable switch.
+- **Action**: Moving to inspect/enter (10, 15).
 - Lore: Scientist Mitch mentions "turning up the power of our radio" (likely the signal controlling Gyarados).
 - Lore: Mitch confirms the plan is to broadcast the signal nationwide.
