@@ -1,4 +1,8 @@
 # Team Rocket HQ (Mahogany Town)
+## Map IDs
+- **3_51**: B1F (Upper/Lower West, East Room).
+- **3_50**: B2F (Boss Room, Murkrow, Silver).
+
 ## Objectives
 - **Primary**: Find Murkrow (B2F Middle) for Boss Door password.
 - **Secondary**: Find switch to disable alarms/shutters (likely in West Room computers or hidden corner).
