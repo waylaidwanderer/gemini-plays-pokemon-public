@@ -4,14 +4,10 @@
 - **3_50**: B2F (Boss Room, Murkrow, Silver).
 
 ## Current Status
-- **Location**: B2F North East Room (26, 5).
-- **Status**: Confirmed Dead End. Walls and inert computers block progress.
-- **Action**: Returning to B1F.
-- **New Route**:
-  1. B1F NE Room -> South to East Room.
-  2. Loop South (Row 14/15) to Central Corridor Gap (15, 13).
-  3. Go West to Gap (6, 10).
-  4. Enter NW Room -> Stairs (3, 2).
+- **Location**: B2F South East Corner (27, 14).
+- **Status**: Accidentally took stairs from B1F.
+- **Action**: Returning to B1F immediately.
+- **Plan**: Navigate to NW Stairs (3, 2) on B1F to access Murkrow area.
 
 ## Key Information
 - **Passwords**:
