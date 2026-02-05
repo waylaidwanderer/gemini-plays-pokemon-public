@@ -34,13 +34,14 @@
     - Bookshelf at (12, 1) contains "Oath".
   - Gap at (6, 10) connects North West Room to Central Corridor.
   - Shutters at (15, 10) and (14, 11) are LOCKED.
-- **B2F Navigation Analysis**:
-  - **East Strip (Cols 24+)**: Open up to Row 11. Row 10 blocked by Wall/Computers.
-  - **Middle Area (Cols 7-23)**: Open at Row 15/16. Blocked at Row 12 (Solid Wall).
-  - **West Area (Cols 1-6)**: Isolated by Wall at Col 6.
-  - **Problem**: Row 12 blocks Middle approach. Row 10 blocks East approach. Wall at (23, 11) prevents switching lanes between Row 10/12.
-  - **Hypothesis**: Secret passage in Row 10 East (Computer?), or Door at (20, 10)/(21, 10) opens from North?
-  - **Action**: Check Row 10 East for hidden path. If failed, check B1F Warps again.
+- **B1F Navigation Analysis**:
+  - **North East Strip (Cols 7-28, Rows 1-3)**: ISOLATED from West by Wall at Col 6.
+  - **Connection**: Must use Gap at (6, 10) to cross between East/Central and West.
+  - **Route to Stairs (3, 2)**: 
+    1. Go South from NE corner to Row 12 (Safe form Traps).
+    2. Go West to Col 6.
+    3. Go North through Gap at (6, 10).
+    4. Go North to Stairs (3, 2).
 
 ## Action Plan
 1. **West Room Statues**: Checked (6, 6) and (6, 13) - Nothing.
