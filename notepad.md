@@ -10,12 +10,12 @@
   - "RATICATE TAIL" (Confirmed).
   - "SLOWPOKETAIL" (Possible).
   - "HAIL GIOVANNI" (Confirmed from Murkrow).
-  - Boss Door requires TWO.
+  - Boss Door requires TWO. We have them!
 - **Escape Plan**:
   1. Status: (14, 1) is a FAKE BOOKSHELF (Walkable). Priority target.
-  2. Action: Inspect Computer (11, 1), then enter (14, 1).
-  3. Expectation: Hidden switch or warp behind (14, 1).
-  4. Goal: Disable security or find path to B2F Murkrow.
+  2. Action: Go to (14, 1) and inspect/walk into it.
+  3. Expectation: Hidden switch or warp.
+  4. Next: Go to B2F Boss Door (via stairs at 3,2 or 27,2).
 - **Strategy**:
   - Cross to South via Secret Passage at (19, 10) / (19, 11).
   - Reach East Room and Stairs (27, 2).
