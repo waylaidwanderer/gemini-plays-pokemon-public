@@ -50,3 +50,5 @@
   4. Is there a warp in the NE room I missed?
 - **Mitch Status**: Passive/Lore only? No battle trigger yet.
 - **Next Action**: Investigating potential "Warp Trap" at (2, 11) in SW Room. It might jump the wall to the NW section.
+- **Blockage Alert**: Tile (4, 15) appears impassable despite being `TYPE_3fe2`. Movement Down from (4, 14) failed multiple times.
+- **Route Adjustment**: To access the right side of the room (Cols 6-8), use the upper path via Row 12 (Left -> Up -> Up -> Right).
