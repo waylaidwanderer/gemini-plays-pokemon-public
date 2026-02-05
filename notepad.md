@@ -12,11 +12,10 @@
   - "HAIL GIOVANNI" (Confirmed from Murkrow).
   - Boss Door requires TWO. We have them!
 - **Boss Door Infiltration**:
-  1. Status: At (24, 14). Door at (23, 14) says "Too bad for you." (Access Denied).
-  2. Action: Try bottom door tile (23, 15).
-  3. Contingency: If that fails, assume "RATICATE TAIL" flag is missing.
-  4. Plan B: Return to B1F and speak to Defeated Grunt at (4, 1).
-  5. Passwords: "RATICATE TAIL" (Need to Re-Confirm?), "HAIL GIOVANNI" (Confirmed).
+  1. Status: Obtained "RATICATE TAIL" from Grunt at (21, 7).
+  2. Action: Return to Boss Door at B2F (23, 14) via stairs at (27, 14).
+  3. Passwords: "RATICATE TAIL" (Confirmed), "HAIL GIOVANNI" (Confirmed).
+  4. Contingency: If door still fails, check "Switch is OFF" computer at (19, 11).
 
 ## Key Locations & Findings
 - **East Room**:
