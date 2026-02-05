@@ -455,5 +455,29 @@
         "action_counter": 25847
       }
     ]
+  },
+  "find_all_interactables": {
+    "description": "Parses the Mental Map XML to find and list all tiles of specific interactive types (e.g., Signs, Doors, Statues, PCs) on the current map. Returns a list of coordinates and details.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "target_types": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "List of tile types to search for (e.g., ['TYPE_1fdc', 'TYPE_63e2']). Optional, defaults to common interactables."
+        }
+      },
+      "required": []
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\ndef main(input_data):\n    try:\n        # Default types if not provided\n        target_types = input_data.get('target_types', [\n            \"TYPE_1fdc\", # Signs, Statues\n            \"TYPE_63e2\", # Doors, Shutters\n            \"TYPE_5e20\", # PCs, TVs\n            \"TYPE_903e\", # Item Balls\n            \"TYPE_8564\"  # Stairs/Warps\n        ])\n        \n        root = ET.fromstring(map_xml_string)\n        map_id = root.get(\"id\")\n        results = []\n        \n        for row in root.findall(\"Row\"):\n            y = int(row.get(\"id\"))\n            for tile in row.findall(\"Tile\"):\n                x = int(tile.get(\"id\"))\n                tile_type = tile.get(\"type\")\n                \n                # Check if matches target type OR has a marker\n                has_marker = len(tile.findall(\"Marker\")) > 0\n                \n                if tile_type in target_types or has_marker:\n                    details = {\"x\": x, \"y\": y, \"type\": tile_type}\n                    \n                    # Add marker info\n                    markers = []\n                    for m in tile.findall(\"Marker\"):\n                        label = m.text\n                        emoji = m.get(\"emoji\")\n                        # Strip ascii issues\n                        safe_label = label.encode('ascii', 'ignore').decode('ascii')\n                        markers.append(f\"[{emoji}] {safe_label}\")\n                    \n                    if markers:\n                        details[\"markers\"] = markers\n                        \n                    results.append(details)\n        \n        print(json.dumps({\"map_id\": map_id, \"interactables\": results}))\n            \n    except Exception as e:\n        print(json.dumps({\"error\": str(e)}))\n\nmain(input_data)",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-02-05T02:59:33.480Z",
+        "action_counter": 28717
+      }
+    ]
   }
 }
