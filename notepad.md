@@ -62,11 +62,9 @@
   - Possibility B: "Switch is OFF" means the security is active (bad state).
   - Fact: Activated switch at (22, 14).
   - Action: Find SECOND switch. Check all statues again or look for hidden wall switches.
-- **Missing Stairs**: Summary said (27, 14) had stairs. It was empty.
-- **Action**: Check Computer (19, 11). Then use Python to find ALL warps/stairs on map.
-  - Code Analysis: Stairs ONLY at (27, 2) [Exit] and (3, 14) [West].
-  - Conclusion: Access to rest of base MUST be via (3, 14) or a specific Warp.
-  - Action: Re-explore B2F West Corridor carefully. Look for hidden doors or switches.
+- **Missing Stairs**: Stairs at (27, 14) B1F EXIST and lead to (27, 14) B2F.
+- **Current Location**: B2F SE Corner (27, 14).
+- **Immediate Goal**: Defeat Grunt at (25, 13), then check Murkrow at (22, 9).
 - **CRITICAL DISCOVERY**: Row 9 in Central Corridor (Cols 6-15) is a SOLID WALL. This separates the North Central area (with Statue at 12,1) from the South Central area (Row 10).
 - **Consequence**: I am trapped in the Upper West Room + Row 10 Corridor loop.
 - **North Strip (Row 1-3)**: Verified clear. No statue at (12, 1).
