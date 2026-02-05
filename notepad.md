@@ -12,10 +12,9 @@
   - "HAIL GIOVANNI" (Confirmed from Murkrow).
   - Boss Door requires TWO.
 - **B2F Navigation**:
-  - Stuck in North Loop (West Room North + Central Corridor).
-  - Need to reach South Loop (West Room South + East Room).
-  - Shutters at (15, 10) and (14, 11) remain LOCKED.
-  - Action: Check 'Trap?' at (2, 11) or finding passage in Row 11 Wall.
+  - West Room path is a DEAD END (Locked Door/Shutters).
+  - PLAN: Use Warp at (5, 15) to return to Entrance.
+  - Then: Access Boss Door via East Room -> B2F East.
 - **Strategy**:
   - Cross to South via Secret Passage at (19, 10) / (19, 11).
   - Reach East Room and Stairs (27, 2).
