@@ -78,3 +78,4 @@
     1. Descend Stairs at (27, 14) to B2F.
     2. Go West along Row 15/16.
     3. Find way North to Murkrow (22, 9).
+- DISCOVERY: Tile (14, 1) is visually a Bookshelf but logically TYPE_3fe2 (Walkable). Potential Hidden Passage!
