@@ -77,7 +77,12 @@
     3. Find way North to Murkrow (22, 9).
 - DISCOVERY: Tile (14, 1) is visually a Bookshelf but logically TYPE_3fe2 (Walkable). Potential Hidden Passage!
 ## Current Status
-- **Location**: B1F West Room (6, 14).
-- **Objective**: Check (3, 14) for hidden stairs.
-- **Path**: Bypassing Grunt at (5, 14) via Row 15 to avoid battle/dialogue.
+- **Correction**: No stairs at (3, 14). Likely confused with (3, 2).
+- **New Strategy**: Bypass locked shutters via East Side Hidden Path.
+- **Path**:
+  1. Exit SW Room via (15, 13).
+  2. Go to East Corridor (Col 19).
+  3. Go North through Hidden Passage at (19, 10) to reach North East Area.
+  4. Cross West to Gap at (6, 10) to enter NW Room.
+  5. Reach Stairs at (3, 2).
 - **Lore**: Mitch confirmed nationwide broadcast plan.
