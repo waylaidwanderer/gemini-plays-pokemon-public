@@ -48,3 +48,5 @@
   2. Hidden switch in NE Room (accessible via 19, 10)?
   3. Re-examine "Statue" at (12, 1) in NW room (if accessible).
   4. Is there a warp in the NE room I missed?
+- **Mitch Status**: Passive/Lore only? No battle trigger yet.
+- **Next Action**: Investigating potential "Warp Trap" at (2, 11) in SW Room. It might jump the wall to the NW section.
