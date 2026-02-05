@@ -53,3 +53,9 @@
   - Code Analysis: Stairs ONLY at (27, 2) [Exit] and (3, 14) [West].
   - Conclusion: Access to rest of base MUST be via (3, 14) or a specific Warp.
   - Action: Re-explore B2F West Corridor carefully. Look for hidden doors or switches.
+- **CRITICAL DISCOVERY**: Row 9 in Central Corridor (Cols 6-15) is a SOLID WALL. This separates the North Central area (with Statue at 12,1) from the South Central area (Row 10).
+- **Consequence**: I am trapped in the Upper West Room + Row 10 Corridor loop.
+- **Escape Plan**:
+  1. Check Row 9 Wall for hidden switches (esp. at 12,9).
+  2. Search for a Warp Trap in Upper West Room to teleport to East Room.
+  3. Re-verify "Locked Door" in B2F West.
