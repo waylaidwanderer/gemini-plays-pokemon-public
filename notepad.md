@@ -4,12 +4,14 @@
 - **3_50**: B2F (Boss Room, Murkrow, Silver).
 
 ## Current Status
-- **Location**: B2F North East Room (24, 4).
-- **Situation**: Seemingly isolated room. Wall of computers at Col 23 separates me from the Grunt at (22, 5).
-- **Objectives**:
-  1. Determine if this room has a hidden exit (West or South).
-  2. If trapped, return to B1F and find the correct path to the West.
-  3. Reach Murkrow at (22, 9).
+- **Location**: B2F North East Room (26, 5).
+- **Status**: Confirmed Dead End. Walls and inert computers block progress.
+- **Action**: Returning to B1F.
+- **New Route**:
+  1. B1F NE Room -> South to East Room.
+  2. Loop South (Row 14/15) to Central Corridor Gap (15, 13).
+  3. Go West to Gap (6, 10).
+  4. Enter NW Room -> Stairs (3, 2).
 
 ## Key Information
 - **Passwords**:
