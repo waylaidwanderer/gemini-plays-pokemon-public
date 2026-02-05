@@ -12,10 +12,10 @@
   - "HAIL GIOVANNI" (Confirmed from Murkrow).
   - Boss Door requires TWO.
 - **Escape Plan**:
-  1. Investigate East Wall of Hidden Office (Row 3, Col 15).
-  2. Hypothesis: Fake Wall connecting to "Passage to East" at (18, 3).
-  3. If successful, reach East Room -> B2F NE -> Boss Door.
-  4. If failed, exhaustive search for Warp Trap in Hidden Office.
+  1. Target: Fake Bookshelf at (14, 1) (Confirmed Walkable).
+  2. Action: Enter hidden passage at (14, 1).
+  3. Goal: Reach East Room -> B2F NE -> Boss Door.
+  4. Contingency: Exhaustive search for Warp Trap if (14, 1) fails.
 - **Strategy**:
   - Cross to South via Secret Passage at (19, 10) / (19, 11).
   - Reach East Room and Stairs (27, 2).
