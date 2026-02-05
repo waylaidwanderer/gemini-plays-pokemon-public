@@ -60,8 +60,9 @@
 - **Consequence**: I am trapped in the Upper West Room + Row 10 Corridor loop.
 - **North Strip (Row 1-3)**: Verified clear. No statue at (12, 1).
 - **Murkrow Access Plan**:
-  - **SUCCESS**: Found gap in computers at B2F (24, 2).
-  - **Current**: At North West end (12, 1). Heading back to gap.
-  - **Goal**: Corner Murkrow at (22, 9).
-  - **Next**: Chase Murkrow to the password door or wherever it flies.
-  - **Note**: The "Switch is OFF" computer might still be relevant for the generator/shutter later.
+  - **Path**: The gap at (24, 2) leads to Row 1 (North Corridor).
+  - **Strategy**: 
+    1. Go North to Row 1.
+    2. Traverse West along Row 1.
+    3. Look for a gap South into the Central Area (to reach Murkrow/Grunts).
+  - **Current**: Moving to (22, 1).
