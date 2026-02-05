@@ -26,10 +26,13 @@
   - Warp Tile at (5, 15) -> (25, 2) (Entrance/Shop Exit).
   - Grunt at (2, 4): "Don't know where traps are" (Useless).
   - Grunt at (9, 3) is non-interactive/blocking path North.
-- **B2F**:
-  - Accessed via stairs at (3, 14) (South), (27, 14) (SE), (27, 2) (NE), (3, 2) (NW).
-  - **CRITICAL**: West Room connects to East via passage at Row 1 (Cols 5-7). Bypasses the central wall!
-  - Murkrow Location: B2F (22, 9) (NE Section). Reachable via Row 1 passage!
+- **B2F Navigation Analysis**:
+  - **East Strip (Cols 24+)**: Open up to Row 11. Row 10 blocked by Wall/Computers.
+  - **Middle Area (Cols 7-23)**: Open at Row 15/16. Blocked at Row 12 (Solid Wall).
+  - **West Area (Cols 1-6)**: Isolated by Wall at Col 6.
+  - **Problem**: Row 12 blocks Middle approach. Row 10 blocks East approach. Wall at (23, 11) prevents switching lanes between Row 10/12.
+  - **Hypothesis**: Secret passage in Row 10 East (Computer?), or Door at (20, 10)/(21, 10) opens from North?
+  - **Action**: Check Row 10 East for hidden path. If failed, check B1F Warps again.
 
 ## Action Plan
 1. **West Room Statues**: Checked (6, 6) and (6, 13) - Nothing.
