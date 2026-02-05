@@ -20,9 +20,10 @@
   - Posters at (20, 10), (21, 10) are just the "Oath".
   - Computer at (19, 11) is a display ("Switch is OFF").
 - **West Room**:
-  - Isolated by Wall at Column 6 (except via Row 16?).
-  - Persian Statue at (6, 1) is UNCHECKED (Correction: only (6, 6) was checked).
-  - Trap-free path: None verified. Column 5 blocked by wall at Row 11.
+  - Split into North (Rows 2-10) and South (Rows 12-16) by Wall at Row 11.
+  - Currently in North Part.
+  - Access to South Part likely via B2F (3, 6) -> B2F (3, 14) connection?
+  - Gap at (6, 10) connects North West Room to Central Corridor (Dead End?).
   - Warp Tile at (5, 15) -> (25, 2) (Entrance/Shop Exit).
   - Grunt at (2, 4): "Don't know where traps are" (Useless).
   - Grunt at (9, 3) is non-interactive/blocking path North.
