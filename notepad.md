@@ -77,7 +77,7 @@
     3. Find way North to Murkrow (22, 9).
 - DISCOVERY: Tile (14, 1) is visually a Bookshelf but logically TYPE_3fe2 (Walkable). Potential Hidden Passage!
 ## Current Status
-- **Location**: B1F Central Gap (15, 13).
-- **Objective**: Investigate (3, 14) in SW Room for potential stairs to B2F.
-- **Reasoning**: Previous code analysis indicated stairs at (3, 14). Access to NW area likely requires B2F loop.
+- **Location**: B1F West Room (6, 14).
+- **Objective**: Check (3, 14) for hidden stairs.
+- **Path**: Bypassing Grunt at (5, 14) via Row 15 to avoid battle/dialogue.
 - **Lore**: Mitch confirmed nationwide broadcast plan.
