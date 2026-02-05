@@ -32,7 +32,9 @@
   - Gap at (6, 10) connects North West Room to Central Corridor (Dead End?).
   - Shutters at (15, 10) and (14, 11) are LOCKED/INERT (No interaction).
   - Currently checking North Wall (Row 9) for hidden passages.
-  - DISCOVERY: Fake Wall at (10, 9) and (11, 9) allows access to North Central Area.
+  - DISCOVERY: Fake Wall at (10, 9) leads to HIDDEN OFFICE.
+  - Found: Rocket Executive at (8, 4) and Murkrow at (7, 2)/(8, 3).
+  - Status: Engaging Executive. Murkrow likely has the password.
   - Target: Persian Statue at (12, 1) (Likely holds the switch).
   - Warp Tile at (5, 15) -> (25, 2) (Entrance/Shop Exit).
   - Grunt at (2, 4): "Don't know where traps are" (Useless).
