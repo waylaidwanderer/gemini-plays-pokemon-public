@@ -6,8 +6,8 @@
 ## Current Status
 - **Location**: B1F South East Room (27, 14).
 - **Goal**: Navigate to North West Stairs (3, 2).
-- **Immediate Path**: Check Shutter at (15, 10). If locked, Defeat Scientist Mitch (11, 15).
-- **Reasoning**: Shutter (14, 11) was locked. Checking the adjacent one. If both locked, Mitch is the only remaining lead in this sector.
+- **Immediate Path**: Navigate to (3, 12) in SW Room. Check for Warp Tiles or hidden paths.
+- **Reasoning**: Mitch provided no help. Row 11 is a solid wall blocking North. Need to find a way to jump the wall (Warp) or open the Shutters (Switch).
 - **Hypothesis**: Defeating Mitch might disable security or provide a key/password.
 
 ## Exploration Findings
