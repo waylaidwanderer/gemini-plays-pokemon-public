@@ -7,15 +7,19 @@
 - **Primary**: Find Murkrow (B2F Middle) for Boss Door password.
 - **Secondary**: Find switch to disable alarms/shutters (likely in West Room computers or hidden corner).
 - **Hypothesis**: "SlowpokeTail" password usage? Hidden switch in West Room?
-- **Current Situation**: Trapped in NW Corner (B1F/B2F).
-  - B1F NW (Rows 0-10) is isolated from South by wall at Row 11.
-  - B2F NW is isolated (locked door south).
-  - Need to find escape: Hidden switch (Statues? Walls?) or Warp Tile.
-  - Potential Warp: (5, 6) in B1F NW?
-  - Potential Switch: (6, 1) or (6, 6) in B1F NW?
+- **Current Situation**: Exploring Central Corridor (North of Shutters).
+  - Confirmed: Gap at (6, 10) connects West Room and Central Corridor. I am NOT trapped in NW corner.
+  - Blockage: Row 11 is blocked by walls/shutters (14, 11) and (15, 11).
+  - Goal: Open shutters to access South B1F and East Room via (15, 13).
+  - Leads:
+    - Desk at (8, 11).
+    - Persian Statue at (12, 1).
+    - Computers in North area (Row 4/5).
 - **Objectives**:
-  - Escape NW Corner.
-  - Find Murkrow (B2F NE).
+  - Check Desk (8, 11).
+  - Check Statue (12, 1).
+  - Find Switch #2.
+  - Find Murkrow (B2F).
 
 ## Key Locations & Findings
 - **East Room**:
