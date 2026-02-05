@@ -12,10 +12,10 @@
   - "HAIL GIOVANNI" (Confirmed from Murkrow).
   - Boss Door requires TWO.
 - **Escape Plan**:
-  1. Conclusion: Bookshelf at (14, 1) is walkable but leads nowhere (Wall at 15,1).
-  2. New Plan: Systematically sweep Hidden Office (Rows 2-8) for a Warp Trap.
-  3. If no warp found: Retry B1F West Room or explore "Silver Viewing Room" area again.
-  4. Goal: Get back to Entrance to access East side.
+  1. Status: Bookshelf at (14, 1) is a text trap (Oath).
+  2. Action: Check remaining computers at (13, 1) and (11, 1).
+  3. Then: Sweep Hidden Office floor and West Room (North) for Warp Trap.
+  4. Goal: Return to Entrance to flank via East Room.
 - **Strategy**:
   - Cross to South via Secret Passage at (19, 10) / (19, 11).
   - Reach East Room and Stairs (27, 2).
