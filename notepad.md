@@ -12,11 +12,10 @@
   - "HAIL GIOVANNI" (Confirmed from Murkrow).
   - Boss Door requires TWO.
 - **Escape Plan**:
-  1. Exit Hidden Office via Fake Wall (10, 9).
-  2. Use Warp Tile at (5, 15) in West Room.
-  3. Arrive at Entrance (25, 2).
-  4. Walk to East Room -> Stairs (27, 2) -> B2F NE.
-  5. Go to Boss Door with BOTH passwords.
+  1. Investigate East Wall of Hidden Office (Row 3, Col 15).
+  2. Hypothesis: Fake Wall connecting to "Passage to East" at (18, 3).
+  3. If successful, reach East Room -> B2F NE -> Boss Door.
+  4. If failed, exhaustive search for Warp Trap in Hidden Office.
 - **Strategy**:
   - Cross to South via Secret Passage at (19, 10) / (19, 11).
   - Reach East Room and Stairs (27, 2).
