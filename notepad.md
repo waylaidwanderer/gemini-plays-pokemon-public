@@ -41,3 +41,10 @@
   - **Blockages**: Shutter (14, 11) [Locked]. Shutter (15, 10) [To Check].
   - **Dead Ends**: B2F NE (via 27, 2).
   - **Lead**: Scientist Mitch (11, 15) might hold the key.
+- **Observation**: Mitch dialogue repeated. "If we turn up the power...".
+- **Hypothesis**: If no battle triggers, I must find another way.
+- **Checklist**:
+  1. Trap at (2, 11)?
+  2. Hidden switch in NE Room (accessible via 19, 10)?
+  3. Re-examine "Statue" at (12, 1) in NW room (if accessible).
+  4. Is there a warp in the NE room I missed?
