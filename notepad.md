@@ -53,7 +53,7 @@
    - Then: Explore Hidden Path at (19, 8) or (26, 5) to North East area.
 3. **Statue Alarms**: Last resort.
 ## Cleared/Inert Statues (B1F)
-- West Room: (6, 1), (6, 6), (6, 13), (6, 14) [All Checked & Inert].
+- West Room: (6, 6), (6, 13), (6, 14) [Inert]. (6, 1) [Checking Now].
 - East Room: (24, 1), (24, 5), (24, 6) [Alarm], (22, 14) [Inert/Already Hit?].
 
 ## Investigation Status
