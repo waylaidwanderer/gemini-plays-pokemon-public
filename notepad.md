@@ -56,13 +56,10 @@
 - **CRITICAL DISCOVERY**: Row 9 in Central Corridor (Cols 6-15) is a SOLID WALL. This separates the North Central area (with Statue at 12,1) from the South Central area (Row 10).
 - **Consequence**: I am trapped in the Upper West Room + Row 10 Corridor loop.
 - **Escape Plan**:
-  1. **B2F NW Room (Stairs 3,6)**:
-     - **CRITICAL**: Test Ledge at (3, 4) (South of Grunt). Looks jumpable.
-     - Check for hidden switches on walls using scanner.
-     - Re-examine the "Locked Door" at (3, 8).
-  2. **B1F West Room**:
-     - Re-check Row 11 Wall.
-     - Check Grunt at (9, 3) (Blocking path?).
-  3. **Last Resort**: Go all the way back to B1F Entrance via Warp (5, 15) -> (25, 2) and re-explore East Room. (Wait, can I reach (5, 15)? No, blocked by Row 11 wall).
-     - I can reach (5, 15) via stairs (3, 14) if I can open the door at B2F (3, 8).
-     - So KEY is opening B2F (3, 8).
+  1. **B1F North-Central Access**:
+     - **CRITICAL**: Check Grunt at B1F (9, 3). I defeated the Grunt at B2F (4, 1), maybe the B1F one moved?
+     - If path clears, I can reach the Computers (Row 4) and Statue (12, 1).
+  2. **B1F South Access**:
+     - Check barrier at Row 11 near (14, 11) and (15, 11).
+     - Re-scan walls in Central Corridor Row 10.
+  3. **B2F (3, 4)**: Confirmed as Solid Wall (TYPE_2889). Not a ledge.
