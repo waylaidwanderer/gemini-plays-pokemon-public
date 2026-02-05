@@ -479,5 +479,55 @@
         "action_counter": 28717
       }
     ]
+  },
+  "bump_scan_row": {
+    "description": "Moves along a row (left or right) and tries to move perpendicular (up or down) at each step to check for hidden passages.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "start_x": {
+          "type": "integer"
+        },
+        "start_y": {
+          "type": "integer"
+        },
+        "end_x": {
+          "type": "integer"
+        },
+        "direction": {
+          "type": "string",
+          "enum": [
+            "Left",
+            "Right"
+          ]
+        },
+        "check_direction": {
+          "type": "string",
+          "enum": [
+            "Up",
+            "Down"
+          ]
+        },
+        "autopress_buttons": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "start_x",
+        "start_y",
+        "end_x",
+        "direction",
+        "check_direction",
+        "autopress_buttons"
+      ]
+    },
+    "python_script": "\ndef run(input_data):\n    start_x = input_data['start_x']\n    start_y = input_data['start_y']\n    end_x = input_data['end_x']\n    direction = input_data['direction']\n    check_direction = input_data['check_direction']\n    \n    buttons = []\n    \n    # Calculate number of steps\n    if direction == \"Right\":\n        steps = end_x - start_x\n        move_btn = \"Right\"\n    else:\n        steps = start_x - end_x\n        move_btn = \"Left\"\n        \n    if steps < 0:\n        return []\n\n    # Perform the scan\n    for _ in range(steps + 1):\n        # Try to move into the wall\n        buttons.append(check_direction)\n        # Move to next tile\n        if _ < steps:\n            buttons.append(move_btn)\n            \n    print(f'{buttons}')\n",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-02-05T04:01:15.081Z",
+        "action_counter": 28788
+      }
+    ]
   }
 }
