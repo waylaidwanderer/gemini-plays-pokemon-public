@@ -12,10 +12,11 @@
   - "HAIL GIOVANNI" (Confirmed from Murkrow).
   - Boss Door requires TWO. We have them!
 - **Boss Door Infiltration**:
-  1. Status: At (24, 13). Grunt at (25, 13) claims to not know password.
-  2. Action: Move to (24, 14) facing Left and interact with Door at (23, 14).
-  3. Passwords: "RATICATE TAIL", "HAIL GIOVANNI".
-  4. Failure Analysis: Previous move failed due to open text box. Ensure box is closed.
+  1. Status: At (24, 14). Door at (23, 14) says "Too bad for you." (Access Denied).
+  2. Action: Try bottom door tile (23, 15).
+  3. Contingency: If that fails, assume "RATICATE TAIL" flag is missing.
+  4. Plan B: Return to B1F and speak to Defeated Grunt at (4, 1).
+  5. Passwords: "RATICATE TAIL" (Need to Re-Confirm?), "HAIL GIOVANNI" (Confirmed).
 
 ## Key Locations & Findings
 - **East Room**:
