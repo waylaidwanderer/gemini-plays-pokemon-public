@@ -77,7 +77,9 @@
     3. Find way North to Murkrow (22, 9).
 - DISCOVERY: Tile (14, 1) is visually a Bookshelf but logically TYPE_3fe2 (Walkable). Potential Hidden Passage!
 ## Current Status
-- **Location**: B1F Central Corridor (17, 10).
-- **Objective**: Navigate to Hidden Passage at (19, 10) via South Loop (Row 15).
-- **Reasoning**: Wall at Col 18 blocks direct path. Must loop South to enter East Room, then go North.
-- **Goal Path**: (19, 10) -> North East Area -> West to Gap (6, 10) -> Stairs (3, 2).
+- **Location**: B1F North East Room (19, 3).
+- **Navigation**:
+  - West path blocked by Walls at Col 15 and Col 6.
+  - Central North area (Murkrow) is isolated from here.
+  - **New Discovery**: Stairs at (27, 2) are accessible.
+- **Plan**: Take Stairs at (27, 2) to B2F. Expecting connection to West Wing.
