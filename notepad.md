@@ -11,15 +11,11 @@
   - "SLOWPOKETAIL" (Possible).
   - "HAIL GIOVANNI" (Confirmed from Murkrow).
   - Boss Door requires TWO. We have them!
-- **Escape Plan**:
-  1. Status: (14, 1) is a FAKE BOOKSHELF (Walkable). Priority target.
-  2. Action: Go to (14, 1) and inspect/walk into it.
-  3. Expectation: Hidden switch or warp.
-  4. Next: Go to B2F Boss Door (via stairs at 3,2 or 27,2).
-- **Strategy**:
-  - Cross to South via Secret Passage at (19, 10) / (19, 11).
-  - Reach East Room and Stairs (27, 2).
-  - Murkrow is in B2F NE.
+- **Infiltration Plan (Boss Door)**:
+  1. Status: At B1F NE (27, 2).
+  2. Action: Head South to (27, 14). XML confirms stairs (TYPE_8564).
+  3. Goal: Reach B2F South-East.
+  4. Then: Navigate West on B2F to the Boss Door.
   - If blocked, check Persian Statue at (12, 1) or Computers in North area.
 
 ## Key Locations & Findings
