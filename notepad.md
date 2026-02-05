@@ -52,5 +52,5 @@
 - **Next Action**: Investigating potential "Warp Trap" at (2, 11) in SW Room. It might jump the wall to the NW section.
 - **Blockage Alert**: Tile (4, 15) appears impassable.
 - **Route Adjustment**: To access the right side of the room (Cols 6-8), use the upper path via Row 12 or lower via Row 16.
-- **Correction**: "Warp Trap" in Col 1 was likely due to uncleared text boxes consuming movement inputs.
-- **Action**: Always clear text fully (press B) before moving near machines.
+- **Correction**: "Warp Trap" in Col 1 was confirmed as input consumption from text boxes.
+- **Navigation Plan**: Explore narrow corridor (Col 1) for hidden items/switches. Then re-check Scientist Mitch or Computers.
