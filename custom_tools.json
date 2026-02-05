@@ -393,6 +393,11 @@
     "input_schema": {
       "type": "object",
       "properties": {
+        "autopress_buttons": {
+          "type": "boolean",
+          "description": "If true and the tool returns a list of buttons, they will be pressed automatically. Limit: 100 buttons max per call.",
+          "default": false
+        },
         "player_x": {
           "type": "integer"
         },
@@ -402,10 +407,11 @@
       },
       "required": [
         "player_x",
-        "player_y"
+        "player_y",
+        "autopress_buttons"
       ]
     },
-    "python_script": "import xml.etree.ElementTree as ET\n\nroot = ET.fromstring(map_xml_string)\n\ndirections = {\n    \"Up\": (0, -1),\n    \"Down\": (0, 1),\n    \"Left\": (-1, 0),\n    \"Right\": (1, 0)\n}\n\nresults = {}\n\n# Interesting types\ninteresting_types = [\"TYPE_1fdc\", \"TYPE_8564\", \"TYPE_63e2\"] \n\nfor direction, (dx, dy) in directions.items():\n    tx, ty = player_x + dx, player_y + dy\n    \n    # Find tile in XML\n    row = root.find(f\".//Row[@id='{ty}']\")\n    if row is None:\n        results[direction] = \"OutOfBounds\"\n        continue\n        \n    tile = row.find(f\".//Tile[@id='{tx}']\")\n    if tile is None:\n        results[direction] = \"OutOfBounds\"\n        continue\n        \n    t_type = tile.get(\"type\")\n    markers = tile.findall(\"Marker\")\n    marker_labels = [m.text for m in markers] if markers else []\n    \n    info = []\n    if t_type in interesting_types:\n        info.append(f\"Type: {t_type}\")\n    \n    if marker_labels:\n        info.append(f\"Markers: {', '.join(marker_labels)}\")\n        \n    # Heuristic for computers/desks if adjacent\n    if t_type == \"TYPE_2889\":\n         pass\n    \n    if info:\n        results[direction] = \"; \".join(info)\n    else:\n        results[direction] = f\"Type: {t_type} (Nothing marked)\"\n        \nprint(f\"{results}\")",
+    "python_script": "import xml.etree.ElementTree as ET\n\ndef main(input_data):\n    try:\n        player_x = input_data['player_x']\n        player_y = input_data['player_y']\n        \n        # Parse the Mental Map XML\n        # map_xml_string is provided globally\n        root = ET.fromstring(map_xml_string)\n        \n        # Directions to check\n        directions = {\n            \"Up\": (0, -1),\n            \"Down\": (0, 1),\n            \"Left\": (-1, 0),\n            \"Right\": (1, 0)\n        }\n        \n        results = {}\n        \n        for direction, (dx, dy) in directions.items():\n            check_x = player_x + dx\n            check_y = player_y + dy\n            \n            # Find the tile in the XML\n            tile_found = False\n            tile_type = \"unknown\"\n            markers = []\n            \n            # Find the row\n            row = root.find(f\".//Row[@id='{check_y}']\")\n            if row is not None:\n                # Find the tile\n                tile = row.find(f\".//Tile[@id='{check_x}']\")\n                if tile is not None:\n                    tile_found = True\n                    tile_type = tile.get('type')\n                    # Get markers\n                    for marker in tile.findall('Marker'):\n                        label = marker.text\n                        emoji = marker.get('emoji')\n                        markers.append(f\"{emoji} {label}\")\n            \n            if tile_found:\n                # Determine if interesting\n                interest = []\n                \n                # Check for known interactive types\n                # TYPE_1fdc: Signs, Statues\n                # TYPE_63e2: Doors, Shutters\n                # TYPE_2889: Solid walls/objects (sometimes interactive)\n                # TYPE_5e20, TYPE_903e: Other common interactables\n                interactive_types = [\n                    \"TYPE_1fdc\", \n                    \"TYPE_63e2\", \n                    \"TYPE_2889\",\n                    \"TYPE_5e20\",\n                    \"TYPE_903e\"\n                ]\n                \n                if tile_type in interactive_types:\n                    interest.append(f\"Type: {tile_type}\")\n                \n                if markers:\n                    interest.extend(markers)\n                    \n                if interest:\n                    results[direction] = f\"({check_x}, {check_y}): \" + \", \".join(interest)\n        \n        print(results)\n            \n    except Exception as e:\n        print(f\"Error: {e}\")\n\nmain(input_data)",
     "history": [
       {
         "commit_message": "Initial version",
@@ -416,6 +422,11 @@
         "commit_message": "Fixed variable scoping issue by removing function wrapper.",
         "timestamp": "2026-02-02T19:21:26.002Z",
         "action_counter": 25235
+      },
+      {
+        "commit_message": "Fixing NameError by ensuring input variables are correctly accessed from input_data.",
+        "timestamp": "2026-02-05T02:14:54.824Z",
+        "action_counter": 28655
       }
     ]
   },
