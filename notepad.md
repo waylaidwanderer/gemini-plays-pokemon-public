@@ -29,7 +29,7 @@
   - Computer at (19, 11) is a display ("Switch is OFF").
 - **West Room**:
   - Isolated by Wall at Column 6 (except via Row 16?).
-  - Persian Statue at (6, 1) is just a statue.
+  - Persian Statue at (6, 1) is UNCHECKED (Correction: only (6, 6) was checked).
   - Trap-free path: None verified. Column 5 blocked by wall at Row 11.
   - Warp Tile at (5, 15) -> (25, 2) (Entrance/Shop Exit).
   - Grunt at (2, 4): "Don't know where traps are" (Useless).
