@@ -27,3 +27,5 @@
 1. Test West Wall (Col 23) for hidden passages.
 2. Test South Wall (Row 6) for hidden passages.
 3. If stuck, return to B1F and re-examine the "Hidden Passage" area.
+- **Observation**: Wall at (23, 4) is solid/inert.
+- **Action**: Testing (23, 5) and South Machines (Row 6).
