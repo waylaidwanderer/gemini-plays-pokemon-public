@@ -8,11 +8,14 @@
 - **Secondary**: Find switch to disable alarms/shutters (likely in West Room computers or hidden corner).
 - **Passwords**:
   - "RATICATE TAIL" (Confirmed).
-  - "SLOWPOKETAIL" (Confirmed from Grunt at B1F 21,8).
-  - Boss Door requires BOTH.
+  - "SLOWPOKETAIL" (Possible).
+  - "HAIL GIOVANNI" (Confirmed from Murkrow).
+  - Boss Door requires TWO.
 - **B2F Navigation**:
-  - Locked Door at B2F (3, 8) blocks path between NW (Stairs 3, 6) and SW (Stairs 3, 14).
-  - Goal: Open this door OR find way to B1F South West (Stairs 3, 14) from B1F.
+  - Stuck in North Loop (West Room North + Central Corridor).
+  - Need to reach South Loop (West Room South + East Room).
+  - Shutters at (15, 10) and (14, 11) remain LOCKED.
+  - Action: Check 'Trap?' at (2, 11) or finding passage in Row 11 Wall.
 - **Strategy**:
   - Cross to South via Secret Passage at (19, 10) / (19, 11).
   - Reach East Room and Stairs (27, 2).
