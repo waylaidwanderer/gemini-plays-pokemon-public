@@ -12,10 +12,10 @@
   - "HAIL GIOVANNI" (Confirmed from Murkrow).
   - Boss Door requires TWO. We have them!
 - **Boss Door Infiltration**:
-  1. Status: Standing at Boss Door (23, 14).
-  2. Passwords: "RATICATE TAIL", "HAIL GIOVANNI".
-  3. Action: Open Door and confront Rocket Executive.
-  4. Note: Silver is visible past the door at (21, 14). Be ready for a fight.
+  1. Status: At (24, 13). Grunt at (25, 13) claims to not know password.
+  2. Action: Move to (24, 14) facing Left and interact with Door at (23, 14).
+  3. Passwords: "RATICATE TAIL", "HAIL GIOVANNI".
+  4. Failure Analysis: Previous move failed due to open text box. Ensure box is closed.
 
 ## Key Locations & Findings
 - **East Room**:
