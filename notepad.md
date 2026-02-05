@@ -56,6 +56,13 @@
 - **CRITICAL DISCOVERY**: Row 9 in Central Corridor (Cols 6-15) is a SOLID WALL. This separates the North Central area (with Statue at 12,1) from the South Central area (Row 10).
 - **Consequence**: I am trapped in the Upper West Room + Row 10 Corridor loop.
 - **Escape Plan**:
-  1. Check Row 9 Wall for hidden switches (esp. at 12,9).
-  2. Search for a Warp Trap in Upper West Room to teleport to East Room.
-  3. Re-verify "Locked Door" in B2F West.
+  1. **B2F NW Room (Stairs 3,6)**:
+     - Check for hidden switches on walls.
+     - Re-examine the "Locked Door" at (3, 8).
+     - Check if Ledge at (3, 4) is passable/interactive.
+  2. **B1F West Room**:
+     - Re-check Row 11 Wall.
+     - Check Grunt at (9, 3) (Blocking path?).
+  3. **Last Resort**: Go all the way back to B1F Entrance via Warp (5, 15) -> (25, 2) and re-explore East Room. (Wait, can I reach (5, 15)? No, blocked by Row 11 wall).
+     - I can reach (5, 15) via stairs (3, 14) if I can open the door at B2F (3, 8).
+     - So KEY is opening B2F (3, 8).
