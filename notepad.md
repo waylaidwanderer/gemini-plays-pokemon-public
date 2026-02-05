@@ -82,3 +82,4 @@
 - **Action**: Battling Scientist Mitch (11, 15).
 - **Goal**: Clear path to Computer at (10, 15).
 - Lore: Scientist Mitch mentions "turning up the power of our radio" (likely the signal controlling Gyarados).
+- Lore: Mitch confirms the plan is to broadcast the signal nationwide.
