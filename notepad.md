@@ -77,7 +77,7 @@
     3. Find way North to Murkrow (22, 9).
 - DISCOVERY: Tile (14, 1) is visually a Bookshelf but logically TYPE_3fe2 (Walkable). Potential Hidden Passage!
 ## Current Status
-- **Location**: B1F West Room (8, 15).
-- **Objective**: Navigate to East Room via Gap at (15, 13).
-- **Plan**: Bypass Scientist Mitch (11, 15) via Row 16. Then head to Hidden Passage at (19, 10).
-- **Correction**: No stairs at (3, 14). Confirmed.
+- **Location**: B1F Central Corridor (17, 10).
+- **Objective**: Navigate to Hidden Passage at (19, 10) via South Loop (Row 15).
+- **Reasoning**: Wall at Col 18 blocks direct path. Must loop South to enter East Room, then go North.
+- **Goal Path**: (19, 10) -> North East Area -> West to Gap (6, 10) -> Stairs (3, 2).
