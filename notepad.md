@@ -4,11 +4,11 @@
 - **3_50**: B2F (Boss Room, Murkrow, Silver).
 
 ## Current Status
-- **Location**: B1F South East Room (27, 14).
-- **Goal**: Navigate to North West Stairs (3, 2).
-- **Immediate Path**: Navigate to (3, 12) in SW Room. Check for Warp Tiles or hidden paths.
-- **Reasoning**: Mitch provided no help. Row 11 is a solid wall blocking North. Need to find a way to jump the wall (Warp) or open the Shutters (Switch).
-- **Hypothesis**: Defeating Mitch might disable security or provide a key/password.
+- **Location**: B1F North West Room (3, 2).
+- **Situation**: Found Rival Silver at (7, 2) separated by a wall.
+- **Goal**: Reach Silver or the Security Switch.
+- **Observation**: Room contains two staircases: (3, 2) [Arrival] and (3, 6) [To Investigate].
+- **Hypothesis**: Stairs at (3, 6) might lead to the other side of the wall or a new area.
 
 ## Exploration Findings
 - **B2F NE**: Dead end.
