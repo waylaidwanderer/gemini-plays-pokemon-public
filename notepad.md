@@ -38,7 +38,7 @@
   - **North East Strip (Cols 7-28, Rows 1-3)**: ISOLATED from West by Wall at Col 6.
   - **Connection**: Must use Gap at (6, 10) to cross between East/Central and West.
   - **Route to Stairs (3, 2)**: 
-    1. Go South from NE corner to Row 12 (Safe form Traps).
+    1. Go South from NE corner to Row 12 (Safe perimeter).
     2. Go West to Col 6.
     3. Go North through Gap at (6, 10).
     4. Go North to Stairs (3, 2).
