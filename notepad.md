@@ -11,10 +11,12 @@
   - "SLOWPOKETAIL" (Possible).
   - "HAIL GIOVANNI" (Confirmed from Murkrow).
   - Boss Door requires TWO.
-- **B2F Navigation**:
-  - West Room path is a DEAD END (Locked Door/Shutters).
-  - PLAN: Use Warp at (5, 15) to return to Entrance.
-  - Then: Access Boss Door via East Room -> B2F East.
+- **Escape Plan**:
+  1. Exit Hidden Office via Fake Wall (10, 9).
+  2. Use Warp Tile at (5, 15) in West Room.
+  3. Arrive at Entrance (25, 2).
+  4. Walk to East Room -> Stairs (27, 2) -> B2F NE.
+  5. Go to Boss Door with BOTH passwords.
 - **Strategy**:
   - Cross to South via Secret Passage at (19, 10) / (19, 11).
   - Reach East Room and Stairs (27, 2).
