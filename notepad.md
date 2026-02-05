@@ -34,3 +34,9 @@
 - **Action**: Testing (23, 5) and South Machines (Row 6).
 - **Path Confirmation**: Successfully bypassed Grunt at (24, 14) via Row 16.
 - **Next Step**: West to Col 6 -> North to Gap (6, 10).
+- **Geography Note**: B1F is split into North and South by Row 11/Shutter Line.
+  - **South**: Accessible (East Room + South West Room).
+  - **North**: Inaccessible (North West + North Central).
+  - **Blockages**: Shutter (14, 11) [Locked]. Shutter (15, 10) [To Check].
+  - **Dead Ends**: B2F NE (via 27, 2).
+  - **Lead**: Scientist Mitch (11, 15) might hold the key.
