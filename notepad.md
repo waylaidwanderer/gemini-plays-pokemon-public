@@ -77,7 +77,7 @@
     2. Go West along Row 15/16.
     3. Find way North to Murkrow (22, 9).
 - DISCOVERY: Tile (14, 1) is visually a Bookshelf but logically TYPE_3fe2 (Walkable). Potential Hidden Passage!
-## Current Status (Turn 29122)
+## Current Status (Turn 29125)
 - **Location**: B1F West Room (12, 15).
-- **Objective**: Defeat Scientist Mitch to access the terminal behind him.
-- **Reflection**: 50 turns passed. Progress is steady. Trust the map XML. "Dead ends" may be hidden paths.
+- **Action**: Battling Scientist Mitch (11, 15).
+- **Goal**: Clear path to Computer at (10, 15).
