@@ -79,8 +79,8 @@
 - DISCOVERY: Tile (14, 1) is visually a Bookshelf but logically TYPE_3fe2 (Walkable). Potential Hidden Passage!
 ## Current Status (Turn 29125)
 - **Location**: B1F West Room (12, 15).
-- **Discovery**: Tile (10, 15) is a walk-through computer terminal.
-- **Status**: Interacted (Turn 29134) - No response. Appears inert.
-- **Action**: Engaging Scientist Mitch (11, 15).
+- **Action**: Exiting South West Room via (15, 13).
+- **Next Step**: Go to Gap at (6, 10) to access Upper West Room.
+- **Goal**: Check Stairs at (3, 6) and (3, 2).
 - Lore: Scientist Mitch mentions "turning up the power of our radio" (likely the signal controlling Gyarados).
 - Lore: Mitch confirms the plan is to broadcast the signal nationwide.
