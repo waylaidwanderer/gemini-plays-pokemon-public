@@ -55,11 +55,11 @@
   - Action: Re-explore B2F West Corridor carefully. Look for hidden doors or switches.
 - **CRITICAL DISCOVERY**: Row 9 in Central Corridor (Cols 6-15) is a SOLID WALL. This separates the North Central area (with Statue at 12,1) from the South Central area (Row 10).
 - **Consequence**: I am trapped in the Upper West Room + Row 10 Corridor loop.
-- **Escape Plan**:
-  1. **B1F North-Central Access**:
-     - **CRITICAL**: Check Grunt at B1F (9, 3). I defeated the Grunt at B2F (4, 1), maybe the B1F one moved?
-     - If path clears, I can reach the Computers (Row 4) and Statue (12, 1).
-  2. **B1F South Access**:
-     - Check barrier at Row 11 near (14, 11) and (15, 11).
-     - Re-scan walls in Central Corridor Row 10.
-  3. **B2F (3, 4)**: Confirmed as Solid Wall (TYPE_2889). Not a ledge.
+- **Escape Plan (Revised)**:
+  - **B2F Row 1 Route**: Verified open East-West, but North-South access in Central Area likely blocked by machine rows.
+  - **B1F Loop Route (Preferred)**:
+    1. Take Stairs (27, 2) -> B1F NE.
+    2. Go South in B1F to Stairs (27, 14).
+    3. Take Stairs (27, 14) -> B2F SE.
+    4. Cross Col 23 West via Row 15/16 gap.
+    5. Go North to Murkrow.
