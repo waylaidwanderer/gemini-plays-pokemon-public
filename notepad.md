@@ -25,7 +25,7 @@
 - **B2F**:
   - Accessed via stairs at (3, 14) (South), (27, 14) (SE), (27, 2) (NE), (3, 2) (NW).
   - (3, 2) Stairs: Leads to isolated NW room on B2F (Connects to (3, 6)?).
-  - Murkrow Location: B2F (7, 1) (Requires access from East side, likely via (27, 2) stairs).
+  - Murkrow Location: B2F (22, 9) (NE Section). Requires access via Stairs at (27, 2).
   - West Corridor is isolated/dead-end.
 
 ## Action Plan
