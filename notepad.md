@@ -66,3 +66,5 @@
     2. Reach Murkrow at (22, 9).
     3. Chase Murkrow if it flees.
   - **Backup**: If path blocked, re-evaluate "Switch is OFF" computer at B1F (19, 11).
+- **FOUND IT**: There is a visible gap in the computer row at B2F (24, 2)! This is the way in!
+- **Plan**: Enter via (24, 2) and head towards Murkrow at (22, 9).
