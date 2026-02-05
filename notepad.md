@@ -28,9 +28,8 @@
   - Grunt at (9, 3) is non-interactive/blocking path North.
 - **B2F**:
   - Accessed via stairs at (3, 14) (South), (27, 14) (SE), (27, 2) (NE), (3, 2) (NW).
-  - (3, 2) Stairs: Leads to isolated NW room on B2F (Connects to (3, 6)?).
+  - West Room (Cols 1-5): Connects stairs (3, 2), (3, 6), and (3, 14). Isolated from East side by wall at Col 6.
   - Murkrow Location: B2F (22, 9) (NE Section). Requires access via Stairs at (27, 2).
-  - West Corridor is isolated/dead-end.
 
 ## Action Plan
 1. **West Room Statues**: Checked (6, 6) and (6, 13) - Nothing.
