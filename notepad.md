@@ -76,10 +76,7 @@
     2. Go West along Row 15/16.
     3. Find way North to Murkrow (22, 9).
 - DISCOVERY: Tile (14, 1) is visually a Bookshelf but logically TYPE_3fe2 (Walkable). Potential Hidden Passage!
-## Current Status
-- **Location**: B1F North East Room (19, 3).
-- **Navigation**:
-  - West path blocked by Walls at Col 15 and Col 6.
-  - Central North area (Murkrow) is isolated from here.
-  - **New Discovery**: Stairs at (27, 2) are accessible.
-- **Plan**: Take Stairs at (27, 2) to B2F. Expecting connection to West Wing.
+- **Location**: B2F North East Corner (27, 2).
+- **Discovery**: Stairs at (27, 2) connect B1F NE to B2F NE.
+- **Path**: Path West along the top wall is blocked by solid computers. Must go South/South-West.
+- **Objective**: Check out the Grunts at (22, 5) and (22, 7).
