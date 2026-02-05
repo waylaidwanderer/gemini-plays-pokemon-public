@@ -86,3 +86,4 @@
 - **Navigation Update**: Verified path from East to West.
   - Route: South to Row 14 -> West to Col 16 -> North to Gap (15, 13) -> West to Col 14 -> South to Row 16 -> West to Col 3 -> North to Row 10.
   - Avoids traps in Central Row 11 and Shutter walls.
+- **Navigation Note**: Grunt at (24, 14) blocks the path. Must bypass via Row 15. BFS fails here because it doesn't see the sprite.
