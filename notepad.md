@@ -31,8 +31,9 @@
 - **Murkrow Strategy**: Murkrow is at B2F (22, 9) (Central Room). Access is blocked from East. Must reach from West (behind Locked Gate).
 - **Warp Trap at B1F (26, 9)**: Confirmed ACTIVE. Warps to B1F (26, 3) (Start of NE Room). Must disable to proceed.
 - **Current Plan**:
-  1. Travel West to (10, 10), then Up through Fake Wall at (10, 9) to North Corridor.
-  2. Inspect Machines/Bookshelves at Row 1 (Cols 10-13) for Hidden Switch #2.
-  3. If not found, return to NE Room and scan South Wall (Row 9) near Warp Trap.
-  4. Disable Trap -> Enter Secret Passage at (26, 10).
+  1. Inspect Machines/Bookshelves at Row 1 (Cols 13).
+  2. Inspect Wall at Row 0 (Col 14).
+  3. If not found, travel to B1F NE Room via Fake Wall -> Stairs (3, 2) -> B2F -> Stairs (27, 2).
+  4. Search South Wall of NE Room (Row 9) for Hidden Switch #2.
+  5. Disable Trap -> Investigate (26, 9) for stairs to Murkrow.
 - **Map Connectivity**: B2F East Corridor blocked at Row 10 (Wall). Must use B1F to travel between South East and North East.
