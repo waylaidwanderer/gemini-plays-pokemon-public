@@ -58,10 +58,8 @@
 
 ### Current Objective
 - Checking NE Room Aisle (Col 28):
-  - (27, 4): Checking East Face.
-  - (29, 4): Checking West Face.
-  - (27, 5): Checking East Face.
-  - (29, 5): Checking West Face.
+  - Checked (27, 4), (29, 4), (27, 5), (29, 5). Result: Negative.
+  - Continuing South to check Rows 6-8.
 - **Hypothesis**: Switch is on one of these machines.
 - **Mechanics**: "Fake Machines" are walkable. Checking collision as I go.
 
