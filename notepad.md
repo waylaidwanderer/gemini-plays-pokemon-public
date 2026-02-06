@@ -58,11 +58,8 @@
 
 ### Current Objective
 - Checking NE Room Machine Bank (West Face):
-  - (27, 5): Checking.
-  - (27, 6): Checking.
-  - (27, 7): Checking.
-  - (27, 8): Checking.
-- **Hypothesis**: Switch is on one of these machines or in the next aisle (Col 28).
+  - Checked (27, 5), (27, 6), (27, 7), (27, 8). Result: Negative.
+- **Next Step**: Loop around via Row 3 to check the East Face (Col 27) and West Face (Col 29) from Aisle 28.
 
 ### Mechanics Verified
 - **"Fake Machines"**: Tiles with machine graphics but `TYPE_3fe2` collision are WALKABLE. Used to hide secret passages (e.g., 19, 10).
