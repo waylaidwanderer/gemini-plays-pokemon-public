@@ -5,12 +5,12 @@
 
 ## Current Status
 - **Location**: B1F North Central (Lore Room).
-- **Goal**: Find Security Switch (Likely near Mitch or in B1F SE).
-- **Boss Door**: Passwords "RATICATE TAIL" + "HAIL GIOVANNI" FAILED. Door stuck.
-- **Current Task**: Re-investigate Scientist Mitch and machines in B1F SW/Central.
+- **Goal**: Open Boss Door on B2F (Retry).
+- **Status**: Triggered "RATICATE TAIL" flag at B1F (5, 14).
+- **Boss Door**: Previous fail likely due to missing flag. Retrying.
 
 ## Key Blockages
-- **Boss Door (B2F)**: Passwords failed. Needs Switch?
+- **Boss Door (B2F)**: Needs Voice ID. Have passwords + flag now.
 - **Shutters (B1F Row 11)**: Locked.
 - **Silver (B1F NW)**: Blocked.
 
