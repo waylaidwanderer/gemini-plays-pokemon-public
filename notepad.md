@@ -10,7 +10,7 @@
 
 ## Map Insights
 - **East-West Connection**: Blocked at most rows. 
-- **The Path**: Row 3 (East) -> Col 17 (Middle Strip) -> Row 13 (Gap) -> West Side.
+- **The Path**: Row 3 (East) -> Col 17 (Middle Strip) -> Row 12 (Corridor) -> West Side.
 
 ## Map Connections
 - **B1F NW (3, 2)** <-> **B2F West (3, 2)**.
