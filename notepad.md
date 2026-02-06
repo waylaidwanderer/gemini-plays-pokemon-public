@@ -39,3 +39,4 @@
 - **Murkrow**: Stuck at (7, 2). Needs to be moved.
 - **Passwords**: "RATICATE TAIL", "HAIL GIOVANNI". (Maybe "SLOWPOKETAIL"?).
 - **Map Connectivity**: B2F East side is vertically split by a wall. Cannot walk from (27, 14) to (27, 2) on B2F. Must use B1F.
+- **Map Connectivity**: B1F (15, 3) is a wall. Cannot walk East-West on Row 3. Must use B2F North Corridor to cross between NW and NE sectors.
