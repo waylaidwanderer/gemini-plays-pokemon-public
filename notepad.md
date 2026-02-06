@@ -4,9 +4,9 @@
 - **3_50**: B2F (Basement). Includes Boss Room, Northern Corridor, West Mid Room.
 
 ## Current Status
-- **Location**: B1F West (Viewing Room).
+- **Location**: B2F (3, 6). Just came down via ledge from B2F (3, 2)?
 - **Goal**: Confront Silver at B1F (7, 2).
-- **Strategy**: Go South to Row 10, Cross East through gap at (6, 10), Go North to (7, 3) to talk to Silver.
+- **Strategy**: Take stairs UP to B1F (3, 6). Go South to Row 10. Cross East through gap at B1F (6, 10). Go North to B1F (7, 3) to talk to Silver.
 
 ## Murkrow Intel
 - **Target**: Murkrow at B1F (7, 1), blocked by Silver at (7, 2).
@@ -15,10 +15,11 @@
 ## Map Insights
 - **B1F Vertical Wall (x=6)**: Divides West/East.
 - **Crossing**: Gap at (6, 10) is the key connection point.
+- **B2F Ledge**: Likely a one-way drop from B2F (3, 4) going South.
 
 ## Map Connections
 - **B1F NW (3, 2)** <-> **B2F West (3, 2)**.
-- **B1F NW (3, 6)** <-> **B2F West Mid (3, 6)**.
+- **B1F West Mid (3, 6)** <-> **B2F West Mid (3, 6)**.
 - **B2F West Mid (3, 14)** -> **?** (Likely B1F SW Minefield).
 
 ## Key Blockages
