@@ -4,13 +4,14 @@
 - **3_50**: B2F (Basement). Includes Boss Room, Northern Corridor, West Mid Room.
 
 ## Murkrow Intel
-- **Target**: Murkrow last seen on B1F.
+- **Target**: Murkrow seen on B2F at (7, 5), (7, 7), (7, 9).
 - **Voice ID**: Required for Boss Door. Need to chase/interact with Murkrow.
 
 ## Map Insights
 - **B1F Vertical Wall (x=6)**: Divides West/East.
 - **Crossing**: Gap at (6, 10) is the key connection point.
 - **B2F Ledge**: Likely a one-way drop from B2F (3, 4) going South.
+- **B2F x=7**: Murkrow is here. Needs access.
 
 ## Map Connections
 - **B1F NW (3, 2)** <-> **B2F West (3, 2)**.
