@@ -14,7 +14,7 @@
 
 ## Status & Intel
 - **Murkrow**: Fled from B1F (7, 2). Believed to be in B2F Central Room (22, 9).
-- **Route**: B1F (3, 2) -> B2F (3, 2) -> B2F North Corridor -> B2F (27, 2) -> B2F (27, 14) -> Boss Door (23, 14).
+- **Route**: B1F (3, 2) -> B2F (3, 2) -> B2F North Corridor -> B2F (27, 2) -> B1F (27, 2) -> B1F (27, 14) -> B2F (27, 14) -> Boss Door (23, 14).
 - **Goal**: Reach B1F NW Area to find Hidden Switch #2.
 - **Connection**: B1F North Corridor (Row 3) is BLOCKED at Cols 11-15. No direct East-West path on B1F North.
 - **Route to NW**: Must loop via B2F North Corridor: B1F(27,2) -> B2F(27,2) -> B2F(3,2) -> B1F(3,2).
