@@ -4,9 +4,13 @@
 - **3_50**: B2F (Basement). Includes Boss Room, Northern Corridor, West Mid Room.
 
 ## Current Status
-- **Location**: B1F East Corridor (Row 3).
+- **Location**: B1F East (Switch Room).
 - **Goal**: Get Murkrow Voice ID (West Side).
-- **Strategy**: Go South to switch at (19, 11), check shutters at (15, 11), then cross West via gap at (15, 13) if needed.
+- **Strategy**: Activate switch at (19, 11). Navigate North to Row 3, cross West to Col 17, go South to Row 13, cross West at (15, 13) to reach Murkrow.
+
+## Map Insights
+- **East-West Connection**: Blocked at most rows. 
+- **The Path**: Row 3 (East) -> Col 17 (Middle Strip) -> Row 13 (Gap) -> West Side.
 
 ## Map Connections
 - **B1F NW (3, 2)** <-> **B2F West (3, 2)**.
