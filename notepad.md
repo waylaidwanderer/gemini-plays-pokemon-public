@@ -34,10 +34,5 @@
 - **TYPE_63e2**: Shutters (Likely locked/solid).
 - **TYPE_8564**: Stairs/Warps.
 - **Password**: "HAIL GIOVANNI" (Learned from Murkrow at B1F (7, 1)).
-- **Update**: Murkrow disappeared from (7, 2). Chase active!
-- **Route**: B1F Central (Row 11) is blocked. Must take Long Loop:
-  1. Exit Office to West side via (6, 10).
-  2. Take Stairs B1F (3, 2) -> B2F (3, 2).
-  3. Northern Corridor to B2F (27, 2).
-  4. Stairs B2F (27, 2) -> B1F (27, 2).
-  5. South to B1F (27, 14) -> B2F (27, 14) -> Boss Door.
+- **Update**: Murkrow is located at B2F (22, 9) (North East Room).
+- **Route**: B2F SE Room is isolated. Must take stairs B2F (27, 14) -> B1F -> Stairs B1F (27, 2) -> B2F (27, 2) to reach Murkrow.
