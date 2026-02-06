@@ -13,8 +13,9 @@
 - **TYPE_8564 (Stairs/Warps)**: Walking ONTO this tile triggers a warp. EXCLUDE from pathfinding when navigating on the same floor.
 
 ## Status & Intel
-- **Murkrow**: Found at B1F (7, 2) (Reset). Already have password "HAIL GIOVANNI". Proceeding to Boss Door.
-- **Route**: B1F (3, 2) -> B2F (3, 2) -> B2F North Corridor -> B2F (27, 2) -> B1F (27, 2) -> B1F (27, 14) -> B2F (27, 14) -> Boss Door (23, 14).
+- **Boss Door**: B2F (23, 14). Failed to open with just passwords. Suspect Murkrow must be present/triggered.
+- **Murkrow**: Last seen at B1F (7, 2). Gave password but did not fly away. Must return and trigger movement.
+- **Route**: B1F (27, 14) -> B2F (27, 14) -> B2F (27, 2) -> B2F North Corridor -> B2F (3, 2) -> B1F (3, 2) -> Murkrow.
 - **Goal**: Reach B1F NW Area to find Hidden Switch #2.
 - **Connection**: B1F North Corridor (Row 3) is BLOCKED at Cols 11-15. No direct East-West path on B1F North.
 - **Route to NW**: Must loop via B2F North Corridor: B1F(27,2) -> B2F(27,2) -> B2F(3,2) -> B1F(3,2).
