@@ -52,6 +52,6 @@
 - Computers at (9, 14) and (10, 14): Inert.
 - Computer at (11, 14): Inert from Right side.
 - Corridor at Col 15: Leads to Locked Shutters at (15, 11) and (15, 10).
-- Machines on Row 13 (20-25): Checked. Inert.
-- Machines on Row 17 (1-13): Checked. Empty.
-- Computer at (11, 14): Checked from SIDE (Inert). Need to check from FRONT (Blocked by Mitch).
+### Area Status: B1F SW Room
+- Checked & Inert: Row 17 (All), Row 13 (All), Computers (9-10, 14).
+- Pending: Computer at (11, 14) [Front blocked by Mitch], Walkable Machines at (9-10, 15).
