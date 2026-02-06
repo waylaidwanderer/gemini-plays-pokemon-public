@@ -9,9 +9,10 @@
 - Open Boss Door at B2F (23, 14) with Password.
 
 ## Murkrow Intel
-- **Status**: Password "HAIL GIOVANNI" obtained.
-- **Location**: In B2F East Corridor (x=7 area). Needs to be chased to Boss Door.
-- **Access**: Likely via B1F (Stairs or Hole near where Silver was?).
+- **Status**: Password "HAIL GIOVANNI" obtained (supposedly).
+- **Location**: Currently at B1F (7, 2).
+- **Action Required**: Talk to Murkrow, finish dialogue, then move out of the way (South or East) to let it fly.
+- **Destination**: Boss Door at B2F (23, 14).
 
 ## Map Insights
 - **B1F Vertical Wall (x=6)**: Divides West/East.
