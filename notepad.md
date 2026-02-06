@@ -46,12 +46,11 @@
 - **Murkrow Strategy**: Murkrow is at B2F (22, 9) (Central Room). Access is blocked from East. Must reach from West (behind Locked Gate).
 - **Warp Trap at B1F (26, 9)**: DISABLED.
 - **Current Plan**:
-  1. Check SE Room machines (Cols 20-22).
-  2. Defeat Scientist Ross at (23, 11).
-  3. Locate Hidden Switch #2 in SE Room.
-  4. Explore South along East Corridor (Col 26).
-  5. Confront Grunt at (24, 14).
-  6. Explore B1F SE Room and find access to SW Room.
+  1. Investigate Fake Machines at (21, 13) and (22, 13).
+  2. Locate Hidden Switch #2 in SE Room.
+  3. Explore South along East Corridor (Col 26).
+  4. Confront Grunt at (24, 14).
+  5. Explore B1F SE Room and find access to SW Room.
 - **Murkrow**: Confirmed on B2F (Central Room).
 - **Hypothesis**: Path behind Warp Trap leads to stairs accessing B2F Central Room.
 - **Grunt at (24, 14)**: Defeated by Lance ("The guy in the cape...").
