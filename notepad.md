@@ -54,4 +54,6 @@
 - **Route Adjustment**: To access the right side of the room (Cols 6-8), use the upper path via Row 12 or lower via Row 16.
 - **B2F Navigation**: Row 1 is a continuous corridor connecting NE and NW rooms.
 - **B2F NW**: Stairs at (3, 6) lead to a Locked Door at (3, 8).
-- **Navigation Status**: Attempting to pass Shutter at (15, 11). If locked, will return to B1F NE via B2F Stairs at (27, 2).
+- **Security Switch**: Located at (19, 10) disguised as a computer. It is walkable (`TYPE_3fe2`).
+- **Current Action**: Moving to enter the False Computer passage at (19, 10).
+- **Navigation**: Flanked Scientist Ross (23, 11) by using Row 12. Path is clear.
