@@ -39,8 +39,8 @@
 - **Current Strategy**: Navigate to (13, 1) to check other machines. Approach Murkrow from North (7, 1) en route.
 - **Murkrow**: Stuck at (7, 2). Needs to be moved.
 - **Passwords**: "RATICATE TAIL", "HAIL GIOVANNI". (Maybe "SLOWPOKETAIL"?).
-- **Murkrow Strategy**: Murkrow at (7, 2). Needs to be herded to Boss Door (B2F 23,14) or stairs leading there.
-  - **Plan**: Try to flank it from the North at (7, 1) to push it South. Then push East.
+- **Murkrow Strategy**: Murkrow at (7, 2). Needs to be herded to Boss Door (B2F 23,14). Flanking from North (7, 1) FAILED (blocked).
+  - **New Plan**: Explore B2F Secret Room via (3, 1) for switches or items.
 - **Map Connectivity (B1F <-> B2F)**:
   - **NW**: (3, 1) <-> (3, 2) (Secret Stairs).
   - **NE**: (27, 2) <-> (27, 2).
