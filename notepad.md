@@ -33,10 +33,8 @@
 - **Warp Trap at B1F (26, 9)**: Confirmed ACTIVE. Warps to B1F (26, 3) (Start of NE Room). Must disable to proceed.
 - **Current Plan**:
   1. Search B1F NW Room for Hidden Switch #2.
-     - Scan North Wall (Row 0).
-     - Scan East Wall (Col 6).
-     - Scan West Wall (Col 0).
-     - Scan South Wall (Row 7).
+     - Scan West Wall (Col 0) from Row 10 to Row 0.
+     - Scan South Wall (Row 14) / Desk Area.
   2. If not found, search B1F SW Room.
   3. Disable Trap -> Enter Secret Passage at (26, 10).
 - **Murkrow**: Confirmed on B2F (Central Room).
