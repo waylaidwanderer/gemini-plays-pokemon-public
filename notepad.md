@@ -35,7 +35,7 @@
 - **B1F SE Room**: Cleared. Ross defeated.
 - **B1F SW Room**: Cleared. Mitch defeated.
 - **B1F NW/NE**: Mostly corridors.
-- **Switch #2 Search**: Checked machines at B1F NW (Row 0, Cols 1-5). Nothing found. Found Stairs at (3, 1).
+- **Switch #2 Search**: Checked machines at B1F NW (Row 0, Cols 1-5) and NE (13, 1). Found 'Oath' text. No switch. Found Stairs at (3, 1).
 - **Current Strategy**: Navigate to (13, 1) to check other machines. Approach Murkrow from North (7, 1) en route.
 - **Murkrow**: Stuck at (7, 2). Needs to be moved.
 - **Passwords**: "RATICATE TAIL", "HAIL GIOVANNI". (Maybe "SLOWPOKETAIL"?).
