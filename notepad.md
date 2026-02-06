@@ -25,8 +25,8 @@
 - **Password Acquired**: "HAIL GIOVANNI" (Voice ID).
 
 - **Obstacle**: Grunt at B2F (4, 1) is a permanent blocker. Cannot pass.
-- **Boss Door Status**: Rejects passwords. Theory: Gates must be opened in order.
-- **Gate 1**: B2F (3, 8) is locked. Bypassing via B1F.
-- **Current Plan**: Navigate to B1F South West via Central Area gap (6, 10).
+- **Machine at (7, 13)**: Confirmed as Oath machine. No switch.
+- **Boss Door Status**: Rejects passwords. Theory: Gates must be opened in order OR I messed up the interaction.
+- **Current Plan**: Retry Boss Door at B2F (23, 14) with extreme prejudice.
 - Boss Door at B2F (23, 14) remained locked even after obtaining "HAIL GIOVANNI".
 - Hypothesis: This gate at B2F (3, 8) must be opened first, or "HAIL GIOVANNI" is for this gate.
