@@ -16,6 +16,7 @@
 - **Murkrow**: Last seen at B1F (7, 2). Needs to be approached from East side (blocked from West).
 - **Route**: Use B2F North Corridor (Row 1) to cross from West (3, 2) to East (27, 2).
 - **Gate 1**: B2F (3, 8) locked. Bypassing via B2F North Corridor.
+- **Shutters**: B1F (14, 11) confirmed LOCKED.
 - **Stairs B1F (27, 2) <-> B2F (27, 2)**: East side.
 - **Stairs B1F (3, 6) <-> B2F (3, 6)**: West Mid.
 - **Stairs B1F (27, 14) <-> B2F (27, 14)**: South East.
