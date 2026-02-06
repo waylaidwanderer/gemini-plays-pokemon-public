@@ -29,10 +29,11 @@
 - **Boss Door Status**: LOCKED. Requires "Voice ID".
 - **Hypothesis**: Must bring Murkrow to the door.
 - **Murkrow Strategy**: Murkrow is at B2F (22, 9) (Central Room). Access is blocked from East. Must reach from West (behind Locked Gate).
-- **Warp Trap Hypothesis**: The Warp Trap at B1F (26, 9) might transport me to the isolated B1F South area, which connects to the B2F West area behind the gate.
+- **Warp Trap at B1F (26, 9)**: Confirmed ACTIVE. Warps to B1F (26, 3) (Start of NE Room). Must disable to proceed.
 - **Current Plan**:
-  1. Go to B1F via Stairs at B2F (27, 14).
-  2. Intentionally trigger Warp Trap at B1F (26, 9).
-  3. Navigate B1F South/West to find stairs to B2F Central area.
-  4. Catch Murkrow.
+  1. Search B1F North East Room for Hidden Switch #2.
+     - Check walls near the trap (Row 9).
+     - Check East Wall (Col 29).
+  2. If not found, travel to B1F North West Room (via B2F) and search there.
+  3. Disable Trap -> Enter Secret Passage at (26, 10).
 - **Map Connectivity**: B2F East Corridor blocked at Row 10 (Wall). Must use B1F to travel between South East and North East.
