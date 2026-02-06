@@ -47,9 +47,14 @@
 - **Warp Trap at B1F (26, 9)**: DISABLED.
 - Checking SE Room North Bank (Back Side):
   - Checked (23, 10), (22, 10), (21, 10), (20, 10). Result: Negative.
-- Checking SE Room South Bank:
-  - (20, 13): Checking North/East faces.
-  - (23, 13): Checking West/North faces.
+- Checking SE Room South Bank (North Face):
+  - (23, 13): Checking now.
+  - (24, 13): Checking next.
+  - (25, 13): Checking next.
+- Checking SE Room South Bank (South Face):
+  - (25, 13): Will check from (25, 14).
+  - (24, 13): Blocked by Grunt at (24, 14).
+  - (23, 13): Will check from (23, 14).
 - **Hypothesis**: If SE Room fails, the switch must be in the NE Room (where the trap was).
 - **Correction**: Player position re-verified at (23, 9). Previous assumptions of (20, 9) were incorrect.
 - **Plan**: After checking this bank, proceed to B1F NE Room (via East Corridor) if switch is not found.
