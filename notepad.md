@@ -38,3 +38,4 @@
 - **Current Strategy**: Return to NW Room via Secret Passage (19, 10). Investigate Murkrow surroundings and NW corner for Switch #2.
 - **Murkrow**: Stuck at (7, 2). Needs to be moved.
 - **Passwords**: "RATICATE TAIL", "HAIL GIOVANNI". (Maybe "SLOWPOKETAIL"?).
+- **Map Connectivity**: B2F East side is vertically split by a wall. Cannot walk from (27, 14) to (27, 2) on B2F. Must use B1F.
