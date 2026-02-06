@@ -20,7 +20,7 @@
 - **Silver (B1F NW)**: Blocked.
 
 ## Leads
-- **Scientist Mitch**: Found at (11, 15), passive so far.
+- **Scientist Mitch**: Found at (11, 15), passive so far (no battle trigger).
 - **Generator Room**: Mentioned in lore, might be the key to the shutters.
 ## Tile Types (B1F/B2F)
 - **TYPE_3fe2**: Walkable Floor (Blue Checkered).
