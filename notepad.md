@@ -58,10 +58,10 @@
 
 ### Current Objective
 - Checking NE Room Aisle (Col 28):
-  - Checked Rows 4-8. Result: Negative.
-  - Checking Rows 9-11 (Cols 27/29) now.
-- **Hypothesis**: Hidden Switch #2 might be symmetric to Switch #1 (Row 11).
-- **Plan**: Finish Col 28 sweep, then check Trap Area at (26, 9).
+  - Checked Rows 4-11. Result: Negative.
+  - Checking Rows 12-15 (Col 29) now.
+  - Checking Rows 9-11 (Col 27 - West Face) next.
+- **Route**: Exit Aisle South at Row 15, then loop up to Col 26.
 
 ### Mechanics Verified
 - **"Fake Machines"**: Tiles with machine graphics but `TYPE_3fe2` collision are WALKABLE. Used to hide secret passages (e.g., 19, 10).
