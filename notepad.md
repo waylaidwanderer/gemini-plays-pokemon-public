@@ -27,8 +27,9 @@
 - **Observation**: Row 13 in South West room is blocked by machines/walls (TYPE_1fdc, TYPE_2889). Gap appears to be at Column 8/9.
 - **Password Acquired**: "HAIL GIOVANNI" (Voice ID).
 
-- **Obstacle**: Grunt at B2F (4, 1) is a permanent blocker. Cannot pass.
-- **Scientist Mitch**: Defeated.
+- **Obstacle**: Grunt at B2F (4, 1) is a permanent blocker.
+- **Bypass**: To pass Grunt, go B2F (3, 2) -> (4, 2) -> (5, 2) -> (5, 1).
+- **Route**: B1F (3, 2) -> B2F (3, 2) -> Bypass Grunt -> B2F North Corridor -> B2F (27, 2) -> B1F (27, 2) -> B1F (27, 14) -> B2F (27, 14) -> Boss Door (23, 14).
 ### Investigation Log (B1F SW Room)
 - Target: Hidden Switch #2.
 - Checked (Row 14): (9, 14), (10, 14), (11, 14) [Inert].
