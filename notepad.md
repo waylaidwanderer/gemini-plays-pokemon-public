@@ -24,8 +24,9 @@
 - **Observation**: Row 13 in South West room is blocked by machines/walls (TYPE_1fdc, TYPE_2889). Gap appears to be at Column 8/9.
 - **Password Acquired**: "HAIL GIOVANNI" (Voice ID).
 
-- **Obstacle**: Grunt detected at B2F (4, 1) blocking the North Corridor. Must be defeated or bypassed.
+- **Obstacle**: Grunt at B2F (4, 1) is a permanent blocker. Cannot pass.
 - **Boss Door Status**: Rejects passwords. Theory: Gates must be opened in order.
-- **Current Plan**: Backtrack to Gate 1 at B2F (3, 8).
+- **Gate 1**: B2F (3, 8) is locked. Bypassing via B1F.
+- **Current Plan**: Navigate to B1F South West via Central Area gap (6, 10).
 - Boss Door at B2F (23, 14) remained locked even after obtaining "HAIL GIOVANNI".
 - Hypothesis: This gate at B2F (3, 8) must be opened first, or "HAIL GIOVANNI" is for this gate.
