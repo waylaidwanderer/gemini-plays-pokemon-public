@@ -39,7 +39,11 @@
 - (11, 12): Checked N(11,11)/S(11,13) [Inert].
   - Result: No switch found in Inner Corridor.
 - **Next Step**: Investigate Gap at (15, 13) and area behind shutters.
-- **Anomalies**: Row 12 tiles (9-11, 12) have machine graphics but are walkable (TYPE_3fe2). Investigating.
+- **Anomalies**:
+  - (20, 10): Confirmed Solid.
+  - (19, 10): Suspected Secret Passage (Walkable Machine).
+  - (21, 12): Normal Floor (Not a machine).
+- **Hypothesis**: Hidden Switch #2 is accessed via the secret passage at (19, 10).
 - **Hypothesis**: Must bring Murkrow to the door.
 - **Murkrow Strategy**: Murkrow is at B2F (22, 9) (Central Room). Access is blocked from East. Must reach from West (behind Locked Gate).
 - **Warp Trap at B1F (26, 9)**: DISABLED.
