@@ -4,7 +4,8 @@
 - **3_50**: B2F (Basement). Includes Boss Room, Northern Corridor, West Mid Room.
 
 ## Strategy
-- Move aside (to 8,3) to let Murkrow pass.
+- Finish interaction with Murkrow at B1F (7,2).
+- Move South to (7,4) to unblock Murkrow's path.
 - Chase Murkrow to Boss Door on B2F.
 
 ## Murkrow Intel
