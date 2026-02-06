@@ -45,8 +45,9 @@
 - **Hypothesis**: Must bring Murkrow to the door.
 - **Murkrow Strategy**: Murkrow is at B2F (22, 9) (Central Room). Access is blocked from East. Must reach from West (behind Locked Gate).
 - **Warp Trap at B1F (26, 9)**: DISABLED.
-- Checking SE Room North Bank: (22, 10), (21, 10), (20, 10).
+- Checking SE Room North Bank (from North): (20, 10), (21, 10), (22, 10).
 - Checking SE Room South Bank: (23, 13), (20, 13).
+- **Secret Passage**: (19, 10) confirmed. Connecting to Row 9.
 - **Note**: (21, 13) and (22, 13) are confirmed floor tiles (gaps in the bank).
 - **Murkrow**: Confirmed on B2F (Central Room).
 - **Hypothesis**: Path behind Warp Trap leads to stairs accessing B2F Central Room.
