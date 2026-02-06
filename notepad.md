@@ -5,12 +5,12 @@
 
 ## Current Status
 - **Location**: B2F East (Corridor).
-- **Goal**: Reach B1F NW via B2F North Corridor.
-- **Strategy**: Go North from (27, 14) to Row 1, West to (3, 2), Up to B1F. Then investigate Silver/Murkrow access.
+- **Goal**: Get Murkrow Voice ID (B2F North).
+- **Strategy**: Move Left to x=19 to bypass Computer Wall, then go to (22, 9) to confront Murkrow/Grunt.
 
 ## Murkrow Intel
-- **Marker**: B2F (22, 9). Room appears isolated on B2F.
-- **Hypothesis**: Entry is likely via stairs or trapdoor from B1F (Hidden Office?).
+- **Marker**: B2F (22, 9).
+- **Accessibility**: Accessible via gap at Row 10, Col 19.
 
 ## Map Insights
 - **East-West Connection**: Blocked at most rows. 
