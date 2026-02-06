@@ -32,8 +32,7 @@
 - **Secret Passage (B1F 26, 10)**: Confirmed TRAPPED (Warp Trap at 26, 9). Leads to B1F South (21, 14).
 - **Grunt at B2F (22, 5)**: Potential access to Central Room. Need to verify if reachable from East side.
 - **Current Plan**:
-  1. Go to B2F via Stairs at B1F (27, 14).
-  2. Travel North to B2F (27, 2).
-  3. Attempt to reach Grunt at B2F (22, 5).
-  4. If blocked, search for 2nd Hidden Switch in B1F North East to disable warp trap.
+  1. Travel North on B1F from (27, 14) to the North East area.
+  2. Search B1F North East for a second Hidden Switch to disable the warp trap at (26, 9).
+  3. Enter the Secret Passage at B1F (26, 10) once disabled.
 - **Map Connectivity**: B2F East Corridor blocked at Row 10 (Wall). Must use B1F to travel between South East and North East.
