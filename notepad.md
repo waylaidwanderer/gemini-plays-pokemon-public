@@ -10,7 +10,8 @@
 
 ## Murkrow Intel
 - **Status**: Password "HAIL GIOVANNI" obtained.
-- **Location**: Likely in B2F East Corridor (Chase Sequence). Needs to be driven to the Boss Door.
+- **Location**: In B2F East Corridor (x=7 area). Needs to be chased to Boss Door.
+- **Access**: Likely via B1F (Stairs or Hole near where Silver was?).
 
 ## Map Insights
 - **B1F Vertical Wall (x=6)**: Divides West/East.
