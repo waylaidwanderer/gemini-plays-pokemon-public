@@ -47,7 +47,7 @@
 - **Murkrow**: Confirmed on B2F (Central Room).
 - **Hypothesis**: Path behind Warp Trap leads to stairs accessing B2F Central Room.
 - **Map Connectivity**: B2F East Corridor blocked at Row 10 (Wall). Must use B1F to travel between South East and North East.
-- Machines at (4, 13) and (6, 13): Confirmed Oath machines. No switch.
+- Machines at (4, 13), (6, 13), and (7, 13): Confirmed Oath machines. No switch.
 - Floor tile at (3, 16) has a Geodude graphic but is walkable. Likely decoration or disabled trap.
 - Computers at (9, 14) and (10, 14): Inert.
 - Computer at (11, 14): Inert from Right side.
