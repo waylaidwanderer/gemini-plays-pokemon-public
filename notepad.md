@@ -3,16 +3,19 @@
 - **3_51**: B1F (Main Floor). Includes West Rooms, East Rooms, and North Central (Hidden Office).
 - **3_50**: B2F (Basement). Includes Boss Room, Northern Corridor, West Mid Room.
 
+## Strategy
+- Move aside (to 8,3) to let Murkrow pass.
+- Chase Murkrow to Boss Door on B2F.
+
 ## Murkrow Intel
-- **Target**: Murkrow currently at B1F (8, 3).
+- **Target**: Murkrow at B1F (7, 2).
 - **Voice ID**: Required for Boss Door.
-- **Password**: "HAIL GIOVANNI" (Learned from Murkrow).
+- **Password**: "HAIL GIOVANNI".
 
 ## Map Insights
 - **B1F Vertical Wall (x=6)**: Divides West/East.
 - **Crossing**: Gap at (6, 10) is the key connection point.
 - **B2F Ledge**: Likely a one-way drop from B2F (3, 4) going South.
-- **B2F x=7**: Murkrow is here. Needs access.
 
 ## Map Connections
 - **B1F NW (3, 2)** <-> **B2F West (3, 2)**.
