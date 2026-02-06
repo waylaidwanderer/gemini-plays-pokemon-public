@@ -13,8 +13,9 @@
 - **TYPE_8564 (Stairs/Warps)**: Walking ONTO this tile triggers a warp. EXCLUDE from pathfinding when navigating on the same floor.
 
 ## Status & Intel
-- **Murkrow**: Located at B1F (7, 2). Approach from South via gap at (6, 10), accessible from West side (Stairs 3, 2).
-- **Route**: Use B2F North Corridor (Row 1) to cross from West (3, 2) to East (27, 2).
+- **Murkrow**: Fled from B1F (7, 2). Believed to be in B2F Central Room (22, 9).
+- **Route**: B1F (3, 2) -> B2F (3, 2) -> B2F North Corridor -> B2F (27, 2) -> B1F (27, 2).
+- **Goal**: Reach B1F NE Room to find Hidden Switch #2.
 - **Gate 1**: B2F (3, 8) locked. Bypassing via B2F North Corridor.
 - **Shutters**: B1F (14, 11) confirmed LOCKED.
 - **Stairs B1F (27, 2) <-> B2F (27, 2)**: East side.
