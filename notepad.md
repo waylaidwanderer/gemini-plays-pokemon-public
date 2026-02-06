@@ -5,17 +5,14 @@
 
 ## Current Status
 - **Location**: B1F North Central (Lore Room).
-- **Goal**: Reach B2F North East via B1F East Corridor.
-- **Key Items**: Passwords "RATICATE TAIL", "HAIL GIOVANNI".
-
-## Navigation Plan
-- **Route**: Exit North Central via Fake Wall (10, 9) -> South to Row 16 -> East to Col 28 -> North to Stairs (27, 2).
-- **Objective**: Access the blocked NE section of B2F, hoping it connects to the Boss area or Silver.
+- **Goal**: Find Security Switch (Likely near Mitch or in B1F SE).
+- **Boss Door**: Passwords "RATICATE TAIL" + "HAIL GIOVANNI" FAILED. Door stuck.
+- **Current Task**: Re-investigate Scientist Mitch and machines in B1F SW/Central.
 
 ## Key Blockages
-- **Boss Door (B2F)**: Needs Voice ID.
-- **Shutters (B1F Row 11)**: Locked. Need Switch.
-- **Silver (B1F NW)**: Blocked by wall.
+- **Boss Door (B2F)**: Passwords failed. Needs Switch?
+- **Shutters (B1F Row 11)**: Locked.
+- **Silver (B1F NW)**: Blocked.
 
 ## Leads
 - **Scientist Mitch**: Found at (11, 15), passive so far.
