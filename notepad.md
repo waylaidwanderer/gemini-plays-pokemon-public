@@ -52,9 +52,6 @@
 - **Next Action**: Investigating potential "Warp Trap" at (2, 11) in SW Room. It might jump the wall to the NW section.
 - **Blockage Alert**: Tile (4, 15) appears impassable.
 - **Route Adjustment**: To access the right side of the room (Cols 6-8), use the upper path via Row 12 or lower via Row 16.
-- **B2F Navigation**: Row 1 is a continuous corridor connecting NE and NW rooms.
-- **B2F NW**: Stairs at (3, 6) lead to a Locked Door at (3, 8).
-- **Hidden Path**: Col 19 and Col 26 are connected by Row 9 behind the computers.
-- **Route**: (19, 10) -> (19, 9) -> East to (26, 9) -> North to (26, 2) -> Stairs (27, 2).
-- **Goal**: Use this route to reach B1F NW via B2F Express Corridor.
-- **Switch Hunt**: Check computers along Row 9/10 while passing.
+- **Hidden Route**: Found passage behind computers (Row 9). Connects (19, 10) to NE Stairs (27, 2).
+- **Strategy**: Take NE Stairs (27, 2) down to B2F. Use B2F Row 1 Corridor to reach NW Stairs (3, 2).
+- **Goal**: Access B1F NW Area (Boss Room/Security Switch location?).
