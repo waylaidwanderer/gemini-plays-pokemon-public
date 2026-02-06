@@ -34,3 +34,4 @@
 - **B1F SE Room**: Cleared. Ross defeated.
 - **B1F SW Room**: Cleared. Mitch defeated.
 - **B1F NW/NE**: Mostly corridors.
+- **Route to Switch #2 (NE Room)**: B1F(3, 6) -> B2F(3, 6) -> B2F North Corridor -> B2F(27, 2) -> B1F(27, 2) -> Walk South to (27, 11).
