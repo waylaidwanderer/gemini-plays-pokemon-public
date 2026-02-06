@@ -36,3 +36,5 @@
 - **TYPE_63e2**: Shutters (Likely locked/solid).
 - **TYPE_8564**: Stairs/Warps.
 - **Password**: "HAIL GIOVANNI" (Learned from Murkrow at B1F (7, 1)).
+- **Murkrow Movement**: Spotted moving South on B2F (around x=7) or B1F. Likely fleeing towards the password room.
+- **Silver Status**: Assuming he moved after I got the password.
