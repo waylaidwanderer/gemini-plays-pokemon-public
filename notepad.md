@@ -28,7 +28,7 @@
   - NW: (3, 6) <-> (3, 6)
   - NE: (27, 2) <-> (27, 2)
   - SE: (27, 14) <-> (27, 14)
-- **Obstacles**: Grunt at B2F (4, 1) blocks East-West in North Corridor. Bypass via B1F (3, 2).
+- **Obstacles**: Grunt at B2F (4, 1) can be bypassed by walking South of him at (4, 2). B2F North Corridor is navigable.
 
 ## Cleared Areas (Do Not Re-Check)
 - **B1F SE Room**: Cleared. Ross defeated.
