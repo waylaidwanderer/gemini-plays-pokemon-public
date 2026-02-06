@@ -25,3 +25,5 @@
 - **Password Acquired**: "HAIL GIOVANNI" (Voice ID).
 
 - **Obstacle**: Grunt detected at B2F (4, 1) blocking the North Corridor. Must be defeated or bypassed.
+- **Boss Door Status**: Rejects passwords. Theory: Gates must be opened in order.
+- **Current Plan**: Backtrack to Gate 1 at B2F (3, 8).
