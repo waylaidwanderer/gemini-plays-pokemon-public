@@ -34,3 +34,5 @@
 - **TYPE_63e2**: Shutters (Likely locked/solid).
 - **TYPE_8564**: Stairs/Warps.
 - **Password**: "HAIL GIOVANNI" (Learned from Murkrow at B1F (7, 1)).
+- **Update**: Murkrow disappeared from (7, 2). Chase active!
+- **Route**: Wall at x=15 is solid North. Must go South to gap at (15, 13) to cross East.
