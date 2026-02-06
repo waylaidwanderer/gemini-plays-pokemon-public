@@ -4,9 +4,13 @@
 - **3_50**: B2F (Basement). Includes Boss Room, Northern Corridor, West Mid Room.
 
 ## Current Status
-- **Location**: B1F East (Switch Room).
-- **Goal**: Get Murkrow Voice ID (West Side).
-- **Strategy**: Activate switch at (19, 11). Navigate North to Row 3, cross West to Col 17, go South to Row 13, cross West at (15, 13) to reach Murkrow.
+- **Location**: B2F East (Corridor).
+- **Goal**: Reach B1F NW via B2F North Corridor.
+- **Strategy**: Go North from (27, 14) to Row 1, West to (3, 2), Up to B1F. Then investigate Silver/Murkrow access.
+
+## Murkrow Intel
+- **Marker**: B2F (22, 9). Room appears isolated on B2F.
+- **Hypothesis**: Entry is likely via stairs or trapdoor from B1F (Hidden Office?).
 
 ## Map Insights
 - **East-West Connection**: Blocked at most rows. 
