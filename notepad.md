@@ -13,7 +13,7 @@
 - **TYPE_8564 (Stairs/Warps)**: Walking ONTO this tile triggers a warp. EXCLUDE from pathfinding when navigating on the same floor.
 
 ## Status & Intel
-- **Murkrow**: Trapped in B2F Center Room (approx x=22, y=9).
+- **Murkrow**: Visible at B1F (7, 2) (West Room), but currently inaccessible from West side.
 - **Executive**: Defeated in B1F North East Room.
 - **Passwords**: "RATICATE TAIL" (Gate 1), "HAIL GIOVANNI" (Gate 2).
 - **Boss Door**: Locked. Needs Voice ID?
