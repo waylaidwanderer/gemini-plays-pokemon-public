@@ -4,17 +4,17 @@
 - **3_50**: B2F (Basement). Includes Boss Room, Northern Corridor, West Mid Room.
 
 ## Current Status
-- **Location**: B1F NE (Stairs).
-- **Goal**: Reach Murkrow (B1F NW).
-- **Strategy**: Take stairs at (27, 2) DOWN to B2F. Traverse B2F North Corridor West to (3, 2). Take stairs UP to B1F NW.
+- **Location**: B1F West (Viewing Room).
+- **Goal**: Confront Silver at B1F (7, 2).
+- **Strategy**: Go South to Row 10, Cross East through gap at (6, 10), Go North to (7, 3) to talk to Silver.
 
 ## Murkrow Intel
-- **Target**: Murkrow is in B1F NW section (accessible via B2F North Corridor).
-- **Route**: B1F (27, 2) -> B2F (27, 2) -> B2F (3, 2) -> B1F (3, 2).
+- **Target**: Murkrow at B1F (7, 1), blocked by Silver at (7, 2).
+- **Voice ID**: Required for Boss Door. Need to chase/interact with Murkrow.
 
 ## Map Insights
-- **B2F North Corridor**: Connects East and West sides (bypasses B1F walls).
-- **B1F East-West**: Blocked by wall at x=15 (except for southern gaps).
+- **B1F Vertical Wall (x=6)**: Divides West/East.
+- **Crossing**: Gap at (6, 10) is the key connection point.
 
 ## Map Connections
 - **B1F NW (3, 2)** <-> **B2F West (3, 2)**.
