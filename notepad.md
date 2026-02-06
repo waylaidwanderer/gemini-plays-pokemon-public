@@ -32,7 +32,7 @@
 - Checked (Row 14): (9, 14), (10, 14), (11, 14) [Inert].
 - Checked (Row 11): (11, 11), (12, 11), (13, 11) [Inert].
 - Checked (Row 13): Checking (9-11, 13).
-- Checking Row 11/13 corridor (Cols 8-10).
+- Checking East Cluster: (8, 11), (7, 12), (7, 13), (9, 13).
 - **Hypothesis**: Must bring Murkrow to the door.
 - **Murkrow Strategy**: Murkrow is at B2F (22, 9) (Central Room). Access is blocked from East. Must reach from West (behind Locked Gate).
 - **Warp Trap at B1F (26, 9)**: DISABLED.
