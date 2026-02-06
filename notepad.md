@@ -4,13 +4,11 @@
 - **3_50**: B2F (Basement). Includes Boss Room, Northern Corridor, West Mid Room.
 
 ## Strategy
-- Finish interaction with Murkrow at B1F (7,2).
-- Move South to (7,4) to unblock Murkrow's path.
-- Chase Murkrow to Boss Door on B2F.
+- Navigate to Boss Door at B2F (23, 14) via Northern Corridor and B1F East side.
+- Check if Murkrow/Password opened the door.
 
 ## Murkrow Intel
-- **Target**: Murkrow at B1F (7, 2).
-- **Voice ID**: Required for Boss Door.
+- **Status**: Password obtained. Murkrow should be at Boss Door.
 - **Password**: "HAIL GIOVANNI".
 
 ## Map Insights
