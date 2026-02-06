@@ -39,9 +39,12 @@
 - **Current Strategy**: Navigate to (13, 1) to check other machines. Approach Murkrow from North (7, 1) en route.
 - **Murkrow**: Stuck at (7, 2). Needs to be moved.
 - **Passwords**: "RATICATE TAIL", "HAIL GIOVANNI". (Maybe "SLOWPOKETAIL"?).
-- **Map Connectivity**: B2F East side is vertically split by a wall. Cannot walk from (27, 14) to (27, 2) on B2F. Must use B1F.
-- **Map Connectivity**: B1F (15, 3) is a wall. Cannot walk East-West on Row 3. Must use B2F North Corridor to cross between NW and NE sectors.
-- **Map Connectivity**: Column 6 is a wall from Row 0 to Row 9. To access the "Mid West" area (Murkrow) from the "Far West" area (Entrance), must go south to the gap at (6, 10).
-- **Murkrow Strategy**: Murkrow at (7, 2) has the "Voice" needed for the Boss Door. Must figure out how to transport/lead it to B2F or record it.
-- **NW Room**: TYPE_3fe2 tiles ARE present (fake machines). Might hold secrets.
-- **Boss Door Check**: Tried opening with password knowledge but without Murkrow present. Failed (Silent/Locked). Confirms Murkrow must be herded/present.
+- **Murkrow Strategy**: Murkrow at (7, 2). Needs to be herded to Boss Door (B2F 23,14) or stairs leading there.
+  - **Plan**: Try to flank it from the North at (7, 1) to push it South. Then push East.
+- **Map Connectivity (B1F <-> B2F)**:
+  - **NW**: (3, 1) <-> (3, 2) (Secret Stairs).
+  - **NE**: (27, 2) <-> (27, 2).
+  - **SE**: (27, 14) <-> (27, 14).
+  - **Warp Trap**: B1F (26, 9) disabled.
+- **Locked Areas**: B1F Shutters (14/15, 11), B2F Gate (3, 8).
+- **Passwords**: "RATICATE TAIL", "HAIL GIOVANNI".
