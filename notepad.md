@@ -34,7 +34,6 @@
 - **B1F SE Room**: Cleared. Ross defeated.
 - **B1F SW Room**: Cleared. Mitch defeated.
 - **B1F NW/NE**: Mostly corridors.
-- **Route to Switch #2 (NE Room)**: B1F(3, 6) -> B2F(3, 6) -> B2F North Corridor -> B2F(27, 2) -> B1F(27, 2) -> Walk South to (27, 11).
 - **Switch #2 Search**: NE Room thorough search yielded an item but no switch. Critique suggests checking NW Room (near Murkrow).
 - **Murkrow Strategy**: Failed to herd from (7, 3). Must try approaching from different angles or clearing obstacles first.
 - **B2F Marker**: "Murkrow (Inside?)" at (22, 9) is inaccessible. Likely where it flees to.
