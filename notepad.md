@@ -9,9 +9,9 @@
 - Open Boss Door at B2F (23, 14) with Password.
 
 ## Murkrow Intel
-- **Status**: Password "HAIL GIOVANNI" obtained (supposedly).
+- **Status**: Currently reading password text (stuck on "The password is...").
 - **Location**: Currently at B1F (7, 2).
-- **Action Required**: Talk to Murkrow, finish dialogue, then move out of the way (South or East) to let it fly.
+- **Action Required**: Advance text to see "HAIL GIOVANNI", then move.
 - **Destination**: Boss Door at B2F (23, 14).
 
 ## Map Insights
