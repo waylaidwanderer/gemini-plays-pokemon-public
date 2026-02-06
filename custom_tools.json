@@ -113,57 +113,6 @@
       }
     ]
   },
-  "bump_scan_line": {
-    "description": "Moves in a primary direction (Up, Down, Left, Right) and bumps perpendicular (Check Dir) at each step.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "start_val": {
-          "type": "integer",
-          "description": "Starting coordinate (X for horizontal, Y for vertical)"
-        },
-        "end_val": {
-          "type": "integer",
-          "description": "Ending coordinate"
-        },
-        "move_axis": {
-          "type": "string",
-          "enum": [
-            "X",
-            "Y"
-          ],
-          "description": "Axis to move along"
-        },
-        "check_direction": {
-          "type": "string",
-          "enum": [
-            "Up",
-            "Down",
-            "Left",
-            "Right"
-          ]
-        },
-        "autopress_buttons": {
-          "type": "boolean"
-        }
-      },
-      "required": [
-        "start_val",
-        "end_val",
-        "move_axis",
-        "check_direction",
-        "autopress_buttons"
-      ]
-    },
-    "python_script": "\nimport json\n\ndef run(input_data):\n    start_val = input_data['start_val']\n    end_val = input_data['end_val']\n    move_axis = input_data['move_axis']\n    check_direction = input_data['check_direction']\n    \n    buttons = []\n    \n    steps = abs(end_val - start_val)\n    \n    if move_axis == \"X\":\n        move_btn = \"Right\" if end_val > start_val else \"Left\"\n    else:\n        move_btn = \"Down\" if end_val > start_val else \"Up\"\n        \n    for _ in range(steps + 1):\n        buttons.append(check_direction)\n        if _ < steps:\n            buttons.append(move_btn)\n            \n    print(json.dumps(buttons))\n",
-    "history": [
-      {
-        "commit_message": "Refactored to support vertical scanning and fixed JSON output.",
-        "timestamp": "2026-02-05T04:06:02.662Z",
-        "action_counter": 28793
-      }
-    ]
-  },
   "buy_current_item": {
     "description": "Automates the purchase of the currently selected item in a shop menu by setting the quantity and confirming. Assumes the cursor is already on the desired item.",
     "input_schema": {
