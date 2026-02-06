@@ -14,6 +14,7 @@
 
 ## Status & Intel
 - **Murkrow**: Trapped in B2F Center Room (approx x=22, y=9).
+- **Executive**: Found at B1F North East Room (Row 2, around x=23/24).
 - **Passwords**: "RATICATE TAIL" (Gate 1), "HAIL GIOVANNI" (Gate 2).
 - **Boss Door**: Locked. Needs Voice ID?
 - **Key Location**: B1F (14, 1) - Suspicious gap.
