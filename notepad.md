@@ -35,4 +35,9 @@
 - **TYPE_8564**: Stairs/Warps.
 - **Password**: "HAIL GIOVANNI" (Learned from Murkrow at B1F (7, 1)).
 - **Update**: Murkrow disappeared from (7, 2). Chase active!
-- **Route**: Wall at x=15 is solid North. Must go South to gap at (15, 13) to cross East.
+- **Route**: B1F Central (Row 11) is blocked. Must take Long Loop:
+  1. Exit Office to West side via (6, 10).
+  2. Take Stairs B1F (3, 2) -> B2F (3, 2).
+  3. Northern Corridor to B2F (27, 2).
+  4. Stairs B2F (27, 2) -> B1F (27, 2).
+  5. South to B1F (27, 14) -> B2F (27, 14) -> Boss Door.
