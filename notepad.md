@@ -23,5 +23,5 @@
 - Hidden Switch found at B1F (19, 11) opened the path to the Executive.
 - **Observation**: Row 13 in South West room is blocked by machines/walls (TYPE_1fdc, TYPE_2889). Gap appears to be at Column 8/9.
 - **Password Acquired**: "HAIL GIOVANNI" (Voice ID).
-- **Next Step**: Return to Boss Door at B2F (23, 14) via B1F East Stairs (27, 14).
+
 - **Obstacle**: Grunt detected at B2F (4, 1) blocking the North Corridor. Must be defeated or bypassed.
