@@ -24,3 +24,4 @@
 - **Stairs B1F (27, 2) <-> B2F (27, 2)**: East side.
 - **Stairs B1F (3, 6) <-> B2F (3, 6)**: West Mid.
 - **Stairs B1F (27, 14) <-> B2F (27, 14)**: South East.
+- Hidden Switch found at B1F (19, 11) opened the path to the Executive.
