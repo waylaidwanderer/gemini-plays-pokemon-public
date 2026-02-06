@@ -38,9 +38,12 @@
   4. Locate Hidden Switch #2 in SW Room.
 - **Murkrow**: Confirmed on B2F (Central Room).
 - **Hypothesis**: Path behind Warp Trap leads to stairs accessing B2F Central Room.
-- **Grunt at (24, 14)**: Check if passable.
-- **Trap at (24, 11)**: Marked as "Disabled" but double check if it's relevant.
-- **Map Connectivity**: (27, 10) is a Wall, preventing direct North travel.
+- **Grunt at (24, 14)**: Defeated by Lance ("The guy in the cape...").
+- **Trap at (24, 11)**: Disabled.
+- **Trap at (25, 11)**: Likely disabled (grouped).
+- **Map Connectivity**: 
+  - Wall at B1F Row 13, Col 18-20 prevents Westward travel from SE Room.
+  - Must use Stairs at (27, 14) to B2F to reach SW Room.
 - **Murkrow**: Confirmed on B2F (Central Room).
 - **Hypothesis**: Path behind Warp Trap leads to stairs accessing B2F Central Room.
 - **Map Connectivity**: B2F East Corridor blocked at Row 10 (Wall). Must use B1F to travel between South East and North East.
