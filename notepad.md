@@ -41,3 +41,5 @@
 - **Map Connectivity**: B2F East side is vertically split by a wall. Cannot walk from (27, 14) to (27, 2) on B2F. Must use B1F.
 - **Map Connectivity**: B1F (15, 3) is a wall. Cannot walk East-West on Row 3. Must use B2F North Corridor to cross between NW and NE sectors.
 - **Map Connectivity**: Column 6 is a wall from Row 0 to Row 9. To access the "Mid West" area (Murkrow) from the "Far West" area (Entrance), must go south to the gap at (6, 10).
+- **Murkrow Strategy**: Murkrow at (7, 2) has the "Voice" needed for the Boss Door. Must figure out how to transport/lead it to B2F or record it.
+- **NW Room**: TYPE_3fe2 tiles ARE present (fake machines). Might hold secrets.
