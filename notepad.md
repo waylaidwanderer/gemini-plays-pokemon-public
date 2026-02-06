@@ -26,7 +26,7 @@
 
 - **Obstacle**: Grunt at B2F (4, 1) is a permanent blocker. Cannot pass.
 - **Machine at (7, 13)**: Confirmed as Oath machine. No switch.
-- **Boss Door Status**: Rejects passwords. Theory: Gates must be opened in order OR I messed up the interaction.
-- **Current Plan**: Retry Boss Door at B2F (23, 14) with extreme prejudice.
-- Boss Door at B2F (23, 14) remained locked even after obtaining "HAIL GIOVANNI".
-- Hypothesis: This gate at B2F (3, 8) must be opened first, or "HAIL GIOVANNI" is for this gate.
+- **Boss Door Status**: Rejects manual password entry.
+- **New Hypothesis**: The "Voice ID" requires the Murkrow to be physically present at the door to screech the password.
+- **Current Plan**: Find the Murkrow (fled to B2F) and lead it to the Boss Door.
+- **Murkrow Location**: Marker at B2F (22, 9). Access likely via North East area.
