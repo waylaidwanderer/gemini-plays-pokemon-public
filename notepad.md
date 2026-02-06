@@ -22,3 +22,8 @@
 ## Leads
 - **Scientist Mitch**: Found at (11, 15), passive so far.
 - **Generator Room**: Mentioned in lore, might be the key to the shutters.
+## Tile Types (B1F/B2F)
+- **TYPE_3fe2**: Walkable Floor (Blue Checkered).
+- **TYPE_2889**: Obstacle (Brown Walls/Desks).
+- **TYPE_63e2**: Shutters (Likely locked/solid).
+- **TYPE_8564**: Stairs/Warps.
