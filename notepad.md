@@ -36,6 +36,7 @@
   - (9, 12): Checked N(9,11)/S(9,13) [Inert].
   - (10, 12): Checked N(10,11)/S(10,13) [Inert].
   - (11, 12): Checked N(11,11)/S(11,13) [Inert].
+  - (11, 11): Confirmed Walkable (Fake Machine).
   - Result: No switch found in Inner Corridor.
 - **Next Step**: Investigate Gap at (15, 13) and area behind shutters.
 - **Anomalies**: Row 12 tiles (9-11, 12) have machine graphics but are walkable (TYPE_3fe2). Investigating.
