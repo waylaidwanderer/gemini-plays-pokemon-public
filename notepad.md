@@ -35,8 +35,8 @@
 - **B1F SE Room**: Cleared. Ross defeated.
 - **B1F SW Room**: Cleared. Mitch defeated.
 - **B1F NW/NE**: Mostly corridors.
-- **Switch #2 Search**: NE Room cleared. Found "SLOWPOKETAIL" (Intel/Item?). No switch found.
-- **Current Strategy**: Return to NW Room via Secret Passage (19, 10). Investigate Murkrow surroundings and NW corner for Switch #2.
+- **Switch #2 Search**: Checked machines at B1F NW (Row 0, Cols 1-5). Nothing found. Found Stairs at (3, 1).
+- **Current Strategy**: Navigate to (13, 1) to check other machines. Approach Murkrow from North (7, 1) en route.
 - **Murkrow**: Stuck at (7, 2). Needs to be moved.
 - **Passwords**: "RATICATE TAIL", "HAIL GIOVANNI". (Maybe "SLOWPOKETAIL"?).
 - **Map Connectivity**: B2F East side is vertically split by a wall. Cannot walk from (27, 14) to (27, 2) on B2F. Must use B1F.
