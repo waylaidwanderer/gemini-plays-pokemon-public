@@ -4,8 +4,9 @@
 - **3_50**: B2F (Basement). Includes Boss Room, Northern Corridor, West Mid Room.
 
 ## Murkrow Intel
-- **Target**: Murkrow seen on B2F at (7, 5), (7, 7), (7, 9).
-- **Voice ID**: Required for Boss Door. Need to chase/interact with Murkrow.
+- **Target**: Murkrow currently at B1F (8, 3).
+- **Voice ID**: Required for Boss Door.
+- **Password**: "HAIL GIOVANNI" (Learned from Murkrow).
 
 ## Map Insights
 - **B1F Vertical Wall (x=6)**: Divides West/East.
