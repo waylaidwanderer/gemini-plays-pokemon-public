@@ -21,3 +21,4 @@
 - **Stairs B1F (3, 6) <-> B2F (3, 6)**: West Mid.
 - **Stairs B1F (27, 14) <-> B2F (27, 14)**: South East.
 - Hidden Switch found at B1F (19, 11) opened the path to the Executive.
+- **Observation**: Row 13 in South West room is blocked by machines/walls (TYPE_1fdc, TYPE_2889). Gap appears to be at Column 8/9.
