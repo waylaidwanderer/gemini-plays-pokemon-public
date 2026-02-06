@@ -57,11 +57,14 @@
   - Scientist Mitch: Defeated.
 
 ### Current Objective
-- Checking NE Room Aisle (Col 28):
-  - Checked Rows 4-11. Result: Negative.
-  - Checking Rows 12-15 (Col 29) now.
-  - Checking Rows 9-11 (Col 27 - West Face) next.
-- **Route**: Exit Aisle South at Row 15, then loop up to Col 26.
+- Checking NE Room Machine Bank (West Face - South):
+  - (27, 13): Checking (Shutter?).
+  - (27, 12): Checking (Shutter?).
+  - (27, 11): Checking (Machine - Prime Candidate).
+  - (27, 10): Checking (Machine).
+  - (27, 9): Checking (Machine).
+- **Previous Checks**: NE Room Rows 4-8 (West/East faces) were negative.
+- **Hypothesis**: Switch is at (27, 11), symmetric to (19, 11).
 
 ### Mechanics Verified
 - **"Fake Machines"**: Tiles with machine graphics but `TYPE_3fe2` collision are WALKABLE. Used to hide secret passages (e.g., 19, 10).
