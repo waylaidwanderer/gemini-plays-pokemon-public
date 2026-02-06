@@ -6,7 +6,7 @@
 ## Current Status
 - **Location**: B1F (3, 6). Just arrived from B2F.
 - **Goal**: Confront Silver at B1F (7, 2).
-- **Strategy**: Go East to (10, 10). Go North through the Fake Wall at (10, 9). Go North-West to (7, 3) to talk to Silver.
+- **Strategy**: Go East along the northern corridor to stairs at (27, 2). Go Up to B1F. Go South to (27, 14). Go Down to B2F. Go West to Boss Door at (23, 14).
 
 ## Murkrow Intel
 - **Target**: Murkrow at B1F (7, 1), blocked by Silver at (7, 2).
