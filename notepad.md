@@ -28,11 +28,10 @@
 - **Machine at (7, 13)**: Confirmed as Oath machine. No switch.
 - **Boss Door Status**: LOCKED. Requires "Voice ID".
 - **Hypothesis**: Must bring Murkrow to the door.
-- **Murkrow**: Fled to B2F North East. Access is likely via B1F South West corner (hidden warp/stairs?).
-- **Secret Passage (B1F 26, 10)**: Confirmed TRAPPED (Warp Trap at 26, 9). Leads to B1F South (21, 14).
-- **Grunt at B1F (28, 5)**: Confirmed WALKABLE (Moved onto tile). Not blocking.
+- **Murkrow**: Fled to B2F North East. Access via Stairs at B1F (27, 2).
+- **Corridor Col 28**: Confirmed OPEN. Bypasses Warp Trap at B1F (26, 9).
 - **Current Plan**:
-  1. Explore B1F North East area (around 27, 2).
-  2. Search for Second Hidden Switch to disable warp trap.
-  3. Enter Secret Passage at B1F (26, 10).
+  1. Go to B2F via Stairs at B1F (27, 2).
+  2. Search B2F North East area for Murkrow.
+  3. If not found, explore B2F North Corridor.
 - **Map Connectivity**: B2F East Corridor blocked at Row 10 (Wall). Must use B1F to travel between South East and North East.
