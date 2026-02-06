@@ -45,10 +45,14 @@
 - **Hypothesis**: Must bring Murkrow to the door.
 - **Murkrow Strategy**: Murkrow is at B2F (22, 9) (Central Room). Access is blocked from East. Must reach from West (behind Locked Gate).
 - **Warp Trap at B1F (26, 9)**: DISABLED.
-- Checking SE Room North Bank (Back Side):
-  - (23, 10), (22, 10), (21, 10), (20, 10): Checking now (Verification pass).
-- Checking SE Room North Wall (Row 6):
-  - (20, 6), (22, 6): Accessible.
+- Checking SE Room North Bank (from (23, 9)):
+  - (23, 10): Checking.
+  - (22, 10): Checking.
+  - (21, 10): Checking.
+  - (20, 10): Checking.
+- **Correction**: Player position re-verified at (23, 9). Previous assumptions of (20, 9) were incorrect.
+- **Plan**: After checking this bank, proceed to B1F NE Room (via East Corridor) if switch is not found.
+- **Target**: Hidden Switch #2 likely in NE Room (previously blocked by trap).
   - (21, 6): Blocked by Defeated Grunt at (21, 7).
 - Checking SE Room South Bank: (23, 13), (20, 13).
 - **Secret Passage**: (19, 10) confirmed. Connecting to Row 9.
