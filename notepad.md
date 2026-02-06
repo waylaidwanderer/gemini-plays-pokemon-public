@@ -30,13 +30,9 @@
 - **Hypothesis**: Must bring Murkrow to the door.
 - **Murkrow**: Fled to B2F North East. Access is likely via B1F South West corner (hidden warp/stairs?).
 - **Secret Passage (B1F 26, 10)**: Confirmed TRAPPED (Warp Trap at 26, 9). Leads to B1F South (21, 14).
-- **Grunt at B1F (28, 5)**: Blocking the East Corridor. Likely forces a detour via B2F North Corridor.
+- **Grunt at B1F (28, 5)**: Confirmed WALKABLE (Moved onto tile). Not blocking.
 - **Current Plan**:
-  1. Verify Grunt interaction (bump).
-  2. If blocked, return to B1F South (27, 14).
-  3. Travel West to B1F (3, 2).
-  4. Take Stairs to B2F (3, 2).
-  5. Cross B2F North Corridor to (27, 2).
-  6. Ascend to B1F (27, 2) (NE Area).
-  7. Search for Hidden Switch.
+  1. Explore B1F North East area (around 27, 2).
+  2. Search for Second Hidden Switch to disable warp trap.
+  3. Enter Secret Passage at B1F (26, 10).
 - **Map Connectivity**: B2F East Corridor blocked at Row 10 (Wall). Must use B1F to travel between South East and North East.
