@@ -34,8 +34,10 @@
 - Checked (Row 13): Checking (9-11, 13).
 - Checking Row 12 Corridor (Inner Face):
   - (9, 12): Checked N(9,11)/S(9,13) [Inert].
-  - (10, 12): Checking N(10,11)/S(10,13).
-  - (11, 12): Checking N(11,11)/S(11,13).
+  - (10, 12): Checked N(10,11)/S(10,13) [Inert].
+  - (11, 12): Checked N(11,11)/S(11,13) [Inert].
+  - Result: No switch found in Inner Corridor.
+- **Next Step**: Investigate Gap at (15, 13) and area behind shutters.
 - **Anomalies**: Row 12 tiles (9-11, 12) have machine graphics but are walkable (TYPE_3fe2). Investigating.
 - **Hypothesis**: Must bring Murkrow to the door.
 - **Murkrow Strategy**: Murkrow is at B2F (22, 9) (Central Room). Access is blocked from East. Must reach from West (behind Locked Gate).
