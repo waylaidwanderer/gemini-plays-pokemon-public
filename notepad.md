@@ -48,5 +48,5 @@
   - **Warp Trap**: B1F (26, 9) disabled.
 - **Locked Areas**: B1F Shutters (14/15, 11), B2F Gate (3, 8).
 - **Passwords**: "RATICATE TAIL", "HAIL GIOVANNI".
-- Location Update: Currently in B2F NE Room (Behind computers). Talking to Grunt at (4, 1).
-- Plan: Finish dialogue, check Voltorb/Item at (6, 0) or (8, 0), then backtrack East to (27, 1) to access Row 3 and check computers from the front.
+- Location Update: Finished dialogue with Grunt at (4, 1). Moving East to (27, 2) to loop around to the front of the computers.
+- Plan: Access Row 3 via (27, 2) -> (27, 3) and check computers from the front.
