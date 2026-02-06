@@ -4,17 +4,17 @@
 - **3_50**: B2F (Basement). Includes Boss Room, Northern Corridor, West Mid Room.
 
 ## Current Status
-- **Location**: B2F East (Corridor).
-- **Goal**: Get Murkrow Voice ID (B2F North).
-- **Strategy**: Move Left to x=19 to bypass Computer Wall, then go to (22, 9) to confront Murkrow/Grunt.
+- **Location**: B1F NE (Stairs).
+- **Goal**: Reach Murkrow (B1F NW).
+- **Strategy**: Take stairs at (27, 2) DOWN to B2F. Traverse B2F North Corridor West to (3, 2). Take stairs UP to B1F NW.
 
 ## Murkrow Intel
-- **Marker**: B2F (22, 9).
-- **Accessibility**: Accessible via gap at Row 10, Col 19.
+- **Target**: Murkrow is in B1F NW section (accessible via B2F North Corridor).
+- **Route**: B1F (27, 2) -> B2F (27, 2) -> B2F (3, 2) -> B1F (3, 2).
 
 ## Map Insights
-- **East-West Connection**: Blocked at most rows. 
-- **The Path**: Row 3 (East) -> Col 17 (Middle Strip) -> Row 12 (Corridor) -> West Side.
+- **B2F North Corridor**: Connects East and West sides (bypasses B1F walls).
+- **B1F East-West**: Blocked by wall at x=15 (except for southern gaps).
 
 ## Map Connections
 - **B1F NW (3, 2)** <-> **B2F West (3, 2)**.
