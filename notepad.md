@@ -1,14 +1,13 @@
 # Team Rocket HQ (Mahogany Town)
 ## Map IDs
-- **3_51**: B1F (Upper/Lower West, East Room).
-- **3_50**: B2F (Boss Room, Murkrow, Silver).
+- **3_51**: B1F (Main Floor). Includes West Rooms, East Rooms, and North Central (Hidden Office).
+- **3_50**: B2F (Basement). Includes Boss Room, Northern Corridor, West Mid Room.
 
 ## Current Status
-- **Location**: B1F North Central (Lore Room).
+- **Location**: B1F NW Room (Silver Viewing Area).
 - **Goal**: Get Murkrow Voice ID (Required for Boss Door).
-- **Strategy**: Flank Murkrow from the West/North.
-- **Current Route**: B2F West Mid Room -> Stairs (3, 14).
-- **Obstacles**: Locked Gate at B2F (3, 8). Bypassing via left wall.
+- **Strategy**: Flank Murkrow from the East (via Hidden Office).
+- **Route**: B1F NW (3, 2) -> B2F NW (3, 2) -> B2F NE (27, 2) -> B1F NE (27, 2) -> Hidden Office (10, 9).
 
 ## Map Connections
 - **B1F NW (3, 2)** <-> **B2F West (3, 2)**.
