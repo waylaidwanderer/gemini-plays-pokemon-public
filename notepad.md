@@ -26,8 +26,9 @@
 - **Password Acquired**: "HAIL GIOVANNI" (Voice ID).
 
 - **Obstacle**: Grunt at B2F (4, 1) is a permanent blocker. Cannot pass.
-- **Machine at (7, 13)**: Confirmed as Oath machine. No switch.
-- **Boss Door Status**: LOCKED. Requires "Voice ID".
+- **Scientist Mitch**: Defeated (confirmed by summary/behavior).
+- **Goal**: Reach Computer at (11, 14) by circling around Mitch via Row 16.
+- **Route**: (10, 15) -> (10, 16) -> (12, 16) -> (12, 14).
 - **Hypothesis**: Must bring Murkrow to the door.
 - **Murkrow Strategy**: Murkrow is at B2F (22, 9) (Central Room). Access is blocked from East. Must reach from West (behind Locked Gate).
 - **Warp Trap at B1F (26, 9)**: DISABLED.
