@@ -4,9 +4,9 @@
 - **3_50**: B2F (Basement).
 
 ## Current Strategy
-1. **Access Center Area**: Go to B1F (6, 10) gap to reach center.
-2. **Investigate**: Check gap at B1F (14, 1) and False Computer at B1F (19, 10).
-3. **Capture Murkrow**: Locate entry to B2F Center Room.
+1. **Investigate East Side**: Cross B1F via gap at (15, 13) to reach East area.
+2. **False Computer**: Interact with computer at B1F (19, 10).
+3. **Capture Murkrow**: Find access to B2F Center Room.
 4. **Boss Door**: Use passwords "RATICATE TAIL" and "HAIL GIOVANNI" at B2F (23, 14).
 
 ## Tile Mechanics
