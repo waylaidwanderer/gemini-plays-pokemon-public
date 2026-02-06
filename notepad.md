@@ -13,7 +13,7 @@
 - **TYPE_8564 (Stairs/Warps)**: Walking ONTO this tile triggers a warp. EXCLUDE from pathfinding when navigating on the same floor.
 
 ## Status & Intel
-- **Murkrow**: Last seen at B1F (7, 2). Needs to be approached from East side (blocked from West).
+- **Murkrow**: Located at B1F (7, 2). Accessible via the gap at (6, 10) from the North-West (B1F 3, 2).
 - **Route**: Use B2F North Corridor (Row 1) to cross from West (3, 2) to East (27, 2).
 - **Gate 1**: B2F (3, 8) locked. Bypassing via B2F North Corridor.
 - **Shutters**: B1F (14, 11) confirmed LOCKED.
