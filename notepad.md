@@ -36,3 +36,4 @@
   2. Travel North to B2F (27, 2).
   3. Attempt to reach Grunt at B2F (22, 5).
   4. If blocked, search for 2nd Hidden Switch in B1F North East to disable warp trap.
+- **Map Connectivity**: B2F East Corridor blocked at Row 10 (Wall). Must use B1F to travel between South East and North East.
