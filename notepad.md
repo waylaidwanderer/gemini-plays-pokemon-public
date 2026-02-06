@@ -4,10 +4,9 @@
 - **3_50**: B2F (Basement). Includes Boss Room, Northern Corridor, West Mid Room.
 
 ## Current Status
-- **Location**: B1F NW Room (Silver Viewing Area).
-- **Goal**: Get Murkrow Voice ID (Required for Boss Door).
-- **Strategy**: Flank Murkrow from the East (via Hidden Office).
-- **Route**: B1F NW (3, 2) -> B2F NW (3, 2) -> B2F NE (27, 2) -> B1F NE (27, 2) -> Hidden Office (10, 9).
+- **Location**: B1F East Corridor (Row 3).
+- **Goal**: Get Murkrow Voice ID (West Side).
+- **Strategy**: Go South to switch at (19, 11), check shutters at (15, 11), then cross West via gap at (15, 13) if needed.
 
 ## Map Connections
 - **B1F NW (3, 2)** <-> **B2F West (3, 2)**.
