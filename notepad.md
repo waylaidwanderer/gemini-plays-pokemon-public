@@ -48,8 +48,8 @@
 - Checking SE Room North Bank (Back Side):
   - Checked (23, 10), (22, 10), (21, 10), (20, 10). Result: Negative.
 - Checking SE Room South Bank:
-  - (20, 13): Checking now.
-  - (23, 13): Checking next.
+  - (20, 13): Checking North/East faces.
+  - (23, 13): Checking West/North faces.
 - **Hypothesis**: If SE Room fails, the switch must be in the NE Room (where the trap was).
 - **Correction**: Player position re-verified at (23, 9). Previous assumptions of (20, 9) were incorrect.
 - **Plan**: After checking this bank, proceed to B1F NE Room (via East Corridor) if switch is not found.
