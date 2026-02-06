@@ -57,9 +57,13 @@
   - Scientist Mitch: Defeated.
 
 ### Current Objective
-- Checking NE Room Machine Bank (West Face):
-  - Checked (27, 5), (27, 6), (27, 7), (27, 8). Result: Negative.
-- **Next Step**: Loop around via Row 3 to check the East Face (Col 27) and West Face (Col 29) from Aisle 28.
+- Checking NE Room Aisle (Col 28):
+  - (27, 4): Checking East Face.
+  - (29, 4): Checking West Face.
+  - (27, 5): Checking East Face.
+  - (29, 5): Checking West Face.
+- **Hypothesis**: Switch is on one of these machines.
+- **Mechanics**: "Fake Machines" are walkable. Checking collision as I go.
 
 ### Mechanics Verified
 - **"Fake Machines"**: Tiles with machine graphics but `TYPE_3fe2` collision are WALKABLE. Used to hide secret passages (e.g., 19, 10).
