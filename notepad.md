@@ -26,7 +26,11 @@
 
 - **Obstacle**: Grunt at B2F (4, 1) is a permanent blocker. Cannot pass.
 - **Machine at (7, 13)**: Confirmed as Oath machine. No switch.
-- **Boss Door Status**: Rejects manual password entry.
-- **New Hypothesis**: The "Voice ID" requires the Murkrow to be physically present at the door to screech the password.
-- **Current Plan**: Find the Murkrow (fled to B2F) and lead it to the Boss Door.
-- **Murkrow Location**: Marker at B2F (22, 9). Access likely via North East area.
+- **Boss Door Status**: LOCKED. Requires "Voice ID".
+- **Hypothesis**: Must bring Murkrow to the door.
+- **Murkrow**: Fled to B2F North East. Access is likely via B1F South West corner (hidden warp/stairs?).
+- **Current Plan**:
+  1. Navigate to B1F South West Corner (3, 14).
+  2. Scour the area for hidden warps/stairs to B2F.
+  3. Reach B2F Central/North East area to find Murkrow.
+  4. Lead Murkrow to Boss Door.
