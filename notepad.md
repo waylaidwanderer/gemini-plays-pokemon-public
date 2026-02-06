@@ -14,10 +14,9 @@
 
 ## Status & Intel
 - **Boss Door**: B2F (23, 14). Requires Voice ID. Password "HAIL GIOVANNI" obtained.
-- **Murkrow**: Found at B1F (7, 2). Script may require fully finishing dialogue or unblocking path.
-- **Goal**: Trigger Murkrow departure OR Confirm password flag is set and return to Boss Door.
-- **Hypothesis**: Boss Door failure may be due to incomplete Murkrow script or wrong interaction tile.
-- **Route**: B1F (3, 2) <-> B2F (3, 2) is the main vertical connector.
+- **Murkrow**: Interaction complete. Assuming flag set.
+- **Goal**: Return to Boss Door and attempt entry from South (23, 15) or check adjacent terminals.
+- **Route**: B1F (3, 2) -> B2F (3, 2) -> B2F (27, 2) -> B1F (27, 2) -> B1F (27, 14) -> B2F (27, 14) -> Boss Door.
 - **Connection**: B1F North Corridor (Row 3) is BLOCKED at Cols 11-15. No direct East-West path on B1F North.
 - **Route to NW**: Must loop via B2F North Corridor: B1F(27,2) -> B2F(27,2) -> B2F(3,2) -> B1F(3,2).
 - **Gate 1**: B2F (3, 8) locked. Bypassing via B2F North Corridor.
