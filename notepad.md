@@ -53,5 +53,10 @@
 - Computer at (11, 14): Inert from Right side.
 - Corridor at Col 15: Leads to Locked Shutters at (15, 11) and (15, 10).
 ### Area Status: B1F SW Room
-- Checked & Inert: Row 17 (All), Row 13 (All), Computers (9-10, 14).
-- Pending: Computer at (11, 14) [Front blocked by Mitch], Walkable Machines at (9-10, 15).
+- Needs investigation. Suspected location of Hidden Switch #2.
+- Access via B1F SE Room (reached from B2F Stairs at 27,14).
+
+### Key Locations
+- **Trap**: B1F (26, 9). Leads to secret passage at (26, 10).
+- **Switch #1**: Found at B1F (19, 11).
+- **Boss Door**: B2F (23, 14). Needs Voice ID (Murkrow).
