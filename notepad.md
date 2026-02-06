@@ -58,8 +58,8 @@
 
 ### Current Objective
 - Checking NE Room Aisle (Col 28):
-  - Checked Rows 4-8 (Cols 27/29). Result: Negative.
-  - Checking Rows 9-11 (Cols 27/29).
+  - Checked Rows 4-8. Result: Negative.
+  - Checking Rows 9-11 (Cols 27/29) now.
 - **Hypothesis**: Hidden Switch #2 might be symmetric to Switch #1 (Row 11).
 - **Plan**: Finish Col 28 sweep, then check Trap Area at (26, 9).
 
