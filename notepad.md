@@ -35,3 +35,4 @@
 - **TYPE_2889**: Obstacle (Brown Walls/Desks).
 - **TYPE_63e2**: Shutters (Likely locked/solid).
 - **TYPE_8564**: Stairs/Warps.
+- **Password**: "HAIL GIOVANNI" (Learned from Murkrow at B1F (7, 1)).
