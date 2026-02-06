@@ -4,9 +4,9 @@
 - **3_50**: B2F (Basement). Includes Boss Room, Northern Corridor, West Mid Room.
 
 ## Current Status
-- **Location**: B2F (3, 6). Just came down via ledge from B2F (3, 2)?
+- **Location**: B1F (3, 6). Just arrived from B2F.
 - **Goal**: Confront Silver at B1F (7, 2).
-- **Strategy**: Take stairs UP to B1F (3, 6). Go South to Row 10. Cross East through gap at B1F (6, 10). Go North to B1F (7, 3) to talk to Silver.
+- **Strategy**: Go South to Row 10. Cross East through gap at B1F (6, 10). Go North to B1F (7, 3) to talk to Silver.
 
 ## Murkrow Intel
 - **Target**: Murkrow at B1F (7, 1), blocked by Silver at (7, 2).
