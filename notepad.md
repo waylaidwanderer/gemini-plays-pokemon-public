@@ -50,10 +50,10 @@
 - Checking SE Room South Bank (North Face):
   - Checked (23, 13), (24, 13), (25, 13). Result: Negative.
 - Checking SE Room South Bank (South Face):
-  - (20, 13): Checking now.
-  - (23, 13): Checking next.
-  - (25, 13): Checking next.
-- **Next Step**: If negative, proceed to B1F NE Room via East Corridor.
+  - Checked (20, 13), (23, 13), (25, 13). Result: Negative.
+- **SE Room Status**: Fully Investigated. No switch found.
+- **Next Target**: B1F NE Room (Trap Area).
+- **Hypothesis**: The switch is likely in the area previously blocked by the warp trap at (26, 9).
 - **Hypothesis**: If SE Room fails, the switch must be in the NE Room (where the trap was).
 - **Correction**: Player position re-verified at (23, 9). Previous assumptions of (20, 9) were incorrect.
 - **Plan**: After checking this bank, proceed to B1F NE Room (via East Corridor) if switch is not found.
