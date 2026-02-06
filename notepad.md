@@ -54,6 +54,7 @@
 - **Route Adjustment**: To access the right side of the room (Cols 6-8), use the upper path via Row 12 or lower via Row 16.
 - **B2F Navigation**: Row 1 is a continuous corridor connecting NE and NW rooms.
 - **B2F NW**: Stairs at (3, 6) lead to a Locked Door at (3, 8).
-- **Security Switch**: Located at (19, 10) disguised as a computer. It is walkable (`TYPE_3fe2`).
-- **Current Action**: Moving to enter the False Computer passage at (19, 10).
-- **Navigation**: Flanked Scientist Ross (23, 11) by using Row 12. Path is clear.
+- **Hidden Path**: Col 19 and Col 26 are connected by Row 9 behind the computers.
+- **Route**: (19, 10) -> (19, 9) -> East to (26, 9) -> North to (26, 2) -> Stairs (27, 2).
+- **Goal**: Use this route to reach B1F NW via B2F Express Corridor.
+- **Switch Hunt**: Check computers along Row 9/10 while passing.
