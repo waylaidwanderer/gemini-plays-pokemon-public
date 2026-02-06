@@ -49,27 +49,24 @@
   - Checked (23, 10), (22, 10), (21, 10), (20, 10). Result: Negative.
 - Checking SE Room South Bank (North Face):
   - Checked (23, 13), (24, 13), (25, 13). Result: Negative.
-- Checking SE Room South Bank (South Face):
-  - Checked (20, 13), (23, 13), (25, 13). Result: Negative.
-- **SE Room Status**: Fully Investigated. No switch found.
-- **Next Target**: B1F NE Room (Trap Area).
-- **Hypothesis**: The switch is likely in the area previously blocked by the warp trap at (26, 9).
-- **Hypothesis**: If SE Room fails, the switch must be in the NE Room (where the trap was).
-- **Correction**: Player position re-verified at (23, 9). Previous assumptions of (20, 9) were incorrect.
-- **Plan**: After checking this bank, proceed to B1F NE Room (via East Corridor) if switch is not found.
-- **Target**: Hidden Switch #2 likely in NE Room (previously blocked by trap).
-  - (21, 6): Blocked by Defeated Grunt at (21, 7).
-- Checking SE Room South Bank: (23, 13), (20, 13).
-- **Secret Passage**: (19, 10) confirmed. Connecting to Row 9.
-- **Note**: (21, 13) and (22, 13) are confirmed floor tiles (gaps in the bank).
-- **Murkrow**: Confirmed on B2F (Central Room).
-- **Hypothesis**: Path behind Warp Trap leads to stairs accessing B2F Central Room.
-- **Grunt at (24, 14)**: Defeated by Lance ("The guy in the cape...").
-- **Trap at (24, 11)**: Disabled.
-- **Trap at (25, 11)**: Likely disabled (grouped).
-- **Map Connectivity**: 
-  - Wall at B1F Row 13, Col 18-20 prevents Westward travel from SE Room.
-  - Must use Stairs at (27, 14) to B2F to reach SW Room.
+### Investigation Status
+- **B1F SE Room**: CLEARED. All machines checked. No switch.
+  - Scientist Ross: Defeated.
+  - Secret Passage: Found at (19, 10).
+- **B1F SW Room**: CLEARED. All machines checked. No switch.
+  - Scientist Mitch: Defeated.
+
+### Current Objective
+- **Target**: B1F NE Room (Trap Area).
+- **Hypothesis**: Hidden Switch #2 is in the area previously blocked by the trap at (26, 9) or in the corridor behind it.
+
+### Mechanics Verified
+- **"Fake Machines"**: Tiles with machine graphics but `TYPE_3fe2` collision are WALKABLE. Used to hide secret passages (e.g., 19, 10).
+- **Solid Machines**: `TYPE_2889` are standard collision.
+
+### Route
+- Use Secret Passage at (19, 10) to exit SE Room.
+- Head East to (26, 9).
 - **Murkrow**: Confirmed on B2F (Central Room).
 - **Hypothesis**: Path behind Warp Trap leads to stairs accessing B2F Central Room.
 - **Map Connectivity**: B2F East Corridor blocked at Row 10 (Wall). Must use B1F to travel between South East and North East.
