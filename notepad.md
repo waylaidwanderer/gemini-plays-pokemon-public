@@ -44,3 +44,4 @@
 - **Map Connectivity**: Column 6 is a wall from Row 0 to Row 9. To access the "Mid West" area (Murkrow) from the "Far West" area (Entrance), must go south to the gap at (6, 10).
 - **Murkrow Strategy**: Murkrow at (7, 2) has the "Voice" needed for the Boss Door. Must figure out how to transport/lead it to B2F or record it.
 - **NW Room**: TYPE_3fe2 tiles ARE present (fake machines). Might hold secrets.
+- **Boss Door Check**: Tried opening with password knowledge but without Murkrow present. Failed (Silent/Locked). Confirms Murkrow must be herded/present.
