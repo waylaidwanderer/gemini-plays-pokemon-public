@@ -48,4 +48,4 @@
   - **Warp Trap**: B1F (26, 9) disabled.
 - **Locked Areas**: B1F Shutters (14/15, 11), B2F Gate (3, 8).
 - **Passwords**: "RATICATE TAIL", "HAIL GIOVANNI".
-- Location Update: Currently in B2F NE Room. Checked (20, 2) - nothing. Checking (21, 2).
+- Location Update: Currently in B2F NE Room. Checked (20, 2) and (21, 2) - nothing. Checking (22, 2).
