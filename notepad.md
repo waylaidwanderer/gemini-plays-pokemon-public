@@ -57,8 +57,12 @@
   - Scientist Mitch: Defeated.
 
 ### Current Objective
-- **Target**: B1F NE Room (Trap Area).
-- **Hypothesis**: Hidden Switch #2 is in the area previously blocked by the trap at (26, 9) or in the corridor behind it.
+- Checking NE Room Machine Bank (West Face):
+  - (27, 5): Checking.
+  - (27, 6): Checking.
+  - (27, 7): Checking.
+  - (27, 8): Checking.
+- **Hypothesis**: Switch is on one of these machines or in the next aisle (Col 28).
 
 ### Mechanics Verified
 - **"Fake Machines"**: Tiles with machine graphics but `TYPE_3fe2` collision are WALKABLE. Used to hide secret passages (e.g., 19, 10).
