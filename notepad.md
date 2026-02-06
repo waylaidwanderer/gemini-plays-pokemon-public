@@ -9,9 +9,9 @@
 - Open Boss Door at B2F (23, 14) with Password.
 
 ## Murkrow Intel
-- **Status**: Currently reading password text (stuck on "The password is...").
-- **Location**: Currently at B1F (7, 2).
-- **Action Required**: Advance text to see "HAIL GIOVANNI", then move.
+- **Status**: Password "HAIL GIOVANNI" confirmed.
+- **Location**: Last seen at B1F (7, 2).
+- **Action Required**: Go to Boss Door.
 - **Destination**: Boss Door at B2F (23, 14).
 
 ## Map Insights
