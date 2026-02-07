@@ -56,10 +56,9 @@
 Mapping Note: TYPE_2889 is a solid wall/tree. Do not route through it.
 - B1F (27, 14): Verified standard floor, no hidden stairs found.
 - Security Switch (19, 11): Turned OFF.
-  - Result: Persian Statue (6, 1) eyes are "oddly shiny".
-  - Hypothesis: "OFF" = Security Active/Alarm Mode.
-  - Previous State (Switch ON): Statue was inert ("It's a Persian statue...").
-  - Plan: Check if "Shiny Eyes" state unlocks Secret Stairs or allows interaction with the statue.
+  - Result: Statue at (6, 1) reads "It's a PERSIAN statue...". No "shiny eyes" text observed on second check.
+  - Hypothesis: "OFF" = Security Active/Alarm Mode (Traps ON).
+  - Plan: Return to Shop (3_48). Grunt said "You found the secret stairs", implying they might be open now. Check Cabinet at (2, 3).
 - Navigation: Jed at (18, 12) blocks direct West path. Must flank via Row 13.
 - Silver at B2F (21, 12) blocks the only visible path North from the southern corridor.
 - Must find a way to B2F North (Row 9) from B1F (likely Northeast area).
