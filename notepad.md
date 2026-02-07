@@ -6,17 +6,19 @@
 - **Warps**: Valid B1F warps are (3, 14) [SW] and (27, 2) [Exit].
 
 ## Current Plan
-1. **Target**: Central Passage at (9, 4).
-2. **Navigate**: 
-   - Go East to (22, 11) (Defeated Grunt).
-   - Go North to Row 5.
-   - Go West to (9, 5).
-   - Go North through (9, 4).
-3. **Navigate**: To Stairs at (3, 14).
-   - From (9, 3) go West.
-   - Bypass Warp Trap at (4, 3) via (4, 4).
+1. **Escape Central Area**: 
+   - From (19, 12), go South to Row 13.
+   - Go West to (15, 13).
+   - Go North to (15, 11).
+2. **Navigate to Stairs**:
+   - From (15, 11), go West to (3, 11) avoiding traps where possible.
    - Go South to (3, 14).
-4. **Action**: Descend to B2F.
+3. **Action**: Descend to B2F.
+4. **Target**: Murkrow (B2F).
+
+## Map Connections
+- **B1F Central**: Exit via (15, 11) gap.
+- **B1F SW (3, 14)**: Stairs to B2F.
 
 ## Map Connections
 - **B1F Central (9, 4)**: Passage between North and Central corridors.
