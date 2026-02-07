@@ -49,7 +49,7 @@
 - **Locked Areas**: B1F Shutters (14/15, 11), B2F Gate (3, 8).
 - **Passwords**: "RATICATE TAIL", "HAIL GIOVANNI".
 - Location: B1F (8, 3).
-- Murkrow Puzzle: Murkrow at (7, 2) is cornered. Interacting from South (7, 3) failed (blocked?).
-- Hypothesis: Must push from West (6, 2) or East (8, 2).
-- Plan: Test (8, 2) (Desk) for fakeness. If solid, loop to West side (5, 2) to test (6, 2) (Wall).
-- Route to West: (8, 3) -> South to Row 10 -> West to (6, 10) -> North to (5, 2).
+- Murkrow Puzzle: Confirmed (8, 2) Desk is solid.
+- Hypothesis: The wall at (6, 2) must be a Fake Wall like (10, 9).
+- Action: Navigating to the West side (5, 2) to test (6, 2).
+- Route: (8, 3) -> South to (8, 10) -> West through Gap (6, 10) -> North to (5, 2).
