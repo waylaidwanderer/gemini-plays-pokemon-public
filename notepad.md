@@ -23,6 +23,6 @@
 - [Turn 31840] Statue at (24, 1): Identified as "PERSIAN statue" (Flavor).
 - [Turn 31840] Checking wall at (23, 0). If empty, proceeding to Shop Basement via stairs at (27, 2).
 - [Turn 31840] Note: (24, 1) is visually a Persian Statue, distinct from the alarm one at (6, 1).
-- [Turn 31882] Analysis: Computer Room (19, 8) is physically walled off.
-- [Turn 31882] Hypothesis: Security Switch (19, 11) must be ON to activate specific warps (like 19, 1) to enter the room.
-- [Turn 31882] Plan: Turn Switch ON, then test Warp at (19, 1) or others.
+- [Turn 31887] Text "The switch is turned off." displayed.
+- [Turn 31887] Action: Pressing 'A' repeatedly to advance text and select "Turn it on?".
+- [Turn 31887] Goal: Activate warps to reach Computer Room (19, 8).
