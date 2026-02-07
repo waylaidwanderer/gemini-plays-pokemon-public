@@ -34,3 +34,6 @@
 - Passwords learned (from history): "RATICATE TAIL", "HAIL GIOVANNI".
 - Persian Statue at (6, 1) is definitely inert.
 - Murkrow likely at B2F (22, 9).
+- Row 15 Connectivity: B1F East Wing (Col 24+) is connected to Central/West area via a corridor at Row 15/16.
+- B1F Staircase Inventory: (7, 3) [Up], (27, 2) [Up], (3, 14) [Down]. No independent B2F East stairs found yet.
+- Hypothesis: B2F East is reached from B2F West, or via a hidden mechanic (Warp? Hole?).
