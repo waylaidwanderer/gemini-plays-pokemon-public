@@ -6,11 +6,10 @@
 - **Silver**: Blocking B2F South.
 
 ## Current Plan
-1. **Exit SE Room**: Go North via Hidden Corridor to NE Room.
-2. **Target**: Grunt at B1F (13, 8).
-   - Hypothesis: Defeating him or interacting might open the Shutter at (15, 10) or trigger an event.
+1. **Navigate**: Go North through Fake Computer at (19, 8) to B1F North Corridor.
+2. **Target**: Grunt at B1F (13, 8). Check if battling him opens Shutter at (15, 10).
 3. **Check Shutter**: At B1F (15, 10).
-4. **Retry Stairs**: If all else fails, retry (3, 6) and (3, 1) with "A" press or different angle.
+4. **Backup**: If stuck, re-check stairs at (3, 6) or (3, 1).
 
 ## Map Connections
 - **B1F NE (25, 2)**: Warp Landing from SW Room.
