@@ -48,8 +48,7 @@
   - **Warp Trap**: B1F (26, 9) disabled.
 - **Locked Areas**: B1F Shutters (14/15, 11), B2F Gate (3, 8).
 - **Passwords**: "RATICATE TAIL", "HAIL GIOVANNI".
-- Location: B1F (3, 10).
-- Observation: Row 11 is blocked. Cannot cross to South B1F from here.
-- Plan: Use Stairs at (3, 6) to enter B2F.
-- Hypothesis: Passwords will open the Gate at B2F (3, 8), allowing access to the southern part of B2F and the Boss Door.
-- Murkrow: Leaving it for now. Password "HAIL GIOVANNI" obtained.
+- Location: B2F (3, 6) (West Corridor).
+- Action: Checking the Locked Gate at (3, 8).
+- Hypothesis: "RATICATE TAIL" or "HAIL GIOVANNI" might open it.
+- Backup: If gate remains locked, must find another way to the East side (perhaps Murkrow is strictly required for the Boss Door, and I need to solve the Murkrow puzzle on B1F).
