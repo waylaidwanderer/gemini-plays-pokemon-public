@@ -49,5 +49,6 @@
 - **Locked Areas**: B1F Shutters (14/15, 11), B2F Gate (3, 8).
 - **Passwords**: "RATICATE TAIL", "HAIL GIOVANNI".
 - Location Update: At B1F (14, 10). Shutter at (15, 10) is LOCKED.
-- Action: Backtracking to West Corridor to loop around the shutters via the South.
-- Path: (14, 10) -> West to (6, 10) -> South to (6, 12) -> East to (15, 12) (Gap) -> North to (19, 10) -> (27, 2).
+- Action: Moving West to the main corridor (x=3) to attempt to bypass Row 11 via the South.
+- Hypothesis: (3, 11) might be walkable (Mental Map says Wall, but Heatmap shows visits).
+- Path: (14, 10) -> West to (3, 10) -> Check South.
