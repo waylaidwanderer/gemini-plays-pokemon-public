@@ -48,8 +48,8 @@
   - **Warp Trap**: B1F (26, 9) disabled.
 - **Locked Areas**: B1F Shutters (14/15, 11), B2F Gate (3, 8).
 - **Passwords**: "RATICATE TAIL", "HAIL GIOVANNI".
-- Location: B1F (14, 10).
-- Situation: Was confused about position. Corrected to Central Room.
-- Plan: Go West to (6, 10), then North through Fake Wall (10, 9) to reach NE Stairs (27, 2).
-- Goal: Enter B2F via (27, 2) to bypass locked gates/shutters and reach Boss Door.
-- Murkrow: Located at (7, 2). My path via (10, 9) bypasses it, so I can proceed to B2F directly.
+- Location: B1F (10, 9).
+- Plan: Go to SE Stairs (27, 14) to reach Boss Door.
+- Route: (10, 9) -> South to (10, 10) -> West to (6, 10) -> South to (6, 12) -> East to (15, 12) -> North to (19, 10) -> East to (27, 14).
+- Goal: Enter B2F via (27, 14) to attempt opening Boss Door.
+- Murkrow: Bypassing for now.
