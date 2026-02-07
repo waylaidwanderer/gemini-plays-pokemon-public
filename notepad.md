@@ -18,5 +18,6 @@
 - (5, 15): Warp to East Side.
 - (27, 2): Stairs to Shop.
 - [Turn 31828] Persian Statue at (6, 1): "Its eyes are oddly shiny" (Flavor/Alarm).
-- [Turn 31831] Heading to East Wing via Warp (5, 15).
-- [Turn 31831] Hypothesis: Secret Stairs near "Inert Statue" (24, 1), "Inert Switch" (22, 14), or revealed by Alarm (24, 6).
+- [Turn 31835] Warped to East Wing (25, 2).
+- [Turn 31836] Investigating "Inert Statue" at (24, 1).
+- [Turn 31836] Hypothesis: Secret Stairs near "Inert Statue" (24, 1), "Inert Switch" (22, 14), or revealed by Alarm (24, 6).
