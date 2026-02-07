@@ -13,7 +13,8 @@
 - **Computer Room (19, 8)**: Accessed via central corridor (Row 9).
   - Currently investigating computer terminals for passwords/doors.
 - **East Wing**:
-  - "Secret Stairs" (Shop connection) = Dead end.
+  - "Secret Stairs" (Shop 2, 3) <-> B1F (7, 3) (West Wing)
+- "Back Stairs" (Shop 7, 3) <-> B1F (27, 2) (East Wing)
   - Switch at (22, 14) = Inert.
   - Statue at (24, 1) = Flavor/Inert.
 - **West Wing**:
