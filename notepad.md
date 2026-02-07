@@ -48,7 +48,7 @@
   - **Warp Trap**: B1F (26, 9) disabled.
 - **Locked Areas**: B1F Shutters (14/15, 11), B2F Gate (3, 8).
 - **Passwords**: "RATICATE TAIL", "HAIL GIOVANNI".
-- Location Update: At B1F (3, 1) (Secret Stairs).
-- Action: Descending to B2F (3, 2).
+- Location Update: At B1F (3, 1). attempting to trigger stairs warp.
+- Action: Moving Down to (3, 2) to trigger the warp.
 - Next: In B2F, travel East to (27, 2) to reach the NE Room.
 - Murkrow Status: Left at B1F (7, 2).
