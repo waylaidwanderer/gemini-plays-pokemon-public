@@ -49,3 +49,5 @@
 - Switch at (22, 14) confirmed inert (no text box).
 - Re-investigating B2F West: I suspected a wall blocked (7, 9) from (3, 14), but I need to verify this physically. If (7, 9) is accessible, that's where the Murkrow is.
 Mapping Note: TYPE_2889 is a solid wall/tree. Do not route through it.
+- Map Discrepancy: XML shows B2F Stairs at (27, 14), but B1F (27, 14) appears to be a solid wall/dead end. Investigate if stairs are hidden or if map data is misleading.
+- Navigation: Jed at (18, 12) blocks direct West path. Must flank via Row 13.
