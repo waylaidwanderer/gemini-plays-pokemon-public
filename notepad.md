@@ -48,8 +48,8 @@
   - **Warp Trap**: B1F (26, 9) disabled.
 - **Locked Areas**: B1F Shutters (14/15, 11), B2F Gate (3, 8).
 - **Passwords**: "RATICATE TAIL", "HAIL GIOVANNI".
-- Location: B1F (10, 9).
-- Plan: Go to SE Stairs (27, 14) to reach Boss Door.
-- Route: (10, 9) -> South to (10, 10) -> West to (6, 10) -> South to (6, 12) -> East to (15, 12) -> North to (19, 10) -> East to (27, 14).
-- Goal: Enter B2F via (27, 14) to attempt opening Boss Door.
-- Murkrow: Bypassing for now.
+- Location: B1F (6, 10).
+- Situation: Confirmed Row 11 is blocked and B2F Gate (3, 8) is locked. I am trapped in NW B1F unless I find a new path.
+- Hypothesis: The wall at (15, 2) separates the NW and NE corridors. It might be a Fake Wall like (10, 9).
+- Plan: Navigate to (14, 2) and attempt to walk East through (15, 2).
+- Goal: Reach NE Stairs (27, 2) to bypass the blockage.
