@@ -6,20 +6,21 @@
 - **Warps**: Valid B1F warps are (3, 14) [SW] and (27, 2) [Exit].
 
 ## Current Plan
-1. **Re-investigate B2F SW**:
-   - Navigate to Stairs at (3, 14).
-   - Descend to B2F.
-   - **Hypothesis**: The room at B2F (3, 14) is NOT a dead end. I must have missed a path, a hidden wall, or the "Gate" at (3, 8) is reachable.
-   - **Task**: Check every tile in that B2F room.
-2. **If Stuck in B2F**:
-   - Check if the "Wall" is actually a Gate that can be opened.
-   - Check for fake walls.
+1. **Explore B2F South**:
+   - Navigate East from (3, 14) towards (27, 14).
+   - **Check**: Is Silver still blocking (20, 14)?
+   - **Check**: Are there stairs at (27, 14)? (XML says yes).
+2. **Contingency (If Silver Blocks)**:
+   - Return to B1F.
+   - LOCATE Stairs at B1F (3, 6). (Must exist to match B2F (3, 6)).
+   - Descend to B2F North side.
+3. **Target**: Murkrow (B2F North) or Boss Door.
 
 ## Key Info
-- **Stairs**: Only known stairs to B2F are at (3, 14). (Verified by code scan).
+- **Stairs Found in XML**: B2F (3, 14), B2F (3, 6), B2F (27, 14), B2F (27, 2).
 - **Passwords**: "RATICATE TAIL", "HAIL GIOVANNI".
 - **Boss Door**: B2F (23, 14).
-- **Gate**: B2F (3, 8). (Need to reach this).
+- **Gate**: B2F (3, 8).
 
 ## Map Connections
 - **B1F Central (9, 4)**: Passage between North and Central corridors.
