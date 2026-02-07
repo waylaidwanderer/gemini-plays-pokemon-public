@@ -48,8 +48,8 @@
   - **Warp Trap**: B1F (26, 9) disabled.
 - **Locked Areas**: B1F Shutters (14/15, 11), B2F Gate (3, 8).
 - **Passwords**: "RATICATE TAIL", "HAIL GIOVANNI".
-- Location: B1F (7, 3).
-- Situation: Trapped in NW Quadrant. Murkrow at (7, 2).
-- Action: Navigating to (3, 1) via South Loop to attempt flanking Murkrow from the North.
-- Hypothesis: (6, 1) might be walkable (gap in wall), allowing access to (7, 1).
-- Plan: (7, 3) -> (7, 10) -> (3, 10) -> (3, 1) -> Try walking East.
+- Location: B1F (3, 1).
+- Action: Walking East to test Wall at (6, 1).
+- Hypothesis: (6, 1) is a Fake Wall allowing access to (7, 1).
+- Goal: Reach (7, 1) to push Murkrow South.
+- Observation: (6, 2) was solid. (8, 2) was solid. (7, 1) appears isolated unless (6, 1) or (8, 1) is fake.
