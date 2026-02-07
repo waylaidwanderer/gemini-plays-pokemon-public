@@ -6,15 +6,15 @@
 - **Warps**: Valid B1F warps are (3, 14) [SW] and (27, 2) [Exit].
 
 ## Current Plan
-1. **Target**: Locked Shutter at (15, 10).
-2. **Action**: Inspect shutter to see if it can be opened.
-3. **Target**: Murkrow at B2F.
-4. **Action**: Find and chase Murkrow to the Boss Door.
-   - *Reasoning*: The switch at (19, 11) is a trap. The shutter is the only other B1F obstacle. If it's locked, the Murkrow is the key.
+1. **Target**: Switch/Warp at (19, 11).
+2. **Action**: Step ONTO the tile at (19, 11).
+   - *Reasoning*: Interacting said "Turned off" and Jed called it a warp panel. I need to verify where it goes. It might be the way forward or a trap.
+3. **Contingency**: If it warps to entrance, navigate back to B1F (3, 14) stairs.
+4. **Mystery**: Stairs at (3, 1) seem inactive despite past use. Abandoning for now.
 
 ## Map Connections
 - **B1F NE (25, 2)**: Warp Landing from SW Room.
 - **B1F SE (26, 10)**: Connected to NE via Hidden Corridor.
 - **B1F SW (5, 15)**: Warp to NE.
-- **B1F SW (3, 14)**: Stairs to B2F South (Blocked).
-- (3, 1): ⬇️ Secret Stairs to B2F (3, 2).
+- **B1F SW (3, 14)**: Stairs to B2F South.
+- **B1F NW (3, 1)**: Former secret stairs (Currently Inactive/Confused).
