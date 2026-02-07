@@ -49,7 +49,7 @@
 - **Locked Areas**: B1F Shutters (14/15, 11), B2F Gate (3, 8).
 - **Passwords**: "RATICATE TAIL", "HAIL GIOVANNI".
 - Location: B2F (5, 1).
-- Situation: Exploring B2F NW Secret Room.
-- Action: Testing East Wall at (6, 1).
-- Observation: (6, 2) was solid. Grunt is at (4, 1).
-- Hypothesis: Wall at (6, 1) might be fake, allowing access to the East side.
+- Discovery: XML Map indicates (6, 1) is TYPE_3fe2 (Walkable), despite looking like a wall. (6, 2) is TYPE_2889 (Solid).
+- Action: Walking East through (6, 1) to access the Central/East B2F area.
+- Goal: Find Switch #2 or Murkrow in the hidden area.
+- Note: This is likely the intended path to bypass the locked gate/shutters.
