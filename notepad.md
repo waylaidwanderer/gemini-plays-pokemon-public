@@ -6,21 +6,21 @@
 - **Warps**: Valid B1F warps are (3, 14) [SW] and (27, 2) [Exit].
 
 ## Current Plan
-1. **Explore B2F South**:
-   - Navigate East from (3, 14) towards (27, 14).
-   - **Check**: Is Silver still blocking (20, 14)?
-   - **Check**: Are there stairs at (27, 14)? (XML says yes).
-2. **Contingency (If Silver Blocks)**:
-   - Return to B1F.
-   - LOCATE Stairs at B1F (3, 6). (Must exist to match B2F (3, 6)).
-   - Descend to B2F North side.
-3. **Target**: Murkrow (B2F North) or Boss Door.
+1. **B2F Exploration**:
+   - I am at B2F (27, 14) [Map 3_51].
+   - **Goal**: Reach Boss Door at (23, 14).
+   - **Obstacle**: Grunt at (24, 14).
+2. **Murkrow**:
+   - If blocked by Grunt, go North to (27, 2) and West to (7, 2) to find Murkrow.
+   - Use password "HAIL GIOVANNI" if needed.
+3. **Boss Door**:
+   - Requires "Voice ID" (Murkrow?) and Passwords.
 
-## Key Info
-- **Stairs Found in XML**: B2F (3, 14), B2F (3, 6), B2F (27, 14), B2F (27, 2).
-- **Passwords**: "RATICATE TAIL", "HAIL GIOVANNI".
-- **Boss Door**: B2F (23, 14).
-- **Gate**: B2F (3, 8).
+## Map Connections
+- **B2F SE (27, 14)**: Stairs to B1F. (Current Loc).
+- **B2F NE (27, 2)**: Stairs/Path?
+- **B2F NW (3, 2)**: Stairs?
+- **B2F SW (3, 6)**: Stairs?
 
 ## Map Connections
 - **B1F Central (9, 4)**: Passage between North and Central corridors.
