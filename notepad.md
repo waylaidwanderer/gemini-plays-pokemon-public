@@ -1,16 +1,15 @@
 # Team Rocket HQ Status
 ## Critical Issues
-- **Silver**: Blocking direct path to Boss Door/Murkrow at B2F (21, 14).
-- **Walls**: B2F Row 12 is a wall, preventing North travel from South side.
-- **Route**: Must access B2F North/East via B1F NE Stairs.
-- **Warps**: Valid B1F warps are (3, 14) [SW] and (27, 2) [NE].
+- **Hallucination Check**: Code scan proves NO WARPS at (3,1), (3,6), or (27,14). These are dead ends.
+- **Silver**: Blocking B2F (21, 14).
+- **Route**: Must find a way to toggle the Switch at (19, 11) or find another path.
+- **Warps**: Valid B1F warps are (3, 14) [SW] and (27, 2) [Exit].
 
 ## Current Plan
-1. **Retreat**: Go back to Stairs at B2F (3, 14) -> B1F (3, 14).
-2. **Warp**: In B1F SW Room, use Warp at (5, 15) -> Land at B1F NE (25, 2).
-3. **Descend**: Take Stairs at B1F (27, 2) -> B2F NE (27, 2).
-4. **Target**: Find Murkrow in B2F NE area.
-5. **Boss Door**: Approach from the North/East side.
+1. **Target**: Switch at (19, 11).
+2. **Navigate**: Go South via (9, 4), then East on Row 12 to (19, 12).
+3. **Action**: Toggle the switch.
+4. **Hypothesis**: This switch might activate the stairs or open the shutter.
 
 ## Map Connections
 - **B1F NE (25, 2)**: Warp Landing from SW Room.
