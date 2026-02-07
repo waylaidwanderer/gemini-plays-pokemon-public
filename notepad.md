@@ -14,11 +14,14 @@
 ## Exploration Status
 - **Computer Room (19, 8)**: Accessed via central corridor (Row 9).
   - Checking computer terminals for passwords/doors.
-  - Checked (19, 5) [Turn 32239].
+  - Checked (19, 5) [Turn 32239] - Empty/Inert.
+  - Checked (18, 5) [Turn 32240] - Empty/Inert.
 - **Murkrow Chase**:
-  - Last seen at B1F (22, 9). Previous interaction was unresponsive. Needs re-investigation.
-  - Hypothesis: Murkrow might have moved to B2F or I missed a trigger.
+  - NOT at B1F (22, 9) (Visually confirmed Turn 32240).
+  - Summary states it fled to B2F (22, 9).
+  - Target: Reach B2F East Wing to find Murkrow and Boss Door.
 - **East Wing**:
+  - **Priority**: Investigate "Fake Crate/Computer" at (26, 10). Possible hidden stairs?
   - "Secret Stairs" (Shop 2, 3) <-> B1F (7, 3) (West Wing)
   - "Back Stairs" (Shop 7, 3) <-> B1F (27, 2) (East Wing)
   - Switch at (22, 14) = Inert.
