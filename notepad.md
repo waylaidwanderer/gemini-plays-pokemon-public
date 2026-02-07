@@ -6,11 +6,11 @@
 - **Warps**: Valid B1F warps are (3, 14) [SW] and (27, 2) [Exit].
 
 ## Current Plan
-1. **Target**: Switch at (19, 11).
-2. **Navigate**: Go East to Col 26, then South to Row 12, then West to (19, 12).
-   - *Note*: Row 10 is blocked by machines. (19, 10) is likely a wall.
-3. **Action**: Toggle the switch at (19, 11) from (19, 12).
-4. **Hypothesis**: This switch might activate the stairs or open the shutter.
+1. **Target**: Scientist Jed at (18, 12).
+2. **Action**: Talk to Jed again.
+   - *Reasoning*: Switch at (19, 11) is 'Turned off' and un-interactive. Jed might know why.
+3. **Target**: Locked Shutter at (15, 10).
+4. **Action**: Inspect shutter.
 
 ## Map Connections
 - **B1F NE (25, 2)**: Warp Landing from SW Room.
