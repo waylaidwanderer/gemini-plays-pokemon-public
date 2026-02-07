@@ -34,5 +34,10 @@
 - Persian Statue at (6, 1) is definitely inert.
 - Murkrow likely at B2F (22, 9).
 - Row 15 Connectivity: B1F East Wing (Col 24+) is connected to Central/West area via a corridor at Row 15/16.
-- B1F Staircase Inventory: (7, 3) [Up], (27, 2) [Up], (3, 14) [Down]. No independent B2F East stairs found yet.
-- Hypothesis: B2F East is reached from B2F West, or via a hidden mechanic (Warp? Hole?).
+- B2F Navigation:
+  - Stairs at (3, 14) connect to West side.
+  - Corridor at Row 14 connects West (3, 14) to East (20, 14).
+  - Target: Sprite at (7, 9) (West side).
+  - Target: Boss Door at (23, 14) (East side).
+- B1F Staircase Inventory: (7, 3) [Up to Shop], (27, 2) [Up to Shop], (3, 14) [Down to B2F].
+- Hypothesis: Murkrow is at B2F (7, 9). Access might be blocked by walls.
