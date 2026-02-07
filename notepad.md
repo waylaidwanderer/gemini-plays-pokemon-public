@@ -23,7 +23,6 @@
 - [Turn 31840] Statue at (24, 1): Identified as "PERSIAN statue" (Flavor).
 - [Turn 31840] Checking wall at (23, 0). If empty, proceeding to Shop Basement via stairs at (27, 2).
 - [Turn 31840] Note: (24, 1) is visually a Persian Statue, distinct from the alarm one at (6, 1).
-- [Turn 31888] Attempting to turn Security Switch ON.
-- [Turn 31888] Navigation Plan: Access Computer Room (19, 8).
-- [Turn 31888] Route A: If shutters open, walk North from (19, 11).
-- [Turn 31888] Route B: If shutters stay closed, loop West to (8, 10) or East to (24, 10) to enter the corridor at Row 9.
+- [Turn 31889] Turned Security Switch (19, 11) ON (Assumed successful interaction).
+- [Turn 31889] Hypothesis: Turning Switch ON activates the "Warp Maze" correctly, enabling access to the Computer Room (19, 8).
+- [Turn 31889] Next Step: Test the warp tile at (19, 1) or (12, 8). If they warp to the Computer Room, success! If they warp to entrance, hypothesis failed.
