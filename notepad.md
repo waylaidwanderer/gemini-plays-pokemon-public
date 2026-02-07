@@ -2,25 +2,18 @@
 ## Critical Issues
 - **Goal**: Find path to B2F Northeast to catch Murkrow (Voice ID).
 - **Current State**: Security Switch (19, 11) is **OFF**.
-- **Discovery**: Security Switch (19, 11) is **OFF**.
-- **Warp Status**:
-  - (19, 1): Inactive (Walkable).
-  - (12, 8): ACTIVE (Trap - sends to entrance).
-  - (16, 7): ACTIVE (Trap - sends to entrance).
-  - (5, 15): SAFE (Teleports to 25, 2).
-- **Strategy**: 
-  1. Navigate to (5, 15) to reach the Northeast section.
-  2. From (25, 2), explore the East/North area for stairs to B2F.
-  3. Avoid the central warp maze (traps are active).
+- **Warp Mechanics**:
+  - Traps are ACTIVE even when Switch is OFF.
+  - Traps send player to the Entrance area.
+  - Valid Warps: (5, 15) -> (25, 2) (West to East).
+- **Leads**:
+  1. **Persian Statue (6, 1)**: Only unchecked "suspicious" object.
+  2. **Warp Maze**: Must have a safe path if statue fails.
+  3. **Silver**: Found at (10, 4).
 
 ## Key Locations (B1F)
 - (19, 11): Security Switch (OFF).
-- (18, 12): Scientist Jed.
-- (3, 14): Stairs to B2F (SW Corner) - Dead End?
+- (10, 4): Silver.
+- (6, 1): Persian Statue (Target).
+- (5, 15): Warp to East Side.
 - (27, 2): Stairs to Shop.
-- (9, 4): Secret Passage?
-- (??, ??): Stairs to B2F (NE)?
-
-## Action Plan
-- Talk to Jed to confirm status.
-- Search for the stairs to B2F NE.
