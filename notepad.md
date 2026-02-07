@@ -23,6 +23,6 @@
 - [Turn 31840] Statue at (24, 1): Identified as "PERSIAN statue" (Flavor).
 - [Turn 31840] Checking wall at (23, 0). If empty, proceeding to Shop Basement via stairs at (27, 2).
 - [Turn 31840] Note: (24, 1) is visually a Persian Statue, distinct from the alarm one at (6, 1).
-- [Turn 31845] Interactable at (0, 1) (Radio) text: "TOGEPI SPIKE BALL". (Radio Channel/Flavor).
-- [Turn 31846] Plan: Talk to Grunt at (4, 3) to clarify "Secret Stairs" clue.
-- [Turn 31846] Hypothesis: "Secret Stairs" might be the ones I just used, or a hidden set nearby.
+- [Turn 31847] "Secret Stairs" Confirmed: Connection between Shop and B1F East. Not a new path deeper.
+- [Turn 31847] Grunt at Shop (4, 3) acknowledged discovery.
+- [Turn 31847] Next Step: Return to B1F. Check "Inert Switch" at (22, 14). Re-evaluate Warp Maze.
