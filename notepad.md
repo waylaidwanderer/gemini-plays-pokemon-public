@@ -41,3 +41,8 @@
   - Target: Boss Door at (23, 14) (East side).
 - B1F Staircase Inventory: (7, 3) [Up to Shop], (27, 2) [Up to Shop], (3, 14) [Down to B2F].
 - Hypothesis: Murkrow is at B2F (7, 9). Access might be blocked by walls.
+- Critical Logic:
+  - B2F (27, 14) contains stairs (Verified in XML).
+  - Current position B2F (20, 14) is blocked from East side by Grunt at (21, 14).
+  - Therefore, MUST access B2F East via B1F (27, 14).
+  - Action Plan: Return to B1F -> Warp to East Wing -> Search B1F Southeast corner for stairs.
