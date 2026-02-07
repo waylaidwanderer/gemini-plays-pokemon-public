@@ -25,10 +25,11 @@
 
 ## Navigation
 - **B1F <-> B2F Stairs**:
-  - NW (Secret): B1F (3, 1) <-> B2F (3, 2).
+  - NW (Secret): B1F (3, 1) <-> B2F (3, 2) (Glitchy/Unresponsive).
   - NW (Corridor): B1F (3, 6) <-> B2F (3, 6).
   - NE: (27, 2) <-> (27, 2).
-  - SE: (27, 15) <-> B2F (27, 14) (Check this).
+  - SW: B1F (3, 14) <-> B2F (3, 14) (Confirmed).
+  - SE: No stairs at B1F (27, 14/15).
 - **Obstacles**: Grunt at B2F (4, 1) can be bypassed by walking South of him at (4, 2). B2F North Corridor is navigable.
 
 ## Cleared Areas (Do Not Re-Check)
