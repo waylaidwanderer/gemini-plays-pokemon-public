@@ -49,7 +49,7 @@
 - **Locked Areas**: B1F Shutters (14/15, 11), B2F Gate (3, 8).
 - **Passwords**: "RATICATE TAIL", "HAIL GIOVANNI".
 - Location: B1F (10, 9).
-- Action: Heading to SE Stairs (27, 14) to return to B2F Boss Door.
-- Route: South to Row 12 -> East through gap at (15, 12) -> North to Row 3 -> East through gap at (18, 3) -> South to (27, 14).
-- Note: Col 15 is blocked at Row 2, so must loop South first.
-- Goal: Attempt to open Boss Door with known passwords. If fails, Murkrow herding is mandatory.
+- Action: Heading West to (3, 10) to access the West Corridor.
+- Reasoning: Direct East path is blocked. Row 11 seems blocked except at West Corridor (x=3).
+- Path: (10, 9) -> (6, 10) -> (3, 10) -> South through (3, 11) [Verify Walkability] -> East to SE Stairs.
+- Goal: Reach Boss Door (23, 14) on B2F.
