@@ -9,7 +9,7 @@
 - **Security Switch (19, 11)**: Turned **ON**.
   - **Effect**: DISABLES floor traps (Voltorb/Geodude encounters).
   - **Effect**: Does NOT open Shutters at (15, 10).
-  - **Effect on Warps**: Warp (19, 1) is inactive (Verified). Warp at (16, 7) needs testing. Note about (12, 8) might be wrong (Tile is Wall).
+  - **Effect on Warps**: Warp (19, 1) is inactive (Verified). Warp at (16, 7) needs testing. (12, 8) is a solid crate (Visual Confirmation).
 
 ## Exploration Status
 - **Computer Room (19, 8)**: Accessed via central corridor (Row 9).
