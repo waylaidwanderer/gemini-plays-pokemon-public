@@ -6,20 +6,20 @@
 - **Warps**: Valid B1F warps are (3, 14) [SW] and (27, 2) [Exit].
 
 ## Current Plan
-1. **Verify NW Area**:
-   - Check wall at (3, 0) for hidden secrets.
-   - Talk to Grunt at (2, 4).
-2. **Descend to B2F**:
-   - Go to Stairs at (3, 14).
+1. **Re-investigate B2F SW**:
+   - Navigate to Stairs at (3, 14).
    - Descend to B2F.
-   - **Crucial**: Thoroughly explore the B2F room. Check walls, statues, everything. It CANNOT be a dead end if it's the only way down.
-3. **Target**: Murkrow/Boss Door.
+   - **Hypothesis**: The room at B2F (3, 14) is NOT a dead end. I must have missed a path, a hidden wall, or the "Gate" at (3, 8) is reachable.
+   - **Task**: Check every tile in that B2F room.
+2. **If Stuck in B2F**:
+   - Check if the "Wall" is actually a Gate that can be opened.
+   - Check for fake walls.
 
-## Map Connections
-- **B1F SW (3, 14)**: Stairs to B2F. (Must be the way).
-- **B1F SE (27, 2)**: Exit.
-- **B1F Warp (5, 15)**: To B1F NE.
-- **(3, 1)**: Confirmed Empty (No Stairs).
+## Key Info
+- **Stairs**: Only known stairs to B2F are at (3, 14). (Verified by code scan).
+- **Passwords**: "RATICATE TAIL", "HAIL GIOVANNI".
+- **Boss Door**: B2F (23, 14).
+- **Gate**: B2F (3, 8). (Need to reach this).
 
 ## Map Connections
 - **B1F Central (9, 4)**: Passage between North and Central corridors.
