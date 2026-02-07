@@ -48,8 +48,8 @@
   - **Warp Trap**: B1F (26, 9) disabled.
 - **Locked Areas**: B1F Shutters (14/15, 11), B2F Gate (3, 8).
 - **Passwords**: "RATICATE TAIL", "HAIL GIOVANNI".
-- Location: B2F (3, 2).
-- Situation: Exploring B2F NW Secret Room again.
-- Action: Checking Grunt at (4, 1) and testing East Wall at (6, 2).
-- Observation: Sprite tracker shows activity at (7, 5)/(7, 7), implying the room to the East is active.
-- Hypothesis: Wall at (6, 2) might be fake, allowing access to the East side where the sprites are.
+- Location: B2F (5, 1).
+- Situation: Exploring B2F NW Secret Room.
+- Action: Testing East Wall at (6, 1).
+- Observation: (6, 2) was solid. Grunt is at (4, 1).
+- Hypothesis: Wall at (6, 1) might be fake, allowing access to the East side.
