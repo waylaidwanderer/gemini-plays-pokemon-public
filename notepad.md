@@ -1,15 +1,14 @@
 # Team Rocket HQ Status
 ## Critical Issues
 - **Stuck**: Cannot reach B2F North/East (Murkrow Area).
-- **Stairs Failure**: B1F (3, 6) logs say "stairs", but currently unresponsive. B1F (3, 1) unresponsive.
-- **Switches**: (19, 11) Stuck OFF. (22, 14) Inert.
-- **Silver**: Blocking B2F South.
+- **Map Analysis**: Scan shows active warps ONLY at (27, 2) [Exit] and (3, 14) [To B2F South].
+- **Missing Stairs**: B1F (3, 6) and (27, 14) are currently standard floor tiles (TYPE_3fe2), not warps.
+- **Hypothesis**: Stairs at (3, 1) or (3, 6) might be hidden/scripted.
 
 ## Current Plan
-1. **Navigate**: Go North through Fake Crate at (26, 10) to NE Room.
-2. **Cross**: Travel West along Row 2 to the NW Room.
-3. **Descend**: Use verified stairs at B1F (3, 6) to B2F.
-4. **Find Murkrow**: Locate the Murkrow in B2F.
+1. **Investigate**: Interact with machine at (3, 0) to reveal hidden stairs.
+2. **Contingency**: If no stairs, check Persian Statue at (6, 1).
+3. **Objective**: Find path to B2F North.
 
 ## Map Connections
 - **B1F NE (25, 2)**: Warp Landing from SW Room.
