@@ -54,8 +54,10 @@
 - Switch at (22, 14) confirmed inert (no text box).
 - Re-investigating B2F West: I suspected a wall blocked (7, 9) from (3, 14), but I need to verify this physically. If (7, 9) is accessible, that's where the Murkrow is.
 Mapping Note: TYPE_2889 is a solid wall/tree. Do not route through it.
-- Map Check: B1F (27, 14) is verified as floor, NO stairs. The B2F stairs at (27, 14) likely connect to the Secret Stairs in the Shop (2, 3).
-- Crates at B1F (26, 10) and (27, 10) checked: Empty/Inert.
+- B1F (27, 14): Verified standard floor, no hidden stairs found.
+- Security Switch (19, 11): Currently OFF.
+  - Hypothesis: OFF enables Warp Traps and Statue Alarms (encounters).
+  - Hypothesis: OFF might enable the "Secret Switch" on the Persian Statue.
 - Navigation: Jed at (18, 12) blocks direct West path. Must flank via Row 13.
 - Silver at B2F (21, 12) blocks the only visible path North from the southern corridor.
 - Must find a way to B2F North (Row 9) from B1F (likely Northeast area).
