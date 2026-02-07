@@ -53,6 +53,7 @@
 - Plan: Go to (24, 14) (Boss Door approach). Attempt to open door.
 - Observations: Grunts detected at (22, 5) and (22, 7). Murkrow marker at (22, 9).
 - Objective: Open Boss Door using "RATICATE TAIL" and "HAIL GIOVANNI".
-- **Priority**: Re-verify Stairs at B1F (3, 6). Log confirms usage in Turn 30961.
-- **Correction**: B1F (3, 6) appears as floor in XML but functions as stairs.
-- **Action**: Navigating to B1F (3, 6) to descend to B2F.
+- **Priority**: Re-verify Stairs at B1F (3, 6). Log confirms usage.
+- **Correction**: B1F (3, 6) appears as floor but is stairs.
+- **Navigation**: Exiting Center Room to B1F (3, 6).
+- **Silver**: Blocking B2F South.
