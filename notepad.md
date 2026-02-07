@@ -48,6 +48,6 @@
   - **Warp Trap**: B1F (26, 9) disabled.
 - **Locked Areas**: B1F Shutters (14/15, 11), B2F Gate (3, 8).
 - **Passwords**: "RATICATE TAIL", "HAIL GIOVANNI".
-- Location Update: At B1F (6, 10). Heading East to check if shutters at (15, 10) are open (since I hit the switch earlier).
-- Goal: Reach (27, 2) stairs to return to B2F NE Room.
-- Path: (6, 10) -> (15, 10) -> (19, 10) -> (27, 2).
+- Location Update: At B1F (14, 10). Facing Shutter at (15, 10).
+- Action: Attempting to walk through Shutter. If blocked, will backtrack to West Corridor (x=3) to reach South Central Room via (3, 11) -> (15, 12).
+- Path: (14, 10) -> (15, 10) [Test] -> Backtrack if needed.
