@@ -48,8 +48,8 @@
   - **Warp Trap**: B1F (26, 9) disabled.
 - **Locked Areas**: B1F Shutters (14/15, 11), B2F Gate (3, 8).
 - **Passwords**: "RATICATE TAIL", "HAIL GIOVANNI".
-- Location: B2F (15, 1) (Hidden Corridor).
-- Action: Continue East to (27, 1).
-- Observation: Row 2 (South wall) is mostly solid/computers from x=7 to x=23.
-- Goal: Reach (27, 1) to access the NE Stairs area (27, 2).
-- Insight: This corridor flanks the entire Central Room.
+- Location: B2F (23, 1) (Hidden Corridor).
+- Action: Moving to NE Corner (27, 1) -> (27, 2).
+- Discovery: This corridor completely bypasses the security gates.
+- Plan: From (27, 2), head South to (27, 14) to reach the Boss Door.
+- Note: If Boss Door requires Murkrow presence, I now have a path to bring it here from B1F (27, 2).
