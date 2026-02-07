@@ -1,7 +1,7 @@
 # Team Rocket HQ Status
 ## Critical Objectives
 - **Primary**: Reach B2F East Wing (Boss Room).
-- **Secondary**: Pass Silver and Grunt to reach B2F East Wing.
+- **Secondary**: Exit "trap" via (21, 13) and find Murkrow.
 
 ## Exploration Status
 - **B1F (First Floor)**
@@ -14,12 +14,13 @@
   - **West Wing**: Accessible via stairs at B1F (3, 14).
   - **East Wing**: Locked Boss Door. Needs Password + Voice ID.
   - **Murkrow**: Sprite detected at B2F (22, 9).
-  - **Current Obstacle**: Trapped in (22, 13)-(22, 14). Blocked by Silver (21, 13) and Grunt (21, 14).
+  - **Current Obstacle**: Was "trapped" at (22, 14). Realized (21, 13) is a walkable gap between Silver and Grunt.
   - **Boss Door**: At (23, 14).
 
 ## Action Plan
-1. **Move Down** to (22, 14).
-2. **Interact Left** with Grunt at (21, 14).
-3. **If Grunt fights/moves**: Proceed West/North.
-4. **If Grunt inert**: Try interacting with Silver again.
-5. **Goal**: Escape the 1x2 cell and reach Murkrow at (22, 9).
+1. **Advance Dialogue**: Clear Grunt's text.
+2. **Move Up** to (22, 13).
+3. **Move Left** to (21, 13).
+4. **Talk to Silver**: Check if he has new dialogue.
+5. **Move West**: Exit to West Wing.
+6. **Navigate to Murkrow**: Go North-West -> East to reach (22, 9).
