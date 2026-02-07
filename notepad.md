@@ -48,8 +48,7 @@
   - **Warp Trap**: B1F (26, 9) disabled.
 - **Locked Areas**: B1F Shutters (14/15, 11), B2F Gate (3, 8).
 - **Passwords**: "RATICATE TAIL", "HAIL GIOVANNI".
-- Location: B2F (6, 1).
-- Correction: I AM inside the wall! (6, 1) IS A FAKE WALL.
-- Action: Moving East to explore the secret room.
-- Goal: Find Switch #2 or Murkrow.
-- Note: Visuals are deceptive. Trust the coordinates.
+- Location: B2F (8, 1) (Hidden Corridor).
+- Discovery: Row 1 is a hidden corridor connecting the West side (x=3) to the East side (x=27).
+- Plan: Walk East along Row 1 to the NE corner (27, 1), then South to access the main room and Boss Door.
+- Solves: Bypasses the locked Gate at (3, 8) and the blocked B1F path.
