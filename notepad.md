@@ -68,3 +68,6 @@ Mapping Note: TYPE_2889 is a solid wall/tree. Do not route through it.
 - Secret Stairs in Shop (2, 3) DISCOVERED! The Grunt confirmed it. Expecting access to B2F East Wing.
 - Dialogue Loop at (5, 3): Grunt acknowledges finding secret stairs but doesn't battle or move.
 - Strategy: Walk around Grunt via Row 2 to inspect Cabinet at (2, 2) and (2, 3) directly. Maybe the stairs are already accessible or the cabinet is interactable now.
+- Security Switch assumed ON (Turn 32434).
+- Testing Hypothesis: Does Security ON reveal the hidden stairs at B1F (27, 14)?
+- Testing Hypothesis: Does Security ON activate Warp at (19, 1) or Statue at (6, 1)?
