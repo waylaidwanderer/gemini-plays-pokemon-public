@@ -23,6 +23,6 @@
 - [Turn 31840] Statue at (24, 1): Identified as "PERSIAN statue" (Flavor).
 - [Turn 31840] Checking wall at (23, 0). If empty, proceeding to Shop Basement via stairs at (27, 2).
 - [Turn 31840] Note: (24, 1) is visually a Persian Statue, distinct from the alarm one at (6, 1).
-- [Turn 31843] Found interactable at (6, 1): "Oh, it's an incense burner!" (Flavor).
-- [Turn 31844] Checking (5, 1) and attempting to exit room to the West.
-- [Turn 31844] Next stop: B1F (22, 14) "Inert Switch" if Shop is a dead end.
+- [Turn 31845] Interactable at (0, 1) (Radio) text: "TOGEPI SPIKE BALL". (Radio Channel/Flavor).
+- [Turn 31846] Plan: Talk to Grunt at (4, 3) to clarify "Secret Stairs" clue.
+- [Turn 31846] Hypothesis: "Secret Stairs" might be the ones I just used, or a hidden set nearby.
