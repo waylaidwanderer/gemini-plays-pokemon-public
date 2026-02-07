@@ -48,7 +48,10 @@
   - **Warp Trap**: B1F (26, 9) disabled.
 - **Locked Areas**: B1F Shutters (14/15, 11), B2F Gate (3, 8).
 - **Passwords**: "RATICATE TAIL", "HAIL GIOVANNI".
-- Location: B1F (14, 2). Facing East towards Wall (15, 2).
-- Action: Attempting to walk East.
-- Observation: Murkrow (Sprite c586) disappeared from (7, 2). It might have fled when I was near it earlier?
-- Backup: If (15, 2) is solid, check (7, 2) to see if Murkrow is gone/moved, which might open a path or trigger an event.
+- Location: B1F (14, 2).
+- Situation: Blocked at (15, 2) and (15, 10) and (3, 11). Trapped in NW B1F.
+- Murkrow: Gone from (7, 2).
+- Plan:
+  1. Check B2F Gate (3, 8) via Stairs (3, 6). Murkrow might have flown there.
+  2. If locked, check B2F Secret Room (3, 2) via Stairs (3, 1) for a fake East wall.
+- Route: (14, 2) -> (10, 9) [Fake Wall] -> (3, 6).
