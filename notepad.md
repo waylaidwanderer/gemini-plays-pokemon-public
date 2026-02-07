@@ -6,10 +6,10 @@
 - **Silver**: Blocking B2F South.
 
 ## Current Plan
-1. **Interact**: Talk to Grunt at (14, 11).
-2. **Escape**: Walk West through the open path at (10, 11/12) to exit the room.
-3. **Warp**: Navigate to the warp at (5, 15) in the Southwest Room.
-4. **Objective**: Approach the North area (Murkrow/Boss Door) from the Northeast.
+1. **Navigate**: Go to SE Stairs at B1F (27, 15).
+2. **Descend**: Enter B2F.
+3. **Find Murkrow**: Locate the Murkrow in B2F (last seen B2F (22, 9)).
+4. **Boss Door**: Get the password/voice ID.
 
 ## Map Connections
 - **B1F NE (25, 2)**: Warp Landing from SW Room.
