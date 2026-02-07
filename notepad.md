@@ -50,5 +50,6 @@
 - **Passwords**: "RATICATE TAIL", "HAIL GIOVANNI".
 - Location: B1F (10, 9).
 - Action: Heading to SE Stairs (27, 14) to return to B2F Boss Door.
-- Route: North to Row 2 -> East to Col 27 -> South to (27, 14).
+- Route: South to Row 12 -> East through gap at (15, 12) -> North to Row 3 -> East through gap at (18, 3) -> South to (27, 14).
+- Note: Col 15 is blocked at Row 2, so must loop South first.
 - Goal: Attempt to open Boss Door with known passwords. If fails, Murkrow herding is mandatory.
