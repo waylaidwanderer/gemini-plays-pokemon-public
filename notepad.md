@@ -48,7 +48,7 @@
   - **Warp Trap**: B1F (26, 9) disabled.
 - **Locked Areas**: B1F Shutters (14/15, 11), B2F Gate (3, 8).
 - **Passwords**: "RATICATE TAIL", "HAIL GIOVANNI".
-- Location Update: At B1F (7, 10).
-- Navigation: The path South from (3, 10) is blocked by a wall at (3, 11). The path East is blocked by locked Shutter (15, 10).
-- Solution: Must return to B2F to cross to the East side.
-- Plan: Go to Fake Wall (10, 9) -> North to Murkrow (7, 2) -> Stairs (3, 1) -> B2F (3, 2) -> East to B2F (27, 2).
+- Location Update: At B1F (10, 9) (Fake Wall Passage).
+- Action: Heading North to Row 2, then East to (27, 2) Stairs.
+- Goal: Return to B2F NE Room to check computers from the front.
+- Murkrow Status: At B1F (7, 2). Plan to herd it later (possibly towards NW stairs).
