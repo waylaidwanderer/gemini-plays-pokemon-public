@@ -6,19 +6,19 @@
 - **Warps**: Valid B1F warps are (3, 14) [SW] and (27, 2) [Exit].
 
 ## Current Plan
-1. **Escape Dead End**: 
-   - B2F (3, 14) is a dead-end room (Blocked by Row 12 wall).
-   - Return to B1F via stairs at (3, 14).
-2. **Explore B1F West**:
-   - Navigate North from B1F (3, 14) to find other stairs at (3, 6) or (3, 1).
-   - Previous checks at (3, 1) were confusing; re-verify.
-3. **Target**: Murkrow/Gate in B2F North/West.
-4. **Action**: Find stairs that lead to the North side of B2F.
+1. **Return to East Side**:
+   - Use Warp at (5, 15) to jump to (25, 2).
+2. **Find Real Stairs**:
+   - Previous attempt at (27, 14) failed.
+   - Historical records suggest stairs might be at **(27, 15)** or nearby.
+   - Search the SE corner thoroughly.
+3. **Action**: Descend to B2F Main Area.
+4. **Target**: Boss Door / Murkrow.
 
 ## Map Connections
-- **B1F SW (3, 14)**: Stairs to B2F SW (Dead End).
-- **B1F West (3, 6)**: Potential Stairs?
-- **B1F NW (3, 1)**: Potential Stairs?
+- **B1F SW (3, 14)**: Stairs to B2F SW (Confirmed Dead End).
+- **B1F SE (27, 15?)**: Potential Stairs to B2F Main.
+- **B1F Warp (5, 15)**: To B1F NE (25, 2).
 
 ## Map Connections
 - **B1F Central (9, 4)**: Passage between North and Central corridors.
