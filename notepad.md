@@ -20,7 +20,7 @@
   - Summary states it fled to B2F (22, 9).
   - Target: Reach B2F East Wing to find Murkrow and Boss Door.
 - **East Wing**:
-  - "Secret Stairs" (Shop 2, 3): Grunt discovered at (4, 3). Dialogue: "Arrgh... You found the secret stair-". Expecting stairs to open.
+  - "Secret Stairs" (Shop 2, 3): TRIGGERED. Grunt at (4, 3) acknowledged discovery. Proceeding to battle/entry.
   - "Back Stairs" (Shop 7, 3) <-> B1F (27, 2) (East Wing)
   - Switch at (22, 14) = Inert.
   - Statue at (24, 1) = Flavor/Inert.
