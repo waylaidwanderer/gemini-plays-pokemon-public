@@ -25,10 +25,10 @@
 
 ## Navigation
 - **B1F <-> B2F Connectivity**:
-  - **NE Stairs (27, 2)**: Leads to Murkrow (22, 9) and North/East B2F. **TARGET**.
-  - **SW Stairs (3, 14)**: Leads to Boss Door (Front) and Generator Room.
-  - **NW Stairs (3, 6)**: Leads to locked gate area.
-  - **Secret Stairs (3, 1)**: Currently inaccessible/unresponsive.
+  - **NE Stairs (27, 2)**: **EXIT to Souvenir Shop**. NOT a way to B2F.
+  - **SW Stairs (3, 14)**: Leads to B2F SW (Likely Dead End).
+  - **NW Stairs (3, 1)**: The ONLY remaining option for reaching B2F North/East. Must investigate why it failed.
+  - **Warp Traps**: Avoid.
 - **Blocked Path**: B2F South (Row 14) is blocked by Boss Door (23, 14). B2F West (Col 3) is blocked by Gate (3, 8).
 - **Correct Route**: Must use B1F NE Stairs (27, 2) to reach B2F North/East area and Murkrow.
 - **Murkrow**: At B2F (22, 9). Reachable from NE Stairs.
