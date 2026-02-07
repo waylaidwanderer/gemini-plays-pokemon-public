@@ -13,7 +13,11 @@
 
 ## Exploration Status
 - **Computer Room (19, 8)**: Accessed via central corridor (Row 9).
-  - Currently investigating computer terminals for passwords/doors.
+  - Checking computer terminals for passwords/doors.
+  - Checked (19, 5) [Turn 32239].
+- **Murkrow Chase**:
+  - Last seen at B1F (22, 9). Previous interaction was unresponsive. Needs re-investigation.
+  - Hypothesis: Murkrow might have moved to B2F or I missed a trigger.
 - **East Wing**:
   - "Secret Stairs" (Shop 2, 3) <-> B1F (7, 3) (West Wing)
   - "Back Stairs" (Shop 7, 3) <-> B1F (27, 2) (East Wing)
