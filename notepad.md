@@ -18,4 +18,6 @@
 - (5, 15): Warp to East Side.
 - (27, 2): Stairs to Shop.
 - [Turn 31823] Inspected Statue at (24, 5) from East and West (no reaction).
-- [Turn 31824] Heading to Persian Statue at (6, 1).
+- [Turn 31828] Persian Statue at (6, 1): "Its eyes are oddly shiny" (Flavor/Alarm).
+- [Turn 31829] Heading to Warp (5, 15) to return to East Wing.
+- [Turn 31829] Plan: Thoroughly search East Wing for "Secret Stairs" to B2F NE.
