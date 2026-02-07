@@ -60,3 +60,5 @@ Mapping Note: TYPE_2889 is a solid wall/tree. Do not route through it.
 - Silver at B2F (21, 12) blocks the only visible path North from the southern corridor.
 - Must find a way to B2F North (Row 9) from B1F (likely Northeast area).
 - Secret Stairs in Shop (2, 3) DISCOVERED! The Grunt confirmed it. Expecting access to B2F East Wing.
+- Dialogue Loop at (5, 3): Grunt acknowledges finding secret stairs but doesn't battle or move.
+- Strategy: Walk around Grunt via Row 2 to inspect Cabinet at (2, 2) and (2, 3) directly. Maybe the stairs are already accessible or the cabinet is interactable now.
