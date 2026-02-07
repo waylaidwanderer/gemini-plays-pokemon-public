@@ -44,8 +44,9 @@
   - Corridor at Row 14 connects West (3, 14) to East (20, 14).
   - Target: Sprite at (7, 9) (West side).
   - Target: Boss Door at (23, 14) (East side).
-- B1F Staircase Inventory: (7, 3) [Up to Shop], (27, 2) [Up to Shop], (3, 14) [Down to B2F].
-- Hypothesis: Murkrow is at B2F (7, 9). Access might be blocked by walls.
+- B1F Staircase Inventory: (27, 2) [Up to Shop], (3, 14) [Down to B2F].
+- CORRECTION: B1F (7, 3) is NOT stairs. Shop (7, 3) is stairs down to B1F (27, 2).
+- Murkrow likely at B2F (22, 9).
 - Critical Logic:
   - B2F (27, 14) contains stairs (Verified in XML).
   - Current position B2F (20, 14) is blocked from East side by Grunt at (21, 14).
