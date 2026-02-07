@@ -48,5 +48,5 @@
   - **Warp Trap**: B1F (26, 9) disabled.
 - **Locked Areas**: B1F Shutters (14/15, 11), B2F Gate (3, 8).
 - **Passwords**: "RATICATE TAIL", "HAIL GIOVANNI".
-- Location Update: Moving to (28, 3) to access the front of the computers in B2F NE Room.
-- Plan: Walk Right to (28, 1), Down to (28, 3), then Left to check computers at (22, 2) and westwards.
+- Location Update: In B2F NE Room, Row 3 (Front of computers). Checking (23, 2) and (22, 2).
+- Plan: Check computers Westwards. If Grunt at (22, 5) spots me, defeat him.
