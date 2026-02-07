@@ -6,19 +6,20 @@
 - **Warps**: Valid B1F warps are (3, 14) [SW] and (27, 2) [Exit].
 
 ## Current Plan
-1. **Investigate NW Corner**:
-   - Navigate to (3, 1) in the Northwest room.
-   - Verify if stairs exist or if there's a hidden passage.
-2. **Search for Murkrow**:
-   - If B2F is accessible, find the Murkrow.
-3. **Contingency**:
-   - If (3, 1) is empty, re-check the "Hidden Corridor" in the East for any missed paths.
+1. **Verify NW Area**:
+   - Check wall at (3, 0) for hidden secrets.
+   - Talk to Grunt at (2, 4).
+2. **Descend to B2F**:
+   - Go to Stairs at (3, 14).
+   - Descend to B2F.
+   - **Crucial**: Thoroughly explore the B2F room. Check walls, statues, everything. It CANNOT be a dead end if it's the only way down.
+3. **Target**: Murkrow/Boss Door.
 
 ## Map Connections
-- **B1F SW (3, 14)**: Stairs to B2F SW (Confirmed Dead End).
-- **B1F SE (27, 14/15)**: Confirmed Floor (No Stairs).
-- **B1F Warp (5, 15)**: To B1F NE (25, 2).
-- **B1F NW (3, 1)**: Potential Stairs/Secret (Target).
+- **B1F SW (3, 14)**: Stairs to B2F. (Must be the way).
+- **B1F SE (27, 2)**: Exit.
+- **B1F Warp (5, 15)**: To B1F NE.
+- **(3, 1)**: Confirmed Empty (No Stairs).
 
 ## Map Connections
 - **B1F Central (9, 4)**: Passage between North and Central corridors.
