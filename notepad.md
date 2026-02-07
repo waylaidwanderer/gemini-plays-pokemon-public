@@ -23,7 +23,6 @@
 - [Turn 31840] Statue at (24, 1): Identified as "PERSIAN statue" (Flavor).
 - [Turn 31840] Checking wall at (23, 0). If empty, proceeding to Shop Basement via stairs at (27, 2).
 - [Turn 31840] Note: (24, 1) is visually a Persian Statue, distinct from the alarm one at (6, 1).
-- [Turn 31895] Rerouting to Warp at (19, 1).
-- [Turn 31895] Reasoning: Warp (19, 1) was inactive before. Now that Switch (19, 11) is ON, it should be active.
-- [Turn 31895] Path: (22, 13) -> (25, 2) -> (19, 1). (Avoiding Jed and central obstacles).
-- [Turn 31895] Note: Computer Room (19, 8) is likely accessible ONLY via warp.
+- [Turn 31901] Arrived at NE Section (25, 2) via Warp loop.
+- [Turn 31901] Objective: Test Warp at (19, 1).
+- [Turn 31901] Context: Security Switch (19, 11) is ON. Expecting Warp (19, 1) to lead to Computer Room (19, 8) instead of Entrance.
