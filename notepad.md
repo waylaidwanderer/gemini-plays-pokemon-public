@@ -48,8 +48,8 @@
   - **Warp Trap**: B1F (26, 9) disabled.
 - **Locked Areas**: B1F Shutters (14/15, 11), B2F Gate (3, 8).
 - **Passwords**: "RATICATE TAIL", "HAIL GIOVANNI".
-- Location: B1F (27, 2) (NE Stairs).
-- Arrival: Came from B2F (27, 2) via Hidden Corridor.
-- Action: Going back down to B2F (27, 2).
-- Plan: Explore B2F East Side. Head South to (27, 14) and West to Boss Door (23, 14).
-- Murkrow: Disappeared from B1F (7, 2). Check Boss Door for success.
+- Location: B2F (27, 2).
+- Status: Successfully bypassed locked gate via Row 1 Hidden Corridor. Now on East Side of B2F.
+- Plan: Head South to (27, 14) (SE Stairs area), then West to Boss Door (23, 14).
+- Observations: Grunts detected at (22, 5) and (22, 7). Murkrow marker at (22, 9).
+- Objective: Open Boss Door using "RATICATE TAIL" and "HAIL GIOVANNI".
