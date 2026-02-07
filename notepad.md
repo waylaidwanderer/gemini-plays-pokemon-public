@@ -30,4 +30,3 @@
   - B1F: Sprite at (22, 9) was non-interactive/glitched.
   - B2F: Investigating sprite at (7, 9) and checking if Silver (11, 13) has info.
   - **Hypothesis**: The real Murkrow is on B2F, or I need to trigger an event here first.
-- Murkrow Cycle: North (7, 2) -> East (22, 9) -> West (1, 9) -> North (7, 2).
