@@ -49,7 +49,7 @@
 - **Locked Areas**: B1F Shutters (14/15, 11), B2F Gate (3, 8).
 - **Passwords**: "RATICATE TAIL", "HAIL GIOVANNI".
 - Location: B1F (3, 6).
-- Action: Heading to SE Stairs (27, 14) to reach Boss Door.
-- Route: (3, 6) -> (6, 10) [Gap] -> South to Row 12 -> East through gap at (15, 12) -> East to (27, 14).
-- Hypothesis: Obtaining "HAIL GIOVANNI" might be sufficient to open the Boss Door without physically herding the Murkrow (since it seems trapped).
-- Backup: If Boss Door fails, will return to figure out how to move Murkrow.
+- Situation: Trapped in West/Central B1F. Row 11 blocked. East side inaccessible. B2F Gate (3, 8) locked.
+- Plan: Re-investigate B2F Secret Room via Stairs (3, 1).
+- Hypothesis: The wall in B2F Secret Room (3, 2) might be fake, allowing access to the East/Central B2F.
+- Murkrow: Will verify if it moved at (7, 2) en route.
