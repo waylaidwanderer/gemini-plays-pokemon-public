@@ -2,14 +2,16 @@
 ## Critical Issues
 - **Goal**: Find path to B2F Northeast to catch Murkrow (Voice ID).
 - **Current State**: Security Switch (19, 11) is **OFF**.
-- **Discovery**: When Switch is OFF, the "Warp Traps" (yellow tiles) seem to be **INACTIVE**.
-  - Verified: Walked on (19, 1) and did not warp.
+- **Discovery**: Security Switch (19, 11) is **OFF**.
+- **Warp Status**:
+  - (19, 1): Inactive (Walkable).
+  - (12, 8): ACTIVE (Trap - sends to entrance).
+  - (16, 7): ACTIVE (Trap - sends to entrance).
+  - (5, 15): SAFE (Teleports to 25, 2).
 - **Strategy**: 
-  1. Keep Switch OFF.
-  2. Explore areas previously blocked by Warp Traps.
-  3. Look for a staircase to B2F Northeast (likely in the North or East side of B1F).
-  4. Check the "Secret Passage" area again?
-  5. Check the "Solid Crate" area at (26, 10)?
+  1. Navigate to (5, 15) to reach the Northeast section.
+  2. From (25, 2), explore the East/North area for stairs to B2F.
+  3. Avoid the central warp maze (traps are active).
 
 ## Key Locations (B1F)
 - (19, 11): Security Switch (OFF).
