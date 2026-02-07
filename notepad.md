@@ -29,3 +29,4 @@
 2. **Travel** to B1F Southeast Corner (27, 14).
 3. **Scan** every tile in the (26-28, 13-15) region for a hidden staircase or switch.
 4. **If that fails**: Return to B2F West and check for hidden walls to bypass the Grunt.
+- Switch at (22, 14) confirmed inert (Security ON).
