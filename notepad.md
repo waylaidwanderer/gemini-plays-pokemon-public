@@ -7,7 +7,7 @@
 
 ## Current Plan
 1. **B2F Exploration**:
-   - I am at B2F (27, 14) [Map 3_51].
+   - I am at B2F (25, 14) [Map 3_51].
    - **Goal**: Reach Boss Door at (23, 14).
    - **Obstacle**: Grunt at (24, 14).
 2. **Murkrow**:
@@ -17,7 +17,8 @@
    - Requires "Voice ID" (Murkrow?) and Passwords.
 
 ## Map Connections
-- **B2F SE (27, 14)**: Stairs to B1F. (Current Loc).
+- **B2F SE (27, 14)**: Stairs to B1F SE (Hidden/Scripted at B1F 27,14).
+- **B1F SE (27, 14)**: Hidden Stairs to B2F.
 - **B2F NE (27, 2)**: Stairs/Path?
 - **B2F NW (3, 2)**: Stairs?
 - **B2F SW (3, 6)**: Stairs?
