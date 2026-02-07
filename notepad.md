@@ -1,16 +1,11 @@
 # Team Rocket HQ Status
 ## Critical Issues
 - **Goal**: Reach Murkrow at B2F (22, 9) [North-East] to get Voice ID.
-- **Current Loc**: 3_49 (B1F SE Corner).
-- **Status**: Confirmed NO SE Stairs at (27, 14).
+- **Current Loc**: 3_48 (Souvenir Shop Basement).
+- **Status**: Grunt at (4, 3) is likely the defeated guard for the shop stairs. He is not blocking a new path.
+- **Correction**: Must find B2F Main Area stairs on B1F.
 - **Plan**: 
-  1. Return to NE Stairs at (27, 2) to enter 3_48.
-  2. Force way past Grunt at 3_48 (4, 3) to access "Secret Stairs".
-  3. These likely lead to B2F Main Area.
-- **B2F Layout**: 
-  - SW Stairs (3, 14) -> Dead End.
-  - Secret Stairs (via 3_48) -> Main Area (Murkrow).
-
-## Map Connections
-- **Stairs to B2F NE**: B1F (27, 2).
-- **Murkrow**: B2F (22, 9).
+  1. Return to B1F via stairs at (7, 3).
+  2. Search B1F South/East area thoroughly for stairs to B2F Main Area.
+  3. Reach Murkrow at B2F (22, 9).
+- **B1F Search**: Check coords around (20, 10) to (27, 14).
