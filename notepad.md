@@ -48,9 +48,8 @@
   - **Warp Trap**: B1F (26, 9) disabled.
 - **Locked Areas**: B1F Shutters (14/15, 11), B2F Gate (3, 8).
 - **Passwords**: "RATICATE TAIL", "HAIL GIOVANNI".
-- Location: B1F (5, 1). Wall at (6, 1) confirmed SOLID.
-- Situation: Cannot flank Murkrow from West. Cannot reach East B1F.
-- Murkrow Status: Previously noted as "disappeared" from (7, 2).
-- Plan: Check B2F Secret Room (3, 2) via Stairs (3, 1).
-- Hypothesis: Murkrow might have fled there, or there is a switch/fake wall I missed.
-- Goal: Find a path to the East side or the Boss Door.
+- Location: B2F (3, 2).
+- Situation: Exploring B2F NW Secret Room again.
+- Action: Checking Grunt at (4, 1) and testing East Wall at (6, 2).
+- Observation: Sprite tracker shows activity at (7, 5)/(7, 7), implying the room to the East is active.
+- Hypothesis: Wall at (6, 2) might be fake, allowing access to the East side where the sprites are.
