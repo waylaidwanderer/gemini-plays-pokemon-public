@@ -14,8 +14,7 @@
 ## Exploration Status
 - **Computer Room (19, 8)**: Accessed via central corridor (Row 9).
   - Checking computer terminals for passwords/doors.
-  - Checked (19, 5) [Turn 32239] - Empty/Inert.
-  - Checked (18, 5) [Turn 32240] - Empty/Inert.
+  - Computers at (19,5) and (18,5) confirmed inert.
 - **Murkrow Chase**:
   - NOT at B1F (22, 9) (Visually confirmed Turn 32240).
   - Summary states it fled to B2F (22, 9).
