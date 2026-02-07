@@ -55,9 +55,11 @@
 - Re-investigating B2F West: I suspected a wall blocked (7, 9) from (3, 14), but I need to verify this physically. If (7, 9) is accessible, that's where the Murkrow is.
 Mapping Note: TYPE_2889 is a solid wall/tree. Do not route through it.
 - B1F (27, 14): Verified standard floor, no hidden stairs found.
-- Security Switch (19, 11): Currently OFF.
-  - Hypothesis: OFF enables Warp Traps and Statue Alarms (encounters).
-  - Fact: Persian Statue (6, 1) checked with Security OFF. Result: "It's a PERSIAN statue..." (Inert).
+- Security Switch (19, 11): Turned OFF.
+  - Result: Persian Statue (6, 1) eyes are "oddly shiny".
+  - Hypothesis: "OFF" = Security Active/Alarm Mode.
+  - Previous State (Switch ON): Statue was inert ("It's a Persian statue...").
+  - Plan: Check if "Shiny Eyes" state unlocks Secret Stairs or allows interaction with the statue.
 - Navigation: Jed at (18, 12) blocks direct West path. Must flank via Row 13.
 - Silver at B2F (21, 12) blocks the only visible path North from the southern corridor.
 - Must find a way to B2F North (Row 9) from B1F (likely Northeast area).
