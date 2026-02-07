@@ -26,5 +26,5 @@
 2. **Warp at (12, 8)**: Test if it's a valid warp now.
 3. **Persian Statue (6, 1)**: Re-inspect with security ON.
 4. **Silver**: At (10, 4). Might have dialogue.
-- Murkrow Cycle Confirmed: North (7, 2) -> East (22, 9) -> West (1, 9) -> North (7, 2).
-- Status: Fled from North (7, 2). Pursuing to East (22, 9).
+- Murkrow Status: Currently at (22, 9) (East). Player is standing ON the sprite. Attempting to reset position to trigger flee/interaction.
+- Murkrow Cycle: North (7, 2) -> East (22, 9) -> West (1, 9) -> North (7, 2).
