@@ -7,21 +7,17 @@
 
 ## Current Plan
 1. **Find Murkrow**:
-   - Silver is NOT blocking the path (I am at 20, 14).
-   - Navigate West to the far wall, then North to (7, 2).
-   - Murkrow is required for the "Voice ID".
-2. **Open Boss Door**:
-   - Once Murkrow is "obtained" (or chases me?), return to Boss Door at (23, 14).
-3. **Passwords**:
-   - "RATICATE TAIL"
-   - "HAIL GIOVANNI"
+   - I am at B2F (4, 15), past the Grunt.
+   - **Path**: Go North along the West wall (Column 3) to the NW corner (3, 2).
+   - Then go East to (7, 2) to find Murkrow.
+2. **Murkrow Chase**:
+   - The Murkrow will likely flee. Chase it until it returns to the Boss Door at (23, 14).
+3. **Open Boss Door**:
+   - Interact with the door once Murkrow is there.
+   - Passwords: "RATICATE TAIL", "HAIL GIOVANNI".
 
 ## Map Connections
 - **B2F SE (27, 14)**: Stairs to B1F SE.
 - **B2F Boss Door**: (23, 14).
 - **B2F NW**: Murkrow Location (7, 2).
-
-## Map Connections
-- **B1F Central (9, 4)**: Passage between North and Central corridors.
-- **B1F North (Row 3/4)**: Connects East and West sides.
-- **B1F SW (3, 14)**: Stairs to B2F.
+- **B2F Grunt**: (5, 14) - Defeated/Bypassed.
