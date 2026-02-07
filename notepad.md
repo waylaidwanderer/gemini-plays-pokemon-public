@@ -6,22 +6,22 @@
 - **Warps**: Valid B1F warps are (3, 14) [SW] and (27, 2) [Exit].
 
 ## Current Plan
-1. **B2F Exploration**:
-   - I am at B2F (25, 14) [Map 3_51].
-   - **Goal**: Reach Boss Door at (23, 14).
-   - **Obstacle**: Grunt at (24, 14).
-2. **Murkrow**:
-   - If blocked by Grunt, go North to (27, 2) and West to (7, 2) to find Murkrow.
-   - Use password "HAIL GIOVANNI" if needed.
-3. **Boss Door**:
-   - Requires "Voice ID" (Murkrow?) and Passwords.
+1. **Open Boss Door**:
+   - I am at (23, 14), facing the Boss Door.
+   - **Action**: Interact with the door.
+   - **Requirement**: "Voice ID" (Murkrow) + Passwords.
+2. **If Locked**:
+   - Go West to find Silver or the Murkrow.
+   - Murkrow is at B2F NW (7, 2).
+   - Silver might be at (20, 14).
+3. **Passwords**:
+   - "RATICATE TAIL" (Have)
+   - "HAIL GIOVANNI" (Have)
 
 ## Map Connections
-- **B2F SE (27, 14)**: Stairs to B1F SE (Hidden/Scripted at B1F 27,14).
-- **B1F SE (27, 14)**: Hidden Stairs to B2F.
-- **B2F NE (27, 2)**: Stairs/Path?
-- **B2F NW (3, 2)**: Stairs?
-- **B2F SW (3, 6)**: Stairs?
+- **B2F SE (27, 14)**: Stairs to B1F SE.
+- **B2F Boss Door**: (23, 14).
+- **B2F West**: Unknown if Silver is blocking.
 
 ## Map Connections
 - **B1F Central (9, 4)**: Passage between North and Central corridors.
