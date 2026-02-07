@@ -53,6 +53,6 @@
 - Plan: Go to (24, 14) (Boss Door approach). Attempt to open door.
 - Observations: Grunts detected at (22, 5) and (22, 7). Murkrow marker at (22, 9).
 - Objective: Open Boss Door using "RATICATE TAIL" and "HAIL GIOVANNI".
-- **Warp Glitch?**: Stairs at B1F (3, 1) unresponsive. Abandoning route.
-- **New Route**: Go to East Stairs B1F (27, 14) -> B2F (27, 14) -> Murkrow at B2F (22, 9).
-- **Map Correction**: B1F (3, 6) is just floor (dead end).
+- **Priority**: Re-verify Stairs at B1F (3, 6). Log confirms usage in Turn 30961.
+- **Correction**: B1F (3, 6) appears as floor in XML but functions as stairs.
+- **Center Room**: Checking Switch at (22, 14) then exiting.
