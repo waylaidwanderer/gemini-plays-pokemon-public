@@ -20,6 +20,6 @@
 - [Turn 31828] Persian Statue at (6, 1): "Its eyes are oddly shiny" (Flavor/Alarm).
 - [Turn 31835] Warped to East Wing (25, 2).
 - [Turn 31836] Statue at (24, 1): "Its eyes are oddly shiny" (South Side).
-- [Turn 31839] Statue at (24, 1): West side is inert.
-- [Turn 31839] NE Room (Shop Basement) is isolated by walls. "Secret Stairs" must be here.
-- [Turn 31839] Plan: Re-inspect Statue from South. Search walls. Test Warp (25, 2).
+- [Turn 31840] Statue at (24, 1): Identified as "PERSIAN statue" (Flavor).
+- [Turn 31840] Plan: Check walls near (24, 1). Then ascend stairs (27, 2) to search Shop Basement for "Secret Stairs".
+- [Turn 31840] Note: (24, 1) is visually a Persian Statue, distinct from the alarm one at (6, 1).
