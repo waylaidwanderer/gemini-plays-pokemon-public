@@ -48,7 +48,8 @@
   - **Warp Trap**: B1F (26, 9) disabled.
 - **Locked Areas**: B1F Shutters (14/15, 11), B2F Gate (3, 8).
 - **Passwords**: "RATICATE TAIL", "HAIL GIOVANNI".
-- Location: B1F (10, 9).
-- Action: Moving West to Stairs at (3, 6).
-- Plan: Return to B2F. Check if Murkrow is near the Gate (3, 8) or inside the Secret Room (3, 2).
-- Route: (10, 9) -> (10, 10) -> (6, 10) -> (3, 10) -> (3, 6).
+- Location: B2F (3, 6).
+- Discovery: B1F West side was blocked, but B2F West side allows access to the South Corridor (Row 14).
+- Plan: Walk South to (3, 14), then East along Row 14 to the Boss Door at (23, 14).
+- Hypothesis: The South Corridor connects the West and East sides of B2F, bypassing the B1F blockage.
+- Murkrow: If not at Boss Door, check B2F Central Room.
