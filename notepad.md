@@ -27,8 +27,7 @@
 ## Leads
 1. **Cabinet Trigger**: Investigate how to move the cabinet at (2, 2)/(2, 3).
 2. **Computer**: Check terminals at (19, 7) and (18, 7).
-3. **Warp at (12, 8)**: Test if it's a valid warp now.
-4. **Murkrow**: Investigate sprite at B2F (7, 9).
+3. **Murkrow**: Investigate sprite at B2F (7, 9).
 - Cabinet at (2, 2) interaction: No response.
 - **Secret Stairs Trigger**: Talk to Grunt at (4, 3). He acknowledges finding the stairs.
 - Passwords learned (from history): "RATICATE TAIL", "HAIL GIOVANNI".
