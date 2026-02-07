@@ -6,19 +6,19 @@
 - **Warps**: Valid B1F warps are (3, 14) [SW] and (27, 2) [Exit].
 
 ## Current Plan
-1. **Return to East Side**:
-   - Use Warp at (5, 15) to jump to (25, 2).
-2. **Find Real Stairs**:
-   - Previous attempt at (27, 14) failed.
-   - Historical records suggest stairs might be at **(27, 15)** or nearby.
-   - Search the SE corner thoroughly.
-3. **Action**: Descend to B2F Main Area.
-4. **Target**: Boss Door / Murkrow.
+1. **Investigate NW Corner**:
+   - Navigate to (3, 1) in the Northwest room.
+   - Verify if stairs exist or if there's a hidden passage.
+2. **Search for Murkrow**:
+   - If B2F is accessible, find the Murkrow.
+3. **Contingency**:
+   - If (3, 1) is empty, re-check the "Hidden Corridor" in the East for any missed paths.
 
 ## Map Connections
 - **B1F SW (3, 14)**: Stairs to B2F SW (Confirmed Dead End).
-- **B1F SE (27, 15?)**: Potential Stairs to B2F Main.
+- **B1F SE (27, 14/15)**: Confirmed Floor (No Stairs).
 - **B1F Warp (5, 15)**: To B1F NE (25, 2).
+- **B1F NW (3, 1)**: Potential Stairs/Secret (Target).
 
 ## Map Connections
 - **B1F Central (9, 4)**: Passage between North and Central corridors.
