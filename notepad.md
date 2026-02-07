@@ -46,3 +46,5 @@
   - Current position B2F (20, 14) is blocked from East side by Grunt at (21, 14).
   - Therefore, MUST access B2F East via B1F (27, 14).
   - Action Plan: Return to B1F -> Warp to East Wing -> Search B1F Southeast corner for stairs.
+- Switch at (22, 14) confirmed inert (no text box).
+- Re-investigating B2F West: I suspected a wall blocked (7, 9) from (3, 14), but I need to verify this physically. If (7, 9) is accessible, that's where the Murkrow is.
