@@ -23,7 +23,7 @@
 - [Turn 31840] Statue at (24, 1): Identified as "PERSIAN statue" (Flavor).
 - [Turn 31840] Checking wall at (23, 0). If empty, proceeding to Shop Basement via stairs at (27, 2).
 - [Turn 31840] Note: (24, 1) is visually a Persian Statue, distinct from the alarm one at (6, 1).
-- [Turn 31913] Standing on "Voltorb Trap" at (5, 13) with NO BATTLE.
-- [Turn 31913] Conclusion: Security Switch (19, 11) ON likely DISABLED floor traps (Voltorb/Geodude/Koffing).
-- [Turn 31913] Hypothesis: Switch might have also changed "Warp Traps" into valid warps.
-- [Turn 31913] Plan: Test Warp at (12, 8). If it warps to Computer Room, success. If it warps to entrance, back to drawing board.
+- [Turn 31914] Path to East blocked by Wall at (6, 8).
+- [Turn 31914] Rerouting: Going South to Row 16 to cross from West to Center, avoiding Warp at (5, 15).
+- [Turn 31914] Target: (12, 12). From there, will inspect "Warp Trap" at (12, 8).
+- [Turn 31914] Confirmed: Floor traps (battles) are disabled. Warp traps status unknown.
