@@ -6,7 +6,7 @@
 - **Silver**: Blocking B2F South.
 
 ## Current Plan
-1. **Navigate**: Go North through Fake Computer at (19, 8) to B1F North Corridor.
+1. **Escape**: Close text, go East to (22, 12), then North to B1F North Corridor.
 2. **Target**: Grunt at B1F (13, 8). Check if battling him opens Shutter at (15, 10).
 3. **Check Shutter**: At B1F (15, 10).
 4. **Backup**: If stuck, re-check stairs at (3, 6) or (3, 1).
