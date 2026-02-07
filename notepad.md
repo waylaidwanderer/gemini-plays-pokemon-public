@@ -48,8 +48,7 @@
   - **Warp Trap**: B1F (26, 9) disabled.
 - **Locked Areas**: B1F Shutters (14/15, 11), B2F Gate (3, 8).
 - **Passwords**: "RATICATE TAIL", "HAIL GIOVANNI".
-- Location: B1F (8, 3).
-- Murkrow Puzzle: Confirmed (8, 2) Desk is solid.
-- Hypothesis: The wall at (6, 2) must be a Fake Wall like (10, 9).
-- Action: Navigating to the West side (5, 2) to test (6, 2).
-- Route: (8, 3) -> South to (8, 10) -> West through Gap (6, 10) -> North to (5, 2).
+- Location: B1F (5, 2). Facing East towards Wall (6, 2) and Murkrow (7, 2).
+- Action: Attempting to walk East into (6, 2).
+- Hypothesis: (6, 2) is a Fake Wall allowing access to Murkrow from the West side.
+- Backup: If (6, 2) is solid, check (6, 1) or reconsider Murkrow mechanics.
