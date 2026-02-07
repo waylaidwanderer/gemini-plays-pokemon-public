@@ -53,8 +53,7 @@
 - Plan: Go to (24, 14) (Boss Door approach). Attempt to open door.
 - Observations: Grunts detected at (22, 5) and (22, 7). Murkrow marker at (22, 9).
 - Objective: Open Boss Door using "RATICATE TAIL" and "HAIL GIOVANNI".
-- **Center Room Escape**: Path seems to be via Col 20/21 (Bookshelves/Oath area). (19, 11) Switch is solid.
-- **Priority**: Re-verify Stairs at B1F (3, 6). Log confirms usage.
-- **Correction**: B1F (3, 6) appears as floor but is stairs.
-- **Navigation**: Exiting Center Room -> B1F (3, 6).
+- **Center Room Escape**: Exiting via East side (Col 22) -> North to Row 2 -> West to (3, 6).
+- **Correction**: B1F (3, 6) is verified as stairs in logs.
 - **Silver**: Blocking B2F South.
+- **Next**: Take Stairs (3, 6) -> B2F (3, 6) -> Fake Wall (6, 1) -> Murkrow.
