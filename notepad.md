@@ -48,8 +48,8 @@
   - **Warp Trap**: B1F (26, 9) disabled.
 - **Locked Areas**: B1F Shutters (14/15, 11), B2F Gate (3, 8).
 - **Passwords**: "RATICATE TAIL", "HAIL GIOVANNI".
-- Location: B2F (3, 6). Gate at (3, 8) appears locked/unresponsive.
-- Action: Returning to B1F.
-- Plan: Navigate from B1F (3, 6) -> (6, 10) -> Central Room -> South to Row 12 -> East through gap at (15, 12).
-- Goal: Reach B1F East side to access SE Stairs (27, 14) and return to Boss Door.
-- Murkrow: Will revisit if Boss Door remains locked with current passwords.
+- Location: B1F (3, 6).
+- Action: Heading to SE Stairs (27, 14) to reach Boss Door.
+- Route: (3, 6) -> (6, 10) [Gap] -> South to Row 12 -> East through gap at (15, 12) -> East to (27, 14).
+- Hypothesis: Obtaining "HAIL GIOVANNI" might be sufficient to open the Boss Door without physically herding the Murkrow (since it seems trapped).
+- Backup: If Boss Door fails, will return to figure out how to move Murkrow.
