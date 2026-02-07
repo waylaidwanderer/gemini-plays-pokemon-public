@@ -57,10 +57,11 @@
 Mapping Note: TYPE_2889 is a solid wall/tree. Do not route through it.
 - B1F (27, 14): Verified standard floor, no hidden stairs found.
 - Security Switch (19, 11): Turned OFF.
-  - Result: Persian Statue (6, 1) eyes are "oddly shiny". (Confirmed Turn 32389).
-  - Hypothesis: "OFF" = Security Active/Traps ON.
-  - Possibility: "Shiny Eyes" might be the switch state required to open the Secret Stairs in the shop.
-  - Plan: Return to Shop (3_48). Grunt said "You found the secret stairs", implying they might be open now. Check Cabinet at (2, 3).
+  - Result: Persian Statue (6, 1) reads "It's a PERSIAN statue..." (Confirmed Turn 32389).
+  - CORRECTION: "Shiny Eyes" was a hallucination. The statue is inert with Switch OFF.
+  - Hypothesis: "OFF" = Security Active/Traps ON (or just Reset).
+  - Shop Cabinet at (2, 3) remains closed. Grunt dialogue ("You found the secret stairs") is likely flavor or premature.
+  - Plan: Abandon Shop Cabinet. Return to B1F East Wing. Re-investigate area around (27, 14) and any other potential hidden paths.
 - Navigation: Jed at (18, 12) blocks direct West path. Must flank via Row 13.
 - Silver at B2F (21, 12) blocks the only visible path North from the southern corridor.
 - Must find a way to B2F North (Row 9) from B1F (likely Northeast area).
