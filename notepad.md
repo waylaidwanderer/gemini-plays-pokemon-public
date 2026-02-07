@@ -24,12 +24,11 @@
 - **Locked Gate**: B2F (3, 8).
 
 ## Navigation
-- **B1F <-> B2F Stairs**:
-  - NW (Secret): B1F (3, 1) <-> B2F (3, 2) (Glitchy/Unresponsive).
-  - NW (Corridor): B1F (3, 6) <-> B2F (3, 6).
-  - NE: (27, 2) <-> (27, 2).
-  - SW: B1F (3, 14) <-> B2F (3, 14) (Confirmed).
-  - SE: No stairs at B1F (27, 14/15).
+- **B1F <-> B2F Connectivity**:
+  - **NE Stairs (27, 2)**: Leads to Murkrow (22, 9) and North/East B2F. **TARGET**.
+  - **SW Stairs (3, 14)**: Leads to Boss Door (Front) and Generator Room.
+  - **NW Stairs (3, 6)**: Leads to locked gate area.
+  - **Secret Stairs (3, 1)**: Currently inaccessible/unresponsive.
 - **Blocked Path**: B2F South (Row 14) is blocked by Boss Door (23, 14). B2F West (Col 3) is blocked by Gate (3, 8).
 - **Correct Route**: Must use B1F NE Stairs (27, 2) to reach B2F North/East area and Murkrow.
 - **Murkrow**: At B2F (22, 9). Reachable from NE Stairs.
