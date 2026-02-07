@@ -20,7 +20,7 @@
   - Summary states it fled to B2F (22, 9).
   - Target: Reach B2F East Wing to find Murkrow and Boss Door.
 - **East Wing**:
-  - "Secret Stairs" (Shop 2, 3): Grunt at (4, 3) is passive/looping dialogue. Flanking via Row 2 to reach (3, 3) and interact with Cabinet/Stairs.
+  - "Secret Stairs" (Shop 2, 3): Positioned at (3, 3). Interacting with Cabinet at (2, 3) to trigger stairs. Grunt at (4, 3) is passive.
   - "Back Stairs" (Shop 7, 3) <-> B1F (27, 2) (East Wing)
   - Switch at (22, 14) = Inert.
   - Statue at (24, 1) = Flavor/Inert.
