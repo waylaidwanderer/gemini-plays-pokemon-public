@@ -48,10 +48,8 @@
   - **Warp Trap**: B1F (26, 9) disabled.
 - **Locked Areas**: B1F Shutters (14/15, 11), B2F Gate (3, 8).
 - **Passwords**: "RATICATE TAIL", "HAIL GIOVANNI".
-- Location: B1F (3, 6).
-- Action: Executing "Backdoor Murkrow" maneuver.
-- Plan:
-  1. Go North to (3, 1).
-  2. Walk East along Row 1 to (7, 1).
-  3. Push Murkrow South from (7, 1).
-- Goal: Dislodge Murkrow from corner (7, 2) and herd it East.
+- Location: B1F (7, 3).
+- Situation: Trapped in NW Quadrant. Murkrow at (7, 2).
+- Action: Navigating to (3, 1) via South Loop to attempt flanking Murkrow from the North.
+- Hypothesis: (6, 1) might be walkable (gap in wall), allowing access to (7, 1).
+- Plan: (7, 3) -> (7, 10) -> (3, 10) -> (3, 1) -> Try walking East.
