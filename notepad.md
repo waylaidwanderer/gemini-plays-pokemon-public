@@ -59,3 +59,4 @@ Mapping Note: TYPE_2889 is a solid wall/tree. Do not route through it.
 - Navigation: Jed at (18, 12) blocks direct West path. Must flank via Row 13.
 - Silver at B2F (21, 12) blocks the only visible path North from the southern corridor.
 - Must find a way to B2F North (Row 9) from B1F (likely Northeast area).
+- Secret Stairs in Shop (2, 3) DISCOVERED! The Grunt confirmed it. Expecting access to B2F East Wing.
