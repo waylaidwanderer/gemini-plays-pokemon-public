@@ -7,8 +7,9 @@
 
 ## Current Plan
 1. **Target**: Switch at (19, 11).
-2. **Navigate**: Go South via (9, 4), then East on Row 12 to (19, 12).
-3. **Action**: Toggle the switch.
+2. **Navigate**: Go East to Col 26, then South to Row 12, then West to (19, 12).
+   - *Note*: Row 10 is blocked by machines. (19, 10) is likely a wall.
+3. **Action**: Toggle the switch at (19, 11) from (19, 12).
 4. **Hypothesis**: This switch might activate the stairs or open the shutter.
 
 ## Map Connections
