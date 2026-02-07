@@ -48,7 +48,6 @@
   - **Warp Trap**: B1F (26, 9) disabled.
 - **Locked Areas**: B1F Shutters (14/15, 11), B2F Gate (3, 8).
 - **Passwords**: "RATICATE TAIL", "HAIL GIOVANNI".
-- Location Update: Returned to B1F (3, 2) from B2F NW dead end.
-- Action: Crossing B1F to the NE Stairs (27, 2) to return to B2F NE Room.
-- Goal: Enter B2F NE Room from the North (27, 2) to access the "Front" of the computers.
-- Murkrow: Currently at B1F (7, 2). Will pass by it.
+- Location Update: At B1F (6, 10). Heading East to check if shutters at (15, 10) are open (since I hit the switch earlier).
+- Goal: Reach (27, 2) stairs to return to B2F NE Room.
+- Path: (6, 10) -> (15, 10) -> (19, 10) -> (27, 2).
