@@ -48,7 +48,8 @@
   - **Warp Trap**: B1F (26, 9) disabled.
 - **Locked Areas**: B1F Shutters (14/15, 11), B2F Gate (3, 8).
 - **Passwords**: "RATICATE TAIL", "HAIL GIOVANNI".
-- Location: B1F (5, 2). Facing East towards Wall (6, 2) and Murkrow (7, 2).
-- Action: Attempting to walk East into (6, 2).
-- Hypothesis: (6, 2) is a Fake Wall allowing access to Murkrow from the West side.
-- Backup: If (6, 2) is solid, check (6, 1) or reconsider Murkrow mechanics.
+- Location: B1F (5, 2).
+- Murkrow Status: Stuck at (7, 2). Blocking North/West/East. Interaction from South failed to move it.
+- Hypothesis: I might have the password ("HAIL GIOVANNI") already active. Going to check Boss Door.
+- Plan: Navigate to B2F Boss Door via B1F SE Stairs (27, 14).
+- Route: (5, 2) -> South to (6, 10) -> (10, 9) [Fake Wall] -> East to (27, 2) -> South to (27, 14).
