@@ -30,7 +30,9 @@
   - NE: (27, 2) <-> (27, 2).
   - SW: B1F (3, 14) <-> B2F (3, 14) (Confirmed).
   - SE: No stairs at B1F (27, 14/15).
-- **Obstacles**: Grunt at B2F (4, 1) can be bypassed by walking South of him at (4, 2). B2F North Corridor is navigable.
+- **Blocked Path**: B2F South (Row 14) is blocked by Boss Door (23, 14). B2F West (Col 3) is blocked by Gate (3, 8).
+- **Correct Route**: Must use B1F NE Stairs (27, 2) to reach B2F North/East area and Murkrow.
+- **Murkrow**: At B2F (22, 9). Reachable from NE Stairs.
 
 ## Cleared Areas (Do Not Re-Check)
 - **B1F SE Room**: Cleared. Ross defeated.
