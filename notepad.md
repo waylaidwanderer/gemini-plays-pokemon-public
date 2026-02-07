@@ -6,15 +6,16 @@
 - **Warps**: Valid B1F warps are (3, 14) [SW] and (27, 2) [Exit].
 
 ## Current Plan
-1. **Target**: Switch/Warp at (19, 11).
-2. **Action**: Step ONTO the tile at (19, 11).
-   - *Reasoning*: Interacting said "Turned off" and Jed called it a warp panel. I need to verify where it goes. It might be the way forward or a trap.
-3. **Contingency**: If it warps to entrance, navigate back to B1F (3, 14) stairs.
-4. **Mystery**: Stairs at (3, 1) seem inactive despite past use. Abandoning for now.
+1. **Target**: Murkrow at B2F SE.
+2. **Navigate**: 
+   - Go North through Fake Computer at (19, 8) to (19, 7).
+   - Go East to NE Room (25, 7).
+   - Go South to SE Room and find Stairs to B2F (near 27, 14).
+3. **Action**: Chase Murkrow to Boss Door.
+4. **Note**: Switch at (19, 11) is SOLID. Cannot step on it. Jed's "warp panel" info might apply only when active.
 
 ## Map Connections
-- **B1F NE (25, 2)**: Warp Landing from SW Room.
-- **B1F SE (26, 10)**: Connected to NE via Hidden Corridor.
-- **B1F SW (5, 15)**: Warp to NE.
-- **B1F SW (3, 14)**: Stairs to B2F South.
-- **B1F NW (3, 1)**: Former secret stairs (Currently Inactive/Confused).
+- **B1F Central (19, 8)**: Fake Computer passage to North corridor.
+- **B1F NE (25, 2)**: Warp Landing.
+- **B1F SE (26, 10)**: Hidden Corridor.
+- **B1F SE (27, 14?)**: Stairs to B2F SE.
