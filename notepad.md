@@ -53,8 +53,8 @@
 - Plan: Go to (24, 14) (Boss Door approach). Attempt to open door.
 - Observations: Grunts detected at (22, 5) and (22, 7). Murkrow marker at (22, 9).
 - Objective: Open Boss Door using "RATICATE TAIL" and "HAIL GIOVANNI".
-- **Navigation Update**: Tiles at B1F (19, 10) and (19, 11) are WALKABLE (Fake Wall/Switch), despite being TYPE_2889.
+- **Center Room Escape**: Path seems to be via Col 20/21 (Bookshelves/Oath area). (19, 11) Switch is solid.
 - **Priority**: Re-verify Stairs at B1F (3, 6). Log confirms usage.
 - **Correction**: B1F (3, 6) appears as floor but is stairs.
-- **Navigation**: Exiting Center Room via walkable central column to B1F (3, 6).
+- **Navigation**: Exiting Center Room -> B1F (3, 6).
 - **Silver**: Blocking B2F South.
