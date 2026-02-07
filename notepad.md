@@ -48,11 +48,10 @@
   - **Warp Trap**: B1F (26, 9) disabled.
 - **Locked Areas**: B1F Shutters (14/15, 11), B2F Gate (3, 8).
 - **Passwords**: "RATICATE TAIL", "HAIL GIOVANNI".
-- Location: B2F (3, 7). Gate at (3, 8) is LOCKED.
-- Consequence: Cannot reach South Corridor (Row 14) from West side.
-- Action: Returning to B1F to attempt "Backdoor Murkrow" maneuver.
+- Location: B1F (3, 6).
+- Action: Executing "Backdoor Murkrow" maneuver.
 - Plan:
-  1. Ascend Stairs at (3, 6) to B1F (3, 6).
-  2. Go North to B1F (3, 1).
-  3. Navigate East along Row 1/2 to flank Murkrow at (7, 2) from the North/West.
-  4. Force Murkrow South/East.
+  1. Go North to (3, 1).
+  2. Walk East along Row 1 to (7, 1).
+  3. Push Murkrow South from (7, 1).
+- Goal: Dislodge Murkrow from corner (7, 2) and herd it East.
