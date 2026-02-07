@@ -48,8 +48,8 @@
   - **Warp Trap**: B1F (26, 9) disabled.
 - **Locked Areas**: B1F Shutters (14/15, 11), B2F Gate (3, 8).
 - **Passwords**: "RATICATE TAIL", "HAIL GIOVANNI".
-- Location: B1F (10, 9).
-- Action: Heading West to (3, 10) to access the West Corridor.
-- Reasoning: Direct East path is blocked. Row 11 seems blocked except at West Corridor (x=3).
-- Path: (10, 9) -> (6, 10) -> (3, 10) -> South through (3, 11) [Verify Walkability] -> East to SE Stairs.
-- Goal: Reach Boss Door (23, 14) on B2F.
+- Location: B1F (3, 10).
+- Situation: Need to cross to East side. Direct paths (Row 2, Row 10) blocked.
+- Action: Testing South path at (3, 11). If blocked, checking B2F Gate at (3, 8) via Stairs (3, 6).
+- Hypothesis: The password "RATICATE TAIL" or "HAIL GIOVANNI" might open the B2F Gate.
+- Goal: Find a path to the East side to reach Boss Door.
