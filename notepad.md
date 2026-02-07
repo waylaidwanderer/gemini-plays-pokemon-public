@@ -6,9 +6,9 @@
 - **Silver**: Blocking B2F South.
 
 ## Current Plan
-1. **Interact**: Talk to Grunt at (14, 10).
-2. **Escape**: Navigate West to the Southwest Room.
-3. **Warp**: Use the warp at (5, 15) to reach the Northeast side.
+1. **Interact**: Talk to Grunt at (14, 11).
+2. **Escape**: Walk West through the open path at (10, 11/12) to exit the room.
+3. **Warp**: Navigate to the warp at (5, 15) in the Southwest Room.
 4. **Objective**: Approach the North area (Murkrow/Boss Door) from the Northeast.
 
 ## Map Connections
