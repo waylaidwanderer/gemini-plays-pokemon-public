@@ -6,11 +6,11 @@
 - **Warps**: Valid B1F warps are (3, 14) [SW] and (27, 2) [Exit].
 
 ## Current Plan
-1. **Target**: Scientist Jed at (18, 12).
-2. **Action**: Talk to Jed again.
-   - *Reasoning*: Switch at (19, 11) is 'Turned off' and un-interactive. Jed might know why.
-3. **Target**: Locked Shutter at (15, 10).
-4. **Action**: Inspect shutter.
+1. **Target**: Locked Shutter at (15, 10).
+2. **Action**: Inspect shutter to see if it can be opened.
+3. **Target**: Murkrow at B2F.
+4. **Action**: Find and chase Murkrow to the Boss Door.
+   - *Reasoning*: The switch at (19, 11) is a trap. The shutter is the only other B1F obstacle. If it's locked, the Murkrow is the key.
 
 ## Map Connections
 - **B1F NE (25, 2)**: Warp Landing from SW Room.
