@@ -48,8 +48,7 @@
   - **Warp Trap**: B1F (26, 9) disabled.
 - **Locked Areas**: B1F Shutters (14/15, 11), B2F Gate (3, 8).
 - **Passwords**: "RATICATE TAIL", "HAIL GIOVANNI".
-- Location: B1F (6, 10).
-- Situation: Confirmed Row 11 is blocked and B2F Gate (3, 8) is locked. I am trapped in NW B1F unless I find a new path.
-- Hypothesis: The wall at (15, 2) separates the NW and NE corridors. It might be a Fake Wall like (10, 9).
-- Plan: Navigate to (14, 2) and attempt to walk East through (15, 2).
-- Goal: Reach NE Stairs (27, 2) to bypass the blockage.
+- Location: B1F (14, 2). Facing East towards Wall (15, 2).
+- Action: Attempting to walk East.
+- Observation: Murkrow (Sprite c586) disappeared from (7, 2). It might have fled when I was near it earlier?
+- Backup: If (15, 2) is solid, check (7, 2) to see if Murkrow is gone/moved, which might open a path or trigger an event.
