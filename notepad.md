@@ -23,3 +23,4 @@
 - [Turn 31840] Statue at (24, 1): Identified as "PERSIAN statue" (Flavor).
 - [Turn 31840] Checking wall at (23, 0). If empty, proceeding to Shop Basement via stairs at (27, 2).
 - [Turn 31840] Note: (24, 1) is visually a Persian Statue, distinct from the alarm one at (6, 1).
+- [Turn 31843] Found interactable at (6, 1) (Scroll/Poster). Text: "What is this?". Likely the secret switch.
