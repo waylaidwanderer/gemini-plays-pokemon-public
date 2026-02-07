@@ -49,7 +49,7 @@
 - **Locked Areas**: B1F Shutters (14/15, 11), B2F Gate (3, 8).
 - **Passwords**: "RATICATE TAIL", "HAIL GIOVANNI".
 - Location: B1F (3, 10).
-- Situation: Need to cross to East side. Direct paths (Row 2, Row 10) blocked.
-- Action: Testing South path at (3, 11). If blocked, checking B2F Gate at (3, 8) via Stairs (3, 6).
-- Hypothesis: The password "RATICATE TAIL" or "HAIL GIOVANNI" might open the B2F Gate.
-- Goal: Find a path to the East side to reach Boss Door.
+- Observation: Row 11 is blocked. Cannot cross to South B1F from here.
+- Plan: Use Stairs at (3, 6) to enter B2F.
+- Hypothesis: Passwords will open the Gate at B2F (3, 8), allowing access to the southern part of B2F and the Boss Door.
+- Murkrow: Leaving it for now. Password "HAIL GIOVANNI" obtained.
