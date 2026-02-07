@@ -19,7 +19,7 @@
 - **West Wing**:
   - Shutters (15, 10) = Locked.
   - Grunt at (12, 10) = Blocking path (can be flanked).
-  - Persian Statue (6, 1) = Flavor/Alarm? (Check pending with switch ON).
+  - Persian Statue (6, 1) = Confirmed Inert (Flavor text only).
 
 ## Leads
 1. **Computer**: Check terminals at (19, 7) and (18, 7).
