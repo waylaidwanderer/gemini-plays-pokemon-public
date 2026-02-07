@@ -17,3 +17,4 @@
 - (6, 1): Persian Statue (Target).
 - (5, 15): Warp to East Side.
 - (27, 2): Stairs to Shop.
+- [Turn 31823] Inspected Statue at (24, 5) from East (no reaction) and West (pending). Using safe path around alarm tile (24, 6).
