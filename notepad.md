@@ -48,9 +48,9 @@
   - **Warp Trap**: B1F (26, 9) disabled.
 - **Locked Areas**: B1F Shutters (14/15, 11), B2F Gate (3, 8).
 - **Passwords**: "RATICATE TAIL", "HAIL GIOVANNI".
-- Location: B1F (5, 1). Facing East towards Wall (6, 1).
-- Action: Bumping Wall (6, 1).
-- Hypothesis: (6, 1) is a Fake Wall.
-- Contingency: If solid, Murkrow at (7, 2) is effectively boxed in by walls at (6, 2) and (8, 2) and my previous position at (7, 3).
-- Question: Is (8, 1) a gap? I haven't checked the North side of the East desk yet.
-- Plan: If (6, 1) fails, check (8, 1) via the long way around (if possible) or reconsider if Murkrow moves when I'm not looking.
+- Location: B1F (5, 1). Wall at (6, 1) confirmed SOLID.
+- Situation: Cannot flank Murkrow from West. Cannot reach East B1F.
+- Murkrow Status: Previously noted as "disappeared" from (7, 2).
+- Plan: Check B2F Secret Room (3, 2) via Stairs (3, 1).
+- Hypothesis: Murkrow might have fled there, or there is a switch/fake wall I missed.
+- Goal: Find a path to the East side or the Boss Door.
