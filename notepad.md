@@ -48,6 +48,7 @@
   - **Warp Trap**: B1F (26, 9) disabled.
 - **Locked Areas**: B1F Shutters (14/15, 11), B2F Gate (3, 8).
 - **Passwords**: "RATICATE TAIL", "HAIL GIOVANNI".
-- Location Update: At (24, 2). Discovered a wall at x=23 separating the room.
-- Plan: Must loop around via Row 1 (Back of computers) to the Left side (around x=5) to access Row 3, then head East to (22, 3) to check the computer.
-- Expectation: Might encounter Grunt at (22, 5) when reaching the target.
+- Location Update: At (24, 2). Confirmed wall at x=23 separates East/West.
+- Nav Analysis: "Front of Computers" (Row 3, x=7-22) is blocked by walls at x=6 and x=23. Access likely via gaps in Row 4 (e.g., x=10, 18).
+- Plan: Loop via Row 1 to NW corner (x=3). Check if Row 4 is a ledge (jumpable). If so, jump down to Row 5, go East, and enter Row 3 via gaps.
+- Observation: Stairs at (3, 2) and (27, 2) lead to B1F.
