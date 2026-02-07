@@ -31,3 +31,6 @@
 4. **Murkrow**: Investigate sprite at B2F (7, 9).
 - Cabinet at (2, 2) interaction: No response.
 - **Secret Stairs Trigger**: Talk to Grunt at (4, 3). He acknowledges finding the stairs.
+- Passwords learned (from history): "RATICATE TAIL", "HAIL GIOVANNI".
+- Persian Statue at (6, 1) is definitely inert.
+- Murkrow likely at B2F (22, 9).
