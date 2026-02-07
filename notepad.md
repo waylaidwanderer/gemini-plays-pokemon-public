@@ -48,8 +48,9 @@
   - **Warp Trap**: B1F (26, 9) disabled.
 - **Locked Areas**: B1F Shutters (14/15, 11), B2F Gate (3, 8).
 - **Passwords**: "RATICATE TAIL", "HAIL GIOVANNI".
-- Location: B1F (3, 1).
-- Action: Walking East to test Wall at (6, 1).
-- Hypothesis: (6, 1) is a Fake Wall allowing access to (7, 1).
-- Goal: Reach (7, 1) to push Murkrow South.
-- Observation: (6, 2) was solid. (8, 2) was solid. (7, 1) appears isolated unless (6, 1) or (8, 1) is fake.
+- Location: B1F (5, 1). Facing East towards Wall (6, 1).
+- Action: Bumping Wall (6, 1).
+- Hypothesis: (6, 1) is a Fake Wall.
+- Contingency: If solid, Murkrow at (7, 2) is effectively boxed in by walls at (6, 2) and (8, 2) and my previous position at (7, 3).
+- Question: Is (8, 1) a gap? I haven't checked the North side of the East desk yet.
+- Plan: If (6, 1) fails, check (8, 1) via the long way around (if possible) or reconsider if Murkrow moves when I'm not looking.
