@@ -23,6 +23,7 @@
 - [Turn 31840] Statue at (24, 1): Identified as "PERSIAN statue" (Flavor).
 - [Turn 31840] Checking wall at (23, 0). If empty, proceeding to Shop Basement via stairs at (27, 2).
 - [Turn 31840] Note: (24, 1) is visually a Persian Statue, distinct from the alarm one at (6, 1).
-- [Turn 31903] Warp (19, 1) is INACTIVE (stepped on twice). Switch ON did not enable it.
-- [Turn 31903] Hypothesis Revised: Security Switch ON opens the Shutters at (15, 10) or disables floor traps in the West maze.
-- [Turn 31903] Plan: Walk to West Side via South Corridor (Row 14/15). Check Shutters at (15, 10). If open, access Computer Room.
+- [Turn 31913] Standing on "Voltorb Trap" at (5, 13) with NO BATTLE.
+- [Turn 31913] Conclusion: Security Switch (19, 11) ON likely DISABLED floor traps (Voltorb/Geodude/Koffing).
+- [Turn 31913] Hypothesis: Switch might have also changed "Warp Traps" into valid warps.
+- [Turn 31913] Plan: Test Warp at (12, 8). If it warps to Computer Room, success. If it warps to entrance, back to drawing board.
