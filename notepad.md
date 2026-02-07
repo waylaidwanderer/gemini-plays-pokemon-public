@@ -17,9 +17,9 @@
 ## Key Discoveries & Mechanics
 - **Passwords**: "RATICATE TAIL" (Grunt), "HAIL GIOVANNI" (Murkrow).
 - **Switch #1**: B1F (19, 11). Disables statues. Found.
-- **Secret Passage**: B1F (19, 10). Fake computer terminal.
+- **Secret Passage**: B1F (19, 8). Fake computer terminal.
 - **Warp Trap**: B1F (26, 9). Disabled.
-- **Fake Machines**: TYPE_3fe2 machines are walkable (e.g. 19, 10). Found stairs at B1F (3, 1) behind fake machine.
+- **Fake Machines**: TYPE_3fe2 machines are walkable (e.g. 19, 8). Found stairs at B1F (3, 1) behind fake machine.
 - **Locked Shutters**: B1F (14/15, 11).
 - **Locked Gate**: B2F (3, 8).
 
