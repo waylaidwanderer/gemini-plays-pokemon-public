@@ -53,3 +53,4 @@
 - Plan: Go to (24, 14) (Boss Door approach). Attempt to open door.
 - Observations: Grunts detected at (22, 5) and (22, 7). Murkrow marker at (22, 9).
 - Objective: Open Boss Door using "RATICATE TAIL" and "HAIL GIOVANNI".
+- **Warp Glitch?**: Stuck at B1F (3, 1). Stairs not triggering. Attempting to re-enter tile from East. Note: B1F (3, 6) leads to B2F (3, 6) but might not connect to Secret Room at (3, 2). Must use (3, 1) to reach Fake Wall at B2F (6, 1).
