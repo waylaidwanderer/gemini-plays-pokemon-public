@@ -23,5 +23,5 @@
 - [Turn 31840] Statue at (24, 1): Identified as "PERSIAN statue" (Flavor).
 - [Turn 31840] Checking wall at (23, 0). If empty, proceeding to Shop Basement via stairs at (27, 2).
 - [Turn 31840] Note: (24, 1) is visually a Persian Statue, distinct from the alarm one at (6, 1).
-- [Turn 31859] "Secret Stairs" are just the Shop connection. Dead end for deeper exploration.
-- [Turn 31859] Next: Defeat Grunt, then return to B1F to check "Inert Switch" at (22, 14) and Persian Statue at (6, 1).
+- [Turn 31861] Dialogue with Grunt ended (or box closed). Attempting to bypass Grunt to reach Stairs at (7, 3).
+- [Turn 31861] Destination: B1F East Wing. Target: "Inert Switch" at (22, 14).
