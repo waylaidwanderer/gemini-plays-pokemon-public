@@ -23,6 +23,7 @@
 - [Turn 31840] Statue at (24, 1): Identified as "PERSIAN statue" (Flavor).
 - [Turn 31840] Checking wall at (23, 0). If empty, proceeding to Shop Basement via stairs at (27, 2).
 - [Turn 31840] Note: (24, 1) is visually a Persian Statue, distinct from the alarm one at (6, 1).
-- [Turn 31869] Dialogue is progressing VERY slowly ("stair-" -> "stair- way...").
-- [Turn 31869] Action: Continuing to force dialogue advance. The Grunt interaction is mandatory to clear the path/flag.
-- [Turn 31869] Destination: B1F East Wing. Target: "Inert Switch" at (22, 14).
+- [Turn 31870] Dialogue loop identified: Mashing 'A' likely restarts conversation.
+- [Turn 31870] Action: Pressing 'B' to close text, then moving UP to (3, 2) to bypass Grunt.
+- [Turn 31870] Grunt appears to be non-hostile/flavor or already defeated. He guards the stairs I already used.
+- [Turn 31870] Destination: B1F East Wing via stairs at (7, 3). Target: "Inert Switch" at (22, 14).
