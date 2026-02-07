@@ -48,8 +48,8 @@
   - **Warp Trap**: B1F (26, 9) disabled.
 - **Locked Areas**: B1F Shutters (14/15, 11), B2F Gate (3, 8).
 - **Passwords**: "RATICATE TAIL", "HAIL GIOVANNI".
-- Location: B2F (6, 1) (Inside Fake Wall).
-- Discovery: B2F (6, 1) IS A FAKE WALL.
-- Action: Continue East to (7, 1) and explore the hidden room.
-- Goal: Locate Switch #2, Murkrow, or a path to the Boss Door.
-- Note: Always trust XML 'TYPE' over visual sprites in this base.
+- Location: B2F (5, 1).
+- Correction: Despite XML type 'TYPE_3fe2', the wall at (6, 1) is SOLID (blocked movement).
+- Discovery: Murkrow disappeared from B1F (7, 2) (Turn 30974).
+- Plan: Return to B1F and investigate the empty Murkrow spot at (7, 2).
+- Hypothesis: Access to the East side is via B1F (7, 2) -> (8, 2) (Desk) -> East.
