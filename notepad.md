@@ -1,6 +1,6 @@
 # Team Rocket HQ (Mahogany Town)
 ## Map IDs
-- **3_51**: B1F (Main Floor).
+- **3_49**: B1F (Main Floor) - Updated from 3_51.
 - **3_50**: B2F (Basement).
 
 ## Primary Objectives
