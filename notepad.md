@@ -26,6 +26,8 @@
 2. **Warp at (12, 8)**: Test if it's a valid warp now.
 3. **Persian Statue (6, 1)**: Re-inspect with security ON.
 4. **Silver**: At (10, 4). Might have dialogue.
-- Murkrow Status: Sprite at B1F (22, 9) is NON-SOLID and non-interactive. Suspect visual glitch or ghost.
-- Plan: Proceed to B2F. Check Boss Door (might already have password) and check B2F (22, 9).
+- **Murkrow Investigation**:
+  - B1F: Sprite at (22, 9) was non-interactive/glitched.
+  - B2F: Investigating sprite at (7, 9) and checking if Silver (11, 13) has info.
+  - **Hypothesis**: The real Murkrow is on B2F, or I need to trigger an event here first.
 - Murkrow Cycle: North (7, 2) -> East (22, 9) -> West (1, 9) -> North (7, 2).
