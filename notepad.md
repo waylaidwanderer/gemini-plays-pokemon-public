@@ -23,6 +23,7 @@
 - [Turn 31840] Statue at (24, 1): Identified as "PERSIAN statue" (Flavor).
 - [Turn 31840] Checking wall at (23, 0). If empty, proceeding to Shop Basement via stairs at (27, 2).
 - [Turn 31840] Note: (24, 1) is visually a Persian Statue, distinct from the alarm one at (6, 1).
-- [Turn 31887] Text "The switch is turned off." displayed.
-- [Turn 31887] Action: Pressing 'A' repeatedly to advance text and select "Turn it on?".
-- [Turn 31887] Goal: Activate warps to reach Computer Room (19, 8).
+- [Turn 31888] Attempting to turn Security Switch ON.
+- [Turn 31888] Navigation Plan: Access Computer Room (19, 8).
+- [Turn 31888] Route A: If shutters open, walk North from (19, 11).
+- [Turn 31888] Route B: If shutters stay closed, loop West to (8, 10) or East to (24, 10) to enter the corridor at Row 9.
