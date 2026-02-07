@@ -1,7 +1,7 @@
 # Team Rocket HQ Status
 ## Critical Objectives
 - **Primary**: Reach B2F East Wing (Boss Room).
-- **Secondary**: Check B1F (22, 9) for Murkrow.
+- **Secondary**: Access B2F East Wing (Waiting for Silver to move).
 
 ## Exploration Status
 - **B1F (First Floor)**
@@ -9,17 +9,16 @@
   - **Central Area**: Computers checked (inert).
   - **East Wing**: Accessed via Warp (5, 15) -> (25, 2).
   - **Southeast Corner (27, 14)**: Confirmed dead end. No hidden items.
-  - **Murkrow**: Last seen fleeing B1F (7, 2). Reported at (22, 9) (Floor uncertain).
+  - **Murkrow**: Confirmed NOT at B1F (22, 9).
 - **B2F (Second Floor)**
   - **West Wing**: Accessible via stairs at B1F (3, 14).
   - **East Wing**: Locked Boss Door. Needs Password + Voice ID.
-  - **Connection Problem**: Path blocked by Grunt at B2F (21, 14).
-  - **Hypothesis**: Murkrow might be at B1F (22, 9). If not, it's at B2F (22, 9) which is currently unreachable.
+  - **Murkrow**: Sprite detected at B2F (22, 9).
+  - **Current Obstacle**: Rival Silver at (21, 12). Dialogue complete ("Go look").
 
 ## Action Plan
-1. **Navigate** to B1F (22, 9) to check for Murkrow.
-2. **If Murkrow is there**: Interact to get Voice ID/Password.
-3. **If Murkrow is NOT there**:
-    - Go to Shop via stairs at (27, 2).
-    - Re-investigate "Secret Stairs" hint.
-    - Return to B2F West and try to bypass Grunt again.
+1. **Clear Dialogue**: Close text box.
+2. **Wait for Silver**: Allow him to leave.
+3. **Navigate**: Go to (22, 9) to find Murkrow.
+4. **Get Password**: Interact with Murkrow.
+5. **Open Boss Door**: Use password at (23, 14).
