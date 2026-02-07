@@ -17,3 +17,4 @@
 - **B1F SE (26, 10)**: Connected to NE via Hidden Corridor.
 - **B1F SW (5, 15)**: Warp to NE.
 - **B1F SW (3, 14)**: Stairs to B2F South (Blocked).
+- (3, 1): ⬇️ Secret Stairs to B2F (3, 2).
