@@ -26,3 +26,4 @@
 2. **Warp at (12, 8)**: Test if it's a valid warp now.
 3. **Persian Statue (6, 1)**: Re-inspect with security ON.
 4. **Silver**: At (10, 4). Might have dialogue.
+- Murkrow fled from B2F West (1, 9). Likely returned to B2F East (near Switch/Boss Door).
