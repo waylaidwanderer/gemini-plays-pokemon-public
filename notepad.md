@@ -1,15 +1,16 @@
 # Team Rocket HQ Status
 ## Critical Issues
-- **Boss Door**: Locked at B2F (23, 14). Needs password/Voice ID.
-- **Murkrow**: Required for Voice ID. Last seen B2F (22, 9).
-- **Silver**: Previously blocking B2F South. Check if he's gone.
-- **Warp Confirmed**: B1F (3, 14) -> B2F (3, 14) is the valid path.
+- **Silver**: Blocking direct path to Boss Door/Murkrow at B2F (21, 14).
+- **Walls**: B2F Row 12 is a wall, preventing North travel from South side.
+- **Route**: Must access B2F North/East via B1F NE Stairs.
+- **Warps**: Valid B1F warps are (3, 14) [SW] and (27, 2) [NE].
 
 ## Current Plan
-1. **Navigate**: Head East from B2F (3, 14) towards the Boss Door.
-2. **Check Silver**: See if the path is clear.
-3. **Find Murkrow**: Locate it in the Northeast area (approx 22, 9).
-4. **Execute**: Lead Murkrow to Boss Door.
+1. **Retreat**: Go back to Stairs at B2F (3, 14) -> B1F (3, 14).
+2. **Warp**: In B1F SW Room, use Warp at (5, 15) -> Land at B1F NE (25, 2).
+3. **Descend**: Take Stairs at B1F (27, 2) -> B2F NE (27, 2).
+4. **Target**: Find Murkrow in B2F NE area.
+5. **Boss Door**: Approach from the North/East side.
 
 ## Map Connections
 - **B1F NE (25, 2)**: Warp Landing from SW Room.
