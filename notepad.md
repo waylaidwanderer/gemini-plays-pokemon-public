@@ -6,22 +6,20 @@
 - **Warps**: Valid B1F warps are (3, 14) [SW] and (27, 2) [Exit].
 
 ## Current Plan
-1. **Open Boss Door**:
-   - I am at (23, 14), facing the Boss Door.
-   - **Action**: Interact with the door.
-   - **Requirement**: "Voice ID" (Murkrow) + Passwords.
-2. **If Locked**:
-   - Go West to find Silver or the Murkrow.
-   - Murkrow is at B2F NW (7, 2).
-   - Silver might be at (20, 14).
+1. **Find Murkrow**:
+   - Silver is NOT blocking the path (I am at 20, 14).
+   - Navigate West to the far wall, then North to (7, 2).
+   - Murkrow is required for the "Voice ID".
+2. **Open Boss Door**:
+   - Once Murkrow is "obtained" (or chases me?), return to Boss Door at (23, 14).
 3. **Passwords**:
-   - "RATICATE TAIL" (Have)
-   - "HAIL GIOVANNI" (Have)
+   - "RATICATE TAIL"
+   - "HAIL GIOVANNI"
 
 ## Map Connections
 - **B2F SE (27, 14)**: Stairs to B1F SE.
 - **B2F Boss Door**: (23, 14).
-- **B2F West**: Unknown if Silver is blocking.
+- **B2F NW**: Murkrow Location (7, 2).
 
 ## Map Connections
 - **B1F Central (9, 4)**: Passage between North and Central corridors.
