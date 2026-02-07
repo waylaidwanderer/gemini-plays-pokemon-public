@@ -1,13 +1,14 @@
 # Team Rocket HQ Status
 ## Critical Objectives
 - **Primary**: Reach B2F East Wing (Boss Room).
-- **Secondary**: Investigate B1F Southeast Corner (27, 14) for hidden stairs.
+- **Secondary**: Investigate Souvenir Shop via (27, 2) stairs with Security ON.
 
 ## Exploration Status
 - **B1F (First Floor)**
   - **West Wing**: Explored. Warps and statues inert.
   - **Central Area**: Computers checked (inert).
   - **East Wing**: Accessed via Warp (5, 15) -> (25, 2).
+  - **Southeast Corner (27, 14)**: Confirmed dead end. No hidden items.
   - **South Corridor (Row 14-16)**: Connects West and East wings.
 - **B2F (Second Floor)**
   - **West Wing**: Accessible via stairs at B1F (3, 14). Contains Murkrow spawn? (Unverified).
