@@ -6,15 +6,19 @@
 - **Warps**: Valid B1F warps are (3, 14) [SW] and (27, 2) [Exit].
 
 ## Current Plan
-1. **Target**: Stairs at (3, 14).
-2. **Navigate**: Go West from Central Room (20, 13) to SW Corner (3, 14).
-   - Avoid Warp at (5, 15).
-   - Navigate through traps on Row 13/12.
-3. **Action**: Descend to B2F.
-4. **Target**: Murkrow (B2F).
+1. **Target**: Central Passage at (9, 4).
+2. **Navigate**: 
+   - Go East to (22, 11) (Defeated Grunt).
+   - Go North to Row 5.
+   - Go West to (9, 5).
+   - Go North through (9, 4).
+3. **Navigate**: To Stairs at (3, 14).
+   - From (9, 3) go West.
+   - Bypass Warp Trap at (4, 3) via (4, 4).
+   - Go South to (3, 14).
+4. **Action**: Descend to B2F.
 
 ## Map Connections
-- **B1F Central (19, 8)**: Fake Computer passage to North corridor.
-- **B1F NE (25, 2)**: Warp Landing.
-- **B1F SE (26, 10)**: Hidden Corridor.
+- **B1F Central (9, 4)**: Passage between North and Central corridors.
+- **B1F North (Row 3/4)**: Connects East and West sides.
 - **B1F SW (3, 14)**: Stairs to B2F.
