@@ -20,5 +20,5 @@
 - [Turn 31828] Persian Statue at (6, 1): "Its eyes are oddly shiny" (Flavor/Alarm).
 - [Turn 31835] Warped to East Wing (25, 2).
 - [Turn 31836] Statue at (24, 1): "Its eyes are oddly shiny" (South Side).
-- [Turn 31837] Checking Statue at (24, 1) from East/West.
-- [Turn 31837] Hypothesis: Secret Stairs near "Inert Statue" (24, 1), "Inert Switch" (22, 14), or revealed by Alarm (24, 6).
+- [Turn 31838] Statue at (24, 1): East side is inert. Checking West side.
+- [Turn 31838] Hypothesis: Secret Stairs near "Inert Switch" (22, 14) or revealed by Alarm (24, 6).
