@@ -9,10 +9,10 @@
 3. **Defeat Executive**: Inside the Boss Room.
 
 ## Murkrow Status
-- **Location**: B1F (7, 2).
+- **Location**: B2F (22, 9).
 - **Knowledge**: Teaches "HAIL GIOVANNI".
 - **Mechanic**: Fleeing AI. Must chase it to specific spots.
-- **Route Hypothesis**: B1F (7, 2) -> ??? -> Boss Door.
+- **Route Hypothesis**: B2F (22, 9) -> Boss Door (23, 14).
 
 ## Key Discoveries & Mechanics
 - **Passwords**: "RATICATE TAIL" (Grunt), "HAIL GIOVANNI" (Murkrow).
