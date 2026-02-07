@@ -48,7 +48,7 @@
   - **Warp Trap**: B1F (26, 9) disabled.
 - **Locked Areas**: B1F Shutters (14/15, 11), B2F Gate (3, 8).
 - **Passwords**: "RATICATE TAIL", "HAIL GIOVANNI".
-- Location Update: At B1F (14, 10). Shutter at (15, 10) is LOCKED.
-- Action: Moving West to the main corridor (x=3) to attempt to bypass Row 11 via the South.
-- Hypothesis: (3, 11) might be walkable (Mental Map says Wall, but Heatmap shows visits).
-- Path: (14, 10) -> West to (3, 10) -> Check South.
+- Location Update: At B1F (3, 10).
+- Action: Attempting to cross Row 11 via (3, 11) (Heatmap suggests it's walkable).
+- Goal: Reach the gap at (15, 12) to cross to the East side, then head North to (27, 2).
+- Path: (3, 10) -> South to Row 12 -> East to (15, 12) -> North/East to (27, 2).
