@@ -23,7 +23,6 @@
 - [Turn 31840] Statue at (24, 1): Identified as "PERSIAN statue" (Flavor).
 - [Turn 31840] Checking wall at (23, 0). If empty, proceeding to Shop Basement via stairs at (27, 2).
 - [Turn 31840] Note: (24, 1) is visually a Persian Statue, distinct from the alarm one at (6, 1).
-- [Turn 31879] Failed to reach Computer at (19, 8) because Security Switch at (19, 11) blocks the path (Solid Object).
-- [Turn 31879] Rerouting: Must go East to (25, 12), then North to (25, 2), then West to (19, 2), then Down to (19, 8).
-- [Turn 31879] Confirmed: Security Switch is OFF.
-- [Turn 31879] Plan: Inspect Computer at (19, 8) for password or door controls.
+- [Turn 31882] Analysis: Computer Room (19, 8) is physically walled off.
+- [Turn 31882] Hypothesis: Security Switch (19, 11) must be ON to activate specific warps (like 19, 1) to enter the room.
+- [Turn 31882] Plan: Turn Switch ON, then test Warp at (19, 1) or others.
