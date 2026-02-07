@@ -48,7 +48,7 @@
   - **Warp Trap**: B1F (26, 9) disabled.
 - **Locked Areas**: B1F Shutters (14/15, 11), B2F Gate (3, 8).
 - **Passwords**: "RATICATE TAIL", "HAIL GIOVANNI".
-- Location: B1F (3, 2). Heading East to (27, 2).
-- Task: Chase Murkrow from (7, 2) towards the NE Stairs (27, 2).
-- Goal: Get Murkrow to B2F Boss Door (23, 14).
-- Route: B1F (27, 2) -> B2F (27, 2) -> B2F Central Room.
+- Location: B1F (3, 2) (West Corridor).
+- Navigation: Moving South to gap at (6, 10) to bypass the wall at x=6, then North to Murkrow at (7, 2).
+- Task: Push Murkrow East from its corner at (7, 2).
+- Route: (3, 2) -> (3, 10) -> (7, 10) -> (7, 3).
