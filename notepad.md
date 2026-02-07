@@ -23,7 +23,7 @@
 - [Turn 31840] Statue at (24, 1): Identified as "PERSIAN statue" (Flavor).
 - [Turn 31840] Checking wall at (23, 0). If empty, proceeding to Shop Basement via stairs at (27, 2).
 - [Turn 31840] Note: (24, 1) is visually a Persian Statue, distinct from the alarm one at (6, 1).
-- [Turn 31876] Reflection: "Inert Switch" and "Secret Stairs" were dead ends.
-- [Turn 31876] Strategy: Investigating "Fake Computer" at (19, 8). If that fails, will deliberately trigger alarms/traps to find hidden paths.
-- [Turn 31876] Note: Security Switch (19, 11) is OFF. Traps are active.
-- [Turn 31876] Possible Leads: Persian Statue (6, 1) alarm, Grunt at Shop (4, 3) battle, or specific Warp Tile.
+- [Turn 31879] Failed to reach Computer at (19, 8) because Security Switch at (19, 11) blocks the path (Solid Object).
+- [Turn 31879] Rerouting: Must go East to (25, 12), then North to (25, 2), then West to (19, 2), then Down to (19, 8).
+- [Turn 31879] Confirmed: Security Switch is OFF.
+- [Turn 31879] Plan: Inspect Computer at (19, 8) for password or door controls.
