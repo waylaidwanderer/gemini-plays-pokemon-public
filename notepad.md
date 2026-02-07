@@ -6,10 +6,10 @@
 - **Silver**: Blocking B2F South.
 
 ## Current Plan
-1. **Escape**: Close text, go East to (22, 12), then North to B1F North Corridor.
-2. **Target**: Grunt at B1F (13, 8). Check if battling him opens Shutter at (15, 10).
-3. **Check Shutter**: At B1F (15, 10).
-4. **Backup**: If stuck, re-check stairs at (3, 6) or (3, 1).
+1. **Interact**: Talk to Grunt at (14, 10).
+2. **Escape**: Navigate West to the Southwest Room.
+3. **Warp**: Use the warp at (5, 15) to reach the Northeast side.
+4. **Objective**: Approach the North area (Murkrow/Boss Door) from the Northeast.
 
 ## Map Connections
 - **B1F NE (25, 2)**: Warp Landing from SW Room.
