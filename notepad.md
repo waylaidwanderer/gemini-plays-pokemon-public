@@ -55,4 +55,4 @@
 - Objective: Open Boss Door using "RATICATE TAIL" and "HAIL GIOVANNI".
 - **Priority**: Re-verify Stairs at B1F (3, 6). Log confirms usage in Turn 30961.
 - **Correction**: B1F (3, 6) appears as floor in XML but functions as stairs.
-- **Center Room**: Checking Switch at (22, 14) then exiting.
+- **Action**: Navigating to B1F (3, 6) to descend to B2F.
