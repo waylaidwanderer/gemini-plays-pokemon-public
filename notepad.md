@@ -6,10 +6,10 @@
 - **Silver**: Blocking B2F South.
 
 ## Current Plan
-1. **Navigate**: Go to SE Stairs at B1F (27, 15).
-2. **Descend**: Enter B2F.
-3. **Find Murkrow**: Locate the Murkrow in B2F (last seen B2F (22, 9)).
-4. **Boss Door**: Get the password/voice ID.
+1. **Navigate**: Go North through Fake Crate at (26, 10) to NE Room.
+2. **Cross**: Travel West along Row 2 to the NW Room.
+3. **Descend**: Use verified stairs at B1F (3, 6) to B2F.
+4. **Find Murkrow**: Locate the Murkrow in B2F.
 
 ## Map Connections
 - **B1F NE (25, 2)**: Warp Landing from SW Room.
