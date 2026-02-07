@@ -48,7 +48,8 @@
   - **Warp Trap**: B1F (26, 9) disabled.
 - **Locked Areas**: B1F Shutters (14/15, 11), B2F Gate (3, 8).
 - **Passwords**: "RATICATE TAIL", "HAIL GIOVANNI".
-- Location: B1F (7, 3). Stepping Right to (8, 3) to unblock Murkrow's South path.
-- Hypothesis: Murkrow might be trapped because I'm blocking the only exit (South). (7, 1) is a dead end.
-- Plan: Move to (8, 3). If Murkrow doesn't move, check West wall at (6, 2) for secret passage.
-- Passwords: "RATICATE TAIL", "HAIL GIOVANNI". Boss Door requires both + voice?
+- Location: B1F (8, 3).
+- Murkrow Puzzle: Murkrow at (7, 2) is cornered. Interacting from South (7, 3) failed (blocked?).
+- Hypothesis: Must push from West (6, 2) or East (8, 2).
+- Plan: Test (8, 2) (Desk) for fakeness. If solid, loop to West side (5, 2) to test (6, 2) (Wall).
+- Route to West: (8, 3) -> South to Row 10 -> West to (6, 10) -> North to (5, 2).
