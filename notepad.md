@@ -48,8 +48,7 @@
   - **Warp Trap**: B1F (26, 9) disabled.
 - **Locked Areas**: B1F Shutters (14/15, 11), B2F Gate (3, 8).
 - **Passwords**: "RATICATE TAIL", "HAIL GIOVANNI".
-- Location Update: At (3, 3) in B2F NW corner.
-- Discovery: (3, 4) is a solid wall, not a ledge. The NW corner is a dead end.
-- Nav Analysis: West Room is divided. Central Room (Computers) is isolated by walls at x=6 and x=23.
-- New Plan: Backtrack East via Row 1 to the East Room (x=27). Then head South to Row 16 to find a gap (23, 16) into the Central Room.
-- Goal: Enter Central Room from the South to access computers (Row 3) and Grunt (22, 5).
+- Location Update: Returned to B1F (3, 2) from B2F NW dead end.
+- Action: Crossing B1F to the NE Stairs (27, 2) to return to B2F NE Room.
+- Goal: Enter B2F NE Room from the North (27, 2) to access the "Front" of the computers.
+- Murkrow: Currently at B1F (7, 2). Will pass by it.
