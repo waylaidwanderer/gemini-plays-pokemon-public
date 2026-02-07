@@ -1,14 +1,15 @@
 # Team Rocket HQ Status
 ## Critical Issues
-- **Stuck**: Cannot reach B2F North/East (Murkrow Area).
-- **Map Analysis**: Scan shows active warps ONLY at (27, 2) [Exit] and (3, 14) [To B2F South].
-- **Missing Stairs**: B1F (3, 6) and (27, 14) are currently standard floor tiles (TYPE_3fe2), not warps.
-- **Hypothesis**: Stairs at (3, 1) or (3, 6) might be hidden/scripted.
+- **Boss Door**: Locked at B2F (23, 14). Needs password/Voice ID.
+- **Murkrow**: Required for Voice ID. Last seen B2F (22, 9).
+- **Silver**: Previously blocking B2F South. Check if he's gone.
+- **Warp Confirmed**: B1F (3, 14) -> B2F (3, 14) is the valid path.
 
 ## Current Plan
-1. **Investigate**: Interact with machine at (3, 0) to reveal hidden stairs.
-2. **Contingency**: If no stairs, check Persian Statue at (6, 1).
-3. **Objective**: Find path to B2F North.
+1. **Navigate**: Head East from B2F (3, 14) towards the Boss Door.
+2. **Check Silver**: See if the path is clear.
+3. **Find Murkrow**: Locate it in the Northeast area (approx 22, 9).
+4. **Execute**: Lead Murkrow to Boss Door.
 
 ## Map Connections
 - **B1F NE (25, 2)**: Warp Landing from SW Room.
