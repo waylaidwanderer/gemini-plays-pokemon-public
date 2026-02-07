@@ -8,11 +8,12 @@
 ## Current Plan
 1. **Target**: Murkrow at B2F SE.
 2. **Navigate**: 
-   - Go North through Fake Computer at (19, 8) to (19, 7).
-   - Go East to NE Room (25, 7).
-   - Go South to SE Room and find Stairs to B2F (near 27, 14).
+   - Go West to (15, 11), avoiding the bad path logic at (18, 11).
+   - Go West to (5, 15) Warp.
+   - Warp to NE Room (25, 2).
+   - Go South to SE Room and find Stairs to B2F.
 3. **Action**: Chase Murkrow to Boss Door.
-4. **Note**: Switch at (19, 11) is SOLID. Cannot step on it. Jed's "warp panel" info might apply only when active.
+4. **Note**: Switch at (19, 11) is SOLID. BFS tried to path through wall at (18, 11) previously?
 
 ## Map Connections
 - **B1F Central (19, 8)**: Fake Computer passage to North corridor.
