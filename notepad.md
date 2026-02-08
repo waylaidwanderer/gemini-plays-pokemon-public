@@ -66,3 +66,5 @@
 - **Boss Door Check**: Door refuses to open. Text: "Only the boss knows the password."
 - **New Plan**: The Murkrow on B1F was a dead end. Attempting to reach the Murkrow marked at B2F (22, 9).
 - **Route**: B2F (3, 14) Stairs -> B1F (3, 14) -> B1F (5, 15) Warp -> B1F East Wing -> B1F (27, 2) Stairs -> B2F (27, 2).
+- **Exploration Update**: B1F East Wing. Computer at (19, 4) was unresponsive. Checking (18, 4).
+- **Observation**: Floor has many trap tiles. Navigating carefully along the top row (Row 3) seems safe so far.
