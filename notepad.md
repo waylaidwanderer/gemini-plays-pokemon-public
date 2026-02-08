@@ -26,8 +26,8 @@
 1.  **Explore B1F East Wing (North-East)**:
     -   **Target**: Trap Warp at (19, 1) (North of computers).
     -   **Target**: Computers at (19, 4) and neighbors.
-    -   **Checked**: East Wing (All), Murkrow (10,4), Computer (9,4).
-    -   **Current**: Checking West Wing Computers (8,4), (7,4).
+    -   **Checked**: East Wing (All), Murkrow (10,4), Computer (9,4), East Wing Computers (Top Row).
+    -   **Current**: Investigating East Wing South (Crates, Switch, Jed).
     -   **Hypothesis**: A switch or trigger is hidden in this unexplored corner.
 2.  **Open Boss Door**: Needs Voice ID (likely from Petrel/Director).
 
