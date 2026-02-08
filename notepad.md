@@ -14,8 +14,7 @@
     - "RATICATE TAIL": Obtained (likely for Radio Tower, but noting it).
     - "HAIL GIOVANNI": Needed (from Murkrow).
 
-- Reading Password from Grunt at (21, 7). Expecting "RATICATE TAIL".
-- Next Step: Check if Shutters at (15, 10) are open.
-- Hypothesis: Switch at (19, 11) controls Shutters and/or Warp Trap.
-- If Shutters are closed, will try toggling Switch at (19, 11).
-- Goal: Reach Murkrow at (7, 2).
+- Obtained Password 1: "RATICATE TAIL" from Grunt at (21, 7).
+- Next Step: Return to Switch at (19, 11) via Secret Passage (19, 10).
+- Action: Turn Switch ON to open Shutters at (15, 10).
+- Goal: Access NW Section to find Murkrow (Password 2: "HAIL GIOVANNI").
