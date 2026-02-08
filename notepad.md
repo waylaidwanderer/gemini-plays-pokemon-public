@@ -23,5 +23,5 @@
 - **Murkrow Chase**:
   - Start: B2F (7, 2).
   - End: Boss Door B2F (23, 14).
-  - Strategy: Interact from South (7, 3), then move aside.
+  - Strategy: Flank from North (7, 1) via Fake Wall at (6, 1).
   - Passwords Known: "HAIL GIOVANNI" (Boss), "RATICATE TAIL", "SLOWPOKETAIL".
