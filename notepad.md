@@ -20,11 +20,10 @@
 ## Current Plan
 1.  **Heal Garnet**: Done.
 - **Current Task**: Enable Warps via Switch (19, 11).
-    - Status: At (17, 12). Pathfinding to Switch.
-    - Path: (17, 12) -> South to (17, 14) -> East to (21, 14) -> North to (21, 12) -> West to (19, 12).
-    - Plan: Toggle Switch (19, 11) to ENABLE traps.
-    - Reason: Current state "Traps Disabled" prevents warping. Need to warp to bypass walls to NW.
-    - Goal: Reach B1F (3, 2) -> B2F (16, 4).
+    - Status: Standing on Warp (19, 12). It is currently INACTIVE.
+    - Action: Toggle Switch at (19, 11).
+    - Test: Step Off (Right) -> Step On (Left) to trigger warp.
+    - Goal: Warp to NW Section to find Petrel.
 - **Puzzle**:
     - Switch at B1F (19, 11) must be turned ON.
     - Check if turning it ON opens shutters or enables warps.
