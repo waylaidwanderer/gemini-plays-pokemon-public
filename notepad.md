@@ -14,7 +14,8 @@
     - "RATICATE TAIL": Obtained (likely for Radio Tower, but noting it).
     - "HAIL GIOVANNI": Needed (from Murkrow).
 
-- SW Section (Rows 12-17, Cols 0-14) is a Dead End. Row 11 is a solid wall.
-- Plan: Backtrack to Switch at (19, 11).
-- Action: Toggle Switch. Check if Shutter at (15, 10) opens OR Warp at (19, 12) activates.
-- Goal: Access NW Section to find Murkrow at (7, 2).
+- Wall at Column 18 blocks direct access to Switch from (17, 11).
+- Path: Go South to (18, 14) gap, then North to Switch (19, 11).
+- Goal: Toggle Switch (19, 11) to try opening Shutters at Col 15.
+- If successful, path to Murkrow (7, 2) becomes easier.
+- Note: Warp at (19, 12) is disabled (safe).
