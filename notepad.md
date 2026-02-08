@@ -14,9 +14,8 @@
     - "RATICATE TAIL": Obtained (likely for Radio Tower, but noting it).
     - "HAIL GIOVANNI": Needed (from Murkrow).
 
-- Computers at Row 10 are solid obstacles (interactable from Row 11).
-- Checked computers at (20, 10), (21, 10), (22, 10) - No obvious reaction.
-- Scientist Ross blocks access to computer at (23, 10).
-- Plan: Check if Shutters at (15, 10)/(15, 11) are already open.
-- Navigation: Go to (16, 11) to inspect shutters.
-- If closed, investigate how to move Scientist or find another switch.
+- Accessing West Wing via Row 16 (South Loop).
+- Path: (12, 13) -> South to (12, 16) -> West to (10, 16) -> North to (7, 2).
+- This bypasses the shutters at Row 11 and the scientist at (11, 15).
+- Goal: Find Murkrow at (7, 2) for password "HAIL GIOVANNI".
+- Password "SLOWPOKETAIL" confirmed.
