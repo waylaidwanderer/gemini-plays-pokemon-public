@@ -45,9 +45,13 @@
   3. Check if "Voice ID" is satisfied by previous events.
   4. If locked, check for Jed or other triggers.
 - **B2F Navigation**: Grunt at (21, 14) blocks direct path. Attempting to bypass via (21, 13).
-- **Murkrow (East Wing B1F)**: Found at B1F (22, 8). Unresponsive to interaction from North and South. Tile is `TYPE_2889` (Solid). Abandoning.
-- **Hypothesis**: The real "Runner" Murkrow is on B2F, accessible via the NE stairs.
-- **Plan**: Take stairs at B1F (27, 2) to B2F. Search for Murkrow in the NE section of B2F.
+- **Correction**: Stairs at B1F (27, 2) lead UP to the Shop, not down to B2F.
+- **B2F Navigation**: To reach the NE section of B2F (where a Murkrow might be), I must traverse B2F starting from the SW stairs at (3, 14).
+- **Plan**:
+  1. Warp back to West Wing via (25, 2).
+  2. Take stairs at (3, 14) to B2F.
+  3. Explore B2F thoroughly to find a path to the NE section.
+  4. Find the second Murkrow on B2F.
 - **Boss Door Check**: Door refuses to open. Text: "Only the boss knows the password."
 - **New Plan**: The Murkrow on B1F was a dead end. Attempting to reach the Murkrow marked at B2F (22, 9).
 - **Route**: B2F (3, 14) Stairs -> B1F (3, 14) -> B1F (5, 15) Warp -> B1F East Wing -> B1F (27, 2) Stairs -> B2F (27, 2).
