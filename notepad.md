@@ -34,7 +34,7 @@
 4.  **Open Boss Door**:
     -   Location: B2F (23, 14).
 - Have Password (RATICATE TAIL) and Voice ID (Defeated Petrel).
-- Path to Boss Door: Go to East Wing via Gap at (15, 12).
+- Crossing to East Wing via Row 14 passage.
+- Navigation: Go to Switch at (19, 11) to verify status.
 - Then take Stairs at (27, 14) to B2F SE.
 - Proceed to Boss Door at B2F (23, 14).
-- Note: (19, 11) Switch status check on the way.
