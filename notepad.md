@@ -19,11 +19,11 @@
 
 ## Current Plan
 1.  **Heal Garnet**: Done.
-- **Current Task**: Navigate to Stairs at B1F (27, 2).
-    - Path: (17, 14) -> North to (17, 2) -> East to (27, 2).
-    - Status: Moving North along Column 17.
-    - Reason: Column 17 is the only gap in the Row 4 wall.
-    - Next: Enter Stairs -> B2F (16, 4) for Petrel.
+- **Current Task**: Find Petrel at B2F (16, 4).
+    - Status: Arrived at B2F (NE Stairs).
+    - Path: South to Row 16 -> West to Main Area -> North to (16, 4).
+    - Reason: East Wing is separated by wall. Must use South Corridor (Row 16) to cross.
+    - Note: Boss Door at (23, 14) is locked. Need Voice ID first.
 3.  **Find Petrel**:
     -   Location: B2F (16, 4).
     -   Goal: Defeat him for Voice ID.
