@@ -23,13 +23,17 @@
     -   **Jed's Warning**: "Warp panel up ahead" likely refers to (19, 12).
 
 ## Current Plan
-1.  **Investigate B1F East Wing** (Current Location):
-    -   **Computers**: (19, 4) is inert. Check (20, 4).
-    -   **Murkrow at (22, 8)**: Check for response/movement.
-2.  **Return to West Wing**:
-    -   Exit via Shop Stairs at (27, 2).
-    -   Re-enter Hideout via Secret Stairs at (3, 3) in Shop.
-3.  **Find Switch** and **Voice ID**.
+1.  **Escape East Wing Loop**:
+    -   **Hypothesis**: The "Trap Warps" might send me back to the dungeon entrance (West Wing).
+    -   **Action**: Go to B1F East Wing via stairs at (7, 3).
+    -   **Target**: Trap at (19, 1) (North of computers).
+2.  **If that fails**:
+    -   Check Switch at (19, 11) again.
+    -   Check every tile in East Wing for a hidden switch.
+3.  **West Wing Goals** (Once returned):
+    -   Re-investigate Grunt at (2, 4).
+    -   Find trigger for Murkrow (10, 4).
+    -   Go to B2F.
 
 ## Confirmed Dead Ends (Do Not Repeat)
 -   Passwords alone do not open Boss Door.
