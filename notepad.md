@@ -14,8 +14,7 @@
     - "RATICATE TAIL": Obtained (likely for Radio Tower, but noting it).
     - "HAIL GIOVANNI": Needed (from Murkrow).
 
-- Currently at Central Connector (15, 13).
-- Heading West to find Murkrow at (7, 2).
-- Path involves navigating the West Wing corridors.
-- Note: Scientist Mitch at (11, 15) might be an obstacle or battle.
-- Murkrow likely yields "HAIL GIOVANNI".
+- Navigation: Path to West Wing via Row 15 to bypass wall at (11, 13).
+- Route: (15, 13) -> West to (14, 13) -> South to (14, 15) -> West past Scientist (11, 15) to (7, 15) -> North to (7, 2).
+- Goal: Find Murkrow at (7, 2) to get "HAIL GIOVANNI".
+- Note: Removed TYPE_1fdc from walkable list.
