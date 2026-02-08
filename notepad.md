@@ -19,11 +19,13 @@
 
 ## Current Plan
 1.  **Heal Garnet**: Done.
-- **Current Task**: Find Petrel at B2F (16, 4).
-    - Status: Arrived at B2F (NE Stairs).
-    - Path: South to Row 16 -> West to Main Area -> North to (16, 4).
-    - Reason: East Wing is separated by wall. Must use South Corridor (Row 16) to cross.
-    - Note: Boss Door at (23, 14) is locked. Need Voice ID first.
+- **Current Task**: Return to B1F.
+    - Status: B2F East Wing (via 27, 2) is isolated/Dead End.
+    - Goal: Reach B1F, Activate Switch at (19, 11) to open path to NW Stairs (3, 2).
+    - Note: Petrel is in NW area, accessible via B1F (3, 2).
+- **Puzzle**:
+    - Switch at B1F (19, 11) must be turned ON.
+    - Check if turning it ON opens shutters or enables warps.
 3.  **Find Petrel**:
     -   Location: B2F (16, 4).
     -   Goal: Defeat him for Voice ID.
