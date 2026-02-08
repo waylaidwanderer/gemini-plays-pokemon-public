@@ -34,6 +34,12 @@
         -   (6, 1): "Its eyes are oddly shiny." (Potential Secret Switch).
         -   (6, 6): WALL. Cannot be a floor trap.
     -   **Target**: Check Grunt at (2, 4) for dialogue changes.
+        -   **Result**: Dialogue CHANGED to "You'll just have to collect your courage and walk." (Previously: "I don't know where the traps are").
+        -   **Implication**: Shiny Statue at (6, 1) was a switch/trigger.
+    -   **Next Steps**:
+        1.  Check West Wing Murkrow (10, 4).
+        2.  Check Shutter at (15, 10) (maybe it opened?).
+        3.  Check East Wing Murkrow (22, 8).
     -   **Checked**: East Wing (All), Murkrow (10,4), Computer (9,4), East Wing Computers (Top Row).
     -   **Current**: Investigating East Wing South (Crates, Switch, Jed).
     -   **Hypothesis**: A switch or trigger is hidden in this unexplored corner.
