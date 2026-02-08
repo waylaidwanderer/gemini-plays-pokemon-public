@@ -37,5 +37,7 @@
 - Warp Trap at (19, 12) confirmed DISABLED.
 - Navigation: Go around Grunt at (24, 14) to reach Stairs at (27, 14).
 - Proceed to Boss Door at B2F (23, 14).
-- Confirmed sprite at (25, 13) is a Grunt ("Heh, I'm just a GRUNT.").
-- Attempting to open Boss Door at (23, 14) with Password and Voice ID.
+- Attempting to open Boss Door at B2F (23, 14).
+- Requirements: Password (RATICATE TAIL) + Voice ID (Petrel defeated).
+- Path: Down, Left from (24, 13).
+- If successful, proceed to defeat the Executive.
