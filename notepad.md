@@ -20,9 +20,9 @@
 ## Current Plan
 1.  **Heal Garnet**: Done.
 - **Current Task**: Reach NW Stairs at B1F (3, 2).
-    - Status: Switch at (19, 11) gave no feedback. Assuming failures.
-    - Path: (19, 11) -> South to (19, 14) -> West to (17, 14) -> North to (17, 2) -> West to (3, 2).
-    - Reason: Avoids shutters and computer walls.
+    - Status: Moving South from (19, 5) to loop around walls.
+    - Path: (19, 14) -> West to (7, 14) -> North to (7, 10) -> West through Gap (6, 10) -> North to (3, 2).
+    - Reason: Column 18 is walled off until Row 14. Column 6 is walled off except at Row 10.
     - Goal: Find Petrel at B2F (16, 4).
 - **Puzzle**:
     - Switch at B1F (19, 11) must be turned ON.
