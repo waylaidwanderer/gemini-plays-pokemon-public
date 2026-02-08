@@ -1,21 +1,31 @@
-# Team Rocket HQ Status
-## Critical Objectives
+# Team Rocket HQ Log
+
+## Objectives
 - **Primary**: Reach B2F East Wing (Boss Room).
-- **Secondary**: Explore B2F West Wing (North Side) to reach Murkrow.
+- **Immediate**: Find access to B2F North-West area (to reach Murkrow).
 
-## Exploration Status
-- **B1F (First Floor)**
-  - **West Wing**: Explored. Warps and statues inert.
-  - **East Wing**: Accessed via Warp (5, 15) -> (25, 2).
-  - **Murkrow**: Confirmed NOT at B1F (22, 9).
-- **B2F (Second Floor)**
-  - **South-East**: Dead end at Boss Door (23, 14). Blocked North by Silver (21, 12).
-  - **West Wing**: Accessible via stairs at B1F (3, 14). Needs Northern exploration.
-  - **Murkrow**: Sprite detected at B2F (22, 9).
-  - **Route Hypothesis**: Navigate North in B2F West Wing, then East.
+## Exploration State
+- **B1F (Current Floor)**
+  - **West Wing**: Contains Grunt at (2, 4) ("traps planted"). Stairs at (3, 14) -> B2F South-West.
+  - **East Wing**: Accessed via Warp (5, 15) -> (25, 2). Stairs at (27, 2) -> Shop.
+  - **Statues**: Persian statues at (6, 1) and (24, 1) - checked, inert.
+  - **Switch**: (19, 11) is ON. Disables traps (verified).
 
-## Action Plan
-1. **Return to B2F**: Use stairs at B1F (3, 14).
-2. **Explore North**: In B2F West Wing, head North towards Row 9.
-3. **Find Path East**: Look for a corridor connecting West and East wings.
-4. **Reach Murkrow**: Navigate to (22, 9).
+- **B2F (Below)**
+  - **South-West**: Dead end. Row 12 is a solid wall separating South from North.
+  - **East Wing**: Boss Door at (23, 14) (Locked).
+  - **North Side**: Unreachable from South. Contains Murkrow at (22, 9).
+
+- **Shop (Above)**
+  - **Stairs**: (7, 3) connects to B1F East.
+  - **"Secret Stairs"**: Grunt mentioned them. Suspicious cabinet at (2, 2).
+
+## Failed Hypotheses
+- **Hidden Stairs in B1F NW**: Code check at (3, 1) showed no special tiles.
+- **Gap in B2F Row 12**: BFS and manual check confirmed solid wall.
+- **"Trap" Warps**: (12, 8) warped to start. Others likely similar or just damage.
+
+## Next Steps
+1. **Analyze B1F West**: Check for any non-standard tiles (warps/triggers) using code.
+2. **Re-investigate Shop**: The "Secret Stairs" hint is the strongest lead. Check (2, 2) area thoroughly again.
+3. **Persian Statues**: If Shop fails, re-check statues with Switch OFF?
