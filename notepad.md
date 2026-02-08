@@ -27,3 +27,4 @@
 - **Task**: Chasing Murkrow (Found at 22, 8). Need to lead it to... somewhere?
 - **Murkrow Interaction**: Direct A-presses and bumping failed. Using tools to verify interactability and exact location.
 - **Murkrow Location**: Perched on Computer at (10, 4) (Northeast Room). Interaction from West/North failed. Attempting to interact from South (Front of Computer).
+- **Murkrow Strategy**: South interaction failed. Trying East flank (11, 4). If this fails, maybe I need to trigger something else first?
