@@ -20,13 +20,13 @@
 1. Navigate B2F to NE Stairs (27, 2).
 2. Take Stairs to B1F (27, 2).
 3. Walk West on B1F to Murkrow (7, 2).
-- Navigation Logic (Turn 33951):
-    - Current: B1F (3, 2).
+- Navigation Logic (Turn 33952):
+    - Current: B2F (3, 2) (Mistakenly went down stairs).
     - Goal: Activate Persian Statue Switch at B1F (24, 6).
-    - Route:
-        1. Cross Fake Wall at (6, 1).
+    - Action: Return to B1F immediately.
+    - Route on B1F:
+        1. From B1F (3, 2), go North to Row 1.
         2. Walk East along Row 1 to Col 24.
         3. Walk South to (24, 5).
         4. Interact with Statue at (24, 6).
-    - Expectation: Switch disables security/opens path to Central Area (Murkrow).
-    - Note: Watch for Grunt at (22, 5).
+    - Note: This path relies on the "Fake Wall" at B1F (6, 1) being passable (Confirmed).
