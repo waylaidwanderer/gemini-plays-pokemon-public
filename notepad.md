@@ -24,7 +24,7 @@
 
 ## Current Plan
 1.  **Investigate West Wing B1F**:
-    -   **Grunt at (2, 4)**: Check if he has new dialogue or is a battler.
+    -   **Grunt at (2, 4)**: "I don't even know where the traps are planted." (Useless).
     -   **Statues**: Check for hidden switches on Persian statues (e.g. 6, 1).
     -   **Murkrow (10, 4)**: Currently unresponsive. Needs a trigger.
 2.  **Find Switch** for Shutter/Traps (likely in West Wing since East was empty).
