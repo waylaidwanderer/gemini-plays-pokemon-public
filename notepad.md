@@ -34,6 +34,7 @@
 4.  **Open Boss Door**:
     -   Location: B2F (23, 14).
 - Currently in West Wing at (3, 12).
-- Path appears clear North to (3, 2).
+- Obstruction at (3, 11) (TYPE_2889) blocks direct North path.
+- Plan: Loop South to Row 14, East to Col 6, North to Row 10, then West to reach (3, 2).
 - Navigation: Go to Stairs at (3, 2) to access B2F NW.
-- Goal: Find Petrel in B2F to get Voice ID.
+- Note: TYPE_2889 is likely a wall.
