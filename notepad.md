@@ -19,12 +19,12 @@
 
 ## Current Plan
 1.  **Heal Garnet**: Done.
-- **Current Task**: Enable Warps to reach NW Section.
-    - Status: Locked in NE/SE section. Row 11 Wall blocks North. Shutters locked.
-    - Plan: Go to Switch at (19, 11). Turn it ON (or OFF) to enable warps.
-    - Test: Step on Warp at (19, 12). If active, it might lead to NW.
-    - Backup: Check Warps at (26, 10) and (26, 9) if (19, 12) fails.
-    - Goal: Reach B1F (3, 2) -> B2F (16, 4).
+- **Current Task**: Reach NW Stairs at B1F (3, 2).
+    - Strategy: Pass through False Computers at Col 19.
+    - Status: Standing at (19, 12).
+    - Path: North to (19, 9) -> West to (17, 9) -> North through Gap at (17, 4) -> West to (3, 2).
+    - Insight: (19, 11) and (19, 10) are TYPE_3fe2 (Floor). They should be walkable.
+    - Goal: Find Petrel at B2F (16, 4).
 - **Puzzle**:
     - Switch at B1F (19, 11) must be turned ON.
     - Check if turning it ON opens shutters or enables warps.
