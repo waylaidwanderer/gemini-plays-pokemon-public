@@ -84,6 +84,6 @@
     2. Navigate to Row 9.
     3. Walk West past the shutter location to reach the West Wing.
     4. Proceed to the "Trap Field" (Geodude/Voltorb tiles) to "collect courage and walk".
-- CORRECTION: Grunt at (2, 4) says "I don't even know where the traps are planted."
-- The "collect courage" line was likely a hallucination or from a different NPC.
-- Plan remains: Traverse West Wing traps to reach Murkrow at (10, 4).
+- CONFIRMED: Grunt at (2, 4) says "You'll just have to collect your courage and walk."
+- The previous "Correction" was wrong. I am sane.
+- Action: Walking through the trap field to reach Murkrow at (10, 4).
