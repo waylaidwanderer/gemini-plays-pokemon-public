@@ -45,7 +45,9 @@
   3. Check if "Voice ID" is satisfied by previous events.
   4. If locked, check for Jed or other triggers.
 - **B2F Navigation**: Grunt at (21, 14) blocks direct path. Attempting to bypass via (21, 13).
-- **Murkrow**: Found marker for Murkrow at B2F (22, 9). This area is likely accessed via B1F NE stairs (27, 2). If Boss Door fails, will backtrack to B1F NE.
+- **Murkrow (East Wing)**: Found at B1F (22, 8). Perched on solid tile `TYPE_2889`. Attempting to interact from South.
+- **Correction**: Previous note about B2F Murkrow might have been a location error. Confirming this is the one to chase.
+- **Goal**: Chase this Murkrow to the Boss Door.
 - **Boss Door Check**: Door refuses to open. Text: "Only the boss knows the password."
 - **New Plan**: The Murkrow on B1F was a dead end. Attempting to reach the Murkrow marked at B2F (22, 9).
 - **Route**: B2F (3, 14) Stairs -> B1F (3, 14) -> B1F (5, 15) Warp -> B1F East Wing -> B1F (27, 2) Stairs -> B2F (27, 2).
