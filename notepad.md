@@ -34,6 +34,10 @@
     - Action: Activating switch to disable security (hopefully).
     - Threat: Grunt at (22, 5) is close but hasn't engaged yet.
     - Next: Once security is down, move West to Murkrow (7, 2).
-- Update (Turn 33968): Found Murkrow at B2F (7, 2).
-- Action: Obtaining password.
-- Next: Navigate to Boss Door at B2F (23, 14).
+- Password Obtained: "HAIL GIOVANNI" (from Murkrow at B2F (7, 2)).
+- Plan: Open Boss Door at B2F (23, 14).
+- Route:
+    1. Return to B1F via NW Stairs at B2F (3, 2).
+    2. Traverse B1F East to SE Stairs (27, 14).
+    3. Take Stairs to B2F (27, 14).
+    4. Navigate West to Boss Door (23, 14).
