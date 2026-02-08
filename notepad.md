@@ -14,10 +14,11 @@
     - "RATICATE TAIL": Obtained (likely for Radio Tower, but noting it).
     - "HAIL GIOVANNI": Needed (from Murkrow).
 
-- Shutter at (15, 16) is LOCKED. Cannot bypass via Row 16 directly.
-- Pivot: Cross to East Wing via Gap at (15, 13).
-- Path: Go North to Row 13 -> East to Col 16 -> South to Row 16 -> East to SE Stairs (27, 14).
-- Goal: Reach B2F NW Stairs (3, 2) via B2F SE.
+- Access to East Wing B2F is via Row 3 Passage at (18, 3).
+- Path: Go North to Row 3 -> East to Col 27 -> South to Row 10/14.
+- Investigate "False Computer" passages at (19, 10) and (26, 10) on B2F.
+- Goal: Find path to NW Stairs (3, 2).
+- Murkrow is in B1F West Wing.
 - Reflection (Turn 33907): Currently on B1F (3_50) at (27, 2).
 - Mistake: Looped between floors. B1F = 3_50, B2F = 3_51.
 - Plan: Take stairs DOWN to B2F (3_51). Then navigate West to (3, 2).
