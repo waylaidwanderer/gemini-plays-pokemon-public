@@ -24,9 +24,9 @@
 
 ## Current Plan
 1.  **Explore B1F East Wing (North-East)**:
-    -   **Target**: Trap Warp at (19, 1) (North of computers).
     -   **Computers**:
-        -   (21, 8): Checked. Unresponsive/Flavor text.
+        -   (21, 8): Checked. Unresponsive.
+        -   (20, 8): Checked. Unresponsive.
         -   (22, 8): Murkrow perch.
     -   **Target**: Computers at (19, 4) and neighbors.
     -   **Checked**: East Wing (All), Murkrow (10,4), Computer (9,4), East Wing Computers (Top Row).
