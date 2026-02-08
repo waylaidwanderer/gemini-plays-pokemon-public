@@ -33,8 +33,7 @@
     -   Goal: Defeat him for Voice ID.
 4.  **Open Boss Door**:
     -   Location: B2F (23, 14).
-- Switch at (19, 11) seems to disable the adjacent warp at (19, 12).
-- Currently in Central/South B1F at (10, 12).
-- "Statues" at Row 12 appear to be walkable (TYPE_3fe2).
-- Plan: Navigate South to Row 14, then West past (5, 15) to reach West Wing.
-- Target: Murkrow at (7, 2), then Stairs at (3, 2).
+- South-West area (Rows 12-17, Cols 0-14) seems isolated from North by Row 11 walls/shutters.
+- Plan: Backtrack East to Gap at Col 16 (Row 11), then head North to West Wing.
+- Target: Murkrow at (7, 2).
+- Note: (3, 14) marked as "Not Stairs", ignoring it.
