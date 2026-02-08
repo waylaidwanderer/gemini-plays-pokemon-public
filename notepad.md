@@ -35,7 +35,7 @@
     - Threat: Grunt at (22, 5) is close but hasn't engaged yet.
     - Next: Once security is down, move West to Murkrow (7, 2).
 - Password Obtained: "HAIL GIOVANNI" (from Murkrow at B2F (7, 2)).
-- Status: Back on B2F (27, 14).
-- Action: Moving to Boss Door at (23, 14).
-- Obstacle: Grunt at (24, 14).
-- Plan: Approach Grunt/Door. Use "HAIL GIOVANNI".
+- Status: At Boss Door (23, 14).
+- Action: Bypassing Grunt via Row 15 to interact with Door.
+- Password: "HAIL GIOVANNI".
+- Expectation: Door opens. Enter Boss Room.
