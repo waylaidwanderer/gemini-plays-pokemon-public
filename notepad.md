@@ -21,7 +21,8 @@
 - Path to West Wing: Navigate via Row 16 to (1, 16), then North.
 - Scientist at (11, 15) blocks Row 15.
 - Murkrow is priority.
-- Reflection (Turn 33904): Successfully crossed gap to Central Corridor (Col 16).
-- Path forward: Go North to Row 3, then East to NE Stairs (27, 2).
-- Strategy: Use B2F to traverse from NE to NW stairs, emerging at B1F (3, 2) to find Murkrow.
-- Shutters at Row 11 appear closed and Col 15 is a wall, blocking direct access to NW.
+- Reflection (Turn 33905): Arrived at B1F NE (27, 2).
+- Obstacle: B1F Top Corridor (Row 1) is blocked at (6, 1) by a "Fake Wall" that acted solid previously.
+- Conclusion: Cannot reach West Wing (Murkrow) via B1F Row 1.
+- Plan: Return to B2F via stairs at (27, 2). Traverse B2F to NW Stairs (3, 2). Take NW Stairs up to B1F West Wing.
+- Murkrow is in the West Wing.
