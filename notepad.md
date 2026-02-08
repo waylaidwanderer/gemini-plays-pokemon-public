@@ -18,10 +18,10 @@
     -   Exit blocked by Grunt (22, 10) is irrelevant now.
 
 ## Current Plan
-1.  **Heal Garnet**: HP 68/148. Priority.
+1.  **Heal Garnet**: Done.
 2.  **Navigate to B2F**:
     -   Use Stairs at B1F (27, 2) (North-East).
-    -   Path: (22, 14) -> (19, 14) -> North to (19, 2) -> East to (27, 2).
+    -   Path: (20, 14) -> (19, 14) -> North to (19, 2) -> East to (27, 2).
 3.  **Find Petrel**:
     -   Location: B2F (16, 4).
     -   Goal: Defeat him for Voice ID.
