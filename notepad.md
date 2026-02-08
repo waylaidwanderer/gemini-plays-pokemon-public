@@ -59,3 +59,6 @@
 - Grunt at (2, 4) says: 'You'll just have to collect your courage and walk.'
 - This implies the traps might be unavoidable or disabled, OR I need to walk a specific path.
 - Checking Switch at (19, 11) now.
+- Switch at (19, 11) is CONFIRMED "Turned off" and inactive.
+- Jed says "Warp panel up ahead".
+- Checking Shutter at (15, 10) to see if Statue (6, 1) opened it.
