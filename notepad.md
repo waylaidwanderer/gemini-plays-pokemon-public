@@ -77,13 +77,10 @@
 - Hypothesis: Grunt's hint "Collect courage and walk" refers to the BATTLE TRAP field in the West Wing.
 - Plan: Return to West Wing via Shop Stairs, then walk through the Geodude/Voltorb field to see if a path/warp has opened.
 - Checking Statue at (24, 1) on the way out just in case.
-- **Correction**: The "Secret Stairs" at (3, 3) text might be flavor text for the stairs I already found at (7, 3).
-- **Current Plan**:
-    1. Enter B1F via Stairs at (7, 3).
-    2. Attempt to return to West Wing.
-    3. Check if Warp at (25, 2) works in reverse.
-    4. Verify if path to West Wing is truly blocked by Shutter at (15, 10).
-- **Goal**: Reach the "Trap Field" in West Wing to "collect courage and walk".
-- Warp at (25, 2) is ONE-WAY (Inbound only).
-- Currently trapped in East Wing.
-- Must return to Shop and force entry into "Secret Stairs" at (3, 3) to reach West Wing.
+- **Clarification**: The "Secret Stairs" text refers to the stairs at (7, 3).
+- **Strategy Correction**: Row 9 in B1F appears to be the connecting corridor between East and West wings. The shutter is at (15, 10), meaning Row 9 should be open.
+- **Immediate Plan**:
+    1. Descend Stairs at (7, 3) to B1F East Wing.
+    2. Navigate to Row 9.
+    3. Walk West past the shutter location to reach the West Wing.
+    4. Proceed to the "Trap Field" (Geodude/Voltorb tiles) to "collect courage and walk".
