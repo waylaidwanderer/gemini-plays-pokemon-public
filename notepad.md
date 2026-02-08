@@ -33,7 +33,7 @@
     -   Goal: Defeat him for Voice ID.
 4.  **Open Boss Door**:
     -   Location: B2F (23, 14).
-- South-West area (Rows 12-17, Cols 0-14) seems isolated from North by Row 11 walls/shutters.
-- Plan: Backtrack East to Gap at Col 16 (Row 11), then head North to West Wing.
-- Target: Murkrow at (7, 2).
-- Note: (3, 14) marked as "Not Stairs", ignoring it.
+- Currently in West Wing at (3, 12).
+- Path appears clear North to (3, 2).
+- Navigation: Go to Stairs at (3, 2) to access B2F NW.
+- Goal: Find Petrel in B2F to get Voice ID.
