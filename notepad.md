@@ -44,3 +44,5 @@
   2. Go to B2F and interact with Boss Door at (23, 14).
   3. Check if "Voice ID" is satisfied by previous events.
   4. If locked, check for Jed or other triggers.
+- **B2F Navigation**: Grunt at (21, 14) blocks direct path. Attempting to bypass via (21, 13).
+- **Murkrow**: Found marker for Murkrow at B2F (22, 9). This area is likely accessed via B1F NE stairs (27, 2). If Boss Door fails, will backtrack to B1F NE.
