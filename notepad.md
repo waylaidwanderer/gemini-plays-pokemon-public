@@ -19,12 +19,11 @@
 
 ## Current Plan
 1.  **Heal Garnet**: Done.
-- **Current Task**: Activate Switch at B1F (19, 11).
-    - Status: Approaching from North via Fake Computer at (19, 10).
-    - Plan: Stand at (19, 10), Face DOWN, Press A.
-    - Path: (17, 2) -> East to (19, 2) -> South to (19, 10).
-    - Reason: Switch likely controls Shutters at Row 10/11.
-    - Goal: Open path to NW Stairs.
+- **Current Task**: Reach NW Stairs at B1F (3, 2).
+    - Strategy: North Flank Loop.
+    - Path: (19, 10) -> North to (19, 2) -> West to (10, 2) -> South through Fake Wall at (10, 9) -> West through Gap at (6, 10) -> North to (3, 2).
+    - Reason: Row 2 is blocked at Col 6. Row 11 is blocked by shutters.
+    - Goal: Find Petrel at B2F (16, 4).
 - **Puzzle**:
     - Switch at B1F (19, 11) must be turned ON.
     - Check if turning it ON opens shutters or enables warps.
