@@ -22,8 +22,7 @@
 ## Current Task
 - **Murkrow Chase**:
   - Status: Door locked despite password. Murkrow presence required.
-  - Plan: Murkrow confirmed at (22, 12) (behind me). Door check likely failed or needs bird.
-  - Action: Repositioning to (21, 12) (West of bird) to push it South towards the door.
-  - Sequence: Check Door (A) -> Move Left -> Move Up.
-  - Next Turn: Turn Right and Interact.
+  - Plan: Interacting with Murkrow from the West (21, 12).
+  - Expectation: It should move South towards the door.
+  - Backup Strategy: If it moves North to the dead end (22, 11) or refuses to move South, use the Warp Trap at (19, 12) to teleport to (22, 11) and push it South from the North.
   - Passwords Known: "HAIL GIOVANNI" (Boss), "RATICATE TAIL", "SLOWPOKETAIL".
