@@ -18,12 +18,12 @@
     -   Exit blocked by Grunt (22, 10) is irrelevant now.
 
 ## Current Plan
-1.  **Explore B2F**:
-    -   **East Room (B2F)**: Dead end. Walls on West (Col 23) and North (Row 10).
--   **Grunt (25, 13)**: Checked. Useless.
--   **Stairs (27, 14)**: Only exit. Leads to B1F (SE).
-2.  **Find Voice ID**:
-    -   Found Director (Petrel) at B2F (16, 4).
-    -   **Current Task**: Defeat Petrel to get Voice ID.
-3.  **Open Boss Door**:
-    -   Use Voice ID at (23, 14).
+1.  **Heal Garnet**: HP 68/148. Priority.
+2.  **Navigate to B2F**:
+    -   Use Stairs at B1F (27, 2) (North-East).
+    -   Path: (22, 14) -> (19, 14) -> North to (19, 2) -> East to (27, 2).
+3.  **Find Petrel**:
+    -   Location: B2F (16, 4).
+    -   Goal: Defeat him for Voice ID.
+4.  **Open Boss Door**:
+    -   Location: B2F (23, 14).
