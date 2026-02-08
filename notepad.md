@@ -20,11 +20,10 @@
 ## Current Plan
 1.  **Heal Garnet**: Done.
 - **Current Task**: Enable Warps via Switch (19, 11).
-    - Status: At (17, 14). Row 11 Wall blocks North. Shutters locked.
-    - Plan: Go to Switch (19, 11). Turn ON Warps.
-    - Test: Step on Warp at (19, 12). If fails, test Warps at (24, 11) or (26, 10).
-    - Reason: "North Flank" failed (Wall at 15, 2). "West Flank" failed (Wall at Row 11). Warps are the only remaining path to NW.
-    - Goal: Reach B1F (3, 2) -> B2F (16, 4).
+    - Status: At (17, 12). Blocked by Wall at (18, 12).
+    - Path: (17, 12) -> South to (17, 14) -> East to (21, 14) -> North to (21, 12) -> West to (19, 12).
+    - Plan: Turn Switch ON. Step on Warp at (19, 12).
+    - Goal: Warp to NW Section to find Petrel.
 - **Puzzle**:
     - Switch at B1F (19, 11) must be turned ON.
     - Check if turning it ON opens shutters or enables warps.
