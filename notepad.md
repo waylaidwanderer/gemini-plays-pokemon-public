@@ -34,7 +34,6 @@
 4.  **Open Boss Door**:
     -   Location: B2F (23, 14).
 - Have Password (RATICATE TAIL) and Voice ID (Defeated Petrel).
-- Crossing to East Wing via Row 14 passage.
-- Navigation: Go to Switch at (19, 11) to verify status.
-- Then take Stairs at (27, 14) to B2F SE.
+- Warp Trap at (19, 12) confirmed DISABLED.
+- Navigation: Go around Grunt at (24, 14) to reach Stairs at (27, 14).
 - Proceed to Boss Door at B2F (23, 14).
