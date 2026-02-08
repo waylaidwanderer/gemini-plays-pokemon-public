@@ -14,13 +14,12 @@
     - "RATICATE TAIL": Obtained (likely for Radio Tower, but noting it).
     - "HAIL GIOVANNI": Needed (from Murkrow).
 
-- Suspect Row 11 in West Wing is a solid wall (TYPE_2889), confirmed at (1, 11).
-- Plan: Backtrack to Row 16, check if Scientist at (11, 15) can be bypassed via Row 16.
-- If SW area is a dead end (Shutters closed, Row 11 solid), strategy shifts to: Go to B2F, find stairs UP to B1F NW.
-- Shutters at (15, 11) are CLOSED.
-- Path to West Wing: Navigate via Row 16 to (1, 16), then North.
-- Scientist at (11, 15) blocks Row 15.
-- Murkrow is priority.
+- Navigation Plan: Bypass Grunt at (5, 14) via Row 15. Reach (8, 12).
+- Investigate Row 11 at Cols 8-10 for a gap to the North.
+- If blocked, check Central Area (Col 15) for North access.
+- Confirmed: Row 11 at Col 1 and 3 are blocked.
+- Current Status: At (4, 14). Grunt blocks (5, 14).
+- Goal: Reach B2F NW Stairs (3, 2).
 - Reflection (Turn 33907): Currently on B1F (3_50) at (27, 2).
 - Mistake: Looped between floors. B1F = 3_50, B2F = 3_51.
 - Plan: Take stairs DOWN to B2F (3_51). Then navigate West to (3, 2).
