@@ -47,9 +47,13 @@
 - **B2F Navigation**: Grunt at (21, 14) blocks direct path. Attempting to bypass via (21, 13).
 - **Correction**: Stairs at B1F (27, 2) lead UP to the Shop (3_48).
 - **Navigation Update**: Exited East Wing to Shop (3_48).
-- **Navigation Insight**: West Wing entrance at Shop (3, 3) seems closed/inactive.
-- **New Path**: Must use East Wing entrance at (7, 3) and unlock the Shutter at B1F (15, 10) to connect the wings.
-- **Goal**: Navigate to East Wing, find Shutter Switch (likely in East Wing), open Shutter, then access West Wing.
+- **Navigation Update**: Path to East Wing Stairs at (7, 3) is blocked by a Defeated Grunt at (4, 3).
+- **Action**: Manually navigating around the Grunt (Up -> Right -> Down) to reach the stairs.
+- **Plan**:
+  1. Enter East Wing via Shop Stairs (7, 3) -> B1F (27, 2).
+  2. Locate Shutter/Switch in East Wing (Target: 15, 10 area).
+  3. Open Shutter to access West Wing.
+  4. Resume B2F Boss Door mission.
 - **Goal**: Return to West Wing (B1F), verify "Useless Grunt" at (2, 4) and Switch at (19, 11).
 - **Hypothesis**: The "Useless Grunt" or the Switch might have changed state or I missed something. Also checking for hidden items/switches in West Wing.
 - **Murkrow Status**: Both B1F Murkrows (West & East) seem stuck.
