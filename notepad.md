@@ -14,7 +14,8 @@
     - "RATICATE TAIL": Obtained (likely for Radio Tower, but noting it).
     - "HAIL GIOVANNI": Needed (from Murkrow).
 
-- Correction: Stairs at (27, 2) lead to B2F Dead End, NOT the Shop.
-- Shop Exit is at (7, 3).
-- Plan: Walk from current position (27, 2) to West Wing via Gap at (15, 13).
-- Then proceed to Murkrow at (7, 2).
+- Currently at Central Connector (15, 13).
+- Heading West to find Murkrow at (7, 2).
+- Path involves navigating the West Wing corridors.
+- Note: Scientist Mitch at (11, 15) might be an obstacle or battle.
+- Murkrow likely yields "HAIL GIOVANNI".
