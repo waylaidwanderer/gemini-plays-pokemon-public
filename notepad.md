@@ -20,11 +20,10 @@
 ## Current Plan
 1.  **Heal Garnet**: Done.
 - **Current Task**: Activate Switch at B1F (19, 11).
-    - Status: Previous interaction failed (likely stood ON it).
-    - Plan: Stand at (19, 12), face UP, press A.
-    - Route: (27, 2) -> West to (19, 2) -> South to (19, 12).
+    - Status: Access blocked from North by Computers at Row 4.
+    - Path: (19, 3) -> Left to (17, 3) -> South to (17, 14) -> East to (21, 14) -> North to (19, 12).
     - Goal: Open Shutters/Enable Warps to reach NW Stairs (3, 2).
-    - Note: (19, 10) is a walkable "False Computer".
+    - Note: Must approach Switch (19, 11) from the South (19, 12).
 - **Puzzle**:
     - Switch at B1F (19, 11) must be turned ON.
     - Check if turning it ON opens shutters or enables warps.
