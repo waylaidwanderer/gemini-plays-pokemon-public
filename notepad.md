@@ -21,5 +21,7 @@
 - Path to West Wing: Navigate via Row 16 to (1, 16), then North.
 - Scientist at (11, 15) blocks Row 15.
 - Murkrow is priority.
-- Reflection (Turn 33903): Reviewing progress. Found gap at (15, 12)/(15, 13) that connects SW Room to Central Area. This bypasses the locked shutters at Row 11.
-- Plan: Cross gap to Central Area -> Go North to Secret Passage at (19, 10) -> Access West Wing North.
+- Reflection (Turn 33904): Successfully crossed gap to Central Corridor (Col 16).
+- Path forward: Go North to Row 3, then East to NE Stairs (27, 2).
+- Strategy: Use B2F to traverse from NE to NW stairs, emerging at B1F (3, 2) to find Murkrow.
+- Shutters at Row 11 appear closed and Col 15 is a wall, blocking direct access to NW.
