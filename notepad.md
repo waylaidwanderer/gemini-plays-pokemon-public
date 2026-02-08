@@ -19,10 +19,12 @@
 
 ## Current Plan
 1.  **Heal Garnet**: Done.
-- **Current Task**: Return to B1F.
-    - Status: B2F East Wing (via 27, 2) is isolated/Dead End.
-    - Goal: Reach B1F, Activate Switch at (19, 11) to open path to NW Stairs (3, 2).
-    - Note: Petrel is in NW area, accessible via B1F (3, 2).
+- **Current Task**: Activate Switch at B1F (19, 11).
+    - Status: Previous interaction failed (likely stood ON it).
+    - Plan: Stand at (19, 12), face UP, press A.
+    - Route: (27, 2) -> West to (19, 2) -> South to (19, 12).
+    - Goal: Open Shutters/Enable Warps to reach NW Stairs (3, 2).
+    - Note: (19, 10) is a walkable "False Computer".
 - **Puzzle**:
     - Switch at B1F (19, 11) must be turned ON.
     - Check if turning it ON opens shutters or enables warps.
