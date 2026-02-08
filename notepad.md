@@ -8,7 +8,7 @@
 1.  **The Switch (B1F 19, 11)**: Currently "Turned off". Cannot toggle. Likely controls the trap floor or the shutter.
 2.  **The Shutter (B1F 15, 10)**: Closed. Separates East and West wings.
 3.  **The Murkrows**:
-    -   **West Wing (10, 4)**: Perched on computer. Unresponsive to A-press/Bump.
+    -   **West Wing (10, 4)**: Perched on computer. Unresponsive to A-press/Bump from South/West. Checking North.
     -   **East Wing (22, 8)**: Perched on computer. Unresponsive.
     -   *Hypothesis*: Need a trigger (Key Item? Trainer Battle?) to make them move/speak.
 4.  **Boss Door (B2F 23, 14)**: Passwords entered, but needs Voice ID.
