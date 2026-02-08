@@ -14,7 +14,8 @@
     - "RATICATE TAIL": Obtained (likely for Radio Tower, but noting it).
     - "HAIL GIOVANNI": Needed (from Murkrow).
 
-- Obtained Password 1: "RATICATE TAIL" from Grunt at (21, 7).
-- Next Step: Return to Switch at (19, 11) via Secret Passage (19, 10).
-- Action: Turn Switch ON to open Shutters at (15, 10).
-- Goal: Access NW Section to find Murkrow (Password 2: "HAIL GIOVANNI").
+- Password "RATICATE TAIL" confirmed.
+- Now heading to Switch at (19, 11) via Secret Passage (19, 10).
+- Action: Toggle Switch.
+- Expectation: Shutters at (15, 10) should open, allowing access to West Wing.
+- Target: Murkrow at (7, 2).
