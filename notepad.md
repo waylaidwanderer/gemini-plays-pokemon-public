@@ -23,11 +23,10 @@
     -   **Jed's Warning**: "Warp panel up ahead" likely refers to (19, 12).
 
 ## Current Plan
-1.  Investigate Crates at B1F East (27, 10).
-2.  Exit East Wing via Shop Stairs (27, 2).
-3.  Re-enter West Wing via Shop Secret Stairs (3, 3).
-4.  Re-evaluate "Useless Grunt" at (2, 4) - is he a battler I skipped?
-5.  Search West Wing for overlooked switches/items.
+1.  **Enter Secret Stairs at (3, 3)** (Mahogany Shop).
+2.  **Explore New Area** (likely leads to behind the shutter or a new part of B1F).
+3.  **Find the second Murkrow** (likely in the newly accessible area).
+4.  **Find the Switch** for the trap floor/shutter.
 
 ## Confirmed Dead Ends (Do Not Repeat)
 -   Passwords alone do not open Boss Door.
