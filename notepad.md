@@ -19,14 +19,12 @@
 
 ## Current Plan
 1.  **Heal Garnet**: Done.
-- **Current Task**: Reach NW Stairs at B1F (3, 2).
-    - Status: At (17, 14).
-    - Path: (17, 14) -> North to (17, 12) -> West to (10, 12) -> North to (10, 10) -> West through Gap (6, 10) -> West to (3, 10) -> North to (3, 2).
-    - Reason: 
-        1. Row 11 blocked at Col 3.
-        2. Row 2 blocked at Col 6.
-        3. Row 12/10 are clear corridors.
-    - Goal: Find Petrel at B2F (16, 4).
+- **Current Task**: Enable Warps to reach NW Section.
+    - Status: Stuck in Central Corridor (10, 12).
+    - Plan: Move East to Switch (19, 11). Toggle Switch to ENABLE traps. Test Warps.
+    - Test Targets: (19, 12), (24, 11), (25, 11), (26, 10).
+    - Reason: Walking paths to NW (Row 2, Row 11, Row 16) are all blocked. Warps are the only option.
+    - Goal: Reach B1F (3, 2) -> B2F (16, 4).
 - **Puzzle**:
     - Switch at B1F (19, 11) must be turned ON.
     - Check if turning it ON opens shutters or enables warps.
