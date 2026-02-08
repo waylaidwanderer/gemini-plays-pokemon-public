@@ -45,13 +45,16 @@
   3. Check if "Voice ID" is satisfied by previous events.
   4. If locked, check for Jed or other triggers.
 - **B2F Navigation**: Grunt at (21, 14) blocks direct path. Attempting to bypass via (21, 13).
-- **Correction**: Stairs at B1F (27, 2) lead UP to the Shop, not down to B2F.
-- **B2F Navigation**: To reach the NE section of B2F (where a Murkrow might be), I must traverse B2F starting from the SW stairs at (3, 14).
+- **Correction**: Stairs at B1F (27, 2) lead UP to the Shop (3_48).
+- **Navigation Note**: East Wing Warp at (25, 2) might be one-way. Testing if it warps back to West Wing. If not, must exit via Shop and re-enter HQ.
+- **Goal**: Return to West Wing (B1F).
+- **Murkrow Status**: Both B1F Murkrows (West & East) seem stuck.
+- **Hypothesis**: Need to trigger something else (Switch? Grunt?) to move them.
 - **Plan**:
-  1. Warp back to West Wing via (25, 2).
-  2. Take stairs at (3, 14) to B2F.
-  3. Explore B2F thoroughly to find a path to the NE section.
-  4. Find the second Murkrow on B2F.
+  1. Return to West Wing.
+  2. Check "Useless Grunt" at (2, 4).
+  3. Re-examine Scientist Jed at (18, 12).
+  4. Re-examine Switch at (19, 11).
 - **Boss Door Check**: Door refuses to open. Text: "Only the boss knows the password."
 - **New Plan**: The Murkrow on B1F was a dead end. Attempting to reach the Murkrow marked at B2F (22, 9).
 - **Route**: B2F (3, 14) Stairs -> B1F (3, 14) -> B1F (5, 15) Warp -> B1F East Wing -> B1F (27, 2) Stairs -> B2F (27, 2).
