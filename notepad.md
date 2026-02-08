@@ -22,7 +22,8 @@
 ## Current Task
 - **Murkrow Chase**:
   - Status: Door locked despite password. Murkrow presence required.
-  - Observation: Walked on (19, 12) and did NOT warp. The "Warp Trap" marker was incorrect or the trap is disabled.
-  - Plan: Returning to (21, 12) to interact with Murkrow at (22, 12) (or (22, 11)).
-  - Hypothesis: Pushing the bird into a corner/wall might trigger its flight to the Boss Door.
+  - Observation: Murkrow confirmed at (21, 11). Player at (21, 12).
+  - Action: Interact from South (Up + A).
+  - Expectation: Bird should flee towards Boss Door (23, 14).
+  - Note: Previous "Warp Trap" at (19, 12) was a false alarm.
   - Passwords Known: "HAIL GIOVANNI" (Boss), "RATICATE TAIL", "SLOWPOKETAIL".
