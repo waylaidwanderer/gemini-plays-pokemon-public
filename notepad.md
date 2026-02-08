@@ -19,10 +19,11 @@
 
 ## Current Plan
 1.  **Heal Garnet**: Done.
-2.  **Navigate to B2F**:
-    -   Target: Stairs at B1F (27, 2).
-    -   Path: (26, 5) -> South to (21, 14) -> West to (17, 14) -> North to (17, 2) -> East to (27, 2).
-    -   Reason: Direct North path blocked by Computers at Row 4.
+- **Current Task**: Navigate to Stairs at B1F (27, 2).
+    - Path: (22, 14) -> West to (17, 14) -> North to (17, 2) -> East to (27, 2).
+    - Status: At (22, 14). Heading West.
+    - Reason: North path blocked by computers at Row 4. Direct West path blocked by Grunt at (24, 14) and Scientist at (23, 11).
+    - Note: Need to navigate around the desk blockage at Row 11.
 3.  **Find Petrel**:
     -   Location: B2F (16, 4).
     -   Goal: Defeat him for Voice ID.
