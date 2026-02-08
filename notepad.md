@@ -19,11 +19,12 @@
 
 ## Current Plan
 1.  **Heal Garnet**: Done.
-- **Current Task**: Enable Warps via Switch (19, 11).
-    - Status: Standing on Warp (19, 12). It is currently INACTIVE.
-    - Action: Toggle Switch at (19, 11).
-    - Test: Step Off (Right) -> Step On (Left) to trigger warp.
-    - Goal: Warp to NW Section to find Petrel.
+- **Current Task**: Test Warp at (19, 12).
+    - Status: Standing on Switch/Machine (19, 11).
+    - Action: Step DOWN onto Warp (19, 12).
+    - Expectation: If Switch was toggled correctly (or if stepping on it worked), Warp should activate.
+    - Backup: If Warp fails, investigate computers at (20, 11) and (21, 11) which are also walkable.
+    - Goal: Reach NW Section.
 - **Puzzle**:
     - Switch at B1F (19, 11) must be turned ON.
     - Check if turning it ON opens shutters or enables warps.
