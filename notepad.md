@@ -23,12 +23,13 @@
     -   **Jed's Warning**: "Warp panel up ahead" likely refers to (19, 12).
 
 ## Current Plan
-1.  **Investigate West Wing B1F**:
-    -   **Grunt at (2, 4)**: "I don't even know where the traps are planted." (Useless).
-    -   **Statues**: Check for hidden switches on Persian statues (e.g. 6, 1).
-    -   **Murkrow (10, 4)**: Currently unresponsive. Needs a trigger.
-2.  **Find Switch** for Shutter/Traps (likely in West Wing since East was empty).
-3.  **Open Boss Door**: Needs Voice ID.
+1.  **Investigate B1F East Wing** (Current Location):
+    -   **Computers**: (19, 4) is inert. Check (20, 4).
+    -   **Murkrow at (22, 8)**: Check for response/movement.
+2.  **Return to West Wing**:
+    -   Exit via Shop Stairs at (27, 2).
+    -   Re-enter Hideout via Secret Stairs at (3, 3) in Shop.
+3.  **Find Switch** and **Voice ID**.
 
 ## Confirmed Dead Ends (Do Not Repeat)
 -   Passwords alone do not open Boss Door.
