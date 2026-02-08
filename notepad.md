@@ -20,9 +20,9 @@
 1. Navigate B2F to NE Stairs (27, 2).
 2. Take Stairs to B1F (27, 2).
 3. Walk West on B1F to Murkrow (7, 2).
-- Navigation Logic (Turn 33939):
-    - Problem: Target (22, 5) and Murkrow (22, 9) are in the "North Center" block (Cols 7-22, Rows 3-11).
-    - Obstacle: Row 12 appears solid, blocking South access. Cols 6/23 appear solid, blocking East/West access.
-    - Hypothesis: Entry is via the West Side.
-    - Plan: Attempt to cross "Fake Wall" at (6, 1) to enter West Side. Then check for Warps (e.g., (3, 6)) or other entries.
-    - Current Position: (24, 1). Goal: (5, 1).
+- Navigation Logic (Turn 33940):
+    - Success: Crossed "Fake Wall" at (6, 1). Now in NW Corner of B1F.
+    - Observation: Area is isolated. Cannot reach Murkrow (7, 5) directly from here due to walls.
+    - Plan: Take Stairs at (3, 2) down to B2F West Wing. Explore South to find stairs leading back up to Murkrow's area.
+    - Current Position: (5, 1). Goal: Stairs at (3, 2).
+    - Grunt at (4, 1) might trigger battle.
