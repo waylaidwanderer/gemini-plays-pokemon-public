@@ -22,6 +22,8 @@
 ## Current Task
 - **Murkrow Chase**:
   - Status: Door locked despite password. Murkrow presence required.
-  - Plan: Clearing dialogue (Rocket Oath). Murkrow is currently at (20, 11). Player at (20, 12).
-  - Expectation: Murkrow will flee to the Boss Door after the oath is finished.
+  - Plan: Murkrow trapped in nook at (20, 11). Player blocking exit at (20, 12).
+  - Step 1: Finish dialogue.
+  - Step 2: Move to (21, 12) to unblock exit and check if (21, 11) is walkable.
+  - Step 3: If (21, 11) is walkable, interact from East to push South. If not, hope bird moves to (20, 12).
   - Passwords Known: "HAIL GIOVANNI" (Boss), "RATICATE TAIL", "SLOWPOKETAIL".
