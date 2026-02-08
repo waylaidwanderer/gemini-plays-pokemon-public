@@ -20,9 +20,10 @@
 ## Current Plan
 1.  **Heal Garnet**: Done.
 - **Current Task**: Reach NW Stairs at B1F (3, 2).
-    - Status: At (17, 2).
-    - Path: (17, 2) -> South to (17, 12) -> West to (10, 12) -> North to (10, 10) -> West to (6, 10) -> North to (3, 2).
-    - Reason: Col 6 wall only has a gap at Row 10. Col 15 wall only has a gap at Row 12.
+    - Status: Shutter at (15, 11) confirmed LOCKED.
+    - Strategy: North Flank Loop via Column 17.
+    - Path: (15, 12) -> East to (17, 12) -> North to (17, 2) -> West to (10, 2) -> South to (10, 9) (Fake Wall) -> West to (3, 2).
+    - Reason: Row 11 is blocked by walls/shutters. Must loop North to access Fake Wall from above.
     - Goal: Find Petrel at B2F (16, 4).
 - **Puzzle**:
     - Switch at B1F (19, 11) must be turned ON.
