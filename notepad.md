@@ -34,5 +34,6 @@
 4.  **Open Boss Door**:
     -   Location: B2F (23, 14).
 - Switch at (19, 11) seems to disable the adjacent warp at (19, 12).
-- Attempting to reach West Wing to access B2F via Stairs at (3, 2). Murkrow at (7, 2) is on the way.
-- NOTE: (3, 14) is not stairs, corrected target to (3, 2).
+- Attempting to reach West Wing via Row 9 fake wall (connector).
+- Path: Go to Row 9, walk West through wall at (15, 9).
+- Target: Murkrow at (7, 2), then Stairs at (3, 2).
