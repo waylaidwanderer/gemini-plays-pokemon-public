@@ -25,10 +25,10 @@
 ## Current Plan
 1.  **Explore B1F East Wing (North-East)**:
     -   **Computers**:
-        -   (21, 8): Checked. Unresponsive.
-        -   (20, 8): Checked. Unresponsive.
+        -   Row 4 (19-22, 4): Checked. Unresponsive.
+        -   Row 8 (19-21, 8): Checked. Unresponsive.
         -   (22, 8): Murkrow perch.
-    -   **Target**: Computers at (19, 4) and neighbors.
+    -   **Target**: Check Statues at (24, 5) and (24, 1).
     -   **Checked**: East Wing (All), Murkrow (10,4), Computer (9,4), East Wing Computers (Top Row).
     -   **Current**: Investigating East Wing South (Crates, Switch, Jed).
     -   **Hypothesis**: A switch or trigger is hidden in this unexplored corner.
