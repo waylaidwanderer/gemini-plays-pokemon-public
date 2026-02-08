@@ -23,7 +23,7 @@
 -   **Grunt (25, 13)**: Checked. Useless.
 -   **Stairs (27, 14)**: Only exit. Leads to B1F (SE).
 2.  **Find Voice ID**:
-    -   Take Stairs at (27, 14) to B1F.
-    -   Explore new area to find path to Director.
+    -   Found Director (Petrel) at B2F (16, 4).
+    -   **Current Task**: Defeat Petrel to get Voice ID.
 3.  **Open Boss Door**:
     -   Use Voice ID at (23, 14).
