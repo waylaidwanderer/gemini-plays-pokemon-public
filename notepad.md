@@ -28,7 +28,10 @@
         -   Row 4 (19-22, 4): Checked. Unresponsive.
         -   Row 8 (19-21, 8): Checked. Unresponsive.
         -   (22, 8): Murkrow perch.
-    -   **Target**: Check Statues at (24, 5) and (24, 1).
+    -   **Statues**:
+        -   (24, 5): Checked. Just a "PERSIAN statue...".
+        -   (24, 1): Checked. Just a "PERSIAN statue...".
+    -   **Target**: Trigger "Statue Alarm" at (24, 6). Hypothesis: Fighting grunts might activate the switch or drop a key.
     -   **Checked**: East Wing (All), Murkrow (10,4), Computer (9,4), East Wing Computers (Top Row).
     -   **Current**: Investigating East Wing South (Crates, Switch, Jed).
     -   **Hypothesis**: A switch or trigger is hidden in this unexplored corner.
