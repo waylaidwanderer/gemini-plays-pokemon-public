@@ -101,3 +101,10 @@
 - Wall at (23, 11) blocks East.
 - Warp at (19, 12) likely caused the loop.
 - Plan: Interact with Grunt. If stuck, retry Warp (19, 12) or investigate area for hidden switches.
+[Reflection Turn 33488]
+- Progress: Debunked Secret Stairs, found Row 9 connector, confirmed "Courage" hint, traversed trap field.
+- Current State: Warped to small area (22, 11)/(22, 12) after talking to Jed about a "Warp Panel".
+- Blocker: Grunt at (22, 10) blocks exit.
+- Theory: This Grunt holds the key (Voice ID or Switch access).
+- Plan: Defeat/Talk to Grunt at (22, 10).
+- Map Note: (19, 12) is a Warp Tile (Destination: 22, 11).
