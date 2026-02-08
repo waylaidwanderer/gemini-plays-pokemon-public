@@ -19,11 +19,11 @@
 
 ## Current Plan
 1.  **Heal Garnet**: Done.
-- **Current Task**: Reach NW Stairs at B1F (3, 2).
-    - Status: Successfully bypassed Scientist Mitch. Now at (8, 16).
-    - Path: (8, 16) -> West to (3, 16) -> North to (3, 2).
-    - Reason: Column 3 offers a direct path North to the stairs.
-    - Goal: Find Petrel at B2F (16, 4).
+- **Current Task**: Activate Switch at B1F (19, 11).
+    - Status: En route to (19, 12).
+    - Reason: NW path (Col 3) blocked by Wall at Row 11. Shutter at (15, 10) closed.
+    - Plan: Stand at (19, 12), Face UP, Press A. Do NOT walk onto it.
+    - Expectation: Enable Warps (step on 19, 12) or Open Shutters.
 - **Puzzle**:
     - Switch at B1F (19, 11) must be turned ON.
     - Check if turning it ON opens shutters or enables warps.
