@@ -31,7 +31,8 @@
     -   **Statues**:
         -   (24, 5): Checked. Just a "PERSIAN statue...".
         -   (24, 1): Checked. Just a "PERSIAN statue...".
-    -   **Target**: Trigger "Statue Alarm" at (24, 6). Hypothesis: Fighting grunts might activate the switch or drop a key.
+        -   (6, 1): "Its eyes are oddly shiny." (Potential Secret Switch/Alarm Trigger).
+    -   **Target**: Trigger "Statue Alarm" at (6, 6).
     -   **Checked**: East Wing (All), Murkrow (10,4), Computer (9,4), East Wing Computers (Top Row).
     -   **Current**: Investigating East Wing South (Crates, Switch, Jed).
     -   **Hypothesis**: A switch or trigger is hidden in this unexplored corner.
