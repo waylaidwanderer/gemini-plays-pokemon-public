@@ -19,11 +19,11 @@
 
 ## Current Plan
 1.  **Explore B2F**:
-    -   Currently at (3, 14).
-    -   **Goal**: Find Petrel/Director in the North/North-East office.
-    -   **Task**: Get Voice ID.
+    -   **East Room (B2F)**: Dead end. Walls on West (Col 23) and North (Row 10).
+-   **Grunt (25, 13)**: Checked. Useless.
+-   **Stairs (27, 14)**: Only exit. Leads to B1F (SE).
 2.  **Find Voice ID**:
-    -   Search B2F for Petrel (likely disguised as the Director).
-    -   Defeat him to get the Voice ID.
+    -   Take Stairs at (27, 14) to B1F.
+    -   Explore new area to find path to Director.
 3.  **Open Boss Door**:
     -   Use Voice ID at (23, 14).
