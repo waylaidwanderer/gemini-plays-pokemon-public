@@ -34,8 +34,9 @@
     - Action: Activating switch to disable security (hopefully).
     - Threat: Grunt at (22, 5) is close but hasn't engaged yet.
     - Next: Once security is down, move West to Murkrow (7, 2).
-- Password Obtained: "HAIL GIOVANNI" (from Murkrow at B2F (7, 2)).
-- Status: At Boss Door (23, 14).
-- Action: Bypassing Grunt via Row 15 to interact with Door.
-- Password: "HAIL GIOVANNI".
-- Expectation: Door opens. Enter Boss Room.
+- **Key Info**: Password "HAIL GIOVANNI" obtained from Murkrow.
+- **Boss Door**: Located at B2F (23, 13). Requires Password.
+- **Map Connectivity**:
+  - B1F (6, 1): Fake Wall connecting West and East wings.
+  - B2F (19, 10): Secret Passage to North.
+  - B2F (15, 13): Gap connecting Central and South.
