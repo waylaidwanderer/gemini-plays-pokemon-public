@@ -87,3 +87,8 @@
 - CONFIRMED: Grunt at (2, 4) says "You'll just have to collect your courage and walk."
 - The previous "Correction" was wrong. I am sane.
 - Action: Walking through the trap field to reach Murkrow at (10, 4).
+- Murkrow at (10, 4) is unresponsive to 'A'.
+- Hypothesis: Main Switch at (19, 11) powers the Murkrow computers/events.
+- Status: Statue Switch 1 (6, 1) is ON (Checked previously).
+- Status: Statue Switch 2 (24, 6) is ON (Checked recently).
+- Action: Return to East Wing via Row 9 and toggle Main Switch at (19, 11).
