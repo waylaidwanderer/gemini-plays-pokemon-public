@@ -22,5 +22,5 @@
 ## Current Task
 - **Murkrow Chase**:
   - Status: Door locked despite password. Murkrow presence required.
-  - Plan: Murkrow is at (22, 8) (Wall). Interaction from North failed. Flank to South side (22, 9) via (19, 8) to interact.
+  - Plan: Located secret passage at (19, 8). Attempting to flank Murkrow at (22, 8) from the North (22, 7) since South interaction failed.
   - Passwords Known: "HAIL GIOVANNI" (Boss), "RATICATE TAIL", "SLOWPOKETAIL".
