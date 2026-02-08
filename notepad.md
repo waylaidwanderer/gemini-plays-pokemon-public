@@ -22,6 +22,6 @@
 ## Current Task
 - **Murkrow Chase**:
   - Status: Door locked despite password. Murkrow presence required.
-  - Plan: Interacted with Murkrow (or Oath?) at (20, 12). Advancing text to see if Murkrow moves.
-  - Caution: (19, 12) is marked as a Warp Trap. Avoiding that tile until confirmed safe.
+  - Plan: Clearing dialogue (Rocket Oath). Murkrow is currently at (20, 11). Player at (20, 12).
+  - Expectation: Murkrow will flee to the Boss Door after the oath is finished.
   - Passwords Known: "HAIL GIOVANNI" (Boss), "RATICATE TAIL", "SLOWPOKETAIL".
