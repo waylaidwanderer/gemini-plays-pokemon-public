@@ -37,3 +37,5 @@
 - Warp Trap at (19, 12) confirmed DISABLED.
 - Navigation: Go around Grunt at (24, 14) to reach Stairs at (27, 14).
 - Proceed to Boss Door at B2F (23, 14).
+- Sprite visible at (24, 13) (Screenshot) vs Game State (21, 14). Suspect it is the Rival or a Grunt.
+- Interacting with sprite at (24, 13) and then the Door at (23, 14).
