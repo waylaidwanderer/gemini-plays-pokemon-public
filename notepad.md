@@ -62,3 +62,5 @@
 - Switch at (19, 11) is CONFIRMED "Turned off" and inactive.
 - Jed says "Warp panel up ahead".
 - Checking Shutter at (15, 10) to see if Statue (6, 1) opened it.
+- Murkrow at (22, 8) ignored me.
+- Moving to trigger "Statue Alarm" at (24, 6) to see if it summons Grunts with Voice ID.
