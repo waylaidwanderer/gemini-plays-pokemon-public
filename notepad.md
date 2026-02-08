@@ -34,6 +34,7 @@
 4.  **Open Boss Door**:
     -   Location: B2F (23, 14).
 - Switch at (19, 11) seems to disable the adjacent warp at (19, 12).
-- Attempting to reach West Wing by backtracking through the gap at (15, 13).
-- Path: Go South/East around obstacles to reach Row 13, then cross West at (15, 13).
-- Navigation: bfs to (15, 13), then to Murkrow at (7, 2).
+- Currently in Central/South B1F at (10, 12).
+- "Statues" at Row 12 appear to be walkable (TYPE_3fe2).
+- Plan: Navigate South to Row 14, then West past (5, 15) to reach West Wing.
+- Target: Murkrow at (7, 2), then Stairs at (3, 2).
