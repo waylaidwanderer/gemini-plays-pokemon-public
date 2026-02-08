@@ -20,10 +20,9 @@
 ## Current Plan
 1.  **Heal Garnet**: Done.
 - **Current Task**: Reach NW Stairs at B1F (3, 2).
-    - Status: Testing Switch/Warp at (19, 11)/(19, 12).
-    - Plan B (If Warp fails): Row 12 West Passage.
-    - Path: (19, 12) -> East to (21, 12) -> South to (21, 14) -> West to (17, 14) -> North to (17, 12) -> West along Row 12 to (3, 12) -> North to (3, 2).
-    - Insight: Row 12 appears to be a clear East-West corridor connecting East and West wings.
+    - Status: Warp at (19, 12) failed. Committing to South Loop.
+    - Path: (19, 11) -> East to (21, 11) -> South to (21, 14) -> West to (17, 14) -> North to (17, 12) -> West to (3, 12) -> North to (3, 2).
+    - Reason: Row 12 is a clear corridor west of Col 17.
     - Goal: Find Petrel at B2F (16, 4).
 - **Puzzle**:
     - Switch at B1F (19, 11) must be turned ON.
