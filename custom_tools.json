@@ -509,5 +509,31 @@
         "action_counter": 32291
       }
     ]
+  },
+  "use_item": {
+    "description": "Use a specific item on a specific Pokemon in the party.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "item_name": {
+          "type": "string"
+        },
+        "pokemon_name": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "item_name",
+        "pokemon_name"
+      ]
+    },
+    "python_script": "def run(input_data):\n    # This is a placeholder as actual inventory management requires complex button sequences\n    # For now, we will simulate the button presses to use an item\n    # Assuming standard menu: Start -> Item -> Select Item -> Use -> Select Mon\n    return [\"Start\", \"Down\", \"Down\", \"A\", \"sleep 500\", \"A\", \"sleep 500\", \"A\", \"sleep 500\", \"A\", \"B\", \"B\", \"B\"]",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-02-08T15:59:26.413Z",
+        "action_counter": 33667
+      }
+    ]
   }
 }
