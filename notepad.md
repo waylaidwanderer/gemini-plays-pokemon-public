@@ -14,9 +14,7 @@
     - "RATICATE TAIL": Obtained (likely for Radio Tower, but noting it).
     - "HAIL GIOVANNI": Needed (from Murkrow).
 
-## Navigation Plan
-1.  Take Stairs at (27, 2) to exit to Mahogany Shop.
-2.  Re-enter Hideout from Shop (Stairs at Shop 3, 3).
-3.  This lands us at B1F (7, 3), right next to Murkrow (7, 2).
-4.  Chase Murkrow for "HAIL GIOVANNI".
-5.  Return to Boss Door.
+- Correction: Stairs at (27, 2) lead to B2F Dead End, NOT the Shop.
+- Shop Exit is at (7, 3).
+- Plan: Walk from current position (27, 2) to West Wing via Gap at (15, 13).
+- Then proceed to Murkrow at (7, 2).
