@@ -23,7 +23,7 @@
 - **Murkrow Chase**:
   - Status: Door locked despite password. Murkrow presence required.
   - Plan: Murkrow trapped in nook at (20, 11). Player blocking exit at (20, 12).
-  - Step 1: Finish dialogue.
-  - Step 2: Move to (21, 12) to unblock exit and check if (21, 11) is walkable.
-  - Step 3: If (21, 11) is walkable, interact from East to push South. If not, hope bird moves to (20, 12).
+  - Action: Pressing 'A' once to close dialogue, then immediately moving Right to (21, 12) to unblock the path.
+  - Reason: Repeated 'A' presses risk re-triggering the dialogue loop since I'm facing the bird.
+  - Step 3: If Murkrow moves, chase. If not, interact from (21, 12) or check layout.
   - Passwords Known: "HAIL GIOVANNI" (Boss), "RATICATE TAIL", "SLOWPOKETAIL".
