@@ -20,9 +20,12 @@
 ## Current Plan
 1.  **Heal Garnet**: Done.
 - **Current Task**: Reach NW Stairs at B1F (3, 2).
-    - Status: Warp at (19, 12) failed. Committing to South Loop.
-    - Path: (19, 11) -> East to (21, 11) -> South to (21, 14) -> West to (17, 14) -> North to (17, 12) -> West to (3, 12) -> North to (3, 2).
-    - Reason: Row 12 is a clear corridor west of Col 17.
+    - Status: At (17, 14).
+    - Path: (17, 14) -> North to (17, 12) -> West to (10, 12) -> North to (10, 10) -> West through Gap (6, 10) -> West to (3, 10) -> North to (3, 2).
+    - Reason: 
+        1. Row 11 blocked at Col 3.
+        2. Row 2 blocked at Col 6.
+        3. Row 12/10 are clear corridors.
     - Goal: Find Petrel at B2F (16, 4).
 - **Puzzle**:
     - Switch at B1F (19, 11) must be turned ON.
