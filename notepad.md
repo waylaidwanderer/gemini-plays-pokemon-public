@@ -23,14 +23,11 @@
     -   **Jed's Warning**: "Warp panel up ahead" likely refers to (19, 12).
 
 ## Current Plan
-1.  **Navigate to B2F**:
-    -   **Action**: Descend stairs at (7, 3) to B1F East.
-    -   **Path**: Walk West from East Wing to West Wing (path confirmed open on Row 11-13).
-    -   **Goal**: Reach Stairs to B2F at (3, 14).
-2.  **Explore B2F**:
-    -   Find Lance or Petrel for Voice ID.
-    -   Check for new areas/items.
-3.  **Boss Door**: Needs Voice ID + Passwords.
+1.  **Explore B1F East Wing (North-East)**:
+    -   **Target**: Trap Warp at (19, 1) (North of computers).
+    -   **Target**: Computers at (19, 4) and neighbors.
+    -   **Hypothesis**: A switch or trigger is hidden in this unexplored corner.
+2.  **Open Boss Door**: Needs Voice ID (likely from Petrel/Director).
 
 ## Confirmed Dead Ends (Do Not Repeat)
 -   Passwords alone do not open Boss Door.
