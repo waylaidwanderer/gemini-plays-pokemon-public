@@ -26,88 +26,23 @@
     -   **Jed's Warning**: "Warp panel up ahead" likely refers to (19, 12).
 
 ## Current Plan
-1.  **Explore B1F East Wing (North-East)**:
-    -   **Computers**:
-        -   Row 4 (19-22, 4): Checked. Unresponsive.
-        -   Row 8 (19-21, 8): Checked. Unresponsive.
-        -   (22, 8): Murkrow perch.
-    -   **Statues**:
-        -   (24, 5): Checked. Just a "PERSIAN statue...".
-        -   (24, 1): Checked. Just a "PERSIAN statue...".
-        -   (6, 1): "Its eyes are oddly shiny." (Potential Secret Switch).
-        -   (6, 6): WALL. Cannot be a floor trap.
-    -   **Target**: Check Grunt at (2, 4) for dialogue changes.
-        -   **Result**: Dialogue CHANGED to "You'll just have to collect your courage and walk." (Previously: "I don't know where the traps are").
-        -   **Implication**: Shiny Statue at (6, 1) was a switch/trigger.
-    -   **Next Steps**:
-        1.  Check West Wing Murkrow (10, 4) [Checked: Silent].
-        2.  Check Shutter at (15, 10) (maybe it opened?).
-        3.  Check East Wing Murkrow (22, 8).
-        4.  Trigger "Statue Alarm" at (24, 6) if Shutter is closed.
-    -   **Checked**: East Wing (All), Murkrow (10,4), Computer (9,4), East Wing Computers (Top Row).
-    -   **Current**: Investigating East Wing South (Crates, Switch, Jed).
-    -   **Hypothesis**: A switch or trigger is hidden in this unexplored corner.
-2.  **Open Boss Door**: Needs Voice ID (likely from Petrel/Director).
+1.  **Execute "Courage" Strategy**:
+    -   Interact with Grunt at (2, 4) (Done).
+    -   Proceed to **Warp Panel at (19, 12)** (East Wing, near Jed).
+    -   **Expectation**: Warp to (22, 11).
+    -   **Goal**: Reach the Grunt at (22, 10) and the Murkrow at (22, 8).
+    -   *Note*: Grunt at (22, 10) is marked as "Defeated" but might still block the path. Need to check if he moves or if there's a trick.
+2.  **Investigate Murkrow (22, 8)**:
+    -   Likely holds a password or voice trigger.
+    -   If inaccessible due to Grunt, look for hidden switches in the "Enclosed Area".
 
-## Confirmed Dead Ends (Do Not Repeat)
--   Passwords alone do not open Boss Door.
--   Warp at (25, 2) is one-way from West to East.
--   Stairs at (27, 2) lead UP to Shop, not DOWN to B2F.
--   Posters at (20, 11) have no hidden switches.
-- **Shop Update**: Abandoned Secret Stairs at (3, 3) due to blockage.
-- **Goal**: Re-investigate B1F North-East Room via Stairs at (7, 3).
-- **Hypothesis**: The "Dead End" room contains a hidden switch or trigger I missed.
+## Confirmed Dead Ends & Facts
+-   **Switch (19, 11)**: OFF. Needs activation (likely via statues or Voice ID).
+-   **Statues**: (6, 1) and (24, 6) are active switches.
+-   **Traps**: Floor traps in West Wing; Warp trap at (19, 12).
+-   **Boss Door**: Needs Voice ID.
 
-[Turn 33384 Update]
-- Grunt at (2, 4) says: 'You'll just have to collect your courage and walk.'
-- This implies the traps might be unavoidable or disabled, OR I need to walk a specific path.
-- Checking Switch at (19, 11) now.
-- Switch at (19, 11) is CONFIRMED "Turned off" and inactive.
-- Jed says "Warp panel up ahead".
-- Checking Shutter at (15, 10) to see if Statue (6, 1) opened it.
-- Murkrow at (22, 8) ignored me.
-- Moving to trigger "Statue Alarm" at (24, 6) to see if it summons Grunts with Voice ID.
-- Statue at (24, 6) also has "oddly shiny" eyes!
-- This is likely the second switch needed to activate the main switch at (19, 11) or open the shutter.
-- Previous action failed to move because text was open.
-- Retrying interaction.
-- Shutter at (15, 10) is definitely CLOSED (Wall tile).
-- Confirmed "Statue Switch" at (24, 6) is ACTIVE.
-- Grunt's hint "Collect courage and walk" + Jed's "Warp panel up ahead" might mean TRAPS are now WARPS.
-- Heading to (19, 1) to check if it's the warp Jed meant.
-- If (19, 1) is nothing, I will test a floor trap in the West Wing.
-- Tile at (19, 1) is INERT. Not a warp.
-- Hypothesis: Grunt's hint "Collect courage and walk" refers to the BATTLE TRAP field in the West Wing.
-- Plan: Return to West Wing via Shop Stairs, then walk through the Geodude/Voltorb field to see if a path/warp has opened.
-- Checking Statue at (24, 1) on the way out just in case.
-- **Clarification**: The "Secret Stairs" text refers to the stairs at (7, 3).
-- **Strategy Correction**: Row 9 in B1F appears to be the connecting corridor between East and West wings. The shutter is at (15, 10), meaning Row 9 should be open.
-- **Immediate Plan**:
-    1. Descend Stairs at (7, 3) to B1F East Wing.
-    2. Navigate to Row 9.
-    3. Walk West past the shutter location to reach the West Wing.
-    4. Proceed to the "Trap Field" (Geodude/Voltorb tiles) to "collect courage and walk".
-- CONFIRMED: Grunt at (2, 4) says "You'll just have to collect your courage and walk."
-- The previous "Correction" was wrong. I am sane.
-- Action: Walking through the trap field to reach Murkrow at (10, 4).
-- Murkrow at (10, 4) is unresponsive to 'A'.
-- Hypothesis: Main Switch at (19, 11) powers the Murkrow computers/events.
-- Status: Statue Switch 1 (6, 1) is ON (Checked previously).
-- Status: Statue Switch 2 (24, 6) is ON (Checked recently).
-- Action: Return to East Wing via Row 9 and toggle Main Switch at (19, 11).
-- Jed's Hint: "That thing on the floor up ahead is a warp panel."
-- Likely refers to (19, 12) (directly in front of him) or nearby.
-- Since Switch (19, 11) is OFF, the warp is likely inactive.
-- Plan: Ensure Statue (6, 1) is ON, then retry Main Switch (19, 11).
-- Stuck in Loop? Warped to (22, 11) after talking to Jed.
-- Grunt at (22, 10) blocks path North.
-- Wall at (23, 11) blocks East.
-- Warp at (19, 12) likely caused the loop.
-- Plan: Interact with Grunt. If stuck, retry Warp (19, 12) or investigate area for hidden switches.
-[Reflection Turn 33488]
-- Progress: Debunked Secret Stairs, found Row 9 connector, confirmed "Courage" hint, traversed trap field.
-- Current State: Warped to small area (22, 11)/(22, 12) after talking to Jed about a "Warp Panel".
-- Blocker: Grunt at (22, 10) blocks exit.
-- Theory: This Grunt holds the key (Voice ID or Switch access).
-- Plan: Defeat/Talk to Grunt at (22, 10).
-- Map Note: (19, 12) is a Warp Tile (Destination: 22, 11).
+## Reflection (Turn 33538)
+-   **Progress**: Found "Courage" hint. Identified active statues.
+-   **Blocker**: Text box management has been sloppy. Ensuring text is cleared before movement.
+-   **Next Step**: Force interaction with Warp (19, 12).
