@@ -37,7 +37,8 @@
 - Warp Trap at (19, 12) confirmed DISABLED.
 - Navigation: Go around Grunt at (24, 14) to reach Stairs at (27, 14).
 - Proceed to Boss Door at B2F (23, 14).
-- Attempting to open Boss Door at B2F (23, 14).
-- Requirements: Password (RATICATE TAIL) + Voice ID (Petrel defeated).
-- Path: Down, Left from (24, 13).
-- If successful, proceed to defeat the Executive.
+- Boss Door at B2F (23, 14) is locked.
+- Missing "Password". "RATICATE TAIL" was likely from a different event (Radio Tower).
+- "HAIL GIOVANNI" comes from the Murkrow.
+- Objective: Return to B1F and finish chasing the Murkrow.
+- Murkrow last seen/expected: B1F West Wing (7, 2) or nearby.
