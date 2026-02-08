@@ -18,8 +18,11 @@
     -   Exit blocked by Grunt (22, 10) is irrelevant now.
 
 ## Current Plan
-1.  **Test Main Switch (19, 11)** from (18, 11).
-2.  If OFF:
-    -   Investigate "Courage" hint (Walking through traps?).
-    -   Check if Grunt at (22, 10) has moved or changes dialogue.
-    -   Search for a 3rd Statue Switch (e.g., Row 13 in West Wing).
+1.  **Go to B2F**:
+    -   Warp Trap (19, 12) is confirmed **DISABLED**.
+    -   Walk South-West to Stairs at (3, 14).
+2.  **Find Voice ID**:
+    -   Search B2F for Petrel (likely disguised as the Director).
+    -   Defeat him to get the Voice ID.
+3.  **Open Boss Door**:
+    -   Use Voice ID at (23, 14).
