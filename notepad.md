@@ -26,23 +26,16 @@
     -   **Jed's Warning**: "Warp panel up ahead" likely refers to (19, 12).
 
 ## Current Plan
-1.  **Execute "Courage" Strategy**:
-    -   Interact with Grunt at (2, 4) (Done).
-    -   Proceed to **Warp Panel at (19, 12)** (East Wing, near Jed).
-    -   **Expectation**: Warp to (22, 11).
-    -   **Goal**: Reach the Grunt at (22, 10) and the Murkrow at (22, 8).
-    -   *Note*: Grunt at (22, 10) is marked as "Defeated" but might still block the path. Need to check if he moves or if there's a trick.
-2.  **Investigate Murkrow (22, 8)**:
-    -   Likely holds a password or voice trigger.
-    -   If inaccessible due to Grunt, look for hidden switches in the "Enclosed Area".
+1.  **Unlock Switch at (19, 11)**:
+    -   Currently "Turned off".
+    -   **Loop Condition**: Switch OFF -> Warp (19, 12) Active -> Warps to (22, 11) -> Grunt blocks path.
+    -   **Goal**: Turn Switch ON to disable Warp (19, 12).
+    -   *Action*: Re-check Switch and adjacent Computer (19, 10).
+2.  **Investigate West Wing**:
+    -   If Switch fails, re-check Murkrow (10, 4) and trap field for hidden triggers.
+    -   Verify if Grunt at (22, 10) can be bypassed or battled.
 
-## Confirmed Dead Ends & Facts
--   **Switch (19, 11)**: OFF. Needs activation (likely via statues or Voice ID).
--   **Statues**: (6, 1) and (24, 6) are active switches.
--   **Traps**: Floor traps in West Wing; Warp trap at (19, 12).
+## Confirmed Facts
+-   **Statues**: (6, 1) and (24, 6) are active switches. (Already triggered).
+-   **Traps**: (19, 12) is a Warp Trap to (22, 11).
 -   **Boss Door**: Needs Voice ID.
-
-## Reflection (Turn 33538)
--   **Progress**: Found "Courage" hint. Identified active statues.
--   **Blocker**: Text box management has been sloppy. Ensuring text is cleared before movement.
--   **Next Step**: Force interaction with Warp (19, 12).
