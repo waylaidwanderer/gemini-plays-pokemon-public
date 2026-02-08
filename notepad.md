@@ -14,7 +14,8 @@
     - "RATICATE TAIL": Obtained (likely for Radio Tower, but noting it).
     - "HAIL GIOVANNI": Needed (from Murkrow).
 
-- Discovered Secret Passage at (19, 10) (Fake Computer).
-- Plan: Walk North through (19, 10) to reach Row 7.
-- Then navigate West to finding Murkrow at (7, 2).
-- This bypasses the shutters and traps!
+- Reading Password from Grunt at (21, 7). Expecting "RATICATE TAIL".
+- Next Step: Check if Shutters at (15, 10) are open.
+- Hypothesis: Switch at (19, 11) controls Shutters and/or Warp Trap.
+- If Shutters are closed, will try toggling Switch at (19, 11).
+- Goal: Reach Murkrow at (7, 2).
