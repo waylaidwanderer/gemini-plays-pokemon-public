@@ -71,5 +71,10 @@
 - **Action**: Flanking East to bypass the shutter and reach Switch at (19, 11) / Jed at (18, 12).
 - **Goal**: Re-examine Switch. If it says "Turned off", determine if that means "Disabled" or "Currently Off".
 - **Hypothesis**: If Security is OFF, maybe traps are inert? Need to verify.
-- **Jed's Warning**: "That thing on the floor up ahead is a warp panel." Likely referring to the tile directly in front of the switch (19, 12) or the switch itself?
-- **Current Task**: Investigating "Team Rocket Oath" poster at (20, 11) for hidden switches.
+- **Poster Check**: "Team Rocket Oath" at (20, 11) / (21, 11) contains no hidden switches. Just text.
+- **Jed's Warning**: Confirmed (19, 12) is likely the warp panel. Currently inactive (didn't warp me).
+- **Switch (19, 11)**: "Turned off". Cannot toggle. Might be linked to Shutter.
+- **Next Plan**:
+  1. Talk to Defeated Grunt at (22, 10).
+  2. Check Crates at (27, 10).
+  3. Exit to Shop and retry West Wing entrance (3, 3).
