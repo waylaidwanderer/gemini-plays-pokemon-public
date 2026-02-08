@@ -29,3 +29,4 @@
 1. **Analyze B1F West**: Check for any non-standard tiles (warps/triggers) using code.
 2. **Re-investigate Shop**: The "Secret Stairs" hint is the strongest lead. Check (2, 2) area thoroughly again.
 3. **Persian Statues**: If Shop fails, re-check statues with Switch OFF?
+- **Interaction Note**: Got stuck in a dialogue loop with the Grunt at (4, 3). Using 'B' to close text and moving Left to break the cycle.
