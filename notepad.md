@@ -23,17 +23,14 @@
     -   **Jed's Warning**: "Warp panel up ahead" likely refers to (19, 12).
 
 ## Current Plan
-1.  **Escape East Wing Loop**:
-    -   **Hypothesis**: The "Trap Warps" might send me back to the dungeon entrance (West Wing).
-    -   **Action**: Go to B1F East Wing via stairs at (7, 3).
-    -   **Target**: Trap at (19, 1) (North of computers).
-2.  **If that fails**:
-    -   Check Switch at (19, 11) again.
-    -   Check every tile in East Wing for a hidden switch.
-3.  **West Wing Goals** (Once returned):
-    -   Re-investigate Grunt at (2, 4).
-    -   Find trigger for Murkrow (10, 4).
-    -   Go to B2F.
+1.  **Navigate to B2F**:
+    -   **Action**: Descend stairs at (7, 3) to B1F East.
+    -   **Path**: Walk West from East Wing to West Wing (path confirmed open on Row 11-13).
+    -   **Goal**: Reach Stairs to B2F at (3, 14).
+2.  **Explore B2F**:
+    -   Find Lance or Petrel for Voice ID.
+    -   Check for new areas/items.
+3.  **Boss Door**: Needs Voice ID + Passwords.
 
 ## Confirmed Dead Ends (Do Not Repeat)
 -   Passwords alone do not open Boss Door.
