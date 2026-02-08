@@ -36,3 +36,4 @@
 - **Murkrow Status**: Stuck at (10, 4). Interaction failed. Returning to try "flushing" it from different angles or checking the computer it's standing on.
 - **Hypothesis**: The Murkrow needs to be chased to the B2F Boss Door to act as the Voice ID.
 - **Map Note**: (11, 4) is a solid computer. Murkrow is at (10, 4). Open tiles: (9, 4), (10, 3), (10, 5).
+- **Navigation Warning**: Scientist Jed is blocking (18, 12). BFS fails here. Must navigate around via (18, 13).
