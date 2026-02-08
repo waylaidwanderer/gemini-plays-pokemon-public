@@ -14,8 +14,7 @@
     - "RATICATE TAIL": Obtained (likely for Radio Tower, but noting it).
     - "HAIL GIOVANNI": Needed (from Murkrow).
 
-- Accessing West Wing via Row 16 (South Loop).
-- Path: (12, 13) -> South to (12, 16) -> West to (10, 16) -> North to (7, 2).
-- This bypasses the shutters at Row 11 and the scientist at (11, 15).
-- Goal: Find Murkrow at (7, 2) for password "HAIL GIOVANNI".
-- Password "SLOWPOKETAIL" confirmed.
+- Suspect Row 11 in West Wing is a solid wall (TYPE_2889), making South Loop a dead end for reaching North.
+- Returning to check Shutters at (15, 11).
+- If open, proceed to Murkrow.
+- If closed, return to Switch/Computers at (19, 11) to find the correct trigger.
