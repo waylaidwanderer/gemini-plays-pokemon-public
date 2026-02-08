@@ -20,12 +20,13 @@
 1. Navigate B2F to NE Stairs (27, 2).
 2. Take Stairs to B1F (27, 2).
 3. Walk West on B1F to Murkrow (7, 2).
-- Navigation Logic (Turn 33941):
-    - Arrived at B2F West Wing via Stairs at (3, 2).
-    - Objective: Find path to Murkrow (B1F (7, 2)).
-    - Options:
-        1. Stairs at B2F (3, 6). Likely leads to B1F.
-        2. Gap at B2F (6, 10). Leads to Central B2F.
-    - Plan: Investigate Stairs at (3, 6).
-    - Observation: Sprite at B2F (7, 2) (visible through wall). Likely a Grunt.
-    - Murkrow Status: Last seen B1F (7, 2).
+- Navigation Logic (Turn 33951):
+    - Current: B1F (3, 2).
+    - Goal: Activate Persian Statue Switch at B1F (24, 6).
+    - Route:
+        1. Cross Fake Wall at (6, 1).
+        2. Walk East along Row 1 to Col 24.
+        3. Walk South to (24, 5).
+        4. Interact with Statue at (24, 6).
+    - Expectation: Switch disables security/opens path to Central Area (Murkrow).
+    - Note: Watch for Grunt at (22, 5).
