@@ -20,13 +20,16 @@
 1. Navigate B2F to NE Stairs (27, 2).
 2. Take Stairs to B1F (27, 2).
 3. Walk West on B1F to Murkrow (7, 2).
-- Navigation Logic (Turn 33956):
-    - Confirmed: Murkrow is at B1F (22, 9) (South of Grunt Blockade).
-    - Route: Flank the Grunts by using the East Corridor (Col 28).
-        1. Move East to Col 28.
-        2. Move South to Row 9.
-        3. Move West to (22, 9) to intercept Murkrow.
-    - Status: Statue switch at (24, 6) was silent (possibly inactive or alarm trigger). Avoiding it.
+- Navigation Logic (Turn 33957):
+    - Correction: Cannot reach Murkrow at (22, 9) from East Corridor (Row 9) due to Wall at (23, 9).
+    - New Plan: Loop South to check Shutter at (15, 11).
+    - Route:
+        1. North to Row 1.
+        2. East to Col 28.
+        3. South to Row 16.
+        4. West to Col 15.
+        5. North to Shutter at (15, 11).
+    - Hope: Persian Statue Switch (24, 6) opened the shutter.
 - Reflection (Turn 33955):
     - Reached Persian Statue at B1F (24, 6) via North/East perimeter to avoid alarms.
     - Action: Activating switch to disable security (hopefully).
