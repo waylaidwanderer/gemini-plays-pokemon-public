@@ -68,3 +68,8 @@
 - This is likely the second switch needed to activate the main switch at (19, 11) or open the shutter.
 - Previous action failed to move because text was open.
 - Retrying interaction.
+- Shutter at (15, 10) is definitely CLOSED (Wall tile).
+- Confirmed "Statue Switch" at (24, 6) is ACTIVE.
+- Grunt's hint "Collect courage and walk" + Jed's "Warp panel up ahead" might mean TRAPS are now WARPS.
+- Heading to (19, 1) to check if it's the warp Jed meant.
+- If (19, 1) is nothing, I will test a floor trap in the West Wing.
