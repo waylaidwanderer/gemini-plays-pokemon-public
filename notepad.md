@@ -9,6 +9,7 @@
   - **West Wing**: Contains Grunt at (2, 4) ("traps planted"). Stairs at (3, 14) -> B2F South-West.
   - **East Wing**: Accessed via Warp (5, 15) -> (25, 2). Stairs at (27, 2) -> Shop.
   - **Statues**: Persian statues at (6, 1) and (24, 1) - checked, inert.
+  - **Statue at (24, 6)**: Just a shiny statue. No switch.
   - **Switch**: (19, 11) is ON. Disables traps (verified).
 
 - **B2F (Below)**
