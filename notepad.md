@@ -22,7 +22,7 @@
 ## Current Task
 - **Murkrow Chase**:
   - Status: Door locked despite password. Murkrow presence required.
-  - Plan: Murkrow is trapped in dead end at (22, 11). Player blocking exit at (22, 12).
-  - Strategy: Use the Warp Trap at (19, 12) to teleport to (22, 11) (or near it) to flank/displace the bird from the North.
-  - Action: Moving West to enter the warp.
+  - Observation: Walked on (19, 12) and did NOT warp. The "Warp Trap" marker was incorrect or the trap is disabled.
+  - Plan: Returning to (21, 12) to interact with Murkrow at (22, 12) (or (22, 11)).
+  - Hypothesis: Pushing the bird into a corner/wall might trigger its flight to the Boss Door.
   - Passwords Known: "HAIL GIOVANNI" (Boss), "RATICATE TAIL", "SLOWPOKETAIL".
