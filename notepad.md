@@ -19,11 +19,12 @@
 
 ## Current Plan
 1.  **Heal Garnet**: Done.
-- **Current Task**: Check Shutter at (15, 10).
-    - Status: Navigating around walls to reach shutter.
-    - Path: (19, 10) -> North to (19, 2) -> West to (17, 2) -> South to (17, 10) -> West to (15, 10).
-    - Reason: Direct West blocked by (18, 10). Direct North-West blocked by (15, 2).
-    - Goal: If shutter open, proceed to NW Stairs. If closed, try activating switch from East (20, 11).
+- **Current Task**: Activate Switch at B1F (19, 11).
+    - Status: Shutter at (15, 10) confirmed LOCKED.
+    - Path: (16, 10) -> South to (16, 14) -> East to (20, 14) -> North to (20, 12).
+    - Plan: Interact with computers at (19, 11), (20, 11), (21, 11) from the South (Row 12).
+    - Reason: Wall at Col 18 blocks direct East path.
+    - Goal: Open Shutter to reach NW Stairs.
 - **Puzzle**:
     - Switch at B1F (19, 11) must be turned ON.
     - Check if turning it ON opens shutters or enables warps.
