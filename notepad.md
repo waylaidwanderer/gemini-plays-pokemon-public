@@ -36,6 +36,5 @@
 -   Warp at (25, 2) is one-way from West to East.
 -   Stairs at (27, 2) lead UP to Shop, not DOWN to B2F.
 -   Posters at (20, 11) have no hidden switches.
-- **Shop Update**: Secret Stairs revealed at (3, 0) in Shop (Lance event).
-- **Correction**: I descended the Normal Stairs at (7, 3) which led to the B1F North-East Dead End.
-- **Goal**: Return to Shop, take Hidden Stairs at (3, 3) to reach the main B1F area.
+- **Shop Update**: Secret Stairs revealed at (3, 3) in Shop (Triggered!).
+- **Goal**: Enter Secret Stairs at (3, 3) to reach B1F West Wing.
