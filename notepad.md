@@ -77,3 +77,6 @@
 - Hypothesis: Grunt's hint "Collect courage and walk" refers to the BATTLE TRAP field in the West Wing.
 - Plan: Return to West Wing via Shop Stairs, then walk through the Geodude/Voltorb field to see if a path/warp has opened.
 - Checking Statue at (24, 1) on the way out just in case.
+- Difficulty entering Secret Stairs at (3, 3).
+- Attempting to interact with the rug (3, 3) and the cabinet (2, 3) to re-trigger or enter.
+- If this fails, I will speak to the Grunt at (5, 3).
