@@ -26,5 +26,11 @@
 - **Boss Door Update**: Passwords "RATICATE TAIL" and "HAIL GIOVANNI" are not enough. Requires **Voice ID**.
 - **Task**: Chasing Murkrow (Found at 22, 8). Need to lead it to... somewhere?
 - **Murkrow Interaction**: Direct A-presses and bumping failed. Using tools to verify interactability and exact location.
-- **Murkrow Location**: Perched on Computer at (10, 4) (Northeast Room). Interaction from West/North failed. Attempting to interact from South (Front of Computer).
-- **Murkrow Strategy**: South interaction failed. Trying East flank (11, 4). If this fails, maybe I need to trigger something else first?
+- **Murkrow Status**: Chased from (21, 9) -> (7, 8) -> (7, 6) -> (9, 4) -> (10, 4). Currently perched on Computer at (10, 4).
+- **Interaction Attempts**:
+  - West (9, 4): Failed.
+  - North (10, 3): Failed.
+  - South (10, 5) A-press: Failed.
+  - South (10, 5) Bump: Pending.
+- **Voice ID Theory**: The Murkrow mimics voices ("Hail Giovanni"). It might be the key to the Voice ID lock on B2F.
+- **Switch (19, 11)**: Was "Turned off". Needs to be ON to disable traps. Retrying after Murkrow event.
