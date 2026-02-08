@@ -20,16 +20,12 @@
 1. Navigate B2F to NE Stairs (27, 2).
 2. Take Stairs to B1F (27, 2).
 3. Walk West on B1F to Murkrow (7, 2).
-- Navigation Logic (Turn 33957):
-    - Correction: Cannot reach Murkrow at (22, 9) from East Corridor (Row 9) due to Wall at (23, 9).
-    - New Plan: Loop South to check Shutter at (15, 11).
-    - Route:
-        1. North to Row 1.
-        2. East to Col 28.
-        3. South to Row 16.
-        4. West to Col 15.
-        5. North to Shutter at (15, 11).
-    - Hope: Persian Statue Switch (24, 6) opened the shutter.
+- Navigation Logic (Turn 33958):
+    - Confirmed: Wall at B1F (23, 9) blocks East access to Murkrow.
+    - Current Action: Navigating to South Corridor (Row 16) via East Wing (Col 28).
+    - Goal: Check for entrances to Central Room from the South (e.g., near Grunt at (21, 14)).
+    - Hypothesis: Persian Statue Switch (24, 6) may have opened a path or disabled alarms.
+    - Murkrow: Confirmed at (22, 9) inside Central Room.
 - Reflection (Turn 33955):
     - Reached Persian Statue at B1F (24, 6) via North/East perimeter to avoid alarms.
     - Action: Activating switch to disable security (hopefully).
