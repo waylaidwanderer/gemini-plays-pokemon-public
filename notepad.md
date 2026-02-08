@@ -18,9 +18,10 @@
     -   Exit blocked by Grunt (22, 10) is irrelevant now.
 
 ## Current Plan
-1.  **Go to B2F**:
-    -   Warp Trap (19, 12) is confirmed **DISABLED**.
-    -   Walk South-West to Stairs at (3, 14).
+1.  **Explore B2F**:
+    -   Currently at (3, 14).
+    -   **Goal**: Find Petrel/Director in the North/North-East office.
+    -   **Task**: Get Voice ID.
 2.  **Find Voice ID**:
     -   Search B2F for Petrel (likely disguised as the Director).
     -   Defeat him to get the Voice ID.
