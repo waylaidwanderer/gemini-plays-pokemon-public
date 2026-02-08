@@ -96,3 +96,8 @@
 - Likely refers to (19, 12) (directly in front of him) or nearby.
 - Since Switch (19, 11) is OFF, the warp is likely inactive.
 - Plan: Ensure Statue (6, 1) is ON, then retry Main Switch (19, 11).
+- Stuck in Loop? Warped to (22, 11) after talking to Jed.
+- Grunt at (22, 10) blocks path North.
+- Wall at (23, 11) blocks East.
+- Warp at (19, 12) likely caused the loop.
+- Plan: Interact with Grunt. If stuck, retry Warp (19, 12) or investigate area for hidden switches.
