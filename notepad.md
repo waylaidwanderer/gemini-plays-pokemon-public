@@ -14,12 +14,14 @@
     - "RATICATE TAIL": Obtained (likely for Radio Tower, but noting it).
     - "HAIL GIOVANNI": Needed (from Murkrow).
 
-- Navigation Plan: Bypass Grunt at (5, 14) via Row 15. Reach (8, 12).
-- Investigate Row 11 at Cols 8-10 for a gap to the North.
-- If blocked, check Central Area (Col 15) for North access.
-- Confirmed: Row 11 at Col 1 and 3 are blocked.
-- Current Status: At (4, 14). Grunt blocks (5, 14).
-- Goal: Reach B2F NW Stairs (3, 2).
+- Pivot: Row 11 likely solid. Abandoning North Check.
+- New Plan:
+    1. Navigate to SE Stairs (27, 14) via Row 16 (Bypass Scientist).
+    2. Take stairs to B2F SE.
+    3. Traverse B2F to NW Stairs (3, 2).
+    4. Take stairs to B1F NW (3, 2).
+    5. Find Murkrow.
+- Current: Moving to Row 16 to bypass Grunt/Scientist.
 - Reflection (Turn 33907): Currently on B1F (3_50) at (27, 2).
 - Mistake: Looped between floors. B1F = 3_50, B2F = 3_51.
 - Plan: Take stairs DOWN to B2F (3_51). Then navigate West to (3, 2).
