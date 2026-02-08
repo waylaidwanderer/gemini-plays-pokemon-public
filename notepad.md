@@ -13,8 +13,9 @@
     -   (6, 1): Active/Toggled.
     -   (24, 6): Active/Toggled.
 3.  **Warp Trap (19, 12)**:
-    -   Active. Sends to (22, 11).
-    -   Exit blocked by Grunt (22, 10).
+    -   **DISABLED**. Confirmed by standing on it without warping.
+    -   Path to West Wing/Stairs is open.
+    -   Exit blocked by Grunt (22, 10) is irrelevant now.
 
 ## Current Plan
 1.  **Test Main Switch (19, 11)** from (18, 11).
