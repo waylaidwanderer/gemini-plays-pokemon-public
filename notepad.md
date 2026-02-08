@@ -14,8 +14,7 @@
     - "RATICATE TAIL": Obtained (likely for Radio Tower, but noting it).
     - "HAIL GIOVANNI": Needed (from Murkrow).
 
-- Wall at Column 18 blocks direct access to Switch from (17, 11).
-- Path: Go South to (18, 14) gap, then North to Switch (19, 11).
-- Goal: Toggle Switch (19, 11) to try opening Shutters at Col 15.
-- If successful, path to Murkrow (7, 2) becomes easier.
-- Note: Warp at (19, 12) is disabled (safe).
+- Discovered Secret Passage at (19, 10) (Fake Computer).
+- Plan: Walk North through (19, 10) to reach Row 7.
+- Then navigate West to finding Murkrow at (7, 2).
+- This bypasses the shutters and traps!
