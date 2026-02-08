@@ -35,10 +35,11 @@
     - Threat: Grunt at (22, 5) is close but hasn't engaged yet.
     - Next: Once security is down, move West to Murkrow (7, 2).
 - **Key Info**: Password "HAIL GIOVANNI" obtained from Murkrow (B2F 7,2).
-- **Current Status**: In B1F Small Room (3, 6). Dead end.
-- **Plan**:
-    1. Return to B2F via stairs at (3, 6).
-    2. Go South to Gap (6, 10).
-    3. Enter Central Area.
-    4. Retrieve Murkrow (B2F 7, 2).
+- **Current Status**: On B2F West (3, 6).
+- **Goal**: Retrieve Murkrow from Central Area (7, 2).
+- **Route**:
+    1. Go South to Gap (6, 10).
+    2. Go East to (10, 10).
+    3. Go North through Fake Wall (10, 9).
+    4. Go Northwest to Murkrow (7, 2).
 - **Key Info**: Boss Door requires Murkrow's physical presence. Password "HAIL GIOVANNI" is known.
