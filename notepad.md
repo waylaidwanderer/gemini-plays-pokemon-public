@@ -15,6 +15,7 @@
     - "HAIL GIOVANNI": Needed (from Murkrow).
 
 - Suspect Row 11 in West Wing is a solid wall (TYPE_2889), making South Loop a dead end for reaching North.
-- Returning to check Shutters at (15, 11).
-- If open, proceed to Murkrow.
-- If closed, return to Switch/Computers at (19, 11) to find the correct trigger.
+- Shutters at (15, 11) are CLOSED.
+- Path to West Wing: Navigate via Row 16 to (1, 16), then North.
+- Scientist at (11, 15) blocks Row 15.
+- Murkrow is priority.
