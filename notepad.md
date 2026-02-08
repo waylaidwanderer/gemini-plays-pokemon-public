@@ -66,7 +66,8 @@
 - **Boss Door Check**: Door refuses to open. Text: "Only the boss knows the password."
 - **New Plan**: The Murkrow on B1F was a dead end. Attempting to reach the Murkrow marked at B2F (22, 9).
 - **Route**: B2F (3, 14) Stairs -> B1F (3, 14) -> B1F (5, 15) Warp -> B1F East Wing -> B1F (27, 2) Stairs -> B2F (27, 2).
-- **Exploration Update**: B1F East Wing. Computers at (19, 4) and (18, 4) are unresponsive.
-- **Goal**: Heading to Shutter at (15, 10).
-- **Path**: Moving West to (15, 3) then South, testing for traps/alarms.
-- **Observation**: Garnet is strong enough to handle battle traps, but Warp Traps must be avoided. Known/Suspected Warp Traps: (19, 1), (12, 8).
+- **Exploration Update**: Shutter at (15, 10) is CLOSED.
+- **Pathfinding**: Direct South path is blocked. East side (Cols 24-25) appears open.
+- **Action**: Flanking East to bypass the shutter and reach Switch at (19, 11) / Jed at (18, 12).
+- **Goal**: Re-examine Switch. If it says "Turned off", determine if that means "Disabled" or "Currently Off".
+- **Hypothesis**: If Security is OFF, maybe traps are inert? Need to verify.
