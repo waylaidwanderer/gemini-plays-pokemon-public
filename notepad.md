@@ -73,3 +73,7 @@
 - Grunt's hint "Collect courage and walk" + Jed's "Warp panel up ahead" might mean TRAPS are now WARPS.
 - Heading to (19, 1) to check if it's the warp Jed meant.
 - If (19, 1) is nothing, I will test a floor trap in the West Wing.
+- Tile at (19, 1) is INERT. Not a warp.
+- Hypothesis: Grunt's hint "Collect courage and walk" refers to the BATTLE TRAP field in the West Wing.
+- Plan: Return to West Wing via Shop Stairs, then walk through the Geodude/Voltorb field to see if a path/warp has opened.
+- Checking Statue at (24, 1) on the way out just in case.
