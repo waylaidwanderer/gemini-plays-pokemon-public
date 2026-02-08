@@ -17,8 +17,8 @@
   - **North Side**: Unreachable from South. Contains Murkrow at (22, 9).
 
 - **Shop (Above)**
-  - **Stairs**: (7, 3) connects to B1F East.
-  - **"Secret Stairs"**: Revealed after defeating Grunt. Location likely (2, 2).
+  - **Stairs**: (7, 3) connects to B1F East. This is likely the "Secret Stairway".
+  - **"Secret Stairs"**: Cabinet at (2, 2) is decorative. Dropping hypothesis.
 
 ## Failed Hypotheses
 - **Hidden Stairs in B1F NW**: Code check at (3, 1) showed no special tiles.
