@@ -20,9 +20,9 @@
 ## Current Plan
 1.  **Heal Garnet**: Done.
 - **Current Task**: Reach NW Stairs at B1F (3, 2).
-    - Status: Moving South from (19, 5) to loop around walls.
-    - Path: (19, 14) -> West to (7, 14) -> North to (7, 10) -> West through Gap (6, 10) -> North to (3, 2).
-    - Reason: Column 18 is walled off until Row 14. Column 6 is walled off except at Row 10.
+    - Status: Successfully bypassed Scientist Mitch. Now at (8, 16).
+    - Path: (8, 16) -> West to (3, 16) -> North to (3, 2).
+    - Reason: Column 3 offers a direct path North to the stairs.
     - Goal: Find Petrel at B2F (16, 4).
 - **Puzzle**:
     - Switch at B1F (19, 11) must be turned ON.
