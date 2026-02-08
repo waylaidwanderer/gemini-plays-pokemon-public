@@ -20,12 +20,9 @@
 1. Navigate B2F to NE Stairs (27, 2).
 2. Take Stairs to B1F (27, 2).
 3. Walk West on B1F to Murkrow (7, 2).
-- Navigation Logic (Turn 33937):
-    - Current Position: B1F (7, 1). Murkrow is at (7, 5).
-    - Blockage: Row 2 is a solid wall here. Cannot go South directly.
-    - Path:
-        1. Go East to Col 24 (East Corridor).
-        2. Go South to Row 16 (South Corridor).
-        3. Go West to Col 10 (Central Vertical Corridor).
-        4. Go North to Row 5.
-        5. Go West to Murkrow (7, 5).
+- Navigation Logic (Turn 33939):
+    - Problem: Target (22, 5) and Murkrow (22, 9) are in the "North Center" block (Cols 7-22, Rows 3-11).
+    - Obstacle: Row 12 appears solid, blocking South access. Cols 6/23 appear solid, blocking East/West access.
+    - Hypothesis: Entry is via the West Side.
+    - Plan: Attempt to cross "Fake Wall" at (6, 1) to enter West Side. Then check for Warps (e.g., (3, 6)) or other entries.
+    - Current Position: (24, 1). Goal: (5, 1).
