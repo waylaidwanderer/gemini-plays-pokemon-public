@@ -14,7 +14,7 @@
     - "RATICATE TAIL": Obtained (likely for Radio Tower, but noting it).
     - "HAIL GIOVANNI": Needed (from Murkrow).
 
-- Navigation: (15, 9) is a SOLID WALL. Backtracking to use Gap at (15, 13).
-- Plan: (16, 9) -> South to (16, 13) -> West to (15, 13).
-- Then West to (12, 13) -> South to (12, 16) -> West via Row 16 to bypass Scientist at (11, 15).
-- Goal: Reach Murkrow at (7, 2).
+- SW Section (Rows 12-17, Cols 0-14) is a Dead End. Row 11 is a solid wall.
+- Plan: Backtrack to Switch at (19, 11).
+- Action: Toggle Switch. Check if Shutter at (15, 10) opens OR Warp at (19, 12) activates.
+- Goal: Access NW Section to find Murkrow at (7, 2).
