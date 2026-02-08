@@ -35,6 +35,11 @@
     - Threat: Grunt at (22, 5) is close but hasn't engaged yet.
     - Next: Once security is down, move West to Murkrow (7, 2).
 - **Key Info**: Password "HAIL GIOVANNI" obtained from Murkrow (B2F 7,2).
-- **Issue**: Door at (23, 13) did not open on first attempt. Murkrow is NOT following and NOT at the door.
-- **Hypothesis**: Need to lead Murkrow to the door, or trigger it to fly there.
-- **Plan**: Interact with Door again. If failed, return to Murkrow at (7, 2).
+- **Issue**: Boss Door locked. Murkrow (Voice ID) is required AT the door.
+- **Current Status**: Murkrow is likely still at B2F (7, 2).
+- **Plan**: Return to Murkrow and lead/chase it to the Boss Door.
+- **Route**:
+    1. West to Gap (15, 13).
+    2. Enter Central Room.
+    3. Go North through Fake Wall (10, 9).
+    4. Go to Murkrow (7, 2).
