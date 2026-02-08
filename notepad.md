@@ -23,14 +23,12 @@
     -   **Jed's Warning**: "Warp panel up ahead" likely refers to (19, 12).
 
 ## Current Plan
-1.  **Descend Stairs at (7, 3)** to B1F (East Wing).
-2.  **Navigate B1F East**:
-    -   Check if Warp at (25, 2) is usable to return West.
-    -   If not, search East Wing for switches/paths to West Wing.
-    -   Re-investigate Murkrow at (22, 8).
-    -   Check Shutter at (15, 10) from East side.
-3.  **Find Switch** to open Shutter/Traps.
-4.  **Find Murkrow** for Voice ID.
+1.  **Investigate West Wing B1F**:
+    -   **Grunt at (2, 4)**: Check if he has new dialogue or is a battler.
+    -   **Statues**: Check for hidden switches on Persian statues (e.g. 6, 1).
+    -   **Murkrow (10, 4)**: Currently unresponsive. Needs a trigger.
+2.  **Find Switch** for Shutter/Traps (likely in West Wing since East was empty).
+3.  **Open Boss Door**: Needs Voice ID.
 
 ## Confirmed Dead Ends (Do Not Repeat)
 -   Passwords alone do not open Boss Door.
