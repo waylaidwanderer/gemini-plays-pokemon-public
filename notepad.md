@@ -2,10 +2,13 @@
 
 ## Objectives
 - **Primary**: Open Boss Door at B2F (23, 14). Requires **Voice ID**.
-- **Immediate**: Unlock/Activate Switch at B1F (19, 11). Status: "Turned off" (Unresponsive).
+- **Immediate**: Unlock/Activate Switch at B1F (19, 11). Status: "Turned off" (Unresponsive despite 2 statues active).
 
 ## Key Puzzles & Blockers
-1.  **The Switch (B1F 19, 11)**: CONFIRMED "Turned off" and inactive. Needs to be unlocked (likely by another secret switch).
+1.  **The Switch (B1F 19, 11)**: CONFIRMED "Turned off" and inactive. Needs to be unlocked.
+    -   **Statue 1 (6, 1)**: ACTIVE (Changed from "Shiny" to "Normal").
+    -   **Statue 2 (24, 6)**: ACTIVE (Changed from "Shiny" to "Normal").
+    -   **Result**: Main Switch still OFF. Missing something?
 2.  **The Shutter (B1F 15, 10)**: Closed. Separates East and West wings.
 3.  **The Murkrows**:
     -   **West Wing (10, 4)**: Perched on computer. Unresponsive to A-press/Bump from South/West/North.
