@@ -8,7 +8,7 @@
 - **B1F (Current Floor)**
   - **West Wing**: Stairs at (3, 14) -> B2F South-West.
   - **East Wing**: Accessed via Warp (5, 15) -> (25, 2). Stairs at (27, 2) -> Shop.
-  - **Switch**: (19, 11). ON = No Wild Encounters. OFF = Wild Encounters/Traps Active.
+  - **Switch**: (19, 11). Status: "Turned off" (Cannot toggle). Traps presumed ACTIVE.
 
 - **B2F (Below)**
   - **Boss Door**: (23, 14). Requires Passwords.
