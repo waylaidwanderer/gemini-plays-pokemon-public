@@ -22,6 +22,5 @@
 ## Current Task
 - **Murkrow Chase**:
   - Status: Door locked despite password. Murkrow presence required.
-  - Plan: Return to B2F West. Interact with Murkrow at (7, 2).
-  - Hypothesis: Must position at (7, 3) to speak, then immediately move to (8, 3) or similar to unblock path East.
+  - Plan: Flank Murkrow by moving to (5, 2) via Row 3. Push it East towards the Boss Door.
   - Passwords Known: "HAIL GIOVANNI" (Boss), "RATICATE TAIL", "SLOWPOKETAIL".
