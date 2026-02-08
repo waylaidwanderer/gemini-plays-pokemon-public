@@ -92,3 +92,7 @@
 - Status: Statue Switch 1 (6, 1) is ON (Checked previously).
 - Status: Statue Switch 2 (24, 6) is ON (Checked recently).
 - Action: Return to East Wing via Row 9 and toggle Main Switch at (19, 11).
+- Jed's Hint: "That thing on the floor up ahead is a warp panel."
+- Likely refers to (19, 12) (directly in front of him) or nearby.
+- Since Switch (19, 11) is OFF, the warp is likely inactive.
+- Plan: Ensure Statue (6, 1) is ON, then retry Main Switch (19, 11).
