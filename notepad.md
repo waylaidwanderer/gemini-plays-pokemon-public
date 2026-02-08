@@ -22,7 +22,7 @@
 ## Current Task
 - **Murkrow Chase**:
   - Status: Door locked despite password. Murkrow presence required.
-  - Plan: Murkrow confirmed at (22, 12). Player at (21, 12).
-  - Action: Interact from the West. Expecting it to flee South to the Boss Door.
-  - Note: Previous interaction attempt may have failed due to timing. Retrying.
+  - Plan: Murkrow at (22, 12). Player moving to (21, 12) to interact.
+  - Action: Interact from West side to push Murkrow East towards Boss Door.
+  - Note: Ensuring dialogue is fully advanced to trigger movement script.
   - Passwords Known: "HAIL GIOVANNI" (Boss), "RATICATE TAIL", "SLOWPOKETAIL".
