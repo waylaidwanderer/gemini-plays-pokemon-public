@@ -38,8 +38,9 @@
 - **Map Note**: (11, 4) is a solid computer. Murkrow is at (10, 4). Open tiles: (9, 4), (10, 3), (10, 5).
 - **Navigation Warning**: Scientist Jed is blocking (18, 12). BFS fails here. Must navigate around via (18, 13).
 - **Strategy Update**: Murkrow interaction at (10, 4) seems stuck or complete. Abandoning for now.
+- **Security Update**: Persian Statue at (6, 1) is inert ("It's a PERSIAN statue..."). No alarm triggered.
 - **Plan**:
-  1. Test security by walking past Persian Statue at (6, 1).
-  2. Proceed to B2F via (3, 14).
-  3. Check Boss Door at B2F (23, 14) again. Maybe the "Hail Giovanni" event was enough.
-  4. If door locked, check if Jed is there.
+  1. Navigate to B1F Stairs at (3, 14).
+  2. Go to B2F and interact with Boss Door at (23, 14).
+  3. Check if "Voice ID" is satisfied by previous events.
+  4. If locked, check for Jed or other triggers.
