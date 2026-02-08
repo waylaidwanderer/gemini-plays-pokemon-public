@@ -10,7 +10,7 @@
 3.  **The Murkrows**:
     -   **West Wing (10, 4)**: Perched on computer. Unresponsive to A-press/Bump from South/West. Checking North.
     -   **East Wing (22, 8)**: Perched on computer. Unresponsive (Checked from North).
-    -   *Hypothesis*: Need a trigger (Key Item? Trainer Battle?) to make them move/speak.
+    -   *Hypothesis*: The Murkrows (mimics) likely possess the **Voice ID** required for the Boss Door. Need to trigger them to speak.
 4.  **Boss Door (B2F 23, 14)**: Passwords entered, but needs Voice ID.
 
 ## Navigation & Map Data
