@@ -30,3 +30,8 @@
         3. Walk South to (24, 5).
         4. Interact with Statue at (24, 6).
     - Note: This path relies on the "Fake Wall" at B1F (6, 1) being passable (Confirmed).
+- Reflection (Turn 33955):
+    - Reached Persian Statue at B1F (24, 6) via North/East perimeter to avoid alarms.
+    - Action: Activating switch to disable security (hopefully).
+    - Threat: Grunt at (22, 5) is close but hasn't engaged yet.
+    - Next: Once security is down, move West to Murkrow (7, 2).
