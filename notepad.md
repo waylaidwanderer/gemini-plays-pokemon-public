@@ -54,3 +54,8 @@
 - **Shop Update**: Abandoned Secret Stairs at (3, 3) due to blockage.
 - **Goal**: Re-investigate B1F North-East Room via Stairs at (7, 3).
 - **Hypothesis**: The "Dead End" room contains a hidden switch or trigger I missed.
+
+[Turn 33384 Update]
+- Grunt at (2, 4) says: 'You'll just have to collect your courage and walk.'
+- This implies the traps might be unavoidable or disabled, OR I need to walk a specific path.
+- Checking Switch at (19, 11) now.
