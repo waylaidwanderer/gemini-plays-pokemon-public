@@ -15,7 +15,8 @@
     - "HAIL GIOVANNI": Needed (from Murkrow).
 
 ## Navigation Plan
-1.  Go from (27, 14) to (19, 12) (Central Connector).
-2.  Go West to (7, 2) to find Murkrow.
-3.  Chase Murkrow until it yields password.
-4.  Return to B2F Boss Door.
+1.  Take Stairs at (27, 2) to exit to Mahogany Shop.
+2.  Re-enter Hideout from Shop (Stairs at Shop 3, 3).
+3.  This lands us at B1F (7, 3), right next to Murkrow (7, 2).
+4.  Chase Murkrow for "HAIL GIOVANNI".
+5.  Return to Boss Door.
