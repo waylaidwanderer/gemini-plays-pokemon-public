@@ -14,7 +14,7 @@
     - "RATICATE TAIL": Obtained (likely for Radio Tower, but noting it).
     - "HAIL GIOVANNI": Needed (from Murkrow).
 
-- Navigation: Path to West Wing via Row 15 to bypass wall at (11, 13).
-- Route: (15, 13) -> West to (14, 13) -> South to (14, 15) -> West past Scientist (11, 15) to (7, 15) -> North to (7, 2).
-- Goal: Find Murkrow at (7, 2) to get "HAIL GIOVANNI".
-- Note: Removed TYPE_1fdc from walkable list.
+- Navigation: Row 11 West is blocked (Shutters/Walls).
+- Plan: Backtrack East to (15, 13), then North to (16, 9).
+- Then attempt to cross West through "Fake Wall" at (15, 9) to reach North West area.
+- Target: Murkrow at (7, 2).
