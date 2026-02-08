@@ -78,3 +78,5 @@
   1. Talk to Defeated Grunt at (22, 10).
   2. Check Crates at (27, 10).
   3. Exit to Shop and retry West Wing entrance (3, 3).
+- **Observation**: Grunt at (22, 10) seems unreachable or dialogue is identical to the Poster ("Exploit POKéMON...").
+- **Navigation**: Difficulty moving East from (21, 12). Attempting to navigate to Crates at (27, 10).
