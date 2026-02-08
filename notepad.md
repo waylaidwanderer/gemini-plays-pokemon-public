@@ -20,9 +20,9 @@
 ## Current Plan
 1.  **Heal Garnet**: Done.
 - **Current Task**: Reach NW Stairs at B1F (3, 2).
-    - Status: At (19, 7).
-    - Path: North to (19, 2) -> West to (10, 2) -> South to (10, 10) -> West to (3, 10) -> North to (3, 2).
-    - Reason: Crossing Col 18 at Row 3. Passing through Fake Wall at (10, 9).
+    - Status: Turned back at (19, 7) due to Wall at (19, 4).
+    - Path: (19, 7) -> South to (19, 14) -> West to (17, 14) -> North to (17, 2) -> West to (10, 2) -> South to (10, 9) (Fake Wall).
+    - Reason: Col 19 blocked North. Col 17 is the open corridor.
     - Goal: Find Petrel at B2F (16, 4).
 - **Puzzle**:
     - Switch at B1F (19, 11) must be turned ON.
