@@ -13,8 +13,8 @@
   - B2F Row 13: Open Gap at (15, 13).
 - **Secret Passage**: False Computer at B2F (19, 10) connects Central Room to North Corridor.
 - **B1F Navigation**:
-  - Row 1 Blocked at (6, 1) by Fake Wall.
-  - Murkrow is at (7, 2), East of the blockage. Accessible via NE Stairs.
+  - Row 1 at (6, 1) is a "Fake Wall" (Passable). Connects West and East wings.
+  - Murkrow was at (7, 2), now moving to Boss Door.
 
 ## Route
 1. Navigate B2F to NE Stairs (27, 2).
