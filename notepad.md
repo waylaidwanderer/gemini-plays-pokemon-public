@@ -36,5 +36,6 @@
 -   Warp at (25, 2) is one-way from West to East.
 -   Stairs at (27, 2) lead UP to Shop, not DOWN to B2F.
 -   Posters at (20, 11) have no hidden switches.
-- **Shop Update**: Secret Stairs revealed at (3, 3) in Shop (Triggered!).
-- **Goal**: Enter Secret Stairs at (3, 3) to reach B1F West Wing.
+- **Shop Update**: Abandoned Secret Stairs at (3, 3) due to blockage.
+- **Goal**: Re-investigate B1F North-East Room via Stairs at (7, 3).
+- **Hypothesis**: The "Dead End" room contains a hidden switch or trigger I missed.
