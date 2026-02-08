@@ -20,9 +20,9 @@
 ## Current Plan
 1.  **Heal Garnet**: Done.
 - **Current Task**: Reach NW Stairs at B1F (3, 2).
-    - Status: Navigating South Loop via Row 16.
-    - Path: (21, 14) -> West to (16, 14) -> South to (16, 16) -> West to (3, 16) -> North to (3, 2).
-    - Reason: Bypass center blockages and Scientist.
+    - Status: West Wing blocked at Row 11. Row 16 blocked by Shutter at (15, 16).
+    - Path: (8, 16) -> North to (8, 12) -> East to (17, 12) -> North to (17, 2) -> West to (3, 2).
+    - Reason: Row 12 is the only open crossing. Col 17 is the only open vertical path.
     - Goal: Find Petrel at B2F (16, 4).
 - **Puzzle**:
     - Switch at B1F (19, 11) must be turned ON.
