@@ -5,7 +5,7 @@
 - **Immediate**: Unlock/Activate Switch at B1F (19, 11). Status: "Turned off" (Unresponsive).
 
 ## Key Puzzles & Blockers
-1.  **The Switch (B1F 19, 11)**: Currently "Turned off". Cannot toggle. Likely controls the trap floor or the shutter.
+1.  **The Switch (B1F 19, 11)**: CONFIRMED "Turned off" and inactive. Needs to be unlocked (likely by another secret switch).
 2.  **The Shutter (B1F 15, 10)**: Closed. Separates East and West wings.
 3.  **The Murkrows**:
     -   **West Wing (10, 4)**: Perched on computer. Unresponsive to A-press/Bump from South/West/North.
