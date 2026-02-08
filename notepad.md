@@ -33,3 +33,5 @@
     -   Goal: Defeat him for Voice ID.
 4.  **Open Boss Door**:
     -   Location: B2F (23, 14).
+- Switch at (19, 11) seems to disable the adjacent warp at (19, 12).
+- Attempting to locate Murkrow at (7, 2) or head to Boss Door on B2F since I have already defeated Petrel (Turn 33634).
