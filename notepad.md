@@ -71,3 +71,5 @@
 - **Action**: Flanking East to bypass the shutter and reach Switch at (19, 11) / Jed at (18, 12).
 - **Goal**: Re-examine Switch. If it says "Turned off", determine if that means "Disabled" or "Currently Off".
 - **Hypothesis**: If Security is OFF, maybe traps are inert? Need to verify.
+- **Jed's Warning**: "That thing on the floor up ahead is a warp panel." Likely referring to the tile directly in front of the switch (19, 12) or the switch itself?
+- **Current Task**: Investigating "Team Rocket Oath" poster at (20, 11) for hidden switches.
