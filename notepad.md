@@ -20,12 +20,15 @@
 1. Navigate B2F to NE Stairs (27, 2).
 2. Take Stairs to B1F (27, 2).
 3. Walk West on B1F to Murkrow (7, 2).
-- Correction (Turn 33962): Hallucination detected. Murkrow is at B1F (7, 5), NOT (22, 9). Sprite at (22, 9) is a Grunt.
-- New Route:
-    1. Go North to Row 1.
-    2. Go West to Col 10 (Central Corridor).
-    3. Go South to Row 5.
-    4. Go West to Murkrow (7, 5).
+- Navigation Update (Turn 33963):
+    - Murkrow is at B1F (7, 5) in the isolated Central Block.
+    - Access Logic: B1F Central Block is walled off. Must access via stairs from B2F Central West.
+    - Plan:
+        1. Go West through Fake Wall (6, 1) to NW Stairs (3, 2).
+        2. Take Stairs to B2F (3, 2).
+        3. Navigate South on B2F to Row 14, East to Gap (15, 13).
+        4. Enter B2F Central Area, explore West to find stairs UP to B1F (7, 5).
+    - Current Position: B1F (10, 1).
 - Reflection (Turn 33955):
     - Reached Persian Statue at B1F (24, 6) via North/East perimeter to avoid alarms.
     - Action: Activating switch to disable security (hopefully).
