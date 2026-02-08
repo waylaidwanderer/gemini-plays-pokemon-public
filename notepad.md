@@ -18,7 +18,7 @@
 -   **B1F East Wing**: Accessed via Shop Stairs (27, 2) or Warp (5, 15) [ONE WAY]. Contains Switch (19, 11), Jed (18, 12), Murkrow (22, 8).
 -   **B2F**: Accessed via West Wing Stairs (3, 14). Contains Boss Door (23, 14).
 -   **Traps**:
-    -   **Warp Traps**: (12, 8), (19, 1). Send to start.
+    -   **Warp Traps**: (12, 8) [Active?], (19, 1) [Inert/Safe?].
     -   **Battle Traps**: Geodude/Voltorb/Koffing tiles on the floor.
     -   **Jed's Warning**: "Warp panel up ahead" likely refers to (19, 12).
 
