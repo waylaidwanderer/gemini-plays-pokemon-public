@@ -26,3 +26,4 @@
 - **Boss Door Update**: Passwords "RATICATE TAIL" and "HAIL GIOVANNI" are not enough. Requires **Voice ID**.
 - **Task**: Chasing Murkrow (Found at 22, 8). Need to lead it to... somewhere?
 - **Murkrow Interaction**: Direct A-presses and bumping failed. Using tools to verify interactability and exact location.
+- **Murkrow Location**: System tracker places sprite at B1F (7, 9) (West Wing).
