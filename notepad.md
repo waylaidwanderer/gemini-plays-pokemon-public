@@ -46,8 +46,9 @@
   4. If locked, check for Jed or other triggers.
 - **B2F Navigation**: Grunt at (21, 14) blocks direct path. Attempting to bypass via (21, 13).
 - **Correction**: Stairs at B1F (27, 2) lead UP to the Shop (3_48).
-- **Navigation Note**: East Wing Warp at (25, 2) might be one-way. Testing if it warps back to West Wing. If not, must exit via Shop and re-enter HQ.
-- **Goal**: Return to West Wing (B1F).
+- **Navigation Note**: East Wing Warp at (25, 2) is ONE-WAY from West Wing. Cannot return via warp.
+- **Route**: Exiting East Wing via Stairs (27, 2) to Shop (3_48). Will attempt to re-enter West Wing from Shop to reset position.
+- **Goal**: Return to West Wing (B1F) to check Grunt at (2, 4) and Switch at (19, 11).
 - **Murkrow Status**: Both B1F Murkrows (West & East) seem stuck.
 - **Hypothesis**: Need to trigger something else (Switch? Grunt?) to move them.
 - **Plan**:
