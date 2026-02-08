@@ -18,7 +18,7 @@
 
 - **Shop (Above)**
   - **Stairs**: (7, 3) connects to B1F East.
-  - **"Secret Stairs"**: Grunt mentioned them. Suspicious cabinet at (2, 2).
+  - **"Secret Stairs"**: Revealed after defeating Grunt. Location likely (2, 2).
 
 ## Failed Hypotheses
 - **Hidden Stairs in B1F NW**: Code check at (3, 1) showed no special tiles.
