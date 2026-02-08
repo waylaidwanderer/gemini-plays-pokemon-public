@@ -19,11 +19,12 @@
 
 ## Current Plan
 1.  **Heal Garnet**: Done.
-- **Current Task**: Reach NW Stairs at B1F (3, 2).
-    - Status: West Wing blocked at Row 11. Row 16 blocked by Shutter at (15, 16).
-    - Path: (8, 16) -> North to (8, 12) -> East to (17, 12) -> North to (17, 2) -> West to (3, 2).
-    - Reason: Row 12 is the only open crossing. Col 17 is the only open vertical path.
-    - Goal: Find Petrel at B2F (16, 4).
+- **Current Task**: Activate Switch at B1F (19, 11).
+    - Status: Approaching from North via Fake Computer at (19, 10).
+    - Plan: Stand at (19, 10), Face DOWN, Press A.
+    - Path: (17, 2) -> East to (19, 2) -> South to (19, 10).
+    - Reason: Switch likely controls Shutters at Row 10/11.
+    - Goal: Open path to NW Stairs.
 - **Puzzle**:
     - Switch at B1F (19, 11) must be turned ON.
     - Check if turning it ON opens shutters or enables warps.
