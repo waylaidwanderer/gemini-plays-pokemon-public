@@ -25,3 +25,4 @@
 4. Enter Passwords: "RATICATE TAIL" and "HAIL GIOVANNI".
 - **Boss Door Update**: Passwords "RATICATE TAIL" and "HAIL GIOVANNI" are not enough. Requires **Voice ID**.
 - **Task**: Chasing Murkrow (Found at 22, 8). Need to lead it to... somewhere?
+- **Murkrow Interaction**: Direct A-presses and bumping failed. Using tools to verify interactability and exact location.
