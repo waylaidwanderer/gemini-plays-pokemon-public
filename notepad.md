@@ -19,11 +19,12 @@
 
 ## Current Plan
 1.  **Heal Garnet**: Done.
-- **Current Task**: Enable Warps via Switch (19, 11).
-    - Status: At (17, 12). Blocked by Wall at (18, 12).
-    - Path: (17, 12) -> South to (17, 14) -> East to (21, 14) -> North to (21, 12) -> West to (19, 12).
-    - Plan: Turn Switch ON. Step on Warp at (19, 12).
-    - Goal: Warp to NW Section to find Petrel.
+- **Current Task**: Reach NW Stairs at B1F (3, 2).
+    - Status: Testing Switch/Warp at (19, 11)/(19, 12).
+    - Plan B (If Warp fails): Row 12 West Passage.
+    - Path: (19, 12) -> East to (21, 12) -> South to (21, 14) -> West to (17, 14) -> North to (17, 12) -> West along Row 12 to (3, 12) -> North to (3, 2).
+    - Insight: Row 12 appears to be a clear East-West corridor connecting East and West wings.
+    - Goal: Find Petrel at B2F (16, 4).
 - **Puzzle**:
     - Switch at B1F (19, 11) must be turned ON.
     - Check if turning it ON opens shutters or enables warps.
