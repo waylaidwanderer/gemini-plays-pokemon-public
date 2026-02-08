@@ -19,11 +19,11 @@
 
 ## Current Plan
 1.  **Heal Garnet**: Done.
-- **Current Task**: Activate Switch at B1F (19, 11).
-    - Status: En route to (19, 12).
-    - Reason: NW path (Col 3) blocked by Wall at Row 11. Shutter at (15, 10) closed.
-    - Plan: Stand at (19, 12), Face UP, Press A. Do NOT walk onto it.
-    - Expectation: Enable Warps (step on 19, 12) or Open Shutters.
+- **Current Task**: Reach NW Stairs at B1F (3, 2).
+    - Status: Navigating South Loop to bypass walls/shutters.
+    - Path: (19, 12) -> East to (21, 12) -> South to (21, 14) -> West to (7, 14) -> North to (7, 10) -> West to (3, 2).
+    - Reason: "Switch" at (19, 11) unresponsive. Direct paths blocked.
+    - Goal: Find Petrel at B2F (16, 4).
 - **Puzzle**:
     - Switch at B1F (19, 11) must be turned ON.
     - Check if turning it ON opens shutters or enables warps.
