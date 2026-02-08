@@ -23,3 +23,5 @@
 2. Navigate to B1F Stairs at (3, 14).
 3. Go to B2F and interact with Boss Door at (23, 14).
 4. Enter Passwords: "RATICATE TAIL" and "HAIL GIOVANNI".
+- **Boss Door Update**: Passwords "RATICATE TAIL" and "HAIL GIOVANNI" are not enough. Requires **Voice ID**.
+- **Task**: Find Murkrow on B1F to mimic Giovanni's voice.
