@@ -23,10 +23,14 @@
     -   **Jed's Warning**: "Warp panel up ahead" likely refers to (19, 12).
 
 ## Current Plan
-1.  **Enter Secret Stairs at (3, 3)** (Mahogany Shop).
-2.  **Explore New Area** (likely leads to behind the shutter or a new part of B1F).
-3.  **Find the second Murkrow** (likely in the newly accessible area).
-4.  **Find the Switch** for the trap floor/shutter.
+1.  **Descend Stairs at (7, 3)** to B1F (East Wing).
+2.  **Navigate B1F East**:
+    -   Check if Warp at (25, 2) is usable to return West.
+    -   If not, search East Wing for switches/paths to West Wing.
+    -   Re-investigate Murkrow at (22, 8).
+    -   Check Shutter at (15, 10) from East side.
+3.  **Find Switch** to open Shutter/Traps.
+4.  **Find Murkrow** for Voice ID.
 
 ## Confirmed Dead Ends (Do Not Repeat)
 -   Passwords alone do not open Boss Door.
