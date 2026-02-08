@@ -20,9 +20,9 @@
 ## Current Plan
 1.  **Heal Garnet**: Done.
 - **Current Task**: Reach NW Stairs at B1F (3, 2).
-    - Status: Passed fake computers at Col 19. Now at (19, 7).
-    - Path: (19, 7) -> West to (17, 7) -> North through Gap (17, 4) -> West to (10, 2) -> South to (10, 10) -> West to (3, 10) -> North to (3, 2).
-    - Reason: Navigating around walls at Row 4 and Row 11.
+    - Status: At (19, 7).
+    - Path: North to (19, 2) -> West to (10, 2) -> South to (10, 10) -> West to (3, 10) -> North to (3, 2).
+    - Reason: Crossing Col 18 at Row 3. Passing through Fake Wall at (10, 9).
     - Goal: Find Petrel at B2F (16, 4).
 - **Puzzle**:
     - Switch at B1F (19, 11) must be turned ON.
