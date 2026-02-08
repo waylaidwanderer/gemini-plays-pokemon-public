@@ -22,8 +22,8 @@
 ## Current Task
 - **Murkrow Chase**:
   - Status: Door locked despite password. Murkrow presence required.
-  - Observation: Murkrow confirmed at (21, 11). Player at (21, 12).
-  - Action: Interact from South (Up + A).
-  - Expectation: Bird should flee towards Boss Door (23, 14).
-  - Note: Previous "Warp Trap" at (19, 12) was a false alarm.
+  - Plan: Finishing 'Team Rocket Oath' dialogue.
+  - Critical: I am standing at (21, 12), which is Murkrow's ONLY exit from (21, 11).
+  - Action: Clear text, then immediately move East to (22, 12) to unblock the path.
+  - Expectation: Murkrow will flee South once the path is clear.
   - Passwords Known: "HAIL GIOVANNI" (Boss), "RATICATE TAIL", "SLOWPOKETAIL".
