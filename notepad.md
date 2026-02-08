@@ -21,3 +21,5 @@
 - Path to West Wing: Navigate via Row 16 to (1, 16), then North.
 - Scientist at (11, 15) blocks Row 15.
 - Murkrow is priority.
+- Reflection (Turn 33903): Reviewing progress. Found gap at (15, 12)/(15, 13) that connects SW Room to Central Area. This bypasses the locked shutters at Row 11.
+- Plan: Cross gap to Central Area -> Go North to Secret Passage at (19, 10) -> Access West Wing North.
