@@ -14,14 +14,10 @@
     - "RATICATE TAIL": Obtained (likely for Radio Tower, but noting it).
     - "HAIL GIOVANNI": Needed (from Murkrow).
 
-- Pivot: Row 11 likely solid. Abandoning North Check.
-- New Plan:
-    1. Navigate to SE Stairs (27, 14) via Row 16 (Bypass Scientist).
-    2. Take stairs to B2F SE.
-    3. Traverse B2F to NW Stairs (3, 2).
-    4. Take stairs to B1F NW (3, 2).
-    5. Find Murkrow.
-- Current: Moving to Row 16 to bypass Grunt/Scientist.
+- Shutter at (15, 16) is LOCKED. Cannot bypass via Row 16 directly.
+- Pivot: Cross to East Wing via Gap at (15, 13).
+- Path: Go North to Row 13 -> East to Col 16 -> South to Row 16 -> East to SE Stairs (27, 14).
+- Goal: Reach B2F NW Stairs (3, 2) via B2F SE.
 - Reflection (Turn 33907): Currently on B1F (3_50) at (27, 2).
 - Mistake: Looped between floors. B1F = 3_50, B2F = 3_51.
 - Plan: Take stairs DOWN to B2F (3_51). Then navigate West to (3, 2).
