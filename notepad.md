@@ -19,11 +19,11 @@
 
 ## Current Plan
 1.  **Heal Garnet**: Done.
-- **Current Task**: Activate Switch at B1F (19, 11).
-    - Status: Access blocked from North by Computers at Row 4.
-    - Path: (19, 3) -> Left to (17, 3) -> South to (17, 14) -> East to (21, 14) -> North to (19, 12).
-    - Goal: Open Shutters/Enable Warps to reach NW Stairs (3, 2).
-    - Note: Must approach Switch (19, 11) from the South (19, 12).
+- **Current Task**: Reach NW Stairs at B1F (3, 2).
+    - Status: Switch at (19, 11) gave no feedback. Assuming failures.
+    - Path: (19, 11) -> South to (19, 14) -> West to (17, 14) -> North to (17, 2) -> West to (3, 2).
+    - Reason: Avoids shutters and computer walls.
+    - Goal: Find Petrel at B2F (16, 4).
 - **Puzzle**:
     - Switch at B1F (19, 11) must be turned ON.
     - Check if turning it ON opens shutters or enables warps.
