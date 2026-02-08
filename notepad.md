@@ -84,3 +84,6 @@
     3. Check if Warp at (25, 2) works in reverse.
     4. Verify if path to West Wing is truly blocked by Shutter at (15, 10).
 - **Goal**: Reach the "Trap Field" in West Wing to "collect courage and walk".
+- Warp at (25, 2) is ONE-WAY (Inbound only).
+- Currently trapped in East Wing.
+- Must return to Shop and force entry into "Secret Stairs" at (3, 3) to reach West Wing.
