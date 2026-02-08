@@ -14,8 +14,9 @@
     - "RATICATE TAIL": Obtained (likely for Radio Tower, but noting it).
     - "HAIL GIOVANNI": Needed (from Murkrow).
 
-- Password "SLOWPOKETAIL" obtained.
-- Strategy: Systematically activate switches at (20, 11), (21, 11), and (22, 11).
-- Assumption: One of these controls the Shutters at (15, 10) / (15, 11).
-- After toggling, navigate to (15, 10) via (19, 12) to verify passage.
-- Goal: Reach Murkrow at (7, 2).
+- Computers at Row 10 are solid obstacles (interactable from Row 11).
+- Checked computers at (20, 10), (21, 10), (22, 10) - No obvious reaction.
+- Scientist Ross blocks access to computer at (23, 10).
+- Plan: Check if Shutters at (15, 10)/(15, 11) are already open.
+- Navigation: Go to (16, 11) to inspect shutters.
+- If closed, investigate how to move Scientist or find another switch.
