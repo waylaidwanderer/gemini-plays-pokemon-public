@@ -34,5 +34,7 @@
 -   Warp at (25, 2) is one-way from West to East.
 -   Stairs at (27, 2) lead UP to Shop, not DOWN to B2F.
 -   Posters at (20, 11) have no hidden switches.
-- **Action**: Returning to Shop (3, 3).
-- **Hypothesis**: The entrance to the West Wing is hidden under the cabinet at (3, 0) or simply at (3, 3). If stairs are missing, I must re-trigger the secret mechanism (likely interact with the cabinet or a switch).
+- **Shop Update**: Cabinet at (3, 0) is unresponsive. Stairs to West Wing are not visible.
+- **Hypothesis**: The entrance might be closed or I need to re-trigger something.
+- **Action**: Checking Defeated Grunt at (4, 3) for clues.
+- **Alternative**: Investigating the Radio at (0, 1).
