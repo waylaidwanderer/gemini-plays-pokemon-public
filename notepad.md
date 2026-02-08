@@ -20,9 +20,12 @@
 1. Navigate B2F to NE Stairs (27, 2).
 2. Take Stairs to B1F (27, 2).
 3. Walk West on B1F to Murkrow (7, 2).
-- Navigation Logic (Turn 33940):
-    - Success: Crossed "Fake Wall" at (6, 1). Now in NW Corner of B1F.
-    - Observation: Area is isolated. Cannot reach Murkrow (7, 5) directly from here due to walls.
-    - Plan: Take Stairs at (3, 2) down to B2F West Wing. Explore South to find stairs leading back up to Murkrow's area.
-    - Current Position: (5, 1). Goal: Stairs at (3, 2).
-    - Grunt at (4, 1) might trigger battle.
+- Navigation Logic (Turn 33941):
+    - Arrived at B2F West Wing via Stairs at (3, 2).
+    - Objective: Find path to Murkrow (B1F (7, 2)).
+    - Options:
+        1. Stairs at B2F (3, 6). Likely leads to B1F.
+        2. Gap at B2F (6, 10). Leads to Central B2F.
+    - Plan: Investigate Stairs at (3, 6).
+    - Observation: Sprite at B2F (7, 2) (visible through wall). Likely a Grunt.
+    - Murkrow Status: Last seen B1F (7, 2).
