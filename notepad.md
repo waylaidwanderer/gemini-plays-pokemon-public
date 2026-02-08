@@ -22,5 +22,5 @@
 ## Current Task
 - **Murkrow Chase**:
   - Status: Door locked despite password. Murkrow presence required.
-  - Plan: Murkrow likely moved to the final position near the Boss Door (approx 23, 14). Navigating to (22, 13) to check the door and find the bird.
+  - Plan: Murkrow found at (20, 13). Flanking to (19, 13) (West) to push it East towards the Boss Door (23, 14).
   - Passwords Known: "HAIL GIOVANNI" (Boss), "RATICATE TAIL", "SLOWPOKETAIL".
