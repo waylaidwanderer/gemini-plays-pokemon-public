@@ -35,8 +35,7 @@
     - Threat: Grunt at (22, 5) is close but hasn't engaged yet.
     - Next: Once security is down, move West to Murkrow (7, 2).
 - Password Obtained: "HAIL GIOVANNI" (from Murkrow at B2F (7, 2)).
-- Status: On B2F (East Wing).
-- Current Position: (27, 2).
-- Goal: Boss Door at (23, 14).
-- Route: Go South down the East Corridor to Row 14, then West to (23, 14).
+- Status: Accidentally warped to B1F SE (27, 14).
+- Action: Return to B2F immediately.
+- Route: Take stairs back down. Then West to Boss Door at B2F (23, 14).
 - Password: "HAIL GIOVANNI" (Ready).
