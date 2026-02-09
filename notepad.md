@@ -15,8 +15,9 @@
 ## Current Task
 - **Trigger Voice Lock**:
   # Murkrow Puzzle (B2F)
-- **Status**: Murkrow CONFIRMED at (22, 13) (Floor). Me at (22, 14).
-- **Rival**: Silver at (21, 13).
-- **Action**: Face Up and Interact.
-- **Goal**: Get "HAIL GIOVANNI".
-- **Contingency**: If this fails, move Down to (22, 15) to pull Murkrow to (22, 14).
+- **Status**: Murkrow at (22, 13). Me at (22, 14).
+- **Insight**: Murkrow needs to be ADJACENT to the Boss Door at (23, 14).
+- **Action**: Move Down to (22, 15).
+- **Effect**: Murkrow mimics Down to (22, 14).
+- **Result**: Murkrow is at (22, 14), adjacent to Door (23, 14).
+- **Next**: Inspect Door or Talk to Murkrow.
