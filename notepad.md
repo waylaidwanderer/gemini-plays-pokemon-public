@@ -22,8 +22,7 @@
 ## Current Task
 - **Murkrow Chase**:
   - Status: Door locked despite password. Murkrow presence required.
-  - Observation: Murkrow is cornered at (22, 10). I am blocking the only exit at (22, 11).
-  - Action: Pressing 'A' to interact.
-  - Prediction: It will either fly over me/walls or require me to move aside.
-  - Reflection: Verify visual position (22, 10) before every action to avoid "vanished" hallucinations.
+  - Observation: Murkrow at (22, 10). Player at (22, 11). Previous interaction may have failed.
+  - Action: Explicitly facing North (Up) and pressing A to trigger the "flee" script.
+  - Plan: Once interaction is confirmed (text or sound), immediately move Left to (21, 11) to unblock the path South.
   - Passwords Known: "HAIL GIOVANNI" (Boss), "RATICATE TAIL", "SLOWPOKETAIL".
