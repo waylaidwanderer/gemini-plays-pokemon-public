@@ -11,11 +11,9 @@
 
 ## Current State
 - Map: B1F (3_50).
-- Player: (27, 14).
-- Status: Reached South B1F via B2F Loop.
-- Objective: Engage Grunts in this sector.
-- Targets:
-  1. Grunt at (25, 13).
-  2. Grunt at (22, 9).
-  3. Grunt at (22, 5).
-- Plan: Defeat them all and check for switches/keys.
+- Player: (25, 14).
+- Status: Engaging Grunt at (25, 13).
+- Plan:
+  1. Defeat Grunt at (25, 13).
+  2. Check for switches/keys.
+  3. Move West to engage Grunt at (21, 14).
