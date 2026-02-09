@@ -21,8 +21,7 @@
 
 ## Current Task
 - **Murkrow Chase**:
-  - Status: FOUND at (15, 10) (Blocking Shutter).
-  - Action: Interacting from (15, 11).
-  - Expectation: Murkrow flies to Boss Door (22, 14) or opens Shutter.
+  - Status: FOUND at (15, 10). Interacting from South (15, 11).
+  - Expectation: Murkrow flees to Boss Door (22, 14).
   - Note: This is the second location found.
   - Passwords: "HAIL GIOVANNI", "RATICATE TAIL", "SLOWPOKETAIL".
