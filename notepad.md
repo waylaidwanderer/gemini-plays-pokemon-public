@@ -12,11 +12,14 @@
 
 ## Current State
 - Map: B1F (3_49).
-- Player: (25, 3).
-- Status: Activated Switch at (24, 1). Trapped in NE Corner.
-- Goal: Escape NE Corner via secret passage in Row 4.
-- Hypothesis: Computer at (21, 4) is fake.
-- Plan: Move to (21, 3) and attempt to walk South.
+- Player: (19, 3).
+- Status: Successfully moved West from NE corner.
+- Goal: Reach NW Corner (3, 2) to check if stairs opened.
+- Path:
+  1. Move West to (9, 3).
+  2. Move Down through gap at (9, 4) to (9, 6).
+  3. Move Left/Up to (3, 2).
+  4. Check for Stairs.
 
 ## Murkrow Status
 - Missing. Presumed at Start Area (7, 2) on B2F.
