@@ -22,8 +22,8 @@
 ## Current Task
 - **Murkrow Chase**:
   - Status: Door locked despite password. Murkrow presence required.
-  - Observation: Murkrow at (22, 10). Player moving to (22, 12) (South).
-  - Hypothesis: Chairs at (21, 11) are likely solid, preventing a direct left flank.
-  - Plan: Move South to (22, 12), then West to circle around the "Desk Island" via (19, X) to reach the North side (22, 9).
-  - Goal: Push Murkrow South from the North side.
+  - Observation: Murkrow at (22, 10). Interaction from South (22, 11) failed.
+  - Plan: Flank to North side (22, 9) via the "Fake Computer" passage at (19, 10).
+  - Action: Moving West to (19, 12) to access the passage.
+  - Obstacle: Desk barrier at Row 10-11 blocks direct North movement.
   - Passwords Known: "HAIL GIOVANNI" (Boss), "RATICATE TAIL", "SLOWPOKETAIL".
