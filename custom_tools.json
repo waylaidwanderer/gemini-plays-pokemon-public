@@ -509,30 +509,5 @@
         "action_counter": 32291
       }
     ]
-  },
-  "escape_rope_dig": {
-    "description": "Use the move Dig from the party menu to escape the dungeon.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "autopress_buttons": {
-          "type": "boolean",
-          "default": false
-        }
-      }
-    },
-    "python_script": "def run(input_data):\n    # Updated sequence for Gen 2\n    # Start -> Down (Pokemon) -> A -> A (Lead Mon) -> Down x3 (Dig) -> A\n    # Timings added for reliability\n    return [\n        \"Start\", \"sleep 500\",\n        \"Down\", \"sleep 200\",\n        \"A\", \"sleep 500\",\n        \"A\", \"sleep 500\",\n        \"Down\", \"sleep 200\",\n        \"Down\", \"sleep 200\",\n        \"Down\", \"sleep 200\",\n        \"A\"\n    ]",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-02-09T05:27:04.693Z",
-        "action_counter": 34561
-      },
-      {
-        "commit_message": "Fixed button sequence for Gen 2 menu navigation: Start -> Down (Pokemon) -> A -> A (Lead) -> Down x3 (Dig) -> A.",
-        "timestamp": "2026-02-09T05:29:28.363Z",
-        "action_counter": 34565
-      }
-    ]
   }
 }
