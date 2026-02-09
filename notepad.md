@@ -12,16 +12,16 @@
 
 ## Current State
 - Map: B1F (3_49).
-- Player: (4, 2).
-- Goal: Find stairs to B2F (Start Area).
-- Investigation:
-  - Statue at (6, 1) has "shiny eyes" (Switch).
-  - Previous log claims "fake wall" at (6, 1).
-  - Stairs supposedly at (3, 2), but not visible.
+- Player: (3, 2).
+- Issue: Stairs at (3, 2) are MISSING (Hidden?).
+- Failed Solution: Statue at (6, 1) did not activate (or I messed up).
+- Plan: Use Warp at (5, 15) to reach East Side -> Activate Switch / Use Stairs at (27, 14).
 
 ## Strategy: Search & Rescue
 - **Sequence**:
-  1. Move to (6, 2).
-  2. Interact with Statue (6, 1) -> Press A to confirm switch.
-  3. Walk Left to scan (1, 1) to (4, 2) for hidden stairs.
-  4. If fail, head to Computer Room (19, 11).
+  1. Navigate to Warp at (5, 15) (Avoid traps at Row 8).
+  2. Warp to (25, 2).
+  3. Check Persian Statue at (24, 6) for Switch.
+  4. If Switch found -> Return to (3, 2) to check stairs.
+  5. If no Switch -> Use Stairs at (27, 14) to B2F.
+  6. Traverse B2F to (7, 2) to find Murkrow.
