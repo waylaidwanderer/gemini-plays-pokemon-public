@@ -12,8 +12,11 @@
 ## Current State
 - Map: B1F (3_50).
 - Player: (6, 13).
-- Status: Entering B1F NE Room via Gap at (24, 2).
-- Action: Move Right to (24, 1), then Down into the room.
-- Objective: Confront Grunt at (22, 5) and search for switch.
-- Observation: Computers at 21-23 were solid, but (24, 2) is a walkable tile.
-- Murkrow Status: Waiting at B2F (14, 10).
+- Status: Exploring B1F NE Room (Cols 24-28).
+- Action: Inspect wall at (23, 5).
+- Observation: Wall at (23, 4) was inert.
+- Plan:
+  1. Check (23, 5).
+  2. Move to Gap at (28, 6) to access South area (Row 9).
+  3. Circle around to reach Grunt at (22, 5) or find Switch.
+- Note: Grunt at (22, 5) is behind a wall at Col 23.
