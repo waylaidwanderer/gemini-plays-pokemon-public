@@ -13,9 +13,11 @@
 - Map: B1F (3_50).
 - Player: (20, 14).
 - Status: Moving to SE Stairs (27, 14).
-- Plan:
-  1. Clear dialogue.
-  2. Move South to Row 16 (Corridor).
-  3. Move East to Column 27.
-  4. Move North to SE Stairs (27, 14).
-  5. Take Stairs to B2F -> Loop to NE Stairs.
+- Insight: Grunts in SW sector (21, 14) and SE sector (25, 13) provided no info/keys.
+- Target: Grunt at (22, 5) in Central Sector.
+- Route:
+  1. Go to SE Stairs (27, 14).
+  2. Take Stairs to B2F (27, 14).
+  3. B2F: Go North via East Corridor to NE Stairs (27, 2).
+  4. Take Stairs to B1F (27, 2).
+  5. B1F: Go West to Col 19 -> South to (22, 5).
