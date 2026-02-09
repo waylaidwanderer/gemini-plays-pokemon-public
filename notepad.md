@@ -16,10 +16,9 @@
 - **Trigger Voice Lock**:
   # Murkrow Puzzle (B2F)
 - **Status**: Me at (20, 13). Murkrow at (20, 12) (Desk).
-- **Reasoning**: Previous Up move pushed Murkrow onto the desk. Interaction likely failed due to wall/desk collision logic.
-- **Action**: Move Down to (20, 14).
-- **Goal**: Pull Murkrow to (20, 13) (Floor).
+- **Strategy**: Herd Murkrow to the Boss Door at (22, 14) / (23, 14).
 - **Plan**:
-  1. Move Down.
-  2. Face Up.
-  3. Talk to Murkrow.
+  1. Move Right to (22, 13). (Murkrow -> 22, 12).
+  2. Move Down to (22, 15). (Murkrow -> 22, 14).
+  3. Murkrow will be adjacent to door. Interact.
+- **Action**: Move Right x2.
