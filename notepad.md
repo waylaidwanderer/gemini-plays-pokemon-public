@@ -21,8 +21,10 @@
 
 ## Current Task
 - **Murkrow Chase**:
-  - Status: FOUND! Standing at (22, 10). I am at (22, 11).
-  - Plan: Interact (Press A).
-  - Expectation: It will shout "Hail Giovanni" and flee to the Boss Door.
-  - Note: Boss Door is South at (22, 14).
+  - Status: FOUND at (22, 10) (On Wall).
+  - Observation: Interaction from South (22, 11) failed or I missed it.
+  - Strategy: Flank to (22, 9) to interact from the North.
+  - Logic: Push bird SOUTH towards the Boss Door.
+  - Route: Loop West -> North -> East to reach (22, 9).
+  - Note: Avoid Scientist Jed at (18, 12).
   - Passwords Known: "HAIL GIOVANNI" (Boss), "RATICATE TAIL", "SLOWPOKETAIL".
