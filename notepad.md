@@ -15,12 +15,12 @@
 ## Current Task
 - **Trigger Voice Lock**:
   # Murkrow Puzzle (B2F)
-- **Status**: Interacting with Rival Silver at (21, 12).
-- **Action**: Advance Dialogue.
-- **Reasoning**: Silver is blocking the path. Must clear his event to proceed with Murkrow.
-- **Hypothesis**: Murkrow location is ambiguous due to mimicry and walls. Silver leaving might declutter the area.
-- **Plan**:
-  1. Finish conversation with Silver.
-  2. Wait for Silver to exit.
-  3. Locate Murkrow (likely at 21, 12, 21, 13, or 22, 13).
-  4. Resume herding.
+- **Status**: Me at (21, 13). Murkrow at (21, 12).
+- **Strategy**: Desync X to push Murkrow onto Door Tile (23, 14).
+- **Step 1**: Move Right to (22, 13). (Murkrow -> 22, 12).
+- **Step 2**: Move Right (Blocked by Wall). (Murkrow -> 23, 12 Wall).
+- **Step 3**: Move Left to (21, 13). (Murkrow -> 22, 12).
+- **Step 4**: Move Down (Blocked by Grunt). (Murkrow -> 22, 13 Floor).
+- **Step 5**: Move Right to (22, 13). (Murkrow -> 23, 13 Wall).
+- **Step 6**: Move Down to (22, 14). (Murkrow -> 23, 14 Door).
+- **Step 7**: Interact with Door.
