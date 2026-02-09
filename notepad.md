@@ -11,11 +11,10 @@
 
 ## Current State
 - Map: B1F (3_50).
-- Player: (24, 13).
-- Status: Navigating West along South Corridor.
-- Reason: North path blocked by walls/doors at (23, 13/14).
+- Player: (6, 13).
+- Status: Entering Central Room via SW Gap.
+- Objective: Reach Grunt at (22, 5).
 - Route:
-  1. Move Down to Row 16 (Corridor).
-  2. Move West to Column 6.
-  3. Move North to Gap at (6, 13).
-  4. Enter Central Room.
+  1. Move East into the room.
+  2. Navigate North-East to (22, 5).
+  3. Prepare for potential battle with Grunt at (7, 9).
