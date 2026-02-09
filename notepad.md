@@ -9,17 +9,17 @@
 - **Murkrow**: (22, 12).
 - **Door**: (23, 14).
 
-## Strategy: The Ultimate Murkrow Solution
-- **Logic**: Use X-Block (Computer) then Y-Block (Grunt/Wall) to position M at (22, 14).
-- **Current**: P(21, 13), M(21, 12).
+## Strategy: The Murkrow Protocol
+- **Goal**: P(22, 13), M(22, 14). Interact Down.
 - **Phase 1: X-Desync**
   1. `Right` -> P(22, 13), M(22, 12).
   2. `Up` x2 -> P(22, 11), M(22, 10).
-  3. `Left` -> P(21, 11). M(22, 10) (Blocked by Computer 21, 10).
-- **Phase 2: Y-Desync (Grunt)**
-  4. `Up` x2 -> P(21, 9). M(22, 10) (Blocked by Grunt 22, 9).
+  3. `Left` -> P(21, 11). M Blocked at (21, 10). (M is now Right of P).
+- **Phase 2: Y-Shift (Player Block)**
+  4. `Down` x2 -> P(21, 13), M(22, 12).
+  5. `Down` (Blocked by Grunt) -> P(21, 13), M(22, 13).
+  6. `Down` (Blocked by Grunt) -> P(21, 13), M(22, 14).
 - **Phase 3: Docking**
-  5. `Down` x4 -> P(21, 13), M(22, 14).
-  6. `Down` -> P(21, 14). M(22, 14) (Blocked by Wall 22, 15).
-  7. Face Right, Interact.
-- **Action**: Execute Phase 1 (Right, Up, Up, Left).
+  7. `Right` -> P(22, 13). M Blocked by Door.
+  8. Face Down, Interact.
+- **Action**: Execute Step 1 (Right).
