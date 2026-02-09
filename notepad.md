@@ -11,18 +11,19 @@
   - M Blocked: Murkrow STAYS.
 
 ## Current State
-- Map: B2F (3_49).
-- Player: (3, 14).
-- Verified: B2F Wall at (3, 12) is SOLID.
-- Verified: B1F Switch at (6, 1) ALONE does not open the path.
-- Verified: Warp at (5, 15) is NOT functional or does not exist.
-- New Plan: Activate **BOTH** switches on B1F ((6, 1) West and (24, 1) East) in the same visit.
+- Map: B1F (3_50).
+- Player: (18, 15).
+- Objective: Reach SE Stairs at (27, 14) to bypass Boss Door or find alternate route.
+- Obstacle: Grunt at (21, 14) and potentially Gate/Wall at (23, 14).
+- Connectivity:
+  - Row 12 West (0-23) is SOLID WALL. Cannot go North from here.
+  - Row 12 East (24-29) is Walkable.
+  - Must cross at Row 14 (if possible) or loop via B2F to NW Stairs.
 - Action:
-  1. Navigate to (6, 1) (West Side) - requires walking around East side due to walls.
-  2. Activate/Check Switch at (6, 1).
-  3. Navigate to (24, 1) (East Side).
-  4. Activate Switch at (24, 1).
-  5. Check outcomes.
+  1. Approach Grunt at (21, 14).
+  2. Defeat Grunt.
+  3. Check passability of (23, 14).
+  4. If passable, proceed to SE Stairs. If not, backtrack to B2F.
 
 ## Murkrow Status
 - Missing. Presumed at Start Area (7, 2) on B2F.
