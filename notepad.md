@@ -7,21 +7,22 @@
 ## Mechanics (Verified)
 - **Mimicry**: Murkrow mimics player's relative movement vector.
 - **Collision**: 
-  - If Player is blocked, Murkrow [UNK]. (Testing this now).
-  - If Murkrow is blocked, Murkrow stays.
+  - If Player is blocked, Murkrow STAYS.
+  - If Murkrow is blocked, Murkrow STAYS.
   - Murkrow and Player cannot overlap.
 
-## Current State
-- **Player**: (22, 14).
-- **Murkrow**: (22, 13) (Visual Confirmation).
-- **Door**: (23, 14).
-- **Status**: Surrounded (Up: M, Down: Wall, Left: Grunt, Right: Door).
-
-## Strategy: The Grunt Slide Test
-- **Hypothesis**: If Player blocked by Grunt, Murkrow still mimics.
+## Strategy: The Validated Solution
+- **Goal**: Place M at (22, 14).
+- **Current**: P(22, 14), M(22, 13).
 - **Plan**:
-  1. Press `Left`. (Player Blocked by Grunt).
-  2. Check if Murkrow moves `Left` to (21, 13).
-  3. If yes, Murkrow is now at (21, 13).
-  4. If no, Murkrow is fixed.
-- **Action**: Press `Left`.
+  1. `Up` -> P(22, 13), M(22, 12).
+  2. `Left` -> P(21, 13), M(21, 12).
+  3. `Up` -> P(21, 12), M(21, 11).
+  4. `Right` -> P(22, 12), M(22, 11).
+  5. `Up` -> P(22, 11), M(22, 10).
+  6. `Left` -> P(21, 11). M Blocked at (21, 10). Stays (22, 10).
+  7. `Up` x2 -> P(21, 9). M Blocked at (22, 9). Stays (22, 10).
+  8. `Down` x4 -> P(21, 13), M(22, 14).
+  9. `Right` -> P(22, 13).
+  10. `Down`, `A`.
+- **Action**: Execute Steps 1-6 (Up, Left, Up, Right, Up, Left).
