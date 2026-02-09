@@ -22,8 +22,8 @@
 ## Current Task
 - **Murkrow Chase**:
   - Status: Door locked despite password. Murkrow presence required.
-  - Observation: Murkrow confirmed at (22, 10). North flank via secret passage failed (blocked).
-  - Action: Interacting (A) and Bumping (Up) Murkrow from (22, 11).
-  - Plan: After interaction, move South to (22, 12) to unblock the path in case it needs to flee South.
-  - Note: If this fails, I may need to verify if I'm "chasing" it correctly or if there's another trigger.
+  - Insight: The switch at (19, 11) likely controls the Locked Shutter at (15, 10), NOT the wall directly behind it.
+  - Plan: Turn the switch ON. Then navigate to (15, 10) to access the North Corridor.
+  - Goal: Flank Murkrow at (22, 10) from the North side (22, 9) to push it South.
+  - Current Action: Moving to (19, 12) to toggle the switch ON.
   - Passwords Known: "HAIL GIOVANNI" (Boss), "RATICATE TAIL", "SLOWPOKETAIL".
