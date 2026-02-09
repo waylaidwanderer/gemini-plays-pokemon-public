@@ -11,10 +11,11 @@
 
 ## Current State
 - Map: B1F (3_50).
-- Player: (27, 14).
-- Status: Arrived at B1F South-East.
-- Navigation Plan:
-  1. Move West along South Corridor (Row 14-16) to the South-West corner.
-  2. Locate entrance to Central Room (likely gap at 6, 13).
-  3. Enter Central Room and navigate North to Grunt at (22, 5).
-- Note: Gate at (3, 8) prevents going fully North to Row 1, so must enter Central Room from here.
+- Player: (24, 13).
+- Status: Navigating West along South Corridor.
+- Reason: North path blocked by walls/doors at (23, 13/14).
+- Route:
+  1. Move Down to Row 16 (Corridor).
+  2. Move West to Column 6.
+  3. Move North to Gap at (6, 13).
+  4. Enter Central Room.
