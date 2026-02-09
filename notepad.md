@@ -21,9 +21,9 @@
 
 ## Current Task
 - **Murkrow Chase**:
-  - Status: Murkrow lost, likely south of wall (22, 10).
-  - Strategy: Use Warp (25, 2) to reach SW area, then approach Boss Door from South.
-  - Route: East to (26, 7) -> North to (26, 2) -> West to (25, 2).
+  - Status: Murkrow lost/stuck. Warp (25, 2) is Exit Only.
+  - Strategy: Use stairs to reach South side (Boss Door area).
+  - Route: Stairs (27, 2) -> B1F (27, 2) -> Walk to B1F (27, 14) -> Stairs to B2F (27, 14).
   - Goal: Teleport to Northeast, then walk to (22, 9) to push Murkrow South.
   - Note: Scientist Jed mentioned the warp panel, confirming it's a key feature.
   - Passwords Known: "HAIL GIOVANNI" (Boss), "RATICATE TAIL", "SLOWPOKETAIL".
