@@ -22,7 +22,8 @@
 ## Current Task
 - **Murkrow Chase**:
   - Status: Door locked despite password. Murkrow presence required.
-  - Observation: Murkrow at (22, 10). Player at (22, 11). Previous interaction may have failed.
-  - Action: Explicitly facing North (Up) and pressing A to trigger the "flee" script.
-  - Plan: Once interaction is confirmed (text or sound), immediately move Left to (21, 11) to unblock the path South.
+  - Observation: Murkrow at (22, 10). Player moving to (22, 12) (South).
+  - Hypothesis: Chairs at (21, 11) are likely solid, preventing a direct left flank.
+  - Plan: Move South to (22, 12), then West to circle around the "Desk Island" via (19, X) to reach the North side (22, 9).
+  - Goal: Push Murkrow South from the North side.
   - Passwords Known: "HAIL GIOVANNI" (Boss), "RATICATE TAIL", "SLOWPOKETAIL".
