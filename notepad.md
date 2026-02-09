@@ -21,7 +21,8 @@
 
 ## Current Task
 - **Murkrow Chase**:
-  - Status: FOUND at (15, 10). Interacting from South (15, 11).
-  - Expectation: Murkrow flees to Boss Door (22, 14).
-  - Note: This is the second location found.
+  - Status: FOUND at (15, 10). Interacted.
+  - Issue: Bird didn't move. I might be blocking the path.
+  - Plan: Move Left to (14, 11).
+  - Expectation: Bird flies away (likely to Boss Door or Switch).
   - Passwords: "HAIL GIOVANNI", "RATICATE TAIL", "SLOWPOKETAIL".
