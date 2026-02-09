@@ -16,9 +16,9 @@
 - **Trigger Voice Lock**:
   # Murkrow Puzzle (B2F)
 - **Status**: Murkrow located at (22, 9) (per Mental Map).
-- **Current**: Me (20, 14) on Map 3_50.
-- **Observation**: Grunt at (21, 14) is passive/non-hostile.
+- **Current**: Me (22, 14) [Planned].
+- **Action**: Inspect Boss Door at (23, 14).
 - **Plan**:
-  1. Move Up to (20, 13) to bypass Grunt.
-  2. Move North to (22, 9).
-  3. Herd Murkrow to Boss Door (23, 14).
+  1. Bypass Grunt (Up, Right, Right, Down).
+  2. Inspect Door.
+  3. Go to (22, 9) (via Stairs if needed) to fetch Murkrow.
