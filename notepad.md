@@ -11,12 +11,15 @@
 - **Puzzle Status**: Murkrow is adjacent to me and near door.
 
 ## Current Task
-- **Resetting Puzzle**:
+- **Escaping the Trap**:
   # Murkrow Puzzle (B2F)
 - **Status**: Boxed in at (21, 13).
-- **Blockers**: Wall (Up), Divider (Left), Grunt (Down), Murkrow (Right).
-- **Action**: Use Dig to escape and reset.
+- **Critical Update**: Garnet DOES NOT have Dig. Escape Rope not in bag.
+- **Options**:
+  1. Try moving Left again (Visually looks clear, XML says floor, previous attempt failed but maybe glitch?).
+  2. Interact with Murkrow (Right).
+  3. Interact with Grunt (Down) repeatedly.
+  4. Search for hidden switch/item at (20, 13) or (21, 12).
 - **Plan**:
-  1. Close text box.
-  2. Use Dig from Party.
-  3. Re-enter base and try puzzle again with better positioning.
+  1. Face Right and Interact with Murkrow.
+  2. If nothing, Face Left and Inspect/Move.
