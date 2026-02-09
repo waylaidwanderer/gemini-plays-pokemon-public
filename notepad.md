@@ -15,8 +15,7 @@
 ## Current Task
 - **Trigger Voice Lock**:
   # Murkrow Puzzle (B2F)
-- **Status**: Murkrow at (22, 12). Me at (22, 13).
-- **Strategy**: Pin Murkrow against the North Wall at (22, 10) to talk to it.
-- **Action**: Move Up to (22, 12).
-- **Expectation**: Murkrow moves Up to (22, 11).
-- **Next**: Move Up again to pin it, then Talk.
+- **Status**: Murkrow pinned at (22, 11). Me at (22, 12).
+- **Action**: Interact with Murkrow.
+- **Reasoning**: Murkrow is trapped against the wall. Perfect time to talk.
+- **Goal**: Get Murkrow to shout "HAIL GIOVANNI".
