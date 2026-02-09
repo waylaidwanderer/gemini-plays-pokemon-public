@@ -13,15 +13,15 @@
 
 ## Current State
 - Map: B1F (3_50).
-- Player: (28, 9).
-- Status: Repositioning to Central Area.
+- Player: (3, 2).
+- Status: Navigating to B2F SW Stairs via B2F.
+- Goal: Reach Grunt at B1F (25, 13).
 - Route:
-  1. North to Row 1.
-  2. West to x=3 (West Room).
-  3. South to Row 13 (Gap at 6, 13).
-  4. East to Central Room.
-  5. North to Grunt at (22, 5).
-- Action: Navigate to West Room (3, 2).
+  1. Stairs (3, 2) -> B2F (3, 2).
+  2. South on B2F (avoiding 3, 6) to SW Stairs.
+  3. Stairs -> B1F (3, 14).
+  4. East on Row 16 to Col 25.
+  5. North to Grunt (25, 13).
 
 ## Murkrow Status
 - Reset to (7, 2) on B2F (assumed).
