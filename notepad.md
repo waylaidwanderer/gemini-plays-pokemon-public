@@ -21,9 +21,8 @@
 
 ## Current Task
 - **Murkrow Chase**:
-  - Status: FOUND at (22, 10).
-  - Action: Positioned at (22, 9) (North of bird).
-  - Plan: Interact (Down + A).
-  - Expectation: Bird flees South to the Boss Door.
-  - Backup: If it doesn't move, check if I need to defeat a specific trainer or find another switch.
+  - Status: Positioned North (22, 9). Interacting.
+  - Expectation: Murkrow flees South to (22, 14).
+  - Next Step: Follow Murkrow.
+  - Note: Murkrow mimics "Hail Giovanni" at the door.
   - Passwords: "HAIL GIOVANNI", "RATICATE TAIL", "SLOWPOKETAIL".
