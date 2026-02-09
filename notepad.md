@@ -12,11 +12,11 @@
 ## Current State
 - Map: B1F (3_50).
 - Player: (27, 2).
-- Status: Realization - North Approach is BLOCKED by Row 2 Computers.
-- Correction: Central Room MUST be entered from the SOUTH (Row 14).
-- Plan:
-  1. Return to B2F via Stairs (27, 2).
-  2. Traverse B2F East Corridor South to (27, 14).
-  3. Return to B1F via Stairs (27, 14).
-  4. Enter Central Room from South (approx 20, 14).
-  5. Go North to Grunt at (22, 5).
+- Status: Correcting path. North B1F blocked by Row 2 Computers. East B1F blocked by Row 10 Wall.
+- Solution: Must access Central Room via SW Entrance (6, 13).
+- Route:
+  1. Stairs to B2F (27, 2).
+  2. B2F: South to SE Stairs (27, 14).
+  3. B1F: South to Row 16 -> West to Column 6.
+  4. North to (6, 13) -> East into Central Room.
+  5. Navigate North to Grunt (22, 5).
