@@ -23,7 +23,7 @@
 - **Murkrow Chase**:
   - Status: Murkrow stuck at (22, 10). Shutter (15, 10) is locked.
   - Strategy: "Grand Flank" via Warp (5, 15).
-  - Route: West/North to (17, 11) -> West across Row 11 to (5, 11) -> South to Warp (5, 15).
+  - Route: East along Row 9 to (22, 9) to flank Murkrow from the North.
   - Goal: Teleport to Northeast, then walk to (22, 9) to push Murkrow South.
   - Note: Scientist Jed mentioned the warp panel, confirming it's a key feature.
   - Passwords Known: "HAIL GIOVANNI" (Boss), "RATICATE TAIL", "SLOWPOKETAIL".
