@@ -515,20 +515,6 @@
     "input_schema": {
       "type": "object",
       "properties": {
-        "player_start": {
-          "type": "array",
-          "items": {
-            "type": "integer"
-          },
-          "description": "Player starting [x, y]"
-        },
-        "murkrow_start": {
-          "type": "array",
-          "items": {
-            "type": "integer"
-          },
-          "description": "Murkrow starting [x, y]"
-        },
         "moves": {
           "type": "array",
           "items": {
@@ -539,22 +525,43 @@
               "Left",
               "Right"
             ]
-          },
-          "description": "Sequence of moves to simulate"
+          }
+        },
+        "murkrow_start": {
+          "type": "array",
+          "items": {
+            "type": "integer"
+          }
+        },
+        "player_start": {
+          "type": "array",
+          "items": {
+            "type": "integer"
+          }
+        },
+        "autopress_buttons": {
+          "type": "boolean",
+          "default": false
         }
       },
       "required": [
         "player_start",
         "murkrow_start",
-        "moves"
+        "moves",
+        "autopress_buttons"
       ]
     },
-    "python_script": "def simulate_murkrow(player_start, murkrow_start, moves):\n    px, py = player_start\n    mx, my = murkrow_start\n    \n    # Define Solids (Walls, Objects, NPCs) based on Mental Map & Observations\n    # 3_50 Map\n    solids = set()\n    \n    # Grunts\n    solids.add((21, 14)) # Grunt South\n    solids.add((22, 9))  # Grunt North\n    \n    # Computers (Row 10)\n    solids.add((20, 10))\n    solids.add((21, 10))\n    solids.add((26, 10)) # Maybe\n    \n    # Walls / Ledges / Doors\n    solids.add((23, 14)) # Boss Door\n    \n    # Right Wall (Column 23 seems solid based on observation)\n    for y in range(9, 16):\n        solids.add((23, y))\n        \n    # Left Bound (Area limit guess)\n    # Assuming Column 18 is open or wall? Map says 18 is floor.\n    # Let's assume boundaries 18-23, 9-15.\n    \n    path_log = []\n    \n    move_deltas = {\n        \"Up\": (0, -1),\n        \"Down\": (0, 1),\n        \"Left\": (-1, 0),\n        \"Right\": (1, 0)\n    }\n    \n    for move in moves:\n        dx, dy = move_deltas[move]\n        \n        # 1. Proposed New Positions\n        n_px, n_py = px + dx, py + dy\n        n_mx, n_my = mx + dx, my + dy\n        \n        # 2. Check Player Collision\n        p_blocked = False\n        if (n_px, n_py) in solids:\n            p_blocked = True\n            \n        # 3. Check Murkrow Collision\n        m_blocked = False\n        if (n_mx, n_my) in solids:\n            m_blocked = True\n            \n        # 4. Resolve Movement based on Rules\n        # Rule: If P is blocked, M stays.\n        # Rule: If M is blocked, M stays.\n        # Rule: No overlap? (Usually P cannot enter M's tile, effectively a block)\n        \n        final_px, final_py = px, py\n        final_mx, final_my = mx, my\n        \n        if p_blocked:\n            # P blocked -> M stays\n            pass \n        else:\n            # P moves\n            final_px, final_py = n_px, n_py\n            \n            if m_blocked:\n                # M blocked -> M stays\n                pass\n            else:\n                # M moves\n                final_mx, final_my = n_mx, n_my\n                \n        # 5. Check Mutual Collision (Overlap)\n        if (final_px, final_py) == (final_mx, final_my):\n            # Collision! P trying to walk into M?\n            # If M moved, they swapped? No, mimicry preserves relative pos unless desync.\n            # If M stayed (blocked) and P walked into M...\n            # P is blocked by M.\n            final_px, final_py = px, py\n            # If P blocked, M stays (even if it wasn't blocked by wall)\n            final_mx, final_my = mx, my\n            \n        px, py = final_px, final_py\n        mx, my = final_mx, final_my\n        \n        path_log.append({\n            \"move\": move,\n            \"player\": (px, py),\n            \"murkrow\": (mx, my)\n        })\n        \n    return path_log\n\n# Execute\nprint(simulate_murkrow(player_start, murkrow_start, moves))",
+    "python_script": "# injected variables [\"map_xml_string\", \"input_data\"]\nimport sys\nimport json\nimport xml.etree.ElementTree as ET\n\ndef get_map_grid(xml_string):\n    root = ET.fromstring(xml_string)\n    width = int(root.get(\"width\"))\n    height = int(root.get(\"height\"))\n    grid = {}\n    \n    # Define walkable types\n    # TYPE_3fe2: Floor, TYPE_1fdc: Floor/Carpet, TYPE_8564: Stairs/Mat\n    walkable_types = [\"TYPE_3fe2\", \"TYPE_1fdc\", \"TYPE_8564\"] \n    \n    for row in root.findall(\"Row\"):\n        y = int(row.get(\"id\"))\n        for tile in row.findall(\"Tile\"):\n            x = int(tile.get(\"id\"))\n            t_type = tile.get(\"type\")\n            \n            # Check markers for specific blockages\n            blocked = False\n            for marker in tile.findall(\"Marker\"):\n                label = marker.text.lower()\n                if \"locked\" in label or \"blocked\" in label or \"grunt\" in label or \"scientist\" in label or \"wall\" in label or \"inert\" in label:\n                    # Note: \"Inert\" computers might be walls. \n                    # If it's TYPE_2889 it's already unwalkable.\n                    pass\n            \n            # Basic walkability based on type\n            if t_type in walkable_types and not blocked:\n                grid[(x, y)] = True\n            else:\n                grid[(x, y)] = False\n    return grid, width, height\n\ntry:\n    if 'player_start' not in input_data or 'murkrow_start' not in input_data:\n        raise ValueError(\"Missing player_start or murkrow_start\")\n\n    player_pos = list(input_data['player_start'])\n    murkrow_pos = list(input_data['murkrow_start'])\n    moves = input_data['moves']\n    autopress = input_data.get('autopress_buttons', False)\n\n    grid, width, height = get_map_grid(map_xml_string)\n    \n    history = []\n    \n    for move in moves:\n        dx, dy = 0, 0\n        if move == \"Up\": dy = -1\n        elif move == \"Down\": dy = 1\n        elif move == \"Left\": dx = -1\n        elif move == \"Right\": dx = 1\n        \n        # Calculate Potential New Positions\n        p_new_x, p_new_y = player_pos[0] + dx, player_pos[1] + dy\n        m_new_x, m_new_y = murkrow_pos[0] + dx, murkrow_pos[1] + dy\n        \n        # Player Collision\n        if grid.get((p_new_x, p_new_y), False):\n            player_pos = [p_new_x, p_new_y]\n        \n        # Murkrow Collision\n        if grid.get((m_new_x, m_new_y), False):\n            murkrow_pos = [m_new_x, m_new_y]\n            \n        history.append({\n            \"move\": move,\n            \"player\": list(player_pos),\n            \"murkrow\": list(murkrow_pos)\n        })\n\n    result = {\n        \"final_player_pos\": player_pos,\n        \"final_murkrow_pos\": murkrow_pos,\n        \"history\": history\n    }\n    \n    if autopress:\n        # Return buttons to press\n        print(json.dumps(moves)) \n    else:\n        print(json.dumps(result))\n\nexcept Exception as e:\n    if input_data.get('autopress_buttons', False):\n        print(json.dumps([]))\n    else:\n        print(json.dumps({\"error\": str(e)}))",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2026-02-09T10:27:44.417Z",
         "action_counter": 34790
+      },
+      {
+        "commit_message": "Fixed NameError by ensuring variable extraction is robust and added missing commit message.",
+        "timestamp": "2026-02-09T23:31:22.351Z",
+        "action_counter": 35315
       }
     ]
   },
