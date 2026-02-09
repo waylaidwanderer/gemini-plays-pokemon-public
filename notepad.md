@@ -9,14 +9,12 @@
 - **Murkrow**: (22, 12).
 - **Door**: (23, 14).
 
-## Strategy: The Validated Slide (Reset & Setup)
-- **Goal**: Desync at P(21, 11), M(22, 10).
-- **Assumption**: P(22, 13), M(22, 12). (Or Reset to it).
+## Strategy: The Validated Slide (Final Push)
+- **Goal**: Slide M to (22, 14) and Interact.
+- **Current**: P(21, 11), M(22, 10).
 - **Sequence**:
-  0. `Down`, `Up` -> Ensure P(22, 13), M(22, 12).
-  1. `Left` -> P(21, 13), M(21, 12).
-  2. `Up` -> P(21, 12), M(21, 11).
-  3. `Right` -> P(22, 12), M(22, 11).
-  4. `Up` -> P(22, 11), M(22, 10).
-  5. `Left` -> P(21, 11). M Blocked at (21, 10). M Stays (22, 10).
+  1. `Down` x2 -> P(21, 13), M(22, 12).
+  2. `Down` x2 (P Blocked) -> P(21, 13), M(22, 14).
+  3. `Right` -> P(22, 13).
+  4. Face `Down`, `A`.
 - **Action**: Execute Sequence.
