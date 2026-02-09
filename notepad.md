@@ -15,10 +15,9 @@
 ## Current Task
 - **Trigger Voice Lock**:
   # Murkrow Puzzle (B2F)
-- **Status**: Murkrow located at (22, 13).
-- **Current**: Me (22, 14).
-- **Action**: Interact with Murkrow.
+- **Status**: Murkrow at (22, 12). Me at (22, 13).
+- **Observation**: Moving Up caused Murkrow to move Up. It mimics movement.
 - **Plan**:
-  1. Face Up (North).
-  2. Talk to Murkrow.
-  3. Enter Password if prompted.
+  1. Move Down to (22, 14). (Expect Murkrow to move Down to 22, 13).
+  2. Face Up and Talk to Murkrow.
+  3. Enter Password.
