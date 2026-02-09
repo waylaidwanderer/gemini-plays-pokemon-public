@@ -15,11 +15,12 @@
 ## Current Task
 - **Trigger Voice Lock**:
   # Murkrow Puzzle (B2F)
-- **Status**: Murkrow at (22, 13) (Floor). Me at (22, 14).
-- **Success**: Pulled Murkrow to floor!
-- **Action**: Face Up and Interact.
-- **Reasoning**: Murkrow is directly North. Move Up to bump/face, then Talk.
+- **Status**: Murkrow at (22, 13). Me at (22, 13) (Overlap?).
+- **Issue**: Interaction failed or Murkrow retreated to Wall (22, 12).
+- **Strategy**: Pull Murkrow South, then shift East to pin against Door column (Col 23).
 - **Plan**:
-  1. Press Up (Bump Murkrow).
-  2. Press A (Talk).
-  3. Get "HAIL GIOVANNI".
+  1. Move Down to (22, 14).
+  2. Move Down to (22, 15).
+  3. Move Down to (22, 16).
+  4. Move Right to (23, 16).
+  5. Move Up to pin Murkrow against Door.
