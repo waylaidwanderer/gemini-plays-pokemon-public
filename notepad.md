@@ -9,19 +9,16 @@
 - **Collision**:
   - P Blocked: Murkrow MOVES (Desync).
   - M Blocked: Murkrow STAYS.
+- **Behavior**: Murkrow may flee after reciting the oath? (Need verification).
 
 ## Current State
-- Player: (22, 14).
-- Murkrow: (21, 13).
-- Grunt: (21, 14) (Blocking).
+- Player: (21, 13).
+- Murkrow: **MISSING** (Not visible in room).
+- Door: Status Unknown (Check).
 
-## Strategy: Desync & Loop (Refined)
-- **Goal**: Move Murkrow to (22, 13) and Player to (22, 14).
+## Strategy: Recovery
+- **Goal**: Check Door, then Find Murkrow.
 - **Sequence**:
-  1. `Up` -> P(22,13), M(21,12).
-  2. `Left` -> P(21,13), M(20,12).
-  3. `Down` -> P Blocked (Grunt). M(20,13).
-  4. `Right` -> P(22,13), M(21,13).
-  5. `Down` -> P(22,14), M Blocked (Grunt). M(21,13).
-  6. `Right` -> P Blocked (Door). M(22,13).
-  7. Interact.
+  1. Move to (23, 14) (Boss Door).
+  2. Interact.
+  3. If locked, search for Murkrow (Likely reset to (7, 2) or nearby).
