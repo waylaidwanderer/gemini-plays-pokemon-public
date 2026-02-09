@@ -23,13 +23,13 @@
   4. Move Right to (21, 13) (Push Murkrow to 22,13).
   5. Talk to Murkrow.
 
-- Current: Me (19, 13), Murkrow (19, 12).
-- Goal: Move Murkrow to (22, 13).
-- Strategy:
-  1. Left to (18, 13). Murkrow -> Down to (19, 13).
-  2. Left to (17, 13). Murkrow -> Down (Blocked).
-  3. Up to (17, 12). Murkrow -> Right to (20, 13).
-  4. Up to (17, 11). Murkrow -> Right to (21, 13).
-  5. Check situation from (17, 11) with Murkrow at (21, 13).
+- Current: Me (18, 13), Murkrow (19, 12).
+- Hypothesis: Murkrow moves Parallel.
+- Observation: Moving Left to (18, 13) resulted in Murkrow staying at (19, 12) (Blocked by Jed at 18, 12).
+- Plan:
+  1. Left to (17, 13). (Murkrow attempts Left -> Blocked by Jed).
+  2. Up to (17, 12). (Murkrow attempts Up -> Blocked by Switch at 19, 11).
+  3. Down to (17, 13). (Murkrow moves Down -> 19, 13). (Y-Aligned!).
+  4. Right until (21, 13). (Murkrow gets pushed to Wall at 23, 13).
 
-- Action: Move Left to (18, 13).
+- Action: Move Left to (17, 13).
