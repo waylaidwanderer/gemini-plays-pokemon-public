@@ -12,9 +12,10 @@
 ## Current State
 - Map: B1F (3_50).
 - Player: (6, 13).
-- Status: Entering Central Room via SW Gap.
-- Objective: Reach Grunt at (22, 5).
+- Status: In Central Room B1F.
+- Objective: Clear Grunts in Central Room (21, 13), (25, 13), (22, 5).
 - Route:
-  1. Move East into the room.
-  2. Navigate North-East to (22, 5).
-  3. Prepare for potential battle with Grunt at (7, 9).
+  1. Defeat Grunt at (21, 13).
+  2. Defeat Grunt at (25, 13).
+  3. Navigate to (22, 5).
+- Note: Trap detected at (7, 5).
