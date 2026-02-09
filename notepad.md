@@ -12,12 +12,11 @@
 ## Current State
 - Map: B1F (3_50).
 - Player: (6, 13).
-- Status: Resuming Murkrow Puzzle on B2F.
-- Event: Accidentally warped to B1F (3, 6) during sequence.
-- Murkrow State: Likely moved Down x4 to (7, 6).
-- Action: Return to B2F immediately.
+- Status: Executing Murkrow Geometric Puzzle.
 - Plan:
-  1. Take stairs at (3, 6) back to B2F.
-  2. Verify Murkrow position (expecting 7, 6).
-  3. Continue guiding to Row 10/12 gap.
-- Note: Movement on B1F does not affect Murkrow on B2F.
+  1. Down x4 (Align Murkrow to Row 6).
+  2. Right x3 (Align Murkrow to Col 10).
+  3. Down x6 (Align Murkrow to Row 12).
+  4. Right x5 (Push Murkrow through gap at 15, 12).
+- Objective: Guide Murkrow to Boss Door at (23, 14).
+- Switch Status: Abandoned (Likely doesn't exist or is the Murkrow itself).
