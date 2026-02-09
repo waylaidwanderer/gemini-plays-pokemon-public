@@ -9,8 +9,8 @@
 - **Murkrow**: (22, 12).
 - **Door**: (23, 14).
 
-## Strategy: The Validated Slide
-- **Goal**: Place M at (22, 14) using Grunt (21, 14) and Computer (21, 10).
+## Strategy: The Validated Slide (Execution)
+- **Goal**: Place M at (22, 14).
 - **Current**: P(22, 13), M(22, 12).
 - **Phase 1: Setup**
   1. `Left` -> P(21, 13), M(21, 12).
@@ -20,7 +20,7 @@
 - **Phase 2: Desync**
   5. `Left` -> P(21, 11). M Blocked by Computer (21, 10). M Stays (22, 10).
 - **Phase 3: Slide**
-  6. `Down` x4 -> M moves to (22, 14). P stops at (21, 13) due to Grunt.
-  7. `Right` -> P(22, 13). M Stays (22, 14).
+  6. `Down` x4 -> M moves to (22, 14). P stops at (21, 13).
+  7. `Right` -> P(22, 13).
   8. Face Down, Interact.
 - **Action**: Execute Phase 1 (Left, Up, Right, Up).
