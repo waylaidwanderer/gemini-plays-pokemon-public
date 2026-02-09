@@ -12,9 +12,11 @@
 ## Current State
 - Map: B1F (3_50).
 - Player: (6, 13).
-- Status: Exploring North Central B2F (Search for Switch).
-- Action: Checking (12, 1).
-- Sequence: Dismiss text, Right x2 to (12, 2), Face Up, Inspect (12, 1).
-- Expected State: Player at (12, 2). Murkrow moves East.
-- Observation: Checking if (12, 1) contains a hidden switch for the shutters.
-- Murkrow Status: Moving with player. Likely in central corridor.
+- Status: Checking Bookshelf then relocating to Murkrow.
+- Action: Inspect (12, 1). If empty, attempt "Gap Strategy".
+- Gap Strategy:
+  1. Return to Murkrow.
+  2. Align Murkrow to Row 12/13.
+  3. Move East through gap at (15, 12) or (15, 13).
+- Note: Map data shows (15, 12) and (15, 13) are walkable tiles (TYPE_3fe2), bypassing the shutter.
+- Note: Current position (10, 2). Text box needs clearing.
