@@ -12,15 +12,14 @@
 ## Current State
 - Map: B1F (3_50).
 - Player: (6, 13).
-- Status: Relocating to South East B1F via B2F.
+- Status: Heading to B2F to access Central Room/Boss Door.
 - Route:
-  1. Navigate B2F to South East Stairs (27, 14).
-  2. Take stairs to B1F (27, 14).
-  3. Navigate West along B1F South corridor.
-  4. Enter Central Room via gap at (6, 13).
-- Note: Shutter at B2F (27, 13) may be locked, use Col 28.
-- Note: North West area (5, 1) is isolated.
-- Note: Boss Door is likely at B2F (23, 14).
+  1. Take Stairs at B1F (27, 14) to B2F.
+  2. Explore B2F for stairs leading UP to B1F Central Room.
+  3. Locate Murkrow if needed for Boss Door.
+- Note: B1F Central Room (North) seems inaccessible from B1F.
+- Note: Access via B2F stairs is a probable solution.
+- Note: Boss Door at B2F (23, 14).
 - Note: Boss Door is likely at B2F (23, 14).
 - Note: Current Map B1F (3_50).
 - Note: Murkrow last seen at B2F (7, 2).
