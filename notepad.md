@@ -23,13 +23,12 @@
   4. Move Right to (21, 13) (Push Murkrow to 22,13).
   5. Talk to Murkrow.
 
-- Current: Me (18, 13), Murkrow (19, 12).
-- Hypothesis: Murkrow moves Parallel.
-- Observation: Moving Left to (18, 13) resulted in Murkrow staying at (19, 12) (Blocked by Jed at 18, 12).
+- Current: Me (17, 13).
+- Status: Murkrow LOST.
+- Observation: Murkrow is NOT at (19, 12) as expected. It likely did not get blocked by Jed in the way I anticipated, or it moved unexpectedly.
 - Plan:
-  1. Left to (17, 13). (Murkrow attempts Left -> Blocked by Jed).
-  2. Up to (17, 12). (Murkrow attempts Up -> Blocked by Switch at 19, 11).
-  3. Down to (17, 13). (Murkrow moves Down -> 19, 13). (Y-Aligned!).
-  4. Right until (21, 13). (Murkrow gets pushed to Wall at 23, 13).
+  1. Move Right to (18, 13) to scan.
+  2. If not found, Move Right to (19, 13).
+  3. Search NE corner (22, 8) if East wing is empty.
 
-- Action: Move Left to (17, 13).
+- Action: Move Right to (18, 13).
