@@ -22,8 +22,8 @@
 ## Current Task
 - **Murkrow Chase**:
   - Status: Door locked despite password. Murkrow presence required.
-  - Observation: Found Murkrow at (22, 10)! I am at (22, 11).
-  - Action: Interacting from the South.
-  - Expectation: It should fly towards the Boss Door (23, 14).
-  - Previous Issue: I likely couldn't see it from (22, 13).
+  - Observation: Murkrow is cornered at (22, 10). I am blocking the only exit at (22, 11).
+  - Action: Pressing 'A' to interact.
+  - Prediction: It will either fly over me/walls or require me to move aside.
+  - Reflection: Verify visual position (22, 10) before every action to avoid "vanished" hallucinations.
   - Passwords Known: "HAIL GIOVANNI" (Boss), "RATICATE TAIL", "SLOWPOKETAIL".
