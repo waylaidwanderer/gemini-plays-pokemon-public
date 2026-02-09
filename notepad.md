@@ -12,11 +12,8 @@
 ## Current State
 - Map: B1F (3_50).
 - Player: (6, 13).
-- Status: Inspecting Row 2 Computers in B1F NE Corridor.
-- Action: Check computers at (21, 2), (22, 2), (23, 2) for hidden switches.
-- Sequence: Face South and interact at each tile.
-- Plan:
-  1. If switch found -> Activate and check B2F Shutter.
-  2. If no switch -> Continue East to end of corridor.
-  3. If dead end -> Re-evaluate (maybe switch is in the Grunt area, accessible via another path?).
+- Status: Entering B1F NE Room via Gap at (24, 2).
+- Action: Move Right to (24, 1), then Down into the room.
+- Objective: Confront Grunt at (22, 5) and search for switch.
+- Observation: Computers at 21-23 were solid, but (24, 2) is a walkable tile.
 - Murkrow Status: Waiting at B2F (14, 10).
