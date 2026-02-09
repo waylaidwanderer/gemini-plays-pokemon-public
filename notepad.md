@@ -12,14 +12,15 @@
 
 ## Current State
 - Map: B1F (3_49).
-- Player: (3, 3) (Corrected from hallucination).
-- Goal: Verify Statue at (6, 1).
-- Context: Previous attempts were plagued by position errors. Need to definitively check (6, 1).
+- Player: (6, 2).
+- Status: Dialogue "It's a PERSIAN statue..." implies switch state changed (no longer "shiny").
+- History: Log Turn 33940 claims (6, 1) is a FAKE WALL.
+- Goal: Test Fake Wall theory.
 - Plan:
-  1. Move to (6, 2).
-  2. Interact with (6, 1).
-  3. If Switch -> Activate.
-  4. If no Switch -> Plan path to East Side (24, 6).
+  1. Close text.
+  2. Move UP into (6, 1).
+  3. If successful, move LEFT to find hidden path.
+  4. If blocked, move South to (3, 14) stairs again (Type 8564).
 
 ## Murkrow Status
 - Missing. Presumed at Start Area (7, 2) on B2F.
