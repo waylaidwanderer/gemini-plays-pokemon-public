@@ -13,14 +13,13 @@
 ## Current State
 - Map: B1F (3_50).
 - Player: (25, 1).
-- Status: Engaging Grunt at (25, 13).
-- Observation: Computers and Statues checked (No reaction).
-- Hypothesis: Defeating Grunts might unlock the switches or provide a password.
+- Status: Navigating to South Grunt (25, 13).
+- Obstacle: Wall at Row 6 (Column 25 is blocked).
+- Solution: Gap exists at Column 28.
 - Plan:
-  1. Move South to (25, 12).
-  2. Defeat Grunt at (25, 13).
-  3. Check for switches/triggers in that area.
-  4. Move West to defeat the other Grunt at (22, 5) if needed.
+  1. Move East to Column 28.
+  2. Move South through gap at (28, 6).
+  3. Continue to (25, 12) to engage Grunt.
 
 ## Murkrow Status
 - Missing. Presumed at Start Area (7, 2) on B2F.
