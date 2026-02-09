@@ -11,12 +11,13 @@
 - **Puzzle Status**: Murkrow is at (22, 12). I am at (22, 13).
 
 ## Current Task
-- **Triggering Voice Lock**:
+- **Getting Password**:
   # Murkrow Puzzle (B2F)
-- **Status**: Me at (22, 14). Murkrow at (22, 13).
-- **Logic**: I am adjacent to the door (22, 14 -> 23, 14). Murkrow is nearby (22, 13).
-- **Action**: Face Up and Talk to Murkrow.
+- **Status**: Me at (22, 13). Murkrow at (22, 12).
+- **Correction**: Previous turn I was at (22, 13), not (22, 14). I faced the wall (23, 13) and pressed A. I did NOT check the door.
+- **Action**: Get Password from Murkrow first.
 - **Plan**:
   1. Press Up (Face Murkrow).
   2. Press A (Talk).
-  3. If "Hail Giovanni", Face Right and Press A (Open Door).
+  3. If "Hail Giovanni", I have the password.
+  4. THEN move Down to (22, 14) and Open Door.
