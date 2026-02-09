@@ -24,13 +24,12 @@
   5. Talk to Murkrow.
 
 - Current: Me (18, 13).
-- Status: Blocked to the Right.
-- Hypothesis: Murkrow is INVISIBLE at (19, 13).
-- Action: Press 'A' to interact with the invisible obstacle.
-- Strategy (If Murkrow is there):
-  - Move Down to (18, 14). (Murkrow -> 19, 14).
-  - Move Right to (19, 14). (Murkrow -> 20, 14).
-  - Move Up to (19, 13). (Murkrow -> 20, 13).
-  - Result: Murkrow shifted Right by 1. Repeat until at door.
+- Action: Move Right to (19, 13).
+- Observation: I previously hallucinated a blockage. Moving Right to scan for Murkrow.
+- Hypothesis: Murkrow might be at (19, 12).
+- Plan:
+  1. Move Right to (19, 13).
+  2. Look for Murkrow at (19, 12) or (20, 12).
+  3. If found, align Y by moving Down (forcing it to hit a wall or move into position).
 
-- Action: Press 'A'.
+- Goal: Locate Murkrow and herd to (22, 13).
