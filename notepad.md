@@ -15,11 +15,11 @@
 ## Current Task
 - **Trigger Voice Lock**:
   # Murkrow Puzzle (B2F)
-- **Status**: Murkrow NOT VISIBLE at (19, 12) or (20, 12). Me at (20, 13).
-- **Hypothesis**: Murkrow is overlapping with me at (20, 13) or lost.
-- **Action**: Move Right to (21, 13).
-- **Goal**: Check for separation or visibility.
+- **Status**: Murkrow NOT VISIBLE. Likely inside Wall at (21, 12).
+- **Current**: Me at (21, 13).
+- **Action**: Interact with Wall at (21, 12).
+- **Hypothesis**: Murkrow is stuck in the wall north of me.
 - **Plan**:
-  1. Move Right.
-  2. If Murkrow appears (e.g. at 20, 13 or 22, 13), react.
-  3. If still invisible, try to use walls to separate.
+  1. Face Up.
+  2. Press A to Talk.
+  3. If fail, move Right to (22, 13).
