@@ -13,7 +13,8 @@
 ## Current State
 - Map: B1F (3_50).
 - Player: (25, 1).
-- Status: Leaving East Switch (No interaction feedback observed).
+- Status: Navigating to B2F Murkrow Area.
+- Observation: East Switch (24/25, 0) had no effect/interaction.
 - Connectivity:
   - Gap at (23, 16) connects East and West sectors.
   - NW Stairs at (3, 2) lead to Murkrow's start area (B2F).
