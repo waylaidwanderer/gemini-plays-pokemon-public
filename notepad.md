@@ -15,10 +15,10 @@
 ## Current Task
 - **Trigger Voice Lock**:
   # Murkrow Puzzle (B2F)
-- **Status**: Murkrow and Player overlapping at (22, 13).
-- **Issue**: "Ghost Murkrow" glitch or overlapping sprites. Mimicry prevents separation.
-- **Action**: Move Left to (21, 13).
-- **Hypothesis**:
-  1. If Murkrow mimics, we overlap at (21, 13).
-  2. If Murkrow rotates/mirrors or is blocked, we separate.
-  3. Attempting to break the overlap to interact.
+- **Status**: Murkrow at (21, 12) (On Desk/Wall). Me at (21, 13).
+- **Observation**: I moved Left, Murkrow moved Left (Mimic confirmed).
+- **Action**: Face Up and Interact.
+- **Plan**:
+  1. Press Up to face Murkrow.
+  2. Press A to Talk.
+  3. Obtain "HAIL GIOVANNI".
