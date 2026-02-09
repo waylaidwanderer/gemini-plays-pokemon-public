@@ -14,11 +14,8 @@
 - Player: (3, 2).
 - Status: Navigating to Grunt at (22, 5).
 - Route:
-  1. North to Row 1.
-  2. East to Column 19 (Gap in Row 4 Wall).
-  3. South to Row 5.
-  4. East to (21, 5).
-  5. Defeat Grunt.
-
-## Murkrow Status
-- Reset to (7, 2) on B2F.
+  1. North to Row 1 -> East to (24, 1).
+  2. South to Row 16 -> West through Gap (23, 16).
+  3. North to Grunt at (22, 5).
+- Reason: Direct South blocked by Row 4 Wall. Direct East blocked by Row 2 Wall.
+- Action: Navigate to (24, 1).
