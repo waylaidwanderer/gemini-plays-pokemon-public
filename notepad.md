@@ -11,12 +11,11 @@
 
 ## Current State
 - Map: B1F (3_50).
-- Player: (4, 2).
-- Status: Finishing dialogue with Grunt (4, 1).
-- Insight: Grunt mentions "kid with red hair" (Silver).
+- Player: (9, 1).
+- Status: Navigating to Central Area.
+- Discovery: "Fake Wall" at (6, 1) confirmed passable.
 - Route:
-  1. Clear Dialogue (B/A).
-  2. Move Right to (5, 2).
-  3. Move Up to (5, 1).
-  4. Move Right through (6, 1) (Fake Wall).
-  5. Continue East to Central Area.
+  1. Move East to (19, 1).
+  2. Move South through gap at (19, 4).
+  3. Move East to Grunt at (22, 5).
+  4. Defeat Grunt and search for switches.
