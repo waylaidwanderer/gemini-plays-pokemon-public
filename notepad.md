@@ -9,13 +9,14 @@
 - **Murkrow**: (22, 12).
 - **Door**: (23, 14).
 
-## Strategy: The Scrape Solution
-- **Goal**: Place Murkrow at (22, 14) for interaction.
-- **Method**: X-Axis Scrape on Computer at (21, 10).
+## Strategy: The Shelf Scrape
+- **Goal**: Use Shelf at (20, 12) to desync M.
+- **Current**: P(22, 13), M(22, 12).
 - **Plan**:
-  1. `Up` x2 -> P(22, 11), M(22, 10).
-  2. `Left` -> P(21, 11). M(22, 10) (Blocked by Computer 21, 10).
-  3. `Down` x4 -> P(21, 15), M(22, 14).
-  4. `Right` -> P(22, 15). M(22, 14) (Blocked by Door).
-  5. Interact Up.
-- **Action**: Execute Step 1 (Up x2).
+  1. `Left` -> P(21, 13), M(21, 12).
+  2. `Left` -> P(20, 13). M(21, 12) (Blocked by Shelf 20, 12).
+  3. `Down` x2 -> P(20, 15), M(21, 14).
+  4. `Right` -> P(21, 15), M(22, 14).
+  5. `Right` -> P(22, 15), M(22, 14) (Blocked by Door).
+  6. Interact Up.
+- **Action**: Execute Step 1 (Left).
