@@ -22,9 +22,11 @@
 ## Current Task
 - **Murkrow Chase**:
   - Status: LOST.
-  - Observation: Murkrow is NOT at (19, 12).
-  - Correction: Tile (19, 11) appears to be a solid computer/switch (TYPE_2889), so Murkrow couldn't have been there.
-  - Plan: Visual sweep required.
-  - Route: Down to (17, 13) -> Right to Boss Door (22, 14).
-  - Search Areas: Boss Door, Switch Area, Start Point.
+  - Mistake: Hallucinated "Leash" behavior and Murkrow's location.
+  - Mechanics: Murkrow flees AWAY from player.
+  - Search Plan:
+    1. Boss Door (22, 14).
+    2. Switch Area (19, 11) / (20, 11).
+    3. Shutter (15, 10).
+    4. Start Point (7, 2).
   - Passwords: "HAIL GIOVANNI", "RATICATE TAIL", "SLOWPOKETAIL".
