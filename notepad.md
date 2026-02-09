@@ -21,12 +21,8 @@
 
 ## Current Task
 - **Murkrow Chase**:
-  - Status: LOST.
-  - Mistake: Hallucinated "Leash" behavior and Murkrow's location.
-  - Mechanics: Murkrow flees AWAY from player.
-  - Search Plan:
-    1. Boss Door (22, 14).
-    2. Switch Area (19, 11) / (20, 11).
-    3. Shutter (15, 10).
-    4. Start Point (7, 2).
+  - Status: FOUND at (22, 12). I am at (22, 13).
+  - Action: Check Boss Door (22, 14).
+  - Issue: I am blocking the path between Murkrow and the Door.
+  - Plan: Check door -> Move Left to unblock -> Observe Murkrow.
   - Passwords: "HAIL GIOVANNI", "RATICATE TAIL", "SLOWPOKETAIL".
