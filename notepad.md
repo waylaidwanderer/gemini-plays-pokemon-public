@@ -5,20 +5,19 @@
 - **Secondary**: Defeat Team Rocket Executives.
 
 ## Mechanics (Verified)
-- **Mimicry**: Murkrow mimics player's relative movement vector.
+- **Mimicry**: Murkrow COPIES player's movement (Confirmed).
 - **Collision Rules**:
-  - P Blocked: Murkrow Stays.
-  - Chase Blocked: P cannot move into M's tile even if M moves away.
+  - P Blocked: Murkrow still moves if its path is clear (Desync potential).
+  - M Blocked: Murkrow stays.
 
 ## Current State
-- Player: (22, 13) (GameState) / (21, 13) (Screen).
-- Murkrow: (22, 12).
+- Player: (22, 14).
+- Murkrow: (22, 13).
 - Grunt: (21, 14) Facing Left (Safe).
 
 ## Strategy: Open Door
-- **Goal**: Position Murkrow at (22, 13) and Player at (22, 14).
+- **Goal**: Trigger Murkrow to shout password.
 - **Execution**:
-  1. `Right` (Align P/M).
-  2. `Down` (Move P to 22,14, M to 22,13).
-  3. `Right` (Face Door).
-  4. `A` (Open).
+  1. Face Up (towards Murkrow).
+  2. Interact (`A`).
+  3. If successful, Open Door.
