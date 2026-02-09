@@ -11,12 +11,14 @@
 
 ## Current State
 - Map: B1F (3_50).
-- Player: (24, 14).
-- Status: Flanking South to reach Grunt at (21, 14).
-- Reason: Door at (23, 14) blocks direct path. Wall at (22, 15) prevents short flank.
+- Player: (20, 14).
+- Status: Leaving South-West Area.
+- Insight: Grunt at (21, 14) refuses to move/fight ("Only the boss knows...").
+- Insight: Grunt at (25, 13) claims ignorance.
+- Target: Grunt at (22, 5) (Central Area) has not been reached yet.
 - Plan:
-  1. Close text box.
-  2. Go South to Row 16.
-  3. Go West to Column 20.
-  4. Go North to (20, 14).
-  5. Interact with Grunt at (21, 14).
+  1. Return to SE Stairs (27, 14).
+  2. Take B2F Loop to NE Stairs (27, 2).
+  3. Return to B1F North.
+  4. Access Central Area via Row 1 -> Row 4 Gap.
+  5. Engage Grunt at (22, 5).
