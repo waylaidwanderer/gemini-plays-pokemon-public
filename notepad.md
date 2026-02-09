@@ -22,8 +22,8 @@
 ## Current Task
 - **Murkrow Chase**:
   - Status: Door locked despite password. Murkrow presence required.
-  - Observation: Scientist Jed at (18, 12) blocks the direct path East on Row 12.
-  - Action: Routing South to Row 13 to bypass the scientist.
-  - Path: Down to (17, 13) -> Right to (22, 13) -> Up to (22, 11).
-  - Goal: Interact with Murkrow at (22, 10).
+  - Action: Interacted with Murkrow at (22, 10) and moved Left to (21, 11).
+  - Goal: Clear the path (Column 22) for Murkrow to fly South to the Boss Door.
+  - Expectation: Murkrow should move from (22, 10) to (22, 11) or further South.
+  - Next Step: Verify Murkrow's new position and chase if necessary.
   - Passwords Known: "HAIL GIOVANNI" (Boss), "RATICATE TAIL", "SLOWPOKETAIL".
