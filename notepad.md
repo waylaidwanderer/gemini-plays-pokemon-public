@@ -15,11 +15,10 @@
 ## Current Task
 - **Trigger Voice Lock**:
   # Murkrow Puzzle (B2F)
-- **Status**: Murkrow likely inside Wall at (22, 12) or Under Me at (22, 13).
-- **Action**: Move Down to (22, 14).
-- **Goal**: Pull/Reveal Murkrow at (22, 13).
-- **Observation**: Interaction at (22, 12) failed (No text).
+- **Status**: Murkrow at (22, 13). Me at (22, 14).
+- **Hypothesis**: Murkrow is solid. If I press Up, I will bump it and face it.
+- **Action**: Press Up, then Interact.
 - **Plan**:
-  1. Move Down to (22, 14).
-  2. Face Up.
-  3. Talk to Murkrow.
+  1. Press Up (Bump Murkrow).
+  2. Press A (Talk).
+  3. If I move to (22, 13), Murkrow moved to (22, 12). Interact with wall.
