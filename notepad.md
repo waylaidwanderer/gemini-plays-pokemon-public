@@ -16,10 +16,9 @@
 - **Trigger Voice Lock**:
   # Murkrow Puzzle (B2F)
 - **Status**: Murkrow at (22, 13). Me at (22, 14).
-- **Observation**: Inspecting Door gives "Only the boss knows the password".
-- **Action**: Face Up and Talk to Murkrow.
-- **Goal**: Get "HAIL GIOVANNI" password.
+- **Action**: Interact with Murkrow.
+- **Goal**: Trigger "HAIL GIOVANNI" dialogue.
 - **Plan**:
-  1. Face Up (Bump Murkrow).
-  2. Press A to Interact.
-  3. Open Door.
+  1. Press A to Talk.
+  2. Follow Murkrow to Boss Door if it moves.
+  3. Open Boss Door.
