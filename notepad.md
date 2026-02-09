@@ -17,12 +17,13 @@
 - **Door**: (23, 14).
 - **Status**: Trapped. Needs to move Up to escape.
 
-## Strategy: The Slide Test (Step 1)
-- **Goal**: Move to (21, 13) and verify Murkrow position.
-- **Current**: P(21, 11). M presumed at (22, 10).
-- **Hypothesis**: After `Down` x2, M should be at (22, 12).
-- **Plan**:
-  1. `Down` x2 -> P(21, 13).
-  2. Verify M at (22, 12).
-  3. If verified, proceed with "Bump Test".
-- **Action**: Execute `Down` x2.
+## Strategy: The Side-Slide Test
+- **Goal**: Verify if Murkrow moves when Player is blocked laterally.
+- **Current**: P(21, 13), M(21, 12).
+- **Setup**:
+  1. `Right` -> P(22, 13), M(22, 12).
+  2. `Down` -> P(22, 14), M(22, 13).
+- **Test**:
+  3. `Left` -> P blocked by Grunt (21, 14). M targets (21, 13) [Open].
+  4. If M moves to (21, 13), we can slide!
+- **Action**: Execute `Right`, `Down`.
