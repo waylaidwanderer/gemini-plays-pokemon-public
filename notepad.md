@@ -11,11 +11,12 @@
 - **Puzzle Status**: Murkrow is adjacent to me and near door.
 
 ## Current Task
-- **Positioning Murkrow**:
+- **Opening Boss Door**:
   # Murkrow Puzzle (B2F)
 - **Status**: Me at (22, 13). Murkrow at (22, 12).
-- **Goal**: Move Murkrow to (22, 13) (next to door).
 - **Action**: Move Down to (22, 14).
-- **Prediction**: Murkrow mimics and moves Down to (22, 13).
-- **Contingency**: If stuck at (22, 14), use Dig. (Verified I have Dig).
-- **Next Step**: Interact with Door or Murkrow.
+- **Plan**:
+  1. Move Down (Murkrow follows to 22, 13).
+  2. Face Up and Talk to Murkrow ("Hail Giovanni").
+  3. Face Right and Interact with Door. (Missed this step last time!)
+- **Backup**: If trapped at (22, 14), move Up to push Murkrow back.
