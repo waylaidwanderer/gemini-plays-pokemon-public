@@ -22,8 +22,8 @@
 ## Current Task
 - **Murkrow Chase**:
   - Status: Door locked despite password. Murkrow presence required.
-  - Observation: Shutter (15, 10) appears locked/closed.
-  - Insight: Murkrow is at (22, 10), which might be the *only* walkable gap in the Row 10 wall.
-  - Hypothesis: Interacting with Murkrow will make it move, clearing the path to the North Corridor.
-  - Plan: Return to (22, 11) and interact with Murkrow to clear the path.
+  - Observation: Scientist Jed at (18, 12) blocks the direct path East on Row 12.
+  - Action: Routing South to Row 13 to bypass the scientist.
+  - Path: Down to (17, 13) -> Right to (22, 13) -> Up to (22, 11).
+  - Goal: Interact with Murkrow at (22, 10).
   - Passwords Known: "HAIL GIOVANNI" (Boss), "RATICATE TAIL", "SLOWPOKETAIL".
