@@ -23,9 +23,7 @@
   4. Move Right to (21, 13) (Push Murkrow to 22,13).
   5. Talk to Murkrow.
 
-- Current: Me (19, 13). Murkrow LOST.
-- Action: Return to (7, 2) (Spawn Point).
-- Reasoning: Murkrow is not in East Wing. It likely reset.
-- Path: West through main hall.
-
+- Current: Me (12, 9). Murkrow LOST.
+- Action: Move to (19, 8) (Secret Passage) -> Loop to (7, 2).
+- Reasoning: Murkrow not in East Wing. Likely reset to Spawn.
 - Goal: Locate Murkrow.
