@@ -13,13 +13,13 @@
 ## Current State
 - Map: B1F (3_50).
 - Player: (25, 1).
-- Status: Engaging East Grunt (22, 5).
-- Observation: Direct access South is blocked by Row 4 Wall.
+- Status: Moving South in East Corridor.
+- Observation: Wall at x=23 blocks access to Grunt at (22, 5).
 - Plan:
-  1. Navigate West to Column 19 to bypass wall.
-  2. Go South to Row 5.
-  3. Go East to (21, 5) to interact with Grunt.
-  4. Defeat Grunt and check for switches.
+  1. Go South to Row 13.
+  2. Engage Grunt at (25, 13) (in my current corridor).
+  3. Continue South to Row 16 gap.
+  4. Cross to West side to reach Grunt at (22, 5) if needed.
 
 ## Murkrow Status
 - Missing. Presumed at Start Area (7, 2) on B2F.
