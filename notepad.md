@@ -9,13 +9,11 @@
 - **Murkrow**: (22, 12).
 - **Door**: (23, 14).
 
-## Strategy: The Grunt Scrape
-- **Goal**: Place M at (22, 13) while P is at (21, 13).
-- **Theory**: Followers move if they can, even if Player is blocked.
+## Strategy: Murkrow Interaction Protocol
+- **Status**: P(22, 13), M(22, 12). (Visual Confirmation).
+- **Previous Fail**: `Up` was blocked (M refused to move to 22, 11).
 - **Plan**:
-  1. `Up` x2 -> P(22, 11), M(22, 10).
-  2. `Left` -> P(21, 11). M Blocked by Computer (21, 10). Stays (22, 10).
-  3. `Down` x2 -> P(21, 13), M(22, 12).
-  4. `Down` -> P Blocked by Grunt (21, 14). M moves to (22, 13).
-  5. Face Right, Interact.
-- **Action**: Execute Step 1 (Up x2).
+  1. `Down` -> P(22, 14), M(22, 13). (Pull M down).
+  2. `Up` -> P(22, 13), M(22, 12). (Swap back, ensure Facing Up).
+  3. `A` -> Interact with M.
+- **Action**: Execute `Down`, `Up`, `A`.
