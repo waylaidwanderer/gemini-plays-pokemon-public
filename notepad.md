@@ -11,15 +11,17 @@
   - M Blocked: Murkrow STAYS.
 
 ## Current State
-- Map: B1F (3_49).
-- Player: (5, 2).
-- Status: Switch at (6, 1) PRESSED (Confirmed via shiny eyes dialogue).
-- Observation: Statue at (6, 1) is SOLID. "Fake Wall" theory disproven for now.
-- Goal: Check if switch opened the path to B2F.
+- Map: B2F (3_50).
+- Player: (3, 14).
+- Status: Arrived from B1F via stairs.
+- Goal: Check if Wall at (3, 12) is passable (opened by B1F switch).
+- Logic:
+  - B1F Switch at (6, 1) was pressed.
+  - If B2F (3, 12) is still a wall, the switch likely opened the Gate at B1F (3, 8).
 - Plan:
-  1. Check (3, 2) for stairs (Visual check).
-  2. If none, proceed South to (3, 14).
-  3. Descend to B2F and check the wall/gate at (3, 12).
+  1. Move North to check (3, 12).
+  2. If blocked, return to B1F.
+  3. Navigate to B1F (3, 8) to check the gate.
 
 ## Murkrow Status
 - Missing. Presumed at Start Area (7, 2) on B2F.
