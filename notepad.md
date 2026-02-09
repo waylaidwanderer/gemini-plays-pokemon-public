@@ -16,14 +16,12 @@
 - **Murkrow**: Unknown. Likely (22, 12) or (21, 13) or (23, 13).
 - **Goal**: Find Murkrow and Open Door.
 
-## Strategy: The Validated Slide (Execution)
-- **Goal**: Reach Desync State P(21, 11), M(22, 10).
-- **Current**: P(22, 13), M(22, 12).
-- **Sequence**:
-  1. `Left` -> P(21, 13), M(21, 12).
-  2. `Up` -> P(21, 12), M(21, 11).
-  3. `Right` -> P(22, 12), M(22, 11).
-  4. `Up` -> P(22, 11), M(22, 10).
-  5. `Left` -> P(21, 11). M Blocked at (21, 10). M Stays (22, 10).
-- **Next Turn**: `Down` x4 (Slide M to 22, 14), `Right`, `A`.
-- **Action**: Execute Alignment & Desync (Left, Up, Right, Up, Left).
+## Strategy: Lateral Slide Mechanic Test
+- **Goal**: Determine if M moves when P is blocked by NPC.
+- **Current**: P(21, 13), M(21, 12).
+- **Plan**:
+  1. `Left` -> P(20, 13), M(20, 12).
+  2. `Down` -> P(20, 14), M(20, 13).
+  3. `Right` -> P Blocked by Grunt (21, 14).
+     - **Check**: Does M move to (21, 13)?
+- **Action**: Execute Test (`Left`, `Down`, `Right`).
