@@ -15,9 +15,8 @@
 ## Current Task
 - **Trigger Voice Lock**:
   # Murkrow Puzzle (B2F)
-- **Status**: Murkrow at (22, 12). Me at (22, 13).
-- **Behavior**: Murkrow MIMICS movement (Confirmed).
-- **Goal**: Bring Murkrow to (22, 13) or (22, 14).
-- **Action**: Move Down to (22, 14).
-- **Expectation**: Murkrow moves Down to (22, 13).
-- **Next**: Talk to Murkrow or Inspect Door.
+- **Status**: Murkrow at (22, 13). Me at (22, 14).
+- **Strategy**: Chase Murkrow North until it is pinned against the blockage at (22, 9).
+- **Action**: Move Up to (22, 13).
+- **Expectation**: Murkrow moves Up to (22, 12).
+- **Next**: Continue chasing North.
