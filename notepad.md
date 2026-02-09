@@ -21,8 +21,8 @@
 
 ## Current Task
 - **Murkrow Chase**:
-  - Status: FOUND! It was right behind me at (22, 12)!
-  - Plan: Turn around (Face Up) and interact.
-  - Hope: It moves South to the door or mimics the password.
-  - Note: I was facing the door (South) and missed the bird standing North of me.
+  - Status: FOUND! Standing at (22, 10). I am at (22, 11).
+  - Plan: Interact (Press A).
+  - Expectation: It will shout "Hail Giovanni" and flee to the Boss Door.
+  - Note: Boss Door is South at (22, 14).
   - Passwords Known: "HAIL GIOVANNI" (Boss), "RATICATE TAIL", "SLOWPOKETAIL".
