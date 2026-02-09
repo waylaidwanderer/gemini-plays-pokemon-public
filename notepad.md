@@ -15,10 +15,11 @@
 ## Current Task
 - **Trigger Voice Lock**:
   # Murkrow Puzzle (B2F)
-- **Status**: Murkrow at (22, 12) (Walkable). Me at (22, 13).
-- **Observation**: Tile (22, 12) looks like a wall but is walkable for Murkrow.
-- **Action**: Move Up to (22, 13) -> Murkrow moves to (22, 12). Interact.
+- **Status**: Murkrow at (22, 12). Me at (22, 13).
+- **Interaction**: Attempting to talk.
+- **Goal**: Obtain "HAIL GIOVANNI" password or trigger door unlock.
+- **Reflected**: Solved floor confusion (B1F vs B2F). Target acquired.
 - **Plan**:
-  1. Move Up (Face Murkrow).
-  2. Press A repeatedly to Talk.
-  3. Enter Password ("HAIL GIOVANNI").
+  1. Advance Dialogue / Interact.
+  2. If Murkrow flees, herd to corner.
+  3. Open Boss Door at (23, 14).
