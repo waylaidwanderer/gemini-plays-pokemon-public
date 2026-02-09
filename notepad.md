@@ -12,17 +12,14 @@
 
 ## Current State
 - Map: B1F (3_49).
-- Player: (3, 9).
-- Goal: Reach Stairs at (3, 2) to return to B2F start area.
-- Notes:
-  - Stairs at (3, 2) might be hidden or require passing the Persian Statue at (6, 1).
-  - Trap at (3, 8) likely active.
-  - Previous logs confirm stairs at (3, 2) exist.
+- Player: (3, 2).
+- Goal: Find entrance to B2F North (Start Area).
+- Issue: Stairs at (3, 2) seem missing or hidden.
+- Hypothesis: The "Fake Wall" at (6, 1) or the Statue holds the secret.
 
 ## Strategy: Search & Rescue
-- **Path**:
-  1. Walk North to (3, 2) on B1F.
-  2. Take Stairs to B2F (3, 2).
-  3. Walk to (7, 2).
-  4. Find Murkrow.
-  5. Restart escort mission with care.
+- **Sequence**:
+  1. Move to (6, 2) (Below Statue).
+  2. Inspect Statue at (6, 1).
+  3. Try to walk through/past (6, 1).
+  4. If fails, search (19, 8) secret passage area again.
