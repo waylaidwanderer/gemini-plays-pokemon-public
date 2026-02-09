@@ -24,4 +24,12 @@
   5. Talk to Murkrow.
 
 - Current: Me (19, 13), Murkrow (19, 12).
-- Action: Left to (18, 13).
+- Goal: Move Murkrow to (22, 13).
+- Strategy:
+  1. Left to (18, 13). Murkrow -> Down to (19, 13).
+  2. Left to (17, 13). Murkrow -> Down (Blocked).
+  3. Up to (17, 12). Murkrow -> Right to (20, 13).
+  4. Up to (17, 11). Murkrow -> Right to (21, 13).
+  5. Check situation from (17, 11) with Murkrow at (21, 13).
+
+- Action: Move Left to (18, 13).
