@@ -21,7 +21,7 @@
 
 ## Current Task
 - **Murkrow Chase**:
-  - Status: Positioned North (14, 9). Interacting.
-  - Expectation: Murkrow flees South to Switch (19, 11) or Boss Door.
-  - History: Moved from (22, 10) -> (14, 10).
+  - Status: Interacted at (14, 10) from North.
+  - Expectation: Murkrow flees to Switch (19, 11) or Boss Door (22, 14).
+  - Next Step: Follow the bird!
   - Passwords: "HAIL GIOVANNI", "RATICATE TAIL", "SLOWPOKETAIL".
