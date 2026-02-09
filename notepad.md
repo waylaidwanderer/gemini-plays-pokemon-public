@@ -6,11 +6,13 @@
 
 ## Current State
 - **Player**: (22, 13).
-- **Murkrow**: (22, 12) (Visually confirmed).
-- **Door**: (23, 14) [Locked].
+- **Murkrow**: (22, 12).
+- **Door**: (23, 14).
 
-## Strategy: North Pin (Step 1)
-- **Goal**: Chase Murkrow North to pin it against the wall and get the password.
-- **Action**: Move **Up**.
-- **Expected Result**: Player -> (22, 12). Murkrow -> (22, 11).
-- **Reasoning**: "Leading Down" is unreliable due to collision. "Chasing Up" is confirmed to work. Once I have the password, I can likely open the door without the bird.
+## Strategy: Corrected Positioning
+- **Insight**: In Turn 34652, I successfully positioned Murkrow at (22, 13) by moving Down, but I immediately moved Up (displacing it) before interacting with the door.
+- **Plan**:
+  1. Move **Down** -> Player (22, 14), Murkrow (22, 13).
+  2. Face **Right** -> Face Door.
+  3. Press **A** -> Open Door.
+- **Critical**: DO NOT MOVE UP. Murkrow must remain at (22, 13) during door interaction.
