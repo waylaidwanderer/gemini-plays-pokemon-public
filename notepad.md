@@ -17,12 +17,15 @@
 - **Door**: (23, 14).
 - **Status**: Trapped. Needs to move Up to escape.
 
-## Strategy: The Overtake
-- **Goal**: Place M South of P (P at 22, 13, M at 22, 14).
-- **Hypothesis**: Moving P into M's tile while M is blocked (by Grunt at 22, 9) will cause M to stay behind, flipping the Y-axis relative position.
+## Strategy: The Definitive Slide Test
+- **Goal**: Place M at (22, 14).
+- **Hypothesis**: P Blocked by Grunt (21, 14) ALLOWS M to move.
+- **Current**: P(22, 13), M(22, 12).
 - **Plan**:
-  1. Escape: `B`, `Up` -> P(22, 13), M(22, 12).
-  2. Setup: `Up` x2 -> P(22, 11), M(22, 10).
-  3. Overtake: `Up` -> P(22, 10). M(22, 9) Blocked -> M(22, 11)?
-  4. Pull: `Down` x3 -> P(22, 13), M(22, 14).
-- **Action**: Escape Trap (`B`, `Up`).
+  1. `Up` x2 -> P(22, 11), M(22, 10).
+  2. `Left` -> P(21, 11). M Blocked by Computer (21, 10). Stays (22, 10).
+  3. `Down` x2 -> P(21, 13), M(22, 12).
+  4. `Down` (TEST) -> P Blocked. Does M move to (22, 13)?
+  5. `Down` (Continue) -> If moved, M to (22, 14).
+  6. `Right`, `Down`, `A`.
+- **Action**: Execute Steps 1-2 (Up, Up, Left).
