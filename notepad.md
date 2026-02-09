@@ -11,15 +11,20 @@
   - M Blocked: Murkrow STAYS.
 
 ## Current State
-- Map: B2F (3_50).
-- Player: (3, 13).
-- Observation: Wall at B2F (3, 12) is SOLID. Switch at B1F (6, 1) did NOT remove it.
-- Hypothesis: Switch at B1F (6, 1) opened the Gate at B1F (3, 8).
+- Map: B1F (3_49).
+- Player: (3, 14).
+- Status: Switch at (6, 1) ACTIVATED.
+- Knowledge: B2F (3, 12) is SOLID. Gate at B1F (3, 8) is likely a myth/trap.
+- Hypothesis: The Persian Statue at (6, 1) acts as a Fake Wall when the switch is active (or always?).
 - Plan:
-  1. Return to B1F via stairs at (3, 14).
-  2. Navigate North to (3, 8).
-  3. Check if Gate is open.
-  4. If open, proceed to (3, 2) -> Stairs to B2F (7, 2) -> Find Murkrow.
+  1. Navigate North to (6, 2).
+  2. Attempt to walk UP into (6, 1) again.
+  3. If blocked, search for hidden stairs near (3, 2) again.
+
+## Path (Trap Avoidance)
+1. Up to (3, 9).
+2. Left to (2, 9) -> Up to (2, 7) -> Right to (3, 7).
+3. Up to (3, 2) -> Right to (6, 2).
 
 ## Murkrow Status
 - Missing. Presumed at Start Area (7, 2) on B2F.
