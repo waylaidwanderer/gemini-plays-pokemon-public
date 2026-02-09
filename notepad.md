@@ -16,12 +16,17 @@
 - **Murkrow**: Unknown. Likely (22, 12) or (21, 13) or (23, 13).
 - **Goal**: Find Murkrow and Open Door.
 
-## Strategy: Lateral Slide Mechanic Test
-- **Goal**: Determine if M moves when P is blocked by NPC.
-- **Current**: P(21, 13), M(21, 12).
-- **Plan**:
-  1. `Left` -> P(20, 13), M(20, 12).
-  2. `Down` -> P(20, 14), M(20, 13).
-  3. `Right` -> P Blocked by Grunt (21, 14).
-     - **Check**: Does M move to (21, 13)?
-- **Action**: Execute Test (`Left`, `Down`, `Right`).
+## Strategy: The Validated Grunt Flip
+- **Goal**: Place P(22, 13), M(22, 14).
+- **Logic**: Use the Grunt at (22, 9) to block M's upward movement, placing P North of M.
+- **Current State**: P(20, 14), M(20, 13).
+- **Test**: Press `Right` (P Blocked by Grunt 21, 14).
+  - If M moves to (21, 13), we can slide M to column 22.
+- **Plan (If Slide Works)**:
+  1. `Right` x2 -> P(20, 14). M slides to (22, 13).
+  2. `Up` x4 -> P(20, 10). M moves to (22, 9) [Blocked], lands (22, 10).
+  3. `Right` -> P(21, 10). M blocked right. Stays (22, 10).
+  4. `Up` -> P(21, 9). M blocked up. Stays (22, 10).
+  5. `Down` x4 -> P(21, 13), M(22, 14).
+  6. `Right`, `A`.
+- **Action**: Execute Test (`Right`).
