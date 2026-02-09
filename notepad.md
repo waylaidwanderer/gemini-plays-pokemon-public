@@ -16,17 +16,19 @@
 - **Murkrow**: Unknown. Likely (22, 12) or (21, 13) or (23, 13).
 - **Goal**: Find Murkrow and Open Door.
 
-## Strategy: The Validated Grunt Flip
-- **Goal**: Place P(22, 13), M(22, 14).
-- **Logic**: Use the Grunt at (22, 9) to block M's upward movement, placing P North of M.
-- **Current State**: P(20, 14), M(20, 13).
-- **Test**: Press `Right` (P Blocked by Grunt 21, 14).
-  - If M moves to (21, 13), we can slide M to column 22.
-- **Plan (If Slide Works)**:
-  1. `Right` x2 -> P(20, 14). M slides to (22, 13).
-  2. `Up` x4 -> P(20, 10). M moves to (22, 9) [Blocked], lands (22, 10).
-  3. `Right` -> P(21, 10). M blocked right. Stays (22, 10).
-  4. `Up` -> P(21, 9). M blocked up. Stays (22, 10).
-  5. `Down` x4 -> P(21, 13), M(22, 14).
-  6. `Right`, `A`.
-- **Action**: Execute Test (`Right`).
+## Strategy: The Grand Flank (Verified)
+- **Goal**: Place M South of P using Col 19 & Grunt/Desk Blocks.
+- **Current**: P(20, 14), M(20, 13).
+- **Phase 1: Setup P(22, 11), M(22, 10)**
+  1. `Left` -> P(19, 14), M(19, 13).
+  2. `Up` x2 -> P(19, 12), M(19, 11).
+  3. `Right` x3 -> P(22, 12), M(22, 11).
+  4. `Up` -> P(22, 11), M(22, 10).
+- **Phase 2: Desync**
+  5. `Left` x3 -> P(19, 11). M Blocked (21, 10). Stays (22, 10).
+  6. `Up` x2 -> P(19, 9). M Blocked (22, 9). Stays (22, 10).
+- **Phase 3: Delivery**
+  7. `Down` x4 -> P(19, 13), M(22, 14).
+  8. `Right` x3 -> P(22, 13). M Stays (22, 14).
+  9. Interact Down.
+- **Action**: Execute Phase 1 (Left, Up, Up, Right, Right).
