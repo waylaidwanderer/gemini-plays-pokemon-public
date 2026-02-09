@@ -12,14 +12,10 @@
 
 ## Current State
 - Map: B1F (3_49).
-- Player: (19, 3).
-- Status: Successfully moved West from NE corner.
+- Player: (9, 3).
+- Status: On the North side of the computer barrier.
 - Goal: Reach NW Corner (3, 2) to check if stairs opened.
-- Path:
-  1. Move West to (9, 3).
-  2. Move Down through gap at (9, 4) to (9, 6).
-  3. Move Left/Up to (3, 2).
-  4. Check for Stairs.
+- Correction: I don't need to cross the gap to the South side. (3, 2) is accessible via the North corridor.
 
 ## Murkrow Status
 - Missing. Presumed at Start Area (7, 2) on B2F.
