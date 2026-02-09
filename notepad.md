@@ -15,9 +15,13 @@
 - **Player**: (22, 14).
 - **Murkrow**: (22, 13) (Visual Confirmation).
 - **Door**: (23, 14).
+- **Status**: Surrounded (Up: M, Down: Wall, Left: Grunt, Right: Door).
 
-## Strategy: Interaction & Test
-1. Interact `Up` with Murkrow.
-2. If no success, Test Blocked Movement:
-   - Move `Left`. (Player blocked by Grunt at 21, 14).
-   - Observe if Murkrow moves from (22, 13) to (21, 13).
+## Strategy: The Grunt Slide Test
+- **Hypothesis**: If Player blocked by Grunt, Murkrow still mimics.
+- **Plan**:
+  1. Press `Left`. (Player Blocked by Grunt).
+  2. Check if Murkrow moves `Left` to (21, 13).
+  3. If yes, Murkrow is now at (21, 13).
+  4. If no, Murkrow is fixed.
+- **Action**: Press `Left`.
