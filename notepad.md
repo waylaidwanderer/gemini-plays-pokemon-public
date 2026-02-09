@@ -12,14 +12,13 @@
 ## Current State
 - Map: B1F (3_50).
 - Player: (6, 13).
-- Status: Returning to B1F to find path to NW Stairs.
+- Status: Navigating B2F maze to find Murkrow.
 - Route:
-  1. Take Stairs at B2F (27, 14) back to B1F.
-  2. Navigate West on B1F to (6, 13).
-  3. Search for path to B1F NW Stairs (3, 6) or (3, 2).
-  4. Find Murkrow at B2F (7, 2).
-- Note: B2F SE area (accessed via 27, 14) appears to be a dead end (shutters/walls).
-- Note: Murkrow is key to Boss Door.
+  1. Navigate West from Boss Door area.
+  2. Reach Murkrow at (7, 2).
+  3. Lead Murkrow back to Boss Door.
+- Note: Path to SE Stairs at (27, 14) is blocked by a defeated Grunt at (24, 14).
+- Note: Must traverse the western part of B2F to reach the north.
 - Note: Boss Door is likely at B2F (23, 14).
 - Note: Current Map B1F (3_50).
 - Note: Murkrow last seen at B2F (7, 2).
