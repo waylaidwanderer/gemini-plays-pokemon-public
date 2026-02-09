@@ -15,10 +15,12 @@
 ## Current Task
 - **Trigger Voice Lock**:
   # Murkrow Puzzle (B2F)
-- **Status**: Me at (22, 13). Murkrow location ambiguous (Overlap or North).
-- **Action**: Move Down to (22, 14).
-- **Goal**: Position adjacent to the Boss Door (23, 14).
-- **Hypothesis**:
-  1. If Murkrow was in Wall (22, 12), it moves to (22, 13). I can Face Up and Talk.
-  2. If Murkrow was Overlapped (22, 13), it moves to (22, 14). We overlap at door.
-- **Next**: Inspect Door or Turn Up.
+- **Status**: Murkrow at (22, 13) (Floor). Me at (22, 14).
+- **Rival**: Silver at (21, 13).
+- **Action**: Face Up and Interact.
+- **Physics**: Murkrow blocked North by Wall (22, 12). I bump into Murkrow.
+- **Plan**:
+  1. Press Up.
+  2. Press A (Talk).
+  3. Get "HAIL GIOVANNI".
+  4. Inspect Door.
