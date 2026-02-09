@@ -21,9 +21,9 @@
 
 ## Current Task
 - **Murkrow Chase**:
-  - Status: Murkrow missing from (22, 10). Searching.
-  - Strategy: Check Boss Door (23, 14) then sweep map.
-  - Route: East to (23, 9) -> South to (23, 14).
+  - Status: Murkrow located at (22, 8).
+  - Strategy: Flank from North (22, 7) to push it South towards the Boss Door.
+  - Route: East to (22, 7) -> Interact.
   - Goal: Teleport to Northeast, then walk to (22, 9) to push Murkrow South.
   - Note: Scientist Jed mentioned the warp panel, confirming it's a key feature.
   - Passwords Known: "HAIL GIOVANNI" (Boss), "RATICATE TAIL", "SLOWPOKETAIL".
