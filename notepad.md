@@ -21,10 +21,10 @@
 
 ## Current Task
 - **Murkrow Chase**:
-  - Status: Y-Sync at Row 11. Murkrow at (19, 11).
-  - Obstacle: Poster at (20, 11) likely blocks Murkrow moving East.
-  - Plan: Move Down to Row 13 to bypass Jed and the Poster.
-  - Route: (17, 11) -> (17, 12) -> (17, 13).
-  - Prediction: Murkrow moves (19, 11) -> (19, 12) -> (19, 13).
-  - Next: Push Murkrow East to the Boss Door.
+  - Status: LOST.
+  - Observation: Murkrow is NOT at (19, 12).
+  - Correction: Tile (19, 11) appears to be a solid computer/switch (TYPE_2889), so Murkrow couldn't have been there.
+  - Plan: Visual sweep required.
+  - Route: Down to (17, 13) -> Right to Boss Door (22, 14).
+  - Search Areas: Boss Door, Switch Area, Start Point.
   - Passwords: "HAIL GIOVANNI", "RATICATE TAIL", "SLOWPOKETAIL".
