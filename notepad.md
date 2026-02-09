@@ -11,15 +11,15 @@
   - M Blocked: Murkrow STAYS.
 
 ## Current State
-- Player: (3, 13).
-- Murkrow: **MISSING** (Likely reset to (7, 2)).
-- Obstacle: Row 12 is a solid wall (Verified by collision).
-- Goal: Reach (7, 2) via B1F.
+- Map: B1F (3_49).
+- Player: (3, 14).
+- Goal: Reach Stairs at (3, 2) to return to B2F start area.
+- Murkrow: Presumed at B2F (7, 2).
 
 ## Strategy: Search & Rescue
 - **Path**:
-  1. Stairs at (3, 14) -> B1F (3, 14).
-  2. Walk to Stairs at (3, 2) in B1F.
-  3. Stairs to B2F (7, 2).
-  4. Search for Murkrow.
-- **Hypothesis**: Murkrow resets to (7, 2) if the puzzle is "failed" or he gets too far.
+  1. Walk North to (3, 2) on B1F.
+  2. Take Stairs to B2F (3, 2).
+  3. Walk to (7, 2).
+  4. Find Murkrow.
+  5. Restart escort mission with care.
