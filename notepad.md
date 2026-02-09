@@ -11,14 +11,13 @@
   - M Blocked: Murkrow STAYS.
 
 ## Current State
-- Player: (22, 13).
-- Murkrow: (22, 12).
+- Player: (22, 14).
+- Murkrow: (21, 13) (Confirmed by logic).
 
 ## Strategy: The Perfect Overlap (Revised)
-- **Concept**: Block M against the top wall (21, 10) to align Y, then block P against the right wall (23, 12) to align X.
 - **Sequence**:
-  1. `Down` -> P(22, 14). M(22, 13). (Reset).
-  2. `Left` -> P Blocked (Grunt). M(21, 13). (Desync X).
+  1. `Down` -> P(22, 14). M(22, 13). (Done).
+  2. `Left` -> P Blocked (Grunt). M(21, 13). (Done).
   3. `Up` -> P(22, 13). M(21, 12).
   4. `Up` -> P(22, 12). M(21, 11).
   5. `Up` -> P(22, 11). M Blocked by Wall (21, 10). M Stays (21, 11). (Desync Y).
