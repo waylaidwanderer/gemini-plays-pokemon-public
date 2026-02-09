@@ -9,16 +9,16 @@
 - **Murkrow**: (22, 12).
 - **Door**: (23, 14).
 
-## Strategy: The Real Plan
+## Strategy: The Grunt Slide (Final Ver.)
 - **Goal**: P(22, 13), M(22, 14).
-- **Current**: P(22, 13), M(22, 12).
+- **Current**: P(21, 13), M(21, 12).
 - **Plan**:
-  1. `Left` -> P(21, 13), M(21, 12).
-  2. `Up` -> P(21, 12), M(21, 11).
-  3. `Right` -> P(22, 12), M(22, 11).
+  1. `Left` -> P(20, 13), M(20, 12).
+  2. `Up` -> P(20, 12), M(20, 11).
+  3. `Right` x2 -> P(22, 12), M(22, 11).
   4. `Up` -> P(22, 11), M(22, 10).
   5. `Left` -> P(21, 11). M Blocked at (21, 10). Stays (22, 10).
-  6. `Down` x4 -> M moves to (22, 14) while P gets blocked by Grunt at (21, 14).
-  7. `Right` -> P(22, 13). M Stays (22, 14).
+  6. `Down` x4 -> Slide M to (22, 14) via Grunt Block.
+  7. `Right` -> P(22, 13).
   8. Face Down, Interact.
-- **Action**: Execute Steps 1-2 (Left, Up).
+- **Action**: Execute Steps 1-3 (Left, Up, Right, Right).
