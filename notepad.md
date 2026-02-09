@@ -4,24 +4,25 @@
 - **Primary**: Open Boss Door at B2F (23, 14).
 - **Secondary**: Defeat Team Rocket Executives.
 
-## Mechanics (Under Test)
-- **Mimicry**: Confirmed.
-- **Collision**:
-  - **Test**: If P is blocked by an NPC (Grunt), does M still move into an open tile?
-  - **Current Theory**: M *should* move.
+## Mechanics (Verified)
+- **Mimicry**: Murkrow mimics player's relative movement vector.
+- **Collision Rules**:
+  - P Blocked: Murkrow Stays.
+  - M Blocked: Murkrow Stays.
+  - No Overlap.
 
-## Current State
-- **Player**: (21, 13).
-- **Murkrow**: (21, 12).
-- **Grunt**: (21, 14) (South of Player).
-
-## Strategy: The Lateral Slide Test
-- **Goal**: Verify mechanic.
-- **Plan**:
-  1. `Left` -> P(20, 13), M(20, 12).
-  2. `Down` -> P(20, 14), M(20, 13).
-  3. `Right` -> P Blocked by Grunt (21, 14).
-     - **Observation**: Does M move to (21, 13) (Empty)?
-     - **Success**: M ends at (21, 13).
-     - **Failure**: M stays at (20, 13).
-- **Action**: Execute `Left`, `Down`, `Right`.
+## Strategy: The Column 19 Solution
+- **Goal**: Use the open column 19 to circle around Murkrow's Y-axis.
+- **Start**: P(20, 14), M(20, 13).
+- **Phase 1: Setup**
+  1. `Up`, `Right` x2 -> P(22, 13), M(22, 12).
+  2. `Up` x2 -> P(22, 11), M(22, 10).
+- **Phase 2: Desync**
+  3. `Left` x3 -> P(19, 11). M(22, 10) (Blocked by Computer at 21, 10).
+  4. `Up` x2 -> P(19, 9). M(22, 10) (Blocked by Grunt at 22, 9).
+     - **Result**: M is now South of P relative position.
+- **Phase 3: Delivery**
+  5. `Down` x4 -> P(19, 13), M(22, 14).
+  6. `Right` x3 -> P(22, 13). M(22, 14) (Blocked by Door).
+  7. Interact Down.
+- **Action**: Execute Phase 1 & Start Phase 2 (Up, Right, Right, Up, Up, Left).
