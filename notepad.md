@@ -9,11 +9,14 @@
 - **Murkrow**: (22, 12).
 - **Door**: (23, 14).
 
-## Strategy: Interaction & Unstack
-- **Status**: Potential Stack at (22, 14).
-- **Plan**:
-  1. Face `Up` -> Interact (Check if M is at 22, 13).
-  2. Face `Right` -> Interact (Check Door).
-  3. `Up` -> Move to (22, 13). (Attempt Unstack/Trail).
-  4. Face `Down` -> Interact (Check if M is at 22, 14).
-- **Action**: Execute Sequence.
+## Strategy: The Validated Slide (Reset & Execute)
+- **Goal**: Place M at (22, 14) via Computer/Grunt Desync.
+- **Current**: P(22, 14), M(22, 13).
+- **Reset**:
+  1. `Up` -> P(22, 13), M(22, 12).
+- **Phase 1: Setup**:
+  2. `Left` -> P(21, 13), M(21, 12).
+  3. `Up` -> P(21, 12), M(21, 11).
+  4. `Right` -> P(22, 12), M(22, 11).
+  5. `Up` -> P(22, 11), M(22, 10).
+- **Action**: Execute Reset + Phase 1 (Up, Left, Up, Right, Up).
