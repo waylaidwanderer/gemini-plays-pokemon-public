@@ -22,8 +22,8 @@
 ## Current Task
 - **Murkrow Chase**:
   - Status: FOUND at (22, 10).
-  - Action: Recited Oath. It didn't move.
-  - Theory: I was blocking the South path at (22, 11). Or, I need to push it South from (22, 9).
-  - Plan: Flank from North (22, 9).
-  - Route: (22, 12) -> (22, 13) -> West to (15, 13) -> North to (22, 9).
-  - Note: Avoiding Scientist Jed at (18, 12).
+  - Action: Positioned at (22, 9) (North of bird).
+  - Plan: Interact (Down + A).
+  - Expectation: Bird flees South to the Boss Door.
+  - Backup: If it doesn't move, check if I need to defeat a specific trainer or find another switch.
+  - Passwords: "HAIL GIOVANNI", "RATICATE TAIL", "SLOWPOKETAIL".
