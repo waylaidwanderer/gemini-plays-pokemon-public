@@ -12,14 +12,14 @@
 
 ## Current State
 - Map: B1F (3_49).
-- Player: (6, 2).
-- Status: Interacting with Statue at (6, 1).
-- Text: "It's a PERSIAN statue..."
-- Action: Advancing text to see if there's a switch.
-- Hypothesis:
-  1. Switch reveals stairs at (3, 2).
-  2. Switch turns Statue into Fake Wall.
-  3. Switch opens gate at (3, 14).
+- Player: (3, 3) (Corrected from hallucination).
+- Goal: Verify Statue at (6, 1).
+- Context: Previous attempts were plagued by position errors. Need to definitively check (6, 1).
+- Plan:
+  1. Move to (6, 2).
+  2. Interact with (6, 1).
+  3. If Switch -> Activate.
+  4. If no Switch -> Plan path to East Side (24, 6).
 
 ## Murkrow Status
 - Missing. Presumed at Start Area (7, 2) on B2F.
