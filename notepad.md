@@ -11,12 +11,13 @@
 - **Puzzle Status**: Murkrow is adjacent to me and near door.
 
 ## Current Task
-- **Triggering Voice Lock**:
+- **Interacting with Murkrow**:
   # Murkrow Puzzle (B2F)
-- **Status**: Me at (22, 14). Murkrow at (22, 13).
-- **Action**: Face Up and Talk to Murkrow.
-- **Reasoning**: I am next to the door. Murkrow is next to the door (diagonally). If I talk to it, maybe it shouts the password.
+- **Status**: Me at (22, 13). Murkrow at (22, 12).
+- **Observation**: Movement Down to (22, 14) failed (likely blocked by Murkrow mimicking into my tile).
+- **Action**: Interact with Murkrow directly.
 - **Plan**:
-  1. Face Up.
-  2. Press A (Talk).
-  3. If "Hail Giovanni", Face Right and Open Door.
+  1. Face Up (Blocked by Murkrow, so just turn).
+  2. Press A.
+  3. If password spoken ("Hail Giovanni"), try Door (Right).
+  4. If nothing happens or stuck, use Dig to reset.
