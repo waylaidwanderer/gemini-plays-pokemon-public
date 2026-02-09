@@ -21,9 +21,10 @@
 
 ## Current Task
 - **Murkrow Chase**:
-  - Status: Y-Sync Achieved! Both at Row 11.
-  - Locations: Me (17, 11), Murkrow (19, 11).
-  - Plan: Move Right to push Murkrow towards Col 22.
-  - Route: (17, 11) -> (18, 11) -> (19, 11).
-  - Goal: Get Murkrow to (22, 11) or (22, 12).
+  - Status: Y-Sync at Row 11. Murkrow at (19, 11).
+  - Obstacle: Poster at (20, 11) likely blocks Murkrow moving East.
+  - Plan: Move Down to Row 13 to bypass Jed and the Poster.
+  - Route: (17, 11) -> (17, 12) -> (17, 13).
+  - Prediction: Murkrow moves (19, 11) -> (19, 12) -> (19, 13).
+  - Next: Push Murkrow East to the Boss Door.
   - Passwords: "HAIL GIOVANNI", "RATICATE TAIL", "SLOWPOKETAIL".
