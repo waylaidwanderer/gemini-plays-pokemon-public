@@ -14,19 +14,15 @@
 
 ## Current Task
 - **Trigger Voice Lock**:
-  # Murkrow Puzzle Solution Plan
-1. **Shift X**: Move Left to (17, 13).
-   - Murkrow blocked by Jed at (18, 12), stays at (19, 12).
-   - Result: Me (17, 13), Murkrow (19, 12).
-2. **Shift Y**: Move Up to (17, 12).
-   - Murkrow blocked by Switch at (19, 11), stays at (19, 12).
-   - Result: Me (17, 12), Murkrow (19, 12).
-3. **Align Y**: Move Down to (17, 13).
-   - Murkrow moves Down to (19, 13).
-   - Result: Me (17, 13), Murkrow (19, 13). (Aligned!).
-4. **Herd East**: Move Right to (21, 13).
-   - Murkrow moves to (22, 13) and gets pinned by wall at (23, 13).
-5. **Finish**: Talk to Murkrow.
+  # Murkrow Puzzle - SEARCH MODE
+- **Status**: Murkrow LOST. Not visible at (22, 12) or (19, 12).
+- **Hypothesis**:
+  - Mimicked "Left" movement by moving "Up"? (If so, likely at 22, 8).
+  - Or fled/reset to a spawn point.
+- **Plan**:
+  1. Move Right/Up to scan the NE corner (including 22, 8).
+  2. If not found, check (20, 11) (Poster) and (7, 2) (Start).
+- **Goal**: Locate Murkrow.
 
-- Current: Me (19, 13), Murkrow (19, 12).
-- Action: Left to (18, 13).
+- Current: Me (18, 13).
+- Action: Move Right to (19, 13).
