@@ -12,15 +12,16 @@
 
 ## Current State
 - Map: B1F (3_49).
-- Player: (3, 14).
-- Goal: Activate Statue Switch at (6, 1) to reveal stairs at (3, 2).
-- Route:
-  1. Go North to (3, 9).
-  2. Weave Left to (2, 9) -> Up to (2, 7) -> Right to (3, 7) (Avoid Geodude at 3,8).
-  3. Continue North to (3, 2).
-  4. Go Right to (6, 2) and interact with Statue at (6, 1).
-  5. CONFIRM switch activation.
-  6. Check (3, 2) for stairs.
+- Player: (6, 2).
+- Status: Statue at (6, 1) has "shiny eyes" but no switch prompt. Stairs at (3, 2) are missing.
+- Murkrow: Missing (B2F).
 
-## Murkrow Status
-- Presumed at B2F (7, 2).
+## Strategy: Reset & Rescue
+- **Concept**: If I can't find the B1F->B2F(North) stairs, I will exit the HQ and re-enter. This should spawn me at the entrance, revealing the location of the stairs.
+- **Path**:
+  1. Go South to Warp at (5, 15).
+  2. Warp to East Side (25, 2).
+  3. Exit via Stairs at (27, 2) to Souvenir Shop.
+  4. Re-enter HQ.
+  5. If spawned at (3, 2), take stairs down to B2F (7, 2).
+  6. Find Murkrow.
