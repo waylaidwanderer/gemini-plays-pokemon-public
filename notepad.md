@@ -21,9 +21,12 @@
 
 ## Current Task
 - **Murkrow Chase**:
-  - Status: Murkrow at (22, 12). I am at (22, 13).
-  - Problem: I am blocking the door.
-  - Test: Move Left to (21, 13).
-  - Hypothesis A (Follower): Murkrow moves to (22, 13) (My old tile). -> SUCCESS.
-  - Hypothesis B (Mimic): Murkrow moves to (21, 12) (Mimics Left). -> NEED DESYNC.
+  - Status: Mimicry Confirmed.
+  - Objective: Place Murkrow at (22, 13) (in front of Boss Door).
+  - Current: Me (21, 13), Bird (21, 12). Relative: Bird is North.
+  - Problem: If I stand at (22, 14) (Door), Bird is at (22, 13) (Correct), but Door is solid so I can't stand there.
+  - Solution: Use "Jed Wedge" to shift relative position.
+  - Plan:
+    1. Move Left to (18, 13). Bird hits Jed (18, 12) and desyncs to (19, 12).
+    2. Move Down -> Right to guide Bird to (22, 13).
   - Passwords: "HAIL GIOVANNI", "RATICATE TAIL", "SLOWPOKETAIL".
