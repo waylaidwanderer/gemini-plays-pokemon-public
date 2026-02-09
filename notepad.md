@@ -9,17 +9,13 @@
 - **Murkrow**: (22, 12).
 - **Door**: (23, 14).
 
-## Strategy: The Ultimate Desync (Step-by-Step)
-- **Goal**: P(22, 13), M(22, 14).
-- **Current**: P(22, 13), M(22, 12).
+## Strategy: The Perfect Solution
+- **Visuals**: P(21, 14), M(22, 13).
+- **Goal**: P(21, 14), M(22, 14). Interact Right.
 - **Plan**:
-  1. `Left` -> P(21, 13), M(21, 12).
-  2. `Up` -> P(21, 12), M(21, 11).
-  3. `Right` -> P(22, 12), M(22, 11).
-  4. `Up` -> P(22, 11), M(22, 10).
-  5. `Left` -> P(21, 11). M Blocked at (21, 10). Stays (22, 10).
-  6. `Down` x3 -> P(21, 13), M(22, 13). (Using Grunt Block).
-  7. `Down` -> P(21, 13), M(22, 14). (Using Grunt Block).
-  8. `Right` -> P(22, 13). M Stays (22, 14).
-  9. Interact Down.
-- **Action**: Execute Steps 1-3 (Left, Up, Right).
+  1. `Up` x4 -> P(21, 10). M(22, 10) (Blocked by Grunt at 22, 9).
+  2. `Left` -> P(20, 10). M(22, 10) (Blocked by Computer at 21, 10).
+  3. `Down` x4 -> P(20, 14). M(22, 14).
+  4. `Right` -> P(21, 14). M(22, 14) (Blocked by Door).
+  5. Face Right, Interact.
+- **Action**: Execute Step 1 Part A (Up x2).
