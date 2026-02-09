@@ -12,9 +12,9 @@
 ## Current State
 - Map: B1F (3_50).
 - Player: (6, 13).
-- Status: Searching NW Corner for Shutter Switch.
-- Action: Return to (3, 2) area to inspect Silver Viewing Room.
-- Sequence: Close text (B), Move Left to (3, 2).
-- Expected State: Player at (3, 2). Murkrow blocked at (10, 2).
-- Hypothesis: Hidden switch near the viewing room or stairs to open (15, 10).
-- Checked: Row 1 Machines (Oath). No switch found.
+- Status: Moving to NW Stairs/Trap at (3, 6).
+- Action: Navigate to (3, 6).
+- Sequence: Down (to 10, 10), Left x7 (to 3, 10), Up x4 (to 3, 6).
+- Objective: Investigate (3, 6) for switch or stairs to B1F Small Room.
+- Warning: (3, 6) marked as Warp Trap AND Stairs. Proceed with caution.
+- Murkrow Status: Likely moving to Top Left corner.
