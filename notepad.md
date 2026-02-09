@@ -9,14 +9,16 @@
 - **Murkrow**: (22, 12).
 - **Door**: (23, 14).
 
-## Strategy: The Shelf Scrape
-- **Goal**: Use Shelf at (20, 12) to desync M.
-- **Current**: P(22, 13), M(22, 12).
+## Strategy: The Double Scrape
+- **Goal**: Me(22, 13), M(22, 14).
+- **Current**: Me(21, 13), M(21, 12).
 - **Plan**:
-  1. `Left` -> P(21, 13), M(21, 12).
-  2. `Left` -> P(20, 13). M(21, 12) (Blocked by Shelf 20, 12).
-  3. `Down` x2 -> P(20, 15), M(21, 14).
-  4. `Right` -> P(21, 15), M(22, 14).
-  5. `Right` -> P(22, 15), M(22, 14) (Blocked by Door).
-  6. Interact Up.
-- **Action**: Execute Step 1 (Left).
+  1. `Right` -> Me(22, 13), M(22, 12).
+  2. `Up` x2 -> Me(22, 11), M(22, 10).
+  3. `Left` -> Me(21, 11). M Blocked by Computer (21, 10). Stays (22, 10).
+  4. `Down` x2 -> Me(21, 13), M(22, 12).
+  5. `Down` (Blocked by Grunt) -> Me(21, 13). M moves to (22, 13).
+  6. `Down` (Blocked by Grunt) -> Me(21, 13). M moves to (22, 14).
+  7. `Right` -> Me(22, 13). M Stays (Blocked by Door).
+  8. Face Down, Interact.
+- **Action**: Execute Step 1 & 2 (Right, Up, Up).
