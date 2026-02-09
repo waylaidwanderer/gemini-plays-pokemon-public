@@ -17,8 +17,8 @@
   # Murkrow Puzzle (B2F)
 - **Status**: Murkrow located at (22, 9) (per Mental Map).
 - **Current**: Me (20, 14) on Map 3_50.
-- **Immediate Task**: Defeat Rocket Grunt at (21, 14).
+- **Observation**: Grunt at (21, 14) is passive/non-hostile.
 - **Plan**:
-  1. Defeat Grunt.
+  1. Move Up to (20, 13) to bypass Grunt.
   2. Move North to (22, 9).
   3. Herd Murkrow to Boss Door (23, 14).
