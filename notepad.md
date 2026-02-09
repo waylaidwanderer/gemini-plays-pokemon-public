@@ -9,12 +9,17 @@
 - **Murkrow**: (22, 12).
 - **Door**: (23, 14).
 
-## Strategy: Murkrow Master Plan
-- **Goal**: Use Computer (21, 10) and Wall (23, 13) to align Murkrow.
-- **Plan**:
-  1. `Up` x2 -> Me(22, 11), M(22, 10).
-  2. `Left` -> Me(21, 11). (M Blocked by Computer at 21, 10).
-  3. `Down` x3 -> Me(21, 14), M(22, 13).
-  4. `Right` -> Me(22, 14). (M Blocked by Wall at 23, 13).
-  5. Face `Up`, Interact.
-- **Action**: Execute Steps 1-2 (Up, Up, Left).
+## Strategy: The Ultimate Murkrow Solution
+- **Logic**: Use X-Block (Computer) then Y-Block (Grunt/Wall) to position M at (22, 14).
+- **Current**: P(21, 13), M(21, 12).
+- **Phase 1: X-Desync**
+  1. `Right` -> P(22, 13), M(22, 12).
+  2. `Up` x2 -> P(22, 11), M(22, 10).
+  3. `Left` -> P(21, 11). M(22, 10) (Blocked by Computer 21, 10).
+- **Phase 2: Y-Desync (Grunt)**
+  4. `Up` x2 -> P(21, 9). M(22, 10) (Blocked by Grunt 22, 9).
+- **Phase 3: Docking**
+  5. `Down` x4 -> P(21, 13), M(22, 14).
+  6. `Down` -> P(21, 14). M(22, 14) (Blocked by Wall 22, 15).
+  7. Face Right, Interact.
+- **Action**: Execute Phase 1 (Right, Up, Up, Left).
