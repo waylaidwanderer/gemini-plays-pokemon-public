@@ -12,19 +12,17 @@
 
 ## Current State
 - Map: B1F (3_49).
-- Player: (27, 14).
-- Status: Confirmed NO Stairs at (27, 14).
-- Goal: Reach Stairs at (3, 14) (Southwest).
+- Player: (24, 12).
+- Status: Relocating to West Side.
+- Goal: Check Stairs at (3, 2) (Northwest) to see if Switch at (24, 1) opened them.
 - Logic:
-  - (3, 14) is `TYPE_8564` (Stairs/Exit).
-  - I previously called it a "Dead End" but might have been wrong or blocked by a gate.
-  - Switch at (24, 1) is ON. This might have opened the gate at (3, 14).
+  - I haven't checked (3, 2) since pressing the switch.
+  - (3, 2) is the standard route to B2F (7, 2).
+  - If (3, 2) fails, check (3, 14).
 - Path:
-  1. North to Row 5.
-  2. West to (9, 5).
-  3. North to (9, 3).
-  4. West to (3, 3).
-  5. South to (3, 14).
+  1. Left to (9, 12).
+  2. Up to (9, 3) (Through Gap).
+  3. Left to (3, 2).
 
 ## Murkrow Status
 - Missing. Presumed at Start Area (7, 2) on B2F.
