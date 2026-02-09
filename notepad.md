@@ -23,8 +23,7 @@
 - **Murkrow Chase**:
   - Status: FOUND at (22, 10).
   - Action: Oath recited.
-  - Issue: Murkrow hasn't moved yet.
-  - Hypothesis: I am blocking its path South at (22, 11).
-  - Plan: Move Left to (21, 11) to unblock the path.
-  - Next Step: Watch for movement or interact again from the side.
+  - Issue: Murkrow blocked by me at (22, 11). Left is solid (Poster).
+  - Plan: Move Down to (22, 12) to clear the path South.
+  - Next Step: Watch for movement. If none, interact again.
   - Passwords: "HAIL GIOVANNI", "RATICATE TAIL", "SLOWPOKETAIL".
