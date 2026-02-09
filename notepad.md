@@ -10,11 +10,12 @@
 - **Hypothesis**: Defeating Grunts near the switches activates them or provides the key.
 
 ## Current State
-- Map: B2F (3_51).
-- Player: (27, 2).
-- Status: Flanking to South B1F via B2F East Loop.
-- Route:
-  1. Move South via East Corridor (Col 28).
-  2. Reach SE Stairs at (27, 14).
-  3. Take Stairs to B1F (27, 14).
-  4. Engage Grunt at B1F (25, 13).
+- Map: B1F (3_50).
+- Player: (27, 14).
+- Status: Reached South B1F via B2F Loop.
+- Objective: Engage Grunts in this sector.
+- Targets:
+  1. Grunt at (25, 13).
+  2. Grunt at (22, 9).
+  3. Grunt at (22, 5).
+- Plan: Defeat them all and check for switches/keys.
