@@ -10,12 +10,12 @@
 - **Hypothesis**: Defeating Grunts near the switches activates them or provides the key.
 
 ## Current State
-- Map: B2F (3_51).
+- Map: B1F (3_50).
 - Player: (3, 2).
-- Status: At NW Stairs.
-- Obstacle: B2F East is blocked by Shutters at x=15. B2F South is blocked by walls.
+- Status: Engaging West Grunt (4, 1).
+- Observation: Trapped in NW Corner.
+- Hypothesis: Defeating Grunt opens path East (past Fake Wall at 6, 1?).
 - Plan:
-  1. Return to B1F (Right, Left).
-  2. On B1F, check tile (4, 2) for walkability.
-  3. If (4, 2) is open, bypass Grunt at (4, 1).
-  4. If (4, 2) is blocked, interact with Grunt at (4, 1).
+  1. Move Right to (4, 2).
+  2. Interact/Battle Grunt at (4, 1).
+  3. Attempt to pass East.
