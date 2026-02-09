@@ -11,13 +11,12 @@
 
 ## Current State
 - Map: B1F (3_50).
-- Player: (20, 14).
-- Status: Moving to SE Stairs (27, 14).
-- Insight: Grunts in SW sector (21, 14) and SE sector (25, 13) provided no info/keys.
-- Target: Grunt at (22, 5) in Central Sector.
-- Route:
-  1. Go to SE Stairs (27, 14).
-  2. Take Stairs to B2F (27, 14).
-  3. B2F: Go North via East Corridor to NE Stairs (27, 2).
-  4. Take Stairs to B1F (27, 2).
-  5. B1F: Go West to Col 19 -> South to (22, 5).
+- Player: (27, 2).
+- Status: Realization - North Approach is BLOCKED by Row 2 Computers.
+- Correction: Central Room MUST be entered from the SOUTH (Row 14).
+- Plan:
+  1. Return to B2F via Stairs (27, 2).
+  2. Traverse B2F East Corridor South to (27, 14).
+  3. Return to B1F via Stairs (27, 14).
+  4. Enter Central Room from South (approx 20, 14).
+  5. Go North to Grunt at (22, 5).
