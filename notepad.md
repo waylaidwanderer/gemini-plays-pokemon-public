@@ -21,9 +21,9 @@
 
 ## Current Task
 - **Murkrow Chase**:
-  - Status: Y-Sync Confirmed at Row 13.
-  - Current: Me (19, 13), Murkrow (20, 13).
-  - Action: Move Right to (20, 13).
-  - Expected: Murkrow mimics Right to (21, 13).
-  - Next: Move Right again to place Murkrow at (22, 13) (Boss Door Spot).
+  - Status: Y-Sync Active.
+  - Current: Me (20, 13), Murkrow (21, 13).
+  - Action: Move Right to (21, 13).
+  - Expected: Murkrow mimics Right to (22, 13) (Target Spot!).
+  - Next: Interact with Murkrow at (22, 13).
   - Passwords: "HAIL GIOVANNI", "RATICATE TAIL", "SLOWPOKETAIL".
