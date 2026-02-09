@@ -15,9 +15,10 @@
 ## Current Task
 - **Trigger Voice Lock**:
   # Murkrow Puzzle (B2F)
-- **Status**: Murkrow at (21, 12) (Wall). Me at (21, 13).
-- **Obstacle**: Grunt at (21, 14) blocks Down.
-- **Strategy**: Flank Left to pull Murkrow off the wall.
-- **Action**: Move Left to (20, 13).
-- **Expectation**: Murkrow moves Left to (20, 12).
-- **Next Step**: Move Down to (20, 14) -> Murkrow moves to (20, 13) (Floor). Talk.
+- **Status**: Murkrow at (20, 12) (Wall). Me at (20, 13).
+- **Action**: Move Down to (20, 14).
+- **Expectation**: Murkrow mimics Down to (20, 13) (Floor).
+- **Plan**:
+  1. Move Down.
+  2. Face Up and Talk.
+  3. Get Password.
