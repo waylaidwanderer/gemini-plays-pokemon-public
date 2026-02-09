@@ -21,10 +21,11 @@
 
 ## Current Task
 - **Murkrow Chase**:
-  - Status: Murkrow is at (20, 12). I am at (20, 13).
-  - Strategy: Pin Murkrow against Scientist Jed.
-  - Step 1: Move Left to (18, 13).
-  - Expected: Murkrow hits Jed at (18, 12) and stays at (19, 12).
-  - Result: Player at (18, 13), Murkrow at (19, 12). Desync achieved.
-  - Next: Circle around to manipulate position.
+  - Status: Murkrow at (19, 12). I am at (17, 13).
+  - Strategy: X-Desync successful. Now Y-Desync.
+  - Plan:
+    1. Move Left to (17, 13) (Done).
+    2. Move Up to (17, 11). Murkrow will hit Wall at (19, 10).
+    3. Result: Y-Sync (Same Row).
+    4. Lead Murkrow to (22, 13).
   - Passwords: "HAIL GIOVANNI", "RATICATE TAIL", "SLOWPOKETAIL".
