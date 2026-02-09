@@ -12,9 +12,12 @@
 ## Current State
 - Map: B1F (3_50).
 - Player: (6, 13).
-- Status: Solving Murkrow Puzzle (Phase 1 - Execution).
-- Action: Moving Player to (4, 10) manually to desync Murkrow.
-- Sequence: Right (to Col 4), Down x8 (to Row 10).
-- Expected State: Player (4, 10), Murkrow (7, 8).
-- Logic: Murkrow hits wall at (7, 9), gets stuck at Y=8. Player continues to Y=10.
-- Next: Move East to align Murkrow with Fake Wall at (10, 9).
+- Status: Solving Murkrow Puzzle (Phase 2 - Crossing the Wall).
+- Action: Aligning Murkrow to (10, 10).
+- Sequence:
+  1. Left x3 (Player 1, 10; Murkrow 7, 8).
+  2. Right x3 (Player 4, 10; Murkrow 10, 8).
+  3. Up x8 (Player 4, 2; Murkrow 10, 2).
+  4. Down x8 (Player 4, 10; Murkrow 10, 10).
+- Expected State: Murkrow at (10, 10) (Central Corridor).
+- Next: Guide Murkrow East to Boss Door area.
