@@ -15,14 +15,13 @@
 ## Current Task
 - **Trigger Voice Lock**:
   # Murkrow Puzzle (B2F)
-- **Status**: Murkrow at (22, 13) (Floor). Me at (22, 14).
+- **Status**: Me and Murkrow overlapped at (22, 13).
 - **Rival**: Silver at (21, 13).
-- **Action**: Face Up and Interact.
-- **Physics**: 
-  - I press Up. Murkrow attempts Up (22, 12 Wall) -> Blocked.
-  - I attempt Up -> Blocked by Murkrow.
-  - Result: Facing each other at (22, 14) and (22, 13).
-- **Plan**:
-  1. Press Up.
-  2. Press A.
-  3. Get Password.
+- **Strategy**: Attempt separation using Rival as a filter.
+- **Action**: Move Left (into Rival).
+- **Hypothesis**:
+  1. I am blocked by Rival.
+  2. Murkrow mimics Left.
+  3. If Murkrow clips through Rival, we separate (Me: 22,13; Murkrow: 21,13).
+  4. If Murkrow is blocked, we stay synced.
+  5. Bonus: Might trigger Rival dialogue.
