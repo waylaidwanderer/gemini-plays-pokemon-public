@@ -9,17 +9,13 @@
 - **Murkrow**: (22, 12).
 - **Door**: (23, 14).
 
-## Strategy: The Murkrow Protocol
-- **Goal**: P(22, 13), M(22, 14). Interact Down.
-- **Phase 1: X-Desync**
-  1. `Right` -> P(22, 13), M(22, 12).
-  2. `Up` x2 -> P(22, 11), M(22, 10).
-  3. `Left` -> P(21, 11). M Blocked at (21, 10). (M is now Right of P).
-- **Phase 2: Y-Shift (Player Block)**
-  4. `Down` x2 -> P(21, 13), M(22, 12).
-  5. `Down` (Blocked by Grunt) -> P(21, 13), M(22, 13).
-  6. `Down` (Blocked by Grunt) -> P(21, 13), M(22, 14).
-- **Phase 3: Docking**
-  7. `Right` -> P(22, 13). M Blocked by Door.
-  8. Face Down, Interact.
-- **Action**: Execute Step 1 (Right).
+## Strategy: The Grunt Scrape
+- **Goal**: Place M at (22, 13) while P is at (21, 13).
+- **Theory**: Followers move if they can, even if Player is blocked.
+- **Plan**:
+  1. `Up` x2 -> P(22, 11), M(22, 10).
+  2. `Left` -> P(21, 11). M Blocked by Computer (21, 10). Stays (22, 10).
+  3. `Down` x2 -> P(21, 13), M(22, 12).
+  4. `Down` -> P Blocked by Grunt (21, 14). M moves to (22, 13).
+  5. Face Right, Interact.
+- **Action**: Execute Step 1 (Up x2).
