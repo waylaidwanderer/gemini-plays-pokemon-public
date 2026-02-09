@@ -9,13 +9,15 @@
 - **Murkrow**: (22, 12).
 - **Door**: (23, 14).
 
-## Strategy: Murkrow Right Flank
-- **Goal**: Place Murkrow at (24, 14) (Right of Door).
-- **Plan**:
-  1. `Right` x3 -> Me(24, 13). Bird blocked/moves to (22, 12) or (24, 12).
-  2. `Down` -> Me(24, 14). Bird(22, 13) or (24, 13).
-  3. `Right` x2 -> Me(26, 14). Bird anchored by Grunt/Wall.
-  4. `Down` -> Me(26, 15). Bird(24, 14).
-  5. `Left` x2 -> Me(24, 15). Bird pinned at (24, 14).
-  6. Interact Up.
-- **Action**: Execute Step 1 (Right x3).
+## Strategy: Murkrow Computer Scraping
+- **Goal**: Use the Solid Computer at (21, 10) to desync X-axis.
+- **Path**:
+  1. `Left` -> P(21, 13), M(21, 12).
+  2. `Up` -> P(21, 12), M(21, 11).
+  3. `Right` -> P(22, 12), M(22, 11).
+  4. `Up` -> P(22, 11), M(22, 10).
+  5. `Left` x2 -> P(20, 11). (M Blocked at 21,10, stays at 22,10).
+  6. `Down` x4 -> P(20, 15). M(22, 14).
+  7. `Right` x2 -> P(22, 15). M(22, 14) (Blocked by Wall).
+  8. Face Up, Interact.
+- **Action**: Execute Steps 1-4.
