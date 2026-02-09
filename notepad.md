@@ -9,12 +9,14 @@
 - **Murkrow**: (22, 12).
 - **Door**: (23, 14).
 
-## Strategy: Murkrow Stack
-- **Goal**: Stack with Murkrow using Grunt at (22, 9) as a backstop.
-- **Plan**:
-  1. Move Up to (22, 10). (Murkrow at 22, 9 - Blocked by Grunt).
-  2. Confirm Stack at (22, 10).
-  3. Move Down to (22, 14).
-  4. Move Left to (21, 14). (Murkrow at 22, 14).
-  5. Interact.
-- **Action**: Move Up x 4.
+## Strategy: Murkrow Complex
+- **Goal**: Place Murkrow at (22, 14) while I am at (22, 13).
+- **Phase 1**: Desync Y by pushing M into Desks.
+  1. `Left` x3 -> P(19, 13), M(21, 12).
+  2. `Up` x4 -> P(19, 9), M(21, 11).
+- **Phase 2**: Realign and Push Down.
+  3. `Down` x2 -> P(19, 11), M(21, 13).
+  4. `Right` x2 -> P(21, 11), M(22, 13).
+  5. `Down` x2 -> P(21, 13), M(22, 14).
+  6. `Right` -> P(22, 13), M(22, 14).
+- **Action**: Execute Phase 1 (Left x3, Up x4).
