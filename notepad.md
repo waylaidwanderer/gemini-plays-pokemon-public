@@ -11,18 +11,13 @@
   - If Murkrow is blocked, Murkrow STAYS.
   - Murkrow and Player cannot overlap.
 
-## Strategy: The Validated Solution
-- **Goal**: Place M at (22, 14).
-- **Current**: P(22, 14), M(22, 13).
+## Strategy: Interaction Check (Trap State)
+- **Status**: Trapped at (22, 14) with M at (22, 13).
 - **Plan**:
-  1. `Up` -> P(22, 13), M(22, 12).
-  2. `Left` -> P(21, 13), M(21, 12).
-  3. `Up` -> P(21, 12), M(21, 11).
-  4. `Right` -> P(22, 12), M(22, 11).
-  5. `Up` -> P(22, 11), M(22, 10).
-  6. `Left` -> P(21, 11). M Blocked at (21, 10). Stays (22, 10).
-  7. `Up` x2 -> P(21, 9). M Blocked at (22, 9). Stays (22, 10).
-  8. `Down` x4 -> P(21, 13), M(22, 14).
-  9. `Right` -> P(22, 13).
-  10. `Down`, `A`.
-- **Action**: Execute Steps 1-6 (Up, Left, Up, Right, Up, Left).
+  1. `B` (Close Grunt text).
+  2. `Up` (Face Murkrow).
+  3. `A` (Talk to Murkrow).
+  4. `Right` (Face Door).
+  5. `A` (Check Door).
+- **Contingency**: If this fails, use `Left` (Bump Grunt) to escape.
+- **Action**: Execute Sequence.
