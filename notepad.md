@@ -14,15 +14,14 @@
 
 ## Current Task
 - **Trigger Voice Lock**:
-  # Murkrow Puzzle - SEARCH MODE
-- **Status**: Murkrow LOST. Not visible at (22, 12) or (19, 12).
-- **Hypothesis**:
-  - Mimicked "Left" movement by moving "Up"? (If so, likely at 22, 8).
-  - Or fled/reset to a spawn point.
-- **Plan**:
-  1. Move Right/Up to scan the NE corner (including 22, 8).
-  2. If not found, check (20, 11) (Poster) and (7, 2) (Start).
-- **Goal**: Locate Murkrow.
+  # Murkrow Puzzle - EXECUTION
+- **Status**: Murkrow FOUND at (19, 12).
+- **Plan (Y-Align)**:
+  1. Move Left to (17, 13) (Use Jed to block X).
+  2. Move Up to (17, 11) (Use Wall at 19,10 to block Y).
+  3. Move Down to (17, 13) (Pull Murkrow to Y=13).
+  4. Move Right to (21, 13) (Push Murkrow to 22,13).
+  5. Talk to Murkrow.
 
-- Current: Me (18, 13).
-- Action: Move Right to (19, 13).
+- Current: Me (19, 13), Murkrow (19, 12).
+- Action: Left to (18, 13).
