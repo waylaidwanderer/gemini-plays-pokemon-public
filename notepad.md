@@ -12,19 +12,18 @@
 
 ## Current State
 - Map: B2F (3_51).
-- Player: (8, 4).
-- Murkrow: (8, 3) (Visual Confirmation).
+- Player: (14, 5).
+- Murkrow: (14, 4).
 - Goal: Guide Murkrow East to Boss Door (23, 14).
-- Constraint: Walls at x=11 block Row 3 & 4.
+- Obstacle: Wall/Shutter at Column 15.
 - Plan:
-  1. Move Right to (9, 4). (Murkrow -> 9, 3).
-  2. Move Right to (10, 4). (Murkrow -> 10, 3).
-  3. Move Down to (10, 5). (Murkrow -> 10, 4).
-  4. Move Right to bypass Wall at x=11.
+  1. Move Down to (14, 11) to inspect Shutter at (15, 11).
+  2. If Shutter is CLOSED: Abandon Murkrow, return to B1F to solve switches.
+  3. If Shutter is OPEN: Guide Murkrow through.
 
 ## Murkrow Mechanics
 - **Mimicry**: Exact copy of input.
-- **Collision**: Wall blocks movement, causing desync if player moves but Murkrow doesn't.
+- **Collision**: Wall blocks movement.
 
 ## Murkrow Status
 - Missing. Presumed at Start Area (7, 2) on B2F.
