@@ -10,6 +10,6 @@
 - **Door**: (23, 14).
 
 ## Strategy: Open Boss Door
-- **Status**: Murkrow at (22, 12), Player at (22, 13). Relative: North.
-- **Plan**: Move Down to pull Murkrow to (22, 13). Then interact.
-- **Action**: Move Down.
+- **Status**: Murkrow at (22, 12), Player at (22, 13).
+- **Plan**: Interact with Murkrow at (22, 12). If that fails, move Down to pull it.
+- **Action**: Move Right, Face Up, A.
