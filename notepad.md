@@ -11,11 +11,11 @@
 
 ## Current State
 - Map: B1F (3_50).
-- Player: (3, 2).
-- Status: Navigating to Grunt at (22, 5).
-- Route:
-  1. North to Row 1 -> East to (24, 1).
-  2. South to Row 16 -> West through Gap (23, 16).
-  3. North to Grunt at (22, 5).
-- Reason: Direct South blocked by Row 4 Wall. Direct East blocked by Row 2 Wall.
-- Action: Navigate to (24, 1).
+- Player: (3, 1).
+- Status: Rerouting to bypass blocked Grunt at (4, 1).
+- Insight: Grunt at (4, 1) blocks East. Stairs at (3, 2) warp to B2F.
+- Plan:
+  1. Move Down to (3, 2) to warp to B2F.
+  2. Immediately take stairs back UP to B1F (resetting position to 3, 2).
+  3. From (3, 2), move Right to (4, 2) (bypassing the Grunt).
+  4. Navigate East to Central Area.
