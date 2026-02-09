@@ -13,13 +13,17 @@
 ## Current State
 - Map: B1F (3_49).
 - Player: (6, 2).
-- Status: Interacted with Statue at (6, 1) ("Its eyes are oddly shiny").
-- Hypothesis: This switch opened the gate at (3, 14) or revealed stairs.
-- Goal: Check Stairs at (3, 14) (Southwest).
-- Path:
-  1. Move Left to (3, 2).
-  2. Move Down to (3, 14) (Check gate).
-  3. If open, descend to B2F.
+- Status: Handling Statue Switch at (6, 1). Text box "Its eyes are oddly shiny" is open.
+- Goal: Activate switch and check for changes.
+- Hypothesis:
+  1. Stairs appear at (3, 2).
+  2. Gate opens at B2F (3, 14).
+  3. Statue at (6, 1) becomes passable (Fake Wall).
+
+## Strategy
+1. Clear text box (Activate Switch).
+2. Move Left to (3, 2) to check for revealed stairs.
+3. If no stairs, move South to (3, 14).
 
 ## Murkrow Status
 - Missing. Presumed at Start Area (7, 2) on B2F.
