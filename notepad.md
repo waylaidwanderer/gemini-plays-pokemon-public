@@ -22,8 +22,8 @@
 ## Current Task
 - **Murkrow Chase**:
   - Status: Door locked despite password. Murkrow presence required.
-  - Plan: Finishing 'Team Rocket Oath' dialogue.
-  - Critical: I am standing at (21, 12), which is Murkrow's ONLY exit from (21, 11).
-  - Action: Clear text, then immediately move East to (22, 12) to unblock the path.
+  - Plan: Finishing 'Team Rocket Oath' dialogue using B BUTTONS to avoid re-triggering interaction loop.
+  - Critical: Player at (21, 12) blocking Murkrow at (21, 11).
+  - Action: Spam B to clear text, then move Right to (22, 12) immediately.
   - Expectation: Murkrow will flee South once the path is clear.
   - Passwords Known: "HAIL GIOVANNI" (Boss), "RATICATE TAIL", "SLOWPOKETAIL".
