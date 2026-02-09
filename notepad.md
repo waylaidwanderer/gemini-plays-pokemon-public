@@ -23,8 +23,8 @@
   4. Move Right to (21, 13) (Push Murkrow to 22,13).
   5. Talk to Murkrow.
 
-- Current: Me (7, 2). Murkrow NOT HERE.
-- Conclusion: Murkrow did NOT reset. It is still lost in the East Wing/NE Corner.
+- Current: Me (7, 3). Murkrow NOT HERE.
+- Observation: Movement to (7, 7) failed/interrupted last turn. Retrying.
 - Plan:
   1. Move Down to (7, 14).
   2. Move East to sweep the Southern corridor.
