@@ -21,10 +21,10 @@
 
 ## Current Task
 - **Murkrow Chase**:
-  - Status: Operation Jed Wedge in progress.
-  - Step 1: Move Left to (19, 13).
-  - Expected: Murkrow moves to (19, 12).
-  - Step 2: Move Left to (18, 13).
-  - Expected: Murkrow blocked by Jed at (18, 12), stays at (19, 12).
-  - Step 3: Move Down -> Right to guide Murkrow to (22, 13).
+  - Status: Operation Jed Wedge - Step 2 (The Pin).
+  - Current: Me (19, 13), Murkrow (19, 12).
+  - Action: Move Left to (18, 13).
+  - Goal: Force Murkrow to hit Jed at (18, 12).
+  - Expected Result: Murkrow stays at (19, 12) due to collision.
+  - Next: If successful, circle North to get above it.
   - Passwords: "HAIL GIOVANNI", "RATICATE TAIL", "SLOWPOKETAIL".
