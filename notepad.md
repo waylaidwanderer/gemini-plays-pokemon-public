@@ -12,9 +12,12 @@
 ## Current State
 - Map: B1F (3_50).
 - Player: (6, 13).
-- Status: Heading to B2F NW Stairs (3, 2).
-- Action: Navigate to (3, 2) and take stairs to B1F.
-- Objective: Find switch to open shutters at (15, 10).
-- Murkrow Status: Currently at (14, 10). Will follow player movement.
-- Note: Shutter at (15, 10) is closed.
-- Note: B1F (3, 6) room was empty.
+- Status: Searching for Shutter Switch on B1F NE.
+- Action: Navigate to B1F North-East area via Fake Wall at (6, 1).
+- Route:
+  1. Move East from (3, 2) to (6, 1).
+  2. Pass through Fake Wall.
+  3. Explore area around (22, 5) for switch/Executive.
+- Objective: Open B2F Shutter at (15, 10).
+- Murkrow Status: Waiting at B2F (14, 10).
+- Note: Shutter switch likely in secured area on B1F.
