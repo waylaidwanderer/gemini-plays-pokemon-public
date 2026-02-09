@@ -23,15 +23,9 @@
   4. Move Right to (21, 13) (Push Murkrow to 22,13).
   5. Talk to Murkrow.
 
-- Current: Me (18, 13). Murkrow LOST.
-- Observation: East Wing (Rows 12-14, Cols 19-23) appears EMPTY. Murkrow is not visible.
-- Hypothesis:
-  1. It reset to spawn (7, 2).
-  2. It moved to the NE corner (Rows 8-11).
-  3. It is hiding in a blind spot.
-- Plan:
-  1. Move Right to (19, 13) to confirm emptiness of East Wing.
-  2. Move Up/Left to search the rest of the map.
-  3. Check (7, 2).
+- Current: Me (19, 13). Murkrow LOST.
+- Action: Return to (7, 2) (Spawn Point).
+- Reasoning: Murkrow is not in East Wing. It likely reset.
+- Path: West through main hall.
 
-- Action: Move Right to (19, 13).
+- Goal: Locate Murkrow.
