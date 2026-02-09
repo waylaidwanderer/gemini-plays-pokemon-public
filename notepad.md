@@ -9,19 +9,20 @@
 - **Collision**:
   - P Blocked: Murkrow MOVES (Desync Source).
   - M Blocked: Murkrow STAYS.
-  - Overlap: Possible if P blocked and M moves into P's tile.
 
 ## Current State
-- Player: (21, 13) (After Left/Down).
-- Murkrow: (20, 13) (Predicted).
-- Grunt: (21, 14) (Blocking).
+- Player: (22, 14).
+- Murkrow: (22, 13).
 
-## Strategy: The Overlap Maneuver
+## Strategy: The Perfect Overlap
+- **Concept**: Block M against the top wall (21, 10) to align Y, then block P against the right wall (23, 12) to align X.
 - **Sequence**:
-  1. `Left` -> P(21, 13). M(20, 12). (Done)
-  2. `Down` -> P Blocked (Grunt). M(20, 13). (Done)
-  3. `Right` -> P(22, 13). M(21, 13).
-  4. `Right` -> P Blocked (Wall). M(22, 13) (OVERLAP!).
-  5. `Down` -> P(22, 14). M(22, 14).
-  6. `Right` -> Face Door.
-  7. `A` -> Open.
+  1. `Left` -> P Blocked (Grunt). M(21, 13).
+  2. `Up` -> P(22, 13). M(21, 12).
+  3. `Up` -> P(22, 12). M(21, 11).
+  4. `Up` -> P(22, 11). M Blocked by Wall (21, 10). M Stays (21, 11).
+  5. `Down` -> P(22, 12). M(21, 12). (Y Aligned!)
+  6. `Right` -> P Blocked by Wall (23, 12). M(22, 12). (Overlap!)
+  7. `Down` -> P(22, 13). M(22, 13).
+  8. `Down` -> P(22, 14). M(22, 14).
+  9. `Right`, `A`.
