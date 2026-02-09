@@ -11,10 +11,12 @@
 
 ## Current State
 - Map: B1F (3_50).
-- Player: (25, 14).
-- Status: Moving West to Engage Grunt at (21, 14).
-- Objective: Defeat Grunt guarding the door at (23, 14) (Likely Executive Room).
+- Player: (24, 14).
+- Status: Flanking South to reach Grunt at (21, 14).
+- Reason: Door at (23, 14) blocks direct path. Wall at (22, 15) prevents short flank.
 - Plan:
   1. Close text box.
-  2. Move West to (22, 14) to trigger battle.
-  3. Enter the door if possible or talk to Grunt after battle.
+  2. Go South to Row 16.
+  3. Go West to Column 20.
+  4. Go North to (20, 14).
+  5. Interact with Grunt at (21, 14).
