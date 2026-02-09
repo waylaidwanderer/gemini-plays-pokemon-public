@@ -21,10 +21,9 @@
 
 ## Current Task
 - **Murkrow Chase**:
-  - Status: Operation Jed Wedge - Step 4 (The Y-Sync).
-  - Current: Me (19, 12), Murkrow (20, 12).
-  - Action: Move Down to (19, 13).
-  - Expected: Murkrow moves Down to (20, 13).
-  - Result: Y-SYNCED at Row 13!
-  - Next: Move Right x2 to guide Murkrow to (22, 13).
+  - Status: Y-Sync Confirmed at Row 13.
+  - Current: Me (19, 13), Murkrow (20, 13).
+  - Action: Move Right to (20, 13).
+  - Expected: Murkrow mimics Right to (21, 13).
+  - Next: Move Right again to place Murkrow at (22, 13) (Boss Door Spot).
   - Passwords: "HAIL GIOVANNI", "RATICATE TAIL", "SLOWPOKETAIL".
