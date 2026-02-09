@@ -16,14 +16,14 @@
 - **Murkrow**: Unknown. Likely (22, 12) or (21, 13) or (23, 13).
 - **Goal**: Find Murkrow and Open Door.
 
-## Strategy: The Column 23 Flank
-- **Goal**: Use Column 23 (East) to circle around Murkrow.
-- **Current**: P(21, 13). M(21, 12).
-- **Plan**:
-  1. `Right` x2 -> P(23, 13), M(23, 12). (Test Col 23 Openness).
-  2. `Up` x2 -> P(23, 11), M(23, 10).
-  3. `Left` x3 -> P(20, 11). M Blocked at (21, 10). M Stays (22, 10).
-  4. `Down` x4 -> P(20, 15), M(22, 14).
-  5. `Right` x2 -> P(22, 15). M Stays (22, 14).
-  6. Interact Up.
-- **Action**: Execute Steps 1-2 (Right, Right, Up, Up).
+## Strategy: The Validated Flank (Full Sequence)
+- **Goal**: P(19, 9), M(22, 10).
+- **Current**: P(22, 13), M(22, 12).
+- **Sequence**:
+  1. `Left` -> P(21, 13).
+  2. `Up` -> P(21, 12).
+  3. `Right` -> P(22, 12).
+  4. `Up` -> P(22, 11). M(22, 10).
+  5. `Left` x3 -> P(19, 11). M Stays (22, 10).
+  6. `Up` x2 -> P(19, 9). M Stays (22, 10).
+- **Action**: Execute Alignment & Desync (Left, Up, Right, Up, Left, Left, Left).
