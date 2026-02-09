@@ -8,10 +8,11 @@
 - **Player**: (22, 13).
 - **Murkrow**: (22, 12).
 - **Door**: (23, 14).
-- **Blocker**: Silver is GONE.
+- **Silver**: GONE.
 
-## Strategy: Universal Execution (Retry)
-- **Goal**: Move Down, Get Password, Open Door.
+## Strategy: Universal Execution (Retry 2)
+- **Analysis**: Last attempt failed (reset to start). Likely because Silver blocked (22, 13) during my move, preventing Murkrow from following.
+- **Action**: Move Down (pulling Murkrow to 22, 13). Check Door. Talk to Murkrow. Open Door.
 - **Sequence**:
   1. `Down` (Me -> 22, 14; Murkrow -> 22, 13).
   2. `Right` (Face Door).
@@ -20,4 +21,3 @@
   5. `A` (Talk - "Hail Giovanni").
   6. `Right` (Face Door).
   7. `A` (Open Door).
-- **Correction**: Re-sending valid sequence with correct turn number.
