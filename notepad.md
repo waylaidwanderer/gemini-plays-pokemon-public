@@ -12,8 +12,10 @@
 ## Current State
 - Map: B1F (3_50).
 - Player: (25, 14).
-- Status: Engaging Grunt at (25, 13).
+- Status: Moving West to Engage Grunt at (21, 14).
+- Observation: Grunt at (25, 13) knows nothing.
 - Plan:
-  1. Defeat Grunt at (25, 13).
-  2. Check for switches/keys.
-  3. Move West to engage Grunt at (21, 14).
+  1. Move West to trigger Grunt at (21, 14).
+  2. Defeat him.
+  3. Check the door at (23, 14).
+  4. Find the Executive (Petrel/Proton/Ariana?).
