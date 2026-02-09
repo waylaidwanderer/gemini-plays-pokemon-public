@@ -15,11 +15,12 @@
 ## Current Task
 - **Trigger Voice Lock**:
   # Murkrow Puzzle (B2F)
-- **Status**: Me at (20, 13). Murkrow at (20, 12) (Wall).
-- **Visual**: Murkrow confirmed on desk at (20, 12).
-- **Action**: Move Down to (20, 14).
-- **Expectation**: Murkrow mimics Down to (20, 13) (Floor).
+- **Status**: Me at (20, 14). Murkrow potentially at (20, 13) (Invisible?) or (20, 12).
+- **Correction**: I am at (20, 14), not (20, 13). Previous move succeeded.
+- **Observation**: Tile (20, 13) appears empty on screen.
+- **Action**: Face Up and Interact.
+- **Hypothesis**: Murkrow might be invisible or didn't mimic correctly.
 - **Plan**:
-  1. Move Down.
-  2. Face Up and Talk.
-  3. Get Password.
+  1. Face Up.
+  2. Press A.
+  3. If no response, assume Murkrow lost/stuck elsewhere.
