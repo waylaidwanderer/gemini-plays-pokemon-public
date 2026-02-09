@@ -12,17 +12,15 @@
 
 ## Current State
 - Map: B1F (3_49).
-- Player: (3, 2).
-- Status: Stairs at (3, 2) are definitely missing.
-- Switch: Activated at (24, 1).
-- Goal: Go to B2F via Stairs at (27, 14) (Southeast Corner).
+- Player: (9, 5).
+- Status: Stairs at (3, 2) confirmed MISSING.
+- Goal: Reach Stairs at (27, 14) (Southeast).
 - Path:
-  1. Move Right to (9, 3).
-  2. Move Down through gap at (9, 4) to (9, 6).
-  3. Move Right to (27, 6).
-  4. Move Down to (27, 14).
-  5. Take Stairs to B2F.
-  6. Find Murkrow on B2F.
+  1. Move East along Row 5/6.
+  2. Avoid Statue at (24, 5).
+  3. Go South to (27, 14).
+  4. Descend to B2F.
+  5. Find Murkrow.
 
 ## Murkrow Status
 - Missing. Presumed at Start Area (7, 2) on B2F.
