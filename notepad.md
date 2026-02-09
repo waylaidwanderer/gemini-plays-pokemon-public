@@ -16,12 +16,14 @@
 - **Murkrow**: Unknown. Likely (22, 12) or (21, 13) or (23, 13).
 - **Goal**: Find Murkrow and Open Door.
 
-## Strategy: The Validated Slide (Alignment)
-- **Status**: P(18, 13). M(18, 11) or (18, 12).
-- **Goal**: Reach P(22, 11), M(22, 10).
-- **Logic**: Driving Murkrow North into the Grunt at (22, 9) forces alignment.
-- **Plan**:
-  1. `Right` x4 -> P(22, 13). M(22, 11).
-  2. `Up` x2 -> P(22, 11). M(22, 9) [Blocked]. M Stays (22, 10).
-  3. `Left` -> Start Desync P(21, 11).
-- **Action**: Execute Alignment (Right x4, Up x2).
+## Strategy: The Validated Slide (Execution)
+- **Goal**: Reach Desync State P(21, 11), M(22, 10).
+- **Current**: P(22, 13), M(22, 12).
+- **Sequence**:
+  1. `Left` -> P(21, 13), M(21, 12).
+  2. `Up` -> P(21, 12), M(21, 11).
+  3. `Right` -> P(22, 12), M(22, 11).
+  4. `Up` -> P(22, 11), M(22, 10).
+  5. `Left` -> P(21, 11). M Blocked at (21, 10). M Stays (22, 10).
+- **Next Turn**: `Down` x4 (Slide M to 22, 14), `Right`, `A`.
+- **Action**: Execute Alignment & Desync (Left, Up, Right, Up, Left).
