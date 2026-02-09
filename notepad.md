@@ -12,18 +12,20 @@
 
 ## Current State
 - Map: B2F (3_51).
-- Player: (14, 8).
-- Murkrow: (14, 8) (Stacked with Player due to wall collision).
+- Player: (11, 10).
+- Murkrow: (11, 10) (Stacked).
 - Goal: Guide Murkrow East to Boss Door (23, 14).
+- Obstacle: Shutter at (15, 10) & (15, 11).
 - Plan:
-  1. Move Left to (11, 8) to clear the table wall.
-  2. Move Down to (11, 11).
-  3. Move Right to check/pass Shutter at (15, 11).
+  1. Move Right to (14, 10).
+  2. Attempt to pass Shutter at (15, 10).
+  3. If successful, continue East.
+  4. If blocked, return to B1F to activate switches.
 
 ## Murkrow Mechanics
 - **Mimicry**: Exact copy of input.
 - **Collision**: Wall blocks movement.
-- **Sync**: Currently stacked on same tile.
+- **Sync**: Stacked.
 
 ## Murkrow Status
 - Missing. Presumed at Start Area (7, 2) on B2F.
