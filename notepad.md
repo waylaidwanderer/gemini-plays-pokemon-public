@@ -15,10 +15,8 @@
 ## Current Task
 - **Trigger Voice Lock**:
   # Murkrow Puzzle (B2F)
-- **Status**: Murkrow presumed at (22, 12) (Wall). Me at (22, 13).
-- **Reasoning**: Previous 'Up' move separated us (Bird went into wall, I stayed). Interaction with wall failed.
-- **Action**: Move Down to (22, 14).
-- **Goal**: Pull Murkrow to (22, 13) (Floor) to make it interactable.
-- **Plan**:
-  1. Move Down.
-  2. Face Up and Talk.
+- **Status**: Murkrow CONFIRMED at (22, 13) (Floor). Me at (22, 14).
+- **Rival**: Silver at (21, 13).
+- **Action**: Face Up and Interact.
+- **Goal**: Get "HAIL GIOVANNI".
+- **Contingency**: If this fails, move Down to (22, 15) to pull Murkrow to (22, 14).
