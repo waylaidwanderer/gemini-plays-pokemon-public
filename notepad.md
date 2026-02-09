@@ -22,9 +22,10 @@
 ## Current Task
 - **Murkrow Chase**:
   - Status: LOST.
-  - Mistake: Mental Map XML does NOT track live sprites. Visual sweep is mandatory.
+  - Mistake: Accidentally exited to Shop (3_48).
+  - Map Clarification: 3_49 seems to be B1F (connects to Shop).
   - Search Plan:
-    1. Sweep Fake Computer Room (19, 4).
-    2. Sweep NE Corner (27, 2).
-    3. Re-check the "Exit" stairs at (27, 2) just in case.
-  - Note: Grunt at (2, 4) is not Murkrow.
+    1. Re-enter 3_49.
+    2. Sweep East Wing (Cols 20-27) from North to South.
+    3. Check SE Corner (27, 14).
+  - Note: If Murkrow is not found, check B2F (via SE stairs).
