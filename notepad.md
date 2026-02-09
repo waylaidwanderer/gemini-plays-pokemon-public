@@ -12,8 +12,12 @@
 ## Current State
 - Map: B1F (3_50).
 - Player: (6, 13).
-- Status: Backtracking to B1F NE via B2F.
-- Action: Go to SE Stairs (27, 14), take to B2F, traverse to NE Stairs (27, 2), take to B1F.
-- Reason: B1F SE Quadrant is a dead end (Row 10 blocked).
-- Objective: Inspect computers at (20, 2) from the North side (Row 1).
+- Status: Searching B1F North Corridor (Row 1) for Switch.
+- Action: Inspect computers from (24, 2) Westwards to (19, 2).
+- Route:
+  1. Move West from (27, 2) to (24, 2).
+  2. Enter Row 1 Gap at (24, 2).
+  3. Move West along Row 1.
+  4. Inspect back of computers at Row 2.
+- Objective: Find switch to open B2F shutters.
 - Murkrow Status: Waiting at B2F (14, 10).
