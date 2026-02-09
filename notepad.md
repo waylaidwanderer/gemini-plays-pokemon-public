@@ -15,10 +15,11 @@
 ## Current Task
 - **Trigger Voice Lock**:
   # Murkrow Puzzle (B2F)
-- **Status**: Me at (20, 13). Murkrow at (20, 12) (Desk).
-- **Strategy**: Herd Murkrow to the Boss Door at (22, 14) / (23, 14).
+- **Status**: Me at (22, 13). Murkrow at (22, 12) (Wall).
+- **Action**: Move Down to (22, 14).
+- **Expectation**: Murkrow mimics Down to (22, 13) (Floor).
+- **Goal**: Bring Murkrow to the door area.
 - **Plan**:
-  1. Move Right to (22, 13). (Murkrow -> 22, 12).
+  1. Move Down to (22, 14).
   2. Move Down to (22, 15). (Murkrow -> 22, 14).
-  3. Murkrow will be adjacent to door. Interact.
-- **Action**: Move Right x2.
+  3. Talk to Murkrow or Door.
