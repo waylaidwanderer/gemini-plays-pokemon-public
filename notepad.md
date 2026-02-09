@@ -11,13 +11,14 @@
   - Chase Blocked: P cannot move into M's tile even if M moves away.
 
 ## Current State
-- Player: (20, 14).
-- Murkrow: Unknown (Not visible at 20,13 / 21,13).
-- Status: Text Box Open (Grunt).
+- Player: (22, 13) (GameState) / (21, 13) (Screen).
+- Murkrow: (22, 12).
+- Grunt: (21, 14) Facing Left (Safe).
 
-## Strategy: Recovery
-- **Goal**: Close text and locate Murkrow.
+## Strategy: Open Door
+- **Goal**: Position Murkrow at (22, 13) and Player at (22, 14).
 - **Execution**:
-  1. `B` -> Close Text.
-  2. `Up` -> Move to (20, 13).
-  3. Verify Murkrow position.
+  1. `Right` (Align P/M).
+  2. `Down` (Move P to 22,14, M to 22,13).
+  3. `Right` (Face Door).
+  4. `A` (Open).
