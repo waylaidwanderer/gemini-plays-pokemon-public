@@ -21,12 +21,9 @@
 
 ## Current Task
 - **Murkrow Chase**:
-  - Status: LOST.
-  - Mistake: Switch at (19, 11) was empty (hallucinated marker).
-  - Last Known Pos: (22, 12) following me South.
-  - Search Plan:
-    1. Scan Row 12 (East of Jed).
-    2. Check Boss Door (22, 14).
-    3. Check Shutter (15, 10).
-    4. Check Start (7, 2).
+  - Status: FOUND at (22, 11). I am at (22, 12).
+  - Observation: Murkrow is mimicking movement (Leash behavior).
+  - Plan: Lead it South to the Boss Door.
+  - Action: Move Down to (22, 13).
+  - Expectation: Murkrow moves to (22, 12).
   - Passwords: "HAIL GIOVANNI", "RATICATE TAIL", "SLOWPOKETAIL".
