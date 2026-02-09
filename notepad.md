@@ -21,9 +21,9 @@
 
 ## Current Task
 - **Murkrow Chase**:
-  - Event: Poked at (14, 10). Vanished.
-  - Search Plan:
-    1. Check Switch (19, 11).
-    2. Check Boss Door (22, 14).
-    3. If missing, check Start (7, 2).
-  - Route: East to Col 24 -> South -> West to Switch.
+  - Event: Poked at (14, 10). Vanished. Found again at (22, 12).
+  - Status: I am at (22, 13), Murkrow is at (22, 12).
+  - Action: Interact from South (22, 13).
+  - Note: I am between the bird and the Boss Door (22, 14).
+  - Plan: Interact, then move aside (Left) if needed.
+  - Passwords: "HAIL GIOVANNI", "RATICATE TAIL", "SLOWPOKETAIL".
