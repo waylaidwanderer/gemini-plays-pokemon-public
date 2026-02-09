@@ -521,12 +521,17 @@
         }
       }
     },
-    "python_script": "def run(input_data):\n    # This script automates selecting Dig from the party menu\n    # Assumes the menu is NOT open, or we need to open it.\n    # Steps:\n    # 1. Press Start to open menu (if not open) - Wait, Party is usually accessible.\n    # 2. But we can just use the \"party_menu\" expression or direct buttons.\n    # 3. Best sequence: Start -> Pokemon -> Select Pokemon -> Dig.\n    \n    # Actually, simpler: Open Party, Select 1st Pokemon (Garnet), Select Dig.\n    return [\n        \"Start\", \"sleep 500\",\n        \"A\", \"sleep 500\", # Select POKEMON (Usually first option? No, Pokedex is first usually)\n        # Gen 2 Menu: Pokedex, Pokemon, Pack, Pokegear...\n        \"Down\", \"A\", \"sleep 500\", # Select Pokemon\n        \"A\", \"sleep 500\", # Select first Pokemon (Garnet)\n        \"Down\", \"Down\", \"Down\", \"Down\", \"A\", # Select Dig (Moves are usually Field Moves at bottom?)\n        # Wait, selecting a Pokemon gives: Stats, Switch, Move, Cancel?\n        # No, in Gen 2 overworld: \"Stats, Switch, Item, Cancel\" or similar.\n        # If a pokemon has a field move, it appears in the list?\n        # Let's verify menu structure.\n        # Usually: Stats, Switch, Move, Cancel. Field moves appear as options like \"Dig\" if available.\n        # For Garnet (Typhlosion), Dig is a move. \n        # Clicking the pokemon opens a sub-menu.\n        # If Dig is usable, it appears.\n        # Order: Cut, Fly, Surf, Strength, Flash, Dig, Teleport, Softboiled, Headbutt.\n        # Dig is usually there.\n        # Let's try to assume it's the first or second option if available?\n        # Or we can just use the Party Menu tool if it exists? No.\n        \n        # Safe sequence:\n        # Start\n        # Down (Pokemon)\n        # A\n        # A (First mon)\n        # Look for Dig. \n        # We can't see the screen in the script.\n        # Better to just open the menu and let the agent handle it step by step?\n        # The prompt asks for a \"tool\" or \"code\".\n        # I will define a tool but maybe I should just press buttons manually to be safe since I need visual feedback.\n    ]\n    print(\"Manual operation preferred for complex menu navigation without feedback loops.\")\n    return []",
+    "python_script": "def run(input_data):\n    # Updated sequence for Gen 2\n    # Start -> Down (Pokemon) -> A -> A (Lead Mon) -> Down x3 (Dig) -> A\n    # Timings added for reliability\n    return [\n        \"Start\", \"sleep 500\",\n        \"Down\", \"sleep 200\",\n        \"A\", \"sleep 500\",\n        \"A\", \"sleep 500\",\n        \"Down\", \"sleep 200\",\n        \"Down\", \"sleep 200\",\n        \"Down\", \"sleep 200\",\n        \"A\"\n    ]",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2026-02-09T05:27:04.693Z",
         "action_counter": 34561
+      },
+      {
+        "commit_message": "Fixed button sequence for Gen 2 menu navigation: Start -> Down (Pokemon) -> A -> A (Lead) -> Down x3 (Dig) -> A.",
+        "timestamp": "2026-02-09T05:29:28.363Z",
+        "action_counter": 34565
       }
     ]
   }
