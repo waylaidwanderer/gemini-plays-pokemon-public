@@ -15,8 +15,8 @@
 ## Current Task
 - **Trigger Voice Lock**:
   # Murkrow Puzzle (B2F)
-- **Status**: Me at (21, 13). Murkrow at (21, 13) (Overlap?).
-- **Action**: Move Down (Blocked by Grunt).
-- **Mechanic**: I stay put. Murkrow attempts Down to (21, 13).
-- **Hypothesis**: This forces an overlap or resyncs positions.
-- **Next**: Move Right to (22, 13) carrying the Murkrow.
+- **Status**: Me at (21, 13). Murkrow at (21, 13) (Overlap).
+- **Strategy**: Move Right to carry Murkrow to the East Wing.
+- **Action**: Move Right to (22, 13).
+- **Expectation**: Murkrow mimics Right to (22, 13). Still overlapped.
+- **Next**: Move Down to (22, 14) to place us both in front of the door.
