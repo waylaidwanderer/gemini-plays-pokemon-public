@@ -15,11 +15,10 @@
 ## Current Task
 - **Trigger Voice Lock**:
   # Murkrow Puzzle (B2F)
-- **Status**: Murkrow NOT VISIBLE at (21, 13). Position Unknown.
-- **Hypothesis**: Murkrow might be stuck in a wall or off-sync.
-- **Action**: Move Down to (19, 14).
-- **Reasoning**: If Murkrow is at (21, 13), it will be blocked by Grunt at (21, 14). This desyncs Y.
+- **Status**: Murkrow LOST. Not visible in immediate area.
+- **Action**: Move Up to (19, 13).
+- **Goal**: Regain visibility of Row 12/13/14 East.
 - **Plan**:
-  1. Move Down.
-  2. Scan for Murkrow.
-  3. Re-evaluate position.
+  1. Move Up to (19, 13).
+  2. Move Right to sweep East Wing.
+  3. If not found, check (22, 9) (Spawn) or (7, 2).
