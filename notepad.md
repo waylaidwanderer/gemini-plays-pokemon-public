@@ -12,9 +12,9 @@
 ## Current State
 - Map: B1F (3_50).
 - Player: (6, 13).
-- Status: Exploring North Central B2F for Shutter Switch.
+- Status: Exploring North Central B2F (Search for Switch).
 - Action: Moving Up to (11, 5).
-- Sequence: Right (to 12, 10), Up x5.
-- Expected State: Player at (12, 5). Murkrow stays at (14, 10) (blocked by wall).
-- Note: Shutter at (15, 10) appears closed.
-- Note: Need to find switch to open shutters (likely Row 10/11 shutters).
+- Sequence: Up x5.
+- Expected State: Player at (12, 5).
+- Observation: Looking for a switch to open the shutter at (15, 10).
+- Murkrow Status: Currently trapped in central/east corridor, blocked by shutter at (15, 10).
