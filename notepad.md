@@ -12,10 +12,9 @@
 ## Current State
 - Map: B1F (3_50).
 - Player: (6, 13).
-- Status: Testing Shutter at (15, 10).
-- Action: Moving Right to inspect shutter and Murkrow's progress.
-- Sequence: Right x7.
-- Expected State:
-  - If Open: Player (11, 10), Murkrow (17, 10).
-  - If Closed: Player (11, 10), Murkrow (14, 10).
-- Note: If closed, must reset and find switch.
+- Status: Exploring North Central B2F for Shutter Switch.
+- Action: Moving Up to (11, 5).
+- Sequence: Right (to 12, 10), Up x5.
+- Expected State: Player at (12, 5). Murkrow stays at (14, 10) (blocked by wall).
+- Note: Shutter at (15, 10) appears closed.
+- Note: Need to find switch to open shutters (likely Row 10/11 shutters).
