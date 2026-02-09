@@ -12,10 +12,9 @@
 ## Current State
 - Map: B1F (3_50).
 - Player: (6, 13).
-- Status: Concluding B1F Switch Search.
-- Action: Checking final computers at (9, 2), (8, 2), (7, 2).
-- Plan:
-  1. If no switch found, abort search.
-  2. Return to B2F via NE Stairs (27, 2).
-  3. Solve Murkrow Puzzle using geometry/obstacles.
+- Status: Returning to B2F via NW Stairs (3, 2).
+- Action: Navigate West from (7, 1) to (3, 2).
+- Route: Left (to 5, 1), Down (to 5, 2), Left (to 3, 2).
+- Objective: Reach Murkrow at B2F (14, 10).
 - Murkrow Status: Waiting at B2F (14, 10).
+- Puzzle Plan: Use walls/obstacles to align Murkrow and guide it through the gap at (15, 12) or similar, assuming shutter (15, 10) remains closed.
