@@ -12,18 +12,16 @@
 
 ## Current State
 - Map: B2F (3_51).
-- Player: (14, 10).
-- Status: Blocked by Locked Shutters at (15, 10) & (15, 11).
-- Conclusion: B1F Switches were not activated correctly.
-- Murkrow: With me, but must be abandoned to fix switches.
+- Player: (3, 10).
+- Status: Navigating to SW Stairs.
+- Observation: Stairs are NOT at (3, 14). The room extends South.
+- Goal: Find stairs at the south end of this room (likely 3, 16) to return to B1F.
 
 ## Plan
-1. Return to B1F via SW Stairs (3, 14).
-2. Navigate East on B1F via the gap at (23, 16).
-3. Investigate and Activate East Switch at (24, 1).
-4. Investigate and Activate West Switch at (6, 1).
-5. Verify Shutters open.
-6. Restart Murkrow mission.
+1. Move South to finding the actual stairs.
+2. Return to B1F.
+3. Activate East Switch (24, 1) and West Switch (6, 1).
+4. Return to B2F and guide Murkrow.
 
 ## Murkrow Status
 - Missing. Presumed at Start Area (7, 2) on B2F.
