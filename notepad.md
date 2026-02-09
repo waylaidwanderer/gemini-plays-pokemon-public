@@ -22,8 +22,8 @@
 ## Current Task
 - **Murkrow Chase**:
   - Status: Door locked despite password. Murkrow presence required.
-  - Observation: Checking shutter at (15, 10) with Switch OFF.
-  - Action: interact (A) then move Up.
-  - Contingency: If shutter is locked, the switch might control traps or I missed a step. Will return to Murkrow at (22, 10) and retry interaction.
-  - Hypothesis: Murkrow might require specific positioning or full dialogue completion to move.
+  - Observation: Shutter (15, 10) appears locked/closed.
+  - Insight: Murkrow is at (22, 10), which might be the *only* walkable gap in the Row 10 wall.
+  - Hypothesis: Interacting with Murkrow will make it move, clearing the path to the North Corridor.
+  - Plan: Return to (22, 11) and interact with Murkrow to clear the path.
   - Passwords Known: "HAIL GIOVANNI" (Boss), "RATICATE TAIL", "SLOWPOKETAIL".
