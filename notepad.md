@@ -12,17 +12,17 @@
 
 ## Current State
 - Map: B1F (3_49).
-- Player: (12, 3).
-- Goal: Check Statue at (24, 6).
-- Path:
-  1. Go Left to (9, 3).
-  2. Go Down through gap at (9, 4) to (9, 5).
-  3. Go Right along Row 5 to (24, 5).
-  4. Go Down to (24, 6).
-  5. Inspect Statue.
-  6. Go South to Stairs at (27, 14).
-  7. Return to B2F to find Murkrow.
+- Player: (24, 6).
+- Status: Inspected Statue at (24, 6) -> No switch found.
+- Layout: Seemingly trapped between Row 4 (North Wall) and Row 8 (South Wall) on the East side.
+- Goal: Return to B2F to find Murkrow.
+- Escape Plan: Go West to Fake Computer at (19, 4) or Gap at (9, 4) to cross North/South barriers.
 
-## Murkrow Status
-- Missing. Presumed at Start Area (7, 2) on B2F.
-- Plan: Use East Stairs to loop back to Start Area.
+## Strategy: Search & Rescue
+- **Sequence**:
+  1. Move Left to (19, 6).
+  2. Attempt to cross North at (19, 4).
+  3. If successful, check Warp at (25, 2) OR go West to Stairs at (3, 14).
+  4. If (19, 4) blocked, continue West to (9, 4).
+  5. Go to Stairs at (3, 14).
+  6. Return to B2F.
