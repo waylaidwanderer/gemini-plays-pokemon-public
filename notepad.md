@@ -12,9 +12,9 @@
 ## Current State
 - Map: B1F (3_50).
 - Player: (6, 13).
-- Status: Exploring North Central B2F (Pocket Area).
-- Action: Moving Left then Up to reach the pocket area (Rows 5-8, Cols 11-14).
-- Sequence: Left, Up x5.
-- Expected State: Player at (11, 5). Murkrow at (13, 10) (blocked by wall).
-- Observation: Checking for switches in the northern pocket.
-- Note: (12, 9) was a wall, blocking previous attempt.
+- Status: Exploring North Central B2F (Search for Switch).
+- Action: Checking objects in Row 1.
+- Sequence: Check (12, 1).
+- Expected State: Player at (12, 2). Murkrow at (13, 10).
+- Observation: (13, 1) is propaganda. (12, 1) looks different (Bookshelf?).
+- Murkrow Status: At (14, 10) (Blocked by shutter at 15, 10). Moving Left will pull it back to (13, 10).
