@@ -21,12 +21,11 @@
 
 ## Current Task
 - **Murkrow Chase**:
-  - Status: I am at (22, 13). Murkrow is at (22, 12).
-  - Observation: Murkrow maintained relative position (North of me) when I moved Down.
-  - Hypothesis: It follows me (leash) OR occupies my previous tile.
-  - Plan: Move Left to (21, 13).
-  - Test:
-    - If it moves to (21, 12) -> Mimics X/Y (Leash).
-    - If it moves to (22, 13) -> Occupies previous tile (Follower).
-  - Goal: Get it to (22, 13) to trigger the Boss Door.
+  - Behavior: Murkrow mimics movement vector.
+  - Problem: I need to be North of it to push it South, but it moves with me.
+  - Solution: Use obstacles (Jed at 18, 12) to block Murkrow while I move.
+  - Plan:
+    1. Move Left to (18, 13). Murkrow hits Jed at (18, 12) and desyncs.
+    2. Circle around Top (Row 9) to get North of Murkrow.
+    3. Push Murkrow South to the Door.
   - Passwords: "HAIL GIOVANNI", "RATICATE TAIL", "SLOWPOKETAIL".
