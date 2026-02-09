@@ -12,17 +12,18 @@
 
 ## Current State
 - Map: B2F (3_51).
-- Player: (7, 3).
-- Status: Testing Murkrow Mimicry.
-- Murkrow: At (7, 2).
+- Player: (7, 4).
+- Status: Guiding Murkrow.
+- Murkrow: At (7, 3).
+- Behavior Confirmed: Exact Mimicry (Player Down -> Murkrow Down).
 - Plan:
-  1. Move Down to (7, 4).
-  2. Verify if Murkrow follows to (7, 3).
-  3. Lead Murkrow East towards Boss Door (23, 14).
+  1. Move Right to (8, 4).
+  2. Murkrow should move Right to (8, 3).
+  3. Continue guiding East towards column 23.
 
-## Murkrow Mechanics (To Verify)
-- Expected: Same-direction mimicry.
-- Strategy: Move, then wait/check.
+## Murkrow Mechanics
+- **Mimicry**: Moves in the SAME direction as the player.
+- **Collision**: If blocked, it stays put (allowing desync).
 
 ## Murkrow Status
 - Missing. Presumed at Start Area (7, 2) on B2F.
