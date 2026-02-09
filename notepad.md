@@ -21,9 +21,9 @@
 
 ## Current Task
 - **Murkrow Chase**:
-  - Status: Murkrow at (19, 11). I am at (17, 12).
-  - Plan: Move Up to (17, 11).
-  - Expectation: Murkrow hits wall at (19, 10) and stays at (19, 11).
-  - Result: Y-Sync achieved (Both at Row 11).
-  - Next: Move Right to lead Murkrow to (22, 11).
+  - Status: Y-Sync Achieved! Both at Row 11.
+  - Locations: Me (17, 11), Murkrow (19, 11).
+  - Plan: Move Right to push Murkrow towards Col 22.
+  - Route: (17, 11) -> (18, 11) -> (19, 11).
+  - Goal: Get Murkrow to (22, 11) or (22, 12).
   - Passwords: "HAIL GIOVANNI", "RATICATE TAIL", "SLOWPOKETAIL".
