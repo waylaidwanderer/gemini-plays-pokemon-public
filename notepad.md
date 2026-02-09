@@ -12,17 +12,11 @@
   - No Overlap.
 
 ## Current State
-- **Player**: (21, 13).
-- **Murkrow**: (21, 12). (Derived from mimicry).
+- **Player**: (22, 13). (Confirmed by Game State).
+- **Murkrow**: Unknown. Likely (22, 12) or (21, 13) or (23, 13).
+- **Goal**: Find Murkrow and Open Door.
 
-## Strategy: The Validated Slide (Step 1: Alignment)
-- **Goal**: Position P at (22, 11), M at (22, 10).
-- **Current**: P(22, 13), M(22, 12).
-- **Sequence**:
-  1. `Left` -> P(21, 13), M(21, 12).
-  2. `Up` -> P(21, 12), M(21, 11).
-  3. `Right` -> P(22, 12), M(22, 11).
-  4. `Up` -> P(22, 11), M(22, 10).
-- **Verification**: Check if P is at (22, 11).
-- **Next**: `Left` to Desync.
-- **Action**: Execute Alignment.
+## Strategy: Position Verification
+- **Action**: Move `Left` to (21, 13).
+- **Reason**: To verify movement and look for Murkrow.
+- **Follow-up**: If at (21, 13), proceed with Alignment (`Up`, `Right`, `Up`).
