@@ -23,12 +23,10 @@
   4. Move Right to (21, 13) (Push Murkrow to 22,13).
   5. Talk to Murkrow.
 
-- Current: Me (19, 13). Murkrow (19, 12).
+- Current: Me (17, 13). Murkrow (19, 12) [Blocked by Jed].
 - Plan:
-  1. Move Left to (18, 13). (Murkrow blocked by Jed? Stays at 19, 12).
-  2. Move Left to (17, 13). (Murkrow blocked by Jed? Stays at 19, 12).
-  3. Move Up to (17, 12). (Murkrow blocked by Switch? Stays at 19, 12).
-  4. Move Down to (17, 13). (Murkrow moves Down to 19, 13).
-  5. Move Right to push Murkrow to door.
+  1. Move Up to (17, 12). (Murkrow attempts Up to 19, 11 -> Blocked by Switch?).
+  2. Move Down to (17, 13). (Murkrow moves Down to 19, 13).
+  3. Move Right to push Murkrow to door.
 
-- Action: Move Left to (18, 13).
+- Action: Move Up to (17, 12).
