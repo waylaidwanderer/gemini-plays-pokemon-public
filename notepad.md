@@ -12,15 +12,14 @@
 
 ## Current State
 - Map: B1F (3_49).
-- Player: (6, 2).
-- Status: Dialogue "It's a PERSIAN statue..." implies switch state changed (no longer "shiny").
-- History: Log Turn 33940 claims (6, 1) is a FAKE WALL.
-- Goal: Test Fake Wall theory.
+- Player: (5, 2).
+- Status: Switch at (6, 1) PRESSED (Confirmed via shiny eyes dialogue).
+- Observation: Statue at (6, 1) is SOLID. "Fake Wall" theory disproven for now.
+- Goal: Check if switch opened the path to B2F.
 - Plan:
-  1. Close text.
-  2. Move UP into (6, 1).
-  3. If successful, move LEFT to find hidden path.
-  4. If blocked, move South to (3, 14) stairs again (Type 8564).
+  1. Check (3, 2) for stairs (Visual check).
+  2. If none, proceed South to (3, 14).
+  3. Descend to B2F and check the wall/gate at (3, 12).
 
 ## Murkrow Status
 - Missing. Presumed at Start Area (7, 2) on B2F.
