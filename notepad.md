@@ -23,8 +23,7 @@
   4. Move Right to (21, 13) (Push Murkrow to 22,13).
   5. Talk to Murkrow.
 
-- Current: Me (13, 14) on Map 3_50 (B2F).
-- Objective: Reach Murkrow at (22, 9).
-- Path: Move East along Row 14, past the Grunt at (21, 14), then North along the East wall (Col 24+).
-- Note: Row 12 appears to be a wall except for Cols 24-28.
-- Goal: Herd Murkrow to Boss Door (23, 14).
+- Current: Me (20, 14) on Map 3_50.
+- Immediate Task: Defeat Rocket Grunt at (21, 14).
+- Next: Move North to (22, 9) to find Murkrow.
+- Goal: Open Boss Door at (23, 14).
