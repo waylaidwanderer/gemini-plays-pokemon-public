@@ -12,12 +12,13 @@
 ## Current State
 - Map: B1F (3_50).
 - Player: (6, 13).
-- Status: Moving to North-East area to reach Row 1.
+- Status: Flanking "Just a Grunt" via B2F.
 - Route:
-  1. Bypass "Just a Grunt" at (25, 13) via East side (Col 26).
-  2. Navigate North to Row 1.
-  3. Go West to (22, 5) to defeat the Grunt there.
-- Note: Grunt at (25, 13) is non-hostile and blocks the path.
-- Note: Row 12 is a solid wall of desks blocking North-South movement in the West room.
-- Note: Grunt at (21, 14) is Defeated.
+  1. Travel North on B2F along East wall (Col 28).
+  2. Reach Stairs at (27, 2).
+  3. Take Stairs to B1F (27, 2).
+  4. Navigate West/South to reach Grunt at (22, 5) on B1F.
+- Note: Boss Door is likely at B2F (23, 14).
+- Note: Current Map B2F (3_51).
+- Note: Murkrow last seen at B2F (7, 2).
 - Note: Trap detected at (7, 5).
