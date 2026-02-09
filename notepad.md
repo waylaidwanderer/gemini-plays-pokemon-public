@@ -22,8 +22,10 @@
 ## Current Task
 - **Murkrow Chase**:
   - Status: LOST.
-  - Event: I moved Left to (18, 13). Murkrow should have hit Jed at (18, 12).
-  - Observation: Murkrow is NOT visible at (19, 12) or in the corridor.
-  - Hypothesis: It either flew away, passed through Jed, or is invisible.
-  - Plan: Circle around Jed to check (19, 11) (Switch) and (19, 12) from the North/West.
+  - Event: Vanished after I moved West towards Jed.
+  - Search Plan:
+    1. Check Switch (19, 11) (Current target).
+    2. Check Boss Door (22, 14).
+    3. Check Start (7, 2).
+  - Hypothesis: It might have clipped through a wall or reset.
   - Passwords: "HAIL GIOVANNI", "RATICATE TAIL", "SLOWPOKETAIL".
