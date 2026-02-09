@@ -12,10 +12,11 @@
 ## Current State
 - Map: B1F (3_50).
 - Player: (9, 1).
-- Status: Navigating to Central Area.
-- Discovery: "Fake Wall" at (6, 1) confirmed passable.
-- Route:
-  1. Move East to (19, 1).
-  2. Move South through gap at (19, 4).
-  3. Move East to Grunt at (22, 5).
-  4. Defeat Grunt and search for switches.
+- Status: Rerouting to South B1F via B2F East Loop.
+- Insight: B1F North and South are severed by walls/gates. B2F West is blocked.
+- Path:
+  1. Go East to NE Stairs (27, 2).
+  2. Take Stairs to B2F (27, 2).
+  3. B2F: South via Col 28 to Row 15 -> West to SE Stairs (27, 14).
+  4. Take Stairs to B1F (27, 14).
+  5. Explore South B1F (Grunts at 25, 13 and 22, 5).
