@@ -15,10 +15,8 @@
 ## Current Task
 - **Trigger Voice Lock**:
   # Murkrow Puzzle (B2F)
-- **Status**: Murkrow LOST. Not visible in immediate area.
-- **Action**: Move Up to (19, 13).
-- **Goal**: Regain visibility of Row 12/13/14 East.
-- **Plan**:
-  1. Move Up to (19, 13).
-  2. Move Right to sweep East Wing.
-  3. If not found, check (22, 9) (Spawn) or (7, 2).
+- **Status**: Murkrow presumed at (19, 12) (Wall). Me at (19, 13).
+- **Strategy**: Move East to (22, 13), then Down to (22, 14) to pull Murkrow off the wall.
+- **Action**: Move Right to (20, 13).
+- **Expectation**: Murkrow moves to (20, 12) (Wall).
+- **Next**: Continue Right to (22, 13).
