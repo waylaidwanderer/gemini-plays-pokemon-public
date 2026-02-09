@@ -12,13 +12,14 @@
 ## Current State
 - Map: B1F (3_50).
 - Player: (6, 13).
-- Status: Navigating B2F maze to find Murkrow.
+- Status: Navigating to Murkrow via South Corridor (Row 12).
 - Route:
-  1. Navigate West from Boss Door area.
-  2. Reach Murkrow at (7, 2).
-  3. Lead Murkrow back to Boss Door.
-- Note: Path to SE Stairs at (27, 14) is blocked by a defeated Grunt at (24, 14).
-- Note: Must traverse the western part of B2F to reach the north.
+  1. Go South from (16, 9) to Row 12.
+  2. Go West along Row 12 to (10, 12).
+  3. Go North along Col 10 to (7, 2).
+- Note: Row 10/11 shutters are closed/blocked.
+- Note: Murkrow at (7, 2) mimics movement.
+- Note: Boss Door at B2F (23, 14).
 - Note: Boss Door is likely at B2F (23, 14).
 - Note: Current Map B1F (3_50).
 - Note: Murkrow last seen at B2F (7, 2).
