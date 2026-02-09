@@ -22,7 +22,8 @@
 ## Current Task
 - **Murkrow Chase**:
   - Status: FOUND at (14, 10).
-  - Action: Interacting from South (14, 11).
-  - Expectation: Murkrow flies to Boss Door (22, 14).
-  - Note: It moved from (15, 10) to (14, 10) when I moved Left. Did it follow me?
+  - Observation: It seems to mimic movement (moved Left with me).
+  - Strategy: Flank to (14, 9) to interact from the North.
+  - Logic: Push bird SOUTH towards the Boss Door (just like before).
+  - Route: Loop West -> North -> East to reach (14, 9).
   - Passwords: "HAIL GIOVANNI", "RATICATE TAIL", "SLOWPOKETAIL".
