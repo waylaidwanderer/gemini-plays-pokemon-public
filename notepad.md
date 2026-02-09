@@ -21,12 +21,10 @@
 
 ## Current Task
 - **Murkrow Chase**:
-  - Status: Mimicry Confirmed.
-  - Objective: Place Murkrow at (22, 13) (in front of Boss Door).
-  - Current: Me (21, 13), Bird (21, 12). Relative: Bird is North.
-  - Problem: If I stand at (22, 14) (Door), Bird is at (22, 13) (Correct), but Door is solid so I can't stand there.
-  - Solution: Use "Jed Wedge" to shift relative position.
-  - Plan:
-    1. Move Left to (18, 13). Bird hits Jed (18, 12) and desyncs to (19, 12).
-    2. Move Down -> Right to guide Bird to (22, 13).
+  - Status: Operation Jed Wedge in progress.
+  - Step 1: Move Left to (19, 13).
+  - Expected: Murkrow moves to (19, 12).
+  - Step 2: Move Left to (18, 13).
+  - Expected: Murkrow blocked by Jed at (18, 12), stays at (19, 12).
+  - Step 3: Move Down -> Right to guide Murkrow to (22, 13).
   - Passwords: "HAIL GIOVANNI", "RATICATE TAIL", "SLOWPOKETAIL".
