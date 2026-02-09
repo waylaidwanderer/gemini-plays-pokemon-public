@@ -11,12 +11,12 @@
 - **Puzzle Status**: Murkrow is at (22, 12). I am at (22, 13).
 
 ## Current Task
-- **Interacting with Murkrow**:
+- **Pinning Murkrow**:
   # Murkrow Puzzle (B2F)
 - **Status**: Me at (22, 13). Murkrow at (22, 12).
-- **Problem**: Movement Down to (22, 14) failed in previous turns. Suspect collision logic prevents Murkrow from moving into my tile as I leave it.
-- **Action**: Interact with Murkrow directly.
+- **Strategy**: Pin Murkrow against top wall to talk, then drag to door.
 - **Plan**:
-  1. Press A (Talk).
-  2. If "Hail Giovanni", try Door (Right).
-  3. If nothing happens, try moving Left to (21, 13) and see if I can loop differently, or use Dig to reset.
+  1. Move Up (Bump into Murkrow pinned at 22, 11).
+  2. Press A (Talk - "Hail Giovanni").
+  3. Move Down x2 to (22, 14).
+  4. Face Right and Interact with Door.
