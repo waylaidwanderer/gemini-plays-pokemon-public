@@ -22,7 +22,9 @@
 ## Current Task
 - **Murkrow Chase**:
   - Status: FOUND at (22, 10).
-  - Action: Interacted. Murkrow is reciting the Oath ("...for the glory of TEAM ROCKET!").
-  - Expectation: Murkrow will shout the password "HAIL GIOVANNI" and flee to the Boss Door (22, 14).
-  - Next Step: Follow Murkrow South.
+  - Action: Oath recited.
+  - Issue: Murkrow hasn't moved yet.
+  - Hypothesis: I am blocking its path South at (22, 11).
+  - Plan: Move Left to (21, 11) to unblock the path.
+  - Next Step: Watch for movement or interact again from the side.
   - Passwords: "HAIL GIOVANNI", "RATICATE TAIL", "SLOWPOKETAIL".
