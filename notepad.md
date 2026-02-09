@@ -23,10 +23,9 @@
   4. Move Right to (21, 13) (Push Murkrow to 22,13).
   5. Talk to Murkrow.
 
-- Current: Me (17, 13). Murkrow (19, 12) [Blocked by Jed].
-- Plan:
-  1. Move Up to (17, 12). (Murkrow attempts Up to 19, 11 -> Blocked by Switch?).
-  2. Move Down to (17, 13). (Murkrow moves Down to 19, 13).
-  3. Move Right to push Murkrow to door.
+- Current: Me (17, 12). Murkrow (19, 12) [Predicted].
+- Action: Move Down to (17, 13).
+- Expected Result: Murkrow moves Down to (19, 13).
+- Next: Move Right to push Murkrow to (22, 13).
 
-- Action: Move Up to (17, 12).
+- Goal: Herd Murkrow to door.
