@@ -12,8 +12,10 @@
 ## Current State
 - Map: B1F (3_50).
 - Player: (6, 13).
-- Status: Inspecting B1F North Corridor Computers (Row 2).
-- Action: Checking (15, 2) to (13, 2).
-- Progress: Computers from (24, 2) to (16, 2) checked. Result: Nothing.
-- Plan: Finish row. If no switch, return to B2F and solve Murkrow puzzle via geometry.
+- Status: Concluding B1F Switch Search.
+- Action: Checking final computers at (9, 2), (8, 2), (7, 2).
+- Plan:
+  1. If no switch found, abort search.
+  2. Return to B2F via NE Stairs (27, 2).
+  3. Solve Murkrow Puzzle using geometry/obstacles.
 - Murkrow Status: Waiting at B2F (14, 10).
