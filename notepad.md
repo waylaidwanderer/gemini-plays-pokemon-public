@@ -12,14 +12,14 @@
 
 ## Current State
 - Map: B1F (3_49).
-- Player: (24, 2).
-- Status: Statue at (24, 1) appears inert (just flavor text).
-- Goal: Reach B2F via Stairs at (27, 14).
+- Player: (27, 3).
+- Status: Activated Switch at (24, 1) (confirmed "shiny eyes").
+- Goal: Return to NW Corner (3, 2) to see if stairs opened.
 - Path:
-  1. Move South along column 24/25.
-  2. Reach (27, 14).
-  3. Descend to B2F.
-  4. Locate Murkrow (Likely reset to 7, 2).
+  1. Use Warp at (25, 2) -> Teleport to (5, 15).
+  2. Walk North to (3, 2).
+  3. Check for Stairs.
+  4. If Stairs found -> B2F (Start Area) -> Find Murkrow.
 
 ## Murkrow Status
 - Missing. Presumed at Start Area (7, 2) on B2F.
