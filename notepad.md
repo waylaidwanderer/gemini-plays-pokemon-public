@@ -15,9 +15,9 @@
 ## Current Task
 - **Trigger Voice Lock**:
   # Murkrow Puzzle (B2F)
-- **Status**: Murkrow at (22, 12) (Wall). Me at (22, 13).
-- **Issue**: Murkrow is on a wall tile, possibly preventing interaction.
-- **Action**: Move Down to (22, 14) to lure Murkrow onto the floor at (22, 13).
+- **Status**: Murkrow at (22, 13). Me at (22, 14).
+- **Action**: Face Up to target Murkrow without moving.
+- **Reasoning**: Need to interact without pushing it back to the wall.
 - **Plan**:
-  1. Move Down.
-  2. Interact with Murkrow at (22, 13).
+  1. Face Up.
+  2. Interact.
