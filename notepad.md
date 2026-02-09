@@ -21,7 +21,10 @@
 
 ## Current Task
 - **Murkrow Chase**:
-  - Status: Murkrow moved from (22, 10).
-  - Action: Checked Boss Door at (22, 14).
-  - Expectation: Door unlocks or Murkrow is waiting.
+  - Status: Murkrow GONE from (22, 10). NOT at Boss Door (22, 14).
+  - Search Plan:
+    1. Check Switch area (19, 11).
+    2. Check Shutter area (15, 10).
+    3. Check original spot (7, 2).
+  - Hypothesis: It might have flown to the switch to unlock the shutter?
   - Passwords: "HAIL GIOVANNI", "RATICATE TAIL", "SLOWPOKETAIL".
