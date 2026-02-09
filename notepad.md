@@ -11,14 +11,17 @@
   - M Blocked: Murkrow STAYS.
 
 ## Current State
-- Map: B2F (3_50).
+- Map: B1F (3_49).
 - Player: (3, 14).
-- Goal: Find Murkrow.
-- Check: Is the wall at (3, 12) gone?
-- Plan:
-  1. Check path North.
-  2. If blocked, return to B1F.
-  3. Check B1F (3, 2) for revealed stairs.
+- Status: Switch at (6, 1) ACTIVATED.
+- Knowledge: Stairs at (3, 14) lead to dead end on B2F.
+- Hypothesis: Switch revealed stairs at (3, 2).
+- Plan: Go North to (3, 2).
+
+## Path (Trap Avoidance)
+1. Up to (3, 9).
+2. Left to (2, 9) -> Up to (2, 7) -> Right to (3, 7). (Avoid Geodude at 3,8).
+3. Up to (3, 2).
 
 ## Murkrow Status
 - Missing. Presumed at Start Area (7, 2) on B2F.
