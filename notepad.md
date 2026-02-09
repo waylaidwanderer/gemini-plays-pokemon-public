@@ -22,8 +22,8 @@
 ## Current Task
 - **Murkrow Chase**:
   - Status: Door locked despite password. Murkrow presence required.
-  - Observation: Murkrow is gone from the Boss Door area. Door is still locked (no reaction).
-  - Hypothesis: Murkrow fled North or reset to a previous position.
-  - Action: Moving North to scan the hallway and the Fake Computer room.
-  - Plan: Move to (22, 10) then check (19, 10).
+  - Observation: Found Murkrow at (22, 10)! I am at (22, 11).
+  - Action: Interacting from the South.
+  - Expectation: It should fly towards the Boss Door (23, 14).
+  - Previous Issue: I likely couldn't see it from (22, 13).
   - Passwords Known: "HAIL GIOVANNI" (Boss), "RATICATE TAIL", "SLOWPOKETAIL".
