@@ -14,10 +14,10 @@
 - **Getting Password**:
   # Murkrow Puzzle (B2F)
 - **Status**: Me at (22, 13). Murkrow at (22, 12).
-- **Correction**: Previous turn I was at (22, 13), not (22, 14). I faced the wall (23, 13) and pressed A. I did NOT check the door.
-- **Action**: Get Password from Murkrow first.
+- **Correction**: Garnet in Party (Lv46) DOES NOT have Dig. (Garnet in PC has Dig).
+- **Escape**: Impossible via Dig. Must solve puzzle.
 - **Plan**:
-  1. Press Up (Face Murkrow).
-  2. Press A (Talk).
-  3. If "Hail Giovanni", I have the password.
-  4. THEN move Down to (22, 14) and Open Door.
+  1. Close Menu.
+  2. Face Up and Talk to Murkrow (Get Password).
+  3. Move Down to (22, 14) (Murkrow should mimic to 22, 13).
+  4. Face Right and Open Door.
