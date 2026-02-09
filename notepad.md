@@ -2,28 +2,18 @@
 
 ## Objectives
 - **Primary**: Open Boss Door at B2F (23, 14).
-- **Secondary**: Chase Murkrow from (7, 2) to the Boss Door.
+- **Secondary**: Interact with Murkrow at (22, 13) to open door.
 
 ## Map Knowledge
 - **B2F Layout**:
-  - **West Wing**: Current location (Murkrow here).
+  - **West Wing**: Current location.
   - **East Wing**: Target location (Boss Door).
-  - **Connections**:
-    - Gap at B2F (15, 13) (South).
-    - Fake Computer Passage at B2F (19, 10) (North).
-- **Stairs**:
-  - NW: B2F (3, 2) <-> B1F (3, 2).
-  - NE: B2F (27, 2) <-> B1F (27, 2).
-  - SE: B2F (27, 14) <-> B1F (27, 14).
-- **Secrets**:
-  - Fake Wall at B1F (6, 1) connects West/East wings on B1F.
-  - Switch on Persian Statue at B1F (24, 6) disables traps.
+- **Boss Door**: Located at (22, 14).
+- **Murkrow**: Currently at (22, 13) (Blocking the door).
+- **Puzzle Status**: Murkrow successfully guided to door.
 
 ## Current Task
-- **Murkrow Chase**:
-  - Status: Y-Sync Active.
-  - Current: Me (20, 13), Murkrow (21, 13).
-  - Action: Move Right to (21, 13).
-  - Expected: Murkrow mimics Right to (22, 13) (Target Spot!).
-  - Next: Interact with Murkrow at (22, 13).
+- **Trigger Voice Lock**:
+  - Current: Me (21, 13), Murkrow (22, 13).
+  - Action: Talk to Murkrow.
   - Passwords: "HAIL GIOVANNI", "RATICATE TAIL", "SLOWPOKETAIL".
