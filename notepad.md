@@ -22,8 +22,8 @@
 ## Current Task
 - **Murkrow Chase**:
   - Status: Door locked despite password. Murkrow presence required.
-  - Observation: Approaching Fake Computer at (19, 10).
-  - Action: Moving Up to (19, 11), interacting (A) to toggle the passage, then moving Up to (19, 10).
-  - Goal: Reach (22, 9) to push Murkrow South.
-  - Note: Murkrow last seen at (22, 10).
+  - Observation: "The switch is turned off." text detected.
+  - Action: Pressing A to advance/confirm "Turn it on?", then A to select YES.
+  - Move: Moving Up into the secret passage (19, 11) -> (19, 8).
+  - Goal: Flank Murkrow from the North side (22, 9).
   - Passwords Known: "HAIL GIOVANNI" (Boss), "RATICATE TAIL", "SLOWPOKETAIL".
