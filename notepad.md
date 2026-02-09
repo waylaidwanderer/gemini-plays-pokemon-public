@@ -11,18 +11,16 @@
   - M Blocked: Murkrow STAYS.
 
 ## Current State
-- Map: B2F (3_50) - Southwest Corner.
+- Map: B1F (3_49).
 - Player: (3, 14).
-- Situation: Dead End. Wall at Row 12 blocks path to (7, 2).
-- Murkrow: Not here. Presumed at Start Area (7, 2) on B2F.
-- Goal: Return to B1F and open the path to the NW Stairs at (3, 2).
+- Goal: Activate Statue Switch at (6, 1) to reveal stairs at (3, 2).
+- Route:
+  1. Go North to (3, 9).
+  2. Weave Left to (2, 9) -> Up to (2, 7) -> Right to (3, 7) (Avoid Geodude at 3,8).
+  3. Continue North to (3, 2).
+  4. Go Right to (6, 2) and interact with Statue at (6, 1).
+  5. CONFIRM switch activation.
+  6. Check (3, 2) for stairs.
 
-## Strategy: Unlock NW Stairs
-- **Sequence**:
-  1. Return to B1F via Stairs at (3, 14).
-  2. Navigate to East Side (avoid traps).
-  3. Activate Switch at Persian Statue (24, 6) (Verify activation).
-  4. Go to NW Corner (6, 1).
-  5. Pass Fake Wall/Statue at (6, 1).
-  6. Take Stairs at (3, 2) to B2F Start Area.
-  7. Find Murkrow.
+## Murkrow Status
+- Presumed at B2F (7, 2).
