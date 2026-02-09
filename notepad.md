@@ -12,15 +12,14 @@
 
 ## Current State
 - Map: B2F (3_51).
-- Player: (27, 14).
-- Transition: Came down stairs from B1F (27, 14).
-- Location: East side of the Boss Door corridor.
-- Observation: Grunt at (24, 14). Boss Door at (23, 14).
+- Player: (23, 14).
+- Status: At Boss Door. Door appears locked/inert.
+- Requirement: Murkrow (Voice ID).
 - Plan:
-  1. Approach Grunt/Door to verify state.
-  2. If blocked/locked, return to B1F to flip East Switch at (24, 1).
-  3. Locate Murkrow (Voice ID) if door remains locked.
-- Action: Navigate to (24, 15) to flank the Grunt.
+  1. Go to B1F via SE Stairs (27, 14).
+  2. Activate East Switch at (24, 1).
+  3. Find path to B2F Murkrow area (Start: 7, 2).
+- Action: Navigate to SE Stairs (27, 14).
 
 ## Murkrow Status
 - Missing. Presumed at Start Area (7, 2) on B2F.
