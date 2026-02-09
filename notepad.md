@@ -15,11 +15,8 @@
 ## Current Task
 - **Trigger Voice Lock**:
   # Murkrow Puzzle (B2F)
-- **Status**: Murkrow at (22, 12). Me at (22, 13).
-- **Rival**: Rival Silver appeared at (21, 13).
-- **Action**: Move Down to (22, 14).
-- **Expectation**: Murkrow mimics Down to (22, 13).
-- **Plan**:
-  1. Move Down.
-  2. Face Up and Talk to Murkrow.
-  3. If fails, Inspect Door at (23, 14).
+- **Status**: Murkrow at (22, 13). Me at (22, 14).
+- **Rival**: Silver at (21, 13).
+- **Physics**: Moving Up causes me to bump Murkrow (who is blocked by wall at 22, 12).
+- **Action**: Face Up and Interact.
+- **Goal**: Get "HAIL GIOVANNI".
