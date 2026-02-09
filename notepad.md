@@ -16,10 +16,8 @@
 - **Trigger Voice Lock**:
   # Murkrow Puzzle (B2F)
 - **Status**: Murkrow at (21, 12) (Wall). Me at (21, 13).
-- **Issue**: Murkrow is on a wall/desk tile. Interaction failed.
-- **Action**: Move Down to (21, 14).
-- **Goal**: Lure Murkrow to (21, 13) (Floor).
-- **Plan**:
-  1. Move Down.
-  2. Murkrow mimics Down to (21, 13).
-  3. Interact.
+- **Obstacle**: Grunt at (21, 14) blocks Down.
+- **Strategy**: Flank Left to pull Murkrow off the wall.
+- **Action**: Move Left to (20, 13).
+- **Expectation**: Murkrow moves Left to (20, 12).
+- **Next Step**: Move Down to (20, 14) -> Murkrow moves to (20, 13) (Floor). Talk.
