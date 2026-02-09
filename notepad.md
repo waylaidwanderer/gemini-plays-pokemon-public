@@ -8,15 +8,14 @@
 - **Player**: (22, 13).
 - **Murkrow**: (22, 12).
 - **Door**: (23, 14).
-- **Silver**: GONE.
 
-## Strategy: Universal Execution (Retry 3)
-- **Observation**: `Up` failed (Collision). I cannot push Murkrow directly.
-- **Action**: Move **Down** (pulling Murkrow to 22, 13).
+## Strategy: The Northern Pin (Definitive)
+- **Problem**: I cannot talk to Murkrow near the door because the "bump" required to interact pushes it away (mimicry).
+- **Solution**: Pin Murkrow against the Grunt at (22, 9).
 - **Sequence**:
-  1. `Down` (Me -> 22, 14; Murkrow -> 22, 13).
-  2. `Up` (Face Murkrow).
-  3. `A` (Talk - "Hail Giovanni").
-  4. `Right` (Face Door).
-  5. `A` (Open Door).
-- **Reasoning**: Silver is gone, so the path Down is clear. This positions Murkrow perfectly at (22, 13).
+  1. `Up` (Me -> 22, 12; Murkrow -> 22, 11).
+  2. `Up` (Me -> 22, 11; Murkrow -> 22, 10).
+  3. `Up` (Me -> 22, 10; Murkrow Blocked at 22, 9).
+  4. `A` (Talk - Get Password "Hail Giovanni").
+  5. Next Turn: Move Down to door.
+- **Goal**: Secure the password.
