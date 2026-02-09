@@ -22,8 +22,8 @@
 ## Current Task
 - **Murkrow Chase**:
   - Status: FOUND at (22, 10).
-  - Action: Oath recited.
-  - Issue: Murkrow blocked by me at (22, 11). Left is solid (Poster).
-  - Plan: Move Down to (22, 12) to clear the path South.
-  - Next Step: Watch for movement. If none, interact again.
-  - Passwords: "HAIL GIOVANNI", "RATICATE TAIL", "SLOWPOKETAIL".
+  - Action: Recited Oath. It didn't move.
+  - Theory: I was blocking the South path at (22, 11). Or, I need to push it South from (22, 9).
+  - Plan: Flank from North (22, 9).
+  - Route: (22, 12) -> (22, 13) -> West to (15, 13) -> North to (22, 9).
+  - Note: Avoiding Scientist Jed at (18, 12).
