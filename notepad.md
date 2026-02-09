@@ -12,20 +12,18 @@
 
 ## Current State
 - Map: B2F (3_51).
-- Player: (11, 10).
-- Murkrow: (11, 10) (Stacked).
-- Goal: Guide Murkrow East to Boss Door (23, 14).
-- Obstacle: Shutter at (15, 10) & (15, 11).
-- Plan:
-  1. Move Right to (14, 10).
-  2. Attempt to pass Shutter at (15, 10).
-  3. If successful, continue East.
-  4. If blocked, return to B1F to activate switches.
+- Player: (14, 10).
+- Status: Blocked by Locked Shutters at (15, 10) & (15, 11).
+- Conclusion: B1F Switches were not activated correctly.
+- Murkrow: With me, but must be abandoned to fix switches.
 
-## Murkrow Mechanics
-- **Mimicry**: Exact copy of input.
-- **Collision**: Wall blocks movement.
-- **Sync**: Stacked.
+## Plan
+1. Return to B1F via SW Stairs (3, 14).
+2. Navigate East on B1F via the gap at (23, 16).
+3. Investigate and Activate East Switch at (24, 1).
+4. Investigate and Activate West Switch at (6, 1).
+5. Verify Shutters open.
+6. Restart Murkrow mission.
 
 ## Murkrow Status
 - Missing. Presumed at Start Area (7, 2) on B2F.
