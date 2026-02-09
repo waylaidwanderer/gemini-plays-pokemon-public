@@ -22,7 +22,8 @@
 ## Current Task
 - **Murkrow Chase**:
   - Status: FOUND at (22, 10).
-  - Obstacle: Scientist Jed at (18, 12) blocks the direct West path.
-  - Strategy: Go South to (22, 13), then West to (15, 13) to bypass Jed.
-  - Next Step: Loop North to (22, 9) to flank.
-  - Passwords Known: "HAIL GIOVANNI" (Boss), "RATICATE TAIL", "SLOWPOKETAIL".
+  - Issue: Direct interaction (North/South) failed.
+  - Hypothesis: Must read "Team Rocket Oath" poster at (20, 11) to trigger the bird.
+  - Plan: Go to (20, 11) -> Read Poster -> Interact with Murkrow.
+  - Map Note: 3_49 is definitely the Boss Door floor (likely B2F).
+  - Passwords: "HAIL GIOVANNI", "RATICATE TAIL", "SLOWPOKETAIL".
