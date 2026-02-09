@@ -12,8 +12,11 @@
 ## Current State
 - Map: B1F (3_50).
 - Player: (6, 13).
-- Status: Searching NE Restricted Area (North Corridor).
-- Observation: Row 2 appears to be a solid barrier separating Row 1 from the Grunt area (Rows 3-5).
-- Hypothesis: Hidden switch in Row 1 (Computers) or entrance via another fake wall along Col 6.
-- Action: Inspecting computers in Row 2 from the North side.
-- Objective: Find access to Grunt at (22, 5) or switch to open B2F shutters.
+- Status: Inspecting Row 2 Computers in B1F NE Corridor.
+- Action: Check computers at (21, 2), (22, 2), (23, 2) for hidden switches.
+- Sequence: Face South and interact at each tile.
+- Plan:
+  1. If switch found -> Activate and check B2F Shutter.
+  2. If no switch -> Continue East to end of corridor.
+  3. If dead end -> Re-evaluate (maybe switch is in the Grunt area, accessible via another path?).
+- Murkrow Status: Waiting at B2F (14, 10).
