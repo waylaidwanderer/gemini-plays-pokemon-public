@@ -12,16 +12,15 @@
 - **Hypothesis**: Defeating Grunts near the switches activates them or provides the key.
 
 ## Current State
-- Map: B2F (3_51).
+- Map: B1F (3_50).
 - Player: (3, 2).
-- Status: Arriving on B2F.
-- Objective: Navigate South to Row 11 via Column 4.
-- Reason: Bypass Warp Trap at (3, 6).
-- Route:
-  1. Move Right to (4, 2).
-  2. Move South to (4, 10).
-  3. Check Row 11 for passage.
-  4. If passable, proceed to SW Stairs (3, 14).
+- Status: Searching for path to Central Grunt (22, 5).
+- Observation: B2F Row 11 is blocked by walls. Cannot reach SW Stairs from B2F NW.
+- Plan:
+  1. Go back up to B1F.
+  2. Scan Row 4 on B1F for a gap to reach the Central Area.
+  3. Navigate to Grunt at (22, 5).
+  4. Defeat Grunt and check for switches.
 
 ## Murkrow Status
 - Reset to (7, 2) on B2F (assumed).
