@@ -11,17 +11,14 @@
   - M Blocked: Murkrow STAYS.
 
 ## Current State
-- Player: (20, 13).
-- Murkrow: **MISSING**.
-- Door: Confirmed Locked (Visual).
+- Player: (15, 13).
+- Murkrow: **MISSING** (Not at 20, 12).
+- Goal: Check spawn point (7, 2).
 
 ## Strategy: Search & Rescue
-- **Goal**: Locate Murkrow.
-- **Search Areas**:
-  1. Computer Room (West, ~19, 10) -> CURRENT TARGET.
-  2. Start Area (West, ~7, 2).
-- **Sequence**:
-  1. Move West to (15, 13).
-  2. Scan for bird.
-  3. If found, lure back.
-  4. If not found, head North to (7, 2).
+- **Path**:
+  1. Move West to (3, 13).
+  2. Check Gate at (3, 8).
+  3. If Locked: Stairs at (3, 14) -> B1F -> Stairs at (3, 2) -> B2F (7, 2).
+  4. If Open: Walk North to (7, 2).
+- **Hypothesis**: Murkrow resets to (7, 2) if the puzzle is "failed" or he gets too far.
