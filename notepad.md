@@ -11,14 +11,15 @@
   - M Blocked: Murkrow STAYS.
 
 ## Current State
-- Map: B1F (3_49).
-- Player: (3, 2).
-- Observation: No stairs appeared at (3, 2) after interacting with Statue at (6, 1).
-- Hypothesis: Switch at (6, 1) (if active) opens the gate on B2F, accessible via stairs at (3, 14).
-- Plan:
-  1. Navigate South to (3, 14) avoiding traps.
-  2. Descend to B2F.
-  3. Check if the wall/gate at B2F (3, 12) is gone.
+- Map: B2F (3_50).
+- Player: (3, 14).
+- Status: Switch at B1F (6, 1) ACTIVATED.
+- Goal: Verify if Wall at B2F (3, 12) is passable.
+- If blocked: Return to B1F and check Gate at (3, 8).
+- Hypothesis:
+  1. Switch opens B2F (3, 12).
+  2. Switch opens B1F (3, 8).
+  3. Switches reset on map exit, need to activate BOTH (6, 1) and (24, 1) without leaving.
 
 ## Murkrow Status
 - Missing. Presumed at Start Area (7, 2) on B2F.
