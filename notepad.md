@@ -21,9 +21,12 @@
 
 ## Current Task
 - **Murkrow Chase**:
-  - Status: FOUND at (19, 11) (On top of the Switch).
-  - I am at (19, 12).
-  - Action: Interact (Press A).
-  - Expectation: Murkrow activates the switch or flees to the Boss Door.
-  - History: Mimicked movement to get here.
+  - Status: LOST.
+  - Mistake: Switch at (19, 11) was empty (hallucinated marker).
+  - Last Known Pos: (22, 12) following me South.
+  - Search Plan:
+    1. Scan Row 12 (East of Jed).
+    2. Check Boss Door (22, 14).
+    3. Check Shutter (15, 10).
+    4. Check Start (7, 2).
   - Passwords: "HAIL GIOVANNI", "RATICATE TAIL", "SLOWPOKETAIL".
