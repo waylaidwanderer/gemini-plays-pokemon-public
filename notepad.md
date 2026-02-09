@@ -22,8 +22,8 @@
 ## Current Task
 - **Murkrow Chase**:
   - Status: Door locked despite password. Murkrow presence required.
-  - Observation: Switch at (19, 11) toggled OFF.
-  - Action: Moving to (15, 10) to verify if the shutter is open.
-  - Current Status: Approaching shutter from (18, 13).
-  - Hypothesis: OFF = Shutter Open. If Shutter remains closed, the switch might control something else (e.g., traps).
+  - Observation: Checking shutter at (15, 10) with Switch OFF.
+  - Action: interact (A) then move Up.
+  - Contingency: If shutter is locked, the switch might control traps or I missed a step. Will return to Murkrow at (22, 10) and retry interaction.
+  - Hypothesis: Murkrow might require specific positioning or full dialogue completion to move.
   - Passwords Known: "HAIL GIOVANNI" (Boss), "RATICATE TAIL", "SLOWPOKETAIL".
