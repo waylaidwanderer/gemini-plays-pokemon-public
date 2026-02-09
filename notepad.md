@@ -13,12 +13,11 @@
 - Map: B1F (3_50).
 - Player: (20, 14).
 - Status: Leaving South-West Area.
-- Insight: Grunt at (21, 14) refuses to move/fight ("Only the boss knows...").
-- Insight: Grunt at (25, 13) claims ignorance.
-- Target: Grunt at (22, 5) (Central Area) has not been reached yet.
-- Plan:
-  1. Return to SE Stairs (27, 14).
+- Insight: Grunt at (21, 14) and (25, 13) are useless.
+- Target: Grunt at (22, 5) (Central Area).
+- Route:
+  1. Go to SE Stairs (27, 14).
   2. Take B2F Loop to NE Stairs (27, 2).
   3. Return to B1F North.
-  4. Access Central Area via Row 1 -> Row 4 Gap.
+  4. Access Central Area via Row 1 -> Gap at (19, 4).
   5. Engage Grunt at (22, 5).
