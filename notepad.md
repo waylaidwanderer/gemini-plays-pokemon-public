@@ -15,6 +15,7 @@
 ## Current Task
 - **Trigger Voice Lock**:
   - Current: Me (22, 13), Murkrow (22, 12).
-  - Action: Turn Down and Interact with Door (22, 14).
-  - Observation: Last turn I moved Right to (22, 13). Murkrow moved from (22, 13) to (22, 12) (Up).
+  - Action: Move Left to (21, 13).
+  - Reasoning: I suspect Murkrow needs to be at (22, 13) (adjacent to door). If I move Left, maybe Murkrow moves Down (Reverse of Right->Up)?
+  - Previous Observation: Moving Right caused Murkrow to move Up.
   - Passwords: "HAIL GIOVANNI", "RATICATE TAIL", "SLOWPOKETAIL".
