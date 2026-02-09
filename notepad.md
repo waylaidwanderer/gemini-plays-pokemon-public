@@ -21,9 +21,10 @@
 
 ## Current Task
 - **Murkrow Chase**:
-  - Status: Murkrow is at (21, 12). I am at (21, 13).
-  - Behavior: Confirmed MIMICRY. It moves exactly as I do (relative position locked).
-  - Plan: Use Scientist Jed at (18, 12) as a wedge.
-  - Action: Move Left towards Jed.
-  - Goal: Desync Murkrow so I can get North of it.
+  - Status: Murkrow is at (20, 12). I am at (20, 13).
+  - Strategy: Pin Murkrow against Scientist Jed.
+  - Step 1: Move Left to (18, 13).
+  - Expected: Murkrow hits Jed at (18, 12) and stays at (19, 12).
+  - Result: Player at (18, 13), Murkrow at (19, 12). Desync achieved.
+  - Next: Circle around to manipulate position.
   - Passwords: "HAIL GIOVANNI", "RATICATE TAIL", "SLOWPOKETAIL".
