@@ -22,8 +22,7 @@
 ## Current Task
 - **Murkrow Chase**:
   - Status: Door locked despite password. Murkrow presence required.
-  - Observation: Path at (19, 11) is blocked (Solid) even though switch is ON.
-  - Hypothesis: ON = Closed/Solid. OFF = Open/Walkable.
-  - Action: Interacting with (19, 11) to turn the switch OFF.
-  - Plan: Toggle switch, then move Up through the passage to (19, 8).
+  - Observation: Toggled switch at (19, 11) to OFF. Attempting to move Up.
+  - Hypothesis: The computer tile (19, 11) becomes walkable when the switch is OFF.
+  - Contingency: If this fails, I will return to the East Wing and find another way to flank Murkrow.
   - Passwords Known: "HAIL GIOVANNI" (Boss), "RATICATE TAIL", "SLOWPOKETAIL".
