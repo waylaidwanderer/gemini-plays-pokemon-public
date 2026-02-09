@@ -9,11 +9,14 @@
 - **Murkrow**: (22, 12).
 - **Door**: (23, 14).
 
-## Strategy: Simple Vertical Pull
-- **Goal**: Pull Murkrow to (22, 14).
-- **Current**: P(22, 13), M(22, 12).
+## Strategy: The Ultimate Desync
+- **Goal**: Place Murkrow at (22, 14).
+- **Current**: P(22, 14), M(22, 13) (Visual Confirmation).
 - **Plan**:
-  1. `Down` -> P(22, 14), M(22, 13).
-  2. `Down` -> P(22, 15), M(22, 14).
-  3. Face Up, Interact.
-- **Action**: Execute Step 1 (Down).
+  1. `Up` x3 -> P(22, 11), M(22, 10).
+  2. `Left` -> P(21, 11). M Blocked by Computer (21, 10). Stays (22, 10).
+  3. `Down` x4 -> P(21, 13), M(22, 14).
+     - (P moves to 21, 13. Then blocked by Grunt at 21, 14 for last 2 steps).
+  4. `Right` -> P(22, 13). M Stays (22, 14).
+  5. Face Down, Interact.
+- **Action**: Execute Step 1 (Up x3).
