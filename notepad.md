@@ -15,12 +15,9 @@
 ## Current Task
 - **Trigger Voice Lock**:
   # Murkrow Puzzle (B2F)
-- **Status**: Murkrow at (22, 13). Me at (22, 13) (Overlap?).
-- **Issue**: Interaction failed or Murkrow retreated to Wall (22, 12).
-- **Strategy**: Pull Murkrow South, then shift East to pin against Door column (Col 23).
-- **Plan**:
-  1. Move Down to (22, 14).
-  2. Move Down to (22, 15).
-  3. Move Down to (22, 16).
-  4. Move Right to (23, 16).
-  5. Move Up to pin Murkrow against Door.
+- **Status**: Murkrow at (22, 13). Me at (22, 14).
+- **Strategy**: Pull Murkrow to (22, 14) (Adjacent to Door).
+- **Action**: Move Down to (22, 15).
+- **Expectation**: Murkrow mimics Down to (22, 14).
+- **Goal**: Murkrow positioned at (22, 14), facing the door (or adjacent to it).
+- **Next**: Interact with Murkrow or Door.
