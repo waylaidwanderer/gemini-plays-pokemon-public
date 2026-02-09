@@ -10,5 +10,6 @@
 - **Door**: (23, 14).
 
 ## Strategy: Open Boss Door
-- **Status**: Murkrow missing from (22,13). Sync broken?
-- **Action**: Check Door, then Search Up.
+- **Status**: Murkrow at (22, 12), Player at (22, 13). Relative: North.
+- **Plan**: Move Down to pull Murkrow to (22, 13). Then interact.
+- **Action**: Move Down.
