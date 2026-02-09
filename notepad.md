@@ -12,11 +12,11 @@
 ## Current State
 - Map: B1F (3_50).
 - Player: (6, 13).
-- Status: Exploring B1F NE Room (Cols 24-28).
-- Action: Inspect wall at (23, 5).
-- Observation: Wall at (23, 4) was inert.
-- Plan:
-  1. Check (23, 5).
-  2. Move to Gap at (28, 6) to access South area (Row 9).
-  3. Circle around to reach Grunt at (22, 5) or find Switch.
-- Note: Grunt at (22, 5) is behind a wall at Col 23.
+- Status: Flanking Grunt at (22, 5) via B1F East Corridor.
+- Action: Approach Grunt from the East/South side.
+- Route:
+  1. Move North along Col 28 to Row 6.
+  2. Move West to (23, 6).
+  3. Engage Grunt at (22, 5).
+- Objective: Defeat Grunt/Find Switch.
+- Murkrow Status: Waiting at B2F (14, 10).
