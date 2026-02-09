@@ -12,13 +12,15 @@
 
 ## Current State
 - Map: B1F (3_50).
-- Player: (28, 6).
-- Status: Navigating to South Grunt (25, 13).
+- Player: (28, 9).
+- Status: Leaving North-East Dead End.
+- Insight: Row 10 is a wall. Cannot go South from NE corner.
+- Insight: Wall at x=23 blocks access to Grunt at (22, 5) from East.
 - Plan:
-  1. Move South to Row 13.
-  2. Move West to (26, 13).
-  3. Engage Grunt at (25, 13).
-  4. Check for switches/triggers in that area.
+  1. Go North to Row 1 (Corridor).
+  2. Go West to reach Central Area.
+  3. Go South to engage Grunt at (22, 5).
+  4. Defeat him and check for switches.
 
 ## Murkrow Status
 - Missing. Presumed at Start Area (7, 2) on B2F.
