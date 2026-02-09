@@ -13,15 +13,15 @@
 ## Current State
 - Map: B1F (3_50).
 - Player: (6, 1).
-- Status: Activating West Switch (Statue at 6, 0).
-- Goal: Activate West Switch, then East Switch (24, 1).
+- Status: Moving to check East Side.
+- Observation: West Statue (6, 0) had NO feedback.
+- Goal: Find the real switches (Computer? Panel?) or verify East Statue (24, 0).
 - Plan:
-  1. Activate West Switch (Up, A).
-  2. Navigate South to Row 16 via (3, 16).
-  3. Cross to East Side via Gap (23, 16).
-  4. Navigate North to East Switch (24, 1).
-  5. Activate East Switch.
-  6. Return to B2F to guide Murkrow.
+  1. Navigate East to (24, 1).
+  2. Inspect area for switches.
+  3. If no switches in corridor, explore South into the main room.
+  4. Activate switches to open B2F shutters.
+  5. Return to B2F for Murkrow.
 
 ## Murkrow Status
 - Missing. Presumed at Start Area (7, 2) on B2F.
