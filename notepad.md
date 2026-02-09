@@ -22,8 +22,8 @@
 ## Current Task
 - **Murkrow Chase**:
   - Status: Door locked despite password. Murkrow presence required.
-  - Observation: Murkrow moved to (22, 11) when I moved to (22, 12).
-  - Situation: Murkrow is at (22, 11) (Dead End). Player is at (22, 12) (South of Murkrow).
-  - Action: Interacting from South (Up + A).
-  - Expectation: It might fly over me or require me to step aside after interaction.
+  - Observation: Murkrow is now at (22, 10) (Dead End). Player is at (22, 11) blocking the exit.
+  - Action: Interact with Murkrow from the South.
+  - Expectation: It should fly over the player or walls to escape towards the Boss Door.
+  - Backup: If it stays, move South to (22, 12) to let it move out.
   - Passwords Known: "HAIL GIOVANNI" (Boss), "RATICATE TAIL", "SLOWPOKETAIL".
