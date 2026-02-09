@@ -23,7 +23,8 @@
   4. Move Right to (21, 13) (Push Murkrow to 22,13).
   5. Talk to Murkrow.
 
-- Current: Me (12, 9). Murkrow LOST.
-- Action: Move to (19, 8) (Secret Passage) -> Loop to (7, 2).
-- Reasoning: Murkrow not in East Wing. Likely reset to Spawn.
+- Current: Me (19, 9). Murkrow LOST.
+- Action: Move Up through Fake Computer at (19, 8) to reach North area.
+- Destination: (7, 2) (Spawn Point) to find Murkrow.
+- Reasoning: Mental Map confirms (19, 8) is walkable (TYPE_3fe2).
 - Goal: Locate Murkrow.
