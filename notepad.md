@@ -21,11 +21,9 @@
 
 ## Current Task
 - **Murkrow Chase**:
-  - Status: LOST.
-  - Event: Vanished after I moved West towards Jed.
-  - Search Plan:
-    1. Check Switch (19, 11) (Current target).
-    2. Check Boss Door (22, 14).
-    3. Check Start (7, 2).
-  - Hypothesis: It might have clipped through a wall or reset.
+  - Status: FOUND at (19, 11) (On top of the Switch).
+  - I am at (19, 12).
+  - Action: Interact (Press A).
+  - Expectation: Murkrow activates the switch or flees to the Boss Door.
+  - History: Mimicked movement to get here.
   - Passwords: "HAIL GIOVANNI", "RATICATE TAIL", "SLOWPOKETAIL".
