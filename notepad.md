@@ -22,7 +22,8 @@
 ## Current Task
 - **Murkrow Chase**:
   - Status: Door locked despite password. Murkrow presence required.
-  - Observation: Toggled switch at (19, 11) to OFF. Attempting to move Up.
-  - Hypothesis: The computer tile (19, 11) becomes walkable when the switch is OFF.
-  - Contingency: If this fails, I will return to the East Wing and find another way to flank Murkrow.
+  - Observation: Secret Passage at (19, 11) is impassable from the South (both ON and OFF states tested).
+  - Plan: Abandoning North Flank. Returning to Murkrow at (22, 10).
+  - Action: Moving East to (22, 11) to interact with Murkrow from the South.
+  - Expectation: Trigger interaction and hope Murkrow flees South or flies over me.
   - Passwords Known: "HAIL GIOVANNI" (Boss), "RATICATE TAIL", "SLOWPOKETAIL".
