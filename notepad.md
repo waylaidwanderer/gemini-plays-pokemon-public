@@ -15,10 +15,13 @@
 ## Current Task
 - **Trigger Voice Lock**:
   # Murkrow Puzzle (B2F)
-- **Status**: Murkrow at (22, 13). Me at (22, 14).
-- **Success**: Murkrow pulled to floor!
-- **Action**: Face Up and Interact.
-- **Plan**:
-  1. Press Up (Face Murkrow).
-  2. Press A (Talk).
-  3. Get "HAIL GIOVANNI".
+- **Status**: Me at (22, 13). Murkrow at (22, 12) (Wall).
+- **Strategy**: Force Overlap via Grunt blockage.
+- **Step 1**: Move Left to (21, 13).
+  - Murkrow moves Left to (21, 12) (Wall).
+- **Step 2**: Move Down (Blocked by Grunt at 21, 14).
+  - Me stays at (21, 13).
+  - Murkrow moves Down to (21, 13) (Floor). -> OVERLAP.
+- **Step 3**: Move Right to (22, 13). (Both move).
+- **Step 4**: Move Down to (22, 14). (Both move).
+- **Step 5**: Inspect Door at (23, 14).
