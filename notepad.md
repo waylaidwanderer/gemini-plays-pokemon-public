@@ -15,11 +15,10 @@
 ## Current Task
 - **Trigger Voice Lock**:
   # Murkrow Puzzle (B2F)
-- **Status**: Me at (22, 13). Murkrow at (22, 12) (Wall).
-- **Action**: Move Down to (22, 14).
-- **Expectation**: Murkrow mimics Down to (22, 13) (Floor).
-- **Goal**: Bring Murkrow to the door area.
+- **Status**: Murkrow at (22, 13). Me at (22, 14).
+- **Success**: Murkrow pulled to floor!
+- **Action**: Face Up and Interact.
 - **Plan**:
-  1. Move Down to (22, 14).
-  2. Move Down to (22, 15). (Murkrow -> 22, 14).
-  3. Talk to Murkrow or Door.
+  1. Press Up (Face Murkrow).
+  2. Press A (Talk).
+  3. Get "HAIL GIOVANNI".
