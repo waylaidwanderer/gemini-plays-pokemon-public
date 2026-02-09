@@ -11,20 +11,18 @@
   - M Blocked: Murkrow STAYS.
 
 ## Current State
-- Map: B2F (3_51).
-- Player: (3, 2).
-- Status: Murkrow spotted at (7, 2).
-- Obstacle: Wall at x=6 separates Player and Murkrow.
-- Connectivity:
-  - Gap at (6, 10) connects West and Central sectors.
-  - Boss Door at (23, 14).
+- Map: B1F (3_50).
+- Player: (3, 6).
+- Status: Warped back to B1F unexpectedly.
+- Observation: Tile (3, 6) on B2F is a warp back to B1F. MUST AVOID.
+- Goal: Reach Murkrow at (7, 2) on B2F.
 
 ## Plan
-1. Navigate South to gap at (6, 10).
-2. Cross to East side.
-3. Navigate North to Murkrow at (7, 2).
-4. Interact with Murkrow to start mimicry.
-5. Guide Murkrow to Boss Door.
+1. Move North to stairs at (3, 2).
+2. Descend to B2F.
+3. Navigate South on B2F, avoiding (3, 6).
+4. Reach gap at (6, 10) to cross to East side.
+5. Go North to Murkrow.
 
 ## Murkrow Status
 - Missing. Presumed at Start Area (7, 2) on B2F.
