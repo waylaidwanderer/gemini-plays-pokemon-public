@@ -21,7 +21,9 @@
 
 ## Current Task
 - **Murkrow Chase**:
-  - Status: Interacted at (14, 10) from North.
-  - Expectation: Murkrow flees to Switch (19, 11) or Boss Door (22, 14).
-  - Next Step: Follow the bird!
-  - Passwords: "HAIL GIOVANNI", "RATICATE TAIL", "SLOWPOKETAIL".
+  - Event: Poked at (14, 10). Vanished.
+  - Search Plan:
+    1. Check Switch (19, 11).
+    2. Check Boss Door (22, 14).
+    3. If missing, check Start (7, 2).
+  - Route: East to Col 24 -> South -> West to Switch.
