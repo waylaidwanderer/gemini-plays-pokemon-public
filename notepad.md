@@ -14,13 +14,14 @@
 ## Current State
 - Map: B1F (3_50).
 - Player: (28, 9).
-- Status: Repositioning to Center.
-- Insight: NE Corner (Row 10) is dead end. Wall at x=23 blocks East approach to Grunt.
-- Plan:
-  1. Go North to Row 1.
-  2. Go West to Center Area.
-  3. Go South to engage Grunt at (22, 5).
-  4. Defeat Grunt -> Check surrounding objects for Switch.
+- Status: Repositioning to Central Area.
+- Route:
+  1. North to Row 1.
+  2. West to x=3 (West Room).
+  3. South to Row 13 (Gap at 6, 13).
+  4. East to Central Room.
+  5. North to Grunt at (22, 5).
+- Action: Navigate to West Room (3, 2).
 
 ## Murkrow Status
 - Reset to (7, 2) on B2F (assumed).
