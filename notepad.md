@@ -21,10 +21,11 @@
 
 ## Current Task
 - **Murkrow Chase**:
-  - Status: Murkrow GONE from (22, 10). NOT at Boss Door (22, 14).
+  - Event: Found at (22, 10). Interacted from North (22, 9). Murkrow VANISHED.
+  - Current Status: Missing. Not at Boss Door (22, 14).
+  - Hypothesis: It flew to a new location (Switch? Shutter? Start?).
   - Search Plan:
-    1. Check Switch area (19, 11).
-    2. Check Shutter area (15, 10).
-    3. Check original spot (7, 2).
-  - Hypothesis: It might have flown to the switch to unlock the shutter?
+    1. Check Switch (19, 11).
+    2. Check Shutter (15, 10).
+    3. Rescan entire map.
   - Passwords: "HAIL GIOVANNI", "RATICATE TAIL", "SLOWPOKETAIL".
