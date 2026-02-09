@@ -22,7 +22,8 @@
 ## Current Task
 - **Murkrow Chase**:
   - Status: Door locked despite password. Murkrow presence required.
-  - Action: Confirming "Turn it on?" with Yes (A), then waiting for text to clear.
-  - Move: Attempting to move Up to (19, 11) and (19, 10) after the switch is active.
-  - Goal: Flank Murkrow at (22, 10) from the North.
+  - Observation: Switch activated. Proceeding North through the secret passage.
+  - Action: Moving Up to (19, 8) to reach the North corridor.
+  - Goal: Flank Murkrow at (22, 10) from (22, 9).
+  - Note: Using B button to clear any remaining text before moving.
   - Passwords Known: "HAIL GIOVANNI" (Boss), "RATICATE TAIL", "SLOWPOKETAIL".
