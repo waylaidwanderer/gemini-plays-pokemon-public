@@ -8,16 +8,16 @@
 - **Mimicry**: Murkrow mimics player's relative movement vector.
 - **Collision Rules**:
   - P Blocked: Murkrow Stays.
-  - Chase Blocked: P cannot move into M's tile even if M moves away (parallel movement fails check).
+  - Chase Blocked: P cannot move into M's tile even if M moves away.
 
 ## Current State
-- Player: (20, 13).
-- Murkrow: (20, 12).
+- Player: (20, 14).
+- Murkrow: Unknown (Not visible at 20,13 / 21,13).
+- Status: Text Box Open (Grunt).
 
-## Strategy: Reset & Verify
-- **Goal**: Move to (22, 13) then test (22, 15) atomically.
+## Strategy: Recovery
+- **Goal**: Close text and locate Murkrow.
 - **Execution**:
-  1. `Right` x2 -> P(22, 13), M(22, 12).
-  2. `Down` -> P(22, 14), M(22, 13).
-  3. `Down` -> P(22, 15)? Check walkable.
-  4. If walkable: `Down` -> P(22, 16). `Up` -> Talk.
+  1. `B` -> Close Text.
+  2. `Up` -> Move to (20, 13).
+  3. Verify Murkrow position.
