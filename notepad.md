@@ -12,14 +12,11 @@
 
 ## Current State
 - Map: B1F (3_49).
-- Player: (27, 3).
-- Status: Activated Switch at (24, 1) (confirmed "shiny eyes").
-- Goal: Return to NW Corner (3, 2) to see if stairs opened.
-- Path:
-  1. Use Warp at (25, 2) -> Teleport to (5, 15).
-  2. Walk North to (3, 2).
-  3. Check for Stairs.
-  4. If Stairs found -> B2F (Start Area) -> Find Murkrow.
+- Player: (25, 2).
+- Status: Activated Switch at (24, 1).
+- Goal: Verify if stairs at (3, 2) opened.
+- Problem: Warp at (25, 2) appears to be one-way (Receiver).
+- Plan B: Walk South to Stairs at (27, 14) -> B2F -> West Side -> B1F (3, 2).
 
 ## Murkrow Status
 - Missing. Presumed at Start Area (7, 2) on B2F.
