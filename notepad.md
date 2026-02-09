@@ -14,8 +14,19 @@
 
 ## Current Task
 - **Trigger Voice Lock**:
-  - Current: Me (19, 13), Murkrow (19, 12).
-  - Action: Move Left to (18, 13).
-  - Reasoning: Scientist Jed is at (18, 12). Murkrow should try to move to (18, 12), hit Jed, and stay at (19, 12).
-  - Result: I will be at (18, 13), Murkrow at (19, 12). (Offset created).
-  - Passwords: "HAIL GIOVANNI", "RATICATE TAIL", "SLOWPOKETAIL".
+  # Murkrow Puzzle Solution Plan
+1. **Shift X**: Move Left to (17, 13).
+   - Murkrow blocked by Jed at (18, 12), stays at (19, 12).
+   - Result: Me (17, 13), Murkrow (19, 12).
+2. **Shift Y**: Move Up to (17, 12).
+   - Murkrow blocked by Switch at (19, 11), stays at (19, 12).
+   - Result: Me (17, 12), Murkrow (19, 12).
+3. **Align Y**: Move Down to (17, 13).
+   - Murkrow moves Down to (19, 13).
+   - Result: Me (17, 13), Murkrow (19, 13). (Aligned!).
+4. **Herd East**: Move Right to (21, 13).
+   - Murkrow moves to (22, 13) and gets pinned by wall at (23, 13).
+5. **Finish**: Talk to Murkrow.
+
+- Current: Me (19, 13), Murkrow (19, 12).
+- Action: Left to (18, 13).
