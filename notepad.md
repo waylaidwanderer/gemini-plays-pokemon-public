@@ -12,16 +12,16 @@
 - **Hypothesis**: Defeating Grunts near the switches activates them or provides the key.
 
 ## Current State
-- Map: B1F (3_50).
+- Map: B2F (3_51).
 - Player: (3, 2).
-- Status: Navigating to B2F SW Stairs via B2F.
-- Goal: Reach Grunt at B1F (25, 13).
+- Status: Navigating South on West Side.
+- Objective: Check passability of Row 11 (Shutter/Wall).
+- Constraint: AVOID WARP TILE AT (3, 6).
 - Route:
-  1. Stairs (3, 2) -> B2F (3, 2).
-  2. South on B2F (avoiding 3, 6) to SW Stairs.
-  3. Stairs -> B1F (3, 14).
-  4. East on Row 16 to Col 25.
-  5. North to Grunt (25, 13).
+  1. Move to (4, 2) -> (4, 10). (Bypassing (3, 6)).
+  2. Check (3, 11) / (4, 11) for passage.
+  3. If passable, reach Stairs at (3, 14).
+  4. If blocked, return to B1F and check Gate at (3, 8).
 
 ## Murkrow Status
 - Reset to (7, 2) on B2F (assumed).
