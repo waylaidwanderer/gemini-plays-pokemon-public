@@ -6,11 +6,11 @@
 
 ## Current State
 - **Player**: (22, 13).
-- **Murkrow**: (22, 12).
+- **Murkrow**: (22, 12) (Visually confirmed).
 - **Door**: (23, 14) [Locked].
 
-## Strategy: Single-Step Verification
-- **Goal**: Move Murkrow to (22, 13) (Adjacent to Door).
-- **Action**: Move **Down** once.
-- **Expected Result**: Player -> (22, 14). Murkrow -> (22, 13).
-- **Next Step**: If successful, interact with Door or Murkrow. If failed (collision), rethink.
+## Strategy: North Pin (Step 1)
+- **Goal**: Chase Murkrow North to pin it against the wall and get the password.
+- **Action**: Move **Up**.
+- **Expected Result**: Player -> (22, 12). Murkrow -> (22, 11).
+- **Reasoning**: "Leading Down" is unreliable due to collision. "Chasing Up" is confirmed to work. Once I have the password, I can likely open the door without the bird.
