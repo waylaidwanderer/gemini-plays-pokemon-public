@@ -15,11 +15,15 @@
 ## Current Task
 - **Trigger Voice Lock**:
   # Murkrow Puzzle (B2F)
-- **Status**: Murkrow at (22, 13). Me at (22, 14).
-- **Hypothesis**: Murkrow is blocked by Wall at (22, 12).
-- **Action**: Face Up and Interact.
-- **Reasoning**: If Murkrow is blocked North, it won't move. I will bump it and face Up.
+- **Status**: Me (22, 13), Murkrow (22, 12).
+- **Strategy**: Force Overlap at (22, 14) to satisfy Door condition.
 - **Plan**:
-  1. Press Up (Bump Murkrow).
-  2. Press A (Talk).
-  3. Get "HAIL GIOVANNI".
+  1. Move Down to (22, 14). (Murkrow -> 22, 13).
+  2. Move Left (Blocked). (Murkrow -> 21, 13).
+  3. Move Up to (22, 13). (Murkrow -> 21, 12).
+  4. Move Left to (21, 13). (Murkrow -> 20, 12).
+  5. Move Down (Blocked). (Murkrow -> 20, 13).
+  6. Move Right to (22, 13). (Murkrow -> 21, 13).
+  7. Move Right (Blocked). (Murkrow -> 22, 13 -> Overlap).
+  8. Move Down to (22, 14). (Overlap).
+  9. Inspect Door.
