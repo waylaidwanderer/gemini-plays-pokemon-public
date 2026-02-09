@@ -4,26 +4,24 @@
 - **Primary**: Open Boss Door at B2F (23, 14).
 - **Secondary**: Defeat Team Rocket Executives.
 
-## Mechanics (Verified)
-- **Mimicry**: Murkrow mimics player's relative movement vector.
-- **Collision Rules**:
-  - P Blocked: Murkrow Stays.
-  - M Blocked: Murkrow Stays.
-  - No Overlap.
+## Mechanics (Under Test)
+- **Mimicry**: Confirmed.
+- **Collision**:
+  - **Test**: If P is blocked by an NPC (Grunt), does M still move into an open tile?
+  - **Current Theory**: M *should* move.
 
 ## Current State
-- **Player**: (22, 14).
-- **Murkrow**: (22, 13).
-- **Status**: Trapped.
+- **Player**: (21, 13).
+- **Murkrow**: (21, 12).
+- **Grunt**: (21, 14) (South of Player).
 
-## Strategy: The Double-Block Offset
-- **Goal**: Achieve Offset P(21, 9), M(22, 10) (M is +1, +1).
-- **Current**: P(22, 13), M(22, 12).
+## Strategy: The Lateral Slide Test
+- **Goal**: Verify mechanic.
 - **Plan**:
-  1. `Up` x2 -> P(22, 11), M(22, 10).
-  2. `Left` -> P(21, 11). M Blocked at (21, 10) [Computer]. Stays (22, 10).
-  3. `Up` x2 -> P(21, 9). M Blocked at (22, 9) [Grunt]. Stays (22, 10).
-  4. `Down` x4 -> Slide M to (22, 14). P to (21, 13).
-  5. `Right` -> P(22, 13). M Blocked at (23, 14).
-  6. Interact Down.
-- **Action**: Execute Steps 1-3 (Up, Up, Left, Up, Up).
+  1. `Left` -> P(20, 13), M(20, 12).
+  2. `Down` -> P(20, 14), M(20, 13).
+  3. `Right` -> P Blocked by Grunt (21, 14).
+     - **Observation**: Does M move to (21, 13) (Empty)?
+     - **Success**: M ends at (21, 13).
+     - **Failure**: M stays at (20, 13).
+- **Action**: Execute `Left`, `Down`, `Right`.
