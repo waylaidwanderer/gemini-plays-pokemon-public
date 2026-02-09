@@ -15,11 +15,12 @@
 ## Current Task
 - **Trigger Voice Lock**:
   # Murkrow Puzzle (B2F)
-- **Status**: Me at (21, 13). Murkrow/Rival at (21, 12).
-- **Action**: Interact with Rival Silver.
-- **Reasoning**: Silver is blocking the path. He usually talks then leaves.
-- **Hypothesis**: Murkrow is overlapping Silver. Clearing Silver will reveal Murkrow.
+- **Status**: Interacting with Rival Silver at (21, 12).
+- **Action**: Advance Dialogue.
+- **Reasoning**: Silver is blocking the path. Must clear his event to proceed with Murkrow.
+- **Hypothesis**: Murkrow location is ambiguous due to mimicry and walls. Silver leaving might declutter the area.
 - **Plan**:
-  1. Press A to Talk/Advance Text.
-  2. Watch Silver leave.
-  3. Re-assess Murkrow position.
+  1. Finish conversation with Silver.
+  2. Wait for Silver to exit.
+  3. Locate Murkrow (likely at 21, 12, 21, 13, or 22, 13).
+  4. Resume herding.
