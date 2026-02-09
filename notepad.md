@@ -11,14 +11,14 @@
   - M Blocked: Murkrow STAYS.
 
 ## Current State
-- Map: B1F (3_49).
-- Player: (2, 9).
-- Status: Activated Switch at (6, 1).
-- Goal: Reach Stairs at (3, 14).
-- Hypothesis: Switch opened the gate at (3, 13)/(3, 14).
-- Path:
-  1. Right to (3, 9) (Avoid Voltorb at 2,10).
-  2. Down to (3, 14).
+- Map: B2F (3_50).
+- Player: (3, 14).
+- Goal: Find Murkrow.
+- Check: Is the wall at (3, 12) gone?
+- Plan:
+  1. Check path North.
+  2. If blocked, return to B1F.
+  3. Check B1F (3, 2) for revealed stairs.
 
 ## Murkrow Status
 - Missing. Presumed at Start Area (7, 2) on B2F.
