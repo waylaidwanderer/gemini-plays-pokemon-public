@@ -12,14 +12,14 @@
 
 ## Current State
 - Map: B1F (3_49).
-- Player: (4, 2).
-- Goal: Activate Statue Switch at (6, 1).
-- Observation: Statue at (6, 1) is currently SOLID (bounced off it last turn).
-- Plan:
-  1. Move to (6, 2).
-  2. Interact (Press A) with Statue.
-  3. Handle "Press Switch?" prompt.
-  4. Check if Statue becomes passable (Fake Wall) OR if stairs appear at (3, 2).
+- Player: (6, 2).
+- Status: Interacting with Statue at (6, 1).
+- Text: "It's a PERSIAN statue..."
+- Action: Advancing text to see if there's a switch.
+- Hypothesis:
+  1. Switch reveals stairs at (3, 2).
+  2. Switch turns Statue into Fake Wall.
+  3. Switch opens gate at (3, 14).
 
 ## Murkrow Status
 - Missing. Presumed at Start Area (7, 2) on B2F.
