@@ -15,5 +15,6 @@
 ## Current Task
 - **Trigger Voice Lock**:
   - Current: Me (21, 13), Murkrow (22, 13).
-  - Action: Move Down to (21, 14), then Interact with Door.
+  - Action: Face Right and Talk to Murkrow.
+  - Note: (21, 14) is a wall, cannot inspect door from there.
   - Passwords: "HAIL GIOVANNI", "RATICATE TAIL", "SLOWPOKETAIL".
