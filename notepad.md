@@ -12,12 +12,9 @@
 ## Current State
 - Map: B1F (3_50).
 - Player: (6, 13).
-- Status: Searching for Shutter Switch on B1F NE.
-- Action: Navigate to B1F North-East area via Fake Wall at (6, 1).
-- Route:
-  1. Move East from (3, 2) to (6, 1).
-  2. Pass through Fake Wall.
-  3. Explore area around (22, 5) for switch/Executive.
-- Objective: Open B2F Shutter at (15, 10).
+- Status: Exploring B1F NE Restricted Area.
+- Action: Moving East to (22, 2).
+- Objective: Locate "Statue" or "Computer" switches to disable B2F shutters/traps.
+- Route: Move East along Row 1/2.
+- Threats: Grunt at (22, 5), Traps at (7, 5).
 - Murkrow Status: Waiting at B2F (14, 10).
-- Note: Shutter switch likely in secured area on B1F.
