@@ -12,16 +12,18 @@
 
 ## Current State
 - Map: B1F (3_49).
-- Player: (3, 14).
-- Status: Switch at (6, 1) ACTIVATED.
-- Knowledge: Stairs at (3, 14) lead to dead end on B2F.
-- Hypothesis: Switch revealed stairs at (3, 2).
-- Plan: Go North to (3, 2).
+- Player: (3, 4).
+- Goal: Reach B2F Start Area.
+- SOLUTION FOUND IN HISTORY:
+  - Turn 33940: "Discovered and crossed a fake wall at B1F (6, 1)".
+  - The Persian Statue at (6, 1) is a FAKE WALL.
+  - I need to walk UP into it.
 
-## Path (Trap Avoidance)
-1. Up to (3, 9).
-2. Left to (2, 9) -> Up to (2, 7) -> Right to (3, 7). (Avoid Geodude at 3,8).
-3. Up to (3, 2).
+## Strategy
+1. Close text.
+2. Move to (6, 2).
+3. Walk UP into (6, 1) (Fake Statue).
+4. Walk Left to find stairs (likely at 3, 2 or 3, 1).
 
 ## Murkrow Status
 - Missing. Presumed at Start Area (7, 2) on B2F.
