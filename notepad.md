@@ -16,8 +16,8 @@
 - **Trigger Voice Lock**:
   # Murkrow Puzzle (B2F)
 - **Status**: Murkrow at (22, 13). Me at (22, 14).
-- **Action**: Face Up to target Murkrow without moving.
-- **Reasoning**: Need to interact without pushing it back to the wall.
+- **Hypothesis**: Interacting with the Boss Door at (23, 14) while Murkrow is nearby might trigger the unlock.
+- **Action**: Move Down to (22, 14), then Inspect Door.
 - **Plan**:
-  1. Face Up.
-  2. Interact.
+  1. Move Down to (22, 14). (Murkrow -> 22, 13).
+  2. Face Right and Press A (Inspect Door).
