@@ -21,11 +21,8 @@
 
 ## Current Task
 - **Murkrow Chase**:
-  - Status: LOST.
-  - Mistake: Accidentally exited to Shop (3_48).
-  - Map Clarification: 3_49 seems to be B1F (connects to Shop).
-  - Search Plan:
-    1. Re-enter 3_49.
-    2. Sweep East Wing (Cols 20-27) from North to South.
-    3. Check SE Corner (27, 14).
-  - Note: If Murkrow is not found, check B2F (via SE stairs).
+  - Status: FOUND! It was right behind me at (22, 12)!
+  - Plan: Turn around (Face Up) and interact.
+  - Hope: It moves South to the door or mimics the password.
+  - Note: I was facing the door (South) and missed the bird standing North of me.
+  - Passwords Known: "HAIL GIOVANNI" (Boss), "RATICATE TAIL", "SLOWPOKETAIL".
