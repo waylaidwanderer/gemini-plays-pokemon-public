@@ -11,13 +11,12 @@
 - **Puzzle Status**: Murkrow is adjacent to me and near door.
 
 ## Current Task
-- **Checking Boss Door**:
+- **Locating Murkrow**:
   # Murkrow Puzzle (B2F)
-- **Status**: At (22, 13). Escaped the trap!
-- **Correction**: Garnet DOES have Dig (10/10). Previous panic was a mistake.
-- **Situation**: Murkrow is not at (22, 13) (I am standing there). It likely moved to (21, 13) or fled.
-- **Action**: Check Boss Door at (23, 14).
+- **Status**: At (21, 13). Murkrow is missing/lost.
+- **Markers**: Old markers at (21, 13), (22, 12) etc. are unreliable.
 - **Plan**:
-  1. Move Down to (22, 14).
-  2. Face Right and Interact with Door.
-  3. If locked, search for Murkrow (likely at 21, 13).
+  1. Move Right to (22, 13) to escape "box".
+  2. Move Down to (22, 14) and Interact with Door (Right).
+  3. If door locked and no bird, move North to search/reset.
+- **Note**: (20, 13) is impassable (despite XML). (21, 14) is Grunt. (21, 12) is Desk. Only exit is Right.
