@@ -12,18 +12,17 @@
 
 ## Current State
 - Map: B1F (3_50).
-- Player: (24, 1).
-- Status: Activating East Switch.
+- Player: (25, 1).
+- Status: Leaving East Switch (No interaction feedback observed).
 - Connectivity:
   - Gap at (23, 16) connects East and West sectors.
   - NW Stairs at (3, 2) lead to Murkrow's start area (B2F).
 
 ## Plan
-1. Toggle East Switch (Confirming on both tile 24 and 25).
-2. Navigate South to Row 16.
-3. Cross West through gap at (23, 16).
-4. Go North to NW Stairs (3, 2).
-5. Descend to B2F and locate Murkrow.
+1. Navigate South to Row 16.
+2. Cross West through gap at (23, 16).
+3. Go North to NW Stairs (3, 2).
+4. Descend to B2F and locate Murkrow.
 
 ## Murkrow Status
 - Missing. Presumed at Start Area (7, 2) on B2F.
