@@ -16,14 +16,11 @@
 - **Murkrow**: Unknown. Likely (22, 12) or (21, 13) or (23, 13).
 - **Goal**: Find Murkrow and Open Door.
 
-## Strategy: The Validated Flank (Full Sequence)
-- **Goal**: P(19, 9), M(22, 10).
-- **Current**: P(22, 13), M(22, 12).
-- **Sequence**:
-  1. `Left` -> P(21, 13).
-  2. `Up` -> P(21, 12).
-  3. `Right` -> P(22, 12).
-  4. `Up` -> P(22, 11). M(22, 10).
-  5. `Left` x3 -> P(19, 11). M Stays (22, 10).
-  6. `Up` x2 -> P(19, 9). M Stays (22, 10).
-- **Action**: Execute Alignment & Desync (Left, Up, Right, Up, Left, Left, Left).
+## Strategy: The Pull-Down
+- **Goal**: Place M at (22, 14). Interact from (22, 15).
+- **Current**: P(19, 13). M presumed (19, 12).
+- **Plan**:
+  1. `Right` x3 -> P(22, 13), M(22, 12).
+  2. `Down` x2 -> P(22, 15), M(22, 14).
+  3. Face `Up`, Interact.
+- **Action**: Execute Sequence.
