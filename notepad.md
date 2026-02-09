@@ -12,10 +12,11 @@
 ## Current State
 - Map: B1F (3_50).
 - Player: (4, 2).
-- Status: Bypassing Defeated Grunt at (4, 1).
+- Status: Finishing dialogue with Grunt (4, 1).
+- Insight: Grunt mentions "kid with red hair" (Silver).
 - Route:
-  1. Clear Dialogue.
+  1. Clear Dialogue (B/A).
   2. Move Right to (5, 2).
   3. Move Up to (5, 1).
-  4. Move Right through (6, 1) (Test "Fake Wall").
+  4. Move Right through (6, 1) (Fake Wall).
   5. Continue East to Central Area.
