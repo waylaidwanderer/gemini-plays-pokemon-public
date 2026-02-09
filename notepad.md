@@ -12,9 +12,12 @@
 ## Current State
 - Map: B1F (3_50).
 - Player: (6, 13).
-- Status: Moving to NW Stairs/Trap at (3, 6).
-- Action: Navigate to (3, 6).
-- Sequence: Down (to 10, 10), Left x7 (to 3, 10), Up x4 (to 3, 6).
-- Objective: Investigate (3, 6) for switch or stairs to B1F Small Room.
-- Warning: (3, 6) marked as Warp Trap AND Stairs. Proceed with caution.
-- Murkrow Status: Likely moving to Top Left corner.
+- Status: Investigating B1F Isolated Room (via NW Stairs at 3, 6).
+- Action: Check for hidden switches in this room.
+- Sequence: Check North Wall at (3, 4).
+- Plan:
+  1. If empty, return to B2F.
+  2. Go North to B2F (3, 2) and take those stairs.
+  3. Locate "Silver Viewing Room" or Switch.
+- Note: B1F (3, 6) appears to be a small room.
+- Note: Murkrow is on B2F, likely near (3, 2) or (7, 2).
