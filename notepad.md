@@ -23,12 +23,14 @@
   4. Move Right to (21, 13) (Push Murkrow to 22,13).
   5. Talk to Murkrow.
 
-- Current: Me (17, 13).
-- Status: Murkrow LOST.
-- Observation: Murkrow is NOT at (19, 12) as expected. It likely did not get blocked by Jed in the way I anticipated, or it moved unexpectedly.
-- Plan:
-  1. Move Right to (18, 13) to scan.
-  2. If not found, Move Right to (19, 13).
-  3. Search NE corner (22, 8) if East wing is empty.
+- Current: Me (18, 13).
+- Status: Blocked to the Right.
+- Hypothesis: Murkrow is INVISIBLE at (19, 13).
+- Action: Press 'A' to interact with the invisible obstacle.
+- Strategy (If Murkrow is there):
+  - Move Down to (18, 14). (Murkrow -> 19, 14).
+  - Move Right to (19, 14). (Murkrow -> 20, 14).
+  - Move Up to (19, 13). (Murkrow -> 20, 13).
+  - Result: Murkrow shifted Right by 1. Repeat until at door.
 
-- Action: Move Right to (18, 13).
+- Action: Press 'A'.
