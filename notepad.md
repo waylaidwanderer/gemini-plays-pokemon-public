@@ -10,13 +10,15 @@
 - **Hypothesis**: Defeating Grunts near the switches activates them or provides the key.
 
 ## Current State
-- Map: B2F (3_51).
+- Map: B1F (3_50).
 - Player: (3, 2).
-- Plan:
-  1. Trigger Stairs (Move Right, then Left) to return to B1F.
-  2. On B1F, navigate East via Row 1 (North Corridor) to the Central Area.
-  3. Engage Grunt at (22, 5).
-  4. Defeat Grunt and check for switches.
+- Status: Navigating to Grunt at (22, 5).
+- Route:
+  1. North to Row 1.
+  2. East to Column 19 (Gap in Row 4 Wall).
+  3. South to Row 5.
+  4. East to (21, 5).
+  5. Defeat Grunt.
 
 ## Murkrow Status
 - Reset to (7, 2) on B2F.
