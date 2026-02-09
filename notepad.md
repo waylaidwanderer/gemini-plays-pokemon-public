@@ -9,12 +9,15 @@
 - **Murkrow**: (22, 12).
 - **Door**: (23, 14).
 
-## Strategy: Vertical Pull
-- **Concept**: Murkrow mimics movement. I cannot move INTO its tile. I must Pull it.
-- **Goal**: Place M at (22, 14) (Next to Door).
-- **Current**: P(22, 13), M(22, 12).
+## Strategy: The Computer-Grunt Combo
+- **Goal**: P(22, 13), M(22, 14).
+- **Current**: P(22, 14), M(22, 13).
 - **Plan**:
-  1. `Down` -> P(22, 14), M(22, 13).
-  2. `Down` -> P(22, 15), M(22, 14).
-  3. `Face Up`, `A`.
-- **Action**: Execute Step 1 (Down).
+  1. `Up` x3 -> P(22, 11), M(22, 10).
+  2. `Left` -> P(21, 11). M Blocked by Computer (21, 10). Stays (22, 10).
+  3. `Down` x2 -> P(21, 13), M(22, 12).
+  4. `Down` (Bump Grunt) -> P(21, 13). M moves (22, 13).
+  5. `Down` (Bump Grunt) -> P(21, 13). M moves (22, 14).
+  6. `Right` -> P(22, 13). M Stays (22, 14).
+  7. Face Down, Interact.
+- **Action**: Execute Step 1 (Up x3).
