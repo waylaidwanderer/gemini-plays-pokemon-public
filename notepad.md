@@ -21,12 +21,10 @@
 
 ## Current Task
 - **Murkrow Chase**:
-  - Status: LOST. Murkrow not in Col 22.
+  - Status: LOST.
   - Search Plan:
-    1. Scan Central Area near Switch (19, 11).
-    2. Check "Oath" poster area (20, 10).
-    3. Check near Locked Shutter (15, 10).
-  - Theory: Murkrow might have flown to the central maze or near the shutter.
-  - Goal: Teleport to Northeast, then walk to (22, 9) to push Murkrow South.
-  - Note: Scientist Jed mentioned the warp panel, confirming it's a key feature.
-  - Passwords Known: "HAIL GIOVANNI" (Boss), "RATICATE TAIL", "SLOWPOKETAIL".
+    1. Sweep NW Corner (2, 4).
+    2. Sweep North Corridor (Row 4).
+    3. Check Fake Computer Room (19, 4).
+  - Note: Murkrow not in Central or South areas.
+  - Clue: Murkrow mimics "Hail Giovanni".
