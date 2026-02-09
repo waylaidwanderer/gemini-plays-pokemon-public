@@ -22,8 +22,7 @@
 ## Current Task
 - **Murkrow Chase**:
   - Status: FOUND at (22, 10).
-  - Issue: Direct interaction (North/South) failed.
-  - Hypothesis: Must read "Team Rocket Oath" poster at (20, 11) to trigger the bird.
-  - Plan: Go to (20, 11) -> Read Poster -> Interact with Murkrow.
-  - Map Note: 3_49 is definitely the Boss Door floor (likely B2F).
+  - Action: Read "Team Rocket Oath" at (20, 11).
+  - Next Step: Interact with Murkrow from (22, 11).
+  - Expectation: Murkrow shouts "Hail Giovanni" and moves to the door.
   - Passwords: "HAIL GIOVANNI", "RATICATE TAIL", "SLOWPOKETAIL".
