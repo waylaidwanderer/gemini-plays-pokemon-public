@@ -21,9 +21,9 @@
 
 ## Current Task
 - **Murkrow Chase**:
-  - Event: Poked at (14, 10). Vanished. Found again at (22, 12).
-  - Status: I am at (22, 13), Murkrow is at (22, 12).
-  - Action: Interact from South (22, 13).
-  - Note: I am between the bird and the Boss Door (22, 14).
-  - Plan: Interact, then move aside (Left) if needed.
+  - Status: I am at (22, 12). Murkrow is at (22, 11).
+  - Observation: Murkrow mimics my movement (Mirror/Follow).
+  - Hypothesis: If I move South, it will move South towards the Boss Door.
+  - Plan: Move Down to (22, 13). Watch Murkrow.
+  - Goal: Lead it to the Boss Door at (22, 14).
   - Passwords: "HAIL GIOVANNI", "RATICATE TAIL", "SLOWPOKETAIL".
