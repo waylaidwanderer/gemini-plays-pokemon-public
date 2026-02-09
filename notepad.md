@@ -24,10 +24,11 @@
   5. Talk to Murkrow.
 
 - Current: Me (7, 3). Murkrow NOT HERE.
-- Observation: Movement to (7, 7) failed/interrupted last turn. Retrying.
+- Observation: (7, 4) is a wall. Cannot go Down directly.
 - Plan:
-  1. Move Down to (7, 14).
-  2. Move East to sweep the Southern corridor.
-  3. Re-examine the East Wing (Boss Door area) and NE Corner.
+  1. Move Left to (3, 3).
+  2. Move Down to (3, 14).
+  3. Sweep South corridor to East Wing.
+  4. Check Boss Door area again.
 
-- Action: Move Down to (7, 7).
+- Action: Move Left to (3, 3).
