@@ -10,7 +10,5 @@
 - **Door**: (23, 14).
 
 ## Strategy: Open Boss Door
-- **Status**: Successful Shimmy!
-- **Position**: Player(22,14), Murkrow(22,13).
-- **Goal**: Interact with Murkrow to shout password at Door(23,14).
-- **Action**: Face Up, Press A.
+- **Status**: Murkrow missing from (22,13). Sync broken?
+- **Action**: Check Door, then Search Up.
