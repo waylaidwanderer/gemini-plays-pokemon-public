@@ -14,8 +14,8 @@
 
 ## Current Task
 - **Trigger Voice Lock**:
-  - Current: Me (22, 13), Murkrow (22, 12).
-  - Action: Move Left to (21, 13).
-  - Reasoning: I suspect Murkrow needs to be at (22, 13) (adjacent to door). If I move Left, maybe Murkrow moves Down (Reverse of Right->Up)?
-  - Previous Observation: Moving Right caused Murkrow to move Up.
+  - Current: Me (20, 13), Murkrow (20, 12).
+  - Action: Move Left to (19, 13).
+  - Goal: Use the open area and desks to rotate Murkrow's position relative to me.
+  - Target: Me (22, 13), Murkrow (21, 13) (Murkrow West of Me).
   - Passwords: "HAIL GIOVANNI", "RATICATE TAIL", "SLOWPOKETAIL".
