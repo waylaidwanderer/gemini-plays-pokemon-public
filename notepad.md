@@ -15,10 +15,11 @@
 ## Current Task
 - **Trigger Voice Lock**:
   # Murkrow Puzzle (B2F)
-- **Status**: Me at (21, 13). Murkrow at (21, 12) (Wall).
-- **Reasoning**: Previous sequence separated us. I am on Row 13, Murkrow on Row 12 (Wall).
-- **Strategy**: Pull Murkrow to floor at (20, 13).
+- **Status**: Me at (20, 13). Murkrow at (20, 12) (Wall).
+- **Visual**: Murkrow confirmed on desk at (20, 12).
+- **Action**: Move Down to (20, 14).
+- **Expectation**: Murkrow mimics Down to (20, 13) (Floor).
 - **Plan**:
-  1. Move Left to (20, 13). (Murkrow -> 20, 12 Wall).
-  2. Move Down to (20, 14). (Murkrow -> 20, 13 Floor).
-  3. Face Up and Talk.
+  1. Move Down.
+  2. Face Up and Talk.
+  3. Get Password.
