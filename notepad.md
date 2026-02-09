@@ -12,10 +12,11 @@
 ## Current State
 - Map: B1F (3_50).
 - Player: (6, 13).
-- Status: In Central Room B1F.
-- Objective: Clear Grunts in Central Room (21, 13), (25, 13), (22, 5).
+- Status: Moving to (22, 5) to defeat Grunt.
 - Route:
-  1. Defeat Grunt at (21, 13).
-  2. Defeat Grunt at (25, 13).
-  3. Navigate to (22, 5).
+  1. Defeat Grunt at (21, 13) [Done].
+  2. Defeat Grunt at (22, 5).
+  3. Navigate to Row 1 to cross to East side.
+  4. Defeat Grunt at (25, 13).
+- Note: Wall at x=23 blocks direct access to East side.
 - Note: Trap detected at (7, 5).
