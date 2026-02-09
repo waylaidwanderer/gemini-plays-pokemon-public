@@ -21,11 +21,12 @@
 
 ## Current Task
 - **Murkrow Chase**:
-  - Status: LOST. Murkrow is not at (7, 2) (checked).
+  - Status: LOST. Murkrow not at (7, 2).
   - Search Plan:
-    1. Sweep Central Area (11, 10).
-    2. Check front of Boss Door (22, 14) from the West side.
-  - Note: Boss Door is ONLY accessible from the West/Center. East side is blocked by walls.
+    1. Checking South Area (Boss Door) now.
+    2. If not there, sweep Central North (Fake Computers).
+  - Note: Boss Door at (22, 14).
+  - Scientist Jed at (18, 12).
   - Goal: Teleport to Northeast, then walk to (22, 9) to push Murkrow South.
   - Note: Scientist Jed mentioned the warp panel, confirming it's a key feature.
   - Passwords Known: "HAIL GIOVANNI" (Boss), "RATICATE TAIL", "SLOWPOKETAIL".
