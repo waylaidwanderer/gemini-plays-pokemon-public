@@ -11,9 +11,9 @@
 
 ## Strategy: The Ultimate Desync (Step-by-Step)
 - **Goal**: P(22, 13), M(22, 14).
-- **Current**: P(22, 13), M(22, 12).
+- **Current**: P(21, 13), M(21, 12).
 - **Plan**:
-  1. `Left` -> P(21, 13), M(21, 12).
+  1. `Left` -> Done.
   2. `Up` -> P(21, 12), M(21, 11).
   3. `Right` -> P(22, 12), M(22, 11).
   4. `Up` -> P(22, 11), M(22, 10).
@@ -22,4 +22,4 @@
   7. `Down` -> P(21, 13), M(22, 14). (Using Grunt Block).
   8. `Right` -> P(22, 13). M Stays (22, 14).
   9. Interact Down.
-- **Action**: Execute Steps 1-2 (Left, Up).
+- **Action**: Execute Steps 2-4 (Up, Right, Up).
