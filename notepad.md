@@ -15,11 +15,9 @@
 ## Current Task
 - **Trigger Voice Lock**:
   # Murkrow Puzzle (B2F)
-- **Status**: Murkrow at (22, 13). Me at (22, 14).
-- **Rival**: Silver at (21, 13).
-- **Action**: Face Up and Interact.
-- **Reasoning**: Murkrow is directly above me.
-- **Plan**:
-  1. Press Up to face Murkrow.
-  2. Press A to Talk.
-  3. Get Password ("HAIL GIOVANNI").
+- **Status**: Murkrow and Player overlapping at (22, 13).
+- **Strategy**: Move to (22, 14) (Adjacent to Door).
+- **Hypothesis**:
+  1. Overlap at (22, 14) might allow Door interaction.
+  2. Or use obstacles (Grunt/Door) to separate at (22, 14).
+- **Action**: Move Down to (22, 14).
