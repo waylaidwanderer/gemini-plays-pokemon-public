@@ -22,8 +22,8 @@
 ## Current Task
 - **Murkrow Chase**:
   - Status: Door locked despite password. Murkrow presence required.
-  - Observation: Secret Passage at (19, 11) is impassable from the South (both ON and OFF states tested).
-  - Plan: Abandoning North Flank. Returning to Murkrow at (22, 10).
-  - Action: Moving East to (22, 11) to interact with Murkrow from the South.
-  - Expectation: Trigger interaction and hope Murkrow flees South or flies over me.
+  - Observation: Murkrow confirmed at (22, 10). North flank via secret passage failed (blocked).
+  - Action: Interacting (A) and Bumping (Up) Murkrow from (22, 11).
+  - Plan: After interaction, move South to (22, 12) to unblock the path in case it needs to flee South.
+  - Note: If this fails, I may need to verify if I'm "chasing" it correctly or if there's another trigger.
   - Passwords Known: "HAIL GIOVANNI" (Boss), "RATICATE TAIL", "SLOWPOKETAIL".
