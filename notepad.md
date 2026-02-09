@@ -12,10 +12,17 @@
 
 ## Current State
 - Map: B1F (3_49).
-- Player: (9, 3).
-- Status: On the North side of the computer barrier.
-- Goal: Reach NW Corner (3, 2) to check if stairs opened.
-- Correction: I don't need to cross the gap to the South side. (3, 2) is accessible via the North corridor.
+- Player: (3, 2).
+- Status: Stairs at (3, 2) are definitely missing.
+- Switch: Activated at (24, 1).
+- Goal: Go to B2F via Stairs at (27, 14) (Southeast Corner).
+- Path:
+  1. Move Right to (9, 3).
+  2. Move Down through gap at (9, 4) to (9, 6).
+  3. Move Right to (27, 6).
+  4. Move Down to (27, 14).
+  5. Take Stairs to B2F.
+  6. Find Murkrow on B2F.
 
 ## Murkrow Status
 - Missing. Presumed at Start Area (7, 2) on B2F.
