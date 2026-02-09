@@ -9,12 +9,13 @@
 - **Murkrow**: (22, 12).
 - **Door**: (23, 14).
 
-## Strategy: The Validated Slide (Final Push)
-- **Goal**: Slide M to (22, 14) and Interact.
-- **Current**: P(21, 11), M(22, 10).
+## Strategy: The Right-Column Slide
+- **Goal**: Place M at (23, 13) or (22, 14).
+- **Current**: P(22, 14), M(22, 13).
 - **Sequence**:
-  1. `Down` x2 -> P(21, 13), M(22, 12).
-  2. `Down` x2 (P Blocked) -> P(21, 13), M(22, 14).
-  3. `Right` -> P(22, 13).
-  4. Face `Down`, `A`.
+  1. `A` (Interact Up).
+  2. `Up` x3 -> P(22, 11), M(22, 10).
+  3. `Left` -> P(21, 11). M(22, 10) (Blocked).
+  4. `Right` -> P(22, 11). M(23, 10).
+  5. `Down` x3 -> P(22, 14). M(23, 13).
 - **Action**: Execute Sequence.
