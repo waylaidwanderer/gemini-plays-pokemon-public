@@ -12,15 +12,13 @@
 
 ## Current State
 - Map: B1F (3_49).
-- Player: (27, 2) (East Side Entrance).
-- Status: Re-entered HQ. Spawned at East Side.
+- Player: (24, 2).
+- Status: Checked Statue at (24, 1). No switch found ("It's a PERSIAN statue...").
 - Goal: Reach B2F to find Murkrow.
 - Path:
-  1. Inspect Statue at (24, 1) (Just in case).
-  2. Go South to Stairs at (27, 14).
-  3. Take Stairs to B2F.
-  4. Find Murkrow.
-- Note: Avoid warp at (25, 2) to stay on East Side.
+  1. Go South to Stairs at (27, 14).
+  2. Take Stairs to B2F.
+  3. Traverse B2F to find Murkrow (Likely at 7, 2).
 
 ## Murkrow Status
 - Missing. Presumed at Start Area (7, 2) on B2F.
