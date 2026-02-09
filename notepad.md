@@ -21,9 +21,9 @@
 
 ## Current Task
 - **Murkrow Chase**:
-  - Status: FOUND at (22, 11). I am at (22, 12).
-  - Observation: Murkrow is mimicking movement (Leash behavior).
-  - Plan: Lead it South to the Boss Door.
-  - Action: Move Down to (22, 13).
-  - Expectation: Murkrow moves to (22, 12).
+  - Status: Murkrow is at (22, 12). I am at (22, 13).
+  - Hypothesis: Follower Mechanic (takes previous tile).
+  - Plan: Move Left to (21, 13).
+  - Prediction: Murkrow moves to (22, 13) (The tile in front of the door).
+  - Goal: Trigger door unlock.
   - Passwords: "HAIL GIOVANNI", "RATICATE TAIL", "SLOWPOKETAIL".
