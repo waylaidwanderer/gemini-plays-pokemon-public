@@ -22,8 +22,8 @@
 ## Current Task
 - **Murkrow Chase**:
   - Status: Door locked despite password. Murkrow presence required.
-  - Strategy: Interaction from South (22, 11) failed to move Murkrow at (22, 10).
-  - Plan: Flank Murkrow from the North (22, 9) to push it South towards the Boss Door.
-  - Route: Take the Warp at (5, 15) to teleport to the Northeast Section (25, 2), then walk West to (22, 9).
-  - Immediate Action: Navigating West to the Warp at (5, 15).
+  - Anomaly: Previous massive movement sequence to (5, 15) failed to register (Player still at 22, 13).
+  - Action: Retrying movement in smaller chunks to verify game responsiveness.
+  - Step 1: Move Left to (17, 13).
+  - Goal: Reach Warp at (5, 15) to flank Murkrow from the North.
   - Passwords Known: "HAIL GIOVANNI" (Boss), "RATICATE TAIL", "SLOWPOKETAIL".
