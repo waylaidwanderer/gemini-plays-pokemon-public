@@ -11,18 +11,19 @@
   - M Blocked: Murkrow Stays.
   - No Overlap.
 
-## Strategy: The Column 19 Solution
-- **Goal**: Use the open column 19 to circle around Murkrow's Y-axis.
-- **Start**: P(20, 14), M(20, 13).
-- **Phase 1: Setup**
-  1. `Up`, `Right` x2 -> P(22, 13), M(22, 12).
-  2. `Up` x2 -> P(22, 11), M(22, 10).
-- **Phase 2: Desync**
-  3. `Left` x3 -> P(19, 11). M(22, 10) (Blocked by Computer at 21, 10).
-  4. `Up` x2 -> P(19, 9). M(22, 10) (Blocked by Grunt at 22, 9).
-     - **Result**: M is now South of P relative position.
-- **Phase 3: Delivery**
-  5. `Down` x4 -> P(19, 13), M(22, 14).
-  6. `Right` x3 -> P(22, 13). M(22, 14) (Blocked by Door).
-  7. Interact Down.
-- **Action**: Execute Phase 1 & Start Phase 2 (Up, Right, Right, Up, Up, Left).
+## Current State
+- **Player**: (21, 13).
+- **Murkrow**: (21, 12). (Derived from mimicry).
+
+## Strategy: The "Golden Path" (Verified Logic)
+- **Goal**: P(22, 13), M(22, 14).
+- **Path**:
+  1. **Align**: `Right`, `Up`, `Up` -> P(22, 11), M(22, 10).
+  2. **Desync 1 (Computer)**: `Left` -> P(21, 11). M Blocked (21, 10). Stays (22, 10).
+  3. **Desync 2 (Extend)**: `Left` -> P(20, 11). M Blocked (21, 10). Stays (22, 10).
+  4. **Desync 3 (Grunt)**: `Up` x2 -> P(20, 9). M Blocked (22, 9). Stays (22, 10).
+  5. **Delivery**: `Down` x4 -> P(20, 13), M(22, 14).
+  6. **Dock**: `Right` x2 -> P(22, 13). M Blocked (Door). Stays (22, 14).
+  7. **Interact**: Face Down, A.
+
+- **Action**: Execute Step 1 (Right, Up, Up).
