@@ -12,11 +12,13 @@
 ## Current State
 - Map: B1F (3_50).
 - Player: (6, 13).
-- Status: Moving to (22, 5) to defeat Grunt.
+- Status: Moving to East side via Row 16 to bypass Row 12 divider.
 - Route:
-  1. Defeat Grunt at (21, 13) [Done].
-  2. Defeat Grunt at (22, 5).
-  3. Navigate to Row 1 to cross to East side.
-  4. Defeat Grunt at (25, 13).
-- Note: Wall at x=23 blocks direct access to East side.
+  1. Go South to Row 16 (gap at x=23).
+  2. Go North on East side to Row 1.
+  3. Go West to (22, 5).
+  4. Defeat Grunt at (22, 5).
+  5. Go back to East side to defeat Grunt at (25, 13).
+- Note: Row 12 is a solid wall of desks blocking North-South movement in the West room.
+- Note: Grunt at (21, 14) is Defeated.
 - Note: Trap detected at (7, 5).
