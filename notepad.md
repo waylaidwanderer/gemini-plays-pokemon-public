@@ -11,18 +11,15 @@
   - M Blocked: Murkrow STAYS.
 
 ## Current State
-- Player: (22, 14).
-- Murkrow: (21, 13) (Confirmed by logic).
+- Player: (21, 13).
+- Murkrow: **MISSING** (Not visible at expected coords).
+- Door: Checking status.
 
-## Strategy: The Perfect Overlap (Revised)
+## Strategy: Recovery
+- **Goal**: Check Door. If locked, find Murkrow.
 - **Sequence**:
-  1. `Down` -> P(22, 14). M(22, 13). (Done).
-  2. `Left` -> P Blocked (Grunt). M(21, 13). (Done).
-  3. `Up` -> P(22, 13). M(21, 12).
-  4. `Up` -> P(22, 12). M(21, 11).
-  5. `Up` -> P(22, 11). M Blocked by Wall (21, 10). M Stays (21, 11). (Desync Y).
-  6. `Right` -> P Blocked by Wall (23, 11). M(22, 11). (Overlap!).
-  7. `Down` -> P(22, 12). M(22, 12).
-  8. `Down` -> P(22, 13). M(22, 13).
-  9. `Down` -> P(22, 14). M(22, 14).
-  10. `Right`, `A`.
+  1. `Right` -> P(22, 13).
+  2. `Down` -> P(22, 14).
+  3. `Right` -> Face Door.
+  4. `A` -> Interact.
+  5. If locked, execute search pattern (likely West or reset).
