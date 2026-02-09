@@ -15,12 +15,13 @@
 ## Current Task
 - **Trigger Voice Lock**:
   # Murkrow Puzzle (B2F)
-- **Status**: Me at (21, 13). Murkrow at (21, 12).
-- **Strategy**: Desync X to push Murkrow onto Door Tile (23, 14).
-- **Step 1**: Move Right to (22, 13). (Murkrow -> 22, 12).
-- **Step 2**: Move Right (Blocked by Wall). (Murkrow -> 23, 12 Wall).
-- **Step 3**: Move Left to (21, 13). (Murkrow -> 22, 12).
-- **Step 4**: Move Down (Blocked by Grunt). (Murkrow -> 22, 13 Floor).
-- **Step 5**: Move Right to (22, 13). (Murkrow -> 23, 13 Wall).
-- **Step 6**: Move Down to (22, 14). (Murkrow -> 23, 14 Door).
-- **Step 7**: Interact with Door.
+- **Status**: Me at (22, 13). Murkrow at (22, 12) (Wall).
+- **Strategy**: Force Overlap via Grunt Blockage (Confirmed path).
+- **Step 1**: Move Left to (21, 13).
+  - Murkrow mimics Left to (21, 12).
+- **Step 2**: Move Down (Blocked by Grunt at 21, 14).
+  - I stay at (21, 13).
+  - Murkrow mimics Down to (21, 13) (Floor). -> **OVERLAP**.
+- **Step 3**: Move Right to (22, 13). (Both move).
+- **Step 4**: Move Down to (22, 14). (Both move).
+- **Step 5**: Inspect Door at (23, 14).
