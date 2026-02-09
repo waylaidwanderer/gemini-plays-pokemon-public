@@ -21,9 +21,9 @@
 
 ## Current Task
 - **Murkrow Chase**:
-  - Status: Murkrow is at (22, 12). I am at (22, 13).
-  - Hypothesis: Follower Mechanic (takes previous tile).
-  - Plan: Move Left to (21, 13).
-  - Prediction: Murkrow moves to (22, 13) (The tile in front of the door).
-  - Goal: Trigger door unlock.
+  - Status: Murkrow is at (21, 12). I am at (21, 13).
+  - Behavior: Confirmed MIMICRY. It moves exactly as I do (relative position locked).
+  - Plan: Use Scientist Jed at (18, 12) as a wedge.
+  - Action: Move Left towards Jed.
+  - Goal: Desync Murkrow so I can get North of it.
   - Passwords: "HAIL GIOVANNI", "RATICATE TAIL", "SLOWPOKETAIL".
