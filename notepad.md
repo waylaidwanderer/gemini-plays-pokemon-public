@@ -23,8 +23,8 @@
 - **Murkrow Chase**:
   - Status: Door locked despite password. Murkrow presence required.
   - Task: Murkrow Chase.
-  - Status: Murkrow at (22, 10). Player at (22, 12).
-  - Logic: Interaction from (22, 11) blocked the bird.
-  - Plan: Move Up to (22, 11), Interact (A), then immediately Move Down (22, 12) to unblock the path.
-  - Note: Shutter at (15, 10) remained closed regardless of Switch (19, 11) state. Focus on Murkrow interaction.
+  - Status: Murkrow cornered at (22, 10). Player at (22, 11).
+  - Action: Bumping Murkrow (Up) then immediately moving Down (22, 12) to unblock its path.
+  - Theory: It might need to fly over me, or I need to unblock the path after bumping it for it to flee.
+  - Observation: 'A' interaction last turn produced no visible text. Trying physical bump.
   - Passwords Known: "HAIL GIOVANNI" (Boss), "RATICATE TAIL", "SLOWPOKETAIL".
