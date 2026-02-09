@@ -23,8 +23,11 @@
   4. Move Right to (21, 13) (Push Murkrow to 22,13).
   5. Talk to Murkrow.
 
-- Current: Me (3, 3). Murkrow LOST.
-- Action: Move Down to (3, 14) (South Corridor).
-- Path: Down column 3. Beware of traps.
-- Goal: Sweep South and East for Murkrow.
-- Hypothesis: Murkrow is in the SW or SE area.
+- Current: Me (3, 14) on Map 3_50 (B2F).
+- Status: Just arrived from B1F (Map 3_49?).
+- Insight: I may have been searching B1F for the Murkrow by mistake, or the Map ID changed.
+- Target: Murkrow is at (22, 9) according to Mental Map markers.
+- Plan:
+  1. Move East to (21, 14).
+  2. Move Up to (21, 9) / (22, 9).
+  3. Herd Murkrow to Boss Door (23, 14).
