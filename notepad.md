@@ -15,9 +15,10 @@
 ## Current Task
 - **Trigger Voice Lock**:
   # Murkrow Puzzle (B2F)
-- **Status**: Murkrow at (22, 12). Me at (22, 13).
-- **Observation**: Moving Up caused Murkrow to move Up. It mimics movement.
+- **Status**: Murkrow at (22, 12) (Walkable). Me at (22, 13).
+- **Observation**: Tile (22, 12) looks like a wall but is walkable for Murkrow.
+- **Action**: Move Up to (22, 13) -> Murkrow moves to (22, 12). Interact.
 - **Plan**:
-  1. Move Down to (22, 14). (Expect Murkrow to move Down to 22, 13).
-  2. Face Up and Talk to Murkrow.
-  3. Enter Password.
+  1. Move Up (Face Murkrow).
+  2. Press A repeatedly to Talk.
+  3. Enter Password ("HAIL GIOVANNI").
