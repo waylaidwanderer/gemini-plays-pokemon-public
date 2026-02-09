@@ -15,13 +15,10 @@
 ## Current Task
 - **Trigger Voice Lock**:
   # Murkrow Puzzle (B2F)
-- **Status**: Me and Murkrow overlapped at (22, 13).
-- **Rival**: Silver at (21, 13).
-- **Strategy**: Attempt separation using Rival as a filter.
-- **Action**: Move Left (into Rival).
-- **Hypothesis**:
-  1. I am blocked by Rival.
-  2. Murkrow mimics Left.
-  3. If Murkrow clips through Rival, we separate (Me: 22,13; Murkrow: 21,13).
-  4. If Murkrow is blocked, we stay synced.
-  5. Bonus: Might trigger Rival dialogue.
+- **Status**: Me at (21, 13). Murkrow at (21, 12) (Wall).
+- **Reasoning**: Previous sequence separated us. I am on Row 13, Murkrow on Row 12 (Wall).
+- **Strategy**: Pull Murkrow to floor at (20, 13).
+- **Plan**:
+  1. Move Left to (20, 13). (Murkrow -> 20, 12 Wall).
+  2. Move Down to (20, 14). (Murkrow -> 20, 13 Floor).
+  3. Face Up and Talk.
