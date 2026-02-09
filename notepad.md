@@ -9,11 +9,13 @@
 - **Murkrow**: (22, 12).
 - **Door**: (23, 14).
 
-## Strategy: Murkrow Interaction Protocol
-- **Status**: P(22, 13), M(22, 12). (Visual Confirmation).
-- **Previous Fail**: `Up` was blocked (M refused to move to 22, 11).
+## Strategy: The Scrape Solution
+- **Goal**: Place Murkrow at (22, 14) for interaction.
+- **Method**: X-Axis Scrape on Computer at (21, 10).
 - **Plan**:
-  1. `Down` -> P(22, 14), M(22, 13). (Pull M down).
-  2. `Up` -> P(22, 13), M(22, 12). (Swap back, ensure Facing Up).
-  3. `A` -> Interact with M.
-- **Action**: Execute `Down`, `Up`, `A`.
+  1. `Up` x2 -> P(22, 11), M(22, 10).
+  2. `Left` -> P(21, 11). M(22, 10) (Blocked by Computer 21, 10).
+  3. `Down` x4 -> P(21, 15), M(22, 14).
+  4. `Right` -> P(22, 15). M(22, 14) (Blocked by Door).
+  5. Interact Up.
+- **Action**: Execute Step 1 (Up x2).
