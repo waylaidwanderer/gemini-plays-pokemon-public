@@ -15,15 +15,14 @@
 ## Current Task
 - **Trigger Voice Lock**:
   # Murkrow Puzzle (B2F)
-- **Status**: Me (22, 13), Murkrow (22, 12).
-- **Strategy**: Force Overlap at (22, 14) to satisfy Door condition.
+- **Status**: Murkrow at (22, 13) (Floor). Me at (22, 14).
+- **Rival**: Silver at (21, 13).
+- **Action**: Face Up and Interact.
+- **Physics**: 
+  - I press Up. Murkrow attempts Up (22, 12 Wall) -> Blocked.
+  - I attempt Up -> Blocked by Murkrow.
+  - Result: Facing each other at (22, 14) and (22, 13).
 - **Plan**:
-  1. Move Down to (22, 14). (Murkrow -> 22, 13).
-  2. Move Left (Blocked). (Murkrow -> 21, 13).
-  3. Move Up to (22, 13). (Murkrow -> 21, 12).
-  4. Move Left to (21, 13). (Murkrow -> 20, 12).
-  5. Move Down (Blocked). (Murkrow -> 20, 13).
-  6. Move Right to (22, 13). (Murkrow -> 21, 13).
-  7. Move Right (Blocked). (Murkrow -> 22, 13 -> Overlap).
-  8. Move Down to (22, 14). (Overlap).
-  9. Inspect Door.
+  1. Press Up.
+  2. Press A.
+  3. Get Password.
