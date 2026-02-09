@@ -21,11 +21,10 @@
 
 ## Current Task
 - **Murkrow Chase**:
-  - Status: Operation Jed Wedge - Step 3 (Vertical Sync).
-  - Current: Me (18, 13), Murkrow (19, 12).
-  - Plan:
-    1. Move Right to (19, 13). Murkrow -> (20, 12).
-    2. Move Up to (19, 12). Murkrow hits Poster at (20, 11), stays at (20, 12).
-    3. Move Down to (19, 13). Murkrow -> (20, 13). (Y-SYNCED!)
-    4. Move Right x2 to guide Murkrow to (22, 13).
+  - Status: Operation Jed Wedge - Step 3 (The Bonk).
+  - Current: Me (19, 12), Murkrow (20, 12).
+  - Action: Moved Up to (19, 12).
+  - Expected: Murkrow tried to move Up to (20, 11) (Poster), hit wall, stayed at (20, 12).
+  - Next: Move Down to (19, 13). Murkrow should move to (20, 13).
+  - Goal: Y-Sync at Row 13.
   - Passwords: "HAIL GIOVANNI", "RATICATE TAIL", "SLOWPOKETAIL".
