@@ -15,10 +15,10 @@
 ## Current Task
 - **Trigger Voice Lock**:
   # Murkrow Puzzle (B2F)
-- **Status**: Murkrow at (22, 13). Me at (22, 14).
-- **Physics**: Murkrow is blocked North by wall. I am blocked North by Murkrow.
-- **Action**: Face Up and Interact.
+- **Status**: Murkrow presumed at (22, 12) (Wall). Me at (22, 13).
+- **Reasoning**: Previous 'Up' move separated us (Bird went into wall, I stayed). Interaction with wall failed.
+- **Action**: Move Down to (22, 14).
+- **Goal**: Pull Murkrow to (22, 13) (Floor) to make it interactable.
 - **Plan**:
-  1. Press Up to face Murkrow.
-  2. Press A to Talk.
-  3. Get Password ("HAIL GIOVANNI").
+  1. Move Down.
+  2. Face Up and Talk.
