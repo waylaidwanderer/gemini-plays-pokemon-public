@@ -9,17 +9,15 @@
 - **Murkrow**: (22, 12).
 - **Door**: (23, 14).
 
-## Strategy: The Grunt Block Method
-- **Goal**: P(22, 13), M(22, 14).
-- **Current**: P(20, 14), M(21, 12).
+## Strategy: The Left Hook
+- **Goal**: P(22, 15), M(22, 14).
+- **Current**: P(21, 13), M(21, 12).
 - **Plan**:
-  1. `Up` -> P(20, 13), M(21, 11).
-  2. `Right` -> P(21, 13), M(22, 11).
-  3. `Up` -> P(21, 12), M(22, 10).
-  4. `Up` -> P(21, 11). M(22, 9) (Blocked by Grunt). M(22, 10).
-  5. `Down` x2 -> P(21, 13), M(22, 12).
-  6. `Down` (Block P) -> P(21, 13), M(22, 13).
-  7. `Down` (Block P) -> P(21, 13), M(22, 14).
-  8. `Right` -> P(22, 13). M(22, 14) (Block Door).
-  9. Interact Down.
-- **Action**: Execute Steps 1-2 (Up, Right).
+  1. `Left` -> P(20, 13), M(20, 12).
+  2. `Down` -> P(20, 14), M(20, 13).
+  3. `Right` (Into Blockage) -> P(20, 14). M(21, 13)?
+  4. `Right` (Into Blockage) -> P(20, 14). M(22, 13)?
+  5. `Down` -> P(20, 15). M(22, 14).
+  6. `Right` x2 -> P(22, 15). M(22, 14) (Blocked by Door).
+  7. Face Up, Interact.
+- **Action**: Execute Steps 1-2 (Left, Down).
