@@ -12,12 +12,10 @@
 ## Current State
 - Map: B1F (3_50).
 - Player: (6, 13).
-- Status: Solving Murkrow Puzzle (Phase 2 - Crossing the Wall).
-- Action: Aligning Murkrow to (10, 10).
-- Sequence:
-  1. Left x3 (Player 1, 10; Murkrow 7, 8).
-  2. Right x3 (Player 4, 10; Murkrow 10, 8).
-  3. Up x8 (Player 4, 2; Murkrow 10, 2).
-  4. Down x8 (Player 4, 10; Murkrow 10, 10).
-- Expected State: Murkrow at (10, 10) (Central Corridor).
-- Next: Guide Murkrow East to Boss Door area.
+- Status: Testing Shutter at (15, 10).
+- Action: Moving Right to inspect shutter and Murkrow's progress.
+- Sequence: Right x7.
+- Expected State:
+  - If Open: Player (11, 10), Murkrow (17, 10).
+  - If Closed: Player (11, 10), Murkrow (14, 10).
+- Note: If closed, must reset and find switch.
