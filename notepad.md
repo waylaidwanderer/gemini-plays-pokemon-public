@@ -21,9 +21,12 @@
 
 ## Current Task
 - **Murkrow Chase**:
-  - Status: I am at (22, 12). Murkrow is at (22, 11).
-  - Observation: Murkrow mimics my movement (Mirror/Follow).
-  - Hypothesis: If I move South, it will move South towards the Boss Door.
-  - Plan: Move Down to (22, 13). Watch Murkrow.
-  - Goal: Lead it to the Boss Door at (22, 14).
+  - Status: I am at (22, 13). Murkrow is at (22, 12).
+  - Observation: Murkrow maintained relative position (North of me) when I moved Down.
+  - Hypothesis: It follows me (leash) OR occupies my previous tile.
+  - Plan: Move Left to (21, 13).
+  - Test:
+    - If it moves to (21, 12) -> Mimics X/Y (Leash).
+    - If it moves to (22, 13) -> Occupies previous tile (Follower).
+  - Goal: Get it to (22, 13) to trigger the Boss Door.
   - Passwords: "HAIL GIOVANNI", "RATICATE TAIL", "SLOWPOKETAIL".
