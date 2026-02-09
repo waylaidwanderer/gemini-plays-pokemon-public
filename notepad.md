@@ -12,17 +12,14 @@
 
 ## Current State
 - Map: B1F (3_49).
-- Player: (24, 12).
-- Status: Relocating to West Side.
-- Goal: Check Stairs at (3, 2) (Northwest) to see if Switch at (24, 1) opened them.
-- Logic:
-  - I haven't checked (3, 2) since pressing the switch.
-  - (3, 2) is the standard route to B2F (7, 2).
-  - If (3, 2) fails, check (3, 14).
+- Player: (16, 7).
+- Event: Triggered Warp Trap at (12, 3) while moving West.
+- Goal: Check Stairs at (3, 2) (Northwest).
 - Path:
-  1. Left to (9, 12).
-  2. Up to (9, 3) (Through Gap).
-  3. Left to (3, 2).
+  1. Move Left to (9, 7).
+  2. Move Up through Gap at (9, 4) to (9, 3).
+  3. Move Left to (3, 2).
+  4. Verify Stairs.
 
 ## Murkrow Status
 - Missing. Presumed at Start Area (7, 2) on B2F.
