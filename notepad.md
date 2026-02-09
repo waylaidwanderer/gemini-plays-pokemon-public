@@ -15,9 +15,11 @@
 ## Current Task
 - **Trigger Voice Lock**:
   # Murkrow Puzzle (B2F)
-- **Status**: Murkrow at (21, 13). Me at (20, 14).
-- **Strategy**: Push Murkrow Right to limit its X-movement.
-- **Step 2**: Press Right again.
-  - I am blocked by Grunt at (21, 14). Stay at (20, 14).
-  - Murkrow moves Right to (22, 13).
-- **Goal**: Pin Murkrow against a blockage on the Right side to desync X.
+- **Status**: Murkrow at (22, 13). Me at (20, 14).
+- **Strategy**: Re-align to (22, 14) while Murkrow is at (22, 13).
+- **Plan**:
+  1. Move Up to (20, 13). (Murkrow -> 22, 12 Wall).
+  2. Move Right to (21, 13). (Murkrow -> 23, 12 Wall Blocked).
+  3. Move Right to (22, 13). (Murkrow -> 23, 12 Wall Blocked).
+  4. Move Down to (22, 14). (Murkrow -> 22, 13 Floor).
+  5. Talk.
