@@ -12,13 +12,14 @@
 
 ## Current State
 - Map: B1F (3_49).
-- Player: (3, 2).
-- Goal: Enter Fake Statue at (6, 1).
-- Error Correction: Previous attempt failed because I was at (3, 2), not (6, 2).
+- Player: (4, 2).
+- Goal: Activate Statue Switch at (6, 1).
+- Observation: Statue at (6, 1) is currently SOLID (bounced off it last turn).
 - Plan:
-  1. Move Right to (6, 2).
-  2. Walk UP into (6, 1).
-  3. Traverse hidden path to stairs.
+  1. Move to (6, 2).
+  2. Interact (Press A) with Statue.
+  3. Handle "Press Switch?" prompt.
+  4. Check if Statue becomes passable (Fake Wall) OR if stairs appear at (3, 2).
 
 ## Murkrow Status
 - Missing. Presumed at Start Area (7, 2) on B2F.
