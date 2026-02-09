@@ -16,14 +16,14 @@
 - Objective: Reach SE Stairs at (27, 14) to bypass Boss Door or find alternate route.
 - Obstacle: Grunt at (21, 14) and potentially Gate/Wall at (23, 14).
 - Connectivity:
-  - Row 12 West (0-23) is SOLID WALL. Cannot go North from here.
-  - Row 12 East (24-29) is Walkable.
-  - Must cross at Row 14 (if possible) or loop via B2F to NW Stairs.
+  - Row 12 West (0-23) is SOLID WALL (TYPE_2889).
+  - Row 12 East (24-29) is Walkable (TYPE_3fe2).
+  - Row 14: Blocked by Grunt at (21, 14).
+  - TYPE_2889 = Wall. TYPE_3fe2 = Floor.
 - Action:
-  1. Approach Grunt at (21, 14).
-  2. Defeat Grunt.
-  3. Check passability of (23, 14).
-  4. If passable, proceed to SE Stairs. If not, backtrack to B2F.
+  1. Interact with Grunt at (21, 14).
+  2. If defeated, check gate at (23, 14).
+  3. If gate is locked/solid, backtrack.
 
 ## Murkrow Status
 - Missing. Presumed at Start Area (7, 2) on B2F.
