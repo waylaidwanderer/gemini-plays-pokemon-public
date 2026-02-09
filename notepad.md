@@ -13,13 +13,12 @@
 ## Current State
 - Map: B1F (3_50).
 - Player: (25, 1).
-- Status: Checking East Computer/Switch.
-- Observation: Computer at (24, 0) had NO reaction.
+- Status: Investigating East Side.
+- Observation: Computer at (24, 0) and (25, 0) checked.
 - Plan:
-  1. Check Computer at (25, 0).
-  2. If no reaction, defeat Grunt at (22, 5).
-  3. Explore South room.
-  4. Return to B2F.
+  1. If (25, 0) fails, move to defeat Grunt at (22, 5).
+  2. Explore South room.
+  3. Re-evaluate switch location (maybe statues need specific interaction?).
 
 ## Murkrow Status
 - Missing. Presumed at Start Area (7, 2) on B2F.
