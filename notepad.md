@@ -14,9 +14,11 @@
 - **Opening Boss Door**:
   # Murkrow Puzzle (B2F)
 - **Status**: Me at (22, 13). Murkrow at (22, 12).
-- **Action**: Move Down to (22, 14).
+- **Strategy**:
+  1. **Door Proximity**: Move Down to (22, 14). Murkrow moves to (22, 13) (Next to Door). Interact with Door.
+  2. **Pinning**: If Door fails, move Up to (22, 13) -> Murkrow (22, 12). Then move Up again to pin Murkrow against wall at (22, 11) and talk.
+- **Action**: Move Down, Face Right, Interact.
 - **Plan**:
-  1. Move Down (Murkrow follows to 22, 13).
-  2. Face Up and Talk to Murkrow ("Hail Giovanni").
-  3. Face Right and Interact with Door. (Missed this step last time!)
-- **Backup**: If trapped at (22, 14), move Up to push Murkrow back.
+  1. Down (Move).
+  2. Right (Face Door).
+  3. A (Interact).
