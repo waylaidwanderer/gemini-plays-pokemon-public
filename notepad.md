@@ -11,18 +11,18 @@
   - M Blocked: Murkrow STAYS.
 
 ## Current State
-- Map: B1F (3_50).
+- Map: B2F (3_51).
 - Player: (3, 6).
-- Status: TRAPPED in enclosed area (Rows 5-7, Cols 3-5).
-- Blockages: North (Wall at 3, 4), South (Locked Gate at 3, 8), East (Wall at 6, 6).
-- Only Exit: Warp at (3, 6) leads back to B2F (presumably).
-- Goal: Escape to B2F and find Murkrow.
+- Status: Successfully warped back to B2F.
+- Critical: Tile (3, 6) is a WARP to B1F. Do not step back on it.
+- Goal: Reach Murkrow Area (East of Wall x=6).
+- Murkrow: Currently at (7, 2).
 
 ## Plan
-1. Move Up to (3, 5) to step off warp.
-2. Move Down to (3, 6) to trigger warp to B2F.
-3. On B2F, avoid stepping on (3, 6) again.
-4. Navigate to Murkrow at (7, 2).
+1. Move OFF the warp tile immediately (Go South/East).
+2. Navigate to the gap at (6, 10) to cross the wall.
+3. Observe Murkrow's movement response.
+4. Catch/Guide Murkrow.
 
 ## Murkrow Status
 - Missing. Presumed at Start Area (7, 2) on B2F.
