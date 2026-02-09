@@ -12,10 +12,11 @@
 ## Current State
 - Map: B1F (3_50).
 - Player: (6, 13).
-- Status: Flanking Grunt on B1F North Side.
+- Status: Moving East from (5, 1) to engage Grunt.
 - Route:
-  1. Move West from NE Stairs (27, 2).
-  2. Engage Grunt at (22, 5).
+  1. Move East across the room from (5, 1).
+  2. Navigate to (21, 5) to engage Grunt at (22, 5).
+- Note: Trap/Sprite detected at (7, 5). Proceed with caution.
 - Note: Boss Door is likely at B2F (23, 14).
 - Note: Current Map B1F (3_50).
 - Note: Murkrow last seen at B2F (7, 2).
