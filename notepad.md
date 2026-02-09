@@ -12,12 +12,9 @@
 ## Current State
 - Map: B1F (3_50).
 - Player: (6, 13).
-- Status: Investigating B1F Isolated Room (via NW Stairs at 3, 6).
-- Action: Check for hidden switches in this room.
-- Sequence: Check North Wall at (3, 4).
-- Plan:
-  1. If empty, return to B2F.
-  2. Go North to B2F (3, 2) and take those stairs.
-  3. Locate "Silver Viewing Room" or Switch.
-- Note: B1F (3, 6) appears to be a small room.
-- Note: Murkrow is on B2F, likely near (3, 2) or (7, 2).
+- Status: Checking Shutter Status at (15, 10).
+- Action: Move to (14, 10) to inspect shutter.
+- Path: Down to Row 10, Right to Col 14.
+- Hypothesis: Interacting with "Oath" machine at (12, 1) may have toggled the shutter.
+- Murkrow State: Will be dragged to Row 8/9 during move.
+- Next: If Open, guide Murkrow through. If Closed, panic search for switch (maybe B1F?).
