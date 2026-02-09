@@ -9,12 +9,11 @@
 - **Murkrow**: (22, 12).
 - **Door**: (23, 14).
 
-## Strategy: The Double X-Scrape
+## Strategy: Murkrow Delivery
 - **Goal**: P(22, 15), M(22, 14).
+- **Current**: P(20, 13), M(20, 12).
 - **Plan**:
-  1. `Up` x2 -> P(22, 11), M(22, 10).
-  2. `Left` x2 -> P(20, 11). M Blocked at (21, 10) TWICE. Stays (22, 10).
-  3. `Down` x4 -> P(20, 15), M(22, 14).
-  4. `Right` x2 -> P(22, 15). M Blocked by Door. Stays (22, 14).
-  5. Face Up, Interact.
-- **Action**: Execute Steps 1-2 (Up, Up, Left, Left).
+  1. `Right` x2 -> P(22, 13), M(22, 12).
+  2. `Down` x2 -> P(22, 15), M(22, 14).
+  3. Face Up, Interact.
+- **Action**: Execute Plan (Right x2, Down x2).
