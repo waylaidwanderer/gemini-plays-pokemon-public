@@ -11,15 +11,16 @@
   - M Blocked: Murkrow STAYS.
 
 ## Current State
-- Map: B2F (3_51).
-- Player: (23, 14).
-- Status: At Boss Door. Door appears locked/inert.
-- Requirement: Murkrow (Voice ID).
-- Plan:
-  1. Go to B1F via SE Stairs (27, 14).
-  2. Activate East Switch at (24, 1).
-  3. Find path to B2F Murkrow area (Start: 7, 2).
-- Action: Navigate to SE Stairs (27, 14).
+- Map: B1F (3_50).
+- Player: (24, 1).
+- Status: Trying to activate East Switch.
+- Action:
+  1. Face Up (towards computer at 24, 0).
+  2. Press A to activate switch.
+  3. If successful, find Murkrow (Start: 7, 2 on B2F).
+- Connectivity:
+  - Stairs at (27, 2) connect to B2F NE.
+  - Stairs at (27, 14) connect to B2F SE.
 
 ## Murkrow Status
 - Missing. Presumed at Start Area (7, 2) on B2F.
