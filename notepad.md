@@ -14,8 +14,8 @@
 
 ## Current Task
 - **Trigger Voice Lock**:
-  - Current: Me (20, 13), Murkrow (20, 12).
-  - Action: Move Left to (19, 13).
-  - Goal: Use the open area and desks to rotate Murkrow's position relative to me.
-  - Target: Me (22, 13), Murkrow (21, 13) (Murkrow West of Me).
+  - Current: Me (19, 13), Murkrow (19, 12).
+  - Action: Move Left to (18, 13).
+  - Reasoning: Scientist Jed is at (18, 12). Murkrow should try to move to (18, 12), hit Jed, and stay at (19, 12).
+  - Result: I will be at (18, 13), Murkrow at (19, 12). (Offset created).
   - Passwords: "HAIL GIOVANNI", "RATICATE TAIL", "SLOWPOKETAIL".
