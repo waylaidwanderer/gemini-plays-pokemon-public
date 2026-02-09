@@ -15,10 +15,10 @@
 ## Current Task
 - **Trigger Voice Lock**:
   # Murkrow Puzzle (B2F)
-- **Status**: Murkrow at (22, 13). Me at (22, 14).
-- **Hypothesis**: Murkrow is solid. If I press Up, I will bump it and face it.
-- **Action**: Press Up, then Interact.
-- **Plan**:
-  1. Press Up (Bump Murkrow).
-  2. Press A (Talk).
-  3. If I move to (22, 13), Murkrow moved to (22, 12). Interact with wall.
+- **Status**: Murkrow and Player overlapping at (22, 13).
+- **Issue**: "Ghost Murkrow" glitch or overlapping sprites. Mimicry prevents separation.
+- **Action**: Move Left to (21, 13).
+- **Hypothesis**:
+  1. If Murkrow mimics, we overlap at (21, 13).
+  2. If Murkrow rotates/mirrors or is blocked, we separate.
+  3. Attempting to break the overlap to interact.
