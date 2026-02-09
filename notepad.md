@@ -23,9 +23,14 @@
   4. Move Right to (21, 13) (Push Murkrow to 22,13).
   5. Talk to Murkrow.
 
-- Current: Me (17, 12). Murkrow (19, 12) [Predicted].
-- Action: Move Down to (17, 13).
-- Expected Result: Murkrow moves Down to (19, 13).
-- Next: Move Right to push Murkrow to (22, 13).
+- Current: Me (17, 13). Murkrow LOST.
+- Observation: Murkrow is NOT at (19, 12) or (19, 13) or (21, 12/13).
+- Hypothesis:
+  1. It moved unpredictably (e.g. mirrored/rotated).
+  2. It passed through "obstacles" I thought were solid.
+  3. It reset to a spawn point.
+- Plan:
+  1. Move Right to (19, 13) to check the area thoroughly.
+  2. If not found, check the NE corner or start point.
 
-- Goal: Herd Murkrow to door.
+- Action: Move Right to (18, 13).
