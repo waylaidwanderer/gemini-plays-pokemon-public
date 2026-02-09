@@ -14,8 +14,8 @@
 - Player: (4, 2).
 - Status: Bypassing Defeated Grunt at (4, 1).
 - Route:
-  1. Move Right to (5, 2).
-  2. Move Up to (5, 1).
-  3. Move Right through Chokepoint at (6, 1).
-  4. Continue East to Central Area.
-  5. Engage Grunt at (22, 5).
+  1. Clear Dialogue.
+  2. Move Right to (5, 2).
+  3. Move Up to (5, 1).
+  4. Move Right through (6, 1) (Test "Fake Wall").
+  5. Continue East to Central Area.
