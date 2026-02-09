@@ -11,13 +11,11 @@
 - **Puzzle Status**: Murkrow is at (22, 12). I am at (22, 13).
 
 ## Current Task
-- **Getting Password**:
+- **Executing Murkrow Strategy**:
   # Murkrow Puzzle (B2F)
 - **Status**: Me at (22, 13). Murkrow at (22, 12).
-- **Correction**: Garnet in Party (Lv46) DOES NOT have Dig. (Garnet in PC has Dig).
-- **Escape**: Impossible via Dig. Must solve puzzle.
-- **Plan**:
-  1. Close Menu.
-  2. Face Up and Talk to Murkrow (Get Password).
-  3. Move Down to (22, 14) (Murkrow should mimic to 22, 13).
-  4. Face Right and Open Door.
+- **Reality Check**: Cannot Dig. Must commit to the puzzle.
+- **Step 1**: Talk to Murkrow to verify responsiveness.
+- **Step 2**: Move Down to (22, 14) to drag Murkrow to (22, 13).
+- **Step 3**: Talk to Murkrow at (22, 13) so it shouts password near Door.
+- **Step 4**: Open Door.
