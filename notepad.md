@@ -13,9 +13,8 @@
 - Map: B1F (3_50).
 - Player: (25, 14).
 - Status: Moving West to Engage Grunt at (21, 14).
-- Observation: Grunt at (25, 13) knows nothing.
+- Objective: Defeat Grunt guarding the door at (23, 14) (Likely Executive Room).
 - Plan:
-  1. Move West to trigger Grunt at (21, 14).
-  2. Defeat him.
-  3. Check the door at (23, 14).
-  4. Find the Executive (Petrel/Proton/Ariana?).
+  1. Close text box.
+  2. Move West to (22, 14) to trigger battle.
+  3. Enter the door if possible or talk to Grunt after battle.
