@@ -11,12 +11,16 @@
 - **Puzzle Status**: Murkrow is adjacent to me and near door.
 
 ## Current Task
-- **Locating Murkrow**:
+- **Interacting with Murkrow**:
   # Murkrow Puzzle (B2F)
-- **Status**: At (21, 13). Murkrow is missing/lost.
-- **Markers**: Old markers at (21, 13), (22, 12) etc. are unreliable.
+- **Status**: Boxed in at (22, 14).
+- **Surroundings**:
+  - Up: Murkrow (22, 13).
+  - Down: Wall.
+  - Left: Grunt (21, 14).
+  - Right: Boss Door (23, 14).
 - **Plan**:
-  1. Move Right to (22, 13) to escape "box".
-  2. Move Down to (22, 14) and Interact with Door (Right).
-  3. If door locked and no bird, move North to search/reset.
-- **Note**: (20, 13) is impassable (despite XML). (21, 14) is Grunt. (21, 12) is Desk. Only exit is Right.
+  1. Face Up and Interact with Murkrow.
+  2. If it flees, the path is clear.
+  3. If it speaks ("Hail Giovanni"), turn Right and try Door.
+  4. If stuck, use Dig.
