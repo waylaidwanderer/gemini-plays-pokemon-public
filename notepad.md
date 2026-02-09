@@ -21,11 +21,9 @@
 
 ## Current Task
 - **Murkrow Chase**:
-  - Behavior: Murkrow mimics movement vector.
-  - Problem: I need to be North of it to push it South, but it moves with me.
-  - Solution: Use obstacles (Jed at 18, 12) to block Murkrow while I move.
-  - Plan:
-    1. Move Left to (18, 13). Murkrow hits Jed at (18, 12) and desyncs.
-    2. Circle around Top (Row 9) to get North of Murkrow.
-    3. Push Murkrow South to the Door.
+  - Status: LOST.
+  - Event: I moved Left to (18, 13). Murkrow should have hit Jed at (18, 12).
+  - Observation: Murkrow is NOT visible at (19, 12) or in the corridor.
+  - Hypothesis: It either flew away, passed through Jed, or is invisible.
+  - Plan: Circle around Jed to check (19, 11) (Switch) and (19, 12) from the North/West.
   - Passwords: "HAIL GIOVANNI", "RATICATE TAIL", "SLOWPOKETAIL".
