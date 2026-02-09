@@ -15,8 +15,8 @@
 ## Current Task
 - **Trigger Voice Lock**:
   # Murkrow Puzzle (B2F)
-- **Status**: Murkrow at (22, 13). Me at (22, 14).
-- **Strategy**: Chase Murkrow North until it is pinned against the blockage at (22, 9).
-- **Action**: Move Up to (22, 13).
-- **Expectation**: Murkrow moves Up to (22, 12).
-- **Next**: Continue chasing North.
+- **Status**: Murkrow at (22, 12). Me at (22, 13).
+- **Strategy**: Pin Murkrow against the North Wall at (22, 10) to talk to it.
+- **Action**: Move Up to (22, 12).
+- **Expectation**: Murkrow moves Up to (22, 11).
+- **Next**: Move Up again to pin it, then Talk.
