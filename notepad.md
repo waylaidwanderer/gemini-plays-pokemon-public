@@ -12,13 +12,14 @@
 
 ## Current State
 - Map: B1F (3_49).
-- Player: (8, 5).
-- Event: Triggered Warp Trap at (16, 7) -> Teleported to (8, 5).
-- Goal: Check Northwest Corner (3, 2) again.
-- Logic:
-  - I pressed the switch at (24, 1).
-  - I need to see if the stairs at (3, 2) are now visible/accessible.
-  - If not, check the Persian Statue at (6, 1) again.
+- Player: (6, 2).
+- Status: Interacted with Statue at (6, 1) ("Its eyes are oddly shiny").
+- Hypothesis: This switch opened the gate at (3, 14) or revealed stairs.
+- Goal: Check Stairs at (3, 14) (Southwest).
+- Path:
+  1. Move Left to (3, 2).
+  2. Move Down to (3, 14) (Check gate).
+  3. If open, descend to B2F.
 
 ## Murkrow Status
 - Missing. Presumed at Start Area (7, 2) on B2F.
