@@ -12,12 +12,8 @@
 ## Current State
 - Map: B1F (3_50).
 - Player: (6, 13).
-- Status: Searching North Corridor (Row 1) for Switch.
-- Action: Inspect computers at (20, 2), (19, 2), etc.
-- Route:
-  1. Move North to (27, 2).
-  2. Move West to (24, 2) -> Enter Row 1.
-  3. Move West to (20, 1).
-  4. Inspect (20, 2).
-- Reason: Previous search of (21-23) was empty. Grunt at (22, 5) is inaccessible from East.
+- Status: Backtracking to B1F NE via B2F.
+- Action: Go to SE Stairs (27, 14), take to B2F, traverse to NE Stairs (27, 2), take to B1F.
+- Reason: B1F SE Quadrant is a dead end (Row 10 blocked).
+- Objective: Inspect computers at (20, 2) from the North side (Row 1).
 - Murkrow Status: Waiting at B2F (14, 10).
