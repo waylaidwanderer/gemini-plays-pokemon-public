@@ -12,14 +12,13 @@
 
 ## Current State
 - Map: B1F (3_50).
-- Player: (25, 1).
+- Player: (28, 6).
 - Status: Navigating to South Grunt (25, 13).
-- Obstacle: Wall at Row 6 (Column 25 is blocked).
-- Solution: Gap exists at Column 28.
 - Plan:
-  1. Move East to Column 28.
-  2. Move South through gap at (28, 6).
-  3. Continue to (25, 12) to engage Grunt.
+  1. Move South to Row 13.
+  2. Move West to (26, 13).
+  3. Engage Grunt at (25, 13).
+  4. Check for switches/triggers in that area.
 
 ## Murkrow Status
 - Missing. Presumed at Start Area (7, 2) on B2F.
