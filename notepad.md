@@ -22,9 +22,9 @@
 ## Current Task
 - **Murkrow Chase**:
   - Status: LOST.
+  - Mistake: Mental Map XML does NOT track live sprites. Visual sweep is mandatory.
   - Search Plan:
-    1. Sweep NW Corner (2, 4).
-    2. Sweep North Corridor (Row 4).
-    3. Check Fake Computer Room (19, 4).
-  - Note: Murkrow not in Central or South areas.
-  - Clue: Murkrow mimics "Hail Giovanni".
+    1. Sweep Fake Computer Room (19, 4).
+    2. Sweep NE Corner (27, 2).
+    3. Re-check the "Exit" stairs at (27, 2) just in case.
+  - Note: Grunt at (2, 4) is not Murkrow.
