@@ -22,3 +22,4 @@
 
 ## Murkrow Status
 - Missing. Presumed at Start Area (7, 2) on B2F.
+- Note: BFS failed repeatedly to path from (28, 6) to (26, 13). Path seems clear visually and in XML. Using manual movement.
