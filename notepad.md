@@ -15,10 +15,11 @@
 ## Current Task
 - **Trigger Voice Lock**:
   # Murkrow Puzzle (B2F)
-- **Status**: Murkrow at (20, 13) (Floor). Me at (20, 14).
-- **Success**: Luring worked! Murkrow is off the wall.
-- **Action**: Interact with Murkrow.
+- **Status**: Murkrow at (20, 12) (Wall). Me at (20, 13).
+- **Issue**: Interaction failed at wall. Murkrow needs to be on floor.
+- **Action**: Move Down to (20, 14).
+- **Expectation**: Murkrow mimics Down to (20, 13) (Floor).
 - **Plan**:
-  1. Face Up.
-  2. Press A to Talk.
-  3. Get "HAIL GIOVANNI".
+  1. Move Down.
+  2. Face Up (without moving).
+  3. Talk to Murkrow.
