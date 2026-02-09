@@ -11,18 +11,17 @@
   - M Blocked: Murkrow STAYS.
 
 ## Current State
-- Player: (22, 13).
-- Murkrow: (22, 12).
+- Player: (22, 14).
+- Murkrow: (21, 13).
 - Grunt: (21, 14) (Blocking).
 
-## Strategy: Desync & Loop
-- **Goal**: Move Murkrow to (22, 14) (South of Player).
+## Strategy: Desync & Loop (Refined)
+- **Goal**: Move Murkrow to (22, 13) and Player to (22, 14).
 - **Sequence**:
-  1. `Down` -> P(22,14), M(22,13).
-  2. `Left` -> P Blocked (Grunt). M(21,13).
-  3. `Up` -> P(22,13), M(21,12).
-  4. `Left` -> P(21,13), M(20,12).
-  5. `Down` -> P Blocked (Grunt). M(20,13).
-  6. `Right` -> P(22,13), M(21,13).
-  7. `Right` -> P Blocked (Wall). M(22,13) (Overlap?).
-  8. `Down` -> P(22,14), M(22,14).
+  1. `Up` -> P(22,13), M(21,12).
+  2. `Left` -> P(21,13), M(20,12).
+  3. `Down` -> P Blocked (Grunt). M(20,13).
+  4. `Right` -> P(22,13), M(21,13).
+  5. `Down` -> P(22,14), M Blocked (Grunt). M(21,13).
+  6. `Right` -> P Blocked (Door). M(22,13).
+  7. Interact.
