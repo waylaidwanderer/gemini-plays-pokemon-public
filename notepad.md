@@ -22,8 +22,8 @@
 ## Current Task
 - **Murkrow Chase**:
   - Status: Door locked despite password. Murkrow presence required.
-  - Hypothesis: ON = Security Active (Shutters Closed). OFF = Security Inactive (Shutters Open).
-  - Action: Returning to (19, 11) to turn the switch OFF.
-  - Plan: Toggle switch, then return to (15, 10) to check the shutter again.
-  - Goal: Open the shutter to access the North Corridor.
+  - Hypothesis: OFF = Security Inactive (Shutters Open).
+  - Action: Turning switch OFF at (19, 11).
+  - Plan: After switching OFF, return to (15, 10) to check the shutter.
+  - Path: (19, 12) -> (19, 13) -> (15, 13) -> (15, 10).
   - Passwords Known: "HAIL GIOVANNI" (Boss), "RATICATE TAIL", "SLOWPOKETAIL".
