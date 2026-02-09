@@ -22,8 +22,8 @@
 ## Current Task
 - **Murkrow Chase**:
   - Status: Door locked despite password. Murkrow presence required.
-  - Observation: Murkrow is visible at (22, 12). Player is at (22, 13).
-  - Correction: Previous "vanished" observation was a hallucination.
-  - Plan: Flank Murkrow from the North (22, 11) to push it South towards the Boss Door.
-  - Path: Left (21, 13) -> Up (21, 12) -> Up (21, 11) -> Right (22, 11).
+  - Observation: Murkrow vanished from (22, 12). Player occupying the tile.
+  - Action: Moving South to (22, 13) to interact with the Boss Door at (22, 14).
+  - Expectation: Murkrow should have unlocked the door, or will appear when I check it.
+  - Note: (23, 13) is solid, so (22, 13) is the only interaction point.
   - Passwords Known: "HAIL GIOVANNI" (Boss), "RATICATE TAIL", "SLOWPOKETAIL".
