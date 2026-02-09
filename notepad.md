@@ -2,25 +2,22 @@
 
 ## Objectives
 - **Primary**: Open Boss Door at B2F (23, 14).
-- **Secondary**: Interact with Boss Door at (22, 14) while Murkrow is nearby.
+- **Secondary**: Defeat Team Rocket Executives.
 
 ## Map Knowledge
-- **B2F Layout**:
-  - **West Wing**: Current location.
-  - **East Wing**: Target location (Boss Door).
-- **Boss Door**: Located at (22, 14).
-- **Murkrow**: Currently at (22, 13).
-- **Puzzle Status**: Murkrow in position. Interaction with Murkrow failed; attempting interaction with Door.
+- **B2F Layout**: West Wing (Current), East Wing (Target).
+- **Boss Door**: (23, 14).
+- **Murkrow**: (22, 13).
+- **Puzzle Status**: Murkrow is adjacent to me and near door.
 
 ## Current Task
 - **Trigger Voice Lock**:
   # Murkrow Puzzle (B2F)
-- **Status**: Murkrow at (22, 13) (Floor). Me at (22, 14).
+- **Status**: Murkrow at (22, 13). Me at (22, 14).
 - **Rival**: Silver at (21, 13).
-- **Action**: Face Up and Interact.
-- **Physics**: Murkrow blocked North by Wall (22, 12). I bump into Murkrow.
+- **Action**: Face Right and Interact with Door.
+- **Reasoning**: Murkrow is at (22, 13). I am at (22, 14). The door is at (23, 14). The Murkrow might need to be "in range".
 - **Plan**:
-  1. Press Up.
-  2. Press A (Talk).
-  3. Get "HAIL GIOVANNI".
-  4. Inspect Door.
+  1. Face Right.
+  2. Press A (Interact with Door).
+  3. If that fails, talk to Murkrow (Up).
