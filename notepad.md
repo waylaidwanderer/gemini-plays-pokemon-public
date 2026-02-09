@@ -5,18 +5,15 @@
 - **Secondary**: Defeat Team Rocket Executives.
 
 ## Current State
-- **Player**: (22, 14).
-- **Murkrow**: (22, 13).
+- **Player**: (22, 13).
+- **Murkrow**: (22, 12).
 - **Door**: (23, 14).
-- **Status**: Door is LOCKED even with Murkrow adjacent.
-- **Conclusion**: Proximity is not enough. Must trigger "Hail Giovanni" dialogue.
 
-## Strategy: Interaction
-- **Action**: Talk to Murkrow.
-- **Plan**:
-  1. Face **Up** (Face Murkrow).
-  2. Press **A** (Talk).
-  3. If dialogue triggers, Close it (**B**).
-  4. Face **Right** (Face Door).
-  5. Press **A** (Open).
-- **Hypothesis**: Since I am blocked by Murkrow, I won't move, so Murkrow shouldn't mimic/move. Interaction should succeed.
+## Strategy: The Down-Lock Maneuver
+- **Goal**: Position Murkrow at (22, 13) and Player at (22, 14), then trigger everything without moving.
+- **Sequence**:
+  1. `Down` (Me -> 22, 14; Murkrow -> 22, 13).
+  2. `Right` + `A` (Check Door).
+  3. `Up` + `A` (Talk to Murkrow at 22, 13).
+  4. `Right` + `A` (Open Door).
+- **Key**: Turning does not trigger mimicry. Only stepping does. Standing ground is crucial.
