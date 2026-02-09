@@ -14,14 +14,14 @@
 ## Current State
 - Map: B2F (3_51).
 - Player: (3, 2).
-- Status: Navigating South on West Side.
-- Objective: Check passability of Row 11 (Shutter/Wall).
-- Constraint: AVOID WARP TILE AT (3, 6).
+- Status: Arriving on B2F.
+- Objective: Navigate South to Row 11 via Column 4.
+- Reason: Bypass Warp Trap at (3, 6).
 - Route:
-  1. Move to (4, 2) -> (4, 10). (Bypassing (3, 6)).
-  2. Check (3, 11) / (4, 11) for passage.
-  3. If passable, reach Stairs at (3, 14).
-  4. If blocked, return to B1F and check Gate at (3, 8).
+  1. Move Right to (4, 2).
+  2. Move South to (4, 10).
+  3. Check Row 11 for passage.
+  4. If passable, proceed to SW Stairs (3, 14).
 
 ## Murkrow Status
 - Reset to (7, 2) on B2F (assumed).
