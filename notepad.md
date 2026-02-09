@@ -12,9 +12,12 @@
 
 ## Current State
 - Map: B1F (3_49).
-- Player: (3, 14).
+- Player: (3, 9).
 - Goal: Reach Stairs at (3, 2) to return to B2F start area.
-- Murkrow: Presumed at B2F (7, 2).
+- Notes:
+  - Stairs at (3, 2) might be hidden or require passing the Persian Statue at (6, 1).
+  - Trap at (3, 8) likely active.
+  - Previous logs confirm stairs at (3, 2) exist.
 
 ## Strategy: Search & Rescue
 - **Path**:
