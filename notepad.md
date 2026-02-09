@@ -12,9 +12,12 @@
 ## Current State
 - Map: B1F (3_50).
 - Player: (6, 13).
-- Status: Returning to B2F via NW Stairs (3, 2).
-- Action: Navigate West from (7, 1) to (3, 2).
-- Route: Left (to 5, 1), Down (to 5, 2), Left (to 3, 2).
-- Objective: Reach Murkrow at B2F (14, 10).
-- Murkrow Status: Waiting at B2F (14, 10).
-- Puzzle Plan: Use walls/obstacles to align Murkrow and guide it through the gap at (15, 12) or similar, assuming shutter (15, 10) remains closed.
+- Status: Resuming Murkrow Puzzle on B2F.
+- Event: Accidentally warped to B1F (3, 6) during sequence.
+- Murkrow State: Likely moved Down x4 to (7, 6).
+- Action: Return to B2F immediately.
+- Plan:
+  1. Take stairs at (3, 6) back to B2F.
+  2. Verify Murkrow position (expecting 7, 6).
+  3. Continue guiding to Row 10/12 gap.
+- Note: Movement on B1F does not affect Murkrow on B2F.
