@@ -11,20 +11,18 @@
   - M Blocked: Murkrow STAYS.
 
 ## Current State
-- Map: B1F (3_49).
-- Player: (9, 3).
-- Goal: Return to B2F Start Area (7, 2) to find Murkrow.
-- Obstacle: Traps on Rows 8-13.
-- Safe Path (Weave):
-  1. (9, 3) -> Left to (3, 3).
-  2. Down to (3, 7).
-  3. Left to (2, 7) -> Down to (2, 9).
-  4. Right to (3, 9) -> Down to (3, 14).
+- Map: B2F (3_50) - Southwest Corner.
+- Player: (3, 14).
+- Situation: Dead End. Wall at Row 12 blocks path to (7, 2).
+- Murkrow: Not here. Presumed at Start Area (7, 2) on B2F.
+- Goal: Return to B1F and open the path to the NW Stairs at (3, 2).
 
-## Strategy: Search & Rescue
+## Strategy: Unlock NW Stairs
 - **Sequence**:
-  1. Navigate safe path to Stairs at (3, 14).
-  2. Take Stairs to B2F.
-  3. Walk to (7, 2).
-  4. Locate Murkrow.
-  5. Restart escort mission (Be careful of range/reset).
+  1. Return to B1F via Stairs at (3, 14).
+  2. Navigate to East Side (avoid traps).
+  3. Activate Switch at Persian Statue (24, 6) (Verify activation).
+  4. Go to NW Corner (6, 1).
+  5. Pass Fake Wall/Statue at (6, 1).
+  6. Take Stairs at (3, 2) to B2F Start Area.
+  7. Find Murkrow.
