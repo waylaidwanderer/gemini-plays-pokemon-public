@@ -21,11 +21,9 @@
 
 ## Current Task
 - **Murkrow Chase**:
-  - Status: Murkrow at (19, 12). I am at (17, 13).
-  - Strategy: X-Desync successful. Now Y-Desync.
-  - Plan:
-    1. Move Left to (17, 13) (Done).
-    2. Move Up to (17, 11). Murkrow will hit Wall at (19, 10).
-    3. Result: Y-Sync (Same Row).
-    4. Lead Murkrow to (22, 13).
+  - Status: Murkrow at (19, 11). I am at (17, 12).
+  - Plan: Move Up to (17, 11).
+  - Expectation: Murkrow hits wall at (19, 10) and stays at (19, 11).
+  - Result: Y-Sync achieved (Both at Row 11).
+  - Next: Move Right to lead Murkrow to (22, 11).
   - Passwords: "HAIL GIOVANNI", "RATICATE TAIL", "SLOWPOKETAIL".
