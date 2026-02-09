@@ -22,9 +22,8 @@
 ## Current Task
 - **Murkrow Chase**:
   - Status: Door locked despite password. Murkrow presence required.
-  - Insight: Switch at (19, 11) controls the Locked Shutter at (15, 10).
-  - Action: Turning switch ON.
-  - Plan: Navigate West to (15, 13), then Up to (15, 10) to access the North Corridor.
-  - Goal: Flank Murkrow from the North (22, 9).
-  - Path: (19, 12) -> (19, 13) -> (15, 13) -> (15, 10).
+  - Insight: Switch at (19, 11) is ON.
+  - Action: Moving to (15, 10) to check if the shutter is open.
+  - Path: Left to (15, 13), then Up to (15, 10).
+  - Goal: Access North Corridor to flank Murkrow at (22, 9).
   - Passwords Known: "HAIL GIOVANNI" (Boss), "RATICATE TAIL", "SLOWPOKETAIL".
