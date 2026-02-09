@@ -22,8 +22,8 @@
 ## Current Task
 - **Murkrow Chase**:
   - Status: Door locked despite password. Murkrow presence required.
-  - Observation: Previous attempt to flank and interact reverted position to (22, 13).
-  - Hypothesis: Interaction or movement failed to commit. Retrying movement ONLY to confirm position.
-  - Plan: Move to (22, 11) (North of Murkrow) and STOP.
-  - Path: (22, 13) -> (21, 13) -> (21, 11) -> (22, 11).
+  - Observation: Murkrow is NOT at (22, 11) or (22, 12). It has vanished from the immediate area.
+  - Action: Inspecting Boss Door at (22, 14) / (23, 14).
+  - Hypothesis: It flew to the door (possibly invisible until interaction?) or returned to a previous spot.
+  - Contingency: If door locked and bird missing, search East Wing (26, 14) or backtrack to (7, 2).
   - Passwords Known: "HAIL GIOVANNI" (Boss), "RATICATE TAIL", "SLOWPOKETAIL".
