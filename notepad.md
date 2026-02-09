@@ -15,10 +15,10 @@
 ## Current Task
 - **Trigger Voice Lock**:
   # Murkrow Puzzle (B2F)
-- **Status**: Murkrow located at (22, 9).
+- **Status**: Murkrow located at (22, 13).
 - **Current**: Me (22, 14).
-- **Action**: Inspect Boss Door at (23, 14).
+- **Action**: Interact with Murkrow.
 - **Plan**:
-  1. Confirm Door Lock.
-  2. Move North to (22, 9).
-  3. Herd Murkrow to (22, 14).
+  1. Face Up (North).
+  2. Talk to Murkrow.
+  3. Enter Password if prompted.
