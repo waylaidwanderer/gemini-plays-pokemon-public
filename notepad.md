@@ -12,15 +12,16 @@
   - No Overlap.
 
 ## Current State
-- **Player**: (22, 13). (Confirmed by Game State).
-- **Murkrow**: Unknown. Likely (22, 12) or (21, 13) or (23, 13).
-- **Goal**: Find Murkrow and Open Door.
+- Player: (22, 13).
+- Murkrow: (22, 12).
+- Plan: "The Desync Circuit"
+  1. Left x3 -> P(19, 13), M(21, 12). (Block M at 20, 12 twice).
+  2. Up x2 -> P(19, 11), M(21, 11). (Block M at 21, 10).
+  3. Right x2 -> P(21, 11), M(22, 11). (Block M at 23, 11).
+  4. Down x3 -> P(21, 14), M(22, 14).
+  5. Face Right, Interact.
 
-## Strategy: The Pull-Down
-- **Goal**: Place M at (22, 14). Interact from (22, 15).
-- **Current**: P(19, 13). M presumed (19, 12).
-- **Plan**:
-  1. `Right` x3 -> P(22, 13), M(22, 12).
-  2. `Down` x2 -> P(22, 15), M(22, 14).
-  3. Face `Up`, Interact.
-- **Action**: Execute Sequence.
+## Strategy: The Desync Circuit
+- **Goal**: Align P(21, 14), M(22, 14).
+- **Execution**:
+  - `Left`, `Left`, `Left`.
