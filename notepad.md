@@ -11,11 +11,11 @@
 
 ## Current State
 - Map: B1F (3_50).
-- Player: (3, 2).
-- Status: Engaging West Grunt (4, 1).
-- Observation: Trapped in NW Corner.
-- Hypothesis: Defeating Grunt opens path East (past Fake Wall at 6, 1?).
-- Plan:
-  1. Move Right to (4, 2).
-  2. Interact/Battle Grunt at (4, 1).
-  3. Attempt to pass East.
+- Player: (4, 2).
+- Status: Bypassing Defeated Grunt at (4, 1).
+- Route:
+  1. Move Right to (5, 2).
+  2. Move Up to (5, 1).
+  3. Move Right through Chokepoint at (6, 1).
+  4. Continue East to Central Area.
+  5. Engage Grunt at (22, 5).
