@@ -8,14 +8,15 @@
 - **Player**: (22, 13).
 - **Murkrow**: (22, 12).
 - **Door**: (23, 14).
+- **Silver**: GONE.
 
-## Strategy: The Northern Pin
-- **Analysis**: "Leading Down" creates a "Follower Paradox" where I cannot turn to talk to Murkrow without it moving away.
-- **Solution**: Pin Murkrow against the Grunt at (22, 9) to force the conversation.
-- **Hypothesis**: Triggering the "Hail Giovanni" dialogue sets a flag that allows the door to open, regardless of where the bird is when I open it.
-- **Action**: Move Up towards the Grunt.
+## Strategy: Universal Execution (Retry 3)
+- **Observation**: `Up` failed (Collision). I cannot push Murkrow directly.
+- **Action**: Move **Down** (pulling Murkrow to 22, 13).
 - **Sequence**:
-  1. `Up` (Me -> 22, 12).
-  2. `Up` (Me -> 22, 11).
-  3. `Up` (Pin & Talk).
-  4. `Down` (Return to Door).
+  1. `Down` (Me -> 22, 14; Murkrow -> 22, 13).
+  2. `Up` (Face Murkrow).
+  3. `A` (Talk - "Hail Giovanni").
+  4. `Right` (Face Door).
+  5. `A` (Open Door).
+- **Reasoning**: Silver is gone, so the path Down is clear. This positions Murkrow perfectly at (22, 13).
