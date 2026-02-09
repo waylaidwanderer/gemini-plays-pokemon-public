@@ -21,10 +21,8 @@
 
 ## Current Task
 - **Murkrow Chase**:
-  - Status: FOUND at (22, 10) (On Wall).
-  - Observation: Interaction from South (22, 11) failed or I missed it.
-  - Strategy: Flank to (22, 9) to interact from the North.
-  - Logic: Push bird SOUTH towards the Boss Door.
-  - Route: Loop West -> North -> East to reach (22, 9).
-  - Note: Avoid Scientist Jed at (18, 12).
+  - Status: FOUND at (22, 10).
+  - Obstacle: Scientist Jed at (18, 12) blocks the direct West path.
+  - Strategy: Go South to (22, 13), then West to (15, 13) to bypass Jed.
+  - Next Step: Loop North to (22, 9) to flank.
   - Passwords Known: "HAIL GIOVANNI" (Boss), "RATICATE TAIL", "SLOWPOKETAIL".
