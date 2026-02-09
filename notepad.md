@@ -15,15 +15,16 @@
 - **Player**: (21, 13).
 - **Murkrow**: (21, 12). (Derived from mimicry).
 
-## Strategy: The "Golden Path" (Verified Logic)
-- **Goal**: P(22, 13), M(22, 14).
-- **Path**:
-  1. **Align**: `Right`, `Up`, `Up` -> P(22, 11), M(22, 10).
-  2. **Desync 1 (Computer)**: `Left` -> P(21, 11). M Blocked (21, 10). Stays (22, 10).
-  3. **Desync 2 (Extend)**: `Left` -> P(20, 11). M Blocked (21, 10). Stays (22, 10).
-  4. **Desync 3 (Grunt)**: `Up` x2 -> P(20, 9). M Blocked (22, 9). Stays (22, 10).
-  5. **Delivery**: `Down` x4 -> P(20, 13), M(22, 14).
-  6. **Dock**: `Right` x2 -> P(22, 13). M Blocked (Door). Stays (22, 14).
-  7. **Interact**: Face Down, A.
-
-- **Action**: Execute Step 1 (Right, Up, Up).
+## Strategy: The Validated Wide Flank
+- **Goal**: P(20, 15), M(22, 14). Interact Up from (22, 15).
+- **Current**: P(22, 13), M(22, 12).
+- **Plan**:
+  1. `Left` x2 -> P(20, 13), M(20, 12).
+  2. `Up` -> P(20, 12), M(20, 11).
+  3. `Right` x2 -> P(22, 12), M(22, 11).
+  4. `Up` -> P(22, 11), M(22, 10).
+  5. `Left` x2 -> P(20, 11). M Blocked at (21, 10). Stays (22, 10).
+  6. `Down` x4 -> P(20, 15), M(22, 14).
+  7. `Right` x2 -> P(22, 15).
+  8. Face Up, Interact.
+- **Action**: Execute Steps 1-3 (Left, Left, Up, Right, Right).
