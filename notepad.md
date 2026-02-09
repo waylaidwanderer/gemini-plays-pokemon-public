@@ -12,16 +12,12 @@
 ## Current State
 - Map: B1F (3_50).
 - Player: (6, 13).
-- Status: Relocating to NW B2F via B1F North Corridor.
+- Status: Solving Murkrow Puzzle on B2F.
+- Objective: Guide Murkrow from (7, 2) to Boss Door at (23, 14).
+- Method: Use 'solve_murkrow_puzzle' tool or manual "ratcheting" against walls.
+- Current State: Player at (3, 2), Murkrow at (7, 2).
 - Route:
-  1. Go to NE Stairs at B2F (27, 2).
-  2. Take stairs to B1F (27, 2).
-  3. Go West along B1F North Corridor to (3, 2).
-  4. Take stairs at B1F (3, 2) down to B2F NW.
-  5. Engage Murkrow at B2F (7, 2).
-- Note: West side of B2F seems separated by Row 11 wall.
+  1. Navigate Player to South Gap (6, 10) to align with Murkrow's room.
+  2. Use walls to desync movement and guide Murkrow.
 - Note: Murkrow mimics movement.
-- Note: Boss Door is likely at B2F (23, 14).
-- Note: Current Map B1F (3_50).
-- Note: Murkrow last seen at B2F (7, 2).
-- Note: Trap detected at (7, 5).
+- Note: Boss Door at B2F (23, 14).
