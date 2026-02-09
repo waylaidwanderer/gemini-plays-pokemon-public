@@ -12,17 +12,14 @@
 
 ## Current State
 - Map: B2F (3_51).
-- Player: (3, 6).
-- Status: Successfully warped back to B2F.
-- Critical: Tile (3, 6) is a WARP to B1F. Do not step back on it.
-- Goal: Reach Murkrow Area (East of Wall x=6).
-- Murkrow: Currently at (7, 2).
-
-## Plan
-1. Move OFF the warp tile immediately (Go South/East).
-2. Navigate to the gap at (6, 10) to cross the wall.
-3. Observe Murkrow's movement response.
-4. Catch/Guide Murkrow.
+- Player: (6, 10).
+- Status: Approaching Murkrow.
+- Murkrow: At (7, 2). Trapped by walls at (6, 2), (8, 2), (7, 1).
+- Plan:
+  1. Move Right to Column 7.
+  2. Move North to (7, 3).
+  3. Interact with Murkrow at (7, 2).
+  4. Lead Murkrow to Boss Door (23, 14).
 
 ## Murkrow Status
 - Missing. Presumed at Start Area (7, 2) on B2F.
