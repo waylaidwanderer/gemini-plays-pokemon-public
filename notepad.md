@@ -23,12 +23,8 @@
   4. Move Right to (21, 13) (Push Murkrow to 22,13).
   5. Talk to Murkrow.
 
-- Current: Me (7, 3). Murkrow NOT HERE.
-- Observation: (7, 4) is a wall. Cannot go Down directly.
-- Plan:
-  1. Move Left to (3, 3).
-  2. Move Down to (3, 14).
-  3. Sweep South corridor to East Wing.
-  4. Check Boss Door area again.
-
-- Action: Move Left to (3, 3).
+- Current: Me (3, 3). Murkrow LOST.
+- Action: Move Down to (3, 14) (South Corridor).
+- Path: Down column 3. Beware of traps.
+- Goal: Sweep South and East for Murkrow.
+- Hypothesis: Murkrow is in the SW or SE area.
