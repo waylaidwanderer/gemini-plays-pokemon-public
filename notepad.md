@@ -9,14 +9,20 @@
 - **Murkrow**: (22, 12).
 - **Door**: (23, 14).
 
-## Strategy: The Left Hook
-- **Goal**: P(22, 15), M(22, 14).
+## Strategy: The Murkrow Master Plan
+- **Goal**: P(22, 13), M(22, 14).
 - **Current**: P(20, 14), M(20, 13).
-- **Hypothesis**: Murkrow moves even if Player is blocked.
-- **Plan**:
-  1. `Right` (Player Blocked). Check if M moves to (21, 13).
-  2. `Right` (Player Blocked). Check if M moves to (22, 13).
-  3. `Down` -> P(20, 15), M(22, 14).
-  4. `Right` x2 -> P(22, 15).
-  5. Face Up, Interact.
-- **Action**: Execute Step 1 (Right).
+- **Phase 1: Align**
+  1. `Up` -> P(20, 13), M(20, 12).
+  2. `Right` x2 -> P(22, 13), M(22, 12).
+- **Phase 2: X-Scrape (Computer)**
+  3. `Up` x2 -> P(22, 11), M(22, 10).
+  4. `Left` -> P(21, 11). M Blocked by Computer (21, 10). Stays (22, 10).
+- **Phase 3: Y-Slide (Grunt)**
+  5. `Down` x2 -> P(21, 13), M(22, 12).
+  6. `Down` (P Blocked by Grunt) -> P(21, 13). M moves (22, 13).
+  7. `Down` (P Blocked by Grunt) -> P(21, 13). M moves (22, 14).
+- **Phase 4: Finish**
+  8. `Right` -> P(22, 13). M Blocked by Door. Stays (22, 14).
+  9. Interact Down.
+- **Action**: Execute Phase 1 (Up, Right, Right).
