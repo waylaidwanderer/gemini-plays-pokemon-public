@@ -12,14 +12,16 @@
 
 ## Current State
 - Map: B1F (3_49).
-- Player: (3, 2).
-- Goal: Find entrance to B2F North (Start Area).
-- Issue: Stairs at (3, 2) seem missing or hidden.
-- Hypothesis: The "Fake Wall" at (6, 1) or the Statue holds the secret.
+- Player: (4, 2).
+- Goal: Find stairs to B2F (Start Area).
+- Investigation:
+  - Statue at (6, 1) has "shiny eyes" (Switch).
+  - Previous log claims "fake wall" at (6, 1).
+  - Stairs supposedly at (3, 2), but not visible.
 
 ## Strategy: Search & Rescue
 - **Sequence**:
-  1. Move to (6, 2) (Below Statue).
-  2. Inspect Statue at (6, 1).
-  3. Try to walk through/past (6, 1).
-  4. If fails, search (19, 8) secret passage area again.
+  1. Move to (6, 2).
+  2. Interact with Statue (6, 1) -> Press A to confirm switch.
+  3. Walk Left to scan (1, 1) to (4, 2) for hidden stairs.
+  4. If fail, head to Computer Room (19, 11).
