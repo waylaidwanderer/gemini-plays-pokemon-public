@@ -23,13 +23,12 @@
   4. Move Right to (21, 13) (Push Murkrow to 22,13).
   5. Talk to Murkrow.
 
-- Current: Me (18, 13).
-- Action: Move Right to (19, 13).
-- Observation: I previously hallucinated a blockage. Moving Right to scan for Murkrow.
-- Hypothesis: Murkrow might be at (19, 12).
+- Current: Me (19, 13). Murkrow (19, 12).
 - Plan:
-  1. Move Right to (19, 13).
-  2. Look for Murkrow at (19, 12) or (20, 12).
-  3. If found, align Y by moving Down (forcing it to hit a wall or move into position).
+  1. Move Left to (18, 13). (Murkrow blocked by Jed? Stays at 19, 12).
+  2. Move Left to (17, 13). (Murkrow blocked by Jed? Stays at 19, 12).
+  3. Move Up to (17, 12). (Murkrow blocked by Switch? Stays at 19, 12).
+  4. Move Down to (17, 13). (Murkrow moves Down to 19, 13).
+  5. Move Right to push Murkrow to door.
 
-- Goal: Locate Murkrow and herd to (22, 13).
+- Action: Move Left to (18, 13).
