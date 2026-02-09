@@ -21,8 +21,9 @@
 
 ## Current Task
 - **Murkrow Chase**:
-  - Status: FOUND at (22, 12). I am at (22, 13).
-  - Action: Check Boss Door (22, 14).
-  - Issue: I am blocking the path between Murkrow and the Door.
-  - Plan: Check door -> Move Left to unblock -> Observe Murkrow.
+  - Status: Murkrow at (22, 12). I am at (22, 13).
+  - Problem: I am blocking the door.
+  - Test: Move Left to (21, 13).
+  - Hypothesis A (Follower): Murkrow moves to (22, 13) (My old tile). -> SUCCESS.
+  - Hypothesis B (Mimic): Murkrow moves to (21, 12) (Mimics Left). -> NEED DESYNC.
   - Passwords: "HAIL GIOVANNI", "RATICATE TAIL", "SLOWPOKETAIL".
