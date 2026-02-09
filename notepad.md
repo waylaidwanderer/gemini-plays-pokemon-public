@@ -14,16 +14,11 @@
 
 ## Current Task
 - **Trigger Voice Lock**:
-  # Murkrow Puzzle - EXECUTION
-- **Status**: Murkrow FOUND at (19, 12).
-- **Plan (Y-Align)**:
-  1. Move Left to (17, 13) (Use Jed to block X).
-  2. Move Up to (17, 11) (Use Wall at 19,10 to block Y).
-  3. Move Down to (17, 13) (Pull Murkrow to Y=13).
-  4. Move Right to (21, 13) (Push Murkrow to 22,13).
-  5. Talk to Murkrow.
-
-- Current: Me (20, 14) on Map 3_50.
-- Immediate Task: Defeat Rocket Grunt at (21, 14).
-- Next: Move North to (22, 9) to find Murkrow.
-- Goal: Open Boss Door at (23, 14).
+  # Murkrow Puzzle (B2F)
+- **Status**: Murkrow located at (22, 9) (per Mental Map).
+- **Current**: Me (20, 14) on Map 3_50.
+- **Immediate Task**: Defeat Rocket Grunt at (21, 14).
+- **Plan**:
+  1. Defeat Grunt.
+  2. Move North to (22, 9).
+  3. Herd Murkrow to Boss Door (23, 14).
