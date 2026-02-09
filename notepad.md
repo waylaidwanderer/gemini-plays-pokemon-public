@@ -12,11 +12,11 @@
 
 ## Current State
 - Map: B1F (3_49).
-- Player: (25, 2).
-- Status: Activated Switch at (24, 1). Warp at (25, 2) seems inactive (One-Way?).
-- Goal: Return to West Side to check Stairs at (3, 2).
-- Problem: Trapped in NE Corner.
-- Hypothesis: One of the computers in Row 4 is fake (Secret Path), similar to the West side.
+- Player: (25, 3).
+- Status: Activated Switch at (24, 1). Trapped in NE Corner.
+- Goal: Escape NE Corner via secret passage in Row 4.
+- Hypothesis: Computer at (21, 4) is fake.
+- Plan: Move to (21, 3) and attempt to walk South.
 
 ## Murkrow Status
 - Missing. Presumed at Start Area (7, 2) on B2F.
