@@ -21,9 +21,14 @@
 
 ## Current Task
 - **Murkrow Chase**:
-  - Status: Murkrow located at (22, 6).
-  - Strategy: Flank from North (22, 5) to push it South towards the Boss Door.
-  - Route: Circle around: Left to (21, 7) -> Up to (21, 5) -> Right to (22, 5) -> Interact.
+  - Status: LOST. Murkrow is not at (22, 6) or (22, 8).
+  - Strategy: Visual search required.
+  - Search Areas:
+    1. West Corridor (Rows 5-7).
+    2. Central Area (near Fake Computers).
+    3. South Area (near Boss Door).
+  - Goal: Locate Murkrow, then herd it to the Boss Door.
+  - Note: Murkrow mimics the Boss's voice ("Hail Giovanni"). Required for the door.
   - Goal: Teleport to Northeast, then walk to (22, 9) to push Murkrow South.
   - Note: Scientist Jed mentioned the warp panel, confirming it's a key feature.
   - Passwords Known: "HAIL GIOVANNI" (Boss), "RATICATE TAIL", "SLOWPOKETAIL".
