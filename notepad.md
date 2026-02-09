@@ -12,16 +12,15 @@
 
 ## Current State
 - Map: B2F (3_50).
-- Player: (3, 13).
-- Verified: Wall at B2F (3, 12) is SOLID.
-- Conclusion: B1F Switch at (6, 1) did NOT open this wall.
-- New Hypothesis: B1F Switch at (6, 1) opened the Gate at B1F (3, 8).
-
-## Strategy
-1. Return to B1F via stairs at (3, 14).
-2. Navigate North to (3, 8).
-3. Check if Gate is open.
-4. If open, proceed to (3, 2) -> Stairs to B2F (7, 2) -> Find Murkrow.
+- Player: (3, 14).
+- Verified: B2F Wall at (3, 12) is SOLID.
+- Verified: B1F Switch at (6, 1) ALONE does not open the path.
+- New Plan: Activate **BOTH** switches ((6, 1) West and (24, 1) East) without leaving the map to see if they work together.
+- Action:
+  1. Return to B1F via stairs at (3, 14).
+  2. Use Warp at (5, 15) to reach East Side.
+  3. Activate Switch at (24, 1).
+  4. Check outcomes (Stairs? Gate? Wall?).
 
 ## Murkrow Status
 - Missing. Presumed at Start Area (7, 2) on B2F.
