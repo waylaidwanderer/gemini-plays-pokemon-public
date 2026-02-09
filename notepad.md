@@ -16,8 +16,12 @@
 - **Trigger Voice Lock**:
   # Murkrow Puzzle (B2F)
 - **Status**: Murkrow at (22, 13). Me at (22, 14).
-- **Strategy**: Force Overlap at (22, 14) to satisfy Door condition.
-- **Phase 1**: Desynchronize using Grunt.
-- **Action**: Move Left (Blocked).
-- **Expectation**: I stay at (22, 14). Murkrow moves Left to (21, 13).
-- **Next**: Move Up to (22, 13).
+- **Rival**: Silver at (21, 13).
+- **Action**: Move Up to (22, 13).
+- **Hypothesis**:
+  1. Murkrow moves into Wall (22, 12). I occupy (22, 13).
+  2. From (22, 13), I can interact with Rival (Left) or Murkrow (Up).
+- **Plan**:
+  1. Move Up.
+  2. Interact Left (Rival).
+  3. Interact Up (Murkrow).
