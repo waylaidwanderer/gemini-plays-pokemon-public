@@ -21,8 +21,7 @@
 
 ## Current Task
 - **Murkrow Chase**:
-  - Status: Positioned North (22, 9). Interacting.
-  - Expectation: Murkrow flees South to (22, 14).
-  - Next Step: Follow Murkrow.
-  - Note: Murkrow mimics "Hail Giovanni" at the door.
+  - Status: Murkrow moved from (22, 10).
+  - Action: Checked Boss Door at (22, 14).
+  - Expectation: Door unlocks or Murkrow is waiting.
   - Passwords: "HAIL GIOVANNI", "RATICATE TAIL", "SLOWPOKETAIL".
