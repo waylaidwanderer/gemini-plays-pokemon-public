@@ -13,15 +13,17 @@
 ## Current State
 - Map: B2F (3_51).
 - Player: (3, 10).
-- Status: Navigating to SW Stairs.
-- Observation: Stairs are NOT at (3, 14). The room extends South.
-- Goal: Find stairs at the south end of this room (likely 3, 16) to return to B1F.
+- Status: Navigating to NW Stairs (3, 2).
+- Reason: SW Stairs (3, 14) are inaccessible due to Wall/Shutters at Row 11.
+- Constraint: Must avoid Warp Trap at (3, 6).
+- Plan:
+  1. Navigate via Column 4 to avoid (3, 6).
+  2. Reach NW Stairs (3, 2).
+  3. Return to B1F.
+  4. Activate both switches (East and West).
 
-## Plan
-1. Move South to finding the actual stairs.
-2. Return to B1F.
-3. Activate East Switch (24, 1) and West Switch (6, 1).
-4. Return to B2F and guide Murkrow.
+## Murkrow Status
+- Abandoning current run to fix switches. Will reset to (7, 2).
 
 ## Murkrow Status
 - Missing. Presumed at Start Area (7, 2) on B2F.
