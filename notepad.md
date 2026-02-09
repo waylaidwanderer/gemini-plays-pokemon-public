@@ -15,11 +15,11 @@
 ## Current Task
 - **Trigger Voice Lock**:
   # Murkrow Puzzle (B2F)
-- **Status**: Murkrow at (22, 12) (Wall). Me at (22, 13).
-- **Rival**: Silver at (21, 13). Grunt at (21, 14).
-- **Action**: Move Down to (22, 14).
-- **Reasoning**: Pull Murkrow to (22, 13) (Floor) to interact.
+- **Status**: Murkrow at (22, 13). Me at (22, 14).
+- **Rival**: Silver at (21, 13).
+- **Action**: Face Up and Interact.
+- **Reasoning**: Murkrow is directly above me.
 - **Plan**:
-  1. Move Down.
-  2. If Murkrow at (22, 13): Face Up and Talk.
-  3. If no response: Face Right and Inspect Door.
+  1. Press Up to face Murkrow.
+  2. Press A to Talk.
+  3. Get Password ("HAIL GIOVANNI").
