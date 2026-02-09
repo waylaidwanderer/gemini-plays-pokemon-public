@@ -4,16 +4,20 @@
 - **Primary**: Open Boss Door at B2F (23, 14).
 - **Secondary**: Defeat Team Rocket Executives.
 
+## Mechanics (Verified)
+- **Mimicry**: Murkrow mimics player's relative movement vector.
+- **Collision**: 
+  - If Player is blocked, Murkrow [UNK]. (Testing this now).
+  - If Murkrow is blocked, Murkrow stays.
+  - Murkrow and Player cannot overlap.
+
 ## Current State
-- **Player**: (22, 13).
-- **Murkrow**: (22, 12).
+- **Player**: (22, 14).
+- **Murkrow**: (22, 13) (Visual Confirmation).
 - **Door**: (23, 14).
 
-## Strategy: The Validated Slide (Final Execution)
-- **Goal**: Slide M to (22, 14) via Grunt Block.
-- **Current**: P(21, 13), M(22, 12).
-- **Plan**:
-  1. `Down` x4 -> M slides to (22, 14). P stays at (21, 13).
-  2. `Right` -> P(22, 13). M stays (22, 14) (Door Block).
-  3. `Down` (Face), `A`.
-- **Action**: Execute Sequence.
+## Strategy: Interaction & Test
+1. Interact `Up` with Murkrow.
+2. If no success, Test Blocked Movement:
+   - Move `Left`. (Player blocked by Grunt at 21, 14).
+   - Observe if Murkrow moves from (22, 13) to (21, 13).
