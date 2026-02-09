@@ -11,13 +11,12 @@
 - **Puzzle Status**: Murkrow is at (22, 12). I am at (22, 13).
 
 ## Current Task
-- **Opening Boss Door**:
+- **Triggering Voice Lock**:
   # Murkrow Puzzle (B2F)
 - **Status**: Me at (22, 14). Murkrow at (22, 13).
-- **Confirmation**: Murkrow successfully mimicked movement and is now at (22, 13).
-- **Action**: Interact with Boss Door at (23, 14).
+- **Logic**: I am adjacent to the door (22, 14 -> 23, 14). Murkrow is nearby (22, 13).
+- **Action**: Face Up and Talk to Murkrow.
 - **Plan**:
-  1. Face Right.
-  2. Press A (Interact).
-  3. If door opens, enter.
-  4. If "Locked", Face Up and talk to Murkrow to trigger password.
+  1. Press Up (Face Murkrow).
+  2. Press A (Talk).
+  3. If "Hail Giovanni", Face Right and Press A (Open Door).
