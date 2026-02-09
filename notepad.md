@@ -11,13 +11,12 @@
 - **Puzzle Status**: Murkrow is adjacent to me and near door.
 
 ## Current Task
-- **Trigger Voice Lock**:
+- **Resetting Puzzle**:
   # Murkrow Puzzle (B2F)
-- **Status**: Murkrow at (22, 13). Me at (22, 14).
-- **Rival**: Silver at (21, 13).
-- **Action**: Face Right and Interact with Door.
-- **Reasoning**: Murkrow is at (22, 13). I am at (22, 14). The door is at (23, 14). The Murkrow might need to be "in range".
+- **Status**: Boxed in at (21, 13).
+- **Blockers**: Wall (Up), Divider (Left), Grunt (Down), Murkrow (Right).
+- **Action**: Use Dig to escape and reset.
 - **Plan**:
-  1. Face Right.
-  2. Press A (Interact with Door).
-  3. If that fails, talk to Murkrow (Up).
+  1. Close text box.
+  2. Use Dig from Party.
+  3. Re-enter base and try puzzle again with better positioning.
