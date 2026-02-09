@@ -13,18 +13,16 @@
 ## Current State
 - Map: B1F (3_50).
 - Player: (3, 6).
-- Status: Recovering from Warp Trap.
-- Connectivity:
-  - North (to 3, 2) is blocked by wall at (3, 4).
-  - South (to 3, 14) is the only path (via gate at 3, 8).
-  - Gap at (6, 13) connects West and Central sectors.
-- Goal: Reach Murkrow at (7, 2) on B2F.
+- Status: TRAPPED in enclosed area (Rows 5-7, Cols 3-5).
+- Blockages: North (Wall at 3, 4), South (Locked Gate at 3, 8), East (Wall at 6, 6).
+- Only Exit: Warp at (3, 6) leads back to B2F (presumably).
+- Goal: Escape to B2F and find Murkrow.
 
 ## Plan
-1. Move South to stairs at (3, 14).
-2. Descend to B2F.
-3. On B2F, navigate to Murkrow (7, 2) while strictly AVOIDING the Warp Trap at (3, 6).
-4. Interact with Murkrow.
+1. Move Up to (3, 5) to step off warp.
+2. Move Down to (3, 6) to trigger warp to B2F.
+3. On B2F, avoid stepping on (3, 6) again.
+4. Navigate to Murkrow at (7, 2).
 
 ## Murkrow Status
 - Missing. Presumed at Start Area (7, 2) on B2F.
