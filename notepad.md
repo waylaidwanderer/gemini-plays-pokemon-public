@@ -6,18 +6,23 @@
 
 ## Mechanics (Verified)
 - **Mimicry**: Murkrow mimics player's relative movement vector.
-- **Collision**: 
-  - If Player is blocked, Murkrow STAYS.
-  - If Murkrow is blocked, Murkrow STAYS.
-  - Murkrow and Player cannot overlap.
+- **Collision Rules**:
+  - P Blocked: Murkrow Stays (High Confidence).
+  - M Blocked: Murkrow Stays (Verified).
+  - Stack/Swap: To be tested.
 
-## Strategy: Interaction Check (Trap State)
-- **Status**: Trapped at (22, 14) with M at (22, 13).
+## Current State
+- **Player**: (22, 14).
+- **Murkrow**: (22, 13) (Visual Confirmation).
+- **Door**: (23, 14).
+- **Status**: Trapped. Needs to move Up to escape.
+
+## Strategy: The Overtake
+- **Goal**: Place M South of P (P at 22, 13, M at 22, 14).
+- **Hypothesis**: Moving P into M's tile while M is blocked (by Grunt at 22, 9) will cause M to stay behind, flipping the Y-axis relative position.
 - **Plan**:
-  1. `B` (Close Grunt text).
-  2. `Up` (Face Murkrow).
-  3. `A` (Talk to Murkrow).
-  4. `Right` (Face Door).
-  5. `A` (Check Door).
-- **Contingency**: If this fails, use `Left` (Bump Grunt) to escape.
-- **Action**: Execute Sequence.
+  1. Escape: `B`, `Up` -> P(22, 13), M(22, 12).
+  2. Setup: `Up` x2 -> P(22, 11), M(22, 10).
+  3. Overtake: `Up` -> P(22, 10). M(22, 9) Blocked -> M(22, 11)?
+  4. Pull: `Down` x3 -> P(22, 13), M(22, 14).
+- **Action**: Escape Trap (`B`, `Up`).
