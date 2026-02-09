@@ -12,11 +12,9 @@
 ## Current State
 - Map: B1F (3_50).
 - Player: (6, 13).
-- Status: Checking Bookshelf then relocating to Murkrow.
-- Action: Inspect (12, 1). If empty, attempt "Gap Strategy".
-- Gap Strategy:
-  1. Return to Murkrow.
-  2. Align Murkrow to Row 12/13.
-  3. Move East through gap at (15, 12) or (15, 13).
-- Note: Map data shows (15, 12) and (15, 13) are walkable tiles (TYPE_3fe2), bypassing the shutter.
-- Note: Current position (10, 2). Text box needs clearing.
+- Status: Searching NW Corner for Shutter Switch.
+- Action: Return to (3, 2) area to inspect Silver Viewing Room.
+- Sequence: Close text (B), Move Left to (3, 2).
+- Expected State: Player at (3, 2). Murkrow blocked at (10, 2).
+- Hypothesis: Hidden switch near the viewing room or stairs to open (15, 10).
+- Checked: Row 1 Machines (Oath). No switch found.
