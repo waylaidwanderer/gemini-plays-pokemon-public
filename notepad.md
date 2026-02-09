@@ -12,9 +12,9 @@
 ## Current State
 - Map: B1F (3_50).
 - Player: (6, 13).
-- Status: Solving Murkrow Puzzle (Phase 1).
-- Action: Moving Player to (4, 10) to desync Murkrow.
-- Planned Sequence: Right, Down x8.
-- Expected Outcome: Player at (4, 10), Murkrow at (7, 8).
-- Note: Murkrow blocked at (7, 9) (Wall).
-- Note: Player avoids trap at (3, 6) by using Col 4.
+- Status: Solving Murkrow Puzzle (Phase 1 - Execution).
+- Action: Moving Player to (4, 10) manually to desync Murkrow.
+- Sequence: Right (to Col 4), Down x8 (to Row 10).
+- Expected State: Player (4, 10), Murkrow (7, 8).
+- Logic: Murkrow hits wall at (7, 9), gets stuck at Y=8. Player continues to Y=10.
+- Next: Move East to align Murkrow with Fake Wall at (10, 9).
