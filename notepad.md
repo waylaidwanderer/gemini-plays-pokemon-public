@@ -12,15 +12,17 @@
 
 ## Current State
 - Map: B1F (3_49).
-- Player: (24, 3).
+- Player: (22, 3).
 - Goal: Check Statue at (24, 6).
-- Anomaly: Previous move sequence was interrupted, leaving me at (24, 3).
-- Plan: Move to (24, 6) via (25, 6).
+- Barrier: Row 4 is blocked by computers/walls on the East side.
+- Correction: "Fake Computers" at (18, 4)/(19, 4) seem to be solid.
+- Solution: Use the visible gap at (9, 4) to cross to the South side.
 
 ## Strategy: Search & Rescue
 - **Sequence**:
-  1. Move to (24, 6).
-  2. Inspect Statue at (24, 6).
-  3. If Switch: Activate.
-  4. Move South-East to find stairs to B2F (Likely near 27, 14).
-  5. Locate Murkrow at (7, 2) on B2F.
+  1. Move Left to (9, 3).
+  2. Move Down through gap at (9, 4) to (9, 6).
+  3. Move Right to (24, 6).
+  4. Inspect Statue at (24, 6).
+  5. Move to Stairs at (27, 14).
+  6. Return to B2F to find Murkrow.
