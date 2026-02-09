@@ -11,15 +11,13 @@
 - **Puzzle Status**: Murkrow is adjacent to me and near door.
 
 ## Current Task
-- **Escaping the Trap**:
+- **Checking Boss Door**:
   # Murkrow Puzzle (B2F)
-- **Status**: Boxed in at (21, 13).
-- **Critical Update**: Garnet DOES NOT have Dig. Escape Rope not in bag.
-- **Options**:
-  1. Try moving Left again (Visually looks clear, XML says floor, previous attempt failed but maybe glitch?).
-  2. Interact with Murkrow (Right).
-  3. Interact with Grunt (Down) repeatedly.
-  4. Search for hidden switch/item at (20, 13) or (21, 12).
+- **Status**: At (22, 13). Escaped the trap!
+- **Correction**: Garnet DOES have Dig (10/10). Previous panic was a mistake.
+- **Situation**: Murkrow is not at (22, 13) (I am standing there). It likely moved to (21, 13) or fled.
+- **Action**: Check Boss Door at (23, 14).
 - **Plan**:
-  1. Face Right and Interact with Murkrow.
-  2. If nothing, Face Left and Inspect/Move.
+  1. Move Down to (22, 14).
+  2. Face Right and Interact with Door.
+  3. If locked, search for Murkrow (likely at 21, 13).
