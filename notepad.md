@@ -26,3 +26,9 @@ Hypothesis: Link requires a specific trigger I am missing (e.g., bumping, waitin
 [Turn 36098] Using 'advance_dialogue' tool (5x 'A') to brute-force the "The password is..." text screen. Auto-advance logic seems stuck.
 [Turn 36099] "HAIL GIOVANNI" confirmed. Closing text box now. Next turn: Visual confirmation of clear screen.
 [Turn 36100] Screen confirmed clear. Moving Down to (7, 4). Verification of Murkrow movement required in Turn 36101 Game State.
+[Turn 36101] DIRECT DOWN FAILED. Murkrow did not move.
+Possible causes:
+1. Movement input consumed by interaction cooldown?
+2. Direct 'Down' doesn't trigger mimicry (needs 'Pull' from offset?).
+3. Link not active.
+Action: Moving Up to (7, 3). Will re-verify interaction and try 'Right' (Buffer) strat.
