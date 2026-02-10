@@ -1,21 +1,22 @@
 # Team Rocket HQ - Murkrow Puzzle
 
-## SOLVED: The "Ratchet & Bridge" Strategy
+## SOLVED: The "Down-Ratchet" Strategy
 Target State: P(22, 13), M(22, 14).
 
-## Current Status (Turn 36392)
-- **Player**: (19, 6) -> Moving to (9, 9).
-- **Murkrow**: (19, 12) (Assumed).
-- **Goal**: Navigate to P(1, 2) via Row 9 Gap.
+## Current Status (Turn 36393)
+- **Player**: (9, 9).
+- **Murkrow**: (19, 11).
 
-## Execution Path (Revised)
-1. **Passage South**:
-   - Down 3 -> P(19, 9). M(19, 11) [Blocked by Wall 10].
-2. **West to Gap**:
-   - Left 10 -> P(9, 9). M(9, 11).
-3. **North to Corridor**:
-   - Up 7 -> P(9, 2). M(9, 16) [Blocked by Wall 17].
-4. **West Sync**:
-   - Left 8 -> P(1, 2). M(1, 16).
-5. **Ratchet Setup**:
-   - Move to Col 20/25 for Ratchet.
+## Execution Path
+1. **Sync M to Col 22**:
+   - Up 7 -> P(9, 2). M(19, 13).
+   - Right 3 -> P(12, 2). M(22, 13).
+2. **The "Down-Ratchet"**:
+   - Down 13 -> P(12, 15). M(22, 11) [Blocked Up at 10].
+   - Down 2 -> P(12, 17). M(22, 11) [Blocked Up at 10].
+   - Up 1 -> P(12, 16). M(22, 12).
+   - Up 2 -> P(12, 14). M(22, 14).
+   - Up 1 -> P(12, 13). M(22, 14) [Blocked Down at 15].
+3. **Finish**:
+   - Right 10 -> P(22, 13). M(22, 14).
+   - Interact.
