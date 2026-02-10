@@ -5,14 +5,14 @@
 - **Secondary**: Defeat Team Rocket Executives.
 
 ## Murkrow Puzzle (B2F)
-- **Status**: Dialogue "The password is...". Player (7, 3), Murkrow (7, 2).
-- **Action**: Advancing text.
-- **Hypothesis**: Interaction resets the Murkrow's "follow" state.
-- **Plan**:
-  1. Complete Dialogue.
-  2. Move Down to (7, 4).
-  3. Verify if Murkrow moves to (7, 3).
-  4. If yes, proceed with "Gap 1 Bottom Run" (Down to 7,13 -> Right).
+- **Status**: Dialogue "HAIL GIOVANNI." Player (7, 3), Murkrow (7, 2).
+- **Action**: Advancing/Closing text.
+- **Next Move**: Move Down to (7, 4).
+- **Expectation**: Murkrow mimics Down to (7, 3). (Gap 1).
+- **Strategy**: "Gap 1 Bottom Run".
+  1. Move Down to (7, 13).
+  2. Move Right to (15, 13).
+  3. Proceed East.
 
 ## Key Info
 - **Boss Door**: Needs Voice ID (Murkrow).
