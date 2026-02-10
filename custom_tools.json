@@ -650,5 +650,25 @@
         "action_counter": 13565
       }
     ]
+  },
+  "solve_murkrow_statue": {
+    "description": "Solves the Murkrow Puzzle using the 'Statue-Adjacent' strategy. Moves Player to (22, 16) and Murkrow to (23, 15).",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "autopress_buttons": {
+          "type": "boolean",
+          "default": true
+        }
+      }
+    },
+    "python_script": "\nprint(f'{{\"buttons\": [\"Right\", \"Right\", \"Right\", \"Right\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Up\", \"Up\", \"Up\", \"Up\", \"Left\", \"Left\", \"Left\", \"Left\", \"Down\", \"Down\", \"Down\", \"Down\", \"A\"]}}')\n",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-02-10T17:09:10.891Z",
+        "action_counter": 36303
+      }
+    ]
   }
 }
