@@ -5,17 +5,17 @@
 - **Secondary**: Defeat Team Rocket Executives.
 
 ## Murkrow Puzzle (B2F)
-- **Status**: Player (8, 5), Murkrow (7, 2).
-- **Observation**: Murkrow did not move when I moved Down to (8, 5).
-- **Hypothesis**: **MIMIC** mechanics require close proximity (Distance <= 1?).
-- **Plan**: Re-establish proximity.
-  1. Move **Left** to (7, 5).
-  2. Move **Up** to (7, 4).
-  3. Move **Up** to (7, 3) (Directly below Murkrow).
-  4. Move **Down** to (7, 4).
-     - Expect Murkrow (Mimic) -> (7, 3).
-  5. Move **Right** to (8, 4).
-     - Expect Murkrow (Mimic) -> (8, 3). **ESCAPE**.
+- **Status**: Player (7, 5), Murkrow (7, 2).
+- **Hypothesis**: **MIMIC** mechanics require Distance <= 1 (Y-axis).
+  - Failed at Y-Dist 2 and 3.
+  - Succeeded at Y-Dist 1 (Turn 35658).
+- **Plan**:
+  1. Move **Up** to (7, 4). (No reaction expected).
+  2. Move **Up** to (7, 3). (No reaction expected).
+  3. **Trigger**: Move **Down** to (7, 4).
+     - Player `dy=1`. Murkrow `dy=1` -> (7, 3).
+  4. **Escape**: Move **Right** to (8, 4).
+     - Player `dx=1`. Murkrow `dx=1` -> (8, 3). **ESCAPE!**
 
 ## Map Notes
 
