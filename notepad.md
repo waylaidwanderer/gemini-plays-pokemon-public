@@ -1,27 +1,17 @@
 # Team Rocket HQ - Murkrow Puzzle
 
-## Current Status (Turn 36386)
-- **Player**: (16, 16).
-- **Murkrow**: (20, 1) (Calculated).
-- **Goal**: Sync X at West Wall, then execute "Oath Ratchet" Plan.
-
-## The Solution: "Oath Ratchet" (Col 20)
-1. **Sync X (West)**:
-   - Move Left 15 to P(1, 16). M hits wall at (1, 1).
-   - State: P(1, 16), M(1, 1).
-2. **Move to Col 20**:
-   - Up 1 to P(1, 15). M(1, 2). (To use Row 2 for M).
-   - Right 19 to P(20, 15). M(20, 2).
-3. **Setup Ratchet**:
-   - Up 10 to P(20, 5). M(20, 12).
-4. **Ratchet M**:
-   - Down 11 to P(20, 16).
-   - M moves Up, hits Wall at (20, 10). Stops at (20, 11).
-   - State: P(20, 16), M(20, 11).
-5. **Final Approach**:
-   - Up 3 to P(20, 13). M(20, 14).
-   - Right 2 to P(22, 13). M(22, 14).
-   - Interact with M/Door.
-
-## Immediate Step
-- Move Left 15 to (1, 16).
+## Solved! (Executing Plan)
+Target: P(22, 13), M(22, 14).
+Path:
+1. **Sync X**: Left 1 to P(1, 16). M(1, 2).
+2. **Move to Col 28**: Right 27 to P(28, 16). M(28, 2).
+3. **Setup Ratchet**: Up 10 to P(28, 6). M(28, 12).
+4. **Move to Ratchet Col**: Left 2 to P(26, 6). M(26, 12).
+5. **Ratchet**: Down 10 to P(26, 16). M(26, 12) (Blocked by Solid at 11).
+6. **Cross West**: Left 5 to P(21, 16). M(21, 12).
+7. **The "Statue Shimmy"**:
+   - Up 1 -> P(21, 15), M(21, 13).
+   - Right 1 -> P(21, 15) [Blocked by Statue], M(22, 13).
+   - Up 2 -> P(21, 13), M(22, 14) [Blocked by Statue].
+   - Right 1 -> P(22, 13), M(22, 14) [Blocked by Wall].
+8. **Interact**: Press A.
