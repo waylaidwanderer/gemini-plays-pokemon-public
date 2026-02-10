@@ -73,3 +73,6 @@ Hypothesis: Dialogue must be fully cleared with 'A' to trigger mimicry state.
 [Turn 36088] Advancing "The password is..." -> "HAIL GIOVANNI" -> Closed.
 Next: Visual check for clean screen, then move Down to (7, 4).
 Hypothesis: Mimicry triggers only after full dialogue closure.
+[Turn 36089] Stuck on "The password is...". Previous 'A, B, B' attempts failed to clear it.
+Hypothesis: 'B' might not be advancing this specific text, or input was ignored during scroll.
+Action: Pressing 'A' once to advance to "HAIL GIOVANNI". Will confirm text change next turn.
