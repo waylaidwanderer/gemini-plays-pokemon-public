@@ -13,12 +13,11 @@
   - If Failure: Reset Map via Stairs at (3, 2).
 
 ## Recovery: Re-acquiring Murkrow
-- **Status**: Moving to (8, 3) to visual confirm Murkrow.
-- **Hypothesis**: Murkrow is at (7, 2).
-- **Plan**: 
-  1. Down to (10, 3). (Murkrow -> 7, 3).
-  2. Left to (8, 3). (Murkrow Blocked Left).
-  3. Verify Murkrow is at (7, 3).
+- **Status**: Visual on Murkrow at (7, 2).
+- **Observation**: It did NOT move when I moved Down previously (Turn 35913).
+- **Hypothesis**: Murkrow is inactive/needs re-engagement.
+- **Action**: Moving Down to (8, 4) to confirm inactivity.
+- **Next Step**: If inactive, approach and interact.
 
 ## Trap Data
 - Warp Traps at (26, 9), (26, 10), (24, 11), (25, 11).
