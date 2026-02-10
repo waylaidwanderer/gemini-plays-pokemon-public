@@ -12,21 +12,24 @@
   - Expectation: Murkrow moves to (7, 3).
   - If Failure: Reset Map via Stairs at (3, 2).
 
-## Plan: Murkrow to Shutter (14, 10)
-1. **Align Gap**: Right to (18, 6). (Murkrow blocked at 8, 2).
+## Plan: Murkrow to Shutter (14, 10) - Refined
+1. **Align Murkrow X**: Right to (18, 6). (Murkrow blocked at 8, 2 -> stays 7, 2).
 2. **Setup Row 5**: Down to (18, 9). Right to (22, 9). (Murkrow -> 11, 5).
-3. **Block Up**: Up to (22, 3). (Murkrow blocked at 11, 4).
-4. **Cross East**: Right to (28, 3). (Murkrow -> 14, 5).
-5. **Align Col 10**: 
-   - Down to (28, 6). (Murkrow -> 14, 8).
-   - Left to (24, 6). (Murkrow -> 10, 8).
-6. **Drop to Row 10**: Down to (24, 10). (Murkrow -> 10, 10).
-7. **Final Shift**: Navigate traps to move Murkrow Right to (14, 10).
+3. **Block Up**: Up to (22, 3). (Murkrow blocked at 11, 4 -> stays 11, 5).
+4. **Cross East**: Right to (28, 3). (Murkrow blocked at 15, 5 -> ends 14, 5).
+5. **Loop to Row 12**:
+   - Down to (28, 12). (Murkrow blocked at 14, 9 -> ends 14, 8).
+   - Left to (24, 12). (Murkrow -> 10, 8).
+6. **Align Murkrow Y**:
+   - Mash Down at (24, 12) (blocked by 24, 13). (Murkrow -> 10, 10).
+7. **Final Shift**:
+   - Right to (26, 12). (Murkrow -> 12, 10).
+   - Mash Right at (26, 12) (blocked by 27, 12). (Murkrow -> 14, 10).
 8. **Interact**: Talk to Murkrow/Shutter.
 
 ## Trap Data
-- Warp Traps suspected at (26, 9), (26, 10), (25, 11).
-- If triggered, return via B1F -> B2F Stairs (NE).
+- Warp Traps at (26, 9), (26, 10), (24, 11), (25, 11).
+- Avoid these tiles!
 
 ## Key Info
 - **Boss Door**: Needs Voice ID (Murkrow).
