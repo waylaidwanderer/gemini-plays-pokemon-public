@@ -1,27 +1,21 @@
 # Team Rocket HQ - Murkrow Puzzle
 
-## STATUS: EXECUTING "JED SANDWICH 5.0"
-**Strategy**: Double Ratchet (X then Y) -> Jed Lock.
-**Goal**: Open Boss Door at (22, 14).
+## STATUS: EXECUTING "SHUTTER CHECK"
+**Goal**: Verify if Shutter at (15, 10) is Open.
+**Reason**: Access to Boss Area requires Shutter.
 
-## Step 1: Ratchet X (Current)
-1. **Vertical Offset**: Up 1 -> P(9,1), M(9,3).
-2. **Horizontal Ratchet**: Right 16.
-   - P blocked at (24,1) Statue. Stops (23,1).
-   - M moves to (25,3).
-   - *Result*: M is +2 X relative to P.
-3. **Realign Y**: Down 1 -> P(23,2), M(25,2).
+## Step 1: Navigate to Shutter (Safe Path)
+1. **Ratchet M Up**:
+   - P(4, 8). M(6, 2).
+   - Up 6. P(4, 2).
+   - M Down 6 -> Blocked at (6, 4) Wall. M stops at (6, 3).
+   - *State*: P(4, 2), M(6, 3).
+2. **Move to Center**:
+   - Right 11. P(15, 2). M(17, 3).
+3. **Check Shutter**:
+   - Down 8. P(15, 10) [Shutter].
+   - M Up 8 -> Blocked at top. M stops at (17, 0).
 
-## Step 2: Vertical Ratchet & Descent
-4. **Move to Col 4**: Left 19.
-   - P(4,2). M(6,2).
-5. **Invert Y (Col 4 Gap)**: Down 14 (Batch: Down 6 to Row 8).
-   - P goes down Col 4.
-   - M blocked Up by Statue (6,1). M stays (6,2).
-
-## Step 3: The Resync & Lock
-6. **Move to Col 19**: Right 15. P(19,16), M(21,2).
-7. **Position**: Up 11. P(19,5), M(21,13).
-8. **Resync X**: Right 2. M blocked (23,13). P(21,5).
-9. **Align Jed**: Left 3. P(18,5), M(18,13).
-10. **Lock**: Down 11. M blocked by Jed. P(18,16), M(18,13).
+## Step 2: Decision
+- **If P passes (15, 10)**: Shutter is OPEN. Proceed to "SHUTTER ENTRY" Strategy.
+- **If P bumps**: Shutter is CLOSED. Navigate to Switch (19, 11) via Right Side, Toggle, Reset.
