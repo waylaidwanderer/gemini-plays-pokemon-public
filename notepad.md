@@ -5,15 +5,13 @@
 - **Secondary**: Defeat Team Rocket Executives.
 
 ## Murkrow Puzzle (B2F)
-- **Status**: Player (10, 5), Murkrow (10, 3).
-- **Strategy**: "Row 7 Corridor Slide".
-  1. Move Down 4 times to (10, 9).
-     - P(10, 9), M(10, 7).
-  2. Verify Row 7 is clear (Aisle between chairs).
-     - Row 6/7 are the clear aisles. Row 8 has chairs.
-  3. Slide Right to (14, 9). (Murkrow -> 14, 7).
-  4. Move Down to check Shutter at (14, 11).
-- **Goal**: Lead Murkrow to Boss Door at (23, 14).
+- **Status**: Player (10, 5). Murkrow at (7, 2) [RESET confirmed].
+- **Correction**: Previous attempts to lead Murkrow failed; it reset to start. Visual confirmation of Murkrow at (7, 2) on Turn 35761.
+- **Action**: Returning to (7, 4) to restart and verify mechanics.
+- **Hypothesis Testing Needed**:
+  - Max tether distance before reset?
+  - Does it mimic blocked moves?
+  - Exact mimicry rules (Mirror vs Copy).
 
 ## Key Info
 - **Boss Door**: Needs Voice ID (Murkrow).
