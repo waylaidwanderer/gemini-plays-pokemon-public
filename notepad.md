@@ -5,15 +5,15 @@
 - **Secondary**: Defeat Team Rocket Executives.
 
 ## Murkrow Puzzle (B2F)
-- **Status**: Player (14, 5), Murkrow (7, 2).
-- **Correction**: "Stacked" hypothesis disproven. Game State shows no Murkrow movement.
-- **Analysis**: Murkrow likely reset to (7, 2) or got stuck when I moved East.
+- **Status**: Player (9, 5), Murkrow (7, 2).
+- **Goal**: Re-position to (8, 3) to retry the "Magic Move" (Down).
 - **Plan**:
-  1. Return to (8, 5).
-  2. Position at (8, 3).
-  3. Execute **Magic Move**: Move **Down** to (8, 4).
-     - Hope Murkrow mimics to (8, 3).
-  4. Move carefully East, keeping Murkrow in sight/range.
+  1. Move **Left** to (8, 5).
+  2. Move **Up** to (8, 4).
+  3. Move **Up** to (8, 3).
+  4. Check Murkrow position (Should be 7, 2).
+  5. Execute "Magic Move": **Down** to (8, 4).
+     - Expect Murkrow -> (8, 3) (Follow/Mimic).
 
 ## Map Notes
 - **Walls**: (6, 2) and (8, 2) block Murkrow at Row 2.
