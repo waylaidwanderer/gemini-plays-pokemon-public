@@ -1,19 +1,19 @@
 # Team Rocket HQ - Murkrow Puzzle
 
-## Active Attempt: "Locate & Align"
-**Current State**: P(26, 12). M(20, 11) (Hypothesized).
-**Goal**: Bring Murkrow into view at Col 22.
+## Active Attempt: "The Pin & Flank"
+**Current State**: P(28, 12). M(22, 11) (Hypothesized).
+**Goal**: Pin M at Door (22, 14) and converge X.
 
 ## The Plan
-1. **Search East**:
-   - Move Right 2 -> P(28, 12).
-   - If M is at (20, 11), M moves Right 2 -> M(22, 11).
-   - **CHECK**: Is M visible at (22, 11)?
-2. **If Visible (Success)**:
-   - Calculate path to pin M at (22, 14).
-   - P(28, 12) -> Up 3 -> P(28, 9). M(22, 11) -> Down 3 -> M(22, 14).
-   - P(28, 9) -> Left 6 -> P(22, 9). M(22, 14) -> Left (Blocked) -> M(22, 14).
-   - Approach & Interact.
-3. **If Not Visible**:
-   - M is likely at Row 2 or further West.
-   - Initiate Reset Protocol.
+1. **Pin Y (Door)**:
+   - Move Up 3 to P(28, 9).
+   - M moves Down 3. Expectation: M(22, 11) -> M(22, 14).
+   - *Note*: If (22, 14) is a wall to M, M stops at (22, 13).
+2. **Converge X**:
+   - Move Left 6 to P(22, 9).
+   - **Hypothesis**: M is pinned West by Wall(21, 14) if at (22, 14).
+   - If M moves Left (was at 13), M ends at (16, 13).
+3. **Verify**:
+   - Look Down at (22, 9).
+   - If M is at (22, 14), **SUCCESS**. Approach and Interact.
+   - If M is missing (moved West), we must re-sync X using the East wall.
