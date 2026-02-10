@@ -18,10 +18,17 @@
 
 ## Navigation Plan
 - **Goal**: Return to Murkrow at (7, 2).
+- **Insight**: B2F is partitioned. East side (Boss Door) connects to West side (Murkrow) ONLY via B1F (or locked shutters).
 - **Route**:
-  1. East to (28, 14).
-  2. North up Col 28 to (28, 2) (Avoid stairs at 27, 2).
-  3. West to (7, 2).
+  1. **Current**: At B2F (23, 14).
+  2. Go East to Stairs at (27, 14) via Row 15 (avoid Grunt at 24, 14).
+  3. Take Stairs UP to B1F (27, 14).
+  4. Navigate B1F: North up Col 28 -> West along Row 1 -> South to Stairs at (3, 2).
+  5. Take Stairs DOWN to B2F (3, 2).
+  6. Go East to Murkrow at (7, 2).
+
+## Trap Data
+- **CRITICAL**: Do not step on B1F (3, 6) or B2F (3, 6).
 
 ## Trap Data
 - **CRITICAL**: Do not step on B1F (3, 6) or B2F (3, 6).
