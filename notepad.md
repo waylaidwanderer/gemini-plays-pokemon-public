@@ -28,3 +28,4 @@
 - Turn 35823: Bumping Up failed (Player stayed at 7,3). Murkrow stayed at (7,2). Now testing Move Down to (7,4).
 - Turn 35824: Move Down to (7, 4) failed. Murkrow stayed at (7, 2). Tether appears broken.
 - Plan: Move Up to (7, 3) and Interact (A) to reset.
+- Turn 35825: Interacting with Murkrow at (7, 2) to re-engage tether.
