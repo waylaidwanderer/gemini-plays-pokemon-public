@@ -671,8 +671,8 @@
       }
     ]
   },
-  "solve_murkrow_statue_sandwich_v3": {
-    "description": "Executes the 'Statue Pump & Sandwich V3' strategy.\n1. Pump M to 7 (Down x5).\n2. Align 22 (Right, Left x4).\n3. Pump M to 16 (Up x10).\n4. Circle & Sandwich (Right x4, Up x3, Left x4, Down, A).",
+  "solve_murkrow_statue_shimmy": {
+    "description": "Executes the 'Statue Shimmy' strategy.\n1. Align Col 26 (Right 1, Down 3).\n2. Ratchet M to 16 (Up 5).\n3. Align Col 22 (Left 4).\n4. Shimmy M to 14 (Up 1, Down 2).\n5. Interact (A).",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -682,12 +682,12 @@
         }
       }
     },
-    "python_script": "\nprint('[\"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Right\", \"Left\", \"Left\", \"Left\", \"Left\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Right\", \"Right\", \"Right\", \"Right\", \"Up\", \"Up\", \"Up\", \"Left\", \"Left\", \"Left\", \"Left\", \"Down\", \"A\"]')\n",
+    "python_script": "\nprint('[\"Right\", \"Down\", \"Down\", \"Down\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Left\", \"Left\", \"Left\", \"Left\", \"Up\", \"Down\", \"Down\", \"A\"]')\n",
     "history": [
       {
         "commit_message": "Initial version",
-        "timestamp": "2026-02-10T18:49:39.232Z",
-        "action_counter": 36366
+        "timestamp": "2026-02-10T18:51:02.144Z",
+        "action_counter": 36367
       }
     ]
   }
