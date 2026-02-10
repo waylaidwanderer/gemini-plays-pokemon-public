@@ -670,5 +670,25 @@
         "action_counter": 36303
       }
     ]
+  },
+  "solve_murkrow_west_ratchet": {
+    "description": "Executes the 'West Side Ratchet & Wall Align' strategy to sync Murkrow and open the Boss Door.\nMoves: Up 11 (Reset Y), Down 11 (Ratchet M to 11), Right 3 (Align X using Wall 23), Up 3 (Approach), Down (Face Door), A (Interact).",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "autopress_buttons": {
+          "type": "boolean",
+          "default": true
+        }
+      }
+    },
+    "python_script": "\nprint(f'{{\"buttons\": [\"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Right\", \"Right\", \"Right\", \"Up\", \"Up\", \"Up\", \"Down\", \"A\"]}}')\n",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-02-10T17:14:00.545Z",
+        "action_counter": 36307
+      }
+    ]
   }
 }
