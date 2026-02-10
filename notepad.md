@@ -12,15 +12,11 @@
 ## Current State
 - Map: B1F (3_50).
 - Player: (6, 13).
-- Status: Player at (14, 10). Murkrow lost (Simulating location).
-- Shutter at (15, 10) is LOCKED.
-- Puzzle Strategy: "Align and Push"
-  - Murkrow mimics movement (Same Direction).
-  - Current Hypothesis: Murkrow hit wall at (8,2) and desynchronized.
-  - Goal: Locate Murkrow, realign, and guide through Fake Wall at (10,9) or Gap at (6,10).
-- Key Objects:
-  - Fake Wall at (10, 9).
-  - Gap at (6, 10).
-  - Locked Shutter at (15, 10).
+- Status: Player at (14, 10). Murkrow inferred at (14, 8).
+- Recovery Strategy:
+  1. Move Left x4 to (10, 10). (Aligns Murkrow to x=10).
+  2. Move Down x2 to (10, 12). (Pushes Murkrow South through Fake Wall).
+  3. Expect visual confirmation of Murkrow at (10, 10).
+- Goal: Push Murkrow through Fake Wall (10, 9) then Gap (15, 12).
 - Murkrow Status: Currently ~ (7, 6) on B2F.
 - Goal: Push Murkrow through Fake Wall (10, 9) then Gap (15, 12).
