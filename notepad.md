@@ -10,16 +10,14 @@
 - **Hypothesis**: Defeating Grunts near the switches activates them or provides the key.
 
 ## Current State
-- Map: B1F (3_50).
-- Player: (3, 2) -> Moving to (5, 9).
-- Murkrow: (7, 2) -> Moving to (10, 9).
-- Status: Executing "Align and Push" Phase 1.
-- Sequence:
-  1. Down x6 (Row 8).
-  2. Right x3 (Align Murkrow to Col 10, Player blocked at Col 5).
-  3. Down x1 (Murkrow to (10, 9)).
-  4. Next: Right x1 (Push Murkrow through Fake Wall).
-- Puzzle Strategy: "Align and Push" (Retry)
-  1. Verify Murkrow at (7, 2).
-  2. Move Right cautiously, checking for walls blocking Murkrow.
-  3. Guide Murkrow to Column 10 or 11 to pass the Fake Wall at Row 9.
+- Status: Accidentally took stairs to B1F (3, 6).
+- Action: Return to B2F (3, 6), reset to (3, 2).
+- Correction: Murkrow blocked on Row 8. Must use Row 9.
+- Revised Strategy:
+  1. At (3, 2), move Right to (4, 2) (Murkrow blocked).
+  2. Move Down to (4, 9) (Row 9 is clear for Murkrow).
+  3. Move Right to align/push.
+- Key Objects:
+  - Fake Wall at (10, 9).
+  - Gap at (6, 10).
+  - Locked Shutter at (15, 10).
