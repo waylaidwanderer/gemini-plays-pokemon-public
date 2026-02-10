@@ -13,12 +13,12 @@
   - If Failure: Reset Map via Stairs at (3, 2).
 
 ## Recovery: Re-acquiring Murkrow
-- **Status**: Confirmed Inactive.
-- **Observation**: Murkrow did not mimic movement at (8, 4).
-- **Action**: Moving to (7, 3) to interact and reset the mechanic.
+- **Status**: Interacting with Murkrow at (7, 2).
+- **Action**: Pressing A to wake it up.
+- **Next Step**: Move Down to (7, 4) to verify mimicry.
 
 ## Murkrow Mechanics (Verified)
-- **Mimicry**: Moves in the *same* relative direction as Player (mirrored movement not observed yet, seems direct mimicry based on previous logs).
+- **Mimicry**: Moves in the *same* relative direction as Player.
 - **Reset**: Resets to (7, 2) if player leaves map/range. Needs interaction to restart.
 
 ## Trap Data
