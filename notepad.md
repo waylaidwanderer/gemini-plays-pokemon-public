@@ -6,15 +6,11 @@
 
 ## Murkrow Puzzle (B2F)
 - **Status**: Player (7, 6), Murkrow (7, 6) [STACKED].
-- **Event**: Murkrow seemingly teleported/jumped from (7, 2) to (7, 6) when Player moved to (7, 6).
-- **Hypothesis**: 
-  1. Scripted "Catch" or "Reset" event.
-  2. Murkrow is now following/attached to Player.
-  3. Visual Glitch (unlikely given sprite priority).
-- **Plan**:
-  1. Interact (Press A) to check for dialogue/status.
-  2. Move **Down** to (7, 8) (Path to East).
-  3. Guide "Stack" to Boss Door.
+- **Action**: Pressed A (Turn 35647) - No text box observed.
+- **Test**: Moving Down to (7, 8) to see if Murkrow stays stacked or separates.
+  - **Mimic**: Should stay stacked (Move Down).
+  - **Mirror**: Should separate (Move Up).
+- **Goal**: Guide Murkrow to Boss Door (23, 14).
 
 ## Map Notes
 - **Walls**: (6, 2) separates NW and N areas.
