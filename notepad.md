@@ -5,11 +5,11 @@
 - **Secondary**: Defeat Team Rocket Executives.
 
 ## Murkrow Puzzle (B2F)
-- **Status**: Player Moving to (14, 10). Murkrow [Missing].
-- **Result**: (10, 11) is a WALL. Shortcut failed.
-- **Action**: Check Shutters at (14, 11) and (15, 11).
-  - If locked, I am missing a switch.
-  - If openable, proceed.
+- **Status**: Player at (14, 10). Murkrow [Missing].
+- **Action**: Checking Shutter at (14, 11).
+- **Contingency**:
+  - If LOCKED: Return to (7, 2) to retrieve Murkrow. Re-attempt "Row 6 Slide".
+  - If OPEN: Proceed to Boss Door.
 - **Goal**: Lead Murkrow to Boss Door at (23, 14).
 
 ## Key Info
