@@ -1,9 +1,9 @@
 # Team Rocket HQ - Murkrow Puzzle
 
-## Current Status (Turn 36371)
-- **Player**: (24, 13) -> Moving to (26, 12)
-- **Murkrow**: (24, 12) -> Moving to (26, 9)
-- **Goal**: Open Boss Door at (22, 14).
+## Current Status (Turn 36375)
+- **Player**: (23, 15).
+- **Murkrow**: LOST. Need to locate.
+- **Goal**: Locate Murkrow and reset puzzle.
 
 ## The Plan: "Zig-Zag & Statue Pump"
 1. **Setup**: P(24,13), M(24,12).
