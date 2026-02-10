@@ -5,13 +5,11 @@
 - **Secondary**: Defeat Team Rocket Executives.
 
 ## Murkrow Puzzle (B2F)
-- **Status**: Player (7, 4), Murkrow (7, 2).
-- **Goal**: Recreate Turn 35658 (Player at 8, 3, Murkrow at 7, 2).
-- **Step 1**: Move **Right** to (8, 4).
-  - Expectation: Murkrow attempts Right -> Blocked by Wall at (8, 2). Stays at (7, 2).
-- **Step 2**: Move **Up** to (8, 3).
-  - Verify Murkrow reaction.
-- **Step 3**: If Murkrow is at (7, 2) and Player at (8, 3), move **Down** (The Magic Move).
+- **Status**: Player (8, 4), Murkrow (7, 2).
+- **Action**: Moving **Up** to (8, 3).
+- **Expectation**: Murkrow **stays** at (7, 2) (Consistent with T35657 observation).
+- **Reasoning**: If Murkrow stays, I am in position for the "Magic Move" (Down) which should trigger Mimicry to (7, 3).
+- **Contingency**: If Murkrow mimics Up to (7, 1), I will have to drag it back Down.
 
 ## Map Notes
 - **Walls**: (6, 2) and (8, 2) block Murkrow at Row 2.
