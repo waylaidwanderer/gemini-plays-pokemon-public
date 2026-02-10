@@ -23,7 +23,7 @@
 ## Trap Data
 - **CRITICAL**: Do not step on B1F (3, 6) or B2F (3, 6).
 - Warp Traps: B1F (26, 9), (26, 10), (24, 11), (25, 11).
-- Safe Path: B1F Row 1 and Col 27 are safe.
+- Safe Path: B1F Row 1 is safe. Col 27 is blocked at Row 6; use Col 28.
 
 [Turn 36092] "HAIL GIOVANNI" displayed. Closing text box. Next: Visual confirm clear screen, then Move Down.
 [Turn 36093] Text clear confirmed. Moving Down to (7, 4). Verification of Murkrow movement to (7, 3) expected next turn.
