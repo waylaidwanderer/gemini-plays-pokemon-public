@@ -12,14 +12,13 @@
 - **Tether/Range**: 
   - Murkrow stops following if the gap becomes too large (likely > 2 tiles).
   - Interaction (talking) re-engages the tether.
-- **Current State**: Player (7, 3), Murkrow (7, 2). In Dialogue.
+- **Current State**: Player (7, 3), Murkrow (7, 2). Finishing Dialogue.
 
 ## Plan: Gap 1 Bottom Run
-1. Finish Dialogue ("HAIL GIOVANNI").
-2. Move **Down** to (7, 4).
+1. **Immediate**: Move **Down** to (7, 4) once dialogue clears.
    - Expectation: Murkrow moves to (7, 3).
-3. If successful, continue Down to (7, 13).
-4. Navigate East through the gap at (15, 13).
+2. If successful, continue Down to (7, 13).
+3. Navigate East through the gap at (15, 13).
 
 ## Key Info
 - **Boss Door**: Needs Voice ID (Murkrow).
