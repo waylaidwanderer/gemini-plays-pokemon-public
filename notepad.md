@@ -67,3 +67,7 @@ Hypothesis: A single 'A' wasn't enough to handle scroll + advance. 'B' is essent
 [Turn 36111] Direct movement failed again.
 Hypothesis: Moving immediately after closing text might skip the logic frame that enables mimicry.
 Plan: Move Up -> Interact -> Clear Text -> WAIT. Move on NEXT turn to ensure script is active.
+[Turn 36162] Overshot position! Moved Up->Left to (7, 2), occupying Murkrow's start tile.
+Hypothesis: Murkrow moved due to mimicry.
+Possible Locations: (7, 1), (7, 3), (6, 2).
+Action: Moving Right to (8, 2) to regain vision and search adjacent tiles.
