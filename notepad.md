@@ -19,6 +19,7 @@
 
 ## B1F Status
 - Murkrow found at B1F (7, 2).
+- Murkrow spoke "HAIL GIOVANNI".
 - Boss Door at B2F (23, 14).
 - Wall at B1F (15, 2) confirmed.
 - Wall at B1F (6, 1) confirmed solid.
