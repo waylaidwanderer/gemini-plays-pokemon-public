@@ -130,12 +130,12 @@ Confirmed Mechanics:
    - Move Right to Col 23.
    - Player (4, 1) -> (23, 1).
    - Murkrow (4, 16) -> (23, 16).
-3. **The Synchronization**:
-   - Current: Player (26, 9). Murkrow Status: LOST/STACKED?
-   - Hypothesis: Murkrow might be stacked at (26, 9) or lost.
-   - **Action**: Bump DOWN against Crate at (26, 10).
-     - If Stacked: Player Blocked. Murkrow moves UP to (26, 8) (Visible).
-     - If not seen, move Left to Col 23 to scan corridor.
+3. **The Reset & Delivery**:
+   - **X-Align**: Move Right to (28, 9) -> Murkrow hits Right Wall (Col 28).
+   - Move Left to (23, 9) -> Murkrow to Col 23.
+   - **Y-Align**: Move UP to (23, 1) -> Murkrow hits Bottom (Row 16).
+   - **The Setup**: Move DOWN to (23, 15) -> Murkrow hits Top (Row 2).
+   - **The Delivery**: Move UP to (23, 3) -> Murkrow hits Boss Door (Row 14).
 
 ## Trap Data
 - **CRITICAL**: Do not step on B1F (3, 6) or B2F (3, 6).
