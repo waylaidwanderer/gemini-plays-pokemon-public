@@ -5,12 +5,13 @@
 - **Secondary**: Defeat Team Rocket Executives.
 
 ## Murkrow Puzzle (B2F)
-- **Status**: Player (7, 6), Murkrow (7, 2).
-- **Plan**: Ratchet Logic (Mirror Assumption).
-  1. Move **Right** to (8, 6). Murkrow tries Left -> (6, 2) Wall -> Stays (7, 2).
-  2. Move **Up** to (8, 5). Murkrow moves Down -> (7, 3).
-  3. Move **Left** to (7, 5). Murkrow moves Right -> (8, 3).
-- **Goal**: Extract Murkrow to Col 8.
+- **Status**: Player (7, 5), Murkrow (7, 2).
+- **Correction**: Previous turn failed because (8, 6) is a Tree (Wall).
+- **Plan**: Ratchet Logic (Mirror Assumption) using Row 5.
+  1. Move **Right** to (8, 5). Murkrow (7, 2) -> Left/Right (Blocked) -> Stays (7, 2).
+  2. Move **Up** to (8, 4). Murkrow (7, 2) -> Down -> (7, 3).
+  3. Move **Left** to (7, 4). Murkrow (7, 3) -> Right -> (8, 3). **ESCAPE!**
+- **Contingency**: If Mimic, Murkrow ends at (7, 1).
 
 ## Map Notes
 
