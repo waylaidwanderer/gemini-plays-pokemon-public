@@ -130,22 +130,26 @@ Confirmed Mechanics:
    - Move Right to Col 23.
    - Player (4, 1) -> (23, 1).
    - Murkrow (4, 16) -> (23, 16).
-3. **The "Col 28" Zig-Zag**:
-   - **Current**: P(24, 9), M(24, 8).
-   - **Step 1: Traverse & Reset**.
-     - Right 4 to (28, 9). M -> (28, 8).
-     - Down 7 to (28, 16).
-       - M moves Up 7. Blocked at (28, 4). Stays (28, 5).
-     - Up 7 to (28, 9).
-       - M moves Down 7 to (28, 12).
-     - Left 2 to (26, 9). M -> (26, 12).
-   - **Step 2: The Ratchet**.
-     - Down 7 to (26, 16).
-       - M moves Up 7. Blocked at (26, 11). Stays (26, 12).
-     - Result: P(26, 16), M(26, 12).
-   - **Step 3: Delivery**.
-     - Left 4 to (22, 16). M -> (22, 12).
-     - Up 3 to (22, 13). M -> (22, 15) [Sandwich].
+3. **The "Col 28" Block Solution**:
+   - **Current**: P(26, 9), M(26, 12).
+   - **Step 1: Traverse & Ratchet (Col 28)**.
+     - Right 2 to (28, 9). M -> (28, 12).
+     - Up 7 to (28, 9) [Blocked by Wall at 8].
+       - M moves Down 7 -> (28, 16).
+     - Result: P(28, 9), M(28, 16).
+   - **Step 2: Cross Left**.
+     - Left 6 to (22, 9). M -> (22, 16).
+     - Result: P(22, 9), M(22, 16).
+   - **Step 3: Convergence**.
+     - Down 5 to (22, 13).
+       - P moves 9->13.
+       - M moves 16->12.
+     - Result: P(22, 13), M(22, 12).
+   - **Step 4: The Stack**.
+     - Down 1 to (22, 13) [Blocked by Door].
+       - M moves 12->13.
+     - Result: P(22, 13), M(22, 13). [Stacked].
+   - **Step 5: Deliver**.
      - **Interact**.
 [Turn 36186] Inverted Ratchet - Phase 2.
 - Player at (7, 16). Murkrow at (7, 1).
