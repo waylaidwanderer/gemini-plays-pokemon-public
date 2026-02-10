@@ -5,18 +5,13 @@
 - **Secondary**: Defeat Team Rocket Executives.
 
 ## Murkrow Puzzle (B2F)
-- **Status**: Player (8, 5), Murkrow (7, 2).
-- **Goal**: Escape Column 7.
-- **Plan**:
-  1. Move **Left** to (7, 5). Murkrow tries Left (Blocked), Stays at (7, 2).
-  2. Move **Down** to (7, 6). Murkrow (Mimic) -> (7, 3).
-  3. Move **Down** to (7, 7). Murkrow (Mimic) -> (7, 4).
-  4. Move **Down** to (7, 8). Murkrow (Mimic) -> (7, 5).
-  5. Move **Right** to (8, 8). Murkrow (Mimic) -> (8, 5). **ESCAPED**.
-- **Constraint Check**: 
-  - (8, 6) and (8, 7) are Trees (Walls).
-  - (8, 8) is Open.
-  - This path requires Murkrow to mimic 4 consecutive moves.
+- **Status**: Player (7, 4), Murkrow (7, 2).
+- **Plan**: Proximity Ratchet.
+  1. Move **Up** to (7, 4). (Re-engage range).
+  2. Move **Right** to (8, 4).
+  3. Move **Down** to (8, 5). Murkrow (Mimic) -> (7, 3).
+  4. Move **Left** to (7, 5). Murkrow (Mimic) -> Stays (Wall 6,3).
+  5. Move **Right** to (8, 5). Murkrow (Mimic) -> (8, 3). **ESCAPE**.
 
 ## Map Notes
 
