@@ -5,15 +5,13 @@
 - **Secondary**: Defeat Team Rocket Executives.
 
 ## Murkrow Puzzle (B2F)
-- **Status**: Player (7, 5), Murkrow (7, 2).
-- **Result**: Moving Down to (7, 5) FAILED. Murkrow stayed at (7, 2).
-- **Conclusion**: **Range Limit Confirmed**. Murkrow ignores inputs if Y-Distance >= 2 (or 3).
-- **Plan**: Recreate the specific condition for the previous success.
-  1. Move **Up** to (7, 4).
-  2. Move **Up** to (7, 3).
-  3. Move **Right** to (8, 3).
-  4. **Execute**: Move **Down** to (8, 4).
-     - Ideally, Murkrow mimics to (7, 3) or (8, 3).
+- **Status**: Player (7, 4), Murkrow (7, 2).
+- **Goal**: Recreate Turn 35658 (Player at 8, 3, Murkrow at 7, 2).
+- **Step 1**: Move **Right** to (8, 4).
+  - Expectation: Murkrow attempts Right -> Blocked by Wall at (8, 2). Stays at (7, 2).
+- **Step 2**: Move **Up** to (8, 3).
+  - Verify Murkrow reaction.
+- **Step 3**: If Murkrow is at (7, 2) and Player at (8, 3), move **Down** (The Magic Move).
 
 ## Map Notes
 - **Walls**: (6, 2) and (8, 2) block Murkrow at Row 2.
