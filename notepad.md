@@ -24,3 +24,10 @@ Hypothesis:
 [Turn 36064] Confirming dialogue "HAIL GIOVANNI". Will move Down to (7, 4) next to test direct follow.
 [Turn 36065] Clearing text. Next: Visual check for clean screen.
 [Turn 36066] Moved Down to (7, 4). Waiting to verify Murkrow position at (7, 3).
+[Turn 36067] VERIFICATION FAILED. Murkrow stayed at (7, 2). It did NOT follow me Down.
+Possible reasons:
+- Mimicry is not 1:1.
+- Distance too great?
+- Game logic requires specific relative positioning.
+- Needs re-interaction.
+Action: Returning to (7, 3) to test 'Move Right' (Buffer) hypothesis.
