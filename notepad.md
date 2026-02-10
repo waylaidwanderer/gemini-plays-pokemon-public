@@ -5,13 +5,12 @@
 - **Secondary**: Defeat Team Rocket Executives.
 
 ## Murkrow Puzzle (B2F)
-- **Status**: Player Moving to (10, 5). Murkrow expected at (10, 4).
+- **Status**: Player Moving to (10, 10). Murkrow expected at (10, 9).
 - **Plan**: "The Column 10 Test".
-  1. Move Right to (10, 5). (M -> 10, 4).
-  2. Move Down Column 10 to (10, 10).
-  3. TEST: Try to move to (10, 11).
+  1. Move Down to (10, 10). (M -> 10, 9).
+  2. TEST: Try to move to (10, 11).
      - If Passable: We are on Row 11/12. Freedom!
-     - If Blocked: We are stuck on Row 10. Must switch to "Shutter Unlock" plan.
+     - If Blocked: Check interactions or nearby tiles.
 - **Goal**: Lead Murkrow to Boss Door at (23, 14).
 
 ## Key Info
@@ -19,5 +18,5 @@
 
 ## Map Notes
 - **Walls**: Row 9 blocked except at x=10.
-- **Passage**: (10, 9) is a fake wall. (10, 11) status unknown.
+- **Passage**: (10, 9) is a fake wall. (10, 11) is the target test.
 - **Traps**: Warp Trap at (26, 10).
