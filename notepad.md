@@ -139,7 +139,10 @@ Confirmed Mechanics:
      1. Move East to (26, 16) to bypass the statue.
      2. Move North to Row 13.
      3. Move West to (22, 13).
-     4. Verify Murkrow alignment during transit.
+     4. **The Stack**: Bump Down against the door.
+        - P(22, 13) Blocked.
+        - M(22, 12) -> M(22, 13).
+     5. Interact.
 
 [Turn 36186] Inverted Ratchet - Phase 2.
 - Player at (7, 16). Murkrow at (7, 1).
