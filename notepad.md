@@ -131,9 +131,10 @@ Confirmed Mechanics:
    - Player (4, 1) -> (23, 1).
    - Murkrow (4, 16) -> (23, 16).
 3. **The Delivery**:
-   - Move Down (Player) -> Murkrow moves Up.
-   - Player (23, 1) -> (23, 3).
-   - Murkrow (23, 16) -> (23, 14) (Boss Door).
+   - Move UP (Player) -> Murkrow moves DOWN (Mirror).
+   - Player (23, 15) -> (23, 3).
+   - Murkrow (23, 2) -> (23, 14) (Boss Door).
+   - Watch for Murkrow crossing paths around Row 8/9.
 
 ## Trap Data
 - **CRITICAL**: Do not step on B1F (3, 6) or B2F (3, 6).

@@ -399,87 +399,6 @@
       }
     ]
   },
-  "scan_surroundings": {
-    "description": "Scans the Mental Map around the player and returns the type and coordinates of nearby tiles. Useful for identifying walls, ledges, and navigable paths without walking into them.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "radius": {
-          "type": "integer",
-          "description": "The radius of tiles to scan around the player. Defaults to 2."
-        }
-      },
-      "required": [
-        "radius"
-      ]
-    },
-    "python_script": "import xml.etree.ElementTree as ET\n\ntry:\n    root = ET.fromstring(map_xml_string)\n    player_pos = None\n    \n    # Find player position\n    for row in root.findall(\"Row\"):\n        for tile in row.findall(\"Tile\"):\n            if tile.find(\"Player\") is not None:\n                player_pos = (int(tile.get(\"id\")), int(row.get(\"id\")))\n                break\n        if player_pos: break\n\n    if not player_pos:\n        print(\"Error: Player not found in Mental Map.\")\n    else:\n        px, py = player_pos\n        radius = input_data.get('radius', 2)\n        map_id = root.get('id')\n        print(f\"Scanning radius {radius} around {player_pos} on map {map_id}:\")\n        \n        for y in range(py - radius, py + radius + 1):\n            row = root.find(f\"./Row[@id='{y}']\")\n            if row is not None:\n                row_str = \"\"\n                for x in range(px - radius, px + radius + 1):\n                    tile = row.find(f\"./Tile[@id='{x}']\")\n                    if tile is not None:\n                        t_type = tile.get(\"type\")\n                        row_str += f\"[{x},{y}: {t_type}] \"\n                    else:\n                        row_str += f\"[{x},{y}: N/A] \"\n                print(row_str)\n            else:\n                print(f\"Row {y} not found.\")\n\nexcept Exception as e:\n    print(f\"Error executing scan_surroundings: {e}\")",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-01-17T03:27:06.196Z",
-        "action_counter": 213
-      }
-    ]
-  },
-  "test_sandbox": {
-    "description": "A simple test to verify if the Python sandbox is functioning correctly.",
-    "input_schema": {
-      "type": "object",
-      "properties": {}
-    },
-    "python_script": "print(\"Sandbox is working!\")",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-01-21T08:09:47.817Z",
-        "action_counter": 7231
-      }
-    ]
-  },
-  "type_text": {
-    "description": "Generates a sequence of button presses to type the specified text on the Gen 2 keyboard interface. Verified Layout: Rows 0-1 (9 cols), Row 2 (8 cols), Row 3 (10 cols), Row 4 (UPPER, DEL, END). Handles case switching.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "target_text": {
-          "type": "string",
-          "description": "The string to type."
-        },
-        "start_char": {
-          "type": "string",
-          "description": "The character or button code (UPPER, DEL, END) currently selected. Default is 'A'.",
-          "default": "A"
-        },
-        "autopress_buttons": {
-          "type": "boolean",
-          "description": "If true, automatically press the buttons.",
-          "default": false
-        }
-      },
-      "required": [
-        "target_text"
-      ]
-    },
-    "python_script": "import json\nimport sys\n\ndef solve():\n    buttons = []\n    try:\n        # Attempt to get arguments from injected global variables\n        # If not present, try input_data dictionary (common pattern)\n        try:\n            t_text = target_text\n        except NameError:\n            try:\n                t_text = input_data['target_text']\n            except NameError:\n                t_text = \"\"\n        \n        try:\n            s_char = start_char\n        except NameError:\n            try:\n                s_char = input_data.get('start_char', 'A')\n            except:\n                s_char = 'A'\n        \n        # Keyboard Layout\n        layout_upper = [\n            ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I'],\n            ['J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R'],\n            ['S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', ' '],\n            ['×', '(', ')', ':', ';', '[', ']', 'PK', 'MN', '?'],\n            ['UPPER', 'lower', 'DEL', 'END']\n        ]\n        layout_lower = [\n            ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i'],\n            ['j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r'],\n            ['s', 't', 'u', 'v', 'w', 'x', 'y', 'z', ' '],\n            ['×', '(', ')', ':', ';', '[', ']', 'PK', 'MN', '?'],\n            ['UPPER', 'lower', 'DEL', 'END']\n        ]\n\n        # Coordinate Map\n        map_coords = {}\n        for r, row in enumerate(layout_upper):\n            for c, char in enumerate(row):\n                map_coords[(char, 0)] = (r, c)\n        for r, row in enumerate(layout_lower):\n            for c, char in enumerate(row):\n                map_coords[(char, 1)] = (r, c)\n        \n        # Special keys mapping\n        specials = ['UPPER', 'lower', 'DEL', 'END']\n        for i, key in enumerate(specials):\n             map_coords[(key, 0)] = (4, i)\n             map_coords[(key, 1)] = (4, i)\n\n        # Init Position\n        current_r, current_c = 0, 0\n        current_case = 0 # 0=Upper, 1=Lower\n        \n        # Find start position\n        start_key = (s_char, 0)\n        if start_key in map_coords:\n            current_r, current_c = map_coords[start_key]\n\n        for char in t_text:\n            # Determine target case\n            target_case = 0\n            if 'a' <= char <= 'z': target_case = 1\n            elif 'A' <= char <= 'Z': target_case = 0\n            else:\n                # For symbols, prefer current case if available\n                if (char, current_case) in map_coords:\n                    target_case = current_case\n                elif (char, 0) in map_coords:\n                    target_case = 0\n                elif (char, 1) in map_coords:\n                    target_case = 1\n            \n            # Switch case if needed\n            if current_case != target_case:\n                switch_key = 'lower' if target_case == 1 else 'UPPER'\n                tr, tc = map_coords[(switch_key, current_case)]\n                \n                # Move to switch\n                buttons.extend(['Down'] * (tr - current_r))\n                buttons.extend(['Up'] * (current_r - tr))\n                buttons.extend(['Right'] * (tc - current_c))\n                buttons.extend(['Left'] * (current_c - tc))\n                \n                buttons.append('A')\n                current_r, current_c = tr, tc\n                current_case = target_case\n            \n            # Move to char\n            if (char, target_case) in map_coords:\n                tr, tc = map_coords[(char, target_case)]\n                \n                buttons.extend(['Down'] * (tr - current_r))\n                buttons.extend(['Up'] * (current_r - tr))\n                buttons.extend(['Right'] * (tc - current_c))\n                buttons.extend(['Left'] * (current_c - tc))\n                \n                buttons.append('A')\n                current_r, current_c = tr, tc\n            else:\n                pass # Char not found, skip\n                \n    except Exception:\n        buttons = [] # Return empty on error\n    \n    print(json.dumps(buttons))\n\nsolve()",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-01-25T19:07:50.224Z",
-        "action_counter": 12601
-      },
-      {
-        "commit_message": "Fixed layout coordinates: DEL is at col 4 (visual center), END at col 7. Added import json.",
-        "timestamp": "2026-01-25T19:11:58.079Z",
-        "action_counter": 12604
-      },
-      {
-        "commit_message": "Fix type_text tool to properly access input arguments and return valid JSON.",
-        "timestamp": "2026-01-26T11:30:24.969Z",
-        "action_counter": 13565
-      }
-    ]
-  },
   "scan_map_features": {
     "description": "Scans the current map's XML for specific tile types (e.g., stairs, warps) and prints their coordinates. Useful for finding hidden or overlooked entrances.",
     "input_schema": {
@@ -507,6 +426,44 @@
         "commit_message": "Initial version",
         "timestamp": "2026-02-07T20:38:34.038Z",
         "action_counter": 32291
+      }
+    ]
+  },
+  "scan_surroundings": {
+    "description": "Scans the Mental Map around the player and returns the type and coordinates of nearby tiles. Useful for identifying walls, ledges, and navigable paths without walking into them.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "radius": {
+          "type": "integer",
+          "description": "The radius of tiles to scan around the player. Defaults to 2."
+        }
+      },
+      "required": [
+        "radius"
+      ]
+    },
+    "python_script": "import xml.etree.ElementTree as ET\n\ntry:\n    root = ET.fromstring(map_xml_string)\n    player_pos = None\n    \n    # Find player position\n    for row in root.findall(\"Row\"):\n        for tile in row.findall(\"Tile\"):\n            if tile.find(\"Player\") is not None:\n                player_pos = (int(tile.get(\"id\")), int(row.get(\"id\")))\n                break\n        if player_pos: break\n\n    if not player_pos:\n        print(\"Error: Player not found in Mental Map.\")\n    else:\n        px, py = player_pos\n        radius = input_data.get('radius', 2)\n        map_id = root.get('id')\n        print(f\"Scanning radius {radius} around {player_pos} on map {map_id}:\")\n        \n        for y in range(py - radius, py + radius + 1):\n            row = root.find(f\"./Row[@id='{y}']\")\n            if row is not None:\n                row_str = \"\"\n                for x in range(px - radius, px + radius + 1):\n                    tile = row.find(f\"./Tile[@id='{x}']\")\n                    if tile is not None:\n                        t_type = tile.get(\"type\")\n                        row_str += f\"[{x},{y}: {t_type}] \"\n                    else:\n                        row_str += f\"[{x},{y}: N/A] \"\n                print(row_str)\n            else:\n                print(f\"Row {y} not found.\")\n\nexcept Exception as e:\n    print(f\"Error executing scan_surroundings: {e}\")",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-17T03:27:06.196Z",
+        "action_counter": 213
+      }
+    ]
+  },
+  "scan_tracked_objects": {
+    "description": "Scans the Mental Map XML for all markers that have an 'object_id' attribute, returning their label, coordinates, and object ID. This helps track NPCs and objects objectively.",
+    "input_schema": {
+      "type": "object",
+      "properties": {}
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\ndef get_tracked_objects(xml_string):\n    root = ET.fromstring(xml_string)\n    objects = []\n    \n    for row in root.findall(\"Row\"):\n        y = int(row.get(\"id\"))\n        for tile in row.findall(\"Tile\"):\n            x = int(tile.get(\"id\"))\n            for marker in tile.findall(\"Marker\"):\n                obj_id = marker.get(\"object_id\")\n                if obj_id:\n                    objects.append({\n                        \"label\": marker.text,\n                        \"x\": x,\n                        \"y\": y,\n                        \"object_id\": obj_id,\n                        \"emoji\": marker.get(\"emoji\")\n                    })\n    return objects\n\ntry:\n    # map_xml_string is injected automatically\n    results = get_tracked_objects(map_xml_string)\n    print(json.dumps(results))\nexcept Exception as e:\n    print(json.dumps({\"error\": str(e)}))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-02-10T11:04:00.751Z",
+        "action_counter": 36085
       }
     ]
   },
@@ -636,18 +593,61 @@
       }
     ]
   },
-  "scan_tracked_objects": {
-    "description": "Scans the Mental Map XML for all markers that have an 'object_id' attribute, returning their label, coordinates, and object ID. This helps track NPCs and objects objectively.",
+  "test_sandbox": {
+    "description": "A simple test to verify if the Python sandbox is functioning correctly.",
     "input_schema": {
       "type": "object",
       "properties": {}
     },
-    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\ndef get_tracked_objects(xml_string):\n    root = ET.fromstring(xml_string)\n    objects = []\n    \n    for row in root.findall(\"Row\"):\n        y = int(row.get(\"id\"))\n        for tile in row.findall(\"Tile\"):\n            x = int(tile.get(\"id\"))\n            for marker in tile.findall(\"Marker\"):\n                obj_id = marker.get(\"object_id\")\n                if obj_id:\n                    objects.append({\n                        \"label\": marker.text,\n                        \"x\": x,\n                        \"y\": y,\n                        \"object_id\": obj_id,\n                        \"emoji\": marker.get(\"emoji\")\n                    })\n    return objects\n\ntry:\n    # map_xml_string is injected automatically\n    results = get_tracked_objects(map_xml_string)\n    print(json.dumps(results))\nexcept Exception as e:\n    print(json.dumps({\"error\": str(e)}))",
+    "python_script": "print(\"Sandbox is working!\")",
     "history": [
       {
         "commit_message": "Initial version",
-        "timestamp": "2026-02-10T11:04:00.751Z",
-        "action_counter": 36085
+        "timestamp": "2026-01-21T08:09:47.817Z",
+        "action_counter": 7231
+      }
+    ]
+  },
+  "type_text": {
+    "description": "Generates a sequence of button presses to type the specified text on the Gen 2 keyboard interface. Verified Layout: Rows 0-1 (9 cols), Row 2 (8 cols), Row 3 (10 cols), Row 4 (UPPER, DEL, END). Handles case switching.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "target_text": {
+          "type": "string",
+          "description": "The string to type."
+        },
+        "start_char": {
+          "type": "string",
+          "description": "The character or button code (UPPER, DEL, END) currently selected. Default is 'A'.",
+          "default": "A"
+        },
+        "autopress_buttons": {
+          "type": "boolean",
+          "description": "If true, automatically press the buttons.",
+          "default": false
+        }
+      },
+      "required": [
+        "target_text"
+      ]
+    },
+    "python_script": "import json\nimport sys\n\ndef solve():\n    buttons = []\n    try:\n        # Attempt to get arguments from injected global variables\n        # If not present, try input_data dictionary (common pattern)\n        try:\n            t_text = target_text\n        except NameError:\n            try:\n                t_text = input_data['target_text']\n            except NameError:\n                t_text = \"\"\n        \n        try:\n            s_char = start_char\n        except NameError:\n            try:\n                s_char = input_data.get('start_char', 'A')\n            except:\n                s_char = 'A'\n        \n        # Keyboard Layout\n        layout_upper = [\n            ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I'],\n            ['J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R'],\n            ['S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', ' '],\n            ['×', '(', ')', ':', ';', '[', ']', 'PK', 'MN', '?'],\n            ['UPPER', 'lower', 'DEL', 'END']\n        ]\n        layout_lower = [\n            ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i'],\n            ['j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r'],\n            ['s', 't', 'u', 'v', 'w', 'x', 'y', 'z', ' '],\n            ['×', '(', ')', ':', ';', '[', ']', 'PK', 'MN', '?'],\n            ['UPPER', 'lower', 'DEL', 'END']\n        ]\n\n        # Coordinate Map\n        map_coords = {}\n        for r, row in enumerate(layout_upper):\n            for c, char in enumerate(row):\n                map_coords[(char, 0)] = (r, c)\n        for r, row in enumerate(layout_lower):\n            for c, char in enumerate(row):\n                map_coords[(char, 1)] = (r, c)\n        \n        # Special keys mapping\n        specials = ['UPPER', 'lower', 'DEL', 'END']\n        for i, key in enumerate(specials):\n             map_coords[(key, 0)] = (4, i)\n             map_coords[(key, 1)] = (4, i)\n\n        # Init Position\n        current_r, current_c = 0, 0\n        current_case = 0 # 0=Upper, 1=Lower\n        \n        # Find start position\n        start_key = (s_char, 0)\n        if start_key in map_coords:\n            current_r, current_c = map_coords[start_key]\n\n        for char in t_text:\n            # Determine target case\n            target_case = 0\n            if 'a' <= char <= 'z': target_case = 1\n            elif 'A' <= char <= 'Z': target_case = 0\n            else:\n                # For symbols, prefer current case if available\n                if (char, current_case) in map_coords:\n                    target_case = current_case\n                elif (char, 0) in map_coords:\n                    target_case = 0\n                elif (char, 1) in map_coords:\n                    target_case = 1\n            \n            # Switch case if needed\n            if current_case != target_case:\n                switch_key = 'lower' if target_case == 1 else 'UPPER'\n                tr, tc = map_coords[(switch_key, current_case)]\n                \n                # Move to switch\n                buttons.extend(['Down'] * (tr - current_r))\n                buttons.extend(['Up'] * (current_r - tr))\n                buttons.extend(['Right'] * (tc - current_c))\n                buttons.extend(['Left'] * (current_c - tc))\n                \n                buttons.append('A')\n                current_r, current_c = tr, tc\n                current_case = target_case\n            \n            # Move to char\n            if (char, target_case) in map_coords:\n                tr, tc = map_coords[(char, target_case)]\n                \n                buttons.extend(['Down'] * (tr - current_r))\n                buttons.extend(['Up'] * (current_r - tr))\n                buttons.extend(['Right'] * (tc - current_c))\n                buttons.extend(['Left'] * (current_c - tc))\n                \n                buttons.append('A')\n                current_r, current_c = tr, tc\n            else:\n                pass # Char not found, skip\n                \n    except Exception:\n        buttons = [] # Return empty on error\n    \n    print(json.dumps(buttons))\n\nsolve()",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-25T19:07:50.224Z",
+        "action_counter": 12601
+      },
+      {
+        "commit_message": "Fixed layout coordinates: DEL is at col 4 (visual center), END at col 7. Added import json.",
+        "timestamp": "2026-01-25T19:11:58.079Z",
+        "action_counter": 12604
+      },
+      {
+        "commit_message": "Fix type_text tool to properly access input arguments and return valid JSON.",
+        "timestamp": "2026-01-26T11:30:24.969Z",
+        "action_counter": 13565
       }
     ]
   }
