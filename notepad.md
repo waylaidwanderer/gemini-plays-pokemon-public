@@ -5,16 +5,13 @@
 - **Secondary**: Defeat Team Rocket Executives.
 
 ## Murkrow Puzzle (B2F)
-- **Status**: Player (3, 2), Murkrow (7, 2).
-- **Goal**: Guide Murkrow to Boss Door (23, 14).
-- **Mechanics**: Murkrow mimics inputs.
+- **Status**: Player (6, 10), Murkrow Unknown.
+- **Goal**: Locate Murkrow and guide to Boss Door (23, 14).
+- **Mechanics**: Suspected Mimic (follows inputs). To be verified.
 - **Plan**:
-  1. **Ratchet West**: Move Left to (1, 2) to pin Murkrow against wall at (6, 2).
-     - Expected: Murkrow stays at (7, 2).
-  2. **Enter Central**: Move Right to (5, 2), Down to (5, 10), Right through gap at (6, 10).
-  3. **Ratchet Central**: Use Locked Shutter at (15, 10) to pin Murkrow again.
-     - Player moves to (10, 10), Murkrow pinned at (14, 10).
-  4. **Guide to Door**: Maneuver Murkrow to (23, 14).
+  1. **Locate**: Search Central Area (Rows 10-14).
+  2. **Verify**: Test movement response once found.
+  3. **Guide**: Use walls/obstacles to align Murkrow.
 
 ## Map Notes
 - **Walls**: (6, 2) separates NW and N areas.
