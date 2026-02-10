@@ -26,3 +26,5 @@
 - **Passage**: (15, 13) is a gap, (15, 12) is floor. Perfect for P(Row 13)/M(Row 12).
 - Turn 35822: Attempting to walk INTO Murkrow at (7, 2). Testing collision/displacement behavior.
 - Turn 35823: Bumping Up failed (Player stayed at 7,3). Murkrow stayed at (7,2). Now testing Move Down to (7,4).
+- Turn 35824: Move Down to (7, 4) failed. Murkrow stayed at (7, 2). Tether appears broken.
+- Plan: Move Up to (7, 3) and Interact (A) to reset.
