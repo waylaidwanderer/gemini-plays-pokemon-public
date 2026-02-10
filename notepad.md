@@ -5,13 +5,24 @@
 - **Secondary**: Defeat Team Rocket Executives.
 
 ## Murkrow Puzzle (B2F)
-- **Status**: Player (7, 5), Murkrow (7, 2).
-- **Correction**: Previous turn failed because (8, 6) is a Tree (Wall).
-- **Plan**: Ratchet Logic (Mirror Assumption) using Row 5.
-  1. Move **Right** to (8, 5). Murkrow (7, 2) -> Left/Right (Blocked) -> Stays (7, 2).
-  2. Move **Up** to (8, 4). Murkrow (7, 2) -> Down -> (7, 3).
-  3. Move **Left** to (7, 4). Murkrow (7, 3) -> Right -> (8, 3). **ESCAPE!**
-- **Contingency**: If Mimic, Murkrow ends at (7, 1).
+- **Status**: Player (7, 4), Murkrow (7, 2).
+- **Theory**: **MIMIC** (Confirmed by T35639 success, failure due to wall at 11,4).
+- **Constraint**: Murkrow hits walls and desyncs. Must check Murkrow's path for obstacles.
+- **Pathing**:
+  - Murkrow at (7, 2). Needs to cross Col 11.
+  - Col 11 Obstacles: (11, 3), (11, 4) are Walls. (11, 2), (11, 5) are Open.
+  - Current Y=2. Path blocked at (8, 2) by wall?
+    - Map says (8, 2) is `TYPE_2889` (Wall).
+    - So Murkrow CANNOT leave Col 7 at Y=2.
+  - Must move Murkrow to Y=3?
+    - (8, 3) is Open.
+    - But (11, 3) is Blocked.
+  - Plan:
+    1. Move **Down** to (7, 5). Murkrow -> (7, 3).
+    2. Move **Right** to (8, 5). Murkrow -> (8, 3).
+    3. Move **Down** to (8, 7). Murkrow -> (8, 5).
+    4. Move **Right** past Col 11 (row 5 is open).
+- **Action**: Move **Down** to (7, 5).
 
 ## Map Notes
 
