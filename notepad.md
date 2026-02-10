@@ -5,14 +5,19 @@
 - **Secondary**: Defeat Team Rocket Executives.
 
 ## Murkrow Puzzle (B2F)
-- **Status**: Player (8, 4), Murkrow (7, 2).
-- **Test**: Move **Up** to (8, 3).
-  - **Mirror**: Murkrow -> (7, 3). *Target reached.*
-  - **Mimic**: Murkrow -> (7, 1). *Moved away.*
-- **Follow-up**:
-  - If at (7, 3): Move **Right** to (9, 3).
-    - Mimic: Murkrow -> (8, 3) *Escaped!*
-    - Mirror: Murkrow -> (6, 3) *Blocked.*
+- **Status**: Player (8, 3), Murkrow (7, 2).
+- **Analysis**:
+  - Up failed (likely (7, 1) blocked).
+  - Right failed previously ( (8, 2) blocked).
+  - Left would block (6, 2 blocked).
+  - **Down** is the only valid Mimic direction ((7, 3) is Open).
+- **Theory**: **MIMIC** (Range Limited).
+  - Works at Distance <= 1? (Failed at Dist 3).
+- **Plan**:
+  1. Move **Down** to (8, 4).
+     - Expect Murkrow -> (7, 3).
+  2. If successful, Move **Right** to (9, 4).
+     - Expect Murkrow -> (8, 3).
 
 ## Map Notes
 
