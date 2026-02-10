@@ -1,35 +1,23 @@
 # Team Rocket HQ - Murkrow Puzzle
 
-## SOLUTION: "The 24-9 Convergence"
-Target: P(24, 9), M(22, 14).
+## RESET & SOLVE: "The Col 28 Lift"
+Target: M(22, 14).
 
 ## Current Status (Turn 36402)
-- **Player**: (17, 13).
-- **Murkrow**: (28, 14) (Assumed).
+- **Player**: (12, 13) -> Resetting.
+- **Goal**: Warp to (25, 2), Exit/Re-enter to Reset M to (7, 2).
 
-## Phase 1: The "Col 14" Sync
-1. **Reset to Row 16**:
-   - Up 2 -> P(17, 11). M(28, 16).
-2. **Move M to Col 14**:
-   - Left 14 -> P(3, 11). M(14, 16).
-3. **Lift M to Row 12**:
-   - Down 4 -> P(3, 15). M(14, 12).
-4. **Shift P to Col 14**:
-   - Right 11 -> P(14, 15). M(25, 12).
-5. **Lock M at Row 12**:
-   - Up 4 -> P(14, 11). M(14, 12) [Blocked Down at 13].
-
-## Phase 2: The "Col 22" Setup
-6. **Move P to Col 22 (Around)**:
-   - Down 5 -> P(14, 16). M(14, 7).
-   - Right 8 -> P(22, 16). M(22, 7).
-   - Up 5 -> P(22, 11). M(22, 12).
-
-## Phase 3: The Ratchet & Finish
-7. **Ratchet M to 20**:
-   - Left 1 -> P Blocked(21). M(21, 12).
-   - Left 1 -> P Blocked(21). M(20, 12).
-8. **Final Alignment**:
-   - Right 2 -> P(24, 11). M(22, 12).
-   - Up 2 -> P(24, 9). M(22, 14).
-   - Interact.
+## The Winning Solution (From Clean State)
+1. **Sync X**: P(27, 2) -> Left 26 -> P(1, 2). M(1, 2).
+2. **Drop M**: 
+   - P(1, 2) -> Down 14 -> P(1, 16). M Stays.
+   - P(1, 16) -> Up 14 -> P(1, 2). M -> (1, 16).
+3. **Move M to 28**:
+   - P(1, 2) -> Right 27 -> P(28, 2). M -> (28, 16).
+4. **Lift M to 12**:
+   - P(28, 2) -> Down 4 -> P(28, 6). M -> (28, 12).
+5. **Move M to 22**:
+   - P(28, 6) -> Left 6 -> P(22, 6). M -> (22, 12).
+6. **Drop M to Door**:
+   - P(22, 6) -> Up 2 -> P(22, 4). M -> (22, 14).
+7. **Interact**.
