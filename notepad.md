@@ -5,18 +5,21 @@
 - **Secondary**: Defeat Team Rocket Executives.
 
 ## Murkrow Puzzle (B2F)
-- **Status**: Player (10, 5). Murkrow at (7, 2) [RESET confirmed].
-- **Correction**: Previous attempts to lead Murkrow failed; it reset to start. Visual confirmation of Murkrow at (7, 2) on Turn 35761.
-- **Action**: Returning to (7, 4) to restart and verify mechanics.
-- **Hypothesis Testing Needed**:
-  - Max tether distance before reset?
-  - Does it mimic blocked moves?
-  - Exact mimicry rules (Mirror vs Copy).
+- **Status**: Player (7, 4), Murkrow (7, 1).
+- **Strategy**: "Gap Narrowing (Gap 2)".
+  1. Move Up to (7, 3). Murkrow tries (7, 0) -> Blocked.
+  2. Result: P(7, 3), M(7, 1). Gap = 2.
+  3. Move Down to (7, 5). M(7, 3).
+  4. Move Right to (10, 5). M(10, 3).
+  5. Move Down to (10, 12). M(10, 10).
+  6. Move Right on Row 12 (Player) / Row 10 (Murkrow).
+  7. Check Shutter at (15, 10).
+- **Goal**: Lead Murkrow to Boss Door at (23, 14).
 
 ## Key Info
 - **Boss Door**: Needs Voice ID (Murkrow).
 
 ## Map Notes
-- **Walls**: Chairs at Row 5 and Row 8. Desks at Row 3/4 and 9/10.
-- **Clear Path**: Row 6 and Row 7 are the safe aisles.
+- **Walls**: Top Wall at (7, 0) is key for narrowing gap.
+- **Path**: Row 10 and Row 12 seem clear East.
 - **Traps**: Warp Trap at (26, 10).
