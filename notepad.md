@@ -6,10 +6,14 @@
 
 ## Murkrow Puzzle (B2F)
 - **Status**: Player (7, 3), Murkrow (7, 2).
-- **Action**: Press **A** to interact/check message.
-- **Reasoning**: Ensure Murkrow isn't "asleep" or requiring activation.
-- **Next**: Move **Down** to (7, 4).
-  - Expectation: Murkrow moves (7, 2) -> (7, 3) (Mimic at Range 1).
+- **Action**: Clearing dialogue ("The password is...").
+- **Next Step**: Move **Down** to (7, 4).
+- **Predictions**:
+  - **Mimic (Simple)**: Murkrow (7, 2) -> (7, 3).
+  - **Mimic (Complex)**: Murkrow (7, 2) -> (8, 3) (Like Turn 35658).
+  - **Mirror**: Murkrow (7, 2) -> (7, 1) (Blocked?).
+  - **Range Limit**: Stays if move fails to trigger.
+- **Goal**: Escape Column 7 to (8, 3).
 
 ## Map Notes
 - **Walls**: (6, 2) and (8, 2) block Murkrow at Row 2.
