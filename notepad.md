@@ -11,21 +11,17 @@
   - B1F (6, 1): Likely NOT a switch or already activated.
   - Switches toggle shutters.
 
-## Investigation - The "Shutter Gap"
-- **Status**: Failed. Wall confirmed at (15, 2).
-- **Correction**: Access to East side via North Corridor is blocked.
-- **Hypothesis**: Must unlock shutters or (6, 1) wall from West side.
-- **Lead**: Grunt near (10, 9) or hidden switch.
+## B2F Status
+- **Goal**: Locate second Murkrow in West Wing.
+- **Hypothesis**: This Murkrow is the "Voice ID" key for the Boss Door.
+- **Path**: Flanking via North Corridor (Row 1/2) to bypass Grunts.
 
-## B1F Status
-- Murkrow found at B1F (7, 2).
-- Murkrow spoke "HAIL GIOVANNI".
-- Boss Door at B2F (23, 14).
-- Wall at B1F (15, 2) confirmed.
-- Wall at B1F (6, 1) confirmed solid.
-- Gap at B1F (6, 10) confirmed passable.
+## Key Info
+- **Password**: "HAIL GIOVANNI" (Found on B1F).
+- **Boss Door**: B2F (23, 14).
+- **Murkrow Mechanics**: Moves in mirror/sync with player.
 
 ## Action Queue
-1. Navigate South along East Corridor to B1F (27, 14).
-2. Take Stairs to B2F (27, 14).
-3. Find second Murkrow/Executive.
+1. Navigate North to B2F Row 2.
+2. Head West to locate Murkrow.
+3. Use `simulate_murkrow` to solve puzzle.
