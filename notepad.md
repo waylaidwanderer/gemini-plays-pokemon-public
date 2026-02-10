@@ -161,3 +161,10 @@ Confirmed Mechanics:
 ## Murkrow Mechanics (Confirmed)
 - **Horizontal**: Parallel (Right -> Right).
 - **Vertical**: Mirror (Up -> Down).
+[Turn 36198] Murkrow should be at (5, 15) (Warp Tile) or (25, 2) (Warped).
+Action: Moving Player to (5, 15) to trigger Warp.
+Rationale:
+- If Murkrow warped, I meet it at (25, 2).
+- If Murkrow stuck at (5, 15), I warp away, then loop back via Row 16.
+- Direct path to (23, 14) from (25, 2) is clean.
+Taking damage from traps on Col 5 to save time.
