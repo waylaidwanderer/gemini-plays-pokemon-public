@@ -15,9 +15,11 @@
 - **Route**:
   1. **Current**: At B2F (27, 2). (Accidental stairs from B1F).
   2. Navigate South down Col 28 (Safe Path) to (28, 14).
-  3. Move West to (25, 14).
-  4. Bypass Grunt at (24, 14) by going South to (25, 15) -> West to (23, 15).
-  5. Interact with Boss Door at (23, 14) from (23, 15).
+  3. **Correction**: Stairs at B2F (27, 14) force a warp to B1F.
+  4. **New Route**:
+     a. Re-take stairs at B1F (27, 14) down to B2F.
+     b. From B2F (27, 14), move West immediately to (26, 14) to avoid re-warping? (Actually, warping puts you ON the tile, moving off is safe).
+     c. Navigate West to Boss Door at (23, 14).
 
 ## Trap Data
 - **CRITICAL**: Do not step on B1F (3, 6) or B2F (3, 6).
