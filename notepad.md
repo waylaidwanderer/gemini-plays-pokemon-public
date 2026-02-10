@@ -32,3 +32,5 @@ Possible causes:
 2. Direct 'Down' doesn't trigger mimicry (needs 'Pull' from offset?).
 3. Link not active.
 Action: Moving Up to (7, 3). Will re-verify interaction and try 'Right' (Buffer) strat.
+[Turn 36102] Back at (7, 3). Interacting with 'A'. Will confirm text box opens.
+Objective: Complete dialogue cycle carefully, then test movement.
