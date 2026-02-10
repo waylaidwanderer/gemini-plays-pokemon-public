@@ -56,3 +56,4 @@ Hypothesis: The Murkrow stops following if I move too far quickly, or get blocke
 [Turn 36077] Restarting at (7, 3). Interacting with Murkrow. Will verify dialogue appears.
 [Turn 36078] Text "The password is..." confirmed. Advancing to "HAIL GIOVANNI" and closing. Next turn: Visual check for clear screen before moving.
 [Turn 36079] Mashing B to clear "HAIL GIOVANNI". Next turn: Visual confirmation of closed text box, then move Down to (7, 4).
+[Turn 36080] Screen clear. Moving Down to (7, 4). Expectation: Murkrow moves to (7, 3).
