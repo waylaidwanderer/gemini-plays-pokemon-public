@@ -5,11 +5,14 @@
 - **Secondary**: Defeat Team Rocket Executives.
 
 ## Murkrow Puzzle (B2F)
-- **Status**: Player (7, 4), Murkrow (7, 3).
+- **Status**: Player (8, 4), Murkrow (8, 3).
 - **Testing**:
-  - Move Down (to 7, 4): SUCCESS. Murkrow moved Down (to 7, 3).
-  - Hypothesis: Murkrow MIMICS (Same Direction).
-  - Plan: Move RIGHT to (8, 4). Murkrow should move RIGHT to (8, 3).
+  - Move Right (to 8, 4): SUCCESS. Murkrow moved Right (to 8, 3).
+  - Hypothesis: Murkrow MIMICS (Same Direction) when close.
+  - Plan:
+    1. Move Right to (10, 4). (Murkrow -> 10, 3).
+    2. Move Down to (10, 6). (Murkrow -> 10, 5).
+    3. Move Right past the wall at x=11.
 - **Goal**: Lead Murkrow to Boss Door at (23, 14).
 
 ## Key Info
@@ -17,5 +20,5 @@
 - **Boss Door**: Needs Voice ID (Murkrow).
 
 ## Map Notes
-- **Walls**: (6, 2), (8, 2), (7, 1) block Murkrow at (7, 2).
+- **Walls**: Row 4 Wall at x=11 blocks Murkrow if it's on Row 4. Must lower it to Row 5.
 - **Traps**: Warp Trap at (26, 10).
