@@ -671,8 +671,8 @@
       }
     ]
   },
-  "solve_murkrow_col24_filter": {
-    "description": "Executes the 'Col 24 Filter' strategy from (28, 13).\nPath: Down 3 (to 28,16), Up 15 (Reset P to 9, M to 16), Left 2 (to 26,9), Down 7 (Ratchet M to 11), Left 2 (to 24,16), Up 3 (Stack at 13), Left 2 (to 22,13), Down 1 (Face Door), A.",
+  "solve_murkrow_col24_filter_v2": {
+    "description": "Executes the 'Col 24 Filter' strategy from (28, 13) with corrected output format.\nPath: Down 3 (to 28,16), Up 15 (Reset P to 9, M to 16), Left 2 (to 26,9), Down 7 (Ratchet M to 12), Left 2 (to 24,16), Up 3 (Stack at 13), Left 2 (to 22,13), Down 1 (Face Door), A.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -682,12 +682,12 @@
         }
       }
     },
-    "python_script": "\nprint(f'{{\"buttons\": [\"Down\", \"Down\", \"Down\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Left\", \"Left\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Left\", \"Left\", \"Up\", \"Up\", \"Up\", \"Left\", \"Left\", \"Down\", \"A\"]}}')\n",
+    "python_script": "\nprint('[\"Down\", \"Down\", \"Down\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Left\", \"Left\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Left\", \"Left\", \"Up\", \"Up\", \"Up\", \"Left\", \"Left\", \"Down\", \"A\"]')\n",
     "history": [
       {
         "commit_message": "Initial version",
-        "timestamp": "2026-02-10T18:37:00.217Z",
-        "action_counter": 36355
+        "timestamp": "2026-02-10T18:38:21.057Z",
+        "action_counter": 36357
       }
     ]
   }
