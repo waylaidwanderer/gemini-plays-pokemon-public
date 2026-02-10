@@ -1,23 +1,26 @@
-# Team Rocket HQ - B2F Strategy
+# Team Rocket HQ - Murkrow Puzzle
 
-## Active Goal: Reset Murkrow
-**Objective**: Exit the map to reset Murkrow's position to (7, 2).
-**Reason**: The switch at (19, 11) is inactive/flavor text only. Murkrow is currently lost.
+## FINAL SOLUTION: "The 22-12 Convergence"
+Target: P(22, 12), M(22, 13).
 
-## Current State
-- **Player**: (19, 12).
-- **Murkrow**: Lost.
+## Current Status (Turn 36483)
+- **Player**: (22, 11).
+- **Murkrow**: (22, 10).
 
-## Plan
-1. **Navigate to Exit**: Go to (27, 2) (Souvenir Shop Exit).
-2. **Exit & Re-enter**: This resets the puzzle state.
-3. **Execute Strategy**: "The Double Cross" (Verified Strategy).
-   - Sync X at (1, 2).
-   - Ratchet Y at (6, 16).
-   - Drop M at (5, 2).
-   - Ratchet Y at (26, 15).
-   - Finish at (22, 14).
+## Execution Path
+1. **Ratchet M Down (Top Wall 8)**:
+   - Move Down 5 -> P(22, 16).
+   - M moves Up 5.
+     - 10 -> 9.
+     - 9 -> 8 (Blocked). Stay 9.
+     - 9 -> 8 (Blocked). Stay 9.
+     - ...
+   - **State**: P(22, 16), M(22, 9).
 
-## Mechanics Log
-- **Switch (19, 11)**: Inactive.
-- **Murkrow**: Resets to (7, 2) on map reload.
+2. **Converge**:
+   - Move Up 4 -> P(22, 12).
+   - M moves Down 4 -> M(22, 13).
+   - **State**: P(22, 12), M(22, 13).
+
+3. **Victory**:
+   - Face Down. Interact with Murkrow.
