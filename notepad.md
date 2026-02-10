@@ -1,9 +1,10 @@
 # Team Rocket HQ - Murkrow Puzzle
 
-## STATUS: EXECUTING "THE JED SANDWICH"
-**Goal**: Lock Murkrow at Y=13 using Jed (12) and Wall (14).
+## STATUS: RESETTING ROOM
+**Goal**: Exit and re-enter to reset Murkrow to (7, 2).
+**Current**: Player at (3, 1). Moving to Exit (27, 2).
 
-## Plan
+## Next Strategy: "The Jed Sandwich"
 1. **Sync X at 28**: Move Right until P & M are at X=28.
 2. **Prep Y (Col 25)**:
    - Move to Col 25.
