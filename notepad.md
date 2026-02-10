@@ -130,17 +130,15 @@ Confirmed Mechanics:
    - Move Right to Col 23.
    - Player (4, 1) -> (23, 1).
    - Murkrow (4, 16) -> (23, 16).
-3. **Re-Acquisition**:
-   - **Status**: Sequence interrupted at (22, 5). Murkrow lost.
-   - **Step 1**: Reset to Top-Right (26, 1).
-     - Forces Murkrow to Bottom (Row 16).
-     - Forces Murkrow to Right (Col 26+).
-   - **Step 2**: Scan.
-     - Move Down to (26, 9) to see Murkrow.
-     - Expect M at (~26+, ~13).
-   - **Step 3**: Re-Evaluate.
-     - If M found, plan Crate Block or Wall Bang.
-     - If M not found, check Stacked.
+3. **Re-Acquisition & Discovery**:
+   - **Fact**: Row 8 is a Wall from Col 21-25. Gap at Col 26.
+   - **Fact**: Row 4 is a Wall from Col 22-28. No vertical access in East Room.
+   - **Implication**: Player is trapped in "Upper East" (Row 5-7) or "Lower East" (Row 9-16). Access via Col 26.
+   - **Action**: Escape Upper East.
+     - Move Right to (26, 7). Down to (26, 9).
+     - Move Left to (22, 9) (Safe Corridor).
+     - Move Down to (22, 13) (Boss Door Check).
+   - **Goal**: Locate Murkrow during transit. Expect M to end up in Top Left (21, 1) if sync holds.
 [Turn 36186] Inverted Ratchet - Phase 2.
 - Player at (7, 16). Murkrow at (7, 1).
 - Col 7 has a wall at (7, 4) which will block Murkrow.
