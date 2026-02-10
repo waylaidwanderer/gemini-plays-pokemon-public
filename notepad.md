@@ -151,3 +151,10 @@ Confirmed Mechanics:
 ## Murkrow Mechanics (Confirmed)
 - **Horizontal**: Parallel (Right -> Right).
 - **Vertical**: Mirror (Up -> Down).
+[Turn 36195] Movement Failed? Player still at (2, 6).
+- Previous Turn: Attempted Left -> Up x6 -> Right.
+- Result: No change in position reported by GameState.
+- Hypothesis: (1, 6) might be blocked or input dropped.
+- Action: Retrying move to Col 1 with shorter sequence.
+- Move: Left -> Up -> Up. Target (1, 4).
+- Murkrow State: Assumed at (2, 11). Will move to (1, 13) if I reach (1, 4).
