@@ -12,21 +12,11 @@
   - Expectation: Murkrow moves to (7, 3).
   - If Failure: Reset Map via Stairs at (3, 2).
 
-## Plan: Murkrow to Shutter (14, 10) - The "Fake Wall" Path
-1. **Start**: P(10, 8), M(7, 7).
-2. **Move Down**: P(10, 9). M(7, 8).
-3. **Move Right** x4 (Burn against Wall 12, 9):
-   - P(11, 9). M(8, 8).
-   - P(12, 9) [Blocked]. M(9, 8).
-   - P(12, 9) [Blocked]. M(10, 8).
-   - P(12, 9) [Blocked]. M(11, 8).
-4. **Move Down**: P(11, 10). M(11, 9).
-5. **Move Right** x2: P(13, 10). M(13, 9).
-6. **Move Down** (Burn against Wall 13, 11):
-   - P(13, 11) [Blocked]. M(13, 10).
-7. **Move Right** (Burn against Shutter 14, 11):
-   - P(14, 11) [Blocked]. M(14, 10).
-8. **Finish**: P(13, 10), M(14, 10). Interact.
+## Recovery: Re-acquiring Murkrow (Again)
+- **Status**: Murkrow NOT visible on screen (Rows 4-12).
+- **Hypothesis**: Murkrow remained at (7, 2) or (7, 3).
+- **Action**: Returning to (7, 4) to verify.
+- **Correction**: My "Active" status was an assumption. The mimicry failed.
 
 ## Trap Data
 - Warp Traps at (26, 9), (26, 10), (24, 11), (25, 11).
