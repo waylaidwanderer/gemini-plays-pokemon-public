@@ -24,3 +24,6 @@
 - Passwords found: "RATICATE TAIL", "SLOWPOKETAIL", "HAIL GIOVANNI".
 - **Anomaly**: Murkrow missing from (7, 2) and expected mirrored positions (7, 0-2) after moving Right, Down x4.
 - **Hypothesis**: Murkrow might have moved through walls, flown off-screen, or mechanics are different (e.g., rotation). Checking with simulation.
+- **Test Result**: Moving Left kept Murkrow at (7, 2).
+- **Analysis**: (6, 2) is Wall, (8, 2) is Wall. X-axis movement is blocked for both Mimic and Mirror.
+- **Next Step**: Move Down to test Y-axis (both (7, 1) and (7, 3) are open).
