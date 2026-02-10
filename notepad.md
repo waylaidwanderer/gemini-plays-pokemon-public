@@ -6,12 +6,13 @@
 
 ## Murkrow Puzzle (B2F)
 - **Status**: Player (7, 4), Murkrow (7, 2).
-- **Plan**: Proximity Ratchet.
-  1. Move **Up** to (7, 4). (Re-engage range).
-  2. Move **Right** to (8, 4).
-  3. Move **Down** to (8, 5). Murkrow (Mimic) -> (7, 3).
-  4. Move **Left** to (7, 5). Murkrow (Mimic) -> Stays (Wall 6,3).
-  5. Move **Right** to (8, 5). Murkrow (Mimic) -> (8, 3). **ESCAPE**.
+- **Plan**: Position for Mimicry.
+  1. Move **Right** to (8, 4).
+     - Murkrow (7, 2) tries Right -> Blocked by (8, 2) Wall -> Stays (7, 2).
+  2. Move **Down** to (8, 5).
+     - Murkrow (7, 2) tries Down -> (7, 3).
+  3. Move **Right** to (9, 5).
+     - Murkrow (7, 3) tries Right -> (8, 3). **ESCAPE**.
 
 ## Map Notes
 
