@@ -5,15 +5,14 @@
 - **Secondary**: Defeat Team Rocket Executives.
 
 ## Murkrow Puzzle (B2F)
-- **Status**: Player (8, 4). Murkrows visible at (7, 2) AND (8, 3).
-- **Anomaly**: Two Murkrow sprites visible on screen.
-  - Sprite A at (7, 2) (Start position).
-  - Sprite B at (8, 3) (Followed me?).
-- **Plan**:
-  - Assume mimicry works for one or both.
-  - Need to get Murkrow to Row 5 to bypass Wall at x=11.
-  - Path: Down to Row 6 (pulls Murkrow to Row 5). Then Right.
-- **Immediate Step**: Move Down to (8, 5) to verify movement.
+- **Status**: Player (8, 5), Murkrow (8, 4).
+- **Testing**:
+  - Move Down (to 8, 5): SUCCESS. Murkrow moved Down (to 8, 4).
+  - Anomaly: A second Murkrow sprite remains at (7, 2), likely a bug or spawn point. Ignoring it.
+  - Plan:
+    1. Move Down to (8, 6). (Murkrow -> 8, 5).
+    2. Move Right to lead Murkrow past the wall at x=11.
+- **Goal**: Lead Murkrow to Boss Door at (23, 14).
 
 ## Key Info
 - **Passwords**: "RATICATE TAIL", "SLOWPOKETAIL", "HAIL GIOVANNI".
