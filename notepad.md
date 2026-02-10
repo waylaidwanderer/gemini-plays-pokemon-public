@@ -130,27 +130,24 @@ Confirmed Mechanics:
    - Move Right to Col 23.
    - Player (4, 1) -> (23, 1).
    - Murkrow (4, 16) -> (23, 16).
-3. **The "Corner Reset" & Ratchet**:
-   - **Status**: Murkrow Lost. Likely Stacked or Desynced.
-   - **Mechanics**: X=Parallel (Right->Right), Y=Mirror (Up->Down).
-   - **Step 1: The Reset (Top-Right)**.
-     - Move to (26, 1).
-     - Forces M to Row 16 (Bottom).
-     - Forces M to Col 26+ (Right).
-     - Result Expectation: P(26, 1), M(26, 16) or similar.
-   - **Step 2: The Alignment (Col 22)**.
-     - Move Left to (22, 1). M -> (22, 16).
-     - Result: P(22, 1), M(22, 16).
-   - **Step 3: The Ratchet (Vertical)**.
-     - Move Down 15 to (22, 16).
-       - M moves Up 15.
-       - Blocked at (22, 10) [Wall].
-       - M moves 16->11. Stays at 11.
-     - Result: P(22, 16), M(22, 11).
-   - **Step 4: The Delivery**.
-     - Move Up 3 to (22, 13).
-       - M moves Down 3 to (22, 14).
-     - Result: P(22, 13), M(22, 14).
+3. **The "South-East Ratchet"**:
+   - **Correction**: Row 4 is blocked. Cannot reach (26, 1). Trapped in South-East Room.
+   - **Current**: P(26, 5).
+   - **Step 1: X-Sync**.
+     - Right 2 to (28, 5). M -> (28, X).
+     - Left 2 to (26, 5). M -> (26, X).
+   - **Step 2: Y-Prime (Force M to Bottom)**.
+     - Down 11 to (26, 16).
+       - M moves Up. Might hit Wall 4 or Crate 11.
+     - Up 11 to (26, 5).
+       - M moves Down. Hits Wall 16. Ends at 16.
+   - **Step 3: The Ratchet**.
+     - Down 11 to (26, 16).
+       - M moves Up. Blocked by Crate (26, 11). Ends at 12.
+     - Result: P(26, 16), M(26, 12).
+   - **Step 4: Delivery**.
+     - Left 4 to (22, 16). M -> (22, 12).
+     - Up 3 to (22, 13). M -> (22, 15) [Sandwich].
      - **Interact**.
 
 [Turn 36186] Inverted Ratchet - Phase 2.
