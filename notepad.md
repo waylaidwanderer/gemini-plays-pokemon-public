@@ -20,10 +20,10 @@
 - **Goal**: Return to Murkrow at (7, 2).
 - **Insight**: B2F is partitioned. East side (Boss Door) connects to West side (Murkrow) ONLY via B1F (or locked shutters).
 - **Route**:
-  1. **Current**: At B1F (24, 13).
-  2. Blocked West by wall at (23, 13).
-  3. Move South to Row 16 (Passage).
-  4. Move West along Row 16 to (6, 16).
+  1. **Current**: At B1F (24, 16).
+  2. Move West along Row 16 to (15, 16) to bypass Grunt at (21, 14) (who looks Right).
+  3. Move North to Row 13.
+  4. Move West to (6, 13) (Gap in wall).
   5. Move North to Stairs at (3, 2).
   6. Take Stairs DOWN to B2F (3, 2).
   7. Go East to Murkrow at (7, 2).
@@ -32,7 +32,7 @@
 - **CRITICAL**: Do not step on B1F (3, 6) or B2F (3, 6).
 - Warp Traps (B1F/B2F): Avoid (24, 11), (25, 11).
 - Safe Path B2F: Col 28 appears shielded from traps by Wall at Col 27.
-- Grunt at (21, 14): Looks Right. Row 16 is safe (behind him/out of LOS).
+- Grunt at (21, 14): Looks Right. Row 14 is dangerous East of x=21. Cross at x<=20.
 
 [Turn 36092] "HAIL GIOVANNI" displayed. Closing text box. Next: Visual confirm clear screen, then Move Down.
 [Turn 36093] Text clear confirmed. Moving Down to (7, 4). Verification of Murkrow movement to (7, 3) expected next turn.
