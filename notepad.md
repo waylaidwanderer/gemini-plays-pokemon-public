@@ -12,13 +12,14 @@
 ## Current State
 - Map: B1F (3_50).
 - Player: (6, 13).
-- Status: At B1F (24, 14). Blocked by locked door at (23, 14).
-- Plan: Backtrack to reach Murkrow area via North path.
-- Route:
-  1. B1F (24, 14) -> B1F (27, 14) -> B2F (27, 14).
-  2. B2F (27, 14) -> B2F (27, 2) -> B1F (27, 2).
-  3. B1F (27, 2) -> B1F (3, 2) (West Stairs).
-  4. B1F (3, 2) -> B2F (3, 2) -> Murkrow Area.
-  5. Execute "Align and Push" strategy.
+- Status: At B2F (3, 2). Murkrow at (7, 2).
+- Puzzle Strategy: "Align and Push"
+  1. Move Right x3. Player: (3,2)->(5,2). Murkrow: (7,2)->(10,2). (Player blocked by wall).
+  2. Move Down x7. Player: (5,2)->(5,9). Murkrow: (10,2)->(10,9).
+  3. Move Right x1. Player blocked at (6,9). Murkrow: (10,9)->(11,9). (Through Fake Wall).
+  4. Move Down x3. Player: (5,9)->(5,12). Murkrow: (11,9)->(11,12).
+  5. Move Right x4. Player blocked at (6,12). Murkrow: (11,12)->(15,12).
+  6. Move Down x1. Player blocked at (5,13). Murkrow: (15,12)->(15,13).
+  7. Chase Murkrow from there to the Boss Door.
 - Murkrow Status: Currently ~ (7, 6) on B2F.
 - Goal: Push Murkrow through Fake Wall (10, 9) then Gap (15, 12).
