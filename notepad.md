@@ -5,16 +5,15 @@
 - **Secondary**: Defeat Team Rocket Executives.
 
 ## Murkrow Puzzle (B2F)
-- **Status**: Player (10, 2), Murkrow (7, 2).
+- **Status**: Player (10, 3), Murkrow (7, 2).
 - **Goal**: Guide Murkrow to Boss Door (23, 14).
-- **Mechanics**: **MIRROR** (Axis Y=3, X=8).
-- **Problem**: Murkrow stuck in Col 7. Needs to reach (7, 3) to escape to Col 8.
-- **Hypothesis**: Direct P(Y=4->3) failed. Need to "pump" it from a different sync state.
-- **Plan**:
-  1. Move **Down** to (10, 3). Expect M -> (7, 1).
-  2. Move **Down** to (10, 4). Expect M -> Stay (7, 1) (Hit Wall).
-  3. Move **Up** to (10, 3). Expect M -> (7, 2).
-  4. Move **Up** to (10, 2). Expect M -> (7, 3).
+- **Mechanics**: Testing Mirror vs Mimic (Ambiguous data).
+- **Test**: Move **Down** to (10, 4).
+  - If Mirror: Murkrow (7, 2) -> (7, 1) (Up).
+  - If Mimic: Murkrow (7, 2) -> (7, 3) (Down).
+- **Strategy**: 
+  - If Mirror: Ratchet against Top Wall (Row 0/1) to push it Down past (7, 3).
+  - If Mimic: Just walk it down.
 
 ## Map Notes
 - **Walls**: (6, 2) separates NW and N areas.
