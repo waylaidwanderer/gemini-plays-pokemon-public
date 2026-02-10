@@ -61,3 +61,4 @@ Hypothesis: The Murkrow stops following if I move too far quickly, or get blocke
 Action: Moving Up to (7, 3) to re-engage. Will test 'Move Right' (Buffer) next.
 [Turn 36082] Interacting with Murkrow at (7, 3). Next: Confirm text, Clear text, Move Right.
 [Turn 36083] Advancing text "The password is..." -> "HAIL GIOVANNI" -> Closed. Next turn: Visual confirmation of clear screen, then Move Right to (8, 3).
+[Turn 36084] Moved Right to (8, 3). Expectation: Murkrow tries to move Right, hits desk at (8, 2), stays at (7, 2).
