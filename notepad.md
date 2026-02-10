@@ -54,3 +54,4 @@ Next: Move Down to (10, 6). Murkrow should move to (9, 5).
 Action: Returning to (7, 3) to restart. I will NOT assume movement without seeing the sprite shift on screen.
 Hypothesis: The Murkrow stops following if I move too far quickly, or get blocked.
 [Turn 36077] Restarting at (7, 3). Interacting with Murkrow. Will verify dialogue appears.
+[Turn 36078] Text "The password is..." confirmed. Advancing to "HAIL GIOVANNI" and closing. Next turn: Visual check for clear screen before moving.
