@@ -21,13 +21,11 @@
   3. Scan B2F Column 7 for obstacles (Grunts/Traps).
   4. Execute "Align and Push" with obstacle awareness.
 
-- Status: At B2F (2, 10).
-- Discovery: Row 11 is a solid wall (TYPE_2889). SW Corner of B2F is inaccessible from North.
-- Implication: B2F (3, 14) stairs are unreachable or don't exist.
-- New Hypothesis: The "Dead End" Room at B1F (3, 6) is the key.
-  - The Warp Trap at B2F (3, 6) sends Player to B1F (3, 6).
-  - The Shutter at B1F (3, 6) must be openable to exit South of the blockage.
+- Status: At B1F (3, 6) "Dead End Room".
+- Confirmed: B2F (3, 6) Warp sends to B1F (3, 6).
+- Goal: Exit this room to the South to bypass B1F Row 4 Blockage.
+- Obstacle: Shutter at B1F (3, 8).
 - Plan:
-  1. Trigger Warp Trap at B2F (3, 6).
-  2. Search B1F (3, 6) room for hidden switches.
-  3. Attempt to open Shutter.
+  1. Inspect Shutter at (3, 8).
+  2. Search room for hidden switches (Dowsing/Check).
+  3. If stuck, trigger Warp at (3, 6) to see if it returns to B2F or elsewhere.
