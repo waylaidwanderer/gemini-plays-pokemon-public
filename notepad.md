@@ -39,3 +39,10 @@ Action: Returning to (7, 3) to test 'Move Right' (Buffer) hypothesis.
 Current State: P(8, 4), M(7, 3).
 Next Step: Move Right to (9, 4). Expecting Murkrow to move Right to (8, 3).
 Plan: Cross the room to the right, keeping Murkrow on Row 3.
+[Turn 36073] Confirmed Murkrow at (8, 3). Moving Right to (10, 4).
+Plan:
+1. P(10, 4), M(9, 3) (Current Goal)
+2. Down -> P(10, 5), M(9, 4)
+3. Down -> P(10, 6), M(9, 5)
+4. Right -> P(11, 6), M(10, 5)
+5. Right -> P(12, 6), M(11, 5) [TARGET: Col 11]
