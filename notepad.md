@@ -6,19 +6,15 @@
 
 ## Murkrow Puzzle (B2F)
 - **Status**: Player (10, 2), Murkrow (7, 2).
-- **Mechanics**: **Inconsistent**.
-  - T35620: Player Down -> Murkrow Up (Mirror).
-  - T35627: Player Up -> Murkrow Stayed (Unexpected).
-- **Hypothesis**:
-  1. It might be a **MIMIC** and (7, 1) is blocked? (7, 1 is visually open).
-  2. It might be **MIRROR** and (7, 3) is blocked? (7, 3 is visually open).
-  3. It only moves when I'm in specific zones?
+- **Goal**: Guide Murkrow to Boss Door (23, 14).
+- **Mechanics**: **MIRROR** (Axis Y=3, X=8).
+- **Problem**: Murkrow stuck in Col 7. Needs to reach (7, 3) to escape to Col 8.
+- **Hypothesis**: Direct P(Y=4->3) failed. Need to "pump" it from a different sync state.
 - **Plan**:
-  1. Move **Up** to (10, 1).
-  2. Observe Murkrow.
-     - If it goes to (7, 1) -> Mimic.
-     - If it goes to (7, 3) -> Mirror.
-     - If it stays -> Stuck/Undefined.
+  1. Move **Down** to (10, 3). Expect M -> (7, 1).
+  2. Move **Down** to (10, 4). Expect M -> Stay (7, 1) (Hit Wall).
+  3. Move **Up** to (10, 3). Expect M -> (7, 2).
+  4. Move **Up** to (10, 2). Expect M -> (7, 3).
 
 ## Map Notes
 - **Walls**: (6, 2) separates NW and N areas.
