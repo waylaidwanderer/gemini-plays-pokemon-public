@@ -23,10 +23,11 @@
 
 # Current Status
 - Map: B2F (3_51).
-- Player: (3, 2) (Reset).
-- Murkrow: Should be at (7, 2).
-- Action: Scan Column 8 for gaps to determine path.
-- Puzzle Strategy (Revision 4):
-  1. Confirm Murkrow at (7, 2).
-  2. Identify gap in Wall at Column 8.
-  3. Formulate path to push Murkrow through gap.
+- Player: (2, 4).
+- Goal: Verify existence of Stairs at SW Corner (3, 14).
+- Constraint: Avoid Warp Trap at (3, 6).
+- Plan:
+  1. Move South along Column 2 to (2, 14).
+  2. Check (3, 14) for Stairs.
+  3. If NO stairs, return to B1F and solving the Row 4 Blockage is the ONLY option.
+- Murkrow Puzzle: Suspended until B2F Shutters are unlocked.
