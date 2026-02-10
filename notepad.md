@@ -98,3 +98,9 @@ Action: Move Up to (8, 1).
 Hypothesis: Vertical Mirror Mimicry.
 Expected Result: Murkrow moves Down to (8, 3).
 Goal: Visual confirmation of Murkrow at (8, 3).
+[Turn 36173] Murkrow still invisible. Assumed Stacked at (8, 1).
+Action: Move Down to (8, 2).
+Hypothesis:
+- If Vertical Mirror: Murkrow moves Up to (8, 0) [Blocked] -> Stays at (8, 1). **SEPARATION**.
+- If Vertical Parallel: Murkrow moves Down to (8, 2). **STACKED**.
+Goal: Unstack Murkrow to confirm mechanics.
