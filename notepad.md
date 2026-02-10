@@ -5,18 +5,11 @@
 - **Secondary**: Defeat Team Rocket Executives.
 
 ## Murkrow Puzzle (B2F)
-- **Status**: Player (7, 5), Murkrow (7, 2).
-- **Correction**: Murkrow never stacked. It stayed at (7, 2) due to walls/range.
-- **Goal**: Move Murkrow to (7, 3) so it can escape East.
-- **Plan**:
-  1. Move **Right** to (8, 5). Murkrow stays (Blocked Right).
-  2. Move **Up** to (8, 4). 
-     - If Mirror: Murkrow -> (7, 3). **Success**.
-     - If Mimic: Murkrow -> (7, 1).
-  3. Move **Up** to (8, 3).
-  4. Move **Down** to (8, 4).
-     - If it was at (7, 1), it mimics to (7, 2).
-     - If it was at (7, 2), it mimics to (7, 3).
+- **Status**: Player (8, 4), Murkrow (7, 2).
+- **Setup**: Moving **Up** to (8, 3).
+  - Expectation: Murkrow stays at (7, 2) (as observed in Turn 35657) or moves to (7, 1)/(7, 3).
+- **Trigger**: Once at (8, 3), move **Down**.
+  - History says this moves Murkrow to (8, 3).
 
 ## Map Notes
 - **Walls**: (6, 2) and (8, 2) block Murkrow at Row 2.
