@@ -51,3 +51,8 @@
   - (7, 0) Wall.
   - (15, 13) Gap.
   - (14, 11) Locked Shutter.
+## Status Update (Turn 35891)
+- **Failure**: Murkrow was NOT at (14, 10) or (14, 8) after the blind sequence.
+- **Hypothesis**: Murkrow got stuck earlier or reset.
+- **Action**: Returning to (7, 2) to re-acquire Murkrow.
+- **Note**: "Offset Method" requires visual confirmation of the desync. Blind execution is unreliable.
