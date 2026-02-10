@@ -131,17 +131,18 @@ Confirmed Mechanics:
    - Player (4, 1) -> (23, 1).
    - Murkrow (4, 16) -> (23, 16).
 3. **The Solution Path**:
-   - **Step 1**: Go to (26, 1) to Reset.
-     - Route: Up to (28, 5) -> Left to (26, 5) -> Up to (26, 1).
-     - Murkrow: (28, 10) -> (28, 12) -> (26, 12) -> (26, 16).
-   - **Step 2**: The Crate Desync (Col 26).
-     - Move Down to (26, 13).
-     - Murkrow (26, 16) -> Up to (26, 11) (Blocked by Wall/Crate at 26, 10).
-   - **Step 3**: The Approach.
-     - Move Left to (22, 13). Murkrow to (22, 11).
-     - Move Down to (22, 14) (Door). Murkrow blocked at (22, 10).
-     - Move Up to (22, 13). Murkrow to (22, 12).
-     - **Interact with Door**.
+   - **Insight**: Col 22 blocked at Row 4. MUST use Col 9 Gap for Vertical Transfer.
+   - **Step 1**: Move Left to Col 9.
+     - Player (26, 5) -> (9, 5).
+     - Murkrow (26, 12) -> (9, 12).
+   - **Step 2**: Sync at Col 9.
+     - Move UP to (9, 1). Murkrow DOWN to (9, 16) [Sync Check].
+     - Move DOWN to (9, 15). Murkrow UP to (9, 2) [Sync Check].
+   - **Step 3**: Delivery.
+     - Player (9, 15) -> UP to (9, 3).
+     - Murkrow (9, 2) -> DOWN to (9, 14).
+     - Move Right to (22, 3/14).
+     - **Interact with Boss Door**.
 
 ## Trap Data
 - **CRITICAL**: Do not step on B1F (3, 6) or B2F (3, 6).
