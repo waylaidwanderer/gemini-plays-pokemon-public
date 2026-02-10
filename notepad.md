@@ -5,7 +5,7 @@
 - **Secondary**: Defeat Team Rocket Executives.
 
 ## Murkrow Puzzle (B2F)
-- **Status**: Dialogue Closed (Expected). Player (7, 3), Murkrow (7, 2).
+- **Status**: Player (7, 3) -> Moving to (7, 4). Murkrow at (7, 2).
 - **Action**: Move Down to (7, 4).
 - **Expectation**: Murkrow mimics Down to (7, 3). (Gap 1).
 - **Strategy**: "Gap 1 Bottom Run".
