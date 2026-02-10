@@ -22,3 +22,4 @@ Action: Returning to (7, 3). Will try interacting again, potentially facing a di
 Hypothesis: Link requires a specific trigger I am missing (e.g., bumping, waiting, or specific direction).
 [Turn 36095] Interacting with Murkrow at (7, 3). Checking for hidden dialogue prompts or missed text.
 [Turn 36096] Still stuck on "The password is...". Single 'A' press didn't verify change in screenshot. Mashing 'A' x3 to force advance to "HAIL GIOVANNI".
+[Turn 36097] Text "The password is..." persists despite 'A' mashing. Auto-advance might be timed out. Attempting manual 'A, B' sequence.
