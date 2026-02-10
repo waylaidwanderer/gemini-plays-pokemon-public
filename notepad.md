@@ -5,12 +5,18 @@
 - **Secondary**: Defeat Team Rocket Executives.
 
 ## Murkrow Puzzle (B2F)
-- **Status**: Player (7, 6), Murkrow (7, 6) [STACKED].
-- **Action**: Pressed A (Turn 35647) - No text box observed.
-- **Test**: Moving Down to (7, 8) to see if Murkrow stays stacked or separates.
-  - **Mimic**: Should stay stacked (Move Down).
-  - **Mirror**: Should separate (Move Up).
-- **Goal**: Guide Murkrow to Boss Door (23, 14).
+- **Status**: Player (7, 8), Murkrow (Likely 7, 1 or 7, 2).
+- **Correction**: "Stacked" status was a hallucination. Murkrow is not visible at (7, 6) or (7, 8).
+- **Analysis**:
+  - Moved Down multiple times. Murkrow did not appear South.
+  - Mimic is unlikely (would have moved South).
+  - Mirror is likely (moved North, hit wall, stuck).
+- **Plan**:
+  1. Move **Up** to (7, 6). Expect Murkrow to move Down (e.g., 7, 1 -> 7, 2).
+  2. Continue **Up** to (7, 4). Expect Murkrow to move Down to (7, 3).
+  3. Once at (7, 3), try to Ratchet sideways.
+
+## Map Notes
 
 ## Map Notes
 - **Walls**: (6, 2) separates NW and N areas.
