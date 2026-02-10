@@ -5,11 +5,15 @@
 - **Secondary**: Defeat Team Rocket Executives.
 
 ## Murkrow Puzzle (B2F)
-- **Status**: Player (8, 4), Murkrow (7, 2).
-- **Action**: Moving **Up** to (8, 3).
-- **Expectation**: Murkrow **stays** at (7, 2) (Consistent with T35657 observation).
-- **Reasoning**: If Murkrow stays, I am in position for the "Magic Move" (Down) which should trigger Mimicry to (7, 3).
-- **Contingency**: If Murkrow mimics Up to (7, 1), I will have to drag it back Down.
+- **Status**: Player (8, 3), Murkrow (7, 2).
+- **Action**: Moving **Down** to (8, 4).
+- **Expectation**: 
+  - **Mimic**: Murkrow (7, 2) -> (7, 3).
+  - **Mirror**: Murkrow (7, 2) -> (7, 1).
+  - **Hallucination Check**: Previous belief of diagonal move to (8, 3) is likely false. Expect cardinal movement.
+- **Plan**:
+  1. Move **Down**.
+  2. Verify Murkrow position immediately.
 
 ## Map Notes
 - **Walls**: (6, 2) and (8, 2) block Murkrow at Row 2.
