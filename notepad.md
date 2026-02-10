@@ -13,20 +13,16 @@
 ## Navigation Plan
 - **Goal**: Reach Boss Door at (23, 14) to test "HAIL GIOVANNI" password.
 - **Route**:
-  1. **Current**: At B2F (27, 2). (Accidental stairs from B1F).
-  2. Navigate South down Col 28 (Safe Path) to (28, 14).
-  3. **Correction**: Stairs at B2F (27, 14) force a warp to B1F.
-  4. **New Route**:
-     a. Re-take stairs at B1F (27, 14) down to B2F. (Input: Right -> Left).
-     b. **CRITICAL**: On B2F (27, 14), the tile IS the stairs UP. Do NOT walk back onto it after stepping off.
-     c. From B2F (27, 14), move West to (26, 14) (Floor) or South to (27, 15) to bypass.
-     d. Navigate West to Boss Door at (23, 14).
+  1. **Current**: At B2F (27, 14).
+  2. Move Left to (26, 14), then Down to (26, 15).
+  3. Move West along Row 15 to (23, 15).
+  4. Move Up to (23, 14) and interact North with the door at (23, 13).
 
 ## Trap Data
 - **CRITICAL**: Do not step on B1F (3, 6) or B2F (3, 6).
 - Warp Traps (B2F): (26, 9), (26, 10), (24, 11), (25, 11).
 - Safe Path B2F: Col 28 appears shielded from traps by Wall at Col 27.
-- Grunt at (24, 14): Defeated. Path is clear.
+- Grunt at (24, 14): Defeated. Bypassing via Row 15.
 
 [Turn 36092] "HAIL GIOVANNI" displayed. Closing text box. Next: Visual confirm clear screen, then Move Down.
 [Turn 36093] Text clear confirmed. Moving Down to (7, 4). Verification of Murkrow movement to (7, 3) expected next turn.
