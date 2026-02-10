@@ -12,8 +12,8 @@
   - Expectation: Murkrow moves to (7, 3).
   - If Failure: Reset Map via Stairs at (3, 2).
 
-## Plan: Murkrow to Shutter (14, 10) - The Offset Method
-1. **Initial State**: Player (3, 10), Murkrow (7, 8).
+## Plan: Murkrow to Shutter (14, 10) - The Offset Method (Active)
+1. **Initial State**: Player (10, 10), Murkrow (10, 8).
 2. **Align X (Offset)**:
    - Right to (20, 10).
    - Murkrow blocked at (14, 8) by Wall (15, 8).
@@ -28,8 +28,8 @@
    - Right to (20, 12).
    - Murkrow moves to (14, 10).
 6. **Interaction**:
-   - Move Up to (20, 11) (Murkrow blocked Up).
-   - Move Left/Down to approach Shutter (14, 11) from South.
+   - Move Up to (20, 11).
+   - Navigate to Shutter (14, 11) via (14, 12).
 
 ## Trap Data
 - Warp Traps at (26, 9), (26, 10), (24, 11), (25, 11).
