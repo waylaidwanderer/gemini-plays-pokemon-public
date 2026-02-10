@@ -14,3 +14,4 @@
 - Warp Traps: (26, 9), (26, 10), (24, 11), (25, 11).
 - Murkrow Blockers: Row 2 (Desks), Row 9 (Walls).
 - Safe Path: Col 11 via Row 6.
+[Turn 36092] "HAIL GIOVANNI" displayed. Closing text box. Next: Visual confirm clear screen, then Move Down.
