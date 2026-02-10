@@ -5,13 +5,13 @@
 - **Secondary**: Defeat Team Rocket Executives.
 
 ## Murkrow Puzzle (B2F)
-- **Status**: Player (6, 10), Murkrow Unknown.
+- **Status**: Player (14, 10), Murkrow Unknown.
 - **Goal**: Locate Murkrow and guide to Boss Door (23, 14).
-- **Mechanics**: Suspected Mimic (follows inputs). To be verified.
+- **Corridor**: Currently in (6-14, 10). Blocked South by Row 11 (Desks?).
 - **Plan**:
-  1. **Locate**: Search Central Area (Rows 10-14).
-  2. **Verify**: Test movement response once found.
-  3. **Guide**: Use walls/obstacles to align Murkrow.
+  1. Check for passage South (Fake Walls?).
+  2. If blocked, return West to (5, 10) and explore South.
+  3. Locate Murkrow in Central Area.
 
 ## Map Notes
 - **Walls**: (6, 2) separates NW and N areas.
