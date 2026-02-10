@@ -26,7 +26,6 @@
 - Gap at B1F (6, 10) confirmed passable.
 
 ## Action Queue
-1. Interact with Murkrow at B1F (7, 2).
-2. Determine if it can be led to B2F or if it gives the password here.
-3. If it flees, track it.
-4. If stuck, try reaching B2F via NW stairs (3, 2).
+1. Navigate South along East Corridor to B1F (27, 14).
+2. Take Stairs to B2F (27, 14).
+3. Find second Murkrow/Executive.
