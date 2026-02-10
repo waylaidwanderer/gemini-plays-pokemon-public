@@ -21,3 +21,4 @@ Conclusion: The movement link is NOT active. Even with text cleared, 'Down' did 
 Action: Returning to (7, 3). Will try interacting again, potentially facing a different way or waiting longer.
 Hypothesis: Link requires a specific trigger I am missing (e.g., bumping, waiting, or specific direction).
 [Turn 36095] Interacting with Murkrow at (7, 3). Checking for hidden dialogue prompts or missed text.
+[Turn 36096] Still stuck on "The password is...". Single 'A' press didn't verify change in screenshot. Mashing 'A' x3 to force advance to "HAIL GIOVANNI".
