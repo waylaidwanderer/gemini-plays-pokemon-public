@@ -5,22 +5,14 @@
 - **Secondary**: Defeat Team Rocket Executives.
 
 ## Murkrow Puzzle (B2F)
-- **Status**: Player (7, 4), Murkrow (7, 2).
-- **Confirmed Mechanics**:
-  - **Mimicry**: Confirmed in previous turns (e.g., T35659, T35639).
-  - **Constraint**: Murkrow gets stuck if path is blocked (Walls) or if Player gets too far (Range > 1?).
-  - **Current Trap**: Murkrow is at (7, 2). Walls at (6, 2) and (8, 2) prevent X-axis movement.
-  - **Vertical Block**: Moves to escape (7, 2) failed.
-    - Player Down (7,3->7,4) -> Murkrow (7,2) STAYED.
-    - Player Up (7,4->7,3) -> Murkrow (7,2) STAYED.
-
-## Plan
-- **Hypothesis**: Murkrow needs to be "bumped" or interacted with to unstick, OR specific proximity is needed.
-- **Action**: 
-  1. Move **Up** to (7, 3).
-  2. Move **Up** to (7, 2) (Attempt to bump/interact).
-  3. If it flies away, track it.
-  4. If it stays, try moving **Right** from (7, 3) to (8, 3) to see if it mimics diagonally or frees itself.
+- **Status**: Player (7, 3), Murkrow (7, 2).
+- **Rediscovery**: In Turn 35658, moving **Down** from (8, 3) caused Murkrow to escape (7, 2) -> (8, 3).
+- **Plan**: Recreate the successful sequence.
+  1. Move **Right** to (8, 3). 
+     - Murkrow tries Right -> Blocked by (8, 2). Stays at (7, 2).
+  2. Move **Down** to (8, 4).
+     - Murkrow mimics Down/Diagonal -> Moves to (8, 3). **ESCAPE**.
+  3. Guide East carefully to avoid resetting.
 
 ## Map Notes
 - **Walls**: (6, 2) and (8, 2) block Murkrow at Row 2.
