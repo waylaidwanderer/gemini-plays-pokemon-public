@@ -5,7 +5,7 @@
 - **Secondary**: Defeat Team Rocket Executives.
 
 ## Murkrow Puzzle (B2F)
-- **Status**: Player (8, 5), Murkrow (8, 3).
+- **Status**: Player (9, 5), Murkrow (9, 3).
 - **Strategy**: "Row 8 Corridor Slide".
   1. Move Right to (10, 5). (Murkrow -> 10, 3).
   2. Move Down 5 times to (10, 10).
