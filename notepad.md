@@ -12,12 +12,12 @@
   - Switches toggle shutters.
 
 ## B2F Status
-- **Goal**: Remote Control Murkrow to Boss Door (23, 14).
-- **Situation**: Murkrow is trapped in Central Area (Cols 7-22). I am on Perimeter.
-- **Strategy**: Spot Murkrow, then use mimicry to move it to (22, 14).
+- **Goal**: Enter Central Area via North Corridor (Row 1).
+- **Target**: Murkrow in Central Area (likely Col 21-22).
+- **Strategy**: Cross from East Wing to Central Area at (23, 1). Locate Murkrow. Guide to Door.
 
 ## Action Queue
-1. Scan East Perimeter (Col 24) for Murkrow.
-2. If not found, Scan West Perimeter (Col 5).
-3. Once found, Align to Door.
-4. Interact with Door when Murkrow is adjacent.
+1. Move to (24, 1).
+2. Move Left to cross wall at (23, 1).
+3. Move South in Central Area to find Murkrow.
+4. Solve Mimicry Puzzle to open Boss Door.
