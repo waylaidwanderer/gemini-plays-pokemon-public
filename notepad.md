@@ -12,16 +12,21 @@
   - Expectation: Murkrow moves to (7, 3).
   - If Failure: Reset Map via Stairs at (3, 2).
 
-## Plan: Murkrow to Boss Door
-1. **Escape**: Up to (10, 8). (Murkrow -> 7, 2)
-2. **Setup Left**: Left to (3, 8). (Murkrow -> 1, 2)
-3. **Drop 1**: Down to (3, 16). (Murkrow -> 1, 10)
-4. **Shift Right**: Right to (14, 16). (Murkrow -> 12, 10)
-5. **Ratchet Up**: Up to (14, 8). (Murkrow blocked at 12, 9)
-6. **Drop 2**: Down to (14, 16). (Murkrow -> 12, 16)
-7. **Align Row 13**: Up to (14, 13). (Murkrow -> 12, 13)
-8. **Cross Gap**: Right to (25, 13). (Murkrow -> 23, 13)
-9. **Finish**: Down to (25, 14). (Murkrow -> 23, 14)
+## Plan: Eastern Flank (Col 17)
+1. **Reset**: Return to (10, 8). Murkrow will be at (7, 4).
+2. **Align Y**: Move Up to (10, 6). Murkrow -> (7, 2).
+3. **Align X (Gap 11)**:
+   - Move Right to (28, 6). Murkrow blocked at (15, 2) -> (14, 2).
+   - Move Left until Murkrow blocked at (7, 2).
+   - Move Right to establish Gap 11 (Player 18, Murkrow 7).
+   - Move Right to (28, 6). Murkrow -> (17, 2).
+4. **Descent**:
+   - Down Col 28 (Player) / Col 17 (Murkrow).
+   - Murkrow target: (17, 14).
+5. **Final Approach**:
+   - Align Murkrow to Row 14.
+   - Shift Murkrow Right to (22, 14).
+   - Drop to Door.
 
 ## Key Info
 - **Boss Door**: Needs Voice ID (Murkrow).
