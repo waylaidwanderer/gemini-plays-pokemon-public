@@ -11,12 +11,10 @@
 
 ## Current State
 - Map: B1F (3_50).
-- Player: (6, 13).
-- Status: Player at (14, 10). Murkrow inferred at (14, 8).
-- Recovery Strategy:
-  1. Move Left x4 to (10, 10). (Aligns Murkrow to x=10).
-  2. Move Down x2 to (10, 12). (Pushes Murkrow South through Fake Wall).
-  3. Expect visual confirmation of Murkrow at (10, 10).
-- Goal: Push Murkrow through Fake Wall (10, 9) then Gap (15, 12).
-- Murkrow Status: Currently ~ (7, 6) on B2F.
-- Goal: Push Murkrow through Fake Wall (10, 9) then Gap (15, 12).
+- Player: (3, 2).
+- Status: Resetting Room. Returned to B1F (3, 2).
+- Action: Re-entering B2F to reset Murkrow position to (7, 2).
+- Puzzle Strategy: "Align and Push" (Retry)
+  1. Verify Murkrow at (7, 2).
+  2. Move Right cautiously, checking for walls blocking Murkrow.
+  3. Guide Murkrow to Column 10 or 11 to pass the Fake Wall at Row 9.
