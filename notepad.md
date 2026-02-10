@@ -12,8 +12,10 @@
   - Switches toggle shutters.
 
 ## Investigation - The "Shutter Gap"
-- **Status**: Bypassed. Taking the North Corridor ("High Road") to reach East side.
-- **Reason**: Access to Row 12 from West blocked. Safer to use confirmed route at Row 2.
+- **Status**: Failed. Wall confirmed at (15, 2).
+- **Correction**: Access to East side via North Corridor is blocked.
+- **Hypothesis**: Must unlock shutters or (6, 1) wall from West side.
+- **Lead**: Grunt near (10, 9) or hidden switch.
 
 ## B2F Status
 - Murkrow at (7, 2).
