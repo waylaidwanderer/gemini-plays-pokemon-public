@@ -12,10 +12,12 @@
   - Expectation: Murkrow moves to (7, 3).
   - If Failure: Reset Map via Stairs at (3, 2).
 
-## Plan: Gap 1 Bottom Run (If Active)
-1. Move Down to (7, 13).
-2. Move Right to (15, 13).
-3. Proceed East.
+## Plan: Path via Fake Wall (10, 9)
+1. Close text (B).
+2. Down to (7, 8).
+3. Right to (10, 8).
+4. Down through Fake Wall (10, 9).
+5. Guide Murkrow to Boss Door (23, 14).
 
 ## Key Info
 - **Boss Door**: Needs Voice ID (Murkrow).
