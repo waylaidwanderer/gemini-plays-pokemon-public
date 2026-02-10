@@ -13,14 +13,22 @@
   - If Failure: Reset Map via Stairs at (3, 2).
 
 ## Recovery: Re-acquiring Murkrow
-- **Status**: Resetting position to (7, 2).
-- **Current Pos**: (10, 5). Murkrow likely at (7, 2).
-- **Action**: Moving to (8, 2) to visualize Murkrow.
-- **Mechanic Test**: Verify Murkrow moves when I move.
+- **Status**: Moving to (8, 3) to visual confirm Murkrow.
+- **Hypothesis**: Murkrow is at (7, 2).
+- **Plan**: 
+  1. Down to (10, 3). (Murkrow -> 7, 3).
+  2. Left to (8, 3). (Murkrow Blocked Left).
+  3. Verify Murkrow is at (7, 3).
 
 ## Trap Data
 - Warp Traps at (26, 9), (26, 10), (24, 11), (25, 11).
 - Path on Col 10 is Safe.
+
+## Key Info
+- **Boss Door**: Needs Voice ID (Murkrow).
+- **Map**: 
+  - Fake Wall at (10, 9) is Walkable.
+  - Wall at (9, 9) and (9, 11) used for blocking.
 
 ## Key Info
 - **Boss Door**: Needs Voice ID (Murkrow).
