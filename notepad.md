@@ -5,18 +5,15 @@
 - **Secondary**: Defeat Team Rocket Executives.
 
 ## Murkrow Puzzle (B2F)
-- **Status**: Player (8, 4), Murkrow (7, 2).
-- **Hypothesis**: X-axis movement is blocked by walls at (6, 2) and (8, 2).
-- **Test**: From (8, 4), move **Up** to (8, 3).
-  - Mirror: Murkrow (7, 2) -> (7, 3) (Down).
-  - Mimic: Murkrow (7, 2) -> (7, 1) (Up).
+- **Status**: Player (8, 3), Murkrow (7, 2).
+- **Observation**: Murkrow ignored input when Player moved Up in Col 8.
+- **Hypothesis**: Col 8 might be a dead zone or sync is broken. Returning to Col 9.
 - **Plan**:
-  1. Move **Left** to (8, 4).
-  2. Move **Up** to (8, 3).
-  3. If Mirror (M at 7, 3), move Right to ratchet M to Col 8? No, (8, 3) is Player.
-     - If M is at (7, 3) and Player at (8, 3):
-     - Player Right -> (9, 3). M Left -> (6, 3) (Wall). M stays at (7, 3).
-     - Player Left -> (8, 3). M Right -> (8, 3) (Collision??).
+  1. Move **Right** to (9, 3).
+  2. Test Y-axis from Col 9.
+     - Move **Down** to (9, 4).
+     - If Murkrow goes Up (Mirror), I need a way to push it Down (Player Up).
+     - Since (9, 2) is blocked, I might need Col 10.
 
 ## Map Notes
 - **Walls**: (6, 2) separates NW and N areas.
