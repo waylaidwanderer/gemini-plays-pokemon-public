@@ -23,7 +23,10 @@
 
 # Current Status
 - Map: B2F (3_51).
-- Player: (14, 10).
-- Murkrow: LOST (Not at expected coords).
-- Shutter (15, 10): LOCKED.
-- Action: Returning to B1F Stairs (3, 2) to hard reset the room.
+- Player: (3, 2) (Reset).
+- Murkrow: Should be at (7, 2).
+- Action: Scan Column 8 for gaps to determine path.
+- Puzzle Strategy (Revision 4):
+  1. Confirm Murkrow at (7, 2).
+  2. Identify gap in Wall at Column 8.
+  3. Formulate path to push Murkrow through gap.
