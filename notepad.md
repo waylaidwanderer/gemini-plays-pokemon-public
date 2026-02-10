@@ -39,3 +39,4 @@ Objective: Complete dialogue cycle carefully, then test movement.
 [Turn 36106] Hypothesis: 'A' mashing caused a Close->Reopen loop.
 Action: Inputting 'A, B, B' to Advance -> Close -> Safety (without triggering interaction).
 Expectation: Clean screen next turn.
+[Turn 36107] Still stuck on "The password is...". 'A, B, B' failed to clear or advance it. Attempting single 'A' to debug if input is being eaten or if it just loops.
