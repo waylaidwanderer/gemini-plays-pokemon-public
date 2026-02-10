@@ -5,15 +5,17 @@
 - **Secondary**: Defeat Team Rocket Executives.
 
 ## Murkrow Puzzle (B2F)
-- **Status**: Player (9, 4), Murkrow (7, 2).
-- **Observation**: Murkrow is unresponsive to remote movement from Cols 8, 9, 10.
-- **Hypothesis**: Mechanics might require proximity or are currently "stuck".
+- **Status**: Player (7, 4), Murkrow (7, 2).
+- **Strategy**: Vertical Ratchet.
 - **Plan**:
-  1. Approach Murkrow directly to force interaction/movement.
-  2. Move Left to (8, 4), then (7, 4).
-  3. Move Up to (7, 3) (Adjacent).
-  4. If it doesn't move, Interact (A).
-  5. If it moves, observe mechanic.
+  1. Move **Down** to (7, 5). Expect Murkrow -> (7, 1) (Up).
+  2. Move **Down** to (7, 6). Expect Murkrow -> Blocked at Top (Stay at 7, 1).
+     - *This increases the distance between us.*
+  3. Move **Up** repeatedly to push Murkrow South.
+     - Player (7, 5) -> Murkrow (7, 2).
+     - Player (7, 4) -> Murkrow (7, 3).
+     - Player (7, 3) -> Murkrow (7, 4).
+     - Player (7, 2) -> Murkrow (7, 5).
 
 ## Map Notes
 - **Walls**: (6, 2) separates NW and N areas.
