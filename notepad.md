@@ -20,3 +20,4 @@
 Conclusion: The movement link is NOT active. Even with text cleared, 'Down' did not trigger a follow.
 Action: Returning to (7, 3). Will try interacting again, potentially facing a different way or waiting longer.
 Hypothesis: Link requires a specific trigger I am missing (e.g., bumping, waiting, or specific direction).
+[Turn 36095] Interacting with Murkrow at (7, 3). Checking for hidden dialogue prompts or missed text.
