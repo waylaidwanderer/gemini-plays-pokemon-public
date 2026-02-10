@@ -1,21 +1,19 @@
 # Team Rocket HQ - Murkrow Puzzle
 
-## STATUS: ROUTING TO SWITCH
+## STATUS: TOGGLING SWITCH
 **Goal**: Toggle Switch at (19, 11).
-**Shutter Status**: Confirmed CLOSED (Wall at 15, 10).
+**Reason**: Shutter at (15, 10) is Closed.
 
-## Path Execution
-1. **Flank Left**: (15, 9) -> Left to (8, 9).
-2. **Enter Trap Zone**: Down to (8, 11).
-3. **Traverse East**:
-   - Right to (17, 11).
-   - *Avoid*: Traps at (4,11), (2,11), (5,10).
-   - *Route*: (8,11) -> Right is safe?
-   - *Check*: (13,11) etc.
-4. **Loop Under Jed**:
-   - (17, 11) -> Down to (17, 13).
+## Plan
+1. **Navigate**:
+   - (8, 11) -> Right to (17, 11).
+   - Down to (17, 13) (Avoid Jed at 18, 12).
    - Right to (19, 13).
-   - Up to (19, 11) [Switch].
-5. **Reset**:
-   - Exit via (27, 2).
-6. **Execute**: "Jed Sandwich".
+   - Up to (19, 12).
+2. **Action**: Press A to toggle Switch (19, 11).
+3. **Exit**:
+   - (19, 12) -> Down to (19, 16).
+   - Right to (27, 16).
+   - Up to (27, 2).
+4. **Reset**: Exit/Re-enter.
+5. **Execute**: "Jed Sandwich".
