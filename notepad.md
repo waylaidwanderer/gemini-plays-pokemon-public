@@ -5,17 +5,21 @@
 - **Secondary**: Defeat Team Rocket Executives.
 
 ## Murkrow Puzzle (B2F)
-- **Status**: Player (7, 5). Murkrow Check.
-- **Scenario A**: Murkrow at (7, 2). Gap = 3.
-  - Action: Move Down to (7, 8) -> Pulls M to (7, 5).
-- **Scenario B**: Murkrow at (7, 1). Gap = 4.
-  - Action: Move Up to (7, 4) -> Forces M against wall. Gap becomes 3.
+- **Status**: Player Moving to (7, 4). Murkrow at (7, 2).
+- **Strategy**: "Re-Engage and Compress".
+  1. Move Up to (7, 4).
+     - Expectation: Murkrow moves to (7, 1).
+     - If it stays at (7, 2), gap is 2.
+  2. Move Up to (7, 3).
+     - Murkrow hits wall at (7, 0).
+     - Result: Player (7, 3), Murkrow (7, 1). Gap = 2.
+  3. Slide Right or Down to establish corridor path.
 - **Goal**: Lead Murkrow to Boss Door at (23, 14).
 
 ## Key Info
 - **Boss Door**: Needs Voice ID (Murkrow).
 
 ## Map Notes
-- **Walls**: (6, 2) and (8, 2) block Murkrow at start.
-- **Clear Path**: Row 5 and Row 8 are the safe aisles.
+- **Walls**: (6, 2), (8, 2) walls. (7, 0) wall.
+- **Clear Path**: Row 5 and Row 8.
 - **Traps**: Warp Trap at (26, 10).
