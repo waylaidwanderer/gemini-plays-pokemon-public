@@ -93,3 +93,8 @@ Hypothesis:
 - If Stacked + Horizontal Mirror: Moves to (6, 2) (Visible).
 - If Stacked + Horizontal Inactive: Stays at (7, 2) (Visible).
 - If at (8, 1) + Parallel: Moves to (9, 1) (Visible).
+[Turn 36172] Murkrow still invisible. Assumed Stacked at (8, 2).
+Action: Move Up to (8, 1).
+Hypothesis: Vertical Mirror Mimicry.
+Expected Result: Murkrow moves Down to (8, 3).
+Goal: Visual confirmation of Murkrow at (8, 3).
