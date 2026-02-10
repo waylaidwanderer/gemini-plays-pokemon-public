@@ -3,9 +3,22 @@
 ## RESET & SOLVE: "The Col 28 Lift"
 Target: M(22, 14).
 
-## Current Status (Turn 36402)
-- **Player**: (12, 13) -> Resetting.
+## Current Status (Turn 36405)
+- **Player**: (19, 9) -> Moving to (5, 2).
 - **Goal**: Warp to (25, 2), Exit/Re-enter to Reset M to (7, 2).
+
+## Path to Warp (5, 15)
+1. **Navigate Maze**:
+   - Up 4 to (19, 5).
+   - Left 10 to (9, 5).
+   - Up 3 to (9, 2).
+   - Left 4 to (5, 2).
+2. **Head to Warp**:
+   - Down 13 to (5, 15).
+3. **Reset**:
+   - Warp lands at (25, 2).
+   - Exit South to Souvenir Shop.
+   - Re-enter. Murkrow at (7, 2).
 
 ## The Winning Solution (From Clean State)
 1. **Sync X**: P(27, 2) -> Left 26 -> P(1, 2). M(1, 2).
