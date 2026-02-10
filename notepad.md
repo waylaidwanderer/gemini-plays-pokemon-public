@@ -5,14 +5,17 @@
 - **Secondary**: Defeat Team Rocket Executives.
 
 ## Murkrow Puzzle (B2F)
-- **Status**: Player (8, 4), Murkrow (7, 2).
-- **Action**: Moving **Down** to (8, 5).
-- **Expectation**:
-  - **Mimic**: Murkrow (7, 2) -> (7, 3).
-  - **Mirror**: Murkrow (7, 2) -> (7, 1).
-- **Next Step**:
-  - If (7, 3): Move **Right** to (9, 5) -> Murkrow (8, 3).
-  - If (7, 1): Re-evaluate (Mirror Logic).
+- **Status**: Player (8, 5), Murkrow (7, 2).
+- **Observation**: Murkrow did not move when I moved Down to (8, 5).
+- **Hypothesis**: **MIMIC** mechanics require close proximity (Distance <= 1?).
+- **Plan**: Re-establish proximity.
+  1. Move **Left** to (7, 5).
+  2. Move **Up** to (7, 4).
+  3. Move **Up** to (7, 3) (Directly below Murkrow).
+  4. Move **Down** to (7, 4).
+     - Expect Murkrow (Mimic) -> (7, 3).
+  5. Move **Right** to (8, 4).
+     - Expect Murkrow (Mimic) -> (8, 3). **ESCAPE**.
 
 ## Map Notes
 
