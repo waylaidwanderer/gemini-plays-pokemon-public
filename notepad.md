@@ -20,15 +20,16 @@
 - **Goal**: Return to Murkrow at (7, 2).
 - **Insight**: B2F is partitioned. East side (Boss Door) connects to West side (Murkrow) ONLY via B1F (or locked shutters).
 - **Route**:
-  1. **Current**: At B1F (24, 14).
-  2. Move South to (24, 15) -> East to (28, 15) -> North up Col 28 to (28, 1).
-  3. West along Row 1 to Stairs at (3, 2).
-  4. Take Stairs DOWN to B2F (3, 2).
-  5. Go East to Murkrow at (7, 2).
+  1. **Current**: At B1F (28, 11).
+  2. Col 28 is blocked at Row 10.
+  3. Move West on Row 12 to (21, 12) -> North to (21, 10) (Entrance).
+  4. Navigate North/West to Stairs at (3, 2).
+  5. Take Stairs DOWN to B2F (3, 2).
+  6. Go East to Murkrow at (7, 2).
 
 ## Trap Data
 - **CRITICAL**: Do not step on B1F (3, 6) or B2F (3, 6).
-- Warp Traps (B2F): (26, 9), (26, 10), (24, 11), (25, 11).
+- Warp Traps (B1F/B2F): Avoid (24, 11), (25, 11).
 - Safe Path B2F: Col 28 appears shielded from traps by Wall at Col 27.
 - Grunt at (25, 13): Bypassing via Row 15.
 
