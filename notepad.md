@@ -13,7 +13,10 @@
   - If Failure: Reset Map via Stairs at (3, 2).
 
 ## Plan: Murkrow to Shutter (14, 10) - Refined
-1. **Align Murkrow X**: Right to (18, 6). (Murkrow blocked at 8, 2 -> stays 7, 2).
+1. **Align Murkrow X (Critical Path)**:
+   - **Start**: (3, 2) on B2F.
+   - **Move**: Right to (18, 2). (Murkrow blocked at 8, 2 -> stays 7, 2).
+   - **Move**: Down to (18, 6). (Murkrow -> 7, 6).
 2. **Setup Row 5**: Down to (18, 9). Right to (22, 9). (Murkrow -> 11, 5).
 3. **Block Up**: Up to (22, 3). (Murkrow blocked at 11, 4 -> stays 11, 5).
 4. **Cross East**: Right to (28, 3). (Murkrow blocked at 15, 5 -> ends 14, 5).
