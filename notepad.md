@@ -12,21 +12,21 @@
   - Expectation: Murkrow moves to (7, 3).
   - If Failure: Reset Map via Stairs at (3, 2).
 
-## Plan: Eastern Flank (Col 17)
-1. **Reset**: Return to (10, 8). Murkrow will be at (7, 4).
-2. **Align Y**: Move Up to (10, 6). Murkrow -> (7, 2).
-3. **Align X (Gap 11)**:
-   - Move Right to (28, 6). Murkrow blocked at (15, 2) -> (14, 2).
-   - Move Left until Murkrow blocked at (7, 2).
-   - Move Right to establish Gap 11 (Player 18, Murkrow 7).
-   - Move Right to (28, 6). Murkrow -> (17, 2).
-4. **Descent**:
-   - Down Col 28 (Player) / Col 17 (Murkrow).
-   - Murkrow target: (17, 14).
-5. **Final Approach**:
-   - Align Murkrow to Row 14.
-   - Shift Murkrow Right to (22, 14).
-   - Drop to Door.
+## Plan: Murkrow to Shutter (14, 10)
+1. **Align Gap**: Right to (18, 6). (Murkrow blocked at 8, 2).
+2. **Setup Row 5**: Down to (18, 9). Right to (22, 9). (Murkrow -> 11, 5).
+3. **Block Up**: Up to (22, 3). (Murkrow blocked at 11, 4).
+4. **Cross East**: Right to (28, 3). (Murkrow -> 14, 5).
+5. **Align Col 10**: 
+   - Down to (28, 6). (Murkrow -> 14, 8).
+   - Left to (24, 6). (Murkrow -> 10, 8).
+6. **Drop to Row 10**: Down to (24, 10). (Murkrow -> 10, 10).
+7. **Final Shift**: Navigate traps to move Murkrow Right to (14, 10).
+8. **Interact**: Talk to Murkrow/Shutter.
+
+## Trap Data
+- Warp Traps suspected at (26, 9), (26, 10), (25, 11).
+- If triggered, return via B1F -> B2F Stairs (NE).
 
 ## Key Info
 - **Boss Door**: Needs Voice ID (Murkrow).
