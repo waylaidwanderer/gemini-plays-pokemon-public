@@ -15,12 +15,15 @@
 - **Route**:
   1. **Current**: At B2F (27, 2). (Accidental stairs from B1F).
   2. Navigate South down Col 28 (Safe Path) to (28, 14).
-  3. Move West to Boss Door at (23, 14), bypassing Grunt at (24, 14) via Row 15 if needed.
+  3. Move West to (25, 14).
+  4. Bypass Grunt at (24, 14) by going South to (25, 15) -> West to (23, 15).
+  5. Interact with Boss Door at (23, 14) from (23, 15).
 
 ## Trap Data
 - **CRITICAL**: Do not step on B1F (3, 6) or B2F (3, 6).
 - Warp Traps (B2F): (26, 9), (26, 10), (24, 11), (25, 11).
 - Safe Path B2F: Col 28 appears shielded from traps by Wall at Col 27.
+- Grunt at (24, 14): Avoid line of sight if possible, or prepare for battle. (Marked as defeated).
 
 [Turn 36092] "HAIL GIOVANNI" displayed. Closing text box. Next: Visual confirm clear screen, then Move Down.
 [Turn 36093] Text clear confirmed. Moving Down to (7, 4). Verification of Murkrow movement to (7, 3) expected next turn.
