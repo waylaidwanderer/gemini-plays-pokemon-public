@@ -115,28 +115,30 @@ Confirmed Mechanics:
 - **Horizontal**: Parallel (Right -> Right).
 - **Vertical**: Mirror (Up -> Down).
 
-## Strategy: "The Inverted Ratchet"
+## Strategy: "The Inverted Ratchet" (Modified)
 1. **The Pin (South)**:
-   - Start: Player (7, 1), Murkrow (7, 2).
-   - Move Down -> Player (7, 2), Murkrow (7, 1). (Swap).
-   - Move Down -> Player (7, 3), Murkrow (7, 1). (Murkrow blocked North).
-   - Move Down to Row 16 -> Player (7, 16), Murkrow (7, 1).
-2. **The Inversion (North)**:
-   - Move Up to Row 1.
-   - Player (7, 16) -> (7, 1).
-   - Murkrow (7, 1) -> (7, 16) (Mirrors Down).
-   - Result: Player (7, 1), Murkrow (7, 16).
-3. **The Traverse (East)**:
+   - Current: Player (5, 16), Murkrow (5, 1) [Assumed].
+   - **CRITICAL**: (5, 15) is a Warp. Do NOT move Up Col 5.
+   - **Action**: Move Left to Col 4.
+   - Player (5, 16) -> (4, 16).
+   - Murkrow (5, 1) -> (4, 1) [Parallel Left].
+   - Move Up Col 4 to Row 1.
+   - Player (4, 16) -> (4, 1).
+   - Murkrow (4, 1) -> (4, 16) [Mirror Down].
+   - Result: Player (4, 1), Murkrow (4, 16). (Inversion Complete).
+2. **The Traverse (East)**:
    - Move Right to Col 23.
-   - Player (23, 1), Murkrow (23, 16).
-   - *Path Check*: Row 1 is clear (Player). Row 16 is clear (Murkrow).
-4. **The Delivery**:
+   - Player (4, 1) -> (23, 1).
+   - Murkrow (4, 16) -> (23, 16).
+3. **The Delivery**:
    - Move Down (Player) -> Murkrow moves Up.
    - Player (23, 1) -> (23, 3).
    - Murkrow (23, 16) -> (23, 14) (Boss Door).
 
 ## Trap Data
 - **CRITICAL**: Do not step on B1F (3, 6) or B2F (3, 6).
+- **CRITICAL**: B2F (5, 15) is a Warp. Avoid.
+
 [Turn 36186] Inverted Ratchet - Phase 2.
 - Player at (7, 16). Murkrow at (7, 1).
 - Col 7 has a wall at (7, 4) which will block Murkrow.
