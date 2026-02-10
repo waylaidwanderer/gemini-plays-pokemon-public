@@ -1,23 +1,25 @@
 # Team Rocket HQ - Murkrow Puzzle
 
-## FINAL SOLUTION: "The Col 26 Ratchet Loop"
-Target: P(22, 13), M(22, 14).
+## FINAL SOLUTION: "The Col 22 Statue Ratchet"
+Target: P(22, 12), M(22, 13).
 
-## Current Status (Turn 36435)
-- **Player**: (22, 16).
-- **Murkrow**: (22, 5).
+## Current Status (Turn 36437)
+- **Player**: (22, 16) (Text Open).
+- **Murkrow**: (22, 5) (Estimated).
 
 ## Execution Path
-1. **Invert Y (Col 25)**:
-   - Right 3 -> P(25, 16). M(25, 5).
-   - Up 11 -> P(25, 5). M(25, 16).
-2. **Ratchet M Up (Col 26)**:
-   - Right 1 -> P(26, 5). M(26, 16).
-   - Down 11 -> P(26, 16).
-   - M(26, 16) -> Up 11 -> Blocked at 10 -> M(26, 11).
-   - State: P(26, 16), M(26, 11).
-3. **Align Y**:
-   - Up 3 -> P(26, 13). M(26, 14).
-4. **Finish**:
-   - Left 4 -> P(22, 13). M(22, 14).
-   - Interact (Face Down).
+1. **Clear Text**: Press A.
+2. **Move to Col 28**:
+   - Right 6 -> P(28, 16). M(28, 5).
+3. **Invert Y (Col 28)**:
+   - Up 14 -> P(28, 2). M(28, 16).
+   - Down 14 -> P(28, 16). M(28, 2).
+4. **Move to Col 22**:
+   - Left 6 -> P(22, 16). M(22, 2).
+5. **Statue Ratchet**:
+   - Up 7 -> P(22, 16) [Blocked by Statue].
+   - M(22, 2) -> Down 7 -> M(22, 9).
+6. **Converge**:
+   - Up 4 -> P(22, 12). M(22, 13).
+7. **Interact**:
+   - Face Down. Press A.
