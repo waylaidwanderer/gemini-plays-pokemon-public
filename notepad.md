@@ -130,15 +130,23 @@ Confirmed Mechanics:
    - Move Right to Col 23.
    - Player (4, 1) -> (23, 1).
    - Murkrow (4, 16) -> (23, 16).
-3. **Recovery & Search**:
-   - **Status**: Position Mismatch detected. Player at (24, 9). Murkrow Unknown.
-   - **Hypothesis**: Input failure or blockage. Murkrow might be stacked or lost in East Room.
-   - **Action**: Sweep East Room to locate Murkrow.
-     - Move Right 4 to (28, 9).
-     - Move Down 7 to (28, 16).
-     - *Check for Murkrow visual*.
-   - **Mechanic Test**: If stacked, moving Down to (28, 16) should separate (Vertical Mirror).
-   - **Goal**: Re-acquire Murkrow visual.
+3. **The "Golden Path" Strategy**:
+   - **Logic**: Use Col 26 Crate (Row 10) to ratchet Murkrow while both are in Lower Section.
+   - **Step 1: Sync at (22, 9)**.
+     - Move Left to (22, 16). M -> (22, 2).
+     - Move Up 7 to (22, 9). M -> (22, 9).
+     - Result: P(22, 9), M(22, 9). (Stacked/Synced).
+   - **Step 2: Setup at (26, 7)**.
+     - Move Right 4 to (26, 9). M -> (26, 9).
+     - Move Up 2 to (26, 7). M -> (26, 11).
+   - **Step 3: The Ratchet**.
+     - Move Down 9 to (26, 16).
+       - M moves Up. Blocked by Crate at (26, 10). Stays (26, 11).
+     - Result: P(26, 16), M(26, 11). Sum 27.
+   - **Step 4: Delivery**.
+     - Left 4 to (22, 16). M -> (22, 11).
+     - Up 3 to (22, 13). M -> (22, 14).
+     - **Interact**.
 
 [Turn 36186] Inverted Ratchet - Phase 2.
 - Player at (7, 16). Murkrow at (7, 1).
