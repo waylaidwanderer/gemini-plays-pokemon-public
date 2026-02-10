@@ -5,13 +5,14 @@
 - **Secondary**: Defeat Team Rocket Executives.
 
 ## Murkrow Puzzle (B2F)
-- **Status**: Player (7, 3) -> Moving to (7, 4). Murkrow at (7, 2).
-- **Action**: Move Down to (7, 4).
-- **Expectation**: Murkrow mimics Down to (7, 3). (Gap 1).
-- **Strategy**: "Gap 1 Bottom Run".
-  1. Move Down to (7, 13).
-  2. Move Right to (15, 13).
-  3. Proceed East.
+- **Status**: Player (7, 4) -> Moving to (7, 3). Murkrow at (7, 2).
+- **Recent Event**: Finished dialogue ("HAIL GIOVANNI").
+- **Observation**: Moved Down to (7, 4) but Murkrow DID NOT follow.
+- **Hypothesis**: Tether broken or distance (2) too far.
+- **Action**: Move Up to (7, 3).
+  - If M moves to (7, 1): Mimic is active. Gap becomes 2.
+  - If M stays at (7, 2): Mimic is inactive or blocked. Gap becomes 1.
+- **Goal**: Re-establish control/tether.
 
 ## Key Info
 - **Boss Door**: Needs Voice ID (Murkrow).
