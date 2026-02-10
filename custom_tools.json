@@ -671,8 +671,8 @@
       }
     ]
   },
-  "solve_murkrow_statue_lock": {
-    "description": "Executes the 'Statue Lock' strategy.\n1. Move to Bottom-Right (28,16).\n2. Ratchet on Col 28 (Up 15 -> P28,9 M28,16).\n3. Invert on Col 22 (Left 6 -> Down 7 -> P22,16 M22,9).\n4. Pump Statue (Up 5 -> P22,16 M22,14).\n5. Circle to Door (Right 4 -> Up 3 -> Left 4 -> P22,13 M22,14).\n6. Interact.",
+  "solve_murkrow_crate_ratchet_v3": {
+    "description": "Executes the 'Col 26 Crate Ratchet V3' strategy.\n1. Align X at Col 28.\n2. Align Y at Col 26 (Top).\n3. Ratchet M on Col 26 (Bottom).\n4. Deliver at Col 22.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -682,12 +682,12 @@
         }
       }
     },
-    "python_script": "\nprint(f'{{\"buttons\": [\"Right\", \"Right\", \"Right\", \"Right\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Right\", \"Right\", \"Right\", \"Right\", \"Up\", \"Up\", \"Up\", \"Left\", \"Left\", \"Left\", \"Left\", \"A\"]}}')\n",
+    "python_script": "\nprint(f'{{\"buttons\": [\"Down\", \"Down\", \"Right\", \"Right\", \"Right\", \"Left\", \"Left\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Left\", \"Left\", \"Left\", \"Left\", \"Up\", \"Up\", \"Up\", \"A\"]}}')\n",
     "history": [
       {
         "commit_message": "Initial version",
-        "timestamp": "2026-02-10T18:29:58.781Z",
-        "action_counter": 36349
+        "timestamp": "2026-02-10T18:30:58.777Z",
+        "action_counter": 36350
       }
     ]
   }
