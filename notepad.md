@@ -17,13 +17,15 @@
 - **Hypothesis**: Must unlock shutters or (6, 1) wall from West side.
 - **Lead**: Grunt near (10, 9) or hidden switch.
 
-## B2F Status
-- Murkrow at (7, 2).
-- Boss Door at (23, 14) requires 2 Passwords + Voice ID.
-- Passwords obtained: "RATICATE TAIL", "SLOWPOKETAIL".
-- Voice ID: Murkrow? Petrel?
+## B1F Status
+- Murkrow found at B1F (7, 2).
+- Boss Door at B2F (23, 14).
+- Wall at B1F (15, 2) confirmed.
+- Wall at B1F (6, 1) confirmed solid.
+- Gap at B1F (6, 10) confirmed passable.
 
 ## Action Queue
-1. Navigate B1F (10, 9) -> (10, 2) -> (27, 2).
-2. Take NE Stairs to B2F.
-3. Explore East side of B2F (Captain's Office?).
+1. Interact with Murkrow at B1F (7, 2).
+2. Determine if it can be led to B2F or if it gives the password here.
+3. If it flees, track it.
+4. If stuck, try reaching B2F via NW stairs (3, 2).
