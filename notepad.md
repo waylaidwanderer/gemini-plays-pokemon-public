@@ -1,33 +1,38 @@
 # Team Rocket HQ - Murkrow Puzzle
 
-## Current Status (Turn 36361)
-- **Player**: (25, 13)
-- **Murkrow**: (25, 12) [Visually Confirmed]
+## Current Status (Turn 36371)
+- **Player**: (24, 13) -> Moving to (26, 12)
+- **Murkrow**: (24, 12) -> Moving to (26, 9)
 - **Goal**: Open Boss Door at (22, 14).
 
-## The Plan: "Statue Pump & Sandwich"
-1. **Vertical Separation (East)**:
-   - Pump Down x5 against Wall (25, 14). P stays (25, 13). M moves 12->7.
-   - P(25, 13), M(25, 7).
-2. **Move to Bottom-Right**:
-   - Right 1 -> P(26, 13), M(26, 7).
-   - Down 3 -> P(26, 16), M(26, 4).
-3. **Cross to West**:
-   - Left 4 -> P(22, 16), M(22, 4).
-4. **Sync X (Left Wall)**:
-   - Left 6 (Bump Wall). P(16, 16). M(16, 4).
-   - Right 6. P(22, 16). M(22, 4).
-5. **Statue Pump (West)**:
-   - Pump Up x10 against Statue (22, 15). P stays (22, 16). M moves 4->14.
-   - P(22, 16), M(22, 14).
-6. **Final Positioning**:
-   - Right 4 -> P(26, 16), M(26, 14).
-   - Up 3 -> P(26, 13), M(26, 16) [M hits Bottom Wall].
-   - Left 4 -> P(22, 13), M(22, 16).
-   - Down 1 -> P(22, 13) [Blocked]. M(22, 15).
-   - Interact.
+## The Plan: "Zig-Zag & Statue Pump"
+1. **Setup**: P(24,13), M(24,12).
+2. **Move Right**: P(25,13), M(25,12).
+3. **Statue Pump East**:
+   - Pump Down x5 against (25,14). M moves 12 -> 7.
+   - P(25,13), M(25,7).
+4. **Move to Gap**:
+   - Right 1. P(26,13), M(26,7).
+   - Up 1. P(26,12), M(26,8).
+   - Pump Up 1 (vs 26,11). M(26,9).
+   - State: P(26,12), M(26,9).
+5. **Cross West**:
+   - Left 2. P(24,12), M(24,9).
+6. **Cross South**:
+   - Down 4. P(24,16), M(24,5).
+7. **Align X**:
+   - Left 2. P(22,16), M(22,5).
+8. **Pump M to Target**:
+   - Pump Up x9 against Statue (22,15). M moves 5 -> 14.
+   - P(22,16), M(22,14).
+9. **Position P for Interact**:
+   - Right 2. P(24,16), M(22,14) (Blocked by Wall).
+   - Up 3. P(24,13), M(22,14) (Blocked by Statue).
+   - Left 2. P(22,13), M(22,14) (Blocked by Wall).
+10. **Interact**:
+    - Face Down. Press A.
 
 ## Mechanics
 - **X**: Parallel.
 - **Y**: Mirror.
-- **Walls**: Row 14 (East), Row 8 (East), Row 9 (Col 23), Statue (22, 15).
+- **M Lock**: At (22,14), M is locked by Wall(W), Wall(E), Statue(S). Can only move N.
