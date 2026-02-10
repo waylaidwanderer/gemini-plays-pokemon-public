@@ -70,3 +70,6 @@ Observation: Murkrow sprite remains facing Down. It did not turn Right when I mo
 Action: Returning to (7, 3). Will attempt careful interaction with 'A' button to ensure dialogue completion, then test 'Direct Down' again.
 Hypothesis: Dialogue must be fully cleared with 'A' to trigger mimicry state.
 [Turn 36087] Interacting with Murkrow at (7, 3) with 'A'. Verification of text box appearance required next turn.
+[Turn 36088] Advancing "The password is..." -> "HAIL GIOVANNI" -> Closed.
+Next: Visual check for clean screen, then move Down to (7, 4).
+Hypothesis: Mimicry triggers only after full dialogue closure.
