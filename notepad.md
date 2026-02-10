@@ -21,11 +21,12 @@
   3. Scan B2F Column 7 for obstacles (Grunts/Traps).
   4. Execute "Align and Push" with obstacle awareness.
 
-- Status: At B1F (3, 6) "Dead End Room".
-- Confirmed: B2F (3, 6) Warp sends to B1F (3, 6).
-- Goal: Exit this room to the South to bypass B1F Row 4 Blockage.
-- Obstacle: Shutter at B1F (3, 8).
+- Status: At B2F (3, 6) after Warp.
+- Fact: B1F (3, 6) Shutter is LOCKED. No switches found inside.
+- Hypothesis: B1F Row 4 Blockage is the primary obstacle.
 - Plan:
-  1. Inspect Shutter at (3, 8).
-  2. Search room for hidden switches (Dowsing/Check).
-  3. If stuck, trigger Warp at (3, 6) to see if it returns to B2F or elsewhere.
+  1. Return to B1F via Stairs (3, 2).
+  2. Inspect B1F Row 4 Blockage (West Wall).
+  3. If impassable, route to SE Corner via B2F East Corridor.
+  4. Search SE Corner for switches/keys.
+- Goal: Access Central B1F Room to find Master Switch.
