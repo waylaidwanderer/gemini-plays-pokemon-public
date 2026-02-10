@@ -1,19 +1,14 @@
 # Team Rocket HQ - Murkrow Puzzle
 
-## Active Attempt: "The Pin & Flank"
-**Current State**: P(28, 12). M(22, 11) (Hypothesized).
-**Goal**: Pin M at Door (22, 14) and converge X.
+## Active Attempt: "The Reel In"
+**Current State**: P(24, 9). M(18, 13) (Hypothesized).
+**Goal**: Pull Murkrow East to verify position.
 
 ## The Plan
-1. **Pin Y (Door)**:
-   - Move Up 3 to P(28, 9).
-   - M moves Down 3. Expectation: M(22, 11) -> M(22, 14).
-   - *Note*: If (22, 14) is a wall to M, M stops at (22, 13).
-2. **Converge X**:
-   - Move Left 6 to P(22, 9).
-   - **Hypothesis**: M is pinned West by Wall(21, 14) if at (22, 14).
-   - If M moves Left (was at 13), M ends at (16, 13).
-3. **Verify**:
-   - Look Down at (22, 9).
-   - If M is at (22, 14), **SUCCESS**. Approach and Interact.
-   - If M is missing (moved West), we must re-sync X using the East wall.
+1. **Pull M East**:
+   - Move Right 5 times.
+   - P moves to (28, 9) and bonks.
+   - M moves Right from (18, 13) -> (23, 13).
+   - **CHECK**: M should appear on screen near Col 22-24.
+2. **Next Steps**:
+   - Once M is visible, perform "The Mathematical Ratchet" or "Pin & Flank".
