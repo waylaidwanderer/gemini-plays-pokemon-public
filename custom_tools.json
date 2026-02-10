@@ -670,5 +670,25 @@
         "action_counter": 36307
       }
     ]
+  },
+  "solve_murkrow_col28_ratchet": {
+    "description": "Executes the 'Col 28 Universal Ratchet' strategy.\nPath: Right 2 (26,10), Down 6 (26,16), Right 2 (28,16), Up 15 (Ratchet P to 9, M to 16), Left 6 (22,9), Down 4 (22,13), Down 1 (Stack/Align), A.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "autopress_buttons": {
+          "type": "boolean",
+          "default": true
+        }
+      }
+    },
+    "python_script": "\nprint(f'{{\"buttons\": [\"Right\", \"Right\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Right\", \"Right\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"A\"]}}')\n",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-02-10T18:14:08.927Z",
+        "action_counter": 36339
+      }
+    ]
   }
 }
