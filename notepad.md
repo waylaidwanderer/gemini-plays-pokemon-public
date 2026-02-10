@@ -69,3 +69,4 @@ Prediction: Murkrow should move Down to (7, 3). This is the critical "Pull" test
 Observation: Murkrow sprite remains facing Down. It did not turn Right when I moved Right, suggesting Mimicry is NOT active.
 Action: Returning to (7, 3). Will attempt careful interaction with 'A' button to ensure dialogue completion, then test 'Direct Down' again.
 Hypothesis: Dialogue must be fully cleared with 'A' to trigger mimicry state.
+[Turn 36087] Interacting with Murkrow at (7, 3) with 'A'. Verification of text box appearance required next turn.
