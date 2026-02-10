@@ -5,10 +5,12 @@
 - **Secondary**: Defeat Team Rocket Executives.
 
 ## Murkrow Mechanics (Verified)
-- **Location**: Currently at (7, 2).
-- **Mimicry Failure**: Repeated attempts to move Murkrow (Down, Right, Pin) failed. It stayed at (7, 2).
-- **Dialogue Barrier**: "The password is..." text box must be advanced and fully cleared. 'B' mashing failed. 'A' is required to advance.
-- **Hypothesis**: Mimicry ONLY activates after the dialogue interaction is completely finished and the text box is gone.
+- **Location**: Currently at (7, 2). Player at (7, 3).
+- **Status**: Movement link inactive or timing-sensitive.
+- **Current Strategy**: "Split Turn"
+    1. Turn 36113: Interact ('A'), Advance ('A'), Close ('B'). **DO NOT MOVE.**
+    2. Turn 36114: Verify screen is clear. Move 'Down' or 'Right'.
+- **Mimicry Logic**: Likely blocked by obstacles (Desks/Walls) on Left/Right. 'Down' is the only viable path if parallel. 'Up' if mirror.
 
 ## Trap Data
 - Warp Traps: (26, 9), (26, 10), (24, 11), (25, 11).
