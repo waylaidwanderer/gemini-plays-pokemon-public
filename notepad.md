@@ -5,12 +5,12 @@
 - **Secondary**: Defeat Team Rocket Executives.
 
 ## Murkrow Puzzle (B2F)
-- **Status**: Player (11, 6), Murkrow (11, 5).
-- **Current Strategy**: "Row 5 Slide".
-  1. Move Right to (11, 6). (Done - checking result).
-  2. Continue Right to (14, 6). (Murkrow -> 14, 5).
-  3. Move Down along Column 14 to check Shutter at (14, 11).
-- **Goal**: Lead Murkrow to Boss Door at (23, 14).
+- **Status**: Player (10, 6), Murkrow (10, 5) [CHECKING].
+- **Problem**: Murkrow did not appear at (11, 5) after moving Right.
+- **Hypothesis**:
+  - 1. It got stuck at (10, 5) (Chair blockage?).
+  - 2. It reset to (7, 2).
+- **Action**: Backtracking to verify position.
 
 ## Key Info
 - **Passwords**: "RATICATE TAIL", "SLOWPOKETAIL", "HAIL GIOVANNI".
