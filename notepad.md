@@ -130,28 +130,21 @@ Confirmed Mechanics:
    - Move Right to Col 23.
    - Player (4, 1) -> (23, 1).
    - Murkrow (4, 16) -> (23, 16).
-3. **The Zig-Zag Ratchet**:
-   - **Current**: P(25, 13), M(25, 5).
-   - **Step 1: The "Wall 24" Shift**.
-     - Left to (24, 13). Down 3 to (24, 16).
-       - M (24, 5) -> Up 3 -> Blocked by Wall (24, 4). Stays 5.
-     - Up 3 to (24, 13).
-       - M (24, 5) -> Down 3 -> (24, 8).
-     - Result: P(24, 13), M(24, 8).
-   - **Step 2: The East Side Traverse**.
-     - Right 4 to (28, 13). M -> (28, 8).
-     - Up 4 to (28, 9).
-       - M (28, 8) -> Down 4 -> (28, 12).
-     - Left 2 to (26, 9). M -> (26, 12).
-     - Up 3 to (26, 6).
-       - M (26, 12) -> Down 3 -> (26, 15).
-   - **Step 3: The "Wall 11" Block**.
-     - Down 9 to (26, 15).
-       - M (26, 15) -> Up 9 -> Blocked by Wall (26, 11). Stays 12.
-     - Result: P(26, 15), M(26, 12).
-   - **Step 4: Delivery**.
-     - Left 4 to (22, 15). M -> (22, 12).
-     - Up 2 to (22, 13). M -> (22, 14).
+3. **The "Ratchet & Sandwich" Solution**:
+   - **Current**: P(24, 9), M(24, 8).
+   - **Step 1: Setup at Col 26**.
+     - Right 2 to (26, 9). M -> (26, 8).
+     - Up 4 to (26, 5). M -> (26, 12).
+   - **Step 2: The Ratchet (Col 26)**.
+     - Move Down 11 to (26, 16).
+       - M tries to move Up. Blocked by Wall at (26, 11). Stays at 12.
+     - Result: P(26, 16), M(26, 12). Sum 28.
+   - **Step 3: The Sandwich (Col 22)**.
+     - Left 4 to (22, 16). M -> (22, 12).
+     - Move Up 3 to (22, 13).
+       - M moves Down 3 -> 13, 14, 15(Blocked).
+       - M ends at (22, 14) (Boss Door).
+     - Result: P(22, 13), M(22, 14).
      - **Interact**.
 [Turn 36186] Inverted Ratchet - Phase 2.
 - Player at (7, 16). Murkrow at (7, 1).
