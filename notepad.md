@@ -5,18 +5,15 @@
 - **Secondary**: Defeat Team Rocket Executives.
 
 ## Murkrow Puzzle (B2F)
-- **Status**: Player (7, 5), Murkrow (7, 2). Gap = 3.
-- **Strategy**: "The 3-Row Gap".
-  1. Move Down x3 to P(7, 8), M(7, 5).
-     - Reason: Get M off Row 2 (Wall at 8, 2 blocks Right).
-     - Row 5 is clear for M. Row 8 is clear for P.
-  2. Move Right to x=16.
-     - P(16, 8), M(16, 5).
-  3. Move Down to P(16, 17), M(16, 14).
-     - Avoids shutters at x=14, 15.
-     - Checks Column 16 (appears clear).
-  4. Move Right to (23, 17). M(23, 14).
-     - M arrives at Boss Door.
+- **Status**: Player (7, 8). Murkrow at (7, 2) [Static].
+- **Failure Analysis**:
+  - Moved Down from (7, 5) to (7, 8).
+  - Murkrow stayed at (7, 2). DID NOT MIMIC.
+  - Conclusion: Tether was lost or not active. Distance of 3 tiles might be too far to start.
+- **Recovery Plan**:
+  1. Move Up to (7, 3) (Adjacent to Murkrow).
+  2. Verify mimicry by moving Down one step.
+  3. If it follows, restart "The 3-Row Gap" or "Row 6 Slide" strategy from closer range.
 - **Goal**: Lead Murkrow to Boss Door at (23, 14).
 
 ## Key Info
