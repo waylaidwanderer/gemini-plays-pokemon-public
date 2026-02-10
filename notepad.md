@@ -21,12 +21,12 @@
   3. Scan B2F Column 7 for obstacles (Grunts/Traps).
   4. Execute "Align and Push" with obstacle awareness.
 
-- Status: At B2F (3, 6) after Warp.
-- Fact: B1F (3, 6) Shutter is LOCKED. No switches found inside.
-- Hypothesis: B1F Row 4 Blockage is the primary obstacle.
+- Status: At B2F (3, 2).
+- Fact: B2F SW Corner (3, 14) has NO stairs.
+- Fact: B1F West side is blocked.
 - Plan:
-  1. Return to B1F via Stairs (3, 2).
-  2. Inspect B1F Row 4 Blockage (West Wall).
-  3. If impassable, route to SE Corner via B2F East Corridor.
-  4. Search SE Corner for switches/keys.
-- Goal: Access Central B1F Room to find Master Switch.
+  1. Return to B1F via stairs (3, 2).
+  2. Navigate to NE Stairs at B1F (27, 2).
+  3. Take stairs to B2F (27, 2).
+  4. Navigate South to SE Corner B2F (27, 14).
+  5. Search SE area for switches/keys to unlock shutters.
