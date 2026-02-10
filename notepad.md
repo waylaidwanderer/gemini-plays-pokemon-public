@@ -1,29 +1,35 @@
 # Team Rocket HQ - Murkrow Puzzle
 
-## FINAL SOLUTION: "The Victory Lap" (Validated)
-Target: M(22, 14).
+## SOLUTION: "The 24-9 Convergence"
+Target: P(24, 9), M(22, 14).
 
-## Current Status (Turn 36400)
-- **Player**: (11, 11).
-- **Murkrow**: (28, 16) (Assuming last ratchet worked).
+## Current Status (Turn 36402)
+- **Player**: (17, 13).
+- **Murkrow**: (28, 14) (Assumed).
 
-## Execution Path
-1. **Redundant Ratchet**:
-   - Up 7 (Verify P blocked, M at 16).
-2. **Horizontal Ratchet**:
-   - Right 6 -> P(17, 11). M(28, 16).
-3. **Align to Col 7/18**:
-   - Left 10 -> P(7, 11). M(18, 16).
-4. **Vertical Ratchet (Row 12)**:
-   - Up 7 -> P(7, 5). M(18, 16).
-   - Down 4 -> P(7, 9). M(18, 12).
-5. **Cross to Col 11/22**:
-   - Right 4 -> P(11, 9). M(22, 12).
-6. **Final Ratchet to Door**:
-   - Up 2 -> P(11, 9) [Blocked at 8]. M(22, 14).
-7. **Interact**.
+## Phase 1: The "Col 14" Sync
+1. **Reset to Row 16**:
+   - Up 2 -> P(17, 11). M(28, 16).
+2. **Move M to Col 14**:
+   - Left 14 -> P(3, 11). M(14, 16).
+3. **Lift M to Row 12**:
+   - Down 4 -> P(3, 15). M(14, 12).
+4. **Shift P to Col 14**:
+   - Right 11 -> P(14, 15). M(25, 12).
+5. **Lock M at Row 12**:
+   - Up 4 -> P(14, 11). M(14, 12) [Blocked Down at 13].
 
-## Notes
-- P blocked at Row 8 and Row 10/14 used to manipulate M.
-- M crosses West->East on Row 12.
-- M drops to Door on Col 22.
+## Phase 2: The "Col 22" Setup
+6. **Move P to Col 22 (Around)**:
+   - Down 5 -> P(14, 16). M(14, 7).
+   - Right 8 -> P(22, 16). M(22, 7).
+   - Up 5 -> P(22, 11). M(22, 12).
+
+## Phase 3: The Ratchet & Finish
+7. **Ratchet M to 20**:
+   - Left 1 -> P Blocked(21). M(21, 12).
+   - Left 1 -> P Blocked(21). M(20, 12).
+8. **Final Alignment**:
+   - Right 2 -> P(24, 11). M(22, 12).
+   - Up 2 -> P(24, 9). M(22, 14).
+   - Interact.
