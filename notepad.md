@@ -112,24 +112,30 @@ Confirmed Mechanics:
 - **Stairs**: (3, 14) connects B1F/B2F. (3, 2) on B2F is FAKE.
 
 ## Murkrow Strategy: "The Western Shuffle"
-1. Approach Murkrow (7, 2) from the West (6, 2).
-2. **Shuffle**: Move Right to (8, 2) -> (9, 2). Murkrow mimics to (9, 2) -> (10, 2).
-   - Wait, need to check boundaries.
-3. **Better Plan**:
-   - Interact at (7, 2).
-   - Move **LEFT** to (6, 2). Murkrow moves Left to (6, 2)? No, Parallel. Murkrow moves Left to (6, 2).
-   - Stacked? No. Murkrow is at (7, 2). I move Left. Murkrow moves Left to (6, 2).
-   - Wait, if I am at (7, 2) and move Left, I am at (6, 2). Murkrow moves from (7, 2) to (6, 2). Stacked?
-   - Let's verify "Parallel" direction. If I move Right, it moves Right. If I move Left, it moves Left.
-   - So if I am adjacent (6, 2) and move Left to (5, 2), Murkrow moves (7, 2) -> (6, 2). Offset maintained!
-4. **Execution**:
-   - Start at (6, 2). Murkrow at (7, 2).
-   - Move Left -> (5, 2). Murkrow -> (6, 2).
-   - Move Left -> (4, 2). Murkrow -> (5, 2).
-   - Move Down (Mirror) -> Player (4, 3), Murkrow (5, 1) [Pinned North].
-   - Walk South to Row 14. Murkrow stays North.
-   - Walk East to Col 22.
-   - Walk North to Row 2. Murkrow mirrors South to Row 14 (Door).
+1. **Link Verification**:
+   - Interact at (6, 2). Clear "HAIL GIOVANNI" text.
+   - **WAIT** one turn to ensure script activation.
+   - Move **LEFT** to (5, 2).
+   - Expected: Murkrow moves Left to (6, 2). (Parallel Horizontal).
+   - Offset: Player (5, 2), Murkrow (6, 2).
+2. **The Drive**:
+   - Move Left to (4, 2). Murkrow -> (5, 2).
+   - Move Down to (4, 13) (Row 13). Murkrow Up to (5, 2) (Row 2). (Mirror Vertical).
+     - *Check*: If I move Down, Murkrow moves Up.
+     - P: (4, 2)->(4, 13) (11 steps). M: (5, 2)->(5, -9) (Blocked at Row 1).
+     - Murkrow pinned at (5, 1).
+3. **The Obstacle Course**:
+   - Move East to Col 22.
+   - Avoid Statutes at (6, 13), (13, 13).
+   - Use "Dip and Dodge": If obstacle, move Down (P -> Row 14), Murkrow stays Row 1.
+   - Move East. Murkrow moves East.
+   - *Critical Check*: Murkrow Obstacles on Row 1 (Statue at 6, 1).
+   - If Murkrow hits (6, 1), it stops. Sync broken.
+   - **Solution**: Drag along Row 2?
+     - P at Row 13. M at Row 2.
+     - Obstacles Row 2: (25, 2) Warp. (3, 2) Clear.
+     - Obstacles Row 13: (6, 13), (13, 13).
+     - Plan: Navigate P around obstacles, ensuring M has a clear path on Row 2.
 
 ## Trap Data
 - **CRITICAL**: Do not step on B1F (3, 6) or B2F (3, 6).
