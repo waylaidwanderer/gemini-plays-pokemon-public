@@ -25,3 +25,4 @@ Hypothesis: Link requires a specific trigger I am missing (e.g., bumping, waitin
 [Turn 36097] Text "The password is..." persists despite 'A' mashing. Auto-advance might be timed out. Attempting manual 'A, B' sequence.
 [Turn 36098] Using 'advance_dialogue' tool (5x 'A') to brute-force the "The password is..." text screen. Auto-advance logic seems stuck.
 [Turn 36099] "HAIL GIOVANNI" confirmed. Closing text box now. Next turn: Visual confirmation of clear screen.
+[Turn 36100] Screen confirmed clear. Moving Down to (7, 4). Verification of Murkrow movement required in Turn 36101 Game State.
