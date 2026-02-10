@@ -5,17 +5,17 @@
 - **Secondary**: Defeat Team Rocket Executives.
 
 ## Murkrow Puzzle (B2F)
-- **Status**: Player (8, 5), Murkrow (7, 2) [RESET].
-- **Failure Analysis**:
-  - Moving Right at (8, 5) -> (9, 5) failed to move Murkrow.
-  - Moving Down at (9, 5) -> (9, 6) caused RESET.
-- **New Plan (The "Row 3 Slide")**:
-  1. Return to (7, 4).
-  2. Pull Murkrow to (7, 3) by moving Up then Down.
-  3. Slide Right along Row 4 (Player) / Row 3 (Murkrow) until x=10.
-  4. Move Down to Row 6 (Player) / Row 5 (Murkrow) to lower it.
-  5. Slide Right past the wall.
-- **Immediate Step**: Get to (7, 4).
+- **Status**: Player (7, 5), Murkrow (7, 4) [Expected].
+- **Current Strategy**: "Row 3 Slide".
+  1. Move Left to (7, 5). (Murkrow -> 7, 4).
+  2. Attempt to Move Up to (7, 4).
+     - If successful (Murkrow -> 7, 3), we are in position!
+     - If bumped, try Reset.
+  3. Once P(7, 4) M(7, 3):
+     - Slide Right to x=10.
+     - Down to x=10, y=5.
+     - Right past wall.
+- **Goal**: Lead Murkrow to Boss Door at (23, 14).
 
 ## Key Info
 - **Passwords**: "RATICATE TAIL", "SLOWPOKETAIL", "HAIL GIOVANNI".
