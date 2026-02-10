@@ -12,26 +12,17 @@
   - Expectation: Murkrow moves to (7, 3).
   - If Failure: Reset Map via Stairs at (3, 2).
 
-## Plan: Murkrow to Shutter (14, 10) - The "Blocked Swap" Algorithm
-1. **Setup Phase**:
-   - Start: P(7, 3), M(7, 2).
-   - Action: Down, Right x3, Down x6.
-   - Result: P(10, 10), M(10, 9).
-     - Note: M passes through Fake Wall (10, 9).
-2. **The Swap (Desync)**:
-   - Action: Left x1.
-     - P -> (9, 10) (Floor).
-     - M -> (10, 9) (Blocked by Wall 9, 9).
-   - Result: P(9, 10), M(10, 9).
-   - Action: Down x1.
-     - P -> (9, 10) (Blocked by Wall 9, 11).
-     - M -> (10, 10) (Floor).
-   - Result: P(9, 10), M(10, 10). (Murkrow is now Right/Down of Player).
+## Plan: Murkrow to Shutter (14, 10) - The "Code Path"
+1. **Initial**: P(10, 2), M(7, 2).
+2. **Setup**:
+   - Down x6 to (10, 8). (Murkrow -> 7, 8).
+   - Right x3 to (13, 8). (Murkrow -> 10, 8).
+   - Down x2 to (13, 10). (Murkrow -> 10, 10).
 3. **Delivery**:
-   - Action: Right x4.
-   - Result: P(13, 10), M(14, 10).
-4. **Finish**:
-   - Action: Interact/Face Right.
+   - Right x4. 
+   - P blocked at (15, 10) (Shutter).
+   - If Murkrow moves while P blocked, M -> (14, 10).
+   - If not, alternate plan needed from P(13, 10), M(10, 10).
 
 ## Trap Data
 - Warp Traps at (26, 9), (26, 10), (24, 11), (25, 11).
