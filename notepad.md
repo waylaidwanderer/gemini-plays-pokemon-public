@@ -1,33 +1,26 @@
 # Team Rocket HQ - Murkrow Puzzle
 
-## STRATEGY: "The Col 28 Inversion"
-Target: M(22, 14).
+## RESET COMPLETE
+- **Status**: Re-entering Hideout from Souvenir Shop.
+- **Goal**: Navigate B1F -> B2F (25, 2).
 
-## Current Status (Turn 36413)
-- **Player**: (6, 2) -> Moving to (28, 2).
-- **Murkrow**: (6, 2) (Synced).
-
-## Step 1: Sync X at Col 28
-- Move Right to P(28, 2). M(28, 2).
-- (Col 28 is fully clear 1-16).
-
-## Step 2: Vertical Separation
-- Move Down 14 -> P(28, 16).
-- M(28, 2) -> Up 14 -> Hits Wall at 0 -> M(28, 0). (Actually stops at 1).
-- State: P(28, 16), M(28, 1).
-
-## Step 3: Invert Positions
-- Move Up 15 -> P(28, 1).
-- M(28, 1) -> Down 15 -> M(28, 16). (Wait, is M clear? Yes).
-- State: P(28, 1), M(28, 16). (Or 15, depending on boundary).
-
-## Step 4: The Ratchet (Col 26)
-- Left 2 -> P(26, 1), M(26, 16).
-- Down 14 -> P(26, 15).
-- M(26, 16) -> Up 14 -> Hits Wall at 11 -> M(26, 12).
-- State: P(26, 15), M(26, 12).
-
-## Step 5: Finish
-- Left 4 -> P(22, 15), M(22, 12).
-- Up 2 -> P(22, 13), M(22, 14).
-- Interact.
+## Strategy: "The Double Cross" (Once on B2F)
+1. **Sync X**: Go to P(1, 2). M hits West Wall.
+   - State: P(1, 2), M(1, 2).
+2. **Ratchet Y (Col 6)**:
+   - Go to P(6, 2).
+   - Down to P(6, 16). M Up to (6, 1) [Blocked].
+   - State: P(6, 16), M(6, 1).
+3. **Drop M (Col 5)**:
+   - Left to P(5, 16). M(5, 1).
+   - Up to P(5, 2). M Down to (5, 15).
+   - State: P(5, 2), M(5, 15).
+4. **Ratchet Y (Col 26)**:
+   - Right to P(26, 2). M(26, 15).
+   - Down to P(26, 15). M Up to (26, 11) [Blocked at 10].
+   - State: P(26, 15), M(26, 11).
+5. **Finish**:
+   - Left to P(22, 15). M(22, 11).
+   - Up 2 to P(22, 13). M(22, 13).
+   - Up 1 to P(22, 12). M(22, 14).
+   - Interact.
