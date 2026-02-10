@@ -5,12 +5,11 @@
 - **Secondary**: Defeat Team Rocket Executives.
 
 ## Murkrow Puzzle (B2F)
-- **Status**: Player (7, 4), Murkrow (7, 2).
-- **Hypothesis**: **Follow Mechanics**. Murkrow might move to the tile the Player just vacated?
-- **Test**: Move **Up** to (7, 3).
-  - Expectation: Murkrow stays at (7, 2) (Collision/No Move).
-- **Next**: Interact with Murkrow. Then Move **Down**.
-  - If Follow logic holds: Murkrow moves to (7, 3).
+- **Status**: Player (7, 3), Murkrow (7, 2).
+- **Action**: Press **A** to interact/check message.
+- **Reasoning**: Ensure Murkrow isn't "asleep" or requiring activation.
+- **Next**: Move **Down** to (7, 4).
+  - Expectation: Murkrow moves (7, 2) -> (7, 3) (Mimic at Range 1).
 
 ## Map Notes
 - **Walls**: (6, 2) and (8, 2) block Murkrow at Row 2.
