@@ -5,12 +5,11 @@
 - **Secondary**: Defeat Team Rocket Executives.
 
 ## Murkrow Puzzle (B2F)
-- **Status**: Player (10, 5), Murkrow (10, 4).
+- **Status**: Player (10, 10), Murkrow (10, 9).
 - **Strategy**: "Check Shutters".
-  1. Move Down to (10, 10).
-  2. Move Right to (13, 10).
-  3. Inspect Shutters at (14, 11) and (15, 11).
-  4. If locked, attempt to use Passwords or find switch.
+  1. Move Right to (13, 10). (Murkrow -> 13, 9).
+  2. Inspect Shutters at (14, 11) and (15, 11).
+  3. If locked, reconsider switches or desync strategy.
 - **Goal**: Lead Murkrow to Boss Door at (23, 14).
 
 ## Key Info
