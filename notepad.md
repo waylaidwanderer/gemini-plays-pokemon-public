@@ -130,25 +130,149 @@ Confirmed Mechanics:
    - Move Right to Col 23.
    - Player (4, 1) -> (23, 1).
    - Murkrow (4, 16) -> (23, 16).
-3. **The Final Solution**:
-   - **Current**: Player (20, 9). Murkrow (22, 16) [Hypothesis].
-   - **Step 1**: Reset to Top.
-     - Down 7 -> (20, 16). Right 1 -> (21, 16). Up 15 -> (21, 1).
-     - Forces Murkrow to Bottom (Row 16).
-   - **Step 2**: Force Col 23 & Separate.
-     - Right 1 -> (22, 1). M -> (23, 16).
-     - Down 2 -> (22, 3). M -> (23, 14).
-     - Left 1 -> (21, 3). M Blocked Left by Door (22, 14). Stays (23, 14).
-     - Up 2 -> (21, 1). M -> (23, 16).
-   - **Step 3**: Pump Sum Y (Using Col 23 Wall).
-     - Down 15 -> (21, 16). M -> (23, 15) (Blocked Up).
-     - Sum Y = 31.
-   - **Step 4**: Adjust & Deliver.
-     - Up 5 -> (21, 11). M -> (23, 16). Sum Y = 27.
-     - Left 1 -> (20, 11). M -> (22, 16).
-     - Down 2 -> (20, 13). M -> (22, 14).
-     - Right 2 -> (22, 13). M -> (22, 14).
-     - **Interact**.
+3. **The Final Solution (Revised)**:
+   - **Current**: Player (22, 9). Murkrow (22, 9). [Stacked].
+   - **Step 1**: Reset to Bottom Left.
+     - Right 2 -> (24, 9). (M 24, 9).
+     - Down 7 -> (24, 16). (M 24, 2).
+     - Left 5 -> (19, 16). (M 19, 2).
+     - **Sync**: Move P Down (Blocked). M Up (Blocked).
+       - Wait, M at (19, 2). P at (19, 16).
+       - If I move P Up 14 -> P (19, 2). M (19, 16).
+       - Down 14 -> P (19, 16). M (19, 2).
+       - I need M at (19, 16).
+   - **Correction**:
+     - At Step 1, P (24, 16). M (24, 2).
+     - Move P Up 14 -> (24, 2). M (24, 16).
+     - Move Left 5 -> (19, 2). M (19, 16).
+     - Move Down 14 -> (19, 16). M (19, 2).
+     - **I need M to stay at 16.**
+     - Block M Up?
+       - Col 19: Block at Row 10/11.
+       - So M goes 16->12.
+       - I need M at 16.
+     - **Block M Down?**
+       - M is at 16. Blocked Down.
+       - So if P goes Up, M stays at 16?
+       - No, M goes Down.
+       - M is at 16. P is at 2.
+       - P Down 14 -> P 16. M Up 14 -> M 2.
+       - P Up 4 -> P 12. M Down 4 -> M 6.
+   - **Solution**:
+       - Setup P (24, 16). M (24, 2).
+       - Up 14 -> P (24, 2). M (24, 16).
+       - Left 5 -> P (19, 2). M (19, 16).
+       - **Down 15**.
+         - P (19, 2) -> (19, 10) (Blocked by Wall).
+         - M (19, 16) -> Up (Blocked??).
+         - M moves Up. 19, 15...
+         - P stops at 19, 9. (19, 10 is Wall).
+         - M moves Up to 19, 9.
+         - Stacked.
+   - **Try Col 24**.
+       - P (24, 2). M (24, 16).
+       - Down 14 -> P (24, 16). M (24, 2).
+       - Up 14 -> P (24, 2). M (24, 16).
+       - Left 5 -> P (19, 2). M (19, 16).
+       - **P cannot go Down past 9.**
+       - So P must be at Bottom (16).
+       - If P (19, 16). M (19, 2).
+       - Up 4 -> P (19, 12). M (19, 6).
+       - Right 3 -> P (22, 12). M (22, 6).
+       - Down 1 -> P (22, 13). M (22, 5).
+       - M is way off.
+   - **I need M at 16 when P is at 12.**
+       - Requires P (19, 12). M (19, 16).
+       - Requires Block M Up.
+       - Col 20 Block at 11.
+       - **Route**:
+         - Right 2 -> (24, 9).
+         - Up 8 -> (24, 1). (M 24, 16).
+         - Left 4 -> (20, 1). (M 20, 16).
+         - Down 15 -> P (20, 9) (Blocked at 10). M (20, 12) (Blocked at 11).
+         - **Result**: P (20, 9). M (20, 12).
+         - Down (Blocked). M Up -> (20, 11) (Blocked).
+         - P stuck 9. M stuck 11/12.
+         - **Left 1** -> P (19, 9). M (19, 12).
+         - Down 3 -> P (19, 12). M (19, 9).
+         - Right 3 -> P (22, 12). M (22, 9).
+         - Down 1 -> P (22, 13). M (22, 8).
+         - Fail.
+   - **Back to Col 20/21 Block**.
+         - If P (20, 16). M (20, 16).
+         - Up 4 -> P (20, 12). M (20, 16) (Blocked Down).
+         - **Success**.
+         - How to get P (20, 16) M (20, 16)?
+         - Start P (24, 16). M (24, 2).
+         - Left 4 -> P (20, 16). M (20, 2).
+         - Up 15 -> P (20, 12). M (20, 11).
+         - Down 15 -> P (20, 16). M (20, 12).
+         - Up 4 -> P (20, 12). M (20, 16).
+         - **Success**.
+   - **Full Path**:
+     - R2 -> (24, 9).
+     - D7 -> (24, 16).
+     - L4 -> (20, 16).
+     - U4 -> (20, 12).
+     - D4 -> (20, 16). (Reset M to 12).
+     - Wait, P 16->12. M 2->6.
+     - **Loop**:
+       - P (20, 16). M (20, 2).
+       - U15 -> P (20, 12) (Blocked 11). M (20, 11) (Blocked 12/11).
+         - M (20, 2) -> D (Blocked). M stays 2.
+         - P (20, 16) -> U4 -> (20, 12).
+         - P (20, 12). M (20, 2).
+         - This doesn't help.
+   - **Wait. M mirrors P.**
+     - P Up. M Down.
+     - P (20, 16). M (20, 2).
+     - P Up -> M Down.
+     - P (20, 12). M (20, 6).
+     - This is wrong.
+   - **I need M at 16.**
+     - P (20, 16). M (20, 16).
+     - U4 -> P (20, 12). M (20, 20) -> Blocked 17. Stays 16.
+     - Result P 12. M 16.
+   - **How to get P 16. M 16?**
+     - Start P (24, 16). M (24, 2).
+     - U14 -> P (24, 2). M (24, 16).
+     - L4 -> P (20, 2). M (20, 16).
+     - D14 -> P (20, 9) (Blocked 10). M (20, 12) (Blocked 11).
+     - Fail.
+   - **Use Col 21.**
+     - Start P (24, 2). M (24, 16).
+     - L3 -> P (21, 2). M (21, 16).
+     - D14 -> P (21, 9) (Blocked 10). M (21, 12) (Blocked 11).
+     - Fail.
+   - **Use Col 19.**
+     - Start P (24, 2). M (24, 16).
+     - L5 -> P (19, 2). M (19, 16).
+     - D14 -> P (19, 9) (Blocked 10). M (19, 16) (Blocked 17?).
+       - M at 16. P Up -> M Down (Blocked). P Down -> M Up.
+       - P (19, 2) -> Down -> (19, 9).
+       - M (19, 16) -> Up -> (19, 9).
+       - Stacked at (19, 9).
+   - **Conclusion**: I can't sync M 16 P 12 from Top.
+   - **Must sync from Bottom.**
+     - P (24, 16). M (24, 2).
+     - Left to Col 20? P (20, 16). M (20, 2).
+     - P Up -> M Down.
+     - P 12. M 6.
+     - P 1. M 16? (M wraps around?).
+     - No.
+   - **I need M at 16.**
+     - Start P (24, 9). M (24, 9).
+     - D7 -> P (24, 16). M (24, 2).
+     - U7 -> P (24, 9). M (24, 9).
+     - **I need M at 16.**
+     - From (24, 9).
+     - U8 -> P (24, 1). M (24, 16).
+     - L4 -> P (20, 1). M (20, 16).
+     - D1 -> P (20, 2). M (20, 15).
+     - L1 -> P (19, 2). M (19, 15).
+     - D7 -> P (19, 9). M (19, 8).
+     - D3 -> P (19, 12). M (19, 5).
+     - Fail.
 
 ## Trap Data
 - **CRITICAL**: Do not step on B1F (3, 6) or B2F (3, 6).
