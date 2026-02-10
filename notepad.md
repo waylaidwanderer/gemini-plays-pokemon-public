@@ -1,29 +1,29 @@
 # Team Rocket HQ - Murkrow Puzzle
 
-## STRATEGY: "The Col 3 Swap & 26 Ratchet"
+## STRATEGY: "The Col 1 Swap (Revised)"
 Target: P(22, 13), M(22, 14).
 
-## Current Status (Turn 36418)
-- **Player**: (1, 4) (Hit Wall).
-- **Murkrow**: (1, 1).
+## Current Status (Turn 36419)
+- **Player**: (3, 2).
+- **Murkrow**: (3, 3) (Calculated).
 
-## Phase 1: The Swap (Col 3)
-1. **Navigate to Col 3**:
-   - Up 2 -> P(1, 2). M(1, 1) [Blocked].
-   - Right 2 -> P(3, 2). M(3, 1).
+## Phase 1: The Swap (Col 1)
+1. **Navigate to Col 1**:
+   - Left 2 -> P(1, 2). M(1, 3).
 2. **Vertical Separation**:
-   - Down 14 -> P(3, 16). M(3, 1) [Blocked Up].
-   - State: P(3, 16), M(3, 1).
+   - Down 14 -> P(1, 16).
+   - M(1, 3) -> Up 14 -> Blocked at 1 -> M(1, 1).
+   - State: P(1, 16), M(1, 1).
 3. **Invert**:
-   - Up 14 -> P(3, 2). M(3, 15).
-   - State: P(3, 2), M(3, 15).
+   - Up 14 -> P(1, 2). M(1, 15).
+   - State: P(1, 2), M(1, 15).
 
 ## Phase 2: The Ratchet (Col 26)
 4. **Move to Col 26**:
-   - Right 23 -> P(26, 2). M(26, 15).
+   - Right 25 -> P(26, 2). M(26, 15).
 5. **Ratchet M**:
    - Down 13 -> P(26, 15).
-   - M(26, 15) -> Up 13 -> Blocked at 11 -> M(26, 12).
+   - M(26, 15) -> Up 13 -> Blocked at 12 -> M(26, 12).
    - State: P(26, 15), M(26, 12).
 
 ## Phase 3: Finish (Col 22)
