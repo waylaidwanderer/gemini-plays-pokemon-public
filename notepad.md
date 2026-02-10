@@ -131,21 +131,23 @@ Confirmed Mechanics:
    - Player (4, 1) -> (23, 1).
    - Murkrow (4, 16) -> (23, 16).
 3. **The Final Solution**:
-   - **Current**: Player (22, 9). Murkrow (22, 8) [Hypothesis - Trapped].
-   - **Step 1**: Untrap & Relocate.
-     - Move Right to (26, 9).
-     - Move Up to (26, 8). Murkrow Down to (22, 9) [Untrapped Y].
-     - Move Up to (26, 1). Murkrow Down to (22, 16) [Untrapped X - Bottom Corridor].
-   - **Step 2**: Sync X.
-     - Move Right to (28, 1). Murkrow Right to (28, 16) [Synced].
-     - Move Left to (26, 1). Murkrow Left to (26, 16).
-   - **Step 3**: The Crate Block.
-     - Move Down to (26, 6). Murkrow Up to (26, 11).
-     - Move Down to (26, 16). Murkrow Blocked at (26, 10). Stays (26, 11).
-     - Result: Player (26, 16). Murkrow (26, 11). Sum=27.
-   - **Step 4**: Delivery.
-     - Move Left to (22, 16). Murkrow to (22, 11).
-     - Move Up to (22, 13). Murkrow to (22, 14) (ON DOOR).
+   - **Current**: Player (20, 9). Murkrow (22, 16) [Hypothesis].
+   - **Step 1**: Reset to Top.
+     - Down 7 -> (20, 16). Right 1 -> (21, 16). Up 15 -> (21, 1).
+     - Forces Murkrow to Bottom (Row 16).
+   - **Step 2**: Force Col 23 & Separate.
+     - Right 1 -> (22, 1). M -> (23, 16).
+     - Down 2 -> (22, 3). M -> (23, 14).
+     - Left 1 -> (21, 3). M Blocked Left by Door (22, 14). Stays (23, 14).
+     - Up 2 -> (21, 1). M -> (23, 16).
+   - **Step 3**: Pump Sum Y (Using Col 23 Wall).
+     - Down 15 -> (21, 16). M -> (23, 15) (Blocked Up).
+     - Sum Y = 31.
+   - **Step 4**: Adjust & Deliver.
+     - Up 5 -> (21, 11). M -> (23, 16). Sum Y = 27.
+     - Left 1 -> (20, 11). M -> (22, 16).
+     - Down 2 -> (20, 13). M -> (22, 14).
+     - Right 2 -> (22, 13). M -> (22, 14).
      - **Interact**.
 
 ## Trap Data
