@@ -11,11 +11,17 @@
 - **Mimicry Logic**: Murkrow did not follow 'Down' movement after password reveal.
 
 ## Navigation Plan
-- **Goal**: Reach Boss Door at (23, 14).
-- **Route**: South to Row 8 -> East to (10, 8) -> South through Fake Wall (10, 9) -> East/South to target.
+- **Goal**: Reach Boss Door at (23, 14) to test "HAIL GIOVANNI" password.
+- **Route**:
+  1. Go to Stairs at (3, 2) (Exit B2F NW). **AVOID TRAP AT (3, 6).**
+  2. Take Stairs to B1F.
+  3. Navigate B1F to Stairs at (27, 14) (SE Corner).
+  4. Take Stairs down to B2F (27, 14).
+  5. Walk West to Boss Door at (23, 14).
 
 ## Trap Data
-- Warp Traps: (26, 9), (26, 10), (24, 11), (25, 11).
+- **CRITICAL**: Do not step on (3, 6). It is a warp trap.
+- Warp Traps: (26, 9), (26, 10), (24, 11), (25, 11), (3, 6).
 - Murkrow Blockers: Row 2 (Desks), Row 9 (Walls).
 - Safe Path: Col 11 via Row 6.
 [Turn 36092] "HAIL GIOVANNI" displayed. Closing text box. Next: Visual confirm clear screen, then Move Down.
