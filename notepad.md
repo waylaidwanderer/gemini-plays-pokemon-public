@@ -5,12 +5,11 @@
 - **Secondary**: Defeat Team Rocket Executives.
 
 ## Murkrow Puzzle (B2F)
-- **Status**: Player (13, 10). Murkrow [LOST/RESET].
-- **Observation**: Murkrow is not at (10, 9). It likely reset or got stuck during the move south.
-- **Action**: Check Shutters at (14, 11).
-  - If OPEN: Path to Boss Door is clear (but need bird).
-  - If LOCKED: Need to find switch OR use bird to bypass via Row 5/8 slide.
-- **Next Step**: Go back to (7, 2) to retrieve bird.
+- **Status**: Player (13, 11). Murkrow [LOST/RESET].
+- **Action**: Attempting to pass Shutter at (14, 11).
+  - If blocked: Return to (7, 2) for Murkrow.
+  - If open: Proceed to Boss Door.
+- **Goal**: Lead Murkrow to Boss Door at (23, 14).
 
 ## Key Info
 - **Boss Door**: Needs Voice ID (Murkrow).
