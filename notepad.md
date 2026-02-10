@@ -5,14 +5,15 @@
 - **Secondary**: Defeat Team Rocket Executives.
 
 ## Murkrow Puzzle (B2F)
-- **Status**: Player (7, 4). Murkrow expected at (7, 3).
-- **Strategy**: "Row 5 Slide".
-  1. Move Down to (7, 4). (Done - checking result).
-  2. Move Right to (10, 4). (Murkrow -> 10, 3).
-  3. Move Down x2 to (10, 6).
+- **Status**: Player (8, 4), Murkrow (8, 3).
+- **Strategy**: "Row 6 Slide".
+  1. Move Right to (10, 4). (Murkrow -> 10, 3).
+  2. Move Down x3 to (10, 7).
      - P(10, 5), M(10, 4).
      - P(10, 6), M(10, 5).
-  4. Slide Right to (14, 6). (Murkrow -> 14, 5).
+     - P(10, 7), M(10, 6).
+  3. Murkrow is on Row 6 (Clear Path). Player on Row 7.
+  4. Slide Right to (14, 7). (Murkrow -> 14, 6).
   5. Check Shutter at (14, 11).
 - **Goal**: Lead Murkrow to Boss Door at (23, 14).
 
@@ -20,6 +21,6 @@
 - **Boss Door**: Needs Voice ID (Murkrow).
 
 ## Map Notes
-- **Walls**: (11, 4) Desk.
-- **Clear Path**: Row 5 is clear (passing under desk). Row 6 is clear.
+- **Walls**: (11, 4) Desk. (11, 5) Chair.
+- **Clear Path**: Row 6 is clear.
 - **Traps**: Warp Trap at (26, 10).
