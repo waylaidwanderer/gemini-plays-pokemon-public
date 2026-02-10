@@ -12,19 +12,21 @@
   - Expectation: Murkrow moves to (7, 3).
   - If Failure: Reset Map via Stairs at (3, 2).
 
-## Plan: The Under-Tree Route (Active)
-- **Goal**: Place P at (14, 12) and M at (14, 10).
-- **Current**: P(7, 5), M(7, 3).
-- **Step 1**: Down to (7, 10). (M -> 7, 8).
-  - *Reason*: Row 8 is safe for M, avoiding Wall at (8, 6).
-- **Step 2**: Right to (10, 10). (M -> 10, 8).
-- **Step 3**: Down to (10, 12). (M -> 10, 10 via Fake Wall).
-- **Step 4**: Right to (14, 12). (M -> 14, 10).
-- **Step 5**: Interact with Shutter (14, 11) or Murkrow.
-
-## Murkrow Mechanics (Verified)
-- **Mimicry**: Active. Relative offset (0, -2).
-- **Reset**: Resets to (7, 2) if led astray.
+## Plan: Murkrow to Shutter (14, 10) - The "Fake Wall" Path
+1. **Start**: P(10, 8), M(7, 7).
+2. **Move Down**: P(10, 9). M(7, 8).
+3. **Move Right** x4 (Burn against Wall 12, 9):
+   - P(11, 9). M(8, 8).
+   - P(12, 9) [Blocked]. M(9, 8).
+   - P(12, 9) [Blocked]. M(10, 8).
+   - P(12, 9) [Blocked]. M(11, 8).
+4. **Move Down**: P(11, 10). M(11, 9).
+5. **Move Right** x2: P(13, 10). M(13, 9).
+6. **Move Down** (Burn against Wall 13, 11):
+   - P(13, 11) [Blocked]. M(13, 10).
+7. **Move Right** (Burn against Shutter 14, 11):
+   - P(14, 11) [Blocked]. M(14, 10).
+8. **Finish**: P(13, 10), M(14, 10). Interact.
 
 ## Trap Data
 - Warp Traps at (26, 9), (26, 10), (24, 11), (25, 11).
