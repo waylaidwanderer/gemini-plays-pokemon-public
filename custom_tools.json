@@ -635,5 +635,20 @@
         "action_counter": 34888
       }
     ]
+  },
+  "scan_tracked_objects": {
+    "description": "Scans the Mental Map XML for all markers that have an 'object_id' attribute, returning their label, coordinates, and object ID. This helps track NPCs and objects objectively.",
+    "input_schema": {
+      "type": "object",
+      "properties": {}
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\ndef get_tracked_objects(xml_string):\n    root = ET.fromstring(xml_string)\n    objects = []\n    \n    for row in root.findall(\"Row\"):\n        y = int(row.get(\"id\"))\n        for tile in row.findall(\"Tile\"):\n            x = int(tile.get(\"id\"))\n            for marker in tile.findall(\"Marker\"):\n                obj_id = marker.get(\"object_id\")\n                if obj_id:\n                    objects.append({\n                        \"label\": marker.text,\n                        \"x\": x,\n                        \"y\": y,\n                        \"object_id\": obj_id,\n                        \"emoji\": marker.get(\"emoji\")\n                    })\n    return objects\n\ntry:\n    # map_xml_string is injected automatically\n    results = get_tracked_objects(map_xml_string)\n    print(json.dumps(results))\nexcept Exception as e:\n    print(json.dumps({\"error\": str(e)}))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-02-10T11:04:00.751Z",
+        "action_counter": 36085
+      }
+    ]
   }
 }
