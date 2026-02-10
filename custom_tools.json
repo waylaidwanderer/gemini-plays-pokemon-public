@@ -671,8 +671,8 @@
       }
     ]
   },
-  "solve_murkrow_col24_filter_v2": {
-    "description": "Executes the 'Col 24 Filter' strategy from (28, 13) with corrected output format.\nPath: Down 3 (to 28,16), Up 15 (Reset P to 9, M to 16), Left 2 (to 26,9), Down 7 (Ratchet M to 12), Left 2 (to 24,16), Up 3 (Stack at 13), Left 2 (to 22,13), Down 1 (Face Door), A.",
+  "solve_murkrow_statue_sandwich": {
+    "description": "Executes the 'Statue Pump & Sandwich' strategy from (25, 13).\n1. Pump M to 7 (Down x5).\n2. Go to 26,16 (Right, Down x3).\n3. Cross to 22,16 (Left x4).\n4. Sync X (Left x6, Right x6).\n5. Pump M to 14 (Up x10).\n6. Loop to Door (Right x4, Up x3, Left x4, Down, A).",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -682,12 +682,12 @@
         }
       }
     },
-    "python_script": "\nprint('[\"Down\", \"Down\", \"Down\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Left\", \"Left\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Left\", \"Left\", \"Up\", \"Up\", \"Up\", \"Left\", \"Left\", \"Down\", \"A\"]')\n",
+    "python_script": "\nprint(f'{{\"buttons\": [\"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Right\", \"Down\", \"Down\", \"Down\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Right\", \"Right\", \"Right\", \"Right\", \"Right\", \"Right\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Right\", \"Right\", \"Right\", \"Right\", \"Up\", \"Up\", \"Up\", \"Left\", \"Left\", \"Left\", \"Left\", \"Down\", \"A\"]}}')\n",
     "history": [
       {
         "commit_message": "Initial version",
-        "timestamp": "2026-02-10T18:38:21.057Z",
-        "action_counter": 36357
+        "timestamp": "2026-02-10T18:45:21.954Z",
+        "action_counter": 36362
       }
     ]
   }
