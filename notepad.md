@@ -1,32 +1,37 @@
 # Team Rocket HQ - Murkrow Puzzle
 
-## SOLVED: The "Double Ratchet" Strategy
-Target State: P(22, 12), M(22, 13). Interact Down.
+## SOLVED: The "Ratchet & Bridge" Strategy
+Target State: P(22, 13), M(22, 14).
 
-## Execution Path
-1. **Setup**:
-   - Start: P(26, 9), M(26, 8).
-   - Up 1 -> P(26, 8), M(26, 9).
-   - Left 4 -> P(22, 8), M(22, 9).
-   - Up 3 -> P(22, 5), M(22, 12). (P Blocked Up at 5).
+## Step 1: Bridge to West (Current)
+1. **Shift M to Bridge Row 7**:
+   - P(26, 8) -> Right 2 -> P(28, 8).
+   - Down 2 -> P(28, 10). M(28, 7).
+2. **Shift P to Bridge Row 7**:
+   - Up 3 -> P(28, 7). M(28, 10).
+3. **Cross West**:
+   - Left 6 -> P(22, 7). M(27, 10) [Blocked by Fake Crate].
 
-2. **Ratchet 1 (M Blocked Up at 5)**:
-   - Down 11.
-   - P 5->16.
-   - M 12->5 (Stops at 5).
-   - State: P(22, 16), M(22, 5).
+## Step 2: The "Col 25" Swap
+4. **Move to Top**:
+   - Up 5 -> P(22, 2). M(27, 15).
+5. **Sync West**:
+   - Left 21 -> P(1, 2). M(1, 15).
+6. **Move South**:
+   - Down 14 -> P(1, 16). M(1, 1).
+7. **Move to Col 25**:
+   - Right 24 -> P(25, 16). M(25, 1).
+8. **Swap N/S**:
+   - Up 14 -> P(25, 2). M(25, 15).
 
-3. **Ratchet 2 (P Blocked Down at 16)**:
-   - Down 8.
-   - P Stays 16.
-   - M 5->13.
-   - State: P(22, 16), M(22, 13).
+## Step 3: The Ratchet
+9. **Move to Col 20**:
+   - Left 5 -> P(20, 2). M(20, 15).
+10. **Ratchet M**:
+    - Down 14 -> P(20, 16). M(20, 11) [Blocked by Wall 10].
 
-4. **Convergence (M Blocked Down at 13)**:
-   - Up 4.
-   - P 16->12.
-   - M 13->13 (Stops at 13, Blocked by Door).
-   - State: P(22, 12), M(22, 13).
-
-5. **Finish**:
-   - Face Down. Press A.
+## Step 4: Finish
+11. **Align**:
+    - Up 3 -> P(20, 13). M(20, 14).
+    - Right 2 -> P(22, 13). M(22, 14).
+12. **Interact**.
