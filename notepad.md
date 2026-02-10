@@ -4,16 +4,17 @@
 **Goal**: Reach Switch at (19, 11) to ensure Shutter is Open.
 **Reason**: Row 4 wall blocks direct access. Must flank via Left Side.
 
-## Step 1: Flank Left (Current)
-1. **Move to Col 9**: Left 6 -> P(9, 3).
-2. **Move to Row 7**: Down 4 -> P(9, 7).
-3. **Move to Col 4**: Left 5 -> P(4, 7).
+## Step 1: Flank Left (Corrected)
+1. **Current Pos**: (7, 5). Stuck on Right side of Statue Wall (Col 6).
+2. **Cross Wall**: Up 2 -> (7, 3). Left 3 -> (4, 3) (Gap at 6,3).
+3. **Descend Left**: Down 13 -> (4, 16).
+   - *Note*: Col 7-9 blocked at Row 14. Must use Col 4.
+   - *Note*: Beware Traps on Row 8-13.
 
-## Step 2: Cross Bottom (Next)
-4. **Enter Trap Zone**: Down 2 -> P(4, 9).
-5. **Cross to Switch**: Right 15 -> P(19, 9).
-6. **Access Switch**: Down/Around to (19, 12) -> Interact (19, 11).
+## Step 2: Cross Bottom
+4. **Avoid Warp (5,15)**: At (4, 16), go Right to (19, 16).
+5. **Access Switch**: Up to (19, 11).
 
 ## Step 3: Reset
-7. **Exit**: Go to (27, 2) or Warp.
-8. **Restart**: "Jed Sandwich".
+6. **Exit**: Go to (27, 2) or Warp.
+7. **Restart**: "Jed Sandwich".
