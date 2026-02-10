@@ -1,38 +1,28 @@
 # Team Rocket HQ - Murkrow Puzzle
 
-## Current Status (Turn 36375)
-- **Player**: (23, 15).
-- **Murkrow**: LOST. Need to locate.
-- **Goal**: Locate Murkrow and reset puzzle.
+## Current Status (Turn 36376)
+- **Player**: (24, 15). M: (23, 15).
+- **Goal**: Open Boss Door at (22, 14).
 
-## The Plan: "Zig-Zag & Statue Pump"
-1. **Setup**: P(24,13), M(24,12).
-2. **Move Right**: P(25,13), M(25,12).
-3. **Statue Pump East**:
-   - Pump Down x5 against (25,14). M moves 12 -> 7.
-   - P(25,13), M(25,7).
-4. **Move to Gap**:
-   - Right 1. P(26,13), M(26,7).
-   - Up 1. P(26,12), M(26,8).
-   - Pump Up 1 (vs 26,11). M(26,9).
-   - State: P(26,12), M(26,9).
-5. **Cross West**:
-   - Left 2. P(24,12), M(24,9).
-6. **Cross South**:
-   - Down 4. P(24,16), M(24,5).
-7. **Align X**:
-   - Left 2. P(22,16), M(22,5).
-8. **Pump M to Target**:
-   - Pump Up x9 against Statue (22,15). M moves 5 -> 14.
-   - P(22,16), M(22,14).
-9. **Position P for Interact**:
-   - Right 2. P(24,16), M(22,14) (Blocked by Wall).
-   - Up 3. P(24,13), M(22,14) (Blocked by Statue).
-   - Left 2. P(22,13), M(22,14) (Blocked by Wall).
-10. **Interact**:
-    - Face Down. Press A.
+## The Plan: "Gap Access Strategy"
+1. **Move to Gap (Col 26)**:
+   - Right 3. P(27,15), M(26,15).
+   - Down 1. P(27,16), M(26,14).
+2. **Pump M North**:
+   - Pump Down x5 against Wall (27,17).
+   - M moves 14 -> 9. State: P(27,16), M(26,9).
+3. **Align West (Col 22)**:
+   - Left 4. P(23,16), M(22,9).
+4. **Pump M South to Door**:
+   - Up 1. P(23,15), M(22,10).
+   - Pump Up x4 against Wall (23,14).
+   - M moves 10 -> 14. Target Reached!
+5. **Open Door**:
+   - M is at (22,14).
+   - P is at (23,15).
+   - Figure out interaction (Face left? Wait?).
 
 ## Mechanics
-- **X**: Parallel.
-- **Y**: Mirror.
-- **M Lock**: At (22,14), M is locked by Wall(W), Wall(E), Statue(S). Can only move N.
+- **Gap**: Row 14, Cols 26-28 are OPEN.
+- **Door**: At (22,14). Statue at (22,15).
+- **M Lock**: At (22,14), M is boxed in. This is likely the solution state.
