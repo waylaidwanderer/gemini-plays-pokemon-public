@@ -5,19 +5,17 @@
 - **Secondary**: Defeat Team Rocket Executives.
 
 ## Murkrow Puzzle (B2F)
-- **Status**: Player (7, 5), Murkrow (7, 2).
-- **Observation**: Last turn (Down) produced no movement. 
-  - Mimic would have moved to (7, 3) (Open). It didn't.
-  - Mirror would have moved to (7, 1) (Open?). It didn't.
-- **Hypothesis**: 
-  - Maybe (7, 1) IS blocked (Mirror blocked).
-  - Maybe it's Mirror, and moving UP will push it DOWN to (7, 3) (Open).
+- **Status**: Player (7, 3), Murkrow (7, 2).
+- **Observation**: I am directly below the Murkrow.
+- **Constraint**: Murkrow blocked from moving Down by Player.
+- **Test**: Move **Down** to (7, 4).
+  - Opens (7, 3) for Murkrow.
+  - **Mimic**: Murkrow -> (7, 3).
+  - **Mirror**: Murkrow -> (7, 1).
 - **Plan**:
-  1. Move **Up** to (7, 4).
-  2. If Murkrow moves to (7, 3): **CONFIRMED MIRROR**.
-     - Then Ratchet: Right -> Left.
-  3. If Murkrow stays: **CONFIRMED STUCK/UNKNOWN**.
-     - Will try interacting.
+  1. Move Down.
+  2. Observe Murkrow.
+  3. If Mimic (at 7, 3): Move Right to (8, 4) to ratchet it out.
 
 ## Map Notes
 
