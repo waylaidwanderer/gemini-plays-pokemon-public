@@ -5,14 +5,14 @@
 - **Secondary**: Defeat Team Rocket Executives.
 
 ## Murkrow Puzzle (B2F)
-- **Status**: Player (9, 5), Murkrow (9, 4).
-- **Observation**: Murkrow is directly North at (9, 4). Mimicry confirmed.
-- **Plan**: Guide Murkrow to Row 5 (Clear Path East).
-  1. Move **Down** to (9, 6). 
-     - Expect Murkrow (9, 4) -> (9, 5).
-  2. Move **Right** to (12, 6).
-     - Murkrow travels along Row 5, passing the wall at (11, 4).
-  3. Navigate towards the eastern area.
+- **Status**: Player (9, 6), Murkrow (7, 2).
+- **CRITICAL CORRECTION**: Visual check confirms Murkrow is at (7, 2), NOT (9, 5).
+- **Error**: Previous "success" was a hallucination or the bird reset off-screen.
+- **Hypothesis**: Range limitation causes Murkrow to stop mimicking/reset.
+- **Plan**:
+  1. Return to proximity (Col 7/8).
+  2. Re-test movement carefully.
+  3. Keep Murkrow ON SCREEN or verify constantly.
 
 ## Map Notes
 - **Walls**: (6, 2) and (8, 2) block Murkrow at Row 2.
