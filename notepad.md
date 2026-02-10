@@ -130,13 +130,15 @@ Confirmed Mechanics:
    - Move Right to Col 23.
    - Player (4, 1) -> (23, 1).
    - Murkrow (4, 16) -> (23, 16).
-3. **The "Sandwich" Success**:
-   - **Status**: Sequence Executed. Player assumed at (22, 15) or (22, 13).
-   - **Hypothesis**: Murkrow is at (22, 12) (North of Door) or (22, 14) (On Door).
-   - **Action**: Interact and Enter.
-     - Press 'A' to confirm open.
-     - Move Up to enter the Executive Room.
-   - **Goal**: Trigger Cutscene/Battle with Executive.
+3. **Recovery & Search**:
+   - **Status**: Position Mismatch detected. Player at (24, 9). Murkrow Unknown.
+   - **Hypothesis**: Input failure or blockage. Murkrow might be stacked or lost in East Room.
+   - **Action**: Sweep East Room to locate Murkrow.
+     - Move Right 4 to (28, 9).
+     - Move Down 7 to (28, 16).
+     - *Check for Murkrow visual*.
+   - **Mechanic Test**: If stacked, moving Down to (28, 16) should separate (Vertical Mirror).
+   - **Goal**: Re-acquire Murkrow visual.
 
 [Turn 36186] Inverted Ratchet - Phase 2.
 - Player at (7, 16). Murkrow at (7, 1).
