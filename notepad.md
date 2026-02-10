@@ -5,20 +5,18 @@
 - **Secondary**: Defeat Team Rocket Executives.
 
 ## Murkrow Puzzle (B2F)
-- **Status**: Player (10, 5), Murkrow (7, 2).
-- **Correction**: Visual confirmation shows Murkrow is NOT at (9, 4) or (10, 4). It is back at (7, 2).
-- **Analysis**: The "Stacking" plan failed because Murkrow stopped following (Range/Wall reset).
-- **Puzzle State**: Murkrow trapped in Col 7 (Walls at x=6, x=8).
-- **Solution Path**:
-  1. Murkrow MUST exit Col 7 via (7, 3) -> (8, 3) because (7, 1) is a dead end (Walls at 6,1 and 8,1).
-  2. To move Murkrow to (7, 3), I must trigger a Y-axis move without blocking (7, 3).
-  3. Player cannot be in Col 7 during the move.
+- **Status**: Player (8, 5), Murkrow (7, 2).
+- **Goal**: Escape Column 7.
 - **Plan**:
-  1. Return to (8, 5).
-  2. Move **Down** to (8, 6).
-     - If Mimic: Murkrow (7, 2) -> (7, 3).
-     - If Mirror: Murkrow (7, 2) -> (7, 1) (Bad).
-  3. If that fails, try moving **Up** from (8, 6) to (8, 5) (Mirror check).
+  1. Move **Left** to (7, 5). Murkrow tries Left (Blocked), Stays at (7, 2).
+  2. Move **Down** to (7, 6). Murkrow (Mimic) -> (7, 3).
+  3. Move **Down** to (7, 7). Murkrow (Mimic) -> (7, 4).
+  4. Move **Down** to (7, 8). Murkrow (Mimic) -> (7, 5).
+  5. Move **Right** to (8, 8). Murkrow (Mimic) -> (8, 5). **ESCAPED**.
+- **Constraint Check**: 
+  - (8, 6) and (8, 7) are Trees (Walls).
+  - (8, 8) is Open.
+  - This path requires Murkrow to mimic 4 consecutive moves.
 
 ## Map Notes
 
