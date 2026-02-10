@@ -5,14 +5,12 @@
 - **Secondary**: Defeat Team Rocket Executives.
 
 ## Murkrow Puzzle (B2F)
-- **Status**: Player (7, 4), Murkrow (7, 3).
+- **Status**: Player (8, 4), Murkrow (8, 3).
 - **Current Strategy**: "Row 3 Slide".
-  1. Move Left to (7, 5). (Done).
-  2. Move Up to (7, 4). (Done - checking result).
-  3. Once P(7, 4) M(7, 3):
-     - Slide Right to x=10.
-     - Down to x=10, y=5.
-     - Right past wall.
+  1. Move Right to (8, 4). (Done - checking result).
+  2. Continue Right to (10, 4). (Murkrow -> 10, 3).
+  3. Move Down to (10, 6). (Murkrow -> 10, 5).
+  4. Move Right past wall at x=11.
 - **Goal**: Lead Murkrow to Boss Door at (23, 14).
 
 ## Key Info
