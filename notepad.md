@@ -5,19 +5,23 @@
 - **Secondary**: Defeat Team Rocket Executives.
 
 ## Murkrow Puzzle (B2F)
-- **Status**: Player Moving to (7, 4). Murkrow at (7, 2).
-- **Plan**:
-  1. Reach (7, 4).
-  2. Verify Tether (Move Down to 7, 5 -> Murkrow to 7, 3).
-  3. Execute "Row 6 Slide" (Keep M on Row 6).
-     - Row 6 is clear of obstacles.
-     - Player walks on Row 7 or 8.
+- **Status**: Player (8, 8). Murkrow expected at (7, 7) [Blocked].
+- **Strategy**: "The Plant Pivot".
+  1. Move Right to (8, 8). M tries (8, 7) -> Blocked by Plant.
+     - Result: P(8, 8), M(7, 7).
+  2. Move Right to (9, 8). M tries (8, 7) -> Blocked by Plant.
+     - Result: P(9, 8), M(7, 7).
+  3. Move Up to (9, 6). M -> (7, 5).
+  4. Move Right to (10, 6). M -> (8, 5).
+  5. Move Down to (10, 8). M tries (8, 6) -> Blocked by Plant.
+     - Result: P(10, 8), M(8, 5). (Gap 3).
+  6. Slide Right to Victory.
 - **Goal**: Lead Murkrow to Boss Door at (23, 14).
 
 ## Key Info
 - **Boss Door**: Needs Voice ID (Murkrow).
 
 ## Map Notes
-- **Walls**: x=15 is a solid wall on most rows. Shutters are the only path east.
-- **Crossing**: Row 12 is clear, but requires passing shutters to reach.
+- **Walls**: Plants at (8, 6) and (8, 7) are key blocks.
+- **Clear Path**: Row 5 and Row 8 are the safe aisles.
 - **Traps**: Warp Trap at (26, 10).
