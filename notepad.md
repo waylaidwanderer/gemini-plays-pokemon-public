@@ -5,15 +5,13 @@
 - **Secondary**: Defeat Team Rocket Executives.
 
 ## Murkrow Puzzle (B2F)
-- **Status**: Player (7, 3), Murkrow (7, 2).
-- **Action**: Clearing dialogue ("The password is...").
-- **Next Step**: Move **Down** to (7, 4).
-- **Predictions**:
-  - **Mimic (Simple)**: Murkrow (7, 2) -> (7, 3).
-  - **Mimic (Complex)**: Murkrow (7, 2) -> (8, 3) (Like Turn 35658).
-  - **Mirror**: Murkrow (7, 2) -> (7, 1) (Blocked?).
-  - **Range Limit**: Stays if move fails to trigger.
-- **Goal**: Escape Column 7 to (8, 3).
+- **Status**: Player (7, 4), Murkrow (7, 2) [Pending Verification].
+- **Action**: Cleared text and moved **Down** to (7, 4).
+- **Hypothesis**: Murkrow should now be at (7, 3) (Mimic).
+- **Scientific Verification Needed**: Check Game State/Map for Murkrow coordinates.
+  - If (7, 3): **SUCCESS**. Next: Move Right to (8, 4) to ratchet.
+  - If (7, 2): **FAILURE**. Range limit or State logic issue.
+  - If (7, 1): **MIRROR CONFIRMED**.
 
 ## Map Notes
 - **Walls**: (6, 2) and (8, 2) block Murkrow at Row 2.
