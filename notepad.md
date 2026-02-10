@@ -5,27 +5,22 @@
 - **Secondary**: Defeat Team Rocket Executives.
 
 ## Murkrow Puzzle (B2F)
-- **Status**: Player (7, 4) -> Moving to (7, 3). Murkrow at (7, 2).
-- **Strategy**: "Re-sync & Slide".
-  1. Move Up to (7, 3).
-     - Scenario A: Murkrow moves to (7, 1). Gap = 2.
-     - Scenario B: Murkrow stays at (7, 2). Gap = 1.
-  2. Move Down to (7, 6).
-     - A: P(7, 6), M(7, 4).
-     - B: P(7, 6), M(7, 5).
-  3. Move Right to (10, 6).
-     - A: P(10, 6), M(10, 4).
-     - B: P(10, 6), M(10, 5).
-  4. Move Down to Row 8 (Player).
-     - A: P(10, 8), M(10, 6). (Row 6 is Clear).
-     - B: P(10, 8), M(10, 7). (Row 7 is Clear).
-  5. Slide Right to (14, 8).
+- **Status**: Player Moving to (7, 10). Murkrow expected at (7, 9).
+- **Strategy**: "The Row 9 Wall Desync".
+  1. Move Down to (7, 10). P(7, 10), M(7, 9).
+  2. Move Right to (10, 10). 
+     - Murkrow is blocked by Walls on Row 9.
+     - Result: P(10, 10), M(7, 9).
+  3. Move Down to (10, 11). M(7, 9) -> (7, 10).
+  4. Move Up/Down maneuver to force M to (8, 8) while P is at (10, 11).
+     - Target Gap: 3 Rows.
+  5. Final Slide: P on Row 8, M on Row 5.
 - **Goal**: Lead Murkrow to Boss Door at (23, 14).
 
 ## Key Info
 - **Boss Door**: Needs Voice ID (Murkrow).
 
 ## Map Notes
-- **Walls**: Chairs at Row 5 and Row 8.
-- **Clear Path**: Row 6 and Row 7 are the safe aisles.
+- **Walls**: Row 9 is a wall. Use it to block Murkrow.
+- **Crossing**: P(Row 8) / M(Row 5) is the clear path.
 - **Traps**: Warp Trap at (26, 10).
