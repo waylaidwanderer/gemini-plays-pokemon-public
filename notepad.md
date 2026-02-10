@@ -1,26 +1,31 @@
 # Team Rocket HQ - Murkrow Puzzle
 
-## Status: Executing "The Double Cross"
-- **Player**: Moving to (1, 2).
-- **Goal**: Sync Murkrow at (1, 2).
+## STRATEGY: "The Col 1 Inversion"
+Target: P(22, 13), M(22, 14).
 
-## Strategy: "The Double Cross" (Once on B2F)
-1. **Sync X**: Go to P(1, 2). M hits West Wall.
-   - State: P(1, 2), M(1, 2).
-2. **Ratchet Y (Col 6)**:
-   - Go to P(6, 2).
-   - Down to P(6, 16). M Up to (6, 1) [Blocked].
-   - State: P(6, 16), M(6, 1).
-3. **Drop M (Col 5)**:
-   - Left to P(5, 16). M(5, 1).
-   - Up to P(5, 2). M Down to (5, 15).
-   - State: P(5, 2), M(5, 15).
-4. **Ratchet Y (Col 26)**:
-   - Right to P(26, 2). M(26, 15).
-   - Down to P(26, 15). M Up to (26, 11) [Blocked at 10].
-   - State: P(26, 15), M(26, 11).
-5. **Finish**:
-   - Left to P(22, 15). M(22, 11).
-   - Up 2 to P(22, 13). M(22, 13).
-   - Up 1 to P(22, 12). M(22, 14).
-   - Interact.
+## Current Status (Turn 36416)
+- **Player**: (1, 2).
+- **Murkrow**: (1, 2) (Synced).
+
+## Step 1: Invert Y (Col 1)
+- Down 14 -> P(1, 16). M(1, 1).
+- Up 14 -> P(1, 2). M(1, 15).
+
+## Step 2: Navigate to Col 26
+- Right 20 -> P(21, 2). M(21, 15).
+- Up 1 -> P(21, 1). M(21, 16).
+- Right 2 -> P(23, 1). M(23, 16).
+- Down 1 -> P(23, 2). M(23, 15).
+- Right 3 -> P(26, 2). M(26, 15).
+
+## Step 3: Ratchet Y (Col 26)
+- Down 13 -> P(26, 15). M(26, 12) (Blocked at 11).
+
+## Step 4: Align X (Col 22)
+- Left 3 -> P(23, 15). M(23, 12).
+- Left 1 -> P(23, 15) [Blocked]. M(22, 12).
+
+## Step 5: Final Approach
+- Up 2 -> P(23, 13). M(22, 14).
+- Left 1 -> P(22, 13). M(22, 14) [Blocked].
+- Interact.
