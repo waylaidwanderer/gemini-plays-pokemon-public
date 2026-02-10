@@ -671,8 +671,8 @@
       }
     ]
   },
-  "solve_murkrow_final_strat": {
-    "description": "Executes the 'Col 24 Filter' strategy to stack Murkrow and Player at (22, 13).",
+  "solve_murkrow_statue_lock": {
+    "description": "Executes the 'Statue Lock' strategy.\n1. Move to Bottom-Right (28,16).\n2. Ratchet on Col 28 (Up 15 -> P28,9 M28,16).\n3. Invert on Col 22 (Left 6 -> Down 7 -> P22,16 M22,9).\n4. Pump Statue (Up 5 -> P22,16 M22,14).\n5. Circle to Door (Right 4 -> Up 3 -> Left 4 -> P22,13 M22,14).\n6. Interact.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -682,12 +682,12 @@
         }
       }
     },
-    "python_script": "\nprint('[\"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Left\", \"Left\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Left\", \"Left\", \"Up\", \"Up\", \"Up\", \"Left\", \"Left\", \"A\"]')\n",
+    "python_script": "\nprint(f'{{\"buttons\": [\"Right\", \"Right\", \"Right\", \"Right\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Right\", \"Right\", \"Right\", \"Right\", \"Up\", \"Up\", \"Up\", \"Left\", \"Left\", \"Left\", \"Left\", \"A\"]}}')\n",
     "history": [
       {
-        "commit_message": "Final Strategy: Col 28 Reset -> Col 26 Ratchet -> Col 24 Filter -> Delivery.\nButtons: Up x15, Left x2, Down x7, Left x2, Up x3, Left x2, A.",
-        "timestamp": "2026-02-10T18:18:03.487Z",
-        "action_counter": 36343
+        "commit_message": "Initial version",
+        "timestamp": "2026-02-10T18:29:58.781Z",
+        "action_counter": 36349
       }
     ]
   }
