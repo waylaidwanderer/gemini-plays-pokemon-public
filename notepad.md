@@ -12,28 +12,26 @@
   - Expectation: Murkrow moves to (7, 3).
   - If Failure: Reset Map via Stairs at (3, 2).
 
-## Plan: Murkrow to Shutter (14, 10) - The Offset Method (Active)
-1. **Initial State**: Player (10, 10), Murkrow (10, 8).
-2. **Align X (Offset)**:
-   - Right to (20, 10).
-   - Murkrow blocked at (14, 8) by Wall (15, 8).
-   - Result: Player (20, 10), Murkrow (14, 8). Offset = 6.
-3. **Position for Drop**:
-   - Left to (16, 10).
-   - Murkrow moves to (10, 8).
-4. **The Drop**:
-   - Down to (16, 12).
-   - Murkrow moves (10, 8) -> (10, 9) -> (10, 10).
-5. **Final Placement**:
-   - Right to (20, 12).
-   - Murkrow moves to (14, 10).
-6. **Interaction**:
-   - Move Up to (20, 11).
-   - Navigate to Shutter (14, 11) via (14, 12).
+## Plan: Murkrow to Shutter (14, 10) - The "Wall Desync"
+1. **Unstick**: Down to (7, 4). (Murkrow -> 7, 3).
+2. **Setup**: Right x3 to (10, 4). (Murkrow -> 10, 3).
+3. **Descend**: Down x7 to (10, 11). (Murkrow -> 10, 10).
+4. **Desync 1 (Player Blocked)**: 
+   - Right x4. 
+   - Player blocked at (11, 11). Stays (10, 11).
+   - Murkrow moves (10, 10) -> (14, 10).
+5. **Desync 2 (Murkrow Blocked)**:
+   - Up x1.
+   - Player moves to (10, 10).
+   - Murkrow blocked at (14, 9). Stays (14, 10).
+6. **Approach**:
+   - Right x3 to (13, 10).
+   - Murkrow stays (14, 10) (blocked by shutter).
+7. **Interact**: Talk to Murkrow.
 
 ## Trap Data
 - Warp Traps at (26, 9), (26, 10), (24, 11), (25, 11).
-- Avoid (26, 10)! Stop at (20, 10).
+- Path on Col 10 is Safe.
 
 ## Key Info
 - **Boss Door**: Needs Voice ID (Murkrow).
