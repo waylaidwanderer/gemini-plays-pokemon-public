@@ -9,7 +9,7 @@
 - **Switches**: 
   - B1F (6, 1): Statue Switch (West) - Activated Turn 35131.
   - B1F (24, 1): Statue Switch (East) - Activated Turn 35099.
-  - Switches likely toggle shutters. Current state of shutters unknown.
+  - Switches likely toggle shutters. Shutter at (15, 10) confirmed CLOSED.
 
 ## Current State
 - **Location**: B1F (7, 10).
