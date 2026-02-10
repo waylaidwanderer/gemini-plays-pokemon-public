@@ -5,28 +5,23 @@
 - **Secondary**: Defeat Team Rocket Executives.
 
 ## Murkrow Puzzle (B2F)
-- **Status**: Player Moving to (7, 4). Murkrow at (7, 2) [RESET].
-- **Failure Analysis**:
-  - Previous attempt "Row 3 Slide" failed because Murkrow was actually on Row 1 (hit walls) or Row 2 (trapped).
-  - Offset calculation was wrong.
-- **New Plan (The "Row 5/3 Offset")**:
-  1. Return to (7, 4). Murkrow stays at (7, 2).
-  2. Move Down to (7, 5). Murkrow moves to (7, 3).
-     - Gap established: Player +2 Rows from Murkrow.
-  3. Slide Right to (10, 5). Murkrow slides to (10, 3).
-  4. Move Down 3 times to (10, 8).
-     - P(10, 6) -> M(10, 4).
-     - P(10, 7) -> M(10, 5).
-     - P(10, 8) -> M(10, 6).
-  5. Murkrow is now on Row 6 (Clear Path).
-  6. Slide Right along Row 8 (Player) / Row 6 (Murkrow).
+- **Status**: Player (7, 5), Murkrow (7, 3).
+- **Strategy**: "The Gap Widen Maneuver".
+  1. Standard Gap (2): P(7, 5), M(7, 3).
+  2. Move to Col 10: Right -> P(10, 5), M(10, 3).
+  3. Move to Row 10: Down x5 -> P(10, 10), M(10, 8).
+  4. Move to Col 9: Left -> P(9, 10), M(9, 8).
+  5. **THE TRICK**: Move Up.
+     - P(9, 10) -> (9, 9) (Blocked by Wall).
+     - M(9, 8) -> (9, 7) (Clear).
+     - Result: Gap = 3.
+  6. Realign: Right -> P(10, 10). Up x2 -> P(10, 8), M(10, 5).
+  7. Cross: Right past x=13.
 - **Goal**: Lead Murkrow to Boss Door at (23, 14).
 
 ## Key Info
-- **Passwords**: "RATICATE TAIL", "SLOWPOKETAIL", "HAIL GIOVANNI".
 - **Boss Door**: Needs Voice ID (Murkrow).
 
 ## Map Notes
-- **Walls**: Desk at (11, 3)-(13, 4).
-- **Chairs**: Row 5 has chairs (likely solid). Row 6 is clear.
-- **Traps**: Warp Trap at (26, 10).
+- **Walls**: (9, 9) is the key blocking tile.
+- **Crossing**: Row 5 and Row 8 are the only safe pair crossing x=13.
