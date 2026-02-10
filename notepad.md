@@ -130,25 +130,23 @@ Confirmed Mechanics:
    - Move Right to Col 23.
    - Player (4, 1) -> (23, 1).
    - Murkrow (4, 16) -> (23, 16).
-3. **The "Col 25" Solution**:
+3. **The "Sandwich" Solution**:
+   - **Goal**: P(22, 13), M(22, 15). Sandwich the Door.
    - **Current**: P(26, 5), M(26, 12) [Hypothesis].
-   - **Step 1: The Set (Col 26)**.
+   - **Step 1: Reset & Shift**.
      - Up to (26, 1). M -> (26, 16).
-     - Down to (26, 16). M -> (26, 12) [Blocked at 11].
-     - Result: P(26, 16), M(26, 12).
-   - **Step 2: The Shift (Col 25)**.
-     - Left to (25, 16). M -> (25, 12).
-   - **Step 3: The Ratchet (Col 25)**.
-     - Up to (25, 9) [Blocked by Wall at 8].
-       - M moves Down to (25, 16). Blocked at 17. Stays 16.
-     - Result: P(25, 9), M(25, 16). Sum 25.
-   - **Step 4: The Inversion**.
-     - Down to (25, 16). M -> (25, 9).
-     - Result: P(25, 16), M(25, 9).
-   - **Step 5: Delivery**.
-     - Left to (21, 16). M -> (21, 9).
-     - Up to (21, 12). M -> (21, 13).
-     - Right to (22, 12). M -> (22, 13).
+     - Down to (26, 16). M -> (26, 12).
+     - Left to (24, 16). M -> (24, 12).
+   - **Step 2: The Inversion (Col 24)**.
+     - Up to (24, 4) [Wall]. M -> (24, 16) [Wall].
+       - M moves 12->16. Stays 16.
+     - Down to (24, 16). M -> (24, 4).
+     - Result: P(24, 16), M(24, 4).
+   - **Step 3: The Cross**.
+     - Up to (24, 5). M -> (24, 15).
+     - Left to (22, 5). M -> (22, 15).
+   - **Step 4: Delivery**.
+     - Down to (22, 13). M -> (22, 15) [Blocked by Door].
      - **Interact**.
 [Turn 36186] Inverted Ratchet - Phase 2.
 - Player at (7, 16). Murkrow at (7, 1).
