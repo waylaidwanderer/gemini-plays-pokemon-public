@@ -3,27 +3,12 @@
 ## EXECUTION: "The Pinned Murkrow"
 Target: M(22, 14).
 
-## Current Status (Turn 36441)
-- **Player**: (22, 16).
-- **Murkrow**: (22, 2) (Estimated).
+## Current Status (Turn 36444)
+- **Player**: (22, 13) or (23, 13).
+- **Murkrow**: (22, 14) or (22, 13).
+- **Goal**: Confirm Interaction.
 
-## Step 1: Inject M to Door
-- **Action**: Pump Up 13 times.
-- **Logic**:
-  - P is blocked North by Statue (22, 15).
-  - M moves Down (Mirror).
-  - M(22, 2) -> ... -> M(22, 14).
-  - If (22, 14) is walkable, M stays there (Pinned S, E, W).
-  - If (22, 14) is blocked, M stops at (22, 13).
-
-## Step 2: Flank to East
-- **Action**: Right 4 to (26, 16).
-- **Logic**:
-  - If M is at (22, 14), it is blocked East by Wall (23, 14).
-  - M stays at (22, 14).
-  - P moves to (26, 16).
-
-## Step 3: Observe
-- Check M position.
-- If M at 14: Proceed with Flank (Up 3, Left 4).
-- If M at 13: Re-evaluate.
+## Strategy: "The Interaction"
+1. Sequence executed: `R3, U2, L3, A, L, D, A`.
+2. This covers M at (22, 13) or (22, 14).
+3. Verify if Boss Door is open or Password prompt appears.
