@@ -671,8 +671,8 @@
       }
     ]
   },
-  "solve_murkrow_statue_sandwich_v2": {
-    "description": "Executes the corrected 'Statue Pump & Sandwich V2' strategy.\n1. Pump M High (Down x4, Right x1, Down x5). P(26,16) M(26,3).\n2. Align West (Left x4). P(22,16) M(22,3).\n3. Pump M to Door (Up x11). P(22,16) M(22,14).\n4. Loop to Sandwich (Right x4, Up x3, Left x4, Down x1). P(22,13) M(22,15).\n5. Interact (A).",
+  "solve_murkrow_statue_sandwich_v3": {
+    "description": "Executes the 'Statue Pump & Sandwich V3' strategy.\n1. Pump M to 7 (Down x5).\n2. Align 22 (Right, Left x4).\n3. Pump M to 16 (Up x10).\n4. Circle & Sandwich (Right x4, Up x3, Left x4, Down, A).",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -682,12 +682,12 @@
         }
       }
     },
-    "python_script": "\nprint(f'{{\"buttons\": [\"Down\", \"Down\", \"Down\", \"Down\", \"Right\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Left\", \"Left\", \"Left\", \"Left\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Right\", \"Right\", \"Right\", \"Right\", \"Up\", \"Up\", \"Up\", \"Left\", \"Left\", \"Left\", \"Left\", \"Down\", \"A\"]}}')\n",
+    "python_script": "\nprint('[\"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Right\", \"Left\", \"Left\", \"Left\", \"Left\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Right\", \"Right\", \"Right\", \"Right\", \"Up\", \"Up\", \"Up\", \"Left\", \"Left\", \"Left\", \"Left\", \"Down\", \"A\"]')\n",
     "history": [
       {
         "commit_message": "Initial version",
-        "timestamp": "2026-02-10T18:46:16.332Z",
-        "action_counter": 36363
+        "timestamp": "2026-02-10T18:49:39.232Z",
+        "action_counter": 36366
       }
     ]
   }
