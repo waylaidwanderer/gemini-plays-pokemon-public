@@ -1,33 +1,33 @@
 # Team Rocket HQ - Murkrow Puzzle
 
-## RESET & SOLVE: "The Col 28 Lift"
+## STRATEGY: "The Col 28 Inversion"
 Target: M(22, 14).
 
-## Current Status (Turn 36411)
-- **Player**: (12, 2) -> Moving to (1, 2).
-- **Murkrow**: (1, 2) (Synced).
-- **Goal**: Execute "The Double Cross".
+## Current Status (Turn 36413)
+- **Player**: (6, 2) -> Moving to (28, 2).
+- **Murkrow**: (6, 2) (Synced).
 
-## Strategy: "The Double Cross"
-1. **Sync X**: P(1, 2), M(1, 2).
-2. **Ratchet Y (Col 6)**: P(6, 16), M(6, 2).
-3. **Drop M (Col 5)**: P(5, 2), M(5, 16).
-4. **Ratchet Y (Col 26)**: P(26, 15), M(26, 12).
-5. **Finish**: P(22, 13), M(22, 14).
+## Step 1: Sync X at Col 28
+- Move Right to P(28, 2). M(28, 2).
+- (Col 28 is fully clear 1-16).
 
-## The Winning Solution (refined)
-1. **Sync X**: P(27, 2) -> Left 26 -> P(1, 2). M(1, 2).
-2. **Drop M**: 
-   - P(1, 2) -> Down 14 -> P(1, 16). M(1, 1).
-   - P(1, 16) -> Up 15 -> P(1, 1). M(1, 16).
-   - P(1, 1) -> Down 1 -> P(1, 2). M(1, 15).
-3. **Move M to 28**:
-   - P(1, 2) -> Right 27 -> P(28, 2). M(28, 15).
-4. **Lift M to 11**:
-   - P(28, 2) -> Down 4 -> P(28, 6). M(28, 11).
-5. **Move M to 22**:
-   - P(28, 6) -> Left 6 -> P(22, 6). M(22, 11).
-6. **Drop M to Door**:
-   - P(22, 6) -> Up 3 -> P(22, 3). M(22, 14).
-7. **Interact**:
-   - Face Down. Press A.
+## Step 2: Vertical Separation
+- Move Down 14 -> P(28, 16).
+- M(28, 2) -> Up 14 -> Hits Wall at 0 -> M(28, 0). (Actually stops at 1).
+- State: P(28, 16), M(28, 1).
+
+## Step 3: Invert Positions
+- Move Up 15 -> P(28, 1).
+- M(28, 1) -> Down 15 -> M(28, 16). (Wait, is M clear? Yes).
+- State: P(28, 1), M(28, 16). (Or 15, depending on boundary).
+
+## Step 4: The Ratchet (Col 26)
+- Left 2 -> P(26, 1), M(26, 16).
+- Down 14 -> P(26, 15).
+- M(26, 16) -> Up 14 -> Hits Wall at 11 -> M(26, 12).
+- State: P(26, 15), M(26, 12).
+
+## Step 5: Finish
+- Left 4 -> P(22, 15), M(22, 12).
+- Up 2 -> P(22, 13), M(22, 14).
+- Interact.
