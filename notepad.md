@@ -6,21 +6,22 @@
 
 ## Murkrow Mechanics (Verified)
 - **Mimicry**: Intended behavior is mimicry.
-- **Observation**: Moving Right to (8, 3) kept M at (7, 2) (Blocked by desk).
-- **Current State**: Player (8, 3), Murkrow (7, 2).
+- **Observation**: Moving Down to (8, 4) FAILED to pull Murkrow. It stayed at (7, 2).
+- **Current State**: Player Moving to (7, 4). Murkrow at (7, 2).
 
-## Plan: Side-Pull Maneuver
-1. **Current**: Move **Down** to (8, 4).
-   - Expectation: Murkrow mimics Down to (7, 3).
-2. If successful (M at 7, 3):
-   - Move Left to (7, 4). Result: P(7, 4), M(7, 3). Gap 1.
-   - Execute "Gap 1 Bottom Run".
-3. If failed (M stays at 7, 2):
-   - Tether broken. Return to (7, 3) and re-engage.
+## Plan: Re-engage & Gap 1
+1. **Current**: Move **Left** to (7, 4).
+   - Expectation: Murkrow mimics Left -> Blocked by Wall at (6, 2). Stays at (7, 2).
+2. Move **Up** to (7, 3).
+   - Expectation: Murkrow stays or moves to (7, 1).
+   - Goal: Get adjacent (Gap 1).
+3. Once adjacent (P at 7, 3; M at 7, 2):
+   - Interact to refresh tether.
+   - Move **Down** carefully.
 
 ## Key Info
 - **Boss Door**: Needs Voice ID (Murkrow).
 - **Map**: 
   - (7, 0) Wall.
-  - (8, 2) Desk (Block).
+  - (6, 2) Wall.
   - (15, 13) Gap.
