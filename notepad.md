@@ -5,14 +5,14 @@
 - **Secondary**: Defeat Team Rocket Executives.
 
 ## Murkrow Puzzle (B2F)
-- **Status**: Player (7, 4), Murkrow (7, 2).
-- **Plan**: Position for Mimicry.
-  1. Move **Right** to (8, 4).
-     - Murkrow (7, 2) tries Right -> Blocked by (8, 2) Wall -> Stays (7, 2).
-  2. Move **Down** to (8, 5).
-     - Murkrow (7, 2) tries Down -> (7, 3).
-  3. Move **Right** to (9, 5).
-     - Murkrow (7, 3) tries Right -> (8, 3). **ESCAPE**.
+- **Status**: Player (8, 4), Murkrow (7, 2).
+- **Action**: Moving **Down** to (8, 5).
+- **Expectation**:
+  - **Mimic**: Murkrow (7, 2) -> (7, 3).
+  - **Mirror**: Murkrow (7, 2) -> (7, 1).
+- **Next Step**:
+  - If (7, 3): Move **Right** to (9, 5) -> Murkrow (8, 3).
+  - If (7, 1): Re-evaluate (Mirror Logic).
 
 ## Map Notes
 
