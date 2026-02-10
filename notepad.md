@@ -20,3 +20,5 @@
 - Warp Traps: (26, 9), (26, 10), (24, 11), (25, 11).
 - Murkrow Blockers: Row 2 (Desks), Row 9 (Walls).
 - Safe Path: Col 11 via Row 6.
+[Turn 35996] Murkrow reset to (7, 2). My previous attempt failed, possibly due to moving too fast or collision invisible to me. I'm going back to re-acquire.
+Strategy adjustment: Move slower and verify Murkrow position after each major segment.
