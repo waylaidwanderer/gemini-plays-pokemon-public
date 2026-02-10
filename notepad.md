@@ -130,21 +130,28 @@ Confirmed Mechanics:
    - Move Right to Col 23.
    - Player (4, 1) -> (23, 1).
    - Murkrow (4, 16) -> (23, 16).
-3. **The Sum-27 Solution (Col 25 Variant)**:
-   - **Current**: P(26, 9), M(26, 9).
-   - **Step 1: Setup M at (25, 15)**.
-     - Left to (25, 9). Down to (25, 16).
-       - M moves Up to (25, 5) (Blocked by Wall at 25, 4).
-     - Up to (25, 6).
-       - M moves Down to (25, 15).
-   - **Step 2: The Ratchet**.
-     - Right to (26, 6). M -> (26, 15).
-     - Down to (26, 15).
-       - M moves Up to (26, 12) (Blocked by Wall at 26, 11).
-     - Result: P(26, 15), M(26, 12). Sum 27.
-   - **Step 3: Delivery**.
-     - Left to (22, 15). M -> (22, 12).
-     - Up to (22, 13). M -> (22, 14).
+3. **The Zig-Zag Ratchet**:
+   - **Current**: P(25, 13), M(25, 5).
+   - **Step 1: The "Wall 24" Shift**.
+     - Left to (24, 13). Down 3 to (24, 16).
+       - M (24, 5) -> Up 3 -> Blocked by Wall (24, 4). Stays 5.
+     - Up 3 to (24, 13).
+       - M (24, 5) -> Down 3 -> (24, 8).
+     - Result: P(24, 13), M(24, 8).
+   - **Step 2: The East Side Traverse**.
+     - Right 4 to (28, 13). M -> (28, 8).
+     - Up 4 to (28, 9).
+       - M (28, 8) -> Down 4 -> (28, 12).
+     - Left 2 to (26, 9). M -> (26, 12).
+     - Up 3 to (26, 6).
+       - M (26, 12) -> Down 3 -> (26, 15).
+   - **Step 3: The "Wall 11" Block**.
+     - Down 9 to (26, 15).
+       - M (26, 15) -> Up 9 -> Blocked by Wall (26, 11). Stays 12.
+     - Result: P(26, 15), M(26, 12).
+   - **Step 4: Delivery**.
+     - Left 4 to (22, 15). M -> (22, 12).
+     - Up 2 to (22, 13). M -> (22, 14).
      - **Interact**.
 [Turn 36186] Inverted Ratchet - Phase 2.
 - Player at (7, 16). Murkrow at (7, 1).
