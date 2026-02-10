@@ -130,19 +130,15 @@ Confirmed Mechanics:
    - Move Right to Col 23.
    - Player (4, 1) -> (23, 1).
    - Murkrow (4, 16) -> (23, 16).
-3. **The Solution Path**:
-   - **Insight**: Col 22 blocked at Row 4. MUST use Col 9 Gap for Vertical Transfer.
-   - **Step 1**: Move Left to Col 9.
-     - Player (26, 5) -> (9, 5).
-     - Murkrow (26, 12) -> (9, 12).
-   - **Step 2**: Sync at Col 9.
-     - Move UP to (9, 1). Murkrow DOWN to (9, 16) [Sync Check].
-     - Move DOWN to (9, 15). Murkrow UP to (9, 2) [Sync Check].
-   - **Step 3**: Delivery.
-     - Player (9, 15) -> UP to (9, 3).
-     - Murkrow (9, 2) -> DOWN to (9, 14).
-     - Move Right to (22, 3/14).
-     - **Interact with Boss Door**.
+3. **The Crossing**:
+   - **Insight**: Col 23 is a wall from Row 9-13. Murkrow must cross at Row 16.
+   - **Step 1**: Move Down to (25, 6). Murkrow to (26, 11).
+   - **Step 2**: Move Left to (21, 6). Murkrow Stuck at (24, 11) (Wall).
+   - **Step 3**: Move UP to (21, 1). Murkrow DOWN to (24, 16) (Clear).
+   - **Step 4**: Move Left to (19, 1). Murkrow Left to (22, 16).
+   - **Step 5**: Align Player to (21, 1). Murkrow at (22, 16).
+   - **Step 6**: Move Down to (21, 4). Murkrow Up to (22, 13).
+   - **Step 7**: The Squeeze & Delivery. Move Down to (21, 13).
 
 ## Trap Data
 - **CRITICAL**: Do not step on B1F (3, 6) or B2F (3, 6).
