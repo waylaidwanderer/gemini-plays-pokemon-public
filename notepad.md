@@ -6,9 +6,9 @@
 
 ## Murkrow Puzzle (B2F)
 - **Status**: Player at (7, 3). Murkrow at (7, 2).
-- **Action**: In Dialogue.
-- **Next Step**: Once dialogue ends, Move Down to (7, 4).
-- **Expectation**: Murkrow should follow to (7, 3). (Gap 1).
+- **Action**: Dialogue Complete.
+- **Next Step**: Move Down to (7, 4).
+- **Expectation**: Murkrow mimics Down to (7, 3). (Gap 1).
 - **Strategy**: "Gap 1 Bottom Run".
   1. Move Down to (7, 13).
   2. Move Right to (15, 13).
