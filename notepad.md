@@ -35,3 +35,7 @@ Action: Returning to (7, 3) to test 'Move Right' (Buffer) hypothesis.
 [Turn 36069] Cleared "HAIL GIOVANNI" text. Ready to move Right to (8, 3).
 [Turn 36070] Moved Right to (8, 3). Murkrow should remain at (7, 2) due to desk blockage. Next: Move Down to see if it moves to (7, 3).
 [Turn 36071] Moving Down to (8, 4). Expectation: Murkrow moves to (7, 3). Will verify next turn.
+[Turn 36072] SUCCESS! Visual confirmation: Murkrow moved to (7, 3). The 'Pull' (Down) maneuver worked.
+Current State: P(8, 4), M(7, 3).
+Next Step: Move Right to (9, 4). Expecting Murkrow to move Right to (8, 3).
+Plan: Cross the room to the right, keeping Murkrow on Row 3.
