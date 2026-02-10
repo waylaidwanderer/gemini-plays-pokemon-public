@@ -133,13 +133,14 @@ Confirmed Mechanics:
 3. **The Ultimate Sync**:
    - **Current**: Player (24, 7). Murkrow (24, 10).
    - **Step 1**: Go to Gap (Col 9) to reset Y.
-     - Down to (24, 16). Left to (9, 16).
-     - Up to (9, 1). Murkrow to (9, 16). (Sum=17).
+     - Route: Left to (19, 7). Down to (19, 16) (Via Secret Passage). Left to (9, 16).
+     - Murkrow: (24, 10) -> (19, 10) -> (19, 1) -> (9, 1).
+     - Result: Player (9, 16). Murkrow (9, 1).
    - **Step 2**: The Crate Block (Col 26).
-     - Right to (26, 1). Murkrow to (26, 16).
-     - Down to (26, 6). Murkrow to (26, 11).
-     - Down to (26, 16). Murkrow Blocked at (26, 10).
-     - Result: Player (26, 16). Murkrow (26, 11). (Sum=27).
+     - Right to (26, 16). Murkrow Right to (26, 1).
+     - Up to (26, 11). Murkrow Down to (26, 6).
+     - Down to (26, 16). Murkrow Up to (26, 10) [Blocked by Crate].
+     - Result: Player (26, 16). Murkrow (26, 11).
    - **Step 3**: Delivery.
      - Left to (22, 16). Murkrow to (22, 11).
      - Up to (22, 13). Murkrow to (22, 14) (ON DOOR).
