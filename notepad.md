@@ -131,11 +131,13 @@ Confirmed Mechanics:
    - Player (4, 1) -> (23, 1).
    - Murkrow (4, 16) -> (23, 16).
 3. **The Reset & Delivery**:
-   - **X-Align**: Move Right to (28, 9) -> Murkrow hits Right Wall (Col 28).
-   - Move Left to (23, 9) -> Murkrow to Col 23.
-   - **Y-Align**: Move UP to (23, 1) -> Murkrow hits Bottom (Row 16).
-   - **The Setup**: Move DOWN to (23, 15) -> Murkrow hits Top (Row 2).
-   - **The Delivery**: Move UP to (23, 3) -> Murkrow hits Boss Door (Row 14).
+   - **Correction**: Main Corridor is Col 22 (Boss Door at 22, 14).
+   - **Escape**: (24, 9) is blocked North. Go Right to (26, 9) -> Up -> Left.
+   - **X-Align**: Move Right to Wall (Col 23/28) -> Murkrow hits Wall.
+   - **Y-Align**: Move UP to Top (Row 1) -> Murkrow hits Bottom (Row 16).
+   - **The Delivery**: 
+     - Move DOWN to (22, 15). Murkrow to (22, 2).
+     - Move UP to (22, 3). Murkrow to (22, 14).
 
 ## Trap Data
 - **CRITICAL**: Do not step on B1F (3, 6) or B2F (3, 6).
