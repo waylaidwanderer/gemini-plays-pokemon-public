@@ -130,24 +130,25 @@ Confirmed Mechanics:
    - Move Right to Col 23.
    - Player (4, 1) -> (23, 1).
    - Murkrow (4, 16) -> (23, 16).
-3. **The "South-East Ratchet"**:
-   - **Correction**: Row 4 is blocked. Cannot reach (26, 1). Trapped in South-East Room.
-   - **Current**: P(26, 5).
-   - **Step 1: X-Sync**.
-     - Right 2 to (28, 5). M -> (28, X).
-     - Left 2 to (26, 5). M -> (26, X).
-   - **Step 2: Y-Prime (Force M to Bottom)**.
-     - Down 11 to (26, 16).
-       - M moves Up. Might hit Wall 4 or Crate 11.
-     - Up 11 to (26, 5).
-       - M moves Down. Hits Wall 16. Ends at 16.
-   - **Step 3: The Ratchet**.
-     - Down 11 to (26, 16).
-       - M moves Up. Blocked by Crate (26, 11). Ends at 12.
+3. **The "Col 28 & 26 Ratchet" (Definitive)**:
+   - **Current**: P(26, 9), M(26, 5).
+   - **Step 1: Shift to Col 28**.
+     - Up 4 to (26, 5). M -> (26, 9).
+     - Right 2 to (28, 5). M -> (28, 9).
+   - **Step 2: Force M to Bottom**.
+     - Up 10 to (28, 5) [Blocked].
+       - M moves Down to (28, 16).
+     - Result: P(28, 5), M(28, 16).
+   - **Step 3: Setup for Ratchet**.
+     - Down 4 to (28, 9). M -> (28, 12).
+     - Left 2 to (26, 9). M -> (26, 12).
+   - **Step 4: The Ratchet**.
+     - Down 7 to (26, 16).
+       - M moves Up. Blocked by Crate at (26, 11). Stays 12.
      - Result: P(26, 16), M(26, 12).
-   - **Step 4: Delivery**.
+   - **Step 5: Delivery**.
      - Left 4 to (22, 16). M -> (22, 12).
-     - Up 3 to (22, 13). M -> (22, 15) [Sandwich].
+     - Up 3 to (22, 13). M -> (22, 14).
      - **Interact**.
 
 [Turn 36186] Inverted Ratchet - Phase 2.
