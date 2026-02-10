@@ -1,14 +1,14 @@
 # Team Rocket HQ - Murkrow Puzzle
 
-## Active Attempt: "The Reel In"
-**Current State**: P(24, 9). M(18, 13) (Hypothesized).
-**Goal**: Pull Murkrow East to verify position.
+## Active Attempt: "The Big Reel"
+**Current State**: P(28, 9). M(Unknown).
+**Goal**: Force Murkrow East into visible range.
 
 ## The Plan
-1. **Pull M East**:
-   - Move Right 5 times.
-   - P moves to (28, 9) and bonks.
-   - M moves Right from (18, 13) -> (23, 13).
-   - **CHECK**: M should appear on screen near Col 22-24.
-2. **Next Steps**:
-   - Once M is visible, perform "The Mathematical Ratchet" or "Pin & Flank".
+1. **The Reel**:
+   - Pump Right 15 times against the wall at (29, 9).
+   - This forces Murkrow to move East until he hits an obstacle or enters the visible area (Cols 20-28).
+2. **Visual Confirmation**:
+   - After pumping, scan the immediate area (Rows 2-14, Cols 20-28) for Murkrow.
+3. **Next Steps**:
+   - Once located, resume pinning/flanking strategy.
