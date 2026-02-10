@@ -130,23 +130,16 @@ Confirmed Mechanics:
    - Move Right to Col 23.
    - Player (4, 1) -> (23, 1).
    - Murkrow (4, 16) -> (23, 16).
-3. **The "Col 28 Convergence" (Final)**:
-   - **Logic**: Use Col 28 Wall at (28, 8) to set M above P, then converge at Row 13.
-   - **Step 1: Reset to (28, 1)**.
-     - Right 6 to (28, 16). M -> (28, 11).
-     - Up 15 to (28, 1). M -> (28, 16).
-   - **Step 2: The Ratchet**.
-     - Down 15 to (28, 16).
-       - M Up 15. Blocked at (28, 8). Stays (28, 9).
-     - Result: P(28, 16), M(28, 9).
-   - **Step 3: Convergence**.
-     - Up 3 to (28, 13).
-       - M Down 3 to (28, 12).
-     - Result: P(28, 13), M(28, 12).
-   - **Step 4: Delivery**.
-     - Left 6 to (22, 13). M -> (22, 12).
-     - **Interact** (Face Down).
-     - P(13). M(12). Door(14). M is Dist 2 from Door.
+3. **Current Status & Recovery**:
+   - **Position**: Player at (22, 16) (South of Statue).
+   - **Constraint**: Path North blocked by Statue at (22, 15).
+   - **Murkrow**: Hypothesized at (22, 9) (North).
+   - **Goal**: Reach Boss Door interaction point at (22, 13).
+   - **Plan**: 
+     1. Move East to (26, 16) to bypass the statue.
+     2. Move North to Row 13.
+     3. Move West to (22, 13).
+     4. Verify Murkrow alignment during transit.
 
 [Turn 36186] Inverted Ratchet - Phase 2.
 - Player at (7, 16). Murkrow at (7, 1).
