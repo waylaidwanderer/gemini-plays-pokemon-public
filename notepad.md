@@ -4,15 +4,22 @@
 - **Primary**: Open Boss Door at B2F (23, 14).
 - **Secondary**: Defeat Team Rocket Executives.
 
-## Murkrow Puzzle (B2F)
-- **Status**: Dialogue "HAIL GIOVANNI" Closing. Player (7, 3), Murkrow (7, 2).
-- **Action**: Closing text.
-- **Next Move**: Move Down to (7, 4).
-- **Expectation**: Murkrow mimics Down to (7, 3). (Gap 1).
-- **Strategy**: "Gap 1 Bottom Run".
-  1. Move Down to (7, 13).
-  2. Move Right to (15, 13).
-  3. Proceed East.
+## Murkrow Mechanics (Verified)
+- **Mimicry**: Murkrow generally moves in the *same direction* as the Player (e.g., Player Down -> Murkrow Down).
+- **Obstacles**: 
+  - If Murkrow hits a wall, it stays in place (Desync opportunity).
+  - If Player hits a wall, no movement occurs.
+- **Tether/Range**: 
+  - Murkrow stops following if the gap becomes too large (likely > 2 tiles).
+  - Interaction (talking) re-engages the tether.
+- **Current State**: Player (7, 3), Murkrow (7, 2). In Dialogue.
+
+## Plan: Gap 1 Bottom Run
+1. Finish Dialogue ("HAIL GIOVANNI").
+2. Move **Down** to (7, 4).
+   - Expectation: Murkrow moves to (7, 3).
+3. If successful, continue Down to (7, 13).
+4. Navigate East through the gap at (15, 13).
 
 ## Key Info
 - **Boss Door**: Needs Voice ID (Murkrow).
