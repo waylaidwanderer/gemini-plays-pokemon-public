@@ -130,23 +130,23 @@ Confirmed Mechanics:
    - Move Right to Col 23.
    - Player (4, 1) -> (23, 1).
    - Murkrow (4, 16) -> (23, 16).
-3. **The "Golden Path" Strategy**:
-   - **Logic**: Use Col 26 Crate (Row 10) to ratchet Murkrow while both are in Lower Section.
-   - **Step 1: Sync at (22, 9)**.
-     - Move Left to (22, 16). M -> (22, 2).
-     - Move Up 7 to (22, 9). M -> (22, 9).
-     - Result: P(22, 9), M(22, 9). (Stacked/Synced).
-   - **Step 2: Setup at (26, 7)**.
-     - Move Right 4 to (26, 9). M -> (26, 9).
-     - Move Up 2 to (26, 7). M -> (26, 11).
-   - **Step 3: The Ratchet**.
-     - Move Down 9 to (26, 16).
-       - M moves Up. Blocked by Crate at (26, 10). Stays (26, 11).
-     - Result: P(26, 16), M(26, 11). Sum 27.
+3. **The "Col 28 Convergence" (Final)**:
+   - **Logic**: Use Col 28 Wall at (28, 8) to set M above P, then converge at Row 13.
+   - **Step 1: Reset to (28, 1)**.
+     - Right 6 to (28, 16). M -> (28, 11).
+     - Up 15 to (28, 1). M -> (28, 16).
+   - **Step 2: The Ratchet**.
+     - Down 15 to (28, 16).
+       - M Up 15. Blocked at (28, 8). Stays (28, 9).
+     - Result: P(28, 16), M(28, 9).
+   - **Step 3: Convergence**.
+     - Up 3 to (28, 13).
+       - M Down 3 to (28, 12).
+     - Result: P(28, 13), M(28, 12).
    - **Step 4: Delivery**.
-     - Left 4 to (22, 16). M -> (22, 11).
-     - Up 3 to (22, 13). M -> (22, 14).
-     - **Interact**.
+     - Left 6 to (22, 13). M -> (22, 12).
+     - **Interact** (Face Down).
+     - P(13). M(12). Door(14). M is Dist 2 from Door.
 
 [Turn 36186] Inverted Ratchet - Phase 2.
 - Player at (7, 16). Murkrow at (7, 1).
