@@ -86,3 +86,10 @@ Action: Moving Left to (7, 2) to interact and re-establish link.
 ## Murkrow Mechanics
 - **Horizontal**: Parallel (Right -> Right).
 - **Vertical**: To Be Confirmed (Likely Parallel given the stack).
+[Turn 36171] Murkrow not visible at (8, 1) or (7, 1). Likely stacked at (7, 2).
+Action: Move Right to (8, 2).
+Hypothesis:
+- If Stacked + Horizontal Parallel: Moves to (8, 2) (Still Stacked).
+- If Stacked + Horizontal Mirror: Moves to (6, 2) (Visible).
+- If Stacked + Horizontal Inactive: Stays at (7, 2) (Visible).
+- If at (8, 1) + Parallel: Moves to (9, 1) (Visible).
