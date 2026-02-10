@@ -5,16 +5,17 @@
 - **Secondary**: Defeat Team Rocket Executives.
 
 ## Murkrow Puzzle (B2F)
-- **Status**: Player (7, 3), Murkrow (7, 2).
-- **Correction**: Player is at (7, 3). Previous move to (7, 4) was blocked by text.
-- **Action**: Clearing text ("HAIL GIOVANNI") and Moving **Down** to (7, 4).
-- **Scientific Observation**:
-  - **Start**: Player (7, 3), Murkrow (7, 2).
-  - **Move**: Down.
-  - **Expectation**:
-    - **Mimic**: Murkrow -> (7, 3).
-    - **Mirror**: Murkrow -> (7, 1).
-    - **Stuck**: Murkrow -> (7, 2).
+- **Status**: Player (7, 4), Murkrow (7, 2).
+- **Result**: Moving Down from (7, 3) to (7, 4) FAILED. Murkrow stayed at (7, 2).
+- **Analysis**: Simple Mimic/Mirror failed at Range 1.
+- **Theory**: The "Magic Move" (Turn 35658) might be the key.
+  - Setup: Player at (8, 3). Move Down.
+  - Result: Murkrow (7, 2) -> (8, 3).
+  - This looks like a specific "Follow" or "Diagonal Mimic" behavior.
+- **Plan**:
+  1. Move **Right** to (8, 4).
+  2. Move **Up** to (8, 3).
+  3. Move **Down** to (8, 4) (Recreate the magic).
 
 ## Map Notes
 - **Walls**: (6, 2) and (8, 2) block Murkrow at Row 2.
