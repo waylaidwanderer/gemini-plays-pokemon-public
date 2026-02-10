@@ -5,14 +5,13 @@
 - **Secondary**: Defeat Team Rocket Executives.
 
 ## Murkrow Puzzle (B2F)
-- **Status**: Player Moving to (7, 5). Murkrow expected at (7, 4).
+- **Status**: Player Moving to (8, 5). Murkrow expected at (8, 4).
 - **Plan**: "The Column 10 Secret".
-  1. Move Down to (7, 5). (M -> 7, 4).
-  2. Move Right to (10, 5). (M -> 10, 4).
-  3. Move Down Column 10.
+  1. Move Right to (10, 5). (M -> 10, 4).
+  2. Move Down Column 10.
      - Pass (10, 9) (Fake Wall).
      - Continue to Row 13.
-  4. Move Right to Boss Door.
+  3. Move Right to Boss Door.
 - **Goal**: Lead Murkrow to Boss Door at (23, 14).
 
 ## Key Info
