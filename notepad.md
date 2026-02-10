@@ -1,14 +1,19 @@
 # Team Rocket HQ - Murkrow Puzzle
 
-## FINAL SOLUTION: "The Col 26 Ratchet to Door"
-Target: P(22, 13), M(22, 14).
+## Status: Searching for Murkrow
+- **Player**: (24, 13) -> Moving to (26, 6).
+- **Murkrow**: LOST (Likely Row 1 or 2).
+- **Goal**: Visually confirm Murkrow's location.
 
-## Current Status (Turn 36447)
-- **Player**: (24, 9).
-- **Murkrow**: LOST.
-- **Goal**: Search for Murkrow.
+## Plan
+1. Move Right 2 to (26, 13).
+2. Move Up 7 to (26, 6).
+3. Scan rows 1-5 for Murkrow.
+4. Once found, calculate solution.
 
-## Search Plan
-1. Move South-West to (22, 16).
-2. Check if Murkrow is visible near the Door or South wall.
-3. If not found, sweep West side (Col 1-5).
+## Known Mechanics
+- **X**: Parallel movement.
+- **Y**: Mirrored movement.
+- **Murkrow Reset**: Exiting to Souvenir Shop resets M to (7, 2).
+- **Col 26**: Blocked at Row 11 (Solid Obstacle).
+- **Col 4**: Clear from 2-14.
