@@ -6,28 +6,27 @@
 
 ## Mechanics
 - **Mimicry**: Murkrow COPIES input.
-- **Switches**: B1F Statues/Computers *should* open B2F shutters.
-- **Hypothesis**: Defeating Grunts near the switches activates them or provides the key.
+- **Switches**: 
+  - B1F (6, 1): Statue Switch (West) - Activated Turn 35131.
+  - B1F (24, 1): Statue Switch (East) - Activated Turn 35099.
+  - Switches likely toggle shutters. Current state of shutters unknown.
 
 ## Current State
+- **Location**: B1F (7, 10).
+- **Goal**: Reach NE Stairs at B1F (27, 2) to access East side of B2F.
+- **Observation**: Access to East side depends on Shutter at (15, 10).
 
-# Reflection (Turn 35411)
-- Progress: Located Murkrow, Password requirements, and Boss Door.
-- Issue: Repeatedly losing track of Murkrow and hitting walls.
-- Correction: MUST use `simulate_murkrow` or visual confirmation before moving when Murkrow is off-screen.
-- Plan:
-  1. Warp to B2F.
-  2. Verify Murkrow at (7, 2).
-  3. Scan B2F Column 7 for obstacles (Grunts/Traps).
-  4. Execute "Align and Push" with obstacle awareness.
+## Plan
+1. Move East to check Shutter at B1F (15, 10).
+2. If Open: Proceed to NE Stairs (27, 2).
+3. If Closed: 
+   - Check if toggling the switch at (6, 1) again helps.
+   - Or search for other switches in Central Area.
+4. Once in East Side (B2F):
+   - Go to SE Corner (27, 14).
+   - Find switches/keys for Boss Door/Shutters.
+   - Solve Murkrow puzzle if needed (Murkrow is at B2F West).
 
-- Status: At B2F (3, 2).
-- Fact: B2F SW Corner (3, 14) has NO stairs.
-- Fact: B1F West side is blocked.
-- Plan:
-  1. Return to B1F via stairs (3, 2).
-  2. Navigate to NE Stairs at B1F (27, 2).
-  3. Take stairs to B2F (27, 2).
-  4. Navigate South to SE Corner B2F (27, 14).
-  5. Search SE area for switches/keys to unlock shutters.
-- Correction: The 'Fake Wall' at (6, 1) is solid. Path to East is likely South at row 10.
+## Murkrow Strategy
+- Use `simulate_murkrow` before moving.
+- Trap it against walls/obstacles to align it.
