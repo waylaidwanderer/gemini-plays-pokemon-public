@@ -59,3 +59,4 @@ Hypothesis: The Murkrow stops following if I move too far quickly, or get blocke
 [Turn 36080] Screen clear. Moving Down to (7, 4). Expectation: Murkrow moves to (7, 3).
 [Turn 36081] FAIL. Murkrow remained at (7, 2). Direct 'Down' move broke the link or failed to trigger mimicry.
 Action: Moving Up to (7, 3) to re-engage. Will test 'Move Right' (Buffer) next.
+[Turn 36082] Interacting with Murkrow at (7, 3). Next: Confirm text, Clear text, Move Right.
