@@ -130,23 +130,24 @@ Confirmed Mechanics:
    - Move Right to Col 23.
    - Player (4, 1) -> (23, 1).
    - Murkrow (4, 16) -> (23, 16).
-3. **The "Col 28" Stack Solution**:
-   - **Current**: P(22, 16), M(22, 11).
-   - **Step 1: Prep Sum 28**.
-     - Move Up 1 to (22, 15) [Blocked]. M -> (22, 12).
-     - Result: P(22, 16), M(22, 12).
+3. **The "Stack & Split" Solution**:
+   - **Current**: P(22, 16), M(22, 11) [Hypothesis].
+   - **Step 1: Prep**.
+     - P Up 1 (Bump Statue). M Down 1 -> (22, 12).
    - **Step 2: Traverse to Col 28**.
      - Right 6 to (28, 16). M -> (28, 12).
    - **Step 3: The Ratchet**.
-     - Up 6 to (28, 10).
-       - M moves Down 6. Hits (28, 16). Stays 16.
-     - Result: P(28, 10), M(28, 16). Sum 26.
+     - Up 6 to (28, 10). M Down 6 -> (28, 16) [Wall].
    - **Step 4: The Stack**.
-     - Down 3 to (28, 13). M -> (28, 13).
-     - Result: P(28, 13), M(28, 13).
-   - **Step 5: Delivery**.
-     - Left 6 to (22, 13). M -> (22, 13).
-     - **Interact**.
+     - Down 3 to (28, 13). M Up 3 -> (28, 13). **STACKED**.
+   - **Step 5: The Split**.
+     - Up 1 to (28, 12). M Down 1 -> (28, 14).
+     - Left 6 to (22, 12).
+       - M Left -> Blocked at (23, 14) Wall. Stays (24, 14).
+     - Down 1 to (22, 13). M Up 1 -> (24, 13).
+   - **Step 6: Delivery**.
+     - **Interact** at (22, 13).
+     - M is at (24, 13). Dist = 2. Hopefully works.
 [Turn 36186] Inverted Ratchet - Phase 2.
 - Player at (7, 16). Murkrow at (7, 1).
 - Col 7 has a wall at (7, 4) which will block Murkrow.
