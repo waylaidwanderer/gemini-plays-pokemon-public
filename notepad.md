@@ -4,20 +4,23 @@
 - **Primary**: Open Boss Door at B2F (23, 14).
 - **Secondary**: Defeat Team Rocket Executives.
 
-## Mechanics
-- **Mimicry**: Murkrow COPIES input (Mirrored).
-- **Switches**: 
-  - B1F (24, 1): Statue Switch (East) - Activated Turn 35099.
-  - B1F (6, 1): Likely NOT a switch or already activated.
-  - Switches toggle shutters.
+## Murkrow Puzzle (B2F)
+- **Status**: Player (3, 2), Murkrow (7, 2).
+- **Goal**: Guide Murkrow to Boss Door (23, 14).
+- **Mechanics**: Murkrow mimics inputs.
+- **Plan**:
+  1. **Ratchet West**: Move Left to (1, 2) to pin Murkrow against wall at (6, 2).
+     - Expected: Murkrow stays at (7, 2).
+  2. **Enter Central**: Move Right to (5, 2), Down to (5, 10), Right through gap at (6, 10).
+  3. **Ratchet Central**: Use Locked Shutter at (15, 10) to pin Murkrow again.
+     - Player moves to (10, 10), Murkrow pinned at (14, 10).
+  4. **Guide to Door**: Maneuver Murkrow to (23, 14).
 
-## B2F Status
-- **Goal**: Enter Central Area via North Corridor (Row 1).
-- **Target**: Murkrow in Central Area (likely Col 21-22).
-- **Strategy**: Cross from East Wing to Central Area at (23, 1). Locate Murkrow. Guide to Door.
+## Map Notes
+- **Walls**: (6, 2) separates NW and N areas.
+- **Shutters**: (15, 10) likely Locked.
+- **Traps**: Warp Trap at (26, 10) - AVOID.
 
-## Action Queue
-1. Move to (24, 1).
-2. Move Left to cross wall at (23, 1).
-3. Move South in Central Area to find Murkrow.
-4. Solve Mimicry Puzzle to open Boss Door.
+## History
+- Switches pressed: B1F (24, 1) and B1F (6, 1).
+- Passwords found: "RATICATE TAIL", "SLOWPOKETAIL", "HAIL GIOVANNI".
