@@ -5,13 +5,11 @@
 - **Secondary**: Defeat Team Rocket Executives.
 
 ## Murkrow Puzzle (B2F)
-- **Status**: Player (9, 6), Murkrow (7, 2).
-- **Obstacle**: (8, 6) is a Wall. Moving Left failed.
-- **Path**: Up to (9, 5) -> Left to (7, 5).
-- **Protocol**: **Scientific Method**.
-  1. Return to (7, 5).
-  2. Verify Murkrow position.
-  3. Move **Up** to (7, 4) and verify.
+- **Status**: Player (7, 5), Murkrow (7, 2).
+- **Test**: Move **Up** to (7, 4).
+  - **Hypothesis**: Murkrow should mimic (Up to 7, 1) or mirror (Down to 7, 3).
+  - **Constraint**: Previous attempts at this distance failed. Testing if proximity fixes it.
+- **Verification**: Check Game State/Map after move.
 
 ## Map Notes
 - **Walls**: (6, 2) and (8, 2) block Murkrow at Row 2.
