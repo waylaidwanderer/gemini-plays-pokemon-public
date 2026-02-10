@@ -41,3 +41,6 @@ Action: Inputting 'A, B, B' to Advance -> Close -> Safety (without triggering in
 Expectation: Clean screen next turn.
 [Turn 36107] Still stuck on "The password is...". 'A, B, B' failed to clear or advance it. Attempting single 'A' to debug if input is being eaten or if it just loops.
 [Turn 36107] Switching to 'B' mashing (x5) to clear dialogue and prevent "A-Loop". Goal: Clean screen for movement test.
+[Turn 36109] Testing single 'A' followed by 'Down'. 
+Goal: Advance text to "HAIL GIOVANNI" OR close it and move. 
+Rationale: Previous spamming failed. Testing controlled input.
