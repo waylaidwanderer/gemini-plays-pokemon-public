@@ -1,24 +1,21 @@
 # Team Rocket HQ - Murkrow Puzzle
 
-## STATUS: RESETTING ROOM
-**Goal**: Exit and re-enter to reset Murkrow to (7, 2).
-**Current**: Player at (3, 1). Moving to Exit (27, 2).
+## STATUS: EXECUTING "THE JED SANDWICH"
+**Goal**: Lock Murkrow at Y=13 using Jed (12) and Wall (14).
 
-## Next Strategy: "The Jed Sandwich"
-1. **Sync X at 28**: Move Right until P & M are at X=28.
-2. **Prep Y (Col 25)**:
-   - Move to Col 25.
-   - Down to 16 (M goes Top).
-   - Up to 1 (M goes Bottom).
-   - *Note*: Col 25 Wall at 14 blocks M. M stops at 13.
-3. **Lock M (Col 18)**:
-   - Move to Col 18.
-   - P(18, 1), M(18, 13).
-   - Move Down to 16.
-   - M tries Up (13->12). Blocked by Jed (18, 12).
-   - M stays at 13.
-4. **Sandwich Door**:
-   - P(18, 16). M(18, 13).
-   - Move Up to 15. P(18, 15).
-   - Move Right to 22. P(22, 15). M(22, 13).
-   - Interact with Door (22, 14).
+## Step 1: Sync & Align
+1. **Sync X**: Right 21. P(28, 2), M(28, 2).
+2. **Invert Y**: Down 14. P(28, 16), M(28, 1).
+3. **Dodge Statue**: Up 1. P(28, 15), M(28, 2).
+4. **Align Col 18**: Left 10. P(18, 15), M(18, 2).
+
+## Step 2: The Lock
+5. **Position M**: Up 11. P(18, 4), M(18, 13).
+6. **Lock M**: Down 11.
+   - M tries Up -> Hits Jed (18, 12). Stays 13.
+   - P moves to 15.
+   - State: P(18, 15), M(18, 13).
+
+## Step 3: Finish
+7. **Sandwich**: Right 4. P(22, 15), M(22, 13).
+8. **Open**: Face Up (A).
