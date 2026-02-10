@@ -20,10 +20,10 @@
 - **Goal**: Return to Murkrow at (7, 2).
 - **Insight**: B2F is partitioned. East side (Boss Door) connects to West side (Murkrow) ONLY via B1F (or locked shutters).
 - **Route**:
-  1. **Current**: At B1F (24, 16).
-  2. Move West along Row 16 to (15, 16) to bypass Grunt at (21, 14) (who looks Right).
-  3. Move North to Row 13.
-  4. Move West to (6, 13) (Gap in wall).
+  1. **Current**: At B1F (15, 16).
+  2. **Correction**: Row 16 is blocked at (6, 16). Must backtrack East.
+  3. Move East to (17, 16) -> North to (17, 13) (Gap in internal wall).
+  4. Move West along Row 13 to (3, 13).
   5. Move North to Stairs at (3, 2).
   6. Take Stairs DOWN to B2F (3, 2).
   7. Go East to Murkrow at (7, 2).
