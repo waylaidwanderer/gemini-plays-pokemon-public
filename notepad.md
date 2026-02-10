@@ -5,12 +5,16 @@
 - **Secondary**: Defeat Team Rocket Executives.
 
 ## Murkrow Puzzle (B2F)
-- **Status**: Player (10, 6), Murkrow (10, 5).
-- **Plan**: Move East along Row 6/5.
-  1. Move **Right** to (11, 6). Murkrow -> (11, 5).
-  2. Move **Right** to (12, 6). Murkrow -> (12, 5).
-  3. **Problem**: Tree at (13, 6) blocks Player.
-  4. **Solution**: At (12, 6), move Down to navigate around the tree while managing Murkrow's position.
+- **Status**: Player (11, 6), Murkrow (11, 5).
+- **Plan**: Move East to Tree Obstacle.
+  1. Move **Right** to (12, 6). Murkrow -> (12, 5).
+  2. **Tree Ratchet Setup**:
+     - At (12, 6), move **Down** to (12, 8). Murkrow -> (12, 7).
+     - Move **Right** to (13, 8). Murkrow (12, 7) -> (13, 7) [Blocked by Tree]. Stays at (12, 7).
+     - Move **Right** to (14, 8). Murkrow (12, 7) -> (13, 7) [Blocked]. Stays at (12, 7).
+     - Move **Up** to (14, 6). Murkrow (12, 7) -> (12, 5).
+     - Result: Player (14, 6), Murkrow (12, 5). (Separation X=2, Y=1).
+     - Adjust as needed to get Murkrow through (15, 5).
 
 ## Map Notes
 - **Walls**: (6, 2) and (8, 2) block Murkrow at Row 2.
