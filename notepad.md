@@ -131,13 +131,17 @@ Confirmed Mechanics:
    - Player (4, 1) -> (23, 1).
    - Murkrow (4, 16) -> (23, 16).
 3. **The Solution Path**:
-   - **Crucial Path**: Access North/South via GAP at (9, 4).
-   - **Current**: Player (28, 5). Murkrow ~ (28, 12).
-   - **Step 1**: Move Down to (28, 8). Murkrow to (28, 9).
-   - **Step 2**: Move Left to (22, 8). Murkrow to (22, 9).
-   - **Step 3**: Move Left to (9, 8). Murkrow to (9, 9).
-   - **Step 4**: Move UP to (9, 3). Murkrow DOWN to (9, 14).
-   - **Step 5**: Move Right to (22, 3). Murkrow Right to (22, 14) (Boss Door).
+   - **Step 1**: Go to (26, 1) to Reset.
+     - Route: Up to (28, 5) -> Left to (26, 5) -> Up to (26, 1).
+     - Murkrow: (28, 10) -> (28, 12) -> (26, 12) -> (26, 16).
+   - **Step 2**: The Crate Desync (Col 26).
+     - Move Down to (26, 13).
+     - Murkrow (26, 16) -> Up to (26, 11) (Blocked by Wall/Crate at 26, 10).
+   - **Step 3**: The Approach.
+     - Move Left to (22, 13). Murkrow to (22, 11).
+     - Move Down to (22, 14) (Door). Murkrow blocked at (22, 10).
+     - Move Up to (22, 13). Murkrow to (22, 12).
+     - **Interact with Door**.
 
 ## Trap Data
 - **CRITICAL**: Do not step on B1F (3, 6) or B2F (3, 6).
