@@ -46,3 +46,5 @@ Plan:
 3. Down -> P(10, 6), M(9, 5)
 4. Right -> P(11, 6), M(10, 5)
 5. Right -> P(12, 6), M(11, 5) [TARGET: Col 11]
+[Turn 36074] VISUAL CONFIRMATION: Murkrow at (9, 3). Sync is holding!
+Next: Move Down to (10, 5). Murkrow should move to (9, 4).
