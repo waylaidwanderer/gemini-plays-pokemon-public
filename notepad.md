@@ -1,23 +1,24 @@
 # Team Rocket HQ - Murkrow Puzzle
 
-## SOLVING: "The Col 22 Wall Ratchet"
-Target: P(22, 13), M(22, 14).
+## Active Attempt: "The Flank"
+**Current State**: P(22, 16). M(22, 11) (Hypothesized).
+**Goal**: Verify M at (22, 12), then pin M at (22, 14) and flank to (22, 13).
 
-## Current Status (Turn 36449)
-- **Player**: (26, 12).
-- **Murkrow**: (26, 13) (Calculated).
+## The Plan
+1. **Verification Pump**:
+   - P(22, 16) -> Up (Blocked).
+   - M(22, 11) -> Down -> M(22, 12).
+   - **CHECK**: Is M visible at (22, 12)?
+2. **Pinning**:
+   - Pump Up 2 more times -> M(22, 14).
+3. **Flanking**:
+   - Right 4 -> P(26, 16). M stuck at (22, 14).
+   - Up 3 -> P(26, 13). M stuck at (22, 14).
+   - Left 4 -> P(22, 13). M stuck at (22, 14).
+4. **Interact**:
+   - Face Down. Press A.
 
-## The Winning Sequence
-1. **Reset to P(28, 2), M(28, 16)**:
-   - Down 4 -> P(26, 16).
-   - Right 2 -> P(28, 16).
-   - Up 14 -> P(28, 2).
-2. **Align to P(22, 7), M(22, 11)**:
-   - Down 9 -> P(28, 11). M(28, 7).
-   - Left 6 -> P(22, 11). M(22, 7).
-   - Up 4 -> P(22, 7). M(22, 11).
-3. **Ratchet M (Block at 10)**:
-   - Down 9 -> P(22, 16). M(22, 11) [Blocked Up at 10].
-4. **Finish**:
-   - Up 3 -> P(22, 13). M(22, 14).
-   - Face Down. Interact.
+## Key Coordinates
+- **Boss Door**: (22, 14)
+- **Statue**: (22, 15)
+- **Walls**: (22, 10), (23, 14), (21, 14)
