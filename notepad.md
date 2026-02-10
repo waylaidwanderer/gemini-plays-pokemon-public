@@ -5,11 +5,14 @@
 - **Secondary**: Defeat Team Rocket Executives.
 
 ## Murkrow Puzzle (B2F)
-- **Status**: Player (8, 4), Murkrow (7, 2).
-- **Setup**: Moving **Up** to (8, 3).
-  - Expectation: Murkrow stays at (7, 2) (as observed in Turn 35657) or moves to (7, 1)/(7, 3).
-- **Trigger**: Once at (8, 3), move **Down**.
-  - History says this moves Murkrow to (8, 3).
+- **Status**: Player (8, 3), Murkrow (7, 2).
+- **Action**: Executing **Magic Move** (Down).
+- **Expectation**: Murkrow moves to (8, 3) (based on Turn 35658 log) or (7, 3) (standard mimic).
+- **Plan**:
+  1. Move **Down** to (8, 4).
+  2. Verify Murkrow position.
+  3. If at (8, 3): Move Right to (9, 4).
+  4. If at (7, 3): Move Right to (9, 4).
 
 ## Map Notes
 - **Walls**: (6, 2) and (8, 2) block Murkrow at Row 2.
