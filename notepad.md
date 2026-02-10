@@ -20,3 +20,4 @@
 - Murkrow Blockers: Row 2 (Desks), Row 9 (Walls).
 - Safe Path: Col 11 via Row 6.
 [Turn 36015] Murkrow reset again. Simple 'Down' failed to dislodge it from (7, 2). Trying 'Right' (Buffer) then 'Down' (Pull).
+[Turn 36025] Murkrow reset to (7, 2) after I moved Up. It seems the link was lost or distance constraint triggered. Restarting Side-Step Strat from the beginning.
