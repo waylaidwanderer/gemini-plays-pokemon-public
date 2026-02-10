@@ -651,26 +651,6 @@
       }
     ]
   },
-  "solve_murkrow_statue": {
-    "description": "Solves the Murkrow Puzzle using the 'Statue-Adjacent' strategy. Moves Player to (22, 16) and Murkrow to (23, 15).",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "autopress_buttons": {
-          "type": "boolean",
-          "default": true
-        }
-      }
-    },
-    "python_script": "\nprint(f'{{\"buttons\": [\"Right\", \"Right\", \"Right\", \"Right\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Up\", \"Up\", \"Up\", \"Up\", \"Left\", \"Left\", \"Left\", \"Left\", \"Down\", \"Down\", \"Down\", \"Down\", \"A\"]}}')\n",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-02-10T17:09:10.891Z",
-        "action_counter": 36303
-      }
-    ]
-  },
   "solve_murkrow_west_ratchet": {
     "description": "Executes the 'West Side Ratchet & Wall Align' strategy to sync Murkrow and open the Boss Door.\nMoves: Up 11 (Reset Y), Down 11 (Ratchet M to 11), Right 3 (Align X using Wall 23), Up 3 (Approach), Down (Face Door), A (Interact).",
     "input_schema": {
@@ -688,6 +668,26 @@
         "commit_message": "Initial version",
         "timestamp": "2026-02-10T17:14:00.545Z",
         "action_counter": 36307
+      }
+    ]
+  },
+  "solve_murkrow_col28": {
+    "description": "Executes the 'Col 28 Convergence' strategy. Moves: Right to Col 28, Down to 16, Up 15 (Reset), Down 15 (Ratchet), Up 3 (Align), Left 6 (Approach), Down 1 (Stack), A.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "autopress_buttons": {
+          "type": "boolean",
+          "default": true
+        }
+      }
+    },
+    "python_script": "\nprint(f'{{\"buttons\": [\"Right\", \"Right\", \"Right\", \"Right\", \"Right\", \"Right\", \"Right\", \"Down\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Up\", \"Up\", \"Up\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Down\", \"A\"]}}')\n",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-02-10T17:36:06.579Z",
+        "action_counter": 36320
       }
     ]
   }
