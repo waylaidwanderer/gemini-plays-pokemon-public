@@ -5,23 +5,13 @@
 - **Secondary**: Defeat Team Rocket Executives.
 
 ## Murkrow Puzzle (B2F)
-- **Status**: Player (8, 3), Murkrow (7, 2).
-- **Mechanics**: **MIRROR** (Likely).
-  - Hypothesis: It toggles between (7, 1) and (7, 2) when I move Down/Up.
-  - Goal: Force it to (7, 3).
+- **Status**: Player (10, 3), Murkrow (7, 2).
+- **Mechanics**: **MIRROR** Confirmed.
 - **Plan**:
-  1. Move **Right** to (9, 3). Murkrow tries Left (Wall), Stays at (7, 2).
-  2. Move **Up** to (9, 2) (Desk/Wall? Check map). 
-     - If (9, 2) is blocked, I can't move Up.
-     - Mental Map says (9, 2) is "Desk/Wall". This might be a problem.
-     - (9, 1) is TYPE_2889 (Wall). (9, 2) is TYPE_2889 (Wall).
-     - I CANNOT move Up at Col 9?
-     - Let's check Col 10. (10, 2) is TYPE_3fe2 (Walkable).
-  3. **Revised Plan**:
-     - Move **Right** to (10, 3).
-     - Move **Up** to (10, 2). Murkrow moves Down to (7, 3).
-     - Move **Up** to (10, 1). Murkrow moves Down to (7, 4).
-     - Move **Left** to (3, 1) (Ratchet).
+  1. Move **Up** to (10, 2). Murkrow moves Down to (7, 3).
+  2. Move **Up** to (10, 1). Murkrow moves Down to (7, 4).
+  3. Move **Left** to (9, 1). Murkrow moves Right to (8, 4) (ESCAPE!).
+  4. Guide Murkrow South/East to Boss Door.
 
 ## Map Notes
 - **Walls**: (6, 2) separates NW and N areas.
