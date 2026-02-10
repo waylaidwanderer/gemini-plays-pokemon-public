@@ -130,26 +130,24 @@ Confirmed Mechanics:
    - Move Right to Col 23.
    - Player (4, 1) -> (23, 1).
    - Murkrow (4, 16) -> (23, 16).
-3. **The "Col 28" Block Solution**:
-   - **Current**: P(26, 9), M(26, 12).
-   - **Step 1: Traverse & Ratchet (Col 28)**.
-     - Right 2 to (28, 9). M -> (28, 12).
-     - Up 7 to (28, 9) [Blocked by Wall at 8].
-       - M moves Down 7 -> (28, 16).
-     - Result: P(28, 9), M(28, 16).
-   - **Step 2: Cross Left**.
-     - Left 6 to (22, 9). M -> (22, 16).
-     - Result: P(22, 9), M(22, 16).
-   - **Step 3: Convergence**.
-     - Down 5 to (22, 13).
-       - P moves 9->13.
-       - M moves 16->12.
-     - Result: P(22, 13), M(22, 12).
-   - **Step 4: The Stack**.
-     - Down 1 to (22, 13) [Blocked by Door].
-       - M moves 12->13.
-     - Result: P(22, 13), M(22, 13). [Stacked].
-   - **Step 5: Deliver**.
+3. **The "Solid Crate" Solution**:
+   - **Current**: P(24, 13), M(24, 9).
+   - **Step 1: The Reset (Col 26)**.
+     - Right 2 to (26, 13). M -> (26, 9).
+     - Up 12 to (26, 1).
+       - M moves Down. Hits Bottom (16) at step 7. Stays 16.
+     - Result: P(26, 1), M(26, 16).
+   - **Step 2: The Setup**.
+     - Down 5 to (26, 6).
+       - M moves Up 5 to (26, 11).
+     - Result: P(26, 6), M(26, 11).
+   - **Step 3: The Ratchet**.
+     - Down 10 to (26, 16).
+       - M moves Up. Blocked by Crate at (26, 10). Stays (26, 11).
+     - Result: P(26, 16), M(26, 11).
+   - **Step 4: Delivery**.
+     - Left 4 to (22, 16). M -> (22, 11).
+     - Up 3 to (22, 13). M -> (22, 14).
      - **Interact**.
 [Turn 36186] Inverted Ratchet - Phase 2.
 - Player at (7, 16). Murkrow at (7, 1).
