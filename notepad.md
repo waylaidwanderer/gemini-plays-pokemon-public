@@ -2,16 +2,16 @@
 
 ## STATUS: RESETTING ROOM
 **Goal**: Exit and re-enter to reset Murkrow to (7, 2).
-**Reason**: Bottom path to Switch (19, 11) was blocked by wall at Row 14.
+**Reason**: South path to Switch (19, 11) blocked by wall at Row 14.
 
 ## Plan
 1. **Reset**: Exit via (27, 2). Re-enter.
 2. **Check Shutter**: Navigate to (15, 10) from the North.
-   - If Open: Execute "Jed Sandwich".
-   - If Closed: Access Switch (19, 11) from the North (Col 19 path).
-
-## "Jed Sandwich" Strategy (If Shutter Open)
-1. **Sync X**: Move Right until P & M are at X=28.
-2. **Invert Y**: Move Down/Up to mirror M.
-3. **Lock M**: Use Jed (18, 12) to trap M at (18, 13).
-4. **Enter**: Walk into Boss Door (22, 14).
+   - Route: Start (7, 2) -> Left to Col 1-5 -> Down through Col 9 gap?
+   - Or just use the Safe Path through Col 9?
+   - Verify Shutter at (15, 10).
+3. **If Shutter Closed**:
+   - Navigate to Switch (19, 11).
+   - Potential path: Col 9 -> Right to Col 19 (Check Row 8 obstacle/passage).
+4. **If Shutter Open**:
+   - Execute "Jed Sandwich".
