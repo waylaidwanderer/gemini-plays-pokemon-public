@@ -1,8 +1,8 @@
 # Team Rocket HQ - Murkrow Puzzle
 
-## RESET COMPLETE
-- **Status**: Re-entering Hideout from Souvenir Shop.
-- **Goal**: Navigate B1F -> B2F (25, 2).
+## Status: Executing "The Double Cross"
+- **Player**: Moving to (1, 2).
+- **Goal**: Sync Murkrow at (1, 2).
 
 ## Strategy: "The Double Cross" (Once on B2F)
 1. **Sync X**: Go to P(1, 2). M hits West Wall.
