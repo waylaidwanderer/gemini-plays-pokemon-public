@@ -5,19 +5,18 @@
 - **Secondary**: Defeat Team Rocket Executives.
 
 ## Murkrow Puzzle (B2F)
-- **Status**: Player (12, 5), Murkrow (10, 5).
-- **Correction**: Murkrow was actually at (12, 5) initially, then mimicked to (10, 5) after Player moves.
-- **Strategy**: **Wall Stacking** at Col 6.
-  - Row 5 has a wall at (6, 5).
-  - Murkrow (10, 5) moving Left will be blocked at (6, 5) and stay at (7, 5).
-  - Player can catch up and stack at (7, 5).
+- **Status**: Player (7, 5), Murkrow (7, 2).
+- **Correction**: Murkrow never stacked. It stayed at (7, 2) due to walls/range.
+- **Goal**: Move Murkrow to (7, 3) so it can escape East.
 - **Plan**:
-  1. Move **Left** 5 times to (7, 5).
-     - Player: (12, 5) -> (7, 5).
-     - Murkrow: (10, 5) -> (7, 5) [Blocked].
-     - **Result**: Stacked at (7, 5).
-  2. Move **Right** to (16, 5) (Highway South).
-  3. Move **Down** Col 16 to Boss Door.
+  1. Move **Right** to (8, 5). Murkrow stays (Blocked Right).
+  2. Move **Up** to (8, 4). 
+     - If Mirror: Murkrow -> (7, 3). **Success**.
+     - If Mimic: Murkrow -> (7, 1).
+  3. Move **Up** to (8, 3).
+  4. Move **Down** to (8, 4).
+     - If it was at (7, 1), it mimics to (7, 2).
+     - If it was at (7, 2), it mimics to (7, 3).
 
 ## Map Notes
 - **Walls**: (6, 2) and (8, 2) block Murkrow at Row 2.
