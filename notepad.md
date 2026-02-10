@@ -22,3 +22,4 @@
 - Murkrow Blockers: Row 2 (Desks), Row 9 (Walls).
 - Safe Path: Col 11 via Row 6.
 [Turn 36029] Hit wall at (11, 4). M desynced. Switching to Overlap Strat to force perfect sync.
+[Turn 36041] Murkrow found at (7, 2). It did not follow my previous 'Down, Down' move. Resetting position to (7, 3) to re-engage. I must verify movement step-by-step.
