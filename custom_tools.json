@@ -670,5 +670,25 @@
         "action_counter": 36307
       }
     ]
+  },
+  "solve_murkrow_crate_ratchet_v2": {
+    "description": "Executes the 'Col 26 Crate Ratchet V2' strategy.\nPath: Up 15 (Reset P to 28,9; M to 28,16), Left 2 (Align 26), Down 7 (Ratchet M to 12), Left 4 (Align 22), Up 3 (Converge), A.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "autopress_buttons": {
+          "type": "boolean",
+          "default": true
+        }
+      }
+    },
+    "python_script": "\nprint(f'{{\"buttons\": [\"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Left\", \"Left\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Left\", \"Left\", \"Left\", \"Left\", \"Up\", \"Up\", \"Up\", \"A\"]}}')\n",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-02-10T18:16:07.130Z",
+        "action_counter": 36341
+      }
+    ]
   }
 }
