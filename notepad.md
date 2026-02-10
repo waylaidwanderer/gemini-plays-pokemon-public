@@ -5,18 +5,17 @@
 - **Secondary**: Defeat Team Rocket Executives.
 
 ## Murkrow Puzzle (B2F)
-- **Status**: Player (8, 4), Murkrow (8, 3).
+- **Status**: Player (9, 4), Murkrow (9, 3).
 - **Observation**:
-  - T35657: Player Up -> Murkrow Stayed (7, 2).
-  - T35658: Player Down -> Murkrow Moved (7, 2) -> (8, 3).
-  - Movement `(dx=1, dy=1)` when Player moved `Down`.
-- **Hypothesis**:
-  - Murkrow might be **following** the Player's previous position?
-  - Or moving diagonally?
-- **Test**: Move **Right** to (9, 4).
-  - If Follower: Murkrow -> (8, 4).
-  - If Mimic: Murkrow -> (9, 3).
-- **Goal**: Guide Murkrow East towards Boss Door.
+  - T35659: Player Right (8, 4 -> 9, 4) -> Murkrow Right (8, 3 -> 9, 3).
+  - **MIMIC CONFIRMED** (at least for Right movement).
+- **Obstacle**: Walls at (11, 3) and (11, 4) block Eastward progress in current rows.
+- **Solution**: Move Murkrow to Row 5 (Open at Col 11).
+- **Plan**:
+  1. Move **Down** to (9, 5). Expect Murkrow -> (9, 4).
+  2. Move **Down** to (9, 6). Expect Murkrow -> (9, 5).
+  3. Move **Right** to (15, 6) carrying Murkrow in Row 5.
+  4. Navigate to Boss Door.
 
 ## Map Notes
 
