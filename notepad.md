@@ -5,12 +5,14 @@
 - **Secondary**: Defeat Team Rocket Executives.
 
 ## Murkrow Puzzle (B2F)
-- **Status**: Player (8, 5), Murkrow (8, 4).
-- **Obstacle**: (8, 6) is a Potted Plant (Blocked).
-- **Plan Adjustment**:
-  - Cannot move Down at column 8.
-  - Sidestep Right to (9, 5) (Murkrow -> 9, 4).
-  - Then move Down to (9, 6) to pull Murkrow to Row 5.
+- **Status**: Player (9, 5), Murkrow (8, 4).
+- **Testing**:
+  - Move Right (to 9, 5): FAILED. Murkrow stayed at (8, 4).
+  - Hypothesis: Diagonal misalignment or mimic failure.
+  - Plan:
+    1. Move Down to (9, 6). (Attempt to pull Murkrow to 8, 5).
+    2. If successful (Murkrow at 8, 5), Move Right.
+    3. If failed, re-align.
 - **Goal**: Lead Murkrow to Boss Door at (23, 14).
 
 ## Key Info
