@@ -5,12 +5,10 @@
 - **Secondary**: Defeat Team Rocket Executives.
 
 ## Murkrow Puzzle (B2F)
-- **Status**: Player (7, 5), Murkrow (7, 4) [Expected].
+- **Status**: Player (7, 4), Murkrow (7, 3).
 - **Current Strategy**: "Row 3 Slide".
-  1. Move Left to (7, 5). (Murkrow -> 7, 4).
-  2. Attempt to Move Up to (7, 4).
-     - If successful (Murkrow -> 7, 3), we are in position!
-     - If bumped, try Reset.
+  1. Move Left to (7, 5). (Done).
+  2. Move Up to (7, 4). (Done - checking result).
   3. Once P(7, 4) M(7, 3):
      - Slide Right to x=10.
      - Down to x=10, y=5.
