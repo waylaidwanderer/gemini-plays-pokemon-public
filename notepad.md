@@ -23,3 +23,4 @@ Hypothesis:
 - Safe Path: Col 11 via Row 6.
 [Turn 36064] Confirming dialogue "HAIL GIOVANNI". Will move Down to (7, 4) next to test direct follow.
 [Turn 36065] Clearing text. Next: Visual check for clean screen.
+[Turn 36066] Moved Down to (7, 4). Waiting to verify Murkrow position at (7, 3).
