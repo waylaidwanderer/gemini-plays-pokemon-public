@@ -5,11 +5,11 @@
 - **Secondary**: Defeat Team Rocket Executives.
 
 ## Murkrow Puzzle (B2F)
-- **Status**: Player (8, 3), Murkrow (7, 2).
+- **Status**: Player (7, 4), Murkrow (7, 3).
 - **Testing**:
-  - Move Up (to 8, 3): FAILED. Murkrow stayed. (Mirror failed).
+  - Move Down (to 7, 4): SUCCESS. Murkrow moved Down (to 7, 3).
   - Hypothesis: Murkrow MIMICS (Same Direction).
-  - Plan: Move DOWN to (8, 4). Murkrow should move DOWN to (7, 3).
+  - Plan: Move RIGHT to (8, 4). Murkrow should move RIGHT to (8, 3).
 - **Goal**: Lead Murkrow to Boss Door at (23, 14).
 
 ## Key Info
