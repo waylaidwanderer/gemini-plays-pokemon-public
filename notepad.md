@@ -22,3 +22,4 @@ Hypothesis:
 - Murkrow Blockers: Row 2 (Desks), Row 9 (Walls).
 - Safe Path: Col 11 via Row 6.
 [Turn 36064] Confirming dialogue "HAIL GIOVANNI". Will move Down to (7, 4) next to test direct follow.
+[Turn 36065] Clearing text. Next: Visual check for clean screen.
