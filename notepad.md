@@ -12,14 +12,10 @@
 ## Current State
 - Map: B1F (3_50).
 - Player: (6, 13).
-- Status: Relocating to South B2F for "Remote Control".
-- Insight: Row 11 is blocked. Must control Murkrow from South B2F.
-- Obstacle: Grunt at B1F (4, 1) blocks the upper row, but Row 2 is clear.
+- Status: Bypassed North Blockage via Warp Trap. Now at B1F (3, 6).
 - Route:
-  1. From B1F (3, 2), move East to bypass Grunt.
-  2. Enter Fake Wall at B1F (6, 1).
-  3. Traverse B1F East side to SE Stairs (27, 14).
-  4. Take stairs to B2F South.
-  5. Execute "Align and Push" strategy from South.
+  1. Traverse B1F South side to SE Stairs (27, 14).
+  2. Take stairs to B2F South.
+  3. Execute "Align and Push" strategy from South.
 - Murkrow Status: Currently ~ (7, 6) on B2F.
 - Goal: Push Murkrow through Fake Wall (10, 9) then Gap (15, 12).
