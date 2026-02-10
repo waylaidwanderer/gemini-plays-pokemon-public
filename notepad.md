@@ -10,14 +10,18 @@
 - **Hypothesis**: Defeating Grunts near the switches activates them or provides the key.
 
 ## Current State
-- Status: Accidentally took stairs to B1F (3, 6).
-- Action: Return to B2F (3, 6), reset to (3, 2).
-- Correction: Murkrow blocked on Row 8. Must use Row 9.
-- Revised Strategy:
-  1. At (3, 2), move Right to (4, 2) (Murkrow blocked).
-  2. Move Down to (4, 9) (Row 9 is clear for Murkrow).
-  3. Move Right to align/push.
-- Key Objects:
-  - Fake Wall at (10, 9).
-  - Gap at (6, 10).
-  - Locked Shutter at (15, 10).
+
+# Reflection (Turn 35411)
+- Progress: Located Murkrow, Password requirements, and Boss Door.
+- Issue: Repeatedly losing track of Murkrow and hitting walls.
+- Correction: MUST use `simulate_murkrow` or visual confirmation before moving when Murkrow is off-screen.
+- Plan:
+  1. Warp to B2F.
+  2. Verify Murkrow at (7, 2).
+  3. Scan B2F Column 7 for obstacles (Grunts/Traps).
+  4. Execute "Align and Push" with obstacle awareness.
+
+# Current Status
+- Map: B1F (3_50) -> Moving to B2F.
+- Player: (3, 2).
+- Goal: Reset Murkrow and Solve Puzzle.
