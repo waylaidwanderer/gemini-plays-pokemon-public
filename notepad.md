@@ -1,16 +1,23 @@
 # Team Rocket HQ - Murkrow Puzzle
 
-## FINAL EXECUTION: "The Col 22 Ratchet"
+## FINAL SOLUTION: "The Col 26 Ratchet Loop"
 Target: P(22, 13), M(22, 14).
 
-## Current Status (Turn 36434)
+## Current Status (Turn 36435)
 - **Player**: (22, 16).
-- **Murkrow**: (22, 14) (Pinned at Door).
+- **Murkrow**: (22, 5).
 
-## The Plan
-1. **Move to Ratchet Column**: Right 4 -> P(26, 16). M stays (22, 14) [Blocked East].
-2. **Reset Y**: Up 14 -> P(26, 2). M stays (22, 14) [Blocked South].
-3. **Ratchet M North**: Down 14 -> P(26, 16). M moves Up to (22, 11) [Blocked North at 10].
-4. **Return to Center**: Left 4 -> P(22, 16). M stays (22, 11) [Blocked West].
-5. **Final Sync**: Up 3 -> P(22, 13). M moves Down to (22, 14).
-6. **Open Door**: Interact.
+## Execution Path
+1. **Invert Y (Col 25)**:
+   - Right 3 -> P(25, 16). M(25, 5).
+   - Up 11 -> P(25, 5). M(25, 16).
+2. **Ratchet M Up (Col 26)**:
+   - Right 1 -> P(26, 5). M(26, 16).
+   - Down 11 -> P(26, 16).
+   - M(26, 16) -> Up 11 -> Blocked at 10 -> M(26, 11).
+   - State: P(26, 16), M(26, 11).
+3. **Align Y**:
+   - Up 3 -> P(26, 13). M(26, 14).
+4. **Finish**:
+   - Left 4 -> P(22, 13). M(22, 14).
+   - Interact (Face Down).
