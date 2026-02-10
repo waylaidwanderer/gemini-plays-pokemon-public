@@ -71,3 +71,7 @@ Plan: Move Up -> Interact -> Clear Text -> WAIT. Move on NEXT turn to ensure scr
 Hypothesis: Murkrow moved due to mimicry.
 Possible Locations: (7, 1), (7, 3), (6, 2).
 Action: Moving Right to (8, 2) to regain vision and search adjacent tiles.
+[Turn 36163] Murkrow found at (7, 1). Player at (8, 2).
+Observation: When I moved Right to (8, 2) in prev turn, Murkrow did NOT move to (8, 1). It stayed at (7, 1).
+Conclusion: Mimicry is likely INACTIVE or blocked.
+Action: Moving Left to (7, 2) to interact and re-establish link.
