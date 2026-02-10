@@ -5,13 +5,16 @@
 - **Secondary**: Defeat Team Rocket Executives.
 
 ## Murkrow Puzzle (B2F)
-- **Status**: Player (10, 4), Murkrow (7, 2).
-- **Goal**: Guide Murkrow to Boss Door (23, 14).
-- **Mechanics**: Testing Mimic vs Mirror.
+- **Status**: Player (9, 3), Murkrow (7, 2).
+- **Mechanics**: Unclear. 
+  - Player Down -> Murkrow Up (Turn 35620).
+  - Player Up -> Murkrow Stayed (Turn 35621).
+- **Hypothesis**: Murkrow movement might be blocked at (7, 1) or (7, 3) despite looking walkable, OR it has a "home" tether.
 - **Plan**:
-  1. Move Left to test reaction.
-  2. If Mimic: Ratchet Murkrow to Col 1, then return to Col 10, then Down.
-  3. If Mirror: Re-evaluate.
+  1. Move **Down** to (9, 4). Observe result.
+  2. If it moves to (7, 1), it's Mirror.
+  3. If it moves to (7, 3), it's Mimic.
+  4. If it stays, it's stuck.
 
 ## Map Notes
 - **Walls**: (6, 2) separates NW and N areas.
