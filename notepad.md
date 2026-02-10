@@ -12,34 +12,34 @@
   - Expectation: Murkrow moves to (7, 3).
   - If Failure: Reset Map via Stairs at (3, 2).
 
-## Plan: Murkrow to Shutter (14, 10) - Via NW Stairs
-1. **Start**: Player (3, 2), Murkrow (7, 2).
-2. **Move Down**: To (3, 5). Murkrow -> (7, 5).
-3. **Bypass Stairs**: 
-   - Right to (4, 5). Murkrow -> (8, 5).
-   - Down to (4, 7). Murkrow blocked at (8, 6) -> stays (8, 5).
-   - Left to (3, 7). Murkrow -> (7, 5).
-4. **Align Y**: Down to (3, 10). 
-   - Murkrow moves (7, 5) -> (7, 8). 
-   - Blocked at (7, 9).
-5. **Align X (Gap)**: Right to (6, 10). Murkrow -> (10, 8).
-6. **Pass Wall**: 
-   - Down to (6, 12). Murkrow -> (10, 10) via Fake Wall (10, 9).
-7. **Final Approach**: 
-   - Right to (10, 12). Murkrow -> (14, 10).
-   - Interact with Murkrow/Shutter.
+## Plan: Murkrow to Shutter (14, 10) - The Offset Method
+1. **Initial State**: Player (3, 10), Murkrow (7, 8).
+2. **Align X (Offset)**:
+   - Right to (20, 10).
+   - Murkrow blocked at (14, 8) by Wall (15, 8).
+   - Result: Player (20, 10), Murkrow (14, 8). Offset = 6.
+3. **Position for Drop**:
+   - Left to (16, 10).
+   - Murkrow moves to (10, 8).
+4. **The Drop**:
+   - Down to (16, 12).
+   - Murkrow moves (10, 8) -> (10, 9) -> (10, 10).
+5. **Final Placement**:
+   - Right to (20, 12).
+   - Murkrow moves to (14, 10).
+6. **Interaction**:
+   - Move Up to (20, 11) (Murkrow blocked Up).
+   - Move Left/Down to approach Shutter (14, 11) from South.
 
 ## Trap Data
-- Stairs at (3, 6) warp to B1F. AVOID.
 - Warp Traps at (26, 9), (26, 10), (24, 11), (25, 11).
+- Avoid (26, 10)! Stop at (20, 10).
 
 ## Key Info
 - **Boss Door**: Needs Voice ID (Murkrow).
 - **Map**: 
-  - Wall at (8, 6) blocks Murkrow.
-  - Wall at (7, 9) blocks Murkrow.
   - Fake Wall at (10, 9).
-  - Gap at (6, 10).
+  - Shutter at (14, 11) / (15, 10).
 
 ## Trap Data
 - Warp Traps at (26, 9), (26, 10), (24, 11), (25, 11).
