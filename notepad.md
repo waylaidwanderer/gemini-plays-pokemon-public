@@ -75,10 +75,14 @@ Action: Moving Right to (8, 2) to regain vision and search adjacent tiles.
 Observation: When I moved Right to (8, 2) in prev turn, Murkrow did NOT move to (8, 1). It stayed at (7, 1).
 Conclusion: Mimicry is likely INACTIVE or blocked.
 Action: Moving Left to (7, 2) to interact and re-establish link.
-[Turn 36165] CRITICAL SUCCESS: Position Swap confirmed.
-- Start: Player (7, 2), Murkrow (7, 1).
-- Action: Player moved UP to (7, 1).
-- Result: Murkrow moved DOWN to (7, 2).
-- Conclusion: Mimicry is ACTIVE and follows MIRROR/OPPOSITE logic for Vertical moves? Or it swaps?
-- Plan: Test Horizontal movement. Moving Right to (8, 1).
-- Goal: If it moves Right to (8, 2), it's Parallel Horizontal. If Left to (6, 2), it's Mirror Horizontal.
+[Turn 36168] Stacked State Detected.
+- Situation: Player at (8, 1). Murkrow disappeared from (8, 2).
+- Hypothesis: Murkrow moved UP to (8, 1) (Parallel Mimicry) and is now stacked under Player.
+- Action: Move Down to (8, 2).
+- Logic:
+  - If Vertical Mirror: Murkrow moves Up -> Blocked by Wall -> Stays at (8, 1). Desync success.
+  - If Vertical Parallel: Murkrow moves Down -> Stacked at (8, 2).
+
+## Murkrow Mechanics
+- **Horizontal**: Parallel (Right -> Right).
+- **Vertical**: To Be Confirmed (Likely Parallel given the stack).
