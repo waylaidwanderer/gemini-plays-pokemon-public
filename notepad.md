@@ -137,3 +137,7 @@ Confirmed Mechanics:
 
 ## Trap Data
 - **CRITICAL**: Do not step on B1F (3, 6) or B2F (3, 6).
+[Turn 36185] Position Check: Player at (7, 3). Murkrow at (7, 1).
+Action: Continue 'The Inverted Ratchet'.
+Move South to Row 16. Murkrow stays pinned at (7, 1).
+Target: (7, 16).
