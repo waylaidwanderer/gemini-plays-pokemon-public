@@ -5,14 +5,15 @@
 - **Secondary**: Defeat Team Rocket Executives.
 
 ## Murkrow Puzzle (B2F)
-- **Status**: Player (8, 5), Murkrow (8, 4).
-- **Mechanic**: **MIMIC** (Confirmed).
+- **Status**: Player (9, 5), Murkrow (9, 4).
+- **Strategy**: Stack/Sync with Murkrow.
 - **Plan**:
-  1. Move **Right** to (9, 5). Murkrow -> (9, 4).
-  2. Move **Right** to (10, 5). Murkrow -> (10, 4).
-  3. **Note**: Wall at (11, 4). If I move Right again, Murkrow gets stuck (Ratchet).
-     - Decide if I want to change offset there.
-  4. Guide to Boss Door (23, 14).
+  1. Move **Right** to (10, 5). Murkrow -> (10, 4).
+  2. Move **Up** to (10, 4). Murkrow -> (10, 3).
+  3. Move **Up** to (10, 3). Murkrow -> (10, 2).
+  4. Move **Up** to (10, 2). Murkrow -> (10, 1) (Blocked by Wall).
+     - Result: Player (10, 2), Murkrow (10, 2). **SYNCED**.
+  5. Navigate freely to (15, 13) Gap.
 
 ## Map Notes
 - **Walls**: (6, 2) separates NW and N areas.
