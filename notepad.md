@@ -65,3 +65,7 @@ Action: Moving Up to (7, 3) to re-engage. Will test 'Move Right' (Buffer) next.
 [Turn 36085] Visual Confirm: Murkrow stayed at (7, 2) after I moved Right to (8, 3). This aligns with the "blocked by desk" hypothesis.
 Next Action: Move Down to (8, 4).
 Prediction: Murkrow should move Down to (7, 3). This is the critical "Pull" test.
+[Turn 36086] "Buffer" test verified: Murkrow stayed at (7, 2) after I moved Right then Down. It did NOT pull to (7, 3).
+Observation: Murkrow sprite remains facing Down. It did not turn Right when I moved Right, suggesting Mimicry is NOT active.
+Action: Returning to (7, 3). Will attempt careful interaction with 'A' button to ensure dialogue completion, then test 'Direct Down' again.
+Hypothesis: Dialogue must be fully cleared with 'A' to trigger mimicry state.
