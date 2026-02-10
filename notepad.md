@@ -5,21 +5,20 @@
 - **Secondary**: Defeat Team Rocket Executives.
 
 ## Murkrow Puzzle (B2F)
-- **Status**: Player (10, 6) -> Moving to (7, 6). Murkrow at (7, 2) [RESET].
-- **Failure Analysis**:
-  - Tried to move Murkrow onto Row 5 at x=11.
-  - Murkrow likely blocked by Chair at (11, 5).
-  - Reset occurred due to distance/blockage.
-- **New Plan (The "Row 7/6 Slide")**:
-  1. Return to (7, 4).
-  2. Pull Murkrow to (7, 3) (Up/Down trick).
-  3. Slide Right to (10, 4). (Murkrow -> 10, 3).
-  4. Move Down THREE times to (10, 7).
-     - (10, 5) Player -> (10, 4) Murkrow.
-     - (10, 6) Player -> (10, 5) Murkrow.
-     - (10, 7) Player -> (10, 6) Murkrow.
-  5. Murkrow is now on Row 6 (Clear Path).
-  6. Slide Right along Row 7 (Player) / Row 6 (Murkrow).
+- **Status**: Player Moving to (7, 5). Murkrow expected at (7, 2).
+- **New Strategy**: "The Wall Block De-Sync".
+  1. Start P(7, 5), M(7, 2).
+  2. Move Down -> P(7, 6), M(7, 3).
+  3. Move Right -> P(8, 6), M(8, 3).
+  4. Move Up -> P(8, 5).
+     - Murkrow tries to move Up to (8, 2).
+     - (8, 2) is a WALL. Murkrow BLOCKED.
+     - Result: P(8, 5), M(8, 3).
+  5. Slide Right to (10, 5). (M -> 10, 3).
+  6. Move Down 3 times to (10, 8).
+     - M moves (10, 3) -> (10, 6).
+     - Murkrow is now on the Clear Row (Row 6).
+  7. Slide Right to victory.
 - **Goal**: Lead Murkrow to Boss Door at (23, 14).
 
 ## Key Info
@@ -27,7 +26,6 @@
 - **Boss Door**: Needs Voice ID (Murkrow).
 
 ## Map Notes
-- **Walls**: Desk at (11, 3)-(13, 4) blocks Row 3 and 4.
-- **Chairs**: Likely block Row 5.
-- **Clear Path**: Row 6 is visually clear.
+- **Walls**: (8, 2) is solid. Use it!
+- **Clear Path**: Row 6 is clear.
 - **Traps**: Warp Trap at (26, 10).
