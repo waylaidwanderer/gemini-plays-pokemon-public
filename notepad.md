@@ -5,20 +5,20 @@
 - **Secondary**: Defeat Team Rocket Executives.
 
 ## Murkrow Puzzle (B2F)
-- **Status**: Player (9, 5), Murkrow (9, 3).
-- **Strategy**: "Row 8 Corridor Slide".
-  1. Move Right to (10, 5). (Murkrow -> 10, 3).
-  2. Move Down 5 times to (10, 10).
-     - P(10, 10), M(10, 8).
-  3. Verify Row 8 is clear (Map indicates yes).
-  4. Slide Right to (14, 10). (Murkrow -> 14, 8).
-  5. Check Shutter at (14, 11).
+- **Status**: Player (10, 5), Murkrow (10, 3).
+- **Strategy**: "Row 7 Corridor Slide".
+  1. Move Down 4 times to (10, 9).
+     - P(10, 9), M(10, 7).
+  2. Verify Row 7 is clear (Aisle between chairs).
+     - Row 6/7 are the clear aisles. Row 8 has chairs.
+  3. Slide Right to (14, 9). (Murkrow -> 14, 7).
+  4. Move Down to check Shutter at (14, 11).
 - **Goal**: Lead Murkrow to Boss Door at (23, 14).
 
 ## Key Info
 - **Boss Door**: Needs Voice ID (Murkrow).
 
 ## Map Notes
-- **Walls**: (9, 9) Desk.
-- **Crossing**: Row 8 appears clear crossing x=13.
+- **Walls**: Chairs at Row 5 and Row 8. Desks at Row 3/4 and 9/10.
+- **Clear Path**: Row 6 and Row 7 are the safe aisles.
 - **Traps**: Warp Trap at (26, 10).
