@@ -130,25 +130,22 @@ Confirmed Mechanics:
    - Move Right to Col 23.
    - Player (4, 1) -> (23, 1).
    - Murkrow (4, 16) -> (23, 16).
-3. **The "Ghost Wall" Solution**:
-   - **Current**: P(24, 13), M(24, 12).
-   - **Step 1: The Reset (Zig-Zag)**.
-     - Right 4 to (28, 13). M -> (28, 12).
-     - Up 4 to (28, 9). M Down to (28, 16).
-     - Left 2 to (26, 9). M Left to (26, 16).
-     - Up 8 to (26, 1). M Blocked Down.
-     - Result: P(26, 1), M(26, 16).
+3. **The "Col 28" Zig-Zag (Final)**:
+   - **Current**: P(26, 5), M(26, 16).
+   - **Step 1: Traverse & Reset**.
+     - Right 2 to (28, 5). M -> (28, 16).
+     - Down 11 to (28, 16).
+       - M moves Up 11. Blocked at (28, 8). Stays (28, 9).
+     - Result: P(28, 16), M(28, 9).
    - **Step 2: The Ratchet**.
-     - Down 15 to (26, 16).
-       - M moves Up. Blocked by Crate at (26, 10). Stays (26, 11).
-     - Result: P(26, 16), M(26, 11).
-   - **Step 3: The Ghost Cross**.
-     - Left 4 to (22, 16).
-       - M Left -> Blocked by Wall (23, 11). Stays (24, 11).
-     - Result: P(22, 16), M(24, 11).
-   - **Step 4: Delivery**.
-     - Up 3 to (22, 13). M Down to (24, 14).
-     - **Interact**.
+     - Up 3 to (28, 13).
+       - M moves Down 3 to (28, 12).
+     - Result: P(28, 13), M(28, 12).
+   - **Step 3: Delivery**.
+     - Left 6 to (22, 13). M -> (22, 12).
+     - Result: P(22, 13), M(22, 12).
+     - **Interact** (Door is at 22, 14).
+     - M is 2 tiles from Door. P is 1 tile from Door. Hopefully valid.
 [Turn 36186] Inverted Ratchet - Phase 2.
 - Player at (7, 16). Murkrow at (7, 1).
 - Col 7 has a wall at (7, 4) which will block Murkrow.
