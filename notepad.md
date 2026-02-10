@@ -104,3 +104,7 @@ Hypothesis:
 - If Vertical Mirror: Murkrow moves Up to (8, 0) [Blocked] -> Stays at (8, 1). **SEPARATION**.
 - If Vertical Parallel: Murkrow moves Down to (8, 2). **STACKED**.
 Goal: Unstack Murkrow to confirm mechanics.
+[Turn 36174] Conclusion: Murkrow is either Stacked (Parallel) or Lost. Unstacking failed.
+Action: Resetting Puzzle.
+Plan: Move Left to Stairs at (3, 2). Exit map to B1F, then return. Murkrow should reset to (7, 2).
+Note: This resolves the ambiguous state (Mirror vs Parallel) by forcing a hard reset.
