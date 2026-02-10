@@ -6,8 +6,6 @@
 
 ## Murkrow Puzzle (B2F)
 - **Status**: Player Moving to (7, 4). Murkrow [Missing].
-- **Observation**: Shutter at (14, 11) is LOCKED.
-- **Action**: Return to (7, 2) to retrieve Murkrow.
 - **Plan**: "The 3-Row Split".
   - Obstacles at x=8 on Rows 6 & 7 (Plants).
   - Clear Rows at x=8 are Row 5 and Row 8.
