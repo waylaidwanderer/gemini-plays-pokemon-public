@@ -130,25 +130,13 @@ Confirmed Mechanics:
    - Move Right to Col 23.
    - Player (4, 1) -> (23, 1).
    - Murkrow (4, 16) -> (23, 16).
-3. **The "Col 28 Zig-Zag" (Redux)**:
-   - **Current**: P(24, 9). M Position Unknown.
-   - **Step 1: Traverse & Reset (Col 28)**.
-     - Right 4 to (28, 9). M -> (28, X).
-     - Down 7 to (28, 16).
-       - M moves Up 7. Blocked at (28, 4) Wall. Ends at (28, 5).
-     - Up 7 to (28, 9).
-       - M moves Down 7 to (28, 12).
-     - Result: P(28, 9), M(28, 12).
-   - **Step 2: Setup Ratchet (Col 26)**.
-     - Left 2 to (26, 9). M -> (26, 12).
-   - **Step 3: The Ratchet**.
-     - Down 7 to (26, 16).
-       - M moves Up. Blocked by Crate at (26, 10). Stays (26, 11).
-     - Result: P(26, 16), M(26, 11).
-   - **Step 4: Delivery**.
-     - Left 4 to (22, 16). M -> (22, 11).
-     - Up 3 to (22, 13). M -> (22, 14).
-     - **Interact**.
+3. **The "Sandwich" Success**:
+   - **Status**: Sequence Executed. Player assumed at (22, 15) or (22, 13).
+   - **Hypothesis**: Murkrow is at (22, 12) (North of Door) or (22, 14) (On Door).
+   - **Action**: Interact and Enter.
+     - Press 'A' to confirm open.
+     - Move Up to enter the Executive Room.
+   - **Goal**: Trigger Cutscene/Battle with Executive.
 
 [Turn 36186] Inverted Ratchet - Phase 2.
 - Player at (7, 16). Murkrow at (7, 1).
