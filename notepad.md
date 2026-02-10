@@ -2,16 +2,15 @@
 
 ## STATUS: RESETTING ROOM
 **Goal**: Exit and re-enter to reset Murkrow to (7, 2).
-**Reason**: South path to Switch (19, 11) blocked by wall at Row 14.
+**Reason**: South path to Switch (19, 11) blocked by wall at Row 14. North blocked by wall at Row 4.
 
 ## Plan
-1. **Reset**: Exit via (27, 2). Re-enter.
-2. **Check Shutter**: Navigate to (15, 10) from the North.
-   - Route: Start (7, 2) -> Left to Col 1-5 -> Down through Col 9 gap?
-   - Or just use the Safe Path through Col 9?
-   - Verify Shutter at (15, 10).
-3. **If Shutter Closed**:
-   - Navigate to Switch (19, 11).
-   - Potential path: Col 9 -> Right to Col 19 (Check Row 8 obstacle/passage).
-4. **If Shutter Open**:
-   - Execute "Jed Sandwich".
+1. **Navigate to Gap**: (27, 5) -> Down to Row 6 -> Left to Col 9 (Gap).
+   - *Note*: Row 4 is a solid wall except at Col 9 and Col 1.
+   - *Hazard*: Statue Alarm at (24, 6). Battle likely.
+2. **Reach Exit**: Up through Col 9 Gap -> Right to (27, 2).
+3. **Reset**: Exit/Re-enter.
+4. **Check Shutter**: Verify Shutter at (15, 10).
+5. **Execute Strategy**:
+   - If Open: "Jed Sandwich".
+   - If Closed: Access Switch (19, 11) via Col 9 -> Right.
