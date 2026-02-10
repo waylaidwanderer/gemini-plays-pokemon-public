@@ -4,19 +4,24 @@
 - **Primary**: Open Boss Door at B2F (23, 14).
 - **Secondary**: Defeat Team Rocket Executives.
 
-## Murkrow Mechanics (Verified)
-- **Location**: Currently at (7, 2). Player at (7, 4).
-- **Status**: Movement link INACTIVE.
-- **Current Strategy**: Abandoning Murkrow escort. Attempting to use password "HAIL GIOVANNI" directly on Boss Door.
-- **Mimicry Logic**: Murkrow did not follow 'Down' movement after password reveal.
+## Reflection (Turn 36137)
+- **Progress**: Verified that the Boss Door DOES NOT open with just the password. Interaction yielded no result/text. The Murkrow is REQUIRED.
+- **Hypothesis**: "Voice ID" implies the Murkrow must be present to speak the password.
+- **Correction**: Previous Murkrow attempts failed due to positioning or link failure.
+- **New Strategy**:
+    1. Return to Murkrow (7, 2).
+    2. Position at (8, 2) (Right of Murkrow).
+    3. Interact ('A'). Clear text.
+    4. Move 'Right' to (9, 2).
+    5. Hope Murkrow mimics 'Right' to (8, 2).
+    6. Lead it carefully to the door.
 
 ## Navigation Plan
-- **Goal**: Reach Boss Door at (23, 14) to test "HAIL GIOVANNI" password.
+- **Goal**: Return to Murkrow at (7, 2).
 - **Route**:
-  1. **Current**: At B2F (27, 14).
-  2. Move Left to (26, 14), then Down to (26, 15).
-  3. Move West along Row 15 to (23, 15).
-  4. Move Up to (23, 14) and interact North with the door at (23, 13).
+  1. East to (28, 14).
+  2. North up Col 28 to (28, 2) (Avoid stairs at 27, 2).
+  3. West to (7, 2).
 
 ## Trap Data
 - **CRITICAL**: Do not step on B1F (3, 6) or B2F (3, 6).
