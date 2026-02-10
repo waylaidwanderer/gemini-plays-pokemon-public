@@ -130,15 +130,24 @@ Confirmed Mechanics:
    - Move Right to Col 23.
    - Player (4, 1) -> (23, 1).
    - Murkrow (4, 16) -> (23, 16).
-3. **Re-Acquisition & Discovery**:
-   - **Fact**: Row 8 is a Wall from Col 21-25. Gap at Col 26.
-   - **Fact**: Row 4 is a Wall from Col 22-28. No vertical access in East Room.
-   - **Implication**: Player is trapped in "Upper East" (Row 5-7) or "Lower East" (Row 9-16). Access via Col 26.
-   - **Action**: Escape Upper East.
-     - Move Right to (26, 7). Down to (26, 9).
-     - Move Left to (22, 9) (Safe Corridor).
-     - Move Down to (22, 13) (Boss Door Check).
-   - **Goal**: Locate Murkrow during transit. Expect M to end up in Top Left (21, 1) if sync holds.
+3. **The Sum-27 Solution**:
+   - **Logic**: Target P(13), M(14) -> Sum 27.
+   - **Current**: P(24, 9), M(24, 9) [Stacked]. Sum 18.
+   - **Step 1: Setup at Col 26**.
+     - Right to (26, 9).
+     - Up to (26, 6). M moves to (26, 12).
+     - Check: P(6), M(12). Sum 18.
+   - **Step 2: The Ratchet**.
+     - Move Down to (26, 15).
+     - M tries to move Up from 12->11.
+     - Wall at (26, 11) blocks M. M stays at 12.
+     - P moves 6->15 (+9 steps).
+     - Result: P(15), M(12). Sum 27.
+   - **Step 3: Delivery**.
+     - Left to (22, 15). M -> (22, 12).
+     - Up to (22, 13). M -> (22, 14) [Down 2].
+     - P(13), M(14). (Synced!).
+     - **Interact**.
 [Turn 36186] Inverted Ratchet - Phase 2.
 - Player at (7, 16). Murkrow at (7, 1).
 - Col 7 has a wall at (7, 4) which will block Murkrow.
