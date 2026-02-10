@@ -1,21 +1,19 @@
 # Team Rocket HQ - Murkrow Puzzle
 
-## STATUS: EXECUTING "SHUTTER CHECK"
-**Goal**: Verify if Shutter at (15, 10) is Open.
-**Reason**: Access to Boss Area requires Shutter.
+## STATUS: EXECUTING "SWITCH HUNT"
+**Goal**: Reach Switch at (19, 11) to ensure Shutter is Open.
+**Reason**: Row 4 wall blocks direct access. Must flank via Left Side.
 
-## Step 1: Navigate to Shutter (Safe Path)
-1. **Ratchet M Up**:
-   - P(4, 8). M(6, 2).
-   - Up 6. P(4, 2).
-   - M Down 6 -> Blocked at (6, 4) Wall. M stops at (6, 3).
-   - *State*: P(4, 2), M(6, 3).
-2. **Move to Center**:
-   - Right 11. P(15, 2). M(17, 3).
-3. **Check Shutter**:
-   - Down 8. P(15, 10) [Shutter].
-   - M Up 8 -> Blocked at top. M stops at (17, 0).
+## Step 1: Flank Left (Current)
+1. **Move to Col 9**: Left 6 -> P(9, 3).
+2. **Move to Row 7**: Down 4 -> P(9, 7).
+3. **Move to Col 4**: Left 5 -> P(4, 7).
 
-## Step 2: Decision
-- **If P passes (15, 10)**: Shutter is OPEN. Proceed to "SHUTTER ENTRY" Strategy.
-- **If P bumps**: Shutter is CLOSED. Navigate to Switch (19, 11) via Right Side, Toggle, Reset.
+## Step 2: Cross Bottom (Next)
+4. **Enter Trap Zone**: Down 2 -> P(4, 9).
+5. **Cross to Switch**: Right 15 -> P(19, 9).
+6. **Access Switch**: Down/Around to (19, 12) -> Interact (19, 11).
+
+## Step 3: Reset
+7. **Exit**: Go to (27, 2) or Warp.
+8. **Restart**: "Jed Sandwich".
