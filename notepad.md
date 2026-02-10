@@ -5,11 +5,12 @@
 - **Secondary**: Defeat Team Rocket Executives.
 
 ## Murkrow Puzzle (B2F)
-- **Status**: Player (8, 3), Murkrow (7, 2).
-- **Observation (Up Move)**: Confirmed Murkrow stayed at (7, 2) when I moved Up.
-- **Action**: Executing **Magic Move** (Down) to (8, 4).
-- **Expectation**: Murkrow moves to (8, 3) (Repeat of Turn 35658 success).
-- **Contingency**: If Murkrow moves to (7, 3) instead, we can work with that too.
+- **Status**: Player (8, 4), Murkrow (7, 2).
+- **Result**: Moving Down to (8, 4) FAILED to move Murkrow. Column 8 appears to be out of range for vertical mimicry.
+- **Action**: Move **Left** to (7, 4).
+  - Expectation: Murkrow tries Left -> Blocked -> Stays at (7, 2).
+- **Next**: From (7, 4), move **Down** to (7, 5).
+  - Test if close-range Mimic works (Murkrow 7, 2 -> 7, 3).
 
 ## Map Notes
 - **Walls**: (6, 2) and (8, 2) block Murkrow at Row 2.
