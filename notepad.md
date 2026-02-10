@@ -11,9 +11,14 @@
 
 ## Current State
 - Map: B1F (3_50).
-- Player: (3, 2).
-- Status: Resetting Room. Returned to B1F (3, 2).
-- Action: Re-entering B2F to reset Murkrow position to (7, 2).
+- Player: (3, 2) -> Moving to (5, 9).
+- Murkrow: (7, 2) -> Moving to (10, 9).
+- Status: Executing "Align and Push" Phase 1.
+- Sequence:
+  1. Down x6 (Row 8).
+  2. Right x3 (Align Murkrow to Col 10, Player blocked at Col 5).
+  3. Down x1 (Murkrow to (10, 9)).
+  4. Next: Right x1 (Push Murkrow through Fake Wall).
 - Puzzle Strategy: "Align and Push" (Retry)
   1. Verify Murkrow at (7, 2).
   2. Move Right cautiously, checking for walls blocking Murkrow.
