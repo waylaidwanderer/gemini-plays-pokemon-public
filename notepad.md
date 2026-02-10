@@ -5,17 +5,16 @@
 - **Secondary**: Defeat Team Rocket Executives.
 
 ## Murkrow Puzzle (B2F)
-- **Status**: Player (7, 4), Murkrow (7, 2).
-- **Strategy**: Vertical Ratchet.
+- **Status**: Player (7, 5), Murkrow (7, 4).
+- **Observation**: Murkrow is adjacent North of Player. 
+  - Turn 35638: Player Moved Down `(7, 4) -> (7, 5)`. Murkrow is now at `(7, 4)`.
+  - Inferred: Murkrow Moved Down `(7, 3) -> (7, 4)`. 
+  - Mechanic: **MIMIC** (Copies Movement).
 - **Plan**:
-  1. Move **Down** to (7, 5). Expect Murkrow -> (7, 1) (Up).
-  2. Move **Down** to (7, 6). Expect Murkrow -> Blocked at Top (Stay at 7, 1).
-     - *This increases the distance between us.*
-  3. Move **Up** repeatedly to push Murkrow South.
-     - Player (7, 5) -> Murkrow (7, 2).
-     - Player (7, 4) -> Murkrow (7, 3).
-     - Player (7, 3) -> Murkrow (7, 4).
-     - Player (7, 2) -> Murkrow (7, 5).
+  1. Move **Right** to `(8, 5)`. 
+     - If Mimic: Murkrow moves Right to `(8, 4)` (Escaped Col 7!).
+     - If Mirror: Murkrow hits Wall `(6, 4)` (Stays).
+  2. If Escaped: Guide East/South to Boss Door `(23, 14)`.
 
 ## Map Notes
 - **Walls**: (6, 2) separates NW and N areas.
