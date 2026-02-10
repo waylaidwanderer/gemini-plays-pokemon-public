@@ -24,3 +24,4 @@
 - **Boss Door**: Needs Voice ID (Murkrow).
 - **Walls**: (7, 0) is a hard wall.
 - **Passage**: (15, 13) is a gap, (15, 12) is floor. Perfect for P(Row 13)/M(Row 12).
+- Turn 35822: Attempting to walk INTO Murkrow at (7, 2). Testing collision/displacement behavior.
