@@ -130,22 +130,20 @@ Confirmed Mechanics:
    - Move Right to Col 23.
    - Player (4, 1) -> (23, 1).
    - Murkrow (4, 16) -> (23, 16).
-3. **The "Col 28" Zig-Zag (Final)**:
-   - **Current**: P(26, 5), M(26, 16).
-   - **Step 1: Traverse & Reset**.
-     - Right 2 to (28, 5). M -> (28, 16).
-     - Down 11 to (28, 16).
-       - M moves Up 11. Blocked at (28, 8). Stays (28, 9).
-     - Result: P(28, 16), M(28, 9).
+3. **The "Solid Crate" Solution (Final)**:
+   - **Current**: P(25, 5), M(25, 12).
+   - **Step 1: The Reset**.
+     - Right 1 to (26, 5). M -> (26, 12).
+     - Up 4 to (26, 1). M -> (26, 16).
+     - Result: P(26, 1), M(26, 16).
    - **Step 2: The Ratchet**.
-     - Up 3 to (28, 13).
-       - M moves Down 3 to (28, 12).
-     - Result: P(28, 13), M(28, 12).
+     - Down 15 to (26, 16).
+       - M moves Up. Hits Solid Crate at (26, 10). Stays (26, 11).
+     - Result: P(26, 16), M(26, 11).
    - **Step 3: Delivery**.
-     - Left 6 to (22, 13). M -> (22, 12).
-     - Result: P(22, 13), M(22, 12).
-     - **Interact** (Door is at 22, 14).
-     - M is 2 tiles from Door. P is 1 tile from Door. Hopefully valid.
+     - Left 4 to (22, 16). M -> (22, 11).
+     - Up 3 to (22, 13). M -> (22, 14) [Door Tile].
+     - **Interact**.
 [Turn 36186] Inverted Ratchet - Phase 2.
 - Player at (7, 16). Murkrow at (7, 1).
 - Col 7 has a wall at (7, 4) which will block Murkrow.
