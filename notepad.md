@@ -5,17 +5,16 @@
 - **Secondary**: Defeat Team Rocket Executives.
 
 ## Murkrow Puzzle (B2F)
-- **Status**: Player (7, 4), Murkrow (7, 2).
-- **Result**: Moving **Up** to (7, 4) resulted in NO movement from Murkrow.
-- **Hypothesis**: Murkrow mimics, but needs clear path and/or range.
-- **Goal**: Recreate the successful state from Turn 35658.
-  - Success State: Player at (8, 3), Murkrow at (7, 2).
-  - Action: Player moves **Down**. Murkrow mimics **Down**.
-- **Plan**:
-  1. Move **Right** to (8, 4).
-     - Murkrow tries Right -> (8, 2) Wall -> Stays at (7, 2).
-  2. Move **Up** to (8, 3).
-  3. Move **Down** to (8, 4) (The Magic Move).
+- **Status**: Player (8, 4), Murkrow (7, 2).
+- **Action**: Moving **Up** to (8, 3).
+- **Scientific Observation**:
+  - **Start**: Player (8, 4), Murkrow (7, 2).
+  - **Move**: Up.
+  - **Hypothesis**:
+    - Mimic: Murkrow -> (7, 1).
+    - Mirror: Murkrow -> (7, 3).
+    - Stays: Out of Range / Other logic.
+- **Next**: Verify position. If at (8, 3), prepare for "Magic Move" (Down).
 
 ## Map Notes
 - **Walls**: (6, 2) and (8, 2) block Murkrow at Row 2.
