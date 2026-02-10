@@ -44,3 +44,6 @@ Expectation: Clean screen next turn.
 [Turn 36109] Testing single 'A' followed by 'Down'. 
 Goal: Advance text to "HAIL GIOVANNI" OR close it and move. 
 Rationale: Previous spamming failed. Testing controlled input.
+[Turn 36110] Breaking the "A-Loop". 
+Sequence: A (Advance) -> A (Scroll) -> A (Close) -> B (Safety) -> Down (Move).
+Hypothesis: A single 'A' wasn't enough to handle scroll + advance. 'B' is essential to prevent re-interaction.
