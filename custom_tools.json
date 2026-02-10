@@ -670,5 +670,25 @@
         "action_counter": 36307
       }
     ]
+  },
+  "solve_murkrow_statue_pump": {
+    "description": "Executes the 'Statue Pump' strategy.\nPath: Right 2 (28,12), Down 4 (28,16), Up 15 (Ratchet P to 9), Left 6 (22,9), Down 7 (22,16), Up 2 (Pump), Up 3 (Align), A.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "autopress_buttons": {
+          "type": "boolean",
+          "default": true
+        }
+      }
+    },
+    "python_script": "\nprint(f'{{\"buttons\": [\"Right\", \"Right\", \"Down\", \"Down\", \"Down\", \"Down\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Left\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"A\"]}}')\n",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-02-10T17:58:40.290Z",
+        "action_counter": 36332
+      }
+    ]
   }
 }
