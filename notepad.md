@@ -25,3 +25,5 @@
 ## History
 - Switches pressed: B1F (24, 1) and B1F (6, 1).
 - Passwords found: "RATICATE TAIL", "SLOWPOKETAIL", "HAIL GIOVANNI".
+- **Anomaly**: Murkrow missing from (7, 2) and expected mirrored positions (7, 0-2) after moving Right, Down x4.
+- **Hypothesis**: Murkrow might have moved through walls, flown off-screen, or mechanics are different (e.g., rotation). Checking with simulation.
