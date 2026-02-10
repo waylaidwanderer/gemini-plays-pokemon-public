@@ -5,16 +5,16 @@
 - **Secondary**: Defeat Team Rocket Executives.
 
 ## Murkrow Puzzle (B2F)
-- **Status**: Player (7, 6), Murkrow (7, 3) [Expected].
-- **Test**: Moving Down to (7, 6).
-- **Possible Outcomes**:
-  - **Mimic**: Murkrow -> (7, 3). *Escaped Row 2!*
-  - **Mirror**: Murkrow -> (7, 1). *Still trapped vertically, but moved.*
-  - **No Move**: Out of Range or Sync issue.
-- **Next Step**:
-  - If at (7, 3): Move **Right** to (8, 6).
-    - Mimic: Murkrow -> (8, 3).
-    - Mirror: Murkrow -> (6, 3) [Blocked].
+- **Status**: Player (7, 6), Murkrow (7, 6) [STACKED].
+- **Event**: Murkrow seemingly teleported/jumped from (7, 2) to (7, 6) when Player moved to (7, 6).
+- **Hypothesis**: 
+  1. Scripted "Catch" or "Reset" event.
+  2. Murkrow is now following/attached to Player.
+  3. Visual Glitch (unlikely given sprite priority).
+- **Plan**:
+  1. Interact (Press A) to check for dialogue/status.
+  2. Move **Down** to (7, 8) (Path to East).
+  3. Guide "Stack" to Boss Door.
 
 ## Map Notes
 - **Walls**: (6, 2) separates NW and N areas.
