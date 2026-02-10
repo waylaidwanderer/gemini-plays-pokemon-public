@@ -130,18 +130,22 @@ Confirmed Mechanics:
    - Move Right to Col 23.
    - Player (4, 1) -> (23, 1).
    - Murkrow (4, 16) -> (23, 16).
-3. **The Ultimate Sync**:
-   - **Current**: Player (9, 9). Murkrow (9, 8) [Hypothesis].
-   - **Step 1**: Go to Bottom Right (26, 16).
-     - Down to (9, 16). Murkrow Up to (9, 1) [Blocked].
-     - Right to (26, 16). Murkrow Right to (26, 1).
-   - **Step 2**: The Crate Block (Col 26).
-     - Up to (26, 6). Murkrow Down to (26, 11).
-     - Down to (26, 16). Murkrow Up to (26, 10) [Blocked by Crate].
+3. **The Final Solution**:
+   - **Current**: Player (22, 9). Murkrow (22, 8) [Hypothesis - Trapped].
+   - **Step 1**: Untrap & Relocate.
+     - Move Right to (26, 9).
+     - Move Up to (26, 8). Murkrow Down to (22, 9) [Untrapped Y].
+     - Move Up to (26, 1). Murkrow Down to (22, 16) [Untrapped X - Bottom Corridor].
+   - **Step 2**: Sync X.
+     - Move Right to (28, 1). Murkrow Right to (28, 16) [Synced].
+     - Move Left to (26, 1). Murkrow Left to (26, 16).
+   - **Step 3**: The Crate Block.
+     - Move Down to (26, 6). Murkrow Up to (26, 11).
+     - Move Down to (26, 16). Murkrow Blocked at (26, 10). Stays (26, 11).
      - Result: Player (26, 16). Murkrow (26, 11). Sum=27.
-   - **Step 3**: Delivery.
-     - Left to (22, 16). Murkrow to (22, 11).
-     - Up to (22, 13). Murkrow to (22, 14) (ON DOOR).
+   - **Step 4**: Delivery.
+     - Move Left to (22, 16). Murkrow to (22, 11).
+     - Move Up to (22, 13). Murkrow to (22, 14) (ON DOOR).
      - **Interact**.
 
 ## Trap Data
