@@ -13,9 +13,10 @@
   - If Failure: Reset Map via Stairs at (3, 2).
 
 ## Recovery: Re-acquiring Murkrow
-- **Status**: Interacting with Murkrow at (7, 2).
-- **Action**: Pressing A to wake it up.
-- **Next Step**: Move Down to (7, 4) to verify mimicry.
+- **Status**: Text "HAIL GIOVANNI." on screen.
+- **Action**: Pressing B to close, then Down to (7, 4).
+- **Test**: Verify if Murkrow moves to (7, 3).
+- **Hypothesis**: Mimicry should be active after dialogue.
 
 ## Murkrow Mechanics (Verified)
 - **Mimicry**: Moves in the *same* relative direction as Player.
