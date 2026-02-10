@@ -1,14 +1,16 @@
 # Team Rocket HQ - Murkrow Puzzle
 
-## STATUS: EXITING TO RESET
-**Goal**: Exit map via (27, 2) to reset Murkrow.
-**Switch Status**: Toggled ON.
+## STATUS: TOGGLING SWITCH
+**Goal**: Toggle Switch at (19, 11) to ON.
+**Current State**: Screen says "The switch is turned off."
+**Plan**: Toggle it to ON to open the Shutter.
 
-## Plan
-1. **Exit Route**:
+## Action
+1. **Toggle**: Close text (B), Interact (A).
+2. **Verify**: Ensure text says "The switch is turned on."
+3. **Exit**:
    - (19, 12) -> Down to (19, 16).
    - Right to (27, 16).
    - Up to (27, 2).
-2. **Reset**: Exit and Re-enter.
-3. **Verify**: Check Shutter at (15, 10) is OPEN.
-4. **Execute**: "Jed Sandwich" Strategy.
+4. **Reset**: Exit and Re-enter.
+5. **Execute**: "Jed Sandwich" Strategy.
