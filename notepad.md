@@ -5,16 +5,14 @@
 - **Secondary**: Defeat Team Rocket Executives.
 
 ## Murkrow Puzzle (B2F)
-- **Status**: Interacting with Murkrow at (7, 2). Player at (7, 3).
-- **Issue**: Murkrow stopped moving in previous turns. Interaction resets/wakes it.
-- **Current Mechanics Hypothesis**: 
-  - Murkrow mimics player inputs (Up/Down/Left/Right).
-  - Tether breaks if distance > X (likely 3 or 4).
-  - Walls block movement (Player moves, Murkrow hits wall -> Desync).
-- **Plan**:
-  1. Finish Dialogue.
-  2. Test Move RIGHT to (8, 3). (Expect M -> 8, 2).
-  3. If successful, use "Row 6 Slide" or similar strategy.
+- **Status**: Dialogue "HAIL GIOVANNI". Player (7, 3), Murkrow (7, 2).
+- **Action**: Advancing text.
+- **Next Move**: Move Down to (7, 4).
+- **Expectation**: Murkrow mimics Down to (7, 3). (Gap 1).
+- **Strategy**: "Gap 1 Bottom Run".
+  1. Move Down to (7, 13).
+  2. Move Right to (15, 13).
+  3. Proceed East.
 
 ## Key Info
 - **Boss Door**: Needs Voice ID (Murkrow).
