@@ -6,12 +6,13 @@
 
 ## Murkrow Puzzle (B2F)
 - **Status**: Player at (7, 3). Murkrow at (7, 2).
-- **Action**: Interacting (A) to reset/wake Murkrow.
-- **Problem**: Murkrow stopped following.
-- **Plan**:
-  1. Interact.
-  2. Verify if it says "HAIL GIOVANNI".
-  3. Try moving Down again.
+- **Action**: In Dialogue.
+- **Next Step**: Once dialogue ends, Move Down to (7, 4).
+- **Expectation**: Murkrow should follow to (7, 3). (Gap 1).
+- **Strategy**: "Gap 1 Bottom Run".
+  1. Move Down to (7, 13).
+  2. Move Right to (15, 13).
+  3. Proceed East.
 - **Goal**: Lead Murkrow to Boss Door at (23, 14).
 
 ## Key Info
