@@ -5,9 +5,9 @@
 - **Secondary**: Defeat Team Rocket Executives.
 
 ## Murkrow Puzzle (B2F)
-- **Status**: Player (9, 4), Murkrow (9, 3).
+- **Status**: Player (10, 4), Murkrow (10, 3).
 - **Current Strategy**: "Row 6 Safe Slide".
-  1. Move Right to (10, 4). (Murkrow -> 10, 3).
+  1. Move Right to (10, 4). (Done - checking result).
   2. Move Down 3 times to (10, 7).
      - P(10, 5), M(10, 4).
      - P(10, 6), M(10, 5).
