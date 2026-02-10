@@ -130,15 +130,14 @@ Confirmed Mechanics:
    - Move Right to Col 23.
    - Player (4, 1) -> (23, 1).
    - Murkrow (4, 16) -> (23, 16).
-3. **The Crossing**:
-   - **Insight**: Col 23 is a wall from Row 9-13. Murkrow must cross at Row 16.
-   - **Step 1**: Move Down to (25, 6). Murkrow to (26, 11).
-   - **Step 2**: Move Left to (21, 6). Murkrow Stuck at (24, 11) (Wall).
-   - **Step 3**: Move UP to (21, 1). Murkrow DOWN to (24, 16) (Clear).
-   - **Step 4**: Move Left to (19, 1). Murkrow Left to (22, 16).
-   - **Step 5**: Align Player to (21, 1). Murkrow at (22, 16).
-   - **Step 6**: Move Down to (21, 4). Murkrow Up to (22, 13).
-   - **Step 7**: The Squeeze & Delivery. Move Down to (21, 13).
+3. **The Crossing & Alignment**:
+   - **Current**: Player (21, 6). Murkrow (24, 11).
+   - **Step 1**: Escape Trap. Move Right to (23, 6). Murkrow to (26, 11).
+   - **Step 2**: Vertical Adjust. Move Up to (23, 5). Murkrow to (26, 12).
+   - **Step 3**: Move Left to Col 22. Move Left to (19, 5). Murkrow to (22, 12).
+   - **Step 4**: X-Align. Move Right to (22, 5). Murkrow Blocked at (23, 12).
+   - **Step 5**: Y-Align. Move Down to (22, 16). Murkrow Blocked at (22, 10).
+   - **Step 6**: The Delivery. Move Up to (22, 15). Murkrow to (22, 13) [Sandwich Door].
 
 ## Trap Data
 - **CRITICAL**: Do not step on B1F (3, 6) or B2F (3, 6).
