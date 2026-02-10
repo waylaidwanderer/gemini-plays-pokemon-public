@@ -5,17 +5,15 @@
 - **Secondary**: Defeat Team Rocket Executives.
 
 ## Murkrow Puzzle (B2F)
-- **Status**: Player (9, 4), Murkrow (9, 3).
-- **Observation**:
-  - T35659: Player Right (8, 4 -> 9, 4) -> Murkrow Right (8, 3 -> 9, 3).
-  - **MIMIC CONFIRMED** (at least for Right movement).
-- **Obstacle**: Walls at (11, 3) and (11, 4) block Eastward progress in current rows.
-- **Solution**: Move Murkrow to Row 5 (Open at Col 11).
+- **Status**: Player (9, 5), Murkrow (9, 4).
+- **Strategy**: **Stacking** (Super-Unit).
+- **Reasoning**: Obstacles at Col 11 and Col 13 make relative guiding difficult. Stacking simplifies pathing.
 - **Plan**:
-  1. Move **Down** to (9, 5). Expect Murkrow -> (9, 4).
-  2. Move **Down** to (9, 6). Expect Murkrow -> (9, 5).
-  3. Move **Right** to (15, 6) carrying Murkrow in Row 5.
-  4. Navigate to Boss Door.
+  1. Move **Right** to (10, 5). Murkrow -> (10, 4).
+  2. Move **Up** to (10, 1) or (10, 2).
+     - Murkrow gets blocked by Wall at (10, 1) or (10, 0).
+     - Player catches up. **Stacked!**
+  3. Navigate as one unit to Boss Door via Row 5 -> Row 9 Gap -> Row 13 Gap.
 
 ## Map Notes
 
