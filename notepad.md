@@ -12,15 +12,19 @@
   - Expectation: Murkrow moves to (7, 3).
   - If Failure: Reset Map via Stairs at (3, 2).
 
-## Recovery: Re-acquiring Murkrow
-- **Status**: Murkrow static at (7, 2).
-- **Observation**: First move after text close didn't trigger mimicry.
-- **Action**: Moving Down to (7, 5).
-- **Test**: Verify if Murkrow moves to (7, 3).
+## Plan: The Under-Tree Route (Active)
+- **Goal**: Place P at (14, 12) and M at (14, 10).
+- **Current**: P(7, 5), M(7, 3).
+- **Step 1**: Down to (7, 10). (M -> 7, 8).
+  - *Reason*: Row 8 is safe for M, avoiding Wall at (8, 6).
+- **Step 2**: Right to (10, 10). (M -> 10, 8).
+- **Step 3**: Down to (10, 12). (M -> 10, 10 via Fake Wall).
+- **Step 4**: Right to (14, 12). (M -> 14, 10).
+- **Step 5**: Interact with Shutter (14, 11) or Murkrow.
 
 ## Murkrow Mechanics (Verified)
-- **Mimicry**: Moves in the *same* relative direction as Player.
-- **Reset**: Resets to (7, 2) if player leaves map/range. Needs interaction to restart.
+- **Mimicry**: Active. Relative offset (0, -2).
+- **Reset**: Resets to (7, 2) if led astray.
 
 ## Trap Data
 - Warp Traps at (26, 9), (26, 10), (24, 11), (25, 11).
