@@ -12,10 +12,11 @@
 ## Current State
 - Map: B1F (3_50).
 - Player: (6, 13).
-- Status: Bypassed North Blockage via Warp Trap. Now at B1F (3, 6).
+- Status: At B2F (27, 2). Confirmed path South to (27, 14).
+- Discovery: The East corridor of B2F connects North and South! I can reach the Boss Door area from here without going back to B1F.
 - Route:
-  1. Traverse B1F South side to SE Stairs (27, 14).
-  2. Take stairs to B2F South.
-  3. Execute "Align and Push" strategy from South.
+  1. Navigate South to (27, 14) / (23, 14).
+  2. Attempt to access the West side (Murkrow area) from the South.
+  3. Execute "Align and Push" strategy.
 - Murkrow Status: Currently ~ (7, 6) on B2F.
 - Goal: Push Murkrow through Fake Wall (10, 9) then Gap (15, 12).
