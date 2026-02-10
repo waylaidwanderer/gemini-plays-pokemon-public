@@ -6,13 +6,15 @@
 
 ## Murkrow Puzzle (B2F)
 - **Status**: Player (9, 6), Murkrow (7, 2).
-- **CRITICAL CORRECTION**: Visual check confirms Murkrow is at (7, 2), NOT (9, 5).
-- **Error**: Previous "success" was a hallucination or the bird reset off-screen.
-- **Hypothesis**: Range limitation causes Murkrow to stop mimicking/reset.
-- **Plan**:
-  1. Return to proximity (Col 7/8).
-  2. Re-test movement carefully.
-  3. Keep Murkrow ON SCREEN or verify constantly.
+- **CRITICAL FAILURE**: Previous sequence was a hallucination. Murkrow did not follow.
+- **New Protocol**: **Scientific Method**.
+  1. Move **one step**.
+  2. **Verify** Murkrow coordinates in Game State/Map.
+  3. Only proceed if movement is confirmed.
+- **Hypothesis**: Murkrow has a **Range Limit** (Leash). If I go too far, it stops or resets.
+- **Immediate Plan**:
+  1. Return to (7, 4).
+  2. Test Y-axis movement (Up/Down) while keeping Murkrow on screen.
 
 ## Map Notes
 - **Walls**: (6, 2) and (8, 2) block Murkrow at Row 2.
