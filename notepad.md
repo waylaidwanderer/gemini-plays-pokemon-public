@@ -161,10 +161,16 @@ Confirmed Mechanics:
 ## Murkrow Mechanics (Confirmed)
 - **Horizontal**: Parallel (Right -> Right).
 - **Vertical**: Mirror (Up -> Down).
-[Turn 36198] Murkrow should be at (5, 15) (Warp Tile) or (25, 2) (Warped).
-Action: Moving Player to (5, 15) to trigger Warp.
-Rationale:
-- If Murkrow warped, I meet it at (25, 2).
-- If Murkrow stuck at (5, 15), I warp away, then loop back via Row 16.
-- Direct path to (23, 14) from (25, 2) is clean.
-Taking damage from traps on Col 5 to save time.
+[Turn 36200] Post-Warp Check.
+- Current: Player (25, 2).
+- Hypothesis: Murkrow warped to (25, 2) and is stacked.
+- Action: Move Down to (25, 3).
+- Logic (Vertical Mirror):
+  - Player Down -> Murkrow Up to (25, 1).
+  - Visual confirmation expected at (25, 1).
+- If Murkrow is NOT seen, the Warp Gambit failed (Murkrow stayed at 5, 15).
+  - Contingency: Navigate South to Row 16 -> West to recover Murkrow.
+
+## Murkrow Mechanics (Confirmed)
+- **Horizontal**: Parallel (Right -> Right).
+- **Vertical**: Mirror (Up -> Down).
