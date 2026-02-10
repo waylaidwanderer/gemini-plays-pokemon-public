@@ -671,8 +671,8 @@
       }
     ]
   },
-  "solve_murkrow_universal_ratchet": {
-    "description": "Executes the 'Universal Crate Ratchet' strategy.\n1. Move to Bottom-Right (28,16).\n2. Reset Y (Up 15 -> P Top, M Bottom).\n3. Shift to Col 26 (Left 2).\n4. Ratchet M (Down 15 -> P Bottom, M blocked at 12).\n5. Deliver (Left 4 -> Up 3 -> A).",
+  "solve_murkrow_col24_filter": {
+    "description": "Executes the 'Col 24 Filter' strategy from (28, 13).\nPath: Down 3 (to 28,16), Up 15 (Reset P to 9, M to 16), Left 2 (to 26,9), Down 7 (Ratchet M to 11), Left 2 (to 24,16), Up 3 (Stack at 13), Left 2 (to 22,13), Down 1 (Face Door), A.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -682,12 +682,12 @@
         }
       }
     },
-    "python_script": "\nprint(f'{{\"buttons\": [\"Right\", \"Right\", \"Right\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Left\", \"Left\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Left\", \"Left\", \"Left\", \"Left\", \"Up\", \"Up\", \"Up\", \"A\"]}}')\n",
+    "python_script": "\nprint(f'{{\"buttons\": [\"Down\", \"Down\", \"Down\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Left\", \"Left\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Left\", \"Left\", \"Up\", \"Up\", \"Up\", \"Left\", \"Left\", \"Down\", \"A\"]}}')\n",
     "history": [
       {
         "commit_message": "Initial version",
-        "timestamp": "2026-02-10T18:34:11.170Z",
-        "action_counter": 36352
+        "timestamp": "2026-02-10T18:37:00.217Z",
+        "action_counter": 36355
       }
     ]
   }
