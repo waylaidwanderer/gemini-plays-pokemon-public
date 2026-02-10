@@ -1,19 +1,23 @@
 # Team Rocket HQ - Murkrow Puzzle
 
-## Status: Searching for Murkrow
-- **Player**: (24, 13) -> Moving to (26, 6).
-- **Murkrow**: LOST (Likely Row 1 or 2).
-- **Goal**: Visually confirm Murkrow's location.
+## SOLVING: "The Col 22 Wall Ratchet"
+Target: P(22, 13), M(22, 14).
 
-## Plan
-1. Move Right 2 to (26, 13).
-2. Move Up 7 to (26, 6).
-3. Scan rows 1-5 for Murkrow.
-4. Once found, calculate solution.
+## Current Status (Turn 36449)
+- **Player**: (26, 12).
+- **Murkrow**: (26, 13) (Calculated).
 
-## Known Mechanics
-- **X**: Parallel movement.
-- **Y**: Mirrored movement.
-- **Murkrow Reset**: Exiting to Souvenir Shop resets M to (7, 2).
-- **Col 26**: Blocked at Row 11 (Solid Obstacle).
-- **Col 4**: Clear from 2-14.
+## The Winning Sequence
+1. **Reset to P(28, 2), M(28, 16)**:
+   - Down 4 -> P(26, 16).
+   - Right 2 -> P(28, 16).
+   - Up 14 -> P(28, 2).
+2. **Align to P(22, 7), M(22, 11)**:
+   - Down 9 -> P(28, 11). M(28, 7).
+   - Left 6 -> P(22, 11). M(22, 7).
+   - Up 4 -> P(22, 7). M(22, 11).
+3. **Ratchet M (Block at 10)**:
+   - Down 9 -> P(22, 16). M(22, 11) [Blocked Up at 10].
+4. **Finish**:
+   - Up 3 -> P(22, 13). M(22, 14).
+   - Face Down. Interact.
