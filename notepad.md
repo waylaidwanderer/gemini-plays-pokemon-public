@@ -130,18 +130,13 @@ Confirmed Mechanics:
    - Move Right to Col 23.
    - Player (4, 1) -> (23, 1).
    - Murkrow (4, 16) -> (23, 16).
-3. **Current Status & Recovery**:
-   - **Position**: Player at (22, 16) (South of Statue).
-   - **Analysis**: Previous West Side Ratchet failed due to obstacle at (19, 11).
-   - **Murkrow**: Likely North, possibly around Row 11/12.
-   - **Plan**:
-     1. Move East to (26, 16) to clear statue.
-     2. Move Up to visual contact with Murkrow.
-     3. Execute "Solid Crate Ratchet" on Col 26.
-        - P moves Down to (26, 16).
-        - M moves Up, hits Crate (26, 10), sticks at (26, 11).
-     4. Delivery: Left to (22, 16), Up to (22, 13).
-   - **Immediate Action**: Move Right to (26, 16).
+3. **Locate & Reset**:
+   - **Position**: Player at (24, 9). Murkrow Unknown (Likely Stacked).
+   - **Action**: Unstack using Col 28 Wall.
+     - Move Right 4 to (28, 9).
+     - Move Down 7 to (28, 16).
+     - **Mechanism**: If Stacked at (28, 9), P moves Down, M moves Up into Wall (28, 8), Stays at (28, 9). Separation.
+   - **Goal**: Confirm Murkrow position at (28, 9).
 
 [Turn 36186] Inverted Ratchet - Phase 2.
 - Player at (7, 16). Murkrow at (7, 1).
