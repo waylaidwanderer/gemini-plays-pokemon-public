@@ -131,14 +131,11 @@ Confirmed Mechanics:
    - Player (4, 1) -> (23, 1).
    - Murkrow (4, 16) -> (23, 16).
 3. **The Synchronization**:
-   - Current: Player (24, 12). Murkrow (24, 5) [Hypothesis].
-   - **Test Mechanic**: verify if bumping walls causes Murkrow to move.
-   - Step 1: Move to (26, 9) (North of Crates).
-     - Route: (24, 12) -> Up to (24, 9) -> Right to (26, 9).
-     - Expected Murkrow: (24, 5) -> Down to (24, 8) -> Right to (26, 8).
-   - Step 2: Bump Down against Crate.
-     - Player blocked. Check if Murkrow moves Up.
-   - If Successful: Use bumping to align Sum for Boss Door meeting.
+   - Current: Player (26, 9). Murkrow Status: LOST/STACKED?
+   - Hypothesis: Murkrow might be stacked at (26, 9) or lost.
+   - **Action**: Bump DOWN against Crate at (26, 10).
+     - If Stacked: Player Blocked. Murkrow moves UP to (26, 8) (Visible).
+     - If not seen, move Left to Col 23 to scan corridor.
 
 ## Trap Data
 - **CRITICAL**: Do not step on B1F (3, 6) or B2F (3, 6).
