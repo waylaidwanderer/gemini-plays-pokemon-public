@@ -130,18 +130,23 @@ Confirmed Mechanics:
    - Move Right to Col 23.
    - Player (4, 1) -> (23, 1).
    - Murkrow (4, 16) -> (23, 16).
-3. **The "Solid Crate" Solution (Final Execution)**:
-   - **Current**: P(26, 16), M(26, 11).
-   - **Step 1: Alignment (Col 22)**.
-     - Move Left 4 to (22, 16).
-     - M moves Left 4 to (22, 11).
-   - **Step 2: Approach**.
-     - Move Up 1 to (22, 15) [Likely Blocked by Terminal].
-       - If Blocked: P stays (22, 16). M stays (22, 11).
-       - If Walkable: P(22, 15). M(22, 12).
-   - **Step 3: Interact**.
-     - Press 'A' to open Boss Door at (22, 14).
-     - **Condition**: Murkrow "Voice ID" triggers from proximity (Sandwich).
+3. **The "Col 28" Stack Solution**:
+   - **Current**: P(22, 16), M(22, 11).
+   - **Step 1: Prep Sum 28**.
+     - Move Up 1 to (22, 15) [Blocked]. M -> (22, 12).
+     - Result: P(22, 16), M(22, 12).
+   - **Step 2: Traverse to Col 28**.
+     - Right 6 to (28, 16). M -> (28, 12).
+   - **Step 3: The Ratchet**.
+     - Up 6 to (28, 10).
+       - M moves Down 6. Hits (28, 16). Stays 16.
+     - Result: P(28, 10), M(28, 16). Sum 26.
+   - **Step 4: The Stack**.
+     - Down 3 to (28, 13). M -> (28, 13).
+     - Result: P(28, 13), M(28, 13).
+   - **Step 5: Delivery**.
+     - Left 6 to (22, 13). M -> (22, 13).
+     - **Interact**.
 [Turn 36186] Inverted Ratchet - Phase 2.
 - Player at (7, 16). Murkrow at (7, 1).
 - Col 7 has a wall at (7, 4) which will block Murkrow.
