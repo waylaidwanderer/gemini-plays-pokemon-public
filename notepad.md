@@ -30,3 +30,4 @@
   3. Take stairs to B2F (27, 2).
   4. Navigate South to SE Corner B2F (27, 14).
   5. Search SE area for switches/keys to unlock shutters.
+- Correction: The 'Fake Wall' at (6, 1) is solid. Path to East is likely South at row 10.
