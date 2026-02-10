@@ -5,14 +5,13 @@
 - **Secondary**: Defeat Team Rocket Executives.
 
 ## Murkrow Puzzle (B2F)
-- **Status**: Player (14, 10). Murkrow at (7, 2) [Reset].
-- **Observation**: Shutter at (14, 11) is LOCKED. Shortcuts are not an option.
-- **Action**: Return to (7, 2) to retrieve Murkrow.
-- **Plan**: Execute "Row 6 Slide" strategy carefully.
-  1. Get M to (7, 3).
-  2. Slide to (10, 3).
-  3. Pull M to Row 6 (Clear Path).
-  4. Slide Right to Boss Area.
+- **Status**: Player Moving to (7, 4). Murkrow at (7, 2).
+- **Plan**:
+  1. Reach (7, 4).
+  2. Verify Tether (Move Down to 7, 5 -> Murkrow to 7, 3).
+  3. Execute "Row 6 Slide" (Keep M on Row 6).
+     - Row 6 is clear of obstacles.
+     - Player walks on Row 7 or 8.
 - **Goal**: Lead Murkrow to Boss Door at (23, 14).
 
 ## Key Info
