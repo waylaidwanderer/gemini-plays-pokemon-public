@@ -6,12 +6,11 @@
 
 ## Murkrow Puzzle (B2F)
 - **Status**: Player (8, 5), Murkrow (8, 4).
-- **Testing**:
-  - Move Down (to 8, 5): SUCCESS. Murkrow moved Down (to 8, 4).
-  - Anomaly: A second Murkrow sprite remains at (7, 2), likely a bug or spawn point. Ignoring it.
-  - Plan:
-    1. Move Down to (8, 6). (Murkrow -> 8, 5).
-    2. Move Right to lead Murkrow past the wall at x=11.
+- **Obstacle**: (8, 6) is a Potted Plant (Blocked).
+- **Plan Adjustment**:
+  - Cannot move Down at column 8.
+  - Sidestep Right to (9, 5) (Murkrow -> 9, 4).
+  - Then move Down to (9, 6) to pull Murkrow to Row 5.
 - **Goal**: Lead Murkrow to Boss Door at (23, 14).
 
 ## Key Info
