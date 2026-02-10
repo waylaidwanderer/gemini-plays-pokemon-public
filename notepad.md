@@ -12,9 +12,9 @@
   - Switches toggle shutters.
 
 ## B2F Status
-- **Goal**: Locate second Murkrow in West Wing.
-- **Hypothesis**: This Murkrow is the "Voice ID" key for the Boss Door.
-- **Path**: Flanking via North Corridor (Row 1/2) to bypass Grunts.
+- **Goal**: Locate second Murkrow (Markers indicate East side at 21, 12).
+- **Hypothesis**: The Murkrow markers at (21, 12) are the target.
+- **Path**: Continue East along Row 1, then head South past the Grunts.
 
 ## Key Info
 - **Password**: "HAIL GIOVANNI" (Found on B1F).
@@ -22,6 +22,6 @@
 - **Murkrow Mechanics**: Moves in mirror/sync with player.
 
 ## Action Queue
-1. Navigate North to B2F Row 2.
-2. Head West to locate Murkrow.
-3. Use `simulate_murkrow` to solve puzzle.
+1. Navigate East to (24, 1).
+2. Head South to engage/solve Murkrow puzzle at (21, 12).
+3. Open Boss Door.
