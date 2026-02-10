@@ -57,3 +57,5 @@ Hypothesis: The Murkrow stops following if I move too far quickly, or get blocke
 [Turn 36078] Text "The password is..." confirmed. Advancing to "HAIL GIOVANNI" and closing. Next turn: Visual check for clear screen before moving.
 [Turn 36079] Mashing B to clear "HAIL GIOVANNI". Next turn: Visual confirmation of closed text box, then move Down to (7, 4).
 [Turn 36080] Screen clear. Moving Down to (7, 4). Expectation: Murkrow moves to (7, 3).
+[Turn 36081] FAIL. Murkrow remained at (7, 2). Direct 'Down' move broke the link or failed to trigger mimicry.
+Action: Moving Up to (7, 3) to re-engage. Will test 'Move Right' (Buffer) next.
