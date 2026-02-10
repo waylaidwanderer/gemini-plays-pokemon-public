@@ -5,17 +5,14 @@
 - **Secondary**: Defeat Team Rocket Executives.
 
 ## Murkrow Puzzle (B2F)
-- **Status**: Player (7, 3), Murkrow (7, 2).
-- **Observation**: I am directly below the Murkrow.
-- **Constraint**: Murkrow blocked from moving Down by Player.
-- **Test**: Move **Down** to (7, 4).
-  - Opens (7, 3) for Murkrow.
-  - **Mimic**: Murkrow -> (7, 3).
-  - **Mirror**: Murkrow -> (7, 1).
-- **Plan**:
-  1. Move Down.
-  2. Observe Murkrow.
-  3. If Mimic (at 7, 3): Move Right to (8, 4) to ratchet it out.
+- **Status**: Player (8, 4), Murkrow (7, 2).
+- **Test**: Move **Up** to (8, 3).
+  - **Mirror**: Murkrow -> (7, 3). *Target reached.*
+  - **Mimic**: Murkrow -> (7, 1). *Moved away.*
+- **Follow-up**:
+  - If at (7, 3): Move **Right** to (9, 3).
+    - Mimic: Murkrow -> (8, 3) *Escaped!*
+    - Mirror: Murkrow -> (6, 3) *Blocked.*
 
 ## Map Notes
 
