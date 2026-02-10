@@ -130,14 +130,15 @@ Confirmed Mechanics:
    - Move Right to Col 23.
    - Player (4, 1) -> (23, 1).
    - Murkrow (4, 16) -> (23, 16).
-3. **The Delivery**:
-   - Current: Player (26, 12), Murkrow (26, 5) [Hypothesis].
-   - Alignment Step:
-     - Move Player to (26, 11). Murkrow to (26, 6).
-     - Move Left to (23, 11). Murkrow to (23, 6).
-   - Delivery Step:
-     - Move UP (Player) to (23, 3).
-     - Murkrow moves DOWN to (23, 14) (Boss Door).
+3. **The Synchronization**:
+   - Current: Player (24, 12). Murkrow (24, 5) [Hypothesis].
+   - **Test Mechanic**: verify if bumping walls causes Murkrow to move.
+   - Step 1: Move to (26, 9) (North of Crates).
+     - Route: (24, 12) -> Up to (24, 9) -> Right to (26, 9).
+     - Expected Murkrow: (24, 5) -> Down to (24, 8) -> Right to (26, 8).
+   - Step 2: Bump Down against Crate.
+     - Player blocked. Check if Murkrow moves Up.
+   - If Successful: Use bumping to align Sum for Boss Door meeting.
 
 ## Trap Data
 - **CRITICAL**: Do not step on B1F (3, 6) or B2F (3, 6).
