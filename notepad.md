@@ -5,15 +5,13 @@
 - **Secondary**: Defeat Team Rocket Executives.
 
 ## Murkrow Puzzle (B2F)
-- **Status**: Player (8, 3), Murkrow (7, 2).
-- **Action**: Moving **Down** to (8, 4).
-- **Expectation**: 
-  - **Mimic**: Murkrow (7, 2) -> (7, 3).
-  - **Mirror**: Murkrow (7, 2) -> (7, 1).
-  - **Hallucination Check**: Previous belief of diagonal move to (8, 3) is likely false. Expect cardinal movement.
-- **Plan**:
-  1. Move **Down**.
-  2. Verify Murkrow position immediately.
+- **Status**: Player (8, 4), Murkrow (7, 2).
+- **Result**: Moving Down to (8, 4) FAILED. Murkrow stayed at (7, 2). Column 8 is seemingly dead.
+- **Plan**: Return to Column 7 (Close Range).
+  1. Move **Left** to (7, 4).
+  2. Move **Up** to (7, 3).
+  3. **Interact** (A) with Murkrow at (7, 2).
+  4. Test Mimic/Mirror from adjacent position.
 
 ## Map Notes
 - **Walls**: (6, 2) and (8, 2) block Murkrow at Row 2.
