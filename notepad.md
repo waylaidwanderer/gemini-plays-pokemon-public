@@ -35,3 +35,4 @@ Action: Moving Up to (7, 3). Will re-verify interaction and try 'Right' (Buffer)
 [Turn 36102] Back at (7, 3). Interacting with 'A'. Will confirm text box opens.
 Objective: Complete dialogue cycle carefully, then test movement.
 [Turn 36103] Dialogue reset confirmed. Advancing text sequence: "The password is..." (A) -> "HAIL GIOVANNI" (A) -> Close (B). Must verify screen is clear before moving.
+[Turn 36105] Text "The password is..." stuck for multiple turns. Using 'advance_dialogue' (10x 'A') to force advancement. Auto-advance logic likely failed.
