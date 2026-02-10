@@ -3,13 +3,9 @@
 ## STRATEGY: "The Col 4 Swap & 26 Ratchet"
 Target: P(22, 13), M(22, 14).
 
-## Current Status (Turn 36423)
-- **Player**: (4, 16).
-- **Murkrow**: (4, 1) (Pinned North).
-
-## Phase 1: Invert (Col 4)
-- **Action**: Up 14 -> P(4, 2). M(4, 15).
-- **State**: P(4, 2), M(4, 15).
+## Current Status (Turn 36424)
+- **Player**: (4, 2).
+- **Murkrow**: (4, 15) (Inverted).
 
 ## Phase 2: The Ratchet (Col 26)
 4. **Move to Col 26**:
@@ -25,4 +21,6 @@ Target: P(22, 13), M(22, 14).
 7. **The Squeeze**:
    - Up 1 (Bump Door). M(22, 12) -> Down 1 -> M(22, 13).
    - State: P(22, 15), M(22, 13).
+   - Up 2 -> P(22, 13). M(22, 13) (Collision).
+   - Wait. M(22, 13) -> Up 1 -> P(22, 12). M(22, 14).
    - Interact.
