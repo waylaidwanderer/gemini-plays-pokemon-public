@@ -670,25 +670,5 @@
         "action_counter": 36307
       }
     ]
-  },
-  "solve_murkrow_complex": {
-    "description": "Executes the 'Col 26 Crate & Col 28 Wall' complex ratchet strategy. Puts Player at (22, 13) and Murkrow at (22, 14) or (22, 13).",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "autopress_buttons": {
-          "type": "boolean",
-          "default": true
-        }
-      }
-    },
-    "python_script": "\nprint(f'{{\"buttons\": [\"Right\", \"Right\", \"Right\", \"Right\", \"Right\", \"Right\", \"Right\", \"Down\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Down\", \"Down\", \"Down\", \"Down\", \"Left\", \"Left\", \"Down\", \"Down\", \"Down\", \"Down\", \"Up\", \"Up\", \"Up\", \"Left\", \"Left\", \"Left\", \"Left\", \"A\"]}}')\n",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-02-10T17:37:28.781Z",
-        "action_counter": 36321
-      }
-    ]
   }
 }
