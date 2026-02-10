@@ -111,31 +111,29 @@ Confirmed Mechanics:
 - **Vertical**: Mirror (Up -> Down).
 - **Stairs**: (3, 14) connects B1F/B2F. (3, 2) on B2F is FAKE.
 
-## Murkrow Strategy: "The Western Shuffle"
-1. **Link Verification**:
-   - Interact at (6, 2). Clear "HAIL GIOVANNI" text.
-   - **WAIT** one turn to ensure script activation.
-   - Move **LEFT** to (5, 2).
-   - Expected: Murkrow moves Left to (6, 2). (Parallel Horizontal).
-   - Offset: Player (5, 2), Murkrow (6, 2).
-2. **The Drive**:
-   - Move Left to (4, 2). Murkrow -> (5, 2).
-   - Move Down to (4, 13) (Row 13). Murkrow Up to (5, 2) (Row 2). (Mirror Vertical).
-     - *Check*: If I move Down, Murkrow moves Up.
-     - P: (4, 2)->(4, 13) (11 steps). M: (5, 2)->(5, -9) (Blocked at Row 1).
-     - Murkrow pinned at (5, 1).
-3. **The Obstacle Course**:
-   - Move East to Col 22.
-   - Avoid Statutes at (6, 13), (13, 13).
-   - Use "Dip and Dodge": If obstacle, move Down (P -> Row 14), Murkrow stays Row 1.
-   - Move East. Murkrow moves East.
-   - *Critical Check*: Murkrow Obstacles on Row 1 (Statue at 6, 1).
-   - If Murkrow hits (6, 1), it stops. Sync broken.
-   - **Solution**: Drag along Row 2?
-     - P at Row 13. M at Row 2.
-     - Obstacles Row 2: (25, 2) Warp. (3, 2) Clear.
-     - Obstacles Row 13: (6, 13), (13, 13).
-     - Plan: Navigate P around obstacles, ensuring M has a clear path on Row 2.
+## Murkrow Mechanics (Confirmed)
+- **Horizontal**: Parallel (Right -> Right).
+- **Vertical**: Mirror (Up -> Down).
+
+## Strategy: "The Inverted Ratchet"
+1. **The Pin (South)**:
+   - Start: Player (7, 1), Murkrow (7, 2).
+   - Move Down -> Player (7, 2), Murkrow (7, 1). (Swap).
+   - Move Down -> Player (7, 3), Murkrow (7, 1). (Murkrow blocked North).
+   - Move Down to Row 16 -> Player (7, 16), Murkrow (7, 1).
+2. **The Inversion (North)**:
+   - Move Up to Row 1.
+   - Player (7, 16) -> (7, 1).
+   - Murkrow (7, 1) -> (7, 16) (Mirrors Down).
+   - Result: Player (7, 1), Murkrow (7, 16).
+3. **The Traverse (East)**:
+   - Move Right to Col 23.
+   - Player (23, 1), Murkrow (23, 16).
+   - *Path Check*: Row 1 is clear (Player). Row 16 is clear (Murkrow).
+4. **The Delivery**:
+   - Move Down (Player) -> Murkrow moves Up.
+   - Player (23, 1) -> (23, 3).
+   - Murkrow (23, 16) -> (23, 14) (Boss Door).
 
 ## Trap Data
 - **CRITICAL**: Do not step on B1F (3, 6) or B2F (3, 6).
