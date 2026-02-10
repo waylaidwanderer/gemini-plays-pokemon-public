@@ -1,16 +1,12 @@
 # Team Rocket HQ - Murkrow Puzzle
 
-## Current Status (Turn 36377)
-- **Player**: (27, 16).
-- **Murkrow**: LOST. Not at (26, 14).
-- **Goal**: LOCATE Murkrow.
+## Current Status (Turn 36378)
+- **Player**: (24, 15).
+- **Murkrow**: LOST.
+- **Goal**: Move to Stairs (3, 14) to RESET Murkrow or find it on the way.
 
-## Search Pattern
-1. Move to Center (24, 12).
-2. Look for M in visible range.
-3. If not found, check corners.
-
-## Murkrow Mechanics
-- **X**: Parallel.
-- **Y**: Mirror.
-- **Reset**: If I leave map, M resets to (7, 2). I must NOT leave.
+## Search/Reset Path
+1. Move Left from (24, 15) to (3, 15).
+2. Watch screen for Murkrow.
+3. If found: STOP and calculate.
+4. If not found: Take stairs at (3, 14) to reset M to (7, 2).
