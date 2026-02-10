@@ -47,3 +47,6 @@ Rationale: Previous spamming failed. Testing controlled input.
 [Turn 36110] Breaking the "A-Loop". 
 Sequence: A (Advance) -> A (Scroll) -> A (Close) -> B (Safety) -> Down (Move).
 Hypothesis: A single 'A' wasn't enough to handle scroll + advance. 'B' is essential to prevent re-interaction.
+[Turn 36111] Direct movement failed again.
+Hypothesis: Moving immediately after closing text might skip the logic frame that enables mimicry.
+Plan: Move Up -> Interact -> Clear Text -> WAIT. Move on NEXT turn to ensure script is active.
