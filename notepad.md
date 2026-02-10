@@ -5,13 +5,12 @@
 - **Secondary**: Defeat Team Rocket Executives.
 
 ## Murkrow Puzzle (B2F)
-- **Status**: Player (9, 4), Murkrow (9, 3).
-- **Plan**: Guide to Row 5/6 to bypass Wall 11.
-  1. Move **Down** to (9, 5).
-     - Expect Murkrow -> (9, 4).
-  2. Move **Down** to (9, 6).
+- **Status**: Player (9, 5), Murkrow (9, 4).
+- **Plan**: Guide to Row 5 to bypass Wall at (11, 4).
+  1. Move **Down** to (9, 6).
      - Expect Murkrow -> (9, 5).
-  3. Move **Right** to pass Col 11.
+  2. Move **Right** to pass Col 11.
+     - Murkrow at (9, 5) travels along Row 5 (Clear).
 
 ## Map Notes
 - **Walls**: (6, 2) and (8, 2) block Murkrow at Row 2.
