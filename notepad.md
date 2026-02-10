@@ -13,9 +13,10 @@
   - If Failure: Reset Map via Stairs at (3, 2).
 
 ## Recovery: Re-acquiring Murkrow
-- **Status**: Murkrow lost. Not at (14, 10).
-- **Goal**: Return to (7, 2) to check spawn.
-- **Hypothesis**: Murkrow resets if led too far or off-screen without a valid path.
+- **Status**: Resetting position to (7, 2).
+- **Current Pos**: (10, 5). Murkrow likely at (7, 2).
+- **Action**: Moving to (8, 2) to visualize Murkrow.
+- **Mechanic Test**: Verify Murkrow moves when I move.
 
 ## Trap Data
 - Warp Traps at (26, 9), (26, 10), (24, 11), (25, 11).
