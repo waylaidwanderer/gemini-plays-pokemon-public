@@ -5,14 +5,15 @@
 - **Secondary**: Defeat Team Rocket Executives.
 
 ## Murkrow Puzzle (B2F)
-- **Status**: Player (8, 4), Murkrow (8, 3).
+- **Status**: Player (10, 6), Murkrow (7, 2) [RESET].
 - **Testing**:
-  - Move Right (to 8, 4): SUCCESS. Murkrow moved Right (to 8, 3).
-  - Hypothesis: Murkrow MIMICS (Same Direction) when close.
-  - Plan:
-    1. Move Right to (10, 4). (Murkrow -> 10, 3).
-    2. Move Down to (10, 6). (Murkrow -> 10, 5).
-    3. Move Right past the wall at x=11.
+  - The Murkrow RESET to start position after I moved to (10, 6).
+  - Cause: Likely distance or off-screen reset.
+- **Recovery Plan**:
+  1. Move Up, Left to return to (7, 4) area. (Murkrow blocked by walls N/W, so it stays at 7, 2).
+  2. Setup at (7, 3).
+  3. Move Down to (7, 4) to pull Murkrow to (7, 3).
+  4. Move Right ONE STEP at a time, verifying Murkrow.
 - **Goal**: Lead Murkrow to Boss Door at (23, 14).
 
 ## Key Info
