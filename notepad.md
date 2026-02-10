@@ -1,9 +1,9 @@
 # Team Rocket HQ - Murkrow Puzzle
 
-## STATUS: RESET COMPLETE (Entering B2F)
-- **Goal**: Execute "The 22-11 Ratchet" perfectly.
-- **Murkrow**: Will be at (7, 2).
-- **Player**: Will start at (27, 2) or (3, 14) depending on entry. (Souvenir Shop entry lands at 27, 2).
+## STATUS: Step 1 - Sync X (West)
+- **Player**: (1, 2) (Arriving).
+- **Murkrow**: (1, 2) (Synced).
+- **Next**: Invert Y at Col 1.
 
 ## THE SOLUTION (Step-by-Step)
 1. **Sync X (West)**:
