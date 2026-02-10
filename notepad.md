@@ -5,18 +5,11 @@
 - **Secondary**: Defeat Team Rocket Executives.
 
 ## Murkrow Puzzle (B2F)
-- **Status**: Player (7, 3), Murkrow (7, 2). Gap = 1.
-- **Observation**: Successfully closed the distance. I am now adjacent to the Murkrow.
-- **Strategy**: "Gap 1 Bottom Run".
-  1. Move Down to (7, 4).
-     - Expectation: Murkrow mimics Down to (7, 3).
-  2. Continue Down to (7, 13).
-     - Expectation: P(7, 13), M(7, 12).
-  3. Move Right to (15, 13).
-     - Gap at (15, 13) allows P to pass.
-     - (15, 12) is clear floor for M.
-  4. Proceed East to Boss Door.
-- **Goal**: Lead Murkrow to Boss Door at (23, 14).
+- **Status**: Player (7, 4) -> Moving to (7, 3). Murkrow at (7, 2).
+- **Issue**: Murkrow is unresponsive/static. Did not mimic previous moves.
+- **Hypothesis**: Needs interaction/bumping to activate mimicry? Or requires specific distance.
+- **Action**: Move to (7, 3) (Adjacent). Next turn: Interact or Bump.
+- **Goal**: Wake up Murkrow and restart "Gap 1 Bottom Run".
 
 ## Key Info
 - **Boss Door**: Needs Voice ID (Murkrow).
