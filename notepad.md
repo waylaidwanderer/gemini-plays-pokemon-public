@@ -28,3 +28,5 @@ Plan:
 2. Move Right (Buffer against desk).
 3. Move Down (Pull to 7, 3).
 4. Verify position visually.
+[Turn 36049] Murkrow was NOT at (11, 9). The "Side-Step" attempt failed silently. Murkrow likely still at (7, 2). Returning to restart.
+Hypothesis: Murkrow might be mirroring movement or requires slower inputs. Will test 'Down' pull again with visual confirmation.
