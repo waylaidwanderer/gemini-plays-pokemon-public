@@ -12,16 +12,12 @@
   - Switches toggle shutters.
 
 ## B2F Status
-- **Goal**: Locate second Murkrow (Markers indicate East side at 21, 12).
-- **Hypothesis**: The Murkrow markers at (21, 12) are the target.
-- **Path**: Continue East along Row 1, then head South past the Grunts.
-
-## Key Info
-- **Password**: "HAIL GIOVANNI" (Found on B1F).
-- **Boss Door**: B2F (23, 14).
-- **Murkrow Mechanics**: Moves in mirror/sync with player.
+- **Goal**: Remote Control Murkrow to Boss Door (23, 14).
+- **Situation**: Murkrow is trapped in Central Area (Cols 7-22). I am on Perimeter.
+- **Strategy**: Spot Murkrow, then use mimicry to move it to (22, 14).
 
 ## Action Queue
-1. Navigate East to (24, 1).
-2. Head South to engage/solve Murkrow puzzle at (21, 12).
-3. Open Boss Door.
+1. Scan East Perimeter (Col 24) for Murkrow.
+2. If not found, Scan West Perimeter (Col 5).
+3. Once found, Align to Door.
+4. Interact with Door when Murkrow is adjacent.
