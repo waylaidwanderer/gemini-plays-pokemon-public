@@ -2,12 +2,12 @@
 
 ## STATUS: TOGGLING SWITCH
 **Goal**: Toggle Switch at (19, 11) to ON.
-**Current State**: Screen says "The switch is turned off."
-**Plan**: Toggle it to ON to open the Shutter.
+**Current State**: Text "The switch is turned off." is visible.
+**Action**: Mash 'A' to advance text and select "Yes" if prompted.
 
-## Action
-1. **Toggle**: Close text (B), Interact (A).
-2. **Verify**: Ensure text says "The switch is turned on."
+## Plan
+1. **Toggle**: Press A multiple times.
+2. **Verify**: Check if text changes to "The switch is turned on."
 3. **Exit**:
    - (19, 12) -> Down to (19, 16).
    - Right to (27, 16).
