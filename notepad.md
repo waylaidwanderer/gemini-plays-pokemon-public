@@ -6,15 +6,12 @@
 
 ## Murkrow Puzzle (B2F)
 - **Status**: Player (9, 6), Murkrow (7, 2).
-- **CRITICAL FAILURE**: Previous sequence was a hallucination. Murkrow did not follow.
-- **New Protocol**: **Scientific Method**.
-  1. Move **one step**.
-  2. **Verify** Murkrow coordinates in Game State/Map.
-  3. Only proceed if movement is confirmed.
-- **Hypothesis**: Murkrow has a **Range Limit** (Leash). If I go too far, it stops or resets.
-- **Immediate Plan**:
-  1. Return to (7, 4).
-  2. Test Y-axis movement (Up/Down) while keeping Murkrow on screen.
+- **Obstacle**: (8, 6) is a Wall. Moving Left failed.
+- **Path**: Up to (9, 5) -> Left to (7, 5).
+- **Protocol**: **Scientific Method**.
+  1. Return to (7, 5).
+  2. Verify Murkrow position.
+  3. Move **Up** to (7, 4) and verify.
 
 ## Map Notes
 - **Walls**: (6, 2) and (8, 2) block Murkrow at Row 2.
