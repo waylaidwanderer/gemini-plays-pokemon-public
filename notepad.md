@@ -22,6 +22,8 @@
   4. Execute "Align and Push" with obstacle awareness.
 
 # Current Status
-- Map: B1F (3_50) -> Moving to B2F.
-- Player: (3, 2).
-- Goal: Reset Murkrow and Solve Puzzle.
+- Map: B2F (3_51).
+- Player: (14, 10).
+- Murkrow: LOST (Not at expected coords).
+- Shutter (15, 10): LOCKED.
+- Action: Returning to B1F Stairs (3, 2) to hard reset the room.
