@@ -5,13 +5,16 @@
 - **Secondary**: Defeat Team Rocket Executives.
 
 ## Murkrow Puzzle (B2F)
-- **Status**: Player (7, 4), Murkrow (7, 2) [Pending Verification].
-- **Action**: Cleared text and moved **Down** to (7, 4).
-- **Hypothesis**: Murkrow should now be at (7, 3) (Mimic).
-- **Scientific Verification Needed**: Check Game State/Map for Murkrow coordinates.
-  - If (7, 3): **SUCCESS**. Next: Move Right to (8, 4) to ratchet.
-  - If (7, 2): **FAILURE**. Range limit or State logic issue.
-  - If (7, 1): **MIRROR CONFIRMED**.
+- **Status**: Player (7, 3), Murkrow (7, 2).
+- **Correction**: Player is at (7, 3). Previous move to (7, 4) was blocked by text.
+- **Action**: Clearing text ("HAIL GIOVANNI") and Moving **Down** to (7, 4).
+- **Scientific Observation**:
+  - **Start**: Player (7, 3), Murkrow (7, 2).
+  - **Move**: Down.
+  - **Expectation**:
+    - **Mimic**: Murkrow -> (7, 3).
+    - **Mirror**: Murkrow -> (7, 1).
+    - **Stuck**: Murkrow -> (7, 2).
 
 ## Map Notes
 - **Walls**: (6, 2) and (8, 2) block Murkrow at Row 2.
