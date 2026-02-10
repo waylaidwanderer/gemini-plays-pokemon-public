@@ -15,3 +15,4 @@
 - Murkrow Blockers: Row 2 (Desks), Row 9 (Walls).
 - Safe Path: Col 11 via Row 6.
 [Turn 36092] "HAIL GIOVANNI" displayed. Closing text box. Next: Visual confirm clear screen, then Move Down.
+[Turn 36093] Text clear confirmed. Moving Down to (7, 4). Verification of Murkrow movement to (7, 3) expected next turn.
