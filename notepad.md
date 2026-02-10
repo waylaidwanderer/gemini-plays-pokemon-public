@@ -5,20 +5,20 @@
 - **Secondary**: Defeat Team Rocket Executives.
 
 ## Murkrow Mechanics (Verified)
-- **Mimicry**: Murkrow generally moves in the *same direction* as the Player (e.g., Player Down -> Murkrow Down).
-- **Obstacles**: 
-  - If Murkrow hits a wall, it stays in place (Desync opportunity).
-  - If Player hits a wall, no movement occurs.
-- **Tether/Range**: 
-  - Murkrow stops following if the gap becomes too large (likely > 2 tiles).
-  - Interaction (talking) re-engages the tether.
-- **Current State**: Player (7, 3), Murkrow (7, 2). Dialogue Closed (Gap 1).
+- **Mimicry**: Murkrow generally moves in the *same direction* as the Player.
+- **Obstacles**: Wall hits cause desync.
+- **Tether/Range**: Unclear. Dialogue did not immediately trigger follow on "Down" move.
+- **Current State**: Player Moving to (7, 3). Murkrow at (7, 2).
 
-## Plan: Gap 1 Bottom Run
-1. **Immediate**: Move **Down** to (7, 4).
-   - Expectation: Murkrow moves to (7, 3).
-2. If successful, continue Down to (7, 13).
-3. Navigate East through the gap at (15, 13).
+## Plan: Gap 1 Compression (Retry)
+1. Move **Up** to (7, 3).
+   - If M moves to (7, 1) -> Gap 2.
+   - If M stays at (7, 2) -> Gap 1.
+2. If Gap 1 (P at 7, 3; M at 7, 2):
+   - Move **Down** to (7, 4). Check follow.
+3. If Gap 2 (P at 7, 3; M at 7, 1):
+   - Move **Up** to (7, 2). M blocked at (7, 0). Gap 1.
+   - Then Move **Down**.
 
 ## Key Info
 - **Boss Door**: Needs Voice ID (Murkrow).
