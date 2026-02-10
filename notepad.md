@@ -5,16 +5,16 @@
 - **Secondary**: Defeat Team Rocket Executives.
 
 ## Murkrow Puzzle (B2F)
-- **Status**: Player (8, 5), Murkrow (7, 2).
-- **Hypothesis**: Murkrow is trapped in Row 2 by walls at (6, 2) and (8, 2). Needs to move Y to escape.
-- **Plan**:
-  1. Move **Left** to (7, 5). Align in same column.
-  2. Move **Down** to (7, 6).
-     - If Mimic: Murkrow (7, 2) -> (7, 3).
-     - If Mirror: Murkrow (7, 2) -> (7, 1).
-  3. If Mimic and at (7, 3):
-     - Move **Right** to (8, 6). Murkrow -> (8, 3) (Escaped!).
-     - Continue guiding to Boss Door.
+- **Status**: Player (7, 6), Murkrow (7, 3) [Expected].
+- **Test**: Moving Down to (7, 6).
+- **Possible Outcomes**:
+  - **Mimic**: Murkrow -> (7, 3). *Escaped Row 2!*
+  - **Mirror**: Murkrow -> (7, 1). *Still trapped vertically, but moved.*
+  - **No Move**: Out of Range or Sync issue.
+- **Next Step**:
+  - If at (7, 3): Move **Right** to (8, 6).
+    - Mimic: Murkrow -> (8, 3).
+    - Mirror: Murkrow -> (6, 3) [Blocked].
 
 ## Map Notes
 - **Walls**: (6, 2) separates NW and N areas.
