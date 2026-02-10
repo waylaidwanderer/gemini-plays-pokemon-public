@@ -5,24 +5,19 @@
 - **Secondary**: Defeat Team Rocket Executives.
 
 ## Murkrow Puzzle (B2F)
-- **Status**: Player (7, 4), Murkrow (7, 2).
-- **Theory**: **MIMIC** (Confirmed by T35639 success, failure due to wall at 11,4).
-- **Constraint**: Murkrow hits walls and desyncs. Must check Murkrow's path for obstacles.
-- **Pathing**:
-  - Murkrow at (7, 2). Needs to cross Col 11.
-  - Col 11 Obstacles: (11, 3), (11, 4) are Walls. (11, 2), (11, 5) are Open.
-  - Current Y=2. Path blocked at (8, 2) by wall?
-    - Map says (8, 2) is `TYPE_2889` (Wall).
-    - So Murkrow CANNOT leave Col 7 at Y=2.
-  - Must move Murkrow to Y=3?
-    - (8, 3) is Open.
-    - But (11, 3) is Blocked.
-  - Plan:
-    1. Move **Down** to (7, 5). Murkrow -> (7, 3).
-    2. Move **Right** to (8, 5). Murkrow -> (8, 3).
-    3. Move **Down** to (8, 7). Murkrow -> (8, 5).
-    4. Move **Right** past Col 11 (row 5 is open).
-- **Action**: Move **Down** to (7, 5).
+- **Status**: Player (7, 5), Murkrow (7, 2).
+- **Observation**: Last turn (Down) produced no movement. 
+  - Mimic would have moved to (7, 3) (Open). It didn't.
+  - Mirror would have moved to (7, 1) (Open?). It didn't.
+- **Hypothesis**: 
+  - Maybe (7, 1) IS blocked (Mirror blocked).
+  - Maybe it's Mirror, and moving UP will push it DOWN to (7, 3) (Open).
+- **Plan**:
+  1. Move **Up** to (7, 4).
+  2. If Murkrow moves to (7, 3): **CONFIRMED MIRROR**.
+     - Then Ratchet: Right -> Left.
+  3. If Murkrow stays: **CONFIRMED STUCK/UNKNOWN**.
+     - Will try interacting.
 
 ## Map Notes
 
