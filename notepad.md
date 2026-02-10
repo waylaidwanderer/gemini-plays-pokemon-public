@@ -40,3 +40,4 @@ Objective: Complete dialogue cycle carefully, then test movement.
 Action: Inputting 'A, B, B' to Advance -> Close -> Safety (without triggering interaction).
 Expectation: Clean screen next turn.
 [Turn 36107] Still stuck on "The password is...". 'A, B, B' failed to clear or advance it. Attempting single 'A' to debug if input is being eaten or if it just loops.
+[Turn 36107] Switching to 'B' mashing (x5) to clear dialogue and prevent "A-Loop". Goal: Clean screen for movement test.
