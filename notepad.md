@@ -130,14 +130,20 @@ Confirmed Mechanics:
    - Move Right to Col 23.
    - Player (4, 1) -> (23, 1).
    - Murkrow (4, 16) -> (23, 16).
-3. **The Crossing & Alignment**:
-   - **Current**: Player (21, 6). Murkrow (24, 11).
-   - **Step 1**: Escape Trap. Move Right to (23, 6). Murkrow to (26, 11).
-   - **Step 2**: Vertical Adjust. Move Up to (23, 5). Murkrow to (26, 12).
-   - **Step 3**: Move Left to Col 22. Move Left to (19, 5). Murkrow to (22, 12).
-   - **Step 4**: X-Align. Move Right to (22, 5). Murkrow Blocked at (23, 12).
-   - **Step 5**: Y-Align. Move Down to (22, 16). Murkrow Blocked at (22, 10).
-   - **Step 6**: The Delivery. Move Up to (22, 15). Murkrow to (22, 13) [Sandwich Door].
+3. **The Crate Desync**:
+   - **Setup**: Player to (27, 6). Murkrow to (26, 11).
+     - Route: Right to (25, 5) -> Down to (25, 6) -> Right to (27, 6).
+     - Avoids Alarm at (24, 6).
+   - **The Glitch**: Move Down to (27, 16).
+     - Murkrow moves Up from (26, 11) -> Blocked by Crate at (26, 10).
+     - Murkrow stays at (26, 11).
+   - **The Transfer**:
+     - Move Left to (22, 16). Murkrow to (24, 11) [Blocked by Wall].
+     - Move Up to (22, 11). Murkrow Down to (24, 16) [To Gap].
+     - Move Left to (20, 11). Murkrow Left to (22, 16) [Aligned X].
+   - **The Finish**:
+     - Move Down to (20, 13). Murkrow Up to (22, 14) [On Door].
+     - Move Right to (22, 13). Murkrow Blocked. Interact.
 
 ## Trap Data
 - **CRITICAL**: Do not step on B1F (3, 6) or B2F (3, 6).
