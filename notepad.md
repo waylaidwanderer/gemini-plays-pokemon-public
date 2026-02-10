@@ -13,11 +13,13 @@
   - If Failure: Reset Map via Stairs at (3, 2).
 
 ## Recovery: Re-acquiring Murkrow
-- **Status**: Visual on Murkrow at (7, 2).
-- **Observation**: It did NOT move when I moved Down previously (Turn 35913).
-- **Hypothesis**: Murkrow is inactive/needs re-engagement.
-- **Action**: Moving Down to (8, 4) to confirm inactivity.
-- **Next Step**: If inactive, approach and interact.
+- **Status**: Confirmed Inactive.
+- **Observation**: Murkrow did not mimic movement at (8, 4).
+- **Action**: Moving to (7, 3) to interact and reset the mechanic.
+
+## Murkrow Mechanics (Verified)
+- **Mimicry**: Moves in the *same* relative direction as Player (mirrored movement not observed yet, seems direct mimicry based on previous logs).
+- **Reset**: Resets to (7, 2) if player leaves map/range. Needs interaction to restart.
 
 ## Trap Data
 - Warp Traps at (26, 9), (26, 10), (24, 11), (25, 11).
