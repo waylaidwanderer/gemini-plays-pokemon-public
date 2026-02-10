@@ -12,14 +12,10 @@
   - Expectation: Murkrow moves to (7, 3).
   - If Failure: Reset Map via Stairs at (3, 2).
 
-## Plan: Murkrow to Shutter (14, 10) - The "Wall Desync" (Active)
-1. **Move 1**: `Down` x2, `Right` x4.
-   - P(13, 8) -> (14, 8) (Blocked).
-   - M(10, 8) -> (14, 10).
-2. **Move 2**: `Left` x4, `Down` x2, `Right` x4.
-   - Re-align P to (14, 10) while M loops to (14, 12).
-   - Final: P(14, 10), M(14, 12).
-3. **Interact**: Face Shutter/Murkrow.
+## Recovery: Re-acquiring Murkrow
+- **Status**: Murkrow lost. Not at (14, 10).
+- **Goal**: Return to (7, 2) to check spawn.
+- **Hypothesis**: Murkrow resets if led too far or off-screen without a valid path.
 
 ## Trap Data
 - Warp Traps at (26, 9), (26, 10), (24, 11), (25, 11).
