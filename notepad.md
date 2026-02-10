@@ -3,14 +3,17 @@
 ## RESET & SOLVE: "The Col 28 Lift"
 Target: M(22, 14).
 
-## Current Status (Turn 36406)
-- **Player**: (5, 2) -> Moving to (5, 15).
-- **Goal**: Warp to (25, 2), Exit/Re-enter to Reset M to (7, 2).
+## Current Status (Turn 36411)
+- **Player**: (12, 2) -> Moving to (1, 2).
+- **Murkrow**: (1, 2) (Synced).
+- **Goal**: Execute "The Double Cross".
 
-## Path to Reset
-1. **Warp**: Down 13 to (5, 15). Arrive at (25, 2).
-2. **Exit**: Right 2 to (27, 2).
-3. **Re-enter**: Left 1 to (26, 2).
+## Strategy: "The Double Cross"
+1. **Sync X**: P(1, 2), M(1, 2).
+2. **Ratchet Y (Col 6)**: P(6, 16), M(6, 2).
+3. **Drop M (Col 5)**: P(5, 2), M(5, 16).
+4. **Ratchet Y (Col 26)**: P(26, 15), M(26, 12).
+5. **Finish**: P(22, 13), M(22, 14).
 
 ## The Winning Solution (refined)
 1. **Sync X**: P(27, 2) -> Left 26 -> P(1, 2). M(1, 2).
