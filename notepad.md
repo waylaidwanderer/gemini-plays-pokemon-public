@@ -5,18 +5,23 @@
 - **Secondary**: Defeat Team Rocket Executives.
 
 ## Murkrow Puzzle (B2F)
-- **Status**: Player (7, 4) -> Moving to (7, 3). Murkrow at (7, 2).
-- **Recent Event**: Finished dialogue ("HAIL GIOVANNI").
-- **Observation**: Moved Down to (7, 4) but Murkrow DID NOT follow.
-- **Hypothesis**: Tether broken or distance (2) too far.
-- **Action**: Move Up to (7, 3).
-  - If M moves to (7, 1): Mimic is active. Gap becomes 2.
-  - If M stays at (7, 2): Mimic is inactive or blocked. Gap becomes 1.
-- **Goal**: Re-establish control/tether.
+- **Status**: Player (7, 3) -> Moving to (7, 4). Murkrow at (7, 2).
+- **Hypothesis**: Minimum tether distance is 2. Gap 1 failed previously.
+- **Plan**: "The Row 8 Corridor Slide" (Gap 2).
+  1. Move Down to (7, 4). (Expect M to stay at 7, 2).
+  2. Move Down to (7, 5). (Expect M to move to 7, 3).
+  3. Move Right to (10, 5). (M -> 10, 3).
+  4. Move Down 3 times to (10, 8).
+     - P(10, 6), M(10, 4)
+     - P(10, 7), M(10, 5)
+     - P(10, 8), M(10, 6)
+  5. Murkrow is on Row 6 (Clear Path). Player on Row 8 (Clear Path).
+  6. Slide Right to (14, 8) / (14, 6).
+- **Goal**: Lead Murkrow to Boss Door at (23, 14).
 
 ## Key Info
 - **Boss Door**: Needs Voice ID (Murkrow).
 - **Map**: 
-  - (7, 0) Wall.
-  - (15, 13) Gap / (15, 12) Floor (Bottom Path).
+  - (11, 5) Chair (Block). (11, 4) Desk (Block).
+  - Row 6 is Clear. Row 8 is Clear.
   - (14, 11) Locked Shutter.
