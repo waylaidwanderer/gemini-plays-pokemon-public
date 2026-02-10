@@ -671,8 +671,8 @@
       }
     ]
   },
-  "solve_murkrow_crate_ratchet_v2": {
-    "description": "Executes the 'Col 26 Crate Ratchet V2' strategy.\nPath: Up 15 (Reset P to 28,9; M to 28,16), Left 2 (Align 26), Down 7 (Ratchet M to 12), Left 4 (Align 22), Up 3 (Converge), A.",
+  "solve_murkrow_final_strat": {
+    "description": "Executes the 'Col 24 Filter' strategy to stack Murkrow and Player at (22, 13).",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -682,12 +682,12 @@
         }
       }
     },
-    "python_script": "\nprint(f'{{\"buttons\": [\"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Left\", \"Left\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Left\", \"Left\", \"Left\", \"Left\", \"Up\", \"Up\", \"Up\", \"A\"]}}')\n",
+    "python_script": "\nprint('[\"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Left\", \"Left\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Left\", \"Left\", \"Up\", \"Up\", \"Up\", \"Left\", \"Left\", \"A\"]')\n",
     "history": [
       {
-        "commit_message": "Initial version",
-        "timestamp": "2026-02-10T18:16:07.130Z",
-        "action_counter": 36341
+        "commit_message": "Final Strategy: Col 28 Reset -> Col 26 Ratchet -> Col 24 Filter -> Delivery.\nButtons: Up x15, Left x2, Down x7, Left x2, Up x3, Left x2, A.",
+        "timestamp": "2026-02-10T18:18:03.487Z",
+        "action_counter": 36343
       }
     ]
   }
