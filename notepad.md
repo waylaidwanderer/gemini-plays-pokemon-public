@@ -137,7 +137,15 @@ Confirmed Mechanics:
 
 ## Trap Data
 - **CRITICAL**: Do not step on B1F (3, 6) or B2F (3, 6).
-[Turn 36185] Position Check: Player at (7, 3). Murkrow at (7, 1).
-Action: Continue 'The Inverted Ratchet'.
-Move South to Row 16. Murkrow stays pinned at (7, 1).
-Target: (7, 16).
+[Turn 36186] Inverted Ratchet - Phase 2.
+- Player at (7, 16). Murkrow at (7, 1).
+- Col 7 has a wall at (7, 4) which will block Murkrow.
+- Action: Shift to Col 5 (Clear path for Murkrow).
+- Move Left to (5, 16). Murkrow moves to (5, 1).
+- Move Up to (5, 1). Murkrow moves to (5, 16).
+- Note: Player faces traps on Col 5, but Murkrow path is clear.
+- Target End State: Player (5, 1), Murkrow (5, 16).
+
+## Murkrow Mechanics (Confirmed)
+- **Horizontal**: Parallel (Right -> Right).
+- **Vertical**: Mirror (Up -> Down).
