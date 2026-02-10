@@ -6,12 +6,12 @@
 **Plan**: Flank via Row 13 (Down, Right, Right, Up).
 
 ## Current State
-- **Player**: (17, 12).
+- **Player**: (19, 12).
 - **Murkrow**: Lost (Requires Reset).
-- **Obstacle**: Scientist Jed (18, 12).
+- **Action**: Toggling Switch at (19, 11).
 
 ## Next Steps
-1. Navigate to (19, 12).
-2. Flip Switch (19, 11).
-3. If battle triggers, win.
-4. Exit to (27, 2) to reset Murkrow.
+1. Flip Switch (19, 11).
+2. If battle triggers, win.
+3. Navigate to Exit (27, 2) to reset Murkrow.
+4. Execute "The Double Cross" strategy from the start.
