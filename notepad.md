@@ -12,22 +12,26 @@
   - Expectation: Murkrow moves to (7, 3).
   - If Failure: Reset Map via Stairs at (3, 2).
 
-## Plan: Murkrow to Shutter (14, 10) - The "Wall Desync"
-1. **Unstick**: Down to (7, 4). (Murkrow -> 7, 3).
-2. **Setup**: Right x3 to (10, 4). (Murkrow -> 10, 3).
-3. **Descend**: Down x7 to (10, 11). (Murkrow -> 10, 10).
-4. **Desync 1 (Player Blocked)**: 
-   - Right x4. 
-   - Player blocked at (11, 11). Stays (10, 11).
-   - Murkrow moves (10, 10) -> (14, 10).
-5. **Desync 2 (Murkrow Blocked)**:
-   - Up x1.
-   - Player moves to (10, 10).
-   - Murkrow blocked at (14, 9). Stays (14, 10).
-6. **Approach**:
-   - Right x3 to (13, 10).
-   - Murkrow stays (14, 10) (blocked by shutter).
-7. **Interact**: Talk to Murkrow.
+## Plan: Murkrow to Shutter (14, 10) - The "Blocked Swap" Algorithm
+1. **Setup Phase**:
+   - Start: P(7, 3), M(7, 2).
+   - Action: Down, Right x3, Down x6.
+   - Result: P(10, 10), M(10, 9).
+     - Note: M passes through Fake Wall (10, 9).
+2. **The Swap (Desync)**:
+   - Action: Left x1.
+     - P -> (9, 10) (Floor).
+     - M -> (10, 9) (Blocked by Wall 9, 9).
+   - Result: P(9, 10), M(10, 9).
+   - Action: Down x1.
+     - P -> (9, 10) (Blocked by Wall 9, 11).
+     - M -> (10, 10) (Floor).
+   - Result: P(9, 10), M(10, 10). (Murkrow is now Right/Down of Player).
+3. **Delivery**:
+   - Action: Right x4.
+   - Result: P(13, 10), M(14, 10).
+4. **Finish**:
+   - Action: Interact/Face Right.
 
 ## Trap Data
 - Warp Traps at (26, 9), (26, 10), (24, 11), (25, 11).
@@ -36,8 +40,8 @@
 ## Key Info
 - **Boss Door**: Needs Voice ID (Murkrow).
 - **Map**: 
-  - Fake Wall at (10, 9).
-  - Shutter at (14, 11) / (15, 10).
+  - Fake Wall at (10, 9) is Walkable.
+  - Wall at (9, 9) and (9, 11) used for blocking.
 
 ## Trap Data
 - Warp Traps at (26, 9), (26, 10), (24, 11), (25, 11).
