@@ -5,15 +5,20 @@
 - **Secondary**: Defeat Team Rocket Executives.
 
 ## Murkrow Puzzle (B2F)
-- **Status**: Player (8, 3), Murkrow (7, 2).
-- **Observation**: Murkrow ignored input when Player moved Up in Col 8.
-- **Hypothesis**: Col 8 might be a dead zone or sync is broken. Returning to Col 9.
+- **Status**: Player (9, 3), Murkrow (7, 2).
+- **Test**: Move **Down** to (9, 4).
+  - Expectation (Mirror): Murkrow moves **Up** to (7, 1).
+  - Expectation (Mimic): Murkrow moves **Down** to (7, 3).
 - **Plan**:
-  1. Move **Right** to (9, 3).
-  2. Test Y-axis from Col 9.
-     - Move **Down** to (9, 4).
-     - If Murkrow goes Up (Mirror), I need a way to push it Down (Player Up).
-     - Since (9, 2) is blocked, I might need Col 10.
+  1. Move **Down** to (9, 4).
+  2. If Murkrow goes Up to (7, 1):
+     - I need to push it Down past (7, 3).
+     - Move Left to (8, 4). Move Up to (8, 3) -> Murkrow Down to (7, 2).
+     - Move Up to (8, 2) -> Blocked.
+     - Move Right to (9, 3) -> Murkrow Left to (6, 2) (Blocked).
+     - Need a new angle.
+  3. If Murkrow goes Down to (7, 3):
+     - It's Mimic.
 
 ## Map Notes
 - **Walls**: (6, 2) separates NW and N areas.
