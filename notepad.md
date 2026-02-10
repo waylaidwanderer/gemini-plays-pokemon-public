@@ -5,20 +5,15 @@
 - **Secondary**: Defeat Team Rocket Executives.
 
 ## Murkrow Puzzle (B2F)
-- **Status**: Player (9, 3), Murkrow (7, 2).
-- **Test**: Move **Down** to (9, 4).
-  - Expectation (Mirror): Murkrow moves **Up** to (7, 1).
-  - Expectation (Mimic): Murkrow moves **Down** to (7, 3).
+- **Status**: Player (9, 4), Murkrow (7, 2).
+- **Observation**: Murkrow is unresponsive to remote movement from Cols 8, 9, 10.
+- **Hypothesis**: Mechanics might require proximity or are currently "stuck".
 - **Plan**:
-  1. Move **Down** to (9, 4).
-  2. If Murkrow goes Up to (7, 1):
-     - I need to push it Down past (7, 3).
-     - Move Left to (8, 4). Move Up to (8, 3) -> Murkrow Down to (7, 2).
-     - Move Up to (8, 2) -> Blocked.
-     - Move Right to (9, 3) -> Murkrow Left to (6, 2) (Blocked).
-     - Need a new angle.
-  3. If Murkrow goes Down to (7, 3):
-     - It's Mimic.
+  1. Approach Murkrow directly to force interaction/movement.
+  2. Move Left to (8, 4), then (7, 4).
+  3. Move Up to (7, 3) (Adjacent).
+  4. If it doesn't move, Interact (A).
+  5. If it moves, observe mechanic.
 
 ## Map Notes
 - **Walls**: (6, 2) separates NW and N areas.
