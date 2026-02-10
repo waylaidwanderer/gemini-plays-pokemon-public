@@ -130,23 +130,21 @@ Confirmed Mechanics:
    - Move Right to Col 23.
    - Player (4, 1) -> (23, 1).
    - Murkrow (4, 16) -> (23, 16).
-3. **The Sum-27 Solution**:
-   - **Logic**: Target P(13), M(14) -> Sum 27.
-   - **Current**: P(24, 9), M(24, 9) [Stacked]. Sum 18.
-   - **Step 1: Setup at Col 26**.
-     - Right to (26, 9).
-     - Up to (26, 6). M moves to (26, 12).
-     - Check: P(6), M(12). Sum 18.
+3. **The Sum-27 Solution (Col 25 Variant)**:
+   - **Current**: P(26, 9), M(26, 9).
+   - **Step 1: Setup M at (25, 15)**.
+     - Left to (25, 9). Down to (25, 16).
+       - M moves Up to (25, 5) (Blocked by Wall at 25, 4).
+     - Up to (25, 6).
+       - M moves Down to (25, 15).
    - **Step 2: The Ratchet**.
-     - Move Down to (26, 15).
-     - M tries to move Up from 12->11.
-     - Wall at (26, 11) blocks M. M stays at 12.
-     - P moves 6->15 (+9 steps).
-     - Result: P(15), M(12). Sum 27.
+     - Right to (26, 6). M -> (26, 15).
+     - Down to (26, 15).
+       - M moves Up to (26, 12) (Blocked by Wall at 26, 11).
+     - Result: P(26, 15), M(26, 12). Sum 27.
    - **Step 3: Delivery**.
      - Left to (22, 15). M -> (22, 12).
-     - Up to (22, 13). M -> (22, 14) [Down 2].
-     - P(13), M(14). (Synced!).
+     - Up to (22, 13). M -> (22, 14).
      - **Interact**.
 [Turn 36186] Inverted Ratchet - Phase 2.
 - Player at (7, 16). Murkrow at (7, 1).
