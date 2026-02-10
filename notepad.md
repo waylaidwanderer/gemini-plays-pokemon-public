@@ -12,11 +12,14 @@
   - Expectation: Murkrow moves to (7, 3).
   - If Failure: Reset Map via Stairs at (3, 2).
 
-## Recovery: Re-acquiring Murkrow (Again)
-- **Status**: Murkrow NOT visible on screen (Rows 4-12).
-- **Hypothesis**: Murkrow remained at (7, 2) or (7, 3).
-- **Action**: Returning to (7, 4) to verify.
-- **Correction**: My "Active" status was an assumption. The mimicry failed.
+## Recovery: Re-acquiring Murkrow
+- **Status**: Visual Confirm at (7, 2).
+- **Action**: Interacting to re-activate.
+- **Next Step**: Move Down *once* to (7, 4) and verify M moves to (7, 3).
+
+## Murkrow Mechanics
+- **Mimicry**: Moves in same relative direction.
+- **Reset**: Confirmed reset to (7, 2) when lost.
 
 ## Trap Data
 - Warp Traps at (26, 9), (26, 10), (24, 11), (25, 11).
