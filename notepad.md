@@ -20,6 +20,7 @@
 - **Walls**: (6, 2) separates NW and N areas.
 - **Shutters**: (15, 10) likely Locked.
 - **Traps**: Warp Trap at (26, 10) - AVOID.
+- **Trap Loop**: (3, 6) on B1F/B2F connects the two floors. One-way or toggled.
 
 ## History
 - Switches pressed: B1F (24, 1) and B1F (6, 1).
