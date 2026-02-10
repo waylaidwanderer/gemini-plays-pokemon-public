@@ -5,12 +5,14 @@
 - **Secondary**: Defeat Team Rocket Executives.
 
 ## Murkrow Mechanics (Verified)
-- **Location**: Currently at (7, 2). Player at (7, 3).
-- **Status**: Movement link inactive or timing-sensitive.
-- **Current Strategy**: "Split Turn"
-    1. Turn 36113: Interact ('A'), Advance ('A'), Close ('B'). **DO NOT MOVE.**
-    2. Turn 36114: Verify screen is clear. Move 'Down' or 'Right'.
-- **Mimicry Logic**: Likely blocked by obstacles (Desks/Walls) on Left/Right. 'Down' is the only viable path if parallel. 'Up' if mirror.
+- **Location**: Currently at (7, 2). Player at (7, 4).
+- **Status**: Movement link INACTIVE.
+- **Current Strategy**: Abandoning Murkrow escort. Attempting to use password "HAIL GIOVANNI" directly on Boss Door.
+- **Mimicry Logic**: Murkrow did not follow 'Down' movement after password reveal.
+
+## Navigation Plan
+- **Goal**: Reach Boss Door at (23, 14).
+- **Route**: South to Row 8 -> East to (10, 8) -> South through Fake Wall (10, 9) -> East/South to target.
 
 ## Trap Data
 - Warp Traps: (26, 9), (26, 10), (24, 11), (25, 11).
