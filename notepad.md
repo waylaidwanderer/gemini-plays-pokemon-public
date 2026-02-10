@@ -7,7 +7,7 @@
 ## Mechanics
 - **Mimicry**: Murkrow COPIES input.
 - **Switches**: 
-  - B1F (6, 1): Statue Switch (West) - Activated Turn 35131.
+  - B1F (6, 1): Statue Switch (West) - Likely Inert/Wall.
   - B1F (24, 1): Statue Switch (East) - Activated Turn 35099.
   - Switches likely toggle shutters. Shutter at (15, 10) confirmed CLOSED.
 
