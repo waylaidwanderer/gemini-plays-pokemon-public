@@ -5,15 +5,20 @@
 - **Secondary**: Defeat Team Rocket Executives.
 
 ## Murkrow Puzzle (B2F)
-- **Status**: Player (10, 5), Murkrow (10, 4).
-- **Obstacle**: Wall at (11, 4) blocks Murkrow moving Right.
-- **Correction**: Move Murkrow to Row 5 (Clear path).
+- **Status**: Player (10, 6), Murkrow (7, 2).
+- **Correction**: Murkrow did NOT follow to Col 10. It is back/still at (7, 2).
+- **Hypothesis**: Murkrow has a range limit or hit a wall and desynced.
 - **Plan**:
-  1. Move **Down** to (10, 6). Murkrow -> (10, 5).
-  2. Move **Right** to (14, 6). Murkrow -> (14, 5).
-  3. Move **Down** to (14, 13). Murkrow -> (14, 12).
-  4. Move **Right** through Gap to (15, 13). Murkrow -> (15, 12).
-  5. Guide to Boss Door (23, 14).
+  1. Return to proximity (Col 7/8).
+  2. Test Mechanics again (Mirror vs Mimic).
+  3. **Escape Strategy**:
+     - **If Mirror**: Align Player (7, 5) & Murkrow (7, 2). 
+       - Move Up -> (7, 4) / Murkrow -> (7, 3).
+       - Move Right -> (8, 4) / Murkrow Stays (Blocked Left).
+       - Move Left -> (7, 4) / Murkrow Right -> (8, 3).
+     - **If Mimic**: Align Player (7, 5) & Murkrow (7, 2).
+       - Move Down -> (7, 7) / Murkrow -> (7, 4).
+       - Move Right -> (8, 7) / Murkrow -> (8, 4).
 
 ## Map Notes
 - **Walls**: (6, 2) separates NW and N areas.
