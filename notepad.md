@@ -22,3 +22,4 @@
 - Safe Path: Col 11 via Row 6.
 [Turn 35997] Murkrow reset to (7, 2). Restarting attempt.
 Strategy adjustment: Move slower and verify Murkrow position after each major segment.
+[Turn 35999] Murkrow failed to move. Confirming position at (7, 2) and retrying with explicit delays between interaction and movement.
