@@ -5,8 +5,8 @@
 - **Secondary**: Defeat Team Rocket Executives.
 
 ## Murkrow Puzzle (B2F)
-- **Status**: Dialogue "HAIL GIOVANNI." Player (7, 3), Murkrow (7, 2).
-- **Action**: Advancing/Closing text.
+- **Status**: Dialogue "HAIL GIOVANNI" Closing. Player (7, 3), Murkrow (7, 2).
+- **Action**: Closing text.
 - **Next Move**: Move Down to (7, 4).
 - **Expectation**: Murkrow mimics Down to (7, 3). (Gap 1).
 - **Strategy**: "Gap 1 Bottom Run".
