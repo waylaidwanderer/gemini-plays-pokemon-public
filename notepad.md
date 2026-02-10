@@ -5,14 +5,16 @@
 - **Secondary**: Defeat Team Rocket Executives.
 
 ## Murkrow Puzzle (B2F)
-- **Status**: Player (7, 5), Murkrow (7, 2).
+- **Status**: Player (7, 4), Murkrow (7, 2). Gap = 2.
+- **Observation**: Murkrow did NOT move when I moved from (7, 5) to (7, 4). Tether likely re-engages at closer range.
 - **Strategy**: "Gap 1 Compression & Bottom Run".
-  1. Move Up to (7, 4). (Murkrow -> 7, 1).
-  2. Move Up to (7, 3). (Murkrow blocked at 7, 0, stays at 7, 1). Gap = 2.
-  3. Move Up to (7, 2). (Murkrow blocked at 7, 0, stays at 7, 1). Gap = 1.
-  4. Move Down to (7, 13). (Murkrow -> 7, 12).
-  5. Move Right to (15, 13). (Murkrow -> 15, 12).
-  6. Proceed East to Boss Door.
+  1. Move Up to (7, 3).
+     - If M stays at (7, 2) -> Gap 1.
+     - If M moves to (7, 1) -> Gap 2. Move Up again to compress.
+  2. Once Gap = 1 (P below M):
+     - Move Down to (7, 13). P(7, 13), M(7, 12).
+     - Move Right to (15, 13). P passes (15, 13), M passes (15, 12).
+  3. Proceed East to Boss Door.
 - **Goal**: Lead Murkrow to Boss Door at (23, 14).
 
 ## Key Info
