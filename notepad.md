@@ -11,5 +11,6 @@
 - Find stairs to 4F (likely East).
 - Shutter at (3,3)/(4,3) likely requires Card Key.
 - Battle Grunts on 3F.
-- Battle Menu is 2x2 Grid. TL: Swift, TR: Mud-Slap, BL: Smokescreen, BR: Flame Wheel.
-- Mud-Slap is weak. Switch to Flame Wheel (BR) for Weezing (Low Sp.Def).
+- Battle Menu is Vertical List: Swift, Mud-Slap, Smokescreen, Flame Wheel.
+- Down navigates down. Right may be unreliable or ignored.
+- Mud-Slap is weak. Switch to Flame Wheel (4th item) for Weezing.
