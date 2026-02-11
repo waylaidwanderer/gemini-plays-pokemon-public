@@ -468,10 +468,28 @@
     ]
   },
   "simulate_murkrow": {
-    "description": "Simulates Murkrow's movement relative to the player based on defined game mechanics (mimicry and collision). Returns the predicted path and final positions.",
+    "description": "Simulates Murkrow's movement relative to the player to verify puzzle solutions.\n    - Mimics horizontal movement (Player Right -> Murkrow Right).\n    - Mirrors vertical movement (Player Up -> Murkrow Down).\n    - Checks collision against map walls (provided in `map_xml_string`).\n    - Reports paths and trap warnings.",
     "input_schema": {
       "type": "object",
       "properties": {
+        "player_start": {
+          "type": "array",
+          "items": {
+            "type": "integer"
+          },
+          "minItems": 2,
+          "maxItems": 2,
+          "description": "Starting [x, y] of the player."
+        },
+        "murkrow_start": {
+          "type": "array",
+          "items": {
+            "type": "integer"
+          },
+          "minItems": 2,
+          "maxItems": 2,
+          "description": "Starting [x, y] of the murkrow."
+        },
         "moves": {
           "type": "array",
           "items": {
@@ -482,33 +500,17 @@
               "Left",
               "Right"
             ]
-          }
-        },
-        "murkrow_start": {
-          "type": "array",
-          "items": {
-            "type": "integer"
-          }
-        },
-        "player_start": {
-          "type": "array",
-          "items": {
-            "type": "integer"
-          }
-        },
-        "autopress_buttons": {
-          "type": "boolean",
-          "default": false
+          },
+          "description": "Sequence of moves to simulate."
         }
       },
       "required": [
         "player_start",
         "murkrow_start",
-        "moves",
-        "autopress_buttons"
+        "moves"
       ]
     },
-    "python_script": "# injected variables [\"map_xml_string\", \"input_data\"]\nimport sys\nimport json\nimport xml.etree.ElementTree as ET\n\ndef get_map_grid(xml_string):\n    root = ET.fromstring(xml_string)\n    width = int(root.get(\"width\"))\n    height = int(root.get(\"height\"))\n    grid = {}\n    \n    # Define walkable types\n    # TYPE_3fe2: Floor, TYPE_1fdc: Floor/Carpet, TYPE_8564: Stairs/Mat\n    walkable_types = [\"TYPE_3fe2\", \"TYPE_1fdc\", \"TYPE_8564\"] \n    \n    for row in root.findall(\"Row\"):\n        y = int(row.get(\"id\"))\n        for tile in row.findall(\"Tile\"):\n            x = int(tile.get(\"id\"))\n            t_type = tile.get(\"type\")\n            \n            # Check markers for specific blockages\n            blocked = False\n            for marker in tile.findall(\"Marker\"):\n                label = marker.text.lower()\n                if \"locked\" in label or \"blocked\" in label or \"grunt\" in label or \"scientist\" in label or \"wall\" in label or \"inert\" in label:\n                    # Note: \"Inert\" computers might be walls. \n                    # If it's TYPE_2889 it's already unwalkable.\n                    pass\n            \n            # Basic walkability based on type\n            if t_type in walkable_types and not blocked:\n                grid[(x, y)] = True\n            else:\n                grid[(x, y)] = False\n    return grid, width, height\n\ntry:\n    if 'player_start' not in input_data or 'murkrow_start' not in input_data:\n        raise ValueError(\"Missing player_start or murkrow_start\")\n\n    player_pos = list(input_data['player_start'])\n    murkrow_pos = list(input_data['murkrow_start'])\n    moves = input_data['moves']\n    autopress = input_data.get('autopress_buttons', False)\n\n    grid, width, height = get_map_grid(map_xml_string)\n    \n    history = []\n    \n    for move in moves:\n        dx, dy = 0, 0\n        if move == \"Up\": dy = -1\n        elif move == \"Down\": dy = 1\n        elif move == \"Left\": dx = -1\n        elif move == \"Right\": dx = 1\n        \n        # Calculate Potential New Positions\n        p_new_x, p_new_y = player_pos[0] + dx, player_pos[1] + dy\n        m_new_x, m_new_y = murkrow_pos[0] + dx, murkrow_pos[1] + dy\n        \n        # Player Collision\n        if grid.get((p_new_x, p_new_y), False):\n            player_pos = [p_new_x, p_new_y]\n        \n        # Murkrow Collision\n        if grid.get((m_new_x, m_new_y), False):\n            murkrow_pos = [m_new_x, m_new_y]\n            \n        history.append({\n            \"move\": move,\n            \"player\": list(player_pos),\n            \"murkrow\": list(murkrow_pos)\n        })\n\n    result = {\n        \"final_player_pos\": player_pos,\n        \"final_murkrow_pos\": murkrow_pos,\n        \"history\": history\n    }\n    \n    if autopress:\n        # Return buttons to press\n        print(json.dumps(moves)) \n    else:\n        print(json.dumps(result))\n\nexcept Exception as e:\n    if input_data.get('autopress_buttons', False):\n        print(json.dumps([]))\n    else:\n        print(json.dumps({\"error\": str(e)}))",
+    "python_script": "import xml.etree.ElementTree as ET\n\ndef get_walls(xml_string):\n    walls = set()\n    root = ET.fromstring(xml_string)\n    for row in root.findall('Row'):\n        y = int(row.get('id'))\n        for tile in row.findall('Tile'):\n            x = int(tile.get('id'))\n            t_type = tile.get('type')\n            # TYPE_2889 is assumed to be Wall/Door/Obstacle\n            if t_type == 'TYPE_2889':\n                walls.add((x, y))\n    return walls\n\ndef simulate(player_start, murkrow_start, moves, map_xml):\n    walls = get_walls(map_xml)\n    px, py = player_start\n    mx, my = murkrow_start\n    \n    traps = {\n        (22, 16): \"Suspected Warp Trap\",\n        (5, 15): \"Warp to (25,2)\",\n        (1, 4): \"Warp Trap\",\n        (1, 12): \"Voltorb Trap\",\n        (2, 12): \"Koffing Trap\",\n        (27, 2): \"Exit\"\n    }\n    \n    print(f\"Start: P({px},{py}), M({mx},{my})\")\n    \n    for i, move in enumerate(moves):\n        p_dx, p_dy = 0, 0\n        m_dx, m_dy = 0, 0\n        \n        if move == \"Up\":\n            p_dy = -1\n            m_dy = 1\n        elif move == \"Down\":\n            p_dy = 1\n            m_dy = -1\n        elif move == \"Left\":\n            p_dx = -1\n            m_dx = -1\n        elif move == \"Right\":\n            p_dx = 1\n            m_dx = 1\n            \n        next_px, next_py = px + p_dx, py + p_dy\n        if (next_px, next_py) not in walls:\n            px, py = next_px, next_py\n        \n        next_mx, next_my = mx + m_dx, my + m_dy\n        if (next_mx, next_my) not in walls:\n            mx, my = next_mx, next_my\n            \n        warning = \"\"\n        if (mx, my) in traps:\n            warning = f\" [WARNING: M on {traps[(mx,my)]}]\"\n            \n        print(f\"{i+1}. {move}: P({px},{py}), M({mx},{my}){warning}\")\n        \n    print(f\"Final: P({px},{py}), M({mx},{my})\")\n\nsimulate(player_start, murkrow_start, moves, map_xml_string)",
     "history": [
       {
         "commit_message": "Initial version",
@@ -519,6 +521,11 @@
         "commit_message": "Fixed NameError by ensuring variable extraction is robust and added missing commit message.",
         "timestamp": "2026-02-09T23:31:22.351Z",
         "action_counter": 35315
+      },
+      {
+        "commit_message": "Added commit message to fix update error. Tool simulates Murkrow movement logic (mimic X, mirror Y) with wall collision.",
+        "timestamp": "2026-02-11T05:35:11.961Z",
+        "action_counter": 36752
       }
     ]
   },
