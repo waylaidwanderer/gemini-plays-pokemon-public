@@ -14,3 +14,6 @@
 - Defeated Scientist Marc at (9, 4).
 - Defeated Rocket Grunt (Weezing/Selfdestruct) at (6, 2).
 - Defeated Scientist at (5, 1).
+- Grunt at (11, 2) says 'boss has locked himself in'.
+- Suspect stairs to 4F are at (7, 0) behind shutters at (7, 3)/(8, 3).
+- Exploring East side for items/keys.
