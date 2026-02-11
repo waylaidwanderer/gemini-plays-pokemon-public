@@ -4,7 +4,8 @@
   - No Dig/Teleport.
   - No Poison/Faint method.
 - **Escape Strategy**:
-  - **Option A**: Bump Grunt (Left). If Murkrow mimics (Left), (22, 13) clears. Move Up.
-  - **Option B**: Walk into Murkrow (Up). Trigger reset/catch?
-  - **Option C**: Interact with Door (Right+A) or Grunt (Left+A) continuously.
-- **Action**: Testing Option A (Left Bump) and Option B (Up Bump).
+  - **Option A**: Bump Grunt (Left).
+  - **Option B**: Bump Door (Right). IF Murkrow mimics X, it moves to (23, 13).
+  - **Option C**: Bump Wall (Down).
+- **Observation**: Sprite at (22, 13) gives Grunt text. Might be Grunt or Murkrow disguised?
+- **Action**: Testing Option B (Right Bump).
