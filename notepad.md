@@ -33,8 +33,9 @@
 - Defeated: Koffing (x5), Weezing.
 - Garnet (83/161 HP, Poisoned).
 - Battle Won!
-- Status: Text cleared. Moving to stairs.
-- Path: Up to (0,0).
+- Status: Cleared text.
+- Action: Used Full Heal on Garnet (next turn).
+- Path: Up to (0,0) (stairs).
 - Move Menu Logic: Vertical List + Cursor Memory.
 - Current Cursor: Flame Wheel (Move 4).
 - Target: Flame Wheel (Move 4).
