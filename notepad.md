@@ -12,13 +12,16 @@
    - **Result**: P(1, 1), M(1, 1).
 2. **Navigate Maze (Battle Route)**:
    - Move Right to (2, 1).
-   - Move Down to (2, 15).
-   - *Hazards*: Grunt at (2, 4), Traps at (2, 10-12). Tank them.
+   - **Bypass Grunt at (2, 4)**:
+     - Path: (2, 1) -> (2, 3) -> (3, 3) -> (3, 5) -> (2, 5).
+     - *Reason*: (1, 4) is Warp Trap, (2, 4) is Grunt. (3, 4) is Clear.
+   - **Tank Traps**:
+     - Continue Down Col 2 to (2, 15).
+     - Tank traps at (2, 10-12).
 3. **Approach Door**:
    - Right to (22, 15). (Avoid 5, 15 Warp).
    - Up to (22, 13).
    - **Try 1**: Interact Overlapped.
-   - **Try 2**: If fails, desync to Sidekick using local walls.
 
 ## Immediate Action
-- Move Left to (1, 1).
+- Move Right to (2, 1). Then Down to (2, 3).
