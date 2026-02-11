@@ -33,3 +33,6 @@
 - Plan: Send Topaz (Pidgeotto) -> Revive Garnet -> Switch Garnet -> Flame Wheel.
 - Menu Navigation Note: Moves seem to be 1:Swift, 2:Mud-Slap, 3:Smokescreen, 4:Flame Wheel.
 - Previous inputs failed to select Flame Wheel consistently. Will check carefully next time.
+- Mechanic: Battle menu cursor remembers last position (Pack -> Run error).
+- Garnet revived (79/158 HP, Status Cleared).
+- Switching to Garnet.
