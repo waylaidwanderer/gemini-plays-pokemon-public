@@ -25,31 +25,18 @@
    - Walk to door.
 
 ## Current State
-- P(7, 3) in Souvenir Shop.
-- **Action**: Re-entering Hideout to reset Murkrow puzzle.
+- P(27, 2). M(7, 2) [Reset].
+- **Plan**: "Col 25-22 Ratchet".
+  1. **Sync Gap=3**: P(4, 2), M(1, 2).
+  2. **Position**: P(25, 2), M(22, 2).
+  3. **Ratchet**: P(25, 15), M(22, 1).
+  4. **Pull**: P(25, 3), M(22, 13).
+  5. **Drop**: P(25, 2), M(22, 14).
 
-## The Master Plan ("Row 3 Crossing")
-1. **Reset**:
-   - Exit to Shop. [Done]
-   - Re-enter B1F -> B2F. [In Progress]
-   - **Start State**: P(19, 2), M(19, 2) [After X-Align].
-2. **Align X**:
-   - Move P Left to Col 0. M Left to Col 0 (Blocked).
-   - Move P Right to Col 19. M Right to Col 19.
-   - State: P(19, 2), M(19, 2).
-3. **Ratchet Y (Target C=16)**:
-   - Current C = 2+2=4.
-   - Move P Down to (19, 15). M blocked at (19, 0).
-   - M stays at 1 (or 0?). Let's assume M stops at 1.
-   - New C = 15+1=16.
-   - Move P Up to (19, 3). M moves Down to (19, 13).
-   - State: P(19, 3), M(19, 13).
-4. **Cross to Col 22**:
-   - Move P Right to (22, 3). M Right to (22, 13).
-   - State: P(22, 3), M(22, 13).
-5. **Finish**:
-   - Move P Up to (22, 2). M Down to (22, 14).
-   - Enter Door.
+## Step 1: Sync Gap
+- Move Left to (4, 2).
+- Murkrow pins at (1, 2).
+- Result: P(4, 2), M(1, 2). Gap = 3.
 
 ## Immediate Action
-- Step Left, then Right to enter stairs.
+- Navigate to (4, 2).
