@@ -1,7 +1,9 @@
 # Murkrow Solution: The Col 27 Loop (Mirror Y)
 
-## Start State
-- P(14, 14), M(18, 1).
+## Current State (Turn 37020)
+- Player: (14, 13)
+- Murkrow: (14, 12)
+- Status: Interacting to verify puzzle start.
 
 ## Execution Plan
 1. **Pass Computers (Y=1)**:
