@@ -30,9 +30,9 @@
 - Checking East side (Cols 14-17) for items.
 - Location: Radio Tower 3F (Map 3_19).
 - Objective: Rescue Director in Underground Warehouse.
-- Immediate Task: Navigate to East Stairs (15, 0).
-- Path: (5,2) -> (5,1) -> (8,1) -> Inspect Shutter at (9,1).
-- Potential Obstacles: Grunt at (10,2), Shutter at (9-11,1), Grunt at (8,4).
+- Immediate Task: Navigate East via Row 3.
+- Path: (8,3) -> (10,3) -> (12,3) -> (12,2) -> (15,0).
+- Obstacle: Grunt at (8,4) might trigger battle. Defeated Grunt at (10,2) blocks Row 2.
 - Goal: Descend to 1F and exit Radio Tower.
 - Action: Navigate to (9,0).
 - Path: 4F (0,1) -> (9,1) -> (9,0).
