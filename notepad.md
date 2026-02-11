@@ -33,7 +33,8 @@
 - Defeated: Koffing (x3).
 - Garnet (80/158 HP, Poisoned).
 - Topaz grew to Lv 18.
-- Status: Executive is about to send out next Pokemon.
+- Opponent: Weezing (Incoming).
+- Strategy: Flame Wheel (expecting high Def/Selfdestruct).
 - Move Menu Logic: Vertical List + Cursor Memory.
 - Current Cursor: Flame Wheel (Move 4).
 - Target: Flame Wheel (Move 4).
