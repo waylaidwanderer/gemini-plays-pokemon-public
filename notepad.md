@@ -31,6 +31,7 @@
 - Location: Radio Tower 5F (Map 3_21).
 - Battling Rocket Executive (Imposter Director).
 - Defeated: Koffing (x2).
+- Opponent: Koffing #3 (Lv 30).
 - Garnet (116/158 HP).
-- Current State: Switch Prompt (Declining).
+- Strategy: Use Flame Wheel (Down x3 -> A).
 - Goal: Defeat Executive to get Key.
