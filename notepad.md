@@ -5,12 +5,17 @@
 - **Y-Mirroring**: TESTING. Player Down -> Murkrow vanished? (Likely moved off-screen or I'm blind).
 - **Update**: Sprite tracker said "No sprites moved", but sprite is gone from (14, 12).
 
-## Current State (Turn 37035)
-- Player: (14, 14)
-- Murkrow: Unknown (Cutscene in progress)
-- Status: Interrupted by Rocket Executive at (14, 13) and Rival at (16, 14).
+## Current State (Turn 37089)
+- Player: (10, 10)
+- Status: In cutscene with Lance at the Power Generator.
+- Goal: Defeat Electrodes to stop the signal.
 
-## Mechanics Hypothesis
+## Murkrow Puzzle Status
+- Interrupted by event.
+- Boss Door at (23, 14) not opened.
+- Priority: Complete Lance's event first.
+
+## Mechanics Hypothesis (Archived)
 - **X-Mimicry**: Confirmed.
 - **Y-Mirroring**: Strong evidence.
 
