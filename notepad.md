@@ -33,7 +33,7 @@
 - Key Item: Basement Key obtained.
 - Party: Garnet (83/161 HP), Topaz (56/56 HP).
 - Immediate Task: Battling Grunt at (4,2).
-- Status: Interact with Grunt to trigger battle (Text box cleared).
+- Status: Forcing text advance (Stuck on 'Do you honestly...').
 - Opponent: Team Rocket Grunt.
 - Strategy: Sweep with Garnet.
 - Action: Navigate to (9,0).
