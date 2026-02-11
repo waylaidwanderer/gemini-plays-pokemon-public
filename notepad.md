@@ -32,7 +32,8 @@
 - Battling Rocket Executive (Imposter Director).
 - Defeated: Koffing (x5), Weezing.
 - Garnet (83/161 HP, Poisoned).
-- Status: Battle won. Advancing victory text.
+- Battle Won!
+- Status: Advancing post-battle text. Expecting Basement Key.
 - Move Menu Logic: Vertical List + Cursor Memory.
 - Current Cursor: Flame Wheel (Move 4).
 - Target: Flame Wheel (Move 4).
