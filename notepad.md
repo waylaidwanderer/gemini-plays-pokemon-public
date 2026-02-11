@@ -30,8 +30,9 @@
 - Checking East side (Cols 14-17) for items.
 - Location: Radio Tower 3F (Map 3_19).
 - Objective: Rescue Director in Underground Warehouse.
-- Immediate Task: Exit 2F via East Stairs (15, 0).
-- Path: (3,1) -> (8,1) -> Inspect (10,2) blockade.
+- Immediate Task: Navigate around defeated Grunt at (4,1).
+- Path: (3,1) -> (3,2) -> (5,2) -> (8,1) -> (15,0).
+- Reason: Grunt at (4,1) is an obstacle.
 - Goal: Descend to 1F and exit Radio Tower.
 - Action: Navigate to (9,0).
 - Path: 4F (0,1) -> (9,1) -> (9,0).
