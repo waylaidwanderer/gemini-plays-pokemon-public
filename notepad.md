@@ -1,39 +1,27 @@
-# Murkrow Puzzle: Jed's Ratchet Strategy
+# Murkrow Puzzle: Col 21 Ratchet Strategy
 
-## Phase 1: Setup & Alignment
-1. **X-Sync (Left)**:
-   - Move Left to P(3, 2). (M blocked at 6, stays 7).
-   - Offset: P = M - 4.
-2. **Y-Init**:
-   - Move Down to P(3, 13). M stays 1 (blocked Up).
-   - Move Up to P(3, 3). M moves to 11.
-   - State: P(3, 3), M(7, 11).
+## Phase 1: Setup & Alignment (Col 3/7)
+1. **X-Sync**:
+   - Move Left to P(3, 2). M aligns to Col 7.
+2. **Y-Init (Target P=16, M=9)**:
+   - Move Down to P(3, 16). M stays at 1 (Blocked Row 0).
+   - Move Up to P(3, 8). M moves to 9.
+   - Move Down to P(3, 16). M stays at 9 (Blocked Row 8).
+   - State: P(3, 16), M(7, 9).
 
-## Phase 2: Crossing & X-Offset
-3. **Cross Walls**:
-   - Move Right to P(26, 3).
-   - M moves to 25 (Blocked by Wall 26).
-   - State: P(26, 3), M(25, 11).
-   - Offset: P = M + 1.
-4. **Position for Jed**:
-   - Move Left to P(19, 3). M moves to 18.
-   - Move Up to P(19, 1). M moves to 13.
-   - State: P(19, 1), M(18, 13).
+## Phase 2: Crossing (Row 16/9)
+3. **Cross**:
+   - Move Right to P(21, 16). M moves to (21, 9).
+   - Note: Avoid P(22, 16) Warp Trap.
 
-## Phase 3: The Jed Ratchet
-5. **Ratchet**:
-   - Move Down to P(19, 14).
-   - M tries Up (13->12), Blocked by Jed(18, 12).
-   - State: P(19, 14), M(18, 13).
-6. **Y-Swap**:
-   - Move Up to P(19, 13). M moves to 14.
-   - State: P(19, 13), M(18, 14).
+## Phase 3: Ratchet (Col 21)
+4. **Set Sum 27**:
+   - Move Up to P(21, 14). M moves to 11.
+   - Move Down to P(21, 16). M stays at 11 (Blocked Row 10).
+   - State: P(21, 16), M(21, 11).
 
 ## Phase 4: Delivery
-7. **X-Sync (Final)**:
-   - Move Left to P(14, 13).
-   - M moves Left to 14 (Blocked by Wall 13).
-   - State: P(14, 13), M(14, 14).
-8. **Finish**:
+5. **Final Approach**:
+   - Move Up to P(21, 13). M moves to 14.
    - Move Right to P(22, 13). M moves to (22, 14).
    - Interact (A).
