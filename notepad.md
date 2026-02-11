@@ -1,26 +1,26 @@
 # Team Rocket HQ - Murkrow Puzzle
 
 ## STATUS: RESETTING ROOM
-**Goal**: Exit map via (27, 2) to reset Murkrow.
-**Plan**: Execute "Right-Side Jed Ratchet".
+**Goal**: Re-enter Map 3_49 to reset Murkrow.
+**Plan**: "Left-Side Door Ratchet".
 
-## Strategy: "Right-Side Jed Ratchet"
-1. **Reset**: Exit (27, 2) and Re-enter. Start P(7, 2).
-2. **Sync X (Right Wall)**:
-   - Move Right to Col 28 (Use Row 3 to avoid Exit).
-   - *State*: P(28, 3), M(28, 3).
-3. **Invert Y (Bottom Wall)**:
-   - P Down to (28, 16). M Up to (28, 1).
-   - *State*: P(28, 16), M(28, 1).
+## Strategy: "Left-Side Door Ratchet"
+1. **Reset**: Re-enter 3_49. Start P(7, 2).
+2. **Sync X (Left Wall)**:
+   - Move Left to (1, 2).
+   - *State*: P(1, 2), M(1, 2).
+3. **Invert Y (Battle Path)**:
+   - Move Down to (1, 16).
+   - *Note*: Expect battles (Voltorb/Geodude). No warps.
+   - *State*: P(1, 16), M(1, 1) (M blocked at Top).
 4. **Position for Ratchet**:
-   - P Up to (28, 3). M Down to (28, 14).
-   - *State*: P(28, 3), M(28, 14).
-5. **Align Col 18**:
-   - Left to (18, 3). M Left to (18, 14).
-6. **The Jed Lock**:
-   - P Down to (18, 15).
-   - M tries Up -> Hits Jed (18, 12). Stuck at (18, 13).
-   - *End State*: P(18, 15), M(18, 13).
-7. **The Door Ratchet**:
-   - Move Right to 22. P(22, 15), M(22, 13).
-   - Interact Up (Boss Door). Murkrow is adjacent at (22, 13).
+   - Move Right to (22, 16).
+   - *State*: P(22, 16), M(22, 1).
+   - Move Up to (22, 15).
+   - *State*: P(22, 15), M(22, 2).
+5. **The Door Ratchet**:
+   - Push UP against Boss Door (22, 14).
+   - P blocked at (22, 15).
+   - M moves Down (2->3->...->14).
+   - Repeat until M is at (22, 14).
+6. **Solve**: Interact (A).
