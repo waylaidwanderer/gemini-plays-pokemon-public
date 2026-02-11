@@ -1,50 +1,40 @@
-# Team Rocket HQ - Murkrow Puzzle
+# Team Rocket HQ - Murkrow Puzzle (Solution Found)
 
-## STATUS: EXECUTING "COL 26 RATCHET & DOOR SYNC"
-**Goal**: P(22, 2), M(22, 14).
-**Logic**: Ratchet at Col 26 to align Y, then position for Door Drop.
+## STATUS: RESETTING FOR SOLUTION
+**Goal**: Open Boss Door at (22, 14).
+**Requires**: Murkrow ON the door tile (22, 14) while P interacts from (22, 13).
+**Current State**: Synced (Failed). Must Reset.
 
-## The Plan
-1. **Navigate to Ratchet Point**:
-   - Start: P(19, 12), M(19, 1).
-   - **Step 1**: Up to (19, 7). M -> (19, 6).
-   - **Step 2**: Right to (26, 7). M -> (26, 6).
-2. **Execute Ratchet**:
-   - **Step 3**: Down to (26, 15). 
-     - M moves Up 8: (26, 6) -> (26, -2) -> Stuck at (26, 1).
-   - *State*: P(26, 15), M(26, 1).
-3. **Align for Drop**:
-   - **Step 4**: Up to (26, 13). M -> (26, 3).
-   - **Step 5**: Left to (22, 13). M -> (22, 3).
-   - **Step 6**: Up to (22, 3). M -> (22, 13).
-     - *State*: P(22, 3), M(22, 13).
-4. **Trigger Door**:
-   - **Step 7**: Up to (22, 2). M -> (22, 14).
-   - *Result*: M lands on Boss Door. Door opens?
-5. **Enter**:
-   - Walk to door.
-
-## Current State
-- P(22, 13). M(Unknown, likely 8,1).
-- **Hypothesis**: Overlap failed due to collision. M is stuck elsewhere.
-- **Solution**: Use Right Wall to create X+1 Offset.
-
-## The "Right Wall Alignment" Plan
-1. **Reset Y Gap**:
-   - Move to (21, 13) -> Up to (21, 1).
-   - M moves Up -> Blocked at Wall. Y-Gap becomes 0.
-2. **Set X Gap (+1)**:
+## The "Statue Shimmy" Solution
+1. **Reset**:
+   - Go to (3, 14) -> B1F -> B2F.
+   - **Start State**: P(7, 2), M(7, 1). (X synced, Y offset -1).
+2. **Create X Offset (P Left of M)**:
+   - Move Left to (6, 2).
+   - P -> (6, 2). M -> (6, 1) (Blocked by Statue).
+   - **State**: P(6, 2), M(7, 1). (X_M = X_P + 1).
+3. **Align for Y Shimmy**:
+   - Move Right to (23, 2).
+   - **State**: P(23, 2), M(24, 1).
+4. **Sync Y (Top Wall)**:
+   - Move Up to (23, 1). P(23, 1). M(24, 0) Blocked.
+   - **State**: P(23, 1), M(24, 1).
+5. **Position for Shimmy**:
+   - Move Down to (23, 2).
+   - **State**: P(23, 2), M(24, 2).
+6. **Execute Y Shimmy (Create M South Offset)**:
+   - Move Up to (23, 1).
+   - P -> (23, 1). M -> (24, 1) (Blocked by Statue).
+   - **State**: P(23, 1), M(24, 2). (Y_M = Y_P + 1).
+7. **Remove X Offset**:
    - Move Right to (28, 1).
-   - M moves Right -> Blocked at (29, 1).
-   - Result: P(28, 1), M(29, 1). Gap X = +1.
-3. **Navigate to Door**:
-   - Left to (21, 1). M -> (22, 1).
-   - Down to (21, 13). M -> (22, 13).
-   - Result: M is in front of Door, P is left of M.
-4. **Trigger**:
-   - Move Down (Bump).
-   - Move Right (Overlap M at 22, 13).
+   - P -> (28, 1). M -> (29, 2) (Blocked by Wall).
+   - **State**: P(28, 1), M(28, 2). (X Synced, Y Offset +1).
+8. **Deliver**:
+   - Move Left to (22, 1).
+   - Move Down to (22, 13).
+   - **State**: P(22, 13), M(22, 14).
    - Interact.
 
 ## Immediate Action
-- Move Left to (21, 13), then Up to (21, 1).
+- Navigate to (3, 14) to Reset.
