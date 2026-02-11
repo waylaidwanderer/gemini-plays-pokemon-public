@@ -1,23 +1,14 @@
-# Murkrow Solution: The Wiggle Test
+# Murkrow Solution: Search & Rescue (Again)
 
 ## Current Status
-- P(20, 13). M(18, 13) [Calculated].
-- Goal: Determine Y-Axis Behavior (Mimic vs Mirror).
+- P(20, 13). M is **LOST**.
+- NOT at (19, 13), (19, 12), (22, 14), (20, 12).
+- Possible Locations: (21, 12) (Maybe invisible?), (22, 12), (23, 12)? Or Reset to (7, 1).
 
 ## Execution
 1. **Move Down**:
-   - P moves to (20, 14).
-   - **Observe M**:
-     - If M moves to (18, 14): **Mimic Y**.
-     - If M stays at (18, 13): **Mirror Y** (Blocked by Wall 18,12).
-
-## Contingency Plans
-- **Case Mirror Y (Likely)**:
-  1. P(20, 14), M(18, 13).
-  2. Move Right to (22, 14). M -> (20, 13).
-  3. Bump Right x2 (on Door). M -> (22, 13).
-  4. Move Up to (22, 13). M -> (22, 14) [Plate].
-  5. Enter Door.
-- **Case Mimic Y**:
-  1. P(20, 14), M(18, 14).
-  2. Needs replanning to align M above Plate.
+   - To (20, 14).
+   - Check if M appears.
+2. **Search**:
+   - If not found, check Door at (23, 14).
+   - If Door closed and M missing, go to (3, 14) -> Reset Room.
