@@ -9,35 +9,26 @@
 
 ## Step 2: Invert Y (Battle Path) [IN PROGRESS]
 - **Current**: P(3, 12). M(3, 1) (Estimated).
-- **Hazard**: `(3, 14)` is Stairs/Warp. Must avoid.
-- **Action**:
-  - Left to (1, 12).
-  - Down to (1, 16).
-  - *Note*: Expect battles at (1, 12) [Voltorb] and (1, 13) [Geodude].
+- **Action**: Move Left to (1, 12), then Down to (1, 16).
+  - *Expect*: Battles.
   - *Result*: P(1, 16), M(1, 1).
 
-## Step 3: Desync X (Use Grunt at 2,4)
-- **Action**:
-  - P Up to (1, 13). M Down to (1, 4).
-  - P Right to (22, 13). M Blocked at (1, 4) by Grunt at (2, 4).
-  - *State*: P(22, 13), M(1, 4).
+## Step 3: The "Statue Dodge" Traverse
+1. **Pass Warp**: Right to (5, 16). P(5, 16), M(5, 1).
+2. **Desync on Statue**: Right to (6, 16).
+   - P moves to (6, 16).
+   - M blocked by Statue (6, 1). M stays (5, 1).
+   - *State*: P(6, 16), M(5, 1).
+3. **Shift Lanes**: Up to (6, 15).
+   - P(6, 15). M Down to (5, 2).
+   - *State*: P(6, 15), M(5, 2).
+4. **Cross Room**: Right to (29, 15).
+   - P moves to Wall (29, 15).
+   - M moves to Wall (29, 2). (Resyncs X).
+   - *State*: P(29, 15), M(29, 2).
+5. **Position**: Left to (22, 15). P(22, 15), M(22, 2).
 
-## Step 4: Ratchet Y (Drop M)
-- **Action**:
-  - P Up to (22, 11). M Down to (1, 6).
-  - P Push Up against Wall (22, 10). M Down to (1, 15).
-  - *State*: P(22, 11), M(1, 15).
-
-## Step 5: Resync X (Right)
-- **Action**:
-  - P Push Right against Wall (23, 11). M Right to (22, 15).
-  - *State*: P(22, 11), M(22, 15).
-
-## Step 6: Convergence & Solve
-- **Action**:
-  - P Down to (22, 13). M Up to (22, 13).
-  - P Left -> (21, 13). M Left -> (21, 13).
-  - P Down -> (21, 15). M Up -> (21, 11).
-  - P Right -> (22, 15). M Right -> (22, 11).
-  - P Push Up (Door). M Down -> 12...13...14.
-  - Interact (A).
+## Step 4: The Door Ratchet
+- Push UP against Boss Door (22, 14) x11.
+- M moves Down to (22, 13).
+- Interact (A).
