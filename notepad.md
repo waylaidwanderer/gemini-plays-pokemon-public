@@ -1,9 +1,12 @@
 # Murkrow Solution: The Col 27 Loop (Mirror Y)
 
-## Current State (Turn 37020)
+## Mechanics Verified
+- **X-Mimicry**: CONFIRMED. Player Right -> Murkrow Right.
+- **Y-Mirroring**: TESTING. Player Down -> Murkrow Up?
+
+## Current State (Turn 37025)
 - Player: (14, 13)
 - Murkrow: (14, 12)
-- Status: Interacting to verify puzzle start.
 
 ## Execution Plan
 1. **Pass Computers (Y=1)**:
