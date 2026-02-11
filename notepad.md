@@ -11,4 +11,4 @@
 - Ascend Radio Tower.
 - Clear Radio Tower.
 - Defeated Rocket Grunt at 1F (Turn 37529).
-- Fighting Rocket Grunt (Arbok) at 2F.
+- Defeated Rocket Grunt (Arbok) at 2F (Turn 37558).
