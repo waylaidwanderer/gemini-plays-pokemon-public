@@ -25,18 +25,17 @@
    - Walk to door.
 
 ## Current State
-- P(1, 2). M(Unknown, likely > 6).
-- **Action**: Moving to (27, 2) to Reset.
-- **Search**: Will scan Row 2 during travel. Expect M around X=14 if Mirroring.
+- P(25, 2). Just warped from (5, 15).
+- **Action**: Exiting to Shop (27, 2) to force a full reset.
+- **Goal**: Re-enter and verify Murkrow spawn at (7, 2).
 
-## Reset Plan
-1. **Reset**: Exit/Re-enter at (27, 2).
-   - State: P(27, 2), M(7, 2).
-2. **Verify Mirror**:
-   - Move Left to (17, 2).
-   - If M is at (17, 2), Mirror is confirmed.
-3. **Execute Strategy**:
-   - Once behavior is confirmed, execute "Col 22 Ratchet".
+## Reset Protocol
+1. **Exit**: Go to (27, 2).
+2. **Re-enter**: Go back down stairs.
+3. **Verify**: Check (7, 2) for Murkrow.
+4. **Strategy**:
+   - If M is at (7, 2): Test movement 1 step at a time.
+   - If M is missing: Check other corners or verify if I'm blind.
 
 ## Immediate Action
-- Navigate to (27, 2).
+- Move Right to Exit.
