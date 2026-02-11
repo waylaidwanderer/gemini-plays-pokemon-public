@@ -33,7 +33,7 @@
 - Defeated: Koffing (x4), Weezing.
 - Garnet (83/161 HP, Poisoned).
 - Topaz grew to Lv 19.
-- Status: Waiting for last opponent.
+- Status: Advancing text to identify final opponent.
 - Move Menu Logic: Vertical List + Cursor Memory.
 - Current Cursor: Flame Wheel (Move 4).
 - Target: Flame Wheel (Move 4).
