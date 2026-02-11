@@ -35,3 +35,4 @@
 - Anomaly: 'POKE' sign building (15, 27) leads to Game Corner (11_20).
 - Hypothesis: Buildings swapped? Checking (14, 21) for Poke Center.
 - NPC Blocking path to Poke Center at (16, 23). Needs to move.
+- Path to PC (14, 21): From (16, 17), go East to Col 18, Down to Row 22, West to Col 14.
