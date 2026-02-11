@@ -33,9 +33,9 @@
 - Key Item: Basement Key obtained.
 - Party: Garnet (83/161 HP), Topaz (56/56 HP).
 - Immediate Task: Battling Grunt at (4,2).
-- Status: Forcing text advance (Stuck on 'Do you honestly...').
-- Opponent: Team Rocket Grunt.
-- Strategy: Sweep with Garnet.
+- Status: Using advance_dialogue tool to clear stuck text.
+- Objective Change: Poison cured. Heading to Underground Warehouse via Radio Tower Exit.
+- Path: 4F (9,0) -> 3F -> 2F -> 1F -> Exit -> Underground.
 - Action: Navigate to (9,0).
 - Path: 4F (0,1) -> (9,1) -> (9,0).
 - Key Item: Basement Key obtained.
