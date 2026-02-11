@@ -11,8 +11,8 @@
 - Find stairs to 4F (likely East).
 - Shutter at (3,3)/(4,3) likely requires Card Key.
 - Battle Grunts on 3F.
-- CRITICAL: Garnet is Poisoned (48/158 HP). Heal ASAP.
-- Menu Behavior: Ambiguous. 'Down' from Mud-Slap went to Smokescreen (implies List/Z-order). 'Right' works for columns.
-- Strategy: Use 'Down + Right' to target BR (Flame Wheel) or TR (Mud-Slap).
+- Active: Bolin (Sandshrew). Plan: Rock Smash vs Magnemite.
+- Garnet: Poisoned/Low HP. Switched out.
+- Battle Menu: 2x2 Grid.
 - Defeated Rocket Grunt (Weezing/Selfdestruct) at (6, 2).
 - Defeated Scientist at (5, 1).
