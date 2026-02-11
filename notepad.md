@@ -8,8 +8,8 @@
 - HMs: Cut, Fly, Surf, Strength, Flash, Whirlpool.
 
 # Tasks
-- Challenge Pryce: Complete!
+- Exit Mahogany Gym.
+- Heal at Pokemon Center.
 - Gym Mechanics: TYPE_3fe2 is safe floor, TYPE_11a6 is ice.
 - Boarder Brad, Skier Roxanne, Boarder Douglas, Leader Pryce defeated.
-- Navigation Note: Sliding Right from (4, 7) is blocked/impossible despite map appearance.
-- TYPE_2889 is a solid block obstacle.
+- Navigation Note: Sliding Right from (4, 7) is blocked/impossible.
