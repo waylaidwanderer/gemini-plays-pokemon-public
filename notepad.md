@@ -4,24 +4,24 @@
 **Goal**: Open Boss Door at (22, 14).
 **Strategy**: Use Warp (5, 15) to reach (25, 2), then Execute Right Wall Resync.
 
-## Step 1: Take Warp (5, 15)
-- **Current**: P(5, 13).
-- **Action**: Down 2 to (5, 15).
-  - *Result*: Warps to (25, 2).
-  - *Assumption*: Murkrow follows or can be resynced.
+## Step 1: Take Warp (5, 15) [DONE]
+- Current: P(25, 2).
 
 ## Step 2: Sync X (Right Wall)
+- **Problem**: (27, 2) is Exit. Must avoid.
 - **Action**:
-  - Right to (28, 2).
-    - P(28, 2).
-    - M moves Right. Syncs at 28.
-  - *State*: P(28, 2), M(28, 2).
+  - Down 1 to (25, 3).
+  - Right 4 to (28, 3) (Bump Wall at 29).
+    - P(28, 3).
+    - M moves Right. Syncs at 28 (or blocked).
+  - *State*: P(28, 3), M(28, 3) (Assumed).
 
 ## Step 3: Invert & Offset
 - **Action**:
   - Down to (28, 16). M Up to (28, 1).
   - Left to (22, 16).
-    - M Left to (25, 1) (Blocked by Statue 24,1).
+    - M Left from (28, 1) -> Blocked by Statue at (24, 1).
+    - M stops at (25, 1).
   - *State*: P(22, 16), M(25, 1).
 
 ## Step 4: Ratchet & Resync
@@ -34,5 +34,5 @@
 ## Step 5: Solve
 - **Action**:
   - Left to (22, 11). M Left to (22, 14).
-  - Down to (22, 12). M Up to (22, 13).
+  - Down to (22, 13).
   - Interact Down.
