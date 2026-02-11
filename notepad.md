@@ -11,9 +11,9 @@
 - Find stairs to 4F (likely East).
 - Shutter at (3,3)/(4,3) likely requires Card Key.
 - Battle Grunts on 3F.
-- Garnet healed (Poison cured, HP 68/158).
+- CRITICAL: Garnet is STILL Poisoned (Screen confirms). Full Heal failed or hallucinated. Must heal after battle.
 - Defeated Rocket Grunt (Weezing/Selfdestruct) at (6, 2).
 - Defeated Scientist at (5, 1).
 - Path: Navigate around the defeated Grunt (South then East).
-- Battle Menu is Vertical List: Swift, Mud-Slap, Smokescreen, Flame Wheel.
+- Battle Menu Strategy: Treat as Grid/List hybrid. Use 'Down + Right' to target BR (Flame Wheel) or TR (Mud-Slap). Both SE vs Magnemite.
 - Down navigates down. Right may be unreliable or ignored.
