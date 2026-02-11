@@ -3,24 +3,25 @@
 ## STATUS: EXECUTING "THE ULTIMATE PLAN"
 **Goal**: P(22, 13), M(22, 15).
 
-## Plan: "Fetch & Execute"
-1. **Re-enter & Fetch**:
-   - Warp to B2F (27, 2).
-   - Go Left to (1, 2).
-   - *State*: P(1, 2), M(1, 2) [Synced Top-Left].
-2. **Setup Y-Split (Col 26)**:
-   - Right to (26, 2). M -> (26, 2).
-   - Down to (26, 9). M -> (26, 1) [hits Wall].
-   - Up to (26, 1). M -> (26, 9).
-     - *State*: P(26, 1), M(26, 9).
-3. **Move to Col 28**:
-   - Right to (28, 1). M -> (28, 9).
-     - *State*: P(28, 1), M(28, 9).
-4. **The Dive (Col 28)**:
-   - Down to (28, 7). M -> (28, 9) [hits Wall 8].
-   - Up to (28, 1). M -> (28, 15).
-     - *State*: P(28, 1), M(28, 15).
-5. **Approach & Unlock**:
-   - Left to (22, 1). M -> (22, 15).
-   - Down to (22, 13). M -> (22, 15) [hits Door].
+## Plan: "Col 28 Ratchet & Slide"
+1. **Move to Col 28 (via Row 1)**:
+   - Up to (26, 1). M -> (26, 3).
+   - Right to (28, 1). M -> (28, 3).
+     - *State*: P(28, 1), M(28, 3).
+2. **Ratchet M Down (Col 28)**:
+   - Down to (28, 13). M -> (28, 1) [Hits Wall 0].
+   - Up to (28, 1). M -> (28, 13).
+   - Down to (28, 13). M -> (28, 9) [Hits Wall 8].
+   - Up to (28, 1). M -> (28, 16) [Hits Wall 17].
+     - *State*: P(28, 1), M(28, 16).
+3. **Position for Lock (Col 24)**:
+   - Left to (25, 1). M -> (25, 16).
+   - Down to (25, 2). M -> (25, 15).
+   - Left to (24, 2). M -> (24, 15).
+     - *State*: P(24, 2), M(24, 15).
+4. **Lock M (Col 24)**:
+   - Down to (24, 13). M -> (24, 15) [Hits Wall 14].
+     - *State*: P(24, 13), M(24, 15).
+5. **Finish**:
+   - Left to (22, 13). M -> (22, 15).
    - Interact.
