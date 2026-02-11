@@ -28,8 +28,8 @@
 - Employee at (11, 2) asks to save Director on 5F.
 - (7, 0) looks like stairs to 4F.
 - Checking East side (Cols 14-17) for items.
-- Location: Radio Tower 5F (Map 3_21) - Western Side?
-- Arrived via stairs at (0, 0) from 4F West.
-- Goal: Find Director.
-- Visible: Rocket Grunt at (3, 6).
-- Exploring this floor.
+- Location: Radio Tower 5F (Map 3_21).
+- Found Director at (4, 2).
+- Visible items: Item Ball at (1, 4).
+- Visible NPCs: Grunt at (3, 6).
+- Goal: Talk to Director to get Key.
