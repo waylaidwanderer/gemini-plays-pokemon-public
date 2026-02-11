@@ -1,11 +1,11 @@
-# Current State (Turn 37111)
-- Player: (8, 7) (In Battle)
-- Status: Battling Electrode #2.
-- Goal: Defeat 3 Electrodes (1/3 Defeated).
+# Current State (Turn 37114)
+- Player: (8, 7) -> Moving to (8, 5)
+- Status: Defeated Electrode #2. Targeting #3.
+- Goal: Defeat 3 Electrodes (2/3 Defeated).
 
 # Progress
 - Electrode 1 (7, 9): Defeated.
-- Electrode 2 (7, 7): In Combat.
+- Electrode 2 (7, 7): Defeated.
 - Electrode 3 (7, 5): Pending.
 
 # Mechanics
