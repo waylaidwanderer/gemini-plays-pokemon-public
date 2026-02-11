@@ -2,12 +2,13 @@
 
 ## STATUS: ENTERING HIDEOUT
 **Goal**: Open Boss Door at (22, 14) from (22, 13).
-**Current**: In Shop (2_7). Standing on Stairs (7, 5).
+**Current**: In Mahogany Town (2_7). Heading to Shop.
 
-## Step 1: Re-enter B2F (Map 3_49)
+## Step 1: Enter Shop & Go to B2F
 - **Action**:
-  - Interact/Move Down to enter B1F (3_48).
-  - Navigate to B2F Entrance -> B2F (3_49) at (7, 2).
+  - Enter Shop at (11, 7).
+  - Take stairs to B1F (3_48).
+  - Navigate to B2F Entrance -> B2F (3_49).
 
 ## Step 2: Execute "NORTH APPROACH REDUX"
 - **Strategy**: Sync X Left, Invert Y on Col 1 (Detour), Swap Y, Ratchet M to (22, 12).
