@@ -32,9 +32,9 @@
 - Objective: Reach Underground Warehouse.
 - Key Item: Basement Key obtained.
 - Party: Garnet (83/161 HP), Topaz (56/56 HP).
-- Immediate Task: Navigate to stairs at (9,0).
-- Path: (4,3) -> (4,4) -> (8,4) -> (9,0).
-- Avoid: Trainer at (5,6).
+- Immediate Task: Exit 4F via stairs at (9,0).
+- Path: (8,4) -> (9,4) -> (9,0).
+- Goal: Reach 3F.
 - Action: Navigate to (9,0).
 - Path: 4F (0,1) -> (9,1) -> (9,0).
 - Key Item: Basement Key obtained.
