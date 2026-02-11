@@ -25,23 +25,18 @@
    - Walk to door.
 
 ## Current State
-- P(8, 3). M(8, 2) [Observed].
-- **Conclusion**: **Murkrow MIMICS X and Y**.
-  - P moved Down, M moved Down.
-- **Goal**: Sync Y-Axis (Overlap) to Offset 0.
+- P(8, 1). M(8, 1) [Synced/Overlapped].
+- **Status**: Synced. P and M move as one unit.
+- **Goal**: Navigate to Boss Door (22, 14) without desyncing (hitting walls P hits but M doesn't, impossible if overlapped).
+- **Constraint**: Avoid Warp Trap at (22, 7).
 
-## The Plan (Overlap Strategy)
-1. **Sync Y**:
-   - Move Up to (8, 1).
-   - M moves (8, 2) -> (8, 1) -> (8, 0) [Blocked].
-   - Result: P(8, 1), M(8, 1). **Synced**.
-2. **Navigate to Door**:
-   - Path: Right to Col 21, Down to Row 13, Right to (22, 13).
-   - *Reason*: Avoid Warp Trap at (22, 7) and Walls on Row 14.
-3. **Open Door**:
-   - Move Down to (22, 14).
-   - P and M overlap on Door.
-   - Interact.
+## Navigation Plan
+1. **Move to (22, 2)**:
+   - Go Right to Col 22.
+   - *Wait*, (22, 7) is below.
+2. **Weave to Door**:
+   - Use BFS to find safe path to (22, 13).
+   - Ensure path avoids (22, 7).
 
 ## Immediate Action
-- Move Up to (8, 2). Then (8, 1).
+- Move Right to (19, 1). Then reassess path.
