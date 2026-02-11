@@ -25,18 +25,19 @@
    - Walk to door.
 
 ## Current State
-- P(8, 1). M(8, 1) [Synced/Overlapped].
-- **Status**: Synced. P and M move as one unit.
-- **Goal**: Navigate to Boss Door (22, 14) without desyncing (hitting walls P hits but M doesn't, impossible if overlapped).
-- **Constraint**: Avoid Warp Trap at (22, 7).
+- P(19, 1). M(19, 1) [Synced/Overlapped].
+- **Status**: Synced. Moving to Door.
+- **Path**: Col 21 -> (22, 13) -> (22, 14).
+- **Reason**: Avoid Warp Trap at (22, 7).
 
-## Navigation Plan
-1. **Move to (22, 2)**:
-   - Go Right to Col 22.
-   - *Wait*, (22, 7) is below.
-2. **Weave to Door**:
-   - Use BFS to find safe path to (22, 13).
-   - Ensure path avoids (22, 7).
+## Execution
+1. **Navigate to (21, 13)**.
+   - Use Col 21 (Safe).
+2. **Approach Door**:
+   - Right to (22, 13).
+   - Down to (22, 14).
+3. **Interact**:
+   - Open Door.
 
 ## Immediate Action
-- Move Right to (19, 1). Then reassess path.
+- BFS to (21, 13).
