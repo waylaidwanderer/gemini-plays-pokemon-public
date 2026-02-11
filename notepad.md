@@ -32,8 +32,8 @@
 - Battling Rocket Executive (Imposter Director).
 - Defeated: Koffing (x2).
 - Opponent: Koffing #3 (Lv 30).
-- Garnet (104/158 HP, Poisoned).
+- Garnet (80/158 HP, Poisoned).
 - Move Menu Logic: Vertical List + Cursor Memory.
-- Current Cursor: Smokescreen (Move 3).
+- Current Cursor: Flame Wheel (Move 4).
 - Target: Flame Wheel (Move 4).
-- Status: Used Smokescreen. Waiting for enemy turn.
+- Status: Attacking with Flame Wheel.
