@@ -18,14 +18,31 @@
 - **Hypothesis**: (22, 16) is a Warp Trap OR Incorrect Door Interaction warps player.
 - **Next Step**: Check (7, 2) for Murkrow. If there, restart.
 
-## Revised Plan (Post-Reset)
-1. **Reset**: Go to (27, 2) (Exit/Re-enter) to ensure clean state. (Done)
-2. **Murkrow**: Verified at (7, 2).
-3. **New Strategy**: "The Statue Shimmy"
-   - **Step 1: Sync X Right**.
-     - Move P to (26, 2). M follows to (25, 2).
-     - Move P to (28, 2) (Wall). M hits wall at (29, 2)? No, map width is 30.
-     - Adjust to get M to Col 26.
-   - **Step 2: Ratchet Y**.
-   - **Step 3: Align Col 22**.
-   - **Step 4: Execute**.
+## Plan: "Statue Shimmy & Crate Flank" (Verified)
+
+1. **Sync X & Top Ratchet**:
+   - Go Right to (28, 2) + Bump Wall -> M at (28, 2).
+   - Go Left to (24, 2) -> M at (24, 2).
+   - Down to (24, 9) -> M hits Statue (24, 1), stays (24, 2).
+     - *State*: P(24, 9), M(24, 2).
+
+2. **Middle Ratchet**:
+   - Up to (24, 2) -> M Down to (24, 9).
+   - Down to (24, 9) -> M Up to (24, 6) (Blocked by Statue 24,5).
+     - *State*: P(24, 9), M(24, 6).
+
+3. **Deep Dive**:
+   - Up to (24, 2) -> M Down to (24, 13).
+     - *State*: P(24, 2), M(24, 13).
+
+4. **Flank & Bottom Ratchet**:
+   - Right to (26, 2) -> M Right to (26, 13).
+   - Down to (26, 9) -> M Up to (26, 12) (Blocked by Obstacle 26,11).
+     - *State*: P(26, 9), M(26, 12).
+   - Up to (26, 6) -> M Down to (26, 15).
+     - *State*: P(26, 6), M(26, 15).
+
+5. **Unlock**:
+   - Left to (22, 6) -> M Left to (22, 15).
+   - Down to (22, 13) -> M blocked by Door (22, 14), stays (22, 15).
+   - Interact.
