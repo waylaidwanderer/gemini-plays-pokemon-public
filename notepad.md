@@ -25,19 +25,33 @@
    - P->(5, 1). M(6, 2)->(6, 1) [Blocked by Statue].
    - **State**: P(5, 1), M(6, 2). (Offsets: X=+1, Y=+1).
 ## Current State
-- P(25, 3). M(25, 3) [Synced].
-- **Observation**: Row 4 is a Wall. "Right Weave" impossible.
-- **Action**: Abort & Reset. Returning to (3, 14).
+- P(21, 2). M(21, 2) [Synced].
+- **Status**: Resetting to (3, 14).
+- **Reason**: Failed Weave. Restarting "Double Shimmy".
 
-## Recovery Path
-1. **Escape Pocket**:
-   - Up to (25, 2).
-   - Left to (21, 2). (Avoid Col 23 Wall).
-2. **Navigate to Stairs**:
-   - BFS to (3, 14).
-3. **Restart Strategy**:
-   - "Double Shimmy" at Left Statue (6, 1).
-   - Validated: P(7, 2)/M(7, 1) spawn state works.
+## The "Double Shimmy" Plan (Confirmed)
+1. **Reset**:
+   - Go to (3, 14) -> B1F -> B2F.
+   - **Start**: P(7, 2), M(7, 1).
+2. **X-Shimmy (Create X+1 Offset)**:
+   - Move Left to (6, 2).
+   - P->(6, 2). M(7, 1) -> (6, 1) [Blocked by Statue].
+   - **State**: P(6, 2), M(7, 1).
+3. **Position for Y-Shimmy**:
+   - Move Down to (6, 3). P(6, 3), M(7, 2).
+   - Move Left to (5, 3). P(5, 3), M(6, 2).
+4. **Y-Shimmy (Create Y+1 Offset)**:
+   - Move Up to (5, 1).
+   - P->(5, 1). M(6, 2) -> (6, 1) [Blocked by Statue].
+   - **State**: P(5, 1), M(6, 2). (Offsets: X=+1, Y=+1).
+5. **Sync X (Right Wall)**:
+   - Move Right to (28, 1).
+   - P->(28, 1). M(29, 2) [Blocked by Wall].
+   - **State**: P(28, 1), M(28, 2). (Synced X, Y+1).
+6. **Deliver**:
+   - Navigate to (22, 13).
+   - M follows to (22, 14).
+   - Interact.
 
 ## Immediate Action
-- Up, then Left.
+- BFS to (3, 14).
