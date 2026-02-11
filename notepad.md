@@ -25,20 +25,19 @@
    - Walk to door.
 
 ## Current State
-- P(4, 2). M(1, 2) [Assumed Pinned].
-- **Mystery**: Murkrow sprite not visible at (1, 2) in screenshot.
-  - Possibility A: Glitch/Flicker.
-  - Possibility B: Mirror Horizontal (M is at 29, 2).
-  - Possibility C: M blocked earlier.
-- **Action**: Move to (25, 2) to check if M appears at (22, 2).
+- P(25, 2). M(7, 2) [Hypothesis: Mirror X].
+- **Observation**: Murkrow NOT at (22, 2) (Disproves Mimic X).
+- **Hypothesis**: Murkrow Mirrors Horizontal.
+  - P(25) -> Left -> P(16).
+  - M(7) -> Right -> M(16).
+  - Meeting point: (16, 2).
 
-## Plan: "Col 25-22 Ratchet"
-1. **Sync Gap=3**: P(4, 2), M(1, 2). [Done]
-2. **Position**: P(25, 2), M(22, 2).
-   - *Check*: Look for M at (22, 2).
-3. **Ratchet**: P(25, 15), M(22, 1).
-4. **Pull**: P(25, 3), M(22, 13).
-5. **Drop**: P(25, 2), M(22, 14).
+## Plan: "Mirror Intercept"
+1. **Navigate to (16, 2)**.
+   - Verify M location.
+2. **If M Found**:
+   - Determine Y-Mirror behavior.
+   - Execute "Col 22 Ratchet" using new logic.
 
 ## Immediate Action
-- Navigate to (25, 2).
+- Move Left to (16, 2).
