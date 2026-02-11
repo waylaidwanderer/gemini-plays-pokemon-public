@@ -25,22 +25,23 @@
    - P->(5, 1). M(6, 2)->(6, 1) [Blocked by Statue].
    - **State**: P(5, 1), M(6, 2). (Offsets: X=+1, Y=+1).
 ## Current State
-- P(15, 2). M(15, 3) [M is Y+1].
-- **Status**: Moving to (25, 2).
-- **Goal**: Reach (25, 2) to start Y-Sync.
+- P(25, 2). M(25, 3).
+- **Status**: Syncing Y-Axis.
 
-## The "Right Side Weave" Plan
-1. **Navigate to (25, 2)**:
-   - Continue Right to (25, 2). (M -> 25, 3).
-2. **Weave to Sync**:
-   - Down to (25, 7). (M -> 25, 8 Wall -> Stays 25, 7). **Syncs Y**.
-   - Right to (26, 7).
-   - Down to (26, 9).
-   - Left to (25, 9).
-   - Down to (25, 13).
-   - Left to (22, 13).
-3. **Open Door**:
-   - P & M at (22, 13). Interact.
+## The Sync & Delivery Plan
+1. **Sync Y (Bottom Wall)**:
+   - Move Down to (25, 7).
+   - P -> (25, 7).
+   - M(25, 3) -> (25, 8) [Blocked by Wall] -> Stops at (25, 7).
+   - **Result**: P(25, 7), M(25, 7). [FULLY SYNCED].
+2. **Navigate to Safe Column**:
+   - Move Up to (25, 2). (M follows).
+   - Move Left to (21, 2). (M follows).
+   - *Reason*: Avoid Wall Divider at Col 23 and Warp Trap at (22, 7).
+3. **Approach Door**:
+   - Down to (21, 13).
+   - Right to (22, 13).
+   - Interact.
 
 ## Immediate Action
-- Right x 10.
+- Move Down to (25, 7). Then Up to (25, 2).
