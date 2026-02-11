@@ -626,5 +626,33 @@
         "action_counter": 36367
       }
     ]
+  },
+  "simulate_ice_slide": {
+    "description": "Simulates an ice slide from the current player position in a given direction until a wall, obstacle, or safe tile is hit. Returns the end coordinates and the path taken.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "direction": {
+          "type": "string",
+          "enum": [
+            "Up",
+            "Down",
+            "Left",
+            "Right"
+          ]
+        }
+      },
+      "required": [
+        "direction"
+      ]
+    },
+    "python_script": "import xml.etree.ElementTree as ET\n\ndef main(input_data, map_xml_string):\n    direction = input_data[\"direction\"]\n    root = ET.fromstring(map_xml_string)\n    \n    # Parse map dimensions\n    map_width = int(root.get(\"width\"))\n    map_height = int(root.get(\"height\"))\n    \n    tiles = {}\n    player_pos = None\n    markers = set()\n    \n    # Parse tiles and objects\n    for row in root.findall(\"Row\"):\n        y = int(row.get(\"id\"))\n        for tile in row.findall(\"Tile\"):\n            x = int(tile.get(\"id\"))\n            t_type = tile.get(\"type\")\n            tiles[(x,y)] = t_type\n            \n            if tile.find(\"Player\") is not None:\n                player_pos = (x, y)\n            \n            if tile.find(\"Marker\") is not None:\n                markers.add((x,y))\n\n    if not player_pos:\n        return {\"error\": \"Player not found\"}\n        \n    dx, dy = 0, 0\n    if direction == \"Up\": dy = -1\n    elif direction == \"Down\": dy = 1\n    elif direction == \"Left\": dx = -1\n    elif direction == \"Right\": dx = 1\n    else: return {\"error\": \"Invalid direction\"}\n    \n    curr_x, curr_y = player_pos\n    path = []\n    \n    # Walkable types: TYPE_11a6 (Ice), TYPE_3fe2 (Safe)\n    # Adjust these based on observation. TYPE_3fe2 is definitely safe floor.\n    \n    while True:\n        next_x, next_y = curr_x + dx, curr_y + dy\n        \n        # Bounds check\n        if not (0 <= next_x < map_width and 0 <= next_y < map_height):\n            reason = \"Map Edge\"\n            break \n            \n        next_type = tiles.get((next_x, next_y), \"unseen\")\n        \n        # Check for obstacles (Markers or Non-Walkable types)\n        if next_type not in [\"TYPE_11a6\", \"TYPE_3fe2\"]:\n            reason = f\"Obstacle ({next_type})\"\n            break \n            \n        if (next_x, next_y) in markers:\n            reason = \"Marker\"\n            break \n            \n        # Move valid\n        curr_x, curr_y = next_x, next_y\n        path.append((curr_x, curr_y))\n        \n        # Check if we stop (Safe Tile)\n        if next_type == \"TYPE_3fe2\":\n            reason = \"Safe Tile\"\n            break \n            \n    return {\n        \"start\": player_pos,\n        \"end\": (curr_x, curr_y),\n        \"path_length\": len(path),\n        \"reason\": reason\n    }\n\nprint(main(input_data, map_xml_string))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-02-11T15:37:59.922Z",
+        "action_counter": 37322
+      }
+    ]
   }
 }
