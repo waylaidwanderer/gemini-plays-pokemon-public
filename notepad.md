@@ -13,17 +13,16 @@
   4. Down to (22, 16).
   5. Right to (26, 16).
 
-## Step 3: Corrected Path & Sync
-- **Execution Plan**:
-  1. **Ratchet M**: Move Up to (24, 12). M moves Down to (23, 16).
-  2. **Align M**: Move Left (Push Wall). M moves Left to (22, 16).
-  3. **Lock M**: Move Down to (24, 16). M tries Up to (22, 15) (Wall), stays at (22, 16).
-  4. **Approach**: Move Left to (22, 16). M moves Left to (20, 16).
-  5. **Finish**: Move Up to (22, 13). Interact.
-- **Action**:
-  - Up.
-  - Left.
-  - Down x4.
-  - Left x2.
-  - Up x3.
-  - A.
+## Puzzle Status: RESET DETECTED
+- **Event**: Warped to (24, 10) after attempting to interact with door/approaching (22, 16).
+- **Hypothesis**: (22, 16) is a Warp Trap OR Incorrect Door Interaction warps player.
+- **Next Step**: Check (7, 2) for Murkrow. If there, restart.
+
+## Revised Plan (Post-Reset)
+1. **Reset**: Go to (27, 2) (Exit/Re-enter) to ensure clean state.
+2. **Murkrow**: Verify at (7, 2).
+3. **New Strategy**: "The Statue Shimmy"
+   - Align Col 26.
+   - Ratchet M to 16 using vertical moves.
+   - Align Col 22.
+   - Shimmy M to 14.
