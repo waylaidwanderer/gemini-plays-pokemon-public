@@ -1,11 +1,13 @@
 # Current Status
 - **Location**: Team Rocket HQ B2F, (22, 14).
-- **Murkrow**: At (22, 13).
+- **Condition**: TRAPPED.
+  - Up: Murkrow (22, 13). Bumping/Interaction yields "Go look for yourself."
+  - Left: Grunt (21, 14). Interaction yields same text?
+  - Right: Locked Boss Door.
+  - Down: Possible Shutter (22, 15).
 - **Escape Plan**:
-  1. Talk to Murkrow (Up+A).
-  2. If no password, Bump Left (into Grunt).
-     - If Murkrow mimics Left -> Moves to (21, 13).
-     - Then P moves Up to (22, 13).
-     - M moves Down to (21, 14).
-     - ESCAPED!
-- **Goal**: Open Boss Door (needs Murkrow at specific spot? Or just Password?).
+  1. Try moving Down (check if shutter is open).
+  2. Try interacting with Grunt (Left+A) to force battle.
+  3. If battle starts -> LOSE (Death Warp).
+  4. If no battle and no exit -> Softlocked? (Unlikely).
+- **Note**: No Dig/Teleport available. Fly unusable.
