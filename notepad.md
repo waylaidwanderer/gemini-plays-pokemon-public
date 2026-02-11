@@ -33,8 +33,7 @@
 - Defeated: Koffing (x4), Weezing.
 - Garnet (83/161 HP, Poisoned).
 - Garnet grew to Lv 50.
-- Status: Dismissing level up stats. Waiting for battle end or next opponent.
+- Status: Advancing text.
 - Move Menu Logic: Vertical List + Cursor Memory.
 - Current Cursor: Flame Wheel (Move 4).
 - Target: Flame Wheel (Move 4).
-- Status: Attacking with Flame Wheel.
