@@ -28,3 +28,4 @@
 - Employee at (11, 2) asks to save Director on 5F.
 - (7, 0) looks like stairs to 4F.
 - Checking East side (Cols 14-17) for items.
+- Fighting Scientist Rich at (0, 2).
