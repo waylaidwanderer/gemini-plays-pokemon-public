@@ -25,17 +25,16 @@
    - Walk to door.
 
 ## Current State
-- P(3, 14) -> Moving to (7, 2).
-- **Goal**: Verify Murkrow spawn at (7, 1) or (19, 1).
+- P(7, 2). M(7, 1) [Confirmed].
+- **Action**: Testing X-Axis behavior.
+- **Test**: Move Right to (8, 2).
+  - If M -> (8, 1): **Mimic X** (Right->Right).
+  - If M -> (7, 1): **Mirror X** (Right->Left, Blocked by Statue at 6, 1).
 
-## Execution Plan
-1. **Navigate**: Go Up to Row 2, then Right to Col 7.
-2. **Verify**: Spot Murkrow at (7, 1).
-3. **Test**:
-   - Move **Right** to (8, 2).
-   - **Mirror X**: M moves Left to (6, 1)? Or Right?
-     - If P(7->8) is Right, Mirror M(7->6) is Left.
-   - **Mimic X**: M moves Right to (8, 1).
+## Next Steps
+1. Execute Right Move.
+2. Observe M.
+3. Plan "Ratchet" strategy based on result.
 
 ## Immediate Action
-- Move to (7, 2).
+- Press Right.
