@@ -33,8 +33,8 @@
 - Defeated: Koffing (x5), Weezing.
 - Garnet (83/161 HP, Poisoned).
 - Battle Won!
-- Status: Obtained Basement Key.
-- Objective: Rescue Director in Underground Warehouse.
+- Status: Text cleared. Moving to stairs.
+- Path: Up to (0,0).
 - Move Menu Logic: Vertical List + Cursor Memory.
 - Current Cursor: Flame Wheel (Move 4).
 - Target: Flame Wheel (Move 4).
