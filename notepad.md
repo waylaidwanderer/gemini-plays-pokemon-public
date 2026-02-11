@@ -4,17 +4,17 @@
 **Goal**: Open Boss Door at (22, 14) from North.
 **Strategy**: Sync X Left, Invert Y on Col 4, Statue Dodge to Resync X Right, Loop North, Ratchet.
 
-## Step 1: Sync X (Left Wall)
-- **Current**: P(27, 2). M(7, 2).
-- **Action**: Left to (1, 2).
-  - *Expect*: Statue Alarm Battle at (6, 2).
-  - *State*: P(1, 2), M(1, 2).
+## Step 1: Sync X (Left Wall) [DONE]
+- P(1, 2), M(1, 1).
 
-## Step 2: Invert Y (Col 4)
+## Step 2: Invert Y (Col 4) [IN PROGRESS]
+- **Current**: P(1, 2).
 - **Action**:
-  - Right to (4, 2). M to (4, 2).
-  - Down to (4, 16). M Up to (4, 1).
-  - *State*: P(4, 16), M(4, 1).
+  - Right to (4, 2). M to (4, 1).
+  - Down to (4, 16).
+    - M blocked at (4, 1) (Top Wall).
+  - *Expect*: Battles on Col 4.
+  - *Target State*: P(4, 16), M(4, 1).
 
 ## Step 3: Statue Dodge
 - **Action**:
