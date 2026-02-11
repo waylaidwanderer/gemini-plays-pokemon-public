@@ -6,15 +6,13 @@
 - **Update**: Sprite tracker said "No sprites moved", but sprite is gone from (14, 12).
 
 ## Current State (Turn 37035)
-- Player: (14, 11)
-- Murkrow: Hypothesized at (14, 14) (Crossed paths?)
-- Status: Interrupted by trainer/grunt.
+- Player: (14, 14)
+- Murkrow: Unknown (Cutscene in progress)
+- Status: Interrupted by Rocket Executive at (14, 13) and Rival at (16, 14).
 
 ## Mechanics Hypothesis
 - **X-Mimicry**: Confirmed.
-- **Y-Mirroring**: Strong evidence. We swapped places on the Y-axis.
-  - P(14, 13) <-> M(14, 12)
-  - Center appears to be Y=12.5?
+- **Y-Mirroring**: Strong evidence.
 
 ## Execution Plan
 1. **Pass Computers (Y=1)**:
