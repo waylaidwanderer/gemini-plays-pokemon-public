@@ -17,3 +17,5 @@
 - Grunt at (11, 2) says 'boss has locked himself in'.
 - Suspect stairs to 4F are at (7, 0) behind shutters at (7, 3)/(8, 3).
 - Exploring East side for items/keys.
+- Confirmed: Director is on 5F.
+- Wall at Col 15 blocks further East. Checking for doors or gaps.
