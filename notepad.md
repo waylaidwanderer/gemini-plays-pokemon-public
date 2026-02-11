@@ -29,5 +29,7 @@
 - (7, 0) looks like stairs to 4F.
 - Checking East side (Cols 14-17) for items.
 - Fighting Scientist Rich (Porygon Lv 30).
-- Porygon took no visible damage from Mud-Slap? (Or Recovered).
-- Plan: Use Flame Wheel.
+- Garnet HP Critical (32/158) + Poison.
+- Used Smokescreen (Porygon Accuracy fell).
+- Plan: Flame Wheel (should be OHKO).
+- Note: Input 'Down, Right' selected Smokescreen last time. Trying 'Right' from assumed Smokescreen position.
