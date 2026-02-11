@@ -25,16 +25,15 @@
    - Walk to door.
 
 ## Current State
-- P(7, 2). M(7, 1) [Confirmed].
-- **Action**: Testing X-Axis behavior.
-- **Test**: Move Right to (8, 2).
-  - If M -> (8, 1): **Mimic X** (Right->Right).
-  - If M -> (7, 1): **Mirror X** (Right->Left, Blocked by Statue at 6, 1).
+- P(8, 2). M(8, 1) [Observed].
+- **Observation**: Moved Right. Murkrow moved Right (7->8).
+- **Conclusion**: **X-Axis is MIMIC** (Right -> Right).
 
-## Next Steps
-1. Execute Right Move.
-2. Observe M.
-3. Plan "Ratchet" strategy based on result.
+## Next Test: Y-Axis Behavior
+- **Action**: Move Down to (8, 3).
+- **Hypothesis A (Mimic Y)**: M moves (8, 1) -> (8, 2).
+- **Hypothesis B (Mirror Y)**: M moves (8, 1) -> (8, 0) [Blocked by Wall].
+  - Note: If Mirror Y, M stays at (8, 1).
 
 ## Immediate Action
-- Press Right.
+- Move Down.
