@@ -1,36 +1,38 @@
 # Team Rocket HQ - Murkrow Puzzle
 
-## STATUS: RECOVERING & EXECUTING STATUE DESYNC
-**Goal**: Open Boss Door at (22, 14).
-**Strategy**: P Top/M Bottom -> Desync X on Statue -> Revert -> Solve.
+## STATUS: EXECUTING "NORTH RATCHET (STATUE DODGE VARIANT)"
+**Goal**: Open Boss Door at (22, 14) from North.
+**Strategy**: Sync X Left, Invert Y on Col 4, Statue Dodge to Resync X Right, Loop North, Ratchet.
 
-## Step 1: Re-enter & Invert Y (Double Lap)
-- **Current**: 3_48 (5, 7). Need to enter 3_49.
-- **Action 1**: Go to (7, 3) and enter.
-- **Action 2**: Left to (4, 2).
-- **Action 3**: Down to (4, 16).
+## Step 1: Sync X (Left Wall)
+- **Current**: P(27, 2). M(7, 2).
+- **Action**: Left to (1, 2).
+  - *Expect*: Statue Alarm Battle at (6, 2).
+  - *State*: P(1, 2), M(1, 2).
+
+## Step 2: Invert Y (Col 4)
+- **Action**:
+  - Right to (4, 2). M to (4, 2).
+  - Down to (4, 16). M Up to (4, 1).
   - *State*: P(4, 16), M(4, 1).
-- **Action 4**: Up to (4, 1).
-  - *State*: P(4, 1), M(4, 16).
 
-## Step 2: Statue Desync (P blocked)
+## Step 3: Statue Dodge
 - **Action**:
-  - Right to (5, 1). M to (5, 16).
-  - Push RIGHT against Statue (6, 1) x18.
-    - P blocked at (5, 1).
-    - M moves Right (5 -> 23).
-  - *State*: P(5, 1), M(23, 16).
+  - Right to (6, 16).
+    - M Right to (5, 1) -> Blocked by Statue (6, 1).
+  - *State*: P(6, 16), M(5, 1).
 
-## Step 3: Revert Y & Block M
+## Step 4: Resync X (Right Wall)
 - **Action**:
-  - Down to (5, 16). M Up to (23, 1).
-  - Right to (22, 16).
-    - M Right (23 -> 23 blocked by Statue 24,1).
-  - *State*: P(22, 16), M(23, 1).
+  - Right to (29, 16).
+    - M Right to (29, 1). Sync restored.
+  - *State*: P(29, 16), M(29, 1).
 
-## Step 4: Ratchet & Solve
+## Step 5: Loop to North & Ratchet
 - **Action**:
-  - Up to (22, 11). M Down to (23, 6).
-  - Push UP (22, 10) x8. M Down to (23, 13).
-  - Down to (22, 12).
-  - Interact Right (M) / Down (Door).
+  - Up to (29, 2). M Down to (29, 16).
+  - Left to (22, 2). M Left to (22, 16).
+  - Down to (22, 11). M Up to (22, 7).
+  - Push UP (22, 10) x6. M Down (7 -> 13).
+  - Down to (22, 12). Collision Squeeze.
+  - Interact Down.
