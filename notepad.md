@@ -33,7 +33,8 @@
 - Defeated: Koffing (x3).
 - Opponent: Weezing (Lv 32) (Incoming).
 - Garnet (80/158 HP, Poisoned).
-- Strategy: Flame Wheel (Special vs Low SpDef). Mud-Slap is physical and weak.
+- Strategy: Flame Wheel (Special vs Low SpDef).
+- Status: Used Flame Wheel on Weezing.
 - Move Menu Logic: Vertical List + Cursor Memory.
 - Current Cursor: Flame Wheel (Move 4).
 - Target: Flame Wheel (Move 4).
