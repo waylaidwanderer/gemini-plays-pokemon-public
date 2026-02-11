@@ -25,13 +25,13 @@
    - Walk to door.
 
 ## Current State
-- P(17, 12).
-- **Goal**: Reset Puzzle & Execute "Row 3 Crossing".
+- P(25, 2). M(?).
+- **Goal**: Exit & Re-enter to Reset Puzzle.
 
 ## The Master Plan ("Row 3 Crossing")
 1. **Reset**:
-   - Warp to (25, 2) via (5, 15).
-   - Exit to Shop (27, 2) & Re-enter.
+   - Warp to (25, 2) via (5, 15). [Done]
+   - Exit to Shop (27, 2) & Re-enter. [Next]
    - **Start State**: P(19, 2), M(19, 2) [After X-Align].
 2. **Align X**:
    - Move P Left to Col 0. M Left to Col 0 (Blocked).
@@ -52,4 +52,4 @@
    - Enter Door.
 
 ## Immediate Action
-- Navigate to Warp (5, 15).
+- Exit to Shop (27, 2).
