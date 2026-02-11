@@ -28,14 +28,8 @@
 - Employee at (11, 2) asks to save Director on 5F.
 - (7, 0) looks like stairs to 4F.
 - Checking East side (Cols 14-17) for items.
-- Location: Radio Tower 3F (Map 3_19).
+- Location: Goldenrod City.
 - Objective: Rescue Director in Underground Warehouse.
 - Immediate Task: Heal at Pokemon Center.
-- Path: Goldenrod City -> Pokemon Center.
-- Next: Enter Underground (entrance North of PokeCenter?).
-- Action: Navigate to (9,0).
-- Path: 4F (0,1) -> (9,1) -> (9,0).
-- Key Item: Basement Key obtained.
-- Move Menu Logic: Vertical List + Cursor Memory.
-- Current Cursor: Flame Wheel (Move 4).
-- Target: Flame Wheel (Move 4).
+- Next Task: Find Underground Entrance (North or South).
+- Key Item: Basement Key (Opens door in Underground).
