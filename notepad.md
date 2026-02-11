@@ -33,9 +33,9 @@
 - Defeated: Koffing (x5), Weezing.
 - Garnet (83/161 HP, Poisoned).
 - Battle Won!
-- Status: Moving to stairs (0,0).
-- Action: Heading to Pokemon Center to heal poison.
-- Path: 5F -> 4F -> 3F -> 2F -> 1F -> Exit.
+- Status: Menu open. Using Full Heal on Garnet.
+- Action: Navigate to Pack -> Full Heal -> Use.
+- Path: 4F (0,0) -> 4F (9,0) [Stairs Down?] -> 3F -> Exit.
 - Key Item: Basement Key obtained.
 - Move Menu Logic: Vertical List + Cursor Memory.
 - Current Cursor: Flame Wheel (Move 4).
