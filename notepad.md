@@ -33,5 +33,5 @@
 - Defeated: Koffing (x2).
 - Opponent: Koffing #3 (Lv 30).
 - Garnet (116/158 HP).
-- Strategy: Use Flame Wheel (Down x3 -> A).
+- Strategy: Use Flame Wheel (Assuming cursor resets to Swift: Down x3 -> A).
 - Goal: Defeat Executive to get Key.
