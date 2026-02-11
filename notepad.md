@@ -25,19 +25,19 @@
    - Walk to door.
 
 ## Current State
-- P(28, 2). M(Missing).
-- **Observation**: M not found on Row 2 after Shop Reset.
-- **Conclusion**: Shop Reset might be insufficient, or M is elsewhere.
-- **Action**: Navigate to (3, 14) Stairs (confirmed to work previously).
+- P(3, 14) in B1F.
+- **Action**: Re-entering B2F via Stairs to force Murkrow Reset.
+- **Expectation**: Murkrow spawns at (7, 1).
 
-## Plan
-1. **Hard Reset**:
-   - Go to (3, 14) -> B1F -> B2F.
-   - This previously spawned M at (7, 1).
-2. **Verify & Solve**:
-   - Locate M at (7, 1).
-   - Test Mirror/Mimic rules carefully.
-   - Execute "Statue Ratchet".
+## Execution Plan
+1. **Re-enter**: Right -> Left -> B2F (3, 14).
+2. **Navigate**: Go Up to Row 2, then Right to Col 7.
+3. **Verify**: Spot Murkrow at (7, 1).
+4. **Test**:
+   - Move **Right** to (8, 2).
+   - **Mirror X**: M moves Left to (6, 1)? Or Right?
+     - If P(7->8) is Right, Mirror M(7->6) is Left.
+   - **Mimic X**: M moves Right to (8, 1).
 
 ## Immediate Action
-- Move to (3, 14).
+- Step Right, then Left.
