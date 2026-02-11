@@ -33,7 +33,8 @@
 - Defeated: Koffing (x5), Weezing.
 - Garnet (83/161 HP, Poisoned).
 - Battle Won!
-- Status: Dialogue. Executive revealing Director is in the Underground Warehouse. Waiting for Basement Key.
+- Status: Obtained Basement Key.
+- Objective: Rescue Director in Underground Warehouse.
 - Move Menu Logic: Vertical List + Cursor Memory.
 - Current Cursor: Flame Wheel (Move 4).
 - Target: Flame Wheel (Move 4).
