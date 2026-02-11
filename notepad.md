@@ -25,17 +25,16 @@
    - Walk to door.
 
 ## Current State
-- P(25, 2). Just warped from (5, 15).
-- **Action**: Exiting to Shop (27, 2) to force a full reset.
-- **Goal**: Re-enter and verify Murkrow spawn at (7, 2).
+- P(7, 3) in Souvenir Shop.
+- **Action**: Re-entering Hideout (B1F) to proceed to B2F.
+- **Reason**: Full reset of Murkrow puzzle.
 
-## Reset Protocol
-1. **Exit**: Go to (27, 2).
-2. **Re-enter**: Go back down stairs.
-3. **Verify**: Check (7, 2) for Murkrow.
-4. **Strategy**:
-   - If M is at (7, 2): Test movement 1 step at a time.
-   - If M is missing: Check other corners or verify if I'm blind.
+## Plan
+1. **Re-enter**: Step Left/Right to Warp to B1F.
+2. **Navigate B1F**: Go to stairs at (7, 3) or wherever the B2F stairs are.
+   - Note: B1F layout needs to be recalled or navigated.
+3. **Enter B2F**: Arrive at B2F.
+4. **Verify Spawn**: Check (7, 2) for Murkrow.
 
 ## Immediate Action
-- Move Right to Exit.
+- Step Left, Right.
