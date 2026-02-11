@@ -27,7 +27,7 @@
 - Checking path via Row 2.
 - Employee at (11, 2) asks to save Director on 5F.
 - (7, 0) looks like stairs to 4F.
-- Navigation Note: On Map 11_2, TYPE_2889 is WALL/OBSTACLE. Do not treat as walkable.
+- Navigation Note: On Map 11_2, TYPE_2889 is ambiguous (Road OR Wall/Sign). Use visual context.
 - Location: Goldenrod City.
 - Objective: Rescue Director in Underground Warehouse.
 - Immediate Task: Heal at Pokemon Center (15, 27).
