@@ -33,10 +33,9 @@
 - Defeated: Koffing (x5), Weezing.
 - Garnet (83/161 HP, Poisoned).
 - Battle Won!
-- Status: Poison cured. Exiting menus.
-- Action: Press B to close Pack.
-- Path: 4F (0,0) -> 4F (9,0) [Stairs Down?] -> 3F -> Exit.
-- Path: 4F (0,0) -> 4F (9,0) [Stairs Down?] -> 3F -> Exit.
+- Status: Moving to check stairs at (9,0).
+- Action: Navigate to (9,0).
+- Path: 4F (0,1) -> (9,1) -> (9,0).
 - Key Item: Basement Key obtained.
 - Move Menu Logic: Vertical List + Cursor Memory.
 - Current Cursor: Flame Wheel (Move 4).
