@@ -29,6 +29,6 @@
 - (7, 0) looks like stairs to 4F.
 - Checking East side (Cols 14-17) for items.
 - Location: Radio Tower 5F (Map 3_21).
-- Face-to-face with Imposter Director (Rocket Executive).
-- He admitted to being an imposter preparing for a takeover.
-- Approaching battle.
+- Battling Rocket Executive (Imposter Director).
+- Garnet (116/158 HP). Mud-Slap 0 PP.
+- Goal: Defeat Executive to get Key.
