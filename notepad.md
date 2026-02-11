@@ -1,11 +1,12 @@
-# Current State (Turn 37126)
+# Current State (Turn 37131)
 - Player: (14, 11) (In Cutscene)
-- Status: Talking to Lance after defeating Electrodes.
-- Goal: Complete the event.
+- Status: Received HM06 (Whirlpool) from Lance.
+- Goal: Exit Team Rocket HQ.
 
 # Progress
-- Electrodes: All Defeated.
-- Signal: Stopped (presumably).
+- Electrodes: Defeated.
+- Signal: Stopped.
+- Reward: HM06 (Whirlpool).
 
 # Progress
 - Electrode 1 (7, 9): Defeated.
