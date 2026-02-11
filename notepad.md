@@ -1,24 +1,12 @@
-# Murkrow Solution: The Blind Ratchet (Mirror Y)
+# Murkrow Solution: Reset & Retry
 
 ## Current Status
-- P(21, 13). M(22, 12) [Likely].
-- Assumption: **Mirror Y** (based on Wiggle Test).
-- Goal: M(22, 14).
+- M is LOST (Not visible in South Section).
+- Resetting via Stairs at (3, 14).
 
-## Execution Plan
-1. **Move Left** to (20, 13).
-   - M tries Left (21, 12) [Wall]. Stays (22, 12).
-   - State: P(20, 13), M(22, 12).
-
-2. **Move Up** to (20, 12).
-   - M moves Down (Mirror) to (22, 13).
-   - State: P(20, 12), M(22, 13).
-
-3. **Move Up** to (20, 11).
-   - M moves Down (Mirror) to (22, 14) [Plate].
-   - **Door Opens**.
-
-## Verification
-- If Door fails to open, check M location.
-- If M at (22, 10) or (22, 11), it was Mimic Y.
-- Reverse and try Down.
+## New Strategy (Post-Reset)
+- **Start**: P(3, 14), M(7, 1).
+- **Plan**: The "Corridor Flank".
+  1. Move P to (20, 14).
+  2. Use Walls/Objects to Ratchet M to correct offset.
+  3. Verify Mimic Y/X on the way.
