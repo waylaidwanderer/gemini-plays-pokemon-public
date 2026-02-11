@@ -5,9 +5,14 @@
 - **Y-Mirroring**: TESTING. Player Down -> Murkrow vanished? (Likely moved off-screen or I'm blind).
 - **Update**: Sprite tracker said "No sprites moved", but sprite is gone from (14, 12).
 
-## Current State (Turn 37026)
+## Current State (Turn 37034)
 - Player: (14, 14)
-- Murkrow: Lost (Last seen 14, 12)
+- Murkrow: UNKNOWN (Suspect Y=1 or Y=11)
+- Action: Moving UP to scan for Murkrow.
+
+## Mechanics Hypothesis
+- **X-Mimicry**: Confirmed.
+- **Y-Mirroring**: Suspected. Center ~7.5? (P14 -> M1)
 
 ## Execution Plan
 1. **Pass Computers (Y=1)**:
