@@ -30,9 +30,9 @@
 - Checking East side (Cols 14-17) for items.
 - Location: Radio Tower 3F (Map 3_19).
 - Objective: Rescue Director in Underground Warehouse.
-- Immediate Task: Navigate to West Stairs (0, 0) via South Loop.
-- Path: (10,4) -> (10,6) -> (0,6) -> (0,0).
-- Reason: Bypassing Scientist at (9,4) and desks at Row 3.
+- Immediate Task: Navigate to West Stairs (0, 0) via Row 5.
+- Path: (10,4) -> (10,5) -> (9,5) -> (0,5) -> (0,0).
+- Reason: Gap available at (9,5).
 - Goal: Descend to 2F.
 - Action: Navigate to (9,0).
 - Path: 4F (0,1) -> (9,1) -> (9,0).
