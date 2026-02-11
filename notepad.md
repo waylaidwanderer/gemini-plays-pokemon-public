@@ -30,9 +30,9 @@
 - Checking East side (Cols 14-17) for items.
 - Location: Radio Tower 3F (Map 3_19).
 - Objective: Rescue Director in Underground Warehouse.
-- Immediate Task: Navigate around obstacles to West Stairs (0, 0).
-- Reason: Blocked at (6,1). Going via Col 9.
-- Path: (6,1) -> (9,1) -> (9,2) -> (9,3) -> West to (0,0).
+- Immediate Task: Navigate to West Stairs (0, 0).
+- Reason: Avoid warping up at (7,0) and collision at (5,1).
+- Path: (9,2) -> (9,1) -> (6,1) -> (6,0) -> (0,0).
 - Goal: Descend to 2F.
 - Action: Navigate to (9,0).
 - Path: 4F (0,1) -> (9,1) -> (9,0).
