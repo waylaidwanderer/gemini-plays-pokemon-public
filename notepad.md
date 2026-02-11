@@ -1,5 +1,5 @@
 # Current State
-- Location: Mahogany Town -> Goldenrod City
+- Location: Goldenrod City
 - Goal: Defeat Team Rocket (Radio Tower).
 
 # Progress
@@ -8,5 +8,5 @@
 - HMs: Cut, Fly, Surf, Strength, Flash, Whirlpool.
 
 # Tasks
-- Fly to Goldenrod City.
+- Go North to Radio Tower.
 - Clear Radio Tower.
