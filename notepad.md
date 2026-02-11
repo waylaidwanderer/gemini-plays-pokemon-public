@@ -1,40 +1,31 @@
 # Team Rocket HQ - Murkrow Puzzle
 
-## STATUS: ENTERING HIDEOUT
+## STATUS: EXECUTING COL 26 STRATEGY
 **Goal**: Open Boss Door at (22, 14) from (22, 13).
-**Current**: In Mahogany Town (2_7). Heading to Shop.
+**Condition**: M must be at (22, 15) when P is at (22, 13).
 
-## Step 1: Enter Shop & Go to B2F
-- **Action**:
-  - Enter Shop at (11, 7).
-  - Take stairs to B1F (3_48).
-  - Navigate to B2F Entrance -> B2F (3_49).
-
-## Step 2: Execute "NORTH APPROACH REDUX"
-- **Strategy**: Sync X Left, Invert Y on Col 1 (Detour), Swap Y, Ratchet M to (22, 12).
+## Step 1: Navigate to Bottom Right
+- **Current**: (3, 2).
 - **Route**:
-  - From (7, 2), Left to (3, 2).
-  - Down to (3, 12) (Avoid Warp 1,4 & Wall 1,5).
-  - Left to (1, 12).
-  - Down to (1, 16).
-  - *Target State*: P(1, 16), M(1, 1).
+  1. Right to (26, 2).
+  2. Down to (26, 9) (Blocked).
+  3. Left to (22, 9).
+  4. Down to (22, 16).
+  5. Right to (26, 16).
 
-## Step 3: Swap Y (P Top, M Bottom)
+## Step 2: Sync X & Setup
 - **Action**:
-  - Up to (1, 1).
-    - P moves to (1, 1).
-    - M moves Down to (1, 16).
-  - *State*: P(1, 1), M(1, 16).
+  - Move Right to (28, 16) (Wall). M Syncs X.
+  - Move Left to (26, 16). State: P(26, 16), M(26, 16).
+  - Move Up to (26, 12). M tries Down (Blocked), stays (26, 16).
+  - State: P(26, 12), M(26, 16).
 
-## Step 4: Traverse & Align
+## Step 3: The Magic Move
 - **Action**:
-  - Right to (22, 1). M Right to (22, 16).
-  - Down to (22, 13). M Up to (22, 4).
-  - *State*: P(22, 13), M(22, 4).
+  - Move Down to (26, 13). M moves Up to (26, 15).
+  - State: P(26, 13), M(26, 15).
 
-## Step 5: Ratchet & Solve
+## Step 4: Unlock
 - **Action**:
-  - Push UP against Door (22, 14) x8.
-    - P blocked. M moves Down (4 -> 12).
-  - *State*: P(22, 13), M(22, 12).
-  - Interact Down.
+  - Left to (22, 13). M follows to (22, 15).
+  - Face Up (Door). Interact.
