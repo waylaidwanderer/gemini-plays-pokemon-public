@@ -1,35 +1,35 @@
 # Team Rocket HQ - Murkrow Puzzle
 
-## STATUS: RESETTING FOR "COL 19 RUSH"
-**Goal**: Open Boss Door at (22, 14).
-**Strategy**: Reset M to (7, 2). Rush down Col 19 (Secret Passage). Ratchet from North.
+## STATUS: EXECUTING "NORTH APPROACH REDUX"
+**Goal**: Open Boss Door at (22, 14) from (22, 13).
+**Strategy**: Sync X Left, Invert Y on Col 1 (Detour), Swap Y, Ratchet M to (22, 12).
 
-## Step 1: Reset (Current)
-- **Current**: P(19, 1) (Warped).
+## Step 1: Sync X & Reach (1, 16)
+- **Current**: 3_48 (7, 3).
 - **Action**:
-  - Down to (19, 2).
-  - Right to (27, 2) (Exit).
-  - Re-enter at (7, 2).
+  - Down to 3_49 (7, 2).
+  - Left to (3, 2).
+  - Down to (3, 12) (Avoid Warp 1,4 & Wall 1,5).
+  - Left to (1, 12).
+  - Down to (1, 16).
+  - *State*: P(1, 16), M(1, 1).
 
-## Step 2: Col 19 Rush
+## Step 2: Swap Y (P Top, M Bottom)
 - **Action**:
-  - Right to (19, 2).
-    - M Right to (19, 2).
-  - Down to (19, 11).
-    - Passes through Secret Passage (19, 8).
-    - P(19, 11). M moves Up (2 -> -7, blocked at 1).
-    - *State*: P(19, 11), M(19, 1).
+  - Up to (1, 1).
+    - P moves to (1, 1).
+    - M moves Down to (1, 16).
+  - *State*: P(1, 1), M(1, 16).
 
-## Step 3: Align & Ratchet
+## Step 3: Traverse & Align
 - **Action**:
-  - Right to (22, 11).
-    - M Right to (22, 1).
-  - Push UP against Wall (22, 10) x13.
-    - P blocked at 11.
-    - M moves Down (1 -> 14).
-  - *State*: P(22, 11), M(22, 14).
+  - Right to (22, 1). M Right to (22, 16).
+  - Down to (22, 13). M Up to (22, 4).
+  - *State*: P(22, 13), M(22, 4).
 
-## Step 4: Solve
+## Step 4: Ratchet & Solve
 - **Action**:
-  - Down to (22, 13).
+  - Push UP against Door (22, 14) x8.
+    - P blocked. M moves Down (4 -> 12).
+  - *State*: P(22, 13), M(22, 12).
   - Interact Down.
