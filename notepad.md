@@ -33,6 +33,5 @@
 - Immediate Task: Heal at Pokemon Center (15, 27).
 - Next: Enter Underground via South Entrance (11, 29).
 - Key Item: Basement Key (Opens door in Underground).
-- Anomaly: Entered building at (15, 27) with 'POKE' sign, but it led to Game Corner (11_20).
-- Checking other buildings for actual Pokemon Center.
-- Suspect: Building at (11, 29)?
+- Anomaly: 'POKE' sign building (15, 27) leads to Game Corner (11_20).
+- Hypothesis: Buildings swapped? Checking (14, 21) for Poke Center.
