@@ -1,15 +1,12 @@
 # Murkrow Puzzle: Sidekick Strategy (Reset Required)
 
 ## Current State
-- P(21, 3). M(21, 3) [Overlapped].
-- **Status**: Aborting Overlap. Resetting for Sidekick.
-- **Reason**: Overlap interactions failed. Need P at Door, M adjacent.
+- P(5, 3). M(5, 3) [Overlapped].
+- **Status**: En route to Reset.
 
 ## Reset Path
 1. **Navigate to Stairs**:
-   - Left to (5, 3).
-   - Down to (5, 14).
-   - Left to (3, 14).
+   - Go to (3, 14). (Avoid 5, 15).
    - Stairs -> B1F -> B2F.
 
 ## Sidekick Execution (Post-Reset)
@@ -23,7 +20,8 @@
    - **State**: P(21, 1), M(20, 1).
 4. **Deliver**:
    - Down to (21, 13). Right to (22, 13).
-   - Interact.
+   - **Result**: P(22, 13), M(21, 13).
+   - **Action**: Face Left (Talk to M) OR Face Down (Talk to Door).
 
 ## Immediate Action
-- Move Left to (5, 3).
+- BFS to (3, 14).
