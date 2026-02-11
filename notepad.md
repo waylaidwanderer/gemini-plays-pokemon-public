@@ -1,5 +1,8 @@
 # Current State
-- Location: Goldenrod City (Radio Tower 4F)
+- 4F is divided by a wall at Col 10. Currently on West side.
+- Goal: Reach East side (stairs to 5F at 12,0).
+- Plan: Explore West side for transfer point.
+- Fighting Grunt at (5, 6).
 - Goal: Defeat Team Rocket (Radio Tower).
 
 # Progress
