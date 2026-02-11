@@ -1,5 +1,5 @@
 # Current State
-- Location: Goldenrod City (Radio Tower 1F)
+- Location: Goldenrod City (Radio Tower 2F)
 - Goal: Defeat Team Rocket (Radio Tower).
 
 # Progress
