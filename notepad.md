@@ -2,18 +2,24 @@
 
 ## STATUS: RESETTING ROOM
 **Goal**: Exit map via (27, 2) to reset Murkrow.
-**Shutter**: Confirmed CLOSED (Wall at 15, 10).
+**Plan**: Execute "Right-Side Jed Ratchet".
 
-## Plan
-1. **Navigate to Exit**:
-   - Left to (9, 9).
-   - Up to (9, 2).
-   - Right to (27, 2).
-2. **Reset**: Exit and Re-enter.
-3. **Execute "Door Ratchet" Strategy**:
-   - **Sync**: Go to (1, 16). P(1, 16), M(1, 1).
-   - **Traverse**: Go Right to (22, 16). P(22, 16), M(22, 1).
-   - **Ratchet**: Push UP against Boss Door.
-     - P blocked at 14 (stays 15).
-     - M moves Down to 13.
-   - **Solve**: P(22, 15), M(22, 13). Interact with Door.
+## Strategy: "Right-Side Jed Ratchet"
+1. **Reset**: Exit (27, 2) and Re-enter. Start P(7, 2).
+2. **Sync X (Right Wall)**:
+   - Move Right to Col 28 (Use Row 3 to avoid Exit).
+   - *State*: P(28, 3), M(28, 3).
+3. **Invert Y (Bottom Wall)**:
+   - P Down to (28, 16). M Up to (28, 1).
+   - *State*: P(28, 16), M(28, 1).
+4. **Position for Ratchet**:
+   - P Up to (28, 3). M Down to (28, 14).
+   - *State*: P(28, 3), M(28, 14).
+5. **Align Col 18**:
+   - Left to (18, 3). M Left to (18, 14).
+6. **The Jed Lock**:
+   - P Down to (18, 15).
+   - M tries Up -> Hits Jed (18, 12). Stuck at (18, 13).
+   - *End State*: P(18, 15), M(18, 13).
+7. **Solve**:
+   - Right to (22, 15). Interact Up.
