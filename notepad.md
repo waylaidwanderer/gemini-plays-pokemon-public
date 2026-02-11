@@ -1,12 +1,12 @@
 # Team Rocket HQ - Murkrow Puzzle
 
-## STATUS: RETURNING TO B2F
+## STATUS: ENTERING HIDEOUT
 **Goal**: Open Boss Door at (22, 14) from (22, 13).
-**Current**: In Shop (2_7). Moving to Stairs (7, 5).
+**Current**: In Shop (2_7). Standing on Stairs (7, 5).
 
 ## Step 1: Re-enter B2F (Map 3_49)
 - **Action**:
-  - Enter Stairs at (7, 5) -> B1F (3_48).
+  - Interact/Move Down to enter B1F (3_48).
   - Navigate to B2F Entrance -> B2F (3_49) at (7, 2).
 
 ## Step 2: Execute "NORTH APPROACH REDUX"
