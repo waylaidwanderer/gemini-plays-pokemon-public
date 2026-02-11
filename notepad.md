@@ -21,8 +21,6 @@
    - P Down to (18, 15).
    - M tries Up -> Hits Jed (18, 12). Stuck at (18, 13).
    - *End State*: P(18, 15), M(18, 13).
-7. **The Door Ratchet (Final Sync)**:
+7. **The Door Ratchet**:
    - Move Right to 22. P(22, 15), M(22, 13).
-   - Move Up (Push Door). P blocked. M Down -> 14.
-   - *Final State*: P(22, 15), M(22, 14).
-8. **Solve**: Interact (A).
+   - Interact Up (Boss Door). Murkrow is adjacent at (22, 13).
