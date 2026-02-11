@@ -25,15 +25,23 @@
    - Walk to door.
 
 ## Current State
-- P(8, 2). M(8, 1) [Observed].
-- **Observation**: Moved Right. Murkrow moved Right (7->8).
-- **Conclusion**: **X-Axis is MIMIC** (Right -> Right).
+- P(8, 3). M(8, 2) [Observed].
+- **Conclusion**: **Murkrow MIMICS X and Y**.
+  - P moved Down, M moved Down.
+- **Goal**: Sync Y-Axis (Overlap) to Offset 0.
 
-## Next Test: Y-Axis Behavior
-- **Action**: Move Down to (8, 3).
-- **Hypothesis A (Mimic Y)**: M moves (8, 1) -> (8, 2).
-- **Hypothesis B (Mirror Y)**: M moves (8, 1) -> (8, 0) [Blocked by Wall].
-  - Note: If Mirror Y, M stays at (8, 1).
+## The Plan (Overlap Strategy)
+1. **Sync Y**:
+   - Move Up to (8, 1).
+   - M moves (8, 2) -> (8, 1) -> (8, 0) [Blocked].
+   - Result: P(8, 1), M(8, 1). **Synced**.
+2. **Navigate to Door**:
+   - Path: Right to Col 21, Down to Row 13, Right to (22, 13).
+   - *Reason*: Avoid Warp Trap at (22, 7) and Walls on Row 14.
+3. **Open Door**:
+   - Move Down to (22, 14).
+   - P and M overlap on Door.
+   - Interact.
 
 ## Immediate Action
-- Move Down.
+- Move Up to (8, 2). Then (8, 1).
