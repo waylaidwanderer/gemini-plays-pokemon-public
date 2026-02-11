@@ -1,22 +1,22 @@
 # Team Rocket HQ - Murkrow Puzzle
 
-## STATUS: EXECUTING "THE MACHINE RATCHET"
-**Goal**: Open Boss Door at (22, 14).
-**Strategy**: Position P at (22, 16), M at (22, 13). Interact with Machine at (22, 15).
+## STATUS: ABORTING SOUTH APPROACH
+**Reason**: Access to Door (22, 14) from South is blocked by Machine (22, 15).
+**New Goal**: Access Door from North (22, 13).
 
-## Step 1: Align on Col 22
-- **Current**: P(25, 15), M(25, 2).
+## Step 1: Return to North Side
+- **Current**: P(22, 16), M(22, 13).
 - **Action**:
-  - Left 2 to (23, 15). M to (23, 2).
-  - Down 1 to (23, 16). M to (23, 1).
-  - Left 1 to (22, 16). M to (22, 1).
-  - *State*: P(22, 16), M(22, 1).
+  - Left to (1, 16).
+  - Up to (1, 2).
+  - *Result*: P at Top Left. M at Bottom Left (approx).
 
-## Step 2: The Ratchet
+## Step 2: Check Shutter & Reset
 - **Action**:
-  - Push UP against Machine (22, 15) x12.
-  - P blocked. M moves Down (1 -> 13).
-  - *State*: P(22, 16), M(22, 13).
+  - Navigate to (15, 10).
+  - If Open: Exit/Re-enter to reset M for "Jed Sandwich" (North Approach).
+  - If Closed: Panic/Re-evaluate Switch.
 
-## Step 3: Solve
-- **Action**: Interact Up (A).
+## Step 3: Execute "Jed Sandwich"
+- **Requirement**: Shutter Open.
+- **Plan**: Standard Jed Ratchet.
