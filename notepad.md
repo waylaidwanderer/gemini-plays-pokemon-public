@@ -29,7 +29,7 @@
 - (7, 0) looks like stairs to 4F.
 - Checking East side (Cols 14-17) for items.
 - Location: Radio Tower 5F (Map 3_21).
-- Found Director at (4, 2).
+- Correction: Director NOT at (4, 2) (Hallucination).
+- Visible: Rocket Grunt/Executive at (3, 6).
 - Visible items: Item Ball at (1, 4).
-- Visible NPCs: Grunt at (3, 6).
-- Goal: Talk to Director to get Key.
+- Goal: Investigate NPC at (3, 6).
