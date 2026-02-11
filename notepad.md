@@ -25,18 +25,19 @@
    - Walk to door.
 
 ## Current State
-- P(1, 2).
-- **Observation**: Murkrow NOT at (1, 2). Mimic X from (7, 2) or (19, 2) is unlikely.
-- **Hypothesis**: Murkrow Mirrors X and is pinned at the Right Wall (29, 2).
+- P(28, 2). M(Missing).
+- **Observation**: M not found on Row 2 after Shop Reset.
+- **Conclusion**: Shop Reset might be insufficient, or M is elsewhere.
+- **Action**: Navigate to (3, 14) Stairs (confirmed to work previously).
 
-## Search Plan
-1. **Move to (29, 2)**: Check the rightmost limit.
-2. **If Found**:
-   - Confirm Mirror X.
-   - Execute "Col 22 Ratchet".
-3. **If Missing**:
-   - Murkrow is not on Row 2 or failed to reset.
-   - Check Row 14.
+## Plan
+1. **Hard Reset**:
+   - Go to (3, 14) -> B1F -> B2F.
+   - This previously spawned M at (7, 1).
+2. **Verify & Solve**:
+   - Locate M at (7, 1).
+   - Test Mirror/Mimic rules carefully.
+   - Execute "Statue Ratchet".
 
 ## Immediate Action
-- Move Right to (29, 2).
+- Move to (3, 14).
