@@ -10,3 +10,4 @@
 # Tasks
 - Go North to Radio Tower.
 - Clear Radio Tower.
+- Defeated Rocket Grunt outside Radio Tower (Turn 37529).
