@@ -36,3 +36,4 @@
 - Hypothesis: Stairs at (0, 0) might lead to 5F or a new part of 3F.
 - Game Mechanic: 4F is split by a wall at Col 10.
 - Markers: Wall Divider at (10, 3).
+- Mistake: Tried to use Revive on live Pokemon. Correcting to Super Potion.
