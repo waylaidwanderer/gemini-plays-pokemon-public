@@ -1,20 +1,22 @@
-# Murkrow Solution: The Flanking Maneuver
+# Murkrow Solution: The Corridor Flank
 
 ## Current State
-- P(22, 16). M(24, 16) [Estimated].
-- Goal: Route M to (22, 14) via Row 13 to avoid Grunt.
+- P(22, 16). M(22, 15) [Estimated].
+- Goal: M(22, 14).
 
 ## Execution Plan
-1. **Reset X & Move to Row 13**:
-   - Move **Left x4** to (18, 16). M -> (20, 16).
-   - Move **Up x3** to (18, 13). M -> (20, 13).
-   - State: P(18, 13), M(20, 13).
+1. **Reset X**:
+   - Move **Left x2** to (20, 16).
+   - M moves to (20, 15).
+   
+2. **Move Up to Row 13**:
+   - Move **Up** to (20, 15). M -> (20, 14).
+   - Move **Up** to (20, 14). M -> (20, 13).
 
-2. **Position M**:
-   - Move **Right x2** to (20, 13). M -> (22, 13).
-   - Move **Down** to (20, 14). M -> (22, 14) [TARGET].
+3. **X-Align (Grunt Bump)**:
+   - Move **Right** (Bump Grunt). P stays (20, 14). M -> (21, 13).
+   - Move **Right** (Bump Grunt). P stays (20, 14). M -> (22, 13).
 
-3. **Verify & Enter**:
-   - Move **Down** to (20, 15). M blocked at (22, 15). Stays.
-   - Move **Down** to (20, 16). M blocked. Stays.
-   - Move **Right** to (23, 16). Check Door.
+4. **Delivery**:
+   - Move **Down** to (20, 15). M -> (22, 14).
+   - **Check Door**.
