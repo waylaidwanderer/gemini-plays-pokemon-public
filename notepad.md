@@ -25,14 +25,13 @@
    - P->(5, 1). M(6, 2)->(6, 1) [Blocked by Statue].
    - **State**: P(5, 1), M(6, 2). (Offsets: X=+1, Y=+1).
 ## Current State
-- P(5, 1). M(5, 2) [M is Y+1].
-- **Status**: Navigation to Right Side Weave.
-- **Goal**: Reach (25, 2).
+- P(15, 2). M(15, 3) [M is Y+1].
+- **Status**: Moving to (25, 2).
+- **Goal**: Reach (25, 2) to start Y-Sync.
 
 ## The "Right Side Weave" Plan
 1. **Navigate to (25, 2)**:
-   - Down to (5, 2). (M -> 5, 3).
-   - Right to (25, 2). (M -> 25, 3).
+   - Continue Right to (25, 2). (M -> 25, 3).
 2. **Weave to Sync**:
    - Down to (25, 7). (M -> 25, 8 Wall -> Stays 25, 7). **Syncs Y**.
    - Right to (26, 7).
@@ -44,4 +43,4 @@
    - P & M at (22, 13). Interact.
 
 ## Immediate Action
-- Down, then Right.
+- Right x 10.
