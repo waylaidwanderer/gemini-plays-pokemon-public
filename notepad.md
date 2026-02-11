@@ -1,35 +1,36 @@
 # Team Rocket HQ - Murkrow Puzzle
 
-## STATUS: EXECUTING "NORTH-SIDE RATCHET"
-**Goal**: Open Boss Door at (22, 14).
-**Door Location**: (22, 14) (Wall). Access from (22, 13).
+## STATUS: EXECUTING "COL 25 RATCHET"
+**Goal**: Place M at (23, 14) (Adjacent to Door) and P at (22, 16).
+**Hypothesis**: Murkrow at (23, 14) counts as "at the door".
 
-## Step 1: Sync X (Right Wall)
-- **Current**: P(6, 15), M(5, 2).
+## Step 1: Navigate to Col 25
+- **Current**: P(6, 15). M(5, 2) (Estimated).
 - **Action**:
-  - Down to (6, 16).
-  - Right to (28, 16) and bump (29, 16).
-  - *Result*: P(28, 16), M(28, 1). X is synced.
+  - Right to (25, 15).
+  - M mimics X: (5, 2) -> (25, 2).
+  - *State*: P(25, 15), M(25, 2).
 
-## Step 2: Navigate to Ratchet Spot (22, 11)
+## Step 2: Ratchet M Down (Col 25)
 - **Action**:
-  - Left to (26, 16).
-  - Up to (26, 12).
-    - *Note*: (26, 11) is Wall.
-    - P(26, 12). M moves Down to (26, 5).
-  - Left to (22, 12).
-    - P(22, 12). M moves Left to (22, 5).
-  - Up to (22, 11).
-    - P(22, 11). M moves Down to (22, 6).
+  - Push UP against Wall (25, 14) x14.
+  - P blocked. M moves Down (2 -> 16).
+  - *State*: P(25, 15), M(25, 16).
 
-## Step 3: Ratchet M to Door
+## Step 3: Re-align & Shift
 - **Action**:
-  - Push UP against Wall (22, 10) x8.
-  - P stays (22, 11).
-  - M moves Down (6 -> 14).
-  - *Result*: P(22, 11), M(22, 14).
+  - Down to (25, 16).
+    - M moves Up to (25, 15).
+  - Left to (22, 16).
+    - P(22, 16).
+    - M(25, 15) -> Left -> (23, 15) (Blocked by Wall 22, 15).
+  - *State*: P(22, 16), M(23, 15).
 
-## Step 4: Solve
+## Step 4: Final Ratchet
 - **Action**:
-  - Down to (22, 13).
-  - Interact Down (Boss Door).
+  - Push DOWN against Wall (22, 17).
+  - M moves Up to (23, 14).
+  - *State*: P(22, 16), M(23, 14).
+
+## Step 5: Solve
+- **Action**: Interact Up.
