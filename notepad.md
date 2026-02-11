@@ -2,12 +2,11 @@
 
 ## Current Status
 - **Location**: (23, 16).
-- **Door**: (23, 14) appears CLOSED.
-- **Murkrow**: MISSING from visible area (19-28, 12-20).
-- **Hypothesis**: Murkrow is desynced, likely West or North.
+- **Door**: (23, 14) CLOSED.
+- **Murkrow**: NOT at (22, 14). NOT visible in (19-28, 12-16).
+- **Hypothesis**: Murkrow is West of Col 19 or North of Row 12.
 
-## Immediate Plan
-1. **Search**: Move Left to (18, 16) to scan the western area.
-2. **Locate**: Find the Murkrow.
-3. **Analyze**: Once found, test movement (1 tile at a time) to confirm Mimic X / Mimic Y (or Mirror Y).
-4. **Execute**: Plan a new ratchet path based on confirmed position.
+## Search Plan
+1. **Sweep West**: Move Left to (18, 16) to scan the area (3, 12) to (18, 16).
+2. **Sweep North**: If not found, move Up.
+3. **Re-Sync**: Once found, use a corner to re-establish known offsets.
