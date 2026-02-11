@@ -1,31 +1,33 @@
 # Team Rocket HQ - Murkrow Puzzle
 
-## STATUS: EXECUTING "STATUE DESYNC TRAVERSE"
+## STATUS: EXECUTING "ROW 12 TRAVERSE"
 **Goal**: Open Boss Door at (22, 14).
-**Strategy**: Use Statue (6,1) to block P, allowing M to pass Warp (5,15) on Row 16. Then Sync X on Right Wall.
+**Strategy**: Traverse Row 12 to bypass Machine/Statues, then Ratchet on Col 22.
 
-## Step 1: Statue Desync (Current)
-- **Current**: P(4, 1), M(4, 16).
+## Step 1: Reach (1, 16) & Invert Y [IN PROGRESS]
 - **Action**:
-  - Right 1 to (5, 1). M to (5, 16).
-  - Push Right (into Statue 6,1) x3.
-    - P blocked.
-    - M moves Right: (5, 16) -> (6, 16) -> (7, 16) -> (8, 16).
-  - *State*: P(5, 1), M(8, 16). (M passed Warp).
+  - Left to (3, 1). Down to (3, 6). Left to (1, 6). Down to (1, 16).
+  - *Avoids*: Warp (1, 4), Wall (1, 5).
+  - *Result*: P(1, 16), M(1, 1).
 
-## Step 2: Traverse
+## Step 2: Position for Row 12
 - **Action**:
-  - Down to (5, 2). M Up to (8, 15).
-  - Right to (7, 2). M Right to (10, 15).
-  - Up to (7, 1). M Down to (10, 16).
-  - Right to (29, 1).
-    - P -> (29, 1).
-    - M -> (29, 16). (Both hit wall).
-  - *State*: P(29, 1), M(29, 16).
+  - Up to (1, 12). M Down to (1, 5).
+  - *State*: P(1, 12), M(1, 5).
 
-## Step 3: Align & Ratchet
+## Step 3: Traverse & Dodge Jed
 - **Action**:
-  - Left 7 to (22, 1). M Left to (22, 16).
-  - Down to (22, 11). M Up to (22, 6).
-  - Push UP (22, 10). M Down to (22, 13).
-  - Interact.
+  - Right to (17, 12). M Right to (17, 5).
+  - Down to (17, 13). M Up to (17, 4).
+  - Right to (19, 13). M Right to (19, 4).
+  - Up to (19, 12). M Down to (19, 5).
+  - Right to (22, 12). M Right to (22, 5).
+  - *State*: P(22, 12), M(22, 5).
+
+## Step 4: Ratchet & Solve
+- **Action**:
+  - Push UP (22, 11) -> (22, 10 Wall) x7.
+    - P at (22, 11). M moves Down (5 -> 6 -> ... -> 13).
+  - *State*: P(22, 11), M(22, 13).
+  - Down 1 to (22, 12). M blocked/pushed.
+  - Interact Down.
