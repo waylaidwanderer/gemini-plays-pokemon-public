@@ -1,30 +1,31 @@
 # Team Rocket HQ - Murkrow Puzzle
 
-## STATUS: EXECUTING "NORTH APPROACH"
-**Goal**: Open Boss Door at (22, 14) from (22, 13).
-**Strategy**: Swap Y (P Top, M Bottom), Traverse, Ratchet M to (22, 12).
+## STATUS: RESETTING & RE-ENTERING
+**Goal**: Re-enter Map 3_49 to reset Murkrow to (7, 2).
+**Current**: Map 3_48 (7, 3). Moving to re-enter.
 
-## Step 1: Reach (1, 16) [DONE]
-- P(1, 16), M(1, 1).
-
-## Step 2: Swap Y (P Top, M Bottom) [IN PROGRESS]
-- **Problem**: Wall at (1, 5) and Grunt at (2, 4) block direct vertical swap.
-- **Action**: Detour via Col 3 (Bottom-Up).
-  - P(1, 16) -> Right to (3, 16). M(1, 1) -> Right to (3, 1).
-  - Up to (3, 3). M Down to (3, 14).
-  - Left to (1, 3). M Left to (1, 14).
-  - Up to (1, 1). M Down to (1, 16).
-  - *State*: P(1, 1), M(1, 16).
-
-## Step 3: Traverse & Align
-- **Action**:
-  - Right to (22, 1). M Right to (22, 16).
-  - Down to (22, 13). M Up to (22, 4).
-  - *State*: P(22, 13), M(22, 4).
-
-## Step 4: Ratchet & Solve
-- **Action**:
-  - Push UP against Door (22, 14) x8.
-    - P blocked. M moves Down (4 -> 12).
-  - *State*: P(22, 13), M(22, 12).
-  - Interact Down (Door).
+## Plan: "North Approach (Col 3 Variant)"
+1. **Sync X (Col 3)**:
+   - Start at (7, 2).
+   - Left 4 to (3, 2).
+   - *State*: P(3, 2), M(3, 2).
+2. **Invert Y (Col 3)**:
+   - Down to (3, 16).
+   - *Note*: Avoids wall at (1, 5) and warp at (1, 4)?
+   - *State*: P(3, 16), M(3, 1).
+3. **Sync X (Col 1)**:
+   - Left to (1, 16).
+   - *State*: P(1, 16), M(1, 1).
+4. **Swap Y**:
+   - Up to (1, 1).
+   - *State*: P(1, 1), M(1, 16).
+5. **Traverse & Align**:
+   - Right to (22, 1). M Right to (22, 16).
+   - Down to (22, 13). M Up to (22, 4).
+   - *State*: P(22, 13), M(22, 4).
+6. **Ratchet**:
+   - Push UP against Door/Wall (22, 14) x9.
+   - M moves Down (4 -> 13).
+   - *State*: P(22, 13), M(22, 13).
+7. **Solve**:
+   - Collision Squeeze or Interact.
