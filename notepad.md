@@ -1,40 +1,40 @@
-# Team Rocket HQ - Murkrow Puzzle (Solution Found)
+# Team Rocket HQ - Murkrow Puzzle (REVISED SOLUTION)
 
-## STATUS: RESETTING FOR SOLUTION
+## STATUS: RESETTING
 **Goal**: Open Boss Door at (22, 14).
-**Requires**: Murkrow ON the door tile (22, 14) while P interacts from (22, 13).
-**Current State**: Synced (Failed). Must Reset.
+**Method**: "Double Shimmy" at Statue (6, 1).
 
-## The "Statue Shimmy" Solution
+## The Logic
+- Statue at (6, 1) is CONFIRMED solid.
+- We will use it to desync BOTH X and Y axes.
+
+## Step-by-Step Plan
 1. **Reset**:
    - Go to (3, 14) -> B1F -> B2F.
-   - **Start State**: P(7, 2), M(7, 1). (X synced, Y offset -1).
-2. **Create X Offset (P Left of M)**:
+   - Navigate to (7, 2).
+   - **Target State**: P(7, 2), M(7, 1).
+2. **X-Shimmy (Create X+1 Offset)**:
    - Move Left to (6, 2).
-   - P -> (6, 2). M -> (6, 1) (Blocked by Statue).
-   - **State**: P(6, 2), M(7, 1). (X_M = X_P + 1).
-3. **Align for Y Shimmy**:
-   - Move Right to (23, 2).
-   - **State**: P(23, 2), M(24, 1).
-4. **Sync Y (Top Wall)**:
-   - Move Up to (23, 1). P(23, 1). M(24, 0) Blocked.
-   - **State**: P(23, 1), M(24, 1).
-5. **Position for Shimmy**:
-   - Move Down to (23, 2).
-   - **State**: P(23, 2), M(24, 2).
-6. **Execute Y Shimmy (Create M South Offset)**:
-   - Move Up to (23, 1).
-   - P -> (23, 1). M -> (24, 1) (Blocked by Statue).
-   - **State**: P(23, 1), M(24, 2). (Y_M = Y_P + 1).
-7. **Remove X Offset**:
+   - P->(6, 2). M->(6, 1) [Blocked].
+   - **State**: P(6, 2), M(7, 1).
+3. **Position for Y-Shimmy**:
+   - Move Down to (6, 3). P(6, 3), M(7, 2).
+   - Move Left to (5, 3). P(5, 3), M(6, 2).
+4. **Y-Shimmy (Create Y+1 Offset)**:
+   - Move Up to (5, 1).
+   - P->(5, 1). M->(6, 1) [Blocked].
+   - **State**: P(5, 1), M(6, 2).
+   - **Offsets**: X=+1, Y=+1.
+5. **Sync X (Right Wall)**:
    - Move Right to (28, 1).
-   - P -> (28, 1). M -> (29, 2) (Blocked by Wall).
-   - **State**: P(28, 1), M(28, 2). (X Synced, Y Offset +1).
-8. **Deliver**:
+   - P->(28, 1). M->(29, 2) [Blocked by Wall].
+   - **State**: P(28, 1), M(28, 2).
+   - **Offsets**: X=0, Y=+1.
+6. **Deliver**:
    - Move Left to (22, 1).
    - Move Down to (22, 13).
-   - **State**: P(22, 13), M(22, 14).
    - Interact.
 
 ## Immediate Action
-- Navigate to (3, 14) to Reset.
+- Move Left to (21, 13) to clear door.
+- BFS to (3, 14).
