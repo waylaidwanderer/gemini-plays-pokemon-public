@@ -11,7 +11,9 @@
 - Find stairs to 4F (likely East).
 - Shutter at (3,3)/(4,3) likely requires Card Key.
 - Battle Grunts on 3F.
-- URGENT: Heal Garnet! (HP 68/158, Poisoned). Executing Full Heal.
-- Defeated Rocket Grunt (Weezing/Selfdestruct) at (5, 2).
+- Garnet healed (Poison cured, HP 68/158).
+- Defeated Rocket Grunt (Weezing/Selfdestruct) at (6, 2).
+- Defeated Scientist at (5, 1).
+- Path: Navigate around the defeated Grunt (South then East).
 - Battle Menu is Vertical List: Swift, Mud-Slap, Smokescreen, Flame Wheel.
 - Down navigates down. Right may be unreliable or ignored.
