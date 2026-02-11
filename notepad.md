@@ -1,24 +1,18 @@
-# Murkrow Solution: The Silver Lining
+# Murkrow Solution: The Wall Bump Test
 
 ## Current Status
-- P(22, 13).
-- Murkrow at (22, 12) [Verified].
-- Rival (Silver) at (21, 13) [Verified].
-- Grunt at (21, 14).
-- Wall at (23, 13) and (22, 15).
+- P(21, 13). M(22, 12) [On Wall].
+- Goal: Move M to (22, 14).
 
-## Problem
-- Silver blocks (21, 13), preventing M from using that tile for Y-Sync.
-- Grunt blocks (21, 14).
-- To align P(23, 14) and M(22, 14), we need clear pathing.
+## Hypothesis
+- **Mirror Y**: Pressing Up (Bump Wall) sends M Down.
+- **Mimic Y**: Pressing Down (Move) sends M Down.
 
-## Plan
-1. **Interact with Silver**:
-   - Press **Left** (Face Rival).
-   - Press **A**.
-   - **Expectation**: Battle or Cutscene where he leaves.
-2. **Post-Interaction**:
-   - If (21, 13) clears, execute **Left Shift Y-Sync**.
-   - Move Left to (21, 13).
-   - Bump Grunt (Down).
-   - Align X/Y.
+## Execution Plan
+1. **Test Mirror Y (Bump Up)**:
+   - Press **Up** (Bump Wall 21, 12).
+   - If M moves to (22, 13): **Mirror Y Confirmed**.
+     - Press **Up** again -> M moves to (22, 14). **SOLVED**.
+   - If M moves to (22, 11) or stays: **Mimic Y Likely**.
+     - Move **Left** to (20, 13).
+     - Move **Down** to (20, 15) to drag M Down.
