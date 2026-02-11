@@ -25,25 +25,24 @@
    - P->(5, 1). M(6, 2)->(6, 1) [Blocked by Statue].
    - **State**: P(5, 1), M(6, 2). (Offsets: X=+1, Y=+1).
 ## Current State
-- P(7, 2). M(7, 1).
-- **Status**: Executing "Double Shimmy" - Step 2.
+- P(6, 2). M(Unknown, calculated 6,1 or 18,1).
+- **Action**: Positioning for Y-Shimmy (or Y-Sync).
 
 ## Step-by-Step Execution
-1. **Reset**: [Done].
-2. **X-Shimmy (Create X+1 Offset)**:
-   - **Action**: Move Left to (6, 2).
-   - **Expected**: P->(6, 2). M(7, 1)->(6, 1) [Blocked]. M stays (7, 1).
-   - **Result State**: P(6, 2), M(7, 1).
 3. **Position for Y-Shimmy**:
-   - Move Down to (6, 3).
-   - Move Left to (5, 3).
+   - **Action**: Move Down to (6, 3).
+   - **Expected**: P(6, 3). M moves Down (to Row 2).
+   - **Action**: Move Left to (5, 3).
+   - **Expected**: P(5, 3). M moves Left.
 4. **Y-Shimmy (Create Y+1 Offset)**:
-   - Move Up to (5, 1).
-   - M blocked at (6, 1) again.
+   - **Action**: Move Up to (5, 1).
+   - **Expected**:
+     - If M was at (7, 1): Hits Statue (6, 1). Ends at Y=2. (Offset +1).
+     - If M was at (19, 1): Hits Wall (Row 0). Ends at Y=1. (Synced).
 5. **Sync X**:
    - Move Right to Right Wall.
 6. **Deliver**:
    - Navigate to Door.
 
 ## Immediate Action
-- Move Left to (6, 2).
+- Move Down, then Left.
