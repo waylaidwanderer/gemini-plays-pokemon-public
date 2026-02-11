@@ -30,11 +30,9 @@
 - Checking East side (Cols 14-17) for items.
 - Location: Radio Tower 5F (Map 3_21).
 - Battling Rocket Executive (Imposter Director).
-- Defeated: Koffing (x4), Weezing.
-- Opponent: Koffing #5 (Lv 30).
+- Defeated: Koffing (x5), Weezing.
 - Garnet (83/161 HP, Poisoned).
-- Status: Attacking with Flame Wheel.
-- Remaining Opponents: 1 (this one).
+- Status: Battle won. Advancing victory text.
 - Move Menu Logic: Vertical List + Cursor Memory.
 - Current Cursor: Flame Wheel (Move 4).
 - Target: Flame Wheel (Move 4).
