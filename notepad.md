@@ -8,5 +8,4 @@
 - HMs: Cut, Fly, Surf, Strength, Flash, Whirlpool.
 
 # Tasks
-- Teach Whirlpool to Psyduck.
-- Heal team.
+- Challenge Pryce.
