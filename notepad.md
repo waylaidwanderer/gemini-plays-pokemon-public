@@ -1,34 +1,35 @@
-# Murkrow Puzzle: Refined Col 25 Shimmy
+# Murkrow Puzzle: Jed's Ratchet & Flank Strategy
 
-## Phase 1: Setup
-1. **Reset**: P(3, 14), M(7, 1).
-2. **Right Shift**:
-   - Move Right to P(25, 14).
-   - M blocked at (23, 1) [Statue].
-   - State: P(25, 14), M(23, 1).
+## Phase 1: Reset & Setup
+1. **Reset**:
+   - Go to P(3, 14). M resets to (7, 1).
+2. **Jed Positioning**:
+   - Move Right to P(14, 14). M(18, 1).
+   - Move Up to P(14, 3). M(18, 11) [Hits Jed].
+   - Move Right to P(15, 3). M(19, 11).
+   - Move Up to P(15, 1). M(19, 13).
+   - Move Left to P(14, 1). M(18, 13) [Below Jed].
 
-## Phase 2: Vertical Shimmy (Col 21)
-3. **Upward**:
-   - Move Up to P(25, 1).
-   - M blocked at (23, 9) [Wall].
-   - State: P(25, 1), M(23, 8).
-4. **Left & Dip**:
-   - Move Left to P(21, 1). M(19, 8).
-   - Move Down to P(21, 14).
-   - M blocked at (19, 4) [Computer] or (19, 0).
-   - State: P(21, 14), M(19, 5) [approx].
-5. **Ratchet Up**:
-   - Move Up to P(21, 1).
-   - M Down to (19, 13) [Blocked by Wall 14].
-   - State: P(21, 1), M(19, 13).
+## Phase 2: Vertical Ratchet
+3. **Lock Y=13**:
+   - Move Down to P(14, 14).
+   - M tries Up (13->1). Blocked by Jed at 12.
+   - Result: P(14, 14), M(18, 13).
+4. **Target Y**:
+   - Move Up to P(14, 13). M(18, 14).
 
-## Phase 3: Final Alignment (Col 25)
-6. **Right Hook**:
-   - Move Right to P(25, 1). M(23, 13).
-   - Move Down to P(25, 3).
-   - M blocked at (23, 11) [Wall].
-   - State: P(25, 3), M(23, 12).
-7. **Delivery**:
-   - Move Up to P(25, 2). M(23, 13).
-   - Move Left to P(24, 2). M(22, 13).
-   - Move Up to P(24, 1). M(22, 14).
+## Phase 3: The Flank & Sync
+5. **East Flank**:
+   - Move Up to P(14, 12). M(18, 15).
+   - Move Right to P(25, 12). M(29, 15).
+   - Move Down to P(25, 13). M(29, 14).
+6. **X-Sync (Right Wall)**:
+   - Move Right to P(28, 13) [Adjust as needed].
+   - M hits Wall 29 at (29, 14).
+   - Align P and M to same X.
+   - State: P(28, 13), M(28, 14).
+
+## Phase 4: Delivery
+7. **Final Approach**:
+   - Move Left to P(22, 13). M(22, 14).
+   - Interact.
