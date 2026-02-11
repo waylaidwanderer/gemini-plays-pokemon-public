@@ -1,21 +1,20 @@
-# Murkrow Solution: The Desk Ratchet (Mimic Y Confirmed)
+# Murkrow Solution: The Corridor Bump
 
 ## Current State
-- P(20, 15). M(21, 13).
-- Goal: M(22, 14).
+- P(20, 16) [Verified].
+- M likely at (21, 13).
 
 ## Execution Plan
-1. **X-Align (Wall Bump)**:
-   - Input: **Right**.
-   - P stays (20, 15) [Blocked].
+1. **X-Align**:
+   - Move **Right** to (21, 16).
    - M (Mimic X) moves to (22, 13).
+   - State: P(21, 16), M(22, 13).
 
-2. **Y-Align (Mimic Y)**:
-   - Input: **Down**.
-   - P moves to (20, 16).
-   - M (Mimic Y) moves to (22, 14).
+2. **Y-Align (Wall Bump)**:
+   - Move **Down** (Bump Wall at 21, 17).
+   - P stays (21, 16).
+   - M (Mimic Y) moves Down to (22, 14).
+   - **Target Reached?**
 
-3. **Verification**:
-   - M should be at (22, 14).
-   - Check if Door (23, 14) opens.
-   - If not, navigate to Door without moving M (using walls).
+3. **Observation**:
+   - Check if Boss Door at (23, 14) opens.
