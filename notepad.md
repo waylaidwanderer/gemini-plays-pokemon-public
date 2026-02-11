@@ -1,6 +1,6 @@
 # Current State (Turn 37114)
-- Player: (8, 7) -> Moving to (8, 5)
-- Status: Defeated Electrode #2. Targeting #3.
+- Player: (8, 7) -> Moving to (7, 6) to interact with (7, 5)
+- Status: Defeated Electrode #2. Targeting #3 (Last one).
 - Goal: Defeat 3 Electrodes (2/3 Defeated).
 
 # Progress
