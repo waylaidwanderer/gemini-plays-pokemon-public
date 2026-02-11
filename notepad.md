@@ -25,19 +25,18 @@
    - Walk to door.
 
 ## Current State
-- P(17, 2).
-- **Observation**: Murkrow NOT at (17, 2).
-- **Inference**: "Mirror X" from (7, 2) is false (or start pos is diff).
-- **Hypothesis**: Murkrow Mimics X (Left->Left) and is pinned at (1, 2).
+- P(1, 2).
+- **Observation**: Murkrow NOT at (1, 2). Mimic X from (7, 2) or (19, 2) is unlikely.
+- **Hypothesis**: Murkrow Mirrors X and is pinned at the Right Wall (29, 2).
 
 ## Search Plan
-1. **Move to (1, 2)**: Check if M is pinned against Left Wall.
+1. **Move to (29, 2)**: Check the rightmost limit.
 2. **If Found**:
-   - Confirm Mimic X.
-   - Plan Ratchet.
+   - Confirm Mirror X.
+   - Execute "Col 22 Ratchet".
 3. **If Missing**:
-   - M is not on Row 2 (or invisible).
-   - Re-evaluate Start Position.
+   - Murkrow is not on Row 2 or failed to reset.
+   - Check Row 14.
 
 ## Immediate Action
-- Move Left to (1, 2).
+- Move Right to (29, 2).
