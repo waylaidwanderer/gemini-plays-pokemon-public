@@ -1,33 +1,38 @@
 # Team Rocket HQ - Murkrow Puzzle
 
-## STATUS: EXECUTING "ROW 12 TRAVERSE"
+## STATUS: EXECUTING "WARP SHORTCUT & RIGHT RESYNC"
 **Goal**: Open Boss Door at (22, 14).
-**Strategy**: Traverse Row 12 to bypass Machine/Statues, then Ratchet on Col 22.
+**Strategy**: Use Warp (5, 15) to reach (25, 2), then Execute Right Wall Resync.
 
-## Step 1: Reach (1, 16) & Invert Y [IN PROGRESS]
-- **Action**:
-  - Left to (3, 1). Down to (3, 6). Left to (1, 6). Down to (1, 16).
-  - *Avoids*: Warp (1, 4), Wall (1, 5).
-  - *Result*: P(1, 16), M(1, 1).
+## Step 1: Take Warp (5, 15)
+- **Current**: P(5, 13).
+- **Action**: Down 2 to (5, 15).
+  - *Result*: Warps to (25, 2).
+  - *Assumption*: Murkrow follows or can be resynced.
 
-## Step 2: Position for Row 12
+## Step 2: Sync X (Right Wall)
 - **Action**:
-  - Up to (1, 12). M Down to (1, 5).
-  - *State*: P(1, 12), M(1, 5).
+  - Right to (28, 2).
+    - P(28, 2).
+    - M moves Right. Syncs at 28.
+  - *State*: P(28, 2), M(28, 2).
 
-## Step 3: Traverse & Dodge Jed
+## Step 3: Invert & Offset
 - **Action**:
-  - Right to (17, 12). M Right to (17, 5).
-  - Down to (17, 13). M Up to (17, 4).
-  - Right to (19, 13). M Right to (19, 4).
-  - Up to (19, 12). M Down to (19, 5).
-  - Right to (22, 12). M Right to (22, 5).
-  - *State*: P(22, 12), M(22, 5).
+  - Down to (28, 16). M Up to (28, 1).
+  - Left to (22, 16).
+    - M Left to (25, 1) (Blocked by Statue 24,1).
+  - *State*: P(22, 16), M(25, 1).
 
-## Step 4: Ratchet & Solve
+## Step 4: Ratchet & Resync
 - **Action**:
-  - Push UP (22, 11) -> (22, 10 Wall) x7.
-    - P at (22, 11). M moves Down (5 -> 6 -> ... -> 13).
-  - *State*: P(22, 11), M(22, 13).
-  - Down 1 to (22, 12). M blocked/pushed.
+  - Up to (22, 11). M Down to (25, 6).
+  - Push UP (22, 10) x10. M Down (6 -> 14).
+  - Right to (28, 11). M Right to (28, 14) (Blocked by Wall).
+  - *State*: P(28, 11), M(28, 14).
+
+## Step 5: Solve
+- **Action**:
+  - Left to (22, 11). M Left to (22, 14).
+  - Down to (22, 12). M Up to (22, 13).
   - Interact Down.
