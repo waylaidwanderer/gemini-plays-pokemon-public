@@ -4,21 +4,13 @@
 **Goal**: Open Boss Door at (22, 14).
 **Strategy**: Traverse Col 4 to invert Y, Dodge Warp at (5, 15), Sync X Right, Ratchet.
 
-## Step 1: Reach (4, 16) [IN PROGRESS]
-- **Current**: P(22, 3).
-- **Action**:
-  - Left 18 to (4, 3).
-  - Down 13 to (4, 16).
-  - *Expect*: Battles on Col 4 (Rows 9, 11, 12, 13).
-  - *Target*: P(4, 16), M(4, 1).
-
-## Step 2: Statue Dodge
+## Step 2: Statue Dodge [COMPLETED]
 - **Action**:
   - Right 2 to (6, 16). (M stuck at 5, 1).
   - Up 1 to (6, 15). (M at 5, 2).
   - *State*: P(6, 15), M(5, 2).
 
-## Step 3: Resync X
+## Step 3: Resync X [IN PROGRESS]
 - **Action**:
   - Right to (29, 15).
   - *State*: P(29, 15), M(29, 2).
