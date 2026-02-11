@@ -31,7 +31,7 @@
 - Location: Goldenrod City.
 - Objective: Rescue Director in Underground Warehouse.
 - Immediate Task: Heal at Pokemon Center (15, 27).
-- Status: Interrupted by phone call (Irwin). Clearing text.
+- Status: Finishing phone call (Irwin).
 - Path: South to Row 27 -> East to Center.
 - Next: Enter Underground via South Entrance (11, 29).
 - Key Item: Basement Key (Opens door in Underground).
