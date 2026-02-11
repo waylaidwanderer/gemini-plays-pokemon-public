@@ -32,6 +32,6 @@
 - Objective: Rescue Director in Underground Warehouse.
 - Immediate Task: Heal at Pokemon Center (15, 27).
 - Path: South to Row 27 -> East to Center.
-- Current Pos: Approaching Row 24.
+- Current Pos: Approaching Row 27.
 - Next: Enter Underground via South Entrance (11, 29).
 - Key Item: Basement Key (Opens door in Underground).
