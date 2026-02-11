@@ -1,19 +1,19 @@
-# Murkrow Solution: The Plate Press
+# Murkrow Solution: Escape & Re-Evaluate
 
 ## Current Status
-- P(20, 15). M(22, 13) [Visual Confirmation].
-- Logic: **Mimic X, Mirror Y**.
-- Evidence: P Down (20, 14->15) caused M to try Up (22, 13->12). Blocked by Wall 12. M stayed at 13.
+- P(22, 14) [Trapped]. M(22, 13). Grunt(21, 14).
+- Door(23, 14) Locked.
+- Plate Strategy: Unknown/Failed.
 
-## Execution
-1. **Press Plate**:
-   - Move **Up** to (20, 14).
-   - P moves Up (Y-1).
-   - M moves Down (Y+1) to (22, 14) [Plate].
-   - **Check Door**.
+## Immediate Plan
+1. **Escape Trap**:
+   - Move **Left** (Bump Grunt). M Mimics X -> (21, 13).
+   - Move **Up** to (22, 13). M Mirror Y -> (21, 14) [Blocked]. M stays (21, 13).
+   - Result: P(22, 13), M(21, 13). **Free**.
 
-2. **Next Steps (Contingent)**:
-   - If Door Opens:
-     - Try **Right** (Bump Grunt). P stays (20, 14). M moves Right to (23, 14) [Into Door?].
-     - If M enters/blocks door, can I walk there?
-     - Or do I need to freeze M?
+2. **Next Steps**:
+   - Move to safe area (e.g., Row 13 Corridor).
+   - Determine how to open door.
+     - Does M need to be on plate (22, 14)?
+     - Does M need to face door?
+     - Do I need to Interact with M near door?
