@@ -13,14 +13,17 @@
   4. Down to (22, 16).
   5. Right to (26, 16).
 
-## Step 3: The Magic Move (Confirmed)
-- **Current State**: P(26, 12), M(26, 16).
+## Step 3: Corrected Path & Sync
+- **Current Issue**: Blocked by wall at (23, 13). Need to flank.
+- **Plan**:
+  1. **Sync X**: Move Right to Wall (29, 13) to ensure P and M are aligned on X axis.
+  2. **Flank**: Move Left to (26, 13), Up to (26, 12).
+  3. **Approach**: Move Left to (22, 12), Down to (22, 13).
+  4. **Result**: P(22, 13), M(22, 16) (M blocked by wall 22,15).
 - **Action**:
-  - Move Down to (26, 13). M moves Up to (26, 15).
-  - *State*: P(26, 13), M(26, 15).
-  - Move Left to (22, 13). M moves Left to (23, 15) (Stopped by wall at 22).
-  - *State*: P(22, 13), M(23, 15).
-- **Next**: Interact with Door.
-
-## Backup Plan
-- If M needs to be closer, try approaching from Left side to place M at (21, 15).
+  - Right x5 (Sync).
+  - Left x2 (To 26).
+  - Up (To 12).
+  - Left x4 (To 22).
+  - Down (To 13).
+  - Interact (A).
