@@ -1,12 +1,12 @@
-# Current State (Turn 37119)
-- Player: (8, 5) (In Battle)
-- Status: Battling Electrode #3 (Final One).
-- Goal: Defeat 3 Electrodes (2/3 Defeated).
+# Current State (Turn 37125)
+- Player: (8, 5) (Battle Ended)
+- Status: Defeated 3/3 Electrodes. Mission Complete!
+- Goal: Talk to Lance / Stop the Signal.
 
 # Progress
 - Electrode 1 (7, 9): Defeated.
 - Electrode 2 (7, 7): Defeated.
-- Electrode 3 (7, 5): In Combat.
+- Electrode 3 (7, 5): Defeated (Selfdestruct).
 
 # Progress
 - Electrode 1 (7, 9): Defeated.
