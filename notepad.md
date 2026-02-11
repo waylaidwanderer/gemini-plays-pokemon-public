@@ -33,4 +33,6 @@
 - Defeated Scientist Rich at (0, 2) on 4F.
 - Currently in 4F West (isolated area).
 - Goal: Find path to 4F East (Stairs to 5F).
-- Hypothesis: Need to find alternate route from 2F or 3F.
+- Hypothesis: Stairs at (0, 0) might lead to 5F or a new part of 3F.
+- Game Mechanic: 4F is split by a wall at Col 10.
+- Markers: Wall Divider at (10, 3).
