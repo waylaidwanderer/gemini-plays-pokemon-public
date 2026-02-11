@@ -30,7 +30,7 @@
 - Checking East side (Cols 14-17) for items.
 - Location: Radio Tower 5F (Map 3_21).
 - Battling Rocket Executive (Imposter Director).
+- Defeated: Koffing (x2).
 - Garnet (116/158 HP).
-- Opponent: Koffing Lv 30.
-- Move Layout: 1:Swift, 2:Mud-Slap (0 PP), 3:Smokescreen, 4:Flame Wheel.
-- Action: Selecting Flame Wheel (Down x3 -> A).
+- Current State: Switch Prompt (Declining).
+- Goal: Defeat Executive to get Key.
