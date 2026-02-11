@@ -18,7 +18,10 @@
 - Suspect stairs to 4F are at (7, 0) behind shutters at (7, 3)/(8, 3).
 - Exploring East side for items/keys.
 - Confirmed: Director is on 5F.
-- Wall at Col 15 blocks further East. Checking for doors or gaps.
+- Wall at Col 15 blocks further East.
+- Confirmed path blockage at (9, 4) [Scientist] and (9, 5) [Grunt].
+- Backtracking to 2F via (0, 0) to find alternate route to East Side.
+- Checking path via Row 2.
 - Employee at (11, 2) asks to save Director on 5F.
 - (7, 0) looks like stairs to 4F.
 - Checking East side (Cols 14-17) for items.
