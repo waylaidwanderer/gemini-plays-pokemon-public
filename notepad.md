@@ -1,13 +1,8 @@
 # Murkrow Puzzle: Sidekick Strategy (Reset Required)
 
 ## Current State
-- P(5, 3). M(5, 3) [Overlapped].
-- **Status**: En route to Reset.
-
-## Reset Path
-1. **Navigate to Stairs**:
-   - Go to (3, 14). (Avoid 5, 15).
-   - Stairs -> B1F -> B2F.
+- P(3, 14) on B1F.
+- **Status**: Re-entering B2F to Reset Puzzle.
 
 ## Sidekick Execution (Post-Reset)
 1. **Start**: P(7, 2), M(7, 1).
@@ -24,4 +19,4 @@
    - **Action**: Face Left (Talk to M) OR Face Down (Talk to Door).
 
 ## Immediate Action
-- BFS to (3, 14).
+- Step Right, then Left to warp.
