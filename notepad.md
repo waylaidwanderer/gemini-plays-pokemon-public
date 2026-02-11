@@ -11,7 +11,7 @@
 - Find stairs to 4F (likely East).
 - Shutter at (3,3)/(4,3) likely requires Card Key.
 - Battle Grunts on 3F.
-- URGENT: Heal Garnet! (HP 18/158, Poisoned). Use Full Heal + Super Potion.
+- URGENT: Heal Garnet! (HP 68/158, Poisoned). Find and use Full Heal.
 - Defeated Rocket Grunt (Weezing/Selfdestruct) at (5, 2).
 - Battle Menu is Vertical List: Swift, Mud-Slap, Smokescreen, Flame Wheel.
 - Down navigates down. Right may be unreliable or ignored.
