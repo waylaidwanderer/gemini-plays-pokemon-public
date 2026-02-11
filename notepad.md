@@ -25,13 +25,13 @@
    - Walk to door.
 
 ## Current State
-- P(25, 2). M(?).
-- **Goal**: Exit & Re-enter to Reset Puzzle.
+- P(7, 3) in Souvenir Shop.
+- **Action**: Re-entering Hideout to reset Murkrow puzzle.
 
 ## The Master Plan ("Row 3 Crossing")
 1. **Reset**:
-   - Warp to (25, 2) via (5, 15). [Done]
-   - Exit to Shop (27, 2) & Re-enter. [Next]
+   - Exit to Shop. [Done]
+   - Re-enter B1F -> B2F. [In Progress]
    - **Start State**: P(19, 2), M(19, 2) [After X-Align].
 2. **Align X**:
    - Move P Left to Col 0. M Left to Col 0 (Blocked).
@@ -52,4 +52,4 @@
    - Enter Door.
 
 ## Immediate Action
-- Exit to Shop (27, 2).
+- Step Left, then Right to enter stairs.
