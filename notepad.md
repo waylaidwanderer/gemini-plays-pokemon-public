@@ -32,6 +32,7 @@
 - Battling Rocket Executive (Imposter Director).
 - Defeated: Koffing (x3).
 - Garnet (80/158 HP, Poisoned).
+- Topaz grew to Lv 18.
 - Waiting for next opponent.
 - Move Menu Logic: Vertical List + Cursor Memory.
 - Current Cursor: Flame Wheel (Move 4).
