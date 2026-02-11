@@ -30,9 +30,10 @@
 - Checking East side (Cols 14-17) for items.
 - Location: Radio Tower 3F (Map 3_19).
 - Objective: Rescue Director in Underground Warehouse.
-- Immediate Task: Navigate to West Stairs (0, 0).
-- Reason: Exit Radio Tower to reach Underground.
-- Path: (6,1) -> (6,0) -> (0,0) -> 2F -> 1F -> Exit.
+- Immediate Task: Navigate to West Stairs (0, 0) via South Loop.
+- Path: (6,1) -> (11,1) -> (11,7) -> (0,7) -> (0,0).
+- Reason: Blockade at Cols 5-9 requires going around.
+- Goal: Descend to 2F.
 - Action: Navigate to (9,0).
 - Path: 4F (0,1) -> (9,1) -> (9,0).
 - Key Item: Basement Key obtained.
