@@ -1,32 +1,34 @@
 # Team Rocket HQ - Murkrow Puzzle
 
-## STATUS: EXECUTING "NORTH RATCHET (STATUE DODGE VARIANT)"
+## STATUS: EXECUTING "JED BLOCK & SWITCH RATCHET"
 **Goal**: Open Boss Door at (22, 14).
-**Strategy**: Sync X Left, Invert Y on Col 4, Statue Dodge to Resync X Right, Loop North, Ratchet.
+**Target State**: P(22, 13), M(22, 12).
 
-## Step 3: Statue Dodge & Resync X [IN PROGRESS]
-- **Current**: P(4, 16), M(4, 1).
+## Step 1: Jed Block (Desync X)
+- **Current**: P(21, 2), M(20, 15).
 - **Action**:
-  1. Right to (6, 16).
-     - P(6, 16). M(5, 1) (Blocked by Statue 6, 1).
-  2. Up to (6, 15).
-     - M Down to (5, 2). (M passes Statue).
-  3. Right to (29, 15).
-     - P to (29, 15). M to (29, 2). (Resyncs X).
-  - *Target State*: P(29, 15), M(29, 2).
+  - Left 1 to (20, 2). M to (19, 15).
+  - Down 3 to (20, 5). M Up to (19, 12).
+  - Left 3 to (17, 5).
+    - M Left 3 to (16, 12).
+    - *Correction*: Jed is at (18, 12). M blocked at (19, 12)?
+    - Check Jed: Map says (18, 12) `TYPE_3fe2` with Marker `Scientist Jed`.
+    - So M blocked at (19, 12) moving Left.
+  - *State*: P(17, 5), M(19, 12).
 
-## Step 4: Loop to North
+## Step 2: Switch Ratchet (Desync Y)
 - **Action**:
-  - Up to (29, 2). M Down to (29, 15).
-  - Left to (22, 2). M Left to (22, 15).
-  - *State*: P(22, 2), M(22, 15).
+  - Down 8 to (17, 13).
+    - M Up 8. Blocked at (19, 9) by Wall (19, 8).
+  - Right 2 to (19, 13). M Right 2 to (21, 9).
+  - Up 1 to (19, 12). M Down 1 to (21, 10).
+  - Push UP (19, 11) x3.
+    - P blocked. M Down (10 -> 13).
+  - *State*: P(19, 12), M(21, 13).
 
-## Step 5: Ratchet & Solve
+## Step 3: Solve
 - **Action**:
-  - Down to (22, 11). M Up to (22, 6).
-  - Push UP (22, 10) x8.
-    - P blocked at 11. M moves Down (6 -> 14).
-  - *State*: P(22, 11), M(22, 14).
-  - Down to (22, 12). M Up to (22, 13).
-  - Down to (22, 13). M Up to (22, 12).
-  - Interact Down (Door).
+  - Down 1 to (19, 13). M Up 1 to (21, 12).
+  - Right to (28, 13). M to (28, 12). (Sync X).
+  - Left to (22, 13). M to (22, 12).
+  - Interact Up.
