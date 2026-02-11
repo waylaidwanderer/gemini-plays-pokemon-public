@@ -1,18 +1,13 @@
-# Current State (Turn 37131)
-- Player: (14, 11) (In Cutscene)
-- Status: Received HM06 (Whirlpool) from Lance.
-- Goal: Exit Team Rocket HQ.
+# Current State
+- Player: (14, 11)
+- Status: Finished Rocket HQ Event.
+- Goal: Exit HQ -> Challenge Pryce (Mahogany Gym).
 
-# Progress
-- Electrodes: Defeated.
-- Signal: Stopped.
-- Reward: HM06 (Whirlpool).
+# Key Items / Progress
+- Badges: 6 (Zephyr, Hive, Plain, Fog, Storm, Mineral).
+- Rocket HQ: Cleared (HM06 Whirlpool Obtained).
+- Lake of Rage: Gyarados Defeated (Red Scale).
 
-# Progress
-- Electrode 1 (7, 9): Defeated.
-- Electrode 2 (7, 7): Defeated.
-- Electrode 3 (7, 5): Pending.
-
-# Mechanics
-- X-Mimicry: Confirmed.
-- Y-Mirroring: Confirmed.
+# Move Tutors / Reminders
+- Whirlpool: Teach to Psyduck (Headache) or other water type.
+- Boss Door (B2F): Never opened. Password/Voice ID puzzle skipped by event.
