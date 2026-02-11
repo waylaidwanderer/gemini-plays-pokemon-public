@@ -25,20 +25,18 @@
    - Walk to door.
 
 ## Current State
-- P(16, 2). M(Unknown).
-- **Observation**: Murkrow NOT at (17, 2) (Disproves Mirror X from 8).
-- **Status**: Murkrow is missing or off-screen.
-- **Action**: Search pattern. Check Left Corner (1, 2), then Right Corner.
+- P(1, 2). M(Unknown, likely > 6).
+- **Action**: Moving to (27, 2) to Reset.
+- **Search**: Will scan Row 2 during travel. Expect M around X=14 if Mirroring.
 
-## Search & Solve Plan
-1. **Search Left**:
-   - Go to (1, 2).
-   - Check if M is pinned at (1, 2).
-2. **Search Right**:
-   - If not at (1, 2), go to (27, 2).
-3. **Re-Evaluate**:
-   - Once M is found, deduce X-axis logic (Mimic vs Mirror) and Offset.
-   - Execute "Ratchet" strategy based on confirmed location.
+## Reset Plan
+1. **Reset**: Exit/Re-enter at (27, 2).
+   - State: P(27, 2), M(7, 2).
+2. **Verify Mirror**:
+   - Move Left to (17, 2).
+   - If M is at (17, 2), Mirror is confirmed.
+3. **Execute Strategy**:
+   - Once behavior is confirmed, execute "Col 22 Ratchet".
 
 ## Immediate Action
-- Move Left to (1, 2).
+- Navigate to (27, 2).
