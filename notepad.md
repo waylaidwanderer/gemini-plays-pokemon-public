@@ -28,11 +28,8 @@
 - Employee at (11, 2) asks to save Director on 5F.
 - (7, 0) looks like stairs to 4F.
 - Checking East side (Cols 14-17) for items.
-- Defeated Scientist Rich at (0, 2) on 4F.
-- Currently in 4F West (isolated area).
-- Goal: Find path to 4F East (Stairs to 5F).
-- Hypothesis: Stairs at (0, 0) lead down to 3F. Need to find a way to 3F East (likely via 2F).
-- Topaz equipped with EXP Share.
-- Game Mechanic: 4F is split by a wall at Col 10.
-- Markers: Wall Divider at (10, 3).
-- Action: Checking stairs at (0, 0).
+- Location: Radio Tower 5F (Map 3_21) - Western Side?
+- Arrived via stairs at (0, 0) from 4F West.
+- Goal: Find Director.
+- Visible: Rocket Grunt at (3, 6).
+- Exploring this floor.
