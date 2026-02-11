@@ -30,7 +30,7 @@
 - Checking East side (Cols 14-17) for items.
 - Fighting Scientist Rich (Porygon Lv 30).
 - Garnet (66/158 HP). Mud-Slap 0 PP.
-- Round Recap: Garnet used Mud-Slap (Accuracy Down), Porygon used Recover.
-- Current State: Text "regained health" on screen.
-- Action: Clear text -> Select Fight. Next turn: Select Flame Wheel.
+- Move Menu is a vertical list, NOT a grid.
+- Cursor on Mud-Slap.
+- Inputting: Down, Down, A (Flame Wheel).
 - Move Layout: 1:Swift, 2:Mud-Slap, 3:Smokescreen, 4:Flame Wheel.
