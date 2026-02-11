@@ -1,6 +1,6 @@
 # Current State
+- Defeated Grunt at (5, 6).
 - 4F West Side blocked by wall at Col 10.
-- Engaging Grunt at (5, 6).
 - Need to find path to East Side (stairs at 12,0).
 - Pink objects are chairs.
 - Goal: Defeat Team Rocket (Radio Tower).
