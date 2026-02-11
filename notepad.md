@@ -4,16 +4,14 @@
 **Goal**: Open Boss Door at (22, 14).
 **Target State**: P(22, 15), M(22, 13).
 
-## Step 1: Sync X (Col 1) [IN PROGRESS]
-- **Current**: P(6, 2). M(6, 2) (Estimated).
-- **Action**: Move Left to (1, 2).
-  - P(6, 2) -> Left 5 -> P(1, 2).
-  - M(6, 2) -> Left 5 -> M(1, 2).
+## Step 1: Sync X (Col 1) [COMPLETED]
+- P synced at X=1.
 
-## Step 2: Invert Y (Battle Path)
-- **Action**: Down to (1, 16).
-  - P(1, 2) -> (1, 16).
-  - M(1, 2) -> (1, 1). M stays at top.
+## Step 2: Invert Y (Battle Path) [IN PROGRESS]
+- **Current**: P(1, 4). M(1, 1) (Blocked at top).
+- **Action**: Move Down to (1, 16).
+  - Expect battles at (1, 8) [Voltorb] and (1, 13) [Geodude].
+  - M will stay at (1, 1) while P descends.
 
 ## Step 3: Desync X (Use Grunt at 2,4)
 - **Action**:
