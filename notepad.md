@@ -12,3 +12,4 @@
 - Shutter at (3,3)/(4,3) likely requires Card Key.
 - Battle Grunts on 3F.
 - Battle Menu is 2x2 Grid. TL: Swift, TR: Mud-Slap, BL: Smokescreen, BR: Flame Wheel.
+- Mud-Slap is weak. Switch to Flame Wheel (BR) for Weezing (Low Sp.Def).
