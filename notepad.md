@@ -32,5 +32,5 @@
 - Battling Rocket Executive (Imposter Director).
 - Garnet (116/158 HP).
 - Opponent: Koffing Lv 30.
-- Strategy: Use Flame Wheel (Special Attack vs Low Sp.Def) for OHKO.
 - Move Layout: 1:Swift, 2:Mud-Slap (0 PP), 3:Smokescreen, 4:Flame Wheel.
+- Action: Selecting Flame Wheel (Down x3 -> A).
