@@ -33,8 +33,9 @@
 - Key Item: Basement Key obtained.
 - Party: Garnet (83/161 HP), Topaz (56/56 HP).
 - Immediate Task: Bypass Grunt at (4,2).
-- Status: Exiting Menu. Attempting to walk around Grunt.
-- Path: (3,2) -> (3,3) -> East to stairs.
+- Status: Exiting Menu & Moving South.
+- Path: (3,2) -> (3,3) -> (4,3) -> East.
+- Destination: Stairs to 3F (likely at 9,0 or 12,0).
 - Action: Navigate to (9,0).
 - Path: 4F (0,1) -> (9,1) -> (9,0).
 - Key Item: Basement Key obtained.
