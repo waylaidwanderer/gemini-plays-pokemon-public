@@ -30,10 +30,10 @@
 - Checking East side (Cols 14-17) for items.
 - Location: Radio Tower 3F (Map 3_19).
 - Objective: Rescue Director in Underground Warehouse.
-- Immediate Task: Navigate East via Row 3.
-- Path: (8,3) -> (10,3) -> (12,3) -> (12,2) -> (15,0).
-- Obstacle: Grunt at (8,4) might trigger battle. Defeated Grunt at (10,2) blocks Row 2.
-- Goal: Descend to 1F and exit Radio Tower.
+- Immediate Task: Interact with Grunt at (10,2).
+- Status: Checking if Grunt triggers battle or moves.
+- Potential Issue: If blocked, need to find switch for Shutters (Row 1).
+- Goal: Cross to East Side to reach stairs at (15,0).
 - Action: Navigate to (9,0).
 - Path: 4F (0,1) -> (9,1) -> (9,0).
 - Key Item: Basement Key obtained.
