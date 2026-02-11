@@ -1,5 +1,5 @@
 # Current State
-- Location: Goldenrod City
+- Location: Goldenrod City (Radio Tower 1F)
 - Goal: Defeat Team Rocket (Radio Tower).
 
 # Progress
@@ -8,6 +8,6 @@
 - HMs: Cut, Fly, Surf, Strength, Flash, Whirlpool.
 
 # Tasks
-- Go North to Radio Tower.
+- Ascend Radio Tower.
 - Clear Radio Tower.
-- Defeated Rocket Grunt outside Radio Tower (Turn 37529).
+- Defeated Rocket Grunt at 1F (Turn 37529).
