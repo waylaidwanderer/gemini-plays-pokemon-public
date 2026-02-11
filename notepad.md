@@ -29,7 +29,6 @@
 - (7, 0) looks like stairs to 4F.
 - Checking East side (Cols 14-17) for items.
 - Location: Radio Tower 5F (Map 3_21).
-- Encountered Rocket Executive (Imposter Director).
-- He asked "Is that what you were expecting?".
-- Prepare for battle (likely Weezing/Koffing team).
-- Goal: Defeat Executive to get Key.
+- Face-to-face with Imposter Director (Rocket Executive).
+- He admitted to being an imposter preparing for a takeover.
+- Approaching battle.
