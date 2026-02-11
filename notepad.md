@@ -32,8 +32,8 @@
 - Battling Rocket Executive (Imposter Director).
 - Defeated: Koffing (x4), Weezing.
 - Garnet (83/161 HP, Poisoned).
-- Garnet grew to Lv 50.
-- Status: Advancing text.
+- Topaz grew to Lv 19.
+- Status: Waiting for last opponent.
 - Move Menu Logic: Vertical List + Cursor Memory.
 - Current Cursor: Flame Wheel (Move 4).
 - Target: Flame Wheel (Move 4).
