@@ -24,16 +24,21 @@
    - Move Up to (5, 1).
    - P->(5, 1). M(6, 2)->(6, 1) [Blocked by Statue].
    - **State**: P(5, 1), M(6, 2). (Offsets: X=+1, Y=+1).
-5. **Sync X (Left Wall)**:
-   - Move Left to (1, 1).
-   - P->(1, 1). M->(2, 2).
-   - Move Left (Bump Wall).
-   - P blocked at (1, 1). M moves to (1, 2).
-   - **State**: P(1, 1), M(1, 2). (Synced X, Y+1).
-6. **Deliver**:
-   - Navigate to (22, 13).
-   - M follows to (22, 14).
+## Current State
+- P(11, 1). M(11, 2) [Synced X, Y+1].
+- **Status**: Delivering Package.
+
+## Delivery Path
+1. **Traverse Row 1**:
+   - Move Right to (21, 1).
+   - M moves Right to (21, 2).
+2. **Turn South**:
+   - Move Down to (21, 13).
+   - M moves Down to (21, 14).
+3. **Turn Right (Door)**:
+   - Move Right to (22, 13).
+   - M moves Right to (22, 14) [ON DOOR].
    - Interact.
 
 ## Immediate Action
-- Move Left to (1, 1).
+- Continue Right to (21, 1).
