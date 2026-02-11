@@ -31,9 +31,10 @@
 - Location: Radio Tower 5F (Map 3_21).
 - Battling Rocket Executive (Imposter Director).
 - Defeated: Koffing (x4), Weezing.
+- Opponent: Koffing #5 (Incoming).
 - Garnet (83/161 HP, Poisoned).
-- Topaz grew to Lv 19.
-- Status: Advancing text to identify final opponent.
+- Status: Declined switch. Battling Koffing #5.
+- Strategy: Flame Wheel.
 - Move Menu Logic: Vertical List + Cursor Memory.
 - Current Cursor: Flame Wheel (Move 4).
 - Target: Flame Wheel (Move 4).
