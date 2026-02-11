@@ -1,20 +1,20 @@
-# Murkrow Solution: The Corridor Bump
+# Murkrow Solution: The Flanking Maneuver
 
 ## Current State
-- P(20, 16) [Verified].
-- M likely at (21, 13).
+- P(22, 16). M(24, 16) [Estimated].
+- Goal: Route M to (22, 14) via Row 13 to avoid Grunt.
 
 ## Execution Plan
-1. **X-Align**:
-   - Move **Right** to (21, 16).
-   - M (Mimic X) moves to (22, 13).
-   - State: P(21, 16), M(22, 13).
+1. **Reset X & Move to Row 13**:
+   - Move **Left x4** to (18, 16). M -> (20, 16).
+   - Move **Up x3** to (18, 13). M -> (20, 13).
+   - State: P(18, 13), M(20, 13).
 
-2. **Y-Align (Wall Bump)**:
-   - Move **Down** (Bump Wall at 21, 17).
-   - P stays (21, 16).
-   - M (Mimic Y) moves Down to (22, 14).
-   - **Target Reached?**
+2. **Position M**:
+   - Move **Right x2** to (20, 13). M -> (22, 13).
+   - Move **Down** to (20, 14). M -> (22, 14) [TARGET].
 
-3. **Observation**:
-   - Check if Boss Door at (23, 14) opens.
+3. **Verify & Enter**:
+   - Move **Down** to (20, 15). M blocked at (22, 15). Stays.
+   - Move **Down** to (20, 16). M blocked. Stays.
+   - Move **Right** to (23, 16). Check Door.
