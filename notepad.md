@@ -19,10 +19,13 @@
 - **Next Step**: Check (7, 2) for Murkrow. If there, restart.
 
 ## Revised Plan (Post-Reset)
-1. **Reset**: Go to (27, 2) (Exit/Re-enter) to ensure clean state.
-2. **Murkrow**: Verify at (7, 2).
+1. **Reset**: Go to (27, 2) (Exit/Re-enter) to ensure clean state. (Done)
+2. **Murkrow**: Verified at (7, 2).
 3. **New Strategy**: "The Statue Shimmy"
-   - Align Col 26.
-   - Ratchet M to 16 using vertical moves.
-   - Align Col 22.
-   - Shimmy M to 14.
+   - **Step 1: Sync X Right**.
+     - Move P to (26, 2). M follows to (25, 2).
+     - Move P to (28, 2) (Wall). M hits wall at (29, 2)? No, map width is 30.
+     - Adjust to get M to Col 26.
+   - **Step 2: Ratchet Y**.
+   - **Step 3: Align Col 22**.
+   - **Step 4: Execute**.
