@@ -5,10 +5,10 @@
 **Target State**: P(22, 15), M(22, 13).
 
 ## Step 1: Sync X (Col 1) [IN PROGRESS]
-- **Current**: P(21, 2), M(1, 2).
+- **Current**: P(6, 2). M(6, 2) (Estimated).
 - **Action**: Move Left to (1, 2).
-  - *Note*: Statue Alarm at (6, 1) might trigger battle at (6, 2).
-  - *Note*: M is already at X=1 (bonked against wall). P needs to catch up.
+  - P(6, 2) -> Left 5 -> P(1, 2).
+  - M(6, 2) -> Left 5 -> M(1, 2).
 
 ## Step 2: Invert Y (Battle Path)
 - **Action**: Down to (1, 16).
