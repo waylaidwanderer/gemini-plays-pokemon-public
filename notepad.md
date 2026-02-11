@@ -1,35 +1,32 @@
 # Team Rocket HQ - Murkrow Puzzle
 
-## STATUS: EXECUTING "STATUE DODGE & MACHINE RATCHET"
-**Goal**: Open Boss Door at (22, 14).
-**Strategy**: Invert Y, Desync on Statue (6,1), Resync on Right Wall, Ratchet on Machine (22,15).
+## STATUS: EXECUTING "NORTH APPROACH"
+**Goal**: Open Boss Door at (22, 14) from (22, 13).
+**Strategy**: Swap Y (P Top, M Bottom), Traverse, Ratchet M to (22, 12).
 
-## Step 1: Sync X (Col 1) [DONE]
-- P(1, 2), M(1, 2).
+## Step 1: Reach (1, 16) (Current)
+- **Action**: Detour Col 3 to avoid wall at (1, 5) and Grunt at (2, 4).
+  - Up to (1, 3). Right to (3, 3).
+  - Down to (3, 12). Left to (1, 12).
+  - Down to (1, 16).
+  - *State*: P(1, 16), M(1, 1).
 
-## Step 2: Invert Y & Desync X
+## Step 2: Swap Y (P Top, M Bottom)
 - **Action**:
-  - Down to (1, 16). M Up to (1, 1).
-  - Right to (6, 16).
-    - P moves to (6, 16).
-    - M blocked by Statue (6, 1). M stays (5, 1).
-  - *State*: P(6, 16), M(5, 1).
+  - Up to (1, 1).
+    - P moves to (1, 1).
+    - M moves Down to (1, 16).
+  - *State*: P(1, 1), M(1, 16).
 
-## Step 3: Shift & Resync X
+## Step 3: Traverse & Align
 - **Action**:
-  - Up 1 to (6, 15). M Down 1 to (5, 2).
-  - Right to (29, 15).
-    - P -> (29, 15).
-    - M -> (29, 2). (Resyncs X).
-  - *State*: P(29, 15), M(29, 2).
+  - Right to (22, 1). M Right to (22, 16).
+  - Down to (22, 13). M Up to (22, 4).
+  - *State*: P(22, 13), M(22, 4).
 
-## Step 4: Position & Ratchet
+## Step 4: Ratchet & Solve
 - **Action**:
-  - Left to (22, 15). M Left to (22, 2).
-  - Push UP against Machine (22, 15) x12.
-    - P blocked. M moves Down (2 -> 14). (Or 1->13 if logic differs).
-    - *Note*: If M is at (22, 2), Up push moves M to (22, 3)...(22, 14).
-  - *State*: P(22, 15), M(22, 14).
-
-## Step 5: Solve
-- **Action**: Interact Up (A).
+  - Push UP against Door (22, 14) x8.
+    - P blocked. M moves Down (4 -> 12).
+  - *State*: P(22, 13), M(22, 12).
+  - Interact Down (Door) or Left (Murkrow).
