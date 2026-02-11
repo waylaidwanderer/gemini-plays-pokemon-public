@@ -1,19 +1,21 @@
-# Murkrow Solution: Escape & Re-Evaluate
+# Murkrow Solution: Physics Test & Ratchet
 
 ## Current Status
-- P(22, 14) [Trapped]. M(22, 13). Grunt(21, 14).
-- Door(23, 14) Locked.
-- Plate Strategy: Unknown/Failed.
+- P(22, 13). M(21, 13).
+- Free from Trap.
 
-## Immediate Plan
-1. **Escape Trap**:
-   - Move **Left** (Bump Grunt). M Mimics X -> (21, 13).
-   - Move **Up** to (22, 13). M Mirror Y -> (21, 14) [Blocked]. M stays (21, 13).
-   - Result: P(22, 13), M(21, 13). **Free**.
+## Step 1: Escape & Test Y-Physics
+1. **Push M Left**:
+   - Move **Left** (Bump M). M -> (20, 13).
+   - Move **Left** to (21, 13). M -> (19, 13).
+   - Move **Left** to (20, 13). M -> (18, 13).
+2. **The Wiggle Test**:
+   - Move **Down** to (20, 14).
+   - Move **Up** to (20, 13).
+   - **Observe M**:
+     - If M is at Y=14: **Mirror Y** (M(18, 14)).
+     - If M is at Y=13: **Mimic Y** (M(18, 13)).
 
-2. **Next Steps**:
-   - Move to safe area (e.g., Row 13 Corridor).
-   - Determine how to open door.
-     - Does M need to be on plate (22, 14)?
-     - Does M need to face door?
-     - Do I need to Interact with M near door?
+## Step 2: The Solution
+- **If Mimic Y**: Align P(22, 13), M(22, 13). Move Down to (22, 14). M follows to Plate. P enters Door.
+- **If Mirror Y**: Align P(22, 14), M(22, 13). P Bump Door (Right). M moves to (22, 13). P Up, M Down to Plate.
