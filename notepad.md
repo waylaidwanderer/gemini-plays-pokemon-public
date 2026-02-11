@@ -31,10 +31,10 @@
    - **State**: P(28, 1), M(28, 2).
    - **Offsets**: X=0, Y=+1.
 6. **Deliver**:
-   - Move Left to (22, 1).
-   - Move Down to (22, 13).
+   - Move Left to (21, 1). (Avoid Col 22 Trap).
+   - Move Down to (21, 13).
+   - Move Right to (22, 13).
    - Interact.
 
 ## Immediate Action
-- Move Left to (21, 13) to clear door.
-- BFS to (3, 14).
+- Step Right, then Left to re-enter B2F.
