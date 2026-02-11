@@ -31,10 +31,10 @@
 - Location: Radio Tower 5F (Map 3_21).
 - Battling Rocket Executive (Imposter Director).
 - Defeated: Koffing (x4), Weezing.
-- Opponent: Koffing #5 (Incoming).
+- Opponent: Koffing #5 (Lv 30).
 - Garnet (83/161 HP, Poisoned).
-- Status: Cancelled switch. Waiting for Koffing #5.
-- Strategy: Flame Wheel.
+- Status: Attacking with Flame Wheel.
+- Remaining Opponents: 1 (this one).
 - Move Menu Logic: Vertical List + Cursor Memory.
 - Current Cursor: Flame Wheel (Move 4).
 - Target: Flame Wheel (Move 4).
