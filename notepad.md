@@ -3,22 +3,17 @@
 ## STATUS: EXECUTING "THE ULTIMATE PLAN"
 **Goal**: P(22, 13), M(22, 15).
 
-## Plan: "Col 9 Ratchet & Row 16 Flank"
-1. **Setup**:
-   - Down to (25, 2). M -> (25, 15).
-   - Left to (9, 2). M -> (9, 15).
-     - *State*: P(9, 2), M(9, 15).
-2. **The Ratchet (Col 9)**:
-   - Down to (9, 13). M tries Up to (9, 4), BLOCKED by Wall (9, 14).
-     - *State*: P(9, 13), M(9, 15).
-3. **The Underpass**:
-   - Down to (9, 16). M -> (9, 12).
-     - *State*: P(9, 16), M(9, 12).
-   - Right to (21, 16). M -> (21, 12).
-     - *State*: P(21, 16), M(21, 12).
-4. **The Setup**:
-   - Up to (21, 13). M -> (21, 15).
-     - *State*: P(21, 13), M(21, 15).
-5. **The Finish**:
-   - Right to (22, 13). M -> (22, 15).
-   - Interact.
+## Plan: "The High Road"
+1. **Setup Row 1**:
+   - Up to (9, 1). M -> (9, 16).
+     - *State*: P(9, 1), M(9, 16).
+2. **Traverse Right**:
+   - Right to (22, 1). M -> (22, 16).
+     - *State*: P(22, 1), M(22, 16).
+3. **The Ratchet Approach**:
+   - Down to (22, 13). M tries Up to (22, 4).
+   - *Constraint*: If (22, 15) is Wall, M blocked at (22, 16).
+   - *Constraint*: If (22, 15) is Floor, M blocked at (22, 14) (Door), stays at (22, 15).
+   - *Result*: M is at (22, 16) or (22, 15). P is at (22, 13).
+4. **Finish**:
+   - Interact (Up).
