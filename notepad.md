@@ -25,26 +25,23 @@
    - Walk to door.
 
 ## Current State
-- P(22, 11). M(22, 7) [Approx].
-- **Observation**: Boxed in by walls at Row 10/11.
-- **Solution**: Use Warp at (5, 15) to reach Top Right (25, 2).
+- P(22, 13), M(22, 12).
+- **Observation**: Trapped in South-East pocket. M blocks North. Walls block East/South.
+- **Solution**: "Scientist Desync".
+  - Use Scientist at (18, 12) to block Murkrow's Left movement.
+  - P moves Left to (17, 13). M blocked at (19, 12).
+  - P moves Up to (17, 12). M moves Down to (19, 13).
+  - P escapes North.
 
-## Warp Plan
-1. **Reach Warp**:
-   - P(22, 11) -> (5, 15).
-   - Route: Down to Row 13, Left to Col 7, Down to Row 15, Left to (5, 15).
-2. **Post-Warp Logic**:
-   - P arrives at (25, 2).
-   - M likely stays at (5, 3) [Relative to warped position? Needs verification].
-   - **Hypothesis**: M moves relative to button presses, not warps.
-   - If P(25, 2), M(5, 3).
-3. **Execution**:
-   - Move Right to Col 26. P(26, 2), M(26, 3).
-   - Move Down to (26, 15). M -> (26, 1).
-   - Move Up to (26, 13). M -> (26, 3).
-   - Move Left to (22, 13). M -> (22, 3).
-   - Move Up to (22, 2). M -> (22, 14) [TARGET].
-   - Move Down to Door.
+## Execution Plan
+1. **Desync**:
+   - Left x5 to (17, 13).
+   - Up x1 to (17, 12).
+2. **Reset**:
+   - Move to Exit (27, 2).
+   - Re-enter map to reset Murkrow.
+3. **Execute Ratchet**:
+   - Retry "Col 26 Ratchet" from clean slate.
 
 ## Immediate Action
-- Navigate to (5, 15).
+- Move Left x5, Up x1.
