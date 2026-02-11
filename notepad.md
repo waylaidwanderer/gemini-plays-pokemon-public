@@ -25,23 +25,19 @@
    - P->(5, 1). M(6, 2)->(6, 1) [Blocked by Statue].
    - **State**: P(5, 1), M(6, 2). (Offsets: X=+1, Y=+1).
 ## Current State
-- P(25, 2). M(25, 3).
-- **Status**: Syncing Y-Axis.
+- P(25, 3). M(25, 3) [Synced].
+- **Observation**: Row 4 is a Wall. "Right Weave" impossible.
+- **Action**: Abort & Reset. Returning to (3, 14).
 
-## The Sync & Delivery Plan
-1. **Sync Y (Bottom Wall)**:
-   - Move Down to (25, 7).
-   - P -> (25, 7).
-   - M(25, 3) -> (25, 8) [Blocked by Wall] -> Stops at (25, 7).
-   - **Result**: P(25, 7), M(25, 7). [FULLY SYNCED].
-2. **Navigate to Safe Column**:
-   - Move Up to (25, 2). (M follows).
-   - Move Left to (21, 2). (M follows).
-   - *Reason*: Avoid Wall Divider at Col 23 and Warp Trap at (22, 7).
-3. **Approach Door**:
-   - Down to (21, 13).
-   - Right to (22, 13).
-   - Interact.
+## Recovery Path
+1. **Escape Pocket**:
+   - Up to (25, 2).
+   - Left to (21, 2). (Avoid Col 23 Wall).
+2. **Navigate to Stairs**:
+   - BFS to (3, 14).
+3. **Restart Strategy**:
+   - "Double Shimmy" at Left Statue (6, 1).
+   - Validated: P(7, 2)/M(7, 1) spawn state works.
 
 ## Immediate Action
-- Move Down to (25, 7). Then Up to (25, 2).
+- Up, then Left.
