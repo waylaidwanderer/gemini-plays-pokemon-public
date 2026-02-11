@@ -12,3 +12,6 @@
 1. Interact with Boss Door (Right + A).
 2. If locked, interact with Grunt (Left + A) or Murkrow (Up + A).
 3. If completely stuck, use DIG to escape.
+CRITICAL UPDATE: Garnet (Lv46) does NOT have Dig. Cannot use Dig to escape.
+Escape Strategy: Attempt to shift Murkrow by bumping into Grunt (Left).
+If Murkrow moves to (21, 13), path Up opens.
