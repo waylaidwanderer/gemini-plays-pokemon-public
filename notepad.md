@@ -28,9 +28,9 @@
 - Employee at (11, 2) asks to save Director on 5F.
 - (7, 0) looks like stairs to 4F.
 - Checking East side (Cols 14-17) for items.
-- Fighting Scientist Rich (Porygon Lv 30).
-- Garnet (66/158 HP). Mud-Slap 0 PP.
-- Move Menu is a vertical list, NOT a grid.
-- Cursor on Mud-Slap.
-- Inputting: Down, Down, A (Flame Wheel).
+- Mechanic: Battle menu cursor remembers last position.
 - Move Layout: 1:Swift, 2:Mud-Slap, 3:Smokescreen, 4:Flame Wheel.
+- Defeated Scientist Rich at (0, 2) on 4F.
+- Currently in 4F West (isolated area).
+- Goal: Find path to 4F East (Stairs to 5F).
+- Hypothesis: Need to find alternate route from 2F or 3F.
