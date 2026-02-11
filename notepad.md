@@ -4,20 +4,17 @@
 **Goal**: Open Boss Door at (22, 14) from (22, 13).
 **Strategy**: Swap Y (P Top, M Bottom), Traverse, Ratchet M to (22, 12).
 
-## Step 1: Reach (1, 16) (Detour)
-- **Problem**: Wall at (1, 5).
-- **Action**: Detour via Col 3.
-  - Up to (1, 3). Right to (3, 3).
-  - Down to (3, 12). Left to (1, 12).
-  - Down to (1, 16).
-  - *State*: P(1, 16), M(3, 1). (M blocked at Col 2/1 on Row 5).
+## Step 1: Reach (1, 16) [DONE]
+- P(1, 16), M(1, 1).
 
-## Step 2: Swap Y (P Top, M Bottom)
-- **Action**:
-  - Up to (1, 1).
-    - P moves to (1, 1).
-    - M moves Down to (3, 16).
-  - *State*: P(1, 1), M(3, 16).
+## Step 2: Swap Y (P Top, M Bottom) [IN PROGRESS]
+- **Problem**: Wall at (1, 5) and Grunt at (2, 4) block direct vertical swap.
+- **Action**: Detour via Col 3 (Bottom-Up).
+  - P(1, 16) -> Right to (3, 16). M(1, 1) -> Right to (3, 1).
+  - Up to (3, 3). M Down to (3, 14).
+  - Left to (1, 3). M Left to (1, 14).
+  - Up to (1, 1). M Down to (1, 16).
+  - *State*: P(1, 1), M(1, 16).
 
 ## Step 3: Traverse & Align
 - **Action**:
