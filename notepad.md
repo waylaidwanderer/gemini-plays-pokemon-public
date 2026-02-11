@@ -1,11 +1,10 @@
 # Current Status
 - **Location**: Team Rocket HQ B2F, (22, 14).
-- **Condition**: TRAPPED (Verified).
-  - No Dig/Teleport.
-  - No Poison/Faint method.
-- **Escape Strategy**:
-  - **Option A**: Bump Grunt (Left).
-  - **Option B**: Bump Door (Right). IF Murkrow mimics X, it moves to (23, 13).
-  - **Option C**: Bump Wall (Down).
-- **Observation**: Sprite at (22, 13) gives Grunt text. Might be Grunt or Murkrow disguised?
-- **Action**: Testing Option B (Right Bump).
+- **Condition**: TRAPPED.
+  - No Dig/Escape Rope/Teleport.
+  - Surrounded by Wall (Down), Door (Right), Grunt (Left), Murkrow (Up).
+- **Hypothesis**:
+  - (22, 15) might be a closed shutter? Trying to interact.
+  - Bumping might move Murkrow? Testing.
+  - Grunt might battle? Interacting.
+- **Action**: Trying all interactions to break softlock.
