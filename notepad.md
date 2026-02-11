@@ -25,16 +25,17 @@
    - Walk to door.
 
 ## Current State
-- P(7, 3) in Souvenir Shop.
-- **Action**: Re-entering Hideout (B1F) to proceed to B2F.
-- **Reason**: Full reset of Murkrow puzzle.
+- P(27, 2). Re-entered B2F.
+- **Status**: Searching for Murkrow.
+- **Hypothesis**: Murkrow resets to Top-Left (near 7, 2).
 
-## Plan
-1. **Re-enter**: Step Left/Right to Warp to B1F.
-2. **Navigate B1F**: Go to stairs at (7, 3) or wherever the B2F stairs are.
-   - Note: B1F layout needs to be recalled or navigated.
-3. **Enter B2F**: Arrive at B2F.
-4. **Verify Spawn**: Check (7, 2) for Murkrow.
+## Search Plan
+1. **Scan Row 2**: Move Left from (27, 2) to (7, 2).
+   - Watch for Murkrow sprite.
+   - Check if M intercepts at center (17, 2).
+2. **If Found**:
+   - Stop and test movement rules (Mirror vs Mimic).
+   - Use verified rules to plan "Ratchet".
 
 ## Immediate Action
-- Step Left, Right.
+- Move Left to (17, 2).
