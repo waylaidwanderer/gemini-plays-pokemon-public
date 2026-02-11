@@ -33,7 +33,8 @@
 - Key Item: Basement Key obtained.
 - Party: Garnet (83/161 HP), Topaz (56/56 HP).
 - Immediate Task: Battling Grunt at (4,2).
-- Status: Advancing text. Expecting battle start.
+- Status: Battle starting.
+- Opponent: Team Rocket Grunt.
 - Action: Navigate to (9,0).
 - Path: 4F (0,1) -> (9,1) -> (9,0).
 - Key Item: Basement Key obtained.
