@@ -3,27 +3,23 @@
 ## STATUS: EXECUTING "THE ULTIMATE PLAN"
 **Goal**: P(22, 13), M(22, 15).
 
-## Plan: "Row 4 Flank & Door Stop"
-1. **Flank to Row 9**:
-   - Left to (5, 2). M -> (5, 2).
-   - Down to (5, 9). M -> (5, 1).
-     - *State*: P(5, 9), M(5, 1).
-2. **Setup Ratchet**:
-   - Right to (26, 9). M -> (23, 1) (Hits Statue 24,1).
-     - *State*: P(26, 9), M(23, 1).
-   - Up to (26, 3). M -> (23, 7).
-     - *State*: P(26, 3), M(23, 7).
-   - Right to (27, 3). M -> (24, 7).
-   - Down to (27, 13). M -> (24, 6) (Hits Statue 24,5).
-     - *State*: P(27, 13), M(24, 6).
-3. **The Deep Dive**:
-   - Up to (27, 4). M -> (24, 15).
-     - *State*: P(27, 4), M(24, 15).
-4. **The Door Stop**:
-   - Right to (29, 4). M -> (29, 15) (Hits Wall 29,15).
-     - *State*: P(29, 4), M(29, 15).
-   - Left to (22, 4). M -> (22, 15).
-     - *State*: P(22, 4), M(22, 15).
-   - Down to (22, 13). M -> (22, 15) (Hits Door 22,14).
-     - *State*: P(22, 13), M(22, 15).
+## Plan: "The Left Hook" (Col 24/26 Ratchet)
+1. **Sync X Left**:
+   - Left to (1, 2). M -> (1, 2).
+     - *State*: P(1, 2), M(1, 2).
+2. **Col 24 Ratchet**:
+   - Right to (24, 2).
+   - Down to (24, 9). M -> (24, 2) (Blocked by 24,1).
+   - Up to (24, 2). M -> (24, 9).
+   - Down to (24, 9). M -> (24, 6) (Blocked by 24,5/6).
+   - Up to (24, 2). M -> (24, 13).
+     - *State*: P(24, 2), M(24, 13).
+3. **Col 26 Fine-Tune**:
+   - Right to (26, 2). M -> (26, 13).
+   - Down to (26, 5). M -> (26, 11) (Blocked by 26,10).
+   - Up to (26, 1). M -> (26, 15).
+     - *State*: P(26, 1), M(26, 15).
+4. **Approach & Unlock**:
+   - Left to (22, 1). M -> (22, 15).
+   - Down to (22, 13). M -> (22, 15) (Blocked by Door).
    - Interact.
