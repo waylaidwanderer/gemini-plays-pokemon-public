@@ -3,15 +3,13 @@
 ## STATUS: EXECUTING "THE ULTIMATE PLAN"
 **Goal**: P(22, 13), M(22, 15).
 
-## Plan: "Visual Confirmation"
-1. **Escape Pocket**:
-   - Left to (19, 13). M -> (19, 16) (Assumed).
-2. **Position for View**:
-   - Up to (19, 12). M -> (19, 16) (Blocked Down).
-   - Right to (22, 12). M -> (22, 16).
-3. **Observation**:
-   - Look at tiles (22, 15) and (22, 16).
-   - If M is at (22, 16), it confirms M is blocked by (22, 15).
-   - If M is at (22, 15), it confirms (22, 15) is walkable.
-4. **Action**:
-   - Decide based on visual.
+## Plan: "Hard Reset & Retry"
+1. **Status**: Murkrow Lost. Visual check at (22, 15/16) failed.
+2. **Action**:
+   - Navigate to Exit (27, 2).
+   - Re-enter to reset Murkrow to (7, 2).
+3. **Retry Strategy**: "The Col 4 Flip"
+   - It worked perfectly until the final check.
+   - Suspect I might have just missed the Interact angle or timing.
+   - Or maybe the wall at (22, 8) messed up the specific BFS path I took, causing a desync if I bumped a wall I didn't account for.
+   - Will execute simpler, cardinal movements next time.
