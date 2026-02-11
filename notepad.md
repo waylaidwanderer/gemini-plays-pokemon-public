@@ -3,20 +3,22 @@
 ## STATUS: EXECUTING "THE ULTIMATE PLAN"
 **Goal**: P(22, 13), M(22, 15).
 
-## Plan: "Col 25 Deep Dive"
-1. **Sync Left**: P(1, 2), M(1, 2). (Done)
-2. **Col 26 Setup**:
-   - Right to (26, 2). M->(26, 2).
-   - Down to (26, 9). M->(26, 1).
-   - Up to (26, 1). M->(26, 9).
-     - *State*: P(26, 1), M(26, 9).
-3. **Col 25 Dive**:
-   - Left to (25, 1). M->(25, 9).
-   - Down to (25, 16). M->(25, 2).
-   - Up to (25, 1). M->(25, 16).
-     - *State*: P(25, 1), M(25, 16).
-4. **The Lock**:
-   - Left to (22, 1). M->(22, 16).
-   - Down to (22, 2). M->(22, 15).
-   - Down to (22, 13). M->(22, 15) (Hits Door).
+## Plan: "Col 9 Ratchet & Row 16 Flank"
+1. **Setup**:
+   - Down to (25, 2). M -> (25, 15).
+   - Left to (9, 2). M -> (9, 15).
+     - *State*: P(9, 2), M(9, 15).
+2. **The Ratchet (Col 9)**:
+   - Down to (9, 13). M tries Up to (9, 4), BLOCKED by Wall (9, 14).
+     - *State*: P(9, 13), M(9, 15).
+3. **The Underpass**:
+   - Down to (9, 16). M -> (9, 12).
+     - *State*: P(9, 16), M(9, 12).
+   - Right to (21, 16). M -> (21, 12).
+     - *State*: P(21, 16), M(21, 12).
+4. **The Setup**:
+   - Up to (21, 13). M -> (21, 15).
+     - *State*: P(21, 13), M(21, 15).
+5. **The Finish**:
+   - Right to (22, 13). M -> (22, 15).
    - Interact.
