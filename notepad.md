@@ -32,7 +32,8 @@
 - Battling Rocket Executive (Imposter Director).
 - Defeated: Koffing (x3), Weezing.
 - Garnet (80/158 HP, Poisoned).
-- Waiting for next opponent.
+- Status: Waiting for next opponent (Koffing #4 expected).
+- Strategy: Flame Wheel (OHKO to prevent Selfdestruct).
 - Move Menu Logic: Vertical List + Cursor Memory.
 - Current Cursor: Flame Wheel (Move 4).
 - Target: Flame Wheel (Move 4).
