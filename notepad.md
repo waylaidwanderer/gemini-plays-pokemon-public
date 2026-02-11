@@ -30,8 +30,9 @@
 - Checking East side (Cols 14-17) for items.
 - Location: Radio Tower 3F (Map 3_19).
 - Objective: Rescue Director in Underground Warehouse.
-- Immediate Task: Exit Radio Tower 1F.
-- Path: (15,1) -> (15,2) -> (2,2) -> (2,7) [Exit].
+- Immediate Task: Navigate around Reception Desk to Exit.
+- Path: (11,2) -> (4,2) -> (4,7) -> Exit.
+- Reason: Counter at Row 5 blocks path South.
 - Goal: Reach Goldenrod City -> Pokemon Center -> Underground Entrance.
 - Action: Navigate to (9,0).
 - Path: 4F (0,1) -> (9,1) -> (9,0).
