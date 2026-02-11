@@ -9,3 +9,4 @@
 
 # Tasks
 - Challenge Pryce.
+- Gym Mechanics: TYPE_3fe2 is safe floor, TYPE_11a6 is ice.
