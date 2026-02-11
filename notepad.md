@@ -11,3 +11,4 @@
 - Explore 2F West for stairs.
 - Defeated Rocket Grunt at 1F (Turn 37529).
 - Defeated Rocket Grunt (Arbok) at 2F (Turn 37558).
+- Fighting Rocket Grunt (Zubat...) at 2F (Turn 37562).
