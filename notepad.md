@@ -1,32 +1,35 @@
 # Team Rocket HQ - Murkrow Puzzle
 
 ## STATUS: REPOSITIONING TO NORTH
-**Goal**: Open Boss Door at (22, 14) from the North side (22, 13).
-**Current**: P(22, 16) blocked by Statue. M(22, 13).
+**Goal**: Open Boss Door at (22, 14).
+**Method**: "Switch Desync" at (19, 11).
 
-## Step 1: Return to Col 1
+## Step 1: Return to Col 1 & Invert Y
+- **Current**: P(22, 16), M(22, 13).
 - **Action**:
-  - Clear text (B).
-  - Left 21 to (1, 16).
-  - *State*: P(1, 16), M(1, 13).
+  - Clear Text (B).
+  - Left to (1, 16).
+  - Up to (1, 1). M Down to (1, 16).
+  - Down to (1, 16). M Up to (1, 1).
+  - *State*: P(1, 16), M(1, 1).
 
-## Step 2: Desync Y (Top/Bottom)
+## Step 2: Traverse to Col 22
 - **Action**:
-  - Up to (1, 1) (Hit Top).
-    - M moves Down to (1, 16) (Hit Bottom).
-  - Down to (1, 13).
-    - M moves Up to (1, 4).
-  - *State*: P(1, 13), M(1, 4).
+  - Right to (22, 16).
+  - M Right to (22, 1). (Assumes M passes Alarm at 6,1).
+  - *State*: P(22, 16), M(22, 1).
 
-## Step 3: Approach Door
+## Step 3: Ratchet & Desync
 - **Action**:
-  - Right to (22, 13).
-    - M Right to (22, 4).
-  - *State*: P(22, 13), M(22, 4).
+  - Up to (22, 11). M Down to (22, 6).
+  - Push UP against Wall (22, 10). M Down to (22, 13).
+  - *State*: P(22, 11), M(22, 13).
+  - Left to (20, 11). M Left to (20, 13).
+  - Push LEFT against Switch (19, 11). M Left to (19, 13).
+  - *State*: P(20, 11), M(19, 13).
 
-## Step 4: Ratchet & Solve
+## Step 4: Solve
 - **Action**:
-  - Push UP against Wall (22, 10).
-  - M moves Down to (22, 13).
-  - Side-step to P(22, 13), M(22, 11).
-  - Interact Down.
+  - Right to (22, 11). M Right to (21, 13).
+  - Down to (22, 12). M Up to (21, 12).
+  - Interact Left (M), then Down (Door).
