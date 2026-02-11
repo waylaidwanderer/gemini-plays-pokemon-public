@@ -36,4 +36,4 @@
 - Move Menu Logic: Vertical List + Cursor Memory.
 - Current Cursor: Smokescreen (Move 3).
 - Target: Flame Wheel (Move 4).
-- Action: B, A, Down, A.
+- Status: Used Smokescreen. Waiting for enemy turn.
