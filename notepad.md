@@ -3,39 +3,27 @@
 ## STATUS: EXECUTING "THE ULTIMATE PLAN"
 **Goal**: P(22, 13), M(22, 15).
 
-## Step 1: Sync X (Right Wall)
-- **Action**: Move Right to (28, 2) and bump wall.
-- **Result**: P(28, 2), M(28, 2).
-
-## Step 2: Top Ratchet (Col 26)
-- **Action**:
-  - Left to (26, 2). M->(26, 2).
-  - Down to (26, 9). M->(26, 1) (Hits top wall).
-  - *State*: P(26, 9), M(26, 1).
-
-## Step 3: The Cross (Col 26)
-- **Action**:
-  - Up to (26, 1). M->(26, 9).
-  - *State*: P(26, 1), M(26, 9).
-
-## Step 4: The Swap (Col 28)
-- **Action**:
-  - Right to (28, 1). M->(28, 9).
-  - Down to (28, 13). M->(28, 9) (Hits Wall 28,8).
-  - *State*: P(28, 13), M(28, 9).
-
-## Step 5: The Dive (Col 28)
-- **Action**:
-  - Up to (28, 7). M->(28, 15).
-  - *State*: P(28, 7), M(28, 15).
-
-## Step 6: The Lock (Col 25)
-- **Action**:
-  - Left to (25, 7). M->(25, 15).
-  - Down to (25, 13). M->(25, 15) (Hits Wall 25,14).
-  - *State*: P(25, 13), M(25, 15).
-
-## Step 7: Finish
-- **Action**:
-  - Left to (22, 13). M->(22, 15).
-  - Interact.
+## Plan: "Row 4 Flank & Door Stop"
+1. **Flank to Row 9**:
+   - Left to (5, 2). M -> (5, 2).
+   - Down to (5, 9). M -> (5, 1).
+     - *State*: P(5, 9), M(5, 1).
+2. **Setup Ratchet**:
+   - Right to (26, 9). M -> (23, 1) (Hits Statue 24,1).
+     - *State*: P(26, 9), M(23, 1).
+   - Up to (26, 3). M -> (23, 7).
+     - *State*: P(26, 3), M(23, 7).
+   - Right to (27, 3). M -> (24, 7).
+   - Down to (27, 13). M -> (24, 6) (Hits Statue 24,5).
+     - *State*: P(27, 13), M(24, 6).
+3. **The Deep Dive**:
+   - Up to (27, 4). M -> (24, 15).
+     - *State*: P(27, 4), M(24, 15).
+4. **The Door Stop**:
+   - Right to (29, 4). M -> (29, 15) (Hits Wall 29,15).
+     - *State*: P(29, 4), M(29, 15).
+   - Left to (22, 4). M -> (22, 15).
+     - *State*: P(22, 4), M(22, 15).
+   - Down to (22, 13). M -> (22, 15) (Hits Door 22,14).
+     - *State*: P(22, 13), M(22, 15).
+   - Interact.
