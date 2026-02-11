@@ -28,12 +28,11 @@
 - Employee at (11, 2) asks to save Director on 5F.
 - (7, 0) looks like stairs to 4F.
 - Checking East side (Cols 14-17) for items.
-- Location: Radio Tower 5F (Map 3_21).
-- Battling Rocket Executive (Imposter Director).
-- Defeated: Koffing (x5), Weezing.
-- Garnet (83/161 HP, Poisoned).
-- Battle Won!
-- Status: Moving to check stairs at (9,0).
+- Location: Radio Tower 4F (Map 3_20).
+- Objective: Reach Underground Warehouse.
+- Key Item: Basement Key obtained.
+- Party: Garnet (83/161 HP), Topaz (56/56 HP).
+- Immediate Task: Defeat Grunt at (4,2) to reach stairs at (9,0).
 - Action: Navigate to (9,0).
 - Path: 4F (0,1) -> (9,1) -> (9,0).
 - Key Item: Basement Key obtained.
