@@ -14,16 +14,16 @@
   5. Right to (26, 16).
 
 ## Step 3: Corrected Path & Sync
-- **Current Issue**: Blocked by wall at (23, 13). Need to flank.
-- **Plan**:
-  1. **Sync X**: Move Right to Wall (29, 13) to ensure P and M are aligned on X axis.
-  2. **Flank**: Move Left to (26, 13), Up to (26, 12).
-  3. **Approach**: Move Left to (22, 12), Down to (22, 13).
-  4. **Result**: P(22, 13), M(22, 16) (M blocked by wall 22,15).
+- **Execution Plan**:
+  1. **Ratchet M**: Move Up to (24, 12). M moves Down to (23, 16).
+  2. **Align M**: Move Left (Push Wall). M moves Left to (22, 16).
+  3. **Lock M**: Move Down to (24, 16). M tries Up to (22, 15) (Wall), stays at (22, 16).
+  4. **Approach**: Move Left to (22, 16). M moves Left to (20, 16).
+  5. **Finish**: Move Up to (22, 13). Interact.
 - **Action**:
-  - Right x5 (Sync).
-  - Left x2 (To 26).
-  - Up (To 12).
-  - Left x4 (To 22).
-  - Down (To 13).
-  - Interact (A).
+  - Up.
+  - Left.
+  - Down x4.
+  - Left x2.
+  - Up x3.
+  - A.
