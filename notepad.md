@@ -25,17 +25,19 @@
    - Walk to door.
 
 ## Current State
-- P(27, 2). Re-entered B2F.
-- **Status**: Searching for Murkrow.
-- **Hypothesis**: Murkrow resets to Top-Left (near 7, 2).
+- P(17, 2).
+- **Observation**: Murkrow NOT at (17, 2).
+- **Inference**: "Mirror X" from (7, 2) is false (or start pos is diff).
+- **Hypothesis**: Murkrow Mimics X (Left->Left) and is pinned at (1, 2).
 
 ## Search Plan
-1. **Scan Row 2**: Move Left from (27, 2) to (7, 2).
-   - Watch for Murkrow sprite.
-   - Check if M intercepts at center (17, 2).
+1. **Move to (1, 2)**: Check if M is pinned against Left Wall.
 2. **If Found**:
-   - Stop and test movement rules (Mirror vs Mimic).
-   - Use verified rules to plan "Ratchet".
+   - Confirm Mimic X.
+   - Plan Ratchet.
+3. **If Missing**:
+   - M is not on Row 2 (or invisible).
+   - Re-evaluate Start Position.
 
 ## Immediate Action
-- Move Left to (17, 2).
+- Move Left to (1, 2).
