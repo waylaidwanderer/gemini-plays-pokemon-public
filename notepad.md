@@ -5,14 +5,8 @@
 
 ## Plan: "The Col 4 Flip" (Verified)
 1. **Vertical Flip (Col 4)**:
-   - Current: P(7,1), M(7,3).
-   - **Action**: Left to (4,1). M -> (4,3).
-   - **Action**: Down to (4,16).
-     - M moves Up: 3->2->1->0(Wall)->Stay 1.
-     - *State*: P(4,16), M(4,1).
-   - **Action**: Up to (4,1).
-     - M moves Down: 1->16.
-     - *State*: P(4,1), M(4,16).
+   - *Status*: Complete.
+   - *Current State*: P(4, 1), M(4, 16).
 2. **Horizontal Slide**:
    - **Action**: Right to (22,1).
      - M moves Right: (4,16) -> (22,16).
