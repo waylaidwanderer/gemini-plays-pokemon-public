@@ -31,7 +31,8 @@
 - Location: Goldenrod City.
 - Objective: Rescue Director in Underground Warehouse.
 - Immediate Task: Heal at Pokemon Center (15, 27).
-- Path: Continue South to Row 27 -> Turn East.
-- Current Pos: Main Street (Approaching Row 24).
+- Correction: Backtracking North to Row 16 to bypass wall at Col 12.
+- Path: North to Row 16 -> East to Col 14 -> South to Center.
+- Reason: Dead end at (6, 19) behind Game Corner.
 - Next: Enter Underground via South Entrance (11, 29).
 - Key Item: Basement Key (Opens door in Underground).
