@@ -19,3 +19,6 @@
 - Exploring East side for items/keys.
 - Confirmed: Director is on 5F.
 - Wall at Col 15 blocks further East. Checking for doors or gaps.
+- Employee at (11, 2) asks to save Director on 5F.
+- (7, 0) looks like stairs to 4F.
+- Checking East side (Cols 14-17) for items.
