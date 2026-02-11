@@ -31,8 +31,7 @@
 - Location: Radio Tower 3F (Map 3_19).
 - Objective: Rescue Director in Underground Warehouse.
 - Immediate Task: Navigate to West Stairs (0, 0).
-- Reason: Avoid closed shutters at (7,3)/(8,3).
-- Path: (9,3) -> (9,2) -> (0,2) -> (0,0).
+- Path: (7,2) -> (6,0) -> (4,0) -> (4,1) -> (0,0).
 - Goal: Descend to 2F.
 - Action: Navigate to (9,0).
 - Path: 4F (0,1) -> (9,1) -> (9,0).
