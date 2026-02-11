@@ -25,18 +25,20 @@
    - Walk to door.
 
 ## Current State
-- P(27, 2). M(7, 2) [Reset].
-- **Plan**: "Col 25-22 Ratchet".
-  1. **Sync Gap=3**: P(4, 2), M(1, 2).
-  2. **Position**: P(25, 2), M(22, 2).
-  3. **Ratchet**: P(25, 15), M(22, 1).
-  4. **Pull**: P(25, 3), M(22, 13).
-  5. **Drop**: P(25, 2), M(22, 14).
+- P(4, 2). M(1, 2) [Assumed Pinned].
+- **Mystery**: Murkrow sprite not visible at (1, 2) in screenshot.
+  - Possibility A: Glitch/Flicker.
+  - Possibility B: Mirror Horizontal (M is at 29, 2).
+  - Possibility C: M blocked earlier.
+- **Action**: Move to (25, 2) to check if M appears at (22, 2).
 
-## Step 1: Sync Gap
-- Move Left to (4, 2).
-- Murkrow pins at (1, 2).
-- Result: P(4, 2), M(1, 2). Gap = 3.
+## Plan: "Col 25-22 Ratchet"
+1. **Sync Gap=3**: P(4, 2), M(1, 2). [Done]
+2. **Position**: P(25, 2), M(22, 2).
+   - *Check*: Look for M at (22, 2).
+3. **Ratchet**: P(25, 15), M(22, 1).
+4. **Pull**: P(25, 3), M(22, 13).
+5. **Drop**: P(25, 2), M(22, 14).
 
 ## Immediate Action
-- Navigate to (4, 2).
+- Navigate to (25, 2).
