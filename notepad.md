@@ -25,16 +25,16 @@
    - P->(5, 1). M->(6, 1) [Blocked].
    - **State**: P(5, 1), M(6, 2).
    - **Offsets**: X=+1, Y=+1.
-5. **Sync X (Right Wall)**:
-   - Move Right to (28, 1).
-   - P->(28, 1). M->(29, 2) [Blocked by Wall].
-   - **State**: P(28, 1), M(28, 2).
-   - **Offsets**: X=0, Y=+1.
+5. **Sync X (Left Wall)**:
+   - Move Left to (1, 1).
+   - P->(1, 1). M->(2, 2).
+   - Move Left (Bump Wall).
+   - P blocked at (1, 1). M moves to (1, 2).
+   - **State**: P(1, 1), M(1, 2). (Synced X, Y+1).
 6. **Deliver**:
-   - Move Left to (21, 1). (Avoid Col 22 Trap).
-   - Move Down to (21, 13).
-   - Move Right to (22, 13).
+   - Navigate to (22, 13).
+   - M follows to (22, 14).
    - Interact.
 
 ## Immediate Action
-- Step Right, then Left to re-enter B2F.
+- Move Left to (5, 3).
