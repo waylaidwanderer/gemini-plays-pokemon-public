@@ -25,19 +25,17 @@
    - Walk to door.
 
 ## Current State
-- P(3, 14) in B1F.
-- **Action**: Re-entering B2F via Stairs to force Murkrow Reset.
-- **Expectation**: Murkrow spawns at (7, 1).
+- P(3, 14) -> Moving to (7, 2).
+- **Goal**: Verify Murkrow spawn at (7, 1) or (19, 1).
 
 ## Execution Plan
-1. **Re-enter**: Right -> Left -> B2F (3, 14).
-2. **Navigate**: Go Up to Row 2, then Right to Col 7.
-3. **Verify**: Spot Murkrow at (7, 1).
-4. **Test**:
+1. **Navigate**: Go Up to Row 2, then Right to Col 7.
+2. **Verify**: Spot Murkrow at (7, 1).
+3. **Test**:
    - Move **Right** to (8, 2).
    - **Mirror X**: M moves Left to (6, 1)? Or Right?
      - If P(7->8) is Right, Mirror M(7->6) is Left.
    - **Mimic X**: M moves Right to (8, 1).
 
 ## Immediate Action
-- Step Right, then Left.
+- Move to (7, 2).
