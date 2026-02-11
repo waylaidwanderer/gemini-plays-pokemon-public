@@ -25,19 +25,26 @@
    - Walk to door.
 
 ## Current State
-- P(19, 1). M(19, 1) [Synced/Overlapped].
-- **Status**: Synced. Moving to Door.
-- **Path**: Col 21 -> (22, 13) -> (22, 14).
-- **Reason**: Avoid Warp Trap at (22, 7).
+- P(22, 13). M(Unknown, likely 8,1).
+- **Hypothesis**: Overlap failed due to collision. M is stuck elsewhere.
+- **Solution**: Use Right Wall to create X+1 Offset.
 
-## Execution
-1. **Navigate to (21, 13)**.
-   - Use Col 21 (Safe).
-2. **Approach Door**:
-   - Right to (22, 13).
-   - Down to (22, 14).
-3. **Interact**:
-   - Open Door.
+## The "Right Wall Alignment" Plan
+1. **Reset Y Gap**:
+   - Move to (21, 13) -> Up to (21, 1).
+   - M moves Up -> Blocked at Wall. Y-Gap becomes 0.
+2. **Set X Gap (+1)**:
+   - Move Right to (28, 1).
+   - M moves Right -> Blocked at (29, 1).
+   - Result: P(28, 1), M(29, 1). Gap X = +1.
+3. **Navigate to Door**:
+   - Left to (21, 1). M -> (22, 1).
+   - Down to (21, 13). M -> (22, 13).
+   - Result: M is in front of Door, P is left of M.
+4. **Trigger**:
+   - Move Down (Bump).
+   - Move Right (Overlap M at 22, 13).
+   - Interact.
 
 ## Immediate Action
-- BFS to (21, 13).
+- Move Left to (21, 13), then Up to (21, 1).
