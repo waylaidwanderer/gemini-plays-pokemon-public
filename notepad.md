@@ -7,11 +7,15 @@
 ## Step 1: Sync X (Col 1) [COMPLETED]
 - P synced at X=1.
 
-## Step 2: Invert Y (Battle Path) [IN PROGRESS]
-- **Current**: P(1, 4). M(1, 1) (Blocked at top).
-- **Action**: Move Down to (1, 16).
-  - Expect battles at (1, 8) [Voltorb] and (1, 13) [Geodude].
-  - M will stay at (1, 1) while P descends.
+## Step 2: Invert Y (Battle Path) [MODIFIED]
+- **Issue**: Blockage/Loop at (1, 5). Possible warp or invisible wall.
+- **New Path**: Switch to Column 3 for descent.
+- **Action**:
+  - P(1, 4) -> Up to (1, 3).
+  - Right to (3, 3).
+  - Down to (3, 16).
+  - Left to (1, 16).
+  - *Result*: P(1, 16), M(1, 1). (Same outcome).
 
 ## Step 3: Desync X (Use Grunt at 2,4)
 - **Action**:
