@@ -13,3 +13,5 @@
 - Defeated Rocket Grunt (Arbok) at 2F (Turn 37558).
 - Battle Menu is 2x2 Grid. TL: Swift, TR: Mud-Slap, BL: Smokescreen, BR: Flame Wheel.
 - Down toggles Top/Bottom. Right toggles Left/Right.
+- Cursor Memory: Cursor stays on last used move (currently Smokescreen/BL).
+- Goal: Move cursor Right to Flame Wheel (BR) next turn.
