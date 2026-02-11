@@ -48,3 +48,4 @@
    - Move **Left x2** to P(23, 15). M -> (22, 13).
    - Move **Up x1** to P(23, 14). M -> (22, 14).
    - **ENTER**.
+- **Update (Turn 37043)**: Lance and Dragonite arrived at (12-13, 13)! It's a party now! Rival and Executive are also here. Murkrow is missing from view.
