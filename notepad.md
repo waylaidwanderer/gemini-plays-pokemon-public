@@ -31,10 +31,9 @@
 - Location: Radio Tower 5F (Map 3_21).
 - Battling Rocket Executive (Imposter Director).
 - Defeated: Koffing (x3).
+- Opponent: Weezing (Lv 32) (Incoming).
 - Garnet (80/158 HP, Poisoned).
-- Topaz grew to Lv 18.
-- Opponent: Weezing (Incoming).
-- Strategy: Flame Wheel (expecting high Def/Selfdestruct).
+- Strategy: Flame Wheel (Special vs Low SpDef). Mud-Slap is physical and weak.
 - Move Menu Logic: Vertical List + Cursor Memory.
 - Current Cursor: Flame Wheel (Move 4).
 - Target: Flame Wheel (Move 4).
