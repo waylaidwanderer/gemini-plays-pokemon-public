@@ -33,8 +33,9 @@
 - Defeated: Koffing (x5), Weezing.
 - Garnet (83/161 HP, Poisoned).
 - Battle Won!
-- Status: Selected Full Heal. Using on Garnet.
-- Action: Select Garnet (Slot 1) -> Confirm.
+- Status: Poison cured. Exiting menus.
+- Action: Press B to close Pack.
+- Path: 4F (0,0) -> 4F (9,0) [Stairs Down?] -> 3F -> Exit.
 - Path: 4F (0,0) -> 4F (9,0) [Stairs Down?] -> 3F -> Exit.
 - Key Item: Basement Key obtained.
 - Move Menu Logic: Vertical List + Cursor Memory.
