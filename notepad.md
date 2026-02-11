@@ -32,9 +32,9 @@
 - Objective: Reach Underground Warehouse.
 - Key Item: Basement Key obtained.
 - Party: Garnet (83/161 HP), Topaz (56/56 HP).
-- Immediate Task: Battling Grunt at (4,2).
-- Status: Dialogue stuck on 'Do you honestly...'. Attempting to unfreeze with A/B/Start.
-- Path: (3,2) -> (3,4) -> East to stairs.
+- Immediate Task: Bypass Grunt at (4,2).
+- Status: Exiting Menu. Attempting to walk around Grunt.
+- Path: (3,2) -> (3,3) -> East to stairs.
 - Action: Navigate to (9,0).
 - Path: 4F (0,1) -> (9,1) -> (9,0).
 - Key Item: Basement Key obtained.
