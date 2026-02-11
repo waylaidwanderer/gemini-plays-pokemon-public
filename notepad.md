@@ -1,48 +1,41 @@
 # Team Rocket HQ - Murkrow Puzzle
 
-## STATUS: EXECUTING COL 26 STRATEGY
-**Goal**: Open Boss Door at (22, 14) from (22, 13).
-**Condition**: M must be at (22, 15) when P is at (22, 13).
+## STATUS: EXECUTING "THE ULTIMATE PLAN"
+**Goal**: P(22, 13), M(22, 15).
 
-## Step 1: Navigate to Bottom Right
-- **Current**: (3, 2).
-- **Route**:
-  1. Right to (26, 2).
-  2. Down to (26, 9) (Blocked).
-  3. Left to (22, 9).
-  4. Down to (22, 16).
-  5. Right to (26, 16).
+## Step 1: Sync X (Right Wall)
+- **Action**: Move Right to (28, 2) and bump wall.
+- **Result**: P(28, 2), M(28, 2).
 
-## Puzzle Status: RESET DETECTED
-- **Event**: Warped to (24, 10) after attempting to interact with door/approaching (22, 16).
-- **Hypothesis**: (22, 16) is a Warp Trap OR Incorrect Door Interaction warps player.
-- **Next Step**: Check (7, 2) for Murkrow. If there, restart.
+## Step 2: Top Ratchet (Col 26)
+- **Action**:
+  - Left to (26, 2). M->(26, 2).
+  - Down to (26, 9). M->(26, 1) (Hits top wall).
+  - *State*: P(26, 9), M(26, 1).
 
-## Plan: "Statue Shimmy & Crate Flank" (Verified)
+## Step 3: The Cross (Col 26)
+- **Action**:
+  - Up to (26, 1). M->(26, 9).
+  - *State*: P(26, 1), M(26, 9).
 
-1. **Sync X & Top Ratchet**:
-   - Go Right to (28, 2) + Bump Wall -> M at (28, 2).
-   - Go Left to (24, 2) -> M at (24, 2).
-   - Down to (24, 9) -> M hits Statue (24, 1), stays (24, 2).
-     - *State*: P(24, 9), M(24, 2).
+## Step 4: The Swap (Col 28)
+- **Action**:
+  - Right to (28, 1). M->(28, 9).
+  - Down to (28, 13). M->(28, 9) (Hits Wall 28,8).
+  - *State*: P(28, 13), M(28, 9).
 
-2. **Middle Ratchet**:
-   - Up to (24, 2) -> M Down to (24, 9).
-   - Down to (24, 9) -> M Up to (24, 6) (Blocked by Statue 24,5).
-     - *State*: P(24, 9), M(24, 6).
+## Step 5: The Dive (Col 28)
+- **Action**:
+  - Up to (28, 7). M->(28, 15).
+  - *State*: P(28, 7), M(28, 15).
 
-3. **Deep Dive**:
-   - Up to (24, 2) -> M Down to (24, 13).
-     - *State*: P(24, 2), M(24, 13).
+## Step 6: The Lock (Col 25)
+- **Action**:
+  - Left to (25, 7). M->(25, 15).
+  - Down to (25, 13). M->(25, 15) (Hits Wall 25,14).
+  - *State*: P(25, 13), M(25, 15).
 
-4. **Flank & Bottom Ratchet**:
-   - Right to (26, 2) -> M Right to (26, 13).
-   - Down to (26, 9) -> M Up to (26, 12) (Blocked by Obstacle 26,11).
-     - *State*: P(26, 9), M(26, 12).
-   - Up to (26, 6) -> M Down to (26, 15).
-     - *State*: P(26, 6), M(26, 15).
-
-5. **Unlock**:
-   - Left to (22, 6) -> M Left to (22, 15).
-   - Down to (22, 13) -> M blocked by Door (22, 14), stays (22, 15).
-   - Interact.
+## Step 7: Finish
+- **Action**:
+  - Left to (22, 13). M->(22, 15).
+  - Interact.
