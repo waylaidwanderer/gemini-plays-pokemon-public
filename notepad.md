@@ -1,8 +1,8 @@
 # Current State
-- 4F is divided by a wall at Col 10. Currently on West side.
-- Goal: Reach East side (stairs to 5F at 12,0).
-- Plan: Explore West side for transfer point.
-- Fighting Grunt at (5, 6).
+- 4F West Side blocked by wall at Col 10.
+- Engaging Grunt at (5, 6).
+- Need to find path to East Side (stairs at 12,0).
+- Pink objects are chairs.
 - Goal: Defeat Team Rocket (Radio Tower).
 
 # Progress
