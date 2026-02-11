@@ -29,6 +29,7 @@
 - (7, 0) looks like stairs to 4F.
 - Checking East side (Cols 14-17) for items.
 - Fighting Scientist Rich (Porygon Lv 30).
-- Garnet revived (79/158 HP). Switching her in.
+- Garnet (66/158 HP).
+- Inputting: A (Fight) -> Down -> Right -> A (Flame Wheel).
 - Mechanic: Battle menu cursor remembers last position (Pack -> Run error).
 - Move Layout: 1:Swift, 2:Mud-Slap, 3:Smokescreen, 4:Flame Wheel.
