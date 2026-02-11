@@ -33,7 +33,7 @@
 - Defeated: Koffing (x5), Weezing.
 - Garnet (83/161 HP, Poisoned).
 - Battle Won!
-- Status: Advancing post-battle dialogue. Waiting for Basement Key.
+- Status: Dialogue. Executive confessing Director's location.
 - Move Menu Logic: Vertical List + Cursor Memory.
 - Current Cursor: Flame Wheel (Move 4).
 - Target: Flame Wheel (Move 4).
