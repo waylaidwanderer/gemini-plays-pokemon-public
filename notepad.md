@@ -36,8 +36,9 @@
    - M(6, 2) -> (28, 2) -> (29, 2) [Blocked by Wall].
    - **State**: P(28, 1), M(28, 2). (Synced X, Y+1).
 6. **Deliver**:
-   - Move Left to (22, 1).
-   - Move Down to (22, 13).
+   - Move Left to (21, 1). (Avoid Col 22 Trap).
+   - Move Down to (21, 13).
+   - Move Right to (22, 13).
    - Interact.
 
 ## Immediate Action
