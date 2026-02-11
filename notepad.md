@@ -35,3 +35,4 @@
 - Key Item: Basement Key (Opens door in Underground).
 - Anomaly: 'POKE' sign building (15, 27) leads to Game Corner (11_20).
 - Hypothesis: Buildings swapped? Checking (14, 21) for Poke Center.
+- NPC Blocking path to Poke Center at (16, 23). Needs to move.
