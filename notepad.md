@@ -30,9 +30,9 @@
 - Checking East side (Cols 14-17) for items.
 - Location: Radio Tower 3F (Map 3_19).
 - Objective: Rescue Director in Underground Warehouse.
-- Immediate Task: Exit Radio Tower 1F.
-- Path: (2,4) -> (2,7) [Exit].
-- Goal: Reach Goldenrod City -> Pokemon Center -> Underground Entrance.
+- Immediate Task: Heal at Pokemon Center.
+- Path: Goldenrod City -> Pokemon Center.
+- Next: Enter Underground (entrance North of PokeCenter?).
 - Action: Navigate to (9,0).
 - Path: 4F (0,1) -> (9,1) -> (9,0).
 - Key Item: Basement Key obtained.
