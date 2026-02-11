@@ -1,21 +1,23 @@
-# Murkrow Solution: Physics Test & Ratchet
+# Murkrow Solution: The Wiggle Test
 
 ## Current Status
-- P(22, 13). M(21, 13).
-- Free from Trap.
+- P(20, 13). M(18, 13) [Calculated].
+- Goal: Determine Y-Axis Behavior (Mimic vs Mirror).
 
-## Step 1: Escape & Test Y-Physics
-1. **Push M Left**:
-   - Move **Left** (Bump M). M -> (20, 13).
-   - Move **Left** to (21, 13). M -> (19, 13).
-   - Move **Left** to (20, 13). M -> (18, 13).
-2. **The Wiggle Test**:
-   - Move **Down** to (20, 14).
-   - Move **Up** to (20, 13).
+## Execution
+1. **Move Down**:
+   - P moves to (20, 14).
    - **Observe M**:
-     - If M is at Y=14: **Mirror Y** (M(18, 14)).
-     - If M is at Y=13: **Mimic Y** (M(18, 13)).
+     - If M moves to (18, 14): **Mimic Y**.
+     - If M stays at (18, 13): **Mirror Y** (Blocked by Wall 18,12).
 
-## Step 2: The Solution
-- **If Mimic Y**: Align P(22, 13), M(22, 13). Move Down to (22, 14). M follows to Plate. P enters Door.
-- **If Mirror Y**: Align P(22, 14), M(22, 13). P Bump Door (Right). M moves to (22, 13). P Up, M Down to Plate.
+## Contingency Plans
+- **Case Mirror Y (Likely)**:
+  1. P(20, 14), M(18, 13).
+  2. Move Right to (22, 14). M -> (20, 13).
+  3. Bump Right x2 (on Door). M -> (22, 13).
+  4. Move Up to (22, 13). M -> (22, 14) [Plate].
+  5. Enter Door.
+- **Case Mimic Y**:
+  1. P(20, 14), M(18, 14).
+  2. Needs replanning to align M above Plate.
