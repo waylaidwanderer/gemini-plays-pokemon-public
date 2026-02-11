@@ -1,22 +1,21 @@
-# Murkrow Solution: The Corridor Flank
+# Murkrow Solution: The Wall Block
 
 ## Current State
 - P(22, 16). M(22, 15) [Estimated].
 - Goal: M(22, 14).
 
 ## Execution Plan
-1. **Reset X**:
+1. **Desync X (Wall at 21,15)**:
    - Move **Left x2** to (20, 16).
-   - M moves to (20, 15).
-   
-2. **Move Up to Row 13**:
-   - Move **Up** to (20, 15). M -> (20, 14).
-   - Move **Up** to (20, 14). M -> (20, 13).
+   - M tries to move Left but hits Wall at (21, 15).
+   - M stays at (22, 15).
+   - State: P(20, 16), M(22, 15).
 
-3. **X-Align (Grunt Bump)**:
-   - Move **Right** (Bump Grunt). P stays (20, 14). M -> (21, 13).
-   - Move **Right** (Bump Grunt). P stays (20, 14). M -> (22, 13).
+2. **Position M**:
+   - Move **Up** to (20, 15).
+   - M (Mimic Y) moves Up to (22, 14).
+   - **M is on Target**.
 
-4. **Delivery**:
-   - Move **Down** to (20, 15). M -> (22, 14).
-   - **Check Door**.
+3. **Check Status**:
+   - Look for "Click" or Door Opening.
+   - If nothing, try moving to see door.
