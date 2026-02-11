@@ -31,7 +31,8 @@
 - Defeated Scientist Rich at (0, 2) on 4F.
 - Currently in 4F West (isolated area).
 - Goal: Find path to 4F East (Stairs to 5F).
-- Hypothesis: Stairs at (0, 0) might lead to 5F or a new part of 3F.
+- Hypothesis: Stairs at (0, 0) lead down to 3F. Need to find a way to 3F East (likely via 2F).
+- Topaz equipped with EXP Share.
 - Game Mechanic: 4F is split by a wall at Col 10.
 - Markers: Wall Divider at (10, 3).
-- Action: Equipping EXP Share to Topaz.
+- Action: Checking stairs at (0, 0).
