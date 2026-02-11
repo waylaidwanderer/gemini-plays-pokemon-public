@@ -32,7 +32,8 @@
 - Objective: Reach Underground Warehouse.
 - Key Item: Basement Key obtained.
 - Party: Garnet (83/161 HP), Topaz (56/56 HP).
-- Immediate Task: Defeat Grunt at (4,2) to reach stairs at (9,0).
+- Immediate Task: Battling Grunt at (4,2).
+- Status: Advancing pre-battle text.
 - Action: Navigate to (9,0).
 - Path: 4F (0,1) -> (9,1) -> (9,0).
 - Key Item: Basement Key obtained.
