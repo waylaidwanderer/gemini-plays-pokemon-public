@@ -1,21 +1,29 @@
-# Murkrow Puzzle: Navigation via Overlap
+# Murkrow Puzzle: Sidekick Strategy (Reset Required)
 
 ## Current State
-- P(2, 1). M(2, 1).
-- **Strategy**: Top Corridor Express (Row 3).
-- **Observation**: Row 3 is a clear corridor from Col 2 to Col 21. Avoids all traps and blocked columns.
+- P(21, 3). M(21, 3) [Overlapped].
+- **Status**: Aborting Overlap. Resetting for Sidekick.
+- **Reason**: Overlap interactions failed. Need P at Door, M adjacent.
 
-## Execution Plan
-1. **Access Top Corridor**:
-   - Move Down to (2, 3).
-   - **Result**: P(2, 3), M(2, 3).
-2. **Traverse East**:
-   - Move Right to (21, 3).
-   - **Result**: P(21, 3), M(21, 3).
-3. **Approach Door**:
-   - Move Down to (21, 13).
-   - Move Right to (22, 13).
-   - **Interact**: Overlapped or Sidekick.
+## Reset Path
+1. **Navigate to Stairs**:
+   - Left to (5, 3).
+   - Down to (5, 14).
+   - Left to (3, 14).
+   - Stairs -> B1F -> B2F.
+
+## Sidekick Execution (Post-Reset)
+1. **Start**: P(7, 2), M(7, 1).
+2. **Create X Offset (P Right)**:
+   - Move Right to (23, 2).
+   - Move Right to (24, 2). M blocked by Statue(24, 1).
+   - **State**: P(24, 2), M(23, 1).
+3. **Sync Y**:
+   - Down to (24, 3). Left to (21, 3). Up to (21, 1).
+   - **State**: P(21, 1), M(20, 1).
+4. **Deliver**:
+   - Down to (21, 13). Right to (22, 13).
+   - Interact.
 
 ## Immediate Action
-- Move Down to (2, 3).
+- Move Left to (5, 3).
