@@ -33,7 +33,7 @@
 - Defeated: Koffing (x4), Weezing.
 - Opponent: Koffing #5 (Incoming).
 - Garnet (83/161 HP, Poisoned).
-- Status: Declined switch. Battling Koffing #5.
+- Status: Cancelled switch. Waiting for Koffing #5.
 - Strategy: Flame Wheel.
 - Move Menu Logic: Vertical List + Cursor Memory.
 - Current Cursor: Flame Wheel (Move 4).
