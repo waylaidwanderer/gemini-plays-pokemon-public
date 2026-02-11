@@ -2,11 +2,12 @@
 
 ## Mechanics Verified
 - **X-Mimicry**: CONFIRMED. Player Right -> Murkrow Right.
-- **Y-Mirroring**: TESTING. Player Down -> Murkrow Up?
+- **Y-Mirroring**: TESTING. Player Down -> Murkrow vanished? (Likely moved off-screen or I'm blind).
+- **Update**: Sprite tracker said "No sprites moved", but sprite is gone from (14, 12).
 
-## Current State (Turn 37025)
-- Player: (14, 13)
-- Murkrow: (14, 12)
+## Current State (Turn 37026)
+- Player: (14, 14)
+- Murkrow: Lost (Last seen 14, 12)
 
 ## Execution Plan
 1. **Pass Computers (Y=1)**:
