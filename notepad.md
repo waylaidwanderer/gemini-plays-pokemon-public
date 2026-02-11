@@ -25,33 +25,25 @@
    - P->(5, 1). M(6, 2)->(6, 1) [Blocked by Statue].
    - **State**: P(5, 1), M(6, 2). (Offsets: X=+1, Y=+1).
 ## Current State
-- P(21, 2). M(21, 2) [Synced].
-- **Status**: Resetting to (3, 14).
-- **Reason**: Failed Weave. Restarting "Double Shimmy".
+- P(7, 2). M(7, 1).
+- **Status**: Executing "Double Shimmy" - Step 2.
 
-## The "Double Shimmy" Plan (Confirmed)
-1. **Reset**:
-   - Go to (3, 14) -> B1F -> B2F.
-   - **Start**: P(7, 2), M(7, 1).
+## Step-by-Step Execution
+1. **Reset**: [Done].
 2. **X-Shimmy (Create X+1 Offset)**:
-   - Move Left to (6, 2).
-   - P->(6, 2). M(7, 1) -> (6, 1) [Blocked by Statue].
-   - **State**: P(6, 2), M(7, 1).
+   - **Action**: Move Left to (6, 2).
+   - **Expected**: P->(6, 2). M(7, 1)->(6, 1) [Blocked]. M stays (7, 1).
+   - **Result State**: P(6, 2), M(7, 1).
 3. **Position for Y-Shimmy**:
-   - Move Down to (6, 3). P(6, 3), M(7, 2).
-   - Move Left to (5, 3). P(5, 3), M(6, 2).
+   - Move Down to (6, 3).
+   - Move Left to (5, 3).
 4. **Y-Shimmy (Create Y+1 Offset)**:
    - Move Up to (5, 1).
-   - P->(5, 1). M(6, 2) -> (6, 1) [Blocked by Statue].
-   - **State**: P(5, 1), M(6, 2). (Offsets: X=+1, Y=+1).
-5. **Sync X (Right Wall)**:
-   - Move Right to (28, 1).
-   - P->(28, 1). M(29, 2) [Blocked by Wall].
-   - **State**: P(28, 1), M(28, 2). (Synced X, Y+1).
+   - M blocked at (6, 1) again.
+5. **Sync X**:
+   - Move Right to Right Wall.
 6. **Deliver**:
-   - Navigate to (22, 13).
-   - M follows to (22, 14).
-   - Interact.
+   - Navigate to Door.
 
 ## Immediate Action
-- BFS to (3, 14).
+- Move Left to (6, 2).
