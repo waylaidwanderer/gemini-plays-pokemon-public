@@ -4,20 +4,16 @@
 **Goal**: Open Boss Door at (22, 14) from (22, 13).
 **Strategy**: Sync X Left, Invert Y, Traverse North, Ratchet M to (22, 12).
 
-## Step 1: Sync X at (1, 2)
-- **Current**: P(27, 2), M(7, 2).
-- **Action**: Move Left to (1, 2).
-  - *Note*: Passes Statue Alarm at (6, 1).
-  - *State*: P(1, 2), M(1, 2).
+## Step 1: Sync X at (1, 2) [DONE]
+- Current State: P(1, 2), M(1, 2).
 
-## Step 2: Reach (1, 16) (Detour)
+## Step 2: Reach (1, 16) (Detour) [IN PROGRESS]
 - **Route**:
-  - Down to (1, 4). (Avoid Wall at 1, 5).
-  - Right to (3, 4).
+  - Down to (1, 3). Right to (3, 3).
   - Down to (3, 12). (Avoid Stairs at 3, 14).
   - Left to (1, 12).
   - Down to (1, 16).
-  - *State*: P(1, 16), M(1, 16).
+  - *Target State*: P(1, 16), M(1, 1).
 
 ## Step 3: Invert Y
 - **Action**: Up to (1, 1).
