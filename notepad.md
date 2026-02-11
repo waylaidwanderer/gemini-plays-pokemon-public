@@ -1,21 +1,25 @@
-# Murkrow Solution: The Grunt Bump
+# Murkrow Solution: The Double Ratchet (Desk & Ceiling)
 
 ## Current State
-- P(21, 13), M(21, 12).
-- Plan: Use Grunt at (21, 14) and Wall at (21, 15) to desync.
+- P(20, 15), M(20, 14). Verified by sight.
+- Goal: P(23, 14), M(22, 14).
 
-## Execution
-1. **Positioning**:
-   - Move Left to (20, 13). P(20, 13), M moves to (20, 12) OR stays (21, 12).
-   - Move Down to (20, 14). P(20, 14). M moves to (20, 13) OR (21, 13).
-   - **Crucial**: M is now at Y=13, P is at Y=14.
+## Execution Plan
+1. **X-Ratchet (Desk)**:
+   - Move Left to (19, 15).
+   - Move Up to (19, 11). M(19, 10).
+   - Move Right to (21, 11).
+     - M tries (21, 10) [Desk], Blocked. Stays (20, 10).
+     - State: P(21, 11), M(20, 10). (Offset: X+1, Y+1).
 
-2. **X-Desync (Grunt Bump)**:
-   - Move Right (Bump Grunt). P stays (20, 14). M moves Right (X+1).
-   - Move Right (Bump Grunt). P stays (20, 14). M moves Right (X+2).
-   - Target M X: 22.
+2. **Y-Ratchet (Desk 2)**:
+   - Move Down to (21, 12). M(20, 11).
+   - Move Right to (22, 12). M(21, 11).
+   - Move Up to (22, 11).
+     - M tries (21, 10) [Desk], Blocked. Stays (21, 11).
+     - State: P(22, 11), M(21, 11). (Offset: X+1, Y+0).
 
 3. **Delivery**:
-   - Move Down to (20, 15). P(20, 15). M moves Down to (22, 14).
-   - Move Right (Bump Wall). P stays (20, 15). M moves Right to (23, 14) [Door].
+   - Move Down to (22, 14). M(21, 14).
+   - Move Right to (23, 14) [Door]. M(22, 14) [Plate].
    - **OPEN!**
