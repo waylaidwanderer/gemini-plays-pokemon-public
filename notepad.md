@@ -22,5 +22,5 @@
    - **Step 9**: Interact with Door.
 
 ## Current State
-- P(19, 3), M(19, 2).
-- Action: Moving Down to (19, 11).
+- P(17, 12), M(17, 1).
+- Action: Moving to (19, 12) to realign.
