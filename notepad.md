@@ -1,14 +1,15 @@
 # Murkrow Puzzle: Search Mode
 
 ## Current Status
-- P(17, 14).
-- **Murkrow NOT at (17, 13)** (Visual confirm).
-- **Murkrow NOT at (21, 12) or (22, 12)** (Mental Map markers likely old).
-- Goal: Find Murkrow.
+- P(22, 13).
+- **Murkrow MISSING**.
+- **Door (23, 14)**: To be checked.
+- **Hypothesis**: Murkrow reset to initial position (7, 1) or is lost in the maze.
 
-## Search Plan
-1. **Sweep East**: Move Right to (21, 14).
-   - Look for Murkrow in the hallway or near the Grunt.
-2. **Analysis**:
-   - If found, stop and determine offset.
-   - If not found, check the "secret" area or corners.
+## Execution Plan
+1. **Check Door**:
+   - Move Down to (22, 14).
+   - Face Right, Press A.
+2. **Search Maze**:
+   - If door closed, move Up and scan Rows 1-12.
+   - Check (7, 1) specifically.
