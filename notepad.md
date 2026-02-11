@@ -1,14 +1,22 @@
-# Murkrow Puzzle: Search & Rescue
+# Murkrow Solution: Grunt Bump & Door Check
 
 ## Current Status
-- **Location**: (8, 16).
-- **Zone**: South Section (Rows 13-16).
-- **Murkrow**: MISSING. Not in X=8 to X=23.
-- **Hypothesis**: Murkrow is in the West corner (X=3 to X=7).
-- **Note**: Row 12 is a Wall Barrier (X=0 to X=23). Murkrow cannot have gone North unless it warped.
+- **Verified**: P(17, 14), M(17, 13).
+- **Rule**: Murkrow Mimics X and Mimics Y.
+- **Offset**: M = (P.X, P.Y-1).
 
-## Search Plan
-1. **Sweep West**: Move Left to (4, 16) to scan the corner.
-2. **Avoid Stairs**: Do not step on (3, 14) yet.
-3. **Locate**: Find bird.
-4. **Re-Sync**: Use corners to align.
+## Execution Plan
+1. **Approach Grunt**:
+   - Move **Right x3** to (20, 14). M -> (20, 13).
+2. **X-Desync (Grunt Bump)**:
+   - Move **Right** (Bump Grunt). P stays (20, 14). M -> (21, 13).
+   - Move **Right** (Bump Grunt). P stays (20, 14). M -> (22, 13).
+3. **Trigger Plate**:
+   - Move **Down** to (20, 15). M -> (22, 14) [Plate].
+   - **Check for Door Open sound/visual**.
+4. **Enter Door (Attempt)**:
+   - Move **Down** to (20, 16). M stays (22, 14) [Blocked by Wall 22,15].
+   - Move **Right x3** to (23, 16). M stays (22, 14) [Blocked by Door 23,14?].
+   - Move **Up x2** to (23, 14). M moves to (22, 12).
+     - *Risk*: Door closes when M moves off.
+     - *Hope*: Latched or M blocked.
