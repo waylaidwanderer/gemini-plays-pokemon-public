@@ -28,13 +28,10 @@
 - Employee at (11, 2) asks to save Director on 5F.
 - (7, 0) looks like stairs to 4F.
 - Checking East side (Cols 14-17) for items.
-- Location: Radio Tower 4F (Map 3_20).
-- Objective: Reach Underground Warehouse.
-- Key Item: Basement Key obtained.
-- Party: Garnet (83/161 HP), Topaz (56/56 HP).
-- Immediate Task: Exit 4F via stairs at (9,0).
-- Path: (8,4) -> (9,4) -> (9,0).
-- Goal: Reach 3F.
+- Location: Radio Tower 3F (Map 3_19).
+- Objective: Rescue Director in Underground Warehouse.
+- Task: Find exit to 2F (Checking East stairs at 17,0).
+- Path: 3F -> 2F -> 1F -> Exit.
 - Action: Navigate to (9,0).
 - Path: 4F (0,1) -> (9,1) -> (9,0).
 - Key Item: Basement Key obtained.
