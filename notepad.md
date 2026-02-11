@@ -1,26 +1,29 @@
 # Team Rocket HQ - Murkrow Puzzle
 
-## STATUS: EXECUTING "COL 22 RATCHET"
-**Goal**: P(22, 13), M(22, 14/15).
-**Critical Info**: Boss Door at (22, 14) blocks Murkrow. (22, 16) is Warp Trap.
+## STATUS: EXECUTING "COL 26 RATCHET & DOOR SYNC"
+**Goal**: P(22, 2), M(22, 14).
+**Logic**: Ratchet at Col 26 to align Y, then position for Door Drop.
 
 ## The Plan
-1. **Align Col 19 & Swap Y**:
-   - Start: P(19, 3), M(19, 2).
-   - **Step 1**: Down to (19, 11). M -> (19, 1). (Ratchet North).
-   - **Step 2**: Up to (19, 1). M -> (19, 11). (Swap Complete).
-2. **Transfer to Col 22**:
-   - **Step 3**: Down to (19, 5). M -> (19, 7).
-   - **Step 4**: Right to (22, 5). M -> (22, 7).
-   - **Step 5**: Up to (22, 1). M -> (22, 11).
-3. **Ratchet Down (Trap Avoidance)**:
-   - **Step 6**: Down to (22, 15). (M -> 1, then blocked).
-     - *Warning*: Do NOT touch (22, 16).
-4. **Final Positioning**:
+1. **Navigate to Ratchet Point**:
+   - Start: P(19, 12), M(19, 1).
+   - **Step 1**: Up to (19, 7). M -> (19, 6).
+   - **Step 2**: Right to (26, 7). M -> (26, 6).
+2. **Execute Ratchet**:
+   - **Step 3**: Down to (26, 15). 
+     - M moves Up 8: (26, 6) -> (26, -2) -> Stuck at (26, 1).
+   - *State*: P(26, 15), M(26, 1).
+3. **Align for Drop**:
+   - **Step 4**: Up to (26, 13). M -> (26, 3).
+   - **Step 5**: Left to (22, 13). M -> (22, 3).
+   - **Step 6**: Up to (22, 3). M -> (22, 13).
+     - *State*: P(22, 3), M(22, 13).
+4. **Trigger Door**:
    - **Step 7**: Up to (22, 2). M -> (22, 14).
-   - **Step 8**: Down to (22, 13). M Blocked by P/Door.
-   - **Step 9**: Interact with Door.
+   - *Result*: M lands on Boss Door. Door opens?
+5. **Enter**:
+   - Walk to door.
 
 ## Current State
-- P(17, 12), M(17, 1).
-- Action: Moving to (19, 12) to realign.
+- P(19, 12), M(19, 1).
+- Action: Moving Up to (19, 7), then Right to (26, 7).
