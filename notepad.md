@@ -28,12 +28,10 @@
 - Employee at (11, 2) asks to save Director on 5F.
 - (7, 0) looks like stairs to 4F.
 - Checking East side (Cols 14-17) for items.
-- Mechanic: Battle menu cursor remembers last position.
-- Move Layout: 1:Swift, 2:Mud-Slap, 3:Smokescreen, 4:Flame Wheel.
 - Defeated Scientist Rich at (0, 2) on 4F.
 - Currently in 4F West (isolated area).
 - Goal: Find path to 4F East (Stairs to 5F).
 - Hypothesis: Stairs at (0, 0) might lead to 5F or a new part of 3F.
 - Game Mechanic: 4F is split by a wall at Col 10.
 - Markers: Wall Divider at (10, 3).
-- Mistake: Tried to use Revive on live Pokemon. Correcting to Super Potion.
+- Action: Equipping EXP Share to Topaz.
