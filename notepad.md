@@ -8,8 +8,10 @@
 - Needs: Access to East side (stairs at 12,0).
 
 # Navigation Notes
-- Map 11_2 (Goldenrod): Path to PC blocked by NPC at (16, 23). Resetting map via Dept Store.
-- Entered Underground Path (Map 3_53) from North Entrance.
+- Map 3_53 (Underground):
+  - (6, 15): Younger Haircut Brother.
+  - (6, 21): PokeManiac (Trainer?).
+  - (3, 27): Super Nerd (Trainer?).
+  - (3, 34): South Door (Potential Warehouse Entrance?).
 - Goal: Find the locked door to the Underground Warehouse.
-- Current Location: North end of Underground Path.
-- Potential Trainers: (2, 6), (3, 20), (3, 27).
+- Current Location: (5, 25).
