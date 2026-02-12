@@ -30,6 +30,7 @@
 - Exploring the Central Warehouse area (East of x=6, South of y=7).
 - Avoid x=2, y=6 (One-Way Exit).
 - MAP NOTE: The path at the far West of the Warehouse (approx x=2, y=6) is a ONE-WAY EXIT to the Goldenrod Underground. Do not take it unless leaving.
-- Observation: TYPE_2889 appears to be walkable floor in this map (based on Silver Room experience).
-- Visual check: (6, 6) looks like floor, (7, 7) looks like a crate.
-- Plan: Moving Up to (6, 6) to enter the maze.
+- Correction: TYPE_2889 is a CRATE (Wall) in this area. TYPE_3fe2 is FLOOR.
+- Current location: Corridor on Row 7.
+- Path info: Row 7 is a corridor. Row 6 is mostly crates. Row 8 is crates from x=7 to x=15.
+- Plan: Exploring East to find the next opening south (likely around x=16).
