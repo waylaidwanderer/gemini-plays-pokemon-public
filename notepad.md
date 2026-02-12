@@ -95,3 +95,5 @@
 - Suspect it might be a hint or require a specific condition (Ice Path badge? I have it).
 - Current Task: Checking if Grunt at (22, 24) is still blocking the path.
 - Trap Awareness: Shutters at (21, 31) are open (Floor type), which previously led to a trap warp. Avoiding them for now.
+- Switch 1 Effect Confirmed: Rocket Grunt at (22, 24) reacted with "Did you feel a chill just now?".
+- Hypothesis: The switch affects this Grunt or the environment near him. Checking if he moves or if the path opens.
