@@ -3,10 +3,9 @@
 - Current Goal: Buy healing supplies (Hyper Potions/Full Heals) to bypass PC blockage.
 - Strategy: Use Elevator to access 2F (Mart) and 6F (Vending). Heal manually, then resume Rocket mission.
 
-# Shopping List
-- 2F (Clerk 2): Full Heals, Revives. (NO Hyper Potions sold here).
-- 6F: Lemonade (80HP, 350g). Target: 15 cans. (Current: 15 - Complete).
-- Skip Super Potions (Inefficient).
+# Supplies Secured
+- 15 Lemonades, 9 Full Heals, 10 Revives.
+- Ready to assault Radio Tower.
 
 # Radio Tower Intel (Paused)
 - Objective: Rescue Director (5F) & Defeat Team Rocket.
