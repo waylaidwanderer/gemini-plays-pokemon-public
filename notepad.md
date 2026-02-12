@@ -1,14 +1,15 @@
 # Status
-- Location: Route 34 (Coast).
-- Current Goal: Heal at Goldenrod Pokemon Center.
-- Strategy: Walk North via Route 34 to enter Goldenrod City from the South.
+- Location: Goldenrod Dept. Store (1F).
+- Current Goal: Buy healing supplies (Hyper Potions/Full Heals) to bypass PC blockage.
+- Strategy: Use Elevator to access 2F (Mart) and 6F (Vending). Heal manually, then resume Rocket mission.
+
+# Shopping List
+- 2F: Hyper Potions, Full Heals, Revives.
+- 6F: Fresh Water/Lemonade (Cost effective).
 
 # Radio Tower Intel (Paused)
 - Objective: Rescue Director (5F) & Defeat Team Rocket.
-- Progress: Cleared up to 3F. 4F West is blocked.
-- Needs: Access to East side (stairs at 12,0). Likely requires finding a way past shutters (Card Key?).
+- Needs: Access to East side (stairs at 12,0).
 
 # Navigation Notes
-- Map 11_2 (Goldenrod): TYPE_2889 is strictly obstacles/walls.
-- Path to PC: Blocked by NPC at (16, 23).
-- Strategy: Walk to Dept Store (24, 27) to reset map/NPCs and buy supplies. Then retry PC.
+- Map 11_2 (Goldenrod): Path to PC blocked by NPC at (16, 23). Resetting map via Dept Store.
