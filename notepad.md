@@ -14,3 +14,4 @@
 
 # Navigation Notes
 - Map 11_2 (Goldenrod): Path to PC blocked by NPC at (16, 23). Resetting map via Dept Store.
+- Vending Machines at (8-11, 0) occupy Row 1 as well (Solid TYPE_2889). Must interact from Row 2.
