@@ -1,13 +1,13 @@
-# Warehouse Puzzle
-- Goal: Reach Director at (7, 11). Needs Card Key? Or just switches.
-- Switch 1 (Silver Room): "Ice in your veins...". Currently ON (Toggled).
-- Switch Connection: Switch 1 -> Grunt at (22, 24) ("I feel a chill").
-- Grunt (22, 24): Investigate him now. He might have moved or is battling.
-- Switch 2: Unfound. Likely behind Gentleman at (7, 23).
-- Switch 3: Unfound.
-- Trap: (21, 31)-(22, 31) warps to (18, 6). Verified.
-- Connection: Stairs at (21, 25) in 3_54 lead to West Corridor (3, 2).
-- Exit: Mat at (21, 29) in 3_54 leads to Goldenrod City (9, 5) (North Entrance).
+# Warehouse Strategy (Turn 39772)
+- Objective: Open the shutters to reach the Director (7, 11).
+- Switch 1 (Silver Room): Toggled. Text: "Ice in your veins to dis...". Effect: Likely toggles Floor Traps or Grunt State.
+- Floor Traps: (21, 31)-(22, 31). Warped me to (18, 6) when active.
+- Grunt (22, 24): Blocks path to key area. Says "I feel a chill".
+- Next Steps:
+  1. Check Grunt's reaction to current switch state.
+  2. If Grunt static, check Floor Traps.
+  3. If both blocked, explore Public Underground via (6, 7) junction for Switch 2 & 3.
+  4. DO NOT try to walk through walls at (6, 23).
 
 # Hidden Corridor (Col 6/7)
 - Entrances: (6, 19) & (6, 23). Currently SOLID/LOCKED.
