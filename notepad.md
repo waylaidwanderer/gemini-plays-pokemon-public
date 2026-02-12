@@ -23,5 +23,7 @@
 - Plan: Move to (19, 28) -> Move West to (11, 29) -> Enter Underground.
 - Switch 1 (Silver Room): ON.
 - Key: Have Basement Key.
-- Navigation Note: The city layout has many fences. BFS might route North to cross columns, then South. Trust the path.
+- Navigation Note: Choke point at (16, 23) is blocked by an NPC.
+- Strategy: Try to route around. BFS should find path via Route 34 (South) or Row 16 (North) if accessible.
 - Target: South Underground Entrance (11, 29).
+- Plan: Define blocker, then BFS to target. If BFS fails or loops, force path South to Route 34 Gate.
