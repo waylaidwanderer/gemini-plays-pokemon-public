@@ -47,3 +47,7 @@
 - Plan: Enter (18, 6) and look for stairs leading to the Silver Room section.
 - Confirmed: Shutters at (21, 31) and (22, 31) lead to TRAP WARPS to (18, 6).
 - Plan: Avoid the shutter paths. Explore the western maze section starting from (6, 7).
+- Observation: Sprite at (7, 11) appears to be the Director (Gentleman sprite).
+- Observation: The Director seems boxed in by walls (Row 9, Row 13, Col 6, Col 8).
+- Hypothesis: A switch or hidden path allows access to (7, 11).
+- Plan: Investigate the Sprite at (6, 9) and the Green Machines at (6, 10)/(6, 11).
