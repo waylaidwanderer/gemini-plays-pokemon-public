@@ -57,3 +57,7 @@
 - Analysis: The North wall of the "Director's Block" (Row 8, x=7 to x=16) is solid.
 - Hypothesis: The entrance to the Director's area is from the South-East section (Row 27), accessible via the Silver Room entrance at (22, 27).
 - Plan: Warp to (21, 31) via Door (18, 6). Navigate to (22, 27). Explore West and North from (22, 27).
+- Hypothesis: The Switch in the Silver Room toggles between two states.
+- State OFF (Current): Shutters at (21, 31)/(22, 31) are OPEN -> Lead to TRAP.
+- State ON: Shutters CLOSED. Might open a different path (e.g., Grunt moves, or a hidden door opens).
+- Plan: Toggle Switch to ON and re-examine the area.
