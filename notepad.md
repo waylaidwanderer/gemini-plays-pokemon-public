@@ -5,10 +5,9 @@
 # Progress
 - Entered Warehouse via (18, 6).
 - Warped to (21, 31).
-- Defeating Rival Silver in the north-west room (3_54).
+- Defeated Rival Silver in the north-west room (3_54).
 
 # Strategy
-- Defeat Rival Silver.
 - Navigate the warehouse maze to find the real Director.
 - Locate the Card Key to access the Radio Tower upper floors.
 - Check all item balls in the warehouse.
