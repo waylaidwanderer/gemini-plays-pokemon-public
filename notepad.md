@@ -13,7 +13,9 @@
 - Action: Try walking EAST into (7, 13).
 
 # Door Checklist
-- (6, 12), (6, 14), (6, 16): Checked (Green Doors). No interaction.
+- (6, 12), (6, 14): CONFIRMED NOT IT (Oak yelled).
+- (6, 16): Checked. Haircut Guy.
 - (6, 20), (6, 22): Checked. No interaction.
-- (6, 15): Haircut Brother.
-- (6, 21): Herb Shop.
+- Conclusion: The door is NOT in the main hallway (Map 3_53).
+- New Hypothesis: The door is in the South Entrance Hall or another connecting room.
+- Action: Go South through (3, 34).
