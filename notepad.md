@@ -17,9 +17,9 @@
 - Map 11_2 Mechanics: TYPE_2889 is a fence/wall. Avoid.
 - Navigation Note: Underground South Entrance leads to isolated loop (3_54/3_53).
 - Strategy: Enter Underground from NORTH Entrance (9, 5). Find Locked Door in main tunnel.
-- Current Location: West Corridor (3, 2) of Underground Warehouse (3_53).
-- Goal: Check Grunt at (22, 24) in Maze.
-- Path: West Corridor (3, 2) -> Silver Room (3_54) -> Maze (via 23, 3) -> Grunt.
+- Current Location: Entrance Hall (3_54).
+- Goal: Enter Public Underground (Map 11_2).
+- Path: Exit to Goldenrod (21, 29) -> Enter Public Underground Entrance -> Stairs down.
 - Switch 1 (Silver Room): Verified ON.
 - Note: Avoid Mat at (21, 29) in Silver Room (One-way exit).
 - Backup: If Grunt still blocking, exit to Public Underground via South Entrance (3, 34) and find Locked Door.
