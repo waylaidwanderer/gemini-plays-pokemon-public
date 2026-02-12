@@ -16,11 +16,12 @@
 - Return to Warehouse (3_53) to see if the path has changed.
 
 # Warehouse Switch Tracking
-- Switch 1 (Silver Room): Turned OFF.
+- Switch 1 (Silver Room): Turned ON.
 - Switch 2: ?
 - Switch 3: ?
 - Barriers: ?
-- Confirmed: Switch 1 (Silver Room) controls shutters at (21, 31) & (22, 31). Currently OPEN.
+- Confirmed: Switch 1 (Silver Room) controls shutters at (21, 31) & (22, 31). Toggled to ON (Shutters likely CLOSED).
+- Hypothesis: Closing the shutters might disable the trap warps or open a different path.
 - Exploring the western section of the Warehouse (West of col 18) revealed the exit to the Public Underground.
 - Trap Warps: Stepping South from Open Shutters at (21, 31) & (22, 31) warps to (18, 6).
 - Disjoint Sections:
