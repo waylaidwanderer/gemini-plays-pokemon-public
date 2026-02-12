@@ -1,12 +1,12 @@
 # Status
-- Location: Goldenrod Underground (3_53).
-- Goal: Rescue Director (Warehouse).
+- Location: Goldenrod Underground (3_53) - Warehouse Section.
+- Goal: Rescue Director.
 - Key Item: BASEMENT KEY (Used).
 
 # Progress
-- Found hidden corridor at (7, 7).
-- Opened Locked Door at (18, 6) with BASEMENT KEY.
+- Entered Warehouse via (18, 6).
+- Warped to (21, 31).
 
 # Strategy
-- Enter the Warehouse.
-- Find the real Director.
+- Explore the Warehouse.
+- Watch out for Team Rocket and Switches.
