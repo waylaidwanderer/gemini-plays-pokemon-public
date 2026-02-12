@@ -5,11 +5,11 @@
 - Key Item: BASEMENT KEY.
 
 # Exploration Logic
-- Tested Duds (No interaction): (6, 10-12), (6, 14), (6, 16).
+- Found hidden corridor behind Super Nerd at (7, 7).
+- Exploring East along Row 7.
 - (6, 13): Wall Gap (Walkable).
-- Current Target: (7, 7) - Appears to be an opening?
 - (6, 21): Herb Shop (Avoid).
 
 # Strategy
-- Investigate (7, 7).
-- If that fails, check South Entrance Hall.
+- Follow the hidden corridor East.
+- Look for the Director or a Switch.
