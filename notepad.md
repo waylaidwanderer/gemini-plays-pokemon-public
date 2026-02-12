@@ -48,3 +48,5 @@
 - Test: Stepping Down from (21, 31) to see if it warps back to start (like the Right Shutter did) or allows progress.
 - Confirmed: Both Shutter paths (Left and Right) are trap warps leading back to (18, 6).
 - Strategy: Abandon the shutter paths. Focus on finding a path South from the Row 7 corridor (x=7 to x=18) to reach the Director at (7, 11).
+- Insight: Row 31 appears to be a safe corridor leading West from the shutter area.
+- Plan: Follow Row 31 West to find the Director or Card Key. Avoid Row 32 (Traps).
