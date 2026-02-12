@@ -37,3 +37,5 @@
 # Current Task
 - Defeat Super Nerd at (6, 9).
 - Inspect Green Machines at (6, 10) & (6, 11).
+- Observation: Super Nerd at (6, 9) gives dialogue about type alignments but does not initiate battle (or battle failed to start).
+- Plan: Flanking left to inspect the Green Machines at (6, 10) and (6, 11) from Column 5.
