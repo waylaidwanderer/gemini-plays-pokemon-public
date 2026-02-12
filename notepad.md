@@ -9,7 +9,7 @@
 
 # Navigation Notes
 - Map 11_2 (Goldenrod): Path to PC blocked by NPC at (16, 23). Resetting map via Dept Store.
-- Vending Machines at (8-11, 0-1). Walkable access at (8-11, 2).
-- (8, 2) blocked by Static NPC.
-- (9-11, 2) patrolled by Moving NPC.
-- Strategy: Flank via Row 3 to access (9, 2) or (11, 2).
+- Entered Underground Path (Map 3_53) from North Entrance.
+- Goal: Find the locked door to the Underground Warehouse.
+- Current Location: North end of Underground Path.
+- Potential Trainers: (2, 6), (3, 20), (3, 27).
