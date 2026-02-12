@@ -26,11 +26,9 @@
 - Access Denied: South Entrance (11, 29) blocked by Rocket Grunt at (16, 23).
 - Plan: Return to North Entrance (9, 5) to access Warehouse.
 - Logic: Switch 1 ("Ice in your veins") in Silver Room should have affected the Grunt at (22, 24) in the Maze ("I feel a chill").
-- Current Status: In West Corridor (3_53) at (5, 9).
-- Action: Interacting with Super Nerd at (6, 9).
-- Goal: Find path to Silver Room / Maze from here.
-- Plan:
-  1. Talk to Super Nerd (Verified Defeated).
-  2. Check "Fake Walls" at (6, 19) / (6, 23).
-  3. Check South Exit (3, 34).
+- Current Status: In West Corridor (3_53).
+- Insight: The Super Nerd at (6, 9) blocks that specific tile, but (6, 7) appears to be an open junction to the Main Tunnel.
+- Action: Bypassing Super Nerd via (6, 7).
+- Goal: Enter Public Underground (Col 7+) and find the Locked Door.
+- Locked Door Location: Likely on the East wall of the Public Underground or a specific door tile.
 - Switch 1: ON.
