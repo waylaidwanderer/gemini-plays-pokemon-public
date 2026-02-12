@@ -105,3 +105,5 @@
 - Note: Hiker Anthony on Route 33 is a phone contact in Crystal. Might be irrelevant to the current dungeon.
 - NPC at (2, 6) continued: "He'll phone you if he sees any rare POKEMON."
 - Confirmed: Just a tip about the phone feature and Hiker Anthony on Route 33 (Dunsparce swarm). Irrelevant to current puzzle.
+- New Strategy: Flanking via South Entrance Hall (3, 34).
+- Reason: The "Chill" Grunt path is blocked. Exploring for a back entrance to the Director's area.
