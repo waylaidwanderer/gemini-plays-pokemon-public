@@ -100,3 +100,6 @@
 - Hypothesis: Need to find Switch 2 (and maybe Switch 3) to fully open the path.
 - Plan: Warp back to start (18, 6) and search the Warehouse Maze for other switches.
 - Item Check: Ensure all items in Warehouse are looted.
+- NPC at (2, 6) Tip: "The HIKER on ROUTE 33, ANTHONY, is a good guy."
+- Possible connection to PokeManiac Anthony in the Warehouse? Or just flavor text.
+- Note: Hiker Anthony on Route 33 is a phone contact in Crystal. Might be irrelevant to the current dungeon.
