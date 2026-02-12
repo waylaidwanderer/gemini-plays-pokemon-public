@@ -10,5 +10,9 @@
 
 # Navigation Notes
 - Map 11_2 (Goldenrod): TYPE_2889 is strictly obstacles/walls.
-- Path to PC: Must use East side (Main Street). West approach blocked by Row 20 wall.
-- Obstacle: NPC at (16, 23) guards the PC entrance. Must navigate around/wait.
+- Path to PC: 
+  1. South on Main St to Row 28.
+  2. West to Col 13 (bypass Game Corner at 15,27).
+  3. North on Col 13 to Row 22.
+  4. East to PC Entrance at (14, 21).
+- NPC at (16, 23) is a choke point; detour via Row 28 is required.
