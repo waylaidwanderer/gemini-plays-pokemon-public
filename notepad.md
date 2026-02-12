@@ -5,14 +5,14 @@
 - Key Item: BASEMENT KEY.
 
 # Exploration Logic
-- (6, 13): Just a wall gap (Verified).
-- Testing Doors:
-  - (6, 16): Pending test.
-  - (6, 14): Door.
-  - (6, 12): Door.
+- (6, 16): No response (Dud).
+- Testing Remaining Doors:
+  - (6, 14): Pending.
+  - (6, 12): Pending.
+  - (6, 13): Gap (Walkable).
   - (6, 21): Herb Shop (Avoid).
+- If all fail, scan North (Rows 0-10) and South (Rows 23-33) sections.
 
 # Strategy
-- Interact with (6, 16).
+- Interact with (6, 14) and (6, 12).
 - If "Locked", verify if Key works automatically or needs menu use.
-- If not (6, 16), re-test (6, 12) and (6, 14).
