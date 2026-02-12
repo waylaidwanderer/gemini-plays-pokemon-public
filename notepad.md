@@ -108,6 +108,10 @@
 - Exploration Update: South Entrance Hall (via 3, 34) explored. No back door found.
 - Current Task: Battling Trainer (Teacher) at (5, 31).
 - Next Step: Return to Silver Room to re-verify Switch 1.
-- CRITICAL: Game appears stuck on Teacher dialogue at (5, 31) for 20+ turns.
-- Text: "I guess I have to / do things fair and"
-- Attempting to unfreeze with various inputs (A, B, Start, D-pad).
+- Status: Escaped glitchy Teacher interaction at (5, 31). Abandoning battle.
+- Current Task: Returning to Silver Room (3_54) via Warehouse Entrance (18, 6).
+- Objective: Re-examine Switch 1 and its effect on the "Chill" Grunt or Traps.
+- Hypothesis:
+  - Switch 1 (Silver Room) made Grunt at (22, 24) "feel a chill".
+  - Need to verify if this allows passing him, or if another switch is needed.
+  - Shutters at (21, 31) lead to traps. Need to find a way to disable them or bypass them.
