@@ -29,10 +29,9 @@
 - (7, 0) looks like stairs to 4F.
 - Navigation Note: On Map 11_2, TYPE_2889 is ambiguous (Road OR Wall/Sign). Use visual context.
 
-- Navigation: Executing "North-West Loop".
+- Navigation: Crossing West side alley.
 - Plan:
-  1. Go Up to Row 15, West to Col 9 (avoiding NPC at 12, 16).
-  2. Go South to Row 21.
-  3. Go East to Center (14, 21).
+  1. Go South to Row 22 (expecting TYPE_2889 to be walkable pavement).
+  2. Go East to Center (14, 21).
 - Immediate Task: Heal at Pokemon Center.
 - Next: Enter Underground via South Entrance (11, 29).
