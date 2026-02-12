@@ -66,3 +66,7 @@
 - Checking: Shutters at (21, 31) & (22, 31).
 - Expectation: If Closed, the switch affects them.
 - Next: Check Grunt at (22, 24) if path North is still blocked.
+- Observation: Shutters at (21, 31) & (22, 31) remain OPEN (Red Carpet) after attempting to toggle Switch 1.
+- Conclusion: Either the switch didn't toggle, or it doesn't close the shutters.
+- Strategy Update: Following critic advice to retry the Super Nerd interaction at (6, 9).
+- Plan: Use Trap Warp to return to (18, 6), then navigate to (6, 9).
