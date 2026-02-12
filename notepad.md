@@ -74,3 +74,6 @@
 - Insight: Mental Map shows Walkable Tiles at (18, 8) and (18, 9), South of the Warehouse Entrance.
 - Hypothesis: A vertical corridor exists at x=18 that connects the North and South sections without using the "Warp Door".
 - Plan: Navigate to (18, 8) and explore South.
+- CRITICAL CORRECTION: The text "You must have ice in your veins..." at Switch 1 (Silver Room) was likely just flavor text. I may not have actually toggled the switch.
+- Action: Return to Silver Room (3_54). Interact with Switch 1 until a "Click" or state change message appears.
+- Then: Check Shutters/Grunt/Trap again.
