@@ -19,5 +19,5 @@
   3. Walk North to (4, 0) to enter Goldenrod at (14, 35).
   4. In Goldenrod, traverse West to x=10, then North to Center.
 - Obstacle: Rocks at Route 34 (Row 6-7) block walking North on land (x=2-5).
-- Constraint: Land path blocked at Row 24. Surfing from (7, 29).
+
 - Turn 38215: Correcting menu navigation. Exiting Trainer Card and entering Pokemon Menu to Surf.
