@@ -18,3 +18,5 @@
   2. Cross West to x=4.
   3. Walk North to (4, 0) to enter Goldenrod at (14, 35).
   4. In Goldenrod, traverse West to x=10, then North to Center.
+- Obstacle: Rocks at Route 34 (Row 6-7) block walking North on land (x=2-5).
+- Constraint: MUST Surf West to bypass rocks and enter Goldenrod at x < 2.
