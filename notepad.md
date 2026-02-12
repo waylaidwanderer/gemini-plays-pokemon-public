@@ -12,3 +12,4 @@
 - Entrances: (6, 19) & (6, 23). Currently SOLID/LOCKED.
 - Theory: Switches open these walls.
 - Blocker: Gentleman at (7, 23).
+- Warp Connection: 3_54 (21, 25) -> 3_53 (3, 2). Confirmed.
