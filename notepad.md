@@ -29,10 +29,11 @@
 - (7, 0) looks like stairs to 4F.
 - Navigation Note: On Map 11_2, TYPE_2889 is ambiguous (Road OR Wall/Sign). Use visual context.
 
-- Navigation: Row 28 is WALKABLE (TYPE_3fe2) despite Mental Map errors.
-- Plan: "West Loop"
-  1. Go West on Row 28 to Col 9.
-  2. Go North to Row 22.
-  3. Go East to Center (14, 21).
+- Navigation: West blocked by wall at (13, 28). East blocked by NPC at (16, 23).
+- Plan: "East Check"
+  1. Go East to (18, 28).
+  2. Go North to (18, 23).
+  3. Verify blockage at (16, 23).
+  4. If blocked, detour South to Route 34 and re-enter on West side.
 - Immediate Task: Heal at Pokemon Center.
 - Next: Enter Underground via South Entrance (11, 29).
