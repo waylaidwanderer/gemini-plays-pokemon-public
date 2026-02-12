@@ -27,6 +27,8 @@
 - Strategy: Try to route around. BFS should find path via Route 34 (South) or Row 16 (North) if accessible.
 - Target: South Underground Entrance (11, 29).
 - Plan: Define blocker, then BFS to target. If BFS fails or loops, force path South to Route 34 Gate.
-- Navigation Update: BFS failed to route West from Row 28 due to fences.
-- New Route: Go East to Col 19, North to Row 9 (clearing the city center), West to Col 11, then South to (11, 29).
-- Reflection: City layout has a central spine of buildings preventing direct East-West travel. Must loop North.
+- Route Update: Flanking North via Row 8 to avoid Officer at (18, 9) and congestion.
+- Path: Go West to Col 11 on Row 8/9, then South to (11, 29).
+- Goal: South Underground Entrance (11, 29).
+- Locked Door: Somewhere in the main tunnel.
+- Keys: Basement Key (Have). Switch 1 (ON).
