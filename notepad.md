@@ -14,11 +14,11 @@
 - Theory: Switches open these walls.
 - Blocker: Gentleman at (7, 23).
 - Warp Connection: 3_54 (21, 25) -> 3_53 (3, 2). Confirmed.
-- Map 11_2 Mechanics: TYPE_2889 is a fence/wall. Avoid.
+- Map 11_2: Goldenrod City Surface (Not Public Underground).
 - Navigation Note: Underground South Entrance leads to isolated loop (3_54/3_53).
 - Strategy: Enter Underground from NORTH Entrance (9, 5). Find Locked Door in main tunnel.
 - Current Location: Entrance Hall (3_54).
-- Goal: Enter Public Underground (Map 11_2).
+- Goal: Enter Public Underground (Unknown ID).
 - Path: Exit to Goldenrod (21, 29) -> Enter Public Underground Entrance -> Stairs down.
 - Switch 1 (Silver Room): Verified ON.
 - Note: Avoid Mat at (21, 29) in Silver Room (One-way exit).
