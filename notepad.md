@@ -82,3 +82,6 @@
 - Critical Path: Explore the vertical corridor at x=18, South of the Door (18, 6). This was identified but not explored.
 - Correction: Path to Switch 1 from stairs requires going South to Row 4, then West. Direct path on Row 3 is blocked by crates at (18-19, 3).
 - Action: Maneuvering around crates to interact with Switch 1.
+- Decision: Abandoning Switch 1. It appears to be flavor text or conditional.
+- Priority: Explore the corridor at x=18 in the Warehouse (3_53).
+- Path: Return to (18, 6), then move South to (18, 8) and beyond.
