@@ -36,3 +36,5 @@
 - Plan: Exploring East to find the next opening south (likely around x=16).
 - Explored East corridor on Row 7: Leads to dead end at (19, 7) and (16-19, 8-9).
 - Plan: Return to the Underground Room via (18, 6), then take the stairs to the Silver Room entrance (22, 27) to access the area behind the shutters.
+- Hypothesis: TYPE_2889 tiles south of the shutters (Row 32+) are Walkable Floor, despite being Crates (Walls) in the northern section.
+- Plan: Verify walkability of south section.
