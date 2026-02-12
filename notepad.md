@@ -46,3 +46,5 @@
 - Plan: Return to the Warehouse Entrance (18, 6) and explore the internal maze to find the Director.
 - Confirmation: Entering the Door at (18, 6) warps the player to the Left Shutter at (21, 31).
 - Test: Stepping Down from (21, 31) to see if it warps back to start (like the Right Shutter did) or allows progress.
+- Confirmed: Both Shutter paths (Left and Right) are trap warps leading back to (18, 6).
+- Strategy: Abandon the shutter paths. Focus on finding a path South from the Row 7 corridor (x=7 to x=18) to reach the Director at (7, 11).
