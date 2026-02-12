@@ -29,12 +29,10 @@
 - (7, 0) looks like stairs to 4F.
 - Navigation Note: On Map 11_2, TYPE_2889 is ambiguous (Road OR Wall/Sign). Use visual context.
 
-- Navigation: Manual Escape from (17, 22) trap.
-- Plan: "North-West Loop" (Manual)
-  1. Go Right (East) to (18, 22).
-  2. Go Up (North) to (18, 16).
-  3. Go Left (West) to (9, 16).
-  4. Go South to Row 21.
-  5. Go East to Center (14, 21).
+- Navigation: Executing "North-West Loop".
+- Plan:
+  1. Go Up to Row 15, West to Col 9 (avoiding NPC at 12, 16).
+  2. Go South to Row 21.
+  3. Go East to Center (14, 21).
 - Immediate Task: Heal at Pokemon Center.
 - Next: Enter Underground via South Entrance (11, 29).
