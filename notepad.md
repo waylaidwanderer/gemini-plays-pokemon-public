@@ -45,3 +45,5 @@
 - The South-East section (Row 27+) connects to the Silver Room entrance (22, 27).
 - These sections are likely connected via the "Underground Room" behind Door (18, 6).
 - Plan: Enter (18, 6) and look for stairs leading to the Silver Room section.
+- Confirmed: Shutters at (21, 31) and (22, 31) lead to TRAP WARPS to (18, 6).
+- Plan: Avoid the shutter paths. Explore the western maze section starting from (6, 7).
