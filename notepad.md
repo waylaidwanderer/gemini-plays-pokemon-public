@@ -24,11 +24,9 @@
 - Switch 1 (Silver Room): ON.
 - Key: Have Basement Key.
 - Navigation Note: Choke point at (16, 23) is blocked by an NPC.
-- Strategy: Try to route around. BFS should find path via Route 34 (South) or Row 16 (North) if accessible.
+- Strategy: Flank East to Col 19, then South to Row 29, then West to Entrance (11, 29).
+- Current Pos: (17, 23).
+- Waypoint: (19, 29).
 - Target: South Underground Entrance (11, 29).
-- Plan: Define blocker, then BFS to target. If BFS fails or loops, force path South to Route 34 Gate.
-- Route Update: Flanking North via Row 8 to avoid Officer at (18, 9) and congestion.
-- Path: Go West to Col 11 on Row 8/9, then South to (11, 29).
-- Goal: South Underground Entrance (11, 29).
-- Locked Door: Somewhere in the main tunnel.
-- Keys: Basement Key (Have). Switch 1 (ON).
+- Switch 1 (Silver Room): ON.
+- Keys: Basement Key (Have).
