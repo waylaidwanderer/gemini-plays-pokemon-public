@@ -13,3 +13,4 @@
 - Theory: Switches open these walls.
 - Blocker: Gentleman at (7, 23).
 - Warp Connection: 3_54 (21, 25) -> 3_53 (3, 2). Confirmed.
+- Map 11_2 Mechanics: TYPE_2889 is a fence/wall. Avoid.
