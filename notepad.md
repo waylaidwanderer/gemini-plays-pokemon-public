@@ -85,6 +85,6 @@
 - Decision: Abandoning Switch 1. It appears to be flavor text or conditional.
 - Priority: Explore the corridor at x=18 in the Warehouse (3_53).
 - Path: Return to (18, 6), then move South to (18, 8) and beyond.
-- CRITICAL DISCOVERY: Column 18 is a continuous corridor running North-South, seemingly connecting the entire Warehouse map.
-- Action: Exploring South along x=18 to find an entrance to the Central Maze (where the Director is).
-- Plan: Check for openings to the West along this corridor.
+- Correction: Column 18 is blocked at Row 10. My "vertical corridor" theory was incorrect.
+- Current Task: Searching for a hidden switch in the "Dead End" room (16-19, 7-9), specifically checking the corner at (16, 9) per Critic advice.
+- Plan: Interact with walls at (16, 9).
