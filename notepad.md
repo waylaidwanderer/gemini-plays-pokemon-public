@@ -113,5 +113,5 @@
 - Current Task: Return to "Chill" Grunt at (22, 24) to see if he moved or has new dialogue.
 - Hypothesis: The "Chill" dialogue *was* the effect. I need to figure out how to exploit it.
 - Backup Plan: Explore the "Dead End" room (16-19, 9) again in case a hidden door opened there.
-- Discovered a fake wall at (6, 23) in the Warehouse. It looks like a wall but is traversable.
-- NPC at (7, 23) is blocking the hidden corridor.
+- Discovered multiple fake walls at (6, 23) and (6, 19) in the Warehouse. Column 6 appears to be a hidden corridor behind the shops.
+- NPC at (7, 23) is blocking the hidden corridor segment at (6, 23).
