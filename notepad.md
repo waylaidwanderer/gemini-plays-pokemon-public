@@ -1,7 +1,7 @@
 # Status
 - Location: Route 34 (Coast).
 - Current Goal: Heal at Goldenrod Pokemon Center.
-- Strategy: Surf North along West Coast (Col 1) to enter Goldenrod from the West, avoiding the blocked East/South entrances.
+- Strategy: Walk North via Route 34 to enter Goldenrod City from the South.
 
 # Radio Tower Intel (Paused)
 - Objective: Rescue Director (5F) & Defeat Team Rocket.
