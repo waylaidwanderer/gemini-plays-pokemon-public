@@ -23,10 +23,9 @@
 - Plan: Move to (19, 28) -> Move West to (11, 29) -> Enter Underground.
 - Switch 1 (Silver Room): ON.
 - Key: Have Basement Key.
-- Navigation Note: Choke point at (16, 23) is blocked by an NPC.
-- Strategy: Flank East to Col 19, then South to Row 29, then West to Entrance (11, 29).
-- Current Pos: (17, 23).
-- Waypoint: (19, 29).
-- Target: South Underground Entrance (11, 29).
+- Navigation Analysis: The "South Underground Entrance" at (11, 29) is in an isolated "Island" (Cols 6-15, Rows 22-30).
+- Access: Blocked from North (Row 20), West (Road), and South (Route 34 connections unclear).
+- Hypothesis: The "NPC Blocker" at (16, 23) is the intended gatekeeper. Must defeat/move them.
+- Plan: Go to (17, 23), interact with Blocker.
 - Switch 1 (Silver Room): ON.
 - Keys: Basement Key (Have).
