@@ -85,7 +85,6 @@
 - Decision: Abandoning Switch 1. It appears to be flavor text or conditional.
 - Priority: Explore the corridor at x=18 in the Warehouse (3_53).
 - Path: Return to (18, 6), then move South to (18, 8) and beyond.
-- CRITIC FEEDBACK: Abandoning Super Nerd interaction. He is a Hard Blocker.
-- NEW PLAN: The corridor at x=18 (South of the Warp Door) was identified but NOT explored.
-- Hypothesis: This vertical corridor connects the Northern and Southern sections, bypassing the shutter traps.
-- Action: Moving to (18, 6) to explore South.
+- CRITICAL DISCOVERY: Column 18 is a continuous corridor running North-South, seemingly connecting the entire Warehouse map.
+- Action: Exploring South along x=18 to find an entrance to the Central Maze (where the Director is).
+- Plan: Check for openings to the West along this corridor.
