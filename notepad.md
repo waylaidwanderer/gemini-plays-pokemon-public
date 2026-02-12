@@ -14,4 +14,3 @@
 
 # Navigation Notes
 - Map 11_2 (Goldenrod): Path to PC blocked by NPC at (16, 23). Resetting map via Dept Store.
-- Map 11_12 (2F): Aisles narrow. Shelf interaction text was blocking movement. Backtracking to left main aisle to reach counters at bottom right.
