@@ -26,8 +26,11 @@
 - Access Denied: South Entrance (11, 29) blocked by Rocket Grunt at (16, 23).
 - Plan: Return to North Entrance (9, 5) to access Warehouse.
 - Logic: Switch 1 ("Ice in your veins") in Silver Room should have affected the Grunt at (22, 24) in the Maze ("I feel a chill").
-- Route:
-  1. Enter Goldenrod North (9, 5) -> Warehouse Entrance (3_54).
-  2. Go to Silver Room -> Stairs (23, 3) -> Maze (3_53).
-  3. Check Grunt at (22, 24).
-- Backup: If Grunt is still there, explore West Corridor (3_53) via Stairs (21, 25) for other switches.
+- Current Status: In West Corridor (3_53) at (5, 9).
+- Action: Interacting with Super Nerd at (6, 9).
+- Goal: Find path to Silver Room / Maze from here.
+- Plan:
+  1. Talk to Super Nerd (Verified Defeated).
+  2. Check "Fake Walls" at (6, 19) / (6, 23).
+  3. Check South Exit (3, 34).
+- Switch 1: ON.
