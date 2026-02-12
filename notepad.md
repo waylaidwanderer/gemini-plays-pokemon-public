@@ -40,3 +40,8 @@
 - Plan: Verify walkability of south section.
 - WARNING: Stepping South from the Right Shutter (22, 31) onto (22, 32) warps the player back to the Warehouse Entrance (18, 6).
 - Plan: Navigate back to the shutters and try the Left Shutter path (21, 31) -> (21, 32).
+- Insight: The Warehouse (3_53) has disjoint sections separated by crates.
+- The North-East section (Row 7) connects to the Door (18, 6).
+- The South-East section (Row 27+) connects to the Silver Room entrance (22, 27).
+- These sections are likely connected via the "Underground Room" behind Door (18, 6).
+- Plan: Enter (18, 6) and look for stairs leading to the Silver Room section.
