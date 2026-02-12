@@ -1,13 +1,14 @@
 # Status
 - Location: Goldenrod Underground (3_53) - Warehouse Section.
-- Goal: Rescue Director.
 - Key Item: BASEMENT KEY (Used).
 
 # Progress
 - Entered Warehouse via (18, 6).
 - Warped to (21, 31).
+- Defeating Rival Silver in the north-west room (3_54).
 
 # Strategy
-- Explore the Warehouse.
-- Watch out for Team Rocket and Switches.
-- Found stairs at (22, 27) in Warehouse leading to loot room (3_54).
+- Defeat Rival Silver.
+- Navigate the warehouse maze to find the real Director.
+- Locate the Card Key to access the Radio Tower upper floors.
+- Check all item balls in the warehouse.
