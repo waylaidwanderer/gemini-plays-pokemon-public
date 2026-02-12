@@ -108,3 +108,6 @@
 - Exploration Update: South Entrance Hall (via 3, 34) explored. No back door found.
 - Current Task: Battling Trainer (Teacher) at (5, 31).
 - Next Step: Return to Silver Room to re-verify Switch 1.
+- CRITICAL: Game appears stuck on Teacher dialogue at (5, 31) for 20+ turns.
+- Text: "I guess I have to / do things fair and"
+- Attempting to unfreeze with various inputs (A, B, Start, D-pad).
