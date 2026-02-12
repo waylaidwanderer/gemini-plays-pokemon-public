@@ -12,6 +12,7 @@
 - Navigate the warehouse maze to find the real Director.
 - Locate the Card Key to access the Radio Tower upper floors.
 - Check all item balls in the warehouse.
+- Restore Garnet's PP (Max Ether) before next battle.
 
 # Warehouse Switch Tracking
 - Switch 1: ?
