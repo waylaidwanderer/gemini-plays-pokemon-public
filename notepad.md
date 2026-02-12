@@ -29,10 +29,11 @@
 - (7, 0) looks like stairs to 4F.
 - Navigation Note: On Map 11_2, TYPE_2889 is ambiguous (Road OR Wall/Sign). Use visual context.
 
-- Navigation: Surfing West across Route 34 water to bypass obstacles.
+- Navigation: Surfing North along West Coast (Col 1) to bypass Row 7 barrier.
 - Plan:
-  1. Surf West to land (Col 0-2?).
-  2. Walk North to Goldenrod West Entrance.
-  3. Navigate to Pokemon Center (14, 21).
+  1. Go West to Col 1.
+  2. Go North to enter Goldenrod City (West Side).
+  3. Navigate to Row 16 to cross to East Side.
+  4. Go South to Center.
 - Immediate Task: Heal at Pokemon Center.
 - Next: Enter Underground via South Entrance (11, 29).
