@@ -29,10 +29,12 @@
 - (7, 0) looks like stairs to 4F.
 - Navigation Note: On Map 11_2, TYPE_2889 is ambiguous (Road OR Wall/Sign). Use visual context.
 
-- Navigation: In progress. Passing 'Green Girl' at (12, 16) via Row 15.
-- Plan: "North-West Loop"
-  1. Go West to Col 9.
-  2. Go South to Row 22.
-  3. Go East to Center (14, 21).
+- Navigation: BFS backtracked to blocked East side. Retrying North Loop MANUALLY.
+- Plan: "North-West Loop" (Manual)
+  1. Go back to (14, 16) (North side).
+  2. Navigate West past 'Green Girl' (12, 16) via Row 15.
+  3. Go West to Col 9.
+  4. Go South to Row 22.
+  5. Go East to Center (14, 21).
 - Immediate Task: Heal at Pokemon Center.
 - Next: Enter Underground via South Entrance (11, 29).
