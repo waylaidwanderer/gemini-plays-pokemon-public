@@ -1,7 +1,6 @@
 # Status
 - Location: Goldenrod Underground (3_53).
 - Money: ¥16067.
-- Inventory: 12 Energypowder (bought accidentally).
 - Goal: Open the Locked Door.
 - Key Item: BASEMENT KEY.
 
