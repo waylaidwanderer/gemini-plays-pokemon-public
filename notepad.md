@@ -10,6 +10,5 @@
 
 # Navigation Notes
 - Map 11_2 (Goldenrod): TYPE_2889 is strictly obstacles/walls.
-- Path to PC: ONLY valid access is via the gap at (16, 23).
-- West detour (Row 28) is blocked by walls at Col 13.
-- Strategy: Go to (16, 23). If NPC blocks it, WAIT for her to move.
+- Path to PC: Blocked by NPC at (16, 23).
+- Strategy: Walk to Dept Store (24, 27) to reset map/NPCs and buy supplies. Then retry PC.
