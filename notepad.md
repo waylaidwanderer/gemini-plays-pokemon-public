@@ -23,3 +23,4 @@
 - Confirmed: Switch 1 (Silver Room) controls shutters at (21, 31) & (22, 31). Currently OPEN.
 - Exploring the western section of the Warehouse (West of col 18) revealed the exit to the Public Underground.
 - Need to re-enter Warehouse via (18, 9) and explore the Central/North area (x=8 to x=18).
+- MAP NOTE: The path at the far West of the Warehouse (approx x=2, y=6) is a ONE-WAY EXIT to the Goldenrod Underground. Do not take it unless leaving.
