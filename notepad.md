@@ -40,10 +40,7 @@
 - Observation: Super Nerd at (6, 9) is stuck in a dialogue loop ("I know my POKéMON type alignments") and is not battling.
 - Action: Attempting to break the loop by interleaving interaction and movement (A + Left).
 - Plan: Flanking left to inspect the Green Machines at (6, 10) and (6, 11) from Column 5.
-- Anomaly: Interacting with the "Green Machine" at (6, 11) (blocking the Gentleman at 7, 11) triggers shopkeeper dialogue ("I sell rare items...").
-- Hypothesis: The Gentleman at (7, 11) is a generic merchant, not the Director. Or this is a map glitch/shared dialogue ID.
-- Plan: Finish dialogue, check if it's a shop. If not the Director, continue searching.
 - Realization: Column 5 is the Public Underground Hallway. The Warehouse is East of Column 6.
-- The "Shop" at (6, 11) is the public item shop.
-- The Director at (7, 11) is visible through the wall but inaccessible from the Public side.
-- Plan: Return to the Warehouse Entrance (18, 6) and explore the internal maze to reach (7, 11) from the East or South.
+- The "Shop" at (6, 11) is the public item shop (counter).
+- The Director is likely trapped deep in the Warehouse (East of x=6), possibly in the area I saw from the Silver Room.
+- Plan: Return to the Warehouse Entrance (18, 6) and explore the internal maze to find the Director.
