@@ -29,9 +29,13 @@
 - (7, 0) looks like stairs to 4F.
 - Navigation Note: On Map 11_2, TYPE_2889 is ambiguous (Road OR Wall/Sign). Use visual context.
 
-- Navigation: "North Loop" Plan active.
-  1. Go East to Col 18, then North to Row 16.
-  2. Go West on Row 16 to Col 14.
-  3. Go South to Real Poke Center at (14, 21).
+- Navigation: "West Loop" is the ONLY path.
+  - Reason: North approach blocked by walls at (14, 18-20). East approach blocked by NPC at (16, 23) and Sign at (16, 22). South approach blocked by Game Corner (14, 24-27).
+  - Plan:
+    1. Escape East to Col 18.
+    2. Go South to Row 28.
+    3. Go West to Col 9.
+    4. Go North to Row 22.
+    5. Go East to Center (14, 21).
 - Immediate Task: Heal at Pokemon Center.
 - Next: Enter Underground via South Entrance (11, 29).
