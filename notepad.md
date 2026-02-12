@@ -14,3 +14,5 @@
 - Blocker: Gentleman at (7, 23).
 - Warp Connection: 3_54 (21, 25) -> 3_53 (3, 2). Confirmed.
 - Map 11_2 Mechanics: TYPE_2889 is a fence/wall. Avoid.
+- Navigation Note: Underground South Entrance leads to isolated loop (3_54/3_53).
+- Strategy: Must enter Underground from NORTH Entrance (Goldenrod City) to reach Locked Door in main tunnel (11_2).
