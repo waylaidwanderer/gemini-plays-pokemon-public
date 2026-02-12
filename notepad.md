@@ -80,3 +80,5 @@
 - Switch 1 (Silver Room): Likely just flavor text ("You must have ice in your veins..."). Does not appear to toggle anything physically.
 - Plan: Abandon Switch 1. Return to Warehouse (3_53).
 - Critical Path: Explore the vertical corridor at x=18, South of the Door (18, 6). This was identified but not explored.
+- Correction: Path to Switch 1 from stairs requires going South to Row 4, then West. Direct path on Row 3 is blocked by crates at (18-19, 3).
+- Action: Maneuvering around crates to interact with Switch 1.
