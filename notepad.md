@@ -23,9 +23,12 @@
 - Plan: Move to (19, 28) -> Move West to (11, 29) -> Enter Underground.
 - Switch 1 (Silver Room): ON.
 - Key: Have Basement Key.
-- Navigation Analysis: The "South Underground Entrance" at (11, 29) is in an isolated "Island" (Cols 6-15, Rows 22-30).
-- Access: Blocked from North (Row 20), West (Road), and South (Route 34 connections unclear).
-- Hypothesis: The "NPC Blocker" at (16, 23) is the intended gatekeeper. Must defeat/move them.
-- Plan: Go to (17, 23), interact with Blocker.
-- Switch 1 (Silver Room): ON.
-- Keys: Basement Key (Have).
+- Access Denied: South Entrance (11, 29) is blocked by a stubborn Rocket Grunt at (16, 23).
+- Conclusion: Must use North Entrance (9, 5).
+- Revised Plan:
+  1. Return to North Entrance (9, 5).
+  2. Enter Warehouse Entrance Hall (3_54).
+  3. Go to Silver Room -> Maze Stairs (23, 3).
+  4. Check Grunt at (22, 24) in Maze (3_53). Switch 1 might have affected him.
+  5. If no luck, go to West Corridor (3_53) and check Gentleman at (7, 23).
+- Goal: Find Switch 2 & 3 to open walls at (6, 19/23).
