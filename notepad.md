@@ -1,13 +1,9 @@
 # Status
-- Location: Goldenrod Dept. Store (1F).
-- Current Goal: Buy healing supplies (Hyper Potions/Full Heals) to bypass PC blockage.
-- Strategy: Use Elevator to access 2F (Mart) and 6F (Vending). Heal manually, then resume Rocket mission.
+- Location: Goldenrod Dept. Store (Elevator).
+- Goal: Return to Radio Tower (Rescue Director).
+- Supplies: Fully Stocked (Lemonade, Full Heals, Revives).
 
-# Supplies Secured
-- 15 Lemonades, 9 Full Heals, 10 Revives.
-- Ready to assault Radio Tower.
-
-# Radio Tower Intel (Paused)
+# Radio Tower Intel
 - Objective: Rescue Director (5F) & Defeat Team Rocket.
 - Needs: Access to East side (stairs at 12,0).
 
