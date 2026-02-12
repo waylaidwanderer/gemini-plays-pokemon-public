@@ -29,11 +29,10 @@
 - (7, 0) looks like stairs to 4F.
 - Navigation Note: On Map 11_2, TYPE_2889 is ambiguous (Road OR Wall/Sign). Use visual context.
 
-- Navigation: East side is isolated by walls/NPCs.
-- Plan: "South Detour"
-  1. Go South-East to Exit (Route 34).
-  2. Loop around in Route 34 to West side.
-  3. Re-enter Goldenrod on West side (Col 14).
-  4. Go North to Center.
+- Navigation: Surfing West across Route 34 water to bypass obstacles.
+- Plan:
+  1. Surf West to land (Col 0-2?).
+  2. Walk North to Goldenrod West Entrance.
+  3. Navigate to Pokemon Center (14, 21).
 - Immediate Task: Heal at Pokemon Center.
 - Next: Enter Underground via South Entrance (11, 29).
