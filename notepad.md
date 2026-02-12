@@ -44,3 +44,5 @@
 - The "Shop" at (6, 11) is the public item shop (counter).
 - The Director is likely trapped deep in the Warehouse (East of x=6), possibly in the area I saw from the Silver Room.
 - Plan: Return to the Warehouse Entrance (18, 6) and explore the internal maze to find the Director.
+- Confirmation: Entering the Door at (18, 6) warps the player to the Left Shutter at (21, 31).
+- Test: Stepping Down from (21, 31) to see if it warps back to start (like the Right Shutter did) or allows progress.
