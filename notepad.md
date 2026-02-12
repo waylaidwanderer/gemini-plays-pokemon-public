@@ -23,3 +23,5 @@
 - Plan: Move to (19, 28) -> Move West to (11, 29) -> Enter Underground.
 - Switch 1 (Silver Room): ON.
 - Key: Have Basement Key.
+- Navigation Note: The city layout has many fences. BFS might route North to cross columns, then South. Trust the path.
+- Target: South Underground Entrance (11, 29).
