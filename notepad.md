@@ -108,10 +108,8 @@
 - Exploration Update: South Entrance Hall (via 3, 34) explored. No back door found.
 - Current Task: Battling Trainer (Teacher) at (5, 31).
 - Next Step: Return to Silver Room to re-verify Switch 1.
-- Status: Escaped glitchy Teacher interaction at (5, 31). Abandoning battle.
-- Current Task: Returning to Silver Room (3_54) via Warehouse Entrance (18, 6).
-- Objective: Re-examine Switch 1 and its effect on the "Chill" Grunt or Traps.
-- Hypothesis:
-  - Switch 1 (Silver Room) made Grunt at (22, 24) "feel a chill".
-  - Need to verify if this allows passing him, or if another switch is needed.
-  - Shutters at (21, 31) lead to traps. Need to find a way to disable them or bypass them.
+- Status: Re-verified Switch 1 text. "You must have ice in your veins to dis TEAM ROCKET."
+- Observation: No "Click" sound or "Switch turned ON" message appeared. This might just be a sign/hint.
+- Current Task: Return to "Chill" Grunt at (22, 24) to see if he moved or has new dialogue.
+- Hypothesis: The "Chill" dialogue *was* the effect. I need to figure out how to exploit it.
+- Backup Plan: Explore the "Dead End" room (16-19, 9) again in case a hidden door opened there.
