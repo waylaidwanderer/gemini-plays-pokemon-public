@@ -91,3 +91,6 @@
 - Dead End Room (16-19, 7-9) was empty. No switches found.
 - Re-investigating Switch 1 in Silver Room. The text "You must have ice in your veins to dis..." might be incomplete or a hint for "Disable".
 - Plan: Interact with Switch 1 again and ensure full text is read.
+- Switch 1 in Silver Room (3_54) at (17, 2) gives text: "You must have ice in your veins to dis TEAM ROCKET." No click sound or state change observed.
+- Suspect this might be flavor text or a hint, not a functional switch.
+- Planning to return to Warehouse (3_53) to verify blockage at Row 10, Col 18 and explore other paths.
