@@ -34,3 +34,5 @@
 - Current location: Corridor on Row 7.
 - Path info: Row 7 is a corridor. Row 6 is mostly crates. Row 8 is crates from x=7 to x=15.
 - Plan: Exploring East to find the next opening south (likely around x=16).
+- Explored East corridor on Row 7: Leads to dead end at (19, 7) and (16-19, 8-9).
+- Plan: Return to the Underground Room via (18, 6), then take the stairs to the Silver Room entrance (22, 27) to access the area behind the shutters.
