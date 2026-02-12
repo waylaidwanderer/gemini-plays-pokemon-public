@@ -1,119 +1,14 @@
-# Status
-- Location: Goldenrod Underground (3_53) - Warehouse Section.
-- Key Item: BASEMENT KEY (Used).
+# Mechanic Testing: Switch 1 & Shutters
+- Switch 1 (Silver Room): "Ice in your veins..."
+- Shutters (21, 31) & (22, 31):
+  - State 1: Open (Red Carpet?). Result: Trap Warp to (18, 6).
+  - Current State: CONFIRMED TRAP (Turn 39400). Switch 1 did not disable it.
+- Grunt (22, 24):
+  - State 1: "I feel a chill." Blocks path.
+  - Current State: Still blocking.
 
-# Progress
-- Entered Warehouse via (18, 6).
-- Warped to (21, 31).
-- Defeated Rival Silver in the north-west room (3_54).
-
-# Strategy
-- Switch Puzzle State: Unknown.
-- Navigate the warehouse maze to find the real Director.
-- Locate the Card Key to access the Radio Tower upper floors.
-- Check all item balls in the warehouse.
-- Identify the item picked up at (15, 1).
-- Return to Warehouse (3_53) to see if the path has changed.
-
-# Warehouse Switch Tracking
-- Switch 1 (Silver Room): Turned ON.
-- Switch 2: ?
-- Switch 3: ?
-- Barriers: ?
-- Confirmed: Switch 1 (Silver Room) controls shutters at (21, 31) & (22, 31). Toggled to ON (Shutters likely CLOSED).
-- Hypothesis: Closing the shutters might disable the trap warps or open a different path.
-- Exploring the western section of the Warehouse (West of col 18) revealed the exit to the Public Underground.
-- Trap Warps: Stepping South from Open Shutters at (21, 31) & (22, 31) warps to (18, 6).
-- Disjoint Sections:
-  - North-East (Row 7): Connects to Door (18, 6).
-  - South-East (Row 27+): Connects to Silver Room entrance (22, 27).
-  - Western Maze (via 6, 7): Contains trainers and items.
-- Tile Info: TYPE_2889 acts as Wall (Crates) or Floor depending on specific tile logic.
-
-# Current Puzzle: The Director
-- Location: (7, 11), seemingly boxed in by Walls/Machines.
-- Access: Likely requires moving the Green Machines (Col 6) or finding a hidden switch.
-- Obstacle: Super Nerd at (6, 9) blocking the path.
-
-# Current Task
-- Defeat Super Nerd at (6, 9).
-- Inspect Green Machines at (6, 10) & (6, 11).
-- Observation: Super Nerd at (6, 9) is stuck in a dialogue loop ("I know my POKéMON type alignments") and is not battling.
-- Action: Attempting to break the loop by interleaving interaction and movement (A + Left).
-- Plan: Flanking left to inspect the Green Machines at (6, 10) and (6, 11) from Column 5.
-- Realization: Column 5 is the Public Underground Hallway. The Warehouse is East of Column 6.
-- The "Shop" at (6, 11) is the public item shop (counter).
-- The Director is likely trapped deep in the Warehouse (East of x=6), possibly in the area I saw from the Silver Room.
-- Plan: Return to the Warehouse Entrance (18, 6) and explore the internal maze to find the Director.
-- Confirmation: Entering the Door at (18, 6) warps the player to the Left Shutter at (21, 31).
-- Test: Stepping Down from (21, 31) to see if it warps back to start (like the Right Shutter did) or allows progress.
-- Confirmed: Both Shutter paths (Left and Right) are trap warps leading back to (18, 6).
-- Strategy: Abandon the shutter paths. Focus on finding a path South from the Row 7 corridor (x=7 to x=18) to reach the Director at (7, 11).
-- Insight: Row 31 appears to be a safe corridor leading West from the shutter area.
-- Plan: Follow Row 31 West to find the Director or Card Key. Avoid Row 32 (Traps).
-- Correction: Row 31 is NOT a corridor West. It is blocked at (17, 31).
-- Strategy: Use the "Trap" warp to return to (18, 6).
-- Plan: From (18, 6), travel West to Junction (6, 7), then East along Row 7 to x=16.
-- Hypothesis: A path at x=16 winds South and West to reach the Director at (8, 11).
-- Analysis: The North wall of the "Director's Block" (Row 8, x=7 to x=16) is solid.
-- Hypothesis: The entrance to the Director's area is from the South-East section (Row 27), accessible via the Silver Room entrance at (22, 27).
-- Plan: Warp to (21, 31) via Door (18, 6). Navigate to (22, 27). Explore West and North from (22, 27).
-- Hypothesis: The Switch in the Silver Room toggles between two states.
-- State OFF (Current): Shutters at (21, 31)/(22, 31) are OPEN -> Lead to TRAP.
-- State ON: Shutters CLOSED. Might open a different path (e.g., Grunt moves, or a hidden door opens).
-- Plan: Toggle Switch to ON and re-examine the area.
-- Switch 1 (Silver Room): Toggled.
-- Checking: Shutters at (21, 31) & (22, 31).
-- Expectation: If Closed, the switch affects them.
-- Next: Check Grunt at (22, 24) if path North is still blocked.
-- Observation: Shutters at (21, 31) & (22, 31) remain OPEN (Red Carpet) after attempting to toggle Switch 1.
-- Conclusion: Either the switch didn't toggle, or it doesn't close the shutters.
-- Strategy Update: Following critic advice to retry the Super Nerd interaction at (6, 9).
-- Plan: Use Trap Warp to return to (18, 6), then navigate to (6, 9).
-- Realization: The Super Nerd at (6, 9) is likely a Public Underground NPC (Customer of the shop at 6, 11) and a Red Herring.
-- Insight: Mental Map shows Walkable Tiles at (18, 8) and (18, 9), South of the Warehouse Entrance.
-- Hypothesis: A vertical corridor exists at x=18 that connects the North and South sections without using the "Warp Door".
-- Plan: Navigate to (18, 8) and explore South.
-- CRITICAL CORRECTION: The text "You must have ice in your veins..." at Switch 1 (Silver Room) was likely just flavor text. I may not have actually toggled the switch.
-- Action: Return to Silver Room (3_54). Interact with Switch 1 until a "Click" or state change message appears.
-- Then: Check Shutters/Grunt/Trap again.
-- Switch 1 (Silver Room): Likely just flavor text ("You must have ice in your veins..."). Does not appear to toggle anything physically.
-- Plan: Abandon Switch 1. Return to Warehouse (3_53).
-- Critical Path: Explore the vertical corridor at x=18, South of the Door (18, 6). This was identified but not explored.
-- Correction: Path to Switch 1 from stairs requires going South to Row 4, then West. Direct path on Row 3 is blocked by crates at (18-19, 3).
-- Action: Maneuvering around crates to interact with Switch 1.
-- Decision: Abandoning Switch 1. It appears to be flavor text or conditional.
-- Priority: Explore the corridor at x=18 in the Warehouse (3_53).
-- Path: Return to (18, 6), then move South to (18, 8) and beyond.
-- Correction: Column 18 is blocked at Row 10. My "vertical corridor" theory was incorrect.
-- Current Task: Searching for a hidden switch in the "Dead End" room (16-19, 7-9), specifically checking the corner at (16, 9) per Critic advice.
-- Plan: Interact with walls at (16, 9).
-- Dead End Room (16-19, 7-9) was empty. No switches found.
-- Re-investigating Switch 1 in Silver Room. The text "You must have ice in your veins to dis..." might be incomplete or a hint for "Disable".
-- Plan: Interact with Switch 1 again and ensure full text is read.
-- Switch 1 in Silver Room (3_54) at (17, 2) read: "You must have ice in your veins to dis TEAM ROCKET." No click/change observed.
-- Suspect it might be a hint or require a specific condition (Ice Path badge? I have it).
-- Current Task: Checking if Grunt at (22, 24) is still blocking the path.
-- Trap Awareness: Shutters at (21, 31) are open (Floor type), which previously led to a trap warp. Avoiding them for now.
-- Switch 1 (Silver Room): "Ice in veins" -> Grunt at (22, 24) feels "Chill".
-- Grunt at (22, 24) still blocking path.
-- Hypothesis: Need to find Switch 2 (and maybe Switch 3) to fully open the path.
-- Plan: Warp back to start (18, 6) and search the Warehouse Maze for other switches.
-- Item Check: Ensure all items in Warehouse are looted.
-- NPC at (2, 6) Tip: "The HIKER on ROUTE 33, ANTHONY, is a good guy."
-- Possible connection to PokeManiac Anthony in the Warehouse? Or just flavor text.
-- Note: Hiker Anthony on Route 33 is a phone contact in Crystal. Might be irrelevant to the current dungeon.
-- NPC at (2, 6) continued: "He'll phone you if he sees any rare POKEMON."
-- Confirmed: Just a tip about the phone feature and Hiker Anthony on Route 33 (Dunsparce swarm). Irrelevant to current puzzle.
-- Exploration Update: South Entrance Hall (via 3, 34) explored. No back door found.
-- Current Task: Battling Trainer (Teacher) at (5, 31).
-- Next Step: Return to Silver Room to re-verify Switch 1.
-- Status: Re-verified Switch 1 text. "You must have ice in your veins to dis TEAM ROCKET."
-- Observation: No "Click" sound or "Switch turned ON" message appeared. This might just be a sign/hint.
-- Current Task: Return to "Chill" Grunt at (22, 24) to see if he moved or has new dialogue.
-- Hypothesis: The "Chill" dialogue *was* the effect. I need to figure out how to exploit it.
-- Backup Plan: Explore the "Dead End" room (16-19, 9) again in case a hidden door opened there.
-- Discovered multiple fake walls at (6, 23) and (6, 19) in the Warehouse. Column 6 appears to be a hidden corridor behind the shops.
-- NPC at (7, 23) is blocking the hidden corridor segment at (6, 23).
-- Confirmed Fake Wall path at (6, 23) and (6, 19).
-- Goal: Access Director at (7, 11). Needs a new approach.
+# Key Locations
+- Director: (7, 11) - Walled in.
+- Card Key: Missing.
+- Item at (15, 1): Pending.
+- Hidden Corridor (Col 6): Access via fake walls at (6, 19) & (6, 23).
