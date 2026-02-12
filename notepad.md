@@ -20,3 +20,5 @@
 - Switch 2: ?
 - Switch 3: ?
 - Barriers: ?
+- Confirmed: Switch 1 (Silver Room) opened the shutters at (21, 31) & (22, 31).
+- Exploring the eastern section of the Warehouse (East of the shutters).
