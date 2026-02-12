@@ -70,3 +70,7 @@
 - Conclusion: Either the switch didn't toggle, or it doesn't close the shutters.
 - Strategy Update: Following critic advice to retry the Super Nerd interaction at (6, 9).
 - Plan: Use Trap Warp to return to (18, 6), then navigate to (6, 9).
+- Realization: The Super Nerd at (6, 9) is likely a Public Underground NPC (Customer of the shop at 6, 11) and a Red Herring.
+- Insight: Mental Map shows Walkable Tiles at (18, 8) and (18, 9), South of the Warehouse Entrance.
+- Hypothesis: A vertical corridor exists at x=18 that connects the North and South sections without using the "Warp Door".
+- Plan: Navigate to (18, 8) and explore South.
