@@ -9,9 +9,10 @@
 
 # Navigation Notes
 - Map 3_53 (Underground):
+  - (6, 9): Super Nerd (East Wall).
   - (6, 15): Younger Haircut Brother.
-  - (6, 21): PokeManiac (Trainer?).
-  - (3, 27): Super Nerd (Trainer?).
-  - (3, 34): South Door (Potential Warehouse Entrance?).
-- Goal: Find the locked door to the Underground Warehouse.
-- Current Location: (5, 25).
+  - (3, 34): South Exit (NOT the Warehouse).
+  - Suspected Warehouse Door: East Wall, North of Haircut Brothers? Maybe (6, 10-14)?
+- Key Items: BASEMENT KEY (Opens Warehouse Door).
+- Goal: Scan East Wall for the locked door.
+- Current Location: (5, 16). Heading North.
