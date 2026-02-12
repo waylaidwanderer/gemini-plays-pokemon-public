@@ -51,3 +51,6 @@
 - Observation: The Director seems boxed in by walls (Row 9, Row 13, Col 6, Col 8).
 - Hypothesis: A switch or hidden path allows access to (7, 11).
 - Plan: Investigate the Sprite at (6, 9) and the Green Machines at (6, 10)/(6, 11).
+- Enigma: The Director at (7, 11) appears to be completely enclosed by Walls (Col 8) and Machines (Col 6).
+- Hypothesis: The Machines at Col 6 might be interactable or movable, or there is a hidden switch.
+- Current Task: Defeating Super Nerd at (6, 9) to clear the area.
