@@ -12,12 +12,17 @@
 - Hypothesis: The "Locked Door" might be (6, 13) and it's already open, or I need to walk through it.
 - Action: Try walking EAST into (7, 13).
 
-# Door Checklist
-- (6, 12), (6, 14), (6, 20): CONFIRMED NOT IT (Oak yelled).
-- (6, 16): Checked. Haircut Guy.
-- (6, 22): Checked. No interaction.
-- Conclusion: The door is NOT in the main hallway (Map 3_53).
-- New Hypothesis: The door is in the South Entrance Hall or another connecting room.
-- Action: Go South through (3, 34).
-- Navigation Intel: Col 4 in the Underground seems to be a 'Safe Lane' avoiding most trainers and static NPCs.
-- Goal: Reach North Entrance Hall (Map 3_54 via 3_53 Exit). Check for the Locked Door there.
+# Door Checklist (Underground Path 3_53)
+- East Wall Doors (6, 12-22): All confirmed FAKE or DECORATIVE.
+  - Result: Oak ("This isn't the time!") or No Interaction.
+- North Entrance Hall (3_54): Checked. Dead end at (17, 23).
+- South Entrance Hall: NOT CHECKED THOROUGHLY. Next target.
+
+# Hypothesis: Where is the Warehouse?
+1. South Entrance Hall of Underground.
+2. Department Store Basement? (Check Elevator for B1F).
+3. A hidden switch I missed?
+
+# Goal
+- Go to South Entrance Hall (Map 5_25 area).
+- If empty, go to Dept Store.
