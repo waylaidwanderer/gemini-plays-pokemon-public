@@ -616,12 +616,17 @@
         "count"
       ]
     },
-    "python_script": "count = input_data.get('count', 1)\nbuttons = []\nfor i in range(count):\n    # Interact with machine\n    buttons.append('A')\n    buttons.append('sleep 2000') # Wait for menu\n    \n    # Select Lemonade (3rd option)\n    buttons.append('Down')\n    buttons.append('Down')\n    buttons.append('A')\n    buttons.append('sleep 3500') # Wait for 'Clang!' and money deduction\n    \n    # Clear text (Clang!)\n    buttons.append('B')\n    buttons.append('sleep 1500')\n    \n    # Clear text (Popped out!)\n    buttons.append('B')\n    buttons.append('sleep 1500')\n    \n    # Clear text (Put in pocket)\n    buttons.append('B')\n    buttons.append('sleep 1500')\n\nprint(buttons)",
+    "python_script": "import json\ncount = input_data.get('count', 1)\nbuttons = []\nfor i in range(count):\n    # Interact with machine\n    buttons.append('A')\n    buttons.append('sleep 2000') # Wait for menu\n    \n    # Select Lemonade (3rd option)\n    buttons.append('Down')\n    buttons.append('Down')\n    buttons.append('A')\n    buttons.append('sleep 3500') # Wait for 'Clang!' and money deduction\n    \n    # Clear text (Clang!)\n    buttons.append('B')\n    buttons.append('sleep 1500')\n    \n    # Clear text (Popped out!)\n    buttons.append('B')\n    buttons.append('sleep 1500')\n    \n    # Clear text (Put in pocket)\n    buttons.append('B')\n    buttons.append('sleep 1500')\n\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2026-02-12T03:52:48.811Z",
         "action_counter": 38341
+      },
+      {
+        "commit_message": "Fixed output format to be valid JSON using json.dumps().",
+        "timestamp": "2026-02-12T03:54:53.557Z",
+        "action_counter": 38345
       }
     ]
   }
