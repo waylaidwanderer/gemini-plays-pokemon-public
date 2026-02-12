@@ -77,3 +77,6 @@
 - CRITICAL CORRECTION: The text "You must have ice in your veins..." at Switch 1 (Silver Room) was likely just flavor text. I may not have actually toggled the switch.
 - Action: Return to Silver Room (3_54). Interact with Switch 1 until a "Click" or state change message appears.
 - Then: Check Shutters/Grunt/Trap again.
+- Switch 1 (Silver Room): Likely just flavor text ("You must have ice in your veins..."). Does not appear to toggle anything physically.
+- Plan: Abandon Switch 1. Return to Warehouse (3_53).
+- Critical Path: Explore the vertical corridor at x=18, South of the Door (18, 6). This was identified but not explored.
