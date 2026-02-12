@@ -18,10 +18,9 @@
 - Navigation Note: Underground South Entrance leads to isolated loop (3_54/3_53).
 - Strategy: Enter Underground from NORTH Entrance (9, 5). Find Locked Door in main tunnel.
 - Current Location: West Corridor (3, 2) of Underground Warehouse (3_53).
-- Connection: Just arrived from Silver Room (3_54) via stairs.
-- Plan:
-  1. Check "Fake Walls" at (6, 19) and (6, 23) in this map. They might be open after the switch toggle.
-  2. If still closed, exit South to (3, 34) -> South Entrance Hall.
-  3. Enter Public Underground -> Find "Locked Door" (Basement Key).
-- Switch Status: Toggled ON in Silver Room.
-- Trap Status: Warps in 3_54 active.
+- Goal: Check Grunt at (22, 24) in Maze.
+- Path: West Corridor (3, 2) -> Silver Room (3_54) -> Maze (via 23, 3) -> Grunt.
+- Switch 1 (Silver Room): Verified ON.
+- Note: Avoid Mat at (21, 29) in Silver Room (One-way exit).
+- Backup: If Grunt still blocking, exit to Public Underground via South Entrance (3, 34) and find Locked Door.
+- Fake Walls (6, 19/23): Confirmed Solid. Requires switches.
