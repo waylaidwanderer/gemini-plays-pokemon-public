@@ -62,3 +62,5 @@
 - State OFF (Current): Shutters at (21, 31)/(22, 31) are OPEN -> Lead to TRAP.
 - State ON: Shutters CLOSED. Might open a different path (e.g., Grunt moves, or a hidden door opens).
 - Plan: Toggle Switch to ON and re-examine the area.
+- Returned to Warehouse (3_53).
+- Checking Grunt at (22, 24) to see if Switch 1 (ON) affected him.
