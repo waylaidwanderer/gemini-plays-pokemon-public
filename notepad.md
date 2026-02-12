@@ -6,7 +6,8 @@
 - Switch 2: Unfound. Likely behind Gentleman at (7, 23).
 - Switch 3: Unfound.
 - Trap: (21, 31)-(22, 31) warps to (18, 6). Verified.
-- Loop Exit: Carpet at (21, 29) in 3_54 warps to West Corridor (3, 2). One-way shortcut.
+- Connection: Stairs at (21, 25) in 3_54 lead to West Corridor (3, 2).
+- Exit: Mat at (21, 29) in 3_54 leads to Goldenrod City (North).
 
 # Hidden Corridor (Col 6/7)
 - Entrances: (6, 19) & (6, 23). Currently SOLID/LOCKED.
