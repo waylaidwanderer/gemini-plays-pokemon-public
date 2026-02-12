@@ -13,7 +13,7 @@
 - Locate the Card Key to access the Radio Tower upper floors.
 - Check all item balls in the warehouse.
 - Investigate the Silver Room (3_54) for hidden switches or keys.
-- Try to interact with the "Unresponsive Grunt" again.
+- Try to interact with the "Unresponsive Grunt" in Map 3_53 again.
 - Identify the item picked up at (15, 1).
 
 # Warehouse Switch Tracking
