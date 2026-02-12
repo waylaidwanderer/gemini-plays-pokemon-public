@@ -1,18 +1,19 @@
 # Status
-- Location: Goldenrod Dept. Store (Elevator).
-- Goal: Return to Radio Tower (Rescue Director).
-- Supplies: Fully Stocked (Lemonade, Full Heals, Revives).
+- Location: Goldenrod Underground (3_53).
+- Goal: Enter the Underground Warehouse.
+- Key Item: BASEMENT KEY.
 
-# Radio Tower Intel
-- Objective: Rescue Director (5F) & Defeat Team Rocket.
-- Needs: Access to East side (stairs at 12,0).
+# Exploration Logic
+- Hallway (Col 2-5): Walkable.
+- East Wall (Col 6): Mostly Doors (Green).
+- Anomalies:
+  - (6, 13): Walkable tile between doors. VISUAL: Floor/Gap.
+  - (6, 17-19): Walkable tiles between shops.
+- Hypothesis: The "Locked Door" might be (6, 13) and it's already open, or I need to walk through it.
+- Action: Try walking EAST into (7, 13).
 
-# Navigation Notes
-- Map 3_53 (Underground):
-  - Suspicious "Walkable" Doors found at (6, 13) and (6, 17-19).
-  - These look like doors but are walkable.
-  - Strategy: Stand ON (6, 13) and interact with adjacent locked doors (6, 12) and (6, 14).
-  - Verified: Direct interaction from hallway (Col 5) failed. Manual key use failed.
-  - East Wall Doors: (6, 12), (6, 14), (6, 16), (6, 20), (6, 22).
-- Key Items: BASEMENT KEY.
-- Goal: Stand on (6, 13) and interact Up/Down/Right.
+# Door Checklist
+- (6, 12), (6, 14), (6, 16): Checked (Green Doors). No interaction.
+- (6, 20), (6, 22): Checked. No interaction.
+- (6, 15): Haircut Brother.
+- (6, 21): Herb Shop.
