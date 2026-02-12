@@ -43,3 +43,7 @@
 - Anomaly: Interacting with the "Green Machine" at (6, 11) (blocking the Gentleman at 7, 11) triggers shopkeeper dialogue ("I sell rare items...").
 - Hypothesis: The Gentleman at (7, 11) is a generic merchant, not the Director. Or this is a map glitch/shared dialogue ID.
 - Plan: Finish dialogue, check if it's a shop. If not the Director, continue searching.
+- Realization: Column 5 is the Public Underground Hallway. The Warehouse is East of Column 6.
+- The "Shop" at (6, 11) is the public item shop.
+- The Director at (7, 11) is visible through the wall but inaccessible from the Public side.
+- Plan: Return to the Warehouse Entrance (18, 6) and explore the internal maze to reach (7, 11) from the East or South.
