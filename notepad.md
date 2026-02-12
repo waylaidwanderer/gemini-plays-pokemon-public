@@ -91,7 +91,7 @@
 - Dead End Room (16-19, 7-9) was empty. No switches found.
 - Re-investigating Switch 1 in Silver Room. The text "You must have ice in your veins to dis..." might be incomplete or a hint for "Disable".
 - Plan: Interact with Switch 1 again and ensure full text is read.
-- Switch 1 in Silver Room (3_54) at (17, 2) gives text: "You must have ice in your veins to dis TEAM ROCKET." No click sound or state change observed.
-- Suspect this might be flavor text or a hint, not a functional switch.
-- Current Task: Explore the southern part of the Warehouse (3_53).
-- Investigating potential door/shutter at (18, 27) and checking if Grunt at (22, 24) moved.
+- Switch 1 in Silver Room (3_54) at (17, 2) read: "You must have ice in your veins to dis TEAM ROCKET." No click/change observed.
+- Suspect it might be a hint or require a specific condition (Ice Path badge? I have it).
+- Current Task: Checking if Grunt at (22, 24) is still blocking the path.
+- Trap Awareness: Shutters at (21, 31) are open (Floor type), which previously led to a trap warp. Avoiding them for now.
