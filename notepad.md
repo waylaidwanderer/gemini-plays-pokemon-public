@@ -50,3 +50,7 @@
 - Strategy: Abandon the shutter paths. Focus on finding a path South from the Row 7 corridor (x=7 to x=18) to reach the Director at (7, 11).
 - Insight: Row 31 appears to be a safe corridor leading West from the shutter area.
 - Plan: Follow Row 31 West to find the Director or Card Key. Avoid Row 32 (Traps).
+- Correction: Row 31 is NOT a corridor West. It is blocked at (17, 31).
+- Strategy: Use the "Trap" warp to return to (18, 6).
+- Plan: From (18, 6), travel West to Junction (6, 7), then East along Row 7 to x=16.
+- Hypothesis: A path at x=16 winds South and West to reach the Director at (8, 11).
