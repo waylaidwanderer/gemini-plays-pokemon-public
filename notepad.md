@@ -1,17 +1,17 @@
 # Status
-- Location: Goldenrod Underground (3_53) [Returning].
-- Goal: Investigate "Anomaly" at (6, 13).
+- Location: Goldenrod Underground (3_53).
+- Money: ¥16067 (Lost ~6k on Energypowder accidentally).
+- Goal: Open the Locked Door.
 - Key Item: BASEMENT KEY.
 
 # Exploration Logic
-- Returning to Underground Path (3_53) to check (6, 13).
-- Hypothesis: (6, 13) is a GAP or HIDDEN DOOR to the Warehouse.
-- Action: Walk EAST into (6, 13) or press A.
+- Testing Doors on East Wall (Col 6).
+- (6, 21): HERB SHOP (Avoid! Expensive!).
+- (6, 13): Door.
+- (6, 12): Door.
+- (6, 14): Door.
 
-# Door Checklist (Underground Path 3_53)
-- East Wall Doors (6, 12-22): Most are fake.
-- (6, 13): PRIMARY TARGET.
-
-# Goal
-- Enter the Warehouse via (6, 13) in 3_53.
-- Rescue Director.
+# Strategy
+- Interact with (6, 13) and (6, 12).
+- If "Locked", use BASEMENT KEY from Pack.
+- If no text, move to next door.
