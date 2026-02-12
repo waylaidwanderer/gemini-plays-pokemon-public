@@ -17,10 +17,9 @@
 - Map 11_2: Goldenrod City Surface.
 - Map 3_54: North Entrance Hall & Silver Room.
 - Map 3_53: Public Underground & Warehouse (Likely shared map).
-- Problem: North Entrance led to "Behind the Scenes" / Warehouse area.
-- Hypothesis: South Entrance (11, 29) leads to the Main Public Tunnel.
-- Goal: Enter South Entrance to access Main Tunnel -> Find Locked Door.
-- Locked Door Location: Somewhere in the main vertical tunnel.
-- Key: Have Basement Key.
+- Problem: Navigation to (11, 29) failed.
+- Cause: "NPC Blocker" at (16, 23) on the direct path. BFS doesn't see it.
+- Solution: Manually route South to (19, 28) to use the gap at Row 28.
+- Plan: Move to (19, 28) -> Move West to (11, 29) -> Enter Underground.
 - Switch 1 (Silver Room): ON.
-- Plan: Walk South to (11, 29) -> Enter -> Find Door.
+- Key: Have Basement Key.
