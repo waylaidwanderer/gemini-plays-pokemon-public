@@ -19,5 +19,5 @@
   3. Walk North to (4, 0) to enter Goldenrod at (14, 35).
   4. In Goldenrod, traverse West to x=10, then North to Center.
 - Obstacle: Rocks at Route 34 (Row 6-7) block walking North on land (x=2-5).
-- Constraint: Found land path North at x=7-8. Surf not required.
+- Constraint: Land path blocked at Row 24. Surfing from (7, 29).
 - Turn 38173: Recovering Item Ball at (7, 30).
