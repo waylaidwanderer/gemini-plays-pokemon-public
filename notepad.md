@@ -19,3 +19,5 @@
 - Conclusion: The door is NOT in the main hallway (Map 3_53).
 - New Hypothesis: The door is in the South Entrance Hall or another connecting room.
 - Action: Go South through (3, 34).
+- Navigation Intel: Col 4 in the Underground seems to be a 'Safe Lane' avoiding most trainers and static NPCs.
+- Goal: Reach North Entrance Hall (Map 3_54 via 3_53 Exit). Check for the Locked Door there.
