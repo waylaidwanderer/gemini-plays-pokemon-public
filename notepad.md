@@ -37,5 +37,6 @@
 # Current Task
 - Defeat Super Nerd at (6, 9).
 - Inspect Green Machines at (6, 10) & (6, 11).
-- Observation: Super Nerd at (6, 9) gives dialogue about type alignments but does not initiate battle (or battle failed to start).
+- Observation: Super Nerd at (6, 9) is stuck in a dialogue loop ("I know my POKéMON type alignments") and is not battling.
+- Action: Attempting to break the loop by interleaving interaction and movement (A + Left).
 - Plan: Flanking left to inspect the Green Machines at (6, 10) and (6, 11) from Column 5.
