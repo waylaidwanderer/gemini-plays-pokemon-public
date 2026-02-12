@@ -29,10 +29,9 @@
 - (7, 0) looks like stairs to 4F.
 - Navigation Note: On Map 11_2, TYPE_2889 is ambiguous (Road OR Wall/Sign). Use visual context.
 
-- Immediate Task: Heal at Pokemon Center (15, 27).
+- Navigation: "West Loop" Plan active.
+  1. Go West on Row 28 to Col 9.
+  2. Go North to Row 22.
+  3. Go East to Real Poke Center at (14, 21).
+- Immediate Task: Heal at Pokemon Center.
 - Next: Enter Underground via South Entrance (11, 29).
-- Key Item: Basement Key (Opens door in Underground).
-- Anomaly: 'POKE' sign building (15, 27) leads to Game Corner (11_20).
-- Hypothesis: Buildings swapped? Checking (14, 21) for Poke Center.
-- NPC Blocking path to Poke Center at (16, 23). Needs to move.
-- Path to PC (14, 21): From (16, 17), go East to Col 18, Down to Row 22, West to Col 14.
