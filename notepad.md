@@ -26,6 +26,7 @@
 - Confirmed: Item at (5, 3) was a crate (visual hallucination).
 - Confirmed: (6, 13) is a wall.
 - Entrance to Central Maze found at (6, 7).
+- Defeated Teacher at (5, 31).
 - Exploring the Central Warehouse area (East of x=6, South of y=7).
 - Avoid x=2, y=6 (One-Way Exit).
 - MAP NOTE: The path at the far West of the Warehouse (approx x=2, y=6) is a ONE-WAY EXIT to the Goldenrod Underground. Do not take it unless leaving.
