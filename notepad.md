@@ -21,7 +21,7 @@
 - Navigation Note: South Entrance leads to isolated loop (3_54/3_53). Must use Public Underground for Locked Door.
 - Strategy: Exit to Goldenrod (11_2) via (21, 29) -> Enter Public Underground -> Find Locked Door (Basement Key).
 - Current Location: Entrance Hall (3_54).
-- Immediate: Finish dialogue, exit to Goldenrod.
+- Immediate: Exit to Goldenrod (Down), then find North Entrance.
 - Switch 1 (Silver Room): Verified ON.
 - Note: Avoid Mat at (21, 29) in Silver Room (One-way exit).
 - Backup: If Grunt still blocking, exit to Public Underground via South Entrance (3, 34) and find Locked Door.
