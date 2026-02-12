@@ -116,5 +116,4 @@
 - Discovered multiple fake walls at (6, 23) and (6, 19) in the Warehouse. Column 6 appears to be a hidden corridor behind the shops.
 - NPC at (7, 23) is blocking the hidden corridor segment at (6, 23).
 - Confirmed Fake Wall path at (6, 23) and (6, 19).
-- (6, 12) is SOLID. The hidden path does not extend that far north, or is blocked.
 - Goal: Access Director at (7, 11). Needs a new approach.
