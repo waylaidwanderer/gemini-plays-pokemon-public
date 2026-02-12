@@ -5,17 +5,11 @@
 - Key Item: BASEMENT KEY.
 
 # Exploration Logic
-- (6, 16): No response (Dud).
-- Testing Remaining Doors:
-  - (6, 8): Pending (Behind Super Nerd).
-  - (6, 10): Pending.
-  - (6, 11): Pending.
-  - (6, 12): Pending.
-  - (6, 13): Gap (Walkable).
-  - (6, 14): Pending.
-  - (6, 21): Herb Shop (Avoid).
+- Tested Duds (No interaction): (6, 10-12), (6, 14), (6, 16).
+- (6, 13): Wall Gap (Walkable).
+- Current Target: (7, 7) - Appears to be an opening?
+- (6, 21): Herb Shop (Avoid).
 
 # Strategy
-- Defeat Super Nerd.
-- Interact with (6, 8).
-- If "Locked", verify if Key works automatically or needs menu use.
+- Investigate (7, 7).
+- If that fails, check South Entrance Hall.
