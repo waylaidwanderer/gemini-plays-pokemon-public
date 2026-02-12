@@ -88,3 +88,6 @@
 - Correction: Column 18 is blocked at Row 10. My "vertical corridor" theory was incorrect.
 - Current Task: Searching for a hidden switch in the "Dead End" room (16-19, 7-9), specifically checking the corner at (16, 9) per Critic advice.
 - Plan: Interact with walls at (16, 9).
+- Dead End Room (16-19, 7-9) was empty. No switches found.
+- Re-investigating Switch 1 in Silver Room. The text "You must have ice in your veins to dis..." might be incomplete or a hint for "Disable".
+- Plan: Interact with Switch 1 again and ensure full text is read.
