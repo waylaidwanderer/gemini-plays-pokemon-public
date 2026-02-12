@@ -23,6 +23,7 @@
 - Confirmed: Switch 1 (Silver Room) controls shutters at (21, 31) & (22, 31). Currently OPEN.
 - Exploring the western section of the Warehouse (West of col 18) revealed the exit to the Public Underground.
 - Exploring the West vertical corridor (x=4) southwards.
+- Confirmed: Item at (5, 3) was a crate (visual hallucination).
 - Confirmed: (6, 13) is a wall.
 - Entrance to Central Maze found at (6, 7).
 - Exploring the Central Warehouse area (East of x=6, South of y=7).
