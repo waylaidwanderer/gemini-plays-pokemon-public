@@ -17,5 +17,11 @@
 - Map 11_2 Mechanics: TYPE_2889 is a fence/wall. Avoid.
 - Navigation Note: Underground South Entrance leads to isolated loop (3_54/3_53).
 - Strategy: Enter Underground from NORTH Entrance (9, 5). Find Locked Door in main tunnel.
-- Current Location: Goldenrod City (11_2).
-- Immediate Step: Re-enter (9, 5) and find stairs to Public Underground.
+- Current Location: West Corridor (3, 2) of Underground Warehouse (3_53).
+- Connection: Just arrived from Silver Room (3_54) via stairs.
+- Plan:
+  1. Check "Fake Walls" at (6, 19) and (6, 23) in this map. They might be open after the switch toggle.
+  2. If still closed, exit South to (3, 34) -> South Entrance Hall.
+  3. Enter Public Underground -> Find "Locked Door" (Basement Key).
+- Switch Status: Toggled ON in Silver Room.
+- Trap Status: Warps in 3_54 active.
