@@ -93,4 +93,5 @@
 - Plan: Interact with Switch 1 again and ensure full text is read.
 - Switch 1 in Silver Room (3_54) at (17, 2) gives text: "You must have ice in your veins to dis TEAM ROCKET." No click sound or state change observed.
 - Suspect this might be flavor text or a hint, not a functional switch.
-- Planning to return to Warehouse (3_53) to verify blockage at Row 10, Col 18 and explore other paths.
+- Current Task: Explore the southern part of the Warehouse (3_53).
+- Investigating potential door/shutter at (18, 27) and checking if Grunt at (22, 24) moved.
