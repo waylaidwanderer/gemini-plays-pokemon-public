@@ -115,3 +115,5 @@
 - Backup Plan: Explore the "Dead End" room (16-19, 9) again in case a hidden door opened there.
 - Discovered multiple fake walls at (6, 23) and (6, 19) in the Warehouse. Column 6 appears to be a hidden corridor behind the shops.
 - NPC at (7, 23) is blocking the hidden corridor segment at (6, 23).
+- Confirmed Fake Wall path extends north to (6, 12).
+- Goal: Access Director at (7, 11) via (7, 12).
