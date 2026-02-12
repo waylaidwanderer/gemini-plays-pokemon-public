@@ -40,3 +40,6 @@
 - Observation: Super Nerd at (6, 9) is stuck in a dialogue loop ("I know my POKéMON type alignments") and is not battling.
 - Action: Attempting to break the loop by interleaving interaction and movement (A + Left).
 - Plan: Flanking left to inspect the Green Machines at (6, 10) and (6, 11) from Column 5.
+- Anomaly: Interacting with the "Green Machine" at (6, 11) (blocking the Gentleman at 7, 11) triggers shopkeeper dialogue ("I sell rare items...").
+- Hypothesis: The Gentleman at (7, 11) is a generic merchant, not the Director. Or this is a map glitch/shared dialogue ID.
+- Plan: Finish dialogue, check if it's a shop. If not the Director, continue searching.
