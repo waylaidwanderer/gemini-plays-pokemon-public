@@ -10,3 +10,4 @@
 # Strategy
 - Explore the Warehouse.
 - Watch out for Team Rocket and Switches.
+- Found stairs at (22, 27) in Warehouse leading to loot room (3_54).
