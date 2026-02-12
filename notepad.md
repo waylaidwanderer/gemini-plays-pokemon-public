@@ -23,12 +23,11 @@
 - Plan: Move to (19, 28) -> Move West to (11, 29) -> Enter Underground.
 - Switch 1 (Silver Room): ON.
 - Key: Have Basement Key.
-- Access Denied: South Entrance (11, 29) is blocked by a stubborn Rocket Grunt at (16, 23).
-- Conclusion: Must use North Entrance (9, 5).
-- Revised Plan:
-  1. Return to North Entrance (9, 5).
-  2. Enter Warehouse Entrance Hall (3_54).
-  3. Go to Silver Room -> Maze Stairs (23, 3).
-  4. Check Grunt at (22, 24) in Maze (3_53). Switch 1 might have affected him.
-  5. If no luck, go to West Corridor (3_53) and check Gentleman at (7, 23).
-- Goal: Find Switch 2 & 3 to open walls at (6, 19/23).
+- Access Denied: South Entrance (11, 29) blocked by Rocket Grunt at (16, 23).
+- Plan: Return to North Entrance (9, 5) to access Warehouse.
+- Logic: Switch 1 ("Ice in your veins") in Silver Room should have affected the Grunt at (22, 24) in the Maze ("I feel a chill").
+- Route:
+  1. Enter Goldenrod North (9, 5) -> Warehouse Entrance (3_54).
+  2. Go to Silver Room -> Stairs (23, 3) -> Maze (3_53).
+  3. Check Grunt at (22, 24).
+- Backup: If Grunt is still there, explore West Corridor (3_53) via Stairs (21, 25) for other switches.
