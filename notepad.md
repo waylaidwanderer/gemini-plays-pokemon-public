@@ -4,7 +4,6 @@
 - Switch 2: Unfound. Possibly behind Gentleman at (7, 23).
 - Switch 3: Unfound.
 - Trap: (21, 31)-(22, 31) warps to (18, 6). Verified.
-- Escaped Trap Loop: Currently in North Hall.
 - Grunt (22, 24): Blocks North. "I feel a chill".
 
 # Hidden Corridor
