@@ -54,3 +54,6 @@
 - Strategy: Use the "Trap" warp to return to (18, 6).
 - Plan: From (18, 6), travel West to Junction (6, 7), then East along Row 7 to x=16.
 - Hypothesis: A path at x=16 winds South and West to reach the Director at (8, 11).
+- Analysis: The North wall of the "Director's Block" (Row 8, x=7 to x=16) is solid.
+- Hypothesis: The entrance to the Director's area is from the South-East section (Row 27), accessible via the Silver Room entrance at (22, 27).
+- Plan: Warp to (21, 31) via Door (18, 6). Navigate to (22, 27). Explore West and North from (22, 27).
