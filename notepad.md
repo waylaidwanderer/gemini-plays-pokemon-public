@@ -4,8 +4,9 @@
 - Strategy: Use Elevator to access 2F (Mart) and 6F (Vending). Heal manually, then resume Rocket mission.
 
 # Shopping List
-- 2F: Hyper Potions, Full Heals, Revives.
-- 6F: Fresh Water/Lemonade (Cost effective).
+- 2F: Full Heals, Revives (Check Clerk 2).
+- 6F: Lemonade (80HP, 350g) - Best value.
+- Skip Super Potions (Inefficient).
 
 # Radio Tower Intel (Paused)
 - Objective: Rescue Director (5F) & Defeat Team Rocket.
