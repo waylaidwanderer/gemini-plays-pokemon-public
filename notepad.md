@@ -14,12 +14,14 @@
 - Theory: Switches open these walls.
 - Blocker: Gentleman at (7, 23).
 - Warp Connection: 3_54 (21, 25) -> 3_53 (3, 2). Confirmed.
-- Map 11_2: Goldenrod City Surface (Not Public Underground).
-- Navigation Note: Underground South Entrance leads to isolated loop (3_54/3_53).
-- Strategy: Enter Underground from NORTH Entrance (9, 5). Find Locked Door in main tunnel.
+- Map 11_2: Goldenrod City Surface.
+- Map 3_53: Underground Warehouse (West/Maze).
+- Map 3_54: Underground Warehouse (Entrance/Silver Room).
+- Public Underground: The main tunnel with trainers (Map ID TBD).
+- Navigation Note: South Entrance leads to isolated loop (3_54/3_53). Must use Public Underground for Locked Door.
+- Strategy: Exit to Goldenrod (11_2) via (21, 29) -> Enter Public Underground -> Find Locked Door (Basement Key).
 - Current Location: Entrance Hall (3_54).
-- Goal: Enter Public Underground (Unknown ID).
-- Path: Exit to Goldenrod (21, 29) -> Enter Public Underground Entrance -> Stairs down.
+- Immediate: Finish dialogue, exit to Goldenrod.
 - Switch 1 (Silver Room): Verified ON.
 - Note: Avoid Mat at (21, 29) in Silver Room (One-way exit).
 - Backup: If Grunt still blocking, exit to Public Underground via South Entrance (3, 34) and find Locked Door.
