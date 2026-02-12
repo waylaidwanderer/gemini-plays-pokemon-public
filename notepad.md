@@ -10,5 +10,5 @@
 
 # Navigation Notes
 - Map 11_2 (Goldenrod): TYPE_2889 is strictly obstacles/walls.
-- Path to PC: Main street is on East side (x>=18).
-- Game Corner blocks direct North path from (14, 28).
+- Path to PC: Must use East side (Main Street). West approach blocked by Row 20 wall.
+- Obstacle: NPC at (16, 23) guards the PC entrance. Must navigate around/wait.
