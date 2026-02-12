@@ -16,3 +16,5 @@
 - Map 11_2 Mechanics: TYPE_2889 is a fence/wall. Avoid.
 - Navigation Note: Underground South Entrance leads to isolated loop (3_54/3_53).
 - Strategy: Must enter Underground from NORTH Entrance (Goldenrod City) to reach Locked Door in main tunnel (11_2).
+- Current Location: West Corridor (Map 3_53).
+- Immediate Step: Exit to North Entrance Hall, then enter Public Underground.
