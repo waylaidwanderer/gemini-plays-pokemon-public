@@ -12,10 +12,10 @@
   - Northern Doors (6, 10-16): Checked. Locked/No interaction.
   - (6, 20): Checked. No response.
   - (6, 21): Herb Shop.
-  - (6, 22): Next target.
-  - Southern Doors (6, 20-22): Checking...
+  - (6, 22): Checked. No response.
+  - Southern Doors: All checked. Duds.
   - (3, 20): PokeManiac Donald.
   - (3, 34): South Exit (NOT the Warehouse).
-- Key Items: BASEMENT KEY (Opens Warehouse Door).
-- Goal: Check Door at (6, 22).
-- Current Location: (5, 20). Moving South.
+- Key Items: BASEMENT KEY.
+- Goal: Re-check Northern Doors (6, 16), (6, 14), etc. SLOWLY.
+- Current Location: (5, 22). Moving North.
