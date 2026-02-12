@@ -20,5 +20,5 @@
 - Switch 2: ?
 - Switch 3: ?
 - Barriers: ?
-- Confirmed: Switch 1 (Silver Room) opened the shutters at (21, 31) & (22, 31).
-- Exploring the eastern section of the Warehouse (East of the shutters).
+- Confirmed: Switch 1 (Silver Room) controls shutters at (21, 31) & (22, 31). Currently OPEN.
+- Exploring the western section of the Warehouse (West of col 18) to find the maze entrance.
