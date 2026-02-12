@@ -15,11 +15,12 @@
 - Blocker: Gentleman at (7, 23).
 - Warp Connection: 3_54 (21, 25) -> 3_53 (3, 2). Confirmed.
 - Map 11_2: Goldenrod City Surface.
-- Map 3_54: Warehouse Entrance Hall & Silver Room.
-- Map 3_53: Warehouse Maze / West Corridor.
-- Goal: Rescue Director (Solve Switch Puzzle).
-- Status: Basement Key USED. Door Unlocked.
-- Puzzle State: Switch 1 (Silver Room) Toggled ON.
-- Next Step: Check Grunt at (22, 24) in 3_53 (Maze). He should have moved/battled.
-- Path: Entrance Hall (3_54) -> Silver Room (3_54) [Walk North?] -> Stairs (23, 3) -> Maze (3_53) -> Grunt (22, 24).
-- Note: If Hall and Silver Room are disconnected, take Stairs (21, 25) to West Corridor and find path to Silver Room.
+- Map 3_54: North Entrance Hall & Silver Room.
+- Map 3_53: Public Underground & Warehouse (Likely shared map).
+- Problem: North Entrance led to "Behind the Scenes" / Warehouse area.
+- Hypothesis: South Entrance (11, 29) leads to the Main Public Tunnel.
+- Goal: Enter South Entrance to access Main Tunnel -> Find Locked Door.
+- Locked Door Location: Somewhere in the main vertical tunnel.
+- Key: Have Basement Key.
+- Switch 1 (Silver Room): ON.
+- Plan: Walk South to (11, 29) -> Enter -> Find Door.
