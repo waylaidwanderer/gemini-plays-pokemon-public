@@ -10,10 +10,12 @@
 # Navigation Notes
 - Map 3_53 (Underground):
   - Northern Doors (6, 10-16): Checked. Locked/No interaction.
-  - (6, 9): Super Nerd (Avoid?).
-  - Southern Doors (6, 20-22): Next target.
+  - (6, 20): Checked. No response.
+  - (6, 21): Herb Shop.
+  - (6, 22): Next target.
+  - Southern Doors (6, 20-22): Checking...
   - (3, 20): PokeManiac Donald.
   - (3, 34): South Exit (NOT the Warehouse).
 - Key Items: BASEMENT KEY (Opens Warehouse Door).
-- Goal: Check Southern Doors (6, 20-22).
-- Current Location: (5, 10). Heading South.
+- Goal: Check Door at (6, 22).
+- Current Location: (5, 20). Moving South.
