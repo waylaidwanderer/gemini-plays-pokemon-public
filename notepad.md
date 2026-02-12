@@ -103,3 +103,5 @@
 - NPC at (2, 6) Tip: "The HIKER on ROUTE 33, ANTHONY, is a good guy."
 - Possible connection to PokeManiac Anthony in the Warehouse? Or just flavor text.
 - Note: Hiker Anthony on Route 33 is a phone contact in Crystal. Might be irrelevant to the current dungeon.
+- NPC at (2, 6) continued: "He'll phone you if he sees any rare POKEMON."
+- Confirmed: Just a tip about the phone feature and Hiker Anthony on Route 33 (Dunsparce swarm). Irrelevant to current puzzle.
