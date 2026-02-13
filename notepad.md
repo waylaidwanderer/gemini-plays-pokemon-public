@@ -4,10 +4,9 @@
 
 # Current Navigation Status
 - Location: New Bark Town (Physical).
-- Map State: Cursor stuck at Cianwood City. Inputs unresponsive.
-- Action: Resetting Fly Map to clear glitch/input lock.
-- Sequence: B (Close Map) -> A (Select Fly) -> Left x3 (Ecruteak) -> Down (Goldenrod) -> A (Execute).
-- Start Point: New Bark Town (Default).
+- Menu State: Party Menu -> Topaz -> Fly selected.
+- Action: Pressing 'A' to open Fly Map.
+- Next Step: Navigate cursor to Goldenrod City.
 
 # Route 34 Exploration Plan
 1. Fly to Goldenrod City.
