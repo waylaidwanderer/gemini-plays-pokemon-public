@@ -31,3 +31,5 @@
   2. Travel South through Underground to bypass City barriers.
   3. Exit at South Entrance (11, 29).
   4. Head West to the coast and Surf.
+- Navigation Note: West movement from (6, 30) blocked by curb. Detouring North to (6, 29) to access the road.
+- Trainer Alert: Trainer likely at (3, 27). Staying in Column 4 to avoid Line of Sight.
