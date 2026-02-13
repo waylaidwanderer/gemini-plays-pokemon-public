@@ -24,3 +24,4 @@
 - Progress: Cleared major gyms, now tackling Rocket arc. Stuck at Route 34 Whirlpool.
 - Issues: Menu inputs failing or desyncing. 'IntermediateStates' showing wrong turn data.
 - Plan: Slowing down inputs. Verifying Party Menu entry before selecting move.
+- Navigation Update: Row 10 West of Column 14 is blocked by buildings (Visual Wall). Must detour North to Row 5 to access the West Coast.
