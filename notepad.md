@@ -2,12 +2,16 @@
 - Objective: Find the Director in Underground Warehouse.
 - Constraint: Team Rocket barriers block South Goldenrod. Must access South Underground Entrance via West Route 34.
 
-- Navigation Strategy Change: "You're already SURFING" message appeared when selecting Surf from menu while on land. Interpreting as a glitch or mis-selection. Retrying direct interaction.
-- Action:
-  1. Close text (B).
-  2. Face Left (West).
-  3. Interact (A).
-- Target: Trigger "Want to Surf?" prompt or "Whirlpool" message.
+- Navigation Strategy Change: Whirlpool/Surf channel at Column 3 is blocked or bugged.
+- Map Analysis:
+  - Row 7 blocks North movement on the beach (Column 4).
+  - However, Row 7 is open at Column 6+ (Tall Grass/Path).
+  - Row 2 connects the East and West beaches via a sand bridge at (3, 2).
+- New Plan:
+  1. Walk East from (4, 18) to the main road (Column 8).
+  2. Walk North past the Row 7 barrier.
+  3. Cut West at Row 2 to reach the sand bridge at (3, 2).
+  4. Cross to the West Bank (Column 2) and head South.
 
 # Route 34 Exploration Plan
 1. Fly to Goldenrod City.
