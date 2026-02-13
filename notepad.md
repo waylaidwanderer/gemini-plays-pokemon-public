@@ -8,9 +8,8 @@
   - TYPE_1f49 = Whirlpool (Barrier).
   - TYPE_2889 = Trees (Blocked).
   - TYPE_3fe2 = Ground (Walkable).
-- Current Status: Flying to Goldenrod City to access West Route 34 from the North.
-- Obstacles: East Route 34 is a dead end.
-- Revised Plan: Surf South from Goldenrod Harbor.
+- Current Status: Accidentally flew to Cianwood City. Attempting to Fly to Goldenrod City again.
+- Revised Plan: Fly to Goldenrod City -> Surf South from Harbor -> Access West Route 34.
 
 # Known Locations (Warehouse)
 - Stairs: (23, 3) Silver Room <-> (22, 27) Warehouse.
