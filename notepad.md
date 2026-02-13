@@ -5,7 +5,9 @@
 - West Nook (18-20, 29-31): Checked. Empty.
 - East Area (Cols 23-24): Open area around stairs. Empty.
 - Grunt at (22, 24): Shivering ("I feel a chill"). Blocks North.
-- Strategy: Bump/Talk to the Grunt again. If stuck, return to Silver Room (3_54).
+- Strategy: Turn Switch 1 OFF to unfreeze the Grunt at (22, 24).
+- Hypothesis: OFF = Traps Active / Grunt Active. ON = Traps Frozen / Grunt Frozen.
+- Goal: Battle the Grunt to clear the path North.
 - Locked Shutter: (6, 20) in North Warehouse.
 - Burglar: (19, 8) in North Warehouse.
 - Check Walls: Inspecting the wall behind the frozen traps (Row 32) just in case.
