@@ -24,4 +24,3 @@
 - Progress: Cleared major gyms, now tackling Rocket arc. Stuck at Route 34 Whirlpool.
 - Issues: Menu inputs failing or desyncing. 'IntermediateStates' showing wrong turn data.
 - Plan: Slowing down inputs. Verifying Party Menu entry before selecting move.
-- Interruption: Phone call from Schoolboy Alan. Must clear dialogue before proceeding with Surf.
