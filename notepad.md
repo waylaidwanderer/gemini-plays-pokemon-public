@@ -78,3 +78,4 @@
 - Hypothesis: Hidden wall or second switch inside the Secret Corridor.
 - Backup Plan: Thoroughly search the South Warehouse 'cage' (3_53) for hidden triggers.
 - NPC (Girl?) at (4, 8) blocked by wall at x=6.
+- Visual Confirmation: Trainer/Grunt at (19, 12) in the South Room.
