@@ -45,3 +45,4 @@
 - Cause: Mistook TYPE_2889 (Wall/Divider) for Walkable Floor.
 - Fix: Removing TYPE_2889 from walkable lists in this area. Visual verification confirms it is a wall.
 - Next: Exit Silver Room and verify trap status in Main Warehouse.
+- Combat: Engaging Rocket Grunt at (22, 24). Garnet (Typhlosion) on point.
