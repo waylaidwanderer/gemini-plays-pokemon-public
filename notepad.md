@@ -40,6 +40,7 @@
 - Hidden Corridor (7, 23): Blocked by "Gentleman" (Solid Obstacle). No interaction.
 - Strategy: Abandoning hidden corridor. Heading to Main Warehouse area (East of 6, 7) to find switches.
 
+- Note: Row 1 tiles on Map 3_54 appear to be walls despite being TYPE_2889. Do not path through them.
 - NPC at (19, 6): Burglar sprite, says "NO ENTRY BEYOND THIS POINT". Acts as a blocker.
 - Strategy: Moving East to explore the rest of the warehouse since he blocks North.
 - Discovery: (6, 25) is also a fake wall/entrance to the hidden corridor.
