@@ -4,11 +4,10 @@
 - Current Obstacles: Locked Shutter (6, 20), Blocking Grunt (22, 24), Blocking Burglar (19, 6).
 - Key Discovery: Goldenrod City is divided by a fence. West side (Underground Ent, Dept Store) is accessible via Route 34 West.
 
-# Strategy: Route 34 Crossing
-- Goal: Find access to the water on the West side of Route 34.
-- Status: Currently blocked by trees at (4, 8).
-- Plan: Head South along the tree line to find a gap or opening in the fence/trees (Col 4).
-- Note: Potential glitch state with "Already Surfing" message previously; ignoring for now and seeking physical path.
+# Exploration: Route 34
+- Goal: Find access to the water on the West side.
+- Plan: Head South along the tree line to find a gap in the fence/trees (Col 3-4).
+- Previous Attempt: Surfing from land failed (potential glitch). Now seeking physical path south.
 
 # Known Locations (Warehouse)
 - Stairs: (23, 3) Silver Room <-> (22, 27) Warehouse.
