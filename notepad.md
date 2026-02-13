@@ -17,3 +17,5 @@
 - Warp: Trap (21, 31) -> (19, 8) North Warehouse.
 - Navigation Update (Turn 40237): Found a path North via a gap at Col 22.
 - Path: (17, 10) -> (18, 9) -> East to (22, 9) -> North to Exit.
+- Navigation Update (Turn 40247): North Exit at Cols 22-24 blocked.
+- Action: Sweeping West along Row 0 (Cols 15-21) to find the valid exit tile.
