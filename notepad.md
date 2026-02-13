@@ -10,7 +10,8 @@
   - TYPE_3fe2 = Ground (Walkable).
 - Current Status: Moving North along Col 6. (5,48) blocked by Irene, (6,50) blocked by Kate.
 - Navigation Plan: Walk North to (6, 43) to re-enter Water (TYPE_4e8c).
-- Whirlpool Strategy: Surf at (4, 43) and interact with Whirlpool at (3, 43) to cross the barrier.
+- Whirlpool Analysis: The scan detected a gap of pure Water at (3, 2) and (3, 3). The southern whirlpools (Row 42/43) seem to be non-interactive barriers ("Can't use that here").
+- New Plan: Surf North along the barrier to reach the gap at Row 3.
 
 # Known Locations (Warehouse)
 - Stairs: (23, 3) Silver Room <-> (22, 27) Warehouse.
