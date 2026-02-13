@@ -7,11 +7,12 @@
 
 # Strategy: Route 34 Crossing
 - Goal: Cross barrier at (3, 10).
-- Analysis: (3, 10) is a Whirlpool. "Can't use that here" from land implies I must be Surfing first or facing it directly.
+- Analysis: I am ALREADY SURFING (confirmed by Tentacool encounter at (4, 11) and menu text).
+- State: Player is "surfing" on shore tile (4, 11).
 - Plan:
-  1. Move to (4, 11) (likely clear water).
-  2. Surf into (3, 11).
-  3. Approach (3, 10) from the water and clear it.
+  1. Exit all menus.
+  2. Navigate on water.
+  3. Approach (3, 10) Whirlpool and clear it.
 
 # Known Locations (Warehouse)
 - Stairs: (23, 3) Silver Room <-> (22, 27) Warehouse.
