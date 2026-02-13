@@ -6,8 +6,9 @@
 
 # Exploration: Ilex Forest
 - Goal: Find a path to the West side of Route 34 (Coastline/Underground Entrance).
-- Plan: Follow the hidden land path starting at (0, 19) South to (0, 24), then East.
-- Insight: The "channel" at Column 0 is a land path, not water. It bypasses the trees blocking the coast.
+- Plan: Explore the land path at Row 24 Eastward.
+- Status: Currently at (3, 24) on land. Path South is blocked. Path North (Column 0) was blocked at y=17.
+- Insight: The "channel" at Column 0 is a land path. It led to this clearing.
 - Correction: Map 3_52 IS Ilex Forest. Previous note about desync was incorrect.
 
 # Known Locations (Warehouse)
