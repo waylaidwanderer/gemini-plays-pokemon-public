@@ -32,3 +32,8 @@ Reflection Turn 41022:
 - Navigation: Goldenrod layout is tricky with fences. Need to find the gap to reach the Center at (14, 21).
 - Navigation Discovery: Access to Pokemon Center (14, 21) is blocked from East (NPC) and South-Central (Walls at Col 13/14). 
 - Valid Path: Go South to Main St (Row 29), West to Col 8 (Open Corridor), North to Row 22, then East to Center.
+- Navigation Strategy: Enclosed walls around PokeCenter (Row 21) require access from South (Row 22). 
+- Blockage: NPCs at (16,23) and (17,22) block direct path.
+- Workaround 1: Fly to Goldenrod City (should land in front of Center).
+- Workaround 2: Go East to Col 19, South to Main St (Row 29), West to Col 8, North to Row 22, East to Center.
+- West Coast Access: From Main St, go East to Col 18, North to Row 17, West to Col 3 (Water).
