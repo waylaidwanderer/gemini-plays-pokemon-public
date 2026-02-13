@@ -39,5 +39,5 @@ Reflection Turn 41022:
 - West Coast Access: From Main St, go East to Col 18, North to Row 17, West to Col 3 (Water).
 - Navigation Update: Path at (16, 23) definitely blocked by Grunt.
 - Reroute: Going East to Col 18, South to Row 29, then West to reach Center from the South.
-- Navigation Update: East Side of Goldenrod (Cols 18+) appears isolated from West Side (PokeCenter) by Team Rocket barriers on Row 20-35.
-- Action: Attempting to Fly to Goldenrod City to reset position to the default landing spot (PokeCenter).
+- Navigation Update: Preparing to Fly to Goldenrod City (Center) to bypass East Side barriers.
+- Current State: In Party Menu, Topaz selected. Next step: Select Fly.
