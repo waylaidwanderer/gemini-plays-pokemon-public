@@ -4,10 +4,10 @@
 - Current Obstacles: Locked Shutter (6, 20), Blocking Grunt (22, 24), Blocking Burglar (19, 6).
 - Key Discovery: Goldenrod City is divided by a fence. West side (Underground Ent, Dept Store) is accessible via Route 34 West.
 
-# Exploration: Route 34
-- Goal: Find access to the water on the West side.
-- Plan: Head South along the tree line to find a gap in the fence/trees (Col 3-4).
-- Previous Attempt: Surfing from land failed (potential glitch). Now seeking physical path south.
+# Exploration: Ilex Forest
+- Goal: Find a path to the West side of Route 34 (Coastline/Underground Entrance).
+- Plan: Traverse Ilex Forest Gatehouse, enter forest, and look for a path leading North-West.
+- Note: GameState Map ID currently desynced (shows 3_52 Route 34, visual is Gatehouse). Trusting visual.
 
 # Known Locations (Warehouse)
 - Stairs: (23, 3) Silver Room <-> (22, 27) Warehouse.
