@@ -8,13 +8,9 @@
   - TYPE_1f49 = Whirlpool (Barrier).
   - TYPE_2889 = Trees (Blocked).
   - TYPE_3fe2 = Ground (Walkable).
-- Current Status: Surfing North to Row 3 to find Whirlpool Gap.
-- Navigation Plan: Walk North to (6, 43) to re-enter Water (TYPE_4e8c).
-- Whirlpool Analysis:
-  - Trees block North progress at Row 7 in East Channel.
-  - Trees block access to West Channel from the South (Row 44-53).
-  - CONCLUSION: I MUST break the Whirlpool at (3, 8) to proceed. No other path exists.
-- Current Action: Clear menus (stuck in "Can't use that here"), Face Left, and interact directly with 'A'.
+- Current Status: Landed at (6, 43). Walking South to cross the Land Bridge at Row 48/49.
+- Obstacles: Defeated Trainers Irene (5, 48) and Jenn (7, 48) block the direct path west at Row 48.
+- Revised Plan: Walk South to (6, 49) to bypass Irene, then head West to access the West Channel.
 
 # Known Locations (Warehouse)
 - Stairs: (23, 3) Silver Room <-> (22, 27) Warehouse.
