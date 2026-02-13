@@ -9,12 +9,10 @@
 - Goal: Enter Goldenrod City via the West Path (Cols 0-2).
 - Current Position: Surfing at (4, 8).
 - Immediate Task: Clear Whirlpool at (3, 8).
-- Plan: 
-  1. Exit Stats (B).
-  2. Select Headache (Down x3, A).
-  3. Select 2nd Option (Down, A).
-     - Hypothesis: Option 1 is Surf (invalid), Option 2 is Whirlpool.
-  4. If fails, analyze resulting screen (Stats vs Error).
+- Confirmed: Option 2 was Surf.
+- Hypothesis: Option 1 is Whirlpool.
+- Action: B (Clear Text), A (Select Headache), A (Select Option 1), A (Confirm).
+- Next Step: If whirlpool breaks, Surf West to Col 2 and North.
 
 # Known Locations (Warehouse)
 - Stairs: (23, 3) Silver Room <-> (22, 27) Warehouse.
