@@ -8,7 +8,7 @@
   - TYPE_1f49 = Whirlpool (Barrier).
   - TYPE_2889 = Trees (Blocked).
   - TYPE_3fe2 = Ground (Walkable).
-- Current Status: Stuck on Sandbar (South of Row 43).
+- Current Status: Moving North along Col 6. (5,48) blocked by Irene, (6,50) blocked by Kate.
 - Navigation Plan: Walk North to (6, 43) to re-enter Water (TYPE_4e8c).
 - Whirlpool Strategy: Surf at (4, 43) and interact with Whirlpool at (3, 43) to cross the barrier.
 
