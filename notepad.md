@@ -10,9 +10,10 @@
 - Current Position: Surfing at (4, 8).
 - Immediate Task: Clear Whirlpool at (3, 8).
 - Confirmed: Option 2 was Surf.
-- Hypothesis: Option 1 is Whirlpool.
-- Action: B (Clear Text), A (Select Headache), A (Select Option 1), A (Confirm).
-- Next Step: If whirlpool breaks, Surf West to Col 2 and North.
+- Confirmed: Option 1 is Whirlpool (returned 'Can't use that here').
+- Conclusion: Previous failure was due to incorrect facing.
+- Action: Clear Text (B), Face Left (Left), Interact (A).
+- Next Step: If 'A' fails, use Menu (Option 1) while definitely facing Left.
 
 # Known Locations (Warehouse)
 - Stairs: (23, 3) Silver Room <-> (22, 27) Warehouse.
