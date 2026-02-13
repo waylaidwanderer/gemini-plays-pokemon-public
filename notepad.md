@@ -8,12 +8,11 @@
 # Strategy: Route 34 Crossing
 - Goal: Cross barrier at (3, 10).
 - Analysis: My sprite is WALKING. Surf failed because (3, 8) is a Whirlpool.
-- Obstacle (4, 7): Unverified. ID suggests water, but previous issues suggest blockage.
+- Obstacle (4, 7): Visually identified as a TREE. Attempting to CUT.
 - Plan:
-  1. Exit menus (Pokedex currently open).
-  2. Face Up from (4, 8).
-  3. Inspect (4, 7) with 'A'. Determine if Water/Tree/Rock.
-  4. If Water: Surf. If Tree: Cut.
+  1. Face Up from (4, 8) and press A.
+  2. Confirm CUT dialogue.
+  3. Move to (4, 7) and Surf Left to (3, 7).
 
 # Known Locations (Warehouse)
 - Stairs: (23, 3) Silver Room <-> (22, 27) Warehouse.
