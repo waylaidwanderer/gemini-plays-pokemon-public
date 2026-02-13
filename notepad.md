@@ -42,8 +42,8 @@ Reflection Turn 41022:
 - Navigation Error: Encountered 'Can't use that here' in Party Menu. Likely due to Pack/Item context or wrong menu selection.
 - Correction: Resetting to Overworld and opening Start Menu to visually confirm cursor position before attempting Fly again.
 - Next Step: Identify cursor position, then navigate to Pokemon -> Topaz -> Fly.
-- Navigation Map: Open. Cursor at New Bark Town.
-- Path to Goldenrod: New Bark -> Cherrygrove (Left) -> Violet (Left) -> Ecruteak (Left) -> Goldenrod (Down).
+- Navigation Map: Open. Cursor unexpectedly at Lake of Rage.
+- Path Adjustment: Lake of Rage -> Mahogany (Down) -> Ecruteak (Left) -> Goldenrod (Down).
 - Action: Executing cursor movement sequence.
-- Sequence: Left -> Left -> Left -> Down.
+- Sequence: Down -> Left -> Down.
 - Next Step: Verify cursor is on Goldenrod City, then Press A.
