@@ -13,3 +13,5 @@
   - Switch 1 is currently ON (Wall at 16,7 OPEN).
   - Battled Grunt at Row 4.
   - Exploring West wing of Silver Room.
+- Hint from Grunt (3, 2): 'Change the order of switching'. Implies sequence.
+- Hypothesis: Search for Switch 2 in the West wing.
