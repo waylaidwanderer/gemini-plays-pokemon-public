@@ -42,3 +42,5 @@
 - Confirmed: (6, 19) is a fake wall/hidden entrance.
 - Navigation: Exploring North from (6, 19) inside the wall line.
 - Goal: Find switches or a path to the Director.
+- Hidden Corridor (7, 23): Blocked by "Gentleman" (Solid Obstacle). No interaction.
+- Strategy: Abandoning hidden corridor. Heading to Main Warehouse area (East of 6, 7) to find switches.
