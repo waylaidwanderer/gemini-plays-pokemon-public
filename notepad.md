@@ -2,11 +2,12 @@
 - Objective: Find the Director in Underground Warehouse.
 - Constraint: Team Rocket barriers block South Goldenrod. Must access South Underground Entrance via West Route 34.
 
-- Navigation Strategy Change: North blocked by trees. West blocked by solid wall of Whirlpools. Walking South along sandbar to find a gap (plain water) to Surf.
+- Navigation Strategy Change: Trying to Surf at (3, 18).
+- Observation: Tile (3, 18) is TYPE_1f49. Previous interaction at (3, 8) suggested it wasn't a whirlpool (failed to use move). Assuming it is Surfable water.
 - Action:
-  1. Walk South along Column 4.
-  2. Visually check Column 3 for non-Whirlpool tiles.
-  3. If found, Surf.
+  1. Face Left (West).
+  2. Open Menu, Select Headache.
+  3. Use Surf.
 
 # Route 34 Exploration Plan
 1. Fly to Goldenrod City.
