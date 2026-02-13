@@ -77,3 +77,4 @@
 - Objective: Investigate the Secret Corridor in Silver Room (3_54) for a path to the Unreachable Item at (15, 12).
 - Hypothesis: Hidden wall or second switch inside the Secret Corridor.
 - Backup Plan: Thoroughly search the South Warehouse 'cage' (3_53) for hidden triggers.
+- NPC (Girl?) at (4, 8) blocked by wall at x=6.
