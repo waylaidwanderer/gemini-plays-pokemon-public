@@ -25,3 +25,9 @@
 - Issues: Menu inputs failing or desyncing. 'IntermediateStates' showing wrong turn data.
 - Plan: Slowing down inputs. Verifying Party Menu entry before selecting move.
 - Navigation Update: Row 10 West of Column 14 is blocked by buildings (Visual Wall). Must detour North to Row 5 to access the West Coast.
+- Navigation Update: Row 5/6 North of (6, 8) is blocked by buildings. Row 16 path has potential NPC blocks.
+- Optimized Plan:
+  1. Enter Underground at (9, 5) (North Entrance).
+  2. Travel South through Underground to bypass City barriers.
+  3. Exit at South Entrance (11, 29).
+  4. Head West to the coast and Surf.
