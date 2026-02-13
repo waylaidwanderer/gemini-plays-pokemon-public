@@ -6,8 +6,8 @@
 
 # Exploration Plan
 - Current Location: Route 34 (West Side Pond).
-- Immediate Goal: Cross Whirlpool at (3, 10) to reach West Channel.
-- Route: Surf North via West Channel to Row 2, land at (4, 2), enter Goldenrod West.
+- Immediate Goal: Cross water at (3, 8) to reach West Bank (Col 1).
+- Route: Surf Left to (3, 8), land on (2, 8), Walk West to Col 1, then North to Goldenrod.
 - Destination: South Underground Entrance (Goldenrod 11, 29).
 
 # Known Locations (Warehouse)
