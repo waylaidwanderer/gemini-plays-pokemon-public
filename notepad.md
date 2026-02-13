@@ -7,7 +7,11 @@
 
 # Strategy: Route 34 Crossing
 - Goal: Cross barrier at (3, 10).
-- Action: Scan to identify barrier type (Whirlpool/Rock), then clear it.
+- Analysis: (3, 10) is a Whirlpool. "Can't use that here" from land implies I must be Surfing first or facing it directly.
+- Plan:
+  1. Move to (4, 11) (likely clear water).
+  2. Surf into (3, 11).
+  3. Approach (3, 10) from the water and clear it.
 
 # Known Locations (Warehouse)
 - Stairs: (23, 3) Silver Room <-> (22, 27) Warehouse.
