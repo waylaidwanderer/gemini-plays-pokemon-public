@@ -49,5 +49,7 @@
 - Goal: Check the "Gentleman" at (7, 23) from the South side.
 - Confirmation: 3_54 (23, 3) warps to 3_53 (22, 27).
 - Success: Switch 1 (Silver Room) DISABLED the floor traps at (21, 31)-(22, 31).
-- Switch 1 State: ON ("Ice in your veins").
-- Navigation: Exploring the Warehouse area past the traps.
+- Grunt (22, 24): Frozen/Shivering ("I feel a chill"). Still blocks North.
+- Strategy: Explore the West area (Row 25+) now that the traps are gone.
+- Switch 1: ON.
+- Traps (21, 31)-(22, 31): DISABLED.
