@@ -6,8 +6,8 @@
 
 # Exploration: Ilex Forest
 - Goal: Find a path to the West side of Route 34 (Coastline/Underground Entrance).
-- Plan: Traverse Ilex Forest Gatehouse, enter forest, and look for a path leading North-West.
-- Note: GameState Map ID currently desynced (shows 3_52 Route 34, visual is Gatehouse). Trusting visual.
+- Plan: Explore the pond, land on the East side, then head South to find a path looping West.
+- Correction: Map 3_52 IS Ilex Forest. Previous note about desync was incorrect.
 
 # Known Locations (Warehouse)
 - Stairs: (23, 3) Silver Room <-> (22, 27) Warehouse.
