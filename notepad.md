@@ -68,6 +68,6 @@
   2. Turn Switch 1 ON.
   3. Return to Warehouse (3_53).
   4. Step on Traps at (21, 31) to see if they warp.
-- Mechanic: Switch 1 ON = Secret Room OPEN, Warps at (21, 31)/(22, 31) are INACTIVE (Walkable).
-- Hypothesis: Switch 1 OFF = Secret Room CLOSED, Warps ACTIVE.
-- Plan: If Grunt is still blocking, turn Switch 1 OFF and try warps.
+- Mechanic: Switch 1 OFF = Secret Room OPEN, Warps at (21, 31)/(22, 31) are INACTIVE.
+- Hypothesis: Switch 1 ON = Secret Room CLOSED, Warps ACTIVE.
+- Action: Turning Switch 1 ON now.
