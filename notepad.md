@@ -71,6 +71,6 @@
 - Mechanic: Switch 1 has two states.
   - State A (Wall Closed): Warps at (21, 31)/(22, 31) are ACTIVE. (Tested: Warped to North Warehouse).
   - State B (Wall Open): Warps at (21, 31)/(22, 31) are INACTIVE (Walkable).
-- Current State: State B (Wall Open, Warps Inactive).
-- Status: Successfully disabled traps. Now exploring the South Warehouse area (previously inaccessible).
-- Objective: Find the Director in this area.
+- Current State: State A (Wall Closed, Warps Active).
+- Status: Toggled Switch 1 OFF.
+- Immediate Plan: Verify wall at (16, 7) is CLOSED, then run to Warehouse Warps at (21, 31).
