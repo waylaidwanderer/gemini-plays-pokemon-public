@@ -15,5 +15,5 @@
 - Warp: Trap (21, 31) -> (19, 8) North Warehouse.
 - Navigation Note: Goldenrod is split. Current map (26_3) ends at Row 17. Expecting a transition to a Southern map (likely 26_something) to reach (11, 29).
 - Action Plan: Walk South along the sidewalk/road to find the transition.
-- Navigation Note: Successfully merged onto the road at Row 12. Currently near (10, 14).
-- Action Plan: Continue South to the map edge (Row 17) to transition to the southern part of Goldenrod.
+- Navigation Note: East Sidewalk (Col 10+) is separated from Main Road (Col 9-) by obstacles South of Row 6.
+- Action Plan: Move West from PokeCenter (29, 4) to Main Road (7, 5), then head South to map edge.
