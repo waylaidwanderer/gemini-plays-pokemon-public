@@ -1,55 +1,15 @@
-# Warehouse Strategy (Turn 39772)
-- Objective: Open the shutters to reach the Director (7, 11).
-- Switch 1 (Silver Room): Toggled. Text: "Ice in your veins to dis...". Effect: Likely toggles Floor Traps or Grunt State.
-- Floor Traps: (21, 31)-(22, 31). Warped me to (18, 6) when active.
-- Grunt (22, 24): Blocks path to key area. Says "I feel a chill".
+# Warehouse Strategy
+- Objective: Find the Director (likely behind locked shutters/doors).
+- Switch 1 (Silver Room): ON. Effect: Disables Floor Traps at (21, 31)-(22, 31).
+- Grunt (22, 24): Shivering ("I feel a chill"). Still blocks North path.
+- Current Status: Traps are frozen. Exploring the West section of the Warehouse (Row 31).
 
-# Hidden Corridor (Col 6/7)
-- Entrances: (6, 19) & (6, 23). Currently SOLID/LOCKED.
-- Theory: Switches open these walls.
-- Blocker: Gentleman at (7, 23).
-- Warp Connection: 3_54 (21, 25) -> 3_53 (3, 2). Confirmed.
-- Map 11_2: Goldenrod City Surface.
-- Map 3_54: North Entrance Hall & Silver Room.
-- Map 3_53: Public Underground & Warehouse (Likely shared map).
-- Problem: Navigation to (11, 29) failed.
-- Cause: "NPC Blocker" at (16, 23) on the direct path. BFS doesn't see it.
-- Solution: Manually route South to (19, 28) to use the gap at Row 28.
-- Plan: Move to (19, 28) -> Move West to (11, 29) -> Enter Underground.
-- Switch 1 (Silver Room): ON.
-- Key: Have Basement Key.
-- Access Denied: South Entrance (11, 29) blocked by Rocket Grunt at (16, 23).
-- Plan: Return to North Entrance (9, 5) to access Warehouse.
-- Logic: Switch 1 ("Ice in your veins") in Silver Room should have affected the Grunt at (22, 24) in the Maze ("I feel a chill").
-- Current Status: In West Corridor (3_53).
-- Insight: The Super Nerd at (6, 9) blocks that specific tile, but (6, 7) appears to be an open junction to the Main Tunnel.
-- Action: Bypassing Super Nerd via (6, 7).
-- Goal: Enter Public Underground (Col 7+) and find the Locked Door.
-- Locked Door Location: Likely on the East wall of the Public Underground or a specific door tile.
-- Switch 1: ON.
+# Key Locations & Connections
+- 3_54 (Silver Room) <-> 3_53 (Warehouse) via stairs at (23, 3)/(22, 27).
+- Hidden Corridor (Col 6/7): Access via fake walls at (6, 19) & (6, 23). Currently blocked by "Gentleman".
+- Warehouse Entrance: North (9, 5). South Entrance (11, 29) blocked by Grunt.
 
-# Reflection (Turn 39719)
-- Progress: Infiltrated Underground. Used Basement Key. Toggled Switch 1 (Silver Room).
-- Obstacle: South Goldenrod Entrance blocked by Grunt. Must navigate internally.
-- Current Task: Checking if Switch 1 moved the Grunt in the Maze (3_53).
-- Map Hygiene: 3_54 (Silver Room) connects to 3_53 (Maze) via stairs at (23, 3).
-- Goal: If Grunt at (22, 24) is gone, proceed. If not, find the "Locked Door" I opened (likely near 18, 6).
-- Confirmed: (6, 19) is a fake wall/hidden entrance.
-- Navigation: Exploring North from (6, 19) inside the wall line.
-- Goal: Find switches or a path to the Director.
-- Hidden Corridor (7, 23): Blocked by "Gentleman" (Solid Obstacle). No interaction.
-- Strategy: Abandoning hidden corridor. Heading to Main Warehouse area (East of 6, 7) to find switches.
-
-- Note: Row 1 tiles on Map 3_54 appear to be walls despite being TYPE_2889. Do not path through them.
-- Correction: TYPE_2889 is a WALL on this map (e.g., at 18,3). Only TYPE_3fe2 is safe floor.
-- NPC at (19, 6): Burglar sprite, says "NO ENTRY BEYOND THIS POINT". Acts as a blocker.
-- Strategy: Moving East to explore the rest of the warehouse since he blocks North.
-- Discovery: (6, 25) is also a fake wall/entrance to the hidden corridor.
-- Navigation: Exploring the southern section of the hidden corridor (7, 24-25).
-- Goal: Check the "Gentleman" at (7, 23) from the South side.
-- Confirmation: 3_54 (23, 3) warps to 3_53 (22, 27).
-- Success: Switch 1 (Silver Room) DISABLED the floor traps at (21, 31)-(22, 31).
-- Grunt (22, 24): Frozen/Shivering ("I feel a chill"). Still blocks North.
-- Strategy: Explore the West area (Row 25+) now that the traps are gone.
-- Switch 1: ON.
-- Traps (21, 31)-(22, 31): DISABLED.
+# Outstanding Mysteries
+- Locked Shutter at (6, 20).
+- "Gentleman" blocker at (7, 23).
+- Purpose of the West area (Col 18-20).
