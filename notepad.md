@@ -31,11 +31,11 @@
   2. Travel South through Underground to bypass City barriers.
   3. Exit at South Entrance (11, 29).
   4. Head West to the coast and Surf.
-- Status: Entered Warehouse via Shutter (6, 20). Warped to (21, 31).
-- Location: Underground Warehouse (Main Area).
+- Status: Inside Silver Room (3_54).
 - Action:
-  1. Enter Silver Room at (22, 27).
-  2. Use Switch to open path to Grunts.
-  3. Find Director.
+  1. Navigate to Switch 1 at (17, 2).
+  2. Press Switch to toggle barriers.
+  3. Return to Warehouse (3_53).
+  4. Proceed to Grunts.
 - Exploration: Found horizontal corridor at Row 7 connecting West and East sides of the Underground.
 - Action: Heading East to access the main Warehouse area.
