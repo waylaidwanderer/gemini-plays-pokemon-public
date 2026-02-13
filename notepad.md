@@ -15,3 +15,5 @@
 - Warp: Trap (21, 31) -> (19, 8) North Warehouse.
 - Navigation Note: Goldenrod is split. Current map (26_3) ends at Row 17. Expecting a transition to a Southern map (likely 26_something) to reach (11, 29).
 - Action Plan: Walk South along the sidewalk/road to find the transition.
+- Navigation Hazard: The sidewalk at (14, 11) is a dead end. Must backtrack North to Row 9 to re-enter the main road.
+- Route Correction: Go Up to Row 9, then Left to the center of the road (Col 8), then South.
