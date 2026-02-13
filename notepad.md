@@ -25,15 +25,8 @@
 - Surf Fail: Unable to surf West from (2, 49). Tile (1, 49) is a non-surfable map edge.
 - Navigation Plan: Surfing South from (2, 49) towards (2, 50).
 - Menu Correction: Tool 'select_party_pokemon' caused desync. Manually navigating: Main Menu -> Pokemon -> Headache -> Surf.
-Reflection Turn 40917:
-- Realized trees (TYPE_2889) block Westward Surf attempts from Row 44 to 54. 
-- Must travel North to Row 43 (Col 6) to find open water.
-- Created tool 'find_surf_start_point' to prevent future "bonking" against non-water tiles.
-- Menu Loop Diagnosis: "Can't use that here" returns to the Move List. Pressing 'A' immediately re-triggers the error. Must press 'B' multiple times to fully exit to Overworld.
-- Whirlpool Interaction Failed: Direct interaction with 'A' and Menu usage yielded no results or "Can't use that here". 
-- New Strategy: Abandoning Whirlpool breach. Surfing South to Row 48 to cross the Land Bridge (Tiles 2-4 are clear) to the West Channel.
-Reflection Turn 40969:
-- Whirlpool at (3, 8) is unbreakable/unresponsive.
-- Gap at (3, 2) is unreachable from East Channel due to trees.
-- Confirmed Strategy: Surf South to Land Bridge at Row 48 to switch to West Channel.
-- Lesson: "Can't use that here" on a valid tile usually means it's the wrong side or a non-interactive variant of the tile. Don't force it for 50 turns next time.
+Reflection Turn 41022:
+- Progress: Abandoned South Route 34 approach due to barriers. Relocated to Goldenrod City to attempt North approach.
+- Current Goal: Heal at Pokémon Center (red roof), then find water access in Goldenrod Harbor to reach West Route 34.
+- Lessons: "Can't use that here" on a valid tile = Wall. Visual maps can be deceiving; check tile types.
+- Navigation: Goldenrod layout is tricky with fences. Need to find the gap to reach the Center at (14, 21).
