@@ -5,9 +5,13 @@
 - West Nook (18-20, 29-31): Checked. Empty.
 - East Area (Cols 23-24): Open area around stairs. Empty.
 - Grunt at (22, 24): Shivering ("I feel a chill"). Blocks North.
-- Status: Switch 1 stuck ON ("Ice in your veins"). Grunt at (22, 24) is frozen/blocking.
-- Hypothesis: "Ice in your veins" might have unlocked the Shutter at (6, 20) in the Main Tunnel.
-- Strategy: Check wall at (22, 32), then return to Main Tunnel via 3_54 -> North Entrance.
+- Discovery: Floor Trap at (21, 31) WARPED me to (19, 8) in North Warehouse.
+- Status: Switch 1 is OFF (Traps Active). I bypassed the frozen Grunt!
+- Location: North Warehouse (near Burglar at 19, 8).
+- Objective: Check Locked Shutter at (6, 20).
+- Theory: "Ice in your veins" text might be a hint for the shutter, or the switch toggles the shutter AND the traps.
+- Current State: Traps Active = ??? Shutter State.
+- Navigation: Heading to (6, 20). Avoiding TYPE_2889 (Walls).
 - East/West Nooks: Confirmed empty.
 - Locked Shutter: (6, 20) in North Warehouse.
 - Burglar: (19, 8) in North Warehouse.
