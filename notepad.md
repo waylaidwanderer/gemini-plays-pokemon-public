@@ -6,9 +6,8 @@
 
 # Exploration: Ilex Forest
 - Goal: Find a path to the West side of Route 34 (Coastline/Underground Entrance).
-- Plan: Explore the land path at Row 24 Eastward.
-- Status: Currently at (3, 24) on land. Path South is blocked. Path North (Column 0) was blocked at y=17.
-- Insight: The "channel" at Column 0 is a land path. It led to this clearing.
+- Insight: The "channel" at Column 0 led to the Ilex Forest Shrine (Dead End). It does NOT lead to the coast.
+- Plan: Backtrack to Route 34 and scrutinize the West side fence line for gaps or cuttable trees I missed.
 - Correction: Map 3_52 IS Ilex Forest. Previous note about desync was incorrect.
 
 # Known Locations (Warehouse)
