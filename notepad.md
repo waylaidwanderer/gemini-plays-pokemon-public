@@ -2,7 +2,9 @@
 - Objective: Find the Director (likely behind locked shutters/doors).
 - Switch 1 (Silver Room): ON. Effect: Disables Floor Traps at (21, 31)-(22, 31).
 - Grunt (22, 24): Shivering ("I feel a chill"). Still blocks North path.
-- Current Status: Traps are frozen. Exploring the West section of the Warehouse (Row 31).
+- West Nook (18-20, 29-31): Boxes, seems empty.
+- Strategy: Explore East side of Warehouse (Cols 23+) for Switch 2 or Items.
+- Check Walls: Inspecting the wall behind the frozen traps (Row 32) just in case.
 
 # Key Locations & Connections
 - 3_54 (Silver Room) <-> 3_53 (Warehouse) via stairs at (23, 3)/(22, 27).
