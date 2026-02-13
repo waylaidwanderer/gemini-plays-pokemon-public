@@ -71,7 +71,7 @@
 - Mechanic: Switch 1 has two confirmed states.
   - State A (Wall Closed, Switch OFF): Warps at (21, 31) are INACTIVE.
   - State B (Wall Open, Switch ON): Warps at (21, 31) are INACTIVE.
-- Conclusion: Warps are not traps currently. They are floor tiles.
-- Current Status: Switch 1 is ON. Wall at (16, 7) is OPEN.
+- Conclusion: Warps in Warehouse are currently just floor tiles.
 - Objective: Investigate the Secret Corridor in Silver Room (3_54) for a path to the Unreachable Item at (15, 12).
 - Hypothesis: Hidden wall or second switch inside the Secret Corridor.
+- Backup Plan: Thoroughly search the South Warehouse 'cage' (3_53) for hidden triggers.
