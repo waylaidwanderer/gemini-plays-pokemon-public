@@ -7,14 +7,10 @@
 
 # Strategy: Route 34 West Path
 - Goal: Enter Goldenrod City via the West Path (Cols 0-2).
-- Current Position: Route 34 Land (6, 6).
-- Correction: Land path at Col 6 is blocked by trees at Row 5.
-- Plan:
-  1. Return to Water at (6, 9).
-  2. Surf to (4, 10).
-  3. Break Whirlpool at (3, 10) (Face Left, Use Whirlpool).
-  4. Surf North in Col 2 to Goldenrod.
-- Key: MUST use Whirlpool to cross from Right (Col 4) to Left (Col 2).
+- Current Position: Surfing at (4, 9).
+- Immediate Task: Clear Whirlpool at (3, 9).
+- Note: Whirlpool at (3, 10) seemed unresponsive. Trying (3, 9).
+- Action: Press 'A' to interact. If fails, use Menu (Start -> Pokemon -> Headache -> Whirlpool).
 
 # Known Locations (Warehouse)
 - Stairs: (23, 3) Silver Room <-> (22, 27) Warehouse.
