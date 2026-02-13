@@ -31,10 +31,10 @@
   2. Travel South through Underground to bypass City barriers.
   3. Exit at South Entrance (11, 29).
   4. Head West to the coast and Surf.
-- Navigation Update: Inside South Underground Entrance (3_54).
-- Plan:
-  1. Go down stairs at (5, 25) to Main Tunnel (3_53).
-  2. Travel North in tunnel to North Stairs.
-  3. Exit to Goldenrod North (9, 5).
-  4. Walk West on Road (Row 5) to Coast.
-  5. Surf South.
+- Strategy Change: Aborting Surf Plan.
+- Reasoning: I am currently in the Underground (3_53) and I possess the BASEMENT KEY. The Surf plan was a workaround to bypass city barriers to reach the Underground/Warehouse, but I have already successfully entered the Underground.
+- New Plan:
+  1. Navigate North to the Locked Shutter at (6, 20).
+  2. Open the Shutter using the Basement Key.
+  3. Enter the Warehouse.
+  4. Locate and rescue the Director.
