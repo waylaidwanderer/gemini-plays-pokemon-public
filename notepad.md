@@ -31,10 +31,11 @@
   2. Travel South through Underground to bypass City barriers.
   3. Exit at South Entrance (11, 29).
   4. Head West to the coast and Surf.
-- Status: Shutter at (6, 20) OPENED with Basement Key.
+- Status: Entered Warehouse via Shutter (6, 20). Warped to (21, 31).
+- Location: Underground Warehouse (Main Area).
 - Action:
-  1. Enter Warehouse (Move North).
-  2. Search for the Director.
-  3. Defeat Rocket Grunts.
+  1. Enter Silver Room at (22, 27).
+  2. Use Switch to open path to Grunts.
+  3. Find Director.
 - Exploration: Found horizontal corridor at Row 7 connecting West and East sides of the Underground.
 - Action: Heading East to access the main Warehouse area.
