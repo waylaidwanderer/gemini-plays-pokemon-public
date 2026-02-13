@@ -7,12 +7,12 @@
 
 # Strategy: Route 34 Crossing
 - Goal: Cross barrier at (3, 10).
-- Analysis: Tile (4, 7) is Confirmed WATER (Type 2889) via RAM scan. Previous "Tree" ID was a hallucination.
+- Analysis: Surfing from (4, 8) has repeatedly failed. Moving to a new location to reset state and try a different angle.
 - Plan:
-  1. Face Up (to 4, 7).
-  2. Select Surf from Headache's menu.
-  3. Surf to (4, 7), then Left to (3, 7).
-  4. Face Down to (3, 8) and use Whirlpool from the water side.
+  1. Move Right to (5, 8).
+  2. Face North towards water at (5, 7).
+  3. Attempt Surf using robust menu tool.
+  4. Once Surfing, navigate around the whirlpool at (3, 8) and continue South.
 
 # Known Locations (Warehouse)
 - Stairs: (23, 3) Silver Room <-> (22, 27) Warehouse.
