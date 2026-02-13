@@ -1,16 +1,17 @@
 # Warehouse Strategy
-- Objective: Find the Director.
-- Switch 1 (Silver Room): ON. Disables Floor Traps at (21, 31)-(22, 31). Freezes Grunt at (22, 24).
-- Current Obstacles: Locked Shutter (6, 20), Blocking Grunt (22, 24), Blocking Burglar (19, 6).
-- Key Discovery: Goldenrod City is divided by a fence. West side (Underground Ent, Dept Store) is accessible via Route 34 West.
+- Objective: Find the Director in Underground Warehouse.
+- Constraint: Team Rocket barriers block South Goldenrod. Must access South Underground Entrance via West Route 34.
+- Route 34 Barrier: Fence/Trees separate East (Current) and West (Goal).
+- Potential Solutions:
+  1. Find gap/cuttable tree on Route 34 fence line.
+  2. Find water path from Ilex Forest to Route 34 West Coast.
+  3. Re-evaluate Warehouse interior (Is there a non-trap path?).
 
-# Exploration: Ilex Forest
-- Goal: Find a path to the West side of Route 34 (Coastline/Underground Entrance).
-- Insight: The "channel" at Column 0 led to the Ilex Forest Shrine (Dead End). It does NOT lead to the coast.
-- Plan: Backtrack to Route 34 and scrutinize the West side fence line for gaps or cuttable trees I missed.
-- Correction: Map 3_52 IS Ilex Forest. Previous note about desync was incorrect.
+# Exploration Status
+- Ilex Forest: Shrine path explored (Dead End?). Need to verify if water connects to Route 34.
+- Route 34: Currently scanning West tree line south of Daycare.
 
 # Known Locations (Warehouse)
 - Stairs: (23, 3) Silver Room <-> (22, 27) Warehouse.
-- Hidden Corridor: Access via fake walls at (6, 19) & (6, 23).
-- Warp: Trap (21, 31) -> (19, 8) North Warehouse.
+- Switch 1 (Silver Room): Toggles Traps (21,31)-(22,31) and Grunt (22,24).
+- Obstacles: Locked Shutter (6, 20), Frozen Grunt (22, 24), Burglar (19, 6).
