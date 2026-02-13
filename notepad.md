@@ -19,3 +19,6 @@
 - Goal: Reach (13, 17) to transition maps.
 - Anomaly: Encountered Wild Tentacool on 'Road' tile (TYPE_4e8c) at (8, 13). This tile might be water-flagged or buggy.
 - Plan Update: Proceed with caution to Col 13 to bypass the gatehouse blockage.
+- Mechanic Confirmation: TYPE_4e8c behaves like Water (wild Tentacool encounters). Navigating as if Surfing.
+- Strategy: Avoid 'Road' tiles if possible, or treat them as water routes.
+- Destination Update: Attempting to reach map transition at (13, 17).
