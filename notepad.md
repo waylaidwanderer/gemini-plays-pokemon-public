@@ -31,9 +31,10 @@
   2. Travel South through Underground to bypass City barriers.
   3. Exit at South Entrance (11, 29).
   4. Head West to the coast and Surf.
-- Navigation Note: The sidewalk at `(6, 30)` to `(11, 30)` is a trap. All exits (North, West, South) are blocked by curbs. The only exit is the Underground Entrance `(11, 29)`.
-- Solution: Enter the Underground `(11, 29)`, then exit again. Upon exiting, move LEFT or RIGHT (staying on Row 29) to access the Road. Do NOT move Down to Row 30.
+- Navigation Note: Sidewalk at (6,30) blocked North. Successfully moved East to (9,30) (sidewalk).
+- Plan: Continue East to (11,30), then North to (11,29) (Underground Entrance).
 - Action:
-  1. Go to (11, 29) (Warp to Underground).
-  2. Exit Underground.
-  3. Move Left to (10, 29) (Road).
+  1. Clear Phone Call.
+  2. Move Right to (11,30).
+  3. Move Up to (11,29) (Enter Underground).
+  4. Exit Underground and move Left to Road.
