@@ -74,3 +74,6 @@
 - Current State: Switch is OFF.
 - Action: Turn Switch ON (Open Wall).
 - Plan: Return to Warehouse and test Warps.
+- Correction: I cancelled the Switch 1 toggle in Turn 41528 (pressed B). It remains OFF (Wall Closed).
+- Action: Retrying toggle now. Turning Switch 1 ON.
+- Plan: Verify Wall Opening, then check Warps.
