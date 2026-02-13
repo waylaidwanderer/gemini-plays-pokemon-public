@@ -7,9 +7,8 @@
 # Strategy: South Goldenrod Access
 - Goal: Reach South Goldenrod to rescue the Director.
 - Plan: Traverse Ilex Forest North -> Route 34 -> Enter Goldenrod City from the South.
-- Status: Moving East in Ilex Forest to find a path North. (Turn 40240)
-- Current Task Started: Turn 40203 (Entered Azalea).
-- Path: (20, 9) -> (22, 9) -> North -> Bypass Ledge at Row 3 via Col 23 -> Exit.
+- Status: Exiting Ilex Forest, entering Route 34. (Turn 40245)
+- Next Step: Traverse Route 34 North to Goldenrod City.
 - Tile Mechanics: TYPE_4e8c (Water), TYPE_3fe2 (Ground), TYPE_2889 (Tree/Wall).
 
 # Known Locations (Warehouse)
