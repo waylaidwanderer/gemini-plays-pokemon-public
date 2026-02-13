@@ -48,4 +48,5 @@
 - Combat: Engaging Rocket Grunt at (22, 24). Garnet (Typhlosion) on point.
 - Correction: Switch 1 was ON (Active) when I last checked (I selected YES). Grunt is still blocking.
 - Hypothesis: Need to turn Switch 1 OFF (or back to initial state) to disable security.
-- Current Status: Grunt at (22, 24) is solid. Going back to toggle Switch 1.
+- Current Status: At Switch 1. Toggling it OFF.
+- Goal: Toggle switch, then check Traps at (21, 31) and Grunt at (22, 24).
