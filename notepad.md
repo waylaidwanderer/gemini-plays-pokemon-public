@@ -42,6 +42,6 @@ Reflection Turn 41022:
 - Navigation Error: Encountered 'Can't use that here' in Party Menu. Likely due to Pack/Item context or wrong menu selection.
 - Correction: Resetting to Overworld and opening Start Menu to visually confirm cursor position before attempting Fly again.
 - Next Step: Identify cursor position, then navigate to Pokemon -> Topaz -> Fly.
-- Navigation Error: Landed in Options Menu (Cursor was likely on Option).
-- Correction: Exiting Options, navigating Up 5 times from Option to reach Pokemon.
-- Sequence: B (Exit Options) -> Up x5 (To Pokemon) -> A -> Down (Topaz) -> A -> A (Fly).
+- Navigation Error: Selected BASIL (Cut) instead of Topaz (Fly).
+- Correction: Closing error message with 'B', moving cursor up 4 slots from BASIL to Topaz, then selecting Fly.
+- Sequence: B (Close Text) -> Up x4 (Select Topaz) -> A (Open Menu) -> A (Fly).
