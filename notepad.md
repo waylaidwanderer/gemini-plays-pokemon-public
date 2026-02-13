@@ -31,10 +31,10 @@
   2. Travel South through Underground to bypass City barriers.
   3. Exit at South Entrance (11, 29).
   4. Head West to the coast and Surf.
-- Navigation Note: Sidewalk at (6,30) blocked North. Successfully moved East to (9,30) (sidewalk).
-- Plan: Continue East to (11,30), then North to (11,29) (Underground Entrance).
+- Navigation Note: Movement Right from (9, 29) to (10, 29) blocked by curb.
+- Hypothesis: Sidewalk at Column 9 is separated from Road at Column 10.
+- New Plan: Try moving Left (West) to access the Road at Column 7.
 - Action:
-  1. Clear Phone Call.
-  2. Move Right to (11,30).
-  3. Move Up to (11,29) (Enter Underground).
-  4. Exit Underground and move Left to Road.
+  1. Move Left to (7, 29).
+  2. If on Road, move West to (4, 29).
+  3. Move South to Water.
