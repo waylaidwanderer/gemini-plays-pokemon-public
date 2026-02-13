@@ -56,3 +56,6 @@
 - Exploration: Opened wall at (16, 7) leads to a small room with an item at (14, 9).
 - Observation: Rows 10 and 11 appear to be solid walls, separating this loot room from the area south (where a Trainer is visible at 19, 12).
 - Plan: Retrieve item, then backtrack North to exit the Silver Room and return to the Warehouse (3_53).
+- Confirmation: Turned Switch 1 OFF. Wall at (16, 7) in Silver Room is now CLOSED (TYPE_2889).
+- Hypothesis: This should reactivate the Warp Traps in the Warehouse (3_53).
+- Next Step: Return to Warehouse and step on traps at (21, 31).
