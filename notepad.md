@@ -59,5 +59,10 @@
 - Confirmation: Turned Switch 1 OFF. Wall at (16, 7) in Silver Room is now CLOSED (TYPE_2889).
 - Hypothesis: This should reactivate the Warp Traps in the Warehouse (3_53).
 - Next Step: Return to Warehouse and step on traps at (21, 31).
-- Trap Identification: Tile (22, 27) in Warehouse (3_53) is a Warp Trap when Switch 1 is OFF. It sends me back to Silver Room (3_54) start.
-- Strategy: Avoid (22, 27) while exploring. Try to flank the Grunt via the West side or check if (21, 27) allows passage North.
+- Map Flow:
+  1. Main Warehouse (North) -> Door (18, 6) -> Warps to Landing Zone (21, 31).
+  2. Landing Zone blocked North by Grunt. Must enter Silver Room via (22, 27).
+  3. Silver Room (3_54): Switch 1 opens item room. Exit via Stairs at (23, 3).
+  4. Stairs (23, 3) likely lead to a new area (West Warehouse?).
+- Action: Go to Silver Room -> Stairs (23, 3).
+- Status: Switch 1 is OFF (Item room closed). This is fine.
