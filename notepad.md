@@ -9,12 +9,10 @@
 - Goal: Enter Goldenrod City via the West Path (Cols 0-2).
 - Current Position: Surfing at (4, 8).
 - Immediate Task: Clear Whirlpool at (3, 8).
-- Status: In Party Menu (Headache selected).
-- Fact: Option 1 is Whirlpool.
-- Fact: "Can't use that here" means invalid target (facing wrong way).
-- Action: Exit Menu to Overworld.
-- Next: Face Left, then Interact.
-- Rule: ONE STEP AT A TIME. No chaining.
+- Status: Overworld (Surfing at 4,8).
+- Fact: Option 1 in Headache's menu is Whirlpool.
+- Action: Face Left and Interact.
+- Goal: Break Whirlpool at (3, 8).
 
 # Known Locations (Warehouse)
 - Stairs: (23, 3) Silver Room <-> (22, 27) Warehouse.
