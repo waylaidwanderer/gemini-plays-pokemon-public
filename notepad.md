@@ -10,12 +10,11 @@
 - Current Position: Surfing at (4, 8).
 - Immediate Task: Clear Whirlpool at (3, 8).
 - Plan: 
-  1. Reset Menu (B x3, Start).
-  2. Enter Party (Up, A).
-  3. Select Headache (Down x3, A).
-  4. Attempt Top Option (A). 
-     - If Whirlpool: Success!
-     - If Stats: Back out (B), Select Move (Down x2, A), Select Whirlpool (A).
+  1. Exit Stats (B).
+  2. Select Headache (Down x3, A).
+  3. Select 2nd Option (Down, A).
+     - Hypothesis: Option 1 is Surf (invalid), Option 2 is Whirlpool.
+  4. If fails, analyze resulting screen (Stats vs Error).
 
 # Known Locations (Warehouse)
 - Stairs: (23, 3) Silver Room <-> (22, 27) Warehouse.
