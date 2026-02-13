@@ -2,7 +2,8 @@
 - Objective: Find the Director.
 - Switch 1 (Silver Room): ON. Disables Floor Traps at (21, 31)-(22, 31). Freezes Grunt at (22, 24).
 - Current Obstacles: Locked Shutter (6, 20), Blocking Grunt (22, 24), Blocking Burglar (19, 6).
-- Key Discovery: North & South Public Underground are disconnected. Must access South section from Surface (South Entrance).
+- Key Discovery: Goldenrod City is divided by a fence. East side (Gym, Bike Shop) is separated from West side (Underground Ent, Dept Store).
+- Route: Must exit South to Route 34, cross to the West side of the road, and re-enter Goldenrod.
 
 # Strategy: South Goldenrod Access
 - Goal: Reach South Goldenrod to rescue the Director.
