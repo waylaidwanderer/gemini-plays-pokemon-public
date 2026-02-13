@@ -31,10 +31,8 @@
   2. Travel South through Underground to bypass City barriers.
   3. Exit at South Entrance (11, 29).
   4. Head West to the coast and Surf.
-- Strategy Change: Aborting Surf Plan.
-- Reasoning: I am currently in the Underground (3_53) and I possess the BASEMENT KEY. The Surf plan was a workaround to bypass city barriers to reach the Underground/Warehouse, but I have already successfully entered the Underground.
-- New Plan:
-  1. Navigate North to the Locked Shutter at (6, 20).
-  2. Open the Shutter using the Basement Key.
-  3. Enter the Warehouse.
-  4. Locate and rescue the Director.
+- Status: Shutter at (6, 20) OPENED with Basement Key.
+- Action:
+  1. Enter Warehouse (Move North).
+  2. Search for the Director.
+  3. Defeat Rocket Grunts.
