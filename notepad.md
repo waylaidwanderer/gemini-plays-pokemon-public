@@ -50,3 +50,6 @@
 - Hypothesis: Need to turn Switch 1 OFF (or back to initial state) to disable security.
 - Current Status: At Switch 1. Toggling it OFF.
 - Goal: Toggle switch, then check Traps at (21, 31) and Grunt at (22, 24).
+- Discovery: Toggling Switch 1 caused a map change in the Silver Room (3_54)!
+- Tiles at (16, 7) and (17, 7) changed from Wall to Floor.
+- New Plan: Investigate the newly opened path at (16, 7) in the Silver Room instead of immediately returning to the Warehouse.
