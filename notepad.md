@@ -42,5 +42,6 @@ Reflection Turn 41022:
 - Navigation Error: Encountered 'Can't use that here' in Party Menu. Likely due to Pack/Item context or wrong menu selection.
 - Correction: Resetting to Overworld and opening Start Menu to visually confirm cursor position before attempting Fly again.
 - Next Step: Identify cursor position, then navigate to Pokemon -> Topaz -> Fly.
-- Navigation Adjustment: Fly failed at (13, 6) with "Can't use that here". Suspecting the doormat tile counts as indoors.
-- Action: Backing out of menus and moving South to (13, 7) to retry Fly from the street.
+- Navigation Error: Accidentally opened Pokedex (Hoothoot Entry).
+- Correction: Exiting Pokedex to Overworld, then navigating correctly to Party Menu -> Topaz -> Fly.
+- Input Sequence: B (Exit Entry) -> B (Exit List) -> B (Exit Menu) -> Start -> Down (Pokemon) -> A -> Down (Topaz) -> A.
