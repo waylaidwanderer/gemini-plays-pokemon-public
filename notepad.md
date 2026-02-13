@@ -32,8 +32,10 @@
 - Locked Shutter at (6, 20).
 - "Gentleman" blocker at (7, 23).
 - Purpose of the West area (Col 18-20).
-- Surface Navigation: Blocked by fences in Goldenrod.
-- Strategy: Exit South to Route 34 via (20, 35), loop West, and re-enter Goldenrod on the West side to reach (11, 29).
+- Surface Navigation: Blocked by wall at (17, 35).
+- Correction: Route 34 (8, 0) leads to Goldenrod (18, 35) (East Side).
+- Strategy: Go back to Route 34, move West to x=4 or 5, and re-enter Goldenrod.
+- Goal: Reach Goldenrod (11, 29) (Underground Entrance).
 - Goal: Enter South Underground Entrance.
 - Switch 1: ON (Traps Disabled).
 - Items to find: Switch 2, Switch 3, Director.
