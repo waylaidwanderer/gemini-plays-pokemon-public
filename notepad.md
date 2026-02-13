@@ -15,6 +15,6 @@
 - Warp: Trap (21, 31) -> (19, 8) North Warehouse.
 - Navigation Note: Goldenrod is split. Current map (26_3) ends at Row 17. Expecting a transition to a Southern map (likely 26_something) to reach (11, 29).
 - Action Plan: Walk South along the sidewalk/road to find the transition.
-- Navigation Note: Westward movement from Sidewalk (Col 10) to Road (Col 9) is blocked by a curb.
-- Hypothesis: Potential crosswalk or merge point at Row 10/11 near Col 13/14.
-- Action Plan: Move East to Col 13, then South to Row 9. Attempt to move Down to Row 10 (Road) or Left/Right to find a gap.
+- Navigation Note: Confirmed Sidewalk Trap at (10, 6). West (to Road) and South (to deeper city) are blocked by fences/walls.
+- Corrective Action: Must backtrack North/East to find a valid crossing to the West side (Main Road).
+- Immediate Goal: Finish call, then BFS to (7, 5) on the Main Road.
