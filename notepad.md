@@ -1,46 +1,16 @@
 # Warehouse Strategy
-- Objective: Find the Director (likely behind locked shutters/doors).
-- Switch 1 (Silver Room): ON. Effect: Disables Floor Traps at (21, 31)-(22, 31).
-- Grunt (22, 24): Shivering ("I feel a chill"). Still blocks North path.
-- West Nook (18-20, 29-31): Checked. Empty.
-- East Area (Cols 23-24): Open area around stairs. Empty.
-- Grunt at (22, 24): Shivering ("I feel a chill"). Blocks North.
-- Warehouse Navigation: TYPE_2889 is a WALL. Do not path through it.
+- Objective: Find the Director.
 - Switch 1 (Silver Room): ON. Disables Floor Traps at (21, 31)-(22, 31). Freezes Grunt at (22, 24).
-- Warp: Floor Trap at (21, 31) -> (19, 8) in North Warehouse.
-- Shutter at (6, 20): LOCKED. Verified from inside path.
-- Strategy: Explore North Warehouse (Rows 0-15, Cols 8-29) for Switch 2 and Switch 3.
-- Warp: Floor Trap at (21, 31) -> (19, 8). Use this to access North Warehouse.
-- Current Path: Exiting hidden wall path (Col 6) to explore East.
-- Inventory: Have BASEMENT KEY.
-- East/West Nooks: Confirmed empty.
-- Locked Shutter: (6, 20) in North Warehouse.
-- Status: Explored North-East Warehouse Nook (19, 8).
-- Blocked: "No Entry Guard" at (19, 6).
-- Path: North & South Public Underground seem disconnected internally.
-- Strategy: Exit to Surface (North), walk to South Entrance, and re-enter to explore South Public Underground.
-- Objectives in South: Check "Gentleman" at (7, 23) and Shutter at (6, 20) from the East side.
-- Warp (18, 6): Leads back to South Warehouse. Avoid.
-- Check Walls: Inspecting the wall behind the frozen traps (Row 32) just in case.
+- Current Obstacles: Locked Shutter (6, 20), Blocking Grunt (22, 24), Blocking Burglar (19, 6).
+- Key Discovery: North & South Public Underground are disconnected. Must access South section from Surface (South Entrance).
 
-# Key Locations & Connections
-- 3_54 (Silver Room) <-> 3_53 (Warehouse) via stairs at (23, 3)/(22, 27).
-- Hidden Corridor (Col 6/7): Access via fake walls at (6, 19) & (6, 23). Currently blocked by "Gentleman".
-- Warehouse Entrance: North (9, 5). South Entrance (11, 29) blocked by Grunt.
+# Exploration Plan
+- Current Location: Route 34 (West Side Pond).
+- Immediate Goal: Cross Whirlpool at (3, 10) to reach West Channel.
+- Route: Surf North via West Channel to Row 2, land at (4, 2), enter Goldenrod West.
+- Destination: South Underground Entrance (Goldenrod 11, 29).
 
-# Outstanding Mysteries
-- Locked Shutter at (6, 20).
-- "Gentleman" blocker at (7, 23).
-- Purpose of the West area (Col 18-20).
-- Surface Navigation: Blocked by wall at (17, 35).
-- Correction: Route 34 (8, 0) leads to Goldenrod (18, 35) (East Side).
-- Strategy: Go back to Route 34, move West to x=4 or 5, and re-enter Goldenrod.
-- Goal: Reach Goldenrod (11, 29) (Underground Entrance).
-- Goal: Enter South Underground Entrance.
-- Switch 1: ON (Traps Disabled).
-- Items to find: Switch 2, Switch 3, Director.
-- Switch 1: ON (Traps Disabled).
-- Items to find: Switch 2, Switch 3, Director.
-- Surfing Strategy: Row 7 on Route 34 appears blocked by walls/bushes (Col 2-7).
-- Plan: Surf Left to Col 0-1 (Water Channel), go North past the obstruction, then land at Row 2-4 (Col 4-5) to enter Goldenrod from the West.
-- Target: Goldenrod West Side -> South Underground Entrance (11, 29).
+# Known Locations (Warehouse)
+- Stairs: (23, 3) Silver Room <-> (22, 27) Warehouse.
+- Hidden Corridor: Access via fake walls at (6, 19) & (6, 23).
+- Warp: Trap (21, 31) -> (19, 8) North Warehouse.
