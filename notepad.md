@@ -9,9 +9,11 @@
 - Current Status: Investigating East Side for a path South.
 - Obstacles: West and Central paths (Cols 2-15) are blocked by water dead ends, rocks, or barriers at Rows 14/17.
 - Potential Path: Check reachable warps at (25, 9) and (31, 11) -> Checked. Both are dead ends (Bike Shop & House).
-- Status: At Lake of Rage.
-- Action: Fly to Azalea Town.
-- Route: Down -> Left -> Down -> Down.
+- Status: Fly Navigation.
+- Current Cursor: Olivine City.
+- Goal: Azalea Town.
+- Route: Right (Ecruteak) -> Down (Goldenrod) -> Down (Azalea).
+- Action: Moving Right then Down to align with Central Johto.
 
 # Known Locations (Warehouse)
 - Stairs: (23, 3) Silver Room <-> (22, 27) Warehouse.
