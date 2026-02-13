@@ -557,5 +557,35 @@
         "action_counter": 40502
       }
     ]
+  },
+  "find_surf_start_point": {
+    "description": "Scans the Mental Map around the player to find valid locations to launch Surf. A valid location is a Walkable tile adjacent to a Water tile. Returns a list of suggested coordinates and the direction to face.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "radius": {
+          "type": "integer",
+          "default": 10
+        },
+        "player_x": {
+          "type": "integer"
+        },
+        "player_y": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "player_x",
+        "player_y"
+      ]
+    },
+    "python_script": "def find_surf_start_point(map_xml_string, player_x, player_y, radius=10):\n    import xml.etree.ElementTree as ET\n    \n    try:\n        root = ET.fromstring(map_xml_string)\n        width = int(root.attrib['width'])\n        height = int(root.attrib['height'])\n        \n        # Helper to get tile type\n        def get_tile_type(x, y):\n            if 0 <= x < width and 0 <= y < height:\n                row = root.find(f\".//Row[@id='{y}']\")\n                if row is not None:\n                    tile = row.find(f\".//Tile[@id='{x}']\")\n                    if tile is not None:\n                        return tile.attrib.get('type', 'unseen')\n            return None\n\n        # Common water types (add more if discovered)\n        WATER_TYPES = ['TYPE_4e8c'] \n        # Common walkable types (add more if discovered)\n        WALKABLE_TYPES = ['TYPE_3fe2', 'TYPE_fed7', 'TYPE_80fc'] \n\n        candidates = []\n\n        for y in range(max(0, player_y - radius), min(height, player_y + radius + 1)):\n            for x in range(max(0, player_x - radius), min(width, player_x + radius + 1)):\n                current_type = get_tile_type(x, y)\n                \n                # If current tile is walkable\n                if current_type in WALKABLE_TYPES:\n                    # Check neighbors for water\n                    neighbors = [\n                        (x, y-1, \"Up\"),\n                        (x, y+1, \"Down\"),\n                        (x-1, y, \"Left\"),\n                        (x+1, y, \"Right\")\n                    ]\n                    \n                    for nx, ny, direction in neighbors:\n                        neighbor_type = get_tile_type(nx, ny)\n                        if neighbor_type in WATER_TYPES:\n                            dist = abs(player_x - x) + abs(player_y - y)\n                            candidates.append({\n                                \"coordinate\": (x, y),\n                                \"face_direction\": direction,\n                                \"water_coordinate\": (nx, ny),\n                                \"distance\": dist\n                            })\n                            break # Only need one water neighbor to be valid\n\n        # Sort by distance\n        candidates.sort(key=lambda c: c['distance'])\n        \n        print(f\"Found {len(candidates)} surf spots.\")\n        return candidates[:5] # Return top 5\n\n    except Exception as e:\n        return f\"Error: {e}\"\n\n# Only map_xml_string is injected. We must pass it manually if we were running this locally, \n# but the system handles the injection for run_code. \n# For define_tool, this script body is what gets saved.\n",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-02-13T14:46:48.005Z",
+        "action_counter": 40917
+      }
+    ]
   }
 }

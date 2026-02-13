@@ -26,3 +26,7 @@
 - Surf Fail: Unable to surf West from (2, 49). Tile (1, 49) is a non-surfable map edge.
 - Navigation Plan: Surfing South from (2, 49) towards (2, 50).
 - Menu Correction: Tool 'select_party_pokemon' caused desync. Manually navigating: Main Menu -> Pokemon -> Headache -> Surf.
+Reflection Turn 40917:
+- Realized trees (TYPE_2889) block Westward Surf attempts from Row 44 to 54. 
+- Must travel North to Row 43 (Col 6) to find open water.
+- Created tool 'find_surf_start_point' to prevent future "bonking" against non-water tiles.
