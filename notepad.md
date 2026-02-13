@@ -40,3 +40,5 @@
 - Hidden Corridor (7, 23): Blocked by "Gentleman" (Solid Obstacle). No interaction.
 - Strategy: Abandoning hidden corridor. Heading to Main Warehouse area (East of 6, 7) to find switches.
 - Anomaly: Sprite at (16, 8) vanished when approached. Investigating nook at (16, 7).
+- NPC at (19, 6): Burglar sprite, says "NO ENTRY BEYOND THIS POINT". Acts as a blocker.
+- Strategy: Moving East to explore the rest of the warehouse since he blocks North.
