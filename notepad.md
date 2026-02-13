@@ -7,12 +7,11 @@
 
 # Strategy: Route 34 Crossing
 - Goal: Cross barrier at (3, 10).
-- Analysis: My sprite is WALKING, so I am NOT surfing. "Already Surfing" message was a hallucination or glitch.
+- Analysis: My sprite is WALKING. Surf failed because (3, 8) is a Whirlpool, which blocks Surfing.
 - Plan:
-  1. Move to (4, 11).
-  2. Face Left (towards clear water at 3, 11).
-  3. Open Menu -> Pokémon -> Headache -> Surf.
-  4. Once Surfing, approach Whirlpool at (3, 10) and use Whirlpool.
+  1. Use Whirlpool from land to clear (3, 8).
+  2. Surf into the cleared tile.
+  3. Continue South.
 
 # Known Locations (Warehouse)
 - Stairs: (23, 3) Silver Room <-> (22, 27) Warehouse.
