@@ -14,3 +14,4 @@
 - Stairs: (23, 3) Silver Room <-> (22, 27) Warehouse.
 - Switch 1 (Silver Room): Toggles Traps (21,31)-(22,31) and Grunt (22,24).
 - Obstacles: Locked Shutter (6, 20), Frozen Grunt (22, 24), Burglar (19, 6).
+- Battle Strategy Update: Navigation errors causing loops. Switching to single-step confirmed inputs for battle menus (Enter Fight -> Check Cursor -> Move).
