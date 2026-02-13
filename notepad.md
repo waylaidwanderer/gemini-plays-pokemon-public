@@ -17,6 +17,3 @@
 - Warp: Trap (21, 31) -> (19, 8) North Warehouse.
 - Navigation Update (Turn 40237): Found a path North via a gap at Col 22.
 - Path: (17, 10) -> (18, 9) -> East to (22, 9) -> North to Exit.
-- Navigation Update (Turn 40250): Top edge (y=0) at Cols 15-24 is blocked. Confirmed dead end.
-- Target Exit: Route 34 Gatehouse at (1, 5).
-- Path: Go South via Col 22 (jump ledge), loop West, then North to (1, 5).
