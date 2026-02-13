@@ -42,8 +42,9 @@ Reflection Turn 41022:
 - Navigation Error: Encountered 'Can't use that here' in Party Menu. Likely due to Pack/Item context or wrong menu selection.
 - Correction: Resetting to Overworld and opening Start Menu to visually confirm cursor position before attempting Fly again.
 - Next Step: Identify cursor position, then navigate to Pokemon -> Topaz -> Fly.
-- Navigation Map: Open. Cursor confirmed at Cianwood City (Screen Text).
-- Path Adjustment: Cianwood -> Olivine (Up) -> Ecruteak (Right) -> Goldenrod (Down).
-- Action: Executing cursor movement sequence.
-- Sequence: Up -> Right -> Down.
+- Navigation Map: Open. Cursor at Cianwood City.
+- Logic Failure: Previous attempt (Up, Right, Down) failed to move cursor from Cianwood.
+- Hypothesized Path: Cianwood -> Olivine (Right/Up?) -> Ecruteak (Right) -> Goldenrod (Down).
+- Action: Brute-forcing directionality with 'Right' and 'Up' to exit Cianwood node.
+- Sequence: Right -> Up -> Right -> Down.
 - Next Step: Verify cursor is on Goldenrod City, then Press A.
