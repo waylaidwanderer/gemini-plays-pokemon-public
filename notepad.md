@@ -32,3 +32,6 @@
 - Locked Shutter at (6, 20).
 - "Gentleman" blocker at (7, 23).
 - Purpose of the West area (Col 18-20).
+- Connection Confirmed: 3_53 (3, 2) <-> 3_54 (21, 25). This connects the North Warehouse to the North Underground Entrance.
+- Navigation: Exiting to Goldenrod City via (21, 29).
+- Goal: Enter South Underground Entrance to reach the blocked area from the other side.
