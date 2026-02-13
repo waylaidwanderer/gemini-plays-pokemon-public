@@ -14,3 +14,5 @@
 - Stairs: (23, 3) Silver Room <-> (22, 27) Warehouse.
 - Hidden Corridor: Access via fake walls at (6, 19) & (6, 23).
 - Warp: Trap (21, 31) -> (19, 8) North Warehouse.
+- Navigation Update (Turn 40237): Found a path North via a gap at Col 22.
+- Path: (17, 10) -> (18, 9) -> East to (22, 9) -> North to Exit.
