@@ -68,10 +68,10 @@
   2. Turn Switch 1 ON.
   3. Return to Warehouse (3_53).
   4. Step on Traps at (21, 31) to see if they warp.
-- Mechanic: Switch 1 has two states.
+- Mechanic: Switch 1 has two confirmed states.
   - State A (Wall Closed, Switch OFF): Warps at (21, 31) are INACTIVE.
   - State B (Wall Open, Switch ON): Warps at (21, 31) are INACTIVE.
-- Conclusion: The warps are disabled in both states (or I'm missing a condition).
-- Current Status: Traps are disabled (Walkable).
-- Action: Explore the South Warehouse area (Row 30-35) which I just gained access to.
-- Objective: Find the Director or a new path.
+- Conclusion: Warps are not traps currently. They are floor tiles.
+- Current Status: Switch 1 is ON. Wall at (16, 7) is OPEN.
+- Objective: Investigate the Secret Corridor in Silver Room (3_54) for a path to the Unreachable Item at (15, 12).
+- Hypothesis: Hidden wall or second switch inside the Secret Corridor.
