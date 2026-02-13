@@ -39,6 +39,8 @@ Reflection Turn 41022:
 - West Coast Access: From Main St, go East to Col 18, North to Row 17, West to Col 3 (Water).
 - Navigation Update: Path at (16, 23) definitely blocked by Grunt.
 - Reroute: Going East to Col 18, South to Row 29, then West to reach Center from the South.
-- Navigation Update: Fly Map Cursor at Cherrygrove City (Visual Confirm).
-- Action: Navigating Cherrygrove -> Violet (Left) -> Ecruteak (Left) -> Goldenrod (Down).
-- Current State: In Fly Map. Cursor moving to Goldenrod.
+- Navigation Error: Landed in New Bark Town instead of Goldenrod. Possible map navigation error or input drop.
+- Action: Retrying Fly to Goldenrod City.
+- Sequence: Start -> Pokemon -> Topaz -> Fly.
+- Navigation Plan on Map: New Bark -> Cherrygrove (Left) -> Violet (Left) -> Ecruteak (Left) -> Goldenrod (Down).
+- Current State: In New Bark Town (13, 6).
