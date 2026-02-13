@@ -3,12 +3,11 @@
 - Constraint: Team Rocket barriers block South Goldenrod. Must access South Underground Entrance via West Route 34.
 
 # Current Navigation Status
-- Location: New Bark Town (Physical). Fly Map Open.
-- Cursor: Stuck at Cianwood City (Visual).
-- Issue: Inputs (Right, Up, Down) failed to move cursor from Cianwood node.
-- Hypothesis: Transient input drop or strict node pathing.
-- Plan: Retry moving East (Right) multiple times to force transition to Olivine -> Ecruteak -> Goldenrod.
-- Backup: If stuck, Fly to Cianwood and Surf to Olivine.
+- Location: New Bark Town (Physical).
+- Map State: Cursor stuck at Cianwood City. Inputs unresponsive.
+- Action: Resetting Fly Map to clear glitch/input lock.
+- Sequence: B (Close Map) -> A (Select Fly) -> Left x3 (Ecruteak) -> Down (Goldenrod) -> A (Execute).
+- Start Point: New Bark Town (Default).
 
 # Route 34 Exploration Plan
 1. Fly to Goldenrod City.
@@ -21,8 +20,3 @@
 - Stairs: (23, 3) Silver Room <-> (22, 27) Warehouse.
 - Switch 1 (Silver Room): Toggles Traps (21,31)-(22,31) and Grunt (22,24).
 - Obstacles: Locked Shutter (6, 20), Frozen Grunt (22, 24), Burglar (19, 6).
-
-# Reflection (Turn 41073)
-- Progress: Stalled by menu navigation errors.
-- Action: Consolidating notes and focusing on single, clear menu interactions.
-- Strategy: If Fly menu remains stubborn, will accept nearest valid destination.
