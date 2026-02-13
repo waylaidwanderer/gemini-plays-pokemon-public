@@ -5,12 +5,11 @@
 - Key Discovery: Goldenrod City is divided by a fence. East side (Gym, Bike Shop) is separated from West side (Underground Ent, Dept Store).
 - Route: Must exit South to Route 34, cross to the West side of the road, and re-enter Goldenrod.
 
-# Strategy: South Goldenrod Access
-- Goal: Reach South Goldenrod to rescue the Director.
-- Plan: Traverse Ilex Forest North -> Route 34 -> Enter Goldenrod City from the South.
-- Status: At Ilex Forest North Exit (23, 0). Struggling to trigger map transition. Trying adjacent tiles. (Turn 40246)
-- Next Step: Traverse Route 34 North to Goldenrod City.
-- Tile Mechanics: TYPE_4e8c (Water), TYPE_3fe2 (Ground), TYPE_2889 (Tree/Wall).
+# Strategy: Route 34 Surf
+- Goal: Bypass Goldenrod City barriers by Surfing North along the coast.
+- Location: Route 34 Coastline (4, 8).
+- Immediate Task: Clear Whirlpool at (3, 8) using Headache.
+- Next Step: Surf North to Goldenrod West Side.
 
 # Known Locations (Warehouse)
 - Stairs: (23, 3) Silver Room <-> (22, 27) Warehouse.
