@@ -42,6 +42,6 @@ Reflection Turn 41022:
 - Navigation Error: Encountered 'Can't use that here' in Party Menu. Likely due to Pack/Item context or wrong menu selection.
 - Correction: Resetting to Overworld and opening Start Menu to visually confirm cursor position before attempting Fly again.
 - Next Step: Identify cursor position, then navigate to Pokemon -> Topaz -> Fly.
-- Navigation Error: Accidental usage of Pokégear/Phone.
-- Correction: Exiting Pokégear, resetting Start Menu cursor to top (Pokedex) to guarantee correct selection of Pokemon Menu.
-- Sequence: Exit Menu (B x3) -> Start -> Up x3 (Force Top) -> Down (Pokemon) -> A -> Down (Topaz) -> A -> A (Fly).
+- Navigation Interruption: Received Phone Call from Lass Dana (Route 38).
+- Action: Clearing dialogue with 'B' presses, then attempting Fly sequence again.
+- Sequence: B x5 (Clear Call) -> Start -> Up x3 (Force Top) -> Down (Pokemon) -> A -> Down (Topaz) -> A -> A (Fly).
