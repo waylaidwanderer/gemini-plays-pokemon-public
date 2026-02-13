@@ -35,3 +35,5 @@ Reflection Turn 40917:
 - Must travel North to Row 43 (Col 6) to find open water.
 - Created tool 'find_surf_start_point' to prevent future "bonking" against non-water tiles.
 - Menu Loop Diagnosis: "Can't use that here" returns to the Move List. Pressing 'A' immediately re-triggers the error. Must press 'B' multiple times to fully exit to Overworld.
+- Whirlpool Interaction Failed: Direct interaction with 'A' and Menu usage yielded no results or "Can't use that here". 
+- New Strategy: Abandoning Whirlpool breach. Surfing South to Row 48 to cross the Land Bridge (Tiles 2-4 are clear) to the West Channel.
