@@ -557,5 +557,36 @@
         "action_counter": 40917
       }
     ]
+  },
+  "scan_row_for_switches": {
+    "description": "Walks along a row checking adjacent tiles for hidden switches.",
+    "input_schema": {
+      "y": {
+        "type": "integer"
+      },
+      "start_x": {
+        "type": "integer"
+      },
+      "end_x": {
+        "type": "integer"
+      },
+      "facing": {
+        "type": "string",
+        "enum": [
+          "Up",
+          "Down",
+          "Left",
+          "Right"
+        ]
+      }
+    },
+    "python_script": "def scan_row_for_switches(y, start_x, end_x, facing):\n    buttons = []\n    # Determine direction button\n    face_btn = facing\n    \n    # Iterate through the range\n    step = 1 if end_x >= start_x else -1\n    for x in range(start_x, end_x + step, step):\n        # Move to the tile (simplified, assumes linear path or requires navigation tool usage logic elsewhere)\n        # For this specific tool, we assume we are on the row or close to it, but to be robust we should use navigate logic\n        # However, for a simple scan tool, we'll just output the target coordinates for the agent to use with BFS \n        # OR better yet, just hardcode the movement if we are already there.\n        # Since we can't easily integrate BFS here without importing it, we will return a list of buttons \n        # that assumes we walk linearly.\n        \n        # We assume the player starts at (start_x, y) or we walk to it.\n        # This script generates the sequence *assuming* the player is at the previous x.\n        \n        if x != start_x:\n            move_dir = \"Right\" if step > 0 else \"Left\"\n            buttons.append(move_dir)\n            \n        # Face and Interact\n        buttons.append(face_btn)\n        buttons.append(\"A\")\n        \n    print(f'{{\"buttons\": {buttons}}}')\n\n# Note: This script assumes the player is already at the start_x, y or adjacent to it. \n# It generates a simple walking sequence.\n# To use this effectively, navigate to (start_x, y) first.\n",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-02-13T23:51:19.821Z",
+        "action_counter": 41646
+      }
+    ]
   }
 }
