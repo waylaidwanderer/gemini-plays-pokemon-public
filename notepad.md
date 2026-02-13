@@ -17,3 +17,5 @@
 - Action Plan: Walk South along the sidewalk/road to find the transition.
 - Navigation Path: Backtracking North to Row 13 to cross Col 12, which is open. Then South on Col 13 to the map edge.
 - Goal: Reach (13, 17) to transition maps.
+- Anomaly: Encountered Wild Tentacool on 'Road' tile (TYPE_4e8c) at (8, 13). This tile might be water-flagged or buggy.
+- Plan Update: Proceed with caution to Col 13 to bypass the gatehouse blockage.
