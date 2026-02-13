@@ -42,3 +42,6 @@
 - Anomaly: Sprite at (16, 8) vanished when approached. Investigating nook at (16, 7).
 - NPC at (19, 6): Burglar sprite, says "NO ENTRY BEYOND THIS POINT". Acts as a blocker.
 - Strategy: Moving East to explore the rest of the warehouse since he blocks North.
+- Discovery: (6, 25) is also a fake wall/entrance to the hidden corridor.
+- Navigation: Exploring the southern section of the hidden corridor (7, 24-25).
+- Goal: Check the "Gentleman" at (7, 23) from the South side.
