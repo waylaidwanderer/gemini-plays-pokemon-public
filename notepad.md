@@ -53,7 +53,7 @@
 - Discovery: Toggling Switch 1 caused a map change in the Silver Room (3_54)!
 - Tiles at (16, 7) and (17, 7) changed from Wall to Floor.
 - New Plan: Investigate the newly opened path at (16, 7) in the Silver Room instead of immediately returning to the Warehouse.
-- Exploration: Opened wall at (16, 7) leads to a small room with an item at (14, 9).
+- Exploration: Opened wall at (16, 7) leads to a corridor (Row 8-9). Item is visible at (15, 12) but blocked by a wall at Row 10.
 - Observation: Rows 10 and 11 appear to be solid walls, separating this loot room from the area south (where a Trainer is visible at 19, 12).
 - Plan: Retrieve item, then backtrack North to exit the Silver Room and return to the Warehouse (3_53).
 - Confirmation: Turned Switch 1 OFF. Wall at (16, 7) in Silver Room is now CLOSED (TYPE_2889).
