@@ -69,7 +69,8 @@
   3. Return to Warehouse (3_53).
   4. Step on Traps at (21, 31) to see if they warp.
 - Mechanic: Switch 1 has two states.
-  - State A (Wall Closed): Warps at (21, 31)/(22, 31) are HYPOTHESIZED ACTIVE.
+  - State A (Wall Closed): Warps at (21, 31)/(22, 31) are ACTIVE. (Tested: Warped to North Warehouse).
   - State B (Wall Open): Warps at (21, 31)/(22, 31) are INACTIVE (Walkable).
-- Current State: State A (Wall Closed).
-- Plan: Step on Warps at (21, 31). If they work, puzzle solved. If not, investigate other options.
+- Current State: State B (Wall Open, Warps Inactive).
+- Status: Successfully disabled traps. Now exploring the South Warehouse area (previously inaccessible).
+- Objective: Find the Director in this area.
