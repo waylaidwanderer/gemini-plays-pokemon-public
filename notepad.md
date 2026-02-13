@@ -15,3 +15,8 @@
 - Switch 1 (Silver Room): Toggles Traps (21,31)-(22,31) and Grunt (22,24).
 - Obstacles: Locked Shutter (6, 20), Frozen Grunt (22, 24), Burglar (19, 6).
 - Battle Strategy Update: Navigation errors causing loops. Switching to single-step confirmed inputs for battle menus (Enter Fight -> Check Cursor -> Move).
+- Menu Mechanics: Battle Move Menu is a VERTICAL LIST of 4 items. Use UP/DOWN to navigate, not Left/Right.
+  1. Top
+  2. Upper-Mid
+  3. Lower-Mid
+  4. Bottom
