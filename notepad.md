@@ -3,12 +3,14 @@
 - Constraint: Team Rocket barriers block South Goldenrod. Must access South Underground Entrance via West Route 34.
 
 # Route 34 Exploration
-- Barrier: Fence/Trees separate East (Current) and West (Goal).
-- Water Barrier: A continuous line of "Whirlpool" tiles (Col 3) separates the water into Left/Right channels.
-  - Right Channel: Connected to East Route 34.
-  - Left Channel: Connected to West Route 34 (Goal).
-  - Status: "Whirlpool" tiles act as a barrier. I have the Glacier Badge and HM06, so I can remove them if I can surf up to them.
-  - Current Strategy: Surf on the East side (Right Channel), then interact with Whirlpools to cross or loop around South.
+- Terrain Analysis:
+  - TYPE_4e8c = Water (Surfable).
+  - TYPE_1f49 = Whirlpool (Barrier).
+  - TYPE_2889 = Trees (Blocked).
+  - TYPE_3fe2 = Ground (Walkable).
+- Current Status: Stuck on Sandbar (South of Row 43).
+- Navigation Plan: Walk North to (6, 43) to re-enter Water (TYPE_4e8c).
+- Whirlpool Strategy: Surf at (4, 43) and interact with Whirlpool at (3, 43) to cross the barrier.
 
 # Known Locations (Warehouse)
 - Stairs: (23, 3) Silver Room <-> (22, 27) Warehouse.
