@@ -39,5 +39,6 @@ Reflection Turn 41022:
 - West Coast Access: From Main St, go East to Col 18, North to Row 17, West to Col 3 (Water).
 - Navigation Update: Path at (16, 23) definitely blocked by Grunt.
 - Reroute: Going East to Col 18, South to Row 29, then West to reach Center from the South.
-- Navigation Update: Preparing to Fly to Goldenrod City (Center) to bypass East Side barriers.
-- Current State: In Party Menu, Topaz selected. Next step: Select Fly.
+- Navigation Update: In Fly Map. Cursor stuck at New Bark Town. 'Left' input failed to move it.
+- Action: Attempting 'Up' then 'Left' to navigate the Fly map node graph.
+- Current State: In Party Menu, Topaz selected. Fly Menu Open. Cursor at New Bark Town.
