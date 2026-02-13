@@ -39,3 +39,4 @@
 - Goal: Find switches or a path to the Director.
 - Hidden Corridor (7, 23): Blocked by "Gentleman" (Solid Obstacle). No interaction.
 - Strategy: Abandoning hidden corridor. Heading to Main Warehouse area (East of 6, 7) to find switches.
+- Anomaly: Sprite at (16, 8) vanished when approached. Investigating nook at (16, 7).
