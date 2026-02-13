@@ -2,10 +2,10 @@
 - Objective: Find the Director in Underground Warehouse.
 - Constraint: Team Rocket barriers block South Goldenrod. Must access South Underground Entrance via West Route 34.
 
-# Current Navigation Status
-- Location: Goldenrod City (11_2).
-- Recent Action: Healed at Pokemon Center.
-- Current Objective: Navigate North to Harbor (near Row 14) to Surf to West Route 34.
+- Navigation Update: Blocked by Grunt at (8, 15) and fences.
+- Investigation: Checking if Grunt interacts or if (6, 14) "Underpass" is passable.
+- Alternative Route: If blocked, backtrack East to Col 18, then North to Row 9 to find water access.
+- Current Location: (9, 15), facing West.
 
 # Route 34 Exploration Plan
 1. Fly to Goldenrod City.
