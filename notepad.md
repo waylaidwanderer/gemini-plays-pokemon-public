@@ -7,10 +7,13 @@
 
 # Strategy: Route 34 Whirlpool Crossing
 - Goal: Cross Whirlpool barrier at Col 3.
-- Current State: At (4, 8). Facing Left.
-- Fact: Cursor is on Headache.
-- Action: Select Headache (A), Select Option 1 (A).
-- Backup: If Option 1 fails, try Option 2 (but Option 2 is Surf).
+- Current State: Backing out to Overworld.
+- Target: (4, 10).
+- Fact: Option 1 in Headache's menu is Whirlpool.
+- Action: 
+  1. Move to (4, 10). 
+  2. Face Left.
+  3. Menu -> Headache -> Option 1.
 
 # Known Locations (Warehouse)
 - Stairs: (23, 3) Silver Room <-> (22, 27) Warehouse.
