@@ -31,12 +31,11 @@
   2. Travel South through Underground to bypass City barriers.
   3. Exit at South Entrance (11, 29).
   4. Head West to the coast and Surf.
-- Puzzle Logic: Switch 1 was turned OFF, but the Grunt at (22, 24) is still blocking the path and is unresponsive.
-- Hypothesis: Turning Switch 1 ON might move the Grunt or open the floor.
+- Status: Inside Silver Room (3_54).
 - Action:
-  1. Return to Silver Room (22, 27).
-  2. Turn Switch 1 ON.
-  3. Check Grunt again.
+  1. Confirmed Switch 1 is ON (Selected NO/Cancelled).
+  2. Return to Warehouse (3_53).
+  3. Check if Grunt at (22, 24) is active/moved.
 - Exploration: Found horizontal corridor at Row 7 connecting West and East sides of the Underground.
 - Action: Heading East to access the main Warehouse area.
 
