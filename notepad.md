@@ -7,12 +7,12 @@
 
 # Strategy: Route 34 Crossing
 - Goal: Cross barrier at (3, 10).
-- Analysis: I am ALREADY SURFING (confirmed by Tentacool encounter at (4, 11) and menu text).
-- State: Player is "surfing" on shore tile (4, 11).
+- Analysis: My sprite is WALKING, so I am NOT surfing. "Already Surfing" message was a hallucination or glitch.
 - Plan:
-  1. Exit all menus.
-  2. Navigate on water.
-  3. Approach (3, 10) Whirlpool and clear it.
+  1. Move to (4, 11).
+  2. Face Left (towards clear water at 3, 11).
+  3. Open Menu -> Pokémon -> Headache -> Surf.
+  4. Once Surfing, approach Whirlpool at (3, 10) and use Whirlpool.
 
 # Known Locations (Warehouse)
 - Stairs: (23, 3) Silver Room <-> (22, 27) Warehouse.
