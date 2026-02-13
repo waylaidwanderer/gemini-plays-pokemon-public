@@ -3,11 +3,6 @@
 - Switch 1 (Silver Room): Toggled. Text: "Ice in your veins to dis...". Effect: Likely toggles Floor Traps or Grunt State.
 - Floor Traps: (21, 31)-(22, 31). Warped me to (18, 6) when active.
 - Grunt (22, 24): Blocks path to key area. Says "I feel a chill".
-- Next Steps:
-  1. Check Grunt's reaction to current switch state.
-  2. If Grunt static, check Floor Traps.
-  3. If both blocked, explore Public Underground via (6, 7) junction for Switch 2 & 3.
-  4. DO NOT try to walk through walls at (6, 23).
 
 # Hidden Corridor (Col 6/7)
 - Entrances: (6, 19) & (6, 23). Currently SOLID/LOCKED.
