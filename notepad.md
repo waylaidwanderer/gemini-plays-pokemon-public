@@ -7,12 +7,10 @@
 
 # Strategy: Route 34 West Bank
 - Goal: Enter Goldenrod City from the South (West Side).
-- Current Position: Surfing at (4, 9).
-- Plan: 
-  1. Run from Tentacool.
-  2. Surf East to land at (6, 9).
-  3. Walk North to Goldenrod City.
-- Note: Whirlpools are likely just blocking a water-only path. Land path is open.
+- Current Position: Surfing at (4, 10).
+- Immediate Task: Clear Whirlpool at (3, 10) using Headache (Menu -> Move -> Whirlpool).
+- Note: 'A' interaction failed. Forcing via Party Menu.
+- Next Step: Surf North to Goldenrod West Side.
 
 # Known Locations (Warehouse)
 - Stairs: (23, 3) Silver Room <-> (22, 27) Warehouse.
