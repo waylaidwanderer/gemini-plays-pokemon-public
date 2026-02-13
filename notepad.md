@@ -30,3 +30,5 @@ Reflection Turn 41022:
 - Current Goal: Heal at Pokémon Center (red roof), then find water access in Goldenrod Harbor to reach West Route 34.
 - Lessons: "Can't use that here" on a valid tile = Wall. Visual maps can be deceiving; check tile types.
 - Navigation: Goldenrod layout is tricky with fences. Need to find the gap to reach the Center at (14, 21).
+- Navigation Discovery: Access to Pokemon Center (14, 21) is blocked from East (NPC) and South-Central (Walls at Col 13/14). 
+- Valid Path: Go South to Main St (Row 29), West to Col 8 (Open Corridor), North to Row 22, then East to Center.
