@@ -8,9 +8,10 @@
 - Warehouse Navigation: TYPE_2889 is a WALL. Do not path through it.
 - Switch 1 (Silver Room): ON. Disables Floor Traps at (21, 31)-(22, 31). Freezes Grunt at (22, 24).
 - Warp: Floor Trap at (21, 31) -> (19, 8) in North Warehouse.
-- Current Location: At Shutter (6, 20).
-- Task: Verify if Shutter opens. If not, explore North Warehouse (near 19, 8).
-- Mysteries: "Gentleman" blocker at (7, 23). Locked Shutter at (6, 20).
+- Shutter at (6, 20): LOCKED. Verified from inside path.
+- Strategy: Explore North Warehouse (Rows 0-15, Cols 8-29) for Switch 2 and Switch 3.
+- Warp: Floor Trap at (21, 31) -> (19, 8). Use this to access North Warehouse.
+- Current Path: Exiting hidden wall path (Col 6) to explore East.
 - Inventory: Have BASEMENT KEY.
 - East/West Nooks: Confirmed empty.
 - Locked Shutter: (6, 20) in North Warehouse.
