@@ -9,11 +9,12 @@
 - Goal: Enter Goldenrod City via the West Path (Cols 0-2).
 - Current Position: Surfing at (4, 8).
 - Immediate Task: Clear Whirlpool at (3, 8).
-- Confirmed: Option 2 was Surf.
-- Confirmed: Option 1 is Whirlpool (returned 'Can't use that here').
-- Conclusion: Previous failure was due to incorrect facing.
-- Action: Clear Text (B), Face Left (Left), Interact (A).
-- Next Step: If 'A' fails, use Menu (Option 1) while definitely facing Left.
+- Status: In Party Menu (Headache selected).
+- Fact: Option 1 is Whirlpool.
+- Fact: "Can't use that here" means invalid target (facing wrong way).
+- Action: Exit Menu to Overworld.
+- Next: Face Left, then Interact.
+- Rule: ONE STEP AT A TIME. No chaining.
 
 # Known Locations (Warehouse)
 - Stairs: (23, 3) Silver Room <-> (22, 27) Warehouse.
