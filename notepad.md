@@ -5,9 +5,9 @@
 - Key Discovery: North & South Public Underground are disconnected. Must access South section from Surface (South Entrance).
 
 # Exploration Plan
-- Current Location: Lake of Rage (Fly Point).
-- Immediate Goal: Fly to Goldenrod City.
-- Destination: South Underground Entrance (Goldenrod 11, 29).
+- Current Location: Goldenrod City (Pokémon Center).
+- Immediate Goal: Enter South Underground Entrance (11, 29).
+- Destination: Rescue Director in Warehouse.
 
 # Known Locations (Warehouse)
 - Stairs: (23, 3) Silver Room <-> (22, 27) Warehouse.
