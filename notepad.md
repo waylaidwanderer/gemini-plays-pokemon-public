@@ -39,3 +39,6 @@
 - Current Task: Checking if Switch 1 moved the Grunt in the Maze (3_53).
 - Map Hygiene: 3_54 (Silver Room) connects to 3_53 (Maze) via stairs at (23, 3).
 - Goal: If Grunt at (22, 24) is gone, proceed. If not, find the "Locked Door" I opened (likely near 18, 6).
+- Confirmed: (6, 19) is a fake wall/hidden entrance.
+- Navigation: Exploring North from (6, 19) inside the wall line.
+- Goal: Find switches or a path to the Director.
