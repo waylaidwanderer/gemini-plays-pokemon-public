@@ -47,3 +47,5 @@
 - Discovery: (6, 25) is also a fake wall/entrance to the hidden corridor.
 - Navigation: Exploring the southern section of the hidden corridor (7, 24-25).
 - Goal: Check the "Gentleman" at (7, 23) from the South side.
+- Confirmation: 3_54 (23, 3) warps to 3_53 (22, 27).
+- Action: Checking Grunt at (22, 24) to see if Switch 1 moved him.
