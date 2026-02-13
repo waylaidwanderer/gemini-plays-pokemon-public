@@ -36,3 +36,5 @@
   1. Enter Warehouse (Move North).
   2. Search for the Director.
   3. Defeat Rocket Grunts.
+- Exploration: Found horizontal corridor at Row 7 connecting West and East sides of the Underground.
+- Action: Heading East to access the main Warehouse area.
