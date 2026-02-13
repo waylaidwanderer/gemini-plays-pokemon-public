@@ -33,7 +33,7 @@
   4. Head West to the coast and Surf.
 - Status: Inside Silver Room (3_54).
 - Action:
-  1. Turned Switch 1 OFF (Traps Disabled).
+  1. Verify Switch 1 is ON.
   2. Return to Warehouse (3_53).
   3. Proceed to Grunts.
 - Exploration: Found horizontal corridor at Row 7 connecting West and East sides of the Underground.
