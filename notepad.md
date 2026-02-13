@@ -39,7 +39,6 @@ Reflection Turn 41022:
 - West Coast Access: From Main St, go East to Col 18, North to Row 17, West to Col 3 (Water).
 - Navigation Update: Path at (16, 23) definitely blocked by Grunt.
 - Reroute: Going East to Col 18, South to Row 29, then West to reach Center from the South.
-- Navigation Error: Previous attempt to Fly failed because I entered the Bag/Item menu instead of Pokemon. "Use on which PkMn?" is an item prompt.
-- Correction: Resetting to Overworld, syncing Start Menu cursor, and entering Pokemon -> Topaz -> Fly.
-- Next Step: Verify Fly Map is open, then navigate to Goldenrod.
-- Current State: Resetting menus.
+- Navigation Error: Encountered 'Can't use that here' in Party Menu. Likely due to Pack/Item context or wrong menu selection.
+- Correction: Resetting to Overworld and opening Start Menu to visually confirm cursor position before attempting Fly again.
+- Next Step: Identify cursor position, then navigate to Pokemon -> Topaz -> Fly.
