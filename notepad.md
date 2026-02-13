@@ -15,11 +15,12 @@
 - Inventory: Have BASEMENT KEY.
 - East/West Nooks: Confirmed empty.
 - Locked Shutter: (6, 20) in North Warehouse.
-- Burglar/Guard at (19, 6): Blocked ("NO ENTRY").
-- Strategy: Move West to Junction (6, 7), then explore North (Rows 0-6).
-- Warp (18, 6): Avoid (Backtrack).
-- Shutter at (6, 20): Verified Locked.
-- Switch 2 & 3: High priority. Likely in North-West area.
+- Status: Explored North-East Warehouse Nook (19, 8).
+- Blocked: "No Entry Guard" at (19, 6).
+- Path: North & South Public Underground seem disconnected internally.
+- Strategy: Exit to Surface (North), walk to South Entrance, and re-enter to explore South Public Underground.
+- Objectives in South: Check "Gentleman" at (7, 23) and Shutter at (6, 20) from the East side.
+- Warp (18, 6): Leads back to South Warehouse. Avoid.
 - Check Walls: Inspecting the wall behind the frozen traps (Row 32) just in case.
 
 # Key Locations & Connections
