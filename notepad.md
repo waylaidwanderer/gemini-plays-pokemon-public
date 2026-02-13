@@ -34,3 +34,4 @@ Reflection Turn 40917:
 - Realized trees (TYPE_2889) block Westward Surf attempts from Row 44 to 54. 
 - Must travel North to Row 43 (Col 6) to find open water.
 - Created tool 'find_surf_start_point' to prevent future "bonking" against non-water tiles.
+- Menu Loop Diagnosis: "Can't use that here" returns to the Move List. Pressing 'A' immediately re-triggers the error. Must press 'B' multiple times to fully exit to Overworld.
