@@ -4,16 +4,10 @@
 - Current Obstacles: Locked Shutter (6, 20), Blocking Grunt (22, 24), Blocking Burglar (19, 6).
 - Key Discovery: North & South Public Underground are disconnected. Must access South section from Surface (South Entrance).
 
-# Navigation: Goldenrod South
-- Goal: Reach Map 26_? (South Goldenrod) via map transition.
-- Current Status: Investigating East Side for a path South.
-- Obstacles: West and Central paths (Cols 2-15) are blocked by water dead ends, rocks, or barriers at Rows 14/17.
-- Potential Path: Check reachable warps at (25, 9) and (31, 11) -> Checked. Both are dead ends (Bike Shop & House).
-- Status: Fly Navigation.
-- Current Cursor: Olivine City.
-- Goal: Azalea Town.
-- Route: Right (Ecruteak) -> Down (Goldenrod) -> Down (Azalea).
-- Action: Moving Right then Down to align with Central Johto.
+# Strategy: South Goldenrod Access
+- Goal: Reach South Goldenrod to rescue the Director.
+- Plan: Fly to Azalea Town -> Traverse Ilex Forest North -> Route 34 -> Enter Goldenrod City from the South.
+- Reason: Northern access in Goldenrod is blocked by barriers.
 
 # Known Locations (Warehouse)
 - Stairs: (23, 3) Silver Room <-> (22, 27) Warehouse.
