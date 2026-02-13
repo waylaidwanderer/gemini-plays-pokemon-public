@@ -2,11 +2,12 @@
 - Objective: Find the Director in Underground Warehouse.
 - Constraint: Team Rocket barriers block South Goldenrod. Must access South Underground Entrance via West Route 34.
 
-- Navigation Strategy Change: Whirlpool interaction failed. Moving North to the "Whirlpool Gap" at (3, 2) to bypass the barrier.
-- Action:
-  1. Walk North to (4, 2).
-  2. Walk Left through the gap at (3, 2).
-  3. Attempt to Surf or continue West.
+- Navigation Strategy Change: Blocked from moving North at (4, 8) (suspect ledge).
+- New Plan:
+  1. Surf at (3, 8) (Water).
+  2. Cross water to land at (2, 8) (West Bank).
+  3. Travel North on West Bank to (2, 2) / (3, 2).
+- Note: (3, 8) might be normal water, not a whirlpool. Whirlpool command failed ("Can't use that here"), suggesting I must Surf first or it's just water.
 
 # Route 34 Exploration Plan
 1. Fly to Goldenrod City.
