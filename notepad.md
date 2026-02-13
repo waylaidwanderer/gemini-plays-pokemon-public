@@ -2,10 +2,10 @@
 - Objective: Find the Director in Underground Warehouse.
 - Constraint: Team Rocket barriers block South Goldenrod. Must access South Underground Entrance via West Route 34.
 
-- Navigation Update: Blocked by Grunt at (8, 15) and fences.
-- Investigation: Checking if Grunt interacts or if (6, 14) "Underpass" is passable.
-- Alternative Route: If blocked, backtrack East to Col 18, then North to Row 9 to find water access.
-- Current Location: (9, 15), facing West.
+- Navigation Update: Northern coastline is walled off.
+- Discovery: Valid Surf spot found at (4, 32) in the South-West.
+- Strategy: Backtrack East to Col 18 to bypass barriers, move South to the PC area, then navigate to (4, 32).
+- Immediate Action: Clear text and move East.
 
 # Route 34 Exploration Plan
 1. Fly to Goldenrod City.
