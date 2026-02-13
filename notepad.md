@@ -8,7 +8,7 @@
   - Right Channel: Connected to East Route 34.
   - Left Channel: Connected to West Route 34 (Goal).
   - Status: "Whirlpool" tiles are non-interactive/solid. Must find the southern end of this barrier to loop around.
-  - Current Location: Sandbar with the Trio Sisters. Need to explore south/west edges after battle.
+  - Current Location: Sandbar with the Trio Sisters. Irene (Left) defeated. Battling Kate (Right).
 
 # Known Locations (Warehouse)
 - Stairs: (23, 3) Silver Room <-> (22, 27) Warehouse.
