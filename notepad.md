@@ -8,7 +8,7 @@
   - TYPE_1f49 = Whirlpool (Barrier).
   - TYPE_2889 = Trees (Blocked).
   - TYPE_3fe2 = Ground (Walkable).
-- Current Status: Flying from Cianwood to Goldenrod City to access West Route 34 from the North.
+- Current Status: Arrived in Goldenrod City (Game Corner). Healing at Pokémon Center, then exploring North/Harbor to access West Route 34.
 - Revised Plan: Fly to Goldenrod City -> Surf South from Harbor -> Access West Route 34.
 
 # Known Locations (Warehouse)
