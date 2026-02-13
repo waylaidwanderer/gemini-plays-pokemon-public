@@ -41,3 +41,6 @@
 - Items to find: Switch 2, Switch 3, Director.
 - Switch 1: ON (Traps Disabled).
 - Items to find: Switch 2, Switch 3, Director.
+- Surfing Strategy: Row 7 on Route 34 appears blocked by walls/bushes (Col 2-7).
+- Plan: Surf Left to Col 0-1 (Water Channel), go North past the obstruction, then land at Row 2-4 (Col 4-5) to enter Goldenrod from the West.
+- Target: Goldenrod West Side -> South Underground Entrance (11, 29).
