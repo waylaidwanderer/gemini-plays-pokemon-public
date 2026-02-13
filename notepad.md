@@ -68,6 +68,8 @@
   2. Turn Switch 1 ON.
   3. Return to Warehouse (3_53).
   4. Step on Traps at (21, 31) to see if they warp.
-- Mechanic: Switch 1 OFF = Secret Room OPEN, Warps at (21, 31)/(22, 31) are INACTIVE.
-- Hypothesis: Switch 1 ON = Secret Room CLOSED, Warps ACTIVE.
-- Action: Turning Switch 1 ON now.
+- Mechanic: Switch 1 has two states.
+  - State A (Wall Closed): Warps at (21, 31)/(22, 31) are HYPOTHESIZED ACTIVE.
+  - State B (Wall Open): Warps at (21, 31)/(22, 31) are INACTIVE (Walkable).
+- Current State: State A (Wall Closed).
+- Plan: Step on Warps at (21, 31). If they work, puzzle solved. If not, investigate other options.
