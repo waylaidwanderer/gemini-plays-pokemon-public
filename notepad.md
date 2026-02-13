@@ -9,8 +9,8 @@
 - Current Status: Investigating East Side for a path South.
 - Obstacles: West and Central paths (Cols 2-15) are blocked by water dead ends, rocks, or barriers at Rows 14/17.
 - Potential Path: Check reachable warps at (25, 9) and (31, 11) -> Checked. Both are dead ends (Bike Shop & House).
-- Status: Navigation Error. Landed in Map 9_6 (Unknown Building, possibly Dept Store or Game Corner).
-- Action: Exiting building via Elevator to 1F, then attempting Fly to Azalea again.
+- Status: Exiting Department Store to correct navigation error.
+- Action: Fly to Azalea Town immediately upon exiting.
 - Note: Verify cursor position carefully when using Fly.
 
 # Known Locations (Warehouse)
