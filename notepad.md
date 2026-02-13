@@ -8,7 +8,7 @@
   - TYPE_1f49 = Whirlpool (Barrier).
   - TYPE_2889 = Trees (Blocked).
   - TYPE_3fe2 = Ground (Walkable).
-- Current Status: Moving North along Col 6. (5,48) blocked by Irene, (6,50) blocked by Kate.
+- Current Status: Surfing North to Row 3 to find Whirlpool Gap.
 - Navigation Plan: Walk North to (6, 43) to re-enter Water (TYPE_4e8c).
 - Whirlpool Analysis: The scan detected a gap of pure Water at (3, 2) and (3, 3). The southern whirlpools (Row 42/43) seem to be non-interactive barriers ("Can't use that here").
 - New Plan: Surf North along the barrier to reach the gap at Row 3.
