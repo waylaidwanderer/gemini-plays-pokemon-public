@@ -15,3 +15,9 @@
 - Stairs: (23, 3) Silver Room <-> (22, 27) Warehouse.
 - Switch 1 (Silver Room): Toggles Traps (21,31)-(22,31) and Grunt (22,24).
 - Obstacles: Locked Shutter (6, 20), Frozen Grunt (22, 24), Burglar (19, 6).
+
+# Navigation Update
+- Route 34 Water: Divided into Left Channel (Cols 0-2) and Right Channel (Cols 4-5) by Whirlpools (Col 3).
+- Right Channel (Current): Dead end at Row 7.
+- Left Channel: Appears to continue North.
+- Action: Must cross Whirlpool barrier to switch to Left Channel.
