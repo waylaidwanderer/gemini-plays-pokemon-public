@@ -31,12 +31,10 @@
   2. Travel South through Underground to bypass City barriers.
   3. Exit at South Entrance (11, 29).
   4. Head West to the coast and Surf.
-- Navigation Note: Verified sidewalk trap at Row 29-30, Col 6-11. Curbs block all Road access.
-- Solution: Use Underground to relocate.
+- Navigation Update: Inside South Underground Entrance (3_54).
 - Plan:
-  1. Re-enter Underground at (11, 29).
-  2. Traverse Underground North to exit at (9, 5).
-  3. Exit North to Goldenrod North.
-  4. Walk West along Row 5 (Open Road) to Coast.
+  1. Go down stairs at (5, 25) to Main Tunnel (3_53).
+  2. Travel North in tunnel to North Stairs.
+  3. Exit to Goldenrod North (9, 5).
+  4. Walk West on Road (Row 5) to Coast.
   5. Surf South.
-- Action: Navigate to (11, 29) using ONLY Sidewalk tiles (3fe2) to avoid curb pathing errors.
