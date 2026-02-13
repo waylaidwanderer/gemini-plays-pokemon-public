@@ -7,10 +7,13 @@
 
 # Strategy: Route 34 West Path
 - Goal: Enter Goldenrod City via the West Path (Cols 0-2).
-- Current Position: Surfing at (4, 9).
-- Immediate Task: Clear Whirlpool at (3, 9).
-- Note: Whirlpool at (3, 10) seemed unresponsive. Trying (3, 9).
-- Action: Press 'A' to interact. If fails, use Menu (Start -> Pokemon -> Headache -> Whirlpool).
+- Current Position: Surfing at (4, 8).
+- Immediate Task: Clear Whirlpool at (3, 8).
+- Issue: "Can't use that here" error on previous tiles.
+- Plan:
+  1. Interact with Whirlpool at (3, 8) (Face Left, Press A).
+  2. If successful, surf West to Col 2 and head North.
+  3. If 'A' fails, use 'scan_adjacent_interactables' to debug.
 
 # Known Locations (Warehouse)
 - Stairs: (23, 3) Silver Room <-> (22, 27) Warehouse.
