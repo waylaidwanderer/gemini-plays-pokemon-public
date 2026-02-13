@@ -6,8 +6,9 @@
 
 # Strategy: South Goldenrod Access
 - Goal: Reach South Goldenrod to rescue the Director.
-- Plan: Fly to Azalea Town -> Traverse Ilex Forest North -> Route 34 -> Enter Goldenrod City from the South.
-- Reason: Northern access in Goldenrod is blocked by barriers.
+- Plan: Traverse Ilex Forest North -> Route 34 -> Enter Goldenrod City from the South.
+- Status: Deep in Ilex Forest (Turn 40231). Navigating around water hazards.
+- Tile Mechanics: TYPE_4e8c (Water), TYPE_3fe2 (Ground).
 
 # Known Locations (Warehouse)
 - Stairs: (23, 3) Silver Room <-> (22, 27) Warehouse.
