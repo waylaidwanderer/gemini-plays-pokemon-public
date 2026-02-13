@@ -32,11 +32,9 @@
   3. Exit at South Entrance (11, 29).
   4. Head West to the coast and Surf.
 - Status: Inside Silver Room (3_54).
-- Correction: Switch 1 is the blue panel at (16, 1). Grunt is at (17, 2).
 - Action:
-  1. Navigate to (16, 2).
-  2. Activate Switch 1 at (16, 1).
-  3. Defeat Grunt if necessary.
-  4. Return to Warehouse (3_53).
+  1. Turned Switch 1 OFF (Disabled Security/Traps).
+  2. Return to Warehouse (3_53).
+  3. Check if path to Grunts is open.
 - Exploration: Found horizontal corridor at Row 7 connecting West and East sides of the Underground.
 - Action: Heading East to access the main Warehouse area.
