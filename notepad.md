@@ -5,9 +5,8 @@
 - Key Discovery: North & South Public Underground are disconnected. Must access South section from Surface (South Entrance).
 
 # Exploration Plan
-- Current Location: Route 34 (West Side Pond).
-- Immediate Goal: Cross water at (3, 8) to reach West Bank (Col 1).
-- Route: Surf Left to (3, 8), land on (2, 8), Walk West to Col 1, then North to Goldenrod.
+- Current Location: Lake of Rage (Fly Point).
+- Immediate Goal: Fly to Goldenrod City.
 - Destination: South Underground Entrance (Goldenrod 11, 29).
 
 # Known Locations (Warehouse)
