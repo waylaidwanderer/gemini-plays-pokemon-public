@@ -2,13 +2,11 @@
 - Objective: Find the Director in Underground Warehouse.
 - Constraint: Team Rocket barriers block South Goldenrod. Must access South Underground Entrance via West Route 34.
 
-- Navigation Strategy Change: Overworld interaction failed multiple times. Retrying Menu interaction to trigger Whirlpool.
+- Navigation Strategy Change: Whirlpool failed ('Can't use that here'). Suspect tile (3, 8) is normal water. Switching to SURF.
 - Action:
-  1. Open Menu (Start).
-  2. Select Pokémon (Down, A).
-  3. Select Headache (Down x3, A).
-  4. Select Whirlpool.
-- Target: Clear Whirlpool at (3, 8).
+  1. Close text (B).
+  2. Select SURF (Down, A).
+- Target: Enter water at (3, 8).
 
 # Route 34 Exploration Plan
 1. Fly to Goldenrod City.
