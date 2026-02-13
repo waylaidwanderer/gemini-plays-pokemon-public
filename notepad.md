@@ -9,9 +9,13 @@
 - Goal: Enter Goldenrod City via the West Path (Cols 0-2).
 - Current Position: Surfing at (4, 8).
 - Immediate Task: Clear Whirlpool at (3, 8).
-- Hypothesis: Menu Option 1 is 'Surf' (fails). Option 2 might be 'Whirlpool'.
-- Plan: Select Headache, Press DOWN, then A.
-- Backup: If Stats appear, Whirlpool is Option 1 (and previous errors were positioning).
+- Plan: 
+  1. Reset Menu (B x3, Start).
+  2. Enter Party (Up, A).
+  3. Select Headache (Down x3, A).
+  4. Attempt Top Option (A). 
+     - If Whirlpool: Success!
+     - If Stats: Back out (B), Select Move (Down x2, A), Select Whirlpool (A).
 
 # Known Locations (Warehouse)
 - Stairs: (23, 3) Silver Room <-> (22, 27) Warehouse.
