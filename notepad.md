@@ -13,3 +13,5 @@
 - Stairs: (23, 3) Silver Room <-> (22, 27) Warehouse.
 - Hidden Corridor: Access via fake walls at (6, 19) & (6, 23).
 - Warp: Trap (21, 31) -> (19, 8) North Warehouse.
+- Map Analysis: Map 26_3 height is listed as 18 in XML. Target (11, 29) is out of bounds. Goldenrod might be split or I need to transition South to a new map segment.
+- Navigation Correction: Main road is TYPE_4e8c. Must include in walkable types.
