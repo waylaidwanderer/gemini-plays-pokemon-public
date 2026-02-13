@@ -3,10 +3,9 @@
 - Constraint: Team Rocket barriers block South Goldenrod. Must access South Underground Entrance via West Route 34.
 
 # Current Navigation Status
-- Location: New Bark Town (Physical).
-- Menu State: Party Menu -> Topaz -> Fly selected.
-- Action: Pressing 'A' to open Fly Map.
-- Next Step: Navigate cursor to Goldenrod City.
+- Location: Goldenrod City (11_2).
+- Recent Action: Healed at Pokemon Center.
+- Current Objective: Navigate North to Harbor (near Row 14) to Surf to West Route 34.
 
 # Route 34 Exploration Plan
 1. Fly to Goldenrod City.
