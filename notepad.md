@@ -8,9 +8,9 @@
   - TYPE_1f49 = Whirlpool (Barrier).
   - TYPE_2889 = Trees (Blocked).
   - TYPE_3fe2 = Ground (Walkable).
-- Current Status: Landed at (6, 43). Walking South to cross the Land Bridge at Row 48/49.
-- Obstacles: Defeated Trainers Irene (5, 48) and Jenn (7, 48) block the direct path west at Row 48.
-- Revised Plan: Walk South to (6, 49) to bypass Irene, then head West to access the West Channel.
+- Current Status: Flying to Goldenrod City to access West Route 34 from the North.
+- Obstacles: East Route 34 is a dead end.
+- Revised Plan: Surf South from Goldenrod Harbor.
 
 # Known Locations (Warehouse)
 - Stairs: (23, 3) Silver Room <-> (22, 27) Warehouse.
