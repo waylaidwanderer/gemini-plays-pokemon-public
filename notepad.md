@@ -20,3 +20,4 @@
   2. Upper-Mid
   3. Lower-Mid
   4. Bottom
+- Navigation Issue: Pressing 'A' to Surf at (2, 49) facing Left failed. Attempting via Menu to bypass potential interaction bug.
