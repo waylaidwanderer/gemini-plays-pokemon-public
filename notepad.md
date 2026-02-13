@@ -10,8 +10,10 @@
   - TYPE_3fe2 = Ground (Walkable).
 - Current Status: Surfing North to Row 3 to find Whirlpool Gap.
 - Navigation Plan: Walk North to (6, 43) to re-enter Water (TYPE_4e8c).
-- Whirlpool Analysis: Trees block the East Channel (Col 4) at Row 7, preventing travel to the gap at Row 3.
-- New Plan: Must break the Whirlpool at (3, 8) to cross to the West Channel (Col 0-2), which appears clear to the North.
+- Whirlpool Analysis:
+  - Attempted to break Whirlpool at (3, 8) via menu, got "Can't use that here". Possible facing issue or it's a hard wall.
+  - Backup Path: Map data shows a Land Bridge at Row 48 (Tiles 2-5 are Ground). I can walk across the sandbar from East to West channels there!
+- Current Action: Retry interaction with Whirlpool at (3, 8) with explicit facing. If fails, return South to Row 48.
 
 # Known Locations (Warehouse)
 - Stairs: (23, 3) Silver Room <-> (22, 27) Warehouse.
