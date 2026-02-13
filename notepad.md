@@ -7,8 +7,8 @@
 # Strategy: South Goldenrod Access
 - Goal: Reach South Goldenrod to rescue the Director.
 - Plan: Traverse Ilex Forest North -> Route 34 -> Enter Goldenrod City from the South.
-- Status: Deep in Ilex Forest (Turn 40231). Navigating around water hazards.
-- Tile Mechanics: TYPE_4e8c (Water), TYPE_3fe2 (Ground).
+- Status: Moving East in Ilex Forest to find a path North (Turn 40233).
+- Tile Mechanics: TYPE_4e8c (Water), TYPE_3fe2 (Ground), TYPE_2889 (Tree/Wall).
 
 # Known Locations (Warehouse)
 - Stairs: (23, 3) Silver Room <-> (22, 27) Warehouse.
