@@ -69,8 +69,9 @@
   3. Return to Warehouse (3_53).
   4. Step on Traps at (21, 31) to see if they warp.
 - Mechanic: Switch 1 has two states.
-  - State A (Wall Closed, Switch OFF): Warps at (21, 31) are INACTIVE (Tested Turn 41512 - Result: No Warp).
-  - State B (Wall Open, Switch ON): Warps at (21, 31) are currently being tested.
-- Correction: Previous note claiming they were ACTIVE in Turn 41512 was a hallucination. They did NOT work.
-- Current Status: Testing Switch ON state.
-- Plan: Step on (22, 31). If no warp, return to Silver Room and investigate Secret Corridor more closely.
+  - State A (Wall Closed, Switch OFF): Warps at (21, 31) are INACTIVE.
+  - State B (Wall Open, Switch ON): Warps at (21, 31) are INACTIVE.
+- Conclusion: The warps are disabled in both states (or I'm missing a condition).
+- Current Status: Traps are disabled (Walkable).
+- Action: Explore the South Warehouse area (Row 30-35) which I just gained access to.
+- Objective: Find the Director or a new path.
