@@ -10,10 +10,11 @@
 - Current Position: Surfing at (4, 10).
 - Immediate Task: Clear Whirlpool at (3, 10) using Headache (Menu -> Move -> Whirlpool).
 - Note: Whirlpools form a continuous wall (Col 3) from Row 8 to 22. MUST break one to reach West Bank.
-- Immediate Task: Use Whirlpool from Menu.
-- Step 1: Exit Stats (B).
-- Step 2: Select MOVE (Down, Down, A).
-- Step 3: Select Whirlpool (A).
+- Immediate Task: Select Headache in Party.
+- Step 1: Exit Garnet's Menu (B).
+- Step 2: Scroll to Headache (Down x3).
+- Step 3: Select Headache (A).
+- Step 4: Select Whirlpool.
 
 # Known Locations (Warehouse)
 - Stairs: (23, 3) Silver Room <-> (22, 27) Warehouse.
