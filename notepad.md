@@ -21,3 +21,8 @@
 - Stairs: (23, 3) Silver Room <-> (22, 27) Warehouse.
 - Switch 1 (Silver Room): Toggles Traps (21,31)-(22,31) and Grunt (22,24).
 - Obstacles: Locked Shutter (6, 20), Frozen Grunt (22, 24), Burglar (19, 6).
+
+# Reflection (Turn 41177)
+- Progress: Cleared major gyms, now tackling Rocket arc. Stuck at Route 34 Whirlpool.
+- Issues: Menu inputs failing or desyncing. 'IntermediateStates' showing wrong turn data.
+- Plan: Slowing down inputs. Verifying Party Menu entry before selecting move.
