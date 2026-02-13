@@ -37,3 +37,5 @@ Reflection Turn 41022:
 - Workaround 1: Fly to Goldenrod City (should land in front of Center).
 - Workaround 2: Go East to Col 19, South to Main St (Row 29), West to Col 8, North to Row 22, East to Center.
 - West Coast Access: From Main St, go East to Col 18, North to Row 17, West to Col 3 (Water).
+- Navigation Update: Path at (16, 23) definitely blocked by Grunt.
+- Reroute: Going East to Col 18, South to Row 29, then West to reach Center from the South.
