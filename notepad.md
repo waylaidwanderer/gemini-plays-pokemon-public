@@ -3,15 +3,17 @@
 - Locations:
   - Stairs: (23, 3) Silver Room <-> (22, 27) Warehouse.
   - Switch 1 (Silver Room, 16, 1): Toggles Wall at (16, 7).
+  - Switch 3 (Silver Room, 2, 1): Toggles Wall at (6, 8).
   - Director: (9, 12) in Silver Room (Behind Wall).
   - Item: (15, 12) in Silver Room (Behind Wall).
+- Clues:
   - Grunt (Row 4): "Open one shutter, another closes."
-- Mechanics:
-  - Switches toggle specific walls/shutters.
-  - Need to find the combination to access Row 12.
-- Status:
-  - Switch 1 is currently ON (Wall at 16,7 OPEN).
-  - Battled Grunt at Row 4.
-  - Exploring West wing of Silver Room.
-- Hint from Grunt (3, 2): 'Change the order of switching'. Implies sequence.
-- Hypothesis: Search for Switch 2 in the West wing.
+  - Grunt (3, 2): "Change the order of switching."
+  - Grunt (11, 3): "I'm confused too... The switch on the..." (Reading now).
+- Puzzle Logic:
+  - Need to find "Switch 2" or the correct sequence.
+  - Current State: Switch 1 ON, Switch 3 ON.
+  - Walls at Row 10 are blocking access to Director/Item.
+- Immediate Plan:
+  - Finish talking to Grunt at (11, 3).
+  - Search North Wall (Rows 1-2) for hidden Switch 2.
