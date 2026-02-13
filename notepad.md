@@ -7,8 +7,8 @@
 - Water Barrier: A continuous line of "Whirlpool" tiles (Col 3) separates the water into Left/Right channels.
   - Right Channel: Connected to East Route 34.
   - Left Channel: Connected to West Route 34 (Goal).
-  - Status: "Whirlpool" tiles are non-interactive/solid. Must find the southern end of this barrier to loop around.
-  - Current Location: Sandbar with the Trio Sisters. Irene (Left) defeated. Battling Kate (Right).
+  - Status: "Whirlpool" tiles act as a barrier. I have the Glacier Badge and HM06, so I can remove them if I can surf up to them.
+  - Current Strategy: Surf on the East side (Right Channel), then interact with Whirlpools to cross or loop around South.
 
 # Known Locations (Warehouse)
 - Stairs: (23, 3) Silver Room <-> (22, 27) Warehouse.
