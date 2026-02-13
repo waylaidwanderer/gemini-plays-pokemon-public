@@ -15,6 +15,6 @@
 - Warp: Trap (21, 31) -> (19, 8) North Warehouse.
 - Navigation Note: Goldenrod is split. Current map (26_3) ends at Row 17. Expecting a transition to a Southern map (likely 26_something) to reach (11, 29).
 - Action Plan: Walk South along the sidewalk/road to find the transition.
-- Navigation Note: Confirmed Sidewalk Trap at (10, 6). West (to Road) and South (to deeper city) are blocked by fences/walls.
-- Corrective Action: Must backtrack North/East to find a valid crossing to the West side (Main Road).
-- Immediate Goal: Finish call, then BFS to (7, 5) on the Main Road.
+- Navigation Discovery: The "Main Road" (Col 6-9) is actually a WATER CANAL.
+- Strategy: Use Surf to travel South along the canal to bypass the sidewalk fence.
+- Action Plan: Surf South to the map edge (Row 17) or look for a landing spot on the West bank.
