@@ -15,6 +15,6 @@
 - Warp: Trap (21, 31) -> (19, 8) North Warehouse.
 - Navigation Note: Goldenrod is split. Current map (26_3) ends at Row 17. Expecting a transition to a Southern map (likely 26_something) to reach (11, 29).
 - Action Plan: Walk South along the sidewalk/road to find the transition.
-- Navigation Correction: The "Canal" was a visual misinterpretation. I am walking on the Main Road (TYPE_4e8c).
-- Path: The road leads South to a building/gatehouse at Row 16/17.
-- Action Plan: Walk South into the Gatehouse to transition to the southern map.
+- Navigation Obstacle: The "Gatehouse" at Row 16/17 (Cols 5-14) is blocked by solid TYPE_1f49 tiles. I cannot pass South here.
+- Hypothesis: The path South is likely on the far West side (Col < 5) or this is the wrong road.
+- Action Plan: Backtrack North to Row 12, then move West to investigate Cols 0-5.
