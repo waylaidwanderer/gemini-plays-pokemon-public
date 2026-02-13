@@ -15,9 +15,9 @@
 - Warp: Trap (21, 31) -> (19, 8) North Warehouse.
 - Navigation Note: Goldenrod is split. Current map (26_3) ends at Row 17. Expecting a transition to a Southern map (likely 26_something) to reach (11, 29).
 - Action Plan: Walk South along the sidewalk/road to find the transition.
-- Navigation Update: East path (Col 13) blocked. Path at (6, 16) also blocked.
-- Strategy: Must access South Map via West Canal (Cols 2-3).
-- Action: Surf West from (6, 14) to reach open channel in Cols 2-3.
+- Navigation Update: West side (Cols 0-7) is a dead end at Row 16/17 due to zigzag barriers.
+- Correction: Passage East is possible at Row 13 (Cols 12-14 are open).
+- Action: Surf East to Col 11, then North to Row 13 to bypass wall at (12,14), then East to Col 14.
 - Mechanic: 'Road' tiles trigger wild encounters. Be ready to run.
 - Anomaly: Encountered Wild Tentacool on 'Road' tile (TYPE_4e8c) at (8, 13).
 - Destination Update: Attempting to reach map transition at (2, 17) or (3, 17).
