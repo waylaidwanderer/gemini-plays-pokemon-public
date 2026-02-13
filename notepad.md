@@ -62,7 +62,8 @@
 - Map Flow:
   1. Main Warehouse (North) -> Door (18, 6) -> Warps to Landing Zone (21, 31).
   2. Landing Zone blocked North by Grunt. Must enter Silver Room via (22, 27).
-  3. Silver Room (3_54): Switch 1 opens item room. Exit via Stairs at (23, 3).
-  4. Stairs (23, 3) likely lead to a new area (West Warehouse?).
-- Action: Go to Silver Room -> Stairs (23, 3).
-- Status: Switch 1 is OFF (Item room closed). This is fine.
+  3. Silver Room (3_54): Switch 1 opens item room/closes wall.
+  4. Stairs (23, 3) in Silver Room lead back to Warehouse (22, 27).
+- Correction: (22, 27) is a Door/Warp, not a Trap.
+- Strategy: The Grunt at (22, 24) is blocking the North. Exploration of the West side of the Warehouse (starting from 22, 27 area) is the next logical step.
+- Action: Explore West from (22, 27).
