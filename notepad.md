@@ -5,16 +5,15 @@
 - Key Discovery: Goldenrod City is divided by a fence. East side (Gym, Bike Shop) is separated from West side (Underground Ent, Dept Store).
 - Route: Must exit South to Route 34, cross to the West side of the road, and re-enter Goldenrod.
 
-# Strategy: Route 34 West Bank
-- Goal: Enter Goldenrod City from the South (West Side).
-- Current Position: Surfing at (4, 10).
-- Immediate Task: Clear Whirlpool at (3, 10) using Headache (Menu -> Move -> Whirlpool).
-- Note: Whirlpools form a continuous wall (Col 3) from Row 8 to 22. MUST break one to reach West Bank.
-- Immediate Task: Select Headache in Party.
-- Step 1: Exit Garnet's Menu (B).
-- Step 2: Scroll to Headache (Down x3).
-- Step 3: Select Headache (A).
-- Step 4: Select Whirlpool.
+# Strategy: Route 34 West Path
+- Goal: Enter Goldenrod City via the West Path (Cols 4-6).
+- Current Position: Route 34 Water (4, 9).
+- Key Insight: Tree wall at Col 7 (Rows 0-5) separates West/East paths.
+- Plan:
+  1. Surf East to land at (6, 9).
+  2. Walk North staying in Col 6 (DO NOT cross to Col 8).
+  3. Enter Goldenrod at (6, 0).
+- Outcome: This leads to the Underground Entrance side.
 
 # Known Locations (Warehouse)
 - Stairs: (23, 3) Silver Room <-> (22, 27) Warehouse.
