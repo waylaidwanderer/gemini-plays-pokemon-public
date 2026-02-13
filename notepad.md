@@ -39,6 +39,6 @@ Reflection Turn 41022:
 - West Coast Access: From Main St, go East to Col 18, North to Row 17, West to Col 3 (Water).
 - Navigation Update: Path at (16, 23) definitely blocked by Grunt.
 - Reroute: Going East to Col 18, South to Row 29, then West to reach Center from the South.
-- Navigation Update: Fly Map Cursor moved to Violet City (confirmed by screen). Intermediate states showed Olivine, suggesting desync or reset.
-- Action: Navigating Violet -> Ecruteak (Left) -> Goldenrod (Down).
-- Current State: In Fly Menu. Cursor at Violet City.
+- Navigation Update: Fly Map Cursor at Cherrygrove City (Visual Confirm).
+- Action: Navigating Cherrygrove -> Violet (Left) -> Ecruteak (Left) -> Goldenrod (Down).
+- Current State: In Fly Map. Cursor moving to Goldenrod.
