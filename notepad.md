@@ -59,10 +59,12 @@
 - Confirmation: Turned Switch 1 OFF. Wall at (16, 7) in Silver Room is now CLOSED (TYPE_2889).
 - Hypothesis: This should reactivate the Warp Traps in the Warehouse (3_53).
 - Next Step: Return to Warehouse and step on traps at (21, 31).
-- Warehouse Strategy (Critique Updated):
-  - Switch 1 in Silver Room (3_54) only controls the item room. It does not affect the Grunt or Traps in 3_53.
-  - The "Traps" at (21, 31) in 3_53 are inactive.
-  - The Grunt at (22, 24) in 3_53 blocks the North.
-  - The West side of Warehouse (3_53) is the key. I likely missed a path there.
-- Action: Return to Warehouse (3_53) via stairs at (23, 3) and thoroughly explore the West area.
-- Ignore the Switch and Grunt for now. Focus on finding a path West/South in 3_53.
+- Warehouse Strategy:
+  - The Grunt at (22, 24) is blocking North. Dialogue: "Ice in your veins".
+  - "Traps" at (21, 31) are TYPE_ffbb (Warp/Interactive).
+  - Hypothesis: Switch 1 ON activates the Warp Traps. I tested them with Switch OFF (Inactive) but haven't confirmed testing them with Switch ON.
+- Action:
+  1. Go to Silver Room (3_54).
+  2. Turn Switch 1 ON.
+  3. Return to Warehouse (3_53).
+  4. Step on Traps at (21, 31) to see if they warp.
