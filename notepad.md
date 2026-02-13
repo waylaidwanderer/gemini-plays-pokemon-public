@@ -31,8 +31,9 @@
   2. Travel South through Underground to bypass City barriers.
   3. Exit at South Entrance (11, 29).
   4. Head West to the coast and Surf.
-- Navigation Note: West movement from (6, 31) blocked by curb. Moving South to Row 32 (Road) to cross to the water.
+- Navigation Note: West/South movement from Column 6 (Sidewalk) is blocked by curbs at Rows 30-31.
+- Solution: Move North to Row 29 (Intersection) where the Sidewalk merges with the Road (TYPE_2889).
 - Action:
-  1. Walk Down to (6, 32).
-  2. Walk Left to (4, 32).
-  3. Interact with water at (3, 32) to Surf.
+  1. Walk Up to (6, 29).
+  2. Walk Left to (4, 29) (Road).
+  3. Walk South to Water.
