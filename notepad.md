@@ -2,10 +2,10 @@
 - Objective: Find the Director in Underground Warehouse.
 - Constraint: Team Rocket barriers block South Goldenrod. Must access South Underground Entrance via West Route 34.
 
-- Navigation Update: Menu is confirmed open on 'WHIRLPOOL'. Previous inputs may have been dropped or timed out.
-- Action: Pressing 'A' multiple times to ensure selection and text advance.
-- Next Step: Wait for animation, then Surf West.
-- Target: (2, 8).
+- Navigation Update: Menu persistent. Selecting 'WHIRLPOOL' again.
+- Action: Pressing 'A' to select.
+- Contingency: If this fails to clear the whirlpool, I will exit the menu and Face Left before retrying.
+- Target: Clear Whirlpool at (3, 8).
 
 # Route 34 Exploration Plan
 1. Fly to Goldenrod City.
