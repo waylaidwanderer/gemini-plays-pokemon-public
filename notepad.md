@@ -46,5 +46,6 @@
 - Fix: Removing TYPE_2889 from walkable lists in this area. Visual verification confirms it is a wall.
 - Next: Exit Silver Room and verify trap status in Main Warehouse.
 - Combat: Engaging Rocket Grunt at (22, 24). Garnet (Typhlosion) on point.
-- Correction: I likely left Switch 1 ON (Active). Need to turn it OFF to disable traps/Grunt.
-- Current Status: Grunt at (22, 24) appears solid/non-interactive. Traps at (21, 31) are TYPE_ffbb (Active).
+- Correction: Switch 1 was ON (Active) when I last checked (I selected YES). Grunt is still blocking.
+- Hypothesis: Need to turn Switch 1 OFF (or back to initial state) to disable security.
+- Current Status: Grunt at (22, 24) is solid. Going back to toggle Switch 1.
