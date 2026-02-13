@@ -15,10 +15,11 @@
 - Inventory: Have BASEMENT KEY.
 - East/West Nooks: Confirmed empty.
 - Locked Shutter: (6, 20) in North Warehouse.
-- Burglar/Guard at (19, 6): Investigating.
-- Warp (18, 6): Likely leads back to (21, 31). Avoid for now.
-- Objective: Find access to North Warehouse (Row 0-5).
-- Switch 2 & 3: Still searching.
+- Burglar/Guard at (19, 6): Blocked ("NO ENTRY").
+- Strategy: Move West to Junction (6, 7), then explore North (Rows 0-6).
+- Warp (18, 6): Avoid (Backtrack).
+- Shutter at (6, 20): Verified Locked.
+- Switch 2 & 3: High priority. Likely in North-West area.
 - Check Walls: Inspecting the wall behind the frozen traps (Row 32) just in case.
 
 # Key Locations & Connections
