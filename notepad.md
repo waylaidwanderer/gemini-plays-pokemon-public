@@ -22,7 +22,7 @@
   3. Lower-Mid
   4. Bottom
 - Navigation Issue: Pressing 'A' to Surf at (2, 49) facing Left failed. Attempting via Menu to bypass potential interaction bug.
-- Surf Fail: Unable to surf West from (2, 49). Tile (1, 49) is a non-surfable map edge.
+- Surf Fail (Route 34): Unable to surf West from (2, 49). Tile (1, 49) is a non-surfable map edge.
 - Navigation Plan: Surfing South from (2, 49) towards (2, 50).
 - Menu Correction: Tool 'select_party_pokemon' caused desync. Manually navigating: Main Menu -> Pokemon -> Headache -> Surf.
 Reflection Turn 41022:
