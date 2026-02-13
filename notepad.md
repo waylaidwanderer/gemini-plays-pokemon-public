@@ -7,12 +7,12 @@
 
 # Strategy: Route 34 Crossing
 - Goal: Cross barrier at (3, 10).
-- Analysis: Surfing from (4, 8) has repeatedly failed. Moving to a new location to reset state and try a different angle.
+- Analysis: Persistent "You're already SURFING" message despite being on land at (5, 8). This indicates a desync or glitch state.
 - Plan:
-  1. Move Right to (5, 8).
-  2. Face North towards water at (5, 7).
-  3. Attempt Surf using robust menu tool.
-  4. Once Surfing, navigate around the whirlpool at (3, 8) and continue South.
+  1. Clear all menus and text.
+  2. Attempt to walk North onto water at (5, 7).
+  3. If movement fails (collision), use Fly to reset map state.
+  4. If movement succeeds, navigate to (3, 8) to clear whirlpool.
 
 # Known Locations (Warehouse)
 - Stairs: (23, 3) Silver Room <-> (22, 27) Warehouse.
