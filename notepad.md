@@ -31,11 +31,11 @@
   2. Travel South through Underground to bypass City barriers.
   3. Exit at South Entrance (11, 29).
   4. Head West to the coast and Surf.
-- Status: Inside Silver Room (3_54).
+- Status: Back in Warehouse (3_53).
 - Action:
-  1. Switch 1 is OFF (Traps Disabled).
-  2. Return to Warehouse (3_53).
-  3. Proceed to Grunts.
+  1. Move North to check if path at Row 24 is open.
+  2. Defeat Rocket Grunt at (22, 24) if accessible.
+  3. Find Director.
 - Exploration: Found horizontal corridor at Row 7 connecting West and East sides of the Underground.
 - Action: Heading East to access the main Warehouse area.
 
