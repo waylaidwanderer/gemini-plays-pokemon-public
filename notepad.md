@@ -31,10 +31,9 @@
   2. Travel South through Underground to bypass City barriers.
   3. Exit at South Entrance (11, 29).
   4. Head West to the coast and Surf.
-- Navigation Note: Sidewalk at Column 6 is trapped by curbs (North, South, West).
-- Solution: Backtrack East to the Underground Entrance area `(11, 29)` to find the transition to the Road `(10, 29)`.
+- Navigation Note: Row 30 (Sidewalk) is separated from Row 29 (Road) by a curb/fence West of Column 10.
+- Solution: Backtrack East to (10, 30), then move North to (10, 29) to enter the Road.
 - Action:
-  1. Walk Right to (10, 31).
-  2. Walk Up/Left to access Road at (10, 29).
-  3. Walk West on Road to (4, 29).
-  4. Walk South to Water.
+  1. Walk Right to (10, 30).
+  2. Walk Up to (10, 29).
+  3. Walk West on Road to Water.
