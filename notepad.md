@@ -69,8 +69,8 @@
   3. Return to Warehouse (3_53).
   4. Step on Traps at (21, 31) to see if they warp.
 - Mechanic: Switch 1 has two states.
-  - State A (Wall Closed): Warps at (21, 31)/(22, 31) are ACTIVE. (Tested: Warped to North Warehouse).
-  - State B (Wall Open): Warps at (21, 31)/(22, 31) are INACTIVE (Walkable).
-- Current State: State A (Wall Closed, Warps Active).
-- Status: Toggled Switch 1 OFF.
-- Immediate Plan: Verify wall at (16, 7) is CLOSED, then run to Warehouse Warps at (21, 31).
+  - State A (Wall Closed, Switch OFF): Warps at (21, 31) are INACTIVE (Tested Turn 41512).
+  - State B (Wall Open, Switch ON): Warps at (21, 31) are HYPOTHESIZED ACTIVE.
+- Current State: Switch is OFF.
+- Action: Turn Switch ON (Open Wall).
+- Plan: Return to Warehouse and test Warps.
