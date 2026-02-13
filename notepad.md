@@ -42,6 +42,6 @@ Reflection Turn 41022:
 - Navigation Error: Encountered 'Can't use that here' in Party Menu. Likely due to Pack/Item context or wrong menu selection.
 - Correction: Resetting to Overworld and opening Start Menu to visually confirm cursor position before attempting Fly again.
 - Next Step: Identify cursor position, then navigate to Pokemon -> Topaz -> Fly.
-- Navigation Error: Accidentally opened Pokedex (Hoothoot Entry).
-- Correction: Exiting Pokedex to Overworld, then navigating correctly to Party Menu -> Topaz -> Fly.
-- Input Sequence: B (Exit Entry) -> B (Exit List) -> B (Exit Menu) -> Start -> Down (Pokemon) -> A -> Down (Topaz) -> A.
+- Navigation Error: Accidental usage of Pokégear/Phone.
+- Correction: Exiting Pokégear, resetting Start Menu cursor to top (Pokedex) to guarantee correct selection of Pokemon Menu.
+- Sequence: Exit Menu (B x3) -> Start -> Up x3 (Force Top) -> Down (Pokemon) -> A -> Down (Topaz) -> A -> A (Fly).
