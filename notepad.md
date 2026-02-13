@@ -8,7 +8,8 @@
 - Goal: Reach Map 26_? (South Goldenrod) via map transition.
 - Current Status: Investigating East Side for a path South.
 - Obstacles: West and Central paths (Cols 2-15) are blocked by water dead ends, rocks, or barriers at Rows 14/17.
-- Potential Path: Check reachable warps at (25, 9) and (31, 11) for bypass or information.
+- Potential Path: Check reachable warps at (25, 9) and (31, 11) -> Checked. Both are dead ends (Bike Shop & House).
+- New Strategy: Fly to Azalea Town and travel North through Ilex Forest -> Route 34 -> South Goldenrod to bypass the city blockade.
 
 # Known Locations (Warehouse)
 - Stairs: (23, 3) Silver Room <-> (22, 27) Warehouse.
