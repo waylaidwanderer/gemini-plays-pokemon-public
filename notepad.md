@@ -9,11 +9,9 @@
 - Goal: Enter Goldenrod City via the West Path (Cols 0-2).
 - Current Position: Surfing at (4, 8).
 - Immediate Task: Clear Whirlpool at (3, 8).
-- Issue: "Can't use that here" error on previous tiles.
-- Plan:
-  1. Interact with Whirlpool at (3, 8) (Face Left, Press A).
-  2. If successful, surf West to Col 2 and head North.
-  3. If 'A' fails, use 'scan_adjacent_interactables' to debug.
+- Hypothesis: Menu Option 1 is 'Surf' (fails). Option 2 might be 'Whirlpool'.
+- Plan: Select Headache, Press DOWN, then A.
+- Backup: If Stats appear, Whirlpool is Option 1 (and previous errors were positioning).
 
 # Known Locations (Warehouse)
 - Stairs: (23, 3) Silver Room <-> (22, 27) Warehouse.
