@@ -2,10 +2,10 @@
 - Objective: Find the Director in Underground Warehouse.
 - Constraint: Team Rocket barriers block South Goldenrod. Must access South Underground Entrance via West Route 34.
 
-- Navigation Update: Surfing on Route 34.
-- Obstacle: Whirlpool at (3, 8) blocking path.
-- Action: In Party Menu. Selecting Headache to use Whirlpool.
-- Goal: Clear whirlpool and Surf North.
+- Navigation Update: Used Whirlpool HM.
+- Expectation: Whirlpool at (3, 8) disappears.
+- Next Action: Surf West through the gap to (2, 8), then Surf North towards Goldenrod City (Map 11_2).
+- Target: Reach Goldenrod SW Coast (approx (4, 32)).
 
 # Route 34 Exploration Plan
 1. Fly to Goldenrod City.
