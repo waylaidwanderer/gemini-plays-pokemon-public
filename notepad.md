@@ -38,3 +38,10 @@
   3. Proceed to Grunts.
 - Exploration: Found horizontal corridor at Row 7 connecting West and East sides of the Underground.
 - Action: Heading East to access the main Warehouse area.
+
+# Reflection (Turn 41282)
+- Progress: Entered Underground Warehouse, opened shutter, toggled Switch 1.
+- Issue: Navigation loop at (17, 3).
+- Cause: Mistook TYPE_2889 (Wall/Divider) for Walkable Floor.
+- Fix: Removing TYPE_2889 from walkable lists in this area. Visual verification confirms it is a wall.
+- Next: Exit Silver Room and verify trap status in Main Warehouse.
