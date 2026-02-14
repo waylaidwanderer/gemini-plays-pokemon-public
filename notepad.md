@@ -1,6 +1,7 @@
 # Underground Warehouse Strategy
-- **Current Status:** Sw2 is OFF (Verified). Sw3 is ON.
-- **Action:** Turning Switch 2 ON.
+- **Current Status:** Sw3 ON, Sw2 OFF (Verified). Sw1 OFF.
+- **Action:** Interacting with Switch 2 to turn ON.
+- **Protocol:** Using ONLY 'A' presses to ensure I don't cancel the menu.
 - **Target State:** [Sw3 ON, Sw2 ON].
 - **Hypothesis:** This combo opens Gate (12, 8).
-- **Contingency:** If (10, 6) closes and (12, 8) doesn't open, I'll be trapped in North. Toggle Sw2 OFF to escape.
+- **Contingency:** If (10, 6) closes, I might be trapped. Use 'check_gate_states' to verify immediately.
