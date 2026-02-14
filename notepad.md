@@ -1,12 +1,12 @@
 # Warehouse Switch Puzzle - Solution Testing
-- State: Sw1 ON, Sw2 OFF, Sw3 OFF (Target).
-- Current Position: (2, 5).
-- Action: Moving to Switch 3 (2, 1) to toggle it OFF.
-- Reason: Previous attempt failed due to positioning error.
-- Grunt check: (3, 2) is blocked, but I can access (3, 6) via (3, 5).
+- Critical Discovery: Switch 3 is CURRENTLY OFF. (Screen text: "It's OFF").
+- Correction: My tracker said ON. I was wrong.
+- Current State: Sw1 ON, Sw2 OFF, Sw3 OFF.
+- Plan: Test this state.
+- Route: Check (3, 6). If Open -> (3, 8) -> (6, 8) -> Director.
 
 ## Plan
-1. Move Up to (2, 2).
-2. Toggle Switch 3 (Press A).
-3. Verify "OFF".
-4. Move to (3, 5) and check shutter (3, 6).
+1. Leave Switch 3 OFF (Press B).
+2. Move to (3, 5).
+3. Check Shutter (3, 6).
+4. If Closed, try turning Switch 3 ON (since I haven't actually tested ON if I was wrong before?).
