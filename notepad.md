@@ -11,3 +11,5 @@
 - Gate (10, 6): Closed (Confirmed).
 - Sequence 1->3->2 (All ON) Failed.
 - Next: Turn Sw2 OFF.
+- Testing Gate (10, 6)...
+- Moving to Switch 1 to turn OFF.
