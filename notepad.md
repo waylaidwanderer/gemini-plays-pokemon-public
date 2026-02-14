@@ -5,10 +5,15 @@
   - Sw3: ON (Verified).
   - Sw2: ON (Verified).
   - Sw1: OFF (Verified).
-- **Hypothesis:** Sw1 OFF opens West Bottom Gate (2, 10).
+- **Test:** Verify West Bottom Gate (2, 10) status.
+  - Visual: Looks Closed (TYPE_2889).
+- **Hypothesis:** Need Sw1 OFF + Sw3 OFF?
+  - Sw1 OFF might enable "West Mode" or unlock West Bottom.
+  - Sw3 ON opens East Bottom. Maybe Sw3 OFF opens West Bottom?
 - **Plan:**
-  1. Go West to Col 2 via Row 4.
-  2. Go South to (2, 10).
-  3. Expect OPEN. Reach Director.
+  1. Bump (2, 10) to confirm closed.
+  2. If closed, go North to Switch 3 (2, 1).
+  3. Turn Switch 3 OFF.
+  4. Return to (2, 10) to check again.
 - **Reminder:** Bag is full.
 - **Reminder:** Bag is full.
