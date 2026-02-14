@@ -16,18 +16,19 @@
   - Current State: Switch 1 ON, Switch 3 ON.
   - Walls at Row 10 are blocking access to Director/Item.
 - Puzzle Status:
-  - Switch 3 (2, 1): ON.
-  - Switch 2 (10, 1): ON.
-  - Switch 1 (16, 1): ON.
-- Strategy: Testing Sequence 3 -> 2 -> 1.
-  - Current Action: Verify Shutters at Row 6 (y=6).
-  - Observation: (12, 6) is Closed (Wall).
-  - Next: Check (6, 6) and (3, 6).
+  - Switch 3 (2, 1): ON -> Turn OFF.
+  - Switch 2 (10, 1): ON -> Turn OFF.
+  - Switch 1 (16, 1): ON -> Turn OFF.
+- Strategy: Reset All, then Test Sequence 1 -> 2 -> 3.
+  - 3 -> 2 -> 1 failed (Shutters closed).
+  - New Hypothesis: "End" refers to Right End (Switch 1).
+- Execution:
+  1. Turn Switch 3 OFF.
+  2. Turn Switch 2 OFF.
+  3. Turn Switch 1 OFF.
+  4. Perform Sequence: 1 -> 2 -> 3.
 - Navigation:
-  - Move Left to (6, 5).
-- Clue Analysis:
-  - "End is First" -> Try 1 -> 2 -> 3 next if this fails.
-  - "Open one, another closes" -> Switches might be toggles.
+  - Currently at (6, 5). Heading to Switch 3 (2, 1).
 - Navigation:
   - From (9, 5) to Switch 2 at (10, 1).
 - Current Step: Navigating to Switch 3 (Step 2 of 1-3-2 Sequence). Path: West along Row 4.
