@@ -11,6 +11,7 @@
   5. Check Gate (2, 10) or (16, 10).
 
 # Switch Status (Current)
-- Sw1: ON
-- Sw2: OFF
-- Sw3: ON (About to turn OFF)
+- Sw1: ON (To be verified)
+- Sw2: OFF (Verified)
+- Sw3: OFF (Verified - kept it OFF)
+- Gate (6, 8): Checking status. (If Closed, Sw3 OFF closes it. If Open, Sw3 OFF opens it).
