@@ -2,7 +2,7 @@
 - **Goal:** Rescue Director (Real one).
 - **Status:**
   - Sw3: ON.
-  - Sw2: ON.
+  - Sw2: OFF.
   - Sw1: ON.
   - Gate (2, 10): Closed (Still closed with 1+2+3 ON).
 - Gate (10, 10): Closed (Confirmed).
