@@ -11,8 +11,10 @@
 - **Gate Check:**
   - (2, 10): Closed with ALL ON.
 - **Plan:**
-  1. Go to Switch 3 (2, 1).
-  2. Turn Sw3 OFF (Reset Complete).
-  3. Try Sequence: Sw3 -> Sw2 -> Sw1.
+  1. Turn Sw3 ON (In Progress).
+  2. Go to Sw2 (10, 1).
+  3. Turn Sw2 ON.
+  4. Go to Sw1 (16, 1).
+  5. Turn Sw1 ON.
 - **Hypothesis:** "End is the one to press first" -> Start with 3 or 1.
 - **Reminder:** Bag is full.
