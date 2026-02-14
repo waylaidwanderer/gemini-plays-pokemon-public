@@ -7,14 +7,14 @@
   - `1 Only` -> (10, 6) CLOSED.
   - `3 Only` -> (10, 6) CLOSED.
 - **Current Plan:** Test Sub-sequences.
-  - Theory: Maybe the sequence is just 2 steps?
-  - Current State: All ON.
-  - Step 1: Turn Sw1 OFF. (Result: Sw3 ON, Sw2 ON).
-  - Step 2: Check Gates.
-  - Step 3: If closed, go to Sw3 and Turn OFF (Result: Sw2 Only).
+  - Current State: Sw2 ON, Sw3 ON. Sw1 Status Uncertain.
+  - Check (12, 8):
+    - OPEN = Sw1 ON (Need to turn OFF).
+    - CLOSED = Sw1 OFF (Proceed to next test).
+  - Next Test: If (10, 6) Closed, turn Sw3 OFF -> Test Sw2 Only.
 
 # Switch Status
-- Sw1: ON (Turning OFF)
+- Sw1: UNKNOWN (Verifying)
 - Sw2: ON (Verified)
 - Sw3: ON (Verified)
-- **Goal:** Test State [3 ON, 2 ON, 1 OFF].
+- **Goal:** Find the combination that opens (10, 6).
