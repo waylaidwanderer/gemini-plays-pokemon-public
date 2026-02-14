@@ -1,12 +1,13 @@
-# Warehouse Switch Puzzle - Route Correction
-- **Finding:** The path via (12, 8) -> (9, 9) leads to a dead end at (9, 10) (Wall).
-- **New Strategy:** Explore the (6, 8) path which opened in state [Sw3 OFF, Sw2 ON, Sw1 ON].
-- **Hypothesis:** (6, 8) leads to (6, 12) -> (9, 12).
-- **Current State:** Sw3 ON, Sw2 OFF, Sw1 ON.
-- **Target State:** Sw3 OFF, Sw2 ON, Sw1 ON.
+# Warehouse Switch Puzzle - Internal Exploration
+- **Status:** Inside the corridor (Row 8).
+- **Position:** (12, 8).
+- **Situation:** (9, 10) is a wall. (12, 7) appears to be closed behind me (One-way?).
+- **Hypothesis:** Verify if Shutter (6, 8) is OPEN from the inside.
+- **Goal:** Reach (6, 8) and check path South.
+- **Contingency:** If (6, 8) is closed and (12, 7) is closed, I am trapped. Must use Trap (12, 9) to reset.
 
 ## Plan
-1. Exit current area: North to (9, 8) -> East to (12, 8) -> North to Main Hall.
-2. Turn Switch 2 ON.
-3. Turn Switch 3 OFF.
-4. Enter (6, 8) and go South.
+1. Move West to (6, 8).
+2. If Open, go South to (6, 12) -> Director.
+3. If Closed, verify (12, 7) is closed.
+4. If trapped, step on (12, 9).
