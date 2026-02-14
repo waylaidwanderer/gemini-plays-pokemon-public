@@ -16,15 +16,15 @@
   - Current State: Switch 1 ON, Switch 3 ON.
   - Walls at Row 10 are blocking access to Director/Item.
 - Puzzle Status:
-  - Switch 3 (2, 1): Status Unknown (Likely OFF).
+  - Switch 3 (2, 1): Turning ON. (Expected: Open Wall 6,8).
   - Switch 2 (10, 1): OFF. Wall (12, 8) is OPEN.
-  - Switch 1 (16, 1): ON. Wall (16, 7) is OPEN (Verified by system tile update).
+  - Switch 1 (16, 1): ON. Wall (16, 7) is OPEN (Verified).
 - Logic:
-  - Switch 1: ON = OPEN, OFF = CLOSED (Verified).
+  - Switch 1: ON = OPEN.
   - Switch 2: OFF = OPEN.
-  - Switch 3: OFF = CLOSED? ON = OPEN?
+  - Switch 3: ON = OPEN? (Testing).
 - Plan:
-  1. Go to Switch 3 (2, 1). Turn ON.
+  1. Confirm Switch 3 is ON.
   2. Go to Switch 2 (10, 1). Turn ON.
   3. Check walls (6, 8) and (12, 8).
   - Sequence Idea: 3 (ON) -> 2 (ON) -> 1 (ON).
