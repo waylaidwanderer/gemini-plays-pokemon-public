@@ -16,15 +16,14 @@
   - Current State: Switch 1 ON, Switch 3 ON.
   - Walls at Row 10 are blocking access to Director/Item.
 - Puzzle Status:
-  - Switch 3 (2, 1): OFF (Verified).
-  - Switch 2 (10, 1): ON -> Turn OFF.
+  - Switch 3 (2, 1): OFF.
+  - Switch 2 (10, 1): ON -> Turn OFF (Executing).
   - Switch 1 (16, 1): ON -> Turn OFF.
 - Strategy: Reset All, then Test Sequence 1 -> 2 -> 3.
-  - 3 -> 2 -> 1 failed.
   - New Hypothesis: Right End First (1 -> 2 -> 3).
 - Execution:
   1. Turn Switch 3 OFF (Done).
-  2. Turn Switch 2 OFF (Next).
+  2. Turn Switch 2 OFF (Executing).
   3. Turn Switch 1 OFF.
   4. Perform Sequence: 1 -> 2 -> 3.
 - Navigation:
