@@ -1,9 +1,10 @@
 # Warehouse Switch Puzzle - Recovery
 - **Target State:** [Sw3 OFF, Sw2 ON, Sw1 ON].
-- **Current Task:** Verification Tour.
+- **Current Task:** Entering Corridor.
 - **Switch 3:** Verified OFF (Turn 42216).
 - **Switch 2:** Verified ON (Turn 42189).
-- **Next:** Verify Switch 1 (Right).
+- **Switch 1:** Verified ON (Turn 42225).
+- **Next:** Enter via (12, 8).
 
 ## Plan
 1. Move to Switch 1 (16, 2).
