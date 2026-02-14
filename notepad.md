@@ -1,11 +1,12 @@
 # Underground Warehouse
 - **Goal:** Rescue Director.
 - **Status:**
-  - Sw3: OFF (Verified).
-  - Sw2: ON (Keeps (2, 6) OPEN).
-  - Sw1: ON (Just Turned ON).
+  - Sw3: OFF (Verified). **Note: Sw3 OFF CLOSES (6, 8) & (6, 9).**
+  - Sw2: ON (Opens (2, 6) and (10, 6)).
+  - Sw1: ON (Testing effect on (2, 10)).
 - **Plan:**
-  1. Defeat the Grunt (inevitable).
-  2. Check if this combination opens the path to the Director (9, 12).
-  3. If blocked, check other gates.
+  1. Go back to Row 4 via (10, 6).
+  2. Go West to (2, 6).
+  3. Check Gate (2, 10). If Open -> Director!
+  4. If Closed, try toggling Sw3 ON (at 2, 1).
 - **Reminder:** Bag is full.
