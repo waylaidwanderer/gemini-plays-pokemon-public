@@ -18,11 +18,12 @@
 - Puzzle Status:
   - Switch 3 (2, 1): ON (Verified Turn 41856). Step 1 Complete.
   - Switch 2 (10, 1): ON (Verified Turn 41859). Step 2 Complete.
-  - Switch 1 (16, 1): OFF (Verified Turn 41845). Target: Turn ON (Step 3).
+  - Switch 1 (16, 1): ON (Verified Turn 41865). Step 3 Complete.
 - Sequence Plan (End First, 3-2-1):
   1. Turn Switch 3 ON (Done).
   2. Turn Switch 2 ON (Done).
-  3. Turn Switch 1 ON (Next).
+  3. Turn Switch 1 ON (Done).
+  4. Check path to Director (Next).
   3. Turn Switch 1 ON.
   4. Check path to Director.
 - Current Step: Navigating to Switch 1 via Row 4 (avoiding Grunt at 11, 3).
