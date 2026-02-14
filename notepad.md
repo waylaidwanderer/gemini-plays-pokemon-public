@@ -1,7 +1,7 @@
 # Underground Warehouse
 - **Status:**
   - Sw1: ON.
-  - Sw2: OFF (Turning OFF now).
+  - Sw2: OFF.
   - Sw3: ON.
   - Goal: Reset all to OFF.
 - **Next Plan:**
