@@ -1,7 +1,7 @@
 # Underground Warehouse Strategy
-- **Correction:** Switch 3 is STILL OFF. (Pressed 'B' previously, cancelling action).
-- **Current Status:** Sw3 OFF, Sw2 OFF. All OFF.
-- **Action:** Turning Switch 3 ON (Attempt 3).
-- **Protocol:** Press 'A' explicitly to select YES. Do NOT press 'B'.
-- **Sequence:** [3 -> 2].
-- **Next:** Move to Switch 2.
+- **Status:** Switch 3 is ON (Verified). Switch 2 is OFF.
+- **Sequence:** [3 -> 2] in progress.
+- **Step 1:** Sw3 ON (Complete).
+- **Step 2:** Turn Sw2 ON.
+- **Action:** Moving to Switch 2 (10, 1).
+- **Hypothesis:** "End Switch First" means 3 -> 2 -> 1.
