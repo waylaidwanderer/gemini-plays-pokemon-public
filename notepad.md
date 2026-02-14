@@ -1,7 +1,10 @@
 # Underground Warehouse Strategy
-- **Current Status:** Sw3 ON, Sw2 OFF (Verified). Sw1 OFF.
-- **Action:** Interacting with Switch 2 to turn ON.
-- **Protocol:** Using ONLY 'A' presses to ensure I don't cancel the menu.
-- **Target State:** [Sw3 ON, Sw2 ON].
-- **Hypothesis:** This combo opens Gate (12, 8).
-- **Contingency:** If (10, 6) closes, I might be trapped. Use 'check_gate_states' to verify immediately.
+- **Status:** Trapped in Sw2 Room. (10, 6) CLOSED. (12, 8) CLOSED.
+- **Current State:** [Sw3 ON, Sw2 ON].
+- **Observation:** [ON, ON] fails to open East Gate.
+- **Plan: THE SEQUENTIAL RESET**
+  1. Turn Sw2 OFF. (Should open (2, 6) and (6, 4) passage).
+  2. Escape West to Sw3.
+  3. Turn Sw3 OFF. (Reset to All OFF).
+  4. Execute Sequence: Press 3 -> Press 2.
+- **Next:** Toggle Sw2 OFF.
