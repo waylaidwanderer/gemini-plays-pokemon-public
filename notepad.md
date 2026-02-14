@@ -18,12 +18,16 @@
 - Puzzle Status:
   - Switch 3 (2, 1): ON.
   - Switch 2 (10, 1): ON.
-  - Switch 1 (16, 1): ON (Verified).
+  - Switch 1 (16, 1): ON.
 - Strategy: Testing Sequence 3 -> 2 -> 1.
-  - Current Action: Verify Shutters.
-  - Observation: Check Shutters at (12, 8) and (6, 8).
+  - Current Action: Verify Shutters at Row 6 (y=6).
+  - Observation: (12, 6) is Closed (Wall).
+  - Next: Check (6, 6) and (3, 6).
 - Navigation:
-  - Move to (12, 5) and (6, 5) to check shutters.
+  - Move Left to (6, 5).
+- Clue Analysis:
+  - "End is First" -> Try 1 -> 2 -> 3 next if this fails.
+  - "Open one, another closes" -> Switches might be toggles.
 - Navigation:
   - From (9, 5) to Switch 2 at (10, 1).
 - Current Step: Navigating to Switch 3 (Step 2 of 1-3-2 Sequence). Path: West along Row 4.
