@@ -2,7 +2,7 @@
 - **Goal:** Rescue Director.
 - **Status:**
   - Sw3: ON (Verified).
-  - Sw2: OFF.
+  - Sw2: ON (Verified).
   - Sw1: OFF.
 - **Mechanics (Verified XML):**
   - Sw3 ON: Opens (16, 10), Closes (6, 8).
