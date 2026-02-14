@@ -8,14 +8,13 @@
   - **Hazard:** Trap Warp at (12, 9). Avoid!
 - **Hypothesis:** Switch 2 toggles West/East gates. OFF=East(16,6), ON=West(??).
 - **Status:**
-  - Sw3: ON (Verified).
-  - Sw2: ON (Verified).
+  - Sw3: ON (Just turned ON).
+  - Sw2: Likely ON (Toggled in Turn 42395).
   - Sw1: ON (Verified).
-- **Correction:** West Gate (6, 6) closed with Sw2=ON/Sw3=ON.
-- **Hypothesis:** Sw3 ON forces Sw2 ON. Need Sw3 OFF to control Sw2.
+- **Hypothesis:** Sw3 ON opens West Gates.
 - **Plan:**
-  1. Turn Switch 3 OFF (Reset).
-  2. Check Switch 2. If OFF, turn ON.
-  3. If West Gate still closed, toggle Switch 1.
+  1. Confirm Sw3 ON.
+  2. Go East to check West Gate at (6, 2) or (6, 6).
+  3. If closed, try Sw2=OFF.
 - **Reminder:** Bag is full.
 - **Reminder:** Bag is full.
