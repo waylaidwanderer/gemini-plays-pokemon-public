@@ -11,11 +11,13 @@
   - Sw3: ON (Verified).
   - Sw2: OFF (Verified).
   - Sw1: ON (Verified).
-- **Hypothesis:** Sw3 ON + Sw2 OFF = All West Gates Open.
+- **Observation:** (6, 6) is Closed. (6, 8) is Open.
+- **Deduction:** Sw3 ON opens Bottom Gates, closes Top Gates.
 - **Plan:**
-  1. Go West to (6, 4).
-  2. Check Gate (6, 6).
-  3. If open, go South past (6, 8) to Director (9, 12).
-  4. Note: Rival Silver is at (4, 8).
+  1. Go East to Center Path (12, 4).
+  2. Go South to (12, 8).
+  3. Go East to (16, 8) (Avoid Trap at 12, 9).
+  4. Go South through Open Gate (16, 10).
+  5. Reach Director (9, 12).
 - **Reminder:** Bag is full.
 - **Reminder:** Bag is full.
