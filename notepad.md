@@ -4,7 +4,9 @@
 - **Switch 3:** Verified OFF (Turn 42216) (Marker says ON - Conflict).
 - **Switch 2:** Verified ON (Turn 42189).
 - **Switch 1:** Verified ON (Turn 42238).
-- **Next:** Inspect shutter at (12, 8) from (11, 8). Then Switch 3 if closed.
+- **Next:** Inspect shutter at (12, 8).
+- **Correction:** Crossed via (12, 5), not (12, 8).
+- **Plan:** If (12, 8) open, go East to (16, 10).
 
 ## Plan
 1. Move to Switch 1 (16, 2).
