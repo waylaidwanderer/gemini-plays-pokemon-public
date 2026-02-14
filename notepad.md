@@ -15,19 +15,18 @@
   - Need to find "Switch 2" or the correct sequence.
   - Current State: Switch 1 ON, Switch 3 ON.
   - Walls at Row 10 are blocking access to Director/Item.
-- Puzzle Reset in Progress:
+- Puzzle Status:
   - Switch 3 (2, 1): OFF (Verified).
   - Switch 2 (10, 1): OFF (Verified).
-  - Switch 1 (16, 1): ON (Target: Turn OFF).
-- Goal: Reset all to OFF, then execute sequence 3 -> 2 -> 1.
-- Clue: "End is the one to press first" (Switch 3).
-- Battle: Rocket Grunt at (16, 2).
-- Plan after battle:
-  1. Turn Switch 1 OFF.
-  2. Turn Switch 3 ON.
-  3. Turn Switch 2 ON.
-  4. Turn Switch 1 ON.
-  5. Check path to Director.
+  - Switch 1 (16, 1): Turning OFF (Reset Complete).
+- Plan:
+  1. Execute Sequence: Switch 3 (ON) -> Switch 2 (ON) -> Switch 1 (ON).
+  2. Check path to Director.
+- Logic:
+  - "End First" = Start with 3.
+  - "Change Order" = Sequential.
+  - Expectation: 3 Opens (6,8), 2 Opens (12,8), 1 Opens (16,7). But wait, 2 OFF opened (12,8)...
+  - Let's just try 3->2->1 and see what opens.
 - Clues:
   - "End is the one to press first" -> Switch 3.
   - "Change the order" -> Sequence matters.
