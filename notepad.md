@@ -1,15 +1,17 @@
 # Underground Warehouse
 - **Goal:** Rescue Director (Real one).
 - **Status:**
-  - Sw3: OFF (Likely).
+  - Sw3: ON.
   - Sw2: OFF.
-  - Sw1: ON.
+  - Sw1: OFF (Just turned off).
+- **Observation:**
+  - Sw3 ON + Sw2 OFF + Sw1 ON -> (16, 10) CLOSED.
 - **Plan:**
-  1. Turn Sw1 OFF (Reset).
-  2. Verify Sw3 is OFF.
-  3. Execute Sequence: Sw3 ON -> Sw2 ON.
-  4. Check Gate (2, 10).
-- **Hypothesis:** Sw1 ON might be keeping (2, 10) closed? Or Order matters.
+  1. Verify Switch 1 is OFF.
+  2. Check if (16, 6) is still open.
+  3. Go check/reset Switch 3 to OFF (Full Reset).
+  4. Try Sequence: 3 -> 2 -> 1 (or 1 -> 2 -> 3).
+  5. Check Gates (16, 10) and (2, 10).
 - **Mechanics:**
   - Sw3 ON: Opens (16, 10), Opens (6, 8).
   - Sw3 OFF: (2, 10) is CLOSED.
