@@ -3,7 +3,7 @@
 - Shutters to Monitor: (3, 6), (6, 8), (12, 8).
 
 ## Current State
-- Switch 3 (2, 1): ON (Executing).
+- Switch 3 (2, 1): ON (Verified).
 - Switch 2 (10, 1): OFF (Verified).
 - Switch 1 (16, 1): ON (Verified).
 
@@ -20,7 +20,7 @@
 2. Baseline Established - Done.
 3. Switch 1 ON - Done.
 4. Test Switch 3 ON (with 1 ON) -> Inspect (Executing).
-   - Turn Switch 3 ON.
-   - Check (3, 6).
+   - Turn Switch 3 ON (Done).
+   - Check (3, 6) (Next).
    - Check (6, 8).
 5. If no change, Turn Switch 3 OFF and proceed to Switch 2.
