@@ -2,10 +2,10 @@
 - **Goal:** Rescue Director (Real one).
 - **Status:**
   - Sw1: OFF.
-  - Sw3: ON (Step 1 Done).
-  - Sw2: ON (Step 2 Done - Confirmed).
-  - Sequence: 3 -> 2 -> 1 (Next).
-- **Action:** moving to Switch 1 (Right End).
+  - Sw3: ON (Step 1).
+  - Sw2: ON (Step 2).
+  - Gate (10, 6): OPEN! (Sw3 + Sw2).
+- **Action:** Exploring South past Gate (10, 6).
 - **Gates Check:**
   - Checking (10, 6)...
 - **Clue:** "Start with the end switch."
