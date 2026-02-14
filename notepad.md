@@ -6,10 +6,10 @@
   - Sw1: ON.
   - Duncan (Imposter) defeated at (9, 12).
 - **Plan:**
-  1. Turn Sw3 ON (Opens path to South).
-  2. Turn Sw2 OFF (Hypothesis: Opens (2, 10)).
-  3. Go East via (16, 6).
-  4. Circle around to South (2, 10).
+  1. Find Switch 3 (Check (3, 1) or (1, 1)).
+  2. Turn Sw3 ON.
+  3. Go to Switch 2 (10, 1) and turn OFF.
+  4. Go to Gate (2, 10).
   5. Loot Item at (1, 12).
   6. Find Real Director.
 - **Mechanics:**
