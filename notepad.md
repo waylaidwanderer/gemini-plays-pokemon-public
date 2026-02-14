@@ -1,12 +1,11 @@
 # Underground Warehouse
 - **Goal:** Rescue Director (Real one).
 - **Status:**
-  - Sw1: Uncertain (Thought ON, might be OFF).
+  - Sw1: OFF (Highly Likely).
   - Sw2: ON.
-  - Sw3: Turning ON now.
-  - Sequence: 1(?) -> 2 -> 3.
-- **Correction:** Switch 3 was actually OFF (Action cancelled previously).
+  - Sw3: ON (Just turned ON).
+  - State: Sw2 + Sw3 ON (Sw1 OFF).
+- **Hypothesis:** This state opened (10, 6) and (6, 8). Does it open (2, 10)?
 - **Plan:**
-  1. Turn Sw3 ON.
-  2. Check Gate (2, 10).
-  3. If closed, go check Switch 1 status.
+  1. Check Gate (2, 10).
+  2. If closed, go turn Sw1 ON (Complete 1->2->3).
