@@ -6,8 +6,8 @@
   - Sw2: ON (Verified).
   - Sw1: ON (Verified).
 - **Plan:**
-  1. Walk East to (16, 5).
-  2. Check if Wall at (16, 6)/(16, 7) is OPEN.
-  3. If OPEN, go South to Row 12, then West to Director.
-  4. If CLOSED, reconsider Switch combination.
+  1. Go to Switch 2 (10, 1).
+  2. Toggle Switch 2 OFF.
+  3. Check if Gate at (16, 6) opens.
+  4. If not, try Switch 3.
 - **Reminder:** Bag is full.
