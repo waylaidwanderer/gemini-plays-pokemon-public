@@ -27,7 +27,7 @@
   5. Check path to Director.
   3. Turn Switch 1 ON.
   4. Check path to Director.
-- Current Step: Navigating to Switch 1 via Row 4 (avoiding Grunt at 11, 3).
+- Current Step: Resetting Switch 3 to OFF (Moving around Grunt).
 - Clues:
   - "End is the one to press first" -> Switch 3.
   - "Change the order" -> Sequence matters.
