@@ -4,15 +4,10 @@
   - Sw3: ON.
   - Sw2: ON.
   - Sw1: ON.
-  - Gates Checked (All ON):
-    - (10, 6): Open.
-    - (10, 10): Closed.
-    - (12, 8): Closed.
-    - (6, 8): Open.
-    - (6, 10): Checking...
+  - Gates (Row 10): All Closed (Visual).
 - **Plan:**
-  1. Check Gate (6, 10).
-  2. If Open: Go South to Director.
-  3. If Closed: Check Gate (2, 10) from inside.
-  4. If all blocked: Backtrack and try Sw3 OFF or Sw1 OFF.
-- **Hypothesis:** Need to open a path on Row 10.
+  1. Turn Sw2 OFF.
+  2. Turn Sw1 OFF.
+  3. Result State: Sw3 ON, Sw2 OFF, Sw1 OFF.
+  4. Check East Path (16, 6) -> (16, 10).
+- **Hypothesis:** Sw1 ON blocked (16, 10). Sw2 OFF opens (16, 6).
