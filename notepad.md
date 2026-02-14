@@ -11,8 +11,9 @@
   3. Re-test `3 -> 1 -> 2` carefully, checking gates at each step.
 
 # Switch Status (Current)
-- Sw1: OFF (Verified)
+- Sw1: ON (Verified)
 - Sw2: OFF (Verified)
 - Sw3: ON (Verified)
-- Effect of Sw3 ON: Opens Gate (2, 6). Gate (6, 8) remains CLOSED.
-- Goal: Continue Sequence 3 -> 1 -> 2. Next: Turn Sw1 ON.
+- Effect of Sw3 ON: Opens Gate (2, 6).
+- Effect of Sw3+Sw1 ON: Opens Gate (12, 8). Gate (10, 6) CLOSED.
+- Goal: Continue Sequence 3 -> 1 -> 2. Next: Turn Sw2 ON.
