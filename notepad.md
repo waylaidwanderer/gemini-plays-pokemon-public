@@ -7,9 +7,10 @@
 - **Trap Warning:**
   - (15, 1) is a TRAP WARP. Do not step on it!
   - Stepping on (15, 1) warps to (15, 4) (Trap Room).
-- **Plan:**
-  1. Escape Trap Room (How?).
-  2. Approach Sw1 (16, 1) from the East side (via Sw3 gate).
+- **Escape Plan:**
+  1. Check Bolin for Strength/Rock Smash.
+  2. Try to push/break crates.
+  3. If failed, investigate walls for hidden switches.
 - **Mechanics (Verified XML):**
   - Sw3 ON: Opens (16, 10), Closes (6, 8).
   - Sw2 ON: Opens (2, 6), Closes (16, 6).
