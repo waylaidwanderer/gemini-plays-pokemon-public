@@ -4,10 +4,10 @@
   - Sw3: ON.
   - Sw2: OFF.
   - Sw1: ON.
-  - Gate (10, 6): Checking...
-  - Gate (16, 6): Checking...
+  - Gate (16, 6): Closed (Confirmed with Sw3 ON, Sw2 OFF, Sw1 ON).
+  - Gate (10, 6): Closed.
+- **Hypothesis:** Sequence 3 -> 2 -> 1 failed. The clue "End Switch First" might mean Switch 1 (Right End).
 - **Plan:**
-  1. Turn Switch 2 OFF (Try configuration: Sw3 ON, Sw2 OFF, Sw1 ON).
-  2. Check Gate (16, 6) (My notes say Sw2 OFF opens this).
-  3. If open, explore East side (Target: Rocket Grunt F at 19, 12).
-- **Hypothesis:** "End Switch First" = Switch 3.
+  1. Turn Switch 1 OFF.
+  2. Go to Switch 3 and turn OFF (Reset All).
+  3. Try Sequence: Switch 1 -> Switch 2 -> Switch 3.
