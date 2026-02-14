@@ -16,17 +16,17 @@
   - Current State: Switch 1 ON, Switch 3 ON.
   - Walls at Row 10 are blocking access to Director/Item.
 - Puzzle Status:
-  - Switch 3 (2, 1): Turning ON. (Expected: Open Wall 6,8).
+  - Switch 3 (2, 1): Turned OFF. (Was ON, Wall 6,8 was CLOSED).
   - Switch 2 (10, 1): OFF. Wall (12, 8) is OPEN. (Verified).
   - Switch 1 (16, 1): ON. Wall (16, 7) is OPEN.
 - Logic:
-  - Switch 3 controls Wall (6, 8). ON = OPEN.
+  - Switch 3 controls Wall (6, 8). OFF = OPEN (Hypothesis).
   - Switch 2 controls Wall (12, 8). OFF = OPEN.
   - Switch 1 controls Wall (16, 7). ON = OPEN.
 - Plan:
-  1. Turn Switch 3 ON.
+  1. Confirm Switch 3 is OFF.
   2. Verify Wall (6, 8) is OPEN.
-  3. Enter through (6, 8) or (12, 8) and find path to Director (9, 12).
+  3. Enter through (6, 8) and find path to Director (9, 12).
 - Reflection (Turn 41696):
   - Current Status: Heading to Middle Area (11, 3).
   - Hypothesis: Switch 2 is in Row 1, between x=6 and x=12.
