@@ -16,17 +16,22 @@
   - Current State: Switch 1 ON, Switch 3 ON.
   - Walls at Row 10 are blocking access to Director/Item.
 - Puzzle Status:
-  - Switch 3 (2, 1): Status Unknown (Likely OFF/Reset needed).
+  - Switch 3 (2, 1): Status Unknown (Likely OFF).
   - Switch 2 (10, 1): OFF. Wall (12, 8) is OPEN.
-  - Switch 1 (16, 1): Toggling to OFF. (Expect Wall 16, 7 to CLOSE).
+  - Switch 1 (16, 1): Currently OFF (Wall 16,7 OPEN). Turning ON (expect Close).
+- Logic:
+  - Switch 1: OFF = OPEN, ON = CLOSED (Hypothesis).
+  - Switch 2: OFF = OPEN (Verified).
+  - Switch 3: OFF = CLOSED? ON = CLOSED? (Needs sequencing).
 - Plan:
-  1. Toggle Switch 1 OFF.
-  2. Confirm Wall (16, 7) is CLOSED.
-  3. Go to Switch 3 (2, 1).
-  4. Execute Sequence: Switch 3 -> Switch 2 -> Switch 1 (if needed).
-- Clue Interpretation:
-  - "End is the one to press first" -> Start with Switch 3.
-  - "Change the order" -> Order matters.
+  1. Turn Switch 1 ON (Close Wall 16,7).
+  2. Go to Switch 3 (2, 1). Turn ON.
+  3. Go to Switch 2 (10, 1). Turn ON.
+  4. Check walls.
+  - Sequence Idea: 3 (ON) -> 2 (ON) -> 1 (OFF)?
+- Clues:
+  - "End is the one to press first" -> Switch 3.
+  - "Change the order" -> Sequence matters.
 - Reflection (Turn 41747):
   - 50-turn review: Lots of running, need systematic testing.
   - Risk: Locking myself in North area. Acceptable, as all switches are there.
