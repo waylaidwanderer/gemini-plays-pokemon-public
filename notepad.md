@@ -3,11 +3,10 @@
 - **Status:**
   - Sw3: ON.
   - Sw2: OFF.
-  - Sw1: ON.
-  - Gate (16, 6): Closed (Confirmed with Sw3 ON, Sw2 OFF, Sw1 ON).
-  - Gate (10, 6): Closed.
-- **Hypothesis:** Sequence 3 -> 2 -> 1 failed. The clue "End Switch First" might mean Switch 1 (Right End).
+  - Sw1: OFF.
 - **Plan:**
-  1. Turn Switch 1 OFF.
-  2. Go to Switch 3 and turn OFF (Reset All).
-  3. Try Sequence: Switch 1 -> Switch 2 -> Switch 3.
+  1. Go to Switch 3 and turn OFF (Reset All to OFF).
+  2. Verify Switch 2 is OFF.
+  3. Execute Sequence: Switch 3 -> Switch 2 -> Switch 1 (Wait, I just tried 3-2-1?).
+  4. NO. The clue is "End switch first". I tried 3 -> 2 -> 1 and it failed.
+  5. Try Sequence: Switch 1 -> Switch 2 -> Switch 3.
