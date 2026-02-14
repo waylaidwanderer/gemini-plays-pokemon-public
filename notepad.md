@@ -1,12 +1,12 @@
 # Underground Warehouse
 - **Goal:** Rescue Director (Real one).
 - **Status:**
-  - Sw1: ON.
+  - Sw1: OFF (Reset Complete).
   - Sw3: OFF.
   - Sw2: OFF.
-  - Goal: Turn Sw1 OFF (Reset Complete).
-- **Hypothesis:** Sequence 1 -> 2 -> 3 (Right to Left).
+  - Goal: Sequence 1 -> 2 -> 3.
+- **Hypothesis:** "End Switch" = Right End (Sw1).
 - **Plan:**
-  1. Go to Sw1.
-  2. Turn Sw1 OFF.
-  3. Execute 1 -> 2 -> 3.
+  1. Turn Sw1 ON.
+  2. Turn Sw2 ON.
+  3. Turn Sw3 ON.
