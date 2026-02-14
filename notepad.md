@@ -3,10 +3,9 @@
 - **Status:**
   - Sw3: ON.
   - Sw2: OFF.
-  - Sw1: ON (Turning OFF).
+  - Sw1: OFF (Just turned OFF).
 - **Plan:**
-  1. Verify Gate (16, 6) is Open (Sw2 OFF effect).
-  2. Turn Sw1 OFF.
-  3. Result: Sw3 ON, Sw2 OFF, Sw1 OFF.
-  4. Check Gates along East Path (Col 16).
-- **Hypothesis:** Sw3 ON + Sw2 OFF + Sw1 OFF = East Path Open?
+  1. Check Gate (16, 10).
+  2. If Open: Go South -> West to Director/Item.
+  3. If Closed: Re-evaluate.
+- **Hypothesis:** Sw3 ON + Sw2 OFF + Sw1 OFF opens East Path completely.
