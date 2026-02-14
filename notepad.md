@@ -5,9 +5,11 @@
   - Sw3: ON (Verified).
   - Sw2: ON (Verified).
   - Sw1: ON (Verified).
+  - Path at (12, 8) & (12, 9) OPENED (Verified by System).
 - **Plan:**
-  1. Check if the sequence 3->2->1 opened the path to the Director.
-  2. Navigate out of the alcove (try moving through Grunt or checking walls).
+  1. Go Down to (15, 6) (Push crate if needed).
+  2. Go West to (12, 6).
+  3. Go South through (12, 8) to reach the Director.
 - **Mechanics (Verified XML):**
   - Sw3 ON: Opens (16, 10), Closes (6, 8).
   - Sw2 ON: Opens (2, 6), Closes (16, 6).
