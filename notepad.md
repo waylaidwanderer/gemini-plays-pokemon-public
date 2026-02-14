@@ -19,10 +19,13 @@
   - Switch 3 (2, 1): ON (Verified Turn 41892). Action: Turn OFF (Reset).
   - Switch 2 (10, 1): OFF (Verified Turn 41895). Reset Complete.
   - Switch 1 (16, 1): ON (Verified Turn 41886). Action: Turn OFF (Reset).
-- New Sequence Plan (Ends First: 3-1-2?):
-  1. Reset all to OFF.
-  2. Get Clue from Grunt at (11, 3).
-  3. Try 3 -> 1 -> 2.
+- New Sequence Plan (Test 3-1-2):
+  1. Turn Switch 1 OFF.
+  2. Turn Switch 3 OFF.
+  3. Turn Switch 3 ON (Step 1).
+  4. Turn Switch 1 ON (Step 2).
+  5. Turn Switch 2 ON (Step 3).
+  6. Check Path.
   3. Turn Switch 3 ON.
   4. Check path to Director.
   3. Turn Switch 1 ON.
