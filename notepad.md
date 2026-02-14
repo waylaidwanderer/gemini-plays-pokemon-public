@@ -1,12 +1,13 @@
-# Warehouse Switch Puzzle - Active
-- Clue: "The switch on the end is the one to press first." -> Switch 3 (Left).
-- Current State: Sw3 ON, Sw2 OFF, Sw1 OFF.
-- Assumption: Switch 1 is OFF (Toggled in Turn 42110).
-- Goal: Move South through (6, 6) to (6, 8).
+# Warehouse Switch Puzzle - Solution
+- Tile Types: `TYPE_3fe2` = Walkable (Blue Floor). `TYPE_2889` = Solid (Metal Plate).
+- Mechanic: Switch 1 OFF closed Shutter 2 at (6, 8) (Changed 3fe2 -> 2889).
+- Deduction: Switch 1 MUST BE ON to open Shutter 2.
+- Conflict: Switch 1 ON also opens Shutter 1 (Trap Path).
+- Solution: Turn Switch 1 ON, but ignore Shutter 1. Go through Shutter 2.
 
 ## Plan
-1. Move South to (6, 8).
-2. If path is clear, engage Trainer at (4, 8).
-3. Check (6, 9) for traps.
-4. Reach Director (9, 12).
-5. If blocked again, re-verify Switch 1 state.
+1. Go to Switch 1 (16, 1).
+2. Turn Switch 1 ON.
+3. Verify Shutter 2 (6, 8) opens (becomes `TYPE_3fe2`).
+4. Enter Shutter 2.
+5. Proceed to Director (9, 12).
