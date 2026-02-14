@@ -6,9 +6,9 @@
   - Sw1: ON.
   - PATH OPENED: (10, 10) & (10, 11) are now Floor.
   - Reached (10, 12).
-  - NPC at (9, 12) is a BURGLAR (Eddie?), not the Director (or is impersonating him).
+  - NPC at (9, 12) is BURGLAR DUNCAN.
 - **Plan:**
-  1. Defeat the Burglar.
+  1. Defeat Duncan.
   2. Talk to him again or find the real Director.
   3. Loot item at (2, 12).
 - **Mechanics:**
