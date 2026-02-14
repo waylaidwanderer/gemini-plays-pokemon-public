@@ -6,10 +6,11 @@
   - Sw2: OFF (Verified).
   - Sw1: ON (Verified).
   - **Hazard:** Trap Warp at (12, 9). Avoid!
+- **Investigation:** Need to find path through Row 10 on West side.
 - **Plan:**
-  1. Go North to Row 8 (Use Row 8 to cross West safely).
-  2. Go West to Col 9.
-  3. Go South to Director (9, 12).
-  4. Get Card Key.
+  1. Go West along Row 8/9.
+  2. Inspect (6, 8) and Row 10 (West side).
+  3. Find open gate or switch to open West path.
+  4. Reach Director (9, 12).
 - **Reminder:** Bag is full.
 - **Reminder:** Bag is full.
