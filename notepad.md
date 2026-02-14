@@ -28,3 +28,5 @@
   - Hypothesis: Switch 2 is in Row 1, between x=6 and x=12.
   - Clue Interpretation: "End is the one to press first" -> Could mean Switch 3 (Left End) or Switch 1 (Right End).
   - Plan: Find Switch 2. Then try sequence: Reset All OFF -> Press 3 -> Press 2 -> Press 1.
+- Turn 41725: Defeated Burglar Eddie at (3, 2). Resuming plan to toggle Switch 3 (2, 1).
+- Note: Burglars might not move when spotting you? Or he was blocked. Either way, pathing around him.
