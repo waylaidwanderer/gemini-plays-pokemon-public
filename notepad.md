@@ -7,7 +7,7 @@
   - Duncan (Imposter) defeated at (9, 12).
 - **Plan:**
   1. Go South in West Corridor.
-  2. Check Item at (2, 12).
+  2. Check Item at (1, 12).
   3. Search for Real Director.
 - **Mechanics:**
   - Sw3 ON: Opens (16, 10), Opens (6, 8).
