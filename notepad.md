@@ -12,6 +12,6 @@
 
 # Switch Status (Current)
 - Sw1: ON
-- Sw2: ON (Turning OFF)
+- Sw2: OFF (Verified)
 - Sw3: OFF
-- Goal: Reset all to OFF.
+- Goal: Reset all to OFF. Next: Turn Sw1 OFF.
