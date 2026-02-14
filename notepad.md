@@ -1,18 +1,18 @@
-# Warehouse Switch Puzzle - Solved
-- Path Identified: Switch 1 ON opens (12, 8). Row 10 is a horizontal corridor connecting Column 12 to Column 9.
-- Route: Enter at (12, 8) -> South to (12, 10) -> West to (9, 10) -> South to Director at (9, 12).
-- Correction: (12, 13) is a Wall (TYPE_3fe2).
-- Correction: Row 10 is Floor (TYPE_2889).
+# Warehouse Switch Puzzle - Trap Detected
+- **Trap Confirmed:** Tile (12, 9) warps the player to (12, 5).
+- **Implication:** The path through Shutter 1 (12, 8) is blocked by a trap.
+- **Alternative:** Try the path through Shutter 2 (6, 8).
+- **Hypothesis:** Switch 3 (ON) opens Shutter 2. Row 10 connects Column 6 to Column 9.
 
 ## Current State
 - Switch 3 (2, 1): ON.
 - Switch 2 (10, 1): OFF.
 - Switch 1 (16, 1): ON.
-- Shutter (12, 8): Open.
+- Shutter (12, 8): Open (Trap behind it).
+- Shutter (6, 8): Should be Open.
 
 ## Plan
-1. Navigate to (9, 11) via (12, 10).
-2. Talk to Director.
-3. If successful, investigate Item at (15, 12).
-- Warp Alert: Stepping into the corridor past Shutter 1 (Column 12) seems to warp to (9, 5). Suspect tile (12, 10) or (12, 9).
-- Plan: Approach (12, 9) cautiously to pinpoint the warp trigger.
+1. Navigate to (6, 8).
+2. Check if (6, 9) is safe.
+3. If safe, proceed to (6, 10) -> (9, 10) -> Director (9, 12).
+4. If (6, 9) is a trap, reconsider "Switch Order" clue.
