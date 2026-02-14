@@ -9,8 +9,10 @@
 - Gate (12, 8): Closed (Visual confirm).
 - Gate (12, 9): Closed (Visual confirm).
 - Gate (6, 8): OPEN.
-- **Hypothesis:** 1->2->3 opened West Gate (6, 8). Maybe 1->3->2 opens East?
+- **Hypothesis:** 1->2->3 opened West Gate (6, 8).
+- **Goal:** Open East Gate (16, 6) or Central (10, 6).
 - **Plan:**
-  1. Exit West through (6, 8).
-  2. Go to Switch 2 and turn OFF (Test 1 & 3 ON).
-  3. Turn Switch 2 ON (Test order 1 -> 3 -> 2).
+  1. Navigate to Switch 2 (10, 1).
+  2. Turn Switch 2 OFF, then ON (Sequence: 1 -> 3 -> 2).
+  3. Check Gates.
+- **Note:** Card Key is likely a reward from the Director, not a prerequisite.
