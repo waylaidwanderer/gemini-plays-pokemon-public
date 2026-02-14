@@ -1,6 +1,6 @@
 # Underground Warehouse Strategy
-- **Status:** Switch 3 is ON. Switch 2 was ON (Unexpected), turning OFF.
-- **Hypothesis:** Switch 2 ON = Gate Closed? Testing OFF state.
+- **Status:** Switch 3 is ON. Switch 2 is OFF (Corrected).
+- **Action:** Turning Switch 2 ON to progress sequence.
 - **Sequence:** [3 -> 2] in progress.
 - **Step 1:** Sw3 ON (Complete).
 - **Step 2:** Turn Sw2 ON.
