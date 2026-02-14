@@ -7,8 +7,8 @@
   - Gate (10, 6): OPEN.
   - Gate (6, 8): OPEN.
   - Gate (12, 8): CLOSED.
-- **Action:** Navigating West Wing (Silver at 4,8).
-- **Plan:** Go around Silver to explore West.
+- **Action:** Checking Gate (2, 10).
+- **Plan:** If (2, 10) closed, return to Central Hub.
 - **Gates Check:**
   - Checking (10, 6)...
 - **Clue:** "Start with the end switch."
