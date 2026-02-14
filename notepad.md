@@ -17,7 +17,7 @@
   - Walls at Row 10 are blocking access to Director/Item.
 - Puzzle Status:
   - Switch 3 (2, 1): ON. (Verified).
-  - Switch 2 (10, 1): OFF. Wall (12, 8) is OPEN.
+  - Switch 2 (10, 1): ON. (Verified).
   - Switch 1 (16, 1): ON. Wall (16, 7) is OPEN (Verified).
 - Logic:
   - Switch 1: ON = OPEN.
