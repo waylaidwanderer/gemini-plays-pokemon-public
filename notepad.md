@@ -6,3 +6,8 @@
   2. Check if (2, 6) Opens (to access Sw3) and (10, 6) stays Open (to exit Sw2 room).
   3. If trapped, toggle Sw2 ON immediately.
   4. If (2, 6) opens, go to Sw3 -> Turn OFF. Then return to Sw2 -> Turn ON.
+- Suspicion: Did I cancel the toggle in Turn 43452 with 'B'?
+- Checking Switch 2 text now.
+- If ON -> Turn OFF.
+- If OFF -> Leave OFF.
+- Goal: Reset all to OFF.
