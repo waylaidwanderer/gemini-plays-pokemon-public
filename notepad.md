@@ -2,12 +2,14 @@
 - **Goal:** Rescue Director.
 - **Status:**
   - Sw3: ON.
-  - Sw2: OFF (Verified).
+  - Sw2: OFF (Map shows (2, 6) OPEN, (16, 6) CLOSED).
   - Sw1: ON.
-- **New Hypothesis:**
-  - Sw2 OFF -> (16, 6) OPEN.
-  - Sw1 ON -> (16, 7) & (12, 8) OPEN.
-  - Path: (10, 2) -> (16, 2) -> South to (16, 8) -> West to (12, 8) -> South to Director.
+  - (12, 8) is CLOSED (Wall).
+  - (2, 10) is CLOSED (Wall).
+- **New Plan:**
+  1. Toggle Sw3 (Target: Open (2, 10)).
+  2. If (2, 10) opens, go South along x=2 to Director.
+- **Mechanics (Verified XML):**
 - **Plan:**
   1. Turn Sw2 OFF.
   2. Go to Sw1 area.
