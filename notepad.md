@@ -1,9 +1,9 @@
 # Underground Warehouse
 - **Status:**
-  - Sw1: ON (Step 2 Complete).
-  - Sw2: OFF.
-  - Sw3: ON (Step 1 Complete).
-  - Goal: Sequence 3 -> 1 -> 2.
+  - Sw1: ON.
+  - Sw2: ON (Sequence 3->1->2 Complete).
+  - Sw3: ON.
+  - Goal: Check if this sequence opens the correct path.
 - **Next Plan:**
-  1. Go to Sw2. Turn ON.
-  2. Check Gates.
+  1. Check Central Gate (10, 6).
+  2. Explore accessible areas.
