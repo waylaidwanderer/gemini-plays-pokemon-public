@@ -1,14 +1,16 @@
 # Underground Warehouse
 - **Goal:** Rescue Director (Real one).
 - **Status:**
-  - Sw1: OFF.
+  - Sw1: ON (Sequence Complete).
   - Sw3: ON.
   - Sw2: ON.
-  - Gate (2, 10): CLOSED (Confirmed).
-  - Gate (6, 8): OPEN.
-  - Gate (10, 6): OPEN.
-- **Action:** Going to turn Switch 1 ON (Sequence 3->2->1).
-- **Path:** East past Silver, through (6, 8), Up to (16, 1).
+  - Sequence: 3 -> 2 -> 1.
+- **Action:** Checking results.
+- **Gates Status:**
+  - (10, 6): was OPEN (Sw3+Sw2).
+  - (6, 8): was OPEN (Sw3+Sw2).
+  - (2, 10): was CLOSED.
+  - (12, 8): was CLOSED.
 - **Gates Check:**
   - Checking (10, 6)...
 - **Clue:** "Start with the end switch."
