@@ -3,12 +3,12 @@
 - **Status:**
   - Sw3: OFF (Verified).
   - Sw2: OFF.
-  - Sw1: ON (Target: Turn OFF).
-  - All gates assumed closed/resetting.
-- **Plan (Reset & Retry):**
-  1. Go to Sw1 and Turn OFF.
-  2. Verify all gates closed (baseline).
-  3. Try Sequence: Sw3 (ON) -> Sw2 (ON) -> Sw1 (ON).
+  - Sw1: ON.
+  - SYSTEM ALERT: (12, 8) & (12, 9) changed to WALKABLE (Floor).
+- **New Plan:**
+  1. Go to (12, 8).
+  2. If open, go South to reach Director.
+  3. If blocked, resume reset plan.
 - **Mechanics (Verified XML):**
 - **Mechanics (Verified XML):**
 - **Plan:**
