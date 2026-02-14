@@ -18,13 +18,13 @@
 - Puzzle Status:
   - Switch 3 (2, 1): ON.
   - Switch 2 (10, 1): ON.
-  - Switch 1 (16, 1): OFF.
+  - Switch 1 (16, 1): ON (Executing).
 - Strategy: Testing Sequence 3 -> 2 -> 1.
-  - Current Check: Shutter (3, 6) is Closed (Visual Confirm).
-  - Next Step: Turn Switch 1 ON (Complete 3-2-1).
-  - On the way: Check Shutters at (6, 6) and (12, 6).
+  - Current Action: Turn Switch 1 ON.
+  - Observation: Check Shutters at (12, 8) and (6, 8).
 - Navigation:
-  - Move East to Switch 1 (16, 1).
+  - Interact with Switch 1.
+  - Move West to check shutters.
 - Navigation:
   - From (9, 5) to Switch 2 at (10, 1).
 - Current Step: Navigating to Switch 3 (Step 2 of 1-3-2 Sequence). Path: West along Row 4.
