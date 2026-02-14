@@ -1,7 +1,7 @@
 # Underground Warehouse
 - **Goal:** Rescue Director.
 - **Status:**
-  - Sw3: OFF (Reset).
+  - Sw3: ON (Verified).
   - Sw2: OFF.
   - Sw1: OFF.
 - **Mechanics (Verified XML):**
