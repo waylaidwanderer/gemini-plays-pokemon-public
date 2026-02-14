@@ -4,15 +4,12 @@
 - **Status:**
   - Sw3: OFF (Verified).
   - Sw2: OFF (Verified - Gate (16,6) OPEN).
-  - Sw1: OFF (Testing).
-  - **Obstacle:** Wall at (16, 10) blocks direct path south.
-  - **Hazard:** Trap Warp at (12, 9).
-- **Hypothesis:** Switch 1 acts as a toggle. ON opens (12, 8), OFF might open (16, 10).
+  - Sw1: OFF (Verified - Gate (16,10) CLOSED).
+- **Hypothesis:** Switch 3 controls Gate (16, 10).
 - **Plan:**
-  1. Go North to Switch 1 (16, 1).
-  2. Toggle Switch 1 OFF.
-  3. Verify (16, 6) remains OPEN (controlled by Sw2).
-  4. Check if Wall at (16, 10) opens.
-  5. If open, proceed South to Director.
+  1. Turn Switch 1 ON (Reset).
+  2. Go West to Switch 3 (2, 1).
+  3. Turn Switch 3 ON.
+  4. Return to Col 16 and head South.
 - **Reminder:** Bag is full.
 - **Reminder:** Bag is full.
