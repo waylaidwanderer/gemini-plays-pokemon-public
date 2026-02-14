@@ -6,14 +6,14 @@
   - `3 -> 2 -> 1`: (2, 6) & (12, 8) OPEN.
   - `1 -> 2 -> 3`: (2, 6) & (12, 8) OPEN.
 - **Current Execution:**
-  - Found Sw2 unexpectedly ON.
-  - Action: Turn Sw2 OFF, then turn Sw2 ON to simulate the final step of `3 -> 1 -> 2`.
-  - Current State: Sw3 ON, Sw1 ON, Sw2 ON (Transitioning to OFF).
+  - Sequence: 3 (ON) -> 1 (ON) -> 2 (OFF -> ON)
+  - Current State: Sw3 ON, Sw1 ON, Sw2 ON (Just turned ON).
+  - Next Step: Check Gate at (10, 6).
 
 # Switch Status (Current)
 - Sw1: ON (Verified)
-- Sw2: ON (Unexpected - Correcting to OFF)
+- Sw2: ON (Just turned ON)
 - Sw3: ON (Verified)
 - Effect of Sw3 ON: Opens Gate (2, 6).
 - Effect of Sw3+Sw1 ON: Opens Gate (12, 8). Gate (10, 6) CLOSED.
-- Goal: Toggle Sw2 (OFF -> ON).
+- Goal: Verify if (10, 6) is OPEN.
