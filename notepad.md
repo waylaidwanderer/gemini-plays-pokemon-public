@@ -3,10 +3,8 @@
 - **Status:**
   - Sw1: OFF.
   - Sw2: ON.
-  - Sw3: ON.
-  - Gate (2, 10): CLOSED (Confirmed).
-- **Hypothesis:** Sequence 3->2->1 opened East (Dead End?). Sequence 1->2->3 might open West.
+  - Sw3: OFF (Turning OFF now).
+  - Gate (2, 10): CLOSED.
 - **Plan:**
-  1. Turn Sw3 OFF.
-  2. Turn Sw2 OFF.
-  3. Execute 1 -> 2 -> 3 (Right to Left).
+  1. Turn Sw2 OFF.
+  2. Execute 1 -> 2 -> 3 (Right to Left).
