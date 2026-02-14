@@ -1,11 +1,16 @@
-# Underground Warehouse State
-- **Current Status:** Sw3 is ON. Sw2 is Likely OFF (based on 12,8 being Closed).
-- **Gate Status (Verified XML Turn 43443):**
+# Underground Warehouse Strategy
+- **Current Status:** Sw3 is ON. Sw2 is ON (Turned ON Turn 43446).
+- **Gate Status (Verified XML Turn 43449):**
   - (10, 6) OPEN (Middle).
   - (6, 8) OPEN.
-  - (12, 8) CLOSED (East Access).
-- **Goal:** Open (12, 8) to reach East Section.
-- **Plan:**
-  1. Move to Switch 2 (10, 1).
-  2. Toggle Switch 2 (Should turn ON).
-  3. Verify (12, 8) opens.
+  - (12, 8) CLOSED.
+- **Analysis:**
+  - My notes said [Sw3 ON, Sw2 ON] opens (12, 8).
+  - XML says (12, 8) is CLOSED with [Sw3 ON, Sw2 ON].
+  - Contradiction! Either Switch 2 is NOT ON, or the combo is wrong.
+  - Text at Switch 3 said "It's ON".
+  - I heard a "Click" at Switch 2, implying it toggled.
+- **New Plan: Total Reset.**
+  - Turn Sw2 OFF.
+  - Turn Sw3 OFF.
+  - Execute "End Switch First" strategy: Press 3, then 2, then 1.
