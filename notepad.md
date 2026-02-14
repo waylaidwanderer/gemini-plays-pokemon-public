@@ -9,9 +9,11 @@
   - Step 1: Reset All to OFF. (Done).
   - Step 2: Turn Sw3 ON. (Done).
   - Step 3: Turn Sw2 ON. (Done).
-  - Step 4: Turn Sw1 ON. (Next).
+  - Step 4: Turn Sw1 ON. (Done).
 
 # Switch Status
-- Sw1: OFF (Verified)
-- Sw2: ON (Just turned ON)
+- Sw1: ON (Just turned ON)
+- Sw2: ON (Verified)
 - Sw3: ON (Verified)
+- **State:** All ON.
+- **Goal:** Check if (10, 6) opens with this specific order.
