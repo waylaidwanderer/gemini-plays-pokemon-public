@@ -1,10 +1,10 @@
 # Underground Warehouse Strategy
-- **Current Status:** At Switch 2 (10, 2). Sw3 OFF. Sw2 ON.
-- **Immediate Action:** Turn Switch 2 OFF.
-- **Goal:** All Switches OFF (Reset).
-- **Sequence Plan (End Switch First):**
-  1. Turn Sw3 ON.
-  2. Turn Sw2 ON.
-  3. Turn Sw1 ON (if reached).
-  4. Check Director Room.
-- **Note:** Verify "It's OFF" text before moving.
+- **CRITICAL DISCOVERY:** Switch 2 was OFF. Switch 3 is OFF.
+- **Current State:** ALL OFF.
+- **Goal:** Execute Sequence 3 -> 2. (End Switch First).
+- **Plan:**
+  1. Cancel Sw2 interaction (Keep OFF).
+  2. Go to Sw3 -> Turn ON.
+  3. Return to Sw2 -> Turn ON.
+  4. Check Gate (12, 8).
+- **Rationale:** Previous attempts failed due to incorrect state tracking. This is a clean run.
