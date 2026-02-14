@@ -4,13 +4,11 @@
 - **Status:**
   - Sw3: ON (Verified).
   - Sw2: ON (Verified).
-  - Sw1: Check if OFF (Going to verify).
+  - Sw1: OFF (Verified).
 - **Hypothesis:** Sw1 OFF opens West Bottom Gate (2, 10).
-- **Reasoning:** Last attempt to toggle might have failed or been cancelled. Verifying before long walk.
 - **Plan:**
-  1. Go to Switch 1.
-  2. If ON, turn OFF.
-  3. Go to (2, 10) via Row 4.
-  4. Reach Director.
+  1. Go West to Col 2 via Row 4.
+  2. Go South to (2, 10).
+  3. Expect OPEN. Reach Director.
 - **Reminder:** Bag is full.
 - **Reminder:** Bag is full.
