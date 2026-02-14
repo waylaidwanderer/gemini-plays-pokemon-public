@@ -2,10 +2,12 @@
 - **Goal:** Rescue Director (Real one).
 - **Status:**
   - Sw1: OFF.
-  - Sw2: ON.
-  - Sw3: OFF (Confirmed).
-  - Gate (2, 10): CLOSED.
-- **Action:** Moving to Sw2 to turn OFF.
+  - Sw2: OFF (Turning OFF now).
+  - Sw3: OFF.
+  - Goal: All OFF.
+- **Next Sequence:** 1 -> 2 -> 3 (Right to Left).
 - **Plan:**
-  1. Turn Sw2 OFF.
-  2. Execute 1 -> 2 -> 3 (Right to Left).
+  1. Go to Switch 1 (16, 1).
+  2. Turn Sw1 ON.
+  3. Go to Switch 2. Turn ON.
+  4. Go to Switch 3. Turn ON.
