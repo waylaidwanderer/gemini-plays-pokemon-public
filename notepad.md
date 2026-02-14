@@ -1,14 +1,11 @@
 # Underground Warehouse
 - **Status:**
   - Sw1: ON.
-  - Sw2: ON.
+  - Sw2: OFF.
   - Sw3: ON.
-  - Gate (2, 10): CLOSED (Verified via XML).
-  - Gate (12, 8): CLOSED (XML).
-  - Gate (16, 10): CLOSED (XML).
-  - Gate (2, 6): Unverified visual (XML says Closed, but logic suggests Open).
+  - Goal: Reset Sw3 to OFF, then execute Sequence 1 -> 3 -> 2.
 - **Next Plan:**
-  1. Check Gate (2, 6).
-  2. If Open, go to Switch 3 (Reset).
-  3. If Closed, go to Switch 2.
-  4. Goal: Reset all to OFF, then try Sequence 1 -> 3 -> 2.
+  1. Go to Switch 3 (via Gate 6,8 which is open due to Sw3 ON).
+  2. Turn Switch 3 OFF.
+  3. Turn Switch 3 ON (Step 2 of Sequence).
+  4. Turn Switch 2 ON (Step 3 of Sequence).
