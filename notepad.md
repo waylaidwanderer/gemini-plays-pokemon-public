@@ -1,10 +1,10 @@
 # Warehouse Switch Puzzle - Recovery
-- **Target State:** [Sw3 OFF, Sw2 ON, Sw1 ON].
+- **Target State (Hypothesis):** [Sw3 OFF, Sw2 ON, Sw1 ON].
 - **Current Task:** Entering Corridor.
-- **Switch 3:** Verified OFF (Turn 42216).
+- **Switch 3:** Verified OFF (Turn 42216) (Marker says ON - Conflict).
 - **Switch 2:** Verified ON (Turn 42189).
 - **Switch 1:** Verified ON (Turn 42238).
-- **Next:** Inspect shutter at (12, 8) from (13, 8). Then Switch 3 if closed.
+- **Next:** Inspect shutter at (12, 8) from (11, 8). Then Switch 3 if closed.
 
 ## Plan
 1. Move to Switch 1 (16, 2).
