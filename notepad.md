@@ -2,15 +2,15 @@
 - Objective: Rescue Director (Underground Warehouse 3_54).
 - Puzzle Status:
   - Switch 3 (2, 1): OFF (Verified).
-  - Switch 2 (10, 1): Unknown (Verifying).
+  - Switch 2 (10, 1): OFF (Action: Turned OFF).
   - Switch 1 (16, 1): ON (Likely).
 - Observation:
-  - (3, 6) CLOSED.
-  - (12, 8) OPEN.
+  - With 2 ON, (3, 6) was CLOSED.
+  - Now 2 is OFF.
 - Hypothesis:
-  - Switch 2 is OFF.
-  - Goal state: 1 ON, 2 ON, 3 OFF.
+  - Maybe 2 needs to be OFF?
+  - Or maybe I need to re-input the sequence 1->2->3?
 - Next Steps:
-  1. Navigate to Switch 2 (10, 2).
-  2. Turn Switch 2 ON.
-  3. Verify (3, 6) opens.
+  1. Check (3, 6) with Switch 2 OFF.
+  2. If closed, turn Switch 2 ON (Sequence 1->2).
+  3. Check (3, 6).
