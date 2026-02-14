@@ -15,19 +15,19 @@
   - Need to find "Switch 2" or the correct sequence.
   - Current State: Switch 1 ON, Switch 3 ON.
   - Walls at Row 10 are blocking access to Director/Item.
-- Puzzle Status:
-  - Switch 3 (2, 1): ON. (Verified).
-  - Switch 2 (10, 1): ON. (Verified).
-  - Switch 1 (16, 1): ON. Wall (16, 7) is OPEN (Verified).
-- Logic:
-  - Switch 1: ON = OPEN.
-  - Switch 2: OFF = OPEN.
-  - Switch 3: ON = OPEN? (Testing).
-- Plan:
-  1. Leave Switch 3 ON (cancel menu).
-  2. Go to Switch 2 (10, 1). Turn ON.
-  3. Check walls (6, 8) and (12, 8).
-  - Sequence Idea: 3 (ON) -> 2 (ON) -> 1 (ON).
+- Puzzle Solved!
+  - Switch 3 (2, 1): ON -> Opens Wall (6, 8).
+  - Switch 2 (10, 1): OFF -> Opens Wall (12, 8). (Currently ON, so Wall is Closed).
+  - Switch 1 (16, 1): ON -> Opens Wall (16, 7).
+- Current State: All Switches ON.
+  - Wall (6, 8) is OPEN.
+  - Wall (12, 8) is CLOSED.
+  - Wall (16, 7) is OPEN.
+- Path to Director:
+  - Through Wall (6, 8).
+  - West to x=3.
+  - South through gap at (3, 10).
+  - East to Director (9, 12).
 - Clues:
   - "End is the one to press first" -> Switch 3.
   - "Change the order" -> Sequence matters.
