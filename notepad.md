@@ -6,9 +6,10 @@
   - Sw1: ON.
   - Gate (2, 10): Closed.
   - Gate (10, 6): Open.
-  - Gate (6, 8): Open.
+  - Path (10, 10): Checking availability.
 - **Plan:**
-  1. Go East to (10, 6).
-  2. Go South to (6, 11).
-  3. Go West to Item (1, 12) & Director.
-- **Insight:** (2, 10) might be an exit only? Taking the scenic route.
+  1. Go South to (10, 9).
+  2. Verify if (10, 10) is passable.
+  3. If blocked, check West path (6, 8) -> (6, 10).
+  4. If all South paths blocked, backtrack to switches.
+- **Hypothesis:** All ON opens central area, but maybe blocks exit?
