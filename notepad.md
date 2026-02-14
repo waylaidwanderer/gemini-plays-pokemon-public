@@ -2,12 +2,8 @@
 - **Target State (Hypothesis):** [Sw3 OFF, Sw2 ON, Sw1 ON].
 - **Current Task:** Entering Corridor.
 - **Switch 3:** Verified OFF (Turn 42216) (Marker says ON - Conflict).
-- **Switch 2:** Verified ON (Turn 42189).
-- **Switch 1:** Verified ON (Turn 42238).
-- **Status:** Shutter at (6, 8) is CLOSED.
-- **Hypothesis:** Switch 2 might control (6, 8).
-- **Action:** Go to Switch 2 (10, 1), toggle it, then check (6, 8).
-- **Plan:** Open (6, 8) -> Go Left -> Go South to Director.
+- **Switch 2:** Verified ON (Turn 42252). Toggled OFF.
+- **Next:** Check shutter at (6, 8).
 
 ## Plan
 1. Move to Switch 1 (16, 2).
