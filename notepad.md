@@ -1,5 +1,7 @@
 # Underground Warehouse Strategy
-- **Current Status:** Sw3 ON (Turning ON now). Sw2 OFF.
-- **Sequence:** [3 -> 2]. Step 1 Complete.
-- **Next Action:** Move to Switch 2 -> Turn ON.
-- **Hypothesis:** Sequence 3->2 (End Switch First) opens the East Gate.
+- **Correction:** Switch 3 is STILL OFF. (Pressed 'B' previously, cancelling action).
+- **Current Status:** Sw3 OFF, Sw2 OFF. All OFF.
+- **Action:** Turning Switch 3 ON (Attempt 3).
+- **Protocol:** Press 'A' explicitly to select YES. Do NOT press 'B'.
+- **Sequence:** [3 -> 2].
+- **Next:** Move to Switch 2.
