@@ -11,7 +11,7 @@
 | Switch | State | (3,6) | (6,8) | (12,8) | Other |
 |--------|-------|-------|-------|--------|-------|
 | All    | OFF   | Closed | Closed | Closed | (16, 7) Closed |
-| 1      | ON    | ?     | ?     | Open   | (16, 7) Open |
+| 1      | ON    | ?     | Closed | Open   | (16, 7) Open |
 | 2      | ON    | ?     | ?     | ?      | ? |
 | 3      | ON    | ?     | ?     | ?      | ? |
 
@@ -21,6 +21,7 @@
 3. Test Switch 1 ON -> Inspect (Executing).
    - Turn ON (Done).
    - Confirmed: (12, 8) Open, (16, 7) Open.
-   - Check (6, 8) and (3, 6) (Next).
+   - Confirmed: (6, 8) Closed.
+   - Check (3, 6) (Next).
 4. Test Switch 2 ON -> Inspect.
 5. Test Switch 3 ON -> Inspect.
