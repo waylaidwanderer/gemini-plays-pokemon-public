@@ -13,6 +13,8 @@
   - (3, 10) is CLOSED.
   - Path to Director via x=3 is BLOCKED.
 - Next Steps:
+  - Confirm (3, 6) is Open.
+  - Confirm (3, 10) is Closed.
   - Re-evaluate Sequence.
   - Try 1+2+3 ON again? Or maybe 2+3? or 1+3?
   - Check other paths (x=12, x=6).
