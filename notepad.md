@@ -11,12 +11,13 @@
   - Sw3: ON (Verified).
   - Sw2: OFF (Verified).
   - Sw1: ON (Verified).
-- **Observation:** (6, 6) is Closed. (6, 8) is Open.
-- **Deduction:** Sw3 ON opens Bottom Gates, closes Top Gates.
+- **Gate Logic:**
+  - Sw3 ON: Opens Bottom Gates (16,10), (6,8). Closes Top Gates?
+  - Sw1 ON: Opens Center Path (12,8).
 - **Plan:**
-  1. Go East to Center Path (12, 4).
-  2. Go South to (12, 8).
-  3. Go East to (16, 8) (Avoid Trap at 12, 9).
+  1. Go East to Center Path (12, 8).
+  2. MANUALLY Go Right to (13, 8) to avoid Trap at (12, 9).
+  3. Go East to (16, 8).
   4. Go South through Open Gate (16, 10).
   5. Reach Director (9, 12).
 - **Reminder:** Bag is full.
