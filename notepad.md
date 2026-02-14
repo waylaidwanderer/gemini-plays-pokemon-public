@@ -1,18 +1,17 @@
 # Warehouse Strategy
 - Objective: Rescue Director (Underground Warehouse 3_54).
 - Puzzle Status:
-  - Switch 3 (2, 1): ON (Verified).
+  - Switch 3 (2, 1): ON -> Turn OFF.
   - Switch 2 (10, 1): ON.
   - Switch 1 (16, 1): ON.
-- Observations:
-  - Switch 1+2 ON -> (3, 6) is OPEN.
-  - Switch 3 ON -> Expect (3, 10) to OPEN.
-- Strategy (Right End First):
-  1. Reset All to OFF (Done).
-  2. Switch 1 ON (Done).
-  3. Switch 2 ON (Done).
-  4. Switch 3 ON (Done).
-  5. Check if (3, 10) opens.
-- Next Action:
-  - Walk South through (3, 6) to (3, 10).
-  - If open, proceed to Director at (9, 12).
+- Strategy Update:
+  - Switch 3 ON closed (3, 6) (Blocked).
+  - Must Turn Switch 3 OFF to re-open (3, 6).
+  - Then check (3, 10).
+- Hypotheses:
+  - 1+2 ON = Path Open?
+  - Need to verify (3, 10) with 1+2 ON.
+- Next Steps:
+  1. Turn Switch 3 OFF.
+  2. Verify (3, 6) Open.
+  3. Navigate to (3, 10).
