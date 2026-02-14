@@ -2,7 +2,7 @@
 - **Goal:** Rescue Director (Real one).
 - **Status:**
   - Sw3: ON.
-  - Sw2: OFF.
+  - Sw2: ON.
   - Sw1: OFF.
 - **Plan:**
   1. Go to Switch 2 (10, 1) and turn it ON.
