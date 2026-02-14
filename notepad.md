@@ -6,5 +6,8 @@
   - Sw2: ON.
   - Sequence: 3 -> 2 -> 1.
   - Gate (10, 6): OPEN.
-- **Action:** Entering Central Area via (10, 6).
-- **Goal:** Find Real Director.
+- **Action:** Checking Gate (12, 8).
+- **Plan:**
+  1. Try East Gate (12, 8).
+  2. If open -> Go to (16, 10) -> South -> Director.
+  3. If closed -> Go check West Gate (2, 10).
