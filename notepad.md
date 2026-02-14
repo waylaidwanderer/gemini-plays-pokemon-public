@@ -4,8 +4,9 @@
   - Sw3: ON.
   - Sw2: ON.
   - Sw1: ON.
-  - Gate (6, 8): OPEN (Confirmed!).
+  - Gate (2, 10): Closed (Still closed with 1+2+3 ON).
+- Gate (6, 8): OPEN (Confirmed!).
 - **Plan:**
-  1. Go through Gate (6, 8).
-  2. Check Gate (10, 6) (Central).
-  3. Explore the East side/Director's Room.
+  1. Navigate past Silver (via Row 9).
+  2. Go through Gate (6, 8).
+  3. Check Gate (10, 6).
