@@ -16,15 +16,17 @@
   - Current State: Switch 1 ON, Switch 3 ON.
   - Walls at Row 10 are blocking access to Director/Item.
 - Puzzle Status:
-  - Switch 3 (2, 1): Status Uncertain. No toggle prompt received? Wall (6, 8) is CLOSED.
-  - Switch 2 (10, 1): OFF. Wall (12, 8) is OPEN. (Verified).
+  - Switch 3 (2, 1): Status Unknown (Likely OFF/Reset needed).
+  - Switch 2 (10, 1): OFF. Wall (12, 8) is OPEN.
   - Switch 1 (16, 1): ON. Wall (16, 7) is OPEN.
-- Logic:
-  - Switch 3 might be inactive or I missed the prompt.
-  - Plan: Reset Switch 1 to OFF, then try Switch 3 again.
-- Clues:
-  - "End is the one to press first".
-  - Need to verify full text from Grunt at (11, 3).
+- Plan:
+  1. Go to Switch 1 (16, 1).
+  2. Turn Switch 1 OFF (Reset).
+  3. Ensure Switch 2 and 3 are OFF.
+  4. Execute Sequence: Switch 3 -> Switch 2 -> Switch 1.
+- Notes:
+  - Grunt at (17, 2) guards Switch 1. Expect Battle.
+  - "End is the one to press first" -> Starting with 3 (Left End).
 - Reflection (Turn 41696):
   - Current Status: Heading to Middle Area (11, 3).
   - Hypothesis: Switch 2 is in Row 1, between x=6 and x=12.
