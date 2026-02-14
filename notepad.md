@@ -16,5 +16,5 @@
 # Switch Status (Current)
 - Sw1: OFF (Verified)
 - Sw2: OFF (Verified)
-- Sw3: ON
-- Goal: Reset all to OFF. Next: Turn Sw3 OFF.
+- Sw3: OFF (Verified)
+- Goal: Start Sequence 1 -> 2 -> 3. Target: Sw1 (16, 1).
