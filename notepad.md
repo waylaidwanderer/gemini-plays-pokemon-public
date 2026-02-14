@@ -1,13 +1,11 @@
 # Underground Warehouse
 - **Goal:** Rescue Director (Real one).
 - **Status:**
-  - Sw1: ON (Kept ON for Step 1).
+  - Sw1: ON.
+  - Sw2: ON (Just turned ON).
   - Sw3: OFF.
-  - Sw2: OFF.
-  - Sequence: 1 (Done) -> 2 -> 3.
+  - Sequence: 1 -> 2 -> 3.
 - **Hypothesis:** "End Switch" = Right End (Sw1).
 - **Plan:**
-  1. Go to Sw2.
-  2. Turn Sw2 ON.
-  3. Go to Sw3.
-  4. Turn Sw3 ON.
+  1. Turn Sw3 ON.
+  2. Check gates (2, 10), (6, 8), (10, 6).
