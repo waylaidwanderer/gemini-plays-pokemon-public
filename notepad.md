@@ -1,14 +1,19 @@
 # Underground Warehouse
 - **Goal:** Rescue Director.
 - **Status:**
-  - Sw3: ON.
-  - Sw2: OFF (Map shows (2, 6) OPEN, (16, 6) CLOSED).
+  - Sw3: ON (Target: Turn OFF).
+  - Sw2: OFF.
   - Sw1: ON.
-  - (12, 8) is CLOSED (Wall).
-  - (2, 10) is CLOSED (Wall).
-- **New Plan:**
-  1. Toggle Sw3 (Target: Open (2, 10)).
-  2. If (2, 10) opens, go South along x=2 to Director.
+  - (2, 6) is CLOSED (Wall in XML).
+  - (2, 10) is CLOSED (Wall in XML).
+- **Correction:**
+  - Previous note about (2, 6) being OPEN was false. XML shows Wall.
+  - Previous note about (12, 8) being OPEN was false. XML shows Wall.
+- **Plan (Reset & Retry):**
+  1. Turn Sw3 OFF.
+  2. Go to Sw1 and Turn OFF (Reset all to OFF).
+  3. Try Sequence: Sw3 -> Sw2 -> Sw1.
+  4. If that fails, try Sw1 -> Sw2 -> Sw3.
 - **Mechanics (Verified XML):**
 - **Plan:**
   1. Turn Sw2 OFF.
