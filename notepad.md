@@ -2,7 +2,7 @@
 - Objective: Find the Director in Underground Warehouse (3_54).
 - Puzzle Status:
   - Switch 3 (2, 1): OFF.
-  - Switch 2 (10, 1): OFF (Verified).
+  - Switch 2 (10, 1): OFF.
   - Switch 1 (16, 1): ON -> Target: OFF.
 - Strategy (Right End First Hypothesis):
   1. Reset All to OFF.
