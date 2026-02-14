@@ -22,9 +22,10 @@
 - Toggling Sw3 ON. Target State: [Sw3 ON, Sw2 ON, Sw1 OFF].
 - Goal: Check if this opens (2, 10) or any other gate, even if (10, 6) is closed.
 - [Sw3 ON, Sw2 ON, Sw1 OFF] -> (10, 6) CLOSED, (16, 6) CLOSED, (6, 8) CLOSED.
-- Correction: (6, 8) was CLOSED with Sw3 ON.
-- Plan: Toggle Sw3 OFF. Hypothesis: Sw3 OFF opens (6, 8).
-- If (6, 8) opens, bypass Silver -> Reach East Section.
+- Correction: (6, 8) is CLOSED with Sw3 ON.
+- Confirmed: (6, 8) was OPEN with Sw3 OFF (Initial State).
+- Plan: Toggle Sw3 OFF -> (6, 8) Opens.
+- Then Path: (6, 8) -> Bypass Silver -> East Section.
 - Path Found: (2, 6) [Open] -> Row 9 (Bypass Rival) -> (12, 8) [Open] -> East Section.
 - Goal: Reach East Section to find Director or Key.
 - Note: Avoid (12, 9) Trap Warp.
