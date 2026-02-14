@@ -6,11 +6,10 @@
   - Sw1: ON.
   - Duncan (Imposter) defeated at (9, 12).
 - **Plan:**
-  1. Go through Open Gate at (3, 6).
-  2. Explore West Side.
-  3. Check Gate at (2, 10) for Item.
-  4. Search for Real Director.
+  1. Go South in West Corridor.
+  2. Check Item at (2, 12).
+  3. Search for Real Director.
 - **Mechanics:**
-  - Sw3 ON: Opens (16, 10), Opens (6, 8) (Correction).
-  - Sw2 ON: Opens (3, 6) & (3, 7) (Corrected), Closes (16, 6) & Opens (10, 6).
+  - Sw3 ON: Opens (16, 10), Opens (6, 8).
+  - Sw2 ON: Opens (2, 6), (3, 6), (2, 7), (3, 7). Closes (16, 6) & Opens (10, 6).
   - Sw1 ON: Opens (16, 7) & (12, 8).
