@@ -1,16 +1,11 @@
 # Underground Warehouse
 - **Goal:** Rescue Director.
-- **New Hypothesis:** Sw2 controls Top Gates (OFF=East, ON=West). Sw1 controls Bottom Gates (or Center)? Sw3 overrides everything.
-- **Reflection:** Menu defaults to 'NO'. Must press UP.
 - **Status:**
-  - Sw3: OFF (Turning OFF now - Attempt 2).
-  - Sw2: ON (Verified).
-  - Sw1: OFF (Verified).
-- **Hypothesis:** Sw1 OFF + Sw3 OFF opens West Bottom Gate (2, 10).
+  - Sw3: ON (Keeps (6, 8) and (6, 9) OPEN).
+  - Sw2: ON (Keeps (2, 6) OPEN).
+  - Sw1: OFF (Presumed).
 - **Plan:**
-  1. Turn Switch 3 OFF (Select YES).
-  2. Go South to Gate (2, 6) - Expect OPEN (Sw2=ON).
-  3. Go South to Gate (2, 10) - Expect OPEN (Sw1=OFF + Sw3=OFF?).
-  4. Reach Director.
-- **Reminder:** Bag is full.
+  1. Go South to (2, 9).
+  2. Go East through (6, 9) to cross to East Side.
+  3. Locate Switch 1 (at 16, 1) or path to Director.
 - **Reminder:** Bag is full.
