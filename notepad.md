@@ -4,8 +4,9 @@
   - Sw3: ON.
   - Sw2: ON.
   - Sw1: OFF.
+  - Gate (10, 6): Closed (Confirmed with 3+2 ON).
 - **Plan:**
-  1. Go to Switch 2 (10, 1) and turn it ON.
-  2. Check Gates (Does 3+2 open anything?).
-  3. If needed, turn Switch 1 ON (Sequence: 3 -> 2 -> 1).
+  1. Turn Switch 1 ON (Completing 3 -> 2 -> 1 sequence).
+  2. Check Gate (10, 6) and Gate (16, 6).
+  3. If still closed, try other orders.
 - **Hypothesis:** "End Switch First" = Switch 3.
