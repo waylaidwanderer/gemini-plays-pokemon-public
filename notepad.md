@@ -1,9 +1,10 @@
-# Warehouse Switch Puzzle - Final Execution
-- **State:** [Sw3 OFF, Sw2 ON, Sw1 ON].
-- **Status:** Engaging Trainer at (4, 8).
-- **Goal:** Defeat Trainer, then move East to (6, 8) and South to Director.
+# Warehouse Switch Puzzle - Solved
+- **Method:** [Sw3 OFF, Sw2 ON, Sw1 ON] opened the shutters at Col 2/3.
+- **Route:** South via Column 3 -> East on Row 12 -> Director.
+- **Status:** Moving to Director.
 
 ## Plan
-1. Defeat Trainer.
-2. Move East to (6, 8).
-3. Move South to Director (9, 12).
+1. Move South to (3, 12).
+2. Move East to (9, 12).
+3. Talk to Director.
+4. Get Card Key.
