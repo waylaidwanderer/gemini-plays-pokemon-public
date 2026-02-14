@@ -10,7 +10,7 @@
   6. Check Gate (2, 10).
 
 # Switch Status (Current)
-- Sw1: OFF (Verified)
-- Sw2: ON (Just turned ON)
+- Sw1: ON (Just turned ON)
+- Sw2: ON (Verified)
 - Sw3: ON (Verified)
-- Goal: Go to Sw1 (16, 1) to turn ON.
+- Goal: Check Gate Status (All ON, Sequence 3->2->1).
