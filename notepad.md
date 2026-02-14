@@ -9,13 +9,15 @@
 - **Hypothesis:** Switch 2 toggles West/East gates. OFF=East(16,6), ON=West(??).
 - **Status:**
   - Sw3: ON (Verified).
-  - Sw2: Likely ON.
+  - Sw2: ON (Verified).
   - Sw1: ON (Verified).
-- **Observation:** System report: (6, 8) changed to Open.
+- **Observation:** (6, 8) is OPEN (Bottom Gate). (6, 6) is CLOSED (Top Gate).
+- **Hypothesis:** Sw3 ON opens Bottom Gates. Sw2 OFF opens Top Gates.
+- **Problem:** Sw3 ON turned Sw2 ON automatically.
 - **Plan:**
-  1. Go East to (6, 4).
-  2. Check Gate (6, 6) and (6, 8).
-  3. Go South to Director (9, 12).
-  4. Avoid Rival at (4, 8) by staying on Col 6.
+  1. Confirm (6, 6) is closed (Bump).
+  2. Go to Switch 2 (10, 1).
+  3. Turn Switch 2 OFF (Override the automatic toggle).
+  4. Check if (6, 6) opens.
 - **Reminder:** Bag is full.
 - **Reminder:** Bag is full.
