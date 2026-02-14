@@ -1,11 +1,11 @@
 # Warehouse Switch Puzzle - Solution Testing
-- State: Sw1 ON, Sw2 OFF, Sw3 ON (Just turned ON).
+- State: Sw1 ON, Sw2 OFF, Sw3 ON (Turning ON now).
 - Hypothesis: Switch 3 ON opens (3, 6).
-- Rationale: "Switch on the end" (Sw3) is the key. Sw2 OFF prevents blockage. Sw1 ON keeps target open.
+- Logic: "Switch on the end first" -> Sw3. Sw2 OFF prevents (3, 6) closure. Sw1 ON keeps (6, 8) open.
 - Route: Check (3, 6). If Open -> South -> East -> Director.
 
 ## Plan
-1. Confirm "YES" to turn Switch 3 ON.
+1. Turn Switch 3 ON (Press A multiple times).
 2. Move to (3, 5).
 3. Check Shutter (3, 6).
-4. If Open, GO!
+4. If Open, proceed. If Closed, I am officially confused.
