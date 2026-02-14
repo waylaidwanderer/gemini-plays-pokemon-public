@@ -11,11 +11,11 @@
   - Sw3: ON (Verified).
   - Sw2: Likely ON.
   - Sw1: ON (Verified).
-- **Hypothesis:** Sw3 ON opens West Gates (Col 6).
+- **Observation:** System report: (6, 8) changed to Open.
 - **Plan:**
-  1. Go to (6, 5).
-  2. Check if Gate (6, 6) is OPEN.
-  3. If open, proceed South to Director.
-  4. If closed, re-evaluate linkage (Maybe Sw2 needs to be OFF?).
+  1. Go East to (6, 4).
+  2. Check Gate (6, 6) and (6, 8).
+  3. Go South to Director (9, 12).
+  4. Avoid Rival at (4, 8) by staying on Col 6.
 - **Reminder:** Bag is full.
 - **Reminder:** Bag is full.
