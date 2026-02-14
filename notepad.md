@@ -33,3 +33,11 @@
 - Toggled Sw3 OFF (Turn 43403).
 - Expectation: (6, 8) becomes OPEN.
 - Next: Go to (6, 8).
+- Current State [Sw3 OFF, Sw2 ON, Sw1 OFF]:
+  - (6, 8) OPEN.
+  - (12, 8) OPEN.
+  - (10, 10) OPEN.
+  - (10, 6) CLOSED.
+  - (2, 10) CLOSED.
+  - (16, 6) CLOSED.
+- Confirmed Path: (6, 8) -> East.
