@@ -18,13 +18,13 @@
 - Puzzle Status:
   - Switch 3 (2, 1): ON (To Be Reset).
   - Switch 2 (10, 1): OFF (Verified Turn 41968).
-  - Switch 1 (16, 1): ON (To Be Reset).
+  - Switch 1 (16, 1): OFF (Verified Turn 41975).
 - Strategy: Scientific Method. Reset ALL to OFF. Then Test Switch 3.
   - Goal: Clear the board to ground truth.
 - Execution:
   1. Turn Switch 2 OFF (Done).
-  2. Turn Switch 1 OFF (Executing).
-  3. Turn Switch 3 OFF.
+  2. Turn Switch 1 OFF (Done).
+  3. Turn Switch 3 OFF (Executing).
   4. Turn Switch 3 ON.
   5. Check Shutter at (6, 8).
 - Navigation:
