@@ -1,15 +1,14 @@
 # Underground Warehouse
 - **Goal:** Rescue Director.
-- **Hypothesis:** Switch Order/Priority. Last pressed switch overrides conflicts?
+- **Hypothesis:** Sw3=ON (Bottom Open) + Sw2=OFF (Top Open) + Sw1=ON (Center Open?).
 - **Status:**
   - Sw3: ON.
   - Sw2: OFF.
-  - Sw1: ON (Last Pressed).
-  - **Test:** Does Sw1 ON override Sw3's lockout of Center Gate (12, 8)?
+  - Sw1: ON.
 - **Plan:**
-  1. Confirm Sw1 is ON.
-  2. Go South to (12, 8) to check Center Gate.
-  3. If open, proceed to (16, 10) -> Director.
-  4. If closed, try toggling Sw2 next.
+  1. Go South to Gate (16, 6).
+  2. If Open, continue to Gate (16, 10).
+  3. If both Open, reach Director (9, 12).
+  4. If (16, 6) is closed, then Sw2 OFF did not open it (or Sw3 ON overrides it).
 - **Reminder:** Bag is full.
 - **Reminder:** Bag is full.
