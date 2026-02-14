@@ -6,11 +6,11 @@
 - **Current Execution:**
   - Sequence Attempt: `3 -> 1 -> 2` (CLEAN RUN - No Traps).
   - Step 1: Turn Sw3 ON. (Done).
-  - Step 2: Turn Sw1 ON. (Finishing interaction).
-  - Step 3: Turn Sw2 ON. (Next).
+  - Step 2: Turn Sw1 ON. (Done).
+  - Step 3: Turn Sw2 ON. (Done).
 
 # Switch Status (After this turn)
 - Sw1: ON (Verified)
-- Sw2: OFF (Verified)
+- Sw2: ON (Just turned ON)
 - Sw3: ON (Verified)
-- Goal: Execute `3 -> 1 -> 2`. Avoid Traps!
+- Goal: Check Gate at (10, 6).
