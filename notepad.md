@@ -17,7 +17,7 @@
   - Walls at Row 10 are blocking access to Director/Item.
 - Puzzle Status:
   - Switch 3 (2, 1): OFF (Verified Turn 41873).
-  - Switch 2 (10, 1): OFF (Verified Turn 41879).
+  - Switch 2 (10, 1): OFF (Verified Turn 41880).
   - Switch 1 (16, 1): ON (Verified Turn 41865). Action: Turn OFF (Reset).
 - New Sequence Plan (Reverse: 1-2-3):
   1. Reset all to OFF.
