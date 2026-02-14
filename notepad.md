@@ -8,10 +8,10 @@
 - **Current Plan:** Test `3 -> 2 -> 1`.
   - Step 1: Reset All to OFF. (Done).
   - Step 2: Turn Sw3 ON. (Done).
-  - Step 3: Turn Sw2 ON. (Next).
-  - Step 4: Turn Sw1 ON.
+  - Step 3: Turn Sw2 ON. (Done).
+  - Step 4: Turn Sw1 ON. (Next).
 
 # Switch Status
 - Sw1: OFF (Verified)
-- Sw2: OFF (Verified)
-- Sw3: ON (Just turned ON)
+- Sw2: ON (Just turned ON)
+- Sw3: ON (Verified)
