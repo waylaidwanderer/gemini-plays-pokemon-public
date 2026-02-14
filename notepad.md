@@ -1,13 +1,14 @@
-# Warehouse Switch Puzzle - Solution
-- Tile Types: `TYPE_3fe2` = Walkable (Blue Floor). `TYPE_2889` = Solid (Metal Plate).
-- Mechanic: Switch 1 OFF closed Shutter 2 at (6, 8) (Changed 3fe2 -> 2889).
-- Deduction: Switch 1 MUST BE ON to open Shutter 2.
-- Conflict: Switch 1 ON also opens Shutter 1 (Trap Path).
-- Solution: Turn Switch 1 ON, but ignore Shutter 1. Go through Shutter 2.
-- Current Status: Turning Switch 1 ON.
+# Warehouse Switch Puzzle - Solution (Final)
+- Logic:
+  - Switch 1 ON opens `(6, 6)` and `(10, 2)`. (Essential for movement).
+  - Switch 2 ON opens `(6, 8)`. (Essential for destination).
+  - Switch 3 ON (Already ON).
+- Conclusion: ALL SWITCHES MUST BE ON.
+- Current State: Sw1 ON, Sw2 OFF, Sw3 ON.
+- Action: Turn Switch 2 ON.
 
 ## Plan
-1. Interact with Switch 1 (Turn ON).
-2. Move to (6, 8) via main corridor (Row 4/5).
-3. Enter Shutter 2.
-4. Proceed to Director (9, 12).
+1. Move to Switch 2 (10, 2).
+2. Turn Switch 2 ON.
+3. Verify `(6, 8)` opens.
+4. Go through `(6, 8)` to Director.
