@@ -1,19 +1,23 @@
-# Warehouse Strategy
-- Objective: Rescue Director (Underground Warehouse 3_54).
-- Puzzle Status:
-  - Switch 3 (2, 1): OFF (Verified).
-  - Switch 2 (10, 1): OFF (Verified).
-  - Switch 1 (16, 1): ON (Target: Turn OFF).
-- Observation:
-  - Current State (1 ON, 2 OFF, 3 OFF): (3, 6) CLOSED.
-  - Previous State (1 ON, 2 ON, 3 OFF): (3, 6) CLOSED.
-- Strategy: Full Reset & New Sequence.
-  - Previous "Right End First" (1->2->3) failed to open (3, 10).
-  - Previous "Left End First" (3->2->1) failed.
-  - New Hypothesis: Mixed Ends. Sequence: 3 -> 1 -> 2.
-- Execution:
-  1. Turn Switch 1 OFF (Reset Complete).
-  2. Turn Switch 3 ON.
-  3. Turn Switch 1 ON.
-  4. Turn Switch 2 ON.
-  5. Check path.
+# Warehouse Switch Puzzle - Scientific Log
+- Objective: Open path to Director (9, 12).
+- Suspected Shutters: (3, 6), (6, 8), (12, 8).
+
+## Current State
+- Switch 3 (2, 1): OFF (Verified).
+- Switch 2 (10, 1): OFF (Verified).
+- Switch 1 (16, 1): ON (Target: Turn OFF).
+
+## Switch Effects Table (To Be Filled)
+| Switch | State | Effect on (3,6) | Effect on (6,8) | Effect on (12,8) |
+|--------|-------|-----------------|-----------------|------------------|
+| All    | OFF   | ?               | ?               | ?                |
+| 1 Only | ON    | ?               | ?               | Open (Floor)     |
+| 2 Only | ON    | ?               | ?               | ?                |
+| 3 Only | ON    | ?               | ?               | ?                |
+
+## Plan
+1. Reset ALL to OFF.
+2. Inspect ALL 3 shutters to establish Baseline.
+3. Test Switch 1 ON -> Inspect.
+4. Test Switch 2 ON -> Inspect.
+5. Test Switch 3 ON -> Inspect.
