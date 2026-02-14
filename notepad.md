@@ -4,7 +4,7 @@
 - **Status:**
   - Sw3: OFF (Verified).
   - Sw2: OFF (Verified - Gate (16,6) OPEN).
-  - Sw1: OFF (Action queued to turn OFF).
+  - Sw1: OFF (Testing).
   - **Obstacle:** Wall at (16, 10) blocks direct path south.
   - **Hazard:** Trap Warp at (12, 9).
 - **Hypothesis:** Switch 1 acts as a toggle. ON opens (12, 8), OFF might open (16, 10).
