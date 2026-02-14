@@ -17,15 +17,15 @@
   - Walls at Row 10 are blocking access to Director/Item.
 - Puzzle Solved!
   - Switch 3 (2, 1): ON -> Opens Wall (6, 8).
-  - Switch 2 (10, 1): OFF -> Opens Wall (12, 8). (Currently ON, so Wall is Closed).
+  - Switch 2 (10, 1): OFF -> Opens Wall (12, 8).
   - Switch 1 (16, 1): ON -> Opens Wall (16, 7).
-- Current State: All Switches ON.
-  - Wall (6, 8) is OPEN.
-  - Wall (12, 8) is CLOSED.
-  - Wall (16, 7) is OPEN.
+- Current State:
+  - Switch 3 ON, Switch 2 OFF, Switch 1 ON.
+  - Wall (6, 8) should be OPEN.
+  - Wall (12, 8) should be OPEN.
+  - Wall (16, 7) should be OPEN.
 - Path to Director:
-  - Through Wall (6, 8).
-  - West to x=3.
+  - From Middle (Current), go West through (6, 8).
   - South through gap at (3, 10).
   - East to Director (9, 12).
 - Clues:
