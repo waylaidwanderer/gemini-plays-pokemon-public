@@ -4,10 +4,10 @@
   - Switch 3 (2, 1): OFF.
   - Switch 2 (10, 1): OFF.
   - Switch 1 (16, 1): ON (Verified).
-- Strategy (Right End First):
-  1. Reset All to OFF (Done).
-  2. Sequence: 1 -> 2 -> 3. (Current: Step 2).
-  3. Verify shutters at (12, 8) and (6, 8) after each step.
-- Current Action:
-  - Verify (12, 8) Shutter.
-  - Then turn Switch 2 ON.
+- Discovery:
+  - Turning Switch 1 ON caused (12, 8) to change from Wall to Floor!
+  - This implies a path might be open at x=12.
+- Strategy:
+  - Investigate path at x=12 immediately.
+  - Do NOT touch Switch 2 yet (risk of closing the path).
+  - If x=12 is open, proceed to Director via Row 8 -> x=3 -> South.
