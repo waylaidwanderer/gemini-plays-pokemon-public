@@ -1,12 +1,12 @@
 # Underground Warehouse
 - **Goal:** Rescue Director (Real one).
 - **Status:**
-  - Sw3: ON.
+  - Sw3: OFF.
   - Sw2: ON.
   - Sw1: ON.
   - Duncan (Imposter) defeated at (9, 12).
 - **Plan:**
-  1. Go to Gate at (2, 10).
+  1. Check Gate at (2, 10).
   2. Loot Item at (1, 12).
   3. Search for Real Director.
 - **Mechanics:**
