@@ -21,3 +21,6 @@
 - Next Test: Toggle Sw2 OFF. Target State: [Sw3 OFF, Sw2 OFF, Sw1 OFF].
 - Toggling Sw3 ON. Target State: [Sw3 ON, Sw2 ON, Sw1 OFF].
 - Goal: Check if this opens (2, 10) or any other gate, even if (10, 6) is closed.
+- [Sw3 ON, Sw2 ON, Sw1 OFF] -> (10, 6) CLOSED, (16, 6) CLOSED.
+- (6, 8) is OPEN (Sw3 controls this).
+- Plan: Physically check (10, 6) and (16, 6). If locked, use Trap Warp at (12, 9) to attempt reset or find new path.
