@@ -4,10 +4,10 @@
   - Sw3: ON.
   - Sw2: ON.
   - Sw1: ON.
-  - Gate (2, 10): Testing...
+  - Gate (2, 10): Closed.
 - **Plan:**
-  1. If (2, 10) is Open: Loot Item (1, 12).
-  2. If (2, 10) is Closed: Check Gate (16, 10).
-  3. If (16, 10) is Open: Go South.
-  4. If Both Closed: Reset and try 1 -> 2 -> 3.
-- **Hypothesis:** Sequence 3 -> 2 -> 1.
+  1. Check Gate (10, 6) (Should be Open with Sw2 ON).
+  2. If Open: Go South down Column 10.
+  3. Loop West to Item (1, 12) and Director.
+  4. If Closed: Reset to 1 -> 2 -> 3.
+- **Hypothesis:** Sw2 ON opens Central Path (10, 6).
