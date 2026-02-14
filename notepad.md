@@ -11,7 +11,7 @@
   3. Re-test `3 -> 1 -> 2` carefully, checking gates at each step.
 
 # Switch Status (Current)
-- Sw1: ON
+- Sw1: OFF (Verified)
 - Sw2: OFF (Verified)
 - Sw3: OFF (Verified)
-- Goal: Reset all to OFF. Next: Turn Sw1 OFF.
+- Goal: Start Sequence 3 -> 1 -> 2. Next: Turn Sw3 ON.
