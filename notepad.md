@@ -3,11 +3,12 @@
 - Puzzle Status:
   - Switch 3 (2, 1): OFF.
   - Switch 2 (10, 1): OFF.
-  - Switch 1 (16, 1): ON (Verified).
-- Discovery:
-  - Turning Switch 1 ON caused (12, 8) to change from Wall to Floor!
-  - This implies a path might be open at x=12.
-- Strategy:
-  - Investigate path at x=12 immediately.
-  - Do NOT touch Switch 2 yet (risk of closing the path).
-  - If x=12 is open, proceed to Director via Row 8 -> x=3 -> South.
+  - Switch 1 (16, 1): ON.
+- Observations (Switch 1 ON only):
+  - (12, 8): OPEN (Floor).
+  - (16, 7): CLOSED (Wall).
+  - (12, 6-7): CLOSED (Wall) -> Cannot reach (12, 8) from North.
+- Next Steps:
+  - Check (6, 8) and (3, 6).
+  - If open, proceed South.
+  - If closed, continue Sequence (Turn Switch 2 ON).
