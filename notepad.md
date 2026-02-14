@@ -14,3 +14,5 @@
 1. Navigate to (9, 11) via (12, 10).
 2. Talk to Director.
 3. If successful, investigate Item at (15, 12).
+- Warp Alert: Stepping into the corridor past Shutter 1 (Column 12) seems to warp to (9, 5). Suspect tile (12, 10) or (12, 9).
+- Plan: Approach (12, 9) cautiously to pinpoint the warp trigger.

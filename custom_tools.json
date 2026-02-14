@@ -113,6 +113,34 @@
       }
     ]
   },
+  "buy_lemonade_batch": {
+    "description": "Buys a specified number of Lemonades from the vending machine. Assumes player is facing the machine in the overworld. Uses B to clear text to avoid accidental re-interaction.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "count": {
+          "type": "integer",
+          "description": "Number of lemonades to buy. Max 5 recommended per call due to time limits."
+        }
+      },
+      "required": [
+        "count"
+      ]
+    },
+    "python_script": "import json\ncount = input_data.get('count', 1)\nbuttons = []\nfor i in range(count):\n    # Interact with machine\n    buttons.append('A')\n    buttons.append('sleep 2000') # Wait for menu\n    \n    # Select Lemonade (3rd option)\n    buttons.append('Down')\n    buttons.append('Down')\n    buttons.append('A')\n    buttons.append('sleep 3500') # Wait for 'Clang!' and money deduction\n    \n    # Clear text (Clang!)\n    buttons.append('B')\n    buttons.append('sleep 1500')\n    \n    # Clear text (Popped out!)\n    buttons.append('B')\n    buttons.append('sleep 1500')\n    \n    # Clear text (Put in pocket)\n    buttons.append('B')\n    buttons.append('sleep 1500')\n\nprint(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-02-12T03:52:48.811Z",
+        "action_counter": 38341
+      },
+      {
+        "commit_message": "Fixed output format to be valid JSON using json.dumps().",
+        "timestamp": "2026-02-12T03:54:53.557Z",
+        "action_counter": 38345
+      }
+    ]
+  },
   "check_party_status": {
     "description": "Checks the party status from the Game State to prevent hallucinations about status conditions. Returns a list of Pokemon with non-healthy statuses.",
     "input_schema": {
@@ -310,6 +338,36 @@
       }
     ]
   },
+  "find_surf_start_point": {
+    "description": "Scans the Mental Map around the player to find valid locations to launch Surf. A valid location is a Walkable tile adjacent to a Water tile. Returns a list of suggested coordinates and the direction to face.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "radius": {
+          "type": "integer",
+          "default": 10
+        },
+        "player_x": {
+          "type": "integer"
+        },
+        "player_y": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "player_x",
+        "player_y"
+      ]
+    },
+    "python_script": "def find_surf_start_point(map_xml_string, player_x, player_y, radius=10):\n    import xml.etree.ElementTree as ET\n    \n    try:\n        root = ET.fromstring(map_xml_string)\n        width = int(root.attrib['width'])\n        height = int(root.attrib['height'])\n        \n        # Helper to get tile type\n        def get_tile_type(x, y):\n            if 0 <= x < width and 0 <= y < height:\n                row = root.find(f\".//Row[@id='{y}']\")\n                if row is not None:\n                    tile = row.find(f\".//Tile[@id='{x}']\")\n                    if tile is not None:\n                        return tile.attrib.get('type', 'unseen')\n            return None\n\n        # Common water types (add more if discovered)\n        WATER_TYPES = ['TYPE_4e8c'] \n        # Common walkable types (add more if discovered)\n        WALKABLE_TYPES = ['TYPE_3fe2', 'TYPE_fed7', 'TYPE_80fc'] \n\n        candidates = []\n\n        for y in range(max(0, player_y - radius), min(height, player_y + radius + 1)):\n            for x in range(max(0, player_x - radius), min(width, player_x + radius + 1)):\n                current_type = get_tile_type(x, y)\n                \n                # If current tile is walkable\n                if current_type in WALKABLE_TYPES:\n                    # Check neighbors for water\n                    neighbors = [\n                        (x, y-1, \"Up\"),\n                        (x, y+1, \"Down\"),\n                        (x-1, y, \"Left\"),\n                        (x+1, y, \"Right\")\n                    ]\n                    \n                    for nx, ny, direction in neighbors:\n                        neighbor_type = get_tile_type(nx, ny)\n                        if neighbor_type in WATER_TYPES:\n                            dist = abs(player_x - x) + abs(player_y - y)\n                            candidates.append({\n                                \"coordinate\": (x, y),\n                                \"face_direction\": direction,\n                                \"water_coordinate\": (nx, ny),\n                                \"distance\": dist\n                            })\n                            break # Only need one water neighbor to be valid\n\n        # Sort by distance\n        candidates.sort(key=lambda c: c['distance'])\n        \n        print(f\"Found {len(candidates)} surf spots.\")\n        return candidates[:5] # Return top 5\n\n    except Exception as e:\n        return f\"Error: {e}\"\n\n# Only map_xml_string is injected. We must pass it manually if we were running this locally, \n# but the system handles the injection for run_code. \n# For define_tool, this script body is what gets saved.\n",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-02-13T14:46:48.005Z",
+        "action_counter": 40917
+      }
+    ]
+  },
   "patrol_grass": {
     "description": "Moves the player Left and Right to search for wild Pokemon, and presses A to handle battle introductions.",
     "input_schema": {},
@@ -401,6 +459,37 @@
         "commit_message": "Initial version",
         "timestamp": "2026-02-07T20:38:34.038Z",
         "action_counter": 32291
+      }
+    ]
+  },
+  "scan_row_for_switches": {
+    "description": "Walks along a row checking adjacent tiles for hidden switches.",
+    "input_schema": {
+      "y": {
+        "type": "integer"
+      },
+      "start_x": {
+        "type": "integer"
+      },
+      "end_x": {
+        "type": "integer"
+      },
+      "facing": {
+        "type": "string",
+        "enum": [
+          "Up",
+          "Down",
+          "Left",
+          "Right"
+        ]
+      }
+    },
+    "python_script": "def scan_row_for_switches(y, start_x, end_x, facing):\n    buttons = []\n    # Determine direction button\n    face_btn = facing\n    \n    # Iterate through the range\n    step = 1 if end_x >= start_x else -1\n    for x in range(start_x, end_x + step, step):\n        # Move to the tile (simplified, assumes linear path or requires navigation tool usage logic elsewhere)\n        # For this specific tool, we assume we are on the row or close to it, but to be robust we should use navigate logic\n        # However, for a simple scan tool, we'll just output the target coordinates for the agent to use with BFS \n        # OR better yet, just hardcode the movement if we are already there.\n        # Since we can't easily integrate BFS here without importing it, we will return a list of buttons \n        # that assumes we walk linearly.\n        \n        # We assume the player starts at (start_x, y) or we walk to it.\n        # This script generates the sequence *assuming* the player is at the previous x.\n        \n        if x != start_x:\n            move_dir = \"Right\" if step > 0 else \"Left\"\n            buttons.append(move_dir)\n            \n        # Face and Interact\n        buttons.append(face_btn)\n        buttons.append(\"A\")\n        \n    print(f'{{\"buttons\": {buttons}}}')\n\n# Note: This script assumes the player is already at the start_x, y or adjacent to it. \n# It generates a simple walking sequence.\n# To use this effectively, navigate to (start_x, y) first.\n",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-02-13T23:51:19.821Z",
+        "action_counter": 41646
       }
     ]
   },
@@ -497,95 +586,6 @@
         "commit_message": "Fix type_text tool to properly access input arguments and return valid JSON.",
         "timestamp": "2026-01-26T11:30:24.969Z",
         "action_counter": 13565
-      }
-    ]
-  },
-  "buy_lemonade_batch": {
-    "description": "Buys a specified number of Lemonades from the vending machine. Assumes player is facing the machine in the overworld. Uses B to clear text to avoid accidental re-interaction.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "count": {
-          "type": "integer",
-          "description": "Number of lemonades to buy. Max 5 recommended per call due to time limits."
-        }
-      },
-      "required": [
-        "count"
-      ]
-    },
-    "python_script": "import json\ncount = input_data.get('count', 1)\nbuttons = []\nfor i in range(count):\n    # Interact with machine\n    buttons.append('A')\n    buttons.append('sleep 2000') # Wait for menu\n    \n    # Select Lemonade (3rd option)\n    buttons.append('Down')\n    buttons.append('Down')\n    buttons.append('A')\n    buttons.append('sleep 3500') # Wait for 'Clang!' and money deduction\n    \n    # Clear text (Clang!)\n    buttons.append('B')\n    buttons.append('sleep 1500')\n    \n    # Clear text (Popped out!)\n    buttons.append('B')\n    buttons.append('sleep 1500')\n    \n    # Clear text (Put in pocket)\n    buttons.append('B')\n    buttons.append('sleep 1500')\n\nprint(json.dumps(buttons))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-02-12T03:52:48.811Z",
-        "action_counter": 38341
-      },
-      {
-        "commit_message": "Fixed output format to be valid JSON using json.dumps().",
-        "timestamp": "2026-02-12T03:54:53.557Z",
-        "action_counter": 38345
-      }
-    ]
-  },
-  "find_surf_start_point": {
-    "description": "Scans the Mental Map around the player to find valid locations to launch Surf. A valid location is a Walkable tile adjacent to a Water tile. Returns a list of suggested coordinates and the direction to face.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "radius": {
-          "type": "integer",
-          "default": 10
-        },
-        "player_x": {
-          "type": "integer"
-        },
-        "player_y": {
-          "type": "integer"
-        }
-      },
-      "required": [
-        "player_x",
-        "player_y"
-      ]
-    },
-    "python_script": "def find_surf_start_point(map_xml_string, player_x, player_y, radius=10):\n    import xml.etree.ElementTree as ET\n    \n    try:\n        root = ET.fromstring(map_xml_string)\n        width = int(root.attrib['width'])\n        height = int(root.attrib['height'])\n        \n        # Helper to get tile type\n        def get_tile_type(x, y):\n            if 0 <= x < width and 0 <= y < height:\n                row = root.find(f\".//Row[@id='{y}']\")\n                if row is not None:\n                    tile = row.find(f\".//Tile[@id='{x}']\")\n                    if tile is not None:\n                        return tile.attrib.get('type', 'unseen')\n            return None\n\n        # Common water types (add more if discovered)\n        WATER_TYPES = ['TYPE_4e8c'] \n        # Common walkable types (add more if discovered)\n        WALKABLE_TYPES = ['TYPE_3fe2', 'TYPE_fed7', 'TYPE_80fc'] \n\n        candidates = []\n\n        for y in range(max(0, player_y - radius), min(height, player_y + radius + 1)):\n            for x in range(max(0, player_x - radius), min(width, player_x + radius + 1)):\n                current_type = get_tile_type(x, y)\n                \n                # If current tile is walkable\n                if current_type in WALKABLE_TYPES:\n                    # Check neighbors for water\n                    neighbors = [\n                        (x, y-1, \"Up\"),\n                        (x, y+1, \"Down\"),\n                        (x-1, y, \"Left\"),\n                        (x+1, y, \"Right\")\n                    ]\n                    \n                    for nx, ny, direction in neighbors:\n                        neighbor_type = get_tile_type(nx, ny)\n                        if neighbor_type in WATER_TYPES:\n                            dist = abs(player_x - x) + abs(player_y - y)\n                            candidates.append({\n                                \"coordinate\": (x, y),\n                                \"face_direction\": direction,\n                                \"water_coordinate\": (nx, ny),\n                                \"distance\": dist\n                            })\n                            break # Only need one water neighbor to be valid\n\n        # Sort by distance\n        candidates.sort(key=lambda c: c['distance'])\n        \n        print(f\"Found {len(candidates)} surf spots.\")\n        return candidates[:5] # Return top 5\n\n    except Exception as e:\n        return f\"Error: {e}\"\n\n# Only map_xml_string is injected. We must pass it manually if we were running this locally, \n# but the system handles the injection for run_code. \n# For define_tool, this script body is what gets saved.\n",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-02-13T14:46:48.005Z",
-        "action_counter": 40917
-      }
-    ]
-  },
-  "scan_row_for_switches": {
-    "description": "Walks along a row checking adjacent tiles for hidden switches.",
-    "input_schema": {
-      "y": {
-        "type": "integer"
-      },
-      "start_x": {
-        "type": "integer"
-      },
-      "end_x": {
-        "type": "integer"
-      },
-      "facing": {
-        "type": "string",
-        "enum": [
-          "Up",
-          "Down",
-          "Left",
-          "Right"
-        ]
-      }
-    },
-    "python_script": "def scan_row_for_switches(y, start_x, end_x, facing):\n    buttons = []\n    # Determine direction button\n    face_btn = facing\n    \n    # Iterate through the range\n    step = 1 if end_x >= start_x else -1\n    for x in range(start_x, end_x + step, step):\n        # Move to the tile (simplified, assumes linear path or requires navigation tool usage logic elsewhere)\n        # For this specific tool, we assume we are on the row or close to it, but to be robust we should use navigate logic\n        # However, for a simple scan tool, we'll just output the target coordinates for the agent to use with BFS \n        # OR better yet, just hardcode the movement if we are already there.\n        # Since we can't easily integrate BFS here without importing it, we will return a list of buttons \n        # that assumes we walk linearly.\n        \n        # We assume the player starts at (start_x, y) or we walk to it.\n        # This script generates the sequence *assuming* the player is at the previous x.\n        \n        if x != start_x:\n            move_dir = \"Right\" if step > 0 else \"Left\"\n            buttons.append(move_dir)\n            \n        # Face and Interact\n        buttons.append(face_btn)\n        buttons.append(\"A\")\n        \n    print(f'{{\"buttons\": {buttons}}}')\n\n# Note: This script assumes the player is already at the start_x, y or adjacent to it. \n# It generates a simple walking sequence.\n# To use this effectively, navigate to (start_x, y) first.\n",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-02-13T23:51:19.821Z",
-        "action_counter": 41646
       }
     ]
   }
