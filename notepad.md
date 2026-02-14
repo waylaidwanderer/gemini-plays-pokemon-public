@@ -1,7 +1,7 @@
-# Underground Warehouse State [Sw3 OFF, Sw2 ON, Sw1 OFF]
+# Underground Warehouse State [Sw3 OFF, Sw2 OFF, Sw1 OFF]
 - **Gates:**
-  - OPEN: (2, 6), (10, 6), (6, 8), (12, 8).
-  - CLOSED: (2, 10), (16, 6), (10, 10), (16, 10).
-- **Access:** Can reach Switch 2 (10, 1) and East Area via (12, 8).
-- **Goal:** Reach Switch 1 (locked behind 16, 6) or Director.
-- **Plan:** Go to Switch 2. Toggle OFF. Test if "All OFF" opens (16, 6).
+  - OPEN: (2, 6), (10, 6), (6, 8).
+  - CLOSED: (12, 8), (16, 6), (2, 10).
+- **Result:** "All OFF" did NOT open (16, 6). It closed (12, 8).
+- **Hypothesis:** Sw3 ON + Sw2 OFF might open (16, 6).
+- **Plan:** Go to Switch 3 (2, 1). Toggle ON.
