@@ -1,14 +1,12 @@
 # Warehouse Switch Puzzle - Solution Testing
-- State: Sw1 ON, Sw2 OFF, Sw3 OFF (Toggling NOW).
-- Hypothesis: Switch 3 OFF opens (3, 6) and/or (6, 6).
-- Previous Findings:
-  - Sw1 ON opens (6, 8) and (12, 8).
-  - Sw2 ON closes (3, 6).
-  - Sw3 ON + Sw2 OFF + Sw1 ON = (3, 6) Closed.
-- Logic: If Sw3 ON keeps (3, 6) closed, maybe Sw3 OFF opens it?
+- State: Sw1 ON, Sw2 OFF, Sw3 OFF (Target).
+- Current Position: (2, 5).
+- Action: Moving to Switch 3 (2, 1) to toggle it OFF.
+- Reason: Previous attempt failed due to positioning error.
+- Grunt check: (3, 2) is blocked, but I can access (3, 6) via (3, 5).
 
 ## Plan
-1. Finish toggling Switch 3 to OFF.
-2. Check Shutter (3, 6).
-3. If Open, proceed South.
-4. If Closed, Check Shutter (6, 6).
+1. Move Up to (2, 2).
+2. Toggle Switch 3 (Press A).
+3. Verify "OFF".
+4. Move to (3, 5) and check shutter (3, 6).
