@@ -5,16 +5,19 @@
 | ON  | OFF | ON  | Closed| Closed| Open  | Open   | Tested 42135, 42153 |
 | OFF | OFF | ON  | Closed| Closed| Open  | Open   | Tested 42154 |
 | OFF | ON  | ON  | Closed| Closed| Open  | Open   | Tested 42156 |
-| OFF | ON  | OFF | ?     | ?     | ?     | ?      | Testing NOW |
+| OFF | ON  | OFF | Closed| Closed| Open  | Closed | Tested 42161 (Current) |
 
 # Deduction
-- Sw1 ON definitely opens (6, 8) and (12, 8).
-- (6, 6) has NEVER been open with Sw1 ON.
-- Hypothesis: Sw1 ON closes (6, 6).
-- Therefore, Sw1 must be OFF to open (6, 6).
-- **Target State:** [Sw3 OFF, Sw2 ON, Sw1 OFF].
+- (6, 6) remains Closed.
+- (6, 8) is Open with Sw1 OFF! (New finding).
+- So Sw1 ON is NOT required for (6, 8) to be Open.
+- Sw2 ON seems to keep (6, 6) Closed?
+- Strategy: Turn Sw2 OFF.
+- New State: [Sw3 OFF, Sw2 OFF, Sw1 OFF] (All OFF).
+- If that fails, Turn Sw3 ON -> [Sw3 ON, Sw2 OFF, Sw1 OFF].
+- Clue: "Switch on the end first" -> Start with Sw3 ON.
 
 # Plan
-1. Toggle Switch 1 OFF.
-2. Check (12, 8) (Should close).
-3. Check (6, 6) and (6, 8).
+1. Turn Switch 2 OFF.
+2. Check (6, 6).
+3. If Closed, Go to Switch 3 and Turn ON.
