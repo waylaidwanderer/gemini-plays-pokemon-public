@@ -9,15 +9,13 @@
 - **Hypothesis:** Switch 2 toggles West/East gates. OFF=East(16,6), ON=West(??).
 - **Status:**
   - Sw3: ON (Verified).
-  - Sw2: ON (Verified).
+  - Sw2: ON (Verified - Auto-toggled by Sw3).
   - Sw1: ON (Verified).
-- **Observation:** (6, 8) is OPEN (Bottom Gate). (6, 6) is CLOSED (Top Gate).
-- **Hypothesis:** Sw3 ON opens Bottom Gates. Sw2 OFF opens Top Gates.
-- **Problem:** Sw3 ON turned Sw2 ON automatically.
+- **Hypothesis:** Sw3 ON opens Bottom Gates (Verified). Sw2 OFF opens Top Gates (Testing).
 - **Plan:**
-  1. Confirm (6, 6) is closed (Bump).
-  2. Go to Switch 2 (10, 1).
-  3. Turn Switch 2 OFF (Override the automatic toggle).
-  4. Check if (6, 6) opens.
+  1. Go to Switch 2 (10, 1).
+  2. Turn Switch 2 OFF.
+  3. Check if Gate (6, 6) opens.
+  4. Go South to Director.
 - **Reminder:** Bag is full.
 - **Reminder:** Bag is full.
