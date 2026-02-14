@@ -9,13 +9,13 @@
 - **Hypothesis:** Switch 2 toggles West/East gates. OFF=East(16,6), ON=West(??).
 - **Status:**
   - Sw3: ON (Verified).
-  - Sw2: ON (Verified - Found ON, linked to Sw3).
+  - Sw2: ON (Verified - West Gates OPEN).
   - Sw1: ON (Verified).
-- **Hypothesis:** Sw3 ON -> Sw2 ON. Sw2 ON opens West Gates.
+- **Observation:** West path along Col 6 is open!
 - **Plan:**
-  1. Go South to Row 4 (Avoid Wall at 7,2).
-  2. Go West to Col 6.
-  3. Check Gates at (6, 6) and (6, 10).
-  4. Reach Director (9, 12).
+  1. Go South along Col 6 to Row 12.
+  2. Go East to Director (9, 12).
+  3. Get Card Key.
+  4. (Optional) Check Rival at (4, 8) if safe.
 - **Reminder:** Bag is full.
 - **Reminder:** Bag is full.
