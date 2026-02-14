@@ -1,11 +1,11 @@
 # Underground Warehouse
 - **Goal:** Rescue Director (Real one).
 - **Status:**
-  - Sw3: Unknown (Target: Turn ON first).
+  - Sw3: ON (Target).
   - Sw2: OFF (Target: Turn ON second).
-  - Sw1: OFF (Confirmed: Closed Gate (16, 7)).
+  - Sw1: OFF (Confirmed).
 - **Plan:**
-  1. Go to Sw3 (2, 1). Turn ON.
+  1. Turn Sw3 ON (Current Step).
   2. Go to Sw2 (10, 1). Turn ON.
   3. Go to Sw1 (16, 1). Turn ON.
   4. Check Gate (2, 10).
