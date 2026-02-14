@@ -13,5 +13,6 @@
 # Switch Status (Current)
 - Sw1: OFF (Verified)
 - Sw2: OFF (Verified)
-- Sw3: OFF (Verified)
-- Goal: Start Sequence 3 -> 1 -> 2. Next: Turn Sw3 ON.
+- Sw3: ON (Verified)
+- Effect of Sw3 ON: Opens Gate (2, 6). Gate (6, 8) remains CLOSED.
+- Goal: Continue Sequence 3 -> 1 -> 2. Next: Turn Sw1 ON.
