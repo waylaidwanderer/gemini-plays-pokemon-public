@@ -17,3 +17,5 @@
 - Sw2: ON (Verified)
 - Sw3: OFF (Just turned OFF)
 - **Goal:** Check if (10, 6) opens with Sw2 Only.
+- [Sw3 OFF, Sw2 ON, Sw1 OFF] -> (10, 6) CLOSED. (Tested Turn 43390)
+- Next Test: Toggle Sw2 OFF. Target State: [Sw3 OFF, Sw2 OFF, Sw1 OFF].
