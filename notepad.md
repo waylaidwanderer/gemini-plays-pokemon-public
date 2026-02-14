@@ -5,7 +5,7 @@
 ## Current State
 - Switch 3 (2, 1): OFF (Verified).
 - Switch 2 (10, 1): OFF (Verified).
-- Switch 1 (16, 1): OFF (Action: Turning OFF).
+- Switch 1 (16, 1): OFF (Verified).
 
 ## Switch Effects Table
 | Switch | State | (3,6) | (6,8) | (12,8) |
@@ -18,7 +18,7 @@
 ## Plan
 1. Reset Complete (All OFF).
 2. Inspect ALL 3 shutters to establish Baseline (All OFF).
-   - Check (12, 8).
+   - Check (12, 8) (Next).
    - Check (6, 8).
    - Check (3, 6).
 3. Test Switch 1 ON -> Inspect.
