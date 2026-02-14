@@ -9,6 +9,7 @@
 - Clues:
   - Grunt (Row 4): "Open one shutter, another closes."
   - Grunt (3, 2): "Change the order of switching."
+  - Grunt (11, 3): "End is the one to press first, but..."
   - Grunt (11, 3): "I'm confused too... The switch on the..." (Reading now).
 - Puzzle Logic:
   - Need to find "Switch 2" or the correct sequence.
