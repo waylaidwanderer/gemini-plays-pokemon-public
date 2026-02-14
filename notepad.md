@@ -4,12 +4,13 @@
   - Sw3: OFF.
   - Sw2: OFF.
   - Sw1: ON.
-  - PATH OPENED: (10, 10) & (10, 11) are now Floor (Type 3fe2).
-  - Path at (12, 8) & (12, 9) also open.
+  - PATH OPENED: (10, 10) & (10, 11) are now Floor.
+  - Reached (10, 12).
+  - NPC at (9, 12) is a BURGLAR (Eddie?), not the Director (or is impersonating him).
 - **Plan:**
-  1. Go Left to (10, 8).
-  2. Go Down to (10, 12).
-  3. Talk to Director at (9, 12).
+  1. Defeat the Burglar.
+  2. Talk to him again or find the real Director.
+  3. Loot item at (2, 12).
 - **Mechanics:**
 - **Mechanics (Verified XML):**
 - **Plan:**
