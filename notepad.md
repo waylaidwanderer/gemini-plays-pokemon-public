@@ -2,7 +2,7 @@
 - **Goal:** Rescue Director (Real one).
 - **Status:**
   - Sw3: ON (Assumed).
-  - Sw2: ON.
+  - Sw2: OFF.
   - Sw1: ON.
   - Duncan (Imposter) defeated at (9, 12).
 - **Plan:**
