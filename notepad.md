@@ -11,12 +11,11 @@
   - Sw3: ON (Verified).
   - Sw2: ON (Verified).
   - Sw1: ON (Verified).
-- **Correction:** West Gate (6, 6) is CLOSED.
-- **Hypothesis:** Need [Sw3: OFF, Sw2: OFF] to open West Gates.
+- **Correction:** West Gate (6, 6) closed with Sw2=ON/Sw3=ON.
+- **Hypothesis:** Sw3 ON forces Sw2 ON. Need Sw3 OFF to control Sw2.
 - **Plan:**
-  1. Go to Switch 3 (2, 1). Turn OFF.
-  2. Go to Switch 2 (10, 1). Turn OFF.
-  3. Go South along Col 6.
-  4. Reach Director (9, 12).
+  1. Turn Switch 3 OFF (Reset).
+  2. Check Switch 2. If OFF, turn ON.
+  3. If West Gate still closed, toggle Switch 1.
 - **Reminder:** Bag is full.
 - **Reminder:** Bag is full.
