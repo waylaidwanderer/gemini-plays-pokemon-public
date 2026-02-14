@@ -2,19 +2,16 @@
 - Objective: Rescue Director (Underground Warehouse 3_54).
 - Puzzle Status:
   - Switch 3 (2, 1): OFF (Verified).
-  - Switch 2 (10, 1): ON.
-  - Switch 1 (16, 1): ON.
-- Strategy Update:
-  - Switch 3 ON closed (3, 6).
-  - Switch 3 OFF re-opened (3, 6).
-  - Hypothesis: 1+2 ON is sufficient to open (3, 6).
-- New Discovery:
-  - (3, 6) is OPEN.
-  - (3, 10) is CLOSED.
-  - Path to Director via x=3 is BLOCKED.
+  - Switch 2 (10, 1): Unknown (Need verification).
+  - Switch 1 (16, 1): ON (Likely, as 12,8 is open).
+- Observation:
+  - (3, 6) is CLOSED (Wall).
+  - (12, 8) is OPEN (Floor).
+  - (6, 8) is CLOSED (Wall).
+- Anomaly:
+  - Thought 1+2 ON opened (3, 6). Currently closed.
+  - Suspect Switch 2 might be OFF or sequence broke.
 - Next Steps:
-  - Confirm (3, 6) is Open.
-  - Confirm (3, 10) is Closed.
-  - Re-evaluate Sequence.
-  - Try 1+2+3 ON again? Or maybe 2+3? or 1+3?
-  - Check other paths (x=12, x=6).
+  1. Verify Switch 2 State.
+  2. If OFF, Turn ON and check (3, 6).
+  3. If ON, Full Reset.
