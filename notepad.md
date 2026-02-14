@@ -3,7 +3,7 @@
 - **Status:**
   - Sw3: Unknown (Target: Turn ON first).
   - Sw2: OFF (Target: Turn ON second).
-  - Sw1: OFF (Just toggled).
+  - Sw1: OFF (Confirmed: Closed Gate (16, 7)).
 - **Plan:**
   1. Go to Sw3 (2, 1). Turn ON.
   2. Go to Sw2 (10, 1). Turn ON.
