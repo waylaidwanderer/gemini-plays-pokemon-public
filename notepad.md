@@ -11,17 +11,15 @@
 | Switch | State | (3,6) | (6,8) | (12,8) | Other |
 |--------|-------|-------|-------|--------|-------|
 | All    | OFF   | Closed | Closed | Closed | (16, 7) Closed |
-| 1      | ON    | ?     | Closed | Open   | (16, 7) Open |
+| 1      | ON    | Closed | Closed | Open   | (16, 7) Open |
 | 2      | ON    | ?     | ?     | ?      | ? |
 | 3      | ON    | ?     | ?     | ?      | ? |
 
 ## Plan
-1. Reset Complete (All OFF).
-2. Inspect ALL 3 shutters to establish Baseline (All OFF) - Done.
-3. Test Switch 1 ON -> Inspect (Executing).
-   - Turn ON (Done).
-   - Confirmed: (12, 8) Open, (16, 7) Open.
-   - Confirmed: (6, 8) Closed.
-   - Check (3, 6) (Next).
-4. Test Switch 2 ON -> Inspect.
-5. Test Switch 3 ON -> Inspect.
+1. Reset Complete (All OFF) - Done.
+2. Inspect ALL 3 shutters to establish Baseline - Done.
+3. Test Switch 1 ON - Done.
+4. Test Switch 3 ON (Combined with 1 ON) -> Inspect.
+   - Turn Switch 3 ON.
+   - Check (3, 6) (Immediate).
+5. If no change, Turn Switch 3 OFF and proceed to Switch 2.
