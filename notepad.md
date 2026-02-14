@@ -23,3 +23,8 @@
   1. Go to Middle Area (11, 3).
   2. Search for Switch 2 near Grunt.
   3. Attempt sequence: 3 -> 2 -> 1 (or reset logic).
+- Reflection (Turn 41696):
+  - Current Status: Heading to Middle Area (11, 3).
+  - Hypothesis: Switch 2 is in Row 1, between x=6 and x=12.
+  - Clue Interpretation: "End is the one to press first" -> Could mean Switch 3 (Left End) or Switch 1 (Right End).
+  - Plan: Find Switch 2. Then try sequence: Reset All OFF -> Press 3 -> Press 2 -> Press 1.
