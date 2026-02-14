@@ -12,5 +12,5 @@
 # Switch Status (Current)
 - Sw1: ON
 - Sw2: OFF (Verified)
-- Sw3: ON
-- Goal: Go to Sw3 (2, 1) to turn OFF.
+- Sw3: OFF (Verified)
+- Goal: Go to Sw1 (16, 1) to turn OFF.
