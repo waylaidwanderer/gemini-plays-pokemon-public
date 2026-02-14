@@ -5,8 +5,8 @@
 - **Next:** Verify Switch 3 (Left), then Switch 1 (Right).
 
 ## Plan
-1. Move Left to Switch 3 (2, 1).
-2. Ensure Sw3 is **OFF**.
-3. Move Right to Switch 1 (16, 1).
-4. Ensure Sw1 is **ON**.
-5. Go to (12, 8) and execute route (West to 6,8, South to Director).
+1. Navigate to Switch 3 (2, 2) using BFS.
+2. Verify/Set Sw3 to **OFF**.
+3. Navigate to Switch 1 (16, 2).
+4. Verify/Set Sw1 to **ON**.
+5. Go to (12, 8) and execute route.
