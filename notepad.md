@@ -1,12 +1,12 @@
 # Warehouse Switch Puzzle - Solution Testing
-- Current State: Sw1 ON, Sw2 OFF, Sw3 ON (Verified).
-- Observation: (3, 6) is CLOSED (TYPE_2889).
-- Hypothesis: [Sw1 ON, Sw2 OFF, Sw3 ON] is incorrect.
-- New Plan: Try [Sw1 ON, Sw2 ON, Sw3 ON].
-- Reasoning: In previous attempts with "All ON", Sw3 might have been actually OFF (tracker error). Now that Sw3 is definitely ON, Sw2 might behave differently.
+- State: Sw1 ON, Sw2 ON (Toggling NOW), Sw3 ON.
+- Goal: Test [All ON].
+- Check: Shutter (6, 6) and (6, 8).
+- Previous Logic: "Sw1 ON opens (6, 6)" vs "Sw3 ON closes (6, 6)".
+- Plan: Toggle Sw2 ON. Go to (6, 5). Inspect (6, 6).
 
 ## Plan
-1. Confirm (3, 6) is closed (Visual/Bump).
-2. Move to Switch 2 (10, 1).
-3. Turn Switch 2 ON.
-4. Check results.
+1. Turn Switch 2 ON (Press A x3).
+2. Move to (6, 5) via (10, 5).
+3. Check Shutter (6, 6).
+4. If Open, proceed to (6, 8).
