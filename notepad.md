@@ -1,9 +1,9 @@
 # Underground Warehouse
-- **Goal:** Rescue Director (requires opening shutter at (12, 8)).
-- **Current State:** [Sw3=ON, Sw2=OFF, Sw1=ON] -> Shutter (6, 8) OPEN (Dead End).
-- **Target State:** [Sw3=OFF, Sw2=ON, Sw1=ON] -> Shutter (12, 8) OPEN (Path to Director).
-- **Plan:**
-  1. Turn Sw3 OFF.
-  2. Turn Sw2 ON.
-  3. Verify Sw1 ON.
-  4. Go through (12, 8) -> South to Director.
+- **Goal:** Rescue Director.
+- **Puzzle Strategy:**
+  1. **Turn Sw3 OFF** (Will close path (6, 8) and trap me in West Zone).
+  2. **Escape:** Exit via South Door (5, 25) -> Goldenrod Underground -> Re-enter Warehouse East.
+  3. **Turn Sw2 ON** (Middle Zone).
+  4. **Turn Sw1 ON** (East Zone).
+  5. **Access:** Go through (12, 8) (Opened by Sw1/Sw2 combo) to Director.
+- **Current Task:** Turn Sw3 OFF.
