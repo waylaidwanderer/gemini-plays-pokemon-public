@@ -1,6 +1,6 @@
 # Warehouse Switch Puzzle - Scientific Log
 - Objective: Open path to Director (9, 12).
-- Shutters to Monitor: (3, 6), (6, 8), (12, 8).
+- Shutters to Monitor: (3, 6), (6, 8), (12, 8) and Row 10 Walls.
 
 ## Current State
 - Switch 3 (2, 1): ON (Verified).
@@ -12,15 +12,13 @@
 |--------|-------|-------|-------|--------|-------|
 | All    | OFF   | Closed | Closed | Closed | (16, 7) Closed |
 | 1      | ON    | Closed | Closed | Open   | (16, 7) Open |
+| 3      | ON    | Closed | Open   | Open   | (6, 8) Confirmed by XML |
 | 2      | ON    | ?     | ?     | ?      | ? |
-| 3      | ON    | ?     | ?     | ?      | ? |
 
 ## Plan
 1. Reset Complete (All OFF) - Done.
 2. Baseline Established - Done.
 3. Switch 1 ON - Done.
-4. Test Switch 3 ON (with 1 ON) -> Inspect (Executing).
-   - Turn Switch 3 ON (Done).
-   - Check (3, 6) (Next).
-   - Check (6, 8).
-5. If no change, Turn Switch 3 OFF and proceed to Switch 2.
+4. Switch 3 ON - Done.
+5. Inspect Row 9 and Row 10 barriers (Executing).
+6. Toggle Switch 2.
