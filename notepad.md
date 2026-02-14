@@ -1,16 +1,14 @@
 # Underground Warehouse
 - **Goal:** Rescue Director.
 - **Status:**
+  - Battling Grunt at (17, 2).
   - Sw3: ON (Verified).
   - Sw2: ON (Verified).
-  - Sw1: OFF.
-- **Trap Warning:**
-  - (15, 1) is a TRAP WARP. Do not step on it!
-  - Stepping on (15, 1) warps to (15, 4) (Trap Room).
-- **Escape Plan:**
-  1. Check Bolin for Strength/Rock Smash.
-  2. Try to push/break crates.
-  3. If failed, investigate walls for hidden switches.
+  - Sw1: OFF (Located at 16, 1 - blocked by Grunt).
+- **Plan:**
+  1. Defeat Grunt.
+  2. Turn Sw1 ON.
+  3. Verify sequence 3->2->1 opens path to Director.
 - **Mechanics (Verified XML):**
   - Sw3 ON: Opens (16, 10), Closes (6, 8).
   - Sw2 ON: Opens (2, 6), Closes (16, 6).
