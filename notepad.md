@@ -3,8 +3,8 @@
 - **Current Task:** Entering Corridor.
 - **Switch 3:** Verified OFF (Turn 42216).
 - **Switch 2:** Verified ON (Turn 42189).
-- **Switch 1:** Toggled OFF (Turn 42231).
-- **Next:** Check path at (16, 7).
+- **Switch 1:** Verified ON (Turn 42238).
+- **Next:** Check shutter at (12, 8).
 
 ## Plan
 1. Move to Switch 1 (16, 2).
