@@ -17,12 +17,12 @@
   - Walls at Row 10 are blocking access to Director/Item.
 - Puzzle Status:
   - Switch 3 (2, 1): OFF. Wall (6, 8) is OPEN.
+  - Switch 2 (10, 1): Found! State unknown.
   - Switch 1 (16, 1): ON. Wall (12, 8) is CLOSED. Wall (16, 7) is OPEN.
-  - Switch 2: Hidden? Likely in Middle Area (x=8-11).
 - Plan:
-  1. Go to Middle Area (11, 3).
-  2. Search for Switch 2 near Grunt.
-  3. Attempt sequence: 3 -> 2 -> 1 (or reset logic).
+  1. Toggle Switch 2.
+  2. If that fails, reset all to OFF, then try 3 -> 2 -> 1.
+  3. Check for open paths to Director (9, 12).
 - Reflection (Turn 41696):
   - Current Status: Heading to Middle Area (11, 3).
   - Hypothesis: Switch 2 is in Row 1, between x=6 and x=12.
