@@ -6,9 +6,9 @@
   - Sw2: ON.
   - Sequence: 3 -> 2 -> 1.
   - Gate (10, 6): OPEN.
-  - Gate (12, 8): OPEN (Confirmed walkable).
-- **Action:** Exploring East Wing.
+  - Gate (12, 8): OPEN.
+- **Current Task:** Find path South to Row 12.
 - **Plan:**
-  1. Go East to (16, 8).
-  2. Check for path South.
-  3. Look for Real Director.
+  1. Check Gate (16, 10) [East].
+  2. If closed, go check Gate (2, 10) [West].
+  3. If both closed, re-evaluate switch combos.
