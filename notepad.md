@@ -18,16 +18,16 @@
 - Puzzle Status:
   - Switch 3 (2, 1): Status Unknown (Likely OFF).
   - Switch 2 (10, 1): OFF. Wall (12, 8) is OPEN.
-  - Switch 1 (16, 1): ON. Wall (16, 7) is CLOSED. (Verified by interaction loop).
+  - Switch 1 (16, 1): ON. Wall (16, 7) is OPEN (Verified by system tile update).
 - Logic:
-  - Switch 1: OFF = OPEN, ON = CLOSED.
+  - Switch 1: ON = OPEN, OFF = CLOSED (Verified).
   - Switch 2: OFF = OPEN.
   - Switch 3: OFF = CLOSED? ON = OPEN?
 - Plan:
   1. Go to Switch 3 (2, 1). Turn ON.
   2. Go to Switch 2 (10, 1). Turn ON.
   3. Check walls (6, 8) and (12, 8).
-  - Sequence Idea: 3 (ON) -> 2 (ON) -> 1 (ON/OFF).
+  - Sequence Idea: 3 (ON) -> 2 (ON) -> 1 (ON).
 - Clues:
   - "End is the one to press first" -> Switch 3.
   - "Change the order" -> Sequence matters.
