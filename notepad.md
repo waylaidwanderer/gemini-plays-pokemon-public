@@ -1,19 +1,11 @@
 # Underground Warehouse
 - **Goal:** Rescue Director (Real one).
 - **Status:**
-  - Sw3: OFF.
+  - Sw3: ON.
   - Sw2: OFF.
-  - Sw1: ON.
-  - Gate (16, 6): Closed.
-  - Gate (10, 6): Open.
-- Gate (10, 10): Closed (Confirmed Wall).
-- **Status:**
-  - Sw3: OFF.
-  - Sw2: OFF.
-  - Sw1: ON.
-- **Hypothesis:** "The switch on the end" might be Switch 3, not Switch 1.
+  - Sw1: OFF.
 - **Plan:**
-  1. Turn Switch 1 OFF (Reset).
-  2. Turn Switch 3 ON (Start with the other end).
-  3. Explore gates opened by Sw3.
-  4. Sequence might be 3 -> 2 -> 1 or similar.
+  1. Go to Switch 2 (10, 1) and turn it ON.
+  2. Check Gates (Does 3+2 open anything?).
+  3. If needed, turn Switch 1 ON (Sequence: 3 -> 2 -> 1).
+- **Hypothesis:** "End Switch First" = Switch 3.
