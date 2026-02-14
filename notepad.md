@@ -26,3 +26,6 @@
   5. Turn Sw1 ON.
 - **Hypothesis:** "End is the one to press first" -> Start with 3 or 1.
 - **Reminder:** Bag is full.
+- **Success:**
+  - Sw2 OFF opened (16, 6).
+  - Path confirmed: South to (16, 7), then West to (12, 7), then South through (12, 8).
