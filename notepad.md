@@ -3,12 +3,12 @@
 - **Interpretation:** Testing Switch 1 (Right End) first.
 - **Current Sequence:** `1 -> 3 -> 2`
   1. Turn Sw1 ON. (Done).
-  2. Turn Sw3 ON. (Next).
-  3. Turn Sw2 ON.
-  4. Check Gate (2, 10).
+  2. Turn Sw3 ON. (Done).
+  3. Turn Sw2 ON. (Done).
+  4. Check Gate (2, 10) and (10, 10).
 
 # Switch Status (Current)
-- Sw1: ON (Turned ON just now)
-- Sw2: OFF (Verified)
-- Sw3: ON (Just turned ON)
-- Goal: Go to Sw2 (10, 1).
+- Sw1: ON
+- Sw2: ON
+- Sw3: ON
+- Goal: Check results of 1->3->2 sequence.
