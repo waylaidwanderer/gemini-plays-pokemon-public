@@ -6,12 +6,12 @@
   - `1 Only` -> (10, 6) CLOSED.
   - `3 Only` -> (10, 6) CLOSED.
 - **Current Plan:** Test `3 -> 2 -> 1`.
-  - Step 1: Reset All to OFF. (Done - Verified).
-  - Step 2: Turn Sw3 ON. (Next).
-  - Step 3: Turn Sw2 ON.
+  - Step 1: Reset All to OFF. (Done).
+  - Step 2: Turn Sw3 ON. (Done).
+  - Step 3: Turn Sw2 ON. (Next).
   - Step 4: Turn Sw1 ON.
 
 # Switch Status
 - Sw1: OFF (Verified)
 - Sw2: OFF (Verified)
-- Sw3: OFF (Verified)
+- Sw3: ON (Just turned ON)
