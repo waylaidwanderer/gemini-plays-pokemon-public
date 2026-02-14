@@ -4,7 +4,8 @@
   - Sw3: ON.
   - Sw2: ON.
   - Sw1: ON.
+  - Gate (6, 8): OPEN (Confirmed!).
 - **Plan:**
-  1. Check Gates (Sequence 1 -> 2 -> 3 complete).
-  2. If gates still closed, try Sequence: 3 -> 1 -> 2.
-  3. Or maybe toggling them OFF helps?
+  1. Go through Gate (6, 8).
+  2. Check Gate (10, 6) (Central).
+  3. Explore the East side/Director's Room.
