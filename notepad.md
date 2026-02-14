@@ -16,16 +16,17 @@
   - Current State: Switch 1 ON, Switch 3 ON.
   - Walls at Row 10 are blocking access to Director/Item.
 - Puzzle Status:
-  - Switch 3 (2, 1): ON (Turning ON now).
-  - Switch 2 (10, 1): OFF (Verified Turn 41968).
-  - Switch 1 (16, 1): OFF (Verified Turn 41975).
+  - Switch 3 (2, 1): ON.
+  - Switch 2 (10, 1): OFF (Target).
+  - Switch 1 (16, 1): OFF.
 - Strategy: Scientific Method.
-  - Baseline: All Switches OFF.
-  - Test 1: Turn Switch 3 ON.
-  - Observation: Does Shutter at (6, 8) open?
+  - Test 1 (Done): 3 ON -> Shutter (6, 8) Closed.
+  - Test 2 (Next): Turn Switch 2 ON. (Sequence 3 -> 2).
+  - Observation: Check Shutter at (6, 8).
 - Execution:
-  1. Turn Switch 3 ON (Executing).
-  2. Check Shutter at (6, 8).
+  1. Navigate to Switch 2 (10, 2).
+  2. Turn Switch 2 ON.
+  3. Check Shutter.
 - Navigation:
   - From (9, 5) to Switch 2 at (10, 1).
 - Current Step: Navigating to Switch 3 (Step 2 of 1-3-2 Sequence). Path: West along Row 4.
