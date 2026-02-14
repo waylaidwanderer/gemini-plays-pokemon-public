@@ -3,5 +3,6 @@
 - **Sequence:** [3 -> 2] in progress.
 - **Step 1:** Sw3 ON (Complete).
 - **Step 2:** Turn Sw2 ON.
-- **Action:** Interacting with Switch 2 (Attempt 2).
-- **Hypothesis:** "End Switch First" means 3 -> 2 -> 1.
+- **Action:** Repositioning to retry interaction with Switch 2.
+- **Hypothesis:** Interaction failed due to positioning or "End Switch" mechanics.
+- **Issue:** No text response from Switch 2 after multiple A presses.
