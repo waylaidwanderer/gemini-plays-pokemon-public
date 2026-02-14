@@ -1,10 +1,10 @@
 # Underground Warehouse
 - **Goal:** Rescue Director.
-- **Strategy:** [Sw3=OFF, Sw2=ON, Sw1=ON].
+- **Strategy:** [Sw3=OFF, Sw2=ON, Sw1=OFF].
 - **Status:**
   - Sw3: OFF (Verified Turn 42343).
   - Sw2: ON (Verified).
-  - Sw1: ON (Verified).
+  - Sw1: OFF (Testing).
 - **Plan:**
   1. Walk East to (16, 5).
   2. Check if Wall at (16, 6)/(16, 7) is OPEN.
