@@ -5,8 +5,9 @@
   - Sw3: ON.
   - Sw2: ON.
   - Gate (10, 6): OPEN.
-- **Action:** Investigating internal gates: (6, 8), (12, 8), (10, 10), (2, 10).
-- **Plan:** Go South, check if I can go West or East.
+  - Gate (6, 8): OPEN.
+  - Gate (12, 8): CLOSED.
+- **Action:** Exploring West wing via (6, 8).
 - **Gates Check:**
   - Checking (10, 6)...
 - **Clue:** "Start with the end switch."
