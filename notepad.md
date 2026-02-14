@@ -2,12 +2,12 @@
 - **Goal:** Rescue Director.
 - **Status:**
   - Sw3: ON.
-  - Sw2: ON (Target: Turn OFF).
+  - Sw2: OFF (Verified).
   - Sw1: ON.
 - **New Hypothesis:**
-  - Need Sw2 OFF to OPEN (16, 6).
-  - Need Sw1 ON to OPEN (16, 7) & (12, 8).
-  - Path: Sw2(OFF) -> Go to Col 16 -> Down (16, 6 is open) -> Down (16, 7 is open) -> West to (12, 8) -> South.
+  - Sw2 OFF -> (16, 6) OPEN.
+  - Sw1 ON -> (16, 7) & (12, 8) OPEN.
+  - Path: (10, 2) -> (16, 2) -> South to (16, 8) -> West to (12, 8) -> South to Director.
 - **Plan:**
   1. Turn Sw2 OFF.
   2. Go to Sw1 area.
