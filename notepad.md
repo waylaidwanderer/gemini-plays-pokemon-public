@@ -1,12 +1,12 @@
 # Underground Warehouse
 - **Goal:** Rescue Director.
 - **Status:**
-  - Grunt at (17, 2) seems to be already defeated or ignored.
+  - Grunt at (17, 2) is defeated/passive.
   - Sw3: ON (Verified).
   - Sw2: ON (Verified).
   - Sw1: OFF (Located at 16, 1).
 - **Plan:**
-  1. Face UP and Turn Sw1 ON.
+  1. Turn Sw1 ON.
   2. Verify sequence 3->2->1 opens path to Director.
 - **Mechanics (Verified XML):**
   - Sw3 ON: Opens (16, 10), Closes (6, 8).
