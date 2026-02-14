@@ -18,12 +18,11 @@
 - Puzzle Status:
   - Switch 3 (2, 1): ON.
   - Switch 2 (10, 1): ON.
-  - Switch 1 (16, 1): ON (Executing).
+  - Switch 1 (16, 1): ON (Verified).
 - Strategy: Testing Sequence 3 -> 2 -> 1.
-  - Current Action: Turn Switch 1 ON.
+  - Current Action: Verify Shutters.
   - Observation: Check Shutters at (12, 8) and (6, 8).
 - Navigation:
-  - Interact with Switch 1.
   - Move West to check shutters.
 - Navigation:
   - From (9, 5) to Switch 2 at (10, 1).
