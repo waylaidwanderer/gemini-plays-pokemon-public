@@ -6,8 +6,9 @@
   - Sw2: ON.
   - Sequence: 3 -> 2 -> 1.
   - Gate (10, 6): OPEN.
-- **Action:** Checking Gate (12, 8).
+  - Gate (12, 8): OPEN (Confirmed walkable).
+- **Action:** Exploring East Wing.
 - **Plan:**
-  1. Try East Gate (12, 8).
-  2. If open -> Go to (16, 10) -> South -> Director.
-  3. If closed -> Go check West Gate (2, 10).
+  1. Go East to (16, 8).
+  2. Check for path South.
+  3. Look for Real Director.
