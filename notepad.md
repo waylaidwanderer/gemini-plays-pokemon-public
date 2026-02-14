@@ -21,8 +21,8 @@
   - Switch 1 (16, 1): ON (Target: Turn OFF).
 - Goal: Reset all to OFF, then execute sequence 3 -> 2 -> 1.
 - Clue: "End is the one to press first" (Switch 3).
-- Path: Heading to Switch 1 to Reset.
-- Next Steps:
+- Battle: Rocket Grunt at (16, 2).
+- Plan after battle:
   1. Turn Switch 1 OFF.
   2. Turn Switch 3 ON.
   3. Turn Switch 2 ON.
