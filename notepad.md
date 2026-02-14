@@ -2,13 +2,12 @@
 - **Goal:** Rescue Director.
 - **Strategy:** [Sw3=OFF, Sw2=ON, Sw1=ON].
 - **Status:**
-  - Sw3: Turning OFF (Current).
+  - Sw3: OFF (Verified Turn 42343).
   - Sw2: ON (Verified).
   - Sw1: ON (Verified).
 - **Plan:**
-  1. Turn Sw3 OFF.
-  2. Walk East via Row 4 to (16, 7).
-  3. Verify if (16, 7) is OPEN (Bypassing trap).
-  4. Go South to Director.
+  1. Walk East along Row 2 to Shutter (12, 8).
+  2. Verify (12, 8) is OPEN.
+  3. Go South to Director (9, 12).
 - **Reminder:** Bag is full. Need to sell/use items to pick up loot.
 - **Exploration:** Investigating East Zone for path to Director (9, 12).
