@@ -7,11 +7,11 @@
   - `1 -> 2 -> 3`: (2, 6) & (12, 8) OPEN.
 - **Current Execution:**
   - Resetting all switches to OFF to retry `3 -> 1 -> 2` cleanly.
-  - Current State: Sw1 ON, Sw2 OFF, Sw3 ON.
-  - Immediate Goal: Turn Sw1 OFF.
+  - Current State: Sw1 OFF, Sw2 OFF, Sw3 ON.
+  - Immediate Goal: Turn Sw3 OFF.
 
 # Switch Status (Current)
-- Sw1: ON (Target: Turn OFF)
+- Sw1: OFF (Just turned OFF)
 - Sw2: OFF (Verified)
 - Sw3: ON (Verified)
 - Effect of Sw3 ON: Opens Gate (2, 6).
