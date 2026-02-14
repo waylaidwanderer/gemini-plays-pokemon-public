@@ -1,12 +1,12 @@
 # Underground Warehouse
 - **Goal:** Rescue Director (Real one).
 - **Status:**
-  - Sw1: ON.
+  - Sw1: Uncertain (Thought ON, might be OFF).
   - Sw2: ON.
-  - Sw3: ON (Just turned ON).
-  - Sequence: 1 -> 2 -> 3 (Right to Left).
-- **Hypothesis:** "End Switch" = Right End (Sw1).
+  - Sw3: Turning ON now.
+  - Sequence: 1(?) -> 2 -> 3.
+- **Correction:** Switch 3 was actually OFF (Action cancelled previously).
 - **Plan:**
-  1. Check Gate (2, 10) [West].
-  2. Check Gate (10, 6) [Central].
-  3. Check Gate (12, 8) [East].
+  1. Turn Sw3 ON.
+  2. Check Gate (2, 10).
+  3. If closed, go check Switch 1 status.
