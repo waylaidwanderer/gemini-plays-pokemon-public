@@ -1,16 +1,17 @@
 # Underground Warehouse Strategy
 - **Clue:** "The switch on the end is the one to press first."
 - **Tested Sequences & Results:**
-  - `3 -> 1 -> 2`: Conflicting results. (10, 6) reported OPEN once, CLOSED later.
-  - **Hypothesis:** The Trap Warp at (15, 1) might reset switches (specifically Sw1).
+  - `3 -> 1 -> 2` (All ON): (10, 6) CLOSED.
+  - `1 -> 3` (Sw2 OFF): (10, 6) CLOSED.
+  - **Goal State:** Sw1 ON, Sw2 OFF, Sw3 OFF. (Historical note says this opens (10, 6)).
 - **Current Execution:**
-  - Sequence Attempt: `3 -> 1 -> 2` (CLEAN RUN - No Traps).
-  - Step 1: Turn Sw3 ON. (Done).
-  - Step 2: Turn Sw1 ON. (Done).
-  - Step 3: Turn Sw2 ON. (Done).
+  - Current State: Sw1 ON, Sw2 ON, Sw3 ON.
+  - Step 1: Turn Sw2 OFF. (Doing now).
+  - Step 2: Turn Sw3 OFF.
+  - Final State: Sw1 ON Only.
 
 # Switch Status (After this turn)
 - Sw1: ON (Verified)
-- Sw2: ON (Just turned ON)
+- Sw2: OFF (Just turned OFF)
 - Sw3: ON (Verified)
-- Goal: Check Gate at (10, 6).
+- Goal: Reach Sw1 ON Only state.
