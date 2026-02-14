@@ -2,9 +2,9 @@
 - **Goal:** Rescue Director (Real one).
 - **Status:**
   - Sw3: ON.
-  - Sw2: ON (Just turned ON).
-  - Sw1: OFF.
+  - Sw2: ON.
+  - Sw1: OFF (Target: Turn ON).
 - **Plan:**
-  1. Go to Sw1 (16, 1). Turn ON.
+  1. Turn Sw1 ON (Final Step of Sequence).
   2. Check Gate (2, 10).
 - **Hypothesis:** Sequence 3 -> 2 -> 1.
