@@ -1,7 +1,6 @@
 # Underground Warehouse Strategy
-- **Current Status:** Sw2 OFF (Verified). Sw3 ON.
-- **Action:** Turning Switch 3 OFF.
-- **Goal:** Reset all switches to OFF.
-- **Next Step:** Once All OFF, execute Sequence: 3 -> 2 -> 1.
-- **Hypothesis:** "The switch on the end" refers to Switch 3.
-- **Note:** Bypassing Grunt at (3,2).
+- **Correction:** Switch 3 was OFF.
+- **Current Status:** Sw2 OFF, Sw3 OFF. (All Reset).
+- **Plan:** Execute Sequence: 3 -> 2 -> 1.
+- **Step 1:** Turn Switch 3 ON.
+- **Next:** Move to Switch 2 and Turn ON.
