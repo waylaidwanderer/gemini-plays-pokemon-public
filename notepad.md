@@ -6,14 +6,14 @@
   - `3 -> 2 -> 1`: (2, 6) & (12, 8) OPEN.
   - `1 -> 2 -> 3`: (2, 6) & (12, 8) OPEN.
 - **Current Execution:**
-  - Sequence: 3 (ON) -> 1 (ON) -> 2 (OFF -> ON)
-  - Current State: Sw3 ON, Sw1 ON, Sw2 ON (Just turned ON).
-  - Next Step: Check Gate at (10, 6).
+  - Resetting all switches to OFF to retry `3 -> 1 -> 2` cleanly.
+  - Current State: Sw1 ON, Sw2 OFF, Sw3 ON.
+  - Immediate Goal: Turn Sw1 OFF.
 
 # Switch Status (Current)
-- Sw1: ON (Verified)
-- Sw2: ON (Just turned ON)
+- Sw1: ON (Target: Turn OFF)
+- Sw2: OFF (Verified)
 - Sw3: ON (Verified)
 - Effect of Sw3 ON: Opens Gate (2, 6).
 - Effect of Sw3+Sw1 ON: Opens Gate (12, 8). Gate (10, 6) CLOSED.
-- Goal: Verify if (10, 6) is OPEN.
+- Goal: Reset all to OFF.
