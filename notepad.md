@@ -1,7 +1,7 @@
 # Warehouse Strategy
 - Objective: Rescue Director (Underground Warehouse 3_54).
 - Puzzle Status:
-  - Switch 3 (2, 1): ON -> Turn OFF.
+  - Switch 3 (2, 1): ON -> Turn OFF (Action in progress).
   - Switch 2 (10, 1): ON.
   - Switch 1 (16, 1): ON.
 - Strategy Update:
