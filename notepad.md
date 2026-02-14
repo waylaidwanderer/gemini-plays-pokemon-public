@@ -1,12 +1,12 @@
-# Warehouse Switch Puzzle - Solved?
-- Clue: "The switch on the end is the one to press first." -> Switch 3 (Left) was correct.
+# Warehouse Switch Puzzle - Active
+- Clue: "The switch on the end is the one to press first." -> Switch 3 (Left) correct.
 - Current State: Sw3 ON, Sw2 ON, Sw1 OFF.
-- Path: Shutter (6, 8) is OPEN.
-- Action: Moving through Shutter 2.
-- Obstacle: Trainer at (4, 8) will likely spot me.
+- Map Data: Shutter (6, 8) is OPEN (TYPE_2889 in XML).
+- Obstacle: Trainer at (4, 8) guarding the path.
+- Trap Check: (12, 9) is a trap. (6, 9) is likely safe (Parallel structure: Left = Safe, Right = Trap).
 
 ## Plan
-1. Move to (6, 8) to trigger battle.
-2. Defeat Trainer.
-3. Check (6, 9) for traps.
-4. Navigate to Director (9, 12).
+1. Move South to (6, 8).
+2. Engage/Defeat Trainer at (4, 8).
+3. Proceed to (6, 9) -> (9, 12).
+4. Save Director.
