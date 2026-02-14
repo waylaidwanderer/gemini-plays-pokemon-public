@@ -9,7 +9,7 @@
 - **Hypothesis:** Switch 2 toggles West/East gates. OFF=East(16,6), ON=West(??).
 - **Status:**
   - Sw3: ON (Verified).
-  - Sw2: OFF (Verified).
+  - Sw2: OFF (Action queued).
   - Sw1: ON (Verified).
 - **Hypothesis:** Sw3 ON + Sw2 OFF = All West Gates Open.
 - **Plan:**
