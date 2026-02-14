@@ -1,7 +1,5 @@
-# Warehouse Switch Puzzle - Recovery
-- **Target State (Hypothesis):** [Sw3 OFF, Sw2 ON, Sw1 ON].
-- **Current Task:** Entering Corridor.
-- **Switch 3:** Verified ON (Turn 42259).
-- **Status:** Shutter at (6, 8) is OPEN (Switch 3 worked).
-- **Next:** Confront Rival at (4, 8).
-- **Goal:** Defeat Rival, then Director.
+# Underground Warehouse
+- **Puzzle Solved:** Switches [3=ON, 2=OFF, 1=ON] opened shutter at (6, 8).
+- **Current Task:** Defeat Rival Silver.
+- **Location:** (4, 8).
+- **Team:** Garnet (Lv51) leading.
