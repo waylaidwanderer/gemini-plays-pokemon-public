@@ -6,17 +6,14 @@
 | OFF | OFF | ON  | Closed| Closed| Open  | Open   | Tested 42154 |
 | OFF | ON  | ON  | Closed| Closed| Open  | Open   | Tested 42156 |
 | OFF | ON  | OFF | ?     | Closed| Open  | Closed | Tested 42161 |
-| ON  | ON  | OFF | Closed| Closed| Open  | Closed | Tested 42118 |
-| ON  | OFF | OFF | ?     | Closed| ?     | Closed | Tested 42126 |
+| OFF | OFF | OFF | Closed| ?     | ?     | ?      | Tested 42163 (Current) |
 
 # Deduction
-- (6, 6) has NEVER opened. It might be a fake path.
-- (3, 6) is the likely path.
-- Untested states for (3, 6): [OFF, OFF, OFF] and [ON, OFF, OFF].
-- Clue "Start with End Switch" implies [ON, OFF, OFF].
+- With everything OFF, (3, 6) is Closed.
+- "Switch on the end first" implies starting with Sw3 ON.
+- **Target State:** [Sw3 ON, Sw2 OFF, Sw1 OFF].
 
 # Plan
-1. Turn Switch 2 OFF (Reach [OFF, OFF, OFF]).
-2. Check (3, 6).
-3. If Closed, Turn Switch 3 ON (Reach [ON, OFF, OFF]).
-4. Check (3, 6).
+1. Move to Switch 3 (2, 1).
+2. Turn Switch 3 ON.
+3. Check (3, 6) and (6, 6).
