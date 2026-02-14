@@ -3,10 +3,11 @@
 - **Status:**
   - Sw3: ON.
   - Sw2: OFF.
-  - Sw1: ON (Confirmed).
+  - Sw1: ON.
+  - Gate (16, 6): Closed (Visual).
 - **Plan:**
-  1. Verify Gate (16, 6) and (16, 7).
-  2. If Open: Go South through (16, 10).
-  3. If (16, 10) blocked: Turn Sw3 OFF.
-  4. Hypothesis: Sw1 opens Entry, Sw3 OFF opens Exit.
-- **Current State:** Sw3 ON, Sw2 OFF, Sw1 ON.
+  1. Go to Sw3 (2, 1). Turn OFF.
+  2. Result: Sw3 OFF, Sw2 OFF, Sw1 ON.
+  3. Return to East Side.
+  4. Check Gate (16, 6) and (16, 10).
+- **Hypothesis:** Sw3 OFF is required for East Path.
