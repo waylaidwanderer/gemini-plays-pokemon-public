@@ -17,17 +17,12 @@
   - Walls at Row 10 are blocking access to Director/Item.
 - Puzzle Status:
   - Switch 3 (2, 1): OFF.
-  - Switch 2 (10, 1): ON -> Turn OFF (Executing).
-  - Switch 1 (16, 1): ON -> Turn OFF.
-- Strategy: Reset All, then Test Sequence 1 -> 2 -> 3.
-  - New Hypothesis: Right End First (1 -> 2 -> 3).
-- Execution:
-  1. Turn Switch 3 OFF (Done).
-  2. Turn Switch 2 OFF (Executing).
-  3. Turn Switch 1 OFF.
-  4. Perform Sequence: 1 -> 2 -> 3.
-- Navigation:
-  - Moving to Switch 2 (10, 1).
+  - Switch 2 (10, 1): ON -> Target: OFF.
+  - Switch 1 (16, 1): ON -> Target: OFF.
+- Strategy: Reset All, then Test Sequence 1 -> 2 -> 3 (Right End First).
+  - Hypothesis: "End" = Right End (Switch 1).
+  - Sequence: 1 -> 2 -> 3.
+  - Verification: Check shutters at (12, 8) and (6, 8) after steps.
 - Navigation:
   - From (9, 5) to Switch 2 at (10, 1).
 - Current Step: Navigating to Switch 3 (Step 2 of 1-3-2 Sequence). Path: West along Row 4.
