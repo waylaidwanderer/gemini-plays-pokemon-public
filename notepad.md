@@ -1,9 +1,9 @@
 # Underground Warehouse
 - **Goal:** Rescue Director.
-- **Strategy:** [Sw3=OFF, Sw2=ON, Sw1=ON].
+- **Strategy:** [Sw3=OFF, Sw2=OFF, Sw1=ON].
 - **Status:**
   - Sw3: OFF (Verified Turn 42343).
-  - Sw2: ON (Verified).
+  - Sw2: OFF (Testing).
   - Sw1: ON (Verified).
 - **Plan:**
   1. Go to Switch 2 (10, 1).
