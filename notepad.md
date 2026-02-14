@@ -4,7 +4,7 @@
 - **Status:**
   - Sw3: OFF (Verified Turn 42343).
   - Sw2: ON (Verified).
-  - Sw1: OFF (Testing).
+  - Sw1: OFF (Assumed).
 - **Plan:**
   1. Walk East to (16, 5).
   2. Check if Wall at (16, 6)/(16, 7) is OPEN.
