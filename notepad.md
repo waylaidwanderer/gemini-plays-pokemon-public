@@ -4,12 +4,14 @@
   - Sw3: OFF (Verified).
   - Sw2: OFF.
   - Sw1: ON.
-  - SYSTEM ALERT: (12, 8) & (12, 9) changed to WALKABLE (Floor).
-- **New Plan:**
-  1. Go to (12, 8).
-  2. If open, go South to reach Director.
-  3. If blocked, resume reset plan.
-- **Mechanics (Verified XML):**
+  - SYSTEM CONFIRMED: (12, 8) & (12, 9) are OPEN.
+  - MAP CONFIRMED: (16, 6) & (16, 7) are OPEN.
+- **Path:**
+  1. Go East to (16, 5).
+  2. Go South through (16, 6-7) to (16, 8).
+  3. Go West to (12, 8).
+  4. Go South to Director.
+- **Mechanics:**
 - **Mechanics (Verified XML):**
 - **Plan:**
   1. Turn Sw2 OFF.
