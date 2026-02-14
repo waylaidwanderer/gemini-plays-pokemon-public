@@ -3,11 +3,11 @@
 - **Current Task:** Entering Corridor.
 - **Switch 3:** Verified OFF (Turn 42216) (Marker says ON - Conflict).
 - **Switch 2:** Verified ON (Turn 42252). Toggled OFF.
-- **Next:** Check shutter at (6, 8).
+- **Status:** Shutter at (6, 8) CLOSED.
+- **Hypothesis:** Switch 3 controls (6, 8).
+- **Action:** Go to Switch 3 (2, 1).
 
 ## Plan
-1. Move to Switch 1 (16, 2).
-2. Verify/Set Sw1 to **ON**.
-3. Go to (12, 8) and enter the corridor.
-4. Go West to (6, 8) (Target Shutter).
-5. Go South to Director.
+1. Toggle Switch 3 (2, 1).
+2. Check shutter at (6, 8).
+3. If open, go to Director.
