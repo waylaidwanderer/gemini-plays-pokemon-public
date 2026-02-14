@@ -1,15 +1,15 @@
 # Underground Warehouse
 - **Goal:** Rescue Director (Real one).
 - **Status:**
-  - Sw3: ON.
+  - Sw3: OFF (Likely).
   - Sw2: OFF.
   - Sw1: ON.
-  - Duncan (Imposter) defeated at (9, 12).
 - **Plan:**
-  1. Go South to (16, 21).
-  2. Go West along Row 21.
-  3. Loop North to West Side.
-  4. Loot Item (1, 12) & Find Director.
+  1. Turn Sw1 OFF (Reset).
+  2. Verify Sw3 is OFF.
+  3. Execute Sequence: Sw3 ON -> Sw2 ON.
+  4. Check Gate (2, 10).
+- **Hypothesis:** Sw1 ON might be keeping (2, 10) closed? Or Order matters.
 - **Mechanics:**
   - Sw3 ON: Opens (16, 10), Opens (6, 8).
   - Sw3 OFF: (2, 10) is CLOSED.
