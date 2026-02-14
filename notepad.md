@@ -19,3 +19,5 @@
 - **Goal:** Check if (10, 6) opens with Sw2 Only.
 - [Sw3 OFF, Sw2 ON, Sw1 OFF] -> (10, 6) CLOSED. (Tested Turn 43390)
 - Next Test: Toggle Sw2 OFF. Target State: [Sw3 OFF, Sw2 OFF, Sw1 OFF].
+- Toggling Sw3 ON. Target State: [Sw3 ON, Sw2 ON, Sw1 OFF].
+- Goal: Check if this opens (2, 10) or any other gate, even if (10, 6) is closed.
