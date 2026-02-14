@@ -6,9 +6,10 @@
   - Sw1: ON.
   - Duncan (Imposter) defeated at (9, 12).
 - **Plan:**
-  1. Go South through (16, 10).
-  2. Loop to West Side via South.
-  3. Loot Item (1, 12) & Find Director.
+  1. Go South to (16, 21).
+  2. Go West along Row 21.
+  3. Loop North to West Side.
+  4. Loot Item (1, 12) & Find Director.
 - **Mechanics:**
   - Sw3 ON: Opens (16, 10), Opens (6, 8).
   - Sw3 OFF: (2, 10) is CLOSED.
