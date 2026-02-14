@@ -16,15 +16,14 @@
   - Current State: Switch 1 ON, Switch 3 ON.
   - Walls at Row 10 are blocking access to Director/Item.
 - Puzzle Status:
-  - Switch 3 (2, 1): ON.
-  - Switch 2 (10, 1): ON (Will Turn OFF).
-  - Switch 1 (16, 1): ON.
+  - Switch 3 (2, 1): ON (To Be Reset).
+  - Switch 2 (10, 1): OFF (Turning OFF now).
+  - Switch 1 (16, 1): ON (To Be Reset).
 - Strategy: Scientific Method. Reset ALL to OFF. Then Test Switch 3.
-  - Hypothesis: Turning switches toggles others. Check shutter immediately after each press.
-  - Goal: Open Shutter at (6, 8).
+  - Goal: Clear the board to ground truth.
 - Execution:
-  1. Turn Switch 2 OFF (Next).
-  2. Turn Switch 1 OFF.
+  1. Turn Switch 2 OFF (Executing).
+  2. Turn Switch 1 OFF (Next).
   3. Turn Switch 3 OFF.
   4. Turn Switch 3 ON.
   5. Check Shutter at (6, 8).
