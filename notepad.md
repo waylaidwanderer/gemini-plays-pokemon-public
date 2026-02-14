@@ -7,8 +7,9 @@
   - Sequence: 3 -> 2 -> 1.
   - Gate (10, 6): OPEN.
   - Gate (12, 8): OPEN.
-- **Current Task:** Find path South to Row 12.
+- **Current Task:** Re-investigate East Wing (Critique suggests missed path).
 - **Plan:**
-  1. Check Gate (16, 10) [East].
-  2. If closed, go check Gate (2, 10) [West].
-  3. If both closed, re-evaluate switch combos.
+  1. Go back to East Wing (16, 8).
+  2. Check tiles (18, 8) and (19, 8) specifically.
+  3. Look for path to Rocket Grunt F (19, 12).
+  4. If truly blocked, check West Gate (2, 10).
