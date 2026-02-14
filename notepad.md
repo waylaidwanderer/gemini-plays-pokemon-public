@@ -1,16 +1,15 @@
 # Underground Warehouse
 - **Goal:** Rescue Director.
 - **Status:**
-  - Sw3: OFF (Verified).
+  - Sw3: OFF.
   - Sw2: OFF.
   - Sw1: ON.
-  - SYSTEM CONFIRMED: (12, 8) & (12, 9) are OPEN.
-  - MAP CONFIRMED: (16, 6) & (16, 7) are OPEN.
-- **Path:**
-  1. Go East to (16, 5).
-  2. Go South through (16, 6-7) to (16, 8).
-  3. Go West to (12, 8).
-  4. Go South to Director.
+  - PATH OPENED: (10, 10) & (10, 11) are now Floor (Type 3fe2).
+  - Path at (12, 8) & (12, 9) also open.
+- **Plan:**
+  1. Go Left to (10, 8).
+  2. Go Down to (10, 12).
+  3. Talk to Director at (9, 12).
 - **Mechanics:**
 - **Mechanics (Verified XML):**
 - **Plan:**
