@@ -2,15 +2,15 @@
 - **Goal:** Rescue Director.
 - **New Hypothesis:** Sw2 controls Top Gates (OFF=East, ON=West). Sw1 controls Bottom Gates (or Center)? Sw3 overrides everything.
 - **Status:**
-  - Sw3: OFF (Verified).
-  - Sw2: ON (Verified).
-  - Sw1: ON (Verified).
-- **Discovery:** West Top Gate (2, 6) OPENED by Sw2 ON.
-- **Hypothesis:** Sw2 ON opens West Top. Sw2 OFF opens East Top.
+  - Sw3: OFF.
+  - Sw2: ON (Opens West Top Gate 2,6).
+  - Sw1: ON.
+- **Hypothesis:** Sw3 controls Bottom Gates. Since Sw3 is OFF, (2, 10) is likely CLOSED.
+- **Winning Combo Theory:** Sw3=ON (Bottoms Open, Forces Sw2 ON) + Sw2=ON (Top West Open).
 - **Plan:**
-  1. Go Left to (2, 5).
-  2. Go South through Gate (2, 6).
-  3. Explore West Zone (Rival Silver area).
-  4. Look for path to Director (9, 12) from West.
+  1. Check Gate (2, 10). Expect Closed.
+  2. If Closed, return to Sw3 (2, 1).
+  3. Turn Sw3 ON.
+  4. Return to West Route and pass through.
 - **Reminder:** Bag is full.
 - **Reminder:** Bag is full.
