@@ -1,5 +1,8 @@
 # Underground Warehouse Strategy
-- **Current Status:** Sw2 OFF, Sw3 OFF (Verified). All OFF.
-- **Goal:** Execute Sequence: 3 -> 2 -> 1.
-- **Step 1:** Turn Switch 3 ON. (Retrying, last attempt cancelled).
-- **Next:** Move to Switch 2 and Turn ON.
+- **Logic:** Sequence 3->2 (Sw3 ON then Sw2 ON) failed in Turn 43465.
+- **Logic:** Sequence 2->3 (Sw2 ON then Sw3 ON) worked in Turn 43393.
+- **Plan:** Execute Sequence 2->3.
+  1. Cancel Sw3 (Leave OFF).
+  2. Go to Sw2 -> Turn ON.
+  3. Return to Sw3 -> Turn ON.
+- **Hypothesis:** Starting from All OFF, Sw2 ON keeps Gate (2, 6) OPEN.
