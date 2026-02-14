@@ -15,16 +15,19 @@
   - Need to find "Switch 2" or the correct sequence.
   - Current State: Switch 1 ON, Switch 3 ON.
   - Walls at Row 10 are blocking access to Director/Item.
-- Puzzle Reset Complete:
-  - Switch 3 (2, 1): OFF.
-  - Switch 2 (10, 1): OFF.
-  - Switch 1 (16, 1): OFF.
+- Puzzle Reset in Progress:
+  - Switch 3 (2, 1): OFF (Verified).
+  - Switch 2 (10, 1): OFF (Verified).
+  - Switch 1 (16, 1): Toggling to OFF (Expect Wall 16, 7 to CLOSE).
 - Sequence Plan:
   1. Turn Switch 3 ON.
   2. Turn Switch 2 ON.
   3. Turn Switch 1 ON.
-  4. Check path to Director (expecting (6, 8) or (12, 8) to open).
-- Current Step: Heading to Switch 3.
+  4. Check path to Director.
+- Logic:
+  - "End First" = Start with 3.
+  - "Change Order" = Sequential.
+- Current Step: Verifying Switch 1 OFF, then going to Switch 3.
 - Clues:
   - "End is the one to press first" -> Switch 3.
   - "Change the order" -> Sequence matters.
