@@ -1,15 +1,16 @@
-# Warehouse Switch Puzzle - Final Adjustment
-- **Status:** At (12, 9). Trap did not trigger? Or maybe it will when I move.
-- **Goal:** Set switches to [Sw3 OFF, Sw2 ON, Sw1 ON].
-- **Current:** [Sw3 ON, Sw2 OFF, Sw1 ON].
+# Warehouse Switch Puzzle - Final Solution Execution
+- **Target State:** [Sw3 OFF, Sw2 ON, Sw1 ON].
+- **Reasoning:** This combination opens Shutter (6, 8).
 - **Route:** 
-  1. Exit via (12, 8) -> East to (16, 8) -> North to Switch Area.
-  2. Toggle Sw2 ON.
-  3. Toggle Sw3 OFF.
-  4. Return via (16, 8) -> (12, 8) -> West to Director.
+  1. Turn Switch 2 ON (Currently OFF).
+  2. Turn Switch 3 OFF (Currently ON).
+  3. Enter Shutter (6, 8).
+  4. Move West to Column 3.
+  5. Move South to Director.
 
 ## Plan
-1. Move Up to (12, 8).
-2. Move Right to (16, 8).
-3. Move Up to (16, 5).
-4. Go to Switch 2.
+1. Move to Switch 2 (10, 2).
+2. Toggle Switch 2 ON.
+3. Move to Switch 3 (2, 2).
+4. Toggle Switch 3 OFF.
+5. Head to (6, 8).
