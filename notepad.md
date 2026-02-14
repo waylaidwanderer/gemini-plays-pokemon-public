@@ -1,10 +1,11 @@
 # Underground Warehouse
 - **Goal:** Rescue Director (Real one).
 - **Status:**
-  - Sw1: OFF (Reset).
-  - Sw3: OFF (Reset).
-  - Sw2: OFF (Reset).
-  - Next: Sequence 3 -> 2 -> 1.
+  - Sw1: OFF.
+  - Sw3: ON (Already ON, Step 1 complete).
+  - Sw2: OFF.
+  - Sequence: 3 (Done) -> 2 -> 1.
+- **Next:** Turn Sw2 ON.
 - **Gates Check:**
   - Checking (10, 6)...
 - **Clue:** "Start with the end switch."
