@@ -10,5 +10,5 @@
 # Switch Status (Current)
 - Sw1: ON (Turned ON just now)
 - Sw2: OFF (Verified)
-- Sw3: OFF (Verified)
-- Goal: Go to Sw3 (2, 1).
+- Sw3: ON (Just turned ON)
+- Goal: Go to Sw2 (10, 1).
