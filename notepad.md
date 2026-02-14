@@ -5,12 +5,12 @@
   - **Hypothesis:** The Trap Warp at (15, 1) might reset switches (specifically Sw1).
 - **Current Execution:**
   - Sequence Attempt: `3 -> 1 -> 2` (CLEAN RUN - No Traps).
-  - Step 1: Turn Sw3 ON. (Doing now).
-  - Next: Turn Sw1 ON.
+  - Step 1: Turn Sw3 ON. (Done).
+  - Step 2: Turn Sw1 ON. (Doing now).
   - Next: Turn Sw2 ON.
 
 # Switch Status (After this turn)
-- Sw1: OFF (Verified)
+- Sw1: ON (Just turned ON)
 - Sw2: OFF (Verified)
-- Sw3: ON (Just turned ON)
+- Sw3: ON (Verified)
 - Goal: Execute `3 -> 1 -> 2`. Avoid Traps!
