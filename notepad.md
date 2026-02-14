@@ -6,11 +6,12 @@
   - Sw2: ON (Verified).
   - Sw1: ON.
 - **Logic:**
-  - Sw3 ON should open Bottom Gates (2, 10).
+  - Sw3 ON opens Bottom Gates (2, 10).
   - Sw2 ON opens Top Gates (2, 6).
 - **Plan:**
-  1. Go South through Gate (2, 6) (Should be OPEN).
-  2. Go South through Gate (2, 10) (Should be OPEN).
-  3. Reach Director (9, 12).
+  1. Go South to (2, 10).
+  2. Verify Gate (2, 10) is OPEN.
+  3. Go East to Director (9, 12).
+  4. Get Card Key.
 - **Reminder:** Bag is full.
 - **Reminder:** Bag is full.
