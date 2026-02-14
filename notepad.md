@@ -6,10 +6,10 @@
   - Sw2: ON.
   - Sequence: 3 -> 2 -> 1.
   - Gate (10, 6): OPEN.
-  - Gate (12, 8): OPEN.
-- **Current Task:** Re-investigate East Wing (Critique suggests missed path).
+  - Gate (12, 8): OPEN (Leads to Trap?).
+  - Gate (18, 8): CLOSED (Verified).
+- **Current Task:** Check West Gate (2, 10).
 - **Plan:**
-  1. Go back to East Wing (16, 8).
-  2. Check tiles (18, 8) and (19, 8) specifically.
-  3. Look for path to Rocket Grunt F (19, 12).
-  4. If truly blocked, check West Gate (2, 10).
+  1. Go West to (2, 10).
+  2. If closed, reset switches.
+  3. Try 3 -> 1 -> 2?
