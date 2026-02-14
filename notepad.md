@@ -1,12 +1,13 @@
 # Warehouse Switch Puzzle - Solution Testing
-- Observation: Switch 2 ON closed (3, 6).
-- Observation: Switch 1 ON closed (12, 8) (Trap) and opened (6, 8) (Target).
-- Current State: Sw1 ON, Sw2 OFF, Sw3 ON.
-- Status: Moving to check (3, 6).
-- Hypothesis: Switch 2 OFF opens (3, 6).
+- State: Sw1 ON, Sw2 OFF, Sw3 ON.
+- Result: (3, 6) and (6, 6) are CLOSED (TYPE_2889).
+- Conclusion: Current combo is incorrect.
+- Clue: "The switch on the end is the one to press first."
+- Hypothesis: Maybe Switch 3 (Left End) needs to be toggled again or combined differently?
+- Plan: Toggle Switch 3 OFF. Test [Sw1 ON, Sw2 OFF, Sw3 OFF].
 
 ## Plan
-1. Move Left to (3, 5).
-2. Check (3, 6).
-3. If Open, go South to (3, 8) -> (6, 8) -> Director.
-4. If Closed, strategy failed. Re-evaluate Switch 3.
+1. Move to Switch 3 (2, 1).
+   - Path: Left to (2, 5), Up to (2, 2).
+2. Toggle Switch 3 (Turn OFF).
+3. Check (3, 6) and (6, 6).
