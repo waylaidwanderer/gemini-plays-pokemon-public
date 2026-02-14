@@ -1,43 +1,7 @@
-# Underground Warehouse Strategy
-- **Clue:** "The switch on the end is the one to press first."
-- **Tested & Failed Sequences:**
-  - `3 -> 1 -> 2` (All ON) -> (10, 6) CLOSED.
-  - `3 -> 2 -> 1` (All ON) -> (10, 6) CLOSED.
-  - `1 -> 2 -> 3` -> (10, 6) CLOSED.
-  - `1 Only` -> (10, 6) CLOSED.
-  - `3 Only` -> (10, 6) CLOSED.
-  - [3 ON, 2 ON, 1 OFF] -> (10, 6) CLOSED.
-- **Current Plan:** Test Sub-sequences.
-  - Current State: Sw3 OFF, Sw2 ON, Sw1 OFF.
-  - Target State: [Sw2 Only].
-  - Next Step: Check Gate (10, 6).
-
-# Switch Status
-- Sw1: OFF (Verified)
-- Sw2: ON (Verified)
-- Sw3: OFF (Just turned OFF)
-- **Goal:** Check if (10, 6) opens with Sw2 Only.
-- [Sw3 OFF, Sw2 ON, Sw1 OFF] -> (10, 6) CLOSED. (Tested Turn 43390)
-- Next Test: Toggle Sw2 OFF. Target State: [Sw3 OFF, Sw2 OFF, Sw1 OFF].
-- Toggling Sw3 ON. Target State: [Sw3 ON, Sw2 ON, Sw1 OFF].
-- Goal: Check if this opens (2, 10) or any other gate, even if (10, 6) is closed.
-- [Sw3 ON, Sw2 ON, Sw1 OFF] -> (10, 6) CLOSED, (16, 6) CLOSED, (6, 8) CLOSED.
-- Correction: (6, 8) is CLOSED with Sw3 ON.
-- Confirmed: (6, 8) was OPEN with Sw3 OFF (Initial State).
-- Plan: Toggle Sw3 OFF -> (6, 8) Opens.
-- Then Path: (6, 8) -> Bypass Silver -> East Section.
-- Path Found: (2, 6) [Open] -> Row 9 (Bypass Rival) -> (12, 8) [Open] -> East Section.
-- Goal: Reach East Section to find Director or Key.
-- Note: Avoid (12, 9) Trap Warp.
-- Current Step: Moving to (2, 9) to start path.
-- Toggled Sw3 OFF (Turn 43403).
-- Expectation: (6, 8) becomes OPEN.
-- Next: Go to (6, 8).
-- Current State [Sw3 OFF, Sw2 ON, Sw1 OFF]:
-  - (6, 8) OPEN.
-  - (12, 8) OPEN.
-  - (10, 10) OPEN.
-  - (10, 6) CLOSED.
-  - (2, 10) CLOSED.
-  - (16, 6) CLOSED.
-- Confirmed Path: (6, 8) -> East.
+# Underground Warehouse State [Sw3 OFF, Sw2 ON, Sw1 OFF]
+- **Gates:**
+  - OPEN: (2, 6), (10, 6), (6, 8), (12, 8).
+  - CLOSED: (2, 10), (16, 6), (10, 10), (16, 10).
+- **Access:** Can reach Switch 2 (10, 1) and East Area via (12, 8).
+- **Goal:** Reach Switch 1 (locked behind 16, 6) or Director.
+- **Plan:** Go to Switch 2. Toggle OFF. Test if "All OFF" opens (16, 6).
