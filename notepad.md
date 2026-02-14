@@ -7,7 +7,8 @@
   - Gate (10, 6): OPEN.
   - Gate (6, 8): OPEN.
   - Gate (12, 8): CLOSED.
-- **Action:** Exploring West wing via (6, 8).
+- **Action:** Navigating West Wing (Silver at 4,8).
+- **Plan:** Go around Silver to explore West.
 - **Gates Check:**
   - Checking (10, 6)...
 - **Clue:** "Start with the end switch."
