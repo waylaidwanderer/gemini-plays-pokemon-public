@@ -8,3 +8,6 @@
 - **Gates Check:**
   - Checking (10, 6)...
 - **Clue:** "Start with the end switch."
+- Gate (10, 6): Closed (Confirmed).
+- Sequence 1->3->2 (All ON) Failed.
+- Next: Turn Sw2 OFF.
