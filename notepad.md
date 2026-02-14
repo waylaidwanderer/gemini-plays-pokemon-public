@@ -1,12 +1,12 @@
 # Underground Warehouse
 - **Goal:** Rescue Director (Real one).
 - **Status:**
-  - Sw3: OFF (Turning OFF).
+  - Sw3: OFF (Confirmed).
   - Sw2: OFF.
   - Sw1: ON.
-  - Gate (16, 6): Closed (Visual before this).
+  - Gate (16, 6): Checking...
 - **Plan:**
-  1. Confirm Sw3 is OFF.
-  2. Go to East Side (16, 6).
-  3. Check if Gate (16, 6) or (16, 10) is Open.
-- **Hypothesis:** Sw3 OFF + Sw2 OFF + Sw1 ON = Success?
+  1. Go to East Side (16, 6).
+  2. If Open: Go South to (16, 10) and beyond.
+  3. If Closed: Well, back to the drawing board.
+- **Hypothesis:** Sw3 OFF + Sw2 OFF + Sw1 ON = East Path Open.
