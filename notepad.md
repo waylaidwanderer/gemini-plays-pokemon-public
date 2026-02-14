@@ -3,10 +3,10 @@
 - **New Hypothesis:** Sw2 controls Top Gates (OFF=East, ON=West). Sw1 controls Bottom Gates (or Center)? Sw3 overrides everything.
 - **Status:**
   - Sw3: OFF (Verified).
-  - Sw2: ON (Turning ON now).
+  - Sw2: OFF (Previous toggle likely cancelled with 'B').
   - Sw1: ON (Verified).
 - **Plan:**
-  1. Confirm Sw2 is ON.
+  1. Turn Switch 2 ON (Press 'A' to confirm YES).
   2. Go West to Col 6.
   3. Check Gates (6, 6) and (6, 10).
   4. Reach Director (9, 12).
