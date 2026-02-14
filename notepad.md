@@ -1,21 +1,10 @@
 # Underground Warehouse
 - **Goal:** Rescue Director (Real one).
 - **Status:**
-  - Sw1: ON (Sequence Complete).
+  - Sw1: ON.
   - Sw3: ON.
   - Sw2: ON.
   - Sequence: 3 -> 2 -> 1.
-- **Action:** Checking results.
-- **Gates Status:**
-  - (10, 6): was OPEN (Sw3+Sw2).
-  - (6, 8): was OPEN (Sw3+Sw2).
-  - (2, 10): was CLOSED.
-  - (12, 8): was CLOSED.
-- **Gates Check:**
-  - Checking (10, 6)...
-- **Clue:** "Start with the end switch."
-- Gate (10, 6): Closed (Confirmed).
-- Sequence 1->3->2 (All ON) Failed.
-- Next: Turn Sw2 OFF.
-- Testing Gate (10, 6)...
-- Moving to Switch 1 to turn OFF.
+  - Gate (10, 6): OPEN.
+- **Action:** Entering Central Area via (10, 6).
+- **Goal:** Find Real Director.
