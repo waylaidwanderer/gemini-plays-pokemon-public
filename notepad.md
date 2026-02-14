@@ -14,4 +14,6 @@
 - Sw1: ON (To be verified)
 - Sw2: OFF (Verified)
 - Sw3: OFF (Verified - kept it OFF)
-- Gate (6, 8): Checking status. (If Closed, Sw3 OFF closes it. If Open, Sw3 OFF opens it).
+- Gate (6, 8): CLOSED (Verified via XML - Sw3 OFF closed it).
+- Gate (10, 6): CLOSED (Verified via XML).
+- Gate (2, 6): CLOSED (Verified via XML).
