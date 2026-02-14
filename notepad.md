@@ -4,10 +4,10 @@
 - Deduction: Switch 1 MUST BE ON to open Shutter 2.
 - Conflict: Switch 1 ON also opens Shutter 1 (Trap Path).
 - Solution: Turn Switch 1 ON, but ignore Shutter 1. Go through Shutter 2.
+- Current Status: Turning Switch 1 ON.
 
 ## Plan
-1. Go to Switch 1 (16, 1).
-2. Turn Switch 1 ON.
-3. Verify Shutter 2 (6, 8) opens (becomes `TYPE_3fe2`).
-4. Enter Shutter 2.
-5. Proceed to Director (9, 12).
+1. Interact with Switch 1 (Turn ON).
+2. Move to (6, 8) via main corridor (Row 4/5).
+3. Enter Shutter 2.
+4. Proceed to Director (9, 12).
