@@ -2,14 +2,14 @@
 - **Goal:** Rescue Director.
 - **Hypothesis:** Switch Order/Priority. Last pressed switch overrides conflicts?
 - **Status:**
-  - Sw3: ON (Opens Bottom Gates, Closes Top/Center).
+  - Sw3: ON.
   - Sw2: OFF.
-  - Sw1: OFF (Toggling to reset priority).
-  - **Conflict:** Sw3 ON currently blocking Sw1's Center Path.
+  - Sw1: ON (Last Pressed).
+  - **Test:** Does Sw1 ON override Sw3's lockout of Center Gate (12, 8)?
 - **Plan:**
-  1. Turn Switch 1 OFF (Current Step).
-  2. Turn Switch 1 ON (Next Step).
-  3. Check if Center Gate (12, 8) opens.
-  4. If open, go (12, 8) -> (16, 8) -> (16, 10) -> Director.
+  1. Confirm Sw1 is ON.
+  2. Go South to (12, 8) to check Center Gate.
+  3. If open, proceed to (16, 10) -> Director.
+  4. If closed, try toggling Sw2 next.
 - **Reminder:** Bag is full.
 - **Reminder:** Bag is full.
