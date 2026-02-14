@@ -8,7 +8,7 @@
   - Gate (10, 6): Open.
   - Gate (6, 8): Open.
 - **Plan:**
-  1. Go South to (6, 11).
-  2. Go West to Item (1, 12).
-  3. Go East/South to find Director (Duncan is at 9, 12).
+  1. Continue South past Silver.
+  2. Check if path connects to (1, 12) or Director.
+  3. If blocked, look for another switch or path.
 - **Hypothesis:** All Switches ON opens the "Central West" path via Col 6.
