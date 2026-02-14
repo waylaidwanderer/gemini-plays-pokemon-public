@@ -30,3 +30,6 @@
 - Goal: Reach East Section to find Director or Key.
 - Note: Avoid (12, 9) Trap Warp.
 - Current Step: Moving to (2, 9) to start path.
+- Toggled Sw3 OFF (Turn 43403).
+- Expectation: (6, 8) becomes OPEN.
+- Next: Go to (6, 8).
