@@ -2,10 +2,10 @@
 - **Goal:** Rescue Director (Real one).
 - **Status:**
   - Sw1: OFF.
-  - Sw3: ON (Already ON, Step 1 complete).
+  - Sw3: ON (Step 1 Done).
   - Sw2: OFF.
-  - Sequence: 3 (Done) -> 2 -> 1.
-- **Next:** Turn Sw2 ON.
+  - Sequence: 3 (Done) -> 2 (Next) -> 1.
+- **Action:** moving to Switch 2.
 - **Gates Check:**
   - Checking (10, 6)...
 - **Clue:** "Start with the end switch."
