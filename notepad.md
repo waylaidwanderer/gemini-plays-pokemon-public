@@ -16,18 +16,18 @@
   - Current State: Switch 1 ON, Switch 3 ON.
   - Walls at Row 10 are blocking access to Director/Item.
 - Puzzle Status:
-  - Switch 3 (2, 1): ON (Verified Turn 41955). Step 2 Complete.
-  - Switch 2 (10, 1): OFF (Verified Turn 41938). Reset Complete.
-  - Switch 1 (16, 1): ON (Verified Turn 41948). Step 1 Complete.
+  - Switch 3 (2, 1): ON (Verified Turn 41955).
+  - Switch 2 (10, 1): OFF (Target).
+  - Switch 1 (16, 1): ON (Verified Turn 41948).
 - New Sequence Plan (Test 1-3-2):
   1. Turn Switch 1 ON (Done).
   2. Turn Switch 3 ON (Done).
-  3. Turn Switch 2 ON (Step 3).
+  3. Turn Switch 2 ON (Next).
   4. Check Path.
-  3. Turn Switch 3 ON.
-  4. Check path to Director.
-  3. Turn Switch 1 ON.
-  4. Check path to Director.
+- Permutations Tried:
+  - 3 -> 2 -> 1 (Fail)
+  - 1 -> 2 -> 3 (Fail)
+  - 3 -> 1 -> 2 (Fail)
 - Current Step: Navigating to Switch 3 (Step 2 of 1-3-2 Sequence). Path: West along Row 4.
 - Clues:
   - "End is the one to press first" -> Switch 3.
