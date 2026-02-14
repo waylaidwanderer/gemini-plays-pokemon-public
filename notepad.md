@@ -8,3 +8,5 @@
 - **Plan:**
   1. Go to Shutter (12, 8). Verify OPEN.
   2. Go to Director via East Zone.
+- **Reminder:** Bag is full. Need to sell/use items to pick up loot.
+- **Exploration:** Investigating East Zone for path to Director (9, 12).
