@@ -24,3 +24,7 @@
 - [Sw3 ON, Sw2 ON, Sw1 OFF] -> (10, 6) CLOSED, (16, 6) CLOSED.
 - (6, 8) is OPEN (Sw3 controls this).
 - Plan: Physically check (10, 6) and (16, 6). If locked, use Trap Warp at (12, 9) to attempt reset or find new path.
+- Path Found: (2, 6) [Open] -> Row 9 (Bypass Rival) -> (12, 8) [Open] -> East Section.
+- Goal: Reach East Section to find Director or Key.
+- Note: Avoid (12, 9) Trap Warp.
+- Current Step: Moving to (2, 9) to start path.
