@@ -18,15 +18,19 @@
 - Puzzle Status:
   - Switch 3 (2, 1): Status Unknown (Likely OFF/Reset needed).
   - Switch 2 (10, 1): OFF. Wall (12, 8) is OPEN.
-  - Switch 1 (16, 1): ON. Wall (16, 7) is OPEN.
+  - Switch 1 (16, 1): Toggling to OFF. (Expect Wall 16, 7 to CLOSE).
 - Plan:
-  1. Go to Switch 1 (16, 1).
-  2. Turn Switch 1 OFF (Reset).
-  3. Ensure Switch 2 and 3 are OFF.
-  4. Execute Sequence: Switch 3 -> Switch 2 -> Switch 1.
-- Notes:
-  - Grunt at (17, 2) guards Switch 1. Expect Battle.
-  - "End is the one to press first" -> Starting with 3 (Left End).
+  1. Toggle Switch 1 OFF.
+  2. Confirm Wall (16, 7) is CLOSED.
+  3. Go to Switch 3 (2, 1).
+  4. Execute Sequence: Switch 3 -> Switch 2 -> Switch 1 (if needed).
+- Clue Interpretation:
+  - "End is the one to press first" -> Start with Switch 3.
+  - "Change the order" -> Order matters.
+- Reflection (Turn 41747):
+  - 50-turn review: Lots of running, need systematic testing.
+  - Risk: Locking myself in North area. Acceptable, as all switches are there.
+  - Goal: Open path to Director (9, 12). likely via (6, 8) or (12, 8).
 - Reflection (Turn 41696):
   - Current Status: Heading to Middle Area (11, 3).
   - Hypothesis: Switch 2 is in Row 1, between x=6 and x=12.
