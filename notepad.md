@@ -14,7 +14,7 @@
   7. Check Gate (2, 10).
 
 # Switch Status (Current)
-- Sw1: ON (About to turn OFF)
+- Sw1: OFF (Verified)
 - Sw2: ON
 - Sw3: ON
-- Goal: Reset all to OFF. Start with Sw1.
+- Goal: Reset all to OFF. Next: Turn Sw2 OFF.
