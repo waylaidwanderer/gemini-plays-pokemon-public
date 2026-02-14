@@ -10,7 +10,7 @@
 ## Switch Effects Table
 | Switch | State | (3,6) | (6,8) | (12,8) |
 |--------|-------|-------|-------|--------|
-| All    | OFF   | ?     | ?     | Closed |
+| All    | OFF   | ?     | Closed | Closed |
 | 1      | ON    | ?     | ?     | Open   |
 | 2      | ON    | ?     | ?     | ?      |
 | 3      | ON    | ?     | ?     | ?      |
@@ -19,8 +19,8 @@
 1. Reset Complete (All OFF).
 2. Inspect ALL 3 shutters to establish Baseline (All OFF).
    - Check (12, 8) (Done: Closed).
-   - Check (6, 8) (Next).
-   - Check (3, 6).
+   - Check (6, 8) (Done: Closed).
+   - Check (3, 6) (Next).
 3. Test Switch 1 ON -> Inspect.
 4. Test Switch 2 ON -> Inspect.
 5. Test Switch 3 ON -> Inspect.
