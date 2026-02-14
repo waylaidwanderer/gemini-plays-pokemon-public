@@ -4,7 +4,7 @@
 - **Status:**
   - Sw3: OFF (Verified).
   - Sw2: OFF (Verified - Gate (16,6) OPEN).
-  - Sw1: OFF (Verified - Gate (16,10) CLOSED).
+  - Sw1: ON (Action queued).
 - **Hypothesis:** Switch 3 controls Gate (16, 10).
 - **Plan:**
   1. Turn Switch 1 ON (Reset).
