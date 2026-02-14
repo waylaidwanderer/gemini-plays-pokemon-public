@@ -23,7 +23,7 @@
   - Current Action: Verify Shutters.
   - Observation: Check Shutters at (12, 8) and (6, 8).
 - Navigation:
-  - Move West to check shutters.
+  - Move to (12, 5) and (6, 5) to check shutters.
 - Navigation:
   - From (9, 5) to Switch 2 at (10, 1).
 - Current Step: Navigating to Switch 3 (Step 2 of 1-3-2 Sequence). Path: West along Row 4.
