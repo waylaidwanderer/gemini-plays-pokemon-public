@@ -639,12 +639,17 @@
         }
       }
     },
-    "python_script": "import xml.etree.ElementTree as ET\n\n# Parse XML\nroot = ET.fromstring(map_xml_string)\n\n# Default gates if not provided\ndefault_gates = [[2, 6], [10, 6], [16, 6], [6, 8], [12, 8], [2, 10], [10, 10], [16, 10]]\ngates = input_data.get('gate_coordinates')\nif not gates:\n    gates = default_gates\n\nresults = []\n\nfor pos in gates:\n    x, y = pos[0], pos[1]\n    # Find the tile\n    tile = None\n    for row in root.findall('Row'):\n        if int(row.get('id')) == y:\n            for t in row.findall('Tile'):\n                if int(t.get('id')) == x:\n                    tile = t\n                    break\n            break\n            \n    if tile is not None:\n        t_type = tile.get('type')\n        # Heuristic based on observation: \n        # TYPE_2889 is usually wall/closed gate\n        # TYPE_3fe2 is floor/open gate\n        state = \"UNKNOWN\"\n        if t_type == \"TYPE_2889\":\n            state = \"CLOSED\"\n        elif t_type == \"TYPE_3fe2\":\n            state = \"OPEN\"\n            \n        results.append({\n            \"coord\": f\"({x}, {y})\",\n            \"type\": t_type,\n            \"state\": state\n        })\n    else:\n        results.append({\n            \"coord\": f\"({x}, {y})\",\n            \"type\": \"N/A\",\n            \"state\": \"NOT_FOUND\"\n        })\n\nprint(results)",
+    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\n# Parse XML\nroot = ET.fromstring(map_xml_string)\n\n# Default gates if not provided\ndefault_gates = [[2, 6], [10, 6], [16, 6], [6, 8], [12, 8], [2, 10], [10, 10], [16, 10]]\ngates = input_data.get('gate_coordinates')\nif not gates:\n    gates = default_gates\n\nresults = []\n\nfor pos in gates:\n    x, y = pos[0], pos[1]\n    # Find the tile\n    tile = None\n    for row in root.findall('Row'):\n        if int(row.get('id')) == y:\n            for t in row.findall('Tile'):\n                if int(t.get('id')) == x:\n                    tile = t\n                    break\n            break\n            \n    if tile is not None:\n        t_type = tile.get('type')\n        # Heuristic based on observation: \n        # TYPE_2889 is usually wall/closed gate\n        # TYPE_3fe2 is floor/open gate\n        state = \"UNKNOWN\"\n        if t_type == \"TYPE_2889\":\n            state = \"CLOSED\"\n        elif t_type == \"TYPE_3fe2\":\n            state = \"OPEN\"\n            \n        results.append({\n            \"coord\": f\"({x}, {y})\",\n            \"type\": t_type,\n            \"state\": state\n        })\n    else:\n        results.append({\n            \"coord\": f\"({x}, {y})\",\n            \"type\": \"N/A\",\n            \"state\": \"NOT_FOUND\"\n        })\n\nprint(json.dumps(results))",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2026-02-14T20:32:06.109Z",
         "action_counter": 43171
+      },
+      {
+        "commit_message": "Fixed JSON output format to use double quotes for valid JSON parsing.",
+        "timestamp": "2026-02-14T20:33:51.428Z",
+        "action_counter": 43174
       }
     ]
   }
