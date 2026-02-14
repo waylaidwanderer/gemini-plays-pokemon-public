@@ -13,9 +13,9 @@
   - Sw1: ON (Verified).
 - **Hypothesis:** Sw3 ON + Sw2 OFF = All West Gates Open.
 - **Plan:**
-  1. Go Down to Row 4 (to bypass wall at 7,2).
-  2. Go West to Col 6.
-  3. Go South and check Gate (6, 6).
-  4. Reach Director (9, 12).
+  1. Go West to (6, 4).
+  2. Check Gate (6, 6).
+  3. If open, go South past (6, 8) to Director (9, 12).
+  4. Note: Rival Silver is at (4, 8).
 - **Reminder:** Bag is full.
 - **Reminder:** Bag is full.
