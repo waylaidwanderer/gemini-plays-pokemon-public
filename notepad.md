@@ -2,10 +2,11 @@
 - **Goal:** Rescue Director (Real one).
 - **Status:**
   - Sw1: OFF.
-  - Sw3: ON (Step 1).
-  - Sw2: ON (Step 2).
-  - Gate (10, 6): OPEN! (Sw3 + Sw2).
-- **Action:** Exploring South past Gate (10, 6).
+  - Sw3: ON.
+  - Sw2: ON.
+  - Gate (10, 6): OPEN.
+- **Action:** Investigating internal gates: (6, 8), (12, 8), (10, 10), (2, 10).
+- **Plan:** Go South, check if I can go West or East.
 - **Gates Check:**
   - Checking (10, 6)...
 - **Clue:** "Start with the end switch."
