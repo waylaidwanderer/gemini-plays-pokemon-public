@@ -3,10 +3,10 @@
 - **Status:**
   - Sw3: OFF.
   - Sw2: OFF.
-  - Sw1: ON (Target: Turn OFF).
-  - Navigation: Bypassing Grunt at (11, 3) via Col 10.
+  - Sw1: OFF (All Reset).
 - **Plan:**
-  1. Turn Sw1 OFF (Reset).
-  2. Verify All OFF.
-  3. Execute Sequence: 1 -> 2 -> 3.
+  1. Turn Sw1 ON (Step 1).
+  2. Go to Sw2 (10, 1). Turn ON.
+  3. Go to Sw3 (2, 1). Turn ON.
+  4. Check Gates.
 - **Hypothesis:** Sequence 1 -> 2 -> 3 (Right End First).
