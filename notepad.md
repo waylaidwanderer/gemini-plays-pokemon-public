@@ -1,12 +1,13 @@
 # Warehouse Switch Puzzle - Solution Testing
-- Critical Discovery: Switch 3 is CURRENTLY OFF. (Screen text: "It's OFF").
-- Correction: My tracker said ON. I was wrong.
+- Critical Correction: Switch 3 was OFF when I thought it was ON.
 - Current State: Sw1 ON, Sw2 OFF, Sw3 OFF.
-- Plan: Test this state.
-- Route: Check (3, 6). If Open -> (3, 8) -> (6, 8) -> Director.
+- Observation: (3, 6) is CLOSED.
+- Implication: This combo is wrong.
+- New Hypothesis: Since I haven't actually tested Sw3 ON yet, maybe that's the key.
+- Target State: [Sw1 ON, Sw2 OFF, Sw3 ON].
 
 ## Plan
-1. Leave Switch 3 OFF (Press B).
-2. Move to (3, 5).
-3. Check Shutter (3, 6).
-4. If Closed, try turning Switch 3 ON (since I haven't actually tested ON if I was wrong before?).
+1. Go to Switch 3 (2, 1).
+2. Turn Switch 3 ON.
+3. Check Shutter (3, 6) again.
+4. If Closed, I might need to reset all to OFF and follow the clue "Switch on the end first".
