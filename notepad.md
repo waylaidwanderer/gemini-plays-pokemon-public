@@ -1,10 +1,10 @@
 # Underground Warehouse Strategy
-- **Current Status:** Sw3 OFF (Verified). Sw2 ON (Verified).
-- **Goal:** Reset Sw2 to OFF.
-- **Path:** Using corridor at Row 4 to reach Sw2.
-- **Next Plan:**
-  1. Turn Sw2 OFF (Result: All OFF).
-  2. Press Switch 3 (Turn ON).
-  3. Press Switch 2 (Turn ON).
-  4. Check Gate (12, 8).
-- **Rationale:** "End Switch First" -> 3 is the only accessible "End" switch.
+- **Current Status:** At Switch 2 (10, 2). Sw3 OFF. Sw2 ON.
+- **Immediate Action:** Turn Switch 2 OFF.
+- **Goal:** All Switches OFF (Reset).
+- **Sequence Plan (End Switch First):**
+  1. Turn Sw3 ON.
+  2. Turn Sw2 ON.
+  3. Turn Sw1 ON (if reached).
+  4. Check Director Room.
+- **Note:** Verify "It's OFF" text before moving.
