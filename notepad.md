@@ -4,12 +4,13 @@
   - Sw3: ON.
   - Sw2: ON.
   - Sw1: ON.
-  - Gate (2, 10): Closed.
-  - Gate (10, 6): Open.
-  - Path (10, 10): Checking availability.
+  - Gate (2, 10): Closed (Checked Turn 42797).
+  - Gate (10, 10): Closed (Visual).
+  - Gate (12, 8): Closed (Visual).
+  - Gate (6, 8): Open (Visual).
 - **Plan:**
-  1. Go South to (10, 9).
-  2. Verify if (10, 10) is passable.
-  3. If blocked, check West path (6, 8) -> (6, 10).
-  4. If all South paths blocked, backtrack to switches.
-- **Hypothesis:** All ON opens central area, but maybe blocks exit?
+  1. Go West to (6, 8).
+  2. Explore area West of (6, 8).
+  3. Check connection to Silver or Row 9.
+  4. Find a way South or a different switch combo.
+- **Puzzle:** "All ON" blocks most exits. Maybe 3 & 2 ON, 1 OFF?
