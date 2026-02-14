@@ -1,22 +1,22 @@
-# Warehouse Switch Puzzle - Truth Table
-| Sw3 | Sw2 | Sw1 | (3,6) | (6,6) | (6,8) | (12,8) | Notes |
-|-----|-----|-----|-------|-------|-------|--------|-------|
-| ON  | ON  | ON  | Closed| Closed| Closed| Closed | Tested 42152 |
-| ON  | OFF | ON  | Closed| Closed| Open  | Open   | Tested 42135, 42153 |
-| OFF | OFF | ON  | Closed| Closed| Open  | Open   | Tested 42154 |
-| OFF | ON  | ON  | Closed| Closed| Open  | Open   | Tested 42156 |
-| OFF | ON  | OFF | ?     | Closed| Open  | Closed | Tested 42161 |
-| OFF | OFF | OFF | Closed| Closed| ?     | ?      | Tested 42163 |
-| ON  | OFF | OFF | ?     | ?     | ?     | ?      | Testing NOW |
+# Warehouse Switch Puzzle - Final Solution
+- The "Path" via (3, 6) and (6, 6) is likely a diversion or locked by a complex sequence.
+- **The Real Solution:** The "Trap Path" at (12, 8) is the correct entrance, but we must **avoid the trap tile**.
+- Map Analysis: Row 8 is a continuous corridor.
+- Strategy:
+  1. Open Shutter (12, 8) by turning **Switch 1 ON**.
+  2. Enter (12, 8).
+  3. **DO NOT** step down to (12, 9) (Trap).
+  4. Move **LEFT** to (11, 8).
+  5. Continue West to Column 9.
+  6. Go South to Director.
 
-# Deduction
-- With everything OFF, (3, 6) is Closed.
-- "Switch on the end first" implies starting with Sw3 ON.
-- **Target State:** [Sw3 ON, Sw2 OFF, Sw1 OFF].
+## Current State
+- Sw3: ON.
+- Sw2: OFF.
+- Sw1: OFF.
 
-# Plan
-1. Turn Switch 3 ON (Press A).
-2. Move to (3, 5).
-3. Check Shutter (3, 6).
-4. If Open, this is the first step.
-5. Then determine next step (maybe Sw2 or Sw1 needs to be toggled *after* Sw3).
+## Plan
+1. Move to Switch 1 (16, 1).
+2. Turn Switch 1 ON.
+3. Proceed to Shutter (12, 8).
+4. Execute the "Side-Step" maneuver.
