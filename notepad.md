@@ -16,12 +16,12 @@
   - Current State: Switch 1 ON, Switch 3 ON.
   - Walls at Row 10 are blocking access to Director/Item.
 - Puzzle Status:
-  - Switch 3 (2, 1): OFF (Verified Turn 41907). Reset Complete.
+  - Switch 3 (2, 1): ON (Verified Turn 41908). Step 1 Complete.
   - Switch 2 (10, 1): OFF (Verified Turn 41895). Reset Complete.
   - Switch 1 (16, 1): OFF (Verified Turn 41904). Reset Complete.
 - New Sequence Plan (Test 3-1-2):
-  1. Turn Switch 3 ON (Step 1).
-  2. Turn Switch 1 ON (Step 2).
+  1. Turn Switch 3 ON (Done).
+  2. Turn Switch 1 ON (Next).
   3. Turn Switch 2 ON (Step 3).
   4. Check Path.
   3. Turn Switch 3 ON.
