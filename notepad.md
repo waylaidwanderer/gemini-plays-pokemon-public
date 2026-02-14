@@ -1,9 +1,9 @@
 # Underground Warehouse
 - **Goal:** Rescue Director (Real one).
 - **Status:**
-  - Sw3: ON.
+  - Sw3: ON -> Turning OFF.
   - Sw2: OFF.
-  - Sw1: OFF (Just turned OFF).
+  - Sw1: OFF.
 - **Plan:**
   1. Turn Sw3 OFF (Full Reset).
   2. Execute Sequence: 1 -> 2 -> 3.
