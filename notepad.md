@@ -1,13 +1,14 @@
 # Underground Warehouse
 - **Goal:** Rescue Director (Real one).
 - **Status:**
-  - Sw3: ON (Sequence Complete).
+  - Sw3: ON.
   - Sw2: ON.
   - Sw1: ON.
-  - Gate (12, 8): Open.
-  - Gate (16, 7): Closed.
+  - Gate (2, 10): Closed.
+  - Gate (10, 6): Open.
+  - Gate (6, 8): Open.
 - **Plan:**
-  1. Check Gate (2, 10).
-  2. If Open: Loot Item (1, 12) & Find Director.
-  3. If Closed: Re-evaluate.
-- **Hypothesis:** Sequence 1 -> 2 -> 3 (Right End First).
+  1. Go East to (10, 6).
+  2. Go South to (6, 11).
+  3. Go West to Item (1, 12) & Director.
+- **Insight:** (2, 10) might be an exit only? Taking the scenic route.
