@@ -8,13 +8,12 @@
   - `3 Only` -> (10, 6) CLOSED.
   - [3 ON, 2 ON, 1 OFF] -> (10, 6) CLOSED.
 - **Current Plan:** Test Sub-sequences.
-  - Current State: Sw3 ON, Sw2 ON, Sw1 OFF.
-  - Observation: Gate (12, 8) is OPEN even with Sw1 OFF. (Disproves "Gate 12,8 = Sw1" theory).
-  - Next Test: Turn Sw3 OFF.
-  - Target State: [Sw3 OFF, Sw2 ON, Sw1 OFF] (Only Sw2 ON).
+  - Current State: Sw3 OFF, Sw2 ON, Sw1 OFF.
+  - Target State: [Sw2 Only].
+  - Next Step: Check Gate (10, 6).
 
 # Switch Status
-- Sw1: OFF (Verified by Text)
+- Sw1: OFF (Verified)
 - Sw2: ON (Verified)
-- Sw3: ON (Verified)
-- **Goal:** Test State [Sw2 Only].
+- Sw3: OFF (Just turned OFF)
+- **Goal:** Check if (10, 6) opens with Sw2 Only.
