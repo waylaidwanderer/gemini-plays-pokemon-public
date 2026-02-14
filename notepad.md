@@ -3,9 +3,9 @@
 - **Status:**
   - Sw1: OFF.
   - Sw3: ON (Step 1 Done).
-  - Sw2: ON (Step 2 Done).
+  - Sw2: ON (Step 2 Done - Confirmed).
   - Sequence: 3 -> 2 -> 1 (Next).
-- **Action:** moving to Switch 1.
+- **Action:** moving to Switch 1 (Right End).
 - **Gates Check:**
   - Checking (10, 6)...
 - **Clue:** "Start with the end switch."
