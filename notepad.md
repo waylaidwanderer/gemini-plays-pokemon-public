@@ -1,7 +1,7 @@
 # Warehouse Strategy
 - Objective: Rescue Director (Underground Warehouse 3_54).
 - Puzzle Status:
-  - Switch 3 (2, 1): ON (Verifying).
+  - Switch 3 (2, 1): ON (Verified).
   - Switch 2 (10, 1): ON.
   - Switch 1 (16, 1): ON.
 - Observations:
