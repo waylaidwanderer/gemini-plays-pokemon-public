@@ -11,9 +11,10 @@
   - Sw3: OFF.
   - Sw2: OFF.
   - Sw1: ON.
-  - Gate (16, 6): Closed (Checking...).
+  - Gate (16, 6): Closed (Confirmed).
   - Gate (10, 6): Open.
 - **Plan:**
-  1. Check Gate (16, 6) (Now that Sw1 is ON).
-  2. If closed, maybe Sw1 controls something else or needs another switch.
+  1. Go to Switch 2 (10, 1).
+  2. Turn Switch 2 ON (Sequence: 1 -> 2?).
+  3. Check Gates (Does 1+2 open anything new?).
 - **Hypothesis:** Central Path might be the key with this combo.
