@@ -2,9 +2,9 @@
 - **Goal:** Rescue Director (Real one).
 - **Status:**
   - Sw1: ON.
-  - Sw3: OFF (Just turned OFF).
+  - Sw3: OFF (Confirmed).
   - Sw2: ON.
-  - Resetting to OFF.
+  - Goal: Turn Sw2 and Sw1 OFF.
 - **Hypothesis:** Sequence 1 -> 2 -> 3 might be the key.
 - **Plan:**
   1. Turn Sw2 OFF.
