@@ -1,13 +1,13 @@
 # Underground Warehouse
 - **Goal:** Rescue Director (Real one).
 - **Status:**
-  - Sw1: OFF.
-  - Sw2: OFF (Turning OFF now).
+  - Sw1: OFF (Turning ON now).
+  - Sw2: OFF.
   - Sw3: OFF.
-  - Goal: All OFF.
-- **Next Sequence:** 1 -> 2 -> 3 (Right to Left).
+  - Goal: Sequence 1 -> 2 -> 3.
+- **Hypothesis:** Right-to-Left (1->2->3) opens the West Gate (2, 10).
 - **Plan:**
-  1. Go to Switch 1 (16, 1).
-  2. Turn Sw1 ON.
-  3. Go to Switch 2. Turn ON.
-  4. Go to Switch 3. Turn ON.
+  1. Turn Sw1 ON.
+  2. Turn Sw2 ON.
+  3. Turn Sw3 ON.
+  4. Check Gates.
