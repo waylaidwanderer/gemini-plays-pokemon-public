@@ -4,7 +4,7 @@
 - **Switch 3:** Verified OFF (Turn 42216).
 - **Switch 2:** Verified ON (Turn 42189).
 - **Switch 1:** Verified ON (Turn 42238).
-- **Next:** Check shutter at (12, 8).
+- **Next:** Go to Switch 3 (2, 1) and turn ON to open gate at (6, 8).
 
 ## Plan
 1. Move to Switch 1 (16, 2).
