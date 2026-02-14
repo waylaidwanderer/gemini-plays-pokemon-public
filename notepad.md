@@ -18,9 +18,9 @@
 - Puzzle Status:
   - Switch 3 (2, 1): ON (Verified Turn 41908). Action: Turn OFF (Reset).
   - Switch 2 (10, 1): OFF (Verified Turn 41938). Reset Complete.
-  - Switch 1 (16, 1): ON (Verified Turn 41914). Action: Turn OFF (Reset).
+  - Switch 1 (16, 1): OFF (Verified Turn 41939). Reset Complete.
 - New Sequence Plan (Test 1-3-2):
-  1. Reset all to OFF.
+  1. Turn Switch 3 OFF (Full Reset).
   2. Turn Switch 1 ON.
   3. Turn Switch 3 ON.
   4. Turn Switch 2 ON.
