@@ -18,14 +18,13 @@
 - Puzzle Status:
   - Switch 3 (2, 1): ON (Verified Turn 41892). Action: Turn OFF (Reset).
   - Switch 2 (10, 1): OFF (Verified Turn 41895). Reset Complete.
-  - Switch 1 (16, 1): ON (Verified Turn 41886). Action: Turn OFF (Reset).
+  - Switch 1 (16, 1): OFF (Verified Turn 41904). Reset Complete.
 - New Sequence Plan (Test 3-1-2):
-  1. Turn Switch 1 OFF.
-  2. Turn Switch 3 OFF.
-  3. Turn Switch 3 ON (Step 1).
-  4. Turn Switch 1 ON (Step 2).
-  5. Turn Switch 2 ON (Step 3).
-  6. Check Path.
+  1. Turn Switch 3 OFF.
+  2. Turn Switch 3 ON (Step 1).
+  3. Turn Switch 1 ON (Step 2).
+  4. Turn Switch 2 ON (Step 3).
+  5. Check Path.
   3. Turn Switch 3 ON.
   4. Check path to Director.
   3. Turn Switch 1 ON.
