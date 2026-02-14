@@ -1,14 +1,19 @@
-# Warehouse Switch Puzzle - Solution Testing
-- State: Sw1 ON, Sw2 OFF (Toggling NOW), Sw3 ON.
-- Hypothesis: [Sw1 ON, Sw2 OFF, Sw3 ON] is the solution.
-- Logic:
-  - Sw1 ON opens (6, 8) (Target).
-  - Sw3 ON closes (12, 8) (Trap)?
-  - Sw2 OFF opens (6, 6) (Path).
-- Plan: Toggle Sw2 OFF. Check (6, 6).
+# Warehouse Switch Puzzle - Truth Table
+| Sw3 | Sw2 | Sw1 | (3,6) | (6,6) | (6,8) | (12,8) | Notes |
+|-----|-----|-----|-------|-------|-------|--------|-------|
+| ON  | ON  | ON  | Closed| Closed| Closed| Closed | Tested 42152 (Current) |
+| ON  | OFF | ON  | Closed| ?     | ?     | Open   | Tested 42135 |
+| ON  | ON  | OFF | ?     | Closed| Open  | ?      | Tested 42118-42122 |
+| ON  | OFF | OFF | ?     | Closed| ?     | ?      | Tested 42126 |
+| OFF | OFF | ON  | Closed| ?     | ?     | Open   | Tested 42140 |
 
-## Plan
-1. Turn Switch 2 OFF (Press A x3).
-2. Move to (6, 5).
-3. Check Shutter (6, 6).
-4. If Open, proceed to (6, 8) and Director.
+# Hypothesis
+- Sw2 ON opens (6, 8).
+- Sw1 ON opens (6, 6) or (12, 8).
+- Sw3 ON might be closing (6, 6).
+- **Target State:** [Sw3 OFF, Sw2 ON, Sw1 ON].
+
+# Plan
+1. Turn Sw3 OFF (Currently at Sw3).
+2. Check (6, 6) and (6, 8).
+3. If fails, try [Sw3 OFF, Sw2 OFF, Sw1 ON] (Turn Sw2 OFF).
