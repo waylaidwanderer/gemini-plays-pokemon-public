@@ -16,18 +16,20 @@
   - Current State: Switch 1 ON, Switch 3 ON.
   - Walls at Row 10 are blocking access to Director/Item.
 - Puzzle Status:
-  - Switch 3 (2, 1): ON (Verified Turn 41955).
-  - Switch 2 (10, 1): ON (Verified Turn 41961). Sequence Complete.
-  - Switch 1 (16, 1): ON (Verified Turn 41948).
-- New Sequence Plan (Test 1-3-2):
-  1. Turn Switch 1 ON (Done).
-  2. Turn Switch 3 ON (Done).
-  3. Turn Switch 2 ON (Done).
-  4. Check Path (Executing).
-- Permutations Tried:
-  - 3 -> 2 -> 1 (Fail)
-  - 1 -> 2 -> 3 (Fail)
-  - 3 -> 1 -> 2 (Fail)
+  - Switch 3 (2, 1): ON.
+  - Switch 2 (10, 1): ON (Will Turn OFF).
+  - Switch 1 (16, 1): ON.
+- Strategy: Scientific Method. Reset ALL to OFF. Then Test Switch 3.
+  - Hypothesis: Turning switches toggles others. Check shutter immediately after each press.
+  - Goal: Open Shutter at (6, 8).
+- Execution:
+  1. Turn Switch 2 OFF (Next).
+  2. Turn Switch 1 OFF.
+  3. Turn Switch 3 OFF.
+  4. Turn Switch 3 ON.
+  5. Check Shutter at (6, 8).
+- Navigation:
+  - From (9, 5) to Switch 2 at (10, 1).
 - Current Step: Navigating to Switch 3 (Step 2 of 1-3-2 Sequence). Path: West along Row 4.
 - Clues:
   - "End is the one to press first" -> Switch 3.
