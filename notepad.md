@@ -6,8 +6,8 @@
   - Sw2: ON (Verified).
   - Sw1: ON (Verified).
 - **Plan:**
-  1. Walk East along Row 2 to Shutter (12, 8).
-  2. Verify (12, 8) is OPEN.
-  3. Go South to Director (9, 12).
-- **Reminder:** Bag is full. Need to sell/use items to pick up loot.
-- **Exploration:** Investigating East Zone for path to Director (9, 12).
+  1. Walk East to (16, 5).
+  2. Check if Wall at (16, 6)/(16, 7) is OPEN.
+  3. If OPEN, go South to Row 12, then West to Director.
+  4. If CLOSED, reconsider Switch combination.
+- **Reminder:** Bag is full.
