@@ -1,15 +1,17 @@
 # Underground Warehouse
 - **Goal:** Rescue Director.
 - **Status:**
-  - Grunt at (17, 2) is present.
-  - Sw3: ON (Verified).
-  - Sw2: ON (Verified).
-  - Sw1: ON (Verified).
-  - Path at (12, 8) & (12, 9) OPENED (Verified by System).
+  - Sw3: ON.
+  - Sw2: ON (Target: Turn OFF).
+  - Sw1: ON.
+- **New Hypothesis:**
+  - Need Sw2 OFF to OPEN (16, 6).
+  - Need Sw1 ON to OPEN (16, 7) & (12, 8).
+  - Path: Sw2(OFF) -> Go to Col 16 -> Down (16, 6 is open) -> Down (16, 7 is open) -> West to (12, 8) -> South.
 - **Plan:**
-  1. Go Down to (15, 6) (Push crate if needed).
-  2. Go West to (12, 6).
-  3. Go South through (12, 8) to reach the Director.
+  1. Turn Sw2 OFF.
+  2. Go to Sw1 area.
+  3. Walk South along x=16.
 - **Mechanics (Verified XML):**
   - Sw3 ON: Opens (16, 10), Closes (6, 8).
   - Sw2 ON: Opens (2, 6), Closes (16, 6).
