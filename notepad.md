@@ -3,9 +3,11 @@
 - **Puzzle Solved:** Switch Combination [0, 1, 0] (Sw2 ON only) -> Gate 2 OPEN.
 - **Current Status:**
   - Switches: [1, 0, 0] (Sw1 ON, Sw2 OFF, Sw3 OFF).
-  - Action: Turned Sw3 OFF.
-  - Next: Check Gate 3 (16, 6).
-  - Goal: Verify if [1, 0, 0] opens Gate 3.
+  - Gate 1, 2, 3 CLOSED.
+  - Plan: Target [0, 1, 1] (Sw1 OFF, Sw2 ON, Sw3 ON).
+  - Logic: [0,1,0]=Gate 2. [1,1,0]=Gate 1 (Right switch opens Left gate).
+  - Hypothesis: [0,1,1] (Left switch opens Right gate/Gate 3).
+  - Step 1: Turn Sw3 ON.
 - **Immediate Plan:**
   1. Move to Switch 1 (16, 1).
   2. Verify it is ON.
