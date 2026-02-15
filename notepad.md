@@ -43,9 +43,7 @@
 - Plan: Go to Switch 1 (16,1). Turn OFF.
 - Goal State: [0, 1, 0] (Sw1 OFF, Sw2 ON, Sw3 OFF).
 - Hypothesis: Sw1 OFF opens Gate 3.
-- Toggling Switch 1 OFF.
-- Target State: [0, 0, 0] (All OFF).
+- Toggled Switch 1 OFF. Current State: [0, 0, 0] (All OFF).
 - Hypothesis: [0, 0, 0] opens Wall at (16,10).
-- Gate 3 (16,6) is OPEN with [1, 0, 0].
-- Gate 2 (10,6) is CLOSED with [1, 0, 0].
-- Gate 1 (2,6) inferred OPEN with [1, 0, 0].
+- Previous State [1, 0, 0]: Gate 3 OPEN, Wall (16,10) CLOSED.
+- Action: Check Wall at (16,10). If closed, try [0, 1, 0].
