@@ -4,7 +4,7 @@
 - **Current Status:**
   - Switches: [1, 0, 1] (Sw1 ON, Sw2 OFF, Sw3 ON).
   - Validated: Sw2 is OFF. Sw3 is ON.
-  - Next: Verify Sw1 is ON.
+  - Action: Checking Sw1.
 - **Immediate Plan:**
   1. Move to Switch 1 (16, 1).
   2. Verify it is ON.
