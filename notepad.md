@@ -29,12 +29,9 @@
 - Toggled Switch 2 OFF. State: [0, 0, 0] (All OFF).
 - Toggled Switch 1 ON. State: [1, 0, 0].
 - Gate 2 (10,6) confirmed CLOSED with [1,0,0].
-- Gate 2 (10,6) CLOSED.
-- Gate 1 (2,6) CLOSED.
-- Supposed State: [1, 1, 0].
-- Contradiction: [1, 1, 0] previously opened Gate 1.
-- Conclusion: State is NOT [1, 1, 0].
-- Action: Audit all switches.
-  1. Check Sw2 (10,1).
-  2. Check Sw1 (16,1).
-  3. Check Sw3 (2,1).
+- AUDIT RESULT: Switch 2 was OFF!
+- Action: Turned Switch 2 ON.
+- CORRECTED State: [1, 1, 0] (Sw1=ON, Sw2=ON, Sw3=OFF).
+- This matches the state that opened Gate 1 previously.
+- Prediction: Gate 1 OPEN, Gate 3 OPEN, Wall (16,10) OPEN.
+- Next: Verify Gate 2 (10,6), then Gate 3 (16,6).
