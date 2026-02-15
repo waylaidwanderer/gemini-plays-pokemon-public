@@ -21,10 +21,14 @@
   - [110] (ON,ON,OFF): 10-6(M) | 6-8(L) | - (Stuck Mid/Left).
   - [111] (ON,ON,ON): 2-6(L) Open. 10-6(M) Closed. 16-6(R) Open.
 - **Analysis:** [1,1,1] opens the Right Gate!
-- **Hazard:** Reaching (16,8) caused a reset to (16,5). Suspect Trap Warp at (16,8).
+- **Hazard:** Reaching (16,8) caused a reset.
+- **Hazard:** Reaching (17,8) or (17,9) caused a reset to (17,5). Suspect Trap Zone.
+- **Current State:** [0,1,1] (Sw1 OFF, Sw2 ON, Sw3 ON).
+- **Hypothesis:** Testing [0,1,1].
 - **Plan:**
-  1. Dodge trap at (16,8) by moving to (17,7) then (17,8).
-  2. Check Inner Gates (16, 10), (12, 8).
+  1. Turn Sw1 OFF.
+  2. Check Gate (16, 6).
+  3. If closed, check Middle/Left Gates.
 - **Map Locations:**
   - Sw3 (Left): (2,1)
   - Sw2 (Mid): (10,1)
