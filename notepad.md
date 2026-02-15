@@ -88,3 +88,5 @@
 - Gate 3 with [1, 0, 1] leads to a small room (Rows 6-9, Cols 13-17).
   - No obvious exit found yet.
   - Investigating (16, 10) for hidden door.
+- Correction: I only checked West from (16, 9). I need to check East towards the Grunt at (19, 12).
+- Plan: Go South to (16, 9), then East.
