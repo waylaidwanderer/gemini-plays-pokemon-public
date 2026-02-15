@@ -61,9 +61,14 @@
   - [0, 1, 1]: Gate 3 CLOSED.
   - [0, 0, 1]: Gate 3 CLOSED.
   - [1, 0, 1]: Gate 3 OPEN. Gate 1 & 2 CLOSED. Trap (16, 8) DISABLED.
+- **Reflection (Turn 45388):**
+  - Progress: Systematically tested `[1,1,0]` (Gate 1) and `[1,0,1]` (Gate 3). Both led to dead ends or loops.
+  - Current Goal: Test `[0,1,0]` (Switch 2 ON only) to open Gate 2.
+  - Hypothesis: `[0,1,0]` will open Gate 2 and disable the trap at (10,9).
+  - Map Hygiene: Cleaned up conflicting markers on Switch 3.
+  - Mental Check: Switch 3 is confirmed OFF. Switch 1 is assumed OFF. Heading to Switch 2.
 - **Current Status:**
-  - Switches: [0, 0, 0] (Sw1 OFF, Sw2 OFF, Sw3 OFF).
-  - Note: Switch 3 reads "It's OFF". I must have toggled it OFF in the previous turn sequence.
+  - Switches: [0, 0, 0] (All OFF).
   - Transitioning to [0, 1, 0].
 - **Plan:**
   1. Move to Switch 2 (10, 1). Turn ON. -> State [0, 1, 0].
