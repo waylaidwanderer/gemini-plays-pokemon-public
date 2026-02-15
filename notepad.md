@@ -15,11 +15,12 @@
   - **Status:** Sw1 ON, Sw2 OFF, Sw3 OFF.
   - **Result:** (16,6) Open, (12,8) Closed.
   - **Analysis:** Sw1 ON does not open Dest. It keeps Entry Open (same as OFF).
-- **Config [ON, OFF, OFF] (Current):**
-  - **Status:** Sw1 ON, Sw2 OFF, Sw3 OFF.
-  - **Plan:** Turn Sw3 ON -> [ON, OFF, ON].
-  - **Hypothesis:** Sw1 ON keeps (16,6) Open. Sw3 ON opens (12,8). Sw2 OFF keeps (10,10) Open.
-  - **Goal:** (16,6) Open + (12,8) Open + (10,10) Open.
+- **Config [ON, OFF, ON] (Current):**
+  - **Status:** Sw1 ON, Sw2 OFF, Sw3 ON.
+  - **Result:** (2,6) Open. (16,6) Closed. (12,8) Closed.
+  - **Insight:** (2,6) allows entry but (12,8) is closed, forcing me into Trap (12,9).
+  - **Solution:** [OFF, OFF, ON] opens BOTH (2,6) and (12,8), allowing bypass of Trap.
+  - **Plan:** Turn Sw1 OFF. Then enter (2,6).
 - **Config [OFF, ON, ON] (Confirmed):**
   - **Result:** (2,6) Open, (12,8) Open. (16,6) Closed.
   - **Analysis:** Sw3 ON opens Dest (12,8) but closes Entry (16,6).
