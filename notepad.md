@@ -19,12 +19,11 @@
   - [100] (ON,OFF,OFF): 16-6(R) Closed. Checking Mid/Left.
   - [101] (ON,OFF,ON): All Entry Gates (2,6|10,6|16,6) Open. Navigating Mid.
   - [110] (ON,ON,OFF): 10-6(M) | 6-8(L) | - (Stuck Mid/Left).
-  - [111] (ON,ON,ON): 2-6,10-6 | - | 16-10.
-- **Analysis:** No combination so far opens Gate 12-8 (Right Cross) or 16-6 (Right Entry).
+  - [111] (ON,ON,ON): 2-6(L) Open. 10-6(M) Closed. 16-6(R) Open.
+- **Analysis:** [1,1,1] opens the Right Gate!
 - **Plan:**
-  1. Reset to [0,0,0].
-  2. Test [1,0,0] (Sw1 First).
-  3. If [1,0,0] fails, Test [0,1,0].
+  1. Enter Gate (16, 6).
+  2. Check Inner Gates (16, 10), (12, 8).
 - **Map Locations:**
   - Sw3 (Left): (2,1)
   - Sw2 (Mid): (10,1)
