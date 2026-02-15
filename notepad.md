@@ -11,7 +11,7 @@
   3. Check Exit Gate status with Tool.
   4. If Exit OPEN, check entry/cross gates for a safe route.
 - **Reflection (Turn 44555):**
-  - Progress: Gate 3 (16,6) visibly CLOSED with [1,1,1].
-  - Current State: Toggling Switch 1 (16,1) OFF -> Testing [1,1,0].
-  - Next: Check Gate 3 (16,6) and Exit Gate (16,10).
+  - Progress: Toggled Sw1 OFF.
+  - Current State: Testing [1,1,0] (Sw3 ON, Sw2 ON, Sw1 OFF).
+  - Next: Check Gate 3 (16,6) and Exit (16,10).
   - Goal: Open path to Exit (16,10).
