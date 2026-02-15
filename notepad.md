@@ -3,12 +3,11 @@
 - **Config [ON, ON, ON]:**
   - **Status:** Sw1 ON, Sw2 ON, Sw3 ON.
   - **Result:** (2,6) Open, (10,10) Open. (12,8) CLOSED, (6,8) CLOSED, (16,6) CLOSED. Fail.
-- **Config [ON, OFF, OFF] (Current):**
-  - **Status:** Sw1 ON, Sw2 OFF, Sw3 OFF.
-  - **Plan:** Turn Sw1 OFF -> [OFF, OFF, OFF].
-  - **Goal:** Reset puzzle.
-- **Hypothesis:** "End switch first" means start from All OFF, then toggle an end switch (1 or 3).
-- **Next:** Verify [OFF, OFF, OFF] gates. Then try Sw1 ON or Sw3 ON.
+- **Config [OFF, OFF, OFF] (Current):**
+  - **Status:** Sw1 OFF, Sw2 OFF, Sw3 OFF.
+  - **Plan:** Check gates (16,6) and (12,8).
+  - **Hypothesis:** "End switch first" -> Press Sw3 or Sw1 from here?
+- **Connections:** Warehouse (23,3) <-> Underground (22,27).
 - **Goal:** Reach Director via (6,8) -> (10,10).
 - **Hypothesis:** Switch 3 controls (6,8) (ON=Open?), or interacts with Sw1/2.
 - **Connections:** Warehouse (23,3) <-> Underground (22,27).
