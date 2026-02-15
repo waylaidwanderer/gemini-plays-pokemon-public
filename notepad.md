@@ -29,9 +29,9 @@
 - Toggled Switch 2 OFF. State: [0, 0, 0] (All OFF).
 - Toggled Switch 1 ON. State: [1, 0, 0].
 - Gate 2 (10,6) confirmed CLOSED with [1,0,0].
-- CRITICAL CHECK: Switch 2 might be OFF (Input error in 44919).
-- Current Visual: Gate 2 (10,6) is CLOSED.
-- Action: Go to Switch 2 (10,1) and Verify State.
-- If OFF: Toggle ON -> [1, 1, 1].
-- If ON: Then [1, 1, 1] keeps Gate 2 closed.
-- Goal: Determine actual state.
+- AUDIT: Switch 2 is ON.
+- Current State: [1, 1, 1] (Sw1=ON, Sw2=ON, Sw3=ON).
+- Gate 1 & 2 are CLOSED.
+- Action: Check Gate 3 (16,6).
+- If Gate 3 CLOSED, then [1, 1, 1] is invalid.
+- Next Plan: Re-verify Sw1, then try [1, 1, 0] again (Sw3 OFF).
