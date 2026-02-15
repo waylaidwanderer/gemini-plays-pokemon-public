@@ -67,12 +67,13 @@
   - Hypothesis: `[0,1,0]` will open Gate 2 and disable the trap at (10,9).
   - Map Hygiene: Cleaned up conflicting markers on Switch 3.
   - Mental Check: Switch 3 is confirmed OFF. Switch 1 is assumed OFF. Heading to Switch 2.
-- **Current Status:**
-  - Switches: [0, 0, 0] (All OFF).
-  - Transitioning to [0, 1, 0].
-- **Plan:**
-  1. Move to Switch 2 (10, 1). Turn ON. -> State [0, 1, 0].
-  2. Enter Gate 2 (10, 6) and check trap at (10, 9).
+- **Correction (Turn 45392):**
+  - Switch 1 interaction was incomplete. It is likely still ON.
+  - Current Real State: [1, 0, 0] (Sw1 ON, Sw2 OFF, Sw3 OFF).
+- **Revised Plan:**
+  1. Turn Switch 2 ON -> State [1, 1, 0].
+  2. Go to Switch 1. Verify/Turn OFF -> State [0, 1, 0].
+  3. Check Gate 2 (10, 6).
 - Visual Confirm: Gate 3 (16, 6) is CLOSED (Type 2889).
 - Visual Confirm: Gate 2 (10, 6) is CLOSED (Type 2889).
 - Checking Switch 1 Status...
