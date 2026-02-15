@@ -1,7 +1,8 @@
 # Underground Warehouse Mechanics
 - **Goal:** Rescue Director / Get Card Key.
-- **Config [OFF, ON, OFF]:**
-  - **Results:** (16,6) Closed. XML shows (10,6), (6,8), (2,10) Closed. Dead end.
-- **Plan:** Try Config [OFF, OFF, OFF].
-- **Action:** Toggle Switch 2 (OFF).
-- **Current Status:** Sw1: OFF, Sw2: ON, Sw3: OFF.
+- **Config [OFF, OFF, OFF]:**
+  - **Observation:** Switch 2 found to be OFF. Current state is All OFF.
+  - **Plan:** Check gates (10,6) and (16,6).
+  - **Hypothesis:** Maybe "Reset" state opens main gates?
+- **Action:** checking gates.
+- **Current Status:** Sw1: OFF, Sw2: OFF, Sw3: OFF.
