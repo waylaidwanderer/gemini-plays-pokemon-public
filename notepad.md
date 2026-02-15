@@ -1,11 +1,12 @@
 # Underground Warehouse
 - **Goal:** Rescue Director.
-- **Config [ON, OFF, OFF] (CONFIRMED):**
+- **Config [ON, OFF, OFF] (Current):**
   - **Status:** Sw1 ON. Sw2 OFF. Sw3 OFF.
-  - **Result:** Gate (10,6) OPEN. Gate (10,10) OPEN.
-  - **Path:** Walk South along Column 10.
-  - **Goal:** Reach Director/Card Key area.
-  - **Next:** Defeat Burglar Duncan (9,12) if needed. Loot Item (1,12).
+  - **Result:** (10,6) Open. (2,6) Open. (6,8) Open. (10,10) Closed.
+  - **Analysis:** Can enter Middle, but South Exit Blocked.
+  - **Next Step:** Turn Sw3 ON -> [ON, OFF, ON].
+  - **Hypothesis:** Sw3 might open (10,10) without closing (10,6).
+  - **Plan:** Go to Sw3, Turn ON, Check Gates.
 - **Verified Configurations:**
   - **[OFF, ON, OFF]:** Left(2,6) Open. Right(16,6) Closed. Cross(6,8) Closed. -> Dead End (Left).
   - **[ON, ON, OFF]:** Same as above.
