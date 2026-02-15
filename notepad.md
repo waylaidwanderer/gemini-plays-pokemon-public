@@ -1,16 +1,15 @@
 # Underground Warehouse
 - **Goal:** Rescue Director.
-- **Puzzle Solved:** Switch Combination [1,1,0] (Sw1 ON, Sw2 ON, Sw3 OFF).
-  - Opens Gate 1 (2,6), Gate 3 (16,6).
-  - Gate 2 (10,6) is CLOSED.
-  - Traps at (2,8) and (3,8) are disabled.
-- **Traps Identified:**
-  - (16,8), (12,9), (10,9).
-- **Trap Check:** (16,8) is ACTIVE (Trap). Warps to (16,5).
-- **Immediate Plan:**
-  1. Navigate to Gate 1 (2,6).
-  2. Bypass Silver by walking South to Row 9.
-  3. Navigate to Duncan (9,12) and East side.
+- **Puzzle Solved:** Switch Combination [0, 1, 0] (Sw2 ON only).
+  - Gate 2 (10, 6) is OPEN.
+  - Trap at (10, 9) is DISABLED.
+- **Current Status:**
+  - Exploring South of Gate 2.
+  - Target: Burglar Duncan at (9, 12).
+- **Tested Combinations (Archive):**
+  - [1,1,0]: Gate 1 Open.
+  - [1,0,1]: Gate 3 Open.
+  - [0,1,0]: Gate 2 Open (WINNER).
 - **Warp Connection:** (23,3) in Warehouse (3_54) leads to (22,27) in Underground Path (3_53).
 - **Current Location:** Small room in 3_53, blocked by Rocket Grunt at (22,24).
 - **RESET ALERT:** Switches reset upon re-entering. Current State: likely [0,0,0].
