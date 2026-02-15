@@ -53,16 +53,15 @@
   - Gate 2 (10, 6) CLOSED.
   - Gate 3 (16, 6) CLOSED.
   - (12, 8) OPEN (Unreachable).
-- **Winning Path Candidate:** [1, 1, 0] (Sw1 ON, Sw2 ON, Sw3 OFF).
-  - Previously confirmed: Opens Gate 1 & Gate 3.
-  - Previously confirmed: Opens wall at (16, 10).
+- **Tested Combinations (Sw1, Sw2, Sw3):**
+  - [1, 1, 0]: Gate 1 OPEN, Gate 3 OPEN, Gate 2 CLOSED.
+  - [0, 0, 1]: Gate 1 OPEN, Gate 3 OPEN, Gate 2 CLOSED.
+  - [1, 0, 1]: All Outer Gates CLOSED.
+  - [1, 1, 1]: All Outer Gates CLOSED (Presumed from start).
 - **Current Status:**
-  - Switches: [1, 0, 1] (Sw1 ON, Sw2 OFF, Sw3 ON).
-  - Gate 3 (16, 6): CLOSED.
-  - Gate 2 (10, 6): CLOSED.
-  - Gate 1 (2, 6): CLOSED (Visual Confirm).
-  - **Result:** [1, 0, 1] closes all outer gates.
+  - Switches: [1, 0, 0] (Sw1 ON, Sw2 OFF, Sw3 OFF).
+  - Gates: Checking...
 - **Plan:**
-  1. Go to Switch 3 (2, 1). Turn OFF.
-  2. New State: [1, 0, 0].
-  3. Check Gates with [1, 0, 0].
+  1. Check Gate 1 (2, 6).
+  2. Check Gate 2 (10, 6).
+  3. If [1, 0, 0] fails, try [0, 1, 0] (Turn Sw1 OFF, Sw2 ON).
