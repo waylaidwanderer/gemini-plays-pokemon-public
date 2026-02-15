@@ -1,7 +1,7 @@
 # Underground Warehouse Strategy
-- **Status:** All Switches (3, 2, 1) are ON.
-- **Action:** checking gate states to verify solution.
-- **Sequence:** [3 (ON) -> 2 (ON) -> 1 (ON)].
+- **Status:** Switch 3 (ON), Switch 2 (ON), Switch 1 (ON) -> Row 10 Gates CLOSED.
+- **Action:** Turning Switch 1 OFF to test combination [ON, ON, OFF].
+- **Hypothesis:** "End Switch First" might imply a different state or order.
 - **Sequence:** [3 -> 2] in progress.
 - **Step 1:** Sw3 ON (Complete).
 - **Step 2:** Turn Sw2 ON.
