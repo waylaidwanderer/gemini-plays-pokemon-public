@@ -15,4 +15,6 @@
 - **Current Location:** Small room in 3_53, blocked by Rocket Grunt at (22,24).
 - **RESET ALERT:** Switches reset upon re-entering. Current State: likely [0,0,0].
 - **New Plan:** Turn Sw2 ON -> Check Gate 2 -> Reach Sw1 -> Turn Sw1 ON -> Open Gate 1 & 3.
-- Checking Gate 1 to verify switch state (Reset vs Preserved).
+- Switches RESET to likely [0,0,0]. Gate 1 is CLOSED.
+- Checking if Grunt at (3,2) is blocking.
+- If blocked, will try Switch 3 (2,1).
