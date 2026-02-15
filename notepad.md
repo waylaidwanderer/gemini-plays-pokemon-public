@@ -2,11 +2,11 @@
 - **Goal:** Rescue Director.
 - **Puzzle Solved:** Switch Combination [0, 1, 0] (Sw2 ON only) -> Gate 2 OPEN.
 - **Current Status:**
-  - Switches: [0, 1, 1] (Sw1 OFF, Sw2 ON, Sw3 ON).
-  - Gate 1 OPEN. Gate 3 CLOSED.
-  - Action: Turn Sw2 OFF -> [0, 0, 1].
-  - Plan: Go to Sw1 -> Turn ON -> [1, 0, 1] (Sequence 3->1).
-  - Hypothesis: Gate 3 needs [1, 0, 1] with specific order (1->3 or 3->1).
+  - Switches: [0, 0, 1] (Sw1 OFF, Sw2 OFF, Sw3 ON).
+  - Action: Turned Sw2 OFF.
+  - Next: Move to Sw1 (16, 1) -> Turn ON.
+  - Target: [1, 0, 1] (Sw1 ON, Sw2 OFF, Sw3 ON).
+  - Logic: Testing "End Switches Only" (Order: 3 then 1).
 - **Immediate Plan:**
   1. Move to Switch 1 (16, 1).
   2. Verify it is ON.
