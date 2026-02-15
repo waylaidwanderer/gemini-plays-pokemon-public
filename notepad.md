@@ -7,8 +7,8 @@
   - **Findings:** Gate (10,10) CLOSED. Gate (2,6) OPEN.
   - **Deduction:** Current State is [OFF, OFF, OFF].
   - **Goal:** Set State to [OFF, OFF, ON].
+  - **Important:** Row 4 connects all switch rooms. (15,4) is a TRAP.
   - **Plan:**
-    1. Go to Switch 3 (2, 2).
-    2. Turn Switch 3 ON.
-    3. Check Gate (2,6) and (10,6).
-    4. Proceed to Exit (10,10).
+    1. Turn Switch 3 ON.
+    2. Use `check_gate_states` to confirm [OFF, OFF, ON] effects.
+    3. If (10,10) opens, find open entry gate ((2,6), (10,6), or (16,6)) via Row 4.
