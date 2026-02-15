@@ -16,6 +16,9 @@
   - Wall (12,9) OPEN.
   - Gate 3 (16,6) CLOSED.
   - Exit (16,10) CLOSED.
-- Current Action: Turning Sw2 ON -> Transitioning to [1,1,1].
-- Goal: Check if [1,1,1] opens Gate 3 (16,6).
+- Current State: [1,1,1] (All ON).
+  - Observation: Mid Entry (10,6) is CLOSED (Visible).
+  - Goal: Check Gate 3 (16,6) and Exit (16,10).
+  - Note: In [1,0,1], (10,6) was OPEN and (12,8) was OPEN. [1,1,1] closed (10,6).
+- Plan: Move to (16,6) to check status.
   - Goal: Open path to Exit (16,10).
