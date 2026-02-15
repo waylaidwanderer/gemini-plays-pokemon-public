@@ -29,8 +29,9 @@
 - Toggled Switch 2 OFF. State: [0, 0, 0] (All OFF).
 - Toggled Switch 1 ON. State: [1, 0, 0].
 - Gate 2 (10,6) confirmed CLOSED with [1,0,0].
-- CORRECTION: Failed to toggle Sw2 in turn 44919 (Pressed B).
-- Action: Toggling Sw2 ON (For Real This Time).
-- Target State: [1, 1, 0] (Sw1=ON, Sw2=ON, Sw3=OFF).
-- Prediction: Gate 1 OPEN, Gate 3 OPEN.
-- Next: Check Gate 2 (10,6), then Gate 3 (16,6).
+- Stuck in Save Menu (Turn 44921).
+- Action: Backing out (B, B).
+- Switch 2 status: ON (Toggled in 44919).
+- Current State: [1, 1, 0] (Sw1=ON, Sw2=ON, Sw3=OFF).
+- Plan: Head to Gate 3 (16,6).
+- Prediction: Gate 3 OPEN.
