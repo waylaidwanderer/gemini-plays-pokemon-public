@@ -3,9 +3,10 @@
 - **Config [ON, ON, ON]:**
   - **Status:** Sw1 ON, Sw2 ON, Sw3 ON.
   - **Result:** (2,6) Open, (10,10) Open. (12,8) CLOSED, (6,8) CLOSED, (16,6) CLOSED. Fail.
-- **Plan:** Test Sw3-OFF states.
-  - Move to Sw3, turn OFF -> [ON, ON, OFF].
-  - Then test [ON, OFF, OFF], [OFF, OFF, OFF], [OFF, ON, OFF].
+- **Config [ON, ON, OFF] (Current):**
+  - **Status:** Sw1 ON, Sw2 ON, Sw3 OFF.
+  - **Plan:** Check gates.
+  - **Next:** If fail, try [ON, OFF, OFF].
 - **Hypothesis:** One of these must open (10,6) or (16,6).
 - **Previous Tool Checks:**
   - [ON, OFF, ON]: Fail.
