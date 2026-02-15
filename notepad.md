@@ -7,11 +7,11 @@
   - **Status:** Sw1 OFF, Sw2 OFF, Sw3 ON.
   - **Result:** (16,6) Closed. (12,8) Open.
   - **Trap:** Failed to toggle (16,6).
-- **Config [OFF, OFF, OFF] (Current):**
-  - **Status:** Sw1 OFF, Sw2 OFF, Sw3 OFF.
-  - **Plan:** Turn Sw2 ON -> [OFF, ON, OFF].
-  - **Hypothesis:** Sw3 OFF keeps (16,6) Open. Sw2 ON opens (12,8).
-  - **Goal:** (16,6) Open + (12,8) Open.
+- **Config [OFF, OFF, ON] (Actual):**
+  - **Status:** Sw1 OFF, Sw2 OFF, Sw3 ON.
+  - **Correction:** Failed to reach Sw3 due to grunt blocking path. Sw3 is still ON.
+  - **Plan:** Navigate around grunt to (2,2). Turn Sw3 OFF.
+  - **Goal:** [OFF, OFF, OFF] -> Then test Sw2 ON.
 - **Config [OFF, ON, ON] (Confirmed):**
   - **Result:** (2,6) Open, (12,8) Open. (16,6) Closed.
   - **Analysis:** Sw3 ON opens Dest (12,8) but closes Entry (16,6).
