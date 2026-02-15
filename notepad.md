@@ -57,12 +57,10 @@
   - Previously confirmed: Opens Gate 1 & Gate 3.
   - Previously confirmed: Opens wall at (16, 10).
 - **Current Status:**
-  - Switches: [0, 1, 0] (Sw1 OFF, Sw2 ON, Sw3 OFF).
-  - Gate 3 (16, 6) CLOSED.
-  - [0, 1, 0] Failed.
-- **New Target:** [0, 0, 0] (All OFF).
+  - Switches: [0, 0, 0] (All OFF).
+  - Checking Gate 2 (10, 6) and Gate 3 (16, 6).
+- **Hypothesis:** Reset state might open something?
 - **Plan:**
-  1. Go to Switch 2 (10, 1). Turn OFF.
-  2. Check Gate 2 (10, 6).
-  3. If Closed, check Gate 3.
-  4. If both Closed, try [0, 0, 1] (Sw3 ON).
+  1. Check Gate 2.
+  2. Check Gate 3.
+  3. If both closed, try [0, 0, 1] (Sw3 ON).
