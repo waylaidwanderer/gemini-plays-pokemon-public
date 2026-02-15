@@ -7,7 +7,7 @@
   - [011] (OFF,ON,ON): 2-6 | - | 16-10
   - [101] (ON,OFF,ON): 2-6 | - | 16-10
   - [111] (ON,ON,ON): 2-6, 10-6 | - | 16-10
-  - [110] (ON,ON,OFF): Testing Next...
+  - [110] (ON,ON,OFF): Testing Now.
 - **Plan:**
   1. Turn Sw3 OFF (State: [110]).
   2. Check Gate States.
