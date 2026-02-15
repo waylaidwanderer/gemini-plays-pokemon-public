@@ -1,7 +1,12 @@
 # Underground Warehouse Strategy
 - **Status:** Switch 1 (OFF), Switch 2 (OFF), Switch 3 (ON).
-- **Action:** Checking if [OFF, OFF, ON] opened any gates.
-- **Plan:** Use check_gate_states. If fail, try Switch 1 (Right) as "End Switch".
-- **Hypothesis:** "End Switch First" might mean Switch 1 (Rightmost) or Switch 3 (Leftmost).
-- **tested_combinations:** [ON, ON, ON] (Fail), [ON, ON, OFF] (Fail), [ON, OFF, ON] (Fail), [ON, OFF, OFF] (Fail), [OFF, ON, ON] (Fail), [OFF, ON, OFF] (Fail), [OFF, OFF, OFF] (Fail), [OFF, OFF, ON] (Testing).
-- **Reminder:** Inventory full (20/20). Must toss/use item to loot (1,12).
+- **Action:** Going to Switch 2 to turn it ON.
+- **Plan:** Test [OFF, ON, ON].
+- **Gate Status for [OFF, OFF, ON]:**
+  - Row 6: (2,6) OPEN, (10,6) OPEN, (16,6) CLOSED.
+  - Row 8: (6,8) OPEN, (12,8) CLOSED.
+  - Row 10: ALL CLOSED. -> Dead End.
+- **Hypothesis:** Need to open Row 10. Switch 2 or 1 might control Row 10.
+- **tested_combinations:** [OFF, OFF, ON] (Partial), [ON, ON, ON] (Fail?), [ON, ON, OFF] (Fail?), [OFF, OFF, OFF] (Fail).
+- **Reminder:** "End Switch First" might mean Start with 3, then add others.
+- **Inventory:** Full.
