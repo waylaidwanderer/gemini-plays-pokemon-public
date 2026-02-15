@@ -13,7 +13,7 @@
   - [001] (OFF,OFF,ON): Closed.
   - [010] (OFF,ON,OFF): ?
   - [011] (OFF,ON,ON): 2-6(L) | 6-8(L) | - (Stuck Left).
-  - [100] (ON,OFF,OFF): ? (Target).
+  - [100] (ON,OFF,OFF): 16-6(R) Open. Testing path.
   - [101] (ON,OFF,ON): 2-6(L) | - | 16-10(R).
   - [110] (ON,ON,OFF): 10-6(M) | 6-8(L) | - (Stuck Mid/Left).
   - [111] (ON,ON,ON): 2-6,10-6 | - | 16-10.
