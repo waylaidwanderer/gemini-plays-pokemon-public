@@ -102,3 +102,5 @@
 - Then: Check Gate 2 (10, 6).
 - Checking (11, 10) and (12, 9) for hidden paths.
 - Hypothesis: [0, 1, 1] might keep Gate 2 open AND open the wall at (11, 10).
+- **Movement:** Moving to Switch 2 (10, 1) via Row 5 to avoid Grunts.
+- **Next Action:** Turn Switch 2 OFF.
