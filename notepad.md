@@ -1,10 +1,11 @@
 # Underground Warehouse Strategy
 - **Status:** Switch 1 (ON), Switch 2 (ON), Switch 3 (OFF).
-- **Gate Data (verified by visual):**
-  - [ON, ON, OFF]: (10,6) CLOSED, (16,6) OPEN.
-- **Action:** Exploring south through (16,6).
-- **Plan:** Check (16,10) and if I can cross to the left.
-- **Gate Data (verified by code):**
-  - [ON, OFF, OFF]: (6,8) OPEN.
-- **Hypothesis:** Switch 2 opens (16,6) when Switch 1 is ON? Or maybe Switch 2 opens it regardless.
+- **Gate Data (Verified):**
+  - (16, 6) OPEN. (12, 8) OPEN.
+  - (16, 10) CLOSED.
+  - (10, 6) CLOSED.
+- **Action:** Crossing to Middle Section via (12, 8).
+- **Target:** Burglar Duncan at (9, 12).
+- **Hazard:** Trap Warp at (12, 9). Avoid!
+- **Plan:** Move along Row 8 to (11, 8), then go down.
 - **Inventory:** Full.
