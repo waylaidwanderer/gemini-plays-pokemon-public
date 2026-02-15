@@ -47,4 +47,7 @@
 - Gate 3 (16,6) is OPEN.
 - Gate 2 (10,6) is CLOSED.
 - Gate 1 (2,6) inferred OPEN.
-- Target: Warp at (22,10).
+- Path blocked by wall at (16,10).
+- Action: Go to Sw1 (16,1). Toggle OFF.
+- New Target State: [0, 0, 0].
+- Hypothesis: Sw1 OFF removes Wall at (16,10).
