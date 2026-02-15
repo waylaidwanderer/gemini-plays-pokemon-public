@@ -12,4 +12,6 @@
   2. Turn Sw2 OFF (State: [100]).
   3. Check Gate States.
   4. If fail, Turn Sw1 OFF -> [000].
-- **Grunt Hint:** "The switch on the end is the one to press first, but..." (Waiting for rest of text).
+- **Grunt Hint:** "The switch on the end is the one to press first, but... I forgot which end..."
+- **Interpretation:** The solution likely starts with either Switch 1 (Right End) or Switch 3 (Left End) being pressed from a reset state.
+- **Current Test:** [ON, OFF, OFF] (Sw1 ON, Sw2 OFF, Sw3 OFF).
