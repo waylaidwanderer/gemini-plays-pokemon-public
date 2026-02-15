@@ -59,8 +59,13 @@
 - **Current Status:**
   - Switches: [1, 0, 0] (Sw1 ON, Sw2 OFF, Sw3 OFF).
   - Gate 2 (10, 6) is CLOSED.
-  - Checking Gate 3 (16, 6) next.
+  - Checking Gate 3 (16, 6).
+- **Hypothesis:** Switch 2 OFF might have closed Gate 3.
 - **Plan:**
-  1. Move to Gate 3 (16, 6).
-  2. If Gate 3 is OPEN, attempt to pass Trap (16, 8).
-  3. If Gate 3 is CLOSED, this combination fails.
+  1. Verify Gate 3 state.
+  2. If Closed:
+     - Switch 2 MUST be ON for Gate 3.
+     - Try [0, 1, 0] (Sw1 OFF, Sw2 ON, Sw3 OFF).
+     - Or [0, 0, 0] (All OFF).
+  3. If Open:
+     - Test Trap (16, 8).
