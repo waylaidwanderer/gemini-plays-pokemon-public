@@ -15,9 +15,9 @@
   - **Status:** Sw1 ON, Sw2 OFF, Sw3 OFF.
   - **Result:** (16,6) Open, (12,8) Closed.
   - **Analysis:** Sw1 ON does not open Dest. It keeps Entry Open (same as OFF).
-- **Plan: Test [ON, ON, OFF].**
-  - **Hypothesis:** Sw1 ON might prevent Sw2 ON from closing the Entry (16,6).
-  - **Step 1:** Turn Sw2 ON.
+- **Config [ON, ON, OFF] (Target):**
+  - **Status:** Sw1 ON, Sw2 ON (Planned), Sw3 OFF.
+  - **Hypothesis:** Sw1 ON keeps Entry (16,6) Open. Sw2 ON opens Dest (12,8).
   - **Goal:** (16,6) Open + (12,8) Open.
 - **Config [OFF, ON, ON] (Confirmed):**
   - **Result:** (2,6) Open, (12,8) Open. (16,6) Closed.
