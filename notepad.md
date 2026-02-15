@@ -56,18 +56,17 @@
 - **Tested Combinations (Sw1, Sw2, Sw3):**
   - [1, 1, 0]: Gate 1 OPEN, Gate 3 CLOSED.
   - [0, 1, 0]: Gate 2 OPEN, Gate 3 CLOSED.
-  - [1, 0, 0]: Gate 1 CLOSED. (Gate 3 NOT CHECKED). -> TARGET.
+  - [1, 0, 0]: Gate 3 CLOSED. (Verified).
   - [0, 0, 0]: All Closed.
   - [0, 1, 1]: Gate 3 CLOSED.
   - [0, 0, 1]: Gate 3 CLOSED.
 - **Current Status:**
-  - Switches: [0, 0, 0] (Sw1 OFF, Sw2 OFF, Sw3 OFF).
-  - Gate 3 (16, 6): CLOSED.
+  - Switches: [1, 0, 1] (Sw1 ON, Sw2 OFF, Sw3 ON).
+  - Gate 3 (16, 6): CHECKING...
 - **Plan:**
-  1. Go to Switch 1 (16, 1). Turn ON -> State [1, 0, 0].
-  2. Check Gate 3 with [1, 0, 0].
-  3. **Hypothesis:** Summary says [1, 0, 0] opens Gate 3.
-  4. If Open, Enter and AVOID TRAP at (16, 8).
+  1. Toggle Switch 3 ON (State [1, 0, 1]).
+  2. Check Gate 3.
+  3. If Closed, try other combinations or verify logic.
 - Visual Confirm: Gate 3 (16, 6) is CLOSED (Type 2889).
 - Visual Confirm: Gate 2 (10, 6) is CLOSED (Type 2889).
 - Checking Switch 1 Status...
