@@ -2,15 +2,13 @@
 - **Goal:** Rescue Director (Likely in Bottom Right).
 - **Grunt Hint:** "The switch on the end is the one to press first." (Implies Sw1 or Sw3).
 - **Current State:** [1,0,0] (Sw1 ON).
-- **Hypothesis:** "End Switch" = Right End (Sw1).
-- **Truth Table (Entry | Cross | Exit):**
-  - [000] (OFF,OFF,OFF): All Closed (Verified).
-  - [100] (ON,OFF,OFF): Testing Now.
-  - [001] (OFF,OFF,ON): All Closed (Verified).
-- **Plan:**
-  1. Check Gates for [1,0,0].
-  2. If Entry (16,6) or Cross (12,8) Opens, GO!
-  3. If fail, then "End Switch First" might mean sequential (Sw1 -> Sw2...).
+- **Verified Results:**
+  - [1,0,0]: Entry 16-6 (R) Open. Exit 16-10 (R) Open. Cross 12-8 Closed. (Right Lane traversal only).
+- **Strategy:**
+  1. Go to Switch 2 (10,1).
+  2. Turn Sw2 ON -> State [1,1,0].
+  3. Check if this opens Cross 12-8 (Right Cross).
+  4. If so, path is Entry 16-6 -> Cross 12-8 -> Mid -> ?
   - [001] (OFF,OFF,ON): Closed.
   - [010] (OFF,ON,OFF): ?
   - [011] (OFF,ON,ON): 2-6(L) | 6-8(L) | - (Stuck Left).
