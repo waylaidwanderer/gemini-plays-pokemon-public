@@ -1,8 +1,7 @@
 # Underground Warehouse Strategy
-- **Status:** Switch 1 (ON), Switch 2 (OFF), Switch 3 (ON).
-- **Action:** Turning Switch 2 ON.
-- **Plan:** Verify [ON, ON, ON] state matches previous record (proving order irrelevance). Then test [OFF, ON, OFF].
-- **Hypothesis:** "End Switch First" is a distractor or mistranslation. Testing all boolean combinations.
+- **Status:** Switch 1 (ON), Switch 2 (ON), Switch 3 (ON).
+- **Action:** Verifying 'All ON' fails again. Next: Test [OFF, ON, OFF].
+- **Hypothesis:** Testing remaining combinations. Next target: Middle switch ON, Ends OFF.
 - **tested_combinations:** [ON, ON, ON] (Fail), [ON, ON, OFF] (Fail), [OFF, ON, ON] (Fail), [ON, OFF, ON] (Fail).
 - **Sequence:** [3 -> 2] in progress.
 - **Step 1:** Sw3 ON (Complete).
