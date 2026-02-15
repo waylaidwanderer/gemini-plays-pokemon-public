@@ -4,13 +4,16 @@
 - **Current Status:**
   - Switches: [0, 0, 1] (Sw1 OFF, Sw2 OFF, Sw3 ON).
   - Confirmed: Switch 1 is OFF. Switch 2 is OFF.
-  - Action: Left Sw2 OFF.
-  - Next: Move to Sw3 (2, 1) -> Turn OFF.
-  - Goal: Reset to [0, 0, 0].
+  - Action: Trying to reach Switch 3.
+  - Reset Goal: [0, 0, 0].
+- **Hazards:**
+  - Trap suspected on Row 3 (between x=3 and x=8). Warps to (8, 2).
+  - Row 4 confirmed safe in past turns.
 - **Immediate Plan:**
-  1. Move to Switch 1 (16, 1).
-  2. Verify it is ON.
-  3. Go to Gate 3 (16, 6).
+  1. Move via Row 4 to Switch 3 (2, 1).
+  2. Turn Switch 3 OFF.
+  3. Verify State [0, 0, 0].
+  4. Test "Left End First" (Sw3 -> Sw2 -> Sw1?).
 - **Plan:**
   1. Go to Gate 1 (2, 6).
   2. Check if open.
