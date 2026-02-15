@@ -1,11 +1,12 @@
 # Underground Warehouse
 - **Goal:** Rescue Director.
-- **Config [ON, OFF, OFF] (Current):**
-  - **Status:** Sw1 ON (Confirmed). Sw2 OFF. Sw3 OFF.
-  - **Observation:** (12,8) CLOSED immediately after Sw1 ON.
-  - **Next Step:** Go to Sw3 -> Turn ON.
-  - **Goal:** Reach [ON, OFF, ON].
-  - **Prediction:** Sw3 ON should open (2,6) and (6,8).
+- **Config [ON, OFF, OFF] (Winning?):**
+  - **Status:** Sw1 ON. Sw2 OFF. Sw3 OFF.
+  - **Discovery:** System reported (10,6) OPENED!
+  - **Implication:** Entrance to Middle Room is open from the Top!
+  - **Plan:** Enter (10,6). Go South.
+  - **Check:** Is (10,10) Open? (It was open in Baseline).
+  - **Goal:** Walk straight to Director.
 - **Verified Configurations:**
   - **[OFF, ON, OFF]:** Left(2,6) Open. Right(16,6) Closed. Cross(6,8) Closed. -> Dead End (Left).
   - **[ON, ON, OFF]:** Same as above.
