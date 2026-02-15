@@ -5,5 +5,5 @@
   - **Analysis:** Sw3 ON opens the destination but closes the entry.
 - **Config [OFF, ON, ON] (Current):**
   - **Status:** Sw1 OFF, Sw2 ON, Sw3 ON.
-  - **Plan:** Turn Sw2 ON.
-  - **Goal:** Open (16,6) or (6,8) while keeping destination open.
+  - **Plan:** Check all gates.
+  - **Goal:** Find a path to (12,8) or (6,8).
