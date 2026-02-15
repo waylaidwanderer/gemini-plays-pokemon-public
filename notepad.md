@@ -1,13 +1,10 @@
 # Underground Warehouse
 - **Goal:** Rescue Director.
-- **Config [ON, OFF, ON] (Testing):**
-  - **Status:** Sw1 ON. Sw2 OFF. Sw3 OFF (Moving to Turn ON).
-  - **Hypothesis:** Opens (2,6) (Left Entry) and (6,8) (Left-to-Middle).
-  - **Plan:**
-    1. Turn Sw3 ON.
-    2. Enter Left Room via (2,6).
-    3. Cross to Middle Room via (6,8).
-    4. Check for hidden switches/paths in Middle Room.
+- **Action:** Turning Sw3 ON.
+- **Correction:** Path blocked by Grunt at (3,2). Detouring via Row 3.
+- **Path:** (4,2) -> Down -> Left -> Left -> Up -> (2,2).
+- **Goal:** [ON, OFF, ON].
+- **Hypothesis:** Opens (2,6) and (6,8).
 - **Verified Configurations:**
   - **[OFF, ON, OFF]:** Left(2,6) Open. Right(16,6) Closed. Cross(6,8) Closed. -> Dead End (Left).
   - **[ON, ON, OFF]:** Same as above.
