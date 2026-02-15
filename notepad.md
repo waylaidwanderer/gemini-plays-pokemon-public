@@ -16,11 +16,12 @@
   - Wall (12,9) OPEN.
   - Gate 3 (16,6) CLOSED.
   - Exit (16,10) CLOSED.
-- CONFIRMED: Switch 3 was OFF.
-  - Action: Turning it ON.
-  - New State: [1,1,1] (All ON).
-- Immediate Goal: Check Gate 1 (2,6) and Gate 3 (16,6).
-- Previous Verified States:
-  - [1,1,0] (Sw3 OFF): Gate 3 Closed.
-  - [1,0,0] (Sw2 OFF, Sw3 OFF): Cross Gate (12,8) OPEN.
-- Hypothesis: Maybe [0,1,1] or [0,0,1] is the key? Or maybe [1,1,1] opens everything?
+- Current State: [1,1,1] (All ON).
+- Immediate Action: Checking Gate 1 (2,6).
+- Gate Logic Recap:
+  - [1,0,0] (Sw2 OFF, Sw3 OFF): Opened Cross Gate (12,8) and Wall (12,9). (Strong candidate).
+  - [1,1,0] (Sw3 OFF): Gate 3 (16,6) Closed.
+  - [1,1,1]: Testing now.
+- Plan:
+  - If [1,1,1] is a dead end, revert to [1,0,0] (Turn Sw2 OFF, Sw3 OFF).
+  - Explore the path through (12,9) if [1,0,0] is restored.
