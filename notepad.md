@@ -60,7 +60,7 @@
   - [0, 0, 0]: All Closed.
   - [0, 1, 1]: Gate 3 CLOSED.
   - [0, 0, 1]: Gate 3 CLOSED.
-  - [1, 0, 1]: Gate 1 CLOSED. (Checking others...)
+  - [1, 0, 1]: Gate 1 CLOSED. Gate 2 CLOSED. (Checking Gate 3...)
 - **Current Status:**
   - Switches: [1, 0, 1] (Sw1 ON, Sw2 OFF, Sw3 ON).
   - Gate 3 (16, 6): CHECKING...
