@@ -56,7 +56,5 @@
 - **Winning Path Candidate:** [1, 1, 0] (Sw1 ON, Sw2 ON, Sw3 OFF).
   - Previously confirmed: Opens Gate 1 & Gate 3.
   - Previously confirmed: Opens wall at (16, 10).
-- **Plan:**
-  1. Turn Switch 1 ON (Restore [1, 1, 1]).
-  2. Turn Switch 3 OFF (Create [1, 1, 0]).
-  3. Go to Gate 3 (16, 6) and head South past (16, 10).
+- **Current Status:** Switch 3 OFF. State [1, 1, 0] Restored.
+- **Next Step:** Navigate to Gate 3 (16, 6) and explore South.
