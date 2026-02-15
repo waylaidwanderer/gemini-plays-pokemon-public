@@ -6,8 +6,8 @@
   - Traps at (2,8) and (3,8) are disabled.
 - **Traps Identified:**
   - (16,8), (12,9), (10,9).
-- **Current Location:** (10,11) - Near Duncan.
+- **Current Location:** (1,13) - Item Retrieved.
 - **Immediate Plan:**
-  1. Retrieve Item at (1,12) (Walk around Duncan).
-  2. Locate Warp at (22,10) (East of Gate 3).
-  3. Find path to Director.
+  1. Navigate to Gate 3 (16,6) via North Corridor.
+  2. Explore area East of Gate 3 (Warp at 22,10).
+  3. Find Director.
