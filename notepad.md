@@ -34,5 +34,6 @@
 - Sw1 found ON. Kept it ON.
 - Current State: [1, 1, 0] (Sw3 turned OFF).
 - Gate 1 (2,6) confirmed OPEN.
-- Action: Moving South to Row 9, then East to (5,9), then North to Row 8 to avoid trap at (10,9).
-- Route: (2,9) -> (5,9) -> (5,8) -> East.
+- Wall at x=6 blocks East. Gate 1 area appears to be a dead end with Silver.
+- Action: Talk to Silver (4,8).
+- Then: Backtrack North through Gate 1 to Row 5, head East to Gate 3 (16,6).
