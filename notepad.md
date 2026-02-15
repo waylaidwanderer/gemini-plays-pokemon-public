@@ -1,11 +1,11 @@
 # Underground Warehouse
 - **Goal:** Rescue Director.
-- **Action:** Retrying Switch 1 Toggle (Previous attempt likely cancelled).
-- **Target:** Turn Sw1 ON.
-- **Current Config Check:** Verify if Sw1 changed state.
-- **Then:** Move to Sw3 (2,1) and Turn ON.
-- **Goal:** [ON, OFF, ON].
-- **Hypothesis:** Opens (2,6) and (6,8).
+- **Config [ON, OFF, OFF] (Confirmed):**
+  - **Status:** Sw1 ON (Menu confirmed). Sw2 OFF. Sw3 OFF.
+  - **Correction:** Pressed 'B' to keep Sw1 ON.
+  - **Next Step:** Go to Sw3 (2,1) -> Turn ON.
+  - **Target:** [ON, OFF, ON].
+  - **Goal:** Open (2,6) and (6,8) for internal access.
 - **Verified Configurations:**
   - **[OFF, ON, OFF]:** Left(2,6) Open. Right(16,6) Closed. Cross(6,8) Closed. -> Dead End (Left).
   - **[ON, ON, OFF]:** Same as above.
