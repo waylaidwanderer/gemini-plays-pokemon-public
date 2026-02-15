@@ -15,11 +15,14 @@
   - **Status:** Sw1 ON, Sw2 OFF, Sw3 OFF.
   - **Result:** (16,6) Open, (12,8) Closed.
   - **Analysis:** Sw1 ON does not open Dest. It keeps Entry Open (same as OFF).
-- **Config [ON, ON, OFF] (Current):**
+- **Config [ON, ON, OFF] (SOLVED):**
   - **Status:** Sw1 ON, Sw2 ON, Sw3 OFF.
-  - **Plan:** Check gates.
-  - **Hope:** (16,6) Open (held by Sw1?), (12,8) Open (from Sw2?).
-  - **Goal:** (16,6) Open + (12,8) Open.
+  - **Result:** (16,6) OPEN, (12,8) OPEN.
+  - **Solution:** Sw1 opens Entry (16,6). Sw2 opens Dest (12,8). Sw3 OFF prevents conflicts.
+- **Plan:**
+  1. Travel East via Row 5 (Safe Lane) to avoid Trap (15,4).
+  2. Enter (16,6) -> (12,8) -> (10,10).
+  3. Rescue Director.
 - **Config [OFF, ON, ON] (Confirmed):**
   - **Result:** (2,6) Open, (12,8) Open. (16,6) Closed.
   - **Analysis:** Sw3 ON opens Dest (12,8) but closes Entry (16,6).
