@@ -16,10 +16,9 @@
 - **Interpretation:** Sequence starts with End Switch.
   - Test 1: Reset -> Sw1 (Right End). State: [ON, OFF, OFF]. (Current Target)
   - Test 2: Reset -> Sw3 (Left End). State: [OFF, OFF, ON].
-- **Status:** Sw1 ON, Sw2 OFF, Sw3 OFF. ([ON, OFF, OFF])
-- **Result for [ON, OFF, OFF]:** All Entry Closed. Dead End.
+- **Status:** Sw1 OFF, Sw2 OFF, Sw3 OFF. ([OFF, OFF, OFF])
+- **Result for [OFF, OFF, OFF]:** Testing...
 - **Plan:**
-  1. Navigate to Sw1 (16,1).
-  2. Turn Sw1 OFF (Reset to [0,0,0]).
-  3. Verify [0,0,0] gates.
-  4. If [0,0,0] fails, Try [OFF, OFF, ON] (Sw3 First).
+  1. Verify [OFF, OFF, OFF] gates.
+  2. If (16,6) or (12,8) opens, GO.
+  3. If fail, Try [010] (Sw2 ON).
