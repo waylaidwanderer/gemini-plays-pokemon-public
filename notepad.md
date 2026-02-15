@@ -27,6 +27,8 @@
 - Tile Change Detected at (16,10)/(16,11) [Opened!].
 - New Route: Backtrack through Gate 1 -> Row 5 -> Gate 3 (16,6) -> South to Duncan.
 - Toggled Switch 2 OFF. State: [0, 0, 0] (All OFF).
-- Checking Gate 2 (10,6).
-- If Gate 2 is CLOSED, check Gate 3 (16,6).
-- If both CLOSED, will try [0, 0, 1] (Toggle Sw3 ON).
+- Gate 2 (10,6) confirmed CLOSED with [0,0,0].
+- Moving to check Gate 3 (16,6).
+- If CLOSED, will try toggling Switch 1 (16,1) to ON.
+- Predicted State: [1, 0, 0].
+- Goal: Open Gate 3 or Gate 2.
