@@ -17,7 +17,8 @@
   - **Analysis:** Sw1 ON does not open Dest. It keeps Entry Open (same as OFF).
 - **Config [OFF, OFF, ON] (Current):**
   - **Status:** Sw1 OFF, Sw2 OFF, Sw3 ON.
-  - **Goal:** Verify (2,6) and (12,8) are OPEN.
+  - **Success:** (12,8) OPENED (Observed change).
+  - **Goal:** Verify (2,6) is also OPEN.
   - **Plan:** Navigate via Row 5 to (2,6). Enter side gate. Loop around to (12,8).
 - **Config [OFF, ON, ON] (Confirmed):**
   - **Result:** (2,6) Open, (12,8) Open. (16,6) Closed.
