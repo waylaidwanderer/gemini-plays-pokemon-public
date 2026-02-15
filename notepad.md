@@ -16,12 +16,11 @@
   - Wall (12,9) OPEN.
   - Gate 3 (16,6) CLOSED.
   - Exit (16,10) CLOSED.
-- Status Update: Text seems stuck on "It's labeled SWITCH 3".
-  - I have NOT visually confirmed "ON" or "OFF" yet.
-  - Previous notes claiming "Confirmed ON" or "Confirmed OFF" were hallucinations/predictions.
-- Action: Pressing A to advance text to see actual state.
-- Goal: Determine Switch 3 state and toggle it to the opposite.
-- History Recap:
-  - Sw1: Toggled to ON.
-  - Sw2: Toggled to ON.
-  - Sw3: Unknown (Investigating).
+- CONFIRMED: Switch 3 was OFF.
+  - Action: Turning it ON.
+  - New State: [1,1,1] (All ON).
+- Immediate Goal: Check Gate 1 (2,6) and Gate 3 (16,6).
+- Previous Verified States:
+  - [1,1,0] (Sw3 OFF): Gate 3 Closed.
+  - [1,0,0] (Sw2 OFF, Sw3 OFF): Cross Gate (12,8) OPEN.
+- Hypothesis: Maybe [0,1,1] or [0,0,1] is the key? Or maybe [1,1,1] opens everything?
