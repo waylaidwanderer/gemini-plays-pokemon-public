@@ -59,8 +59,11 @@
 - **Current Status:**
   - Switches: [0, 1, 1] (Sw1 OFF, Sw2 ON, Sw3 ON).
   - Gate 2 (10, 6) CLOSED.
-  - Checking Gate 3 (16, 6).
-- **Hypothesis:** If Gate 3 is Closed, [0, 1, 1] is a failure.
-- **Next Step:** Revert to [0, 0, 1] (Sw1 OFF, Sw2 OFF, Sw3 ON).
-  - Why? [0, 0, 1] Opened Gate 1.
-  - Plan: Explore Gate 1 area deeper (Check Wall at x=6).
+  - Gate 3 (16, 6) CLOSED.
+  - [0, 1, 1] Failed.
+- **New Target:** [1, 1, 0] (Sw1 ON, Sw2 ON, Sw3 OFF).
+  - This state opened Gate 3 & Gate 1.
+- **Plan:**
+  1. Turn Sw1 ON (State -> [1, 1, 1]).
+  2. Turn Sw3 OFF (State -> [1, 1, 0]).
+  3. Return to Gate 3 and avoid trap at (16, 8).
