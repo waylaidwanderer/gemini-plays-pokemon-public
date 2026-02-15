@@ -6,7 +6,9 @@
   - [111] (ON,ON,ON): 2-6, 10-6 | - | 16-10
   - [110] (ON,ON,OFF): 10-6 | 6-8 | 16-10 (Dead End: Left+Mid)
   - [100] (ON,OFF,OFF): Testing Now.
+- **Correction:** Accidentally spoke to Grunt instead of Switch 2. Sw2 is still ON.
 - **Plan:**
-  1. Turn Sw2 OFF (State: [100]).
-  2. Check Gate States.
-  3. If fail, Turn Sw1 OFF -> [000].
+  1. Finish dialogue.
+  2. Turn Sw2 OFF (State: [100]).
+  3. Check Gate States.
+  4. If fail, Turn Sw1 OFF -> [000].
