@@ -1,7 +1,7 @@
 # Underground Warehouse Strategy
 - **Status:** Switch 1 (ON), Switch 2 (OFF), Switch 3 (ON).
-- **Action:** Checking gates for [ON, OFF, ON] combination.
-- **Hypothesis:** Testing combination [ON, OFF, ON] (Ends ON, Middle OFF).
+- **Action:** Verifying gate states for [ON, OFF, ON].
+- **Hypothesis:** "End Switch First" implies End Switches (1 & 3) should be ON, Middle (2) OFF.
 - **tested_combinations:** [ON, ON, ON] (Fail), [ON, ON, OFF] (Fail), [OFF, ON, ON] (Fail).
 - **Sequence:** [3 -> 2] in progress.
 - **Step 1:** Sw3 ON (Complete).
