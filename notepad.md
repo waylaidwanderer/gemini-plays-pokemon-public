@@ -3,9 +3,10 @@
 - **Config [OFF, OFF, ON] (Failed):**
   - **Result:** (2,6) Open, (12,8) Open. (16,6) Closed.
   - **Analysis:** Sw3 ON opens the destination but closes the entry.
-- **Config [OFF, OFF, OFF] (Target):**
+- **Config [OFF, OFF, OFF] (Confirmed):**
   - **Status:** Sw1 OFF, Sw2 OFF, Sw3 OFF.
   - **Result:** (16,6) Open, (6,8) Open, (12,8) Closed.
+  - **Correction:** Game text says Sw2 is OFF. So I was already at [OFF, OFF, OFF].
   - **Plan:** Trigger "Trap Room" (15,4).
   - **Hypothesis:** Trap Room toggles Cross Gates. (6,8) Close -> (12,8) Open?
   - **Goal:** (16,6) Open + (12,8) Open.
