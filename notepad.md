@@ -68,3 +68,4 @@
      - Must be a specific switch combo to open Gate 3 AND disable trap.
      - Or maybe the trap is fake/toggleable?
      - Or maybe I need to trigger the trap to go somewhere else? (Unlikely, warps to start).
+     - **Alternative:** Re-explore Gate 1 (Opened by [0, 0, 1]). I might have missed something there.
