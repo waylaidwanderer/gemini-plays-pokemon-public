@@ -2,10 +2,12 @@
 - **Goal:** Rescue Director.
 - **Puzzle Solved:** Switch Combination [0, 1, 0] (Sw2 ON only) -> Gate 2 OPEN.
 - **Current Status:**
-  - Switches: [0, 0, 1] (Sw1 OFF, Sw2 OFF, Sw3 ON).
-  - Confirmed: Switch 1 is OFF. Switch 2 is OFF.
-  - Action: Trying to reach Switch 3.
-  - Reset Goal: [0, 0, 0].
+  - Switches: [0, 0, 0] (Sw1 OFF, Sw2 OFF, Sw3 OFF).
+  - Confirmed: All Switches OFF.
+  - Action: Turned Sw3 OFF.
+  - Next: Test "Left End First" Sequence.
+  - Sequence: Turn Sw3 ON -> Turn Sw2 ON -> Turn Sw1 ON.
+  - Goal: Open Gate 3 (16, 6) or find new path.
 - **Hazards:**
   - Trap suspected on Row 3 (between x=3 and x=8). Warps to (8, 2).
   - Row 4 confirmed safe in past turns.
