@@ -26,6 +26,7 @@
 - Blocked at (12,9) [Wall] and (11,10) [Wall].
 - Tile Change Detected at (16,10)/(16,11) [Opened!].
 - New Route: Backtrack through Gate 1 -> Row 5 -> Gate 3 (16,6) -> South to Duncan.
-- Gate 3 (16,6) CLOSED with [1,1,0] and [0,1,0].
-- Current State: [0, 1, 0] (Sw1=OFF, Sw2=ON, Sw3=OFF).
+- Toggled Switch 2 OFF. State: [0, 0, 0] (All OFF).
 - Checking Gate 2 (10,6).
+- If Gate 2 is CLOSED, check Gate 3 (16,6).
+- If both CLOSED, will try [0, 0, 1] (Toggle Sw3 ON).
