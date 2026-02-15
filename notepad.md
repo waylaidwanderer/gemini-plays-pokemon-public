@@ -43,11 +43,9 @@
 - Plan: Go to Switch 1 (16,1). Turn OFF.
 - Goal State: [0, 1, 0] (Sw1 OFF, Sw2 ON, Sw3 OFF).
 - Hypothesis: Sw1 OFF opens Gate 3.
-- SUCCESS! State [1, 0, 0] (Sw1 ON, Sw2 OFF, Sw3 OFF).
-- Gate 3 (16,6) is OPEN.
-- Gate 2 (10,6) is CLOSED.
-- Gate 1 (2,6) inferred OPEN.
-- Path blocked by wall at (16,10).
-- Action: Go to Sw1 (16,1). Toggle OFF.
-- New Target State: [0, 0, 0].
-- Hypothesis: Sw1 OFF removes Wall at (16,10).
+- Toggling Switch 1 OFF.
+- Target State: [0, 0, 0] (All OFF).
+- Hypothesis: [0, 0, 0] opens Wall at (16,10).
+- Gate 3 (16,6) is OPEN with [1, 0, 0].
+- Gate 2 (10,6) is CLOSED with [1, 0, 0].
+- Gate 1 (2,6) inferred OPEN with [1, 0, 0].
