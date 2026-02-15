@@ -1,9 +1,15 @@
 # Underground Warehouse
 - **Goal:** Rescue Director.
 - **Current State:**
-  - Sw1: ON
-  - Sw2: ON (Turning OFF)
-  - Sw3: OFF
+  - Sw1: OFF (Action taken).
+  - Sw2: OFF (Verified previously).
+  - Sw3: OFF (Verified previously).
+- **Strategy:** Baseline Established [OFF, OFF, OFF].
+  - **Action:** Check Gates.
+  - **Hypothesis:** Determine "Zero State".
+- **Next Step:**
+  - If (16,6) Open: Enter.
+  - If Closed: Toggle Sw3 ON -> [OFF, OFF, ON] (Previous Winning State??).
 - **Verified Configurations:**
   - **[OFF, ON, OFF]:** Left(2,6) Open. Right(16,6) Closed. Cross(6,8) Closed. -> Dead End (Left).
   - **[ON, ON, OFF]:** Same as above.
