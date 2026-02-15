@@ -2,12 +2,12 @@
 - **Goal:** Rescue Director (Likely in Bottom Right).
 - **Grunt Hint:** "The switch on the end is the one to press first." (Implies Sw1 or Sw3).
 - **Current State:** [1,0,0] (Sw1 ON).
-- **Discovery:** Transition from [1,0,0] to [0,0,0] caused (2,6) to close (3fe2->2889).
-- **Conclusion:** [1,0,0] (Sw1 ON) OPENS Gate (2,6) (Left Entry).
+- **Discovery:** Gate (2,6) OPEN.
+- **Hazard:** Reaching (3,8) caused a reset to (3,5). Suspect Trap Warp at (2,8) or (3,8).
 - **Plan:**
-  1. Turn Sw1 ON.
-  2. Enter Gate (2,6).
-  3. Toggle Sw3 (to [1,0,1]).
+  1. Move to (2,8).
+  2. If safe, check Gate (2,10) and Silver (4,8).
+  3. If warped, mark trap and try another path.
 - **Plan:**
   1. Check Gates for [0,1,0].
   2. If Gate 12-8 (Right Cross) or 10-6 (Mid Entry) opens, investigate.
