@@ -1,7 +1,8 @@
 # Underground Warehouse Strategy
-- **Status:** Switch 1 (ON), Switch 2 (ON), Switch 3 (OFF).
-- **Action:** Waiting for map update to check gates for [OFF, ON, ON].
-- **Hypothesis:** Testing combinations. [ON, ON, ON] failed. Now testing [ON, ON, OFF].
+- **Status:** Switch 1 (ON), Switch 2 (ON), Switch 3 (OFF -> ON).
+- **Action:** Turning Switch 3 ON. Then going to turn Switch 2 OFF.
+- **Hypothesis:** Testing combination [ON, OFF, ON] (Ends ON, Middle OFF).
+- **tested_combinations:** [ON, ON, ON] (Fail), [ON, ON, OFF] (Fail), [OFF, ON, ON] (Fail).
 - **Sequence:** [3 -> 2] in progress.
 - **Step 1:** Sw3 ON (Complete).
 - **Step 2:** Turn Sw2 ON.
