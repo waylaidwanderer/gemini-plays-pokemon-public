@@ -1,14 +1,11 @@
 # Underground Warehouse
 - **Goal:** Rescue Director.
 - **Strategy: The "Reset & Trap"**
-  - **Current:** [ON, OFF, ON]. (Verified: Can exit Middle Room via (6,8)).
-  - **Plan:**
-    1. Navigate to Sw3 (2,2). Turn OFF.
-    2. Navigate to Sw1 (16,2). Turn OFF.
-    3. Verify [OFF, OFF, OFF] state.
-    4. **Critical:** Step on Trap (15,4). Check if (16,6) opens.
-  - **Backup:** Test [ON, ON, ON].
-  - **Goal:** Find a state where (16,6) is OPEN (to enter Right Room) OR (2,6)+(6,8)+(10,10) is OPEN.
+  - **Current Action:** Turning Sw3 OFF. Next: Turn Sw1 OFF.
+  - **Target State:** [OFF, OFF, OFF].
+  - **Check:** Verify (16,6) and (2,6) are Open/Closed.
+  - **Trap Experiment:** Once in [OFF, OFF, OFF], step on (15,4).
+  - **Goal:** Open (16,6).
 - **Verified Configurations:**
   - **[OFF, ON, OFF]:** Left(2,6) Open. Right(16,6) Closed. Cross(6,8) Closed. -> Dead End (Left).
   - **[ON, ON, OFF]:** Same as above.
