@@ -58,12 +58,13 @@
   - Previously confirmed: Opens wall at (16, 10).
 - **Current Status:**
   - Switches: [1, 1, 0] (Sw1 ON, Sw2 ON, Sw3 OFF).
-  - Gate 1 & 3 should be OPEN.
-  - Heading to Gate 3 (16, 6).
-- **CRITICAL:** Trap at (16, 8) must be bypassed.
-  - Do NOT walk straight down from Gate 3.
-  - Path: (16, 6) -> (17, 6) -> (17, 8) -> (16, 9).
+  - Gate 3 Open.
+  - Trap (16, 8) ACTIVE (Confirmed Warp to 16, 5).
+  - [1, 1, 0] Fails for Right Path.
+- **New Hypothesis:** [1, 1, 1] (All ON).
+  - Notes say [1, 1, 1] opens Gate 3.
+  - Maybe it disables the trap?
 - **Plan:**
-  1. Confirm Switch 3 OFF.
-  2. Navigate to Gate 3.
-  3. Execute trap evasion path.
+  1. Go to Switch 3 (2, 1). Turn ON.
+  2. Return to Gate 3 (16, 6).
+  3. Test Trap (16, 8).
