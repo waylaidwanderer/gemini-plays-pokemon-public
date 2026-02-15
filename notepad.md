@@ -29,7 +29,11 @@
 - Toggled Switch 2 OFF. State: [0, 0, 0] (All OFF).
 - Toggled Switch 1 ON. State: [1, 0, 0].
 - Gate 2 (10,6) confirmed CLOSED with [1,0,0].
-- Toggled Switch 3 OFF. State: [1, 1, 0].
-- Heading to Gate 3 (16,6).
-- Expectation: Gate 3 OPEN, Wall (16,10) OPEN.
-- Goal: Rescue Director.
+- Gate 1 (2,6) CLOSED with [1,1,0].
+- NEW THEORY:
+  - Base State: Sw2=ON, Sw3=ON.
+    - Sw1=ON -> Gate 1 Open ([1,1,1]).
+    - Sw1=OFF -> Gate 3 Open ([0,1,1]).
+  - Current State: [1, 1, 0] (Sw3=OFF).
+  - Hypothesis: Sw3=OFF opens Gate 2?
+- Action: Checking Gate 2 (10,6).
