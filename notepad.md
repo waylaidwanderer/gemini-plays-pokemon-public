@@ -20,6 +20,7 @@
   - **Success:** (12,8) OPENED (Observed change).
   - **Goal:** Verify (2,6) is also OPEN.
   - **Plan:** Navigate via Row 5 to (2,6). Enter side gate. Loop around to (12,8).
-- **Config [OFF, ON, ON] (Confirmed):**
-  - **Result:** (2,6) Open, (12,8) Open. (16,6) Closed.
-  - **Analysis:** Sw3 ON opens Dest (12,8) but closes Entry (16,6).
+- **Config [OFF, ON, ON] (Testing):**
+  - **Status:** Sw1 OFF, Sw2 ON, Sw3 ON.
+  - **Goal:** Check if (6,8) opens or (10,10) changes.
+  - **Hypothesis:** Sw2 ON might open the West->Middle gate (6,8).
