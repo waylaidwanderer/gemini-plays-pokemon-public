@@ -56,10 +56,11 @@
 - **Tested Combinations (Sw1, Sw2, Sw3):**
   - [1, 1, 0]: Gate 1 OPEN, Gate 3 CLOSED.
   - [0, 1, 0]: Gate 2 OPEN, Gate 3 CLOSED.
-  - [1, 0, 0]: Gate 3 CLOSED. (Verified).
+  - [1, 0, 0]: Gate 3 CLOSED. Gate 1 CLOSED.
   - [0, 0, 0]: All Closed.
   - [0, 1, 1]: Gate 3 CLOSED.
   - [0, 0, 1]: Gate 3 CLOSED.
+  - [1, 0, 1]: Gate 1 CLOSED. (Checking others...)
 - **Current Status:**
   - Switches: [1, 0, 1] (Sw1 ON, Sw2 OFF, Sw3 ON).
   - Gate 3 (16, 6): CHECKING...
