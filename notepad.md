@@ -57,12 +57,10 @@
   - Previously confirmed: Opens Gate 1 & Gate 3.
   - Previously confirmed: Opens wall at (16, 10).
 - **Current Status:**
-  - Switches: [1, 0, 0] (Sw1 ON, Sw2 OFF, Sw3 OFF).
-  - Gate 2 (10, 6) CLOSED.
-  - Gate 3 (16, 6) CLOSED.
-- **Hypothesis:** Sw2 ON is likely required for Gate 3.
-- **Next Target:** [0, 1, 0] (Sw1 OFF, Sw2 ON, Sw3 OFF).
+  - Switches: [0, 0, 0] (All OFF).
+  - Sw1 confirmed OFF.
+  - Moving to Switch 2.
+- **Target:** [0, 1, 0] (Sw1 OFF, Sw2 ON, Sw3 OFF).
 - **Plan:**
-  1. Go to Sw1 (16, 1). Turn OFF (State -> [0, 0, 0]).
-  2. Go to Sw2 (10, 1). Turn ON (State -> [0, 1, 0]).
-  3. Check Gates 2 & 3.
+  1. Go to Sw2 (10, 1). Turn ON.
+  2. Check Gates 2 & 3.
