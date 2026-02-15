@@ -6,8 +6,8 @@
   - Traps at (2,8) and (3,8) are disabled.
 - **Traps Identified:**
   - (16,8), (12,9), (10,9).
-- **Current Location:** (3,8) - Blocked by Silver.
+- **Current Location:** (10,11) - Near Duncan.
 - **Immediate Plan:**
-  1. Backtrack through Gate 1.
-  2. Check Gate 2 at (10,6).
-  3. Find path to Director and Duncan.
+  1. Retrieve Item at (1,12) (Walk around Duncan).
+  2. Locate Warp at (22,10) (East of Gate 3).
+  3. Find path to Director.
