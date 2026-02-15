@@ -3,10 +3,11 @@
 - **Puzzle Solved:** Switch Combination [0, 1, 0] (Sw2 ON only) -> Gate 2 OPEN.
 - **Current Status:**
   - Switches: [1, 0, 1] (Sw1 ON, Sw2 OFF, Sw3 ON).
-  - Sequence: Sw3 ON -> Sw1 ON.
-  - Action: Turned Sw1 ON.
-  - Next: Check Gate 3 via Tool.
-  - Theory: "End Switches" (3 and 1) open Gate 3.
+  - Sequence Tested: Sw3 -> Sw1 (Failed).
+  - Gate 3: CLOSED (Visual Confirm).
+  - New Plan: Test Sequence Sw1 -> Sw3.
+  - Step 1: Turn Sw1 OFF (Reset).
+  - Step 2: Turn Sw3 OFF (Reset).
 - **Immediate Plan:**
   1. Move to Switch 1 (16, 1).
   2. Verify it is ON.
