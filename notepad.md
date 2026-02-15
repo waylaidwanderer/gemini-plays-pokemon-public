@@ -3,10 +3,9 @@
 - **Puzzle Solved:** Switch Combination [0, 1, 0] (Sw2 ON only) -> Gate 2 OPEN.
 - **Current Status:**
   - Switches: [1, 0, 1] (Sw1 ON, Sw2 OFF, Sw3 ON).
-  - Result: All Gates CLOSED (Confirmed via Tool).
-  - Plan: Target [0, 1, 1] (Sw1 OFF, Sw2 ON, Sw3 ON).
-  - Action: Go to Sw2 (10, 1) -> Turn ON.
-  - Then: Go to Sw1 (16, 1) -> Turn OFF.
+  - Target: [0, 1, 1] (Sw1 OFF, Sw2 ON, Sw3 ON).
+  - Logic: [1,1,0]=Gate1. [0,1,0]=Gate2. Hyp: [0,1,1]=Gate3.
+  - Action: Moving to Sw2 (10, 1) -> Turn ON.
 - **Immediate Plan:**
   1. Move to Switch 1 (16, 1).
   2. Verify it is ON.
