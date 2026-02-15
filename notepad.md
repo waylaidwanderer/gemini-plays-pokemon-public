@@ -57,14 +57,12 @@
   - Previously confirmed: Opens Gate 1 & Gate 3.
   - Previously confirmed: Opens wall at (16, 10).
 - **Current Status:**
-  - Switches: [0, 0, 1] (Sw1 OFF, Sw2 OFF, Sw3 ON).
-  - Gate 1 (2, 6) OPEN.
-  - Gate 2 (10, 6) CLOSED.
-  - Gate 3 (16, 6) CLOSED.
-  - [0, 0, 1] Failed for target gates.
-- **New Target:** [0, 1, 1] (Sw1 OFF, Sw2 ON, Sw3 ON).
+  - Switches: [0, 1, 1] (Sw1 OFF, Sw2 ON, Sw3 ON).
+  - Testing Gate 2 (10, 6).
+- **Hypothesis:** Since [1, 1, 0] opened outer gates, maybe [0, 1, 1] opens middle?
 - **Plan:**
-  1. Go to Switch 2 (10, 1). Turn ON.
-  2. Check Gate 2 (10, 6).
-  3. If Closed, check Gate 3.
-  4. If all fail, reconsider [1, 1, 0] and trap mechanics.
+  1. Check Gate 2 (10, 6).
+  2. Check Gate 3 (16, 6).
+  3. If all fail:
+    - Revert to [1, 1, 0] (Sw1 ON, Sw2 ON, Sw3 OFF).
+    - Investigate Trap (16, 8) with Itemfinder or interaction?
