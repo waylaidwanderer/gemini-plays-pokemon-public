@@ -7,10 +7,12 @@
   - **Status:** Sw1 OFF, Sw2 OFF, Sw3 ON.
   - **Result:** (16,6) Closed. (12,8) Open.
   - **Trap Test:** Entering (15,4) did NOT open (16,6).
-- **Config [OFF, ON, OFF] (Verified):**
-  - **Status:** Sw1 OFF, Sw2 ON (Deduced), Sw3 OFF (Confirmed).
-  - **Result:** (16,6) Closed, (12,8) Open.
-  - **Trap Test:** Trap did NOT toggle (16,6).
+- **Config [OFF, ON, OFF] (Current):**
+  - **Status:** Sw1 OFF, Sw2 ON, Sw3 OFF.
+  - **Gates:** (2,6) OPEN, (12,8) OPEN, (10,10) OPEN.
+  - **Blocked:** (16,6) CLOSED. (Cannot enter Right).
+  - **Plan:** Turn Sw1 ON -> [ON, ON, OFF].
+  - **Theory:** Sw1 ON opens (16,6). Trap at (15,4) might toggle Sw1/Gates to open (12,8).
 - **Config [ON, OFF, OFF] (Current):**
   - **Status:** Sw1 ON, Sw2 OFF, Sw3 OFF.
   - **Result:** (16,6) Open, (12,8) Closed.
