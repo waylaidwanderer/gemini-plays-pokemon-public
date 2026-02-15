@@ -4,14 +4,13 @@
   - Gate 2 (10, 6) is OPEN.
   - Trap at (10, 9) is DISABLED.
 - **Current Status:**
-  - Switches: [0, 1, 0] (Sw2 ON, Sw3 OFF, Sw1 OFF).
-  - Note: Sw3 was already OFF ("It's OFF" text).
-  - Gate 2 (10, 6): OPEN.
-  - Heading to Switch 1.
+  - Switches: [1, 1, 0] (Sw1 ON, Sw2 ON, Sw3 OFF).
+  - Validated: Sw1 is ON (Text confirmed). Sw2 is ON. Sw3 is OFF.
+  - Gate 1 (2, 6): CHECKING...
 - **Plan:**
-  1. Go to Switch 1 (16, 1). Turn ON. -> State [1, 1, 0].
-  2. Enter Gate 1 (2, 6).
-  3. Traverse Row 9 East to check (11, 10).
+  1. Go to Gate 1 (2, 6).
+  2. Check if open.
+  3. Enter and traverse Row 9 to check wall at (11, 10).
 - **Warp Connection:** (23,3) in Warehouse (3_54) leads to (22,27) in Underground Path (3_53).
 - **Current Location:** Small room in 3_53, blocked by Rocket Grunt at (22,24).
 - **RESET ALERT:** Switches reset upon re-entering. Current State: likely [0,0,0].
