@@ -58,9 +58,9 @@
   - Previously confirmed: Opens wall at (16, 10).
 - **Current Status:**
   - Switches: [0, 1, 0] (Sw1 OFF, Sw2 ON, Sw3 OFF).
-  - Checking Gate 2 (10, 6) and Gate 3 (16, 6).
-- **Hypothesis:** This combo might open Gate 2 (Middle) or Gate 3 (Right).
+  - Gate 2 (10, 6) CLOSED.
+  - Checking Gate 3 (16, 6).
 - **Plan:**
-  1. Check Gate 2.
-  2. Check Gate 3.
-  3. If both closed, try [0, 0, 0] (All OFF).
+  1. Move to Gate 3 (16, 6).
+  2. If Gate 3 Open: Check Trap (16, 8).
+  3. If Gate 3 Closed: Try [0, 0, 0] (All OFF).
