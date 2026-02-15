@@ -13,3 +13,5 @@
   3. Navigate to Duncan (9,12) and East side.
 - **Warp Connection:** (23,3) in Warehouse (3_54) leads to (22,27) in Underground Path (3_53).
 - **Current Location:** Small room in 3_53, blocked by Rocket Grunt at (22,24).
+- **RESET ALERT:** Switches reset upon re-entering. Current State: likely [0,0,0].
+- **New Plan:** Turn Sw2 ON -> Check Gate 2 -> Reach Sw1 -> Turn Sw1 ON -> Open Gate 1 & 3.
