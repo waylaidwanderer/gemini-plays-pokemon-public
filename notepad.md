@@ -1,15 +1,11 @@
 # Underground Warehouse
 - **Goal:** Rescue Director.
-- **Strategy: Internal Exploration**
-  - **Config:** [ON, OFF, ON].
-  - **Why:** Opens (2,6) Entry + (6,8) Cross. Allows access to Left & Middle Rooms.
-  - **Plan:**
-    1. Turn Sw1 ON.
-    2. Turn Sw3 ON.
-    3. Enter via (2,6).
-    4. Talk to Silver (4,8).
-    5. Defeat Duncan (9,12).
-    6. Check if new path opens.
+- **Action:** Retrying Switch 1 Toggle (Previous attempt likely cancelled).
+- **Target:** Turn Sw1 ON.
+- **Current Config Check:** Verify if Sw1 changed state.
+- **Then:** Move to Sw3 (2,1) and Turn ON.
+- **Goal:** [ON, OFF, ON].
+- **Hypothesis:** Opens (2,6) and (6,8).
 - **Verified Configurations:**
   - **[OFF, ON, OFF]:** Left(2,6) Open. Right(16,6) Closed. Cross(6,8) Closed. -> Dead End (Left).
   - **[ON, ON, OFF]:** Same as above.
