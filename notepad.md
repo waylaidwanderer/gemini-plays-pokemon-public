@@ -1,5 +1,5 @@
 # Underground Warehouse Mechanics
-- **Switch 3 (Left):** Currently ON.
-- **Action:** Verify Gate (2,6) OPEN.
-- **Plan:** Move FAST through (2,6) -> (6,8) -> (10,10).
-- **Current Status:** Sw1: ON, Sw2: OFF, Sw3: ON.
+- **Switch 3 (Left):** Currently OFF (Resetting).
+- **Action:** Turn Switch 3 ON immediately.
+- **Plan:** Sprint South through (2,6) before it closes.
+- **Current Status:** Sw1: ON, Sw2: OFF, Sw3: OFF.
