@@ -4,19 +4,14 @@
   - Gate 2 (10, 6) is OPEN.
   - Trap at (10, 9) is DISABLED.
 - **Current Status:**
-  - Switches: [0, 1, 0] (Sw2 ON only).
-  - Gate 2 (10, 6): OPEN.
-  - Trap (10, 9): DISABLED.
-  - Wall at (11, 10): BLOCKED (Verified).
-  - Row 10 seems to be solid walls. Unable to reach Duncan.
+  - Switches: [0, 1, 0] (Sw2 ON).
+  - Gate 2: OPEN.
+  - Path South blocked by walls at Row 10.
 - **Hypothesis:**
-  - Need a combination that opens Gate 2 AND the wall at (11, 10).
-  - Attempting [0, 1, 1] next.
+  - Combination [0, 1, 1] (Sw2 ON, Sw3 ON) will keep Gate 2 open AND toggle the wall at (11, 10).
 - **Plan:**
-  1. Verify blockage at (10, 10) and (9, 10).
-  2. Return to Switches.
-  3. Turn Switch 3 ON -> State [0, 1, 1].
-  4. Check Gate 2 and Wall.
+  1. Go to Switch 3 (2, 1). Turn ON. -> State [0, 1, 1].
+  2. Check Gate 2 and Wall at (11, 10).
 - **Warp Connection:** (23,3) in Warehouse (3_54) leads to (22,27) in Underground Path (3_53).
 - **Current Location:** Small room in 3_53, blocked by Rocket Grunt at (22,24).
 - **RESET ALERT:** Switches reset upon re-entering. Current State: likely [0,0,0].
