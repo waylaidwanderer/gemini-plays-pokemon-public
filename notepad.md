@@ -1,16 +1,12 @@
 # Underground Warehouse
 - **Goal:** Rescue Director.
-- **Puzzle Solved:** Switch Combination [1,0,0] (Sw1 ON, Sw2 OFF, Sw3 OFF).
-  - Opens Gate 3 (16,6) and Cross Gate (12,8). Gate 1 (2,6) CLOSED.
+- **Puzzle Solved:** Switch Combination [1,1,0] (Sw1 ON, Sw2 ON, Sw3 OFF).
+  - Opens Gate 1 (2,6), Gate 3 (16,6).
+  - Traps at (2,8) and (3,8) are disabled.
 - **Traps Identified:**
-  - (16,8), (12,9), (10,9), (2,8), (3,8).
-  - Safe Path: Row 8 seems safe in the central area.
-- **Current Location:** (9,8) - Inner Warehouse.
+  - (16,8), (12,9), (10,9).
+- **Current Location:** (3,8) - Blocked by Silver.
 - **Immediate Plan:**
-  1. Defeat Burglar Duncan at (9,12).
-  2. Retrieve Item at (1,12).
-  3. Investigate Rival Silver at (4,8).
-  4. Find the Director.
-- Encountered dialogue loop with Duncan. Attempting to slow down inputs to allow battle transition.
-- Trap Check: (2,8) and (3,8) are SAFE with [1,1,0].
-  - Interact with Silver at (4,8).
+  1. Backtrack through Gate 1.
+  2. Check Gate 2 at (10,6).
+  3. Find path to Director and Duncan.
