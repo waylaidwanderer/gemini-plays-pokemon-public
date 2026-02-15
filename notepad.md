@@ -3,10 +3,10 @@
 - **Action:** Going to Switch 2 to turn it ON.
 - **Plan:** Test [OFF, ON, ON].
 - **Gate Status for [OFF, OFF, ON]:**
-  - Row 6: (2,6) OPEN, (10,6) OPEN, (16,6) CLOSED.
-  - Row 8: (6,8) OPEN, (12,8) CLOSED.
-  - Row 10: ALL CLOSED. -> Dead End.
-- **Hypothesis:** Need to open Row 10. Switch 2 or 1 might control Row 10.
-- **tested_combinations:** [OFF, OFF, ON] (Partial), [ON, ON, ON] (Fail?), [ON, ON, OFF] (Fail?), [OFF, OFF, OFF] (Fail).
+  - Row 6: (2,6) CLOSED, (10,6) CLOSED (Visual Confirm).
+  - Row 8: (6,8) OPEN? (Tool said yes, need visual).
+  - Row 10: ALL CLOSED.
+- **Hypothesis:** Switch 3 might open Row 8. Or I messed up the state.
+- **tested_combinations:** [OFF, OFF, ON] (Partial - Row 6 Closed).
 - **Reminder:** "End Switch First" might mean Start with 3, then add others.
 - **Inventory:** Full.
