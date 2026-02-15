@@ -4,14 +4,16 @@
   - Gate 2 (10, 6) is OPEN.
   - Trap at (10, 9) is DISABLED.
 - **Current Status:**
-  - Switches: [0, 1, 0] (Sw2 ON).
-  - Gate 2: OPEN.
-  - Path South blocked by walls at Row 10.
-  - Position: (4, 2). Blocked by Grunt at (3, 2).
+  - Switches: [0, 1, 1] (Sw2 ON, Sw3 ON, Sw1 OFF).
+  - Gate 2: CHECKING...
+  - Wall at (11, 10): CHECKING...
+  - Position: Moving from Switch 3 to Gate 2.
+- **Hypothesis:**
+  - [0, 1, 1] opens Gate 2 AND moves the wall at Row 10.
 - **Plan:**
-  1. Move to Switch 3 (2, 1) via Row 3 (bypass Grunt).
-  2. Turn Switch 3 ON -> State [0, 1, 1].
-  3. Check Gate 2 and Wall at (11, 10).
+  1. Navigate to Gate 2 (10, 6).
+  2. Check if open.
+  3. Check if wall at (11, 10) is gone.
 - **Warp Connection:** (23,3) in Warehouse (3_54) leads to (22,27) in Underground Path (3_53).
 - **Current Location:** Small room in 3_53, blocked by Rocket Grunt at (22,24).
 - **RESET ALERT:** Switches reset upon re-entering. Current State: likely [0,0,0].
