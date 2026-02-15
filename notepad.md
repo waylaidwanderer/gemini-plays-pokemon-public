@@ -43,8 +43,9 @@
 - Plan: Go to Switch 1 (16,1). Turn OFF.
 - Goal State: [0, 1, 0] (Sw1 OFF, Sw2 ON, Sw3 OFF).
 - Hypothesis: Sw1 OFF opens Gate 3.
-- Gate 2 (10,6) verified CLOSED with [1, 0, 0].
-- Moving to check Gate 3 (16,6).
-- If CLOSED, will go to Switch 1 (16,1) and toggle OFF.
-- Next Target State: [0, 0, 0] (if Sw1 toggled) or [0, 1, 0] (if Sw2 toggled back).
-- Current Hypothesis: Sw1 OFF might be key for Gate 3.
+- SUCCESS! State [1, 0, 0] (Sw1 ON, Sw2 OFF, Sw3 OFF).
+- Gate 3 (16,6) is OPEN.
+- Gate 2 (10,6) is CLOSED.
+- Gate 1 (2,6) inferred OPEN.
+- Action: Proceeding South through Gate 3. Avoiding Trap at (16,8) by going East.
+- Target: Warp at (22,10).
