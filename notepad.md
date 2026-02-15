@@ -59,10 +59,11 @@
   - [1, 0, 0]: Gate 1 CLOSED.
   - [0, 0, 0]: All Closed (Confirmed).
   - [1, 0, 1]: All Closed.
+  - [0, 0, 1]: Checking...
 - **Current Status:**
-  - Switches: [0, 0, 0] (Sw1 OFF, Sw2 OFF, Sw3 OFF).
-  - Gate 3 (16, 6): CLOSED.
+  - Switches: [0, 0, 1] (Sw1 OFF, Sw2 OFF, Sw3 ON).
+  - Gate 3 (16, 6): Checking...
 - **Plan:**
-  1. Go to Switch 3 (2, 1). Turn ON -> State [0, 0, 1].
-  2. Check Gate 3 with [0, 0, 1].
-  3. If Gate 3 opens, proceed to Director.
+  1. Check Gate 3 (16, 6).
+  2. If Open, Enter and AVOID TRAP at (16, 8).
+  3. If Closed, I am running out of combinations. (Maybe [0, 1, 1]?)
