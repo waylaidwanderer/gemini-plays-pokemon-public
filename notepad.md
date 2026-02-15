@@ -3,14 +3,12 @@
 - **Action:** Turning Sw3 ON.
 - **Correction:** Path blocked by Grunt at (3,2). Detouring via Row 3.
 - **Path:** (4,2) -> Down -> Left -> Left -> Up -> (2,2).
-- **Goal:** [ON, OFF, ON].
-- **Hypothesis:** Opens (2,6) and (6,8).
-- **Verified Configurations:**
-  - **[OFF, ON, OFF]:** Left(2,6) Open. Right(16,6) Closed. Cross(6,8) Closed. -> Dead End (Left).
-  - **[ON, ON, OFF]:** Same as above.
-  - **[OFF, ON, ON]:** Left(2,6) Open. Right(16,6) Closed. Cross(6,8) Closed. -> Dead End (Left).
-  - **[OFF, OFF, ON]:** Left(2,6) Open. Right(16,6) Closed. Cross(6,8) Closed?? (12,8) Open.
-    - *Note:* If (6,8) is closed, this is also a Dead End in Left Room.
-- **Testing Plan:**
-  1. **[ON, OFF, OFF]:** Turn Sw2 OFF. Check (16,6) and (12,8).
-  2. **[OFF, OFF, OFF]:** Turn Sw1 OFF. Check if "Reset" opens everything.
+- **Strategy: The "Inside Job" (Final Plan)**
+  - **Logic:** `[OFF, OFF, ON]` opens the exit path ((6,8) & (10,10)) but closes the entry ((2,6)).
+  - **Solution:** I must be INSIDE the Left Room when I trigger the final state.
+  - **Plan:**
+    1. Turn Sw3 OFF (Current State: [ON, OFF, ON] -> [ON, OFF, OFF]).
+    2. Go to Sw1 and Turn OFF ([ON, OFF, OFF] -> [OFF, OFF, OFF]).
+    3. Enter Left Room via (2,6) (Open in [OFF, OFF, OFF]).
+    4. Turn Sw3 ON (State: [OFF, OFF, ON]).
+    5. Exit via (6,8) -> (10,10) -> Director.
