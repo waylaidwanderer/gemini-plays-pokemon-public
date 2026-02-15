@@ -13,5 +13,8 @@
   3. Check Gate States.
   4. If fail, Turn Sw1 OFF -> [000].
 - **Grunt Hint:** "The switch on the end is the one to press first, but... I forgot which end..."
-- **Interpretation:** The solution likely starts with either Switch 1 (Right End) or Switch 3 (Left End) being pressed from a reset state.
-- **Current Test:** [ON, OFF, OFF] (Sw1 ON, Sw2 OFF, Sw3 OFF).
+- **Interpretation:** Sequence starts with End Switch.
+  - Path 1: Reset -> Sw1 (Right End). State: [ON, OFF, OFF].
+  - Path 2: Reset -> Sw3 (Left End). State: [OFF, OFF, ON].
+- **Testing:** Currently at [ON, ON, OFF]. Turning Sw2 OFF will create [ON, OFF, OFF].
+- **Goal:** Achieve [ON, OFF, OFF] and check for valid path (Entry -> Cross -> Exit in same lane).
