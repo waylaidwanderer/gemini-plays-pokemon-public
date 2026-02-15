@@ -590,18 +590,18 @@
     ]
   },
   "check_gate_states": {
-    "description": "Checks the open/closed state of the warehouse gates by parsing the Mental Map XML. Prints the states to the log and returns an empty button list.",
+    "description": "Checks the open/closed state of the warehouse gates by parsing the Mental Map XML. Prints a JSON dictionary of gate states to the log. Intended for use with autopress_buttons=false.",
     "input_schema": {
       "type": "object",
       "properties": {
         "autopress_buttons": {
           "type": "boolean",
           "default": false,
-          "description": "If true and the tool returns a list of buttons, they will be pressed automatically."
+          "description": "Must be false. This tool returns information, not button presses."
         }
       }
     },
-    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\ntry:\n    # Parse the XML string\n    root = ET.fromstring(map_xml_string)\n    \n    # Define the coordinates of the gates we are interested in\n    gates_of_interest = {\n        \"(2, 6)\": \"Gate (Left, Top)\",\n        \"(10, 6)\": \"Gate (Middle, Top)\",\n        \"(16, 6)\": \"Gate (Right, Top)\",\n        \"(6, 8)\": \"Gate (Left-Middle, Row 8)\",\n        \"(12, 8)\": \"Gate (Right-Middle, Row 8)\",\n        \"(2, 10)\": \"Gate (Left, Bottom)\",\n        \"(10, 10)\": \"Gate (Middle, Bottom)\",\n        \"(16, 10)\": \"Gate (Right, Bottom)\"\n    }\n    \n    results = {}\n    \n    # Iterate through the XML to find the tiles\n    for row in root.findall(\"Row\"):\n        y = int(row.get(\"id\"))\n        for tile in row.findall(\"Tile\"):\n            x = int(tile.get(\"id\"))\n            coord = f\"({x}, {y})\"\n            \n            if coord in gates_of_interest:\n                tile_type = tile.get(\"type\")\n                state = \"UNKNOWN\"\n                \n                # Determine state based on tile type\n                # TYPE_3fe2 is generally Walkable/Floor (Open Gate)\n                # TYPE_2889 is generally Wall/Obstacle (Closed Gate)\n                if tile_type == \"TYPE_3fe2\":\n                    state = \"OPEN\"\n                elif tile_type == \"TYPE_2889\":\n                    state = \"CLOSED\"\n                else:\n                    state = f\"Type: {tile_type}\"\n                \n                results[gates_of_interest[coord]] = state\n\n    # Print the report clearly\n    print(\"--- GATE STATUS REPORT ---\")\n    for gate_name, status in results.items():\n        print(f\"{gate_name}: {status}\")\n    print(\"--------------------------\")\n\nexcept Exception as e:\n    print(f\"Error parsing map XML: {e}\")\n\n# CRITICAL: Always print a valid JSON list at the end for the harness\nprint(json.dumps([]))",
+    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\ntry:\n    # Parse the XML string\n    root = ET.fromstring(map_xml_string)\n    \n    # Define the coordinates of the gates we are interested in\n    gates_of_interest = {\n        \"(2, 6)\": \"Gate 2-6 (Left Top)\",\n        \"(10, 6)\": \"Gate 10-6 (Mid Top)\",\n        \"(16, 6)\": \"Gate 16-6 (Right Top)\",\n        \"(6, 8)\": \"Gate 6-8 (Left Cross)\",\n        \"(12, 8)\": \"Gate 12-8 (Right Cross)\",\n        \"(2, 10)\": \"Gate 2-10 (Left Bot)\",\n        \"(10, 10)\": \"Gate 10-10 (Mid Bot)\",\n        \"(16, 10)\": \"Gate 16-10 (Right Bot)\"\n    }\n    \n    results = {}\n    \n    # Iterate through the XML to find the tiles\n    for row in root.findall(\"Row\"):\n        y = int(row.get(\"id\"))\n        for tile in row.findall(\"Tile\"):\n            x = int(tile.get(\"id\"))\n            coord = f\"({x}, {y})\"\n            \n            if coord in gates_of_interest:\n                tile_type = tile.get(\"type\")\n                # TYPE_3fe2 is Walkable (Open), TYPE_2889 is Wall (Closed)\n                if tile_type == \"TYPE_3fe2\":\n                    state = \"OPEN\"\n                elif tile_type == \"TYPE_2889\":\n                    state = \"CLOSED\"\n                else:\n                    state = f\"UNKNOWN ({tile_type})\"\n                \n                results[gates_of_interest[coord]] = state\n\n    # Print ONLY the valid JSON dict\n    print(json.dumps(results, indent=2))\n\nexcept Exception as e:\n    print(json.dumps({\"error\": str(e)}))\n",
     "history": [
       {
         "commit_message": "Initial version",
@@ -622,6 +622,11 @@
         "commit_message": "Fixed the tool to ensure it prints a valid JSON array at the end of execution, allowing it to be used with autopress_buttons without crashing the harness. Added robust XML parsing and status reporting for all relevant gates.",
         "timestamp": "2026-02-15T04:54:58.222Z",
         "action_counter": 44011
+      },
+      {
+        "commit_message": "Refined tool to print ONLY a valid JSON dictionary of gate states to stdout. This is intended to be used with autopress_buttons=false for information gathering.",
+        "timestamp": "2026-02-15T04:58:47.604Z",
+        "action_counter": 44014
       }
     ]
   }
