@@ -54,18 +54,16 @@
   - Gate 3 (16, 6) CLOSED.
   - (12, 8) OPEN (Unreachable).
 - **Tested Combinations (Sw1, Sw2, Sw3):**
-  - [1, 1, 0]: Gate 1 OPEN, Gate 3 OPEN, Gate 2 CLOSED.
-  - [0, 0, 1]: Gate 1 OPEN, Gate 3 OPEN, Gate 2 CLOSED.
-  - [1, 0, 1]: All Outer Gates CLOSED.
-  - [1, 0, 0]: Gate 1 CLOSED.
-  - [0, 0, 0]: Gate 3 CLOSED.
-  - [0, 1, 0]: Gate 2 OPEN! (Sw2 ON, others OFF).
-  - [0, 1, 1]: All Outer Gates CLOSED.
-  - [1, 1, 1]: All Outer Gates CLOSED.
+  - [1, 1, 0]: Gate 1 OPEN, Gate 3 OPEN, Gate 2 CLOSED. (Target)
+  - [0, 1, 0]: Gate 2 OPEN.
+  - [0, 0, 0]: All Closed.
 - **Current Status:**
-  - Switches: [0, 1, 0] (Sw1 OFF, Sw2 ON, Sw3 OFF).
-  - Gate 2 (10, 6): OPEN.
+  - Switches: [1, 1, 0] (Sw1 ON, Sw2 ON, Sw3 OFF).
+  - Gate 3 (16, 6): Should be OPEN.
+  - Trap (16, 8): Active.
 - **Plan:**
-  1. Explore South of Gate 2.
-  2. Check Trap at (10, 9).
-  3. Look for switches/Director.
+  1. Verify Gate 3 Open.
+  2. Walk South through Gate 3.
+  3. **CRITICAL:** Step SIDEWAYS to (15, 8) or (17, 8) to avoid Trap at (16, 8).
+  4. Continue South to (16, 10).
+  5. Check if Wall at (16, 10) is open.
