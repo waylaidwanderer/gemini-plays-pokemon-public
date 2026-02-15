@@ -1,9 +1,9 @@
 # Underground Warehouse
 - **Goal:** Rescue Director (Likely in Bottom Right).
 - **Grunt Hint:** "The switch on the end is the one to press first." (Implies Sw1 or Sw3).
-- **Current State:** [0,0,1] (Sw3 ON).
+- **Current State:** [0,0,0] (All OFF).
 - **Truth Table (Entry | Cross | Exit):**
-  - [000] (OFF,OFF,OFF): Closed.
+  - [000] (OFF,OFF,OFF): Closed (Re-verifying...).
   - [001] (OFF,OFF,ON): Closed.
   - [010] (OFF,ON,OFF): ?
   - [011] (OFF,ON,ON): 2-6(L) | 6-8(L) | - (Stuck Left).
