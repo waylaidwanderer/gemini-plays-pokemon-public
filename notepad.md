@@ -3,12 +3,15 @@
 - **Config [OFF, OFF, ON] (Failed):**
   - **Result:** (2,6) Open, (12,8) Open. (16,6) Closed.
   - **Analysis:** Sw3 ON opens the destination but closes the entry.
-- **Config [OFF, OFF, ON] (Current):**
+- **Config [OFF, OFF, ON] (Confirmed):**
   - **Status:** Sw1 OFF, Sw2 OFF, Sw3 ON.
-  - **Observation:** (2,6) Opened! (Sw3 ON opens Left Entry).
-  - **Hypothesis:** Sw3 ON -> Left Entry Open, Right Cross Open. (Symmetric Deadlock).
-  - **Plan:** Trigger "Trap Room" (15,4).
-  - **Goal:** Toggle gates (Hope: Right Entry or Left Cross Opens).
+  - **Result:** (16,6) Closed. (12,8) Open.
+  - **Trap:** Failed to toggle (16,6).
+- **New Plan: Test [OFF, ON, OFF].**
+  - **Hypothesis:** Sw3 OFF keeps (16,6) Open. Sw2 ON opens (12,8).
+  - **Step 1:** Turn Sw3 OFF -> [OFF, OFF, OFF].
+  - **Step 2:** Turn Sw2 ON -> [OFF, ON, OFF].
+  - **Goal:** (16,6) Open + (12,8) Open.
 - **Config [OFF, ON, ON] (Confirmed):**
   - **Result:** (2,6) Open, (12,8) Open. (16,6) Closed.
   - **Analysis:** Sw3 ON opens Dest (12,8) but closes Entry (16,6).
