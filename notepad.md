@@ -7,12 +7,12 @@
   - **Status:** Sw1 OFF, Sw2 OFF, Sw3 ON.
   - **Result:** (16,6) Closed. (12,8) Open.
   - **Trap Test:** Entering (15,4) did NOT open (16,6).
-- **Config [OFF, OFF, ON] (Actual):**
-  - **Status:** Sw1 OFF, Sw2 OFF, Sw3 ON.
-  - **Correction:** Previous attempt to turn Sw3 OFF was cancelled with B.
-  - **Plan:** Turn Sw3 OFF -> [OFF, OFF, OFF].
-  - **Next:** Turn Sw2 ON -> [OFF, ON, OFF].
-  - **Goal:** (16,6) Open + (12,8) Open.
+- **Current Verified State:**
+  - Sw3 is **OFF** (Confirmed via Text).
+  - Sw1 is **OFF** (Assumed).
+  - Sw2 is **Unknown/Assumed ON**.
+- **Action:** checking gate states to deduce Sw2 status.
+- **Goal:** Find config for (16,6) OPEN + (12,8) OPEN.
 - **Config [OFF, ON, ON] (Confirmed):**
   - **Result:** (2,6) Open, (12,8) Open. (16,6) Closed.
   - **Analysis:** Sw3 ON opens Dest (12,8) but closes Entry (16,6).
