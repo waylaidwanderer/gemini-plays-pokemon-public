@@ -1,13 +1,13 @@
 # Underground Warehouse Mechanics
 - **Goal:** Rescue Director / Get Card Key.
-- **Config [OFF, ON, ON]:**
-  - **Status:** Sw1 OFF, Sw2 ON, Sw3 ON.
-  - **Result:** Gates (6,8), (10,6), (16,6) CLOSED. Dead End.
-- **Plan:** Toggle Sw1 (ON). Target: [ON, ON, ON].
-- **Hypothesis:** Maybe All ON opens something?
+- **Config [ON, ON, ON]:**
+  - **Status:** Sw1 ON, Sw2 ON, Sw3 ON.
+  - **Action:** Turned Sw1 ON.
+  - **Plan:** Check gates via tool.
+  - **Hypothesis:** Testing "All ON".
 - **Previous Tool Checks:**
-  - [ON, OFF, ON]: (2,6) Open, (12,8) Open, (10,10) Open. (6,8) Closed.
-  - [OFF, OFF, ON]: (2,6) Open, (12,8) Open, (10,10) Open. (16,6) Closed.
-  - [OFF, ON, ON]: Same as above.
+  - [ON, OFF, ON]: (2,6) Open. (6,8) Closed.
+  - [OFF, OFF, ON]: (2,6) Open. (16,6) Closed.
+  - [OFF, ON, ON]: All Closed.
 - **Connections:** Warehouse (23,3) <-> Underground (22,27).
 - **NPCs:** Silver (19,24) & Grunt (22,24) in Underground isolated room.
