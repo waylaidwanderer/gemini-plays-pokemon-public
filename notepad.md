@@ -2,10 +2,11 @@
 - **Goal:** Rescue Director.
 - **Puzzle Solved:** Switch Combination [0, 1, 0] (Sw2 ON only) -> Gate 2 OPEN.
 - **Current Status:**
-  - Switches: [0, 0, 1] (Sw1 OFF, Sw2 OFF, Sw3 ON).
-  - Action: Interacting with Sw3 (2, 1).
-  - Next: Turn Sw3 OFF -> [0, 0, 0].
-  - Goal: Check Gates (Expect All Closed? Or Surprise?).
+  - Switches: [0, 0, 0] (All OFF).
+  - Action: Turned Sw3 OFF.
+  - Next: Check Gates via Tool.
+  - Plan: Test "Order Matters" theory starting from [0, 0, 0].
+    - Try pressing "End" switch (Sw1 or Sw3) first.
 - **Immediate Plan:**
   1. Move to Switch 1 (16, 1).
   2. Verify it is ON.
