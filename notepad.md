@@ -1,6 +1,4 @@
 # Underground Warehouse Mechanics
-- **Switch 3 (Left):** Currently OFF.
-- **Action:** Turn ON.
-- **Goal:** Open Gate (2,6).
-- **Hypothesis:** Re-triggering ON state opens gate.
-- **Current Status:** Sw1: ON, Sw2: OFF, Sw3: OFF.
+- **Switch 3 (Left):** Turned ON. Gate (2,6) should be OPEN.
+- **Action:** Move South through Gate (2,6) immediately.
+- **Current Status:** Sw1: ON, Sw2: OFF, Sw3: ON.
