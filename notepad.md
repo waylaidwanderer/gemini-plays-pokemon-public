@@ -62,12 +62,12 @@
   - [0, 0, 1]: Gate 3 CLOSED.
   - [1, 0, 1]: Gate 3 OPEN. Gate 1 & 2 CLOSED. Trap (16, 8) DISABLED.
 - **Current Status:**
-  - Switches: [0, 0, 1] (Sw1 OFF, Sw2 OFF, Sw3 ON).
+  - Switches: [0, 0, 0] (Sw1 OFF, Sw2 OFF, Sw3 OFF).
+  - Note: Switch 3 reads "It's OFF". I must have toggled it OFF in the previous turn sequence.
   - Transitioning to [0, 1, 0].
 - **Plan:**
-  1. Move to Switch 3 (2, 1). Turn OFF. -> State [0, 0, 0].
-  2. Move to Switch 2 (10, 1). Turn ON. -> State [0, 1, 0].
-  3. Enter Gate 2 (10, 6) and check trap at (10, 9).
+  1. Move to Switch 2 (10, 1). Turn ON. -> State [0, 1, 0].
+  2. Enter Gate 2 (10, 6) and check trap at (10, 9).
 - Visual Confirm: Gate 3 (16, 6) is CLOSED (Type 2889).
 - Visual Confirm: Gate 2 (10, 6) is CLOSED (Type 2889).
 - Checking Switch 1 Status...
