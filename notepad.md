@@ -71,7 +71,7 @@
   - Switch 1 interaction was incomplete. It is likely still ON.
   - Current Real State: [1, 0, 0] (Sw1 ON, Sw2 OFF, Sw3 OFF).
 - **Revised Plan:**
-  1. Turn Switch 2 ON -> State [1, 1, 0].
+  1. Turn Switch 2 ON (Interacting now).
   2. Go to Switch 1. Verify/Turn OFF -> State [0, 1, 0].
   3. Check Gate 2 (10, 6).
 - Visual Confirm: Gate 3 (16, 6) is CLOSED (Type 2889).
