@@ -1,7 +1,11 @@
 # Underground Warehouse Strategy
 - **Status:** Switch 1 (ON), Switch 2 (OFF), Switch 3 (OFF).
-- **Action:** Checking gates for [ON, OFF, OFF].
-- **Hypothesis:** Switch 1 (Right) alone might open Row 10 or Row 6.
-- **Previous:** [ON, OFF, ON] -> (12,8) CLOSED.
-- **Plan:** Use check_gate_states tool.
+- **Gate Data (from error log):**
+  - [ON, OFF, OFF]: (6,8) OPEN. Others CLOSED.
+- **Analysis:**
+  - Switch 3 (Left) -> Opens (2,6) & (12,8).
+  - Switch 1 (Right) -> Opens (6,8).
+- **Hypothesis:** Switch 2 (Middle) might be the key for Row 10 or the middle gates.
+- **Action:** Going to Switch 2 (Middle). Turn ON.
+- **Target State:** [ON, ON, OFF].
 - **Inventory:** Full.
