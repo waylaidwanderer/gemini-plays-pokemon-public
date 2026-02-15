@@ -81,3 +81,10 @@
   - (16, 9) is accessible.
   - checking (16, 10) (Wall?).
   - checking West path towards (12, 9).
+- Dead End Check:
+  - (12, 9) is Wall.
+  - (13, 10) is Wall.
+  - Checking (16, 10) and (17, 9).
+- Gate 3 with [1, 0, 1] leads to a small room (Rows 6-9, Cols 13-17).
+  - No obvious exit found yet.
+  - Investigating (16, 10) for hidden door.
