@@ -21,6 +21,12 @@
 - Re-evaluated States:
   - [1,0,0] (Sw1 ON, Sw2 OFF, Sw3 OFF): Opened Cross Gate (12,8) and Wall (12,9).
   - [1,1,0] (Sw1 ON, Sw2 ON, Sw3 OFF): Gate 3 (16,6) Closed.
-- Current Action: Turning Sw3 ON -> State [1,1,1].
-- Goal: Check if [1,1,1] opens Gate 3 or Exit.
-- Future Plan: If [1,1,1] fails, try [1,0,1] (Turn Sw2 OFF).
+- Current State: [1,1,1] (Sw1 ON, Sw2 ON, Sw3 ON).
+- Verification Needed: Must physically visit gates to update Mental Map.
+- Immediate Plan:
+  1. Check Gate 1 (2,6).
+  2. If blocked, check Gate 2 (10,6) or Gate 3 (16,6).
+  3. Look for changes in the "Cross Gate" (12,8) status.
+- Previous Findings (Corrected):
+  - [1,0,0]: Opened Cross Gate (12,8).
+  - [1,1,0]: Closed Gate 3 (16,6).
