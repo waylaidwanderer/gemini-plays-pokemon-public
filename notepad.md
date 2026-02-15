@@ -3,10 +3,12 @@
 - **Config [OFF, OFF, ON] (Failed):**
   - **Result:** (2,6) Open, (12,8) Open. (16,6) Closed.
   - **Analysis:** Sw3 ON opens the destination but closes the entry.
-- **Config [OFF, ON, OFF] (Current):**
-  - **Status:** Sw1 OFF, Sw2 ON, Sw3 OFF.
-  - **Plan:** Check gates.
-  - **Hope:** (16,6) Open (from Sw3 OFF), (12,8) Open (from Sw2 ON).
+- **Config [OFF, OFF, OFF] (Target):**
+  - **Status:** Sw1 OFF, Sw2 OFF, Sw3 OFF.
+  - **Result:** (16,6) Open, (6,8) Open, (12,8) Closed.
+  - **Plan:** Trigger "Trap Room" (15,4).
+  - **Hypothesis:** Trap Room toggles Cross Gates. (6,8) Close -> (12,8) Open?
+  - **Goal:** (16,6) Open + (12,8) Open.
 - **Config [OFF, ON, ON] (Confirmed):**
   - **Result:** (2,6) Open, (12,8) Open. (16,6) Closed.
   - **Analysis:** Sw3 ON opens Dest (12,8) but closes Entry (16,6).
