@@ -3,10 +3,9 @@
 - **Puzzle Solved:** Switch Combination [0, 1, 0] (Sw2 ON only) -> Gate 2 OPEN.
 - **Current Status:**
   - Switches: [0, 0, 1] (Sw1 OFF, Sw2 OFF, Sw3 ON).
-  - Gate 2 (10, 6): CLOSED (Confirmed).
-  - Failed: [0, 1, 1].
-  - Action: Turning Sw2 OFF.
-  - Next: Turn Sw1 ON -> [1, 0, 1].
+  - Action: Moving to Sw1 (16, 1) to turn ON.
+  - Target State: [1, 0, 1] (Sw1 ON, Sw2 OFF, Sw3 ON).
+  - Goal: Open Gate 3 (16, 6) & Disable Trap (16, 8).
 - **Immediate Plan:**
   1. Move to Switch 1 (16, 1).
   2. Verify it is ON.
