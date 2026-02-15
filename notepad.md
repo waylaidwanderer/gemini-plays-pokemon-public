@@ -17,11 +17,10 @@
   - Gate 3 (16,6) CLOSED.
   - Exit (16,10) CLOSED.
 - Current State: [1,1,1] (All ON).
-- Immediate Action: Checking Gate 1 (2,6).
+- Gate 1 (2,6): OPEN (Verified).
+- Immediate Action: Moving to check Gate 2 (10,6) and Gate 3 (16,6).
 - Gate Logic Recap:
-  - [1,0,0] (Sw2 OFF, Sw3 OFF): Opened Cross Gate (12,8) and Wall (12,9). (Strong candidate).
-  - [1,1,0] (Sw3 OFF): Gate 3 (16,6) Closed.
-  - [1,1,1]: Testing now.
+  - [1,1,0] (Sw3 OFF): Gate 2 & 3 Closed.
+  - [1,0,0] (Sw2 OFF, Sw3 OFF): Opened Cross Gate (12,8) and Wall (12,9).
 - Plan:
-  - If [1,1,1] is a dead end, revert to [1,0,0] (Turn Sw2 OFF, Sw3 OFF).
-  - Explore the path through (12,9) if [1,0,0] is restored.
+  - If [1,1,1] fails, revert to [1,0,0] (Turn Sw2 OFF, Sw3 OFF).
