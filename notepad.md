@@ -15,3 +15,4 @@
 - **Goal:** Reach Director via (6,8) -> (10,10).
 - **Hypothesis:** Switch 3 controls (6,8) (ON=Open?), or interacts with Sw1/2.
 - **Connections:** Warehouse (23,3) <-> Underground (22,27).
+- **Observation:** Stepping on/near (15,4) caused (6,8) to CLOSE (Type change). Potential pressure plate or proximity trigger?
