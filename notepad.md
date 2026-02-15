@@ -20,5 +20,5 @@
   - Observation: Mid Entry (10,6) is CLOSED (Visible).
   - Goal: Check Gate 3 (16,6) and Exit (16,10).
   - Note: In [1,0,1], (10,6) was OPEN and (12,8) was OPEN. [1,1,1] closed (10,6).
-- Plan: Move to (16,6) to check status.
+- Plan: Moving to (16,5) via Row 5 to avoid Trap Room (15,4).
   - Goal: Open path to Exit (16,10).
