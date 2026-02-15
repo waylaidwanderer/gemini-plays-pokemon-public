@@ -1,6 +1,7 @@
 # Underground Warehouse Strategy
-- **Status:** Switch 3 is ON. Switch 2 is OFF (Corrected).
-- **Action:** Turning Switch 2 ON to progress sequence.
+- **Status:** All Switches (3, 2, 1) are ON.
+- **Action:** checking gate states to verify solution.
+- **Sequence:** [3 (ON) -> 2 (ON) -> 1 (ON)].
 - **Sequence:** [3 -> 2] in progress.
 - **Step 1:** Sw3 ON (Complete).
 - **Step 2:** Turn Sw2 ON.
