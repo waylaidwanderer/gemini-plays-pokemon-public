@@ -1,25 +1,11 @@
-# Underground Warehouse Mechanics
+# Underground Warehouse
 - **Goal:** Rescue Director / Get Card Key.
-- **Config [ON, ON, ON]:**
-  - **Status:** Sw1 ON, Sw2 ON, Sw3 ON.
-  - **Result:** (2,6) Open, (10,10) Open. (12,8) CLOSED, (6,8) CLOSED, (16,6) CLOSED. Fail.
-- **Config [OFF, OFF, ON] (SOLVED):**
-  - **Status:** Sw1 OFF, Sw2 OFF, Sw3 ON.
-  - **Result:** (2,6) Open, (16,6) Open, (12,8) Open, (10,10) Open.
-  - **Solution:** Sw3 opens the RIGHT path (12,8). Sw1 opens the LEFT path (6,8).
-  - **Plan:** Walk to Switch 1 area via Row 5 (avoid Trap Room). Enter (16,6) -> (12,8) -> (10,10).
-- **Goal:** Rescue Director!
-- **Config [OFF, OFF, OFF] (Confirmed):**
-  - **Status:** Sw1 OFF, Sw2 OFF, Sw3 OFF.
-  - **Result:** (16,6) Open, (6,8) Open, (10,10) Open.
-  - **Problem:** (12,8) Closed.
-- **Config [OFF, OFF, OFF] (Confirmed):**
-  - **Status:** Sw1 OFF, Sw2 OFF, Sw3 OFF.
-  - **Result:** (16,6) Open, (6,8) Open, (10,10) Open.
-  - **Problem:** (12,8) Closed.
-- **Hypothesis:** Sw3 ON might open (2,6) without closing (6,8)?
-- **Clue:** "End switch first" -> Start with Sw3?
-- **Goal:** Reach Director via (6,8) -> (10,10).
-- **Hypothesis:** Switch 3 controls (6,8) (ON=Open?), or interacts with Sw1/2.
-- **Connections:** Warehouse (23,3) <-> Underground (22,27).
-- **Observation:** Stepping on/near (15,4) caused (6,8) to CLOSE (Type change). Potential pressure plate or proximity trigger?
+- **Puzzle Solution:**
+  - **State:** [OFF, OFF, ON] (Sw1 OFF, Sw2 OFF, Sw3 ON).
+  - **Logic:** Cross-Control. Sw3 (Left) opens Gate (12,8) (Right). Sw1 (Right) opens Gate (6,8) (Left).
+  - **Trap:** Tile (15,4) is a pressure plate that closes gates. AVOID ROW 4.
+- **Current Status:** Sw3 is ON. (12,8) should be OPEN.
+- **Plan:**
+  1. Travel East via Row 5 (Safe Lane).
+  2. Enter (16,6) -> (12,8) -> (10,10).
+  3. Rescue Director.
