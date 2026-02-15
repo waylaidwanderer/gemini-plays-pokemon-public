@@ -12,7 +12,7 @@
   1. Check Gates for [0,1,0].
   2. If Gate 12-8 (Right Cross) or 10-6 (Mid Entry) opens, investigate.
   3. If fail, reconsider [0,1,1] pathing (Left -> Mid) or [1,0,1].
-  - [001] (OFF,OFF,ON): 2-6(L) Open. Checking others.
+  - [001] (OFF,OFF,ON): 2-6(L) Open. 10-6(M) Closed. Checking 16-6(R).
   - [010] (OFF,ON,OFF): ?
   - [011] (OFF,ON,ON): 2-6(L) | 6-8(L) | - (Stuck Left).
   - [100] (ON,OFF,OFF): 16-6(R) Closed. Checking Mid/Left.
