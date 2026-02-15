@@ -3,13 +3,11 @@
 - **Action:** Turning Sw3 ON.
 - **Correction:** Path blocked by Grunt at (3,2). Detouring via Row 3.
 - **Path:** (4,2) -> Down -> Left -> Left -> Up -> (2,2).
-- **Strategy: The "Reality Check" (Testing [OFF, OFF, ON])**
-  - **Correction:** Found Sw2 ON! Previous data for "[OFF, OFF, ON]" was actually for **[OFF, ON, ON]**.
-  - **Actual [OFF, ON, ON] Result:** 16-10 Open (Unreachable).
-  - **Action:** Turning Sw2 OFF.
-  - **Current Status:** Sw1 OFF, Sw2 OFF, Sw3 ON.
-  - **Hypothesis:** [OFF, OFF, ON] is the actual "Inside Job" solution.
+- **Strategy: The "Big Combo" (Testing [ON, OFF, ON])**
+  - **Status:** Sw1 ON (Target), Sw2 OFF, Sw3 ON.
+  - **Hypothesis:** [ON, OFF, ON] opens the critical path.
+  - **Action:** Turning Sw1 ON.
   - **Plan:**
-    1. Confirm Sw2 is OFF.
+    1. Turn Sw1 ON.
     2. Check Gate States.
-    3. Look for 10-10 or 12-8 opening.
+    3. If 10-10 or 12-8 Open, navigate there.
