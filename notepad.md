@@ -15,15 +15,14 @@
   - **Status:** Sw1 ON, Sw2 OFF, Sw3 OFF.
   - **Result:** (16,6) Open, (12,8) Closed.
   - **Analysis:** Sw1 ON does not open Dest. It keeps Entry Open (same as OFF).
-- **Config [ON, ON, OFF] (Failed):**
+- **Config [ON, ON, OFF] (Confirmed Fail):**
   - **Status:** Sw1 ON, Sw2 ON, Sw3 OFF.
-  - **Result:** (16,6) Open, (12,8) Open.
-  - **Problem:** (10,10) CLOSED. (South Exit blocked).
-- **New Plan: Test [ON, OFF, ON].**
-  - **Hypothesis:** Sw1 ON opens Entry (16,6). Sw3 ON opens Dest (12,8).
-  - **Hope:** Sw2 OFF allows South Exit (10,10) to be Open.
-  - **Step 1:** Turn Sw2 OFF.
-  - **Step 2:** Turn Sw3 ON.
+  - **Result:** (16,6) Open, (12,8) Open, (10,10) CLOSED.
+  - **Conclusion:** Sw2 ON likely closes South Exit (10,10).
+- **Config [ON, OFF, ON] (Target):**
+  - **Status:** Sw1 ON, Sw2 OFF, Sw3 ON.
+  - **Hypothesis:** Sw1 ON keeps Entry (16,6) Open. Sw3 ON opens Dest (12,8). Sw2 OFF keeps South Exit (10,10) Open.
+  - **Goal:** All three gates Open.
 - **Config [OFF, ON, ON] (Confirmed):**
   - **Result:** (2,6) Open, (12,8) Open. (16,6) Closed.
   - **Analysis:** Sw3 ON opens Dest (12,8) but closes Entry (16,6).
