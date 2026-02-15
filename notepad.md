@@ -58,10 +58,10 @@
   - Previously confirmed: Opens wall at (16, 10).
 - **Current Status:**
   - Switches: [0, 0, 0] (All OFF).
-  - Gate 2 (10, 6) CLOSED.
-  - Checking Gate 3 (16, 6).
-- **Hypothesis:** Reset state probably closes everything.
+  - Gate 3 (16, 6) CLOSED.
+  - [0, 0, 0] Failed.
+- **New Target:** [0, 0, 1] (Sw1 OFF, Sw2 OFF, Sw3 ON).
 - **Plan:**
-  1. Check Gate 3.
-  2. If Closed, try [0, 0, 1] (Sw3 ON).
-  3. If that fails, try [0, 1, 1].
+  1. Go to Switch 3 (2, 1). Turn ON.
+  2. Check Gate 1 (2, 6) and Gate 2 (10, 6).
+  3. If this fails, consider reverting to [1, 1, 0] and finding a way past the trap.
