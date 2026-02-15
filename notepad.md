@@ -29,10 +29,8 @@
 - Toggled Switch 2 OFF. State: [0, 0, 0] (All OFF).
 - Toggled Switch 1 ON. State: [1, 0, 0].
 - Gate 2 (10,6) confirmed CLOSED with [1,0,0].
-- AUDIT COMPLETED: Sw2 was OFF. Fixed to ON.
-- Current Real State: [1, 1, 0] (Sw1=ON, Sw2=ON, Sw3=OFF).
-- Prediction:
-  - Gate 1 (2,6): OPEN (Previous success).
-  - Gate 3 (16,6): OPEN (Expected).
-  - Wall (16,10): OPEN (Expected).
-- Action: Checking Gate 2 (10,6) -> Gate 3 (16,6).
+- CORRECTION: Failed to toggle Sw2 in turn 44919 (Pressed B).
+- Action: Toggling Sw2 ON (For Real This Time).
+- Target State: [1, 1, 0] (Sw1=ON, Sw2=ON, Sw3=OFF).
+- Prediction: Gate 1 OPEN, Gate 3 OPEN.
+- Next: Check Gate 2 (10,6), then Gate 3 (16,6).
