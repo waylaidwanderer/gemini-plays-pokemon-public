@@ -1,6 +1,6 @@
 # Underground Warehouse Strategy
-- **Status:** Switch 1 is ON. Switch 2 (Turning ON). Switch 3 is OFF.
-- **Action:** Turning Switch 2 ON (Step 2 of [1 -> 2 -> 3]).
+- **Status:** Switch 1 is ON. Switch 2 is ON. Switch 3 is OFF.
+- **Action:** Going to Switch 3 (Step 3 of [1 -> 2 -> 3]).
 - **Hypothesis:** "End Switch First" means start with Switch 1 (Right End).
 - **Sequence:** [3 -> 2] in progress.
 - **Step 1:** Sw3 ON (Complete).
