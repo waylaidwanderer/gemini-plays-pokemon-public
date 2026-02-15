@@ -59,9 +59,9 @@
 - **Current Status:**
   - Switches: [0, 0, 1] (Sw1 OFF, Sw2 OFF, Sw3 ON).
   - Sw3 toggled ON.
-  - Heading to Gate 1 (2, 6).
+  - Testing Gate 1 (2, 6) and Gate 2 (10, 6).
 - **Plan:**
-  1. Check Gate 1 (2, 6).
-  2. If Open, check Inner Gate (2, 10).
-  3. If Closed, then [0, 0, 1] is NOT the solution for Gate 1 (contradicting past notes).
-    - If so, re-verify Sw1 and Sw2 state.
+  1. Check Gate 1 (2, 6) collision.
+  2. Check Gate 2 (10, 6) visual/collision.
+  3. If Gate 2 Open, explore.
+  4. If Gate 2 Closed, move to Gate 3.
