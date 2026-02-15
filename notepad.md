@@ -76,3 +76,4 @@
   - Move to Switch 3 (2, 1). Turn ON.
   - Check Gate 3.
 - Movement: Navigating to Switch 3 (2, 1) from (10, 4).
+- Testing Trap at (16, 8) with Sw3 ON...
