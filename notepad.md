@@ -43,7 +43,10 @@
 - Plan: Go to Switch 1 (16,1). Turn OFF.
 - Goal State: [0, 1, 0] (Sw1 OFF, Sw2 ON, Sw3 OFF).
 - Hypothesis: Sw1 OFF opens Gate 3.
-- Toggled Switch 1 OFF. Current State: [0, 0, 0] (All OFF).
-- FAILED: Wall at (16,10) is still CLOSED.
-- Plan: Turn Sw1 ON -> [1, 0, 0]. Then Turn Sw3 ON -> [1, 0, 1].
-- Hypothesis: Sw3 ON + Sw2 OFF might be the key.
+- Recent Tests:
+  - [0, 0, 1]: G1 Open, G2/G3 Closed.
+  - [0, 1, 1]: G1 Open, G2/G3 Closed.
+- Current State: [0, 1, 1] (Sw1 OFF, Sw2 ON, Sw3 ON).
+- Action: Go to Switch 3 (2,1). Turn OFF.
+- Target State: [0, 1, 0].
+- Hypothesis: [0, 1, 0] might open Gate 2.
