@@ -20,7 +20,8 @@
   - **Success:** (12,8) OPENED (Observed change).
   - **Goal:** Verify (2,6) is also OPEN.
   - **Plan:** Navigate via Row 5 to (2,6). Enter side gate. Loop around to (12,8).
-- **Config [OFF, ON, ON] (Testing):**
-  - **Status:** Sw1 OFF, Sw2 ON, Sw3 ON.
-  - **Goal:** Check if (6,8) opens or (10,10) changes.
-  - **Hypothesis:** Sw2 ON might open the West->Middle gate (6,8).
+- **Config [OFF, OFF, ON] (Winning State):**
+  - **Status:** Sw1 OFF, Sw2 OFF, Sw3 ON.
+  - **Gate Check:** (12,8) OPEN, (10,10) OPEN.
+  - **Plan:** Walk (12,7) -> (12,8) -> (11,8) -> (10,10) -> Director.
+  - **WARNING:** Do NOT step on Trap at (12,9). Turn Left immediately after (12,8).
