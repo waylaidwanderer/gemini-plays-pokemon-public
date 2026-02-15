@@ -2,10 +2,10 @@
 - **Goal:** Rescue Director.
 - **Puzzle Solved:** Switch Combination [0, 1, 0] (Sw2 ON only) -> Gate 2 OPEN.
 - **Current Status:**
-  - Switches: [0, 0, 1] (Sw1 OFF, Sw2 OFF, Sw3 ON).
-  - Action: Moving to Sw2 (10, 1).
-  - Test Sequence: Sw3 ON -> Sw2 ON.
-  - Hypothesis: Arriving at [0, 1, 1] via "Sw3 then Sw2" might trigger Gate 3.
+  - Switches: [0, 1, 1] (Sw1 OFF, Sw2 ON, Sw3 ON).
+  - Sequence Tested: Sw3 ON -> Sw2 ON.
+  - Action: Checking Gates.
+  - Next Plan: If closed, continue to Sw1 (Turn ON) -> Sequence 3-2-1.
 - **Immediate Plan:**
   1. Move to Switch 1 (16, 1).
   2. Verify it is ON.
