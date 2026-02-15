@@ -1,9 +1,10 @@
 # Underground Warehouse Strategy
 - **Status:** Switch 1 (Unknown), Switch 2 (OFF), Switch 3 (ON).
-- **Action:** Going to Switch 1 (Right).
-- **Correction:** Avoid (15, 4) Trap! Use Row 5.
-- **Path:** (11,2) -> (11,5) -> (16,5) -> (16,1).
-- **Observation:** [OFF?, OFF, ON] -> All Row 6 Gates CLOSED.
-- **Hypothesis:** Switch 3 is not the "End Switch" that opens the first gate alone.
-- **Plan:** Check Switch 1. Try [ON, OFF, OFF] or [ON, OFF, ON].
-- **Gates:** Row 6 (2,6), (10,6), (16,6) - First barrier.
+- **Goal:** Reach Switch 1 (Right).
+- **Route:** Row 5 to avoid Trap at (15,4).
+- **Gate Data (from error log):**
+  - [OFF, OFF, ON]: (2,6) OPEN, (6,8) OPEN. Others CLOSED.
+  - [OFF, ON, ON]: (2,6) OPEN. (10,6) CLOSED.
+- **Hypothesis:** Switch 2 doesn't control (2,6). Maybe Switch 1 controls (16,6)?
+- **Plan:** Turn Switch 1 ON. Test [ON, OFF, ON].
+- **Reflection:** Avoiding "Trap Room" by sticking to Row 5.
