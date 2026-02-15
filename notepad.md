@@ -62,6 +62,6 @@
 - **Plan:**
   1. Check Gate 1.
   2. Check Gate 2.
-  3. If both closed, RE-EVALUATE.
-    - [1, 1, 0] was the most promising (Opened Gate 1 & 3).
-    - Maybe the trap at (16, 8) has a trick?
+  3. If both closed, try [0, 1, 1] (Sw1 OFF, Sw2 ON, Sw3 ON).
+    - Note: [1, 1, 0] opened Gate 1 & 3 but had trap.
+    - Note: Sw2 ON + Sw1 ON seems to open Gate 3.
