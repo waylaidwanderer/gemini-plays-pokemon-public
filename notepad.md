@@ -9,10 +9,11 @@
   - **Trap Test:** Entering (15,4) did NOT open (16,6).
 - **Config [OFF, ON, OFF] (Verified):**
   - **Status:** Sw1 OFF, Sw2 ON (Deduced), Sw3 OFF (Confirmed).
-  - **Gates:** (16,6) Closed, (12,8) Open.
-  - **Analysis:** Sw2 ON opens (12,8) but closes (16,6).
-- **Plan:** Trigger "Trap Room" (15,4).
-  - **Hypothesis:** Trap is a TOGGLE. Will open (16,6).
+  - **Result:** (16,6) Closed, (12,8) Open.
+  - **Trap Test:** Trap did NOT toggle (16,6).
+- **New Plan: Test [ON, ON, OFF].**
+  - **Analysis:** (16,6) is Closed. Need Sw1 ON to open it?
+  - **Step 1:** Turn Sw1 ON -> [ON, ON, OFF].
   - **Goal:** (16,6) Open + (12,8) Open.
 - **Config [OFF, ON, ON] (Confirmed):**
   - **Result:** (2,6) Open, (12,8) Open. (16,6) Closed.
