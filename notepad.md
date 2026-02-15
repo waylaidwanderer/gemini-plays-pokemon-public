@@ -15,18 +15,11 @@
   - **Status:** Sw1 ON, Sw2 OFF, Sw3 OFF.
   - **Result:** (16,6) Open, (12,8) Closed.
   - **Analysis:** Sw1 ON does not open Dest. It keeps Entry Open (same as OFF).
-- **Config [ON, ON, OFF] (Confirmed Fail):**
-  - **Status:** Sw1 ON, Sw2 ON, Sw3 OFF.
-  - **Result:** (16,6) Open, (12,8) Open, (10,10) CLOSED.
-  - **Conclusion:** Sw2 ON closes South Exit (10,10). Must be OFF.
-- **Config [ON, OFF, ON] (Target):**
-  - **Status:** Sw1 ON, Sw2 OFF, Sw3 ON.
-  - **Logic:**
-    - Sw2 OFF -> South Exit (10,10) OPEN.
-    - Sw3 ON -> Dest (12,8) OPEN.
-    - Sw1 ON -> Entry (16,6) OPEN (Counteracts Sw3 closure?).
-  - **Step 1:** Turn Sw2 OFF.
-  - **Step 2:** Turn Sw3 ON.
+- **Config [ON, OFF, OFF] (Current):**
+  - **Status:** Sw1 ON, Sw2 OFF, Sw3 OFF.
+  - **Plan:** Turn Sw3 ON -> [ON, OFF, ON].
+  - **Hypothesis:** Sw1 ON keeps (16,6) Open. Sw3 ON opens (12,8). Sw2 OFF keeps (10,10) Open.
+  - **Goal:** (16,6) Open + (12,8) Open + (10,10) Open.
 - **Config [OFF, ON, ON] (Confirmed):**
   - **Result:** (2,6) Open, (12,8) Open. (16,6) Closed.
   - **Analysis:** Sw3 ON opens Dest (12,8) but closes Entry (16,6).
