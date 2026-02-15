@@ -43,7 +43,7 @@
 - Plan: Go to Switch 1 (16,1). Turn OFF.
 - Goal State: [0, 1, 0] (Sw1 OFF, Sw2 ON, Sw3 OFF).
 - Hypothesis: Sw1 OFF opens Gate 3.
-- Correction: Switch 2 was ON (Text confirmed).
-- Previous State was [1, 1, 0]. Result: Gate 1 Open, Gate 2/3 Closed.
-- Action: Turned Sw2 OFF. Current State: [1, 0, 0].
-- Plan: Check Gate 2 (10,6). If closed, check Gate 3 (16,6).
+- Toggling Switch 2 OFF (State: [1, 0, 0]).
+- Plan: Verify Gate 2 (10,6) is OPEN.
+- If not, check Gate 3 (16,6).
+- If neither, implies [1, 0, 0] is invalid or my Sw1/Sw3 tracking is wrong.
