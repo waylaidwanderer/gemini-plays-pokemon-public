@@ -58,11 +58,12 @@
   - Previously confirmed: Opens wall at (16, 10).
 - **Current Status:**
   - Switches: [1, 0, 1] (Sw1 ON, Sw2 OFF, Sw3 ON).
-  - Gate 1 (2, 6): Checking...
+  - Gate 3 (16, 6): CLOSED (Visual Confirm).
   - Gate 2 (10, 6): Checking...
-  - Gate 3 (16, 6): Checking...
+  - Gate 1 (2, 6): Checking...
 - **Plan:**
-  1. Check Gate 3 (16, 6) visual/collision.
-  2. Check Gate 2 (10, 6) visual/collision.
-  3. If Gate 2 Open, explore.
-  4. If Gate 2 Closed, try next combo.
+  1. Move to (10, 5) to check Gate 2.
+  2. If Gate 2 Open, Enter.
+  3. If Gate 2 Closed, move to Gate 1 (2, 6).
+  4. If Gate 1 Open, explore.
+  5. If both Closed, plan next switch combo.
