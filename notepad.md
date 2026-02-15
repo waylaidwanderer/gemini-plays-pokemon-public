@@ -29,9 +29,8 @@
 - Toggled Switch 2 OFF. State: [0, 0, 0] (All OFF).
 - Toggled Switch 1 ON. State: [1, 0, 0].
 - Gate 2 (10,6) confirmed CLOSED with [1,0,0].
-- AUDIT: Switch 2 is ON.
-- Current State: [1, 1, 1] (Sw1=ON, Sw2=ON, Sw3=ON).
-- Gate 1 & 2 are CLOSED.
-- Action: Check Gate 3 (16,6).
-- If Gate 3 CLOSED, then [1, 1, 1] is invalid.
-- Next Plan: Re-verify Sw1, then try [1, 1, 0] again (Sw3 OFF).
+- AUDIT COMPLETE: Sw2 is ON.
+- Confirmed State: [1, 1, 1] (All ON).
+- Previous checks were flawed due to Sw2 state error.
+- Action: Testing Gate 2 (10,6) and Gate 3 (16,6) with [1, 1, 1].
+- If fails, will try [1, 1, 0] (Toggle Sw3 OFF).
