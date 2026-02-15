@@ -5,9 +5,13 @@
   - **Result:** (2,6) Open, (10,10) Open. (12,8) CLOSED, (6,8) CLOSED, (16,6) CLOSED. Fail.
 - **Config [OFF, OFF, OFF] (Current):**
   - **Status:** Sw1 OFF, Sw2 OFF, Sw3 OFF.
-  - **Plan:** Check gates (16,6) and (12,8).
-  - **Hypothesis:** "End switch first" -> Press Sw3 or Sw1 from here?
-- **Connections:** Warehouse (23,3) <-> Underground (22,27).
+  - **Result:** (16,6) Open, (6,8) Open, (10,10) Open.
+  - **Problem:** (12,8) Closed blocks path from (16,6). (2,6)/(10,6) Closed.
+- **Plan:** Test [OFF, OFF, ON] (End Switch 3).
+  - Move to Sw3, Turn ON.
+  - Check if (2,6) Opens or (12,8) Opens.
+- **Hypothesis:** Sw3 ON might open (2,6) without closing (6,8)?
+- **Clue:** "End switch first" -> Start with Sw3?
 - **Goal:** Reach Director via (6,8) -> (10,10).
 - **Hypothesis:** Switch 3 controls (6,8) (ON=Open?), or interacts with Sw1/2.
 - **Connections:** Warehouse (23,3) <-> Underground (22,27).
