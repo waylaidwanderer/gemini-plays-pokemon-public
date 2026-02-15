@@ -3,9 +3,9 @@
 - **Puzzle Solved:** Switch Combination [0, 1, 0] (Sw2 ON only) -> Gate 2 OPEN.
 - **Current Status:**
   - Switches: [1, 0, ?] (Sw1 ON, Sw2 OFF, Sw3 ?).
-  - Gate 3: CLOSED.
-  - Action: Moving to Sw3 (2, 1) to turn ON.
-  - Target State: [1, 0, 1] (Sw1 ON, Sw2 OFF, Sw3 ON).
+  - Action: Interacting with Sw3.
+  - Next: Verify Sw3 state. Turn ON if OFF.
+  - Goal: [1, 0, 1] to open Gate 3.
 - **Immediate Plan:**
   1. Move to Switch 1 (16, 1).
   2. Verify it is ON.
