@@ -3,9 +3,10 @@
 - **Puzzle Solved:** Switch Combination [0, 1, 0] (Sw2 ON only) -> Gate 2 OPEN.
 - **Current Status:**
   - Switches: [0, 1, 1] (Sw1 OFF, Sw2 ON, Sw3 ON).
-  - Action: Turned Sw1 OFF.
-  - Next: Check Gate 3 (16, 6) via Tool.
-  - Goal: Verify if [0, 1, 1] opens Gate 3.
+  - Result: All Gates CLOSED.
+  - Plan: Target [0, 0, 0] (All OFF).
+  - Logic: Exhausting combinations. Sw3 ON seems to close everything.
+  - Action: Move to Sw2 -> Turn OFF. Then Sw3 -> Turn OFF.
 - **Immediate Plan:**
   1. Move to Switch 1 (16, 1).
   2. Verify it is ON.
