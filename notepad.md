@@ -11,3 +11,5 @@
   1. Navigate to Gate 3 (16,6) via North Corridor.
   2. Explore area East of Gate 3 (Warp at 22,10).
   3. Find Director.
+- **Warp Connection:** (23,3) in Warehouse (3_54) leads to (22,27) in Underground Path (3_53).
+- **Current Location:** Small room in 3_53, blocked by Rocket Grunt at (22,24).
