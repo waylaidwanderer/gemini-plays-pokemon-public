@@ -58,14 +58,12 @@
   - [0, 1, 0]: Gate 2 OPEN.
   - [0, 0, 0]: All Closed.
 - **Current Status:**
-  - Switches: [0, 1, 0] (Sw1 OFF, Sw2 ON, Sw3 OFF).
-  - Note: Accidentally interacted with Grunt instead of Switch 1. Sw1 is still OFF.
-  - Gate 3 (16, 6): CLOSED (Presumed).
+  - Switches: [1, 1, 0] (Sw1 ON, Sw2 ON, Sw3 OFF).
+  - Gate 3 (16, 6): Should be OPEN.
   - Trap (16, 8): Active.
 - **Plan:**
-  1. Defeat Grunt.
-  2. Face UP and Turn Switch 1 ON.
-  3. Verify Gate 3 Open.
-  4. Walk South through Gate 3.
-  5. **CRITICAL:** Step SIDEWAYS to (15, 8) or (17, 8) to avoid Trap at (16, 8).
-  6. Continue South to (16, 10).
+  1. Verify Gate 3 Open.
+  2. Walk South through Gate 3.
+  3. **CRITICAL:** Step SIDEWAYS to (15, 8) or (17, 8) to avoid Trap at (16, 8).
+  4. Continue South to (16, 10).
+  5. Check if Wall at (16, 10) is open.
