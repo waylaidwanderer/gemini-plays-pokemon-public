@@ -58,10 +58,11 @@
   - Previously confirmed: Opens wall at (16, 10).
 - **Current Status:**
   - Switches: [0, 0, 1] (Sw1 OFF, Sw2 OFF, Sw3 ON).
-  - Checking Gate 1 (2, 6) and Gate 2 (10, 6).
+  - Gate 1 (2, 6) is OPEN.
+  - Checking Gate 2 (10, 6).
+- **Hypothesis:** Inverse of [1, 1, 0] might open the Middle Gate (Gate 2).
 - **Plan:**
-  1. Check Gate 1.
-  2. Check Gate 2.
-  3. If both closed, try [0, 1, 1] (Sw1 OFF, Sw2 ON, Sw3 ON).
-    - Note: [1, 1, 0] opened Gate 1 & 3 but had trap.
-    - Note: Sw2 ON + Sw1 ON seems to open Gate 3.
+  1. Move to Gate 2.
+  2. If Open: Explore South.
+  3. If Closed: Check Gate 3.
+  4. If both Closed: Try [0, 1, 1] (Sw1 OFF, Sw2 ON, Sw3 ON).
