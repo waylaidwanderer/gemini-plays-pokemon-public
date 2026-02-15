@@ -43,8 +43,12 @@
 - Plan: Go to Switch 1 (16,1). Turn OFF.
 - Goal State: [0, 1, 0] (Sw1 OFF, Sw2 ON, Sw3 OFF).
 - Hypothesis: Sw1 OFF opens Gate 3.
-- Interaction: Toggling Switch 3 ON.
-- State Transition: [0, 1, 0] -> [0, 1, 1].
-- Hypothesis: [0, 1, 1] might open Gate 2 (10,6).
-- Verification: Using tool immediately after toggle.
-- Hint Consideration: "End switch first" might mean order matters. If this fails, consider RESET and order-based attempt.
+- Tested [0, 1, 1]: G1 Open, G2/G3 Closed. Failed.
+- Review of Turn 45026 Log: Tool reported Gate 2 OPEN with state [1, 0, 1].
+- Hypothesis: [1, 0, 1] (Sw1 ON, Sw2 OFF, Sw3 ON) is the Key.
+- Current State: [0, 1, 1] (Sw1 OFF, Sw2 ON, Sw3 ON).
+- Plan:
+  1. Leave Sw3 ON (Done).
+  2. Go to Sw2 (10,1). Turn OFF.
+  3. Go to Sw1 (16,1). Turn ON.
+  4. Verify Gates.
