@@ -1,5 +1,5 @@
 # Underground Warehouse Mechanics
-- **Switch 3 (Left):** ON = Open (2,6) initially. Closes via proximity trigger?
-- **Action:** Toggle OFF, then ON to reset gate.
-- **Plan:** After resetting, try a different path or move quickly.
-- **Current Status:** Sw1: ON, Sw2: OFF, Sw3: ON (turning OFF).
+- **Switch 3 (Left):** Currently OFF (Just toggled).
+- **Action:** Turn Switch 3 ON to re-open Gate (2,6).
+- **Plan:** Move quickly through (2,6) -> (6,8) -> (10,10).
+- **Current Status:** Sw1: ON, Sw2: OFF, Sw3: OFF.
