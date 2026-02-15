@@ -17,8 +17,14 @@
   - Test 1: Reset -> Sw1 (Right End). State: [ON, OFF, OFF]. (Current Target)
   - Test 2: Reset -> Sw3 (Left End). State: [OFF, OFF, ON].
 - **Status:** Sw1 OFF, Sw2 OFF, Sw3 ON. ([0,0,1])
-- **Hypothesis:** This is the correct "First Move" (Left End Switch).
+- **Verified Results:**
+  - [0,0,1] (OFF,OFF,ON): All Entries CLOSED. (Tested 44398)
+  - [0,0,0] (OFF,OFF,OFF): All Entries CLOSED.
+  - [1,0,0] (ON,OFF,OFF): All Entries CLOSED. (Need Re-verify).
+  - [1,1,0] (ON,ON,OFF): 10-6 Open. 6-8 Open. Stuck in Mid.
+  - [0,1,1] (OFF,ON,ON): 2-6 Open. 6-8 Open. Stuck in Mid.
 - **Plan:**
-  1. Verify Gates for [0,0,1].
-  2. If Entry (2-6) is Open, check for Cross (12-8 or 6-8).
-  3. If this opens the path, navigate to Director.
+  1. Confirm Sw3 is ON (Toggle OFF).
+  2. Navigate to Sw1 (16,1).
+  3. Turn Sw1 ON ([1,0,0]). Verify Gates.
+  4. If fail, Try [0,1,0] (Sw2 ON).
