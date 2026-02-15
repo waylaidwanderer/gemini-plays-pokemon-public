@@ -1,13 +1,14 @@
 # Underground Warehouse
 - **Goal:** Rescue Director.
-- **Puzzle Solved:** Switch Combination [0, 1, 0] (Sw2 ON only).
-  - Gate 2 (10, 6) is OPEN.
-  - Trap at (10, 9) is DISABLED.
+- **Puzzle Solved:** Switch Combination [0, 1, 0] (Sw2 ON only) -> Gate 2 OPEN.
 - **Current Status:**
   - Switches: [1, 0, 1] (Sw1 ON, Sw2 OFF, Sw3 ON).
-  - Action: Turned Sw2 OFF.
-  - Next: Verify Switch 1 is ON.
-  - Goal: Open Gate 3 (16, 6).
+  - Validated: Sw2 is OFF. Sw3 is ON.
+  - Next: Verify Sw1 is ON.
+- **Immediate Plan:**
+  1. Move to Switch 1 (16, 1).
+  2. Verify it is ON.
+  3. Go to Gate 3 (16, 6).
 - **Plan:**
   1. Go to Gate 1 (2, 6).
   2. Check if open.
