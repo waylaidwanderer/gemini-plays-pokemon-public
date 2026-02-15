@@ -29,7 +29,8 @@
 - Toggled Switch 2 OFF. State: [0, 0, 0] (All OFF).
 - Toggled Switch 1 ON. State: [1, 0, 0].
 - Gate 2 (10,6) confirmed CLOSED with [1,0,0].
-- Toggled Switch 3 ON. State: [1, 1, 1] (All ON).
-- Hypothesis: [1, 0, 0] opened Gate 1. [0, 1, 1] opened Gate 3 (blocked path).
-- Maybe [1, 1, 1] opens Gate 2 or Gate 3 fully?
-- Action: Check Gate 1 (2,6), then Gate 2 (10,6), then Gate 3 (16,6).
+- Confirmed Switch 3 is ON.
+- Current State: [1, 1, 1] (All ON).
+- Action: Checking Gate 1 (2,6).
+- If Gate 1 CLOSED, check Gate 2 (10,6) and Gate 3 (16,6).
+- Hypothesis: [1, 1, 1] might be the key.
