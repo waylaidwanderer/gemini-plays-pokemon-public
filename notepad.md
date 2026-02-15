@@ -4,10 +4,11 @@
 - **Current State:** [1,0,1] (Sw1 ON, Sw3 ON).
 - **Discovery:** Gate (2,6) OPEN.
 - **Hazard:** Reaching (3,8) caused a reset to (3,5). Suspect Trap Warp at (2,8) or (3,8).
+- **Hazard:** Reaching (10,9) caused a reset to (10,5). Suspect Trap Warp at (10,9).
 - **Plan:**
-  1. Move to (2,8).
-  2. If safe, check Gate (2,10) and Silver (4,8).
-  3. If warped, mark trap and try another path.
+  1. Navigate around (10,9) via column 9.
+  2. Check Gate (10,10).
+  3. If closed or trapped, try Left Path [1,0,1] or reset to [0,1,0].
 - **Plan:**
   1. Check Gates for [0,1,0].
   2. If Gate 12-8 (Right Cross) or 10-6 (Mid Entry) opens, investigate.
