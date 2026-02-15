@@ -1,7 +1,7 @@
 # Underground Warehouse Mechanics
-- **Switch 3 (Left):** ON closes (2,6) (Trap). OFF opens (2,6).
-- **Current Status:** Sw1: OFF, Sw2: ON, Sw3: ON (Trapped).
-- **Action:** Turn Switch 3 OFF to escape.
-- **Next:** Confirm Gate (2,6) OPEN. Escape South.
+- **Switch 3 (Left):** ON = (2,6) Closed (Trapped). OFF = (2,6) Open.
+- **Current Status:** Sw1: OFF, Sw2: ON, Sw3: OFF (Just turned OFF).
+- **Action:** Walk South through (2,6).
+- **Next:** Explore [OFF, ON, OFF] layout.
 - **Inventory:** Full.
 - **Hazards:** Avoid (15,4), (15,1), (12,9).
