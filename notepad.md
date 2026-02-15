@@ -22,3 +22,5 @@
   2. Go to Sw1 (16,1). Check if ON. Leave ON.
   3. Go to Sw3 (2,1). Turn OFF.
   4. Verify Gate 1 (2,6) opens.
+- At Switch 1 (16,1). Checking state.
+- Grunt at (17,2) did not attack despite proximity.
