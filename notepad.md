@@ -58,11 +58,9 @@
   - Previously confirmed: Opens wall at (16, 10).
 - **Current Status:**
   - Switches: [0, 1, 1] (Sw1 OFF, Sw2 ON, Sw3 ON).
-  - Testing Gate 2 (10, 6).
-- **Hypothesis:** Since [1, 1, 0] opened outer gates, maybe [0, 1, 1] opens middle?
-- **Plan:**
-  1. Check Gate 2 (10, 6).
-  2. Check Gate 3 (16, 6).
-  3. If all fail:
-    - Revert to [1, 1, 0] (Sw1 ON, Sw2 ON, Sw3 OFF).
-    - Investigate Trap (16, 8) with Itemfinder or interaction?
+  - Gate 2 (10, 6) CLOSED.
+  - Checking Gate 3 (16, 6).
+- **Hypothesis:** If Gate 3 is Closed, [0, 1, 1] is a failure.
+- **Next Step:** Revert to [0, 0, 1] (Sw1 OFF, Sw2 OFF, Sw3 ON).
+  - Why? [0, 0, 1] Opened Gate 1.
+  - Plan: Explore Gate 1 area deeper (Check Wall at x=6).
