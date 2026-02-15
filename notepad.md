@@ -22,7 +22,7 @@
   2. Go to Sw1 (16,1). Check if ON. Leave ON.
   3. Go to Sw3 (2,1). Turn OFF.
   4. Verify Gate 1 (2,6) opens.
-- Switch 1 was OFF. Turning ON.
-- Current State: Sw1=ON, Sw2=ON, Sw3=?.
-- Next: Go to Sw3 (2,1), ensure OFF.
-- Goal: [1,1,0] to open Gate 1.
+- Toggled Switch 3. Expecting State: [1,1,0].
+- Next: Check Gate 1 (2,6). It should be OPEN.
+- Gate 3 (16,6) should also be OPEN.
+- Plan: Go South through Gate 1, then East to Duncan.
