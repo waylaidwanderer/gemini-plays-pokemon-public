@@ -49,3 +49,8 @@
 - Plan: Turn Sw2 OFF -> Go to Sw1 -> Turn Sw1 ON.
 - Target: [1, 0, 1].
 - Gate 2 (10,6) reported OPEN in past logs with this state.
+- **Current Test:** State [1, 0, 1] (Sw1 ON, Sw2 OFF, Sw3 ON).
+  - Checking Gate 2 (10, 6).
+- **If Gate 2 Closed:**
+  - Next Target: [0, 1, 1] (Sw1 OFF, Sw2 ON, Sw3 ON).
+  - Path: Turn Sw2 ON -> Turn Sw1 OFF.
