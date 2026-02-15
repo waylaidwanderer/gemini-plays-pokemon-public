@@ -43,9 +43,10 @@
 - Plan: Go to Switch 1 (16,1). Turn OFF.
 - Goal State: [0, 1, 0] (Sw1 OFF, Sw2 ON, Sw3 OFF).
 - Hypothesis: Sw1 OFF opens Gate 3.
-- CRITICAL CORRECTION: Switch 3 was OFF!
-- This means previous state was [0, 1, 0]. Gate 2 confirmed CLOSED in [0, 1, 0].
-- Action: Turning Switch 3 ON.
-- New Target State: [0, 1, 1] (Sw1 OFF, Sw2 ON, Sw3 ON).
-- Hypothesis: I haven't actually tested any Sw3=ON states yet due to tracking error.
-- Next: Check Gate 2 (10,6).
+- Confirmed: Switch 3 was OFF.
+- Previous State was [0, 1, 0]. Result: Gate 2 CLOSED.
+- Current Action: Turning Switch 3 ON.
+- New State: [0, 1, 1] (Sw1 OFF, Sw2 ON, Sw3 ON).
+- Hypothesis: Testing if [0, 1, 1] opens Gate 2.
+- Hint "End switch first" might mean start with 3 or 1?
+- Plan: Finish toggle -> Check Gates.
