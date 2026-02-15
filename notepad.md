@@ -59,13 +59,13 @@
   - [1, 0, 1]: All Outer Gates CLOSED.
   - [1, 0, 0]: Gate 1 CLOSED.
   - [0, 0, 0]: Gate 3 CLOSED.
-  - [0, 1, 0]: Checking...
+  - [0, 1, 0]: Gate 2 OPEN! (Sw2 ON, others OFF).
   - [0, 1, 1]: All Outer Gates CLOSED.
   - [1, 1, 1]: All Outer Gates CLOSED.
 - **Current Status:**
   - Switches: [0, 1, 0] (Sw1 OFF, Sw2 ON, Sw3 OFF).
-  - Gate 2 (10, 6): Checking...
+  - Gate 2 (10, 6): OPEN.
 - **Plan:**
-  1. Check Gate 2 (10, 6).
-  2. If Closed, try [0, 1, 1] (Turn Sw3 ON).
-  3. If that fails, try [1, 1, 1] (Turn Sw1 ON).
+  1. Explore South of Gate 2.
+  2. Check Trap at (10, 9).
+  3. Look for switches/Director.
