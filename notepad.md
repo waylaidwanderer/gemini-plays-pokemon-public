@@ -6,7 +6,8 @@
 - **Config [ON, OFF, OFF] (Current):**
   - **Status:** Sw1 ON, Sw2 OFF, Sw3 OFF.
   - **Result:** (2,6) Open, (16,6) Open. (6,8) Closed, (12,8) Closed.
-  - **Plan:** Explore south via (16,6).
-  - **Next:** If dead end, try [OFF, OFF, OFF].
+  - **Plan:** Switch to [ON, OFF, ON].
+  - **Hypothesis:** This opens (6,8) and (10,10).
+- **Goal:** Reach Director via (6,8) -> (10,10).
 - **Hypothesis:** Switch 3 controls (6,8) (ON=Open?), or interacts with Sw1/2.
 - **Connections:** Warehouse (23,3) <-> Underground (22,27).
