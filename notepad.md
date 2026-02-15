@@ -9,3 +9,4 @@
 - **Hypothesis:** "End Switch First" means 3 -> 2 -> 1.
 - **Issue:** Resolved. Interaction successful.
 - **Reminder:** Inventory full (20/20). Must toss/use item to loot (1,12).
+- **Interruption:** Rocket Grunt at (17, 2) engaged battle.
