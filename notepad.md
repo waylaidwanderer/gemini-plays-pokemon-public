@@ -2,12 +2,14 @@
 - **Goal:** Rescue Director / Get Card Key.
 - **Config [ON, ON, ON]:**
   - **Status:** Sw1 ON, Sw2 ON, Sw3 ON.
-  - **Action:** Turned Sw1 ON.
-  - **Plan:** Check gates via tool.
-  - **Hypothesis:** Testing "All ON".
+  - **Result:** (2,6), (12,8), (10,10) Open. (6,8), (16,6), (10,6) CLOSED. Fail.
+- **Plan:** Test Sw3-OFF states.
+  - Move to Sw3, turn OFF -> [ON, ON, OFF].
+  - Then test [ON, OFF, OFF], [OFF, OFF, OFF], [OFF, ON, OFF].
+- **Hypothesis:** One of these must open (10,6) or (16,6).
 - **Previous Tool Checks:**
-  - [ON, OFF, ON]: (2,6) Open. (6,8) Closed.
-  - [OFF, OFF, ON]: (2,6) Open. (16,6) Closed.
-  - [OFF, ON, ON]: All Closed.
+  - [ON, OFF, ON]: Fail.
+  - [OFF, OFF, ON]: Fail.
+  - [OFF, ON, ON]: Fail.
+  - [ON, ON, ON]: Fail.
 - **Connections:** Warehouse (23,3) <-> Underground (22,27).
-- **NPCs:** Silver (19,24) & Grunt (22,24) in Underground isolated room.
