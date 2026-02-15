@@ -2,10 +2,9 @@
 - **Goal:** Rescue Director.
 - **Puzzle Solved:** Switch Combination [0, 1, 0] (Sw2 ON only) -> Gate 2 OPEN.
 - **Current Status:**
-  - Switches: [0, 0, 0] (Sw1 OFF, Sw2 OFF, Sw3 OFF).
-  - Confirmed: Sw3 turned OFF. Board Reset.
-  - Action: Pressed YES to turn Sw3 OFF.
-  - Next: Turn Sw3 ON (Start Sequence).
+  - Switches: [0, 0, 1] (Sw1 OFF, Sw2 OFF, Sw3 ON).
+  - Action: Turned Sw3 ON.
+  - Next: Turn Sw2 ON.
   - Sequence: Sw3 (ON) -> Sw2 (ON) -> Sw1 (ON).
   - Goal: Open Gate 3 (16, 6).
 - **Hazards:**
