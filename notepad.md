@@ -1,7 +1,7 @@
 # Underground Warehouse Strategy
-- **Status:** Switch 1 (ON), Switch 2 (OFF), Switch 3 (OFF).
-- **Action:** Waiting for map update to check gates for [ON, OFF, OFF].
-- **Plan:** If fail, test [OFF, OFF, ON].
-- **Hypothesis:** "End Switch First" might mean only Switch 1 ON.
-- **tested_combinations:** [ON, ON, ON], [ON, ON, OFF], [ON, OFF, ON], [OFF, ON, ON], [OFF, ON, OFF], [OFF, OFF, OFF].
+- **Status:** Switch 1 (ON -> OFF), Switch 2 (OFF), Switch 3 (OFF).
+- **Action:** Turning Switch 1 OFF. Then going to Switch 3 to turn ON.
+- **Plan:** Test [OFF, OFF, ON] (Left ON, others OFF).
+- **Hypothesis:** "End Switch First" might mean only Switch 3 ON.
+- **tested_combinations:** [ON, ON, ON] (Fail), [ON, ON, OFF] (Fail), [ON, OFF, ON] (Fail), [ON, OFF, OFF] (Fail), [OFF, ON, ON] (Fail), [OFF, ON, OFF] (Fail), [OFF, OFF, OFF] (Fail).
 - **Reminder:** Inventory full (20/20). Must toss/use item to loot (1,12).
