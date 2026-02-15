@@ -22,5 +22,7 @@
   2. Go to Sw1 (16,1). Check if ON. Leave ON.
   3. Go to Sw3 (2,1). Turn OFF.
   4. Verify Gate 1 (2,6) opens.
-- At Switch 1 (16,1). Checking state.
-- Grunt at (17,2) did not attack despite proximity.
+- Switch 1 was OFF. Turning ON.
+- Current State: Sw1=ON, Sw2=ON, Sw3=?.
+- Next: Go to Sw3 (2,1), ensure OFF.
+- Goal: [1,1,0] to open Gate 1.
