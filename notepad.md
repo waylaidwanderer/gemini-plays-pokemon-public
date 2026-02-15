@@ -7,12 +7,13 @@
   - **Status:** Sw1 OFF, Sw2 OFF, Sw3 ON.
   - **Result:** (16,6) Closed. (12,8) Open.
   - **Trap Test:** Entering (15,4) did NOT open (16,6).
-- **Current Verified State:**
-  - Sw3 is **OFF** (Confirmed via Text).
-  - Sw1 is **OFF** (Assumed).
-  - Sw2 is **Unknown/Assumed ON**.
-- **Action:** checking gate states to deduce Sw2 status.
-- **Goal:** Find config for (16,6) OPEN + (12,8) OPEN.
+- **Config [OFF, ON, OFF] (Verified):**
+  - **Status:** Sw1 OFF, Sw2 ON (Deduced), Sw3 OFF (Confirmed).
+  - **Gates:** (16,6) Closed, (12,8) Open.
+  - **Analysis:** Sw2 ON opens (12,8) but closes (16,6).
+- **Plan:** Trigger "Trap Room" (15,4).
+  - **Hypothesis:** Trap is a TOGGLE. Will open (16,6).
+  - **Goal:** (16,6) Open + (12,8) Open.
 - **Config [OFF, ON, ON] (Confirmed):**
   - **Result:** (2,6) Open, (12,8) Open. (16,6) Closed.
   - **Analysis:** Sw3 ON opens Dest (12,8) but closes Entry (16,6).
