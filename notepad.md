@@ -3,11 +3,13 @@
 - **Config [ON, ON, ON]:**
   - **Status:** Sw1 ON, Sw2 ON, Sw3 ON.
   - **Result:** (2,6) Open, (10,10) Open. (12,8) CLOSED, (6,8) CLOSED, (16,6) CLOSED. Fail.
-- **Config [ON, OFF, ON] (Current):**
+- **Config [ON, OFF, ON] (Trapped):**
   - **Status:** Sw1 ON, Sw2 OFF, Sw3 ON.
-  - **Plan:** Check (6,8) and (10,10).
-  - **Expectation:** Both OPEN.
-  - **Goal:** Reach Director via (10,10) -> South.
+  - **Result:** (2,6) CLOSED. Trap!
+  - **Correction:** Must revert Sw3 to OFF to escape.
+- **Plan:** Sw3 OFF -> [ON, OFF, OFF]. Go to Sw1.
+  - Test Sw1 OFF -> [OFF, OFF, OFF].
+- **Hypothesis:** "End switch first" = Switch 1? Or Start from All OFF?
 - **Goal:** Reach Director via (6,8) -> (10,10).
 - **Hypothesis:** Switch 3 controls (6,8) (ON=Open?), or interacts with Sw1/2.
 - **Connections:** Warehouse (23,3) <-> Underground (22,27).
