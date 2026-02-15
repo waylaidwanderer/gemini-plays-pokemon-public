@@ -1,28 +1,15 @@
 # Underground Warehouse
-- **Goal:** Rescue Director / Get Card Key.
-- **Config [OFF, OFF, ON] (Failed):**
-  - **Result:** (2,6) Open, (12,8) Open. (16,6) Closed.
-  - **Analysis:** Sw3 ON opens the destination but closes the entry.
-- **Config [OFF, OFF, ON] (Failed):**
-  - **Status:** Sw1 OFF, Sw2 OFF, Sw3 ON.
-  - **Result:** (16,6) Closed. (12,8) Open.
-  - **Trap Test:** Entering (15,4) did NOT open (16,6).
-- **Config [ON, OFF, OFF] (Target):**
-  - **Status:** Sw1 ON, Sw2 OFF (Turning OFF now), Sw3 OFF.
-  - **Expectation:** (16,6) Open, (12,8) Closed.
-  - **Next Step:** Turn Sw1 OFF -> [OFF, OFF, OFF].
-  - **Goal:** Test "Reset" state.
-- **Config [ON, OFF, OFF] (Current):**
-  - **Status:** Sw1 ON, Sw2 OFF, Sw3 OFF.
-  - **Result:** (16,6) Open, (12,8) Closed.
-  - **Analysis:** Sw1 ON does not open Dest. It keeps Entry Open (same as OFF).
-- **Config [OFF, OFF, ON] (Current):**
-  - **Status:** Sw1 OFF, Sw2 OFF, Sw3 ON.
-  - **Success:** (12,8) OPENED (Observed change).
-  - **Goal:** Verify (2,6) is also OPEN.
-  - **Plan:** Navigate via Row 5 to (2,6). Enter side gate. Loop around to (12,8).
-- **Config [OFF, OFF, ON] (Winning State):**
-  - **Status:** Sw1 OFF, Sw2 OFF, Sw3 ON.
-  - **Gate Check:** (12,8) OPEN, (10,10) OPEN.
-  - **Plan:** Walk (12,7) -> (12,8) -> (11,8) -> (10,10) -> Director.
-  - **WARNING:** Do NOT step on Trap at (12,9). Turn Left immediately after (12,8).
+- **Goal:** Rescue Director.
+- **Current State:**
+  - Sw1: ON
+  - Sw2: ON (Turning OFF)
+  - Sw3: OFF
+- **Verified Configurations:**
+  - **[OFF, ON, OFF]:** Left(2,6) Open. Right(16,6) Closed. Cross(6,8) Closed. -> Dead End (Left).
+  - **[ON, ON, OFF]:** Same as above.
+  - **[OFF, ON, ON]:** Left(2,6) Open. Right(16,6) Closed. Cross(6,8) Closed. -> Dead End (Left).
+  - **[OFF, OFF, ON]:** Left(2,6) Open. Right(16,6) Closed. Cross(6,8) Closed?? (12,8) Open.
+    - *Note:* If (6,8) is closed, this is also a Dead End in Left Room.
+- **Testing Plan:**
+  1. **[ON, OFF, OFF]:** Turn Sw2 OFF. Check (16,6) and (12,8).
+  2. **[OFF, OFF, OFF]:** Turn Sw1 OFF. Check if "Reset" opens everything.
