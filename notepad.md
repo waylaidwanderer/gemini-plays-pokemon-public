@@ -57,11 +57,11 @@
   - Previously confirmed: Opens Gate 1 & Gate 3.
   - Previously confirmed: Opens wall at (16, 10).
 - **Current Status:**
-  - Switches: [0, 1, 1] (Sw1 OFF, Sw2 ON, Sw3 ON).
-  - Sw1 turned OFF.
-  - Heading to Switch 2 (10, 1).
-- **Target:** [0, 0, 1] (Sw1 OFF, Sw2 OFF, Sw3 ON).
+  - Switches: [0, 0, 1] (Sw1 OFF, Sw2 OFF, Sw3 ON).
+  - Sw3 confirmed ON.
+  - Heading to Gate 1 (2, 6).
+- **Hypothesis:** This opens Gate 1.
 - **Plan:**
-  1. Turn Sw2 OFF.
-  2. Enter Gate 1 (2, 6).
-  3. Check inner gate/door at (2, 10).
+  1. Enter Gate 1.
+  2. Check inner gate at (2, 10).
+  3. If (2, 10) is closed, explore side paths or walls.
