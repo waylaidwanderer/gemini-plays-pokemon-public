@@ -598,12 +598,9 @@
           "type": "boolean",
           "default": false
         }
-      },
-      "required": [
-        "autopress_buttons"
-      ]
+      }
     },
-    "python_script": "def get_gate_states(map_xml_string):\n    import xml.etree.ElementTree as ET\n    \n    try:\n        root = ET.fromstring(map_xml_string)\n        \n        # Coordinates of interest\n        gates = {\n            \"Gate 1\": (2, 6),\n            \"Gate 2\": (10, 6),\n            \"Gate 3\": (16, 6),\n            \"Wall (16,10)\": (16, 10),\n            \"Gate (2,10)\": (2, 10)\n        }\n        \n        results = {}\n        \n        for name, (x, y) in gates.items():\n            # Find the tile\n            tile_found = False\n            for row in root.findall(\"Row\"):\n                if int(row.get(\"id\")) == y:\n                    for tile in row.findall(\"Tile\"):\n                        if int(tile.get(\"id\")) == x:\n                            tile_type = tile.get(\"type\")\n                            \n                            state = \"Unknown\"\n                            if tile_type == \"TYPE_3fe2\":\n                                state = \"OPEN\"\n                            elif tile_type == \"TYPE_2889\":\n                                state = \"CLOSED\"\n                            else:\n                                state = f\"Unknown Type ({tile_type})\"\n                                \n                            results[name] = {\"state\": state, \"type\": tile_type}\n                            tile_found = True\n                            break\n                if tile_found:\n                    break\n            \n            if not tile_found:\n                results[name] = {\"state\": \"Not Found\", \"type\": \"N/A\"}\n                \n        print(f\"GATE STATES: {results}\")\n        return results\n\n    except Exception as e:\n        print(f\"Error parsing map XML: {e}\")\n        return {}\n\nget_gate_states(map_xml_string)",
+    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\ndef check_gate_states(map_xml_string):\n    try:\n        root = ET.fromstring(map_xml_string)\n        \n        # Targets: (x, y, name)\n        targets = [\n            (2, 6, \"Gate 1 (Left)\"),\n            (10, 6, \"Gate 2 (Middle)\"),\n            (16, 6, \"Gate 3 (Right)\"),\n            (11, 10, \"Wall Behind Gate 2\"),\n            (16, 10, \"Wall Behind Gate 3\")\n        ]\n        \n        results = {}\n        \n        for target in targets:\n            x, y, name = target\n            # Find the tile. Note: Rows are y, Tiles are x.\n            # XML structure: <Row id=\"y\"> <Tile id=\"x\" ... type=\"...\">\n            \n            # Find row\n            row = root.find(f\".//Row[@id='{y}']\")\n            if row:\n                tile = row.find(f\".//Tile[@id='{x}']\")\n                if tile:\n                    tile_type = tile.get('type')\n                    # Heuristic: TYPE_2889 is usually a solid wall/closed gate in this tileset.\n                    # TYPE_3fe2 is usually floor.\n                    status = \"OPEN/WALKABLE\" if tile_type != \"TYPE_2889\" and tile_type != \"unseen\" else \"CLOSED/WALL\"\n                    results[name] = {\"coords\": f\"({x},{y})\", \"type\": tile_type, \"status\": status}\n                else:\n                    results[name] = \"Tile not found\"\n            else:\n                results[name] = \"Row not found\"\n                \n        print(json.dumps(results, indent=2))\n        \n    except Exception as e:\n        print(f\"Error parsing XML: {e}\")\n\n# The environment provides map_xml_string\ncheck_gate_states(map_xml_string)",
     "history": [
       {
         "commit_message": "Initial version",
@@ -649,6 +646,11 @@
         "commit_message": "Initial definition of the check_gate_states tool.",
         "timestamp": "2026-02-15T17:02:01.525Z",
         "action_counter": 45025
+      },
+      {
+        "commit_message": "Initial definition of check_gate_states tool.",
+        "timestamp": "2026-02-15T22:42:16.891Z",
+        "action_counter": 45545
       }
     ]
   }
