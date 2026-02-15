@@ -4,8 +4,8 @@
 - **Correction:** Path blocked by Grunt at (3,2). Detouring via Row 3.
 - **Path:** (4,2) -> Down -> Left -> Left -> Up -> (2,2).
 - **Strategy: The "Inside Job" (Execution Phase)**
-  - **Status:** Retrying Sw1 Toggle (Suspect previous attempt was cancelled).
-  - **Action:** Move to Sw1 (16,2). Turn OFF.
-  - **Then:** Move to Sw3 (2,2). Turn OFF.
-  - **Target:** [OFF, OFF, OFF].
-  - **Goal:** Enter Left Room via (2,6).
+  - **Step 1:** Turned Sw1 OFF.
+  - **Step 2:** Moving to Sw3 (2,2) to Turn OFF.
+  - **Step 3:** Enter Left Room via (2,6).
+  - **Step 4:** Toggle Sw3 ON (Inside).
+  - **Goal:** Open (6,8) and (10,10) from inside.
