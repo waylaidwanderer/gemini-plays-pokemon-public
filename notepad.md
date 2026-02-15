@@ -12,3 +12,4 @@
   3. Investigate Rival Silver at (4,8).
   4. Find the Director.
 - Encountered dialogue loop with Duncan. Attempting to slow down inputs to allow battle transition.
+- Trap Check: (2,8) is SAFE with [1,1,0]. Proceeding to check (3,8).
