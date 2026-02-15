@@ -2,12 +2,10 @@
 - **Goal:** Rescue Director.
 - **Puzzle Solved:** Switch Combination [0, 1, 0] (Sw2 ON only) -> Gate 2 OPEN.
 - **Current Status:**
-  - Switches: [1, 1, 1] (Sw1 ON, Sw2 ON, Sw3 ON).
-  - Confirmed: Gate 3 CLOSED.
-  - Location: (10, 5).
-  - Action: Moving to Switch 2 (10, 1).
-  - Plan: Turn Sw2 OFF -> State [1, 0, 1].
-  - Goal: Open Gate 3 (16, 6) and reach (19, 12).
+  - Switches: [1, 0, 1] (Sw1 ON, Sw2 OFF, Sw3 ON).
+  - Action: Turned Sw2 OFF.
+  - Next: Check Gate 3 (16, 6).
+  - Goal: Explore (19, 12).
 - **Hazards:**
   - Trap suspected on Row 3 (between x=3 and x=8). Warps to (8, 2).
   - Row 4 confirmed safe in past turns.
