@@ -47,7 +47,8 @@
   - [0, 0, 1]: G1 Open, G2/G3 Closed.
   - [0, 1, 1]: G1 Open, G2/G3 Closed.
 - Current State: [0, 1, 1] (Sw1 OFF, Sw2 ON, Sw3 ON).
-- Toggling Switch 3 OFF.
+- Interaction with Switch 3 initiated.
+- Current Screen: "It's labeled SWITCH 3".
+- Action: Turn OFF.
 - Target State: [0, 1, 0] (Sw1 OFF, Sw2 ON, Sw3 OFF).
-- Hypothesis: [0, 1, 0] might open Gate 2.
-- Check Gate 2 (10,6) after toggle.
+- Next: Check Gate 2 (10,6).
