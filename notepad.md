@@ -11,10 +11,14 @@
   - **Status:** Sw1 OFF, Sw2 ON (Deduced), Sw3 OFF (Confirmed).
   - **Result:** (16,6) Closed, (12,8) Open.
   - **Trap Test:** Trap did NOT toggle (16,6).
-- **Config [ON, OFF, OFF] (Testing):**
-  - **Status:** Sw1 ON, Sw2 OFF (Likely), Sw3 OFF (Confirmed).
-  - **Note:** Sw2 deduced OFF based on history review (Turn 44114 OFF, no confirmed ON since).
-  - **Goal:** Check if Sw1 ON re-opens (16,6) after Trap closure.
+- **Config [ON, OFF, OFF] (Current):**
+  - **Status:** Sw1 ON, Sw2 OFF, Sw3 OFF.
+  - **Result:** (16,6) Open, (12,8) Closed.
+  - **Analysis:** Sw1 ON does not open Dest. It keeps Entry Open (same as OFF).
+- **Plan: Test [ON, ON, OFF].**
+  - **Hypothesis:** Sw1 ON might prevent Sw2 ON from closing the Entry (16,6).
+  - **Step 1:** Turn Sw2 ON.
+  - **Goal:** (16,6) Open + (12,8) Open.
 - **Config [OFF, ON, ON] (Confirmed):**
   - **Result:** (2,6) Open, (12,8) Open. (16,6) Closed.
   - **Analysis:** Sw3 ON opens Dest (12,8) but closes Entry (16,6).
