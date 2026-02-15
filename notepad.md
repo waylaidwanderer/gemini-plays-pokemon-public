@@ -43,14 +43,9 @@
 - Plan: Go to Switch 1 (16,1). Turn OFF.
 - Goal State: [0, 1, 0] (Sw1 OFF, Sw2 ON, Sw3 OFF).
 - Hypothesis: Sw1 OFF opens Gate 3.
-- Puzzle Status: Systematically testing combinations.
-- Tested & Failed (Gate 2 Closed):
-  - [1, 0, 0] (Start)
-  - [0, 0, 0]
-  - [1, 0, 1]
-  - [0, 0, 1]
-  - [0, 1, 1]
-- Current Attempt: [0, 1, 0] (Sw1 OFF, Sw2 ON, Sw3 OFF).
-- Action: Toggling Switch 3 OFF.
-- Next: Check Gate 2 (10,6) via tool.
-- Hint Review: "The switch on the end is the one to press first." -> Could imply order matters?
+- CRITICAL CORRECTION: Switch 3 was OFF!
+- This means previous state was [0, 1, 0]. Gate 2 confirmed CLOSED in [0, 1, 0].
+- Action: Turning Switch 3 ON.
+- New Target State: [0, 1, 1] (Sw1 OFF, Sw2 ON, Sw3 ON).
+- Hypothesis: I haven't actually tested any Sw3=ON states yet due to tracking error.
+- Next: Check Gate 2 (10,6).
