@@ -3,7 +3,7 @@
 - **Puzzle Solved:** Switch Combination [0, 1, 0] (Sw2 ON only) -> Gate 2 OPEN.
 - **Current Status:**
   - Switches: [0, 1, 1] (Sw1 OFF, Sw2 ON, Sw3 ON).
-  - Action: Turning Sw2 ON.
+  - Action: Turned Sw2 ON.
   - Next: Check Gate 2 (10, 6) and Wall (11, 10).
   - Goal: Test if [0, 1, 1] opens the wall.
 - **Immediate Plan:**
