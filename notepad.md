@@ -23,8 +23,10 @@
   3. Go to Sw3 (2,1). Turn OFF.
   4. Verify Gate 1 (2,6) opens.
 - Gate 1 (2,6) confirmed OPEN.
-- Tile Change Detected: (6,8) opened. (6,9) might be closed.
+- Row 9 appears OPEN at (6,9).
+- Traps: (10,9) and (12,9) are Warps.
 - Path to Duncan:
-  1. South through Gate 1 to (2,9).
-  2. East on Row 9 past Silver (4,8).
-  3. Zig-zag: (5,9) -> (5,8) -> Cross (6,8) -> East.
+  1. South to (2,9), East to (9,9).
+  2. North to (9,8) to avoid trap at (10,9).
+  3. East to (11,8), then South to (11,12).
+  4. West to Duncan (9,12).
