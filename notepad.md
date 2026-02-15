@@ -29,13 +29,7 @@
 - Toggled Switch 2 OFF. State: [0, 0, 0] (All OFF).
 - Toggled Switch 1 ON. State: [1, 0, 0].
 - Gate 2 (10,6) confirmed CLOSED with [1,0,0].
-- Gate 2 (10,6) CLOSED with [1,1,0].
-- Gate 3 (16,6) CLOSED with [1,1,0].
-- Gate 1 (2,6) CLOSED with [1,1,0].
-- Knowns:
-  - [1,0,0] -> Gate 1 Open.
-  - [0,1,1] -> Gate 3 Open (Path Blocked).
-  - [1,1,0] -> All Closed.
-- Missing Data: [1,1,1].
-- Plan: Go to Switch 3 (2,1), Toggle ON -> [1,1,1].
-- Prediction: Maybe [1,1,1] is the key?
+- Toggled Switch 3 ON. State: [1, 1, 1] (All ON).
+- Hypothesis: [1, 0, 0] opened Gate 1. [0, 1, 1] opened Gate 3 (blocked path).
+- Maybe [1, 1, 1] opens Gate 2 or Gate 3 fully?
+- Action: Check Gate 1 (2,6), then Gate 2 (10,6), then Gate 3 (16,6).
