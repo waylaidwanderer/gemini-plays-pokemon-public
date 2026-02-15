@@ -5,11 +5,12 @@
   - **Result:** (2,6) Open, (10,10) Open. (12,8) CLOSED, (6,8) CLOSED, (16,6) CLOSED. Fail.
 - **Config [OFF, OFF, ON] (Current):**
   - **Status:** Sw1 OFF, Sw2 OFF, Sw3 ON.
-  - **Plan:** Check gate (2,6).
-  - **Goal:** Access (6,8) -> (10,10).
-- **Hypothesis:** Sw3 ON opens (2,6)?
-  - **Counter-evidence:** (2,6) was Open in [ON, OFF, OFF] (Sw3 OFF). So Sw1 ON might be the key for (2,6).
-  - **Test:** If (2,6) is CLOSED now, then Sw1 controls it.
+  - **Hypothesis (Gate 2,6):** Logic might be (Sw2 XNOR Sw3). Since Sw2!=Sw3, expect CLOSED (Trapped).
+  - **Plan:** Check (2,6). If closed, check if (6,8) opens (if visible) or just revert.
+- **Config [OFF, OFF, OFF] (Confirmed):**
+  - **Status:** Sw1 OFF, Sw2 OFF, Sw3 OFF.
+  - **Result:** (16,6) Open, (6,8) Open, (10,10) Open.
+  - **Problem:** (12,8) Closed.
 - **Config [OFF, OFF, OFF] (Confirmed):**
   - **Status:** Sw1 OFF, Sw2 OFF, Sw3 OFF.
   - **Result:** (16,6) Open, (6,8) Open, (10,10) Open.
