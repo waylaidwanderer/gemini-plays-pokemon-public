@@ -47,5 +47,4 @@
 - Gate 3 (16,6) is OPEN.
 - Gate 2 (10,6) is CLOSED.
 - Gate 1 (2,6) inferred OPEN.
-- Action: Proceeding South through Gate 3. Avoiding Trap at (16,8) by going East.
 - Target: Warp at (22,10).
