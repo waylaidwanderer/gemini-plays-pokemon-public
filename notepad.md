@@ -54,20 +54,20 @@
   - Gate 3 (16, 6) CLOSED.
   - (12, 8) OPEN (Unreachable).
 - **Tested Combinations (Sw1, Sw2, Sw3):**
-  - [1, 1, 0]: Gate 1 OPEN, Gate 3 CLOSED.
+  - [1, 1, 0]: Gate 1 OPEN, Gate 3 CLOSED. (Trap 2,8 disabled).
   - [0, 1, 0]: Gate 2 OPEN, Gate 3 CLOSED.
   - [1, 0, 0]: Gate 3 CLOSED. Gate 1 CLOSED.
   - [0, 0, 0]: All Closed.
   - [0, 1, 1]: Gate 3 CLOSED.
   - [0, 0, 1]: Gate 3 CLOSED.
-  - [1, 0, 1]: Gate 1 CLOSED. Gate 2 CLOSED. (Checking Gate 3...)
+  - [1, 0, 1]: Gate 3 OPEN. Gate 1 & 2 CLOSED. (Current).
 - **Current Status:**
   - Switches: [1, 0, 1] (Sw1 ON, Sw2 OFF, Sw3 ON).
-  - Gate 3 (16, 6): CHECKING...
+  - Gate 3 (16, 6): OPEN!
 - **Plan:**
-  1. Toggle Switch 3 ON (State [1, 0, 1]).
-  2. Check Gate 3.
-  3. If Closed, try other combinations or verify logic.
+  1. Enter Gate 3 (16, 6).
+  2. Cross (16, 8). **Hypothesis:** Trap is disabled by [1, 0, 1].
+  3. Explore south.
 - Visual Confirm: Gate 3 (16, 6) is CLOSED (Type 2889).
 - Visual Confirm: Gate 2 (10, 6) is CLOSED (Type 2889).
 - Checking Switch 1 Status...
