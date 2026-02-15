@@ -5,12 +5,7 @@
   - **Result:** (2,6) Open, (10,10) Open. (12,8) CLOSED, (6,8) CLOSED, (16,6) CLOSED. Fail.
 - **Config [ON, ON, OFF] (Current):**
   - **Status:** Sw1 ON, Sw2 ON, Sw3 OFF.
-  - **Plan:** Check gates.
-  - **Next:** If fail, try [ON, OFF, OFF].
-- **Hypothesis:** One of these must open (10,6) or (16,6).
-- **Previous Tool Checks:**
-  - [ON, OFF, ON]: Fail.
-  - [OFF, OFF, ON]: Fail.
-  - [OFF, ON, ON]: Fail.
-  - [ON, ON, ON]: Fail.
+  - **Result:** (2,6) Open. (6,8) CLOSED. (2,10) CLOSED.
+  - **Next:** Try [ON, OFF, OFF].
+- **Hypothesis:** Switch 3 controls (6,8) (ON=Open?), or interacts with Sw1/2.
 - **Connections:** Warehouse (23,3) <-> Underground (22,27).
