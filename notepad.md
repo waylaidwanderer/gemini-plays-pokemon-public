@@ -17,8 +17,10 @@
   - Gate 3 (16,6) CLOSED.
   - Exit (16,10) CLOSED.
 - Current State: [1,1,1] (All ON).
-  - Observation: Mid Entry (10,6) is CLOSED (Visible).
-  - Goal: Check Gate 3 (16,6) and Exit (16,10).
-  - Note: In [1,0,1], (10,6) was OPEN and (12,8) was OPEN. [1,1,1] closed (10,6).
-- Plan: Moving to (16,5) via Row 5 to avoid Trap Room (15,4).
-  - Goal: Open path to Exit (16,10).
+  - Observation: Gate 3 (16,6) is CLOSED (Verified). Mid Entry (10,6) is CLOSED.
+  - Conclusion: [1,1,1] blocks the main paths.
+  - New Strategy: The "End Switch" clue likely refers to Switch 3 (2,1), which I haven't touched.
+- Plan:
+  1. Move to Switch 3 (2,1).
+  2. Toggle Sw3 OFF -> [0,1,1] (Sw3 OFF, Sw2 ON, Sw1 ON).
+  3. Check Gate 1 (2,6) and others.
