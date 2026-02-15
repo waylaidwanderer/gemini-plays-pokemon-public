@@ -2,10 +2,11 @@
 - **Goal:** Rescue Director.
 - **Puzzle Solved:** Switch Combination [0, 1, 0] (Sw2 ON only) -> Gate 2 OPEN.
 - **Current Status:**
-  - Switches: [0, 1, 1] (Sw1 OFF, Sw2 ON, Sw3 ON).
-  - Action: Turned Sw2 ON.
-  - Next: Check Gate 2 (10, 6) and Wall (11, 10).
-  - Goal: Test if [0, 1, 1] opens the wall.
+  - Switches: [0, 0, 1] (Sw1 OFF, Sw2 OFF, Sw3 ON).
+  - Gate 2 (10, 6): CLOSED (Confirmed).
+  - Failed: [0, 1, 1].
+  - Action: Turning Sw2 OFF.
+  - Next: Turn Sw1 ON -> [1, 0, 1].
 - **Immediate Plan:**
   1. Move to Switch 1 (16, 1).
   2. Verify it is ON.
