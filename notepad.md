@@ -1,11 +1,12 @@
-# Underground Warehouse Strategy
-- **Status:** Switch 1 (ON), Switch 2 (ON), Switch 3 (OFF).
-- **Gate Data (Verified):**
-  - (16, 6) OPEN. (12, 8) OPEN.
-  - (16, 10) CLOSED.
-  - (10, 6) CLOSED.
-- **Action:** Crossing to Middle Section via (12, 8).
-- **Target:** Burglar Duncan at (9, 12).
-- **Hazard:** Trap Warp at (12, 9). Avoid!
-- **Plan:** Move along Row 8 to (11, 8), then go down.
-- **Inventory:** Full.
+# Underground Warehouse Mechanics
+- **Switch 3 (Left):** ON opens (2,6) & (12,8) (if alone/verified).
+- **Switch 2 (Mid):** ON (w/ Sw1) opens (16,6).
+- **Switch 1 (Right):** ON (Alone) opens (6,8).
+- **Current State [ON, ON, OFF]:**
+  - (16,6) OPEN.
+  - (12,8) OPEN.
+  - (10,6) CLOSED.
+  - (16,10) CLOSED.
+- **Goal:** Find Director. Explore South.
+- **Inventory:** Full. Need to toss item to loot.
+- **Hazards:** Trap Warps at (12,9), (15,1), (15,4).
