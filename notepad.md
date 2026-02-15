@@ -1,12 +1,9 @@
 # Underground Warehouse Strategy
-- **Status:** Switch 1 (OFF), Switch 2 (OFF), Switch 3 (ON).
-- **Action:** Going to Switch 2 to turn it ON.
-- **Plan:** Test [OFF, ON, ON].
-- **Gate Status for [OFF, OFF, ON]:**
-  - Row 6: (2,6) OPEN (Visual Confirm), (10,6) CLOSED (Visual Confirm).
-  - Row 8: (6,8) OPEN? (Unknown).
-  - Row 10: ALL CLOSED.
-- **Action:** Going to Switch 2 (Middle). Turn ON.
-- **Target State:** [OFF, ON, ON].
-- **Reminder:** "End Switch First" might mean Start with 3, then add others.
+- **Status:** Switch 1 (OFF?), Switch 2 (OFF), Switch 3 (ON).
+- **Action:** Turning Switch 2 OFF.
+- **Correction:** Switch 2 was ALREADY ON.
+- **Previous State Verified:** [OFF?, ON, ON] -> (2,6) OPEN, (10,6) CLOSED.
+- **New Target State:** [OFF?, OFF, ON].
+- **Hypothesis:** Switch 2 might interfere with Switch 3.
+- **Reminder:** "End Switch First" (Switch 3/Left).
 - **Inventory:** Full.
