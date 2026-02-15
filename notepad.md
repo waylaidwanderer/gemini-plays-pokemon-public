@@ -21,8 +21,9 @@
   - [110] (ON,ON,OFF): 10-6(M) | 6-8(L) | - (Stuck Mid/Left).
   - [111] (ON,ON,ON): 2-6(L) Open. 10-6(M) Closed. 16-6(R) Open.
 - **Analysis:** [1,1,1] opens the Right Gate!
+- **Hazard:** Reaching (16,8) caused a reset to (16,5). Suspect Trap Warp at (16,8).
 - **Plan:**
-  1. Enter Gate (16, 6).
+  1. Dodge trap at (16,8) by moving to (17,7) then (17,8).
   2. Check Inner Gates (16, 10), (12, 8).
 - **Map Locations:**
   - Sw3 (Left): (2,1)
