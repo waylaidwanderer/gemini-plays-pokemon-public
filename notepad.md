@@ -43,4 +43,7 @@
 - Plan: Go to Switch 1 (16,1). Turn OFF.
 - Goal State: [0, 1, 0] (Sw1 OFF, Sw2 ON, Sw3 OFF).
 - Hypothesis: Sw1 OFF opens Gate 3.
-- Check Gate 2 (10,6) on the way.
+- Gate 2 (10,6) confirmed CLOSED with [1, 1, 0].
+- Action: Heading to Switch 2 (10,1) to verify it is ON.
+- Then: Go to Switch 1 (16,1) and turn OFF.
+- Target State: [0, 1, 0].
