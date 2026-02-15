@@ -17,13 +17,13 @@
   - Gate 3 (16,6) CLOSED.
   - Exit (16,10) CLOSED.
 - Current State: [1,1,1] (All ON).
-- Gate 1 (2,6): OPEN.
-- Gate 2 (10,6): CLOSED.
-- Immediate Action: Moving to check Gate 3 (16,6).
-- Previous Logic Correction:
-  - [1,1,0] (Sw3 OFF): Gate 1 & 2 Open, Gate 3 Closed. Cross (12,8) Closed.
-  - [1,0,0] (Sw2 OFF, Sw3 OFF): Cross (12,8) Open.
-- Hypothesis:
-  - If [1,1,1] closes Gate 2, maybe it opens Gate 3?
-  - Or maybe [0,1,1]?
-- Plan: Check Gate 3. If closed, consider [1,0,0] or [1,0,1].
+- Verification: Gate 3 (16,6) is CLOSED.
+- Immediate Action: Testing [0,1,1] (Sw1 OFF, Sw2 ON, Sw3 ON).
+- Reasoning:
+  - "End switch" might be Sw1.
+  - I haven't tested [0,1,1] with confirmed Sw3=ON.
+  - Previously tested [0,1,0] (Sw3 was OFF).
+- Plan:
+  1. Toggle Sw1 OFF.
+  2. Check Gate 3.
+  3. If fails, try [1,0,1] or revert to [1,0,0].
