@@ -43,10 +43,8 @@
 - Plan: Go to Switch 1 (16,1). Turn OFF.
 - Goal State: [0, 1, 0] (Sw1 OFF, Sw2 ON, Sw3 OFF).
 - Hypothesis: Sw1 OFF opens Gate 3.
-- Confirmed: Switch 3 was OFF.
-- Previous State was [0, 1, 0]. Result: Gate 2 CLOSED.
-- Current Action: Turning Switch 3 ON.
-- New State: [0, 1, 1] (Sw1 OFF, Sw2 ON, Sw3 ON).
-- Hypothesis: Testing if [0, 1, 1] opens Gate 2.
-- Hint "End switch first" might mean start with 3 or 1?
-- Plan: Finish toggle -> Check Gates.
+- Interaction: Toggling Switch 3 ON.
+- State Transition: [0, 1, 0] -> [0, 1, 1].
+- Hypothesis: [0, 1, 1] might open Gate 2 (10,6).
+- Verification: Using tool immediately after toggle.
+- Hint Consideration: "End switch first" might mean order matters. If this fails, consider RESET and order-based attempt.
