@@ -16,14 +16,14 @@
   - Wall (12,9) OPEN.
   - Gate 3 (16,6) CLOSED.
   - Exit (16,10) CLOSED.
-- Current State: [1,1,1] (All ON).
-- Verification: Gate 3 (16,6) is CLOSED.
-- Immediate Action: Testing [0,1,1] (Sw1 OFF, Sw2 ON, Sw3 ON).
-- Reasoning:
-  - "End switch" might be Sw1.
-  - I haven't tested [0,1,1] with confirmed Sw3=ON.
-  - Previously tested [0,1,0] (Sw3 was OFF).
-- Plan:
-  1. Toggle Sw1 OFF.
-  2. Check Gate 3.
-  3. If fails, try [1,0,1] or revert to [1,0,0].
+- CRITICAL CORRECTION: Sw1 was OFF.
+  - This means my recent exploration was in State [0,1,1] (Sw1 OFF, Sw2 ON, Sw3 ON).
+  - Findings for [0,1,1]:
+    - Gate 1 (2,6): OPEN.
+    - Gate 2 (10,6): CLOSED.
+    - Gate 3 (16,6): CLOSED.
+- Current Action: Turning Sw1 ON -> Transitioning to [1,1,1] (All ON).
+- Goal: Check if [1,1,1] opens Gate 3 (16,6) or Gate 2 (10,6).
+- Validated States so far:
+  - [1,0,0]: Cross Gate (12,8) OPEN.
+  - [0,1,1]: Gate 1 (2,6) OPEN.
