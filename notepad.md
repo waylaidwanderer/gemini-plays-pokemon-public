@@ -23,10 +23,7 @@
   3. Go to Sw3 (2,1). Turn OFF.
   4. Verify Gate 1 (2,6) opens.
 - Gate 1 (2,6) confirmed OPEN.
-- Row 9 appears OPEN at (6,9).
-- Traps: (10,9) and (12,9) are Warps.
-- Path to Duncan:
-  1. South to (2,9), East to (9,9).
-  2. North to (9,8) to avoid trap at (10,9).
-  3. East to (11,8), then South to (11,12).
-  4. West to Duncan (9,12).
+- Blocked at (12,9) [Wall] and (11,10) [Wall].
+- Tile Change Detected at (16,10)/(16,11) [Opened!].
+- New Route: Backtrack through Gate 1 -> Row 5 -> Gate 3 (16,6) -> South to Duncan.
+- Gate 3 (16,6) should be OPEN (Sw1=ON, Sw2=ON).
