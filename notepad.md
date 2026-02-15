@@ -57,11 +57,13 @@
   - Previously confirmed: Opens Gate 1 & Gate 3.
   - Previously confirmed: Opens wall at (16, 10).
 - **Current Status:**
-  - Switches: [0, 0, 1] (Sw1 OFF, Sw2 OFF, Sw3 ON).
-  - Sw3 confirmed ON.
-  - Heading to Gate 1 (2, 6).
-- **Hypothesis:** This opens Gate 1.
+  - Switches: [0, 0, ?] (Sw1 OFF, Sw2 OFF, Sw3 Unsure).
+  - Gate 1 (2, 6) is CLOSED (Verified by Map).
+  - Suspect Sw3 is OFF (State [0, 0, 0]).
+- **Goal:** Verify/Set Switch 3 to ON.
+  - [0, 0, 1] should open Gate 1.
 - **Plan:**
-  1. Enter Gate 1.
-  2. Check inner gate at (2, 10).
-  3. If (2, 10) is closed, explore side paths or walls.
+  1. Go to Switch 3 (2, 1).
+  2. Ensure it is ON.
+  3. Verify Gate 1 Opens.
+  4. Explore Inner Gate (2, 10).
