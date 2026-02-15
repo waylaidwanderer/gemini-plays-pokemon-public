@@ -28,7 +28,8 @@
 - New Route: Backtrack through Gate 1 -> Row 5 -> Gate 3 (16,6) -> South to Duncan.
 - Toggled Switch 2 OFF. State: [0, 0, 0] (All OFF).
 - Toggled Switch 1 ON. State: [1, 0, 0].
-- Checking Gate 3 (16,6).
-- If CLOSED, check Gate 2 (10,6).
-- If both CLOSED, will go to Switch 3 (2,1) and toggle ON.
-- Goal: Find combo for Gate 3 or Gate 2. Maybe [1,0,1]?
+- Gate 3 (16,6) confirmed CLOSED with [1,0,0].
+- Moving to check Gate 2 (10,6).
+- If CLOSED, will proceed to Switch 3 (2,1) and toggle ON.
+- Predicted Next State: [1, 0, 1].
+- Goal: Open Gate 3 or Gate 2.
