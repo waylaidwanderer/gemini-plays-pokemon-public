@@ -1,8 +1,8 @@
 # Underground Warehouse Mechanics
-- **Switch 3 (Left):** Currently ON. Keeping ON.
+- **Switch 3 (Left):** Currently ON (Trapped). Turning OFF to escape.
 - **Current Status:** Sw1: OFF, Sw2: ON, Sw3: ON.
-- **Action:** Check Gates.
-- **Target:** Test [OFF, ON, ON].
-- **Hypothesis:** Need (2,10) or (10,6) to open. If (2,6) closes, I'm stuck.
+- **Observed Gates (OFF, ON, ON):** (2,6) CLOSED (Trapped!), (10,10) OPEN.
+- **Action:** Turn Switch 3 OFF.
+- **Target:** Return to [OFF, ON, OFF].
 - **Inventory:** Full.
 - **Hazards:** Avoid (15,4), (15,1), (12,9).
