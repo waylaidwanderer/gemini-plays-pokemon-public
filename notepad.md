@@ -32,7 +32,6 @@
 - AUDIT COMPLETE: Sw2 is ON.
 - Confirmed State: [1, 1, 1] (All ON).
 - Sw1 found ON. Kept it ON.
-- Current State: [1, 1, 1] (Inferred).
-- Gate 3 (16,6) is CLOSED (Visual verify).
-- Action: Go to Switch 3 (2,1). Turn OFF.
-- Target State: [1, 1, 0].
+- Current State: [1, 1, 0] (Sw3 turned OFF).
+- Action: Moving South to check Gate 1 (2,6).
+- If Open: Proceed to Row 9, bypass Silver, head East.
