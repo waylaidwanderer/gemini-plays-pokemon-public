@@ -7,12 +7,9 @@
   - Switches: [0, 1, 1] (Sw2 ON, Sw3 ON, Sw1 OFF).
   - Gate 2 (10, 6): OPEN.
   - Wall at (11, 10): BLOCKED (Verified).
-  - Row 10 seems completely blocked in this state.
-- **Hypothesis:**
-  - [1, 1, 0] (Sw1 ON, Sw2 ON, Sw3 OFF) might open Gate 1 AND the wall at (11, 10).
-  - Previous check of [1, 1, 0] might have missed the path across Row 9.
+  - Turning Switch 3 OFF now.
 - **Plan:**
-  1. Go to Switch 3 (2, 1). Turn OFF. -> State [0, 1, 0].
+  1. Turn Switch 3 (2, 1) OFF. -> State [0, 1, 0].
   2. Go to Switch 1 (16, 1). Turn ON. -> State [1, 1, 0].
   3. Enter Gate 1 (2, 6).
   4. Traverse Row 9 East to check (11, 10).
