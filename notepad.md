@@ -38,6 +38,9 @@
 - Action: Talk to Silver (4,8).
 - Then: Backtrack North through Gate 1 to Row 5, head East to Gate 3 (16,6).
 - Spoke to Silver at (4,8). He said "There's nothing down there." and did not battle.
-- Gate 3 (16,6) confirmed CLOSED with [1, 1, 0].
 - Gate 1 (2,6) confirmed OPEN with [1, 1, 0].
-- Plan: Use Gate 1. Walk South to Row 12 (bypassing Wall at x=6). Head East to Duncan.
+- Gate (2,10) confirmed CLOSED (Dead End).
+- Plan: Go to Switch 1 (16,1). Turn OFF.
+- Goal State: [0, 1, 0] (Sw1 OFF, Sw2 ON, Sw3 OFF).
+- Hypothesis: Sw1 OFF opens Gate 3.
+- Check Gate 2 (10,6) on the way.
