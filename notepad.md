@@ -43,9 +43,7 @@
 - Plan: Go to Switch 1 (16,1). Turn OFF.
 - Goal State: [0, 1, 0] (Sw1 OFF, Sw2 ON, Sw3 OFF).
 - Hypothesis: Sw1 OFF opens Gate 3.
-- CRITICAL DISCOVERY: Switch 2 was OFF!
-- Previous tests of "[1, 1, 0]" were actually [1, 0, 0].
-- [1, 0, 0] confirmed: Gate 1 OPEN, Gate 3 CLOSED, Gate 2 CLOSED.
-- Action: Turn Sw2 ON. New State: [1, 1, 0].
-- Check Gate 2 (10,6) then Gate 3 (16,6).
-- If Gate 3 closed, proceed to Switch 1 to turn OFF -> [0, 1, 0].
+- Correction: Switch 2 was ON (Text confirmed).
+- Previous State was [1, 1, 0]. Result: Gate 1 Open, Gate 2/3 Closed.
+- Action: Turned Sw2 OFF. Current State: [1, 0, 0].
+- Plan: Check Gate 2 (10,6). If closed, check Gate 3 (16,6).
