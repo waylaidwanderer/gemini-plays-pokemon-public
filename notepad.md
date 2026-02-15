@@ -57,10 +57,10 @@
   - Previously confirmed: Opens Gate 1 & Gate 3.
   - Previously confirmed: Opens wall at (16, 10).
 - **Current Status:**
-  - Switches: [0, 0, 0] (All OFF).
-  - Sw1 confirmed OFF.
-  - Moving to Switch 2.
-- **Target:** [0, 1, 0] (Sw1 OFF, Sw2 ON, Sw3 OFF).
+  - Switches: [0, 1, 0] (Sw1 OFF, Sw2 ON, Sw3 OFF).
+  - Checking Gate 2 (10, 6) and Gate 3 (16, 6).
+- **Hypothesis:** This combo might open Gate 2 (Middle) or Gate 3 (Right).
 - **Plan:**
-  1. Go to Sw2 (10, 1). Turn ON.
-  2. Check Gates 2 & 3.
+  1. Check Gate 2.
+  2. Check Gate 3.
+  3. If both closed, try [0, 0, 0] (All OFF).
