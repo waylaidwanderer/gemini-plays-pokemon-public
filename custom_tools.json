@@ -597,11 +597,14 @@
         "autopress_buttons": {
           "type": "boolean",
           "default": false,
-          "description": "Must be false. This tool returns information, not button presses."
+          "description": "If true and the tool returns a list of buttons, they will be pressed automatically. Limit: 100 buttons max per call."
         }
-      }
+      },
+      "required": [
+        "autopress_buttons"
+      ]
     },
-    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\ntry:\n    # Parse the XML string\n    root = ET.fromstring(map_xml_string)\n    \n    # Define the coordinates of the gates we are interested in\n    gates_of_interest = {\n        \"(2, 6)\": \"Gate 2-6 (Left Top)\",\n        \"(10, 6)\": \"Gate 10-6 (Mid Top)\",\n        \"(16, 6)\": \"Gate 16-6 (Right Top)\",\n        \"(6, 8)\": \"Gate 6-8 (Left Cross)\",\n        \"(12, 8)\": \"Gate 12-8 (Right Cross)\",\n        \"(2, 10)\": \"Gate 2-10 (Left Bot)\",\n        \"(10, 10)\": \"Gate 10-10 (Mid Bot)\",\n        \"(16, 10)\": \"Gate 16-10 (Right Bot)\"\n    }\n    \n    results = {}\n    \n    # Iterate through the XML to find the tiles\n    for row in root.findall(\"Row\"):\n        y = int(row.get(\"id\"))\n        for tile in row.findall(\"Tile\"):\n            x = int(tile.get(\"id\"))\n            coord = f\"({x}, {y})\"\n            \n            if coord in gates_of_interest:\n                tile_type = tile.get(\"type\")\n                # TYPE_3fe2 is Walkable (Open), TYPE_2889 is Wall (Closed)\n                if tile_type == \"TYPE_3fe2\":\n                    state = \"OPEN\"\n                elif tile_type == \"TYPE_2889\":\n                    state = \"CLOSED\"\n                else:\n                    state = f\"UNKNOWN ({tile_type})\"\n                \n                results[gates_of_interest[coord]] = state\n\n    # Print ONLY the valid JSON dict\n    print(json.dumps(results, indent=2))\n\nexcept Exception as e:\n    print(json.dumps({\"error\": str(e)}))\n",
+    "python_script": "import xml.etree.ElementTree as ET\n\ndef check_gate_states(map_xml_string):\n    root = ET.fromstring(map_xml_string)\n    \n    # Gate coordinates to check\n    # Entry Gates: (2,6), (10,6), (16,6)\n    # Inner/Cross Gates: (2,10), (6,8), (10,10), (12,8), (16,10)\n    gates = {\n        \"Entry_Left\": (2, 6),\n        \"Entry_Mid\": (10, 6),\n        \"Entry_Right\": (16, 6),\n        \"Inner_Left_Col2\": (2, 10),\n        \"Inner_Mid_Row8\": (6, 8),\n        \"Inner_Mid_Col10\": (10, 10),\n        \"Inner_Right_Row8\": (12, 8),\n        \"Inner_Right_Col16\": (16, 10)\n    }\n    \n    results = {}\n    \n    for name, (x, y) in gates.items():\n        # Find the row\n        row = root.find(f\".//Row[@id='{y}']\")\n        if row:\n            # Find the tile\n            tile = row.find(f\".//Tile[@id='{x}']\")\n            if tile is not None:\n                tile_type = tile.get('type')\n                # Determine state based on type\n                # TYPE_2889 is typically walkable floor (Open)\n                # TYPE_3fe2 is typically wall/block (Closed)\n                # TYPE_201b is a warp/open door sometimes\n                \n                status = \"Unknown\"\n                if tile_type == \"TYPE_2889\":\n                    status = \"OPEN\"\n                elif tile_type == \"TYPE_3fe2\":\n                    status = \"CLOSED\"\n                else:\n                    status = f\"UNKNOWN({tile_type})\"\n                \n                results[name] = {\"coords\": (x, y), \"status\": status, \"type\": tile_type}\n            else:\n                results[name] = {\"coords\": (x, y), \"status\": \"Error: Tile Not Found\"}\n        else:\n            results[name] = {\"coords\": (x, y), \"status\": \"Error: Row Not Found\"}\n            \n    print(results)\n\n# Execute the function\ncheck_gate_states(map_xml_string)",
     "history": [
       {
         "commit_message": "Initial version",
@@ -627,6 +630,11 @@
         "commit_message": "Refined tool to print ONLY a valid JSON dictionary of gate states to stdout. This is intended to be used with autopress_buttons=false for information gathering.",
         "timestamp": "2026-02-15T04:58:47.604Z",
         "action_counter": 44014
+      },
+      {
+        "commit_message": "Defined a tool to check the open/closed state of warehouse gates by parsing the Mental Map XML.",
+        "timestamp": "2026-02-15T11:20:02.654Z",
+        "action_counter": 44503
       }
     ]
   }
