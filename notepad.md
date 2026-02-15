@@ -1,11 +1,13 @@
 # Underground Warehouse
 - **Goal:** Rescue Director.
-- **Config [ON, OFF, OFF] (Confirmed):**
-  - **Status:** Sw1 ON (Menu confirmed). Sw2 OFF. Sw3 OFF.
-  - **Correction:** Pressed 'B' to keep Sw1 ON.
-  - **Next Step:** Go to Sw3 (2,1) -> Turn ON.
-  - **Target:** [ON, OFF, ON].
-  - **Goal:** Open (2,6) and (6,8) for internal access.
+- **Config [ON, OFF, ON] (Testing):**
+  - **Status:** Sw1 ON. Sw2 OFF. Sw3 OFF (Moving to Turn ON).
+  - **Hypothesis:** Opens (2,6) (Left Entry) and (6,8) (Left-to-Middle).
+  - **Plan:**
+    1. Turn Sw3 ON.
+    2. Enter Left Room via (2,6).
+    3. Cross to Middle Room via (6,8).
+    4. Check for hidden switches/paths in Middle Room.
 - **Verified Configurations:**
   - **[OFF, ON, OFF]:** Left(2,6) Open. Right(16,6) Closed. Cross(6,8) Closed. -> Dead End (Left).
   - **[ON, ON, OFF]:** Same as above.
