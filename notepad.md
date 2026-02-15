@@ -1,9 +1,9 @@
 # Underground Warehouse Mechanics
 - **Goal:** Rescue Director / Get Card Key.
-- **Switch 3 (Left):** ON -> Gate (2,6) Closed. OFF -> Gate (2,6) Closed.
-- **Switch 2 (Middle):** Turned ON.
-- **Switch 1 (Right):** Turned OFF.
-- **Current Configuration:** [OFF, ON, ON].
-- **Hypothesis:** Sw2 ON opens (2,6). Sw1 OFF might affect (6,8).
-- **Action:** checking (2,6) and (6,8) via corridor at x=3.
-- **Current Status:** Sw1: OFF, Sw2: ON, Sw3: ON.
+- **Config [1:OFF, 2:ON, 3:ON]:**
+  - OPEN: (2,6), (12,8), (10,10).
+  - CLOSED: (10,6), (16,6), (6,8), (2,10), (16,10).
+- **Analysis:** (2,6) leads to dead end at (2,10). (12,8) is inaccessible due to closed (16,6)/(10,6)/(6,8).
+- **Plan:** Try Config [1:ON, 2:OFF, 3:ON]. This supposedly opens (6,8) and (10,10).
+- **Hypothesis:** If (6,8) opens, I can cross from left to middle. If (10,10) is open, I can go south to Item/Director.
+- **Next Steps:** Toggle Sw2 (OFF), Toggle Sw1 (ON).
