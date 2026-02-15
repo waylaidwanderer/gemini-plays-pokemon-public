@@ -11,3 +11,4 @@
   2. Retrieve Item at (1,12).
   3. Investigate Rival Silver at (4,8).
   4. Find the Director.
+- Encountered dialogue loop with Duncan. Attempting to slow down inputs to allow battle transition.
