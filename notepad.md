@@ -1,12 +1,11 @@
 # Underground Warehouse
 - **Goal:** Rescue Director.
-- **Config [ON, OFF, OFF] (Current):**
-  - **Status:** Sw1 ON. Sw2 OFF. Sw3 OFF.
-  - **Result:** (10,6) Open. (2,6) Open. (6,8) Open. (10,10) Closed.
-  - **Analysis:** Can enter Middle, but South Exit Blocked.
-  - **Next Step:** Turn Sw3 ON -> [ON, OFF, ON].
-  - **Hypothesis:** Sw3 might open (10,10) without closing (10,6).
-  - **Plan:** Go to Sw3, Turn ON, Check Gates.
+- **Experiment: The "Trap" at (15,4)**
+  - **Status:** [ON, OFF, ON].
+  - **Observation:** I have been avoiding (15,4) assuming it's bad.
+  - **Hypothesis:** Stepping on (15,4) might toggle Gate (16,6) or (10,10).
+  - **Plan:** Walk to (15,4). Check Gates.
+  - **Reason:** All switch combos lead to dead ends. Need a new variable.
 - **Verified Configurations:**
   - **[OFF, ON, OFF]:** Left(2,6) Open. Right(16,6) Closed. Cross(6,8) Closed. -> Dead End (Left).
   - **[ON, ON, OFF]:** Same as above.
