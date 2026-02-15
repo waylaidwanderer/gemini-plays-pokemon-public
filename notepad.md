@@ -7,11 +7,12 @@
   - **Status:** Sw1 OFF, Sw2 OFF, Sw3 ON.
   - **Result:** (16,6) Closed. (12,8) Open.
   - **Trap Test:** Entering (15,4) did NOT open (16,6).
-- **Config [OFF, ON, OFF] (Testing):**
-  - **Status:** Sw1 OFF, Sw2 ON, Sw3 OFF.
-  - **Context:** Game said Sw1 was ON. Turning it OFF now.
-  - **Hypothesis:** If [ON, ON, OFF] was closed, maybe [OFF, ON, OFF] opens (16,6)?
-  - **Goal:** Open (16,6) to access Director.
+- **Config [ON, ON, OFF] (Verified):**
+  - **Status:** Sw1 ON, Sw2 ON, Sw3 OFF.
+  - **Result:** Identical to [OFF, ON, OFF]. (16,6) Closed.
+  - **Insight:** Sw1 has no effect when Sw2 is ON.
+  - **Goal:** Try [OFF, OFF, OFF]. Maybe the "Reset" state opens the main gate?
+  - **Plan:** Turn Sw1 OFF. Turn Sw2 OFF.
 - **Config [ON, OFF, OFF] (Current):**
   - **Status:** Sw1 ON, Sw2 OFF, Sw3 OFF.
   - **Result:** (16,6) Open, (12,8) Closed.
