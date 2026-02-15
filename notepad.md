@@ -96,3 +96,4 @@
   - Investigating (16, 10) for hidden door.
 - Correction: I only checked West from (16, 9). I need to check East towards the Grunt at (19, 12).
 - Plan: Go South to (16, 9), then East.
+- Encountered Rocket Grunt at (17, 2). Battling...
