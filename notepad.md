@@ -29,10 +29,12 @@
   - Entry: Left(Closed), Mid(OPEN), Right(Closed).
   - Inner: Left(Closed), Mid-Cross(OPEN), Right-Cross(OPEN).
   - Exit: Left(Closed), Mid(Closed), Right(OPEN).
+- **Observation:** Gate (16, 10) is CLOSED with [0,1,1].
+- **Hypothesis:** Sw3 might be closing it.
 - **Plan:**
-  1. Enter Mid Gate (10, 6).
-  2. Go Right thru Gate (12, 8).
-  3. Navigate to Right Exit (16, 10). (Hope Sw1 OFF disabled trap at 16,8).
+  1. Backtrack to (10, 5).
+  2. Turn Sw3 OFF (Result: [0,1,0]).
+  3. Check Gates.
 - **Map Locations:**
   - Sw3 (Left): (2,1)
   - Sw2 (Mid): (10,1)
