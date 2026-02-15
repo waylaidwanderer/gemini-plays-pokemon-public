@@ -3,8 +3,8 @@
 - **Puzzle Solved:** Switch Combination [0, 1, 0] (Sw2 ON only) -> Gate 2 OPEN.
 - **Current Status:**
   - Switches: [1, 0, 1] (Sw1 ON, Sw2 OFF, Sw3 ON).
-  - Action: Turning Sw1 ON.
-  - Next: Check Gate 3 (16, 6) & Trap (16, 8).
+  - Action: Verifying Gate 3.
+  - Validated: Sw1 ON, Sw2 OFF, Sw3 ON.
   - Goal: Explore area past Gate 3.
 - **Immediate Plan:**
   1. Move to Switch 1 (16, 1).
