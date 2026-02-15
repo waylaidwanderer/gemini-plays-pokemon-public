@@ -1,11 +1,11 @@
 # Underground Warehouse
 - **Goal:** Rescue Director.
 - **Strategy: The "Reset & Trap"**
-  - **Status:** Moving to Sw1 (16,2).
-  - **Next:** Turn Sw1 OFF.
-  - **Test:** Verify `[OFF, OFF, OFF]` keeps (12,8) and (10,10) Open.
-  - **Experiment:** Step on (15,4). If it opens (16,6), path is clear: (16,6)->(12,8)->(10,10).
-  - **Goal:** Reach Director.
+  - **Status:** Turning Sw1 OFF.
+  - **Current Config:** [OFF, OFF, OFF].
+  - **Next:** Check Gates.
+  - **Experiment:** Step on (15,4).
+  - **Goal:** Open (16,6).
 - **Verified Configurations:**
   - **[OFF, ON, OFF]:** Left(2,6) Open. Right(16,6) Closed. Cross(6,8) Closed. -> Dead End (Left).
   - **[ON, ON, OFF]:** Same as above.
