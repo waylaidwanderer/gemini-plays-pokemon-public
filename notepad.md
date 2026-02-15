@@ -1,7 +1,8 @@
 # Underground Warehouse Strategy
-- **Status:** Switch 1 (ON), Switch 2 (ON), Switch 3 (ON).
-- **Action:** Verifying 'All ON' fails again. Next: Test [OFF, ON, OFF].
-- **Hypothesis:** Testing remaining combinations. Next target: Middle switch ON, Ends OFF.
+- **Status:** Switch 1 (ON), Switch 2 (ON), Switch 3 (ON) -> Row 10 Gates CLOSED.
+- **Action:** Going to Switch 1 to turn it OFF.
+- **Plan:** Test [OFF, ON, OFF] (Middle ON, Ends OFF).
+- **Hypothesis:** "End Switch First" might be a trick. Testing [OFF, ON, OFF].
 - **tested_combinations:** [ON, ON, ON] (Fail), [ON, ON, OFF] (Fail), [OFF, ON, ON] (Fail), [ON, OFF, ON] (Fail).
 - **Sequence:** [3 -> 2] in progress.
 - **Step 1:** Sw3 ON (Complete).
