@@ -3,10 +3,12 @@
 - **Config [ON, ON, ON]:**
   - **Status:** Sw1 ON, Sw2 ON, Sw3 ON.
   - **Result:** (2,6) Open, (10,10) Open. (12,8) CLOSED, (6,8) CLOSED, (16,6) CLOSED. Fail.
-- **Config [OFF, OFF, ON] (Current):**
+- **Config [OFF, OFF, ON] (SOLVED):**
   - **Status:** Sw1 OFF, Sw2 OFF, Sw3 ON.
-  - **Hypothesis (Gate 2,6):** Logic might be (Sw2 XNOR Sw3). Since Sw2!=Sw3, expect CLOSED (Trapped).
-  - **Plan:** Check (2,6). If closed, check if (6,8) opens (if visible) or just revert.
+  - **Result:** (2,6) Open, (16,6) Open, (12,8) Open, (10,10) Open.
+  - **Solution:** Sw3 opens the RIGHT path (12,8). Sw1 opens the LEFT path (6,8).
+  - **Plan:** Walk to Switch 1 area via Row 5 (avoid Trap Room). Enter (16,6) -> (12,8) -> (10,10).
+- **Goal:** Rescue Director!
 - **Config [OFF, OFF, OFF] (Confirmed):**
   - **Status:** Sw1 OFF, Sw2 OFF, Sw3 OFF.
   - **Result:** (16,6) Open, (6,8) Open, (10,10) Open.
