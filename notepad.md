@@ -57,11 +57,11 @@
   - Previously confirmed: Opens Gate 1 & Gate 3.
   - Previously confirmed: Opens wall at (16, 10).
 - **Current Status:**
-  - Switches: [0, 0, 0] (All OFF).
-  - Gate 3 (16, 6) CLOSED.
-  - [0, 0, 0] Failed.
-- **New Target:** [0, 0, 1] (Sw1 OFF, Sw2 OFF, Sw3 ON).
+  - Switches: [0, 0, 1] (Sw1 OFF, Sw2 OFF, Sw3 ON).
+  - Checking Gate 1 (2, 6) and Gate 2 (10, 6).
 - **Plan:**
-  1. Go to Switch 3 (2, 1). Turn ON.
-  2. Check Gate 1 (2, 6) and Gate 2 (10, 6).
-  3. If this fails, consider reverting to [1, 1, 0] and finding a way past the trap.
+  1. Check Gate 1.
+  2. Check Gate 2.
+  3. If both closed, RE-EVALUATE.
+    - [1, 1, 0] was the most promising (Opened Gate 1 & 3).
+    - Maybe the trap at (16, 8) has a trick?
