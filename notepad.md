@@ -49,10 +49,14 @@
 - Plan: Turn Sw2 OFF -> Go to Sw1 -> Turn Sw1 ON.
 - Target: [1, 0, 1].
 - Gate 2 (10,6) reported OPEN in past logs with this state.
-- **Puzzle Update:** State [1, 0, 1] Failed (Gate 2 Closed).
-- **New Target:** [0, 1, 1] (Sw1 OFF, Sw2 ON, Sw3 ON).
+- **Puzzle Update:** State [0, 1, 1] Failed.
+  - Gate 2 (10, 6) CLOSED.
+  - Gate 3 (16, 6) CLOSED.
+  - (12, 8) OPEN (Unreachable).
+- **Winning Path Candidate:** [1, 1, 0] (Sw1 ON, Sw2 ON, Sw3 OFF).
+  - Previously confirmed: Opens Gate 1 & Gate 3.
+  - Previously confirmed: Opens wall at (16, 10).
 - **Plan:**
-  1. Toggle Switch 2 ON (Return to [1, 1, 1]).
-  2. Move to Switch 1 (16, 1).
-  3. Toggle Switch 1 OFF (Reach [0, 1, 1]).
-  4. Check Gate 2 (10, 6).
+  1. Turn Switch 1 ON (Restore [1, 1, 1]).
+  2. Turn Switch 3 OFF (Create [1, 1, 0]).
+  3. Go to Gate 3 (16, 6) and head South past (16, 10).
