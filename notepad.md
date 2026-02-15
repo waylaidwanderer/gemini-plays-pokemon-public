@@ -1,11 +1,10 @@
 # Underground Warehouse
 - **Goal:** Rescue Director (Likely in Bottom Right).
 - **Grunt Hint:** "The switch on the end is the one to press first." (Implies Sw1 or Sw3).
-- **Current State:** [0,1,0] (Sw1 OFF, Sw2 ON).
-- **Hypothesis:** Testing "Middle Only".
+- **Current State:** [0,0,0] (All OFF).
+- **Hypothesis:** Testing "Trap Strategy" (Enter Left).
 - **Truth Table (Entry | Cross | Exit):**
-  - [110] (ON,ON,OFF): 16-6 Closed. Exit 16-10 Open. (Verified).
-  - [010] (OFF,ON,OFF): Testing Now.
+  - [000] (OFF,OFF,OFF): Testing (Expect 2-6 Open).
 - **Plan:**
   1. Check Gates for [0,1,0].
   2. If Gate 12-8 (Right Cross) or 10-6 (Mid Entry) opens, investigate.
