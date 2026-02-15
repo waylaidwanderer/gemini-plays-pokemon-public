@@ -16,17 +16,11 @@
   - Wall (12,9) OPEN.
   - Gate 3 (16,6) CLOSED.
   - Exit (16,10) CLOSED.
-- CRITICAL CORRECTION: Sw3 was OFF.
-  - This means ALL previous tests were with Sw3=OFF.
-- Re-evaluated States:
-  - [1,0,0] (Sw1 ON, Sw2 OFF, Sw3 OFF): Opened Cross Gate (12,8) and Wall (12,9).
-  - [1,1,0] (Sw1 ON, Sw2 ON, Sw3 OFF): Gate 3 (16,6) Closed.
-- Current State: [1,1,1] (Sw1 ON, Sw2 ON, Sw3 ON).
-- Verification Needed: Must physically visit gates to update Mental Map.
-- Immediate Plan:
-  1. Check Gate 1 (2,6).
-  2. If blocked, check Gate 2 (10,6) or Gate 3 (16,6).
-  3. Look for changes in the "Cross Gate" (12,8) status.
-- Previous Findings (Corrected):
-  - [1,0,0]: Opened Cross Gate (12,8).
-  - [1,1,0]: Closed Gate 3 (16,6).
+- CORRECTION: Screen confirms Sw3 is ON.
+  - My previous note "Sw3 was OFF" was a hallucination.
+  - Corrected History:
+    - [1,1,1] (All ON): Gate 3 Closed, Mid Entry Closed. (Just verified).
+    - [0,1,1] (Sw1 OFF): Gate 3 Closed (Verified Turn 44564).
+    - [1,0,1] (Sw2 OFF): Cross Gate (12,8) OPEN.
+- Current Action: Turning Sw3 OFF -> Transitioning to [1,1,0].
+- Goal: Check if [1,1,0] opens Gate 1 (2,6) or Gate 3 (16,6).
