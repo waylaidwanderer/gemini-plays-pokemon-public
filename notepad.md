@@ -1,12 +1,11 @@
 # Underground Warehouse
 - **Goal:** Rescue Director.
-- **Config [ON, OFF, OFF] (Winning?):**
+- **Config [ON, OFF, OFF] (CONFIRMED):**
   - **Status:** Sw1 ON. Sw2 OFF. Sw3 OFF.
-  - **Discovery:** System reported (10,6) OPENED!
-  - **Implication:** Entrance to Middle Room is open from the Top!
-  - **Plan:** Enter (10,6). Go South.
-  - **Check:** Is (10,10) Open? (It was open in Baseline).
-  - **Goal:** Walk straight to Director.
+  - **Result:** Gate (10,6) OPEN. Gate (10,10) OPEN.
+  - **Path:** Walk South along Column 10.
+  - **Goal:** Reach Director/Card Key area.
+  - **Next:** Defeat Burglar Duncan (9,12) if needed. Loot Item (1,12).
 - **Verified Configurations:**
   - **[OFF, ON, OFF]:** Left(2,6) Open. Right(16,6) Closed. Cross(6,8) Closed. -> Dead End (Left).
   - **[ON, ON, OFF]:** Same as above.
