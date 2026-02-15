@@ -3,13 +3,14 @@
 - **Config [ON, ON, ON]:**
   - **Status:** Sw1 ON, Sw2 ON, Sw3 ON.
   - **Result:** (2,6) Open, (10,10) Open. (12,8) CLOSED, (6,8) CLOSED, (16,6) CLOSED. Fail.
+- **Config [OFF, OFF, ON] (Current):**
+  - **Status:** Sw1 OFF, Sw2 OFF, Sw3 ON.
+  - **Plan:** Check gates (2,6), (6,8), (10,10).
+  - **Hypothesis:** Sw3 ON opens (2,6)?
 - **Config [OFF, OFF, OFF] (Confirmed):**
   - **Status:** Sw1 OFF, Sw2 OFF, Sw3 OFF.
   - **Result:** (16,6) Open, (6,8) Open, (10,10) Open.
-  - **Problem:** (12,8) Closed blocks path from (16,6).
-- **Plan:** Test [OFF, OFF, ON].
-  - Move to Sw3, Turn ON.
-  - **Goal:** Open (2,6) to access (6,8) -> (10,10).
+  - **Problem:** (12,8) Closed.
 - **Hypothesis:** Sw3 ON might open (2,6) without closing (6,8)?
 - **Clue:** "End switch first" -> Start with Sw3?
 - **Goal:** Reach Director via (6,8) -> (10,10).
