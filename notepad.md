@@ -12,3 +12,4 @@
   2. Turn Sw2 OFF (State: [100]).
   3. Check Gate States.
   4. If fail, Turn Sw1 OFF -> [000].
+- **Grunt Hint:** "The switch on the end is the one to press first, but..." (Waiting for rest of text).
