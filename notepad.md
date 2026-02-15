@@ -57,12 +57,13 @@
   - Previously confirmed: Opens Gate 1 & Gate 3.
   - Previously confirmed: Opens wall at (16, 10).
 - **Current Status:**
-  - Switches: [1, 1, 1] (Sw1 ON, Sw2 ON, Sw3 ON).
-  - Sw1 turned ON.
-- **Next Step:** Turn Switch 3 OFF.
-  - Target State: [1, 1, 0].
+  - Switches: [1, 1, 0] (Sw1 ON, Sw2 ON, Sw3 OFF).
+  - Gate 1 & 3 should be OPEN.
+  - Heading to Gate 3 (16, 6).
+- **CRITICAL:** Trap at (16, 8) must be bypassed.
+  - Do NOT walk straight down from Gate 3.
+  - Path: (16, 6) -> (17, 6) -> (17, 8) -> (16, 9).
 - **Plan:**
-  1. Go to Switch 3 (2, 1). Turn OFF.
-  2. Go to Gate 3 (16, 6).
-  3. CAREFULLY navigate around Trap (16, 8).
-    - Try walking via (15, 8) or (17, 8).
+  1. Confirm Switch 3 OFF.
+  2. Navigate to Gate 3.
+  3. Execute trap evasion path.
