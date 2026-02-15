@@ -1,6 +1,7 @@
 # Underground Warehouse Mechanics
 - **Goal:** Rescue Director / Get Card Key.
 - **Config [ON, OFF, ON]:**
+  - **Observation:** Gate (2,6) OPENED (Sw3 ON).
   - **Plan:** Toggle Sw1 (OFF).
   - **Target Config:** [OFF, OFF, ON].
 - **Action:** Moving to Switch 1 (16,1).
