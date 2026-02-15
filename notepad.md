@@ -3,7 +3,7 @@
 - **Config [ON, ON, ON]:**
   - **Status:** Sw1 ON, Sw2 ON, Sw3 ON.
   - **Result:** (2,6) Open, (10,10) Open. (12,8) CLOSED, (6,8) CLOSED, (16,6) CLOSED. Fail.
-- **Config [OFF, OFF, OFF] (Current):**
+- **Config [OFF, OFF, OFF] (Target):**
   - **Status:** Sw1 OFF, Sw2 OFF, Sw3 OFF.
   - **Result:** (16,6) Open, (6,8) Open, (10,10) Open.
   - **Problem:** (12,8) Closed blocks path from (16,6). (2,6)/(10,6) Closed.
