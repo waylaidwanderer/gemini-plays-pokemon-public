@@ -2,10 +2,11 @@
 - **Goal:** Rescue Director.
 - **Puzzle Solved:** Switch Combination [0, 1, 0] (Sw2 ON only) -> Gate 2 OPEN.
 - **Current Status:**
-  - Switches: [1, ?, ?] (Sw1 ON, Sw2 ?, Sw3 ?).
+  - Switches: [1, 0, ?] (Sw1 ON, Sw2 OFF, Sw3 ?).
   - Gate 3: CLOSED.
-  - Action: Verifying Sw2 and Sw3.
-  - Hypothesis: Trying to reach state [1, 0, 0] or confirm [1, 0, 1] failure.
+  - Action: Verifying Sw3.
+  - Hypothesis: Sw3 is OFF (State [1, 0, 0]), preventing Gate 3 from opening.
+  - Goal: Reach state [1, 0, 1] (Sw1 ON, Sw2 OFF, Sw3 ON).
 - **Immediate Plan:**
   1. Move to Switch 1 (16, 1).
   2. Verify it is ON.
