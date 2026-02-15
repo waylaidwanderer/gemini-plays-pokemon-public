@@ -1,6 +1,7 @@
 # Underground Warehouse Mechanics
-- **Hypothesis:** Sw2=ON opens (2,6) but closes (6,8). Sw2=OFF opens (6,8) but closes (2,6).
-- **Conflict:** Need both open.
-- **Action:** Turn Sw2 ON.
-- **Next:** If (2,6) opens but (6,8) closes, go to Sw1 and toggle OFF.
+- **Switch 2 (Middle):** Turned ON.
+- **Configuration:** [ON, ON, ON].
+- **Hypothesis:** (2,6) will OPEN. (6,8) will CLOSE.
+- **Action:** Check Gate States.
+- **Next:** If (6,8) is closed, go to Sw1 and turn OFF.
 - **Current Status:** Sw1: ON, Sw2: ON, Sw3: ON.
