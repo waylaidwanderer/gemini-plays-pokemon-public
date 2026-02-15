@@ -57,14 +57,11 @@
   - Previously confirmed: Opens Gate 1 & Gate 3.
   - Previously confirmed: Opens wall at (16, 10).
 - **Current Status:**
-  - Switches: [1, 1, 1] (All ON).
-  - Gate 3 (16, 6) is CLOSED (Verified).
-  - [1, 1, 1] Failed.
-- **New Strategy:** Explore Left Path (Gate 1) fully.
-  - [0, 0, 1] (Sw1 OFF, Sw2 OFF, Sw3 ON) opens Gate 1.
-  - Hypothesis: It might also open the inner gate at (2, 10).
+  - Switches: [0, 1, 1] (Sw1 OFF, Sw2 ON, Sw3 ON).
+  - Sw1 turned OFF.
+  - Heading to Switch 2 (10, 1).
+- **Target:** [0, 0, 1] (Sw1 OFF, Sw2 OFF, Sw3 ON).
 - **Plan:**
-  1. Turn Sw1 OFF (16, 1).
-  2. Turn Sw2 OFF (10, 1).
-  3. Ensure Sw3 is ON (2, 1).
-  4. Enter Gate 1 and check (2, 10).
+  1. Turn Sw2 OFF.
+  2. Enter Gate 1 (2, 6).
+  3. Check inner gate/door at (2, 10).
