@@ -1,14 +1,14 @@
 # Underground Warehouse
 - **Goal:** Rescue Director.
-- **Verification: Left Room Connectivity**
-  - **Goal:** Verify if I can travel from (6,8) to Sw3 (2,1).
+- **Strategy: The "Reset & Trap"**
+  - **Current:** [ON, OFF, ON]. (Verified: Can exit Middle Room via (6,8)).
   - **Plan:**
-    1. Check (12,9) (Wall?).
-    2. Go West through Gate (6,8).
-    3. Navigate to Sw3 (2,1).
-  - **Logic:** If I can reach Sw3 from inside, I can set [OFF, OFF, ON] from the inside.
-    - [OFF, OFF, ON] opens (6,8) and (10,10).
-    - Entering from (2,6) [OFF, OFF, OFF], then toggling Sw3 ON is the key.
+    1. Navigate to Sw3 (2,2). Turn OFF.
+    2. Navigate to Sw1 (16,2). Turn OFF.
+    3. Verify [OFF, OFF, OFF] state.
+    4. **Critical:** Step on Trap (15,4). Check if (16,6) opens.
+  - **Backup:** Test [ON, ON, ON].
+  - **Goal:** Find a state where (16,6) is OPEN (to enter Right Room) OR (2,6)+(6,8)+(10,10) is OPEN.
 - **Verified Configurations:**
   - **[OFF, ON, OFF]:** Left(2,6) Open. Right(16,6) Closed. Cross(6,8) Closed. -> Dead End (Left).
   - **[ON, ON, OFF]:** Same as above.
