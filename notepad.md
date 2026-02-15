@@ -75,3 +75,4 @@
 - Plan: Change state to [1, 0, 1] (Sw1 ON, Sw2 OFF, Sw3 ON).
   - Move to Switch 3 (2, 1). Turn ON.
   - Check Gate 3.
+- Movement: Navigating to Switch 3 (2, 1) from (10, 4).
