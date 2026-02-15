@@ -1,7 +1,7 @@
 # Underground Warehouse Strategy
-- **Status:** Switch 1 (ON), Switch 2 (ON), Switch 3 (ON).
-- **Action:** Going to Switch 2 to turn it OFF.
-- **Hypothesis:** Testing combination [ON, OFF, ON] (Combination Check).
+- **Status:** Switch 1 (ON), Switch 2 (ON -> OFF), Switch 3 (ON).
+- **Action:** Turning Switch 2 OFF.
+- **Hypothesis:** Testing combination [ON, OFF, ON].
 - **Refinement:** Order likely irrelevant; Switches hold state. Focus is on finding the correct boolean combination.
 - **tested_combinations:** [ON, ON, ON] (Fail), [ON, ON, OFF] (Fail), [OFF, ON, ON] (Fail).
 - **Sequence:** [3 -> 2] in progress.
