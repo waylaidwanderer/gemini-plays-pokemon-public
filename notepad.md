@@ -32,6 +32,7 @@
 - AUDIT COMPLETE: Sw2 is ON.
 - Confirmed State: [1, 1, 1] (All ON).
 - Sw1 found ON. Kept it ON.
-- Current State: [1, 1, ?] (Likely [1, 1, 1]).
-- Next: Check Gate 3 (16,6).
-- Target: [1, 1, 0] (Sw1 ON, Sw2 ON, Sw3 OFF).
+- Current State: [1, 1, 1] (Inferred).
+- Gate 3 (16,6) is CLOSED (Visual verify).
+- Action: Go to Switch 3 (2,1). Turn OFF.
+- Target State: [1, 1, 0].
