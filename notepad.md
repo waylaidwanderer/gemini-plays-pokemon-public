@@ -58,9 +58,10 @@
   - Previously confirmed: Opens wall at (16, 10).
 - **Current Status:**
   - Switches: [0, 0, 0] (All OFF).
-  - Checking Gate 2 (10, 6) and Gate 3 (16, 6).
-- **Hypothesis:** Reset state might open something?
+  - Gate 2 (10, 6) CLOSED.
+  - Checking Gate 3 (16, 6).
+- **Hypothesis:** Reset state probably closes everything.
 - **Plan:**
-  1. Check Gate 2.
-  2. Check Gate 3.
-  3. If both closed, try [0, 0, 1] (Sw3 ON).
+  1. Check Gate 3.
+  2. If Closed, try [0, 0, 1] (Sw3 ON).
+  3. If that fails, try [0, 1, 1].
