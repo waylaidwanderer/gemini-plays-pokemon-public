@@ -37,3 +37,6 @@
 - Wall at x=6 blocks East. Gate 1 area appears to be a dead end with Silver.
 - Action: Talk to Silver (4,8).
 - Then: Backtrack North through Gate 1 to Row 5, head East to Gate 3 (16,6).
+- Spoke to Silver at (4,8). He said "There's nothing down there." and did not battle.
+- Gate (2,10) is CLOSED with combination [1, 1, 0].
+- Proceeding to check Gate 3 (16,6).
