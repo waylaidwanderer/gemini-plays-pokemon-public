@@ -4,9 +4,9 @@
 - **Current Status:**
   - Switches: [1, 1, 1] (Sw1 ON, Sw2 ON, Sw3 ON).
   - Confirmed: Gate 3 CLOSED.
-  - Insight: I missed exploring the area near the Grunt at (19, 12) when Gate 3 was open previously ([1, 0, 1]).
-  - Plan: Revert to State [1, 0, 1] (Sw1 ON, Sw2 OFF, Sw3 ON).
-  - Action: Turn Sw2 OFF.
+  - Location: (10, 5).
+  - Action: Moving to Switch 2 (10, 1).
+  - Plan: Turn Sw2 OFF -> State [1, 0, 1].
   - Goal: Open Gate 3 (16, 6) and reach (19, 12).
 - **Hazards:**
   - Trap suspected on Row 3 (between x=3 and x=8). Warps to (8, 2).
