@@ -16,14 +16,11 @@
   - Wall (12,9) OPEN.
   - Gate 3 (16,6) CLOSED.
   - Exit (16,10) CLOSED.
-- CRITICAL CORRECTION: Sw1 was OFF.
-  - This means my recent exploration was in State [0,1,1] (Sw1 OFF, Sw2 ON, Sw3 ON).
-  - Findings for [0,1,1]:
-    - Gate 1 (2,6): OPEN.
-    - Gate 2 (10,6): CLOSED.
-    - Gate 3 (16,6): CLOSED.
-- Current Action: Turning Sw1 ON -> Transitioning to [1,1,1] (All ON).
-- Goal: Check if [1,1,1] opens Gate 3 (16,6) or Gate 2 (10,6).
-- Validated States so far:
-  - [1,0,0]: Cross Gate (12,8) OPEN.
-  - [0,1,1]: Gate 1 (2,6) OPEN.
+- CORRECTION: Sw1 was ON.
+  - Verification: [1,1,1] (All ON) opens Gate 1 (2,6), closes Gate 2 (10,6) and Gate 3 (16,6).
+- Current Action: Turning Sw1 OFF -> State [0,1,1] (Sw1 OFF, Sw2 ON, Sw3 ON).
+- Goal: Check if [0,1,1] opens Gate 3 (16,6).
+- Validated States:
+  - [1,1,1]: Gate 1 Open, Gate 2/3 Closed.
+  - [1,0,0]: Cross Gate (12,8) Open.
+  - [1,1,0]: Gate 3 Closed.
