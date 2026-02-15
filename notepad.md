@@ -1,11 +1,11 @@
 # Underground Warehouse
 - **Goal:** Rescue Director.
-- **Experiment: The "Trap" at (15,4)**
+- **Investigation: Middle Room**
   - **Status:** [ON, OFF, ON].
-  - **Observation:** I have been avoiding (15,4) assuming it's bad.
-  - **Hypothesis:** Stepping on (15,4) might toggle Gate (16,6) or (10,10).
-  - **Plan:** Walk to (15,4). Check Gates.
-  - **Reason:** All switch combos lead to dead ends. Need a new variable.
+  - **Gates:** (10,6) OPEN. (10,10) CLOSED.
+  - **Plan:** Enter Middle Room via (10,6).
+  - **Action:** Explore inside. Check "Trap" at (12,9). Check for hidden switches.
+  - **Logic:** Since (10,10) is closed by Sw1 ON (needed for Entry), maybe the solution is INSIDE.
 - **Verified Configurations:**
   - **[OFF, ON, OFF]:** Left(2,6) Open. Right(16,6) Closed. Cross(6,8) Closed. -> Dead End (Left).
   - **[ON, ON, OFF]:** Same as above.
