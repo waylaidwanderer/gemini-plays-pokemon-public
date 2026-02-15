@@ -57,13 +57,12 @@
   - Previously confirmed: Opens Gate 1 & Gate 3.
   - Previously confirmed: Opens wall at (16, 10).
 - **Current Status:**
-  - Switches: [0, 1, 1] (Sw1 OFF, Sw2 ON, Sw3 ON).
-  - Gate 2 (10, 6) CLOSED.
-  - Gate 3 (16, 6) CLOSED.
-  - [0, 1, 1] Failed.
-- **New Target:** [1, 1, 0] (Sw1 ON, Sw2 ON, Sw3 OFF).
-  - This state opened Gate 3 & Gate 1.
+  - Switches: [1, 1, 1] (Sw1 ON, Sw2 ON, Sw3 ON).
+  - Sw1 turned ON.
+- **Next Step:** Turn Switch 3 OFF.
+  - Target State: [1, 1, 0].
 - **Plan:**
-  1. Turn Sw1 ON (State -> [1, 1, 1]).
-  2. Turn Sw3 OFF (State -> [1, 1, 0]).
-  3. Return to Gate 3 and avoid trap at (16, 8).
+  1. Go to Switch 3 (2, 1). Turn OFF.
+  2. Go to Gate 3 (16, 6).
+  3. CAREFULLY navigate around Trap (16, 8).
+    - Try walking via (15, 8) or (17, 8).
