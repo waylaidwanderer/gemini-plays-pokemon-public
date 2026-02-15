@@ -23,12 +23,16 @@
 - **Analysis:** [1,1,1] opens the Right Gate!
 - **Hazard:** Reaching (16,8) caused a reset.
 - **Hazard:** Reaching (17,8) or (17,9) caused a reset to (17,5). Suspect Trap Zone.
-- **Current State:** [0,1,1] (Sw1 OFF, Sw2 ON, Sw3 ON).
-- **Hypothesis:** Testing [0,1,1].
+- **CORRECTION:** Tool reversed types. [3fe2=OPEN], [2889=CLOSED].
+- **Current State:** [0,1,1] (OFF, ON, ON).
+- **Gate States:**
+  - Entry: Left(Closed), Mid(OPEN), Right(Closed).
+  - Inner: Left(Closed), Mid-Cross(OPEN), Right-Cross(OPEN).
+  - Exit: Left(Closed), Mid(Closed), Right(OPEN).
 - **Plan:**
-  1. Turn Sw1 OFF.
-  2. Check Gate (16, 6).
-  3. If closed, check Middle/Left Gates.
+  1. Enter Mid Gate (10, 6).
+  2. Go Right thru Gate (12, 8).
+  3. Navigate to Right Exit (16, 10). (Hope Sw1 OFF disabled trap at 16,8).
 - **Map Locations:**
   - Sw3 (Left): (2,1)
   - Sw2 (Mid): (10,1)
