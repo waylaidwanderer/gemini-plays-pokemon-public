@@ -58,14 +58,13 @@
   - Previously confirmed: Opens wall at (16, 10).
 - **Current Status:**
   - Switches: [1, 1, 1] (All ON).
-  - Checking Gate 3 (16, 6) and Trap (16, 8).
-- **Hypothesis:** This might disable the trap.
+  - Gate 3 (16, 6) is CLOSED (Verified).
+  - [1, 1, 1] Failed.
+- **New Strategy:** Explore Left Path (Gate 1) fully.
+  - [0, 0, 1] (Sw1 OFF, Sw2 OFF, Sw3 ON) opens Gate 1.
+  - Hypothesis: It might also open the inner gate at (2, 10).
 - **Plan:**
-  1. Go to Gate 3.
-  2. If Open: Check Trap.
-  3. If Closed:
-     - Trap (16, 8) is unavoidable physically.
-     - Must be a specific switch combo to open Gate 3 AND disable trap.
-     - Or maybe the trap is fake/toggleable?
-     - Or maybe I need to trigger the trap to go somewhere else? (Unlikely, warps to start).
-     - **Alternative:** Re-explore Gate 1 (Opened by [0, 0, 1]). I might have missed something there.
+  1. Turn Sw1 OFF (16, 1).
+  2. Turn Sw2 OFF (10, 1).
+  3. Ensure Sw3 is ON (2, 1).
+  4. Enter Gate 1 and check (2, 10).
