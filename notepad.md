@@ -1,15 +1,15 @@
 # Underground Warehouse
 - **Goal:** Rescue Director.
-- **Current State:**
-  - Sw1: OFF (Action taken).
-  - Sw2: OFF (Verified previously).
-  - Sw3: OFF (Verified previously).
-- **Strategy:** Baseline Established [OFF, OFF, OFF].
-  - **Action:** Check Gates.
-  - **Hypothesis:** Determine "Zero State".
-- **Next Step:**
-  - If (16,6) Open: Enter.
-  - If Closed: Toggle Sw3 ON -> [OFF, OFF, ON] (Previous Winning State??).
+- **Hypothesis: [ON, OFF, ON]**
+  - **Reasoning:**
+    - [OFF, OFF, ON] had (6,8) & (10,10) Open, but (2,6) Closed.
+    - [ON, OFF, ON] previously showed (2,6) Open.
+    - If Sw1 ON opens (2,6) and doesn't close the others, this is the path!
+  - **Plan:**
+    1. Turn Sw1 ON.
+    2. Go to Sw3 -> Turn ON.
+    3. Check Gates.
+    4. Path: (2,6) -> (6,8) -> (10,10).
 - **Verified Configurations:**
   - **[OFF, ON, OFF]:** Left(2,6) Open. Right(16,6) Closed. Cross(6,8) Closed. -> Dead End (Left).
   - **[ON, ON, OFF]:** Same as above.
