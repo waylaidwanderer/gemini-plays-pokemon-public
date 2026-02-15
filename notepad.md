@@ -29,12 +29,13 @@
 - Toggled Switch 2 OFF. State: [0, 0, 0] (All OFF).
 - Toggled Switch 1 ON. State: [1, 0, 0].
 - Gate 2 (10,6) confirmed CLOSED with [1,0,0].
-- Gate 3 (16,6) confirmed CLOSED with [1,1,0].
-- Contradiction: Previously thought [1,1,0] opened Gate 3.
-- Observation: Tile change in 44923 suggests Gate 3 was OPEN prior to Sw2 toggle.
-  - Prior State: [1, 0, 0] (Sw2=OFF).
-  - But 44878 said [1, 0, 0] Closed Gate 3.
-- Action: Moving West.
-- Checking Gate 2 (10,6) and Gate 1 (2,6).
-- Then to Switch 3 (2,1).
-- Goal: Find combo [1, 1, 1] or verify [1, 0, 0].
+- Gate 2 (10,6) CLOSED with [1,1,0].
+- Gate 3 (16,6) CLOSED with [1,1,0].
+- Gate 1 (2,6) CLOSED with [1,1,0].
+- Knowns:
+  - [1,0,0] -> Gate 1 Open.
+  - [0,1,1] -> Gate 3 Open (Path Blocked).
+  - [1,1,0] -> All Closed.
+- Missing Data: [1,1,1].
+- Plan: Go to Switch 3 (2,1), Toggle ON -> [1,1,1].
+- Prediction: Maybe [1,1,1] is the key?
