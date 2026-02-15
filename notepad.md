@@ -1,6 +1,6 @@
 # Underground Warehouse Strategy
 - **Status:** Resetting puzzle.
-- **Action:** Turning Switch 2 OFF.
+- **Action:** Turning Switch 2 OFF (Current State: ON).
 - **Plan:** Reset all to OFF, then try Sequence [1 -> 2 -> 3].
 - **Hypothesis:** "End Switch First" means start with Switch 1 (Right End).
 - **Sequence:** [3 -> 2] in progress.
