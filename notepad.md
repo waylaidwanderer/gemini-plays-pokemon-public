@@ -58,9 +58,11 @@
   - Previously confirmed: Opens wall at (16, 10).
 - **Current Status:**
   - Switches: [0, 1, 0] (Sw1 OFF, Sw2 ON, Sw3 OFF).
-  - Gate 2 (10, 6) CLOSED.
-  - Checking Gate 3 (16, 6).
+  - Gate 3 (16, 6) CLOSED.
+  - [0, 1, 0] Failed.
+- **New Target:** [0, 0, 0] (All OFF).
 - **Plan:**
-  1. Move to Gate 3 (16, 6).
-  2. If Gate 3 Open: Check Trap (16, 8).
-  3. If Gate 3 Closed: Try [0, 0, 0] (All OFF).
+  1. Go to Switch 2 (10, 1). Turn OFF.
+  2. Check Gate 2 (10, 6).
+  3. If Closed, check Gate 3.
+  4. If both Closed, try [0, 0, 1] (Sw3 ON).
