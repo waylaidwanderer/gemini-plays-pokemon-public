@@ -590,7 +590,7 @@
     ]
   },
   "check_gate_states": {
-    "description": "Checks the tile type and walkability of specific gate coordinates in the Underground Warehouse to verify switch effects without walking to them. Defaults to checking all known gates if no coordinates provided.",
+    "description": "Checks the open/closed state of the warehouse gates by parsing the Mental Map XML. Prints the states to the log and returns an empty button list.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -639,7 +639,7 @@
         }
       }
     },
-    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\n# Parse XML\nroot = ET.fromstring(map_xml_string)\n\n# Default gates if not provided\ndefault_gates = [[2, 6], [10, 6], [16, 6], [6, 8], [12, 8], [2, 10], [10, 10], [16, 10]]\ngates = input_data.get('gate_coordinates')\nif not gates:\n    gates = default_gates\n\nresults = []\n\nfor pos in gates:\n    x, y = pos[0], pos[1]\n    # Find the tile\n    tile = None\n    for row in root.findall('Row'):\n        if int(row.get('id')) == y:\n            for t in row.findall('Tile'):\n                if int(t.get('id')) == x:\n                    tile = t\n                    break\n            break\n            \n    if tile is not None:\n        t_type = tile.get('type')\n        # Heuristic based on observation: \n        # TYPE_2889 is usually wall/closed gate\n        # TYPE_3fe2 is floor/open gate\n        state = \"UNKNOWN\"\n        if t_type == \"TYPE_2889\":\n            state = \"CLOSED\"\n        elif t_type == \"TYPE_3fe2\":\n            state = \"OPEN\"\n            \n        results.append({\n            \"coord\": f\"({x}, {y})\",\n            \"type\": t_type,\n            \"state\": state\n        })\n    else:\n        results.append({\n            \"coord\": f\"({x}, {y})\",\n            \"type\": \"N/A\",\n            \"state\": \"NOT_FOUND\"\n        })\n\nprint(json.dumps(results))",
+    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\ntry:\n    # map_xml_string is implicitly provided\n    root = ET.fromstring(map_xml_string)\n    states = []\n    \n    # Default coordinates if not provided\n    coords = input_data.get('gate_coordinates', [[2,6],[10,6],[16,6],[6,8],[12,8],[2,10],[10,10],[16,10]])\n\n    for coord in coords:\n        tx, ty = coord\n        tile_found = False\n        for row in root.findall(\"Row\"):\n            if int(row.get(\"id\")) == ty:\n                for tile in row.findall(\"Tile\"):\n                    if int(tile.get(\"id\")) == tx:\n                        t_type = tile.get(\"type\")\n                        # Heuristic: TYPE_3fe2 is usually Walkable (Open), TYPE_2889 is Wall (Closed)\n                        state_str = \"OPEN\" if t_type == \"TYPE_3fe2\" else \"CLOSED\" if t_type == \"TYPE_2889\" else f\"UNKNOWN({t_type})\"\n                        states.append(f\"Gate({tx},{ty}): {state_str}\")\n                        tile_found = True\n                        break\n            if tile_found: break\n            \n    print(\"Gate States:\")\n    for s in states:\n        print(s)\n        \n    # Return empty list of buttons\n    print(json.dumps([]))\n    \nexcept Exception as e:\n    print(f\"Error checking gates: {e}\")\n    print(json.dumps([]))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -650,6 +650,11 @@
         "commit_message": "Fixed JSON output format to use double quotes for valid JSON parsing.",
         "timestamp": "2026-02-14T20:33:51.428Z",
         "action_counter": 43174
+      },
+      {
+        "commit_message": "Fixed JSON output format to ensure compatibility with autopress_buttons.",
+        "timestamp": "2026-02-15T01:23:16.911Z",
+        "action_counter": 43682
       }
     ]
   }
