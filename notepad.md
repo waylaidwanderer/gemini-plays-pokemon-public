@@ -4,11 +4,5 @@
 - **Plan:** Test [OFF, ON, OFF] (Middle ON, Ends OFF).
 - **Hypothesis:** "End Switch First" might be a trick. Testing [OFF, ON, OFF].
 - **tested_combinations:** [ON, ON, ON] (Fail), [ON, ON, OFF] (Fail), [OFF, ON, ON] (Fail), [ON, OFF, ON] (Fail).
-- **Sequence:** [3 -> 2] in progress.
-- **Step 1:** Sw3 ON (Complete).
-- **Step 2:** Turn Sw2 ON.
-- **Action:** Confirming Switch 2 activation (YES).
-- **Hypothesis:** "End Switch First" means 3 -> 2 -> 1.
-- **Issue:** Resolved. Interaction successful.
+- **Sequence:** Testing combinations.
 - **Reminder:** Inventory full (20/20). Must toss/use item to loot (1,12).
-- **Interruption:** Rocket Grunt at (17, 2) engaged battle.
