@@ -98,3 +98,5 @@
 - Encountered Rocket Grunt at (17, 2). He seems to just loop dialogue without battling. Ignoring him.
 - Plan: Turn Switch 1 (16, 1) OFF.
 - Then: Check Gate 2 (10, 6).
+- Checking (11, 10) and (12, 9) for hidden paths.
+- Hypothesis: [0, 1, 1] might keep Gate 2 open AND open the wall at (11, 10).
