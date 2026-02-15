@@ -7,11 +7,11 @@
   - Switches: [0, 1, 0] (Sw2 ON).
   - Gate 2: OPEN.
   - Path South blocked by walls at Row 10.
-- **Hypothesis:**
-  - Combination [0, 1, 1] (Sw2 ON, Sw3 ON) will keep Gate 2 open AND toggle the wall at (11, 10).
+  - Position: (4, 2). Blocked by Grunt at (3, 2).
 - **Plan:**
-  1. Go to Switch 3 (2, 1). Turn ON. -> State [0, 1, 1].
-  2. Check Gate 2 and Wall at (11, 10).
+  1. Move to Switch 3 (2, 1) via Row 3 (bypass Grunt).
+  2. Turn Switch 3 ON -> State [0, 1, 1].
+  3. Check Gate 2 and Wall at (11, 10).
 - **Warp Connection:** (23,3) in Warehouse (3_54) leads to (22,27) in Underground Path (3_53).
 - **Current Location:** Small room in 3_53, blocked by Rocket Grunt at (22,24).
 - **RESET ALERT:** Switches reset upon re-entering. Current State: likely [0,0,0].
