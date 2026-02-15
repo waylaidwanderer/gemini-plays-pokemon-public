@@ -29,9 +29,12 @@
 - Toggled Switch 2 OFF. State: [0, 0, 0] (All OFF).
 - Toggled Switch 1 ON. State: [1, 0, 0].
 - Gate 2 (10,6) confirmed CLOSED with [1,0,0].
-- Stuck in Save Menu (Turn 44921).
-- Action: Backing out (B, B).
-- Switch 2 status: ON (Toggled in 44919).
-- Current State: [1, 1, 0] (Sw1=ON, Sw2=ON, Sw3=OFF).
-- Plan: Head to Gate 3 (16,6).
-- Prediction: Gate 3 OPEN.
+- Gate 3 (16,6) confirmed CLOSED with [1,1,0].
+- Contradiction: Previously thought [1,1,0] opened Gate 3.
+- Observation: Tile change in 44923 suggests Gate 3 was OPEN prior to Sw2 toggle.
+  - Prior State: [1, 0, 0] (Sw2=OFF).
+  - But 44878 said [1, 0, 0] Closed Gate 3.
+- Action: Moving West.
+- Checking Gate 2 (10,6) and Gate 1 (2,6).
+- Then to Switch 3 (2,1).
+- Goal: Find combo [1, 1, 1] or verify [1, 0, 0].
