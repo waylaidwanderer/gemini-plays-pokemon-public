@@ -58,14 +58,11 @@
   - Previously confirmed: Opens wall at (16, 10).
 - **Current Status:**
   - Switches: [1, 0, 0] (Sw1 ON, Sw2 OFF, Sw3 OFF).
-  - Gate 2 (10, 6) is CLOSED.
-  - Checking Gate 3 (16, 6).
-- **Hypothesis:** Switch 2 OFF might have closed Gate 3.
+  - Gate 2 (10, 6) CLOSED.
+  - Gate 3 (16, 6) CLOSED.
+- **Hypothesis:** Sw2 ON is likely required for Gate 3.
+- **Next Target:** [0, 1, 0] (Sw1 OFF, Sw2 ON, Sw3 OFF).
 - **Plan:**
-  1. Verify Gate 3 state.
-  2. If Closed:
-     - Switch 2 MUST be ON for Gate 3.
-     - Try [0, 1, 0] (Sw1 OFF, Sw2 ON, Sw3 OFF).
-     - Or [0, 0, 0] (All OFF).
-  3. If Open:
-     - Test Trap (16, 8).
+  1. Go to Sw1 (16, 1). Turn OFF (State -> [0, 0, 0]).
+  2. Go to Sw2 (10, 1). Turn ON (State -> [0, 1, 0]).
+  3. Check Gates 2 & 3.
