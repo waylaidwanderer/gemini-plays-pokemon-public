@@ -1,7 +1,7 @@
 # Underground Warehouse
 - **Goal:** Rescue Director.
 - **Puzzle Solved:** Switch Combination [1,0,0] (Sw1 ON, Sw2 OFF, Sw3 OFF).
-  - Opens Gate 3 (16,6) and Cross Gate (12,8).
+  - Opens Gate 3 (16,6) and Cross Gate (12,8). Gate 1 (2,6) CLOSED.
 - **Traps Identified:**
   - (16,8), (12,9), (10,9), (2,8), (3,8).
   - Safe Path: Row 8 seems safe in the central area.
