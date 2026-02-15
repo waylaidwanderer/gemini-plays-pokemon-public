@@ -57,14 +57,14 @@
   - Previously confirmed: Opens Gate 1 & Gate 3.
   - Previously confirmed: Opens wall at (16, 10).
 - **Current Status:**
-  - Switches: [1, 1, 0] (Sw1 ON, Sw2 ON, Sw3 OFF).
-  - Gate 3 Open.
-  - Trap (16, 8) ACTIVE (Confirmed Warp to 16, 5).
-  - [1, 1, 0] Fails for Right Path.
-- **New Hypothesis:** [1, 1, 1] (All ON).
-  - Notes say [1, 1, 1] opens Gate 3.
-  - Maybe it disables the trap?
+  - Switches: [1, 1, 1] (All ON).
+  - Checking Gate 3 (16, 6) and Trap (16, 8).
+- **Hypothesis:** This might disable the trap.
 - **Plan:**
-  1. Go to Switch 3 (2, 1). Turn ON.
-  2. Return to Gate 3 (16, 6).
-  3. Test Trap (16, 8).
+  1. Go to Gate 3.
+  2. If Open: Check Trap.
+  3. If Closed:
+     - Trap (16, 8) is unavoidable physically.
+     - Must be a specific switch combo to open Gate 3 AND disable trap.
+     - Or maybe the trap is fake/toggleable?
+     - Or maybe I need to trigger the trap to go somewhere else? (Unlikely, warps to start).
