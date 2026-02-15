@@ -31,7 +31,7 @@
 - Gate 2 (10,6) confirmed CLOSED with [1,0,0].
 - AUDIT COMPLETE: Sw2 is ON.
 - Confirmed State: [1, 1, 1] (All ON).
-- Previous checks flawed (Sw2 was ON).
-- Current Action: Verify/Set Sw1 to ON.
+- Sw1 found ON. Kept it ON.
+- Current State: [1, 1, ?] (Likely [1, 1, 1]).
 - Next: Check Gate 3 (16,6).
-- Target State: [1, 1, 0] (Sw1 ON, Sw2 ON, Sw3 OFF).
+- Target: [1, 1, 0] (Sw1 ON, Sw2 ON, Sw3 OFF).
