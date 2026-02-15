@@ -1,7 +1,7 @@
 # Underground Warehouse
 - **Goal:** Rescue Director (Likely in Bottom Right).
 - **Grunt Hint:** "The switch on the end is the one to press first." (Implies Sw1 or Sw3).
-- **Current State:** [0,0,0] (All OFF).
+- **Current State:** [1,0,0] (Sw1 ON).
 - **Discovery:** Transition from [1,0,0] to [0,0,0] caused (2,6) to close (3fe2->2889).
 - **Conclusion:** [1,0,0] (Sw1 ON) OPENS Gate (2,6) (Left Entry).
 - **Plan:**
