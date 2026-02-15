@@ -1,37 +1,10 @@
 # Underground Warehouse
-- **Goal:** Rescue Director (Likely in Bottom Right).
-- **Grunt Hint:** "The switch on the end is the one to press first." (Implies Sw1 or Sw3).
-- **Current State:** [1,1,1] (All ON).
-- **Discovery:** Gate (2,6) OPEN.
-- **Hazard:** Reaching (3,8) caused a reset to (3,5). Suspect Trap Warp at (2,8) or (3,8).
-- **Hazard:** Reaching (10,9) caused a reset to (10,5). Suspect Trap Warp at (10,9).
-- **Plan:**
-  1. Navigate around (10,9) via column 9.
-  2. Check Gate (10,10).
-  3. If closed or trapped, try Left Path [1,0,1] or reset to [0,1,0].
-- **Plan:**
-  1. Check Gates for [0,1,0].
-  2. If Gate 12-8 (Right Cross) or 10-6 (Mid Entry) opens, investigate.
-  3. If fail, reconsider [0,1,1] pathing (Left -> Mid) or [1,0,1].
-  - [001] (OFF,OFF,ON): 2-6(L) Open. 10-6(M) Closed. 16-6(R) Closed.
-  - [010] (OFF,ON,OFF): ?
-  - [011] (OFF,ON,ON): 2-6(L) | 6-8(L) | - (Stuck Left).
-  - [100] (ON,OFF,OFF): 16-6(R) Closed. Checking Mid/Left.
-  - [101] (ON,OFF,ON): All Entry Gates (2,6|10,6|16,6) Open. Navigating Mid.
-  - [110] (ON,ON,OFF): 10-6(M) | 6-8(L) | - (Stuck Mid/Left).
-  - [111] (ON,ON,ON): 2-6(L) Open. 10-6(M) Closed. 16-6(R) Open.
-- **Analysis:** [1,1,1] opens the Right Gate!
-- **Hazard:** Reaching (16,8) caused a reset.
-- **Hazard:** Reaching (17,8) or (17,9) caused a reset to (17,5). Suspect Trap Zone.
-- **Tile Types:** [3fe2] = OPEN Gate, [2889] = CLOSED Gate. (Verified by walking).
-- **Current State:** [0,1,1] (OFF, ON, ON).
-- **Observation:** With [0,1,1], Gate (16,10) was visually CLOSED.
-- **Plan:**
-  1. Go to Switch 3 (2,1).
-  2. Turn Sw3 OFF -> Result [0,1,0].
-  3. Check Gates for [0,1,0].
-- **Map Locations:**
-  - Sw3 (Left): (2,1)
-  - Sw2 (Mid): (10,1)
-  - Sw1 (Right): (16,1)
-  - Trap: (15,4)
+- **Goal:** Rescue Director.
+- **Current Config:** [0,1,1] (Sw1 OFF, Sw2 ON, Sw3 ON).
+- **Target Config:** [0,1,0] (Sw1 OFF, Sw2 ON, Sw3 OFF).
+- **Gate History:**
+  - [1,0,0]: Left Open, Trap (2,8).
+  - [0,0,1]: Left Open, Trap (2,8).
+  - [1,1,1]: Right Open, Trap (16,8).
+  - [0,1,1]: Mid Open, Cross Open, Exit (16,10) Closed.
+- **Hypothesis:** Testing [0,1,0]. Maybe Sw3 OFF opens the Exit Gate?
