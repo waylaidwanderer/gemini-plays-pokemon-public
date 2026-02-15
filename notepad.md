@@ -4,9 +4,8 @@
 - **Current Status:**
   - Switches: [1, 0, ?] (Sw1 ON, Sw2 OFF, Sw3 ?).
   - Gate 3: CLOSED.
-  - Action: Verifying Sw3.
-  - Hypothesis: Sw3 is OFF (State [1, 0, 0]), preventing Gate 3 from opening.
-  - Goal: Reach state [1, 0, 1] (Sw1 ON, Sw2 OFF, Sw3 ON).
+  - Action: Moving to Sw3 (2, 1) to turn ON.
+  - Target State: [1, 0, 1] (Sw1 ON, Sw2 OFF, Sw3 ON).
 - **Immediate Plan:**
   1. Move to Switch 1 (16, 1).
   2. Verify it is ON.
