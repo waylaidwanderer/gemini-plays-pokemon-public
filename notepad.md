@@ -58,12 +58,11 @@
   - Previously confirmed: Opens wall at (16, 10).
 - **Current Status:**
   - Switches: [1, 0, 1] (Sw1 ON, Sw2 OFF, Sw3 ON).
-  - Gate 3 (16, 6): CLOSED (Visual Confirm).
-  - Gate 2 (10, 6): CLOSED (Visual/Collision Confirm).
-  - Gate 1 (2, 6): Checking...
+  - Gate 3 (16, 6): CLOSED.
+  - Gate 2 (10, 6): CLOSED.
+  - Gate 1 (2, 6): CLOSED (Visual Confirm).
+  - **Result:** [1, 0, 1] closes all outer gates.
 - **Plan:**
-  1. Move to (2, 5) to check Gate 1.
-  2. If Gate 1 Open, explore.
-  3. If Gate 1 Closed, go to Switch 3 (2, 1).
-  4. Turn Sw3 OFF -> State [1, 0, 0].
-  5. Check Gates with [1, 0, 0].
+  1. Go to Switch 3 (2, 1). Turn OFF.
+  2. New State: [1, 0, 0].
+  3. Check Gates with [1, 0, 0].
