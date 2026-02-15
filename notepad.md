@@ -5,8 +5,7 @@
   - Switches: [1, 0, 1] (Sw1 ON, Sw2 OFF, Sw3 ON).
   - Gate 3: CLOSED (Confirmed).
   - Validated: Sw1 ON, Sw2 OFF, Sw3 ON.
-  - Action: Leaving Sw3 ON.
-  - New Plan: Try [1, 1, 1] (Turn Sw2 ON).
+  - New Plan: Try [1, 1, 1] (Turn Sw2 ON). If that fails, turn Sw1 OFF -> [0, 1, 1].
 - **Immediate Plan:**
   1. Move to Switch 1 (16, 1).
   2. Verify it is ON.
