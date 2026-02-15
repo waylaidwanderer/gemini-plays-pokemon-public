@@ -23,18 +23,13 @@
 - **Analysis:** [1,1,1] opens the Right Gate!
 - **Hazard:** Reaching (16,8) caused a reset.
 - **Hazard:** Reaching (17,8) or (17,9) caused a reset to (17,5). Suspect Trap Zone.
-- **CORRECTION:** Tool reversed types. [3fe2=OPEN], [2889=CLOSED].
+- **Tile Types:** [3fe2] = OPEN Gate, [2889] = CLOSED Gate. (Verified by walking).
 - **Current State:** [0,1,1] (OFF, ON, ON).
-- **Gate States:**
-  - Entry: Left(Closed), Mid(OPEN), Right(Closed).
-  - Inner: Left(Closed), Mid-Cross(OPEN), Right-Cross(OPEN).
-  - Exit: Left(Closed), Mid(Closed), Right(OPEN).
-- **Observation:** Gate (16, 10) is CLOSED with [0,1,1].
-- **Hypothesis:** Sw3 might be closing it.
+- **Observation:** With [0,1,1], Gate (16,10) was visually CLOSED.
 - **Plan:**
-  1. Backtrack to (10, 5).
-  2. Turn Sw3 OFF (Result: [0,1,0]).
-  3. Check Gates.
+  1. Go to Switch 3 (2,1).
+  2. Turn Sw3 OFF -> Result [0,1,0].
+  3. Check Gates for [0,1,0].
 - **Map Locations:**
   - Sw3 (Left): (2,1)
   - Sw2 (Mid): (10,1)
