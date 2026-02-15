@@ -68,3 +68,6 @@
   2. Check Gate 3 with [1, 0, 0].
   3. **Hypothesis:** Summary says [1, 0, 0] opens Gate 3.
   4. If Open, Enter and AVOID TRAP at (16, 8).
+- Visual Confirm: Gate 3 (16, 6) is CLOSED (Type 2889).
+- Visual Confirm: Gate 2 (10, 6) is CLOSED (Type 2889).
+- Checking Switch 1 Status...
