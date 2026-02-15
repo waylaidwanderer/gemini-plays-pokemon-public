@@ -55,14 +55,14 @@
   - (12, 8) OPEN (Unreachable).
 - **Tested Combinations (Sw1, Sw2, Sw3):**
   - [1, 1, 0]: Gate 1 OPEN, Gate 3 CLOSED.
-  - [0, 1, 0]: Gate 2 OPEN, Gate 3 CLOSED. (Confirmed).
+  - [0, 1, 0]: Gate 2 OPEN, Gate 3 CLOSED.
   - [1, 0, 0]: Gate 1 CLOSED.
-  - [0, 0, 0]: All Closed (Presumed).
+  - [0, 0, 0]: All Closed (Confirmed).
   - [1, 0, 1]: All Closed.
 - **Current Status:**
-  - Switches: [0, 1, 0] (Sw1 OFF, Sw2 ON, Sw3 OFF).
-  - Gate 3 (16, 6): CLOSED (Visual Confirm).
+  - Switches: [0, 0, 0] (Sw1 OFF, Sw2 OFF, Sw3 OFF).
+  - Gate 3 (16, 6): CLOSED.
 - **Plan:**
-  1. Go to Switch 2 (10, 1). Turn OFF -> State [0, 0, 0].
-  2. Go to Switch 3 (2, 1). Turn ON -> State [0, 0, 1].
-  3. Check Gate 3 with [0, 0, 1].
+  1. Go to Switch 3 (2, 1). Turn ON -> State [0, 0, 1].
+  2. Check Gate 3 with [0, 0, 1].
+  3. If Gate 3 opens, proceed to Director.
