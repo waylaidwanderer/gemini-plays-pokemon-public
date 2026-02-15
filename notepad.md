@@ -56,5 +56,10 @@
 - **Winning Path Candidate:** [1, 1, 0] (Sw1 ON, Sw2 ON, Sw3 OFF).
   - Previously confirmed: Opens Gate 1 & Gate 3.
   - Previously confirmed: Opens wall at (16, 10).
-- **Current Status:** Switch 3 OFF. State [1, 1, 0] Restored.
-- **Next Step:** Navigate to Gate 3 (16, 6) and explore South.
+- **Current Status:**
+  - Switches: [1, 0, 0] (Sw1 ON, Sw2 OFF, Sw3 OFF).
+  - Testing if this disables Trap (16, 8).
+- **Plan:**
+  1. Check Gate 2 (10, 6).
+  2. Check Gate 3 (16, 6).
+  3. If Gate 3 Open: Check Trap (16, 8).
