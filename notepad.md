@@ -1,10 +1,9 @@
 # Underground Warehouse Mechanics
 - **Goal:** Rescue Director / Get Card Key.
-- **Config [OFF, OFF, ON]:**
-  - **Status:** Sw1 OFF, Sw2 OFF, Sw3 ON.
-  - **Action:** Moved to Sw2.
-  - **Plan:** Turn Sw2 ON. Target: [OFF, ON, ON].
-  - **Hypothesis:** Sw2 might open the cross gate (6,8) or others.
+- **Config [OFF, ON, ON]:**
+  - **Status:** Sw1 OFF, Sw2 ON (Planning), Sw3 ON.
+  - **Plan:** Toggle Sw2 (ON).
+  - **Target:** Check if [OFF, ON, ON] opens any gates.
 - **Previous Tool Checks:**
   - [ON, OFF, ON]: (2,6) Open, (12,8) Open, (10,10) Open. (6,8) Closed.
   - [OFF, OFF, ON]: (2,6) Open, (12,8) Open, (10,10) Open. (6,8) Closed.
