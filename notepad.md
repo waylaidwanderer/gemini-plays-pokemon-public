@@ -17,9 +17,9 @@
   - Test 1: Reset -> Sw1 (Right End). State: [ON, OFF, OFF]. (Current Target)
   - Test 2: Reset -> Sw3 (Left End). State: [OFF, OFF, ON].
 - **Status:** Sw1 ON, Sw2 OFF, Sw3 OFF. ([ON, OFF, OFF])
+- **Result for [ON, OFF, OFF]:** All Entry Closed. Dead End.
 - **Plan:**
-  1. Verify [ON, OFF, OFF] gates.
-  2. Navigate to Sw1 (16,1).
-  3. Turn Sw1 OFF (Reset to [0,0,0]).
-  4. Verify [0,0,0] gates.
-  5. If [0,0,0] opens full path (2-6 -> 6-8 -> 12-8 -> 16-10), EXECUTE.
+  1. Navigate to Sw1 (16,1).
+  2. Turn Sw1 OFF (Reset to [0,0,0]).
+  3. Verify [0,0,0] gates.
+  4. If [0,0,0] fails, Try [OFF, OFF, ON] (Sw3 First).
