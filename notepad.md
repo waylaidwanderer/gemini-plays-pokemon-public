@@ -1,7 +1,7 @@
 # Underground Warehouse
 - **Goal:** Rescue Director (Likely in Bottom Right).
 - **Grunt Hint:** "The switch on the end is the one to press first." (Implies Sw1 or Sw3).
-- **Current State:** [1,0,1] (Sw1 ON, Sw3 ON).
+- **Current State:** [1,1,1] (All ON).
 - **Discovery:** Gate (2,6) OPEN.
 - **Hazard:** Reaching (3,8) caused a reset to (3,5). Suspect Trap Warp at (2,8) or (3,8).
 - **Hazard:** Reaching (10,9) caused a reset to (10,5). Suspect Trap Warp at (10,9).
