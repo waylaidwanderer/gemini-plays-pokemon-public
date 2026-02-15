@@ -11,6 +11,7 @@
   3. Check Exit Gate status with Tool.
   4. If Exit OPEN, check entry/cross gates for a safe route.
 - **Reflection (Turn 44555):**
-  - Progress: Systematically testing switch permutations. Corrected tool logic (3fe2=OPEN).
-  - Current State: Testing [1,1,1] (Sw1, Sw2, Sw3 all ON).
-  - Next: Check Exit (16,10). If CLOSED, reconsider "Order" hint.
+  - Progress: Gate 3 (16,6) visibly CLOSED with [1,1,1].
+  - Current State: Moving to Switch 1 (16,1).
+  - Plan: Turn Sw1 OFF -> [1,1,0].
+  - Goal: Open path to Exit (16,10).
