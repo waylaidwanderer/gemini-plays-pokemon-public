@@ -47,6 +47,7 @@
   - [0, 0, 1]: G1 Open, G2/G3 Closed.
   - [0, 1, 1]: G1 Open, G2/G3 Closed.
 - Current State: [0, 1, 1] (Sw1 OFF, Sw2 ON, Sw3 ON).
-- Action: Go to Switch 3 (2,1). Turn OFF.
-- Target State: [0, 1, 0].
+- Toggling Switch 3 OFF.
+- Target State: [0, 1, 0] (Sw1 OFF, Sw2 ON, Sw3 OFF).
 - Hypothesis: [0, 1, 0] might open Gate 2.
+- Check Gate 2 (10,6) after toggle.
