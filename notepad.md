@@ -22,7 +22,9 @@
   2. Go to Sw1 (16,1). Check if ON. Leave ON.
   3. Go to Sw3 (2,1). Turn OFF.
   4. Verify Gate 1 (2,6) opens.
-- Toggled Switch 3. Expecting State: [1,1,0].
-- Next: Check Gate 1 (2,6). It should be OPEN.
-- Gate 3 (16,6) should also be OPEN.
-- Plan: Go South through Gate 1, then East to Duncan.
+- Gate 1 (2,6) confirmed OPEN.
+- Tile Change Detected: (6,8) opened. (6,9) might be closed.
+- Path to Duncan:
+  1. South through Gate 1 to (2,9).
+  2. East on Row 9 past Silver (4,8).
+  3. Zig-zag: (5,9) -> (5,8) -> Cross (6,8) -> East.
