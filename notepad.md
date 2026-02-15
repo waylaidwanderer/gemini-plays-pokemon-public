@@ -16,12 +16,9 @@
   - Wall (12,9) OPEN.
   - Gate 3 (16,6) CLOSED.
   - Exit (16,10) CLOSED.
-- Current State: [1,1,?] (Sw1 ON, Sw2 ON, Sw3 Unknown).
-- Goal: Determine Sw3 state and toggle it.
-- Hypothesis:
-  - If Sw3 is ON -> Current is [1,1,1] (All Closed). Toggle to [1,1,0].
-  - If Sw3 is OFF -> Current is [1,1,0]. Toggle to [1,1,1].
-- Clue: "The switch on the end is the one to press first."
-  - Could mean Sw3 or Sw1. Sw1 didn't solve it. Trying Sw3.
+- Confirmed: Switch 3 was ON.
+- Current Action: Toggling Sw3 OFF -> Transitioning to [0,1,1] (Sw1 ON, Sw2 ON, Sw3 OFF).
+- Goal: Check if Gate 1 (2,6) or others open.
+- Hypothesis: "End switch" might be Sw3. Let's see if this opens the path.
 - Verified States:
   - [1,0,1] (Assumed Sw3 ON): Opens (12,8) and (12,9). Closed (16,6) and (16,10).
