@@ -2,10 +2,10 @@
 - **Goal:** Rescue Director.
 - **Puzzle Solved:** Switch Combination [0, 1, 0] (Sw2 ON only) -> Gate 2 OPEN.
 - **Current Status:**
-  - Switches: [0, 0, 1] (Sw1 OFF, Sw2 OFF, Sw3 ON).
-  - Action: Moving to Sw1 (16, 1) to turn ON.
-  - Target State: [1, 0, 1] (Sw1 ON, Sw2 OFF, Sw3 ON).
-  - Goal: Open Gate 3 (16, 6) & Disable Trap (16, 8).
+  - Switches: [1, 0, 1] (Sw1 ON, Sw2 OFF, Sw3 ON).
+  - Action: Turning Sw1 ON.
+  - Next: Check Gate 3 (16, 6) & Trap (16, 8).
+  - Goal: Explore area past Gate 3.
 - **Immediate Plan:**
   1. Move to Switch 1 (16, 1).
   2. Verify it is ON.
