@@ -59,11 +59,11 @@
 - **Current Status:**
   - Switches: [1, 0, 1] (Sw1 ON, Sw2 OFF, Sw3 ON).
   - Gate 3 (16, 6): CLOSED (Visual Confirm).
-  - Gate 2 (10, 6): Checking...
+  - Gate 2 (10, 6): CLOSED (Visual/Collision Confirm).
   - Gate 1 (2, 6): Checking...
 - **Plan:**
-  1. Move to (10, 5) to check Gate 2.
-  2. If Gate 2 Open, Enter.
-  3. If Gate 2 Closed, move to Gate 1 (2, 6).
-  4. If Gate 1 Open, explore.
-  5. If both Closed, plan next switch combo.
+  1. Move to (2, 5) to check Gate 1.
+  2. If Gate 1 Open, explore.
+  3. If Gate 1 Closed, go to Switch 3 (2, 1).
+  4. Turn Sw3 OFF -> State [1, 0, 0].
+  5. Check Gates with [1, 0, 0].
