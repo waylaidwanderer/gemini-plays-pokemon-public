@@ -2,7 +2,7 @@
 - **Goal:** Rescue Director / Get Card Key.
 - **Config [ON, ON, ON]:**
   - **Status:** Sw1 ON, Sw2 ON, Sw3 ON.
-  - **Result:** (2,6), (12,8), (10,10) Open. (6,8), (16,6), (10,6) CLOSED. Fail.
+  - **Result:** (2,6) Open, (10,10) Open. (12,8) CLOSED, (6,8) CLOSED, (16,6) CLOSED. Fail.
 - **Plan:** Test Sw3-OFF states.
   - Move to Sw3, turn OFF -> [ON, ON, OFF].
   - Then test [ON, OFF, OFF], [OFF, OFF, OFF], [OFF, ON, OFF].
