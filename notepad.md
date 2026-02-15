@@ -29,7 +29,7 @@
 - Toggled Switch 2 OFF. State: [0, 0, 0] (All OFF).
 - Toggled Switch 1 ON. State: [1, 0, 0].
 - Gate 2 (10,6) confirmed CLOSED with [1,0,0].
-- Current State: [1, 1, 1] (Sw1=ON, Sw2=ON, Sw3=ON).
-- Action: Moving to Sw3 (2,1) to turn OFF.
-- Target State: [1, 1, 0].
-- Goal: Open Gate 3 (16,6) and Wall (16,10).
+- Toggled Switch 3 OFF. State: [1, 1, 0].
+- Heading to Gate 3 (16,6).
+- Expectation: Gate 3 OPEN, Wall (16,10) OPEN.
+- Goal: Rescue Director.
