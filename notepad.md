@@ -1,5 +1,6 @@
 # Underground Warehouse Mechanics
-- **Switch 3 (Left):** ON = Gate (2,6) OPEN. OFF = Gate (2,6) CLOSED.
-- **Current Status:** Sw1: ON, Sw2: OFF, Sw3: ON (Turning ON now).
-- **Target:** Establish [ON, OFF, ON].
-- **Plan:** Verify Gate (2,6) opens, then move South.
+- **Switch 3 (Left):** Currently OFF (Toggle Failed).
+- **Error:** Pressed B at "Turn ON?" prompt, cancelling it.
+- **Action:** Return to Switch 3. Select YES (A).
+- **Plan:** Verify Gate (2,6) opens. Move South.
+- **Current Status:** Sw1: ON, Sw2: OFF, Sw3: OFF.
