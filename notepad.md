@@ -58,12 +58,13 @@
   - [0, 0, 1]: Gate 1 OPEN, Gate 3 OPEN, Gate 2 CLOSED.
   - [1, 0, 1]: All Outer Gates CLOSED.
   - [1, 0, 0]: Gate 1 CLOSED.
+  - [0, 0, 0]: Gate 3 CLOSED. (Presume all closed).
   - [0, 1, 1]: All Outer Gates CLOSED.
   - [1, 1, 1]: All Outer Gates CLOSED.
 - **Current Status:**
   - Switches: [0, 0, 0] (Sw1 OFF, Sw2 OFF, Sw3 OFF).
-  - Gates: Checking...
+  - Gate 3 (16, 6): CLOSED.
 - **Plan:**
-  1. Check Gate 3 (16, 6).
-  2. If Closed, Go to Switch 2 (10, 1). Turn ON -> State [0, 1, 0].
-  3. Check Gate 2 (10, 6).
+  1. Go to Switch 2 (10, 1). Turn ON -> State [0, 1, 0].
+  2. Check Gate 2 (10, 6).
+  3. If [0, 1, 0] fails, re-evaluate. Maybe [0, 1, 0] opens something else?
