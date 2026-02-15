@@ -56,15 +56,15 @@
 - **Tested Combinations (Sw1, Sw2, Sw3):**
   - [1, 1, 0]: Gate 1 OPEN, Gate 3 CLOSED.
   - [0, 1, 0]: Gate 2 OPEN, Gate 3 CLOSED.
-  - [1, 0, 0]: Gate 1 CLOSED.
+  - [1, 0, 0]: Gate 1 CLOSED. (Gate 3 NOT CHECKED).
   - [0, 0, 0]: All Closed (Confirmed).
   - [1, 0, 1]: All Closed.
   - [0, 0, 1]: Gate 3 CLOSED (Confirmed).
   - [0, 1, 1]: Checking...
 - **Current Status:**
-  - Switches: [0, 0, 1] (Sw1 OFF, Sw2 OFF, Sw3 ON).
-  - Gate 3 (16, 6): CLOSED.
+  - Switches: [0, 1, 1] (Sw1 OFF, Sw2 ON, Sw3 ON).
+  - Gate 3 (16, 6): Checking...
 - **Plan:**
-  1. Go to Switch 2 (10, 1). Turn ON -> State [0, 1, 1].
-  2. Check Gate 3 with [0, 1, 1].
-  3. If Gate 3 still closed, try [1, 1, 1] (Turn Sw1 ON).
+  1. Check Gate 3 with [0, 1, 1].
+  2. If Closed, try [1, 0, 0] (Sw1 ON, Sw2 OFF, Sw3 OFF).
+     - Reason: Old log (Turn 44653) suggests [1, 0, 0] opens Gate 3. I only checked Gate 1 last time I was at [1, 0, 0].
