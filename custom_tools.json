@@ -596,15 +596,14 @@
       "properties": {
         "autopress_buttons": {
           "type": "boolean",
-          "default": false,
-          "description": "If true and the tool returns a list of buttons, they will be pressed automatically. Limit: 100 buttons max per call."
+          "default": false
         }
       },
       "required": [
         "autopress_buttons"
       ]
     },
-    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\ndef check_gate_states(map_xml_string):\n    try:\n        root = ET.fromstring(map_xml_string)\n    except ET.ParseError:\n        print(json.dumps({\"error\": \"Invalid XML\"}))\n        return\n\n    # Gate coordinates to check\n    # Entry Gates: (2,6), (10,6), (16,6)\n    # Inner/Cross Gates: (2,10), (6,8), (10,10), (12,8), (16,10)\n    gates = {\n        \"Entry_Left\": (2, 6),\n        \"Entry_Mid\": (10, 6),\n        \"Entry_Right\": (16, 6),\n        \"Inner_Left_Col2\": (2, 10),\n        \"Inner_Mid_Row8\": (6, 8),\n        \"Inner_Mid_Col10\": (10, 10),\n        \"Inner_Right_Row8\": (12, 8),\n        \"Inner_Right_Col16\": (16, 10)\n    }\n    \n    results = {}\n    \n    for name, (x, y) in gates.items():\n        # Find the row\n        row = root.find(f\".//Row[@id='{y}']\")\n        if row is not None:\n            # Find the tile\n            tile = row.find(f\".//Tile[@id='{x}']\")\n            if tile is not None:\n                tile_type = tile.get('type')\n                # Determine state based on type\n                # TYPE_3fe2 is typically walkable floor (Open Gate)\n                # TYPE_2889 is typically wall/block (Closed Gate)\n                \n                status = \"Unknown\"\n                if tile_type == \"TYPE_3fe2\":\n                    status = \"OPEN\"\n                elif tile_type == \"TYPE_2889\":\n                    status = \"CLOSED\"\n                else:\n                    status = f\"UNKNOWN({tile_type})\"\n                \n                results[name] = {\"coords\": (x, y), \"status\": status, \"type\": tile_type}\n            else:\n                results[name] = {\"coords\": (x, y), \"status\": \"Error: Tile Not Found\"}\n        else:\n            results[name] = {\"coords\": (x, y), \"status\": \"Error: Row Not Found\"}\n            \n    print(json.dumps(results))\n\n# Execute the function\ncheck_gate_states(map_xml_string)",
+    "python_script": "def get_gate_states(map_xml_string):\n    import xml.etree.ElementTree as ET\n    \n    try:\n        root = ET.fromstring(map_xml_string)\n        \n        # Coordinates of interest\n        gates = {\n            \"Gate 1\": (2, 6),\n            \"Gate 2\": (10, 6),\n            \"Gate 3\": (16, 6),\n            \"Wall (16,10)\": (16, 10),\n            \"Gate (2,10)\": (2, 10)\n        }\n        \n        results = {}\n        \n        for name, (x, y) in gates.items():\n            # Find the tile\n            tile_found = False\n            for row in root.findall(\"Row\"):\n                if int(row.get(\"id\")) == y:\n                    for tile in row.findall(\"Tile\"):\n                        if int(tile.get(\"id\")) == x:\n                            tile_type = tile.get(\"type\")\n                            \n                            state = \"Unknown\"\n                            if tile_type == \"TYPE_3fe2\":\n                                state = \"OPEN\"\n                            elif tile_type == \"TYPE_2889\":\n                                state = \"CLOSED\"\n                            else:\n                                state = f\"Unknown Type ({tile_type})\"\n                                \n                            results[name] = {\"state\": state, \"type\": tile_type}\n                            tile_found = True\n                            break\n                if tile_found:\n                    break\n            \n            if not tile_found:\n                results[name] = {\"state\": \"Not Found\", \"type\": \"N/A\"}\n                \n        print(f\"GATE STATES: {results}\")\n        return results\n\n    except Exception as e:\n        print(f\"Error parsing map XML: {e}\")\n        return {}\n\nget_gate_states(map_xml_string)",
     "history": [
       {
         "commit_message": "Initial version",
@@ -645,6 +644,11 @@
         "commit_message": "Fixed logic: TYPE_3fe2 is OPEN, TYPE_2889 is CLOSED.",
         "timestamp": "2026-02-15T11:56:04.236Z",
         "action_counter": 44551
+      },
+      {
+        "commit_message": "Initial definition of the check_gate_states tool.",
+        "timestamp": "2026-02-15T17:02:01.525Z",
+        "action_counter": 45025
       }
     ]
   }
