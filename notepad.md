@@ -42,3 +42,5 @@
 - Observation: Gate 2 (10, 6) is OPEN. Wall at (12, 8) disappeared (Opened path East).
 - Action: Moving East to explore area below Gate 3.
 - Warning: Avoiding Trap at (16, 8).
+- Visual Confirm: Trap at (16, 8) is DISABLED (Safe).
+- Action: Checking walls at (16, 10) and (17, 10).
