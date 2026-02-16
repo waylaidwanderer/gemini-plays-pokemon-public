@@ -11,11 +11,11 @@
 - **Trap (16, 8):** **DISABLED** with **Switch 1 ON**.
 - **Gate 3 (16, 6):** **OPEN** with **Switch 1 ON**.
 - **Burglar Duncan (9, 12):** **DEFEATED**.
-- **Plan:** Bypass Duncan via Row 13 and explore the left side of the room.
+- **Plan:** Open Menu, clear bag space (Give/Toss), then pick up item at (1, 12).
 
 **Current Status:**
 - Switches: Switch 1 ON, others OFF.
-- Position: (10, 12). Moving around Duncan.
+- Position: Moving to (2, 12).
 
 **Key Locations:**
 - Switch 1: (16, 1) [Right]
