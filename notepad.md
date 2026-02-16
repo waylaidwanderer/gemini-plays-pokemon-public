@@ -21,8 +21,6 @@
 - Switch 1: (16, 1) [Right]
 - Switch 2: (10, 1) [Middle]
 - Switch 3: (2, 1) [Left]
-- Visual Confirm: Hit Trap at (15, 4) previously.
-- Current Position: (10, 5).
-- Action: Go Right on Row 5 (avoiding 15,4) to Switch 1 (16, 1).
-- Goal: Turn Switch 1 OFF.
-- Target State: 0-1-1 (Switch 1 OFF, Switch 2 ON, Switch 3 ON).
+- Visual Confirm: Turned Switch 1 OFF.
+- Current Status: Switch 1 OFF. Switch 2 ON. Switch 3 ON. (State: 0-1-1).
+- Action: Checking Gate 3 (16, 6).
