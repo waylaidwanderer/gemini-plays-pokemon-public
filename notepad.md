@@ -21,6 +21,7 @@
 - Gate 2: (10, 6)
 - Gate 3: (16, 6)
 - Visual Confirm: Gate 1 (2, 6) is CLOSED.
-- Correction: Interacted with Grunt instead of Switch.
-- Action: Turning Switch 1 ON now.
+- Visual Confirm: Switch 1 turned ON.
+- Current Status: Switch 1 ON. Switch 2 & 3 OFF.
 - Sequence: Switch 1 ON -> Switch 2 ON.
+- Action: Heading to Switch 2 (10, 1) via Row 4 (to avoid invisible wall).
