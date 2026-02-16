@@ -8,32 +8,18 @@
 - **Gate 3 (16, 6):** Confirmed CLOSED with Seq 1->2 (State 1-1-0).
 - **Gate 3 (16, 6):** Confirmed CLOSED with Seq 1->2->3 (State 1-1-1).
 - **Inner Wall (11, 10):** Confirmed CLOSED with Seq 1->2->3.
-- Current Status: Switch 1 ON, Switch 2 OFF, Switch 3 ON (State 1-0-1).
-- Sequence So Far: 3 (First) -> 1 (Second).
-- Action: Moving to Switch 2 (10, 1) via safe path.
-- Path: Down to (16, 5) -> Left to (8, 5) -> Up to (8, 2) -> Right to (10, 1).
-- Plan: Turn Switch 2 ON.
-- Theory: Sequence 3 -> 1 -> 2 opens Gate 3.
-- **Inner Wall (10, 10) or (11, 10):** Currently the main obstacle behind Gate 2.
-
-**Current Hypothesis:**
-- Different combinations of switches open different gates/walls.
-- State 1-0-1 opened Gate 2. Checking if it opens the Inner Wall.
-
-**Next Steps:**
-1. Check Inner Wall at (10, 10)/(11, 10).
-2. If blocked, try **State 1-1-1** (Turn Switch 2 ON).
-3. If blocked, try **State 0-1-1** (Turn Switch 1 OFF).
+- Current Status: Unknown/Mixed. Markers contradictory.
+- Action: Resetting all switches to OFF.
+- Plan:
+    1. Turn Switch 2 OFF (if ON).
+    2. Turn Switch 1 OFF (if ON).
+    3. Turn Switch 3 OFF (if ON).
+    4. Execute Sequence: Switch 3 (ON) -> Switch 1 (ON) -> Switch 2 (ON).
+    5. Check results (Gate 3, Inner Walls).
 
 **Key Locations:**
 - Switch 1: (16, 1) [Right]
 - Switch 2: (10, 1) [Middle]
 - Switch 3: (2, 1) [Left]
-- Current Status: Switch 1 ON, Switch 2 ON, Switch 3 OFF (State: 1-1-0).
-- Confirmed: State 1-1-0 (Seq 1->2) opens Gate 2 but NOT the Inner Wall at (10, 10).
-- Gate 3 remains CLOSED.
-- Conclusion: Sequence 1->2 is not the full solution.
-- Action: Heading to Switch 3 (2, 1).
-- Plan: Turn Switch 3 ON.
-- New State: 1-1-1 (Sequence 1->2->3).
-- Goal: Check if adding Switch 3 opens the wall or Gate 1.
+- Gate 2: (10, 6)
+- Gate 3: (16, 6)
