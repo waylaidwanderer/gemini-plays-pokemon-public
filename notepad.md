@@ -4,11 +4,10 @@
   - **Order Matters:** `1 -> 2` vs `2 -> 1` produces different results.
   - **Gate 2 (10, 6):** OPENS with `2 -> 1`. CLOSED with `1 -> 2`.
   - **Gate 3 (16, 6):** CLOSED with `2 -> 1`. OPENS with `1 -> 2`.
-  - **Gate 1 (2, 6):** CLOSED with `1 -> 3` and `3 -> 1`.
-- **Current State:** `[0, 1, 0]` (Sw1 OFF, Sw2 ON, Sw3 OFF).
-- **Hypothesis:** Gate 1 opens with `2 -> 3` (Sequence `Switch 2 then Switch 3`).
+  - **Gate 1 (2, 6):** CLOSED with `1 -> 3`, `3 -> 1`, `3 -> 2`, `2 -> 3`.
+- **Current State:** `[0, 1, 1]` (Sw1 OFF, Sw2 ON, Sw3 ON). Sequence `2 -> 3`.
+- **Hypothesis:** Gate 1 requires all three switches or a specific "End" start.
 - **Plan:**
-  1. Turn Sw2 OFF (Reset to `[0, 0, 0]`).
-  2. Turn Sw2 ON (Start Sequence).
-  3. Turn Sw3 ON (Finish Sequence).
-  4. Check Gate 1.
+  1. Go to Sw1. Turn ON (creates `2 -> 3 -> 1`).
+  2. Check Gate 1.
+  3. If fail: Reset all to OFF. Try `3 -> 2 -> 1`.
