@@ -3,11 +3,11 @@
 **Goal:** Open Gate 3 (16, 6) to find the Director.
 
 **Confirmed Mechanics:**
-- **Gate 1 (2, 6):** **CLOSED** with **Switch 2 ON**. (My previous visual confirmation was a hallucination).
-- **Gate 2 (10, 6):** Opens with **Switch 3 ON + Switch 1 ON** (State 1-0-1). Also opened with Seq 3->2->1 (State 1-1-1).
+- **Gate 1 (2, 6):** **CLOSED** with **Switch 2 ON**.
+- **Gate 2 (10, 6):** Opens with **Switch 3 ON + Switch 1 ON** (State 1-0-1).
 - **Gate 3 (16, 6):** **OPEN** with **Switch 1 ON** (State 1-0-0).
-- **Switch 2 Effects:** Creates walls at (10,7), (11,7), (6,8), (6,9). Seemingly blocks paths.
-- **Current Test:** Going to try **Switch 3 ON** (State 1-1-0 or 1-0-0).
+- **Traps (Row 4):** Seem disabled by **Switch 2 ON** (allowed crossing).
+- **Current Test:** Turn **Switch 2 OFF**. Test **Switch 3 ON** alone on Gate 1.
 
 **Current Status:**
 - Switches: 1 OFF, 2 ON, 3 OFF.
