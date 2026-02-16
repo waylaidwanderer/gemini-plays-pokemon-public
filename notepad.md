@@ -23,7 +23,5 @@
 - Switch 3: (2, 1) [Left]
 - Visual Confirm: Inner Wall (10, 10)/(11, 10) is CLOSED with State 1-0-1.
 - Conclusion: State 1-0-1 opens Gate 2 but not the wall.
-- Plan: Transition to State 0-1-1 (Switch 2 ON, Switch 3 ON, Switch 1 OFF).
-- Step 1: Turn Switch 2 ON (State 1-1-1).
-- Step 2: Turn Switch 1 OFF (State 0-1-1).
-- Step 3: Check Gate 3 and Gate 2.
+- Current Status: Switch 1 ON, Switch 2 ON, Switch 3 ON (State 1-1-1).
+- Action: Moving to Switch 1 to turn OFF (Target State 0-1-1).
