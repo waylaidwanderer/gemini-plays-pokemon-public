@@ -1,24 +1,13 @@
-# Underground Warehouse Switch Puzzle (SOLVED)
-
-**Solution:** Gate 3 (16, 6) opens with **Switch 1 ON** and **Switch 2 ON** (State 1-1-0). Switch 3 OFF.
-
-**Mechanics Summary:**
-- **Switch 2 (ON):** Opens Entrance (11, 6).
-- **Switch 1 (ON):** Opens Exit (11, 10).
-- **Switch 3 (ON):** Closes Entrance (11, 6) & Opens Gate 1.
-- **Gate 3:** Closed if Switch 3 is ON. Open if Sw1 & Sw2 ON.
-
-**Current Location:** Warehouse (3_54).
-**Objective:** Open Gate 3.
-
 Location: Warehouse (3_54).
-Objective: Interact with Rival Silver.
+Objective: Rescue the Director.
 Status:
-- Passed Gate 1 (Switch State: All OFF).
-- Talking to Rival Silver at (4, 8).
-- Dialogue: "UNDERGROUND WARE- HOUSE?"
-Plan:
-1. Advance dialogue.
-2. Defeat Silver (if battle starts).
-3. Interact with the Director (if Silver moves).
-Silver asks: "What do you want to go there for?" - Implies destination is significant or empty.
+- Puzzle Solved: Switch State 0-0-0 (All OFF) opened Gate 1.
+- Current Interaction: Rival Silver at (4, 8).
+- Dialogue: Silver claims "There's nothing down there."
+- Potential Hidden Item: Check the area Silver came from after he leaves.
+Important Locations:
+- Director's Room (3_53): Accessible via warp at (23, 3) (Currently blocked/empty?).
+- Switch 1 (16, 1): OFF
+- Switch 2 (10, 1): OFF
+- Switch 3 (2, 1): OFF
+- Gate 1 (2, 6): OPEN
