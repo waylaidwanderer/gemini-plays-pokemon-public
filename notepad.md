@@ -12,7 +12,7 @@
 **Current Status (Based on Markers):**
 - Switch 1 (Right): **ON** (Verified - Step 1 of Sequence)
 - Switch 2 (Middle): **OFF** (Verified)
-- Switch 3 (Left): **OFF** (Verified)
+- Switch 3 (Left): **ON** (Verified - Step 2 of Sequence)
 - Global State: 0-0-0 (Reset Complete).
 
 **Plan: Sequence 1 -> 3 -> 2**
