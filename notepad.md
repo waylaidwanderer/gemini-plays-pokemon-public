@@ -132,3 +132,4 @@ Turn 45799: Turned Switch 2 OFF. State: [0, 0, 1]. Moving to Switch 3 to turn OF
 Turn 45800: Confirmed Switch 2 OFF. Moving to Switch 3.
 Turn 45802: Continuing to Switch 3.
 Turn 45803: Arriving at Switch 3 (2, 2).
+Turn 45805: Confirmed Switch 3 OFF. Reset Complete [0, 0, 0]. Moving to Switch 1 to start Sequence 1->2->3.
