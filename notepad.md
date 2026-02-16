@@ -14,11 +14,10 @@
 Location: Warehouse (3_54).
 Objective: Open Gate 1 (2, 6).
 Status:
-- State 1-0-1 (Sw1 ON, Sw2 OFF, Sw3 ON).
-- Trap (10, 4) CONFIRMED SAFE in this state.
-- Proceeding to Switch 1 (16, 1) to Turn OFF.
-Hypothesis: Switch 1 OFF + Switch 2 OFF + Switch 3 ON = Gate 1 OPEN.
+- Current State: 0-0-1 (Sw1 OFF, Sw2 OFF, Sw3 ON).
+- Checking Gate 1.
 Plan:
-1. Navigate to Switch 1 (16, 2).
-2. Turn Switch 1 OFF.
-3. Return to Gate 1 (2, 6) via Row 2 (Safe).
+1. Navigate to Gate 1 (2, 6).
+2. Check if Gate 1 is OPEN.
+3. If Open, explore.
+4. If Closed, this is getting ridiculous. Maybe Sw3 needs to be OFF too? (0-0-0).
