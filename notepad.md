@@ -10,8 +10,10 @@
 - **Plan:** Turn **Switch 3 OFF**. Go to Gate 2/Column 11.
 
 **Current Status:**
-- Switches: 1 OFF, 2 ON, 3 ON. (State 0-1-1).
-- Position: At (6, 5). Moving to Switch 3 (2, 1) to turn OFF.
+- Switches: 1 OFF, 2 ON, 3 OFF. (State 0-1-0).
+- Position: At Switch 3 (2, 1). Turned OFF.
+- Next Action: Check Gate 2 (10, 6) and adjacent tiles (11, 6).
+- **Hypothesis:** State 0-1-0 opens the path at (11, 6).
 
 **Key Locations:**
 - Switch 1: (16, 1) [Right] - ON
