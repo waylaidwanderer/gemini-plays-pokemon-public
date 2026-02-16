@@ -48,8 +48,7 @@
 - Plan: Return to switches via (12, 8). Turn All OFF. Try Sequence 1->2->3.
 - Visual Confirm: Gate 2 (10, 6) CLOSED when Switch 2 turned OFF.
 - Visual Confirm: Switch 1 is already ON. Kept it ON.
-- Current Status: Switch 1 ON. Switch 2 & 3 OFF.
-- Plan: Execute Sequence 1 -> 2 -> 3.
-- Action: Heading to Switch 2 (10, 1).
+- Current Status: Switch 1 ON. Turning Switch 2 ON.
+- Next: Turn Switch 3 ON. Then Check Gates.
 - Navigation Note: Direct path between Switch 1 and 2 on Row 2 is BLOCKED at (13, 2). Must use Row 4.
 - Action: Routing via Row 4 to reach Switch 2.
