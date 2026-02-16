@@ -2,12 +2,11 @@
 - **Goal:** Rescue Director.
 - **Puzzle Solved:** Switch Combination [0, 1, 0] (Sw2 ON only) -> Gate 2 OPEN.
 - **Current Status:**
-  - Switches: [1, 0, 1] (Sw1 ON, Sw2 OFF, Sw3 ON).
-  - Confirmed: [0, 0, 1] opened Gate 1 & 3.
-  - Action: Updated Marker Sw1 to ON.
-  - Next: Move to Switch 3 (2, 1).
-  - Goal: Turn Sw3 OFF -> State [1, 0, 0].
-  - Hypothesis: Test if [1, 0, 0] opens Wall (11, 10).
+  - Switches: [1, 0, 0] (Sw1 ON, Sw2 OFF, Sw3 OFF).
+  - Action: Turned Sw3 OFF.
+  - Next: Verify Gate 2 and Wall (11, 10).
+  - Method: Use `check_gate_states`.
+  - Goal: Open Wall (11, 10).
 - **Hazards:**
   - Trap suspected on Row 3 (between x=3 and x=8). Warps to (8, 2).
   - Row 4 confirmed safe in past turns.
