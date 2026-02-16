@@ -3,14 +3,16 @@ Objective: Confront Rival Silver.
 Status:
 - Switch 3 ON (Verified).
 - Switch 2 ON (Verified).
-- Switch 1 OFF (Pending Verify).
+- Switch 1 OFF (Verified).
 - State: 1-1-0.
-- Plan: Check Gate 2, Gate 3, and Secret Wall (11, 10).
+- Gate 3 CLOSED (Visual verify).
+- Plan: Check Gate 2 at (10, 6).
 - Logic:
   - 1-0-1: Gate 3 Open, Traps Active.
-  - 1-1-1: Gates Closed, Traps Safe.
+  - 0-1-1: Gate 3 Open, Traps Safe (Sw2 ON).
+  - 1-1-1: Gates Closed.
   - 1-1-0: Testing now.
 Plan:
-1. Turn Sw1 OFF.
-2. Check Gate 3 (16, 6) first (closest).
-3. If closed, go left to check Gate 2 and Secret Wall.
+1. Check Gate 2 (10, 6).
+2. If closed, check Secret Wall at (11, 6).
+3. If all closed, try next combo: 0-1-0 (Sw3 OFF, Sw2 ON, Sw1 OFF).
