@@ -16,9 +16,9 @@
 - **Log Evidence:** Turn 46715 & 46724 logs show (11, 6) toggling with Switch 3.
 
 **Key Locations:**
-- Switch 1: (16, 1) [Right] - ON
-- Switch 2: (10, 1) [Middle] - OFF
-- Switch 3: (2, 1) [Left] - ON
+- Switch 1: (16, 1) [Right] - OFF
+- Switch 2: (10, 1) [Middle] - ON
+- Switch 3: (2, 1) [Left] - OFF
 - Gate 2: (10, 6)
 - Gate 3: (16, 6)
 - **Gate 3 (16, 6):** Confirmed CLOSED with Seq 3->1->2 (State 1-1-1).
