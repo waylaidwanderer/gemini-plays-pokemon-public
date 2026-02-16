@@ -7,8 +7,8 @@
 - **Current Test:** `[0, 1, 1]` (Sw1=ON, Sw2=ON, Sw3=OFF).
 - **Status:**
   - Sw3: OFF.
-  - Sw2: ON.
+  - Sw2: ON -> Toggle OFF/ON (Sequence `1 -> 2`).
   - Sw1: ON.
-- **Result:** Gate 3 (16, 6) OPENED.
-- **Conclusion:** The clues are swapped. Left Room "110" opens Right Room. The bit order is Sw1-Sw2-Sw3.
-Turn 45962: Entering Right Room. Fingers crossed the trap at (16, 8) is disabled.
+- **Correction:** Gate 3 appeared closed in Turn 45962 screenshot. Verifying and retrying sequence.
+- **Plan:** Toggle Switch 2 to simulate `Sw1 -> Sw2` sequence.
+Turn 45963: Verifying Gate 3 closed, then moving to Switch 2.
