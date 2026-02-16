@@ -13,6 +13,5 @@
 
 Location: Director's Room (3_53).
 Objective: Rescue Director.
-Status: Room appears empty. No Director, Silver, or Grunt visible on screen.
-Hypothesis: Event glitch or missed trigger.
-Plan: Exit and Re-enter the room to reset/trigger the event.
+Status: Re-entered room. Silver is gone. Rocket Grunt is at (22, 24).
+Plan: Talk to the Grunt. If blocked, try to go around him (Left or Right). The previous "invisible wall" might be gone now that Silver left.
