@@ -10,7 +10,8 @@
 - **Inner Wall (11, 10):** Confirmed CLOSED with Seq 1->2->3.
 - Current Status: Switch 3 ON, Others OFF (State 0-0-1).
 - Sequence: 3 (Done) -> 2 (Next).
-- Action: Moving to Switch 2 (10, 1) via safe path (Row 5 -> Col 8 -> Row 2).
+- Action: Moving to Switch 2 (10, 1) via safe path (Col 8).
+- Path: (7, 5) -> Right to (8, 5) -> Up to (8, 2) -> Right to (10, 1).
 - Plan: Turn Switch 2 ON. Then Switch 1.
 - **Inner Wall (10, 10) or (11, 10):** Currently the main obstacle behind Gate 2.
 
