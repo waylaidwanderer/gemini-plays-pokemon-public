@@ -13,11 +13,10 @@
     - **Switch 3 (ON):** Closes Entrance (11, 6) (and opens Gate 1).
 - **Observation:** `(11, 10)` is a Wall with State 1-1-0.
 - **Hypothesis:** "The switch on the end is the one to press first" implies a **SEQUENCE**, not just a state.
-- **Plan (Testing State 1-0-0):**
-    1. Turn **Sw2 ON** (to safely cross traps).
-    2. Go to **Sw1**. Turn **ON**.
-    3. Return to **Sw2**. Turn **OFF**.
-    4. Check **Gate 3**.
+- **Plan:**
+    1. **Gate 3 is OPEN** (State 1-1-0: Sw1 ON, Sw2 ON, Sw3 OFF).
+    2. Go South through Gate 3 (16, 6).
+    3. Explore area South for the Director.
 
 # Underground Warehouse Truth Table
 
