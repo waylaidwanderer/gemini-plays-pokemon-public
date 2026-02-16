@@ -15,18 +15,10 @@ Location: Warehouse (3_54).
 Objective: Open Gate 1 (2, 6).
 Status:
 - State 0-0-0 (All OFF).
-- Turning Switch 2 OFF now.
-- Testing Gate 1 next.
-Truth Table (Gate 1):
-- 1-1-1: CLOSED
-- 1-0-1: CLOSED
-- 0-1-1: CLOSED
-- 0-1-0: CLOSED
-- 0-0-1: CLOSED
-- 1-1-0: OPENED Gate 3. Gate 1 Likely Closed (Not checked).
-- 0-0-0: Testing...
-- 1-0-0: Untested.
+- Switch 2 turned OFF.
+- Currently at (8, 4).
+- Silver is visible at (11, 2).
 Plan:
-1. Confirm Switch 2 OFF.
-2. Navigate to Gate 1 (2, 6).
-3. Check status.
+1. Navigate to Gate 1 (2, 6).
+2. Check if Gate 1 is OPEN.
+3. If Closed, try State 1-0-0 (Sw1 ON, Sw2 OFF, Sw3 OFF).
