@@ -114,3 +114,4 @@
 Turn 45737: Toggled Switch 2 (ON). Heading to Switch 1 to turn OFF. Target State: [0, 1, 0].
 Gate 2 (10,6) confirmed CLOSED with [1, 1, 0].
 Moving to Switch 1 to turn it OFF.
+Turn 45741: Turned Switch 1 OFF. Current State: [0, 1, 0] (Sw1 OFF, Sw2 ON, Sw3 OFF). Checking Gate 2.
