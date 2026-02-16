@@ -17,11 +17,28 @@
     2. Reset all switches to **OFF**.
     3. Try Sequence: **Switch 3 -> Switch 2 -> Switch 1** (Left to Right).
     4. Try Sequence: **Switch 1 -> Switch 2 -> Switch 3** (Right to Left).
-- **Status:** Performing Step 2: **Switch 2** (Toggle OFF -> ON).
-- **Current Action:** Turning Switch 2 **OFF**.
-- **Next Action:** Turn Switch 2 **ON** (to complete Step 2).
-- **Sequence Logic:** 3 (ON) -> 2 (ON) -> 1 (ON).
-- **Safety:** Standing at (10, 2). Safe from traps at (10, 4) and (10, 9).
+
+# Underground Warehouse Truth Table
+
+**Goal:** Find the state that opens **Exit Wall (11, 10)**.
+
+**State Analysis:**
+- **0-0-1 (Sw3):** Gate 1 OPEN. Walls CLOSED.
+- **1-0-0 (Sw1):** Gate 3 OPEN. Walls CLOSED.
+- **0-1-0 (Sw2):** Gate 3 OPEN (Tool). **Entrance (11, 6) OPEN**. Exit (11, 10) CLOSED.
+- **1-1-0 (Sw1+2):** Gate 3 OPEN. **Entrance (11, 6) OPEN**. Exit (11, 10) CLOSED.
+- **0-1-1 (Sw2+3):** Entrance (11, 6) CLOSED. Gate 2 CLOSED.
+- **1-0-1 (Sw1+3):** Gate 2 CLOSED. Gate 3 CLOSED.
+- **1-1-1 (All ON):** **UNTESTED on Walls**.
+
+**Hypothesis:**
+- State **1-1-1** might be the key.
+- Or "End Switch First" implies a specific order for 1-1-1 (e.g. 3->2->1).
+
+**Plan:**
+1. Go to **Switch 1**. Turn **ON**. (Result: State 1-1-1).
+2. Check **(11, 10)** and **(11, 6)**.
+3. If fail, reconsider "Sequence".
 
 **Key Locations:**
 - Switch 1: (16, 1) [Right] - OFF
