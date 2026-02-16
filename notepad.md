@@ -4,12 +4,9 @@
 - **Failed Tests:**
   - Sequences: `3->2->1`, `1->2->3`.
   - Combos: `[1, 1, 0]`, `[1, 0, 1]`, `[1, 1, 1]`, `[0, 1, 0]`.
-- **Current Test:** `[0, 0, 1]` (Switch 3 Only).
+- **Current Test:** `[1, 0, 0]` (Switch 1 Only).
 - **Status:**
-  - Sw3: ON (Just now).
-  - Sw2: ON (Assumed). Heading to turn OFF.
-  - Sw1: ON (Assumed). Will turn OFF next.
-Turn 45858: Turned Switch 2 OFF. State: [1, 0, 1]. Moving to Switch 1 to turn OFF.
-Turn 45859: Moving to Switch 1 to turn OFF. Target State: [0, 0, 1].
-Turn 45860: Turned Switch 1 OFF. State: [0, 0, 1]. Checking Gate 1.
-Turn 45862: Recovered from menu. Confirmed Switch 1 OFF. State [0, 0, 1]. Moving to Gate 1.
+  - Sw3: ON -> turning OFF.
+  - Sw2: OFF.
+  - Sw1: OFF -> turning ON.
+Turn 45870: `[0, 0, 1]` failed to open Gate 1. Moving to Switch 3 to turn OFF.
