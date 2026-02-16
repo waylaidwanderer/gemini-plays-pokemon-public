@@ -1,11 +1,10 @@
 Location: Warehouse (3_54).
-Objective: Identify Trap in Col 12.
+Objective: Enable Switch 3 to disable Col 12 Trap.
 Status:
-- Switch 2 ON. Switch 1 ON.
-- Gate 3 (16, 6) Open.
-- Path (12, 8-9) Open.
-- Trap encountered in Col 12 (warped to 12, 5).
+- Switch 2 ON. Switch 1 ON. Switch 3 OFF.
+- Trap confirmed at (12, 8).
+- Hypothesis: Switch 3 controls the central trap.
 Plan:
-1. Move Down cautiously to check tiles.
-2. Test (12, 6) -> (12, 7) -> (12, 8).
-3. Identify which tile triggers the warp.
+1. Go to Switch 3 (2, 1).
+2. Turn Switch 3 ON.
+3. Return to Col 12 and test (12, 8).
