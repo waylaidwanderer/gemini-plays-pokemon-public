@@ -21,7 +21,7 @@
 - Switch 1: (16, 1) [Right]
 - Switch 2: (10, 1) [Middle]
 - Switch 3: (2, 1) [Left]
-- Visual Confirm: Inner Wall (10, 10)/(11, 10) is CLOSED with State 1-0-1.
-- Conclusion: State 1-0-1 opens Gate 2 but not the wall.
-- Current Status: Switch 1 ON, Switch 2 ON, Switch 3 ON (State 1-1-1).
-- Action: Moving to Switch 1 to turn OFF (Target State 0-1-1).
+- Visual Confirm: Hit Trap at (15, 4) and warped back to start (10, 2).
+- Action: Turn Switch 2 ON (it was OFF).
+- Path: Use Row 5 to bypass Trap at (15, 4).
+- Target: Switch 1 (turn OFF).
