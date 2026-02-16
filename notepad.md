@@ -30,3 +30,6 @@
 - Action: Toggling Sw2 ON. Then checking Gate 2.
 - Visual Confirm: Gate 2 (10, 6) is OPEN.
 - Action: Checking Wall at (11, 10).
+- Visual Confirm: Wall at (10, 10) and (11, 10) is CLOSED (TYPE_2889).
+- Plan: Complete sequence 3->2->1 by turning Switch 1 ON.
+- Hypothesis: This might open Gate 3 or toggle walls.
