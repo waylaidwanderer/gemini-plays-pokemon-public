@@ -22,9 +22,8 @@
 - Switch 2: (10, 1) [Middle]
 - Switch 3: (2, 1) [Left]
 - Action: Turned Switch 3 OFF.
-- Visual Confirm: Gate 2 (10, 6) is OPEN (Type 3fe2) with State 0-1-0.
-- Action: Turned Switch 2 OFF. Current State: 0-0-0 (All OFF).
-- Plan: Execute Sequence 1 -> 2.
-- Step 1: Turn Switch 1 ON.
-- Step 2: Turn Switch 2 ON.
-- Step 3: Check Gate 3.
+- Visual Confirm: Gate 2 (10, 6) CLOSED (checked visually from (10, 5)).
+- Action: Moving to Switch 1 (16, 1) via Row 5 (safe path).
+- Plan: Turn Switch 1 ON.
+- Next: Turn Switch 2 ON.
+- Target: Gate 3 (16, 6).
