@@ -6,6 +6,10 @@
 - **Gate 1 (2, 6):** Opens with **Switch 3 ON** (State 0-0-1).
 - **Gate 2 (10, 6):** Opens with **Switch 3 ON + Switch 1 ON** (State 1-0-1). Also opened with Seq 3->2->1 (State 1-1-1).
 - **Gate 3 (16, 6):** Confirmed CLOSED with Seq 1->2 (State 1-1-0).
+- Action: Turn Switch 3 ON.
+- Current Sequence: 1 -> 2 -> 3.
+- Hypothesis: Testing if 1->2->3 opens Gate 3 or Gate 1/Inner Wall.
+- Contingency: If this fails, Reset to 0-0-0 and try Sequence 3 -> ...
 - **Inner Wall (10, 10) or (11, 10):** Currently the main obstacle behind Gate 2.
 
 **Current Hypothesis:**
