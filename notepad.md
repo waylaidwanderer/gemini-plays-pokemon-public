@@ -4,15 +4,15 @@
 
 **Confirmed Mechanics:**
 - **Gate 1 (2, 6):** **OPEN** with **Switch 3 ON** (State 0-0-1).
-- **Gate 3 (16, 6):** **OPEN** with **Switch 1 ON** (State 1-0-0). **CLOSED** with **Switch 1 & 3 ON** (State 1-0-1).
+- **Gate 3 (16, 6):** **OPEN** with **Switch 1 ON** (State 1-0-0).
 - **Gate 2 (10, 6):** **CLOSED** with **State 1-0-1**.
 - **Wall at (2, 10):** BLOCKING with Switch 3 ON.
-- **Current Test:** Revert to **State 1-0-0** (Switch 1 Only).
-- **Plan:** Turn Switch 3 OFF. Go to Gate 3. Look for "secret passage" to (11, 10).
+- **Current Test:** Reverting to **State 1-0-0** (Switch 1 Only).
+- **Hypothesis:** Switch 1 opens Gate 3 AND a secret path inside (possibly at 11,10 or 16,10).
 
 **Current Status:**
 - Switches: 1 ON, 2 OFF, 3 ON.
-- Position: At (10, 5). Moving to Switch 3 (2, 1).
+- Position: At (8, 2). Moving to Switch 3 to turn it OFF.
 
 **Current Status:**
 - Switches: 1 ON, 2 OFF, 3 ON. (State 1-0-1).
