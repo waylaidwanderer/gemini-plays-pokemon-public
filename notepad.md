@@ -8,13 +8,11 @@
 - **Switch 3 (ON):** Closes Entrance (11, 6) & Opens Gate 1.
 - **Gate 3:** Closed if Switch 3 is ON. Open if Sw1 & Sw2 ON.
 
-**Current Location:** Director's Room (3_53).
-**Objective:** Rescue Director.
+**Current Location:** Warehouse (3_54).
+**Objective:** Open Gate 3.
 
-Location: Director's Room (3_53).
-Objective: Rescue Director.
-Status: Re-entered room.
-Observation: Path blocked by Rocket Grunts at (19, 24) and (22, 24).
-Observation: Bookshelf at (18, 25) had no reaction.
-Hypothesis: I skipped a required interaction in the Warehouse (likely Grunt at 19, 12).
-Plan: Return to the Warehouse via warp at (22, 27) and investigate the area behind Gate 3.
+Location: Warehouse (3_54).
+Objective: Open Gate 3.
+Status: At Switch 1 (Turned ON).
+State: Sw1 ON, Sw2 ON, Sw3 ON. (Gate 3 Closed).
+Plan: Go to Switch 3 and turn it OFF. This should open Gate 3. Then explore behind Gate 3.
