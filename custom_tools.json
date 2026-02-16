@@ -596,14 +596,15 @@
       "properties": {
         "autopress_buttons": {
           "type": "boolean",
-          "default": false
+          "default": false,
+          "description": "If true and the tool returns a list of buttons, they will be pressed automatically. Limit: 100 buttons max per call."
         }
       },
       "required": [
         "autopress_buttons"
       ]
     },
-    "python_script": "import xml.etree.ElementTree as ET\n\ndef get_tile_type(root, x, y):\n    row = root.find(f\".//Row[@id='{y}']\")\n    if row is not None:\n        tile = row.find(f\".//Tile[@id='{x}']\")\n        if tile is not None:\n            return tile.get('type')\n    return \"UNKNOWN\"\n\ndef main(map_xml_string):\n    try:\n        root = ET.fromstring(map_xml_string)\n        \n        # Coordinates of interest\n        targets = {\n            \"Gate 1 (2, 6)\": (2, 6),\n            \"Gate 2 (10, 6)\": (10, 6),\n            \"Gate 3 (16, 6)\": (16, 6),\n            \"Secret Door (11, 6)\": (11, 6),\n            \"Exit Wall (11, 10)\": (11, 10),\n            \"Back Wall (16, 10)\": (16, 10)\n        }\n        \n        results = {}\n        for name, (x, y) in targets.items():\n            tile_type = get_tile_type(root, x, y)\n            state = \"CLOSED\" if tile_type == \"TYPE_2889\" else \"OPEN\" if tile_type in [\"TYPE_3fe2\", \"TYPE_8564\"] else f\"UNKNOWN ({tile_type})\"\n            results[name] = state\n            \n        print(results)\n            \n    except Exception as e:\n        print(f\"Error parsing XML: {e}\")\n\nif __name__ == \"__main__\":\n    main(map_xml_string)",
+    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\ndef get_tile_type(root, x, y):\n    row = root.find(f\".//Row[@id='{y}']\")\n    if row is None: return \"Unknown\"\n    tile = row.find(f\".//Tile[@id='{x}']\")\n    if tile is None: return \"Unknown\"\n    return tile.get('type')\n\ntry:\n    # map_xml_string is provided automatically\n    root = ET.fromstring(map_xml_string)\n    \n    # Coordinates of interest\n    targets = {\n        \"Gate 1 (Left)\": (2, 6),\n        \"Gate 2 (Middle)\": (10, 6),\n        \"Gate 3 (Right)\": (16, 6),\n        \"Gate 4 (Inner Left)\": (2, 10),\n        \"Wall (11,10)\": (11, 10),\n        \"Trap (12,8)\": (12, 8),\n        \"Trap (10,4)\": (10, 4)\n    }\n    \n    results = {}\n    for name, (x, y) in targets.items():\n        tile_type = get_tile_type(root, x, y)\n        state = \"UNKNOWN\"\n        if tile_type == \"TYPE_2889\":\n            state = \"CLOSED/WALL\"\n        elif tile_type == \"TYPE_3fe2\":\n            state = \"OPEN/FLOOR\"\n        else:\n            state = f\"Other ({tile_type})\"\n            \n        results[name] = state\n        \n    print(f\"Check Results: {results}\")\n\n    if autopress_buttons:\n        print(json.dumps([\"B\"]))\n\nexcept Exception as e:\n    print(f\"Error parsing XML or checking gates: {e}\")\n    if autopress_buttons:\n        print(json.dumps([\"B\"]))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -674,6 +675,11 @@
         "commit_message": "Initial definition of check_gate_states tool to parse XML for gate statuses.",
         "timestamp": "2026-02-16T16:43:10.388Z",
         "action_counter": 46844
+      },
+      {
+        "commit_message": "Defined check_gate_states tool to remotely inspect gate status via Mental Map XML.",
+        "timestamp": "2026-02-16T21:40:58.435Z",
+        "action_counter": 47225
       }
     ]
   }
