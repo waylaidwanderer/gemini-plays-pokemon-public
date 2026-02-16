@@ -149,3 +149,4 @@ Turn 45823: Moving to Switch 3 (2, 2) from (6, 4).
 Turn 45824: Moving around grunt to Switch 3 (2, 2).
 Turn 45825: Sequence Step 3: Turned Switch 3 ON. State: [1, 1, 1]. Order: 1->2->3. Checking Gate 1.
 Turn 45826: Confirmed Switch 3 ON. Sequence 1->2->3 Complete. Checking Gate 1.
+Turn 45835: Turned Switch 2 OFF. State: [1, 0, 1]. Checking Gate 3.
