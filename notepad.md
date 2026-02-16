@@ -17,8 +17,12 @@
     2. Reset all switches to **OFF**.
     3. Try Sequence: **Switch 3 -> Switch 2 -> Switch 1** (Left to Right).
     4. Try Sequence: **Switch 1 -> Switch 2 -> Switch 3** (Right to Left).
-- **Current State:** 1-1-0 (Sw1, Sw2 ON).
-- **Navigation:** Checking if `(12, 9)` is open to exit via Gate 3. If not, back up `(11, 6)`.
+- **Status:** Resetting all switches to **OFF**.
+- **Action:** Turning Switch 1 OFF. Moving to Switch 2.
+- **Next:** Turn Switch 2 OFF. Turn Switch 3 OFF.
+- **Plan:** Execute Sequence **3 -> 2 -> 1** (Left to Right).
+    - If that fails, try **1 -> 2 -> 3**.
+    - Check (11, 6) and (11, 10) after each step if possible, or at the end.
 
 **Key Locations:**
 - Switch 1: (16, 1) [Right] - OFF
