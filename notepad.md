@@ -12,8 +12,8 @@
 **Objective:** Open Gate 3.
 
 Location: Warehouse (3_54).
-Objective: Explore behind Gate 3.
-Status: Gate 3 (16, 6) is OPEN! (Verified TYPE_3fe2).
-State: Sw1 ON, Sw2 ON, Sw3 OFF.
-Plan: Move South through the gate. Check for items or the Director. Watch for traps (16, 8 should be safe).
-Possible Targets: Rocket Grunt F at (19, 12)?
+Objective: Find the "missed trigger".
+Status: Gate 3 (16, 6) led to a dead end with a closed wall at (16, 10).
+Exit at (11, 10) is also closed.
+Hypothesis: The path forward is on the far right side of the warehouse (Cols 19+).
+Plan: Navigate to the right side of the map (Row 2, East) and locate Rocket Grunt F at (19, 12). Defeat her to proceed.
