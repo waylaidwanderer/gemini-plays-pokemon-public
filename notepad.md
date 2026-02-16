@@ -3,20 +3,15 @@
 **Goal:** Open Gate 3 (16, 6) to find the Director.
 
 **Confirmed Mechanics:**
-- **Gate 1 (2, 6):** **OPEN** with **Switch 3 ON** (State 0-0-1). **CLOSED** with **Switch 3 OFF**.
-- **Gate 3 (16, 6):** **OPEN** with **Switch 1 ON** (State 1-0-0). **CLOSED** with **Switch 1 & 3 ON** (State 1-0-1).
-- **Gate 3 (16, 6):** **OPEN** with **State 1-1-0**.
-- **Wall at (16, 10):** **BLOCKING** with **State 1-1-0**.
-- **Conclusion:** State 1-1-0 is NOT the solution for Gate 3.
-- **Next Test:** **State 0-1-0** (Switch 2 Only) and **State 0-1-1** (Switch 2 & 3).
-- **Hypothesis:** Summary suggested Switch 2 opens Gate 2.
-- **Reference:** Log 46573 says Switch 1 opens wall at (11, 10) behind Gate 2. I might need a complex sequence or state to access that.
+- **Gate 1 (2, 6):** **OPEN** with **Switch 3 ON** (State 0-0-1).
+- **Gate 2 (10, 6):** **CLOSED** with **Switch 3 ON** (State 0-1-1). **OPEN** (implied) with **Switch 2 Only** (State 0-1-0).
+- **Column 11 (11, 6):** **CLOSED** with **Switch 3 ON**. **OPEN** with **Switch 2 Only**.
+- **Conclusion:** **State 0-1-0** (Switch 2 Only) is the likely solution. It opens Gate 2 (or the bypass at 11,6).
+- **Plan:** Turn **Switch 3 OFF**. Go to Gate 2/Column 11.
 
 **Current Status:**
 - Switches: 1 OFF, 2 ON, 3 ON. (State 0-1-1).
-- Position: Moving to Gate 2 (10, 6) via Row 5.
-- Next Action: Verify Gate 2 status.
-- **Hypothesis:** State 0-1-1 opens Gate 2 AND the wall behind it.
+- Position: At (6, 5). Moving to Switch 3 (2, 1) to turn OFF.
 
 **Key Locations:**
 - Switch 1: (16, 1) [Right] - ON
