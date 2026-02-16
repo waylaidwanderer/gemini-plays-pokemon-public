@@ -5,7 +5,7 @@
 **Confirmed Mechanics (Revised):**
 - **Gate 1 (2, 6):** Opens with **Switch 3 ON** (State 0-0-1).
 - **Gate 2 (10, 6):** Opens with **Switch 3 ON + Switch 1 ON** (State 1-0-1). Also opened with Seq 3->2->1 (State 1-1-1).
-- **Gate 3 (16, 6):** Opened with Seq 1->2 (State 0-1-1? or 1-1-0? No, 1->2 means 1 ON, then 2 ON. State 1-1-0).
+- **Gate 3 (16, 6):** Confirmed CLOSED with Seq 1->2 (State 1-1-0).
 - **Inner Wall (10, 10) or (11, 10):** Currently the main obstacle behind Gate 2.
 
 **Current Hypothesis:**
