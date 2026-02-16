@@ -7,6 +7,8 @@
 - **Current Test:** Sequence `1 -> 2` (Sw1 ON, then Sw2 ON).
 - **Status:**
   - Sw3: OFF.
-  - Sw2: ON (Just turned ON).
+  - Sw2: ON.
   - Sw1: ON.
-Turn 45967: Turned Switch 2 ON (Sequence 1->2). Checking Gate 3.
+- **Result:** Gate 3 (16, 6) OPENED (Confirmed by system tile change).
+- **Solution:** Switches 1 & 2 ON, Switch 3 OFF. Order likely `1 -> 2`.
+Turn 45968: Gate 3 open! Heading in to rescue the Director.
