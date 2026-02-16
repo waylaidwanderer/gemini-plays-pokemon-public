@@ -21,7 +21,8 @@
 - Switch 1: (16, 1) [Right]
 - Switch 2: (10, 1) [Middle]
 - Switch 3: (2, 1) [Left]
-- Visual Confirm: Hit Trap at (15, 4) and warped back to start (10, 2).
-- Action: Turn Switch 2 ON (it was OFF).
-- Path: Use Row 5 to bypass Trap at (15, 4).
-- Target: Switch 1 (turn OFF).
+- Visual Confirm: Hit Trap at (15, 4) previously.
+- Current Position: (10, 5).
+- Action: Go Right on Row 5 (avoiding 15,4) to Switch 1 (16, 1).
+- Goal: Turn Switch 1 OFF.
+- Target State: 0-1-1 (Switch 1 OFF, Switch 2 ON, Switch 3 ON).
