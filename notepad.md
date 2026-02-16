@@ -67,6 +67,7 @@
   - [1, 0, 0]: Gate 3 CLOSED. Gate 1 CLOSED.
   - [0, 0, 0]: All Closed.
   - [0, 1, 1]: Gate 1 & 2 CLOSED.
+  - [0, 0, 1]: Gate 2 CLOSED. Gate 3 CLOSED.
   - [1, 0, 1]: Gate 3 OPEN. Gate 1 & 2 CLOSED. Trap (16, 8) DISABLED.
 - **Reflection (Turn 45388):**
   - Progress: Systematically tested `[1,1,0]` (Gate 1) and `[1,0,1]` (Gate 3). Both led to dead ends or loops.
