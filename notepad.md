@@ -8,8 +8,8 @@
 - **Current State:** `[1, 1, 1]` (All ON). Sequence `2 -> 3 -> 1`.
 - **Hypothesis:** "Switch on the end" means `3 -> 2 -> 1`.
 - **Plan:**
-  1. Turn Sw3 OFF.
-  2. Turn Sw2 OFF.
-  3. Turn Sw1 OFF. (Clean Slate)
-  4. Execute `3 -> 2 -> 1`.
+  1. Reset Complete (All OFF).
+  2. Turn Sw3 ON.
+  3. Turn Sw2 ON.
+  4. Turn Sw1 ON.
   5. Check Gate 1.
