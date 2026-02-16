@@ -159,3 +159,4 @@ Turn 45843: Turned Switch 2 ON. State: [1, 1, 1] (assuming Sw3 is ON). Heading t
 Turn 45844: Turned Switch 2 ON. State: [1, 1, 0]. Checking Gate 1.
 Turn 45846: Correction - Sw3 was ON. Real State: [1, 1, 1]. Moving to Sw3 to turn OFF -> Target [1, 1, 0].
 Turn 45848: Arriving at Switch 3 (2, 2).
+Turn 45849: Navigating around grunt to Switch 3. Interacting to turn OFF.
