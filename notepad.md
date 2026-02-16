@@ -14,9 +14,10 @@
 Location: Warehouse (3_54).
 Objective: Open Gate 1 (2, 6).
 Status:
-- State 0-1-0 (Sw1 OFF, Sw2 ON, Sw3 OFF): Gate 1 CLOSED.
-- Next Test: State 0-0-0 (All OFF) or 1-0-0 (Sw1 ON only).
+- State 0-0-0 (All OFF).
+- Testing Gate 1.
 Plan:
-1. Go to Switch 2 (10, 1). Turn OFF.
-2. Check Gate 1.
-3. If Closed, go to Switch 1 and Turn ON.
+1. Check Gate 1 (2, 6).
+2. If Closed, I'm resetting to try a specific sequence starting with "The End Switch".
+3. Sequence Hypothesis: Sw3 -> Sw2 -> Sw1? Or Sw1 -> Sw2 -> Sw3?
+4. But first, check Gate 1.
