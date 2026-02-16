@@ -20,3 +20,5 @@
   2. Rescue Director.
 - **Encounter:** Rival Silver at (4, 8) says "There's nothing down there" and doesn't battle.
 - **Action:** Bypassing Silver to explore the rest of the warehouse. Heading to Burglar Duncan (9, 12).
+- NOTE: 'check_gate_states' tool relies on Mental Map, which may have stale 'Open' states for gates I haven't seen recently. Must visually verify.
+- Plan Update: Go to Switch 2 (10, 2), turn ON. Then check Gate 2.
