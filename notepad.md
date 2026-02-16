@@ -45,4 +45,4 @@
 - Visual Confirm: Trap at (16, 8) is DISABLED (Safe).
 - Action: Checking walls at (16, 10) and (17, 10).
 - Visual Confirm: Area (16, 9) to (17, 9) is a dead end. Walls at Row 10 are CLOSED.
-- Plan: Return to switches. Try Sequence 1->2->3 (Switch 1 first).
+- Plan: Return to switches via (12, 8). Turn All OFF. Try Sequence 1->2->3.
