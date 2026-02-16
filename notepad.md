@@ -22,6 +22,9 @@
 - Switch 2: (10, 1) [Middle]
 - Switch 3: (2, 1) [Left]
 - Current Status: Switch 1 ON, Switch 2 ON, Switch 3 OFF (State: 1-1-0).
-- Confirmed Traps: (9, 4), (10, 4), (15, 4).
-- Plan: Check Gate 3 (16, 6) via safe path (Col 16).
+- Visual Confirm: Warped back to (10, 2) again.
+- Hypothesis: Row 4 is largely a trap line (including 16, 4?).
+- Action: taking long safe route via West Side (Col 2) and Row 5.
+- Path: (10, 2) -> Left to (2, 2) -> Down to (2, 5) -> Right to (16, 5).
+- Goal: Check Gate 3 (16, 6).
 - Theory: Sequence 1 -> 2 opens Gate 3.
