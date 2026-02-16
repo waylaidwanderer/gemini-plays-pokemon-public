@@ -21,6 +21,6 @@
 - Switch 1: (16, 1) [Right]
 - Switch 2: (10, 1) [Middle]
 - Switch 3: (2, 1) [Left]
-- Visual Confirm: Turned Switch 1 OFF.
-- Current Status: Switch 1 OFF. Switch 2 ON. Switch 3 ON. (State: 0-1-1).
-- Action: Checking Gate 3 (16, 6).
+- Visual Confirm: Gate 3 (16, 6) is OPEN with State 0-1-1.
+- Action: Moving to check Inner Wall at (16, 10).
+- Path: Bypassing potential trap at (16, 8) via Column 17.
