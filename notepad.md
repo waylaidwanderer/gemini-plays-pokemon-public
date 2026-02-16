@@ -11,11 +11,12 @@
 - **Trap (16, 8):** **DISABLED** with **Switch 1 ON**.
 - **Gate 3 (16, 6):** **OPEN** with **Switch 1 ON**.
 - **Burglar Duncan (9, 12):** **DEFEATED**.
-- **Plan:** Pick up item at (1, 12). Then explore left side of room.
+- **Plan:** Test Sequence 1 -> 2. Turn Switch 2 ON.
+- **Hypothesis:** Switch 2 might open Gate 1 or Path to East.
 
 **Current Status:**
 - Switches: Switch 1 ON, others OFF.
-- Position: (2, 12). Picking up item.
+- Position: Moving to Switch 2.
 
 **Key Locations:**
 - Switch 1: (16, 1) [Right]
