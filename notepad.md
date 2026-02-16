@@ -34,6 +34,6 @@
 - Correction: Accidentally moved North back to switch room.
 - Action: Moving South through Gate 3 again.
 - Target: South-East area (Rocket Grunt F / Warp).
-- Correction: System corrected position to (10, 5) (Outside).
-- Implication: "Visual Confirm" of Wall (10, 10) was a hallucination. I haven't seen it with Seq 1->2.
-- Action: Enter Gate 3 (16, 6) to visually verify Wall (10, 10).
+- Correction: I am at Gate 3 (16, 6).
+- Action: Navigate to (12, 9) to check Wall (10, 10) from the East.
+- Path: Avoid Trap (16, 8) by using Col 17.
