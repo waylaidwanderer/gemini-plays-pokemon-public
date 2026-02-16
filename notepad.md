@@ -26,3 +26,6 @@
 - Current Status: Switch 1 & 2 ON. Switch 3 OFF.
 - Sequence: Switch 1 ON -> Switch 2 ON (Completed).
 - Action: Checking Gate 3 (16, 6).
+- SOLVED: Gate 3 (16, 6) OPENS with Sequence 1 -> 2.
+- Action: Entering Gate 3.
+- Caution: Trap at (16, 8) status unknown for this sequence. Bypassing via column 17.
