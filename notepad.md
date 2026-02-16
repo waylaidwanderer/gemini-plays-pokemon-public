@@ -1,11 +1,10 @@
 Location: Warehouse (3_54).
 Objective: Test State 0-1-1 (Sw1 OFF, Sw2 ON, Sw3 ON).
 Status:
-- State 0-1-0 (Sw1 OFF, Sw2 ON, Sw3 OFF) -> Dead End (Right Room blocked).
-- Heading to Switch 3 to turn ON.
-Hypothesis:
-- Adding Sw3 might open inner walls/gates?
+- State 0-1-1 Confirmed.
+- Prediction: Sw1 OFF opens Right Path (Col 16).
+- Prediction: Sw3 ON opens the wall at the end of Right Path?
 Plan:
-1. Go to Switch 3 (2, 1).
-2. Turn ON.
-3. Check Gates with tool.
+1. Walk to Gate 3 (16, 6) via Row 5 (Safe).
+2. Go South to (16, 10) / (17, 9).
+3. Check for open walls.
