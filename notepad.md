@@ -10,4 +10,3 @@
   - Sw2: ON.
   - Sw1: OFF.
 - **Goal:** Check Back Gate at (2, 10).
-Turn 45988: Turned Switch 2 ON. Moving to Switch 3.
