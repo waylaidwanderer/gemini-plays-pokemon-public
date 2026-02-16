@@ -22,8 +22,7 @@
 - Switch 2: (10, 1) [Middle]
 - Switch 3: (2, 1) [Left]
 - Action: Turned Switch 3 OFF.
-- Visual Confirm: Gate 3 (16, 6) is CLOSED (Type 2889) with State 0-1-0.
-- Action: Resetting all switches to OFF.
-- Step 1: Turn Switch 2 OFF (Current: ON). (In Progress)
-- Step 2: Try Sequence 1 -> 2 (State 1-1-0) from a fresh start.
-- Note: Verifying "End Switch First" hint. Trying Right End (Switch 1) first.
+- Visual Confirm: Gate 2 (10, 6) is OPEN (Type 3fe2) with State 0-1-0.
+- New Hypothesis: Switch 2 controls Gate 2.
+- Action: Turning Switch 2 OFF. Expect Gate 2 to CLOSE.
+- Next: Reset to 0-0-0. Then try Sequence 1 -> 2.
