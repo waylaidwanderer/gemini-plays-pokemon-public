@@ -21,8 +21,8 @@
 - Switch 1: (16, 1) [Right]
 - Switch 2: (10, 1) [Middle]
 - Switch 3: (2, 1) [Left]
-- Trapped Area: Bucket (Cols 8-11, Rows 2-3).
-- Escape: Must cross Row 4 (Traps at 9, 10, 15).
-- Attempting: Escape via (8, 4) to Row 5 (Safe Highway).
-- Plan: Go to Switch 1 (16, 1) via Row 5.
-- Sequence: 1 -> 2 (Clean Slate).
+- Hint: Grunt confirmed "End switch is the one to press first".
+- Interpretation: Start sequence with Switch 1 (Right) or Switch 3 (Left).
+- Current Plan: Execute Sequence 1 -> 2 (Cleanly).
+- Path to Switch 1: Escape bucket via Col 8, then Row 5.
+- Traps: 9, 10, 15 confirmed. Testing 8.
