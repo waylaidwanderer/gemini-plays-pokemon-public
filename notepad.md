@@ -68,7 +68,7 @@
   - [0, 0, 0]: All Closed.
   - [0, 1, 1]: Gate 1 & 2 CLOSED.
   - [0, 0, 1]: Gate 2 CLOSED. Gate 3 CLOSED.
-  - [1, 0, 1]: Gate 3 CLOSED.
+  - [1, 0, 1]: Gate 2 & 3 CLOSED.
 - **Reflection (Turn 45388):**
   - Progress: Systematically tested `[1,1,0]` (Gate 1) and `[1,0,1]` (Gate 3). Both led to dead ends or loops.
   - Current Goal: Test `[0,1,0]` (Switch 2 ON only) to open Gate 2.
