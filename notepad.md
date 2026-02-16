@@ -4,11 +4,9 @@
 - **Failed Tests:**
   - Sequences: `3->2->1`, `1->2->3`.
   - Combos: `[1, 1, 0]`, `[1, 0, 1]`, `[1, 1, 1]`, `[0, 1, 0]`.
-- **Current Test:** `[0, 1, 1]` (Sw1=ON, Sw2=ON, Sw3=OFF).
+- **Current Test:** Sequence `1 -> 2` (Target: Sw1=ON, Sw2=ON, Sw3=OFF).
 - **Status:**
   - Sw3: OFF.
-  - Sw2: ON -> Toggle OFF/ON (Sequence `1 -> 2`).
+  - Sw2: ON -> Turning OFF now -> Will turn ON next.
   - Sw1: ON.
-- **Result:** Gate 3 CLOSED (Correction from Turn 45963).
-- **Plan:** Toggle Switch 2 to simulate `Sw1 -> Sw2` sequence.
-Turn 45965: Moving to Switch 2 to toggle.
+Turn 45966: Turning Switch 2 OFF. Next: Turn ON.
