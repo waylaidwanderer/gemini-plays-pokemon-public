@@ -6,7 +6,8 @@
   - Combos: `[1, 1, 0]`, `[1, 0, 1]`, `[1, 1, 1]`, `[0, 1, 0]`.
 - **Current Test:** `[1, 0, 1]` (Sequence 1 -> 3).
 - **Status:**
-  - Sw3: OFF -> turning ON.
+  - Sw3: ON.
   - Sw2: OFF.
   - Sw1: ON.
-Turn 45892: Turning Switch 3 ON. Testing Gate 1 next.
+- **Result:** Gate 1 (2, 6) OPENED.
+Turn 45898: Found Silver. Engaging in dialogue.
