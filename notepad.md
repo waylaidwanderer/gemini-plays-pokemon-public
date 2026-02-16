@@ -8,11 +8,12 @@
 - **Gate 3 (16, 6):** Confirmed CLOSED with Seq 1->2 (State 1-1-0).
 - **Gate 3 (16, 6):** Confirmed CLOSED with Seq 1->2->3 (State 1-1-1).
 - **Inner Wall (11, 10):** Confirmed CLOSED with Seq 1->2->3.
-- Current Position: At Switch 3 (2, 1).
-- Action: Interacting to Start Sequence.
-- Logic: If OFF, Turn ON (Step 1). If ON, Turn OFF (Reset), then Turn ON.
-- Target Sequence: 3 -> 2 -> 1.
-- Switch 1 and 2 are confirmed OFF.
+- Visual Confirm: Turning Switch 3 OFF.
+- Current Status: Switch 1 OFF, Switch 2 OFF, Switch 3 OFF (State 0-0-0).
+- Plan: Execute Sequence 3 -> 2 -> 1.
+- Step 1: Turn Switch 3 ON.
+- Step 2: Turn Switch 2 ON.
+- Step 3: Turn Switch 1 ON.
 - **Inner Wall (10, 10) or (11, 10):** Currently the main obstacle behind Gate 2.
 
 **Current Hypothesis:**
