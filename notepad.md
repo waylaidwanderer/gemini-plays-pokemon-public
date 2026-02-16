@@ -15,7 +15,6 @@ Location: Director's Room (3_53).
 Objective: Rescue Director.
 Status: Re-entered room.
 Observation: Path blocked by Rocket Grunts at (19, 24) and (22, 24).
-Plan: Talk to Grunt at (19, 24). If no response, try moving around via (20, 24).
-Observation: Grunts at (19, 24) and (22, 24) are unresponsive and blocking the path.
-Hypothesis: I may have skipped a required battle in the Warehouse (Grunt at 19, 12?) that triggers the Director event or clears the blockers.
-Plan: Check the bookshelf at (18, 25) for hidden switches, then return to the Warehouse to find and defeat any remaining Grunts.
+Observation: Bookshelf at (18, 25) had no reaction.
+Hypothesis: I skipped a required interaction in the Warehouse (likely Grunt at 19, 12).
+Plan: Return to the Warehouse via warp at (22, 27) and investigate the area behind Gate 3.
