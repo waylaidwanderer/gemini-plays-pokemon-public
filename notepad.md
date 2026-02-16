@@ -22,8 +22,7 @@
 - Switch 2: (10, 1) [Middle]
 - Switch 3: (2, 1) [Left]
 - Action: Turned Switch 3 OFF.
-- Visual Confirm: Gate 2 (10, 6) CLOSED (checked visually from (10, 5)).
-- Action: Moving to Switch 1 (16, 1) via Row 5 (safe path).
-- Plan: Turn Switch 1 ON.
-- Next: Turn Switch 2 ON.
-- Theory: Sequence 1 -> 2 (from 0-0-0) opens Gate 3. Order matters!
+- Action: Turn Switch 1 ON.
+- Current Status: Switch 1 ON, Switch 2 OFF, Switch 3 OFF (State: 1-0-0).
+- Plan: Move to Switch 2 and turn it ON.
+- Theory: Sequence 1 -> 2 opens Gate 3.
