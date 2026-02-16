@@ -1,11 +1,11 @@
 Location: Warehouse (3_54).
-Objective: Explore South via Col 12 Corridor.
+Objective: Identify Trap in Col 12.
 Status:
-- Switch 2 ON.
-- Switch 1 ON.
-- Gate 3 (16, 6) is Open but blocked by wall at (16, 8).
-- Path at (12, 8) and (12, 9) OPENED (changed to floor).
+- Switch 2 ON. Switch 1 ON.
+- Gate 3 (16, 6) Open.
+- Path (12, 8-9) Open.
+- Trap encountered in Col 12 (warped to 12, 5).
 Plan:
-1. Move Left to (12, 5).
-2. Head South down Col 12.
-3. Check where this central corridor leads.
+1. Move Down cautiously to check tiles.
+2. Test (12, 6) -> (12, 7) -> (12, 8).
+3. Identify which tile triggers the warp.
