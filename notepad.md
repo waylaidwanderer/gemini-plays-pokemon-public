@@ -10,16 +10,15 @@
     - **Switch 2 (ON):** Opens **Entrance (11, 6)**.
     - **Switch 1 (ON):** Opens **Exit (11, 10)**.
     - **Switch 3 (ON):** Closes Entrance (11, 6) (and opens Gate 1).
-- **Solution:** **State 1-1-0** (Sw1 ON, Sw2 ON, Sw3 OFF).
+- **Observation:** `(11, 10)` is a Wall with State 1-1-0.
+- **Hypothesis:** "The switch on the end is the one to press first" implies a **SEQUENCE**, not just a state.
 - **Plan:**
-    1. Verify (11, 10) is CLOSED (confirming Sw1 is needed).
-    2. Go to Switch 1 (16, 1). Turn **ON**.
-    3. Return to (11, 6) and pass through to (11, 10).
-- **Current Status:**
-- Switches: 1 ON, 2 ON, 3 OFF. (State 1-1-0).
-- Position: Moving to (11, 6) via Row 5.
-- **Hypothesis:** State 1-1-0 opens BOTH (11, 6) and (11, 10).
-- **Goal:** Reach the Director through the Column 11 bypass.
+    1. Exit Middle Room via `(11, 6)` or `(12, 9)` (if open).
+    2. Reset all switches to **OFF**.
+    3. Try Sequence: **Switch 3 -> Switch 2 -> Switch 1** (Left to Right).
+    4. Try Sequence: **Switch 1 -> Switch 2 -> Switch 3** (Right to Left).
+- **Current State:** 1-1-0 (Sw1, Sw2 ON).
+- **Navigation:** Checking if `(12, 9)` is open to exit via Gate 3. If not, back up `(11, 6)`.
 
 **Key Locations:**
 - Switch 1: (16, 1) [Right] - OFF
