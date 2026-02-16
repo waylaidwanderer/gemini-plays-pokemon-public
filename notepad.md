@@ -36,3 +36,5 @@
 - **Puzzle Progress:** Systematically ruled out "All ON" and "1-0-1". "0-0-1" (Switch 3 Only) is the current best candidate.
 - **Trap Update:** Attempted Column 8 traverse (Sw2 OFF) and warped back to start. **(8, 4)** is likely a Trap when Sw2 is OFF.
 - **Navigation:** Trying Column 6 traverse.
+- **Trap Analysis:** Stuck in Middle Pocket (Cols 8-11). Cols 8, 9, 10 are traps with Sw2 OFF. Walls block Left (Col 6/7) and Right (Col 12).
+- **Escape Plan:** Attempting escape via **Column 11** traverse. If this fails, navigation logic needs a rethink (or Sw2 must be ON to move).
