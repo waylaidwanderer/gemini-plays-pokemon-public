@@ -5,14 +5,15 @@ Status:
 - Switch 2 ON (Verified).
 - Switch 1 OFF (Verified).
 - State: 1-1-0.
-- Gate 3 CLOSED (Visual verify).
-- Plan: Check Gate 2 at (10, 6).
-- Logic:
-  - 1-0-1: Gate 3 Open, Traps Active.
-  - 0-1-1: Gate 3 Open, Traps Safe (Sw2 ON).
-  - 1-1-1: Gates Closed.
-  - 1-1-0: Testing now.
+- Gate 3 CLOSED (Verified).
+- Gate 2 CLOSED (Verified).
+- Gate 1 CLOSED (Verified Visual).
+- Plan: Try 0-1-0 (Sw2 Only).
+- Hypothesis: Single Switch states might open corresponding gates.
+  - 1-0-0 (Sw3) -> Gate 1?
+  - 0-1-0 (Sw2) -> Gate 2?
+  - 0-0-1 (Sw1) -> Gate 3?
 Plan:
-1. Check Gate 2 (10, 6).
-2. If closed, check Secret Wall at (11, 6).
-3. If all closed, try next combo: 0-1-0 (Sw3 OFF, Sw2 ON, Sw1 OFF).
+1. Go to Switch 3 (2, 1).
+2. Turn OFF (State 0-1-0).
+3. Check Gate 2 (10, 6).
