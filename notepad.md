@@ -22,7 +22,8 @@
 - Switch 2: (10, 1) [Middle]
 - Switch 3: (2, 1) [Left]
 - Current Status: Switch 1 ON, Switch 2 ON, Switch 3 OFF (State: 1-1-0).
-- Sequence: 1 -> 2 Completed.
-- Observation: Tile changes at (10, 7)/(11, 7) detected. Possible Gate 2 activity?
-- Action: Checking Gate 3 (16, 6) first.
-- Path: (8, 3) -> Down to (8, 5) -> Right to (16, 5) -> Down to Gate 3.
+- Sequence: 1 -> 2.
+- Observation: Gate 2 (10, 6) definitely OPENED (Tile changed).
+- Action: Moving to check Gate 3 (16, 6).
+- Path: (8, 4) -> Down to (8, 5) -> Right to (16, 5) -> Down to Gate 3.
+- Logic: If Gate 3 is closed, the sequence 1->2 opens Gate 2, not 3.
