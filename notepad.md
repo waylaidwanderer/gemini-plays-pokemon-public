@@ -5,13 +5,15 @@
 **Confirmed Mechanics:**
 - **Gate 1 (2, 6):** Opens with **Switch 3 ON** (State 0-0-1).
 - **Gate 2 (10, 6):** Opens with **Switch 3 ON + Switch 1 ON** (State 1-0-1). Also opened with Seq 3->2->1 (State 1-1-1).
-- **Gate 3 (16, 6):** CLOSED with State 1-1-1 (All ON). Sequence 3->2->1 failed.
-- **Hypothesis:** "Switch on the end" refers to Switch 1. Summary suggests Seq 1->2 opens Gate 3.
-- **Plan:** Test **Sequence 1 -> 2**.
+- **Gate 3 (16, 6):** **OPEN** with **Switch 1 ON** (State 1-0-0).
+- **Gate 1 (2, 6):** CLOSED (State 1-0-0).
+- **Gate 2 (10, 6):** CLOSED (State 1-0-0).
+- **Trap (16, 8):** Status Unknown for State 1-0-0. (Disabled in 1-1-1).
+- **Hypothesis:** Switch 1 opens Gate 3. Need to check if trap is active.
 
 **Current Status:**
-- Switches: All OFF (Reset Complete).
-- Step 1: Turn Switch 1 ON.
+- Switches: Switch 1 ON, others OFF.
+- Plan: Enter Gate 3 and test trap.
 
 **Key Locations:**
 - Switch 1: (16, 1) [Right]
