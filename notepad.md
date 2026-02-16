@@ -1,12 +1,14 @@
 # Underground Warehouse
 - **Goal:** Rescue Director.
 - **Puzzle Solved:** Switch Combination [0, 1, 0] (Sw2 ON only) -> Gate 2 OPEN.
+- **Hypothesis:** Order matters ("Switch on the end first").
+- **Sequence Tests:**
+  - `3 -> 2 -> 1`: Failed (Gate 3 closed).
+  - `1 -> 2 -> 3`: Testing now.
 - **Current Status:**
-  - Switches: [1, 1, 0] (Sw1 ON, Sw2 ON, Sw3 OFF).
-  - Action: Turned Sw2 ON.
-  - Next: Verify Gate 2, Wall (11, 10), and Bypass x=11.
-  - Method: Use `check_gate_states`.
-  - Goal: Open Wall (11, 10).
+  - State: [0, 0, 1] (Sw1 OFF, Sw2 OFF, Sw3 ON).
+  - Action: Turn Sw3 OFF -> [0, 0, 0].
+  - Next: Go to Sw1.
 - **Hazards:**
   - Trap suspected on Row 3 (between x=3 and x=8). Warps to (8, 2).
   - Row 4 confirmed safe in past turns.
