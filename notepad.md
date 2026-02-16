@@ -10,7 +10,7 @@
 - **Inner Wall (11, 10):** Confirmed CLOSED with Seq 1->2->3.
 
 **Current Status (Based on Markers):**
-- Switch 1 (Right): **OFF** (Verified)
+- Switch 1 (Right): **ON** (Verified - Step 1 of Sequence)
 - Switch 2 (Middle): **OFF** (Verified)
 - Switch 3 (Left): **OFF** (Verified)
 - Global State: 0-0-0 (Reset Complete).
