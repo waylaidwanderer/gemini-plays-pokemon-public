@@ -1,11 +1,10 @@
 Location: Warehouse (3_54).
-Objective: Check Gate 2 and Gate 1 with All Switches ON.
+Objective: Test Switch Combinations.
 Status:
-- Switch 1 ON. Switch 2 ON. Switch 3 ON (State 1-1-1).
-- Trap at (12, 8) is ACTIVE.
-- Trap at (12, 5) warp destination.
+- Switch 1 ON. Switch 2 ON.
+- Switch 3 turned OFF (State 1-1-0).
+- Previously: All ON -> Traps Active, Inner Gates Closed.
 Plan:
-1. Go to Gate 2 (10, 6) via Col 9.
-2. Check if Open.
-3. Check Gate 1 (2, 6) via Col 4.
-4. If Gates closed, try different switch combo (maybe 3-2-1 sequence?).
+1. Check Gate 1 (2, 6).
+2. If closed, then Sw3 controls Gate 1.
+3. Try different combos (e.g. 0-1-0, 0-0-1).
