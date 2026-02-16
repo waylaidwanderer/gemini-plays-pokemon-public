@@ -64,6 +64,6 @@
 **Discovery:** Walking over (10, 4) with Switch 2 ON did NOT trigger the warp. Trap (10, 4) is disabled by Switch 2.
 **Confirmed:** Trap (10, 4) is SAFE with Switch 2 ON.
 **Hypothesis:** State 1-1-0 (Sw1 & Sw2 ON) should open **Entrance (11, 6)** (via Sw2) and **Exit (11, 10)** (via Sw1). Checking this path now.
-- **Gate 1 (2, 6):** CLOSED with All Switches ON (State 1-1-1).
-- **Hypothesis:** All ON closes everything?
-- **Next Step:** Turn Switch 1 OFF to reach State 0-1-1 (Sw2 & Sw3 ON). Testing Sequence 3->2.
+- **Current State:** 0-1-1 (Sw1 OFF, Sw2 ON, Sw3 ON).
+- **Hypothesis:** Testing if this opens Gate 3 or the walls.
+- **Next Step:** Check Gate 3. If closed, try turning Switch 2 OFF (State 0-0-1).
