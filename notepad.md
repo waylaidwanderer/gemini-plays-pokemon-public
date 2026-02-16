@@ -20,3 +20,6 @@
 - Gate 1: (2, 6)
 - Gate 2: (10, 6)
 - Gate 3: (16, 6)
+- Visual Verify: Checking Gate 1 (2, 6).
+- If OPEN: Switch 3 is ON. (Need to toggle OFF).
+- If CLOSED: Switch 3 is OFF. (Ready to proceed).
