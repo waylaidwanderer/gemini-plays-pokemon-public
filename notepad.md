@@ -66,7 +66,7 @@
   - [0, 1, 0]: Gate 2 CLOSED.
   - [1, 0, 0]: Gate 3 CLOSED. Gate 1 CLOSED.
   - [0, 0, 0]: All Closed.
-  - [0, 1, 1]: Gate 1 & 2 CLOSED.
+  - [0, 1, 1]: Gate 1, 2, & 3 CLOSED.
   - [0, 0, 1]: Gate 2 CLOSED. Gate 3 CLOSED.
   - [1, 0, 1]: Gate 2 & 3 CLOSED.
 - **Reflection (Turn 45388):**
