@@ -12,8 +12,12 @@
 **Objective:** Open Gate 3.
 
 Location: Warehouse (3_54).
-Objective: Find the "missed trigger".
-Status: Stuck at (17, 9) due to navigation error (treated walls as walkable).
-Correction: Walls are TYPE_2889. Floor is TYPE_3fe2.
-Plan: Navigate to Rocket Grunt F at (19, 12) using valid floor tiles. Target position (20, 12) or (19, 13).
-Path likely involves going North to Row 5, then East, then South.
+Objective: Open a path to the South (Row 12+).
+Status: Right corridor (Row 5, Col 24-25) is a dead end.
+Puzzle State: Sw1 ON, Sw2 ON, Sw3 OFF.
+- Gate 3 (16, 6) OPEN, but wall at (16, 10) CLOSED.
+- Wall at (11, 10) CLOSED.
+Hypothesis:
+1. Try State 1-1-1 (All ON). Maybe this opens (11, 10) or (2, 10).
+2. Check Gate 1 (2, 6) path (requires Sw3 ON).
+Plan: Go to Switch 3 (2, 1), Turn ON. Check Gate 1 and Wall (2, 10).
