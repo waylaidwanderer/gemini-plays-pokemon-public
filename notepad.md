@@ -3,11 +3,11 @@
 - **Puzzle Solved:** Switch Combination [0, 1, 0] (Sw2 ON only) -> Gate 2 OPEN.
 - **Current Status:**
   - Switches: [1, 0, 0] (Sw1 ON, Sw2 OFF, Sw3 OFF).
-  - Action: Turned Sw3 OFF.
-  - Next: Verify Gate 2 and Wall (11, 10).
-  - Method: Use `check_gate_states`.
-  - Goal: Open Wall (11, 10).
-  - Hypothesis: Sw1 might control the shutter.
+  - Confirmed: [1, 0, 0] opens Gate 3 only.
+  - Action: Moving to Switch 2.
+  - Plan: Turn Sw2 ON -> State [1, 1, 0].
+  - Hypothesis: Check if [1, 1, 0] opens Wall (11, 10) or Bypass x=11.
+  - Logic: Sw3 ON closed the bypass. Sw3 OFF might allow it.
 - **Hazards:**
   - Trap suspected on Row 3 (between x=3 and x=8). Warps to (8, 2).
   - Row 4 confirmed safe in past turns.
