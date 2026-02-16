@@ -34,3 +34,6 @@
 - Correction: Accidentally moved North back to switch room.
 - Action: Moving South through Gate 3 again.
 - Target: South-East area (Rocket Grunt F / Warp).
+- Exploration: Checking if path West is open.
+- Hypothesis: Gate 3 connects to Gate 2 area via (12, 8)?
+- Goal: Check walls at Row 10 (specifically 10,10 and 11,10).
