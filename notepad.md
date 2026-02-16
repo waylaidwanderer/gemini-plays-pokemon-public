@@ -21,8 +21,8 @@
 - Switch 1: (16, 1) [Right]
 - Switch 2: (10, 1) [Middle]
 - Switch 3: (2, 1) [Left]
-- Visual Confirm: Gate 3 (16, 6) is CLOSED (Type 2889) with State 0-1-1.
-- Gate 2 (10, 6) is OPEN (Type 3fe2).
-- Current Status: Switch 1 ON, Switch 2 ON, Switch 3 ON (State 1-1-1).
-- Plan: Check Gate 3.
-- If Closed, Turn Switch 3 OFF (State 1-1-0).
+- Visual Confirm: Gate 3 (16, 6) is CLOSED (Type 2889) with State 1-1-1.
+- Conclusion: State 1-1-1 does not open Gate 3.
+- Previous Success: Seq 1->2 (State 1-1-0).
+- Action: Moving to Switch 3 (2, 1) to turn it OFF.
+- Target State: 1-1-0 (Switch 1 ON, Switch 2 ON, Switch 3 OFF).
