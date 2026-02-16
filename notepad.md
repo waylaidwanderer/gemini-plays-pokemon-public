@@ -13,5 +13,8 @@
   3. Turn Sw2 ON.
   4. Turn Sw1 ON.
   5. Check Gate 1.
-- **Observation:** Turning all switches OFF (State `[0, 0, 0]`) opened a path at (3, 6) and (3, 7).
-- **Plan Update:** Investigate the new path at (3, 6).
+- **SOLVED:** Gate 1 (2, 6) OPENS with State `[0, 0, 1]` (Switch 3 ON, others OFF).
+- **Current State:** `[0, 0, 1]`.
+- **Plan:**
+  1. Enter Gate 1.
+  2. Rescue Director.
