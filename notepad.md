@@ -1,6 +1,5 @@
 # Underground Warehouse
 - **Goal:** Rescue Director.
-- **Puzzle Solved:** Switch Combination [0, 1, 0] (Sw2 ON only) -> Gate 2 OPEN.
 - **Hypothesis:** Order matters ("Switch on the end first").
 - **Sequence Tests:**
   - `3 -> 2 -> 1`: Failed (Gate 3 closed).
