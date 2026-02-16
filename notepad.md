@@ -5,15 +5,13 @@
 **Confirmed Mechanics:**
 - **Gate 1 (2, 6):** Opens with **Switch 3 ON** (State 0-0-1).
 - **Gate 2 (10, 6):** Opens with **Switch 3 ON + Switch 1 ON** (State 1-0-1). Also opened with Seq 3->2->1 (State 1-1-1).
-- **Gate 3 (16, 6):** CLOSED with State 1-1-0 (1 ON, 2 ON, 3 OFF). My hypothesis was wrong.
-- **Trap (16, 8):** Disabled by Sequence 3->2->1.
-- **Trap (10, 4):** Confirmed DISABLED.
-- **Hypothesis:** Try **All Switches ON** (State 1-1-1) produced by Sequence 3->2->1. I didn't check Gate 3 in this state before turning Switch 3 OFF.
+- **Gate 3 (16, 6):** CLOSED with State 1-1-1 (All ON). Sequence 3->2->1 failed.
+- **Hypothesis:** "Switch on the end" refers to Switch 1. Summary suggests Seq 1->2 opens Gate 3.
+- **Plan:** Reset all to OFF. Then try **Sequence 1 -> 2**.
 
-**Plan:**
-1. Turn Switch 3 **ON** (Result: All ON).
-2. Check Gate 3.
-3. If Gate 3 is still closed, try a different sequence or check for hidden switches.
+**Current Status:**
+- Switches: All ON.
+- Resetting...
 
 **Key Locations:**
 - Switch 1: (16, 1) [Right]
