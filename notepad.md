@@ -3,10 +3,11 @@
 - **Puzzle Solved:** Switch Combination [0, 1, 0] (Sw2 ON only) -> Gate 2 OPEN.
 - **Current Status:**
   - Switches: [1, 1, 0] (Sw1 ON, Sw2 ON, Sw3 OFF).
-  - Action: Turned Sw2 ON.
-  - Next: Turn Sw1 OFF.
-  - Target State: [0, 1, 1] (Sw1 OFF, Sw2 ON, Sw3 ON).
-  - Goal: Open Gate 3 or Wall (11, 10).
+  - Confirmed: Gate 2 CLOSED.
+  - Action: Moving to Sw1.
+  - Next: Turn Sw1 OFF -> State [0, 1, 0].
+  - Goal: Open Gate 2 (10, 6).
+  - Extended Goal: Test [0, 1, 1].
 - **Hazards:**
   - Trap suspected on Row 3 (between x=3 and x=8). Warps to (8, 2).
   - Row 4 confirmed safe in past turns.
