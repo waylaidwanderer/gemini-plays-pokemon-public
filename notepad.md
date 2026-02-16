@@ -8,12 +8,10 @@
 - **Gate 3 (16, 6):** Confirmed CLOSED with Seq 1->2 (State 1-1-0).
 - **Gate 3 (16, 6):** Confirmed CLOSED with Seq 1->2->3 (State 1-1-1).
 - **Inner Wall (11, 10):** Confirmed CLOSED with Seq 1->2->3.
-- Visual Confirm: Switch 1 is currently OFF (Text: "It's OFF").
-- Current Status: Switch 1 OFF, Switch 2 OFF.
-- Unknown: Switch 3 status.
-- Action: Leaving Switch 1 OFF. Moving to Switch 3 (2, 1).
-- Path: Down to (16, 5) -> Left to (2, 5) -> Up to (2, 1).
-- Goal: Ensure all switches are OFF, then execute 3 -> 2 -> 1.
+- Current Position: (6, 5). Heading to Switch 3 (2, 1).
+- Action: Checking Switch 3 status.
+- Goal: Turn OFF if ON. Then Start Sequence 3 -> 2 -> 1.
+- Logic: "End Switch First" could mean Left End (3) since Right End (1) failed.
 - **Inner Wall (10, 10) or (11, 10):** Currently the main obstacle behind Gate 2.
 
 **Current Hypothesis:**
