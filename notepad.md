@@ -1,22 +1,15 @@
-# Underground Warehouse Switch Puzzle
+# Underground Warehouse Switch Puzzle (SOLVED)
 
-**Goal:** Open Gate 3 (16, 6) to find the Director.
+**Solution:** Gate 3 (16, 6) opens with **Switch 1 ON** and **Switch 2 ON** (State 1-1-0). Switch 3 OFF.
 
-**Confirmed Mechanics:**
-- **Gate 1 (2, 6):** Confirmed CLOSED with All Switches OFF (Reset Successful).
-- **Puzzle Progress:** Starting Sequence: 3 (Left) -> 2 (Middle) -> 1 (Right).
-- **Gate 2 (10, 6):** **CLOSED** with **Switch 3 ON** (State 0-1-1). **OPEN** (implied) with **Switch 2 Only** (State 0-1-0).
-- **Column 11 (11, 6):** **CLOSED** with **Switch 3 ON**. **OPEN** with **Switch 2 Only**.
-- **Puzzle Logic:**
-    - **Switch 2 (ON):** Opens **Entrance (11, 6)**.
-    - **Switch 1 (ON):** Opens **Exit (11, 10)**.
-    - **Switch 3 (ON):** Closes Entrance (11, 6) (and opens Gate 1).
-- **Observation:** `(11, 10)` is a Wall with State 1-1-0.
-- **Hypothesis:** "The switch on the end is the one to press first" implies a **SEQUENCE**, not just a state.
-- **Current Status:** Gate 3 (16, 6) is **OPEN**.
-- **Exploration:** Exploring area South of Gate 3.
-- **Objective:** Reach Warp at (22, 10) or find Director directly.
-- **Trap Safety:** Trap at (16, 8) *should* be safe with Switch 1 ON.
+**Mechanics Summary:**
+- **Switch 2 (ON):** Opens Entrance (11, 6).
+- **Switch 1 (ON):** Opens Exit (11, 10).
+- **Switch 3 (ON):** Closes Entrance (11, 6) & Opens Gate 1.
+- **Gate 3:** Closed if Switch 3 is ON. Open if Sw1 & Sw2 ON.
+
+**Current Location:** Director's Room (3_53).
+**Objective:** Rescue Director.
 
 # Underground Warehouse Truth Table
 
