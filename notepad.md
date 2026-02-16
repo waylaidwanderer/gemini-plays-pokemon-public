@@ -41,7 +41,7 @@
 3. If fail, reconsider "Sequence".
 
 **Key Locations:**
-- Switch 1: (16, 1) [Right] - OFF
+- Switch 1: (16, 1) [Right] - ON (All Switches ON)
 - Switch 2: (10, 1) [Middle] - ON
 - Switch 3: (2, 1) [Left] - OFF
 - Gate 2: (10, 6)
