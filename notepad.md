@@ -15,9 +15,18 @@ Location: Warehouse (3_54).
 Objective: Open Gate 1 (2, 6).
 Status:
 - State 0-0-0 (All OFF).
-- Testing Gate 1.
+- Turning Switch 2 OFF now.
+- Testing Gate 1 next.
+Truth Table (Gate 1):
+- 1-1-1: CLOSED
+- 1-0-1: CLOSED
+- 0-1-1: CLOSED
+- 0-1-0: CLOSED
+- 0-0-1: CLOSED
+- 1-1-0: OPENED Gate 3. Gate 1 Likely Closed (Not checked).
+- 0-0-0: Testing...
+- 1-0-0: Untested.
 Plan:
-1. Check Gate 1 (2, 6).
-2. If Closed, I'm resetting to try a specific sequence starting with "The End Switch".
-3. Sequence Hypothesis: Sw3 -> Sw2 -> Sw1? Or Sw1 -> Sw2 -> Sw3?
-4. But first, check Gate 1.
+1. Confirm Switch 2 OFF.
+2. Navigate to Gate 1 (2, 6).
+3. Check status.
