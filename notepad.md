@@ -6,11 +6,11 @@
 - **Gate 1 (2, 6):** Opens with **Switch 3 ON** (State 0-0-1).
 - **Gate 2 (10, 6):** Opens with **Switch 3 ON + Switch 1 ON** (State 1-0-1). Also opened with Seq 3->2->1 (State 1-1-1).
 - **Gate 3 (16, 6):** Confirmed CLOSED with Seq 1->2 (State 1-1-0).
-- Action: Turning Switch 3 ON.
-- Final Sequence: 1 -> 2 -> 3.
-- Current Status: Switch 1 ON, Switch 2 ON, Switch 3 ON (State 1-1-1).
-- Plan: Check Gate 3 (16, 6).
-- Rationale: Attempting "End (1) -> Middle (2) -> End (3)" sequence.
+- Action: Confirming Switch 3 ON.
+- State: 1-1-1.
+- Plan: Check Gate 1 (2, 6) first (it's nearby).
+- Then: Check Gate 3 (16, 6).
+- Path: Down to (2, 6). Then Row 5 to Gate 3.
 - **Inner Wall (10, 10) or (11, 10):** Currently the main obstacle behind Gate 2.
 
 **Current Hypothesis:**
