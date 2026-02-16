@@ -14,10 +14,9 @@
 - **Observation:** `(11, 10)` is a Wall with State 1-1-0.
 - **Hypothesis:** "The switch on the end is the one to press first" implies a **SEQUENCE**, not just a state.
 - **Plan:**
-    1. Exit Middle Room via `(11, 6)` or `(12, 9)` (if open).
-    2. Reset all switches to **OFF**.
-    3. Try Sequence: **Switch 3 -> Switch 2 -> Switch 1** (Left to Right).
-    4. Try Sequence: **Switch 1 -> Switch 2 -> Switch 3** (Right to Left).
+    1. Reset all switches to **OFF**.
+    2. Try Sequence: **Switch 1 -> Switch 2 -> Switch 3** (Right to Left).
+    3. If that fails, re-evaluate clues.
 
 # Underground Warehouse Truth Table
 
