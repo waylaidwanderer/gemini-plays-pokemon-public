@@ -42,5 +42,5 @@
 - Goal: Reach Rocket Grunt F at (19, 12).
 - Visual Confirm: Wall at (16, 10) is CLOSED with Seq 1->2.
 - Conclusion: Sequence 1 -> 2 opens Gate 3 but path is blocked.
-- Plan: Reset. Try Sequence 1 -> 3 -> 2 (End -> End -> Middle).
-- Action: Return to Switch 1 (16, 1) to turn OFF.
+- Plan: Toggle Switch 2 OFF (State: 1-0-0). Then Toggle Switch 3 ON (State: 1-0-1).
+- Target: Check if Gate 3 or Inner Wall opens with [1, 0, 1] or [1, 1, 1].
