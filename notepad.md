@@ -8,12 +8,14 @@
 - **Gate 3 (16, 6):** **OPEN** with **Switch 1 ON** (State 1-0-0).
 - **Gate 1 (2, 6):** CLOSED (State 1-0-0).
 - **Gate 2 (10, 6):** CLOSED (State 1-0-0).
-- **Trap (16, 8):** Status Unknown for State 1-0-0. (Disabled in 1-1-1).
-- **Hypothesis:** Switch 1 opens Gate 3. Need to check if trap is active.
+- **Trap (16, 8):** **DISABLED** with **Switch 1 ON**.
+- **Gate 3 (16, 6):** **OPEN** with **Switch 1 ON**.
+- **Plan:** Explore area behind Gate 3. Try to reach (11, 10) via Row 9.
+- **Hypothesis:** Row 9 connects the areas behind the gates.
 
 **Current Status:**
 - Switches: Switch 1 ON, others OFF.
-- Plan: Enter Gate 3 and test trap.
+- Position: (16, 8).
 
 **Key Locations:**
 - Switch 1: (16, 1) [Right]
