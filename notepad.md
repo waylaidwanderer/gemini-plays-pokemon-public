@@ -8,10 +8,10 @@
 - **Gate 3 (16, 6):** Confirmed CLOSED with Seq 1->2 (State 1-1-0).
 - **Gate 3 (16, 6):** Confirmed CLOSED with Seq 1->2->3 (State 1-1-1).
 - **Inner Wall (11, 10):** Confirmed CLOSED with Seq 1->2->3.
-- Correction: I am at (10, 2), facing Switch 2. Menu is open.
-- Action: Turning Switch 2 OFF.
-- Next: Turn Switch 1 and 3 OFF (Manual Reset).
-- Path: (10, 2) -> Down to Row 5 -> Right to Switch 1.
+- Current Status: Switch 1 ON, Switch 2 OFF, Switch 3 ON (State: 1-0-1).
+- Action: Moving to Switch 1 (16, 1) via safe path (Col 8 -> Row 5 -> Col 16).
+- Plan: Turn Switch 1 OFF. Then go to Switch 3 and Turn OFF.
+- Goal: Reset all to OFF for Sequence 3 -> 2 -> 1.
 - **Inner Wall (10, 10) or (11, 10):** Currently the main obstacle behind Gate 2.
 
 **Current Hypothesis:**
