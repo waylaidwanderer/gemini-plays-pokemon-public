@@ -14,10 +14,10 @@
 Location: Warehouse (3_54).
 Objective: Open Gate 1 (2, 6).
 Status:
-- State 1-1-1 (All ON): Gate 1 CLOSED.
-- State 1-1-0 (Sw1, Sw2 ON): Gate 3 OPEN (Dead End).
-Correction: Navigation error previously (treated walls as walkable).
-Current Plan:
-1. Turn Switch 2 OFF (State 1-0-1: Sw1 ON, Sw2 OFF, Sw3 ON).
-2. Check Gate 1 (2, 6).
-3. Important: Exit Switch 2 area via (9, 2) to avoid Trap at (10, 4).
+- State 1-0-1 (Sw1 ON, Sw2 OFF, Sw3 ON).
+- Gate 3 (16, 6) likely Closed (requires Sw2 ON).
+- Trap (10, 4) likely ACTIVE (avoid).
+Plan:
+1. Navigate to Gate 1 (2, 6) via the left corridor (Column 2-9).
+2. Check if Gate 1 is OPEN.
+3. If Open, explore. If Closed, rethink logic (maybe Sw1 needs to be OFF?).
