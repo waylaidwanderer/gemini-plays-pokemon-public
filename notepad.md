@@ -6,14 +6,10 @@
 - **Gate 1 (2, 6):** **OPEN** with **Switch 3 ON** (State 0-0-1).
 - **Gate 2 (10, 6):** **CLOSED** with **Switch 3 ON** (State 0-1-1). **OPEN** (implied) with **Switch 2 Only** (State 0-1-0).
 - **Column 11 (11, 6):** **CLOSED** with **Switch 3 ON**. **OPEN** with **Switch 2 Only**.
-- **Conclusion:** **State 0-1-0** (Switch 2 Only) is the likely solution. It opens Gate 2 (or the bypass at 11,6).
-- **Plan:** Turn **Switch 3 OFF**. Go to Gate 2/Column 11.
-
-**Current Status:**
-- Switches: 1 OFF, 2 ON, 3 OFF. (State 0-1-0).
-- Position: Moving to Gate 2 area (Column 11).
-- **Hypothesis:** State 0-1-0 opens the path at (11, 6) allowing access behind Gate 2.
-- **Log Evidence:** Turn 46715 & 46724 logs show (11, 6) toggling with Switch 3.
+- **Success!** **State 0-1-0** (Switch 2 Only) opened the bypass at **(11, 6)**.
+- **Current Position:** (11, 6). Standing on the opened path.
+- **Plan:** Walk South through (11, 10) (also expected to be open). Explore the area behind the gates to find the Director.
+- **Confirmed Mechanics:** Switch 2 toggles the "Internal Walls" at Col 11. Switch 3 and 1 control the Gates (mostly closed or useless if walls are up).
 
 **Key Locations:**
 - Switch 1: (16, 1) [Right] - OFF
