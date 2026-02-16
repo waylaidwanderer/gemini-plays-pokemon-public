@@ -24,6 +24,6 @@
 - Action: Turned Switch 3 OFF.
 - Visual Confirm: Gate 3 (16, 6) is CLOSED (Type 2889) with State 0-1-0.
 - Action: Resetting all switches to OFF.
-- Step 1: Turn Switch 2 OFF (Current: ON).
+- Step 1: Turn Switch 2 OFF (Current: ON). (In Progress)
 - Step 2: Try Sequence 1 -> 2 (State 1-1-0) from a fresh start.
 - Note: Verifying "End Switch First" hint. Trying Right End (Switch 1) first.
