@@ -4,10 +4,8 @@ Status:
 - Switch 3 OFF (Verified).
 - Switch 2 ON (Verified).
 - Switch 1 ON (Verified).
-- Gate 1 (Left) explored.
-- Gate 2 (Middle) locked.
-- Gate 3 (Right) target.
+- Gate 3 (Right) OPEN.
 Plan:
-1. Move to Gate 3 (16, 6).
-2. If Open, Enter.
-3. If Closed, try combination 3-OFF, 2-OFF, 1-ON (Requires walking back).
+1. Enter Gate 3 (16, 6).
+2. Navigate carefully past potential traps (16, 8).
+3. Find Director/Key.
