@@ -15,3 +15,5 @@ Location: Director's Room (3_53).
 Objective: Rescue Director.
 Status: Re-entered room. Silver is gone. Rocket Grunt is at (22, 24).
 Plan: Talk to the Grunt. If blocked, try to go around him (Left or Right). The previous "invisible wall" might be gone now that Silver left.
+Observation: Pressing 'A' on the Grunt (22, 24) did nothing.
+Strategy: Moving Left to (21, 25) and attempting to move Up to (21, 24) to bypass him.
