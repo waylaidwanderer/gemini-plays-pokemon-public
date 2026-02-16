@@ -3,7 +3,7 @@
 - **Hypothesis:** Order matters ("Switch on the end first").
 - **Sequence Tests:**
   - `3 -> 2 -> 1`: Failed (Gate 3 closed).
-  - `1 -> 2 -> 3`: Testing now.
+  - `1 -> 2 -> 3`: Gate 1 CLOSED. Checking Gate 3.
 - **Current Status:**
   - State: [0, 0, 1] (Sw1 OFF, Sw2 OFF, Sw3 ON).
   - Action: Turn Sw3 OFF -> [0, 0, 0].
