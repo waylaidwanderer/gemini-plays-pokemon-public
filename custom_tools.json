@@ -590,7 +590,7 @@
     ]
   },
   "check_gate_states": {
-    "description": "Checks the open/closed state of the warehouse gates by parsing the Mental Map XML. Prints a JSON dictionary of gate states to the log. Intended for use with autopress_buttons=false.",
+    "description": "Checks the open/closed state of the warehouse gates and dynamic walls by parsing the Mental Map XML. Prints a JSON dictionary of states. Intended for use with autopress_buttons=false.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -604,7 +604,7 @@
         "autopress_buttons"
       ]
     },
-    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\ndef check_gates(map_xml):\n    try:\n        root = ET.fromstring(map_xml)\n        gates = {\n            \"Gate 1 (2, 6)\": \"Unknown\",\n            \"Gate 2 (10, 6)\": \"Unknown\",\n            \"Gate 3 (16, 6)\": \"Unknown\"\n        }\n        coords_to_check = {\n            \"2,6\": \"Gate 1 (2, 6)\",\n            \"10,6\": \"Gate 2 (10, 6)\",\n            \"16,6\": \"Gate 3 (16, 6)\"\n        }\n        \n        for row in root.findall(\"Row\"):\n            y = row.get(\"id\")\n            if y != \"6\": continue\n            for tile in row.findall(\"Tile\"):\n                x = tile.get(\"id\")\n                key = f\"{x},{y}\"\n                if key in coords_to_check:\n                    t_type = tile.get(\"type\")\n                    # TYPE_3fe2 is the floor type (open), TYPE_2889 is the wall type (closed)\n                    if t_type == \"TYPE_3fe2\":\n                        status = \"OPEN\"\n                    elif t_type == \"TYPE_2889\":\n                        status = \"CLOSED\"\n                    else:\n                        status = f\"Unknown Type ({t_type})\"\n                    gates[coords_to_check[key]] = status\n                    \n        print(json.dumps(gates, indent=2))\n        return [] # No buttons to press\n    except Exception as e:\n        print(f\"Error checking gates: {e}\")\n        return []\n\ncheck_gates(map_xml_string)",
+    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\ndef check_gates(map_xml):\n    try:\n        root = ET.fromstring(map_xml)\n        gates = {\n            \"Gate 1 (2, 6)\": \"Unknown\",\n            \"Gate 2 (10, 6)\": \"Unknown\",\n            \"Gate 3 (16, 6)\": \"Unknown\",\n            \"Wall (2, 10)\": \"Unknown\",\n            \"Wall (11, 10)\": \"Unknown\",\n            \"Wall (18, 9)\": \"Unknown\",\n            \"Wall (12, 12)\": \"Unknown\"\n        }\n        coords_to_check = {\n            \"2,6\": \"Gate 1 (2, 6)\",\n            \"10,6\": \"Gate 2 (10, 6)\",\n            \"16,6\": \"Gate 3 (16, 6)\",\n            \"2,10\": \"Wall (2, 10)\",\n            \"11,10\": \"Wall (11, 10)\",\n            \"18,9\": \"Wall (18, 9)\",\n            \"12,12\": \"Wall (12, 12)\"\n        }\n        \n        for row in root.findall(\"Row\"):\n            y = row.get(\"id\")\n            for tile in row.findall(\"Tile\"):\n                x = tile.get(\"id\")\n                key = f\"{x},{y}\"\n                if key in coords_to_check:\n                    t_type = tile.get(\"type\")\n                    # TYPE_3fe2 is the floor type (open), TYPE_2889 is the wall type (closed)\n                    if t_type == \"TYPE_3fe2\":\n                        status = \"OPEN\"\n                    elif t_type == \"TYPE_2889\":\n                        status = \"CLOSED\"\n                    else:\n                        status = f\"Unknown Type ({t_type})\"\n                    gates[coords_to_check[key]] = status\n                    \n        print(json.dumps(gates, indent=2))\n        return [] # No buttons to press\n    except Exception as e:\n        print(f\"Error checking gates: {e}\")\n        return []\n\ncheck_gates(map_xml_string)",
     "history": [
       {
         "commit_message": "Initial version",
@@ -665,6 +665,11 @@
         "commit_message": "Added tool to check gate states remotely.",
         "timestamp": "2026-02-16T13:19:00.633Z",
         "action_counter": 46565
+      },
+      {
+        "commit_message": "Updated to check additional dynamic walls at (11,10), (2,10), (18,9), and (12,12).",
+        "timestamp": "2026-02-16T13:48:25.389Z",
+        "action_counter": 46606
       }
     ]
   }
