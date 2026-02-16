@@ -4,10 +4,10 @@
 - **Current Status:**
   - Switches: [1, 0, 0] (Sw1 ON, Sw2 OFF, Sw3 OFF).
   - Confirmed: [1, 0, 0] opens Gate 3 only.
-  - Action: Moving to Switch 2.
+  - Action: Interacting with Switch 2 (10, 1).
   - Plan: Turn Sw2 ON -> State [1, 1, 0].
-  - Hypothesis: Check if [1, 1, 0] opens Wall (11, 10) or Bypass x=11.
-  - Logic: Sw3 ON closed the bypass. Sw3 OFF might allow it.
+  - Target: Verify Wall (11, 10) and Bypass x=11.
+  - Note: [1, 1, 0] opens Gate 1, but did I check x=11?
 - **Hazards:**
   - Trap suspected on Row 3 (between x=3 and x=8). Warps to (8, 2).
   - Row 4 confirmed safe in past turns.
