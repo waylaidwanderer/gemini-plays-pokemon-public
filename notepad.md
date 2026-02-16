@@ -8,12 +8,10 @@
 - **Gate 3 (16, 6):** Confirmed CLOSED with Seq 1->2 (State 1-1-0).
 - **Gate 3 (16, 6):** Confirmed CLOSED with Seq 1->2->3 (State 1-1-1).
 - **Inner Wall (11, 10):** Confirmed CLOSED with Seq 1->2->3.
-- Correction: Trap at (10, 4) appears disabled or I didn't trigger it.
-- Current Position: (10, 4).
-- Action: Moving Up to Switch 2 (10, 1).
-- Plan: Turn Switch 2 OFF.
-- Next: Turn Switch 1 and 3 OFF.
-- Goal: Reset puzzle for Sequence 3 -> 2 -> 1.
+- Correction: I am at (10, 2), facing Switch 2. Menu is open.
+- Action: Turning Switch 2 OFF.
+- Next: Turn Switch 1 and 3 OFF (Manual Reset).
+- Path: (10, 2) -> Down to Row 5 -> Right to Switch 1.
 - **Inner Wall (10, 10) or (11, 10):** Currently the main obstacle behind Gate 2.
 
 **Current Hypothesis:**
