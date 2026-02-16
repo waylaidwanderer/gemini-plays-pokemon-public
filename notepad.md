@@ -6,7 +6,7 @@
   - Combos: `[1, 1, 0]`, `[1, 0, 1]`, `[1, 1, 1]`, `[0, 1, 0]`.
 - **Current Test:** `[1, 0, 0]` (Switch 1 Only).
 - **Status:**
-  - Sw3: ON -> turning OFF.
+  - Sw3: OFF.
   - Sw2: OFF.
   - Sw1: OFF -> turning ON.
-Turn 45870: `[0, 0, 1]` failed to open Gate 1. Moving to Switch 3 to turn OFF.
+Turn 45872: Turned Switch 3 OFF. Moving to Switch 1.
