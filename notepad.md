@@ -117,3 +117,4 @@
   - Plan: Test Sequence Sw3 -> Sw2 -> Sw1.
 Turn 45785: Manually moving to Switch 3 (2, 2) to turn OFF.
 Turn 45786: Turned Switch 3 OFF. State: [0, 0, 0] (All OFF). Starting Sequence Test: 3 -> 2 -> 1.
+Turn 45787: Confirmed Switch 3 OFF. Reset Complete: [0, 0, 0].
