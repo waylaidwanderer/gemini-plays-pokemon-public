@@ -1,13 +1,13 @@
 Location: Warehouse (3_54).
 Objective: Rescue the Director.
 Status:
-- Puzzle Solved: Switch State 0-0-0 (All OFF) opened Gate 1.
-- Current Interaction: Rival Silver at (4, 8).
-- Dialogue: Silver claims "There's nothing down there."
-- Potential Hidden Item: Check the area Silver came from after he leaves.
-Important Locations:
-- Director's Room (3_53): Accessible via warp at (23, 3) (Currently blocked/empty?).
-- Switch 1 (16, 1): OFF
-- Switch 2 (10, 1): OFF
-- Switch 3 (2, 1): OFF
-- Gate 1 (2, 6): OPEN
+- Puzzle State: All OFF (0-0-0).
+- Gate 1 (2, 6) is OPEN.
+- Rival Silver at (4, 8).
+- Dialogue: He claims "There's nothing down there."
+- Strategy: Bypassing Silver to explore the area South/East of him.
+- Caution: Traps in Column 10 might be active (Sw2 is OFF).
+Plan:
+1. Walk around Silver (Down -> Right).
+2. Explore East towards Column 10.
+3. If path is blocked or trapped, consider changing Switch states.
