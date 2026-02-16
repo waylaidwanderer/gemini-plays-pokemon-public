@@ -23,4 +23,7 @@
 - NOTE: 'check_gate_states' tool relies on Mental Map, which may have stale 'Open' states for gates I haven't seen recently. Must visually verify.
 - Plan Update: Go to Switch 2 (10, 2), turn ON. Then check Gate 2.
 - Visual Confirm: Gate 2 (10, 6) is OPEN with State [0, 0, 1], but path is blocked by Wall at (10, 10).
-- Action: Turning Switch 2 ON to test effect on Gate 2 and Wall 2.
+- CORRECTION: Switch 2 was actually ON.
+- Action: Turned Switch 2 OFF.
+- Plan: Check Gate 2 state. If it closes, Switch 2 must be ON. Need to find what opens Wall 2.
+- Current State Hypothesis: Sw2 OFF. Sw3 ON? Sw1 OFF?
