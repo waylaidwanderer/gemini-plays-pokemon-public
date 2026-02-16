@@ -15,12 +15,12 @@
 - Switch 3 (Left): **ON** (Verified - Step 2 of Sequence)
 - Global State: 0-0-0 (Reset Complete).
 
-**Plan: Test Sequence 3 -> 2 (State 0-1-1)**
-1. Turn Switch 2 **OFF** (Reset).
-2. Turn Switch 3 **OFF** (Reset).
-3. Turn Switch 3 **ON** (Step 1).
-4. Turn Switch 2 **ON** (Step 2).
-5. Check Gate 3. (Do NOT press Switch 1).
+**Plan: Test Sequence 3 -> 2 -> 1 (Left -> Middle -> Right)**
+1. Reset: Turn Switch 2 **OFF**, Switch 3 **OFF**. (Switch 1 is already OFF).
+2. Step 1: Turn Switch 3 **ON**.
+3. Step 2: Turn Switch 2 **ON**.
+4. Step 3: Turn Switch 1 **ON**.
+5. Check Gate 3.
 
 **Key Locations:**
 - Switch 1: (16, 1) [Right]
