@@ -17,12 +17,11 @@
     2. Reset all switches to **OFF**.
     3. Try Sequence: **Switch 3 -> Switch 2 -> Switch 1** (Left to Right).
     4. Try Sequence: **Switch 1 -> Switch 2 -> Switch 3** (Right to Left).
-- **Status:** Resetting all switches to **OFF**.
-- **Action:** Turning Switch 1 OFF. Moving to Switch 2.
-- **Next:** Turn Switch 2 OFF. Turn Switch 3 OFF.
-- **Plan:** Execute Sequence **3 -> 2 -> 1** (Left to Right).
-    - If that fails, try **1 -> 2 -> 3**.
-    - Check (11, 6) and (11, 10) after each step if possible, or at the end.
+- **Status:** Moving to Switch 2 (10, 2) to turn it OFF.
+- **Path:** Via Row 5 to avoid Grunt at (11, 2) and Traps at (15, 4).
+- **Grunt Alert:** Confused Grunt blocking (11, 2).
+- **Traps:** Row 4 traps (10, 4) safe while Sw2 ON, but unsafe after.
+- **Next:** Turn Sw2 OFF. Then navigate to Sw3 via Col 8 to avoid traps.
 
 **Key Locations:**
 - Switch 1: (16, 1) [Right] - OFF
