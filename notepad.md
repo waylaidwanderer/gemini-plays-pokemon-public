@@ -1,12 +1,11 @@
 Location: Warehouse (3_54).
-Objective: Check Secret Door at (11, 6).
+Objective: Check Gate 3 (16, 6).
 Status:
-- Switch 2 ON (State 0-1-0).
-- Gate 2 (10, 6) CLOSED.
-- Gate 1 (Left) opens with All OFF?
-- Gate 3 (Right) opens with Sw1 ON?
+- Switch 2 ON.
+- Switch 1 ON (State 1-1-0).
+- Gate 3 (16, 6) should be OPEN.
+- Gate 2 (10, 6) probably CLOSED.
 Plan:
-1. Move Right to (11, 5).
-2. Check if (11, 6) is open (Marker says "Secret Door (Sw2)").
-3. If open, explore South.
-4. Watch out for wall at (11, 10) (needs Sw1?).
+1. Go down to (16, 6).
+2. If Open, explore the area behind Gate 3.
+3. Look for walls opening/closing based on Sw1.
