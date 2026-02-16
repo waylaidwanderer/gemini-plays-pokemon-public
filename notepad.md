@@ -3,16 +3,15 @@
 **Goal:** Open Gate 3 (16, 6) to find the Director.
 
 **Confirmed Mechanics:**
-- **Gate 1 (2, 6):** **OPEN** with **Switch 3 ON** (State 0-0-1).
-- **Gate 3 (16, 6):** **OPEN** with **Switch 1 ON** (State 1-0-0).
+- **Gate 1 (2, 6):** **OPEN** with **Switch 3 ON** (State 0-0-1). **CLOSED** with **Switch 3 OFF**.
+- **Gate 3 (16, 6):** **OPEN** with **Switch 1 ON** (State 1-0-0). **CLOSED** with **Switch 1 & 3 ON** (State 1-0-1).
 - **Gate 2 (10, 6):** **CLOSED** with **State 1-0-1**.
 - **Wall at (2, 10):** BLOCKING with Switch 3 ON.
-- **Current Test:** Reverting to **State 1-0-0** (Switch 1 Only).
-- **Hypothesis:** Switch 1 opens Gate 3 AND a secret path inside (possibly at 11,10 or 16,10).
+- **Hypothesis:** Switch 2 ON created the wall at (16, 10). Testing **State 1-0-0** (Sw1 ON, Sw2 OFF, Sw3 OFF) might open Gate 3 AND the wall behind it.
 
 **Current Status:**
-- Switches: 1 ON, 2 OFF, 3 ON.
-- Position: At (8, 2). Moving to Switch 3 to turn it OFF.
+- Switches: 1 ON, 2 OFF, 3 OFF. (State 1-0-0).
+- Position: At Switch 3 (2, 1). Turning it OFF. Next: Check Gate 3.
 
 **Current Status:**
 - Switches: 1 ON, 2 OFF, 3 ON. (State 1-0-1).
