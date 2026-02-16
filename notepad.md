@@ -2,9 +2,9 @@ Location: Warehouse (3_54).
 Objective: Test Switch Combinations.
 Status:
 - Switch 1 ON. Switch 2 ON.
-- Switch 3 turned OFF (State 1-1-0).
-- Previously: All ON -> Traps Active, Inner Gates Closed.
+- Switch 3 OFF (State 1-1-0).
+- Checking Gate 1 (2, 6).
 Plan:
-1. Check Gate 1 (2, 6).
-2. If closed, then Sw3 controls Gate 1.
-3. Try different combos (e.g. 0-1-0, 0-0-1).
+1. Check Gate 1.
+2. If Gate 1 closed, Sw3 is needed.
+3. Try turning Sw2 OFF next? (State 1-0-0).
