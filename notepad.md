@@ -54,3 +54,5 @@
 - Action: Routing via Row 4 to reach Switch 2.
 - Visual Confirm: Gate 1 (2, 6) is [Status Pending].
 - Action: Checking Gate 1. Then Gate 2.
+- Visual Confirm: Gate 1 (2, 6) is CLOSED with Seq 1->2->3.
+- Action: Checking Gate 2 (10, 6) and Gate 3 (16, 6).
