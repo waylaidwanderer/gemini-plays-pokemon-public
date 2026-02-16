@@ -17,11 +17,12 @@
     2. Reset all switches to **OFF**.
     3. Try Sequence: **Switch 3 -> Switch 2 -> Switch 1** (Left to Right).
     4. Try Sequence: **Switch 1 -> Switch 2 -> Switch 3** (Right to Left).
-- **Status:** Switch 2 ON (Escape Mode). Moving to Switch 3.
+- **Status:** Switch 3 turned **ON** (Step 1 Complete). Moving to Switch 2.
 - **Sequence Plan:**
-    1. **Switch 3 ON** (Start of sequence).
-    2. Return to Switch 2. Reset (OFF -> ON).
-    3. Go to Switch 1. Turn ON.
+    1. **Switch 3 ON** (Done).
+    2. **Switch 2** (Reset: OFF -> ON).
+    3. **Switch 1** (Turn ON).
+- **State:** Sw2 ON, Sw3 ON. (State 0-1-1). Gate 2 likely closed now, but following sequence logic.
 - **Trap Note:** Row 4 seems safe with Sw2 ON. Taking Row 5 to be extra sure.
 
 **Key Locations:**
