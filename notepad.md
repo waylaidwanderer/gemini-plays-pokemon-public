@@ -23,9 +23,9 @@
 - Visual Confirm: Gate 1 (2, 6) is CLOSED.
 - Visual Confirm: Switch 1 turned ON.
 - Visual Confirm: Switch 2 turned ON (Seq 1->2).
-- Current Status: Switch 1 OFF. Switch 2 ON. Switch 3 OFF.
-- Action: Turn Switch 2 OFF.
-- Plan: Execute Sequence 1 -> 3 -> 2.
+- Correction: I canceled the Switch 1 toggle with 'B'. It is likely still ON.
+- Action: Turn Switch 1 OFF (Confirmed).
+- Plan: Reset All to OFF. Then Try Sequence 1 -> 3 -> 2.
 - SOLVED: Gate 3 (16, 6) OPENS with Sequence 1 -> 2.
 - Action: Entering Gate 3.
 - Caution: Trap at (16, 8) status unknown for this sequence. Bypassing via column 17.
