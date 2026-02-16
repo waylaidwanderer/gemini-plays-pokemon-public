@@ -13,3 +13,5 @@
   3. Turn Sw2 ON.
   4. Turn Sw1 ON.
   5. Check Gate 1.
+- **Observation:** Turning all switches OFF (State `[0, 0, 0]`) opened a path at (3, 6) and (3, 7).
+- **Plan Update:** Investigate the new path at (3, 6).
