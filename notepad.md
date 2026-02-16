@@ -26,4 +26,4 @@
 - Action: Moving to Switch 1 (16, 1) via Row 5 (safe path).
 - Plan: Turn Switch 1 ON.
 - Next: Turn Switch 2 ON.
-- Target: Gate 3 (16, 6).
+- Theory: Sequence 1 -> 2 (from 0-0-0) opens Gate 3. Order matters!
