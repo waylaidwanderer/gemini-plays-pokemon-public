@@ -55,3 +55,4 @@
 - **Navigation:** Trying Column 6 traverse.
 - **Trap Analysis:** Stuck in Middle Pocket (Cols 8-11). Cols 8, 9, 10 are traps with Sw2 OFF. Walls block Left (Col 6/7) and Right (Col 12).
 - **Escape Plan:** Attempting escape via **Column 11** traverse. If this fails, navigation logic needs a rethink (or Sw2 must be ON to move).
+**Discovery:** Walking over (10, 4) with Switch 2 ON did NOT trigger the warp. Trap (10, 4) is disabled by Switch 2.
