@@ -12,11 +12,13 @@
 **Objective:** Open Gate 3.
 
 Location: Warehouse (3_54).
-Objective: Open Gate 1 (2, 6).
+Objective: Open Gate 1 (2, 6) to access the South area.
 Status:
-- State 1-0-1 (Sw1 ON, Sw2 OFF, Sw3 ON).
-- Successfully traversed (9, 4) - Trap seems inactive in this state.
+- State 1-0-1 (Sw1 ON, Sw2 OFF, Sw3 ON): Gate 1 CLOSED.
+- State 1-1-1 (All ON): Gate 1 CLOSED.
+Hypothesis: Switch 1 (currently ON) is keeping Gate 1 closed.
 Plan:
-1. Navigate to Gate 1 (2, 6) via Row 5.
-2. Check if Gate 1 is OPEN.
-3. If Open, explore. If Closed, rethink logic (maybe Sw1 needs to be OFF?).
+1. Go to Switch 1 (16, 1). Turn OFF.
+2. Resulting State: 0-0-1 (Sw1 OFF, Sw2 OFF, Sw3 ON).
+3. Check Gate 1 (2, 6). It should be OPEN.
+4. If Open, check Wall (2, 10). If open, proceed East along Row 12 to find the Grunt.
