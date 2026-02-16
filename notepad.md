@@ -21,7 +21,7 @@
 - Switch 1: (16, 1) [Right]
 - Switch 2: (10, 1) [Middle]
 - Switch 3: (2, 1) [Left]
-- Correction: Path via Column 17 was blocked by wall at (17, 6).
-- Action: Moving South through Gate 3 (16, 6).
-- Risk: Forced to step on trap at (16, 8). Testing if State 0-1-1 disables it.
-- Goal: Reach (16, 10).
+- Correction: Gate 3 (16, 6) is CLOSED (Type 2889) with State 0-1-1.
+- Gate 2 (10, 6) is OPEN (Type 3fe2).
+- Plan: Turn Switch 1 ON (State 1-1-1). Check Gate 3.
+- If Closed, Turn Switch 3 OFF (State 1-1-0).
