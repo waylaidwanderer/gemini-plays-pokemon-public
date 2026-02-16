@@ -14,8 +14,8 @@
 
 **Current Status:**
 - Switches: 1 OFF, 2 ON, 3 ON. (State 0-1-1).
-- Position: At Switch 3 (2, 1). Turned ON.
-- Next Action: Check Gate 2 (10, 6).
+- Position: Moving to Gate 2 (10, 6) via Row 5.
+- Next Action: Verify Gate 2 status.
 - **Hypothesis:** State 0-1-1 opens Gate 2 AND the wall behind it.
 
 **Key Locations:**
