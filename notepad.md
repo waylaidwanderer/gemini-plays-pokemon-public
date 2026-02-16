@@ -5,9 +5,9 @@ Status:
 - Switch 2 OFF (Verified).
 - Switch 1 ON (Verified).
 - State: 1-0-1.
-- Gate 2 (Middle) Target.
-- Gate 3 (Right) Open? (Unverified in this state).
+- Gate 2 (Middle) CLOSED (Verified).
+- Secret Wall check in progress.
 Plan:
-1. Navigate to Gate 2 (10, 6). Safe path via Col 8.
-2. Check if Gate 2 is OPEN.
-3. If closed, check Secret Wall at (11, 10).
+1. Check Secret Walls at (11, 6) and (11, 10).
+2. If closed, return to switches.
+3. Try Combo 1-1-0 (Sw3 ON, Sw2 ON, Sw1 OFF) or 0-1-0 (Sw3 OFF, Sw2 ON, Sw1 OFF).
