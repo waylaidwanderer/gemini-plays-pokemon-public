@@ -24,5 +24,6 @@
 - Action: Turned Switch 3 OFF.
 - Action: Turn Switch 1 ON.
 - Current Status: Switch 1 ON, Switch 2 OFF, Switch 3 OFF (State: 1-0-0).
-- Plan: Move to Switch 2 and turn it ON.
+- Action: Moving to Switch 2 (10, 1) via safe path (Row 5).
+- Step 2: Turn Switch 2 ON.
 - Theory: Sequence 1 -> 2 opens Gate 3.
