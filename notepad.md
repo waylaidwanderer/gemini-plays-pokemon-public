@@ -7,11 +7,12 @@
 - **Gate 3 (16, 6):** **OPEN** with **Switch 1 ON** (State 1-0-0). **CLOSED** with **Switch 1 & 3 ON** (State 1-0-1).
 - **Gate 2 (10, 6):** **CLOSED** with **State 1-0-1**.
 - **Wall at (2, 10):** BLOCKING with Switch 3 ON.
-- **Hypothesis:** Switch 2 ON created the wall at (16, 10). Testing **State 1-0-0** (Sw1 ON, Sw2 OFF, Sw3 OFF) might open Gate 3 AND the wall behind it.
+- **Current Test:** **State 1-0-0** (Sw1 ON, Sw2 OFF, Sw3 OFF).
+- **Hypothesis:** Switch 1 opens Gate 3. Switch 2 OFF removes the wall at (16, 10).
 
 **Current Status:**
 - Switches: 1 ON, 2 OFF, 3 OFF. (State 1-0-0).
-- Position: At Switch 3 (2, 1). Turning it OFF. Next: Check Gate 3.
+- Position: At Switch 3 (2, 1). Moving to Gate 3 (16, 6).
 
 **Current Status:**
 - Switches: 1 ON, 2 OFF, 3 ON. (State 1-0-1).
