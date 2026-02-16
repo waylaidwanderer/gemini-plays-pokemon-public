@@ -1,10 +1,18 @@
 Location: Warehouse (3_54).
 Objective: Test State 0-1-1 (Sw1 OFF, Sw2 ON, Sw3 ON).
 Status:
-- State 0-1-1 Confirmed.
-- Prediction: Sw1 OFF opens Right Path (Col 16).
-- Prediction: Sw3 ON opens the wall at the end of Right Path?
+- State 0-1-1.
+- Tool Results:
+  - G1 (Left): OPEN.
+  - G2 (Middle): OPEN.
+  - G3 (Right): OPEN.
+  - G4 (Inner Left): CLOSED.
+  - (12,8) Middle Path: WALL/CLOSED.
+Hypothesis:
+- Sw1 determines if Col 12 (ON) or Col 16 (OFF) is open.
+- Sw1 is OFF, so Col 16 should be Floor.
+- Sw3 ON might open the end of Col 16?
 Plan:
-1. Walk to Gate 3 (16, 6) via Row 5 (Safe).
-2. Go South to (16, 10) / (17, 9).
-3. Check for open walls.
+1. Check end of Right Path (16, 10).
+2. If blocked, check Middle Gate (10, 6).
+3. Update Matrix.
