@@ -3,10 +3,13 @@
 **Goal:** Open Gate 3 (16, 6) to find the Director.
 
 **Confirmed Mechanics:**
-- **Gate 1 (2, 6):** Opens with **Switch 3 ON** (State 0-0-1)? (Needs verification).
+- **Gate 1 (2, 6):** **OPEN** with **Switch 2 ON** (State 0-1-0). (Previously thought Sw3).
 - **Gate 2 (10, 6):** Opens with **Switch 3 ON + Switch 1 ON** (State 1-0-1). Also opened with Seq 3->2->1 (State 1-1-1).
 - **Gate 3 (16, 6):** **OPEN** with **Switch 1 ON** (State 1-0-0).
-- **Current Test:** Switch 2 ON (State 0-1-0). Checking Gate 1.
+- **Internal Walls:**
+    - (2, 8): Seems CLOSED with Switch 2 ON. (Needs check).
+    - (16, 10): Wall behind Gate 3 blocks progress.
+- **Current Test:** Switch 2 ON (State 0-1-0). Investigating Gate 1 and wall at (2, 8).
 
 **Current Status:**
 - Switches: 1 OFF, 2 ON, 3 OFF.
