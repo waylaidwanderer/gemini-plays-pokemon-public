@@ -9,6 +9,6 @@
   - Sw3: OFF.
   - Sw2: ON.
   - Sw1: ON.
-- **Result:** Gate 3 (16, 6) OPENED (Confirmed by system tile change).
-- **Solution:** Switches 1 & 2 ON, Switch 3 OFF. Order likely `1 -> 2`.
-Turn 45968: Gate 3 open! Heading in to rescue the Director.
+- **Result:** Gate 3 (16, 6) OPENED. Trap at (16, 8) DISABLED.
+- **Solution:** Switches 1 & 2 ON, Switch 3 OFF. Order `1 -> 2`.
+Turn 45971: Safe inside Right Room. engaging Grunt at (19, 12).
