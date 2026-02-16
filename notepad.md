@@ -15,7 +15,11 @@
     1. Verify (11, 10) is CLOSED (confirming Sw1 is needed).
     2. Go to Switch 1 (16, 1). Turn **ON**.
     3. Return to (11, 6) and pass through to (11, 10).
-- **Current Status:** State 0-1-0. At (11, 9). (11, 10) is blocked.
+- **Current Status:**
+- Switches: 1 ON, 2 ON, 3 OFF. (State 1-1-0).
+- Position: Moving to (11, 6) via Row 5.
+- **Hypothesis:** State 1-1-0 opens BOTH (11, 6) and (11, 10).
+- **Goal:** Reach the Director through the Column 11 bypass.
 
 **Key Locations:**
 - Switch 1: (16, 1) [Right] - OFF
