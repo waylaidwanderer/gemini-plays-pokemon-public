@@ -115,3 +115,4 @@
   - State: [0, 0, 1] (Sw1 OFF, Sw2 OFF, Sw3 ON).
   - Next Action: Turn Switch 3 OFF -> [0, 0, 0].
   - Plan: Test Sequence Sw3 -> Sw2 -> Sw1.
+Turn 45785: Manually moving to Switch 3 (2, 2) to turn OFF.
