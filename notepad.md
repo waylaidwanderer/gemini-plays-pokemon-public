@@ -3,7 +3,8 @@
 **Goal:** Open Gate 3 (16, 6) to find the Director.
 
 **Confirmed Mechanics:**
-- **Gate 1 (2, 6):** **OPEN** with **Switch 3 ON** (State 0-0-1).
+- **Gate 1 (2, 6):** Confirmed CLOSED with All Switches OFF (Reset Successful).
+- **Puzzle Progress:** Starting Sequence: 3 (Left) -> 2 (Middle) -> 1 (Right).
 - **Gate 2 (10, 6):** **CLOSED** with **Switch 3 ON** (State 0-1-1). **OPEN** (implied) with **Switch 2 Only** (State 0-1-0).
 - **Column 11 (11, 6):** **CLOSED** with **Switch 3 ON**. **OPEN** with **Switch 2 Only**.
 - **Puzzle Logic:**
