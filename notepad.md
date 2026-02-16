@@ -72,7 +72,7 @@
 - Action: Entering Gate 1 to find the Director.
 - Action: Attempting to open "Back Gate" at (2, 10) using Basement Key.
 - Note: If this door opens, it likely leads to the Director.
-- Visual Confirm: Door at (2, 10) is locked or just a wall. Silver was right.
-- Plan: Open Gate 3 to find Director.
-- Sequence: Switch 1 ON -> Switch 2 ON (with Sw3 OFF).
-- Action: Heading to Switch 3 to turn OFF.
+- Current Status: All Switches OFF.
+- Plan: Open Gate 3.
+- Sequence: Switch 1 ON -> Switch 2 ON.
+- Action: Heading to Switch 1 (16, 1).
