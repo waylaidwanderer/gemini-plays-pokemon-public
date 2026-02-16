@@ -15,12 +15,12 @@
 - Switch 3 (Left): **ON** (Verified - Step 2 of Sequence)
 - Global State: 0-0-0 (Reset Complete).
 
-**Plan: Sequence 2 -> 3 -> 1 (Testing "Middle First" Hypothesis)**
-1. Turn Switch 3 **OFF** (Reset Complete).
-2. Turn Switch 2 **ON** (Start).
-3. Turn Switch 3 **ON**.
-4. Turn Switch 1 **ON**.
-5. Check Gate 3.
+**Plan: Test Sequence 3 -> 2 (State 0-1-1)**
+1. Turn Switch 2 **OFF** (Reset).
+2. Turn Switch 3 **OFF** (Reset).
+3. Turn Switch 3 **ON** (Step 1).
+4. Turn Switch 2 **ON** (Step 2).
+5. Check Gate 3. (Do NOT press Switch 1).
 
 **Key Locations:**
 - Switch 1: (16, 1) [Right]
