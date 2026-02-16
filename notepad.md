@@ -5,11 +5,10 @@
 **Confirmed Mechanics:**
 - **Gate 1 (2, 6):** **OPEN** with **Switch 3 ON** (State 0-0-1). **CLOSED** with **Switch 3 OFF**.
 - **Gate 3 (16, 6):** **OPEN** with **Switch 1 ON** (State 1-0-0). **CLOSED** with **Switch 1 & 3 ON** (State 1-0-1).
-- **Gate 2 (10, 6):** **CLOSED** with **State 1-0-1**.
-- **Wall at (16, 10):** BLOCKING with State 1-0-0.
-- **Wall at (2, 10):** BLOCKING with Switch 3 ON.
-- **Current Test:** Create **State 1-1-0** (Sw1 ON, Sw2 ON, Sw3 OFF).
-- **Hypothesis:** Switch 2 might toggle the internal walls.
+- **Gate 2 (10, 6):** **CLOSED** with **State 1-1-0**. (Switch 1 & 2 ON).
+- **Traps:** Row 4 (10, 4) confirmed SAFE with Switch 2 ON.
+- **Current Test:** Checking **Gate 3 (16, 6)** with **State 1-1-0**.
+- **Hypothesis:** Switch 1 opens Gate 3. Switch 2 might remove the internal wall at (16, 10) but possibly closes the gate? Or maybe it works!
 
 **Current Status:**
 - Switches: 1 ON, 2 ON, 3 OFF. (State 1-1-0).
