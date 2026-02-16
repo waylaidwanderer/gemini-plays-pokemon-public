@@ -8,13 +8,11 @@
 - **Gate 3 (16, 6):** Confirmed CLOSED with Seq 1->2 (State 1-1-0).
 - **Gate 3 (16, 6):** Confirmed CLOSED with Seq 1->2->3 (State 1-1-1).
 - **Inner Wall (11, 10):** Confirmed CLOSED with Seq 1->2->3.
-- Current Test: Sequence 3 -> 2 -> 1.
-- Current State: All Switches ON (State 1-1-1).
-- Observation: Moving to check Gate 3.
-- Previous Findings:
-  - 1 -> 2 (State 1-1-0): Gate 2 OPEN. Gate 3 CLOSED.
-  - 1 -> 2 -> 3 (State 1-1-1): Gate 2 OPEN. Gate 3 CLOSED.
-  - Switch 3 Only (State 0-0-1): Gate 1 OPEN.
+- **Gate 3 (16, 6):** Visual Confirm CLOSED with Seq 3->2->1.
+- Conclusion: Sequence 3->2->1 is incorrect.
+- Action: Resetting switches to OFF.
+- Plan: Execute Sequence 3 -> 1 -> 2 (End -> End -> Middle).
+- Step 1: Turn Switch 1 OFF (Current: ON).
 - **Inner Wall (10, 10) or (11, 10):** Currently the main obstacle behind Gate 2.
 
 **Current Hypothesis:**
