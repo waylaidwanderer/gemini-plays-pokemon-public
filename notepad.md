@@ -12,13 +12,13 @@
 - **Navigation:** Traversing Row 4 traps (Sw2 OFF) to reach Switch 1.
 
 **Current Status:**
-- Switches: 1 OFF, 2 OFF, 3 ON.
-- Position: Moving to Gate 1 (2, 6).
+- Switches: 1 ON, 2 OFF, 3 ON. (State 1-0-1).
+- Position: At Switch 1 (16, 2). Moving to check Gate 3.
 
 **Key Locations:**
-- Switch 1: (16, 1) [Right]
-- Switch 2: (10, 1) [Middle]
-- Switch 3: (2, 1) [Left]
+- Switch 1: (16, 1) [Right] - ON
+- Switch 2: (10, 1) [Middle] - OFF
+- Switch 3: (2, 1) [Left] - ON
 - Gate 2: (10, 6)
 - Gate 3: (16, 6)
 - **Gate 3 (16, 6):** Confirmed CLOSED with Seq 3->1->2 (State 1-1-1).
