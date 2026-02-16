@@ -62,6 +62,8 @@
 - Visual Confirm: Gate 3 (16, 6) is CLOSED (State [1, 1, 1], Seq 1->2->3).
 - Result: Sequence 1->2->3 failed (All Gates Closed).
 - Plan: Reset to OFF. Try Sequence 3 -> 1 -> 2.
-- Current Status: All Switches OFF (Pending Confirmation).
-- Plan: Turn Switch 3 ON. Check Gate 1.
-- Hypothesis: "Switch on the end" = Switch 3.
+- SOLVED: Gate 1 (2, 6) OPENS with State [0, 0, 1] (Switch 3 ON, others OFF).
+- Current State: [0, 0, 1].
+- Plan:
+  1. Enter Gate 1.
+  2. Rescue Director.
