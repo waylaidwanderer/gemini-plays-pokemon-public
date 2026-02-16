@@ -7,11 +7,11 @@
 - **Gate 3 (16, 6):** **OPEN** with **Switch 1 ON** (State 1-0-0). **CLOSED** with **Switch 1 & 3 ON** (State 1-0-1).
 - **Gate 2 (10, 6):** Likely **OPEN** with **State 1-0-1**.
 - **Wall at (2, 10):** BLOCKING with Switch 3 ON.
-- **Current Test:** State 1-0-1 (Sw1 ON, Sw2 OFF, Sw3 ON). Checking Gate 2.
+- **Current Test:** State 1-0-1 (Sw1 ON, Sw2 OFF, Sw3 ON). Heading to Gate 2.
 
 **Current Status:**
 - Switches: 1 ON, 2 OFF, 3 ON.
-- Position: At (16, 5). Gate 3 appears CLOSED. Moving to Gate 2 (10, 6).
+- Position: Moving to check Gate 2 (10, 6). Path via Col 16 to avoid traps.
 
 **Current Status:**
 - Switches: 1 ON, 2 OFF, 3 ON. (State 1-0-1).
