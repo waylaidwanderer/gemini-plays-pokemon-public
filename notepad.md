@@ -1,5 +1,4 @@
 # Underground Warehouse
-- **Goal:** Rescue Director.
 - **Hypothesis:** "Switch on the end first" (Order 1->2? or 3->2?).
 - **Verified Mechanics:**
   - **Order Matters:** `1 -> 2` vs `2 -> 1` produces different results.
@@ -11,4 +10,3 @@
 - **Plan:**
   1. Check Gate 1 (2, 6).
   2. If Gate 1 still closed: Turn Sw1 OFF, Go to Sw2, Turn ON (`3 -> 2`).
-- **Goal:** Rescue Director.
