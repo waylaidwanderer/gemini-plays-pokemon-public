@@ -12,7 +12,8 @@
 **Objective:** Open Gate 3.
 
 Location: Warehouse (3_54).
-Objective: Open Gate 3.
-Status: At Switch 1 (Turned ON).
-State: Sw1 ON, Sw2 ON, Sw3 ON. (Gate 3 Closed).
-Plan: Go to Switch 3 and turn it OFF. This should open Gate 3. Then explore behind Gate 3.
+Objective: Explore behind Gate 3.
+Status: Gate 3 (16, 6) is OPEN! (Verified TYPE_3fe2).
+State: Sw1 ON, Sw2 ON, Sw3 OFF.
+Plan: Move South through the gate. Check for items or the Director. Watch for traps (16, 8 should be safe).
+Possible Targets: Rocket Grunt F at (19, 12)?
