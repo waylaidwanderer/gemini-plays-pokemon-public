@@ -28,3 +28,5 @@
 - Plan: Check Gate 2 state. If it closes, Switch 2 must be ON. Need to find what opens Wall 2.
 - Correction: Switch 2 toggle was interrupted by text. Completing toggle now. Target State: Sw2 ON.
 - Action: Toggling Sw2 ON. Then checking Gate 2.
+- Visual Confirm: Gate 2 (10, 6) is OPEN.
+- Action: Checking Wall at (11, 10).
