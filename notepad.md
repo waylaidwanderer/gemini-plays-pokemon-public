@@ -4,9 +4,9 @@
 - **Failed Tests:**
   - Sequences: `3->2->1`, `1->2->3`.
   - Combos: `[1, 1, 0]`, `[1, 0, 1]`, `[1, 1, 1]`, `[0, 1, 0]`.
-- **Current Test:** `[1, 0, 1]` (Sequence 3 -> 1).
+- **Current Test:** `[1, 1, 0]` (Sw3=ON, Sw2=ON, Sw1=OFF) - based on clue "110".
 - **Status:**
   - Sw3: ON.
-  - Sw2: OFF.
-  - Sw1: ON.
-Turn 45925: Turned Switch 1 ON. Checking Gate 3.
+  - Sw2: ON (Just turned ON).
+  - Sw1: ON -> turning OFF next.
+Turn 45934: Turning Switch 2 ON. Moving to Switch 1 to turn OFF.
