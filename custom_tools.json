@@ -604,7 +604,7 @@
         "autopress_buttons"
       ]
     },
-    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\ndef get_tile_type(root, x, y):\n    row = root.find(f\".//Row[@id='{y}']\")\n    if row is None: return \"Unknown\"\n    tile = row.find(f\".//Tile[@id='{x}']\")\n    if tile is None: return \"Unknown\"\n    return tile.get('type')\n\ntry:\n    # map_xml_string is provided automatically\n    root = ET.fromstring(map_xml_string)\n    \n    # Coordinates of interest\n    targets = {\n        \"Gate 1 (Left)\": (2, 6),\n        \"Gate 2 (Middle)\": (10, 6),\n        \"Gate 3 (Right)\": (16, 6),\n        \"Gate 4 (Inner Left)\": (2, 10),\n        \"Wall (11,10)\": (11, 10),\n        \"Trap (12,8)\": (12, 8),\n        \"Trap (10,4)\": (10, 4)\n    }\n    \n    results = {}\n    for name, (x, y) in targets.items():\n        tile_type = get_tile_type(root, x, y)\n        state = \"UNKNOWN\"\n        if tile_type == \"TYPE_2889\":\n            state = \"CLOSED/WALL\"\n        elif tile_type == \"TYPE_3fe2\":\n            state = \"OPEN/FLOOR\"\n        else:\n            state = f\"Other ({tile_type})\"\n            \n        results[name] = state\n        \n    print(f\"Check Results: {results}\")\n\n    if autopress_buttons:\n        print(json.dumps([\"B\"]))\n\nexcept Exception as e:\n    print(f\"Error parsing XML or checking gates: {e}\")\n    if autopress_buttons:\n        print(json.dumps([\"B\"]))",
+    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\n# Safely get autopress_buttons, defaulting to False if not injected\nautopress_buttons = locals().get('autopress_buttons', False)\n\ndef get_tile_type(root, x, y):\n    row = root.find(f\".//Row[@id='{y}']\")\n    if row is None: return \"Unknown\"\n    tile = row.find(f\".//Tile[@id='{x}']\")\n    if tile is None: return \"Unknown\"\n    return tile.get('type')\n\ntry:\n    # map_xml_string is provided automatically\n    root = ET.fromstring(map_xml_string)\n    \n    # Coordinates of interest\n    targets = {\n        \"Gate 1 (Left)\": (2, 6),\n        \"Gate 2 (Middle)\": (10, 6),\n        \"Gate 3 (Right)\": (16, 6),\n        \"Gate 4 (Inner Left)\": (2, 10),\n        \"Wall (11,10)\": (11, 10),\n        \"Trap (12,8)\": (12, 8),\n        \"Trap (10,4)\": (10, 4)\n    }\n    \n    results = {}\n    for name, (x, y) in targets.items():\n        tile_type = get_tile_type(root, x, y)\n        state = \"UNKNOWN\"\n        if tile_type == \"TYPE_2889\":\n            state = \"CLOSED/WALL\"\n        elif tile_type == \"TYPE_3fe2\":\n            state = \"OPEN/FLOOR\"\n        else:\n            state = f\"Other ({tile_type})\"\n            \n        results[name] = state\n        \n    print(f\"Check Results: {results}\")\n\n    if autopress_buttons:\n        print(json.dumps([\"B\"]))\n\nexcept Exception as e:\n    print(f\"Error parsing XML or checking gates: {e}\")\n    if autopress_buttons:\n        print(json.dumps([\"B\"]))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -680,6 +680,11 @@
         "commit_message": "Defined check_gate_states tool to remotely inspect gate status via Mental Map XML.",
         "timestamp": "2026-02-16T21:40:58.435Z",
         "action_counter": 47225
+      },
+      {
+        "commit_message": "Fixed NameError by safely getting autopress_buttons from locals().",
+        "timestamp": "2026-02-16T21:44:55.147Z",
+        "action_counter": 47231
       }
     ]
   }
