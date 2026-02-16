@@ -23,7 +23,8 @@
 - Switch 3: (2, 1) [Left]
 - Action: Turned Switch 3 OFF.
 - Visual Confirm: Gate 3 (16, 6) is CLOSED (Type 2889) with State 1-1-0.
-- Conclusion: State 1-1-0 does not open Gate 3.
-- Action: Turn Switch 1 OFF.
-- Target State: 0-1-0 (Switch 2 Only).
-- Plan: Test 0-1-0. If that fails, Reset to 0-0-0 and try 1-0-0.
+- Conclusion: State 1-1-0 reached via "Turn 3 OFF" did not open Gate 3.
+- Hypothesis: Order/Event matters. "Sequence 1->2" might mean "Turn 2 ON while 1 is ON".
+- Action: Turning Switch 1 OFF.
+- Target State: 0-1-0.
+- Next Plan: If 0-1-0 fails, Reset to 0-0-0, then execute 1->2 explicitly.
