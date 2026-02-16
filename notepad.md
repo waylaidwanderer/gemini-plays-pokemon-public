@@ -6,13 +6,12 @@
 - **Gate 1 (2, 6):** Opens with **Switch 3 ON** (State 0-0-1).
 - **Gate 2 (10, 6):** Opens with **Switch 3 ON + Switch 1 ON** (State 1-0-1). Also opened with Seq 3->2->1 (State 1-1-1).
 - **Gate 3 (16, 6):** **OPEN** with **Switch 1 ON** (State 1-0-0).
-- **Correction:** Previous "All ON" test was actually State 1-0-1 (Sw2 was OFF).
-- **Gate 1 (2, 6):** CLOSED with State 1-0-1 (Switch 1 & 3 ON).
-- **New Hypothesis:** State 1-1-1 (All ON) will open Gate 1.
-- **Plan:** Switch 2 ON -> Check Gate 1.
+- **Correction:** Switch 2 was ON. State 1-1-1 (All ON) confirmed Gate 1 CLOSED.
+- **Hypothesis:** Switch 2 ON blocks Gate 1?
+- **Plan:** Turn Switch 2 OFF. Test State 1-0-1.
 
 **Current Status:**
-- Switches: 1 ON, 2 ON, 3 ON.
+- Switches: 1 ON, 2 OFF, 3 ON.
 - Position: Switch 2. Moving to Gate 1.
 
 **Key Locations:**
