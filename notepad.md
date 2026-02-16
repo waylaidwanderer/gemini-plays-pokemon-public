@@ -22,7 +22,8 @@
 - Switch 2: (10, 1) [Middle]
 - Switch 3: (2, 1) [Left]
 - Action: Turned Switch 3 OFF.
-- Current Status: Switch 1 ON, Switch 2 ON, Switch 3 OFF (State: 1-1-0).
-- Action: Moving to Gate 3 (16, 6) via Row 5.
-- Plan: If Gate 3 is OPEN, enter and carefully navigate to (16, 10).
-- Hazard: Avoid Trap at (16, 8).
+- Visual Confirm: Gate 3 (16, 6) is CLOSED (Type 2889) with State 1-1-0.
+- Conclusion: State 1-1-0 does not open Gate 3.
+- Action: Turn Switch 1 OFF.
+- Target State: 0-1-0 (Switch 2 Only).
+- Plan: Test 0-1-0. If that fails, Reset to 0-0-0 and try 1-0-0.
