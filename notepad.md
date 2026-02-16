@@ -13,7 +13,7 @@
 
 Location: Warehouse (3_54).
 Objective: Find the "missed trigger".
-Status: Gate 3 (16, 6) led to a dead end with a closed wall at (16, 10).
-Exit at (11, 10) is also closed.
-Hypothesis: The path forward is on the far right side of the warehouse (Cols 19+).
-Plan: Navigate to the right side of the map (Row 2, East) and locate Rocket Grunt F at (19, 12). Defeat her to proceed.
+Status: Stuck at (17, 9) due to navigation error (treated walls as walkable).
+Correction: Walls are TYPE_2889. Floor is TYPE_3fe2.
+Plan: Navigate to Rocket Grunt F at (19, 12) using valid floor tiles. Target position (20, 12) or (19, 13).
+Path likely involves going North to Row 5, then East, then South.
