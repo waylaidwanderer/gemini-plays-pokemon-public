@@ -18,3 +18,5 @@
 - **Plan:**
   1. Enter Gate 1.
   2. Rescue Director.
+- **Encounter:** Rival Silver at (4, 8) says "There's nothing down there" and doesn't battle.
+- **Action:** Bypassing Silver to explore the rest of the warehouse. Heading to Burglar Duncan (9, 12).
