@@ -8,11 +8,11 @@
 - **Gate 3 (16, 6):** Confirmed CLOSED with Seq 1->2 (State 1-1-0).
 - **Gate 3 (16, 6):** Confirmed CLOSED with Seq 1->2->3 (State 1-1-1).
 - **Inner Wall (11, 10):** Confirmed CLOSED with Seq 1->2->3.
-- Current Status: Switch 3 ON, Switch 2 ON, Switch 1 OFF (State 0-1-1).
-- Action: Moving to Switch 1 (16, 1).
-- Plan: Turn Switch 1 ON.
-- Final State: 1-1-1 (reached via 3->2->1).
-- Goal: Check Gate 3 (16, 6) and Inner Wall (10, 10).
+- Action: Turned Switch 1 ON.
+- Final Sequence: 3 -> 2 -> 1.
+- Current Status: All Switches ON (State 1-1-1).
+- Plan: Check Gate 3 (16, 6).
+- Theory: "End Switch First" meant Switch 3. Sequence 3->2->1 opens Gate 3.
 - **Inner Wall (10, 10) or (11, 10):** Currently the main obstacle behind Gate 2.
 
 **Current Hypothesis:**
