@@ -115,3 +115,4 @@ Gate 2 (10,6) confirmed CLOSED with [1, 1, 0].
 Moving to Switch 1 to turn it OFF.
 Turn 45741: Turned Switch 1 OFF. Current State: [0, 1, 0] (Sw1 OFF, Sw2 ON, Sw3 OFF). Checking Gate 2.
 Turn 45748: Turned Switch 3 ON. Current State: [0, 1, 1] (Sw1 OFF, Sw2 ON, Sw3 ON). Checking Gate 2.
+Turn 45756: Turned Switch 2 OFF. Expected State: [1, 0, 1] (assuming Sw1 is ON). Heading to Gate 3.
