@@ -1,9 +1,13 @@
 # Underground Warehouse
 - **Goal:** Rescue Director.
 - **Hypothesis:** Order matters ("Switch on the end first").
-- **Sequence Tests:**
-  - `3 -> 2 -> 1`: Failed (Gate 3 closed).
+- **Tested Sequences (Order Matters Hypothesis):**
+  - `3 -> 2 -> 1`: Gate 3 CLOSED.
+  - `1 -> 2 -> 3`: Gate 1 & 2 & 3 CLOSED.
   - `[1, 0, 1]`: Gate 3 CLOSED.
+- **Confirmed States:**
+  - `[1, 1, 0]`: Gate 1 OPEN (Re-verifying).
+  - `[0, 1, 0]`: Gate 2 CLOSED (Confirmed).
 - **Current Status:**
   - State: [0, 0, 1] (Sw1 OFF, Sw2 OFF, Sw3 ON).
   - Action: Turn Sw3 OFF -> [0, 0, 0].
