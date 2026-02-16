@@ -8,11 +8,12 @@
 - **Gate 3 (16, 6):** Confirmed CLOSED with Seq 1->2 (State 1-1-0).
 - **Gate 3 (16, 6):** Confirmed CLOSED with Seq 1->2->3 (State 1-1-1).
 - **Inner Wall (11, 10):** Confirmed CLOSED with Seq 1->2->3.
-- Correction: (9, 7) is a Wall. Cannot move Up from (9, 8).
-- Action: Moving Right to Col 10, then Up through Open Gate 2 to Trap at (10, 4).
-- Goal: Reset switches via Warp.
-- Verification: Check Switch 2 status after warp.
-- Next Sequence: 3 -> 2 -> 1.
+- Visual Confirm: Warped back to (10, 2) from Trap at (10, 4).
+- Switch Status: Switch 2 is ON (Green).
+- Conclusion: Traps do NOT reset switches.
+- Action: Manually turn OFF all switches.
+- Plan: Turn Switch 2 OFF. Then go to Switch 1 and Turn OFF. Then Switch 3 OFF.
+- Goal: Clean slate for Sequence 3 -> 2 -> 1.
 - **Inner Wall (10, 10) or (11, 10):** Currently the main obstacle behind Gate 2.
 
 **Current Hypothesis:**
