@@ -48,7 +48,8 @@
 - Switch 3: (2, 1) [Left] - ON (Seq Step 1)
 - Gate 2: (10, 6)
 - Gate 3: (16, 6)
-- Gate 3 (16, 6): **OPEN** with **All Switches ON** (State 1-1-1).
+- **Gate 3 (16, 6):** CLOSED with All Switches ON (State 1-1-1).
+- **Gate 3 (16, 6):** OPEN with State 1-1-0 (Sw1 & Sw2 ON, Sw3 OFF).
 - **Gate 3 (16, 6):** Confirmed CLOSED with Seq 3->1->2 (State 1-1-1).
 - **Gate 3 (16, 6):** Confirmed CLOSED with Seq 1->3->2 (State 1-1-1).
 **Reflection & Lessons:**
