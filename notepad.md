@@ -12,11 +12,13 @@
 **Objective:** Open Gate 3.
 
 Location: Warehouse (3_54).
-Objective: Open a path to the South (Row 12+).
-Status: Testing "All ON" State.
-Puzzle State: Sw1 ON, Sw2 ON, Sw3 ON.
-Hypothesis:
-1. Check Gate 1 (2, 6). If Open, explore behind it.
-2. Check Wall (2, 10).
-3. Check Wall (11, 10).
-Plan: Move South to Gate 1 (2, 6).
+Objective: Open Gate 1 (2, 6).
+Status:
+- State 1-1-1 (All ON): Gate 1 CLOSED.
+- State 1-1-0 (Sw1, Sw2 ON): Gate 3 OPEN (Dead End).
+Hypothesis: Gate 1 might require Sw3 ON and Sw2 OFF (State 1-0-1) or Sw1 OFF (State 0-1-1).
+Plan:
+1. Go to Switch 2 (10, 1). Turn OFF. (State 1-0-1).
+2. Check Gate 1.
+3. If Closed, Turn Sw2 ON, then try Sw3 OFF... wait, I've tried Sw3 OFF.
+4. Maybe Turn Sw1 OFF? (Requires crossing to right side).
