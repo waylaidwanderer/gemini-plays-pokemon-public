@@ -58,3 +58,4 @@
 - Action: Checking Gate 2 (10, 6). Then Gate 3 (16, 6).
 - Visual Confirm: Gate 2 (10, 6) is CLOSED (State [1, 1, 1], Seq 1->2->3).
 - Action: Heading to Gate 3 (16, 6). Expecting it to be OPEN (since 1->2 opened it before) OR CLOSED (if Sw3 toggled it).
+- Next Plan: If Gate 3 is CLOSED, Reset and try 3->1->2 or 1->3->2.
