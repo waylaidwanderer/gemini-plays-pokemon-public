@@ -596,15 +596,14 @@
       "properties": {
         "autopress_buttons": {
           "type": "boolean",
-          "default": false,
-          "description": "If true and the tool returns a list of buttons, they will be pressed automatically. Limit: 100 buttons max per call."
+          "default": false
         }
       },
       "required": [
         "autopress_buttons"
       ]
     },
-    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\ndef check_gates(map_xml):\n    try:\n        root = ET.fromstring(map_xml)\n        gates = {\n            \"Gate 1 (2, 6)\": \"Unknown\",\n            \"Gate 2 (10, 6)\": \"Unknown\",\n            \"Gate 3 (16, 6)\": \"Unknown\",\n            \"Wall (2, 10)\": \"Unknown\",\n            \"Wall (11, 10)\": \"Unknown\",\n            \"Wall (18, 9)\": \"Unknown\",\n            \"Wall (12, 12)\": \"Unknown\"\n        }\n        coords_to_check = {\n            \"2,6\": \"Gate 1 (2, 6)\",\n            \"10,6\": \"Gate 2 (10, 6)\",\n            \"16,6\": \"Gate 3 (16, 6)\",\n            \"2,10\": \"Wall (2, 10)\",\n            \"11,10\": \"Wall (11, 10)\",\n            \"18,9\": \"Wall (18, 9)\",\n            \"12,12\": \"Wall (12, 12)\"\n        }\n        \n        for row in root.findall(\"Row\"):\n            y = row.get(\"id\")\n            for tile in row.findall(\"Tile\"):\n                x = tile.get(\"id\")\n                key = f\"{x},{y}\"\n                if key in coords_to_check:\n                    t_type = tile.get(\"type\")\n                    # TYPE_3fe2 is the floor type (open), TYPE_2889 is the wall type (closed)\n                    if t_type == \"TYPE_3fe2\":\n                        status = \"OPEN\"\n                    elif t_type == \"TYPE_2889\":\n                        status = \"CLOSED\"\n                    else:\n                        status = f\"Unknown Type ({t_type})\"\n                    gates[coords_to_check[key]] = status\n                    \n        print(json.dumps(gates, indent=2))\n        return [] # No buttons to press\n    except Exception as e:\n        print(f\"Error checking gates: {e}\")\n        return []\n\ncheck_gates(map_xml_string)",
+    "python_script": "import xml.etree.ElementTree as ET\n\ndef get_tile_type(root, x, y):\n    row = root.find(f\".//Row[@id='{y}']\")\n    if row is not None:\n        tile = row.find(f\".//Tile[@id='{x}']\")\n        if tile is not None:\n            return tile.get('type')\n    return \"UNKNOWN\"\n\ndef main(map_xml_string):\n    try:\n        root = ET.fromstring(map_xml_string)\n        \n        # Coordinates of interest\n        targets = {\n            \"Gate 1 (2, 6)\": (2, 6),\n            \"Gate 2 (10, 6)\": (10, 6),\n            \"Gate 3 (16, 6)\": (16, 6),\n            \"Secret Door (11, 6)\": (11, 6),\n            \"Exit Wall (11, 10)\": (11, 10),\n            \"Back Wall (16, 10)\": (16, 10)\n        }\n        \n        results = {}\n        for name, (x, y) in targets.items():\n            tile_type = get_tile_type(root, x, y)\n            state = \"CLOSED\" if tile_type == \"TYPE_2889\" else \"OPEN\" if tile_type in [\"TYPE_3fe2\", \"TYPE_8564\"] else f\"UNKNOWN ({tile_type})\"\n            results[name] = state\n            \n        print(results)\n            \n    except Exception as e:\n        print(f\"Error parsing XML: {e}\")\n\nif __name__ == \"__main__\":\n    main(map_xml_string)",
     "history": [
       {
         "commit_message": "Initial version",
@@ -670,6 +669,11 @@
         "commit_message": "Updated to check additional dynamic walls at (11,10), (2,10), (18,9), and (12,12).",
         "timestamp": "2026-02-16T13:48:25.389Z",
         "action_counter": 46606
+      },
+      {
+        "commit_message": "Initial definition of check_gate_states tool to parse XML for gate statuses.",
+        "timestamp": "2026-02-16T16:43:10.388Z",
+        "action_counter": 46844
       }
     ]
   }
