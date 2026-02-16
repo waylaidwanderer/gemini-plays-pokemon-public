@@ -3,11 +3,12 @@
 - **Puzzle Solved:** Switch Combination [0, 1, 0] (Sw2 ON only) -> Gate 2 OPEN.
 - **Current Status:**
   - Switches: [0, 1, 0] (Sw1 OFF, Sw2 ON, Sw3 OFF).
-  - Discovery: Path at x=11 (Rows 6-9) OPENED.
-  - Gate 2 (10, 6) appears CLOSED (Type 2889).
-  - Action: Investigating x=11 corridor.
-  - Goal: See where this new path leads.
-  - Previous Issue: (11, 10) was a wall. Is it still?
+  - Confirmed: Gate 2 (10, 6) is OPEN.
+  - Confirmed: Corridor at x=11 (Rows 6-9) is OPEN.
+  - Confirmed: Wall/Shutter at (11, 10) is CLOSED.
+  - Action: stepping on (10, 9) to test trap.
+  - Goal: Test [0, 1, 1] to open (11, 10).
+  - Trap Logic: If warped, use it as shortcut to Switch 3.
 - **Hazards:**
   - Trap suspected on Row 3 (between x=3 and x=8). Warps to (8, 2).
   - Row 4 confirmed safe in past turns.
