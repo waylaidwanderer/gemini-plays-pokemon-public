@@ -59,3 +59,7 @@
 - **Current State:** 0-1-1 (Sw1 OFF, Sw2 ON, Sw3 ON).
 - **Hypothesis:** Testing if this opens Gate 3 or the walls.
 - **Next Step:** Check Gate 3. If closed, try turning Switch 2 OFF (State 0-0-1).
+Location: Director's Room (3_53).
+Objective: Rescue Director.
+Status: Puzzle Solved. In room with Silver and Rocket Grunt.
+Interact with Grunt and Silver to find the Director.
