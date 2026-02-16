@@ -17,11 +17,14 @@
     2. Reset all switches to **OFF**.
     3. Try Sequence: **Switch 3 -> Switch 2 -> Switch 1** (Left to Right).
     4. Try Sequence: **Switch 1 -> Switch 2 -> Switch 3** (Right to Left).
-- **Status:** All Switches **OFF** (after turning Sw2 OFF).
-- **Plan:** Execute Sequence **3 -> 2 -> 1**.
-- **Step 1:** Turn **Switch 3 ON**.
-- **Navigation:** Moving to Switch 3 (2, 1) via Row 2.
-- **Hypothesis:** "End switch first" means Switch 3 (Left End).
+- **Trap Update:** Confirmed trapped in Middle Pocket when Sw2 is OFF. Must turn Sw2 ON to exit.
+- **Revised Plan:**
+    1. Turn **Switch 2 ON** (Escape).
+    2. Go to **Switch 1**. Turn **ON**.
+    3. Turn **Switch 2 OFF** then **ON** (Simulate pressing 2 second?).
+    4. Go to **Switch 3**. Turn **ON**.
+    5. Check results of **All ON** (Sequence 1->2->3).
+- **Current State:** Resetting to Sw2 ON.
 
 **Key Locations:**
 - Switch 1: (16, 1) [Right] - OFF
