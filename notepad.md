@@ -13,11 +13,10 @@
 
 Location: Warehouse (3_54).
 Objective: Open a path to the South (Row 12+).
-Status: Right corridor (Row 5, Col 24-25) is a dead end.
-Puzzle State: Sw1 ON, Sw2 ON, Sw3 OFF.
-- Gate 3 (16, 6) OPEN, but led to dead end.
-- Wall at (11, 10) CLOSED.
+Status: Testing "All ON" State.
+Puzzle State: Sw1 ON, Sw2 ON, Sw3 ON.
 Hypothesis:
-1. Try State 1-1-1 (All ON). Maybe this opens (11, 10) or (2, 10).
-2. Check Gate 1 (2, 6) path (requires Sw3 ON).
-Plan: Turning Switch 3 ON. Then check Gate 1 and Wall (2, 10).
+1. Check Gate 1 (2, 6). If Open, explore behind it.
+2. Check Wall (2, 10).
+3. Check Wall (11, 10).
+Plan: Move South to Gate 1 (2, 6).
