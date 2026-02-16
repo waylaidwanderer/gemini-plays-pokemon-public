@@ -21,8 +21,9 @@
 - Switch 1: (16, 1) [Right]
 - Switch 2: (10, 1) [Middle]
 - Switch 3: (2, 1) [Left]
-- Visual Confirm: Gate 2 (10, 6) is OPEN with State 1-0-1.
-- Visual Confirm: Gate 3 (16, 6) is CLOSED.
-- Visual Confirm: Gate 1 (2, 6) appears CLOSED.
-- Action: Moving to check Inner Wall at (10, 10) behind Gate 2.
-- Path: Via Column 11 to avoid potential trap at (10, 9).
+- Visual Confirm: Inner Wall (10, 10)/(11, 10) is CLOSED with State 1-0-1.
+- Conclusion: State 1-0-1 opens Gate 2 but not the wall.
+- Plan: Transition to State 0-1-1 (Switch 2 ON, Switch 3 ON, Switch 1 OFF).
+- Step 1: Turn Switch 2 ON (State 1-1-1).
+- Step 2: Turn Switch 1 OFF (State 0-1-1).
+- Step 3: Check Gate 3 and Gate 2.
