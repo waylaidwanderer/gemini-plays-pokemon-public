@@ -5,15 +5,15 @@
 **Confirmed Mechanics:**
 - **Gate 1 (2, 6):** Opens with **Switch 3 ON** (State 0-0-1).
 - **Gate 2 (10, 6):** Opens with **Switch 3 ON + Switch 1 ON** (State 1-0-1). Also opened with Seq 3->2->1 (State 1-1-1).
-- **Gate 3 (16, 6):** Opens with State 1-1-0 (1 ON, 2 ON, 3 OFF).
+- **Gate 3 (16, 6):** CLOSED with State 1-1-0 (1 ON, 2 ON, 3 OFF). My hypothesis was wrong.
 - **Trap (16, 8):** Disabled by Sequence 3->2->1.
-- **Trap (10, 4):** Confirmed DISABLED (Walked on it).
-- **Hypothesis:** Traps stay disabled after sequence. Turn Switch 3 OFF to open Gate 3.
+- **Trap (10, 4):** Confirmed DISABLED.
+- **Hypothesis:** Try **All Switches ON** (State 1-1-1) produced by Sequence 3->2->1. I didn't check Gate 3 in this state before turning Switch 3 OFF.
 
 **Plan:**
-1. Go to Switch 3 and turn OFF.
+1. Turn Switch 3 **ON** (Result: All ON).
 2. Check Gate 3.
-3. Proceed to Director.
+3. If Gate 3 is still closed, try a different sequence or check for hidden switches.
 
 **Key Locations:**
 - Switch 1: (16, 1) [Right]
