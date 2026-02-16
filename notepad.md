@@ -21,9 +21,8 @@
 - Switch 1: (16, 1) [Right]
 - Switch 2: (10, 1) [Middle]
 - Switch 3: (2, 1) [Left]
-- Visual Confirm: Switch 2 is OFF.
-- Deduction: Traps reset the switches to OFF.
-- Strategy: Execute Sequence 1 -> 2 from start.
-- Step 1: Leave Switch 2 OFF. Move to Switch 1.
-- Step 2: Turn Switch 1 ON.
-- Step 3: Return to Switch 2 and Turn ON.
+- Trapped Area: Bucket (Cols 8-11, Rows 2-3).
+- Escape: Must cross Row 4 (Traps at 9, 10, 15).
+- Attempting: Escape via (8, 4) to Row 5 (Safe Highway).
+- Plan: Go to Switch 1 (16, 1) via Row 5.
+- Sequence: 1 -> 2 (Clean Slate).
