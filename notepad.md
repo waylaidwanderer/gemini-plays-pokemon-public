@@ -12,12 +12,9 @@
 - **Hypothesis:** Switch 2 might toggle the internal walls.
 
 **Current Status:**
-- Switches: 1 ON, 2 OFF, 3 OFF. (State 1-0-0).
-- Position: At (16, 2). Moving to Switch 2 (10, 1) via Row 5/Col 11 to avoid traps.
-
-**Current Status:**
-- Switches: 1 ON, 2 OFF, 3 ON. (State 1-0-1).
-- Position: At Switch 1 (16, 2). Moving to check Gate 3.
+- Switches: 1 ON, 2 ON, 3 OFF. (State 1-1-0).
+- Position: At Switch 2 (10, 2). Turned ON.
+- Next Action: Check Gate 2 (10, 6) and Gate 3 (16, 6).
 
 **Key Locations:**
 - Switch 1: (16, 1) [Right] - ON
