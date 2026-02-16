@@ -11,11 +11,11 @@
 - **Trap (16, 8):** **DISABLED** with **Switch 1 ON**.
 - **Gate 3 (16, 6):** **OPEN** with **Switch 1 ON**.
 - **Burglar Duncan (9, 12):** **DEFEATED**.
-- **Plan:** Open Menu, clear bag space (Give/Toss), then pick up item at (1, 12).
+- **Plan:** Pick up item at (1, 12). Then explore left side of room.
 
 **Current Status:**
 - Switches: Switch 1 ON, others OFF.
-- Position: (2, 12). Menu Opening.
+- Position: (2, 12). Picking up item.
 
 **Key Locations:**
 - Switch 1: (16, 1) [Right]
