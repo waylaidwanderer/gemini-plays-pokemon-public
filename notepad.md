@@ -42,6 +42,7 @@
 
 **Key Locations:**
 - Switch 1: (16, 1) [Right] - ON (All Switches ON)
+- **Wall (16, 10):** CLOSED with All Switches ON.
 - Switch 2: (10, 1) [Middle] - ON
 - Switch 3: (2, 1) [Left] - OFF
 - Gate 2: (10, 6)
