@@ -23,6 +23,8 @@
 - Switch 3: (2, 1) [Left]
 - Action: Turned Switch 3 OFF.
 - Visual Confirm: Gate 2 (10, 6) is OPEN (Type 3fe2) with State 0-1-0.
-- New Hypothesis: Switch 2 controls Gate 2.
-- Action: Turning Switch 2 OFF. Expect Gate 2 to CLOSE.
-- Next: Reset to 0-0-0. Then try Sequence 1 -> 2.
+- Action: Turned Switch 2 OFF. Current State: 0-0-0 (All OFF).
+- Plan: Execute Sequence 1 -> 2.
+- Step 1: Turn Switch 1 ON.
+- Step 2: Turn Switch 2 ON.
+- Step 3: Check Gate 3.
