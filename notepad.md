@@ -5,10 +5,10 @@ Status:
 - Switch 2 ON (Verified).
 - Switch 1 ON (Verified).
 - State: 1-1-1.
-- Gate 2 CLOSED. Gate 3 OPEN.
-- Trap Safety CONFIRMED: Switch 2 ON disables traps.
+- Gate 2 CLOSED. Gate 3 CLOSED (Visual verify).
+- Trap Safety: Sw2 ON disables traps.
 Plan:
-1. Proceed to Gate 3 (16, 6).
-2. Cross Safe Trap at (16, 8).
-3. Investigate the area behind Gate 3 (Director/Key).
-4. Check Secret Wall at (11, 10).
+1. Turn Switch 2 OFF (Return to 1-0-1 to Open Gate 3).
+2. Enter Gate 3.
+3. FLANK the trap at (16, 8) by walking on (17, 8).
+4. If flanking fails, try State 0-1-1 (Sw3 OFF, Sw2 ON, Sw1 ON).
