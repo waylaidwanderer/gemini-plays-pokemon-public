@@ -15,9 +15,8 @@ Location: Warehouse (3_54).
 Objective: Open Gate 1 (2, 6).
 Status:
 - State 1-0-1 (Sw1 ON, Sw2 OFF, Sw3 ON).
-- Gate 3 (16, 6) likely Closed (requires Sw2 ON).
-- Trap (10, 4) likely ACTIVE (avoid).
+- Successfully traversed (9, 4) - Trap seems inactive in this state.
 Plan:
-1. Navigate to Gate 1 (2, 6) via the left corridor (Column 2-9).
+1. Navigate to Gate 1 (2, 6) via Row 5.
 2. Check if Gate 1 is OPEN.
 3. If Open, explore. If Closed, rethink logic (maybe Sw1 needs to be OFF?).
