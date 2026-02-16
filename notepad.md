@@ -8,5 +8,5 @@
 - **Status:**
   - Sw3: ON.
   - Sw2: OFF.
-  - Sw1: OFF -> turning ON next.
-Turn 45922: Turning Switch 1 OFF. Next: Turn ON for '3 then 1' sequence.
+  - Sw1: OFF (Just confirmed).
+Turn 45924: Confirmed Switch 1 OFF. Next: Turn ON.
