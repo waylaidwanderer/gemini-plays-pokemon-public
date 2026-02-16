@@ -17,13 +17,11 @@
     2. Reset all switches to **OFF**.
     3. Try Sequence: **Switch 3 -> Switch 2 -> Switch 1** (Left to Right).
     4. Try Sequence: **Switch 1 -> Switch 2 -> Switch 3** (Right to Left).
-- **Status:** Moving to Switch 2 (10, 2) to perform Step 2.
-- **Sequence Plan:**
-    1. **Switch 3 ON** (Done).
-    2. **Switch 2** (Reset: OFF -> ON).
-    3. **Switch 1** (Turn ON).
-- **Navigation:** Moving via Row 5 to (10, 2). Crossing trap at (10, 4) which should be safe (Sw2 ON).
-- **Grunt:** Passing adjacent to Grunt at (11, 3). Prepared to battle if needed.
+- **Status:** Performing Step 2: **Switch 2** (Toggle OFF -> ON).
+- **Current Action:** Turning Switch 2 **OFF**.
+- **Next Action:** Turn Switch 2 **ON** (to complete Step 2).
+- **Sequence Logic:** 3 (ON) -> 2 (ON) -> 1 (ON).
+- **Safety:** Standing at (10, 2). Safe from traps at (10, 4) and (10, 9).
 
 **Key Locations:**
 - Switch 1: (16, 1) [Right] - OFF
