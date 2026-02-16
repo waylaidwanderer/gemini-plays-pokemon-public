@@ -2,11 +2,13 @@ Location: Warehouse (3_54).
 Objective: Explore South via Gate 3 (16, 6).
 Status:
 - State 0-1-0 (Sw1 OFF, Sw2 ON, Sw3 OFF).
-- Tool confirms:
-  - Gate 3 (16, 6): OPEN.
-  - Trap (12, 8): SAFE/FLOOR.
-  - Gates 1, 2, 4: CLOSED.
+- Screen Confirms:
+  - Gate 3 (16, 6) is OPEN.
+  - Path (16, 8) is OPEN (Floor).
+  - Path (12, 8) is CLOSED (Wall).
+Observation:
+- Sw1 ON -> Col 12 Open / Col 16 Closed.
+- Sw1 OFF -> Col 12 Closed / Col 16 Open.
 Plan:
-1. Walk South through Gate 3 (16, 6).
-2. Explore the area behind it.
-3. If dead end, try the Middle Path via (12, 8).
+1. Walk South through (16, 8).
+2. Explore South.
