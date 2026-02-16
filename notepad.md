@@ -26,4 +26,5 @@
 - Current Status: Switch 1 ON, Switch 2 OFF, Switch 3 OFF (State: 1-0-0).
 - Action: Moving to Switch 2 (10, 1) via safe path (Row 5).
 - Step 2: Turn Switch 2 ON.
-- Theory: Sequence 1 -> 2 opens Gate 3.
+- Theory: Sequence 1 -> 2 (End First) opens Gate 3.
+- Note: Previous success with 1->2 (State 1-1-0) suggests order matters, as 1-1-0 reached from 1-1-1 failed.
