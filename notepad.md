@@ -8,9 +8,10 @@
 - **Gate 3 (16, 6):** Confirmed CLOSED with Seq 1->2 (State 1-1-0).
 - **Gate 3 (16, 6):** Confirmed CLOSED with Seq 1->2->3 (State 1-1-1).
 - **Inner Wall (11, 10):** Confirmed CLOSED with Seq 1->2->3.
-- Correction: Tile (10, 9) was SAFE (did not warp).
-- Action: Moving to Row 4 to trigger a trap for a fast reset.
-- Goal: Reset switches to OFF.
+- Correction: (9, 7) is a Wall. Cannot move Up from (9, 8).
+- Action: Moving Right to Col 10, then Up through Open Gate 2 to Trap at (10, 4).
+- Goal: Reset switches via Warp.
+- Verification: Check Switch 2 status after warp.
 - Next Sequence: 3 -> 2 -> 1.
 - **Inner Wall (10, 10) or (11, 10):** Currently the main obstacle behind Gate 2.
 
