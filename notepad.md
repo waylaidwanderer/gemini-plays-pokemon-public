@@ -164,3 +164,4 @@ Turn 45849: Turned Switch 3 OFF. State: [1, 1, 0]. Checking Gate 1.
 Turn 45850: Gate 1 CLOSED. Realized Sw3 toggle was cancelled. Retrying Sw3 OFF (State [1, 1, 0]).
 Turn 45851: Turned Switch 3 OFF. State: [1, 1, 0]. Checking Gate 1.
 Turn 45854: Turning Switch 3 ON. Aiming for [0, 0, 1] (Sw3 Only).
+Turn 45855: Turned Switch 3 ON. State: [1, 1, 1]. Heading to Switch 2 to turn OFF.
