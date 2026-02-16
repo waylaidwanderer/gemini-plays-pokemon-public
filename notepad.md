@@ -14,10 +14,9 @@
 Location: Warehouse (3_54).
 Objective: Open Gate 1 (2, 6).
 Status:
-- State 0-1-0 (Sw1 OFF, Sw2 ON, Sw3 OFF).
-- Testing Gate 1.
-- Previous Failures: 1-1-1, 1-1-0, 1-0-1, 0-1-1, 0-0-1.
+- State 0-1-0 (Sw1 OFF, Sw2 ON, Sw3 OFF): Gate 1 CLOSED.
+- Next Test: State 0-0-0 (All OFF) or 1-0-0 (Sw1 ON only).
 Plan:
-1. Turn Switch 3 OFF.
-2. Check Gate 1 (2, 6).
-3. If Closed, try State 1-0-0 (Sw1 ON, Sw2 OFF, Sw3 OFF) or 0-0-0 (All OFF).
+1. Go to Switch 2 (10, 1). Turn OFF.
+2. Check Gate 1.
+3. If Closed, go to Switch 1 and Turn ON.
