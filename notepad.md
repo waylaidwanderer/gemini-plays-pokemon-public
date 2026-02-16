@@ -11,3 +11,4 @@
   - Sw1: ON (Assumed). Will turn OFF next.
 Turn 45858: Turned Switch 2 OFF. State: [1, 0, 1]. Moving to Switch 1 to turn OFF.
 Turn 45859: Moving to Switch 1 to turn OFF. Target State: [0, 0, 1].
+Turn 45860: Turned Switch 1 OFF. State: [0, 0, 1]. Checking Gate 1.
