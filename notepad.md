@@ -7,14 +7,13 @@
 - **Gate 2 (10, 6):** Opens with **Switch 3 ON + Switch 1 ON** (State 1-0-1). Also opened with Seq 3->2->1 (State 1-1-1).
 - **Gate 3 (16, 6):** **OPEN** with **Switch 1 ON** (State 1-0-0).
 - **Correction:** Switch 2 was ON. State 1-1-1 (All ON) confirmed Gate 1 CLOSED.
-- **Observation:** Gate 1 CLOSED in State 0-0-1 (Only Switch 3 ON). Previous note was wrong.
-- **Goal:** Find combination for Gate 1.
-- **Remaining Combinations:** 0-0-0 (All OFF), 0-1-0 (Only 2), 0-1-1 (2 & 3), 1-1-0 (1 & 2).
-- **Plan:** Turn Switch 3 OFF (All OFF). Check Gate 1. Then try Switch 2 ON.
+- **Observation:** Gate 1 CLOSED in State 0-0-1.
+- **Experiment:** Switch 3 OFF (State 0-0-0). All Switches OFF.
+- **Hypothesis:** Maybe Gate 1 opens when everything is OFF? Or requires a specific sequence from 0-0-0.
 
 **Current Status:**
-- Switches: 1 OFF, 2 OFF, 3 ON.
-- Position: Moving to Switch 3.
+- Switches: 1 OFF, 2 OFF, 3 OFF.
+- Position: Moving to Gate 1.
 
 **Key Locations:**
 - Switch 1: (16, 1) [Right]
