@@ -3,10 +3,12 @@
 - **Puzzle Solved:** Switch Combination [0, 1, 0] (Sw2 ON only) -> Gate 2 OPEN.
 - **Current Status:**
   - Switches: [1, 0, 1] (Sw1 ON, Sw2 OFF, Sw3 ON).
-  - Location: Room behind Gate 3.
-  - Action: Fighting Rocket Grunt at (17, 2).
-  - Goal: Defeat Grunt.
-  - Hope: He drops a key or opens a path.
+  - Confirmed: Gate 3 (16, 6) is OPEN.
+  - Discovery: Room behind Gate 3 is a DEAD END with a non-hostile Grunt.
+  - Action: Leaving the area.
+  - Next Plan: Test State [0, 0, 1] (Sw3 ON only).
+  - Hypothesis: Maybe Sw3 alone does something new.
+  - Gate 1 leads to Silver (Dead End). Gate 2 leads to Wall (11, 10). Gate 3 leads to Grunt (Dead End).
 - **Hazards:**
   - Trap suspected on Row 3 (between x=3 and x=8). Warps to (8, 2).
   - Row 4 confirmed safe in past turns.
