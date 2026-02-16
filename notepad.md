@@ -126,3 +126,4 @@ Turn 45772: Retrying Switch 1 OFF toggle. Expected State: [0, 1, 1]. Checking Ga
 Turn 45774: Turned Switch 1 ON. Current State: [1, 1, 1]. Checking Gate 3.
 Turn 45777: Actually toggling Switch 1 OFF now (Confirmed YES). State: [0, 1, 1]. Moving to Switch 2.
 Turn 45778: Moving to Switch 2 to turn OFF.
+Turn 45779: Turned Switch 2 OFF. Current State: [0, 0, 1] (Sw1 OFF, Sw2 OFF, Sw3 ON). Moving to Switch 3.
