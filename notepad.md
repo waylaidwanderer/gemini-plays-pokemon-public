@@ -28,3 +28,4 @@
 - Switch 3: (2, 1) [Left]
 - Gate 2: (10, 6)
 - Gate 3: (16, 6)
+- **Gate 3 (16, 6):** Confirmed CLOSED with Seq 3->1->2 (State 1-1-1).
