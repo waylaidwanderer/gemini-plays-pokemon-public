@@ -3,10 +3,13 @@
 - **Puzzle Solved:** Switch Combination [0, 1, 0] (Sw2 ON only) -> Gate 2 OPEN.
 - **Current Status:**
   - Switches: [0, 1, 0] (Sw1 OFF, Sw2 ON, Sw3 OFF).
-  - Action: Turned Sw1 OFF.
-  - Next: Check Gate 2 (10, 6).
-  - Then: Turn Sw3 ON -> Test [0, 1, 1].
-  - Goal: Open Gate 3 (16, 6) or Wall (11, 10).
+  - Confirmed: Sw1 is OFF. Sw2 is ON. Sw3 is OFF.
+  - Location: Moving to (10, 6) to check Gate 2.
+  - Goal: Confirm Gate 2 OPEN.
+  - Next: Turn Sw3 ON -> Test [0, 1, 1].
+  - Hypothesis: [0, 1, 1] might open the wall at (11, 10).
+  - Map Note: TYPE_2889 = Wall/Closed Gate. TYPE_3fe2 = Floor/Open.
+  - Row 5 is the main corridor (Floor). Column 12 has a gap at Row 4-5.
 - **Hazards:**
   - Trap suspected on Row 3 (between x=3 and x=8). Warps to (8, 2).
   - Row 4 confirmed safe in past turns.
