@@ -63,7 +63,7 @@
   - (12, 8) OPEN (Unreachable).
 - **Tested Combinations (Sw1, Sw2, Sw3):**
   - [1, 1, 0]: Gate 1 OPEN, Gate 3 CLOSED. (Trap 2,8 disabled).
-  - [0, 1, 0]: Gate 2 OPEN, Gate 3 CLOSED.
+  - [0, 1, 0]: Gate 2 CLOSED.
   - [1, 0, 0]: Gate 3 CLOSED. Gate 1 CLOSED.
   - [0, 0, 0]: All Closed.
   - [0, 1, 1]: Gate 3 CLOSED.
