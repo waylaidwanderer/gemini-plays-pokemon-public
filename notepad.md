@@ -56,3 +56,5 @@
 - Action: Checking Gate 1. Then Gate 2.
 - Visual Confirm: Gate 1 (2, 6) is CLOSED (State [1, 1, 1], Seq 1->2->3).
 - Action: Checking Gate 2 (10, 6). Then Gate 3 (16, 6).
+- Visual Confirm: Gate 2 (10, 6) is CLOSED (State [1, 1, 1], Seq 1->2->3).
+- Action: Heading to Gate 3 (16, 6). Expecting it to be OPEN (since 1->2 opened it before) OR CLOSED (if Sw3 toggled it).
