@@ -5,10 +5,11 @@ Status:
 - Switch 2 OFF (Verified).
 - Switch 1 ON (Verified).
 - State: 1-0-1.
-- Gate 2 (Middle) CLOSED.
-- Gate 3 (Right) OPEN.
-- Trap at (16, 8) is ACTIVE (Warped me).
+- Gate 2 CLOSED. Gate 3 OPEN.
+- Trap at (16, 8) ACTIVE (Requires Sw2 ON).
+Mechanic: Switch 2 ON disables Traps.
 Plan:
-1. Go to Gate 3 (16, 6).
-2. FLANK the trap at (16, 8) using Column 17.
-3. Check Secret Wall at (11, 10).
+1. Turn Switch 2 ON (State 1-1-1).
+2. Enter Gate 3 (16, 6).
+3. Cross safe trap (16, 8).
+4. Check Secret Wall at (11, 10).
