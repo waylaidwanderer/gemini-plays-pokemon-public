@@ -21,8 +21,8 @@
 - Switch 1: (16, 1) [Right]
 - Switch 2: (10, 1) [Middle]
 - Switch 3: (2, 1) [Left]
-- Hint: Grunt confirmed "End switch is the one to press first".
-- Interpretation: Start sequence with Switch 1 (Right) or Switch 3 (Left).
-- Current Plan: Execute Sequence 1 -> 2 (Cleanly).
-- Path to Switch 1: Escape bucket via Col 8, then Row 5.
-- Traps: 9, 10, 15 confirmed. Testing 8.
+- Action: Turning Switch 1 ON.
+- Current Status: Switch 1 ON, Switch 2 OFF, Switch 3 OFF (State: 1-0-0).
+- Sequence: 1 -> 2.
+- Plan: Move to Switch 2 (10, 1) via safe path (Row 5).
+- Path: Down to (16, 5), Left to (10, 5), Up to (10, 1).
