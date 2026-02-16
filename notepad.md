@@ -44,7 +44,7 @@
 **Key Locations:**
 - Switch 1: (16, 1) [Right] - ON (Seq Step 3: 3->2->1 Complete)
 - **Wall (16, 10):** CLOSED with All Switches ON.
-- Switch 2: (10, 1) [Middle] - ON (Seq Step 2)
+- Switch 2: (10, 1) [Middle] - OFF (Resetting)
 - Switch 3: (2, 1) [Left] - ON (Seq Step 1)
 - Gate 2: (10, 6)
 - Gate 3: (16, 6)
