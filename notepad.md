@@ -8,5 +8,5 @@
 - **Status:**
   - Sw3: ON.
   - Sw2: OFF.
-  - Sw1: OFF (Just confirmed).
-Turn 45924: Confirmed Switch 1 OFF. Next: Turn ON.
+  - Sw1: ON.
+Turn 45925: Turned Switch 1 ON. Checking Gate 3.
