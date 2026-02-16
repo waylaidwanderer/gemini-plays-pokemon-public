@@ -9,4 +9,4 @@
   - Sw3: OFF.
   - Sw2: OFF.
   - Sw1: OFF -> turning ON.
-Turn 45872: Turned Switch 3 OFF. Moving to Switch 1.
+Turn 45880: Turned Switch 2 OFF. Moving to Switch 1.
