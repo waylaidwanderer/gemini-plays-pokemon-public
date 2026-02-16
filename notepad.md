@@ -6,7 +6,7 @@
   - `1 -> 2 -> 3`: Gate 1 & 2 & 3 CLOSED.
   - `[1, 0, 1]`: Gate 3 CLOSED.
 - **Confirmed States:**
-  - `[1, 1, 0]`: Gate 1 OPEN (Re-verifying).
+  - `[1, 1, 0]`: Checking Gate 1...
   - `[0, 1, 0]`: Gate 2 CLOSED (Confirmed).
 - **Current Status:**
   - State: [0, 0, 1] (Sw1 OFF, Sw2 OFF, Sw3 ON).
