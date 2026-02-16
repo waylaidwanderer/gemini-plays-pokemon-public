@@ -7,7 +7,7 @@
 - **Current Test:** Setting up `[0, 1, 1]` (Sw1=OFF, Sw2=ON, Sw3=ON).
 - **Status:**
   - Sw3: OFF -> Will turn ON.
-  - Sw2: OFF -> Turning ON.
+  - Sw2: ON.
   - Sw1: OFF.
 - **Goal:** Check Back Gate at (2, 10).
-Turn 45987: Interacting with Switch 2 to turn ON.
+Turn 45988: Turned Switch 2 ON. Moving to Switch 3.
