@@ -8,9 +8,10 @@
 - **Gate 3 (16, 6):** Confirmed CLOSED with Seq 1->2 (State 1-1-0).
 - **Gate 3 (16, 6):** Confirmed CLOSED with Seq 1->2->3 (State 1-1-1).
 - **Inner Wall (11, 10):** Confirmed CLOSED with Seq 1->2->3.
-- Action: Resetting via Trap.
-- Plan: Execute Sequence 3 -> 2 -> 1.
-- Theory: "End Switch First" refers to Switch 3.
+- Correction: Tile (10, 9) was SAFE (did not warp).
+- Action: Moving to Row 4 to trigger a trap for a fast reset.
+- Goal: Reset switches to OFF.
+- Next Sequence: 3 -> 2 -> 1.
 - **Inner Wall (10, 10) or (11, 10):** Currently the main obstacle behind Gate 2.
 
 **Current Hypothesis:**
