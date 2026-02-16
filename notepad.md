@@ -13,9 +13,10 @@
 - **Reference:** Log 46573 says Switch 1 opens wall at (11, 10) behind Gate 2. I might need a complex sequence or state to access that.
 
 **Current Status:**
-- Switches: 1 ON, 2 ON, 3 OFF. (State 1-1-0).
-- Position: At (16, 6).
-- Action: Moving to Switch 1 (16, 1) to turn OFF.
+- Switches: 1 OFF, 2 ON, 3 OFF. (State 0-1-0).
+- Position: At Switch 1 (16, 2). Turned OFF.
+- Next Action: Check Gate 3 (16, 6) and Gate 2 (10, 6).
+- **Hypothesis:** Switch 2 might be the key to Gate 2.
 
 **Key Locations:**
 - Switch 1: (16, 1) [Right] - ON
