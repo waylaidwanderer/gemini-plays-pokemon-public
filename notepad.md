@@ -11,7 +11,7 @@
 
 **Current Status (Based on Markers):**
 - Switch 1 (Right): **ON**
-- Switch 2 (Middle): **ON**
+- Switch 2 (Middle): **OFF** (Verified)
 - Switch 3 (Left): **OFF**
 - Global State: 0-1-1 (if order is 3-2-1).
 
