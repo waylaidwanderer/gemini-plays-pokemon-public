@@ -2,17 +2,13 @@ Location: Warehouse (3_54).
 Objective: Test State 0-1-1 (Sw1 OFF, Sw2 ON, Sw3 ON).
 Status:
 - State 0-1-1.
-- Tool Results:
-  - G1 (Left): OPEN.
-  - G2 (Middle): OPEN.
-  - G3 (Right): OPEN.
-  - G4 (Inner Left): CLOSED.
-  - (12,8) Middle Path: WALL/CLOSED.
-Hypothesis:
-- Sw1 determines if Col 12 (ON) or Col 16 (OFF) is open.
-- Sw1 is OFF, so Col 16 should be Floor.
-- Sw3 ON might open the end of Col 16?
+- Visual Confirmation:
+  - Gate 2 (10, 6): CLOSED (Contradicts Tool).
+  - Gate 3 (16, 6): OPEN.
+- Hypothesis:
+  - Tool data might be stale or inaccurate for gates.
+  - Relying on visual checks.
 Plan:
-1. Check end of Right Path (16, 10).
-2. If blocked, check Middle Gate (10, 6).
-3. Update Matrix.
+1. Check Gate 1 (2, 6).
+2. If Open, check Inner Gate (2, 10).
+3. If Closed, try State 0-0-1 (Only Sw3 ON).
