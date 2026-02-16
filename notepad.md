@@ -5,15 +5,17 @@
 **Confirmed Mechanics:**
 - **Gate 1 (2, 6):** **OPEN** with **Switch 3 ON** (State 0-0-1). **CLOSED** with **Switch 3 OFF**.
 - **Gate 3 (16, 6):** **OPEN** with **Switch 1 ON** (State 1-0-0). **CLOSED** with **Switch 1 & 3 ON** (State 1-0-1).
-- **Gate 2 (10, 6):** **CLOSED** with **State 1-1-0**. (Switch 1 & 2 ON).
-- **Traps:** Row 4 (10, 4) confirmed SAFE with Switch 2 ON.
-- **Current Test:** Checking **Gate 3 (16, 6)** with **State 1-1-0**.
-- **Hypothesis:** Switch 1 opens Gate 3. Switch 2 might remove the internal wall at (16, 10) but possibly closes the gate? Or maybe it works!
+- **Gate 3 (16, 6):** **OPEN** with **State 1-1-0**.
+- **Wall at (16, 10):** **BLOCKING** with **State 1-1-0**.
+- **Conclusion:** State 1-1-0 is NOT the solution for Gate 3.
+- **Next Test:** **State 0-1-0** (Switch 2 Only) and **State 0-1-1** (Switch 2 & 3).
+- **Hypothesis:** Summary suggested Switch 2 opens Gate 2.
+- **Reference:** Log 46573 says Switch 1 opens wall at (11, 10) behind Gate 2. I might need a complex sequence or state to access that.
 
 **Current Status:**
 - Switches: 1 ON, 2 ON, 3 OFF. (State 1-1-0).
-- Position: At Switch 2 (10, 2). Turned ON.
-- Next Action: Check Gate 2 (10, 6) and Gate 3 (16, 6).
+- Position: At (16, 6).
+- Action: Moving to Switch 1 (16, 1) to turn OFF.
 
 **Key Locations:**
 - Switch 1: (16, 1) [Right] - ON
