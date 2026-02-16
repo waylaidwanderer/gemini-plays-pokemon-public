@@ -45,7 +45,7 @@
 - Switch 1: (16, 1) [Right] - ON (All Switches ON)
 - **Wall (16, 10):** CLOSED with All Switches ON.
 - Switch 2: (10, 1) [Middle] - OFF (Resetting)
-- Switch 3: (2, 1) [Left] - OFF (Resetting)
+- Switch 3: (2, 1) [Left] - ON (Seq Step 1)
 - Gate 2: (10, 6)
 - Gate 3: (16, 6)
 - Gate 3 (16, 6): **OPEN** with **All Switches ON** (State 1-1-1).
