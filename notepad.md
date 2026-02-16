@@ -122,3 +122,4 @@ Turn 45763: Toggled Switch 1 ON. State: [1, 0, 1]. Checking Gate 3.
 Turn 45764: Attempting to walk through Gate 3.
 Turn 45768: Turned Switch 2 ON. Current State: [1, 1, 1] (All ON). Checking Gate 2.
 Turn 45771: Turned Switch 1 OFF. Current State: [0, 1, 1]. Checking Gate 3.
+Turn 45772: Retrying Switch 1 OFF toggle. Expected State: [0, 1, 1]. Checking Gate 3.
