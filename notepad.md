@@ -3,12 +3,12 @@
 **Goal:** Open Gate 3 (16, 6) to find the Director.
 
 **Confirmed Mechanics:**
-- **Gate 1 (2, 6):** **CLOSED** with **Switch 2 ON**. (Verified CLOSED).
+- **Gate 1 (2, 6):** **OPEN** with **Switch 3 ON** (State 0-0-1).
 - **Gate 2 (10, 6):** Opens with **Switch 3 ON + Switch 1 ON** (State 1-0-1).
 - **Gate 3 (16, 6):** **OPEN** with **Switch 1 ON** (State 1-0-0).
-- **Traps:** Row 4 traps active if Switch 2 OFF? (Avoid Middle Cols).
-- **Current Test:** Testing **Switch 3 ON** (State 0-0-1) on Gate 1.
-- **Correction:** Switch 2 was ALREADY OFF. Leaving it OFF.
+- **Door/Wall at (2, 10):** System reported change to Wall (TYPE_2889) with Switch 3 ON.
+- **Hypothesis:** Switch 3 opens Gate 1 but closes (2, 10).
+- **Plan:** Verify blockage at (2, 10). Then test **Switch 1 ON** (State 1-0-0) on Gate 1.
 
 **Current Status:**
 - Switches: 1 OFF, 2 OFF, 3 ON.
