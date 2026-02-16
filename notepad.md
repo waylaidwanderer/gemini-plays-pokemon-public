@@ -15,7 +15,7 @@
 
 **Current Status:**
 - Switches: Switch 1 ON, others OFF.
-- Position: Moving to (2, 12).
+- Position: (2, 12). Menu Opening.
 
 **Key Locations:**
 - Switch 1: (16, 1) [Right]
