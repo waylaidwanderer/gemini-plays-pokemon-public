@@ -31,3 +31,6 @@
 - Caution: Trap at (16, 8) status unknown for this sequence. Bypassing via column 17.
 - Visual Confirm: Gate 3 (16, 6) entered.
 - Action: Exploring area behind Gate 3. Heading to Director?
+- Correction: Accidentally moved North back to switch room.
+- Action: Moving South through Gate 3 again.
+- Target: South-East area (Rocket Grunt F / Warp).
