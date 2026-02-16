@@ -3,15 +3,16 @@
 **Goal:** Open Gate 3 (16, 6) to find the Director.
 
 **Confirmed Mechanics:**
-- **Gate 1 (2, 6):** **CLOSED** with **Switch 2 ON**.
+- **Gate 1 (2, 6):** **CLOSED** with **Switch 2 ON**. (Verified CLOSED).
 - **Gate 2 (10, 6):** Opens with **Switch 3 ON + Switch 1 ON** (State 1-0-1).
 - **Gate 3 (16, 6):** **OPEN** with **Switch 1 ON** (State 1-0-0).
-- **Traps (Row 4):** Seem disabled by **Switch 2 ON** (allowed crossing).
-- **Current Test:** Turn **Switch 2 OFF**. Test **Switch 3 ON** alone on Gate 1.
+- **Traps:** Row 4 traps active if Switch 2 OFF? (Avoid Middle Cols).
+- **Current Test:** Testing **Switch 3 ON** (State 0-0-1) on Gate 1.
+- **Correction:** Switch 2 was ALREADY OFF. Leaving it OFF.
 
 **Current Status:**
-- Switches: 1 OFF, 2 ON, 3 OFF.
-- Position: Moving to Gate 1.
+- Switches: 1 OFF, 2 OFF, 3 ON.
+- Position: Moving to Gate 1 (2, 6).
 
 **Key Locations:**
 - Switch 1: (16, 1) [Right]
