@@ -20,26 +20,8 @@
 - Gate 1: (2, 6)
 - Gate 2: (10, 6)
 - Gate 3: (16, 6)
-- Visual Confirm: Gate 1 (2, 6) is CLOSED.
-- Visual Confirm: Switch 1 turned ON.
-- Visual Confirm: Switch 2 turned ON (Seq 1->2).
-- Current Status: Switch 1 ON. Switch 3 ON. Switch 2 OFF. (State: 1-0-1).
-- Action: Checking Gates 1, 2, and 3 for this combination.
-- SOLVED: Gate 3 (16, 6) OPENS with Sequence 1 -> 2.
-- Action: Entering Gate 3.
-- Caution: Trap at (16, 8) status unknown for this sequence. Bypassing via column 17.
-- Visual Confirm: Gate 3 (16, 6) entered.
-- Action: Exploring area behind Gate 3. Heading to Director?
-- Correction: Accidentally moved North back to switch room.
-- Action: Moving South through Gate 3 again.
-- Target: South-East area (Rocket Grunt F / Warp).
-- Correction: I am at Gate 3 (16, 6).
-- Action: Navigate to (12, 9) to check Wall (10, 10) from the East.
-- Path: Avoid Trap (16, 8) by using Col 17.
-- Visual Confirm: Wall at (10, 10) is CLOSED with Seq 1->2.
-- Action: Heading East to explore the South-East corner behind Gate 3.
-- Goal: Reach Rocket Grunt F at (19, 12).
-- Visual Confirm: Wall at (16, 10) is CLOSED with Seq 1->2.
-- Conclusion: Sequence 1 -> 2 opens Gate 3 but path is blocked.
-- Plan: Toggle Switch 2 OFF (State: 1-0-0). Then Toggle Switch 3 ON (State: 1-0-1).
-- Target: Check if Gate 3 or Inner Wall opens with [1, 0, 1] or [1, 1, 1].
+- Visual Confirm: Gate 2 (10, 6) is OPEN with State 1-0-1.
+- Visual Confirm: Gate 3 (16, 6) is CLOSED.
+- Visual Confirm: Gate 1 (2, 6) appears CLOSED.
+- Action: Moving to check Inner Wall at (10, 10) behind Gate 2.
+- Path: Via Column 11 to avoid potential trap at (10, 9).
