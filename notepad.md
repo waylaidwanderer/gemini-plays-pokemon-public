@@ -13,7 +13,6 @@
 
 Location: Director's Room (3_53).
 Objective: Rescue Director.
-Status: Puzzle Solved. In room with Silver and Rocket Grunt.
-Interact with Grunt and Silver to find the Director.
-Observation: Pressing 'A' on Silver and the Grunt produces no reaction. They might be blocking the path or waiting for a specific trigger.
-Strategy: Attempt to walk around them. Checking the right side (Column 21).
+Status: Room appears empty. No Director, Silver, or Grunt visible on screen.
+Hypothesis: Event glitch or missed trigger.
+Plan: Exit and Re-enter the room to reset/trigger the event.
