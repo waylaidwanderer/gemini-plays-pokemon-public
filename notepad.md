@@ -21,11 +21,7 @@
 - Switch 1: (16, 1) [Right]
 - Switch 2: (10, 1) [Middle]
 - Switch 3: (2, 1) [Left]
-- Action: Turned Switch 3 OFF.
-- Action: Turn Switch 1 ON.
-- Action: Turned Switch 2 ON.
 - Current Status: Switch 1 ON, Switch 2 ON, Switch 3 OFF (State: 1-1-0).
-- Visual Confirm: Warped back to (10, 2) during previous move.
-- Hypothesis: Trap located in middle area (Rows 3-4, Cols 11-14).
-- Action: Use known safe path (Row 5) to reach Gate 3.
-- Path: Down to (10, 5), then Right to (16, 5), then Down to (16, 6).
+- Confirmed Traps: (9, 4), (10, 4), (15, 4).
+- Plan: Check Gate 3 (16, 6) via safe path (Col 16).
+- Theory: Sequence 1 -> 2 opens Gate 3.
