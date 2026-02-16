@@ -1,10 +1,10 @@
 Location: Warehouse (3_54).
-Objective: Enable Switch 3 to disable Col 12 Trap.
+Objective: Test Col 12 Trap with All Switches ON.
 Status:
-- Switch 2 ON. Switch 1 ON. Switch 3 OFF.
-- Trap confirmed at (12, 8).
-- Hypothesis: Switch 3 controls the central trap.
+- Switch 1 ON. Switch 2 ON. Switch 3 ON (State 1-1-1).
+- Trap at (12, 8) was active with Sw3 OFF.
+- Hypothesis: All ON disables the trap?
 Plan:
-1. Go to Switch 3 (2, 1).
-2. Turn Switch 3 ON.
-3. Return to Col 12 and test (12, 8).
+1. Return to (12, 5).
+2. Walk down to (12, 8).
+3. If safe, explore South.
