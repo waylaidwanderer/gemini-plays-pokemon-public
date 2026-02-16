@@ -26,4 +26,6 @@
 - CORRECTION: Switch 2 was actually ON.
 - Action: Turned Switch 2 OFF.
 - Plan: Check Gate 2 state. If it closes, Switch 2 must be ON. Need to find what opens Wall 2.
-- Current State Hypothesis: Sw2 OFF. Sw3 ON? Sw1 OFF?
+- Current State: Sw3 ON. Sw2 ON (Just Toggled). Sw1 OFF.
+- Sequence So Far: 3 -> 2.
+- Action: Checking Gate 2 (10, 6) and Wall (11, 10).
