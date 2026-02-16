@@ -21,3 +21,4 @@ Plan:
 1. Advance dialogue.
 2. Defeat Silver (if battle starts).
 3. Interact with the Director (if Silver moves).
+Silver asks: "What do you want to go there for?" - Implies destination is significant or empty.
