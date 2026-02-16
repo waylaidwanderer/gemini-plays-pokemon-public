@@ -8,12 +8,12 @@
 - **Gate 3 (16, 6):** Confirmed CLOSED with Seq 1->2 (State 1-1-0).
 - **Gate 3 (16, 6):** Confirmed CLOSED with Seq 1->2->3 (State 1-1-1).
 - **Inner Wall (11, 10):** Confirmed CLOSED with Seq 1->2->3.
-- Correction: Hallucinated position. Currently at (22, 2).
-- Status Update: Switch 1 likely ON (accidentally toggled). Switch 2 ON. Switch 3 ON.
-- Action: Moving to Switch 1 (16, 1).
-- Path: Down to (22, 5) -> Left to (16, 5) -> Up to (16, 2).
-- Plan: Turn Switch 1 OFF.
-- Goal: Reset all to OFF, then Sequence 3 -> 1 -> 2.
+- Correction: Position confirmed at (16, 2) via GameState/Screen.
+- Current Status Belief: Switch 3 ON (from prev turn), Switch 2 OFF, Switch 1 OFF.
+- Action: Interacting with Switch 1 (Turn ON).
+- Next: Move to Switch 2 (10, 1) via Row 5.
+- Path: Down to (16, 5) -> Left to (8, 5) -> Up to (8, 2) -> Right to (10, 2).
+- Sequence Target: 3 -> 1 -> 2.
 - **Inner Wall (10, 10) or (11, 10):** Currently the main obstacle behind Gate 2.
 
 **Current Hypothesis:**
