@@ -7,13 +7,12 @@
 - **Gate 2 (10, 6):** Opens with **Switch 3 ON + Switch 1 ON** (State 1-0-1). Also opened with Seq 3->2->1 (State 1-1-1).
 - **Gate 3 (16, 6):** **OPEN** with **Switch 1 ON** (State 1-0-0).
 - **Correction:** Switch 2 was ON. State 1-1-1 (All ON) confirmed Gate 1 CLOSED.
-- **Observation:** Gate 1 CLOSED in State 0-0-0 (All OFF).
-- **Hypothesis:** Switch 2 ON might open Gate 1. (State 0-1-0).
-- **Plan:** Turn Switch 2 ON. Check Gate 1.
+- **Experiment:** Switch 2 ON (State 0-1-0).
+- **Hypothesis:** Switch 2 ON might open Gate 1.
 
 **Current Status:**
-- Switches: 1 OFF, 2 OFF, 3 OFF.
-- Position: Moving to Switch 2.
+- Switches: 1 OFF, 2 ON, 3 OFF.
+- Position: Moving to Gate 1.
 
 **Key Locations:**
 - Switch 1: (16, 1) [Right]
