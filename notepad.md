@@ -6,10 +6,16 @@
 - **Gate 1 (2, 6):** **OPEN** with **Switch 3 ON** (State 0-0-1).
 - **Gate 2 (10, 6):** **CLOSED** with **Switch 3 ON** (State 0-1-1). **OPEN** (implied) with **Switch 2 Only** (State 0-1-0).
 - **Column 11 (11, 6):** **CLOSED** with **Switch 3 ON**. **OPEN** with **Switch 2 Only**.
-- **Success!** **State 0-1-0** (Switch 2 Only) opened the bypass at **(11, 6)**.
-- **Current Position:** (11, 6). Standing on the opened path.
-- **Plan:** Walk South through (11, 10) (also expected to be open). Explore the area behind the gates to find the Director.
-- **Confirmed Mechanics:** Switch 2 toggles the "Internal Walls" at Col 11. Switch 3 and 1 control the Gates (mostly closed or useless if walls are up).
+- **Puzzle Logic:**
+    - **Switch 2 (ON):** Opens **Entrance (11, 6)**.
+    - **Switch 1 (ON):** Opens **Exit (11, 10)**.
+    - **Switch 3 (ON):** Closes Entrance (11, 6) (and opens Gate 1).
+- **Solution:** **State 1-1-0** (Sw1 ON, Sw2 ON, Sw3 OFF).
+- **Plan:**
+    1. Verify (11, 10) is CLOSED (confirming Sw1 is needed).
+    2. Go to Switch 1 (16, 1). Turn **ON**.
+    3. Return to (11, 6) and pass through to (11, 10).
+- **Current Status:** State 0-1-0. At (11, 9). (11, 10) is blocked.
 
 **Key Locations:**
 - Switch 1: (16, 1) [Right] - OFF
