@@ -3,10 +3,10 @@
 - **Puzzle Solved:** Switch Combination [0, 1, 0] (Sw2 ON only) -> Gate 2 OPEN.
 - **Current Status:**
   - Switches: [1, 0, 1] (Sw1 ON, Sw2 OFF, Sw3 ON).
-  - Confirmed: Gate 3 (16, 6) is OPEN.
-  - Confirmed: Gate 2 (10, 6) is CLOSED.
-  - Action: Moving through Gate 3.
-  - Goal: Explore (19, 12).
+  - Location: Room behind Gate 3.
+  - Action: Fighting Rocket Grunt at (17, 2).
+  - Goal: Defeat Grunt.
+  - Hope: He drops a key or opens a path.
 - **Hazards:**
   - Trap suspected on Row 3 (between x=3 and x=8). Warps to (8, 2).
   - Row 4 confirmed safe in past turns.
