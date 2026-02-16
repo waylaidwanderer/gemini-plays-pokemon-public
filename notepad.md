@@ -10,3 +10,4 @@
   - Sw2: ON (Assumed). Heading to turn OFF.
   - Sw1: ON (Assumed). Will turn OFF next.
 Turn 45858: Turned Switch 2 OFF. State: [1, 0, 1]. Moving to Switch 1 to turn OFF.
+Turn 45859: Moving to Switch 1 to turn OFF. Target State: [0, 0, 1].
