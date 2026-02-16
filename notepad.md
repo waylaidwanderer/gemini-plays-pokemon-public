@@ -9,6 +9,6 @@
   - Sw3: OFF.
   - Sw2: ON -> Toggle OFF/ON (Sequence `1 -> 2`).
   - Sw1: ON.
-- **Correction:** Gate 3 appeared closed in Turn 45962 screenshot. Verifying and retrying sequence.
+- **Result:** Gate 3 CLOSED (Correction from Turn 45963).
 - **Plan:** Toggle Switch 2 to simulate `Sw1 -> Sw2` sequence.
-Turn 45963: Verifying Gate 3 closed, then moving to Switch 2.
+Turn 45965: Moving to Switch 2 to toggle.
