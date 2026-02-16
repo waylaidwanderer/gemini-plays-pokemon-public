@@ -5,10 +5,11 @@
   - Switches: [0, 1, 0] (Sw1 OFF, Sw2 ON, Sw3 OFF).
   - Confirmed: Gate 2 (10, 6) is OPEN.
   - Confirmed: Corridor at x=11 (Rows 6-9) is OPEN.
-  - Confirmed: Wall/Shutter at (11, 10) is CLOSED.
-  - Action: stepping on (10, 9) to test trap.
-  - Goal: Test [0, 1, 1] to open (11, 10).
-  - Trap Logic: If warped, use it as shortcut to Switch 3.
+  - Confirmed: Wall at (11, 10) is CLOSED.
+  - Confirmed: Trap at (10, 9) is DISABLED (safe to walk).
+  - Action: Moving to Switch 3 (2, 1).
+  - Goal: Turn Sw3 ON -> State [0, 1, 1].
+  - Hypothesis: [0, 1, 1] opens Wall (11, 10).
 - **Hazards:**
   - Trap suspected on Row 3 (between x=3 and x=8). Warps to (8, 2).
   - Row 4 confirmed safe in past turns.
