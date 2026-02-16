@@ -6,11 +6,11 @@
 - **Gate 1 (2, 6):** Opens with **Switch 3 ON** (State 0-0-1).
 - **Gate 2 (10, 6):** Opens with **Switch 3 ON + Switch 1 ON** (State 1-0-1). Also opened with Seq 3->2->1 (State 1-1-1).
 - **Gate 3 (16, 6):** Confirmed CLOSED with Seq 1->2 (State 1-1-0).
-- Visual Confirm: Inner Wall (11, 10) is CLOSED (Type 2889) with State 1-1-1.
-- Conclusion: Sequence 1->2->3 is incorrect.
-- Action: Stepping on Trap at (10, 9) to fast-reset switches to OFF.
-- Next Plan: Try Sequence starting with Switch 3 (Left End).
-- Target Sequence: 3 -> 2 -> 1.
+- **Gate 3 (16, 6):** Confirmed CLOSED with Seq 1->2->3 (State 1-1-1).
+- **Inner Wall (11, 10):** Confirmed CLOSED with Seq 1->2->3.
+- Action: Resetting via Trap.
+- Plan: Execute Sequence 3 -> 2 -> 1.
+- Theory: "End Switch First" refers to Switch 3.
 - **Inner Wall (10, 10) or (11, 10):** Currently the main obstacle behind Gate 2.
 
 **Current Hypothesis:**
