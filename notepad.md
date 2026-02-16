@@ -4,10 +4,10 @@
 - **Failed Tests:**
   - Sequences: `3->2->1`, `1->2->3`.
   - Combos: `[1, 1, 0]`, `[1, 0, 1]`, `[1, 1, 1]`, `[0, 1, 0]`.
-- **Current Test:** Transitioning to `[1, 0, 1]` (Sw1=ON, Sw3=ON, Sw2=OFF).
+- **Current Test:** Setting up `[0, 1, 1]` (Sw1=OFF, Sw2=ON, Sw3=ON).
 - **Status:**
   - Sw3: OFF -> Will turn ON.
-  - Sw2: ON -> Turning OFF.
-  - Sw1: ON.
+  - Sw2: OFF (Gate 2 closed, inferred OFF). -> Will turn ON.
+  - Sw1: ON -> Turning OFF now.
 - **Goal:** Check Back Gate at (2, 10).
-Turn 45978: Turning Switch 2 OFF. Moving to Switch 3.
+Turn 45982: Turning Switch 1 OFF. Then moving to Sw2 and Sw3.
