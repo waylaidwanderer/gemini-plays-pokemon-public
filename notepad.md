@@ -23,5 +23,6 @@
 - Switch 3: (2, 1) [Left]
 - Action: Turned Switch 3 OFF.
 - Current Status: Switch 1 ON, Switch 2 ON, Switch 3 OFF (State: 1-1-0).
-- Goal: Check Gate 3 (16, 6).
-- Expectation: Gate 3 shoud be OPEN.
+- Action: Moving to Gate 3 (16, 6) via Row 5.
+- Plan: If Gate 3 is OPEN, enter and carefully navigate to (16, 10).
+- Hazard: Avoid Trap at (16, 8).
