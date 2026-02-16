@@ -21,8 +21,8 @@
 - Switch 1: (16, 1) [Right]
 - Switch 2: (10, 1) [Middle]
 - Switch 3: (2, 1) [Left]
-- Action: Turning Switch 2 ON (Sequence Part 2).
-- Current Status: Switch 1 ON, Switch 2 ON (State 1-1-0).
+- Current Status: Switch 1 ON, Switch 2 ON, Switch 3 OFF (State: 1-1-0).
 - Sequence: 1 -> 2 Completed.
-- Action: Return to Gate 3 via safe path (Col 8).
-- Path: Left to (8, 2) -> Down to (8, 5) -> Right to (16, 5) -> Down to Gate 3.
+- Observation: Tile changes at (10, 7)/(11, 7) detected. Possible Gate 2 activity?
+- Action: Checking Gate 3 (16, 6) first.
+- Path: (8, 3) -> Down to (8, 5) -> Right to (16, 5) -> Down to Gate 3.
