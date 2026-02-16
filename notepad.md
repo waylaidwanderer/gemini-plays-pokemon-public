@@ -17,14 +17,12 @@
     2. Reset all switches to **OFF**.
     3. Try Sequence: **Switch 3 -> Switch 2 -> Switch 1** (Left to Right).
     4. Try Sequence: **Switch 1 -> Switch 2 -> Switch 3** (Right to Left).
-- **Trap Update:** Confirmed trapped in Middle Pocket when Sw2 is OFF. Must turn Sw2 ON to exit.
-- **Revised Plan:**
-    1. Turn **Switch 2 ON** (Escape).
-    2. Go to **Switch 1**. Turn **ON**.
-    3. Turn **Switch 2 OFF** then **ON** (Simulate pressing 2 second?).
-    4. Go to **Switch 3**. Turn **ON**.
-    5. Check results of **All ON** (Sequence 1->2->3).
-- **Current State:** Resetting to Sw2 ON.
+- **Status:** Switch 2 ON (Escape Mode). Moving to Switch 3.
+- **Sequence Plan:**
+    1. **Switch 3 ON** (Start of sequence).
+    2. Return to Switch 2. Reset (OFF -> ON).
+    3. Go to Switch 1. Turn ON.
+- **Trap Note:** Row 4 seems safe with Sw2 ON. Taking Row 5 to be extra sure.
 
 **Key Locations:**
 - Switch 1: (16, 1) [Right] - OFF
