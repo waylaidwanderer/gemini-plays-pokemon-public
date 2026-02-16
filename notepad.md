@@ -42,7 +42,7 @@
 3. If fail, reconsider "Sequence".
 
 **Key Locations:**
-- Switch 1: (16, 1) [Right] - OFF (Resetting)
+- Switch 1: (16, 1) [Right] - ON (Retrying Turn OFF)
 - **State Analysis:** Tool shows Secret Door (11, 6) OPEN. Suspicion: Switch 2 might still be ON.
 - **Wall (16, 10):** CLOSED with All Switches ON.
 - Switch 2: (10, 1) [Middle] - OFF (Resetting)
