@@ -146,3 +146,4 @@ Turn 45819: Sequence Step 2: Turned Switch 2 ON. State: [1, 1, 0]. Moving to Swi
 Turn 45820: Confirmed Switch 2 ON. State: [1, 1, 0]. Moving to Switch 3.
 Turn 45821: Moving to Switch 3 to turn ON (Step 3/3).
 Turn 45822: Arriving at Switch 3 (2, 2).
+Turn 45823: Moving to Switch 3 (2, 2) from (6, 4).
