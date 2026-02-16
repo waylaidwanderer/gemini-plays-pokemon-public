@@ -11,9 +11,9 @@
 
 **Current Status (Based on Markers):**
 - Switch 1 (Right): **ON** (Verified - Step 2 of Sequence)
-- Switch 2 (Middle): **OFF** (Verified)
+- Switch 2 (Middle): **ON** (Verified - Step 3 of Sequence)
 - Switch 3 (Left): **ON** (Verified - Step 1 of Sequence)
-- Global State: 0-1-1 (if order is 3-2-1).
+- Global State: 1-1-1 (Sequence: 3 -> 1 -> 2).
 
 **Plan: Reset & Retry**
 1. Turn Switch 2 **OFF**. (Moving there now)
