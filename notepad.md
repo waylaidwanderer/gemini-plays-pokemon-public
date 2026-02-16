@@ -47,9 +47,9 @@
 - Visual Confirm: Area (16, 9) to (17, 9) is a dead end. Walls at Row 10 are CLOSED.
 - Plan: Return to switches via (12, 8). Turn All OFF. Try Sequence 1->2->3.
 - Visual Confirm: Gate 2 (10, 6) CLOSED when Switch 2 turned OFF.
-- Visual Confirm: Switch 3 is OFF.
-- Current Status: All Switches OFF.
+- Visual Confirm: Switch 1 is already ON. Kept it ON.
+- Current Status: Switch 1 ON. Switch 2 & 3 OFF.
 - Plan: Execute Sequence 1 -> 2 -> 3.
-- Action: Heading to Switch 1 (16, 1).
+- Action: Heading to Switch 2 (10, 1).
 - Navigation Note: Direct path between Switch 1 and 2 on Row 2 is BLOCKED at (13, 2). Must use Row 4.
 - Action: Routing via Row 4 to reach Switch 2.
