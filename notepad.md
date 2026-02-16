@@ -12,13 +12,13 @@
 **Objective:** Open Gate 3.
 
 Location: Warehouse (3_54).
-Objective: Explore South of Gate 1.
+Objective: Interact with Rival Silver.
 Status:
-- State 0-0-0 (All OFF).
-- Gate 1 (2, 6) appears OPEN (TYPE_3fe2).
-- Moving South to investigate.
+- Passed Gate 1.
+- Silver found at (4, 8).
+- Puzzle State: All OFF (0-0-0).
 Plan:
-1. Move through Gate 1 to (2, 9).
-2. Check wall at (2, 10).
-3. Check for Silver or items in this area.
-4. Note: Mental map has Silver at (4, 8). Checking validity.
+1. Approach Silver at (4, 8).
+2. Talk to him.
+3. Expecting a battle or a key item/info.
+4. Check if this opens the path to the Director.
