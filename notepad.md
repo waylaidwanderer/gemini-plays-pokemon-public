@@ -46,7 +46,7 @@
 - **State Analysis:** Tool shows Secret Door (11, 6) OPEN. Suspicion: Switch 2 might still be ON.
 - **Wall (16, 10):** CLOSED with All Switches ON.
 - Switch 2: (10, 1) [Middle] - OFF (Resetting)
-- Switch 3: (2, 1) [Left] - ON (Seq Step 1)
+- Switch 3: (2, 1) [Left] - OFF (Reset Complete)
 - Gate 2: (10, 6)
 - Gate 3: (16, 6)
 - **Gate 3 (16, 6):** CLOSED with All Switches ON (State 1-1-1).
