@@ -70,3 +70,5 @@
 - Visual Confirm: Gate 1 (2, 6) is OPEN.
 - Solution Verified: Switch 3 ON (others OFF).
 - Action: Entering Gate 1 to find the Director.
+- Action: Attempting to open "Back Gate" at (2, 10) using Basement Key.
+- Note: If this door opens, it likely leads to the Director.
