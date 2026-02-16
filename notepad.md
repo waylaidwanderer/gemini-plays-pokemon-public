@@ -1,12 +1,13 @@
 Location: Warehouse (3_54).
-Objective: Test Trap at (12, 8) in State 1-0-1.
+Objective: Test State 1-0-0 (Sw1 ON, Sw2 OFF, Sw3 OFF).
 Status:
-- Sw1 ON, Sw3 ON, Sw2 OFF.
-- Gate 2 (10, 6) CLOSED.
-- (10, 4) confirmed SAFE in this state.
+- Sw1 ON, Sw2 OFF, Sw3 ON (State 1-0-1).
+- Trap (12, 8) ACTIVE (Warped back).
+- Gate 2 Closed.
 Hypothesis:
-- Maybe Sw2 OFF disables the central traps?
+- Maybe Sw2 & Sw3 OFF is the key (State 1-0-0)?
 Plan:
-1. Move to (12, 5).
-2. Walk down to (12, 8).
-3. If safe, explore South.
+1. Go to Switch 3 (2, 1).
+2. Turn OFF.
+3. Check Gate 1 (2, 6) and Gate 2 (10, 6).
+4. Check Central Trap.
