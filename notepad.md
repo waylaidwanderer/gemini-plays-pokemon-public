@@ -6,11 +6,12 @@
 - **Gate 1 (2, 6):** Opens with **Switch 3 ON** (State 0-0-1).
 - **Gate 2 (10, 6):** Opens with **Switch 3 ON + Switch 1 ON** (State 1-0-1). Also opened with Seq 3->2->1 (State 1-1-1).
 - **Gate 3 (16, 6):** Confirmed CLOSED with Seq 1->2 (State 1-1-0).
-- Visual Confirm: Gate 1 (2, 6) is CLOSED with State 1-1-1.
-- Action: moving East along Row 5.
-- Goal: Check Gate 2 (10, 6) and Gate 3 (16, 6).
-- Prediction: If 1->2 opened Gate 2, adding 3 might have closed it or opened Gate 1/3.
-- Current Sequence: 1 -> 2 -> 3.
+- Visual Confirm: With State 1-1-1 (Seq 1->2->3):
+  - Gate 1 (2, 6) is CLOSED.
+  - Gate 2 (10, 6) is OPEN.
+  - Gate 3 (16, 6) is CLOSED.
+- Action: Checking Inner Wall behind Gate 2.
+- Path: Via Column 11 to avoid Trap at (10, 9).
 - **Inner Wall (10, 10) or (11, 10):** Currently the main obstacle behind Gate 2.
 
 **Current Hypothesis:**
