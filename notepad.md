@@ -29,3 +29,5 @@
 - SOLVED: Gate 3 (16, 6) OPENS with Sequence 1 -> 2.
 - Action: Entering Gate 3.
 - Caution: Trap at (16, 8) status unknown for this sequence. Bypassing via column 17.
+- Visual Confirm: Gate 3 (16, 6) entered.
+- Action: Exploring area behind Gate 3. Heading to Director?
