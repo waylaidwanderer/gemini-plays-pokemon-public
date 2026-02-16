@@ -13,10 +13,12 @@
     - **Switch 3 (ON):** Closes Entrance (11, 6) (and opens Gate 1).
 - **Observation:** `(11, 10)` is a Wall with State 1-1-0.
 - **Hypothesis:** "The switch on the end is the one to press first" implies a **SEQUENCE**, not just a state.
-- **Plan:**
-    1. Reset all switches to **OFF**.
-    2. Try Sequence: **Switch 1 -> Switch 2 -> Switch 3** (Right to Left).
-    3. If that fails, re-evaluate clues.
+- **Plan (Reset Protocol):**
+    1. **Keep Sw2 ON** (active) to safely cross traps to Right Side.
+    2. Go to **Switch 1** (Right). Turn **OFF**.
+    3. Return to **Switch 2** (Middle). Turn **OFF**.
+    4. Go to **Switch 3** (Left). Turn **OFF**.
+    5. **Execute Sequence:** Sw1 -> Sw2 -> Sw3.
 
 # Underground Warehouse Truth Table
 
