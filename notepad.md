@@ -52,3 +52,5 @@
 - Action: Checking Gate 1 (2, 6). Then Gate 2 (10, 6).
 - Navigation Note: Direct path between Switch 1 and 2 on Row 2 is BLOCKED at (13, 2). Must use Row 4.
 - Action: Routing via Row 4 to reach Switch 2.
+- Visual Confirm: Gate 1 (2, 6) is [Status Pending].
+- Action: Checking Gate 1. Then Gate 2.
