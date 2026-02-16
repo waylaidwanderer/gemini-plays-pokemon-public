@@ -8,5 +8,5 @@
 - **Status:**
   - Sw3: OFF.
   - Sw2: OFF.
-  - Sw1: OFF -> turning ON.
-Turn 45880: Turned Switch 2 OFF. Moving to Switch 1.
+  - Sw1: ON.
+Turn 45887: Turned Switch 1 ON. Checking Gate 3.
