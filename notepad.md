@@ -6,9 +6,10 @@
 - **Gate 1 (2, 6):** **OPEN** with **Switch 3 ON** (State 0-0-1).
 - **Gate 2 (10, 6):** Opens with **Switch 3 ON + Switch 1 ON** (State 1-0-1).
 - **Gate 3 (16, 6):** **OPEN** with **Switch 1 ON** (State 1-0-0).
-- **Door/Wall at (2, 10):** System reported change to Wall (TYPE_2889) with Switch 3 ON.
-- **Hypothesis:** Switch 3 opens Gate 1 but closes (2, 10).
-- **Plan:** Verify blockage at (2, 10). Then test **Switch 1 ON** (State 1-0-0) on Gate 1.
+- **Wall at (2, 10):** Confirmed BLOCKING with Switch 3 ON.
+- **Hypothesis:** Need State 1-0-1 (Sw1+Sw3) to open Gate 2? Or maybe it affects (2, 10)?
+- **Plan:** Go to Switch 1. Turn ON. Test State 1-0-1.
+- **Navigation:** Traversing Row 4 traps (Sw2 OFF) to reach Switch 1.
 
 **Current Status:**
 - Switches: 1 OFF, 2 OFF, 3 ON.
