@@ -7,6 +7,7 @@
   - Next: Verify Gate 2 and Wall (11, 10).
   - Method: Use `check_gate_states`.
   - Goal: Open Wall (11, 10).
+  - Hypothesis: Sw1 might control the shutter.
 - **Hazards:**
   - Trap suspected on Row 3 (between x=3 and x=8). Warps to (8, 2).
   - Row 4 confirmed safe in past turns.
