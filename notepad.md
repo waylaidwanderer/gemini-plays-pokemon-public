@@ -6,6 +6,7 @@ Status:
 - Switch 1 ON (Verified).
 - State: 1-0-1.
 - Plan: Change to 1-1-0 (Sw3 ON, Sw2 ON, Sw1 OFF).
+- Map Note: Row 2 and 3 blocked at Col 12/13. Use Row 5 for East-West travel.
 - Logic: 
   - 1-0-1: Trap Active.
   - 1-1-1: Gates Closed.
