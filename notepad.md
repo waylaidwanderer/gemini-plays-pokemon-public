@@ -8,6 +8,6 @@ Status:
 - Gate 2 (Middle) locked.
 - Gate 3 (Right) locked.
 Plan:
-1. Navigate to Switch 1 (16, 1). Path: Row 3/4 zigzag.
+1. Navigate to Switch 1 (16, 1). Path: Row 3/4 zigzag (10,2 -> 11,4 -> 14,4 -> 16,3 -> 16,1).
 2. Turn Switch 1 ON.
 3. Enter Gate 3 (16, 6) to find Director.
