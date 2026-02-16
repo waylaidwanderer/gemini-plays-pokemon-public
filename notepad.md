@@ -4,11 +4,10 @@
 - **Failed Tests:**
   - Sequences: `3->2->1`, `1->2->3`.
   - Combos: `[1, 1, 0]`, `[1, 0, 1]`, `[1, 1, 1]`, `[0, 1, 0]`.
-- **Current Test:** Sequence `1 -> 2` (Sw1 ON, then Sw2 ON).
+- **Current Test:** Transitioning to `[1, 0, 1]` (Sw1=ON, Sw3=ON, Sw2=OFF).
 - **Status:**
-  - Sw3: OFF.
-  - Sw2: ON.
+  - Sw3: OFF -> Will turn ON.
+  - Sw2: ON -> Turning OFF.
   - Sw1: ON.
-- **Result:** Gate 3 (16, 6) OPENED. Trap at (16, 8) DISABLED.
-- **Solution:** Switches 1 & 2 ON, Switch 3 OFF. Order `1 -> 2`.
-Turn 45971: Safe inside Right Room. engaging Grunt at (19, 12).
+- **Goal:** Check Back Gate at (2, 10).
+Turn 45978: Turning Switch 2 OFF. Moving to Switch 3.
