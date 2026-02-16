@@ -23,7 +23,7 @@
 - Switch 3: (2, 1) [Left]
 - Action: Turned Switch 3 OFF.
 - Visual Confirm: Gate 3 (16, 6) is CLOSED (Type 2889) with State 0-1-0.
-- Conclusion: State 0-1-0 does not open Gate 3.
 - Action: Resetting all switches to OFF.
 - Step 1: Turn Switch 2 OFF (Current: ON).
 - Step 2: Try Sequence 1 -> 2 (State 1-1-0) from a fresh start.
+- Note: Verifying "End Switch First" hint. Trying Right End (Switch 1) first.
