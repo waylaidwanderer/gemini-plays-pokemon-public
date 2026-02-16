@@ -22,6 +22,6 @@
 - Gate 3: (16, 6)
 - Visual Confirm: Gate 1 (2, 6) is CLOSED.
 - Visual Confirm: Switch 1 turned ON.
-- Current Status: Switch 1 ON. Switch 2 & 3 OFF.
-- Sequence: Switch 1 ON -> Switch 2 ON.
-- Action: Heading to Switch 2 (10, 1) via Row 4 (to avoid invisible wall).
+- Current Status: Switch 1 & 2 ON. Switch 3 OFF.
+- Sequence: Switch 1 ON -> Switch 2 ON (Completed).
+- Action: Checking Gate 3 (16, 6).
