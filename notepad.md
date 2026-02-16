@@ -14,11 +14,10 @@
 Location: Warehouse (3_54).
 Objective: Interact with Rival Silver.
 Status:
-- Passed Gate 1.
-- Silver found at (4, 8).
-- Puzzle State: All OFF (0-0-0).
+- Passed Gate 1 (Switch State: All OFF).
+- Talking to Rival Silver at (4, 8).
+- Dialogue: "UNDERGROUND WARE- HOUSE?"
 Plan:
-1. Approach Silver at (4, 8).
-2. Talk to him.
-3. Expecting a battle or a key item/info.
-4. Check if this opens the path to the Director.
+1. Advance dialogue.
+2. Defeat Silver (if battle starts).
+3. Interact with the Director (if Silver moves).
