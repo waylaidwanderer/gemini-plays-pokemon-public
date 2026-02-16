@@ -37,3 +37,6 @@
 - Correction: I am at Gate 3 (16, 6).
 - Action: Navigate to (12, 9) to check Wall (10, 10) from the East.
 - Path: Avoid Trap (16, 8) by using Col 17.
+- Visual Confirm: Wall at (10, 10) is CLOSED with Seq 1->2.
+- Action: Heading East to explore the South-East corner behind Gate 3.
+- Goal: Reach Rocket Grunt F at (19, 12).
