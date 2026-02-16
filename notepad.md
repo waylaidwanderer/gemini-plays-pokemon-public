@@ -40,3 +40,6 @@
 - Visual Confirm: Wall at (10, 10) is CLOSED with Seq 1->2.
 - Action: Heading East to explore the South-East corner behind Gate 3.
 - Goal: Reach Rocket Grunt F at (19, 12).
+- Visual Confirm: Area behind Gate 3 is a dead end (Walls at 16,10 and 17,10).
+- Conclusion: Sequence 1 -> 2 opens Gate 3 but not the path forward.
+- Plan: Reset. Try Sequence 1 -> 3 -> 2. (Start with End, but different order).
