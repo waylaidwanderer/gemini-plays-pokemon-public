@@ -2,14 +2,11 @@
 - **Goal:** Rescue Director.
 - **Puzzle Solved:** Switch Combination [0, 1, 0] (Sw2 ON only) -> Gate 2 OPEN.
 - **Current Status:**
-  - Switches: [0, 1, 0] (Sw1 OFF, Sw2 ON, Sw3 OFF).
-  - Confirmed: Gate 2 (10, 6) is OPEN.
-  - Confirmed: Corridor at x=11 (Rows 6-9) is OPEN.
-  - Confirmed: Wall at (11, 10) is CLOSED.
-  - Confirmed: Trap at (10, 9) is DISABLED (safe to walk).
-  - Action: Moving to Switch 3 (2, 1).
-  - Goal: Turn Sw3 ON -> State [0, 1, 1].
+  - Switches: [0, 1, 1] (Sw1 OFF, Sw2 ON, Sw3 ON).
+  - Action: Turned Sw3 ON.
+  - Next: Check Wall at (11, 10).
   - Hypothesis: [0, 1, 1] opens Wall (11, 10).
+  - Backup: If closed, try [0, 0, 1].
 - **Hazards:**
   - Trap suspected on Row 3 (between x=3 and x=8). Warps to (8, 2).
   - Row 4 confirmed safe in past turns.
