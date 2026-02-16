@@ -8,12 +8,11 @@
 - **Gate 3 (16, 6):** Confirmed CLOSED with Seq 1->2 (State 1-1-0).
 - **Gate 3 (16, 6):** Confirmed CLOSED with Seq 1->2->3 (State 1-1-1).
 - **Inner Wall (11, 10):** Confirmed CLOSED with Seq 1->2->3.
-- Action: Turning Switch 2 OFF.
-- Current Status (After Action): Switch 3 ON, Switch 2 OFF, Switch 1 OFF (State 0-0-1).
-- Next Step: Turn Switch 1 ON.
-- Then: Turn Switch 2 ON.
-- Sequence: 3 -> 1 -> 2.
-- Path: Moving to Switch 1 via Safe Route (Col 8 -> Row 5 -> Col 16).
+- Correction: GameState indicates I am still at (10, 2). Previous move failed due to text box.
+- Current Status: Switch 2 likely still ON. Switch 3 ON. Switch 1 OFF.
+- Action: Clear text, Turn Switch 2 OFF.
+- Next: Move to Switch 1 (16, 1).
+- Path: Left to (8, 2) -> Down to (8, 5) -> Right to (16, 5) -> Up to (16, 2).
 - **Inner Wall (10, 10) or (11, 10):** Currently the main obstacle behind Gate 2.
 
 **Current Hypothesis:**
