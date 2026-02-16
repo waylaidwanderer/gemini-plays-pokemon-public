@@ -22,7 +22,7 @@
 - Switch 2: (10, 1) [Middle]
 - Switch 3: (2, 1) [Left]
 - Current Status: Switch 1 ON, Switch 2 OFF, Switch 3 OFF (State: 1-0-0).
-- Action: Crossing Row 4 at Column 8 (Testing for trap).
-- Path: (16, 4) -> Down to (16, 5) -> Left to (8, 5) -> Up to (8, 2) -> Right to (10, 1).
-- Goal: Turn Switch 2 ON.
+- Action: Moving to Switch 2 via Column 8.
+- Testing: Trap status of tile (8, 4).
+- Plan: If (8, 4) is safe, turn Switch 2 ON.
 - Theory: Sequence 1 -> 2 opens Gate 3.
