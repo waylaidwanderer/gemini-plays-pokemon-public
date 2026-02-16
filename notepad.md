@@ -12,15 +12,14 @@
 **Current Status (Based on Markers):**
 - Switch 1 (Right): **OFF** (Verified)
 - Switch 2 (Middle): **OFF** (Verified)
-- Switch 3 (Left): **ON** (Verified - Step 1 of Sequence)
-- Global State: 1-1-1 (Sequence: 3 -> 1 -> 2).
+- Switch 3 (Left): **OFF** (Verified)
+- Global State: 0-0-0 (Reset Complete).
 
-**Plan: Reset & Retry**
-1. Turn Switch 2 **OFF**. (Moving there now)
-2. Turn Switch 1 **OFF**.
-3. Confirm Switch 3 is OFF.
-4. Execute Sequence: **Switch 3 (ON) -> Switch 1 (ON) -> Switch 2 (ON)**.
-5. Check results (Gate 3, Inner Walls).
+**Plan: Sequence 1 -> 3 -> 2**
+1. Turn Switch 1 **ON** (Start).
+2. Turn Switch 3 **ON**.
+3. Turn Switch 2 **ON**.
+4. Check Gate 3.
 
 **Key Locations:**
 - Switch 1: (16, 1) [Right]
