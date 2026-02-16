@@ -8,11 +8,11 @@
 - **Gate 3 (16, 6):** Confirmed CLOSED with Seq 1->2 (State 1-1-0).
 - **Gate 3 (16, 6):** Confirmed CLOSED with Seq 1->2->3 (State 1-1-1).
 - **Inner Wall (11, 10):** Confirmed CLOSED with Seq 1->2->3.
-- Action: Turned Switch 2 ON.
 - Current Status: Switch 3 ON, Switch 2 ON, Switch 1 OFF (State 0-1-1).
-- Sequence: 3 -> 2 (Done) -> 1 (Next).
-- Action: Moving to Switch 1 (16, 1) via safe path (Col 8 -> Row 5).
+- Sequence: 3 -> 2 (Done).
+- Action: Moving to Switch 1 (16, 1) via safe path (Row 5).
 - Path: Left to (8, 2) -> Down to (8, 5) -> Right to (16, 5) -> Up to (16, 1).
+- Goal: Turn Switch 1 ON (Step 3).
 - **Inner Wall (10, 10) or (11, 10):** Currently the main obstacle behind Gate 2.
 
 **Current Hypothesis:**
