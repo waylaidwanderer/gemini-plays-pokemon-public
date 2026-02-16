@@ -10,12 +10,12 @@
 - **Gate 2 (10, 6):** CLOSED (State 1-0-0).
 - **Trap (16, 8):** **DISABLED** with **Switch 1 ON**.
 - **Gate 3 (16, 6):** **OPEN** with **Switch 1 ON**.
-- **Wall (11, 10):** **OPEN** with **Switch 1 ON**.
-- **Plan:** Enter (11, 10) and explore. This likely bypasses Gate 2.
+- **Burglar Duncan (9, 12):** **DEFEATED**.
+- **Plan:** Bypass Duncan via Row 13 and explore the left side of the room.
 
 **Current Status:**
 - Switches: Switch 1 ON, others OFF.
-- Position: (15, 9). Moving to (11, 10).
+- Position: (10, 12). Moving around Duncan.
 
 **Key Locations:**
 - Switch 1: (16, 1) [Right]
