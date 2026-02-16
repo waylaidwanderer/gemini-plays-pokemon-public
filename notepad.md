@@ -21,8 +21,8 @@
 - Switch 1: (16, 1) [Right]
 - Switch 2: (10, 1) [Middle]
 - Switch 3: (2, 1) [Left]
-- Visual Confirm: Switch 1 turned ON.
+- Visual Confirm: Switch 1 turned ON. Gate 3 (16, 6) changed state (Closed?).
 - Current Status: Switch 1 ON, Switch 2 OFF, Switch 3 OFF (State: 1-0-0).
-- Action: Move to Switch 2 (10, 1) via safe path.
-- Route: (16, 2) -> Down (16, 5) -> Left (8, 5) -> Up (8, 2) -> Right (10, 1).
-- Avoids: Known Traps at (10, 4) and (15, 4). Uses (8, 4) and (16, 4) as safe points.
+- Action: Continuing to Switch 2 (10, 1) via Col 8.
+- Sequence: 1 -> 2.
+- Path: (16, 3) -> Down (16, 5) -> Left (8, 5) -> Up (8, 2) -> Right (10, 2) -> Switch 2.
