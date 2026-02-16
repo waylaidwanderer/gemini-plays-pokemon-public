@@ -6,15 +6,14 @@
 - **Gate 1 (2, 6):** **OPEN** with **Switch 3 ON** (State 0-0-1). **CLOSED** with **Switch 3 OFF**.
 - **Gate 3 (16, 6):** **OPEN** with **Switch 1 ON** (State 1-0-0). **CLOSED** with **Switch 1 & 3 ON** (State 1-0-1).
 - **Gate 2 (10, 6):** **CLOSED** with **State 1-0-1**.
-- **Wall at (16, 10):** BLOCKING with State 1-0-0. (Switch 1 ON, 2 OFF, 3 OFF).
+- **Wall at (16, 10):** BLOCKING with State 1-0-0.
 - **Wall at (2, 10):** BLOCKING with Switch 3 ON.
 - **Current Test:** Create **State 1-1-0** (Sw1 ON, Sw2 ON, Sw3 OFF).
-- **Hypothesis:** Sequence 1 -> 2 might open path. "End switch first" = 1?
+- **Hypothesis:** Switch 2 might toggle the internal walls.
 
 **Current Status:**
 - Switches: 1 ON, 2 OFF, 3 OFF. (State 1-0-0).
-- Position: At (16, 9). Blocked by wall at (16, 10).
-- Action: Moving to Switch 2 to turn ON.
+- Position: At (16, 2). Moving to Switch 2 (10, 1) via Row 5/Col 11 to avoid traps.
 
 **Current Status:**
 - Switches: 1 ON, 2 OFF, 3 ON. (State 1-0-1).
