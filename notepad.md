@@ -11,8 +11,8 @@ Status:
 - Switch 3: OFF.
 - Gate 3: OPEN.
 - Trap (10, 4): SAFE (Sw2 OFF).
-- Trap (16, 8): Testing (Expect SAFE).
+- Trap (16, 8): Testing (Should be SAFE).
 Rules (Deduced):
 1. Switch 3 ON closes Gate 3.
-2. Switch 2 OFF disables Trap at (10, 4).
+2. Switch 2 OFF disables Traps.
 3. Switch 1 ON opens Gate 3.
