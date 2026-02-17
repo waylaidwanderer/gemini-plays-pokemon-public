@@ -1,16 +1,14 @@
-Location: Warehouse (11, 7) - Heading to Switch 1.
+Location: Warehouse (16, 2) - At Switch 1.
 Objective: Toggle Switch 1 (Target State: 0-0-1).
-Current State: 1-0-1 (S1 ON, S2 OFF, S3 ON).
-- Verified: Gate 1 (2, 6) is OPEN.
-- Verified: Gate 2 (10, 6) is OPEN.
-- Verified: Secret Door (11, 6) is OPEN.
-- Verified: Wall (11, 10) is CLOSED.
+Current State: 1-0-1 (S1 ON, S2 OFF, S3 ON) -> Changing to 0-0-1.
+- Verified: (16, 2) is Safe (no warp).
+- Verified: Gate 1, Gate 2, Secret Door OPEN in 1-0-1. Wall (11, 10) CLOSED.
 
 Plan:
-1. Move to Switch 1 (16, 1) avoiding traps at (15, 4) and (16, 2).
-   Path: (11, 5) -> (16, 5) -> (16, 3) -> (15, 3) -> (15, 1) -> (16, 1).
-2. Toggle Switch 1 to OFF (State becomes 0-0-1).
-3. Check Gate 3 and Wall (11, 10).
+1. Toggle Switch 1 OFF (State becomes 0-0-1).
+2. Check Gate 3 (16, 6) and Wall (11, 10).
+3. If Gate 3 opens, proceed to check Wall (11, 10) via that route?
+   - Note: (11, 10) is accessible from Gate 2 as well, but was closed. Maybe 0-0-1 opens it.
 
 Switch Locations:
 - S3: (2, 1)
