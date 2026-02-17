@@ -20,3 +20,9 @@ Plan:
 3. Navigate to Switch 2 (10, 2).
 4. Turn Switch 2 ON.
 5. Check Gate 3 and Trap at (16, 8).
+Experiment: Test 'Switch 1 First' Sequence.
+Current State: All OFF.
+Step 1: Turn Switch 1 ON.
+Step 2: Turn Switch 2 ON.
+Step 3: Check Gate 3 and Trap.
+Reasoning: 'Switch on the end' = Switch 1. Order matters.
