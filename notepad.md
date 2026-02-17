@@ -9,11 +9,16 @@ Status:
 - Switch 1: ON.
 - Switch 2: ON.
 - Switch 3: OFF.
-- Gate 3: CLOSED (Confirmed).
-- Traps: SAFE (Confirmed).
-Hypothesis:
-- S1 ON + S2 ON closes Gate 3.
-- S2 ON opens Gate 2? (Needs verification).
-- Plan: Check Gate 2 (10, 6).
-- If Gate 2 is open, use it to access the back area (Row 12) and cross to the right.
-- If Gate 2 is closed, turn S1 OFF (Target 010) to open Gate 2.
+- Gate 3: CLOSED.
+- Gate 2: OPEN.
+- Wall (11, 10): CLOSED (Blocked).
+- Traps: SAFE.
+Observations:
+- S1 ON + S2 ON -> Gate 3 Closed, Gate 2 Open, Wall (11, 10) Closed.
+- Trap safety requires S2 ON.
+- If S2 ON closes Gate 3, we must use the Middle Path (Gate 2).
+- We need to open Wall (11, 10).
+Plan:
+1. Turn Switch 1 OFF.
+2. Check if Gate 2 stays open and Wall (11, 10) opens.
+3. If not, try Switch 3.
