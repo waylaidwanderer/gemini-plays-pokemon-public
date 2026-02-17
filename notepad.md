@@ -1,20 +1,18 @@
-Location: Warehouse (11, 8) - Heading to Switch 2.
-Objective: Toggle Switch 2 (Target State: 0-1-1).
-Current State: 0-0-1 (S1 OFF, S2 OFF, S3 ON).
-- Verified: Gate 3 (16, 6) is CLOSED.
-- Verified: Gate 2 (10, 6) is OPEN.
-- Verified: Secret Door (11, 6) is OPEN.
-- Verified: Wall (11, 10) is CLOSED (Visual confirmation).
-
-Hypothesis: S1 controls the choice between Gate 3 and Gate 2/Secret.
-- S1 ON: G3 Open, G2 Closed.
-- S1 OFF: G3 Closed, G2 Open.
-- Wall (11, 10) is still closed. Maybe S2 controls it?
+Location: Warehouse (10, 2) - At Switch 2 (ON).
+Objective: Check Wall (11, 10) in State 0-1-1.
+Current State: 0-1-1 (S1 OFF, S2 ON, S3 ON).
+- Just turned S2 ON.
+- Verified: Gate 3 (16, 6) CLOSED in 0-0-1.
+- Verified: Gate 2, Secret Door OPEN in 0-0-1.
 
 Plan:
-1. Move to Switch 2 (10, 1).
-2. Toggle Switch 2 ON (State becomes 0-1-1).
-3. Check Gate 2 and Wall (11, 10).
+1. Move South to check Gate 2 (10, 6).
+2. If Open: Check Wall (11, 10).
+3. If Closed: This state blocks the middle.
+   - If blocked, what's left? 
+   - 1-1-1 (S1 ON, S2 ON, S3 ON)? (Gate 2 was closed).
+   - 1-1-0? (S3 OFF).
+   - 0-1-0? (S3 OFF).
 
 Switch Locations:
 - S3: (2, 1)
