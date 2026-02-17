@@ -6,13 +6,11 @@ Truth Table (S1, S2, S3):
 - 010 (OFF, ON, OFF): Gate 2 Open.
 - 110 (ON, ON, OFF): Gate 3 Open (Hypothesis based on history).
 Status:
-- Switch 1: OFF.
+- Switch 1: ON (Step 3).
 - Switch 2: ON (Step 2).
 - Switch 3: ON (Step 1).
-- Sequence Attempt: 3 -> 2 -> 1.
+- Sequence: 3 -> 2 -> 1 Complete.
 Plan:
-1. Escape via Col 11 (Avoid active trap at 10,4).
-2. Check Secret Door at (11, 6).
-3. If open, go to Switch 1 (16, 1).
-4. Turn Switch 1 ON (Step 3).
-Current Action: Moving around trap to (11, 6).
+1. Check Gate 3 at (16, 6).
+2. Check Trap at (16, 8).
+3. If this fails, the "Order" hypothesis is wrong or needs a different order (e.g. 2-3-1?).
