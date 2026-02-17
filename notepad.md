@@ -1,20 +1,19 @@
-Location: Warehouse (2, 1) - At Switch 3.
-Objective: Toggle Switch 3 to ON (Target: 0-1-1).
-Current State: 0-1-0 (S1 OFF, S2 ON, S3 OFF) -> Changing to 0-1-1.
-- CRITICAL CORRECTION: Switch 3 was found OFF.
-- This means my previous test (Gate 2 Closed) was done in State 0-1-0.
-- State 0-1-0 is a DEAD END (Gate 2 Closed, Gate 3 Closed).
-- Now testing State 0-1-1 (S1 OFF, S2 ON, S3 ON).
+Location: Warehouse (2, 2) - At Switch 3.
+Objective: Check Gate 1 (2, 6) in State 0-1-1.
+Current State: 0-1-1 (S1 OFF, S2 ON, S3 ON).
+- S3 just turned ON.
+- S1 is OFF.
+- S2 is ON.
+
+Hypothesis for 0-1-1:
+- Gate 1: ??? (S1 OFF might affect it).
+- Gate 2: ??? (S2 ON usually closes it?).
+- Wall (11, 10): Hoping this opens it.
 
 Plan:
-1. Confirm turning S3 ON.
-2. Check Gate 1 (2, 6).
-3. Check Gate 2 (10, 6) and Wall (11, 10).
-
-Switch Locations:
-- S3: (2, 1)
-- S2: (10, 1)
-- S1: (16, 1)
+1. Check Gate 1 (2, 6).
+2. If Open, go to Gate 2 (10, 6).
+3. Check Wall (11, 10).
 
 History:
 - 1-0-0: G1 Open, G3 Open, Wall Closed.
