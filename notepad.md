@@ -7,15 +7,15 @@ Truth Table (S1, S2, S3):
 - 110 (ON, ON, OFF): Gate 3 Open (Trap Active).
 - 101 (ON, OFF, ON): Gate 3 CLOSED, Trap Safe.
 - 111 (ON, ON, ON): Gate 3 CLOSED, Trap Safe.
-- 100 (ON, OFF, OFF): Gate 3 OPEN. Trap (10,4) SAFE.
+- 100 (ON, OFF, OFF): Gate 3 OPEN. Trap (16,8) SAFE.
 Status:
 - Switch 1: ON.
 - Switch 2: OFF.
-- Switch 3: OFF (Action Taken).
-- Gate 3: OPEN (Standing at 16,6).
+- Switch 3: OFF.
+- Gate 3: OPEN.
 State: 1-0-0.
 Sequence Progress:
 1. Turn Switch 2 OFF (Done).
 2. Turn Switch 3 OFF (Done).
-Reasoning: State 1-0-0 opens Gate 3. Now checking if Trap (16,8) is safe (since Sw2 is OFF).
-Navigation: Moving to (16,8) to test trap. then to Grunt F.
+Reasoning: Trap (16,8) is SAFE. Exploring the small room behind Gate 3. If dead end, will try State 1-1-0 (S1+S2 ON) to access Gate 2 + Secret Wall (11,10).
+Navigation: Checking crates at (18,8) and (18,9).
