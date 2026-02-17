@@ -8,12 +8,12 @@ Truth Table (S1, S2, S3):
 Status:
 - Switch 1: ON.
 - Switch 2: OFF.
-- Switch 3: OFF -> ON (Action).
-- Gate 3: CLOSED (State 100 Fails).
+- Switch 3: ON (Action).
+- Gate 3: Checking...
 - Trap (10, 4): SAFE.
 - Trap (16, 8): Unknown.
 Hypothesis:
 - Hint: "Switch on the end is the one to press first."
 - Attempting State 101 (ON, OFF, ON).
 - If 101 fails: Reset to 000. Try Order: S3 -> S2 -> S1.
-Current Action: Moving to Switch 3 (2, 1) to turn ON.
+Current Action: Turning Switch 3 ON.
