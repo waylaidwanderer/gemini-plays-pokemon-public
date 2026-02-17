@@ -1,13 +1,11 @@
-Location: Warehouse (11, 6) - Moving to Switch 2 (10, 1).
-Objective: Revert to State 1-0-0 (S1 ON, S2 OFF).
+Location: Warehouse (10, 2) - Interacting with Switch 2.
+Objective: Turn Switch 2 OFF (State 1-0-0).
 Current State: 1-1-0 (S1 ON, S2 ON, S3 OFF).
-- Heading North to Switch 2.
-- Rocket Grunt at (11, 2) facing DOWN. Expect Battle.
-- After battle, will access Switch 2 via (10, 2).
+- Grunt avoided (hopefully).
+- Interacting with S2.
 Plan:
-1. Move Up to (11, 3) -> Trigger Battle.
-2. Win Battle.
-3. Move Left to (10, 3) -> Up to (10, 2).
-4. Turn Switch 2 OFF (State 1-0-0).
-5. Exit via Gate 3 (16, 6) -> (11, 10) -> South.
-Path: Up -> Up -> Up.
+1. Turn S2 OFF.
+2. Verify State 1-0-0.
+3. Move to Gate 3 (16, 6) -> Enter.
+4. Move to Wall (11, 10) -> Enter South Area.
+Path: Interact -> Yes -> Down -> Right to Gate 3.
