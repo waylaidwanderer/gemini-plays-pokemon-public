@@ -31,3 +31,8 @@ Anomaly: Warped to (6, 4) during navigation to Switch 3.
 - Path taken: (10, 2) -> (4, 2) -> (4, 4) -> (2, 4) -> (2, 2).
 - Suspect trap at (4, 4), (3, 4), (2, 4), or (2, 2) in State 0-0-1.
 Action: Retrying access to Switch 3 from (6, 4).
+Plan Update:
+- Trapped in NW corner (0-0-0). Gate 1 Closed.
+- Hypothesis: There is a Trap Warp in this room (likely Row 4) that allows escape while keeping S3 OFF.
+- Action: Trigger the trap at (2, 4) or (3, 4) to warp out.
+- Goal: Explore map in State 0-0-0 (S1 OFF, S2 OFF, S3 OFF).
