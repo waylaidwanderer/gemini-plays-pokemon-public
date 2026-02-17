@@ -8,12 +8,14 @@ Truth Table (S1, S2, S3):
 Status:
 - Switch 1: OFF.
 - Switch 2: OFF.
-- Switch 3: OFF (Action).
+- Switch 3: ON (Action Taken).
 - Gate 3: CLOSED.
-- Gate 1: Check (Expect Closed).
-State: 0-0-0 (All OFF).
-New Sequence Test (Left to Right):
-1. Turn Switch 3 ON (Current).
-2. Turn Switch 2 ON.
+- Gate 1: Check (Expect Open).
+State: 0-0-1 (S3 ON).
+Sequence Progress (Left to Right):
+1. Turn Switch 3 ON (Done).
+2. Turn Switch 2 ON (Next).
 3. Turn Switch 1 ON.
 Reasoning: "Switch on the end" = Switch 3.
+Traps: S2 is OFF, so traps should be SAFE.
+Navigation: Heading to Switch 2.
