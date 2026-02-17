@@ -1,19 +1,17 @@
-Location: Warehouse (16, 5) - Checking Gate 3.
-Objective: Check Gate 2 (10, 6) in State 0-0-1.
+Location: Warehouse (11, 9) - Testing Trap/Wall.
+Objective: Check Wall (11, 10) in State 0-0-1.
 Current State: 0-0-1 (S1 OFF, S2 OFF, S3 ON).
-- Gate 3 (16, 6) is CLOSED (Verified visually).
-- S1 OFF seems to close Gate 3.
+- Gate 3 (16, 6) is CLOSED (Verified).
+- Gate 2 (10, 6) is OPEN (Verified).
+- Secret Door (11, 6) is OPEN (Verified).
+- Testing if (11, 9) is a trap in this state.
+- Testing if Wall (11, 10) is open.
 
 Plan:
-1. Move Left to check Gate 2 (10, 6) and Secret Door (11, 6).
-2. If Open: Check Wall (11, 10).
-3. If Closed: State 0-0-1 is likely a dead end for the middle section.
-   - Next State to try: 0-1-1 (S1 OFF, S2 ON, S3 ON)? Or revert to 1-0-1?
-
-Switch Locations:
-- S3: (2, 1)
-- S2: (10, 1)
-- S1: (16, 1)
+1. Walk South to (11, 9).
+2. If warped, mark trap for 0-0-1.
+3. If not warped, check Wall (11, 10).
+4. If Wall (11, 10) is closed, proceed to try State 0-1-1 (S2 ON).
 
 Switch Locations:
 - S3: (2, 1)
