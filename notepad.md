@@ -7,12 +7,13 @@ Truth Table (S1, S2, S3):
 - 110 (ON, ON, OFF): Gate 3 Open (Trap Active).
 Status:
 - Switch 1: ON.
-- Switch 2: Toggling (Target: OFF).
+- Switch 2: Checked (Target: OFF).
 - Switch 3: OFF.
-- Gate 3: CLOSED.
-- Traps: SAFE.
-Sequence Reset:
-1. Turn S2 OFF (Current Action).
-2. Turn S2 ON (Next Action).
+- Gate 3: Unknown for this state.
+- Traps: Unknown (Likely Active).
+Combination Testing:
+- S1=ON, S2=OFF, S3=OFF.
+Plan:
+1. Verify S2 is OFF.
+2. Go to (16, 5) via Row 2 (avoid (10, 4) trap).
 3. Check Gate 3.
-This ensures the last switch flipped is S2, creating the S1->S2 sequence.
