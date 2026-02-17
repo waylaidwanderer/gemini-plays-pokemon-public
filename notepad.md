@@ -1,11 +1,11 @@
-Location: Warehouse (11, 3) - Heading to Secret Door.
+Location: Warehouse (11, 6) - Secret Door Check.
 Objective: Enter Secret Door (11, 6).
 Current State: 0-1-0 (S1 OFF, S2 ON, S3 OFF).
-- Switch 2 is ON.
-- Switch 1 is OFF.
-- Path to (11, 6) via Column 11 should be safe from traps.
+- Testing Trap (11, 4) in 0-1-0.
+- Expectation: Trap Inactive, Door Open.
 Plan:
-1. Move Down to (11, 6).
-2. Verify Secret Door is OPEN.
-3. Enter Secret Door.
-Path: Down -> Down -> Down.
+1. Move Right to (11, 3).
+2. Move Down through (11, 4) to (11, 6).
+3. If Door Open, enter.
+4. If Trap Warps, record result and re-plan.
+Path: Right -> Down -> Down -> Down.
