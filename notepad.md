@@ -1,15 +1,18 @@
-Location: Warehouse (16, 3) - Near Switch 1.
-Objective: Revert to State 0-0-0 (Open Gate 3).
+Location: Warehouse (16, 2) - At Switch 1 (ON).
+Objective: Enable State 1-1-0 (S1 ON, S2 ON, S3 OFF).
 Current State: 1-0-0 (S1 ON, S2 OFF, S3 OFF).
-- CRITICAL DISCOVERY: Gate 3 changed from OPEN to CLOSED when I turned S1 ON.
-- This means Gate 3 was OPEN in State 0-0-0.
-- I missed it because I hallucinated it was closed.
+- Correction: S1 was ALREADY ON.
+- Verified: Gate 3 (16, 6) is OPEN (in Mental Map).
+- Verified: Gate 1, Gate 2 are CLOSED.
+- S1 ON -> Gate 3 Open.
 
 Plan:
-1. Turn Switch 1 OFF (Return to 0-0-0).
-2. Verify Gate 3 opens.
-3. Walk through Gate 3 (16, 6).
-4. Head towards Director's Room Warp (23, 3).
+1. Cancel Switch 1 menu (Keep ON).
+2. Move to Switch 2 (10, 1).
+   - Route: Row 5 to avoid Trap at (15, 4).
+   - Path: (16, 2) -> (16, 5) -> (10, 5) -> (10, 1).
+3. Turn Switch 2 ON (State -> 1-1-0).
+4. Check Gate 3 (should stay Open?) and Wall (11, 10).
 
 Switch Locations:
 - S3: (2, 1)
