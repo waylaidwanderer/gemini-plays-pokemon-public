@@ -1,18 +1,18 @@
-Location: Warehouse (10, 2) - At Switch 2 (ON).
-Objective: Check Wall (11, 10) in State 0-1-1.
+Location: Warehouse (11, 5) - Gate 2 Closed.
+Objective: Toggle Switch 3 to OFF (Target: 0-1-0).
 Current State: 0-1-1 (S1 OFF, S2 ON, S3 ON).
-- Just turned S2 ON.
-- Verified: Gate 3 (16, 6) CLOSED in 0-0-1.
-- Verified: Gate 2, Secret Door OPEN in 0-0-1.
+- Verified: Gate 2 (10, 6) is CLOSED.
+- Verified: Secret Door (11, 6) is CLOSED.
+- Inferred: Gate 3 (16, 6) is CLOSED (S1 OFF).
+- Conclusion: State 0-1-1 blocks the middle path.
 
 Plan:
-1. Move South to check Gate 2 (10, 6).
-2. If Open: Check Wall (11, 10).
-3. If Closed: This state blocks the middle.
-   - If blocked, what's left? 
-   - 1-1-1 (S1 ON, S2 ON, S3 ON)? (Gate 2 was closed).
-   - 1-1-0? (S3 OFF).
-   - 0-1-0? (S3 OFF).
+1. Move to Switch 3 (2, 1).
+   - Route: Up to Row 2, then Left.
+   - Note: (10, 4) might be a warp. If so, it takes me closer to S3 anyway.
+2. Toggle Switch 3 OFF (State becomes 0-1-0).
+3. Check Gate 1 and Gate 2/Wall.
+4. If 0-1-0 fails, maybe try 1-1-0 (S1 ON, S2 ON, S3 OFF).
 
 Switch Locations:
 - S3: (2, 1)
