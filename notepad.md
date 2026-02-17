@@ -6,11 +6,15 @@ Truth Table (S1, S2, S3):
 - 010 (OFF, ON, OFF): Gate 2 Open.
 - 110 (ON, ON, OFF): Gate 3 Open (Hypothesis based on history).
 Status:
-- Switch 1: ON (Step 3).
-- Switch 2: ON (Step 2).
-- Switch 3: ON (Step 1).
-- Sequence: 3 -> 2 -> 1 Complete.
+- Switch 1: OFF (Action).
+- Switch 2: ON.
+- Switch 3: ON.
+- Gate 3: CLOSED (Confirmed).
+Hypothesis:
+- Sequence 3->2->1 Failed (State 111).
+- Target State: 110 (S1 ON, S2 ON, S3 OFF).
+- "Switch on the end first" -> Start with Switch 1.
 Plan:
-1. Check Gate 3 at (16, 6).
-2. Check Trap at (16, 8).
-3. If this fails, the "Order" hypothesis is wrong or needs a different order (e.g. 2-3-1?).
+1. Reset to 000 (Turn S2 OFF, S3 OFF).
+2. Execute Sequence: S1 (ON) -> S2 (ON).
+3. Check Gate 3 + Trap.
