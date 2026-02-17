@@ -1,7 +1,7 @@
 Location: Warehouse (2, 2) - At Switch 3.
 Objective: Open the path south (Wall at 11, 10).
 Current State: 1-0-1 (S1 ON, S2 OFF, S3 ON).
-- Verified: Gate 1 (2, 6) is OPEN in 1-0-0.
+- Verified: Gate 1 (2, 6) is OPEN (Walkable).
 - Verified: Gate 3 (16, 6) is OPEN in 1-0-0.
 - Wall (11, 10) was CLOSED in 1-0-0.
 
