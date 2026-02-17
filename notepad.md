@@ -9,10 +9,11 @@ Status:
 - Switch 1: ON.
 - Switch 2: OFF.
 - Switch 3: OFF.
-- Gate 3: OPEN.
-- Trap (10, 4): SAFE (Sw2 OFF).
-- Trap (16, 8): SAFE (Confirmed).
-Rules (Deduced):
-1. Switch 3 ON closes Gate 3.
-2. Switch 2 OFF disables Traps.
-3. Switch 1 ON opens Gate 3.
+- Gate 3: CLOSED (State 100 Fails).
+- Trap (10, 4): SAFE.
+- Trap (16, 8): Unknown (Gate blocked).
+Rules:
+1. Sw2 ON -> Gate 3 Open (w/ Sw1), Trap Active.
+2. Sw2 OFF -> Gate 3 Closed (w/ Sw1), Trap Safe.
+3. Conflict: Need Gate 3 Open AND Trap Safe.
+Hypothesis: Try State 101 (Turn Sw3 ON). Sw3 might substitute for Sw2 or invert logic.
