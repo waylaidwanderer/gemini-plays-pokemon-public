@@ -9,10 +9,8 @@ Status:
 - Switch 1: ON.
 - Switch 2: ON.
 - Switch 3: ON.
-- Gate 3: Checking...
-- Trap (16, 8): Testing State 111.
+- Gate 3: CLOSED (State 111 Fails).
 Plan:
-1. Walk through Gate 3 (16, 6).
-2. Step on Trap (16, 8).
-3. If Safe: Access Grunt F.
-4. If Warp: Try 0-1-1 (Turn S1 OFF).
+1. Turn Switch 3 OFF (Return to State 110).
+2. Turn Switch 2 OFF (Try State 100).
+3. Test Gate 3 + Trap with State 100.
