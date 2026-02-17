@@ -1,18 +1,16 @@
-Location: Warehouse (11, 5) - Gate 2 Closed.
+Location: Warehouse (2, 4) - En route to Switch 3.
 Objective: Toggle Switch 3 to OFF (Target: 0-1-0).
 Current State: 0-1-1 (S1 OFF, S2 ON, S3 ON).
 - Verified: Gate 2 (10, 6) is CLOSED.
-- Verified: Secret Door (11, 6) is CLOSED.
-- Inferred: Gate 3 (16, 6) is CLOSED (S1 OFF).
-- Conclusion: State 0-1-1 blocks the middle path.
+- Verified: Gate 3 (16, 6) is CLOSED (S1 OFF).
+- Route: Moving via Row 4 to avoid walls on Row 2/3.
+- (3, 2) contains a defeated Grunt (blocking tile).
 
 Plan:
 1. Move to Switch 3 (2, 1).
-   - Route: Up to Row 2, then Left.
-   - Note: (10, 4) might be a warp. If so, it takes me closer to S3 anyway.
 2. Toggle Switch 3 OFF (State becomes 0-1-0).
-3. Check Gate 1 and Gate 2/Wall.
-4. If 0-1-0 fails, maybe try 1-1-0 (S1 ON, S2 ON, S3 OFF).
+3. Check Gate 1 (2, 6).
+4. Navigate to check Gate 2/Wall (11, 10).
 
 Switch Locations:
 - S3: (2, 1)
