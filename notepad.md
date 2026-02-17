@@ -1,12 +1,13 @@
 Location: Director's Room (3_53).
 Objective: Rescue Director (Underground).
 Status:
-- "Director" at (18, 29) (South side of desk) was unresponsive.
-- Found a gap in the desk at (21, 29) & (22, 29).
-- This gap leads behind the desk.
-- Hypothesis: I need to talk to the Director from BEHIND the desk (North side) or he is located further West behind the desk.
+- "Director" at (18, 29) (South side) unresponsive.
+- Navigated behind desk to (19, 28).
+- Director/Chair back is at (18, 28) and (19, 29).
+- Attempting interaction from North/East side of the sprite.
 Plan:
-1. Navigate through gap at (22, 29).
-2. Go West behind the desk to (18, 28).
-3. Interact with the Director from the North.
-4. Get CARD KEY.
+1. Face Down (Towards 19, 29).
+2. Press A.
+3. Face Left (Towards 18, 28).
+4. Press A.
+5. Get CARD KEY.
