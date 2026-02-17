@@ -1,12 +1,10 @@
-Location: Warehouse (11, 6) - At Secret Door.
-Objective: Go South to Wall (11, 10).
+Location: Warehouse (11, 9) - Wall (11, 10) is CLOSED.
+Objective: Check West Side (Gate 1).
 Current State: 1-0-0 (S1 ON, S2 OFF, S3 OFF).
-- Navigation Note: Row 3 was blocked at (12, 3), forcing me Down column 11.
-- I am currently standing on the Secret Door tile (11, 6).
-- This implies the door is OPEN (or passable) even with S2 OFF?
-- Or S1 ON keeps it open?
-Plan:
-1. Move South to (11, 10).
-2. If Wall (11, 10) is OPEN (Expected in 1-0-0) -> Continue South to Goal.
-3. If Blocked -> Re-evaluate.
-Path: Down -> Down -> Down -> Down.
+- CRITICAL: Wall (11, 10) is CLOSED in 1-0-0. (Previous note was wrong).
+- Gate 3 (16, 6) appears to be a Warp/Door to (11, 6).
+- Plan:
+  1. Test Trap at (10, 9).
+  2. If Safe, move West to (2, 9).
+  3. Check Wall (2, 10) and Gate 1 (2, 6).
+Path: Down (Bump) -> Left -> Left.
