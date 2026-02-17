@@ -1,16 +1,14 @@
-Location: Warehouse (2, 8) -> Moving to Switch 2 (10, 1).
-Objective: Open Secret Door (11, 6). Target: 010 (OFF, ON, OFF).
+Location: Warehouse (11, 8).
+Objective: Open Secret Door (11, 6) / Reach Switch 2.
 Current State: 1-0-0 (S1 ON, S2 OFF, S3 OFF).
-- Gate 1 (2, 6) is CLOSED (Confirmed Visual).
 - Gate 3 (16, 6) is OPEN.
+- Gate 1 (2, 6) is CLOSED.
 - Wall (11, 10) is OPEN.
 Plan:
-1. Go to Switch 2 via Wall (11, 10). Turn ON. (State -> 1-1-0).
-2. Go to Switch 1 via Gate 3 (16, 6). Turn OFF. (State -> 0-1-0).
-   - Warning: Gate 3 might close. If trapped, use Trap (15, 1) to warp.
-3. If Warped, go to Wall (11, 10) (Should be Open in 0-1-0) -> Enter Secret Door (11, 6).
+1. Go to Switch 1 (16, 1) via Gate 3.
+2. Turn Switch 1 OFF (State -> 0-0-0).
+3. If Gate 3 closes, use Trap (15, 1) to warp.
+   - Hope: Warp leads to Middle Zone (S2) or West Zone (S3).
 Path:
-- Down to (2, 13).
-- Right to (11, 13).
-- Up to (11, 10).
-- Up to S2 (10, 1).
+- Right to (16, 8) (Check Trap 12, 8).
+- Up to (16, 1).
