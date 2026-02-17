@@ -1,13 +1,14 @@
-Location: Warehouse (16, 5) - Gate 3 CLOSED.
-Objective: Escape Switch 1 Area via Trap (15, 4).
+Location: Warehouse (14, 4) - Trap (15, 4) is SAFE in 1-1-0.
+Objective: Enter Secret Door (11, 6).
 Current State: 1-1-0 (S1 ON, S2 ON, S3 OFF).
-- Gate 3 (16, 6) is CLOSED.
-- Trap (15, 4) status in 1-1-0 is unknown.
-- In 0-1-0, Trap (15, 4) was SAFE.
+- Trap (15, 4) confirmed SAFE.
+- Gate 3 (16, 6) confirmed CLOSED.
+- Expectation:
+  - Secret Door (11, 6) OPEN (due to S2 ON).
+  - Wall (11, 10) OPEN (due to S1 ON).
 Plan:
-1. Move to (15, 4).
-2. If safe -> Exit West to Middle Area.
-   - Then go to Secret Door (11, 6).
-   - If S1 ON keeps Wall (11, 10) open, I can reach the goal.
-3. If warp -> Re-evaluate from landing zone.
-Path: Left -> Up -> Left.
+1. Move Left to (11, 4).
+2. Move Down to (11, 6) and Enter.
+3. Check Wall (11, 10).
+4. If Wall Open -> Rescue Director!
+Path: Left -> Left -> Left -> Down -> Down.
