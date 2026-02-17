@@ -6,10 +6,10 @@ Truth Table (S1, S2, S3):
 - 010 (OFF, ON, OFF): Gate 2 Open.
 - 110 (ON, ON, OFF): Gate 3 Open (Hypothesis based on history).
 Status:
-- Switch 1: ON.
+- Switch 1: ON (Toggled).
 - Switch 2: ON.
 - Switch 3: OFF.
-- Gate 3: Checking now.
+- Gate 3: Verifying Open status.
 Plan:
 1. Verify Gate 3 (16, 6) Opens.
 2. Enter Gate 3 and find Grunt F/Card Key.
