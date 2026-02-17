@@ -8,10 +8,10 @@ Truth Table (S1, S2, S3):
 Status:
 - Switch 1: ON.
 - Switch 2: OFF.
-- Switch 3: ON (Action).
-- Gate 3: Unknown.
-- Gate 1: Check now.
+- Switch 3: ON.
+- Gate 1: OPEN (Confirmed).
+- Gate 3: Checking now.
 Testing State: 1-0-1 (S1 ON, S2 OFF, S3 ON).
 Plan:
-1. Check Gate 1 (2, 6).
-2. Check Gate 3 (16, 6).
+1. Navigate to (16, 6) to check Gate 3.
+2. If Closed, try State 0-1-1 or 1-1-1.
