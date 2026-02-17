@@ -1,11 +1,11 @@
-Location: Warehouse (10, 2) - At Switch 2.
-Objective: Turn Switch 2 OFF (Target State 1-0-0).
+Location: Warehouse (10, 2) - Turning Switch 2 OFF.
+Objective: Reach South Area via Gate 3 (16, 6).
 Current State: 1-1-0 (S1 ON, S2 ON, S3 OFF).
-- Switch 2 is ON (Wall 11,10 closed).
-- Turning it OFF to open Gate 3.
+- Interaction started: "It's labeled SWITCH 2."
+- Action: Confirming "Turn it OFF".
 Plan:
-1. Interact with Switch 2.
-2. Select YES to Turn OFF.
-3. Confirm State 1-0-0.
-4. Move to Gate 3 (16, 6).
-Path: Interact -> YES -> Move to (16, 6).
+1. Finish turning S2 OFF (State -> 1-0-0).
+2. Move to Gate 3 (16, 6).
+3. Go West to (11, 6).
+4. Go South through (11, 10).
+Path: A -> A -> Move to (16, 6).
