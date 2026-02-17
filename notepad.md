@@ -1,13 +1,12 @@
 Location: Director's Room (3_53).
 Objective: Rescue Director (Underground).
 Status:
-- "Director" at (18, 29) (South side) unresponsive.
-- Navigated behind desk to (19, 28).
-- Director/Chair back is at (18, 28) and (19, 29).
-- Attempting interaction from North/East side of the sprite.
+- "Director" sprite visually located at (18, 28)/(18, 29).
+- Interactions from South (18, 30), East (19, 28, 19, 29) FAILED.
+- Trying West side interaction.
 Plan:
-1. Face Down (Towards 19, 29).
-2. Press A.
-3. Face Left (Towards 18, 28).
-4. Press A.
-5. Get CARD KEY.
+1. Move to (17, 28) (West of Director).
+2. Face Right (towards 18, 28).
+3. Press A.
+4. If fails, try (17, 29) facing Right.
+5. If all fails, check Grunts or other triggers.
