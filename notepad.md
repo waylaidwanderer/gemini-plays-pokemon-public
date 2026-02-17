@@ -12,3 +12,5 @@ Plan: Turn S3 OFF (to 000) -> Go to Section 2 via Row 5 -> Cross Row 4 via (8, 4
 Current State: 0-1-0 (S1 OFF, S2 ON, S3 OFF).
 Plan: Check if Gate at (2,6) or (2,10) is open. Note: (2,6) was seen as open in Mental Map during 0-0-0?
 Warning: Trap at (10, 4) is likely ACTIVE in state 001. Use Row 5 to bypass it.
+- 010 (OFF, ON, OFF): Secret Door (11,6) is CLOSED.
+Plan: Switch 2 & 3 required? Go to Switch 3 to create State 011.
