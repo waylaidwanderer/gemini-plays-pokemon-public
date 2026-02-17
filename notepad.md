@@ -1,28 +1,14 @@
-Location: Warehouse (10, 6) - Checking Gate 2.
-Objective: Test Gate 2. If Closed, plan next state.
+Location: Warehouse (10, 2) - At Switch 2.
+Objective: Toggle Switch 2 to OFF (Target: 0-0-1).
 Current State: 0-1-1 (S1 OFF, S2 ON, S3 ON).
+- Verified: Gate 2 (10, 6) is CLOSED (Bump confirmed).
 - Verified: Gate 1 (2, 6) is OPEN.
-- Gate 2 (10, 6) visually looks CLOSED.
-
-Analysis:
-- 1-0-0: G1 Open, G3 Open, Wall Closed.
-- 0-0-1: G1 Open, G2 Open, Wall Closed.
-- 0-1-0: G1 Open, G2 Closed, G3 Closed (Dead End).
-- 0-1-1: G1 Open, G2 Closed (Likely).
-- 1-1-1: G1 Open, G2 Closed (Past observation).
-
-Missing States:
-- 1-1-0 (S1 ON, S2 ON, S3 OFF).
-- 0-0-0 (S1 OFF, S2 OFF, S3 OFF).
-- 1-0-1 (S1 ON, S2 OFF, S3 ON) -> Verified G1 Open, G3 Open (Wait, did I check Wall in 1-0-1? Yes, Closed).
 
 Plan:
-1. Confirm Gate 2 Closed.
-2. Go to Switch 2, turn OFF (State -> 0-0-1).
-3. Go to Switch 3, turn OFF (State -> 0-0-0).
-4. Check if 0-0-0 opens the Wall (11, 10).
-   - Rationale: Maybe S3 ON is keeping it closed?
-   - In 0-0-1, G2 was Open. If S3 only affects G1, G2 should remain Open in 0-0-0.
+1. Turn Switch 2 OFF (State becomes 0-0-1).
+2. Move to Switch 3 (2, 1).
+3. Turn Switch 3 OFF (State becomes 0-0-0).
+4. Check Gate 1, Gate 2, and Wall (11, 10) in 0-0-0.
 
 Switch Locations:
 - S3: (2, 1)
