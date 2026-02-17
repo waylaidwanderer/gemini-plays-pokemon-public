@@ -1,13 +1,15 @@
-Location: Warehouse (11, 9) -> Moving to Gate 3 (16, 6).
-Objective: Exit Secret Room and use Gate 3 to reach South Area.
+Location: Warehouse (12, 5) -> Moving to Gate 3 (16, 6).
+Objective: Enter South Area via Gate 3 and Wall (11, 10).
 Current State: 1-0-0 (S1 ON, S2 OFF, S3 OFF).
-- Confirmed: Wall (11, 10) is CLOSED (Visual).
-- Confirmed: Gate 3 (16, 6) opens in 1-0-0.
-- Secret Door (11, 6) is OPEN.
+- Continuing movement to Gate 3.
+- Gate 3 (16, 6) expected OPEN.
+- Wall (11, 10) expected OPEN.
 Plan:
-1. Move Up to (11, 5) (Exit Secret Room).
-2. Move Right to (16, 5).
-3. Move Down through Gate 3 (16, 6).
-4. Continue South down Column 16 to bypass walls.
-5. Reach South Area via Row 12.
-Path: Up -> Right -> Down -> South.
+1. Move Right to (16, 5).
+2. Move Down to Gate 3 (16, 6).
+3. If Open:
+   - Move Down to (16, 8) (Check Safe).
+   - Move Left to (11, 8).
+   - Move Down through (11, 10).
+4. If Closed: Re-evaluate Switch 2 state.
+Path: Right -> Right -> Right -> Right -> Down.
