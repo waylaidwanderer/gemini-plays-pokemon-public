@@ -1,7 +1,8 @@
-Location: Warehouse (10, 5) - Moving to Switch 3.
+Location: Warehouse (10, 2) - At Switch 2.
 Objective: Enable State 1-1-1 (All ON).
 Current State: 1-1-0 (S1 ON, S2 ON, S3 OFF).
 - Verified: Gate 3 OPEN, Wall CLOSED in 1-1-0.
+- Previous move to S3 apparently failed or reset. Retrying.
 
 Plan:
 1. Move to Switch 3 (2, 1).
