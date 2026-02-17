@@ -17,5 +17,5 @@ State: 1-0-0.
 Sequence Progress:
 1. Turn Switch 2 OFF (Done).
 2. Turn Switch 3 OFF (Done).
-Reasoning: Trap (16,8) is SAFE. Exploring the small room behind Gate 3. If dead end, will try State 1-1-0 (S1+S2 ON) to access Gate 2 + Secret Wall (11,10).
-Navigation: Checking crates at (18,8) and (18,9).
+Reasoning: Trap (16,8) is SAFE. Gate 3 allows access to bypass Grunt at (17,2) and reach Row 5 corridor.
+Navigation: Moving East on Row 5 to Col 23, then South to Grunt (19,12) & Warp (22,10).
