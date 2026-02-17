@@ -1,15 +1,20 @@
 Location: Warehouse (10, 1) - At Switch 2.
 Objective: Open Wall (11, 10).
 Current State: 1-1-1 (S1 ON, S2 ON, S3 ON) -> Changing to 1-0-1.
-- Correction: Switch 2 was found ON.
-- Verified: Gate 1 (2, 6) is OPEN in 1-1-1.
-- Verified: Gate 2 (10, 6) is CLOSED in 1-1-1.
-- Verified: Secret Door (11, 6) is CLOSED in 1-1-1.
+- Correction: Previous observations labeled '1-0-1' were actually '1-1-1' (S1 ON, S2 ON, S3 ON).
+- In 1-1-1: Gate 1 Open, Gate 2 Closed, Secret Door Closed.
+
+Current State: 1-0-1 (S1 ON, S2 OFF, S3 ON).
+- Just turned S2 OFF.
+- Objective: Check Gate 2 (10, 6) and Secret Door (11, 6).
+- If Gate 2 is Open, we can access the Secret Door area.
+- If Gate 2 is Closed, check if Wall (11, 10) is open (path via Gate 1?).
 
 Plan:
-1. Turn Switch 2 OFF (State becomes 1-0-1).
-2. Check Gate 2 (10, 6) and Secret Door (11, 6).
-3. If still closed, consider checking Gate 1 or moving to Switch 1.
+1. Move to (10, 6) avoiding traps on Row 4.
+   Path: (10, 2) -> (8, 2) -> (8, 6) -> (10, 6).
+2. Check Gate 2 and Secret Door.
+3. If blocked, re-evaluate.
 
 Switch Locations:
 - S3: (2, 1)
