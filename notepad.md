@@ -12,12 +12,12 @@ Truth Table (S1, S2, S3):
 Status:
 - Switch 1: OFF.
 - Switch 2: ON.
-- Switch 3: OFF (Action Taken).
-- Gate 2: Open.
-State: 0-1-0.
+- Switch 3: ON (Action Taken).
+- Gate 2: Check.
+State: 0-1-1.
 Sequence Progress:
 1. Turn Switch 2 ON (Done).
 2. Turn Switch 1 OFF (Done).
-3. Turn Switch 3 ON (Next).
-Reasoning: State 0-1-0 didn't open Secret Wall (11,10). Testing 0-1-1.
-Navigation: Interact with Switch 3.
+3. Turn Switch 3 ON (Done).
+Reasoning: Testing 0-1-1. Does it open Secret Walls (11,10) or (11,6)?
+Navigation: Check Gate 1 (2,6) then Gate 2 (10,6).
