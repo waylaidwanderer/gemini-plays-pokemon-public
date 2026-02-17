@@ -1,12 +1,12 @@
 Location: Director's Room (3_53).
 Objective: Rescue Director (Underground).
 Status:
-- "Director" at (18, 29) is likely a DESK (Solid Tile).
-- Grunt at (19, 24) was unresponsive/blocking.
-- Found a path North via East side (Col 24/25).
-- Moving North to find the REAL Director.
+- "Director" at (18, 29) confirmed as Furniture (TYPE_63e2 is solid).
+- Real Director/Key must be elsewhere.
+- Entering 3_53 again.
+- Path: East Wall (Col 25) -> North.
 Plan:
-1. Move North along Col 24/25.
-2. Check deeper into the room (Rows 1-20).
-3. Find Director.
-4. Get Card Key.
+1. Warp to 3_53.
+2. Go East to (25, 27).
+3. Go North to (25, 10) or deeper.
+4. Locate NPC/Item.
