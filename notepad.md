@@ -10,7 +10,8 @@ Status:
 - Switch 2: ON.
 - Switch 3: OFF.
 - Gate 3: OPEN.
+- Trap (16, 8): ACTIVE (Warped me back).
 Plan:
-1. Step on (16, 8) to resolve conflicting "Safe" vs "Trap" data.
-2. If Warp: Try State 111 (Turn S3 ON).
-3. If Safe: Access Grunt F.
+1. Go to Switch 3 (2, 1).
+2. Turn Switch 3 ON (State 111).
+3. Check if Gate 3 is still Open + Trap Disabled.
