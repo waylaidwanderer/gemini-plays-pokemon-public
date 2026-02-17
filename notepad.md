@@ -10,6 +10,5 @@ Plan: Turn S3 OFF (to 000) -> Go to Section 2 via Row 5 -> Cross Row 4 via (8, 4
 - 100 (ON, OFF, OFF): Gate 3 OPEN. Trap (16,8) SAFE. Secret Wall (11,10) CLOSED.
 - 011 (OFF, ON, ON): Gate 1 & 2 OPEN. Trap (10,9) ACTIVE (Warped).
 Current State: 1-0-0 (S1 ON, S2 OFF, S3 OFF).
-- 1-0-0: Gate 3 (16,6) OPEN.
-- Behind Gate 3: Blocked at Row 10.
-Plan: Test Trap at (16,8). It might be a warp to the deeper area (Rocket Grunt visible at 19,12).
+- 1-0-0: Gate 3 (16,6) OPEN. Trap (16,8) SAFE.
+Plan: Move Left along Row 9. Check Wall (11,10) and Back Gate (2,10).
