@@ -9,8 +9,8 @@ Status:
 - Switch 1: ON.
 - Switch 2: ON.
 - Switch 3: OFF.
-- Gate 3: OPEN (Confirmed State 110).
+- Gate 3: OPEN.
 Plan:
-1. Enter Gate 3 (16, 6).
-2. Cross trap at (16, 8) (Should be safe with Sw1 ON).
-3. Reach Grunt F at (19, 12) or Item.
+1. Step on (16, 8) to resolve conflicting "Safe" vs "Trap" data.
+2. If Warp: Try State 111 (Turn S3 ON).
+3. If Safe: Access Grunt F.
