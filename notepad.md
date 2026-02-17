@@ -1,17 +1,19 @@
-Location: Warehouse (4, 2) - Heading to Switch 3.
-Objective: Toggle Switch 3 to OFF (Target: 0-0-0).
-Current State: 0-0-1 (S1 OFF, S2 OFF, S3 ON).
-- S2 is OFF (Marker updated).
-- S3 is ON.
+Location: Warehouse (2, 2) - At Switch 3.
+Objective: Check results of State 0-0-0.
+Current State: 0-0-0 (S1 OFF, S2 OFF, S3 OFF).
+- Just turned S3 OFF (Assuming success).
 - S1 is OFF.
+- S2 is OFF.
+
+Hypothesis:
+- Maybe "Off" is the default state that opens everything?
+- Or maybe 1-1-0 is the key?
 
 Plan:
-1. Navigate to Switch 3 (2, 1).
-   - Avoid Grunt at (3, 2) by going around via Row 4.
-2. Turn Switch 3 OFF (State -> 0-0-0).
-3. Check results.
-   - Does 0-0-0 open Wall (11, 10)?
-   - Does it open Gate 3?
+1. Check Gate 1 (2, 6).
+2. Check Gate 2 (10, 6) and Gate 3 (16, 6).
+3. Check Wall (11, 10).
+4. If 0-0-0 fails, try 1-1-0 (S1 ON, S2 ON, S3 OFF).
 
 Switch Locations:
 - S3: (2, 1)
