@@ -14,3 +14,5 @@ Plan: Check if Gate at (2,6) or (2,10) is open. Note: (2,6) was seen as open in 
 Warning: Trap at (10, 4) is likely ACTIVE in state 001. Use Row 5 to bypass it.
 - 010 (OFF, ON, OFF): Secret Door (11,6) is CLOSED.
 Plan: Switch 2 & 3 required? Go to Switch 3 to create State 011.
+- 010 (OFF, ON, OFF): Wall at (3, 6)-(3, 7) OPEN. Leads to Rival Silver?
+Plan: Investigate newly opened path at (3, 6) before changing switches.
