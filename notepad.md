@@ -1,13 +1,14 @@
-Location: Warehouse (10, 2) - At Switch 2.
+Location: Warehouse (2, 1) - Heading to Switch 3.
 Objective: Enable State 1-1-1 (All ON).
 Current State: 1-1-0 (S1 ON, S2 ON, S3 OFF).
 - Verified: Gate 3 OPEN, Wall CLOSED in 1-1-0.
-- Previous move to S3 apparently failed or reset. Retrying.
+- Warning: (10, 4) appears to be a Trap Warp (active in 1-1-0).
+- Action: Rerouting via Column 8 to avoid (10, 4).
 
 Plan:
 1. Move to Switch 3 (2, 1).
-   - Path: (10, 2) -> (10, 5) -> (2, 5) -> (2, 1).
-   - Taking Row 5 to avoid potential traps on Row 4.
+   - Path: (10, 2) -> (8, 2) -> (8, 5) -> (2, 5) -> (2, 1).
+   - Attempting to cross Row 4 at Column 8.
 2. Turn Switch 3 ON (State -> 1-1-1).
 3. Use code to check Gate 3 and Wall (11, 10).
 
