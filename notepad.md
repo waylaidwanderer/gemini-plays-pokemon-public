@@ -26,3 +26,7 @@ Anomaly: Attempted to walk East along Row 2 to (16, 2) but was warped back to (2
 Action: Checking Gate 1 first.
 Observation: In 1-0-1, Wall (11, 10) appears to be TYPE_2889 (Closed).
 Action: Walking South to confirm blockage and test for traps on Row 9.
+Anomaly: Warped to (6, 4) during navigation to Switch 3.
+- Path taken: (10, 2) -> (4, 2) -> (4, 4) -> (2, 4) -> (2, 2).
+- Suspect trap at (4, 4), (3, 4), (2, 4), or (2, 2) in State 0-0-1.
+Action: Retrying access to Switch 3 from (6, 4).
