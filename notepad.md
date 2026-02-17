@@ -12,8 +12,8 @@ Status:
 - Gate 3: CLOSED (State 100 Fails).
 - Trap (10, 4): SAFE.
 - Trap (16, 8): Unknown (Gate blocked).
-Rules:
-1. Sw2 ON -> Gate 3 Open (w/ Sw1), Trap Active.
-2. Sw2 OFF -> Gate 3 Closed (w/ Sw1), Trap Safe.
-3. Conflict: Need Gate 3 Open AND Trap Safe.
-Hypothesis: Try State 101 (Turn Sw3 ON). Sw3 might substitute for Sw2 or invert logic.
+Hypothesis:
+- Hint: "Switch on the end is the one to press first."
+- Plan A: Try State 101 (ON, OFF, ON). Maybe S3 enables the gate without traps?
+- Plan B: If 101 fails, Reset to 000. Then press S3 first.
+Current Action: Turning Switch 3 ON.
