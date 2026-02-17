@@ -1,12 +1,14 @@
-Location: Warehouse (16, 5) - Gate 3 Open (State 1-0-0).
-Objective: Check Gate 1 (2, 6) for access to Switch 3.
+Location: Warehouse (2, 5) - Checking Gate 1.
+Objective: Check Gate 1 (2, 6).
 Current State: 1-0-0 (S1 ON, S2 OFF, S3 OFF).
-- Wall (11, 10) confirmed CLOSED.
-- Gate 3 (16, 6) is OPEN.
-- Trap (11, 9) confirmed SAFE in 1-0-0.
+- Testing if Gate 1 is OPEN in 1-0-0.
+- If Open: Access Switch 3 (2, 1).
+- If Closed:
+  - Hypothesis: Need S1+S3? Or maybe S3 alone?
+  - Problem: Can't reach S3 if Gate 1 is closed.
+  - Check Wall (2, 10) as well.
 Plan:
-1. Move Left across Row 5 to (2, 5).
-2. Check Gate 1 (2, 6).
-3. If Open -> Access Switch 3.
-4. If Closed -> Try State 0-0-0 (S1 OFF) via Trap (15, 4).
-Path: Left x14 -> Down.
+1. Move Left to (2, 5).
+2. Move Down to check Gate 1 (2, 6).
+3. If blocked, Move Down to check Wall (2, 10).
+Path: Left x9 -> Down.
