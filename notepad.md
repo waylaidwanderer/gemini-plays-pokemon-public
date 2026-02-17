@@ -7,10 +7,11 @@ Current State: 1-0-1 (S1 ON, S2 OFF, S3 ON).
 - Trap Warning: (12, 8) marked as Trap (1-0-1). Avoiding Row 8.
 
 Plan:
-1. Move along Row 7 to (10, 7).
-2. Check Gate 2 (10, 6).
-3. If Gate 2 is open, check Secret Door (11, 6).
-4. If blocked, check Wall (11, 10).
+1. Navigate around Silver: (3, 7) -> Down to Row 9 -> East to (9, 9).
+2. Move Up/Right to avoid Trap at (10, 9) and reach Gate 2 at (10, 6).
+3. Check Gate 2 (10, 6).
+4. If Gate 2 is open, check Secret Door (11, 6).
+5. If blocked, check Wall (11, 10).
 
 Switch Locations:
 - S3: (2, 1)
