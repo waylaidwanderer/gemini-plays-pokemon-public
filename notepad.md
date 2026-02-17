@@ -1,12 +1,13 @@
-Location: Warehouse (2, 8) -> Moving to Exit Secret Room.
-Objective: Backtrack to Switch Area / Check S3 Access.
+Location: Warehouse (10, 4) -> Moving to Switch 1 (16, 1).
+Objective: Create State 1-1-0 (S1 ON, S2 ON).
 Current State: 0-1-0 (S1 OFF, S2 ON, S3 OFF).
-- Wall at (2, 7) blocks North access.
-- Wall at (2, 10) blocks South access.
-- Need to check if I can reach S3 (2, 1) from the main area (passing Grunt at 3, 2).
+- S2 is ON. S1 is OFF.
+- Trap (15, 4) behavior in 0-1-0 is unknown.
+- Trap (11, 4) is Safe.
 Plan:
-1. Move to (10, 9) (Avoid Silver at 4, 8 and Trap at 11, 9).
-2. Move Up to (11, 6) (Secret Door).
-3. Exit to Main Area.
-4. Check path to S3 (2, 1).
-Path: Down -> Right to (10, 9).
+1. Move Right across Row 4 to (15, 4).
+2. If Trap (15, 4) is Safe -> Continue to Switch 1.
+3. If Trap Warps -> Re-evaluate (likely back to 0-0-0 logic).
+4. Turn Switch 1 ON (State 1-1-0).
+5. Check Gate 1 and Secret Door behavior in 1-1-0.
+Path: Up -> Right -> Right -> Right.
