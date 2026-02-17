@@ -6,10 +6,10 @@ Truth Table (S1, S2, S3):
 - 010 (OFF, ON, OFF): Gate 2 Open.
 - 110 (ON, ON, OFF): Gate 3 Open (Hypothesis based on history).
 Status:
-- Switch 1: ON.
+- Switch 1: OFF (Action).
 - Switch 2: OFF.
-- Switch 3: ON (State 101).
-- Gate 3: CLOSED (Confirmed).
+- Switch 3: ON.
+- Gate 3: CLOSED.
 - Trap (10, 4): SAFE.
 - Trap (16, 8): Unknown.
 Hypothesis:
@@ -19,4 +19,4 @@ Plan:
 1. Reset to 000 (Turn S1 OFF, S3 OFF).
 2. Execute Sequence: S3 (ON) -> S2 (ON) -> S1 (ON).
 3. Test Gate/Trap.
-Current Action: Turn S1 OFF (16, 1).
+Current Action: Turn S3 OFF (2, 1).
