@@ -1,8 +1,9 @@
 Location: Warehouse (16, 2) - At Switch 1.
 Objective: Toggle Switch 1 (Target State: 0-0-1).
-Current State: 1-0-1 (S1 ON, S2 OFF, S3 ON) -> Changing to 0-0-1.
-- Verified: (16, 2) is Safe (no warp).
-- Verified: Gate 1, Gate 2, Secret Door OPEN in 1-0-1. Wall (11, 10) CLOSED.
+Current State: 0-0-1 (S1 OFF, S2 OFF, S3 ON).
+- Verified: Gate 1, Gate 2, Secret Door OPEN in 1-0-1.
+- Just switched S1 OFF.
+- Objective: Check Gate 3 (16, 6) and Wall (11, 10).
 
 Plan:
 1. Toggle Switch 1 OFF (State becomes 0-0-1).
