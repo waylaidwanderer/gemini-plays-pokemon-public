@@ -1,21 +1,28 @@
-Location: Warehouse (2, 6) - At Gate 1.
-Objective: Check Gate 2 (10, 6) in State 0-1-1.
+Location: Warehouse (10, 6) - Checking Gate 2.
+Objective: Test Gate 2. If Closed, plan next state.
 Current State: 0-1-1 (S1 OFF, S2 ON, S3 ON).
 - Verified: Gate 1 (2, 6) is OPEN.
-- Verified: S1 OFF, S2 ON, S3 ON.
+- Gate 2 (10, 6) visually looks CLOSED.
 
-Hypothesis for 0-1-1:
-- Gate 2: Likely Closed (due to S2 ON).
-- Gate 3: Likely Closed (due to S1 OFF).
-- Wall (11, 10): Unknown.
+Analysis:
+- 1-0-0: G1 Open, G3 Open, Wall Closed.
+- 0-0-1: G1 Open, G2 Open, Wall Closed.
+- 0-1-0: G1 Open, G2 Closed, G3 Closed (Dead End).
+- 0-1-1: G1 Open, G2 Closed (Likely).
+- 1-1-1: G1 Open, G2 Closed (Past observation).
+
+Missing States:
+- 1-1-0 (S1 ON, S2 ON, S3 OFF).
+- 0-0-0 (S1 OFF, S2 OFF, S3 OFF).
+- 1-0-1 (S1 ON, S2 OFF, S3 ON) -> Verified G1 Open, G3 Open (Wait, did I check Wall in 1-0-1? Yes, Closed).
 
 Plan:
-1. Move East to check Gate 2 (10, 6).
-   - Path: (2, 6) -> (2, 5) -> Row 5 East -> (10, 5).
-2. Check if Gate 2 is Open.
-3. If Closed, this state is invalid for the middle/right path.
-   - Next State to try: 1-1-0 (S1 ON, S2 ON, S3 OFF)?
-   - Or maybe I missed something in 1-0-1 or 0-0-1.
+1. Confirm Gate 2 Closed.
+2. Go to Switch 2, turn OFF (State -> 0-0-1).
+3. Go to Switch 3, turn OFF (State -> 0-0-0).
+4. Check if 0-0-0 opens the Wall (11, 10).
+   - Rationale: Maybe S3 ON is keeping it closed?
+   - In 0-0-1, G2 was Open. If S3 only affects G1, G2 should remain Open in 0-0-0.
 
 Switch Locations:
 - S3: (2, 1)
