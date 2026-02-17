@@ -1,17 +1,14 @@
-Location: Warehouse (16, 4) - Heading to Switch 2.
+Location: Warehouse (10, 2) - At Switch 2.
 Objective: Enable State 1-1-0 (S1 ON, S2 ON, S3 OFF).
 Current State: 1-0-0 (S1 ON, S2 OFF, S3 OFF).
-- S1 is ON (Confirmed).
-- Gate 3 (16, 6) is OPEN (Confirmed).
-- Gate 1 and 2 are CLOSED.
+- Verified: Gate 3 (16, 6) is OPEN in 1-0-0.
+- Verified: Gate 1 and 2 are CLOSED in 1-0-0.
+- Clue: "End is the one to press first, but..."
 
 Plan:
-1. Move to Switch 2 (10, 1).
-   - Route: (16, 4) -> (16, 5) -> (8, 5) -> (8, 2) -> (10, 1).
-   - Avoiding potential traps on Row 4.
+1. Finish Grunt dialogue.
 2. Turn Switch 2 ON (State -> 1-1-0).
-3. Check Wall (11, 10).
-   - Note: Access Wall via Gate 3 (which is Open).
+3. Use code to check Gate 3 and Wall (11, 10) status immediately.
 
 Switch Locations:
 - S3: (2, 1)
