@@ -8,16 +8,16 @@ Truth Table (S1, S2, S3):
 - 101 (ON, OFF, ON): Gate 3 CLOSED, Trap Safe.
 - 111 (ON, ON, ON): Gate 3 CLOSED, Trap Safe.
 - 100 (ON, OFF, OFF): Gate 3 OPEN. Trap (16,8) SAFE. Secret Wall (11,10) CLOSED.
-- 011 (OFF, ON, ON): Testing Now.
+- 011 (OFF, ON, ON): Gate 1 OPEN. Testing Gate 2 & Walls.
 Status:
 - Switch 1: OFF.
 - Switch 2: ON.
-- Switch 3: ON (Action Taken).
-- Gate 2: Check.
+- Switch 3: ON.
+- Gate 1: OPEN.
 State: 0-1-1.
 Sequence Progress:
 1. Turn Switch 2 ON (Done).
 2. Turn Switch 1 OFF (Done).
 3. Turn Switch 3 ON (Done).
-Reasoning: Testing 0-1-1. Does it open Secret Walls (11,10) or (11,6)?
-Navigation: Check Gate 1 (2,6) then Gate 2 (10,6).
+Reasoning: Testing 0-1-1. S3 opened Gate 1. Checking if S2 kept Gate 2 open.
+Navigation: Check Gate 2 (10,6). Avoid Silver at (4,8) if present.
