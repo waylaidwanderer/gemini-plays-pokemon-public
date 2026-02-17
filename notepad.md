@@ -1,15 +1,16 @@
-Location: Warehouse (10, 6) - Checking Gate 2.
-Objective: Reach Wall at (11, 10).
+Location: Warehouse (11, 7) - Heading to Switch 1.
+Objective: Toggle Switch 1 (Target State: 0-0-1).
 Current State: 1-0-1 (S1 ON, S2 OFF, S3 ON).
 - Verified: Gate 1 (2, 6) is OPEN.
-- Observation: Gate 2 (10, 6) appears OPEN.
-- Observation: Secret Door (11, 6) appears OPEN.
+- Verified: Gate 2 (10, 6) is OPEN.
+- Verified: Secret Door (11, 6) is OPEN.
+- Verified: Wall (11, 10) is CLOSED.
 
 Plan:
-1. Walk onto Gate 2 (10, 6) and Secret Door (11, 6) to confirm.
-2. Proceed South to check Wall (11, 10).
-3. Warning: (11, 9) might be a Trap Warp (active in 1-0-1?). If warped, record it.
-4. If Wall (11, 10) is closed, I likely need to toggle Switch 1 (to 0-0-1 or 0-1-1).
+1. Move to Switch 1 (16, 1) avoiding traps at (15, 4) and (16, 2).
+   Path: (11, 5) -> (16, 5) -> (16, 3) -> (15, 3) -> (15, 1) -> (16, 1).
+2. Toggle Switch 1 to OFF (State becomes 0-0-1).
+3. Check Gate 3 and Wall (11, 10).
 
 Switch Locations:
 - S3: (2, 1)
