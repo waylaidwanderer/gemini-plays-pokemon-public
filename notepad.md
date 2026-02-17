@@ -1,20 +1,15 @@
-Location: Warehouse (10, 1) - At Switch 2.
-Objective: Open Wall (11, 10).
-Current State: 1-1-1 (S1 ON, S2 ON, S3 ON) -> Changing to 1-0-1.
-- Correction: Previous observations labeled '1-0-1' were actually '1-1-1' (S1 ON, S2 ON, S3 ON).
-- In 1-1-1: Gate 1 Open, Gate 2 Closed, Secret Door Closed.
-
+Location: Warehouse (10, 6) - Checking Gate 2.
+Objective: Reach Wall at (11, 10).
 Current State: 1-0-1 (S1 ON, S2 OFF, S3 ON).
-- Just turned S2 OFF.
-- Objective: Check Gate 2 (10, 6) and Secret Door (11, 6).
-- If Gate 2 is Open, we can access the Secret Door area.
-- If Gate 2 is Closed, check if Wall (11, 10) is open (path via Gate 1?).
+- Verified: Gate 1 (2, 6) is OPEN.
+- Observation: Gate 2 (10, 6) appears OPEN.
+- Observation: Secret Door (11, 6) appears OPEN.
 
 Plan:
-1. Move to (10, 6) avoiding traps on Row 4.
-   Path: (10, 2) -> (8, 2) -> (8, 6) -> (10, 6).
-2. Check Gate 2 and Secret Door.
-3. If blocked, re-evaluate.
+1. Walk onto Gate 2 (10, 6) and Secret Door (11, 6) to confirm.
+2. Proceed South to check Wall (11, 10).
+3. Warning: (11, 9) might be a Trap Warp (active in 1-0-1?). If warped, record it.
+4. If Wall (11, 10) is closed, I likely need to toggle Switch 1 (to 0-0-1 or 0-1-1).
 
 Switch Locations:
 - S3: (2, 1)
