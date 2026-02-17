@@ -9,11 +9,14 @@ Status:
 - Switch 1: ON.
 - Switch 2: OFF.
 - Switch 3: ON (State 101).
-- Gate 3: Checking...
+- Gate 3: CLOSED (Confirmed).
 - Trap (10, 4): SAFE.
 - Trap (16, 8): Unknown.
 Hypothesis:
+- State 101 fails.
 - Hint: "Switch on the end is the one to press first."
-- Testing State 101 (ON, OFF, ON).
-- If 101 fails: Reset to 000. Try Order: S3 -> S2 -> S1.
-Current Action: Moving to check Gate 3 (16, 6).
+Plan:
+1. Reset to 000 (Turn S1 OFF, S3 OFF).
+2. Execute Sequence: S3 (ON) -> S2 (ON) -> S1 (ON).
+3. Test Gate/Trap.
+Current Action: Turn S1 OFF (16, 1).
