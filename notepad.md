@@ -10,7 +10,9 @@ Status:
 - Switch 2: ON.
 - Switch 3: ON.
 - Gate 3: CLOSED (State 111 Fails).
+- Hint: "The switch on the end is the one to press first."
 Plan:
-1. Turn Switch 3 OFF (Return to State 110).
-2. Turn Switch 2 OFF (Try State 100).
-3. Test Gate 3 + Trap with State 100.
+1. Turn Switch 3 OFF (State 110).
+2. Turn Switch 2 OFF (State 100).
+3. Test Gate 3 with State 100.
+4. If fail, Reset to 000 and try sequence 3->2->1 or 1->2->3.
