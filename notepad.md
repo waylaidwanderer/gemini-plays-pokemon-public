@@ -1,19 +1,18 @@
-Location: Warehouse (2, 2) - At Switch 3.
-Objective: Check results of State 0-0-0.
+Location: Warehouse (2, 5) - Gate 1 Closed.
+Objective: Escape Trap (Turn S3 ON).
 Current State: 0-0-0 (S1 OFF, S2 OFF, S3 OFF).
-- Just turned S3 OFF (Assuming success).
-- S1 is OFF.
-- S2 is OFF.
+- Verified: Gate 1 (2, 6) is CLOSED (Tile TYPE_2889).
+- Consequence: Trapped in NW corner.
+- Action: Must turn S3 ON to escape.
 
-Hypothesis:
-- Maybe "Off" is the default state that opens everything?
-- Or maybe 1-1-0 is the key?
-
-Plan:
-1. Check Gate 1 (2, 6).
-2. Check Gate 2 (10, 6) and Gate 3 (16, 6).
-3. Check Wall (11, 10).
-4. If 0-0-0 fails, try 1-1-0 (S1 ON, S2 ON, S3 OFF).
+Next Plan (Testing remaining states):
+1. Turn S3 ON -> State 0-0-1.
+2. Go to Switch 2, Turn ON -> State 0-1-1.
+3. Go to Switch 1, Turn ON -> State 1-1-1.
+4. Check Wall (11, 10) in 1-1-1.
+   - If Gate 1 is Open in 1-1-1, I can reach the wall.
+5. If 1-1-1 fails, go to Switch 3 and turn OFF -> State 1-1-0.
+6. Check Wall in 1-1-0.
 
 Switch Locations:
 - S3: (2, 1)
