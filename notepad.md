@@ -1,17 +1,19 @@
-Location: Warehouse (10, 5) - Gate 2 Closed.
-Objective: Check Gate 3 in State 0-0-0.
+Location: Warehouse (16, 5) - Gate 3 Closed.
+Objective: Try State 1-1-0 (S1 ON, S2 ON, S3 OFF).
 Current State: 0-0-0 (S1 OFF, S2 OFF, S3 OFF).
-- Verified: Gate 1 (2, 6) is CLOSED.
-- Verified: Gate 2 (10, 6) is CLOSED.
-- Visually: Secret Door (11, 6) is CLOSED.
+- Verified: All Gates (1, 2, 3) are CLOSED.
+- Verified: Wall (11, 10) is CLOSED (implied, can't reach).
+
+Analysis:
+- S1 ON seems required to open Gate 3.
+- S2 ON might be required to open Wall (11, 10).
+- S3 OFF might be required? (Since S3 ON in 0-0-1 didn't open wall).
 
 Plan:
-1. Move East to check Gate 3 (16, 6).
-2. If Gate 3 is Closed, State 0-0-0 is a total failure (All Gates Closed).
-3. Next State: 1-1-0 (S1 ON, S2 ON, S3 OFF).
-   - Go to Switch 1 (16, 1), Turn ON.
-   - Go to Switch 2 (10, 1), Turn ON.
-   - Check Wall (11, 10).
+1. Go to Switch 1 (16, 1), Turn ON. (State -> 1-0-0).
+2. Go to Switch 2 (10, 1), Turn ON. (State -> 1-1-0).
+   - Check Gate 3 and Wall (11, 10).
+   - Route: Access Wall via Gate 3 (if open).
 
 Switch Locations:
 - S3: (2, 1)
