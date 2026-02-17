@@ -1,13 +1,16 @@
-Location: Warehouse (16, 1) - turning S1 ON.
-Objective: Create State 1-1-0 (S1 ON, S2 ON).
-Current State: 0-1-0 (S1 OFF, S2 ON, S3 OFF).
-- Trap (15, 4) is SAFE in 0-1-0.
+Location: Warehouse (16, 2) - S1 turned ON.
+Objective: Enter Secret Area in State 1-1-0.
+Current State: 1-1-0 (S1 ON, S2 ON, S3 OFF).
+- Switch 1 is ON.
 - Switch 2 is ON.
-- Switch 1 is OFF (Target: ON).
+- Switch 3 is OFF.
+Hypothesis:
+- S2 ON -> Opens Secret Door (11, 6).
+- S1 ON -> Opens Wall (11, 10) and Gate 3 (16, 6).
+- Combined (1-1-0) -> Clear path to South Area.
 Plan:
-1. Turn Switch 1 ON.
-2. New State: 1-1-0.
-3. Check Gate 1 (2, 6) and Secret Door (11, 6).
-   - Hypothesis: 1-1-0 might open Gate 1?
-   - Or maybe just opens Gate 3 + Secret Door?
-Path: Interact S1 -> Check results.
+1. Confirm Gate 3 (16, 6) is OPEN.
+2. Move to (11, 6) via Gate 3.
+3. Enter Secret Door.
+4. Pass through Wall (11, 10).
+Path: Down -> Left -> Down.
