@@ -11,4 +11,4 @@ Plan: Turn S3 OFF (to 000) -> Go to Section 2 via Row 5 -> Cross Row 4 via (8, 4
 - 011 (OFF, ON, ON): Gate 1 & 2 OPEN. Trap (10,9) ACTIVE (Warped).
 Current State: 1-0-0 (S1 ON, S2 OFF, S3 OFF).
 - 1-0-0: Gate 3 (16,6) & Wall (11,10) OPEN.
-Plan: Enter Secret Room via (11,10). Watch out for Trap at (11,9).
+Plan: Attempt to enter Secret Room via (11,10). Test if Trap (11,9) is safe.
