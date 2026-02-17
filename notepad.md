@@ -10,4 +10,4 @@ Truth Table (S1, S2, S3):
 - 100 (ON, OFF, OFF): Gate 3 OPEN. Trap (16,8) SAFE. Secret Wall (11,10) CLOSED.
 - 011 (OFF, ON, ON): Gate 1 & 2 OPEN. Trap (10,9) ACTIVE (Warped).
 Current State: 0-1-0 (S2 ON, S1/S3 OFF).
-Plan: Enter Secret Door at (11,6).
+Plan: Enter Secret Door at (10,6).
