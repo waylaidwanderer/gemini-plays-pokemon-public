@@ -1,11 +1,12 @@
 Location: Warehouse (3_54).
-Objective: Exit Warehouse via East Side.
+Objective: Exit Warehouse to Underground Tunnel.
 Status:
 - Current location: (11, 9).
-- Observation: (11, 10) is a WALL (TYPE_2889). Switch 1 ON did not open it.
-- Gate 3 (16, 6) is OPEN.
-- Hypothesis: The way forward is the Warp at (22, 10).
+- Wall at (11, 10) is CLOSED.
+- Analysis: East side (Col 22) is blocked by walls on Rows 6-9. Warp (22, 10) is unreachable from North.
+- Must find a way South via Gate 1 or Gate 2.
 Plan:
-1. Move East along Row 9 to (22, 9).
-2. Enter Warp at (22, 10).
-3. See where it leads (Likely behind the wall).
+1. Go North through Gate 3 to (16, 5).
+2. Check Gate 2 at (10, 6).
+3. If Open, go South to check Exit (2, 10).
+4. If Closed, adjust switches (Try Sw3 ON?).
