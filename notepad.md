@@ -1,17 +1,20 @@
-Location: Warehouse (11, 9) - Testing Trap/Wall.
-Objective: Check Wall (11, 10) in State 0-0-1.
+Location: Warehouse (11, 8) - Heading to Switch 2.
+Objective: Toggle Switch 2 (Target State: 0-1-1).
 Current State: 0-0-1 (S1 OFF, S2 OFF, S3 ON).
-- Gate 3 (16, 6) is CLOSED (Verified).
-- Gate 2 (10, 6) is OPEN (Verified).
-- Secret Door (11, 6) is OPEN (Verified).
-- Testing if (11, 9) is a trap in this state.
-- Testing if Wall (11, 10) is open.
+- Verified: Gate 3 (16, 6) is CLOSED.
+- Verified: Gate 2 (10, 6) is OPEN.
+- Verified: Secret Door (11, 6) is OPEN.
+- Verified: Wall (11, 10) is CLOSED (Visual confirmation).
+
+Hypothesis: S1 controls the choice between Gate 3 and Gate 2/Secret.
+- S1 ON: G3 Open, G2 Closed.
+- S1 OFF: G3 Closed, G2 Open.
+- Wall (11, 10) is still closed. Maybe S2 controls it?
 
 Plan:
-1. Walk South to (11, 9).
-2. If warped, mark trap for 0-0-1.
-3. If not warped, check Wall (11, 10).
-4. If Wall (11, 10) is closed, proceed to try State 0-1-1 (S2 ON).
+1. Move to Switch 2 (10, 1).
+2. Toggle Switch 2 ON (State becomes 0-1-1).
+3. Check Gate 2 and Wall (11, 10).
 
 Switch Locations:
 - S3: (2, 1)
