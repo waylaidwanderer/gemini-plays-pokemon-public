@@ -1,6 +1,6 @@
 Location: Warehouse (3_54).
 Objective: Open Secret Door (11, 6) (Target State 010: OFF, ON, OFF).
-Plan: Turn S3 OFF (to 000) -> Turn S2 ON (to 010) -> Enter Secret Door.
+Plan: Turn S3 OFF (to 000) -> Go to Section 2 via Row 5 -> Cross Row 4 via (8, 4) or (11, 4) to avoid traps -> Turn S2 ON (to 010) -> Enter Secret Door.
 - 000 (OFF, OFF, OFF): Gate 1 Closed.
 - 001 (OFF, OFF, ON): Gate 3 OPEN. Gate 1 CLOSED.
 - 010 (OFF, ON, OFF): Gate 2 OPEN. Trap (10,9) SAFE. Wall (11,10) OPEN. Door (11,6) OPEN.
