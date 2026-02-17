@@ -16,3 +16,5 @@ Warning: Trap at (10, 4) is likely ACTIVE in state 001. Use Row 5 to bypass it.
 Plan: Switch 2 & 3 required? Go to Switch 3 to create State 011.
 - 010 (OFF, ON, OFF): Wall at (3, 6)-(3, 7) OPEN. Leads to Rival Silver?
 Plan: Investigate newly opened path at (3, 6) before changing switches.
+- 010 (OFF, ON, OFF): Confirmed Wall (3,6) OPEN. Checking path to Silver.
+Assumption: (3,8) Safe because S2 is ON (similar to 110).
