@@ -8,14 +8,13 @@ Truth Table (S1, S2, S3):
 Status:
 - Switch 1: OFF.
 - Switch 2: OFF.
-- Switch 3: ON.
+- Switch 3: OFF (Action).
 - Gate 3: CLOSED.
 Strategy:
 - Use 'check_gate_states' tool to verify logic without walking.
 - "End switch" likely means Switch 1.
 Plan:
-1. Turn S3 OFF (Reset to 000).
-2. Check Gates (Expect all closed?).
-3. Turn S1 ON. Check Gates.
-4. Turn S2 ON. Check Gates.
-5. If Gate 3 Open & Trap Safe -> WIN.
+1. Verify State 000 (All Closed).
+2. Turn S1 ON -> Check Gates.
+3. Turn S2 ON -> Check Gates.
+4. If Gate 3 Open & Trap Safe -> WIN.
