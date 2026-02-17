@@ -10,6 +10,5 @@ Plan: Turn S3 OFF (to 000) -> Go to Section 2 via Row 5 -> Cross Row 4 via (8, 4
 - 100 (ON, OFF, OFF): Gate 3 OPEN. Trap (16,8) SAFE. Secret Wall (11,10) CLOSED.
 - 011 (OFF, ON, ON): Gate 1 & 2 OPEN. Trap (10,9) ACTIVE (Warped).
 Current State: 1-0-1 (S1 ON, S2 OFF, S3 ON).
-- 111 (ON, ON, ON): Gate 3 (16,6) CLOSED.
-Plan: Check Gate 3 (16,6). Expecting OPEN (similar to 001).
-Warning: Trap at (10,4) likely ACTIVE (S2 OFF). Use Row 5.
+- 1-0-1: Gate 3 CLOSED. (Verified).
+Plan: Turn S1 OFF (Target 0-0-1). Go through Gate 3.
