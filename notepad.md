@@ -20,3 +20,5 @@ History:
 - 1-0-0: G1 Open, G3 Open, Wall Closed.
 - 0-1-0: Secret Door Open.
 - X-1-1: Gate 1 Open, Secret Door Open (from summary).
+Anomaly: Attempted to walk East along Row 2 to (16, 2) but was warped back to (2, 2). Possible hidden Trap Warp near (16, 2) or triggered by Grunt at (17, 2).
+Action: Checking Gate 1 first.
