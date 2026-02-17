@@ -6,15 +6,14 @@ Truth Table (S1, S2, S3):
 - 010 (OFF, ON, OFF): Gate 2 Open.
 - 110 (ON, ON, OFF): Gate 3 Open (Trap Active).
 Status:
-- Switch 1: OFF (Action).
+- Switch 1: OFF.
 - Switch 2: ON.
 - Switch 3: OFF.
-- Gate 3: Unknown.
-- Gate 2: Unknown.
-- Wall (11, 10): Unknown.
-- Traps: Likely SAFE (since S2 is ON).
-Testing State: 0-1-0 (S1 OFF, S2 ON, S3 OFF).
-Plan:
-1. Check Gate 3 (16, 6).
-2. Check Gate 2 (10, 6).
-3. Check Wall (11, 10).
+- Gate 3: CLOSED (Confirmed).
+- Gate 2: OPEN (Confirmed previously).
+- Traps: SAFE.
+Action: Turning Switch 1 ON.
+Target State: 1-1-0 (S1 ON, S2 ON).
+Prediction: Gate 3 OPEN, Traps ACTIVE (based on past logs).
+Goal: Verify if "S1 First" sequence is required to make Traps SAFE in 1-1-0 state.
+If Traps are active after this, I must reset and do S1 -> S2.
