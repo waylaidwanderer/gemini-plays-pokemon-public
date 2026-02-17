@@ -1,15 +1,16 @@
-Location: Warehouse (2, 2) - At Switch 3.
-Objective: Open the path south (Wall at 11, 10).
+Location: Warehouse (2, 8) - Past Gate 1.
+Objective: Check Gate 2 (10, 6) and Wall (11, 10).
 Current State: 1-0-1 (S1 ON, S2 OFF, S3 ON).
-- Verified: Gate 1 (2, 6) is OPEN (Walkable).
-- Verified: Gate 3 (16, 6) is OPEN in 1-0-0.
+- Verified: Gate 1 (2, 6) is OPEN.
+- Gate 3 (16, 6) was OPEN in 1-0-0.
 - Wall (11, 10) was CLOSED in 1-0-0.
+- Trap Warning: (12, 8) marked as Trap (1-0-1). Avoiding Row 8.
 
 Plan:
-1. Toggle Switch 3 to ON -> State 1-0-1.
-2. Check if Gate 1 closes (ensure escape route).
-3. If Gate 1 is Open, navigate to check Gate 2 (10, 6) and Wall (11, 10).
-4. If blocked, try other combinations (e.g., 0-0-1, 0-1-1).
+1. Move along Row 7 to (10, 7).
+2. Check Gate 2 (10, 6).
+3. If Gate 2 is open, check Secret Door (11, 6).
+4. If blocked, check Wall (11, 10).
 
 Switch Locations:
 - S3: (2, 1)
