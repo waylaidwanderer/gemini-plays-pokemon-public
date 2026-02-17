@@ -1,12 +1,13 @@
 Location: Warehouse (3_54).
-Objective: Open Gate 1.
+Objective: Exit Warehouse via Gate 1.
 Status:
 - Switch 1: ON.
 - Switch 2: OFF.
 - Switch 3: ON.
-- Gate 1 & 2 CLOSED.
-- Gate 3 Status Unknown (Likely Open or Closed).
+- Gate 1: OPEN (Verified, Standing on it).
+- Gate 2: CLOSED.
+- Gate 3: Unknown.
 Plan:
-1. Turn Switch 3 OFF. (State: ON, OFF, OFF).
-2. Check Gate 1.
-3. If Closed, go to Switch 1 and turn OFF (State: OFF, OFF, OFF).
+1. Go South to (2, 10).
+2. Exit Warehouse.
+3. Access Director's Room from behind.
