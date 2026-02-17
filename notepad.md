@@ -1,12 +1,12 @@
-Location: Warehouse (10, 2) - Switch 2 OFF (State 1-0-0).
-Objective: Reach South Area via Gate 3 (16, 6).
+Location: Warehouse (11, 6) - At Secret Door.
+Objective: Go South to Wall (11, 10).
 Current State: 1-0-0 (S1 ON, S2 OFF, S3 OFF).
-- Switch 2 turned OFF.
-- Path blocked by Grunt at (11, 2).
+- Navigation Note: Row 3 was blocked at (12, 3), forcing me Down column 11.
+- I am currently standing on the Secret Door tile (11, 6).
+- This implies the door is OPEN (or passable) even with S2 OFF?
+- Or S1 ON keeps it open?
 Plan:
-1. Clear text (B).
-2. Move Down to (10, 3).
-3. Move Right to (16, 3).
-4. Move Down to Gate 3 (16, 6).
-5. Go West to (11, 6) -> South to (11, 10).
-Path: B -> Down -> Right... -> Down...
+1. Move South to (11, 10).
+2. If Wall (11, 10) is OPEN (Expected in 1-0-0) -> Continue South to Goal.
+3. If Blocked -> Re-evaluate.
+Path: Down -> Down -> Down -> Down.
