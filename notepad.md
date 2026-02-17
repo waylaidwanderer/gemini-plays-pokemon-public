@@ -15,5 +15,5 @@ Status:
 Hypothesis:
 - Hint: "Switch on the end is the one to press first."
 - Attempting State 101 (ON, OFF, ON).
-- If 101 fails: Reset to 000. Try Order: S3 -> S2 -> S1 (or similar).
-Current Action: Turning Switch 3 ON.
+- If 101 fails: Reset to 000. Try Order: S3 -> S2 -> S1.
+Current Action: Moving to Switch 3 (2, 1) to turn ON.
