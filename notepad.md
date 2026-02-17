@@ -1,15 +1,14 @@
 Location: Warehouse (16, 2) - At Switch 1.
-Objective: Toggle Switch 1 (Target State: 0-0-1).
-Current State: 0-0-1 (S1 OFF, S2 OFF, S3 ON).
-- Verified: Gate 1, Gate 2, Secret Door OPEN in 1-0-1.
-- Just switched S1 OFF.
-- Objective: Check Gate 3 (16, 6) and Wall (11, 10).
+Objective: Toggle Switch 1 to OFF.
+Current State: Transitioning from 1-0-1 to 0-0-1.
+- S1 is currently ON.
+- Action: Interacting to turn S1 OFF.
+- Target State: 0-0-1 (S1 OFF, S2 OFF, S3 ON).
 
 Plan:
-1. Toggle Switch 1 OFF (State becomes 0-0-1).
+1. Finish Switch interaction.
 2. Check Gate 3 (16, 6) and Wall (11, 10).
-3. If Gate 3 opens, proceed to check Wall (11, 10) via that route?
-   - Note: (11, 10) is accessible from Gate 2 as well, but was closed. Maybe 0-0-1 opens it.
+3. If Gate 3 opens, proceed to check Wall (11, 10).
 
 Switch Locations:
 - S3: (2, 1)
