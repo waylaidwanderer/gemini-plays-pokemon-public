@@ -5,20 +5,15 @@ Truth Table (S1, S2, S3):
 - 001 (OFF, OFF, ON): Gate 1 Open.
 - 010 (OFF, ON, OFF): Gate 2 Open.
 - 110 (ON, ON, OFF): Gate 3 Open (Trap Active).
-Status:
-- Switch 1: ON.
-- Switch 2: ON.
-- Switch 3: OFF.
-- Gate 3: CLOSED.
-- Gate 2: OPEN.
-- Wall (11, 10): CLOSED (Blocked).
-- Traps: SAFE.
-Observations:
-- S1 ON + S2 ON -> Gate 3 Closed, Gate 2 Open, Wall (11, 10) Closed.
-- Trap safety requires S2 ON.
-- If S2 ON closes Gate 3, we must use the Middle Path (Gate 2).
-- We need to open Wall (11, 10).
+Correction & Status:
+- Previous State was 0-1-0 (S1 OFF, S2 ON, S3 OFF).
+  -> Result: Traps Safe, Gate 2 Open, Gate 3 Closed.
+- Current State: 1-1-0 (S1 ON, S2 ON, S3 OFF).
+  -> Switch 1: ON (Just flipped).
+  -> Switch 2: ON.
+  -> Switch 3: OFF.
 Plan:
-1. Turn Switch 1 OFF.
-2. Check if Gate 2 stays open and Wall (11, 10) opens.
-3. If not, try Switch 3.
+1. Check Gate 3 (16, 6).
+2. Check Gate 2 (10, 6).
+3. Check Wall (11, 10).
+Hypothesis: S1+S2 should open Gate 3.
