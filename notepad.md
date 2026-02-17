@@ -9,10 +9,10 @@ Status:
 - Switch 1: ON.
 - Switch 2: OFF.
 - Switch 3: OFF.
-- Gate 3: Checking...
-- Trap (10, 4): SAFE (Confirmed).
-- Trap (16, 8): Checking...
-Plan:
-1. Navigate to Gate 3 (16, 6).
-2. Check if Open.
-3. Test Trap at (16, 8).
+- Gate 3: OPEN.
+- Trap (10, 4): SAFE (Sw2 OFF).
+- Trap (16, 8): Testing (Expect SAFE).
+Rules (Deduced):
+1. Switch 3 ON closes Gate 3.
+2. Switch 2 OFF disables Trap at (10, 4).
+3. Switch 1 ON opens Gate 3.
