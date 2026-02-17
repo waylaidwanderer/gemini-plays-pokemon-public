@@ -1,12 +1,11 @@
-Location: Warehouse (11, 9) -> Backtracking to Switch 2.
+Location: Warehouse (10, 2) - At Switch 2.
 Objective: Turn Switch 2 OFF (Target State 1-0-0).
 Current State: 1-1-0 (S1 ON, S2 ON, S3 OFF).
-- Wall (11, 10) is CLOSED.
-- This confirms S2 is likely STILL ON (My cancellation prevented the change).
-- Must return to S2 and explicitly turn it OFF.
+- Switch 2 is ON (Wall 11,10 closed).
+- Turning it OFF to open Gate 3.
 Plan:
-1. Move Up to (11, 6) (Secret Door).
-2. Move Left to (10, 6).
-3. Move Up to (10, 2) (Switch 2).
-4. Turn S2 OFF.
-Path: Up -> Up -> Up -> Left -> Up -> Up -> Up -> Up.
+1. Interact with Switch 2.
+2. Select YES to Turn OFF.
+3. Confirm State 1-0-0.
+4. Move to Gate 3 (16, 6).
+Path: Interact -> YES -> Move to (16, 6).
