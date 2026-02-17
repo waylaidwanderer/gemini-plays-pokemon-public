@@ -27,3 +27,5 @@ History:
 - X-1-1: Gate 1 Open, Secret Door Open (from summary).
 Anomaly: Attempted to walk East along Row 2 to (16, 2) but was warped back to (2, 2). Possible hidden Trap Warp near (16, 2) or triggered by Grunt at (17, 2).
 Action: Checking Gate 1 first.
+Observation: In 1-0-1, Wall (11, 10) appears to be TYPE_2889 (Closed).
+Action: Walking South to confirm blockage and test for traps on Row 9.
