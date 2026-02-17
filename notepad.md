@@ -8,12 +8,12 @@ Truth Table (S1, S2, S3):
 Status:
 - Switch 1: ON.
 - Switch 2: OFF.
-- Switch 3: OFF.
+- Switch 3: OFF -> ON (Action).
 - Gate 3: CLOSED (State 100 Fails).
 - Trap (10, 4): SAFE.
-- Trap (16, 8): Unknown (Gate blocked).
+- Trap (16, 8): Unknown.
 Hypothesis:
 - Hint: "Switch on the end is the one to press first."
-- Plan A: Try State 101 (ON, OFF, ON). Maybe S3 enables the gate without traps?
-- Plan B: If 101 fails, Reset to 000. Then press S3 first.
+- Attempting State 101 (ON, OFF, ON).
+- If 101 fails: Reset to 000. Try Order: S3 -> S2 -> S1 (or similar).
 Current Action: Turning Switch 3 ON.
