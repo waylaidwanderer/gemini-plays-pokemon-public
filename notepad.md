@@ -7,15 +7,12 @@ Truth Table (S1, S2, S3):
 - 110 (ON, ON, OFF): Gate 3 Open (Trap Active).
 Status:
 - Switch 1: ON.
-- Switch 2: ON.
+- Switch 2: Toggling (Target: OFF).
 - Switch 3: OFF.
-- Gate 3: CLOSED (Confirmed).
+- Gate 3: CLOSED.
 - Traps: SAFE.
-Anomaly: Past summary claimed this state opened Gate 3. Suspect Sequence Dependency.
-Current Sequence: S2 ON -> S1 ON.
-Proposed Sequence: S1 ON -> S2 ON.
-Plan:
-1. Navigate to Switch 2 (10, 2).
-2. Turn Switch 2 OFF (State 1-0-0).
-3. Turn Switch 2 ON (State 1-1-0, Sequence S1->S2).
-4. Check Gate 3.
+Sequence Reset:
+1. Turn S2 OFF (Current Action).
+2. Turn S2 ON (Next Action).
+3. Check Gate 3.
+This ensures the last switch flipped is S2, creating the S1->S2 sequence.
