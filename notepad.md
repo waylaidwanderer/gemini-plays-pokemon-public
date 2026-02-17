@@ -1,12 +1,12 @@
 Location: Warehouse (3_54).
-Objective: Exit Warehouse to Underground Tunnel.
+Objective: Open Gate 1 or find a path South.
 Status:
-- Current location: (11, 9).
-- Wall at (11, 10) is CLOSED.
-- Analysis: East side (Col 22) is blocked by walls on Rows 6-9. Warp (22, 10) is unreachable from North.
-- Must find a way South via Gate 1 or Gate 2.
+- Gate 1 (2, 6) is CLOSED.
+- Switch 1: ON.
+- Switch 2: ON (Assumed).
+- Switch 3: OFF (Assumed).
+- Gate 3 (16, 6) is OPEN.
 Plan:
-1. Go North through Gate 3 to (16, 5).
-2. Check Gate 2 at (10, 6).
-3. If Open, go South to check Exit (2, 10).
-4. If Closed, adjust switches (Try Sw3 ON?).
+1. Toggle Switch 3 (Turn ON).
+2. Check if Gate 1 Opens.
+3. If not, maybe try turning Switch 2 OFF?
