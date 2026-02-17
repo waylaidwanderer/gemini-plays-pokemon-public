@@ -1,14 +1,17 @@
-Location: Warehouse (10, 2) - At Switch 2.
-Objective: Toggle Switch 2 to OFF (Target: 0-0-1).
-Current State: 0-1-1 (S1 OFF, S2 ON, S3 ON).
-- Verified: Gate 2 (10, 6) is CLOSED (Bump confirmed).
-- Verified: Gate 1 (2, 6) is OPEN.
+Location: Warehouse (4, 2) - Heading to Switch 3.
+Objective: Toggle Switch 3 to OFF (Target: 0-0-0).
+Current State: 0-0-1 (S1 OFF, S2 OFF, S3 ON).
+- S2 is OFF (Marker updated).
+- S3 is ON.
+- S1 is OFF.
 
 Plan:
-1. Turn Switch 2 OFF (State becomes 0-0-1).
-2. Move to Switch 3 (2, 1).
-3. Turn Switch 3 OFF (State becomes 0-0-0).
-4. Check Gate 1, Gate 2, and Wall (11, 10) in 0-0-0.
+1. Navigate to Switch 3 (2, 1).
+   - Avoid Grunt at (3, 2) by going around via Row 4.
+2. Turn Switch 3 OFF (State -> 0-0-0).
+3. Check results.
+   - Does 0-0-0 open Wall (11, 10)?
+   - Does it open Gate 3?
 
 Switch Locations:
 - S3: (2, 1)
