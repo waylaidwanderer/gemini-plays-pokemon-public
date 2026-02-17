@@ -1,15 +1,15 @@
-Location: Warehouse (11, 5) - Near Gate 2.
+Location: Warehouse (10, 1) - At Switch 2.
 Objective: Open Wall (11, 10).
-Current State: 1-0-1 (S1 ON, S2 OFF, S3 ON).
-- Verified: Gate 1 (2, 6) is OPEN.
-- Verified: Gate 2 (10, 6) is CLOSED (1-0-1).
-- Verified: Secret Door (11, 6) is CLOSED (1-0-1).
+Current State: 1-1-1 (S1 ON, S2 ON, S3 ON) -> Changing to 1-0-1.
+- Correction: Switch 2 was found ON.
+- Verified: Gate 1 (2, 6) is OPEN in 1-1-1.
+- Verified: Gate 2 (10, 6) is CLOSED in 1-1-1.
+- Verified: Secret Door (11, 6) is CLOSED in 1-1-1.
 
 Plan:
-1. Move to Switch 2 at (10, 1).
-2. Toggle Switch 2 to ON (State 1-1-1).
-3. Check Gate 2 and Secret Door.
-4. If open, proceed South to check Wall (11, 10).
+1. Turn Switch 2 OFF (State becomes 1-0-1).
+2. Check Gate 2 (10, 6) and Secret Door (11, 6).
+3. If still closed, consider checking Gate 1 or moving to Switch 1.
 
 Switch Locations:
 - S3: (2, 1)
