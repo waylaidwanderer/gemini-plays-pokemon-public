@@ -1,14 +1,11 @@
-Location: Director's Room (3_53) -> Warehouse (3_54).
-Objective: Rescue Director (Underground).
+Location: Warehouse (3_54).
+Objective: Exit Warehouse to Underground Tunnel.
 Status:
-- Current location: Back of Director's Room (South of Row 24).
-- Problem: Blocked by Wall/Grunts at Row 24.
-- Solution: The Warp was a trap/dead end. I must enter via the Main Shutter at (6, 20) in the Underground Tunnel.
+- Current location: (21, 5).
+- Blockage: Row 6 is a WALL (TYPE_2889).
+- Gate 3 (16, 6) should be OPEN (Switch 1 ON).
+- Correction: Previous "Warp" was likely just walking into the wall at (21, 6).
 Plan:
-1. Take Warp at (22, 27) back to Warehouse (3_54).
-2. Navigate Warehouse to exit back to Underground Tunnel (3_53).
-3. Go to Shutter at (6, 20).
-4. Enter Shutter and fight through to the Director.
-- Warning: Pathing down Col 14 caused a Warp to (21, 5).
-- Hypothsis: Hidden trap in Col 14 or adjacent.
-- Current Plan: Try pathing down Col 21 from (21, 5).
+1. Navigate to (16, 5).
+2. Check if Gate 3 (16, 6) is passable.
+3. Go South to Exit (11, 10).
