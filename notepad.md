@@ -1,11 +1,14 @@
-Location: Warehouse (16, 6) - Checking Gate 3.
-Objective: Reach Secret Door (11, 6) in State 1-1-0.
+Location: Warehouse (16, 5) - Testing Gate 3 in State 1-1-0.
+Objective: Reach Secret Door (11, 6).
 Current State: 1-1-0 (S1 ON, S2 ON, S3 OFF).
-- Switch 1 ON -> Expect Gate 3 & Wall (11, 10) OPEN.
-- Switch 2 ON -> Expect Secret Door (11, 6) OPEN.
+- Testing Gate 3 (16, 6).
+- Visual check suggests it might be CLOSED (Type 2889 vs 3fe2).
+- If Closed:
+  - Hypothesis: S2 ON closes Gate 3?
+  - Escape route: Try Trap (15, 4).
 Plan:
-1. Pass Gate 3 (16, 6).
-2. Avoid potential trap at (16, 8) by moving Left to Col 15.
-3. Navigate to (11, 6).
-4. Enter Secret Area and cross (11, 10).
-Path: Down -> Left -> Down -> Left.
+1. Try to move Down to (16, 6).
+2. If blocked, move to Trap (15, 4).
+3. If Trap safe, exit to Middle Area -> Go to Secret Door.
+4. If Trap warps, re-evaluate.
+Path: Down -> (If Blocked) Up -> Left.
