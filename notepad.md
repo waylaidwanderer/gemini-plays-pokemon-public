@@ -1,17 +1,20 @@
-Location: Warehouse (2, 8) - Past Gate 1.
-Objective: Check Gate 2 (10, 6) and Wall (11, 10).
+Location: Warehouse (11, 5) - Near Gate 2.
+Objective: Open Wall (11, 10).
 Current State: 1-0-1 (S1 ON, S2 OFF, S3 ON).
 - Verified: Gate 1 (2, 6) is OPEN.
-- Gate 3 (16, 6) was OPEN in 1-0-0.
-- Wall (11, 10) was CLOSED in 1-0-0.
-- Trap Warning: (12, 8) marked as Trap (1-0-1). Avoiding Row 8.
+- Verified: Gate 2 (10, 6) is CLOSED (1-0-1).
+- Verified: Secret Door (11, 6) is CLOSED (1-0-1).
 
 Plan:
-1. Navigate around Silver: (3, 7) -> Down to Row 9 -> East to (9, 9).
-2. Move Up/Right to avoid Trap at (10, 9) and reach Gate 2 at (10, 6).
-3. Check Gate 2 (10, 6).
-4. If Gate 2 is open, check Secret Door (11, 6).
-5. If blocked, check Wall (11, 10).
+1. Move to Switch 2 at (10, 1).
+2. Toggle Switch 2 to ON (State 1-1-1).
+3. Check Gate 2 and Secret Door.
+4. If open, proceed South to check Wall (11, 10).
+
+Switch Locations:
+- S3: (2, 1)
+- S2: (10, 1)
+- S1: (16, 1)
 
 Switch Locations:
 - S3: (2, 1)
