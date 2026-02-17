@@ -1,11 +1,15 @@
-Location: Warehouse (10, 2) - Interacting with Switch 2.
-Objective: Turn Switch 2 OFF (State 1-0-0).
-Current State: 1-1-0 (S1 ON, S2 ON, S3 OFF).
-- Grunt avoided (hopefully).
-- Interacting with S2.
+Location: Warehouse (10, 2) - Turned Switch 2 OFF.
+Objective: Reach South Area via Gate 3 (16, 6).
+Current State: 1-0-0 (S1 ON, S2 OFF, S3 OFF).
+- Switch 1 ON.
+- Switch 2 OFF.
+- Switch 3 OFF.
+Expectation:
+- Gate 3 (16, 6) is OPEN.
+- Wall (11, 10) is OPEN.
+- Traps (15, 4) and (16, 8) likely SAFE (S2 OFF).
 Plan:
-1. Turn S2 OFF.
-2. Verify State 1-0-0.
-3. Move to Gate 3 (16, 6) -> Enter.
-4. Move to Wall (11, 10) -> Enter South Area.
-Path: Interact -> Yes -> Down -> Right to Gate 3.
+1. Move to Gate 3 (16, 6).
+2. Go West to (11, 6).
+3. Go South through (11, 10).
+Path: Down -> Right -> Down -> Right -> Down.
