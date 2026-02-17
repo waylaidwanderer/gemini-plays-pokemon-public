@@ -1,16 +1,14 @@
-Location: Warehouse (16, 2) - At Switch 1 (OFF).
-Objective: Check Gate 3 (16, 6).
+Location: Warehouse (16, 5) - Checking Gate 3.
+Objective: Check Gate 2 (10, 6) in State 0-0-1.
 Current State: 0-0-1 (S1 OFF, S2 OFF, S3 ON).
-- S1: OFF (Verified).
-- S2: OFF (Verified previously).
-- S3: ON (Verified previously).
-- Markers need cleanup (S2, S3 have conflicting markers).
+- Gate 3 (16, 6) is CLOSED (Verified visually).
+- S1 OFF seems to close Gate 3.
 
 Plan:
-1. Move South to (16, 6).
-2. Check Gate 3.
-3. If Gate 3 is OPEN, check Wall (11, 10).
-4. If Gate 3 is CLOSED, this state is invalid. Try 0-1-1?
+1. Move Left to check Gate 2 (10, 6) and Secret Door (11, 6).
+2. If Open: Check Wall (11, 10).
+3. If Closed: State 0-0-1 is likely a dead end for the middle section.
+   - Next State to try: 0-1-1 (S1 OFF, S2 ON, S3 ON)? Or revert to 1-0-1?
 
 Switch Locations:
 - S3: (2, 1)
