@@ -9,3 +9,6 @@ Plan:
 2. Navigate Warehouse to exit back to Underground Tunnel (3_53).
 3. Go to Shutter at (6, 20).
 4. Enter Shutter and fight through to the Director.
+- Warning: Pathing down Col 14 caused a Warp to (21, 5).
+- Hypothsis: Hidden trap in Col 14 or adjacent.
+- Current Plan: Try pathing down Col 21 from (21, 5).
