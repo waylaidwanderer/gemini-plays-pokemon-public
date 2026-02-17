@@ -1,15 +1,14 @@
 Location: Director's Room (3_53).
 Objective: Rescue Director (Underground).
 Status:
-- Found Director at (18, 29).
-- PROBLEM: Interaction (Press A) not triggering dialogue.
-- Tried: Approaching from South.
-- Hypotheses:
-  1. Not aligned properly?
-  2. Need to trigger something else first?
-  3. Game state lag?
+- Re-entered room to reset state.
+- Director location: Likely near (18, 29) or (19, 29).
+- Key Item Needed: CARD KEY (Do NOT have it).
+- Basement Key is for the door we already opened.
 Plan:
-1. Scan for interactables to confirm NPC presence.
-2. Reposition if possible (unlikely).
-3. Check nearby tiles.
-4. Get CARD KEY.
+1. Go to (18, 31).
+2. Visually confirm Director's location.
+3. Stand ADJACENT to him.
+4. Press A to talk.
+5. Get CARD KEY.
+6. Escape.
