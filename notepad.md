@@ -9,9 +9,14 @@ Status:
 - Switch 1: ON.
 - Switch 2: OFF.
 - Switch 3: ON.
-- Gate 1: OPEN (Confirmed).
-- Gate 3: Checking now.
-Testing State: 1-0-1 (S1 ON, S2 OFF, S3 ON).
+- Gate 1: OPEN.
+- Gate 3: CLOSED (Confirmed in 1-0-1).
+- Traps: Appears Safe? (Need to verify).
+Next Test: State 1-1-1 (All ON).
+Hypothesis:
+- Maybe All ON opens everything?
+- Or maybe checking if S3 ON + S2 ON opens Wall (11, 10).
 Plan:
-1. Navigate to (16, 6) to check Gate 3.
-2. If Closed, try State 0-1-1 or 1-1-1.
+1. Navigate to Switch 2 (10, 1).
+2. Turn Switch 2 ON.
+3. Check Gate 2 and Wall (11, 10).
