@@ -8,14 +8,15 @@ Truth Table (S1, S2, S3):
 Status:
 - Switch 1: OFF.
 - Switch 2: OFF.
-- Switch 3: OFF (Confirmed via reset).
+- Switch 3: OFF.
 - Gate 3: CLOSED.
 Strategy:
 - "End switch" = Switch 1.
 - Sequential Logic: Order matters.
+- TOOL WARNING: 'check_gate_states' only works for ON-SCREEN tiles. Must walk to gates to verify.
 Plan:
 1. Navigate to Switch 1 (16, 1).
 2. Turn Switch 1 ON.
 3. Navigate to Switch 2 (10, 1).
 4. Turn Switch 2 ON.
-5. Check Gate 3.
+5. Walk to Gate 3 to verify.
