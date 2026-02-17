@@ -1,14 +1,16 @@
-Location: Warehouse (16, 2) - At Switch 1.
-Objective: Toggle Switch 1 to OFF.
-Current State: Transitioning from 1-0-1 to 0-0-1.
-- S1 is currently ON.
-- Action: Interacting to turn S1 OFF.
-- Target State: 0-0-1 (S1 OFF, S2 OFF, S3 ON).
+Location: Warehouse (16, 2) - At Switch 1 (OFF).
+Objective: Check Gate 3 (16, 6).
+Current State: 0-0-1 (S1 OFF, S2 OFF, S3 ON).
+- S1: OFF (Verified).
+- S2: OFF (Verified previously).
+- S3: ON (Verified previously).
+- Markers need cleanup (S2, S3 have conflicting markers).
 
 Plan:
-1. Finish Switch interaction.
-2. Check Gate 3 (16, 6) and Wall (11, 10).
-3. If Gate 3 opens, proceed to check Wall (11, 10).
+1. Move South to (16, 6).
+2. Check Gate 3.
+3. If Gate 3 is OPEN, check Wall (11, 10).
+4. If Gate 3 is CLOSED, this state is invalid. Try 0-1-1?
 
 Switch Locations:
 - S3: (2, 1)
