@@ -1,16 +1,15 @@
-Location: Warehouse (2, 4) - En route to Switch 3.
+Location: Warehouse (2, 1) - At Switch 3.
 Objective: Toggle Switch 3 to OFF (Target: 0-1-0).
-Current State: 0-1-1 (S1 OFF, S2 ON, S3 ON).
-- Verified: Gate 2 (10, 6) is CLOSED.
-- Verified: Gate 3 (16, 6) is CLOSED (S1 OFF).
-- Route: Moving via Row 4 to avoid walls on Row 2/3.
-- (3, 2) contains a defeated Grunt (blocking tile).
+Current State: 0-1-1 (S1 OFF, S2 ON, S3 ON) -> Changing to 0-1-0.
+- S3 is currently ON.
+- Action: Turning S3 OFF.
+- Goal: Check if State 0-1-0 opens Wall (11, 10) or Gate 1.
 
 Plan:
-1. Move to Switch 3 (2, 1).
-2. Toggle Switch 3 OFF (State becomes 0-1-0).
-3. Check Gate 1 (2, 6).
-4. Navigate to check Gate 2/Wall (11, 10).
+1. Turn Switch 3 OFF.
+2. Check Gate 1 (2, 6).
+3. If Gate 1 Open, go check Gate 2/Wall.
+4. If Gate 1 Closed, check other gates.
 
 Switch Locations:
 - S3: (2, 1)
