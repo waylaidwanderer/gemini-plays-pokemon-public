@@ -4,10 +4,11 @@ Status:
 - Switch 1: ON.
 - Switch 2: OFF.
 - Switch 3: ON.
-- Gate 1: OPEN (Verified, Standing on it).
+- Gate 1: OPEN.
 - Gate 2: CLOSED.
-- Gate 3: Unknown.
+- (2, 10): CLOSED.
+- Found Rival Silver at (4, 8).
 Plan:
-1. Go South to (2, 10).
-2. Exit Warehouse.
-3. Access Director's Room from behind.
+1. Talk to Silver.
+2. Go to Switch 2 (10, 1) and turn ON.
+3. Check (2, 10).
