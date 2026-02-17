@@ -9,14 +9,14 @@ Truth Table (S1, S2, S3):
 - 111 (ON, ON, ON): Testing Now.
 Status:
 - Switch 1: ON.
-- Switch 2: OFF.
+- Switch 2: ON (Action Taken).
 - Switch 3: ON.
-- Gate 3: CLOSED.
-State: 1-0-1.
+- Gate 3: Check (Expect Open).
+State: 1-1-1 (All ON).
 Sequence Progress:
 1. Turn Switch 3 ON (Done).
 2. Turn Switch 2 OFF (Done).
 3. Turn Switch 1 ON (Done).
-4. Turn Switch 2 ON (Next).
-Reasoning: 1-0-1 Failed. Maybe 1-1-1 (All ON) opens Gate 3 AND disables traps (via S3)?
-Navigation: Heading to Switch 2.
+4. Turn Switch 2 ON (Done).
+Reasoning: Testing if S3+S1+S2 opens Gate 3 AND disables traps.
+Navigation: Heading to Gate 3 (checking trap at 10,4 first).
