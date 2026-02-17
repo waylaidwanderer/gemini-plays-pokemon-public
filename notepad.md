@@ -10,4 +10,4 @@ Truth Table (S1, S2, S3):
 - 100 (ON, OFF, OFF): Gate 3 OPEN. Trap (16,8) SAFE. Secret Wall (11,10) CLOSED.
 - 011 (OFF, ON, ON): Gate 1 & 2 OPEN. Trap (10,9) ACTIVE (Warped).
 Current State: 1-0-0 (S1 ON, S2 OFF, S3 OFF).
-Plan: Check Gate 3 at (16,6).
+Plan: Explore the area south of Gate 3. Targets: Grunt F (19,12), Burglar (9,12).
