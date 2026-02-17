@@ -1,12 +1,13 @@
-Location: Warehouse (7, 9) - Blocked by Wall (6, 9).
-Objective: Exit Secret Room and Check Gate 1 from Main Area.
+Location: Warehouse (11, 9) -> Moving to Gate 3 (16, 6).
+Objective: Exit Secret Room and use Gate 3 to reach South Area.
 Current State: 1-0-0 (S1 ON, S2 OFF, S3 OFF).
-- Discovery: Wall at Column 6 divides West and East sections.
-- Cannot reach West Side (Switch 3) from here.
-- Must backtrack through Gate 3 (16, 6).
+- Confirmed: Wall (11, 10) is CLOSED (Visual).
+- Confirmed: Gate 3 (16, 6) opens in 1-0-0.
+- Secret Door (11, 6) is OPEN.
 Plan:
-1. Move Right to (11, 9).
-2. Move Up to (11, 6) (Secret Door).
-3. Move Right to (16, 6) (Gate 3).
-4. Move Up -> Left to Check Gate 1 (2, 6).
-Path: Right -> Up -> Right -> Exit.
+1. Move Up to (11, 5) (Exit Secret Room).
+2. Move Right to (16, 5).
+3. Move Down through Gate 3 (16, 6).
+4. Continue South down Column 16 to bypass walls.
+5. Reach South Area via Row 12.
+Path: Up -> Right -> Down -> South.
