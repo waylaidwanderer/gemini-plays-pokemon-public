@@ -12,3 +12,5 @@ Plan: Turn S3 OFF (to 000) -> Go to Section 2 via Row 5 -> Cross Row 4 via (8, 4
 Current State: 0-1-1 (S1 OFF, S2 ON, S3 ON).
 - 010 (OFF, ON, OFF): Leads to Silver (Dead End). Gate 1 Open.
 Plan: Go to Switch 3 -> Turn ON (Target State 011: OFF, ON, ON) -> Check Secret Door (11,6) and Gate 2.
+- 011 (OFF, ON, ON): Gate 1 (2,6) CLOSED.
+Plan: Check Secret Door (11,6) and Gate 2 (10,6).
