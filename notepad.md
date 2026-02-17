@@ -1,15 +1,12 @@
 Location: Warehouse (3_54).
-Objective: Open Gate 1 or Gate 2.
+Objective: Open Gate 1.
 Status:
 - Switch 1: ON.
+- Switch 2: OFF.
 - Switch 3: ON.
-- Switch 2: Unknown (Likely ON).
-- Gate 1 (2, 6): CLOSED.
-- Gate 3 (16, 6): OPEN.
-- Gate 2 (10, 6): Checking.
-- Correction: Player moved to (10, 5) before finishing interaction. Moving back.
+- Gate 1 & 2 CLOSED.
+- Gate 3 Status Unknown (Likely Open or Closed).
 Plan:
-1. Move to (10, 2).
-2. Interact with Switch 2.
-3. Turn it OFF.
-4. Check Gates & Traps.
+1. Turn Switch 3 OFF. (State: ON, OFF, OFF).
+2. Check Gate 1.
+3. If Closed, go to Switch 1 and turn OFF (State: OFF, OFF, OFF).
