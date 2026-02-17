@@ -8,10 +8,11 @@ Truth Table (S1, S2, S3):
 Status:
 - Switch 1: ON.
 - Switch 2: ON.
-- Switch 3: ON (Toggled).
-- Gate 3: Checking now.
-- Trap (16, 8): Checking now.
+- Switch 3: ON.
+- Gate 3: Checking...
+- Trap (16, 8): Testing State 111.
 Plan:
-1. Verify if Gate 3 is Open and Trap is Safe.
-2. If safe, access Grunt F.
-3. If not, try 0-1-1 (Turn S1 OFF).
+1. Walk through Gate 3 (16, 6).
+2. Step on Trap (16, 8).
+3. If Safe: Access Grunt F.
+4. If Warp: Try 0-1-1 (Turn S1 OFF).
