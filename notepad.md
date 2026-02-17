@@ -10,5 +10,5 @@ Plan: Turn S3 OFF (to 000) -> Go to Section 2 via Row 5 -> Cross Row 4 via (8, 4
 - 100 (ON, OFF, OFF): Gate 3 OPEN. Trap (16,8) SAFE. Secret Wall (11,10) CLOSED.
 - 011 (OFF, ON, ON): Gate 1 & 2 OPEN. Trap (10,9) ACTIVE (Warped).
 Current State: 1-0-0 (S1 ON, S2 OFF, S3 OFF).
-- 1-0-0: Wall (11,10) OPEN. Trap (11,9) SAFE. (Confirmed).
-Plan: Battle Burglar at (9,12). Explore behind him for Director/Card Key.
+- 1-0-0: Wall (11,10) OPEN. Trap (11,9) SAFE.
+Plan: Defeated Burglar Duncan. Check for Card Key or Director behind him.
