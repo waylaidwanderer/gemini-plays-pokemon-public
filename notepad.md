@@ -1,4 +1,4 @@
-Current State: S1=0, S2=1, S3=0 (Moving to Reset).
+Current State: S1=0, S2=1, S3=0 (Confirmed OFF).
 Previous: S1=0, S2=1, S3=1 (Verified G1 Closed).
 
 Switch Log (1=ON, 0=OFF):
@@ -13,7 +13,7 @@ Switch Log (1=ON, 0=OFF):
 | 0  | 1  | 0  | Open     | Closed    | Closed    | Closed   | G1 Open (Wait, did I verify this? No, it says Closed above). |
 
 Plan:
-1. Turn S3 OFF (State 0-1-0).
-2. Turn S2 OFF (State 0-0-0).
-3. Turn S1 ON (State 1-0-0).
-4. Check Gates.
+1. S3 is OFF (Confirmed).
+2. Go to S2 (Currently ON). Turn OFF -> State 0-0-0.
+3. Go to S1 (Currently OFF). Turn ON -> State 1-0-0.
+4. Check Gate 1.
