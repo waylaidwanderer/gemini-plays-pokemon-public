@@ -1,17 +1,14 @@
-Location: Warehouse (10, 2) - At Switch 2.
-Objective: Enable State 1-1-1 (All ON) via Safe Path.
-Current State: 1-1-0 (S1 ON, S2 ON, S3 OFF) -> Changing to 1-0-0.
-- Problem: Traps on Row 4 prevent reaching Switch 3 directly.
-- Hypothesis: S2 ON activates traps. Turning S2 OFF should verify safe passage at (10, 4).
+Location: Warehouse (10, 2) - At Switch 2 (OFF).
+Objective: Reach Switch 3 via (10, 4).
+Current State: 1-0-0 (S1 ON, S2 OFF, S3 OFF).
+- Switch 2 turned OFF.
+- Testing hypothesis: S2 OFF disables traps on Row 4.
 
 Plan:
-1. Turn Switch 2 OFF (State -> 1-0-0).
-2. Cross Row 4 at (10, 4) (Expect Safe).
-3. Go to Switch 3 (2, 1).
-4. Turn Switch 3 ON (State -> 1-0-1).
-5. Return to Switch 2.
-6. Turn Switch 2 ON (State -> 1-1-1).
-7. Check all gates/walls.
+1. Move South to (10, 4).
+2. If safe, proceed to Switch 3 (2, 1).
+3. Turn Switch 3 ON (State -> 1-0-1).
+4. Return to Switch 2 and turn ON (State -> 1-1-1).
 
 Switch Locations:
 - S3: (2, 1)
