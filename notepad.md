@@ -1,26 +1,20 @@
-Location: Warehouse (10, 2) - At Switch 2.
-Objective: Open Gate 2 (10, 6) or find path to Director (6, 8).
+Current State: S1=0, S2=1, S3=1 (Testing).
+Previous: S1=0, S2=1, S3=0.
 
 Switch Log (1=ON, 0=OFF):
 | S1 | S2 | S3 | G1 (2,6) | G2 (10,6) | G3 (16,6) | Sec.Door | Notes |
 |----|----|----|----------|-----------|-----------|----------|-------|
-| 1  | 0  | 1  | Closed   | Closed    | OPEN      | Closed   | Right Part explored. (11,10) Closed. Dead end? |
-| 0  | 1  | 1  | Open     | Closed    | Closed    | Closed   | Re-verifying G1 Open. S1 OFF, S2 ON, S3 ON. |
-| 0  | 0  | 0  | Closed   | Closed    | Closed    | Closed   | Confirmed: 0-0-0 is ALL CLOSED. Gate 1 Closed. |
-| 0  | 1  | 0  | Open     | Closed    | Closed    | Closed   | G1 stays Open. |
-| 0  | 1  | 1  | Open     | Closed    | Closed    | Closed   | G1 stays Open. |
+| 1  | 0  | 1  | Closed   | Closed    | OPEN      | Closed   | Right Part explored. (11,10) Closed. |
+| 0  | 1  | 1  | Open     | Closed    | Closed    | Closed   | Current Test. |
+| 0  | 0  | 0  | Closed   | Closed    | Closed    | Closed   | All Closed. |
+| 0  | 1  | 0  | Open     | Closed    | Closed    | Closed   | G1 Open. |
 | 1  | 1  | 1  | Closed   | Closed    | Closed    | Closed   | All Closed. |
-| 1  | 1  | 0  | Closed   | Closed    | Closed    | Closed   | All Closed. Warp at (10,4)? |
-| 1  | 0  | 0  | Closed   | Closed    | Closed    | ?        | CURRENT TEST. All Closed. Confirmed. |
-
-Hypothesis:
-- S1 OFF = Gate 1 Open? (Consistent in 0xx)
-- S1 ON + S3 ON = Gate 3 Open? (Saw in 1-0-1)
-- S2 might be the key for Gate 2. Maybe 1-0-0?
-- Or maybe there is a specific order, not just state?
-- Trap (10, 4) is active in some states.
+| 1  | 1  | 0  | Closed   | Closed    | Closed    | Closed   | All Closed. |
+| 1  | 0  | 0  | Closed   | Closed    | Closed    | Closed   | All Closed. |
 
 Plan:
-1. Check Gate 2 (10, 6) in State 1-0-0.
-2. If Closed, check Gate 3 (16, 6).
-3. If Closed, check Gate 1 (2, 6).
+1. Verify 0-1-1 (Check Gate 1).
+2. Go to Switch 2, Toggle OFF -> 0-0-1.
+3. Check 0-0-1.
+4. Go to Switch 1, Toggle ON -> 1-0-1.
+5. Go through Gate 3 and check Wall (11, 10).
