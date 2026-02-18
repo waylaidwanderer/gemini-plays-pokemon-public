@@ -19,7 +19,7 @@ Reflection (Turn 48815):
 - Current Task: Test the final state (1-1-0).
 - Hygiene: Notepad log is accurate. Markers are up to date.
 - Next Steps: If G1 opens, proceed. If not, analyze map for overlooked paths (e.g. wall at 11,10).
-Goal: Toggle S2 ON, S1 OFF (Target 0-1-0).
-Current Switches: S1=ON, S2=ON, S3=OFF (1-1-0).
-Next: At Switch 1 (16, 2). Turn it OFF.
-Note: Grunt confirmed hint "Switch on the end is the one to press first".
+Goal: Check Secret Door at (11, 6).
+Current Switches: S1=OFF, S2=ON, S3=OFF (0-1-0).
+Next: Navigate to (11, 6).
+Note: 0-1-0 should open Secret Door and Gate 2.

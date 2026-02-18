@@ -699,12 +699,17 @@
         }
       }
     },
-    "python_script": "print(f'{{\"buttons\": [\"A\", \"sleep 500\", \"A\", \"sleep 500\", \"A\", \"sleep 500\", \"B\"]}}')",
+    "python_script": "print('[\"A\", \"sleep 500\", \"A\", \"sleep 500\", \"A\", \"sleep 500\", \"B\"]')",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2026-02-18T23:15:06.800Z",
         "action_counter": 49051
+      },
+      {
+        "commit_message": "Fixed JSON output format to return a list of strings instead of an object.",
+        "timestamp": "2026-02-18T23:31:34.240Z",
+        "action_counter": 49060
       }
     ]
   }
