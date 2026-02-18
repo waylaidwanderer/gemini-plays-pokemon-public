@@ -5,7 +5,7 @@ Switch Log (1=ON, 0=OFF):
 | S1 | S2 | S3 | G1 (2,6) | G2 (10,6) | G3 (16,6) | Sec.Door | Notes |
 |----|----|----|----------|-----------|-----------|----------|-------|
 | 1  | 0  | 1  | Closed   | Closed    | OPEN      | Closed   | Right Part explored. (11,10) Closed. Dead end? |
-| 0  | 0  | 1  | OPEN     | Closed    | Closed    | Closed   | Restoring 0-0-1 to explore West Wing (Gate 1). |
+| 0  | 0  | 1  | Closed   | Closed    | Closed    | Closed   | G1 CLOSED visually. Contradicts old note? |
 | 0  | 0  | 0  | Open     | Closed    | Closed    | Closed   | G1 stays Open. |
 | 0  | 1  | 0  | Open     | Closed    | Closed    | Closed   | G1 stays Open. |
 | 0  | 1  | 1  | Open     | Closed    | Closed    | Closed   | G1 stays Open. |
