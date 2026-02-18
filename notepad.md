@@ -20,6 +20,7 @@ Reflection (Turn 48815):
 - Hygiene: Notepad log is accurate. Markers are up to date.
 - Next Steps: If G1 opens, proceed. If not, analyze map for overlooked paths (e.g. wall at 11,10).
 Arrived in Map 3_53 (Underground).
-Current location: (18, 30).
-Goal: Talk to the Real Director at (18, 29).
-Status: Director is unresponsive/silent from the front. Trying to interact with the Rocket Grunt at (19, 24).
+Current location: (20, 31).
+Goal: Talk to the Rocket Grunt at (19, 24).
+Status: Director at (18, 29) was unresponsive.
+Note: TYPE_2889 is a WALL. Do not walk on it.
