@@ -23,3 +23,4 @@ Arrived in Map 3_53 (Underground).
 Current location: (20, 28).
 Goal: Talk to the Real Director at (18, 29).
 Status: Director possibly unresponsive. Rocket Grunt at (19, 24) is blocking the path.
+Director was unresponsive again. Trying to talk to the Rocket Grunt at (19, 24).
