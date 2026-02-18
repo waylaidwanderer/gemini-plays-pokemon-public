@@ -9,7 +9,7 @@ Switch Log (1=ON, 0=OFF):
 | 1  | 0  | 1  | OPEN     | Closed    | Closed    | Closed   | Verified G1 Open. Others Closed. |
 | 0  | 0  | 0  | Closed   | Closed    | Closed    | Closed   | All Closed (Reset). |
 | 0  | 1  | 1  | Closed   | OPEN      | OPEN      | Closed   | Verified G2/G3 Open. Wall(11,10) Closed. |
-| 0  | 1  | 0  | Closed   | OPEN      | OPEN      | OPEN     | Verified G2/G3/SecDoor Open. Wall(11,10) Closed. |
+| 0  | 1  | 0  | Closed   | Closed    | Closed    | Closed   | Verified G1/G2/SecDoor Closed. |
 | 0  | 0  | 1  | Closed   | ?         | OPEN      | ?        | Verified G1 Closed. |
 | 1  | 1  | 1  | Closed   | Closed    | OPEN      | Closed   | G3 Open. Wall(11,10) Closed. |
 
