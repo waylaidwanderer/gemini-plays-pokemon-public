@@ -4,7 +4,7 @@ Objective: Open Gate 2 (10, 6) or find path to Director (6, 8).
 Switch Log (1=ON, 0=OFF):
 | S1 | S2 | S3 | G1 (2,6) | G2 (10,6) | G3 (16,6) | Sec.Door | Notes |
 |----|----|----|----------|-----------|-----------|----------|-------|
-| 1  | 0  | 1  | Closed   | Closed    | OPEN      | Closed   | Confirmed: G3 Open in 1-0-1. Path to East Wing. |
+| 1  | 0  | 1  | Closed   | Closed    | OPEN      | Closed   | Current State. Exploring East Wing. S2 OFF = (16,8) Safe? |
 | 0  | 0  | 1  | OPEN     | Closed    | Closed    | Closed   | G1 Opens. |
 | 0  | 0  | 0  | Open     | Closed    | Closed    | Closed   | G1 stays Open. |
 | 0  | 1  | 0  | Open     | Closed    | Closed    | Closed   | G1 stays Open. |
