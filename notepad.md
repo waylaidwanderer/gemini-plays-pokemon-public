@@ -29,3 +29,6 @@ Hypothesis:
 3. He is not interactive from this angle?
 4. I need to find the Key elsewhere in the room?
 Plan: Try bumping (Up), then explore the room.
+Plan Update: Interaction with Director at (18, 29) failed multiple times.
+Trying to check the bookshelf at (19, 29) in case the Key is there or it triggers something.
+Then retrying Director interaction from (18, 30).
