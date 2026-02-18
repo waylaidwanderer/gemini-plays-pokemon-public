@@ -17,6 +17,9 @@ Switch Log (1=ON, 0=OFF):
 | 1  | 0  | 0  | Closed   | Closed    | Closed    | Closed   | All Closed. |
 
 Plan:
-1. Go to Switch 2 (10, 2), Toggle OFF -> 0-0-1.
-2. Check Gate 1 (2, 6).
-3. If Closed, try State 1-0-0 again (maybe I missed something) or look for a pattern.
+1. Turn Switch 2 ON (State 0-1-0).
+2. Check Gate 1.
+3. If Closed, Turn Switch 3 ON (State 0-1-1).
+4. Check Gate 1.
+5. If Closed, maybe the key is S3=1 ONLY (0-0-1)? But I tested that.
+6. Maybe S1 needs to be involved?
