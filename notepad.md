@@ -1,12 +1,14 @@
 Location: Warehouse (16, 1) - At Switch 1.
 Objective: Revert to State 0-0-1 to explore (6, 8).
-Current State: 1-1-0 (S1 ON, S2 ON, S3 OFF).
-- Warped to (10, 4) while trying to reach Switch 2 via Row 2.
-- Suspect trap at (8, 2), (9, 2), or (10, 2) in this state.
-- Or simply bumped into wall at (7, 1) and pathing got confused.
-Action: Move North to (10, 2) to access Switch 2.
-- Goal: Turn S2 OFF -> State 1-0-0.
-- Warning: If (10, 2) is the trap, I might loop.
+Current State: 1-0-0 (S1 ON, S2 OFF, S3 OFF).
+- Just turned S2 OFF.
+- Action: Check Gate 2 (10, 6) and Gate 3 (16, 6).
+- Hypothesis:
+  - 1-0-1 opened Gate 3.
+  - 0-0-1 opened Gate 1.
+  - Maybe 1-0-0 opens Gate 2?
+- Warning: Row 4 traps.
+- (10, 4) is a known trap warp in some states. Be careful walking South.
 
 Plan:
 1. Turn Switch 1 OFF.
