@@ -19,7 +19,7 @@ Reflection (Turn 48815):
 - Current Task: Test the final state (1-1-0).
 - Hygiene: Notepad log is accurate. Markers are up to date.
 - Next Steps: If G1 opens, proceed. If not, analyze map for overlooked paths (e.g. wall at 11,10).
-Goal: Toggle S3 ON (Target 0-1-1).
+Goal: Test state 0-1-1 (S3 ON).
 Current Switches: S1=OFF, S2=ON, S3=OFF (0-1-0).
-Status: G2 (10,6) and Secret Door (11,6) confirmed CLOSED in 0-1-0.
-Next: Go to Switch 3 (2, 1) and turn ON.
+Log: 0-1-0 failed (G2/SecDoor closed).
+Next: Go to Switch 3 (2, 1), Turn ON. Then check gates.
