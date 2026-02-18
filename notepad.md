@@ -1,13 +1,13 @@
 Location: Warehouse (16, 1) - At Switch 1.
 Objective: Revert to State 0-0-1 to explore (6, 8).
 Current State: 1-1-0 (S1 ON, S2 ON, S3 OFF).
-- Toggled S3 OFF.
-- Action: Checking Gate 1 (2, 6) and Gate 2 (10, 6).
-- Visual check needed.
-- Gate 1 was Open in 0-0-1, 0-1-0, 0-1-1.
-- Hypotheses:
-  - 1-1-0 might open Gate 2?
-  - 1-1-0 might close Gate 1?
+- Gate 1 (2, 6) is CLOSED (Verified by System Message).
+- This contradicts my expectation that S1 ON keeps it open? Or maybe S3 OFF is the closer.
+Action: Navigate to Switch 2 (10, 1).
+- Goal: Turn S2 OFF -> State 1-0-0.
+- Hypothesis: Testing if 1-0-0 opens Gate 2.
+- Path: (2, 3) -> (2, 5) -> (10, 5) -> (10, 1).
+- Warning: Crossing Row 4 (Trap Zone).
 
 Plan:
 1. Turn Switch 1 OFF.
