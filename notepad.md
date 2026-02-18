@@ -1,8 +1,12 @@
 Location: Warehouse (16, 1) - At Switch 1.
 Objective: Revert to State 0-0-1 to explore (6, 8).
 Current State: 0-0-1 (S1 OFF, S2 OFF, S3 ON).
-- S1 Just turned OFF.
-- Checking Gate 2 (10, 6) and Path (6, 8).
+- S1 OFF.
+- Gate 1 (2, 6) and Gate 2 (10, 6) are CLOSED.
+- Implication: S1 OFF does not open these gates, or S3 ON keeps them closed.
+Action: Going to Switch 3 (2, 1).
+- Plan: Toggle S3 OFF -> State 0-0-0.
+- Test if Gates open in 0-0-0.
 
 Plan:
 1. Turn Switch 1 OFF.
