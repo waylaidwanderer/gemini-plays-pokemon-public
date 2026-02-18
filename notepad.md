@@ -11,7 +11,7 @@ Switch Log (1=ON, 0=OFF):
 | 0  | 1  | 1  | Open     | Closed    | Closed    | Closed   | G1 stays Open. |
 | 1  | 1  | 1  | Closed   | Closed    | Closed    | Closed   | All Closed. |
 | 1  | 1  | 0  | Closed   | Closed    | Closed    | Closed   | All Closed. Warp at (10,4)? |
-| 1  | 0  | 0  | ?        | ?         | ?         | ?        | CURRENT TEST. |
+| 1  | 0  | 0  | ?        | Closed    | ?         | ?        | CURRENT TEST. G2 confirmed Closed. |
 
 Hypothesis:
 - S1 OFF = Gate 1 Open? (Consistent in 0xx)
