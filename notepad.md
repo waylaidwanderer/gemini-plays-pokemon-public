@@ -4,7 +4,7 @@ Previous: S1=0, S2=0, S3=0 (Thought I reset, but S2 was ON).
 Switch Log (1=ON, 0=OFF):
 | S1 | S2 | S3 | G1 (2,6) | G2 (10,6) | G3 (16,6) | Sec.Door | Notes |
 |----|----|----|----------|-----------|-----------|----------|-------|
-| 0  | 1  | 0  | ?        | ?         | ?         | ?        | Currently Testing. (10,4) was safe last time. |
+| 0  | 1  | 0  | Closed   | ?         | ?         | ?        | Verified G1 Closed. (10,4), (2,4) Safe. |
 | 0  | 0  | 0  | Closed   | Closed    | Closed    | Closed   | All Closed (Assumed). |
 | 0  | 0  | 1  | Closed   | ?         | OPEN      | ?        | Verified G1 Closed. |
 | 0  | 1  | 1  | Closed   | Closed    | OPEN      | Closed   | Verified: 0-1-1 G1 Closed. |
