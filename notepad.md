@@ -21,5 +21,5 @@ Reflection (Turn 48815):
 - Next Steps: If G1 opens, proceed. If not, analyze map for overlooked paths (e.g. wall at 11,10).
 Goal: Toggle S2 ON, S1 OFF (Target 0-1-0).
 Current Switches: S1=ON, S2=ON, S3=OFF (1-1-0).
-Next: Go to Switch 1 (16, 1) to turn OFF.
+Next: At Switch 1 (16, 2). Turn it OFF.
 Note: Grunt confirmed hint "Switch on the end is the one to press first".
