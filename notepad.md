@@ -19,7 +19,7 @@ Reflection (Turn 48815):
 - Current Task: Test the final state (1-1-0).
 - Hygiene: Notepad log is accurate. Markers are up to date.
 - Next Steps: If G1 opens, proceed. If not, analyze map for overlooked paths (e.g. wall at 11,10).
-Goal: Check Secret Door at (11, 6).
+Goal: Reach Burglar Duncan at (9, 12).
 Current Switches: S1=OFF, S2=ON, S3=OFF (0-1-0).
-Next: Navigate to (11, 6).
-Note: 0-1-0 should open Secret Door and Gate 2.
+Status: Checking if Secret Door (11, 6) is open.
+Next: Move South to Burglar.
