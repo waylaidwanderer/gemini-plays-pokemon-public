@@ -6,7 +6,7 @@ Switch Log (1=ON, 0=OFF):
 |----|----|----|----------|-----------|-----------|----------|-------|
 | 1  | 0  | 1  | Closed   | Closed    | OPEN      | Closed   | Right Part explored. (11,10) Closed. Dead end? |
 | 0  | 0  | 1  | Closed   | Closed    | Closed    | Closed   | G1 CLOSED visually. Contradicts old note? |
-| 0  | 0  | 0  | Open     | Closed    | Closed    | Closed   | G1 stays Open. |
+| 0  | 0  | 0  | Open     | Closed    | Closed    | Closed   | Restoring 0-0-0 to Open Gate 1. |
 | 0  | 1  | 0  | Open     | Closed    | Closed    | Closed   | G1 stays Open. |
 | 0  | 1  | 1  | Open     | Closed    | Closed    | Closed   | G1 stays Open. |
 | 1  | 1  | 1  | Closed   | Closed    | Closed    | Closed   | All Closed. |
