@@ -1,11 +1,11 @@
 Location: Warehouse (16, 1) - At Switch 1.
 Objective: Revert to State 0-0-1 to explore (6, 8).
 Current State: 0-1-1 (S1 OFF, S2 ON, S3 ON).
-- Just turned S3 ON.
-- Gate 1 (2, 6) should be OPEN (based on 0-1-0).
-- Checking Secret Door at (11, 6).
-- Hypothesis: S2+S3 ON = Secret Door OPEN.
-- Watch out for traps.
+- Gate 1 (2, 6) is OPEN. Confirmed: S1 OFF = Gate 1 Open.
+- Action: Checking Secret Door (11, 6) and Gate 2 (10, 6).
+- Path: (2, 6) -> (2, 5) -> (11, 5).
+- Hypothesis: S2 ON + S3 ON might open Secret Door.
+- Watch out for traps on Row 4.
 
 Plan:
 1. Turn Switch 1 OFF.
