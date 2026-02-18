@@ -1,11 +1,13 @@
 Location: Warehouse (16, 1) - At Switch 1.
 Objective: Revert to State 0-0-1 to explore (6, 8).
 Current State: 0-0-1 (S1 OFF, S2 OFF, S3 ON).
-- Gate 1 (2, 6) just OPENED!
+- Gate 1 (2, 6) is OPEN.
 - Gate 2 (10, 6) is CLOSED.
-- S1 OFF seemed to open Gate 1.
-Action: Exploring area South of Gate 1.
-- Heading to (2, 8) then checking Path (6, 8).
+- Path (6, 8) is CLOSED (Wall).
+- Gate (2, 10) is CLOSED (Wall).
+- NPC at (4, 8) with green hair (Not Silver?).
+Action: Investigating NPC at (4, 8).
+- Moving to (3, 8) to talk.
 
 Plan:
 1. Turn Switch 1 OFF.
