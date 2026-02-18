@@ -2,10 +2,12 @@ Location: Warehouse (16, 1) - At Switch 1.
 Objective: Revert to State 0-0-1 to explore (6, 8).
 Current State: 1-1-1 (S1 ON, S2 ON, S3 ON).
 - Gate 3 (16, 6) is CLOSED.
-- S1 ON + S2 ON seems to close Gate 3 (unlike 1-0-1 where it was Open).
-Action: Checking Gate 2 (10, 6) and Secret Door (11, 6).
-- Heading West to (10, 5).
-- If Gate 2 is Closed, next plan: Try State 1-1-0 (S3 OFF) or 1-0-0.
+- Checking Gate 2 (10, 6).
+- Visual: Gate 2 (10, 6) is CLOSED (TYPE_2889).
+Action: Heading to Switch 3 (2, 1) to toggle it OFF.
+- Goal: State 1-1-0 (S1 ON, S2 ON, S3 OFF).
+- Hypothesis: Maybe S3 is the "inverter"?
+- Path: (10, 5) -> (2, 5) -> (2, 1).
 
 Plan:
 1. Turn Switch 1 OFF.
