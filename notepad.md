@@ -20,9 +20,8 @@ Reflection (Turn 48815):
 - Hygiene: Notepad log is accurate. Markers are up to date.
 - Next Steps: If G1 opens, proceed. If not, analyze map for overlooked paths (e.g. wall at 11,10).
 Arrived in Map 3_54 (Warehouse).
-Current location: (3, 8).
-Goal: Check the gate at (2, 10).
+Current location: (2, 9).
+Goal: Return to switches to set 0-1-0.
 Current Switches: S1=ON, S2=OFF, S3=ON (1-0-1).
-Status: Investigating Gate 1 area.
-Note: "What do you want to go there for?" blocks path East at (3, 8).
-Next: Inspect (2, 10). If closed/locked, return to switches.
+Status: Gate 1 verified as dead end/cameo area.
+Next: Toggle S3 OFF -> S2 ON -> S1 OFF (Target 0-1-0).
