@@ -1,11 +1,11 @@
-Current State: S1=0, S2=1, S3=1 (Target 0-0-1).
-Previous: Verified 0-1-1 G1 Closed. Moving to S2.
+Current State: S1=0, S2=0, S3=1 (Testing).
+Previous: S1=0, S2=1, S3=1.
 
 Switch Log (1=ON, 0=OFF):
 | S1 | S2 | S3 | G1 (2,6) | G2 (10,6) | G3 (16,6) | Sec.Door | Notes |
 |----|----|----|----------|-----------|-----------|----------|-------|
+| 0  | 0  | 1  | ?        | ?         | OPEN      | ?        | Testing 0-0-1 for G1. (16,8) Safe. |
 | 0  | 1  | 1  | Closed   | Closed    | OPEN      | Closed   | Verified: 0-1-1 G1 Closed. |
-| 0  | 0  | 1  | ?        | ?         | ?         | ?        | Re-Testing 0-0-1 for G1. |
 | 0  | 1  | 0  | Closed   | OPEN      | OPEN      | OPEN     | Verified G1 Closed. |
 | 1  | 1  | 1  | Closed   | OPEN      | Closed    | OPEN     | G2, Sec. Door Open. (11,10) Closed. |
 | 1  | 0  | 1  | Closed?  | OPEN      | OPEN      | OPEN     | Gate 2, 3, Sec. Door Open. (11,10) Closed. |
