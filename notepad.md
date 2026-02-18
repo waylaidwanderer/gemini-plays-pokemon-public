@@ -1,13 +1,12 @@
 Location: Warehouse (16, 1) - At Switch 1.
 Objective: Revert to State 0-0-1 to explore (6, 8).
 Current State: 1-1-1 (S1 ON, S2 ON, S3 ON).
-- Gate 3 (16, 6) is CLOSED.
-- Checking Gate 2 (10, 6).
-- Visual: Gate 2 (10, 6) is CLOSED (TYPE_2889).
-Action: Heading to Switch 3 (2, 1) to toggle it OFF.
+- Gate 3 (16, 6) CLOSED. Gate 2 (10, 6) CLOSED.
+- Blocked at (7, 2) wall, currently at (8, 2).
+Action: Heading to Switch 3 (2, 1) to toggle OFF.
+- Path: Down to Row 5 to bypass wall, then Left to Col 2, then Up.
 - Goal: State 1-1-0 (S1 ON, S2 ON, S3 OFF).
-- Hypothesis: Maybe S3 is the "inverter"?
-- Path: (10, 5) -> (2, 5) -> (2, 1).
+- Hypothesis: S3 might invert the signal or controls specific gates.
 
 Plan:
 1. Turn Switch 1 OFF.
