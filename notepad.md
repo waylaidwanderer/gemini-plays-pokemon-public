@@ -1,16 +1,13 @@
 Location: Warehouse (10, 2) - At Switch 2.
 Objective: Enable State 1-1-1 (All ON).
-Current State: 1-0-1 (S1 ON, S2 OFF, S3 ON) -> Changing to 1-1-1.
-- S3 ON opened path at (6, 8)/(6, 9).
-- Turning S2 ON now.
+Current State: 1-1-1 (S1 ON, S2 ON, S3 ON).
+- Action: Turning Switch 2 ON.
+- Hypothesis: This opens Wall (11, 10).
 
 Plan:
-1. Turn Switch 2 ON.
-2. Verify State 1-1-1 using code.
-   - Targets: Gate 3 (16, 6), Wall (11, 10), Gate 1 (2, 6), Gate 2 (10, 6).
-   - Also check (6, 8) area.
-3. If Wall (11, 10) is open, go there.
-4. If Wall (11, 10) is closed, check if the new path at (6, 8) leads somewhere useful.
+1. Complete Switch interaction.
+2. Next turn: Run code to verify Wall (11, 10) and Gate 3 status.
+3. Move to check results.
 
 Switch Locations:
 - S3: (2, 1)
