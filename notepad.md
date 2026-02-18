@@ -1,12 +1,11 @@
 Location: Warehouse (16, 1) - At Switch 1.
 Objective: Revert to State 0-0-1 to explore (6, 8).
 Current State: 1-1-1 (S1 ON, S2 ON, S3 ON).
-- Gate 3 (16, 6) CLOSED. Gate 2 (10, 6) CLOSED.
-- Blocked at (7, 2) wall, currently at (8, 2).
-Action: Heading to Switch 3 (2, 1) to toggle OFF.
-- Path: Down to Row 5 to bypass wall, then Left to Col 2, then Up.
-- Goal: State 1-1-0 (S1 ON, S2 ON, S3 OFF).
-- Hypothesis: S3 might invert the signal or controls specific gates.
+- Blocked at (7, 2) wall, detouring via Row 5.
+- Target: Switch 3 at (2, 1).
+- Route: Row 5 West -> Column 1 North -> (1, 2) -> (2, 2).
+- Reason: Avoid potential trap warps in Columns 2-4.
+- Goal: Toggle S3 OFF -> State 1-1-0.
 
 Plan:
 1. Turn Switch 1 OFF.
