@@ -4,7 +4,7 @@ Objective: Open Gate 2 (10, 6) or find path to Director (6, 8).
 Switch Log (1=ON, 0=OFF):
 | S1 | S2 | S3 | G1 (2,6) | G2 (10,6) | G3 (16,6) | Sec.Door | Notes |
 |----|----|----|----------|-----------|-----------|----------|-------|
-| 1  | 0  | 1  | Closed   | Closed    | OPEN      | Closed   | G3 Open. Explored West to (8,9) (Dead End). Checking North (17,2). |
+| 1  | 0  | 1  | Closed   | Closed    | OPEN      | Closed   | Right Part explored. (11,10) Closed. Dead end? |
 | 0  | 0  | 1  | OPEN     | Closed    | Closed    | Closed   | G1 Opens. |
 | 0  | 0  | 0  | Open     | Closed    | Closed    | Closed   | G1 stays Open. |
 | 0  | 1  | 0  | Open     | Closed    | Closed    | Closed   | G1 stays Open. |
