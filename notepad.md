@@ -1,14 +1,15 @@
-Location: Warehouse (10, 2) - At Switch 2 (OFF).
-Objective: Reach Switch 3 via (10, 4).
+Location: Warehouse (10, 4) - Safely crossed trap!
+Objective: Enable State 1-1-1 (All ON).
 Current State: 1-0-0 (S1 ON, S2 OFF, S3 OFF).
-- Switch 2 turned OFF.
-- Testing hypothesis: S2 OFF disables traps on Row 4.
+- Verified: (10, 4) is SAFE in State 1-0-0 (S2 OFF).
+- Confirmed Hypothesis: Switch 2 controls the traps on Row 4.
 
 Plan:
-1. Move South to (10, 4).
-2. If safe, proceed to Switch 3 (2, 1).
-3. Turn Switch 3 ON (State -> 1-0-1).
-4. Return to Switch 2 and turn ON (State -> 1-1-1).
+1. Move to Switch 3 (2, 1) via Row 5 (Safe route).
+2. Turn Switch 3 ON (State -> 1-0-1).
+3. Return to Switch 2 (10, 1).
+4. Turn Switch 2 ON (State -> 1-1-1).
+5. Use code to check if Wall (11, 10) is OPEN.
 
 Switch Locations:
 - S3: (2, 1)
