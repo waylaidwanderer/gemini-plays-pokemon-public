@@ -1,11 +1,12 @@
 Location: Warehouse (16, 1) - At Switch 1.
 Objective: Revert to State 0-0-1 to explore (6, 8).
 Current State: 0-0-0 (S1 OFF, S2 OFF, S3 OFF).
-- Just turned S3 OFF.
-- Checking Gate 2 (10, 6) and Gate 1 (2, 6).
-- S3 ON seemed to keep Gate 2 Closed (or S1 ON did?).
-- In 0-0-1, Gate 1 was Open.
-- Checking if Gate 1 closes or Gate 2 opens in 0-0-0.
+- Gate 1 (2, 6) is OPEN.
+- Gate 2 (10, 6) Status: Unknown (Checking now).
+- Blockage: Column 6 is a wall, preventing direct East travel from Row 9.
+Action: Heading North through Gate 1, then East to Gate 2.
+- Path: (2, 9) -> (2, 5) -> (10, 5).
+- If Gate 2 Closed, Plan: Try S2 ON (0-1-0).
 
 Plan:
 1. Turn Switch 1 OFF.
