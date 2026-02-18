@@ -1,5 +1,5 @@
-Current State: S1=0, S2=0, S3=1 (Testing).
-Previous: S1=0, S2=1, S3=1.
+Current State: S1=0, S2=0, S3=0 (Reset).
+Previous: S1=0, S2=0, S3=1.
 
 Switch Log (1=ON, 0=OFF):
 | S1 | S2 | S3 | G1 (2,6) | G2 (10,6) | G3 (16,6) | Sec.Door | Notes |
