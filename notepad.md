@@ -22,3 +22,4 @@ Reflection (Turn 48815):
 Goal: Toggle S2 ON, S1 OFF (Target 0-1-0).
 Current Switches: S1=ON, S2=ON, S3=OFF (1-1-0).
 Next: Go to Switch 1 (16, 1) to turn OFF.
+Note: Grunt confirmed hint "Switch on the end is the one to press first".
