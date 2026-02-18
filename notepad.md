@@ -1,5 +1,5 @@
-Current State: S1=1, S2=0, S3=0 (Moving to S2).
-Previous: S1=1, S2=0, S3=1 (Verified G1 Closed).
+Current State: S1=1, S2=0, S3=0 (Moving to S2 to turn ON).
+Previous: S1=1, S2=0, S3=0 (Verified G1 Closed).
 
 Switch Log (1=ON, 0=OFF):
 | S1 | S2 | S3 | G1 (2,6) | G2 (10,6) | G3 (16,6) | Sec.Door | Notes |
