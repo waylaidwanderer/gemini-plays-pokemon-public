@@ -5,7 +5,7 @@ Switch Log (1=ON, 0=OFF):
 | S1 | S2 | S3 | G1 (2,6) | G2 (10,6) | G3 (16,6) | Sec.Door | Notes |
 |----|----|----|----------|-----------|-----------|----------|-------|
 | 1  | 0  | 1  | Closed   | Closed    | OPEN      | Closed   | Right Part explored. (11,10) Closed. |
-| 0  | 0  | 1  | ?      | OPEN      | ?         | Open?    | Gate 2 Open. (11,6) looks open too. |
+| 0  | 0  | 1  | ?      | OPEN      | ?         | OPEN     | Gate 2 & Secret Door Open. Checking (11,10). |
 | 0  | 0  | 0  | Closed   | Closed    | Closed    | Closed   | All Closed. |
 | 0  | 1  | 0  | Open     | Closed    | Closed    | Closed   | G1 Open. |
 | 1  | 1  | 1  | Closed   | Closed    | Closed    | Closed   | All Closed. |
