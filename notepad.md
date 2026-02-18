@@ -1,15 +1,14 @@
-Location: Warehouse (2, 2) - At Switch 3.
+Location: Warehouse (10, 2) - At Switch 2.
 Objective: Enable State 1-1-1 (All ON).
 Current State: 1-0-1 (S1 ON, S2 OFF, S3 ON).
-- S3 just turned ON.
-- Verified: S2 OFF keeps Row 4 traps inactive.
+- S3 is ON.
+- Moving to S2 to turn it ON.
+- Hypothesis: 1-1-1 opens Wall (11, 10).
 
 Plan:
-1. Move to Switch 2 (10, 1).
-   - Route: (2, 1) -> (2, 5) -> (10, 5) -> (10, 1).
-   - Taking the long way (Row 5) just to be absolutely safe, though Row 4 should be safe with S2 OFF.
-2. Turn Switch 2 ON (State -> 1-1-1).
-3. Use code to check if Wall (11, 10) is OPEN.
+1. Turn Switch 2 ON (State -> 1-1-1).
+2. Use code to check Gate 3, Wall (11, 10), and Gate 1.
+3. If successful, proceed to Wall (11, 10).
 
 Switch Locations:
 - S3: (2, 1)
