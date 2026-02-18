@@ -687,5 +687,25 @@
         "action_counter": 13565
       }
     ]
+  },
+  "toggle_switch": {
+    "description": "Automates the interaction with a switch to toggle it. Assumes the player is facing the switch or already in the dialogue. sequence: Advance text -> Select Yes -> Advance text -> Close.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "autopress_buttons": {
+          "type": "boolean",
+          "default": true
+        }
+      }
+    },
+    "python_script": "print(f'{{\"buttons\": [\"A\", \"sleep 500\", \"A\", \"sleep 500\", \"A\", \"sleep 500\", \"B\"]}}')",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-02-18T23:15:06.800Z",
+        "action_counter": 49051
+      }
+    ]
   }
 }
