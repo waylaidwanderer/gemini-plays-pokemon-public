@@ -20,7 +20,7 @@ Reflection (Turn 48815):
 - Hygiene: Notepad log is accurate. Markers are up to date.
 - Next Steps: If G1 opens, proceed. If not, analyze map for overlooked paths (e.g. wall at 11,10).
 Arrived in Map 3_54 (Warehouse).
-Current location: (2, 2).
-Goal: Check Gate 1 (2, 6) and other changes.
-Current Switches: S1=ON, S2=ON, S3=OFF.
-Log: Tested 1-1-0. Checking results.
+Current location: (2, 4).
+Goal: Check Secret Door at (11, 6).
+Current Switches: S1=ON, S2=ON, S3=OFF (State 1-1-0).
+Log: G1 Closed. (6, 8) Opened. Checking if Secret Door is open to exit switch room.
