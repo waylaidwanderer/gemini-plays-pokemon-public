@@ -1,5 +1,5 @@
-Current State: S1=1, S2=1, S3=0 (Actual).
-Previous: S1=1, S2=1, S3=1. Note: S2 was never OFF.
+Current State: S1=0, S2=1, S3=0 (Actual).
+Previous: S1=1, S2=1, S3=0 (Incorrect S1 assumption).
 
 Switch Log (1=ON, 0=OFF):
 | S1 | S2 | S3 | G1 (2,6) | G2 (10,6) | G3 (16,6) | Sec.Door | Notes |
