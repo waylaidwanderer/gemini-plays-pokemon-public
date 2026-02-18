@@ -20,7 +20,7 @@ Reflection (Turn 48815):
 - Hygiene: Notepad log is accurate. Markers are up to date.
 - Next Steps: If G1 opens, proceed. If not, analyze map for overlooked paths (e.g. wall at 11,10).
 Arrived in Map 3_53 (Underground).
-Current location: (20, 31).
-Goal: Talk to the Rocket Grunt at (19, 24).
-Status: Director at (18, 29) was unresponsive.
-Note: TYPE_2889 is a WALL. Do not walk on it.
+Current location: (19, 25).
+Goal: Talk to the Real Director at (18, 29).
+Status: Rocket Grunt at (19, 24) was unresponsive. Director at (18, 29) was unresponsive.
+Next: Try Director one last time. If silent, return to Warehouse (3_54) to explore Middle Gate (S1=0, S2=1, S3=0).
