@@ -1,10 +1,11 @@
 Location: Warehouse (16, 1) - At Switch 1.
 Objective: Revert to State 0-0-1 to explore (6, 8).
 Current State: 1-1-1 (S1 ON, S2 ON, S3 ON).
-- Just turned S1 ON.
-- Action: Checking Gate 3 (16, 6).
-- If Gate 3 Closed, heading West to check Gate 2 (10, 6) and Secret Door (11, 6).
-- Hypothesis: 1-1-1 might be the "Master Open" state? Or maybe it closes everything.
+- Gate 3 (16, 6) is CLOSED.
+- S1 ON + S2 ON seems to close Gate 3 (unlike 1-0-1 where it was Open).
+Action: Checking Gate 2 (10, 6) and Secret Door (11, 6).
+- Heading West to (10, 5).
+- If Gate 2 is Closed, next plan: Try State 1-1-0 (S3 OFF) or 1-0-0.
 
 Plan:
 1. Turn Switch 1 OFF.
