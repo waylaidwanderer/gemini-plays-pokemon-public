@@ -2,11 +2,10 @@ Location: Warehouse (16, 1) - At Switch 1.
 Objective: Revert to State 0-0-1 to explore (6, 8).
 Current State: 0-0-0 (S1 OFF, S2 OFF, S3 OFF).
 - Gate 1 (2, 6) is OPEN.
-- Gate 2 (10, 6) Status: Unknown (Checking now).
-- Blockage: Column 6 is a wall, preventing direct East travel from Row 9.
-Action: Heading North through Gate 1, then East to Gate 2.
-- Path: (2, 9) -> (2, 5) -> (10, 5).
-- If Gate 2 Closed, Plan: Try S2 ON (0-1-0).
+- Gate 2 (10, 6) is CLOSED.
+- Plan: Turn Switch 2 ON (State 0-1-0).
+- Expectation: Secret Door at (11, 6) might open.
+- Watch out for Grunt at (11, 2) and potential trap at (10, 4).
 
 Plan:
 1. Turn Switch 1 OFF.
