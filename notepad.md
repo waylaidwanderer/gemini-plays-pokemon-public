@@ -1,15 +1,18 @@
-Location: Warehouse (10, 2) - Leaving Switch 2 (OFF).
-Objective: Check Gate 2 (10, 6) visually.
+Location: Warehouse (10, 5) - Gate 2 is Closed.
+Objective: Revert to State 0-0-1 to explore (6, 8).
 Current State: 1-0-1 (S1 ON, S2 OFF, S3 ON).
-- S2 is OFF.
-- S1 is ON.
-- S3 is ON.
-- Expectation: Gate 2 should be OPEN. Path at (6, 8) should be OPEN.
+- Validated: Gate 2 (10, 6) is CLOSED.
+- Inference: S1 ON overrides S2 OFF, closing Gate 2. Likely closes Gate 1 too.
+- Path to (6, 8) is blocked by Gate 2 (and likely Gate 1).
 
 Plan:
-1. Walk South to (10, 6).
-2. Verify Gate 2 status visually (Update Mental Map).
-3. If Open, proceed to (6, 8).
+1. Move to Switch 1 (16, 1).
+2. Turn Switch 1 OFF (State -> 0-0-1).
+3. In 0-0-1:
+   - Gate 1 and Gate 2 should be OPEN (Verified previously).
+   - Gate 3 CLOSED.
+   - Check if path (6, 8) is OPEN (S3 ON).
+4. If (6, 8) is open, explore that area.
 
 Switch Locations:
 - S3: (2, 1)
