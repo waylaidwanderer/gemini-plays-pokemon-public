@@ -4,7 +4,7 @@ Objective: Open Gate 2 (10, 6) or find path to Director (6, 8).
 Switch Log (1=ON, 0=OFF):
 | S1 | S2 | S3 | G1 (2,6) | G2 (10,6) | G3 (16,6) | Sec.Door | Notes |
 |----|----|----|----------|-----------|-----------|----------|-------|
-| 1  | 0  | 1  | ?        | ?         | Closed    | ?        | Re-test. G3 CLOSED. S1 might be OFF? |
+| 1  | 0  | 1  | Closed   | Closed    | OPEN      | Closed   | Restored 1-0-1. S1 was OFF. G3 should OPEN. |
 | 0  | 0  | 1  | OPEN     | Closed    | Closed    | Closed   | G1 Opens. |
 | 0  | 0  | 0  | Open     | Closed    | Closed    | Closed   | G1 stays Open. |
 | 0  | 1  | 0  | Open     | Closed    | Closed    | Closed   | G1 stays Open. |
