@@ -1,15 +1,14 @@
 Location: Warehouse (10, 2) - At Switch 2.
 Objective: Explore path at (6, 8) in State 1-0-1.
-Current State: 1-1-1 (S1 ON, S2 ON, S3 ON) -> Changing to 1-0-1.
-- In 1-1-1, Gates 1 & 2 are CLOSED.
-- In 1-0-1 (S2 OFF), Gate 2 should be OPEN (based on 0-0-1 observation).
-- Path at (6, 8) opened when S3 was turned ON (in 1-0-1).
+Current State: 1-0-1 (S1 ON, S2 OFF, S3 ON).
+- Just turned S2 OFF.
+- Verified in 1-0-1 previously: Gate 1, Gate 2, Gate 3, Path (6, 8) should be OPEN.
 
 Plan:
-1. Turn Switch 2 OFF.
-2. Check Gate 2 (10, 6) status via code.
-3. If Gate 2 is Open, go through it to reach (6, 8).
-4. If Gate 2 is Closed, we might need State 0-1-1 (Gate 1 Open) to reach (6, 8).
+1. Next turn: Run code to confirm Gate 2 (10, 6) and Path (6, 8) are OPEN.
+2. Navigate to Gate 2 (10, 6).
+3. If Gate 2 is Open, walk South to (10, 8), then West to (6, 8).
+4. Explore the new area.
 
 Switch Locations:
 - S3: (2, 1)
