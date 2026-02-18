@@ -1,31 +1,15 @@
-Location: Warehouse (7, 5) - Moving to Switch 3.
+Location: Warehouse (2, 2) - At Switch 3.
 Objective: Enable State 1-1-1 (All ON).
-Current State: 1-0-0 (S1 ON, S2 OFF, S3 OFF).
-
-Switch Logic Summary (Hypothesis):
-- S1 ON: Opens Gate 3 (16, 6).
-- S2 OFF: Opens Gate 2 (10, 6) & Disables Row 4 Traps.
-- S3 ON: Opens Gate 1 (2, 6).
-- Wall (11, 10): Logic unknown. Maybe requires specific combo (e.g., 1-1-1 or 0-1-0)?
-
-Tested States & Wall Status:
-- 0-0-0: Wall Closed (All Gates Closed).
-- 0-0-1: Wall Closed (G1, G2 Open).
-- 0-1-1: Wall Closed (G1 Open).
-- 1-0-0: Wall Closed (G3 Open).
-- 1-1-0: Wall Closed (G3 Open).
-- 1-0-1: Wall Closed (G1, G2, G3 Open - Verified previously).
-
-Missing/Untested States for Wall:
-- 1-1-1: (All ON). To be tested now.
-- 0-1-0: (S2 ON only). Was briefly tested, seemed blocked?
+Current State: 1-0-1 (S1 ON, S2 OFF, S3 ON).
+- S3 just turned ON.
+- Verified: S2 OFF keeps Row 4 traps inactive.
 
 Plan:
-1. Move to Switch 3 (2, 1).
-2. Turn Switch 3 ON (State -> 1-0-1).
-3. Move to Switch 2 (10, 1).
-4. Turn Switch 2 ON (State -> 1-1-1).
-5. Use code to check Wall (11, 10).
+1. Move to Switch 2 (10, 1).
+   - Route: (2, 1) -> (2, 5) -> (10, 5) -> (10, 1).
+   - Taking the long way (Row 5) just to be absolutely safe, though Row 4 should be safe with S2 OFF.
+2. Turn Switch 2 ON (State -> 1-1-1).
+3. Use code to check if Wall (11, 10) is OPEN.
 
 Switch Locations:
 - S3: (2, 1)
