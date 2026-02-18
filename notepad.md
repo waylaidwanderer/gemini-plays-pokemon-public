@@ -4,7 +4,7 @@ Previous: S1=0, S2=0, S3=1.
 Switch Log (1=ON, 0=OFF):
 | S1 | S2 | S3 | G1 (2,6) | G2 (10,6) | G3 (16,6) | Sec.Door | Notes |
 |----|----|----|----------|-----------|-----------|----------|-------|
-| 1  | 0  | 1  | Closed   | Closed    | OPEN      | Closed   | Right Part explored. (11,10) Closed. |
+| 1  | 0  | 1  | Closed   | Closed    | OPEN      | OPEN     | Gate 3 & Secret Door Open. (12,8) Blocked. (11,10) Looks Closed. |
 | 0  | 0  | 1  | Closed | Closed    | OPEN      | Closed   | Gate 3 Open. Trap (16,8) Safe. (11,10) CLOSED. |
 | 0  | 0  | 0  | Closed   | Closed    | Closed    | Closed   | All Closed. |
 | 0  | 1  | 0  | Open     | Closed    | Closed    | Closed   | G1 Open. |
