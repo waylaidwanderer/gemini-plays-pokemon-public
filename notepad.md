@@ -1,5 +1,5 @@
-Current State: S1=0, S2=1, S3=0 (Target: 0-1-0).
-Previous: S1=1, S2=1, S3=0. Confirmed S1 was ON. Now OFF.
+Current State: S1=0, S2=1, S3=0 (Actual). 0-1-0 Failed. Testing 0-0-0.
+Previous: S1=0, S2=1, S3=0 (Target: 0-1-0).
 
 Switch Log (1=ON, 0=OFF):
 | S1 | S2 | S3 | G1 (2,6) | G2 (10,6) | G3 (16,6) | Sec.Door | Notes |
