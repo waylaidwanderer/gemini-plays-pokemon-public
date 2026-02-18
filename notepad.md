@@ -1,14 +1,15 @@
-Location: Warehouse (10, 2) - At Switch 2.
-Objective: Explore path at (6, 8) in State 1-0-1.
+Location: Warehouse (10, 2) - Leaving Switch 2 (OFF).
+Objective: Check Gate 2 (10, 6) visually.
 Current State: 1-0-1 (S1 ON, S2 OFF, S3 ON).
-- Just turned S2 OFF.
-- Verified in 1-0-1 previously: Gate 1, Gate 2, Gate 3, Path (6, 8) should be OPEN.
+- S2 is OFF.
+- S1 is ON.
+- S3 is ON.
+- Expectation: Gate 2 should be OPEN. Path at (6, 8) should be OPEN.
 
 Plan:
-1. Next turn: Run code to confirm Gate 2 (10, 6) and Path (6, 8) are OPEN.
-2. Navigate to Gate 2 (10, 6).
-3. If Gate 2 is Open, walk South to (10, 8), then West to (6, 8).
-4. Explore the new area.
+1. Walk South to (10, 6).
+2. Verify Gate 2 status visually (Update Mental Map).
+3. If Open, proceed to (6, 8).
 
 Switch Locations:
 - S3: (2, 1)
