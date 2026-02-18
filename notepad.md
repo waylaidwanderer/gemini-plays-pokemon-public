@@ -19,8 +19,9 @@ Reflection (Turn 48815):
 - Current Task: Test the final state (1-1-0).
 - Hygiene: Notepad log is accurate. Markers are up to date.
 - Next Steps: If G1 opens, proceed. If not, analyze map for overlooked paths (e.g. wall at 11,10).
-Arrived in Map 3_53 (Underground).
-Current location: (18, 30).
-Goal: Return to Warehouse (3_54).
-Status: Director at (18, 29) is unresponsive (likely scenery). Rocket Grunt at (19, 24) is unresponsive.
-Plan: Check bookshelf at (21, 31), then take stairs at (22, 27) to return to Warehouse. Set switches to 0-1-0 to explore Secret Door again.
+Arrived in Map 3_54 (Warehouse).
+Current location: (20, 2).
+Goal: Toggle Switch 3 (2, 1) to OFF.
+Current Switches: S1=OFF, S2=ON, S3=ON. Target: 0-1-0.
+Note: TYPE_2889 is a WALL.
+Next: Go to Secret Door at (11, 6).
