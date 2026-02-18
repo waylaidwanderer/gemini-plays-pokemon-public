@@ -1,12 +1,13 @@
 Location: Warehouse (16, 1) - At Switch 1.
 Objective: Revert to State 0-0-1 to explore (6, 8).
-Current State: 1-1-1 (S1 ON, S2 ON, S3 ON).
-- Blocked at (3, 2) by Grunt.
-- Avoiding Row 4 traps by going via Row 3.
-Action: Toggle Switch 3 (2, 1) OFF.
-- Path: (4, 2) -> (4, 3) -> (2, 3) -> (2, 1).
-- Goal: State 1-1-0 (S1 ON, S2 ON, S3 OFF).
-- Hypothesis: 1-1-0 might open Gate 2 (10, 6).
+Current State: 1-1-0 (S1 ON, S2 ON, S3 OFF).
+- Just turned S3 OFF.
+- Action: Check Gate 1 (2, 6) and Gate 2 (10, 6).
+- Hypothesis: S1+S2 ON, S3 OFF might be the key to Gate 2.
+- Gate 1 was Open in 1-0-1 (S1 ON, S3 ON) and 0-0-1 (S1 OFF, S3 ON).
+- Wait, Gate 1 was Open in 0-0-1 (S1 OFF) and 0-1-0 (S1 OFF).
+- S1 ON closed Gate 1? No, I haven't tested S1 ON + S3 OFF yet.
+- Let's see what 1-1-0 does.
 
 Plan:
 1. Turn Switch 1 OFF.
