@@ -4,7 +4,7 @@ Previous: S1=1, S2=0, S3=0 (Fixing Interaction).
 Switch Log (1=ON, 0=OFF):
 | S1 | S2 | S3 | G1 (2,6) | G2 (10,6) | G3 (16,6) | Sec.Door | Notes |
 |----|----|----|----------|-----------|-----------|----------|-------|
-| 1  | 1  | 0  | ?        | ?         | ?         | ?        | Testing 1-1-0. (10,4) should be safe. |
+| 1  | 1  | 0  | ?        | Closed    | ?         | ?        | Testing 1-1-0. G2 Closed. Checking G1. |
 | 1  | 0  | 0  | Closed   | Closed    | OPEN      | Closed   | Verified G1 Closed. |
 | 1  | 0  | 1  | Closed   | ?         | ?         | ?        | Verified G1 Closed. |
 | 0  | 0  | 0  | Closed   | Closed    | Closed    | Closed   | All Closed (Reset). |
