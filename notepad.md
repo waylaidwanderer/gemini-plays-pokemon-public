@@ -16,8 +16,6 @@ Switch Log (1=ON, 0=OFF):
 | 1  | 0  | 0  | Closed   | Closed    | Closed    | Closed   | All Closed. |
 
 Plan:
-1. Verify 0-1-1 (Check Gate 1).
-2. Go to Switch 2, Toggle OFF -> 0-0-1.
-3. Check 0-0-1.
-4. Go to Switch 1, Toggle ON -> 1-0-1.
-5. Go through Gate 3 and check Wall (11, 10).
+1. Go to Switch 2 (10, 2), Toggle OFF -> 0-0-1.
+2. Check Gate 1 (2, 6).
+3. If Closed, try State 1-0-0 again (maybe I missed something) or look for a pattern.
