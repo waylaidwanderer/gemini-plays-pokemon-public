@@ -22,3 +22,10 @@ Reflection (Turn 48815):
 Arrived in Map 3_53 (Director's Room area) via Gate 3 stairs.
 Current location: (22, 27).
 Goal: Talk to Director at (18, 29).
+Issue: Interaction with Director at (18, 29) is failing despite facing him at (18, 30).
+Hypothesis:
+1. Lag/glitch?
+2. Need to bump him?
+3. He is not interactive from this angle?
+4. I need to find the Key elsewhere in the room?
+Plan: Try bumping (Up), then explore the room.
