@@ -20,8 +20,8 @@ Reflection (Turn 48815):
 - Hygiene: Notepad log is accurate. Markers are up to date.
 - Next Steps: If G1 opens, proceed. If not, analyze map for overlooked paths (e.g. wall at 11,10).
 Arrived in Map 3_54 (Warehouse).
-Current location: (11, 5).
+Current location: (2, 2).
 Goal: Test state 1-1-1 (All ON).
-Current Switches: S1=ON, S2=ON, S3=OFF (1-1-0).
-Log: Verified 1-1-0 opens G3 only.
-Next: Go to Switch 3 (2, 1), Turn ON. Check Gate 1.
+Current Switches: S1=ON, S2=ON, S3=ON (Target).
+Log: Toggling S3 to ON.
+Next: Check Gate 1.
