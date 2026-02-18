@@ -20,9 +20,9 @@ Reflection (Turn 48815):
 - Hygiene: Notepad log is accurate. Markers are up to date.
 - Next Steps: If G1 opens, proceed. If not, analyze map for overlooked paths (e.g. wall at 11,10).
 Arrived in Map 3_54 (Warehouse).
-Current location: (16, 8).
+Current location: (16, 9).
 Goal: Check Wall at (11, 10).
 Current Switches: S1=ON, S2=ON, S3=ON (1-1-1).
 Log: Verified G3 Open, G1/G2 Closed.
 Hypothesis: Switch 1 ON opens Wall(11,10).
-Next: Go through G3 to (11, 10).
+Next: Inspect (11, 10) for opening.
