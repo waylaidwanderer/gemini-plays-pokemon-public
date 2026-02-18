@@ -1,4 +1,4 @@
-Current State: S1=1, S2=0, S3=0 (Moving to S2).
+Current State: S1=1, S2=0, S3=0 (Fixing Interaction).
 Previous: S1=1, S2=0, S3=0 (Verified G1 Closed).
 
 Switch Log (1=ON, 0=OFF):
