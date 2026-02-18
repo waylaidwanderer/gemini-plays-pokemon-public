@@ -1,8 +1,8 @@
 Location: Warehouse (16, 1) - At Switch 1.
 Objective: Revert to State 0-0-1 to explore (6, 8).
-Current State: 1-0-1 (S1 ON, S2 OFF, S3 ON) -> Changing to 0-0-1.
-- Turning Switch 1 OFF.
-- Expected Result: Gate 1 and Gate 2 OPEN. Path (6, 8) OPEN (S3 ON).
+Current State: 0-0-1 (S1 OFF, S2 OFF, S3 ON).
+- S1 Just turned OFF.
+- Checking Gate 2 (10, 6) and Path (6, 8).
 
 Plan:
 1. Turn Switch 1 OFF.
