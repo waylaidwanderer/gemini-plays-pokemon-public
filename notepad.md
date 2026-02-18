@@ -1,11 +1,12 @@
 Location: Warehouse (16, 1) - At Switch 1.
 Objective: Revert to State 0-0-1 to explore (6, 8).
 Current State: 1-1-1 (S1 ON, S2 ON, S3 ON).
-- Blocked at (7, 2) wall, detouring via Row 5.
-- Target: Switch 3 at (2, 1).
-- Route: Row 5 West -> Column 1 North -> (1, 2) -> (2, 2).
-- Reason: Avoid potential trap warps in Columns 2-4.
-- Goal: Toggle S3 OFF -> State 1-1-0.
+- Blocked at (3, 2) by Grunt.
+- Path to Switch 3 requires going via Row 4.
+- Suspected traps on Row 4.
+Action: Navigate to Switch 3 (2, 1).
+- Path: (4, 2) -> (4, 4) -> (2, 4) -> (2, 1).
+- Goal: State 1-1-0 (S3 OFF).
 
 Plan:
 1. Turn Switch 1 OFF.
