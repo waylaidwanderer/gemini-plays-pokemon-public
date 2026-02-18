@@ -1,14 +1,14 @@
-Location: Warehouse (10, 2) - At Switch 2.
+Location: Warehouse (2, 4) - Moving to Switch 2.
 Objective: Enable State 1-1-1 (All ON).
 Current State: 1-0-1 (S1 ON, S2 OFF, S3 ON).
-- S3 is ON.
-- Moving to S2 to turn it ON.
-- Hypothesis: 1-1-1 opens Wall (11, 10).
+- Movement was aborted due to tile change at (6, 8).
+- Resuming path to Switch 2 via Row 5.
 
 Plan:
-1. Turn Switch 2 ON (State -> 1-1-1).
-2. Use code to check Gate 3, Wall (11, 10), and Gate 1.
-3. If successful, proceed to Wall (11, 10).
+1. Move to Switch 2 (10, 1).
+   - Path: (2, 4) -> (2, 5) -> (10, 5) -> (10, 1).
+2. Turn Switch 2 ON (State -> 1-1-1).
+3. Use code to check if Wall (11, 10) is OPEN.
 
 Switch Locations:
 - S3: (2, 1)
