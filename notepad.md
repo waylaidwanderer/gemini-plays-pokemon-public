@@ -4,7 +4,7 @@ Previous: S1=0, S2=1, S3=0. Turned S3 ON to test 0-1-1.
 Switch Log (1=ON, 0=OFF):
 | S1 | S2 | S3 | G1 (2,6) | G2 (10,6) | G3 (16,6) | Sec.Door | Notes |
 |----|----|----|----------|-----------|-----------|----------|-------|
-| 1  | 1  | 0  | OPEN     | Closed    | Closed    | Closed   | Verified G1 Open, G2/Sec Door Closed. |
+| 1  | 1  | 0  | Closed   | Closed    | OPEN      | Closed   | Verified G3 Open. G1/G2/SecDoor Closed. |
 | 1  | 0  | 0  | Closed   | Closed    | OPEN      | Closed   | Verified G3 Open. G1/G2 Closed. |
 | 1  | 0  | 1  | OPEN     | Closed    | Closed    | Closed   | Verified G1 Open. Others Closed. |
 | 0  | 0  | 0  | Closed   | Closed    | Closed    | Closed   | All Closed (Reset). |
