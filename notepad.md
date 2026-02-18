@@ -23,3 +23,8 @@ Goal: Check Gates for 0-1-1.
 Current Switches: S1=OFF, S2=ON, S3=ON (0-1-1).
 Log: Toggled S3 ON. Now checking Gate 2 (10,6) and Secret Door (11,6).
 Hypothesis: 0-1-1 might open Gate 2.
+Reflection (Turn 49074):
+- Progress: systematically testing switch combos. 0-1-1 is current test.
+- Hygiene: Notepad table is proving vital. Markers helping track traps.
+- Strategy: Continue brute force. If 0-1-1 fails, try 0-0-1.
+- Note: Need to verify if Switch 1 OFF disables the trap room traps.
