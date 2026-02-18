@@ -1,14 +1,16 @@
 Location: Warehouse (10, 2) - At Switch 2.
 Objective: Enable State 1-1-1 (All ON).
-Current State: 1-0-1 (S1 ON, S2 OFF, S3 ON).
-- Observed: S3 ON opened tiles at (6, 8) and (6, 9).
-- Plan: Turn S2 ON -> 1-1-1.
-- Logic: S1 opens Gate 3. S3 opens Gate 1 (and apparently col 6 path). S2 opens ??
+Current State: 1-0-1 (S1 ON, S2 OFF, S3 ON) -> Changing to 1-1-1.
+- S3 ON opened path at (6, 8)/(6, 9).
+- Turning S2 ON now.
 
 Plan:
-1. Turn Switch 2 ON (State -> 1-1-1).
-2. Use code to check Gate 3, Wall (11, 10), and the new tiles at (6, 8)/(6, 9).
-3. If Wall (11, 10) opens, proceed to it.
+1. Turn Switch 2 ON.
+2. Verify State 1-1-1 using code.
+   - Targets: Gate 3 (16, 6), Wall (11, 10), Gate 1 (2, 6), Gate 2 (10, 6).
+   - Also check (6, 8) area.
+3. If Wall (11, 10) is open, go there.
+4. If Wall (11, 10) is closed, check if the new path at (6, 8) leads somewhere useful.
 
 Switch Locations:
 - S3: (2, 1)
