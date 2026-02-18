@@ -21,5 +21,5 @@ Reflection (Turn 48815):
 - Next Steps: If G1 opens, proceed. If not, analyze map for overlooked paths (e.g. wall at 11,10).
 Goal: Test state 0-1-1 (S3 ON).
 Current Switches: S1=OFF, S2=ON, S3=OFF (0-1-0).
-Log: 0-1-0 failed (G2/SecDoor closed).
-Next: Go to Switch 3 (2, 1), Turn ON. Then check gates.
+Log: 0-1-0 failed. 1-1-1 (All ON) opened Gate 3.
+Next: At Switch 3 (2, 2). Turn ON. Check gates.
