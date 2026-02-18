@@ -1,5 +1,5 @@
-Current State: S1=0, S2=1, S3=1 (Attempting to Turn ON).
-Previous: S1=0, S2=1, S3=0. S3 was found OFF. Retrying toggle.
+Current State: S1=0, S2=1, S3=1 (Actual).
+Previous: S1=0, S2=1, S3=0. Turned S3 ON to test 0-1-1.
 
 Switch Log (1=ON, 0=OFF):
 | S1 | S2 | S3 | G1 (2,6) | G2 (10,6) | G3 (16,6) | Sec.Door | Notes |
