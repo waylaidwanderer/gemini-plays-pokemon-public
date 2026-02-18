@@ -1,13 +1,14 @@
 Location: Warehouse (16, 1) - At Switch 1.
 Objective: Revert to State 0-0-1 to explore (6, 8).
 Current State: 1-1-0 (S1 ON, S2 ON, S3 OFF).
-- Gate 1 (2, 6) is CLOSED (Verified by System Message).
-- This contradicts my expectation that S1 ON keeps it open? Or maybe S3 OFF is the closer.
-Action: Navigate to Switch 2 (10, 1).
-- Goal: Turn S2 OFF -> State 1-0-0.
-- Hypothesis: Testing if 1-0-0 opens Gate 2.
-- Path: (2, 3) -> (2, 5) -> (10, 5) -> (10, 1).
-- Warning: Crossing Row 4 (Trap Zone).
+- Gate 1 (2, 6) is CLOSED.
+- Gate 2 (10, 6) is CLOSED.
+- Gate 3 (16, 6) is CLOSED.
+- Trap check: (10, 4) might be active in 1-1-0.
+Action: Heading to Switch 2 (10, 1).
+- Goal: Turn S2 OFF -> State 1-0-0 (S1 ON, S2 OFF, S3 OFF).
+- Hypothesis: 1-0-0 might open Gate 2?
+- Alternative path: Walk along Row 1 if possible.
 
 Plan:
 1. Turn Switch 1 OFF.
