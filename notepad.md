@@ -20,8 +20,8 @@ Reflection (Turn 48815):
 - Hygiene: Notepad log is accurate. Markers are up to date.
 - Next Steps: If G1 opens, proceed. If not, analyze map for overlooked paths (e.g. wall at 11,10).
 Arrived in Map 3_54 (Warehouse).
-Current location: (2, 2).
+Current location: (10, 2).
 Goal: Toggle S2 ON, S1 OFF (Target 0-1-0).
 Current Switches: S1=ON, S2=OFF, S3=OFF (1-0-0).
-Status: S3 is OFF. Moving to S2.
-Next: Toggle Switch 2 (10, 1) to ON.
+Status: At Switch 2. Turning ON.
+Next: Go to Switch 1 (16, 1) to turn OFF.
