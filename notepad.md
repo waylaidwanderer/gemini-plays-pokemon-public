@@ -11,7 +11,7 @@ Switch Log (1=ON, 0=OFF):
 | 0  | 1  | 1  | Closed   | Closed    | OPEN      | Closed   | Verified G1 Closed. |
 | 0  | 1  | 0  | Closed   | OPEN      | OPEN      | OPEN     | Verified G1 Closed. |
 | 0  | 0  | 1  | Closed   | ?         | OPEN      | ?        | Verified G1 Closed. |
-| 1  | 1  | 1  | Closed   | OPEN      | Closed    | OPEN     | G2, Sec. Door Open. (11,10) Closed. |
+| 1  | 1  | 1  | OPEN     | Closed    | Closed    | OPEN     | G1 Open. Sec Door Open. Wall(11,10) Closed. |
 
 Reflection (Turn 48815):
 - Strategy: Systematically testing all 8 switch permutations.
