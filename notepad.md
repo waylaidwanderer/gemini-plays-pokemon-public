@@ -20,8 +20,7 @@ Reflection (Turn 48815):
 - Hygiene: Notepad log is accurate. Markers are up to date.
 - Next Steps: If G1 opens, proceed. If not, analyze map for overlooked paths (e.g. wall at 11,10).
 Arrived in Map 3_54 (Warehouse).
-Current location: (10, 2).
-Goal: Toggle Switch 2 (10, 1) to OFF.
-Current Switches: S1=ON, S2=ON, S3=ON.
-Target: 1-0-1 (S1=ON, S2=OFF, S3=ON).
-Next: Check Gate 1.
+Current location: (2, 5).
+Goal: Explore past Gate 1.
+Current Switches: S1=ON, S2=OFF, S3=ON (1-0-1).
+Status: Checking if Gate 1 is open (expecting YES).
