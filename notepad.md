@@ -20,8 +20,9 @@ Reflection (Turn 48815):
 - Hygiene: Notepad log is accurate. Markers are up to date.
 - Next Steps: If G1 opens, proceed. If not, analyze map for overlooked paths (e.g. wall at 11,10).
 Arrived in Map 3_54 (Warehouse).
-Current location: (2, 9).
-Goal: Explore the area behind Gate 1.
+Current location: (3, 8).
+Goal: Check the gate at (2, 10).
 Current Switches: S1=ON, S2=OFF, S3=ON (1-0-1).
-Status: Path East from (3, 8) is blocked by invisible wall/text ("What do you want to go there for?").
-Next: Checking Gate at (2, 10). If closed, return to switches to set 0-1-0 (Secret Door).
+Status: Investigating Gate 1 area.
+Note: "What do you want to go there for?" blocks path East at (3, 8).
+Next: Inspect (2, 10). If closed/locked, return to switches.
