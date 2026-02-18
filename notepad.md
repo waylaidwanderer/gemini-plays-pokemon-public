@@ -6,7 +6,7 @@ Switch Log (1=ON, 0=OFF):
 |----|----|----|----------|-----------|-----------|----------|-------|
 | 1  | 1  | 0  | OPEN     | Closed    | Closed    | Closed   | Verified G1 Open, G2/Sec Door Closed. |
 | 1  | 0  | 0  | Closed   | Closed    | OPEN      | Closed   | Verified G1 Closed. |
-| 1  | 0  | 1  | Closed   | ?         | ?         | ?        | Verified G1 Closed. |
+| 1  | 0  | 1  | OPEN     | Closed    | Closed    | Closed   | Verified G1 Open. Others Closed. |
 | 0  | 0  | 0  | Closed   | Closed    | Closed    | Closed   | All Closed (Reset). |
 | 0  | 1  | 1  | Closed   | Closed    | OPEN      | Closed   | Verified G1 Closed. |
 | 0  | 1  | 0  | Closed   | OPEN      | OPEN      | OPEN     | Verified G1 Closed. |
