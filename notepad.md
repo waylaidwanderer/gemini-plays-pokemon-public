@@ -1,12 +1,11 @@
 Location: Warehouse (16, 1) - At Switch 1.
 Objective: Revert to State 0-0-1 to explore (6, 8).
-Current State: 0-0-1 (S1 OFF, S2 OFF, S3 ON).
-- Confirmed "Nothing down there" at (4, 8).
-- Gate 1 (2, 6) OPEN. Gate 2 (10, 6) CLOSED.
-Action: Toggling Switch 3 (2, 1) OFF.
-- Path: (3, 8) -> (3, 3) -> (2, 3) -> (2, 2).
-- Avoids potential trap at (2, 4) and blocked tile (3, 2).
-- If (2, 2) is a trap, will update map.
+Current State: 0-0-0 (S1 OFF, S2 OFF, S3 OFF).
+- Just turned S3 OFF.
+- Checking Gate 2 (10, 6) and Gate 1 (2, 6).
+- S3 ON seemed to keep Gate 2 Closed (or S1 ON did?).
+- In 0-0-1, Gate 1 was Open.
+- Checking if Gate 1 closes or Gate 2 opens in 0-0-0.
 
 Plan:
 1. Turn Switch 1 OFF.
