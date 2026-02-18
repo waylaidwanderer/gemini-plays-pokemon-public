@@ -20,6 +20,6 @@ Reflection (Turn 48815):
 - Hygiene: Notepad log is accurate. Markers are up to date.
 - Next Steps: If G1 opens, proceed. If not, analyze map for overlooked paths (e.g. wall at 11,10).
 Arrived in Map 3_53 (Underground).
-Current location: (21, 27).
+Current location: (20, 28).
 Goal: Talk to the Real Director at (18, 29).
-Status: Director unresponsive. Checking Rocket Grunt at (19, 24).
+Status: Director possibly unresponsive. Rocket Grunt at (19, 24) is blocking the path.
