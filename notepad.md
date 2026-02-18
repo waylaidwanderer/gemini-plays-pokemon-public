@@ -1,9 +1,9 @@
 Location: Warehouse (16, 1) - At Switch 1.
 Objective: Revert to State 0-0-1 to explore (6, 8).
 Current State: 0-1-0 (S1 OFF, S2 ON, S3 OFF).
-- Just turned S2 ON.
+- Ensuring S2 is ON (Screen showed start text).
 - Checking Secret Door at (11, 6) and Gate 2 (10, 6).
-- Gate 1 (2, 6) was Open in 0-0-0, likely still Open.
+- Gate 1 (2, 6) likely OPEN.
 - Watch out for traps on Row 4.
 
 Plan:
