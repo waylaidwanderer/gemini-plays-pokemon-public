@@ -38,3 +38,5 @@ Hypothesis: In 1-0-0 (S2 OFF), Gate 3 is OPEN and Trap at (16,8) is SAFE. This l
 Action: Moving to Gate 3 (16,6) via Row 5 to avoid traps.
 Hypothesis: Gate 3 is OPEN in state 1-0-0.
 Safety: Row 5 is safe. Trap at (16,8) expected safe (S2 OFF).
+Observation: Transition to 1-0-0 opened (12,8) and (12,9) (Wall -> Floor).
+Action: checking Gate 3 (16,6).
