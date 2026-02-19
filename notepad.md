@@ -14,8 +14,8 @@ Reflection (Turn 49179):
 | 0  | 1  | 0  | OPEN     | Closed    | OPEN      | Closed   | Tool verified: G1/G3 Open (TYPE_3fe2). G2 Closed. |
 | 0  | 0  | 1  | Closed   | ?         | OPEN      | ?        | Verified G1 Closed. |
 | 1  | 1  | 1  | Closed   | Closed    | OPEN      | Closed   | G3 Open. Wall(11,10) Closed. |
-Action: Moving through the gap between Grunts at (20,24) and (21,24).
-Path: Left to (21,27) -> Up to (21,22).
-Goal: Reach the northern area of Map 3_53.
-Hypothesis: The Key or Real Director is likely located in the back of this room (North side).
-Observation: Grunts are at (19,24) and (22,24), leaving the center path open.
+Action: Moving North through the Grunt gap.
+Path: Up to (21,23) -> Left to (20,23) -> Up to (20,21).
+Goal: Trigger Grunt battle or reach the northern area.
+Hypothesis: Grunts are "Spinners" or "Line of Sight" triggers. Walking between them should trigger a battle.
+Note: If no battle, I will explore the northern area for the Card Key.
