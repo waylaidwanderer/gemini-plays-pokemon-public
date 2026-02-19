@@ -1,8 +1,7 @@
-Current Strategy: Interrogate Rocket Grunts in Director's Room.
-Action: Attempting interaction with Grunt at (22,24) then Grunt at (19,24).
-Hypothesis: One of them must trigger a battle or give the Key.
-Contingency: If both silent, try Director from (19,29).
-Note: Director at (18,29) was unresponsive from below/left. Right side is last hope.
+Current Strategy: Interact with Director at (18,29) from the Right side (19,29).
+Observation: Rocket Grunts at (22,24) and (19,24) were unresponsive (no text).
+Hypothesis: Maybe the Director needs to be spoken to from a specific side, or I need to trigger something else.
+Path: Down to (19,29), Face Left, Interact.
 | S1 | S2 | S3 | G1 (2,6) | G2 (10,6) | G3 (16,6) | Sec.Door | Notes |
 |----|----|----|----------|-----------|-----------|----------|-------|
 | 1  | 1  | 0  | Closed   | Closed    | OPEN      | Closed   | Verified G3 Open. G1/G2/SecDoor Closed. |
