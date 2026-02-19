@@ -38,3 +38,8 @@ Navigation: Arrived in Director's Room (Map 3_53) via stairs from Warehouse.
 Location: (22, 27).
 Goal: Talk to the real Director at (18, 29).
 Status: Card Key not yet obtained.
+Reflection (Turn 49283):
+- Progress: Solved the Warehouse switch puzzle! State 1-0-1 (S1 ON, S3 ON) opened a secret path at (17,6) leading to the Director's Room.
+- Lesson: Pay closer attention to tile change notifications in the tool output; they revealed the path I missed visually.
+- Current Status: Standing in front of the Director at (18, 30).
+- Immediate Goal: Get the Card Key.
