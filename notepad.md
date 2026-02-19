@@ -34,9 +34,9 @@ Target State: 1-1-0.
 Hypothesis: S1 ON opens Wall (11,10). Hope G2 remains open or G3 opens.
 Path: (10,5) -> (16,5) -> (16,2).
 Checking if Grunt at (11,2) is a threat.
-Navigation: Performing "Desk Sweep" on Director's desk from (21, 29) to (18, 30).
-Status: Testing all interaction points (Side, Middle, Front).
-Goal: Trigger Card Key dialogue.
+Navigation: Moving to (22, 25) to talk to the Grunt at (22, 24).
+Status: Director interaction yielded no results. Assuming I must defeat the guards first.
+Goal: Get Card Key.
 Reflection (Turn 49283):
 - Progress: Solved the Warehouse switch puzzle! State 1-0-1 (S1 ON, S3 ON) opened a secret path at (17,6) leading to the Director's Room.
 - Lesson: Pay closer attention to tile change notifications in the tool output; they revealed the path I missed visually.
