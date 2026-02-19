@@ -34,9 +34,9 @@ Target State: 1-1-0.
 Hypothesis: S1 ON opens Wall (11,10). Hope G2 remains open or G3 opens.
 Path: (10,5) -> (16,5) -> (16,2).
 Checking if Grunt at (11,2) is a threat.
-Navigation: Moving to (22, 25) to interact with the Grunt at (22, 24).
-Status: Back in Director's Room. Careful not to step on (22, 27) again.
-Goal: Get Card Key.
+Navigation: Returning to Warehouse (3_54) to solve the Secret Room (11, 10) puzzle.
+Status: Director and Grunts in 3_53 are unresponsive. Suspect Real Director is behind the locked wall in the Warehouse Secret Room.
+Goal: Open Wall (11, 10).
 Reflection (Turn 49283):
 - Progress: Solved the Warehouse switch puzzle! State 1-0-1 (S1 ON, S3 ON) opened a secret path at (17,6) leading to the Director's Room.
 - Lesson: Pay closer attention to tile change notifications in the tool output; they revealed the path I missed visually.
