@@ -14,9 +14,9 @@ Reflection (Turn 49179):
 | 0  | 1  | 0  | OPEN     | Closed    | OPEN      | Closed   | Tool verified: G1/G3 Open (TYPE_3fe2). G2 Closed. |
 | 0  | 0  | 1  | Closed   | ?         | OPEN      | ?        | Verified G1 Closed. |
 | 1  | 1  | 1  | Closed   | Closed    | OPEN      | Closed   | G3 Open. Wall(11,10) Closed. |
-Action: Moving to position (2,2) to operate Switch 3 (2,1).
+Action: Moving to (2,2) to operate Switch 3.
 Path: Left to (3,5) -> Up to (3,3) -> Left to (2,3) -> Up to (2,2).
 Goal: Toggle Switch 3 ON.
 Target State: 0-1-1.
-Note: Taking care around the Grunt at (3,2).
-Observation: Gate 1 (2,6) looked open in 0-1-0. Need to check if 0-1-1 opens Gate 2.
+Reasoning: Safe path avoiding traps.
+Observation: Gate 1 tile changed recently. Will check all gates after toggling.
