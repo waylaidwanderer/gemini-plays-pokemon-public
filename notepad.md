@@ -25,3 +25,7 @@ Correction: Map Marker (16,1) says 'Switch 1 (OFF)'. Notepad said 'S1=1'. This w
 Conclusion: Current State is 0-1-0 (S1=0, S2=1, S3=0).
 Plan: Go to Switch 1 (16,1) and turn it ON to achieve State 1-1-0.
 Hypothesis: 1-1-0 might open Gate 1 or the Wall at (11,10).
+Observation: Turning Switch 1 ON changed (12,9) from Wall to Floor.
+Action: Approaching Gate 1 (2,6).
+Hypothesis: If 1-1-0 opens Gate 1, I can proceed to finding the Card Key.
+Note: If Gate 1 is closed, I'll need to re-evaluate the switch combinations. The table has inconsistencies regarding G1.
