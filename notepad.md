@@ -15,6 +15,6 @@ Plan:
 1. Move to S2 (10,2). Toggle OFF (State 0-0-0).
 2. Move to S3 (2,1). Toggle ON (State 0-0-1).
 3. Check Wall (11,10).
-- Movement: Avoiding potential trap at (10,4) by maneuvering via (11,3).
-- Battle Prep: Entering (10,2) will likely trigger the Grunt at (11,2).
-- Goal: Reach (10,2) to Toggle Switch 2 OFF.
+- Movement: Moving to Switch 3 (2,1) via Column 1 to avoid Trap (2,4).
+- Path: (10,2) -> (11,3) -> (11,5) -> (1,5) -> (1,2) -> (2,2).
+- Goal: Toggle S3 ON -> State 0-0-1. Verify "End Switch" logic.
