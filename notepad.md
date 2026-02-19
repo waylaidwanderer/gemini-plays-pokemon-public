@@ -1,10 +1,10 @@
-Current Strategy: Return to Director's Room (Map 3_53) to defeat Rocket Grunts and rescue the Director.
-Path: (16,8) -> (16,5) -> (23,5) -> Stairs (23,3).
-Switch State: 1-0-0 (S1=ON, S2=OFF, S3=OFF) - Gate 3 Open.
+Current Strategy: Interrogate Rocket Grunts in Director's Room (Map 3_53).
+Target: Grunt at (22,24) first, then (19,24).
+Hypothesis: Defeating them might trigger the Director or drop the Key.
+Switch State: 1-0-0 confirmed Gate 3 Open.
 Notes:
-- Gate 3 confirmed Open.
-- Trap at (16,8) confirmed Safe in 1-0-0.
-- Previous attempt to talk to Director failed. Will prioritize Grunts.
+- Director was unresponsive earlier.
+- Gate 3 path is now verified.
 | S1 | S2 | S3 | G1 (2,6) | G2 (10,6) | G3 (16,6) | Sec.Door | Notes |
 |----|----|----|----------|-----------|-----------|----------|-------|
 | 1  | 1  | 0  | Closed   | Closed    | OPEN      | Closed   | Verified G3 Open. G1/G2/SecDoor Closed. |
