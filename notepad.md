@@ -8,7 +8,7 @@ Reflection (Turn 49179):
 |----|----|----|----------|-----------|-----------|----------|-------|
 | 1  | 1  | 0  | Closed   | Closed    | OPEN      | Closed   | Verified G3 Open. G1/G2/SecDoor Closed. |
 | 1  | 0  | 0  | Closed   | Closed    | OPEN      | Closed   | Verified G3 Open. G1/G2 Closed. |
-| 1  | 0  | 1  | Closed   | Closed    | OPEN      | Closed   | Correction: G3 Open, G1 Closed. |
+| 1  | 0  | 1  | OPEN     | OPEN      | Closed    | OPEN     | Tool Verified. G1/G2/SecDoor Open. G3 Closed. |
 | 0  | 0  | 0  | Closed   | Closed    | Closed    | Closed   | All Closed (Reset). |
 | 0  | 1  | 1  | Closed   | Closed    | Closed    | Closed   | Tool Verified: All Closed. |
 | 1  | 1  | 0  | Closed   | OPEN      | Closed    | OPEN     | Verified 1-1-0. G2/SecDoor Open. Wall (11,10) Closed. |
