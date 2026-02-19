@@ -34,3 +34,6 @@ Target State: 1-1-0.
 Hypothesis: S1 ON opens Wall (11,10). Hope G2 remains open or G3 opens.
 Path: (10,5) -> (16,5) -> (16,2).
 Checking if Grunt at (11,2) is a threat.
+Correction: State 1-0-1 opened tiles (17,6) and (17,7), creating a bypass for Gate 3!
+Action: Investigating new path at (17,6).
+Goal: Enter the area behind Gate 3.
