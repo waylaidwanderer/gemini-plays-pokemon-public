@@ -19,8 +19,8 @@ Current State: 0-1-1 (S1=OFF, S2=ON, S3=ON).
 Next Step: Verify Gate States using tool.
 Hypothesis: 0-1-1 opens Gate 2 or Secret Door.
 Observation: State 0-1-1 failed to open Gate 2.
-Action: Moving to Switch 1 (16,1) to toggle ON.
-Target State: 1-0-1 (S1=ON, S2=OFF, S3=ON).
-Hypothesis: S1 might open the wall at (6,9) behind Gate 1.
-Path: Row 3 is safe.
-Observation: Silver blocks the path in 0-0-1. Need to clear the walls.
+Action: Moving to Switch 1 (16,1) from (5,2).
+Correction: Previous path was blocked by walls on Row 3. Re-routing via Row 5.
+Path: Down to (5,5) -> Right to (16,5) -> Up to (16,2).
+Target State: 1-0-1.
+Hypothesis: S1 + S3 (with S2 OFF) might open the wall at (6,9) or Gate 1.
