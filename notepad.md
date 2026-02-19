@@ -20,8 +20,8 @@ Reflection (Turn 49127):
 - Hygiene: Cleaning up old notes. Markers are helpful.
 - Plan: Verify 1-1-0 fully (G1, G2, G3). Then considering 0-1-1 retry or S1 OFF strategies.
 
-Observation: Visual check suggests Gate 1 is Closed.
-Discrepancy: Notepad says S1=1, but Map Marker at (16,1) says 'Switch 1 (OFF)'.
-Hypothesis: I am actually in state 0-1-0 (S1=0, S2=1, S3=0), which explains why G1 is closed.
-Plan: Move to Switch 1 (16,1) to verify and turn it ON. Target State: 1-1-0.
-Action: Testing Gate 1 by pressing Down. If closed, will proceed to S1.
+Observation: Gate 1 is Closed.
+Correction: Map Marker (16,1) says 'Switch 1 (OFF)'. Notepad said 'S1=1'. This was a mismatch.
+Conclusion: Current State is 0-1-0 (S1=0, S2=1, S3=0).
+Plan: Go to Switch 1 (16,1) and turn it ON to achieve State 1-1-0.
+Hypothesis: 1-1-0 might open Gate 1 or the Wall at (11,10).
