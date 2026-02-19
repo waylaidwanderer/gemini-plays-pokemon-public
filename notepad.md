@@ -33,6 +33,5 @@ Plan: Moving to Switch 3 (2,1) to toggle it OFF.
 Next State Test: 1-0-0 (Switch 3 OFF).
 Goal: Find a state that opens Gate 3 AND allows access to inner wall or warp (22,10).
 Observation: Transitioning from 1-1-1 to 1-0-1 (S2 OFF) caused (6,9) to Open (become Floor) and (12,9) to Close (become Wall). S2 likely controls these walls.
-Plan: Toggle S3 OFF. Target State: 1-0-0.
-Then observe if (6,9)/(12,9) change again.
-Then proceed to S1 (16,1) to turn OFF (Target 0-0-0).
+Plan: Path to Gate 3 (16,6) via (3,4) to avoid trap at (2,4).
+Hypothesis: In 1-0-0 (S2 OFF), Gate 3 is OPEN and Trap at (16,8) is SAFE. This leads to Warp at (22,10).
