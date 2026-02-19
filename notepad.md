@@ -10,3 +10,5 @@ Reflection (Turn 49388):
 | 1  | 1  | 0  | Closed   | OPEN      | OPEN      | OPEN     | Map Verified: G2, G3, SecDoor ALL OPEN. Wall (11,10) Closed. |
 | 1  | 0  | 1  | OPEN     | Closed    | Closed    | Closed   | Screen Verified: G1 OPEN. G2/G3/SecDoor Closed. |
 | 0  | 1  | 0  | ?        | ?         | ?         | ?        | Target State. |
+- Correction: (12,3) and (13,3) are WALLS (TYPE_2889). Must bypass via Row 4.
+- Path: (11,3) -> Down -> Right x3 -> Up -> Right x2 -> Up to (16,2).
