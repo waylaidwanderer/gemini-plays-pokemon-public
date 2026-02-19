@@ -1,9 +1,8 @@
-Current Strategy: Test the gap at (20,24) and interact with the Left Grunt at (19,24).
-Path: Left to (20,25). Try Up to (20,24).
-If blocked: Left to (19,25), Face Up, Interact with Grunt.
-Hypothesis: One of the Grunts must trigger a battle.
-Goal: Clear path or find Key.
-Note: Director was unresponsive. Grunts are the main suspect.
+Current Strategy: Verify gap between Grunts, then return to Warehouse to find the Card Key (likely behind Gate 1).
+Path: Test (20,24) and (21,24). If blocked, Exit to Warehouse.
+Hypothesis: Grunts block progress until I have the Card Key. Card Key is behind Gate 1 (controlled by switches).
+Switch Plan: Try State 0-1-1 (S2=ON, S3=ON) to open Gate 1.
+Note: Previous summary mentioned S2+S3 opens G1. My table might be incomplete for G1 in that state.
 | S1 | S2 | S3 | G1 (2,6) | G2 (10,6) | G3 (16,6) | Sec.Door | Notes |
 |----|----|----|----------|-----------|-----------|----------|-------|
 | 1  | 1  | 0  | Closed   | Closed    | OPEN      | Closed   | Verified G3 Open. G1/G2/SecDoor Closed. |
