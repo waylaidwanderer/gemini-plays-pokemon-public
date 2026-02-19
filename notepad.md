@@ -29,6 +29,6 @@ Reflection (Turn 49074):
 - Hygiene: Notepad table is proving vital. Markers helping track traps.
 - Strategy: Continue brute force. If 0-1-1 fails, try 0-0-1.
 - Note: Need to verify if Switch 1 OFF disables the trap room traps.
-Plan: Navigating to Switch 3 (2,1) via safe path (Row 5) to avoid traps at (10,4) and (2,4).
+Plan: Navigating to Switch 3 (2,1) via Row 3 to avoid traps on Row 4.
 Next State Test: 1-0-0 (Switch 3 OFF).
 Goal: Find a state that opens Gate 3 AND allows access to inner wall or warp (22,10).
