@@ -14,7 +14,9 @@ Reflection (Turn 49179):
 | 0  | 1  | 0  | OPEN     | Closed    | OPEN      | Closed   | Tool verified: G1/G3 Open (TYPE_3fe2). G2 Closed. |
 | 0  | 0  | 1  | Closed   | ?         | OPEN      | ?        | Verified G1 Closed. |
 | 1  | 1  | 1  | Closed   | Closed    | OPEN      | Closed   | G3 Open. Wall(11,10) Closed. |
-Action: Interacting with Silver at (4,8).
-Hypothesis: He might battle me or give information.
-Contingency: If he says "Nothing down here" and stays put, I will assume this path is blocked for now and return to Map 3_53 to explore past the Grunts.
-Note: Current State is 0-1-0. Gate 1 is Open. Gate 3 is Open.
+Observation: Silver blocks the path behind Gate 1 ("Nothing down here").
+Conclusion: The Card Key/Director is NOT here.
+Strategy: Return to Map 3_53 (Director's Room) via Gate 3 (which is also Open).
+Plan: Navigate through the gap between the Grunts at (20,24)/(21,24) which I confirmed is walkable.
+Goal: Find the real Director or Key in the back of Map 3_53.
+Path: Leave Gate 1 -> Row 5 -> Enter Gate 3 -> Stairs.
