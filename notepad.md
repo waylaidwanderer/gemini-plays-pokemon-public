@@ -14,8 +14,8 @@ Reflection (Turn 49179):
 | 0  | 1  | 0  | OPEN     | Closed    | OPEN      | Closed   | Tool verified: G1/G3 Open (TYPE_3fe2). G2 Closed. |
 | 0  | 0  | 1  | Closed   | ?         | OPEN      | ?        | Verified G1 Closed. |
 | 1  | 1  | 1  | Closed   | Closed    | OPEN      | Closed   | G3 Open. Wall(11,10) Closed. |
-Action: Navigating to Stairs (23,3) to return to Director's Room.
-Path: Up to (17,5) -> Right to (23,5) -> Up to (23,3).
-Goal: Walk through the gap between Rocket Grunts at (20,24) and (21,24) in Map 3_53.
-Hypothesis: The real Director or Key is in the back of the room, past the Grunts.
-Ref: Silver blocked the Gate 1 path, so that's a dead end for now.
+Action: Moving through the gap between Grunts at (20,24) and (21,24).
+Path: Left to (21,27) -> Up to (21,22).
+Goal: Reach the northern area of Map 3_53.
+Hypothesis: The Key or Real Director is likely located in the back of this room (North side).
+Observation: Grunts are at (19,24) and (22,24), leaving the center path open.
