@@ -11,7 +11,7 @@ Reflection (Turn 49179):
 | 1  | 0  | 1  | Closed   | Closed    | OPEN      | Closed   | Correction: G3 Open, G1 Closed. |
 | 0  | 0  | 0  | Closed   | Closed    | Closed    | Closed   | All Closed (Reset). |
 | 0  | 1  | 1  | Closed   | Closed    | Closed    | Closed   | Tool Verified: All Closed. |
-| 0  | 1  | 0  | Closed   | OPEN      | Closed    | OPEN     | Verified. G2/Secret Door Open. |
+| 1  | 1  | 0  | Closed   | OPEN      | Closed    | OPEN     | Verified 1-1-0. G2/SecDoor Open. Wall (11,10) Closed. |
 | 0  | 0  | 1  | Closed   | ?         | OPEN      | ?        | Verified G1 Closed. |
 | 1  | 1  | 1  | Closed   | Closed    | Closed    | Closed   | Tool Verified: All Closed. |
 Action: Moving to Gate 1 (2,6) from (7,5).
