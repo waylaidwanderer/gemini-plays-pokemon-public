@@ -13,14 +13,9 @@ Reflection (Turn 49179):
 | 0  | 1  | 1  | OPEN     | Closed    | Closed    | Closed   | Tool verified. G1 Open. Others Closed. |
 | 0  | 1  | 0  | OPEN     | Closed    | OPEN      | Closed   | Tool verified: G1/G3 Open (TYPE_3fe2). G2 Closed. |
 | 0  | 0  | 1  | Closed   | ?         | OPEN      | ?        | Verified G1 Closed. |
-| 1  | 1  | 1  | Closed   | Closed    | OPEN      | Closed   | G3 Open. Wall(11,10) Closed. |
-Action: Toggling Switch 3 ON.
-Current State: 0-1-1 (S1=OFF, S2=ON, S3=ON).
-Next Step: Verify Gate States using tool.
-Hypothesis: 0-1-1 opens Gate 2 or Secret Door.
-Observation: State 0-1-1 failed to open Gate 2.
-Action: Moving to Switch 1 (16,1) from (5,2).
-Correction: Previous path was blocked by walls on Row 3. Re-routing via Row 5.
-Path: Down to (5,5) -> Right to (16,5) -> Up to (16,2).
-Target State: 1-0-1.
-Hypothesis: S1 + S3 (with S2 OFF) might open the wall at (6,9) or Gate 1.
+| 1  | 1  | 1  | OPEN     | Closed    | Closed    | Closed   | Tool verified. G1 Open. Others Closed. |
+Action: Moving to Switch 2 (10,1) via Column 8.
+Path: Left to (8,5) -> Up to (8,2) -> Right to (10,2).
+Target State: 1-0-1 (S1=ON, S2=OFF, S3=ON).
+Hypothesis: Testing if S1+S3 opens Gate 2.
+Note: 1-1-1 opened Gate 1 but closed Gate 3.
