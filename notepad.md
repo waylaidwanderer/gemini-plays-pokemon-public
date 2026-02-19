@@ -1,8 +1,10 @@
-Action: Moving to (16,8) to check for a path East.
-Path: Down to (16,8).
-Hypothesis: With S1 ON, the wall at Col 18 might be open, or there is a path I haven't seen.
-Risk: Trap at (16,8). Notes say "Safe with S2 OFF". Current: S2 OFF.
-Observation: Gate 3 is definitely OPEN (standing on it).
+Current Strategy: Return to Director's Room (Map 3_53) to defeat Rocket Grunts and rescue the Director.
+Path: (16,8) -> (16,5) -> (23,5) -> Stairs (23,3).
+Switch State: 1-0-0 (S1=ON, S2=OFF, S3=OFF) - Gate 3 Open.
+Notes:
+- Gate 3 confirmed Open.
+- Trap at (16,8) confirmed Safe in 1-0-0.
+- Previous attempt to talk to Director failed. Will prioritize Grunts.
 | S1 | S2 | S3 | G1 (2,6) | G2 (10,6) | G3 (16,6) | Sec.Door | Notes |
 |----|----|----|----------|-----------|-----------|----------|-------|
 | 1  | 1  | 0  | Closed   | Closed    | OPEN      | Closed   | Verified G3 Open. G1/G2/SecDoor Closed. |
