@@ -18,3 +18,7 @@ Action: Toggling Switch 3 ON.
 Current State: 0-1-1 (S1=OFF, S2=ON, S3=ON).
 Next Step: Verify Gate States using tool.
 Hypothesis: 0-1-1 opens Gate 2 or Secret Door.
+Observation: State 0-1-1 failed to open Gate 2.
+Action: Moving to Switch 2 (10,1) to turn it OFF.
+Target State: 0-0-1 (S3 only).
+Path: via Column 8 to avoid traps.
