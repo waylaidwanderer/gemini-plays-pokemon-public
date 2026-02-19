@@ -45,7 +45,7 @@ Action: Entering Gate 3 area. Checking for traps and path to inner wall.
 Plan: Move to (18,30) to talk to the Director from below.
 Path: Down to Row 30, Left to Col 18, Face Up, Interact.
 Context: Re-attempting interaction. If fails, will check Grunts.
-Plan: Interact with Rocket Grunts at (22,24) and (19,24).
-Hypothesis: One of them might battle or have the Key.
-Path: Interact with Right Grunt, then Left Grunt.
-Context: Director interaction yielded nothing. Checking guards.
+Plan: Return to Warehouse (3_54) to continue switch testing.
+Next State Test: 1-1-0 (S1=ON, S2=ON, S3=OFF).
+Reasoning: 1-0-0 opened Gate 3 but Director was unresponsive. Need to find a state that opens Gate 3 AND something else (like the wall at 11,10) or finding the Card Key.
+Action: Move to stairs at (22,27).
