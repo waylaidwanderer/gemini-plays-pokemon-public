@@ -9,6 +9,11 @@ Reflection (Turn 49388):
 |----|----|----|----------|-----------|-----------|----------|-------|
 | 1  | 1  | 0  | Closed   | OPEN      | OPEN      | OPEN     | Map Verified: G2, G3, SecDoor ALL OPEN. Wall (11,10) Closed. |
 | 1  | 0  | 1  | OPEN     | Closed    | Closed    | Closed   | Screen Verified: G1 OPEN. G2/G3/SecDoor Closed. |
-| 0  | 1  | 0  | ?        | ?         | ?         | ?        | Target State. |
+| 0  | 1  | 0  | Closed   | OPEN      | Closed    | OPEN     | Verified 0-1-0. Wall (11,10) Closed. |
+Goal: Test State 0-0-1 (S1 OFF, S2 OFF, S3 ON) to see if "End Switch" logic works.
+Plan:
+1. Move to S2 (10,2). Toggle OFF (State 0-0-0).
+2. Move to S3 (2,1). Toggle ON (State 0-0-1).
+3. Check Wall (11,10).
 - Correction: (12,3) and (13,3) are WALLS (TYPE_2889). Must bypass via Row 4.
 - Path: (11,3) -> Down -> Right x3 -> Up -> Right x2 -> Up to (16,2).
