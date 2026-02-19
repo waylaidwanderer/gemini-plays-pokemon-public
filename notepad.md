@@ -26,8 +26,8 @@ Conclusion: Current State is 0-1-0 (S1=0, S2=1, S3=0).
 Plan: Go to Switch 1 (16,1) and turn it ON to achieve State 1-1-0.
 Hypothesis: 1-1-0 might open Gate 1 or the Wall at (11,10).
 Observation: Turning Switch 1 ON changed (12,9) from Wall to Floor.
-Action: Moving from (10,5) to Gate 1 (2,6).
-Path: Left to (2,5), then Down.
-Hypothesis: Testing if Gate 1 opens in state 1-1-0.
-Alternative: If G1 Closed, check Wall at (11,10) or Trap Room.
-Observation: S1 changed (12,9). It might control the "Secret Exit" area.
+Action: Moving to Gate 1 (2,6).
+Hypothesis: Testing if Gate 1 is Open in 1-1-0.
+Observation: Gate 1 looks closed visually. Secret Door (11,6) looks OPEN.
+Plan: If Gate 1 is closed, I will head to the Secret Door (11,6).
+Theory: S2 opens (11,6), S1 opens (11,10). 1-1-0 might be the solution to pass through the Secret Room.
