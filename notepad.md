@@ -1,7 +1,8 @@
-Current Strategy: Interact with Director at (18,29) from the Right side (19,29).
-Observation: Rocket Grunts at (22,24) and (19,24) were unresponsive (no text).
-Hypothesis: Maybe the Director needs to be spoken to from a specific side, or I need to trigger something else.
-Path: Down to (19,29), Face Left, Interact.
+Correction: Director was unresponsive because I was blocked by furniture at (19,29) and never reached the interaction spot.
+Action: Navigate around the furniture to (18,30).
+Path: Right to (21,28) -> Down to (21,30) -> Left to (18,30) -> Face Up -> Interact.
+Hypothesis: This time I will actually reach the Director and he should respond.
+Goal: Get Card Key.
 | S1 | S2 | S3 | G1 (2,6) | G2 (10,6) | G3 (16,6) | Sec.Door | Notes |
 |----|----|----|----------|-----------|-----------|----------|-------|
 | 1  | 1  | 0  | Closed   | Closed    | OPEN      | Closed   | Verified G3 Open. G1/G2/SecDoor Closed. |
