@@ -14,8 +14,8 @@ Reflection (Turn 49179):
 | 0  | 1  | 0  | OPEN     | Closed    | OPEN      | Closed   | Tool verified: G1/G3 Open (TYPE_3fe2). G2 Closed. |
 | 0  | 0  | 1  | Closed   | ?         | OPEN      | ?        | Verified G1 Closed. |
 | 1  | 1  | 1  | Closed   | Closed    | OPEN      | Closed   | G3 Open. Wall(11,10) Closed. |
-Action: Moving North through the Grunt gap.
-Path: Up to (21,23) -> Left to (20,23) -> Up to (20,21).
-Goal: Trigger Grunt battle or reach the northern area.
-Hypothesis: Grunts are "Spinners" or "Line of Sight" triggers. Walking between them should trigger a battle.
-Note: If no battle, I will explore the northern area for the Card Key.
+Action: Attempting to pass Grunts via Column 21.
+Path: Right to (21,25) -> Up to (21,24) -> Up to (21,23) -> Up to (21,21).
+Hypothesis: Column 20 was blocked (trap/warp), so trying Column 21.
+Contingency: If this also fails (warp back), then I must leave and solve the Secret Room (11,10) puzzle in the Warehouse.
+Observation: Director and Grunts seem unresponsive, suggesting I need to trigger something else or find the Key elsewhere.
