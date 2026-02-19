@@ -14,9 +14,7 @@ Reflection (Turn 49179):
 | 0  | 1  | 0  | OPEN     | Closed    | OPEN      | Closed   | Tool verified: G1/G3 Open (TYPE_3fe2). G2 Closed. |
 | 0  | 0  | 1  | Closed   | ?         | OPEN      | ?        | Verified G1 Closed. |
 | 1  | 1  | 1  | Closed   | Closed    | OPEN      | Closed   | G3 Open. Wall(11,10) Closed. |
-Observation: Silver blocks the path behind Gate 1 ("Nothing down here").
-Conclusion: The Card Key/Director is NOT here.
-Strategy: Return to Map 3_53 (Director's Room) via Gate 3 (which is also Open).
-Plan: Navigate through the gap between the Grunts at (20,24)/(21,24) which I confirmed is walkable.
-Goal: Find the real Director or Key in the back of Map 3_53.
-Path: Leave Gate 1 -> Row 5 -> Enter Gate 3 -> Stairs.
+Action: Moving to Gate 3 (16,6) to exit to Map 3_53.
+Path: Right to (16,5) -> Down to (16,6) -> East towards Stairs (23,3).
+Goal: Reach Director's Room to explore past the Grunts.
+Note: S2 is ON. Gate 3 verified Open. Checking if path beyond is clear.
