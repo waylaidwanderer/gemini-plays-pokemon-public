@@ -1,7 +1,7 @@
-Confirmed: The gap between the Grunts at (20,24) and (21,24) is WALKABLE. I successfully passed them but accidentally returned.
-Plan: Return to 3_53, walk through the gap, and explore North.
-Hypothesis: The Key or Real Director is past the Grunts.
-Action: Step off/on stairs to warp back.
+Current Strategy: Carefully navigate through the gap between Rocket Grunts at (20,24) and (21,24).
+Path: Left to (21,27) -> Up to (21,24) -> Left to (20,24) -> Up/Explore North.
+Goal: Find the Card Key or Real Director in the northern section of the room.
+Avoid: Stairs at (22,27).
 | S1 | S2 | S3 | G1 (2,6) | G2 (10,6) | G3 (16,6) | Sec.Door | Notes |
 |----|----|----|----------|-----------|-----------|----------|-------|
 | 1  | 1  | 0  | Closed   | Closed    | OPEN      | Closed   | Verified G3 Open. G1/G2/SecDoor Closed. |
