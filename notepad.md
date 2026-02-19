@@ -43,7 +43,6 @@ Reflection (Turn 49355):
 Goal: Execute 1-0-1 sequence.
 - Anomaly: Movement Left from (8,2) to (7,2) failed in intermediate states. (7,2) might be blocked.
 - Path: Using Column 8 (confirmed safe/walkable) to head South, then West to Gate 1.
-- Discovery: Tile (10,1) (Switch 2 location) is a Trap Warp! Do not step on it. Operate from (10,2).
-- Warped to (5,2) after stepping on (10,1).
-- Trap Logic: (10,2) is a trap when Switch 2 is OFF. Use (9,1) to turn ON.
-- Plan: Move to (9,1), Face Right, Toggle Switch 2.
+- Discovery: Tile (10,1) is a Trap Warp (Walkable). Do not enter.
+- Fact: (10,2) is SAFE to stand on (Verified by passing through to (10,1)).
+- Plan: Approach (10,2) from (10,3) to arrive Facing Up. Toggle Switch 2.
