@@ -11,7 +11,7 @@ Reflection (Turn 49179):
 | 1  | 0  | 1  | Closed   | Closed    | OPEN      | Closed   | Correction: G3 Open, G1 Closed. |
 | 0  | 0  | 0  | Closed   | Closed    | Closed    | Closed   | All Closed (Reset). |
 | 0  | 1  | 1  | Closed   | Closed    | Closed    | Closed   | Tool Verified: All Closed. |
-| 0  | 1  | 0  | OPEN     | Closed    | OPEN      | Closed   | Tool verified: G1/G3 Open (TYPE_3fe2). G2 Closed. |
+| 0  | 1  | 0  | Closed   | Closed    | Closed    | Closed   | Retesting. Failed. Suspect S2 state mismatch. |
 | 0  | 0  | 1  | Closed   | ?         | OPEN      | ?        | Verified G1 Closed. |
 | 1  | 1  | 1  | Closed   | Closed    | Closed    | Closed   | Tool Verified: All Closed. |
 Action: Moving to Gate 1 (2,6) from (7,5).
