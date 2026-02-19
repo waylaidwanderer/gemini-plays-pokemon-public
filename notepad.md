@@ -20,7 +20,7 @@ Reflection (Turn 49127):
 - Hygiene: Cleaning up old notes. Markers are helpful.
 - Plan: Verify 1-1-0 fully (G1, G2, G3). Then considering 0-1-1 retry or S1 OFF strategies.
 
-Current State: S1=1, S2=1, S3=0 (Testing).
-Action: Checking Gate 1 (2,6) and Gate 2 (10,6).
-Path: (8,3) -> (3,3) -> (3,6) to view Gate 1. Then Right to view Gate 2.
-Avoid: Trap at (2,4).
+Action: Testing Gate 1 (2,6).
+Path: (8,4) -> Down to (8,5) -> Left to (2,5) -> Try Down to (2,6).
+Hypothesis: If Gate 1 is Open in 1-1-0, I can enter.
+Note: Previous turn aborted due to map change at (6,8). Might be relevant later.
