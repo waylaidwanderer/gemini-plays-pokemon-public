@@ -34,9 +34,9 @@ Target State: 1-1-0.
 Hypothesis: S1 ON opens Wall (11,10). Hope G2 remains open or G3 opens.
 Path: (10,5) -> (16,5) -> (16,2).
 Checking if Grunt at (11,2) is a threat.
-Navigation: In Director's Room (3_53). Attempting to interact from behind the desk at (19, 28).
-Status: Frontal interaction failed. Checking if interaction trigger is behind him or on the chair.
-Goal: Get Card Key.
+Navigation: Repositioning to (18, 30) from (19, 28) to retry frontal interaction.
+Status: Behind-the-desk check complete (no luck).
+Goal: Get Card Key from Director.
 Reflection (Turn 49283):
 - Progress: Solved the Warehouse switch puzzle! State 1-0-1 (S1 ON, S3 ON) opened a secret path at (17,6) leading to the Director's Room.
 - Lesson: Pay closer attention to tile change notifications in the tool output; they revealed the path I missed visually.
