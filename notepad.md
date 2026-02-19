@@ -25,3 +25,6 @@ Reflection (Turn 49231):
 - Tool Usage: Using `check_gate_states` to resolve the state ambiguity.
 - Goals: Rescue Director is the primary. Need Card Key first probably.
 - Unseen Areas: Monitoring unseen tiles in 3_54 (bottom corners) and 3_53 (behind grunts).
+Correction (Turn 49250): Row 1 is a WALL (TYPE_2889), not a walkway. Must interact with switches from Row 2.
+Current Plan: Move from (2,2) -> (1,5) -> (8,5) -> (8,2) -> (10,2) to interact with Switch 2.
+Suspect current state is 0-0-0. Goal: Toggle S2.
