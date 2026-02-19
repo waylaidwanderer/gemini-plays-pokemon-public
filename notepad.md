@@ -44,5 +44,5 @@ Goal: Execute 1-0-1 sequence.
 - Anomaly: Movement Left from (8,2) to (7,2) failed in intermediate states. (7,2) might be blocked.
 - Path: Using Column 8 (confirmed safe/walkable) to head South, then West to Gate 1.
 - Discovery: Tile (10,1) is a Trap Warp (Walkable). Do not enter.
-- Fact: (10,2) is SAFE to stand on (Verified by passing through to (10,1)).
-- Plan: Approach (10,2) from (10,3) to arrive Facing Up. Toggle Switch 2.
+- Grunt Alert: Grunt at (11,2) is facing Left (checking screen). Expect battle when entering (10,2).
+- Plan: Move to (10,2), defeat Grunt (if hostile), then Toggle Switch 2.
