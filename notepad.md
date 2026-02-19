@@ -1,8 +1,9 @@
-Current Strategy: Attempt to squeeze past the Rocket Grunts at (21,24) or (20,24).
-Observation: Tiles (20,24) and (21,24) are marked as Floor. The Grunts are at (19,24) and (22,24).
-Hypothesis: I can walk between them to explore the northern part of the room.
-Contingency: If blocked, try interacting with the Left Grunt at (19,24).
-Goal: Find the Card Key (Item Ball?) or trigger a scene.
+Current Strategy: Test the gap at (20,24) and interact with the Left Grunt at (19,24).
+Path: Left to (20,25). Try Up to (20,24).
+If blocked: Left to (19,25), Face Up, Interact with Grunt.
+Hypothesis: One of the Grunts must trigger a battle.
+Goal: Clear path or find Key.
+Note: Director was unresponsive. Grunts are the main suspect.
 | S1 | S2 | S3 | G1 (2,6) | G2 (10,6) | G3 (16,6) | Sec.Door | Notes |
 |----|----|----|----------|-----------|-----------|----------|-------|
 | 1  | 1  | 0  | Closed   | Closed    | OPEN      | Closed   | Verified G3 Open. G1/G2/SecDoor Closed. |
