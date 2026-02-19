@@ -16,10 +16,10 @@ Reflection (Turn 49179):
 | 1  | 1  | 1  | Closed   | Closed    | Closed    | Closed   | Tool Verified: All Closed. |
 Action: Moving to Gate 1 (2,6) from (7,5).
 Path: Left to (2,5) -> Down to (2,6).
-Current State: 1-0-0 (S1=ON, S2=OFF, S3=OFF).
-Hypothesis: Gate 3 should be OPEN.
-Action: Toggled S2 OFF. Verifying Gate 3 status.
-Goal: Enter Gate 3 to find Card Key or Director.
+Current State: 1-1-1 (S1=ON, S2=ON, S3=ON).
+Hypothesis: State 1-0-0 (S1=ON, S2=OFF, S3=OFF) might open Wall (11,10) and make traps safe.
+Action: Moving to Switch 2 (10,1) to turn it OFF.
+Goal: Rescue Real Director (likely in Secret Room).
 Reflection (Turn 49335):
 - Progress: Systematically mapped switch effects. Realized the "Director" upstairs is likely a fake or inactive until I find the real one.
 - Hypothesis: The Real Director is behind the locked Wall (11, 10) in the Secret Room.
