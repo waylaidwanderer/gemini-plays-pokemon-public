@@ -1,8 +1,8 @@
-Correction: The "warp" was just me walking back into the stairs at (22,27).
-Action: Return to Map 3_53.
-Path: Step Left (off stairs), then Right (onto stairs).
-Goal: Navigate to Grunt at (22,24) without stepping on the stairs at (22,27).
-Plan in 3_53: Move Left to Col 21, then Up to Row 24. Interact with Grunt.
+Correction: Previous attempts to talk to Grunts failed because I was standing one tile too far away (Row 26 instead of 25).
+Action: Move to (22,25) to interact directly with the Rocket Grunt at (22,24).
+Path: Left to (21,27) -> Up to (21,25) -> Right to (22,25) -> Face Up -> Interact.
+Hypothesis: Standing adjacent will trigger the battle/dialogue.
+Goal: Defeat Grunts to unlock Director interaction or get Key.
 | S1 | S2 | S3 | G1 (2,6) | G2 (10,6) | G3 (16,6) | Sec.Door | Notes |
 |----|----|----|----------|-----------|-----------|----------|-------|
 | 1  | 1  | 0  | Closed   | Closed    | OPEN      | Closed   | Verified G3 Open. G1/G2/SecDoor Closed. |
