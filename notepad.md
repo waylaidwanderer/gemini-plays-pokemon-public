@@ -20,3 +20,5 @@ Plan:
 1. Move to S2 (10,2). Toggle ON (State 1-1-0).
 2. Enter Gate 3 (16,6).
 3. Investigate Warp at (22,10).
+- Error: Stepped on Trap (2,4) and warped to (5,2).
+- Correction: Navigating from (5,2) to Switch 2 (10,2) via Row 5 (Safe Route).
