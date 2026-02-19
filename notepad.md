@@ -14,7 +14,8 @@ Reflection (Turn 49179):
 | 0  | 1  | 0  | OPEN     | Closed    | OPEN      | Closed   | Tool verified: G1/G3 Open (TYPE_3fe2). G2 Closed. |
 | 0  | 0  | 1  | Closed   | ?         | OPEN      | ?        | Verified G1 Closed. |
 | 1  | 1  | 1  | Closed   | Closed    | OPEN      | Closed   | G3 Open. Wall(11,10) Closed. |
-Correction: Row 24 is physically blocked (Type 2889). I cannot pass the Grunts. My previous belief was a hallucination.
-Action: Returning to Warehouse to open Gate 2.
-Target State: 0-1-1 (S1=0, S2=1, S3=1).
-Hypothesis: Card Key is behind Gate 2.
+Action: Moving to Switch 3 (2,1) to toggle ON.
+Path: Down to Row 5 -> Left to (3,5) -> Up to (3,2) -> Left to (2,1).
+Target State: 0-1-1 (S1=OFF, S2=ON, S3=ON).
+Hypothesis: 0-1-1 opens Gate 2 (10,6) allowing access to Secret Door (11,6).
+Note: Director's Room path was blocked. Key must be in Warehouse.
