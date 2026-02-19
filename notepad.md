@@ -1,8 +1,8 @@
 Current State: 0-0-0 (S1=OFF, S2=OFF, S3=OFF).
-Action: Moving to Switch 2 (10,1) to turn ON.
-Path: Down to Row 5 -> Left to (10,5) -> Up to (10,2).
-Target: State 0-1-0.
-Hypothesis: Eventually aiming for 0-1-1 to open Gate 1.
+Action: Moving to Switch 2 (10,1). 
+Path: Down to (16,5) -> Left to (10,5) -> Up to (10,2).
+Target: Toggle S2 ON (State 0-1-0).
+Next: Move to Switch 3, Toggle ON (State 0-1-1) -> Check Gate 1.
 | S1 | S2 | S3 | G1 (2,6) | G2 (10,6) | G3 (16,6) | Sec.Door | Notes |
 |----|----|----|----------|-----------|-----------|----------|-------|
 | 1  | 1  | 0  | Closed   | Closed    | OPEN      | Closed   | Verified G3 Open. G1/G2/SecDoor Closed. |
