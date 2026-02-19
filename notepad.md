@@ -26,10 +26,8 @@ Conclusion: Current State is 0-1-0 (S1=0, S2=1, S3=0).
 Plan: Go to Switch 1 (16,1) and turn it ON to achieve State 1-1-0.
 Hypothesis: 1-1-0 might open Gate 1 or the Wall at (11,10).
 Observation: Turning Switch 1 ON changed (12,9) from Wall to Floor.
-Current State: 1-1-0 (S1=ON, S2=ON, S3=OFF).
-Observation: Gate 3 is Closed in 1-1-0. My previous attempt to toggle S1 failed (didn't move to switch).
-Plan: Move to Switch 2 (10,1) and turn it OFF.
-Target State: 1-0-0.
-Hypothesis: 1-0-0 Opens Gate 3.
-Next: Enter Gate 3, go to Map 3_53, battle Grunts.
-Ref: Avoid Row 4 traps by using Row 2.
+Action: Moving to Switch 2 (10,1) via Row 5 to avoid walls on Row 2/3.
+Path: Down to (14,5) -> Left to (10,5) -> Up to (10,2).
+Risk: Crossing (10,4) might trigger a trap. If so, I will re-route.
+Goal: Turn Switch 2 OFF (Target State 1-0-0) to Open Gate 3.
+Next: Proceed through Gate 3 to Map 3_53.
