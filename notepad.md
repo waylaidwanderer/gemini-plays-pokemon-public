@@ -9,7 +9,13 @@ Reflection (Turn 49179):
 | 1  | 1  | 0  | Closed   | Closed    | OPEN      | Closed   | Verified G3 Open. G1/G2/SecDoor Closed. |
 | 1  | 0  | 0  | Closed   | Closed    | OPEN      | Closed   | Verified G3 Open. G1/G2 Closed. |
 | 1  | 0  | 1  | OPEN     | Closed    | Closed    | Closed   | Screen Verified: G1 OPEN. G2/G3/SecDoor Closed. |
-Goal: Test State 0-1-0 (S1 OFF, S2 ON, S3 OFF) to open Gate 2 and Wall (11,10).
+Goal: Execute Sequence to State 0-1-0 (S1 OFF, S2 ON, S3 OFF).
+Plan:
+1. Clear text at (2,9).
+2. Move Up to Switch 3 (2,1). Toggle OFF (State 1-0-0).
+3. Move Right to Switch 2 (10,1). Toggle ON (State 1-1-0).
+4. Move Right to Switch 1 (16,1). Toggle OFF (State 0-1-0).
+5. Check Gate 2 (10,6) and Wall (11,10).
 | 0  | 0  | 0  | Closed   | Closed    | Closed    | Closed   | All Closed (Reset). |
 | 0  | 1  | 1  | Closed   | Closed    | Closed    | Closed   | Tool Verified: All Closed. |
 | 1  | 1  | 0  | Closed   | OPEN      | Closed    | OPEN     | Verified 1-1-0. G2/SecDoor Open. Wall (11,10) Closed. |
