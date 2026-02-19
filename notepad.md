@@ -1,8 +1,8 @@
 Current Strategy: Test State 0-1-1 (S1 OFF, S2 ON, S3 ON) to open Gate 1.
-Action: Move to Switch 1 (16,1) to turn it OFF.
-Path: (21,3) -> Down to (21,5) -> Left to (16,5) -> Up to (16,2).
-Note: Avoiding potential walls on Row 3.
-Markers: Will update S1 marker after toggling.
+Action: Moving to Switch 1 (16,2) to toggle it OFF.
+Path: Left to (16,5) -> Up to (16,2).
+Current State: 1-0-0. Target: 0-0-0 (transient) -> 0-1-1.
+Note: Preparing to test if S2+S3 opens Gate 1.
 | S1 | S2 | S3 | G1 (2,6) | G2 (10,6) | G3 (16,6) | Sec.Door | Notes |
 |----|----|----|----------|-----------|-----------|----------|-------|
 | 1  | 1  | 0  | Closed   | Closed    | OPEN      | Closed   | Verified G3 Open. G1/G2/SecDoor Closed. |
