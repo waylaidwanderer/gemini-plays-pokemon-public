@@ -1,7 +1,8 @@
-Current Strategy: Try interacting with Director from the Left (17,29).
-Then: Head North to investigate the Grunts at Row 24.
-Hypothesis: Director interactions are positional, or Grunts are passable (hallucinated blocking).
-Path: Left to (17,30) -> Up to (17,29) -> Interact Right. -> Then Up to Row 24.
+Current Strategy: Interact with Director from the Left (Face Right), then explore North past the Grunts.
+Path: Left to (17,30) -> Up to (17,29) -> Right (Face Director) -> A.
+Then: Up to Row 24 to pass the Grunts.
+Hypothesis: Previous interaction failed due to facing or positioning. If Director is truly silent, the key must be elsewhere or past the Grunts.
+Check: (20,24) and (21,24) look like open floor.
 | S1 | S2 | S3 | G1 (2,6) | G2 (10,6) | G3 (16,6) | Sec.Door | Notes |
 |----|----|----|----------|-----------|-----------|----------|-------|
 | 1  | 1  | 0  | Closed   | Closed    | OPEN      | Closed   | Verified G3 Open. G1/G2/SecDoor Closed. |
