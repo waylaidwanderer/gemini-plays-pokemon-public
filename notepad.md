@@ -1,8 +1,7 @@
-Current Strategy: Verify gap between Grunts, then return to Warehouse to find the Card Key (likely behind Gate 1).
-Path: Test (20,24) and (21,24). If blocked, Exit to Warehouse.
-Hypothesis: Grunts block progress until I have the Card Key. Card Key is behind Gate 1 (controlled by switches).
-Switch Plan: Try State 0-1-1 (S2=ON, S3=ON) to open Gate 1.
-Note: Previous summary mentioned S2+S3 opens G1. My table might be incomplete for G1 in that state.
+Confirmed: The gap between the Grunts at (20,24) and (21,24) is WALKABLE. I successfully passed them but accidentally returned.
+Plan: Return to 3_53, walk through the gap, and explore North.
+Hypothesis: The Key or Real Director is past the Grunts.
+Action: Step off/on stairs to warp back.
 | S1 | S2 | S3 | G1 (2,6) | G2 (10,6) | G3 (16,6) | Sec.Door | Notes |
 |----|----|----|----------|-----------|-----------|----------|-------|
 | 1  | 1  | 0  | Closed   | Closed    | OPEN      | Closed   | Verified G3 Open. G1/G2/SecDoor Closed. |
