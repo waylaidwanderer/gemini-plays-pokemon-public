@@ -1,7 +1,7 @@
-Current Strategy: Carefully navigate through the gap between Rocket Grunts at (20,24) and (21,24).
-Path: Left to (21,27) -> Up to (21,24) -> Left to (20,24) -> Up/Explore North.
-Goal: Find the Card Key or Real Director in the northern section of the room.
-Avoid: Stairs at (22,27).
+Current Strategy: Passing through the Grunts to explore the Northern section of the room.
+Path: Up from (20,25) -> (20,24) -> (20,20).
+Hypothesis: The Key or real Director is in the back of this room.
+Observation: The Grunts do not block the path at (20,24) and (21,24).
 | S1 | S2 | S3 | G1 (2,6) | G2 (10,6) | G3 (16,6) | Sec.Door | Notes |
 |----|----|----|----------|-----------|-----------|----------|-------|
 | 1  | 1  | 0  | Closed   | Closed    | OPEN      | Closed   | Verified G3 Open. G1/G2/SecDoor Closed. |
