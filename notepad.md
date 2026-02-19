@@ -1,8 +1,8 @@
-Correction: Previous attempts to talk to Grunts failed because I was standing one tile too far away (Row 26 instead of 25).
-Action: Move to (22,25) to interact directly with the Rocket Grunt at (22,24).
-Path: Left to (21,27) -> Up to (21,25) -> Right to (22,25) -> Face Up -> Interact.
-Hypothesis: Standing adjacent will trigger the battle/dialogue.
-Goal: Defeat Grunts to unlock Director interaction or get Key.
+Current Strategy: Attempt to squeeze past the Rocket Grunts at (21,24) or (20,24).
+Observation: Tiles (20,24) and (21,24) are marked as Floor. The Grunts are at (19,24) and (22,24).
+Hypothesis: I can walk between them to explore the northern part of the room.
+Contingency: If blocked, try interacting with the Left Grunt at (19,24).
+Goal: Find the Card Key (Item Ball?) or trigger a scene.
 | S1 | S2 | S3 | G1 (2,6) | G2 (10,6) | G3 (16,6) | Sec.Door | Notes |
 |----|----|----|----------|-----------|-----------|----------|-------|
 | 1  | 1  | 0  | Closed   | Closed    | OPEN      | Closed   | Verified G3 Open. G1/G2/SecDoor Closed. |
