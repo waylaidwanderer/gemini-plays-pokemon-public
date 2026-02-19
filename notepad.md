@@ -13,7 +13,7 @@ Reflection (Turn 49179):
 | 0  | 1  | 1  | OPEN     | Closed    | Closed    | Closed   | Tool verified. G1 Open. Others Closed. |
 | 0  | 1  | 0  | OPEN     | Closed    | OPEN      | Closed   | Tool verified: G1/G3 Open (TYPE_3fe2). G2 Closed. |
 | 0  | 0  | 1  | Closed   | ?         | OPEN      | ?        | Verified G1 Closed. |
-| 1  | 1  | 1  | OPEN     | Closed    | Closed    | Closed   | Tool verified. G1 Open. Others Closed. |
+| 1  | 1  | 1  | Closed   | Closed    | Closed    | Closed   | Tool Verified: All Closed. |
 Action: Moving to Gate 1 (2,6) from (7,5).
 Path: Left to (2,5) -> Down to (2,6).
 Current State: 1-0-1 (S1=ON, S2=OFF, S3=ON).
