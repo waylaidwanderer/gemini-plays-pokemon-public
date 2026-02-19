@@ -14,8 +14,7 @@ Reflection (Turn 49179):
 | 0  | 1  | 0  | OPEN     | Closed    | OPEN      | Closed   | Tool verified: G1/G3 Open (TYPE_3fe2). G2 Closed. |
 | 0  | 0  | 1  | Closed   | ?         | OPEN      | ?        | Verified G1 Closed. |
 | 1  | 1  | 1  | OPEN     | Closed    | Closed    | Closed   | Tool verified. G1 Open. Others Closed. |
-Action: Moving to Switch 2 (10,1) via Column 8.
-Path: Left to (8,5) -> Up to (8,2) -> Right to (10,2).
-Target State: 1-0-1 (S1=ON, S2=OFF, S3=ON).
-Hypothesis: Testing if S1+S3 opens Gate 2.
-Note: 1-1-1 opened Gate 1 but closed Gate 3.
+Action: Continuing move to Switch 2 (10,1) via Column 8.
+Path: Left to (8,5) -> Up to (8,2) -> Right to (10,2) -> Face Up.
+Goal: Toggle S2 OFF (Target State: 1-0-1).
+Reasoning: Avoid potential trap at (10,4) since S1 is ON.
