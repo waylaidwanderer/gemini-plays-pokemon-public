@@ -13,6 +13,10 @@ Reflection (Turn 49388):
 | 0  | 0  | 1  | Closed   | Closed    | Closed    | Closed   | Verified 0-0-1. All Gates Closed. |
 | 0  | 1  | 1  | Closed   | OPEN      | Closed    | OPEN     | Verified 0-1-1. Wall (11,10) Closed. |
 | 1  | 1  | 1  | Closed   | OPEN      | Closed    | OPEN     | Verified 1-1-1. G2/SecDoor Open. Wall (11,10) Closed. |
-Current State: 1-0-1 (S1 ON, S2 OFF, S3 ON).
-Goal: Move to Switch 3 (2,1) and Toggle OFF -> State 1-0-0.
-Path: Column 8 (Safe) -> Row 5 -> Column 1.
+| 1  | 0  | 0  | Closed   | OPEN      | Closed    | OPEN     | Verified 1-0-0. Wall (11,10) Closed. |
+Goal: Access Warp at (22,10) behind Gate 3.
+Hypothesis: The "Unknown Warp" at (22,10) might lead to the real Director or behind the Wall.
+Plan:
+1. Move to S2 (10,2). Toggle ON (State 1-1-0).
+2. Enter Gate 3 (16,6).
+3. Investigate Warp at (22,10).
