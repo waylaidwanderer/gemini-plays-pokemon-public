@@ -14,8 +14,8 @@ Reflection (Turn 49179):
 | 0  | 1  | 0  | OPEN     | Closed    | OPEN      | Closed   | Tool verified: G1/G3 Open (TYPE_3fe2). G2 Closed. |
 | 0  | 0  | 1  | Closed   | ?         | OPEN      | ?        | Verified G1 Closed. |
 | 1  | 1  | 1  | Closed   | Closed    | OPEN      | Closed   | G3 Open. Wall(11,10) Closed. |
-Action: Moving to Switch 3 (2,1) to toggle ON.
-Path: Down to Row 5 -> Left to (3,5) -> Up to (3,2) -> Left to (2,1).
+Action: Moving to Switch 3 (2,1) via Row 5 (Safe Path).
+Path: Left to (3,5) -> Up to (3,3) -> Left to (2,3) -> Up to (2,1).
+Reasoning: Row 5 is safe. Column 3 avoids Trap at (2,4). Column 2 (above row 4) avoids Grunt at (3,2).
 Target State: 0-1-1 (S1=OFF, S2=ON, S3=ON).
-Hypothesis: 0-1-1 opens Gate 2 (10,6) allowing access to Secret Door (11,6).
-Note: Director's Room path was blocked. Key must be in Warehouse.
+Hypothesis: 0-1-1 opens Gate 2 (10,6).
