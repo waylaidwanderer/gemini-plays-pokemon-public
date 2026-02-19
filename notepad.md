@@ -1,10 +1,8 @@
-Current Strategy: Interrogate Rocket Grunts in Director's Room (Map 3_53).
-Target: Grunt at (22,24) first, then (19,24).
-Hypothesis: Defeating them might trigger the Director or drop the Key.
-Switch State: 1-0-0 confirmed Gate 3 Open.
-Notes:
-- Director was unresponsive earlier.
-- Gate 3 path is now verified.
+Current Strategy: Interrogate Rocket Grunts in Director's Room.
+Action: Attempting interaction with Grunt at (22,24) then Grunt at (19,24).
+Hypothesis: One of them must trigger a battle or give the Key.
+Contingency: If both silent, try Director from (19,29).
+Note: Director at (18,29) was unresponsive from below/left. Right side is last hope.
 | S1 | S2 | S3 | G1 (2,6) | G2 (10,6) | G3 (16,6) | Sec.Door | Notes |
 |----|----|----|----------|-----------|-----------|----------|-------|
 | 1  | 1  | 0  | Closed   | Closed    | OPEN      | Closed   | Verified G3 Open. G1/G2/SecDoor Closed. |
