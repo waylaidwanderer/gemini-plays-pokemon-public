@@ -19,3 +19,9 @@ Path: Left to (2,5) -> Down to (2,6).
 Current State: 1-0-1 (S1=ON, S2=OFF, S3=ON).
 Hypothesis: Gate 1 should be OPEN (since S3 is ON). Walls behind it might be OPEN (since S1 is ON).
 Goal: Bypass Silver to find the Card Key.
+Reflection (Turn 49231):
+- Progress: Systematically testing switches. Desync between Notepad and Mental Map regarding Switch 2 state detected.
+- Hygiene: Need to timestamp notepad entries and sync map markers after verification.
+- Tool Usage: Using `check_gate_states` to resolve the state ambiguity.
+- Goals: Rescue Director is the primary. Need Card Key first probably.
+- Unseen Areas: Monitoring unseen tiles in 3_54 (bottom corners) and 3_53 (behind grunts).
