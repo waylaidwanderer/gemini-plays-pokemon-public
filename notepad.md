@@ -20,13 +20,17 @@ Current State: 1-1-1 (S1=ON, S2=ON, S3=ON).
 Hypothesis: State 1-0-0 (S1=ON, S2=OFF, S3=OFF) might open Wall (11,10) and make traps safe.
 Action: Moving to Switch 2 (10,1) to turn it OFF.
 Goal: Rescue Real Director (likely in Secret Room).
-Reflection (Turn 49335):
-- Progress: Systematically mapped switch effects. Realized the "Director" upstairs is likely a fake or inactive until I find the real one.
-- Hypothesis: The Real Director is behind the locked Wall (11, 10) in the Secret Room.
-- Current Task: Testing State 0-1-1 (S1=OFF, S2=ON, S3=ON). S1 is OFF. S3 is ON. Need to toggle S2 ON.
-- Switch Logic:
-  - S2 OFF -> Gate 2 Open, Secret Door (11,6) Open.
+Reflection (Turn 49355):
+- Strategy Update: Southeast area was a loop/dead-end. Upper Director Room was unresponsive.
+- Hypothesis: Key path is behind Gate 1 (2,6) or deeper South.
+- Current State: 0-1-1 (S1=OFF, S2=ON, S3=ON).
+- Action Plan:
+  1. Toggle Switch 1 ON (Current).
+  2. Toggle Switch 2 OFF.
+  3. Result State: 1-0-1 (S1=ON, S2=OFF, S3=ON).
+  4. Enter Gate 1.
+- Switch Logic Confirmed:
   - S3 ON -> Gate 1 Open.
-  - S1 ON + S3 ON -> Opened path to 3_53.
-  - S1 OFF + S2 ON + S3 ON -> ??? (Testing this).
-Goal: Toggle S2, then check Wall (11, 10).
+  - S2 OFF -> Gate 2 Open.
+  - S1 ON + S3 ON -> Secret Path to Director Room (3_53).
+Goal: Execute 1-0-1 sequence.
