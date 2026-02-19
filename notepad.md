@@ -42,7 +42,6 @@ Observation: Transition to 1-0-0 opened (12,8) and (12,9) (Wall -> Floor).
 Action: checking Gate 3 (16,6).
 Observation: In State 1-0-0, Gate 3 (16,6) is OPEN. Tiles (17,6) and (17,7) also opened.
 Action: Entering Gate 3 area. Checking for traps and path to inner wall.
-Plan: Return to Director's Room (Map 3_53) via Gate 3 (Open) and Switch 1 corridor.
-Goal: Interact with the Director (18,29) again. Previous "unresponsive" result is suspicious.
-Observation: Wall (11,10) is Closed in 1-0-0.
-Safety: (16,8) trap should be safe (S2 OFF).
+Plan: Move to (18,30) to talk to the Director from below.
+Path: Down to Row 30, Left to Col 18, Face Up, Interact.
+Context: Re-attempting interaction. If fails, will check Grunts.
