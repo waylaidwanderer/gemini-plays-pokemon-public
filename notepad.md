@@ -1,8 +1,7 @@
-Correction: Director was unresponsive because I was blocked by furniture at (19,29) and never reached the interaction spot.
-Action: Navigate around the furniture to (18,30).
-Path: Right to (21,28) -> Down to (21,30) -> Left to (18,30) -> Face Up -> Interact.
-Hypothesis: This time I will actually reach the Director and he should respond.
-Goal: Get Card Key.
+Current Strategy: Try interacting with Director from the Left (17,29).
+Then: Head North to investigate the Grunts at Row 24.
+Hypothesis: Director interactions are positional, or Grunts are passable (hallucinated blocking).
+Path: Left to (17,30) -> Up to (17,29) -> Interact Right. -> Then Up to Row 24.
 | S1 | S2 | S3 | G1 (2,6) | G2 (10,6) | G3 (16,6) | Sec.Door | Notes |
 |----|----|----|----------|-----------|-----------|----------|-------|
 | 1  | 1  | 0  | Closed   | Closed    | OPEN      | Closed   | Verified G3 Open. G1/G2/SecDoor Closed. |
