@@ -18,3 +18,6 @@ Plan:
 - Movement: Moving to Switch 3 (2,1) via Column 1 to avoid Trap (2,4).
 - Path: (10,2) -> (11,3) -> (11,5) -> (1,5) -> (1,2) -> (2,2).
 - Goal: Toggle S3 ON -> State 0-0-1. Verify "End Switch" logic.
+- Map Change: (12,9) changed to Walkable (TYPE_3fe2). Likely opened by S2 OFF.
+- Current State: 0-0-0. Heading to S3 to set 0-0-1.
+- Path Confirmation: Row 5 is safe. Column 1 avoids Trap (2,4).
