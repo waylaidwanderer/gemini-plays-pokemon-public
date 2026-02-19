@@ -34,9 +34,9 @@ Target State: 1-1-0.
 Hypothesis: S1 ON opens Wall (11,10). Hope G2 remains open or G3 opens.
 Path: (10,5) -> (16,5) -> (16,2).
 Checking if Grunt at (11,2) is a threat.
-Navigation: At Stairs (23, 3) in Warehouse (3_54). Attempting to warp to Director's Room (3_53).
-Status: Previous warp failed. Retrying transition.
-Goal: Rescue Director.
+Navigation: In Director's Room (3_53). Moving to talk to Director at (18, 29).
+Status: Successfully warped from Warehouse.
+Goal: Get Card Key.
 Reflection (Turn 49283):
 - Progress: Solved the Warehouse switch puzzle! State 1-0-1 (S1 ON, S3 ON) opened a secret path at (17,6) leading to the Director's Room.
 - Lesson: Pay closer attention to tile change notifications in the tool output; they revealed the path I missed visually.
