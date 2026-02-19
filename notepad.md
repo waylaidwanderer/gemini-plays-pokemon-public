@@ -28,3 +28,8 @@ Reflection (Turn 49231):
 Correction (Turn 49250): Row 1 is a WALL (TYPE_2889), not a walkway. Must interact with switches from Row 2.
 Current Plan: Move from (2,2) -> (1,5) -> (8,5) -> (8,2) -> (10,2) to interact with Switch 2.
 Suspect current state is 0-0-0. Goal: Toggle S2.
+Next Plan: Toggle Switch 1 (ON).
+Target State: 1-1-0.
+Hypothesis: S1 ON opens Wall (11,10). Hope G2 remains open or G3 opens.
+Path: (10,5) -> (16,5) -> (16,2).
+Checking if Grunt at (11,2) is a threat.
