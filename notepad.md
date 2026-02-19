@@ -14,9 +14,7 @@ Reflection (Turn 49179):
 | 0  | 1  | 0  | OPEN     | Closed    | OPEN      | Closed   | Tool verified: G1/G3 Open (TYPE_3fe2). G2 Closed. |
 | 0  | 0  | 1  | Closed   | ?         | OPEN      | ?        | Verified G1 Closed. |
 | 1  | 1  | 1  | Closed   | Closed    | OPEN      | Closed   | G3 Open. Wall(11,10) Closed. |
-Action: Moving to (2,2) to operate Switch 3.
-Path: Left to (3,5) -> Up to (3,3) -> Left to (2,3) -> Up to (2,2).
-Goal: Toggle Switch 3 ON.
-Target State: 0-1-1.
-Reasoning: Safe path avoiding traps.
-Observation: Gate 1 tile changed recently. Will check all gates after toggling.
+Action: Toggling Switch 3 ON.
+Current State: 0-1-1 (S1=OFF, S2=ON, S3=ON).
+Next Step: Verify Gate States using tool.
+Hypothesis: 0-1-1 opens Gate 2 or Secret Door.
