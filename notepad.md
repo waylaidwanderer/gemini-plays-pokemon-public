@@ -26,8 +26,8 @@ Conclusion: Current State is 0-1-0 (S1=0, S2=1, S3=0).
 Plan: Go to Switch 1 (16,1) and turn it ON to achieve State 1-1-0.
 Hypothesis: 1-1-0 might open Gate 1 or the Wall at (11,10).
 Observation: Turning Switch 1 ON changed (12,9) from Wall to Floor.
-Action: Moving to Secret Door (11,6).
-Path: Right to (11,5), then Down into the corridor.
-Observation: (11,6) appears OPEN (Blue Bricks) in 1-1-0.
-Hypothesis: Since S1 is ON, the inner wall at (11,10) might also be OPEN.
-Risk: Trap at (11,9) is marked "Safe (100)". Unsure if safe in 1-1-0. Will approach with caution.
+Action: Testing Trap (11,9) and checking Wall (11,10).
+Path: Down to (11,9).
+Hypothesis: 1-1-0 disables traps (Safe).
+Observation: (11,10) visually looks like a Wall. If so, 1-1-0 is not the solution for this wall.
+Next Plan: If blocked, switch to State 0-1-0 (S1 OFF, S2 ON) to see if S1 OFF opens (11,10).
