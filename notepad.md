@@ -34,9 +34,9 @@ Target State: 1-1-0.
 Hypothesis: S1 ON opens Wall (11,10). Hope G2 remains open or G3 opens.
 Path: (10,5) -> (16,5) -> (16,2).
 Checking if Grunt at (11,2) is a threat.
-Correction: I was hallucinating being in the Director's Room. I was actually stuck at the Warehouse stairs (23, 3).
-Action: Step Left then Right to properly enter the Director's Room (3_53).
-Goal: Get Card Key from the Director.
+Navigation: Moving from Stairs (22, 27) to Director (18, 29) via South path (Row 30).
+Status: In Director's Room (3_53). Moving to interact.
+Goal: Get Card Key.
 Reflection (Turn 49283):
 - Progress: Solved the Warehouse switch puzzle! State 1-0-1 (S1 ON, S3 ON) opened a secret path at (17,6) leading to the Director's Room.
 - Lesson: Pay closer attention to tile change notifications in the tool output; they revealed the path I missed visually.
