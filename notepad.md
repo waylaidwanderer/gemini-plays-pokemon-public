@@ -34,3 +34,5 @@ Reflection (Turn 49355):
   - S2 OFF -> Gate 2 Open.
   - S1 ON + S3 ON -> Secret Path to Director Room (3_53).
 Goal: Execute 1-0-1 sequence.
+- Anomaly: Movement Left from (8,2) to (7,2) failed in intermediate states. (7,2) might be blocked.
+- Path: Using Column 8 (confirmed safe/walkable) to head South, then West to Gate 1.
