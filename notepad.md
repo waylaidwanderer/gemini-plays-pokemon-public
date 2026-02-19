@@ -1,8 +1,7 @@
-Action: Moving to check Gate 1 (2,6).
-Path: Down to Row 5, Left to (2,5), Down to (2,6).
-Hypothesis: 1-1-0 (S1=1, S2=1, S3=0) opens Gate 1.
-Goal: Access the area behind Gate 1 (Where Silver was).
-Observation Needed: Is Gate 1 Open?
+Action: Moving to Gate 1 (2,6) via Row 5.
+Path: Down to (16,5), Left to (2,5), Down to check Gate 1.
+Hypothesis: Switch 1 (ON) in state 1-1-0 opens Gate 1.
+Observation: Map update at (12,8) confirms S1 does something. Checking if it affected Gate 1.
 | S1 | S2 | S3 | G1 (2,6) | G2 (10,6) | G3 (16,6) | Sec.Door | Notes |
 |----|----|----|----------|-----------|-----------|----------|-------|
 | 1  | 1  | 0  | Closed   | Closed    | OPEN      | Closed   | Verified G3 Open. G1/G2/SecDoor Closed. |
