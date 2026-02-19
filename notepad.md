@@ -45,3 +45,5 @@ Goal: Execute 1-0-1 sequence.
 - Path: Using Column 8 (confirmed safe/walkable) to head South, then West to Gate 1.
 - Discovery: Tile (10,1) (Switch 2 location) is a Trap Warp! Do not step on it. Operate from (10,2).
 - Warped to (5,2) after stepping on (10,1).
+- Trap Logic: (10,2) is a trap when Switch 2 is OFF. Use (9,1) to turn ON.
+- Plan: Move to (9,1), Face Right, Toggle Switch 2.
