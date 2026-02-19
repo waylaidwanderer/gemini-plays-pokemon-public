@@ -12,8 +12,9 @@ Reflection (Turn 49388):
 | 0  | 1  | 0  | Closed   | OPEN      | Closed    | OPEN     | Verified 0-1-0. Wall (11,10) Closed. |
 | 0  | 0  | 1  | Closed   | Closed    | Closed    | Closed   | Verified 0-0-1. All Gates Closed. |
 | 0  | 1  | 1  | Closed   | OPEN      | Closed    | OPEN     | Verified 0-1-1. Wall (11,10) Closed. |
-Goal: Test State 1-1-1 (S1 ON, S2 ON, S3 ON) and 1-0-0 (S1 ON, S2 OFF, S3 OFF).
+| 1  | 1  | 1  | Closed   | OPEN      | Closed    | OPEN     | Verified 1-1-1. G2/SecDoor Open. Wall (11,10) Closed. |
+Goal: Test State 1-0-0 (S1 ON, S2 OFF, S3 OFF).
 Plan:
-1. Move to S1 (16,1). Toggle ON (State 1-1-1).
-2. Check Gate States.
-3. If fail, toggle S2 OFF (State 1-0-1), then S3 OFF (State 1-0-0).
+1. Move to S2 (10,2). Toggle OFF (State 1-0-1).
+2. Move to S3 (2,1). Toggle OFF (State 1-0-0).
+3. Check Gate States.
