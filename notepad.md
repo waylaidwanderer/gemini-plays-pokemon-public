@@ -1,8 +1,8 @@
-Correction: Previous attempt to move North on Col 17 resulted in a warp back to (19,30). Suspect Trap on Col 17.
-Strategy: Try approaching Grunts via the Right side (Column 22).
-Path: Right to (22,30) -> Up to (22,25) -> Interact with Grunt (22,24).
-Hypothesis: Need to clear Grunts to trigger Director or find Key.
-Note: If Grunt is silent, try to walk past him at (21,24).
+Correction: The "warp" was just me walking back into the stairs at (22,27).
+Action: Return to Map 3_53.
+Path: Step Left (off stairs), then Right (onto stairs).
+Goal: Navigate to Grunt at (22,24) without stepping on the stairs at (22,27).
+Plan in 3_53: Move Left to Col 21, then Up to Row 24. Interact with Grunt.
 | S1 | S2 | S3 | G1 (2,6) | G2 (10,6) | G3 (16,6) | Sec.Door | Notes |
 |----|----|----|----------|-----------|-----------|----------|-------|
 | 1  | 1  | 0  | Closed   | Closed    | OPEN      | Closed   | Verified G3 Open. G1/G2/SecDoor Closed. |
