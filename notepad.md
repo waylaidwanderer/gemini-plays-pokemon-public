@@ -49,8 +49,8 @@ Plan: Return to Warehouse (3_54) to continue switch testing.
 Next State Test: 1-1-0 (S1=ON, S2=ON, S3=OFF).
 Reasoning: 1-0-0 opened Gate 3 but Director was unresponsive. Need to find a state that opens Gate 3 AND something else (like the wall at 11,10) or finding the Card Key.
 Action: Move to stairs at (22,27).
-Action: Moving to Switch 2 (10,1) via Row 5.
-Path: Down to Row 5, Left to (10,5), Up to Switch 2.
-Goal: Turn Switch 2 ON (Test 1-1-0).
-Risk: Trap at (10,4) might be active in 1-0-0. If warped, will re-evaluate.
-Observation: Gate 3 (16,6) reportedly closed upon re-entry. Checking if 1-1-0 opens it or something else.
+Plan: Move to Switch 2 (10,1) via column 8 to avoid potential traps on row 4.
+Path: (16,5) -> Left to (8,5) -> Up to (8,2) -> Right to (10,2).
+Action: Position at (10,2) facing Up, then Toggle Switch 2.
+Hypothesis: (8,4) is safe. (10,4) is potential trap.
+Goal: Test State 1-1-0.
