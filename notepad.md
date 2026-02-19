@@ -20,10 +20,9 @@ Reflection (Turn 48815):
 - Hygiene: Notepad log is accurate. Markers are up to date.
 - Next Steps: If G1 opens, proceed. If not, analyze map for overlooked paths (e.g. wall at 11,10).
 Goal: Test state 0-1-0 (S2 ON only).
-Current Switches: S1=OFF, S2=OFF, S3=OFF (Target 0-0-0).
-Action: Toggled S3 OFF.
-Analysis: S3 ON = Gate 1 Open.
-Next: Go to Switch 2 (10, 1) and turn ON.
+Current Switches: S1=OFF, S2=ON, S3=OFF (0-1-0).
+Action: Toggled Switch 2 ON.
+Next: Verify all gates with check_gate_states tool.
 Reflection (Turn 49074):
 - Progress: systematically testing switch combos. 0-1-1 is current test.
 - Hygiene: Notepad table is proving vital. Markers helping track traps.
