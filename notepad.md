@@ -16,9 +16,10 @@ Reflection (Turn 49179):
 | 1  | 1  | 1  | Closed   | Closed    | Closed    | Closed   | Tool Verified: All Closed. |
 Action: Moving to Gate 1 (2,6) from (7,5).
 Path: Left to (2,5) -> Down to (2,6).
-Current State: 1-0-1 (S1=ON, S2=OFF, S3=ON).
-Hypothesis: Gate 1 should be OPEN (since S3 is ON). Walls behind it might be OPEN (since S1 is ON).
-Goal: Bypass Silver to find the Card Key.
+Current State: 1-0-0 (S1=ON, S2=OFF, S3=OFF).
+Hypothesis: Gate 3 should be OPEN.
+Action: Toggled S2 OFF. Verifying Gate 3 status.
+Goal: Enter Gate 3 to find Card Key or Director.
 Reflection (Turn 49231):
 - Progress: Systematically testing switches. Desync between Notepad and Mental Map regarding Switch 2 state detected.
 - Hygiene: Need to timestamp notepad entries and sync map markers after verification.
