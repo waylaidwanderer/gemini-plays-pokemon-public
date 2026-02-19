@@ -15,5 +15,6 @@ Plan:
 1. Move to S2 (10,2). Toggle OFF (State 0-0-0).
 2. Move to S3 (2,1). Toggle ON (State 0-0-1).
 3. Check Wall (11,10).
-- Correction: (12,3) and (13,3) are WALLS (TYPE_2889). Must bypass via Row 4.
-- Path: (11,3) -> Down -> Right x3 -> Up -> Right x2 -> Up to (16,2).
+- Movement: Avoiding potential trap at (10,4) by maneuvering via (11,3).
+- Battle Prep: Entering (10,2) will likely trigger the Grunt at (11,2).
+- Goal: Reach (10,2) to Toggle Switch 2 OFF.
