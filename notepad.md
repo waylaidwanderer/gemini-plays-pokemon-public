@@ -34,10 +34,9 @@ Target State: 1-1-0.
 Hypothesis: S1 ON opens Wall (11,10). Hope G2 remains open or G3 opens.
 Path: (10,5) -> (16,5) -> (16,2).
 Checking if Grunt at (11,2) is a threat.
-Navigation: Arrived in Director's Room (Map 3_53) via stairs from Warehouse.
-Location: (22, 27).
-Goal: Talk to the real Director at (18, 29).
-Status: Card Key not yet obtained.
+Navigation: In Director's Room (3_53).
+Action: Interacting with Director to get Card Key.
+Goal: Return to Radio Tower 3F to use Card Key.
 Reflection (Turn 49283):
 - Progress: Solved the Warehouse switch puzzle! State 1-0-1 (S1 ON, S3 ON) opened a secret path at (17,6) leading to the Director's Room.
 - Lesson: Pay closer attention to tile change notifications in the tool output; they revealed the path I missed visually.
