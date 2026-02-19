@@ -1,8 +1,8 @@
-Action: Verifying Gate 3 (16,6).
-Path: Right to (16,5) -> Down.
-Hypothesis: If Gate 3 is Closed in 1-0-0, then Switch 3 must be key (since x-x-1 states opened it).
-Contingency: If Closed, move to Switch 3 (2,1) and turn ON (State 1-0-1).
-Ref: 1-0-1 is known to open G3. Need to see if it allows progress to Director.
+Action: Moving to (16,8) to check for a path East.
+Path: Down to (16,8).
+Hypothesis: With S1 ON, the wall at Col 18 might be open, or there is a path I haven't seen.
+Risk: Trap at (16,8). Notes say "Safe with S2 OFF". Current: S2 OFF.
+Observation: Gate 3 is definitely OPEN (standing on it).
 | S1 | S2 | S3 | G1 (2,6) | G2 (10,6) | G3 (16,6) | Sec.Door | Notes |
 |----|----|----|----------|-----------|-----------|----------|-------|
 | 1  | 1  | 0  | Closed   | Closed    | OPEN      | Closed   | Verified G3 Open. G1/G2/SecDoor Closed. |
