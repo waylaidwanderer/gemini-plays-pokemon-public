@@ -34,8 +34,8 @@ Target State: 1-1-0.
 Hypothesis: S1 ON opens Wall (11,10). Hope G2 remains open or G3 opens.
 Path: (10,5) -> (16,5) -> (16,2).
 Checking if Grunt at (11,2) is a threat.
-Navigation: In Director's Room (3_53). Interacting with Director from Side (19, 29) and Back (18, 28).
-Status: Frontal interaction was unresponsive. Trying to trigger script from other adjacent tiles.
+Navigation: Repositioning to (18, 30) via (21, 28) to avoid desk collision.
+Status: Director boxed in. Must interact from the front row (Row 30).
 Goal: Get Card Key.
 Reflection (Turn 49283):
 - Progress: Solved the Warehouse switch puzzle! State 1-0-1 (S1 ON, S3 ON) opened a secret path at (17,6) leading to the Director's Room.
