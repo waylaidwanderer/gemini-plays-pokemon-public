@@ -49,7 +49,7 @@ Plan: Return to Warehouse (3_54) to continue switch testing.
 Next State Test: 1-1-0 (S1=ON, S2=ON, S3=OFF).
 Reasoning: 1-0-0 opened Gate 3 but Director was unresponsive. Need to find a state that opens Gate 3 AND something else (like the wall at 11,10) or finding the Card Key.
 Action: Move to stairs at (22,27).
-Action: Moving from Stairs (23,3) to Switch 2 (10,1).
+Action: Moving from (21,3) to Switch 2 (10,1).
 Plan: Turn Switch 2 ON to test State 1-1-0.
 Hypothesis: 1-1-0 might open the Trap Room or Wall (11,10).
 Path: Left to (10,3), Up to (10,1).
