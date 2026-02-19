@@ -20,7 +20,8 @@ Reflection (Turn 49127):
 - Hygiene: Cleaning up old notes. Markers are helpful.
 - Plan: Verify 1-1-0 fully (G1, G2, G3). Then considering 0-1-1 retry or S1 OFF strategies.
 
-Action: Moving to Gate 1 (2,6).
-Path: Left along Row 5 to (2,5), then Down to enter Gate 1.
-Hypothesis: Summary suggests 1-1-0 opens Gate 1. Verifying.
-Goal: Reach area behind Gate 1 (Silver/Key location).
+Observation: Visual check suggests Gate 1 is Closed.
+Discrepancy: Notepad says S1=1, but Map Marker at (16,1) says 'Switch 1 (OFF)'.
+Hypothesis: I am actually in state 0-1-0 (S1=0, S2=1, S3=0), which explains why G1 is closed.
+Plan: Move to Switch 1 (16,1) to verify and turn it ON. Target State: 1-1-0.
+Action: Testing Gate 1 by pressing Down. If closed, will proceed to S1.
