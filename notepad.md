@@ -45,7 +45,7 @@ Action: Entering Gate 3 area. Checking for traps and path to inner wall.
 Plan: Move to (18,30) to talk to the Director from below.
 Path: Down to Row 30, Left to Col 18, Face Up, Interact.
 Context: Re-attempting interaction. If fails, will check Grunts.
-Plan: Check Director at (18,29) one last time from (18,30).
-Then move to investigate Rocket Grunts at Row 24.
-Path: Left to (18,30), Interact. Then Right to (21,30) and Up towards (21,24).
-Goal: Find Card Key or trigger event.
+Plan: Interact with Rocket Grunts at (22,24) and (19,24).
+Hypothesis: One of them might battle or have the Key.
+Path: Interact with Right Grunt, then Left Grunt.
+Context: Director interaction yielded nothing. Checking guards.
