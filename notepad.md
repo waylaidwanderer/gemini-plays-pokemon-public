@@ -1,8 +1,9 @@
-Current Strategy: Return to Warehouse (3_54) to open Gate 1 (2,6).
-Reasoning: Path past Grunts (20,24) is blocked. Director is unresponsive. Card Key is likely behind Gate 1.
-Switch Plan: Target State 0-1-1 (S1 OFF, S2 ON, S3 ON).
-Current State: 1-0-0 (S1 ON, S2 OFF, S3 OFF).
-Action: Move to Stairs (22,27).
+Current Strategy: Test State 0-1-1 (S1 OFF, S2 ON, S3 ON) to open Gate 1.
+Reasoning: Historical summary suggests S2+S3 opens Gate 1, contradicting my current table. Need to verify.
+Step 1: Turn Switch 1 (16,1) OFF. (Current State: 1-0-0 -> 0-0-0).
+Step 2: Turn Switch 2 (10,1) ON.
+Step 3: Turn Switch 3 (2,1) ON.
+Step 4: Check Gate 1.
 | S1 | S2 | S3 | G1 (2,6) | G2 (10,6) | G3 (16,6) | Sec.Door | Notes |
 |----|----|----|----------|-----------|-----------|----------|-------|
 | 1  | 1  | 0  | Closed   | Closed    | OPEN      | Closed   | Verified G3 Open. G1/G2/SecDoor Closed. |
