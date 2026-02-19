@@ -1,7 +1,8 @@
-Current Strategy: Passing through the Grunts to explore the Northern section of the room.
-Path: Up from (20,25) -> (20,24) -> (20,20).
-Hypothesis: The Key or real Director is in the back of this room.
-Observation: The Grunts do not block the path at (20,24) and (21,24).
+Current Strategy: Return to Warehouse (3_54) to open Gate 1 (2,6).
+Reasoning: Path past Grunts (20,24) is blocked. Director is unresponsive. Card Key is likely behind Gate 1.
+Switch Plan: Target State 0-1-1 (S1 OFF, S2 ON, S3 ON).
+Current State: 1-0-0 (S1 ON, S2 OFF, S3 OFF).
+Action: Move to Stairs (22,27).
 | S1 | S2 | S3 | G1 (2,6) | G2 (10,6) | G3 (16,6) | Sec.Door | Notes |
 |----|----|----|----------|-----------|-----------|----------|-------|
 | 1  | 1  | 0  | Closed   | Closed    | OPEN      | Closed   | Verified G3 Open. G1/G2/SecDoor Closed. |
