@@ -20,7 +20,7 @@ Reflection (Turn 49127):
 - Hygiene: Cleaning up old notes. Markers are helpful.
 - Plan: Verify 1-1-0 fully (G1, G2, G3). Then considering 0-1-1 retry or S1 OFF strategies.
 
-Action: Testing Gate 1 (2,6).
-Path: (8,4) -> Down to (8,5) -> Left to (2,5) -> Try Down to (2,6).
-Hypothesis: If Gate 1 is Open in 1-1-0, I can enter.
-Note: Previous turn aborted due to map change at (6,8). Might be relevant later.
+Action: Moving to Gate 1 (2,6).
+Path: Left along Row 5 to (2,5), then Down to enter Gate 1.
+Hypothesis: Summary suggests 1-1-0 opens Gate 1. Verifying.
+Goal: Reach area behind Gate 1 (Silver/Key location).
