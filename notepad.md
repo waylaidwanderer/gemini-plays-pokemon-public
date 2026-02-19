@@ -45,3 +45,7 @@ Action: Entering Gate 3 area. Checking for traps and path to inner wall.
 Plan: Move to (18,30) to talk to the Director from below.
 Path: Down to Row 30, Left to Col 18, Face Up, Interact.
 Context: Re-attempting interaction. If fails, will check Grunts.
+Observation: Director at (18,29) was unresponsive from (18,30).
+Hypothesis: Trying interaction from the side (17,29).
+Plan: Move Left, Up, Face Right, Interact.
+If this fails, will navigate to Grunts at (19,24) and (22,24).
