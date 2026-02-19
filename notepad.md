@@ -1,7 +1,8 @@
-Action: Moving to Gate 3 (16,6).
-Path: Right to (16,5) -> Down to check Gate.
-Hypothesis: Gate 3 is Open in 1-0-0.
-Goal: Enter Gate 3 area and proceed to Map 3_53.
+Action: Verifying Gate 3 (16,6).
+Path: Right to (16,5) -> Down.
+Hypothesis: If Gate 3 is Closed in 1-0-0, then Switch 3 must be key (since x-x-1 states opened it).
+Contingency: If Closed, move to Switch 3 (2,1) and turn ON (State 1-0-1).
+Ref: 1-0-1 is known to open G3. Need to see if it allows progress to Director.
 | S1 | S2 | S3 | G1 (2,6) | G2 (10,6) | G3 (16,6) | Sec.Door | Notes |
 |----|----|----|----------|-----------|-----------|----------|-------|
 | 1  | 1  | 0  | Closed   | Closed    | OPEN      | Closed   | Verified G3 Open. G1/G2/SecDoor Closed. |
