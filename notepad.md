@@ -26,8 +26,8 @@ Conclusion: Current State is 0-1-0 (S1=0, S2=1, S3=0).
 Plan: Go to Switch 1 (16,1) and turn it ON to achieve State 1-1-0.
 Hypothesis: 1-1-0 might open Gate 1 or the Wall at (11,10).
 Observation: Turning Switch 1 ON changed (12,9) from Wall to Floor.
-Action: Moving to Gate 3 (16,6) via Row 5 (Safe Path).
-Path: Up to (11,5) -> Right to (16,5) -> Check Gate 3.
-Hypothesis: Gate 3 is Open in 1-1-0. This allows access to the Stairs (23,3) leading to the Director.
-Reasoning: Need to return to Map 3_53 to interrogate Grunts, as Director was unresponsive.
-Ref: Avoids potential trap at (16,8).
+Action: Toggling Switch 1 (16,1).
+Hypothesis: Current state is 0-1-0 (G3 Closed). Toggling S1 will create 1-1-0.
+Prediction: 1-1-0 will OPEN Gate 3.
+Goal: If Gate 3 opens, return to Director's Room (3_53) to interrogate the Rocket Grunts (I left before doing this).
+Markers: Cleaning up conflicting S1 markers.
