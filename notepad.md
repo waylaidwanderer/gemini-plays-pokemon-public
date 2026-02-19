@@ -34,8 +34,8 @@ Target State: 1-1-0.
 Hypothesis: S1 ON opens Wall (11,10). Hope G2 remains open or G3 opens.
 Path: (10,5) -> (16,5) -> (16,2).
 Checking if Grunt at (11,2) is a threat.
-Navigation: Moving to Grunt at (22, 24).
-Status: Grunt at (19, 24) was unresponsive. Trying the other guard.
+Navigation: Interact with Grunt at (22, 24).
+Status: Director didn't speak. Assuming I must defeat the guards first.
 Goal: Get Card Key.
 Reflection (Turn 49283):
 - Progress: Solved the Warehouse switch puzzle! State 1-0-1 (S1 ON, S3 ON) opened a secret path at (17,6) leading to the Director's Room.
