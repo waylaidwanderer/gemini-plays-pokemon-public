@@ -40,3 +40,5 @@ Hypothesis: Gate 3 is OPEN in state 1-0-0.
 Safety: Row 5 is safe. Trap at (16,8) expected safe (S2 OFF).
 Observation: Transition to 1-0-0 opened (12,8) and (12,9) (Wall -> Floor).
 Action: checking Gate 3 (16,6).
+Observation: In State 1-0-0, Gate 3 (16,6) is OPEN. Tiles (17,6) and (17,7) also opened.
+Action: Entering Gate 3 area. Checking for traps and path to inner wall.
