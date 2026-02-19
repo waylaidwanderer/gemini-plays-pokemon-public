@@ -7,6 +7,6 @@ Reflection (Turn 49388):
 
 | S1 | S2 | S3 | G1 (2,6) | G2 (10,6) | G3 (16,6) | Sec.Door | Notes |
 |----|----|----|----------|-----------|-----------|----------|-------|
-| 1  | 1  | 0  | Closed   | OPEN      | Closed    | OPEN     | Verified 1-1-0. G2/SecDoor Open. Wall (11,10) Closed. |
+| 1  | 1  | 0  | Closed   | OPEN      | OPEN      | OPEN     | System Notification: Gate 3 Opened in 1-1-0. |
 | 1  | 0  | 1  | OPEN     | Closed    | Closed    | Closed   | Screen Verified: G1 OPEN. G2/G3/SecDoor Closed. |
 | 0  | 1  | 0  | ?        | ?         | ?         | ?        | Target State. |
