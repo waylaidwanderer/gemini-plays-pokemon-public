@@ -13,6 +13,6 @@ Reflection (Turn 49388):
 | 0  | 0  | 1  | Closed   | Closed    | Closed    | Closed   | Verified 0-0-1. All Gates Closed. |
 | 0  | 1  | 1  | Closed   | OPEN      | Closed    | OPEN     | Verified 0-1-1. Wall (11,10) Closed. |
 | 1  | 1  | 1  | Closed   | OPEN      | Closed    | OPEN     | Verified 1-1-1. G2/SecDoor Open. Wall (11,10) Closed. |
-- Movement: Flanking via (11,5)->(11,3) to avoid potential trap at (10,4).
-- Battle Prep: Expecting battle with Grunt at (11,2) upon reaching (10,2).
-- Goal: Reach (10,2), defeat Grunt, then Toggle S2 OFF.
+Current State: 1-0-1 (S1 ON, S2 OFF, S3 ON).
+Goal: Move to Switch 3 (2,1) and Toggle OFF -> State 1-0-0.
+Path: Column 8 (Safe) -> Row 5 -> Column 1.
