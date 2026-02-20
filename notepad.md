@@ -1,9 +1,9 @@
 ### Director's Room (Map 3_53)
-- **Location:** (21, 26).
-- **Status:** Investigating Rocket Grunt at (21, 25).
-- **Issue:** Grunt did not respond to 'A'.
-- **Plan:** Try bumping into him or walking around.
-- **Hypothesis:** He might be a blocker or requires a different angle.
+- **Location:** (21, 25).
+- **Status:** Interacting with Rocket Grunt at (21, 24).
+- **Correction:** Previous interaction failed due to facing wrong direction (Left instead of Up).
+- **Event:** Grunt appears to have moved North to (21, 24) when I stepped to (21, 25).
+- **Goal:** Confront Grunt (Likely Petrel).
 
 ### Objectives
 - [ ] Get Card Key from Director
