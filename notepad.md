@@ -49,10 +49,9 @@ New Plan: Recreate the "Magic Sequence".
   5. If Closed, Toggle Switch 1 ON (State 1-1-1).
 - Note: This tests the sequence S3 -> S2 -> S1.
 - Current Position: Moving to Switch 3 (2,1).
-- Movement: At (8,2). Moving to (10,2) to Toggle Switch 2.
-- Expectation: Grunt at (11,2) might engage.
+- Movement: At (10,2). Facing Up to toggle Switch 2.
+- Observation: Grunt at (11,2) is passive (did not engage).
 - Plan:
-  1. Reach (10,2).
-  2. Toggle S2 ON (State 1-1-1).
-  3. Toggle S2 OFF (State 1-0-1).
-  4. Check Gate 1.
+  1. Toggle S2 ON (State 1-1-1).
+  2. Toggle S2 OFF (State 1-0-1).
+  3. Check Gate 1.
