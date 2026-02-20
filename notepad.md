@@ -1,5 +1,5 @@
 ### Warehouse (Map 3_54)
-- **Status:** Planning to explore South Warehouse.
+- **Status:** Clearing text box. Preparing to move to Switch 3.
 - **Puzzle Strategy:**
   - Current: 1-1-1 (Gate 1 Open, Silver blocking path).
   - Goal: Switch to 1-1-0 (Switch 3 OFF) to Open Gate 3.
