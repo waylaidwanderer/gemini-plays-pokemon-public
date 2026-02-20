@@ -6,17 +6,17 @@
 - **Current State:** 0-1-1 (Left OFF, Mid ON, Right ON).
 - **Facts:**
   - Gate 3 (16,6): OPEN.
-  - Trap (16,8): ACTIVE (Warped to 16,5).
-  - Trap Logic: Active in 1-0-1 and 0-1-1.
-  - Gate 3 Logic: Open in 1-0-1 and 0-1-1 (Requires Sw1 ON).
-- **Goal:** Try State 1-1-1 (All ON).
-- **Hypothesis:**
-  - In 1-1-1, Path (16,10) opens.
-  - Maybe Trap (16,8) is SAFE in 1-1-1?
+  - Trap (16,8): ACTIVE.
+  - Room widens at Row 8: (15,8) & (17,8) are Floors.
+- **Solution:**
+  - The trap at (16,8) can be BYPASSED by stepping side.
+  - Use State 1-1-1 (All ON) to ensure Path (16,10) is open.
 - **Plan:**
-  1. Go Left to Switch 3 (Col 2).
+  1. Go Left to Switch 3 (Col 1 Safe Path).
   2. Toggle Sw3 ON -> 1-1-1.
-  3. Check Gate 3 and Trap (16,8).
+  3. Go to Gate 3 (16,6).
+  4. Walk AROUND Trap (16,8).
+  5. Enter East Wing.
 - **New Plan:**
   - Try State 1-0-1 (Left ON, Mid OFF, Right ON).
   - Expectation: Gate 3 OPEN.
