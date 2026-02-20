@@ -8,9 +8,9 @@
 | OFF | OFF | ON | OPEN | Closed | ? | 0-0-1 (Checking Gate 3) |
 | ON | OFF | ON | Closed | Closed | Closed | 1-0-1 (Inner 2,10 Closed) |
 
-### Strategy: Test 0-1-0 (Gate 3)
-- **Current:** 1-0-0 (Sw1 ON).
-- **Step 1:** Go to Sw1 (16,1) -> Turn OFF (-> 0-0-0).
-- **Step 2:** Go to Sw2 (10,1) -> Turn ON (-> 0-1-0).
-- **Step 3:** Check Gate 3.
-- **Reason:** 0-1-0 is the last reasonable guess for Gate 3.
+### Strategy: Test 0-1-0 (Inner Wall 11,10)
+- **Current:** 1-1-0 (Sw1 ON, Sw2 ON).
+- **Step 1:** Go to Sw1 (16,1) -> Turn OFF.
+- **Result:** 0-1-0 (Sw1 OFF, Sw2 ON).
+- **Step 2:** Check Inner Wall at (11,10).
+- **Reason:** Sw2 keeps (11,6) open. Sw1 might toggle (11,10).
