@@ -74,3 +74,5 @@
 - Gate 1 (2, 6) is OPEN.
 - Gate 2 (10, 6) is CLOSED.
 - Proceeding with dialogue. Expecting Silver to leave or battle.
+- Silver Dialogue: "There's nothing down there."
+- Continuing conversation.
