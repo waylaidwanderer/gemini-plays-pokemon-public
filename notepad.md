@@ -1,19 +1,12 @@
-### Puzzle Logic Matrix (Hard Facts - Physical Bumps)
-| Sw1(R) | Sw2(M) | Sw3(L) | G1(2,6) | G2(10,6) | G3(16,6) | Note |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| ON | ON | ON | Closed | Closed | Closed | 1-1-1 (Confirmed Closed) |
-| ON | ON | OFF | OPEN | OPEN | Closed | 1-1-0 (11,10 is CLOSED - Failed) |
-| OFF | ON | OFF | Closed | OPEN | Closed | 0-1-0 (11,10 is CLOSED) |
-| ON | OFF | OFF | OPEN | Closed | OPEN | 1-0-0 (Gate 3 is OPEN!) |
-| OFF | OFF | ON | OPEN | Closed | ? | 0-0-1 (Checking Gate 3) |
-| ON | OFF | ON | Closed | Closed | Closed | 1-0-1 (Inner 2,10 Closed) |
+### Objectives
+- [ ] Get Card Key from Director (Current Loc: 3_53, (18,30))
+- [ ] Return to Radio Tower 3F
+- [ ] Open Shutters and Defeat Team Rocket
 
-### Strategy: Rescue Director
-- **Current:** 1-0-0 (Sw1 ON, Sw2 OFF, Sw3 OFF).
-- **Status:** Gate 3 is OPEN. Moving to explore East Wing.
-- **Risk:** Trap at (16,8) or Grunt at (17,2).
-- **Plan:** Bypass trap via Col 17 if possible. Fight Grunt if needed.
-- **Success!** Gate 3 opened with the '1-0-0' configuration (Switch 1 ON, others OFF).
-- Entered the Director's Room via the stairs at (23, 3) in the Warehouse.
-- Current Location: Map 3_53 (Director's Room).
-- Goal: Talk to the Director to get the Card Key.
+### Warehouse Puzzle Solution
+- **Winning State:** Switch 1 ON, Switch 2 OFF, Switch 3 OFF -> Opens Gate 3 (Far Right).
+- Gate 3 leads to the Director's Room stairs.
+
+### Key Locations
+- Director: Map 3_53 (18, 29)
+- Radio Tower: Goldenrod City
