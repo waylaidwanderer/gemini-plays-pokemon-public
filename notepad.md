@@ -60,7 +60,8 @@
 - Hypothesis: Rival event must be cleared to trigger Director event.
 - Director status: Unresponsive in 3_53.
 - Grunt status: Unresponsive in 3_53.
-- Trying to reach Rival Silver at (4, 8).
-- Path: From (17, 3), exit Gate 3 (16, 6), navigate South/West to (4, 8).
-- If blocked, will investigate switch combinations.
-- Assumption: Gate 3 is OPEN (Switch 1 ON).
+- Navigation Update: Gate 3 (16, 6) appears CLOSED in Mental Map (XML type 2889).
+- I am effectively trapped in the Director's corridor until I open it.
+- Action: Toggle Switch 1 at (16, 1) to open Gate 3.
+- Then: Proceed to Rival Silver at (4, 8).
+- Director/Grunts in 3_53 remain unresponsive. Focus is on clearing the Rival event.
