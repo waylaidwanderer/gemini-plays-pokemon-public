@@ -6,14 +6,13 @@
 - **Current State:** 0-0-1 (Sw1 OFF, Sw2 OFF, Sw3 ON).
 - **Facts:**
   - Gate 3 (16,6) is OPEN.
-  - Gate 1 & 2 Closed.
-  - Wall (16,10) is BLOCKED (TYPE_2889).
-  - Traps at (11,9) and (10,9) suspected active (Safe in 100).
-- **Goal:** Explore West from Gate 3 area.
+  - Wall (11,10) is OPEN (TYPE_3fe2).
+  - Trap at (11,9) is SAFE.
+- **Goal:** Explore Back Area (Rows 10-25).
 - **Plan:**
-  1. Move West to (11,9).
-  2. If Trap triggers, note it and try Switch 2 (Gate 2 path).
-  3. If Safe, check Wall (11,10).
+  1. Move South into the room.
+  2. Defeat Burglar Duncan (9,12).
+  3. Find Card Key and Director.
 - **Plan:**
   1. Go to Gate 3 (16,6) via Row 5 (Safe Lane).
   2. Flank Trap (16,8) via (17,8) (Right side).
