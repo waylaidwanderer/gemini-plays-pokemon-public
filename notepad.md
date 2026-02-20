@@ -12,10 +12,8 @@
 
 ### Strategy: Test 0-1-0 (OFF-ON-OFF)
 - **Status:** Sw1=OFF, Sw2=ON, Sw3=OFF.
-- **Observation:** Gate 2 (10,6) is OPEN.
-- **Hypothesis:** Sw2 ON opens Gate 2 (and maybe (11,6)?).
+- **Observation:** Gate 2 (10,6) is OPEN. I am at (11,6).
 - **Plan:**
-  1. Explore South of Gate 2.
-  2. Check "Secret Door" at (11,6).
-  3. Try to reach Wall (11,10).
-  4. Beware of Traps at (10,9) and (11,9).
+  1. Move South to check the wall at (11,10).
+  2. Be cautious of potential traps at (10,9) and (11,9).
+  3. If (11,10) is a wall, bump it to confirm.
