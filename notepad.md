@@ -6,11 +6,12 @@
 - **Current State:** 0-1-1 (Left OFF, Mid ON, Right ON).
 - **Facts:**
   - Gate 3 (16,6) is OPEN.
-  - Trap (16,8) is ACTIVE.
-  - Room width at Row 7-8 allows FLANKING.
-- **Goal:** Explore East Wing (Back Area).
+  - Path at (16,10) is BLOCKED (Wall).
+  - Path at (16,10) opens in 1-1-1.
+- **Goal:** Set State 1-1-1 (All ON).
 - **Plan:**
-  1. Flank Trap (16,8): Down to (16,7) -> Left -> Down -> Down -> Right.
-  2. Continue South to Row 12.
-  3. Avoid Trap Warp at (17,12).
-  4. Battle/Explore.
+  1. Return to Switch 3 (2,1).
+  2. Toggle Sw3 ON -> 1-1-1.
+  3. Return to Gate 3 (16,6).
+  4. Flank Trap (16,8) via (15,8).
+  5. Enter Back Area via (16,10).
