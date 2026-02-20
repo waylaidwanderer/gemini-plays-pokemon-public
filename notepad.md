@@ -5,12 +5,12 @@
 | OFF | OFF | ON | OPEN | Closed | Closed | 0-0-1 (Confirmed) |
 | ON | OFF | OFF | OPEN | Closed | Closed | 1-0-0 (Inner 2,10 Closed) |
 | ON | OFF | ON | Closed | Closed | Closed | 1-0-1 (Confirmed Closed) |
-| OFF | ON | ON | ? | ? | ? | 0-1-1 (Testing...) |
+| OFF | ON | ON | ? | Closed | Closed | 0-1-1 (Confirmed Closed) |
 | OFF | ON | OFF | Closed | OPEN | Closed | 0-1-0 (Wall 11,10 Closed) |
 | OFF | OFF | OFF | Closed | Closed | Closed | 0-0-0 (Confirmed Reset) |
 
-### Strategy: Test 0-1-1
-- **Current:** 0-1-1.
+### Strategy: Test 0-0-1 (RETRY)
+- **Current:** 0-0-1.
 - **Action:** Check Gate 3 (16,6).
 - **Goal:** Find Open Gate 3.
-- **Next:** If 0-1-1 fails, try 0-0-1 or 1-0-0.
+- **Reason:** Previous 0-0-1 test checked Gate 1 (Open) but missed Gate 3.
