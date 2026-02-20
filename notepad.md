@@ -55,3 +55,7 @@
 - Returning to Warehouse (3_54) to search for missed items/triggers.
 - Possibility: The Card Key is an ITEM BALL in the Warehouse, not given by the Director?
 - Or I need to clear the warehouse of all enemies first?
+- Grunt at (17, 2) in Warehouse interaction attempt.
+- Next Plan: Re-visit Rival Silver at (4, 8).
+- Rationale: Silver refused to battle earlier. This might be the missing trigger. I need to clear the Rival event to progress to the Director.
+- If Silver is gone, then the event is cleared. If he is there and silent, I am soft-locked or missing a trigger (maybe I need to approach him from a specific angle?).
