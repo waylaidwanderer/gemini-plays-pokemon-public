@@ -57,10 +57,11 @@ REFLECTION (Turn 49499):
   - Path forces North to Row 5.
   - New Exploration Zone: North-East Room (Rows 2-5, Cols 18+).
   - Saw Warp at (22,10) behind walls. Access likely from East or South.
-- Issue: NPCs in Director's Office (3_53) are unresponsive/imposters.
-- Conclusion: The Real Director must be in the Warehouse (3_54) behind Gate 3, likely in the area I haven't explored yet (South?).
-- Plan: 
-  1. Return to Warehouse (3_54) via stairs at (22, 27).
-  2. Explore South of (16, 8) in the East Wing.
-  3. Look for the Real Director or the Card Key item.
-- Note: Trap at (16,8) is safe in State 1-0-1.
+- Confirmed: Director in Office (3_53) is a fake/imposter (Petrel). Real Director is in Warehouse.
+- Plan:
+  1. Return to Gate 3 (16,6) via Row 5 (since Row 3 is blocked by walls).
+  2. Pass Gate 3 and Trap (16,8) [Safe in 1-0-1].
+  3. Go West along Row 8 to check "Secret Exit" wall at (11,10).
+  4. Investigate area around (11,10) for path to South-East Room.
+- Current State: 1-0-1 (Gate 3 Open).
+- Goal: Find the Real Director.
