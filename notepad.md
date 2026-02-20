@@ -1,10 +1,11 @@
-### Warehouse Trap Analysis
-- **Grunt at (17,2):** Flavor text only ("dis Team Rocket"). No battle triggered after looping dialogue.
-- **Trap State:** 
-  - 3_54 (NE): Blocked by Gate 3 (Closed), Walls, and Grunt.
-  - 3_53 (Director Room): Blocked by Grunts (North) and Director (South).
-- **Hypothesis:** 
-  - The solution is in 3_53.
-  - Likely need to interact with the Director or find a hidden trigger in the room.
-  - Or, the Grunts at 3_53 (Row 24) can be bypassed or battled.
-- **Plan:** Return to 3_53. Search the room (walls, books, plants). Interact with Director repeatedly. Try to force past Grunts.
+### Escape Plan: Operation Dig Out
+- **Situation:** Trapped in Warehouse NE (3_54). Gate 3 is closed. Grunt at (17,2) is broken/flavor text.
+- **Solution:** Garnet has DIG.
+- **Action:** Use Dig to warp out of the dungeon (likely to Goldenrod PC).
+- **Post-Escape:**
+  1. Heal (if needed).
+  2. Return to Radio Tower.
+  3. Climb back to 3F.
+  4. Enter Warehouse from Main Entrance.
+  5. Solve Puzzle Correctly: Aim for State 1-0-1 (S3 ON, S2 OFF, S1 ON) to access the SE corner via Gate 3 from the *South* side.
+- **Goal:** Rescue the Real Director in the SE Warehouse section.
