@@ -7,13 +7,13 @@
 | ON | OFF | ON | Closed | Closed | Closed | 1-0-1 |
 | OFF | ON | ON | Closed | Closed | Closed | 0-1-1 |
 | OFF | ON | OFF | Closed | OPEN | Closed | 0-1-0 (Wall 11,10 Closed) |
-| OFF | OFF | OFF | ? | ? | Closed | 0-0-0 (Testing...) |
-| ON | ON | OFF | ? | OPEN | Closed | 1-1-0 (Wall 11,10 Closed) |
+| OFF | OFF | OFF | Closed | Closed | Closed | 0-0-0 (Confirmed Reset) |
 
-### Strategy: Test 0-0-0 (All OFF)
+### Strategy: Test Order 3-2-1
 - **Current:** 0-0-0.
-- **Plan:** Check Gate 2 (10,6) then Gate 1 (2,6).
-- **Goal:** Establish "Reset" state.
-- **Hypothesis:** 0-0-0 closes everything.
-- **Next:** If all closed, try "Order" sequence (Start with Sw3?).
-- **Conflict:** Summary says 1-0-1 or 1-1-1 might open Gate 3. Re-test if needed.
+- **Hypothesis:** Order matters (Burglar Hint).
+- **Sequence:**
+  1. Turn Sw3 ON (-> 0-0-1). Check Gate 1.
+  2. Turn Sw2 ON (-> 0-1-1). Check Gate 2.
+  3. Turn Sw1 ON (-> 1-1-1). Check Gate 3.
+- **Note:** Summary claims 1-1-1 opens back area. I previously found it closed. Maybe sequence fixes this?
