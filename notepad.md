@@ -28,8 +28,11 @@
 - Risk: Crossing the middle column (x=10) traps.
 - Known Traps: (10, 5) [Warp], (10, 2) [Suspected].
 - Strategy: Try Row 3 or 4.
-- Toggling Switch 1 OFF.
-- New State: 0-1-0 (Sw1 OFF, Sw2 ON, Sw3 OFF).
-- Plan: Use `check_gate_states` next turn.
-- Risk: Gate 3 might close, temporarily trapping me.
-- If trapped: Toggle Sw1 ON again.
+- Current State: 0-1-0 (Sw1 OFF, Sw2 ON, Sw3 OFF).
+- Action: Toggled Sw1 OFF.
+- Checking gate states.
+- Risk: Gate 3 (16, 6) might be CLOSED.
+- Gate 1 (2, 6) status unknown.
+- Goal: Open Gate 1 to reach Silver.
+- If Gate 3 Closed and Gate 1 Closed: Must revert Sw1 to ON to escape.
+- Next Test: If 0-1-0 fails, try 0-0-0 (Turn Sw2 OFF). But need to reach Sw2 first.
