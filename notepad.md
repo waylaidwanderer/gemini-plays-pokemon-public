@@ -1,13 +1,14 @@
-### Director's Room (Map 3_53)
-- **Status:** Room appears empty of active NPCs. Grunts at (19, 24) and (22, 24) are unresponsive blockers.
-- **Problem:** Real Director is missing.
-- **Hypothesis:** Must clear Warehouse Grunts to trigger Director's appearance or unblock the path.
-- **Next Step:** Return to Warehouse (3_54) and defeat Grunt at (11, 2) and re-check Grunt at (17, 2).
+### Warehouse (Map 3_54)
+- **Status:** Returned from Director's Room.
+- **Goal:** Clear Warehouse Grunts to trigger progression.
+- **Target:** Grunt at (11, 2).
+- **Route:** (23,3) -> Row 5 -> (11, 3).
+- **Hazards:** Trap Room at (15, 4). Walls at (12, 3) and (18, 3).
 
 ### Objectives
-- [ ] Get Card Key from Director
-- [ ] Return to Radio Tower 3F
-- [ ] Defeat Team Rocket Executives
+- [ ] Defeat Grunt at (11, 2)
+- [ ] Defeat Grunt at (17, 2) (if needed)
+- [ ] Rescue Director / Get Card Key
 
 ### Current Event: Rival Silver
 - Status: Present at (4,8). Blocking path East.
