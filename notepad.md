@@ -18,8 +18,9 @@
 
 ### Current Event: Rival Silver
 - Status: Present at (4,8). Blocking path East.
-- Action: Attempting to bypass via Row 9.
-- Note: Did not leave after previous dialogue.
+- Strategy: Bypassing via Internal Warehouse Bays (Gate 1 -> Row 3 -> Gate 3).
+- Reason: Row 9 has potential trap warps. Row 3 is confirmed safe.
+- **Route:** (3,8) -> Up to (3,3) -> East to (16,3) -> South through Gate 3.
 - **Correction:** Grunt at (17,2) appears to be passive (non-hostile). He just repeats dialogue.
 - **Action:** Ignore Grunt. Move to blue machine at (16,1) which is likely Switch 1.
 - **Route:** Left -> Up -> Interact.
