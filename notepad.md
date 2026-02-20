@@ -8,11 +8,11 @@
 | OFF | ON | ON | Closed | Closed | Closed | 0-1-1 |
 | OFF | ON | OFF | Closed | OPEN | Closed | 0-1-0 (Wall 11,10 Closed) |
 | OFF | OFF | OFF | ? | ? | ? | 0-0-0 (Untested) |
-| ON | ON | OFF | ? | OPEN | Closed | 1-1-0 (Checking Wall 11,10) |
+| ON | ON | OFF | ? | OPEN | Closed | 1-1-0 (Wall 11,10 Closed) |
 
-### Strategy: Test 1-1-0 (ON-ON-OFF)
-- **Current:** 1-1-0.
-- **Observations:** Gate 2 (10,6) is OPEN.
-- **Plan:** Go South to check Wall (11,10).
-- **Hypothesis:** Switch 1 ON might open the wall at (11,10).
-- **Risk:** Traps at (10,9)/(11,9) should be SAFE (since safe in 1-0-0).
+### Strategy: Reset to 0-0-0
+- **Current:** 1-1-0 (Wall 11,10 CLOSED).
+- **Plan:** Go North through Gate 2.
+- **Action 1:** Turn Sw2 OFF (-> 1-0-0).
+- **Action 2:** Turn Sw1 OFF (-> 0-0-0).
+- **Goal:** Test 0-0-0 state. Maybe it opens the middle wall?
