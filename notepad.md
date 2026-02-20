@@ -1,8 +1,7 @@
 ### Puzzle Solution: Operation Rescue Director
 - **Goal:** Find Real Director & Card Key (South Room).
 - **Status:** Sw1=ON, Sw2=OFF, Sw3=OFF (1-0-0).
-- **Observation:** Gate 1 (2,6) is OPEN.
-- **Plan:** Flank Silver (4,8) via Row 9.
-- **Route:** (2,7) -> (2,9) -> East to (10,9).
-- **Hypothesis:** 1-0-0 allows access to the central area from the left, bypassing Gate 2.
-- **Risk:** Traps at (10,9) and (11,9). Notepad says (10,9) is "Safe (100)". 1-0-0 matches 100!
+- **Observation:** Gate 1 (2,6) is OPEN. Wall at (6,9) blocks East path.
+- **Hypothesis:** Gate at (2,10) might be open in 1-0-0.
+- **Plan:** Check Gate (2,10).
+- **Contingency:** If (2,10) is closed, 1-0-0 is a dead end. Try 0-0-0 next?
