@@ -24,14 +24,15 @@ Plan:
 | 1-1-0 | 1 | 1 | 0 | Closed | OPEN | Closed | OPEN | Closed | Tool 49437/XML |
 | 1-1-1 | 1 | 1 | 1 | Closed | OPEN | Closed | OPEN | Closed | Tool 49419 |
 
-Current State: 0-0-1 (S3 ON).
-Tool Output (0-0-1): Identical to 0-0-0. Gate 1 CLOSED.
-Hypothesis: ORDER MATTERS.
-- Success Sequence (Turn 49364): Reached 1-0-1 via 0-1-1 -> 1-1-1 -> 1-0-1 (S2 OFF was last).
-- Fail Sequence (Turn 49446): Reached 1-0-1 via 1-0-0 -> 1-0-1 (S3 ON was last).
-- New Test Sequence: 0-0-0 -> 0-0-1 (S3 ON) -> 1-0-1 (S1 ON).
-- Logic: "Switch on the End first" -> Start with S3, then S1.
-Plan: Move to Switch 1 (16,1), Toggle ON, Check Gates.
+Current State: 1-0-1 (Reached via S3->S1).
+Tool Output: Gate 1 CLOSED.
+Conclusion: "Switch on End" sequence failed.
+Recall Success (Turn 49364): Reached 1-0-1 via S2 OFF (from 1-1-1).
+New Plan: Recreate the "Magic Sequence".
+1. Move to Switch 2 (10,2).
+2. Toggle ON -> State 1-1-1.
+3. Toggle OFF -> State 1-0-1.
+4. Verify Gate 1 (Should be OPEN).
 - Discovery: Tile (2,4) (Trap) is Safe/Inactive in State 1-0-1. I did not warp.
 - Action: Moving South to verify Gate 1 state physically.
 - Gate 3 leads to the back corridor (Row 8/9).
