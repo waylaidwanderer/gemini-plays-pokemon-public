@@ -3,7 +3,10 @@
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | ON | ON | ON | Closed | Closed | Closed | 1-1-1 (Confirmed Closed) |
 | OFF | OFF | ON | OPEN | Closed | ? | 0-0-1 (Checking Gate 3) |
-| ON | OFF | OFF | OPEN | Closed | ? | 1-0-0 (Checking Gate 3) |
+| ON | ON | OFF | OPEN | OPEN | Closed | 1-1-0 (Current) |
+| OFF | ON | OFF | Closed | OPEN | ? | 0-1-0 (Checking Gate 3) |
+| ON | OFF | OFF | OPEN | Closed | ? | 1-0-0 (Sw1 Opens 11,6) |
+
 | ON | OFF | ON | Closed | Closed | Closed | 1-0-1 (Inner 2,10 Closed) |
 
 ### Strategy: Test 0-1-0 (Gate 3)
