@@ -1,5 +1,5 @@
 ### Objectives
-- [ ] Get Card Key from Director (Current Loc: 3_53, (18,30))
+- [ ] Get Card Key from Director (Target: Middle Section of Warehouse 3_54)
 - [ ] Return to Radio Tower 3F
 - [ ] Open Shutters and Defeat Team Rocket
 
