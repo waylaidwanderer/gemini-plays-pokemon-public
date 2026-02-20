@@ -70,3 +70,12 @@ REFLECTION (Turn 49499):
 - Action: Visual confirmation of Gate 3. If closed, must return to Director's Office (3_53) via stairs at (23,3).
 - Hypothesis: Leaving the map or stepping on a trigger reset the switches or closed the gate.
 - Plan for 3_53: Attempt to interact with Director/Grunts again. Try walking INTO them or checking for hidden switches.
+- Visual Confirmation (Turn 49524): Gate 3 (16,6) is definitively CLOSED (TYPE_2889).
+- I am physically trapped in the NE Section (Rows 2-5, Cols 17-25).
+- Path to South is blocked by Walls (Row 6).
+- Path to West is blocked by Gate 3.
+- Only Exit: Stairs at (23,3) leading to Director's Office (3_53).
+- Puzzle Mechanic Insight: Leaving the main warehouse area via stairs (23,3) likely resets the switches or triggers a specific state change.
+- New Plan: Return to 3_53. Re-examine everything. The "Fake Director" might be a key. Maybe I need to talk to him repeatedly or from a specific angle? Or maybe there's a hidden switch in that room.
+- Confronting Reality: I cannot reach the main switch bank from here. Digging out is a last resort but valid if I'm truly soft-locked.
+- Update: Sprite at (17,2) is visible. Looks like a Rocket Grunt. Maybe they have a key? I'll check them before leaving.
