@@ -5,12 +5,12 @@
 
 ### Warehouse Puzzle
 - **Current Real State:** Switch 2 (ON), Switch 1 (OFF), Switch 3 (OFF). (State: 0-1-0)
-- **Gate Status:** Gate 2 (Middle) is OPEN (Verified visually).
-- **Goal:** Explore Middle Section to find Director.
-- **Path:** Use Column 11 to avoid upper traps, then move Left at Row 8 to avoid lower traps.
+- **Gate Status:** Gate 2 (Middle) is CLOSED (Verified Turn 50620).
+- **Goal:** Reset Switch 2 to OFF, then try sequence.
+- **Hint:** "End is the one to press first".
 - **Notes:** 
-    - Switch 2 opened Gate 2 and likely the Secret Door at (11, 6).
-    - Traps at (10, 4), (10, 5), (10, 9), (11, 9) must be avoided.
+    - Switch 2 ON = Gate 2 Closed (Contra-indicator to previous note).
+    - Trap at (10, 4) appears inactive with Switch 2 ON.
 
 ### Current Event: Rival Silver
 - Location: (4, 8) in Map 3_54.
