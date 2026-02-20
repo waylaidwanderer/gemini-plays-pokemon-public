@@ -1,11 +1,11 @@
 ### Warehouse (Map 3_54)
-- **Status:** Clearing text box. Preparing to move to Switch 3.
+- **Status:** Moving to Switch 3.
 - **Puzzle Strategy:**
   - Current: 1-1-1 (Gate 1 Open, Silver blocking path).
   - Goal: Switch to 1-1-0 (Switch 3 OFF) to Open Gate 3.
   - Reason: Bypass Silver via Gate 3 to reach South Warehouse.
 - **Next:** Toggle Switch 3, then head to Gate 3.
-- **Targets:** Burglar Duncan (9,12), Grunt F (19,12).
+- **Targets:** Burglar Duncan (9,12), Grunt F (19,12), Back Gate (2,10), Secret Wall (11,10).
 
 ### Objectives
 - [ ] Turn Switch 3 OFF
