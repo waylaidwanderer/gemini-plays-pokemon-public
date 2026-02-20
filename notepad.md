@@ -9,14 +9,14 @@
   1. Go West to Junction (6,7).
   2. Go South to Shutter (6,20).
   3. Enter Warehouse (3_54).
-- **Warehouse Puzzle (Testing 1-1-1):**
-  - Switch 3 (Left): ON.
+- **Warehouse Puzzle (Testing 1-1-0):**
+  - Switch 3 (Left): OFF.
   - Switch 2 (Middle): ON.
   - Switch 1 (Right): ON.
-  - **Result:** Gate 2 (10,6) is CLOSED.
-  - **Task:** Check Gate 1 (2,6) then Toggle Switch 3 OFF.
-  - **Next Test:** 1-1-0 (Left OFF, Mid+Right ON).
+  - **Action:** Toggled Switch 3 OFF.
+  - **Task:** Check Gate 2 (10,6) and Gate 3 (16,6).
   - **Previous Results:**
     - 0-0-1 (Left ON): Gate 1 OPEN.
     - 1-0-1 (Left+Right ON): Gate 3 OPEN.
     - 0-1-1 (Left+Mid ON): Gate 3 OPEN, Gate 2 CLOSED.
+    - 1-1-1 (All ON): Gate 1 OPEN, Gate 2 CLOSED.
