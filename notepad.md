@@ -1,11 +1,8 @@
 ### Director's Room (Map 3_53)
 - **Location:** (18, 30) Area.
-- **Status:** Searching room.
-- **Hypothesis:** Director might be behind the desk or I missed an interaction.
-- **Plan:** 
-  1. Interact with the desk/furniture.
-  2. Search the entire room (walk everywhere).
-  3. If empty, return to Warehouse and check the Grunt.
+- **Status:** Sweeping room for Director.
+- **Action:** Checking (24, 28) and other corners.
+- **Contingency:** If empty, return to Warehouse (3_54) and check Grunt at (17, 2).
 
 ### Objectives
 - [ ] Get Card Key from Director
