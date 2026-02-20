@@ -148,11 +148,15 @@
       "properties": {
         "autopress_buttons": {
           "type": "boolean",
-          "default": false
+          "default": false,
+          "description": "If true and the tool returns a list of buttons, they will be pressed automatically. Limit: 100 buttons max per call."
         }
-      }
+      },
+      "required": [
+        "autopress_buttons"
+      ]
     },
-    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\ntry:\n    root = ET.fromstring(map_xml_string)\n    gates = {\n        \"Gate 1 (2,6)\": (2, 6),\n        \"Gate 2 (10,6)\": (10, 6),\n        \"Gate 3 (16,6)\": (16, 6),\n        \"Secret Door (11,6)\": (11, 6),\n        \"Wall (11,10)\": (11, 10)\n    }\n    results = {}\n    for name, (x, y) in gates.items():\n        tile = root.find(f\".//Row[@id='{y}']/Tile[@id='{x}']\")\n        if tile is not None:\n            results[name] = tile.get('type')\n        else:\n            results[name] = \"Unknown\"\n    print(json.dumps(results))\nexcept Exception as e:\n    print(json.dumps({\"error\": str(e)}))",
+    "python_script": "import xml.etree.ElementTree as ET\n\ndef check_gate_states(map_xml_string):\n    root = ET.fromstring(map_xml_string)\n    \n    # Define targets to check (x, y)\n    targets = {\n        \"Gate 1\": (2, 6),\n        \"Gate 2\": (10, 6),\n        \"Gate 3\": (16, 6),\n        \"Secret Door\": (11, 6),\n        \"Inner Wall\": (11, 10),\n        \"Back Gate\": (2, 10)\n    }\n    \n    results = {}\n    \n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            if (x, y) in targets.values():\n                tile_type = tile.attrib.get('type', 'unknown')\n                # Find the name for this coordinate\n                name = [k for k, v in targets.items() if v == (x, y)][0]\n                results[name] = tile_type\n\n    print(f\"{results}\")\n\ncheck_gate_states(map_xml_string)",
     "history": [
       {
         "commit_message": "Initial version",
@@ -238,6 +242,11 @@
         "commit_message": "Initial definition of check_gate_states tool to verify gate status remotely.",
         "timestamp": "2026-02-18T23:52:21.808Z",
         "action_counter": 49078
+      },
+      {
+        "commit_message": "Initial definition of the check_gate_states tool.",
+        "timestamp": "2026-02-20T18:16:21.328Z",
+        "action_counter": 50375
       }
     ]
   },
