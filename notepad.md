@@ -60,3 +60,7 @@
 - Hypothesis: Rival event must be cleared to trigger Director event.
 - Director status: Unresponsive in 3_53.
 - Grunt status: Unresponsive in 3_53.
+- Trying to reach Rival Silver at (4, 8).
+- Path: From (17, 3), exit Gate 3 (16, 6), navigate South/West to (4, 8).
+- If blocked, will investigate switch combinations.
+- Assumption: Gate 3 is OPEN (Switch 1 ON).
