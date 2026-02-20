@@ -1,14 +1,12 @@
 ### Warehouse (Map 3_54)
-- **Status:** Switch 2 turned OFF. State: 1-0-0.
-- **Puzzle Strategy:**
-  - Expected State: Gate 3 OPEN.
-  - Plan: Navigate internally to Gate 3.
-  - Route: (10,2) -> (11,3) -> (11,4) -> (14,4) -> (14,3) -> (16,3) -> Gate 3.
-  - Reason: Avoid "Trap Room" at (15,4).
-- **Next:** Move to Gate 3 (16,6).
-- **Targets:** Burglar Duncan (9,12), Grunt F (19,12).
+- **Status:** Gate 3 is CLOSED. Puzzle State is likely 1-1-0 (Switch 2 is ON), not 1-0-0.
+- **Correction:** I must have accidentally toggled Switch 2 twice or failed to toggle it.
+- **Action:** Return to Switch 2 (10,1). Turn it OFF.
+- **Goal:** Achieve State 1-0-0 (Switch 1 ON, Sw2 OFF, Sw3 OFF).
+- **Target:** Switch 2.
 
 ### Objectives
+- [ ] Turn Switch 2 OFF (Verify)
 - [ ] Enter South Warehouse via Gate 3
 - [ ] Defeat Trainers and Explore
 - [ ] Rescue Director / Get Card Key
