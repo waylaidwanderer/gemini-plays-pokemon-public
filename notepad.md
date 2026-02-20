@@ -3,14 +3,13 @@
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | ON | ON | ON | Closed | Closed | Closed | 1-1-1 (Confirmed Closed) |
 | ON | ON | OFF | OPEN | OPEN | Closed | 1-1-0 (11,10 is CLOSED - Failed) |
-| OFF | ON | OFF | Closed | OPEN | Closed | 0-1-0 (Try this next for 11,10) |
+| OFF | ON | OFF | Closed | OPEN | Closed | 0-1-0 (11,10 is CLOSED) |
 | ON | OFF | OFF | OPEN | Closed | ? | 1-0-0 (11,6 CLOSED - Sw2 controls door) |
 | OFF | OFF | ON | OPEN | Closed | ? | 0-0-1 (Checking Gate 3) |
 | ON | OFF | ON | Closed | Closed | Closed | 1-0-1 (Inner 2,10 Closed) |
 
-### Strategy: Test 0-1-0 (Inner Wall 11,10)
-- **Current:** 1-1-0 (Sw1 ON, Sw2 ON).
-- **Step 1:** Go to Sw1 (16,1) -> Turn OFF.
-- **Result:** 0-1-0 (Sw1 OFF, Sw2 ON).
-- **Step 2:** Check Inner Wall at (11,10).
-- **Reason:** Sw2 keeps (11,6) open. Sw1 might toggle (11,10).
+### Strategy: Test 0-1-1
+- **Current:** 0-1-0 (Sw1 OFF, Sw2 ON).
+- **Step 1:** Go to Sw3 (2,1) -> Turn ON.
+- **Result:** 0-1-1 (Sw1 OFF, Sw2 ON, Sw3 ON).
+- **Step 2:** Check Gates. (Maybe G3 opens?)
