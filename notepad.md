@@ -11,4 +11,5 @@
 - **Action:** Go to Sw3 (2,2) -> Turn OFF.
 - **Goal:** Reach state 1-0-0 (Only Sw1 ON).
 - **Hypothesis:** Symmetry. Sw1 -> Gate 3?
-- **Route:** Row 5 is safe. Avoid (10,4) and (2,4).
+- **Step 1:** Move to (2,5) via Row 5 (Safe).
+- **Step 2:** Move Up to Sw3 (Check Safe 2,4).
