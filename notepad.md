@@ -1,16 +1,13 @@
-### Objectives
-- [ ] Get Card Key from Director (Target: Middle Section of Warehouse 3_54)
-- [ ] Return to Radio Tower 3F
-- [ ] Open Shutters and Defeat Team Rocket
+### Director's Room (Map 3_53)
+- **Location:** (22, 27).
+- **Goal:** Talk to Director (Expected at 18, 30).
+- **Status:** Just arrived via Gate 3 path.
+- **Puzzle Solved:** Warehouse switches set to 1-1-1.
 
-### Warehouse Puzzle
-- **Puzzle Status:**
-  - State: 1-1-1 (All ON).
-  - Gates: All CLOSED (Verified).
-  - Logic: 1-1-1 closes all gates.
-- **Hypothesis:** Path to Director (23,3) is accessible via Row 4/5 from Bay 3, bypassing the closed gates.
-- **Next:** Navigate to (23,3) to enter Director's Room.
-- **Contingency:** If blocked, revert switches to 1-0-0 or 1-1-0 to open a gate.
+### Objectives
+- [ ] Get Card Key from Director
+- [ ] Return to Radio Tower 3F
+- [ ] Defeat Team Rocket Executives
 
 ### Current Event: Rival Silver
 - Status: Present at (4,8). Blocking path East.
