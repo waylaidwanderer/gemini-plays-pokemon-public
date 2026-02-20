@@ -42,3 +42,8 @@
 - If no response, the room might be fully non-interactive (bug? or wrong room?).
 - Will check for hidden items in the room as a last resort before leaving.
 - Potentially check the crates/boxes at the top of the room if accessible.
+- Grunt at (22, 24) is unresponsive.
+- Director at (18, 29) is unresponsive.
+- Conclusion: The event is either already triggered (check Key Items again? No Card Key) or I am missing a prerequisite.
+- Plan: Return to Warehouse (3_54). Check the area near the stairs (Gate 3 area) for missed items or NPCs.
+- Note: There was a Burglar Duncan in the Warehouse. Maybe I need to beat him again? Or someone else?
