@@ -20,5 +20,6 @@ Plan:
 1. Move to S2 (10,2). Toggle ON (State 1-1-0).
 2. Enter Gate 3 (16,6).
 3. Investigate Warp at (22,10).
-- Correction: Navigating from (5,5) to Switch 2 (10,2) via Column 8 and Row 3.
-- Reason: Approaching from (10,3) allows arriving at (10,2) Facing Up, avoiding the walkable trap at (10,1). Column 8 avoids traps at (9,4) and (10,4).
+- Battle Prep: Grunt at (11,2) will engage when I step on (10,2).
+- Plan: Win battle, then Toggle Switch 2 ON (State 1-1-0).
+- Goal: Access Warp at (22,10) behind Gate 3.
