@@ -2,8 +2,8 @@
 | Sw1(R) | Sw2(M) | Sw3(L) | G1(2,6) | G2(10,6) | G3(16,6) | Note |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | ON | ON | ON | Closed | Closed | Closed | 1-1-1 (Confirmed Closed) |
-| ON | ON | OFF | OPEN | OPEN | Closed | 1-1-0 (Sw2 Opens 11,6 - TARGET) |
-| OFF | ON | OFF | Closed | OPEN | Closed | 0-1-0 (Sw2 Opens 11,6?) |
+| ON | ON | OFF | OPEN | OPEN | Closed | 1-1-0 (11,10 is CLOSED - Failed) |
+| OFF | ON | OFF | Closed | OPEN | Closed | 0-1-0 (Try this next for 11,10) |
 | ON | OFF | OFF | OPEN | Closed | ? | 1-0-0 (11,6 CLOSED - Sw2 controls door) |
 | OFF | OFF | ON | OPEN | Closed | ? | 0-0-1 (Checking Gate 3) |
 | ON | OFF | ON | Closed | Closed | Closed | 1-0-1 (Inner 2,10 Closed) |
