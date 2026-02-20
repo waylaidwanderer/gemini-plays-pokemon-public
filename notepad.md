@@ -36,3 +36,5 @@
 - **Target:** Switch 2 at (10,1).
 - **Obstacles:** Grunt at (11,2) facing Left. Traps at (10,4), (10,5).
 - **Next:** Move to (11,3). Check safety of (10,3). Engage Grunt if necessary to reach (10,2).
+- **Action:** Moving to (10,2) to activate Switch 2.
+- **Risk:** Grunt at (11,2) might spot me. Prepared for battle.
