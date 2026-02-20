@@ -18,9 +18,7 @@ Reflection (Turn 49439):
 | 1-1-0 | 1 | 1 | 0 | Closed | OPEN | Closed | OPEN | Closed | Tool 49437/XML |
 | 1-1-1 | 1 | 1 | 1 | Closed | OPEN | Closed | OPEN | Closed | Tool 49419 |
 
-Current State: 1-1-0.
-Plan: Switch to 1-0-1.
-1. Inspect G3 at (16,6).
-2. Move to S2 (10,1). Toggle OFF.
-3. Move to S3 (2,1). Toggle ON.
-4. Scan Gates.
+Current State: 1-0-0 (S1 ON, S2 OFF, S3 OFF).
+Plan: Move to S3 (2,1) and Toggle ON -> State 1-0-1.
+Path: (10,2) -> (10,3) -> (11,3) -> (11,5) -> (1,5) -> (1,2) -> (2,2).
+Reason: Avoiding traps and Grunt.
