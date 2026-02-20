@@ -85,3 +85,8 @@
   3. Accept potential warp at (10, 4) if it becomes active, or walk back.
   4. Go to Gate 1 (2, 6) which should be accessible (Trap at 2, 4 safe in 1-0-1).
   5. Reach Silver at (4, 8).
+- Possible Trap at (10, 2)?
+- Previous attempt to reach Switch 2 via (10, 2) resulted in a warp back to (4, 2).
+- Plan: Try approaching Switch 2 from the South via (10, 5).
+- Navigate to (10, 5) -> (10, 4) -> (10, 1).
+- Risk: (10, 4) is marked as a Trap (101). Testing if it's active in 1-1-1.
