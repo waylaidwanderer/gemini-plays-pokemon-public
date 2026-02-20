@@ -46,4 +46,4 @@ Plan:
   4. Check Gate 1.
   5. If Closed, Toggle Switch 1 ON (State 1-1-1).
 - Note: This tests the sequence S3 -> S2 -> S1.
-- Current Position: Checking Gate 1.
+- Current Position: Moving to Switch 3 (2,1).
