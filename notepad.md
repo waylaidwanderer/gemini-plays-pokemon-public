@@ -1,13 +1,19 @@
-### Puzzle Solution: Operation Rescue Director
-- **Goal:** Find Real Director & Card Key (South Room).
-- **Status:** Sw1=ON, Sw2=OFF, Sw3=OFF (1-0-0).
-- **Observation:** Gate 1 (2,6) OPEN. (2,10) CLOSED. (6,9) BLOCKED.
-- **Deduction:** 1-0-0 is a dead end. 1-0-1 closes all gates.
-- **New Hypothesis:** Try **0-1-0** (OFF ON OFF).
-  - Sw1 OFF: Opens Wall (11,10) & maybe walls in Gate 1 area?
-  - Sw2 ON: Opens path to (11,10)?
-  - Sw3 OFF: Keeps Gate 1 Open?
-- **Plan:** Set 0-1-0.
-  1. Turn Sw2 ON (10,1).
-  2. Turn Sw1 OFF (16,1).
-  3. Enter Gate 1.
+### Puzzle Logic Matrix (Verified via Tool/Obs)
+| Sw1(R) | Sw2(M) | Sw3(L) | G1(2,6) | G2(10,6) | G3(16,6) | W(11,10) | Note |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---|
+| ON | ON | ON | Closed | Closed | OPEN | Closed | 1-1-1 |
+| OFF | OFF | ON | Closed | OPEN | Closed | Closed | 0-0-1 |
+| ON | OFF | OFF | OPEN | Closed | Closed | Closed | 1-0-0 |
+| ON | OFF | ON | Closed | Closed | Closed | Closed | 1-0-1 (Hint?) |
+| OFF | ON | OFF | ? | ? | ? | ? | **TESTING** |
+
+### Plan: 0-1-0 (OFF-ON-OFF)
+1. Turn Sw2 ON (currently OFF).
+2. Check States.
+3. Turn Sw1 OFF (currently ON).
+4. Check States.
+5. If fail, try other combos using `check_gate_states`.
+
+### Items/Objects
+- Burglar Duncan (9,12)
+- Director (South Room)
