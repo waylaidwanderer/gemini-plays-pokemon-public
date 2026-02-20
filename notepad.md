@@ -5,16 +5,18 @@
 - **Goal:** Activate Switch 1 & 3 to open Gate 1 and Secret Wall.
 - **Current State:** 0-1-1 (Left OFF, Mid ON, Right ON).
 - **Facts:**
-  - Sw1 ON, Sw2 ON, Sw3 OFF.
-- **Goal:** Check Gates 1, 2, 3.
+  - Gate 3 (16,6): OPEN.
+  - Trap (16,8): ACTIVE (Warped to 16,5).
+  - Trap Logic: Active in 1-0-1 and 0-1-1.
+  - Gate 3 Logic: Open in 1-0-1 and 0-1-1 (Requires Sw1 ON).
+- **Goal:** Try State 1-1-1 (All ON).
 - **Hypothesis:**
-  - Sw2 ON -> Gate 2 Open?
-  - Sw1 ON -> Gate 3 Open?
-  - Sw3 OFF -> Trap (16,8) Safe?
+  - In 1-1-1, Path (16,10) opens.
+  - Maybe Trap (16,8) is SAFE in 1-1-1?
 - **Plan:**
-  1. Move to Row 6 (Observation Deck).
-  2. Check status of all gates.
-  3. If Gate 3 Open & Trap Safe -> East Wing.
+  1. Go Left to Switch 3 (Col 2).
+  2. Toggle Sw3 ON -> 1-1-1.
+  3. Check Gate 3 and Trap (16,8).
 - **New Plan:**
   - Try State 1-0-1 (Left ON, Mid OFF, Right ON).
   - Expectation: Gate 3 OPEN.
