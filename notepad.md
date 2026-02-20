@@ -37,7 +37,8 @@ Plan:
 - Column 18 is a WALL, blocking access to the Warp at (22,10) from here.
 - Plan: Travel West along Row 8/9 to check Secret Wall (11,10) and Back Gate (2,10).
 - Caution: Traps at (12,8), (11,9), (10,9) might be active.
-- Visual Confirmation: (11,10) is CLOSED (Wall).
-- Observation: Row 10 and 11 appear to be a solid wall dividing the corridor from the room with Duncan.
-- Plan: Continue West to find an opening or check the Back Gate at (2,10).
-- Hypotesis: Traps are inactive in 0-0-0 (Maintenance Mode).
+- Visual Confirmation: (11,10) is CLOSED (Wall) in 0-0-0.
+- Hypothesis: Gate 1 might be OPEN in 0-0-0 (Maintenance Mode).
+- Plan: Move North through Gate 2 (Open), then West to check Gate 1 (2,6).
+- Path: (12,8) -> (10,8) -> (10,5) -> (2,5) -> (2,6).
+- Avoid: Row 4 Traps. Row 5 is verified safe.
