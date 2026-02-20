@@ -1,8 +1,7 @@
 ### Director's Room (Map 3_53)
-- **Location:** (22, 27).
-- **Goal:** Talk to Director (Expected at 18, 30).
-- **Status:** Just arrived via Gate 3 path.
-- **Puzzle Solved:** Warehouse switches set to 1-1-1.
+- **Location:** (19, 30) facing Director at (18, 30).
+- **Status:** Initiating dialogue.
+- **Goal:** Obtain CARD KEY.
 
 ### Objectives
 - [ ] Get Card Key from Director
