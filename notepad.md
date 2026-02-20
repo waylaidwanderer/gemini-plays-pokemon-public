@@ -10,15 +10,11 @@
   - Trap (16,8) ACTIVE & UNAVOIDABLE (Chokepoint).
   - Conclusion: Gate 3 path is a DEAD END.
 - **Goal:** Set State 1-1-1 (All ON).
-- **Rationale:**
-  - 1-1-1 Opens Gate 1 (2,6).
-  - Gate 1 path bypasses the Gate 3 trap.
-  - Previous failure to open Gate 1 was due to missed toggle.
+- **Status:** At Switch 3 (2,2).
 - **Plan:**
-  1. Go to Switch 3 (2,1).
-  2. Toggle ON.
-  3. Enter Gate 1.
-  4. Access Secret Wall (11,10).
+  1. Toggle Switch 3 ON.
+  2. Enter Gate 1 (2,6).
+  3. Access Secret Wall (11,10).
 - **New Plan:**
   - Try State 1-0-1 (Left ON, Mid OFF, Right ON).
   - Expectation: Gate 3 OPEN.
