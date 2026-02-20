@@ -1,11 +1,14 @@
-### Warehouse Mechanics
-- **Reset Rule:** Entering 3_54 from 3_53 (Stairs) RESETS all switches. Gate 3 closes.
-- **Goal Path:** The Real Director is likely in the SE section, accessible via Gate 3 (State 1-0-1).
-- **Correction:** Previous exploration of Gate 3 area was incomplete. I went North to the stairs instead of checking South/East thoroughly.
-- **Map Issue:** Mental map shows walls at (18,8), (17,10), (17,11). Access to SE might be tricky or require a specific switch for a moving wall.
+### Warehouse Trap Logic
+- **Situation:** Trapped in a closed loop between Warehouse NE Corner (3_54) and Director's Office North (3_53).
+- **Blockers:** 
+  - Gate 3 (16,6) in Warehouse is CLOSED.
+  - Grunts in Director's Office (Row 24) block the exit South.
+- **Only Interactive Element:** Rocket Grunt at (17,2) in Warehouse.
+- **Hypothesis:** This is a forced battle. Defeating this Grunt is the trigger to open the path (likely making the Grunts in 3_53 move or the Director interact).
+- **Action:** MUST battle the Grunt at (17,2). The dialogue "You must have ice in your veins..." is the battle intro.
+- **Error Correction:** Previously cancelled dialogue with 'B'. Must exclusively press 'A' to advance text and start the fight.
 
-### Current Plan
-1. **Escape:** Take stairs (23,3) to exit this trap.
-2. **Reset:** Exit Director's Office, re-enter Warehouse from Main Entrance.
-3. **Execute:** Set State 1-0-1. Enter Gate 3. Explore SOUTH/EAST carefully. Look for hidden paths or switch-walls.
-4. **Note:** Grunt at (17,2) was useless flavor text.
+### Current Objectives
+1. **Engage Grunt:** Move to (17,3), interact, and mash 'A' to start battle.
+2. **Win Battle:** Defeat Grunt (likely Koffing/Rattata/Zubat).
+3. **Check Changes:** After battle, check if Grunt moves or if Director's Office layout changes.
