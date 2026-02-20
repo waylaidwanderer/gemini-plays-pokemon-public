@@ -20,3 +20,7 @@
 - Director: Map 3_53 (18, 29) - Unresponsive.
 - Silver: Map 3_54 (4, 8).
 - Grunt (Hint): Map 3_54 (3, 2).
+- Gate 1 (2, 6) is CLOSED in current state (1-1-1).
+- Plan: Toggle Switch 3 (2, 1) to turn it OFF.
+- Hypothesis: This might open Gate 1.
+- Path to Switch 3: Down, Left, Left, Up (avoiding Grunt at 3, 2).
