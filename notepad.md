@@ -1,13 +1,18 @@
 ### Warehouse (Map 3_54)
-- **Status:** Switch 3 turned OFF. State: 1-1-0.
-- **Puzzle Strategy:**
-  - Expected State: Gate 3 OPEN.
-  - Plan: Navigate internally from Bay 1 -> Bay 2 -> Bay 3 -> Gate 3.
-  - Bypass Silver at (4,8).
-- **Next:** Move to Gate 3 (16,6).
-- **Targets:** Burglar Duncan (9,12), Grunt F (19,12).
+- **Status:** Gate 3 (16,6) is CLOSED (Verified). State is 1-1-0.
+- **Puzzle Logic:**
+  - 1-0-0 (Sw1 ON): G3 Open.
+  - 1-1-0 (Sw1 ON, Sw2 ON): G3 Closed.
+  - Conclusion: Switch 2 Closes G3.
+- **Plan:**
+  1. Go to Switch 2 (10,1) via Row 3.
+  2. Turn Switch 2 OFF.
+  3. Return to Gate 3 (should be Open).
+- **Route:** (16,5) -> (11,5) -> (11,3) -> (10,3) -> (10,1).
+- **Target:** Switch 2.
 
 ### Objectives
+- [ ] Turn Switch 2 OFF
 - [ ] Enter South Warehouse via Gate 3
 - [ ] Defeat Trainers and Explore
 - [ ] Rescue Director / Get Card Key
