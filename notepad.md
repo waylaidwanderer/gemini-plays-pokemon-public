@@ -3,10 +3,13 @@
 - [ ] Return to Radio Tower 3F
 - [ ] Open Shutters and Defeat Team Rocket
 
-### Warehouse Puzzle (SOLVED)
-- **Solution:** All Switches OFF (0-0-0).
-- **Gate Status:** Gate 1 (OPEN), Gate 3 (OPEN).
-- **Current State:** 0-0-0.
+### Warehouse Puzzle
+- **Current Real State:** Switch 2 was ON. Turned it OFF. (Now: ?-0-?)
+- **Goal:** Open Gate 2 (Middle).
+- **Strategy:** Reset all to OFF, then find the combination for Gate 2.
+- **Notes:** 
+    - Switch 2 ON previously opened Gate 2.
+    - Hint: "Change the order of switching".
 
 ### Current Event: Rival Silver
 - Location: (4, 8) in Map 3_54.
