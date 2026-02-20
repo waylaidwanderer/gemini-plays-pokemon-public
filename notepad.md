@@ -1,10 +1,8 @@
 ### Puzzle Solution: Operation Rescue Director
 - **Goal:** Find Real Director & Card Key (South Room).
-- **Strategy:** All Switches ON (1-1-1) - CONFIRMED.
-- **Current Status:** Sw1, Sw2, Sw3 = ON.
-- **Result:** Wall at (11,10) OPENED. Gate 3 (16,6) OPEN.
-- **Next Step:** Explore the newly opened South Room.
-- **Notes:**
-  - (11,6) & (11,7) closed (path near Gate 2 blocked?), but Gate 3 is open for exit.
-  - Burglar Duncan at (9,12).
-  - Director should be in this area.
+- **Strategy:** Revert to 0-1-1 (Sw1 OFF).
+- **Correction:** Turning Sw1 ON *CLOSED* the wall at (11,10) (it was open before!).
+- **Current Status:** Sw1=ON, Sw2=ON, Sw3=ON.
+- **Next Step:** Turn Sw1 OFF.
+- **Expectation:** Wall (11,10) opens. Gate 3 remains open.
+- **Path:** Go through (11,10) to South Room.
