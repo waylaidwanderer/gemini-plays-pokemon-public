@@ -27,17 +27,13 @@ Plan:
 Current State: 1-0-1 (Reached via S3->S1).
 Tool Output: Gate 1 CLOSED.
 Conclusion: "Switch on End" sequence failed.
-REFLECTION (Turn 49491):
-- Success! State 1-0-1 (S1 ON, S2 OFF, S3 ON) opens Gate 1 (2,6) and Wall (3,6).
-- Confirmed via visual update: Tiles changed to walkable.
-- Next Step: Explore the area behind Gate 1 (West side, Rows 6+).
-- Goal: Find the Card Key.
-- Note: S2 OFF also opens the path. S2 ON closes it.
-- Caution: Watch for traps in the new area.
-- Discovery: Tile (2,4) (Trap) is Safe/Inactive in State 1-0-1. I did not warp.
-- Action: Moving South to verify Gate 1 state physically.
-- Gate 3 leads to the back corridor (Row 8/9).
-- Column 18 is a WALL, blocking access to the Warp at (22,10) from here.
+REFLECTION (Turn 49493):
+- Verified Gate 1 (2,6) is OPEN (Walkable).
+- Path forward: Traverse South to (2,8), then East along Row 8/9.
+- Goal: Explore the "Back Corridor" for the Card Key.
+- Note: Trap at (2,4) assumed safe in State 1-0-1.
+- Note: Wall at (2,10) is CLOSED, must turn East.
+- Exploration Target: Check (11,10) Secret Exit and (11,9) area.
 - Plan: Travel West along Row 8/9 to check Secret Wall (11,10) and Back Gate (2,10).
 - Caution: Traps at (12,8), (11,9), (10,9) might be active.
 - Visual Check: Gate 1 (2,6) verified CLOSED in 0-0-0.
