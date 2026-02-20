@@ -3,19 +3,15 @@
 - **Goal:** Find Real Director.
 - **Key Items Needed:** Card Key.
 - **Goal:** Activate Switch 1 & 3 to open Gate 1 and Secret Wall.
-- **Current State:** 1-0-1 (Left ON, Mid OFF, Right ON).
-- **Facts:**
-  - Gate 3 (16,6): OPEN.
-  - Trap (16,8): ACTIVE (Warped back to 16,5).
-  - Trap (16,4): Likely ACTIVE.
+- **Current State:** 1-0-0 (Left ON, Mid OFF, Right OFF).
+- **Goal:** Check Gate 3 and Trap (16,8).
 - **Hypothesis:**
-  - Sw2 OFF opens Gate 3.
-  - Sw1 ON activates Trap (16,8)?
-  - Need State 1-0-0 (Sw1 OFF) or 0-0-0?
+  - If Gate 3 is OPEN and Trap is SAFE -> Success.
+  - If Gate 3 is CLOSED -> Switch 1 is needed for Gate 3.
+  - If Trap is ACTIVE -> Switch 3 causes trap?
 - **Plan:**
-  1. Go Left to safe zone.
-  2. Toggle Sw1 OFF -> 1-0-0.
-  3. Test Trap (16,8) again.
+  1. Go South to Gate 3 (16,6).
+  2. If Open, test Trap (16,8).
 - **New Plan:**
   - Try State 1-0-1 (Left ON, Mid OFF, Right ON).
   - Expectation: Gate 3 OPEN.
