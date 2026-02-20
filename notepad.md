@@ -7,12 +7,11 @@
 | ON | OFF | ON | Closed | Closed | Closed | 1-0-1 |
 | OFF | ON | ON | Closed | Closed | Closed | 0-1-1 |
 | OFF | ON | OFF | Closed | OPEN | Closed | 0-1-0 (Wall 11,10 Closed) |
-| OFF | OFF | OFF | ? | ? | ? | 0-0-0 (Untested) |
+| OFF | OFF | OFF | ? | ? | ? | 0-0-0 (Testing...) |
 | ON | ON | OFF | ? | OPEN | Closed | 1-1-0 (Wall 11,10 Closed) |
 
-### Strategy: Reset to 0-0-0
-- **Current:** 1-1-0 (Wall 11,10 CLOSED).
-- **Plan:** Go North through Gate 2.
-- **Action 1:** Turn Sw2 OFF (-> 1-0-0).
-- **Action 2:** Turn Sw1 OFF (-> 0-0-0).
-- **Goal:** Test 0-0-0 state. Maybe it opens the middle wall?
+### Strategy: Test 0-0-0 (All OFF)
+- **Current:** 0-0-0.
+- **Plan:** Check Gate 3 (16,6) and Gate 2 (10,6).
+- **Goal:** See if "Blackout" opens anything.
+- **Next:** If 0-0-0 fails, try specific orders or Burglar's Hint (3-2-1?).
