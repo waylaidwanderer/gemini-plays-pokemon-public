@@ -33,3 +33,7 @@ Plan:
 4. If nothing, S3 ON + S2 ON.
 - Discovery: Tile (2,4) (Trap) is Safe/Inactive in State 1-0-1. I did not warp.
 - Action: Moving South to verify Gate 1 state physically.
+- Gate 3 leads to the back corridor (Row 8/9).
+- Column 18 is a WALL, blocking access to the Warp at (22,10) from here.
+- Plan: Travel West along Row 8/9 to check Secret Wall (11,10) and Back Gate (2,10).
+- Caution: Traps at (12,8), (11,9), (10,9) might be active.
