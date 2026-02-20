@@ -1,15 +1,16 @@
 ### Warehouse (Map 3_54)
-- **Status:** Gate 3 is CLOSED. Puzzle State is likely 1-1-0 (Switch 2 is ON), not 1-0-0.
-- **Correction:** I must have accidentally toggled Switch 2 twice or failed to toggle it.
-- **Action:** Return to Switch 2 (10,1). Turn it OFF.
-- **Goal:** Achieve State 1-0-0 (Switch 1 ON, Sw2 OFF, Sw3 OFF).
-- **Target:** Switch 2.
+- **Status:** Fixing Switch 2.
+- **Current State:** 1-1-0 (Sw1 ON, Sw2 ON, Sw3 OFF). Gate 3 Closed.
+- **Action:** Turn Switch 2 OFF.
+- **Goal State:** 1-0-0 (Sw1 ON, Sw2 OFF, Sw3 OFF).
+- **Expectation:** Gate 3 OPEN.
+- **Next:** Proceed to South Warehouse via Gate 3.
 
 ### Objectives
-- [ ] Turn Switch 2 OFF (Verify)
+- [ ] Turn Switch 2 OFF
 - [ ] Enter South Warehouse via Gate 3
-- [ ] Defeat Trainers and Explore
-- [ ] Rescue Director / Get Card Key
+- [ ] Defeat Trainers (Duncan, Grunt F)
+- [ ] Find Card Key / Director
 
 ### Current Event: Rival Silver
 - Status: Present at (4,8). Blocking path East.
