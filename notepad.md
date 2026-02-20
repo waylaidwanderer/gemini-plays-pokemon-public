@@ -25,4 +25,6 @@
 - Confirmed Grunt Hint: "Change the order of switching". (Already known, verified at Turn 50551).
 - **Event:** Battling Rocket Grunt at (17, 2).
 - **Observation:** Blue machine/server visible at (16, 1). Potential interaction after battle?
-- **Dialogue:** "You must have ice in your veins to dis TEAM ROCKET." (Waiting for end of sentence).
+- **Dialogue:** "You must have ice in your veins to dis TEAM ROCKET." (Confirmed).
+- **Event:** Battle with Rocket Grunt started.
+- **Observation:** Blue machine/server at (16, 1). Likely Switch 1 location.
