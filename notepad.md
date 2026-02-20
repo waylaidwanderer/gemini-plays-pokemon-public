@@ -9,8 +9,9 @@
   1. Go West to Junction (6,7).
   2. Go South to Shutter (6,20).
   3. Enter Warehouse (3_54).
-- **Warehouse Puzzle (Testing 0-0-1):**
+- **Warehouse Puzzle (0-0-1 Active):**
   - Switch 3 (Left): ON.
   - Switch 2 (Middle): OFF.
   - Switch 1 (Right): OFF.
-  - Target: Open Gate 2 (10,6) or Gate 1 (2,6).
+  - **Result:** Gate 1 (2,6) is OPEN.
+  - **Current Task:** Investigating Silver at (4,8).
