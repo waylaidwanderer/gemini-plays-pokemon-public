@@ -14,4 +14,5 @@
 - **Step 1:** Turn Sw1 ON (Done).
 - **Step 2:** Go to Sw3 (2,1) -> Turn OFF.
 - **Step 3:** Check Gate 3 (16,6).
-- **Hypothesis:** Sw1 opens Gate 3? Sw3 might have been blocking it in 1-0-1.
+- **Hypothesis:** Sw1 might open Gate 3. In 1-0-1, Sw3 might have interfered.
+- **Status:** Moving to Switch 3.
