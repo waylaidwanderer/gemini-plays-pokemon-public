@@ -38,3 +38,5 @@
 - **Action:** Interaction with Switch 2 at (10,1).
 - **Expectation:** Gate 1 (2,6) should open to allow access to Switch 3.
 - **Grunt Status:** Grunt at (11,2) did not trigger battle upon approach. Likely passive.
+- **Observation:** Found a Rocket Grunt at (21, 25). He is blocking the path North.
+- **Action:** Interacting with Grunt. likely a battle.
