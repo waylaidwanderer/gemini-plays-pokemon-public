@@ -1,8 +1,8 @@
 ### Director's Room (Map 3_53)
-- **Status:** Grunt at (21, 24) is unresponsive/blocking.
-- **Hypothesis:** Director is hidden in the room or I need to clear Warehouse Grunts first.
-- **Action:** Checking furniture at (18, 29).
-- **Next:** If empty, return to Warehouse (3_54) and engage Grunts at (11, 2) and (17, 2).
+- **Status:** Desk at (18, 29) checked.
+- **Next:** Move to (22, 25) to interact with Grunt at (22, 24).
+- **Reasoning:** XML shows "Rocket Grunt (Blocking)" at (22, 24). Previous attempt at (21, 24) might have been targeting a gap or wrong sprite.
+- **Goal:** Trigger Director event or find key.
 
 ### Objectives
 - [ ] Get Card Key from Director
