@@ -21,10 +21,12 @@
 - If this fails, will try interacting from (21, 29) facing Left.
 - Testing walkability of (18, 28) and (19, 29).
 - If blocked, will assume interaction must be from (18, 30) and failed due to missing trigger (e.g. Grunt at 19, 24).
-- Director interaction at (18, 30) failed repeatedly.
-- Grunt interaction at (19, 25) failed to trigger battle in turn 50432 (moved away too fast?).
-- Plan: Return to Grunt at (19, 25). Interact CAREFULLY. Do not move away.
-- If Grunt is unresponsive, search for hidden switch or item in the room.
+- Interaction Plan:
+  1. Director at (18, 29) from (18, 30) [Up].
+  2. Desk at (19, 29) from (19, 30) [Up] & [Left].
+  3. Grunt 1 at (19, 24) from (19, 25) [Up].
+  4. Grunt 2 at (22, 24) from (22, 25) [Up].
+- One of these MUST trigger the key event or battle.
 - Attempting `advance_dialogue` on Grunt at (19, 24).
 - If this fails, I will assume the Grunt is non-interactive and focus 100% on the Director at (18, 29).
 - Possibility: The 'Director' sprite is actually at (19, 29) visually? Checking screen alignment.
