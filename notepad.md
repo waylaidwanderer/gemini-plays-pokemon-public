@@ -71,3 +71,7 @@
 - Path: Moving West from (16, 8).
 - Risk: Traps at (12, 8) or (10, 9).
 - If trapped, will try disabling Sw2 or Sw3.
+- Silver (SPRITE_e336) disappeared from (4, 8). Did he leave?
+- Encountered Grunt (SPRITE_9066) at (3, 2).
+- Plan: Talk to Grunt, then toggle Switch 3 (2, 1).
+- Hypothesis: Silver cleared the path or left, potentially unlocking the Director.
