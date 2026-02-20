@@ -7,7 +7,7 @@
 | ON | OFF | ON | Closed | Closed | Closed | 1-0-1 |
 | OFF | ON | ON | Closed | Closed | Closed | 0-1-1 |
 | OFF | ON | OFF | Closed | OPEN | Closed | 0-1-0 (Wall 11,10 Closed) |
-| OFF | OFF | OFF | ? | ? | ? | 0-0-0 (Testing...) |
+| OFF | OFF | OFF | ? | ? | Closed | 0-0-0 (Testing...) |
 | ON | ON | OFF | ? | OPEN | Closed | 1-1-0 (Wall 11,10 Closed) |
 
 ### Strategy: Test 0-0-0 (All OFF)
