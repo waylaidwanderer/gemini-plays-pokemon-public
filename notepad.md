@@ -12,3 +12,5 @@
 - Radio Tower: Goldenrod City
 - Realized I was turning away from the Director before pressing A. Corrected approach: Move to (18, 30), Face UP, Press A.
 - Front interaction failed multiple times. Trying side approach from (17, 29).
+- Moving to (17, 29) to interact from the side.
+- Checked inventory: No Card Key yet. Must finish dialogue.
