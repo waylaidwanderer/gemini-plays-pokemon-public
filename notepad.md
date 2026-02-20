@@ -7,12 +7,13 @@
 - **Facts:**
   - Gate 3 (16,6) is OPEN.
   - Gate 1 & 2 Closed.
-- **Goal:** Traverse Gate 3 and find path to Back Area.
+  - Wall (16,10) is BLOCKED (TYPE_2889).
+  - Traps at (11,9) and (10,9) suspected active (Safe in 100).
+- **Goal:** Explore West from Gate 3 area.
 - **Plan:**
-  1. Enter Gate 3 (16,6).
-  2. Flank Trap (16,8) by going East to (17,7-9).
-  3. Check Wall at (16,10).
-  4. If blocked, try to cross West to (11,10).
+  1. Move West to (11,9).
+  2. If Trap triggers, note it and try Switch 2 (Gate 2 path).
+  3. If Safe, check Wall (11,10).
 - **Plan:**
   1. Go to Gate 3 (16,6) via Row 5 (Safe Lane).
   2. Flank Trap (16,8) via (17,8) (Right side).
