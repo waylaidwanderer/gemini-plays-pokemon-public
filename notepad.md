@@ -14,4 +14,4 @@
 - **Step 1:** Turn Sw3 OFF (Done).
 - **Step 2:** Check Gate 3.
 - **Hypothesis:** Sw1 ON opens Gate 3.
-- **Status:** Checking Gate 3.
+- **Status:** Moving to Gate 3.
