@@ -4,10 +4,15 @@
 - **Key Items Needed:** Card Key.
 - **Goal:** Activate Switch 1 & 3 to open Gate 1 and Secret Wall.
 - **Current State:** 1-1-1 (All ON).
-- **Analysis:**
-  - Gate 1 & 2 OPEN. Gate 3 CLOSED.
-  - Antechamber (Row 6-9) is a DEAD END (Row 10 & Col 12 blocked).
-  - Path (16,10) is OPEN, but inaccessible from here.
+- **Facts:**
+  - Gate 1 (2,6): OPEN.
+  - Gate 2 (10,6): OPEN (Confirmed).
+  - Gate 3 (16,6): CLOSED.
+- **Goal:** Toggle Switch 2 (Mid) OFF -> 1-0-1.
+- **Hypothesis (1-0-1):**
+  - Gate 3 OPEN.
+  - Gate 2 CLOSED (Risk of getting trapped).
+  - Escape Route: Battle Grunt at (11,2)?
 - **New Plan:**
   - Try State 1-0-1 (Left ON, Mid OFF, Right ON).
   - Expectation: Gate 3 OPEN.
