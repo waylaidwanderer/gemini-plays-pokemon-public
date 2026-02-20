@@ -12,6 +12,8 @@
 
 ### Strategy: Test 0-0-0 (All OFF)
 - **Current:** 0-0-0.
-- **Plan:** Check Gate 3 (16,6) and Gate 2 (10,6).
-- **Goal:** See if "Blackout" opens anything.
-- **Next:** If 0-0-0 fails, try specific orders or Burglar's Hint (3-2-1?).
+- **Plan:** Check Gate 2 (10,6) then Gate 1 (2,6).
+- **Goal:** Establish "Reset" state.
+- **Hypothesis:** 0-0-0 closes everything.
+- **Next:** If all closed, try "Order" sequence (Start with Sw3?).
+- **Conflict:** Summary says 1-0-1 or 1-1-1 might open Gate 3. Re-test if needed.
