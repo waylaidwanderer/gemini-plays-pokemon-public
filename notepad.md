@@ -1,11 +1,11 @@
 ### Director's Room (Map 3_53)
 - **Location:** (18, 30) Area.
-- **Status:** Director missing?
-- **Hypothesis:** 
-  1. He is in a corner I missed.
-  2. He is hiding behind furniture.
-  3. I need to trigger an event (e.g., defeat Grunt at 17,2).
-- **Next:** Thoroughly search room. If empty, return to Warehouse and fight Grunt.
+- **Status:** Searching room.
+- **Hypothesis:** Director might be behind the desk or I missed an interaction.
+- **Plan:** 
+  1. Interact with the desk/furniture.
+  2. Search the entire room (walk everywhere).
+  3. If empty, return to Warehouse and check the Grunt.
 
 ### Objectives
 - [ ] Get Card Key from Director
