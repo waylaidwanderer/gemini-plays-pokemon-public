@@ -1,11 +1,13 @@
-### Escape Plan: Operation Dig Out
-- **Situation:** Trapped in Warehouse NE (3_54). Gate 3 is closed. Grunt at (17,2) is broken/flavor text.
-- **Solution:** Garnet has DIG.
-- **Action:** Use Dig to warp out of the dungeon (likely to Goldenrod PC).
-- **Post-Escape:**
-  1. Heal (if needed).
-  2. Return to Radio Tower.
-  3. Climb back to 3F.
-  4. Enter Warehouse from Main Entrance.
-  5. Solve Puzzle Correctly: Aim for State 1-0-1 (S3 ON, S2 OFF, S1 ON) to access the SE corner via Gate 3 from the *South* side.
-- **Goal:** Rescue the Real Director in the SE Warehouse section.
+### CRITICAL CORRECTION: NO DIG
+- **Realization:** Garnet (Lv 51) DOES NOT have Dig. She has Swift, Mud-Slap, Smokescreen, Flame Wheel.
+- **Consequence:** I cannot Dig out. I cannot Fly (indoors). I have no Escape Rope.
+- **Trap:** I am physically sealed in the Warehouse NE / Director's Room loop.
+- **Only Option:** The solution MUST be in the Director's Office (3_53).
+  - The "Fake Director" or the Grunts blocking the exit MUST be interactive.
+  - Previous failures to interact might be due to positioning or glitches.
+- **Plan:**
+  1. Return to 3_53 via stairs (23,3).
+  2. Approach the Grunts at Row 24. Try to walk THROUGH them or talk to them.
+  3. Approach the Director at (18,29). Try all angles.
+  4. Search the room for hidden switches (bookshelves, plants).
+  5. IF ALL FAILS: Grind wild battles (if any) to faint the team? (Last resort).
