@@ -10,5 +10,5 @@
 - **Goal:** Turn Switch 1 ON, then enter Back Area via Gate 3.
 - **Plan:**
   1. Go to Gate 3 (16,6) via Row 5 (Safe Lane).
-  2. Flank Trap (16,8) via (15,8).
+  2. Flank Trap (16,8) via (17,8) (Right side).
   3. Enter Back Area via (16,10).
