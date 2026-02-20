@@ -65,3 +65,8 @@ REFLECTION (Turn 49499):
   4. Investigate area around (11,10) for path to South-East Room.
 - Current State: 1-0-1 (Gate 3 Open).
 - Goal: Find the Real Director.
+- Critical Update (Turn 49518): Gate 3 (16,6) detected as CLOSED (TYPE_2889).
+- Implication: I am trapped in the NE section (Rows 2-5, Cols 17-25).
+- Action: Visual confirmation of Gate 3. If closed, must return to Director's Office (3_53) via stairs at (23,3).
+- Hypothesis: Leaving the map or stepping on a trigger reset the switches or closed the gate.
+- Plan for 3_53: Attempt to interact with Director/Grunts again. Try walking INTO them or checking for hidden switches.
