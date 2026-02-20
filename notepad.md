@@ -76,3 +76,6 @@
 - Proceeding with dialogue. Expecting Silver to leave or battle.
 - Silver Dialogue: "There's nothing down there."
 - Continuing conversation.
+- Silver questions "UNDERGROUND WAREHOUSE?".
+- Dialogue ongoing.
+- Expecting him to leave after this interaction.
