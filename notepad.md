@@ -28,3 +28,8 @@
 - Risk: Crossing the middle column (x=10) traps.
 - Known Traps: (10, 5) [Warp], (10, 2) [Suspected].
 - Strategy: Try Row 3 or 4.
+- Toggling Switch 1 OFF.
+- New State: 0-1-0 (Sw1 OFF, Sw2 ON, Sw3 OFF).
+- Plan: Use `check_gate_states` next turn.
+- Risk: Gate 3 might close, temporarily trapping me.
+- If trapped: Toggle Sw1 ON again.
