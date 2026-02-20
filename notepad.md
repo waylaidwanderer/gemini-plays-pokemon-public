@@ -1,9 +1,9 @@
 ### Director's Room (Map 3_53)
 - **Location:** (21, 25).
-- **Status:** Interacting with Rocket Grunt at (21, 24).
-- **Correction:** Previous interaction failed due to facing wrong direction (Left instead of Up).
-- **Event:** Grunt appears to have moved North to (21, 24) when I stepped to (21, 25).
-- **Goal:** Confront Grunt (Likely Petrel).
+- **Status:** Persisting interaction with Rocket Grunt (Petrel) at (21, 24).
+- **Issue:** Interaction not triggering.
+- **Action:** Retrying 'A' button while stationary.
+- **Goal:** Confront Petrel and get Card Key.
 
 ### Objectives
 - [ ] Get Card Key from Director
