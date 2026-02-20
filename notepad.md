@@ -5,13 +5,11 @@
 
 ### Warehouse Puzzle
 - **Current Real State:** Switch 3 (ON), Switch 2 (ON), Switch 1 (ON). (State: 1-1-1)
-- **Gate Status:** Checking Gate 3 (Right) and Gate 2 (Middle).
-- **Goal:** Verify if 1-1-1 opens any gates.
-- **Hint:** "End is the one to press first".
-- **Notes:** 
-    - Completed Sequence: 3 -> 2 -> 1.
-    - If 1-1-1 fails, will reset to 0-0-0 and try 1 -> 2 -> 3.
-    - Switch 1 is closest to Gate 3, so checking that first.
+- **Gate Status:** All Gates CLOSED (Verified Turn 50643).
+- **Goal:** Reset all switches to OFF.
+- **Next Step:** Turn Switch 1 OFF. Then Switch 2 OFF. Then Switch 3 OFF.
+- **Strategy:** Once 0-0-0, try sequence 1 -> 2 -> 3.
+- **Hint:** "End is the one to press first". Tried Left End (3->2->1), failed. Now trying Right End (1->2->3).
 
 ### Current Event: Rival Silver
 - Location: (4, 8) in Map 3_54.
