@@ -14,7 +14,8 @@
   - Switch 2 (Middle): ON.
   - Switch 1 (Right): ON.
   - **Action:** Toggled Switch 3 OFF.
-  - **Task:** Check Gate 2 (10,6) and Gate 3 (16,6).
+  - **Result:** Gate 2 (10,6) is CLOSED.
+  - **Task:** Check Gate 3 (16,6).
   - **Previous Results:**
     - 0-0-1 (Left ON): Gate 1 OPEN.
     - 1-0-1 (Left+Right ON): Gate 3 OPEN.
