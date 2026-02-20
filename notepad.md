@@ -2,7 +2,7 @@
 | Sw1(R) | Sw2(M) | Sw3(L) | G1(2,6) | G2(10,6) | G3(16,6) | Note |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | ON | ON | ON | Closed | Closed | Closed | 1-1-1 |
-| OFF | OFF | ON | OPEN | Closed | Closed | 0-0-1 (Checking Gate 2) |
+| OFF | OFF | ON | OPEN | Closed | Closed | 0-0-1 (Confirmed) |
 | ON | OFF | OFF | OPEN | Closed | Closed | 1-0-0 (Inner 2,10 Closed) |
 | ON | OFF | ON | Closed | Closed | Closed | 1-0-1 |
 | OFF | ON | ON | Closed | Closed | Closed | 0-1-1 |
