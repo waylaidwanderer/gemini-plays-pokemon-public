@@ -18,14 +18,12 @@ Reflection (Turn 49439):
 | 1-1-0 | 1 | 1 | 0 | Closed | OPEN | Closed | OPEN | Closed | Tool 49437/XML |
 | 1-1-1 | 1 | 1 | 1 | Closed | OPEN | Closed | OPEN | Closed | Tool 49419 |
 
-Current State: 1-0-1 (S1 ON, S2 OFF, S3 ON).
-Visual Verification: Gate 1 (2,6) appears CLOSED (Metal Wall).
-Hypothesis: Switch Order Matters. "The switch on the end is the one to press first."
-Plan: Reset to 0-0-0, then test sequences.
-1. Bump G1 to confirm closed.
-2. Toggle S3 OFF (Result: 1-0-0).
-3. Move to S1, Toggle OFF (Result: 0-0-0).
-4. Test Sequence A: S3 ON -> Check G1.
-5. Test Sequence B: S1 ON -> Check G3/Walls.
+Current State: 1-0-0 (S1 ON, S2 OFF, S3 OFF).
+Action: Resetting to 0-0-0.
+Plan:
+1. Toggle S3 OFF (Current Action).
+2. Move to S1 (16,1) and Toggle OFF.
+3. Test Sequence: S3 ON (End) -> Check Gates.
+4. If nothing, S3 ON + S2 ON.
 - Discovery: Tile (2,4) (Trap) is Safe/Inactive in State 1-0-1. I did not warp.
 - Action: Moving South to verify Gate 1 state physically.
