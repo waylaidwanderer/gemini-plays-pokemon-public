@@ -24,3 +24,5 @@ Conflict: Previous visual check (Turn 49364) claimed Gate 1 OPEN in 1-0-1.
 Plan: Visually verify Gate 1 status at (2,6).
 If Closed: Reset logic and try "Switch on the End" sequence from scratch.
 If Open: Tool output TYPE_2889 is misleading or I am misinterpreting.
+- Discovery: Tile (2,4) (Trap) is Safe/Inactive in State 1-0-1. I did not warp.
+- Action: Moving South to verify Gate 1 state physically.
