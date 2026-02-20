@@ -5,13 +5,14 @@
 
 ### Warehouse Puzzle
 - **Current Real State:** Switch 3 (ON), Switch 2 (ON), Switch 1 (OFF). (State: 1-1-0)
-- **Gate Status:** Checking Gate 2 (Middle).
+- **Gate Status:** Gate 2 (Middle) is CLOSED (Verified visually).
 - **Goal:** Execute Sequence: Switch 3 -> Switch 2 -> Switch 1.
 - **Hint:** "End is the one to press first".
 - **Notes:** 
-    - Switch 3 turned ON. Now turning Switch 2 ON.
-    - If 1-1-0 fails, will try adding Switch 1 (1-1-1).
-    - Safest path to Switch 2 is via Column 8 to avoid traps.
+    - 1-1-0 kept Gate 2 closed.
+    - Continuing sequence: Turn Switch 1 ON.
+    - If 1-1-1 fails, will reset and try 1->2->3.
+    - Taking safe path to Switch 1 via Column 8 & Row 5.
 
 ### Current Event: Rival Silver
 - Location: (4, 8) in Map 3_54.
