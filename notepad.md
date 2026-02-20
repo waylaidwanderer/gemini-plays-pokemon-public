@@ -8,12 +8,13 @@
   - Switch 1: ON.
   - Switch 2: ON.
   - Switch 3: ON.
-- **Goal:** Verify Gate States and reach the Director.
-- **Route:** Go back East through the open gates.
-- **Expectation:** Path to (23,3) should be clear.
-- **Notes:**
-  - Sequence 1-2-3 completed.
-  - Check Gate 2 (10,6) and Gate 3 (16,6) on the way back.
+- **Gate Status:**
+  - Gate 1 (2,6): OPEN (Confirmed).
+  - Gate 2 (10,6): CLOSED (Last seen).
+  - Gate 3 (16,6): OPEN (Last seen).
+- **Goal:** Reach Director via Gate 3 or Gate 2.
+- **Route:** East along Corridor (Row 7/8). Avoid traps at (12,8) and (16,8).
+- **Next:** Check Gate 2 at (10,6). If closed, continue to Gate 3 at (16,6).
 
 ### Current Event: Rival Silver
 - Status: Encountered at (4,8). Left area.
