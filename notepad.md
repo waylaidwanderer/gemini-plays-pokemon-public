@@ -1,8 +1,11 @@
 ### Director's Room (Map 3_53)
-- **Location:** (18, 30).
-- **Status:** Searching for Director.
-- **Problem:** Director is NOT at (18, 30). Room appears empty?
-- **Goal:** Find Director or Card Key.
+- **Location:** (18, 30) Area.
+- **Status:** Director missing?
+- **Hypothesis:** 
+  1. He is in a corner I missed.
+  2. He is hiding behind furniture.
+  3. I need to trigger an event (e.g., defeat Grunt at 17,2).
+- **Next:** Thoroughly search room. If empty, return to Warehouse and fight Grunt.
 
 ### Objectives
 - [ ] Get Card Key from Director
