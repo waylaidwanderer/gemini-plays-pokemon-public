@@ -1,9 +1,8 @@
 ### Director's Room (Map 3_53)
-- **Location:** (21, 25).
-- **Status:** Persisting interaction with Rocket Grunt (Petrel) at (21, 24).
-- **Issue:** Interaction not triggering.
-- **Action:** Retrying 'A' button while stationary.
-- **Goal:** Confront Petrel and get Card Key.
+- **Status:** Grunt at (21, 24) is unresponsive/blocking.
+- **Hypothesis:** Director is hidden in the room or I need to clear Warehouse Grunts first.
+- **Action:** Checking furniture at (18, 29).
+- **Next:** If empty, return to Warehouse (3_54) and engage Grunts at (11, 2) and (17, 2).
 
 ### Objectives
 - [ ] Get Card Key from Director
