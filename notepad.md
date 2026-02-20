@@ -17,8 +17,9 @@
 - **Next:** Check Gate 2 at (10,6). If closed, continue to Gate 3 at (16,6).
 
 ### Current Event: Rival Silver
-- Status: Encountered at (4,8). Left area.
-- Confirmed Grunt Hint: "Change the order of switching". (Verified).
+- Status: Present at (4,8). Blocking path East.
+- Action: Attempting to bypass via Row 9.
+- Note: Did not leave after previous dialogue.
 - **Correction:** Grunt at (17,2) appears to be passive (non-hostile). He just repeats dialogue.
 - **Action:** Ignore Grunt. Move to blue machine at (16,1) which is likely Switch 1.
 - **Route:** Left -> Up -> Interact.
