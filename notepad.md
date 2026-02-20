@@ -1,11 +1,7 @@
 ### Puzzle Solution: Operation Rescue Director
 - **Goal:** Find Real Director & Card Key (South Room).
 - **Status:** Sw1=ON, Sw2=OFF, Sw3=OFF (1-0-0).
-- **Fact:**
-  - 1-1-1: Gate 3 Open, Wall (11,10) Closed.
-  - 0-1-1: Wall (11,10) Closed.
-  - 0-0-1: Gate 2 Open, Wall (11,10) Closed.
-  - 1-0-1: All Gates Closed.
-- **Current Test:** 1-0-0. Checking Gate 1 (2,6).
-- **Hypothesis:** Sw1 might control Gate 1, but requires Sw3/Sw2 specific states.
-- **Plan:** Check Gate 1. If closed, try 0-0-0.
+- **Observation:** Gate 1 (2,6) is OPEN.
+- **Plan:** Explore South via Gate 1.
+- **Objective:** Check Gate/Wall at (2,10).
+- **Hypothesis:** 1-0-0 might be the key to the back area via the left side.
