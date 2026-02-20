@@ -47,3 +47,7 @@
 - Conclusion: The event is either already triggered (check Key Items again? No Card Key) or I am missing a prerequisite.
 - Plan: Return to Warehouse (3_54). Check the area near the stairs (Gate 3 area) for missed items or NPCs.
 - Note: There was a Burglar Duncan in the Warehouse. Maybe I need to beat him again? Or someone else?
+- Leaving Director's Room (3_53) to reset the map.
+- Going back to Warehouse (3_54) via stairs at (22, 27).
+- Plan: Re-enter 3_53 immediately to see if events trigger.
+- If not, explore the area in 3_54 near the stairs for missed items (Item Ball = Card Key?).
