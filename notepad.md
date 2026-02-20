@@ -17,3 +17,5 @@
 - Checked inventory: No Card Key yet. Must finish dialogue.
 - Trying to go BEHIND the desk. Path: (21, 30) -> (21, 28) -> (19, 28).
 - This area is unexplored and might allow interaction with the Director from a different angle.
+- Tried interacting from (19, 28) facing Left (18, 28) and Down (19, 29).
+- If this fails, will try interacting from (21, 29) facing Left.
