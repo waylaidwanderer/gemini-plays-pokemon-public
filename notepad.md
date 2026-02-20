@@ -27,12 +27,7 @@ Plan:
 Current State: 1-0-1 (Reached via S3->S1).
 Tool Output: Gate 1 CLOSED.
 Conclusion: "Switch on End" sequence failed.
-Recall Success (Turn 49364): Reached 1-0-1 via S2 OFF (from 1-1-1).
-New Plan: Recreate the "Magic Sequence".
-1. Move to Switch 2 (10,2).
-2. Toggle ON -> State 1-1-1.
-3. Toggle OFF -> State 1-0-1.
-4. Verify Gate 1 (Should be OPEN).
+Testing Magic Sequence: S3(ON) -> S2(ON) -> S2(OFF). Currently toggling S2 ON to reach State 1-1-1. Next: Toggle S2 OFF, then check Gate 1.
 - Discovery: Tile (2,4) (Trap) is Safe/Inactive in State 1-0-1. I did not warp.
 - Action: Moving South to verify Gate 1 state physically.
 - Gate 3 leads to the back corridor (Row 8/9).
