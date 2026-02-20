@@ -25,4 +25,4 @@
 - Confirmed Grunt Hint: "Change the order of switching". (Already known, verified at Turn 50551).
 - **Event:** Battling Rocket Grunt at (17, 2).
 - **Observation:** Blue machine/server visible at (16, 1). Potential interaction after battle?
-- **Dialogue:** "You must have ice in your veins to disarm the trap." (Prediction) -> Waiting for full text.
+- **Dialogue:** "You must have ice in your veins to dis TEAM ROCKET." (Waiting for end of sentence).
