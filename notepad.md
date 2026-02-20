@@ -23,8 +23,6 @@
 - Status: Dialogue ongoing. Expecting him to leave.
 - Next: Investigate the area he was blocking.
 - Confirmed Grunt Hint: "Change the order of switching". (Already known, verified at Turn 50551).
-- **Event:** Battling Rocket Grunt at (17, 2).
-- **Observation:** Blue machine/server visible at (16, 1). Potential interaction after battle?
-- **Dialogue:** "You must have ice in your veins to dis TEAM ROCKET." (Confirmed).
-- **Event:** Battle with Rocket Grunt started.
-- **Observation:** Blue machine/server at (16, 1). Likely Switch 1 location.
+- **Correction:** Grunt at (17,2) appears to be passive (non-hostile). He just repeats dialogue.
+- **Action:** Ignore Grunt. Move to blue machine at (16,1) which is likely Switch 1.
+- **Route:** Left -> Up -> Interact.
