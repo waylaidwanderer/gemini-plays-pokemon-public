@@ -9,13 +9,12 @@
 | ON | OFF | ON | ? | Closed | Closed | ? | **TARGET 1-0-1** |
 
 ### Plan: Execute "ON OFF ON" (1-0-1)
-1. Current: 0-1-1.
-2. Go to Sw2 (10,1), Turn OFF -> 0-0-1.
-3. Go to Sw1 (16,1), Turn ON -> 1-0-1.
-4. Check Gates & Walls.
-5. If (2,10) or (11,10) Open, proceed.
+1. Current: 0-0-1 (Sw2 just turned OFF).
+2. Go to Sw1 (16,1), Turn ON -> 1-0-1.
+3. Check Gates & Walls.
+4. If this fails, re-evaluate hints.
 
 ### Status
 - Sw1: OFF
-- Sw2: ON
+- Sw2: OFF
 - Sw3: ON
