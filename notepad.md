@@ -50,3 +50,9 @@
 - If Gate 1 Closed: Will try turning Switch 3 ON (State 0-0-1).
 - Reasoning: "Change the order" -> Reset to 0, then try sequence.
 - Start with Switch 3 (leftmost) since I'm near the middle and heading left is easier than crossing the trap field right.
+- Current State presumed: 0-0-0.
+- Gate 1 is CLOSED.
+- Plan: Toggle Switch 3 (2, 1) ON.
+- Target State: 0-0-1.
+- Hypothesis: Combinations with Sw3 ON might open Gate 1.
+- Path: Move Left from (10, 2) along Row 3 to avoid blocking NPC at (3, 2).
