@@ -58,6 +58,6 @@
 - Path: Move Left from (10, 2) along Row 3 to avoid blocking NPC at (3, 2).
 - Confirmed: Tile (10, 4) is SAFE in state 0-0-0.
 - Heading to Switch 3 (2, 1).
-- Route: North to Row 2/3 to avoid Trap at (9, 4).
+- Route: Avoiding suspected trap at (2, 4) by looping through (3, 4) -> (3, 3) -> (2, 3).
 - Plan: Toggle Switch 3 ON (State 0-0-1).
 - Expectation: Check if Gate 1 opens.
