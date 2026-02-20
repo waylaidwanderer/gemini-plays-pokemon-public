@@ -1,14 +1,13 @@
 ### Warehouse (Map 3_54)
-- **Status:** Fixing Switch 2.
-- **Current State:** 1-1-0 (Sw1 ON, Sw2 ON, Sw3 OFF). Gate 3 Closed.
-- **Action:** Turn Switch 2 OFF.
-- **Goal State:** 1-0-0 (Sw1 ON, Sw2 OFF, Sw3 OFF).
-- **Expectation:** Gate 3 OPEN.
-- **Next:** Proceed to South Warehouse via Gate 3.
+- **Status:** Switch 2 turned OFF. Puzzle State: 1-0-0 (Sw1 ON, Sw2 OFF, Sw3 OFF).
+- **Expectation:** Gate 3 (16,6) should be OPEN.
+- **Plan:** Navigate to Gate 3 via Row 3.
+- **Route:** (10,2) -> (11,3) -> (14,3) -> (16,3) -> (16,6).
+- **Target:** Gate 3.
 
 ### Objectives
-- [ ] Turn Switch 2 OFF
-- [ ] Enter South Warehouse via Gate 3
+- [ ] Verify Gate 3 is Open
+- [ ] Enter South Warehouse
 - [ ] Defeat Trainers (Duncan, Grunt F)
 - [ ] Find Card Key / Director
 
