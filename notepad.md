@@ -4,13 +4,13 @@
 - [ ] Open Shutters and Defeat Team Rocket
 
 ### Warehouse Puzzle
-- **Current Real State:** Switch 2 (ON), Switch 1 (OFF), Switch 3 (OFF). (State: 0-1-0)
-- **Gate Status:** Gate 2 (Middle) is CLOSED (Verified Turn 50620).
-- **Goal:** Reset Switch 2 to OFF, then try sequence.
-- **Hint:** "End is the one to press first".
+- **Current Real State:** Switch 2 (OFF), Switch 1 (OFF), Switch 3 (OFF). (State: 0-0-0)
+- **Gate Status:** Checking Gate 2.
+- **Goal:** Go to Switch 3 (Start with "End").
 - **Notes:** 
-    - Switch 2 ON = Gate 2 Closed (Contra-indicator to previous note).
-    - Trap at (10, 4) appears inactive with Switch 2 ON.
+    - Switch 2 toggled OFF.
+    - Need to exit Middle Bay via Gate 2 (10,6) or Secret Door (11,6).
+    - If trapped, Trap Warp at (10,5) might be the exit.
 
 ### Current Event: Rival Silver
 - Location: (4, 8) in Map 3_54.
