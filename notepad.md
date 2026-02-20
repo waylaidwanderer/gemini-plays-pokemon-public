@@ -20,7 +20,16 @@
 - Status: Present at (4,8). Blocking path East.
 - Strategy: Bypassing via Internal Warehouse Bays (Gate 1 -> Row 3 -> Gate 3).
 - Reason: Row 9 has potential trap warps. Row 3 is confirmed safe.
-- **Route:** (3,8) -> Up to (3,3) -> East to (16,3) -> South through Gate 3.
+- **Route:** (7,4) -> (7,3) -> Weave at Col 12 -> (16,3) -> Gate 3 (16,6).
+- **Detail:**
+  - Up to Row 3 (Safe).
+  - Right to (11,3).
+  - Down to (11,4) to bypass Wall at (12,3).
+  - Right to (13,4).
+  - Up to (13,3) to avoid Trap Room at (15,4).
+  - Right to (16,3).
+- **Target:** Gate 3 (16,6) should be OPEN.
+- **Goal:** Reach Director at (23,3).
 - **Correction:** Grunt at (17,2) appears to be passive (non-hostile). He just repeats dialogue.
 - **Action:** Ignore Grunt. Move to blue machine at (16,1) which is likely Switch 1.
 - **Route:** Left -> Up -> Interact.
