@@ -28,3 +28,8 @@
 - Attempting `advance_dialogue` on Grunt at (19, 24).
 - If this fails, I will assume the Grunt is non-interactive and focus 100% on the Director at (18, 29).
 - Possibility: The 'Director' sprite is actually at (19, 29) visually? Checking screen alignment.
+- Grunt interaction confirmed failed (no dialogue).
+- Returning to Director.
+- Strategy: Test interaction on BOTH sides of the desk.
+- 1. Stand at (19, 30), Face UP, Press A. (Testing right side of desk).
+- 2. Stand at (18, 30), Face UP, Press A. (Testing left side/Director body).
