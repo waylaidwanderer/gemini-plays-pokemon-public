@@ -37,9 +37,13 @@ Plan:
 - Column 18 is a WALL, blocking access to the Warp at (22,10) from here.
 - Plan: Travel West along Row 8/9 to check Secret Wall (11,10) and Back Gate (2,10).
 - Caution: Traps at (12,8), (11,9), (10,9) might be active.
-- Visual Confirmation: (11,10) is CLOSED (Wall) in 0-0-0.
-- Gate 2 is OPEN in 0-0-0.
-- Plan: Move to Gate 1 (2,6) via Gate 2 (10,6).
-- Path: (7,8) -> (10,8) -> (10,5) -> (2,5) -> (2,6).
-- Hypothesis: Testing if Gate 1 is open in 0-0-0.
-- If Closed: Will try sequence starting with S3 (End Switch).
+- Visual Check: Gate 1 (2,6) verified CLOSED in 0-0-0.
+- Hypothesis: "Switch on the End" means Switch 3 (2,1).
+- Plan: 
+  1. Toggle Switch 3 ON (State 0-0-1).
+  2. Check Gate 1.
+  3. If Closed, Toggle Switch 2 ON (State 0-1-1).
+  4. Check Gate 1.
+  5. If Closed, Toggle Switch 1 ON (State 1-1-1).
+- Note: This tests the sequence S3 -> S2 -> S1.
+- Current Position: Checking Gate 1.
