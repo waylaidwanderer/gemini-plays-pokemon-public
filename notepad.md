@@ -1,8 +1,7 @@
 ### Director's Room (Map 3_53)
-- **Status:** Positioning to interact with Grunt.
-- **Correction:** Grunt is at (22, 24), not (21, 24). (21, 24) is a wall.
-- **Action:** Move to (22, 25) and face Up.
-- **Goal:** Trigger battle/dialogue.
+- **Status:** Interacting with Rocket Grunt at (22, 24).
+- **Goal:** Defeat Grunt/Get Card Key.
+- **Hypothesis:** This is likely Petrel disguised as the Director, or guarding him.
 
 ### Objectives
 - [ ] Get Card Key from Director
