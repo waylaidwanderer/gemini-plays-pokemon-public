@@ -1,22 +1,15 @@
 ### Puzzle Solution: Operation Rescue Director
-- **Status:** Escaped the Trap Room. Currently in Underground Hall (3_53).
-- **Goal:** Enter Main Warehouse (3_54) to find Real Director.
-- **Correction:** 
-  - Door at (18,6) is a Warp to (21, 31). AVOID.
-  - Shutter at (6, 20) is currently LOCKED/IMPASSABLE.
-  - **New Plan:** Investigate Door at (22, 27) (Silver Room?).
-- **Navigation:**
-  1. Go West to Junction (6,7).
-  2. Go South to Shutter (6,20).
-  3. Enter Warehouse (3_54).
-- **Warehouse Puzzle (Solved 0-1-0):**
-  - Switch 3 (Left): OFF.
-  - Switch 2 (Middle): ON.
-  - Switch 1 (Right): OFF.
-  - **Result:** Gate 2 (10,6) is OPEN. Allows access to the back area (Row 9+).
-  - **Previous Results:**
-    - 0-0-1 (Left ON): Gate 1 OPEN.
-    - 1-0-1 (Left+Right ON): Gate 3 OPEN.
-    - 0-1-1 (Left+Mid ON): Gate 3 OPEN, Gate 2 CLOSED.
-    - 1-1-1 (All ON): Gate 1 OPEN, Gate 2 CLOSED.
-    - 1-1-0 (Mid+Right ON): Gate 2 CLOSED, Gate 3 CLOSED.
+- **Status:** In Main Warehouse (3_54), Back Area (Row 9+).
+- **Goal:** Find Real Director.
+- **Key Items Needed:** Card Key.
+- **Switch Configuration:** 0-1-0 (Left OFF, Mid ON, Right OFF).
+  - Gate 2 (10,6) is OPEN.
+  - Gate 1 & 3 CLOSED.
+  - Traps: 
+    - (10,9) & (11,9) marked "Safe (100)". Likely ACTIVE (unsafe) now.
+    - (16,8) marked "Safe (Sw2 OFF)". Likely ACTIVE (unsafe) now (Sw2 is ON).
+- **Exploration Plan:**
+  1. Explore West side (Row 9-12).
+  2. Check for items/Director.
+  3. Avoid known trap tiles.
+  4. Battle Burglar Duncan (9,12) and Grunts.
