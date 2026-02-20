@@ -4,16 +4,17 @@
 - [ ] Open Shutters and Defeat Team Rocket
 
 ### Warehouse Puzzle
-- **State:** 1-1-0 (Switch 1 ON, Switch 2 ON).
-- **Goal:** Execute Sequence 1 -> 2 -> 3.
-- **Targets:**
-  - Switch 1 (16,1) [ON]
-  - Switch 2 (10,1) [ON]
-  - Switch 3 (2,1) [OFF]
-- **Next:** Verify Gate 1 (2,6) is OPEN. Navigate to Switch 3 (2,1).
-- **Notes:**
-  - Gate 1 leads to Bay 1.
-  - Watch for traps in Bay 1.
+- **Puzzle Status:**
+  - Switch 1: ON.
+  - Switch 2: ON.
+  - Switch 3: OFF.
+- **Observations:**
+  - Gate 2 (10,6) CLOSED (Visible).
+  - Gate 3 (16,6) OPEN (Known).
+  - Gate 1 (2,6) Status Unknown (Need to verify visually).
+- **Hypothesis:** Switch 2 might have opened Gate 1 despite closing Gate 2.
+- **Next Step:** Navigate via Gate 3 to check Gate 1.
+- **Route:** (10,2) -> (11,3) -> Gate 3 -> West Corridor -> View (2,6).
 
 ### Current Event: Rival Silver
 - Status: Encountered at (4,8). Left area.
