@@ -5,16 +5,18 @@
 - **Goal:** Activate Switch 1 & 3 to open Gate 1 and Secret Wall.
 - **Current State:** 1-0-1 (Left ON, Mid OFF, Right ON).
 - **Facts:**
-  - Gate 2 (10,6): OPEN (Confirmed on screen).
-  - Gate 1 (2,6): Unknown (Off screen).
-- **Goal:** Check Gate 3 (16,6).
-- **Hypothesis:**
-  - Gate 3 (16,6): OPEN.
-  - Path (16,10): OPEN.
+  - Gate 2 (10,6): OPEN.
+  - Gate 3 (16,6): OPEN (Visually Confirmed).
+  - Path (12,6): BLOCKED (Glass Wall?).
+  - Trap (16,8): SAFE (Sw2 OFF).
+- **Solution:**
+  - Cannot reach Gate 3 via Row 6.
+  - Must approach Gate 3 from North (Col 16).
 - **Exploration Plan:**
-  1. Go South to Row 6.
-  2. Go East to Gate 3 (16,6).
-  3. If Open, explore East Wing (Row 9+, Col 16+).
+  1. Retreat West to Col 10.
+  2. Go around to Col 16 via Row 5.
+  3. Go South through Gate 3.
+  4. Cross Safe Trap (16,8) to East Wing.
 - **New Plan:**
   - Try State 1-0-1 (Left ON, Mid OFF, Right ON).
   - Expectation: Gate 3 OPEN.
