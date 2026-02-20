@@ -13,8 +13,7 @@
   - Switch 3 (Left): OFF.
   - Switch 2 (Middle): ON.
   - Switch 1 (Right): OFF.
-  - **Result:** Gate 2 (10,6) is OPEN.
-  - **Next:** Explore South of Gate 2. Watch out for traps at (10,9).
+  - **Result:** Gate 2 (10,6) is OPEN. Allows access to the back area (Row 9+).
   - **Previous Results:**
     - 0-0-1 (Left ON): Gate 1 OPEN.
     - 1-0-1 (Left+Right ON): Gate 3 OPEN.
