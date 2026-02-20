@@ -28,3 +28,6 @@
 - **Correction:** Grunt at (17,2) appears to be passive (non-hostile). He just repeats dialogue.
 - **Action:** Ignore Grunt. Move to blue machine at (16,1) which is likely Switch 1.
 - **Route:** Left -> Up -> Interact.
+- **Observation:** Gate 3 (16,6) is OPEN. Path to Director via (23,3) may be clear via Row 4/5 gap.
+- **Strategy:** Completing Switch Puzzle (1-2-3) to ensure all secrets (including Secret Wall at 11,10) are accessible before leaving.
+- **Path:** Moving to Switch 2 (10,2) avoiding Trap Room (15,4) and Trap (10,5).
