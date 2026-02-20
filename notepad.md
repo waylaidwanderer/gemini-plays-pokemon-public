@@ -1,6 +1,13 @@
-### Escape Plan: The Warp Mats
-- **Analysis:** I have the BASEMENT KEY. I have likely already defeated the Fake Director (Petrel). The Grunts blocking the North path are likely static because I'm supposed to leave via another way.
-- **Discovery:** The mats at (21, 31) and (22, 31) are TYPE_ffbb (Warp Tiles).
-- **Hypothesis:** These mats warp to the main area of Radio Tower 5F (likely near tile 18, 6), allowing me to leave.
-- **Action:** Step on the mats at (22, 31).
-- **Goal:** Warp to main area -> Exit Radio Tower -> Go to Underground (Goldenrod North).
+### CRITICAL SITUATION: TRAPPED?
+- **Location:** Director's Office (3_53), South Room.
+- **Status:**
+  - Stairs (22, 27) lead to Warehouse NE Trap (Gate 3 closed, Grunt is flavor text).
+  - North Exit blocked by Grunts at Row 24.
+  - Warp Mats (21,31 / 22,31) seem to be landing spots from the North Room.
+- **Goal:** FIND THE EXIT.
+- **Plan:**
+  1. Test Warp Mats (Press A, Walk into wall).
+  2. Interact with Director (18,29) from ALL sides.
+  3. Interact with Grunts at Row 24 again.
+  4. Search for hidden switches in the room.
+- **Inventory:** I have the BASEMENT KEY. I should be in the Underground. I need to leave this building.
