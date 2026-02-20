@@ -51,3 +51,9 @@ REFLECTION (Turn 49499):
   1. Toggle S2 ON (State 1-1-1).
   2. Toggle S2 OFF (State 1-0-1).
   3. Check Gate 1.
+- Confirmation (Turn 49499):
+  - Passed Trap (16,8) safely (Switch 2 OFF works!).
+  - Hit Wall at (18,8).
+  - Path forces North to Row 5.
+  - New Exploration Zone: North-East Room (Rows 2-5, Cols 18+).
+  - Saw Warp at (22,10) behind walls. Access likely from East or South.
