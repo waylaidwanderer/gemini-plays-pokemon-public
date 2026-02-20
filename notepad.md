@@ -4,19 +4,16 @@
 - **Key Items Needed:** Card Key.
 - **Goal:** Activate Switch 1 & 3 to open Gate 1 and Secret Wall.
 - **Current State:** 0-1-1 (Left OFF, Mid ON, Right ON).
-- **Facts:**
-  - Gate 3 (16,6): OPEN.
-  - Trap (16,8): ACTIVE.
-  - Room widens at Row 8: (15,8) & (17,8) are Floors.
-- **Solution:**
-  - The trap at (16,8) can be BYPASSED by stepping side.
-  - Use State 1-1-1 (All ON) to ensure Path (16,10) is open.
+- **Goal:** Set State 1-1-1 (All ON).
+- **Rationale:**
+  - 1-1-1 Opens Gate 1 (2,6) and Secret Wall (11,10).
+  - In 1-1-1, Trap (10,9) is SAFE.
+  - This route bypasses the Gate 3 Trap (16,8).
 - **Plan:**
-  1. Go Left to Switch 3 (Col 1 Safe Path).
-  2. Toggle Sw3 ON -> 1-1-1.
-  3. Go to Gate 3 (16,6).
-  4. Walk AROUND Trap (16,8).
-  5. Enter East Wing.
+  1. Move to (2,2) and toggle Sw3 ON -> 1-1-1.
+  2. Enter Gate 1 (2,6).
+  3. Go East to (11,10).
+  4. Enter Secret Wall to Back Area.
 - **New Plan:**
   - Try State 1-0-1 (Left ON, Mid OFF, Right ON).
   - Expectation: Gate 3 OPEN.
