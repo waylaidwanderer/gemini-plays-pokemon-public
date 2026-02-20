@@ -3,17 +3,16 @@
 - **Goal:** Find Real Director.
 - **Key Items Needed:** Card Key.
 - **Goal:** Activate Switch 1 & 3 to open Gate 1 and Secret Wall.
-- **Current State:** 0-1-1 (Left OFF, Mid ON, Right ON).
-- **Goal:** Set State 1-1-1 (All ON).
-- **Rationale:**
-  - 1-1-1 Opens Gate 1 (2,6) and Secret Wall (11,10).
-  - In 1-1-1, Trap (10,9) is SAFE.
-  - This route bypasses the Gate 3 Trap (16,8).
+- **Current State:** 1-1-1 (Left ON, Mid ON, Right ON).
+- **Facts:**
+  - Sw3 toggled ON.
+  - Expectation: Gate 1 (2,6) OPEN.
+- **Goal:** Access Back Area via Gate 1.
 - **Plan:**
-  1. Move to (2,2) and toggle Sw3 ON -> 1-1-1.
-  2. Enter Gate 1 (2,6).
-  3. Go East to (11,10).
-  4. Enter Secret Wall to Back Area.
+  1. Go South to Gate 1 (2,6).
+  2. Go East to (11,10).
+  3. Check if Secret Wall is OPEN.
+  4. Find Director/Card Key.
 - **New Plan:**
   - Try State 1-0-1 (Left ON, Mid OFF, Right ON).
   - Expectation: Gate 3 OPEN.
