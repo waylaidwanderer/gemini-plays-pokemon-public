@@ -41,3 +41,6 @@
 - **Grunt Status:** Grunt at (11,2) did not trigger battle upon approach. Likely passive.
 - **Observation:** Found a Rocket Grunt at (21, 25). He is blocking the path North.
 - **Action:** Interacting with Grunt. likely a battle.
+- **Action:** Trying to bump/interact with Grunt at (21, 24).
+- **Hypothesis:** Grunt is guarding the real Director behind the wall.
+- **Plan:** Defeat Grunt to clear path.
