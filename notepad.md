@@ -18,7 +18,9 @@ Reflection (Turn 49439):
 | 1-1-0 | 1 | 1 | 0 | Closed | OPEN | Closed | OPEN | Closed | Tool 49437/XML |
 | 1-1-1 | 1 | 1 | 1 | Closed | OPEN | Closed | OPEN | Closed | Tool 49419 |
 
-Current State: 1-0-0 (S1 ON, S2 OFF, S3 OFF).
-Plan: Move to S3 (2,1) and Toggle ON -> State 1-0-1.
-Path: (10,2) -> (10,3) -> (11,3) -> (11,5) -> (1,5) -> (1,2) -> (2,2).
-Reason: Avoiding traps and Grunt.
+Current State: 1-0-1 (S1 ON, S2 OFF, S3 ON).
+Tool Output (Turn 49446): Gate 1 CLOSED, Gate 2 OPEN.
+Conflict: Previous visual check (Turn 49364) claimed Gate 1 OPEN in 1-0-1.
+Plan: Visually verify Gate 1 status at (2,6).
+If Closed: Reset logic and try "Switch on the End" sequence from scratch.
+If Open: Tool output TYPE_2889 is misleading or I am misinterpreting.
