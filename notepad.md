@@ -21,6 +21,7 @@
 - If this fails, will try interacting from (21, 29) facing Left.
 - Testing walkability of (18, 28) and (19, 29).
 - If blocked, will assume interaction must be from (18, 30) and failed due to missing trigger (e.g. Grunt at 19, 24).
-- Director interaction failed multiple times.
-- Strategy Change: Attempting to interact with/defeat the Rocket Grunt at (19, 24) to see if it unlocks the Director.
-- Path: Move to (19, 25), Face Up, Press A.
+- Director interaction at (18, 30) failed repeatedly.
+- Grunt interaction at (19, 25) failed to trigger battle in turn 50432 (moved away too fast?).
+- Plan: Return to Grunt at (19, 25). Interact CAREFULLY. Do not move away.
+- If Grunt is unresponsive, search for hidden switch or item in the room.
