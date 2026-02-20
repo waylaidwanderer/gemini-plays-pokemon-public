@@ -3,16 +3,18 @@
 - **Goal:** Find Real Director.
 - **Key Items Needed:** Card Key.
 - **Goal:** Activate Switch 1 & 3 to open Gate 1 and Secret Wall.
-- **Current State:** 1-1-1 (All ON).
+- **Current State:** 1-0-1 (Left ON, Mid OFF, Right ON).
 - **Facts:**
-  - Gate 1 (2,6): OPEN.
-  - Gate 2 (10,6): OPEN (Confirmed).
-  - Gate 3 (16,6): CLOSED.
-- **Goal:** Toggle Switch 2 (Mid) OFF -> 1-0-1.
-- **Hypothesis (1-0-1):**
-  - Gate 3 OPEN.
-  - Gate 2 CLOSED (Risk of getting trapped).
-  - Escape Route: Battle Grunt at (11,2)?
+  - Gate 2 (10,6): OPEN (Confirmed on screen).
+  - Gate 1 (2,6): Unknown (Off screen).
+- **Goal:** Check Gate 3 (16,6).
+- **Hypothesis:**
+  - Gate 3 (16,6): OPEN.
+  - Path (16,10): OPEN.
+- **Exploration Plan:**
+  1. Go South to Row 6.
+  2. Go East to Gate 3 (16,6).
+  3. If Open, explore East Wing (Row 9+, Col 16+).
 - **New Plan:**
   - Try State 1-0-1 (Left ON, Mid OFF, Right ON).
   - Expectation: Gate 3 OPEN.
