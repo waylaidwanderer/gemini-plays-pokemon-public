@@ -6,15 +6,15 @@
 ### Warehouse Puzzle Solution
 - **Goal:** Reach Silver at (4, 8) and/or open path to Director.
 - **Hint:** "Change the order of switching."
-- **Current Strategy:** Warehouse Switch Puzzle.
+- **Current Strategy:** Warehouse Switch Puzzle (SOLVED).
   - Switches: Sw1 (16,1), Sw2 (10,1), Sw3 (2,1).
-  - Gates: G1 (2,6), G2 (10,6), G3 (16,6).
-  - Traps: (10,5), (2,4)?, (10,4)?, others?
-- **Current State:** 1-1-1 (Need to verify).
+  - Solution: All Switches OFF (0-0-0) opens Gate 1 and Gate 3.
+  - Gate 1 (2, 6): OPEN.
+  - Gate 3 (16, 6): OPEN.
+- **Current State:** 0-0-0 (All OFF).
 - **Plan:**
-  1. Test Trap at (2, 4).
-  2. If safe, go to Silver via Gate 1.
-  3. If trap, toggle switches to change state (Target: 1-0-1 or 0-1-1).
+  1. Finish interaction with Silver.
+  2. Explore the area Silver was blocking or the Director's room again.
 
 ### Key Locations
 - Director: Map 3_53 (18, 29) - Unresponsive.
