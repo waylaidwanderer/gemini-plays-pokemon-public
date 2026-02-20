@@ -6,15 +6,13 @@
 | ON | OFF | OFF | OPEN | Closed | Closed | Closed | Closed | 1-0-0 |
 | OFF | ON | OFF | OPEN | Closed | Closed | Closed | ? | 0-1-0 |
 | OFF | ON | ON | OPEN | Closed | Closed | Closed | ? | 0-1-1 |
-| ON | OFF | ON | OPEN | Closed | Closed | Closed | **OPEN** | 1-0-1 |
+| ON | OFF | ON | OPEN | Closed | Closed | Closed | **CLOSED** | 1-0-1 |
 
-### Solution Found: 1-0-1 (ON OFF ON)
-- **Status:** Gate 1 (2,6) OPEN. Wall (6,9) OPEN.
-- **Path:** Gate 1 -> South -> East via (6,9) -> Target Area.
-- **Goal:** Reach Director (South Room).
-
-### Next Steps
-1. Go to Gate 1 (2,6).
-2. Walk South to Row 9.
-3. Walk East through (6,9).
-4. Find Director.
+### Correction
+- **1-0-1 FAILED.** Wall at (6,9) is CLOSED (TYPE_2889 on screen).
+- **Backtracking:** Revert to 0-0-1 (Sw3=ON, Sw2=OFF, Sw1=OFF).
+- **Goal:** In 0-0-1, Gate 2 (10,6) is OPEN.
+- **Plan:**
+  1. Turn Sw1 OFF (16,1).
+  2. Enter Gate 2.
+  3. Navigate carefully south of Gate 2.
