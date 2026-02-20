@@ -1,8 +1,8 @@
 ### Director's Room (Map 3_53)
-- **Status:** Desk at (18, 29) checked.
-- **Next:** Move to (22, 25) to interact with Grunt at (22, 24).
-- **Reasoning:** XML shows "Rocket Grunt (Blocking)" at (22, 24). Previous attempt at (21, 24) might have been targeting a gap or wrong sprite.
-- **Goal:** Trigger Director event or find key.
+- **Status:** Positioning to interact with Grunt.
+- **Correction:** Grunt is at (22, 24), not (21, 24). (21, 24) is a wall.
+- **Action:** Move to (22, 25) and face Up.
+- **Goal:** Trigger battle/dialogue.
 
 ### Objectives
 - [ ] Get Card Key from Director
