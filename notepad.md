@@ -5,13 +5,13 @@
 - **Goal:** Activate Switch 1 & 3 to open Gate 1 and Secret Wall.
 - **Current State:** 1-1-1 (Left ON, Mid ON, Right ON).
 - **Facts:**
-  - Gate 1 (2,6): OPEN (Visually Confirmed TYPE_2889).
-  - Trap (10,9): SAFE (Confirmed in previous 1-1-1 run).
-  - Wall (11,10): Should be OPEN.
+  - Gate 1 (2,6): OPEN.
+  - Path South of Gate 1 is clear.
+  - Silver is at (4,8).
 - **Goal:** Enter Back Area via Gate 1.
 - **Plan:**
-  1. Go South through Gate 1.
-  2. Go East via Row 9 (Bypassing Silver).
+  1. Go South through Gate 1 to (2,9).
+  2. Go East to (11,9).
   3. Enter Secret Wall at (11,10).
   4. Find Director.
 - **New Plan:**
