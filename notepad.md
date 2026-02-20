@@ -1,19 +1,16 @@
 ### Warehouse (Map 3_54)
-- **Status:** Talked to Grunt at (11, 3). He gave a hint about "the switch on the end".
-- **Current Puzzle State:** 1-1-1 (All ON).
-- **Issue:** Director's Room was empty/unresponsive.
-- **Plan:** Explore Southern Warehouse (Rows 8-12).
-- **Targets:**
-  - Defeat Burglar Duncan (9, 12).
-  - Defeat Rocket Grunt F (19, 12).
-  - Check "Secret Wall" area (11, 10).
-  - Check "Back Gate" (2, 10).
-- **Hypothesis:** Exploring the rest of the map might trigger something or provide an item (Card Key might be on the floor?).
+- **Status:** Planning to explore South Warehouse.
+- **Puzzle Strategy:**
+  - Current: 1-1-1 (Gate 1 Open, Silver blocking path).
+  - Goal: Switch to 1-1-0 (Switch 3 OFF) to Open Gate 3.
+  - Reason: Bypass Silver via Gate 3 to reach South Warehouse.
+- **Next:** Toggle Switch 3, then head to Gate 3.
+- **Targets:** Burglar Duncan (9,12), Grunt F (19,12).
 
 ### Objectives
-- [ ] Explore South Warehouse
-- [ ] Defeat Trainers in Warehouse
-- [ ] Rescue Director / Get Card Key
+- [ ] Turn Switch 3 OFF
+- [ ] Enter South Warehouse via Gate 3
+- [ ] Defeat Trainers and Explore
 
 ### Current Event: Rival Silver
 - Status: Present at (4,8). Blocking path East.
