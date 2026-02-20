@@ -44,3 +44,9 @@
 - Next Step: Navigate to Switch 2 (10, 1) and toggle it OFF.
 - Target State: 0-0-0 (All OFF).
 - Path: Retrace steps West along Row 3/4. Avoid (10, 5).
+- Toggled Switch 2 OFF (Presumed).
+- Current State: 0-0-0 (All OFF).
+- Checking Gate States.
+- If Gate 1 Closed: Will try turning Switch 3 ON (State 0-0-1).
+- Reasoning: "Change the order" -> Reset to 0, then try sequence.
+- Start with Switch 3 (leftmost) since I'm near the middle and heading left is easier than crossing the trap field right.
