@@ -1,15 +1,13 @@
 ### Warehouse (Map 3_54)
 - **Status:** Switch 2 turned OFF. Puzzle State: 1-0-0 (Sw1 ON, Sw2 OFF, Sw3 OFF).
 - **Expectation:** Gate 3 (16,6) should be OPEN.
-- **Plan:** Navigate to Gate 3 via Row 3.
+- **Plan:** Navigate to Gate 3 via Row 3 to avoid Trap Room at (15,4).
 - **Route:** (10,2) -> (11,3) -> (14,3) -> (16,3) -> (16,6).
-- **Target:** Gate 3.
-
-### Objectives
-- [ ] Verify Gate 3 is Open
-- [ ] Enter South Warehouse
-- [ ] Defeat Trainers (Duncan, Grunt F)
-- [ ] Find Card Key / Director
+- **Targets:**
+  - Verify Gate 3 Open.
+  - Enter South Warehouse.
+  - Defeat Burglar Duncan (9,12) & Grunt F (19,12).
+  - Find Card Key / Director.
 
 ### Current Event: Rival Silver
 - Status: Present at (4,8). Blocking path East.
