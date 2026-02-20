@@ -48,3 +48,6 @@ Plan: Move to Switch 1 (16,1), Toggle ON, Check Gates.
   5. If Closed, Toggle Switch 1 ON (State 1-1-1).
 - Note: This tests the sequence S3 -> S2 -> S1.
 - Current Position: Moving to Switch 3 (2,1).
+- Movement: Moving to S1 via Column 1 -> Row 5 to avoid Trap (2,4).
+- Target: Switch 1 (16,1).
+- Goal: Toggle S1 ON (State 1-0-1 via S3->S1 sequence).
