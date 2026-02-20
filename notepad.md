@@ -1,7 +1,7 @@
 ### Director's Room (Map 3_53)
-- **Status:** Grunt at (22, 24) unresponsive. Trying Grunt at (19, 24).
-- **Hypothesis:** One of these Grunts must trigger the event.
-- **Action:** Move to (19, 25) and interact.
+- **Status:** Interacting with Rocket Grunt at (19, 24).
+- **Goal:** Defeat Grunt/Get Card Key.
+- **Contingency:** If no response, return to Warehouse (3_54) and defeat Grunt at (17, 2).
 
 ### Objectives
 - [ ] Get Card Key from Director
