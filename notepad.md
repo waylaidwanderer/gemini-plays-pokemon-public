@@ -10,3 +10,4 @@
 ### Key Locations
 - Director: Map 3_53 (18, 29)
 - Radio Tower: Goldenrod City
+- Realized I was turning away from the Director before pressing A. Corrected approach: Move to (18, 30), Face UP, Press A.
