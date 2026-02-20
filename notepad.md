@@ -12,8 +12,7 @@
 
 ### Strategy: Test 0-1-0 (OFF-ON-OFF)
 - **Status:** Sw1=OFF, Sw2=ON, Sw3=OFF.
-- **Observation:** Gate 2 (10,6) is OPEN. I am at (11,6).
-- **Plan:**
-  1. Move South to check the wall at (11,10).
-  2. Be cautious of potential traps at (10,9) and (11,9).
-  3. If (11,10) is a wall, bump it to confirm.
+- **Observation:** Gate 2 (10,6) is OPEN.
+- **Action:** Walking South to check Wall (11,10).
+- **Risk:** Tiles (10,9) and (11,9) might be traps.
+- **Contingency:** If I warp, 0-1-0 is a dead end or trap path. Next try 0-0-0.
