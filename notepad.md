@@ -27,7 +27,13 @@ Plan:
 Current State: 1-0-1 (Reached via S3->S1).
 Tool Output: Gate 1 CLOSED.
 Conclusion: "Switch on End" sequence failed.
-Testing Magic Sequence: S3(ON) -> S2(ON) -> S2(OFF). Currently toggling S2 ON to reach State 1-1-1. Next: Toggle S2 OFF, then check Gate 1.
+REFLECTION (Turn 49491):
+- Success! State 1-0-1 (S1 ON, S2 OFF, S3 ON) opens Gate 1 (2,6) and Wall (3,6).
+- Confirmed via visual update: Tiles changed to walkable.
+- Next Step: Explore the area behind Gate 1 (West side, Rows 6+).
+- Goal: Find the Card Key.
+- Note: S2 OFF also opens the path. S2 ON closes it.
+- Caution: Watch for traps in the new area.
 - Discovery: Tile (2,4) (Trap) is Safe/Inactive in State 1-0-1. I did not warp.
 - Action: Moving South to verify Gate 1 state physically.
 - Gate 3 leads to the back corridor (Row 8/9).
