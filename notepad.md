@@ -6,3 +6,7 @@
 - **Current Status:** Sw1=OFF, Sw2=ON, Sw3=ON.
 - **Next Step:** Go to Sw2 (10,1) and turn OFF.
 - **Path:** (16,4) -> Row 3 -> (10,2).
+- **Observation:** Gate 2 (10,6) is OPEN with 0-0-1.
+- **Hypothesis:** 0-0-1 might also open Wall (11,10).
+- **Plan:** Go through Gate 2 to check (11,10).
+- **Warning:** Potential traps at (10,9)/(11,9).
