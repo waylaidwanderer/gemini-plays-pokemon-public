@@ -25,3 +25,6 @@
 - Grunt interaction at (19, 25) failed to trigger battle in turn 50432 (moved away too fast?).
 - Plan: Return to Grunt at (19, 25). Interact CAREFULLY. Do not move away.
 - If Grunt is unresponsive, search for hidden switch or item in the room.
+- Attempting `advance_dialogue` on Grunt at (19, 24).
+- If this fails, I will assume the Grunt is non-interactive and focus 100% on the Director at (18, 29).
+- Possibility: The 'Director' sprite is actually at (19, 29) visually? Checking screen alignment.
