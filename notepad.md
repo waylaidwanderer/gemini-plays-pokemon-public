@@ -1,81 +1,12 @@
-Reflection (Turn 49439):
-- State 1-1-0: Verified Gate 3 is CLOSED (TYPE_2889).
-- Goal: Test State 1-0-1 (S1 ON, S2 OFF, S3 ON).
-- Reason: 
-  - 1-0-1 Opened Gate 1 previously.
-  - 1-0-0 Opened Secret Door (Tool 49429).
-  - Combining S1+S3 might open Gate 3 or Wall (11,10).
-- Path: (16,4) -> (16,6) [Check G3] -> (16,5) -> (10,5) -> (10,2) [Toggle S2 OFF] -> (2,2) [Toggle S3 ON].
+### Warehouse Puzzle Mechanics
+- **Map Transition Reset:** Entering Warehouse (3_54) from Director's Office (3_53) via stairs (23,3) RESETS switches/gates. Gate 3 becomes CLOSED.
+- **Switch States (Internal Logic):**
+  - State 1-0-1 (S1 ON, S2 OFF, S3 ON) opens Gate 3 (16,6) and Gate 1 (2,6).
+  - State 0-0-0 opens Gate 2 and Gate 3.
 
-| State | S1 | S2 | S3 | G1 | G2 | G3 | SecDoor | Wall(11,10) | Notes |
-|---|---|---|---|---|---|---|---|---|---|
-| 0-0-0 | 0 | 0 | 0 | Closed | OPEN | OPEN | OPEN | Closed | Tool 49457 |
-Goal: Explore behind Gate 3 (16,6).
-Reason: Tool confirms Gate 3 is OPEN in State 0-0-0.
-Plan:
-1. Move South through Gate 3.
-2. Check Warp at (22,10).
-3. Avoid traps (16,8 is safe if S2 is OFF).
-| 0-0-1 | 0 | 0 | 1 | Closed | Closed | Closed | Closed | Closed | Tool 49407 |
-| 0-1-0 | 0 | 1 | 0 | Closed | OPEN | Closed | OPEN | Closed | Tool 49395 |
-| 0-1-1 | 0 | 1 | 1 | Closed | OPEN | Closed | OPEN | Closed | Tool 49413 |
-| 1-0-0 | 1 | 0 | 0 | Closed | OPEN | Closed | OPEN | Closed | Tool 49429 |
-| 1-0-1 | 1 | 0 | 1 | OPEN | ? | ? | ? | ? | Visual 49364 |
-| 1-1-0 | 1 | 1 | 0 | Closed | OPEN | Closed | OPEN | Closed | Tool 49437/XML |
-| 1-1-1 | 1 | 1 | 1 | Closed | OPEN | Closed | OPEN | Closed | Tool 49419 |
-
-Current State: 1-0-1 (Reached via S3->S1).
-Tool Output: Gate 1 CLOSED.
-Conclusion: "Switch on End" sequence failed.
-REFLECTION (Turn 49499):
-- Confirmed State 1-0-1 (S1 ON, S2 OFF, S3 ON) Results:
-  - Gate 1 (2,6): OPEN (Leads to dead end).
-  - Gate 2 (10,6): CLOSED.
-  - Gate 3 (16,6): OPEN!
-- This is the "Magic State"!
-- Plan: Enter Gate 3 (16,6) and explore the East side.
-- Note: (16,8) Trap should be SAFE (S2 is OFF).
-- Goal: Locate Card Key in the East section.
-- Warning: Watch for other traps (e.g., Row 12).
-- Plan: 
-  1. Toggle Switch 3 ON (State 0-0-1).
-  2. Check Gate 1.
-  3. If Closed, Toggle Switch 2 ON (State 0-1-1).
-  4. Check Gate 1.
-  5. If Closed, Toggle Switch 1 ON (State 1-1-1).
-- Note: This tests the sequence S3 -> S2 -> S1.
-- Current Position: Moving to Switch 3 (2,1).
-- Movement: At (10,2). Facing Up to toggle Switch 2.
-- Observation: Grunt at (11,2) is passive (did not engage).
-- Plan:
-  1. Toggle S2 ON (State 1-1-1).
-  2. Toggle S2 OFF (State 1-0-1).
-  3. Check Gate 1.
-- Confirmation (Turn 49499):
-  - Passed Trap (16,8) safely (Switch 2 OFF works!).
-  - Hit Wall at (18,8).
-  - Path forces North to Row 5.
-  - New Exploration Zone: North-East Room (Rows 2-5, Cols 18+).
-  - Saw Warp at (22,10) behind walls. Access likely from East or South.
-- Confirmed: Director in Office (3_53) is a fake/imposter (Petrel). Real Director is in Warehouse.
-- Plan:
-  1. Return to Gate 3 (16,6) via Row 5 (since Row 3 is blocked by walls).
-  2. Pass Gate 3 and Trap (16,8) [Safe in 1-0-1].
-  3. Go West along Row 8 to check "Secret Exit" wall at (11,10).
-  4. Investigate area around (11,10) for path to South-East Room.
-- Current State: 1-0-1 (Gate 3 Open).
-- Goal: Find the Real Director.
-- Critical Update (Turn 49518): Gate 3 (16,6) detected as CLOSED (TYPE_2889).
-- Implication: I am trapped in the NE section (Rows 2-5, Cols 17-25).
-- Action: Visual confirmation of Gate 3. If closed, must return to Director's Office (3_53) via stairs at (23,3).
-- Hypothesis: Leaving the map or stepping on a trigger reset the switches or closed the gate.
-- Plan for 3_53: Attempt to interact with Director/Grunts again. Try walking INTO them or checking for hidden switches.
-- Visual Confirmation (Turn 49524): Gate 3 (16,6) is definitively CLOSED (TYPE_2889).
-- I am physically trapped in the NE Section (Rows 2-5, Cols 17-25).
-- Path to South is blocked by Walls (Row 6).
-- Path to West is blocked by Gate 3.
-- Only Exit: Stairs at (23,3) leading to Director's Office (3_53).
-- Puzzle Mechanic Insight: Leaving the main warehouse area via stairs (23,3) likely resets the switches or triggers a specific state change.
-- New Plan: Return to 3_53. Re-examine everything. The "Fake Director" might be a key. Maybe I need to talk to him repeatedly or from a specific angle? Or maybe there's a hidden switch in that room.
-- Confronting Reality: I cannot reach the main switch bank from here. Digging out is a last resort but valid if I'm truly soft-locked.
-- Update: Sprite at (17,2) is visible. Looks like a Rocket Grunt. Maybe they have a key? I'll check them before leaving.
+### Current Situation
+- **Location:** Warehouse (3_54), NE Section.
+- **Status:** Trapped behind Gate 3 (Closed due to map reset).
+- **Immediate Task:** Interacting with Rocket Grunt at (17,2).
+- **Next Step:** Defeat Grunt, then return to Director's Office (3_53) to find the real Director or another path.
+- **Hypothesis:** The "Director" in 3_53 is an imposter (Petrel). Need to solve the warehouse puzzle from the main entrance to reach the real one.
