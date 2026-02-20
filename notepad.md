@@ -7,8 +7,8 @@
 - **State:** 0-0-0 (All Off). Gates: G2 Open, G1/G3 Closed.
 - **Goal:** Execute Sequence 1 -> 2 -> 3.
 - **Target:** Switch 1 (Likely in NE Corner of 3_54).
-- **Current Loc:** 3_53 (Underground Hall) at Stairs (22,27).
-- **Next:** Take stairs back to 3_54. Search NE corner for Switch 1.
+- **Current Loc:** 3_53 (Underground Hall) at (18,30).
+- **Next:** Navigate to Stairs (22,27) to re-enter Warehouse (East Side).
 
 ### Current Event: Rival Silver
 - Location: (4, 8) in Map 3_54.
