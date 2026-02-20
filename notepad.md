@@ -6,13 +6,11 @@
 | ON | OFF | OFF | OPEN | Closed | Closed | 1-0-0 (Inner 2,10 Closed) |
 | ON | OFF | ON | Closed | Closed | Closed | 1-0-1 |
 | OFF | ON | ON | Closed | Closed | Closed | 0-1-1 |
-| OFF | ON | OFF | Closed | OPEN | ? | **CURRENT TEST (0-1-0)** |
+| OFF | ON | OFF | Closed | OPEN | Closed | 0-1-0 (Wall 11,10 Closed) |
 | OFF | OFF | OFF | ? | ? | ? | 0-0-0 (Untested) |
 | ON | ON | OFF | ? | ? | ? | 1-1-0 (Untested) |
 
-### Strategy: Test 0-1-0 (OFF-ON-OFF)
-- **Status:** Sw1=OFF, Sw2=ON, Sw3=OFF.
-- **Observation:** Gate 2 (10,6) is OPEN.
-- **Action:** Walking South to check Wall (11,10).
-- **Risk:** Tiles (10,9) and (11,9) might be traps.
-- **Contingency:** If I warp, 0-1-0 is a dead end or trap path. Next try 0-0-0.
+### Strategy: Test 1-1-0 (ON-ON-OFF)
+- **Current:** 0-1-0. Wall at (11,10) is CLOSED.
+- **Plan:** Go North through Gate 2, Turn Sw1 ON.
+- **Goal:** Check if 1-1-0 opens Wall (11,10) or other gates.
