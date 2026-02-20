@@ -79,3 +79,5 @@
 - Silver questions "UNDERGROUND WAREHOUSE?".
 - Dialogue ongoing.
 - Expecting him to leave after this interaction.
+- Silver asks "What do you want to go there for?".
+- Continuing dialogue.
