@@ -1,7 +1,8 @@
 ### Director's Room (Map 3_53)
-- **Status:** Interacting with Rocket Grunt at (19, 24).
-- **Goal:** Defeat Grunt/Get Card Key.
-- **Contingency:** If no response, return to Warehouse (3_54) and defeat Grunt at (17, 2).
+- **Status:** Room appears empty of active NPCs. Grunts at (19, 24) and (22, 24) are unresponsive blockers.
+- **Problem:** Real Director is missing.
+- **Hypothesis:** Must clear Warehouse Grunts to trigger Director's appearance or unblock the path.
+- **Next Step:** Return to Warehouse (3_54) and defeat Grunt at (11, 2) and re-check Grunt at (17, 2).
 
 ### Objectives
 - [ ] Get Card Key from Director
