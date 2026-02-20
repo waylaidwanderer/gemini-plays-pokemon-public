@@ -27,18 +27,16 @@ Plan:
 Current State: 1-0-1 (Reached via S3->S1).
 Tool Output: Gate 1 CLOSED.
 Conclusion: "Switch on End" sequence failed.
-REFLECTION (Turn 49496):
-- Confirmed: Area behind Gate 1 (Silver's Area) is a dead end.
-  - Walls at Col 6 block Eastward progress.
-  - Wall at Row 10 blocks Southward progress.
-  - Silver was right: "Nothing down there."
-- New Plan: Exit via Gate 1/Wall 3 and check Gate 2 (10,6) & Gate 3 (16,6) in current state (1-0-1).
-- Current State: 1-0-1 (S1 ON, S2 OFF, S3 ON).
-- Gate Logic So Far:
-  - G1: Open in 1-0-1. Closed in 0-0-0.
-  - G2: Open in most states (0-0-0, 1-0-0, 0-1-0, etc). Likely Open.
-  - G3: Open in 0-0-0. Closed in most others. Checking 1-0-1.
-- Goal: Find path to "Back Corridor" (East side).
+REFLECTION (Turn 49499):
+- Confirmed State 1-0-1 (S1 ON, S2 OFF, S3 ON) Results:
+  - Gate 1 (2,6): OPEN (Leads to dead end).
+  - Gate 2 (10,6): CLOSED.
+  - Gate 3 (16,6): OPEN!
+- This is the "Magic State"!
+- Plan: Enter Gate 3 (16,6) and explore the East side.
+- Note: (16,8) Trap should be SAFE (S2 is OFF).
+- Goal: Locate Card Key in the East section.
+- Warning: Watch for other traps (e.g., Row 12).
 - Plan: 
   1. Toggle Switch 3 ON (State 0-0-1).
   2. Check Gate 1.
