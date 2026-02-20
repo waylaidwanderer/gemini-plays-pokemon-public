@@ -3,18 +3,16 @@
 - **Goal:** Find Real Director.
 - **Key Items Needed:** Card Key.
 - **Goal:** Activate Switch 1 & 3 to open Gate 1 and Secret Wall.
-- **Current State:** 0-1-1 (Confirmed).
+- **Current State:** 1-1-1 (Suspected).
 - **Facts:**
-  - Gate 1 (2,6) CLOSED.
-  - Gate 3 (16,6) OPEN (Sw1 ON).
-  - Trap (16,8) ACTIVE & UNAVOIDABLE (Chokepoint).
-  - Conclusion: Gate 3 path is a DEAD END.
-- **Goal:** Set State 1-1-1 (All ON).
-- **Status:** At Switch 3 (2,2).
+  - Gate 1 (2,6) appears OPEN (TYPE_2889).
+  - Attempting to pass through.
+- **Goal:** Enter Back Area via Gate 1.
 - **Plan:**
-  1. Toggle Switch 3 ON.
-  2. Enter Gate 1 (2,6).
-  3. Access Secret Wall (11,10).
+  1. Go South through Gate 1.
+  2. Go East to (11,10).
+  3. Enter Secret Wall.
+  4. Find Director.
 - **New Plan:**
   - Try State 1-0-1 (Left ON, Mid OFF, Right ON).
   - Expectation: Gate 3 OPEN.
