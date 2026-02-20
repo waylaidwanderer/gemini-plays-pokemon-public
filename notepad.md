@@ -31,3 +31,5 @@
 - **Observation:** Gate 3 (16,6) is OPEN. Path to Director via (23,3) may be clear via Row 4/5 gap.
 - **Strategy:** Completing Switch Puzzle (1-2-3) to ensure all secrets (including Secret Wall at 11,10) are accessible before leaving.
 - **Path:** Moving to Switch 2 (10,2) avoiding Trap Room (15,4) and Trap (10,5).
+- **Map Update:** Tile (12,9) changed from Wall to Floor. This likely opened a path in the southern section.
+- **Safety:** Navigating to Switch 2 via Column 11 to avoid Trap Room (15,4) and Floor Trap (10,5).
