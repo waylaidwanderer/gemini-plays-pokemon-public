@@ -81,3 +81,6 @@
 - Expecting him to leave after this interaction.
 - Silver asks "What do you want to go there for?".
 - Continuing dialogue.
+- Silver claims "There's nothing down there."
+- Waiting for him to finish talking and move.
+- Objective: Investigate the area behind Silver once he leaves.
