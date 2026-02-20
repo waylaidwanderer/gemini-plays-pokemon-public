@@ -9,7 +9,8 @@
 | ON | OFF | ON | Closed | Closed | Closed | 1-0-1 (Inner 2,10 Closed) |
 
 ### Strategy: Test 0-1-1
-- **Current:** 0-1-0 (Sw1 OFF, Sw2 ON).
-- **Step 1:** Go to Sw3 (2,1) -> Turn ON.
-- **Result:** 0-1-1 (Sw1 OFF, Sw2 ON, Sw3 ON).
-- **Step 2:** Check Gates. (Maybe G3 opens?)
+- **Current:** 0-1-1 (Sw1 OFF, Sw2 ON, Sw3 ON).
+- **Step 1:** Toggle Switch 3 to ON (Done).
+- **Step 2:** Check Gate 1 (2,6). Expect OPEN.
+- **Step 3:** Check Gate 3 (16,6) or Inner Gate (2,10).
+- **Observation:** If G1 is Open, Sw3 opens G1.
