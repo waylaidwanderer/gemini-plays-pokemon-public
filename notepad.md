@@ -13,6 +13,6 @@
   - Switch 3 (Left): ON.
   - Switch 2 (Middle): ON.
   - Switch 1 (Right): OFF.
-  - **Action:** Toggled Switch 2 ON.
-  - **Task:** Check Gate 2 (10,6) and Gate 3 (16,6) for new paths.
+  - **Result:** Gate 2 (10,6) is CLOSED.
+  - **Task:** Check Gate 3 (16,6).
   - **Note:** Silver blocked path at Gate 1 (2,6).
