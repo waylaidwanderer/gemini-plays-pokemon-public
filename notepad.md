@@ -75,3 +75,5 @@
 - Encountered Grunt (SPRITE_9066) at (3, 2).
 - Plan: Talk to Grunt, then toggle Switch 3 (2, 1).
 - Hypothesis: Silver cleared the path or left, potentially unlocking the Director.
+- Grunt at (3, 2) is giving a hint about the switch order.
+- Listening carefully to the dialogue.
