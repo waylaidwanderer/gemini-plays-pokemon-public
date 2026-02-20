@@ -8,13 +8,13 @@
   - Switch 1: ON.
   - Switch 2: ON.
   - Switch 3: OFF.
-- **Observations:**
-  - Gate 2 (10,6) CLOSED (Visible).
-  - Gate 3 (16,6) OPEN (Known).
-  - Gate 1 (2,6) Status Unknown (Need to verify visually).
-- **Hypothesis:** Switch 2 might have opened Gate 1 despite closing Gate 2.
-- **Next Step:** Navigate via Gate 3 to check Gate 1.
-- **Route:** (10,2) -> (11,3) -> Gate 3 -> West Corridor -> View (2,6).
+- **Gate Status:**
+  - Gate 1 (2,6): OPEN (Confirmed by tile change).
+  - Gate 2 (10,6): CLOSED.
+  - Gate 3 (16,6): OPEN.
+- **Action:** Activate Switch 3 at (2,1).
+- **Route:** Manual path to avoid Trap at (2,4). (6,4)->(3,4)->(3,3)->(2,3)->(2,1).
+- **Goal:** Complete Sequence 1 -> 2 -> 3.
 
 ### Current Event: Rival Silver
 - Status: Encountered at (4,8). Left area.
