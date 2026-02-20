@@ -6,15 +6,17 @@
 | ON | OFF | OFF | OPEN | Closed | Closed | Closed | 1-0-0 |
 | OFF | ON | OFF | OPEN | Closed | Closed | Closed | 0-1-0 |
 | OFF | ON | ON | OPEN | Closed | Closed | Closed | 0-1-1 |
-| ON | OFF | ON | ? | Closed | Closed | ? | **TARGET 1-0-1** |
+| ON | OFF | ON | OPEN | Closed | Closed | Closed | 1-0-1 |
 
-### Plan: Execute "ON OFF ON" (1-0-1)
-1. Current: 0-0-1 (Sw2 just turned OFF).
-2. Go to Sw1 (16,1), Turn ON -> 1-0-1.
-3. Check Gates & Walls.
-4. If this fails, re-evaluate hints.
+### Analysis of 1-0-1 (ON OFF ON)
+- Gate 1 (2,6) is OPEN.
+- Gate 2 & 3 are CLOSED.
+- Wall (11,10) is CLOSED.
+- **CRITICAL CHECK:** Is Gate (2,10) Open?
+  - In 1-0-0, Gate 1 was Open but (2,10) was Closed.
+  - In 1-0-1, maybe (2,10) opens?
 
-### Status
-- Sw1: OFF
-- Sw2: OFF
-- Sw3: ON
+### Plan
+1. Check (2,10) status via code.
+2. If Open -> Go to (2,10).
+3. If Closed -> Panic/Re-think.
