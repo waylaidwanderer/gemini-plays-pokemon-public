@@ -3,16 +3,17 @@
 - **Goal:** Find Real Director.
 - **Key Items Needed:** Card Key.
 - **Goal:** Activate Switch 1 & 3 to open Gate 1 and Secret Wall.
-- **Current State:** 1-1-1 (Left ON, Mid ON, Right ON).
+- **Current State:** 0-1-1 (Suspected).
 - **Facts:**
-  - Sw3 toggled ON.
-  - Expectation: Gate 1 (2,6) OPEN.
-- **Goal:** Access Back Area via Gate 1.
+  - Gate 1 (2,6) was CLOSED (Blocked).
+  - Failed to enter Back Area.
+  - Likely failed to toggle Switch 3 last time.
+- **Goal:** Retry Toggle Switch 3 -> 1-1-1.
 - **Plan:**
-  1. Go South to Gate 1 (2,6).
-  2. Go East to (11,10).
-  3. Check if Secret Wall is OPEN.
-  4. Find Director/Card Key.
+  1. Return to Switch 3 (2,1).
+  2. Toggle ON.
+  3. Verify Gate 1 Opens.
+  4. Enter Back Area.
 - **New Plan:**
   - Try State 1-0-1 (Left ON, Mid OFF, Right ON).
   - Expectation: Gate 3 OPEN.
