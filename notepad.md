@@ -4,13 +4,13 @@
 | ON | ON | ON | Closed | Closed | Closed | 1-1-1 (Confirmed Closed) |
 | OFF | OFF | ON | OPEN | Closed | Closed | 0-0-1 (Confirmed) |
 | ON | OFF | OFF | OPEN | Closed | Closed | 1-0-0 (Inner 2,10 Closed) |
-| ON | OFF | ON | Closed | Closed | Closed | 1-0-1 (Testing Next) |
+| ON | OFF | ON | Closed | Closed | Closed | 1-0-1 (Testing...) |
 | OFF | ON | ON | Closed | Closed | Closed | 0-1-1 (Confirmed) |
 | OFF | ON | OFF | Closed | OPEN | Closed | 0-1-0 (Wall 11,10 Closed) |
 | OFF | OFF | OFF | Closed | Closed | Closed | 0-0-0 (Confirmed Reset) |
 
 ### Strategy: Test 1-0-1
 - **Current:** 1-1-1.
-- **Action:** Turn Switch 2 OFF.
-- **Goal:** Reach state 1-0-1 (ON-OFF-ON).
-- **Hypothesis:** This opens Gate 3.
+- **Action:** Go to Sw2 (10,2), Turn OFF.
+- **Goal:** Reach state 1-0-1.
+- **Hypothesis:** Opens Gate 3.
