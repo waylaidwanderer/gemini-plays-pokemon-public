@@ -9,10 +9,10 @@
 | ON | OFF | ON | Closed | Closed | Closed | 1-0-1 (Inner 2,10 Closed) |
 
 ### Strategy: Reach 1-0-0
-- **Current:** 0-0-1 (Sw1 OFF, Sw2 OFF, Sw3 ON) -> Correction: Sw1 was found OFF.
+- **Current:** 1-0-1 (Sw1 ON, Sw2 OFF, Sw3 ON).
 - **Goal:** 1-0-0 (Sw1 ON, Sw2 OFF, Sw3 OFF).
-- **Step 1:** Turn Sw1 ON (Doing now).
+- **Step 1:** Turn Sw1 ON (Confirmed ON).
 - **Step 2:** Go to Sw3 (2,1) -> Turn OFF.
 - **Step 3:** Check Gate 3 (16,6).
 - **Hypothesis:** Sw1 might open Gate 3.
-- **Status:** Turning Sw1 ON, then moving to Sw3.
+- **Status:** Moving to Switch 3 via safe path (Col 1).
