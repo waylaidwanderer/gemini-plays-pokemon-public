@@ -1,7 +1,8 @@
 ### Director's Room (Map 3_53)
-- **Location:** (19, 30) facing Director at (18, 30).
-- **Status:** Initiating dialogue.
-- **Goal:** Obtain CARD KEY.
+- **Location:** (18, 30).
+- **Status:** Searching for Director.
+- **Problem:** Director is NOT at (18, 30). Room appears empty?
+- **Goal:** Find Director or Card Key.
 
 ### Objectives
 - [ ] Get Card Key from Director
