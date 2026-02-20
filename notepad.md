@@ -4,15 +4,14 @@
 - [ ] Open Shutters and Defeat Team Rocket
 
 ### Warehouse Puzzle
-- **Current Real State:** Switch 3 (ON), Switch 2 (ON), Switch 1 (OFF). (State: 1-1-0)
-- **Gate Status:** Gate 2 (Middle) is CLOSED (Verified visually).
-- **Goal:** Execute Sequence: Switch 3 -> Switch 2 -> Switch 1.
+- **Current Real State:** Switch 3 (ON), Switch 2 (ON), Switch 1 (ON). (State: 1-1-1)
+- **Gate Status:** Checking Gate 3 (Right) and Gate 2 (Middle).
+- **Goal:** Verify if 1-1-1 opens any gates.
 - **Hint:** "End is the one to press first".
 - **Notes:** 
-    - 1-1-0 kept Gate 2 closed.
-    - Continuing sequence: Turn Switch 1 ON.
-    - If 1-1-1 fails, will reset and try 1->2->3.
-    - Taking safe path to Switch 1 via Column 8 & Row 5.
+    - Completed Sequence: 3 -> 2 -> 1.
+    - If 1-1-1 fails, will reset to 0-0-0 and try 1 -> 2 -> 3.
+    - Switch 1 is closest to Gate 3, so checking that first.
 
 ### Current Event: Rival Silver
 - Location: (4, 8) in Map 3_54.

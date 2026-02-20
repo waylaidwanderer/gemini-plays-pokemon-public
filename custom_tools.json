@@ -156,7 +156,7 @@
         "autopress_buttons"
       ]
     },
-    "python_script": "import xml.etree.ElementTree as ET\n\ndef check_gate_states(map_xml_string):\n    root = ET.fromstring(map_xml_string)\n    \n    # Define targets to check (x, y)\n    targets = {\n        \"Gate 1\": (2, 6),\n        \"Gate 2\": (10, 6),\n        \"Gate 3\": (16, 6),\n        \"Secret Door\": (11, 6),\n        \"Inner Wall\": (11, 10),\n        \"Back Gate\": (2, 10)\n    }\n    \n    results = {}\n    \n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            if (x, y) in targets.values():\n                tile_type = tile.attrib.get('type', 'unknown')\n                # Find the name for this coordinate\n                name = [k for k, v in targets.items() if v == (x, y)][0]\n                results[name] = tile_type\n\n    print(f\"{results}\")\n\ncheck_gate_states(map_xml_string)",
+    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\ndef main(input_data):\n    try:\n        # Check if map_xml_string exists (it should be injected)\n        if 'map_xml_string' not in globals():\n            print(json.dumps({\"error\": \"map_xml_string not found\"}))\n            return\n\n        root = ET.fromstring(map_xml_string)\n        \n        # Coordinates to check\n        # Gate 1: (2, 6)\n        # Gate 2: (10, 6)\n        # Gate 3: (16, 6)\n        # Secret Wall: (11, 10) - just in case\n        \n        targets = {\n            \"Gate 1 (2,6)\": (2, 6),\n            \"Gate 2 (10,6)\": (10, 6),\n            \"Gate 3 (16,6)\": (16, 6),\n            \"Secret Wall (11,10)\": (11, 10)\n        }\n        \n        results = {}\n        \n        for row in root.findall(\"Row\"):\n            y = int(row.get(\"id\"))\n            for tile in row.findall(\"Tile\"):\n                x = int(tile.get(\"id\"))\n                \n                for name, coord in targets.items():\n                    if (x, y) == coord:\n                        t_type = tile.get(\"type\")\n                        # Heuristic: TYPE_2889 is usually wall/closed. TYPE_3fe2 is usually floor/open.\n                        # We can also check markers but type is ground truth for collision.\n                        status = \"Unknown\"\n                        if t_type == \"TYPE_2889\":\n                            status = \"CLOSED\"\n                        elif t_type == \"TYPE_3fe2\":\n                            status = \"OPEN\"\n                        else:\n                            status = f\"Type: {t_type}\"\n                        \n                        results[name] = status\n        \n        print(json.dumps(results))\n\n    except Exception as e:\n        print(json.dumps({\"error\": str(e)}))\n\nmain(input_data)",
     "history": [
       {
         "commit_message": "Initial version",
@@ -247,6 +247,11 @@
         "commit_message": "Initial definition of the check_gate_states tool.",
         "timestamp": "2026-02-20T18:16:21.328Z",
         "action_counter": 50375
+      },
+      {
+        "commit_message": "Initial definition of check_gate_states tool to verify warehouse gate status via XML parsing.",
+        "timestamp": "2026-02-20T22:05:10.118Z",
+        "action_counter": 50642
       }
     ]
   },
