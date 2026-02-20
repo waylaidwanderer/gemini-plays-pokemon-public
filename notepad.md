@@ -1,14 +1,10 @@
-### TRAP REALITY CHECK
-- **Status:** I did NOT escape. The warp mats at (21,31) and (22,31) failed to trigger.
-- **Location:** Still in Director's Office (South Room).
-- **Situation:**
-  - South: Warp mats inactive.
-  - West: Director at (18,29).
-  - North: Grunts blocking exit at Row 24.
-  - East: Stairs to Warehouse Trap.
-- **Plan:**
-  1. The solution MUST be the Director or the Grunts in this room.
-  2. Approach Director at (18,29). Talk from Front and Side.
-  3. Approach Grunts at Row 24. Talk to ALL of them.
-  4. Check every tile for hidden switches.
-- **Hypothesis:** One of the NPCs is the trigger to open the path.
+### TRAP BREAKER PROTOCOL
+- **Status:** PHYSICALLY TRAPPED. Warp mats failed. Dig/Fly impossible.
+- **Hypothesis:** The "Director" (Petrel) or the Grunts at Row 24 MUST initiate a scene/battle to clear the path.
+- **Possibility:** I might have missed the interaction hitbox.
+- **Action Plan:**
+  1. Interact with the Director at **(18,29)**. Stand at (18,30). Face UP. Press A.
+  2. Interact with Grunt at **(19,24)**. Stand at (19,25). Face UP. Press A.
+  3. Interact with Grunt at **(22,24)**. Stand at (22,25). Face UP. Press A.
+  4. **Last Resort:** Go back to Warehouse NE (3_54). Run around to trigger Wild Battles (if any exist). Faint party to warp to Center.
+- **Note:** Do NOT mash buttons. Press A firmly and wait for text.
