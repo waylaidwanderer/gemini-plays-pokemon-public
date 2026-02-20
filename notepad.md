@@ -7,6 +7,7 @@
 - **Next Step:** Go to Sw2 (10,1) and turn OFF.
 - **Path:** (16,4) -> Row 3 -> (10,2).
 - **Observation:** Gate 2 (10,6) is OPEN with 0-0-1.
-- **Hypothesis:** 0-0-1 might also open Wall (11,10).
-- **Plan:** Go through Gate 2 to check (11,10).
-- **Warning:** Potential traps at (10,9)/(11,9).
+- **Plan:** Avoid (10,9) by looping around via (11,6).
+- **Path:** (10,8) -> (10,6) -> (11,6) -> (11,9).
+- **Test:** Check if (11,9) is safe and if Wall (11,10) is open.
+- **Risk:** (11,9) might be a trap.
