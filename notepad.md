@@ -38,3 +38,6 @@
 - **Next:** Move to (11,3). Check safety of (10,3). Engage Grunt if necessary to reach (10,2).
 - **Action:** Moving to (10,2) to activate Switch 2.
 - **Risk:** Grunt at (11,2) might spot me. Prepared for battle.
+- **Action:** Interaction with Switch 2 at (10,1).
+- **Expectation:** Gate 1 (2,6) should open to allow access to Switch 3.
+- **Grunt Status:** Grunt at (11,2) did not trigger battle upon approach. Likely passive.
