@@ -3,7 +3,8 @@
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | ON | ON | ON | Closed | Closed | Closed | 1-1-1 (Confirmed Closed) |
 | OFF | OFF | ON | OPEN | Closed | ? | 0-0-1 (Checking Gate 3) |
-| ON | ON | OFF | OPEN | OPEN | Closed | 1-1-0 (Current) |
+| ON | ON | OFF | OPEN | OPEN | Closed | 1-1-0 (Confirmed Sw1 opens 11,6) |
+| OFF | ON | OFF | ? | ? | ? | 0-1-0 (Current - Testing Gate 3) |
 | OFF | ON | OFF | Closed | OPEN | ? | 0-1-0 (Checking Gate 3) |
 | ON | OFF | OFF | OPEN | Closed | ? | 1-0-0 (Sw1 Opens 11,6) |
 
