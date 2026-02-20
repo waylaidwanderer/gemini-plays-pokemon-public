@@ -65,3 +65,7 @@
 - Interacting with Silver to clear event.
 - Confirmed: 0-0-0 opens Gate 1.
 - Next: If Silver leaves, check Director or proceed to (9, 12) where a sprite appeared.
+### Silver Interaction
+- State 0-0-0 (All OFF) Confirmed. Gate 1 OPEN.
+- Located Silver at (4, 8).
+- Initiating dialogue.
