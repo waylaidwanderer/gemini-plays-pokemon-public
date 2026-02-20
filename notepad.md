@@ -1,18 +1,14 @@
 ### Puzzle Solution: Operation Rescue Director
-- **Goal:** Find Real Director & Card Key in Back Area (Rows 10+).
-- **Switch Logic:**
-  - Sw1 OFF -> Wall (11,10) Open?
-  - Sw3 ON -> Gate 3 (16,6) Open.
-  - Current Config: 0-0-1 (Sw1 OFF, Sw2 OFF, Sw3 ON).
-- **Status:** Exploring West Section (Cols 0-11).
-- **Observations:**
-  - Burglar Duncan at (9,12) is passive (no battle).
-  - Wall at Col 12 splits room into West/East.
+- **Goal:** Find Real Director & Card Key.
+- **Switch Logic Analysis:**
+  - 0-0-1 (Sw3 ON): Gate 3 Open, Wall (16,10) Blocked.
+  - 1-0-1 (Sw1+Sw3): Gate 3 Closed.
+  - 1-0-0 (Sw1): Gate 3 Closed.
+  - Need to reach East Room (Col 13+).
+  - Paradox: Gate 3 needs Sw1 OFF? Wall (16,10) needs Sw1 ON?
+- **Hypothesis:** Try 0-1-1 (Sw2 ON, Sw3 ON).
+  - Maybe Sw2 opens Wall (16,10)?
 - **Plan:**
-  1. Explore South in West Section.
-  2. Look for items/Director.
-  3. If dead end, backtrack to Row 9 and cross to East Section.
-- **Plan:**
-  1. Go to Gate 3 (16,6) via Row 5 (Safe Lane).
-  2. Flank Trap (16,8) via (17,8) (Right side).
-  3. Enter Back Area via (16,10).
+  1. Exit West Room via (11,10).
+  2. Turn Sw2 ON (State 0-1-1).
+  3. Check Gate 3 & Wall (16,10).
