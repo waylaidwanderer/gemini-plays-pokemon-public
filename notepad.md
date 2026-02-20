@@ -1,15 +1,11 @@
 ### Warehouse (Map 3_54)
-- **Status:** Gate 3 (16,6) is CLOSED (Verified). State is 1-1-0.
-- **Puzzle Logic:**
-  - 1-0-0 (Sw1 ON): G3 Open.
-  - 1-1-0 (Sw1 ON, Sw2 ON): G3 Closed.
-  - Conclusion: Switch 2 Closes G3.
-- **Plan:**
-  1. Go to Switch 2 (10,1) via Row 3.
-  2. Turn Switch 2 OFF.
-  3. Return to Gate 3 (should be Open).
-- **Route:** (16,5) -> (11,5) -> (11,3) -> (10,3) -> (10,1).
-- **Target:** Switch 2.
+- **Status:** At (10,3). Grunt at (11,2) blocked previous path.
+- **Action:** Move Up to (10,2) and toggle Switch 2 OFF.
+- **Puzzle State:**
+  - Current: 1-1-0.
+  - Goal: 1-0-0 (Switch 1 ON only).
+  - Expected Result: Gate 3 OPEN.
+- **Route:** After toggle, go to Gate 3 (16,6) via Row 3 to avoid traps.
 
 ### Objectives
 - [ ] Turn Switch 2 OFF
