@@ -6,16 +6,11 @@
 ### Warehouse Puzzle
 - **Puzzle Status:**
   - State: 1-1-1 (All ON).
-  - Gate 1: OPEN (Verified).
-  - Gate 3: CLOSED (Verified).
-  - Gate 2: Unknown (Need to check).
-- **Logic:**
-  - 1-1-0 had G1 Open, G3 Open.
-  - 1-1-1 has G1 Open, G3 Closed.
-  - If G2 is Open, enter via G2.
-  - If G2 is Closed, must revert to 1-1-0 (Turn Switch 3 OFF).
-- **Immediate Goal:** Check Gate 2 (10,6).
-- **Route:** Move West in Row 5. Stop at (11,5) to view (10,6). Avoid (10,5) Trap.
+  - Gates: All CLOSED (Verified).
+  - Logic: 1-1-1 closes all gates.
+- **Hypothesis:** Path to Director (23,3) is accessible via Row 4/5 from Bay 3, bypassing the closed gates.
+- **Next:** Navigate to (23,3) to enter Director's Room.
+- **Contingency:** If blocked, revert switches to 1-0-0 or 1-1-0 to open a gate.
 
 ### Current Event: Rival Silver
 - Status: Present at (4,8). Blocking path East.
