@@ -61,8 +61,7 @@
 - Route: Avoiding suspected trap at (2, 4) by looping through (3, 4) -> (3, 3) -> (2, 3).
 - Plan: Toggle Switch 3 ON (State 0-0-1).
 - Expectation: Check if Gate 1 opens.
-- SYSTEM ALERT: Gate 1 (2, 6) reported OPEN (TYPE_3fe2) during movement!
-- Conclusion: State 0-0-0 (All OFF) OPENS Gate 1.
-- Plan: Cancel Switch 3 toggle. Navigate to Silver (4, 8) immediately.
-- Route: Go South to Row 5, then West to (2, 5), then South through Gate 1.
-- Avoids suspected trap at (2, 4).
+- Reached Rival Silver at (4, 8) via Gate 1 (Open in 0-0-0).
+- Interacting with Silver to clear event.
+- Confirmed: 0-0-0 opens Gate 1.
+- Next: If Silver leaves, check Director or proceed to (9, 12) where a sprite appeared.
