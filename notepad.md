@@ -3,18 +3,22 @@
 - **Goal:** Find Real Director.
 - **Key Items Needed:** Card Key.
 - **Goal:** Activate Switch 1 & 3 to open Gate 1 and Secret Wall.
-- **Current State:** 0-1-1 (Likely).
+- **Current State:** 0-1-1 (Confirmed).
 - **Facts:**
-  - Gate 1 (2,6) CLOSED (Bumped).
-  - Sw3 likely OFF.
-  - Gate 3 (16,6) should be OPEN (Sw1 ON).
-  - Trap (16,8) is ACTIVE but can be FLANKED.
-- **Goal:** Enter East Wing via Gate 3.
+  - Gate 1 (2,6) CLOSED.
+  - Gate 3 (16,6) OPEN (Sw1 ON).
+  - Trap (16,8) ACTIVE & UNAVOIDABLE (Chokepoint).
+  - Conclusion: Gate 3 path is a DEAD END.
+- **Goal:** Set State 1-1-1 (All ON).
+- **Rationale:**
+  - 1-1-1 Opens Gate 1 (2,6).
+  - Gate 1 path bypasses the Gate 3 trap.
+  - Previous failure to open Gate 1 was due to missed toggle.
 - **Plan:**
-  1. Go Right to (16,5).
-  2. Enter Gate 3 (16,6).
-  3. Walk AROUND Trap (16,8) via (15,8).
-  4. Explore East Wing.
+  1. Go to Switch 3 (2,1).
+  2. Toggle ON.
+  3. Enter Gate 1.
+  4. Access Secret Wall (11,10).
 - **New Plan:**
   - Try State 1-0-1 (Left ON, Mid OFF, Right ON).
   - Expectation: Gate 3 OPEN.
