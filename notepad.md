@@ -11,6 +11,7 @@
 - Director: Map 3_53 (18, 29)
 - Radio Tower: Goldenrod City
 - Realized I was turning away from the Director before pressing A. Corrected approach: Move to (18, 30), Face UP, Press A.
-- Front interaction failed multiple times. Trying side approach from (17, 29).
-- Moving to (17, 29) to interact from the side.
+- Realized (17, 29) and (17, 30) are WALLS (TYPE_2889). Cannot approach from left.
+- Front interaction at (18, 30) failed.
+- Plan: Try interacting with the desk/tiles to the right at (19, 29) and (20, 29).
 - Checked inventory: No Card Key yet. Must finish dialogue.
