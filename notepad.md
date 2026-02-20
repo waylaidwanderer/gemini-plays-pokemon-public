@@ -4,14 +4,12 @@
 | ON | ON | ON | ? | ? | OPEN | 1-1-1 |
 | OFF | OFF | ON | Closed | OPEN | Closed | 0-0-1 |
 | ON | OFF | OFF | OPEN | Closed | Closed | 1-0-0 |
-| ON | OFF | ON | ? | ? | ? | **CURRENT TEST (1-0-1)** |
+| ON | OFF | ON | Closed | ? | Closed | 1-0-1 |
 
 ### Strategy: Verify 1-0-1 (ON-OFF-ON)
 - **Status:** Sw1=ON, Sw2=OFF, Sw3=ON.
-- **Hypothesis:** 1-0-1 matches Burglar's "ON OFF ON" hint.
-- **XML Evidence:** Tile (6,9) is listed as Walkable (TYPE_3fe2).
-- **Plan:**
-  1. Check Gate 3 (16,6) since I am nearby.
-  2. If Closed, go to Gate 1 (2,6).
-  3. Verify if Gate 1 is Open.
-  4. If Open, go to (6,9) and walk through it.
+- **Observation:** Gate 1 (2,6) is CLOSED.
+- **Observation:** Gate 3 (16,6) is CLOSED.
+- **Next Step:** Check Gate 2 (10,6).
+- **Hypothesis:** If Gate 2 is also closed, 1-0-1 is a lockdown state.
+- **Contingency:** If 1-0-1 fails, try 0-1-0 (OFF-ON-OFF).
