@@ -27,17 +27,18 @@ Plan:
 Current State: 1-0-1 (Reached via S3->S1).
 Tool Output: Gate 1 CLOSED.
 Conclusion: "Switch on End" sequence failed.
-REFLECTION (Turn 49493):
-- Verified Gate 1 (2,6) is OPEN (Walkable).
-- Path forward: Traverse South to (2,8), then East along Row 8/9.
-- Goal: Explore the "Back Corridor" for the Card Key.
-- Note: Trap at (2,4) assumed safe in State 1-0-1.
-- Note: Wall at (2,10) is CLOSED, must turn East.
-- Exploration Target: Check (11,10) Secret Exit and (11,9) area.
-- Plan: Travel West along Row 8/9 to check Secret Wall (11,10) and Back Gate (2,10).
-- Caution: Traps at (12,8), (11,9), (10,9) might be active.
-- Visual Check: Gate 1 (2,6) verified CLOSED in 0-0-0.
-- Hypothesis: "Switch on the End" means Switch 3 (2,1).
+REFLECTION (Turn 49496):
+- Confirmed: Area behind Gate 1 (Silver's Area) is a dead end.
+  - Walls at Col 6 block Eastward progress.
+  - Wall at Row 10 blocks Southward progress.
+  - Silver was right: "Nothing down there."
+- New Plan: Exit via Gate 1/Wall 3 and check Gate 2 (10,6) & Gate 3 (16,6) in current state (1-0-1).
+- Current State: 1-0-1 (S1 ON, S2 OFF, S3 ON).
+- Gate Logic So Far:
+  - G1: Open in 1-0-1. Closed in 0-0-0.
+  - G2: Open in most states (0-0-0, 1-0-0, 0-1-0, etc). Likely Open.
+  - G3: Open in 0-0-0. Closed in most others. Checking 1-0-1.
+- Goal: Find path to "Back Corridor" (East side).
 - Plan: 
   1. Toggle Switch 3 ON (State 0-0-1).
   2. Check Gate 1.
