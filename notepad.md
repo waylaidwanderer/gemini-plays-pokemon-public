@@ -1,14 +1,9 @@
 ### Puzzle Solution: Operation Rescue Director
 - **Goal:** Find Real Director & Card Key (South Room).
-- **Strategy:** Try 0-0-1 (Sw1 OFF, Sw2 OFF, Sw3 ON).
-- **Reason:** Sw1 creates a conflict (Opens Wall 11,10 but Closes Crossing 12,8). Need another route.
-- **Hypothesis:** Sw2 OFF might open Gate 2 (10,6) or Crossing (10,8)/(11,8).
-- **Current Status:** Sw1=OFF, Sw2=ON, Sw3=ON.
-- **Next Step:** Go to Sw2 (10,1) and turn OFF.
-- **Path:** (16,4) -> Row 3 -> (10,2).
-- **Observation:** (11,10) is CLOSED with 0-0-1.
-- **Hypothesis:** 0-0-1 Failed. Summary might be misleading or state is desynced.
-- **Next Step:** Check Gate 3 (16,6) to verify Sw3 state.
-- **Plan:** If Gate 3 Open -> Try 1-0-1 (Turn Sw1 ON).
-- **Plan:** If Gate 3 Closed -> Sw3 is OFF?
-- **Path:** (11,9) -> (11,6) -> (16,6).
+- **Clue:** Burglar hint "ON OFF ON" -> Sw1=ON, Sw2=OFF, Sw3=ON?
+- **Current Status:** Sw1=OFF, Sw2=OFF, Sw3=ON (0-0-1).
+- **Observation:** In 0-0-1, Gate 2 (10,6) is OPEN. (11,10) is CLOSED.
+- **Plan:** Execute "ON OFF ON" Strategy.
+- **Action:** Go to Sw1 (16,1) and Turn ON.
+- **Path:** (11,6) -> (16,6) -> (16,1).
+- **Expectation:** Wall (11,10) Opens.
