@@ -3,16 +3,19 @@
 - **Goal:** Find Real Director.
 - **Key Items Needed:** Card Key.
 - **Status:** Testing Switch Combinations.
-- **Current State:** 1-0-0 (Sw1 ON, Sw2 OFF, Sw3 OFF).
+- **Current State:** 1-0-1 (Sw1 ON, Sw2 OFF, Sw3 ON).
 - **Facts:**
-  - 1-0-1: Gate 3 Closed.
-  - 1-1-1: Gate 3 Closed.
-  - 1-0-0: Checking...
-- **Hypothesis:** Sw3 ON closes Gate 3.
+  - 1-0-1: Gate 1 Open (Previous Result).
+  - 1-1-1: Gate 1 Open.
+  - 1-0-0: All Closed.
+- **Hypothesis:** One Switch ON = Corresponding Gate Open.
+  - Sw1 ON -> Gate 1?
+  - Sw2 ON -> Gate 2?
+  - Sw3 ON -> Gate 3?
 - **Plan:**
-  1. Check Gates for 1-0-0.
-  2. If Gate 3 Open, go to Back Area.
-  3. If Closed, try other combinations.
+  1. Toggle Sw3 ON (State 1-0-1).
+  2. Go to Sw1 and turn OFF (State 0-0-1).
+  3. Verify Gate 3 Open.
 - **Plan:**
   1. Go to Gate 3 (16,6) via Row 5 (Safe Lane).
   2. Flank Trap (16,8) via (17,8) (Right side).
