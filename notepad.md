@@ -5,12 +5,13 @@
 
 ### Warehouse Puzzle
 - **State:** 1-0-0 (Switch 1 ON).
+- **Gates:** G3 Open, G2 Open, G1 Closed.
 - **Goal:** Execute Sequence 1 -> 2 -> 3.
 - **Targets:**
   - Switch 1 (16,1) [ON]
   - Switch 2 (10,1) [OFF]
   - Switch 3 (2,1) [OFF]
-- **Next:** Verify gate changes. Navigate to Switch 2 (10,1).
+- **Next:** Navigate to Switch 2 (10,1) via Column 11 (avoid traps).
 - **Notes:**
   - Switch 2 is at (10,1). Access via (10,2).
   - Be careful of floor traps in Bay 2.
