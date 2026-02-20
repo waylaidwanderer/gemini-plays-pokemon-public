@@ -20,7 +20,11 @@
 - Director: Map 3_53 (18, 29) - Unresponsive.
 - Silver: Map 3_54 (4, 8).
 - Grunt (Hint): Map 3_54 (3, 2).
-- Gate 1 (2, 6) is CLOSED in current state (1-1-1).
-- Plan: Toggle Switch 3 (2, 1) to turn it OFF.
-- Hypothesis: This might open Gate 1.
-- Path to Switch 3: Down, Left, Left, Up (avoiding Grunt at 3, 2).
+- Gate 1 (2, 6) is CLOSED in state 1-1-0 (Sw3 OFF).
+- Plan: Toggle Switch 1 (16, 1) to OFF.
+- New State Target: 0-1-0.
+- Hypothesis: Maybe Switch 1 controls the master lock or something.
+- Path: Traverse from Left (Sw3) to Right (Sw1).
+- Risk: Crossing the middle column (x=10) traps.
+- Known Traps: (10, 5) [Warp], (10, 2) [Suspected].
+- Strategy: Try Row 3 or 4.
