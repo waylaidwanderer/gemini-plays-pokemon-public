@@ -4,14 +4,16 @@
 - **Key Items Needed:** Card Key.
 - **Goal:** Activate Switch 1 & 3 to open Gate 1 and Secret Wall.
 - **Current State:** 1-1-1 (All ON).
-- **Goal:** Explore Deep Back Area via Column 16.
-- **Facts:**
-  - Gate 1 (2,6): OPEN.
-  - Trap (10,9): SAFE (Confirmed).
-  - Wall (11,10): CLOSED.
-  - Path (16,10): OPEN (Detected change).
-- **Exploration Plan:**
-  1. Go East to (16,9).
-  2. Go South through (16,10).
-  3. Battle Burglar Duncan (9,12) & Grunts.
-  4. Find Director/Card Key.
+- **Analysis:**
+  - Gate 1 & 2 OPEN. Gate 3 CLOSED.
+  - Antechamber (Row 6-9) is a DEAD END (Row 10 & Col 12 blocked).
+  - Path (16,10) is OPEN, but inaccessible from here.
+- **New Plan:**
+  - Try State 1-0-1 (Left ON, Mid OFF, Right ON).
+  - Expectation: Gate 3 OPEN.
+  - Goal: Enter East Wing via Gate 3.
+  - Risk: Path (16,10) might close. Check for other paths.
+- **Switch Plan:**
+  1. Exit North via Gate 2.
+  2. Toggle Sw2 (Mid) OFF -> 1-0-1.
+  3. Enter Gate 3.
