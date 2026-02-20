@@ -5,14 +5,14 @@
 | OFF | OFF | ON | Closed | OPEN | Closed | Closed | 0-0-1 |
 | ON | OFF | OFF | OPEN | Closed | Closed | Closed | 1-0-0 |
 | ON | OFF | ON | Closed | Closed | Closed | Closed | 1-0-1 (Hint?) |
-| OFF | ON | OFF | ? | ? | ? | ? | **TESTING** |
+| OFF | ON | OFF | OPEN | Closed | Closed | Closed | 0-1-0 |
+| OFF | ON | ON | ? | ? | ? | ? | **NEXT TEST** |
 
-### Plan: 0-1-0 (OFF-ON-OFF)
-1. Turn Sw2 ON (currently OFF).
-2. Check States.
-3. Turn Sw1 OFF (currently ON).
-4. Check States.
-5. If fail, try other combos using `check_gate_states`.
+### Plan: 0-1-1 (OFF-ON-ON)
+1. Move to Sw3 (2,1).
+2. Turn Sw3 ON.
+3. Check States.
+4. If Wall (11,10) is OPEN, check if Gate 2 or Gate 3 allows access.
 
 ### Items/Objects
 - Burglar Duncan (9,12)
