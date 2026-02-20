@@ -7,14 +7,13 @@
 - **Puzzle Status:**
   - Switch 1: ON.
   - Switch 2: ON.
-  - Switch 3: OFF.
-- **Gate Status:**
-  - Gate 1 (2,6): OPEN (Confirmed by tile change).
-  - Gate 2 (10,6): CLOSED.
-  - Gate 3 (16,6): OPEN.
-- **Action:** Activate Switch 3 at (2,1).
-- **Route:** Manual path to avoid Trap at (2,4). (6,4)->(3,4)->(3,3)->(2,3)->(2,1).
-- **Goal:** Complete Sequence 1 -> 2 -> 3.
+  - Switch 3: ON.
+- **Goal:** Verify Gate States and reach the Director.
+- **Route:** Go back East through the open gates.
+- **Expectation:** Path to (23,3) should be clear.
+- **Notes:**
+  - Sequence 1-2-3 completed.
+  - Check Gate 2 (10,6) and Gate 3 (16,6) on the way back.
 
 ### Current Event: Rival Silver
 - Status: Encountered at (4,8). Left area.
