@@ -13,3 +13,7 @@
 - **Status:** Gate 3 is OPEN. Moving to explore East Wing.
 - **Risk:** Trap at (16,8) or Grunt at (17,2).
 - **Plan:** Bypass trap via Col 17 if possible. Fight Grunt if needed.
+- **Success!** Gate 3 opened with the '1-0-0' configuration (Switch 1 ON, others OFF).
+- Entered the Director's Room via the stairs at (23, 3) in the Warehouse.
+- Current Location: Map 3_53 (Director's Room).
+- Goal: Talk to the Director to get the Card Key.
