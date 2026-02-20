@@ -51,3 +51,7 @@
 - Going back to Warehouse (3_54) via stairs at (22, 27).
 - Plan: Re-enter 3_53 immediately to see if events trigger.
 - If not, explore the area in 3_54 near the stairs for missed items (Item Ball = Card Key?).
+- Grunts and Director in 3_53 are unresponsive.
+- Returning to Warehouse (3_54) to search for missed items/triggers.
+- Possibility: The Card Key is an ITEM BALL in the Warehouse, not given by the Director?
+- Or I need to clear the warehouse of all enemies first?
