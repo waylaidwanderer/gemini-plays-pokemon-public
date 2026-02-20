@@ -1,8 +1,9 @@
 ### Director's Room (Map 3_53)
-- **Location:** (18, 30) Area.
-- **Status:** Sweeping room for Director.
-- **Action:** Checking (24, 28) and other corners.
-- **Contingency:** If empty, return to Warehouse (3_54) and check Grunt at (17, 2).
+- **Location:** (21, 26).
+- **Status:** Investigating Rocket Grunt at (21, 25).
+- **Issue:** Grunt did not respond to 'A'.
+- **Plan:** Try bumping into him or walking around.
+- **Hypothesis:** He might be a blocker or requires a different angle.
 
 ### Objectives
 - [ ] Get Card Key from Director
