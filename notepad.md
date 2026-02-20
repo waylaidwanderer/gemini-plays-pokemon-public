@@ -57,3 +57,7 @@ REFLECTION (Turn 49499):
   - Path forces North to Row 5.
   - New Exploration Zone: North-East Room (Rows 2-5, Cols 18+).
   - Saw Warp at (22,10) behind walls. Access likely from East or South.
+- Issue: Director at (18, 29) is unresponsive to interaction from the South (18, 30).
+- Observation: Director is surrounded by solid tiles (TYPE_63e2).
+- Plan: Engage Rocket Grunts at Row 24 (North end of the room). Maybe defeating them triggers the Director?
+- Path: Go East to Col 21, then North to avoid the stairs at (22, 27).
