@@ -9,7 +9,13 @@ Reflection (Turn 49439):
 
 | State | S1 | S2 | S3 | G1 | G2 | G3 | SecDoor | Wall(11,10) | Notes |
 |---|---|---|---|---|---|---|---|---|---|
-| 0-0-0 | 0 | 0 | 0 | Closed | Closed | Closed | Closed | Closed | Reset |
+| 0-0-0 | 0 | 0 | 0 | Closed | OPEN | OPEN | OPEN | Closed | Tool 49457 |
+Goal: Explore behind Gate 3 (16,6).
+Reason: Tool confirms Gate 3 is OPEN in State 0-0-0.
+Plan:
+1. Move South through Gate 3.
+2. Check Warp at (22,10).
+3. Avoid traps (16,8 is safe if S2 is OFF).
 | 0-0-1 | 0 | 0 | 1 | Closed | Closed | Closed | Closed | Closed | Tool 49407 |
 | 0-1-0 | 0 | 1 | 0 | Closed | OPEN | Closed | OPEN | Closed | Tool 49395 |
 | 0-1-1 | 0 | 1 | 1 | Closed | OPEN | Closed | OPEN | Closed | Tool 49413 |
