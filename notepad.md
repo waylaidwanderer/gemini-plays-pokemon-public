@@ -16,14 +16,8 @@
   - Watch for traps in Bay 1.
 
 ### Current Event: Rival Silver
-- Location: (4, 8) in Map 3_54.
-- Dialogue Log:
-  - "UNDERGROUND WAREHOUSE?"
-  - "What do you want to go there for?"
-  - "There's nothing down there."
-- Status: Dialogue ongoing. Expecting him to leave.
-- Next: Investigate the area he was blocking.
-- Confirmed Grunt Hint: "Change the order of switching". (Already known, verified at Turn 50551).
+- Status: Encountered at (4,8). Left area.
+- Confirmed Grunt Hint: "Change the order of switching". (Verified).
 - **Correction:** Grunt at (17,2) appears to be passive (non-hostile). He just repeats dialogue.
 - **Action:** Ignore Grunt. Move to blue machine at (16,1) which is likely Switch 1.
 - **Route:** Left -> Up -> Interact.
