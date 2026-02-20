@@ -5,12 +5,10 @@
 | OFF | OFF | ON | OPEN | Closed | ? | 0-0-1 (Checking Gate 3) |
 | ON | OFF | OFF | OPEN | Closed | Closed | 1-0-0 (Inner 2,10 Closed) |
 | ON | OFF | ON | Closed | Closed | Closed | 1-0-1 (Confirmed Closed) |
-| OFF | ON | ON | ? | Closed | Closed | 0-1-1 (Confirmed Closed) |
-| OFF | ON | OFF | Closed | OPEN | Closed | 0-1-0 (Wall 11,10 Closed) |
-| OFF | OFF | OFF | Closed | Closed | Closed | 0-0-0 (Confirmed Reset) |
 
-### Strategy: Test 0-0-1 (RETRY)
-- **Current:** 0-0-1.
-- **Action:** Check Gate 3 (16,6).
-- **Goal:** Find Open Gate 3.
-- **Reason:** Previous 0-0-1 test checked Gate 1 (Open) but missed Gate 3.
+### Strategy: Test 1-0-0
+- **Current:** 1-0-1.
+- **Action:** Go to Sw3 (2,2) -> Turn OFF.
+- **Goal:** Reach state 1-0-0 (Only Sw1 ON).
+- **Hypothesis:** Symmetry. Sw1 -> Gate 3?
+- **Route:** Row 5 is safe. Avoid (10,4) and (2,4).
