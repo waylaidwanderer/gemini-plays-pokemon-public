@@ -1,13 +1,12 @@
-### CRITICAL SITUATION: TRAPPED?
-- **Location:** Director's Office (3_53), South Room.
-- **Status:**
-  - Stairs (22, 27) lead to Warehouse NE Trap (Gate 3 closed, Grunt is flavor text).
-  - North Exit blocked by Grunts at Row 24.
-  - Warp Mats (21,31 / 22,31) seem to be landing spots from the North Room.
-- **Goal:** FIND THE EXIT.
-- **Plan:**
-  1. Test Warp Mats (Press A, Walk into wall).
-  2. Interact with Director (18,29) from ALL sides.
-  3. Interact with Grunts at Row 24 again.
-  4. Search for hidden switches in the room.
-- **Inventory:** I have the BASEMENT KEY. I should be in the Underground. I need to leave this building.
+### Puzzle Reset & Solution
+- **Status:** ESCAPED the trap! Warped from (21,31) to Main Hall (18,7).
+- **Location:** Director's Office (3_53) Main Hall.
+- **Objective:** Enter Warehouse (3_54) via Main Door (18,6).
+- **Goal:** Reach South-East Section (Real Director).
+- **Target State:** 1-0-1 (S1 ON, S2 OFF, S3 ON).
+- **Route:**
+  1. Enter Warehouse.
+  2. Toggle switches to achieve 1-0-1.
+  3. Enter Gate 3 (16,6).
+  4. Go SOUTH (Avoid going North back to the trap stairs).
+  5. Explore SE area for Director.
