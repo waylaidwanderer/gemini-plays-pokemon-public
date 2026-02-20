@@ -1,13 +1,18 @@
 ### Warehouse (Map 3_54)
-- **Status:** Returned from Director's Room.
-- **Goal:** Clear Warehouse Grunts to trigger progression.
-- **Target:** Grunt at (11, 2).
-- **Route:** (23,3) -> Row 5 -> (11, 3).
-- **Hazards:** Trap Room at (15, 4). Walls at (12, 3) and (18, 3).
+- **Status:** Talked to Grunt at (11, 3). He gave a hint about "the switch on the end".
+- **Current Puzzle State:** 1-1-1 (All ON).
+- **Issue:** Director's Room was empty/unresponsive.
+- **Plan:** Explore Southern Warehouse (Rows 8-12).
+- **Targets:**
+  - Defeat Burglar Duncan (9, 12).
+  - Defeat Rocket Grunt F (19, 12).
+  - Check "Secret Wall" area (11, 10).
+  - Check "Back Gate" (2, 10).
+- **Hypothesis:** Exploring the rest of the map might trigger something or provide an item (Card Key might be on the floor?).
 
 ### Objectives
-- [ ] Defeat Grunt at (11, 2)
-- [ ] Defeat Grunt at (17, 2) (if needed)
+- [ ] Explore South Warehouse
+- [ ] Defeat Trainers in Warehouse
 - [ ] Rescue Director / Get Card Key
 
 ### Current Event: Rival Silver
