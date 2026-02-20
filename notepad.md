@@ -5,16 +5,17 @@
 
 ### Warehouse Puzzle
 - **Puzzle Status:**
-  - Switch 1: ON.
-  - Switch 2: ON.
-  - Switch 3: ON.
-- **Gate Status:**
-  - Gate 1 (2,6): OPEN (Confirmed).
-  - Gate 2 (10,6): CLOSED (Last seen).
-  - Gate 3 (16,6): OPEN (Last seen).
-- **Goal:** Reach Director via Gate 3 or Gate 2.
-- **Route:** East along Corridor (Row 7/8). Avoid traps at (12,8) and (16,8).
-- **Next:** Check Gate 2 at (10,6). If closed, continue to Gate 3 at (16,6).
+  - State: 1-1-1 (All ON).
+  - Gate 1: OPEN (Verified).
+  - Gate 3: CLOSED (Verified).
+  - Gate 2: Unknown (Need to check).
+- **Logic:**
+  - 1-1-0 had G1 Open, G3 Open.
+  - 1-1-1 has G1 Open, G3 Closed.
+  - If G2 is Open, enter via G2.
+  - If G2 is Closed, must revert to 1-1-0 (Turn Switch 3 OFF).
+- **Immediate Goal:** Check Gate 2 (10,6).
+- **Route:** Move West in Row 5. Stop at (11,5) to view (10,6). Avoid (10,5) Trap.
 
 ### Current Event: Rival Silver
 - Status: Present at (4,8). Blocking path East.
