@@ -6,8 +6,9 @@
 - **Current Status:** Sw1=OFF, Sw2=ON, Sw3=ON.
 - **Next Step:** Go to Sw2 (10,1) and turn OFF.
 - **Path:** (16,4) -> Row 3 -> (10,2).
-- **Observation:** Gate 2 (10,6) is OPEN with 0-0-1.
-- **Plan:** Avoid (10,9) by looping around via (11,6).
-- **Path:** (10,8) -> (10,6) -> (11,6) -> (11,9).
-- **Test:** Check if (11,9) is safe and if Wall (11,10) is open.
-- **Risk:** (11,9) might be a trap.
+- **Observation:** (11,10) is CLOSED with 0-0-1.
+- **Hypothesis:** 0-0-1 Failed. Summary might be misleading or state is desynced.
+- **Next Step:** Check Gate 3 (16,6) to verify Sw3 state.
+- **Plan:** If Gate 3 Open -> Try 1-0-1 (Turn Sw1 ON).
+- **Plan:** If Gate 3 Closed -> Sw3 is OFF?
+- **Path:** (11,9) -> (11,6) -> (16,6).
