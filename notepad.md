@@ -1,12 +1,14 @@
-### Puzzle Reset & Solution
-- **Status:** ESCAPED the trap! Warped from (21,31) to Main Hall (18,7).
-- **Location:** Director's Office (3_53) Main Hall.
-- **Objective:** Enter Warehouse (3_54) via Main Door (18,6).
-- **Goal:** Reach South-East Section (Real Director).
-- **Target State:** 1-0-1 (S1 ON, S2 OFF, S3 ON).
-- **Route:**
-  1. Enter Warehouse.
-  2. Toggle switches to achieve 1-0-1.
-  3. Enter Gate 3 (16,6).
-  4. Go SOUTH (Avoid going North back to the trap stairs).
-  5. Explore SE area for Director.
+### TRAP REALITY CHECK
+- **Status:** I did NOT escape. The warp mats at (21,31) and (22,31) failed to trigger.
+- **Location:** Still in Director's Office (South Room).
+- **Situation:**
+  - South: Warp mats inactive.
+  - West: Director at (18,29).
+  - North: Grunts blocking exit at Row 24.
+  - East: Stairs to Warehouse Trap.
+- **Plan:**
+  1. The solution MUST be the Director or the Grunts in this room.
+  2. Approach Director at (18,29). Talk from Front and Side.
+  3. Approach Grunts at Row 24. Talk to ALL of them.
+  4. Check every tile for hidden switches.
+- **Hypothesis:** One of the NPCs is the trigger to open the path.
