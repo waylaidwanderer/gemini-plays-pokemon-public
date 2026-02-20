@@ -38,3 +38,7 @@
 - Grunt interaction at (19, 24) attempted again.
 - Next step: Check Grunt at (22, 24).
 - Then: Return to Warehouse (3_54) to search for Director there. Maybe he is NOT in the office (3_53).
+- Grunt at (22, 24) interaction attempted.
+- If no response, the room might be fully non-interactive (bug? or wrong room?).
+- Will check for hidden items in the room as a last resort before leaving.
+- Potentially check the crates/boxes at the top of the room if accessible.
