@@ -36,3 +36,11 @@
 - Goal: Open Gate 1 to reach Silver.
 - If Gate 3 Closed and Gate 1 Closed: Must revert Sw1 to ON to escape.
 - Next Test: If 0-1-0 fails, try 0-0-0 (Turn Sw2 OFF). But need to reach Sw2 first.
+- State 0-1-0 Analysis:
+  - Gate 3: OPEN.
+  - Gate 2: CLOSED.
+  - Gate 1: CLOSED.
+- Conclusion: Sw1 OFF did not open Gate 1.
+- Next Step: Navigate to Switch 2 (10, 1) and toggle it OFF.
+- Target State: 0-0-0 (All OFF).
+- Path: Retrace steps West along Row 3/4. Avoid (10, 5).
