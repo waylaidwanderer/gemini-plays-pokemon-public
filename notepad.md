@@ -84,3 +84,6 @@
 - Silver claims "There's nothing down there."
 - Waiting for him to finish talking and move.
 - Objective: Investigate the area behind Silver once he leaves.
+- Silver asks "What do you want to go there for?"
+- Implies he already checked it and found nothing (or nothing of interest to him).
+- Expecting him to leave shortly.
