@@ -16,3 +16,4 @@
   - "There's nothing down there."
 - Status: Dialogue ongoing. Expecting him to leave.
 - Next: Investigate the area he was blocking.
+- Confirmed Grunt Hint: "Change the order of switching". (Already known, verified at Turn 50551).
