@@ -1,12 +1,15 @@
-### Warehouse Puzzle Mechanics
-- **Map Transition Reset:** Entering Warehouse (3_54) from Director's Office (3_53) via stairs (23,3) RESETS switches/gates. Gate 3 becomes CLOSED.
-- **Switch States (Internal Logic):**
-  - State 1-0-1 (S1 ON, S2 OFF, S3 ON) opens Gate 3 (16,6) and Gate 1 (2,6).
-  - State 0-0-0 opens Gate 2 and Gate 3.
+### Warehouse Mechanics
+- **Reset Rule:** Entering 3_54 from 3_53 (Stairs) RESETS all switches. Gate 3 closes.
+- **States:** 
+  - 1-0-1: Opens G1 & G3.
+  - 0-0-0: Opens G2 & G3.
+- **Trap:** The NE corner (Rows 2-5, Cols 17-25) is a trap if entered from the south when Gate 3 is open, as leaving/returning closes the gate.
 
-### Current Situation
-- **Location:** Warehouse (3_54), NE Section.
-- **Status:** Trapped behind Gate 3 (Closed due to map reset).
-- **Immediate Task:** Interacting with Rocket Grunt at (17,2).
-- **Next Step:** Defeat Grunt, then return to Director's Office (3_53) to find the real Director or another path.
-- **Hypothesis:** The "Director" in 3_53 is an imposter (Petrel). Need to solve the warehouse puzzle from the main entrance to reach the real one.
+### Current Objectives
+1. **Escape NE Corner:** Beat the Grunt at (17,2). Check if he triggers anything or drops a key.
+2. **Return to Main:** If Grunt yields nothing, go back up to 3_53, exit to Hall, and re-enter Warehouse from Main Entrance to reset puzzle.
+3. **Rescue Director:** Real Director is likely in the SE corner of Warehouse, accessible via Gate 3 (State 1-0-1) WITHOUT leaving the map.
+
+### Status
+- Stuck in dialogue loop with Grunt at (17,2). Text: "You must have ice / in your veins to".
+- Attempting to force advance text.
