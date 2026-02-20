@@ -4,11 +4,12 @@
 - [ ] Open Shutters and Defeat Team Rocket
 
 ### Warehouse Puzzle
-- **Current Real State:** Switch 2 was ON. Turned it OFF. (Now: ?-0-?)
+- **Current Real State:** Switch 2 (OFF), Switch 3 (OFF). (Now: ?-0-0)
 - **Goal:** Open Gate 2 (Middle).
 - **Strategy:** Reset all to OFF, then find the combination for Gate 2.
 - **Notes:** 
-    - Switch 2 ON previously opened Gate 2.
+    - Switch 3 was ON. Turned it OFF.
+    - Switch 2 was ON. Turned it OFF.
     - Hint: "Change the order of switching".
 
 ### Current Event: Rival Silver
