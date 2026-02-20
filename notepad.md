@@ -38,7 +38,8 @@ Plan:
 - Plan: Travel West along Row 8/9 to check Secret Wall (11,10) and Back Gate (2,10).
 - Caution: Traps at (12,8), (11,9), (10,9) might be active.
 - Visual Confirmation: (11,10) is CLOSED (Wall) in 0-0-0.
-- Hypothesis: Gate 1 might be OPEN in 0-0-0 (Maintenance Mode).
-- Plan: Move North through Gate 2 (Open), then West to check Gate 1 (2,6).
-- Path: (12,8) -> (10,8) -> (10,5) -> (2,5) -> (2,6).
-- Avoid: Row 4 Traps. Row 5 is verified safe.
+- Gate 2 is OPEN in 0-0-0.
+- Plan: Move to Gate 1 (2,6) via Gate 2 (10,6).
+- Path: (7,8) -> (10,8) -> (10,5) -> (2,5) -> (2,6).
+- Hypothesis: Testing if Gate 1 is open in 0-0-0.
+- If Closed: Will try sequence starting with S3 (End Switch).
