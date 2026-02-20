@@ -65,7 +65,9 @@
 - Action: Toggle Switch 1 at (16, 1) to open Gate 3.
 - Then: Proceed to Rival Silver at (4, 8).
 - Director/Grunts in 3_53 remain unresponsive. Focus is on clearing the Rival event.
-- Gate 3 (16, 6) is OPEN.
-- Heading to Rival Silver at (4, 8).
-- Path: South through Gate 3, then West.
-- Assuming Gate 2 (10, 6) and Gate 1 (2, 6) are also open (Switches 2 & 3 are marked ON).
+- Gate 3 (16, 6) is CONFIRMED OPEN with Switch 1 ON.
+- Current Switch State: Sw1 ON, Sw2 ON, Sw3 ON (1-1-1).
+- Goal: Reach Silver at (4, 8).
+- Path: Moving West from (16, 8).
+- Risk: Traps at (12, 8) or (10, 9).
+- If trapped, will try disabling Sw2 or Sw3.
