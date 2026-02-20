@@ -77,8 +77,11 @@
 - Hypothesis: Silver cleared the path or left, potentially unlocking the Director.
 - Grunt at (3, 2) is giving a hint about the switch order.
 - Listening carefully to the dialogue.
-- Grunt Hint: "Change the order of switching."
-- Interpretation: The sequence of activation matters, or a specific state is needed.
-- Plan: Reset switches to OFF (if possible) or try a sequence like 3-2-1 or 2-1-3.
-- Current State: All ON.
-- Immediate Goal: Turn OFF Switch 3, then test Gate 1. Then try to reach Silver's location again.
+- Puzzle Strategy: "Change the order" -> Trying state 1-0-1 (Sw1 ON, Sw2 OFF, Sw3 ON).
+- Current State: 1-1-1.
+- Plan:
+  1. Go to Switch 2 (10, 1) via Row 5 (avoid Trap at 9, 4).
+  2. Toggle Switch 2 OFF.
+  3. Accept potential warp at (10, 4) if it becomes active, or walk back.
+  4. Go to Gate 1 (2, 6) which should be accessible (Trap at 2, 4 safe in 1-0-1).
+  5. Reach Silver at (4, 8).
