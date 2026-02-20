@@ -35,3 +35,6 @@
 - Strategy: Test interaction on BOTH sides of the desk.
 - 1. Stand at (19, 30), Face UP, Press A. (Testing right side of desk).
 - 2. Stand at (18, 30), Face UP, Press A. (Testing left side/Director body).
+- Grunt interaction at (19, 24) attempted again.
+- Next step: Check Grunt at (22, 24).
+- Then: Return to Warehouse (3_54) to search for Director there. Maybe he is NOT in the office (3_53).
