@@ -11,7 +11,7 @@
 - **Hypothesis:** "End One First" refers to Switch 1 (Right End).
 - **Plan:** Execute Sequence 1 -> 2 -> 3.
 - **Current Action:** Moving to Switch 1 (16, 1).
-- **Route:** (2,2) -> (3,3) -> (3,5) -> (8,5) -> (8,3) -> (11,3) -> (11,5) -> (14,5) -> (14,3) -> (16,1).
+- **Route:** (2,3) -> (3,3) -> (3,5) -> (8,5) -> (8,3) -> (11,3) -> (14,4) -> (16,1).
 - **Goal:** Reach Director.
 
 ### Current Event: Rival Silver
