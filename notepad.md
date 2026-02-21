@@ -1,8 +1,8 @@
 ### Radio Tower Mission - Turn 51830
-- Status: On 3F (3_19). Crossing from Left Wing to Right Wing.
-- Immediate Goal: Navigate to stairs at (17,0) to reach 4F Right Side.
-- Target: Stairs at (12,0) on 4F (via 4F Right).
-- Current Location: 3F (3_19).
+- Status: Explored 5F Right (3_21), confirmed it is the Female Executive Room (Cleared).
+- Immediate Goal: Return to 3F (3_19) and open the Card Key Shutter at (14,2).
+- Route: 5F Right -> 4F Right -> 3F Right -> 3F Center (Shutter).
+- Current Location: 5F Right (3_21).
 - Key Item: Card Key (Received).
 
 ### Radio Tower Structure
@@ -10,7 +10,7 @@
 - **Stairs on 3F (3_19):**
   - (7,0): Connects to 4F Left (Fake Director path).
   - (17,0): Connects to 4F Right (Executive/Boss path).
-  - (0,0): Stairs to 2F.
+  - (14,2): Card Key Shutter (Central Path - Required for Boss).
 
 ### Lessons Learned
 - **Navigation:** Do NOT include 'TYPE_2889' (Walls/Windows) in BFS walkable_types.
