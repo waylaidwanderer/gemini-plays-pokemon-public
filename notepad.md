@@ -47,6 +47,6 @@
 - Plan: Proceed East through Gate 3 to find the Director.
 - Note: Gate 3 is confirmed open. Moving to investigate the Director's room entrance.
 - **Discovery:** TYPE_2889 is likely a Wall (impassable). Player blocked at (17, 31).
-- **Situation:** Director NOT found at (18, 31).
-- **Observation:** Row 29 has crates (TYPE_63e2) but a gap exists at (21, 29).
-- **Plan:** Move to (21, 29) to check behind the crates for the Director.
+- **Situation:** Moving North to investigate the area past the stairs.
+- **Observation:** Mental Map shows "Rocket Grunt" markers at Row 24.
+- **Plan:** Move to (22, 25) to interact with the Grunt or inspect the wall.
