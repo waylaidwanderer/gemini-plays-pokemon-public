@@ -1,19 +1,19 @@
-### Underground Path (Map 3_56) - Turn 51385
+### Underground Path (Map 3_56) - Turn 51389
 ### Status
-- **Location:** (18, 14).
-- **Goal:** Looted Item 2. Moving North.
+- **Location:** (18, 4) -> Testing North path.
+- **Goal:** Reach Stairs at (17, 2).
 
-### Warehouse (Map 3_54) Recap
-- **State:** 1-0-1 (Switch 1 & 3 ON).
-- **Warp:** (23, 10) leads here (3_56).
+### Puzzle/Map Notes
+- **East Corridor (x=18):** Seemingly blocked by boxes at (18, 3).
+- **Stairs (17, 2):** Surrounded by boxes.
+- **Hypothesis:** Switches in Warehouse might control these boxes, OR I need to access from the Middle Aisle.
 
 ### Plan
-1. Move North through the East corridor (x=16/18).
-2. Look for a path West around Row 6 to access the central area (Grunt/Item).
-3. Find the Real Director.
+1. Try walking North.
+2. If blocked, backtrack to Row 12.
+3. Access Middle Aisle (x=12/13) to get Item 1 (13, 9) and check Grunt (12, 8).
 
 ### Key Locations
-- **Warp to Warehouse:** (3, 12)
-- **Grunt:** (12, 8)
+- **Stairs:** (17, 2)
 - **Item 1:** (13, 9)
-- **Item 2:** (18, 15) [Checked]
+- **Grunt:** (12, 8)
