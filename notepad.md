@@ -49,8 +49,9 @@
 - **Goal:** Explore South Warehouse. Find Director/Card Key.
 - **Targets:** Burglar Duncan (9, 12), Grunt F (19, 12).
 - **Discovery:** TYPE_2889 is likely a Wall (impassable). Player blocked at (17, 31).
-- **Status:** Exploring Map 3_54 (South Warehouse).
-- **Action:** Engage Grunt F at (19, 12).
-- **Target:** Burglar Duncan (9, 12), Grunt F (19, 12).
-- **Goal:** Find Card Key.
-- **Switch State:** 0-1-0 (Sw1 OFF, Sw2 ON, Sw3 OFF). Gate 3 Open.
+- **Status:** At (17, 9). Gate 3 area (Rows 6-9) appears to be a Dead End at Row 10 (Wall).
+- **Hypothesis:** Path to South Warehouse is via Column 10 (Gate 2 area).
+- **Plan:** Move West to (10, 9) crossing at Row 9.
+- **Risk:** Potential traps at (12, 8), (11, 9), (10, 9).
+- **Action:** Navigate to (10, 10) to enter South Warehouse.
+- **Switch State:** 0-1-0 (Sw1 OFF, Sw2 ON, Sw3 OFF).
