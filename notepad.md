@@ -7,10 +7,10 @@
 - **1-1-1:** Gate 1 OPEN. (Inner Gate 2,10 CLOSED).
 - **0-0-1:** Gate 1, 2, 3 CLOSED.
 - **1-0-1:** Gate 1, 2, 3 CLOSED.
-- **Status:** Switch 3 turned ON. Puzzle State: 0-0-1 (Sw1 OFF, Sw2 OFF, Sw3 ON).
-- **Sequence:** Step 1 complete (3 ON).
-- **Action:** Move to Switch 2 (10, 1) and Turn ON.
-- **Goal:** Execute Sequence 3 -> 2 -> 1.
+- **Status:** Switch 2 turned ON. Puzzle State: 0-1-1 (Sw1 OFF, Sw2 ON, Sw3 ON).
+- **Sequence:** Step 2 complete (3 ON -> 2 ON).
+- **Action:** Move to Switch 1 (16, 1) and Turn ON.
+- **Goal:** Execute Sequence 3 -> 2 -> 1. Then check gates.
 
 ### Current Event: Rival Silver
 - Status: Present at (4,8). Blocking path East.
