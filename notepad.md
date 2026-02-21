@@ -32,3 +32,8 @@
   - 4F (0,0) -> 5F Left (Dead End).
   - 4F (9,0) -> 3F.
   - 4F (17,0) -> 3F.
+### Radio Tower Mission - Turn 51806
+- **Location:** Radio Tower 5F (Right Side).
+- **Opponent:** Female Rocket Executive at (17, 2).
+- **Context:** Rematch from Mahogany Hideout.
+- **Strategy:** Sweep with Garnet.
