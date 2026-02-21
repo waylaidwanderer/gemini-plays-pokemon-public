@@ -8,10 +8,10 @@
 - **0-0-1:** Gate 1, 2, 3 CLOSED.
 - **1-0-1:** Gate 1, 2, 3 CLOSED.
 - **Status:** Switch 1 turned ON. Puzzle State: 1-1-1 (All ON).
-- **Sequence:** Completed 3 -> 2 -> 1.
-- **Hypothesis:** Did this specific order unlock Inner Gate (2, 10)?
-- **Plan:** Check Gate 1 (2, 6) and Inner Gate (2, 10).
-- **If Failed:** Reset to 0-0-0 and try Sequence 1 -> 2 -> 3.
+- **Result:** 3->2->1 sequence yielded: Gate 1 OPEN. Inner Gate (2,10) CLOSED. Secret Wall (11,10) CLOSED.
+- **Conclusion:** 3-2-1 is NOT the correct sequence.
+- **New Plan:** Reset to 0-0-0. Try Sequence 1 -> 2 -> 3.
+- **Action:** Turn OFF Switch 1. Move to Switch 2 and Turn OFF.
 - **Goal:** Reach Director.
 
 ### Current Event: Rival Silver
