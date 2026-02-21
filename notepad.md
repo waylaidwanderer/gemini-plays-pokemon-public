@@ -1,22 +1,23 @@
-### Warehouse (Map 3_54) - Turn 51326
+### Warehouse (Map 3_54) - Turn 51332
 ### Status
 - **State:** 1-0-1 (Switch 1 & 3 ON).
-- **Location:** Switch 1 (16, 2).
-- **Goal:** Check Gates (especially Inner Gate).
+- **Location:** (8, 4).
+- **Goal:** Check Gate 1.
 
 ### Switch Log
 - **1-1-1:** Gate 1 OPEN, Inner Gate CLOSED.
 - **0-1-1 (2&3 ON):** Gate 1 OPEN, Inner Gate CLOSED.
-- **1-0-1 (1&3 ON):** Testing...
+- **1-0-1 (1&3 ON):** Gate 3 CLOSED. (Wall at 6,8 OPENED?).
 - **1-0-0 (1 ON):** Gate 3 OPEN. Inner Walls CLOSED.
 - **1-1-0 (1&2 ON):** Gate 1 OPEN. Inner Gate CLOSED.
 - **0-1-0 (2 ON):** Gate 2 OPEN.
 - **0-0-1 (3 ON):** Gate 1 CLOSED.
 
 ### Plan
-1. Check Gate 3 (16, 6) immediately.
-2. Check Gate 1 (2, 6).
-3. Check Inner Gate (2, 10) if possible.
+1. Move to Gate 1 (2, 6) safely (avoid 2,4 trap).
+2. Check Gate 1 status.
+3. Check Inner Gate (2, 10).
+4. Investigate (6, 8) if needed.
 
 ### Key Locations
 - **Director:** (23,3)
