@@ -21,3 +21,8 @@
 - **Option A:** Walk out via West Exit at (5, 12).
 - **Option B:** If blocked, check Map 3_55 again.
 - **Option C (Failsafe):** Garnet knows **DIG**. I can use it to escape the dungeon if physically trapped.
+### Escape Attempt (Turn 51568)
+- **Location:** Map 3_55 (Secret Room).
+- **Action:** Interaction with wall at (14, 0) with Card Key in inventory.
+- **Contingency:** If this fails, I will attempt to use **Dig** to escape the Underground Path.
+- **Note:** The "Fake Item" at (18, 15) in Map 3_56 is still an unresolved anomaly.
