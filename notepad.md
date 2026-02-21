@@ -7,14 +7,10 @@
 - **1-1-1:** Gate 1 OPEN. (Inner Gate 2,10 CLOSED).
 - **0-0-1:** Gate 1, 2, 3 CLOSED.
 - **1-0-1:** Gate 1, 2, 3 CLOSED.
-- **Status:** Switch 2 turned OFF. Puzzle State: 0-0-0 (All OFF).
-- **Hypothesis:** Sequence 3 -> 2 -> 1 (ON) might unlock the Inner Gate.
-- **Plan:**
-  1. Go to Switch 3 (2, 1). Turn ON.
-  2. Go to Switch 2 (10, 1). Turn ON.
-  3. Go to Switch 1 (16, 1). Turn ON.
-  4. Check Gate 1 (2, 6) and Inner Gate (2, 10).
-- **Goal:** Reach Director.
+- **Status:** Switch 3 turned ON. Puzzle State: 0-0-1 (Sw1 OFF, Sw2 OFF, Sw3 ON).
+- **Sequence:** Step 1 complete (3 ON).
+- **Action:** Move to Switch 2 (10, 1) and Turn ON.
+- **Goal:** Execute Sequence 3 -> 2 -> 1.
 
 ### Current Event: Rival Silver
 - Status: Present at (4,8). Blocking path East.
