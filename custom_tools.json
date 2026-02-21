@@ -660,6 +660,31 @@
       }
     ]
   },
+  "toggle_switch": {
+    "description": "Automates the interaction with a switch to toggle it. Assumes the player is facing the switch or already in the dialogue. sequence: Advance text -> Select Yes -> Advance text -> Close.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "autopress_buttons": {
+          "type": "boolean",
+          "default": true
+        }
+      }
+    },
+    "python_script": "print('[\"A\", \"sleep 500\", \"A\", \"sleep 500\", \"A\", \"sleep 500\", \"B\"]')",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-02-18T23:15:06.800Z",
+        "action_counter": 49051
+      },
+      {
+        "commit_message": "Fixed JSON output format to return a list of strings instead of an object.",
+        "timestamp": "2026-02-18T23:31:34.240Z",
+        "action_counter": 49060
+      }
+    ]
+  },
   "type_text": {
     "description": "Generates a sequence of button presses to type the specified text on the Gen 2 keyboard interface. Verified Layout: Rows 0-1 (9 cols), Row 2 (8 cols), Row 3 (10 cols), Row 4 (UPPER, DEL, END). Handles case switching.",
     "input_schema": {
@@ -700,31 +725,6 @@
         "commit_message": "Fix type_text tool to properly access input arguments and return valid JSON.",
         "timestamp": "2026-01-26T11:30:24.969Z",
         "action_counter": 13565
-      }
-    ]
-  },
-  "toggle_switch": {
-    "description": "Automates the interaction with a switch to toggle it. Assumes the player is facing the switch or already in the dialogue. sequence: Advance text -> Select Yes -> Advance text -> Close.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "autopress_buttons": {
-          "type": "boolean",
-          "default": true
-        }
-      }
-    },
-    "python_script": "print('[\"A\", \"sleep 500\", \"A\", \"sleep 500\", \"A\", \"sleep 500\", \"B\"]')",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-02-18T23:15:06.800Z",
-        "action_counter": 49051
-      },
-      {
-        "commit_message": "Fixed JSON output format to return a list of strings instead of an object.",
-        "timestamp": "2026-02-18T23:31:34.240Z",
-        "action_counter": 49060
       }
     ]
   }
