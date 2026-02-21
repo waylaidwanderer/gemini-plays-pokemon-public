@@ -1,19 +1,20 @@
-### Underground Path (Map 3_56) - Turn 51389
+### Underground Path (Map 3_56) - Turn 51391
 ### Status
-- **Location:** (18, 4) -> Testing North path.
+- **Location:** (18, 3).
 - **Goal:** Reach Stairs at (17, 2).
 
 ### Puzzle/Map Notes
-- **East Corridor (x=18):** Seemingly blocked by boxes at (18, 3).
-- **Stairs (17, 2):** Surrounded by boxes.
-- **Hypothesis:** Switches in Warehouse might control these boxes, OR I need to access from the Middle Aisle.
+- **East Corridor (x=18):** Path is valid!
+- **Obstacle:** Burglar Duncan is at (17, 3). He stopped me.
+- **Stairs (17, 2):** Just North of Duncan.
 
 ### Plan
-1. Try walking North.
-2. If blocked, backtrack to Row 12.
-3. Access Middle Aisle (x=12/13) to get Item 1 (13, 9) and check Grunt (12, 8).
+1. Finish interaction with Duncan.
+2. Move Up to (18, 2), then Left to (17, 2).
+3. Enter the Director's Room?
 
 ### Key Locations
 - **Stairs:** (17, 2)
+- **Duncan:** (17, 3)
 - **Item 1:** (13, 9)
 - **Grunt:** (12, 8)
