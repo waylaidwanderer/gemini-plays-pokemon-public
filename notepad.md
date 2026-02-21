@@ -10,9 +10,9 @@
 - **Status:** Switch 3 turned OFF. Puzzle State: 0-0-0 (All OFF).
 - **Hypothesis:** "End One First" refers to Switch 1 (Right End).
 - **Plan:** Execute Sequence 1 -> 2 -> 3.
-- **Status:** Testing "Ends Only" (1 ON, 3 ON, 2 OFF).
-- **Action:** Checked Switch 1 (Found ON). Left it ON.
-- **Next:** Check Gate 3 (16, 6) and Inner Gate (2, 10).
+- **Status:** Testing "Switch 1 Solo" (1 ON, 2 OFF, 3 OFF).
+- **Action:** Turning Switch 3 OFF.
+- **Hypothesis:** Switch 1 alone opens Gate 2 (10, 6) or Secret Door (11, 6).
 
 ### Current Event: Rival Silver
 - Status: Present at (4,8). Blocking path East.
