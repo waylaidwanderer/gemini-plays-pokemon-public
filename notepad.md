@@ -3,7 +3,7 @@
 - **Goal:** Reach Director (Need Card Key).
 - **1-1-0:** Gate 1, 2, 3 CLOSED.
 - **0-1-0:** Gate 3 OPEN. (Leads to Item/Dead End).
-- **1-0-0:** Gate 2 OPEN. (Leads to Wall at 11,10).
+- **1-0-0:** Gate 2 CLOSED. Gate 3 OPEN. Wall (12, 9) OPEN. (Allows access to Middle Bay South?).
 - **1-1-1:** Gate 1 OPEN. (Inner Gate 2,10 CLOSED).
 - **0-0-1:** Gate 1, 2, 3 CLOSED.
 - **1-0-1:** Gate 1, 2, 3 CLOSED.
