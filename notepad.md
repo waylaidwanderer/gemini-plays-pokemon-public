@@ -1,10 +1,10 @@
-### Radio Tower Mission - Turn 51672
-- **Status:** Radio Tower 3F (Map 3_19). Battling Grunt at (16, 3).
-- **Goal:** Defeat Grunt, then ascend to 4F via stairs at (17, 0).
+### Radio Tower Mission - Turn 51686
+- **Status:** Radio Tower 4F (Map 3_20).
+- **Location:** (15, 1). Near Grunt at (14, 1).
+- **Goal:** Find stairs to 5F.
 - **Key Item:** Card Key (Used).
-- **Progress:** Shutter at (14, 2) is OPEN.
 
 ### Critical Info:
 - **Card Key:** Unlocks shutters.
-- **Next Floor:** 4F.
-- **Target:** The Director (Real) is on 5F? Or 4F? Found real one in Underground.
+- **Stairs:** (17, 0) goes down. Need to find UP stairs.
+- **Floor Layout:** Grunts blocking path.
