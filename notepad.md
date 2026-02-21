@@ -1,10 +1,7 @@
 ### Warehouse (Map 3_54)
-- **Status:** Switch 2 turned OFF. Puzzle State: 1-0-1 (Sw1 ON, Sw2 OFF, Sw3 ON).
-- **Observation:** Gate 1, 2, 3 CLOSED. (11, 6) CLOSED.
-- **Conclusion:** 1-0-1 is not the solution.
-- **Plan:** Move to Switch 1 (16, 1) and turn it OFF.
-- **New State:** 0-0-1.
-- **Hypothesis:** 0-0-1 might open Gate 1 and Inner Gate? Or Gate 2 and Secret Wall?
+- **Status:** Switch 1 turned OFF. Puzzle State: 0-0-1 (Sw1 OFF, Sw2 OFF, Sw3 ON).
+- **Hypothesis:** 0-0-1 might open Inner Gate (2, 10) or Secret Wall (11, 10).
+- **Plan:** Check Gate 3 (16, 6) first (closest). Then check Gate 2 and 1.
 - **Goal:** Find path to Director.
 
 ### Current Event: Rival Silver
