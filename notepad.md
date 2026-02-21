@@ -1,6 +1,6 @@
 ### Current Status - Turn 52261
-- **Location:** Route 36 (En route to Ecruteak).
-- **Mission:** Walk to Ecruteak City (via Route 36 & 37).
+- **Location:** Route 37 (South).
+- **Mission:** Walk North to Ecruteak City.
 - **Notes:** Healed at Cherrygrove Center. Next stop: Tin Tower.
 
 ### Team Rocket Radio Tower Arc (Completed)
