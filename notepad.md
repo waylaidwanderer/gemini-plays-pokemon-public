@@ -10,9 +10,8 @@
 - **Status:** Switch 3 turned OFF. Puzzle State: 0-0-0 (All OFF).
 - **Hypothesis:** "End One First" refers to Switch 1 (Right End).
 - **Plan:** Execute Sequence 1 -> 2 -> 3.
-- **Step 1:** Go to Switch 1 (16, 1) and Turn ON.
-- **Step 2:** Go to Switch 2 (10, 1) and Turn ON.
-- **Step 3:** Go to Switch 3 (2, 1) and Turn ON.
+- **Current Action:** Moving to Switch 1 (16, 1).
+- **Route:** (2,2) -> (3,3) -> (3,5) -> (8,5) -> (8,3) -> (11,3) -> (11,5) -> (14,5) -> (14,3) -> (16,1).
 - **Goal:** Reach Director.
 
 ### Current Event: Rival Silver
