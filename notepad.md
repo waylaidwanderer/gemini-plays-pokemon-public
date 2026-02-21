@@ -7,10 +7,11 @@
 - **1-1-1:** Gate 1 OPEN. (Inner Gate 2,10 CLOSED).
 - **0-0-1:** Gate 1, 2, 3 CLOSED.
 - **1-0-1:** Gate 1, 2, 3 CLOSED.
-- **Status:** Switch 3 ON, Switch 2 ON. Puzzle State: 0-1-1 (Sw3 ON, Sw2 ON, Sw1 OFF).
-- **Observation:** Trap at (2, 4) is INACTIVE in 0-0-1 state. Assumed safe in 0-1-1.
-- **Hypothesis:** "End One First" refers to Switch 3 (Left End).
-- **Plan:** Execute Sequence 3 -> 2 -> 1. Next: Switch 1.
+- **Status:** Switch 3 ON, Switch 2 ON, Switch 1 ON. Puzzle State: 1-1-1.
+- **Observation:** Gate 3 (16, 6) is CLOSED (TYPE_2889).
+- **Plan:** Check Inner Gate (2, 10).
+- **Hypothesis:** If 3-2-1 worked, Inner Gate should be OPEN.
+- **Path:** Via Row 5 to Gate 1 (2, 6). Then South to (2, 10).
 
 ### Current Event: Rival Silver
 - Status: Present at (4,8). Blocking path East.
