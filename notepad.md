@@ -1,5 +1,5 @@
 ### Current Status - Turn 52261
-- **Location:** Cherrygrove City (Outside).
+- **Location:** Violet City (Outside).
 - **Mission:** Fly to Ecruteak City.
 - **Notes:** Healed at Cherrygrove Center. Next stop: Tin Tower.
 
