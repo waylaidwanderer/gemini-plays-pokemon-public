@@ -11,3 +11,7 @@
 - **Progress:** Climbing Radio Tower. Currently stuck in a loop between 3F and 4F because I included 'TYPE_2889' (Walls) in my walkable types for BFS, causing it to path through walls and back down stairs.
 - **Correction:** MUST remove 'TYPE_2889' from walkable types.
 - **Plan:** Go Up to 4F. Then navigate CAREFULLY to the left side, ensuring I don't step back on the stairs.
+### Radio Tower 5F (Turn 51748)
+- **Location:** Radio Tower 5F (Map 3_21).
+- **Situation:** Confronting the Rocket Executives.
+- **Opponent:** Male Executive at (3, 6).
