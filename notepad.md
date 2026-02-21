@@ -1,66 +1,27 @@
-### Warehouse (Map 3_54)
-### Warehouse Switch Log (Map 3_54)
+### Warehouse (Map 3_54) - Turn 51205
+### Reflection & Status
 - **Goal:** Reach Director (Need Card Key).
-- **1-1-0:** Gate 3 OPEN. Gate 1 CLOSED. Gate 2 CLOSED. (Direct path to Director?).
-- **0-1-0:** Gate 3 OPEN. (Leads to Item/Dead End).
-- **1-0-0:** Gate 2 CLOSED. Gate 3 OPEN. Wall (12, 9) OPEN. (Allows access to Middle Bay South?).
-- **1-1-1:** Gate 1 OPEN. (Inner Gate 2,10 CLOSED).
-- **0-0-1:** Gate 1, 2, 3 CLOSED.
-- **1-0-1:** Gate 1, 2, 3 CLOSED.
-- **Status:** Switch 2 turned OFF. Checking Switch 1. Target State: 1-0-0.
-- **Plan:** Activate Switch 1 ONLY (1-0-0). Verify Gate 3 (16,6) is OPEN.
-- **Goal:** Reach Director at (23, 3) via Gate 3.
+- **Current State:** 1-0-0 (Switch 1 ON, 2 OFF, 3 OFF).
+- **Verified Effects:** Gate 3 (16,6) OPEN. Gate 1 & 2 CLOSED.
+- **Hypothesis:** State 1-0-0 opens Wall at (12,9) or (11,10), allowing access to South Warehouse.
+- **Trigger Hazard:** Avoid (16,8) - stepping on it may close path. Bypass via Col 17.
 
-### Current Event: Rival Silver
-- Status: Present at (4,8). Blocking path East.
-- Strategy: Bypassing via Internal Warehouse Bays (Gate 1 -> Row 3 -> Gate 3).
-- Reason: Row 9 has potential trap warps. Row 3 is confirmed safe.
-- **Route Update:**
-  - (11,4) -> Right to (14,4) (Avoid Wall at 12,3 and 13,3).
-  - Up to (14,3) (Avoid Trap at 15,4).
-  - Right to (16,3).
-  - Down to (16,6) (Gate 3).
-- **Target:** Gate 3 (16,6).
-- **Goal:** Reach Director at (23,3).
-- **Target:** Gate 3 (16,6) should be OPEN.
-- **Goal:** Reach Director at (23,3).
-- **Correction:** Grunt at (17,2) appears to be passive (non-hostile). He just repeats dialogue.
-- **Action:** Ignore Grunt. Move to blue machine at (16,1) which is likely Switch 1.
-- **Route:** Left -> Up -> Interact.
-- **Observation:** Gate 3 (16,6) is OPEN. Path to Director via (23,3) may be clear via Row 4/5 gap.
-- **Strategy:** Completing Switch Puzzle (1-2-3) to ensure all secrets (including Secret Wall at 11,10) are accessible before leaving.
-- **Path:** Moving to Switch 2 (10,2) avoiding Trap Room (15,4) and Trap (10,5).
-- **Map Update:** Gate 2 (10,6) CLOSED. Gate 3 (16,6) OPEN.
-- **Path:** Enter Bay 2 from Bay 3 via gap at (12,4)/(12,5).
-- **Target:** Switch 2 at (10,1).
-- **Obstacles:** Grunt at (11,2) facing Left. Traps at (10,4), (10,5).
-- **Next:** Move to (11,3). Check safety of (10,3). Engage Grunt if necessary to reach (10,2).
-- **Action:** Moving to (10,2) to activate Switch 2.
-- **Risk:** Grunt at (11,2) might spot me. Prepared for battle.
-- **Action:** Interaction with Switch 2 at (10,1).
-- **Expectation:** Gate 1 (2,6) should open to allow access to Switch 3.
-- **Grunt Status:** Grunt at (11,2) did not trigger battle upon approach. Likely passive.
-- **Observation:** Found a Rocket Grunt at (21, 25). He is blocking the path North.
-- **Action:** Interacting with Grunt. likely a battle.
-- **Action:** Trying to bump/interact with Grunt at (21, 24).
-- **Hypothesis:** Grunt is guarding the real Director behind the wall.
-- **Plan:** Defeat Grunt to clear path.
-- **Status:** Switch 1 turned OFF. Puzzle State: 0-1-0 (Sw1 OFF, Sw2 ON, Sw3 OFF).
-- **Observation:** Gate 3 (16, 6) is visually OPEN (Blue Floor Tiles).
-- **Action:** Move South through Gate 3 to enter South Warehouse.
-- **Goal:** Explore South Warehouse. Find Director/Card Key.
-- **Targets:** Burglar Duncan (9, 12), Grunt F (19, 12).
-- **Discovery:** TYPE_2889 is likely a Wall (impassable). Player blocked at (17, 31).
-- **Status:** Switch 1 turned ON. Puzzle State: 1-1-0 (Sw1 ON, Sw2 ON, Sw3 OFF).
-- **Hypothesis:** Gate 2 (10, 6) OPEN. Secret Wall (11, 10) OPEN.
-- **Plan:** Navigate to Gate 2 via Row 3. Go South to check (11, 10).
-- **Route:** (16, 2) -> (16, 3) -> (10, 3) -> (10, 6).
-- **Goal:** Enter South Warehouse.
-- **Note:** Gate 3 (16, 6) likely CLOSED now.
-- **Observation:** Map tiles changed at (11, 6) and (11, 7) after Switch 1 ON. Suggests Secret Door or Gate opened there.
-- **Observation:** Tile at (6, 8) changed to Walkable (TYPE_3fe2).
-- **Observation:** (12, 8) and (12, 9) closed (TYPE_2889) when (6, 8) opened.
-- **Observation:** Current path leads to an alcove with potential Trap Warps at (10, 9) and (11, 9).
-- **Hypothesis:** 1-2-3 might be wrong, or the "Traps" are progression warps. Testing trap at (10, 9).
-- **Observation:** With All Switches ON (3-2-1), Gate 1 (2, 6) is OPEN. Gate 2 and 3 are CLOSED. Secret Door (11, 6) is CLOSED.
-- **Trigger:** Stepping on (16, 8) closes Wall at (16, 11). (Blocks South path from Right Bay).
+### Switch Log
+- **1-1-0:** Gate 3 OPEN. Gate 1 CLOSED. Gate 2 CLOSED.
+- **0-1-0:** Gate 3 OPEN. (Item/Dead End).
+- **1-0-0:** Gate 3 OPEN. (Current Test).
+- **1-1-1:** Gate 1 OPEN.
+- **0-0-1:** All Gates CLOSED.
+- **1-0-1:** All Gates CLOSED.
+- **0-0-0:** All Gates CLOSED.
+
+### Navigation Plan
+1. Move through Gate 3 (16,6).
+2. Bypass Trigger (16,8) by hugging Right wall (Col 17).
+3. Move South to Row 9, then West to check (12,9) and (11,10).
+4. If blocked, re-evaluate Switch 3 (State 1-0-1?).
+
+### Key Locations
+- **Director:** (23,3) - Currently empty? Check South area.
+- **Duncan:** (9,12).
+- **Rival:** (4,8) - Bypassed.
