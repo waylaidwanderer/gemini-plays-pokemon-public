@@ -1,12 +1,13 @@
-### Underground Path (Map 3_56) - Turn 51490
-- **Location:** (15, 3). Facing Grunt at (14, 3).
-- **Goal:** Talk to Grunt to see if he has the key or info.
+### Underground Path (Map 3_56) - Turn 51495
+- **Location:** (16, 7) -> Moving to (6, 12).
+- **Status:** Grunt was useless. Heading back to Warehouse.
 - **Critical Info:**
   - Real Director is at (11, 2) in Map 3_53 (Director's Room).
-  - Map 3_55 (Secret Room) was a decoy (Fake Director tile).
-  - Need to find the correct entrance to 3_53.
+  - Map 3_55 (Secret Room) was a decoy.
+  - Row 12 connection (x=4,5) is likely walkable despite map data.
 
 ### Plan
-1. Talk to Grunt at (14, 3).
-2. If he moves or battles, check the area behind him.
-3. Verify the West connection to Warehouse (3_54) at Row 12 (map says walls, need to confirm).
+1. Go to (6, 12).
+2. Walk Left through "walls" to reach (3, 12).
+3. Enter Warehouse.
+4. Find path to Director in Warehouse.
