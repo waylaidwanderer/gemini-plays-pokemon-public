@@ -12,9 +12,11 @@
 1. Go North to (16, 2).
 2. Inspect/Enter (17, 2).
 3. If not the right way, loop West/South to get Item at (13, 9).
-### Secret Room (Map 3_55) - Turn 51461
-- **Location:** (13, 1).
-- **NPC:** Sprite at (14, 1) / (14, 0).
-- **Issue:** The NPC has NO COLLISION. I can walk on top of him (Tile 14, 1). Interaction from South (14, 2) and On Top (14, 1) failed.
-- **Hypothesis:** Trying from the side (13, 1) -> Facing Right. If this fails, he might be a glitched sprite or requires a specific trigger (or I already got the key and didn't notice? No, key items list doesn't show it).
-- **Inventory Check:** Key Items: BASEMENT KEY, BICYCLE, COIN CASE, OLD ROD, SQUIRTBOTTLE. No CARD KEY.
+### Secret Room (Map 3_55) - Turn 51466
+- **Location:** (13, 3).
+- **Status:** The "Director" at (14, 1) is a TILE, not an NPC. `stun_npc` confirmed no NPC exists there. I was trying to talk to the floor.
+- **Plan:**
+    1. Check the rest of this room (crates, corners).
+    2. If nothing, return to Map 3_56 (Underground Path).
+    3. The path split at Map 3_56 (x=8 wall). I might need to access the *other* side of that wall (the Item Ball side) to find the true entrance or the key.
+- **Inventory Check:** Still no Card Key.
