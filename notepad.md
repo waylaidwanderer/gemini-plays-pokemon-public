@@ -7,11 +7,8 @@
 - **1-1-1:** Gate 1 OPEN. (Inner Gate 2,10 CLOSED).
 - **0-0-1:** Gate 1, 2, 3 CLOSED.
 - **1-0-1:** Gate 1, 2, 3 CLOSED.
-- **Status:** Switch 3 ON, Switch 2 OFF, Switch 1 OFF. Puzzle State: 0-0-1.
-- **Observation:** Gate 3 (16, 6) is CLOSED.
-- **Conclusion:** Sequence 3-2-1 FAILED.
-- **Hypothesis:** "End One First" refers to Switch 1 (Right End).
-- **Plan:** Reset to 0-0-0. Activate Switch 1 ONLY (1-0-0).
+- **Status:** Switch 3 OFF, Switch 2 OFF, Switch 1 OFF. Puzzle State: 0-0-0.
+- **Plan:** Activate Switch 1 ONLY (1-0-0).
 - **Goal:** In 1-0-0, Gate 3 should be OPEN. Go through Gate 3 to reach Director at (23, 3).
 
 ### Current Event: Rival Silver
