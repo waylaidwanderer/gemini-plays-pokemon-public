@@ -11,3 +11,4 @@
 
 ### Lessons Learned
 - **Navigation:** Do NOT include 'TYPE_2889' (Walls/Windows) in BFS walkable_types.
+- Attempted to use Card Key on 3F shutter slot (Turn 51971).
