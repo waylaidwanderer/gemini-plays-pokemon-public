@@ -1,7 +1,7 @@
 ### Radio Tower Mission - Turn 51830
-- Status: Defeated Female Rocket Executive on 5F.
-- Immediate Goal: Return to 3F to find a way to the Center/Left Wing (where the Director/Boss is).
-- Current Location: 4F (3_20).
+- Status: At 3F Shutter (3_19).
+- Immediate Goal: Open Shutter at (15,2) using Card Key manually (Auto-interact failed).
+- Current Location: 3F (3_19).
 - Key Item: Card Key (Received).
 
 ### Radio Tower Structure
