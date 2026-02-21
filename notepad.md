@@ -23,8 +23,8 @@
 
 ### Lessons Learned
 - **Navigation:** Do NOT include 'TYPE_2889' (Walls/Windows) in BFS walkable_types.
-### Battle Update (Turn 51824)
-- **Status:** Murkrow defeated.
-- **Opponent:** Sending out Vileplume.
-- **Garnet:** 58/165 HP. Level 51.
-- **Action:** Stay in (Type Advantage). Use Flame Wheel.
+### Battle Update (Turn 51826)
+- **Status:** Vileplume hit by Flame Wheel (Super Effective).
+- **Opponent:** Female Rocket Executive.
+- **Garnet:** 58/165 HP.
+- **Next Step:** Confirm faint, await next Pokemon (likely Houndour).
