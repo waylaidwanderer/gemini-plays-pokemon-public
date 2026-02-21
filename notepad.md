@@ -7,13 +7,9 @@
 - **1-1-1:** Gate 1 OPEN. (Inner Gate 2,10 CLOSED).
 - **0-0-1:** Gate 1, 2, 3 CLOSED.
 - **1-0-1:** Gate 1, 2, 3 CLOSED.
-- **0-1-1:** Testing now... (Sw1 OFF, Sw2 ON, Sw3 ON).
-- **0-0-0:** Untested.
-
-### Current Action
-- Check Gate 2 (10, 6).
-- If closed, Check Gate 1 (2, 6).
-- If closed, try 0-0-0.
+- **0-1-1:** Gate 2 CLOSED. Gate 3 CLOSED. Trap (10,5) SAFE.
+- **Action:** Move to (2, 5) to check Gate 1.
+- **If Gate 1 Closed:** Try 0-0-0 (All OFF).
 
 ### Current Event: Rival Silver
 - Status: Present at (4,8). Blocking path East.
