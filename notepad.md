@@ -1,5 +1,5 @@
 ### Warehouse (Map 3_54)
-- **Status:** Switch 2 turned OFF. Puzzle State: 1-0-0 (Sw1 ON, Sw2 OFF, Sw3 OFF).
+- **Status:** Switch 2 turned ON. Puzzle State: 1-1-0 (Sw1 ON, Sw2 ON, Sw3 OFF).
 - **Expectation:** Gate 3 (16,6) should be OPEN.
 - **Plan:** Navigate to Gate 3 via Row 3 to avoid Trap Room at (15,4).
 - **Route:** (10,2) -> (11,3) -> (14,3) -> (16,3) -> (16,6).
