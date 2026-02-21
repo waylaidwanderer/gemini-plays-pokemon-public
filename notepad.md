@@ -23,8 +23,8 @@
 
 ### Lessons Learned
 - **Navigation:** Do NOT include 'TYPE_2889' (Walls/Windows) in BFS walkable_types.
-### Battle Update (Turn 51821)
+### Battle Update (Turn 51824)
 - **Status:** Murkrow defeated.
-- **Opponent:** Female Rocket Executive.
+- **Opponent:** Sending out Vileplume.
 - **Garnet:** 58/165 HP. Level 51.
-- **Next Step:** Await next Pokemon.
+- **Action:** Stay in (Type Advantage). Use Flame Wheel.
