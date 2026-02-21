@@ -1,16 +1,15 @@
 ### Radio Tower Mission - Turn 51830
-- Status: On 4F (3_20), bypassing Rocket Grunt at (4,2).
-- Immediate Goal: Walk around Grunt and Desks (at 5,3 and 6,3) by going East to Col 7, then South to Row 4, then West.
-- Target: Stairs at (0,0) to 5F Left.
-- Current Location: 4F (3_20).
+- Status: On 5F Left (3_21), approaching final Boss/Director at (3,6).
+- Immediate Goal: Defeat Boss/Save Director.
+- Current Location: 5F Left (3_21).
 - Key Item: Card Key (Received).
 
 ### Radio Tower Structure
 - **Concept:** The Tower has multiple vertical shafts.
-- **Stairs on 4F (3_20):**
-  - (17,0): Connects to 3F (Right Side) / 5F Right.
-  - (9,0): Connects to 3F (Center) - Came from here.
-  - (0,0): Connects to 5F Left (Target).
+- **Stairs on 5F (3_21):**
+  - (12,0): Connects to 4F (Right Side).
+  - (0,0): Connects to 4F (Left Side) - Came from here.
+  - (16,2): Defeated Female Executive (Right Side).
 
 ### Lessons Learned
 - **Navigation:** Do NOT include 'TYPE_2889' (Walls/Windows) in BFS walkable_types.
