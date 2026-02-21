@@ -1,16 +1,16 @@
 ### Radio Tower Mission - Turn 51830
-- Status: On 4F Left (3_20). Wall divider blocks path to Right Side.
-- Immediate Goal: Take stairs at (9,0) down to 3F, cross to Right Side, then take stairs up to 4F Right to reach (12,0).
-- Current Location: 4F (3_20).
+- Status: On 3F (3_19). Crossing from Left Wing to Right Wing.
+- Immediate Goal: Navigate to stairs at (17,0) to reach 4F Right Side.
+- Target: Stairs at (12,0) on 4F (via 4F Right).
+- Current Location: 3F (3_19).
 - Key Item: Card Key (Received).
 
 ### Radio Tower Structure
 - **Concept:** The Tower has multiple vertical shafts.
-- **Stairs on 4F (3_20):**
-  - (17,0): Connects to 3F (Right Side).
-  - (12,0): Target on Right Side. Likely leads to Boss.
-  - (9,0): Target on Left Side. Leads down to 3F.
-  - (0,0): Connects to 5F Left (Fake Director).
+- **Stairs on 3F (3_19):**
+  - (7,0): Connects to 4F Left (Fake Director path).
+  - (17,0): Connects to 4F Right (Executive/Boss path).
+  - (0,0): Stairs to 2F.
 
 ### Lessons Learned
 - **Navigation:** Do NOT include 'TYPE_2889' (Walls/Windows) in BFS walkable_types.
