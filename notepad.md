@@ -1,22 +1,23 @@
-### Warehouse (Map 3_54) - Turn 51333
+### Warehouse (Map 3_54) - Turn 51336
 ### Status
 - **State:** 1-0-1 (Switch 1 & 3 ON).
-- **Location:** (3, 6).
-- **Goal:** Check Inner Gate (2, 10).
+- **Location:** (2, 9) -> Moving through opened wall at (6, 9).
+- **Goal:** Reach Southeast Area (11, 10).
 
 ### Switch Log
 - **1-1-1:** Gate 1 OPEN, Inner Gate CLOSED.
 - **0-1-1 (2&3 ON):** Gate 1 OPEN, Inner Gate CLOSED.
-- **1-0-1 (1&3 ON):** Gate 1 OPEN. Gate 3 CLOSED. (Wall at 6,8/6,9 OPENED?).
+- **1-0-1 (1&3 ON):** Gate 1 OPEN. Gate 3 CLOSED. Wall at (6,8/6,9) OPEN!
 - **1-0-0 (1 ON):** Gate 3 OPEN. Inner Walls CLOSED.
 - **1-1-0 (1&2 ON):** Gate 1 OPEN. Inner Gate CLOSED.
 - **0-1-0 (2 ON):** Gate 2 OPEN.
 - **0-0-1 (3 ON):** Gate 1 CLOSED.
 
 ### Plan
-1. Check Inner Gate (2, 10).
-2. If Closed, investigate the opened wall at (6, 9).
-3. Determine if the "End One First" hint implies order 3 -> 1 -> ? or just 3 & 1.
+1. Move East through (6, 9).
+2. Navigate carefully around traps at (10, 9) / (11, 9).
+   - Marker says "Safe (100)" for (10, 9). Does 1-0-1 count?
+3. Check wall at (11, 10) and potentially the Director's room or new area.
 
 ### Key Locations
 - **Director:** (23,3)
