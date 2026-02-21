@@ -1,8 +1,11 @@
-### Radio Tower Mission - Turn 51806
+### Radio Tower Mission - Turn 51815
 - **Location:** Radio Tower 5F (Right Side).
 - **Opponent:** Female Rocket Executive at (17, 2).
-- **Context:** Rematch from Mahogany Hideout.
-- **Strategy:** Sweep with Garnet.
+- **Battle Status:**
+  - Murkrow (Lv32) vs Garnet (Lv51).
+  - Used Mud-Slap (Failed - Immune).
+  - Garnet took chip damage from Peck.
+- **Strategy:** Switch to Flame Wheel (Fire). Mud-Slap (Ground) doesn't affect Flying.
 
 ### Radio Tower Structure
 - **Concept:** The Tower is split vertically.
