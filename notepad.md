@@ -1,7 +1,7 @@
-### Radio Tower Mission - Turn 51686
-- **Status:** Radio Tower 4F (Map 3_20).
-- **Location:** (15, 1). Near Grunt at (14, 1).
-- **Goal:** Find stairs to 5F.
+### Radio Tower Mission - Turn 51689
+- **Status:** Radio Tower 4F (Map 3_20). Battling Rocket Executive.
+- **Location:** (15, 1).
+- **Goal:** Defeat Executive, find stairs to 5F.
 - **Key Item:** Card Key (Used).
 
 ### Critical Info:
