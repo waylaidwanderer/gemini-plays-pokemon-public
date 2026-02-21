@@ -8,10 +8,11 @@
 - **0-0-1:** Gate 1, 2, 3 CLOSED.
 - **1-0-1:** Gate 1, 2, 3 CLOSED.
 - **Status:** Switch 3 ON, Switch 2 ON, Switch 1 ON. Puzzle State: 1-1-1.
-- **Observation:** Gate 3 (16, 6) is CLOSED (TYPE_2889).
-- **Plan:** Check Inner Gate (2, 10).
-- **Hypothesis:** If 3-2-1 worked, Inner Gate should be OPEN.
-- **Path:** Via Row 5 to Gate 1 (2, 6). Then South to (2, 10).
+- **Observation:** Gate 1 (2, 6) is CLOSED. Gate 3 (16, 6) is CLOSED. Path (12, 9) is CLOSED.
+- **Correction:** 1-1-1 locks the player in the North Section.
+- **Plan:** Revert to 0-0-1 (Switch 3 ON only).
+- **Hypothesis:** "End One First" might mean "Only Switch 3" or "Switch 3 is the only necessary step".
+- **Next:** Turn Switch 2 OFF. Turn Switch 1 OFF. Check Gate 1 and Inner Gate.
 
 ### Current Event: Rival Silver
 - Status: Present at (4,8). Blocking path East.
