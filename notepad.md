@@ -1,7 +1,8 @@
 ### Radio Tower Mission - Turn 51830
-- Status: At Card Key Slot (3F).
-- Immediate Goal: Open the Pack and use the Card Key.
-- Hypothesis: The Shutter leads to the central area/Boss.
+- Status: Proceeding to stairs at (17,0) on 3F.
+- Discovery: The shutter at (15,2) does not block the path to the right. I can simply walk around it to reach the stairs.
+- Disguise: I appear to be disguised as a Rocket Grunt (orange/blue sprite).
+- Goal: Reach 4F/5F via the right-side stairs to find the Real Boss.
 
 ### Radio Tower Structure
 - **Stairs on 3F (3_19):**
