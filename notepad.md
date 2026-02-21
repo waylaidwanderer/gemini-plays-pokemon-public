@@ -20,3 +20,7 @@
 - **Card Key:** Unlocks shutters.
 - **Stairs:** (17, 0) goes down. (0, 0) likely goes UP.
 - **Floor Layout:** Path to left seems clear.
+### Radio Tower Mission - Turn 51769
+- **Location:** Radio Tower 5F (Map 3_21).
+- **Goal:** Bypass the Rocket Executive at (3, 6) to explore the rest of the floor.
+- **Plan:** Navigate around him via row 7.
