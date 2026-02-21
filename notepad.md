@@ -43,12 +43,12 @@
 - **Action:** Trying to bump/interact with Grunt at (21, 24).
 - **Hypothesis:** Grunt is guarding the real Director behind the wall.
 - **Plan:** Defeat Grunt to clear path.
-- **Status:** At Switch 1 (16, 1). Gate 3 (16, 6) is CLOSED (Verified).
-- **Current State:** 1-1-0 (Sw1 ON, Sw2 ON, Sw3 OFF).
-- **Effect:** Gate 2 (10, 6) OPEN. Gate 1 (2, 6) CLOSED. Gate 3 (16, 6) CLOSED.
-- **Plan:** Toggle Switch 1 to OFF. New State: 0-1-0.
-- **Risk:** If Gate 2 closes, I might be trapped in Bay 3.
-- **Goal:** Find combination to open Gate 3.
+- **Status:** Switch 1 turned OFF. Puzzle State: 0-1-0 (Sw1 OFF, Sw2 ON, Sw3 OFF).
+- **Observation:** Need to check Gate states.
+- **Plan:** Check Gate 3 (16, 6). If closed, check Gate 2 (10, 6).
+- **Goal:** Open a path South (Gate 1, 2, or 3).
+- **Hint:** "Press the end one first". Maybe 3-2-1?
+- **Reset:** If stuck, turn all OFF (0-0-0) and restart.
 - **Discovery:** TYPE_2889 is likely a Wall (impassable). Player blocked at (17, 31).
 - **Status:** Exploring Map 3_54 (South Warehouse).
 - **Recent:** Visited 3_53 via stairs at (23, 3), found it empty/confusing. Returned to 3_54.
