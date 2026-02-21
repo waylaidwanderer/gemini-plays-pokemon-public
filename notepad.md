@@ -24,3 +24,7 @@
 - **Location:** Radio Tower 5F (Map 3_21).
 - **Goal:** Bypass the Rocket Executive at (3, 6) to explore the rest of the floor.
 - **Plan:** Navigate around him via row 7.
+### Debug Note (Turn 51769)
+- BFS tool gave a weird path (Down x5, Right x5) which caused wall bumps.
+- Manual navigation is required to bypass the Executive.
+- Path: Down -> Right -> Right -> Right to (5, 7).
