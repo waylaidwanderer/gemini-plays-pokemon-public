@@ -1,11 +1,8 @@
-### Radio Tower Mission - Turn 51815
+### Radio Tower Mission - Turn 51830
 - **Location:** Radio Tower 5F (Right Side).
-- **Opponent:** Female Rocket Executive at (17, 2).
-- **Battle Status:**
-  - Murkrow (Lv32) vs Garnet (Lv51).
-  - Used Mud-Slap (Failed - Immune).
-  - Garnet took chip damage from Peck.
-- **Strategy:** Switch to Flame Wheel (Fire). Mud-Slap (Ground) doesn't affect Flying.
+- **Status:** Defeated Female Rocket Executive.
+- **Immediate Goal:** Heal Garnet, then confront the Team Rocket Boss.
+- **Key Item:** Expecting a key or progression trigger.
 
 ### Radio Tower Structure
 - **Concept:** The Tower is split vertically.
@@ -23,7 +20,3 @@
 
 ### Lessons Learned
 - **Navigation:** Do NOT include 'TYPE_2889' (Walls/Windows) in BFS walkable_types.
-### Radio Tower Mission - Turn 51828
-- **Status:** Defeated Female Rocket Executive at (17, 2).
-- **Location:** Radio Tower 5F (Right Side).
-- **Next Goal:** Confront the final Boss (likely further in).
