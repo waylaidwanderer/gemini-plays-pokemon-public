@@ -2,7 +2,8 @@
 - **Started:** Turn 52441
 - **Location:** Route 36 (Westbound)
 - **Goal:** Reach Ecruteak City (North of Route 37)
-- **Status:** Moving West past Schoolboy Alan towards the junction.
+- **Status:** Route 37 (Northbound). Entering Ecruteak City.
+- **Immediate:** Go to Tin Tower (NE).
 
 ### Team Rocket Radio Tower Arc (Completed)
 - Defeated Executives & Disbanded Team Rocket.
