@@ -1,6 +1,6 @@
 ### Radio Tower Mission - Turn 51830
-- Status: On 4F (3_20), engaging Rocket Grunt at (4,2).
-- Immediate Goal: Defeat Grunt, then take stairs at (0,0) to 5F Left (Director's location).
+- Status: On 4F (3_20), bypassing Rocket Grunt at (4,2).
+- Immediate Goal: Walk around Grunt via Row 3, then take stairs at (0,0) to 5F Left.
 - Current Location: 4F (3_20).
 - Key Item: Card Key (Received).
 
