@@ -1,10 +1,14 @@
-### Underground Path (Map 3_56) - Turn 51504
-- **Location:** (13, 8). Talking to "Burglar" sprite at (12, 8).
-- **Discovery:** The sprite is labeled **DIRECTOR**. He is the Real Director!
-- **Goal:** Get the Card Key.
-- **Status:** Trapped on East side of map. Need to find a way out after getting the key.
+### Underground Path (Map 3_56) - Turn 51515
+- **Location:** (13, 8).
+- **Status:** **CARD KEY OBTAINED!**
+- **Goal:** Escape Underground Path and go to Radio Tower 3F.
+- **Problem:** West Exit via Row 12 seemed blocked at (5, 12) previously.
+- **Plan:**
+  1. Retry West Exit at (5, 12).
+  2. If blocked, check Map 3_55 (Secret Room) again. Maybe the "Fake Director" was a keyholder or the room has a hidden exit.
+  3. Check "Fake Item" at (18, 15) again?
 
 ### Critical Info:
-- **Real Director:** Found at (12, 8) in Map 3_56.
-- **Fake Director:** Map 3_55 was a decoy.
-- **West Exit:** Blocked at (5, 12).
+- **Real Director:** Was at (12, 8). Gave Card Key.
+- **Fake Director:** Tile in Map 3_55.
+- **West Exit:** Blocked at (5, 12) (To be verified).
