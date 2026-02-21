@@ -1,7 +1,7 @@
-### Current Status - Turn 52208
-- **Location:** Cherrygrove City (Pokemon Center).
-- **Mission:** Heal Garnet.
-- **Notes:** Relocated from Goldenrod to avoid PCC maze.
+### Current Status - Turn 52261
+- **Location:** Cherrygrove City (Outside).
+- **Mission:** Fly to Ecruteak City.
+- **Notes:** Healed at Cherrygrove Center. Next stop: Tin Tower.
 
 ### Team Rocket Radio Tower Arc (Completed)
 - Defeated Executives & Disbanded Team Rocket.
