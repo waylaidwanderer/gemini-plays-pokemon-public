@@ -7,11 +7,10 @@
 - **1-1-1:** Gate 1 OPEN. (Inner Gate 2,10 CLOSED).
 - **0-0-1:** Gate 1, 2, 3 CLOSED.
 - **1-0-1:** Gate 1, 2, 3 CLOSED.
-- **0-1-1:** Gate 1 CLOSED. Gate 2 CLOSED. Gate 3 CLOSED.
-- **Action:** Resetting to 0-0-0.
-- **Plan:** Turn OFF Switch 3 (2, 1). Then Turn OFF Switch 2 (10, 1).
-- **Hypothesis:** "Press the end one first" implies a specific order (3 -> 2 -> 1).
-- **Goal:** Execute sequence 3 -> 2 -> 1 starting from 0-0-0.
+- **Status:** Switch 3 turned OFF. Puzzle State: 0-1-0 (Sw1 OFF, Sw2 ON, Sw3 OFF).
+- **Observation:** Gate 3 OPEN (from previous 0-1-0 test).
+- **Action:** Move to Switch 2 (10, 1) and turn OFF.
+- **Goal:** Reach 0-0-0 State. Then try Sequence 3 -> 2 -> 1.
 
 ### Current Event: Rival Silver
 - Status: Present at (4,8). Blocking path East.
