@@ -44,11 +44,10 @@
 - **Hypothesis:** Grunt is guarding the real Director behind the wall.
 - **Plan:** Defeat Grunt to clear path.
 - **Status:** Switch 1 turned OFF. Puzzle State: 0-1-0 (Sw1 OFF, Sw2 ON, Sw3 OFF).
-- **Observation:** Need to check Gate states.
-- **Plan:** Check Gate 3 (16, 6). If closed, check Gate 2 (10, 6).
-- **Goal:** Open a path South (Gate 1, 2, or 3).
-- **Hint:** "Press the end one first". Maybe 3-2-1?
-- **Reset:** If stuck, turn all OFF (0-0-0) and restart.
+- **Observation:** Gate 3 (16, 6) is visually OPEN (Blue Floor Tiles).
+- **Action:** Move South through Gate 3 to enter South Warehouse.
+- **Goal:** Explore South Warehouse. Find Director/Card Key.
+- **Targets:** Burglar Duncan (9, 12), Grunt F (19, 12).
 - **Discovery:** TYPE_2889 is likely a Wall (impassable). Player blocked at (17, 31).
 - **Status:** Exploring Map 3_54 (South Warehouse).
 - **Recent:** Visited 3_53 via stairs at (23, 3), found it empty/confusing. Returned to 3_54.
