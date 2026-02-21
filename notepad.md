@@ -1,5 +1,5 @@
 ### Current Status - Turn 52261
-- **Location:** Route 37 (South).
+- **Location:** Route 37.
 - **Mission:** Walk North to Ecruteak City.
 - **Notes:** Healed at Cherrygrove Center. Next stop: Tin Tower.
 
