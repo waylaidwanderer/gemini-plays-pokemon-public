@@ -1,7 +1,7 @@
 ### Warehouse (Map 3_54)
 ### Warehouse Switch Log (Map 3_54)
 - **Goal:** Reach Director (Need Card Key).
-- **1-1-0:** Gate 1 OPEN. Gate 2 CLOSED. (Gate 3 likely CLOSED).
+- **1-1-0:** Gate 3 OPEN. Gate 1 CLOSED. Gate 2 CLOSED. (Direct path to Director?).
 - **0-1-0:** Gate 3 OPEN. (Leads to Item/Dead End).
 - **1-0-0:** Gate 2 CLOSED. Gate 3 OPEN. Wall (12, 9) OPEN. (Allows access to Middle Bay South?).
 - **1-1-1:** Gate 1 OPEN. (Inner Gate 2,10 CLOSED).
