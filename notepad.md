@@ -43,6 +43,6 @@
 - **Action:** Trying to bump/interact with Grunt at (21, 24).
 - **Hypothesis:** Grunt is guarding the real Director behind the wall.
 - **Plan:** Defeat Grunt to clear path.
-- Visual confirmation: Gate 3 (16, 6) is CLOSED (looks like a wall).
-- Plan: Moving to Switch 2 (10, 1) to turn it ON.
-- Note: Grunt at (11, 2) blocks direct path, but (10, 2) is in his line of sight. Assuming passive based on past encounter.
+- Visual confirmation: Gate 3 (16, 6) is OPEN!
+- Plan: Proceed East through Gate 3 to find the Director.
+- Note: Gate 3 is confirmed open. Moving to investigate the Director's room entrance.
