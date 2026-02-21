@@ -2,8 +2,8 @@
 - **Started:** Turn 52441
 - **Location:** Route 36 (Westbound)
 - **Goal:** Reach Ecruteak City (North of Route 37)
-- **Status:** Route 37 (Northbound). Entering Ecruteak City.
-- **Immediate:** Go to Tin Tower (NE).
+- **Status:** In Ecruteak City. Dealing with Brent's phone call.
+- **Immediate:** Head North-East to Tin Tower Barrier Station.
 
 ### Team Rocket Radio Tower Arc (Completed)
 - Defeated Executives & Disbanded Team Rocket.
