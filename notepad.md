@@ -1,15 +1,10 @@
-### Underground Path (Map 3_56) - Turn 51498
-- **Location:** (6, 12).
-- **Status:** BLOCKED at (5, 12). I cannot return to the Warehouse via the West entrance. The wall must have closed behind me or I missed a switch state.
-- **Critical Info:**
-  - West Exit (3, 12) is inaccessible.
-  - Must find another exit or trigger in Map 3_56 or 3_55.
-  - "Fake Item" at (18, 15)? "Fake Director" in 3_55?
-  - Grunt at (14, 3) might have more info.
+### Underground Path (Map 3_56) - Turn 51504
+- **Location:** (13, 8). Talking to "Burglar" sprite at (12, 8).
+- **Discovery:** The sprite is labeled **DIRECTOR**. He is the Real Director!
+- **Goal:** Get the Card Key.
+- **Status:** Trapped on East side of map. Need to find a way out after getting the key.
 
-### Plan
-1. Confirm blockage (Left).
-2. Go back to East side.
-3. Talk to Grunt at (14, 3) again.
-4. Check "Fake Item" at (18, 15) carefully.
-5. Re-check Secret Room 3_55.
+### Critical Info:
+- **Real Director:** Found at (12, 8) in Map 3_56.
+- **Fake Director:** Map 3_55 was a decoy.
+- **West Exit:** Blocked at (5, 12).
