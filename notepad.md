@@ -7,12 +7,12 @@
 - **1-1-1:** Gate 1 OPEN. (Inner Gate 2,10 CLOSED).
 - **0-0-1:** Gate 1, 2, 3 CLOSED.
 - **1-0-1:** Gate 1, 2, 3 CLOSED.
-- **Status:** Switch 3 ON, Switch 2 ON, Switch 1 ON. Puzzle State: 1-1-1.
-- **Observation:** Gate 1 (2, 6) is CLOSED. Gate 3 (16, 6) is CLOSED. Path (12, 9) is CLOSED.
-- **Correction:** 1-1-1 locks the player in the North Section.
-- **Plan:** Revert to 0-0-1 (Switch 3 ON only).
-- **Hypothesis:** "End One First" might mean "Only Switch 3" or "Switch 3 is the only necessary step".
-- **Next:** Turn Switch 2 OFF. Turn Switch 1 OFF. Check Gate 1 and Inner Gate.
+- **Status:** Switch 3 ON, Switch 2 OFF, Switch 1 OFF. Puzzle State: 0-0-1.
+- **Observation:** Gate 3 (16, 6) is CLOSED.
+- **Conclusion:** Sequence 3-2-1 FAILED.
+- **Hypothesis:** "End One First" refers to Switch 1 (Right End).
+- **Plan:** Reset to 0-0-0. Activate Switch 1 ONLY (1-0-0).
+- **Goal:** In 1-0-0, Gate 3 should be OPEN. Go through Gate 3 to reach Director at (23, 3).
 
 ### Current Event: Rival Silver
 - Status: Present at (4,8). Blocking path East.
