@@ -50,8 +50,7 @@
 - **Targets:** Burglar Duncan (9, 12), Grunt F (19, 12).
 - **Discovery:** TYPE_2889 is likely a Wall (impassable). Player blocked at (17, 31).
 - **Status:** Exploring Map 3_54 (South Warehouse).
-- **Recent:** Visited 3_53 via stairs at (23, 3), found it empty/confusing. Returned to 3_54.
-- **Action:** Pickup Item at (24, 1). Then explore South (Rows 12+).
+- **Action:** Engage Grunt F at (19, 12).
 - **Target:** Burglar Duncan (9, 12), Grunt F (19, 12).
 - **Goal:** Find Card Key.
-- **Switch State:** 1-1-0 (Sw1 ON, Sw2 ON, Sw3 OFF). Gate 3 Open.
+- **Switch State:** 0-1-0 (Sw1 OFF, Sw2 ON, Sw3 OFF). Gate 3 Open.
