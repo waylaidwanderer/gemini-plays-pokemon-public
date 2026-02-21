@@ -3,8 +3,8 @@
 - **Goal:** Reach Director (Need Card Key).
 - **Current State:** 1-0-0 (Switch 1 ON, 2 OFF, 3 OFF).
 - **Verified Effects:** Gate 3 (16,6) OPEN. Gate 1 & 2 CLOSED.
-- **Observation:** In 1-0-0, Walls at (11,10) and (12,10) are CLOSED.
-- **Plan:** Check (10,9) for traps. Return to Switch 3 to try 1-0-1.
+- **Observation:** In 1-0-0, Walls at (11,10) and (12,10) are CLOSED. (10,9) and (11,9) are SAFE (No Warp).
+- **Plan:** Return to Switch 3 (2,1). Activate to try State 1-0-1.
 
 ### Switch Log
 - **1-1-0:** Gate 3 OPEN. Gate 1 CLOSED. Gate 2 CLOSED.
