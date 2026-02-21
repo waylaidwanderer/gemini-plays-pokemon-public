@@ -12,3 +12,8 @@
 - **Real Director:** Was at (12, 8). Gave Card Key.
 - **Fake Director:** Tile in Map 3_55.
 - **West Exit:** Blocked at (5, 12) (To be verified).
+### Reflection (Turn 51517)
+- **Progress:** Found Real Director, got Card Key.
+- **Trap Check:** Mental Map shows (4,12) and (5,12) as Walls (TYPE_2889). I need to verify if they are actually passable now that I have the key, or if I need to find another trigger.
+- **Inventory:** No Escape Rope. Must walk out.
+- **Action:** Retrying the West Exit. If blocked, I will re-examine the "Fake Director" room (3_55) for hidden switches or exits.
