@@ -1,14 +1,14 @@
-### Radio Tower Mission - Turn 52125
-- Status: Mission Complete. Team Rocket Disbanded.
-- Location: 5F (3_21), heading to exit.
-- Goal: Exit Radio Tower and Heal.
-- Next Destination: Ecruteak City (Tin Tower).
+### Current Status - Turn 52141
+- **Location:** Goldenrod City (Outside Radio Tower).
+- **Mission:** Heal at PC, then head to Ecruteak City.
+- **Key Item:** Clear Bell (from Director).
 
-### Radio Tower Structure
-- 5F: Boss Room (Director/Executive). Stairs at (12,0) -> 4F.
-- 4F: Divided. Stairs at (12,0) -> 5F. Stairs at (17,0) -> 3F.
-- 3F: Stairs at (17,0) -> 4F.
+### Team Rocket Radio Tower Arc (Completed)
+- Defeated Executives & Disbanded Team Rocket.
+- Saved the Director.
+- **Loot:** Clear Bell.
+- **To-Do:** Return later to check for missed items (Pink Bow, Sunny Day).
 
-### Reflection
-- Elevator on 5F seemed to be a bookshelf.
-- Garnet needs healing.
+### Future Goals
+- **Tin Tower:** Investigate with Clear Bell.
+- **Radio Tower:** Return later to scan for items.
