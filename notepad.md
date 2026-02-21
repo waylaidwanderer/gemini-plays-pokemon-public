@@ -1,7 +1,7 @@
 ### Current Status - Turn 52172
 - **Location:** Goldenrod City (Pokemon Communication Center).
-- **Mission:** Heal at PC, then head to Ecruteak City.
-- **Key Item:** Clear Bell (from Director).
+- **Mission:** Heal at PC.
+- **Notes:** Left side is Game Corner Exchange. Right side is TM Shop. Nurse Joy location unknown (checking center/right counters).
 
 ### Team Rocket Radio Tower Arc (Completed)
 - Defeated Executives & Disbanded Team Rocket.
