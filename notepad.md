@@ -1,19 +1,19 @@
-### Underground Path (Map 3_56) - Turn 51399
+### Underground Path (Map 3_56) - Turn 51418
 ### Status
-- **Location:** (18, 3) -> Moving to (17, 2).
-- **Goal:** Enter Director's Room.
+- **Location:** (14, 2).
+- **Goal:** Go to West Side (x=3) to check for a middle path.
 
 ### Puzzle/Map Notes
-- **Duncan:** Defeated at (17, 3).
-- **Stairs:** Located at (17, 2).
+- **East Side (x=16):** Led to Amulet Coin room (Dead end).
+- **Middle Area (x=12-14):** Seemingly blocked from East/South.
+- **Hypothesis:** Entrance to Middle Area/Director is from the West Side (near x=5, y=3).
 
 ### Plan
-1. Move Up to (18, 2), then Left to (17, 2).
-2. Take the stairs/door.
-3. Get the Card Key from the Real Director.
+1. Return to Row 12 via East Corridor.
+2. Cross to West Side.
+3. Check East path from (5, 3).
 
 ### Key Locations
-- **Stairs:** (17, 2)
-- **Duncan:** (17, 3)
-- Found Amulet Coin at (15, 2) in Director's Room (Map 3_55).
-- Stairs at (17, 2) lead to the isolated item section of the Director's Room. Need to find the main entrance.
+- **Stairs to Amulet Coin:** (17, 2)
+- **Potential Path:** (5, 3) -> East?
+- **Grunt/Item:** (12, 8) / (13, 9)
