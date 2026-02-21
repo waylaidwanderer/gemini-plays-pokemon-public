@@ -1,23 +1,23 @@
-### Warehouse (Map 3_54) - Turn 51336
+### Warehouse (Map 3_54) - Turn 51337
 ### Status
 - **State:** 1-0-1 (Switch 1 & 3 ON).
-- **Location:** (2, 9) -> Moving through opened wall at (6, 9).
-- **Goal:** Reach Southeast Area (11, 10).
+- **Location:** (5, 9).
+- **Goal:** Reach Southeast Area via (10, 9).
 
 ### Switch Log
 - **1-1-1:** Gate 1 OPEN, Inner Gate CLOSED.
 - **0-1-1 (2&3 ON):** Gate 1 OPEN, Inner Gate CLOSED.
-- **1-0-1 (1&3 ON):** Gate 1 OPEN. Gate 3 CLOSED. Wall at (6,8/6,9) OPEN!
+- **1-0-1 (1&3 ON):** Gate 1 OPEN. Wall at (6,9) OPEN. Walls at (10,10) & (10,11) OPEN!
 - **1-0-0 (1 ON):** Gate 3 OPEN. Inner Walls CLOSED.
 - **1-1-0 (1&2 ON):** Gate 1 OPEN. Inner Gate CLOSED.
 - **0-1-0 (2 ON):** Gate 2 OPEN.
 - **0-0-1 (3 ON):** Gate 1 CLOSED.
 
 ### Plan
-1. Move East through (6, 9).
-2. Navigate carefully around traps at (10, 9) / (11, 9).
-   - Marker says "Safe (100)" for (10, 9). Does 1-0-1 count?
-3. Check wall at (11, 10) and potentially the Director's room or new area.
+1. Move East to (10, 9).
+2. Assume (10, 9) trap is SAFE in State 1-0-1 (since path south opened).
+3. Proceed South through (10, 10) -> (10, 11) or East to (11, 9).
+4. Find the Director.
 
 ### Key Locations
 - **Director:** (23,3)
