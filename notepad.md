@@ -17,3 +17,7 @@
 - **Trap Check:** Mental Map shows (4,12) and (5,12) as Walls (TYPE_2889). I need to verify if they are actually passable now that I have the key, or if I need to find another trigger.
 - **Inventory:** No Escape Rope. Must walk out.
 - **Action:** Retrying the West Exit. If blocked, I will re-examine the "Fake Director" room (3_55) for hidden switches or exits.
+### Escape Plan (Turn 51518)
+- **Option A:** Walk out via West Exit at (5, 12).
+- **Option B:** If blocked, check Map 3_55 again.
+- **Option C (Failsafe):** Garnet knows **DIG**. I can use it to escape the dungeon if physically trapped.
