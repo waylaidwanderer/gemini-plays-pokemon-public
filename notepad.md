@@ -7,9 +7,9 @@
 - **1-1-1:** Gate 1 OPEN. (Inner Gate 2,10 CLOSED).
 - **0-0-1:** Gate 1, 2, 3 CLOSED.
 - **1-0-1:** Gate 1, 2, 3 CLOSED.
-- **Status:** Switch 3 OFF, Switch 2 OFF, Switch 1 OFF. Puzzle State: 0-0-0.
-- **Plan:** Activate Switch 1 ONLY (1-0-0).
-- **Goal:** In 1-0-0, Gate 3 should be OPEN. Go through Gate 3 to reach Director at (23, 3).
+- **Status:** Switch 2 turned OFF. Checking Switch 1. Target State: 1-0-0.
+- **Plan:** Activate Switch 1 ONLY (1-0-0). Verify Gate 3 (16,6) is OPEN.
+- **Goal:** Reach Director at (23, 3) via Gate 3.
 
 ### Current Event: Rival Silver
 - Status: Present at (4,8). Blocking path East.
