@@ -24,3 +24,5 @@
 - Plan: Scan interactables, then refresh map by changing floors.
 - Battling Rocket Executive on 5F. Defeated Houndour, Koffing.
 - Garnet Moves: TL=Swift, TR=Mud-Slap, BL=Smokescreen, BR=Flame Wheel.
+- Defeated Rocket Executive on Radio Tower 5F (Turn 52090).
+- He announced the disbanding of Team Rocket.
