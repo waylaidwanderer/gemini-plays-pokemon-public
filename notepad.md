@@ -1,7 +1,8 @@
-### Current Status - Turn 52261
-- **Location:** Route 37.
-- **Mission:** Walk North to Ecruteak City.
-- **Notes:** Healed at Cherrygrove Center. Next stop: Tin Tower.
+### Current Quest: Investigate Tin Tower
+- **Started:** Turn 52441
+- **Location:** Route 36 (Westbound)
+- **Goal:** Reach Ecruteak City (North of Route 37)
+- **Status:** Moving West past Schoolboy Alan towards the junction.
 
 ### Team Rocket Radio Tower Arc (Completed)
 - Defeated Executives & Disbanded Team Rocket.
