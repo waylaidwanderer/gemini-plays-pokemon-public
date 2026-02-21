@@ -1,22 +1,21 @@
-### Warehouse (Map 3_54) - Turn 51273
+### Warehouse (Map 3_54) - Turn 51315
 ### Status
-- **State:** 0-1-0 (Switch 2 ON, Sw1/3 OFF).
-- **Location:** Middle Bay (10, 4).
-- **Goal:** Find path to South Warehouse / Director.
+- **State:** 0-1-1 (Switch 2 & 3 ON).
+- **Location:** Switch 3 (2, 2).
+- **Goal:** Create State 0-0-1 (Only Switch 3 ON).
 
 ### Switch Log
 - **1-1-1 (All ON):** All Gates CLOSED.
-- **0-1-1 (2&3 ON):** All Gates CLOSED.
+- **0-1-1 (2&3 ON):** All Gates CLOSED (Testing).
 - **1-0-1 (1&3 ON):** All Gates CLOSED (Trapped).
 - **1-0-0 (1 ON):** Gate 3 OPEN. Inner Walls CLOSED.
 - **1-1-0 (1&2 ON):** Gate 1 OPEN. Inner Gate CLOSED.
-- **0-1-0 (2 ON):** Testing Gate 2 & Secret Door.
+- **0-1-0 (2 ON):** Gate 2 OPEN. Secret Door OPEN. (Dead End).
 
 ### Plan
-1. Check Gate 2 (10,6) and Secret Door (11,6).
-2. If closed, move to Switch 2 (10,1) and turn OFF.
-3. Activate Switch 3 (2,1) -> State 0-0-1.
-4. Test State 0-0-1.
+1. Move to Switch 2 (10,1).
+2. Turn Switch 2 OFF -> State 0-0-1.
+3. Test State 0-0-1 (Check Inner Gate at 2,10).
 
 ### Key Locations
 - **Director:** (23,3)
