@@ -1,6 +1,6 @@
 ### Radio Tower Mission - Turn 51830
-- Status: On 5F Left (3_21), approaching final Boss/Director at (3,6).
-- Immediate Goal: Defeat Boss/Save Director.
+- Status: Confirmed Fake Director at 5F Left (3_21). Returning to 4F.
+- Immediate Goal: Return to 4F via stairs at (0,0), then find stairs at (12,0) to reach the real Boss.
 - Current Location: 5F Left (3_21).
 - Key Item: Card Key (Received).
 
