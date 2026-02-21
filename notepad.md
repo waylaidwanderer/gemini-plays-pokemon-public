@@ -20,12 +20,16 @@
 - **Card Key:** Unlocks shutters.
 - **Stairs:** (17, 0) goes down. (0, 0) likely goes UP.
 - **Floor Layout:** Path to left seems clear.
-### Radio Tower Mission - Turn 51771
-- **Location:** Radio Tower 5F (Map 3_21).
-- **Status:** Left side of 5F is a dead end (Hint Room).
-- **Discovery:** The room is divided by a wall at x=6,7. The right side is inaccessible from here.
-- **Goal:** Return to 4F, then 3F, and ascend the Right Wing stairs to reach the true 5F area.
+### Radio Tower Structure (Turn 51776)
+- **Concept:** The Tower is split vertically.
+- **Left Wing:** 4F Left (0,0) <-> 5F Left (Hint Room). Dead End.
+- **Right Wing:** 4F Right <-> 5F Right (Boss Room).
+- **Connection:** Must cross over on 3F to switch wings.
+- **Current Goal:** Descend to 3F via (9, 0), cross to Right Wing, then climb back up.
 
 ### Critical Info:
-- **Navigation:** Must use Right Wing stairs (start at 3F 17,0) to reach Boss.
-- **Walls:** 5F is split into two unconnected sections.
+- **Card Key:** Unlocks shutters.
+- **Stairs:**
+  - 4F (0,0) -> 5F Left (Dead End).
+  - 4F (9,0) -> 3F.
+  - 4F (17,0) -> 3F.
