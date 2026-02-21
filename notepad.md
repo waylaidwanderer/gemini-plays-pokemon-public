@@ -7,9 +7,13 @@
 - **1-1-1:** Gate 1 OPEN. (Inner Gate 2,10 CLOSED).
 - **0-0-1:** Gate 1, 2, 3 CLOSED.
 - **1-0-1:** Gate 1, 2, 3 CLOSED.
-- **Status:** Switch 2 turned OFF. Puzzle State: 0-0-1 (Sw1 OFF, Sw2 OFF, Sw3 ON).
-- **Action:** Move to Switch 3 (2, 1) and Turn OFF.
-- **Goal:** Reach 0-0-0 State. Then try Sequence 1 -> 2 -> 3.
+- **Status:** Switch 3 turned OFF. Puzzle State: 0-0-0 (All OFF).
+- **Hypothesis:** "End One First" refers to Switch 1 (Right End).
+- **Plan:** Execute Sequence 1 -> 2 -> 3.
+- **Step 1:** Go to Switch 1 (16, 1) and Turn ON.
+- **Step 2:** Go to Switch 2 (10, 1) and Turn ON.
+- **Step 3:** Go to Switch 3 (2, 1) and Turn ON.
+- **Goal:** Reach Director.
 
 ### Current Event: Rival Silver
 - Status: Present at (4,8). Blocking path East.
