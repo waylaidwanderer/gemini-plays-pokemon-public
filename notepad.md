@@ -1,5 +1,5 @@
-### Current Status - Turn 52141
-- **Location:** Goldenrod City (Outside Radio Tower).
+### Current Status - Turn 52172
+- **Location:** Goldenrod City (Pokemon Communication Center).
 - **Mission:** Heal at PC, then head to Ecruteak City.
 - **Key Item:** Clear Bell (from Director).
 
