@@ -1,20 +1,14 @@
-### Underground Path (Map 3_56) - Turn 51443
+### Underground Path (Map 3_56) - Turn 51444
 ### Status
-- **Location:** (7, 8) -> Moving to East Side (Row 12) -> Top Right (16, 1).
-- **Goal:** Access Central Area from the North East.
+- **Location:** (16, 12) -> Moving to North East Corner (16, 2).
+- **Goal:** Investigate (17, 2) which appears to be stairs/door. Access Item Ball from the North.
 
-### Puzzle/Map Notes
-- **West Side:** Blocked by wall at x=8.
-- **East Side:** Connected to West via Row 12.
-- **Hypothesis:** Entry to the middle area (Grunt @ 9,8 / Item @ 13,9) is via Row 1, accessible from the East corridor.
+### Map Analysis
+- **East/West Split:** Column 8 is a wall (Row 1-11), separating West (Grunt) from East (Item/Stairs). Connection is at Row 12.
+- **Item Room Access:** The item at (13, 9) is enclosed by walls at Row 11 (South) and Column 15 (East). Must enter from the North (Row 1-3).
+- **Key Tile:** (17, 2) is TYPE_8564, likely the entrance to the Director's area.
 
 ### Plan
-1. Go East to (16, 12).
-2. Go North to (16, 1).
-3. Go West along Row 1 to enter the middle area.
-4. Find the Director.
-
-### Key Locations
-- **Entrance to Middle:** Likely (9, 1)
-- **Item:** (13, 9)
-- **Grunt:** (12, 8)
+1. Go North to (16, 2).
+2. Inspect/Enter (17, 2).
+3. If not the right way, loop West/South to get Item at (13, 9).
