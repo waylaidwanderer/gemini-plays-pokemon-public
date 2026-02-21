@@ -1,19 +1,19 @@
-### Underground Path (Map 3_56) - Turn 51418
+### Underground Path (Map 3_56) - Turn 51439
 ### Status
-- **Location:** (14, 2).
-- **Goal:** Go to West Side (x=3) to check for a middle path.
+- **Location:** (16, 4) -> Moving to (14, 3) -> South.
+- **Goal:** Explore the path past the defeated Grunt at (14, 3).
 
 ### Puzzle/Map Notes
-- **East Side (x=16):** Led to Amulet Coin room (Dead end).
-- **Middle Area (x=12-14):** Seemingly blocked from East/South.
-- **Hypothesis:** Entrance to Middle Area/Director is from the West Side (near x=5, y=3).
+- **East Side (x=16):** Connects to top corridor.
+- **Path at (14, 3):** Previously ignored, but likely leads to the central area (Item/Grunt).
 
 ### Plan
-1. Return to Row 12 via East Corridor.
-2. Cross to West Side.
-3. Check East path from (5, 3).
+1. Go to (14, 3).
+2. Walk South.
+3. Access the central area (12, 8).
+4. Find the Real Director.
 
 ### Key Locations
-- **Stairs to Amulet Coin:** (17, 2)
-- **Potential Path:** (5, 3) -> East?
-- **Grunt/Item:** (12, 8) / (13, 9)
+- **Defeated Grunt:** (14, 3)
+- **Item 1:** (13, 9)
+- **Grunt:** (12, 8)
