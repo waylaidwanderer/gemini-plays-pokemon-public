@@ -7,11 +7,9 @@
 - **1-1-1:** Gate 1 OPEN. (Inner Gate 2,10 CLOSED).
 - **0-0-1:** Gate 1, 2, 3 CLOSED.
 - **1-0-1:** Gate 1, 2, 3 CLOSED.
-- **Status:** Switch 3 turned OFF. Puzzle State: 0-0-0 (All OFF).
-- **Observation:** Traps at (15, 4) and (10, 4) are INACTIVE in 0-0-0 state.
-- **Hypothesis:** Trap at (2, 4) likely INACTIVE in 0-0-0 state.
-- **Hypothesis:** "End One First" refers to Switch 1 (Right End). -> FAILED.
-- **New Hypothesis:** "End One First" refers to Switch 3 (Left End).
+- **Status:** Switch 3 turned ON. Puzzle State: 0-0-1 (Sw3 ON, Sw2 OFF, Sw1 OFF).
+- **Observation:** Trap at (2, 4) is INACTIVE in 0-0-1 state.
+- **Hypothesis:** "End One First" refers to Switch 3 (Left End).
 - **Plan:** Execute Sequence 3 -> 2 -> 1.
 
 ### Current Event: Rival Silver
