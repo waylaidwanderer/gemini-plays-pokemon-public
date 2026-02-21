@@ -64,3 +64,4 @@
 - **Observation:** (12, 8) and (12, 9) closed (TYPE_2889) when (6, 8) opened.
 - **Observation:** Current path leads to an alcove with potential Trap Warps at (10, 9) and (11, 9).
 - **Hypothesis:** 1-2-3 might be wrong, or the "Traps" are progression warps. Testing trap at (10, 9).
+- **Observation:** With All Switches ON (3-2-1), Gate 1 (2, 6) is OPEN. Gate 2 and 3 are CLOSED. Secret Door (11, 6) is CLOSED.
