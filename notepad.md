@@ -10,8 +10,8 @@
 - **Status:** Switch 3 turned OFF. Puzzle State: 0-0-0 (All OFF).
 - **Hypothesis:** "End One First" refers to Switch 1 (Right End).
 - **Plan:** Execute Sequence 1 -> 2 -> 3.
-- **Status:** Resetting Puzzle. Switch 1 OFF. Switch 2 OFF. Switch 3 ON.
-- **Next:** Turn Switch 3 OFF, then start Sequence 3-2-1.
+- **Status:** Switch 3 turned ON. Sequence 3 (ON) -> 2 (Pending) -> 1 (Pending).
+- **Next:** Move to Switch 2 via Row 4 (Avoiding Trap at 2,4).
 
 ### Current Event: Rival Silver
 - Status: Present at (4,8). Blocking path East.
