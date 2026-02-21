@@ -1,6 +1,6 @@
 ### Current Status - Turn 52261
-- **Location:** Violet City (Outside).
-- **Mission:** Fly to Ecruteak City.
+- **Location:** Route 36 (En route to Ecruteak).
+- **Mission:** Walk to Ecruteak City (via Route 36 & 37).
 - **Notes:** Healed at Cherrygrove Center. Next stop: Tin Tower.
 
 ### Team Rocket Radio Tower Arc (Completed)
