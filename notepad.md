@@ -47,5 +47,6 @@
 - Plan: Proceed East through Gate 3 to find the Director.
 - Note: Gate 3 is confirmed open. Moving to investigate the Director's room entrance.
 - **Discovery:** TYPE_2889 is likely a Wall (impassable). Player blocked at (17, 31).
-- **Situation:** Director is at (18, 31). I am at (19, 31).
-- **Action:** Facing Left to talk to the Director.
+- **Situation:** Director NOT found at (18, 31).
+- **Observation:** Row 29 has crates (TYPE_63e2) but a gap exists at (21, 29).
+- **Plan:** Move to (21, 29) to check behind the crates for the Director.
