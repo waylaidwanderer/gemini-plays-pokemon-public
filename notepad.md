@@ -1,9 +1,9 @@
 ### Current Quest: Investigate Tin Tower
 - **Started:** Turn 52441
-- **Location:** Route 36 (Westbound)
-- **Goal:** Reach Ecruteak City (North of Route 37)
-- **Status:** In Ecruteak City. Dealing with Brent's phone call.
-- **Immediate:** Head North-East to Tin Tower Barrier Station.
+- **Location:** Tin Tower Barrier Station
+- **Goal:** Enter Tin Tower
+- **Status:** Successfully passed the Sage with the Clear Bell.
+- **Immediate:** Proceed North to the tower entrance.
 
 ### Team Rocket Radio Tower Arc (Completed)
 - Defeated Executives & Disbanded Team Rocket.
