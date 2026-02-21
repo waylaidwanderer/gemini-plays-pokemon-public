@@ -7,12 +7,9 @@
 - **1-1-1:** Gate 1 OPEN. (Inner Gate 2,10 CLOSED).
 - **0-0-1:** Gate 1, 2, 3 CLOSED.
 - **1-0-1:** Gate 1, 2, 3 CLOSED.
-- **Status:** Switch 1 turned ON. Puzzle State: 1-1-1 (All ON).
-- **Result:** 3->2->1 sequence yielded: Gate 1 OPEN. Inner Gate (2,10) CLOSED. Secret Wall (11,10) CLOSED.
-- **Conclusion:** 3-2-1 is NOT the correct sequence.
-- **New Plan:** Reset to 0-0-0. Try Sequence 1 -> 2 -> 3.
-- **Action:** Turn OFF Switch 1. Move to Switch 2 and Turn OFF.
-- **Goal:** Reach Director.
+- **Status:** Switch 2 turned OFF. Puzzle State: 0-0-1 (Sw1 OFF, Sw2 OFF, Sw3 ON).
+- **Action:** Move to Switch 3 (2, 1) and Turn OFF.
+- **Goal:** Reach 0-0-0 State. Then try Sequence 1 -> 2 -> 3.
 
 ### Current Event: Rival Silver
 - Status: Present at (4,8). Blocking path East.
