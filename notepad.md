@@ -1,15 +1,15 @@
 ### Radio Tower Mission - Turn 51830
-- Status: Confirmed Fake Director at 5F Left (3_21). Returning to 4F.
-- Immediate Goal: Return to 4F via stairs at (0,0), then find stairs at (12,0) to reach the real Boss.
-- Current Location: 5F Left (3_21).
+- Status: Back on 4F (3_20). Heading to real Boss.
+- Immediate Goal: Navigate to stairs at (12,0) to reach 5F Right (Boss Room).
+- Current Location: 4F (3_20).
 - Key Item: Card Key (Received).
 
 ### Radio Tower Structure
 - **Concept:** The Tower has multiple vertical shafts.
-- **Stairs on 5F (3_21):**
-  - (12,0): Connects to 4F (Right Side).
-  - (0,0): Connects to 4F (Left Side) - Came from here.
-  - (16,2): Defeated Female Executive (Right Side).
+- **Stairs on 4F (3_20):**
+  - (17,0): Connects to 3F (Right Side) / 5F Right (Executive).
+  - (12,0): Target. Likely leads to Boss.
+  - (0,0): Connects to 5F Left (Fake Director).
 
 ### Lessons Learned
 - **Navigation:** Do NOT include 'TYPE_2889' (Walls/Windows) in BFS walkable_types.
