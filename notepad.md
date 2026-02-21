@@ -10,8 +10,8 @@
 - **Status:** Switch 3 turned OFF. Puzzle State: 0-0-0 (All OFF).
 - **Hypothesis:** "End One First" refers to Switch 1 (Right End).
 - **Plan:** Execute Sequence 1 -> 2 -> 3.
-- **Status:** Switch 2 turned ON. Sequence: 1 (ON) -> 2 (ON) -> 3 (Pending).
-- **Next:** Move to Switch 3 via Row 3 (Safe).
+- **Status:** Switch 3 turned ON. Sequence 1-2-3 Complete.
+- **Next:** Check Inner Gate at (2, 10) and other changes.
 
 ### Current Event: Rival Silver
 - Status: Present at (4,8). Blocking path East.
