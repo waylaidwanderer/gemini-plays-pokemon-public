@@ -17,3 +17,6 @@
 - **Strategy:** Tried using Card Key from menu. Result was ambiguous text "It's the CARD KEY slot." Need to verify if this is success or failure.
 - **Hygiene:** Map markers are up to date. Notepad is clean.
 - **Goal:** Open the shutter and ascend to 4F/5F to defeat the Boss.
+- Stuck at Card Key slot. 'Use' from menu fails (Oak). Pressing A on slot yields description. Shutter remains closed.
+- Hypothesis: Map glitch or wrong interaction point.
+- Plan: Scan interactables, then refresh map by changing floors.
