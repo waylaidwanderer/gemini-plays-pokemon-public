@@ -25,7 +25,6 @@
 - **Left Wing:** 4F Left (0,0) <-> 5F Left (Hint Room). Dead End.
 - **Right Wing:** 4F Right <-> 5F Right (Boss Room).
 - **Connection:** Must cross over on 3F to switch wings.
-- **Current Goal:** Descend to 3F via (9, 0), cross to Right Wing, then climb back up.
 
 ### Critical Info:
 - **Card Key:** Unlocks shutters.
