@@ -1,19 +1,20 @@
-### Underground Path (Map 3_56) - Turn 51439
+### Underground Path (Map 3_56) - Turn 51443
 ### Status
-- **Location:** (16, 4) -> Moving to (14, 3) -> South.
-- **Goal:** Explore the path past the defeated Grunt at (14, 3).
+- **Location:** (7, 8) -> Moving to East Side (Row 12) -> Top Right (16, 1).
+- **Goal:** Access Central Area from the North East.
 
 ### Puzzle/Map Notes
-- **East Side (x=16):** Connects to top corridor.
-- **Path at (14, 3):** Previously ignored, but likely leads to the central area (Item/Grunt).
+- **West Side:** Blocked by wall at x=8.
+- **East Side:** Connected to West via Row 12.
+- **Hypothesis:** Entry to the middle area (Grunt @ 9,8 / Item @ 13,9) is via Row 1, accessible from the East corridor.
 
 ### Plan
-1. Go to (14, 3).
-2. Walk South.
-3. Access the central area (12, 8).
-4. Find the Real Director.
+1. Go East to (16, 12).
+2. Go North to (16, 1).
+3. Go West along Row 1 to enter the middle area.
+4. Find the Director.
 
 ### Key Locations
-- **Defeated Grunt:** (14, 3)
-- **Item 1:** (13, 9)
+- **Entrance to Middle:** Likely (9, 1)
+- **Item:** (13, 9)
 - **Grunt:** (12, 8)
