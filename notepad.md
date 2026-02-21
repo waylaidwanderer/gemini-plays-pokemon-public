@@ -1,8 +1,8 @@
 ### Warehouse (Map 3_54)
 - **Status:** Switch 1 turned OFF. Puzzle State: 0-0-1 (Sw1 OFF, Sw2 OFF, Sw3 ON).
-- **Observation:** Gate 3 (16, 6) is CLOSED.
-- **Plan:** Move to (11, 5) via Row 3 to check Gate 2 (10, 6).
-- **If Gate 2 Closed:** Move to Gate 1 (2, 6).
+- **Observation:** Gate 3 (16, 6) is CLOSED. Gate 2 (10, 6) is CLOSED.
+- **Plan:** Move to Gate 1 (2, 6) to check it.
+- **Route:** (11, 5) -> (11, 3) -> (2, 3) -> (2, 6). Avoiding Traps at (10,5), (10,4), (2,4).
 - **Goal:** Find path to Director.
 
 ### Current Event: Rival Silver
