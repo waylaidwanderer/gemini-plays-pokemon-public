@@ -20,11 +20,12 @@
 - **Card Key:** Unlocks shutters.
 - **Stairs:** (17, 0) goes down. (0, 0) likely goes UP.
 - **Floor Layout:** Path to left seems clear.
-### Radio Tower Mission - Turn 51769
+### Radio Tower Mission - Turn 51771
 - **Location:** Radio Tower 5F (Map 3_21).
-- **Goal:** Bypass the Rocket Executive at (3, 6) to explore the rest of the floor.
-- **Plan:** Navigate around him via row 7.
-### Debug Note (Turn 51769)
-- BFS tool gave a weird path (Down x5, Right x5) which caused wall bumps.
-- Manual navigation is required to bypass the Executive.
-- Path: Down -> Right -> Right -> Right to (5, 7).
+- **Status:** Left side of 5F is a dead end (Hint Room).
+- **Discovery:** The room is divided by a wall at x=6,7. The right side is inaccessible from here.
+- **Goal:** Return to 4F, then 3F, and ascend the Right Wing stairs to reach the true 5F area.
+
+### Critical Info:
+- **Navigation:** Must use Right Wing stairs (start at 3F 17,0) to reach Boss.
+- **Walls:** 5F is split into two unconnected sections.
