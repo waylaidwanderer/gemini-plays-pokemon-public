@@ -60,3 +60,4 @@
 - **Goal:** Enter South Warehouse.
 - **Note:** Gate 3 (16, 6) likely CLOSED now.
 - **Observation:** Map tiles changed at (11, 6) and (11, 7) after Switch 1 ON. Suggests Secret Door or Gate opened there.
+- **Observation:** Tile at (6, 8) changed to Walkable (TYPE_3fe2).
