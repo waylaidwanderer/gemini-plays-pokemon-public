@@ -23,3 +23,7 @@
 
 ### Lessons Learned
 - **Navigation:** Do NOT include 'TYPE_2889' (Walls/Windows) in BFS walkable_types.
+### Battle Update (Turn 51817)
+- Accidentally used Smokescreen instead of Flame Wheel.
+- Correction: Reset cursor to top-left, then navigate to Flame Wheel (Bottom-Right).
+- Sequence: Up, Left (Reset) -> Down, Right (Target).
