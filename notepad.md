@@ -34,3 +34,5 @@
 - **West Exit:** Blocked at (5, 12). Needs to be opened.
 - **Fake Tiles:** Visuals that can be walked on. Likely triggers.
 - Verified (18, 15): Walkable. Stepping on it didn't open (5,12). Checking Secret Room (3_55) for changes.
+- Burglar at (6, 13) says "The stuff on the ground's junk." Likely refers to Item Balls being switches/traps.
+- Need to access bottom-right quadrant (Item Ball at 15, 15). Blocked by wall at Row 12 on right side.
