@@ -1,15 +1,15 @@
 ### Radio Tower Mission - Turn 51830
 - Status: Defeated Female Rocket Executive on 5F.
-- Immediate Goal: Find the final Team Rocket Boss (likely on 5F via different stairs).
+- Immediate Goal: Return to 3F to find a way to the Center/Left Wing (where the Director/Boss is).
 - Current Location: 4F (3_20).
 - Key Item: Card Key (Received).
 
 ### Radio Tower Structure
 - **Concept:** The Tower has multiple vertical shafts.
 - **Stairs on 4F:**
-  - (17,0): Leads to 5F (Female Executive Room - Cleared).
-  - (12,0): Unexplored. Possibly leads to Boss?
-  - (9,0): Likely leads down to 3F.
+  - (17,0): Connects to 3F (Right Side).
+  - (12,0): Connects to 5F (Female Executive Room).
+  - (9,0): Likely leads down to 3F (Center).
   - (0,0): Leads to 5F Left (Dead End).
 
 ### Lessons Learned
