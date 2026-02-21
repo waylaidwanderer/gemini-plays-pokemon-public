@@ -1,13 +1,9 @@
 ### Warehouse (Map 3_54)
-- **Status:** Switch 2 turned ON. Puzzle State: 1-1-0 (Sw1 ON, Sw2 ON, Sw3 OFF).
-- **Expectation:** Gate 3 (16,6) should be OPEN.
-- **Plan:** Navigate to Gate 3 via Row 3 to avoid Trap Room at (15,4).
-- **Route:** (10,2) -> (11,3) -> (14,3) -> (16,3) -> (16,6).
-- **Targets:**
-  - Verify Gate 3 Open.
-  - Enter South Warehouse.
-  - Defeat Burglar Duncan (9,12) & Grunt F (19,12).
-  - Find Card Key / Director.
+- **Status:** Switch 2 turned OFF. Puzzle State: 1-0-1 (Sw1 ON, Sw2 OFF, Sw3 ON).
+- **Hypothesis:** 1-0-1 might open the path to the Director.
+- **Plan:** Check Gate 2 (10, 6) and Secret Door (11, 6).
+- **Route:** (10, 2) -> (11, 2) -> (11, 5) -> Check (11, 6).
+- **Goal:** Reach Director.
 
 ### Current Event: Rival Silver
 - Status: Present at (4,8). Blocking path East.
