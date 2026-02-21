@@ -1,8 +1,8 @@
-### Warehouse (Map 3_54) - Turn 51343
+### Warehouse (Map 3_54) - Turn 51348
 ### Status
 - **State:** 1-0-1 (Switch 1 & 3 ON).
-- **Location:** (13, 13).
-- **Goal:** Explore North via (16, 10).
+- **Location:** (18, 12) - Battling Rocket Grunt.
+- **Goal:** Defeat Grunt, then explore North via (16, 10).
 
 ### Switch Log
 - **1-1-1:** Gate 1 OPEN, Inner Gate CLOSED.
@@ -14,8 +14,8 @@
 - **0-0-1 (3 ON):** Gate 1 CLOSED.
 
 ### Plan
-1. Move North through the newly opened corridor at (16, 10).
-2. Expect a battle with the Grunt at (19, 12) or the one further up.
+1. Defeat Rocket Grunt.
+2. Move North through the newly opened corridor at (16, 10).
 3. Find the Director.
 
 ### Key Locations
