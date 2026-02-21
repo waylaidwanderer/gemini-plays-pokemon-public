@@ -61,3 +61,6 @@
 - **Note:** Gate 3 (16, 6) likely CLOSED now.
 - **Observation:** Map tiles changed at (11, 6) and (11, 7) after Switch 1 ON. Suggests Secret Door or Gate opened there.
 - **Observation:** Tile at (6, 8) changed to Walkable (TYPE_3fe2).
+- **Observation:** (12, 8) and (12, 9) closed (TYPE_2889) when (6, 8) opened.
+- **Observation:** Current path leads to an alcove with potential Trap Warps at (10, 9) and (11, 9).
+- **Hypothesis:** 1-2-3 might be wrong, or the "Traps" are progression warps. Testing trap at (10, 9).
