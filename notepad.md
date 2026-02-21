@@ -23,8 +23,7 @@
 
 ### Lessons Learned
 - **Navigation:** Do NOT include 'TYPE_2889' (Walls/Windows) in BFS walkable_types.
-### Battle Update (Turn 51826)
-- **Status:** Vileplume hit by Flame Wheel (Super Effective).
-- **Opponent:** Female Rocket Executive.
-- **Garnet:** 58/165 HP.
-- **Next Step:** Confirm faint, await next Pokemon (likely Houndour).
+### Radio Tower Mission - Turn 51828
+- **Status:** Defeated Female Rocket Executive at (17, 2).
+- **Location:** Radio Tower 5F (Right Side).
+- **Next Goal:** Confront the final Boss (likely further in).
