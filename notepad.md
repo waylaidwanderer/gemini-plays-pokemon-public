@@ -22,3 +22,4 @@
 - Stuck at Card Key slot. 'Use' from menu fails (Oak). Pressing A on slot yields description. Shutter remains closed.
 - Hypothesis: Map glitch or wrong interaction point.
 - Plan: Scan interactables, then refresh map by changing floors.
+- Encountered Rocket Executive on 5F (Turn 52026). Battle imminent.
