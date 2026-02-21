@@ -3,8 +3,8 @@
 - **Goal:** Reach Director (Need Card Key).
 - **Current State:** 1-0-0 (Switch 1 ON, 2 OFF, 3 OFF).
 - **Verified Effects:** Gate 3 (16,6) OPEN. Gate 1 & 2 CLOSED.
-- **Hypothesis:** State 1-0-0 opens Wall at (12,9) or (11,10), allowing access to South Warehouse.
-- **Trigger Hazard:** Avoid (16,8) - stepping on it may close path. Bypass via Col 17.
+- **Observation:** In 1-0-0, Walls at (11,10) and (12,10) are CLOSED.
+- **Plan:** Check (10,9) for traps. Return to Switch 3 to try 1-0-1.
 
 ### Switch Log
 - **1-1-0:** Gate 3 OPEN. Gate 1 CLOSED. Gate 2 CLOSED.
