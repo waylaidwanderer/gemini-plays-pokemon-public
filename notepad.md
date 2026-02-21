@@ -2,8 +2,8 @@
 - **Started:** Turn 52441
 - **Location:** Tin Tower Barrier Station
 - **Goal:** Enter Tin Tower
-- **Status:** Defeated all three Wise Sages (Gaku, Masa, Koji).
-- **Immediate:** Heal team (Revive Garnet), then enter Tin Tower.
+- **Status:** Exited Barrier Station. Navigating outdoor path (Map 4_9) to Tin Tower entrance.
+- **Immediate:** Follow path, keep an eye out for Suicune.
 
 ### Team Rocket Radio Tower Arc (Completed)
 - Defeated Executives & Disbanded Team Rocket.
