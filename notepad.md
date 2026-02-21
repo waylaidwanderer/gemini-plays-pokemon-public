@@ -43,9 +43,10 @@
 - **Action:** Trying to bump/interact with Grunt at (21, 24).
 - **Hypothesis:** Grunt is guarding the real Director behind the wall.
 - **Plan:** Defeat Grunt to clear path.
-- Visual confirmation: Gate 3 (16, 6) is OPEN!
-- Plan: Proceed East through Gate 3 to find the Director.
-- Note: Gate 3 is confirmed open. Moving to investigate the Director's room entrance.
+- **Status:** Testing Gate 3 (16, 6). Visually looks CLOSED (Solid Wall).
+- **Hypothesis:** 1-1-0 did NOT open Gate 3.
+- **Plan:** Bump Gate 3 to confirm. If closed, go to Switch 1 (16, 1).
+- **Goal:** Find correct switch combination (Try 0-1-0 or 1-0-1).
 - **Discovery:** TYPE_2889 is likely a Wall (impassable). Player blocked at (17, 31).
 - **Status:** Exploring Map 3_54 (South Warehouse).
 - **Recent:** Visited 3_53 via stairs at (23, 3), found it empty/confusing. Returned to 3_54.
