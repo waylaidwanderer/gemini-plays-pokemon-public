@@ -33,4 +33,4 @@
 - **Real Director:** (12, 8) in Map 3_56. Gave **CARD KEY**.
 - **West Exit:** Blocked at (5, 12). Needs to be opened.
 - **Fake Tiles:** Visuals that can be walked on. Likely triggers.
-- Verified (18, 15): Walkable, no text. Might be a pressure plate. Checking West Exit now.
+- Verified (18, 15): Walkable. Stepping on it didn't open (5,12). Checking Secret Room (3_55) for changes.
