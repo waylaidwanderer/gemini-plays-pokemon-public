@@ -47,6 +47,9 @@
 - Plan: Proceed East through Gate 3 to find the Director.
 - Note: Gate 3 is confirmed open. Moving to investigate the Director's room entrance.
 - **Discovery:** TYPE_2889 is likely a Wall (impassable). Player blocked at (17, 31).
-- **Situation:** Moving North to investigate the area past the stairs.
-- **Observation:** Mental Map shows "Rocket Grunt" markers at Row 24.
-- **Plan:** Move to (22, 25) to interact with the Grunt or inspect the wall.
+- **Status:** Exploring Map 3_54 (South Warehouse).
+- **Recent:** Visited 3_53 via stairs at (23, 3), found it empty/confusing. Returned to 3_54.
+- **Action:** Pickup Item at (24, 1). Then explore South (Rows 12+).
+- **Target:** Burglar Duncan (9, 12), Grunt F (19, 12).
+- **Goal:** Find Card Key.
+- **Switch State:** 1-1-0 (Sw1 ON, Sw2 ON, Sw3 OFF). Gate 3 Open.
