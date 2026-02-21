@@ -12,7 +12,7 @@
 1. Go North to (16, 2).
 2. Inspect/Enter (17, 2).
 3. If not the right way, loop West/South to get Item at (13, 9).
-### Secret Room (Map 3_55) - Turn 51447
+### Secret Room (Map 3_55) - Turn 51454
 - **Location:** (14, 2). Entered from (17, 2) in Map 3_56.
-- **NPC:** Found a gentleman at (14, 3). Likely the Real Director.
-- **Goal:** Talk to him to get the Card Key.
+- **NPC:** Found a gentleman at (14, 2). Likely the Real Director.
+- **Goal:** Talk to him to get the Card Key. I tried talking from the front but didn't get it yet. Trying from the side.
