@@ -15,3 +15,4 @@
 ### Key Locations
 - **Stairs:** (17, 2)
 - **Duncan:** (17, 3)
+- Found Amulet Coin at (15, 2) in Director's Room (Map 3_55).
