@@ -7,9 +7,11 @@
 - **1-1-1:** Gate 1 OPEN. (Inner Gate 2,10 CLOSED).
 - **0-0-1:** Gate 1, 2, 3 CLOSED.
 - **1-0-1:** Gate 1, 2, 3 CLOSED.
-- **0-1-1:** Gate 2 CLOSED. Gate 3 CLOSED. Trap (10,5) SAFE.
-- **Action:** Move to (2, 5) to check Gate 1.
-- **If Gate 1 Closed:** Try 0-0-0 (All OFF).
+- **0-1-1:** Gate 1 CLOSED. Gate 2 CLOSED. Gate 3 CLOSED.
+- **Action:** Resetting to 0-0-0.
+- **Plan:** Turn OFF Switch 3 (2, 1). Then Turn OFF Switch 2 (10, 1).
+- **Hypothesis:** "Press the end one first" implies a specific order (3 -> 2 -> 1).
+- **Goal:** Execute sequence 3 -> 2 -> 1 starting from 0-0-0.
 
 ### Current Event: Rival Silver
 - Status: Present at (4,8). Blocking path East.
