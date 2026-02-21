@@ -1,8 +1,9 @@
 ### Radio Tower Mission - Turn 51830
-- Status: Proceeding to stairs at (17,0) on 3F.
-- Discovery: The shutter at (15,2) does not block the path to the right. I can simply walk around it to reach the stairs.
-- Disguise: I appear to be disguised as a Rocket Grunt (orange/blue sprite).
-- Goal: Reach 4F/5F via the right-side stairs to find the Real Boss.
+- Status: Arrived on 4F (Right Side).
+- Location: Map 3_20, (17,1).
+- Goal: Ascend to 5F to find the Boss.
+- Navigation: Heading to stairs at (12,0).
+- Structure: 4F is divided by a wall. Right side connects 3F (Right) and 5F (Right?).
 
 ### Radio Tower Structure
 - **Stairs on 3F (3_19):**
