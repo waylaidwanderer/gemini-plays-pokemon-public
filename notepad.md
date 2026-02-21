@@ -21,8 +21,15 @@
 - **Option A:** Walk out via West Exit at (5, 12).
 - **Option B:** If blocked, check Map 3_55 again.
 - **Option C (Failsafe):** Garnet knows **DIG**. I can use it to escape the dungeon if physically trapped.
-### Escape Attempt (Turn 51568)
-- **Location:** Map 3_55 (Secret Room).
-- **Action:** Interaction with wall at (14, 0) with Card Key in inventory.
-- **Contingency:** If this fails, I will attempt to use **Dig** to escape the Underground Path.
-- **Note:** The "Fake Item" at (18, 15) in Map 3_56 is still an unresolved anomaly.
+### Underground Path Escape (Turn 51572)
+- **Status:** **TRAPPED.** The West Exit at (5, 12) closed behind me.
+- **Correction:** Garnet in party does **NOT** have Dig. Escape Rope is not in bag. **I must solve the puzzle to leave.**
+- **Puzzle Hypothesis:**
+  - Tile (14, 1) in Map 3_55 (Fake Director) is a switch?
+  - Tile (18, 15) in Map 3_56 (Fake Item Ball) is a switch?
+  - Action: Step on (18, 15) then check the wall at (5, 12) immediately.
+
+### Critical Info:
+- **Real Director:** (12, 8) in Map 3_56. Gave **CARD KEY**.
+- **West Exit:** Blocked at (5, 12). Needs to be opened.
+- **Fake Tiles:** Visuals that can be walked on. Likely triggers.
