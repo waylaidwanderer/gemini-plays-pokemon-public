@@ -1,0 +1,1 @@
+[Turn 91] Navigating Route 1: Staying in the eastern grass to bypass ledges and trees to safely reach Viridian City for Oak's Parcel.
