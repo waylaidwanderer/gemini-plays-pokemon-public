@@ -16,4 +16,6 @@
 - Turn 53061: On Route 37. Heading North to Ecruteak.
 - **Detour:** Collecting Red Apricorn at (13, 5).
 - **Goal:** Reach Ecruteak Mart for Ultra Balls.
-- Turn 53062: Lass Dana called. Clearing dialogue.
+- Turn 53063: Lass Dana call finished.
+- **Next:** Collect Red Apricorn at (13, 5).
+- **Goal:** Reach Ecruteak Mart for Ultra Balls.
