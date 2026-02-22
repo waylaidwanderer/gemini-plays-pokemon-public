@@ -13,3 +13,5 @@
 - **Goal:** Buy ~20 Ultra Balls.
 - **Next:** Verify Money Decrease.
 - Update: Ecruteak Mart likely lacks Ultra Balls. Relocating to Goldenrod.
+- Issue: No clerks visible on Goldenrod 2F.
+- Plan: Checking 3F. If empty, will exit and re-enter store. If still empty, will fly to Olivine/Violet.
