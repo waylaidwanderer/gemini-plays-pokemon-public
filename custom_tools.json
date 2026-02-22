@@ -118,12 +118,17 @@
       "type": "object",
       "properties": {}
     },
-    "python_script": "import json\n\nbuttons = [\n    \"A\", \"sleep 1000\",\n    \"A\", \"sleep 1000\",\n    \"A\", \"sleep 1000\",\n    \"A\", \"sleep 5000\",\n    \"B\", \"sleep 500\",\n    \"B\", \"sleep 500\",\n    \"B\", \"sleep 500\",\n    \"B\", \"sleep 500\",\n    \"Down\"\n]\n\nprint(json.dumps(buttons))",
+    "python_script": "import json\n\nbuttons = [\n    \"A\", \"sleep 2000\",\n    \"A\", \"sleep 2000\",\n    \"A\", \"sleep 2000\",\n    \"A\", \"sleep 8000\",\n    \"B\", \"sleep 1000\",\n    \"B\", \"sleep 1000\",\n    \"B\", \"sleep 1000\",\n    \"B\", \"sleep 1000\",\n    \"Down\"\n]\n\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2026-02-22T17:34:27.031Z",
         "action_counter": 874
+      },
+      {
+        "commit_message": "Increased sleep intervals to account for text scrolling speed and prevent accidental cancellations.",
+        "timestamp": "2026-02-22T17:46:33.314Z",
+        "action_counter": 894
       }
     ]
   },
