@@ -35,12 +35,17 @@
         "sequence"
       ]
     },
-    "python_script": "def execute(input_data):\n    seq = input_data.get('sequence', '')\n    m = {'U': 'Up', 'D': 'Down', 'L': 'Left', 'R': 'Right', 'A': 'A', 'B': 'B', 'S': 'Start', 'E': 'Select'}\n    return [m[c] for c in seq.upper() if c in m]",
+    "python_script": "import json\nseq = input_data.get('sequence', '')\nm = {'U': 'Up', 'D': 'Down', 'L': 'Left', 'R': 'Right', 'A': 'A', 'B': 'B', 'S': 'Start', 'E': 'Select'}\nres = [m[c] for c in seq.upper() if c in m]\nprint(json.dumps(res))",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2026-02-22T07:50:57.816Z",
         "action_counter": 181
+      },
+      {
+        "commit_message": "Fixed script to print a JSON array instead of returning a python list.",
+        "timestamp": "2026-02-22T07:52:15.016Z",
+        "action_counter": 183
       }
     ]
   }
