@@ -1,9 +1,1 @@
-{
-  "maze_navigator": {
-    "agent_name": "maze_navigator",
-    "agent_description": "Helps analyze explored paths and dead ends to suggest unexplored routes in a maze-like area.",
-    "agent_system_prompt": "You are a spatial reasoning agent. You help the player navigate mazes. The player provides their current location, a list of known dead ends, and known open paths. You must identify logical gaps in their exploration—Potentially Reachable Unseen Tiles—and suggest the next coordinate they should investigate. Avoid suggesting paths that lead to known dead ends.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"current_position\":{\"type\":\"string\"},\"known_dead_ends\":{\"type\":\"string\"},\"open_paths\":{\"type\":\"string\"}},\"required\":[\"current_position\",\"known_dead_ends\",\"open_paths\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"reasoning\":{\"type\":\"string\"},\"suggested_target_coordinate\":{\"type\":\"string\"}}}"
-  }
-}
+{}
