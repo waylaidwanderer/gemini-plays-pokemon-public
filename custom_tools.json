@@ -156,5 +156,37 @@
         "action_counter": 786
       }
     ]
+  },
+  "battle_move_selector": {
+    "description": "Selects a battle move by calculating the exact Up/Down presses needed given the current cursor position and target move position (1-4). Pressing A to confirm is included at the end.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "current_index": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 4,
+          "description": "The current 1-based index of the cursor in the FIGHT menu."
+        },
+        "target_index": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 4,
+          "description": "The 1-based index of the move you want to use."
+        }
+      },
+      "required": [
+        "current_index",
+        "target_index"
+      ]
+    },
+    "python_script": "import json\n\ncurrent = int(input_data['current_index'])\ntarget = int(input_data['target_index'])\nbuttons = []\n\ndiff = target - current\nif diff > 0:\n    buttons.extend(['Down'] * diff)\nelif diff < 0:\n    buttons.extend(['Up'] * abs(diff))\n\nbuttons.append('A')\nprint(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-02-22T17:20:15.100Z",
+        "action_counter": 842
+      }
+    ]
   }
 }
