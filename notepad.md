@@ -21,6 +21,6 @@
 - Turn 53011: Successfully accessed Fly menu. Selecting Ecruteak City next.
 - **Goal:** Fly to Ecruteak to buy Ultra Balls and continue quest.
 - **Mechanic:** `bfs_navigate` does not guarantee facing direction. Always explicitly face the target before interacting.
-- Turn 53019: Selecting Topaz (A) and attempting to select Fly (A). Pausing to verify Map screen opens before navigating.
-- **Goal:** Fly to Ecruteak to buy Ultra Balls and continue quest.
+- Turn 53020: Flying to Ecruteak City.
+- **Goal:** Buy Ultra Balls (Ecruteak Mart), Return to Tin Tower.
 - **Mechanic:** `bfs_navigate` does not guarantee facing direction. Always explicitly face the target before interacting.
