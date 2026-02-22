@@ -16,5 +16,4 @@ Pewter Gym: Rock type. Use Squirtle's Bubble.
 - Grinding Start: Turn 415
 
 [Strategy & Boundaries]
-- Catching: Use Lv3 Rattata's Tackle on Lv4 bugs to avoid KOs. (Out of Poke Balls currently).
 - Viridian Forest Boundaries: Western edge (y=40+) is a dead end. Left/Middle paths (y=30-33) are blocked North. Path MUST be a gap going North on the Eastern side (x=12 to 18) of the y=33 corridor.

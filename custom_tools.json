@@ -141,33 +141,5 @@
         "action_counter": 451
       }
     ]
-  },
-  "type_matchup": {
-    "description": "Calculates Gen 1 specific type matchup multipliers (including quirks like Ghost dealing 0x to Psychic).",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "atk_type": {
-          "type": "string",
-          "description": "Attacking move type (e.g., 'WATER')"
-        },
-        "def_type": {
-          "type": "string",
-          "description": "Defending Pokemon type (e.g., 'ROCK')"
-        }
-      },
-      "required": [
-        "atk_type",
-        "def_type"
-      ]
-    },
-    "python_script": "matchups = {\n    'NORMAL': {'ROCK': 0.5, 'GHOST': 0},\n    'FIGHTING': {'NORMAL': 2, 'FLYING': 0.5, 'POISON': 0.5, 'ROCK': 2, 'BUG': 0.5, 'GHOST': 0, 'PSYCHIC': 0.5, 'ICE': 2},\n    'FLYING': {'FIGHTING': 2, 'ROCK': 0.5, 'BUG': 2, 'GRASS': 2, 'ELECTRIC': 0.5},\n    'POISON': {'POISON': 0.5, 'GROUND': 0.5, 'ROCK': 0.5, 'BUG': 2, 'GHOST': 0.5, 'GRASS': 2},\n    'GROUND': {'FLYING': 0, 'POISON': 2, 'ROCK': 2, 'BUG': 0.5, 'FIRE': 2, 'GRASS': 0.5, 'ELECTRIC': 2},\n    'ROCK': {'FIGHTING': 0.5, 'FLYING': 2, 'GROUND': 0.5, 'BUG': 2, 'FIRE': 2, 'ICE': 2},\n    'BUG': {'FIGHTING': 0.5, 'FLYING': 0.5, 'POISON': 2, 'GHOST': 0.5, 'FIRE': 0.5, 'GRASS': 2, 'PSYCHIC': 2},\n    'GHOST': {'NORMAL': 0, 'PSYCHIC': 0, 'GHOST': 2},\n    'FIRE': {'ROCK': 0.5, 'BUG': 2, 'WATER': 0.5, 'GRASS': 2, 'ICE': 2, 'DRAGON': 0.5},\n    'WATER': {'GROUND': 2, 'ROCK': 2, 'FIRE': 2, 'WATER': 0.5, 'GRASS': 0.5, 'DRAGON': 0.5},\n    'GRASS': {'FLYING': 0.5, 'POISON': 0.5, 'GROUND': 2, 'ROCK': 2, 'BUG': 0.5, 'FIRE': 0.5, 'WATER': 2, 'GRASS': 0.5, 'DRAGON': 0.5},\n    'ELECTRIC': {'FLYING': 2, 'GROUND': 0, 'WATER': 2, 'GRASS': 0.5, 'ELECTRIC': 0.5, 'DRAGON': 0.5},\n    'PSYCHIC': {'FIGHTING': 2, 'POISON': 2, 'PSYCHIC': 0.5},\n    'ICE': {'FLYING': 2, 'GROUND': 2, 'WATER': 0.5, 'GRASS': 2, 'ICE': 0.5, 'DRAGON': 2},\n    'DRAGON': {'DRAGON': 2}\n}\natk = input_data.get('atk_type', '').upper()\ndef_type = input_data.get('def_type', '').upper()\nmult = matchups.get(atk, {}).get(def_type, 1.0)\nprint(f\"Gen 1 Matchup: {atk} vs {def_type} = {mult}x damage.\")",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-02-22T13:57:41.467Z",
-        "action_counter": 622
-      }
-    ]
   }
 }
