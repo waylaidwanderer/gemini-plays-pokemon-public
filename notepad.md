@@ -75,3 +75,10 @@ Execution Plan:
 - "But, it failed!" refers to the move just executed by the current Pokemon (e.g., an enemy's stat-dropping move failing because the stat can't go lower, or Gen 1 AI quirks). It does NOT mean the player's previous attack missed.
 
 <hr>
+
+<h1><code>Locations/PewterCity</code></h1>
+
+[Points of Interest]
+- Pokemon Center: (13, 25)
+
+<hr>
