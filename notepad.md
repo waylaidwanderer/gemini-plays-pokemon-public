@@ -9,4 +9,6 @@
 ### Current Quest: Investigate Tin Tower
 - **Location:** Cherrygrove City (29, 5)
 - **Goal:** Buy Ultra Balls (Ecruteak Mart), Return to Tin Tower.
-- Turn 53046: Arnie (Bug Catcher) called immediately upon landing in Violet. Clearing dialogue.
+- Turn 53046: Arnie called. Clearing dialogue.
+- **Next:** Check Violet Mart (9, 17) for Ultra Balls.
+- **Contingency:** If no Ultra Balls, walk West to Ecruteak via Route 36.
