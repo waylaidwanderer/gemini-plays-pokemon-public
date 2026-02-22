@@ -8,5 +8,6 @@
 - **Location:** Route 37 (7, 4)
 - **Goal:** Buy Ultra Balls (Ecruteak Mart).
 - **Status:** Collected Red/Blue/Black Apricorns. Encountered Noctowl.
-- Turn 53088: Realized Map 4_6 was likely the Mart, not the Gym. Re-entering Ecruteak Mart (29, 21).
-- **Goal:** Buy Ultra Balls.
+- Turn 53089: Inside Ecruteak Mart. Moving to counter to buy Ultra Balls.
+- **Goal:** Buy ~20 Ultra Balls (have ¥32969).
+- **Next:** Exit and head to Tin Tower.
