@@ -1,27 +1,11 @@
+### Reflection (Turn 53026)
+- **Progress:** Healed at Cherrygrove. Now attempting to Fly to Ecruteak from (29, 5).
+- **Lessons:**
+    - Tile (29, 4) in front of PC is "indoors". Must step off to Fly.
+    - Menu navigation requires patience or precise sequences.
+    - `bfs_navigate` needs explicit facing updates for interactions.
+- **Plan:** Fly -> Ecruteak -> Mart -> Tin Tower.
+
 ### Current Quest: Investigate Tin Tower
-- **Started:** Turn 52441
-- **Location:** Cherrygrove City
+- **Location:** Cherrygrove City (29, 5)
 - **Goal:** Buy Ultra Balls (Ecruteak Mart), Return to Tin Tower.
-- **Status:** Party healed. Flying to Ecruteak.
-
-### Future Goals
-- **Tin Tower:** Investigate with Clear Bell.
-- **Radio Tower:** Return later to scan for items.
-- Route 37 Nav: Apricorn grove is a dead-end. Backtrack South to Row 16 to cross to the West side for the path to Ecruteak.
-
-### Reflection (Turn 52922)
-- **Stuck:** The door at (20,2) is refusing to warp me.
-- **Action:** Using Fly to bypass the door and heal.
-- **Lesson:** Verify walkable tile types on screen before using BFS. Map 4_9 trees are TYPE_2889/TYPE_3fe2, path is TYPE_ffbe.
-- Turn 52928: Accidentally flew to Violet City instead of Ecruteak. Healing here instead.
-- **Mechanic:** `bfs_navigate` does not guarantee facing direction. Always explicitly face the target before interacting.
-- Turn 52994: Healed Party at Cherrygrove Center.
-- **Goal:** Fly to Ecruteak to buy Ultra Balls and continue quest.
-- **Mechanic:** `bfs_navigate` does not guarantee facing direction. Always explicitly face the target before interacting.
-- Turn 53011: Successfully accessed Fly menu. Selecting Ecruteak City next.
-- **Goal:** Fly to Ecruteak to buy Ultra Balls and continue quest.
-- **Mechanic:** `bfs_navigate` does not guarantee facing direction. Always explicitly face the target before interacting.
-- Turn 53025: "FLY" option missing from Topaz's menu at (29, 4). This tile is likely considered 'indoors/covered'.
-- **Action:** Backing out of menus (B, B, B) and moving Down to (29, 5).
-- **Next:** Open Menu -> Pokemon -> Topaz -> Fly.
-- **Mechanic:** Inputs during transitions are often eaten. Splitting complex menu sequences prevents this.
