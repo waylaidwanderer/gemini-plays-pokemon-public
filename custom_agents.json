@@ -1,9 +1,1 @@
-{
-  "combat_analyzer": {
-    "agent_name": "combat_analyzer",
-    "agent_description": "Analyzes type matchups and provides a brief strategy for Gen 1 Pokemon battles.",
-    "agent_system_prompt": "You are a Gen 1 Pokemon combat expert. Given the player's Pokemon type and the enemy's type, evaluate the matchup and suggest a brief strategy based strictly on Gen 1 mechanics.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"player_type\":{\"type\":\"string\"},\"enemy_type\":{\"type\":\"string\"}},\"required\":[\"player_type\",\"enemy_type\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"advantage\":{\"type\":\"string\"},\"strategy\":{\"type\":\"string\"}},\"required\":[\"advantage\",\"strategy\"]}"
-  }
-}
+{}
