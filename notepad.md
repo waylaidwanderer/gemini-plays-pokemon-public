@@ -21,6 +21,7 @@
 - Turn 53011: Successfully accessed Fly menu. Selecting Ecruteak City next.
 - **Goal:** Fly to Ecruteak to buy Ultra Balls and continue quest.
 - **Mechanic:** `bfs_navigate` does not guarantee facing direction. Always explicitly face the target before interacting.
-- Turn 53023: Opening Party Menu (Start -> Down -> A).
-- **Goal:** Select Topaz -> Fly -> Ecruteak.
+- Turn 53024: Selected Topaz in Party Menu.
+- **Next:** Select 'Fly' from the context menu (should be first option).
+- **Goal:** Fly to Ecruteak to buy Ultra Balls and continue quest.
 - **Mechanic:** Inputs during transitions are often eaten. Splitting complex menu sequences prevents this.
