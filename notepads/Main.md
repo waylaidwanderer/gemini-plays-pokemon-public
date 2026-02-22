@@ -16,4 +16,4 @@ Pewter Gym: Rock type. Use Squirtle's Bubble.
 - Grinding Start: Turn 415
 
 [Strategy & Boundaries]
-- Viridian Forest Boundaries: Map may be wider than x=20! Middle/Left paths (y=30-33) are blocked North. I must return to the entrance (17, 47) and explore the FAR RIGHT (x>18) for a path around the trees.
+- Viridian Forest Boundaries: Path North found! It's a narrow 1-tile gap at x=25. Tiles at x>=26 appear as grass but act as solid map boundaries.
