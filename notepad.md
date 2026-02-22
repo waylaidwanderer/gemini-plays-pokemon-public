@@ -9,7 +9,8 @@
 ### Current Quest: Investigate Tin Tower
 - **Location:** Cherrygrove City (29, 5)
 - **Goal:** Buy Ultra Balls (Ecruteak Mart), Return to Tin Tower.
-- Turn 53048: Navigating to Violet Mart (9, 17).
+- Turn 53050: Retrying navigation to Violet Mart (9, 17).
+- **Issue:** Previous movement sequence interrupted or incomplete.
 - **Route:** Up to Row 18, then Left to x=9.
 - **Walkable Types:** `TYPE_3fe2` (floor), `TYPE_a336` (bridge).
 - **Contingency:** If Mart lacks Ultra Balls, head West to Ecruteak via Route 36.
