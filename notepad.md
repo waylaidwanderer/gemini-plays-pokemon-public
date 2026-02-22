@@ -1,8 +1,8 @@
 ### Current Quest: Investigate Tin Tower
 - **Started:** Turn 52441
-- **Location:** Violet City Pokemon Center
-- **Goal:** Heal Party, Buy Ultra Balls (Violet Mart), Return to Ecruteak.
-- **Status:** Accidentally flew to Violet City. Healing here.
+- **Location:** Cherrygrove City
+- **Goal:** Buy Ultra Balls (Ecruteak Mart), Return to Tin Tower.
+- **Status:** Party healed. Flying to Ecruteak.
 
 ### Future Goals
 - **Tin Tower:** Investigate with Clear Bell.
