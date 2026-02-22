@@ -13,7 +13,6 @@
 - **Action:** Defeating him to clear the path.
 - **Next:** Continue West to X=31, then North to Route 37.
 - **Goal:** Reach Ecruteak Mart for Ultra Balls.
-- Turn 53058: Discovered player at (40, 4) (Grass) instead of (31, 5) (Road).
-- **Hypothesis:** Previous navigation diverted or map assumptions incorrect.
-- **Action:** Navigating South to Row 9 (Road), then West to X=31, then North to (31, 0).
+- Turn 53060: Entering Route 37 from Route 36 (31, 0).
+- **Next:** Traverse Route 37 North to Ecruteak City.
 - **Goal:** Reach Ecruteak Mart for Ultra Balls.
