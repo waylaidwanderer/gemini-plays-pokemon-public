@@ -1,10 +1,19 @@
 <h1><code>Main</code></h1>
 
-[Turn 259 Reflection]
-- Progress: Acquired Town Map, navigated to Viridian City, bought 10 Poke Balls, and reached Route 22. Now entering my first wild battle with Poke Balls!
-- Tool Ideas: 1. catch_routine (bag nav) 2. damage_calc (damage estimation) 3. heal_spam (center nav) 4. box_manager (PC nav) 5. status_check. I'm currently satisfied with move_sequence, shop_buyer, and type_matchup_agent.
-- Goal Clarity: High. Catching wild Pokemon to build the team.
-- Error Analysis: Realized map exits require specific tile positioning, not just directional movement against the wall. No major blockers.
+[Team Status]
+1. HYDRO (SQUIRTLE) Lv8 | TACKLE, TAIL WHIP, BUBBLE
+2. CHIP (RATTATA) Lv3 | TACKLE, TAIL WHIP
+3. CLEO (NIDORAN F) Lv4 | GROWL, TACKLE
+
+[Location Encounters]
+Route 22 (Blue Version):
+- Rattata
+- Nidoran F
+
+[Current Goals]
+- Head to Viridian Forest and then Pewter City.
+- Train team along the way.
+- Avoid wasting time looking for version exclusives (like Mankey).
 
 <hr>
 
