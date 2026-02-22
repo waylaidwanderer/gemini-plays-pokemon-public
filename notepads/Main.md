@@ -16,5 +16,4 @@ Pewter Gym: Rock type. Use Squirtle's Bubble.
 - Grinding Start: Turn 415
 
 [Strategy & Boundaries]
-- Viridian Forest Boundaries: The entire far right side (x>17) is a dead end. I reached the top right corner at (16, 1) and found no path west. Must backtrack to the entrance (17, 47) and explore the left side (x<17) to progress.
-- Survival: Healed Hydro's poison with an Antidote. Remaining HP is 12/31. Fleeing all encounters to conserve HP while backtracking.
+- Viridian Forest Boundaries: Reached top right corner at (16, 1) (Dead End). Need to systematically map tree lines instead of assuming entire areas are blocked.
