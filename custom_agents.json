@@ -1,9 +1,1 @@
-{
-  "battle_analyzer": {
-    "agent_name": "battle_analyzer",
-    "agent_description": "Analyzes Pokémon battle situations, type matchups, and recommends the best move or action based on Gen 1 mechanics.",
-    "agent_system_prompt": "You are an expert in Generation 1 Pokémon battle mechanics. Given the player's current Pokémon, its types, available moves, and the opponent's Pokémon (and its type), you must evaluate type effectiveness, STAB (Same Type Attack Bonus), and base power to recommend the optimal move. Remember Gen 1 specific quirks (e.g., Ghost does not affect Psychic due to a bug, Wrap/Bind trap the opponent). Provide a concise reasoning for your choice.",
-    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"my_pokemon\": {\"type\": \"string\"}, \"my_type\": {\"type\": \"string\"}, \"my_moves\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}, \"enemy_pokemon\": {\"type\": \"string\"}, \"enemy_type\": {\"type\": \"string\"}}, \"required\": [\"my_pokemon\", \"my_moves\", \"enemy_pokemon\"]}",
-    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"recommended_move\": {\"type\": \"string\"}, \"reasoning\": {\"type\": \"string\"}}, \"required\": [\"recommended_move\", \"reasoning\"]}"
-  }
-}
+{}
