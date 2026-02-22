@@ -5,3 +5,6 @@
 [Trainer Teams]
 - Bug Catcher (10,6): Caterpie (Lv10), Weedle (Lv10), Caterpie (Lv10)
 - Lass (15,9): Pidgey (Lv9), Pidgey (Lv9)
+[Trainers]
+- Bug Catcher (19, 5): Weedle (Lv 9), Kakuna (Lv 9), Metapod (Lv 9)
+- Lass (near 19, 4): Rattata (Lv 10), [Pending]
