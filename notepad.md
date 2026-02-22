@@ -1,28 +1,25 @@
 <h1><code>Main</code></h1>
 
 [Location Encounters]
-Route 22:
-- Rattata
-- Nidoran F
-Viridian Forest:
-- Caterpie
+Route 22: Rattata, Nidoran F
+Viridian Forest: Caterpie
 
 [Gym Strategy]
-- Pewter City Gym: Rock type. Use Squirtle's Bubble.
+Pewter Gym: Rock type. Use Squirtle's Bubble.
 
 [Tile Mechanics]
-- TYPE_2889: Solid obstacles (trees, fences)
+- TYPE_2889: Impassable tree/solid obstacle
 - TYPE_44f6: One-way ledge (jump down only)
 - TYPE_fed7: Walkable tall grass
 - TYPE_3fe2: Walkable normal grass
 
 [Timestamps]
-- Turn 339: Entered Viridian Forest. (Navigation time: >200 turns).
+- Start Turn: 339 (Entered Viridian Forest navigation task)
+- Grinding Start: Turn 415
 
-[Catching Strategy]
-- Switch to Lv3 Rattata to use Tackle on Lv4 bugs to avoid KOs.
-- Turn 415: Caught Caterpie (Cabbage) and Nidoran F (Cleo). Switching Cleo to lead for training. (Grinding Start: Turn 415)
-- Viridian Forest Boundaries: x=2 to x=10 at y=29 is solid trees. The corridor at y=33 is a dead end at x=18. Must map remaining obstacles systematically.
+[Strategy & Boundaries]
+- Catching: Use Lv3 Rattata's Tackle on Lv4 bugs to avoid KOs. (Out of Poke Balls currently).
+- Viridian Forest Boundaries: x=2 to x=10 at y=29 is solid trees. The corridor at y=33 is a dead end at x=18. Mapping eastern edge now.
 
 <hr>
 
