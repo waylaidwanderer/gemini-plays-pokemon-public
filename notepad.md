@@ -18,6 +18,6 @@
 - Turn 52994: Healed Party at Cherrygrove Center.
 - **Goal:** Fly to Ecruteak to buy Ultra Balls and continue quest.
 - **Mechanic:** `bfs_navigate` does not guarantee facing direction. Always explicitly face the target before interacting.
-- Turn 53006: Stuck in Item Toss menu. Resetting to Overworld to retry Fly sequence from scratch.
+- Turn 53011: Successfully accessed Fly menu. Selecting Ecruteak City next.
 - **Goal:** Fly to Ecruteak to buy Ultra Balls and continue quest.
 - **Mechanic:** `bfs_navigate` does not guarantee facing direction. Always explicitly face the target before interacting.
