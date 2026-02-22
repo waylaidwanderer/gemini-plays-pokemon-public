@@ -2,8 +2,8 @@
 Route 22: Rattata, Nidoran F
 Viridian Forest: Caterpie
 
-[Gym Strategy]
-Pewter Gym: Rock type. Use Squirtle's Bubble.
+[Team Milestones]
+- HYDRO (Squirtle) reached Lv15, learned Water Gun (replaced Bubble).
 
 [Tile Mechanics]
 - TYPE_2889: Impassable tree/solid obstacle
