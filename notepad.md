@@ -19,6 +19,6 @@
 - Turn 53063: Lass Dana call finished.
 - **Next:** Collect Red Apricorn at (13, 5).
 - **Goal:** Reach Ecruteak Mart for Ultra Balls.
-- Turn 53065: In battle with Spinarak. Running (B -> Down -> Right -> A).
+- Turn 53066: Ran away safely from Spinarak. Clearing text.
 - **Next:** Collect Red Apricorn at (13, 5).
 - **Goal:** Reach Ecruteak Mart for Ultra Balls.
