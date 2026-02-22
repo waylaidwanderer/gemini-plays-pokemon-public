@@ -21,7 +21,6 @@
 - Turn 53011: Successfully accessed Fly menu. Selecting Ecruteak City next.
 - **Goal:** Fly to Ecruteak to buy Ultra Balls and continue quest.
 - **Mechanic:** `bfs_navigate` does not guarantee facing direction. Always explicitly face the target before interacting.
-- Turn 53022: Stuck in Pokedex. Pressing B to exit to Overworld.
-- **Step 1:** Exit all menus (B, B, B).
-- **Step 2:** Open Start Menu -> Pokemon -> Topaz -> Fly.
+- Turn 53023: Opening Party Menu (Start -> Down -> A).
+- **Goal:** Select Topaz -> Fly -> Ecruteak.
 - **Mechanic:** Inputs during transitions are often eaten. Splitting complex menu sequences prevents this.
