@@ -15,6 +15,6 @@
 - **Lesson:** Verify walkable tile types on screen before using BFS. Map 4_9 trees are TYPE_2889/TYPE_3fe2, path is TYPE_ffbe.
 - Turn 52928: Accidentally flew to Violet City instead of Ecruteak. Healing here instead.
 - **Mechanic:** `bfs_navigate` does not guarantee facing direction. Always explicitly face the target before interacting.
-- Turn 52991: Entered Cherrygrove Pokemon Center.
-- **Goal:** Heal Party here, then Fly to Ecruteak to buy Ultra Balls and continue quest.
+- Turn 52994: Healed Party at Cherrygrove Center.
+- **Goal:** Fly to Ecruteak to buy Ultra Balls and continue quest.
 - **Mechanic:** `bfs_navigate` does not guarantee facing direction. Always explicitly face the target before interacting.
