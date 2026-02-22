@@ -6,12 +6,12 @@
 
 <h1><code>Quests/Main</code></h1>
 
-[Turn 146] Active Quest: Deliver Oak's Parcel.
+[Turn 201] Active Quest: Complete the Pokedex & Become Champion.
 Execution Plan:
-1. Navigate south through Route 1, avoiding unnecessary wild battles to save Hydro's HP.
-2. Utilize 1-way ledges (TYPE_44f6) as downward shortcuts.
-3. Arrive at Pallet Town and navigate to Professor Oak's Lab in the southeast.
-4. Talk to Professor Oak to trigger the parcel delivery event.
+1. Visit Gary's sister (Daisy) in the house next to mine in Pallet Town to get a Town Map.
+2. Head north to Viridian City and beyond.
+3. Explore new routes (Route 22, Route 2) to catch new Pokemon.
+4. Navigate Viridian Forest to reach Pewter City for the first Gym Badge.
 
 <hr>
 
