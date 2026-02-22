@@ -4,9 +4,6 @@
 Route 22: Rattata, Nidoran F
 Viridian Forest: Caterpie
 
-[Team Milestones]
-- HYDRO (Squirtle) reached Lv15, learned Water Gun (replaced Bubble).
-
 [Tile Mechanics]
 - TYPE_2889: Impassable tree/solid obstacle
 - TYPE_44f6: One-way ledge (jump down only)

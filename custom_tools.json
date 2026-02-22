@@ -213,5 +213,26 @@
         "action_counter": 451
       }
     ]
+  },
+  "safe_mash_b": {
+    "description": "Mashes the B button a specified number of times to safely advance text while automatically cancelling any unexpected Yes/No prompts (like switching Pokemon).",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "times": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 100
+        }
+      }
+    },
+    "python_script": "def safe_mash_b(input_data):\n    times = input_data.get('times', 5)\n    return ['B'] * times",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-02-22T20:27:24.394Z",
+        "action_counter": 1171
+      }
+    ]
   }
 }
