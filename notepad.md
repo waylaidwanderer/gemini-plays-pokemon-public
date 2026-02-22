@@ -5,7 +5,7 @@ Route 22:
 - Rattata
 - Nidoran F
 Viridian Forest:
-- 
+- Caterpie
 
 [Gym Strategy]
 - Pewter City Gym: Rock type. Use Squirtle's Bubble.
