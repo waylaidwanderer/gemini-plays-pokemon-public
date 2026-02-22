@@ -1,8 +1,7 @@
-### Reflection (Turn 53078)
-- **Progress:** Healed at Cherrygrove. Failed to Fly to Ecruteak (nav error), so walked via Route 36/37. Collected Apricorns.
-- **Hygiene:** Consolidating travel logs to reduce clutter.
-- **Goal:** Ecruteak Mart is the immediate priority.
-- **Plan:** Run -> Enter Ecruteak -> Buy Balls -> Tin Tower.
+### Reflection (Turn 53128)
+- **Progress:** Arrived at Goldenrod Dept Store 2F to buy Ultra Balls after Ecruteak failed.
+- **Goal:** Buy ~20 Ultra Balls from the top cashier.
+- **Next:** Return to Tin Tower.
 
 ### Current Quest: Investigate Tin Tower
 - **Location:** Route 37 (7, 4)
