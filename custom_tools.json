@@ -226,12 +226,17 @@
         }
       }
     },
-    "python_script": "def safe_mash_b(input_data):\n    times = input_data.get('times', 5)\n    return ['B'] * times",
+    "python_script": "import json\ntimes = input_data.get('times', 5)\nprint(json.dumps(['B'] * times))",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2026-02-22T20:27:24.394Z",
         "action_counter": 1171
+      },
+      {
+        "commit_message": "Fixed missing print statement for JSON output",
+        "timestamp": "2026-02-22T20:40:47.147Z",
+        "action_counter": 1188
       }
     ]
   }
