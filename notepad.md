@@ -10,10 +10,9 @@ Route 22 (Blue Version):
 - Rattata
 - Nidoran F
 
-[Current Goals]
-- Head to Viridian Forest and then Pewter City.
-- Train team along the way.
-- Avoid wasting time looking for version exclusives (like Mankey).
+[Tile Mechanics]
+- TYPE_2889: Solid obstacles (trees, fences)
+- TYPE_44f6: One-way ledge (jump down only)
 
 [Timestamps]
 - Turn 311: Started journey north to Viridian Forest and Pewter City.
