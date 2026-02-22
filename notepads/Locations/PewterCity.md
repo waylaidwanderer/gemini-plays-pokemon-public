@@ -10,6 +10,6 @@
 [Pewter Gym Trainers]
 - Jr. Trainer (at entrance): Lv 11 Diglett, Lv 11 Sandshrew
 [Navigation Notes]
-- The path between the Pokemon Center and the Gym is blocked by a central line of trees at y=21.
-- To travel between them, you must use the gap on the FAR RIGHT side of town (x=19). 
-- Route: PC (13,26) -> Right to x=19 -> Up to y=13 -> Left to x=16 -> Down to Gym (16,17).
+- The Gym is at (16, 17).
+- The main path between the Pokemon Center and the Gym is on the LEFT side of town (around x=11).
+- I previously hallucinated a tree blocking this left path; it is fully open.
