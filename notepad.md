@@ -15,4 +15,4 @@
 - **Tin Tower:** Investigate with Clear Bell.
 - **Radio Tower:** Return later to scan for items.
 - Route 37 Nav: Apricorn grove is a dead-end. Backtrack South to Row 16 to cross to the West side for the path to Ecruteak.
-- Turn 52804: Ran out of balls vs Suicune. Attempting tactical wipe (fainting) to reset encounter.
+- Turn 52804: Ran out of balls vs Suicune. Attempting tactical wipe (fainting) to reset encounter. Hypothesis: Wiping interrupts the map script before the 'Suicune Gone' flag is set, allowing a retry.
