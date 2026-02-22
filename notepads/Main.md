@@ -16,4 +16,4 @@ Pewter Gym: Rock type. Use Squirtle's Bubble.
 - Grinding Start: Turn 415
 
 [Strategy & Boundaries]
-- Viridian Forest Boundaries: Path North found! It's a narrow 1-tile gap at x=25. Tiles at x>=26 appear as grass but act as solid map boundaries.
+- Viridian Forest Boundaries: Navigating the far right side. Reached x=26, previous assumptions about x>=26 being solid were incorrect.
