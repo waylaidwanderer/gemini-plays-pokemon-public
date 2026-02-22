@@ -1,14 +1,14 @@
 <h1><code>Main</code></h1>
 
-[Team Status]
-1. HYDRO (SQUIRTLE) Lv8 | TACKLE, TAIL WHIP, BUBBLE
-2. CHIP (RATTATA) Lv3 | TACKLE, TAIL WHIP
-3. CLEO (NIDORAN F) Lv4 | GROWL, TACKLE
-
 [Location Encounters]
-Route 22 (Blue Version):
+Route 22:
 - Rattata
 - Nidoran F
+Viridian Forest:
+- 
+
+[Gym Strategy]
+- Pewter City Gym: Rock type. Use Squirtle's Bubble.
 
 [Tile Mechanics]
 - TYPE_2889: Solid obstacles (trees, fences)
