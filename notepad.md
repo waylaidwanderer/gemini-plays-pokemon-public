@@ -89,8 +89,9 @@ Execution Plan:
 [Pewter Gym Trainers]
 - Jr. Trainer (at entrance): Lv 11 Diglett, Lv 11 Sandshrew
 [Navigation Notes]
-- The Gym is at (16, 17).
-- The main path between the Pokemon Center and the Gym is on the LEFT side of town (around x=11).
-- I previously hallucinated a tree blocking this left path; it is fully open.
+- Gym door (16, 17) MUST be approached from below (y=18).
+- South path to Gym is blocked by trees at y=21. East path blocked by signs at x=18.
+- From PC (13,25) to Gym: Up to y=18, Right to x=16, Up to door.
+- From East (Mart) to Gym: Up to y=13, Left over Gym to x=14, Down to y=18, Right to door.
 
 <hr>
