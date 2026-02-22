@@ -15,6 +15,9 @@ Route 22 (Blue Version):
 - Train team along the way.
 - Avoid wasting time looking for version exclusives (like Mankey).
 
+[Timestamps]
+- Turn 311: Started journey north to Viridian Forest and Pewter City.
+
 <hr>
 
 <h1><code>Quests/Main</code></h1>
