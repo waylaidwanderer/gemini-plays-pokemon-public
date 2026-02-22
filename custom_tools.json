@@ -188,5 +188,20 @@
         "action_counter": 842
       }
     ]
+  },
+  "pokemon_center_healer": {
+    "description": "Automates the healing dialogue at a Pokemon Center, carefully pressing A to navigate the menus and waiting for the healing animation, then pressing B to exit and Down to step away, avoiding accidental dialogue loops.",
+    "input_schema": {
+      "type": "object",
+      "properties": {}
+    },
+    "python_script": "import json\n\nbuttons = [\n    \"A\", \"sleep 1000\",\n    \"A\", \"sleep 1000\",\n    \"A\", \"sleep 1000\",\n    \"A\", \"sleep 5000\",\n    \"B\", \"sleep 500\",\n    \"B\", \"sleep 500\",\n    \"B\", \"sleep 500\",\n    \"B\", \"sleep 500\",\n    \"Down\"\n]\n\nprint(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-02-22T17:34:27.031Z",
+        "action_counter": 874
+      }
+    ]
   }
 }
