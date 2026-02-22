@@ -25,6 +25,10 @@
 - Encounters: Clefairy (Trainer), Zubat (Expected)
 [Inventory Items]
 - TM34: BIDE (Received from Brock)
+[Map Boundaries - Mt. Moon B1F]
+- Blocked at X=23, X=28 (around Y=17-25).
+- Pathing: To navigate south from entry (25,15), stay between X=24 and X=27.
+- Found ladder at (21, 17) (currently unreachable from current path).
 
 <hr>
 
