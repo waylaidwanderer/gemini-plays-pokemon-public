@@ -21,6 +21,6 @@
 - Turn 53011: Successfully accessed Fly menu. Selecting Ecruteak City next.
 - **Goal:** Fly to Ecruteak to buy Ultra Balls and continue quest.
 - **Mechanic:** `bfs_navigate` does not guarantee facing direction. Always explicitly face the target before interacting.
-- Turn 53017: Repositioning to tile (29, 5) to ensure valid Fly location, then initiating Fly sequence.
+- Turn 53018: Correcting menu navigation. Backing out of accidental Item usage, resetting Start Menu cursor (Up/Up/Down), then selecting Topaz -> Fly -> Ecruteak.
 - **Goal:** Fly to Ecruteak to buy Ultra Balls and continue quest.
 - **Mechanic:** `bfs_navigate` does not guarantee facing direction. Always explicitly face the target before interacting.
