@@ -15,3 +15,4 @@
 - **Lesson:** Verify walkable tile types on screen before using BFS. Map 4_9 trees are TYPE_2889/TYPE_3fe2, path is TYPE_ffbe.
 - Turn 52928: Accidentally flew to Violet City instead of Ecruteak. Healing here instead.
 - **Mechanic:** `bfs_navigate` does not guarantee facing direction. Always explicitly face the target before interacting.
+- Turn 52984: Violet City Nurse Joy appears to be missing or unresponsive. Abandoning heal attempt here. Flying to Ecruteak to heal and continue quest.
