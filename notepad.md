@@ -13,7 +13,7 @@
 - **Action:** Defeating him to clear the path.
 - **Next:** Continue West to X=31, then North to Route 37.
 - **Goal:** Reach Ecruteak Mart for Ultra Balls.
-- Turn 53057: Battle did not trigger (Psychic Mark didn't spot me or I wasn't facing him).
-- **Action:** Ignoring him and continuing West to X=31.
-- **Route:** West on Route 36 -> North to Route 37.
+- Turn 53058: Discovered player at (40, 4) (Grass) instead of (31, 5) (Road).
+- **Hypothesis:** Previous navigation diverted or map assumptions incorrect.
+- **Action:** Navigating South to Row 9 (Road), then West to X=31, then North to (31, 0).
 - **Goal:** Reach Ecruteak Mart for Ultra Balls.
