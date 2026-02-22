@@ -17,3 +17,4 @@ Pewter Gym: Rock type. Use Squirtle's Bubble.
 
 [Strategy & Boundaries]
 - Viridian Forest Boundaries: Navigating the far right side. Reached x=26, previous assumptions about x>=26 being solid were incorrect.
+- Survival: Found an Antidote at (25, 14)! Priority shifted from panic rushing to safely healing Hydro and proceeding carefully.
