@@ -19,6 +19,6 @@
 - Turn 53063: Lass Dana call finished.
 - **Next:** Collect Red Apricorn at (13, 5).
 - **Goal:** Reach Ecruteak Mart for Ultra Balls.
-- Turn 53068: Text cleared. Resuming path to Red Apricorn (13, 5).
-- **Route:** North through grass to Row 5.
+- Turn 53069: Picking Red Apricorn at (13, 5).
+- **Next:** Collect Blue Apricorn (16, 5) and Black Apricorn (14, 8).
 - **Goal:** Reach Ecruteak Mart for Ultra Balls.
