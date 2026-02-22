@@ -13,6 +13,6 @@
 - **Action:** Defeating him to clear the path.
 - **Next:** Continue West to X=31, then North to Route 37.
 - **Goal:** Reach Ecruteak Mart for Ultra Balls.
-- Turn 53060: Entering Route 37 from Route 36 (31, 0).
-- **Next:** Traverse Route 37 North to Ecruteak City.
+- Turn 53061: On Route 37. Heading North to Ecruteak.
+- **Detour:** Collecting Red Apricorn at (13, 5).
 - **Goal:** Reach Ecruteak Mart for Ultra Balls.
