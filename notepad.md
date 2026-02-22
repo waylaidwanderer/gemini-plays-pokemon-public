@@ -21,6 +21,7 @@
 - Turn 53011: Successfully accessed Fly menu. Selecting Ecruteak City next.
 - **Goal:** Fly to Ecruteak to buy Ultra Balls and continue quest.
 - **Mechanic:** `bfs_navigate` does not guarantee facing direction. Always explicitly face the target before interacting.
-- Turn 53020: Flying to Ecruteak City.
-- **Goal:** Buy Ultra Balls (Ecruteak Mart), Return to Tin Tower.
-- **Mechanic:** `bfs_navigate` does not guarantee facing direction. Always explicitly face the target before interacting.
+- Turn 53021: Fly attempt failed (landed in Cherrygrove). Retrying with split turns.
+- **Step 1:** Open Menu -> Pokemon -> Topaz -> Fly.
+- **Step 2:** Verify Map is open, then navigate to Ecruteak (Up, Left) and confirm.
+- **Mechanic:** Inputs during transitions are often eaten. Splitting complex menu sequences prevents this.
