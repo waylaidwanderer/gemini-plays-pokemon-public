@@ -1,8 +1,8 @@
 ### Current Quest: Investigate Tin Tower
 - **Started:** Turn 52441
-- **Location:** Tin Tower Barrier Station (Outdoor Path 4_9)
-- **Goal:** Heal at Ecruteak PC, then return to Tin Tower.
-- **Status:** Stuck at Barrier Station door. Using Fly to escape and reach PC faster.
+- **Location:** Violet City Pokemon Center
+- **Goal:** Heal Party, Buy Ultra Balls, Return to Ecruteak.
+- **Status:** Accidentally flew to Violet City. Healing here.
 
 ### Future Goals
 - **Tin Tower:** Investigate with Clear Bell.
