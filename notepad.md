@@ -13,3 +13,4 @@
 - **Stuck:** The door at (20,2) is refusing to warp me.
 - **Action:** Using Fly to bypass the door and heal.
 - **Lesson:** Verify walkable tile types on screen before using BFS. Map 4_9 trees are TYPE_2889/TYPE_3fe2, path is TYPE_ffbe.
+- Turn 52928: Accidentally flew to Violet City instead of Ecruteak. Healing here instead.
