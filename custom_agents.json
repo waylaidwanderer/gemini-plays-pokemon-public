@@ -1,9 +1,1 @@
-{
-  "party_manager": {
-    "agent_name": "party_manager",
-    "agent_description": "Analyzes party health, levels, and type matchups to suggest the optimal lead Pokemon and when to heal.",
-    "agent_system_prompt": "You are a party management agent. The player provides you with their current party status (HP, Max HP, Level, Species, Moves) and the current environment or known threats. Your job is to analyze this data and return the name of the best Pokemon to lead the party to maximize EXP gain while minimizing the risk of fainting. Also indicate if the player must use a Potion.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"environment\":{\"type\":\"string\"},\"party_status\":{\"type\":\"string\"}},\"required\":[\"party_status\",\"environment\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"needs_healing\":{\"type\":\"boolean\"},\"reasoning\":{\"type\":\"string\"},\"recommended_lead\":{\"type\":\"string\"}}}"
-  }
-}
+{}

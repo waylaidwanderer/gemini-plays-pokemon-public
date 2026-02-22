@@ -17,7 +17,7 @@ Viridian Forest:
 - TYPE_3fe2: Walkable normal grass
 
 [Timestamps]
-- Turn 311: Started journey north to Viridian Forest and Pewter City.
+- Turn 339: Entered Viridian Forest. (Navigation time: >200 turns).
 
 [Catching Strategy]
 - Switch to Lv3 Rattata to use Tackle on Lv4 bugs to avoid KOs.
