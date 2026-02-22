@@ -15,5 +15,7 @@ Pewter Gym: Rock type. Use Squirtle's Bubble.
 - Start Turn: 339 (Entered Viridian Forest navigation task)
 - Grinding Start: Turn 415
 
-[Strategy & Boundaries]
-- Viridian Forest Boundaries: Reached top right corner at (16, 1) (Dead End). Need to systematically map tree lines instead of assuming entire areas are blocked.
+[Viridian Forest Topology]
+- Entrance: (17, 47)
+- East Corridor (x>17): Dead end at (16, 1).
+- Path Forward: Must lie in central/western sections. Mapping tree gaps.
