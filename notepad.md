@@ -9,6 +9,7 @@
 ### Current Quest: Investigate Tin Tower
 - **Location:** Cherrygrove City (29, 5)
 - **Goal:** Buy Ultra Balls (Ecruteak Mart), Return to Tin Tower.
-- Turn 53053: Exiting Violet City via West Gate (0, 9).
-- **Next:** Traverse Route 36 -> Route 37 -> Ecruteak City.
+- Turn 53054: On Route 36 (Map 10_3).
+- **Route:** West to X=31, then North to Route 37 (Ecruteak).
+- **Hazards:** Psychic Mark (44, 9), Schoolboy Alan (31, 14).
 - **Goal:** Reach Ecruteak Mart for Ultra Balls.
