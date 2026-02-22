@@ -8,4 +8,6 @@
 - **Location:** Route 37 (7, 4)
 - **Goal:** Buy Ultra Balls (Ecruteak Mart).
 - **Status:** Collected Red/Blue/Black Apricorns. Encountered Noctowl.
-- Turn 53085: Sailor Huey called immediately upon entering Ecruteak Gym (accidental entry). Clearing dialogue.
+- Turn 53087: Exiting Ecruteak Gym (accidental entry).
+- **Next:** Navigate to Ecruteak Mart (29, 21).
+- **Goal:** Buy Ultra Balls.
