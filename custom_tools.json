@@ -281,5 +281,27 @@
         "action_counter": 1454
       }
     ]
+  },
+  "analyze_map": {
+    "description": "Analyzes map_data_rb.json for a given map_id, returning its dimensions, warps, and objects.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "map_id": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "map_id"
+      ]
+    },
+    "python_script": "import json\n\ndef analyze_map(map_id):\n    try:\n        with open('map_data_rb.json', 'r') as f:\n            map_data = json.load(f)\n    except Exception as e:\n        print(f\"Error loading map data: {e}\")\n        return\n\n    for r in map_data.get('regions', []):\n        if r['id'] == map_id:\n            print(f\"Map: {r['name']} ({r['id']})\")\n            print(f\"Dimensions: {r.get('width', 'Unknown')}x{r.get('height', 'Unknown')}\")\n            if 'events' in r:\n                print(\"\\nWarps:\")\n                for w in r['events'].get('warp', []):\n                    print(f\"  ({w.get('x')}, {w.get('y')}) -> {w.get('map')} (EntryPoint {w.get('entryPoint')})\")\n                print(\"\\nObjects:\")\n                for o in r['events'].get('object', []):\n                    print(f\"  ({o.get('x')}, {o.get('y')}): {o.get('sprite')} (Text: {o.get('text')})\")\n            else:\n                print(\"\\nNo events found.\")\n            return\n\n    print(f\"Map ID '{map_id}' not found.\")\n\nanalyze_map(input_data['map_id'])",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-02-22T23:25:20.019Z",
+        "action_counter": 1501
+      }
+    ]
   }
 }
