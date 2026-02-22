@@ -13,3 +13,4 @@
 - **Correction:** Must scroll down to Ultra Balls in the list before selecting.
 - **Goal:** Buy ~20 Ultra Balls.
 - **Next:** Verify Money Decrease.
+- Update: Ecruteak Mart likely lacks Ultra Balls. Relocating to Goldenrod.
