@@ -13,3 +13,5 @@
 - **Action:** Defeating him to clear the path.
 - **Next:** Continue West to X=31, then North to Route 37.
 - **Goal:** Reach Ecruteak Mart for Ultra Balls.
+- Turn 53056: Battle with Psychic Mark initiated.
+- **Strategy:** Mash A to use Swift (Slot 1) or select Flame Wheel if needed. Garnet (Lv 52) should sweep.
