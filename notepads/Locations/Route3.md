@@ -10,3 +10,6 @@
 - Lass (near 19, 4): Rattata (Lv 10), Nidoran♂ (Lv 10)
 - Bug Catcher (24, 6): Caterpie (Lv 11), Metapod (Lv 11)
 - Lass (33, 9): Jigglypuff (Lv 14)
+[Terrain]
+- Ledges (TYPE_44f6) can only be jumped over going Down. They block Upward movement.
+- Rock walls (TYPE_2889) form maze-like barriers requiring weaving up and down.
