@@ -141,5 +141,49 @@
         "action_counter": 451
       }
     ]
+  },
+  "pathfinder": {
+    "description": "Calculates the shortest path using BFS given start coordinates, target coordinates, and a list of obstacle coordinates.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "start_x": {
+          "type": "integer"
+        },
+        "start_y": {
+          "type": "integer"
+        },
+        "target_x": {
+          "type": "integer"
+        },
+        "target_y": {
+          "type": "integer"
+        },
+        "obstacles": {
+          "type": "array",
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "integer"
+            }
+          }
+        }
+      },
+      "required": [
+        "start_x",
+        "start_y",
+        "target_x",
+        "target_y",
+        "obstacles"
+      ]
+    },
+    "python_script": "from collections import deque\n\ndef bfs(start, target, obstacles):\n    queue = deque([(start, [])])\n    visited = {start}\n    obs_set = {tuple(o) for o in obstacles}\n    while queue:\n        (x, y), path = queue.popleft()\n        if (x, y) == target: return path\n        for dx, dy, move in [(0,-1,'U'), (0,1,'D'), (-1,0,'L'), (1,0,'R')]:\n            nx, ny = x+dx, y+dy\n            if (nx, ny) not in visited and (nx, ny) not in obs_set:\n                visited.add((nx, ny))\n                queue.append(((nx, ny), path+[move]))\n    return None\n\nstart = (input_data['start_x'], input_data['start_y'])\ntarget = (input_data['target_x'], input_data['target_y'])\npath = bfs(start, target, input_data.get('obstacles', []))\nprint(''.join(path) if path else 'No path')",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-02-22T13:08:48.076Z",
+        "action_counter": 587
+      }
+    ]
   }
 }
