@@ -122,6 +122,7 @@ Execution Plan:
 [Trainers]
 - Bug Catcher (19, 5): Weedle (Lv 9), Kakuna (Lv 9), Metapod (Lv 9)
 - Lass (near 19, 4): Rattata (Lv 10), Nidoran♂ (Lv 10)
+- Bug Catcher (24, 6): Caterpie (Lv 11), Metapod (Lv 11)
 
 <hr>
 
