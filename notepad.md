@@ -86,5 +86,7 @@ Execution Plan:
 - Potion: ¥300
 - Escape Rope: ¥550
 - Antidote: ¥100
+[Pewter Gym Trainers]
+- Jr. Trainer (at entrance): Lv 11 Diglett, Lv 11 Sandshrew
 
 <hr>
