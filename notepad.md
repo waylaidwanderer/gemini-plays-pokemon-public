@@ -15,3 +15,4 @@
 - **Lesson:** Verify walkable tile types on screen before using BFS. Map 4_9 trees are TYPE_2889/TYPE_3fe2, path is TYPE_ffbe.
 - Turn 52928: Accidentally flew to Violet City instead of Ecruteak. Healing here instead.
 - Turn 52970: Having trouble interacting with Nurse Joy. Resetting position (Down/Up) to ensure interaction triggers.
+- Turn 52977: Interaction with Nurse Joy failed multiple times. Exiting and re-entering the Pokemon Center to reset map state.
