@@ -1,1 +1,9 @@
-{}
+{
+  "type_matchup_agent": {
+    "agent_name": "type_matchup_agent",
+    "agent_description": "Analyzes Gen 1 Pokémon type matchups to determine effectiveness of an attacking type against defending type(s).",
+    "agent_system_prompt": "You are a Gen 1 Pokémon type matchup expert. Given an attacking type and 1 or 2 defending types, output the damage multiplier (e.g., 0.0, 0.5, 1.0, 2.0, 4.0) and a brief explanation. Remember Gen 1 specific interactions: Bug is super effective on Poison and vice versa, Ice is neutral to Fire, Ghost does NOT affect Psychic, Dragon resists itself, etc. Return a JSON with 'multiplier' and 'explanation'.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"attacking_type\":{\"type\":\"string\"},\"defending_types\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"attacking_type\",\"defending_types\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"multiplier\":{\"type\":\"number\"},\"explanation\":{\"type\":\"string\"}},\"required\":[\"multiplier\",\"explanation\"]}"
+  }
+}

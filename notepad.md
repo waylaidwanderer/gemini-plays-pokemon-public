@@ -31,3 +31,13 @@ Execution Plan:
 - **Hydro (Squirtle)**: Learned Bubble (Water) at Level 8.
 
 <hr>
+
+<h1><code>Locations/ViridianCity_Mart</code></h1>
+
+[Turn 241] Viridian City Poke Mart Inventory:
+- Poke Ball (¥200)
+- Antidote (¥100)
+- Parlyz Heal (¥200)
+- Burn Heal (¥250)
+
+<hr>
