@@ -1,6 +1,6 @@
 ### Current Quest: Investigate Tin Tower
-- **Location:** Goldenrod Dept Store 3F
+- **Location:** Goldenrod Dept Store 4F
 - **Goal:** Buy Ultra Balls.
-- **Status:** 2F appeared empty of clerks (anomalous). Checking 3F.
-- **Plan:** Find a clerk on 3F or higher. If all empty, investigate why.
-- **Next:** Purchase Ultra Balls or diagnose store issue.
+- **Status:** Goldenrod Dept Store seems to have no active clerks on 2F/4F (Patrons only).
+- **Plan:** Abandon Goldenrod. Fly to Olivine City (Standard Mart).
+- **Next:** Fly to Olivine -> Buy Balls -> Return to Tin Tower.
