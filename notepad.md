@@ -19,9 +19,8 @@ Pewter Gym: Rock type. Use Squirtle's Bubble.
 
 [Viridian Forest Topology]
 - Entrance: (17, 47)
-- East Corridor (x>17): Dead end at (16, 1).
-- Path Forward: Must lie in central/western sections. Mapping tree gaps.
-- Turn 778 Reflection: The far left at (2, 30) is a confirmed dead end wrapped in trees. The tree line at y=31 appears solid from x=0 to x=17. I need to re-evaluate the area around x=17 to x=25 to see if there's a gap going north that I missed when I was fleeing earlier.
+- Path Forward: East corridor (x=25) bypasses the solid horizontal tree line. The actual central tree boundary is at y=29.
+- Strategy: Return to the east path (x>17) and head north. The 'dead end' at (16, 1) means I missed a branching path to the west somewhere along that eastern route.
 
 <hr>
 
