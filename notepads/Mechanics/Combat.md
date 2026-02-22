@@ -1,1 +1,2 @@
 [Turn 62] Combat basics: Turn-based. Type matchups are critical (e.g. Water beats Fire, Grass beats Water). STAB (Same Type Attack Bonus) applies for matching move and Pokémon types. Use FIGHT to attack, ITEM to use Potions.
+- **Hydro (Squirtle)**: Learned Bubble (Water) at Level 8.
