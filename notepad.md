@@ -8,6 +8,8 @@
 - **Location:** Route 37 (7, 4)
 - **Goal:** Buy Ultra Balls (Ecruteak Mart).
 - **Status:** Collected Red/Blue/Black Apricorns. Encountered Noctowl.
-- Turn 53094: Confirming purchase of ~25 Ultra Balls.
-- **Action:** Press A to buy, then B to exit menu.
-- **Goal:** Exit Mart and head to Tin Tower.
+- Turn 53095: Money check (¥32969) reveals purchase FAILED.
+- **Action:** Re-entering Mart to buy Ultra Balls properly.
+- **Correction:** Must scroll down to Ultra Balls in the list before selecting.
+- **Goal:** Buy ~20 Ultra Balls.
+- **Next:** Verify Money Decrease.
