@@ -22,7 +22,7 @@ Viridian Forest:
 [Catching Strategy]
 - Switch to Lv3 Rattata to use Tackle on Lv4 bugs to avoid KOs.
 - Turn 415: Caught Caterpie (Cabbage) and Nidoran F (Cleo). Switching Cleo to lead for training. (Grinding Start: Turn 415)
-- Viridian Forest: Far West (x=1 to x=5) is a dead end at y=39. The path North must branch off the horizontal corridor (y=33) somewhere between x=7 and x=17.
+- Viridian Forest boundaries confirmed: Far West (x=1 to 5) blocked at y=39. Central gap is at (6, 33). East side is blocked at x=19. Tracing y=33 corridor Eastward tile-by-tile.
 
 <hr>
 
