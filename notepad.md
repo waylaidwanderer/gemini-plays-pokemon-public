@@ -8,6 +8,6 @@
 - **Location:** Route 37 (7, 4)
 - **Goal:** Buy Ultra Balls (Ecruteak Mart).
 - **Status:** Collected Red/Blue/Black Apricorns. Encountered Noctowl.
-- Turn 53089: Inside Ecruteak Mart. Moving to counter to buy Ultra Balls.
-- **Goal:** Buy ~20 Ultra Balls (have ¥32969).
-- **Next:** Exit and head to Tin Tower.
+- Turn 53090: Approaching counter at (1, 5) to speak with Clerk at (1, 3).
+- **Goal:** Buy ~20 Ultra Balls.
+- **Next:** Exit Mart, head to Tin Tower.
