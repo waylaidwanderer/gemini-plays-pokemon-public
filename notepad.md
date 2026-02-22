@@ -12,10 +12,12 @@ Pewter Gym: Rock type. Use Squirtle's Bubble.
 - TYPE_44f6: One-way ledge (jump down only)
 - TYPE_fed7: Walkable tall grass
 - TYPE_3fe2: Walkable normal grass
+- Map Transitions: Require specific warp tiles, gatehouse doors, or screen-edge steps. Impassable boundaries/signs do not trigger transitions.
 
 [Timestamps]
 - Start Turn: 339 (Entered Viridian Forest navigation task)
 - Grinding Start: Turn 415
+- Route 2 Arrival: Turn 869
 
 [Viridian Forest Topology]
 - Entrance: (17, 47)
