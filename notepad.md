@@ -14,6 +14,9 @@ Pewter Gym: Rock type. Use Squirtle's Bubble.
 - TYPE_3fe2: Walkable normal grass
 - Map Transitions: Require specific warp tiles, gatehouse doors, or screen-edge steps. Impassable boundaries/signs do not trigger transitions.
 
+[Lessons Learned]
+- Avoid over-mashing A during map transitions and battles. It causes UI desyncs, mistaken menu inputs, and turn hallucinations. Use targeted tools instead.
+
 [Timestamps]
 - Start Turn: 339 (Entered Viridian Forest navigation task)
 - Grinding Start: Turn 415
