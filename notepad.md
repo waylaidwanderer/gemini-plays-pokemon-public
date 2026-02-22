@@ -148,3 +148,12 @@ Execution Plan:
 - Poison Contingency: Do not panic. Check HP. Damage is 1 HP per 4 steps. Calculate steps to Center. Use Potion only if HP will drop below 0 before reaching the Center.
 
 <hr>
+
+<h1><code>Archive/LocationEncounters</code></h1>
+
+[Location Encounters]
+Route 22: Rattata, Nidoran F
+Viridian Forest: Caterpie
+Route 3: Spearow, Pidgey
+
+<hr>
