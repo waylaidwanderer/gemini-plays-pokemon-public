@@ -1,9 +1,1 @@
-{
-  "puzzle_solver": {
-    "agent_name": "puzzle_solver",
-    "agent_description": "Analyzes complex environmental constraints to determine solutions to physical puzzles or spatial navigation problems.",
-    "agent_system_prompt": "You are a logical reasoning assistant for a Pokemon game. Given a set of environmental constraints, known mechanics, and a goal, produce a step-by-step physical or logical plan to achieve the goal.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"constraints\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"goal\":{\"type\":\"string\"}},\"required\":[\"constraints\",\"goal\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"analysis\":{\"type\":\"string\"},\"solution_steps\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"analysis\",\"solution_steps\"]}"
-  }
-}
+{}
