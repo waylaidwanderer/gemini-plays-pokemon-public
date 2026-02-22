@@ -141,5 +141,20 @@
         "action_counter": 451
       }
     ]
+  },
+  "run_from_battle": {
+    "description": "Automatically navigates the battle menu to select 'RUN' and escapes the battle. Assumes it is your turn and the main battle menu (FIGHT, ITEM, PKMN, RUN) is open.",
+    "input_schema": {
+      "type": "object",
+      "properties": {}
+    },
+    "python_script": "import json\nprint(json.dumps(['Down', 'Right', 'A']))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-02-22T16:47:44.348Z",
+        "action_counter": 786
+      }
+    ]
   }
 }
