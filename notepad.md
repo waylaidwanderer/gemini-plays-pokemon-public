@@ -15,9 +15,7 @@
 - **Tin Tower:** Investigate with Clear Bell.
 - **Radio Tower:** Return later to scan for items.
 - Route 37 Nav: Apricorn grove is a dead-end. Backtrack South to Row 16 to cross to the West side for the path to Ecruteak.
-- Turn 52804: Ran out of balls vs Suicune. Attempting Tactical Wipe.
-- Turn 52837: Accidental Fly used by Topaz! Praying Suicune survives the hit.
-- Wipe Strategy: Do NOT attack. Waste turns by using Healing Items (Fresh Water, etc.) on our own full/high HP Pokemon until Suicune defeats us.
-- Turn 52839: CATASTROPHE. Topaz defeated Suicune with Fly.
-- Turn 52843: Eusine is congratulating me. Suicune is definitely gone. The "Tactical Wipe" failed.
-- Status: Suicune defeat confirmed. Moving on.
+### Tin Tower Exploration
+- **Turn 52839:** Defeated Suicune (Accidental Fly). Eusine impressed.
+- **Status:** Exploring 1F.
+- **Needs:** Heal party, buy Ultra Balls.
