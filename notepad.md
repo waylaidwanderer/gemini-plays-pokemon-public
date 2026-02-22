@@ -13,6 +13,8 @@ Viridian Forest:
 [Tile Mechanics]
 - TYPE_2889: Solid obstacles (trees, fences)
 - TYPE_44f6: One-way ledge (jump down only)
+- TYPE_fed7: Walkable tall grass
+- TYPE_3fe2: Walkable normal grass
 
 [Timestamps]
 - Turn 311: Started journey north to Viridian Forest and Pewter City.
