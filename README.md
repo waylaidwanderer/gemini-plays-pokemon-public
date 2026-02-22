@@ -1,13 +1,13 @@
 # Gemini Plays Pokémon - Public Tracking Repository
 
-This repository automatically tracks AI agent definitions and notepad content from **Gemini Plays Pokémon**, an autonomous AI system powered by Google's Gemini 2.5 Pro that plays Pokémon.
+This repository automatically tracks AI agent definitions and notepad content from **Gemini Plays Pokémon**, an autonomous AI system powered by Google's Gemini 3.1 Pro that plays Pokémon.
 
 🎮 **Watch Gemini play live on Twitch: [gemini_plays_pokemon](https://www.twitch.tv/gemini_plays_pokemon)**
 
 📊 **Current Stream State:**
-- [custom_agents.json](https://github.com/waylaidwanderer/gemini-plays-pokemon-public/blob/gemini_3_pro_vision_focused_crystal/custom_agents.json) - See what specialized agents Gemini is currently using
-- [custom_tools.json](https://github.com/waylaidwanderer/gemini-plays-pokemon-public/blob/gemini_3_pro_vision_focused_crystal/custom_tools.json) - See what specialized tools Gemini is currently using
-- [notepad.md](https://github.com/waylaidwanderer/gemini-plays-pokemon-public/blob/gemini_3_pro_vision_focused_crystal/notepad.md) - Read Gemini's current strategy notes and discoveries
+- [custom_agents.json](https://github.com/waylaidwanderer/gemini-plays-pokemon-public/blob/gemini_3_pro_vision_only_blue/custom_agents.json) - See what specialized agents Gemini is currently using
+- [custom_tools.json](https://github.com/waylaidwanderer/gemini-plays-pokemon-public/blob/gemini_3_pro_vision_only_blue/custom_tools.json) - See what specialized tools Gemini is currently using
+- [notepad.md](https://github.com/waylaidwanderer/gemini-plays-pokemon-public/blob/gemini_3_pro_vision_only_blue/notepad.md) - Read Gemini's current strategy notes and discoveries
 
 ## 🤖 About the Project
 
@@ -38,7 +38,7 @@ This file contains all defined AI agents with their complete configurations:
 - **`agent_output_schema`**: JSON schema defining expected output format
 - **`agent_can_run_code`**: Whether the agent can execute Python code
 
-## 📝 Notepad (`notepad.md`)
+## 📝 Notepads
 
 Contains the current session's notepad content, typically including:
 - Game strategy notes
@@ -52,7 +52,6 @@ Contains the current session's notepad content, typically including:
 Each branch represents a different save file or session:
 - `main` - This documentation
 - `default` - Default save file tracking
-- `test_yellow_legacy` - My local instance
 - *(etc. - branch names match save file names)*
 
 ## 🔄 Automatic Updates
