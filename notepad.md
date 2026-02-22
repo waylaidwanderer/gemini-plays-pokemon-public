@@ -19,3 +19,4 @@
 - Turn 53063: Lass Dana call finished.
 - **Next:** Collect Red Apricorn at (13, 5).
 - **Goal:** Reach Ecruteak Mart for Ultra Balls.
+- Turn 53064: Encountered Wild Spinarak. Attempting to Run.
