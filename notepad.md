@@ -130,3 +130,10 @@ Execution Plan:
 - Strategy: Return to the east path (x>17) and head north. Look for branching paths to the west.
 
 <hr>
+
+<h1><code>Mechanics/StatusEffects</code></h1>
+
+[Overworld Effects]
+- Poison: Pokémon loses 1 HP approximately every 4 steps taken in the overworld. Can be fatal. Cure immediately at a Center or with an Antidote.
+
+<hr>
