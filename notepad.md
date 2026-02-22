@@ -9,3 +9,4 @@
 ### Current Quest: Investigate Tin Tower
 - **Location:** Cherrygrove City (29, 5)
 - **Goal:** Buy Ultra Balls (Ecruteak Mart), Return to Tin Tower.
+- Turn 53046: Arnie (Bug Catcher) called immediately upon landing in Violet. Clearing dialogue.
