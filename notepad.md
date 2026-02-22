@@ -1,9 +1,7 @@
 <h1><code>Main</code></h1>
 
 [Location Encounters]
-Route 22: Rattata, Nidoran F
-Viridian Forest: Caterpie
-Route 3: Spearow, Pidgey
+(Moved to Archive/LocationEncounters)
 
 [Tile Mechanics]
 - TYPE_2889: Impassable tree/solid obstacle
