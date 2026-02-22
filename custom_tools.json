@@ -20,5 +20,28 @@
         "action_counter": 63
       }
     ]
+  },
+  "move_sequence": {
+    "description": "Executes a sequence of button presses provided as a compact string (e.g. 'DDDRRU' for Down, Down, Down, Right, Right, Up). 'A', 'B', 'S' (Start), 'E' (Select) are also supported.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "sequence": {
+          "type": "string",
+          "description": "String of characters representing buttons: U, D, L, R, A, B, S, E"
+        }
+      },
+      "required": [
+        "sequence"
+      ]
+    },
+    "python_script": "def execute(input_data):\n    seq = input_data.get('sequence', '')\n    m = {'U': 'Up', 'D': 'Down', 'L': 'Left', 'R': 'Right', 'A': 'A', 'B': 'B', 'S': 'Start', 'E': 'Select'}\n    return [m[c] for c in seq.upper() if c in m]",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-02-22T07:50:57.816Z",
+        "action_counter": 181
+      }
+    ]
   }
 }

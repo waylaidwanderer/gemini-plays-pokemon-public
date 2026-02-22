@@ -6,12 +6,12 @@
 
 <h1><code>Quests/Main</code></h1>
 
-[Turn 122] Current Goal: Deliver Oak's Parcel.
-Plan: 
-1. Heal Hydro at the Viridian City Pokemon Center.
-2. Visit the Viridian City Poke Mart to receive the parcel.
-3. Return to Pallet Town to deliver it to Professor Oak.
-- [Active] Deliver Oak's Parcel: Return to Professor Oak's Lab in Pallet Town to deliver the parcel. (Started Turn 146)
+[Turn 146] Active Quest: Deliver Oak's Parcel.
+Execution Plan:
+1. Navigate south through Route 1, avoiding unnecessary wild battles to save Hydro's HP.
+2. Utilize 1-way ledges (TYPE_44f6) as downward shortcuts.
+3. Arrive at Pallet Town and navigate to Professor Oak's Lab in the southeast.
+4. Talk to Professor Oak to trigger the parcel delivery event.
 
 <hr>
 
