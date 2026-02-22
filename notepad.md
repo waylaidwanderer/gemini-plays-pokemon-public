@@ -106,3 +106,12 @@ Execution Plan:
 - From East (Mart) to Gym: Up to y=13, Left over Gym to x=14, Down to y=18, Right to door.
 
 <hr>
+
+<h1><code>Locations/Route3</code></h1>
+
+# Route 3
+- Located east of Pewter City, leading towards Mt. Moon.
+- Features one-way ledges and patches of tall grass.
+- Many trainers spotted in the area.
+
+<hr>
