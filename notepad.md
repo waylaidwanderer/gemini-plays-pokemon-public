@@ -21,6 +21,7 @@ Pewter Gym: Rock type. Use Squirtle's Bubble.
 - Entrance: (17, 47)
 - East Corridor (x>17): Dead end at (16, 1).
 - Path Forward: Must lie in central/western sections. Mapping tree gaps.
+- Turn 778 Reflection: The far left at (2, 30) is a confirmed dead end wrapped in trees. The tree line at y=31 appears solid from x=0 to x=17. I need to re-evaluate the area around x=17 to x=25 to see if there's a gap going north that I missed when I was fleeing earlier.
 
 <hr>
 
