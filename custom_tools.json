@@ -239,5 +239,47 @@
         "action_counter": 1188
       }
     ]
+  },
+  "walk_to_coordinate": {
+    "description": "Calculates and executes the exact sequence of D-pad presses needed to walk in a straight line or simple L-shape from your current (X,Y) to a target (X,Y). Useful for avoiding manual step-counting errors on clear paths.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "current_x": {
+          "type": "integer"
+        },
+        "current_y": {
+          "type": "integer"
+        },
+        "target_x": {
+          "type": "integer"
+        },
+        "target_y": {
+          "type": "integer"
+        },
+        "axis_order": {
+          "type": "string",
+          "enum": [
+            "horizontal_first",
+            "vertical_first"
+          ],
+          "default": "horizontal_first"
+        }
+      },
+      "required": [
+        "current_x",
+        "current_y",
+        "target_x",
+        "target_y"
+      ]
+    },
+    "python_script": "import json\n\ncx = int(input_data['current_x'])\ncy = int(input_data['current_y'])\ntx = int(input_data['target_x'])\nty = int(input_data['target_y'])\norder = input_data.get('axis_order', 'horizontal_first')\n\ndx = tx - cx\ndy = ty - cy\n\nh_btn = 'Right' if dx > 0 else 'Left'\nv_btn = 'Down' if dy > 0 else 'Up'\n\nh_moves = [h_btn] * abs(dx)\nv_moves = [v_btn] * abs(dy)\n\nif order == 'horizontal_first':\n    moves = h_moves + v_moves\nelse:\n    moves = v_moves + h_moves\n\nprint(json.dumps(moves[:100]))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-02-22T23:06:31.415Z",
+        "action_counter": 1454
+      }
+    ]
   }
 }

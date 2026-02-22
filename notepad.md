@@ -173,3 +173,10 @@ Route 3: Spearow, Pidgey
 - Wandering NPCs can step on and block warp tiles (like doors). If this happens, you must step back to give them space to wander off the tile before you can enter.
 
 <hr>
+
+<h1><code>Notes/ShoppingList</code></h1>
+
+[High Priority]
+- Buy Antidotes ASAP at the next Poke Mart. Poison damage is brutal in caves.
+
+<hr>
