@@ -21,4 +21,6 @@
 - Turn 53011: Successfully accessed Fly menu. Selecting Ecruteak City next.
 - **Goal:** Fly to Ecruteak to buy Ultra Balls and continue quest.
 - **Mechanic:** `bfs_navigate` does not guarantee facing direction. Always explicitly face the target before interacting.
-- Turn 53015: Retrying Fly sequence. Map navigation: Up (Violet) -> Left (Ecruteak).
+- Turn 53017: Repositioning to tile (29, 5) to ensure valid Fly location, then initiating Fly sequence.
+- **Goal:** Fly to Ecruteak to buy Ultra Balls and continue quest.
+- **Mechanic:** `bfs_navigate` does not guarantee facing direction. Always explicitly face the target before interacting.
