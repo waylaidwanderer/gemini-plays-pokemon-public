@@ -5,6 +5,7 @@
 - Ladder B: B1F (15, 27) <-> B2F (15, 27) [Leads to B2F Dead End, HP UP, TR Grunt]
 - Ladder C: 1F (5, 5) <-> B1F (5, 5) [Main path continuation]
 - Ladder D: B1F (21, 17) <-> B2F (21, 17) [Main section of B2F, Super Nerd, TM01]
+- Ladder E: B1F (23, 3) <-> B2F (5, 7) [Path to Exit]
 
 [Map Boundaries & Notes]
 - Encounters: Clefairy, Zubat, Paras, Geodude
