@@ -11,9 +11,9 @@
 - Start Turn: 339 (Entered Viridian Forest navigation task)
 - Grinding Start: Turn 415
 - Route 2 Arrival: Turn 869
+- Mt. Moon Start: Turn 1385
 
 [Mt. Moon Topology]
-- Start Turn: 1385
 - Entrance: (14, 35)
 - Encounters: Clefairy (Trainer), Zubat, Paras, Geodude
 [Inventory Items]
