@@ -31,6 +31,40 @@
       }
     ]
   },
+  "execute_battle_turn": {
+    "description": "Executes a full battle turn: selects FIGHT, chooses a move (1-4), and safely mashes A and B to advance text while automatically cancelling any 'change Pokemon' prompts.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "current_move_index": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 4,
+          "default": 1
+        },
+        "target_move_index": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 4
+        },
+        "start_on_main": {
+          "type": "boolean",
+          "default": true
+        }
+      },
+      "required": [
+        "target_move_index"
+      ]
+    },
+    "python_script": "import json\n\ndef get_button_sequence(input_data):\n    current_index = input_data.get('current_move_index', 1)\n    target_index = input_data.get('target_move_index', 1)\n    start_on_main = input_data.get('start_on_main', True)\n\n    buttons = []\n    if start_on_main:\n        buttons.append('A')\n        buttons.append('sleep 300')\n\n    diff = target_index - current_index\n    if diff > 0:\n        buttons.extend(['Down'] * diff)\n    elif diff < 0:\n        buttons.extend(['Up'] * abs(diff))\n\n    buttons.append('A')\n    buttons.append('sleep 500')\n\n    # Alternating A and B to advance text and cancel switch prompts\n    for _ in range(10):\n        buttons.extend(['A', 'sleep 300', 'B', 'sleep 300'])\n\n    return buttons\n\nprint(json.dumps(get_button_sequence(input_data)))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-02-23T03:33:46.573Z",
+        "action_counter": 1922
+      }
+    ]
+  },
   "keyboard_typer": {
     "description": "Automates pressing D-pad buttons to type a string on the Gen 1 onscreen keyboard. Assumes the cursor starts at 'A' (top-left).",
     "input_schema": {
@@ -240,6 +274,31 @@
       }
     ]
   },
+  "switch_pokemon_in_battle": {
+    "description": "Switches out the current active Pokemon for another one in the party during a battle. Assumes the cursor is on 'FIGHT' in the main battle menu.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "target_index": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 6,
+          "default": 2
+        }
+      },
+      "required": [
+        "target_index"
+      ]
+    },
+    "python_script": "import json\n\ndef get_switch_sequence(input_data):\n    target = input_data.get('target_index', 2)\n    \n    # From FIGHT, press Right to highlight PKMN, then A to enter the menu\n    buttons = ['Right', 'A', 'sleep 500']\n    \n    # Navigate down to the target Pokemon (index 1 is the lead)\n    for _ in range(target - 1):\n        buttons.append('Down')\n        \n    # Press A to select the Pokemon, then A again to select SHIFT (top option)\n    buttons.extend(['A', 'sleep 300', 'A', 'sleep 1000'])\n    \n    # Mash B to clear \"Come back!\" and \"Go! X!\" text\n    for _ in range(6):\n        buttons.extend(['B', 'sleep 300'])\n        \n    return buttons\n\nprint(json.dumps(get_switch_sequence(input_data)))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-02-23T03:55:29.564Z",
+        "action_counter": 1951
+      }
+    ]
+  },
   "throw_pokeball": {
     "description": "Navigates the main battle menu to ITEM and selects the currently highlighted item (assumed to be a Poke Ball).",
     "input_schema": {
@@ -252,6 +311,35 @@
         "commit_message": "Initial version",
         "timestamp": "2026-02-23T01:03:31.548Z",
         "action_counter": 1552
+      }
+    ]
+  },
+  "type_matchup_calculator": {
+    "description": "Calculates Gen 1 Pokemon type matchup effectiveness.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "attack_type": {
+          "type": "string"
+        },
+        "defend_type_1": {
+          "type": "string"
+        },
+        "defend_type_2": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "attack_type",
+        "defend_type_1"
+      ]
+    },
+    "python_script": "\ntypes = [\n    \"NORMAL\", \"FIRE\", \"WATER\", \"ELECTRIC\", \"GRASS\", \"ICE\", \"FIGHTING\", \"POISON\", \n    \"GROUND\", \"FLYING\", \"PSYCHIC\", \"BUG\", \"ROCK\", \"GHOST\", \"DRAGON\"\n]\n\nchart = {\n    \"NORMAL\":   {\"ROCK\": 1, \"GHOST\": 0},\n    \"FIRE\":     {\"FIRE\": 1, \"WATER\": 1, \"GRASS\": 3, \"ICE\": 3, \"BUG\": 3, \"ROCK\": 1, \"DRAGON\": 1},\n    \"WATER\":    {\"FIRE\": 3, \"WATER\": 1, \"GRASS\": 1, \"GROUND\": 3, \"ROCK\": 3, \"DRAGON\": 1},\n    \"ELECTRIC\": {\"WATER\": 3, \"ELECTRIC\": 1, \"GRASS\": 1, \"GROUND\": 0, \"FLYING\": 3, \"DRAGON\": 1},\n    \"GRASS\":    {\"FIRE\": 1, \"WATER\": 3, \"GRASS\": 1, \"POISON\": 1, \"GROUND\": 3, \"FLYING\": 1, \"BUG\": 1, \"ROCK\": 3, \"DRAGON\": 1},\n    \"ICE\":      {\"WATER\": 1, \"GRASS\": 3, \"ICE\": 1, \"GROUND\": 3, \"FLYING\": 3, \"DRAGON\": 3},\n    \"FIGHTING\": {\"NORMAL\": 3, \"ICE\": 3, \"POISON\": 1, \"FLYING\": 1, \"PSYCHIC\": 1, \"BUG\": 1, \"ROCK\": 3, \"GHOST\": 0},\n    \"POISON\":   {\"GRASS\": 3, \"POISON\": 1, \"GROUND\": 1, \"BUG\": 3, \"ROCK\": 1, \"GHOST\": 1},\n    \"GROUND\":   {\"FIRE\": 3, \"ELECTRIC\": 3, \"GRASS\": 1, \"POISON\": 3, \"FLYING\": 0, \"BUG\": 1, \"ROCK\": 3},\n    \"FLYING\":   {\"ELECTRIC\": 1, \"GRASS\": 3, \"FIGHTING\": 3, \"BUG\": 3, \"ROCK\": 1},\n    \"PSYCHIC\":  {\"FIGHTING\": 3, \"POISON\": 3, \"PSYCHIC\": 1},\n    \"BUG\":      {\"FIRE\": 1, \"GRASS\": 3, \"FIGHTING\": 1, \"POISON\": 3, \"FLYING\": 1, \"PSYCHIC\": 3, \"GHOST\": 1},\n    \"ROCK\":     {\"FIRE\": 3, \"ICE\": 3, \"FIGHTING\": 1, \"GROUND\": 1, \"FLYING\": 3, \"BUG\": 3},\n    \"GHOST\":    {\"NORMAL\": 0, \"PSYCHIC\": 0, \"GHOST\": 3},\n    \"DRAGON\":   {\"DRAGON\": 3}\n}\n\nattack_type = str(input_data.get('attack_type', '')).upper()\ndefend_type_1 = str(input_data.get('defend_type_1', '')).upper()\ndefend_type_2 = input_data.get('defend_type_2')\n\nif attack_type not in types:\n    print(f\"Error: Unknown attack type '{attack_type}'\")\nelif defend_type_1 not in types:\n    print(f\"Error: Unknown defend type 1 '{defend_type_1}'\")\nelse:\n    val1 = chart.get(attack_type, {}).get(defend_type_1, 2)\n    mult1 = {0: 0.0, 1: 0.5, 2: 1.0, 3: 2.0}[val1]\n    \n    mult2 = 1.0\n    if defend_type_2:\n        defend_type_2 = str(defend_type_2).upper()\n        if defend_type_2 in types:\n            val2 = chart.get(attack_type, {}).get(defend_type_2, 2)\n            mult2 = {0: 0.0, 1: 0.5, 2: 1.0, 3: 2.0}[val2]\n        else:\n            print(f\"Error: Unknown defend type 2 '{defend_type_2}'\")\n            mult2 = None\n            \n    if mult2 is not None:\n        total_mult = mult1 * mult2\n        res = f\"{total_mult}x effectiveness\"\n        explain = f\"{attack_type} vs {defend_type_1} is {mult1}x\"\n        if defend_type_2:\n            explain += f\", {attack_type} vs {defend_type_2} is {mult2}x\"\n            \n        print(f\"Result: {res}\")\n        print(f\"Explanation: {explain}\")\n",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-02-23T02:04:09.469Z",
+        "action_counter": 1711
       }
     ]
   },
@@ -297,35 +385,6 @@
       }
     ]
   },
-  "type_matchup_calculator": {
-    "description": "Calculates Gen 1 Pokemon type matchup effectiveness.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "attack_type": {
-          "type": "string"
-        },
-        "defend_type_1": {
-          "type": "string"
-        },
-        "defend_type_2": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "attack_type",
-        "defend_type_1"
-      ]
-    },
-    "python_script": "\ntypes = [\n    \"NORMAL\", \"FIRE\", \"WATER\", \"ELECTRIC\", \"GRASS\", \"ICE\", \"FIGHTING\", \"POISON\", \n    \"GROUND\", \"FLYING\", \"PSYCHIC\", \"BUG\", \"ROCK\", \"GHOST\", \"DRAGON\"\n]\n\nchart = {\n    \"NORMAL\":   {\"ROCK\": 1, \"GHOST\": 0},\n    \"FIRE\":     {\"FIRE\": 1, \"WATER\": 1, \"GRASS\": 3, \"ICE\": 3, \"BUG\": 3, \"ROCK\": 1, \"DRAGON\": 1},\n    \"WATER\":    {\"FIRE\": 3, \"WATER\": 1, \"GRASS\": 1, \"GROUND\": 3, \"ROCK\": 3, \"DRAGON\": 1},\n    \"ELECTRIC\": {\"WATER\": 3, \"ELECTRIC\": 1, \"GRASS\": 1, \"GROUND\": 0, \"FLYING\": 3, \"DRAGON\": 1},\n    \"GRASS\":    {\"FIRE\": 1, \"WATER\": 3, \"GRASS\": 1, \"POISON\": 1, \"GROUND\": 3, \"FLYING\": 1, \"BUG\": 1, \"ROCK\": 3, \"DRAGON\": 1},\n    \"ICE\":      {\"WATER\": 1, \"GRASS\": 3, \"ICE\": 1, \"GROUND\": 3, \"FLYING\": 3, \"DRAGON\": 3},\n    \"FIGHTING\": {\"NORMAL\": 3, \"ICE\": 3, \"POISON\": 1, \"FLYING\": 1, \"PSYCHIC\": 1, \"BUG\": 1, \"ROCK\": 3, \"GHOST\": 0},\n    \"POISON\":   {\"GRASS\": 3, \"POISON\": 1, \"GROUND\": 1, \"BUG\": 3, \"ROCK\": 1, \"GHOST\": 1},\n    \"GROUND\":   {\"FIRE\": 3, \"ELECTRIC\": 3, \"GRASS\": 1, \"POISON\": 3, \"FLYING\": 0, \"BUG\": 1, \"ROCK\": 3},\n    \"FLYING\":   {\"ELECTRIC\": 1, \"GRASS\": 3, \"FIGHTING\": 3, \"BUG\": 3, \"ROCK\": 1},\n    \"PSYCHIC\":  {\"FIGHTING\": 3, \"POISON\": 3, \"PSYCHIC\": 1},\n    \"BUG\":      {\"FIRE\": 1, \"GRASS\": 3, \"FIGHTING\": 1, \"POISON\": 3, \"FLYING\": 1, \"PSYCHIC\": 3, \"GHOST\": 1},\n    \"ROCK\":     {\"FIRE\": 3, \"ICE\": 3, \"FIGHTING\": 1, \"GROUND\": 1, \"FLYING\": 3, \"BUG\": 3},\n    \"GHOST\":    {\"NORMAL\": 0, \"PSYCHIC\": 0, \"GHOST\": 3},\n    \"DRAGON\":   {\"DRAGON\": 3}\n}\n\nattack_type = str(input_data.get('attack_type', '')).upper()\ndefend_type_1 = str(input_data.get('defend_type_1', '')).upper()\ndefend_type_2 = input_data.get('defend_type_2')\n\nif attack_type not in types:\n    print(f\"Error: Unknown attack type '{attack_type}'\")\nelif defend_type_1 not in types:\n    print(f\"Error: Unknown defend type 1 '{defend_type_1}'\")\nelse:\n    val1 = chart.get(attack_type, {}).get(defend_type_1, 2)\n    mult1 = {0: 0.0, 1: 0.5, 2: 1.0, 3: 2.0}[val1]\n    \n    mult2 = 1.0\n    if defend_type_2:\n        defend_type_2 = str(defend_type_2).upper()\n        if defend_type_2 in types:\n            val2 = chart.get(attack_type, {}).get(defend_type_2, 2)\n            mult2 = {0: 0.0, 1: 0.5, 2: 1.0, 3: 2.0}[val2]\n        else:\n            print(f\"Error: Unknown defend type 2 '{defend_type_2}'\")\n            mult2 = None\n            \n    if mult2 is not None:\n        total_mult = mult1 * mult2\n        res = f\"{total_mult}x effectiveness\"\n        explain = f\"{attack_type} vs {defend_type_1} is {mult1}x\"\n        if defend_type_2:\n            explain += f\", {attack_type} vs {defend_type_2} is {mult2}x\"\n            \n        print(f\"Result: {res}\")\n        print(f\"Explanation: {explain}\")\n",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-02-23T02:04:09.469Z",
-        "action_counter": 1711
-      }
-    ]
-  },
   "walk_waypoints": {
     "description": "Calculates a single continuous sequence of D-pad presses to navigate through multiple waypoints (corners). Avoids the input-skipping issues of calling walk_to_coordinate multiple times in a single turn. Input should be a list of waypoint dictionaries.",
     "input_schema": {
@@ -368,65 +427,6 @@
         "commit_message": "Initial version",
         "timestamp": "2026-02-23T03:03:56.283Z",
         "action_counter": 1847
-      }
-    ]
-  },
-  "execute_battle_turn": {
-    "description": "Executes a full battle turn: selects FIGHT, chooses a move (1-4), and safely mashes A and B to advance text while automatically cancelling any 'change Pokemon' prompts.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "current_move_index": {
-          "type": "integer",
-          "minimum": 1,
-          "maximum": 4,
-          "default": 1
-        },
-        "target_move_index": {
-          "type": "integer",
-          "minimum": 1,
-          "maximum": 4
-        },
-        "start_on_main": {
-          "type": "boolean",
-          "default": true
-        }
-      },
-      "required": [
-        "target_move_index"
-      ]
-    },
-    "python_script": "import json\n\ndef get_button_sequence(input_data):\n    current_index = input_data.get('current_move_index', 1)\n    target_index = input_data.get('target_move_index', 1)\n    start_on_main = input_data.get('start_on_main', True)\n\n    buttons = []\n    if start_on_main:\n        buttons.append('A')\n        buttons.append('sleep 300')\n\n    diff = target_index - current_index\n    if diff > 0:\n        buttons.extend(['Down'] * diff)\n    elif diff < 0:\n        buttons.extend(['Up'] * abs(diff))\n\n    buttons.append('A')\n    buttons.append('sleep 500')\n\n    # Alternating A and B to advance text and cancel switch prompts\n    for _ in range(10):\n        buttons.extend(['A', 'sleep 300', 'B', 'sleep 300'])\n\n    return buttons\n\nprint(json.dumps(get_button_sequence(input_data)))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-02-23T03:33:46.573Z",
-        "action_counter": 1922
-      }
-    ]
-  },
-  "switch_pokemon_in_battle": {
-    "description": "Switches out the current active Pokemon for another one in the party during a battle. Assumes the cursor is on 'FIGHT' in the main battle menu.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "target_index": {
-          "type": "integer",
-          "minimum": 1,
-          "maximum": 6,
-          "default": 2
-        }
-      },
-      "required": [
-        "target_index"
-      ]
-    },
-    "python_script": "import json\n\ndef get_switch_sequence(input_data):\n    target = input_data.get('target_index', 2)\n    \n    # From FIGHT, press Right to highlight PKMN, then A to enter the menu\n    buttons = ['Right', 'A', 'sleep 500']\n    \n    # Navigate down to the target Pokemon (index 1 is the lead)\n    for _ in range(target - 1):\n        buttons.append('Down')\n        \n    # Press A to select the Pokemon, then A again to select SHIFT (top option)\n    buttons.extend(['A', 'sleep 300', 'A', 'sleep 1000'])\n    \n    # Mash B to clear \"Come back!\" and \"Go! X!\" text\n    for _ in range(6):\n        buttons.extend(['B', 'sleep 300'])\n        \n    return buttons\n\nprint(json.dumps(get_switch_sequence(input_data)))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-02-23T03:55:29.564Z",
-        "action_counter": 1951
       }
     ]
   }
