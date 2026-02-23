@@ -252,9 +252,10 @@ Route 3: Spearow, Pidgey
 - Robbed House: (9, 11)
 - Poke Mart: (25, 25)
 [City Layout & Traversal]
-- The city is divided horizontally by one-way ledges (y=15) that only allow southbound travel (jumping down).
-- You cannot walk directly north from the main southern street to Route 24.
-- To reach Route 24 from the Pokemon Center, you MUST enter the Robbed House at (9, 11) and walk through the hole in its back wall to reach the northern half of the city.
+- Route 24 connection is at x=20, y=0 (NOT x=10).
+- To reach Route 24 from the Pokemon Center (19, 17), walk right to x=20, then straight NORTH.
+- The Cut Tree at (23, 17) only blocks the easternmost path, not the path to Route 24.
+- Do NOT go through the Robbed House to go north; that area is a dead end blocked by trees at y=6.
 
 <hr>
 
