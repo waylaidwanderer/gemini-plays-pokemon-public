@@ -260,15 +260,6 @@ Route 3: Spearow, Pidgey
 
 <hr>
 
-<h1><code>Quests/CeruleanGym</code></h1>
-
-# Cerulean Gym
-- Strategy: Use Audrey (Bellsprout) for Grass-type advantage against Water Pokémon. 
-- Progress: Defeated Swimmer (5,7) and Jr. Trainer (5,3). Currently battling Misty. Staryu defeated.
-- Contingency: If Audrey faints or is too low HP for Starmie, switch to Hydro (Lv 27) to tank and use Tackle.
-
-<hr>
-
 <h1><code>Archive/MtMoon</code></h1>
 
 [Mt. Moon Topology]
@@ -327,5 +318,7 @@ Route 3: Spearow, Pidgey
 
 [Mechanics/LevelUp]
 - Mashing B cancels move learning.
+- Cascade Badge: Pokémon up to Lv 30 obey. Enables CUT outside of battle.
+- TM11 (Misty): Bubblebeam.
 
 <hr>
