@@ -201,5 +201,6 @@ Route 3: Spearow, Pidgey
 [B2F Mechanics & Navigation]
 - TYPE_2889 tiles act as impassable ledges/walls blocking eastward movement.
 - Spotted a new NPC (Super Nerd?) at (30, 24).
+- TM01: Mega Punch (Found in Mt. Moon B2F at 29, 5)
 
 <hr>
