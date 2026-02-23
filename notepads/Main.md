@@ -16,8 +16,7 @@
 - Encounters: Clefairy (Trainer), Zubat, Paras, Geodude
 [Inventory Items]
 - TM34: BIDE (Received from Brock)
-[Map Boundaries - Mt. Moon B2F]
-- Dead end section from ladder at (15, 27).
-- Found HP UP at (25, 22).
-- Raised platforms (TYPE_de37) block movement to western half.
-- Need to return to B1F via ladder at (15, 27).
+[Map Boundaries - Map 0_59]
+- Entrance at (14, 35) connects to Route 4.
+- Raised platforms (TYPE_de37, TYPE_2889) act as walls.
+- Internal warps/ladders: (25,15), (15,27), (17,11), (25,9).
