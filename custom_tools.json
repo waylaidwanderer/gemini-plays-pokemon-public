@@ -355,12 +355,17 @@
       "type": "object",
       "properties": {}
     },
-    "python_script": "import json\nprint(json.dumps(['Down', 'A', 'A']))",
+    "python_script": "import json\nprint(json.dumps(['Down', 'A', 'sleep 1000', 'A', 'sleep 500']))",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2026-02-23T01:03:31.548Z",
         "action_counter": 1552
+      },
+      {
+        "commit_message": "Initial version of throw_pokeball tool to avoid manual menu navigation errors.",
+        "timestamp": "2026-02-23T17:46:09.587Z",
+        "action_counter": 2461
       }
     ]
   },
