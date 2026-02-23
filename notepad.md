@@ -319,3 +319,14 @@ Route 3: Spearow, Pidgey
 - Item spotted at (22, 2). Can be accessed by luring the trainer at (24, 4) downwards.
 
 <hr>
+
+<h1><code>Mechanics/PC_System</code></h1>
+
+[PC Navigation]
+- To swap a Pokemon when party is full (6/6):
+  1. Access PC -> Bill's PC
+  2. DEPOSIT PKMN -> Select Pokemon to store -> Yes
+  3. WITHDRAW PKMN -> Select Pokemon to take -> Yes
+- PC menus are sensitive. Do NOT button mash. Use single A presses and verify screen state.
+
+<hr>
