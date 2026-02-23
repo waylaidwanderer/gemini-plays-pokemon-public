@@ -4,3 +4,4 @@
 - Trade House: (13, 15)
 - Pokemon Center: (19, 17)
 - Robbed House: (9, 11)
+- Poke Mart: (25, 25)
