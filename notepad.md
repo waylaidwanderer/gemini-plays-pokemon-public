@@ -226,6 +226,8 @@ Route 3: Spearow, Pidgey
 - Lass: Pidgey, Nidoran (F/M), Clefairy, Jigglypuff.
 - Super Nerd: Grimer, Voltorb, Koffing, Magnemite.
 - Team Rocket Grunt: Rattata, Zubat, Sandshrew, Ekans, Machop.
+[Rival Gary - Cerulean City]
+- Pidgeotto (Lv 18)
 
 <hr>
 
