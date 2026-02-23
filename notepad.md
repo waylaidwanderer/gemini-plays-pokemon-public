@@ -70,6 +70,12 @@ Execution Plan:
 - TYPE_44f6: One-way ledge (jump down only)
 - TYPE_fed7: Walkable tall grass
 - TYPE_3fe2: Walkable normal grass/ground (Cave entrance tiles)
+[Tile Mechanics]
+- TYPE_2889: Impassable tree/solid obstacle/cave wall
+- TYPE_44f6: One-way ledge (jump down only)
+- TYPE_fed7: Walkable tall grass
+- TYPE_3fe2: Walkable normal grass
+- Map Transitions: Require specific warp tiles, gatehouse doors, or screen-edge steps. Impassable boundaries/signs do not trigger transitions.
 
 <hr>
 
