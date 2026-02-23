@@ -14,12 +14,6 @@
 - Mt. Moon Start: Turn 1385
 - Cerulean City Arrival: Turn 2126
 
-[Mechanics/LevelUp]
-- Mashing B cancels move learning.
-[Visual Cues]
-- Pokemon Centers have a 'POKé' sign.
-- Poke Marts have a 'MART' sign.
-
 <hr>
 
 <h1><code>Quests/Main</code></h1>
