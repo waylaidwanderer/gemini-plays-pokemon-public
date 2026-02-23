@@ -211,7 +211,7 @@
       "properties": {},
       "required": []
     },
-    "python_script": "import json\ndef get_presses():\n    presses = []\n    # Initial conversation\n    for _ in range(5):\n        presses.extend(['A', 'sleep 1500'])\n    # Wait for the healing jingle\n    presses.append('sleep 5000')\n    # Post-healing conversation\n    for _ in range(5):\n        presses.extend(['A', 'sleep 1000'])\n    # Exit dialogue\n    presses.extend(['B', 'B'])\n    return presses\n\nprint(json.dumps(get_presses()))",
+    "python_script": "import json\ndef get_presses():\n    presses = []\n    # Initial conversation\n    for _ in range(5):\n        presses.extend(['A', 'sleep 1500'])\n    # Combine the sleep for the jingle with the last wait\n    presses[-1] = 'sleep 6500'\n    # Post-healing conversation\n    for _ in range(5):\n        presses.extend(['A', 'sleep 1000'])\n    # Exit dialogue\n    presses.extend(['B', 'B'])\n    return presses\n\nprint(json.dumps(get_presses()))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -232,6 +232,11 @@
         "commit_message": "Removed automatic Down press to prevent accidental exits, added explicit sleep for jingle.",
         "timestamp": "2026-02-23T22:41:46.161Z",
         "action_counter": 2945
+      },
+      {
+        "commit_message": "Fixed consecutive sleep commands by combining them.",
+        "timestamp": "2026-02-23T22:44:19.900Z",
+        "action_counter": 2950
       }
     ]
   },
