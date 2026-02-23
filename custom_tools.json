@@ -205,12 +205,13 @@
     ]
   },
   "pokemon_center_healer": {
-    "description": "Automates the healing dialogue at a Pokemon Center, carefully pressing A to navigate the menus and waiting for the healing animation, then pressing B to exit and Down to step away, avoiding accidental dialogue loops.",
+    "description": "Automates the healing dialogue at a Pokemon Center, carefully pressing A to navigate the menus and waiting for the healing animation. Removed the automatic 'Down' press to prevent accidental exits.",
     "input_schema": {
       "type": "object",
-      "properties": {}
+      "properties": {},
+      "required": []
     },
-    "python_script": "import json\n\npresses = []\n# Intro and HEAL selection\nfor _ in range(4):\n    presses.extend(['A', 'sleep 1500'])\n\n# Wait for the healing music/animation to finish\npresses.extend(['A', 'sleep 6000'])\n\n# Outro dialogue\nfor _ in range(5):\n    presses.extend(['A', 'sleep 1000'])\n\n# Step away to prevent re-triggering\npresses.extend(['B', 'sleep 500', 'Down'])\n\nprint(json.dumps(presses))",
+    "python_script": "import json\ndef get_presses():\n    presses = []\n    # Initial conversation\n    for _ in range(5):\n        presses.extend(['A', 'sleep 1500'])\n    # Wait for the healing jingle\n    presses.append('sleep 5000')\n    # Post-healing conversation\n    for _ in range(5):\n        presses.extend(['A', 'sleep 1000'])\n    # Exit dialogue\n    presses.extend(['B', 'B'])\n    return presses\n\nprint(json.dumps(get_presses()))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -226,6 +227,11 @@
         "commit_message": "Fix pokemon_center_healer to correctly navigate the HEAL prompt and wait for the animation without cancelling it prematurely.",
         "timestamp": "2026-02-23T07:33:06.640Z",
         "action_counter": 2281
+      },
+      {
+        "commit_message": "Removed automatic Down press to prevent accidental exits, added explicit sleep for jingle.",
+        "timestamp": "2026-02-23T22:41:46.161Z",
+        "action_counter": 2945
       }
     ]
   },
@@ -338,19 +344,19 @@
     ]
   },
   "switch_pokemon_in_battle": {
-    "description": "Switches active Pokemon. You MUST visually verify you are on the main battle menu before calling.",
+    "description": "Switches active Pokemon. You MUST visually verify you are on the main battle menu before calling. Includes initial delay for text lag.",
     "input_schema": {
       "type": "object",
       "properties": {
         "current_index": {
-          "type": "integer",
+          "maximum": 6,
           "minimum": 1,
-          "maximum": 6
+          "type": "integer"
         },
         "target_index": {
-          "type": "integer",
+          "maximum": 6,
           "minimum": 1,
-          "maximum": 6
+          "type": "integer"
         }
       },
       "required": [
@@ -358,7 +364,7 @@
         "target_index"
       ]
     },
-    "python_script": "import json\n\ncurrent_idx = input_data['current_index']\ntarget_idx = input_data['target_index']\n\npresses = []\n# Select PKMN (Top-Right)\npresses.extend(['Right', 'sleep 100', 'A', 'sleep 1000'])\n\n# Calculate downs needed\ndowns = target_idx - 1\nfor _ in range(downs):\n    presses.extend(['Down', 'sleep 100'])\n    \n# Select the Pokemon\npresses.extend(['A', 'sleep 500'])\n\n# Select SWITCH (Top option)\npresses.extend(['A', 'sleep 2000'])\n\nprint(json.dumps(presses))\n",
+    "python_script": "import sys, json\n\ndef get_presses(current_index, target_index):\n    presses = ['sleep 2000'] # Wait for text to finish scrolling\n    # Select PKMN\n    presses.extend(['Right', 'sleep 500', 'A', 'sleep 2000'])\n    # Navigate to target\n    if target_index > 1:\n        presses.extend(['Down', 'sleep 300'] * (target_index - 1))\n    presses.extend(['A', 'sleep 1000', 'A', 'sleep 2000'])\n    return presses\n\ntry:\n    input_data = json.loads(sys.stdin.read())\n    c_idx = int(input_data['current_index'])\n    t_idx = int(input_data['target_index'])\n    print(json.dumps(get_presses(c_idx, t_idx)))\nexcept Exception as e:\n    print(json.dumps([]))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -379,6 +385,11 @@
         "commit_message": "Fix switch_pokemon_in_battle: Remove function wrapper so the script executes in the global scope.",
         "timestamp": "2026-02-23T20:21:37.639Z",
         "action_counter": 2680
+      },
+      {
+        "commit_message": "Added initial sleep to handle text lag and adjusted transition delays.",
+        "timestamp": "2026-02-23T22:41:46.163Z",
+        "action_counter": 2945
       }
     ]
   },
