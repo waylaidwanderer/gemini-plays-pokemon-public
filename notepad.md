@@ -230,6 +230,7 @@ Route 3: Spearow, Pidgey
 - Pidgeotto (Lv 18)
 - Abra (Lv 15)
 - Rattata (Lv 15)
+- Bulbasaur (Lv 17)
 
 <hr>
 
