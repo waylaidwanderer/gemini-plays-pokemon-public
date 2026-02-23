@@ -228,6 +228,7 @@ Route 3: Spearow, Pidgey
 - Team Rocket Grunt: Rattata, Zubat, Sandshrew, Ekans, Machop.
 [Rival Gary - Cerulean City]
 - Pidgeotto (Lv 18)
+- Abra (Lv 15)
 
 <hr>
 
