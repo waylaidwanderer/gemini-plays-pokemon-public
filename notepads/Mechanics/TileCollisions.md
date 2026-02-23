@@ -34,3 +34,4 @@
 - TYPE_fed7: Walkable tall grass
 - TYPE_3fe2: Walkable normal grass
 - Map Transitions: Require specific warp tiles, gatehouse doors, or screen-edge steps. Impassable boundaries/signs do not trigger transitions.
+- TYPE_de37: Impassable raised cave platform/wall
