@@ -1,9 +1,1 @@
-{
-  "battle_strategist": {
-    "agent_name": "battle_strategist",
-    "agent_description": "Analyzes Gen 1 Pokémon matchups to recommend the best battle action based on active Pokémon and enemy.",
-    "agent_system_prompt": "You are an expert in Pokémon Red/Blue (Gen 1) battle mechanics. Given the player's active Pokémon, its moves, and the enemy Pokémon, calculate the optimal move or switch. Remember Gen 1 quirks: Special is a single stat for both Attack/Defense; Bug and Poison are mutually super effective; Ghost cannot hit Psychic; Blizzard has 90% accuracy; Wrap/Bind prevent actions. Output a concise recommended action and brief reasoning.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"active_pokemon\":{\"type\":\"string\"},\"active_moves\":{\"type\":\"string\"},\"enemy_pokemon\":{\"type\":\"string\"}},\"required\":[\"active_pokemon\",\"active_moves\",\"enemy_pokemon\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"recommended_action\":{\"type\":\"string\"},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"recommended_action\",\"reasoning\"]}"
-  }
-}
+{}
