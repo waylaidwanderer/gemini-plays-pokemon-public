@@ -25,8 +25,6 @@
 - Encounters: Clefairy (Trainer), Zubat (Expected)
 [Inventory Items]
 - TM34: BIDE (Received from Brock)
-[Mt. Moon Layout]
-(Moved to Locations/MtMoon)
 
 <hr>
 
@@ -180,20 +178,5 @@ Route 3: Spearow, Pidgey
 
 [High Priority]
 - Buy Antidotes ASAP at the next Poke Mart. Poison damage is brutal in caves.
-
-<hr>
-
-<h1><code>Locations/MtMoon</code></h1>
-
-[Mt. Moon Topology]
-- Start: Turn 1385
-- Entrance: B1F at (14, 35)
-- Encounters: Clefairy (Trainer), Zubat (Wild), Sandshrew (Trainer), Rattata (Trainer)
-
-[Mt. Moon Layout]
-- B1F Blocked at X=23, X=28 (around Y=17-25).
-- B1F Pathing: To navigate south from entry (25,15), stay between X=24 and X=27.
-- Found B1F ladder at (21, 17) (currently unreachable from current path).
-- Transitioned to B2F via ladder at (15, 27) on B1F.
 
 <hr>

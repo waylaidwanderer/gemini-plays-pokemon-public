@@ -23,5 +23,3 @@
 - Encounters: Clefairy (Trainer), Zubat (Expected)
 [Inventory Items]
 - TM34: BIDE (Received from Brock)
-[Mt. Moon Layout]
-(Moved to Locations/MtMoon)
