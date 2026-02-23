@@ -244,12 +244,14 @@ Route 3: Spearow, Pidgey
 <h1><code>Quests/CeruleanGym</code></h1>
 
 # Cerulean Gym (Misty)
+- Start Turn: 2188
 - Type: Water
 - Weaknesses: Grass, Electric
-- Current Team: Wartortle, NidoranF, Caterpie, Rattata, Spearow, Pidgey (No type advantage).
+- Current Team: Wartortle (Lv 23), NidoranF, Caterpie, Rattata, Spearow, Pidgey.
+- Contingency Plan (if Wartortle faints): Send in Pidgey/Spearow to use Sand-Attack/Growl to debuff the enemy, then use Potions to heal Wartortle back up.
 - Strategy:
-  1. Explore north of Cerulean City (Route 24/25) to see if a Grass or Electric type is available to catch.
-  2. If no advantageous types are found, overlevel Wartortle and use Normal-type moves, as Water resists Water.
-  3. Ensure team is healed and stocked with Potions before challenging.
+  1. Explore Route 24/25 to catch a Grass or Electric type.
+  2. If no advantageous types are found, rely on Wartortle's Normal-type moves.
+  3. Keep the team fully healed before challenging.
 
 <hr>
