@@ -429,5 +429,20 @@
         "action_counter": 1847
       }
     ]
+  },
+  "clear_dialogue": {
+    "description": "Clears variable-length NPC dialogue by safely mashing the B button a set number of times. This ensures text boxes are fully closed without accidentally triggering 'Yes' on prompts.",
+    "input_schema": {
+      "type": "object",
+      "properties": {}
+    },
+    "python_script": "def clear_dialogue(input_data):\n    # Press B 20 times to clear most standard dialogue boxes\n    return {\"buttons\": [\"B\"] * 20}\n",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-02-23T06:50:06.013Z",
+        "action_counter": 2231
+      }
+    ]
   }
 }
