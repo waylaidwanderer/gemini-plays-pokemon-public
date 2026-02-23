@@ -36,3 +36,5 @@
 - Map Transitions: Require specific warp tiles, gatehouse doors, or screen-edge steps. Impassable boundaries/signs do not trigger transitions.
 - TYPE_de37: Impassable raised cave platform/wall
 - Raised platforms (TYPE_2889 and TYPE_de37) are impassable tiles that act as walls, blocking movement. They cannot be walked over.
+- TYPE_2889: Impassable ledge/wall. Blocks movement.
+- TYPE_3fe2: Raised platform floor. Often inaccessible from lower floors without stairs.
