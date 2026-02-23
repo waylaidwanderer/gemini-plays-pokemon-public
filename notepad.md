@@ -224,3 +224,11 @@ Route 3: Spearow, Pidgey
 - Team Rocket Grunt: Rattata, Zubat, Sandshrew, Ekans, Machop.
 
 <hr>
+
+<h1><code>Locations/CeruleanCity</code></h1>
+
+# Cerulean City
+- Arrived Turn 2126
+- Connected to Route 4 (West, one-way ledges prevent returning to Mt. Moon)
+
+<hr>
