@@ -349,27 +349,31 @@
     ]
   },
   "switch_pokemon_in_battle": {
-    "description": "Switches active Pokemon. You MUST visually verify you are on the main battle menu before calling. Includes initial delay for text lag.",
+    "description": "Switches active Pokemon. Can start from main battle menu or PKMN menu. You MUST visually verify current_index before calling.",
     "input_schema": {
       "type": "object",
       "properties": {
-        "current_index": {
-          "maximum": 6,
-          "minimum": 1,
-          "type": "integer"
-        },
         "target_index": {
-          "maximum": 6,
+          "type": "integer",
           "minimum": 1,
-          "type": "integer"
+          "maximum": 6
+        },
+        "current_index": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 6,
+          "default": 1
+        },
+        "start_on_main": {
+          "type": "boolean",
+          "default": true
         }
       },
       "required": [
-        "current_index",
         "target_index"
       ]
     },
-    "python_script": "import sys, json\n\ndef get_presses(current_index, target_index):\n    presses = ['sleep 2000'] # Wait for text to finish scrolling\n    # Select PKMN\n    presses.extend(['Right', 'sleep 500', 'A', 'sleep 2000'])\n    # Navigate to target\n    if target_index > 1:\n        presses.extend(['Down', 'sleep 300'] * (target_index - 1))\n    presses.extend(['A', 'sleep 1000', 'A', 'sleep 2000'])\n    return presses\n\ntry:\n    input_data = json.loads(sys.stdin.read())\n    c_idx = int(input_data['current_index'])\n    t_idx = int(input_data['target_index'])\n    print(json.dumps(get_presses(c_idx, t_idx)))\nexcept Exception as e:\n    print(json.dumps([]))",
+    "python_script": "start_main = input_data.get('start_on_main', True)\ncurr = int(input_data.get('current_index', 1))\ntarg = int(input_data.get('target_index', 1))\n\nmoves = []\nif start_main:\n    moves.extend(['Right', 'sleep 300', 'A', 'sleep 1500'])\n\ndiff = targ - curr\nif diff > 0:\n    for _ in range(diff):\n        moves.extend(['Down', 'sleep 300'])\nelif diff < 0:\n    for _ in range(abs(diff)):\n        moves.extend(['Up', 'sleep 300'])\n\nmoves.extend(['A', 'sleep 1000'])\nimport json\nprint(json.dumps(moves))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -395,6 +399,11 @@
         "commit_message": "Added initial sleep to handle text lag and adjusted transition delays.",
         "timestamp": "2026-02-23T22:41:46.163Z",
         "action_counter": 2945
+      },
+      {
+        "commit_message": "Updated to handle starting from the main battle menu by default, navigating to the PKMN menu automatically.",
+        "timestamp": "2026-02-23T23:50:17.136Z",
+        "action_counter": 3065
       }
     ]
   },
