@@ -260,6 +260,7 @@ Route 3: Spearow, Pidgey
 - Badge Info House: (9, 11)
 - Robbed House: Exact coordinates unknown. Suspected path south to Vermilion City. Requires S.S. Ticket to progress past the officer.
 - Cerulean City (27, 11) connects to Robbed House (0_62) (2, 7)
+- Turn 3048: Encountered Team Rocket Grunt behind the Robbed House at (29, 8).
 
 <hr>
 
