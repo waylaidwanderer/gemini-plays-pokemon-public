@@ -14,9 +14,9 @@
 - Mt. Moon Start: Turn 1385
 - Cerulean City Arrival: Turn 2126
 
-[Route 24 & Nugget Bridge]
+[Route 24 & Route 25]
 - Start Turn: 2300
-- Plan: Defeat 5 trainers sequentially. Monitor HP.
+- Plan: Navigate east to Bill's House. Defeat trainers along the way. Monitor HP carefully.
 [Mechanics/LevelUp]
 - Mashing B cancels move learning.
 [Visual Cues]
