@@ -258,7 +258,7 @@ Route 3: Spearow, Pidgey
 [Navigation: Cerulean City to Route 24]
 - From Pokemon Center (19, 18), go Right to X=20, then Up to Y=0 to avoid the one-way ledge at X=10.
 - Badge Info House: (9, 11)
-- Robbed House: Exact coordinates unknown. Suspected path south to Vermilion City. Requires Cascade Badge to progress past the officer (obtained).
+- Robbed House: Exact coordinates unknown. Suspected path south to Vermilion City. Requires S.S. Ticket to progress past the officer.
 
 <hr>
 
