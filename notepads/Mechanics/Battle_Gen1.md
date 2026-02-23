@@ -6,3 +6,5 @@
   1. At the start of a NEW BATTLE.
   2. After a Pokemon LEVELS UP.
 - It is REMEMBERED between enemy Pokemon within the SAME battle (if no level up occurred).
+[Cursor Memory]
+- In Gen 1, menu cursor positions are remembered! The Item menu remembers the last used item position globally. The Fight menu remembers the last used move per-Pokemon. The Party menu remembers the last selected Pokemon. ALWAYS check the visual cursor position before using navigation tools, as assuming it resets to index 1 will cause wrong selections.
