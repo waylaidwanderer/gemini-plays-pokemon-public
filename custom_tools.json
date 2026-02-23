@@ -296,5 +296,34 @@
         "action_counter": 1454
       }
     ]
+  },
+  "type_matchup_calculator": {
+    "description": "Calculates Gen 1 Pokemon type matchup effectiveness.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "attack_type": {
+          "type": "string"
+        },
+        "defend_type_1": {
+          "type": "string"
+        },
+        "defend_type_2": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "attack_type",
+        "defend_type_1"
+      ]
+    },
+    "python_script": "\ntypes = [\n    \"NORMAL\", \"FIRE\", \"WATER\", \"ELECTRIC\", \"GRASS\", \"ICE\", \"FIGHTING\", \"POISON\", \n    \"GROUND\", \"FLYING\", \"PSYCHIC\", \"BUG\", \"ROCK\", \"GHOST\", \"DRAGON\"\n]\n\nchart = {\n    \"NORMAL\":   {\"ROCK\": 1, \"GHOST\": 0},\n    \"FIRE\":     {\"FIRE\": 1, \"WATER\": 1, \"GRASS\": 3, \"ICE\": 3, \"BUG\": 3, \"ROCK\": 1, \"DRAGON\": 1},\n    \"WATER\":    {\"FIRE\": 3, \"WATER\": 1, \"GRASS\": 1, \"GROUND\": 3, \"ROCK\": 3, \"DRAGON\": 1},\n    \"ELECTRIC\": {\"WATER\": 3, \"ELECTRIC\": 1, \"GRASS\": 1, \"GROUND\": 0, \"FLYING\": 3, \"DRAGON\": 1},\n    \"GRASS\":    {\"FIRE\": 1, \"WATER\": 3, \"GRASS\": 1, \"POISON\": 1, \"GROUND\": 3, \"FLYING\": 1, \"BUG\": 1, \"ROCK\": 3, \"DRAGON\": 1},\n    \"ICE\":      {\"WATER\": 1, \"GRASS\": 3, \"ICE\": 1, \"GROUND\": 3, \"FLYING\": 3, \"DRAGON\": 3},\n    \"FIGHTING\": {\"NORMAL\": 3, \"ICE\": 3, \"POISON\": 1, \"FLYING\": 1, \"PSYCHIC\": 1, \"BUG\": 1, \"ROCK\": 3, \"GHOST\": 0},\n    \"POISON\":   {\"GRASS\": 3, \"POISON\": 1, \"GROUND\": 1, \"BUG\": 3, \"ROCK\": 1, \"GHOST\": 1},\n    \"GROUND\":   {\"FIRE\": 3, \"ELECTRIC\": 3, \"GRASS\": 1, \"POISON\": 3, \"FLYING\": 0, \"BUG\": 1, \"ROCK\": 3},\n    \"FLYING\":   {\"ELECTRIC\": 1, \"GRASS\": 3, \"FIGHTING\": 3, \"BUG\": 3, \"ROCK\": 1},\n    \"PSYCHIC\":  {\"FIGHTING\": 3, \"POISON\": 3, \"PSYCHIC\": 1},\n    \"BUG\":      {\"FIRE\": 1, \"GRASS\": 3, \"FIGHTING\": 1, \"POISON\": 3, \"FLYING\": 1, \"PSYCHIC\": 3, \"GHOST\": 1},\n    \"ROCK\":     {\"FIRE\": 3, \"ICE\": 3, \"FIGHTING\": 1, \"GROUND\": 1, \"FLYING\": 3, \"BUG\": 3},\n    \"GHOST\":    {\"NORMAL\": 0, \"PSYCHIC\": 0, \"GHOST\": 3},\n    \"DRAGON\":   {\"DRAGON\": 3}\n}\n\nattack_type = str(input_data.get('attack_type', '')).upper()\ndefend_type_1 = str(input_data.get('defend_type_1', '')).upper()\ndefend_type_2 = input_data.get('defend_type_2')\n\nif attack_type not in types:\n    print(f\"Error: Unknown attack type '{attack_type}'\")\nelif defend_type_1 not in types:\n    print(f\"Error: Unknown defend type 1 '{defend_type_1}'\")\nelse:\n    val1 = chart.get(attack_type, {}).get(defend_type_1, 2)\n    mult1 = {0: 0.0, 1: 0.5, 2: 1.0, 3: 2.0}[val1]\n    \n    mult2 = 1.0\n    if defend_type_2:\n        defend_type_2 = str(defend_type_2).upper()\n        if defend_type_2 in types:\n            val2 = chart.get(attack_type, {}).get(defend_type_2, 2)\n            mult2 = {0: 0.0, 1: 0.5, 2: 1.0, 3: 2.0}[val2]\n        else:\n            print(f\"Error: Unknown defend type 2 '{defend_type_2}'\")\n            mult2 = None\n            \n    if mult2 is not None:\n        total_mult = mult1 * mult2\n        res = f\"{total_mult}x effectiveness\"\n        explain = f\"{attack_type} vs {defend_type_1} is {mult1}x\"\n        if defend_type_2:\n            explain += f\", {attack_type} vs {defend_type_2} is {mult2}x\"\n            \n        print(f\"Result: {res}\")\n        print(f\"Explanation: {explain}\")\n",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-02-23T02:04:09.469Z",
+        "action_counter": 1711
+      }
+    ]
   }
 }
