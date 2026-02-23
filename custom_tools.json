@@ -303,5 +303,20 @@
         "action_counter": 1454
       }
     ]
+  },
+  "throw_pokeball": {
+    "description": "Navigates the main battle menu to ITEM and selects the currently highlighted item (assumed to be a Poke Ball).",
+    "input_schema": {
+      "type": "object",
+      "properties": {}
+    },
+    "python_script": "import json\nprint(json.dumps(['Down', 'A', 'A']))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-02-23T01:03:31.548Z",
+        "action_counter": 1552
+      }
+    ]
   }
 }
