@@ -177,7 +177,7 @@
       "type": "object",
       "properties": {}
     },
-    "python_script": "import json\n\nbuttons = [\n    \"A\", \"sleep 2000\",\n    \"A\", \"sleep 2000\",\n    \"A\", \"sleep 2000\",\n    \"A\", \"sleep 8000\",\n    \"B\", \"sleep 1000\",\n    \"B\", \"sleep 1000\",\n    \"B\", \"sleep 1000\",\n    \"B\", \"sleep 1000\",\n    \"Down\"\n]\n\nprint(json.dumps(buttons))",
+    "python_script": "import json\n\npresses = []\n# Intro and HEAL selection\nfor _ in range(4):\n    presses.extend(['A', 'sleep 1500'])\n\n# Wait for the healing music/animation to finish\npresses.extend(['A', 'sleep 6000'])\n\n# Outro dialogue\nfor _ in range(5):\n    presses.extend(['A', 'sleep 1000'])\n\n# Step away to prevent re-triggering\npresses.extend(['B', 'sleep 500', 'Down'])\n\nprint(json.dumps(presses))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -188,6 +188,11 @@
         "commit_message": "Increased sleep intervals to account for text scrolling speed and prevent accidental cancellations.",
         "timestamp": "2026-02-22T17:46:33.314Z",
         "action_counter": 894
+      },
+      {
+        "commit_message": "Fix pokemon_center_healer to correctly navigate the HEAL prompt and wait for the animation without cancelling it prematurely.",
+        "timestamp": "2026-02-23T07:33:06.640Z",
+        "action_counter": 2281
       }
     ]
   },
