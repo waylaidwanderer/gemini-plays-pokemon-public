@@ -207,7 +207,7 @@ Route 3: Spearow, Pidgey
 - TM01: Mega Punch (Found in Mt. Moon B2F at 29, 5)
 - B2F: Ladder at (21, 17) connects to B1F.
 - B2F: Unreachable item ball spotted at (29, 11) on northern raised platform.
-- B2F: Long southern corridor wraps westward and then north to a Team Rocket Grunt.
+- B2F: Long southern corridor wraps westward to a Team Rocket Grunt, ending in a dead end at (17, 17).
 
 <hr>
 
