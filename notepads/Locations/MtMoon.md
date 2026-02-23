@@ -11,4 +11,3 @@
 [B2F Mechanics & Navigation]
 - TYPE_2889 tiles act as impassable ledges/walls blocking eastward movement.
 - Spotted a new NPC (Super Nerd?) at (30, 24).
-- Route taken from (25, 27): Walked east to x=30, then straight north along column 30 to reach (30, 7).
