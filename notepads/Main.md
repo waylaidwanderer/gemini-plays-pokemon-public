@@ -13,6 +13,6 @@
 [Mt. Moon Topology]
 - Start Turn: 1385
 - Entrance: (14, 35)
-- Encounters: Clefairy (Trainer), Zubat (Expected)
+- Encounters: Clefairy (Trainer), Zubat, Paras, Geodude
 [Inventory Items]
 - TM34: BIDE (Received from Brock)
