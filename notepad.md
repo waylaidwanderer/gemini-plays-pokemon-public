@@ -229,6 +229,7 @@ Route 3: Spearow, Pidgey
 [Rival Gary - Cerulean City]
 - Pidgeotto (Lv 18)
 - Abra (Lv 15)
+- Rattata (Lv 15)
 
 <hr>
 
