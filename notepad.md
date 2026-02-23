@@ -193,7 +193,7 @@ Route 3: Spearow, Pidgey
 
 [Mt. Moon Topology & Connections]
 - Start Turn: 1385
-- 1F Entrance: (14, 35) connects to Route 4.
+- 1F Entrance: (14, 35) connects to Route 3.
 - Ladder A: 1F (25, 15) <-> B1F (25, 15) [Leads to isolated corridor]
 - Ladder B: B1F (15, 27) <-> B2F (15, 27) [Leads to B2F Dead End, HP UP, TR Grunt]
 - Ladder C: 1F (5, 5) <-> B1F (5, 5) [Main path continuation]
