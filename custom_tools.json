@@ -328,7 +328,7 @@
     ]
   },
   "switch_pokemon_in_battle": {
-    "description": "Switches active Pokemon. You MUST visually verify current_index before calling.",
+    "description": "Switches active Pokemon. You MUST visually verify you are on the main battle menu before calling.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -348,7 +348,7 @@
         "target_index"
       ]
     },
-    "python_script": "import json\n\ndef execute(input_data):\n    current = int(input_data['current_index'])\n    target = int(input_data['target_index'])\n    presses = ['Right', 'A', 'sleep 500']\n    diff = target - current\n    if diff > 0:\n        for _ in range(diff):\n            presses.extend(['Down'])\n    elif diff < 0:\n        for _ in range(abs(diff)):\n            presses.extend(['Up'])\n    presses.extend(['A', 'sleep 300', 'A', 'sleep 1000'])\n    presses.extend(['B', 'sleep 300'] * 6)\n    print(json.dumps(presses))\n\nexecute(input_data)",
+    "python_script": "import json\n\ndef switch_pokemon_in_battle(input_data):\n    current_idx = input_data['current_index']\n    target_idx = input_data['target_index']\n    \n    presses = []\n    # Select PKMN (Top-Right)\n    presses.extend(['Right', 'sleep 100', 'A', 'sleep 1000'])\n    \n    # Calculate downs needed\n    downs = target_idx - 1\n    for _ in range(downs):\n        presses.extend(['Down', 'sleep 100'])\n        \n    # Select the Pokemon\n    presses.extend(['A', 'sleep 500'])\n    \n    # Select SWITCH (Top option)\n    presses.extend(['A', 'sleep 2000'])\n    \n    print(json.dumps(presses))\n",
     "history": [
       {
         "commit_message": "Initial version",
@@ -359,6 +359,11 @@
         "commit_message": "Removed default current_index to enforce visual verification of cursor memory.",
         "timestamp": "2026-02-23T18:32:40.714Z",
         "action_counter": 2551
+      },
+      {
+        "commit_message": "Update switch_pokemon_in_battle to be more robust with timings and document menu state requirements.",
+        "timestamp": "2026-02-23T20:19:01.842Z",
+        "action_counter": 2675
       }
     ]
   },
