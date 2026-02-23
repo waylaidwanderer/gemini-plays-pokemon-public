@@ -304,3 +304,12 @@ Route 3: Spearow, Pidgey
 - Route 25 Trainer Maze & Switch Training Start: Turn 2461
 
 <hr>
+
+<h1><code>Locations/Route25</code></h1>
+
+# Route 25
+- Arrived via Route 24 (East from the bridge).
+- Objective: Navigate east through the tree maze to Bill's House.
+- Item spotted at (17, 3). Path requires navigating around tree barriers.
+
+<hr>
