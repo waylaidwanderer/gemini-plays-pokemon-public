@@ -11,7 +11,7 @@
 - Route 2 Arrival: Turn 869
 
 [Mt. Moon Topology]
-- Start: Turn 1385
+- Start Turn: 1385
 - Entrance: (14, 35)
 - Encounters: Clefairy (Trainer), Zubat (Expected)
 [Inventory Items]
