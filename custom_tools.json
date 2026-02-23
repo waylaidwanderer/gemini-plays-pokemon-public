@@ -325,5 +325,50 @@
         "action_counter": 1711
       }
     ]
+  },
+  "walk_waypoints": {
+    "description": "Calculates a single continuous sequence of D-pad presses to navigate through multiple waypoints (corners). Avoids the input-skipping issues of calling walk_to_coordinate multiple times in a single turn. Input should be a list of waypoint dictionaries.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "current_x": {
+          "type": "integer"
+        },
+        "current_y": {
+          "type": "integer"
+        },
+        "waypoints": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "x": {
+                "type": "integer"
+              },
+              "y": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "x",
+              "y"
+            ]
+          }
+        }
+      },
+      "required": [
+        "current_x",
+        "current_y",
+        "waypoints"
+      ]
+    },
+    "python_script": "import json\n\ncurrent_x = input_data['current_x']\ncurrent_y = input_data['current_y']\nwaypoints = input_data['waypoints']\n\nbuttons = []\ncurr_x = current_x\ncurr_y = current_y\n\nfor wp in waypoints:\n    target_x = wp['x']\n    target_y = wp['y']\n    \n    dx = target_x - curr_x\n    dy = target_y - curr_y\n    \n    if dx > 0:\n        buttons.extend(['Right'] * dx)\n    elif dx < 0:\n        buttons.extend(['Left'] * abs(dx))\n        \n    if dy > 0:\n        buttons.extend(['Down'] * dy)\n    elif dy < 0:\n        buttons.extend(['Up'] * abs(dy))\n        \n    curr_x = target_x\n    curr_y = target_y\n    \nprint(json.dumps(buttons[:100]))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-02-23T03:03:56.283Z",
+        "action_counter": 1847
+      }
+    ]
   }
 }
