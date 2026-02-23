@@ -37,12 +37,17 @@
       "type": "object",
       "properties": {}
     },
-    "python_script": "def clear_dialogue(input_data):\n    # Press B 20 times to clear most standard dialogue boxes\n    return {\"buttons\": [\"B\"] * 20}\n",
+    "python_script": "import json\nprint(json.dumps(['B', 'B', 'B', 'B', 'B']))",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2026-02-23T06:50:06.013Z",
         "action_counter": 2231
+      },
+      {
+        "commit_message": "Fixed JSON serialization error to ensure the tool always returns a valid array of B presses.",
+        "timestamp": "2026-02-23T12:18:18.192Z",
+        "action_counter": 2401
       }
     ]
   },
@@ -51,11 +56,6 @@
     "input_schema": {
       "type": "object",
       "properties": {
-        "target_move_index": {
-          "type": "integer",
-          "minimum": 1,
-          "maximum": 4
-        },
         "current_move_index": {
           "type": "integer",
           "minimum": 1,
@@ -65,13 +65,18 @@
         "start_on_main": {
           "type": "boolean",
           "default": true
+        },
+        "target_move_index": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 4
         }
       },
       "required": [
         "target_move_index"
       ]
     },
-    "python_script": "import json\n\ntarget_move_index = int(input_data.get('target_move_index', 1))\ncurrent_move_index = int(input_data.get('current_move_index', 1))\nstart_on_main = input_data.get('start_on_main', True)\n\npresses = []\n\nif start_on_main:\n    presses.extend(['A', 'sleep 500'])\n\ndiff = target_move_index - current_move_index\nif diff > 0:\n    for _ in range(diff):\n        presses.extend(['Down', 'sleep 100'])\nelif diff < 0:\n    for _ in range(abs(diff)):\n        presses.extend(['Up', 'sleep 100'])\n\npresses.extend(['A', 'sleep 500'])\n\nprint(json.dumps(presses))",
+    "python_script": "import json\nstart_on_main = input_data.get('start_on_main', True)\ntarget = input_data.get('target_move_index', 1)\ncurrent = input_data.get('current_move_index', 1)\npresses = []\nif start_on_main:\n    presses.extend(['A', 'sleep 500'])\n    current = 1\ndiff = target - current\nif diff > 0:\n    for _ in range(diff):\n        presses.extend(['Down', 'sleep 100'])\nelif diff < 0:\n    for _ in range(abs(diff)):\n        presses.extend(['Up', 'sleep 100'])\npresses.extend(['A', 'sleep 500'])\nprint(json.dumps(presses))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -92,6 +97,11 @@
         "commit_message": "Remove destructive B-mashing from execute_battle_turn. Rely on auto-advance to progress text, preventing accidental move-learning cancellation.",
         "timestamp": "2026-02-23T09:19:00.564Z",
         "action_counter": 2311
+      },
+      {
+        "commit_message": "Refactored to enforce correct current_index when start_on_main is true, ensuring robust behavior and preventing misclicks.",
+        "timestamp": "2026-02-23T12:18:18.193Z",
+        "action_counter": 2401
       }
     ]
   },
