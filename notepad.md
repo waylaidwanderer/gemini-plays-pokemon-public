@@ -191,23 +191,21 @@ Route 3: Spearow, Pidgey
 
 <h1><code>Locations/MtMoon</code></h1>
 
-[Mt. Moon Topology]
+[Mt. Moon Topology & Connections]
 - Start Turn: 1385
-- Entrance: 1F (14, 35)
-- Encounters: Clefairy (Trainer), Zubat, Paras, Geodude
+- 1F Entrance: (14, 35) connects to Route 4.
+- Ladder A: 1F (25, 15) <-> B1F (25, 15) [Leads to isolated corridor]
+- Ladder B: B1F (15, 27) <-> B2F (15, 27) [Leads to B2F Dead End, HP UP, TR Grunt]
+- Ladder C: 1F (5, 5) <-> B1F (5, 5) [Main path continuation]
+- Ladder D: B1F (21, 17) <-> B2F (21, 17) [Main section of B2F, Super Nerd, TM01]
 
-[Map Boundaries - Mt. Moon]
-- B2F: Dead end section from ladder at (15, 27).
-- B2F: Found HP UP at (25, 22).
+[Map Boundaries & Notes]
+- Encounters: Clefairy, Zubat, Paras, Geodude
 - B2F: Raised platforms (TYPE_de37) block movement to western half.
-- B1F: Isolated corridor leading to B2F dead end starts from ladder at (25, 15) on 1F.
-[B2F Mechanics & Navigation]
-- TYPE_2889 tiles act as impassable ledges/walls blocking eastward movement.
-- Spotted a new NPC (Super Nerd?) at (30, 24).
-- TM01: Mega Punch (Found in Mt. Moon B2F at 29, 5)
-- B2F: Ladder at (21, 17) connects to B1F.
+- B2F: TYPE_2889 tiles act as impassable ledges/walls.
 - B2F: Unreachable item ball spotted at (29, 11) on northern raised platform.
 - B2F: Long southern corridor wraps westward to a Team Rocket Grunt, ending in a dead end at (17, 17).
+- 1F: Western corridor from Moon Stone (2,2) leads south.
 
 <hr>
 
