@@ -333,3 +333,10 @@ Route 3: Spearow, Pidgey
 - ALWAYS use short, 1-3 step movements to test unfamiliar collisions before committing to long tool sequences.
 
 <hr>
+
+<h1><code>Mechanics/General</code></h1>
+
+[Mechanics/LevelUp]
+- Mashing B cancels move learning.
+
+<hr>
