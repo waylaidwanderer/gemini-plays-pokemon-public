@@ -10,6 +10,7 @@
 - Grinding Start: Turn 415
 - Route 2 Arrival: Turn 869
 - Mt. Moon Start: Turn 1385
+- Cerulean City Arrival: Turn 2126
 
 [Mt. Moon Topology]
 - Entrance: (14, 35)
