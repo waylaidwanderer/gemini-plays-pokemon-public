@@ -3,13 +3,6 @@
 [Location Encounters]
 (Moved to Archive/LocationEncounters)
 
-[Tile Mechanics]
-- TYPE_2889: Impassable tree/solid obstacle
-- TYPE_44f6: One-way ledge (jump down only)
-- TYPE_fed7: Walkable tall grass
-- TYPE_3fe2: Walkable normal grass
-- Map Transitions: Require specific warp tiles, gatehouse doors, or screen-edge steps. Impassable boundaries/signs do not trigger transitions.
-
 [Lessons Learned]
 - Avoid over-mashing A during map transitions and battles. It causes UI desyncs, mistaken menu inputs, and turn hallucinations. Use targeted tools instead.
 - Always carry Antidotes when exploring caves to prevent retreating from Poison damage.
