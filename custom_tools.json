@@ -353,7 +353,7 @@
         "target_index"
       ]
     },
-    "python_script": "import json\n\ndef switch_pokemon_in_battle(input_data):\n    current_idx = input_data['current_index']\n    target_idx = input_data['target_index']\n    \n    presses = []\n    # Select PKMN (Top-Right)\n    presses.extend(['Right', 'sleep 100', 'A', 'sleep 1000'])\n    \n    # Calculate downs needed\n    downs = target_idx - 1\n    for _ in range(downs):\n        presses.extend(['Down', 'sleep 100'])\n        \n    # Select the Pokemon\n    presses.extend(['A', 'sleep 500'])\n    \n    # Select SWITCH (Top option)\n    presses.extend(['A', 'sleep 2000'])\n    \n    print(json.dumps(presses))\n",
+    "python_script": "import json\n\ncurrent_idx = input_data['current_index']\ntarget_idx = input_data['target_index']\n\npresses = []\n# Select PKMN (Top-Right)\npresses.extend(['Right', 'sleep 100', 'A', 'sleep 1000'])\n\n# Calculate downs needed\ndowns = target_idx - 1\nfor _ in range(downs):\n    presses.extend(['Down', 'sleep 100'])\n    \n# Select the Pokemon\npresses.extend(['A', 'sleep 500'])\n\n# Select SWITCH (Top option)\npresses.extend(['A', 'sleep 2000'])\n\nprint(json.dumps(presses))\n",
     "history": [
       {
         "commit_message": "Initial version",
@@ -369,6 +369,11 @@
         "commit_message": "Update switch_pokemon_in_battle to be more robust with timings and document menu state requirements.",
         "timestamp": "2026-02-23T20:19:01.842Z",
         "action_counter": 2675
+      },
+      {
+        "commit_message": "Fix switch_pokemon_in_battle: Remove function wrapper so the script executes in the global scope.",
+        "timestamp": "2026-02-23T20:21:37.639Z",
+        "action_counter": 2680
       }
     ]
   },
