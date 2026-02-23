@@ -205,3 +205,14 @@ Route 3: Spearow, Pidgey
 - TM01: Mega Punch (Found in Mt. Moon B2F at 29, 5)
 
 <hr>
+
+<h1><code>Mechanics/TrainerCompositions</code></h1>
+
+[Trainer Compositions]
+- Bug Catcher: Caterpie, Weedle, Metapod, Kakuna.
+- Youngster: Rattata, Zubat, Ekans, Sandshrew.
+- Lass: Pidgey, Nidoran (F/M), Clefairy, Jigglypuff.
+- Super Nerd: Grimer, Voltorb, Koffing, Magnemite.
+- Team Rocket Grunt: Rattata, Zubat, Sandshrew, Ekans, Machop.
+
+<hr>
