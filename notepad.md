@@ -19,9 +19,10 @@
 [Inventory Items]
 - TM34: BIDE (Received from Brock)
 [Map Boundaries - Mt. Moon B2F]
-- Ladder up to B1F at (25, 20).
-- Raised platforms (TYPE_de37) block movement.
-- Steps up to platform around (25, 23).
+- Dead end section from ladder at (15, 27).
+- Found HP UP at (25, 22).
+- Raised platforms (TYPE_de37) block movement to western half.
+- Need to return to B1F via ladder at (15, 27).
 
 <hr>
 
