@@ -59,6 +59,11 @@
     "input_schema": {
       "type": "object",
       "properties": {
+        "target_move_index": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 4
+        },
         "current_move_index": {
           "type": "integer",
           "minimum": 1,
@@ -68,18 +73,13 @@
         "start_on_main": {
           "type": "boolean",
           "default": true
-        },
-        "target_move_index": {
-          "type": "integer",
-          "minimum": 1,
-          "maximum": 4
         }
       },
       "required": [
         "target_move_index"
       ]
     },
-    "python_script": "import json\nstart_on_main = input_data.get('start_on_main', True)\ntarget = input_data.get('target_move_index', 1)\ncurrent = input_data.get('current_move_index', 1)\npresses = []\nif start_on_main:\n    presses.extend(['A', 'sleep 500'])\ndiff = target - current\nif diff > 0:\n    for _ in range(diff):\n        presses.extend(['Down', 'sleep 100'])\nelif diff < 0:\n    for _ in range(abs(diff)):\n        presses.extend(['Up', 'sleep 100'])\npresses.extend(['A', 'sleep 500'])\nprint(json.dumps(presses))",
+    "python_script": "import json\n\ndef execute_battle_turn(input_data):\n    target = input_data['target_move_index']\n    current = input_data.get('current_move_index', 1)\n    start_on_main = input_data.get('start_on_main', True)\n    \n    presses = []\n    if start_on_main:\n        presses.extend(['A', 'sleep 1000'])\n        \n    diff = target - current\n    if diff > 0:\n        for _ in range(diff):\n            presses.extend(['Down', 'sleep 300'])\n    elif diff < 0:\n        for _ in range(abs(diff)):\n            presses.extend(['Up', 'sleep 300'])\n            \n    presses.extend(['A', 'sleep 1000'])\n    print(json.dumps(presses))\n",
     "history": [
       {
         "commit_message": "Initial version",
@@ -110,6 +110,11 @@
         "commit_message": "Removed the forced current=1 when start_on_main is true, because Gen 1 remembers the last move selected.",
         "timestamp": "2026-02-23T12:24:58.590Z",
         "action_counter": 2405
+      },
+      {
+        "commit_message": "Update execute_battle_turn with visual verification, sleep timings, and robust cursor logic.",
+        "timestamp": "2026-02-23T20:20:03.235Z",
+        "action_counter": 2676
       }
     ]
   },
