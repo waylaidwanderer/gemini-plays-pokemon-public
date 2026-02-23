@@ -12,3 +12,4 @@
 - Do NOT go through the Robbed House to go north; that area is a dead end blocked by trees at y=6.
 [Navigation: Cerulean City to Route 24]
 - From Pokemon Center (19, 18), go Right to X=20, then Up to Y=0 to avoid the one-way ledge at X=10.
+- Robbed House at (28, 11): Suspected path south to Vermilion City. Requires Cascade Badge to progress past the officer (obtained).
