@@ -22,6 +22,9 @@
 [Visual Cues]
 - Pokemon Centers have a 'POKé' sign.
 - Poke Marts have a 'MART' sign.
+[Navigation: Route 24 to Route 25]
+- The connection to Route 25 is to the EAST at (19, 9), NOT north at y=0.
+- Navigate through the trees on the right side of the bridge.
 
 <hr>
 
