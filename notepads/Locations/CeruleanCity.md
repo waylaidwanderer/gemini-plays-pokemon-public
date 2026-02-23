@@ -5,3 +5,7 @@
 - Pokemon Center: (19, 17)
 - Robbed House: (9, 11)
 - Poke Mart: (25, 25)
+[City Layout & Traversal]
+- The city is divided horizontally by one-way ledges (y=15) that only allow southbound travel (jumping down).
+- You cannot walk directly north from the main southern street to Route 24.
+- To reach Route 24 from the Pokemon Center (19, 17), walk left to x=17, then walk north, then left to the bridge at x=10.
