@@ -261,16 +261,11 @@ Route 3: Spearow, Pidgey
 
 <h1><code>Quests/CeruleanGym</code></h1>
 
-# Cerulean Gym (Misty)
-- Start Turn: 2188
-- Type: Water
-- Weaknesses: Grass, Electric
-- Current Team: Wartortle (Lv 23), NidoranF, Caterpie, Rattata, Spearow, Pidgey.
-- Contingency Plan (if Wartortle faints): Send in Pidgey/Spearow to use Sand-Attack/Growl to debuff the enemy, then use Potions to heal Wartortle back up.
-- Strategy:
-  1. Explore Route 24/25 to catch a Grass or Electric type.
-  2. If no advantageous types are found, rely on Wartortle's Normal-type moves.
-  3. Keep the team fully healed before challenging.
+# Cerulean Gym
+- Goal: Defeat Misty for the Cascade Badge.
+- Strategy: Use Audrey (Bellsprout) for Grass-type advantage against Water Pokémon. 
+- Progress: Defeated Swimmer (5,7). Heading to engage Jr. Trainer at (4,2). Misty should be at the top.
+- Reminder: Ensure I am standing directly in front of Nurse Joy before using pokemon_center_healer tool, or the finishing 'Down' input will make me exit the building.
 
 <hr>
 
