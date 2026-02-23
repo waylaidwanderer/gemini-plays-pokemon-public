@@ -86,6 +86,7 @@ Execution Plan:
 - **Menu Navigation:** In battle, if you accidentally enter the ITEM menu, you must press B to exit it, then press Up to move the cursor back to FIGHT, then A to select it. The `battle_move_selector` tool ONLY works when the cursor is already inside the FIGHT menu (showing the 4 moves). Do not mash B to back out of menus, as you might back out of the FIGHT menu entirely.
 [Route 25 Enemies]
 - Youngster's Lv 17 Slowpoke: Confusion deals 6-12 damage to Lv 25 Wartortle.
+- Gym Leaders (e.g., Misty) actively use stat-boosting items like X Defend during battle. Plan for longer fights or bring counter-stat moves (like Tail Whip) if relying on physical damage.
 
 <hr>
 
