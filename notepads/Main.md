@@ -16,3 +16,7 @@
 - Encounters: Clefairy (Trainer), Zubat, Paras, Geodude
 [Inventory Items]
 - TM34: BIDE (Received from Brock)
+[Map Boundaries - Mt. Moon B2F]
+- Ladder up to B1F at (25, 20).
+- Raised platforms (TYPE_de37) block movement.
+- Steps up to platform around (25, 23).
