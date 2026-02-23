@@ -77,6 +77,7 @@ Execution Plan:
 - Raised platforms (TYPE_2889 and TYPE_de37) are impassable tiles that act as walls, blocking movement. They cannot be walked over.
 - TYPE_2889: Impassable ledge/wall. Blocks movement.
 - TYPE_3fe2: Raised platform floor. Often inaccessible from lower floors without stairs.
+- TYPE_3fe2: Regular passable ground/bridge (NOT tall grass, no encounters here).
 
 <hr>
 
