@@ -12,3 +12,4 @@
 - TYPE_2889 tiles act as impassable ledges/walls blocking eastward movement.
 - Spotted a new NPC (Super Nerd?) at (30, 24).
 - TM01: Mega Punch (Found in Mt. Moon B2F at 29, 5)
+- B2F: Ladder at (21, 17) connects to B1F.
