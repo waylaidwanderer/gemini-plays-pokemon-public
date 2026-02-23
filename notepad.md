@@ -14,8 +14,11 @@
 - Mt. Moon Start: Turn 1385
 - Cerulean City Arrival: Turn 2126
 
-[Inventory Items]
-- TM34: BIDE (Received from Brock)
+[Route 24 & Nugget Bridge]
+- Start Turn: 2300
+- Plan: Defeat 5 trainers sequentially. Monitor HP.
+[Mechanics/LevelUp]
+- Mashing B cancels move learning.
 [Visual Cues]
 - Pokemon Centers have a 'POKé' sign.
 - Poke Marts have a 'MART' sign.
