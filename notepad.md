@@ -17,6 +17,11 @@
 - Turn 3239 Reflection: Long pathing macros (walk_waypoints) are highly brittle in NPC-populated areas. Navigate step-by-step and verify 'TYPE_' collision data instead of trusting visual assumptions about fences/roofs.
 [Trades]
 - Route 5 Gate (Underground Path entrance): NPC wants to trade a Nidoran F for a Nidoran M.
+[Vermilion City Plan]
+1. Heal at Pokemon Center.
+2. Get Pebbles (Geodude) from the PC for the Electric gym.
+3. Train Cleo (Nidoran F) and Pebbles for Lt. Surge.
+4. Explore S.S. Anne (have S.S. Ticket).
 
 <hr>
 
