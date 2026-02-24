@@ -25,8 +25,8 @@
 [Recovery Plan (If White-Out)]
 - Start Turn: 3415
 1. Respawn at Cerulean City Pokemon Center. (Done)
-2. Deposit low-level flying/bug types in PC.
-3. Withdraw Geodude (Pebbles) from PC.
+2. Deposit low-level flying/bug types in PC. (Done)
+3. Withdraw Geodude (Pebbles) from PC. (Done)
 4. Buy Potions, Awakenings, and Antidotes at Cerulean Poke Mart.
 5. Train Cleo and Pebbles before attempting Route 6 again.
 
