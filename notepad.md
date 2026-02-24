@@ -284,6 +284,9 @@ Route 3: Spearow, Pidgey
 - (13, 25) is Bike Shop. Avoid walking into the door accidentally.
 - (23, 17) and (22, 17) have Cut Trees blocking horizontal movement.
 - (19, 28) has a Cut Tree blocking the south exit.
+[Navigation Correction]
+- Route 24 Bridge is straight NORTH from (20, 17) (just right of the Pokemon Center).
+- The Robbed House hole at (27, 9) is ONLY for bypassing the south Cut tree to reach Route 5.
 
 <hr>
 
