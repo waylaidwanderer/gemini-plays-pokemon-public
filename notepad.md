@@ -262,6 +262,10 @@ Route 3: Spearow, Pidgey
 - Robbed House: Front Door at (27, 11) connects to (0_62) (2, 7). Hole at the back (27, 9).
 - The path to Route 5 requires entering the Front Door at (27, 11) and exiting the Hole at the back (27, 9). From the backyard, walk RIGHT to X=33 and JUMP the ledges to enter the southern half of Cerulean City. Then, walk LEFT back to the center of town (around X=20) and head SOUTH to Route 5.
 - Turn 3048: Encountered Team Rocket Grunt behind the Robbed House at (29, 8).
+[Spatial Layout]
+- Bike Shop (Map 0_66) entrance is at (13, 25).
+- Direct south path to Route 5 is blocked by a Cut Tree at (19, 28).
+- To bypass the Cut Tree and reach Route 5, you must detour through the Robbed House at (27, 11).
 
 <hr>
 
