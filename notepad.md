@@ -274,15 +274,10 @@ Route 3: Spearow, Pidgey
 
 [Path to Route 5 (Bypassing Cut Tree & Ledges)]
 - Objective Started: Turn 3048
-1. From the Pokemon Center, you CANNOT go straight North or East to the Robbed House due to one-way ledges.
-2. Walk WEST all the way to x=8 to bypass the ledges.
-3. Walk NORTH to y=11.
-4. Walk EAST straight across the top of the city to x=27.
-5. Enter the Robbed House front door at (27, 11).
-6. Inside, take the warp at (3, 0) to exit through the hole in the wall.
-7. You will emerge in the backyard at (27, 9).
-8. Walk RIGHT past X=33 all the way to X=36 or X=37.
-9. Walk SOUTH down the clear path to enter Route 5. This path is separated from the rest of Cerulean City by a fence at X=35.
+1. From the Pokemon Center, bypass the one-way ledges by heading west, then north, then east across the top of the city.
+2. Enter the Robbed House front door at (27, 11).
+3. Inside, take the warp at (3, 0) to exit through the hole in the wall.
+4. In the backyard, navigate the gaps to the main south path and enter Route 5.
 
 [Layout Hazards]
 - (13, 25) is Bike Shop. Avoid walking into the door accidentally.
