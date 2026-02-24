@@ -370,8 +370,8 @@ WARNING: Bellsprout's Vine Whip is 4x effective against Geodude. Train Cleo here
 
 # Route 5
 - Located South of Cerulean City.
-- Saffron City Gate: (17, 27). BLOCKED by thirsty guards. (Roof starts at y=23).
-- Underground Path: Located in the far-right lane (x=20+).
-- To reach Underground Path: DO NOT enter Route 5 from the main south exit of Cerulean City (x=27/x=28), as that puts you in the center lane (x=17/x=18) which leads to the blocked Saffron Gate. Go through the Robbed House (27, 11), exit its back hole, and walk south along the FAR east edge of Cerulean City (x=39). This aligns you with the correct far-right lane of Route 5.
+- Saffron City Gate: Center lane (x=10). BLOCKED by thirsty guards. (Roof starts at y=23).
+- Underground Path: Far-right lane. Door is at (17, 27).
+- To reach Underground Path: Exit Cerulean City at x=28 (behind Robbed House). This puts you in Route 5 at x=18. Walk straight south to the Underground Path building. A 1-way ledge at Cerulean (28, 33) prevents going back up, proving this is the correct path. Do not trust previous hallucinated notes about x=39.
 
 <hr>
