@@ -13,6 +13,6 @@
 [Navigation: Cerulean City to Route 24]
 - From Pokemon Center (19, 18), go Right to X=20, then Up to Y=0 to avoid the one-way ledge at X=10.
 - Badge Info House: (9, 11)
-- Robbed House: Exact coordinates unknown. Suspected path south to Vermilion City. Requires S.S. Ticket to progress past the officer.
-- Cerulean City (27, 11) connects to Robbed House (0_62) (2, 7)
+- Robbed House: Front Door at (27, 11) connects to (0_62) (2, 7). Hole at the back (27, 9).
+- The path to Route 5 requires entering the Front Door at (27, 11), exiting the Hole at the back (27, 9), and walking south from the backyard to bypass the ledges.
 - Turn 3048: Encountered Team Rocket Grunt behind the Robbed House at (29, 8).
