@@ -24,3 +24,4 @@
 - Start Turn: 3415
 1. Buy Potions, Awakenings, and Antidotes at Cerulean Poke Mart.
 2. Train Cleo (target Lv16) and Pebbles (target Lv15) on Route 24/25 before attempting Route 6 again. Use switch training with Hydro or Audrey (for Special attacks against Harden users like Metapod/Kakuna).
+- Turn 3968 Reflection: Confused Saffron Gate and Underground Path due to flawed map markers. I must rely on direct observation and systematic exploration (checking all map edges) rather than trusting unverified assumptions or old notes. Ledges (TYPE_44f6) enforce one-way downward movement, requiring me to loop back to the top of Route 5 to access the right-side lanes.
