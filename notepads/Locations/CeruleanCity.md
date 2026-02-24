@@ -15,7 +15,8 @@
 - Robbed House (Hole in back): (27, 9)
 
 [Path to Route 5 (Bypassing Cut Tree)]
-1. Reach the Robbed House at (27, 11). To get there from the south, go to Y=20, walk East to X=28, Down to Y=21, East to X=32, North to Y=11, then West to (27, 11).
+- Objective Started: Turn 3048
+1. Detour east around the Gym to reach the Robbed House at (27, 11).
 2. Enter Robbed House at (27, 11).
 3. Exit through the hole at (27, 9).
 4. In the backyard, walk RIGHT to X=33 and JUMP DOWN the ledges.
