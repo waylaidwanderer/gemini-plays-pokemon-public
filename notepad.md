@@ -369,3 +369,12 @@ Route 3: Spearow, Pidgey
 WARNING: Bellsprout's Vine Whip is 4x effective against Geodude. Train Cleo here instead.
 
 <hr>
+
+<h1><code>Locations/Route5</code></h1>
+
+# Route 5
+- Located South of Cerulean City.
+- Saffron City Gate: (17, 27). Currently BLOCKED by thirsty guards.
+- Underground Path: Separate building. Need to explore the east side of the route to find it.
+
+<hr>
