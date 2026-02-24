@@ -1,0 +1,2 @@
+- Item Menu: The in-game Item menu order is chronological/manual, NOT alphabetical. Do not rely on Game State inventory order for navigation.
+- Cursor Memory: The PKMN switch menu and FIGHT menu remember the last selected index per session/battle. ALWAYS visually verify the starting cursor position and pass it to custom tools (current_index) to prevent wrong selections.

@@ -378,3 +378,10 @@ WARNING: Bellsprout's Vine Whip is 4x effective against Geodude. Train Cleo here
 - To reach Underground Path: Exit Cerulean City at x=28 (behind Robbed House). This puts you in Route 5 at x=18. Walk straight south to the Underground Path building. A 1-way ledge at Cerulean (28, 33) prevents going back up, proving this is the correct path. Do not trust previous hallucinated notes about x=39.
 
 <hr>
+
+<h1><code>Mechanics/UI</code></h1>
+
+- Item Menu: The in-game Item menu order is chronological/manual, NOT alphabetical. Do not rely on Game State inventory order for navigation.
+- Cursor Memory: The PKMN switch menu and FIGHT menu remember the last selected index per session/battle. ALWAYS visually verify the starting cursor position and pass it to custom tools (current_index) to prevent wrong selections.
+
+<hr>
