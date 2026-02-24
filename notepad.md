@@ -23,10 +23,12 @@
 3. Train Cleo (Nidoran F) and Pebbles for Lt. Surge.
 4. Explore S.S. Anne (have S.S. Ticket).
 [Recovery Plan (If White-Out)]
-1. Respawn at Cerulean City Pokemon Center.
-2. Buy Potions, Awakenings, and Antidotes at Cerulean Poke Mart.
+- Start Turn: 3415
+1. Respawn at Cerulean City Pokemon Center. (Done)
+2. Deposit low-level flying/bug types in PC.
 3. Withdraw Geodude (Pebbles) from PC.
-4. Train Cleo and Pebbles before attempting Route 6 again.
+4. Buy Potions, Awakenings, and Antidotes at Cerulean Poke Mart.
+5. Train Cleo and Pebbles before attempting Route 6 again.
 
 <hr>
 
