@@ -628,7 +628,7 @@
         }
       }
     },
-    "python_script": "import json\n\npacing_axis = input_data.get('pacing_axis', 'horizontal')\npacing_steps = input_data.get('pacing_steps', 2)\n\nbuttons = []\n\nif pacing_axis == 'horizontal':\n    dir1 = 'Left'\n    dir2 = 'Right'\nelse:\n    dir1 = 'Up'\n    dir2 = 'Down'\n    \nfor _ in range(pacing_steps):\n    buttons.extend([dir1, \"sleep 150\", dir1, \"sleep 300\"])\n    buttons.extend([dir2, \"sleep 150\", dir2, \"sleep 300\"])\n    \nbuttons.append(\"sleep 2000\")\n\nfor _ in range(15):\n    buttons.extend([\"A\", \"sleep 300\"])\n    \nprint(json.dumps(buttons[:100]))",
+    "python_script": "import json\n\npacing_axis = input_data.get('pacing_axis', 'horizontal')\npacing_steps = input_data.get('pacing_steps', 2)\n\nbuttons = []\n\nif pacing_axis == 'horizontal':\n    dir1 = 'Left'\n    dir2 = 'Right'\nelse:\n    dir1 = 'Up'\n    dir2 = 'Down'\n    \nfor _ in range(pacing_steps):\n    buttons.extend([dir1, \"sleep 150\", dir1, \"sleep 300\"])\n    buttons.extend([dir2, \"sleep 150\", dir2, \"sleep 300\"])\n\nif buttons and buttons[-1].startswith(\"sleep\"):\n    buttons.pop()\n\nbuttons.append(\"sleep 2000\")\n\nfor _ in range(15):\n    buttons.extend([\"A\", \"sleep 300\"])\n\nif buttons and buttons[-1].startswith(\"sleep\"):\n    buttons.pop()\n    \nprint(json.dumps(buttons[:100]))",
     "history": [
       {
         "commit_message": "Redefine auto_grinder as auto_grind with simplified movement (4 consecutive presses per direction) and A-mashing for battle.",
@@ -639,6 +639,11 @@
         "commit_message": "Re-add sleeps between consecutive directional presses. I accidentally removed them when renaming the tool, causing the emulator to drop the inputs and just turn me in place again.",
         "timestamp": "2026-02-24T17:50:44.997Z",
         "action_counter": 3776
+      },
+      {
+        "commit_message": "Fix consecutive sleep error by ensuring no double sleeps are appended before the battle text clearing phase.",
+        "timestamp": "2026-02-24T17:55:07.522Z",
+        "action_counter": 3779
       }
     ]
   }
