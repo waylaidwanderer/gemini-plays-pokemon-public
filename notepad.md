@@ -266,8 +266,8 @@ Route 3: Spearow, Pidgey
 1. Detour east around the Gym to reach the Robbed House at (27, 11).
 2. Enter Robbed House at (27, 11).
 3. Exit through the hole at (27, 9).
-4. In the backyard, walk RIGHT to X=33 and JUMP DOWN the ledges.
-5. Walk EAST to X=36, where there is a clear, walkable gap in the trees leading SOUTH to Route 5.
+4. In the backyard, walk RIGHT past X=33 all the way to X=36 or X=37.
+5. Walk SOUTH down the clear path to enter Route 5. This path is separated from the rest of Cerulean City by a fence at X=35.
 
 [Layout Hazards]
 - (13, 25) is Bike Shop. Avoid walking into the door accidentally.
