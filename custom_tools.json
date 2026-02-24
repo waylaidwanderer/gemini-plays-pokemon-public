@@ -610,5 +610,31 @@
         "action_counter": 1847
       }
     ]
+  },
+  "auto_grind": {
+    "description": "Automates pacing in grass to trigger encounters and mashing A to clear battles.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "pacing_axis": {
+          "type": "string",
+          "enum": [
+            "horizontal",
+            "vertical"
+          ]
+        },
+        "pacing_steps": {
+          "type": "integer"
+        }
+      }
+    },
+    "python_script": "import json\n\npacing_axis = input_data.get('pacing_axis', 'horizontal')\npacing_steps = input_data.get('pacing_steps', 2)\n\nbuttons = []\n\nif pacing_axis == 'horizontal':\n    dir1 = 'Left'\n    dir2 = 'Right'\nelse:\n    dir1 = 'Up'\n    dir2 = 'Down'\n    \nfor _ in range(pacing_steps):\n    for _ in range(4):\n        buttons.append(dir1)\n    for _ in range(4):\n        buttons.append(dir2)\n    \nbuttons.append(\"sleep 2000\")\n\nfor _ in range(15):\n    buttons.append(\"A\")\n    buttons.append(\"sleep 300\")\n    \nprint(json.dumps(buttons[:100]))",
+    "history": [
+      {
+        "commit_message": "Redefine auto_grinder as auto_grind with simplified movement (4 consecutive presses per direction) and A-mashing for battle.",
+        "timestamp": "2026-02-24T17:47:35.870Z",
+        "action_counter": 3774
+      }
+    ]
   }
 }
