@@ -16,7 +16,7 @@
         }
       }
     },
-    "python_script": "import json\n\ndef execute(input_data):\n    pacing_axis = input_data.get('pacing_axis', 'horizontal')\n    pacing_steps = input_data.get('pacing_steps', 4)\n    \n    buttons = []\n    \n    if pacing_axis == 'horizontal':\n        dir1 = 'Left'\n        dir2 = 'Right'\n    else:\n        dir1 = 'Up'\n        dir2 = 'Down'\n        \n    for _ in range(pacing_steps):\n        buttons.append(dir1)\n        buttons.append(dir1)\n        buttons.append(\"sleep 300\")\n        buttons.append(dir2)\n        buttons.append(dir2)\n        buttons.append(\"sleep 300\")\n        \n    # Standard battle text clearing\n    buttons.append(\"sleep 3500\")\n    for _ in range(8):\n        buttons.append(\"B\")\n        buttons.append(\"sleep 300\")\n    for _ in range(2):\n        buttons.append(\"A\")\n        buttons.append(\"sleep 500\")\n    for _ in range(8):\n        buttons.append(\"A\")\n        buttons.append(\"sleep 300\")\n        \n    print(json.dumps(buttons[:100]))\n",
+    "python_script": "import json\n\ndef execute(input_data):\n    pacing_axis = input_data.get('pacing_axis', 'horizontal')\n    pacing_steps = input_data.get('pacing_steps', 4)\n    \n    buttons = []\n    \n    if pacing_axis == 'horizontal':\n        dir1 = 'Left'\n        dir2 = 'Right'\n    else:\n        dir1 = 'Up'\n        dir2 = 'Down'\n        \n    for _ in range(pacing_steps):\n        buttons.append(dir1)\n        buttons.append(dir1)\n        buttons.append(\"sleep 300\")\n        buttons.append(dir2)\n        buttons.append(dir2)\n        buttons.append(\"sleep 300\")\n        \n    # Standard battle text clearing\n    for _ in range(8):\n        buttons.append(\"B\")\n        buttons.append(\"sleep 300\")\n    for _ in range(2):\n        buttons.append(\"A\")\n        buttons.append(\"sleep 500\")\n    for _ in range(8):\n        buttons.append(\"A\")\n        buttons.append(\"sleep 300\")\n        \n    print(json.dumps(buttons[:100]))\n",
     "history": [
       {
         "commit_message": "Initial version",
@@ -47,6 +47,11 @@
         "commit_message": "Fix auto_grinder to double-press directional inputs to actually move instead of just turning in place.",
         "timestamp": "2026-02-24T16:25:39.046Z",
         "action_counter": 3752
+      },
+      {
+        "commit_message": "Fix consecutive sleep error in auto_grinder by removing the extra sleep before clearing battle text.",
+        "timestamp": "2026-02-24T16:30:21.506Z",
+        "action_counter": 3754
       }
     ]
   },
