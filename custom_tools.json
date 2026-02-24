@@ -624,7 +624,7 @@
       },
       "required": []
     },
-    "python_script": "import json\n\naxis = input_data.get('pacing_axis', 'vertical')\nsteps = int(input_data.get('pacing_steps', 6))\n\nif steps > 14:\n    steps = 14\nif steps % 2 != 0:\n    steps += 1\n\nbuttons = []\nfor i in range(steps):\n    if axis == 'vertical':\n        buttons.append(\"Up\" if i % 2 == 0 else \"Down\")\n    else:\n        buttons.append(\"Left\" if i % 2 == 0 else \"Right\")\n    buttons.append(\"sleep 300\")\n\nbuttons.append(\"sleep 3500\")\n\nfor _ in range(8):\n    buttons.extend([\"B\", \"sleep 300\"])\n\nbuttons.extend([\"A\", \"sleep 500\", \"A\", \"sleep 500\"])\n\nfor _ in range(8):\n    buttons.extend([\"B\", \"sleep 300\"])\n\nprint(json.dumps(buttons))",
+    "python_script": "import json\n\naxis = input_data.get('pacing_axis', 'vertical')\nsteps = int(input_data.get('pacing_steps', 6))\n\nif steps > 14:\n    steps = 14\nif steps % 2 != 0:\n    steps += 1\n\nbuttons = []\nfor i in range(steps):\n    if axis == 'vertical':\n        buttons.append(\"Up\" if i % 2 == 0 else \"Down\")\n    else:\n        buttons.append(\"Left\" if i % 2 == 0 else \"Right\")\n    \n    if i < steps - 1:\n        buttons.append(\"sleep 300\")\n\nbuttons.append(\"sleep 3500\")\n\nfor _ in range(8):\n    buttons.extend([\"B\", \"sleep 300\"])\n\nbuttons.extend([\"A\", \"sleep 500\", \"A\", \"sleep 500\"])\n\nfor _ in range(8):\n    buttons.extend([\"B\", \"sleep 300\"])\n\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -640,6 +640,11 @@
         "commit_message": "Fixed python script to run at top level, use input_data global, and print a JSON array instead of an object.",
         "timestamp": "2026-02-24T06:20:13.418Z",
         "action_counter": 3642
+      },
+      {
+        "commit_message": "Fixed consecutive sleep issue.",
+        "timestamp": "2026-02-24T06:23:16.610Z",
+        "action_counter": 3648
       }
     ]
   }
