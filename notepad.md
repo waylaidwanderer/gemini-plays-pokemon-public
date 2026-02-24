@@ -267,7 +267,7 @@ Route 3: Spearow, Pidgey
 2. Enter Robbed House at (27, 11).
 3. Exit through the hole at (27, 9).
 4. In the backyard, walk RIGHT to X=33 and JUMP DOWN the ledges.
-5. Walk LEFT to the center of town and head SOUTH to enter Route 5.
+5. Keep walking SOUTH along the eastern edge of the city to enter Route 5.
 
 [Layout Hazards]
 - (13, 25) is Bike Shop. Avoid walking into the door accidentally.
