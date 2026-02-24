@@ -20,7 +20,7 @@
 2. Enter Robbed House at (27, 11).
 3. Exit through the hole at (27, 9).
 4. In the backyard, walk RIGHT to X=33 and JUMP DOWN the ledges.
-5. Walk WEST along the southern edge (Y=27) and carefully scan Y=28 to find the open path to Route 5.
+5. Walk EAST to X=36, where there is a clear, walkable gap in the trees leading SOUTH to Route 5.
 
 [Layout Hazards]
 - (13, 25) is Bike Shop. Avoid walking into the door accidentally.
