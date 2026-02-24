@@ -15,10 +15,11 @@
 - Robbed House (Hole in back): (27, 9)
 
 [Path to Route 5 (Bypassing Cut Tree)]
-1. Enter Robbed House at (27, 11).
-2. Exit through the hole at (27, 9).
-3. In the backyard, walk RIGHT to X=33 and JUMP DOWN the ledges.
-4. Walk LEFT to the center of town and head SOUTH to enter Route 5.
+1. Reach the Robbed House at (27, 11). To get there from the south, go to Y=20, walk East to X=28, Down to Y=21, East to X=32, North to Y=11, then West to (27, 11).
+2. Enter Robbed House at (27, 11).
+3. Exit through the hole at (27, 9).
+4. In the backyard, walk RIGHT to X=33 and JUMP DOWN the ledges.
+5. Walk LEFT to the center of town and head SOUTH to enter Route 5.
 
 [Layout Hazards]
 - (13, 25) is Bike Shop. Avoid walking into the door accidentally.
