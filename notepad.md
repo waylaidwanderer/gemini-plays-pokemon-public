@@ -26,7 +26,6 @@
 - Start Turn: 3415
 1. Buy Potions, Awakenings, and Antidotes at Cerulean Poke Mart.
 2. Train Cleo (target Lv16) and Pebbles (target Lv15) on Route 24/25 before attempting Route 6 again. Use switch training with Hydro or Audrey (for Special attacks against Harden users like Metapod/Kakuna).
-- Turn 3751 Reflection: Fixed auto_grinder to double-press directions so I actually move instead of just turning in place. Cleo is Lv13, Pebbles Lv11.
 
 <hr>
 
