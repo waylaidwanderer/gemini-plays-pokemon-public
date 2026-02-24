@@ -1,4 +1,51 @@
 {
+  "auto_grinder": {
+    "description": "Automates pacing in grass, waiting for an encounter, clearing intro text, selecting Move 1, and clearing battle text. Safe to use in overworld or mid-battle.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "pacing_axis": {
+          "type": "string",
+          "enum": [
+            "horizontal",
+            "vertical"
+          ]
+        },
+        "pacing_steps": {
+          "type": "integer"
+        }
+      },
+      "required": []
+    },
+    "python_script": "import json\n\naxis = input_data.get('pacing_axis', 'vertical')\nsteps = int(input_data.get('pacing_steps', 6))\n\nif steps > 14:\n    steps = 14\nif steps % 2 != 0:\n    steps += 1\n\nbuttons = []\nfor i in range(steps):\n    if axis == 'vertical':\n        buttons.append(\"Up\" if i % 2 == 0 else \"Down\")\n    else:\n        buttons.append(\"Left\" if i % 2 == 0 else \"Right\")\n    \n    if i < steps - 1:\n        buttons.append(\"sleep 300\")\n\nbuttons.append(\"sleep 3500\")\n\nfor _ in range(8):\n    buttons.extend([\"B\", \"sleep 300\"])\n\nbuttons.extend([\"A\", \"sleep 500\", \"A\", \"sleep 500\"])\n\nfor _ in range(8):\n    buttons.extend([\"A\", \"sleep 300\"])\n\nprint(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-02-24T06:18:10.272Z",
+        "action_counter": 3638
+      },
+      {
+        "commit_message": "Fixed output format to print valid JSON string",
+        "timestamp": "2026-02-24T06:19:10.536Z",
+        "action_counter": 3640
+      },
+      {
+        "commit_message": "Fixed python script to run at top level, use input_data global, and print a JSON array instead of an object.",
+        "timestamp": "2026-02-24T06:20:13.418Z",
+        "action_counter": 3642
+      },
+      {
+        "commit_message": "Fixed consecutive sleep issue.",
+        "timestamp": "2026-02-24T06:23:16.610Z",
+        "action_counter": 3648
+      },
+      {
+        "commit_message": "Changed battle text clearer to mash A instead of B, preventing accidental running away if the lead faints.",
+        "timestamp": "2026-02-24T06:38:17.705Z",
+        "action_counter": 3661
+      }
+    ]
+  },
   "battle_move_selector": {
     "description": "Selects a battle move by calculating Up/Down presses. You MUST visually verify current_index before calling.",
     "input_schema": {
@@ -358,6 +405,42 @@
       }
     ]
   },
+  "swap_pokemon_party": {
+    "description": "Calculates and executes the D-pad and A button presses to swap two Pokemon in the party menu out of battle. Assumes the Party menu is open.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "index_a": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 6
+        },
+        "index_b": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 6
+        },
+        "current_cursor_index": {
+          "type": "integer",
+          "default": 1,
+          "minimum": 1,
+          "maximum": 6
+        }
+      },
+      "required": [
+        "index_a",
+        "index_b"
+      ]
+    },
+    "python_script": "import json\n\nindex_a = int(input_data.get('index_a'))\nindex_b = int(input_data.get('index_b'))\ncurrent_cursor_index = int(input_data.get('current_cursor_index', 1))\n\nseq = []\nif index_a > current_cursor_index:\n    seq.extend(['Down'] * (index_a - current_cursor_index))\nelif index_a < current_cursor_index:\n    seq.extend(['Up'] * (current_cursor_index - index_a))\n\nseq.append('A')\nseq.extend(['Down', 'A'])\n\nif index_b > index_a:\n    seq.extend(['Down'] * (index_b - index_a))\nelif index_b < index_a:\n    seq.extend(['Up'] * (index_a - index_b))\n\nseq.append('A')\n\nprint(json.dumps(seq))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-02-24T04:07:34.121Z",
+        "action_counter": 3361
+      }
+    ]
+  },
   "switch_pokemon_in_battle": {
     "description": "Switches active Pokemon. Can start from main battle menu or PKMN menu. You MUST visually verify current_index before calling.",
     "input_schema": {
@@ -572,89 +655,6 @@
         "commit_message": "Initial version",
         "timestamp": "2026-02-23T03:03:56.283Z",
         "action_counter": 1847
-      }
-    ]
-  },
-  "swap_pokemon_party": {
-    "description": "Calculates and executes the D-pad and A button presses to swap two Pokemon in the party menu out of battle. Assumes the Party menu is open.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "index_a": {
-          "type": "integer",
-          "minimum": 1,
-          "maximum": 6
-        },
-        "index_b": {
-          "type": "integer",
-          "minimum": 1,
-          "maximum": 6
-        },
-        "current_cursor_index": {
-          "type": "integer",
-          "default": 1,
-          "minimum": 1,
-          "maximum": 6
-        }
-      },
-      "required": [
-        "index_a",
-        "index_b"
-      ]
-    },
-    "python_script": "import json\n\nindex_a = int(input_data.get('index_a'))\nindex_b = int(input_data.get('index_b'))\ncurrent_cursor_index = int(input_data.get('current_cursor_index', 1))\n\nseq = []\nif index_a > current_cursor_index:\n    seq.extend(['Down'] * (index_a - current_cursor_index))\nelif index_a < current_cursor_index:\n    seq.extend(['Up'] * (current_cursor_index - index_a))\n\nseq.append('A')\nseq.extend(['Down', 'A'])\n\nif index_b > index_a:\n    seq.extend(['Down'] * (index_b - index_a))\nelif index_b < index_a:\n    seq.extend(['Up'] * (index_a - index_b))\n\nseq.append('A')\n\nprint(json.dumps(seq))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-02-24T04:07:34.121Z",
-        "action_counter": 3361
-      }
-    ]
-  },
-  "auto_grinder": {
-    "description": "Automates pacing in grass, waiting for an encounter, clearing intro text, selecting Move 1, and clearing battle text. Safe to use in overworld or mid-battle.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "pacing_axis": {
-          "type": "string",
-          "enum": [
-            "horizontal",
-            "vertical"
-          ]
-        },
-        "pacing_steps": {
-          "type": "integer"
-        }
-      },
-      "required": []
-    },
-    "python_script": "import json\n\naxis = input_data.get('pacing_axis', 'vertical')\nsteps = int(input_data.get('pacing_steps', 6))\n\nif steps > 14:\n    steps = 14\nif steps % 2 != 0:\n    steps += 1\n\nbuttons = []\nfor i in range(steps):\n    if axis == 'vertical':\n        buttons.append(\"Up\" if i % 2 == 0 else \"Down\")\n    else:\n        buttons.append(\"Left\" if i % 2 == 0 else \"Right\")\n    \n    if i < steps - 1:\n        buttons.append(\"sleep 300\")\n\nbuttons.append(\"sleep 3500\")\n\nfor _ in range(8):\n    buttons.extend([\"B\", \"sleep 300\"])\n\nbuttons.extend([\"A\", \"sleep 500\", \"A\", \"sleep 500\"])\n\nfor _ in range(8):\n    buttons.extend([\"A\", \"sleep 300\"])\n\nprint(json.dumps(buttons))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-02-24T06:18:10.272Z",
-        "action_counter": 3638
-      },
-      {
-        "commit_message": "Fixed output format to print valid JSON string",
-        "timestamp": "2026-02-24T06:19:10.536Z",
-        "action_counter": 3640
-      },
-      {
-        "commit_message": "Fixed python script to run at top level, use input_data global, and print a JSON array instead of an object.",
-        "timestamp": "2026-02-24T06:20:13.418Z",
-        "action_counter": 3642
-      },
-      {
-        "commit_message": "Fixed consecutive sleep issue.",
-        "timestamp": "2026-02-24T06:23:16.610Z",
-        "action_counter": 3648
-      },
-      {
-        "commit_message": "Changed battle text clearer to mash A instead of B, preventing accidental running away if the lead faints.",
-        "timestamp": "2026-02-24T06:38:17.705Z",
-        "action_counter": 3661
       }
     ]
   }
