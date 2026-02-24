@@ -624,7 +624,7 @@
       },
       "required": []
     },
-    "python_script": "def run(input_data):\n    import json\n    axis = input_data.get('pacing_axis', 'vertical')\n    steps = input_data.get('pacing_steps', 6)\n    if steps % 2 != 0:\n        steps += 1\n        \n    buttons = []\n    # 1. Pacing (even number of steps to return to same cursor position if in battle)\n    for i in range(steps):\n        if axis == 'vertical':\n            buttons.append(\"Up\" if i % 2 == 0 else \"Down\")\n        else:\n            buttons.append(\"Left\" if i % 2 == 0 else \"Right\")\n        buttons.append(\"sleep 300\")\n        \n    # 2. Wait for potential encounter transition\n    buttons.append(\"sleep 3500\")\n    \n    # 3. Clear intro text / ensure we are at Main Menu\n    for _ in range(12):\n        buttons.extend([\"B\", \"sleep 300\"])\n        \n    # 4. Attack (A, sleep, A) to select FIGHT and Move 1\n    buttons.extend([\"A\", \"sleep 500\", \"A\", \"sleep 500\"])\n    \n    # 5. Clear battle text\n    for _ in range(12):\n        buttons.extend([\"B\", \"sleep 300\"])\n        \n    print(json.dumps({\"buttons\": buttons}))\n",
+    "python_script": "import json\n\naxis = input_data.get('pacing_axis', 'vertical')\nsteps = int(input_data.get('pacing_steps', 6))\n\nif steps > 14:\n    steps = 14\nif steps % 2 != 0:\n    steps += 1\n\nbuttons = []\nfor i in range(steps):\n    if axis == 'vertical':\n        buttons.append(\"Up\" if i % 2 == 0 else \"Down\")\n    else:\n        buttons.append(\"Left\" if i % 2 == 0 else \"Right\")\n    buttons.append(\"sleep 300\")\n\nbuttons.append(\"sleep 3500\")\n\nfor _ in range(8):\n    buttons.extend([\"B\", \"sleep 300\"])\n\nbuttons.extend([\"A\", \"sleep 500\", \"A\", \"sleep 500\"])\n\nfor _ in range(8):\n    buttons.extend([\"B\", \"sleep 300\"])\n\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -635,6 +635,11 @@
         "commit_message": "Fixed output format to print valid JSON string",
         "timestamp": "2026-02-24T06:19:10.536Z",
         "action_counter": 3640
+      },
+      {
+        "commit_message": "Fixed python script to run at top level, use input_data global, and print a JSON array instead of an object.",
+        "timestamp": "2026-02-24T06:20:13.418Z",
+        "action_counter": 3642
       }
     ]
   }
