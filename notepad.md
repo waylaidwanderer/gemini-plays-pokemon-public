@@ -22,6 +22,11 @@
 2. Get Pebbles (Geodude) from the PC for the Electric gym.
 3. Train Cleo (Nidoran F) and Pebbles for Lt. Surge.
 4. Explore S.S. Anne (have S.S. Ticket).
+[Recovery Plan (If White-Out)]
+1. Respawn at Cerulean City Pokemon Center.
+2. Buy Potions, Awakenings, and Antidotes at Cerulean Poke Mart.
+3. Withdraw Geodude (Pebbles) from PC.
+4. Train Cleo and Pebbles before attempting Route 6 again.
 
 <hr>
 
