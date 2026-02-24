@@ -259,7 +259,7 @@ Route 3: Spearow, Pidgey
 - From Pokemon Center (19, 18), go Right to X=20, then Up to Y=0 to avoid the one-way ledge at X=10.
 - Badge Info House: (9, 11)
 - Robbed House: Front Door at (27, 11) connects to (0_62) (2, 7). Hole at the back (27, 9).
-- The path to Route 5 requires entering the Front Door at (27, 11), exiting the Hole at the back (27, 9), and walking south from the backyard to bypass the ledges.
+- The path to Route 5 requires entering the Front Door at (27, 11), exiting the Hole at the back (27, 9), walking east to x=32, and then walking SOUTH to hop the ledges. Once you hop the ledges, you are in the southern half of Cerulean City. KEEP WALKING SOUTH to reach Route 5!
 - Turn 3048: Encountered Team Rocket Grunt behind the Robbed House at (29, 8).
 
 <hr>
