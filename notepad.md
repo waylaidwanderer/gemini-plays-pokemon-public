@@ -102,6 +102,7 @@ Execution Plan:
 [Route 25 Enemies]
 - Youngster's Lv 17 Slowpoke: Confusion deals 6-12 damage to Lv 25 Wartortle.
 - Gym Leaders (e.g., Misty) actively use stat-boosting items like X Defend during battle. Plan for longer fights or bring counter-stat moves (like Tail Whip) if relying on physical damage.
+- Risk Assessment: Always consider enemy speed and damage rolls. If your Pokemon is slower and can be KO'd by a high roll or crit (like Pidgey's Gust dealing 10+ damage to a 15 HP Nidoran), switch to a healthier/resistant Pokemon to secure split EXP rather than risking a faint.
 
 <hr>
 
