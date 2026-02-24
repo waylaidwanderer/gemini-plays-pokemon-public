@@ -14,5 +14,5 @@
 - From Pokemon Center (19, 18), go Right to X=20, then Up to Y=0 to avoid the one-way ledge at X=10.
 - Badge Info House: (9, 11)
 - Robbed House: Front Door at (27, 11) connects to (0_62) (2, 7). Hole at the back (27, 9).
-- The path to Route 5 requires entering the Front Door at (27, 11) and exiting the Hole at the back (27, 9). From the backyard, walk RIGHT to X=36. DO NOT JUMP ANY LEDGES! You must be at X=36 to bypass the fence at X=35. Walk south along X=36 to reach Route 5.
+- The path to Route 5 requires entering the Front Door at (27, 11) and exiting the Hole at the back (27, 9). From the backyard, walk RIGHT to X=33 and JUMP the ledges to enter the southern half of Cerulean City. Then, walk LEFT back to the center of town (around X=20) and head SOUTH to Route 5.
 - Turn 3048: Encountered Team Rocket Grunt behind the Robbed House at (29, 8).
