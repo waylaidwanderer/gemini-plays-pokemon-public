@@ -405,27 +405,27 @@
     "input_schema": {
       "type": "object",
       "properties": {
-        "target_index": {
-          "type": "integer",
-          "minimum": 1,
-          "maximum": 6
+        "start_on_main": {
+          "type": "boolean",
+          "default": true
         },
         "current_index": {
           "type": "integer",
           "minimum": 1,
-          "maximum": 6,
-          "default": 1
+          "maximum": 6
         },
-        "start_on_main": {
-          "type": "boolean",
-          "default": true
+        "target_index": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 6
         }
       },
       "required": [
-        "target_index"
+        "target_index",
+        "current_index"
       ]
     },
-    "python_script": "start_main = input_data.get('start_on_main', True)\ncurr = int(input_data.get('current_index', 1))\ntarg = int(input_data.get('target_index', 1))\n\nmoves = []\nif start_main:\n    moves.extend(['Right', 'sleep 300', 'A', 'sleep 1500'])\n\ndiff = targ - curr\nif diff > 0:\n    for _ in range(diff):\n        moves.extend(['Down', 'sleep 300'])\nelif diff < 0:\n    for _ in range(abs(diff)):\n        moves.extend(['Up', 'sleep 300'])\n\nmoves.extend(['A', 'sleep 1000'])\nimport json\nprint(json.dumps(moves))",
+    "python_script": "import json\n\ndef generate_moves(input_data):\n    start_on_main = input_data.get('start_on_main', True)\n    current_index = int(input_data['current_index'])\n    target_index = int(input_data['target_index'])\n\n    presses = []\n    if start_on_main:\n        presses.extend(['Right', 'sleep 300', 'A', 'sleep 1500'])\n\n    diff = target_index - current_index\n\n    if diff > 0:\n        for _ in range(diff):\n            presses.extend(['Down', 'sleep 300'])\n    elif diff < 0:\n        for _ in range(abs(diff)):\n            presses.extend(['Up', 'sleep 300'])\n\n    # Press A to select the Pokemon, then A again to select \"SWITCH\" in the sub-menu\n    presses.extend(['A', 'sleep 1000', 'A', 'sleep 1000'])\n    print(json.dumps(presses))\n\ngenerate_moves(input_data)",
     "history": [
       {
         "commit_message": "Initial version",
@@ -456,6 +456,11 @@
         "commit_message": "Updated to handle starting from the main battle menu by default, navigating to the PKMN menu automatically.",
         "timestamp": "2026-02-23T23:50:17.136Z",
         "action_counter": 3065
+      },
+      {
+        "commit_message": "Removed default for current_index to enforce visual verification of cursor memory. Added final 'A' press to automatically select 'SWITCH' in the sub-menu.",
+        "timestamp": "2026-02-24T23:25:55.175Z",
+        "action_counter": 4189
       }
     ]
   },
