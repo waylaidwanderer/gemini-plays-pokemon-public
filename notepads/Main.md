@@ -11,3 +11,4 @@
 - Route 2 Arrival: Turn 869
 - Mt. Moon Start: Turn 1385
 - Cerulean City Arrival: Turn 2126
+- Turn 3135: Severe spatial hallucination occurred because I ignored objective Y-coordinate data (Y=27) indicating I was at the south edge of the map, and instead trusted a flawed visual assumption. Lesson: ALWAYS trust (X, Y) coordinate math over feelings of being lost.
