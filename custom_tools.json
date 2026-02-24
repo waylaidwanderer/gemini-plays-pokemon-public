@@ -79,7 +79,7 @@
         "target_move_index"
       ]
     },
-    "python_script": "import json\n\ntarget = input_data['target_move_index']\ncurrent = input_data.get('current_move_index', 1)\nstart_on_main = input_data.get('start_on_main', True)\n\npresses = []\nif start_on_main:\n    presses.extend(['A', 'sleep 1000'])\n    \ndiff = target - current\nif diff > 0:\n    for _ in range(diff):\n        presses.extend(['Down', 'sleep 300'])\nelif diff < 0:\n    for _ in range(abs(diff)):\n        presses.extend(['Up', 'sleep 300'])\n        \npresses.extend(['A', 'sleep 1000'])\nprint(json.dumps(presses))\n",
+    "python_script": "start_main = input_data.get('start_on_main', True)\ncurr = int(input_data.get('current_move_index', 1))\ntarg = int(input_data.get('target_move_index', 1))\n\nmoves = []\nif start_main:\n    moves.extend(['A', 'sleep 1000'])\n\ndiff = targ - curr\nif diff > 0:\n    for _ in range(diff):\n        moves.extend(['Down', 'sleep 300'])\nelif diff < 0:\n    for _ in range(abs(diff)):\n        moves.extend(['Up', 'sleep 300'])\n\nmoves.extend(['A', 'sleep 1000'])\nimport json\nprint(json.dumps(moves))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -120,6 +120,11 @@
         "commit_message": "Fix execute_battle_turn: Remove function wrapper so the script executes in the global scope.",
         "timestamp": "2026-02-23T20:23:10.192Z",
         "action_counter": 2684
+      },
+      {
+        "commit_message": "Added cursor memory support. You MUST visually verify current_move_index before calling.",
+        "timestamp": "2026-02-24T00:18:05.365Z",
+        "action_counter": 3112
       }
     ]
   },
