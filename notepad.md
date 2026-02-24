@@ -266,6 +266,9 @@ Route 3: Spearow, Pidgey
 - Bike Shop (Map 0_66) entrance is at (13, 25).
 - Direct south path to Route 5 is blocked by a Cut Tree at (19, 28).
 - To bypass the Cut Tree and reach Route 5, you must detour through the Robbed House at (27, 11).
+[Exit to Route 5]
+- To leave Cerulean City south to Route 5 without Cut, walk to X=16 or X=17, and jump DOWN over the one-way ledge at Y=29.
+- This lands you at Y=30, bypassing the Cut tree at (19, 28).
 
 <hr>
 
