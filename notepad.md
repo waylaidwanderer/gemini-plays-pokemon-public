@@ -35,8 +35,6 @@
 - Switch out immediately if hit by multiple accuracy-dropping moves (like Sand-Attack) to avoid wasting turns mashing attacks that miss.
 - Map markers for defeated trainers (e.g. ☠️) should ONLY be placed AFTER returning to the overworld, never during a battle, as fainting could invalidate the marker.
 - Always consider enemy speed and damage rolls.
-[Tool Ideas to Implement]
-- Ledge Navigator: To detect and path around 1-way ledges (maybe write a custom A* pathfinder that uses the TYPE_ collision data).
 
 <hr>
 
