@@ -53,4 +53,4 @@
 - Verify optimal lead Pokemon.
 
 [S.S. Anne Navigation]
-- S.S. Anne Route: The path south of the main road at X=16 to X=19 is blocked by water. X=14 is blocked by a statue, X=15 by a tree. I must explore X < 10 (left of Gym) to find a path that goes around the gym and under the water pool to reach the bridge at X=18.
+- NEVER use dead reckoning. ALWAYS read the Game State Player Position before making any navigational assumptions or using walk_to_coordinate.
