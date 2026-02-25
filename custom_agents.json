@@ -5,5 +5,12 @@
     "agent_system_prompt": "You are a strategic assistant. Analyze the player's intended path based on their current coordinates and observations. Point out any potential collision risks, flawed logic, or dead reckoning. Confirm if the path is safe to execute or suggest alternatives.",
     "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"current_x\": {\"type\": \"integer\"}, \"current_y\": {\"type\": \"integer\"}, \"intended_path\": {\"type\": \"string\"}, \"observations\": {\"type\": \"string\"}}, \"required\": [\"current_x\", \"current_y\", \"intended_path\", \"observations\"]}",
     "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"analysis\": {\"type\": \"string\"}, \"is_safe\": {\"type\": \"boolean\"}}, \"required\": [\"analysis\", \"is_safe\"]}"
+  },
+  "pokemon_trivia": {
+    "agent_name": "pokemon_trivia",
+    "agent_description": "Answers trivia questions about Pokemon Red/Blue map layouts.",
+    "agent_system_prompt": "You are an expert on Pokemon Red and Blue map layouts. Answer the user's questions about exact coordinates or locations of things in the game, relying on your pre-trained knowledge. Specifically, I need exact (X, Y) tile coordinates if possible, or at least a highly detailed description of where it is relative to landmarks.",
+    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"question\": {\"type\": \"string\"}}, \"required\": [\"question\"]}",
+    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"answer\": {\"type\": \"string\"}}, \"required\": [\"answer\"]}"
   }
 }
