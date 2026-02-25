@@ -1,6 +1,7 @@
-# S.S. Anne
-- Goal: Find the Captain (has HM01 Cut).
-- Layout: (Currently at Entrance/Main Hall).
-- Points of Interest: Need to find the healing cabin if there is one.
-- Trainers: Expect many trainers in the cabins. Good for training Cleo and Pebbles.
-- Cabin 1 (Right of entrance): Contains a Gentleman.
+# S.S. Anne Exploration Tracker
+- Goal: Find the Captain and get HM01 (Cut).
+
+## Main Deck (Map 0_95) Cabins (Right to Left)
+- Cabin 1 (Entrance 31, 7): Gentleman Trainer (Defeated).
+- Cabin 2 (Entrance 23, 7): Gentleman Trainer (Defeated).
+- Cabin 3 (Entrance 19, 7): Two hungry NPCs, no trainers.
