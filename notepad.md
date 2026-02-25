@@ -441,5 +441,6 @@ WARNING: Bellsprout's Vine Whip is 4x effective against Geodude. Train Cleo here
 [Healing Plan]
 - Cleo (Nidoqueen) is 23/58 HP. Hydro is 22/81 PAR. Use Potions/Antidotes as needed, or return to Vermilion Center if Cleo drops below 10 HP.
 - Warp Link: Vermilion City (18, 31) connects to S.S. Anne Docks Map 0_94 (14, 0).
+- Layout Note: The stairs at the far right of 1F (37, 15) lead to an isolated section of 2F. The main stairs to 2F (and Gary) are on the far LEFT of 1F.
 
 <hr>
