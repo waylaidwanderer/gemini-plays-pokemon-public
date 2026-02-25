@@ -15,15 +15,14 @@
 - Turn 3239 Reflection: Long pathing macros (walk_waypoints) are highly brittle in NPC-populated areas. Navigate step-by-step and verify 'TYPE_' collision data instead of trusting visual assumptions about fences/roofs.
 - Route 24 Grinding Start: Turn 3516 (Resumed Turn 3638, Mon Feb 23 2026)
 - Route 6 / Vermilion Grinding Start: Turn 4321
-- S.S. Anne Boarding: Turn 4431
+- S.S. Anne Boarding: Turn 4431 (Tue Feb 24 2026)
 [Trades]
 - Route 5 Gate (Underground Path entrance): NPC wants to trade a Nidoran F for a Nidoran M.
 - Vermilion City (House next to Mart): NPC wants Spearow for Farfetch'd.
 [Vermilion City]
 - Fan Club: (9, 13) - Talk to Chairman for Bike Voucher.
 [Plan]
-- Inventory is managed (19/20 slots used). Ready to receive HM01 from the Captain.
-- Return to Cerulean City eventually to exchange Bike Voucher for Bicycle.
+- Return to Cerulean City (walk back through Route 5 Underground Path after acquiring HM01 and ship departs) to exchange Bike Voucher for Bicycle.
 [Navigation Rules]
 - Ledges (e.g. TYPE_44f6) enforce one-way movement. Route 5 requires looping back to the top to access the right-side lanes.
 - Building identities must be verified by entering them, not by visual assumption. Saffron Gate and Underground Path are visually similar.
