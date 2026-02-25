@@ -399,3 +399,13 @@ WARNING: Bellsprout's Vine Whip is 4x effective against Geodude. Train Cleo here
 - Cursor Memory: The PKMN switch menu and FIGHT menu remember the last selected index per session/battle. ALWAYS visually verify the starting cursor position and pass it to custom tools (current_index) to prevent wrong selections.
 
 <hr>
+
+<h1><code>Locations/SS_Anne</code></h1>
+
+# S.S. Anne
+- Goal: Find the Captain (has HM01 Cut).
+- Layout: (Currently at Entrance/Main Hall).
+- Points of Interest: Need to find the healing cabin if there is one.
+- Trainers: Expect many trainers in the cabins. Good for training Cleo and Pebbles.
+
+<hr>
