@@ -6,3 +6,4 @@
 - Cabin 2 (Entrance 23, 7): Gentleman Trainer (Defeated).
 - Cabin 3 (Entrance 19, 7): Two hungry NPCs, no trainers.
 - Cabin 4 (Entrance 15, 7): Lass with a Wigglytuff, plus another NPC. No trainers.
+- Cabin 5 (Entrance 11, 7): Exploring now. Contains an item!
