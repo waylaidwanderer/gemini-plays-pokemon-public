@@ -369,7 +369,7 @@
     ]
   },
   "swap_pokemon_party": {
-    "description": "Calculates and executes the D-pad and A button presses to swap two Pokemon in the party menu out of battle. Automatically resets cursor memory by exiting and re-entering the menu before swapping.",
+    "description": "Swaps two Pokemon in the party menu out of battle. Can be called with the menu open or closed. Automatically navigates to the start menu, opens the POKEMON menu, and executes the swap.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -389,7 +389,7 @@
         "index_b"
       ]
     },
-    "python_script": "import json\n\na = input_data['index_a']\nb = input_data['index_b']\n\n# Reset cursor to 1 by exiting and re-entering PKMN menu\nseq = ['B', 'sleep 500', 'A', 'sleep 500']\ncurr = 1\n\ndiff1 = a - curr\nif diff1 > 0:\n    seq.extend(['Down'] * diff1)\nseq.append('A')\n\ndiff2 = b - a\nif diff2 > 0:\n    seq.extend(['Down'] * diff2)\nelif diff2 < 0:\n    seq.extend(['Up'] * abs(diff2))\nseq.append('A')\n\nprint(json.dumps(seq))",
+    "python_script": "def calculate_presses(index_a, index_b):\n    presses = []\n    \n    # 1. Ensure we are starting from a clean state (overworld)\n    presses.extend(['B', 'B', 'Start', 'sleep 500'])\n    \n    # 2. Navigate to POKEMON in the start menu\n    presses.extend(['Down', 'A', 'sleep 1000'])\n    \n    # 3. Reset cursor memory by exiting and re-entering\n    presses.extend(['B', 'sleep 500', 'A', 'sleep 1000'])\n    \n    # 4. Navigate to index_a\n    current_idx = 1\n    while current_idx < index_a:\n        presses.append('Down')\n        current_idx += 1\n    while current_idx > index_a:\n        presses.append('Up')\n        current_idx -= 1\n        \n    presses.extend(['A', 'sleep 500'])\n    \n    # 5. Select 'SWITCH' (2nd option)\n    presses.extend(['Down', 'A', 'sleep 500'])\n    \n    # 6. Navigate to index_b\n    while current_idx < index_b:\n        presses.append('Down')\n        current_idx += 1\n    while current_idx > index_b:\n        presses.append('Up')\n        current_idx -= 1\n        \n    presses.extend(['A', 'sleep 500'])\n    \n    # 7. Exit\n    presses.extend(['B', 'Start'])\n    \n    return presses\n\nprint(calculate_presses(input_data['index_a'], input_data['index_b']))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -400,6 +400,11 @@
         "commit_message": "Updated swap_pokemon_party to automatically reset the cursor memory by briefly exiting to the Start menu and re-entering the PKMN menu before swapping.",
         "timestamp": "2026-02-25T05:46:05.411Z",
         "action_counter": 4842
+      },
+      {
+        "commit_message": "Added logic to start from overworld and reset cursor memory to ensure consistent behavior.",
+        "timestamp": "2026-02-25T07:33:48.038Z",
+        "action_counter": 4924
       }
     ]
   },
