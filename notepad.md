@@ -39,6 +39,7 @@
 - Fixed `swap_pokemon_party` custom tool to handle Gen 1 cursor memory.
 [Rival Gary - S.S. Anne]
 - Pidgeotto Lv 19
+- Raticate
 
 <hr>
 
