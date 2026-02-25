@@ -23,10 +23,10 @@
 [Vermilion City]
 - Fan Club: (9, 13) - Talk to Chairman for Bike Voucher.
 [Plan]
-1. Heal at Pokemon Center.
-2. Explore S.S. Anne (have S.S. Ticket).
-3. Train Cleo (Nidoran F) and Pebbles for Lt. Surge.
-4. Return to Cerulean City eventually to exchange Bike Voucher for Bicycle.
+1. Explore S.S. Anne (have S.S. Ticket).
+   - Finding the dock: South of Gym (western path x=7 is blocked, eastern path x=20 is blocked). Need to find the actual path south.
+2. Train Cleo (Nidoran F) and Pebbles for Lt. Surge.
+3. Return to Cerulean City eventually to exchange Bike Voucher for Bicycle.
 [Recovery Plan]
 - Start Turn: 3415
 1. Buy Potions, Awakenings, and Antidotes at Cerulean Poke Mart.
