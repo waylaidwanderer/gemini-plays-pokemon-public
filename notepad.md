@@ -55,7 +55,7 @@
 - Verify optimal lead Pokemon.
 
 [S.S. Anne Navigation]
-- CRITICAL Route to S.S. Anne: From Vermilion Pokemon Center, walk south to the main road, then go to X=14. Walk straight south from X=14 (between the Gym and the Cut tree) to reach the dock bridge.
+- CRITICAL Route to S.S. Anne: Walk south from the Pokemon Center to the main road. The right side of the Gym is blocked by a Cut Tree and water. You MUST walk around the LEFT side of the Gym (south from the Fan Club at X=9) to reach the path below the Gym, then walk east to the dock entrance.
 
 <hr>
 
