@@ -38,3 +38,4 @@
 [Rival Gary - S.S. Anne]
 - Pidgeotto Lv 19
 - Raticate
+\n[Boss Prep Checklist]\n- Check party HP and status conditions.\n- Heal at Pokemon Center BEFORE entering known hostile or boss areas.\n- Verify optimal lead Pokemon.
