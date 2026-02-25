@@ -369,7 +369,7 @@
     ]
   },
   "swap_pokemon_party": {
-    "description": "Calculates and executes the D-pad and A button presses to swap two Pokemon in the party menu out of battle. Assumes the Party menu is open.",
+    "description": "Calculates and executes the D-pad and A button presses to swap two Pokemon in the party menu out of battle. Automatically resets cursor memory by exiting and re-entering the menu before swapping.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -382,12 +382,6 @@
           "type": "integer",
           "minimum": 1,
           "maximum": 6
-        },
-        "current_cursor_index": {
-          "type": "integer",
-          "default": 1,
-          "minimum": 1,
-          "maximum": 6
         }
       },
       "required": [
@@ -395,12 +389,17 @@
         "index_b"
       ]
     },
-    "python_script": "import json\n\nindex_a = int(input_data.get('index_a'))\nindex_b = int(input_data.get('index_b'))\ncurrent_cursor_index = int(input_data.get('current_cursor_index', 1))\n\nseq = []\nif index_a > current_cursor_index:\n    seq.extend(['Down'] * (index_a - current_cursor_index))\nelif index_a < current_cursor_index:\n    seq.extend(['Up'] * (current_cursor_index - index_a))\n\nseq.append('A')\nseq.extend(['Down', 'A'])\n\nif index_b > index_a:\n    seq.extend(['Down'] * (index_b - index_a))\nelif index_b < index_a:\n    seq.extend(['Up'] * (index_a - index_b))\n\nseq.append('A')\n\nprint(json.dumps(seq))",
+    "python_script": "import json\n\na = input_data['index_a']\nb = input_data['index_b']\n\n# Reset cursor to 1 by exiting and re-entering PKMN menu\nseq = ['B', 'sleep 500', 'A', 'sleep 500']\ncurr = 1\n\ndiff1 = a - curr\nif diff1 > 0:\n    seq.extend(['Down'] * diff1)\nseq.append('A')\n\ndiff2 = b - a\nif diff2 > 0:\n    seq.extend(['Down'] * diff2)\nelif diff2 < 0:\n    seq.extend(['Up'] * abs(diff2))\nseq.append('A')\n\nprint(json.dumps(seq))",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2026-02-24T04:07:34.121Z",
         "action_counter": 3361
+      },
+      {
+        "commit_message": "Updated swap_pokemon_party to automatically reset the cursor memory by briefly exiting to the Start menu and re-entering the PKMN menu before swapping.",
+        "timestamp": "2026-02-25T05:46:05.411Z",
+        "action_counter": 4842
       }
     ]
   },
