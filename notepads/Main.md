@@ -53,4 +53,4 @@
 - Verify optimal lead Pokemon.
 
 [S.S. Anne Navigation]
-- CRITICAL: Always verify X,Y coordinates in the Game State before and after moving. The S.S. Anne path is a straight line south from X=18.
+- CRITICAL Route to S.S. Anne: From Vermilion Pokemon Center, walk south to the main road, then go to X=14. Walk straight south from X=14 (between the Gym and the Cut tree) to reach the dock bridge.
