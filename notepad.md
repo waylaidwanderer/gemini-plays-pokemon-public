@@ -397,8 +397,8 @@ WARNING: Bellsprout's Vine Whip is 4x effective against Geodude. Train Cleo here
 <h1><code>Locations/SS_Anne</code></h1>
 
 # S.S. Anne
-- Hallway (Map 0_95): The horizontal walking path is strictly Y=8. Y=7 contains alternating doors and impassable walls.
-- Navigation Rule: To avoid bumping into walls, always walk horizontally on Y=8. Turn Up only when you are directly below the door you want to enter (Y=7).
+- Hallway (Map 0_95): The horizontal walking path is Y=6 and Y=7. Y=8 contains alternating doors and impassable walls.
+- Navigation Rule: To avoid bumping into walls, always walk horizontally on Y=6 or Y=7. Turn Down only when you are directly above the door you want to enter (Y=8).
 - Coordinate mapping: Map 0_95 is the hallway, and Map 0_102 contains the individual cabin interiors.
 
 <hr>
