@@ -488,7 +488,7 @@
         "defend_type_1"
       ]
     },
-    "python_script": "import json\nimport math\n\nmatchups = {\n    \"NORMAL\": {\"ROCK\": 0.5, \"GHOST\": 0},\n    \"FIRE\": {\"FIRE\": 0.5, \"WATER\": 0.5, \"GRASS\": 2, \"ICE\": 2, \"BUG\": 2, \"ROCK\": 0.5, \"DRAGON\": 0.5},\n    \"WATER\": {\"FIRE\": 2, \"WATER\": 0.5, \"GRASS\": 0.5, \"GROUND\": 2, \"ROCK\": 2, \"DRAGON\": 0.5},\n    \"ELECTRIC\": {\"WATER\": 2, \"ELECTRIC\": 0.5, \"GRASS\": 0.5, \"GROUND\": 0, \"FLYING\": 2, \"DRAGON\": 0.5},\n    \"GRASS\": {\"FIRE\": 0.5, \"WATER\": 2, \"GRASS\": 0.5, \"POISON\": 0.5, \"GROUND\": 2, \"FLYING\": 0.5, \"BUG\": 0.5, \"ROCK\": 2, \"DRAGON\": 0.5},\n    \"ICE\": {\"WATER\": 0.5, \"GRASS\": 2, \"ICE\": 0.5, \"GROUND\": 2, \"FLYING\": 2, \"DRAGON\": 2},\n    \"FIGHTING\": {\"NORMAL\": 2, \"ICE\": 2, \"POISON\": 0.5, \"FLYING\": 0.5, \"PSYCHIC\": 0.5, \"BUG\": 0.5, \"ROCK\": 2, \"GHOST\": 0},\n    \"POISON\": {\"GRASS\": 2, \"POISON\": 0.5, \"GROUND\": 0.5, \"BUG\": 2, \"ROCK\": 0.5, \"GHOST\": 0.5},\n    \"GROUND\": {\"FIRE\": 2, \"ELECTRIC\": 2, \"GRASS\": 0.5, \"POISON\": 2, \"FLYING\": 0, \"BUG\": 0.5, \"ROCK\": 2},\n    \"FLYING\": {\"ELECTRIC\": 0.5, \"GRASS\": 2, \"FIGHTING\": 2, \"BUG\": 2, \"ROCK\": 0.5},\n    \"PSYCHIC\": {\"FIGHTING\": 2, \"POISON\": 2, \"PSYCHIC\": 0.5},\n    \"BUG\": {\"FIRE\": 0.5, \"GRASS\": 2, \"FIGHTING\": 0.5, \"POISON\": 2, \"FLYING\": 0.5, \"PSYCHIC\": 2, \"GHOST\": 0.5},\n    \"ROCK\": {\"FIRE\": 2, \"ICE\": 2, \"FIGHTING\": 0.5, \"GROUND\": 0.5, \"FLYING\": 2, \"BUG\": 2},\n    \"GHOST\": {\"NORMAL\": 0, \"PSYCHIC\": 0, \"GHOST\": 2},\n    \"DRAGON\": {\"DRAGON\": 2}\n}\n\natk = input_data['attack_type'].upper()\ndef1 = input_data['defend_type_1'].upper()\ndef2 = input_data.get('defend_type_2', '').upper()\n\neff = 1.0\nif def1 in matchups.get(atk, {}):\n    eff *= matchups[atk][def1]\nif def2 and def2 in matchups.get(atk, {}):\n    eff *= matchups[atk][def2]\n\nprint(json.dumps({\"effectiveness\": eff}))",
+    "python_script": "import json\n\natk = input_data['attack_type'].upper()\ndef1 = input_data['defend_type_1'].upper()\ndef2 = input_data.get('defend_type_2', '').upper()\n\nchart = {\n    'NORMAL': {'ROCK': 0.5, 'GHOST': 0},\n    'FIRE': {'FIRE': 0.5, 'WATER': 0.5, 'GRASS': 2.0, 'ICE': 2.0, 'BUG': 2.0, 'ROCK': 0.5, 'DRAGON': 0.5},\n    'WATER': {'FIRE': 2.0, 'WATER': 0.5, 'GRASS': 0.5, 'GROUND': 2.0, 'ROCK': 2.0, 'DRAGON': 0.5},\n    'ELECTRIC': {'WATER': 2.0, 'ELECTRIC': 0.5, 'GRASS': 0.5, 'GROUND': 0, 'FLYING': 2.0, 'DRAGON': 0.5},\n    'GRASS': {'FIRE': 0.5, 'WATER': 2.0, 'GRASS': 0.5, 'POISON': 0.5, 'GROUND': 2.0, 'FLYING': 0.5, 'BUG': 0.5, 'ROCK': 2.0, 'DRAGON': 0.5},\n    'ICE': {'WATER': 0.5, 'GRASS': 2.0, 'ICE': 0.5, 'GROUND': 2.0, 'FLYING': 2.0, 'DRAGON': 2.0},\n    'FIGHTING': {'NORMAL': 2.0, 'ICE': 2.0, 'POISON': 0.5, 'FLYING': 0.5, 'PSYCHIC': 0.5, 'BUG': 0.5, 'ROCK': 2.0, 'GHOST': 0},\n    'POISON': {'GRASS': 2.0, 'POISON': 0.5, 'GROUND': 0.5, 'BUG': 2.0, 'ROCK': 0.5, 'GHOST': 0.5},\n    'GROUND': {'FIRE': 2.0, 'ELECTRIC': 2.0, 'GRASS': 0.5, 'POISON': 2.0, 'FLYING': 0, 'BUG': 0.5, 'ROCK': 2.0},\n    'FLYING': {'ELECTRIC': 0.5, 'GRASS': 2.0, 'FIGHTING': 2.0, 'BUG': 2.0, 'ROCK': 0.5},\n    'PSYCHIC': {'FIGHTING': 2.0, 'POISON': 2.0},\n    'BUG': {'FIRE': 0.5, 'GRASS': 2.0, 'FIGHTING': 0.5, 'POISON': 2.0, 'FLYING': 0.5, 'PSYCHIC': 2.0, 'GHOST': 0.5},\n    'ROCK': {'FIRE': 2.0, 'ICE': 2.0, 'FIGHTING': 0.5, 'GROUND': 0.5, 'FLYING': 2.0, 'BUG': 2.0},\n    'GHOST': {'NORMAL': 0, 'FIGHTING': 0, 'GHOST': 2.0},\n    'DRAGON': {'DRAGON': 2.0}\n}\n\nmult = chart.get(atk, {}).get(def1, 1.0)\nif def2:\n    mult *= chart.get(atk, {}).get(def2, 1.0)\n\nprint(f\"Effectiveness: {mult}x\")",
     "history": [
       {
         "commit_message": "Initial version",
@@ -499,6 +499,11 @@
         "commit_message": "Fix type matchup tool print statement to use standard JSON format.",
         "timestamp": "2026-02-23T07:16:46.386Z",
         "action_counter": 2262
+      },
+      {
+        "commit_message": "Initial version of Gen 1 type matchup calculator.",
+        "timestamp": "2026-02-25T03:16:10.181Z",
+        "action_counter": 4583
       }
     ]
   },
