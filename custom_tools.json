@@ -216,13 +216,12 @@
     ]
   },
   "pokemon_center_healer": {
-    "description": "Automates the healing dialogue at a Pokemon Center, carefully pressing A to navigate the menus and waiting for the healing animation. Removed the automatic 'Down' press to prevent accidental exits.",
+    "description": "Automates the healing dialogue at a Pokemon Center, carefully pressing A to navigate the menus and waiting for the healing animation.",
     "input_schema": {
       "type": "object",
-      "properties": {},
-      "required": []
+      "properties": {}
     },
-    "python_script": "import json\nbuttons = [\n    \"A\", \"sleep 1500\",\n    \"A\", \"sleep 1500\",\n    \"A\", \"sleep 8000\",\n    \"B\", \"sleep 1000\",\n    \"B\", \"sleep 1000\",\n    \"B\", \"sleep 1000\",\n    \"B\", \"sleep 1000\"\n]\nprint(json.dumps(buttons))",
+    "python_script": "def pokemon_center_healer(input_data):\n    buttons = []\n    # Initiate conversation\n    buttons.extend([\"A\", \"sleep 1000\"])\n    # Advance text and select HEAL (usually takes a couple A presses)\n    buttons.extend([\"A\", \"sleep 1000\", \"A\", \"sleep 1000\", \"A\", \"sleep 6000\"])\n    # Clear the remaining text safely with B\n    for _ in range(12):\n        buttons.extend([\"B\", \"sleep 500\"])\n    \n    import json\n    print(json.dumps(buttons))\n\nif __name__ == '__main__':\n    pokemon_center_healer({})",
     "history": [
       {
         "commit_message": "Initial version",
@@ -253,6 +252,11 @@
         "commit_message": "Fixed timing and changed to using B to cancel out to prevent accidental looping of Nurse Joy's dialogue.",
         "timestamp": "2026-02-24T06:38:17.704Z",
         "action_counter": 3661
+      },
+      {
+        "commit_message": "Increased reliability of Pokémon Center healer by adjusting sleep timers and extending the B-button mash phase to clear all text.",
+        "timestamp": "2026-02-25T00:52:16.621Z",
+        "action_counter": 4381
       }
     ]
   },
