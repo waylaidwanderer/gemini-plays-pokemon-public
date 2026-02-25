@@ -24,7 +24,7 @@
 - Fan Club: (9, 13) - Talk to Chairman for Bike Voucher.
 [Plan]
 1. Explore S.S. Anne (have S.S. Ticket).
-   - Finding the dock: South of Gym (western path x=7 is blocked, eastern path x=20 is blocked). Need to find the actual path south.
+   - Goal: Find the Captain to get HM01 Cut.
 2. Train Cleo (Nidoran F) and Pebbles for Lt. Surge.
 3. Return to Cerulean City eventually to exchange Bike Voucher for Bicycle.
 [Recovery Plan]
