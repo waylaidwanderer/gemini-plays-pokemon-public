@@ -22,10 +22,7 @@
 [Vermilion City]
 - Fan Club: (9, 13) - Talk to Chairman for Bike Voucher.
 [Plan]
-1. Explore S.S. Anne (have S.S. Ticket).
-   - Goal: Find the Captain to get HM01 Cut.
-2. Train Cleo (Nidoran F) and Pebbles for Lt. Surge.
-3. Return to Cerulean City eventually to exchange Bike Voucher for Bicycle.
+- Return to Cerulean City eventually to exchange Bike Voucher for Bicycle.
 [Recovery Plan]
 - Start Turn: 3415
 1. Buy Potions, Awakenings, and Antidotes at Cerulean Poke Mart.
