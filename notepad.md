@@ -24,7 +24,7 @@
 [Vermilion City]
 - Fan Club: (9, 13) - Talk to Chairman for Bike Voucher.
 [Plan]
-- URGENT: Inventory is FULL (20/20)! I must free up a slot (e.g. by using my HP UP or Rare Candy) before talking to the Captain, otherwise I cannot receive HM01 (Cut).
+- Inventory is managed (19/20 slots used). Ready to receive HM01 from the Captain.
 - Return to Cerulean City eventually to exchange Bike Voucher for Bicycle.
 [Navigation Rules]
 - Ledges (e.g. TYPE_44f6) enforce one-way movement. Route 5 requires looping back to the top to access the right-side lanes.
