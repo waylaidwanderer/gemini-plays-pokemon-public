@@ -1,10 +1,4 @@
-# S.S. Anne Exploration Tracker (Start Turn: 4431)
-- Goal: Find the Captain and get HM01 (Cut).
-
-## Main Deck (Map 0_95) Cabins (Right to Left)
-- Cabin 1 (Entrance 31, 7): Gentleman Trainer (Defeated).
-- Cabin 2 (Entrance 23, 7): Gentleman Trainer (Defeated).
-- Cabin 3 (Entrance 19, 7): Two hungry NPCs, no trainers.
-- Cabin 4 (Entrance 15, 7): Lass with a Wigglytuff, plus another NPC. No trainers.
-- Cabin 5 (Entrance 11, 7): Youngster Trainer (Defeated), Lass Trainer (Defeated). Found TM08.
-- Cabin 6 (Entrance 7, 7): Global Police Agent. Contains an item.
+# S.S. Anne
+- Hallway (Map 0_95): The horizontal walking path is strictly Y=8. Y=7 contains alternating doors and impassable walls.
+- Navigation Rule: To avoid bumping into walls, always walk horizontally on Y=8. Turn Up only when you are directly below the door you want to enter (Y=7).
+- Coordinate mapping: Map 0_95 is the hallway, and Map 0_102 contains the individual cabin interiors.
