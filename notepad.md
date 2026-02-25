@@ -26,9 +26,20 @@
 - Start Turn: 3415
 1. Buy Potions, Awakenings, and Antidotes at Cerulean Poke Mart.
 2. Train Cleo (target Lv16) and Pebbles (target Lv15) on Route 24/25 before attempting Route 6 again. Use switch training with Hydro or Audrey (for Special attacks against Harden users like Metapod/Kakuna).
-- Turn 3968 Reflection: Confused Saffron Gate and Underground Path due to flawed map markers. I must rely on direct observation and systematic exploration (checking all map edges) rather than trusting unverified assumptions or old notes. Ledges (TYPE_44f6) enforce one-way downward movement, requiring me to loop back to the top of Route 5 to access the right-side lanes.
-- Turn 4071 Reflection: Over the last 50 turns, I resolved a massive spatial logic loop. I incorrectly assumed the Underground Path building was the Saffron Gate and repeatedly ran away from my objective. I learned that I must verify building identities by entering them, not by visual assumption. My coordinate math for map offsets (Cerulean x=28 -> Route 5 x=18) was objectively correct and I should have trusted it. I also brainstormed 5 custom tools (like a map offset calculator or a ledge-scanner) to prevent this in the future, and noted that `walk_to_coordinate` struggles with ledges, requiring manual `move_sequence` intervention.
-- Turn 4279 Reflection: Defeated the Lass on Route 6 after a grueling battle involving multiple Sand-Attacks. Lesson learned: Switch out immediately if accuracy drops too much, it wastes too much time. Confirmed Gust is Normal-type in Gen 1. Brainstormed 5 tools: Battle Status Parser, Move Effectiveness Agent, Dialog Auto-Advancer, EXP Tracker, Ledge Navigator. No broken tools need fixing right now. Map marker for Lass will be placed once back in the overworld. Goals remain: head south to Vermilion City while training Cleo and Pebbles.
+[Navigation Rules]
+- Ledges (e.g. TYPE_44f6) enforce one-way movement. Route 5 requires looping back to the top to access the right-side lanes.
+- Building identities must be verified by entering them, not by visual assumption. Saffron Gate and Underground Path are visually similar.
+- Trust objective coordinate math (e.g. Cerulean x=28 -> Route 5 x=18) over feelings of being lost.
+- When mapping, use exact coordinates and do not jump to conclusions about blocked paths until physically bumping into them.
+[Battle Tactics]
+- Switch out immediately if hit by multiple accuracy-dropping moves (like Sand-Attack) to avoid wasting turns mashing attacks that miss.
+- Map markers for defeated trainers (e.g. ☠️) should ONLY be placed AFTER returning to the overworld, never during a battle, as fainting could invalidate the marker.
+- Always consider enemy speed and damage rolls.
+[Tool Ideas to Implement]
+- Battle Status Parser: To read HP and status effects efficiently.
+- Move Effectiveness Agent: To check type matchups.
+- Dialog Auto-Advancer: To clear variable-length NPC text.
+- Ledge Navigator: To detect and path around 1-way ledges.
 
 <hr>
 
