@@ -53,4 +53,4 @@
 - Verify optimal lead Pokemon.
 
 [S.S. Anne Navigation]
-- CRITICAL Route to S.S. Anne: The right side of the Gym is blocked by a Cut Tree (X=15) and a statue (X=14). You MUST walk around the LEFT side of the Gym (go west to X=6, then south to Y=20) to reach the path below the Gym. From there, walk east to X=18 to reach the dock entrance.
+- CRITICAL Route to S.S. Anne: The left side of the Gym is blocked by a sign (X=6) and water (X=5). The right side of the water pool is a dead-end peninsula (X=20). The ONLY possible path is straight south down X=14 (between the Gym and the Cut tree). Go to (14, 14) and walk straight south to reach the dock bridge.
