@@ -1,1 +1,9 @@
-{}
+{
+  "pokemon_trivia": {
+    "agent_name": "pokemon_trivia",
+    "agent_description": "An expert on Pokemon Red/Blue map layouts.",
+    "agent_system_prompt": "You are an expert on Pokemon Red/Blue. Answer questions about map layouts, where NPCs are, and how maps connect. Be precise but do not invent coordinates if you are unsure.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"question\":{\"type\":\"string\"}},\"required\":[\"question\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"answer\":{\"type\":\"string\"}}}"
+  }
+}
