@@ -400,7 +400,7 @@ WARNING: Bellsprout's Vine Whip is 4x effective against Geodude. Train Cleo here
 
 <h1><code>Locations/SS_Anne</code></h1>
 
-# S.S. Anne Exploration Tracker
+# S.S. Anne Exploration Tracker (Start Turn: 4431)
 - Goal: Find the Captain and get HM01 (Cut).
 
 ## Main Deck (Map 0_95) Cabins (Right to Left)

@@ -1,4 +1,4 @@
-# S.S. Anne Exploration Tracker
+# S.S. Anne Exploration Tracker (Start Turn: 4431)
 - Goal: Find the Captain and get HM01 (Cut).
 
 ## Main Deck (Map 0_95) Cabins (Right to Left)
