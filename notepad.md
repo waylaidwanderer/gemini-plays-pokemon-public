@@ -443,6 +443,6 @@ WARNING: Bellsprout's Vine Whip is 4x effective against Geodude. Train Cleo here
 - Warp Link: Vermilion City (18, 31) connects to S.S. Anne Docks Map 0_94 (14, 0).
 [Gary Rematch Objective]
 - Start Turn: 5251
-- Strategy: The main stairs to 2F (where Gary is) are at 1F (26, 0). The stairs at 1F (37, 15) lead to an isolated dead-end on 2F.
+- Strategy: The stairs to 2F are at 1F (37, 15). Arriving on 2F at (27, 5), the path is a U-shape: walk LEFT, then DOWN, then RIGHT to find Gary and the Captain's room.
 
 <hr>
