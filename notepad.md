@@ -58,6 +58,7 @@
 - NEVER use dead reckoning. ALWAYS read the Game State Player Position before making any navigational assumptions or using walk_to_coordinate.
 [Turn 5163 Reflection]
 - I got stuck in a spatial loop in Vermilion City trying to head south to the docks. I kept hitting water on the east side (X=18+) and the Cut tree near the Gym (X=15). The correct path south is on the far WEST side of the Gym, around X=7. Always trace the actual walkable tiles instead of assuming a straight path exists.
+- NEVER ask custom agents for exact map coordinates or pathfinding instructions, as they will hallucinate them.
 
 <hr>
 
