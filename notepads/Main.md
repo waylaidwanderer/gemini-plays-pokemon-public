@@ -15,7 +15,7 @@
 - Turn 3239 Reflection: Long pathing macros (walk_waypoints) are highly brittle in NPC-populated areas. Navigate step-by-step and verify 'TYPE_' collision data instead of trusting visual assumptions about fences/roofs.
 - Route 24 Grinding Start: Turn 3516 (Resumed Turn 3638, Mon Feb 23 2026)
 - Route 6 / Vermilion Grinding Start: Turn 4321
-- S.S. Anne Boarding: Turn 4431 (Tue Feb 24 2026)
+- S.S. Anne Boarding: Turn 4431 (Tue Feb 24 2026)\n- Rival Gary Battle Start (S.S. Anne): Turn 4855
 [Trades]
 - Route 5 Gate (Underground Path entrance): NPC wants to trade a Nidoran F for a Nidoran M.
 - Vermilion City (House next to Mart): NPC wants Spearow for Farfetch'd.
