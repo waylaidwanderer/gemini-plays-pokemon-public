@@ -36,10 +36,7 @@
 - Map markers for defeated trainers (e.g. ☠️) should ONLY be placed AFTER returning to the overworld, never during a battle, as fainting could invalidate the marker.
 - Always consider enemy speed and damage rolls.
 [Tool Ideas to Implement]
-- Battle Status Parser: To read HP and status effects efficiently.
-- Move Effectiveness Agent: To check type matchups.
-- Dialog Auto-Advancer: To clear variable-length NPC text.
-- Ledge Navigator: To detect and path around 1-way ledges.
+- Ledge Navigator: To detect and path around 1-way ledges (maybe write a custom A* pathfinder that uses the TYPE_ collision data).
 
 <hr>
 
