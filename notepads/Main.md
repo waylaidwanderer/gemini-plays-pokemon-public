@@ -39,4 +39,4 @@
 - Pidgeotto Lv 19
 - Raticate
 \n[Boss Prep Checklist]\n- Check party HP and status conditions.\n- Heal at Pokemon Center BEFORE entering known hostile or boss areas.\n- Verify optimal lead Pokemon.
-\n[S.S. Anne Navigation]\n- The path to the dock requires walking around the LEFT side of the Gym (X=9), heading south, and then walking East to find the bridge.
+\n[S.S. Anne Navigation]\n- The path to the dock is a straight vertical path south from X=18 (south of the Pidgey trade house).
