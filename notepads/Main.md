@@ -18,10 +18,13 @@
 [Trades]
 - Route 5 Gate (Underground Path entrance): NPC wants to trade a Nidoran F for a Nidoran M.
 - Vermilion City (House next to Mart): NPC wants Spearow for Farfetch'd.
-[Vermilion City Plan]
-1. Heal at Pokemon Center.
-2. Train Cleo (Nidoran F) and Pebbles for Lt. Surge.
-3. Explore S.S. Anne (have S.S. Ticket).
+[Vermilion City]
+- Fan Club: (9, 13) - Talk to Chairman for Bike Voucher.
+[Plan]
+1. Get Bike Voucher from Fan Club.
+2. Find Pokemon Center (likely near Route 6 entrance at top of town) and heal.
+3. Train Cleo (Nidoran F) and Pebbles for Lt. Surge.
+4. Explore S.S. Anne (have S.S. Ticket).
 [Recovery Plan]
 - Start Turn: 3415
 1. Buy Potions, Awakenings, and Antidotes at Cerulean Poke Mart.
