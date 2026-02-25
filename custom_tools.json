@@ -625,5 +625,37 @@
         "action_counter": 1847
       }
     ]
+  },
+  "navigate_menu": {
+    "description": "Calculates and executes the exact sequence of Up/Down button presses to navigate a vertical menu from your current cursor index to a target index. Useful for precise bag or PC navigation without blind mashing.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "current_index": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "target_index": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "press_a": {
+          "type": "boolean",
+          "default": false
+        }
+      },
+      "required": [
+        "current_index",
+        "target_index"
+      ]
+    },
+    "python_script": "import json\n\ncurrent = int(input_data['current_index'])\ntarget = int(input_data['target_index'])\npress_a = input_data.get('press_a', False)\n\ndiff = target - current\nbuttons = []\n\nif diff > 0:\n    for _ in range(diff):\n        buttons.append('Down')\n        buttons.append('sleep 300')\nelif diff < 0:\n    for _ in range(abs(diff)):\n        buttons.append('Up')\n        buttons.append('sleep 300')\n\nif press_a:\n    buttons.append('A')\n\nprint(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-02-25T03:04:04.331Z",
+        "action_counter": 4562
+      }
+    ]
   }
 }
