@@ -53,4 +53,4 @@
 - Verify optimal lead Pokemon.
 
 [S.S. Anne Navigation]
-- CRITICAL Route to S.S. Anne: Walk south from the Pokemon Center to the main road. The right side of the Gym is blocked by a Cut Tree and water. You MUST walk around the LEFT side of the Gym (south from the Fan Club at X=9) to reach the path below the Gym, then walk east to the dock entrance.
+- CRITICAL Route to S.S. Anne: From the main road (Y=14), walk to X=14 (between the Gym and the Cut Tree). Walk straight south down X=14 to bypass the water pool, then walk east to the S.S. Anne dock bridge at X=18.
