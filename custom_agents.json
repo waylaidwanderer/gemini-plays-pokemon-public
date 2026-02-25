@@ -1,9 +1,1 @@
-{
-  "boss_battle_analyst": {
-    "agent_name": "boss_battle_analyst",
-    "agent_description": "Analyzes the current party and their moves against a specific Gym Leader/Boss's known roster and types, providing a readiness score and leveling/team recommendations based on Gen 1 mechanics.",
-    "agent_system_prompt": "You are a Pokemon Gen 1 expert. Given a boss's lineup (e.g., Lt. Surge's Electric Pokemon) and the player's current party (with levels and moves), evaluate the party's readiness. Consider Gen 1 type matchups, Gen 1 specific mechanics (e.g., Wrap prevents actions, critical hit rates are tied to Speed, Special stat acts as both Sp. Atk and Sp. Def), and base stats. Provide a recommendation on who to lead with, who needs more leveling, and an overall strategy.",
-    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"boss_name\": {\"type\": \"string\"}, \"boss_pokemon\": {\"type\": \"string\"}, \"player_party\": {\"type\": \"string\"}}, \"required\": [\"boss_name\", \"boss_pokemon\", \"player_party\"]}",
-    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"readiness_score\": {\"type\": \"integer\", \"description\": \"1 to 10 scale of how ready the team is\"}, \"lead_recommendation\": {\"type\": \"string\"}, \"leveling_advice\": {\"type\": \"string\"}, \"overall_strategy\": {\"type\": \"string\"}}, \"required\": [\"readiness_score\", \"lead_recommendation\", \"leveling_advice\", \"overall_strategy\"]}"
-  }
-}
+{}
