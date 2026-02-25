@@ -1,1 +1,9 @@
-{}
+{
+  "matchup_analyzer": {
+    "agent_name": "matchup_analyzer",
+    "agent_description": "Analyzes enemy team compositions and suggests optimal party ordering and battle strategy.",
+    "agent_system_prompt": "You are a Pokémon battle tactical advisor. Given an enemy team composition and the player's current party, analyze type matchups and suggest the optimal lead Pokémon and battle strategy. Use Gen 1 type matchup rules. Always consider the levels and move sets if provided in the input strings.",
+    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"enemy_team\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}, \"player_party\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}}, \"required\": [\"enemy_team\", \"player_party\"]}",
+    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"recommended_lead\": {\"type\": \"string\"}, \"strategy\": {\"type\": \"string\"}}, \"required\": [\"recommended_lead\", \"strategy\"]}"
+  }
+}
