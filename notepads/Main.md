@@ -39,4 +39,4 @@
 - Pidgeotto Lv 19
 - Raticate
 \n[Boss Prep Checklist]\n- Check party HP and status conditions.\n- Heal at Pokemon Center BEFORE entering known hostile or boss areas.\n- Verify optimal lead Pokemon.
-\n[S.S. Anne Navigation]\n- The entrance to the dock is at (14, 19) in Vermilion City. \n- The Sailor at (14, 19) resets his position when you leave the area. You MUST talk to him again so he checks your ticket and steps aside to let you pass.
+\n[S.S. Anne Navigation]\n- The path to the dock requires walking around the LEFT side of the Gym (X=9), heading south, and then walking East to find the bridge.
