@@ -37,8 +37,8 @@
 [Turn 4850 Reflection]
 - STRICT RULE: If an item is not explicitly listed in the Game State Information sprite list, it DOES NOT EXIST. I wasted turns trying to pick up stools. Stop interacting with furniture.
 - Fixed `swap_pokemon_party` custom tool to handle Gen 1 cursor memory.
-- Progress: Evolved Cleo into Nidoqueen, cleared Cabins 1-6 on the S.S. Anne 2F.
-- Goal: Find the Captain (who is reportedly sick) and get HM01 Cut.
+[Rival Gary - S.S. Anne]
+- Pidgeotto Lv 19
 
 <hr>
 
