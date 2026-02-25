@@ -16,6 +16,7 @@
 - Route 24 Grinding Start: Turn 3516 (Resumed Turn 3638, Mon Feb 23 2026)
 [Trades]
 - Route 5 Gate (Underground Path entrance): NPC wants to trade a Nidoran F for a Nidoran M.
+- Vermilion City (House next to Mart): NPC wants Spearow for Farfetch'd.
 [Vermilion City Plan]
 1. Heal at Pokemon Center.
 2. Train Cleo (Nidoran F) and Pebbles for Lt. Surge.
