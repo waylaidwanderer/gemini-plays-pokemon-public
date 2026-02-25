@@ -9,5 +9,7 @@
 - Cabin 2: Cleared
 - Cabin 3: Cleared
 - Cabin 4: Cleared
+- Cabin 5: Cleared
+- Cabin 6: Cleared
 [Healing Plan]
 - Cleo (Nidoqueen) is 23/58 HP. Hydro is 22/81 PAR. Use Potions/Antidotes as needed, or return to Vermilion Center if Cleo drops below 10 HP.
