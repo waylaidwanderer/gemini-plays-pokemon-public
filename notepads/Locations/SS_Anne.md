@@ -16,4 +16,4 @@
 - Warp Link: Vermilion City (18, 31) connects to S.S. Anne Docks Map 0_94 (14, 0).
 [Gary Rematch Objective]
 - Start Turn: 5251
-- Strategy: 2F (0_98) is split by a wall at X=28. The stairs at 1F (37, 15) ONLY lead to the left dead-end of 2F. To reach Gary (who is at 2F X=36), I must find a DIFFERENT set of stairs on 1F that warp to the right side of 2F. Hypothesis: The right-side vertical corridor on 1F (X=36) might go UP as well as down. I will check the top of X=36 for the main stairs.
+- Strategy: 2F (0_98) is split by a wall at X=28. The stairs at 1F (37, 15) ONLY lead to the left dead-end of 2F. To reach Gary (who is at 2F X=36), I must find a DIFFERENT set of stairs on 1F that warp to the right side of 2F. Hypothesis: The left-side vertical corridor on 1F (X=2) might go UP to the main 2F stairs. I will check the top of X=2.
