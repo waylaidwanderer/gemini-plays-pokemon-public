@@ -8,6 +8,6 @@
 - Cabin 1: Cleared
 - Cabin 2: Cleared
 - Cabin 3: Cleared
-- Cabin 4: In Progress
+- Cabin 4: Cleared
 [Inventory Management]
-- Bag is getting full. Need to use/toss items (like Potions, Antidotes, Awakening) to free up space.
+- Bag is FULL (20 items). Need to use/toss items (like Potions, Awakenings, Rare Candies) immediately to free up space.
