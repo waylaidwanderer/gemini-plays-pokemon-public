@@ -26,8 +26,7 @@
 - Fan Club: (9, 13) - Talk to Chairman for Bike Voucher.
 
 [Plan]
-- Teach HM01 (Cut) to Audrey (Bellsprout).
-- Cut the tree blocking the Vermilion Gym and challenge Lt. Surge.
+- Cut the tree blocking the Vermilion Gym and challenge Lt. Surge. (Lead with Pebbles or Cleo for Electric immunity!)
 - Return to Cerulean City (walk back through Route 5 Underground Path after acquiring HM01 and ship departs) to exchange Bike Voucher for Bicycle.
 
 [Navigation Rules]
