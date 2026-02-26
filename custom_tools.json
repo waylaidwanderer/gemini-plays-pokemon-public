@@ -34,6 +34,36 @@
       }
     ]
   },
+  "check_stats": {
+    "description": "Automates checking a Pokemon's stats from the party menu. Assumes you are already in the party menu.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "current_index": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 6
+        },
+        "target_index": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 6
+        }
+      },
+      "required": [
+        "current_index",
+        "target_index"
+      ]
+    },
+    "python_script": "import json\n\ndef generate_presses(current_index, target_index):\n    presses = []\n    diff = target_index - current_index\n    direction = 'Down' if diff > 0 else 'Up'\n    for _ in range(abs(diff)):\n        presses.append(direction)\n        presses.append('sleep 300')\n    presses.extend(['A', 'sleep 500', 'A', 'sleep 500', 'A', 'sleep 500', 'A', 'sleep 500', 'B', 'sleep 500'])\n    return presses\n\nprint(json.dumps(generate_presses(input_data['current_index'], input_data['target_index'])))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-02-26T04:49:01.203Z",
+        "action_counter": 5613
+      }
+    ]
+  },
   "clear_dialogue": {
     "description": "Clears variable-length NPC dialogue by safely mashing the B button a set number of times. This ensures text boxes are fully closed without accidentally triggering 'Yes' on prompts.",
     "input_schema": {
@@ -51,6 +81,34 @@
         "commit_message": "Fixed JSON serialization error to ensure the tool always returns a valid array of B presses.",
         "timestamp": "2026-02-23T12:18:18.192Z",
         "action_counter": 2401
+      }
+    ]
+  },
+  "deposit_pokemon": {
+    "description": "Automates depositing a Pokemon in the PC. Assumes you are in the 'DEPOSIT PKMN' menu.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "current_index": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "target_index": {
+          "type": "integer",
+          "minimum": 1
+        }
+      },
+      "required": [
+        "current_index",
+        "target_index"
+      ]
+    },
+    "python_script": "import json\n\ndef generate_presses(current_index, target_index):\n    presses = []\n    diff = target_index - current_index\n    direction = 'Down' if diff > 0 else 'Up'\n    for _ in range(abs(diff)):\n        presses.append(direction)\n        presses.append('sleep 300')\n    presses.extend(['A', 'sleep 500', 'A'])\n    return presses\n\nprint(json.dumps(generate_presses(input_data['current_index'], input_data['target_index'])))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-02-26T04:49:36.434Z",
+        "action_counter": 5614
       }
     ]
   },
@@ -181,6 +239,38 @@
         "commit_message": "Fixed script to print a JSON array instead of returning a python list.",
         "timestamp": "2026-02-22T07:52:15.016Z",
         "action_counter": 183
+      }
+    ]
+  },
+  "navigate_menu": {
+    "description": "Calculates and executes the exact sequence of Up/Down button presses to navigate a vertical menu from your current cursor index to a target index. Useful for precise bag or PC navigation without blind mashing.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "current_index": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "target_index": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "press_a": {
+          "type": "boolean",
+          "default": false
+        }
+      },
+      "required": [
+        "current_index",
+        "target_index"
+      ]
+    },
+    "python_script": "import json\n\ncurrent = int(input_data['current_index'])\ntarget = int(input_data['target_index'])\npress_a = input_data.get('press_a', False)\n\ndiff = target - current\nbuttons = []\n\nif diff > 0:\n    for _ in range(diff):\n        buttons.append('Down')\n        buttons.append('sleep 300')\nelif diff < 0:\n    for _ in range(abs(diff)):\n        buttons.append('Up')\n        buttons.append('sleep 300')\n\nif press_a:\n    buttons.append('A')\n\nprint(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-02-25T03:04:04.331Z",
+        "action_counter": 4562
       }
     ]
   },
@@ -353,6 +443,42 @@
       }
     ]
   },
+  "swap_pokemon": {
+    "description": "Swaps two Pokemon in the party menu. YOU MUST VISUALLY VERIFY the current_index before calling this tool. Assumes you are already in the party menu with the cursor on current_index.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "current_index": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 6
+        },
+        "index_a": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 6
+        },
+        "index_b": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 6
+        }
+      },
+      "required": [
+        "current_index",
+        "index_a",
+        "index_b"
+      ]
+    },
+    "python_script": "import json\n\ndef generate_presses(current_index, index_a, index_b):\n    presses = []\n    diff1 = index_a - current_index\n    direction1 = 'Down' if diff1 > 0 else 'Up'\n    for _ in range(abs(diff1)):\n        presses.extend([direction1, 'sleep 300'])\n    \n    presses.extend(['A', 'sleep 500', 'Down', 'sleep 300', 'A', 'sleep 500'])\n    \n    diff2 = index_b - index_a\n    direction2 = 'Down' if diff2 > 0 else 'Up'\n    for _ in range(abs(diff2)):\n        presses.extend([direction2, 'sleep 300'])\n        \n    presses.extend(['A', 'sleep 1000'])\n    return presses\n\nprint(json.dumps(generate_presses(input_data['current_index'], input_data['index_a'], input_data['index_b'])))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-02-26T05:44:33.036Z",
+        "action_counter": 5682
+      }
+    ]
+  },
   "switch_pokemon_in_battle": {
     "description": "Switches active Pokemon. Can start from main battle menu or PKMN menu. You MUST visually verify current_index before calling.",
     "input_schema": {
@@ -414,6 +540,73 @@
         "commit_message": "Removed default for current_index to enforce visual verification of cursor memory. Added final 'A' press to automatically select 'SWITCH' in the sub-menu.",
         "timestamp": "2026-02-24T23:25:55.175Z",
         "action_counter": 4189
+      }
+    ]
+  },
+  "teach_tm_hm": {
+    "description": "Automates teaching a TM/HM to a Pokemon. Assumes you are in the ITEM menu.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "current_item_index": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "target_item_index": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "target_pokemon_index": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 6
+        }
+      },
+      "required": [
+        "current_item_index",
+        "target_item_index",
+        "target_pokemon_index"
+      ]
+    },
+    "python_script": "import json\n\ndef generate_presses(current_item_index, target_item_index, target_pokemon_index):\n    presses = []\n    diff = target_item_index - current_item_index\n    direction = 'Down' if diff > 0 else 'Up'\n    for _ in range(abs(diff)):\n        presses.extend([direction, 'sleep 300'])\n    presses.extend(['A', 'sleep 500', 'A', 'sleep 1000']) # Select USE\n    pokemon_diff = target_pokemon_index - 1\n    for _ in range(pokemon_diff):\n        presses.extend(['Down', 'sleep 300'])\n    presses.append('A')\n    return presses\n\nprint(json.dumps(generate_presses(input_data['current_item_index'], input_data['target_item_index'], input_data['target_pokemon_index'])))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-02-26T04:51:12.912Z",
+        "action_counter": 5617
+      }
+    ]
+  },
+  "toss_item": {
+    "description": "Automates tossing an item from the ITEM menu. Assumes you are in the ITEM menu.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "current_item_index": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "target_item_index": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "quantity": {
+          "type": "integer",
+          "minimum": 1
+        }
+      },
+      "required": [
+        "current_item_index",
+        "target_item_index",
+        "quantity"
+      ]
+    },
+    "python_script": "import json\n\ndef generate_presses(current_item_index, target_item_index, quantity):\n    presses = []\n    diff = target_item_index - current_item_index\n    direction = 'Down' if diff > 0 else 'Up'\n    for _ in range(abs(diff)):\n        presses.extend([direction, 'sleep 300'])\n    presses.extend(['A', 'sleep 500', 'Down', 'sleep 300', 'A', 'sleep 500']) # Select TOSS\n    \n    if quantity > 1:\n        for _ in range(quantity - 1):\n             presses.extend(['Up', 'sleep 100'])\n             \n    presses.extend(['A', 'sleep 500', 'A']) # Confirm quantity and confirm toss\n    return presses\n\nprint(json.dumps(generate_presses(input_data['current_item_index'], input_data['target_item_index'], input_data['quantity'])))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-02-26T04:52:29.170Z",
+        "action_counter": 5619
       }
     ]
   },
@@ -496,130 +689,6 @@
       }
     ]
   },
-  "navigate_menu": {
-    "description": "Calculates and executes the exact sequence of Up/Down button presses to navigate a vertical menu from your current cursor index to a target index. Useful for precise bag or PC navigation without blind mashing.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "current_index": {
-          "type": "integer",
-          "minimum": 1
-        },
-        "target_index": {
-          "type": "integer",
-          "minimum": 1
-        },
-        "press_a": {
-          "type": "boolean",
-          "default": false
-        }
-      },
-      "required": [
-        "current_index",
-        "target_index"
-      ]
-    },
-    "python_script": "import json\n\ncurrent = int(input_data['current_index'])\ntarget = int(input_data['target_index'])\npress_a = input_data.get('press_a', False)\n\ndiff = target - current\nbuttons = []\n\nif diff > 0:\n    for _ in range(diff):\n        buttons.append('Down')\n        buttons.append('sleep 300')\nelif diff < 0:\n    for _ in range(abs(diff)):\n        buttons.append('Up')\n        buttons.append('sleep 300')\n\nif press_a:\n    buttons.append('A')\n\nprint(json.dumps(buttons))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-02-25T03:04:04.331Z",
-        "action_counter": 4562
-      }
-    ]
-  },
-  "check_stats": {
-    "description": "Automates checking a Pokemon's stats from the party menu. Assumes you are already in the party menu.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "current_index": {
-          "type": "integer",
-          "minimum": 1,
-          "maximum": 6
-        },
-        "target_index": {
-          "type": "integer",
-          "minimum": 1,
-          "maximum": 6
-        }
-      },
-      "required": [
-        "current_index",
-        "target_index"
-      ]
-    },
-    "python_script": "import json\n\ndef generate_presses(current_index, target_index):\n    presses = []\n    diff = target_index - current_index\n    direction = 'Down' if diff > 0 else 'Up'\n    for _ in range(abs(diff)):\n        presses.append(direction)\n        presses.append('sleep 300')\n    presses.extend(['A', 'sleep 500', 'A', 'sleep 500', 'A', 'sleep 500', 'A', 'sleep 500', 'B', 'sleep 500'])\n    return presses\n\nprint(json.dumps(generate_presses(input_data['current_index'], input_data['target_index'])))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-02-26T04:49:01.203Z",
-        "action_counter": 5613
-      }
-    ]
-  },
-  "deposit_pokemon": {
-    "description": "Automates depositing a Pokemon in the PC. Assumes you are in the 'DEPOSIT PKMN' menu.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "current_index": {
-          "type": "integer",
-          "minimum": 1
-        },
-        "target_index": {
-          "type": "integer",
-          "minimum": 1
-        }
-      },
-      "required": [
-        "current_index",
-        "target_index"
-      ]
-    },
-    "python_script": "import json\n\ndef generate_presses(current_index, target_index):\n    presses = []\n    diff = target_index - current_index\n    direction = 'Down' if diff > 0 else 'Up'\n    for _ in range(abs(diff)):\n        presses.append(direction)\n        presses.append('sleep 300')\n    presses.extend(['A', 'sleep 500', 'A'])\n    return presses\n\nprint(json.dumps(generate_presses(input_data['current_index'], input_data['target_index'])))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-02-26T04:49:36.434Z",
-        "action_counter": 5614
-      }
-    ]
-  },
-  "teach_tm_hm": {
-    "description": "Automates teaching a TM/HM to a Pokemon. Assumes you are in the ITEM menu.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "current_item_index": {
-          "type": "integer",
-          "minimum": 1
-        },
-        "target_item_index": {
-          "type": "integer",
-          "minimum": 1
-        },
-        "target_pokemon_index": {
-          "type": "integer",
-          "minimum": 1,
-          "maximum": 6
-        }
-      },
-      "required": [
-        "current_item_index",
-        "target_item_index",
-        "target_pokemon_index"
-      ]
-    },
-    "python_script": "import json\n\ndef generate_presses(current_item_index, target_item_index, target_pokemon_index):\n    presses = []\n    diff = target_item_index - current_item_index\n    direction = 'Down' if diff > 0 else 'Up'\n    for _ in range(abs(diff)):\n        presses.extend([direction, 'sleep 300'])\n    presses.extend(['A', 'sleep 500', 'A', 'sleep 1000']) # Select USE\n    pokemon_diff = target_pokemon_index - 1\n    for _ in range(pokemon_diff):\n        presses.extend(['Down', 'sleep 300'])\n    presses.append('A')\n    return presses\n\nprint(json.dumps(generate_presses(input_data['current_item_index'], input_data['target_item_index'], input_data['target_pokemon_index'])))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-02-26T04:51:12.912Z",
-        "action_counter": 5617
-      }
-    ]
-  },
   "withdraw_pokemon": {
     "description": "Automates withdrawing a Pokemon from the PC. Assumes you are in the 'WITHDRAW PKMN' menu.",
     "input_schema": {
@@ -645,75 +714,6 @@
         "commit_message": "Initial version",
         "timestamp": "2026-02-26T04:52:29.169Z",
         "action_counter": 5619
-      }
-    ]
-  },
-  "toss_item": {
-    "description": "Automates tossing an item from the ITEM menu. Assumes you are in the ITEM menu.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "current_item_index": {
-          "type": "integer",
-          "minimum": 1
-        },
-        "target_item_index": {
-          "type": "integer",
-          "minimum": 1
-        },
-        "quantity": {
-          "type": "integer",
-          "minimum": 1
-        }
-      },
-      "required": [
-        "current_item_index",
-        "target_item_index",
-        "quantity"
-      ]
-    },
-    "python_script": "import json\n\ndef generate_presses(current_item_index, target_item_index, quantity):\n    presses = []\n    diff = target_item_index - current_item_index\n    direction = 'Down' if diff > 0 else 'Up'\n    for _ in range(abs(diff)):\n        presses.extend([direction, 'sleep 300'])\n    presses.extend(['A', 'sleep 500', 'Down', 'sleep 300', 'A', 'sleep 500']) # Select TOSS\n    \n    if quantity > 1:\n        for _ in range(quantity - 1):\n             presses.extend(['Up', 'sleep 100'])\n             \n    presses.extend(['A', 'sleep 500', 'A']) # Confirm quantity and confirm toss\n    return presses\n\nprint(json.dumps(generate_presses(input_data['current_item_index'], input_data['target_item_index'], input_data['quantity'])))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-02-26T04:52:29.170Z",
-        "action_counter": 5619
-      }
-    ]
-  },
-  "swap_pokemon": {
-    "description": "Swaps two Pokemon in the party menu. YOU MUST VISUALLY VERIFY the current_index before calling this tool. Assumes you are already in the party menu with the cursor on current_index.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "current_index": {
-          "type": "integer",
-          "minimum": 1,
-          "maximum": 6
-        },
-        "index_a": {
-          "type": "integer",
-          "minimum": 1,
-          "maximum": 6
-        },
-        "index_b": {
-          "type": "integer",
-          "minimum": 1,
-          "maximum": 6
-        }
-      },
-      "required": [
-        "current_index",
-        "index_a",
-        "index_b"
-      ]
-    },
-    "python_script": "import json\n\ndef generate_presses(current_index, index_a, index_b):\n    presses = []\n    diff1 = index_a - current_index\n    direction1 = 'Down' if diff1 > 0 else 'Up'\n    for _ in range(abs(diff1)):\n        presses.extend([direction1, 'sleep 300'])\n    \n    presses.extend(['A', 'sleep 500', 'Down', 'sleep 300', 'A', 'sleep 500'])\n    \n    diff2 = index_b - index_a\n    direction2 = 'Down' if diff2 > 0 else 'Up'\n    for _ in range(abs(diff2)):\n        presses.extend([direction2, 'sleep 300'])\n        \n    presses.extend(['A', 'sleep 1000'])\n    return presses\n\nprint(json.dumps(generate_presses(input_data['current_index'], input_data['index_a'], input_data['index_b'])))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-02-26T05:44:33.036Z",
-        "action_counter": 5682
       }
     ]
   }
