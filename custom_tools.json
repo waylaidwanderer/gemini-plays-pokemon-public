@@ -696,5 +696,33 @@
         "action_counter": 5613
       }
     ]
+  },
+  "deposit_pokemon": {
+    "description": "Automates depositing a Pokemon in the PC. Assumes you are in the 'DEPOSIT PKMN' menu.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "current_index": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "target_index": {
+          "type": "integer",
+          "minimum": 1
+        }
+      },
+      "required": [
+        "current_index",
+        "target_index"
+      ]
+    },
+    "python_script": "import json\n\ndef generate_presses(current_index, target_index):\n    presses = []\n    diff = target_index - current_index\n    direction = 'Down' if diff > 0 else 'Up'\n    for _ in range(abs(diff)):\n        presses.append(direction)\n        presses.append('sleep 300')\n    presses.extend(['A', 'sleep 500', 'A'])\n    return presses\n\nprint(json.dumps(generate_presses(input_data['current_index'], input_data['target_index'])))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-02-26T04:49:36.434Z",
+        "action_counter": 5614
+      }
+    ]
   }
 }
