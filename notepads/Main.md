@@ -62,6 +62,7 @@
 - Walk West along Y=26 to X=18.
 - Walk South onto the bridge at X=18.
 - NEVER ask custom agents for exact map coordinates or pathfinding instructions, as they will hallucinate them. Always manually trace collision bounds.
-[Turn 5527 Reflection]
-- Overcame a massive spatial hallucination where I repeatedly assumed Map 0_96 was a dead end. I must trace paths tile-by-tile instead of glancing at the top row of a room and assuming the rest is blocked.
-- Currently battling Gary. Hydro leveled up to 31. Skipping Withdraw, as defensive setup moves are generally less efficient than direct attacks in this playthrough.
+[Turn 5734 Reflection]
+- Overcame the menu navigation issues by recognizing Gen 1 cursor memory.
+- S.S. Anne is complete and HM01 Cut is acquired and in use.
+- Current focus is navigating the Vermilion Gym trash can puzzle and defeating Lt. Surge. I'll need to systematically check the cans and carefully track the ones I've checked to deduce the second switch location when I find the first. I will use move_sequence for precision moving between cans to avoid over-mashing.
