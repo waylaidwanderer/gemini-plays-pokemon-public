@@ -443,7 +443,8 @@ WARNING: Bellsprout's Vine Whip is 4x effective against Geodude. Train Cleo here
 - Warp Link: Vermilion City (18, 31) connects to S.S. Anne Docks Map 0_94 (14, 0).
 [Gary Rematch Objective]
 - Start Turn: 5251
-- Strategy: The 2F arrival stairs are at (27, 5). The path to the right (X=28) is VISUALLY CONFIRMED as BLOCKED by void (TYPE_2889). The Overwatch system hallucinated that the path to the right was open. The ONLY way is LEFT.
-- Path: From (27, 5), walk LEFT. The hallway is a U-shape. Follow it Left, then Down, then Right.
+- Strategy: S.S. Anne 2F (Map 0_98) has TWO disconnected sections separated by void (X=28)!
+- The stairs at 1F (37, 15) lead to 2F (27, 5), which is an isolated cabin block (X=2 to X=27). Gary is NOT here! Left is a dead end at X=2. Right is void at X=28.
+- To reach Gary at (36, 8), I must use the OTHER stairs on 1F located at the end of the main horizontal hallway around (37, 6) or (37, 7)!
 
 <hr>
