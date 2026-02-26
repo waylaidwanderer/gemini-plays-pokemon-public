@@ -21,4 +21,4 @@
 - Map 0_97: Deck (Outside)
 [Gary Rematch Objective]
 - Start Turn: 5251
-- Strategy: I must find the real 2F to battle Gary. I will re-test the stairs at 1F (2, 6). They lead to Map 0_96. I will walk RIGHT on Map 0_96 to see if it is actually 2F, instead of assuming it's a small room.
+- Strategy: I am taking the stairs at 1F (27, 5) which should lead to the real 2F where Gary is.
