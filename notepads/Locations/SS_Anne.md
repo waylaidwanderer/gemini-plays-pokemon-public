@@ -21,5 +21,5 @@
 - Map 0_97: Deck (Outside)
 [Gary Rematch Objective]
 - Start Turn: 5251
-- Strategy: Gary is on 2F. The MAIN stairs to 2F are located at 1F (27, 5). The stairs at 1F (37, 15) go to B1F (0_98). The stairs at 1F (2, 6) go to the Deck (0_97).
-- Rule: ALWAYS mark warp arrival coordinates with a map marker immediately to identify floors.
+- Strategy: Gary is on 2F. The entrance corridor (X=26, X=27) has NO stairs to 2F. The stairs at 1F (37, 15) go to B1F (0_98). The stairs at 1F (2, 6) go to the Deck (0_97). The real stairs to 2F must be on the FAR RIGHT side of 1F (Map 0_95), likely around X=36 or X=37 near the horizontal hallway (Y=6/Y=7).
+- Rule: NEVER trust the critique agent's specific coordinate claims without visually verifying them first.
