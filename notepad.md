@@ -423,6 +423,7 @@ WARNING: Bellsprout's Vine Whip is 4x effective against Geodude. Train Cleo here
 - Cursor Memory: The PKMN switch menu and FIGHT menu remember the last selected index per session/battle. ALWAYS visually verify the starting cursor position and pass it to custom tools (current_index) to prevent wrong selections.
 - Gen 1 Menu Mechanics: The party menu and start menu both feature cursor memory (opening on the last selected item) and cursor wrapping (pressing Up at the top goes to the bottom). This breaks blind navigation macros, so always do menu navigation step-by-step or use state-aware tools.
 - Cursor Memory: In Gen 1, the cursor position in menus (like the Party screen) is often remembered between opens. Always verify the blinking cursor position before mashing A or using a tool, especially when returning from a sub-menu, as it might wrap or stay where it was.
+- [Turn 6149 Reflection] The party menu cursor remembers its last position even when accessed from the ITEM menu. Always verify cursor position before using an item!
 
 <hr>
 
