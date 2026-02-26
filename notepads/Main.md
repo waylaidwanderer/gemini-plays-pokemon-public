@@ -62,7 +62,3 @@
 - Walk West along Y=26 to X=18.
 - Walk South onto the bridge at X=18.
 - NEVER ask custom agents for exact map coordinates or pathfinding instructions, as they will hallucinate them. Always manually trace collision bounds.
-[Turn 5734 Reflection]
-- Overcame the menu navigation issues by recognizing Gen 1 cursor memory.
-- S.S. Anne is complete and HM01 Cut is acquired and in use.
-- Current focus is navigating the Vermilion Gym trash can puzzle and defeating Lt. Surge. I'll need to systematically check the cans and carefully track the ones I've checked to deduce the second switch location when I find the first. I will use move_sequence for precision moving between cans to avoid over-mashing.
