@@ -21,4 +21,4 @@
 - Map 0_97: Deck (Outside)
 [Gary Rematch Objective]
 - Start Turn: 5251
-- Strategy: Map 0_96 is definitively JUST the Deck Connector (it is a small room, no path right). The real 2F is a different map. I must systematically search 1F (Map 0_95) from left to right to find the actual stairs to 2F.
+- Strategy: Map 0_96 is JUST the Deck Connector. I need to exit back to 1F (Map 0_95) by walking DOWN. Once on 1F, I will navigate to (2, 12) and take the "Stairs Up" to reach the real 2F. Gary is located at (36, 8) on 2F.
