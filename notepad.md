@@ -510,6 +510,11 @@ WARNING: Bellsprout's Vine Whip is 4x effective against Geodude. Train Cleo here
 # Trash Can Grid (15 cans)
 - Puzzle solved! The motorized doors are now open. The first switch was at (5, 11) and the second was at (5, 9). I can proceed to Lt. Surge! (Deleting grid to save space)
 
+# Lt. Surge Battle
+- Voltorb Lv 21 (Tackle, Screech, Sonicboom)
+- Pikachu Lv 18 (Quick Attack, Growl)
+- Raichu Lv 24 (Thundershock, Growl, X Speed)
+
 <hr>
 
 <h1><code>Mechanics/Input_Delays</code></h1>
