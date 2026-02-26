@@ -69,3 +69,5 @@
 - I got stuck looping at (20, 18) because I told my `walk_to_coordinate` tool to walk Left, straight into `TYPE_4e8c` (water). The tool doesn't do pathfinding, only L-shapes.
 - CRITICAL: Always visually trace the L-shape path on the screen grid to ensure there are no ledges, water, or buildings in the way before calling `walk_to_coordinate`.
 - Created `deposit_item_pc` to speed up future PC visits.
+[Turn 6393 Reflection: Path to Vermilion Gym]
+- The Gym door is at (12, 19). Approach from the south (Y=19 or Y=20). The Cut tree at (15, 19) provides access to the gym area, while the Cut tree at (15, 18) provides access to the rest of the city. Do not confuse them or the bushes nearby.
