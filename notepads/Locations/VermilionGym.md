@@ -12,6 +12,6 @@
 - Strategy: Defeat all trainers first to clear paths. Then check cans systematically. If first switch is found, check adjacent cans.
 
 # Trash Can Grid (15 cans)
-Row 1 (Y=7): (1,7)[X] (3,7)[X] (5,7)[ ] (7,7)[ ] (9,7)[ ]
+Row 1 (Y=7): (1,7)[X] (3,7)[X] (5,7)[X] (7,7)[ ] (9,7)[ ]
 Row 2 (Y=9): (1,9)[X] (3,9)[ ] (5,9)[ ] (7,9)[ ] (9,9)[ ]
 Row 3 (Y=11): (1,11)[ ] (3,11)[ ] (5,11)[ ] (7,11)[ ] (9,11)[ ]
