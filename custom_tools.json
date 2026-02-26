@@ -679,5 +679,39 @@
         "action_counter": 5614
       }
     ]
+  },
+  "teach_tm_hm": {
+    "description": "Automates teaching a TM/HM to a Pokemon. Assumes you are in the ITEM menu.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "current_item_index": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "target_item_index": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "target_pokemon_index": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 6
+        }
+      },
+      "required": [
+        "current_item_index",
+        "target_item_index",
+        "target_pokemon_index"
+      ]
+    },
+    "python_script": "import json\n\ndef generate_presses(current_item_index, target_item_index, target_pokemon_index):\n    presses = []\n    diff = target_item_index - current_item_index\n    direction = 'Down' if diff > 0 else 'Up'\n    for _ in range(abs(diff)):\n        presses.extend([direction, 'sleep 300'])\n    presses.extend(['A', 'sleep 500', 'A', 'sleep 1000']) # Select USE\n    pokemon_diff = target_pokemon_index - 1\n    for _ in range(pokemon_diff):\n        presses.extend(['Down', 'sleep 300'])\n    presses.append('A')\n    return presses\n\nprint(json.dumps(generate_presses(input_data['current_item_index'], input_data['target_item_index'], input_data['target_pokemon_index'])))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-02-26T04:51:12.912Z",
+        "action_counter": 5617
+      }
+    ]
   }
 }
