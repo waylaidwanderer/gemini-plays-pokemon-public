@@ -492,6 +492,8 @@ WARNING: Bellsprout's Vine Whip is 4x effective against Geodude. Train Cleo here
 - Team Plan: Lead with Cleo (Nidoqueen) or Pebbles (Geodude).
 
 # Vermilion Gym Puzzle
+- Start Turn: 5821
+- Timestamp: Thursday, February 26, 2026 at 10:55 AM PST
 - Mechanic: First switch is randomly hidden. Second switch is in an adjacent can.
 - CRITICAL: Failing the second guess RESETS the puzzle AND randomizes the first switch's location again!
 - I accidentally reset the puzzle by bumping into cans and mashing A. Starting over carefully.
