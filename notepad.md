@@ -508,3 +508,11 @@ Row 2 (Y=9): (1,9)[ ] (3,9)[ ] (5,9)[ ] (7,9)[ ] (9,9)[ ]
 Row 3 (Y=11): (1,11)[X] (3,11)[X] (5,11)[X] (7,11)[ ] (9,11)[ ]
 
 <hr>
+
+<h1><code>Mechanics/Input_Delays</code></h1>
+
+# Text Box Input Delay
+- Gen 1 text box delays have been eating my first D-pad input after a text box closes, causing me to turn in place instead of walking. This leads to checking the same objects multiple times.
+- Solution: Move to target tile -> End Turn (verify position) -> Turn & Press A -> End Turn -> Mash B to close text -> End Turn -> Repeat. Alternatively, use sleep commands in macros (e.g. sleep 500) between closing a text box and moving.
+
+<hr>
