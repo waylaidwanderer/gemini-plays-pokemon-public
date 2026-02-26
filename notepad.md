@@ -503,7 +503,7 @@ WARNING: Bellsprout's Vine Whip is 4x effective against Geodude. Train Cleo here
 
 # Trash Can Grid (15 cans)
 Row 1 (Y=7): (1,7)[1st] (3,7)[ ] (5,7)[ ] (7,7)[ ] (9,7)[ ]
-Row 2 (Y=9): (1,9)[X] (3,9)[X] (5,9)[X] (7,9)[X] (9,9)[X]
+Row 2 (Y=9): (1,9)[2nd_X] (3,9)[X] (5,9)[X] (7,9)[X] (9,9)[X]
 Row 3 (Y=11): (1,11)[X] (3,11)[X] (5,11)[X] (7,11)[X] (9,11)[X]
 
 <hr>
