@@ -62,3 +62,4 @@
 - Walk West along Y=26 to X=18.
 - Walk South onto the bridge at X=18.
 - NEVER ask custom agents for exact map coordinates or pathfinding instructions, as they will hallucinate them. Always manually trace collision bounds.
+- Turn 6272: Started searching for the Fishing Guru in Vermilion City.
