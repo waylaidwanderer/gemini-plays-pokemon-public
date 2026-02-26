@@ -1,2 +1,3 @@
 - Item Menu: The in-game Item menu order is chronological/manual, NOT alphabetical. Do not rely on Game State inventory order for navigation.
 - Cursor Memory: The PKMN switch menu and FIGHT menu remember the last selected index per session/battle. ALWAYS visually verify the starting cursor position and pass it to custom tools (current_index) to prevent wrong selections.
+- Gen 1 Menu Mechanics: The party menu and start menu both feature cursor memory (opening on the last selected item) and cursor wrapping (pressing Up at the top goes to the bottom). This breaks blind navigation macros, so always do menu navigation step-by-step or use state-aware tools.

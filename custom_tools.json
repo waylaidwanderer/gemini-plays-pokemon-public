@@ -353,51 +353,6 @@
       }
     ]
   },
-  "swap_pokemon_party": {
-    "description": "Swaps two Pokemon in the party menu out of battle. Can be called with the menu open or closed. Automatically navigates to the start menu, opens the POKEMON menu, and executes the swap.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "index_a": {
-          "type": "integer",
-          "minimum": 1,
-          "maximum": 6
-        },
-        "index_b": {
-          "type": "integer",
-          "minimum": 1,
-          "maximum": 6
-        }
-      },
-      "required": [
-        "index_a",
-        "index_b"
-      ]
-    },
-    "python_script": "import json\n\ndef generate_presses(index_a, index_b):\n    presses = []\n    presses.extend(['B', 'B', 'B', 'sleep 500', 'Start', 'sleep 1000'])\n    for _ in range(6):\n        presses.extend(['Up', 'sleep 100'])\n    presses.extend(['Down', 'sleep 300', 'A', 'sleep 1000'])\n    \n    idx1, idx2 = min(index_a, index_b), max(index_a, index_b)\n    \n    for _ in range(idx1 - 1):\n        presses.extend(['Down', 'sleep 300'])\n        \n    presses.extend(['A', 'sleep 500', 'Up', 'sleep 200', 'Up', 'sleep 200', 'A', 'sleep 500'])\n    \n    for _ in range(idx2 - idx1):\n        presses.extend(['Down', 'sleep 300'])\n        \n    presses.extend(['A', 'sleep 1000'])\n    presses.extend(['B', 'B', 'sleep 500', 'Start'])\n    return presses\n\nprint(json.dumps(generate_presses(input_data['index_a'], input_data['index_b'])))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-02-24T04:07:34.121Z",
-        "action_counter": 3361
-      },
-      {
-        "commit_message": "Updated swap_pokemon_party to automatically reset the cursor memory by briefly exiting to the Start menu and re-entering the PKMN menu before swapping.",
-        "timestamp": "2026-02-25T05:46:05.411Z",
-        "action_counter": 4842
-      },
-      {
-        "commit_message": "Added logic to start from overworld and reset cursor memory to ensure consistent behavior.",
-        "timestamp": "2026-02-25T07:33:48.038Z",
-        "action_counter": 4924
-      },
-      {
-        "commit_message": "Fix JSON output formatting to use double quotes instead of single quotes by importing the json module and using json.dumps().",
-        "timestamp": "2026-02-26T05:08:57.453Z",
-        "action_counter": 5641
-      }
-    ]
-  },
   "switch_pokemon_in_battle": {
     "description": "Switches active Pokemon. Can start from main battle menu or PKMN menu. You MUST visually verify current_index before calling.",
     "input_schema": {
