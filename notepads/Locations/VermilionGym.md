@@ -16,6 +16,4 @@
 - Safe vertical paths: X=0, X=2, X=4, X=6, X=8, X=10
 
 # Trash Can Grid (15 cans)
-Row 1 (Y=7): (1,7)[ ] (3,7)[ ] (5,7)[ ] (7,7)[ ] (9,7)[ ]
-Row 2 (Y=9): (1,9)[ ] (3,9)[ ] (5,9)[ ] (7,9)[ ] (9,9)[ ]
-Row 3 (Y=11): (1,11)[X] (3,11)[X] (5,11)[S1] (7,11)[ ] (9,11)[ ]
+- Puzzle solved! The motorized doors are now open. The first switch was at (5, 11) and the second was at (5, 9). I can proceed to Lt. Surge! (Deleting grid to save space)
