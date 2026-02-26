@@ -448,6 +448,6 @@ WARNING: Bellsprout's Vine Whip is 4x effective against Geodude. Train Cleo here
 - Map 0_97: Deck (Outside)
 [Gary Rematch Objective]
 - Start Turn: 5251
-- Strategy: Map 0_96 IS the 2nd Floor. I must walk DOWN to Y=6 or Y=7, and then walk RIGHT. The wall at Y=4 is an illusion of a dead end. Do not go back down the stairs to 1F. Gary is at (36, 8) on 2F.
+- Strategy: Map 0_96 IS the 2nd Floor. Walk DOWN the left-side vertical hallway past Y=8 until the path opens east. Do not return to 1F. Gary is at (36, 8) on this map.
 
 <hr>
