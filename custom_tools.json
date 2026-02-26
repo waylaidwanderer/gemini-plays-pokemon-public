@@ -674,5 +674,30 @@
         "action_counter": 5619
       }
     ]
+  },
+  "execute_macro": {
+    "description": "Executes a sequence of buttons and sleep commands. Useful for bypassing text box delays without manual step-by-step confirmation. Provide an array of strings like ['B', 'B', 'sleep 500', 'Right', 'Right', 'sleep 500', 'Up', 'A']. Do not use consecutive sleep commands.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "macro": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "macro"
+      ]
+    },
+    "python_script": "import json\nmacro = input_data['macro']\nprint(json.dumps(macro))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-02-26T21:26:41.224Z",
+        "action_counter": 6067
+      }
+    ]
   }
 }
