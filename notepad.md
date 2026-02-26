@@ -457,3 +457,33 @@ WARNING: Bellsprout's Vine Whip is 4x effective against Geodude. Train Cleo here
 - Next Step: Find the Captain to get HM01 (Cut) in his cabin (up the stairs past Gary).
 
 <hr>
+
+<h1><code>Archive/SS_Anne</code></h1>
+
+# S.S. Anne
+- Hallway (Map 0_95): The horizontal walking path is Y=6 and Y=7. Y=8 contains alternating doors and impassable walls.
+- Navigation Rule: To avoid bumping into walls, always walk horizontally on Y=6 or Y=7. Turn Down only when you are directly above the door you want to enter (Y=8).
+- Coordinate mapping: Map 0_95 is the hallway, and Map 0_102 contains the individual cabin interiors.
+- Map 0_100: Reached via stairs at (3, 16) on Map 0_95. This is a large open room (crew quarters/engine room) with pink/white checkerboard floors, not a hallway. Contains several Sailors.
+- Trash cans checked: The two on the left side of the room are empty. The 'odd ball' might be in a different room like the kitchen.
+[Cabin Clearance Checklist]
+- Cabin 1: Cleared
+- Cabin 2: Cleared
+- Cabin 3: Cleared
+- Cabin 4: Cleared
+- Cabin 5: Cleared
+- Cabin 6: Cleared
+[Healing Plan]
+- Cleo (Nidoqueen) is 23/58 HP. Hydro is 22/81 PAR. Use Potions/Antidotes as needed, or return to Vermilion Center if Cleo drops below 10 HP.
+- Warp Link: Vermilion City (18, 31) connects to S.S. Anne Docks Map 0_94 (14, 0).
+[Map IDs]
+- Map 0_95: 1F (Entrance)
+- Map 0_98: B1F (Basement)
+- Map 0_96: Deck Connector
+- Map 0_97: Deck (Outside)
+[Gary Rematch Objective]
+- Status: Completed! (Turn 5541)
+- Gary's Team: Pidgeotto Lv19, Raticate Lv16, Kadabra Lv18, Ivysaur Lv20
+- Next Step: Find the Captain to get HM01 (Cut) in his cabin (up the stairs past Gary).
+
+<hr>
