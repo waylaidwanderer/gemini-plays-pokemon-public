@@ -402,7 +402,7 @@
     ]
   },
   "swap_pokemon": {
-    "description": "Swaps two Pokemon in the party menu. YOU MUST VISUALLY VERIFY the current_index before calling this tool. Assumes you are already in the party menu with the cursor on current_index.",
+    "description": "Swaps two Pokemon. Gen 1 has cursor memory! YOU MUST VISUALLY VERIFY the current_index before calling.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -428,12 +428,17 @@
         "index_b"
       ]
     },
-    "python_script": "import json\n\ndef generate_presses(current_index, index_a, index_b):\n    presses = []\n    diff1 = index_a - current_index\n    direction1 = 'Down' if diff1 > 0 else 'Up'\n    for _ in range(abs(diff1)):\n        presses.extend([direction1, 'sleep 300'])\n    \n    presses.extend(['A', 'sleep 500', 'Down', 'sleep 300', 'A', 'sleep 500'])\n    \n    diff2 = index_b - index_a\n    direction2 = 'Down' if diff2 > 0 else 'Up'\n    for _ in range(abs(diff2)):\n        presses.extend([direction2, 'sleep 300'])\n        \n    presses.extend(['A', 'sleep 1000'])\n    return presses\n\nprint(json.dumps(generate_presses(input_data['current_index'], input_data['index_a'], input_data['index_b'])))",
+    "python_script": "import json\ncurrent = int(input_data['current_index'])\na = int(input_data['index_a'])\nb = int(input_data['index_b'])\nbuttons = []\ndef move_to(start, end):\n    diff = end - start\n    if diff > 0:\n        return ['Down', 'sleep 300'] * diff\n    elif diff < 0:\n        return ['Up', 'sleep 300'] * (-diff)\n    return []\nbuttons.extend(move_to(current, a))\nbuttons.extend(['A', 'sleep 500'])\nbuttons.extend(move_to(a, b))\nbuttons.extend(['A', 'sleep 1000'])\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2026-02-26T05:44:33.036Z",
         "action_counter": 5682
+      },
+      {
+        "commit_message": "Re-affirming explicit requirement for visual verification of current_index to prevent cursor memory errors.",
+        "timestamp": "2026-02-26T22:13:40.870Z",
+        "action_counter": 6152
       }
     ]
   },
@@ -569,7 +574,7 @@
     ]
   },
   "use_item_in_battle": {
-    "description": "Navigates ITEM menu. You MUST visually verify current_item_index before calling.",
+    "description": "Navigates ITEM menu. WARNING: Game state inventory is alphabetized, NOT in-game order! Visually verify target_item_index.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -591,7 +596,7 @@
         "target_item_index"
       ]
     },
-    "python_script": "import json\n\ndef execute(input_data):\n    current = int(input_data['current_item_index'])\n    target = int(input_data['target_item_index'])\n    start = input_data.get('start_on_main', True)\n    presses = []\n    if start:\n        presses.extend(['Down', 'A', 'sleep 500'])\n    diff = target - current\n    if diff > 0:\n        for _ in range(diff):\n            presses.extend(['Down', 'sleep 100'])\n    elif diff < 0:\n        for _ in range(abs(diff)):\n            presses.extend(['Up', 'sleep 100'])\n    presses.extend(['A', 'sleep 500'])\n    print(json.dumps(presses))\n\nexecute(input_data)",
+    "python_script": "import json\ncurr = int(input_data['current_item_index'])\ntarget = int(input_data['target_item_index'])\nstart_main = input_data.get('start_on_main', True)\nbuttons = []\nif start_main:\n    buttons.extend(['Down', 'sleep 300', 'A', 'sleep 500'])\ndiff = target - curr\nif diff > 0:\n    buttons.extend(['Down', 'sleep 100'] * diff)\nelif diff < 0:\n    buttons.extend(['Up', 'sleep 100'] * (-diff))\nbuttons.extend(['A', 'sleep 500'])\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "Replacing throw_pokeball with a generic use_item_in_battle tool that handles scrolling to the correct item index.",
@@ -602,6 +607,11 @@
         "commit_message": "Removed default current_item_index to enforce visual verification of cursor memory.",
         "timestamp": "2026-02-23T18:32:40.713Z",
         "action_counter": 2551
+      },
+      {
+        "commit_message": "Added explicit warnings about Game State alphabetization versus in-game chronological order.",
+        "timestamp": "2026-02-26T22:13:40.869Z",
+        "action_counter": 6152
       }
     ]
   },
