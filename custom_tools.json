@@ -709,5 +709,38 @@
         "action_counter": 6067
       }
     ]
+  },
+  "deposit_item_pc": {
+    "description": "Automates depositing an item in the PC. Assumes you are in the 'DEPOSIT ITEM' menu.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "current_index": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "target_index": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "quantity": {
+          "type": "integer",
+          "default": 1,
+          "description": "Amount to deposit. Use -1 for ALL."
+        }
+      },
+      "required": [
+        "current_index",
+        "target_index"
+      ]
+    },
+    "python_script": "import json\ncurrent_index = int(input_data.get('current_index', 1))\ntarget_index = int(input_data.get('target_index', 1))\nquantity = int(input_data.get('quantity', 1))\n\nbuttons = []\nif target_index > current_index:\n    for _ in range(target_index - current_index):\n        buttons.extend(['Down', 'sleep 300'])\nelif target_index < current_index:\n    for _ in range(current_index - target_index):\n        buttons.extend(['Up', 'sleep 300'])\n\nbuttons.extend(['A', 'sleep 500'])\n\nif quantity == -1:\n    buttons.extend(['Down', 'sleep 300'])\nelif quantity > 1:\n    for _ in range(quantity - 1):\n        buttons.extend(['Up', 'sleep 300'])\n\nbuttons.extend(['A', 'sleep 500'])\n\nprint(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-02-26T23:30:32.089Z",
+        "action_counter": 6354
+      }
+    ]
   }
 }
