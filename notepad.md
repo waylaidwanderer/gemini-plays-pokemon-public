@@ -448,7 +448,7 @@ WARNING: Bellsprout's Vine Whip is 4x effective against Geodude. Train Cleo here
 - Map 0_97: Deck (Outside)
 [Gary Rematch Objective]
 - Start Turn: 5251
-- Strategy: Gary is on 2F. The stairs at 1F (37, 15) go to B1F (0_98). The stairs at 1F (2, 6) go to the Deck (0_97). Return to 1F (0_95) and take the stairs at the TOP RIGHT (36, 9) to reach the real 2F!
+- Strategy: Gary is on 2F. The MAIN stairs to 2F are located at 1F (27, 5). The stairs at 1F (37, 15) go to B1F (0_98). The stairs at 1F (2, 6) go to the Deck (0_97).
 - Rule: ALWAYS mark warp arrival coordinates with a map marker immediately to identify floors.
 
 <hr>
