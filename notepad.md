@@ -67,6 +67,10 @@
 - Missed Items due to Full Bag: TM24 (Lt. Surge in Vermilion Gym), Old Rod (Fishing Guru at Vermilion City 0_163).
 [PC Item Storage]
 - TM34, TM01, TM45, TM19, Rare Candy x2
+[Turn 6357 Reflection]
+- I got stuck looping at (20, 18) because I told my `walk_to_coordinate` tool to walk Left, straight into `TYPE_4e8c` (water). The tool doesn't do pathfinding, only L-shapes.
+- CRITICAL: Always visually trace the L-shape path on the screen grid to ensure there are no ledges, water, or buildings in the way before calling `walk_to_coordinate`.
+- Created `deposit_item_pc` to speed up future PC visits.
 
 <hr>
 
