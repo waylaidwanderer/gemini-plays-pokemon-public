@@ -16,6 +16,5 @@
 - Warp Link: Vermilion City (18, 31) connects to S.S. Anne Docks Map 0_94 (14, 0).
 [Gary Rematch Objective]
 - Start Turn: 5251
-- Strategy: S.S. Anne 2F (Map 0_98) has TWO disconnected sections separated by void (X=28)!
-- The stairs at 1F (37, 15) lead to 2F (27, 5), which is an isolated cabin block (X=2 to X=27). Gary is NOT here! Left is a dead end at X=2. Right is void at X=28.
-- To reach Gary at (36, 8), I must use the OTHER stairs on 1F located at the end of the main horizontal hallway around (37, 6) or (37, 7)!
+- Strategy: The stairs at 1F (37, 15) warp to 2F (27, 5). Use single-step movements to map the hallway to Gary at (36, 8) instead of long waypoint chains.
+- Rule: ALWAYS mark warp arrival coordinates with a map marker immediately.
