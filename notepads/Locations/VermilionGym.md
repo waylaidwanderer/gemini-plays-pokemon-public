@@ -22,3 +22,4 @@
 - Voltorb Lv 21 (Tackle, Screech, Sonicboom)
 - Pikachu Lv 18 (Quick Attack, Growl)
 - Raichu Lv 24 (Thundershock, Growl, X Speed)
+- Defeated Lt. Surge! Received Thunderbadge (Speed + Fly) and TM24 (Thunderbolt).
