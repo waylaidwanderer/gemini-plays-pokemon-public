@@ -55,7 +55,10 @@
 
 [S.S. Anne Navigation]
 - NEVER use dead reckoning. ALWAYS read the Game State Player Position before making any navigational assumptions or using walk_to_coordinate.
-[Turn 6045 Reflection]
-- I am systematically checking the Vermilion Gym trash cans.
-- Gen 1 text box delays have been eating my first D-pad input after a text box closes, causing me to turn in place instead of walking. This led to checking the same cans multiple times and accidentally resetting the puzzle.
-- New Protocol: Move to target tile -> End Turn (verify position) -> Turn & Press A -> End Turn -> Mash B to close text -> End Turn -> Repeat. This is slow but prevents eaten inputs and puzzle resets.
+[Turn 5214 Reflection: Path to S.S. Anne]
+- The path to the docks is NOT near the Gym. It is on the FAR EAST side of town.
+- From Pokemon Center, walk East to X=30.
+- Walk South down X=30 to Y=26.
+- Walk West along Y=26 to X=18.
+- Walk South onto the bridge at X=18.
+- NEVER ask custom agents for exact map coordinates or pathfinding instructions, as they will hallucinate them. Always manually trace collision bounds.
