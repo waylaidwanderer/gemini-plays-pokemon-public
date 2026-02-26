@@ -14,7 +14,11 @@
 [Healing Plan]
 - Cleo (Nidoqueen) is 23/58 HP. Hydro is 22/81 PAR. Use Potions/Antidotes as needed, or return to Vermilion Center if Cleo drops below 10 HP.
 - Warp Link: Vermilion City (18, 31) connects to S.S. Anne Docks Map 0_94 (14, 0).
+[Map IDs]
+- Map 0_95: 1F (Entrance)
+- Map 0_98: B1F (Basement)
+- Map 0_97: 2F (Expected)
 [Gary Rematch Objective]
 - Start Turn: 5251
-- Strategy: The stairs at 1F (37, 15) warp to 2F (27, 5). Use single-step movements to map the hallway to Gary at (36, 8) instead of long waypoint chains.
-- Rule: ALWAYS mark warp arrival coordinates with a map marker immediately.
+- Strategy: Gary is on 2F. The stairs at 1F (37, 15) go to B1F (0_98). Return to 1F (0_95) and search the FAR LEFT side for the correct stairs to 2F.
+- Rule: ALWAYS mark warp arrival coordinates with a map marker immediately to identify floors.
