@@ -16,4 +16,4 @@
 - Warp Link: Vermilion City (18, 31) connects to S.S. Anne Docks Map 0_94 (14, 0).
 [Gary Rematch Objective]
 - Start Turn: 5251
-- Strategy: The stairs at 1F (37, 15) ARE the main stairs to 2F. On 2F, the path is a U-shape. From (27, 5), walk all the way LEFT to X=2, then DOWN, then RIGHT to X=36 to find Gary. DO NOT turn around at X=2, follow the hallway south!
+- Strategy: The stairs at 1F (37, 15) are the main stairs to 2F. On 2F, to find Gary from the stairs at (27, 5), walk RIGHT to X=36, then DOWN to Y=8.
