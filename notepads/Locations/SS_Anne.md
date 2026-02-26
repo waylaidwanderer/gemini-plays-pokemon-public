@@ -20,5 +20,6 @@
 - Map 0_96: Deck Connector
 - Map 0_97: Deck (Outside)
 [Gary Rematch Objective]
-- Status: In progress (Engaged at Turn 5503)
-- Gary's Team: Pidgeotto Lv19, Raticate Lv16, Kadabra Lv18, [Starter]
+- Status: Completed! (Turn 5541)
+- Gary's Team: Pidgeotto Lv19, Raticate Lv16, Kadabra Lv18, Ivysaur Lv20
+- Next Step: Find the Captain to get HM01 (Cut) in his cabin (up the stairs past Gary).
