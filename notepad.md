@@ -65,6 +65,8 @@
 - Walk South onto the bridge at X=18.
 - NEVER ask custom agents for exact map coordinates or pathfinding instructions, as they will hallucinate them. Always manually trace collision bounds.
 - Missed Items due to Full Bag: TM24 (Lt. Surge in Vermilion Gym), Old Rod (Fishing Guru at Vermilion City 0_163).
+[PC Item Storage]
+- TM34, TM01, TM45, TM19, Rare Candy x2
 
 <hr>
 
