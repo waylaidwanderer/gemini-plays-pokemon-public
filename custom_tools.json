@@ -680,5 +680,41 @@
         "action_counter": 5619
       }
     ]
+  },
+  "swap_pokemon": {
+    "description": "Swaps two Pokemon in the party menu. YOU MUST VISUALLY VERIFY the current_index before calling this tool. Assumes you are already in the party menu with the cursor on current_index.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "current_index": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 6
+        },
+        "index_a": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 6
+        },
+        "index_b": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 6
+        }
+      },
+      "required": [
+        "current_index",
+        "index_a",
+        "index_b"
+      ]
+    },
+    "python_script": "import json\n\ndef generate_presses(current_index, index_a, index_b):\n    presses = []\n    diff1 = index_a - current_index\n    direction1 = 'Down' if diff1 > 0 else 'Up'\n    for _ in range(abs(diff1)):\n        presses.extend([direction1, 'sleep 300'])\n    \n    presses.extend(['A', 'sleep 500', 'Down', 'sleep 300', 'A', 'sleep 500'])\n    \n    diff2 = index_b - index_a\n    direction2 = 'Down' if diff2 > 0 else 'Up'\n    for _ in range(abs(diff2)):\n        presses.extend([direction2, 'sleep 300'])\n        \n    presses.extend(['A', 'sleep 1000'])\n    return presses\n\nprint(json.dumps(generate_presses(input_data['current_index'], input_data['index_a'], input_data['index_b'])))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-02-26T05:44:33.036Z",
+        "action_counter": 5682
+      }
+    ]
   }
 }
