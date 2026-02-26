@@ -29,7 +29,7 @@
 
 [Plan]
 - Cut the tree blocking the Vermilion Gym and challenge Lt. Surge. (Lead with Pebbles or Cleo for Electric immunity!)
-- Return to Cerulean City (walk back through Route 5 Underground Path after acquiring HM01 and ship departs) to exchange Bike Voucher for Bicycle.
+- Return to Cerulean City to exchange Bike Voucher for Bicycle. Route: Vermilion City -> North to Route 6 -> Underground Path -> Route 5 -> North to Cerulean City.
 
 [Navigation Rules]
 - Ledges (e.g. TYPE_44f6) enforce one-way movement. Route 5 requires looping back to the top to access the right-side lanes.
