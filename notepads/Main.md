@@ -76,7 +76,8 @@
 - Custom tools `withdraw_item_pc` and `use_hm_field` were successfully created to reduce menu hallucination risks.
 - Map marker placed at (24, 27) to track my path through the visually repetitive cave.
 [Fast Travel Route]
-- Vermilion City (Route 11) <-> Route 2 via Diglett's Cave. Bypasses earlier obstacles.
+- Route 2 Gate (0_48) <-> Diglett's Cave (0_197) <-> Route 11 Gate (0_46)
+- Bypasses earlier obstacles between Vermilion and Route 2.
 
 [Return to Cerulean City Plan]
 1. Route 2 (North) -> Diglett's Cave.
