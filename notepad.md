@@ -101,6 +101,7 @@
 - Tools: Refactored `use_hm_field` to bypass Gen 1 cursor memory by sending 5 'Up' commands before navigating to the target index.
 [Route 10]
 - Found a Pokemon Center right next to Rock Tunnel entrance! This is a great place to heal and grind if needed.
+- Voltorb Hunt Start: Turn 7347
 
 <hr>
 
