@@ -90,7 +90,8 @@
 
 [Rock Tunnel Exploration]
 - Start Turn: 7476
-- Exploring 1F using grid data.
+- Currently exploring B1F (0_232).
+- Navigating using grid data tool to avoid hardcoding errors.
 [Route 9]
 - Located East of Cerulean City.
 - Strategy: Navigate East through the ledges and trainers towards Rock Tunnel (Route 10).

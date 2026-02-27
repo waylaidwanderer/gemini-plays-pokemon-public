@@ -727,52 +727,33 @@
       }
     ]
   },
-  "grind_grass": {
-    "description": "Generates a sequence of alternating directional presses to grind for encounters in tall grass or caves. Maximize encounter rates without hallucinating position.",
+  "bfs_dark_cave_mapper": {
+    "description": "Performs a BFS on a dark cave grid to visualize passable areas. Paste the raw dictionary string from the context into grid_text.",
     "input_schema": {
       "type": "object",
       "properties": {
-        "direction_1": {
-          "type": "string",
-          "enum": [
-            "Up",
-            "Down",
-            "Left",
-            "Right"
-          ]
+        "start_x": {
+          "type": "integer"
         },
-        "direction_2": {
-          "type": "string",
-          "enum": [
-            "Up",
-            "Down",
-            "Left",
-            "Right"
-          ]
+        "start_y": {
+          "type": "integer"
         },
-        "steps": {
-          "type": "integer",
-          "minimum": 1,
-          "maximum": 50
+        "grid_text": {
+          "type": "string"
         }
       },
       "required": [
-        "direction_1",
-        "direction_2",
-        "steps"
+        "start_x",
+        "start_y",
+        "grid_text"
       ]
     },
-    "python_script": "import json\nsteps = int(input_data['steps'])\nd1 = input_data['direction_1']\nd2 = input_data['direction_2']\nbuttons = [d1 if i % 2 == 0 else d2 for i in range(steps)]\nprint(json.dumps(buttons))",
+    "python_script": "import re\nfrom collections import deque\n\nstart_x = input_data['start_x']\nstart_y = input_data['start_y']\ngrid_text = input_data['grid_text']\n\ngrid = {}\nmatches = re.findall(r'\\((\\d+),\\s*(\\d+)\\):\\s*[\\'\"](TYPE_[a-zA-Z0-9]+)[\\'\"]', grid_text)\nfor match in matches:\n    x, y, tile_type = int(match[0]), int(match[1]), match[2]\n    grid[(x, y)] = tile_type\n\nif not grid:\n    print(\"Error: No valid grid data parsed. Please provide text in the format (X, Y): 'TYPE_XXXX'\")\nelse:\n    q = deque([(start_x, start_y)])\n    visited = set([(start_x, start_y)])\n    passable = [\"TYPE_3fe2\"]\n    \n    while q:\n        x, y = q.popleft()\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            nx, ny = x + dx, y + dy\n            if (nx, ny) in grid and grid[(nx, ny)] in passable and (nx, ny) not in visited:\n                visited.add((nx, ny))\n                q.append((nx, ny))\n                \n    min_x = min(x for x, y in grid.keys())\n    max_x = max(x for x, y in grid.keys())\n    min_y = min(y for x, y in grid.keys())\n    max_y = max(y for x, y in grid.keys())\n\n    for y in range(min_y, max_y + 1):\n        row = \"\"\n        for x in range(min_x, max_x + 1):\n            if (x, y) in visited:\n                row += \" O \"\n            elif grid.get((x, y)) == \"TYPE_3fe2\":\n                row += \" ? \"\n            else:\n                row += \" X \"\n        print(row)",
     "history": [
       {
-        "commit_message": "Initial creation of grind_grass tool.",
-        "timestamp": "2026-02-27T19:13:14.636Z",
-        "action_counter": 7413
-      },
-      {
-        "commit_message": "Fixed IndexError bug in grind_grass.",
-        "timestamp": "2026-02-27T19:47:03.280Z",
-        "action_counter": 7441
+        "commit_message": "Initial version",
+        "timestamp": "2026-02-27T21:50:14.703Z",
+        "action_counter": 7593
       }
     ]
   }
