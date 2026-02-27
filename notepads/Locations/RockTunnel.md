@@ -26,7 +26,7 @@
 - (24, 12): Dead End
 - (30, 4): Dead End
 
-# B1F Manual Mapping
-- Solid wall at Y=28 (from X=18 to at least X=27).
-- Tracing wall leftwards from (22, 27).
-- There is an NPC (SPRITE_427f) at (30, 10).
+# B1F Routing
+- [Turn 7575] Arrived B1F at (33,25).
+- Path: From (26,30) Pokemaniac, follow bottom wall left then up to (15,28) Jr Trainer.
+- Path: From (20,21) Pokemaniac, head north and east to (30,10) Hiker.
