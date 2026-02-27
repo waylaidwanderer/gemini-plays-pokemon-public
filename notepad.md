@@ -586,3 +586,11 @@ WARNING: Bellsprout's Vine Whip is 4x effective against Geodude. Train Cleo here
 - Protocol: When taking a ladder or door, immediately stop, verify the new Map ID, and step OFF the warp tile before using automation tools.
 
 <hr>
+
+<h1><code>Locations/Route9</code></h1>
+
+[Route 9 Layout]
+- Ledge at Y=13 drops South.
+- Lane at Y=14, Y=15 goes from X=14 to X=23, blocked on the right by a wall (X=24). Must go back West to exit.
+
+<hr>
