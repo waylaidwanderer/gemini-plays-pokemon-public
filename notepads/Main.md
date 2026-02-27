@@ -76,3 +76,5 @@
 - Map marker placed at (24, 27) to track my path through the visually repetitive cave.
 [Fast Travel Route]
 - Vermilion City (Route 11) <-> Route 2 via Diglett's Cave. Bypasses earlier obstacles.
+[Turn 6580 Reflection]
+- MASSIVE realization: Map 0_46 is the Route 2 Gate, and Map 0_197 is Diglett's Cave! I successfully reached the Route 2 Gate on Turn 6494, but didn't realize it. I walked BACK onto the ladder, warped back to Diglett's Cave (0_197), and walked the entire length of the cave BACK to the Route 11 Gate (0_85). I need to re-traverse Diglett's Cave and, when I reach 0_46, walk DOWN to exit to Route 2!
