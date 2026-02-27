@@ -1,34 +1,4 @@
 {
-  "check_stats": {
-    "description": "Automates checking a Pokemon's stats from the party menu. Assumes you are already in the party menu.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "current_index": {
-          "type": "integer",
-          "minimum": 1,
-          "maximum": 6
-        },
-        "target_index": {
-          "type": "integer",
-          "minimum": 1,
-          "maximum": 6
-        }
-      },
-      "required": [
-        "current_index",
-        "target_index"
-      ]
-    },
-    "python_script": "import json\n\ndef generate_presses(current_index, target_index):\n    presses = []\n    diff = target_index - current_index\n    direction = 'Down' if diff > 0 else 'Up'\n    for _ in range(abs(diff)):\n        presses.append(direction)\n        presses.append('sleep 300')\n    presses.extend(['A', 'sleep 500', 'A', 'sleep 500', 'A', 'sleep 500', 'A', 'sleep 500', 'B', 'sleep 500'])\n    return presses\n\nprint(json.dumps(generate_presses(input_data['current_index'], input_data['target_index'])))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-02-26T04:49:01.203Z",
-        "action_counter": 5613
-      }
-    ]
-  },
   "deposit_pokemon": {
     "description": "Automates depositing a Pokemon in the PC. Assumes you are in the 'DEPOSIT PKMN' menu.",
     "input_schema": {
@@ -738,6 +708,30 @@
         "commit_message": "Initial version",
         "timestamp": "2026-02-27T00:14:31.879Z",
         "action_counter": 6444
+      }
+    ]
+  },
+  "use_hm_field": {
+    "description": "Automates using an HM like Cut or Surf outside of battle by opening the start menu and navigating reliably. Assumes Pokedex is unlocked.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "pokemon_index": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 6
+        }
+      },
+      "required": [
+        "pokemon_index"
+      ]
+    },
+    "python_script": "import json\n\ndef use_hm_field(input_data):\n    target_pokemon = int(input_data.get('pokemon_index', 1))\n\n    buttons = []\n    buttons.append('Start')\n    buttons.append('sleep 500')\n\n    # Navigate to POKEMON (Assuming Pokedex unlocked, it's 2nd from top)\n    buttons.extend(['Up'] * 6)\n    buttons.append('Down')\n    buttons.append('A')\n    buttons.append('sleep 1000')\n\n    # Navigate to Pokemon\n    buttons.extend(['Up'] * 6)\n    if target_pokemon > 1:\n        buttons.extend(['Down'] * (target_pokemon - 1))\n    buttons.append('A')\n    buttons.append('sleep 1000')\n\n    # Select the top option (which should be the HM, e.g., CUT)\n    buttons.extend(['Up'] * 4)\n    buttons.append('A')\n    buttons.append('sleep 1000')\n    buttons.append('A') # confirm\n    \n    return buttons\n\nprint(json.dumps(use_hm_field(input_data)))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-02-27T00:19:32.040Z",
+        "action_counter": 6453
       }
     ]
   }
