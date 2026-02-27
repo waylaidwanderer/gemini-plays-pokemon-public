@@ -711,23 +711,19 @@
     "description": "Automates running from a wild Pokemon encounter by navigating the battle menu to the RUN option and pressing A. Assumes you are on the main battle menu.",
     "input_schema": {
       "type": "object",
-      "properties": {
-        "autopress_buttons": {
-          "type": "boolean",
-          "default": false,
-          "description": "If true and the tool returns a list of buttons, they will be pressed automatically. Limit: 100 buttons max per call."
-        }
-      },
-      "required": [
-        "autopress_buttons"
-      ]
+      "properties": {}
     },
-    "python_script": "import json\nimport sys\n\ndef generate_sequence(input_data):\n    # From main battle menu, RUN is Right, Down, A\n    sequence = ['Right', 'Down', 'sleep 300', 'A']\n    return json.dumps(sequence)\n\nif __name__ == '__main__':\n    input_data = json.loads(sys.argv[1])\n    print(generate_sequence(input_data))",
+    "python_script": "import json\nprint(json.dumps(['Right', 'Down', 'A']))",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2026-02-27T04:07:12.728Z",
         "action_counter": 6841
+      },
+      {
+        "commit_message": "Fix IndexError by returning static button sequence",
+        "timestamp": "2026-02-27T21:13:50.694Z",
+        "action_counter": 7531
       }
     ]
   },
