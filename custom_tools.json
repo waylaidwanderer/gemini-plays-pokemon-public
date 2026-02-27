@@ -656,19 +656,13 @@
           "type": "integer",
           "minimum": 1,
           "maximum": 6
-        },
-        "autopress_buttons": {
-          "type": "boolean",
-          "default": false,
-          "description": "If true and the tool returns a list of buttons, they will be pressed automatically. Limit: 100 buttons max per call."
         }
       },
       "required": [
-        "pokemon_index",
-        "autopress_buttons"
+        "pokemon_index"
       ]
     },
-    "python_script": "import json\nimport sys\n\ndef generate_sequence(input_data):\n    try:\n        pokemon_index = int(input_data['pokemon_index'])\n        sequence = []\n        if pokemon_index > 1:\n            for _ in range(pokemon_index - 1):\n                sequence.append('Down')\n                sequence.append('sleep 300')\n        sequence.append('A')\n        sequence.append('sleep 500')\n        sequence.append('A') # Select the first move\n        return json.dumps(sequence)\n    except Exception as e:\n        return json.dumps({\"error\": str(e)})\n\nif __name__ == '__main__':\n    input_data = json.loads(sys.argv[1])\n    print(generate_sequence(input_data))",
+    "python_script": "def use_hm_field(input_data):\n    target = int(input_data.get('pokemon_index', 1))\n    buttons = []\n    for _ in range(target - 1):\n        buttons.append('Down')\n    buttons.append('A')\n    buttons.append('A')\n    print(str(buttons).replace(\"'\", '\"'))\n",
     "history": [
       {
         "commit_message": "Initial version",
@@ -689,6 +683,11 @@
         "commit_message": "Added explicit warning about cursor memory to description.",
         "timestamp": "2026-02-27T04:07:12.730Z",
         "action_counter": 6841
+      },
+      {
+        "commit_message": "Fixing IndexError by simplifying logic to assume starting at index 1 and just issuing the correct number of Downs and As.",
+        "timestamp": "2026-02-27T04:40:49.263Z",
+        "action_counter": 6901
       }
     ]
   },
