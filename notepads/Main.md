@@ -93,3 +93,7 @@
 - Located East of Cerulean City.
 - Strategy: Navigate East through the ledges and trainers towards Rock Tunnel (Route 10).
 - Catch Target: Voltorb (Electric) on Route 10 for HM05 (Flash). Will weaken it with Cleo's Scratch and catch with Poke Balls.
+[Turn 7137 Reflection]
+- Progress: Escaped Cerulean City via the Robbed House after realizing (23,17) was a ledge hallucination. Entered Route 9, cut the real tree at (5,8), and defeated the first Jr. Trainer.
+- Team: Swapped Cleo (Nidoqueen) to the lead. Her Poison typing is excellent against Grass trainers here.
+- Tools: Refactored `use_hm_field` to bypass Gen 1 cursor memory by sending 5 'Up' commands before navigating to the target index.
