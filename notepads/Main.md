@@ -102,8 +102,3 @@
 - Voltorb Hunt Start: Turn 7347
 [PC Mechanics]
 - Gen 1 PC menus (DEPOSIT, WITHDRAW, etc.) retain cursor memory. Tools MUST account for this by either resetting the cursor or visually verifying the starting index before mashing A/Down.
-[Turn 7449 Reflection]
-- A critical turn number hallucination occurred due to carelessly incrementing the 'num_turns' parameter in the speak tool. I must double check the system turn number every time.
-- I got stuck looping near the Route 10 Pokemon Center because I misunderstood the spatial layout of the building and trees. I eventually correctly traced the path around the south side.
-- Custom tool `grind_grass` was fixed. Note that `walk_to_coordinate` is blind to obstacles, so manual `move_sequence` is often safer for tight maneuvers.
-- Ready to enter Rock Tunnel at (8, 16) and navigate using tile collisions in the dark.
