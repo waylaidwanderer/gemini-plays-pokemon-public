@@ -78,8 +78,6 @@
 - Map marker placed at (24, 27) to track my path through the visually repetitive cave.
 [Fast Travel Route]
 - Vermilion City (Route 11) <-> Route 2 via Diglett's Cave. Bypasses earlier obstacles.
-[Turn 6565 Reflection]
-- I suffered a severe hallucination at (5, 17) on Route 2, assuming a Cut tree was blocking me when it was actually a ledge. ALWAYS read the TYPE_ annotations on the screen grid instead of blindly guessing why movement failed. Ledges and fences require visual confirmation.
 
 <hr>
 
