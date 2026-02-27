@@ -76,3 +76,5 @@
 - Map marker placed at (24, 27) to track my path through the visually repetitive cave.
 [Fast Travel Route]
 - Vermilion City (Route 11) <-> Route 2 via Diglett's Cave. Bypasses earlier obstacles.
+[HM05 Flash]
+- Professor's Aide is located inside the Route 2 Gate (Map 0_46). Speak to all NPCs in this building to find him and obtain HM05.
