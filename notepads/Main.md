@@ -22,6 +22,7 @@
 [Trades]
 - Route 5 Gate (Underground Path entrance): NPC wants to trade a Nidoran F for a Nidoran M.
 - Vermilion City (House next to Mart): NPC wants Spearow for Farfetch'd.
+- Route 2 House (South of Diglett's Cave): NPC wants Abra for Mr. Mime.
 
 [Vermilion City]
 - Fan Club: (9, 13) - Talk to Chairman for Bike Voucher.
