@@ -648,15 +648,10 @@
     ]
   },
   "use_hm_field": {
-    "description": "Automates using a field move. YOU MUST BE IN THE POKEMON MENU FIRST. Navigates from your current cursor position to the specified pokemon and selects the top option. YOU MUST VISUALLY VERIFY current_index!",
+    "description": "Automates using a field move. YOU MUST BE IN THE POKEMON MENU FIRST. Automatically resets cursor to the top, navigates to the target pokemon, and selects the top option.",
     "input_schema": {
       "type": "object",
       "properties": {
-        "current_index": {
-          "type": "integer",
-          "minimum": 1,
-          "maximum": 6
-        },
         "target_index": {
           "type": "integer",
           "minimum": 1,
@@ -664,11 +659,10 @@
         }
       },
       "required": [
-        "current_index",
         "target_index"
       ]
     },
-    "python_script": "import json\ndef use_hm_field(input_data):\n    current_idx = input_data['current_index']\n    target_idx = input_data['target_index']\n    buttons = []\n    \n    # Calculate vertical movement\n    diff = target_idx - current_idx\n    if diff > 0:\n        buttons.extend(['Down'] * diff)\n    elif diff < 0:\n        buttons.extend(['Up'] * abs(diff))\n        \n    # Select Pokemon and the top option (which is usually the HM/Field move if available)\n    buttons.extend(['A', 'sleep 500', 'A'])\n    \n    print(json.dumps(buttons))\n    \nuse_hm_field(input_data)",
+    "python_script": "import json\ndef use_hm_field(input_data):\n    target_idx = input_data['target_index']\n    buttons = []\n    \n    # Reset cursor to top by sending 5 'Up's (Gen 1 menus don't wrap when moving up)\n    buttons.extend(['Up', 'Up', 'Up', 'Up', 'Up'])\n    \n    # Calculate vertical movement from index 1\n    diff = target_idx - 1\n    if diff > 0:\n        buttons.extend(['Down'] * diff)\n        \n    # Select Pokemon and the top option (which is usually the HM/Field move if available)\n    buttons.extend(['A', 'sleep 500', 'A'])\n    \n    print(json.dumps(buttons))\n    \nuse_hm_field(input_data)",
     "history": [
       {
         "commit_message": "Initial version",
@@ -704,6 +698,11 @@
         "commit_message": "Fixing the tool to properly return a JSON string using json.dumps() so the harness can parse the buttons.",
         "timestamp": "2026-02-27T07:05:22.779Z",
         "action_counter": 7036
+      },
+      {
+        "commit_message": "Refactored use_hm_field to ignore Gen 1 cursor memory by sending 5 'Up' inputs first, resetting the cursor to index 1. Removed current_index from the schema since it's no longer needed.",
+        "timestamp": "2026-02-27T15:19:05.651Z",
+        "action_counter": 7126
       }
     ]
   },
