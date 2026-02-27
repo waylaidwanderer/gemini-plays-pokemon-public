@@ -105,11 +105,6 @@
 - Voltorb Hunt Start: Turn 7347
 [PC Mechanics]
 - Gen 1 PC menus (DEPOSIT, WITHDRAW, etc.) retain cursor memory. Tools MUST account for this by either resetting the cursor or visually verifying the starting index before mashing A/Down.
-[Turn 7605 Reflection]
-- Immediate Execution: Navigating Rock Tunnel using new `bfs_dark_cave_mapper`.
-- Notepad & Map: Logging B1F encounters and ladders.
-- Tool Maintenance: Created mapper to prevent hardcoding errors that caused looping.
-- Battle: Switching Cleo out against Slowpoke due to bad typing matchup.
 
 <hr>
 
