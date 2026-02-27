@@ -92,7 +92,7 @@
     ]
   },
   "execute_battle_turn": {
-    "description": "Executes a full battle turn: selects FIGHT, chooses a move (1-4), and presses A to confirm. Handles cursor memory resets via is_first_turn.",
+    "description": "Executes a full battle turn: safely resets main battle menu cursor to FIGHT, safely resets move menu cursor to Move 1, then navigates to target_move_index (1-4) and presses A. Foolproof against Gen 1 cursor memory.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -100,28 +100,18 @@
           "type": "boolean",
           "default": true
         },
-        "current_move_index": {
-          "type": "integer",
-          "minimum": 1,
-          "maximum": 4
-        },
         "target_move_index": {
           "type": "integer",
           "minimum": 1,
           "maximum": 4
-        },
-        "is_first_turn": {
-          "type": "boolean",
-          "default": false
         }
       },
       "required": [
         "start_on_main",
-        "current_move_index",
         "target_move_index"
       ]
     },
-    "python_script": "import json\n\ndef generate_moves(start_on_main, current_move_index, target_move_index, is_first_turn):\n    moves = []\n    if start_on_main:\n        moves.append('A')\n        moves.append('sleep 1000')\n\n    if is_first_turn:\n        current_move_index = 1\n\n    diff = target_move_index - current_move_index\n    if diff > 0:\n        if diff == 3:\n            moves.append('Up')\n            moves.append('sleep 300')\n        else:\n            for _ in range(diff):\n                moves.append('Down')\n                moves.append('sleep 300')\n    elif diff < 0:\n        if diff == -3:\n            moves.append('Down')\n            moves.append('sleep 300')\n        else:\n            for _ in range(abs(diff)):\n                moves.append('Up')\n                moves.append('sleep 300')\n\n    moves.append('A')\n    moves.append('sleep 1000')\n    return moves\n\nprint(json.dumps(generate_moves(\n    input_data.get('start_on_main', True),\n    int(input_data.get('current_move_index', 1)),\n    int(input_data.get('target_move_index', 1)),\n    input_data.get('is_first_turn', False)\n)))",
+    "python_script": "def execute_battle_turn(input_data):\n    start_on_main = input_data.get('start_on_main', True)\n    target_move_index = input_data.get('target_move_index', 1)\n    \n    buttons = []\n    if start_on_main:\n        # Universal reset to FIGHT (top-left)\n        buttons.extend(['Left', 'sleep 300', 'Up', 'sleep 300'])\n        buttons.extend(['A', 'sleep 1000'])\n    \n    # Universal reset for Move menu (single column, max 4 items)\n    buttons.extend(['Up', 'sleep 300', 'Up', 'sleep 300', 'Up', 'sleep 300'])\n    \n    # Navigate to target move\n    for _ in range(target_move_index - 1):\n        buttons.extend(['Down', 'sleep 300'])\n        \n    buttons.extend(['A', 'sleep 1000'])\n    \n    import json\n    print(json.dumps(buttons))\n\nexecute_battle_turn(input_data)",
     "history": [
       {
         "commit_message": "Initial version",
@@ -177,6 +167,11 @@
         "commit_message": "Updated to handle cursor memory reset on first turn of wild encounters",
         "timestamp": "2026-02-27T01:30:28.159Z",
         "action_counter": 6609
+      },
+      {
+        "commit_message": "Make tool foolproof against Gen 1 cursor memory by always resetting cursors via universal sequences (Left+Up for main menu, 3x Up for move menu) before navigating to the target.",
+        "timestamp": "2026-02-27T23:57:35.139Z",
+        "action_counter": 7836
       }
     ]
   },

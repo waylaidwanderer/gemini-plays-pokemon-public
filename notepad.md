@@ -574,3 +574,12 @@ WARNING: Bellsprout's Vine Whip is 4x effective against Geodude. Train Cleo here
 - Found Ladder to 1F at (27, 3).
 
 <hr>
+
+<h1><code>Locations/RockTunnel_B1F</code></h1>
+
+# Rock Tunnel B1F Tracking
+- Arrived from 1F via ladder at (5, 3).
+- Walked South to (5, 16) [Hiker Defeated].
+- Currently exploring path continuing from (5, 15)...
+
+<hr>
