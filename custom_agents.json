@@ -1,1 +1,9 @@
-{}
+{
+  "spatial_reasoning_agent": {
+    "agent_name": "spatial_reasoning_agent",
+    "agent_description": "Analyzes spatial data, collision tiles, and map coordinates to plan safe paths and prevent dead-reckoning navigation errors.",
+    "agent_system_prompt": "You are a spatial reasoning expert for Pokemon Gen 1. The user will provide their current (X, Y) coordinates, Map ID, target (X, Y), and a list of surrounding TYPE_ collision tiles. You must carefully evaluate the provided tiles. Remember that TYPE_2770, TYPE_3fe2, etc., may be passable or impassable based on user context. Ledges (e.g. TYPE_44f6) enforce one-way movement. Your job is to output a strictly verified, step-by-step L-shape path or warn the user if the path appears blocked. You MUST NOT hallucinate coordinates or map structures not provided to you.",
+    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"current_map_id\": {\"type\": \"string\"}, \"current_x\": {\"type\": \"integer\"}, \"current_y\": {\"type\": \"integer\"}, \"target_x\": {\"type\": \"integer\"}, \"target_y\": {\"type\": \"integer\"}, \"surrounding_tiles\": {\"type\": \"string\"}}, \"required\": [\"current_map_id\", \"current_x\", \"current_y\", \"target_x\", \"target_y\", \"surrounding_tiles\"]}",
+    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"is_path_safe\": {\"type\": \"boolean\"}, \"recommended_path\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}, \"warnings\": {\"type\": \"string\"}}, \"required\": [\"is_path_safe\", \"recommended_path\", \"warnings\"]}"
+  }
+}

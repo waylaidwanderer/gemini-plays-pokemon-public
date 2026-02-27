@@ -28,7 +28,7 @@
     ]
   },
   "execute_battle_turn": {
-    "description": "Executes a full battle turn: selects FIGHT, chooses a move (1-4), and presses A to confirm. Relies on system auto-advance for text. You MUST visually verify current_move_index before calling.",
+    "description": "Executes a full battle turn: selects FIGHT, chooses a move (1-4), and presses A to confirm. Handles cursor memory resets via is_first_turn.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -45,6 +45,10 @@
           "type": "integer",
           "minimum": 1,
           "maximum": 4
+        },
+        "is_first_turn": {
+          "type": "boolean",
+          "default": false
         }
       },
       "required": [
@@ -53,7 +57,7 @@
         "target_move_index"
       ]
     },
-    "python_script": "import json\n\ndef generate_moves(input_data):\n    start_on_main = input_data.get('start_on_main', True)\n    current_move_index = int(input_data['current_move_index'])\n    target_move_index = int(input_data['target_move_index'])\n\n    presses = []\n    if start_on_main:\n        presses.extend(['A', 'sleep 1000']) # Select FIGHT\n\n    diff = target_move_index - current_move_index\n\n    if diff == 1 or diff == -3:\n        presses.extend(['Down', 'sleep 300'])\n    elif diff == 2 or diff == -2:\n        presses.extend(['Down', 'sleep 300', 'Down', 'sleep 300'])\n    elif diff == 3 or diff == -1:\n        presses.extend(['Up', 'sleep 300'])\n\n    presses.extend(['A', 'sleep 1000'])\n    print(json.dumps(presses))\n\ngenerate_moves(input_data)",
+    "python_script": "import json\n\ndef generate_moves(start_on_main, current_move_index, target_move_index, is_first_turn):\n    moves = []\n    if start_on_main:\n        moves.append('A')\n        moves.append('sleep 1000')\n\n    if is_first_turn:\n        current_move_index = 1\n\n    diff = target_move_index - current_move_index\n    if diff > 0:\n        if diff == 3:\n            moves.append('Up')\n            moves.append('sleep 300')\n        else:\n            for _ in range(diff):\n                moves.append('Down')\n                moves.append('sleep 300')\n    elif diff < 0:\n        if diff == -3:\n            moves.append('Down')\n            moves.append('sleep 300')\n        else:\n            for _ in range(abs(diff)):\n                moves.append('Up')\n                moves.append('sleep 300')\n\n    moves.append('A')\n    moves.append('sleep 1000')\n    return moves\n\nprint(json.dumps(generate_moves(\n    input_data.get('start_on_main', True),\n    int(input_data.get('current_move_index', 1)),\n    int(input_data.get('target_move_index', 1)),\n    input_data.get('is_first_turn', False)\n)))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -104,6 +108,11 @@
         "commit_message": "Removed default value for current_move_index to enforce explicit checking of cursor memory per Gen 1 mechanics.",
         "timestamp": "2026-02-24T23:20:31.192Z",
         "action_counter": 4174
+      },
+      {
+        "commit_message": "Updated to handle cursor memory reset on first turn of wild encounters",
+        "timestamp": "2026-02-27T01:30:28.159Z",
+        "action_counter": 6609
       }
     ]
   },
