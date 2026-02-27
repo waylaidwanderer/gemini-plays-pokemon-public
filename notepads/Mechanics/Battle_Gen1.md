@@ -9,3 +9,4 @@
 [Cursor Memory]
 - In Gen 1, menu cursor positions are remembered! The Item menu remembers the last used item position globally. The Fight menu remembers the last used move per-Pokemon. The Party menu remembers the last selected Pokemon. ALWAYS check the visual cursor position before using navigation tools, as assuming it resets to index 1 will cause wrong selections.
 - Wrap/Bind Mechanic: In Gen 1, trapping moves like Wrap completely immobilize the target. The move selection phase is skipped entirely and you cannot attack until the effect ends. Do not try to use battle menus during Wrap.
+- Wrap Mechanic: Wrap is a multi-turn trapping move in Generation 1. The attack continues automatically for several turns without needing new inputs. When the main battle menu (FIGHT/PKMN/ITEM/RUN) reappears, it signifies the trapping effect has concluded.
