@@ -3,3 +3,4 @@
 - Lane at Y=14, Y=15 is bounded by X=10 and X=23. Gap UP at X=19.
 - X=9 is a solid wall from Y=10 to Y=17. Cannot go West.
 - Middle lane (Y=8 to Y=12) goes East by squeezing through at Y=12, bypassing the rock wall at X=30.
+- Northern path (Y=2 to Y=5) goes East past X=39 gap.
