@@ -81,15 +81,12 @@
 - Route 2 Gate (0_48) <-> Diglett's Cave (0_197) <-> Route 11 Gate (0_46)
 - Bypasses earlier obstacles between Vermilion and Route 2.
 
-[Return to Cerulean City Plan]
-1. Route 2 (North) -> Diglett's Cave.
-2. Diglett's Cave -> Route 11.
-3. Route 11 (West) -> Vermilion City.
-4. Vermilion City (North) -> Route 6.
-5. Route 6 (North) -> Underground Path.
-6. Underground Path -> Route 5.
-7. Route 5 (North) -> Cerulean City.
-8. Trade Bike Voucher at the Bike Shop!
+[Current Plan]
+- Traded Bike Voucher for BICYCLE! Movement is much faster now.
+- Go to Cerulean City Pokemon Center.
+- Withdraw a Pokemon from PC that can learn HM05 (Flash) (Meowth, Paras, Zubat, etc.).
+- Teach HM05 (Flash).
+- Head East of Cerulean City towards Route 9 / Rock Tunnel.
 
 [HMs]
 - HM01 (Cut): Taught to Audrey (Bellsprout).
