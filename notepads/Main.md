@@ -77,4 +77,4 @@
 [Fast Travel Route]
 - Vermilion City (Route 11) <-> Route 2 via Diglett's Cave. Bypasses earlier obstacles.
 [HM05 Flash]
-- Professor's Aide is located inside the Route 2 Gate (Map 0_46). Speak to all NPCs in this building to find him and obtain HM05.
+- Professor's Aide is located in a building on Route 2 (south of Diglett's Cave).
