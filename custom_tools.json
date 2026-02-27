@@ -1,4 +1,67 @@
 {
+  "bfs_dark_cave_mapper": {
+    "description": "Performs a BFS on a dark cave grid to visualize passable areas. Paste the raw dictionary string from the context into grid_text.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "start_x": {
+          "type": "integer"
+        },
+        "start_y": {
+          "type": "integer"
+        },
+        "grid_text": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "start_x",
+        "start_y",
+        "grid_text"
+      ]
+    },
+    "python_script": "import re\nfrom collections import deque\n\nstart_x = input_data['start_x']\nstart_y = input_data['start_y']\ngrid_text = input_data['grid_text']\n\ngrid = {}\nmatches = re.findall(r'\\((\\d+),\\s*(\\d+)\\):\\s*[\\'\"](TYPE_[a-zA-Z0-9]+)[\\'\"]', grid_text)\nfor match in matches:\n    x, y, tile_type = int(match[0]), int(match[1]), match[2]\n    grid[(x, y)] = tile_type\n\nif not grid:\n    print(\"Error: No valid grid data parsed. Please provide text in the format (X, Y): 'TYPE_XXXX'\")\nelse:\n    q = deque([(start_x, start_y)])\n    visited = set([(start_x, start_y)])\n    passable = [\"TYPE_3fe2\"]\n    \n    while q:\n        x, y = q.popleft()\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            nx, ny = x + dx, y + dy\n            if (nx, ny) in grid and grid[(nx, ny)] in passable and (nx, ny) not in visited:\n                visited.add((nx, ny))\n                q.append((nx, ny))\n                \n    min_x = min(x for x, y in grid.keys())\n    max_x = max(x for x, y in grid.keys())\n    min_y = min(y for x, y in grid.keys())\n    max_y = max(y for x, y in grid.keys())\n\n    for y in range(min_y, max_y + 1):\n        row = \"\"\n        for x in range(min_x, max_x + 1):\n            if (x, y) in visited:\n                row += \" O \"\n            elif grid.get((x, y)) == \"TYPE_3fe2\":\n                row += \" ? \"\n            else:\n                row += \" X \"\n        print(row)",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-02-27T21:50:14.703Z",
+        "action_counter": 7593
+      }
+    ]
+  },
+  "deposit_item_pc": {
+    "description": "Automates depositing an item in the PC. Assumes you are in the 'DEPOSIT ITEM' menu.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "current_index": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "target_index": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "quantity": {
+          "type": "integer",
+          "default": 1,
+          "description": "Amount to deposit. Use -1 for ALL."
+        }
+      },
+      "required": [
+        "current_index",
+        "target_index"
+      ]
+    },
+    "python_script": "import json\ncurrent_index = int(input_data.get('current_index', 1))\ntarget_index = int(input_data.get('target_index', 1))\nquantity = int(input_data.get('quantity', 1))\n\nbuttons = []\nif target_index > current_index:\n    for _ in range(target_index - current_index):\n        buttons.extend(['Down', 'sleep 300'])\nelif target_index < current_index:\n    for _ in range(current_index - target_index):\n        buttons.extend(['Up', 'sleep 300'])\n\nbuttons.extend(['A', 'sleep 500'])\n\nif quantity == -1:\n    buttons.extend(['Down', 'sleep 300'])\nelif quantity > 1:\n    for _ in range(quantity - 1):\n        buttons.extend(['Up', 'sleep 300'])\n\nbuttons.extend(['A', 'sleep 500'])\n\nprint(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-02-26T23:30:32.089Z",
+        "action_counter": 6354
+      }
+    ]
+  },
   "deposit_pokemon": {
     "description": "Automates depositing a Pokemon in the PC. Assumes you are in the 'DEPOSIT PKMN' menu. Makes it foolproof against cursor memory by pressing Up 10 times to reset to index 1, then going down to the target.",
     "input_schema": {
@@ -117,6 +180,31 @@
       }
     ]
   },
+  "execute_macro": {
+    "description": "Executes a sequence of buttons and sleep commands. Useful for bypassing text box delays without manual step-by-step confirmation. Provide an array of strings like ['B', 'B', 'sleep 500', 'Right', 'Right', 'sleep 500', 'Up', 'A']. Do not use consecutive sleep commands.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "macro": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "macro"
+      ]
+    },
+    "python_script": "import json\nmacro = input_data['macro']\nprint(json.dumps(macro))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-02-26T21:26:41.224Z",
+        "action_counter": 6067
+      }
+    ]
+  },
   "move_sequence": {
     "description": "Executes a sequence of button presses provided as a compact string (e.g. 'DDDRRU' for Down, Down, Down, Right, Right, Up). 'A', 'B', 'S' (Start), 'E' (Select) are also supported.",
     "input_schema": {
@@ -219,6 +307,26 @@
         "commit_message": "Increased reliability of Pokémon Center healer by adjusting sleep timers and extending the B-button mash phase to clear all text.",
         "timestamp": "2026-02-25T00:52:16.621Z",
         "action_counter": 4381
+      }
+    ]
+  },
+  "run_battle": {
+    "description": "Automates running from a wild Pokemon encounter by navigating the battle menu to the RUN option and pressing A. Assumes you are on the main battle menu.",
+    "input_schema": {
+      "type": "object",
+      "properties": {}
+    },
+    "python_script": "import json\nprint(json.dumps(['Right', 'Down', 'A']))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-02-27T04:07:12.728Z",
+        "action_counter": 6841
+      },
+      {
+        "commit_message": "Fix IndexError by returning static button sequence",
+        "timestamp": "2026-02-27T21:13:50.694Z",
+        "action_counter": 7531
       }
     ]
   },
@@ -487,167 +595,6 @@
       }
     ]
   },
-  "walk_to_coordinate": {
-    "description": "Calculates and executes the exact sequence of D-pad presses needed to walk in a straight line or simple L-shape from your current (X,Y) to a target (X,Y). Useful for avoiding manual step-counting errors on clear paths.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "current_x": {
-          "type": "integer"
-        },
-        "current_y": {
-          "type": "integer"
-        },
-        "target_x": {
-          "type": "integer"
-        },
-        "target_y": {
-          "type": "integer"
-        },
-        "axis_order": {
-          "type": "string",
-          "enum": [
-            "horizontal_first",
-            "vertical_first"
-          ],
-          "default": "horizontal_first"
-        }
-      },
-      "required": [
-        "current_x",
-        "current_y",
-        "target_x",
-        "target_y"
-      ]
-    },
-    "python_script": "import json\n\ncx = int(input_data['current_x'])\ncy = int(input_data['current_y'])\ntx = int(input_data['target_x'])\nty = int(input_data['target_y'])\norder = input_data.get('axis_order', 'horizontal_first')\n\ndx = tx - cx\ndy = ty - cy\n\nh_btn = 'Right' if dx > 0 else 'Left'\nv_btn = 'Down' if dy > 0 else 'Up'\n\nh_moves = [h_btn] * abs(dx)\nv_moves = [v_btn] * abs(dy)\n\nif order == 'horizontal_first':\n    moves = h_moves + v_moves\nelse:\n    moves = v_moves + h_moves\n\nprint(json.dumps(moves[:100]))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-02-22T23:06:31.415Z",
-        "action_counter": 1454
-      }
-    ]
-  },
-  "withdraw_pokemon": {
-    "description": "Automates withdrawing a Pokemon from the PC. Assumes you are in the 'WITHDRAW PKMN' menu.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "current_index": {
-          "type": "integer",
-          "minimum": 1
-        },
-        "target_index": {
-          "type": "integer",
-          "minimum": 1
-        }
-      },
-      "required": [
-        "current_index",
-        "target_index"
-      ]
-    },
-    "python_script": "import json\n\ndef generate_presses(current_index, target_index):\n    presses = []\n    diff = target_index - current_index\n    direction = 'Down' if diff > 0 else 'Up'\n    for _ in range(abs(diff)):\n        presses.extend([direction, 'sleep 300'])\n    presses.extend(['A', 'sleep 500', 'A'])\n    return presses\n\nprint(json.dumps(generate_presses(input_data['current_index'], input_data['target_index'])))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-02-26T04:52:29.169Z",
-        "action_counter": 5619
-      }
-    ]
-  },
-  "execute_macro": {
-    "description": "Executes a sequence of buttons and sleep commands. Useful for bypassing text box delays without manual step-by-step confirmation. Provide an array of strings like ['B', 'B', 'sleep 500', 'Right', 'Right', 'sleep 500', 'Up', 'A']. Do not use consecutive sleep commands.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "macro": {
-          "type": "array",
-          "items": {
-            "type": "string"
-          }
-        }
-      },
-      "required": [
-        "macro"
-      ]
-    },
-    "python_script": "import json\nmacro = input_data['macro']\nprint(json.dumps(macro))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-02-26T21:26:41.224Z",
-        "action_counter": 6067
-      }
-    ]
-  },
-  "deposit_item_pc": {
-    "description": "Automates depositing an item in the PC. Assumes you are in the 'DEPOSIT ITEM' menu.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "current_index": {
-          "type": "integer",
-          "minimum": 1
-        },
-        "target_index": {
-          "type": "integer",
-          "minimum": 1
-        },
-        "quantity": {
-          "type": "integer",
-          "default": 1,
-          "description": "Amount to deposit. Use -1 for ALL."
-        }
-      },
-      "required": [
-        "current_index",
-        "target_index"
-      ]
-    },
-    "python_script": "import json\ncurrent_index = int(input_data.get('current_index', 1))\ntarget_index = int(input_data.get('target_index', 1))\nquantity = int(input_data.get('quantity', 1))\n\nbuttons = []\nif target_index > current_index:\n    for _ in range(target_index - current_index):\n        buttons.extend(['Down', 'sleep 300'])\nelif target_index < current_index:\n    for _ in range(current_index - target_index):\n        buttons.extend(['Up', 'sleep 300'])\n\nbuttons.extend(['A', 'sleep 500'])\n\nif quantity == -1:\n    buttons.extend(['Down', 'sleep 300'])\nelif quantity > 1:\n    for _ in range(quantity - 1):\n        buttons.extend(['Up', 'sleep 300'])\n\nbuttons.extend(['A', 'sleep 500'])\n\nprint(json.dumps(buttons))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-02-26T23:30:32.089Z",
-        "action_counter": 6354
-      }
-    ]
-  },
-  "withdraw_item_pc": {
-    "description": "Automates withdrawing an item from the PC. Assumes you are in the 'WITHDRAW ITEM' menu.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "current_index": {
-          "type": "integer",
-          "minimum": 1
-        },
-        "target_index": {
-          "type": "integer",
-          "minimum": 1
-        },
-        "quantity": {
-          "type": "integer",
-          "default": 1,
-          "description": "Amount to withdraw. Use -1 for ALL."
-        }
-      },
-      "required": [
-        "current_index",
-        "target_index"
-      ]
-    },
-    "python_script": "import json\n\ndef withdraw_item_pc(input_data):\n    current = int(input_data.get('current_index', 1))\n    target = int(input_data.get('target_index', 1))\n    quantity = int(input_data.get('quantity', 1))\n    \n    buttons = []\n    \n    diff = target - current\n    if diff > 0:\n        buttons.extend(['Down'] * diff)\n    elif diff < 0:\n        buttons.extend(['Up'] * abs(diff))\n        \n    buttons.append('A')\n    buttons.append('sleep 500')\n    \n    if quantity == -1:\n        buttons.append('Down')\n    elif quantity > 1:\n        buttons.extend(['Up'] * (quantity - 1))\n        \n    buttons.append('A')\n    \n    return buttons\n\nprint(json.dumps(withdraw_item_pc(input_data)))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-02-27T00:14:31.879Z",
-        "action_counter": 6444
-      }
-    ]
-  },
   "use_hm_field": {
     "description": "Automates using a field move. YOU MUST BE IN THE POKEMON MENU FIRST. Automatically resets cursor to the top, navigates to the target pokemon, and selects the top option.",
     "input_schema": {
@@ -707,53 +654,106 @@
       }
     ]
   },
-  "run_battle": {
-    "description": "Automates running from a wild Pokemon encounter by navigating the battle menu to the RUN option and pressing A. Assumes you are on the main battle menu.",
-    "input_schema": {
-      "type": "object",
-      "properties": {}
-    },
-    "python_script": "import json\nprint(json.dumps(['Right', 'Down', 'A']))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-02-27T04:07:12.728Z",
-        "action_counter": 6841
-      },
-      {
-        "commit_message": "Fix IndexError by returning static button sequence",
-        "timestamp": "2026-02-27T21:13:50.694Z",
-        "action_counter": 7531
-      }
-    ]
-  },
-  "bfs_dark_cave_mapper": {
-    "description": "Performs a BFS on a dark cave grid to visualize passable areas. Paste the raw dictionary string from the context into grid_text.",
+  "walk_to_coordinate": {
+    "description": "Calculates and executes the exact sequence of D-pad presses needed to walk in a straight line or simple L-shape from your current (X,Y) to a target (X,Y). Useful for avoiding manual step-counting errors on clear paths.",
     "input_schema": {
       "type": "object",
       "properties": {
-        "start_x": {
+        "current_x": {
           "type": "integer"
         },
-        "start_y": {
+        "current_y": {
           "type": "integer"
         },
-        "grid_text": {
-          "type": "string"
+        "target_x": {
+          "type": "integer"
+        },
+        "target_y": {
+          "type": "integer"
+        },
+        "axis_order": {
+          "type": "string",
+          "enum": [
+            "horizontal_first",
+            "vertical_first"
+          ],
+          "default": "horizontal_first"
         }
       },
       "required": [
-        "start_x",
-        "start_y",
-        "grid_text"
+        "current_x",
+        "current_y",
+        "target_x",
+        "target_y"
       ]
     },
-    "python_script": "import re\nfrom collections import deque\n\nstart_x = input_data['start_x']\nstart_y = input_data['start_y']\ngrid_text = input_data['grid_text']\n\ngrid = {}\nmatches = re.findall(r'\\((\\d+),\\s*(\\d+)\\):\\s*[\\'\"](TYPE_[a-zA-Z0-9]+)[\\'\"]', grid_text)\nfor match in matches:\n    x, y, tile_type = int(match[0]), int(match[1]), match[2]\n    grid[(x, y)] = tile_type\n\nif not grid:\n    print(\"Error: No valid grid data parsed. Please provide text in the format (X, Y): 'TYPE_XXXX'\")\nelse:\n    q = deque([(start_x, start_y)])\n    visited = set([(start_x, start_y)])\n    passable = [\"TYPE_3fe2\"]\n    \n    while q:\n        x, y = q.popleft()\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            nx, ny = x + dx, y + dy\n            if (nx, ny) in grid and grid[(nx, ny)] in passable and (nx, ny) not in visited:\n                visited.add((nx, ny))\n                q.append((nx, ny))\n                \n    min_x = min(x for x, y in grid.keys())\n    max_x = max(x for x, y in grid.keys())\n    min_y = min(y for x, y in grid.keys())\n    max_y = max(y for x, y in grid.keys())\n\n    for y in range(min_y, max_y + 1):\n        row = \"\"\n        for x in range(min_x, max_x + 1):\n            if (x, y) in visited:\n                row += \" O \"\n            elif grid.get((x, y)) == \"TYPE_3fe2\":\n                row += \" ? \"\n            else:\n                row += \" X \"\n        print(row)",
+    "python_script": "import json\n\ncx = int(input_data['current_x'])\ncy = int(input_data['current_y'])\ntx = int(input_data['target_x'])\nty = int(input_data['target_y'])\norder = input_data.get('axis_order', 'horizontal_first')\n\ndx = tx - cx\ndy = ty - cy\n\nh_btn = 'Right' if dx > 0 else 'Left'\nv_btn = 'Down' if dy > 0 else 'Up'\n\nh_moves = [h_btn] * abs(dx)\nv_moves = [v_btn] * abs(dy)\n\nif order == 'horizontal_first':\n    moves = h_moves + v_moves\nelse:\n    moves = v_moves + h_moves\n\nprint(json.dumps(moves[:100]))",
     "history": [
       {
         "commit_message": "Initial version",
-        "timestamp": "2026-02-27T21:50:14.703Z",
-        "action_counter": 7593
+        "timestamp": "2026-02-22T23:06:31.415Z",
+        "action_counter": 1454
+      }
+    ]
+  },
+  "withdraw_item_pc": {
+    "description": "Automates withdrawing an item from the PC. Assumes you are in the 'WITHDRAW ITEM' menu.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "current_index": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "target_index": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "quantity": {
+          "type": "integer",
+          "default": 1,
+          "description": "Amount to withdraw. Use -1 for ALL."
+        }
+      },
+      "required": [
+        "current_index",
+        "target_index"
+      ]
+    },
+    "python_script": "import json\n\ndef withdraw_item_pc(input_data):\n    current = int(input_data.get('current_index', 1))\n    target = int(input_data.get('target_index', 1))\n    quantity = int(input_data.get('quantity', 1))\n    \n    buttons = []\n    \n    diff = target - current\n    if diff > 0:\n        buttons.extend(['Down'] * diff)\n    elif diff < 0:\n        buttons.extend(['Up'] * abs(diff))\n        \n    buttons.append('A')\n    buttons.append('sleep 500')\n    \n    if quantity == -1:\n        buttons.append('Down')\n    elif quantity > 1:\n        buttons.extend(['Up'] * (quantity - 1))\n        \n    buttons.append('A')\n    \n    return buttons\n\nprint(json.dumps(withdraw_item_pc(input_data)))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-02-27T00:14:31.879Z",
+        "action_counter": 6444
+      }
+    ]
+  },
+  "withdraw_pokemon": {
+    "description": "Automates withdrawing a Pokemon from the PC. Assumes you are in the 'WITHDRAW PKMN' menu.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "current_index": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "target_index": {
+          "type": "integer",
+          "minimum": 1
+        }
+      },
+      "required": [
+        "current_index",
+        "target_index"
+      ]
+    },
+    "python_script": "import json\n\ndef generate_presses(current_index, target_index):\n    presses = []\n    diff = target_index - current_index\n    direction = 'Down' if diff > 0 else 'Up'\n    for _ in range(abs(diff)):\n        presses.extend([direction, 'sleep 300'])\n    presses.extend(['A', 'sleep 500', 'A'])\n    return presses\n\nprint(json.dumps(generate_presses(input_data['current_index'], input_data['target_index'])))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-02-26T04:52:29.169Z",
+        "action_counter": 5619
       }
     ]
   }
