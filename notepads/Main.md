@@ -90,4 +90,4 @@
 
 [HMs]
 - HM01 (Cut): Taught to Audrey (Bellsprout).
-- HM05 (Flash): Obtained! Need to test who can learn it.
+- HM05 (Flash): Obtained! Tested party (Wartortle, Nidoqueen, Bellsprout, Geodude, Diglett, Dugtrio) - none can learn it. Need to find a compatible Pokemon.
