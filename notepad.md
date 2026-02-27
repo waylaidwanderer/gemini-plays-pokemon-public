@@ -99,6 +99,8 @@
 - Progress: Escaped Cerulean City via the Robbed House after realizing (23,17) was a ledge hallucination. Entered Route 9, cut the real tree at (5,8), and defeated the first Jr. Trainer.
 - Team: Swapped Cleo (Nidoqueen) to the lead. Her Poison typing is excellent against Grass trainers here.
 - Tools: Refactored `use_hm_field` to bypass Gen 1 cursor memory by sending 5 'Up' commands before navigating to the target index.
+[Route 10]
+- Found a Pokemon Center right next to Rock Tunnel entrance! This is a great place to heal and grind if needed.
 
 <hr>
 
