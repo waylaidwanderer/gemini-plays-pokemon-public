@@ -311,12 +311,12 @@
     ]
   },
   "run_battle": {
-    "description": "Automates running from a wild Pokemon encounter by navigating the battle menu to the RUN option and pressing A. Assumes you are on the main battle menu.",
+    "description": "Automates running from a wild Pokemon encounter by navigating the battle menu to the RUN option and pressing A. Adds a delay to ensure the battle menu is ready.",
     "input_schema": {
       "type": "object",
       "properties": {}
     },
-    "python_script": "import json\nprint(json.dumps(['Right', 'Down', 'A']))",
+    "python_script": "import json\n\ndef run_battle(input_data):\n    buttons = ['sleep 1500', 'Right', 'Down', 'A']\n    print(json.dumps(buttons))\n\nrun_battle({})",
     "history": [
       {
         "commit_message": "Initial version",
@@ -327,6 +327,11 @@
         "commit_message": "Fix IndexError by returning static button sequence",
         "timestamp": "2026-02-27T21:13:50.694Z",
         "action_counter": 7531
+      },
+      {
+        "commit_message": "Added sleep 1500 before pressing buttons to account for battle start delays.",
+        "timestamp": "2026-02-27T23:29:06.288Z",
+        "action_counter": 7771
       }
     ]
   },
