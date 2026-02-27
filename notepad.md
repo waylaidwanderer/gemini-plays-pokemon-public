@@ -94,6 +94,10 @@
 [HMs]
 - HM01 (Cut): Taught to Audrey (Bellsprout).
 - HM05 (Flash): Obtained! Tested party (Wartortle, Nidoqueen, Bellsprout, Geodude, Diglett, Dugtrio) - none can learn it. Need to find a compatible Pokemon.
+[Tool Maintenance To-Do]
+- Delete unused custom tools to free up the 20-tool limit.
+- Fix use_hm_field to include cursor reset or explicit instructions (needs commit message).
+- Create a dedicated run_battle tool once space is freed instead of relying on manual macros.
 
 <hr>
 
