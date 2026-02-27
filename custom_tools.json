@@ -648,21 +648,27 @@
     ]
   },
   "use_hm_field": {
-    "description": "Automates using a field move. YOU MUST BE IN THE POKEMON MENU FIRST and the cursor MUST be on the FIRST pokemon. Navigates to the specified pokemon and selects the top option.",
+    "description": "Automates using a field move. YOU MUST BE IN THE POKEMON MENU FIRST. Navigates from your current cursor position to the specified pokemon and selects the top option. YOU MUST VISUALLY VERIFY current_index!",
     "input_schema": {
       "type": "object",
       "properties": {
-        "pokemon_index": {
+        "current_index": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 6
+        },
+        "target_index": {
           "type": "integer",
           "minimum": 1,
           "maximum": 6
         }
       },
       "required": [
-        "pokemon_index"
+        "current_index",
+        "target_index"
       ]
     },
-    "python_script": "def use_hm_field(input_data):\n    target = int(input_data.get('pokemon_index', 1))\n    buttons = []\n    for _ in range(target - 1):\n        buttons.append('Down')\n    buttons.append('A')\n    buttons.append('A')\n    print(str(buttons).replace(\"'\", '\"'))\n",
+    "python_script": "def use_hm_field(input_data):\n    current = int(input_data.get('current_index', 1))\n    target = int(input_data.get('target_index', 1))\n    buttons = []\n\n    diff = target - current\n    if diff > 0:\n        for _ in range(diff):\n            buttons.append('Down')\n    elif diff < 0:\n        for _ in range(abs(diff)):\n            buttons.append('Up')\n\n    buttons.append('A')\n    buttons.append('A')\n    print(str(buttons).replace(\"'\", '\"'))\n",
     "history": [
       {
         "commit_message": "Initial version",
@@ -688,6 +694,11 @@
         "commit_message": "Fixing IndexError by simplifying logic to assume starting at index 1 and just issuing the correct number of Downs and As.",
         "timestamp": "2026-02-27T04:40:49.263Z",
         "action_counter": 6901
+      },
+      {
+        "commit_message": "Update use_hm_field to account for Gen 1 cursor memory by requiring a current_index.",
+        "timestamp": "2026-02-27T05:31:13.645Z",
+        "action_counter": 6991
       }
     ]
   },

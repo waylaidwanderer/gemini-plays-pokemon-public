@@ -454,6 +454,9 @@ WARNING: Bellsprout's Vine Whip is 4x effective against Geodude. Train Cleo here
 - [Turn 6149 Reflection] The party menu cursor remembers its last position even when accessed from the ITEM menu. Always verify cursor position before using an item!
 - [Turn 6151 Reflection] CRITICAL: The Game State inventory list is ALPHABETIZED and does NOT match the in-game bag's chronological order. Never use Game State indices for item tools. Manual counting/scrolling is required!
 
+# Menu Navigation
+- Gen 1 Menus (Items, Pokemon, PC) have cursor memory! The cursor stays where you last left it. Always visually verify the cursor position or track it carefully before using tools that navigate menus blind.
+
 <hr>
 
 <h1><code>Locations/SS_Anne</code></h1>
