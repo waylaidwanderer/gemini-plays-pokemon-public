@@ -78,7 +78,6 @@
 - Map marker placed at (24, 27) to track my path through the visually repetitive cave.
 [Fast Travel Route]
 - Vermilion City (Route 11) <-> Route 2 via Diglett's Cave. Bypasses earlier obstacles.
-- Current Objective on Route 2: Retrieve HM05 Flash from Professor's Aide (requires 10+ caught Pokemon, currently have 15).
 
 <hr>
 
