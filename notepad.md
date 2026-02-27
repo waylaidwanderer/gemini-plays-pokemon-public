@@ -620,4 +620,17 @@ WARNING: Bellsprout's Vine Whip is 4x effective against Geodude. Train Cleo here
 - Lower right (X=20-28, Y=10-13) is a dead end.
 - Upper right (X=30, Y=4-7) is a dead end.
 
+# Rock Tunnel 1F
+[Tile Dictionary]
+- TYPE_3fe2: Walkable Floor
+- TYPE_2889: Impassable Rock Wall
+- TYPE_2770: Impassable Rock Wall
+
+[Layout Notes]
+- (15, 3): Entrance from Route 10
+- (17, 11): Ladder (Unreachable from start area)
+- (21, 10): Pokemaniac
+- (24, 12): Dead End
+- (30, 4): Dead End
+
 <hr>
