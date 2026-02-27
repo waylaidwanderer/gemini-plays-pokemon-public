@@ -79,8 +79,20 @@
 - Map marker placed at (24, 27) to track my path through the visually repetitive cave.
 [Fast Travel Route]
 - Vermilion City (Route 11) <-> Route 2 via Diglett's Cave. Bypasses earlier obstacles.
-[HM05 Flash]
-- Professor's Aide is located in a building on Route 2 (south of Diglett's Cave).
+
+[Return to Cerulean City Plan]
+1. Route 2 (North) -> Diglett's Cave.
+2. Diglett's Cave -> Route 11.
+3. Route 11 (West) -> Vermilion City.
+4. Vermilion City (North) -> Route 6.
+5. Route 6 (North) -> Underground Path.
+6. Underground Path -> Route 5.
+7. Route 5 (North) -> Cerulean City.
+8. Trade Bike Voucher at the Bike Shop!
+
+[HMs]
+- HM01 (Cut): Taught to Audrey (Bellsprout).
+- HM05 (Flash): Obtained! Need to test who can learn it.
 
 <hr>
 
