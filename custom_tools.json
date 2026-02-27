@@ -1,29 +1,30 @@
 {
   "deposit_pokemon": {
-    "description": "Automates depositing a Pokemon in the PC. Assumes you are in the 'DEPOSIT PKMN' menu.",
+    "description": "Automates depositing a Pokemon in the PC. Assumes you are in the 'DEPOSIT PKMN' menu. Makes it foolproof against cursor memory by pressing Up 10 times to reset to index 1, then going down to the target.",
     "input_schema": {
       "type": "object",
       "properties": {
-        "current_index": {
-          "type": "integer",
-          "minimum": 1
-        },
         "target_index": {
           "type": "integer",
-          "minimum": 1
+          "minimum": 1,
+          "maximum": 6
         }
       },
       "required": [
-        "current_index",
         "target_index"
       ]
     },
-    "python_script": "import json\n\ndef generate_presses(current_index, target_index):\n    presses = []\n    diff = target_index - current_index\n    direction = 'Down' if diff > 0 else 'Up'\n    for _ in range(abs(diff)):\n        presses.append(direction)\n        presses.append('sleep 300')\n    presses.extend(['A', 'sleep 500', 'A'])\n    return presses\n\nprint(json.dumps(generate_presses(input_data['current_index'], input_data['target_index'])))",
+    "python_script": "import json\nimport sys\n\ndef main():\n    try:\n        input_data = json.loads(sys.argv[1])\n        target_index = int(input_data['target_index'])\n        \n        presses = []\n        # Reset cursor to top to handle Gen 1 cursor memory\n        for _ in range(10):\n            presses.extend(['Up', 'sleep 100'])\n            \n        # Navigate to target\n        downs = target_index - 1\n        for _ in range(downs):\n            presses.extend(['Down', 'sleep 300'])\n            \n        # Confirm deposit\n        presses.extend(['A', 'sleep 500', 'A'])\n        \n        print(json.dumps(presses))\n    except Exception as e:\n        print(json.dumps({\"error\": str(e)}))\n\nif __name__ == \"__main__\":\n    main()",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2026-02-26T04:49:36.434Z",
         "action_counter": 5614
+      },
+      {
+        "commit_message": "Make deposit_pokemon foolproof against cursor memory by resetting to the top first.",
+        "timestamp": "2026-02-27T18:58:17.077Z",
+        "action_counter": 7396
       }
     ]
   },
