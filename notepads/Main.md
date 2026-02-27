@@ -92,3 +92,6 @@
 [HMs]
 - HM01 (Cut): Taught to Audrey (Bellsprout).
 - HM05 (Flash): Obtained! Tested party (Wartortle, Nidoqueen, Bellsprout, Geodude, Diglett, Dugtrio) - none can learn it. Need to find a compatible Pokemon.
+
+[Team Building & Catch Goals]
+- Priority: Find a Pokemon compatible with HM05 (Flash). I should check my PC box next time I'm at a Pokemon Center (Meowth, Paras, Zubat, Rattata, Caterpie, Spearow, Pidgey might be able to learn it).
