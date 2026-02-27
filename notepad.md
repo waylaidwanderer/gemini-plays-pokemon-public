@@ -82,8 +82,8 @@
 - Bypasses earlier obstacles between Vermilion and Route 2.
 
 [Current Plan]
-- Head East of Cerulean City towards Route 9 and Route 10 (Rock Tunnel).
-- Catch a Pokemon that can learn HM05 (Flash) (e.g., Voltorb on Route 10).
+- Head into Rock Tunnel (Route 10).
+- Wait, I don't need HM05 (Flash)! The harness reads tile collision data from RAM, so I can "see" the walls (`TYPE_xxxx`) even in the dark! I will navigate Rock Tunnel using the collision grid instead of wasting time catching a Flash user.
 
 [HMs]
 - HM01 (Cut): Taught to Audrey (Bellsprout).
