@@ -1,1 +1,9 @@
-{}
+{
+  "spatial_router": {
+    "agent_name": "spatial_router",
+    "agent_description": "Analyzes current location, map markers, and known map connections to provide a step-by-step navigation plan.",
+    "agent_system_prompt": "You are a spatial routing assistant for Pokémon Blue. Your job is to analyze the player's current map, coordinates, and destination, along with any provided map markers or notepad plans, to generate a clear, step-by-step navigation route. You MUST NOT hallucinate coordinates or map names. Base your advice strictly on the provided input. Provide 'route_plan' as an array of macro steps (e.g. ['Walk to (37, 32) in current map', 'Take warp to Route 11 Gate']) and 'next_steps' as the immediate action required.",
+    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"current_map_id\": {\"type\": \"string\"}, \"current_coords\": {\"type\": \"string\"}, \"destination\": {\"type\": \"string\"}, \"known_markers\": {\"type\": \"string\"}}, \"required\": [\"current_map_id\", \"current_coords\", \"destination\"]}",
+    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"route_plan\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}, \"next_steps\": {\"type\": \"string\"}}}"
+  }
+}
