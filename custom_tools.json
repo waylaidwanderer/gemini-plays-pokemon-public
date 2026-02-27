@@ -726,12 +726,17 @@
         "pokemon_index"
       ]
     },
-    "python_script": "import json\n\ndef use_hm_field(input_data):\n    target_pokemon = int(input_data.get('pokemon_index', 1))\n\n    buttons = []\n    buttons.append('Start')\n    buttons.append('sleep 500')\n\n    # Navigate to POKEMON (Assuming Pokedex unlocked, it's 2nd from top)\n    buttons.extend(['Up'] * 6)\n    buttons.append('Down')\n    buttons.append('A')\n    buttons.append('sleep 1000')\n\n    # Navigate to Pokemon\n    buttons.extend(['Up'] * 6)\n    if target_pokemon > 1:\n        buttons.extend(['Down'] * (target_pokemon - 1))\n    buttons.append('A')\n    buttons.append('sleep 1000')\n\n    # Select the top option (which should be the HM, e.g., CUT)\n    buttons.extend(['Up'] * 4)\n    buttons.append('A')\n    buttons.append('sleep 1000')\n    buttons.append('A') # confirm\n    \n    return buttons\n\nprint(json.dumps(use_hm_field(input_data)))",
+    "python_script": "import json\n\ndef generate_moves(pokemon_index):\n    moves = []\n    moves.append('Start')\n    moves.append('sleep 500')\n    for _ in range(7):\n        moves.append('Up')\n    moves.append('Down')\n    moves.append('A')\n    moves.append('sleep 1000')\n    for _ in range(7):\n        moves.append('Up')\n    for _ in range(pokemon_index - 1):\n        moves.append('Down')\n    moves.append('A')\n    moves.append('sleep 1000')\n    for _ in range(5):\n        moves.append('Up')\n    moves.append('A')\n    moves.append('sleep 1000')\n    moves.append('A')\n    return moves\n\nprint(json.dumps(generate_moves(int(input_data['pokemon_index']))))",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2026-02-27T00:19:32.040Z",
         "action_counter": 6453
+      },
+      {
+        "commit_message": "Fixed non-wrapping start menu navigation bug",
+        "timestamp": "2026-02-27T00:45:50.053Z",
+        "action_counter": 6513
       }
     ]
   }
