@@ -8,3 +8,4 @@
 - Lesson Learned (from Route 10): ALWAYS trust the system's identification of tiles (e.g., `TYPE_5519` = bush, not Cut tree). Do not let confirmation bias override factual data.
 - Current Location: (24, 12)
 - Path history: (15,3) -> Right to (21,3) -> Down to (21,12) -> Right to (24,12).
+- Bottom right area (X=20..28, Y=10..13) is a dead-end room. Backtracking to (21, 8) to explore left.
