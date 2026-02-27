@@ -70,3 +70,7 @@
 - I got stuck looping at (20, 18) because I told my `walk_to_coordinate` tool to walk Left, straight into `TYPE_4e8c` (water). The tool doesn't do pathfinding, only L-shapes.
 - CRITICAL: Always visually trace the L-shape path on the screen grid to ensure there are no ledges, water, or buildings in the way before calling `walk_to_coordinate`.
 - Created `deposit_item_pc` to speed up future PC visits.
+[Turn 6461 Reflection]
+- Diglett's Cave exploration is underway. High-level Diglett/Dugtrio are extremely fast and can prevent running. Cleo (Lv 20 Nidoqueen) is too slow and weak to Ground moves. Swapping Hydro (Lv 31 Wartortle) to the lead for guaranteed escapes and safe damage.
+- Custom tools `withdraw_item_pc` and `use_hm_field` were successfully created to reduce menu hallucination risks.
+- Map marker placed at (24, 27) to track my path through the visually repetitive cave.
