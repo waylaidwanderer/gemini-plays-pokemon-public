@@ -535,3 +535,11 @@ WARNING: Bellsprout's Vine Whip is 4x effective against Geodude. Train Cleo here
 - Solution: Move to target tile -> End Turn (verify position) -> Turn & Press A -> End Turn -> Mash B to close text -> End Turn -> Repeat. Alternatively, use sleep commands in macros (e.g. sleep 500) between closing a text box and moving.
 
 <hr>
+
+<h1><code>Locations/DiglettsCave</code></h1>
+
+# Diglett's Cave
+- Encounters: Diglett
+- Catching Strategy: Cleo (Lv 20 Nidoqueen) is too strong; her Tackle can OHKO a Lv 15 Diglett on a crit. Switch to Audrey (Lv 16 Bellsprout) and use Wrap, or use Pebbles (Lv 12 Geodude) to weaken them safely before throwing a Poke Ball.
+
+<hr>
