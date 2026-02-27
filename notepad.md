@@ -82,15 +82,15 @@
 - Bypasses earlier obstacles between Vermilion and Route 2.
 
 [Current Plan]
-- Head into Rock Tunnel (Route 10).
-- Wait, I don't need HM05 (Flash)! The harness reads tile collision data from RAM, so I can "see" the walls (`TYPE_xxxx`) even in the dark! I will navigate Rock Tunnel using the collision grid instead of wasting time catching a Flash user.
+- Explore Rock Tunnel using the collision grid to "see" in the dark.
 
 [HMs]
 - HM01 (Cut): Taught to Audrey (Bellsprout).
-- HM05 (Flash): Obtained! Tested party + Diglett, Dugtrio, Meowth - none can learn it. Need to find a compatible Pokemon.
+- HM05 (Flash): Obtained! Tested party + Diglett, Dugtrio, Meowth, Voltorb - none can learn it. Abandoned finding a Flash user; navigating via grid is faster.
 
-[Team Building & Catch Goals]
-- Priority: Find a Pokemon compatible with HM05 (Flash). Maybe an Electric or Psychic type? Will look for new catches on Route 9.
+[Rock Tunnel Exploration]
+- Start Turn: 7476
+- Exploring 1F using grid data.
 [Route 9]
 - Located East of Cerulean City.
 - Strategy: Navigate East through the ledges and trainers towards Rock Tunnel (Route 10).
