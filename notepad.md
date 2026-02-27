@@ -571,5 +571,6 @@ WARNING: Bellsprout's Vine Whip is 4x effective against Geodude. Train Cleo here
 - Path: From (26,30) Pokemaniac, follow bottom wall left then up to (15,28) Jr Trainer.
 - Path: From (20,21) Pokemaniac, head north and east to (30,10) Hiker.
 - Path: From (30,10) Hiker, head north to (33,5) Hiker.
+- Found Ladder to 1F at (27, 3).
 
 <hr>
