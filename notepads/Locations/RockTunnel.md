@@ -25,3 +25,7 @@
 - (21, 10): Pokemaniac
 - (24, 12): Dead End
 - (30, 4): Dead End
+
+# B1F Manual Mapping
+- Solid wall at Y=28 (from X=18 to at least X=27).
+- Tracing wall leftwards from (22, 27).
