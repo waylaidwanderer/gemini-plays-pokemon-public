@@ -9,3 +9,4 @@
 - Current Location: (24, 12)
 - Path history: (15,3) -> Right to (21,3) -> Down to (21,12) -> Right to (24,12).
 - Bottom right area (X=20..28, Y=10..13) is a dead-end room. Backtracking to (21, 8) to explore left.
+- Navigating from (21, 8) up and left around the rock wall. Now at (16, 7). Path continues left.
