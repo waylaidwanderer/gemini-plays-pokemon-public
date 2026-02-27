@@ -429,7 +429,7 @@
     ]
   },
   "swap_pokemon": {
-    "description": "Swaps two Pokemon. Gen 1 has cursor memory! YOU MUST VISUALLY VERIFY the current_index before calling.",
+    "description": "Swaps two Pokemon in the party menu. Reliably handles field moves by using menu wrap-around. YOU MUST VISUALLY VERIFY the current_index before calling.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -455,7 +455,7 @@
         "index_b"
       ]
     },
-    "python_script": "import json\ncurrent = int(input_data['current_index'])\na = int(input_data['index_a'])\nb = int(input_data['index_b'])\nbuttons = []\ndef move_to(start, end):\n    diff = end - start\n    if diff > 0:\n        return ['Down', 'sleep 300'] * diff\n    elif diff < 0:\n        return ['Up', 'sleep 300'] * (-diff)\n    return []\nbuttons.extend(move_to(current, a))\nbuttons.extend(['A', 'sleep 500'])\nbuttons.extend(move_to(a, b))\nbuttons.extend(['A', 'sleep 1000'])\nprint(json.dumps(buttons))",
+    "python_script": "import json\n\ndef swap_pokemon(input_data):\n    current_index = input_data['current_index']\n    index_a = input_data['index_a']\n    index_b = input_data['index_b']\n    \n    buttons = []\n    \n    # 1. Navigate from current_index to index_a\n    diff_a = index_a - current_index\n    if diff_a > 0:\n        for _ in range(diff_a):\n            buttons.extend(['Down', 'sleep 300'])\n    elif diff_a < 0:\n        for _ in range(abs(diff_a)):\n            buttons.extend(['Up', 'sleep 300'])\n            \n    # Select first Pokemon\n    buttons.extend(['A', 'sleep 500'])\n    \n    # 2. Select 'SWITCH' safely using wrap-around\n    # Regardless of field moves, SWITCH is always 2 Ups from the top option.\n    buttons.extend(['Up', 'sleep 300', 'Up', 'sleep 300', 'A', 'sleep 500'])\n    \n    # 3. Navigate from index_a to index_b\n    diff_b = index_b - index_a\n    if diff_b > 0:\n        for _ in range(diff_b):\n            buttons.extend(['Down', 'sleep 300'])\n    elif diff_b < 0:\n        for _ in range(abs(diff_b)):\n            buttons.extend(['Up', 'sleep 300'])\n            \n    # Select second Pokemon\n    buttons.extend(['A', 'sleep 1000'])\n    \n    print(json.dumps(buttons))\n\nswap_pokemon(input_data)",
     "history": [
       {
         "commit_message": "Initial version",
@@ -466,6 +466,11 @@
         "commit_message": "Re-affirming explicit requirement for visual verification of current_index to prevent cursor memory errors.",
         "timestamp": "2026-02-26T22:13:40.870Z",
         "action_counter": 6152
+      },
+      {
+        "commit_message": "Updated swap_pokemon to use wrap-around (Up, Up) to reliably select SWITCH regardless of field moves.",
+        "timestamp": "2026-02-27T23:44:42.763Z",
+        "action_counter": 7801
       }
     ]
   },
