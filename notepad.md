@@ -602,3 +602,11 @@ WARNING: Bellsprout's Vine Whip is 4x effective against Geodude. Train Cleo here
 - Northern path (Y=2 to Y=5) goes East past X=39 gap.
 
 <hr>
+
+<h1><code>Locations/RockTunnel</code></h1>
+
+# Rock Tunnel
+- Navigating using tile collision data ('TYPE_xxxx') since it's dark and I don't have Flash.
+- Entrance is at Route 10 (8, 16).
+
+<hr>

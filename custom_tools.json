@@ -732,7 +732,7 @@
     ]
   },
   "grind_grass": {
-    "description": "Generates a 100-button sequence of alternating directional presses to grind for encounters in tall grass or caves. Maximize encounter rates without hallucinating position.",
+    "description": "Generates a sequence of alternating directional presses to grind for encounters in tall grass or caves. Maximize encounter rates without hallucinating position.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -766,12 +766,17 @@
         "steps"
       ]
     },
-    "python_script": "import json\nimport sys\n\ndef main():\n    try:\n        input_data = json.loads(sys.argv[1])\n        dir1 = input_data['direction_1']\n        dir2 = input_data['direction_2']\n        steps = int(input_data['steps'])\n        \n        presses = []\n        while len(presses) < 100:\n            for _ in range(steps):\n                if len(presses) < 100:\n                    presses.append(dir1)\n            for _ in range(steps):\n                if len(presses) < 100:\n                    presses.append(dir2)\n                    \n        print(json.dumps(presses[:100]))\n    except Exception as e:\n        print(json.dumps({\"error\": str(e)}))\n\nif __name__ == \"__main__\":\n    main()",
+    "python_script": "import json\nsteps = int(input_data['steps'])\nd1 = input_data['direction_1']\nd2 = input_data['direction_2']\nbuttons = [d1 if i % 2 == 0 else d2 for i in range(steps)]\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "Initial creation of grind_grass tool.",
         "timestamp": "2026-02-27T19:13:14.636Z",
         "action_counter": 7413
+      },
+      {
+        "commit_message": "Fixed IndexError bug in grind_grass.",
+        "timestamp": "2026-02-27T19:47:03.280Z",
+        "action_counter": 7441
       }
     ]
   }
