@@ -10,3 +10,4 @@
 - True Location: Confirmed at (15, 7).
 - Traced X=13 on the grid: it is a SOLID WALL from Y=3 to Y=11.
 - The ladder at (17, 11) is completely walled off from the north and right (X=18/19 are walls).
+- Explored right to X=30. The path right is blocked by a rock wall at X=32. Heading North to see if the passage opens up.
