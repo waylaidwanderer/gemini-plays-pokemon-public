@@ -12,3 +12,4 @@
 - The ladder at (17, 11) is completely walled off from the north and right (X=18/19 are walls).
 - Explored right to X=30. The path right is blocked by a rock wall at X=32. Heading North to see if the passage opens up.
 - Traced path up to (30, 4), turning left along the upper corridor.
+- Realized I didn't check Left from (21, 12). Heading there to find the ladder at (17, 11).
