@@ -80,11 +80,8 @@
 - Bypasses earlier obstacles between Vermilion and Route 2.
 
 [Current Plan]
-- Traded Bike Voucher for BICYCLE! Movement is much faster now.
-- Go to Cerulean City Pokemon Center.
-- Withdraw a Pokemon from PC that can learn HM05 (Flash) (Meowth, Paras, Zubat, etc.).
-- Teach HM05 (Flash).
-- Head East of Cerulean City towards Route 9 / Rock Tunnel.
+- Head East of Cerulean City towards Route 9 and Route 10 (Rock Tunnel).
+- Catch a Pokemon that can learn HM05 (Flash) (e.g., Voltorb on Route 10).
 
 [HMs]
 - HM01 (Cut): Taught to Audrey (Bellsprout).
