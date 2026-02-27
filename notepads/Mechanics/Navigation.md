@@ -4,3 +4,4 @@
 - Building identities must be verified by entering them, not by visual assumption. Saffron Gate and Underground Path are visually similar.
 - Do NOT blindly trust assumed long-distance coordinate math (e.g. 'walk straight south from X'). Walk step-by-step and trace impassable tiles (water, trees) to find correct paths.
 - When mapping, use exact coordinates and do not jump to conclusions about blocked paths until physically bumping into them. Use map markers to explicitly mark entrances!
+- Protocol: When taking a ladder or door, immediately stop, verify the new Map ID, and step OFF the warp tile before using automation tools.
