@@ -91,4 +91,5 @@
 - Priority: Find a Pokemon compatible with HM05 (Flash). Maybe an Electric or Psychic type? Will look for new catches on Route 9.
 [Route 9]
 - Located East of Cerulean City.
-- Goal: Navigate to Rock Tunnel and catch a Pokemon for HM05 (Flash).
+- Strategy: Navigate East through the ledges and trainers towards Rock Tunnel (Route 10).
+- Catch Target: Voltorb (Electric) on Route 10 for HM05 (Flash). Will weaken it with Cleo's Scratch and catch with Poke Balls.
