@@ -102,6 +102,8 @@
 [Route 10]
 - Found a Pokemon Center right next to Rock Tunnel entrance! This is a great place to heal and grind if needed.
 - Voltorb Hunt Start: Turn 7347
+[PC Mechanics]
+- Gen 1 PC menus (DEPOSIT, WITHDRAW, etc.) retain cursor memory. Tools MUST account for this by either resetting the cursor or visually verifying the starting index before mashing A/Down.
 
 <hr>
 
