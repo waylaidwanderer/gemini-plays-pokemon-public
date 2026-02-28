@@ -577,6 +577,10 @@ WARNING: Bellsprout's Vine Whip is 4x effective against Geodude. Train Cleo here
 # Ladder Connections
 - 1F (37, 3) <-> B1F (37, 3)
 - 1F (5, 3) <-> B1F (27, 3)
+[Turn 8124 Reflection]
+- I need to stop blindly moving long distances (like 5+ steps) when I can't see the full path. I keep bumping into walls and getting flagged for looping.
+- I will rely on the visual collision grid (TYPE_3fe2 = floor, TYPE_2889/2770 = wall) and move in smaller increments to ensure I'm not stuck.
+- Found an NPC at (17, 15) on 1F. Proceeding to battle.
 
 <hr>
 
