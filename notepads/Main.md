@@ -15,6 +15,7 @@
 - Route 11 Exploration Start: Turn 6409
 - S.S. Anne Boarding: Turn 4431 (Tue Feb 24 2026)
 - Rock Tunnel Exploration Start: Turn 7476
+- Journey to Celadon City Start: Turn 9075
 
 [Trades]
 - Route 5 Gate: NPC wants to trade a Nidoran F for a Nidoran M.
