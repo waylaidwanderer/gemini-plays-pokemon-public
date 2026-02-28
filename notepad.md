@@ -643,8 +643,16 @@ Points of Interest:
 <h1><code>Locations/Route8</code></h1>
 
 # Route 8
-- Saffron City Gate is at the West end (around X=26), but the guards are thirsty and won't let anyone through.
-- Ledges on this route are ONE-WAY (jumping down from North to South). Do not jump down unless you intend to loop back to the start!
-- The Underground Path entrance to Celadon City is towards the WEST end of Route 8, likely on the top path. The building visible at the far east of Route 8 is actually the Lavender Town Pokemon Center bleeding over the map boundary.
+
+[Layout & Navigation]
+- The main paved road leads west directly to the Saffron City Gate (around x=26, y=5). The guards are thirsty and will not let you pass.
+- The Underground Path to Celadon City is NOT the Saffron Gate building.
+- To bypass the blocked Saffron Gate, look for a Cut tree at (29, 12). Cutting this tree grants access to a narrow path that runs along the south wall of Saffron City.
+- Follow this southern path westward to find more trainers (like a Gambler at x=13, y=8) and continue searching for the real Underground Path entrance.
+
+[Trainers Defeated]
+- Super Nerd at (42, 6)
+- Lass at (48, 12)
+- Gambler at (46, 13)
 
 <hr>
