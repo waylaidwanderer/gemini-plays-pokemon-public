@@ -678,3 +678,10 @@ Points of Interest:
 - TM11 (Deposited Turn 9529)
 
 <hr>
+
+<h1><code>Locations/CeladonDeptStore</code></h1>
+
+# Celadon Dept. Store
+1F: Service Counter
+
+<hr>
