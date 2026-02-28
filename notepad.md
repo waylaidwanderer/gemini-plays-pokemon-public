@@ -589,3 +589,13 @@ Entrance is at Route 10 (8, 16). Map 1F = 0_82, B1F = 0_232.
 18. HM05
 
 <hr>
+
+<h1><code>Locations/Route10_South</code></h1>
+
+# Route 10 South (Map 0_21)
+- Exited Rock Tunnel at the north end of this map.
+- Defeated Hiker around (3, 62).
+- Defeated Pokemaniac at (11, 64).
+- Heading further South to reach Lavender Town.
+
+<hr>
