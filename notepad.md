@@ -683,7 +683,7 @@ Points of Interest:
 
 # Celadon Dept. Store
 1F (Map 0_128): Service Counter. Up Stairs at (12, 1). Elevator at (7, 1).
-2F (Map 0_129): Trainers Market. No clerks at the left counter. Down Stairs at (12, 8). Up Stairs at (12, 1). Elevator at (7, 1).
+2F (Map 0_129): Trainers Market. Counters at Y=3. Elevator at (7, 1).
 - Note: Impassable wall at X=8 blocks direct rightward access to stairs from elevator. Must go down to Y=6 or Y=7 to bypass.
 3F (Map 0_130): 
 4F (Map 0_131): 
