@@ -720,3 +720,10 @@ Roof:
 5F (Map 0_132):
 
 <hr>
+
+<h1><code>Locations/RocketHideout</code></h1>
+
+# Rocket Hideout
+- B1F (0_199): Entrance at (21, 1) leading back to Game Corner.
+
+<hr>
