@@ -582,6 +582,10 @@ WARNING: Bellsprout's Vine Whip is 4x effective against Geodude. Train Cleo here
 - 1F (17, 11) <-> B1F (23, 11)
 - 1F (37, 17) <-> B1F (3, 3)
 - Path from 1F(37,17)->B1F(3,3) ladder: South to (3,4), East to (5,4), South to Y=14, East past X=13, then North to Y=13 and East.
+[Turn 8540 Reflection]
+- Pathing from 1F (17, 11) ladder: Navigated south and west to reach a vertical corridor at X=4. Currently at (4, 16) heading North.
+- Updated `run_battle` tool to reliably handle text and clear escape confirmation.
+- Team is extremely low on HP (Dugtrio 5 HP, Wartortle 15 HP). Relying entirely on `run_battle` to survive. No Potions left.
 
 <hr>
 
