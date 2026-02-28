@@ -5,4 +5,4 @@
 - Gyarados Lv 23 (Moves: Bite, Hydro Pump)
 - Growlithe Lv 22
 - Kadabra Lv 20
-- ???
+- Ivysaur Lv ???
