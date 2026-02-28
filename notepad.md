@@ -581,7 +581,7 @@ WARNING: Bellsprout's Vine Whip is 4x effective against Geodude. Train Cleo here
 - Arrived from 1F via ladder at (5, 3).
 - Walked South to (5, 16) [Hiker Defeated].
 - Path from (5,15) leads to large eastern room. [Exploration Started: Turn 7808]
-- Confirmed dead end at (21, 16). Routing back left and north.
-- Found ladder to 1F at (37, 3). Going up to heal.
+- Confirmed dead end at (21, 16).
+- Found ladder to 1F at (37, 3).
 
 <hr>
