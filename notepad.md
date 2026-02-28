@@ -745,8 +745,10 @@ Roof:
 <h1><code>Locations/RocketHideout_B2F</code></h1>
 
 # Rocket Hideout B2F
-[Start: Turn 10168]
-- Stairs to B1F: (27, 7)
-- Spinner Maze: West side (starts around X=24)
+
+## Spinner Maze
+- Entrance at right side.
+- Top path: (17, 11) L -> (14, 11) U -> (14, 9) L -> (4, 9) L. Player ends up at (2, 9).
+- Items visible: (1, 11), (6, 12).
 
 <hr>
