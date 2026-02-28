@@ -627,7 +627,7 @@
         "target_index"
       ]
     },
-    "python_script": "import json\n\ncurrent = int(input_data['current_index'])\ntarget = int(input_data['target_index'])\nbuttons = []\n\ndiff = target - current\nif diff > 0:\n    buttons.extend(['Down'] * diff)\nelif diff < 0:\n    buttons.extend(['Up'] * abs(diff))\n\nbuttons.extend(['A', 'sleep 500', 'A'])\nprint(json.dumps(buttons))",
+    "python_script": "import json\n\ncurrent = int(input_data['current_index'])\ntarget = int(input_data['target_index'])\n\n# Calculate shortest path considering wrap-around (assuming a full party of 6)\ndown_dist = (target - current) % 6\nup_dist = (current - target) % 6\n\nbuttons = []\nif down_dist <= up_dist:\n    buttons.extend(['Down'] * down_dist)\nelse:\n    buttons.extend(['Up'] * up_dist)\n\nbuttons.extend(['A', 'sleep 500', 'A'])\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -673,6 +673,11 @@
         "commit_message": "Update use_hm_field to take current_index to account for Party Menu cursor memory and wrap-around mechanics.",
         "timestamp": "2026-02-28T12:50:39.425Z",
         "action_counter": 9301
+      },
+      {
+        "commit_message": "Optimized use_hm_field to utilize modulo arithmetic for the shortest path in the wrapping Party Menu.",
+        "timestamp": "2026-02-28T14:01:20.894Z",
+        "action_counter": 9359
       }
     ]
   },
