@@ -1,11 +1,9 @@
 # Rock Tunnel B1F (Map 0_232) Tracking
-- [Exploration Started: Turn 7575]
-- Strategy: Use walk_to_coordinate tool for navigation instead of manually calculating paths.
-- Ladders to 1F: (27, 3), (33, 25).
-- Navigating via screen grid collisions.
-- Walked South to (5, 16) [Hiker Defeated].
-- Path from (5,15) leads to large eastern room. [Exploration Started: Turn 7808]
-- Ladder to 1F at (37, 3).
-- [Turn 8198] Came down ladder at (23, 11).
-- Path from (23, 11) -> (14, 15) -> West/South leads to a large dead end around (3, 28) to (13, 28).
-- Found a northern path from (14, 15) leading up to (14, 5). Exploring this route now.
+- Strategy: B1F is ONE GIANT interconnected map. Don't get tricked into thinking sections are separated.
+- Ladders to 1F:
+  1. (33, 25) - Connects to 1F (37, 3) [Near Entrance]
+  2. (27, 3) - Connects to 1F (5, 3)
+  3. (23, 11) - Connects to 1F (17, 11)
+  4. ??? - Need to find this to exit!
+- Explored: East side, South side, Middle.
+- Currently Exploring: NW corner (West of 14,5).
