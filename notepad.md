@@ -405,6 +405,7 @@ WARNING: Bellsprout's Vine Whip is 4x effective against Geodude. Train Cleo here
 
 # Menu Navigation
 - Gen 1 Menus (Items, Pokemon, PC) have cursor memory! The cursor stays where you last left it. Always visually verify the cursor position or track it carefully before using tools that navigate menus blind.
+- The Party Menu wraps around (pressing Up at the top goes to the bottom) and retains cursor memory. You cannot reset the cursor by mashing Up. Always track or visually confirm current_index before using tools.
 
 <hr>
 
