@@ -156,31 +156,6 @@
       }
     ]
   },
-  "execute_macro": {
-    "description": "Executes a sequence of buttons and sleep commands. Useful for bypassing text box delays without manual step-by-step confirmation. Provide an array of strings like ['B', 'B', 'sleep 500', 'Right', 'Right', 'sleep 500', 'Up', 'A']. Do not use consecutive sleep commands.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "macro": {
-          "type": "array",
-          "items": {
-            "type": "string"
-          }
-        }
-      },
-      "required": [
-        "macro"
-      ]
-    },
-    "python_script": "import json\nmacro = input_data['macro']\nprint(json.dumps(macro))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-02-26T21:26:41.224Z",
-        "action_counter": 6067
-      }
-    ]
-  },
   "move_sequence": {
     "description": "Executes a sequence of button presses provided as a compact string (e.g. 'DDDRRU' for Down, Down, Down, Right, Right, Up). 'A', 'B', 'S' (Start), 'E' (Select) are also supported.",
     "input_schema": {
@@ -789,6 +764,40 @@
         "commit_message": "Initial version",
         "timestamp": "2026-02-28T00:16:32.658Z",
         "action_counter": 7863
+      }
+    ]
+  },
+  "print_local_grid": {
+    "description": "Prints an ASCII grid of the area around a specific coordinate for the current map, useful for seeing walls and walkable paths.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "map_id": {
+          "type": "string"
+        },
+        "center_x": {
+          "type": "integer"
+        },
+        "center_y": {
+          "type": "integer"
+        },
+        "radius": {
+          "type": "integer",
+          "default": 5
+        }
+      },
+      "required": [
+        "map_id",
+        "center_x",
+        "center_y"
+      ]
+    },
+    "python_script": "import json\n\ndef run(input_data):\n    map_id = input_data[\"map_id\"]\n    cx = input_data[\"center_x\"]\n    cy = input_data[\"center_y\"]\n    radius = input_data.get(\"radius\", 5)\n    \n    try:\n        with open(\"session/map_data.json\", \"r\") as f:\n            map_data = json.load(f)\n    except FileNotFoundError:\n        print(\"Map data file not found.\")\n        return\n        \n    grid = map_data.get(map_id)\n    if not grid:\n        print(f\"No collision data found for map {map_id}.\")\n        return\n        \n    height = len(grid)\n    width = len(grid[0]) if height > 0 else 0\n    \n    out = []\n    for y in range(cy - radius, cy + radius + 1):\n        row = \"\"\n        for x in range(cx - radius, cx + radius + 1):\n            if 0 <= y < height and 0 <= x < width:\n                cell = grid[y][x]\n                if cell == \"0\":\n                    if x == cx and y == cy:\n                        row += \"@\"\n                    else:\n                        row += \".\"\n                else:\n                    if x == cx and y == cy:\n                        row += \"X\"\n                    else:\n                        row += \"#\"\n            else:\n                row += \" \"\n        out.append(row)\n        \n    print(f\"Grid around ({cx}, {cy}) r={radius}:\")\n    for row in out:\n        print(row)",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-02-28T02:42:04.093Z",
+        "action_counter": 8179
       }
     ]
   }
