@@ -98,6 +98,7 @@ Execution Plan:
 - TYPE_3fe2: Raised platform floor. Often inaccessible from lower floors without stairs.
 - TYPE_3fe2: Regular passable ground/bridge (NOT tall grass, no encounters here).
 - TYPE_44f6: Cut Tree (Impassable without HM01 Cut)
+- TYPE_5519: Cut Tree (Can be removed by using HM01 Cut from the Pokémon menu while facing it).
 
 <hr>
 
