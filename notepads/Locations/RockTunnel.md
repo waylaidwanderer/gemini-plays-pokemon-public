@@ -1,48 +1,15 @@
-# Rock Tunnel
-- Navigating using tile collision data ('TYPE_xxxx') since it's dark and I don't have Flash.
-- Entrance is at Route 10 (8, 16).
-[Turn 7501 Reflection]
-- Path so far: Entered at (15, 3). Walked Right to X=21, then Down. Defeated Pokemaniac near (21, 8).
-- Map marker placed for Pokemaniac at (21, 10).
-- Lesson Learned: NEVER use blind `execute_macro` for battle menus. I threw a Poke Ball by accident. Use `execute_battle_turn` instead.
-- Lesson Learned: Always check Game State position after moving. Encounters interrupt macros.
-[Current Status]
-- True Location: Confirmed at (15, 7).
-- Traced X=13 on the grid: it is a SOLID WALL from Y=3 to Y=11.
-- The ladder at (17, 11) is completely walled off from the north and right (X=18/19 are walls).
-- Lower right (X=20-28, Y=10-13) is a dead end.
-- Upper right (X=30, Y=4-7) is a dead end.
+# Rock Tunnel Master Route (Forward)
+Entrance is at Route 10 (8, 16). Map 1F = 0_82, B1F = 0_232.
+1. Enter 1F at (15, 3). Go East to 1F (37, 3) ladder. Down to B1F (33, 25).
+2. B1F (33, 25) -> navigate West and North to B1F (27, 3) ladder. Up to 1F (5, 3).
+3. 1F (5, 3) -> West to X=4, South to Y=21, East to X=21, North to Y=17, West to X=17, North to 1F (17, 11) ladder. Down to B1F (23, 11).
+4. B1F (23, 11) -> South to Y=13, West to X=14, South to Y=14, West to X=5, North to Y=4, West to X=3, North to B1F (3, 3) ladder. Up to 1F (37, 17).
+5. 1F (37, 17) -> Walk South to Exit (Lavender Town).
 
-# Rock Tunnel 1F
 [Tile Dictionary]
 - TYPE_3fe2: Walkable Floor
 - TYPE_2889: Impassable Rock Wall
 - TYPE_2770: Impassable Rock Wall
 
-[Layout Notes]
-- (15, 3): Entrance from Route 10
-- (17, 11): Ladder to B1F (Unreachable from start area)
-- (21, 10): Pokemaniac
-- (24, 12): Dead End
-- (30, 4): Dead End
-- (37, 17): Ladder to B1F (leads to B1F 3,3)
-
-# B1F Routing
-- [Turn 7575] Arrived B1F at (33,25).
-- Path: From (26,30) Pokemaniac, follow bottom wall left then up to (15,28) Jr Trainer.
-- Path: From (20,21) Pokemaniac, head north and east to (30,10) Hiker.
-- Path: From (30,10) Hiker, head north to (33,5) Hiker.
-- Found Ladder to 1F at (27, 3).
-- Walkable floors: TYPE_3fe2. Walls: TYPE_2889, TYPE_2770.
-
-# Ladder Connections
-- 1F (37, 3) <-> B1F (37, 3)
-- 1F (5, 3) <-> B1F (27, 3)
-- Strategy: Use right-hand rule for systematic exploration (always keep a wall to your right).
-- 1F (17, 11) <-> B1F (23, 11)
-- 1F (37, 17) <-> B1F (3, 3)
-- Path from 1F(37,17)->B1F(3,3) ladder: South to (3,4), East to (5,4), South to Y=14, East past X=13, then North to Y=13 and East.
-[Turn 8540 Reflection]
-- Pathing from 1F (17, 11) ladder: Navigated south and west to reach a vertical corridor at X=4. Currently at (4, 16) heading North.
-- Updated `run_battle` tool to reliably handle text and clear escape confirmation.
-- Team is extremely low on HP (Dugtrio 5 HP, Wartortle 15 HP). Relying entirely on `run_battle` to survive. No Potions left.
+Current Status:
+[Turn 8546] Realized I have been backtracking! Currently at B1F (27, 3). Will follow steps 3-5 to reach the exit.
