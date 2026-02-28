@@ -737,7 +737,7 @@ Roof:
 - Large Room: X=21..28, Y=5..7
 - Gap South: (25, 8)
 - Grunts Defeated: (26, 8), (13, 6)
-- Spinner Maze: South of the main area (X=24..28, Y=14+). Contains spin tiles and stop tiles.
+- Southern Wall: Impassable machines at Y=16 block access to Grunt at (28, 17).
 - Strategy: Verify tile TYPE IDs before moving to avoid crashing into walls and tables.
 
 <hr>
