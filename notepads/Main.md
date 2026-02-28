@@ -37,5 +37,4 @@
 - Found a Pokemon Center right next to Rock Tunnel entrance! This is a great place to heal and grind if needed.
 [Reflection Turn 8645]
 - I've been stuck near the exit for 50+ turns due to wild encounters and walk_to_coordinate getting stuck on minor obstacles.
-- The Overwatch system confirmed the exit is at (36, 33). I falsely assumed TYPE_2770 was an impassable wall, but it might actually be the exit warp tile.
-- I need to manually step on these tiles to test them instead of just trusting my primitive pathfinding tool. I'm going to walk straight south now.
+- The rock formation at Y=32 is impassable. To reach the exit at (36, 33), I must detour west to X=22, then go south to bypass it.
