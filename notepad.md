@@ -551,9 +551,6 @@ Entrance is at Route 10 (8, 16). Map 1F = 0_82, B1F = 0_232.
 - TYPE_2889: Impassable Rock Wall
 - TYPE_2770: Impassable Rock Wall
 
-Current Status:
-[Turn 8546] Realized I have been backtracking! Currently at B1F (27, 3). Will follow steps 3-5 to reach the exit.
-
 <hr>
 
 <h1><code>Locations/RockTunnel_B1F</code></h1>
