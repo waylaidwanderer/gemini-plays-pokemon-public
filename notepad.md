@@ -37,9 +37,6 @@
 
 [Route 10]
 - Found a Pokemon Center right next to Rock Tunnel entrance! This is a great place to heal and grind if needed.
-[Reflection Turn 8645]
-- I've been stuck near the exit for 50+ turns due to wild encounters and walk_to_coordinate getting stuck on minor obstacles.
-- The rock formation at Y=32 is impassable. To reach the exit at (36, 33), I must detour west to X=22, then go south to bypass it.
 
 <hr>
 
