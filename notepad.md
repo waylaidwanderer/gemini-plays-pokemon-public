@@ -667,3 +667,13 @@ Points of Interest:
 - Pokemon Center: East side of the city (arriving from Route 7).
 
 <hr>
+
+<h1><code>Notes/PC_Storage</code></h1>
+
+# PC Storage Log
+
+[Items Deposited]
+- HELIX FOSSIL (Deposited Turn 9518)
+- S.S. TICKET (Deposited Turn 9526)
+
+<hr>
