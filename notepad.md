@@ -591,7 +591,5 @@ WARNING: Bellsprout's Vine Whip is 4x effective against Geodude. Train Cleo here
   2. (27, 3) - Connects to 1F (5, 3)
   3. (23, 11) - Connects to 1F (17, 11)
   4. ??? - Need to find this to exit!
-- Explored: East side, South side, Middle.
-- Currently Exploring: NW corner (West of 14,5).
 
 <hr>
