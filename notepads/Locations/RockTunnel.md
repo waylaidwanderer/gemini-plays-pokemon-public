@@ -32,3 +32,4 @@
 - Path: From (20,21) Pokemaniac, head north and east to (30,10) Hiker.
 - Path: From (30,10) Hiker, head north to (33,5) Hiker.
 - Found Ladder to 1F at (27, 3).
+- Walkable floors: TYPE_3fe2. Walls: TYPE_2889, TYPE_2770.
