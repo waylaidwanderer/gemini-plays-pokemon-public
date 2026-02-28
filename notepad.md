@@ -577,7 +577,7 @@ WARNING: Bellsprout's Vine Whip is 4x effective against Geodude. Train Cleo here
 # Ladder Connections
 - 1F (37, 3) <-> B1F (37, 3)
 - 1F (5, 3) <-> B1F (27, 3)
-- Found a Hiker near (17, 15) on 1F.
+- Strategy: Use right-hand rule for systematic exploration (always keep a wall to your right).
 - 1F (17, 11) <-> B1F (23, 11)
 
 <hr>
