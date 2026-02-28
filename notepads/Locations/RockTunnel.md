@@ -40,3 +40,4 @@
 - 1F (5, 3) <-> B1F (27, 3)
 - Strategy: Use right-hand rule for systematic exploration (always keep a wall to your right).
 - 1F (17, 11) <-> B1F (23, 11)
+- 1F (37, 17) <-> B1F (3, 3)
