@@ -632,7 +632,7 @@ Points of Interest:
 - Pidgeotto Lv 25
 - Gyarados Lv 23 (Moves: Bite, Hydro Pump)
 - Growlithe Lv 22
-- ???
+- Kadabra Lv 20
 - ???
 
 <hr>
