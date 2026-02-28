@@ -3,3 +3,4 @@
 - Walked South to (5, 16) [Hiker Defeated].
 - Path from (5,15) leads to large eastern room. [Exploration Started: Turn 7808]
 - Confirmed dead end at (21, 16). Routing back left and north.
+- Found ladder to 1F at (37, 3). Going up to heal.
