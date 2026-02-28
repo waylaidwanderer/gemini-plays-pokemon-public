@@ -610,6 +610,6 @@ Points of Interest:
 - Name Rater's House: Exterior 0_4 (7, 11)
 - PokeMart: Exterior 0_4 (15, 13), Interior 0_150
   - Sells: Great Ball, Super Potion, Revive, Escape Rope, Super Repel, Antidote
-- Pokemon Tower: ???
+- Pokemon Tower: Exterior 0_4 (14, 5), Interior 1F 0_142
 
 <hr>
