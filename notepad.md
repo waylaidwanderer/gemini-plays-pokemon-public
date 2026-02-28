@@ -741,3 +741,12 @@ Roof:
 - Strategy: Verify tile TYPE IDs before moving to avoid crashing into walls and tables.
 
 <hr>
+
+<h1><code>Locations/RocketHideout_B2F</code></h1>
+
+# Rocket Hideout B2F
+[Start: Turn 10168]
+- Stairs to B1F: (27, 7)
+- Spinner Maze: West side (starts around X=24)
+
+<hr>
