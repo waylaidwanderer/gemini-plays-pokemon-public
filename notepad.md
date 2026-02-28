@@ -658,3 +658,12 @@ Points of Interest:
 - Saffron City Gate at (8, 11) is blocked by thirsty guards.
 
 <hr>
+
+<h1><code>Locations/CeladonCity</code></h1>
+
+# Celadon City
+
+[Points of Interest]
+- Pokemon Center: East side of the city (arriving from Route 7).
+
+<hr>
