@@ -26,7 +26,7 @@
 - Fan Club: (9, 13) - Talk to Chairman for Bike Voucher.
 
 [Plan]
-- Find the Silph Scope in Celadon City to see the Ghost Pokemon in Pokemon Tower. I should investigate the Game Corner for a hidden Rocket Hideout.
+- Find the Silph Scope to see the Ghost Pokemon in Pokemon Tower. The Silph Scope is located in the Rocket Hideout beneath the Game Corner. Do not search other buildings for it.
 - Find Mr. Fuji, who is missing from his Volunteer Pokemon House.
 
 [HMs]
