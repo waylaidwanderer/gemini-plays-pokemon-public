@@ -8,4 +8,4 @@
 - Ladder to 1F at (37, 3).
 - [Turn 8198] Came down ladder at (23, 11).
 - Path from (23, 11) -> (14, 15) -> West/South leads to a large dead end around (3, 28) to (13, 28).
-- Need to find another path branching from (14, 15) or further back towards the ladder.
+- Found a northern path from (14, 15) leading up to (14, 5). Exploring this route now.
