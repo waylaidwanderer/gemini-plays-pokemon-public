@@ -605,10 +605,10 @@ Entrance is at Route 10 (8, 16). Map 1F = 0_82, B1F = 0_232.
 # Lavender Town
 
 Points of Interest:
-- Pokemon Center: (3, 5)
-- Mr. Fuji's Volunteer Pokemon House: (5, 5) (Mr. Fuji is missing)
-- Name Rater's House: (7, 11)
-- PokeMart: (15, 13)
+- Pokemon Center: Exterior 0_4 (3, 5)
+- Mr. Fuji's Volunteer Pokemon House: Exterior 0_4 (5, 5) (Mr. Fuji is missing)
+- Name Rater's House: Exterior 0_4 (7, 11)
+- PokeMart: Exterior 0_4 (15, 13), Interior 0_150
 - Pokemon Tower: ???
 
 <hr>
