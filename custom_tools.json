@@ -262,12 +262,21 @@
     ]
   },
   "run_battle": {
-    "description": "Automates running from a wild Pokemon encounter by navigating the battle menu to the RUN option and pressing A. Adds a delay to ensure the battle menu is ready.",
+    "description": "Automates running from a wild Pokemon encounter. Clears intro text, navigates to RUN, and clears the escape message.",
     "input_schema": {
       "type": "object",
-      "properties": {}
+      "properties": {
+        "autopress_buttons": {
+          "type": "boolean",
+          "default": false,
+          "description": "If true and the tool returns a list of buttons, they will be pressed automatically. Limit: 100 buttons max per call."
+        }
+      },
+      "required": [
+        "autopress_buttons"
+      ]
     },
-    "python_script": "import json\n\ndef run_battle(input_data):\n    buttons = ['sleep 1500', 'Right', 'Down', 'A']\n    print(json.dumps(buttons))\n\nrun_battle({})",
+    "python_script": "import json\nbuttons = ['B', 'sleep 1500', 'Right', 'Down', 'A', 'sleep 2000', 'B', 'B']\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -283,6 +292,11 @@
         "commit_message": "Added sleep 1500 before pressing buttons to account for battle start delays.",
         "timestamp": "2026-02-27T23:29:06.288Z",
         "action_counter": 7771
+      },
+      {
+        "commit_message": "Updated run_battle to handle intro text and clear escape confirmation more reliably.",
+        "timestamp": "2026-02-28T05:25:58.261Z",
+        "action_counter": 8521
       }
     ]
   },

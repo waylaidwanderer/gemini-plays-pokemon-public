@@ -581,7 +581,7 @@ WARNING: Bellsprout's Vine Whip is 4x effective against Geodude. Train Cleo here
 - Strategy: Use right-hand rule for systematic exploration (always keep a wall to your right).
 - 1F (17, 11) <-> B1F (23, 11)
 - 1F (37, 17) <-> B1F (3, 3)
-- Path from 1F(37,17)->B1F(3,3) ladder: South to (3,4), East to (5,4), South to (5,13), then East.
+- Path from 1F(37,17)->B1F(3,3) ladder: South to (3,4), East to (5,4), South to Y=14, East past X=13, then North to Y=13 and East.
 
 <hr>
 
