@@ -232,7 +232,7 @@
       "type": "object",
       "properties": {}
     },
-    "python_script": "def main(input_data):\n    return ['A', 'sleep 1000', 'A', 'sleep 1000', 'A', 'sleep 1000', 'A', 'sleep 1000', 'A', 'sleep 6500', 'A', 'sleep 1000', 'A']",
+    "python_script": "import json\ndef main(input_data):\n    print(json.dumps(['A', 'sleep 1000', 'A', 'sleep 1000', 'A', 'sleep 1000', 'A', 'sleep 1000', 'A', 'sleep 6500', 'A', 'sleep 1000', 'A']))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -273,6 +273,11 @@
         "commit_message": "Fixed tool pressing B and cancelling the heal prompt. Replaced with careful A presses and sleeps.",
         "timestamp": "2026-02-28T09:55:06.112Z",
         "action_counter": 9008
+      },
+      {
+        "commit_message": "Fixed the tool to print a JSON array instead of returning a python list.",
+        "timestamp": "2026-02-28T09:56:25.945Z",
+        "action_counter": 9010
       }
     ]
   },
