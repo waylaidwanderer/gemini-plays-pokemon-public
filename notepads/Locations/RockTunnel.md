@@ -33,3 +33,7 @@
 - Path: From (30,10) Hiker, head north to (33,5) Hiker.
 - Found Ladder to 1F at (27, 3).
 - Walkable floors: TYPE_3fe2. Walls: TYPE_2889, TYPE_2770.
+
+# Ladder Connections
+- 1F (37, 3) <-> B1F (37, 3)
+- 1F (5, 3) <-> B1F (27, 3)
