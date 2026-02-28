@@ -4,4 +4,4 @@
   1. (33, 25) - Connects to 1F (37, 3) [Near Entrance]
   2. (27, 3) - Connects to 1F (5, 3)
   3. (23, 11) - Connects to 1F (17, 11)
-  4. ??? - Need to find this to exit!
+  4. (3, 3) - Connects to 1F (37, 16)
