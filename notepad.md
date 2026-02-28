@@ -561,10 +561,11 @@ WARNING: Bellsprout's Vine Whip is 4x effective against Geodude. Train Cleo here
 
 [Layout Notes]
 - (15, 3): Entrance from Route 10
-- (17, 11): Ladder (Unreachable from start area)
+- (17, 11): Ladder to B1F (Unreachable from start area)
 - (21, 10): Pokemaniac
 - (24, 12): Dead End
 - (30, 4): Dead End
+- (37, 17): Ladder to B1F (leads to B1F 3,3)
 
 # B1F Routing
 - [Turn 7575] Arrived B1F at (33,25).
