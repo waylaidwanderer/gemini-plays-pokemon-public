@@ -578,7 +578,9 @@ WARNING: Bellsprout's Vine Whip is 4x effective against Geodude. Train Cleo here
 <h1><code>Locations/RockTunnel_B1F</code></h1>
 
 # Rock Tunnel B1F (Map 0_232) Tracking
-- Ladders found: (27, 3) to 1F, (37, 3) to 1F.
+- [Exploration Started: Turn 7575]
+- Strategy: Use walk_to_coordinate tool for navigation instead of manually calculating paths.
+- Ladders to 1F: (27, 3), (33, 25), (37, 3).
 - Navigating via screen grid collisions.
 - Walked South to (5, 16) [Hiker Defeated].
 - Path from (5,15) leads to large eastern room. [Exploration Started: Turn 7808]
