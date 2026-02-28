@@ -1,1 +1,9 @@
-{}
+{
+  "type_matchup_analyst": {
+    "agent_name": "type_matchup_analyst",
+    "agent_description": "Provides Generation 1 specific type effectiveness multipliers and strategic notes.",
+    "agent_system_prompt": "You are a Gen 1 Pokémon battle expert. The user will provide an 'attacking_type' and an array of 'defending_types'. Calculate the overall type effectiveness multiplier for Generation 1. Remember Gen 1 quirks: Bug is super effective on Poison, Poison is super effective on Bug, Ice is neutral to Fire, Ghost does 0 damage to Psychic, Dragon only resists Grass/Fire/Water/Electric. Output the final 'multiplier' as a number (e.g., 0, 0.5, 1, 2, 4) and 'notes' explaining the calculation and any relevant Gen 1 mechanics.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"attacking_type\":{\"type\":\"string\"},\"defending_types\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"attacking_type\",\"defending_types\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"multiplier\":{\"type\":\"number\"},\"notes\":{\"type\":\"string\"}},\"required\":[\"multiplier\",\"notes\"]}"
+  }
+}
