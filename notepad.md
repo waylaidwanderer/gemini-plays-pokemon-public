@@ -671,6 +671,7 @@ Points of Interest:
 - Celadon Mansion Main Entrance: (24, 9). Contains Manager and Game Freak developers.
 - Need to find the back entrance to the Mansion later to get Eevee.
 - Celadon Dept Store 1F: (14, 13) in Celadon City.
+- Strategy for finding locations: Read all signposts in the city, as they explicitly state building names.
 
 <hr>
 
