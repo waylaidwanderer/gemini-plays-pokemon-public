@@ -673,6 +673,7 @@ Points of Interest:
 - Celadon Dept Store 1F: (14, 13) in Celadon City.
 - Strategy for finding locations: Read all signposts in the city, as they explicitly state building names.
 - Game Corner (Map 0_135): Entrance at (28, 19). Contains Team Rocket members. Look for a hidden switch to access their hideout.
+- Game Corner (0_135): Rocket Grunt at (17, 13) is guarding a poster. This is likely the hidden switch to the hideout.
 
 <hr>
 
