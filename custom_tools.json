@@ -262,7 +262,7 @@
     ]
   },
   "run_battle": {
-    "description": "Automates running from a wild Pokemon encounter. Clears intro text, navigates to RUN, and clears the escape message.",
+    "description": "Automates running from a wild Pokemon encounter. Resets cursor to FIGHT safely, then navigates to RUN and clears the escape message.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -276,7 +276,7 @@
         "autopress_buttons"
       ]
     },
-    "python_script": "import json\nbuttons = ['B', 'sleep 1500', 'Right', 'Down', 'A', 'sleep 2000', 'B', 'B']\nprint(json.dumps(buttons))",
+    "python_script": "import json\n# B clears submenus or intro text. Up and Left reset cursor to FIGHT. Right and Down move to RUN.\nbuttons = ['B', 'sleep 1500', 'Up', 'Left', 'Right', 'Down', 'A', 'sleep 2000', 'B', 'B']\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -297,6 +297,11 @@
         "commit_message": "Updated run_battle to handle intro text and clear escape confirmation more reliably.",
         "timestamp": "2026-02-28T05:25:58.261Z",
         "action_counter": 8521
+      },
+      {
+        "commit_message": "Added boundary-pushing inputs (Up, Left) to safely reset the battle menu cursor before navigating to RUN, preventing misclicks.",
+        "timestamp": "2026-02-28T06:13:21.059Z",
+        "action_counter": 8581
       }
     ]
   },
