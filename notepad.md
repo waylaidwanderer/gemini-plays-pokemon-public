@@ -613,3 +613,12 @@ Points of Interest:
 - Pokemon Tower: Exterior 0_4 (14, 5), Interior 1F 0_142
 
 <hr>
+
+<h1><code>Mechanics/TypeMatchups</code></h1>
+
+# Type Matchups
+
+[Ghost]
+- Immune to: Normal, Fighting
+
+<hr>
