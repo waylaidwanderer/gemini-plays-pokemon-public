@@ -232,7 +232,7 @@
       "type": "object",
       "properties": {}
     },
-    "python_script": "import json\ndef main(input_data):\n    print(json.dumps(['A', 'sleep 1000', 'A', 'sleep 1000', 'A', 'sleep 1000', 'A', 'sleep 1000', 'A', 'sleep 6500', 'A', 'sleep 1000', 'A']))",
+    "python_script": "import json\nmoves = [\"A\", \"sleep 1000\", \"A\", \"sleep 1000\", \"A\", \"sleep 3000\", \"A\", \"sleep 1000\", \"A\", \"sleep 1000\", \"A\", \"sleep 1000\", \"A\", \"B\", \"B\"]\nprint(json.dumps(moves))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -278,6 +278,11 @@
         "commit_message": "Fixed the tool to print a JSON array instead of returning a python list.",
         "timestamp": "2026-02-28T09:56:25.945Z",
         "action_counter": 9010
+      },
+      {
+        "commit_message": "Fix JSON output for pokemon_center_healer",
+        "timestamp": "2026-02-28T16:04:18.835Z",
+        "action_counter": 9511
       }
     ]
   },
