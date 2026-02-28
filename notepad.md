@@ -27,9 +27,9 @@
 - Fan Club: (9, 13) - Talk to Chairman for Bike Voucher.
 
 [Plan]
-- Explore Rock Tunnel B1F using the collision grid to "see" in the dark.
-- Cut the tree blocking the Vermilion Gym and challenge Lt. Surge. (Lead with Pebbles or Cleo for Electric immunity!)
-- Return to Cerulean City to exchange Bike Voucher for Bicycle. Route: Vermilion City -> North to Route 6 -> Underground Path -> Route 5 -> North to Cerulean City.
+- Heal party in Lavender Town.
+- Explore Pokemon Tower further. If ghost Pokemon are un-targetable, head West to Route 8 / Celadon City to find a way to see them (Silph Scope?).
+- Find Mr. Fuji, who is missing from his Volunteer Pokemon House.
 
 [HMs]
 - HM01 (Cut): Taught to Audrey (Bellsprout).

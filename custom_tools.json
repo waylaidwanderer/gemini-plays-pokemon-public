@@ -232,7 +232,7 @@
       "type": "object",
       "properties": {}
     },
-    "python_script": "def pokemon_center_healer(input_data):\n    buttons = []\n    # Initiate conversation\n    buttons.extend([\"A\", \"sleep 1000\"])\n    # Advance text and select HEAL (usually takes a couple A presses)\n    buttons.extend([\"A\", \"sleep 1000\", \"A\", \"sleep 1000\", \"A\", \"sleep 6000\"])\n    # Clear the remaining text safely with B\n    for _ in range(12):\n        buttons.extend([\"B\", \"sleep 500\"])\n    \n    import json\n    print(json.dumps(buttons))\n\nif __name__ == '__main__':\n    pokemon_center_healer({})",
+    "python_script": "def main(input_data):\n    return ['A', 'sleep 1000', 'A', 'sleep 1000', 'A', 'sleep 1000', 'A', 'sleep 1000', 'A', 'sleep 6500', 'A', 'sleep 1000', 'A']",
     "history": [
       {
         "commit_message": "Initial version",
@@ -268,6 +268,11 @@
         "commit_message": "Increased reliability of Pokémon Center healer by adjusting sleep timers and extending the B-button mash phase to clear all text.",
         "timestamp": "2026-02-25T00:52:16.621Z",
         "action_counter": 4381
+      },
+      {
+        "commit_message": "Fixed tool pressing B and cancelling the heal prompt. Replaced with careful A presses and sleeps.",
+        "timestamp": "2026-02-28T09:55:06.112Z",
+        "action_counter": 9008
       }
     ]
   },
