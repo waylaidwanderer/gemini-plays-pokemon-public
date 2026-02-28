@@ -62,13 +62,18 @@
     ]
   },
   "execute_battle_turn": {
-    "description": "Executes a full battle turn: safely resets main battle menu cursor to FIGHT, safely resets move menu cursor to Move 1, then navigates to target_move_index (1-4) and presses A. Foolproof against Gen 1 cursor memory.",
+    "description": "Executes a full battle turn: safely resets main battle menu cursor to FIGHT, then navigates to target_move_index (1-4) from current_move_index. Foolproof against Gen 1 cursor memory.",
     "input_schema": {
       "type": "object",
       "properties": {
         "start_on_main": {
           "type": "boolean",
           "default": true
+        },
+        "current_move_index": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 4
         },
         "target_move_index": {
           "type": "integer",
@@ -78,10 +83,11 @@
       },
       "required": [
         "start_on_main",
+        "current_move_index",
         "target_move_index"
       ]
     },
-    "python_script": "def execute_battle_turn(input_data):\n    start_on_main = input_data.get('start_on_main', True)\n    target_move_index = input_data.get('target_move_index', 1)\n    \n    buttons = []\n    if start_on_main:\n        # Universal reset to FIGHT (top-left)\n        buttons.extend(['Left', 'sleep 300', 'Up', 'sleep 300'])\n        buttons.extend(['A', 'sleep 1000'])\n    \n    # Universal reset for Move menu (single column, max 4 items)\n    buttons.extend(['Up', 'sleep 300', 'Up', 'sleep 300', 'Up', 'sleep 300'])\n    \n    # Navigate to target move\n    for _ in range(target_move_index - 1):\n        buttons.extend(['Down', 'sleep 300'])\n        \n    buttons.extend(['A', 'sleep 1000'])\n    \n    import json\n    print(json.dumps(buttons))\n\nexecute_battle_turn(input_data)",
+    "python_script": "def execute_battle_turn(input_data):\n    start_on_main = input_data.get('start_on_main', True)\n    current_move_index = input_data.get('current_move_index', 1)\n    target_move_index = input_data.get('target_move_index', 1)\n    \n    buttons = []\n    if start_on_main:\n        # Universal reset to FIGHT (top-left) - main menu doesn't wrap\n        buttons.extend(['Left', 'sleep 300', 'Up', 'sleep 300'])\n        buttons.extend(['A', 'sleep 1000'])\n    \n    # Navigate to target move from current move\n    diff = target_move_index - current_move_index\n    if diff > 0:\n        for _ in range(diff):\n            buttons.extend(['Down', 'sleep 300'])\n    elif diff < 0:\n        for _ in range(-diff):\n            buttons.extend(['Up', 'sleep 300'])\n        \n    buttons.extend(['A', 'sleep 1000'])\n    \n    import json\n    print(json.dumps(buttons))\n\nexecute_battle_turn(input_data)",
     "history": [
       {
         "commit_message": "Initial version",
@@ -142,6 +148,11 @@
         "commit_message": "Make tool foolproof against Gen 1 cursor memory by always resetting cursors via universal sequences (Left+Up for main menu, 3x Up for move menu) before navigating to the target.",
         "timestamp": "2026-02-27T23:57:35.139Z",
         "action_counter": 7836
+      },
+      {
+        "commit_message": "Fix move menu navigation: move menus wrap around in Gen 1, so universal resets do not work. Reverted to using current_move_index.",
+        "timestamp": "2026-02-28T00:24:32.848Z",
+        "action_counter": 7879
       }
     ]
   },
