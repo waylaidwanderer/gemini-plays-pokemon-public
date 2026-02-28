@@ -4,7 +4,7 @@ Entrance is at Route 10 (8, 16). Map 1F = 0_82, B1F = 0_232.
 2. B1F (33, 25) -> navigate West and North to B1F (27, 3) ladder. Up to 1F (5, 3).
 3. 1F (5, 3) -> West to X=4, South to Y=21, East to X=21, North to Y=17, West to X=17, North to 1F (17, 11) ladder. Down to B1F (23, 11).
 4. B1F (23, 11) -> South to Y=13, West to X=14, South to Y=14, West to X=5, North to Y=4, West to X=3, North to B1F (3, 3) ladder. Up to 1F (37, 17).
-5. 1F (37, 17) -> Walk South to Exit (Lavender Town).
+5. 1F (37, 17) -> South to Y=20, West to X=36, South to Exit at (36, 33) (Lavender Town).
 
 [Tile Dictionary]
 - TYPE_3fe2: Walkable Floor
