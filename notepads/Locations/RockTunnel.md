@@ -41,3 +41,4 @@
 - Strategy: Use right-hand rule for systematic exploration (always keep a wall to your right).
 - 1F (17, 11) <-> B1F (23, 11)
 - 1F (37, 17) <-> B1F (3, 3)
+- Path from 1F(37,17)->B1F(3,3) ladder: South to (3,4), East to (5,4), South to (5,13), then East.
