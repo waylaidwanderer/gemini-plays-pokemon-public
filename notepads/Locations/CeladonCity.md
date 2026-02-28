@@ -11,3 +11,4 @@
 - Strategy for finding locations: Read all signposts in the city, as they explicitly state building names.
 - Game Corner (Map 0_135): Entrance at (28, 19). Contains Team Rocket members. Look for a hidden switch to access their hideout.
 - Game Corner (0_135): NPC at (17, 13) offers free coins, requires Coin Case. The actual Rocket Grunt is likely further back.
+- Game Corner (0_135): Hidden switch behind the poster at (9, 4), previously guarded by a Rocket Grunt.
