@@ -25,7 +25,6 @@
 - Fan Club: (9, 13) - Talk to Chairman for Bike Voucher.
 
 [Plan]
-- Heal party in Lavender Town.
 - Explore Pokemon Tower further. If ghost Pokemon are un-targetable, head West to Route 8 / Celadon City to find a way to see them (Silph Scope?).
 - Find Mr. Fuji, who is missing from his Volunteer Pokemon House.
 
