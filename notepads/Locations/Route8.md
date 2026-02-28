@@ -10,3 +10,5 @@
 - Super Nerd at (42, 6)
 - Lass at (48, 12)
 - Gambler at (46, 13)
+[Route 8]
+- Saffron City Gate at (8, 11) is blocked by thirsty guards.
