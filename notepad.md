@@ -833,5 +833,6 @@ START:(10,19)|DIR:R|END:(18,15)
 - Immediate Action: Tossing Awakening to free up inventory space for the item ball.
 - Tool Maintenance: Fixed `execute_battle_turn` to handle 1x4 vertical move list. Need to test it next battle.
 - Goals: Unchanged. Find Elevator Key, defeat Grunt at (23,12), explore B4F.
+- Realized there are TWO Grunts in the left office room. The one at (11, 2) guarded TM02. The one at (11, 6) must hold the Lift Key. Navigating there now.
 
 <hr>
