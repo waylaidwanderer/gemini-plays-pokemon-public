@@ -802,30 +802,20 @@ Roof:
 
 # Rocket Hideout B3F
 [Start: Turn 10494]
-- Arrived via stairs.
-- Grunt defeated at (26, 8).
-## Spinner Maze
-- From start area (20, 11), go L to (17, 11), then D hits (17, 12) D spinner -> (17, 16) STOP tile.
-- From (17, 16) STOP tile, going R hits (18, 16) U spinner -> (18, 15) STOP tile.
-- From (18, 15) STOP tile, can walk R to (20, 15) to access item at (20, 14).
-- Rare Candy found at (20, 14).
-- From (18, 15) STOP tile, going L U hits (16, 13) U spinner -> (16, 11) STOP tile (loops back to start).
-- From (17, 16) STOP tile, going L U U U hits (16, 13) U spinner -> (16, 11) STOP tile (loops back to start).
-- Top hallway at Y=9 is accessible from the start area by going Up.
-- Lower paths from (17, 16) and (18, 15) all loop back.
-- Strategy: Use (16, 13) U spinner to return to (16, 11) STOP, then go to the start area (20, 11), head Up to the top hallway (Y=9), and go left to access the rest of the maze.
-- From top hallway (Y=9), taking the spinner at (12, 11) leads to the STOP tile at (14, 13).
-- From (14, 13) STOP tile, walking L L D D D L L L D leads to the left side corridor at (9, 17).
-- Took the R spinner at (11, 18) -> D spinner at (15, 18) -> STOP tile at (15, 22).
-- From (15, 22), the only path is Left.
-[Turn 10615] Spinner Maze Paths:
-- (17,12) D-Spin -> lands (17,16) Stop.
-- (18,16) U-Spin -> lands (18,15) Stop.
-- (16,13) U-Spin -> lands (16,11) Stop.
-- (14,11) R-Spin -> lands (16,11) Stop.
-- Bottom-Left (near 11,22) -> series of spinners lands at (18,15) Stop.
-- Escape (18,15): Walk L L U U to hit (16,13) U-Spin, lands at (16,11). Walk R to return to row 9 hallway.
-- (12,11) L-Spin -> lands (10,11) Stop.
-- From (10,11) Stop, can walk L to X=9 corridor, or D to (10,13) R-Spin -> lands (14,13) Stop.
+- Arrived via stairs. Grunt defeated at (26, 8).
+
+## Spinner Maze Paths (Machine Readable)
+START:(20,11)|DIR:L|END:(17,11)
+START:(17,11)|DIR:D|END:(17,16)
+START:(17,16)|DIR:R|END:(18,15)
+START:(18,15)|DIR:R|END:(20,15)
+START:(18,15)|DIR:L|END:(16,11)
+START:(17,16)|DIR:L|END:(16,11)
+START:(16,11)|DIR:R|END:(20,11)
+START:(16,11)|DIR:L|END:(10,11)
+START:(10,11)|DIR:D|END:(14,13)
+START:(10,11)|DIR:L|END:(9,17)
+START:(14,13)|DIR:L|END:(9,17)
+START:(9,17)|DIR:R|END:(15,22)
 
 <hr>
