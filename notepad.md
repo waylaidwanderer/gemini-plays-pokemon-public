@@ -779,5 +779,6 @@ Roof:
 - From (9, 24) stop tile: 
   - Option A: L U hits (8, 23) U spinner.
   - Option B: R D hits (10, 25) R spinner.
+- From (14, 25) stop tile, I can walk freely in the corridor to the right (X=14..19, Y=21..25).
 
 <hr>
