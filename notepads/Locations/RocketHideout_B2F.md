@@ -1,4 +1,5 @@
 # Rocket Hideout B2F
+[Start: Turn 10168]
 
 ## Spinner Maze
 - Entrance at right side.

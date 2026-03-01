@@ -745,6 +745,7 @@ Roof:
 <h1><code>Locations/RocketHideout_B2F</code></h1>
 
 # Rocket Hideout B2F
+[Start: Turn 10168]
 
 ## Spinner Maze
 - Entrance at right side.
