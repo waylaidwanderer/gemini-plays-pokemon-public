@@ -41,3 +41,7 @@
 - System Note: Gen 1 move menu WRAPS. Mashing 'Up' DOES NOT guarantee index 1. Must use `current_move_index` based on visual confirmation or tracking memory.
 [Rocket Hideout]
 - True Route to Elevator: B1F (23, 2) stairs -> B2F Maze -> B2F (21, 22) stairs -> B1F South (21, 24) -> Walk to Elevator Pad at (24, 19).
+[Turn 11397] 50-Turn Reflection:
+- Progress: Confirmed the true path to the B1F elevator is via the Game Corner entrance. The blast doors at Y=18 open automatically!
+- Error: Hallucinated a dead end because of a pathfinding tool limitation. Blindly trusting tools without verifying map tiles visually is dangerous.
+- Next Steps: Navigate to Game Corner, enter B1F, take the elevator to B4F, and retrieve the Silph Scope.
