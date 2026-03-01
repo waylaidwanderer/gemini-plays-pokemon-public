@@ -834,7 +834,12 @@ START:(10,11)|DIR:L|END:(9,17)
 START:(14,13)|DIR:L|END:(9,17)
 START:(9,17)|DIR:R|END:(15,22)
 START:(10,19)|DIR:R|END:(18,15)
-- [Turn 11115] Right side of maze is a trap loop (17,16 -> 18,15 -> 16,11). The real path is reached by walking across the top corridors (Y=7 or Y=9) to the left side of the map!
+- [Turn 11115] Right side of maze is a trap loop. The real path is reached via the left side.
+## True Path to B4F Stairs:
+1. Walk through plant gap at (13,10). At (13,11) walk L to (12,11) L-spinner -> (10,11) STOP.
+2. Walk D to (10,13) R-spinner -> (14,13) STOP.
+3. Walk L to (11,13), D to (11,16) L-spinner -> (9,17) STOP.
+4. Walk R to R-spinner -> (15,22) STOP, then walk to stairs.
 
 <hr>
 
