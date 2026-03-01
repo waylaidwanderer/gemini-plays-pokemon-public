@@ -87,7 +87,7 @@
         "start_on_main"
       ]
     },
-    "python_script": "import json\n\ndef run(input_data):\n    start_on_main = input_data.get('start_on_main', True)\n    curr = input_data.get('current_move_index', 1)\n    target = input_data.get('target_move_index', 1)\n\n    buttons = []\n    if start_on_main:\n        # Safely reset to FIGHT from anywhere on the main menu\n        buttons.extend(['Up', 'Left', 'A'])\n\n    diff = target - curr\n    if diff > 0:\n        buttons.extend(['Down'] * diff)\n    elif diff < 0:\n        buttons.extend(['Up'] * abs(diff))\n\n    buttons.append('A')\n    print(json.dumps(buttons))\n",
+    "python_script": "import json\ntry:\n    c = int(input_data['current_move_index'])\n    t = int(input_data['target_move_index'])\n    m = bool(input_data.get('start_on_main', True))\n    b = []\n    if m:\n        b.extend(['Up', 'Left', 'A', 'sleep 500'])\n    d = t - c\n    if d > 0:\n        for _ in range(d): b.extend(['Down', 'sleep 300'])\n    elif d < 0:\n        for _ in range(-d): b.extend(['Up', 'sleep 300'])\n    b.append('A')\n    print(json.dumps(b))\nexcept Exception:\n    print(json.dumps([]))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -198,6 +198,11 @@
         "commit_message": "Updated execute_battle_turn to use 1x4 vertical list navigation instead of a 2x2 grid.",
         "timestamp": "2026-03-01T04:51:39.581Z",
         "action_counter": 10651
+      },
+      {
+        "commit_message": "Fixing JSON output and simplifying vertical menu logic for Gen 1 move lists.",
+        "timestamp": "2026-03-01T08:07:26.188Z",
+        "action_counter": 10878
       }
     ]
   },

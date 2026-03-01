@@ -848,5 +848,10 @@ START:(10,19)|DIR:R|END:(18,15)
 - Grunt at (11, 2) dropped the LIFT KEY at (10, 2) after talking to him. Retrieving it now.
 - Elevator doors located at (24, 11) and (25, 11).
 - Grunts guarding the elevator at (23, 12) and (26, 12).
+[Turn 10879] 50-Turn Reflection:
+- Progress: Discovered elevator mechanics (step on pad, face top-left wall panel). Arrived on B4F and currently fighting the right-side Grunt guarding the elevator.
+- Notepad/Map: Mechanics logged, elevator and Grunts marked.
+- Tool Maintenance: Fixed the `execute_battle_turn` tool which failed previously. It now safely resets to FIGHT and handles the 1x4 vertical move list properly without crashing.
+- Goal: Defeat this Grunt, defeat the left Grunt, then explore south to find the Team Rocket Boss and retrieve the Silph Scope.
 
 <hr>
