@@ -43,10 +43,10 @@
 - System Note: Gen 1 move menu WRAPS. Mashing 'Up' DOES NOT guarantee index 1. Must use `current_move_index` based on visual confirmation or tracking memory.
 [Rocket Hideout]
 - True Route to Elevator: Enter B1F from Game Corner, walk directly to the elevator doors at (24, 16) in the North section. Do NOT use the B2F maze.
-[Turn 11397] 50-Turn Reflection:
-- Progress: Navigating back to the Game Corner to re-examine the elevator doors in the North section of B1F.
-- Error: Hallucinated a dead end and blast doors due to pathfinding tool limitations and visual artifacts. Blindly trusting tools without verifying map tiles visually is dangerous.
-- Next Steps: Navigate to Game Corner, enter B1F, take the elevator to B4F, and retrieve the Silph Scope.
+[Turn 11450] 50-Turn Reflection:
+- Progress: Realized the B1F South route (via B2F maze) is a true dead end. The elevator is only accessible directly from the North section (Game Corner entrance).
+- Error: Trusted outdated notes in Main over accurate notes in a specific location notepad. Also struggled with UI input delays and cursor memory in the Pokemon menu.
+- Next Steps: Use Dig to escape to Celadon City, walk to the Game Corner, enter B1F, and head directly to the elevator doors at (24, 16) to reach B4F.
 
 <hr>
 
