@@ -1,9 +1,6 @@
 # Rocket Hideout B1F
 [Start: Turn 10026]
-- Stairs to Game Corner (Exit): (21, 2)
-- Stairs to B2F: (23, 2)
-- Large Room: X=21..28, Y=5..7
-- Gap South: (25, 8)
-- Grunts Defeated: (26, 8), (13, 6), (18, 25), (17, 17).
-- Southern Wall: Impassable machines at Y=16. The southern section of B1F (reached via B2F maze) is a dead end with just Grunts and items.
-- ELEVATOR: Located at (24, 16). It is accessed from the NORTH section of B1F. Step on the pad to use it (requires LIFT KEY).
+- Layout: B1F is divided into TWO DISCONNECTED SECTIONS (North and South) by an impassable wall at X=23, Y=16-19.
+- North Section: Accessed from Game Corner entrance. Contains the TRUE ELEVATOR access at (24, 16).
+- South Section: Accessed via stairs from B2F spinner maze. This is a DEAD END with Grunts and items. You CANNOT reach the elevator from here.
+- Elevator: Located at (24, 16) in the North Section. Step on the pad to use it (requires LIFT KEY).
