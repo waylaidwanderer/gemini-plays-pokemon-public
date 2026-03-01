@@ -758,6 +758,7 @@ Roof:
 - Hallway is blocked by a vertical wall at X=23, creating a closed loop. 
 - The elevator doors at (24, 16) DO NOT OPEN. They are just scenery.
 - The machines at Y=16 are IMPASSABLE. The southern section of B1F reached via stairs at (21, 24) is a dead end!
+- [Turn 11011] Correction: The elevator doors at (24, 16) on B1F DO open if you have the Lift Key! The southern section is NOT a dead end. This is the main path.
 
 <hr>
 
