@@ -765,5 +765,7 @@ Roof:
 - From (15, 18) stop tile, L L hits (13, 18) L spinner -> (11, 18) D spinner -> (11, 20) stop tile.
 - From (11, 20) stop tile, L U hits (10, 19) U spinner -> (10, 17) R spinner -> (12, 17) R spinner -> (14, 17) U spinner -> (14, 15) stop tile.
 - From (14, 15) stop tile, R R D hits (16, 16) U spinner -> (16, 14) U spinner -> (16, 13) stop tile.
+- From (16, 13) stop tile, going U U L hits (16, 11) U spinner -> (16, 9) L spinner -> (14, 9) L spinner -> (2, 9) stop tile.
+- Wait, I ended up at (14, 12) somehow.
 
 <hr>
