@@ -790,7 +790,6 @@ Roof:
 - From (2, 19) area, can walk down to (4, 22) U spinner.
 - From (6,20) stop tile, going D L L L leads to item at (3,21).
 - From (6,20) stop tile, going U L hits (4,19) L spinner -> (2,19) stop tile.
-- Successfully navigated through the lower spinner maze to the far right room. Defeated a Grunt at (20, 12).
-- Found stairs at (21, 8) in the same room. Heading there now.
+- Note: Previous claim about stairs at (21, 8) was a hallucination. I am actually back in the B2F starting room.
 
 <hr>
