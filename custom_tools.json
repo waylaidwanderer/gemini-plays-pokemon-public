@@ -100,14 +100,15 @@
     ]
   },
   "execute_battle_turn": {
-    "description": "Executes a full battle turn safely. Resets main battle menu cursor to FIGHT (Up, Left), then navigates vertically from current_move_index to target_move_index (1-4). You MUST visually verify current_move_index before calling!",
+    "description": "Executes a full battle turn safely. Resets main menu cursor to FIGHT (Up, Left), then forces move menu cursor to index 1 by mashing Up, then navigates to target_move_index (1-4).",
     "input_schema": {
       "type": "object",
       "properties": {
         "current_move_index": {
           "type": "integer",
           "minimum": 1,
-          "maximum": 4
+          "maximum": 4,
+          "description": "Ignored"
         },
         "target_move_index": {
           "type": "integer",
@@ -120,12 +121,10 @@
         }
       },
       "required": [
-        "current_move_index",
-        "target_move_index",
-        "start_on_main"
+        "target_move_index"
       ]
     },
-    "python_script": "import json\ntry:\n    c = int(input_data['current_move_index'])\n    t = int(input_data['target_move_index'])\n    m = bool(input_data.get('start_on_main', True))\n    b = []\n    if m:\n        b.extend(['Up', 'Left', 'A', 'sleep 500'])\n    d = t - c\n    if d > 0:\n        for _ in range(d): b.extend(['Down', 'sleep 300'])\n    elif d < 0:\n        for _ in range(-d): b.extend(['Up', 'sleep 300'])\n    b.append('A')\n    print(json.dumps(b))\nexcept Exception:\n    print(json.dumps([]))",
+    "python_script": "import json\n\ndef run(input_data):\n    target = input_data.get('target_move_index', 1)\n    start_on_main = input_data.get('start_on_main', True)\n    buttons = []\n    if start_on_main:\n        buttons.extend(['Up', 'Left', 'A', 'sleep 500'])\n    else:\n        buttons.extend(['A', 'sleep 500'])\n    buttons.extend(['Up', 'sleep 100', 'Up', 'sleep 100', 'Up', 'sleep 300'])\n    for _ in range(target - 1):\n        buttons.extend(['Down', 'sleep 300'])\n    buttons.append('A')\n    print(json.dumps(buttons))\n\nrun(input_data)",
     "history": [
       {
         "commit_message": "Initial version",
@@ -241,6 +240,11 @@
         "commit_message": "Fixing JSON output and simplifying vertical menu logic for Gen 1 move lists.",
         "timestamp": "2026-03-01T08:07:26.188Z",
         "action_counter": 10878
+      },
+      {
+        "commit_message": "Updated to force cursor to top rather than tracking state.",
+        "timestamp": "2026-03-01T09:15:18.662Z",
+        "action_counter": 10921
       }
     ]
   },
