@@ -44,8 +44,8 @@
 [Rocket Hideout]
 - True Route to Elevator: B1F (23, 2) stairs -> B2F Maze -> B2F (21, 22) stairs -> B1F South (21, 24) -> Walk to Elevator Pad at (24, 19).
 [Turn 11397] 50-Turn Reflection:
-- Progress: Confirmed the true path to the B1F elevator is via the Game Corner entrance. The blast doors at Y=18 open automatically!
-- Error: Hallucinated a dead end because of a pathfinding tool limitation. Blindly trusting tools without verifying map tiles visually is dangerous.
+- Progress: Navigating back to the Game Corner to re-examine the elevator doors in the North section of B1F.
+- Error: Hallucinated a dead end and blast doors due to pathfinding tool limitations and visual artifacts. Blindly trusting tools without verifying map tiles visually is dangerous.
 - Next Steps: Navigate to Game Corner, enter B1F, take the elevator to B4F, and retrieve the Silph Scope.
 
 <hr>
