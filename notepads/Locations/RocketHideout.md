@@ -10,3 +10,10 @@
 - Progress: Escaped B3F using Dig after realizing manual stairs lead to a dead end on B4F. B4F is split in half by a wall, and the Silph Scope is on the right side.
 - Learned: The B1F elevator at (24, 16) is the ONLY way to reach the right side of B4F.
 - Next Steps: Walk to Game Corner secret stairs (17, 4), enter B1F, take elevator to B4F, retrieve Silph Scope.
+- [Turn 11144] CRITICAL ELEVATOR REVELATION: The B1F elevator at (24, 16) CANNOT be reached from the north (entry) side because Y=16 is an impassable wall of machines. You MUST reach the elevator from the B1F South section.
+- PATH TO ELEVATOR:
+  1) Take B1F stairs at (23, 2) down to B2F.
+  2) Navigate B2F spinner maze to the southern exit stairs at B2F (21, 22).
+  3) Take those stairs UP to B1F (21, 24).
+  4) Walk RIGHT (do not go left!) to (24, 24), then UP to (24, 17).
+  5) Walk UP into the elevator doors at (24, 16).
