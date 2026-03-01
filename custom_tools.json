@@ -79,20 +79,15 @@
         "start_on_main": {
           "type": "boolean",
           "default": true
-        },
-        "autopress_buttons": {
-          "type": "boolean",
-          "default": false
         }
       },
       "required": [
         "current_move_index",
         "target_move_index",
-        "start_on_main",
-        "autopress_buttons"
+        "start_on_main"
       ]
     },
-    "python_script": "import json\n\ndef run(input_data):\n    target_index = int(input_data['target_move_index'])\n    current_index = int(input_data['current_move_index'])\n    start_on_main = input_data.get('start_on_main', True)\n    \n    buttons = []\n    if start_on_main:\n        # Safely reset to FIGHT (top-left) in main battle menu\n        buttons.extend(['Up', 'Left', 'Up', 'Left'])\n        buttons.append('A')\n        buttons.append('sleep 500')\n    \n    # Navigate move menu (wraps around, so we MUST rely on current_index)\n    diff = target_index - current_index\n    if diff > 0:\n        buttons.extend(['Down'] * diff)\n    elif diff < 0:\n        buttons.extend(['Up'] * abs(diff))\n        \n    buttons.append('A')\n    return json.dumps(buttons)\n",
+    "python_script": "import json\n\ndef get_battle_buttons(current_index, target_index, start_on_main):\n    buttons = []\n    if start_on_main:\n        buttons.extend(['Up', 'Left', 'A'])\n    \n    def get_pos(idx):\n        if idx == 1: return (0, 0)\n        if idx == 2: return (0, 1)\n        if idx == 3: return (1, 0)\n        if idx == 4: return (1, 1)\n        return (0, 0)\n        \n    c_r, c_c = get_pos(current_index)\n    t_r, t_c = get_pos(target_index)\n    \n    if c_c != t_c:\n        if t_c == 1:\n            buttons.append('Right')\n        else:\n            buttons.append('Left')\n            \n    if c_r != t_r:\n        if t_r == 1:\n            buttons.append('Down')\n        else:\n            buttons.append('Up')\n            \n    buttons.append('A')\n    return buttons\n\ncurrent = int(input_data.get('current_move_index', 1))\ntarget = int(input_data.get('target_move_index', 1))\nstart = input_data.get('start_on_main', True)\n\nprint(json.dumps(get_battle_buttons(current, target, start)))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -183,6 +178,11 @@
         "commit_message": "Fixed cursor memory assumptions by pressing Up and Left multiple times to ensure the main menu cursor is safely reset to FIGHT.",
         "timestamp": "2026-03-01T02:07:14.300Z",
         "action_counter": 10441
+      },
+      {
+        "commit_message": "Fix JSON output for autopress_buttons by using json.dumps",
+        "timestamp": "2026-03-01T03:05:26.895Z",
+        "action_counter": 10501
       }
     ]
   },

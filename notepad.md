@@ -790,6 +790,6 @@ Roof:
 - From (2, 19) area, can walk down to (4, 22) U spinner.
 - From (6,20) stop tile, going D L L L leads to item at (3,21).
 - From (6,20) stop tile, going U L hits (4,19) L spinner -> (2,19) stop tile.
-- Note: Previous claim about stairs at (21, 8) was a hallucination. I am actually back in the B2F starting room.
+- Found stairs at (21, 8) leading to B3F (Map 0_201)!
 
 <hr>
