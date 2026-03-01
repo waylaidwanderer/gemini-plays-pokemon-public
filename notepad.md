@@ -749,8 +749,8 @@ Roof:
 - [Turn 10389] Entered Southern Area via stairs at (21, 24).
 - Path taken: Walked to (18, 25), fought Grunt. Walked left/up to (9, 17) for Hyper Potion. Walked right to (17, 17) and defeated Grunt there. 
 - Hallway is blocked by a vertical wall at X=23, creating a closed loop. 
-- The elevator doors at (24, 16) DO NOT OPEN. The actual elevator pad is at (24, 19) in the southern section.
-- The machines at Y=16 are IMPASSABLE. The southern section of B1F (and the elevator) can ONLY be reached via the stairs at (21, 24), which come from B2F (21, 22).
+- The elevator doors at (24, 16) DO NOT OPEN. They are just scenery.
+- The machines at Y=16 are IMPASSABLE. The southern section of B1F reached via stairs at (21, 24) is a dead end!
 
 <hr>
 
