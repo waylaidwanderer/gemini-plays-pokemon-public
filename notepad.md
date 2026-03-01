@@ -811,5 +811,7 @@ Roof:
 - Top hallway at Y=9 is accessible from the start area by going Up.
 - Lower paths from (17, 16) and (18, 15) all loop back.
 - Strategy: Use (16, 13) U spinner to return to (16, 11) STOP, then go to the start area (20, 11), head Up to the top hallway (Y=9), and go left to access the rest of the maze.
+- From top hallway (Y=9), taking the spinner at (12, 11) leads to the STOP tile at (14, 13).
+- From (14, 13) STOP tile, walking L L D D D L L L D leads to the left side corridor at (9, 17).
 
 <hr>
