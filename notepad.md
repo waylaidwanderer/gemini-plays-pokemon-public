@@ -37,6 +37,7 @@
 
 [Route 10]
 - Found a Pokemon Center right next to Rock Tunnel entrance! This is a great place to heal and grind if needed.
+- Current Focus: Navigate B3F Spinner Maze to find the Elevator Key or next floor.
 
 <hr>
 
