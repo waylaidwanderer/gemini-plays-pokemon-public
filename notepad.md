@@ -335,6 +335,7 @@ Route 3: Spearow, Pidgey
 - AUDREY (Bellsprout): Lv 12. Need to swap someone out to train her.
 [Timestamps]
 - Route 25 Trainer Maze & Switch Training Start: Turn 2461
+- Dugtrio has DIG! Use this instead of Escape Ropes to exit dungeons quickly.
 
 <hr>
 
