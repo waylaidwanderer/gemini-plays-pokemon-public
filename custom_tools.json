@@ -884,5 +884,28 @@
         "action_counter": 5619
       }
     ]
+  },
+  "exit_menu": {
+    "description": "Safely exits menus by pressing 'B' multiple times, preventing accidental item usage from pressing Start.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "times": {
+          "type": "integer",
+          "default": 5,
+          "minimum": 1,
+          "maximum": 20
+        }
+      },
+      "required": []
+    },
+    "python_script": "import json\n\ndef run(input_data):\n    times = input_data.get('times', 5)\n    buttons = []\n    for _ in range(times):\n        buttons.extend(['B', 'sleep 300'])\n    print(json.dumps(buttons))\n\nrun(input_data)",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-03-01T10:20:53.029Z",
+        "action_counter": 10992
+      }
+    ]
   }
 }
