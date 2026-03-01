@@ -38,6 +38,7 @@
 [Route 10]
 - Found a Pokemon Center right next to Rock Tunnel entrance! This is a great place to heal and grind if needed.
 - Current Focus: Navigate B3F Spinner Maze to find the Elevator Key or next floor.
+- System Note: Gen 1 move menu in battle is definitively a VERTICAL LIST. The critique warning about a 2x2 grid is an AI hallucination based on later generations. I will retain the vertical list logic for tools.
 
 <hr>
 
