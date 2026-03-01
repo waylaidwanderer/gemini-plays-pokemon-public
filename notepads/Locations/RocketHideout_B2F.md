@@ -14,3 +14,4 @@
 - STOP: TYPE_55d4
 - WALK: TYPE_3fe2
 - Bottom path: From (8, 11) stop tile, go R to (10, 11), U to (10, 10) Up spinner. Leads to (2, 9) stop tile, which is near an elevator.
+- Found Item at (16, 8). Reached via navigating the right-side paths after the initial top/middle exploration.
