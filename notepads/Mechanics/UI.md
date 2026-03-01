@@ -9,3 +9,4 @@
 - Gen 1 Menus (Items, Pokemon, PC) have cursor memory! The cursor stays where you last left it. Always visually verify the cursor position or track it carefully before using tools that navigate menus blind.
 - The Party Menu wraps around (pressing Up at the top goes to the bottom) and retains cursor memory. You cannot reset the cursor by mashing Up. Always track or visually confirm current_index before using tools.
 - Inventory Mechanics: To free an inventory slot occupied by a stacked item (like Poke Balls), the ENTIRE stack must be tossed or used. Tossing just one from a stack of multiple does not free the slot.
+- WARNING: Pressing START in the item menu does NOT close the menu. It selects the item below the cursor and can trigger accidental item usage. ALWAYS use B to exit menus.
