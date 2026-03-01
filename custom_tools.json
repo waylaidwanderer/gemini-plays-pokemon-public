@@ -1,4 +1,42 @@
 {
+  "calculate_path": {
+    "description": "Calculates a path through a provided dark cave grid string from start_x, start_y to target_x, target_y using BFS, and returns the button sequence.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "start_x": {
+          "type": "integer"
+        },
+        "start_y": {
+          "type": "integer"
+        },
+        "target_x": {
+          "type": "integer"
+        },
+        "target_y": {
+          "type": "integer"
+        },
+        "grid_text": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "start_x",
+        "start_y",
+        "target_x",
+        "target_y",
+        "grid_text"
+      ]
+    },
+    "python_script": "def calculate_path(input_data):\n    import re\n    from collections import deque\n    import json\n    \n    start_x = input_data.get('start_x')\n    start_y = input_data.get('start_y')\n    target_x = input_data.get('target_x')\n    target_y = input_data.get('target_y')\n    grid_text = input_data.get('grid_text', '')\n    \n    grid = {}\n    matches = re.findall(r'\\((\\d+),\\s*(\\d+)\\):\\s*[\\'\"](TYPE_[a-zA-Z0-9]+)[\\'\"]', grid_text)\n    for match in matches:\n        grid[(int(match[0]), int(match[1]))] = match[2]\n        \n    passable = [\"TYPE_3fe2\", \"TYPE_2770\", \"TYPE_001A\", \"TYPE_0055\"]\n    \n    if (start_x, start_y) not in grid:\n        print(json.dumps([]))\n        return\n        \n    q = deque([((start_x, start_y), [])])\n    visited = set([(start_x, start_y)])\n    \n    while q:\n        curr, path = q.popleft()\n        if curr == (target_x, target_y):\n            path_with_sleeps = []\n            for move in path:\n                path_with_sleeps.extend([move, 'sleep 300'])\n            print(json.dumps(path_with_sleeps[:100]))\n            return\n            \n        x, y = curr\n        for dx, dy, dir_str in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n            nx, ny = x + dx, y + dy\n            if (nx, ny) in grid and grid[(nx, ny)] in passable and (nx, ny) not in visited:\n                visited.add((nx, ny))\n                q.append(((nx, ny), path + [dir_str]))\n                \n    print(json.dumps([]))\n\ncalculate_path(input_data)",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-02-28T00:16:32.658Z",
+        "action_counter": 7863
+      }
+    ]
+  },
   "deposit_item_pc": {
     "description": "Automates depositing an item in the PC. Assumes you are in the 'DEPOSIT ITEM' menu.",
     "input_schema": {
@@ -425,6 +463,42 @@
       }
     ]
   },
+  "solve_spinner_maze": {
+    "description": "Calculates the shortest sequence of directions to reach a target coordinate in a spinner maze, given a list of known paths in the format START:(X,Y)|DIR:D|END:(X,Y).",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "edges_text": {
+          "type": "string"
+        },
+        "start": {
+          "type": "array",
+          "items": {
+            "type": "integer"
+          }
+        },
+        "target": {
+          "type": "array",
+          "items": {
+            "type": "integer"
+          }
+        }
+      },
+      "required": [
+        "edges_text",
+        "start",
+        "target"
+      ]
+    },
+    "python_script": "import json\nfrom collections import deque\n\ndef run(input_data):\n    edges_text = input_data.get('edges_text', '')\n    start = tuple(input_data.get('start', [0,0]))\n    target = tuple(input_data.get('target', [0,0]))\n    graph = {}\n    for line in edges_text.strip().split('\\n'):\n        line = line.strip()\n        if not line or line.startswith('#'): continue\n        try:\n            parts = line.split('|')\n            s_str = parts[0].split(':')[1]\n            d_str = parts[1].split(':')[1]\n            e_str = parts[2].split(':')[1]\n            s_tuple = eval(s_str)\n            e_tuple = eval(e_str)\n            if s_tuple not in graph:\n                graph[s_tuple] = []\n            graph[s_tuple].append((d_str, e_tuple))\n        except Exception as e:\n            pass\n    queue = deque([(start, [])])\n    visited = set([start])\n    while queue:\n        curr, path = queue.popleft()\n        if curr == target:\n            print(json.dumps(path))\n            return\n        if curr in graph:\n            for d_str, e_tuple in graph[curr]:\n                if e_tuple not in visited:\n                    visited.add(e_tuple)\n                    queue.append((e_tuple, path + [d_str]))\n    print(json.dumps([]))\n",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-03-01T04:35:21.052Z",
+        "action_counter": 10623
+      }
+    ]
+  },
   "spam_button": {
     "description": "Spams a specified button a set number of times. Extremely useful for getting through repetitive text or spamming the same attack in simple battles.",
     "input_schema": {
@@ -837,80 +911,6 @@
         "commit_message": "Initial version",
         "timestamp": "2026-02-26T04:52:29.169Z",
         "action_counter": 5619
-      }
-    ]
-  },
-  "calculate_path": {
-    "description": "Calculates a path through a provided dark cave grid string from start_x, start_y to target_x, target_y using BFS, and returns the button sequence.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "start_x": {
-          "type": "integer"
-        },
-        "start_y": {
-          "type": "integer"
-        },
-        "target_x": {
-          "type": "integer"
-        },
-        "target_y": {
-          "type": "integer"
-        },
-        "grid_text": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "start_x",
-        "start_y",
-        "target_x",
-        "target_y",
-        "grid_text"
-      ]
-    },
-    "python_script": "def calculate_path(input_data):\n    import re\n    from collections import deque\n    import json\n    \n    start_x = input_data.get('start_x')\n    start_y = input_data.get('start_y')\n    target_x = input_data.get('target_x')\n    target_y = input_data.get('target_y')\n    grid_text = input_data.get('grid_text', '')\n    \n    grid = {}\n    matches = re.findall(r'\\((\\d+),\\s*(\\d+)\\):\\s*[\\'\"](TYPE_[a-zA-Z0-9]+)[\\'\"]', grid_text)\n    for match in matches:\n        grid[(int(match[0]), int(match[1]))] = match[2]\n        \n    passable = [\"TYPE_3fe2\", \"TYPE_2770\", \"TYPE_001A\", \"TYPE_0055\"]\n    \n    if (start_x, start_y) not in grid:\n        print(json.dumps([]))\n        return\n        \n    q = deque([((start_x, start_y), [])])\n    visited = set([(start_x, start_y)])\n    \n    while q:\n        curr, path = q.popleft()\n        if curr == (target_x, target_y):\n            path_with_sleeps = []\n            for move in path:\n                path_with_sleeps.extend([move, 'sleep 300'])\n            print(json.dumps(path_with_sleeps[:100]))\n            return\n            \n        x, y = curr\n        for dx, dy, dir_str in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n            nx, ny = x + dx, y + dy\n            if (nx, ny) in grid and grid[(nx, ny)] in passable and (nx, ny) not in visited:\n                visited.add((nx, ny))\n                q.append(((nx, ny), path + [dir_str]))\n                \n    print(json.dumps([]))\n\ncalculate_path(input_data)",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-02-28T00:16:32.658Z",
-        "action_counter": 7863
-      }
-    ]
-  },
-  "solve_spinner_maze": {
-    "description": "Calculates the shortest sequence of directions to reach a target coordinate in a spinner maze, given a list of known paths in the format START:(X,Y)|DIR:D|END:(X,Y).",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "edges_text": {
-          "type": "string"
-        },
-        "start": {
-          "type": "array",
-          "items": {
-            "type": "integer"
-          }
-        },
-        "target": {
-          "type": "array",
-          "items": {
-            "type": "integer"
-          }
-        }
-      },
-      "required": [
-        "edges_text",
-        "start",
-        "target"
-      ]
-    },
-    "python_script": "import json\nfrom collections import deque\n\ndef run(input_data):\n    edges_text = input_data.get('edges_text', '')\n    start = tuple(input_data.get('start', [0,0]))\n    target = tuple(input_data.get('target', [0,0]))\n    graph = {}\n    for line in edges_text.strip().split('\\n'):\n        line = line.strip()\n        if not line or line.startswith('#'): continue\n        try:\n            parts = line.split('|')\n            s_str = parts[0].split(':')[1]\n            d_str = parts[1].split(':')[1]\n            e_str = parts[2].split(':')[1]\n            s_tuple = eval(s_str)\n            e_tuple = eval(e_str)\n            if s_tuple not in graph:\n                graph[s_tuple] = []\n            graph[s_tuple].append((d_str, e_tuple))\n        except Exception as e:\n            pass\n    queue = deque([(start, [])])\n    visited = set([start])\n    while queue:\n        curr, path = queue.popleft()\n        if curr == target:\n            print(json.dumps(path))\n            return\n        if curr in graph:\n            for d_str, e_tuple in graph[curr]:\n                if e_tuple not in visited:\n                    visited.add(e_tuple)\n                    queue.append((e_tuple, path + [d_str]))\n    print(json.dumps([]))\n",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-03-01T04:35:21.052Z",
-        "action_counter": 10623
       }
     ]
   }
