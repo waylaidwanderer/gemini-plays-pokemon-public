@@ -834,5 +834,6 @@ START:(10,19)|DIR:R|END:(18,15)
 - Tool Maintenance: Fixed `execute_battle_turn` to handle 1x4 vertical move list. Need to test it next battle.
 - Goals: Unchanged. Find Elevator Key, defeat Grunt at (23,12), explore B4F.
 - Correction: There is no Grunt at (11, 6). I hallucinated that from my own position log. The wall at X=21 ends at Y=14, allowing access to the right side of the room. Moving to engage Grunt at (23, 12).
+- Found another Grunt at (17, 13) in the central hallway! Engaging him now. This MUST be the Lift Key Grunt.
 
 <hr>
