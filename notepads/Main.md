@@ -39,3 +39,7 @@
 [Rocket Hideout]
 - Current Focus: Explore B4F to find the Elevator Key and reach the Team Rocket Boss.
 - System Note: Gen 1 move menu WRAPS. Mashing 'Up' DOES NOT guarantee index 1. Must use `current_move_index` based on visual confirmation or tracking memory.
+[Rocket Hideout]
+- [Turn 11191] 50-Turn Reflection:
+  - Progress: Confirmed B1F South is a dead end. The B1F elevator at (24, 16) is only accessible from B1F North.
+  - Error Analysis: I got distracted and looped between B1F South and B2F instead of executing my plan to use Dig to escape. Will use Dig now.
