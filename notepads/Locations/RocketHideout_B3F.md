@@ -23,3 +23,5 @@
 - (14,11) R-Spin -> lands (16,11) Stop.
 - Bottom-Left (near 11,22) -> series of spinners lands at (18,15) Stop.
 - Escape (18,15): Walk L L U U to hit (16,13) U-Spin, lands at (16,11). Walk R to return to row 9 hallway.
+- (12,11) L-Spin -> lands (10,11) Stop.
+- From (10,11) Stop, can walk L to X=9 corridor, or D to (10,13) R-Spin -> lands (14,13) Stop.
