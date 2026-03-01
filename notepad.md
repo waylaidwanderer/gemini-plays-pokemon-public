@@ -758,7 +758,7 @@ Roof:
 - Hallway is blocked by a vertical wall at X=23, creating a closed loop. 
 - The elevator doors at (24, 16) DO NOT OPEN. They are just scenery.
 - The machines at Y=16 are IMPASSABLE. The southern section of B1F reached via stairs at (21, 24) is a dead end!
-- [Turn 11011] Correction: The elevator doors at (24, 16) on B1F DO open if you have the Lift Key! The southern section is NOT a dead end. This is the main path.
+- Route to B4F: Take stairs at B1F (23, 2) -> Navigate B2F spinner maze to stairs at B2F (21, 22) -> Arrive at B1F south (21, 24) -> Walk to true Elevator at B1F (24, 19) -> Ride to B4F.
 
 <hr>
 
