@@ -804,6 +804,8 @@ Roof:
 - From (6,20) stop tile, going D L L L leads to item at (3,21).
 - From (6,20) stop tile, going U L hits (4,19) L spinner -> (2,19) stop tile.
 - Found stairs at (21, 8) leading to B3F (Map 0_201)!
+## TRUE ELEVATOR PATH
+- The actual elevator is on B2F at (24, 19). To reach it, take the stairs from B1F (21, 24) down to B2F (21, 22). Then walk UP past the wall (which ends at Y=19) and RIGHT to the elevator pad. DO NOT use an Escape Rope! The southern section is not a dead end.
 
 <hr>
 
