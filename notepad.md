@@ -40,7 +40,7 @@
 
 [Rocket Hideout]
 - Current Focus: Navigate B3F Spinner Maze to find the Elevator Key or next floor.
-- System Note: Gen 1 move menu in battle is a 2x2 GRID. The array maps Column-Major: 1=TL, 2=BL, 3=TR, 4=BR. I will update my tool to reflect this.
+- System Note: Gen 1 move menu in battle is a 1x4 VERTICAL LIST. Pressing Down moves the cursor 1->2->3->4. Left/Right do not wrap or move the cursor in the expected 2x2 way. I will need to update my battle tool to just calculate the difference and press Up/Down.
 
 <hr>
 
