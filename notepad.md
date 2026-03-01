@@ -834,6 +834,7 @@ START:(10,11)|DIR:L|END:(9,17)
 START:(14,13)|DIR:L|END:(9,17)
 START:(9,17)|DIR:R|END:(15,22)
 START:(10,19)|DIR:R|END:(18,15)
+- [Turn 11115] Right side of maze is a trap loop (17,16 -> 18,15 -> 16,11). The real path is reached by walking across the top corridors (Y=7 or Y=9) to the left side of the map!
 
 <hr>
 
