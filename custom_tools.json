@@ -434,42 +434,6 @@
       }
     ]
   },
-  "solve_spinner_maze": {
-    "description": "Calculates the shortest sequence of directions to reach a target coordinate in a spinner maze, given a list of known paths in the format START:(X,Y)|DIR:D|END:(X,Y).",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "edges_text": {
-          "type": "string"
-        },
-        "start": {
-          "type": "array",
-          "items": {
-            "type": "integer"
-          }
-        },
-        "target": {
-          "type": "array",
-          "items": {
-            "type": "integer"
-          }
-        }
-      },
-      "required": [
-        "edges_text",
-        "start",
-        "target"
-      ]
-    },
-    "python_script": "import json\nfrom collections import deque\n\ndef run(input_data):\n    edges_text = input_data.get('edges_text', '')\n    start = tuple(input_data.get('start', [0,0]))\n    target = tuple(input_data.get('target', [0,0]))\n    graph = {}\n    for line in edges_text.strip().split('\\n'):\n        line = line.strip()\n        if not line or line.startswith('#'): continue\n        try:\n            parts = line.split('|')\n            s_str = parts[0].split(':')[1]\n            d_str = parts[1].split(':')[1]\n            e_str = parts[2].split(':')[1]\n            s_tuple = eval(s_str)\n            e_tuple = eval(e_str)\n            if s_tuple not in graph:\n                graph[s_tuple] = []\n            graph[s_tuple].append((d_str, e_tuple))\n        except Exception as e:\n            pass\n    queue = deque([(start, [])])\n    visited = set([start])\n    while queue:\n        curr, path = queue.popleft()\n        if curr == target:\n            print(json.dumps(path))\n            return\n        if curr in graph:\n            for d_str, e_tuple in graph[curr]:\n                if e_tuple not in visited:\n                    visited.add(e_tuple)\n                    queue.append((e_tuple, path + [d_str]))\n    print(json.dumps([]))\n",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-03-01T04:35:21.052Z",
-        "action_counter": 10623
-      }
-    ]
-  },
   "spam_button": {
     "description": "Spams a specified button a set number of times. Extremely useful for getting through repetitive text or spamming the same attack in simple battles.",
     "input_schema": {
@@ -905,6 +869,48 @@
         "commit_message": "Initial version",
         "timestamp": "2026-03-01T10:20:53.029Z",
         "action_counter": 10992
+      }
+    ]
+  },
+  "pathfind_astar": {
+    "description": "Calculates a path avoiding known obstacles using A* algorithm. Useful for safe navigation in complex areas.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "start": {
+          "type": "array",
+          "items": {
+            "type": "integer"
+          }
+        },
+        "target": {
+          "type": "array",
+          "items": {
+            "type": "integer"
+          }
+        },
+        "obstacles": {
+          "type": "array",
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "integer"
+            }
+          }
+        }
+      },
+      "required": [
+        "start",
+        "target",
+        "obstacles"
+      ]
+    },
+    "python_script": "import json\nimport heapq\n\nstart = tuple(input_data['start'])\ntarget = tuple(input_data['target'])\nobstacles = set(tuple(obs) for obs in input_data.get('obstacles', []))\n\ndef astar(start, target, obstacles):\n    open_set = []\n    heapq.heappush(open_set, (0, start))\n    came_from = {}\n    g_score = {start: 0}\n    \n    while open_set:\n        _, current = heapq.heappop(open_set)\n        if current == target:\n            path = []\n            while current in came_from:\n                path.append(current)\n                current = came_from[current]\n            path.reverse()\n            \n            buttons = []\n            prev = start\n            for node in path:\n                dx, dy = node[0] - prev[0], node[1] - prev[1]\n                if dx == 1: buttons.append('Right')\n                elif dx == -1: buttons.append('Left')\n                elif dy == 1: buttons.append('Down')\n                elif dy == -1: buttons.append('Up')\n                prev = node\n            return buttons\n            \n        x, y = current\n        for dx, dy in [(0,1), (0,-1), (1,0), (-1,0)]:\n            neighbor = (x + dx, y + dy)\n            if neighbor in obstacles:\n                continue\n            \n            tentative_g = g_score[current] + 1\n            if neighbor not in g_score or tentative_g < g_score[neighbor]:\n                came_from[neighbor] = current\n                g_score[neighbor] = tentative_g\n                f_score = tentative_g + abs(target[0] - neighbor[0]) + abs(target[1] - neighbor[1])\n                heapq.heappush(open_set, (f_score, neighbor))\n    return []\n\nbuttons = astar(start, target, obstacles)\nprint(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-03-01T23:06:33.742Z",
+        "action_counter": 11404
       }
     ]
   }
