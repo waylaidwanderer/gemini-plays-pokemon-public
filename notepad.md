@@ -742,6 +742,10 @@ Roof:
 - Strategy: Verify tile TYPE IDs before moving to avoid crashing into walls and tables.
 - Stairs to B2F (Bottom Right area): (21, 24). This gives access to the southern section of B1F that was previously blocked off by machines!
 - Grunt at (18, 25) confirmed we need to take an elevator to see the Boss. Goal: Find the Elevator and the Elevator Key!
+- [Turn 10389] Entered Southern Area via stairs at (21, 24).
+- Path taken: Walked to (18, 25), fought Grunt. Walked left/up to (9, 17) for Hyper Potion. Walked right to (17, 17) and defeated Grunt there. 
+- Hallway is blocked by a vertical wall at X=23, creating a closed loop. 
+- Suspected elevator pad seen at (24, 19) / doors at (24, 16), but currently inaccessible from this side. Returning to B2F!
 
 <hr>
 
