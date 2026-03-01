@@ -35,3 +35,5 @@
 - From (14, 25) stop tile, I can walk freely in the corridor to the right (X=14..19, Y=21..25).
 - From (8, 23) U spinner, path leads to (2, 19) stop tile. Item found at (3, 21).
 - From (2, 19) area, can walk down to (4, 22) U spinner.
+- From (6,20) stop tile, going D L L L leads to item at (3,21).
+- From (6,20) stop tile, going U L hits (4,19) L spinner -> (2,19) stop tile.
