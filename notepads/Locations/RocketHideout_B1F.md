@@ -1,5 +1,8 @@
 # Rocket Hideout B1F
 [Start: Turn 10026]
-- Layout: B1F is divided into TWO DISCONNECTED SECTIONS (North and South).
-- South Section (via B2F maze): This is a DEAD END with Grunts and items.
-- TRUE ELEVATOR PATH: Arrive from Game Corner at (21, 2) (North Section). Walk RIGHT to the corridor at X=28. Walk DOWN. There is a Grunt blocking the 1-tile wide path at (28, 14). Defeat him, then walk DOWN to Y=18, and LEFT to the elevator area at X=24.
+- CRITICAL TRUTH: B1F is divided by a SOLID HORIZONTAL WALL at Y=16.
+- The North section (Game Corner entrance) CANNOT reach the elevator. The path down the right corridor is blocked by a wall at (28, 16).
+- The TRUE ELEVATOR PATH is from the B2F spinner maze!
+- Take the stairs from B2F to arrive at B1F (21, 24) (South section).
+- From (21, 24), you must walk DOWN to bypass the vertical wall at X=23, then walk RIGHT, then UP to the elevator pad at (24, 19).
+- DO NOT walk straight UP from (21, 24) or you will hit the impassable wall at (23, 19) and falsely believe it's a dead end.
