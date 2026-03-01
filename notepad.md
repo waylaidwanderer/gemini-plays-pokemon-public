@@ -762,5 +762,6 @@ Roof:
 - Bottom path: From (8, 11) stop tile, go R to (10, 11), U to (10, 10) Up spinner. Leads to (2, 9) stop tile, which is near an elevator.
 - Found Item at (16, 8). Reached via navigating the right-side paths after the initial top/middle exploration.
 - From (8, 11) stop tile, going R, R, D, D, D, R hits (11, 14) Down spinner. Leads to (15, 18) stop tile.
+- From (15, 18) stop tile, L L hits (13, 18) L spinner -> (11, 18) D spinner -> (11, 20) stop tile.
 
 <hr>
