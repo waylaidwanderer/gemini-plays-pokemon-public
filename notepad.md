@@ -835,5 +835,8 @@ START:(10,19)|DIR:R|END:(18,15)
 - Goals: Unchanged. Find Elevator Key, defeat Grunt at (23,12), explore B4F.
 - Correction: There is no Grunt at (11, 6). I hallucinated that from my own position log. The wall at X=21 ends at Y=14, allowing access to the right side of the room. Moving to engage Grunt at (23, 12).
 - Correction: Hallucinated my own sprite again at (17, 13). I am my own worst enemy. Searching for a way under the Y=16 desks by going far left, to hopefully reach the right side of the room.
+[Turn 10723] 50-Turn Reflection:
+- Tools: `toss_item` tool successfully bypassed menu cursor memory issues. Relying on tools for menus is much safer than manual navigation!
+- Action: Tossing TM28 to grab the item ball at (9, 12). Next stop is the Grunt at (23, 12) who likely guards the Elevator.
 
 <hr>
