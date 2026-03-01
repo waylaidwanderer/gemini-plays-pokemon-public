@@ -16,3 +16,10 @@
 - From (14, 13) STOP tile, walking L L D D D L L L D leads to the left side corridor at (9, 17).
 - Took the R spinner at (11, 18) -> D spinner at (15, 18) -> STOP tile at (15, 22).
 - From (15, 22), the only path is Left.
+[Turn 10615] Spinner Maze Paths:
+- (17,12) D-Spin -> lands (17,16) Stop.
+- (18,16) U-Spin -> lands (18,15) Stop.
+- (16,13) U-Spin -> lands (16,11) Stop.
+- (14,11) R-Spin -> lands (16,11) Stop.
+- Bottom-Left (near 11,22) -> series of spinners lands at (18,15) Stop.
+- Escape (18,15): Walk L L U U to hit (16,13) U-Spin, lands at (16,11). Walk R to return to row 9 hallway.
