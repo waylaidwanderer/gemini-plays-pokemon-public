@@ -17,3 +17,5 @@
 - Found Item at (16, 8). Reached via navigating the right-side paths after the initial top/middle exploration.
 - From (8, 11) stop tile, going R, R, D, D, D, R hits (11, 14) Down spinner. Leads to (15, 18) stop tile.
 - From (15, 18) stop tile, L L hits (13, 18) L spinner -> (11, 18) D spinner -> (11, 20) stop tile.
+- From (11, 20) stop tile, L U hits (10, 19) U spinner -> (10, 17) R spinner -> (12, 17) R spinner -> (14, 17) U spinner -> (14, 15) stop tile.
+- From (14, 15) stop tile, R R D hits (16, 16) U spinner -> (16, 14) U spinner -> (16, 13) stop tile.
