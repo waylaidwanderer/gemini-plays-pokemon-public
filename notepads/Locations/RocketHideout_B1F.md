@@ -7,3 +7,4 @@
 - Grunts Defeated: (26, 8), (13, 6)
 - Southern Wall: Impassable machines at Y=16 block access to Grunt at (28, 17).
 - Strategy: Verify tile TYPE IDs before moving to avoid crashing into walls and tables.
+- Stairs to B2F (Bottom Right area): (21, 24). This gives access to the southern section of B1F that was previously blocked off by machines!
