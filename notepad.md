@@ -771,5 +771,6 @@ Roof:
 - Wait, I ended up at (14, 12) somehow.
 - From (9, 16) stop tile: R R hits (11, 16) R spinner. R D hits (10, 17) R spinner. U R hits (10, 15) U spinner. U L U hits (8, 14) which is walkable.
 - The stairs at (27, 8) go back UP to B1F (at 23, 2). Not down to B3F!
+- From (2, 9) stop area: (4, 11) R spinner -> (8, 11) stop tile. (4, 14) R spinner -> (9, 16) stop tile.
 
 <hr>
