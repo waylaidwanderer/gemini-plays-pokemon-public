@@ -841,5 +841,7 @@ START:(10,19)|DIR:R|END:(18,15)
 - Action: Tossing TM28 to grab the item ball at (9, 12). Next stop is the Grunt at (23, 12) who likely guards the Elevator.
 - Picked up HP UP at (10, 12). Still no Lift Key. Heading to the right side of the floor to confront the Grunt at (23, 12).
 - Grunt at (11, 2) dropped the LIFT KEY at (10, 2) after talking to him. Retrieving it now.
+- Elevator doors located at (24, 11) and (25, 11).
+- Grunts guarding the elevator at (23, 12) and (26, 12).
 
 <hr>
