@@ -38,4 +38,4 @@
 
 [Rocket Hideout]
 - Current Focus: Explore B4F to find the Elevator Key and reach the Team Rocket Boss.
-- System Note: Gen 1 move menu is a 1x4 VERTICAL LIST that DOES NOT WRAP. Mashing 'Up' guarantees the cursor rests at index 1. This 'Forcing Known States' strategy is vastly superior to tracking cursor memory. `execute_battle_turn` updated to reflect this.
+- System Note: Gen 1 move menu WRAPS. Mashing 'Up' DOES NOT guarantee index 1. Must use `current_move_index` based on visual confirmation or tracking memory.
