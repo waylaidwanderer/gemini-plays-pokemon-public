@@ -10,4 +10,3 @@
 - From (18, 15) STOP tile, going L U hits (16, 13) U spinner -> (16, 11) STOP tile (loops back to start).
 - From (17, 16) STOP tile, going L U U U hits (16, 13) U spinner -> (16, 11) STOP tile (loops back to start).
 - Top hallway at Y=9 is accessible from the start area by going Up.
-- Left side of Y=9 hallway is a dead end. Checking the right side.
