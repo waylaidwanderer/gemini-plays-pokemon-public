@@ -22,3 +22,4 @@
 - Notepad/Map: Mechanics logged, elevator and Grunts marked.
 - Tool Maintenance: Fixed the `execute_battle_turn` tool which failed previously. It now safely resets to FIGHT and handles the 1x4 vertical move list properly without crashing.
 - Goal: Defeat this Grunt, defeat the left Grunt, then explore south to find the Team Rocket Boss and retrieve the Silph Scope.
+- [Turn 11127] CRITICAL LAYOUT REALITY CHECK: The left and right sides of B4F are completely separated by impassable walls. The manual stairs from B3F ONLY lead to the dead-end left section. The Silph Scope is on the right section. You MUST use the Elevator to reach the Silph Scope! Backtracking now to find a working elevator.
