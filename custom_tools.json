@@ -62,7 +62,7 @@
     ]
   },
   "execute_battle_turn": {
-    "description": "Executes a full battle turn safely. Resets main battle menu cursor to FIGHT (Up, Left), then navigates from current_move_index to target_move_index (1-4, vertical list). You MUST visually verify current_move_index before calling!",
+    "description": "Executes a full battle turn safely. Resets main battle menu cursor to FIGHT (Up, Left), then navigates from current_move_index to target_move_index (1-4, 2x2 grid). You MUST visually verify current_move_index before calling!",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -87,7 +87,7 @@
         "start_on_main"
       ]
     },
-    "python_script": "import json\n\ndef get_battle_buttons(current, target, start):\n    buttons = []\n    if start:\n        buttons.extend(['Up', 'Left', 'A'])\n    \n    diff = target - current\n    if diff > 0:\n        if diff == 3:\n            buttons.append('Up')\n        else:\n            buttons.extend(['Down'] * diff)\n    elif diff < 0:\n        if diff == -3:\n            buttons.append('Down')\n        else:\n            buttons.extend(['Up'] * abs(diff))\n            \n    buttons.append('A')\n    return buttons\n    \ncurrent = int(input_data.get('current_move_index', 1))\ntarget = int(input_data.get('target_move_index', 1))\nstart = input_data.get('start_on_main', True)\n\nprint(json.dumps(get_battle_buttons(current, target, start)))",
+    "python_script": "import json\n\ndef get_battle_buttons(current, target, start):\n    buttons = []\n    if start:\n        buttons.extend(['Up', 'Left', 'A'])\n    \n    def get_pos(idx):\n        if idx == 1: return (0, 0)\n        if idx == 2: return (0, 1)\n        if idx == 3: return (1, 0)\n        if idx == 4: return (1, 1)\n        return (0, 0)\n        \n    c_c, c_r = get_pos(current)\n    t_c, t_r = get_pos(target)\n    \n    if c_c != t_c:\n        if t_c == 1:\n            buttons.append('Right')\n        else:\n            buttons.append('Left')\n            \n    if c_r != t_r:\n        if t_r == 1:\n            buttons.append('Down')\n        else:\n            buttons.append('Up')\n            \n    buttons.append('A')\n    return buttons\n\ncurrent = int(input_data.get('current_move_index', 1))\ntarget = int(input_data.get('target_move_index', 1))\nstart = input_data.get('start_on_main', True)\n\nprint(json.dumps(get_battle_buttons(current, target, start)))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -188,6 +188,11 @@
         "commit_message": "Fix move menu layout to be a vertical list instead of a 2x2 grid. Gen 1 uses a vertical list.",
         "timestamp": "2026-03-01T04:05:49.195Z",
         "action_counter": 10589
+      },
+      {
+        "commit_message": "Fix move menu navigation to use 2x2 grid logic (Column-Major).",
+        "timestamp": "2026-03-01T04:12:31.903Z",
+        "action_counter": 10597
       }
     ]
   },
