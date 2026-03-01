@@ -27,3 +27,5 @@
 - From (2, 9) stop area: (4, 11) R spinner -> (8, 11) stop tile. (5, 14) R spinner -> (9, 16) stop tile.
 - The grey panels at (2, 9) and (3, 9) are just the graphics for the stop tiles! No elevator here.
 - The entire left corridor from (2, 9) to (4, 15) is a dead end. All three right-facing spinners return to the maze at (8, 11) or (9, 16).
+- From (16, 13) stop tile, going R R U U L hits (17, 11) L spinner -> (2, 9) stop tile.
+- From (11, 20) stop tile, going R R R D D L hits (13, 22) L spinner -> (9, 24) stop tile.
