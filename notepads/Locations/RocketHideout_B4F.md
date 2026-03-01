@@ -14,3 +14,4 @@
 - Tools: `toss_item` tool successfully bypassed menu cursor memory issues. Relying on tools for menus is much safer than manual navigation!
 - Action: Tossing TM28 to grab the item ball at (9, 12). Next stop is the Grunt at (23, 12) who likely guards the Elevator.
 - Picked up HP UP at (10, 12). Still no Lift Key. Heading to the right side of the floor to confront the Grunt at (23, 12).
+- Grunt at (11, 2) dropped the LIFT KEY at (10, 2) after talking to him. Retrieving it now.
