@@ -776,5 +776,8 @@ Roof:
 - The entire left corridor from (2, 9) to (4, 15) is a dead end. All three right-facing spinners return to the maze at (8, 11) or (9, 16).
 - From (16, 13) stop tile, going R R U U L hits (17, 11) L spinner -> (2, 9) stop tile.
 - From (11, 20) stop tile, going R R R D D L hits (13, 22) L spinner -> (9, 24) stop tile.
+- From (9, 24) stop tile: 
+  - Option A: L U hits (8, 23) U spinner.
+  - Option B: R D hits (10, 25) R spinner.
 
 <hr>
