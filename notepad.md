@@ -763,13 +763,12 @@ Roof:
 
 # Rocket Hideout B1F
 [Start: Turn 10026]
-- CRITICAL TRUTH: B1F is divided by a SOLID HORIZONTAL WALL at Y=16.
-- The North section CANNOT reach the elevator. The right corridor is a DEAD END at Y=16.
+- CRITICAL REVELATION: The `walk_to_coordinate` tool failed to find a gap in the South section's X=23 wall because it executed X movements before Y movements. It got stuck at Y=24 and never tested Y=23, 22, 21, or 20!
 - The TRUE ELEVATOR PATH is from the B2F spinner maze!
 - Take the stairs from B2F to arrive at B1F (21, 24) (South section).
-- From (21, 24), you must walk along X=22 and find the gap in the wall at X=23 (likely at Y=20, 21, or 22).
+- From (21, 24), you must walk along X=22 and TEST EVERY Y TILE against the wall at X=23. There MUST be a gap!
 - Once through the gap, walk to the elevator pad at (24, 19).
-- DO NOT trust any advice suggesting the North section connects to the elevator.
+- The North section is a complete dead end for reaching the elevator.
 
 <hr>
 
