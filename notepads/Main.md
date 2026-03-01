@@ -40,7 +40,7 @@
 - Current Focus: Explore B4F to find the Elevator Key and reach the Team Rocket Boss.
 - System Note: Gen 1 move menu WRAPS. Mashing 'Up' DOES NOT guarantee index 1. Must use `current_move_index` based on visual confirmation or tracking memory.
 [Rocket Hideout]
-- True Route to Elevator: B1F (23, 2) stairs -> B2F Maze -> B2F (21, 22) stairs -> B1F South (21, 24) -> Walk to Elevator Pad at (24, 19).
+- True Route to Elevator: Enter B1F from Game Corner, walk directly to the elevator doors at (24, 16) in the North section. Do NOT use the B2F maze.
 [Turn 11397] 50-Turn Reflection:
 - Progress: Navigating back to the Game Corner to re-examine the elevator doors in the North section of B1F.
 - Error: Hallucinated a dead end and blast doors due to pathfinding tool limitations and visual artifacts. Blindly trusting tools without verifying map tiles visually is dangerous.
