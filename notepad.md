@@ -793,3 +793,12 @@ Roof:
 - Found stairs at (21, 8) leading to B3F (Map 0_201)!
 
 <hr>
+
+<h1><code>Locations/RocketHideout_B3F</code></h1>
+
+# Rocket Hideout B3F
+[Start: Turn 10494]
+- Arrived via stairs.
+- Grunt defeated at (26, 8).
+
+<hr>
