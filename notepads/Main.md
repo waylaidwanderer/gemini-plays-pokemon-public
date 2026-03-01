@@ -37,5 +37,5 @@
 - Found a Pokemon Center right next to Rock Tunnel entrance! This is a great place to heal and grind if needed.
 
 [Rocket Hideout]
-- Current Focus: Navigate B3F Spinner Maze to find the Elevator Key or next floor.
+- Current Focus: Explore B4F to find the Elevator Key and reach the Team Rocket Boss.
 - System Note: Gen 1 move menu in battle is a 1x4 VERTICAL LIST. Pressing Down moves the cursor 1->2->3->4. Left/Right do not wrap or move the cursor in the expected 2x2 way. I will need to update my battle tool to just calculate the difference and press Up/Down.
