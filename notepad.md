@@ -808,5 +808,7 @@ Roof:
 - From (18, 15) STOP tile, going L U hits (16, 13) U spinner -> (16, 11) STOP tile (loops back to start).
 - From (17, 16) STOP tile, going L U U U hits (16, 13) U spinner -> (16, 11) STOP tile (loops back to start).
 - Top hallway at Y=9 is accessible from the start area by going Up.
+- Lower paths from (17, 16) and (18, 15) all loop back.
+- Strategy: Use (16, 13) U spinner to return to (16, 11) STOP, then go to the start area (20, 11), head Up to the top hallway (Y=9), and go left to access the rest of the maze.
 
 <hr>
