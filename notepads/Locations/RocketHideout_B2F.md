@@ -38,5 +38,11 @@
 - From (6,20) stop tile, going D L L L leads to item at (3,21).
 - From (6,20) stop tile, going U L hits (4,19) L spinner -> (2,19) stop tile.
 - Found stairs at (21, 8) leading to B3F (Map 0_201)!
-## TRUE ELEVATOR PATH
-- The actual elevator entrance is on B1F at (24, 16). The B2F maze leads to the stairs at B2F (21, 22). Take these UP to B1F, then walk to the elevator doors. The B2F elevator doors at (24, 16) do NOT open from the maze side.
+## TRUE ELEVATOR PATH (Step-by-Step)
+1. From B2F (27, 8) stairs, walk to (17, 11) Top Spinner -> Ends at (2, 9) Stop.
+2. From (2, 9) Stop: Walk D D R R to (4, 11) spinner -> Ends at (8, 11) Stop.
+3. From (8, 11) Stop: Walk R R D D D R to (11, 14) spinner -> Ends at (15, 18) Stop.
+4. From (15, 18) Stop: Walk L L to (13, 18) spinner -> Ends at (11, 20) Stop.
+5. From (11, 20) Stop: Walk R R R D D L to (13, 22) spinner -> Ends at (9, 24) Stop.
+6. From (9, 24) Stop: Walk R D to (10, 25) spinner -> Ends at (14, 25) Stop.
+7. From (14, 25) Stop: Walk right and up to (21, 22) stairs -> Takes you to B1F South.
