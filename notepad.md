@@ -44,8 +44,8 @@
 [Rocket Hideout]
 - Elevator Mechanics: The elevator is its own room. The elevator doors on B1F are at (24, 16). They must be accessed from the SOUTH side (Y=17).
 - [Turn 11881] Resumed navigating B2F maze to reach B1F South.
-- TRUE ELEVATOR ROUTE: B1F North cannot reach the doors. You MUST take the stairs at (23, 2) down to B2F, navigate the spinner maze to the stairs at (21, 22), which take you up to B1F South at (21, 24).
-- In B1F South, the wall at X=23 blocks the direct path. You must walk DOWN to the bottom of the room, RIGHT to X=28, UP to Y=17, and LEFT to reach the elevator doors at (24, 17).
+- TRUE ELEVATOR ROUTE: B1F South is a complete dead end. The wall at X=23 is solid all the way to the bottom. DO NOT GO TO B1F SOUTH.
+- You must access the elevator from B1F North at (24, 15). Try pressing 'A', using the Lift Key, or walking into the doors multiple times.
 [Turn 11866] 50-Turn Reflection:
 - Progress: Discovered B1F South and B2F South-East are dead ends. Used Dig to escape.
 - Next Action: Re-enter Game Corner and test accessing the B1F elevator doors from the North side (24, 15) by pressing A.
