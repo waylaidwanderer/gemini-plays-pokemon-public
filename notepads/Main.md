@@ -41,6 +41,7 @@
 - System Note: Gen 1 move menu WRAPS. Mashing 'Up' DOES NOT guarantee index 1. Must use `current_move_index` based on visual confirmation or tracking memory.
 [Rocket Hideout]
 - Elevator Mechanics: The elevator is its own room. The elevator doors on B1F are at (24, 16). They must be accessed from the SOUTH side (Y=17).
+- [Turn 11881] Resumed navigating B2F maze to reach B1F South.
 - TRUE ELEVATOR ROUTE: B1F North cannot reach the doors. You MUST take the stairs at (23, 2) down to B2F, navigate the spinner maze to the stairs at (21, 22), which take you up to B1F South at (21, 24).
 - In B1F South, the wall at X=23 blocks the direct path. You must walk DOWN to the bottom of the room, RIGHT to X=28, UP to Y=17, and LEFT to reach the elevator doors at (24, 17).
 [Turn 11866] 50-Turn Reflection:
