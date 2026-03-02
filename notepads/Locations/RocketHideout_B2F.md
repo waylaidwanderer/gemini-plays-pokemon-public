@@ -46,3 +46,6 @@
 5. From (11, 20) Stop: Walk R R R D D L to (13, 22) spinner -> Ends at (9, 24) Stop.
 6. From (9, 24) Stop: Walk R D to (10, 25) spinner -> Ends at (14, 25) Stop.
 7. From (14, 25) Stop: Walk right and up to (21, 22) stairs -> Takes you to B1F South.
+[B2F Maze Path to Elevator]
+- Path: (17, 11) spinner -> (2, 9) stop -> (4, 11) spinner -> (8, 11) stop -> (11, 14) spinner -> (15, 18) stop -> (13, 18) spinner -> (11, 20) stop -> (13, 22) spinner -> (9, 24) stop -> (10, 25) spinner -> (14, 25) stop.
+- Then walk to the warp at (21, 22) which leads back to B1F South.
