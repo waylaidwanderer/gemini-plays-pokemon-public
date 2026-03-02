@@ -45,10 +45,10 @@
 - Elevator Mechanics: The red checkered pad at (24, 19) is actually the INSIDE of the elevator room. You warp there by walking into or interacting with the doors at (24, 16) located in B1F North.
 - B1F South is a dead end because a solid wall at X=23 separates it from the elevator pad. Do not take the B2F maze to reach the elevator!
 - Next steps: Go back to the B2F elevator to reach B4F. I forgot to pick up the Silph Scope item ball after defeating Giovanni! The B1F doors don't open from the outside.
-[Turn 11502] 50-Turn Reflection:
-- Progress: Figured out that the B1F elevator doors at (24, 16) require pressing 'A' to open, and they warp you to the pad at (24, 19). The B1F South pad area is just the interior of the elevator.
-- Error: Hallucinated elevator pad mechanics and dead ends.
-- Next Steps: Go to B1F North, walk to (24, 16) doors, face down, press A. If fails, use LIFT KEY from item menu while facing doors.
+[Turn 11555] 50-Turn Reflection:
+- Progress: Discovered B1F elevator doors at (24, 16) do NOT open from the outside (North). The only way to access the elevator is from the B1F South section, which requires taking the B2F spinner maze.
+- Error: Falsely assumed the B1F North doors were the entrance based on their location.
+- Next Steps: Navigate the B2F spinner maze, take the stairs to B1F South, and enter the elevator to reach B4F.
 
 <hr>
 
