@@ -43,9 +43,8 @@
 - System Note: Gen 1 move menu WRAPS. Mashing 'Up' DOES NOT guarantee index 1. Must use `current_move_index` based on visual confirmation or tracking memory.
 [Rocket Hideout]
 - Elevator Mechanics: The elevator is its own room. The elevator doors on B1F are at (24, 16). They must be accessed from the SOUTH side (Y=17).
-- Elevator Route: The B1F elevator doors at (24, 16) are completely boxed in from B1F South by the wall at X=23. DO NOT attempt to reach the elevator from B1F!
-- You MUST use the B2F elevator entrance. The system critique confirmed the B2F elevator entrance can be easily reached after taking the B1F stairs at (23, 2) to B2F.
-- Next Steps: Go back to B2F, find the B2F elevator entrance, take it to B4F, and pick up the Silph Scope item ball!
+- Elevator Route: B1F South and B2F bottom-right are dead ends. The B1F elevator doors at (24, 16) MUST be accessed from B1F North by standing at (24, 15) and pressing A to open them.
+- Next Steps: Dig out to Celadon City. Return to B1F North (24, 15) and press A on the elevator doors. If that fails, search B2F near the start (24, 11) for an elevator!
 [Turn 11814] 50-Turn Reflection:
 - Progress: Corrected my false memories about the B1F elevator. The doors do not open from the north. I need to take the long C-shaped route through the main hallway at X=17 to reach the south side of the doors at (24, 17).
 
