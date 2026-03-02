@@ -43,8 +43,8 @@
 - System Note: Gen 1 move menu WRAPS. Mashing 'Up' DOES NOT guarantee index 1. Must use `current_move_index` based on visual confirmation or tracking memory.
 [Rocket Hideout]
 - Elevator Mechanics: The elevator is its own room. The elevator doors on B1F are at (24, 16). They must be accessed from the SOUTH side (Y=17).
-- Elevator Route: B1F South and B2F bottom-right are dead ends. The B1F elevator doors at (24, 16) MUST be accessed from B1F North by standing at (24, 15) and pressing A to open them.
-- Next Steps: Dig out to Celadon City. Return to B1F North (24, 15) and press A on the elevator doors. If that fails, search B2F near the start (24, 11) for an elevator!
+- TRUE ELEVATOR ROUTE: B1F North cannot reach the doors. You MUST take the stairs at (23, 2) down to B2F, navigate the spinner maze to the stairs at (21, 22), which take you up to B1F South at (21, 24).
+- In B1F South, the wall at X=23 blocks the direct path. You must walk DOWN to the bottom of the room, RIGHT to X=28, UP to Y=17, and LEFT to reach the elevator doors at (24, 17).
 [Turn 11866] 50-Turn Reflection:
 - Progress: Discovered B1F South and B2F South-East are dead ends. Used Dig to escape.
 - Next Action: Re-enter Game Corner and test accessing the B1F elevator doors from the North side (24, 15) by pressing A.
