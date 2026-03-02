@@ -43,8 +43,7 @@
 - Elevator Mechanics: The red checkered pad at (24, 19) is actually the INSIDE of the elevator room. You warp there by walking into or interacting with the doors at (24, 16) located in B1F North.
 - B1F South is a dead end because a solid wall at X=23 separates it from the elevator pad. Do not take the B2F maze to reach the elevator!
 - Next steps: Go back to the B2F elevator to reach B4F. I forgot to pick up the Silph Scope item ball after defeating Giovanni! The B1F doors don't open from the outside.
-[Turn 11605] Elevator Realization:
-- The elevator doors on B1F North at (24, 16) ARE the entrance!
-- B1F South is a complete dead end because of the solid walls at X=23 and Y=16.
-- To open the elevator doors, I probably need to stand at (24, 15), face Down, and manually USE the LIFT KEY from the ITEM menu.
-- Next Steps: Use Dig to escape to Celadon, re-enter the Hideout via the Game Corner, walk to B1F (24, 15), and use the Lift Key.
+[Turn 11658] 50-Turn Reflection:
+- Progress: Found the true B1F elevator entrance at (24, 16) by walking through the North section. Confirmed that simply walking into the door while holding the Lift Key triggers the warp. (I accidentally warped in and out by mashing Down!)
+- The elevator car is its own area. The pad at B2F (24, 19) is likely an exit point, not the main entrance.
+- Next Steps: Press Down ONCE at (24, 15) to enter the elevator. Then use the control panel to reach B4F.
