@@ -46,4 +46,4 @@
 [Turn 11502] 50-Turn Reflection:
 - Progress: Figured out that the B1F elevator doors at (24, 16) require pressing 'A' to open, and they warp you to the pad at (24, 19). The B1F South pad area is just the interior of the elevator.
 - Error: Hallucinated elevator pad mechanics and dead ends.
-- Next Steps: Dig out, re-enter Game Corner, go to B1F North, walk around desks to (24, 16), face down, press A to open elevator doors, and take it to B4F.
+- Next Steps: Go to B1F North, walk to (24, 16) doors, face down, press A. If fails, use LIFT KEY from item menu while facing doors.
