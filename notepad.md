@@ -47,9 +47,6 @@
 - TRUE ELEVATOR ROUTE: The B1F doors at (24, 16) are an EXIT ONLY. The actual elevator entrance is the red pad on B2F at (24, 19).
 - To reach it, complete the B2F spinner maze. Do NOT take the stairs at (21, 22) up to B1F South (it is a dead end trap). Instead, walk UP and RIGHT from those stairs to step onto the red pad at (24, 19).
 - Once inside the elevator car, interact with the control panel in the top-left corner.
-[Turn 11866] 50-Turn Reflection:
-- Progress: Discovered B1F South and B2F South-East are dead ends. Used Dig to escape.
-- Next Action: Re-enter Game Corner and test accessing the B1F elevator doors from the North side (24, 15) by pressing A.
 
 <hr>
 
