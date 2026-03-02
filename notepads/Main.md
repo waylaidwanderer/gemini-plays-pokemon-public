@@ -40,8 +40,6 @@
 - Current Focus: Explore B4F to find the Elevator Key and reach the Team Rocket Boss.
 - System Note: Gen 1 move menu WRAPS. Mashing 'Up' DOES NOT guarantee index 1. Must use `current_move_index` based on visual confirmation or tracking memory.
 [Rocket Hideout]
-- True Route to Elevator: B1F (23, 2) stairs -> B2F Maze -> B2F (21, 22) stairs -> B1F South -> Walk to Elevator Pad at (24, 19). North section B1F elevator doors are IMPASSABLE from the north.
-[Turn 11450] 50-Turn Reflection:
-- Progress: Realized the B1F South route (via B2F maze) is a true dead end. The elevator is only accessible directly from the North section (Game Corner entrance).
-- Error: Trusted outdated notes in Main over accurate notes in a specific location notepad. Also struggled with UI input delays and cursor memory in the Pokemon menu.
-- Next Steps: Use Dig to escape to Celadon City, walk to the Game Corner, enter B1F, and head directly to the elevator doors at (24, 16) to reach B4F.
+- Elevator Mechanics: The red checkered pad at (24, 19) is actually the INSIDE of the elevator room. You warp there by walking into or interacting with the doors at (24, 16) located in B1F North.
+- B1F South is a dead end because a solid wall at X=23 separates it from the elevator pad. Do not take the B2F maze to reach the elevator!
+- Next steps: Use Dig, re-enter Game Corner, go to B1F North, walk around the desks to (24, 16), and enter the doors to reach B4F.
