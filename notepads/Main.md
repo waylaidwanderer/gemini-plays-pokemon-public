@@ -40,12 +40,6 @@
 - Current Focus: Explore B4F to find the Elevator Key and reach the Team Rocket Boss.
 - System Note: Gen 1 move menu WRAPS. Mashing 'Up' DOES NOT guarantee index 1. Must use `current_move_index` based on visual confirmation or tracking memory.
 [Rocket Hideout]
-- Elevator Mechanics: The elevator is its own room. The elevator doors on B1F are at (24, 16). They must be accessed from the SOUTH side (Y=17).
-- [Turn 11881] Resumed navigating B2F maze to reach B1F South.
-- TRUE ELEVATOR ROUTE: The B1F doors at (24, 16) are an EXIT ONLY. The likely elevator entrance is the red pad on B2F at (24, 19).
-- To reach it, complete the B2F spinner maze. Do NOT take the stairs at (21, 22) up to B1F South. Instead, walk UP and RIGHT from those stairs to step onto the red pad at (24, 19).
-- Interaction mechanics for the red pad need to be verified (e.g., step on it, face a certain direction, press A).
-
-[Turn 11918] 50-Turn Reflection:
-- Progress: Escaping a massive 100-turn navigational loop caused by hallucinating map layouts and relying on unverified hypotheses.
-- Lesson: Stop using long blind move sequences in unverified areas. Verify interactables and map boundaries step-by-step. Use proper tools for menus instead of blind inputs.
+- CRITICAL EPIPHANY: The elevator is NOT REQUIRED to complete the hideout! B4F is NOT split in half. The wall at X=21 ends at Y=14, allowing access to the right side where the boss and Silph Scope are.
+- PATH TO SILPH SCOPE: B1F -> stairs to B2F -> stairs to B3F -> navigate B3F maze -> stairs to B4F -> walk down to Y=14 and around the wall to the boss room.
+- I am abandoning all elevator theories. They were hallucinations that caused an 800-turn delay.
