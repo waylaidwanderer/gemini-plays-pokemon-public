@@ -43,7 +43,7 @@
 - System Note: Gen 1 move menu WRAPS. Mashing 'Up' DOES NOT guarantee index 1. Must use `current_move_index` based on visual confirmation or tracking memory.
 [Rocket Hideout]
 - Elevator Mechanics: The elevator is its own room. The elevator doors on B1F are at (24, 16). They must be accessed from the SOUTH side (Y=17).
-- Route to B1F Elevator: From B1F entrance (21, 2), go Down to Y=5, Left to main hallway at X=17, Down to Y=17, Right to the doors at (24, 16).
+- Route to B1F Elevator: From B1F entrance (21, 2), go Right to the eastern hallway (around X=28), Down to Y=17, then Left to the doors at (24, 16).
 - B1F South (accessed via B2F maze) is a dead end, blocked by a wall at X=23. Do not take the B2F maze to reach the elevator!
 - Next Steps: Reach the B1F elevator doors, take the elevator to B4F, and pick up the Silph Scope item ball that I left behind after defeating Giovanni!
 [Turn 11814] 50-Turn Reflection:
