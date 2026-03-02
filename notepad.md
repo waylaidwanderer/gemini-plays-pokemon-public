@@ -45,8 +45,9 @@
 - Elevator Mechanics: The elevator is its own room. The elevator doors on B1F are at (24, 16). They must be accessed from the SOUTH side (Y=17).
 - Elevator Route: B1F South and B2F bottom-right are dead ends. The B1F elevator doors at (24, 16) MUST be accessed from B1F North by standing at (24, 15) and pressing A to open them.
 - Next Steps: Dig out to Celadon City. Return to B1F North (24, 15) and press A on the elevator doors. If that fails, search B2F near the start (24, 11) for an elevator!
-[Turn 11814] 50-Turn Reflection:
-- Progress: Corrected my false memories about the B1F elevator. The doors do not open from the north. I need to take the long C-shaped route through the main hallway at X=17 to reach the south side of the doors at (24, 17).
+[Turn 11866] 50-Turn Reflection:
+- Progress: Discovered B1F South and B2F South-East are dead ends. Used Dig to escape.
+- Next Action: Re-enter Game Corner and test accessing the B1F elevator doors from the North side (24, 15) by pressing A.
 
 <hr>
 
