@@ -42,6 +42,10 @@
 [Rocket Hideout]
 - Elevator Mechanics: The elevator is its own room. The elevator doors on B1F are at (24, 16). They must be accessed from the SOUTH side (Y=17).
 - [Turn 11881] Resumed navigating B2F maze to reach B1F South.
-- TRUE ELEVATOR ROUTE: The B1F doors at (24, 16) are an EXIT ONLY. The actual elevator entrance is the red pad on B2F at (24, 19).
-- To reach it, complete the B2F spinner maze. Do NOT take the stairs at (21, 22) up to B1F South (it is a dead end trap). Instead, walk UP and RIGHT from those stairs to step onto the red pad at (24, 19).
-- Once inside the elevator car, interact with the control panel in the top-left corner.
+- TRUE ELEVATOR ROUTE: The B1F doors at (24, 16) are an EXIT ONLY. The likely elevator entrance is the red pad on B2F at (24, 19).
+- To reach it, complete the B2F spinner maze. Do NOT take the stairs at (21, 22) up to B1F South. Instead, walk UP and RIGHT from those stairs to step onto the red pad at (24, 19).
+- Interaction mechanics for the red pad need to be verified (e.g., step on it, face a certain direction, press A).
+
+[Turn 11918] 50-Turn Reflection:
+- Progress: Escaping a massive 100-turn navigational loop caused by hallucinating map layouts and relying on unverified hypotheses.
+- Lesson: Stop using long blind move sequences in unverified areas. Verify interactables and map boundaries step-by-step. Use proper tools for menus instead of blind inputs.
