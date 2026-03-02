@@ -1,6 +1,6 @@
 # Rocket Hideout B1F
 [Start: Turn 10026]
-- The TRUE ELEVATOR PATH is from the Game Corner Entrance (North Section).
-- The elevator doors are located at (24, 16) and (25, 16) and are accessed DIRECTLY from the North section.
-- There are no blast doors. The North section connects directly to the elevator without needing to detour south.
-- The TRUE elevator doors are in the South section (accessed via B2F maze). The "doors" in the North section at (24, 16) are just wall machines.
+- The elevator doors are at (24, 16) and (25, 16) and face SOUTH.
+- They MUST be accessed from BELOW (Y=17) by walking down the left hallway past the Grunt at (18, 17) and heading right.
+- Do NOT approach from the north (Y=15), you will be stuck behind the elevator.
+- B1F South (accessed via B2F maze) is a dead-end trap.
