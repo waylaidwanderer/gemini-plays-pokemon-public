@@ -40,10 +40,9 @@
 - Current Focus: Explore B4F to find the Elevator Key and reach the Team Rocket Boss.
 - System Note: Gen 1 move menu WRAPS. Mashing 'Up' DOES NOT guarantee index 1. Must use `current_move_index` based on visual confirmation or tracking memory.
 [Rocket Hideout]
-- Elevator Mechanics: The red checkered pad at (24, 19) is actually the INSIDE of the elevator room. You warp there by walking into or interacting with the doors at (24, 16) located in B1F North.
-- B1F South is a dead end because a solid wall at X=23 separates it from the elevator pad. Do not take the B2F maze to reach the elevator!
-- Next steps: Go back to the B2F elevator to reach B4F. I forgot to pick up the Silph Scope item ball after defeating Giovanni! The B1F doors don't open from the outside.
-[Turn 11658] 50-Turn Reflection:
-- Progress: Found the true B1F elevator entrance at (24, 16) by walking through the North section. Confirmed that simply walking into the door while holding the Lift Key triggers the warp. (I accidentally warped in and out by mashing Down!)
-- The elevator car is its own area. The pad at B2F (24, 19) is likely an exit point, not the main entrance.
-- Next Steps: Press Down ONCE at (24, 15) to enter the elevator. Then use the control panel to reach B4F.
+- Elevator Mechanics: The elevator is its own room. The elevator doors on B1F are at (24, 16). They must be accessed from the SOUTH side (Y=17).
+- Route to B1F Elevator: From B1F entrance (21, 2), go Down to Y=5, Left to main hallway at X=17, Down to Y=17, Right to the doors at (24, 16).
+- B1F South (accessed via B2F maze) is a dead end, blocked by a wall at X=23. Do not take the B2F maze to reach the elevator!
+- Next Steps: Reach the B1F elevator doors, take the elevator to B4F, and pick up the Silph Scope item ball that I left behind after defeating Giovanni!
+[Turn 11814] 50-Turn Reflection:
+- Progress: Corrected my false memories about the B1F elevator. The doors do not open from the north. I need to take the long C-shaped route through the main hallway at X=17 to reach the south side of the doors at (24, 17).
