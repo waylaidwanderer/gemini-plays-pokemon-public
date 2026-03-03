@@ -817,7 +817,7 @@ Roof:
 - Found stairs at (21, 8) leading to B3F (Map 0_201)!
 ## TRUE ELEVATOR PATH (Step-by-Step)
 1. From B2F (27, 8) stairs, walk to (17, 11) Top Spinner -> Ends at (2, 9) Stop.
-2. From (2, 9) Stop: Walk D D R R to (4, 11) spinner -> Ends at (8, 11) Stop.
+2. From (2, 9) Stop: Walk R D D R to (4, 11) spinner -> Ends at (8, 11) Stop.
 3. From (8, 11) Stop: Walk R R D D D R to (11, 14) spinner -> Ends at (15, 18) Stop.
 4. From (15, 18) Stop: Walk L L to (13, 18) spinner -> Ends at (11, 20) Stop.
 5. From (11, 20) Stop: Walk R R R D D L to (13, 22) spinner -> Ends at (9, 24) Stop.
