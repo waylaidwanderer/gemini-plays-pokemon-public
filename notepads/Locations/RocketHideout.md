@@ -1,19 +1,15 @@
-# Rocket Hideout
-- B1F (0_199): Entrance at (21, 1) leading back to Game Corner.
-- B1F (0_199): Elevator located at (24, 16) / (25, 16). Requires Elevator Key.
-- [Turn 11086] 50-Turn Reflection:
-  - Progress: Solved B2F maze. Learned the true elevator entrance is B1F (24, 16) and requires the Lift Key. B2F doors do not open from the outside.
-  - Error Analysis: Falsely assumed B1F doors were scenery because I tested them *before* getting the key. Always re-test interactables after getting key items!
-  - Next steps: Enter Game Corner, go to B1F, take elevator to B4F, get Silph Scope.
-- [Turn 11114] B3F Navigation: The previous shortcut note was a hallucination. The stairs to B4F are NOT at (19, 10) on B3F. Navigating the B3F spinner maze now. Path: (17,11) D -> (17,16) STOP.
-[Turn 11138] 50-Turn Reflection:
-- Progress: Escaped B3F using Dig after realizing manual stairs lead to a dead end on B4F. B4F is split in half by a wall, and the Silph Scope is on the right side.
-- Learned: The B1F elevator at (24, 16) is the ONLY way to reach the right side of B4F.
-- Next Steps: Walk to Game Corner secret stairs (17, 4), enter B1F, take elevator to B4F, retrieve Silph Scope.
-- [Turn 11144] CRITICAL ELEVATOR REVELATION: The B1F elevator at (24, 16) CANNOT be reached from the north (entry) side because Y=16 is an impassable wall of machines. You MUST reach the elevator from the B1F South section.
-- PATH TO ELEVATOR:
-  1) Take B1F stairs at (23, 2) down to B2F.
-  2) Navigate B2F spinner maze to the southern exit stairs at B2F (21, 22).
-  3) Take those stairs UP to B1F (21, 24).
-  4) Walk RIGHT (do not go left!) to (24, 24), then UP to (24, 17).
-  5) Walk UP into the elevator doors at (24, 16).
+# Rocket Hideout - Verified Route to Silph Scope
+[Start: Turn 12425]
+
+## Master Route
+1. **Enter Hideout:** Take secret stairs at Game Corner (17, 4) down to B1F.
+2. **B1F to B2F:** Walk right and down to the stairs at (23, 2), descend to B2F.
+3. **B2F Spinner Maze:** Enter maze at (17, 11).
+   - (2, 9) Stop: Walk R, D, D, R to (4, 11) spinner -> (8, 11) Stop.
+   - (8, 11) Stop: Walk R, R, D, D, D, R to (11, 14) spinner -> (15, 18) Stop.
+   - (15, 18) Stop: Walk L, L to (13, 18) spinner -> (11, 20) Stop.
+   - (11, 20) Stop: Walk R, R, R, D, D, L to (13, 22) spinner -> (9, 24) Stop.
+   - (9, 24) Stop: Walk R, D to (10, 25) spinner -> (14, 25) Stop.
+4. **B2F Elevator:** From (14, 25) Stop, walk right to X=24, then up to the Elevator doors at (24, 18).
+5. **To B4F:** Use Elevator (requires Lift Key) to travel to B4F.
+6. **Giovanni & Silph Scope:** Defeat Giovanni at (25, 3) and pick up the Silph Scope item ball.
