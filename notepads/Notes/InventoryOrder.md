@@ -17,3 +17,6 @@
 16. OLD ROD
 17. HM01
 18. HM05
+
+[WARNING]
+The Game State Information alphabetizes the inventory list! Do NOT use it to determine the true in-game index of an item. You must visually scroll through the bag to find things.

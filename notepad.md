@@ -607,6 +607,9 @@ Entrance is at Route 10 (8, 16). Map 1F = 0_82, B1F = 0_232.
 17. HM01
 18. HM05
 
+[WARNING]
+The Game State Information alphabetizes the inventory list! Do NOT use it to determine the true in-game index of an item. You must visually scroll through the bag to find things.
+
 <hr>
 
 <h1><code>Locations/Route10_South</code></h1>
