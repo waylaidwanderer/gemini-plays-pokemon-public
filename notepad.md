@@ -875,3 +875,19 @@ START:(10,19)|DIR:R|END:(18,15)
 - MUST use the elevator from B2F (24, 18) to reach the Right Side, defeat Giovanni, and retrieve the Silph Scope. Do not trust past hallucinations stating otherwise.
 
 <hr>
+
+<h1><code>Locations/SaffronCity</code></h1>
+
+# Saffron City
+- Huge central hub city.
+- The center is completely blocked off by the massive Silph Co. building and fences.
+- To cross the city (e.g., West Gate to East Gate), you must navigate around the perimeter. The northern path is clear and connects the west and east sides.
+- West Gate: Leads to Route 7 (Celadon City).
+- East Gate: Leads to Route 8 (Lavender Town).
+- North Gate: Leads to Route 5 (Cerulean City).
+- South Gate: Leads to Route 6 (Vermilion City).
+- Fighting Dojo and Saffron Gym are in the northeast corner.
+- Poke Mart is in the northeast.
+- Pokemon Center is in the southwest.
+
+<hr>
