@@ -593,7 +593,12 @@ Entrance is at Route 10 (8, 16). Map 1F = 0_82, B1F = 0_232.
 
 <h1><code>Notes/InventoryOrder</code></h1>
 
-This notepad is obsolete. The in-game bag order does not match the alphabetized list in the Game State Information. Do not attempt to hardcode inventory indices.
+# Inventory Order
+(Work in progress - mapping from top to bottom)
+1. 
+2. 
+3. 
+4.
 
 <hr>
 

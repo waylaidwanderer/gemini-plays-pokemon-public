@@ -1,1 +1,6 @@
-This notepad is obsolete. The in-game bag order does not match the alphabetized list in the Game State Information. Do not attempt to hardcode inventory indices.
+# Inventory Order
+(Work in progress - mapping from top to bottom)
+1. 
+2. 
+3. 
+4.
