@@ -741,6 +741,7 @@ Roof:
 
 # Rocket Hideout - Verified Route to Silph Scope
 [Start: Turn 12425]
+[STATUS: COMPLETE]
 
 ## Master Route
 1. **Enter Hideout:** Take secret stairs at Game Corner (17, 4) down to B1F.
