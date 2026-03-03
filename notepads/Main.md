@@ -27,6 +27,7 @@
 - Fan Club: (9, 13) - Talk to Chairman for Bike Voucher.
 
 [Plan]
+- Pass through the Saffron City Gate using the drinks we bought.
 - Return to Lavender Town with the Silph Scope to see the Ghost Pokemon in Pokemon Tower.
 - Find Mr. Fuji, who is missing from his Volunteer Pokemon House.
 
