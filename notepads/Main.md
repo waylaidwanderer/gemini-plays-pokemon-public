@@ -9,6 +9,7 @@
 - NEVER use dead reckoning. ALWAYS read the Game State Player Position before making any navigational assumptions.
 - Gen 1 PC menus (DEPOSIT, WITHDRAW, etc.) retain cursor memory.
 - Gen 1 Battle menus retain cursor memory! Reset the main menu cursor to FIGHT by pressing Up and Left before navigating.
+- Gen 1 Move menu cursor memory is retained even when switching Pokemon!
 
 [Timestamps]
 - Route 6 / Vermilion Grinding Start: Turn 4321
