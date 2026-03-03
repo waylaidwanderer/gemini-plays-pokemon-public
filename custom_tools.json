@@ -298,48 +298,6 @@
       }
     ]
   },
-  "pathfind_astar": {
-    "description": "Calculates a path avoiding known obstacles using A* algorithm. Useful for safe navigation in complex areas.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "start": {
-          "type": "array",
-          "items": {
-            "type": "integer"
-          }
-        },
-        "target": {
-          "type": "array",
-          "items": {
-            "type": "integer"
-          }
-        },
-        "obstacles": {
-          "type": "array",
-          "items": {
-            "type": "array",
-            "items": {
-              "type": "integer"
-            }
-          }
-        }
-      },
-      "required": [
-        "start",
-        "target",
-        "obstacles"
-      ]
-    },
-    "python_script": "import json\nimport heapq\n\nstart = tuple(input_data['start'])\ntarget = tuple(input_data['target'])\nobstacles = set(tuple(obs) for obs in input_data.get('obstacles', []))\n\ndef astar(start, target, obstacles):\n    open_set = []\n    heapq.heappush(open_set, (0, start))\n    came_from = {}\n    g_score = {start: 0}\n    \n    while open_set:\n        _, current = heapq.heappop(open_set)\n        if current == target:\n            path = []\n            while current in came_from:\n                path.append(current)\n                current = came_from[current]\n            path.reverse()\n            \n            buttons = []\n            prev = start\n            for node in path:\n                dx, dy = node[0] - prev[0], node[1] - prev[1]\n                if dx == 1: buttons.append('Right')\n                elif dx == -1: buttons.append('Left')\n                elif dy == 1: buttons.append('Down')\n                elif dy == -1: buttons.append('Up')\n                prev = node\n            return buttons\n            \n        x, y = current\n        for dx, dy in [(0,1), (0,-1), (1,0), (-1,0)]:\n            neighbor = (x + dx, y + dy)\n            if neighbor in obstacles:\n                continue\n            \n            tentative_g = g_score[current] + 1\n            if neighbor not in g_score or tentative_g < g_score[neighbor]:\n                came_from[neighbor] = current\n                g_score[neighbor] = tentative_g\n                f_score = tentative_g + abs(target[0] - neighbor[0]) + abs(target[1] - neighbor[1])\n                heapq.heappush(open_set, (f_score, neighbor))\n    return []\n\nbuttons = astar(start, target, obstacles)\nprint(json.dumps(buttons))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-03-01T23:06:33.742Z",
-        "action_counter": 11404
-      }
-    ]
-  },
   "pokemon_center_healer": {
     "description": "Automates the healing dialogue at a Pokemon Center, carefully pressing A to navigate the menus and waiting for the healing animation.",
     "input_schema": {
@@ -921,6 +879,29 @@
         "commit_message": "Initial version",
         "timestamp": "2026-02-26T04:52:29.169Z",
         "action_counter": 5619
+      }
+    ]
+  },
+  "use_item": {
+    "description": "Automates using an item from the ITEM menu. Assumes you are already in the ITEM menu. Resets the cursor to the top by pressing Up 30 times to prevent cursor memory issues, then navigates to the item and selects USE.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "target_item_index": {
+          "type": "integer",
+          "minimum": 1
+        }
+      },
+      "required": [
+        "target_item_index"
+      ]
+    },
+    "python_script": "import json\n\ntarget_item = int(input_data['target_item_index'])\n\nbuttons = ['Up'] * 30\nbuttons.extend(['Down'] * (target_item - 1))\nbuttons.extend(['A', 'A'])\n\nprint(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-03-03T21:16:50.201Z",
+        "action_counter": 12654
       }
     ]
   }
