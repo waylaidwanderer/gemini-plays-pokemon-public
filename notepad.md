@@ -751,8 +751,8 @@ Roof:
    - (15, 18) Stop: Walk L, L to (13, 18) spinner -> (11, 20) Stop.
    - (11, 20) Stop: Walk R, R, R, D, D, L to (13, 22) spinner -> (9, 24) Stop.
    - (9, 24) Stop: Walk R, D to (10, 25) spinner -> (14, 25) Stop.
-4. **B2F Elevator:** From (14, 25) Stop, walk right to X=24, then up to the Elevator doors at (24, 18).
-5. **To B4F:** Use Elevator (requires Lift Key) to travel to B4F.
+4. **B2F Elevator:** From (14, 25) Stop, walk right to X=24, then up to the Elevator pad at (24, 19). Press 'Up' to enter the doors at (24, 18).
+5. **To B4F:** Inside the Elevator (Map 0_203), face the panel at the top left and press 'A' to use the Lift Key and travel to B4F.
 6. **Giovanni & Silph Scope:** Defeat Giovanni at (25, 3) and pick up the Silph Scope item ball.
 
 <hr>
