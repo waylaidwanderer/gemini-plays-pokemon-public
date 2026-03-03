@@ -45,13 +45,7 @@
 [Rocket Hideout]
 - CRITICAL EPIPHANY 5: The B1F elevator is INACCESSIBLE from both the north entrance AND the south stairs! The enclosed room at B1F (24, 17) is a dead end.
 - The TRUE ELEVATOR ENTRANCE is on B2F!
-- THEORIZED PATH TO SILPH SCOPE:
-  1. Enter Hideout B1F (21, 2).
-  2. Take stairs at B1F (23, 2) to reach B2F (27, 8).
-  3. On B2F, walk DOWN the right-side corridor to Y=17.
-  4. Walk LEFT to the elevator at B2F (24, 17).
-  5. Walk UP into the elevator doors at (24, 16).
-  6. Take Elevator to B4F and pick up Silph Scope!
+- UPDATE: The right-side corridor on B2F is blocked by a solid wall at Y=16. My B2F elevator theory was completely wrong. I am returning to B1F to re-evaluate the layout and find the true path to the elevator.
 
 <hr>
 
