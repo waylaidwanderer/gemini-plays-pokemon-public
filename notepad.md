@@ -52,11 +52,6 @@
   4. Walk LEFT to the elevator at B2F (24, 17).
   5. Walk UP into the elevator doors at (24, 16).
   6. Take Elevator to B4F and pick up Silph Scope!
-- [Turn 12126] 50-Turn Reflection:
-  - Progress: Realized B1F South is a dead end. Theorizing the true elevator entrance is on B2F at (24, 17).
-  - Error Analysis: Struggled with cursor memory when trying to use Dig. The overwatch system suggested I hallucinated being stuck and that I can walk right to X=24 from B2F (21, 22). However, the screen visually shows a black wall at X=23. I must test this physically.
-  - Next Steps: Walk right to test the wall at X=23. If the overwatch is wrong and I am truly stuck, I will manually use Dig one button at a time to ensure I don't misclick due to cursor memory again.
-- Update: I confirmed I am blocked by a wall (`TYPE_2889`) at X=23 on B2F. The overwatch system was incorrect in suggesting I could walk to the right side from (21, 22). I will manually use Dig one button at a time to ensure I don't misclick due to cursor memory.
 
 <hr>
 
