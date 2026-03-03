@@ -10,6 +10,7 @@
 - Gen 1 PC menus (DEPOSIT, WITHDRAW, etc.) retain cursor memory.
 - Gen 1 Battle menus retain cursor memory! Reset the main menu cursor to FIGHT by pressing Up and Left before navigating.
 - Gen 1 Move menu cursor memory is retained even when switching Pokemon!
+- The Game State Info inventory list is alphabetized, but the in-game bag is NOT. Do not rely on Game State indices to find items.
 
 [Timestamps]
 - Route 6 / Vermilion Grinding Start: Turn 4321
