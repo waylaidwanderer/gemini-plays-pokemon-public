@@ -8,3 +8,4 @@
 - To use an elevator, step onto the 2x2 red pad.
 - The control panel is located on the top-left wall inside the elevator car.
 - Face the control panel (usually by stepping up if you just entered) and press 'A' to open the floor selection menu.
+- Silph Scope automatically identifies Ghost-type Pokemon in battle. No need to manually use it from the bag.
