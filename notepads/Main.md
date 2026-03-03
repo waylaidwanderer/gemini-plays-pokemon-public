@@ -41,11 +41,6 @@
 - Current Focus: Explore B4F to find the Elevator Key and reach the Team Rocket Boss.
 - System Note: Gen 1 move menu WRAPS. Mashing 'Up' DOES NOT guarantee index 1. Must use `current_move_index` based on visual confirmation or tracking memory.
 [Rocket Hideout]
-- CRITICAL EPIPHANY 8: I solved it. The elevator is on B1F at (24, 16) facing DOWN. It can ONLY be accessed from B1F South (24, 17).
-- My mistake earlier: I arrived at B1F South (21, 22) and walked straight RIGHT, hitting the wall at X=23. I forgot there is a gap in the wall further DOWN at Y=24!
-- TRUE PATH TO SILPH SCOPE:
-  1. Take B1F stairs (23, 2) to B2F.
-  2. Navigate B2F maze to reach B1F South via stairs at B2F (21, 22).
-  3. Arrive at B1F (21, 22). WALK DOWN to Y=24, then RIGHT to X=24, then UP to (24, 17).
-  4. Step UP into the elevator at (24, 16)!
-  5. Ride to B4F, defeat boss, get Silph Scope.
+- The elevator is on B1F at (24, 16) facing DOWN.
+- B1F South is a dead end. The wall at X=23 is completely solid.
+- TRUE PATH TO SILPH SCOPE: The elevator must be accessed from the main B1F entrance area. Navigate from B1F entrance (Y=2) -> walk Left to main hallway at X=17 -> Down to Y=17 -> Right to the doors at (24, 16) -> Ride to B4F, defeat boss, get Silph Scope.
