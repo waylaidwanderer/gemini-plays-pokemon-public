@@ -43,4 +43,3 @@
 [Rocket Hideout]
 - The elevator is on B1F at (24, 12) facing DOWN.
 - B1F South is a dead end.
-- TRUE PATH TO SILPH SCOPE: The elevator is accessed from the main B1F entrance area. Navigate from B1F entrance -> main hallway -> right-side hallway -> walk down through the gap at X=25 -> walk to (24, 13) to enter the elevator -> Ride to B4F, defeat boss, get Silph Scope.
