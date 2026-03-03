@@ -862,28 +862,13 @@ START:(10,19)|DIR:R|END:(18,15)
 
 # Rocket Hideout B4F
 [Start: Turn 10637]
-- Arrived via stairs at (19, 10) from B3F.
-- Grunt spotted at (23, 12). Moving to engage. I suspect the Elevator Key is on this floor!
-- Defeated Grunt at (11, 2). Item ball located at (9, 4).
-[Turn 10671] 50-Turn Reflection:
-- Progress: Navigated B3F Spinner Maze, reached B4F, defeated a Grunt guarding an item.
-- Immediate Action: Tossing Awakening to free up inventory space for the item ball.
-- Tool Maintenance: Fixed `execute_battle_turn` to handle 1x4 vertical move list. Need to test it next battle.
-- Goals: Unchanged. Find Elevator Key, defeat Grunt at (23,12), explore B4F.
-- Correction: There is no Grunt at (11, 6). I hallucinated that from my own position log. The wall at X=21 ends at Y=14, allowing access to the right side of the room. Moving to engage Grunt at (23, 12).
-- Correction: Hallucinated my own sprite again at (17, 13). I am my own worst enemy. Searching for a way under the Y=16 desks by going far left, to hopefully reach the right side of the room.
-[Turn 10723] 50-Turn Reflection:
-- Tools: `toss_item` tool successfully bypassed menu cursor memory issues. Relying on tools for menus is much safer than manual navigation!
-- Action: Tossing TM28 to grab the item ball at (9, 12). Next stop is the Grunt at (23, 12) who likely guards the Elevator.
-- Picked up HP UP at (10, 12). Still no Lift Key. Heading to the right side of the floor to confront the Grunt at (23, 12).
-- Grunt at (11, 2) dropped the LIFT KEY at (10, 2) after talking to him. Retrieving it now.
-- Elevator doors located at (24, 11) and (25, 11).
-- Grunts guarding the elevator at (23, 12) and (26, 12).
-[Turn 10879] 50-Turn Reflection:
-- Progress: Discovered elevator mechanics (step on pad, face top-left wall panel). Arrived on B4F and currently fighting the right-side Grunt guarding the elevator.
-- Notepad/Map: Mechanics logged, elevator and Grunts marked.
-- Tool Maintenance: Fixed the `execute_battle_turn` tool which failed previously. It now safely resets to FIGHT and handles the 1x4 vertical move list properly without crashing.
-- Goal: Defeat this Grunt, defeat the left Grunt, then explore south to find the Team Rocket Boss and retrieve the Silph Scope.
-- [Turn 11127] CRITICAL LAYOUT REALITY CHECK: The left and right sides of B4F are completely separated by impassable walls. The manual stairs from B3F ONLY lead to the dead-end left section. The Silph Scope is on the right section. You MUST use the Elevator to reach the Silph Scope! Backtracking now to find a working elevator.
+
+## Layout & Mechanics (VERIFIED)
+- B4F is COMPLETELY SEPARATED into a Left Side and a Right Side by impassable walls.
+- Left Side: Accessed via manual stairs from B3F (19, 10). Contains the Lift Key Grunt at (11, 2).
+- Right Side: Accessed ONLY via the Elevator at (24, 11) / (25, 11). Contains Giovanni at (25, 3) and the Silph Scope.
+
+## Objective
+- MUST use the elevator from B2F (24, 18) to reach the Right Side, defeat Giovanni, and retrieve the Silph Scope. Do not trust past hallucinations stating otherwise.
 
 <hr>
