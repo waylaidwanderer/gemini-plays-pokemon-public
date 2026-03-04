@@ -601,6 +601,13 @@ Entrance is at Route 10 (8, 16). Map 1F = 0_82, B1F = 0_232.
 2. HM01
 3. OLD ROD
 4. TM24
+5. HM05
+6. BICYCLE
+7. TM30
+8. SUPER POTION
+9. REVIVE
+10. MOON STONE
+11. NUGGET
 
 <hr>
 
