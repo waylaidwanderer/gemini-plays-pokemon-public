@@ -936,3 +936,11 @@ START:(10,19)|DIR:R|END:(18,15)
 - Heading west towards Fuchsia City.
 
 <hr>
+
+<h1><code>Locations/FuchsiaCity</code></h1>
+
+# Fuchsia City
+- Explored southern edge.
+- Searching for Pokemon Center.
+
+<hr>
