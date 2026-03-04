@@ -927,3 +927,11 @@ START:(10,19)|DIR:R|END:(18,15)
 - Bird Keeper at (13, 31) defeated.
 
 <hr>
+
+<h1><code>Locations/Route15</code></h1>
+
+# Route 15
+- Connected to Route 14 on the east.
+- Heading west towards Fuchsia City.
+
+<hr>
