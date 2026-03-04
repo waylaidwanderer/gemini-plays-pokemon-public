@@ -36,3 +36,4 @@
 - NEVER assume a path is blocked based on visual patterns (like fences). ALWAYS physically test every tile along the suspected barrier by bumping into it to confirm if there is a hidden gap.
 - Encountered Lv 30 Snorlax on Route 12. Failed to catch due to running out of Poke Balls. Defeating it to clear the path. Must stock up before the next static encounter!
 - Custom tools cannot read the screen mid-execution (no while loops for visual feedback).
+- Skull Bash is a 2-turn move (Turn 1: lowers head, Turn 2: attacks).
