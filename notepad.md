@@ -427,6 +427,7 @@ WARNING: Bellsprout's Vine Whip is 4x effective against Geodude. Train Cleo here
 - The Party Menu wraps around (pressing Up at the top goes to the bottom) and retains cursor memory. You cannot reset the cursor by mashing Up. Always track or visually confirm current_index before using tools.
 - Inventory Mechanics: To free an inventory slot occupied by a stacked item (like Poke Balls), the ENTIRE stack must be tossed or used. Tossing just one from a stack of multiple does not free the slot.
 - WARNING: Pressing START in the item menu does NOT close the menu. It selects the item below the cursor and can trigger accidental item usage. ALWAYS use B to exit menus.
+- Gen 1 Item Bag Wrap-around: Pressing Up at the top item wraps to CANCEL, then pressing Up again wraps to the bottom item. Mashing Up will endlessly loop the menu, not reset the cursor to the top!
 
 <hr>
 
