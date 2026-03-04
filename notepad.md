@@ -595,7 +595,7 @@ Entrance is at Route 10 (8, 16). Map 1F = 0_82, B1F = 0_232.
 
 # Inventory Order
 21. EXIT
-20. TM07
+20. X ACCURACY
 19. MOON STONE
 18. REVIVE
 17. GREAT BALL
