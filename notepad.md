@@ -47,7 +47,6 @@
 [Rocket Hideout]
 - The elevator is on B1F at (24, 12) facing DOWN.
 - B1F South is a dead end.
-- Caught Haunter (Lv 28) on Pokemon Tower 7F: Turn 13216
 
 <hr>
 
