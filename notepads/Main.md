@@ -23,9 +23,9 @@
 - Silph Scope Retrieval (Backtracking): Turn 11929
 
 [Plan]
-- Speak to Mr. Fuji in his Volunteer Pokemon House.
-- Heal the party at the Pokemon Center.
-- Figure out the next step of the journey (Route 12 or Route 8?).
+- Explore Route 12 south towards Fuchsia City.
+- Find a Poke Mart to restock on Poke Balls.
+- Catch new Pokemon on Route 12.
 
 [HMs]
 - HM01 (Cut): Taught to Audrey (Bellsprout).
