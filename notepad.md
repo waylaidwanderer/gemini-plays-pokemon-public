@@ -594,11 +594,20 @@ Entrance is at Route 10 (8, 16). Map 1F = 0_82, B1F = 0_232.
 <h1><code>Notes/InventoryOrder</code></h1>
 
 # Inventory Order
-(Work in progress - mapping from top to bottom)
-1. 
-2. 
-3. 
-4.
+21. EXIT
+20. TM07
+19. MOON STONE
+18. REVIVE
+17. GREAT BALL
+16. SUPER POTION
+15. TM30
+14. BICYCLE
+13. HM05
+12. TM24
+11. OLD ROD
+10. HM01
+9. TM08
+(Top 8: AWAKENING, ELIXER, ESCAPE ROPE, HP UP, LIFT KEY, NUGGET, SILPH SCOPE, TM02)
 
 <hr>
 
