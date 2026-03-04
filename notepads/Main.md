@@ -22,9 +22,6 @@
 - Journey to Celadon City Start: Turn 9075
 - Silph Scope Retrieval (Backtracking): Turn 11929
 
-[Vermilion City]
-- Fan Club: (9, 13) - Talk to Chairman for Bike Voucher.
-
 [Plan]
 - Speak to Mr. Fuji in his Volunteer Pokemon House.
 - Heal the party at the Pokemon Center.
