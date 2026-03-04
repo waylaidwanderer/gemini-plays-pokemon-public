@@ -41,11 +41,7 @@
 [Route 10]
 - Found a Pokemon Center right next to Rock Tunnel entrance! This is a great place to heal and grind if needed.
 
-[Rocket Hideout]
-- Current Focus: Explore B4F to find the Elevator Key and reach the Team Rocket Boss.
+[Exploration Notes]
 - System Note: Gen 1 move menu WRAPS. Mashing 'Up' DOES NOT guarantee index 1. Must use `current_move_index` based on visual confirmation or tracking memory.
-[Rocket Hideout]
-- The elevator is on B1F at (24, 12) facing DOWN.
-- B1F South is a dead end.
 - NEVER assume a path is blocked based on visual patterns (like fences). ALWAYS physically test every tile along the suspected barrier by bumping into it to confirm if there is a hidden gap.
 - Encountered Lv 30 Snorlax on Route 12. Failed to catch due to running out of Poke Balls. Defeating it to clear the path. Must stock up before the next static encounter!
