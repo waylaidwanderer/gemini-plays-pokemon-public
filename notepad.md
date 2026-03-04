@@ -915,3 +915,12 @@ START:(10,19)|DIR:R|END:(18,15)
 - The West paths at Y=12 and Y=13 are dead ends. The exit to Route 14 must be further North.
 
 <hr>
+
+<h1><code>Locations/Route14</code></h1>
+
+# Route 14
+- South of Route 13.
+- Trainers encountered: Bird Keeper (at top).
+- Goal: Head south towards Fuchsia City.
+
+<hr>
