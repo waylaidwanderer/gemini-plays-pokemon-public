@@ -912,6 +912,6 @@ START:(10,19)|DIR:R|END:(18,15)
 - Navigating a maze of fences. Watch out for dead ends and hidden gaps.
 - Lots of Beauty, Bird Keeper, and Jr. Trainer♀ trainers.
 - Mechanic note: Whirlwind has no effect in Trainer battles in Gen 1!
-- The West exit towards Route 14/Fuchsia City is located around (0, 12). The impassable grass at (1, 13) is a dead end. Do not go East again!
+- The West paths at Y=12 and Y=13 are dead ends. The exit to Route 14 must be further North.
 
 <hr>
