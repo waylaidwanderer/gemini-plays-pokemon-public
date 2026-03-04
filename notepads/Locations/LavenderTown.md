@@ -8,3 +8,5 @@ Points of Interest:
   - Sells: Great Ball, Super Potion, Revive, Escape Rope, Super Repel, Antidote
 - Pokemon Tower: Exterior 0_4 (14, 5), Interior 1F 0_142
 - Pokemon Tower 2F: 0_143
+[Pokemon Tower]
+- 5F has a purified healing zone at (10, 8) that fully restores the party!
