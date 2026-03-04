@@ -31,8 +31,9 @@
 - Fan Club: (9, 13) - Talk to Chairman for Bike Voucher.
 
 [Plan]
-- Return to Lavender Town with the Silph Scope to see the Ghost Pokemon in Pokemon Tower.
-- Find Mr. Fuji, who is missing from his Volunteer Pokemon House.
+- Speak to Mr. Fuji in his Volunteer Pokemon House.
+- Heal the party at the Pokemon Center.
+- Figure out the next step of the journey (Route 12 or Route 8?).
 
 [HMs]
 - HM01 (Cut): Taught to Audrey (Bellsprout).
