@@ -905,3 +905,12 @@ START:(10,19)|DIR:R|END:(18,15)
 - Found a Pokemon Center right next to Rock Tunnel entrance! This is a great place to heal and grind if needed.
 
 <hr>
+
+<h1><code>Locations/Route13</code></h1>
+
+# Route 13
+- Navigating a maze of fences. Watch out for dead ends and hidden gaps.
+- Lots of Beauty, Bird Keeper, and Jr. Trainer♀ trainers.
+- Mechanic note: Whirlwind has no effect in Trainer battles in Gen 1!
+
+<hr>
