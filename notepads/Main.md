@@ -31,9 +31,6 @@
 - HM01 (Cut): Taught to Audrey (Bellsprout).
 - HM05 (Flash): Obtained! Tested party + Diglett, Dugtrio, Meowth, Voltorb - none can learn it. Abandoned finding a Flash user; navigating via grid is faster.
 
-[Route 10]
-- Found a Pokemon Center right next to Rock Tunnel entrance! This is a great place to heal and grind if needed.
-
 [Exploration Notes]
 - System Note: Gen 1 move menu WRAPS. Mashing 'Up' DOES NOT guarantee index 1. Must use `current_move_index` based on visual confirmation or tracking memory.
 - NEVER assume a path is blocked based on visual patterns (like fences). ALWAYS physically test every tile along the suspected barrier by bumping into it to confirm if there is a hidden gap.
