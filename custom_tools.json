@@ -650,50 +650,6 @@
       }
     ]
   },
-  "toss_item": {
-    "description": "Automates tossing an item from the ITEM menu. Assumes you are in the ITEM menu. Navigates from current_item_index to target_item_index using relative Up/Down presses.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "current_item_index": {
-          "type": "integer",
-          "minimum": 1
-        },
-        "target_item_index": {
-          "type": "integer",
-          "minimum": 1
-        },
-        "quantity": {
-          "type": "integer",
-          "minimum": -1,
-          "description": "Amount to toss. Use -1 for ALL."
-        }
-      },
-      "required": [
-        "current_item_index",
-        "target_item_index",
-        "quantity"
-      ]
-    },
-    "python_script": "import json\ndef run(input_data):\n    current = int(input_data['current_item_index'])\n    target = int(input_data['target_item_index'])\n    qty = int(input_data.get('quantity', -1))\n    \n    buttons = []\n    diff = target - current\n    if diff > 0:\n        buttons.extend(['Down'] * diff)\n    elif diff < 0:\n        buttons.extend(['Up'] * abs(diff))\n        \n    # Select item and choose Toss\n    buttons.extend(['A', 'Down', 'A'])\n    \n    # Handle quantity\n    if qty == -1:\n        buttons.append('Down')\n    elif qty > 1:\n        buttons.extend(['Up'] * (qty - 1))\n        \n    # Confirm quantity\n    buttons.append('A')\n    \n    # Select YES and confirm Toss\n    buttons.extend(['Up', 'A'])\n    \n    print(json.dumps(buttons))\n\nrun(input_data)",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-02-26T04:52:29.170Z",
-        "action_counter": 5619
-      },
-      {
-        "commit_message": "Fix toss_item to use relative navigation",
-        "timestamp": "2026-03-04T01:03:57.384Z",
-        "action_counter": 13081
-      },
-      {
-        "commit_message": "Fixed YES/NO prompt defaulting to NO by adding Up then A to the end of the sequence.",
-        "timestamp": "2026-03-04T04:42:48.259Z",
-        "action_counter": 13321
-      }
-    ]
-  },
   "use_hm_field": {
     "description": "Automates using a field move. CRITICAL: YOU MUST ALREADY BE IN THE POKEMON MENU BEFORE CALLING THIS. DO NOT CALL FROM THE OVERWORLD OR START MENU. Navigates from current_index to target_index using wrap-around and selects the top option.",
     "input_schema": {
