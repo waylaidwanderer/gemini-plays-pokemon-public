@@ -14,6 +14,7 @@
 - Gen 1 Move menu cursor memory is retained even when switching Pokemon!
 - The Game State Info inventory list is alphabetized, but the in-game bag is NOT. Do not rely on Game State indices to find items.
 - The overworld Start Menu ALSO retains cursor memory! Always check where the cursor is before blindly executing navigation sequences.
+- When menu state desyncs or cursor memory causes an error, ALWAYS back out entirely to the overworld (spam B) and start fresh. Do not try to "fix" it mid-menu blindly.
 
 [Timestamps]
 - Route 6 / Vermilion Grinding Start: Turn 4321
