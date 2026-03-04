@@ -22,11 +22,6 @@
 - Journey to Celadon City Start: Turn 9075
 - Silph Scope Retrieval (Backtracking): Turn 11929
 
-[Trades]
-- Route 5 Gate: NPC wants to trade a Nidoran F for a Nidoran M.
-- Vermilion City: NPC wants Spearow for Farfetch'd.
-- Route 2 House: NPC wants Abra for Mr. Mime.
-
 [Vermilion City]
 - Fan Club: (9, 13) - Talk to Chairman for Bike Voucher.
 
