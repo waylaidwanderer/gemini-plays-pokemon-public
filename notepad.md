@@ -47,7 +47,6 @@
 [Rocket Hideout]
 - The elevator is on B1F at (24, 12) facing DOWN.
 - B1F South is a dead end.
-- Pokemon Tower Top Floor Reached: Turn 13130
 
 <hr>
 
