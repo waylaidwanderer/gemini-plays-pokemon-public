@@ -594,7 +594,7 @@ Entrance is at Route 10 (8, 16). Map 1F = 0_82, B1F = 0_232.
 
 <h1><code>Notes/InventoryOrder</code></h1>
 
-# Inventory Order (Confirmed Turn 13299)
+# Inventory Order (Confirmed Turn 13321)
 1. TM08
 2. HM01
 3. OLD ROD
@@ -611,10 +611,10 @@ Entrance is at Route 10 (8, 16). Map 1F = 0_82, B1F = 0_232.
 14. SILPH SCOPE
 15. ESCAPE ROPE
 16. ELIXER
-17. AWAKENING
-18. HP UP
-19. RARE CANDY (Assumed)
-20. X ACCURACY (Assumed)
+17. HP UP
+18. RARE CANDY (Assumed)
+19. X ACCURACY (Assumed)
+20. POKé FLUTE
 21. CANCEL
 
 <hr>

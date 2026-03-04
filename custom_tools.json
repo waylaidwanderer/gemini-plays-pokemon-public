@@ -675,7 +675,7 @@
         "quantity"
       ]
     },
-    "python_script": "import json\ndef run(input_data):\n    current_index = input_data['current_item_index']\n    target_index = input_data['target_item_index']\n    quantity = input_data['quantity']\n    buttons = []\n    diff = target_index - current_index\n    if diff > 0:\n        buttons.extend(['Down'] * diff)\n    elif diff < 0:\n        buttons.extend(['Up'] * abs(diff))\n    buttons.extend(['A', 'Down', 'A'])\n    if quantity == -1:\n        buttons.extend(['Up', 'A'])\n    elif quantity > 1:\n        buttons.extend(['Up'] * (quantity - 1))\n        buttons.append('A')\n    else:\n        buttons.append('A')\n    print(json.dumps(buttons))\nrun(input_data)",
+    "python_script": "import json\ndef run(input_data):\n    current = int(input_data['current_item_index'])\n    target = int(input_data['target_item_index'])\n    qty = int(input_data.get('quantity', -1))\n    \n    buttons = []\n    diff = target - current\n    if diff > 0:\n        buttons.extend(['Down'] * diff)\n    elif diff < 0:\n        buttons.extend(['Up'] * abs(diff))\n        \n    # Select item and choose Toss\n    buttons.extend(['A', 'Down', 'A'])\n    \n    # Handle quantity\n    if qty == -1:\n        buttons.append('Down')\n    elif qty > 1:\n        buttons.extend(['Up'] * (qty - 1))\n        \n    # Confirm quantity\n    buttons.append('A')\n    \n    # Select YES and confirm Toss\n    buttons.extend(['Up', 'A'])\n    \n    print(json.dumps(buttons))\n\nrun(input_data)",
     "history": [
       {
         "commit_message": "Initial version",
@@ -686,6 +686,11 @@
         "commit_message": "Fix toss_item to use relative navigation",
         "timestamp": "2026-03-04T01:03:57.384Z",
         "action_counter": 13081
+      },
+      {
+        "commit_message": "Fixed YES/NO prompt defaulting to NO by adding Up then A to the end of the sequence.",
+        "timestamp": "2026-03-04T04:42:48.259Z",
+        "action_counter": 13321
       }
     ]
   },
