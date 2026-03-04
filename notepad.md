@@ -48,6 +48,7 @@
 [Rocket Hideout]
 - The elevator is on B1F at (24, 12) facing DOWN.
 - B1F South is a dead end.
+- NEVER assume a path is blocked based on visual patterns (like fences). ALWAYS physically test every tile along the suspected barrier by bumping into it to confirm if there is a hidden gap.
 
 <hr>
 
