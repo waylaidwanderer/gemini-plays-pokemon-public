@@ -613,6 +613,10 @@ Entrance is at Route 10 (8, 16). Map 1F = 0_82, B1F = 0_232.
 14. ESCAPE ROPE
 15. ELIXER
 16. HP UP
+17. X ACCURACY
+18. RARE CANDY
+19. POKé FLUTE
+20. SUPER ROD
 
 <hr>
 
