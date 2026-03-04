@@ -26,7 +26,7 @@
 
 [Plan]
 - Explore Route 12 south towards Fuchsia City.
-- Find a Poke Mart to restock on Poke Balls.
+- Find a Poke Mart to restock on Poke Balls and healing items (Currently: 5 Super Potions left).
 - Catch new Pokemon on Route 12.
 
 [HMs]
