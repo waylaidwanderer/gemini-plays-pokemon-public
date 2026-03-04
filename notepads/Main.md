@@ -37,3 +37,4 @@
 - Encountered Lv 30 Snorlax on Route 12. Failed to catch due to running out of Poke Balls. Defeating it to clear the path. Must stock up before the next static encounter!
 - Custom tools cannot read the screen mid-execution (no while loops for visual feedback).
 - Skull Bash is a 2-turn move (Turn 1: lowers head, Turn 2: attacks).
+- Always visually confirm the item name under the cursor before pressing A in the item menu, as the bag is not alphabetized and indices change.
