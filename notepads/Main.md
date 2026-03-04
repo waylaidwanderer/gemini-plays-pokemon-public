@@ -9,7 +9,7 @@
 - NEVER use dead reckoning. ALWAYS read the Game State Player Position before making any navigational assumptions.
 - Gen 1 PC menus (DEPOSIT, WITHDRAW, etc.) retain cursor memory.
 - Gen 1 Battle menus retain cursor memory! Reset the main menu cursor to FIGHT by pressing Up and Left before navigating.
-- Gen 1 Move menu cursor memory is retained when switching Pokemon OR when a Pokemon faints and a new one is sent out. It only RESETS to index 1 at the start of a NEW battle!
+- Gen 1 Move menu cursor memory is retained when switching Pokemon manually. It RESETS to index 1 when a Pokemon faints and a new one is sent out, or at the start of a NEW battle!
 - The Game State Info inventory list is alphabetized, but the in-game bag is NOT. Do not rely on Game State indices to find items.
 - The overworld Start Menu ALSO retains cursor memory! Always check where the cursor is before blindly executing navigation sequences.
 - When menu state desyncs or cursor memory causes an error, ALWAYS back out entirely to the overworld (spam B) and start fresh. Do not try to "fix" it mid-menu blindly.
