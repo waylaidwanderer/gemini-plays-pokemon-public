@@ -594,7 +594,8 @@ Entrance is at Route 10 (8, 16). Map 1F = 0_82, B1F = 0_232.
 <h1><code>Notes/InventoryOrder</code></h1>
 
 # Inventory Order
-21. EXIT
+21. RARE CANDY
+22. EXIT
 20. X ACCURACY
 19. MOON STONE
 18. REVIVE
