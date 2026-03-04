@@ -651,7 +651,7 @@
     ]
   },
   "toss_item": {
-    "description": "Automates tossing an item from the ITEM menu. Assumes you are in the ITEM menu.",
+    "description": "Automates tossing an item from the ITEM menu. Assumes you are in the ITEM menu. Navigates from current_item_index to target_item_index using relative Up/Down presses.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -665,7 +665,8 @@
         },
         "quantity": {
           "type": "integer",
-          "minimum": 1
+          "minimum": -1,
+          "description": "Amount to toss. Use -1 for ALL."
         }
       },
       "required": [
@@ -674,12 +675,17 @@
         "quantity"
       ]
     },
-    "python_script": "import json\n\ndef generate_presses(current_item_index, target_item_index, quantity):\n    presses = []\n    diff = target_item_index - current_item_index\n    direction = 'Down' if diff > 0 else 'Up'\n    for _ in range(abs(diff)):\n        presses.extend([direction, 'sleep 300'])\n    presses.extend(['A', 'sleep 500', 'Down', 'sleep 300', 'A', 'sleep 500']) # Select TOSS\n    \n    if quantity > 1:\n        for _ in range(quantity - 1):\n             presses.extend(['Up', 'sleep 100'])\n             \n    presses.extend(['A', 'sleep 500', 'A']) # Confirm quantity and confirm toss\n    return presses\n\nprint(json.dumps(generate_presses(input_data['current_item_index'], input_data['target_item_index'], input_data['quantity'])))",
+    "python_script": "import json\ndef run(input_data):\n    current_index = input_data['current_item_index']\n    target_index = input_data['target_item_index']\n    quantity = input_data['quantity']\n    buttons = []\n    diff = target_index - current_index\n    if diff > 0:\n        buttons.extend(['Down'] * diff)\n    elif diff < 0:\n        buttons.extend(['Up'] * abs(diff))\n    buttons.extend(['A', 'Down', 'A'])\n    if quantity == -1:\n        buttons.extend(['Up', 'A'])\n    elif quantity > 1:\n        buttons.extend(['Up'] * (quantity - 1))\n        buttons.append('A')\n    else:\n        buttons.append('A')\n    print(json.dumps(buttons))\nrun(input_data)",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2026-02-26T04:52:29.170Z",
         "action_counter": 5619
+      },
+      {
+        "commit_message": "Fix toss_item to use relative navigation",
+        "timestamp": "2026-03-04T01:03:57.384Z",
+        "action_counter": 13081
       }
     ]
   },
@@ -883,25 +889,35 @@
     ]
   },
   "use_item": {
-    "description": "Automates using an item from the ITEM menu. Assumes you are already in the ITEM menu. Resets the cursor to the top by pressing Up 30 times to prevent cursor memory issues, then navigates to the item and selects USE.",
+    "description": "Automates using an item from the ITEM menu. Assumes you are already in the ITEM menu. Navigates from current_item_index to target_item_index using relative Up/Down presses.",
     "input_schema": {
       "type": "object",
       "properties": {
+        "current_item_index": {
+          "type": "integer",
+          "minimum": 1
+        },
         "target_item_index": {
           "type": "integer",
           "minimum": 1
         }
       },
       "required": [
+        "current_item_index",
         "target_item_index"
       ]
     },
-    "python_script": "import json\n\ntarget_item = int(input_data['target_item_index'])\n\nbuttons = ['Up'] * 30\nbuttons.extend(['Down'] * (target_item - 1))\nbuttons.extend(['A', 'A'])\n\nprint(json.dumps(buttons))",
+    "python_script": "import json\ndef run(input_data):\n    current_index = input_data['current_item_index']\n    target_index = input_data['target_item_index']\n    buttons = []\n    diff = target_index - current_index\n    if diff > 0:\n        buttons.extend(['Down'] * diff)\n    elif diff < 0:\n        buttons.extend(['Up'] * abs(diff))\n    buttons.extend(['A', 'A'])\n    print(json.dumps(buttons))\nrun(input_data)",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2026-03-03T21:16:50.201Z",
         "action_counter": 12654
+      },
+      {
+        "commit_message": "Fix use_item to use relative navigation and avoid infinite menu looping",
+        "timestamp": "2026-03-04T01:03:57.383Z",
+        "action_counter": 13081
       }
     ]
   }
