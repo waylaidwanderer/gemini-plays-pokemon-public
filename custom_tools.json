@@ -871,28 +871,5 @@
         "action_counter": 13441
       }
     ]
-  },
-  "find_item": {
-    "description": "Calculates and executes the optimal sequence of Up/Down button presses to navigate a vertical menu to find a specific target item string. Reads the screen text to find the current item index, calculates the required relative presses, and executes them. Assumes you are currently in the ITEM bag.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "target_item": {
-          "type": "string",
-          "description": "The EXACT name of the item you want to find in the bag, exactly as it appears in the game's text. Example: 'SUPER POTION'"
-        }
-      },
-      "required": [
-        "target_item"
-      ]
-    },
-    "python_script": "import json\nimport re\n\ndef execute(input_data):\n    target_item = input_data.get(\"target_item\")\n    if not target_item:\n        print(\"Error: target_item is required\")\n        return\n\n    # 1. Read the screen text from the current state context\n    # Since we are in the middle of a turn, we don't have access to the *next* state yet\n    # We have to rely on the user passing in the screen text, OR we can just write a tool\n    # that presses Down and waits for the next turn, but that's what we were trying to avoid.\n    # Actually, a better approach is to use the `spam_button` or `move_sequence` carefully,\n    # or just use a tool that tells the user to visually confirm.\n    \n    # Wait, the prompt says \"Reads the screen text to find the current item index\".\n    # I can't write a tool that reads the screen mid-execution and then presses more buttons dynamically\n    # within a single call because tools run purely on the static data provided at the START of the turn.\n    \n    # Let's simplify. I will just back out of this TM menu manually and then carefully use `navigate_menu`.\n    print(json.dumps([\"B\", \"B\", \"B\", \"B\"]))\n",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-03-04T16:23:02.670Z",
-        "action_counter": 13597
-      }
-    ]
   }
 }
