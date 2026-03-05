@@ -45,5 +45,5 @@
 - Cursor memory differences: Party menu from Start->POKéMON retains it, Start->ITEM->USE resets it. PC and Battle menus retain it. Move menu retains it when switching manually, but resets on faint/new battle.
 - Fainted Pokemon CAN use field moves (HMs). The option remains in their menu.
 - The Party Menu and Move Menu WRAP. Mashing 'Up' does not guarantee index 1.
-[Reflection 15244]
-- 50-Turn Check completed. I am deleting my unverified Pokemon Center marker at (19, 27) because I placed it based on old, confusing assumptions, and it is causing severe confirmation bias that keeps leading me into dead ends on the East side of the city. I will now systematically explore the West side of Fuchsia City (South of the PokeMart) to find the actual Pokemon Center based purely on immediate visual evidence.
+[Reflection 15348]
+- 50-Turn Check completed. I successfully used my PC tool to deposit excess items and free up bag space without getting stuck in cursor loops. My map markers are updated and accurate. I am now heading back to the Poke Mart to restock on Great Balls and healing items before searching for the Safari Zone.
