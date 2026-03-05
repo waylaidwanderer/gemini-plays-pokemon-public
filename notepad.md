@@ -65,12 +65,11 @@
 - Gen 1 Cursor Memory Nuance: Opening the party from 'Start Menu -> POKéMON' RETAINS cursor memory. Opening it from 'Start Menu -> ITEM -> USE' RESETS the cursor to index 1! This inconsistency caused me to use my last Revive on the wrong Pokemon.
 - Fainted Pokemon CAN use HMs.
 - The critique suggested resetting the party cursor by mashing 'Up'. However, the Gen 1 Party Menu WRAPS (Index 1 -> CANCEL -> Index 6). Mashing 'Up' will NOT guarantee hitting index 1. Visual confirmation remains the ONLY foolproof method for Party Menu navigation.
-[Reflection 15087]
+[Reflection 15139]
 - 50-Turn Check completed.
-- I am trapped in a narrow horizontal path at Y=21, squeezed between a one-way ledge above (Y=20) and a fence below (Y=22, TYPE_2889).
-- Visual assumptions tricked me: (17, 22) looked like a gap in the fence visually, but its TYPE_2889 ID indicates it's solid, which was confirmed when I bumped into it and failed to move Down.
-- I will explore this path to the West to find an opening. If this path is a dead end, I'll have to find another way out, possibly by continuing to circle around the eastern side of the city.
-- I must be extremely careful around ledges and use short sequences to avoid trapping myself again.
+- Escaped the zoo enclosures! The overwatch critique was right: long `move_sequence` strings in a maze are fatal because one collision desyncs the entire sequence.
+- Discovered that the path West towards the Pokemon Center is blocked by a Cut bush at (18, 19). Y=13/14 paths are blocked by fences/buildings.
+- I must exclusively use short (1-3 step) movement sequences when navigating tight corridors with ledges and fences.
 
 <hr>
 
