@@ -57,3 +57,4 @@
 - 50-Turn Check completed.
 - Walked into a dead end at (5, 20) in Fuchsia City. The path between the Y=19 ledge and Y=21 fence ends at X=5. I must backtrack East to find the proper path around the zoo enclosures to get back North.
 - Team is 5/6 fainted. Must find the Pokemon Center ASAP. It's somewhere North of the ledges.
+- Gen 1 Mechanics: Fainted Pokemon CANNOT use field moves (HMs). The option disappears from their menu entirely. My initial realization was correct!
