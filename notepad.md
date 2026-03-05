@@ -958,3 +958,13 @@ START:(10,19)|DIR:R|END:(18,15)
 - Path to Pokemon Center: From the West side of the city (near the Gym), walk straight East along the path at Y=29/27. DO NOT approach from the East side, as it is blocked by one-way ledges and walls.
 
 <hr>
+
+<h1><code>Locations/SafariZone</code></h1>
+
+# Safari Zone
+- Goal 1: Find Gold Teeth for the Warden.
+- Goal 2: Find Secret House for HM03 (Surf).
+- Time limit based on steps.
+- Start: Area 1 (Map 0_220).
+
+<hr>
