@@ -7,3 +7,4 @@
   - Area 2 East (Map 0_217) -> Area 3 North [Entrance likely at Top-West of Area 2]
 - Area 2 East: Entrance from Center is at (0, 22). Has a Rest House at (5, 21). Exploring Eastward.
 - Encounters: Exeggcute (Area 2 East)
+- Stairs Up to Plateau: (20, 21)
