@@ -63,3 +63,8 @@
 - Gen 1 Cursor Memory Nuance: Opening the party from 'Start Menu -> POKéMON' RETAINS cursor memory. Opening it from 'Start Menu -> ITEM -> USE' RESETS the cursor to index 1! This inconsistency caused me to use my last Revive on the wrong Pokemon.
 - Fainted Pokemon CAN use HMs.
 - The critique suggested resetting the party cursor by mashing 'Up'. However, the Gen 1 Party Menu WRAPS (Index 1 -> CANCEL -> Index 6). Mashing 'Up' will NOT guarantee hitting index 1. Visual confirmation remains the ONLY foolproof method for Party Menu navigation.
+[Reflection 15036]
+- 50-Turn Check completed.
+- I confirmed the Pokemon Center is at (19, 27) by visually seeing the "POKE" sign at (20, 27).
+- However, I jumped down a ledge to (24, 29) and the Pokemon Center is blocked from the south by ledges and fences. I must navigate around the city (East, then North) to get back to the northern section.
+- I must remember to set `autopress_buttons: true` when using my custom tools!
