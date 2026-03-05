@@ -43,3 +43,7 @@
 - Need to locate Fuchsia City Pokemon Center immediately after curing BamBam.
 - Map marker hygiene is good; placed PokeMart marker.
 - Confirmed Party and Item menus retain cursor memory; visual confirmation is absolutely non-negotiable.
+[Reflection 14777]
+- The building at (22, 13) in Fuchsia City is NOT the Pokemon Center. It's a house with books. I need to find the real Pokemon Center.
+- I need to update my `shop_buyer` tool.
+- Team is in bad shape. Need to heal ASAP.
