@@ -891,5 +891,27 @@
         "action_counter": 13441
       }
     ]
+  },
+  "enter_nickname": {
+    "description": "Automates entering a nickname on the naming screen. Assumes you are ALREADY on the keyboard screen with the cursor on 'A' (top-left).",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "target_name": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "target_name"
+      ]
+    },
+    "python_script": "import json\n\ndef get_keyboard_path(target_name):\n    keyboard = [\n        ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I'],\n        ['J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R'],\n        ['S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', ' '],\n        ['x', '(', ')', ':', ';', '[', ']', 'PK', 'MN'],\n        ['-', '?', '!', 'M', 'F', '/', '.', ',', 'ED']\n    ]\n    def find_char(c):\n        for y, row in enumerate(keyboard):\n            for x, char in enumerate(row):\n                if char == c:\n                    return (x, y)\n        return (0, 0)\n        \n    curr_x, curr_y = 0, 0\n    buttons = [] # Assumes already on keyboard at 'A' (0,0)\n    \n    for char in target_name:\n        target_x, target_y = find_char(char)\n        while curr_x < target_x:\n            buttons.append('Right')\n            curr_x += 1\n        while curr_x > target_x:\n            buttons.append('Left')\n            curr_x -= 1\n        while curr_y < target_y:\n            buttons.append('Down')\n            curr_y += 1\n        while curr_y > target_y:\n            buttons.append('Up')\n            curr_y -= 1\n        buttons.append('A')\n        \n    target_x, target_y = find_char('ED')\n    while curr_x < target_x:\n        buttons.append('Right')\n        curr_x += 1\n    while curr_x > target_x:\n        buttons.append('Left')\n        curr_x -= 1\n    while curr_y < target_y:\n        buttons.append('Down')\n        curr_y += 1\n    while curr_y > target_y:\n        buttons.append('Up')\n        curr_y -= 1\n    buttons.append('A')\n    return buttons\n\ntarget = input_data.get('target_name', '').upper()\nprint(json.dumps(get_keyboard_path(target)))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-03-05T21:39:01.480Z",
+        "action_counter": 15811
+      }
+    ]
   }
 }
