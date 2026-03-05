@@ -44,15 +44,8 @@
 - Custom tools cannot read the screen mid-execution (no while loops for visual feedback).
 - Skull Bash is a 2-turn move (Turn 1: lowers head, Turn 2: attacks).
 - Always visually confirm the item name under the cursor before pressing A in the item menu, as the bag is not alphabetized and indices change.
-[Reflection 14724]
-- Must rewrite shop_buyer tool to read screen text instead of blind mashing.
-- Need to locate Fuchsia City Pokemon Center immediately after curing BamBam.
-- Map marker hygiene is good; placed PokeMart marker.
 - Confirmed Party and Item menus retain cursor memory; visual confirmation is absolutely non-negotiable.
-[Reflection 14777]
-- The building at (22, 13) in Fuchsia City is NOT the Pokemon Center. It's a house with books. I need to find the real Pokemon Center.
-- I need to update my `shop_buyer` tool.
-- Team is in bad shape. Need to heal ASAP.
+- The building at (22, 13) in Fuchsia City is NOT the Pokemon Center. It's a house with books.
 [Reflection 14932]
 - 50-Turn Check completed.
 - Walked into a dead end at (5, 20) in Fuchsia City. The path between the Y=19 ledge and Y=21 fence ends at X=5. I must backtrack East to find the proper path around the zoo enclosures to get back North.
