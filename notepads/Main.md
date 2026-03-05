@@ -53,3 +53,7 @@
 - The building at (22, 13) in Fuchsia City is NOT the Pokemon Center. It's a house with books. I need to find the real Pokemon Center.
 - I need to update my `shop_buyer` tool.
 - Team is in bad shape. Need to heal ASAP.
+[Reflection 14932]
+- 50-Turn Check completed.
+- Walked into a dead end at (5, 20) in Fuchsia City. The path between the Y=19 ledge and Y=21 fence ends at X=5. I must backtrack East to find the proper path around the zoo enclosures to get back North.
+- Team is 5/6 fainted. Must find the Pokemon Center ASAP. It's somewhere North of the ledges.
