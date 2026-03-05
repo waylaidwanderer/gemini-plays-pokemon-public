@@ -20,9 +20,9 @@
 - Silph Scope Retrieval (Backtracking): Turn 11929
 
 [Plan]
-- Find the real Pokemon Center in Fuchsia City to heal.
-- Locate the Safari Zone.
-- Restock on Poke Balls and healing items.
+- Catch rare Pokemon in the Safari Zone and find the Warden's lost teeth.
+- Locate the Secret House to get HM03 Surf.
+- Find the Warden's house in Fuchsia City afterwards.
 
 [HMs]
 - HM01 (Cut): Taught to Audrey (Bellsprout).
