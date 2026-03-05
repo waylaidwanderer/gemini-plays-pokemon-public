@@ -27,9 +27,11 @@
 - Locate the Safari Zone.
 - Restock on Poke Balls and healing items.
 
-[Reflection 14829]
-- I must stop logging POIs in my notepad BEFORE visually confirming their interiors. I keep assuming a building is the Pokemon Center based on its exterior and then confusing myself.
-- Regarding the `shop_buyer` tool: Custom tools cannot read screen text mid-execution (they just generate a button list). The real issue with shopping is that the Shop menu retains cursor memory between transactions! I must visually confirm my cursor index before buying. I will prioritize fixing my shopping workflow once my team is healed.
+[Reflection 14881]
+- 50-Turn Check completed.
+- Ledges (TYPE_3fe2) are strictly ONE-WAY. You can only jump DOWN (South) over them. Moving North against a ledge acts as a solid wall. I spent too many turns trying to navigate up through the Fuchsia Zoo ledges.
+- I must stop logging POIs in my notepad BEFORE visually confirming their interiors.
+- `shop_buyer` tool updated to handle target quantities and bypass cursor memory. Will test it at the Mart soon.
 
 [HMs]
 - HM01 (Cut): Taught to Audrey (Bellsprout).
