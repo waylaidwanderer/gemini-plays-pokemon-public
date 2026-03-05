@@ -60,6 +60,11 @@
 - Walked into a dead end at (5, 20) in Fuchsia City. The path between the Y=19 ledge and Y=21 fence ends at X=5. I must backtrack East to find the proper path around the zoo enclosures to get back North.
 - Team is 5/6 fainted. Must find the Pokemon Center ASAP. It's somewhere North of the ledges.
 - Gen 1 Mechanics: Fainted Pokemon CAN use field moves (HMs). The option remains in their menu. My failure earlier was purely due to cursor memory putting me on a Pokemon without the HM!
+[Reflection 14984]
+- 50-Turn Check completed.
+- Gen 1 Cursor Memory Nuance: Opening the party from 'Start Menu -> POKéMON' RETAINS cursor memory. Opening it from 'Start Menu -> ITEM -> USE' RESETS the cursor to index 1! This inconsistency caused me to use my last Revive on the wrong Pokemon.
+- Fainted Pokemon CAN use HMs.
+- The critique suggested resetting the party cursor by mashing 'Up'. However, the Gen 1 Party Menu WRAPS (Index 1 -> CANCEL -> Index 6). Mashing 'Up' will NOT guarantee hitting index 1. Visual confirmation remains the ONLY foolproof method for Party Menu navigation.
 
 <hr>
 
