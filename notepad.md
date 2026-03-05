@@ -942,5 +942,6 @@ START:(10,19)|DIR:R|END:(18,15)
 # Fuchsia City
 - Explored southern edge.
 - Searching for Pokemon Center.
+- Main city accessed via Cut tree at (26, 13).
 
 <hr>
