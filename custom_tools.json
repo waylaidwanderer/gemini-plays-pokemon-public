@@ -61,6 +61,28 @@
       }
     ]
   },
+  "enter_nickname": {
+    "description": "Automates entering a nickname on the naming screen. Assumes you are ALREADY on the keyboard screen with the cursor on 'A' (top-left).",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "target_name": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "target_name"
+      ]
+    },
+    "python_script": "import json\n\ndef get_keyboard_path(target_name):\n    keyboard = [\n        ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I'],\n        ['J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R'],\n        ['S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', ' '],\n        ['x', '(', ')', ':', ';', '[', ']', 'PK', 'MN'],\n        ['-', '?', '!', 'M', 'F', '/', '.', ',', 'ED']\n    ]\n    def find_char(c):\n        for y, row in enumerate(keyboard):\n            for x, char in enumerate(row):\n                if char == c:\n                    return (x, y)\n        return (0, 0)\n        \n    curr_x, curr_y = 0, 0\n    buttons = [] # Assumes already on keyboard at 'A' (0,0)\n    \n    for char in target_name:\n        target_x, target_y = find_char(char)\n        while curr_x < target_x:\n            buttons.append('Right')\n            curr_x += 1\n        while curr_x > target_x:\n            buttons.append('Left')\n            curr_x -= 1\n        while curr_y < target_y:\n            buttons.append('Down')\n            curr_y += 1\n        while curr_y > target_y:\n            buttons.append('Up')\n            curr_y -= 1\n        buttons.append('A')\n        \n    target_x, target_y = find_char('ED')\n    while curr_x < target_x:\n        buttons.append('Right')\n        curr_x += 1\n    while curr_x > target_x:\n        buttons.append('Left')\n        curr_x -= 1\n    while curr_y < target_y:\n        buttons.append('Down')\n        curr_y += 1\n    while curr_y > target_y:\n        buttons.append('Up')\n        curr_y -= 1\n    buttons.append('A')\n    return buttons\n\ntarget = input_data.get('target_name', '').upper()\nprint(json.dumps(get_keyboard_path(target)))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-03-05T21:39:01.480Z",
+        "action_counter": 15811
+      }
+    ]
+  },
   "execute_battle_turn": {
     "description": "Executes a full battle turn safely. Resets main menu cursor to FIGHT (Up, Left), then navigates from current_move_index to target_move_index.",
     "input_schema": {
@@ -766,67 +788,6 @@
       }
     ]
   },
-  "withdraw_item_pc": {
-    "description": "Automates withdrawing an item from the PC. Assumes you are in the 'WITHDRAW ITEM' menu.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "current_index": {
-          "type": "integer",
-          "minimum": 1
-        },
-        "target_index": {
-          "type": "integer",
-          "minimum": 1
-        },
-        "quantity": {
-          "type": "integer",
-          "default": 1,
-          "description": "Amount to withdraw. Use -1 for ALL."
-        }
-      },
-      "required": [
-        "current_index",
-        "target_index"
-      ]
-    },
-    "python_script": "import json\n\ndef withdraw_item_pc(input_data):\n    current = int(input_data.get('current_index', 1))\n    target = int(input_data.get('target_index', 1))\n    quantity = int(input_data.get('quantity', 1))\n    \n    buttons = []\n    \n    diff = target - current\n    if diff > 0:\n        buttons.extend(['Down'] * diff)\n    elif diff < 0:\n        buttons.extend(['Up'] * abs(diff))\n        \n    buttons.append('A')\n    buttons.append('sleep 500')\n    \n    if quantity == -1:\n        buttons.append('Down')\n    elif quantity > 1:\n        buttons.extend(['Up'] * (quantity - 1))\n        \n    buttons.append('A')\n    \n    return buttons\n\nprint(json.dumps(withdraw_item_pc(input_data)))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-02-27T00:14:31.879Z",
-        "action_counter": 6444
-      }
-    ]
-  },
-  "withdraw_pokemon": {
-    "description": "Automates withdrawing a Pokemon from the PC. Assumes you are in the 'WITHDRAW PKMN' menu.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "current_index": {
-          "type": "integer",
-          "minimum": 1
-        },
-        "target_index": {
-          "type": "integer",
-          "minimum": 1
-        }
-      },
-      "required": [
-        "current_index",
-        "target_index"
-      ]
-    },
-    "python_script": "import json\n\ndef generate_presses(current_index, target_index):\n    presses = []\n    diff = target_index - current_index\n    direction = 'Down' if diff > 0 else 'Up'\n    for _ in range(abs(diff)):\n        presses.extend([direction, 'sleep 300'])\n    presses.extend(['A', 'sleep 500', 'A'])\n    return presses\n\nprint(json.dumps(generate_presses(input_data['current_index'], input_data['target_index'])))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-02-26T04:52:29.169Z",
-        "action_counter": 5619
-      }
-    ]
-  },
   "use_item": {
     "description": "Automates using an item from the ITEM menu. Assumes you are already in the ITEM menu. Navigates from current_item_index to target_item_index using relative Up/Down presses.",
     "input_schema": {
@@ -892,25 +853,64 @@
       }
     ]
   },
-  "enter_nickname": {
-    "description": "Automates entering a nickname on the naming screen. Assumes you are ALREADY on the keyboard screen with the cursor on 'A' (top-left).",
+  "withdraw_item_pc": {
+    "description": "Automates withdrawing an item from the PC. Assumes you are in the 'WITHDRAW ITEM' menu.",
     "input_schema": {
       "type": "object",
       "properties": {
-        "target_name": {
-          "type": "string"
+        "current_index": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "target_index": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "quantity": {
+          "type": "integer",
+          "default": 1,
+          "description": "Amount to withdraw. Use -1 for ALL."
         }
       },
       "required": [
-        "target_name"
+        "current_index",
+        "target_index"
       ]
     },
-    "python_script": "import json\n\ndef get_keyboard_path(target_name):\n    keyboard = [\n        ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I'],\n        ['J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R'],\n        ['S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', ' '],\n        ['x', '(', ')', ':', ';', '[', ']', 'PK', 'MN'],\n        ['-', '?', '!', 'M', 'F', '/', '.', ',', 'ED']\n    ]\n    def find_char(c):\n        for y, row in enumerate(keyboard):\n            for x, char in enumerate(row):\n                if char == c:\n                    return (x, y)\n        return (0, 0)\n        \n    curr_x, curr_y = 0, 0\n    buttons = [] # Assumes already on keyboard at 'A' (0,0)\n    \n    for char in target_name:\n        target_x, target_y = find_char(char)\n        while curr_x < target_x:\n            buttons.append('Right')\n            curr_x += 1\n        while curr_x > target_x:\n            buttons.append('Left')\n            curr_x -= 1\n        while curr_y < target_y:\n            buttons.append('Down')\n            curr_y += 1\n        while curr_y > target_y:\n            buttons.append('Up')\n            curr_y -= 1\n        buttons.append('A')\n        \n    target_x, target_y = find_char('ED')\n    while curr_x < target_x:\n        buttons.append('Right')\n        curr_x += 1\n    while curr_x > target_x:\n        buttons.append('Left')\n        curr_x -= 1\n    while curr_y < target_y:\n        buttons.append('Down')\n        curr_y += 1\n    while curr_y > target_y:\n        buttons.append('Up')\n        curr_y -= 1\n    buttons.append('A')\n    return buttons\n\ntarget = input_data.get('target_name', '').upper()\nprint(json.dumps(get_keyboard_path(target)))",
+    "python_script": "import json\n\ndef withdraw_item_pc(input_data):\n    current = int(input_data.get('current_index', 1))\n    target = int(input_data.get('target_index', 1))\n    quantity = int(input_data.get('quantity', 1))\n    \n    buttons = []\n    \n    diff = target - current\n    if diff > 0:\n        buttons.extend(['Down'] * diff)\n    elif diff < 0:\n        buttons.extend(['Up'] * abs(diff))\n        \n    buttons.append('A')\n    buttons.append('sleep 500')\n    \n    if quantity == -1:\n        buttons.append('Down')\n    elif quantity > 1:\n        buttons.extend(['Up'] * (quantity - 1))\n        \n    buttons.append('A')\n    \n    return buttons\n\nprint(json.dumps(withdraw_item_pc(input_data)))",
     "history": [
       {
         "commit_message": "Initial version",
-        "timestamp": "2026-03-05T21:39:01.480Z",
-        "action_counter": 15811
+        "timestamp": "2026-02-27T00:14:31.879Z",
+        "action_counter": 6444
+      }
+    ]
+  },
+  "withdraw_pokemon": {
+    "description": "Automates withdrawing a Pokemon from the PC. Assumes you are in the 'WITHDRAW PKMN' menu.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "current_index": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "target_index": {
+          "type": "integer",
+          "minimum": 1
+        }
+      },
+      "required": [
+        "current_index",
+        "target_index"
+      ]
+    },
+    "python_script": "import json\n\ndef generate_presses(current_index, target_index):\n    presses = []\n    diff = target_index - current_index\n    direction = 'Down' if diff > 0 else 'Up'\n    for _ in range(abs(diff)):\n        presses.extend([direction, 'sleep 300'])\n    presses.extend(['A', 'sleep 500', 'A'])\n    return presses\n\nprint(json.dumps(generate_presses(input_data['current_index'], input_data['target_index'])))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-02-26T04:52:29.169Z",
+        "action_counter": 5619
       }
     ]
   }
