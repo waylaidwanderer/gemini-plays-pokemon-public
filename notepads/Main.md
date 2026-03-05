@@ -59,3 +59,7 @@
 [Reflection 15192]
 - 50-Turn Check completed.
 - I am currently exploring a horizontal corridor at Y=20/21 in Fuchsia City, bounded by boulders to the North and a rock wall to the South. I am moving West to see if this path opens up or leads South towards the Pokemon Center (19, 27).
+[Gen 1 Mechanics]
+- Cursor memory differences: Party menu from Start->POKéMON retains it, Start->ITEM->USE resets it. PC and Battle menus retain it. Move menu retains it when switching manually, but resets on faint/new battle.
+- Fainted Pokemon CAN use field moves (HMs). The option remains in their menu.
+- The Party Menu and Move Menu WRAP. Mashing 'Up' does not guarantee index 1.
