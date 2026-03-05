@@ -8,3 +8,4 @@
 - Area 2 East: Entrance from Center is at (0, 22). Has a Rest House at (5, 21). Exploring Eastward.
 - Encounters: Exeggcute, Kangaskhan (Area 2 East)
 - Stairs Up to Plateau: (20, 21)
+- Area 3 North Entrance: Located at X=10 in the top-left area of Area 2 East (go past the rest house).
