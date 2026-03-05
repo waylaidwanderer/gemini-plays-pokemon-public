@@ -8,3 +8,4 @@
 - Area 2 East: Entrance from Center is at (0, 22). Has a Rest House at (5, 21).
 - Encounters: Exeggcute, Kangaskhan (Area 2 East)
 - Stairs Up to Plateau: (20, 21)
+- The plateau in Area 2 East can be used to bypass the central obstacles. Go up the East stairs at (17, 7), walk West across the plateau, and go down the North stairs at (12, 7) to reach the West side of the area.
