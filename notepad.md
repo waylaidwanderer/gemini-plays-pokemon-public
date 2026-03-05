@@ -31,7 +31,7 @@
 
 [Reflection 14881]
 - 50-Turn Check completed.
-- Ledges (TYPE_3fe2) are strictly ONE-WAY. You can only jump DOWN (South) over them. Moving North against a ledge acts as a solid wall. I spent too many turns trying to navigate up through the Fuchsia Zoo ledges.
+- Ledges are strictly ONE-WAY. You can only jump DOWN (South) over them. Moving North against a ledge acts as a solid wall. Note: Not all TYPE_3fe2 tiles are ledges (many are just flat paths or grass), so rely on visual confirmation. I spent too many turns trying to navigate up through the Fuchsia Zoo ledges.
 - I must stop logging POIs in my notepad BEFORE visually confirming their interiors.
 - `shop_buyer` tool updated to handle target quantities and bypass cursor memory. Will test it at the Mart soon.
 
