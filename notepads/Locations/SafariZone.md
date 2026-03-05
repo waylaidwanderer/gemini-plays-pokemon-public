@@ -4,7 +4,7 @@
 - Goal 2: Find Secret House for HM03 (Surf).
 - Map Connections:
   - Area 1 Center (Map 0_220) -> Area 2 East (Map 0_217) [via East Exit]
-  - Area 2 East (Map 0_217) -> Area 3 North [At (0,5). Route: East Stairs (17,7) -> Y=3 path -> West]
+  - Area 2 East (Map 0_217) -> Area 3 North [West edge, past North Stairs (12,7)]
 - Area 2 East: Entrance from Center is at (0, 22). Has a Rest House at (5, 21).
 - Encounters: Exeggcute, Kangaskhan (Area 2 East)
 - Stairs Up to Plateau: (20, 21)
