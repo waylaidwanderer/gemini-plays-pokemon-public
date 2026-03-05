@@ -46,3 +46,5 @@
 - Cursor memory differences: Party menu from Start->POKéMON retains it, Start->ITEM->USE resets it. PC and Battle menus retain it. Move menu retains it when switching manually, but resets on faint/new battle.
 - Fainted Pokemon CAN use field moves (HMs). The option remains in their menu.
 - The Party Menu and Move Menu WRAP. Mashing 'Up' does not guarantee index 1.
+[Reflection 15450]
+- 50-Turn Check completed. I successfully navigated the Northern part of Fuchsia City, found the Safari Zone entrance, and paid the 500 Pokedollars entry fee. I'm currently receiving my 30 Safari Balls and getting ready to enter the park. My map markers are updated.
