@@ -966,7 +966,8 @@ START:(10,19)|DIR:R|END:(18,15)
 - Goal 2: Find Secret House for HM03 (Surf).
 - Map Connections (One-Way Loop: Center -> East -> North -> West -> Center):
   - Area 1 Center (Map 0_220) -> Area 2 East (Map 0_217) [via East Exit at 29,10]
-  - Area 2 East (Map 0_217) -> Area 3 North [via Northwest Exit]
+  - Area 1 Center (Map 0_220) -> Area 3 North (Map 0_218) [via North Exit at 15,0]
+  - Area 2 East (Map 0_217) -> Area 3 North (Map 0_218) [via Northwest Exit at 0,4]
 - Area 2 East: Entrance from Center is at (0, 22). Has a Rest House at (5, 21).
 - Encounters: Exeggcute, Kangaskhan (Area 2 East)
 - There are TWO plateaus in Area 2 East. The South Plateau is a dead end/trap.
