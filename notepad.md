@@ -962,7 +962,7 @@ START:(10,19)|DIR:R|END:(18,15)
   - Area 1 Center (Map 0_220) -> Area 2 East (Map 0_217) [via East Exit at 29,10]
   - Area 1 Center (Map 0_220) -> Area 3 North (Map 0_218) [via North Exit at 15,0]
   - Area 2 East (Map 0_217) -> Area 3 North (Map 0_218) [via Northwest Exit at 0,4]
-- Area 2 East Route: From entrance (0, 22), walk South to Y=24, East to X=20, UP stairs at (20, 21). Walk West across South Plateau, jump DOWN ledge at (12, 21). Walk Left to X=9, head North. Go UP stairs to North Plateau at (12, 7) or (17, 7). Walk West across North Plateau to X=7, go DOWN West stairs at (6, 4). Walk Left to exit at (0, 4).
+- Area 2 East Route: From entrance (0, 22), walk South to Y=24, East to X=20, UP stairs at (20, 21). Walk West across South Plateau, jump DOWN ledge at (12, 21). Walk Left to X=9, head North. Go UP stairs to North Plateau at (12, 7) or (17, 7). Walk West across North Plateau to X=7, jump DOWN the South ledge at (7, 4) to land at Y=5. Walk Left to exit at (0, 4).
 - Encounters: Exeggcute, Kangaskhan (Area 2 East), Rhyhorn (Area 1 Center)
 - Area 1 Center is split by obstacles. No direct North or West exit exists from the entrance. You MUST take the East Exit at (29, 10).
 - Area 3 North: Entrance from Area 2 East is at (39, 31).
