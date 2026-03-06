@@ -10,6 +10,6 @@
 - Area 2 East Route: Enter at (0, 22), walk South to Y=24, East to X=20. Go UP stairs at (20, 21) to the South Plateau. Walk West to X=12, jump DOWN the ledge at (12, 21). Walk Left to X=9, walk North to Y=8. Walk East to X=12, go UP stairs at (12, 7) to North Plateau. Walk East to X=17, go DOWN stairs at (17, 7). Walk East to X=20, North to Y=3, West to X=7, Down to Y=5, West to X=5, Up to Y=4, West to (0, 4) and Left to exit.
 - Area 1 Center is split. From entrance (15, 25), walk East and North around the central Rest House, then East to the exit at (29, 10).
 - Area 3 North Route: From East Area entrance (39, 31), walk West along Y=30 to X=20. Walk North to Y=24, East to X=22, North to (22, 22) [UP stairs]. Walk West to X=16, South to (16, 27) [DOWN stairs]. Walk South to Y=30, West to X=8, South to exit at (8, 35).
-- Area 4 West: Enter (26, 0), walk South to Y=18, West to X=21, UP stairs at (21, 17). Walk West to X=6, DOWN stairs at (6, 19). Secret House NW.
+- Area 4 West: Enter (26, 0), walk South to (26, 1), West to (25, 1), and West again to pass the gap at Y=1 to reach the Northwest section. (The southern plateau is a dead end).
 - Run 8 Start: Turn 17584. Goal: Find gap in Area 4 West between Y=5 and Y=10. DO NOT CATCH POKEMON - PC BOX IS 19/20 FULL!
 - Safari Battle Menu: BALL(TL), BAIT(TR), ROCK(BL), RUN(BR). Retains cursor memory! Use Up, Left to reset to BALL, then Right, Down, A to RUN.
