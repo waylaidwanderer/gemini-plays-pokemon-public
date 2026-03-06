@@ -21,11 +21,6 @@
 - Journey to Celadon City Start: Turn 9075
 - Silph Scope Retrieval (Backtracking): Turn 11929
 
-[Plan]
-- Catch rare Pokemon in the Safari Zone and find the Warden's lost teeth.
-- Locate the Secret House to get HM03 Surf.
-- Find the Warden's house in Fuchsia City afterwards.
-
 [HMs]
 - HM01 (Cut): Taught to Audrey (Bellsprout).
 - HM05 (Flash): Obtained! Tested party + Diglett, Dugtrio, Meowth, Voltorb - none can learn it. Abandoned finding a Flash user; navigating via grid is faster.
