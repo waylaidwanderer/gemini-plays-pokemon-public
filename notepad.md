@@ -962,7 +962,7 @@ START:(10,19)|DIR:R|END:(18,15)
   - Area 1 Center (Map 0_220) -> Area 2 East (Map 0_217) [via East Exit at 29,10]
   - Area 1 Center (Map 0_220) -> Area 3 North (Map 0_218) [via North Exit at 15,0]
   - Area 2 East (Map 0_217) -> Area 3 North (Map 0_218) [via Northwest Exit at 0,4]
-- Area 2 East Route: From entrance (0, 22), walk South to Y=24. Walk East to X=20. Walk North to (20, 21) [UP stairs]. Walk Left to X=17, Up to Y=20, Left to X=12, Down to (12, 21) [DOWN stairs]. Walk South to Y=22, Left to X=9. Walk North to Y=8. Walk East to X=12, UP stairs at (12, 7). Walk EAST to X=17, DOWN stairs at (17, 7). Walk South to Y=9, East to X=20, North to Y=3, West to X=7, South to Y=5, West to X=5, North to Y=4, West to exit at (0, 4).
+- Area 2 East Route: From entrance (0, 22), walk South to Y=24, East to X=20. Walk North to (20, 21) [UP stairs] to reach the plateau. STAY on the plateau and walk North to Y=7. Walk West to X=17. Go DOWN stairs at (17, 7) to reach the area right of the tree. Walk East to X=20, North to Y=3, West to X=7, South to Y=5, West to X=5, North to Y=4, West to exit at (0, 4). Do NOT jump down the ledge at (12, 21)!
 - Encounters: Exeggcute, Kangaskhan (Area 2 East), Rhyhorn (Area 1 Center)
 - Area 1 Center is split by obstacles. No direct North or West exit exists from the entrance. You MUST take the East Exit at (29, 10). Route: From entrance (15, 25), walk East and North around the central Rest House, then continue East to the exit.
 - Area 3 North Route: From East Area entrance (39, 31), walk West along Y=30 to X=20. Walk North through tall grass to Y=24, then walk East to the plateau stairs at (22, 23). Go UP stairs, head West then South to DOWN stairs at (16, 27). Walk West to X=8, South to exit at (8, 35).
