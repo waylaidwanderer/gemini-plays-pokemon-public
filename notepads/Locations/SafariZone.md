@@ -10,6 +10,6 @@
 - Encounters: Exeggcute, Kangaskhan (Area 2 East)
 - There are TWO plateaus in Area 2 East. The South Plateau is a dead end/trap.
 - The North Plateau bypasses the central obstacles. Go up the North stairs at (12, 7), walk East across the plateau, and go down the East stairs at (17, 7) to reach the North side of the area.
-- Speedrun Route to Area 3 North: Enter at (0, 22). Walk East to (7, 22). Walk North to (7, 12). Walk East to (12, 12). Walk North to stairs at (12, 7). Go UP stairs, walk East, go DOWN stairs at (17, 7). Walk West to (7, 3). Go Down to (7, 5). Walk West to the exit!
+- Speedrun Route to Area 3 North: Use the direct North Exit from Area 1 Center at (15, 0). (Precise routing in progress)
 - Area 3 North: Entrance from Area 2 East is at (39, 31).
 - Area 3 North: The path heading West at Y=32 ends in a dead end of trees at X=17 and fences. I need to path North around the fences.
