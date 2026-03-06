@@ -969,6 +969,6 @@ START:(10,19)|DIR:R|END:(18,15)
 - Area 1 Center is split by obstacles. No direct North or West exit exists from the entrance. You MUST take the East Exit at (29, 10).
 - Area 3 North: Entrance from Area 2 East is at (39, 31).
 - Area 3 North: The path heading West at Y=32 ends in a dead end of trees at X=17 and fences. I need to path North around the fences.
-- Run 2 Start: Turn 16440. Strategy: B-line to Secret House (Center -> East -> North Plateau -> North Area -> West Area -> Secret House). Entry is triggered by walking UP towards the door, not by pressing A.
+- Run 3 Start: Turn 16641. Strategy: B-line to Secret House (Center -> East -> North Plateau -> North Area -> West Area -> Secret House). Entry is triggered by walking UP towards the door, not by pressing A.
 
 <hr>
