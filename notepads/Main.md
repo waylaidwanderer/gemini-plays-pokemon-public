@@ -44,6 +44,5 @@
 
 [Gen 1 Mechanics]
 - Cursor memory differences: Party menu from Start->POKéMON retains it, Start->ITEM->USE resets it. PC and Battle menus retain it. Move menu retains it when switching manually, but resets on faint/new battle.
-- Fainted Pokemon CAN use field moves (HMs). The option remains in their menu.
 - The Party Menu and Move Menu WRAP. Mashing 'Up' does not guarantee index 1.
 - HALLUCINATION CHECK: Never assume a tile ID (like TYPE_3fe2) is a solid wall without physically testing it. I wasted many turns avoiding tall grass because I assumed it was impassable. Always bump to verify!
