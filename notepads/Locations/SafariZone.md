@@ -9,7 +9,7 @@
   - Area 4 West (0_219) -> Area 1 Center (0_220) [via Southeast Exit at 29,23 -> 0,11] (WARNING: Leads to dead-end pocket! Only exit is time out)
 - Area 2 East Route: Enter at (0, 22), walk South to Y=24, East to X=20. Go UP stairs at (20, 21) to the South Plateau. Walk West to X=12, jump DOWN the ledge at (12, 21). Walk Left to X=9, walk North to Y=8. Walk East to X=12, go UP stairs at (12, 7) to North Plateau. Walk East to X=17, go DOWN stairs at (17, 7). Walk East to X=20, North to Y=3, and West to exit at (0, 4).
 - Area 1 Center is split. From entrance (15, 25), walk East and North around the central Rest House, then East to the exit at (29, 10).
-- Area 3 North Route: From East Area entrance (39, 31), walk West along Y=30 to X=20. Walk North to Y=24, East to X=22, North to (22, 22) [UP stairs]. Walk West to X=16, South to (16, 27) [DOWN stairs]. Walk South to Y=28, West to X=8, South to exit at (8, 35).
+- Area 3 North Route: From East Area entrance (39, 31), walk West along Y=30 to X=20. Walk North to Y=24, East to X=22, North to (22, 22) [UP stairs]. Walk West to X=16, South to (16, 27) [DOWN stairs]. Walk South to Y=30, West to X=8, South to exit at (8, 35).
 - Area 4 West: Enter at North East (26, 0). CRITICAL: The ledge is at Y=1/Y=2. DO NOT PRESS DOWN AT THE ENTRANCE! Walk LEFT immediately along Y=0 to reach the Secret House. Jumping down traps you in the South. (12, 12) is a Rest House.
 - Run 7 Start: Turn 17461. Goal: Explore North Area 4 West for Secret House. MUST WALK LEFT ALONG Y=0 IMMEDIATELY UPON ENTERING AREA 4 WEST!
 - Safari Battle Menu: BALL(TL), BAIT(TR), ROCK(BL), RUN(BR). Retains cursor memory! Use Up, Left to reset to BALL, then Right, Down, A to RUN.
