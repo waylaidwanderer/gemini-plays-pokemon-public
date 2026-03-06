@@ -261,20 +261,20 @@
     ]
   },
   "move_sequence": {
-    "description": "Executes a sequence of button presses provided as a compact string (e.g. 'DDDRRU' for Down, Down, Down, Right, Right, Up). 'A', 'B', 'S' (Start), 'E' (Select) are also supported.",
+    "description": "Executes a sequence of button presses provided as a compact string (e.g. 'DDDRRU' for Down, Down, Down, Right, Right, Up). 'A', 'B', 'S' (Start), 'E' (Select), 'W' (Wait 500ms), '-' (Wait 500ms) are also supported.",
     "input_schema": {
       "type": "object",
       "properties": {
         "sequence": {
           "type": "string",
-          "description": "String of characters representing buttons: U, D, L, R, A, B, S, E"
+          "description": "String of characters representing buttons: U, D, L, R, A, B, S, E, W, -"
         }
       },
       "required": [
         "sequence"
       ]
     },
-    "python_script": "import json\nseq = input_data.get('sequence', '')\nm = {'U': 'Up', 'D': 'Down', 'L': 'Left', 'R': 'Right', 'A': 'A', 'B': 'B', 'S': 'Start', 'E': 'Select'}\nres = [m[c] for c in seq.upper() if c in m]\nprint(json.dumps(res))",
+    "python_script": "import json\nimport sys\n\nseq = input_data.get('sequence', '')\nm = {\n    'U': 'Up', 'D': 'Down', 'L': 'Left', 'R': 'Right', \n    'A': 'A', 'B': 'B', 'S': 'Start', 'E': 'Select',\n    'W': 'sleep 500', '-': 'sleep 500'\n}\nres = [m[c] for c in seq.upper() if c in m]\nprint(json.dumps(res))\n",
     "history": [
       {
         "commit_message": "Initial version",
@@ -285,6 +285,11 @@
         "commit_message": "Fixed script to print a JSON array instead of returning a python list.",
         "timestamp": "2026-02-22T07:52:15.016Z",
         "action_counter": 183
+      },
+      {
+        "commit_message": "Add 'W' and '-' support to move_sequence for ledge jumps",
+        "timestamp": "2026-03-06T08:54:14.092Z",
+        "action_counter": 16804
       }
     ]
   },
