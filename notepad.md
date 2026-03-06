@@ -971,6 +971,6 @@ START:(10,19)|DIR:R|END:(18,15)
 - Encounters: Exeggcute, Kangaskhan (Area 2 East)
 - Stairs Up to Plateau: (20, 21)
 - The plateau in Area 2 East can be used to bypass the central obstacles. Go up the East stairs at (17, 7), walk West across the plateau, and go down the North stairs at (12, 7) to reach the West side of the area.
-- Speedrun Route to Area 3 North: Enter at (0, 22). Walk East under the Rest House to (7, 22). Walk North to (7, 12), then to the North Stairs at (12, 7). Go UP the stairs, walk East across plateau, and go DOWN East Stairs at (17, 7). Walk North/West to the exit!
+- Speedrun Route to Area 3 North: Enter at (0, 22). Walk East to (20, 21). Go UP stairs. Walk West across plateau to (12, 7). Go DOWN stairs. Walk West/North to exit!
 
 <hr>
