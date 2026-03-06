@@ -11,6 +11,6 @@
 - Area 3 North Route: From East Area entrance (39, 31), walk West along Y=30 to X=20. Walk North through tall grass to Y=24, then walk East to the plateau stairs at (22, 23). Go UP stairs, head West then South to DOWN stairs at (16, 27). Walk West to X=8, South to exit at (8, 35).
 - Map Connection: Area 3 North (0_218) -> Area 4 West (0_219) [via Southwest Exit at 8,35 -> 26,0]
 - Run 3 Start: Turn 16641. Strategy: B-line to Secret House (Center -> East -> North Plateau -> North Area -> West Area -> Secret House). Entry is triggered by walking UP towards the door, not by pressing A.
-- Area 4 West Route: From South East entrance (26, 0), walk South to Y=11. Walk West to X=17, South to Y=16, West to X=14. Walk South to Y=23, then walk East. There is a house at (24, 22). Time ran out here.
+- Area 4 West Route: From South East entrance (26, 0), walk South to Y=11. Walk West to X=17, South to Y=16, West to X=14. Walk South to Y=23, then walk East. There is a bulletin board at (24, 22), not a house.
 - Run 4 Start: Turn 16785. Failed due to getting lost in Area 2 East.
 - Run 5 Start: Turn 16910. Goal: Secret House at Area 4 West (24, 22). Path: Center -> East -> North Area -> West Area -> Secret House.
