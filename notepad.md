@@ -968,7 +968,7 @@ START:(10,19)|DIR:R|END:(18,15)
 - Area 3 North Route: From East Area entrance (39, 31), walk West along Y=30 to X=20. Walk North to Y=24, East to X=22, North to (22, 22) [UP stairs]. Walk West to X=16, South to (16, 27) [DOWN stairs]. Walk South to Y=28, West to X=8, South to exit at (8, 35).
 - Map Connection: Area 3 North (0_218) -> Area 4 West (0_219) [via Southwest Exit at 8,35 -> 26,0]
 - Run 3 Start: Turn 16641. Strategy: B-line to Secret House (Center -> East -> North Plateau -> North Area -> West Area -> Secret House). Entry is triggered by walking UP towards the door, not by pressing A.
-- Area 4 West: Enter at South East (26, 0). (24, 22) is a bulletin board. (12, 12) is a Rest House (door blocked by its own sign). Southwest corner (8, 20) had a Max Potion. Still need to explore North and Northwest of the Rest House for the Secret House and Warden's Teeth.
+- Area 4 West: Enter at South East (26, 0). WARNING: Do NOT jump down the ledges near the entrance or you will be trapped in the southern half! The path North is accessed by walking West from the entrance *without* jumping down. (24, 22) is a bulletin board. (12, 12) is a Rest House. Southwest corner (8, 20) had a Max Potion. Need to explore North/Northwest.
 - Run 4 Start: Turn 16785. Failed due to getting lost in Area 2 East.
 - Run 5 Start: Turn 16910. Goal: Secret House at Area 4 West (24, 22). Path: Center -> East -> North Area -> West Area -> Secret House.
 
