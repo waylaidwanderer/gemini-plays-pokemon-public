@@ -8,7 +8,7 @@
 - Area 2 East Route: Enter at (0, 22), walk South to Y=24, East to X=20. Go UP stairs at (20, 21) to the South Plateau. Walk West to X=12, jump DOWN the ledge at (12, 21). Walk Left to X=9, walk North to Y=8. Walk East to X=10, walk North to Y=2. Walk West to X=7, South to Y=5, West to X=5, North to Y=4, West to exit at (0, 4).
 - Encounters: Exeggcute, Kangaskhan (Area 2 East), Rhyhorn (Area 1 Center)
 - Area 1 Center is split by obstacles. No direct North or West exit exists from the entrance. You MUST take the East Exit at (29, 10). Route: From entrance (15, 25), walk East and North around the central Rest House, then continue East to the exit.
-- Area 3 North Route: From East Area entrance (39, 31), walk West along Y=30 to X=20. Walk North through tall grass to Y=24, then walk East to the plateau stairs at (22, 23). Go UP stairs, head West then South to DOWN stairs at (16, 27). Walk West to X=8, South to exit at (8, 35).
+- Area 3 North Route: From East Area entrance (39, 31), walk West along Y=30 to X=20. Walk North to Y=24, East to X=22, North to (22, 22) [UP stairs]. Walk West to X=16, South to (16, 27) [DOWN stairs]. Walk South to Y=28, West to X=8, South to exit at (8, 35).
 - Map Connection: Area 3 North (0_218) -> Area 4 West (0_219) [via Southwest Exit at 8,35 -> 26,0]
 - Run 3 Start: Turn 16641. Strategy: B-line to Secret House (Center -> East -> North Plateau -> North Area -> West Area -> Secret House). Entry is triggered by walking UP towards the door, not by pressing A.
 - Area 4 West Route: From South East entrance (26, 0), walk South to Y=11. Walk West to X=17, South to Y=16, West to X=14. Walk South to Y=23, then walk East. There is a bulletin board at (24, 22), not a house.
