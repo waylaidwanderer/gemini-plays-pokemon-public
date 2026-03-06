@@ -7,6 +7,6 @@
   - Area 2 East (Map 0_217) -> Area 3 North [via Northwest Exit]
 - Area 2 East: Entrance from Center is at (0, 22). Has a Rest House at (5, 21).
 - Encounters: Exeggcute, Kangaskhan (Area 2 East)
-- Stairs Up to Plateau: (20, 21)
-- The plateau in Area 2 East can be used to bypass the central obstacles. Go up the South stairs at (20, 21), walk West across the plateau, and go down the North stairs at (12, 7) to reach the West side of the area.
-- Speedrun Route to Area 3 North: Enter at (0, 22). Walk East to (20, 21). Go UP stairs. Walk West across plateau to (12, 7). Go DOWN stairs. Walk West/North to exit!
+- There are TWO plateaus in Area 2 East. The South Plateau is a dead end/trap.
+- The North Plateau bypasses the central obstacles. Go up the North stairs at (12, 7), walk East across the plateau, and go down the East stairs at (17, 7) to reach the North side of the area.
+- Speedrun Route to Area 3 North: Enter at (0, 22). Walk East to (7, 22). Walk North to (7, 12). Walk East to (12, 12). Walk North to stairs at (12, 7). Go UP stairs, walk East, go DOWN stairs at (17, 7). Walk North/West to the exit!
