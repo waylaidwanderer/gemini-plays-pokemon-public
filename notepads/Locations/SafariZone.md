@@ -10,6 +10,6 @@
 - Encounters: Exeggcute, Kangaskhan (Area 2 East), Rhyhorn (Area 1 Center)
 - There are TWO plateaus in Area 2 East. The South Plateau is a dead end/trap.
 - The North Plateau bypasses the central obstacles. Go up the North stairs at (12, 7), walk East across the plateau, and go down the East stairs at (17, 7) to reach the North side of the area.
-- Area 1 Center is split by obstacles. No direct North exit found. Searching for a West exit near the entrance.
+- Area 1 Center is split by obstacles. No direct North or West exit exists from the entrance. You MUST take the East Exit at (29, 10).
 - Area 3 North: Entrance from Area 2 East is at (39, 31).
 - Area 3 North: The path heading West at Y=32 ends in a dead end of trees at X=17 and fences. I need to path North around the fences.
