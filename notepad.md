@@ -968,7 +968,7 @@ START:(10,19)|DIR:R|END:(18,15)
 - Area 1 Center is split. From entrance (15, 25), walk East and North around the central Rest House, then East to the exit at (29, 10).
 - Area 3 North Route: From East Area entrance (39, 31), walk West along Y=30 to X=20. Walk North to Y=24, East to X=22, North to (22, 22) [UP stairs]. Walk West to X=16, South to (16, 27) [DOWN stairs]. Walk South to Y=28, West to X=8, South to exit at (8, 35).
 - Area 4 West: Enter at North East (26, 0). CRITICAL: The ledge is at Y=1/Y=2. DO NOT PRESS DOWN AT THE ENTRANCE! Walk LEFT immediately along Y=0 to reach the Secret House. Jumping down traps you in the South. (12, 12) is a Rest House.
-- Run 6 Start: Turn 17375. Goal: Explore North/Northwest Area 4 West for Secret House. Will not jump down the first ledge in Area 4 West!
+- Run 7 Start: Turn 17461. Goal: Explore North Area 4 West for Secret House. MUST WALK LEFT ALONG Y=0 IMMEDIATELY UPON ENTERING AREA 4 WEST!
 - Safari Battle Menu: BALL(TL), BAIT(TR), ROCK(BL), RUN(BR). Retains cursor memory! Use Up, Left to reset to BALL, then Right, Down, A to RUN.
 
 <hr>
