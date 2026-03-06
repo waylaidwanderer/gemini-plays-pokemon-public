@@ -961,7 +961,7 @@ START:(10,19)|DIR:R|END:(18,15)
 
 # Safari Zone
 - Entered at Turn 15456. Limit: 500 steps.
-- Mechanic: Entering with <500 Pokedollars grants proportional Safari Balls.
+- Mechanic: Entering with <500 Pokedollars grants proportional Safari Balls (Seems to require exactly 0 money or repeated attempts, not a reliable strategy).
 - Map Connections (One-Way Loop: Center -> East -> North -> West -> Center):
   - Area 1 Center (Map 0_220) -> Area 2 East (Map 0_217) [via East Exit at 29,10]
   - Area 1 Center (Map 0_220) -> Area 3 North (Map 0_218) [via North Exit at 15,0]
