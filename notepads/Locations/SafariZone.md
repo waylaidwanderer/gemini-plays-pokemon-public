@@ -1,7 +1,6 @@
 # Safari Zone
 - Entered at Turn 15456. Limit: 500 steps.
-- Goal 1: Find Gold Teeth for the Warden.
-- Goal 2: Find Secret House for HM03 (Surf).
+- Mechanic: Entering with <500 Pokedollars grants proportional Safari Balls.
 - Map Connections (One-Way Loop: Center -> East -> North -> West -> Center):
   - Area 1 Center (Map 0_220) -> Area 2 East (Map 0_217) [via East Exit at 29,10]
   - Area 1 Center (Map 0_220) -> Area 3 North (Map 0_218) [via North Exit at 15,0]
