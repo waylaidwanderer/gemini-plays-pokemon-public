@@ -51,11 +51,10 @@
 - Encountered a ledge at Y=15 blocking direct North movement from the stairs. The plateau extends East, so I will follow it that way.
 - Custom tools are working perfectly. I am consistently saving steps by running from battles properly.
 - Map markers are cleaned up.
-[Reflection - Turn 19400]
-- Caught a major hallucination: Safari Zone "Pity Entry" (entering with <500 Pokedollars) is a Pokemon Yellow exclusive mechanic, NOT in Red/Blue. Sold items to get ¥735.
-- Start and Party menu cursor memory caused issues when trying to use Cut. I should define a dedicated `use_cut` tool that safely navigates from the overworld to the Cut user, completely handling cursor resets (mashing B, opening Start, mashing Up to reset, etc.).
-- Goals are clear: Re-enter Safari Zone, follow Route 4 West notes, find Gold Teeth and HM03.
-- Map markers are up to date. I am actively avoiding dead reckoning and using my precise notepad routes for the Safari Zone.
+[Reflection - Turn 19711]
+- Ran out of steps in the Safari Zone, sold items for entry fee, and am heading back.
+- Confirmed again: Party Menu retains cursor memory! Visually verifying the cursor position before using tools like use_hm_field is absolutely critical to avoid misinputs.
+- Strategy for Safari Zone Area 4 West: Right-hand wall-following algorithm to ensure I don't miss the Secret House by assuming ledges/water create closed dead-end loops.
 [Reflection - Turn 19452]
 - Successfully corrected the Pity Entry hallucination, secured funds, and returned to the Safari Zone.
 - Created `use_cut` custom tool to permanently solve Start/Party menu cursor memory issues.
