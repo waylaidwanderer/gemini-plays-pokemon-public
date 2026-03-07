@@ -970,7 +970,7 @@ START:(10,19)|DIR:R|END:(18,15)
 - Area 1 Center is split. From entrance (15, 25), walk East and North around the central Rest House, then East to the exit at (29, 10).
 - Area 3 North Route: From East Area entrance (39, 31), walk West along Y=30 to X=20. Walk North to Y=24, East to X=22, North to (22, 22) [UP stairs]. Walk West to X=16, South to (16, 27) [DOWN stairs]. Walk South to Y=30, West to X=8, South to exit at (8, 35).
 - Area 4 West: Enter (26, 0). DO NOT GO SOUTH TO THE REST HOUSE. The ledge separating the North and South halves is one-way (South only). From the entrance at (26, 0), stay North (Y < 5) and walk straight West across the top of the map to X=9, then walk South to grab the Gold Teeth at (9, 7). The Secret House is below it.
-- Run 12 Start: Turn 18125. Route: Center -> East -> North -> West. Target: Area 4 West East-side path North past the cliff. DO NOT CATCH POKEMON.
+- Run 13 Start: Turn 18205. Route: Center -> East -> North -> West. Target: Area 4 West, staying NORTH of the ledge to reach Gold Teeth. DO NOT CATCH POKEMON.
 - Safari Battle Menu: BALL(TL), BAIT(TR), ROCK(BL), RUN(BR). Retains cursor memory! Use Up, Left to reset to BALL, then Right, Down, A to RUN.
 
 <hr>
