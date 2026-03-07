@@ -49,3 +49,8 @@
 - Custom tools (move_sequence, run_battle, safe_mash_b) are proving highly effective and require no changes.
 - My goal remains clear: physically explore the far southern and western perimeters of Area 4 West to bypass the water and locate the Gold Teeth / HM03.
 - Map markers are being placed accurately to document Rest Houses and gates.
+[Reflection - Turn 19400]
+- Caught a major hallucination: Safari Zone "Pity Entry" (entering with <500 Pokedollars) is a Pokemon Yellow exclusive mechanic, NOT in Red/Blue. Sold items to get ¥735.
+- Start and Party menu cursor memory caused issues when trying to use Cut. I should define a dedicated `use_cut` tool that safely navigates from the overworld to the Cut user, completely handling cursor resets (mashing B, opening Start, mashing Up to reset, etc.).
+- Goals are clear: Re-enter Safari Zone, follow Route 4 West notes, find Gold Teeth and HM03.
+- Map markers are up to date. I am actively avoiding dead reckoning and using my precise notepad routes for the Safari Zone.
