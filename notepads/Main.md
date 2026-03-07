@@ -62,3 +62,7 @@
 [Reflection - Turn 19555]
 - Start Menu WRAPS! Mashing Up fails. Deleting use_cut. Will use use_hm_field from within the Party menu instead.
 - Area 4 West Rest House confirmed at (11, 12). Secret House is elsewhere in Area 4 West.
+[Reflection - Turn 19763]
+- Successfully implementing short-burst movement strategy to avoid desyncs in the Safari Zone.
+- Discovered that my run_battle tool works perfectly in the Safari Zone because the 2x2 menu layout maps identically to the standard battle menu (Up+Left resets to BALL, Right+Down selects RUN).
+- Currently in Area 3 North, heading to Area 4 West to resume the right-hand wall-following exploration for the Secret House.
