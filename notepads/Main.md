@@ -66,3 +66,8 @@
 - Successfully implementing short-burst movement strategy to avoid desyncs in the Safari Zone.
 - Discovered that my run_battle tool works perfectly in the Safari Zone because the 2x2 menu layout maps identically to the standard battle menu (Up+Left resets to BALL, Right+Down selects RUN).
 - Currently in Area 3 North, heading to Area 4 West to resume the right-hand wall-following exploration for the Secret House.
+[Reflection - Turn 19815]
+- Explored the lower South pocket of Area 4 West from the stairs at (6, 19). Confirmed it is a dead end containing only a Rest House at (11, 12).
+- Hallucinated an item ball that was actually a sign. Must rely strictly on Game State Info for items.
+- Short burst move_sequence commands (3-6 steps) are highly effective at preventing desyncs and conserving steps in the Safari Zone.
+- The path forward must be North. I am testing Northward movement directly off the plateau at X=6 to access the upper grassy area.
