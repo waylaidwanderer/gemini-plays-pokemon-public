@@ -33,6 +33,7 @@
 - Always visually confirm the item name under the cursor before pressing A in the item menu, as the bag is not alphabetized and indices change.
 - The building at (22, 13) in Fuchsia City is NOT the Pokemon Center. It's a house with books.
 - I must exclusively use short (1-3 step) movement sequences when navigating tight corridors with ledges and fences.
+- WARNING: Cut bushes respawn if you walk too far away from them (off-screen reload)! Always re-verify if the path is actually open.
 
 [Fuchsia City Layout]
 - Ledges are strictly ONE-WAY. You can only jump DOWN (South) over them. Moving North against a ledge acts as a solid wall. Note: Not all TYPE_3fe2 tiles are ledges (many are just flat paths or grass), so rely on visual confirmation.
