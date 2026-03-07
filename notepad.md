@@ -970,7 +970,7 @@ START:(10,19)|DIR:R|END:(18,15)
 - Area 1 Center is split. From entrance (15, 25), walk East and North around the central Rest House, then East to the exit at (29, 10).
 - Area 3 North Route: From East Area entrance (39, 31), walk West along Y=30 to X=20. Walk North to Y=24, East to X=22, North to (22, 22) [UP stairs]. Walk West to X=16, South to (16, 27) [DOWN stairs]. Walk South to Y=30, West to X=8, South to exit at (8, 35).
 - Area 4 West Route: Enter (26, 0). Walk South around the Gatehouse to Y=17. Walk West to stairs at (21, 17) and go UP to the plateau. Walk West across plateau to stairs at (6, 19). LOWER PATH IS A DEAD END (leads to Rest House). Must explore the rest of the plateau or the northern perimeter from (26, 0).
-- Run 13 Start: Turn 18205. Route: Center -> East -> North -> West. Target: Area 4 West, staying NORTH of the ledge to reach Gold Teeth. DO NOT CATCH POKEMON.
+- Run 14 Start: Turn 18985. Route: Center -> East -> North -> West. Target: Area 4 West, staying NORTH of the ledge to reach Gold Teeth. Northern perimeter test. DO NOT CATCH POKEMON.
 - Safari Battle Menu: BALL(TL), BAIT(TR), ROCK(BL), RUN(BR). Retains cursor memory! Use Up, Left to reset to BALL, then Right, Down, A to RUN.
 
 <hr>
