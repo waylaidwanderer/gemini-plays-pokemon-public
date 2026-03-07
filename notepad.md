@@ -970,7 +970,7 @@ START:(10,19)|DIR:R|END:(18,15)
 - Area 1 Center is split. From entrance (15, 25), walk East and North around the central Rest House, then East to the exit at (29, 10).
 - Area 3 North Route: From East Area entrance (39, 31), walk West along Y=30 to X=20. Walk North to Y=24, East to X=22, North to (22, 22) [UP stairs]. Walk West to X=16, South to (16, 27) [DOWN stairs]. Walk South to Y=30, West to X=8, South to exit at (8, 35).
 - Area 4 West Route: Enter (26, 0). Walk South around the Gatehouse to Y=17. Walk West to stairs at (21, 17) and go UP to the plateau. Walk West and North to explore. WARNING: Do NOT jump down ledges here (e.g. at 19,8) until Gold Teeth and HM03 are secured! Use SINGLE STEPS near ledges.
-- LAST CHANCE RUN: Only 535 Pokedollars left. If I fail, I must grind for money.
+- LAST CHANCE RUN: Only 35 Pokedollars left. I may have bypassed the entry trigger by walking Up from (4,2) after a timeout, potentially granting infinite steps! Still playing carefully.
 - Safari Battle Menu: BALL(TL), BAIT(TR), ROCK(BL), RUN(BR). Retains cursor memory! Use Up, Left to reset to BALL, then Right, Down, A to RUN.
 - WARNING: Turning in place and bumping into walls/objects consumes steps! Use short, precise movements to conserve your 500 step limit.
 
