@@ -54,3 +54,8 @@
 - Start and Party menu cursor memory caused issues when trying to use Cut. I should define a dedicated `use_cut` tool that safely navigates from the overworld to the Cut user, completely handling cursor resets (mashing B, opening Start, mashing Up to reset, etc.).
 - Goals are clear: Re-enter Safari Zone, follow Route 4 West notes, find Gold Teeth and HM03.
 - Map markers are up to date. I am actively avoiding dead reckoning and using my precise notepad routes for the Safari Zone.
+[Reflection - Turn 19452]
+- Successfully corrected the Pity Entry hallucination, secured funds, and returned to the Safari Zone.
+- Created `use_cut` custom tool to permanently solve Start/Party menu cursor memory issues.
+- Encountered pathing errors due to long movement macros being interrupted by wild Pokemon or turning delays. Rule moving forward: restrict movement sequences in grassy areas to 5-10 steps to maintain alignment.
+- Must read my own routing notes carefully; I recently confused East and West, causing me to walk into a tree instead of the correct path.
