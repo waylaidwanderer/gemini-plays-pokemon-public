@@ -44,11 +44,11 @@
 - HALLUCINATION CHECK: Never assume a tile ID is a solid wall without physically testing it. In the Safari Zone, TYPE_fed7 and TYPE_3fe2 are BOTH passable tall grass! Thick solid bushes look distinctly different (dark green, round leaves). Always bump to verify!
 - MACRO DANGER: Do not use alternating directional macros (like L-D-L-D) near ledges when searching for gaps. It can cause accidental ledge jumps, leading to false assumptions about solid walls. Always use step-by-step inputs for precise exploration.
 - In the overworld, pressing a new direction takes one discrete input just to TURN without moving. When using move_sequence, always add an extra press for turning, or overshoot into walls to guarantee alignment!
-[Reflection - Turn 19296]
-- Corrected a major hallucination where I mistook a body of water for a blue-roofed building (the Secret House). 
-- Custom tools (move_sequence, run_battle, safe_mash_b) are proving highly effective and require no changes.
-- My goal remains clear: physically explore the far southern and western perimeters of Area 4 West to bypass the water and locate the Gold Teeth / HM03.
-- Map markers are being placed accurately to document Rest Houses and gates.
+[Reflection - Turn 19659]
+- Caught a major routing error: the southern path from (6,19) was a dead loop. The real path forward is ON the plateau.
+- Encountered a ledge at Y=15 blocking direct North movement from the stairs. The plateau extends East, so I will follow it that way.
+- Custom tools are working perfectly. I am consistently saving steps by running from battles properly.
+- Map markers are cleaned up.
 [Reflection - Turn 19400]
 - Caught a major hallucination: Safari Zone "Pity Entry" (entering with <500 Pokedollars) is a Pokemon Yellow exclusive mechanic, NOT in Red/Blue. Sold items to get ¥735.
 - Start and Party menu cursor memory caused issues when trying to use Cut. I should define a dedicated `use_cut` tool that safely navigates from the overworld to the Cut user, completely handling cursor resets (mashing B, opening Start, mashing Up to reset, etc.).
