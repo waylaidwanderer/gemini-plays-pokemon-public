@@ -13,3 +13,4 @@
 - Area 4 West Route: Enter (26, 0). Walk South around the Gatehouse to Y=17. Walk West to stairs at (21, 17) and go UP to the plateau. Walk West and North to explore. WARNING: Do NOT jump down ledges here (e.g. at 19,8) until Gold Teeth and HM03 are secured! Use SINGLE STEPS near ledges.
 - LAST CHANCE RUN: Only 535 Pokedollars left. If I fail, I must grind for money.
 - Safari Battle Menu: BALL(TL), BAIT(TR), ROCK(BL), RUN(BR). Retains cursor memory! Use Up, Left to reset to BALL, then Right, Down, A to RUN.
+- WARNING: Turning in place and bumping into walls/objects consumes steps! Use short, precise movements to conserve your 500 step limit.
