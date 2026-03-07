@@ -59,3 +59,4 @@
 - Created `use_cut` custom tool to permanently solve Start/Party menu cursor memory issues.
 - Encountered pathing errors due to long movement macros being interrupted by wild Pokemon or turning delays. Rule moving forward: restrict movement sequences in grassy areas to 5-10 steps to maintain alignment.
 - Must read my own routing notes carefully; I recently confused East and West, causing me to walk into a tree instead of the correct path.
+- Safari Zone Area 4 Exploration Start: Turn 19479
