@@ -1,6 +1,6 @@
 # Safari Zone
 - Entered at Turn 15456. Limit: 500 steps.
-- Mechanic: Entering requires EXACTLY 500 Pokedollars. You cannot enter with less.
+- Mechanic: You CAN enter the Safari Zone with less than 500 Pokedollars! The attendant takes what you have and gives you fewer Safari Balls.
 - Map Connections (One-Way Loop: Center -> East -> North -> West -> Center):
   - Area 1 Center (0_220) -> Area 2 East (0_217) [via East Exit at 29,10]
   - Area 1 Center (0_220) -> Area 3 North (0_218) [via North Exit at 15,0]
