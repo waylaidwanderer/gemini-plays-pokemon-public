@@ -969,7 +969,7 @@ START:(10,19)|DIR:R|END:(18,15)
 - Area 1 Center is split. From entrance (15, 25), walk East and North around the central Rest House, then East to the exit at (29, 10).
 - Area 3 North Route: From East Area entrance (39, 31), walk West along Y=30 to X=20. Walk North to Y=24, East to X=22, North to (22, 22) [UP stairs]. Walk West to X=16, South to (16, 27) [DOWN stairs]. Walk South to Y=30, West to X=8, South to exit at (8, 35).
 - Area 4 West: Enter (26, 0). Walk South to Y=18, West to X=21, UP stairs at (21, 17). Walk West across plateau to X=6, DOWN stairs at (6, 19). Walk West to X=2, North to Y=14, East to X=6, then NORTH into tall grass to find Secret House & Gold Teeth!
-- Run 9 Start: Turn 17806. Goal: Explore Area 4 West between Y=0 and Y=4 for Secret House. DO NOT CATCH POKEMON - PC BOX IS 19/20 FULL!
+- Run 10 Start: Turn 17895. Route: Center -> East -> North -> West. In West, cross plateau to Northwest corner to find Secret House & Gold Teeth! DO NOT CATCH POKEMON.
 - Safari Battle Menu: BALL(TL), BAIT(TR), ROCK(BL), RUN(BR). Retains cursor memory! Use Up, Left to reset to BALL, then Right, Down, A to RUN.
 
 <hr>
