@@ -979,5 +979,6 @@ START:(10,19)|DIR:R|END:(18,15)
 - Pity Entry: DOES NOT EXIST IN RED/BLUE. It is a Pokemon Yellow mechanic! You MUST have 500 Pokedollars to enter. If you are broke, you must leave and sell items.
 - Safari Battle Menu: BALL(TL), BAIT(TR), ROCK(BL), RUN(BR). Retains cursor memory! Use Up, Left to reset to BALL, then Right, Down, A to RUN.
 - WARNING: Turning in place and bumping into walls/objects consumes steps! Use short, precise movements to conserve your 500 step limit.
+- WARNING: I only have 560 Pokedollars left, which is exactly enough for ONE MORE ENTRY. Every single step must be perfectly calculated. No bumping into walls, no unnecessary turns. I must follow the exact verified path to the West Area.
 
 <hr>
