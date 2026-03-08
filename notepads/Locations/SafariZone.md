@@ -10,7 +10,7 @@
 - Area 1 Center is split. From entrance (15, 25), walk East and North around the central Rest House, then East to the exit at (29, 10).
 - Area 3 North Route: From East Area entrance (39, 31), walk West along Y=30 to X=20. Walk North to Y=24, East to X=22, North to (22, 22) [UP stairs]. Walk West to X=16, South to (16, 27) [DOWN stairs]. Walk South to Y=30, West to X=8, South to exit at (8, 35).
 - ELEVATION: BROWN=HIGH PLATEAU, GREEN=LOW GRASS. You only jump DOWN ledges from Brown to Green. Northern edges of plateaus are walls!
-- Area 4 West Route: Enter (26, 0). Walk South to Y=9, West to X=21. Walk South to Y=14 to step ONTO the plateau. Walk West on plateau to X=12, jump DOWN ledge at (12, 18). Head West/North to Gold Teeth (9, 7) and Secret House (11, 11). DO NOT jump down ledge at (21, 17)!
+- Area 4 West Route: Enter (26, 0). Walk South to Y=9, West to X=21. Walk South to Y=14 to step ONTO the plateau. Walk West on plateau to X=12, jump DOWN ledge at (12, 18). Head West to stairs at (6, 19). Go UP stairs to West Plateau, then head North to find Secret House & Gold Teeth. DO NOT jump down ledge at (21, 17)!
 - Pity Entry: DOES NOT EXIST IN RED/BLUE. It is a Pokemon Yellow mechanic! You MUST have 500 Pokedollars to enter. If you are broke, you must leave and sell items.
 - Safari Battle Menu: BALL(TL), BAIT(TR), ROCK(BL), RUN(BR). Retains cursor memory! Use Up, Left to reset to BALL, then Right, Down, A to RUN.
 - WARNING: Turning in place and bumping into walls/objects consumes steps! Use short, precise movements to conserve your 500 step limit.
