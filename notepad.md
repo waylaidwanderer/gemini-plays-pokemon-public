@@ -50,8 +50,6 @@
 - The Start Menu WRAPS! Mashing 'Up' does not guarantee index 1.
 - run_battle tool works perfectly in the Safari Zone because the 2x2 menu layout maps identically to the standard battle menu.
 - Safari Zone Attempt 4: Turn 20128
-- Turn 21114 Reflection: 50-turn check completed. Secured ¥1060 by selling items. Discovered Start menu cursor memory persists even after shopping! Tools and markers are up to date. Proceeding to Safari Zone.
-- Turn 21166 Reflection: 50-turn check completed. My previous notepad entry for the Area 2 East Route was incorrect regarding the plateau navigation (West is blocked by water). I have found the stairs DOWN at (24, 15) and will proceed from there. Area 3 North is the target.
 
 <hr>
 
