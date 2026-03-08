@@ -15,4 +15,3 @@
 - Safari Battle Menu: BALL(TL), BAIT(TR), ROCK(BL), RUN(BR). Retains cursor memory! Use Up, Left to reset to BALL, then Right, Down, A to RUN.
 - WARNING: Turning in place and bumping into walls/objects consumes steps! Use short, precise movements to conserve your 500 step limit.
 - WARNING: I only have 560 Pokedollars left, which is exactly enough for ONE MORE ENTRY. Every single step must be perfectly calculated. No bumping into walls, no unnecessary turns. I must follow the exact verified path to the West Area.
-- Center Area Rest House is Map 0_158. Steps are paused inside.
