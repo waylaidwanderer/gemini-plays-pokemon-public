@@ -48,3 +48,4 @@
 - The Start Menu WRAPS! Mashing 'Up' does not guarantee index 1.
 - run_battle tool works perfectly in the Safari Zone because the 2x2 menu layout maps identically to the standard battle menu.
 - Safari Zone Attempt 4: Turn 20128
+- Turn 21218 Reflection: 50-turn check completed. PC Box 1 is at 19/20 - almost full! I must be careful not to catch more than one Pokemon before changing boxes. Exploring the lower grass route in Area 2 East to reach Area 3 North.
