@@ -47,3 +47,4 @@
 - In the overworld, pressing a new direction takes one discrete input just to TURN without moving. When using move_sequence, always add an extra press for turning, or overshoot into walls to guarantee alignment!
 - The Start Menu WRAPS! Mashing 'Up' does not guarantee index 1.
 - run_battle tool works perfectly in the Safari Zone because the 2x2 menu layout maps identically to the standard battle menu.
+- Safari Zone Attempt 4: Turn 20128
