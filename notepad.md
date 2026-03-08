@@ -976,5 +976,6 @@ START:(10,19)|DIR:R|END:(18,15)
 - Area 4 West: Gold Teeth are at (9, 7) in the lower grass. Secret House is in the Northwest corner. Route: Go DOWN the West Stairs at (6, 19) to the lower grass. Walk West to X=5 or X=4 to bypass the stairs/pond, then walk straight NORTH to explore the rest of the area. Do NOT use the East Plateau stairs (21, 17) for this.
 - Safari Battle Menu: BALL(TL), BAIT(TR), ROCK(BL), RUN(BR). Retains cursor memory! Use Up, Left to reset to BALL, then Right, Down, A to RUN.
 - WARNING: Turning in place and bumping into walls/objects consumes steps! Use short, precise movements to conserve your 500 step limit.
+- TRAP WARNING: Do NOT walk Right from the bottom of the East Plateau Stairs at (21, 18). You will enter a 1x1 trap at (22, 18) because the stairs block movement from the side. You will be stuck and forced to waste all your steps to escape!
 
 <hr>
