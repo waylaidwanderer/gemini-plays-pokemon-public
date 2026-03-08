@@ -57,7 +57,6 @@
 - Turn 20439 Reflection: Conducted 50-turn check. Safari Zone routing is working perfectly after correcting my understanding of map elevation (brown=plateau, green=low grass). `run_battle` successfully preserves the final PC slot for a rare encounter. Map markers and objectives remain accurate. Continuing navigation through Area 3 North.
 - Turn 20491 Reflection: Conducted 50-turn check. Ran out of money and got kicked out of the Safari Zone right before finding the Secret House. I've updated my map notes with the correct Area 4 West route. Currently heading to the Fuchsia City PokeMart to sell items so I can afford another entry. Tools and markers are functioning well.
 - Turn 20543 Reflection: Conducted 50-turn check. Successfully re-entered the Safari Zone after selling items for cash. I need to be more mindful of tool preconditions; I accidentally triggered `use_hm_field` in the overworld earlier. I will focus on precise, chunked movements to conserve steps. Proceeding to Area 2 East.
-- Turn 20595 Reflection: Conducted 50-turn check. I've re-entered Area 4 West. My old note about walking 'WEST immediately' at the entrance (26, 0) was factually incorrect due to a solid vertical wall of trees at X=24. I am navigating South to bypass this tree line and find the true path West towards the Secret House. Tools and markers are optimal.
 
 <hr>
 
