@@ -973,7 +973,7 @@ START:(10,19)|DIR:R|END:(18,15)
 - Area 3 North Route: From East Area entrance (39, 31), walk West along Y=30 to X=20. Walk North to Y=24, East to X=22, North to (22, 22) [UP stairs]. Walk West to X=16, South to (16, 27) [DOWN stairs]. Walk South to Y=30, West to X=8, South to exit at (8, 35).
 - Area 4 West Route: Enter (26, 0). Walk South around the Gatehouse to Y=17. Walk West to stairs at (21, 17) and go UP to the plateau. Walk West and North to explore. WARNING: Do NOT jump down ledges here (e.g. at 19,8) until Gold Teeth and HM03 are secured! Use SINGLE STEPS near ledges.
 - Pity Entry: DOES NOT EXIST IN RED/BLUE. It is a Pokemon Yellow mechanic! You MUST have 500 Pokedollars to enter. If you are broke, you must leave and sell items.
-- Area 4 West: The Gold Teeth are at (9, 7) in the lower grass. The Secret House is in the Northwest corner. Route: From the West Stairs at (6, 19), walk North along X=6 to Y=7. Then walk East to (9, 7) for Gold Teeth. Return to X=6, walk North to Y=4, then walk West to reach the Secret House.
+- Area 4 West: The Gold Teeth are at (19, 7). The Secret House is at (11, 11). The cliff at X=17 divides the Area. The lower West area is a DEAD END (pond blocks North from West Stairs). To reach the Gold Teeth and Secret House, you MUST use the East Plateau Stairs at (21, 17) to access the Eastern half of the plateau, then jump DOWN (South) into the grass.
 - Safari Battle Menu: BALL(TL), BAIT(TR), ROCK(BL), RUN(BR). Retains cursor memory! Use Up, Left to reset to BALL, then Right, Down, A to RUN.
 - WARNING: Turning in place and bumping into walls/objects consumes steps! Use short, precise movements to conserve your 500 step limit.
 
