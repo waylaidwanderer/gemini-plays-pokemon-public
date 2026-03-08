@@ -59,6 +59,7 @@
 - Turn 20543 Reflection: Conducted 50-turn check. Successfully re-entered the Safari Zone after selling items for cash. I need to be more mindful of tool preconditions; I accidentally triggered `use_hm_field` in the overworld earlier. I will focus on precise, chunked movements to conserve steps. Proceeding to Area 2 East.
 - Turn 20595 Reflection: Conducted 50-turn check. I've re-entered Area 4 West. My old note about walking 'WEST immediately' at the entrance (26, 0) was factually incorrect due to a solid vertical wall of trees at X=24. I am navigating South to bypass this tree line and find the true path West towards the Secret House. Tools and markers are optimal.
 - Turn 20647 Reflection: Conducted 50-turn check. I realized my mistake! The 'solid wall of trees at X=24' only blocks the northern section. There IS a gap to go West, but it's specifically at Y=9 (just south of the gatehouse). I walked way too far south to Y=17 and got trapped by the bushes at X=17. I am now heading back East to X=25, then North to Y=9 to find the correct path West.
+- Turn 20698 Reflection: Conducted 50-turn check. I successfully corrected my map notes for Area 4 West after realizing the plateau is the required path, not a trap. My custom tools are functioning perfectly, so no new ones are needed. I'm currently executing my established route through Area 2 East to return to Area 4. Need to remember that changing directions requires an extra input.
 
 <hr>
 
