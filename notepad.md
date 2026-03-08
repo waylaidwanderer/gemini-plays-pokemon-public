@@ -50,6 +50,7 @@
 - The Start Menu WRAPS! Mashing 'Up' does not guarantee index 1.
 - run_battle tool works perfectly in the Safari Zone because the 2x2 menu layout maps identically to the standard battle menu.
 - Safari Zone Attempt 4: Turn 20128
+- Turn 20180 Reflection: Path to HM03 is clear. Avoiding ledges in Area 4 West is the key. Evaluated custom tools for Safari catching, but decided manual/spam_button is safer to avoid skipping important capture text. `run_battle` is functioning perfectly for escaping unwanted encounters.
 
 <hr>
 
