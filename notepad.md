@@ -51,6 +51,7 @@
 - run_battle tool works perfectly in the Safari Zone because the 2x2 menu layout maps identically to the standard battle menu.
 - Safari Zone Attempt 4: Turn 20128
 - Turn 20180 Reflection: Path to HM03 is clear. Avoiding ledges in Area 4 West is the key. Evaluated custom tools for Safari catching, but decided manual/spam_button is safer to avoid skipping important capture text. `run_battle` is functioning perfectly for escaping unwanted encounters.
+- Turn 20231 Reflection: Conducted 50-turn check. Tools, map markers, and goals are up to date. Sidetracked by Rest House at (11, 11) in Area 4 West, but route to Secret House requires moving West past the pond. Must avoid blindly macroing into NPCs and verify positions first. All systems optimal.
 
 <hr>
 
