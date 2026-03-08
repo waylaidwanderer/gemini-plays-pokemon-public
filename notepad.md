@@ -972,7 +972,7 @@ START:(10,19)|DIR:R|END:(18,15)
   - Area 3 North (0_218) -> Area 4 West (0_219) [via Southwest Exit at 8,35 -> 26,0]
   - Area 4 West (0_219) -> Area 1 Center (0_220) [via Southeast Exit at 29,23 -> 0,11] (WARNING: Leads to dead-end pocket! Only exit is time out)
 - Area 2 East Route: Enter at (0, 22). Walk South to Y=24, East to X=20. Go UP the stairs at (20, 21) to the South Plateau. Walk West across the plateau and jump DOWN the ledge at (12, 21) (this is actually the correct path, not a trap!). Explore the lower grass after jumping to find the path to the exit at (0, 4).
-- Area 1 Center is split. From entrance (15, 25), walk East and North around the central Rest House, then East to the exit at (29, 10).
+- Area 1 Center is split. From entrance (15, 25), walk West to X=14, North around the central Rest House, then East to the exit at (29, 10).
 - Area 3 North Route: From East Area entrance (39, 31), walk West along Y=30 to X=20. Walk North to Y=24, East to X=22, North to (22, 22) [UP stairs]. Walk West to X=16, South to (16, 27) [DOWN stairs]. Walk South to Y=30, West to X=8, South to exit at (8, 35).
 - ELEVATION: BROWN=HIGH PLATEAU, GREEN=LOW GRASS. You only jump DOWN ledges from Brown to Green. Northern edges of plateaus are walls!
 - Area 4 West Route (WIP): Enter (26, 0). Walk South to bypass the trees (around Y=14 to Y=17). Walk West to the stairs at (21, 17) and go UP onto the plateau. Walk West across the plateau to the stairs at (6, 19) and go DOWN. Explore the lower grass area for the Gold Teeth and Secret House. WARNING: Do NOT jump down the ledges on the plateau! The lower grass around the Rest House (11, 11) is an inescapable trap. You must stay on the plateau until the stairs at (6, 19).
