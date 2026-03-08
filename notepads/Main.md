@@ -48,3 +48,4 @@
 - The Start Menu WRAPS! Mashing 'Up' does not guarantee index 1.
 - run_battle tool works perfectly in the Safari Zone because the 2x2 menu layout maps identically to the standard battle menu.
 - Safari Zone Attempt 4: Turn 20128
+- Turn 21114 Reflection: 50-turn check completed. Secured ¥1060 by selling items. Discovered Start menu cursor memory persists even after shopping! Tools and markers are up to date. Proceeding to Safari Zone.
