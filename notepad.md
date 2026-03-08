@@ -970,7 +970,7 @@ START:(10,19)|DIR:R|END:(18,15)
   - Area 2 East (0_217) -> Area 3 North (0_218) [via Northwest Exit at 0,4]
   - Area 3 North (0_218) -> Area 4 West (0_219) [via Southwest Exit at 8,35 -> 26,0]
   - Area 4 West (0_219) -> Area 1 Center (0_220) [via Southeast Exit at 29,23 -> 0,11] (WARNING: Leads to dead-end pocket! Only exit is time out)
-- Area 2 East Route (CORRECTED): Enter at (0, 22). Walk Right to X=3, Up to (3, 17) [Stairs UP]. On plateau, walk East to X=17, North to (17, 7) [Stairs DOWN]. In grass, walk East to X=21, North to Y=1, West to X=0, South to Exit at (0, 4). DO NOT go South from the entrance, it leads to dead-end loops!
+- Area 2 East Route: Enter at (0, 22). Walk South to Y=24, East to X=20. Go UP stairs at (20, 21) to South Plateau. On plateau, walk West to X=17, North to (17, 7) [Stairs DOWN]. In grass, walk East to X=21, North to Y=1, West to X=0, South to Exit at (0, 4) (UNVERIFIED: Route from 17,7 to exit is theoretical, be careful). WARNING: Do NOT jump down the ledge at (12, 21), it's a trap!
 - Area 1 Center is split. From entrance (15, 25), walk East and North around the central Rest House, then East to the exit at (29, 10).
 - Area 3 North Route: From East Area entrance (39, 31), walk West along Y=30 to X=20. Walk North to Y=24, East to X=22, North to (22, 22) [UP stairs]. Walk West to X=16, South to (16, 27) [DOWN stairs]. Walk South to Y=30, West to X=8, South to exit at (8, 35).
 - ELEVATION: BROWN=HIGH PLATEAU, GREEN=LOW GRASS. You only jump DOWN ledges from Brown to Green. Northern edges of plateaus are walls!
