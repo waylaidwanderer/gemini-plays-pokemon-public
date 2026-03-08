@@ -955,7 +955,7 @@ START:(10,19)|DIR:R|END:(18,15)
 - Main city accessed via Cut tree at (26, 13).
 - PokeMart: (5, 13) - Sells: Ultra Ball, Great Ball, Super Potion...
 - Pokemon Center: (19, 27) (PC is at 13, 3)
-- Path back to North: From (19, 30), walk East, jump RIGHT over the ledge at (23, 30) to X=24, walk North, and use Cut on the bush at (26, 13).
+- Path back to North: From (19, 30), walk East, jump RIGHT over the ledge at (23, 30) to X=24, walk North, and use Cut on the bush at (26, 13). WARNING: Cannot walk West across the ledges at X=23. If stuck on the East side (X >= 24), you MUST go North to the Cut bush at (26, 13) to loop back to the main city.
 - Safari Zone Warden's House: (11, 27). He lost his Gold Teeth in the Safari Zone!
 
 <hr>
