@@ -10,7 +10,11 @@
 - Area 1 Center is split. From entrance (15, 25), walk West to X=14, North around the central Rest House, then East to the exit at (29, 10).
 - Area 3 North Route: From East Area entrance (39, 31), walk West along Y=30 to X=20. Walk North to Y=24, East to X=22, North to (22, 22) [UP stairs]. Walk West to X=16, South to (16, 27) [DOWN stairs]. Walk South to Y=30, West to X=8, South to exit at (8, 35).
 - ELEVATION: BROWN=HIGH PLATEAU, GREEN=LOW GRASS. You only jump DOWN ledges from Brown to Green. Northern edges of plateaus are walls!
-- Area 4 West Route: Enter (26, 0). Walk South to Y=17, then West to the stairs at (21, 17). Go UP the stairs to the plateau. Walk West across the plateau to X=16. DO NOT go all the way West to the stairs at (6, 19)! Going down those stairs traps you in a dead-end lowlands area with the Rest House. Instead, from X=16 on the HIGH plateau, walk NORTH to cross over the water and reach the Northern area with the Gold Teeth and Secret House.
+- Area 4 West Route: Enter (26, 0). Walk South to Y=17, then West to the stairs at (21, 17). Go UP the stairs to the plateau.
+- DEAD ENDS FOUND:
+  1. Stairs down at (6, 19) lead to a dead-end lowlands area (Rest House trap to the East, blocked by water/trees to the North/West).
+  2. The plateau itself has solid walls on its North edge (tested near X=11 to X=16) and East edge (near X=17).
+- MUST FIND A NEW ROUTE: Need to re-explore the plateau for other stairs, South-facing ledges, or check the path from the entrance (26, 0) for missed branches.
 - Pity Entry: DOES NOT EXIST IN RED/BLUE. It is a Pokemon Yellow mechanic! You MUST have 500 Pokedollars to enter. If you are broke, you must leave and sell items.
 - Safari Battle Menu: BALL(TL), BAIT(TR), ROCK(BL), RUN(BR). Retains cursor memory! Use Up, Left to reset to BALL, then Right, Down, A to RUN.
 - WARNING: Turning in place and bumping into walls/objects consumes steps! Use short, precise movements to conserve your 500 step limit.
