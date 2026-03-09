@@ -14,6 +14,6 @@
 - DEAD ENDS FOUND:
   1. Stairs down at (6, 19) lead to a completely dead-end southern lowland. East is a Rest House trap, West is blocked by a tree at Y=14 and rock/water at Y=13. No way North.
   2. The plateau itself has solid walls on its North edge (tested near X=11 to X=16) and East edge (near X=17).
-- Area 4 West Route: Enter (26, 0). Walk South along X=26/27. The path West immediately at the entrance is BLOCKED by trees. You MUST walk South to find the path West. At Y=17, walk West to the stairs at (21, 17) to access the central plateau.
+- Area 4 West Route: Enter (26, 0). Walk South along X=26/27. Previous assumption that the path West immediately at the entrance is BLOCKED is likely false due to macro desyncs. Must systematically test X=24/X=25 from Y=0 to Y=14 for hidden gaps.
 - Safari Zone Attempt 7: Turn 22891. Goal: Execute Area 4 West strategy to find Secret House.
 - Area 4 West Plateau: The North edge has a path going North at X=15. The plateau is split by a vertical wall at X=8/X=9, so we cannot go further West than X=9 on this part of the plateau. Must go North via X=15.
