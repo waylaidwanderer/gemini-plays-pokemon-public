@@ -971,17 +971,15 @@ START:(10,19)|DIR:R|END:(18,15)
   - Area 1 Center (0_220) -> Area 3 North (0_218) [via North Exit at 15,0]
   - Area 2 East (0_217) -> Area 3 North (0_218) [via Northwest Exit at 0,4]
   - Area 3 North (0_218) -> Area 4 West (0_219) [via Southwest Exit at 8,35 -> 26,0]
-  - Area 4 West (0_219) -> Area 1 Center (0_220) [via Southeast Exit at 29,23 -> 0,11] (WARNING: Leads to dead-end pocket! Only exit is time out)
-- Area 2 East Route: Enter at (0, 22). Walk South to Y=24, East to X=20. Go UP the stairs at (20, 21) to the South Plateau. Walk West across the plateau and jump DOWN the ledge at (12, 21). Walk West to X=9, then North and East through the lower grass (along Y=8) to the stairs at (12, 7). Go UP these stairs to the Northern Plateau. Walk East to the stairs at (17, 7) and go DOWN to (17, 8). Walk East to X=20, then North to Y=3. Walk West to X=7, South to Y=5, then West to X=0 and North to the exit at (0, 4).
-- Area 1 Center is split. From entrance (15, 25), walk West to X=14, North around the central Rest House, then East to the exit at (29, 10).
-- Area 3 North Route: From East Area entrance (39, 31), walk West along Y=30 to X=20. Walk North to Y=24, East to X=22, North to (22, 22) [UP stairs]. Walk West to X=16, South to (16, 27) [DOWN stairs]. Walk South to Y=30, West to X=8, South to exit at (8, 35).
-- ELEVATION: BROWN=HIGH PLATEAU, GREEN=LOW GRASS. You only jump DOWN ledges from Brown to Green. Northern edges of plateaus are walls!
-- Area 4 West Route: Enter (26, 0). Walk South to Y=17, then West to the stairs at (21, 17). Go UP the stairs to the plateau.
-- DEAD ENDS FOUND:
-  1. Stairs down at (6, 19) lead to a completely dead-end southern lowland. East is a Rest House trap, West is blocked by a tree at Y=14 and rock/water at Y=13. No way North.
-  2. The plateau itself has solid walls on its North edge (tested near X=11 to X=16) and East edge (near X=17).
-- Area 4 West Route: Enter (26, 0). Walk South along X=26/27. Previous assumption that the path West immediately at the entrance is BLOCKED is likely false due to macro desyncs. Must systematically test X=24/X=25 from Y=0 to Y=14 for hidden gaps.
-- Safari Zone Attempt 8: Turn 23027. Goal: Navigate Area 4 West Plateau. Confirmed X=24 is a SOLID WALL of bushes from Y=0 to Y=15. No hidden gaps exist. The ONLY way West is via stairs at (21, 17).
-- Area 4 West Plateau: The North edge has a path going North at X=15. The plateau is split by a vertical wall at X=8/X=9, so we cannot go further West than X=9 on this part of the plateau. Must go North via X=15.
+  - Area 4 West (0_219) -> Area 1 Center (0_220) [via Southeast Exit at 29,23 -> 0,11] (WARNING: Leads to dead-end pocket!)
+- Area 2 East Route: Enter at (0, 22). Walk South to Y=24, East to X=20. Go UP stairs at (20, 21) to South Plateau. Walk West across plateau, jump DOWN ledge at (12, 21). Walk West to X=9, North/East along Y=8 to stairs at (12, 7). Go UP stairs to Northern Plateau. Walk East to stairs at (17, 7), go DOWN to (17, 8). Walk East to X=20, North to Y=3. West to X=7, South to Y=5, West to X=0, North to exit at (0, 4).
+- Area 1 Center is split. From entrance (15, 25), walk West to X=14, North around central Rest House, then East to exit at (29, 10).
+- Area 3 North Route: From East Area entrance (39, 31), walk West along Y=30 to X=20. North to Y=24, East to X=22, North to (22, 22) [UP stairs]. West to X=16, South to (16, 27) [DOWN stairs]. South to Y=30, West to X=8, South to exit at (8, 35).
+- ELEVATION: BROWN=HIGH PLATEAU, GREEN=LOW GRASS. Jump DOWN ledges from Brown to Green.
+- Area 4 West Route: Enter (26, 0). East wall (X=24) is a SOLID WALL of bushes from Y=0 to Y=15. Walk South to Y=17+ to find a path West.
+- DEAD ENDS IN AREA 4 WEST:
+  1. The entire Brown Plateau is a trap. Going UP stairs at (21, 17) leads to dead ends (no stairs down to northern lowlands).
+  2. Stairs down at (6, 19) from the plateau lead to a dead-end southern lowland.
+- CURRENT GOAL: Find a path WEST through the GREEN LOWLANDS, completely bypassing the plateau stairs at (21, 17). Explore Y=16, Y=18, Y=19 near X=21 for paths.
 
 <hr>
