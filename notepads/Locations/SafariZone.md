@@ -16,3 +16,4 @@
   2. The plateau itself has solid walls on its North edge (tested near X=11 to X=16) and East edge (near X=17).
 - MUST FIND A NEW ROUTE: The plateau is a dead end. I must get to the East side (X=25), walk North along the tree line, and find a gap at X=24 (likely between Y=8 and Y=11) to walk WEST into the upper lowlands. This is the only way to the Secret House!
 - Safari Zone Attempt 6: Turn 22713. Money: 60 (BROKE!). Goal: Explore Area 4 West.
+- CRITICAL DISCOVERY Turn 22806: The plateau wall at Y=18 near the stairs (6, 19) is FAKE! You can walk straight North from (6, 18) to (6, 16) over the brown rock without using stairs! The map geometry here allows you to bypass the stairs entirely. This explains why I was so confused earlier. The 'Secret House Sign' at (6, 18) marks the actual path North!
