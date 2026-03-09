@@ -14,11 +14,5 @@
 - DEAD ENDS FOUND:
   1. Stairs down at (6, 19) lead to a dead-end lowlands area (Rest House trap to the East, blocked by water/trees to the North/West). CONFIRMED completely blocked off.
   2. The plateau itself has solid walls on its North edge (tested near X=11 to X=16) and East edge (near X=17).
-- MUST FIND A NEW ROUTE: The lowlands accessed via (6, 19) are a TRUE dead end (water connects to trees, blocking North). I must backtrack to the entrance of Area 4 West at (26, 0) and explore West along the top edge of the map!
-- Pity Entry: DOES NOT EXIST IN RED/BLUE. It is a Pokemon Yellow mechanic! You MUST have 500 Pokedollars to enter. If you are broke, you must leave and sell items.
-- Safari Battle Menu: BALL(TL), BAIT(TR), ROCK(BL), RUN(BR). Retains cursor memory! Use Up, Left to reset to BALL, then Right, Down, A to RUN.
-- WARNING: Turning in place and bumping into walls/objects consumes steps! Use short, precise movements to conserve your 500 step limit.
-- WARNING: I only have 560 Pokedollars left, which is exactly enough for ONE MORE ENTRY. Every single step must be perfectly calculated. No bumping into walls, no unnecessary turns. I must follow the exact verified path to the West Area.
-- Safari Zone Final Attempt (560 Pokedollars left): Turn 21738
-- Safari Zone Attempt 5: Turn 22465. Money: 1060. Goal: Explore Area 4 West, specifically avoiding the plateau stairs at (21, 17) to find an alternative route.
-Turn 22673 Reflection: I realized my "Dead End" assumption about the stairs at (6, 19) was based on exploring SOUTH from them (hitting the Y=24 bushes) and EAST (hitting the Rest House trap). I never thoroughly explored NORTH from the far West corridor (around X=3, Y=14). I am heading to the stairs at (6, 19) to test this hypothesis!
+- MUST FIND A NEW ROUTE: Jump down the ledge at (12, 18), walk West to X=9 (to bypass the water that ends at X=9), and walk North past the Rest House! This is the only way to the upper half of the map.
+- Safari Zone Attempt 5: Turn 22465. Money: 1060. Goal: Explore Area 4 West.
