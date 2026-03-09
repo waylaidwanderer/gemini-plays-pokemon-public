@@ -979,7 +979,7 @@ START:(10,19)|DIR:R|END:(18,15)
 - Area 4 West Route: Enter (26, 0). East wall (X=24) is a SOLID WALL of bushes from Y=0 to Y=15. Walk South to Y=17+ to find a path West.
 - DEAD ENDS IN AREA 4 WEST:
   1. The entire Brown Plateau is a trap. Going UP stairs at (21, 17) leads to dead ends (no stairs down to northern lowlands).
-  2. Stairs down at (6, 19) from the plateau lead to a dead-end southern lowland.
-- CURRENT GOAL: Find a path WEST through the GREEN LOWLANDS, completely bypassing the plateau stairs at (21, 17). Explore Y=16, Y=18, Y=19 near X=21 for paths.
+  2. The Southern Lowlands (south of stairs) are a completely blocked dead end pocket. The West side is sealed by an interlocking wall of solid bushes at X=17/18 from Y=17 to Y=26. There is NO path West here.
+- CURRENT GOAL: Return to the Area 4 West entrance at (26, 0). The path West MUST be near the northern entrance (e.g., Y=0 or Y=1), completely bypassing the southern area.
 
 <hr>
