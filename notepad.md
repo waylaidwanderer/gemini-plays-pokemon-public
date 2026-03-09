@@ -987,5 +987,6 @@ START:(10,19)|DIR:R|END:(18,15)
 - WARNING: Turning in place and bumping into walls/objects consumes steps! Use short, precise movements to conserve your 500 step limit.
 - WARNING: I only have 560 Pokedollars left, which is exactly enough for ONE MORE ENTRY. Every single step must be perfectly calculated. No bumping into walls, no unnecessary turns. I must follow the exact verified path to the West Area.
 - Safari Zone Final Attempt (560 Pokedollars left): Turn 21738
+- Safari Zone Attempt 5: Turn 22465. Money: 1060. Goal: Explore Area 4 West, specifically avoiding the plateau stairs at (21, 17) to find an alternative route.
 
 <hr>
