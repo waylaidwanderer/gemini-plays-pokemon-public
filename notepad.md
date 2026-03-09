@@ -983,6 +983,6 @@ START:(10,19)|DIR:R|END:(18,15)
   1. Stairs down at (6, 19) lead to a dead-end lowlands area (Rest House trap to the East, blocked by water/trees to the North/West). CONFIRMED completely blocked off.
   2. The plateau itself has solid walls on its North edge (tested near X=11 to X=16) and East edge (near X=17).
 - MUST FIND A NEW ROUTE: The plateau is a dead end. I must get to the East side (X=25), walk North along the tree line, and find a gap at X=24 (likely between Y=8 and Y=11) to walk WEST into the upper lowlands. This is the only way to the Secret House!
-- Safari Zone Attempt 5: Turn 22465. Money: 1060. Goal: Explore Area 4 West.
+- Safari Zone Attempt 6: Turn 22713. Money: 60 (BROKE!). Goal: Explore Area 4 West.
 
 <hr>
