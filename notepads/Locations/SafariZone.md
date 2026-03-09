@@ -14,6 +14,6 @@
 - DEAD ENDS FOUND:
   1. Stairs down at (6, 19) lead to a completely dead-end southern lowland. East is a Rest House trap, West is blocked by a tree at Y=14 and rock/water at Y=13. No way North.
   2. The plateau itself has solid walls on its North edge (tested near X=11 to X=16) and East edge (near X=17).
-- MUST FIND A NEW ROUTE: The plateau is a dead end. I must get to the East side (X=25), walk North along the tree line, and find a gap at X=24 (likely between Y=8 and Y=11) to walk WEST into the upper lowlands. This is the only way to the Secret House!
+- CRITICAL STRATEGY AREA 4 WEST: The East path (walking South from the entrance at X=26/27) is a trap that leads to the exit back to Area 1. To explore Area 4 and find the Secret House, I MUST walk WEST immediately upon entering at (26, 0) or Y=1, staying North of the trees.
 - Safari Zone Attempt 6: Turn 22713. Money: 60 (BROKE!). Goal: Explore Area 4 West.
 - Turn 22818 Correction: I incorrectly assumed the West path was completely blocked. While North (Y=16) is blocked, the path continues SOUTH along X=1 and X=2! I am going to explore this southern corridor now, as it might lead to the Item Ball at (0, 25) and the Secret House!
