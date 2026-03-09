@@ -989,5 +989,6 @@ START:(10,19)|DIR:R|END:(18,15)
 - WARNING: I only have 560 Pokedollars left, which is exactly enough for ONE MORE ENTRY. Every single step must be perfectly calculated. No bumping into walls, no unnecessary turns. I must follow the exact verified path to the West Area.
 - Safari Zone Final Attempt (560 Pokedollars left): Turn 21738
 - Safari Zone Attempt 5: Turn 22465. Money: 1060. Goal: Explore Area 4 West, specifically avoiding the plateau stairs at (21, 17) to find an alternative route.
+Turn 22673 Reflection: I realized my "Dead End" assumption about the stairs at (6, 19) was based on exploring SOUTH from them (hitting the Y=24 bushes) and EAST (hitting the Rest House trap). I never thoroughly explored NORTH from the far West corridor (around X=3, Y=14). I am heading to the stairs at (6, 19) to test this hypothesis!
 
 <hr>
