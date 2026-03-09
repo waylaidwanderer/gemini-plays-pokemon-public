@@ -14,7 +14,7 @@
 - DEAD ENDS FOUND:
   1. Stairs down at (6, 19) lead to a dead-end lowlands area (Rest House trap to the East, blocked by water/trees to the North/West). CONFIRMED completely blocked off.
   2. The plateau itself has solid walls on its North edge (tested near X=11 to X=16) and East edge (near X=17).
-- MUST FIND A NEW ROUTE: Carefully explore the lowlands North of the (6, 19) stairs, focusing on the western edge (X=0 to X=5). Previous dead-end assumption may be false.
+- MUST FIND A NEW ROUTE: The lowlands accessed via (6, 19) are a TRUE dead end (water connects to trees, blocking North). I must backtrack to the entrance of Area 4 West at (26, 0) and explore West along the top edge of the map!
 - Pity Entry: DOES NOT EXIST IN RED/BLUE. It is a Pokemon Yellow mechanic! You MUST have 500 Pokedollars to enter. If you are broke, you must leave and sell items.
 - Safari Battle Menu: BALL(TL), BAIT(TR), ROCK(BL), RUN(BR). Retains cursor memory! Use Up, Left to reset to BALL, then Right, Down, A to RUN.
 - WARNING: Turning in place and bumping into walls/objects consumes steps! Use short, precise movements to conserve your 500 step limit.
