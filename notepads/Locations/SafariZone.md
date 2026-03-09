@@ -12,7 +12,7 @@
 - ELEVATION: BROWN=HIGH PLATEAU, GREEN=LOW GRASS. You only jump DOWN ledges from Brown to Green. Northern edges of plateaus are walls!
 - Area 4 West Route: Enter (26, 0). Walk South to Y=17, then West to the stairs at (21, 17). Go UP the stairs to the plateau.
 - DEAD ENDS FOUND:
-  1. Stairs down at (6, 19) lead to a Rest House to the East. However, walking WEST to X=2 reveals a clear path NORTH! This is the correct route to the Secret House.
+  1. Stairs down at (6, 19) lead to a completely dead-end southern lowland. East is a Rest House trap, West is blocked by a tree at Y=14 and rock/water at Y=13. No way North.
   2. The plateau itself has solid walls on its North edge (tested near X=11 to X=16) and East edge (near X=17).
 - MUST FIND A NEW ROUTE: The plateau is a dead end. I must get to the East side (X=25), walk North along the tree line, and find a gap at X=24 (likely between Y=8 and Y=11) to walk WEST into the upper lowlands. This is the only way to the Secret House!
 - Safari Zone Attempt 6: Turn 22713. Money: 60 (BROKE!). Goal: Explore Area 4 West.
