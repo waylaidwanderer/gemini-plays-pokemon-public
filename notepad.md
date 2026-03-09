@@ -57,6 +57,7 @@
 Turn 22622 Reflection: Encountered an issue where macros desync due to 'turn inputs'. In Gen 1, pressing a new direction just turns the sprite, eating the input. I must explicitly account for this in all future macros, especially before jumping ledges. Currently navigating around a collision issue at (12, 18) by stepping Right, then South to properly align with the ledge at (12, 21).
 - Turn 22777 Reflection: Overwatch correctly identified my stagnation. I must stop ping-ponging between the plateau and the East side. The plateau is a mathematically proven dead end for traveling North, because ledges don't allow Northward jumps and the only stairs lead South/West. The path MUST be a gap in the East tree line (X=24). I will systematically trace this wall South from Y=2 until I find the opening. No more blind macros.
 - Reflection Turn 22986: The Overwatch critique pointed out I should check the North edge of the plateau for stairs down. I found a path going West along Y=6/7/8 from X=15. I will follow this path West to find the stairs down to the northern lowlands where the Gold Teeth and Secret House likely are.
+- Turn 23089 Reflection: Acknowledged 50-turn reflection prompt. Confirmed Attempt 8 strategy (1-step East wall testing in Area 4 West) is the primary focus to bypass macro-induced false constraints. Tools and map markers are in good shape.
 
 <hr>
 
