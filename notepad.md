@@ -976,10 +976,9 @@ START:(10,19)|DIR:R|END:(18,15)
 - Area 1 Center is split. From entrance (15, 25), walk West to X=14, North around central Rest House, then East to exit at (29, 10).
 - Area 3 North Route: From East Area entrance (39, 31), walk West along Y=30 to X=20. North to Y=24, East to X=22, North to (22, 22) [UP stairs]. West to X=16, South to (16, 27) [DOWN stairs]. South to Y=30, West to X=8, South to exit at (8, 35).
 - ELEVATION: BROWN=HIGH PLATEAU, GREEN=LOW GRASS. Jump DOWN ledges from Brown to Green.
-- Area 4 West Route: Enter (26, 0). East wall (X=24) is a SOLID WALL of bushes from Y=0 to Y=15. Walk South to Y=17+ to find a path West.
+- Area 4 West Route: Enter (26, 0). Walk South to Y=18. Walk West to X=21, North to stairs at (21, 17). Go UP stairs to plateau. Walk West across the plateau. The plateau does NOT have stairs down to the North. Instead, you MUST jump DOWN the ledge at (12, 18) to reach the far grassy section!
+- This far grassy section contains the Rest House at (11, 11). The Gold Teeth are likely near (9, 7). The Secret House MUST be in this isolated section as well.
 - DEAD ENDS IN AREA 4 WEST:
-  1. The entire Brown Plateau is a trap. Going UP stairs at (21, 17) leads to dead ends (no stairs down to northern lowlands).
-  2. The Southern Lowlands (south of stairs) are a completely blocked dead end pocket. The West side is sealed by an interlocking wall of solid bushes at X=17/18 from Y=17 to Y=26. There is NO path West here.
-- CURRENT GOAL: Return to the Area 4 West entrance at (26, 0). The path West MUST be near the northern entrance (e.g., Y=0 or Y=1), completely bypassing the southern area.
+  1. The Southern Lowlands (south of stairs) are a completely blocked dead end pocket. The West side is sealed by an interlocking wall of solid bushes at X=17/18 from Y=17 to Y=26. Do not go south of the stairs!
 
 <hr>
