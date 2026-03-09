@@ -10,9 +10,8 @@
 - Area 1 Center is split. From entrance (15, 25), walk West to X=14, North around central Rest House, then East to exit at (29, 10).
 - Area 3 North Route: From East Area entrance (39, 31), walk West along Y=30 to X=20. North to Y=24, East to X=22, North to (22, 22) [UP stairs]. West to X=16, South to (16, 27) [DOWN stairs]. South to Y=30, West to X=8, South to exit at (8, 35).
 - ELEVATION: BROWN=HIGH PLATEAU, GREEN=LOW GRASS. Jump DOWN ledges from Brown to Green.
-- Area 4 West Route: Enter (26, 0). The path West MUST be near the northern entrance (e.g., Y=0 to Y=16).
+- Area 4 West Route: Enter (26, 0). Walk South to Y=18. Walk West to X=21, North to stairs at (21, 17). Go UP stairs to plateau. Walk West across the plateau to X=11~13. Walk North to Y=6. The northern edge of the plateau has NO ledge—you can just walk UP (North) onto the grass at Y=5!
 - DEAD ENDS IN AREA 4 WEST:
-  1. The entire Brown Plateau (via stairs at 21, 17) is a TRAP. It has no access to the item ball or the exit.
-  2. The Rest House area (reached by jumping South off the plateau) is a TRAP. It is blocked from the item ball by rock blocks (TYPE_4e8c).
-  3. The Southern Lowlands (south of stairs) are a TRAP.
-- CURRENT GOAL: Jump off the plateau, return to the entrance at (26, 0), and meticulously test every tile on the West wall (X=24) from Y=0 to Y=16 for a hidden path West!
+  1. The Rest House area (reached by jumping South off the plateau) is a trap.
+  2. The Southern Lowlands (south of stairs) are a TRAP.
+- CURRENT GOAL: Return to the plateau, walk to the northern edge (Y=6), and step UP onto the grass at Y=5. Then explore West to find the Secret House and East to get the Gold Teeth at (19, 7).
