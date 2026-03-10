@@ -14,5 +14,5 @@
   2. The Western Grass (down stairs at 6, 19) is a DEAD END blocked by water at Y=15.
   3. The Rest House area is a dead end.
 - DEAD ENDS IN AREA 2 EAST:
-  1. TRAP at X=19, Y=12 to Y=14! If you walk Left off the plateau at (20, 12-14), you jump a West-facing ledge and get permanently trapped between the ledge, rock wall, and water. Must exhaust steps to escape.
+  1. Y=11 is the southern edge of the high plateau (light green grass). Y=12 is the low ground (light brown). I am currently on the low ground and need to find stairs UP to the plateau to continue North.
 - CURRENT GOAL: Exhaust steps in Area 2 East trap, then re-enter and navigate cleanly to Area 3 North.
