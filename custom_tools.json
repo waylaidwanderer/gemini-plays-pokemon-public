@@ -676,7 +676,7 @@
     ]
   },
   "use_hm_field": {
-    "description": "Automates using a field move. CRITICAL: YOU MUST VISUALLY VERIFY THE CURSOR POSITION FIRST BEFORE CALLING. Party menu wraps, so mashing Up does NOT reset to 1. Navigates from current_index to target_index using wrap-around.",
+    "description": "Automates using a field move. CRITICAL: YOU MUST VISUALLY VERIFY THE CURSOR POSITION FIRST BEFORE CALLING. Party menu wraps, so mashing Up does NOT reset to 1. Navigates from current_index to target_index using wrap-around. Automatically presses A to clear the success text box.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -702,7 +702,7 @@
         "target_index"
       ]
     },
-    "python_script": "import json\n\nargs = input_data\ncurrent = args.get('current_index')\ntarget = args.get('target_index')\nparty_size = args.get('party_size', 6)\n\nbuttons = []\ndiff = target - current\n\nif diff > 0:\n    if diff > party_size // 2:\n        buttons.extend(['Up'] * (party_size - diff))\n    else:\n        buttons.extend(['Down'] * diff)\nelif diff < 0:\n    diff = -diff\n    if diff > party_size // 2:\n        buttons.extend(['Down'] * (party_size - diff))\n    else:\n        buttons.extend(['Up'] * diff)\n\nbuttons.extend(['A', 'sleep 500', 'A'])\nprint(json.dumps(buttons))\n",
+    "python_script": "import json\n\ncurr = int(input_data['current_index'])\ntarget = int(input_data['target_index'])\nparty_size = int(input_data.get('party_size', 6))\n\ndiff = target - curr\nif diff > party_size / 2:\n    diff -= party_size\nelif diff < -party_size / 2:\n    diff += party_size\n\npresses = []\nif diff > 0:\n    presses.extend(['Down'] * diff)\nelif diff < 0:\n    presses.extend(['Up'] * abs(diff))\n\npresses.extend(['A', 'sleep 500', 'A', 'sleep 2000', 'A'])\nprint(json.dumps(presses))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -773,6 +773,11 @@
         "commit_message": "Updated use_hm_field to emphasize visual verification of current_index, as Party Menu wraps and cannot be reset by mashing Up. Improved relative path math.",
         "timestamp": "2026-03-08T16:33:14.125Z",
         "action_counter": 21511
+      },
+      {
+        "commit_message": "Updated use_hm_field to automatically clear the success text box after using the move.",
+        "timestamp": "2026-03-10T05:00:43.687Z",
+        "action_counter": 23731
       }
     ]
   },
