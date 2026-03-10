@@ -16,5 +16,5 @@
 - DEAD ENDS IN AREA 4 WEST:
   1. The Rest House area (reached by jumping South off the plateau) is a trap.
   2. The Southern Lowlands (south of stairs) are a TRAP.
-- CURRENT GOAL: Return to the plateau, walk to the northern edge (Y=6), and step UP onto the grass at Y=5. Then explore West to find the Secret House and East to get the Gold Teeth at (19, 7).
+- CURRENT GOAL: Navigate to the stairs at (6, 19), then walk North through the western grass to find the Gold Teeth at (9, 7) and the Secret House.
 - Gold Teeth: Located at (9, 7). Accessed via the western grass. From the stairs at (6, 19), walk West to X=2, North to Y=7, then East to (9, 7).
