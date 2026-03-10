@@ -981,6 +981,7 @@ START:(10,19)|DIR:R|END:(18,15)
   1. The ENTIRE Plateau is a dead end observation deck.
   2. The Western Grass (down stairs at 6, 19) is a DEAD END blocked by water at Y=15.
   3. The Rest House area is a dead end.
+  4. East Edge Ledge Trap: Jumping down the ledge at Y=17 on the East side (X=24-28) traps you! You are forced to exit to Area 1 Center. The true path West MUST be found North of Y=16!
 - DEAD ENDS IN AREA 2 EAST:
   1. West Ground Path (X=0 to 7): Blocked from going North by thick bushes and one-way ledges at Y=20.
 - TRUE OPTIMIZED PATH FOR AREA 2 EAST:
