@@ -983,7 +983,12 @@ START:(10,19)|DIR:R|END:(18,15)
   3. The Rest House area is a dead end.
 - DEAD ENDS IN AREA 2 EAST:
   1. West Ground Path (X=0 to 7): Blocked from going North by thick bushes and one-way ledges at Y=20.
-- TRUE PATH FOR AREA 2 EAST: The North Plateau is a dead end! To bypass the Y=6 cliff, walk East on the low ground at Y=8 to X=20. Walk North through the grass to Y=1, then walk West ABOVE the plateau to reach the exit at (0, 4)!
-- CURRENT GOAL: Go down stairs at (17,7). Walk East to X=21, North to Y=1, then West to Area 3 North.
+- TRUE OPTIMIZED PATH FOR AREA 2 EAST:
+  1. From entrance (0,22), walk East along the bottom (Y=24) to X=20.
+  2. Walk North through the grass to Y=1 (bypassing the plateau entirely!).
+  3. Walk West along the top edge to X=7.
+  4. Walk Down to Y=5 to bypass the walls at Y=3 and (6,4).
+  5. Walk West to X=1, Up to Y=4, then Left to exit at (0,4)!
+- CURRENT GOAL: Exit Area 2 East at (0,4) and map out Area 3 North.
 
 <hr>
