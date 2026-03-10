@@ -13,4 +13,6 @@
   1. The ENTIRE Plateau is a dead end observation deck.
   2. The Western Grass (down stairs at 6, 19) is a DEAD END blocked by water at Y=15.
   3. The Rest House area is a dead end.
-- CURRENT GOAL: Return to the East side near the entrance (X=25, Y=2) and walk WEST to find a gap in the bushes!
+- DEAD ENDS IN AREA 2 EAST:
+  1. TRAP at X=19, Y=12 to Y=14! If you walk Left off the plateau at (20, 12-14), you jump a West-facing ledge and get permanently trapped between the ledge, rock wall, and water. Must exhaust steps to escape.
+- CURRENT GOAL: Exhaust steps in Area 2 East trap, then re-enter and navigate cleanly to Area 3 North.
