@@ -989,9 +989,12 @@ START:(10,19)|DIR:R|END:(18,15)
   3. Walk West along the top edge to X=7.
   4. Walk Down to Y=5 to bypass the walls at Y=3 and (6,4).
   5. Walk West to X=1, Up to Y=4, then Left to exit at (0,4)!
-- AREA 3 NORTH NAV:
-  1. The low ground path West from the entrance (Y=30) ends in a solid bush wall at X=17. Dead end.
-  2. Must backtrack East and explore North to find stairs UP to the plateau to bypass this wall and reach the exit at (8,35).
-- CURRENT GOAL: Backtrack East from (18,30) and find stairs up to the Area 3 North plateau.
+- TRUE OPTIMIZED PATH FOR AREA 3 NORTH:
+  1. From entrance (39,30), walk West to X=20, North to Y=25, East to X=22.
+  2. Climb stairs at (22,23) to the plateau.
+  3. Walk West to X=16, Down to descend stairs at (16,27).
+  4. Walk West to X=12, Down to Y=33.
+  5. Walk West to X=8, Down to exit at (8,35)!
+- CURRENT GOAL: Enter Area 4 West and navigate to the Secret House.
 
 <hr>
