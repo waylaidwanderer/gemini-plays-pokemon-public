@@ -983,7 +983,7 @@ START:(10,19)|DIR:R|END:(18,15)
   3. The Rest House area is a dead end.
 - DEAD ENDS IN AREA 2 EAST:
   1. West Ground Path (X=0 to 7): Blocked from going North by thick bushes and one-way ledges at Y=20.
-- TRUE PATH FOR AREA 2 EAST: Walk South on low ground to Y=22. Walk East to X=12, go UP stairs at (12,21) to the Plateau. Walk NORTH on the Plateau all the way to Y=4. Walk West to X=7. Go DOWN stairs at (6,4) to low ground, then West to exit at (0,4)!
-- CURRENT GOAL: Go South to Y=22, East to X=12, UP stairs to Plateau, then North to Y=4.
+- TRUE PATH FOR AREA 2 EAST: Low ground is completely blocked by a cliff at Y=6 (X=0 to X=10). You MUST walk East to X=12 and go UP the stairs at (12, 7) to the North Plateau. Then find a way West and Down to reach the exit at (0, 4)!
+- CURRENT GOAL: Go East to (12, 7), climb stairs to North Plateau, explore North/West to exit.
 
 <hr>
