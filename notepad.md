@@ -978,7 +978,8 @@ START:(10,19)|DIR:R|END:(18,15)
 - Area 1 Center Route: From entrance (15, 25), walk North to Y=16. Walk East above the Rest House to X=22, then North to Y=10, East to exit at (29, 10).
 - Area 3 North Route: From East Area entrance (39, 31), walk West along Y=30 to X=20. North to Y=24, East to X=22, North to (22, 22) [UP stairs]. West to X=16, South to (16, 27) [DOWN stairs]. South to Y=30, West to X=8, South to exit at (8, 35).
 - ELEVATION: BROWN=HIGH PLATEAU, GREEN=LOW GRASS. Jump DOWN ledges from Brown to Green.
-- Area 4 West Route: Enter (26, 0). Proof of Work: The 'Secret House' I noted at Y=13 was a hallucination; TYPE_4e8c is WATER, not a roof. The Southern Lowlands (bottom of stairs at 6, 19) are a confirmed DEAD END blocked by this pond and trees. Therefore, the ENTIRE plateau and its stairs are a TRAP. The true path must be a gap in the bushes on the East side (X=24) before reaching the plateau. Search carefully!
+- Area 4 West Route: Enter (26, 0). Walk South to Y=18, West to X=21. Go UP stairs at (21, 17) to the plateau. Walk West across the plateau to the stairs at (6, 19). Go DOWN the stairs to the Southern Lowlands. Walk West to X=2. Walk North to Y=14. The Secret House is the building directly above you at Y=13! Step along X=3 to X=6 and press UP to find the door.
+- Gold Teeth: Accessible from the Eastern entrance. Walk South from (26, 0) to Y=7, then walk West through the grass to (19, 7). DO NOT go up the plateau to reach them.
 - PLATEAU MECHANICS: You CANNOT step North or East off the plateau. It acts as a one-way valve South. The stairs at (21, 17) are a trap that takes you away from the Gold Teeth!
 - DEAD ENDS IN AREA 4 WEST:
   1. The Rest House area (reached by jumping South off the plateau) is a trap.
