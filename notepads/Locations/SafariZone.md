@@ -18,4 +18,5 @@
   1. The Rest House area (reached by jumping South off the plateau).
   2. The East side (X=22 to X=26) between Y=0 and Y=18 is blocked by solid bushes at X=24.
   3. The Northern path from the entrance (26, 0) is blocked by solid bushes at X=24.
-- CURRENT GOAL: Return to the Western Grass via stairs at (6, 19). Walk West to X=1 or 2, then walk STRAIGHT NORTH along the left edge of the map. Do NOT walk East, as that leads to the Rest House pocket!
+  4. The Western Grass (down stairs at 6, 19) is a DEAD END blocked by water/trees at Y=15.
+- CURRENT GOAL: Reach Area 4 West plateau. Navigate the gap North around X=15/16 to reach the Northern section, Gold Teeth, and Secret House!
