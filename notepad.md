@@ -978,12 +978,13 @@ START:(10,19)|DIR:R|END:(18,15)
 - Area 1 Center Route: From entrance (15, 25), walk North to Y=16. Walk East above the Rest House to X=22, then North to Y=10, East to exit at (29, 10).
 - Area 3 North Route: From East Area entrance (39, 31), walk West along Y=30 to X=20. North to Y=24, East to X=22, North to (22, 22) [UP stairs]. West to X=16, South to (16, 27) [DOWN stairs]. South to Y=30, West to X=8, South to exit at (8, 35).
 - ELEVATION: BROWN=HIGH PLATEAU, GREEN=LOW GRASS. Jump DOWN ledges from Brown to Green.
-- Area 4 West Route: Enter (26, 0). Walk South to Y=18, West to X=21. Go UP stairs at (21, 17) to the plateau. Walk West across the plateau to the stairs at (6, 19). Go DOWN the stairs. Walk West to X=2. Walk North to Y=14. The Secret House is directly above you at Y=13! Step along X=3 to X=6 and press UP to find the door. (Do NOT trust visual misinterpretations of roofs as ponds).
-- PLATEAU MECHANICS: You CANNOT step North or East off the plateau. It acts as a one-way valve South. The stairs at (21, 17) are a trap that takes you away from the Gold Teeth!
-- DEAD ENDS IN AREA 4 WEST:
-  1. The Rest House area (reached by jumping South off the plateau) is a trap.
-  2. The Southern Lowlands (south of stairs) are a TRAP.
-- CURRENT GOAL: Return to the entrance at (26, 0) and explore WEST along the top of the map. PROOF: The stairs at (6, 19) lead to the Southern Lowlands, which is entirely blocked by the pond and trees. The Secret House MUST be accessed from the Northern path at the entrance!
+- Area 4 West Route: Enter (26, 0). Walk South to Y=18, West to X=21. Go UP stairs at (21, 17) to plateau. Walk West across plateau to stairs at (6, 19). Go DOWN stairs to Western Grass. Walk West to X=2, then North.
+- Secret House: Located at Y=13 in the Western Grass (Southern Lowlands). The blue tiles (TYPE_4e8c) are a ROOF, not a pond! Walk along the bottom edge at Y=14 (X=3 to X=6) and press UP to find the door.
 - Gold Teeth: Located at (9, 7). Accessed via the western grass. From the stairs at (6, 19), walk West to X=2, North to Y=7, then East to (9, 7).
+- PLATEAU MECHANICS: You CANNOT step North or East off the plateau.
+- DEAD ENDS IN AREA 4 WEST:
+  1. The Rest House area (reached by jumping South off the plateau).
+  2. The Northern path from the entrance (26, 0) is blocked by solid bushes at X=24.
+- CURRENT GOAL: Reach Area 4 West, take the plateau to the Western Grass, and claim the Gold Teeth and Secret House!
 
 <hr>
