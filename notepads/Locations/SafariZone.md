@@ -1,5 +1,5 @@
 # Safari Zone
-- Run 6 Started: Turn 23494.
+- Run 7 Started: Turn 23598.
 - Entered at Turn 15456. Limit: 500 steps.
 - Map Connections (One-Way Loop: Center -> East -> North -> West -> Center):
   - Area 1 Center (0_220) -> Area 2 East (0_217) [via East Exit at 29,10]
