@@ -982,9 +982,8 @@ START:(10,19)|DIR:R|END:(18,15)
   2. The Western Grass (down stairs at 6, 19) is a DEAD END blocked by water at Y=15.
   3. The Rest House area is a dead end.
 - DEAD ENDS IN AREA 2 EAST:
-  1. East Plateau (stairs at 24,15): Dead end observation deck, blocked at Y=12.
-  2. West Ground Path (X=0 to 7): Blocked from going North by thick bushes and one-way ledges at Y=20.
-- TRUE PATH: Must climb the stairs at (11,20) or (12,20) to the Rest House plateau, and navigate North from there!
-- CURRENT GOAL: Walk South to Y=25, East to X=20, North to Y=21, West to X=11, then Up the stairs at (11,20).
+  1. West Ground Path (X=0 to 7): Blocked from going North by thick bushes and one-way ledges at Y=20.
+- TRUE PATH: Climb stairs at (24,15) to East Plateau. Walk South to Y=22, then West to X=20. Go DOWN stairs at (20,21) to low ground. Walk West along Y=20 to find next stairs at X=11/12!
+- CURRENT GOAL: Descend stairs at (20,21), walk West on Y=20.
 
 <hr>
