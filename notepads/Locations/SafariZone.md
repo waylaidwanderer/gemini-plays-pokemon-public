@@ -31,3 +31,4 @@
   4. Walk West to X=12, Down to Y=33.
   5. Walk West to X=8, Down to exit at (8,35)!
 - CURRENT GOAL: Enter Area 4 West and navigate to the Secret House.
+- ENTRY FEE MECHANIC: While the attendant will sometimes let you in with less than 500 Poke Dollars (giving fewer Safari Balls), there appears to be a hard minimum requirement. 460 Poke Dollars is NOT enough to enter!
