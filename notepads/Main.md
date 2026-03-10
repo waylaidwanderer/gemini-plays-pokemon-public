@@ -37,7 +37,7 @@
 - Ledges are strictly ONE-WAY. You can only jump DOWN (South) over them. Moving North against a ledge acts as a solid wall. Note: Not all TYPE_3fe2 tiles are ledges (many are just flat paths or grass), so rely on visual confirmation.
 - The path West towards the Pokemon Center is blocked by a Cut bush at (18, 19). Y=13/14 paths are blocked by fences/buildings.
 - To return North from the bottom of the city, you CANNOT go up the West side due to ledges. You must head East along the bottom (Y=27/29) to X=18, then head North and Cut the bush at (18, 19) to access the top half.
-- Safari Zone Path: From Cut bush at (18, 19), walk North to Y=14. To reach the Mart, walk West to X=5. To reach the Safari Zone, walk North through the gap at X=18 to Y=6, West to X=15 (dodge sign), North to Y=4, East to X=18, Up to enter. (WARNING: Do not walk West at Y=10/11, it's a trap above the fence!)
+- Safari Zone Path: From the Cut bush at (18, 19), walk North. At Y=14, you can walk West to the Mart at (5,13). To continue to Safari Zone, go to X=16, walk North to Cut bush at (16, 11). Cut it. Continue North to Y=6, West to X=15 (dodge sign), North to Y=4, East to X=18, Up to enter.
 
 [Gen 1 Mechanics]
 - Cursor memory differences: Party menu from Start->POKéMON retains it, Start->ITEM->USE resets it. PC and Battle menus retain it. Move menu retains it when switching manually, but resets on faint/new battle. PokeMart SELL menu RESETS to the top after every sale!
