@@ -21,4 +21,7 @@
   3. Walk West along the top edge to X=7.
   4. Walk Down to Y=5 to bypass the walls at Y=3 and (6,4).
   5. Walk West to X=1, Up to Y=4, then Left to exit at (0,4)!
-- CURRENT GOAL: Exit Area 2 East at (0,4) and map out Area 3 North.
+- AREA 3 NORTH NAV:
+  1. The low ground path West from the entrance (Y=30) ends in a solid bush wall at X=17. Dead end.
+  2. Must backtrack East and explore North to find stairs UP to the plateau to bypass this wall and reach the exit at (8,35).
+- CURRENT GOAL: Backtrack East from (18,30) and find stairs up to the Area 3 North plateau.
