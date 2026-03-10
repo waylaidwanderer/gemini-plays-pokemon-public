@@ -979,7 +979,7 @@ START:(10,19)|DIR:R|END:(18,15)
 - Area 3 North Route: From East Area entrance (39, 31), walk West along Y=30 to X=20. North to Y=24, East to X=22, North to (22, 22) [UP stairs]. West to X=16, South to (16, 27) [DOWN stairs]. South to Y=30, West to X=8, South to exit at (8, 35).
 - ELEVATION: BROWN=HIGH PLATEAU, GREEN=LOW GRASS. Jump DOWN ledges from Brown to Green.
 - Area 4 West Route: Enter (26, 0). Walk South to Y=18, West to X=21. Go UP stairs at (21, 17) to plateau. Walk West across plateau to stairs at (6, 19). Go DOWN stairs to Western Grass. Walk West to X=2, then North.
-- Secret House / Gold Teeth: The ENTIRE Western Grass (Southern Lowlands) is a CONFIRMED DEAD END. X=0/X=1 are solid trees, the pond blocks the middle, and X=14 is solid trees. The path to the items (which are in the Northern Grass) CANNOT be from the South or the Plateau. The path North MUST be near the Area 4 entrance at (26, 0). I previously noted that X=24 is blocked by solid bushes, but I must re-verify every single tile from Y=0 to Y=17 along that barrier to find a hidden gap leading West into the Northern Grass.
+- Secret House / Gold Teeth: The ENTIRE Western Grass (Southern Lowlands) is a CONFIRMED DEAD END. X=0/X=1 are solid trees, the pond blocks the middle, and X=14 is solid trees. HYPOTHESIS: The plateau itself loops North around Y=5/Y=6, allowing a South-facing ledge drop to the items at Y=7. Testing this now by walking North from (15, 7).
 - Gold Teeth: Located at (9, 7). Accessed via the western grass. From the stairs at (6, 19), walk West to X=2, North to Y=7, then East to (9, 7).
 - PLATEAU MECHANICS: You CANNOT step North or East off the plateau.
 - DEAD ENDS IN AREA 4 WEST:
