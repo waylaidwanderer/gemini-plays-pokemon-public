@@ -14,5 +14,7 @@
   2. The Western Grass (down stairs at 6, 19) is a DEAD END blocked by water at Y=15.
   3. The Rest House area is a dead end.
 - DEAD ENDS IN AREA 2 EAST:
-  1. Y=12 is an observation deck! It is a dead end. (Turn 24959: Tested escaping the suspected trap at 19,12 by moving RRRRR. Arrived safely at 24,12. It is NOT a trap, just a solid wall to the West.)
-- CURRENT GOAL: Descend stairs at (24,15), walk South to Y=24 to bypass the rock wall, then explore West to find the true path North to Area 3.
+  1. East Plateau (stairs at 24,15): Dead end observation deck, blocked at Y=12.
+  2. West Ground Path (X=0 to 7): Blocked from going North by thick bushes and one-way ledges at Y=20.
+- TRUE PATH: Must climb the stairs at (11,20) or (12,20) to the Rest House plateau, and navigate North from there!
+- CURRENT GOAL: Walk South to Y=25, East to X=20, North to Y=21, West to X=11, then Up the stairs at (11,20).
