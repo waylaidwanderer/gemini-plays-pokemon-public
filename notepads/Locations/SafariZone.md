@@ -11,7 +11,7 @@
 - Area 1 Center is split. From entrance (15, 25), walk West to X=14, North around central Rest House, then East to exit at (29, 10).
 - Area 3 North Route: From East Area entrance (39, 31), walk West along Y=30 to X=20. North to Y=24, East to X=22, North to (22, 22) [UP stairs]. West to X=16, South to (16, 27) [DOWN stairs]. South to Y=30, West to X=8, South to exit at (8, 35).
 - ELEVATION: BROWN=HIGH PLATEAU, GREEN=LOW GRASS. Jump DOWN ledges from Brown to Green.
-- Area 4 West Route: Enter (26, 0). Walk South to Y=18. Walk West to X=21. Go UP stairs at (21, 17) to the plateau. Walk West across plateau to X=6. Walk North to Y=6 to find the stairs down to the Northern Grass! (Southern Lowlands via stairs at 6,19 is a dead end blocked by water).
+- Area 4 West Route: Enter (26, 0). Walk South to Y=18. Walk West to X=21. Go UP stairs at (21, 17) to the plateau. Walk West across plateau to stairs at (6, 19). Go DOWN stairs to the Southern Lowlands. Walk West to X=2. Walk North along the western grass (X=2/3) to bypass the plateau entirely and reach the Northern area!
 - PLATEAU MECHANICS: You CANNOT step North or East off the plateau. It acts as a one-way valve South. The stairs at (21, 17) are a trap that takes you away from the Gold Teeth!
 - DEAD ENDS IN AREA 4 WEST:
   1. The Rest House area (reached by jumping South off the plateau) is a trap.
