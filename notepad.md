@@ -984,8 +984,8 @@ START:(10,19)|DIR:R|END:(18,15)
 - PLATEAU MECHANICS: You CANNOT step North or East off the plateau.
 - DEAD ENDS IN AREA 4 WEST:
   1. The Rest House area (reached by jumping South off the plateau).
-  2. The Y=16 Plateau and Western Grass are a MASSIVE DEAD END. There is NO path North from here.
+  2. The East side (X=22 to X=26) between Y=0 and Y=18 is blocked by solid bushes at X=24.
   3. The Northern path from the entrance (26, 0) is blocked by solid bushes at X=24.
-- CURRENT GOAL: Explore the East side (X=22 to X=26) between Y=0 and Y=18 for a path WEST to reach the Northern section, Gold Teeth, and Secret House!
+- CURRENT GOAL: Return to the Western Grass via stairs at (6, 19). Walk West to X=1 or 2, then walk STRAIGHT NORTH along the left edge of the map. Do NOT walk East, as that leads to the Rest House pocket!
 
 <hr>
