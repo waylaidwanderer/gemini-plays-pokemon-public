@@ -977,7 +977,7 @@ START:(10,19)|DIR:R|END:(18,15)
 - Area 1 Center is split. From entrance (15, 25), walk West to X=14, North around central Rest House, then East to exit at (29, 10).
 - Area 3 North Route: From East Area entrance (39, 31), walk West along Y=30 to X=20. North to Y=24, East to X=22, North to (22, 22) [UP stairs]. West to X=16, South to (16, 27) [DOWN stairs]. South to Y=30, West to X=8, South to exit at (8, 35).
 - ELEVATION: BROWN=HIGH PLATEAU, GREEN=LOW GRASS. Jump DOWN ledges from Brown to Green.
-- Area 4 West Route: Enter (26, 0). Walk South to Y=18. Walk West to X=21, North to stairs at (21, 17). Go UP stairs to plateau. Walk West across the plateau to X=11~13. Walk North to Y=6. Press UP TWICE to step off the plateau onto the grass at Y=5! (Turn input hallucination caused previous failure).
+- Area 4 West Route: Enter (26, 0). Walk South to Y=18. Walk West to X=21, North to stairs at (21, 17). Go UP stairs to plateau. Walk West across the plateau to X=14. Walk North to Y=6. Press UP TWICE to step off the plateau onto the grass at Y=5! (Turn input hallucination caused previous failure).
 - DEAD ENDS IN AREA 4 WEST:
   1. The Rest House area (reached by jumping South off the plateau) is a trap.
   2. The Southern Lowlands (south of stairs) are a TRAP.
