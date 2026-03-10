@@ -980,7 +980,7 @@ START:(10,19)|DIR:R|END:(18,15)
 - Area 3 North Route: From East Area entrance (39, 31), walk West along Y=30 to X=20. North to Y=24, East to X=22, North to (22, 22) [UP stairs]. West to X=16, South to (16, 27) [DOWN stairs]. South to Y=30, West to X=8, South to exit at (8, 35).
 - ELEVATION: BROWN=HIGH PLATEAU, GREEN=LOW GRASS. Jump DOWN ledges from Brown to Green.
 - Area 4 West Route: Enter (26, 0). Walk South to Y=18, West to X=21. Go UP stairs at (21, 17) to plateau. Walk West across plateau to stairs at (6, 19). Go DOWN stairs to Western Grass. Walk West to X=2, then North.
-- Secret House / Gold Teeth Route: From Area 4 entrance (26,0), go South to Y=18, West to X=21, UP stairs. Currently mapping the plateau to find stairs down to the items at (9,7) and (19,7). (Note: The Western Grass via stairs at 6,19 is a dead end pond).
+- Secret House / Gold Teeth Route: From Area 4 entrance (26,0), go South to Y=18, West to X=21, UP stairs. Walk West across plateau to stairs at (6, 19), go DOWN to Western Grass. Walk North/East to X=10/11 to pass between the water and the Rest House to continue North!
 - PLATEAU MECHANICS: You CANNOT step North or East off the plateau.
 - DEAD ENDS IN AREA 4 WEST:
   1. The Rest House area (reached by jumping South off the plateau).
