@@ -988,11 +988,11 @@ START:(10,19)|DIR:R|END:(18,15)
   1. West Ground Path (X=0 to 7): Blocked from going North by thick bushes and one-way ledges at Y=20.
   2. The East Ground Path (X=19+) going North is BLOCKED by water and ledges around Y=11.
 - TRUE OPTIMIZED PATH FOR AREA 2 EAST:
-  1. From entrance (0,22), walk East to X=7.
-  2. Walk North to Y=7, then East to X=12.
-  3. Walk Up the stairs at (12, 7) to the Plateau.
-  4. Walk East across Plateau to stairs down at (29, 3).
-  5. Walk West along the top edge to exit at (0, 4)!
+  1. From entrance (0,22), walk East to X=7, North to Y=7, East to X=12.
+  2. Walk Up stairs at (12, 7) to the Plateau.
+  3. Walk East to X=17, then Down to descend stairs at (17, 7).
+  4. From (17, 8), walk East to X=21 to bypass the cliff.
+  5. Walk North to Y=1, then West along the top edge to exit at (0, 4)!
 - TRUE OPTIMIZED PATH FOR AREA 3 NORTH:
   1. From entrance (39,30), walk West to X=20, North to Y=25, East to X=22.
   2. Climb stairs at (22,23) to the plateau.
