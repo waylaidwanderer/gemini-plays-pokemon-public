@@ -42,7 +42,7 @@
 - Safari Zone Path: From the Cut bush at (18, 19), walk North. At Y=14, you can walk West to the Mart at (5,13). To continue to Safari Zone, go to X=16, walk North to Cut bush at (16, 11). Cut it. Continue North to Y=6, West to X=15 (dodge sign), North to Y=4, East to X=18, Up to enter.
 
 [Gen 1 Mechanics]
-- Cursor memory differences: Party menu from Start->POKéMON retains it, Start->ITEM->USE resets it. PC and Battle menus retain it. Move menu retains it when switching manually, but resets on faint/new battle. PokeMart SELL menu RESETS to the top after every sale!
+- Cursor memory differences: Party menu from Start->POKéMON RESETS to index 1. Start->ITEM->USE resets it. PC and Battle menus retain it. Move menu retains it when switching manually, but resets on faint/new battle. PokeMart SELL menu RESETS to the top after every sale!
 - The Party Menu and Move Menu WRAP. Mashing 'Up' does not guarantee index 1.
 - HALLUCINATION CHECK: Never assume a tile ID is a solid wall without physically testing it. In the Safari Zone, TYPE_fed7 and TYPE_3fe2 are BOTH passable tall grass! Thick solid bushes look distinctly different (dark green, round leaves). Always bump to verify!
 - MACRO DANGER: Do not use alternating directional macros (like L-D-L-D) near ledges when searching for gaps. It can cause accidental ledge jumps, leading to false assumptions about solid walls. Always use step-by-step inputs for precise exploration.
