@@ -41,6 +41,7 @@
   1. East Side: The path North is blocked by a solid tree wall at Y=9 (around X=22 to X=27).
   2. West Side: The path North is blocked by a diagonal tree wall from (0, 17) to (9, 15).
 - TRUE OPTIMIZED PATH FOR AREA 1 CENTER (To Area 2 East):
+  WARNING: Entering Safari Zone places you at (15, 25). DO NOT press Down or start macros with Down, as (15, 26) is the exit warp!
   1. Area 1 Center's Entrance Area CANNOT reach the North Exit (15, 0) due to fences and water. You MUST walk East to (29, 10) to enter Area 2 East!
   2. From the entrance, walk East through the grass to X=29, then North to Y=10.
 - CLOSED LOOP TRAP: The Y=17 ledge in Area 4 West drops you into a closed loop! The only exit is East to Area 1 Center (0, 11). That leads to a tiny pocket bounded by a South-facing ledge at Y=10 and a West-facing ledge at X=3. YOU CANNOT ESCAPE THIS LOOP. Do NOT jump the Y=17 ledge in Area 4 West!
