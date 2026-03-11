@@ -1017,7 +1017,7 @@ START:(10,19)|DIR:R|END:(18,15)
 - TRUE OPTIMIZED PATH FOR AREA 1 CENTER (To Area 2 East):
   WARNING: Entering Safari Zone places you at (15, 25). DO NOT press Down or start macros with Down, as (15, 26) is the exit warp!
   1. Area 1 Center's Entrance Area CANNOT reach the North Exit (15, 0) due to fences and water. You MUST walk East to (29, 10) to enter Area 2 East!
-  2. From the entrance (15, 25), walk East to X=28, North past the tree wall, then East to the exit at (29, 10).
+  2. From the entrance (15, 25), walk LEFT to (14, 25), UP to (14, 23), then EAST to X=28, North past the tree wall, then East to the exit at (29, 10).
 - AREA 4 WEST RETURN LOOP: Jumping the ledge at Y=17 in Area 4 West traps you in the southern path, forcing you to exit East into Area 1 Center (0, 11). This places you in a West Pocket. CURRENTLY EXPLORING ESCAPE ROUTE: The West pocket extends North to at least (10, 2), but is blocked from the East main area by a lake and trees. Need to find a way to jump South to the main entrance area!
 - GOLD TEETH STATUS: Found at Area 4 West (9, 7). Need to approach from the West side of the Rest House (X < 11).
 - AREA 4 WEST LEDGE CONSTRAINT: The central dirt path (X=11 to X=16) is boxed in by ledges. You must walk North on the WEST side of the Rest House (X < 11) to access the upper grass level and the Secret House/Gold Teeth.
