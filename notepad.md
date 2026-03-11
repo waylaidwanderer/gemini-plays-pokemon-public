@@ -980,7 +980,7 @@ START:(10,19)|DIR:R|END:(18,15)
   - Area 2 East (0_217) <-> Area 3 North (0_218) [via Northwest Exit at 0,4 <-> Southeast Exit at 39,30/31]
   - Area 3 North (0_218) <-> Area 4 West (0_219) [via Southwest Exit at 8,35 <-> Northeast Exit at 26,0/1]
   - Area 4 West (0_219) <-> Area 1 Center (0_220) [via Southeast Exit at 29,22/23 <-> West Exit at 0,10/11]
-- Area 4 West Northern Grass: No gap exists at Y=2/3. Must take the southern route!
+- Area 4 West Northern Grass: Gap likely exists at Y=0/1, as X=24 is blocked from Y=4 to Y=13, and X=23 is blocked from Y=14 to Y=17. Must go West immediately upon entering from Area 3 North!
 - PLATEAU MECHANICS: You CANNOT step North, East, or West off the plateau edge. You MUST find stairs. The plateau is merely an observation deck.
 - DEAD ENDS IN AREA 4 WEST:
   1. The ENTIRE Plateau is a dead end observation deck.
