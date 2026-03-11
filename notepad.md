@@ -1021,6 +1021,6 @@ START:(10,19)|DIR:R|END:(18,15)
 - AREA 4 WEST RETURN LOOP: Jumping the ledge at Y=17 in Area 4 West traps you in the southern path, forcing you to exit East into Area 1 Center (0, 11). This places you in a West Pocket. CURRENTLY EXPLORING ESCAPE ROUTE: The West pocket extends North to at least (10, 2), but is blocked from the East main area by a lake and trees. Need to find a way to jump South to the main entrance area!
 - GOLD TEETH STATUS: Found at Area 4 West (9, 7). Need to approach from the West side of the Rest House (X < 11).
 - AREA 4 WEST LEDGE CONSTRAINT: The central dirt path (X=11 to X=16) is boxed in by ledges. You must walk North on the WEST side of the Rest House (X < 11) to access the upper grass level and the Secret House/Gold Teeth.
-- Safari Zone Run 14 Started: Turn 26724. Current Goal: Reach Area 4 West, take the plateau to the Western Grass, and walk North/East to X=10/11 to pass between the water and the Rest House to reach the Gold Teeth.
+- Safari Zone Run 15 Started: Turn 26957. Current Goal: Reach Area 4 West, take the plateau to the Western Grass, and walk North/East to X=10/11 to pass between the water and the Rest House to reach the Gold Teeth.
 
 <hr>
