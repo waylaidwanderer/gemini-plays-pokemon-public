@@ -981,6 +981,7 @@ START:(10,19)|DIR:R|END:(18,15)
   1. The ENTIRE Plateau is a dead end observation deck.
   2. The Western Grass (down stairs at 6, 19) is a DEAD END blocked by water at Y=15.
   3. The Rest House area is a dead end.
+  4. The Y=17 Ledge Trap: Walking South past Y=16 on the East side forces you to jump a South-facing ledge at Y=17, trapping you in the southern area which only leads to the Area 1 Center exit. MUST FIND A WAY WEST NORTH OF Y=16!
 - TRUE OPTIMIZED PATH FOR AREA 4 WEST:
   1. From entrance (26,0), walk South along the East wall to Y=18.
   2. The solid bush wall at X=23 ends at Y=17. Turn West at Y=18 and walk past the plateau stairs!
