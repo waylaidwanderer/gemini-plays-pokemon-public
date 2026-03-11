@@ -43,4 +43,4 @@
 - TRUE OPTIMIZED PATH FOR AREA 1 CENTER (To Area 2 East):
   1. Area 1 Center's Entrance Area CANNOT reach the North Exit (15, 0) due to fences and water. You MUST walk East to (29, 10) to enter Area 2 East!
   2. From the entrance, walk East through the grass to X=29, then North to Y=10.
-\n- RETURN PATH FROM AREA 4 WEST (0, 11) TO AREA 3 NORTH (SKIP AREA 2 EAST!):\n  1. Walk South from (0, 11) to Y=17.\n  2. Walk East to X=4.\n  3. Walk North to Y=14.\n  4. Walk East to X=7.\n  5. Walk North to Y=7, East to X=10, North to Y=2.\n  6. Walk East to X=14/15, then North to enter Area 3 North!
+\n- WEST POCKET DEAD END: The entire West pocket (North of Y=15) is cut off from the Area 3 North exit by a continuous tree wall along X=11. The shortcut is a lie!\n- RETURN PATH FROM AREA 4 WEST (0, 11) TO MAIN ENTRANCE:\n  1. Walk South from (0, 11) to Y=17.\n  2. Walk East along Y=17/18 all the way back to the main entrance area (X=15+).
