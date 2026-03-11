@@ -1034,5 +1034,6 @@ PLAN: Navigate out of Western Grass (back to Y=18), walk East to Plateau Stairs 
 - UPDATE Turn 26419: The plateau DOES NOT just end! There is a narrow strip going North at X=15/16. I followed it up to Y=12. Looking ahead, the plateau turns WEST at Y=8, going directly ABOVE the Rest House! This must be the path to the Secret House.
 - UPDATE Turn 26420: I've reached (11, 8) right above the Rest House. The item ball (Gold Teeth) is visible at (9, 7)! However, the left edge of the plateau at X=10 appears to be a solid edge (TYPE_2889), not stairs. I will test walking Left to confirm if I can jump off or if there's a hidden path.
 - UPDATE Turn 26421: Tested walking Left from (11, 8). Bumped into the solid edge at X=10. The plateau cannot be exited to the West here. I will test walking North to see if there is a path down or if the plateau continues.
+- UPDATE Turn 26422: Looking at the screen, the plateau ends at Y=6 for X=15 and X=16. (15, 5) is grass. This 2-tile wide strip at (15, 6) and (16, 6) strongly resembles the top of a staircase. I will walk East to X=15 and attempt to walk North to descend into the upper grass!
 
 <hr>
