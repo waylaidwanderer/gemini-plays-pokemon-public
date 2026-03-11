@@ -28,11 +28,13 @@
   5. From (17, 8), walk East to X=21.
   6. Walk North to Y=1, West to X=7, Down to Y=5, then West to exit at (0, 4)!
 - TRUE OPTIMIZED PATH FOR AREA 3 NORTH:
-  1. From entrance (39,30), walk West to X=20, North to Y=25, East to X=22.
-  2. Climb stairs at (22,23) to the plateau.
-  3. Walk West to X=16, Down to descend stairs at (16,27).
-  4. Walk West to X=12, Down to Y=33.
-  5. Walk West to X=8, Down to exit at (8,35)!
+  1. From entrance (39,30), walk West to X=30.
+  2. Walk North to Y=29 to pass through the gap in the bushes.
+  3. Walk West to X=22.
+  4. Walk North to climb stairs at (22, 23) to the plateau.
+  5. Walk West across plateau to X=16, then South to descend stairs (around Y=27?).
+  6. Walk West to X=12, Down to Y=33.
+  7. Walk West to X=8, Down to exit at (8,35)!
 - CURRENT GOAL: Enter Area 4 West and navigate to the Secret House.
 - ENTRY FEE MECHANIC: While the attendant will sometimes let you in with less than 500 Poke Dollars (giving fewer Safari Balls), there appears to be a hard minimum requirement. 460 Poke Dollars is NOT enough to enter!
 - DEAD ENDS IN AREA 1 CENTER:
