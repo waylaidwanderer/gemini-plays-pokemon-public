@@ -963,7 +963,7 @@ START:(10,19)|DIR:R|END:(18,15)
 - The path West towards the Pokemon Center is blocked by a Cut bush at (18, 19). Y=13/14 paths are blocked by fences/buildings.
 - To return North from the bottom of the city, you CANNOT go up the West side due to ledges. You must head East along the bottom (Y=27/29) to X=18, then head North and Cut the bush at (18, 19) to access the top half.
 - Safari Zone Path: From the Cut bush at (18, 19), walk North. At Y=14, you can walk West to the Mart at (5,13). To continue to Safari Zone, go to X=16, walk North to Cut bush at (16, 11). Cut it. Continue North to Y=6, West to X=15 (dodge sign), North to Y=4, East to X=18, Up to enter.
-- WARNING: A solid tree wall at Y=16 blocks the direct path North from (26, 17) to the Cut bush. You must walk East along Y=17 to find the gap.
+- WARNING: A solid tree wall at Y=16 blocks the direct path North from (26, 17) to the Cut bush. The gap to head North is actually to the WEST, around X=24. Do not walk East from X=26.
 
 <hr>
 
