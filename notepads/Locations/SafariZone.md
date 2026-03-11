@@ -34,8 +34,6 @@
   5. Walk West to X=8, Down to exit at (8,35)!
 - CURRENT GOAL: Enter Area 4 West and navigate to the Secret House.
 - ENTRY FEE MECHANIC: While the attendant will sometimes let you in with less than 500 Poke Dollars (giving fewer Safari Balls), there appears to be a hard minimum requirement. 460 Poke Dollars is NOT enough to enter!
-- TRUE OPTIMIZED PATH FOR AREA 1 CENTER (To Area 2 East):
-  1. From entrance (15, 25), walk North to Y=22.
-  2. Walk East to X=28 (avoid tree wall at X=29).
-  3. Walk North to Y=10.
-  4. Walk East to exit at (29, 10)!
+- TRUE OPTIMIZED PATH FOR AREA 1 CENTER (To Area 3 North):
+  1. Area 2 East is a DEAD END from Center. You MUST take the North Exit to Area 3 North!
+  2. From entrance (15, 25), walk North/East to bypass the center island, and head towards (15, 0).
