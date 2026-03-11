@@ -974,12 +974,12 @@ START:(10,19)|DIR:R|END:(18,15)
 # Safari Zone
 - Run 7 Started: Turn 23598.
 - Entered at Turn 15456. Limit: 500 steps.
-- Map Connections (One-Way Loop: Center -> East -> North -> West -> Center):
-  - Area 1 Center (0_220) -> Area 2 East (0_217) [via East Exit at 29,10]
-  - Area 1 Center (0_220) -> Area 3 North (0_218) [via North Exit at 15,0]
-  - Area 2 East (0_217) -> Area 3 North (0_218) [via Northwest Exit at 0,4]
-  - Area 3 North (0_218) -> Area 4 West (0_219) [via Southwest Exit at 8,35 -> 26,0]
-  - Area 4 West (0_219) -> Area 1 Center (0_220) [via Southeast Exit at 29,23 -> 0,11]
+- Map Connections (TWO-WAY LOOP! Center <-> East <-> North <-> West <-> Center):
+  - Area 1 Center (0_220) <-> Area 2 East (0_217) [via East Exit at 29,10 <-> West Exit at 0,22/23]
+  - Area 1 Center (0_220) <-> Area 3 North (0_218) [via North Exit at 15,0 <-> South Exit at 20,35]
+  - Area 2 East (0_217) <-> Area 3 North (0_218) [via Northwest Exit at 0,4 <-> Southeast Exit at 39,30/31]
+  - Area 3 North (0_218) <-> Area 4 West (0_219) [via Southwest Exit at 8,35 <-> Northeast Exit at 26,0/1]
+  - Area 4 West (0_219) <-> Area 1 Center (0_220) [via Southeast Exit at 29,22/23 <-> West Exit at 0,10/11]
 - Area 4 West Northern Grass: No gap exists at Y=2/3. Must take the southern route!
 - PLATEAU MECHANICS: You CANNOT step North, East, or West off the plateau edge. You MUST find stairs. The plateau is merely an observation deck.
 - DEAD ENDS IN AREA 4 WEST:
@@ -1016,6 +1016,9 @@ START:(10,19)|DIR:R|END:(18,15)
 - TRUE OPTIMIZED PATH FOR AREA 1 CENTER (To Area 2 East):
   1. Area 1 Center's Entrance Area CANNOT reach the North Exit (15, 0) due to fences and water. You MUST walk East to (29, 10) to enter Area 2 East!
   2. From the entrance, walk East through the grass to X=29, then North to Y=10.
-\n- WEST POCKET DEAD END: The entire West pocket (North of Y=15) is cut off from the Area 3 North exit by a continuous tree wall along X=11. The shortcut is a lie!\n- RETURN PATH FROM AREA 4 WEST (0, 11) TO MAIN ENTRANCE:\n  1. Walk South from (0, 11) to Y=17.\n  2. Walk East along Y=17/18 all the way back to the main entrance area (X=15+).
+- WEST POCKET DEAD END: The entire West pocket (North of Y=15) is cut off from the Area 3 North exit by a continuous tree wall along X=11. The shortcut is a lie!
+- RETURN PATH FROM AREA 4 WEST (0, 11) TO MAIN ENTRANCE:
+  1. Walk South from (0, 11) to Y=17.
+  2. Walk East along Y=17/18 all the way back to the main entrance area (X=15+).
 
 <hr>
