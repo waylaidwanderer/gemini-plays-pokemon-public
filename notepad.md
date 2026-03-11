@@ -1010,8 +1010,8 @@ START:(10,19)|DIR:R|END:(18,15)
 - DEAD ENDS IN AREA 1 CENTER:
   1. East Side: The path North is blocked by a solid tree wall at Y=9 (around X=22 to X=27).
   2. West Side: The path North is blocked by a diagonal tree wall from (0, 17) to (9, 15).
-- TRUE OPTIMIZED PATH FOR AREA 1 CENTER (To Area 3 North):
-  1. Area 2 East is a DEAD END from Center. You MUST take the North Exit to Area 3 North!
-  2. The path North must be between the Rest House and the East tree wall. Navigate the inner columns (X=10 to X=21).
+- TRUE OPTIMIZED PATH FOR AREA 1 CENTER (To Area 2 East):
+  1. Area 1 Center's Entrance Area CANNOT reach the North Exit (15, 0) due to fences and water. You MUST walk East to (29, 10) to enter Area 2 East!
+  2. From the entrance, walk East through the grass to X=29, then North to Y=10.
 
 <hr>
