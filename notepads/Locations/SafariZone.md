@@ -25,7 +25,7 @@
   3. Walk West on plateau to X=12. Walk South to JUMP OFF the plateau ledge at (12, 21) and land on (12, 22).
   4. Walk West to X=7, then North along X=7 to Y=7.
   5. Walk East to X=12, climb stairs at (12, 7) to North Plateau.
-  6. Walk East across plateau to X=17, descend stairs at (17, 7).
+  6. Walk East across plateau to X=17, walk South to descend stairs at (17, 7).
   7. Walk East to X=21, North to Y=1, West to X=7, Down to Y=5, then West to exit at (0, 4)!
 - TRUE OPTIMIZED PATH FOR AREA 3 NORTH:
   1. From entrance (39,30), walk West to X=30.
