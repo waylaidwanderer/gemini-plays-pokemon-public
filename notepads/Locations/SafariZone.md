@@ -44,4 +44,5 @@
   WARNING: Entering Safari Zone places you at (15, 25). DO NOT press Down or start macros with Down, as (15, 26) is the exit warp!
   1. Area 1 Center's Entrance Area CANNOT reach the North Exit (15, 0) due to fences and water. You MUST walk East to (29, 10) to enter Area 2 East!
   2. From the entrance, walk East through the grass to X=29, then North to Y=10.
-- AREA 4 WEST SOUTH PATH: The path at Y=18 is safe. The previous theory about a closed loop trap at Y=17 was a hallucination caused by misunderstanding the plateau edge.
+- AREA 4 WEST RETURN LOOP: Jumping the ledge at Y=17 in Area 4 West traps you in the southern path, forcing you to exit East into Area 1 Center (0, 11). This places you in a small West Pocket. ESCAPE ROUTE: Walk South and jump the South-facing ledge at Y=12 to return to the main entrance area of Area 1 Center! (This is a one-way penalty loop, do NOT jump the Y=17 ledge in Area 4 West!).
+- GOLD TEETH STATUS: Spotted at Area 4 West (19, 7) up on the plateau, but fell off before collecting. Need to return via the Y=18 safe path.
