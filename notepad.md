@@ -984,7 +984,7 @@ START:(10,19)|DIR:R|END:(18,15)
 - PLATEAU MECHANICS: You CANNOT step North, East, or West off the plateau edge. You MUST find stairs. The plateau is merely an observation deck.
 - DEAD ENDS IN AREA 4 WEST:
   1. The ENTIRE Plateau is a dead end observation deck.
-  2. The Western Grass (down stairs at 6, 19) is the CORRECT PATH! Walk North in the grass to Y=14/15, then East above the cliff to X=10 to bypass the water.
+  2. The Western Grass (down stairs at 6, 19) is a DEAD END! The water blocks Y=13, and the Rest House completely blocks X=10. You CANNOT bypass it here.
   3. The Rest House area is a dead end.
   4. The central dirt path (X=11 to X=16, Y=6 to Y=10) is a dead end bounded by impassable ledges/cliffs to the North, East, and West.
 - TRUE OPTIMIZED PATH FOR AREA 4 WEST:
