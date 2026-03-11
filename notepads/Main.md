@@ -37,7 +37,7 @@
 - Moved to Locations/FuchsiaCity.
 
 [Gen 1 Mechanics]
-- Cursor memory differences: Party menu from Start->POKéMON RETAINS cursor memory ONLY IF YOU DON'T CLOSE THE START MENU. If you close the Start Menu completely (back to the overworld), the Party menu cursor RESETS to index 1! Start->ITEM->USE resets it. PC and Battle menus retain it. Move menu retains it when switching manually, but resets on faint/new battle. PokeMart SELL menu RESETS to the top after every sale!
+- Cursor memory differences: Party menu from Start->POKéMON ALWAYS RETAINS cursor memory, even if you close the Start Menu completely! Start->ITEM->USE resets it. PC and Battle menus retain it. Move menu retains it when switching manually, but resets on faint/new battle. PokeMart SELL menu RESETS to the top after every sale!
 - The Party Menu and Move Menu WRAP. Mashing 'Up' does not guarantee index 1.
 - HALLUCINATION CHECK: Never assume a tile ID is a solid wall without physically testing it. In the Safari Zone, TYPE_fed7 and TYPE_3fe2 are BOTH passable tall grass! Thick solid bushes look distinctly different (dark green, round leaves). Always bump to verify!
 - MACRO DANGER: Do not use alternating directional macros (like L-D-L-D) near ledges when searching for gaps. It can cause accidental ledge jumps, leading to false assumptions about solid walls. Always use step-by-step inputs for precise exploration.
