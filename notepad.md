@@ -988,7 +988,7 @@ START:(10,19)|DIR:R|END:(18,15)
   2. The Western Grass (down stairs at 6, 19) is a DEFINITIVE DEAD END. Y=13 is completely blocked by Trees (X=0,1) and Water (X=2 to 9). The gap at X=10 is blocked at Y=11 by the Rest House. There is NO path North here!
   3. The Rest House area is a dead end.
   4. The central dirt path (X=11 to X=16, Y=6 to Y=10) is a dead end bounded by impassable ledges/cliffs to the North, East, and West.
-- ROUTE PLAN: We must find a completely different path from the Area 4 North Entrance (26, 0). Need to explore South and West from the entrance to find a gap through the trees/ledges.
+- ROUTE PLAN: We must find a completely different path from the Area 4 North Entrance (26, 0). Need to explore South and West from the entrance to find a gap through the trees/ledges. Do not use macros to walk South along the X=24 tree wall. Test walking West at every single Y-coordinate using 1-step movements to ensure no gaps are missed.
 - DEAD ENDS IN AREA 2 EAST:
   1. The East Ground Path (X=19+) going North from the entrance is BLOCKED by water and ledges around Y=11.
 - TRUE OPTIMIZED PATH FOR AREA 2 EAST (COMPLEX!):
