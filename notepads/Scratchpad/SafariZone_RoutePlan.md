@@ -4,3 +4,4 @@
 3. Plateau: I declared the entire plateau a dead end observation deck. THIS MUST BE WRONG. There must be stairs leading DOWN from the plateau on its Northern or Western edges to bypass the Rest House.
 PLAN: Navigate out of Western Grass (back to Y=18), walk East to Plateau Stairs at (21, 17), climb up, and rigorously test EVERY tile along the Northern and Western edges of the Plateau for stairs down.
 - UPDATE Turn 26419: The plateau DOES NOT just end! There is a narrow strip going North at X=15/16. I followed it up to Y=12. Looking ahead, the plateau turns WEST at Y=8, going directly ABOVE the Rest House! This must be the path to the Secret House.
+- UPDATE Turn 26420: I've reached (11, 8) right above the Rest House. The item ball (Gold Teeth) is visible at (9, 7)! However, the left edge of the plateau at X=10 appears to be a solid edge (TYPE_2889), not stairs. I will test walking Left to confirm if I can jump off or if there's a hidden path.
