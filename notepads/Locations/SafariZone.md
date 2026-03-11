@@ -7,16 +7,16 @@
   - Area 2 East (0_217) <-> Area 3 North (0_218) [via Northwest Exit at 0,4 <-> Southeast Exit at 39,30/31]
   - Area 3 North (0_218) <-> Area 4 West (0_219) [via Southwest Exit at 8,35 <-> Northeast Exit at 26,0/1]
   - Area 4 West (0_219) <-> Area 1 Center (0_220) [via Southeast Exit at 29,22/23 <-> West Exit at 0,10/11]
-- Area 4 West Northern Grass: Gap likely exists at Y=0/1, as X=24 is blocked from Y=4 to Y=13, and X=23 is blocked from Y=14 to Y=17. Must go West immediately upon entering from Area 3 North!
+- Area 4 West Mechanics: The path West is located at Y=18! The trees block X=24 down to Y=13, and the plateau edge blocks X=23 down to Y=17. You MUST walk South to Y=18 to turn West.
 - PLATEAU MECHANICS: You CANNOT step North, East, or West off the plateau edge. You MUST find stairs. The plateau is merely an observation deck.
 - DEAD ENDS IN AREA 4 WEST:
   1. The ENTIRE Plateau is a dead end observation deck.
   2. The Western Grass (down stairs at 6, 19) is a DEAD END blocked by water at Y=15.
   3. The Rest House area is a dead end.
-  4. The Y=17 Ledge Trap: Walking South past Y=16 on the East side forces you to jump a South-facing ledge at Y=17, trapping you in the southern area which only leads to the Area 1 Center exit. MUST FIND A WAY WEST NORTH OF Y=16!
 - TRUE OPTIMIZED PATH FOR AREA 4 WEST:
-  1. From entrance (26,0), walk South along the East wall. DO NOT walk South past Y=16!
-  2. Find a path West BEFORE the Y=17 ledge.
+  1. From entrance (26,0), walk South along the East wall all the way down to Y=18.
+  2. Turn West at Y=18 (e.g. at 24,18) and continue past the ledges to the West side.
+  3. Navigate North around the plateau (cliff ends at Y=5) to reach the Gold Teeth at (19,7) and the Secret House!
 - DEAD ENDS IN AREA 2 EAST:
   1. The East Ground Path (X=19+) going North from the entrance is BLOCKED by water and ledges around Y=11.
 - TRUE OPTIMIZED PATH FOR AREA 2 EAST (COMPLEX!):
@@ -44,4 +44,4 @@
   WARNING: Entering Safari Zone places you at (15, 25). DO NOT press Down or start macros with Down, as (15, 26) is the exit warp!
   1. Area 1 Center's Entrance Area CANNOT reach the North Exit (15, 0) due to fences and water. You MUST walk East to (29, 10) to enter Area 2 East!
   2. From the entrance, walk East through the grass to X=29, then North to Y=10.
-- CLOSED LOOP TRAP: The Y=17 ledge in Area 4 West drops you into a closed loop! The only exit is East to Area 1 Center (0, 11). That leads to a tiny pocket bounded by a South-facing ledge at Y=10 and a West-facing ledge at X=3. YOU CANNOT ESCAPE THIS LOOP. Do NOT jump the Y=17 ledge in Area 4 West!
+- AREA 4 WEST SOUTH PATH: The path at Y=18 is safe. The previous theory about a closed loop trap at Y=17 was a hallucination caused by misunderstanding the plateau edge.
