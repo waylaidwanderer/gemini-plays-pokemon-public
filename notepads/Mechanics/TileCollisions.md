@@ -41,3 +41,4 @@
 - TYPE_3fe2: Regular passable ground/bridge (NOT tall grass, no encounters here).
 - TYPE_44f6: Cut Tree (Impassable without HM01 Cut)
 - TYPE_5519: Cut Tree (Can be removed by using HM01 Cut from the Pokémon menu while facing it).
+- CRITICAL: Cut bushes are ALWAYS `TYPE_5519`. Regular trees like `TYPE_2889` or `TYPE_1c8e` cannot be cut!
