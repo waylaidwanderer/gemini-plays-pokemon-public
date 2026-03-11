@@ -980,17 +980,14 @@ START:(10,19)|DIR:R|END:(18,15)
   - Area 2 East (0_217) <-> Area 3 North (0_218) [via Northwest Exit at 0,4 <-> Southeast Exit at 39,30/31]
   - Area 3 North (0_218) <-> Area 4 West (0_219) [via Southwest Exit at 8,35 <-> Northeast Exit at 26,0/1]
   - Area 4 West (0_219) <-> Area 1 Center (0_220) [via Southeast Exit at 29,22/23 <-> West Exit at 0,10/11]
-- Area 4 West Mechanics: The path West is located at Y=18! The trees block X=24 down to Y=13, and the plateau edge blocks X=23 down to Y=17. You MUST walk South to Y=18 to turn West.
+- Area 4 West Mechanics: The southern half of Area 4 West (Y=18+) is completely cut off from the Secret House by the plateau, ledges, and water.
 - PLATEAU MECHANICS: You CANNOT step North, East, or West off the plateau edge. You MUST find stairs. The plateau is merely an observation deck.
 - DEAD ENDS IN AREA 4 WEST:
   1. The ENTIRE Plateau is a dead end observation deck.
   2. The Western Grass (down stairs at 6, 19) is a DEAD END! The water blocks Y=13, and the Rest House completely blocks X=10. You CANNOT bypass it here.
   3. The Rest House area is a dead end.
   4. The central dirt path (X=11 to X=16, Y=6 to Y=10) is a dead end bounded by impassable ledges/cliffs to the North, East, and West.
-- TRUE OPTIMIZED PATH FOR AREA 4 WEST:
-  1. From entrance (26,0), walk South along the East wall all the way down to Y=18.
-  2. Turn West at Y=18 (e.g. at 24,18) and continue past the ledges to the West side.
-  3. Navigate North along the WEST side of the Rest House (keep X coordinate < 11) to reach the Gold Teeth at (9, 7) and the Secret House!
+- ROUTE PLAN: When entering Area 4 West from the North (26, 0), DO NOT walk South. You must explore the top edge of the map by walking WEST directly from the entrance.
 - DEAD ENDS IN AREA 2 EAST:
   1. The East Ground Path (X=19+) going North from the entrance is BLOCKED by water and ledges around Y=11.
 - TRUE OPTIMIZED PATH FOR AREA 2 EAST (COMPLEX!):
