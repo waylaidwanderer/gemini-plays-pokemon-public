@@ -39,4 +39,4 @@
 - TRUE OPTIMIZED PATH FOR AREA 1 CENTER (To Area 2 East):
   1. From entrance (15, 25), walk North to Y=22.
   2. Walk East to X=29.
-  3. Walk North to exit at (29, 10)!
+  3. Walk North past Y=10 all the way to Y=4 or higher, then walk East to exit! (Exiting at Y=10 puts you in a dead end in Area 2 East).
