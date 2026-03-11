@@ -13,10 +13,11 @@
   1. The ENTIRE Plateau is a dead end observation deck.
   2. The Western Grass (down stairs at 6, 19) is a DEAD END blocked by water at Y=15.
   3. The Rest House area is a dead end.
+  4. The central dirt path (X=11 to X=16, Y=6 to Y=10) is a dead end bounded by impassable ledges/cliffs to the North, East, and West.
 - TRUE OPTIMIZED PATH FOR AREA 4 WEST:
   1. From entrance (26,0), walk South along the East wall all the way down to Y=18.
   2. Turn West at Y=18 (e.g. at 24,18) and continue past the ledges to the West side.
-  3. Navigate North around the plateau (cliff ends at Y=5) to reach the Gold Teeth at (19,7) and the Secret House!
+  3. Navigate North along the WEST side of the Rest House (keep X coordinate < 11) to reach the Gold Teeth at (9, 7) and the Secret House!
 - DEAD ENDS IN AREA 2 EAST:
   1. The East Ground Path (X=19+) going North from the entrance is BLOCKED by water and ledges around Y=11.
 - TRUE OPTIMIZED PATH FOR AREA 2 EAST (COMPLEX!):
@@ -45,5 +46,5 @@
   1. Area 1 Center's Entrance Area CANNOT reach the North Exit (15, 0) due to fences and water. You MUST walk East to (29, 10) to enter Area 2 East!
   2. From the entrance, walk East through the grass to X=29, then North to Y=10.
 - AREA 4 WEST RETURN LOOP: Jumping the ledge at Y=17 in Area 4 West traps you in the southern path, forcing you to exit East into Area 1 Center (0, 11). This places you in a West Pocket. CURRENTLY EXPLORING ESCAPE ROUTE: The West pocket extends North to at least (10, 2), but is blocked from the East main area by a lake and trees. Need to find a way to jump South to the main entrance area!
-- GOLD TEETH STATUS: Spotted at Area 4 West (19, 7) up on the plateau, but fell off before collecting. Need to return via the Y=18 safe path.
-- AREA 4 WEST LEDGE CONSTRAINT: There is a South-facing ledge separating the dirt (Y=6) and the grass (Y=5). You must walk West to find a way around it to get to the upper grass level and the Secret House/Gold Teeth.
+- GOLD TEETH STATUS: Found at Area 4 West (9, 7). Need to approach from the West side of the Rest House (X < 11).
+- AREA 4 WEST LEDGE CONSTRAINT: The central dirt path (X=11 to X=16) is boxed in by ledges. You must walk North on the WEST side of the Rest House (X < 11) to access the upper grass level and the Secret House/Gold Teeth.
