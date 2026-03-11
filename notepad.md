@@ -1036,5 +1036,6 @@ PLAN: Navigate out of Western Grass (back to Y=18), walk East to Plateau Stairs 
 - UPDATE Turn 26421: Tested walking Left from (11, 8). Bumped into the solid edge at X=10. The plateau cannot be exited to the West here. I will test walking North to see if there is a path down or if the plateau continues.
 - UPDATE Turn 26422: Looking at the screen, the plateau ends at Y=6 for X=15 and X=16. (15, 5) is grass. This 2-tile wide strip at (15, 6) and (16, 6) strongly resembles the top of a staircase. I will walk East to X=15 and attempt to walk North to descend into the upper grass!
 - UPDATE Turn 26423: CONFIRMED! The tiles at (15, 6) and (16, 6) are stairs leading DOWN to the North grass (Y=5). The plateau successfully bypassed the Rest House! I also see TWO items now: one at (9, 7) and another at (19, 7). I am going to grab the one at (19, 7) first.
+- UPDATE Turn 26425: FATAL ERROR. My 'Up' press at (15, 6) bumped! (15, 5) is a solid wall, not stairs. The North Plateau IS a dead end. Furthermore, I accidentally jumped a 1-way ledge going Left at X=17, which has trapped me on this plateau section. I cannot go Right or North. I will attempt to head South-West to find an escape. Also, re-evaluating the Western Grass: my bump tests confirm water completely blocks Y=13 from X=2 to X=9. There is NO GAP there.
 
 <hr>
