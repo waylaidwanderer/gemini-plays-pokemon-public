@@ -4,7 +4,7 @@
 - PokeMart: (5, 13) - Sells: Ultra Ball, Great Ball, Super Potion...
 - Pokemon Center: (19, 27) (PC is at 13, 3). Path: From the West side (X=1), walk South to Y=32. Walk East to X=8, North through the gap to Y=30, East to X=19, then North to enter the Center at (19, 27). WARNING: East-facing ledges at X=23 (Y=18+) trap you if you walk East. Y=20 is open to walk West!
 - Path back to North: From the Pokemon Center, you MUST use the Cut bush at (18, 19). Walk West to X=18, then North to Cut the bush.
-- WARNING: DO NOT jump RIGHT over the ledge at (23, 30)! It traps you in the East side of the city because the Cut bush at (26, 13) CANNOT be reached from the South. If trapped, walk South to Route 19, West, and North back into the city, or walk East to Route 15 and loop back around. (Note: Using Dig inside the house at 27, 27 FAILS with "Oak's words echoed", tested on Turn 25507).
+- WARNING: DO NOT jump RIGHT over the ledge at (23, 30)! Traps you in the East side. The Cut bush at (26, 13) CANNOT be reached from South. ESCAPE: Walk East to Route 15 (lower path). Go East on Route 15 to find a gap North, go Up to Y=4 (Top path), and walk West back into Fuchsia City. Route 15 Y=4 connects to Fuchsia Y=12 (above the tree wall), allowing access to the Cut bush.
 - Safari Zone Warden's House: (11, 27). He lost his Gold Teeth in the Safari Zone!
 [City Layout Rules]
 - Ledges are strictly ONE-WAY. You can only jump DOWN (South) over them. Moving North against a ledge acts as a solid wall. Note: Not all TYPE_3fe2 tiles are ledges (many are just flat paths or grass), so rely on visual confirmation.
