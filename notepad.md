@@ -986,12 +986,9 @@ START:(10,19)|DIR:R|END:(18,15)
   2. The solid bush wall at X=23 ends at Y=17. Turn West at Y=18 and walk past the plateau stairs!
 - DEAD ENDS IN AREA 2 EAST:
   1. West Ground Path (X=0 to 7): Blocked from going North by thick bushes and one-way ledges at Y=20.
+  2. The East Ground Path (X=19+) going North is BLOCKED by water and ledges around Y=11.
 - TRUE OPTIMIZED PATH FOR AREA 2 EAST:
-  1. From entrance (0,22), walk East along the bottom (Y=24) to X=20.
-  2. Walk North through the grass to Y=1 (bypassing the plateau entirely!).
-  3. Walk West along the top edge to X=7.
-  4. Walk Down to Y=5 to bypass the walls at Y=3 and (6,4).
-  5. Walk West to X=1, Up to Y=4, then Left to exit at (0,4)!
+  - [UNDER INVESTIGATION] The low ground paths are blocked. Must find the correct stairs to the plateau to cross over to the North side.
 - TRUE OPTIMIZED PATH FOR AREA 3 NORTH:
   1. From entrance (39,30), walk West to X=20, North to Y=25, East to X=22.
   2. Climb stairs at (22,23) to the plateau.
