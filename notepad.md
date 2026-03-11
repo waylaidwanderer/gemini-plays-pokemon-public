@@ -1019,5 +1019,6 @@ START:(10,19)|DIR:R|END:(18,15)
   2. From the entrance, walk East through the grass to X=29, then North to Y=10.
 - AREA 4 WEST RETURN LOOP: Jumping the ledge at Y=17 in Area 4 West traps you in the southern path, forcing you to exit East into Area 1 Center (0, 11). This places you in a West Pocket. CURRENTLY EXPLORING ESCAPE ROUTE: The West pocket extends North to at least (10, 2), but is blocked from the East main area by a lake and trees. Need to find a way to jump South to the main entrance area!
 - GOLD TEETH STATUS: Spotted at Area 4 West (19, 7) up on the plateau, but fell off before collecting. Need to return via the Y=18 safe path.
+- AREA 4 WEST LEDGE CONSTRAINT: There is a South-facing ledge separating the dirt (Y=6) and the grass (Y=5). You must walk West to find a way around it to get to the upper grass level and the Secret House/Gold Teeth.
 
 <hr>
