@@ -12,7 +12,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 
 [OPTIMIZED ROUTE TO AREA 4 WEST]
 1. AREA 1 CENTER TO AREA 2 EAST: From the entrance (15, 25), walk LEFT to (14, 25), UP to (14, 23), then EAST to X=28, North past tree wall, East to exit at (29, 10).
-2. AREA 2 EAST TO AREA 3 NORTH: From entrance (0,22), walk South to Y=24, East through tall grass (TYPE_fed7) to X=20. North to climb stairs at (20, 21). West on plateau to X=12, South to jump off ledge at (12, 21). West to X=7, North to Y=7. East to X=12, climb stairs at (12, 7). East to X=17, South to descend stairs at (17, 7). South to Y=8, East to X=21, North to Y=1, West to X=7, Down to Y=5, West to exit at (0, 4).
+2. AREA 2 EAST TO AREA 3 NORTH: From entrance (0,22), walk South to Y=24, East through tall grass (TYPE_fed7) to X=20. North to climb stairs at (20, 21). West on plateau to X=12, South to jump off ledge at (12, 21). West to X=7, North to Y=7. East to X=12, climb stairs at (12, 7) to plateau at Y=6. East to X=17, South to descend stairs at (17, 7). South to Y=8, East to X=21, North to Y=1, West to X=7, Down to Y=5, West to exit at (0, 4).
 3. AREA 3 NORTH TO AREA 4 WEST: From entrance (39,30), walk West to X=30. North to Y=29. West to X=22. North to climb stairs at (22, 23). West across plateau to X=16, South to descend stairs. West to X=12, Down to Y=33. West to X=8. Walk South through the gap at (8, 34) to exit at (8, 35) into Area 4 West.
 
 [AREA 4 WEST MECHANICS & TOPOGRAPHY]
