@@ -994,6 +994,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - AREA 4 WEST CORRECT PATH:
   1. Take the plateau stairs at (21, 17) UP to Level 1. (UPDATE: PLATEAU IS A DEAD END. No stairs down. It's just an observation deck.)
   2. New Plan: Re-evaluate Level 0 eastern tree wall (X=24) for hidden gaps to walk West to the Secret House.
+- DEAD ENDS IN AREA 3 NORTH:
+  1. The Northwest corner (X=6, Y=20) is a dead end strip between water and a tree wall.
 - DEAD ENDS IN AREA 4 WEST:
   1. The Northern edge of the dirt path (Y=5) from X=11 to X=16 is a solid cliff edge dropping down. Cannot walk North off it. Tested Turn 27586.
 - ROUTE PLAN: The central dirt path (accessed via stairs at 21, 17) is a completely sealed DEAD END trap. It is boxed in by solid vertical and horizontal ledges. There is NO path to the Secret House from the Eastern grass. We MUST find a completely different entrance to Area 4 West, likely an undiscovered exit on the far West side of Area 3 North.
