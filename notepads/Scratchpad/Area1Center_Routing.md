@@ -1,0 +1,1 @@
+- My previous optimized route note for reaching Area 2 East was wrong about Y=23. Y=23 is blocked by a tree wall starting at X=20. The path East must be further North or somewhere else. I am currently exploring North from (20, 20) to find the way around the tree wall at X=22/23.
