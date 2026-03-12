@@ -52,7 +52,6 @@
 - HALLUCINATION CHECK: If my current visual perception (e.g., seeing an Item Ball in a building) contradicts a previously written note (e.g., "This building is a trap Rest House"), I MUST trust my eyes and investigate the anomaly, rather than blindly following the note and ignoring the item. Notes can be poisoned by past false assumptions!
 - Turn Hallucinations: When mashing A or B through dialogue (like the Safari Zone entrance), the exact number of turns taken can vary based on text rendering speed and auto-advances. Always double-check the current turn number in the Game State before declaring the current turn.
 - Safari Zone Run 13! Current Goal: Reach Area 4 West, take the plateau to the Western Grass, and walk North/East to X=10/11 to pass between the water and the Rest House to reach the Gold Teeth.
-- Turn 28388: Completed 50-turn reflection. Goals and notepads are updated. The plan to sell PC items for Safari Zone entry fee is solid. The hypothesis for Area 4 West is clearly defined in the Scratchpad.
 
 <hr>
 
