@@ -1031,16 +1031,3 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Safari Zone Run 18 Started: Turn 27492. Current Goal: Reach Area 3 North, test for an alternate exit further West past X=8 (e.g., at X=0 or X=2, Y=35).
 
 <hr>
-
-<h1><code>Scratchpad/Area4West_Routing</code></h1>
-
-# Safari Zone Area 4 West Plateau Routing
-- Hypothesis: We are on Level 1 (High Plateau). Secret House is on Level 0 (Lower Ground). We need to find stairs DOWN.
-- Level 0 West Grass: Confirmed MASSIVE DEAD END. Water blocks Y=13, ledges block X=14.
-- Route Plan:
-  1. Return to Level 1 plateau via stairs at (6, 19).
-  2. Navigate to the Eastern side of the plateau (around X=20, Y=16).
-  3. Explore North along the Eastern edge of the plateau (X=18 to X=21) to find stairs DOWN to Level 0 North.
-  4. Once on Level 0 North, walk West to the Secret House.
-
-<hr>
