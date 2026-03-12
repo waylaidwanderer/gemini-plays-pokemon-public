@@ -11,8 +11,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Area 4 West Mechanics: The southern half of Area 4 West (Y=18+) is completely cut off from the Secret House by the plateau, ledges, and water.
 - PLATEAU MECHANICS: You CANNOT step North, East, or West off the plateau edge. You MUST find stairs. The plateau is merely an observation deck.
 - AREA 4 WEST TOPOGRAPHY HYPOTHESIS:
-  - Level 0 (Lower Ground): Entrance (26, 0), eastern path down to Y=18, and the grass areas containing the Secret House (X<10, Y<5, X>17).
-  - Level 1 (High Plateau): Reached via stairs UP at (21, 17). Includes southern area (Y=16-20) and the central dirt path (X=11-16, Y=6-10). 
+  - The central dirt path (X=11-16) is NOT a high plateau. It is a SUNKEN TRENCH. (Tested Turn 27775: Bumping Left into the ledge at X=10 from the dirt path acts as a solid wall, confirming the grass at X=10 is higher).
+  - The stairs at (21, 17) go DOWN from the Eastern ground level into this sunken trench.
+  - To reach the Secret House (Level 0), I need to find stairs going UP from the trench to the Western grass.
 - CURRENT ROUTE PLAN: From Level 1 (high plateau), systematically test the western edge (X=10) around the Rest House (Y=9, Y=10) to find a path West, and ultimately stairs going DOWN to Level 0 to reach the Secret House.
 - AREA 4 WEST CORRECT PATH:
   1. Take the plateau stairs at (21, 17) UP to Level 1. (UPDATE: PLATEAU IS A DEAD END. No stairs down. It's just an observation deck.)
