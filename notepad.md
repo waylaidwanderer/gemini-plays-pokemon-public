@@ -1004,6 +1004,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - NEW PLAN: We must find a completely different entrance to the West Grass, possibly an undiscovered exit from Area 3 North or a path through Area 1 Center.
 
 [KNOWN TRAPS & DEAD ENDS]
+- Area 2 East Entrance Pocket: Exiting Area 1 Center via the East Exit at (29, 10) drops you into an INESCAPABLE POCKET in Area 2 East at (0, 22). It is blocked by ledges, bushes, and trees on all sides, meaning it is strictly a one-way return path FROM Area 2 East TO Area 1 Center. Do not use this as a forward route.
 - Area 1 Center West Pocket: Exiting Area 4 West via the Southeast exit (29,22/23) drops you into a COMPLETE DEAD END in Area 1 Center at (0, 11). UPDATE (Turn 27958): The West pocket is a COMPLETE DEAD END. It is blocked by trees on the North (Y=0) and East (X=11), and water on the South (Y=8). There is NO escape to the main Area 1 Center. You must walk until your time runs out.
 - Area 4 West Trap Ledge: Jumping the ledge at (14, 17) traps you in the southern path, forcing you to exit into the Area 1 Center West Pocket. I have placed a map marker 🚫 "Trap Ledge" at (14, 17) in Area 4 West to prevent this mistake in future runs.
 - Area 3 North Northwest Corner: The Northwest corner (X=6, Y=20) is a dead end strip between water and a tree wall.
