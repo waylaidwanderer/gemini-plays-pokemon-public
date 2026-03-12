@@ -1041,5 +1041,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Level 2 (Highest): West Grass (X <= 10). Contains Secret House and Gold Teeth.
 - Evidence: Ledge at (23, 17) drops DOWN to the East/South, meaning Dirt Path > East Grass. Ledge at X=10 blocks moving Left from Dirt Path, meaning West Grass > Dirt Path.
 - Goal: Find stairs UP from Level 1 (Dirt Path) to Level 2 (West Grass), OR find a path around the ledges on the North side.
+- UPDATE (Turn 27905): The item at (19, 7) (TM45) was hallucinated as obtained in Turn 27898. I saw it on screen, but the vertical ledge at X=17 is a solid wall and blocked me from reaching it. I am currently trapped on the dirt path North of the Rest House (between X=11 and X=16). I must test if there is ANY gap to escape this pocket.
 
 <hr>
