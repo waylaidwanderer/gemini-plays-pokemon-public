@@ -987,10 +987,11 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Area 4 West Mechanics: The southern half of Area 4 West (Y=18+) is completely cut off from the Secret House by the plateau, ledges, and water.
 - PLATEAU MECHANICS: You CANNOT step North, East, or West off the plateau edge. You MUST find stairs. The plateau is merely an observation deck.
 - AREA 4 WEST TOPOGRAPHY:
-  - PROVEN (Turn 28138): The central dirt path (X=11-16) is an ELEVATED PLATEAU (Level 1).
-  - The grass to the West (X < 11) is ground level (Level 0).
-  - The ledge at X=10 is WEST-FACING. You can JUMP WEST off the dirt path to reach the Gold Teeth at (9, 7).
-  - The stairs at (21, 17) go UP from the Eastern ground level (Level 0) onto this dirt plateau.
+  - PROVEN (Turn 28146): The central dirt path (X=11-16) is a SUNKEN TRENCH (Level 0).
+  - The grass to the West (X < 11) and East (X > 16) is ELEVATED (Level 1).
+  - The ledge at X=10 is EAST-FACING (drops down from West grass). You CANNOT jump West off the dirt path.
+  - The stairs at (21, 17) go DOWN from the Eastern Grass (Level 1) into the dirt trench.
+  - To reach the Gold Teeth/Secret House on the West Grass (Level 1), I MUST find stairs going UP from the dirt trench, OR find a path through the East Grass (Level 1) that connects to the West Grass.
 - CURRENT ROUTE PLAN: From Level 1 (high plateau), systematically test the western edge (X=10) around the Rest House (Y=9, Y=10) to find a path West, and ultimately stairs going DOWN to Level 0 to reach the Secret House.
 - AREA 4 WEST CORRECT PATH:
   1. Take the plateau stairs at (21, 17) UP to Level 1. (UPDATE: PLATEAU IS A DEAD END. No stairs down. It's just an observation deck.)
