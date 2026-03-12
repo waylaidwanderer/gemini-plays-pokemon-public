@@ -10,10 +10,12 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Area 3 North (0_218) <-> Area 4 West (0_219) [via Southwest Exit at 8,35 <-> Northeast Exit at 26,0/1]
 - Area 4 West (0_219) <-> Area 1 Center (0_220) [via Southeast Exit at 29,22/23 <-> West Exit at 0,10/11]
 
-[OPTIMIZED ROUTE TO AREA 4 WEST]
-1. AREA 1 CENTER TO AREA 2 EAST: WARNING: Entering Safari Zone places you at (15, 25). DO NOT press Down or start macros with Down, as (15, 26) is the exit warp! Area 1 Center's Entrance Area CANNOT reach the North Exit (15, 0) due to fences and water. You MUST walk East to (29, 10) to enter Area 2 East! From the entrance (15, 25), walk LEFT to (14, 25), UP to (14, 23), then EAST to X=28, North past tree wall, East to exit at (29, 10).
-2. AREA 2 EAST TO AREA 3 NORTH: From entrance (0,22), path on Y=24 is a DEAD END at X=13. Route to stairs at (20, 21) must be North. (Routing...) West on plateau to X=12, South to jump off ledge at (12, 21). West to X=7, North to Y=7. East to X=12, climb stairs at (12, 7). East to X=17, South to descend stairs at (17, 7). South to Y=8, East to X=21, North to Y=1, West to X=7, Down to Y=5, West to exit at (0, 4).
-3. AREA 3 NORTH TO AREA 4 WEST: From entrance (39,30), walk West to X=30. North to Y=29 through gap. West to X=22. North to climb stairs at (22, 23). West across plateau to X=16, South to descend stairs. West to X=12, Down to Y=33. West to X=6 (tree wall at X=5). Jump South over ledge to Y=35. Exit at (8, 35) into Area 4 West.
+[FORWARD ROUTING]
+- CRITICAL DISCOVERY: Area 1 Center East Exit (29, 10) -> Area 2 East (0, 22) leads to an INESCAPABLE POCKET. It is a one-way return path.
+- The ONLY forward exit from Area 1 Center must be the North Exit at (15, 0) to Area 3 North.
+- Goal: Explore Area 1 Center to reach (15, 0).
+- From Area 3 North, we can likely access both Area 2 East (via 39,30) and Area 4 West (via 8,35).
+- Route Area 3 North -> Area 4 West: From entrance, go West to X=30. North to Y=29. West to X=22. North to climb stairs at (22, 23). West across plateau to X=16, South to descend stairs. West to X=12, Down to Y=33. West to X=6. Jump South over ledge to Y=35. Exit at (8, 35) into Area 4 West.
 
 [AREA 4 WEST MECHANICS & TOPOGRAPHY]
 - GOLD TEETH STATUS: Found at Area 4 West (9, 7). Need to approach from the West side of the Rest House (X < 11).
