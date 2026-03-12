@@ -1034,11 +1034,11 @@ START:(10,19)|DIR:R|END:(18,15)
 
 # Safari Zone Area 4 West Plateau Routing
 - Hypothesis: We are on Level 1 (High Plateau). Secret House is on Level 0 (Lower Ground). We need to find stairs DOWN.
-- Top-Right Section Perimeter (Tested):
-  - North (Y=5): Drop-off from X=11 to X=16.
-  - West (X=10): Drop-off at Y=6, Y=7, Y=8.
-  - South (Y=9): Drop-off / Rest House roof from X=10 to X=14. Path continues South at X=15.
-- Level 0 Discovery (Turn 27616): The stairs at (6, 19) ARE the correct path! From (6, 19), walk West to X=3, North to Y=15, then East along the grass path (Y=14/Y=15) wedged between the water (Y=13) and the plateau (Y=16).
-- Current Goal: Walk East along Y=15 from X=3 to bypass the water and Rest House.
+- Level 0 West Grass: Confirmed MASSIVE DEAD END. Water blocks Y=13, ledges block X=14.
+- Route Plan:
+  1. Return to Level 1 plateau via stairs at (6, 19).
+  2. Navigate to the Eastern side of the plateau (around X=20, Y=16).
+  3. Explore North along the Eastern edge of the plateau (X=18 to X=21) to find stairs DOWN to Level 0 North.
+  4. Once on Level 0 North, walk West to the Secret House.
 
 <hr>
