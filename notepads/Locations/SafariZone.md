@@ -15,7 +15,7 @@
   1. The central dirt path (X=11 to X=16, Y=6 to Y=10) is a dead end.
   2. The Western Grass pocket (X=6 to X=13, Y=12 to Y=15) is a MASSIVE dead end. The gap at (10, 11) is a solid wall, and Y=13 is blocked by a South-facing ledge. DO NOT take the plateau stairs at (21, 17)!
   3. The Eastern gap at X=17/18 Y=20-25 is a trap that forces a return to Area 1 Center.
-- ROUTE PLAN: EMPIRICAL TEST COMPLETE. The trees at (25, 0) and (25, 1) are solid TYPE_2889 blocks. The extreme North path is 100% BLOCKED. The ONLY way into the West side of Area 4 West is the Plateau. I must climb stairs at (21, 17), cross West to stairs at (6, 19), and then explicitly explore the FAR WEST edge (X < 6) of the Western Grass pocket to bypass the Rest House!
+- ROUTE PLAN: The Western Grass pocket (accessed via X=6 stairs) is a completely sealed DEAD END. There is a vertical wall of trees at X=14. To go North, I MUST access the path at X=15! To reach X=15, I must take the plateau stairs at (21, 17) DOWN to the main East area, then walk West to X=15, then walk straight North past the Rest House!
 - DEAD ENDS IN AREA 2 EAST:
   1. The East Ground Path (X=19+) going North from the entrance is BLOCKED by water and ledges around Y=11.
 - TRUE OPTIMIZED PATH FOR AREA 2 EAST (COMPLEX!):
