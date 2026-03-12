@@ -29,6 +29,3 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Area 3 North Northwest Corner: The Northwest corner (X=6, Y=20) is a dead end strip between water and a tree wall.
 - Area 1 Center East/West: North paths are blocked by tree walls at Y=9 (East) and diagonal tree wall from (0,17) to (9,15) (West).
 - Area 2 East Ground Path: The East Ground Path (X=19+) going North from the entrance is BLOCKED by water and ledges around Y=11.
-
-[CURRENT STATUS]
-- Running Safari Zone to find a second exit to Area 4 West. Have 110 Poke Dollars left. Need to investigate Area 3 North or Area 1 Center for a path to Area 4 West Grass.
