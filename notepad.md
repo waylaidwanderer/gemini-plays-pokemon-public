@@ -974,6 +974,7 @@ START:(10,19)|DIR:R|END:(18,15)
 <h1><code>Locations/SafariZone</code></h1>
 
 # Safari Zone
+WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental ledge jumps and desyncs.
 - Run 7 Started: Turn 23598.
 - Entered at Turn 15456. Limit: 500 steps.
 - Map Connections (TWO-WAY LOOP! Center <-> East <-> North <-> West <-> Center):
