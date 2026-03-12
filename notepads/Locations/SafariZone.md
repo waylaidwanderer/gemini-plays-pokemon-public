@@ -47,3 +47,4 @@
 - GOLD TEETH STATUS: Found at Area 4 West (9, 7). Need to approach from the West side of the Rest House (X < 11).
 - AREA 4 WEST LEDGE CONSTRAINT: The central dirt path (X=11 to X=16) is boxed in by ledges. You must walk North on the WEST side of the Rest House (X < 11) to access the upper grass level and the Secret House/Gold Teeth.
 - Safari Zone Run 16 Started: Turn 27179. Current Goal: Reach Area 4 West, and explore the extreme North edge (Y=0, Y=1) heading West from the entrance at (26, 0).
+- UPDATE (Turn 27254): Tested the North edge. X=24 is a solid tree wall from Y=0 down to Y=13. X=23 is a solid tree wall from Y=14 down to Y=17. The North path hypothesis is FALSE. The ONLY way West is via the plateau stairs at (21, 17). I must explore the plateau itself for alternative stairs down to the North.
