@@ -1,0 +1,1 @@
+Turn 27401 Reflection: I am stuck in a loop at (17, 20) because of overusing long directional macros (RRRRUUU) near ledges/trees, causing me to bounce off walls. I am in the Eastern Trap of Area 4 West. Goal: Walk South-West to bypass the trees at X=17,18, then walk East to the Area 1 Center exit at (29, 22). Must use short 2-3 step sequences to avoid false pathing.

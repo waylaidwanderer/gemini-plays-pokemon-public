@@ -1025,3 +1025,9 @@ START:(10,19)|DIR:R|END:(18,15)
 - UPDATE (Turn 27254): Tested the North edge. X=24 is a solid tree wall from Y=0 down to Y=13. X=23 is a solid tree wall from Y=14 down to Y=17. The North path hypothesis is FALSE. The ONLY way West is via the plateau stairs at (21, 17). I must explore the plateau itself for alternative stairs down to the North.
 
 <hr>
+
+<h1><code>Scratchpad/Area4West_Routing</code></h1>
+
+Turn 27401 Reflection: I am stuck in a loop at (17, 20) because of overusing long directional macros (RRRRUUU) near ledges/trees, causing me to bounce off walls. I am in the Eastern Trap of Area 4 West. Goal: Walk South-West to bypass the trees at X=17,18, then walk East to the Area 1 Center exit at (29, 22). Must use short 2-3 step sequences to avoid false pathing.
+
+<hr>
