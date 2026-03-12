@@ -6,3 +6,4 @@
 - 1st directional press turns the character in place.
 - 2nd consecutive press in the same direction moves the character to the next tile.
 - Custom tools MUST include a short sleep (e.g., 'sleep 150') between these presses to ensure the emulator registers them as distinct inputs, otherwise the character will just spin in place forever without triggering encounters.
+- [Gen 1 Ledge Mechanics] Jumpable ledges are EXCLUSIVELY South-facing (horizontal lines). The engine only supports jumping Down (South). Any vertical ledge (facing East or West) is a 100% solid wall and can NEVER be jumped. Treat all vertical ledges as hard boundaries.
