@@ -990,8 +990,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   - Level 1 (High Plateau): Reached via stairs UP at (21, 17). Includes southern area (Y=16-20) and the central dirt path (X=11-16, Y=6-10). 
 - CURRENT ROUTE PLAN: From Level 1 (high plateau), systematically test the western edge (X=10) around the Rest House (Y=9, Y=10) to find a path West, and ultimately stairs going DOWN to Level 0 to reach the Secret House.
 - AREA 4 WEST CORRECT PATH:
-  1. Take the plateau stairs at (21, 17) UP to Level 1.
-  2. Explore the perimeter of the plateau to find stairs DOWN to the Secret House.
+  1. Take the plateau stairs at (21, 17) UP to Level 1. (UPDATE: PLATEAU IS A DEAD END. No stairs down. It's just an observation deck.)
+  2. New Plan: Re-evaluate Level 0 eastern tree wall (X=24) for hidden gaps to walk West to the Secret House.
 - DEAD ENDS IN AREA 4 WEST:
   1. The Northern edge of the dirt path (Y=5) from X=11 to X=16 is a solid cliff edge dropping down. Cannot walk North off it. Tested Turn 27586.
 - ROUTE PLAN: The Western Grass pocket (accessed via X=6 stairs) is a completely sealed DEAD END. There is a vertical wall of trees at X=14. To go North, I MUST access the path at X=15! To reach X=15, I must take the plateau stairs at (21, 17) DOWN to the main East area, then walk West to X=15, then walk straight North past the Rest House!
