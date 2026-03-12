@@ -9,14 +9,16 @@
   - Area 4 West (0_219) <-> Area 1 Center (0_220) [via Southeast Exit at 29,22/23 <-> West Exit at 0,10/11]
 - Area 4 West Mechanics: The southern half of Area 4 West (Y=18+) is completely cut off from the Secret House by the plateau, ledges, and water.
 - PLATEAU MECHANICS: You CANNOT step North, East, or West off the plateau edge. You MUST find stairs. The plateau is merely an observation deck.
+- AREA 4 WEST TOPOGRAPHY HYPOTHESIS:
+  - Level 0: Entrance (26, 0), eastern path down to Y=18.
+  - Level 1: Reached via stairs UP at (21, 17). Includes southern area (Y=16-20) and the central dirt trench (X=11-16, Y=6-10). The dirt trench is a DEAD END.
+  - Level 2: The high grass areas (X<10, Y<5, X>17). Contains the Secret House and Gold Teeth.
+- CURRENT ROUTE PLAN: From Level 1 (dirt trench), head South to Y=16, then West past X=6 to find stairs going UP to Level 2!
 - AREA 4 WEST CORRECT PATH:
-  1. Take the plateau stairs at (21, 17) UP.
-  2. Walk North and West along the plateau to the path North of the Rest House (around X=12, Y=8).
-  3. Systematically test paths further North (Y=7, Y=6) to bypass the obstacle at (10, 8) to reach the Secret House and Gold Teeth at (9, 7).
+  1. Take the plateau stairs at (21, 17) UP to Level 1.
+  2. Walk West to X=6. Explore West/North from X=6 to find stairs to Level 2.
 - DEAD ENDS IN AREA 4 WEST:
-  1. The extreme North edge (Y=0, Y=1) is blocked by solid tree walls at X=24 and X=23.
-  2. The Western Grass pocket (X=6 to X=13, Y=12 to Y=15) has limited access; gap at (10, 11) is a solid wall.
-  3. The Eastern gap at X=17/18 Y=20-25 is a trap that forces a return to Area 1 Center.
+  1. The central dirt trench (X=11 to X=16, Y=6 to Y=10) is a dead end boxed in by Level 2 cliffs/ledges. Tested and confirmed on Turn 27586.
 - ROUTE PLAN: The Western Grass pocket (accessed via X=6 stairs) is a completely sealed DEAD END. There is a vertical wall of trees at X=14. To go North, I MUST access the path at X=15! To reach X=15, I must take the plateau stairs at (21, 17) DOWN to the main East area, then walk West to X=15, then walk straight North past the Rest House!
 - DEAD ENDS IN AREA 2 EAST:
   1. The East Ground Path (X=19+) going North from the entrance is BLOCKED by water and ledges around Y=11.
