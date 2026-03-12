@@ -985,10 +985,12 @@ START:(10,19)|DIR:R|END:(18,15)
 - Area 4 West Mechanics: The southern half of Area 4 West (Y=18+) is completely cut off from the Secret House by the plateau, ledges, and water.
 - PLATEAU MECHANICS: You CANNOT step North, East, or West off the plateau edge. You MUST find stairs. The plateau is merely an observation deck.
 - AREA 4 WEST CORRECT PATH:
-  1. The path MUST be along the extreme North edge (Y=0, Y=1). MUST EXPLORE West from the entrance at (26, 0).
+  1. Take the plateau stairs at (21, 17) UP.
+  2. Walk North and West along the plateau to the path North of the Rest House (around X=12, Y=8).
+  3. Systematically test paths further North (Y=7, Y=6) to bypass the obstacle at (10, 8) to reach the Secret House and Gold Teeth at (9, 7).
 - DEAD ENDS IN AREA 4 WEST:
-  1. The central dirt path (X=11 to X=16, Y=6 to Y=10) is a dead end.
-  2. The Western Grass pocket (X=6 to X=13, Y=12 to Y=15) is a MASSIVE dead end. The gap at (10, 11) is a solid wall, and Y=13 is blocked by a South-facing ledge. DO NOT take the plateau stairs at (21, 17)!
+  1. The extreme North edge (Y=0, Y=1) is blocked by solid tree walls at X=24 and X=23.
+  2. The Western Grass pocket (X=6 to X=13, Y=12 to Y=15) has limited access; gap at (10, 11) is a solid wall.
   3. The Eastern gap at X=17/18 Y=20-25 is a trap that forces a return to Area 1 Center.
 - ROUTE PLAN: The Western Grass pocket (accessed via X=6 stairs) is a completely sealed DEAD END. There is a vertical wall of trees at X=14. To go North, I MUST access the path at X=15! To reach X=15, I must take the plateau stairs at (21, 17) DOWN to the main East area, then walk West to X=15, then walk straight North past the Rest House!
 - DEAD ENDS IN AREA 2 EAST:
