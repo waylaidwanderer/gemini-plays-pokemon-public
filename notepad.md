@@ -1008,7 +1008,7 @@ START:(10,19)|DIR:R|END:(18,15)
   4. Walk North to climb stairs at (22, 23) to the plateau.
   5. Walk West across plateau to X=16, then South to descend stairs (around Y=27?).
   6. Walk West to X=12, Down to Y=33.
-  7. Walk West past X=8 to test for an alternate exit further West (e.g., at X=0 or X=2, Y=35)! The exit at (8, 35) leads to the trap entrance of Area 4 West at (26, 0).
+  7. Walk West to X=6 (blocked by a solid tree wall at X=5). Jump South over the ledge to Y=35 to test for warps at X=5 and X=6. If none, the exit at (8, 35) is the ONLY way into Area 4 West.
 - CURRENT GOAL: Enter Area 4 West and navigate to the Secret House.
 - ENTRY FEE MECHANIC: While the attendant will sometimes let you in with less than 500 Poke Dollars (giving fewer Safari Balls), there appears to be a hard minimum requirement. 460 Poke Dollars is NOT enough to enter!
 - DEAD ENDS IN AREA 1 CENTER:
