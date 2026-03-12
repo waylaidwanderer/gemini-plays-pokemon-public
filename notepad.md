@@ -998,7 +998,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   1. The Northwest corner (X=6, Y=20) is a dead end strip between water and a tree wall.
 - DEAD ENDS IN AREA 4 WEST:
   1. The Northern edge of the dirt path (Y=5) from X=11 to X=16 is a solid cliff edge dropping down. Cannot walk North off it. Tested Turn 27586.
-- ROUTE PLAN: The central dirt path (accessed via stairs at 21, 17) is a completely sealed DEAD END trap. It is boxed in by solid vertical and horizontal ledges. There is NO path to the Secret House from the Eastern grass. We MUST find a completely different entrance to Area 4 West, likely an undiscovered exit on the far West side of Area 3 North.
+- ROUTE PLAN: The central dirt path (accessed via stairs at 21, 17) is a completely sealed DEAD END trap. There is NO second entrance from Area 3 North (confirmed Turn 28109: X=5 is a solid tree wall from Y=20 to Y=36). Therefore, the path to the Secret House MUST be accessible from the main entrance at (26, 0) in Area 4 West. I must return to Area 4 West and meticulously re-evaluate the Level 0 eastern tree wall (X=23/24) for hidden gaps.
 - DEAD ENDS IN AREA 2 EAST:
   1. The East Ground Path (X=19+) going North from the entrance is BLOCKED by water and ledges around Y=11.
 - TRUE OPTIMIZED PATH FOR AREA 2 EAST (COMPLEX!):
