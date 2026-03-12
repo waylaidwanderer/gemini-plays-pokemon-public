@@ -1025,9 +1025,3 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Plan: Hug the left wall tightly when moving South from (26, 0) in Area 4 West.
 
 <hr>
-
-<h1><code>Scratchpad/Area1Center_Routing</code></h1>
-
-- My previous optimized route note for reaching Area 2 East was wrong about Y=23. Y=23 is blocked by a tree wall starting at X=20. The path East must be further North or somewhere else. I am currently exploring North from (20, 20) to find the way around the tree wall at X=22/23.
-
-<hr>
