@@ -988,12 +988,10 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Area 3 North (0_218) <-> Area 4 West (0_219) [via Southwest Exit at 8,35 <-> Northeast Exit at 26,0/1]
 - Area 4 West (0_219) <-> Area 1 Center (0_220) [via Southeast Exit at 29,22/23 <-> West Exit at 0,10/11]
 
-[FORWARD ROUTING]
-- CRITICAL DISCOVERY: Area 1 Center East Exit (29, 10) -> Area 2 East (0, 22) leads to an INESCAPABLE POCKET. It is a one-way return path.
-- The ONLY forward exit from Area 1 Center must be the North Exit at (15, 0) to Area 3 North.
-- Goal: Explore Area 1 Center to reach (15, 0).
-- From Area 3 North, we can likely access both Area 2 East (via 39,30) and Area 4 West (via 8,35).
-- Route Area 3 North -> Area 4 West: From entrance, go West to X=30. North to Y=29. West to X=22. North to climb stairs at (22, 23). West across plateau to X=16, South to descend stairs. West to X=12, Down to Y=33. West to X=6. Jump South over ledge to Y=35. Exit at (8, 35) into Area 4 West.
+[OPTIMIZED ROUTE TO AREA 4 WEST]
+1. AREA 1 CENTER TO AREA 2 EAST: From the entrance (15, 25), walk LEFT to (14, 25), UP to (14, 23), then EAST to X=28, North past tree wall, East to exit at (29, 10).
+2. AREA 2 EAST TO AREA 3 NORTH: From entrance (0,22), walk South to Y=24, East through tall grass (TYPE_fed7) to X=20. North to climb stairs at (20, 21). West on plateau to X=12, South to jump off ledge at (12, 21). West to X=7, North to Y=7. East to X=12, climb stairs at (12, 7). East to X=17, South to descend stairs at (17, 7). South to Y=8, East to X=21, North to Y=1, West to X=7, Down to Y=5, West to exit at (0, 4).
+3. AREA 3 NORTH TO AREA 4 WEST: From entrance (39,30), walk West to X=30. North to Y=29. West to X=22. North to climb stairs at (22, 23). West across plateau to X=16, South to descend stairs. West to X=12, Down to Y=33. West to X=6. Jump South over ledge to Y=35. Exit at (8, 35) into Area 4 West.
 
 [AREA 4 WEST MECHANICS & TOPOGRAPHY]
 - GOLD TEETH STATUS: Found at Area 4 West (9, 7). Need to approach from the West side of the Rest House (X < 11).
@@ -1004,7 +1002,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - NEW PLAN: We must find a completely different entrance to the West Grass, possibly an undiscovered exit from Area 3 North or a path through Area 1 Center.
 
 [KNOWN TRAPS & DEAD ENDS]
-- Area 2 East Entrance Pocket: Exiting Area 1 Center via the East Exit at (29, 10) drops you into an INESCAPABLE POCKET in Area 2 East at (0, 22). It is blocked by ledges, bushes, and trees on all sides, meaning it is strictly a one-way return path FROM Area 2 East TO Area 1 Center. Do not use this as a forward route.
 - Area 1 Center West Pocket: Exiting Area 4 West via the Southeast exit (29,22/23) drops you into a COMPLETE DEAD END in Area 1 Center at (0, 11). UPDATE (Turn 27958): The West pocket is a COMPLETE DEAD END. It is blocked by trees on the North (Y=0) and East (X=11), and water on the South (Y=8). There is NO escape to the main Area 1 Center. You must walk until your time runs out.
 - Area 4 West Trap Ledge: Jumping the ledge at (14, 17) traps you in the southern path, forcing you to exit into the Area 1 Center West Pocket. I have placed a map marker 🚫 "Trap Ledge" at (14, 17) in Area 4 West to prevent this mistake in future runs.
 - Area 3 North Northwest Corner: The Northwest corner (X=6, Y=20) is a dead end strip between water and a tree wall.
