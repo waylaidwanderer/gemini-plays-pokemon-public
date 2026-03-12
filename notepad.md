@@ -1034,6 +1034,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Safari Zone Run 17 Started: Turn 27331. Current Goal: Reach Area 4 West, and explore the extreme North edge (Y=0, Y=1) heading West from the entrance at (26, 0).
 - UPDATE (Turn 27254): Tested the North edge. X=24 is a solid tree wall from Y=0 down to Y=13. X=23 is a solid tree wall from Y=14 down to Y=17. The North path hypothesis is FALSE. The ONLY way West is via the plateau stairs at (21, 17). I must explore the plateau itself for alternative stairs down to the North.
 - Safari Zone Run 19 Started: Turn 28038. LAST RUN POSSIBLE WITH CURRENT FUNDS (610 Poke Dollars). Current Goal: Reach Area 3 North. Instead of taking the known exit at (8, 35), thoroughly explore the Western half of Area 3 North (X < 12). Specifically, check if the plateau extends further West, or if there is a northern path around the tree wall at X=5. The goal is to find a SECOND exit to Area 4 West that bypasses the dead-end plateau.
+- AREA 4 WEST SOUTH PATH: Jumped South over ledge at (18, 17) to reach (18, 18). This path is one-way from the North. Testing where it leads.
 
 <hr>
 
