@@ -1010,11 +1010,10 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Area 3 North West Side: A large body of water blocks movement West from X=11/12 (Y=8 to Y=29). A solid line of bushes at X=5 further blocks the West. No alternative path to Area 4 West was found here.
 - Area 1 Center East/West: North paths are blocked by tree walls at Y=9 (East) and diagonal tree wall from (0,17) to (9,15) (West).
 - Area 2 East Ground Path: The East Ground Path (X=19+) going North from the entrance is BLOCKED by water and ledges around Y=11.
-[CURRENT HYPOTHESIS: THE SECRET PATH IN AREA 4 WEST]
-- DIRT TRENCH TO REST HOUSE 3: Rest House 3 at (11, 11) is accessed via the Dirt Trench North extension (Level 0). This confirms my journey from the entrance to the Rest House did not cross the solid East Wall. The East Wall is 100% solid.
-- EAST GRASS IS A DEAD END: The East Grass only leads to the Dirt Trench trap.
-- NEW HYPOTHESIS: To reach the true West Grass (Level 1) of Area 4 West, there MUST be a second entrance from Area 3 North. I must fully explore the PLATEAU in Area 3 North to see if it crosses over to the western edge of that map, which might contain the true entrance.
-- Area 3 North Plateau West: The plateau does NOT connect to Area 4 West. It is blocked by a solid tree wall at X=14. (Hypothesis disproven).
+[AREA 4 WEST EXPLORATION RESULTS]
+- SOUTH GRASS & REST HOUSE 3: The South Grass is a path to Rest House 3. You can jump down the ledge at (6,19) and walk North through a gap at X=2/X=3 to bypass the Y=15 ledge. However, this entire western upper Level 1 area (including Rest House 3) is a DEAD END bounded by water and trees.
+- DIRT TRENCH: Leads only to a dead-end ledge at Y=5 and Rest House 3.
+- CONCLUSION: The Secret House is NOT in the West, South, or Trench areas. There MUST be an overlooked gap or path in the East Grass near the entrance at (26, 0), potentially leading North to where an Item Ball was spotted at Y=5. I will thoroughly re-examine the East Grass wall upon re-entry.
 
 <hr>
 
