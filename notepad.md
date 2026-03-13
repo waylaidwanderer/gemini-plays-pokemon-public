@@ -1008,11 +1008,10 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Area 1 Center East/West: North paths are blocked by tree walls at Y=9 (East) and diagonal tree wall from (0,17) to (9,15) (West).
 - Area 2 East Ground Path: The East Ground Path (X=19+) going North from the entrance is BLOCKED by water and ledges around Y=11.
 [CURRENT HYPOTHESIS: THE SECRET PATH IN AREA 4 WEST]
-- I have exhaustively explored the perimeter of Area 3 North and confirmed there is NO second exit to Area 4 West.
-- Therefore, the entrance at Area 4 West (26, 0) MUST be the correct and only way in.
-- This means my previous assumption that the "East Grass" (entrance area) is completely isolated from the "West Grass" (where the Secret House is) MUST BE WRONG.
-- There must be a hidden gap, a passable tile that looks like a wall, or a path I overlooked in the East Grass area of Area 4 West.
-- PLAN: Enter Area 4 West via Area 3 North. Systematically bump-test EVERY SINGLE TILE of the tree wall (X=24/25) separating the East and West halves. Look for wavy bushes or hidden paths. Do NOT jump any ledges until the entire North/East section is proven a dead end.
+- BUMP TEST COMPLETE (Turn 30165): The tree wall at X=24/25 is COMPLETELY SOLID. There is no hidden gap in the East Grass.
+- NEW DISCOVERY: The Dirt Trench (Y=14-16) is NOT connected to the East Grass! It is blocked by a solid brown wall at X=23. 
+- Therefore, you MUST jump the ledge at (24, 17) into the South Grass to progress.
+- PLAN: Since the East Grass is a dead end, the path to the Secret House MUST be through the South Grass or the Dirt Trench. I will thoroughly explore both, heading West, looking for stairs or paths leading North into the West Grass.
 - Rest House 2 (Area 3 North): Located at (37, 6). NPC confirms the Secret House is in the deepest part of the Safari Zone.
 
 <hr>
