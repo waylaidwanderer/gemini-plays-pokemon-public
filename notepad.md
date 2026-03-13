@@ -995,10 +995,10 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 3. AREA 3 NORTH TO AREA 4 WEST: From entrance (39,30), walk West to X=30. North to Y=29. West to X=22. North to climb stairs at (22, 23). Up to (22, 22), West to X=16, South to descend stairs at (16, 27). Down to Y=28, West to X=12, Down to Y=33. West to X=8. Walk South through the gap at (8, 34) to exit at (8, 35) into Area 4 West.
 
 [AREA 4 WEST MECHANICS & TOPOGRAPHY]
-- CRITICAL REVELATION: The ENTIRE southern half of Area 4 West (Dirt Trench and South Grass) is a ONE-WAY TRAP. There is NO WAY to reach the West Grass, Secret House, TM45, or Gold Teeth from here.
-- DIRT TRENCH (Level 0): Blocked on all sides. The North branch (Y=6) is blocked by a bottom-facing ledge at Y=5. YOU CANNOT GO UP.
-- TRAP ESCAPE: If you fall into the Dirt Trench or South Grass, you are soft-locked from reaching your goals. You must walk until your steps run out or exit via the Area 1 Center West Pocket to burn steps.
-- THE TRUE PATH: The Secret House and Gold Teeth MUST be accessed by staying in the East Grass and finding a path WEST along the Northern boundary (Y=0, Y=1, or Y=2) immediately from the entrance at (26, 0). DO NOT GO SOUTH.
+- EAST GRASS (Level 1): The East Grass (entrance area) is completely blocked from moving West by a solid tree wall at X=24/25. You MUST go South to the plateau stairs at (21, 17) to enter the Dirt Trench.
+- DIRT TRENCH (Level 0): The Dirt Trench is the INTENDED PATH to the West Grass. It connects the East and West halves of the map. It extends West to X=5 (dead end), but branches North around X=15/16 up to Y=6.
+- HALLUCINATION CORRECTED: I previously assumed a ledge blocked the path West from the Northern Dirt Trench (around 12, 6) without testing it. I must return to (12, 6) and explicitly bump-test moving LEFT to find the gap to the Gold Teeth.
+- SOUTH GRASS DEAD END: The stairs at (6, 19) lead to the South Grass, which IS a dead end blocked by water and the Rest House.
 - SECRET HOUSE: Located in the West Grass. Contains HM03 Surf!
 - GOLD TEETH: Located in the West Grass at (9, 7).
 
