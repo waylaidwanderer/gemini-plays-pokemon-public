@@ -61,36 +61,6 @@
       }
     ]
   },
-  "enter_safari_zone": {
-    "description": "Automates paying the Safari Zone entry fee and stepping through the entrance door. Assumes you are standing directly in front of the attendant at (4, 2).",
-    "input_schema": {
-      "type": "object",
-      "properties": {}
-    },
-    "python_script": "import json\ndef execute(input_data):\n    print(json.dumps(['Up', 'A', 'A', 'A', 'sleep 500', 'A', 'A', 'A', 'sleep 500', 'A', 'A', 'A', 'Up', 'Up']))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-03-13T01:09:30.806Z",
-        "action_counter": 28945
-      },
-      {
-        "commit_message": "Fix Python script to print JSON array instead of returning it.",
-        "timestamp": "2026-03-13T01:50:12.202Z",
-        "action_counter": 29011
-      },
-      {
-        "commit_message": "Added more A presses to clear dialogue completely.",
-        "timestamp": "2026-03-13T05:10:43.152Z",
-        "action_counter": 29221
-      },
-      {
-        "commit_message": "Fixed empty output issue by simplifying prints",
-        "timestamp": "2026-03-13T06:17:31.061Z",
-        "action_counter": 29296
-      }
-    ]
-  },
   "execute_battle_turn": {
     "description": "Executes a full battle turn safely. Resets main menu cursor to FIGHT (Up, Left), then navigates from current_move_index to target_move_index.",
     "input_schema": {
