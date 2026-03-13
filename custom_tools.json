@@ -913,12 +913,17 @@
       "type": "object",
       "properties": {}
     },
-    "python_script": "def enter_safari_zone(input_data):\n    return ['A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'B', 'Up']\n",
+    "python_script": "import json\nprint(json.dumps(['Up', 'A', 'A', 'A', 'sleep 500', 'Up', 'Up', 'Up', 'Up', 'A', 'A', 'A', 'A', 'Up', 'A', 'A', 'A', 'A']))",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2026-03-13T01:09:30.806Z",
         "action_counter": 28945
+      },
+      {
+        "commit_message": "Fix Python script to print JSON array instead of returning it.",
+        "timestamp": "2026-03-13T01:50:12.202Z",
+        "action_counter": 29011
       }
     ]
   }
