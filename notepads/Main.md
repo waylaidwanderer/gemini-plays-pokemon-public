@@ -41,7 +41,7 @@
 - The Party Menu and Move Menu WRAP. Mashing 'Up' does not guarantee index 1.
 - HALLUCINATION CHECK: In the Safari Zone, TYPE_3fe2 is regular grass/path. TYPE_fed7 is PASSABLE TALL GRASS (Proven Turn 28643 by walking through it). TYPE_2889 is a solid bush. Do not assume visual "trees" are solid without physically bumping into them! Always verify turning vs stepping when a move sequence fails.
 - MACRO DANGER: Do not use alternating directional macros (like L-D-L-D) near ledges when searching for gaps. It can cause accidental ledge jumps, leading to false assumptions about solid walls. Always use step-by-step inputs for precise exploration.
-- In the overworld, pressing a new direction takes one discrete input just to TURN without moving. When using move_sequence, always add an extra press for turning, or overshoot into walls to guarantee alignment!
+- In the overworld, the harness automatically handles turning in place before walking. You ONLY need to press a direction once to turn and take a step. DO NOT add extra presses for turning.
 - The Start Menu WRAPS! Mashing 'Up' does not guarantee index 1.
 - run_battle tool works perfectly in the Safari Zone because the 2x2 menu layout maps identically to the standard battle menu.
 - Safari Zone Attempt 4: Turn 20128
