@@ -906,5 +906,20 @@
         "action_counter": 5619
       }
     ]
+  },
+  "enter_safari_zone": {
+    "description": "Automates paying the Safari Zone entry fee and stepping through the entrance door. Assumes you are standing directly in front of the attendant at (4, 2).",
+    "input_schema": {
+      "type": "object",
+      "properties": {}
+    },
+    "python_script": "def enter_safari_zone(input_data):\n    return ['A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'B', 'Up']\n",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-03-13T01:09:30.806Z",
+        "action_counter": 28945
+      }
+    ]
   }
 }
