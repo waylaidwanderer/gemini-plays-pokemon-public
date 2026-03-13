@@ -29,3 +29,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Area 3 North Northwest Corner: The Northwest corner (X=6, Y=20) is a dead end strip between water and a tree wall.
 - Area 1 Center East/West: North paths are blocked by tree walls at Y=9 (East) and diagonal tree wall from (0,17) to (9,15) (West).
 - Area 2 East Ground Path: The East Ground Path (X=19+) going North from the entrance is BLOCKED by water and ledges around Y=11.
+[NEW HYPOTHESIS: SECOND ENTRANCE TO AREA 4 WEST]
+- I have proven that the East Grass (entered via 26,0 from Area 3 North) is completely isolated from the West Grass in Area 4 West.
+- Therefore, to reach the West Grass (and the Secret House), I MUST enter Area 4 West from a DIFFERENT map transition.
+- Area 3 North (0_218) likely has a SECOND exit to Area 4 West. I have only been using the Southwest exit at (8, 35).
+- I need to thoroughly explore the NORTHERN and WESTERN parts of Area 3 North to find another path or exit that leads to the West Grass of Area 4 West!
