@@ -34,3 +34,4 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Therefore, to reach the West Grass (and the Secret House), I MUST enter Area 4 West from a DIFFERENT map transition.
 - Area 3 North (0_218) likely has a SECOND exit to Area 4 West. I have only been using the Southwest exit at (8, 35).
 - I need to thoroughly explore the NORTHERN and WESTERN parts of Area 3 North to find another path or exit that leads to the West Grass of Area 4 West!
+- Rest House 2 (Area 3 North): Located at (37, 6). NPC confirms the Secret House is in the deepest part of the Safari Zone.
