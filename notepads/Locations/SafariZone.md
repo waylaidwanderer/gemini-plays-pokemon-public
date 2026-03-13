@@ -20,8 +20,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - DIRT TRENCH (Level 0) TRAP: The Dirt Trench connects the East and West halves, extending West to X=5. HOWEVER, the entire northern boundary of the Dirt Trench (Y=15) is a solid ledge from X=16 to X=5! (Proven by systematic bump-test on Turn 29198). You CANNOT walk North into the West Grass from the Dirt Trench.
 - TRAP ESCAPE: The entire southern half of Area 4 West (Dirt Trench and South Grass) is a ONE-WAY TRAP. If you fall in, you are soft-locked from reaching the Secret House. You must walk until your steps run out or exit via the Area 1 Center West Pocket.
 - THE TRUE PATH: Since the West cannot be accessed from the North (blocked by trees at X=24/25) or the South (blocked by ledges at Y=15), there MUST be a hidden path or mechanic I have completely overlooked near the entrance at (26, 0). I must re-examine the entrance area with fresh eyes.
-- SECRET HOUSE: Located in the West Grass at (11, 11). Contains HM03 Surf!
-- GOLD TEETH: Located in the West Grass at (12, 12).
+- SECRET HOUSE: Located in the West Grass. Entrance is at (11, 11). Contains HM03 Surf!
+- GOLD TEETH: Exact location currently unknown. Need to continue searching the West Grass.
 
 [KNOWN TRAPS & DEAD ENDS]
 - Area 1 Center West Pocket: Exiting Area 4 West via the Southeast exit (29,22/23) drops you into the West pocket of Area 1 Center at (0, 11). UPDATE (Turn 30004): This is NOT a dead end! You can simply walk back West through the same transition at (0, 11) to re-enter Area 4 West at (29, 23).
