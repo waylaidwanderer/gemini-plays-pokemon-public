@@ -983,7 +983,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - ENTRY FEE MECHANIC: While the attendant will sometimes let you in with less than 500 Poke Dollars (giving fewer Safari Balls), there appears to be a hard minimum requirement. 460 Poke Dollars is NOT enough to enter!
 
 [Map Connections (TWO-WAY LOOP! Center <-> East <-> North <-> West <-> Center)]
-- Area 1 Center (0_220) <-> Area 2 East (0_217) [via East Exit at 29,10 <-> West Exit at 0,22/23]
+- Area 1 Center (0_220) <-> Area 2 East (0_217) [via East Exits at 29,10 <-> 0,10 (Plateau) AND 29,22 <-> 0,22 (Ground)]
 - Area 1 Center (0_220) <-> Area 3 North (0_218) [via North Exit at 15,0 <-> South Exit at 20,35]
 - Area 2 East (0_217) <-> Area 3 North (0_218) [via Northwest Exit at 0,4 <-> Southeast Exit at 39,30/31]
 - Area 3 North (0_218) <-> Area 4 West (0_219) [via Southwest Exit at 8,35 <-> Northeast Exit at 26,0/1]
