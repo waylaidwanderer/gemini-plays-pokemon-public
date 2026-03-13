@@ -913,7 +913,7 @@
       "type": "object",
       "properties": {}
     },
-    "python_script": "import json\ndef execute(input_data):\n    buttons = ['Up', 'A', 'A', 'A', 'sleep 500', 'Up', 'Up', 'Up', 'Up', 'A', 'A', 'A', 'A', 'Up', 'A', 'A', 'A', 'A', 'sleep 500', 'A', 'A', 'A', 'A']\n    print(json.dumps(buttons))\n",
+    "python_script": "import json\ndef execute(input_data):\n    print(json.dumps(['Up', 'A', 'A', 'A', 'sleep 500', 'A', 'A', 'A', 'sleep 500', 'A', 'A', 'A', 'Up', 'Up']))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -929,6 +929,11 @@
         "commit_message": "Added more A presses to clear dialogue completely.",
         "timestamp": "2026-03-13T05:10:43.152Z",
         "action_counter": 29221
+      },
+      {
+        "commit_message": "Fixed empty output issue by simplifying prints",
+        "timestamp": "2026-03-13T06:17:31.061Z",
+        "action_counter": 29296
       }
     ]
   }
