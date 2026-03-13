@@ -1010,9 +1010,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Area 1 Center East/West: North paths are blocked by tree walls at Y=9 (East) and diagonal tree wall from (0,17) to (9,15) (West).
 - Area 2 East Ground Path: The East Ground Path (X=19+) going North from the entrance is BLOCKED by water and ledges around Y=11.
 [CURRENT HYPOTHESIS: THE SECRET PATH IN AREA 4 WEST]
-- WEST GRASS DEAD END: The area around Rest House 3 is completely blocked from going North by water (Y=13) and bushes/buildings. (Confirmed by Overwatch & map geometry).
-- DIRT TRENCH DEAD END: The North extension of the Dirt Trench (X=15/16) leads to a dead end at Y=6 (ledge) and X=11 (bushes). Gold Teeth are visible at (9,7) but unreachable from here.
-- EAST GRASS BUMP TEST COMPLETE: I have systematically bumped every tile of the X=24/X=23 tree wall from Y=0 to Y=15. It is 100% solid. There is NO GAP to the West Grass from the East Grass. The East Grass is a dead end.
-- NEW HYPOTHESIS: There must be a SECOND entrance to Area 4 West from Area 3 North, located further West of the (8, 35) exit, possibly at (2, 35) leading to (20, 0).
+- DIRT TRENCH TO REST HOUSE 3: Rest House 3 at (11, 11) is accessed via the Dirt Trench North extension (Level 0). This confirms my journey from the entrance to the Rest House did not cross the solid East Wall. The East Wall is 100% solid.
+- EAST GRASS IS A DEAD END: The East Grass only leads to the Dirt Trench trap.
+- NEW HYPOTHESIS: To reach the true West Grass (Level 1) of Area 4 West, there MUST be a second entrance from Area 3 North. I must fully explore the PLATEAU in Area 3 North to see if it crosses over to the western edge of that map, which might contain the true entrance.
 
 <hr>
