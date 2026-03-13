@@ -16,12 +16,13 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 3. AREA 3 NORTH TO AREA 4 WEST: From entrance (39,30), walk West to X=30. North to Y=29. West to X=22. North to climb stairs at (22, 23). Up to (22, 22), West to X=16, South to descend stairs at (16, 27). Down to Y=28, West to X=12, Down to Y=33. West to X=8. Walk South through the gap at (8, 34) to exit at (8, 35) into Area 4 West.
 
 [AREA 4 WEST MECHANICS & TOPOGRAPHY]
-- GOLD TEETH STATUS: Found at Area 4 West (9, 7). Need to approach from the West side of the Rest House (X < 11).
-- TOPOGRAPHY: The central dirt path (X=11-16) is a SUNKEN TRENCH (Level 0). The grass to the West (X < 11) and East (X > 16) is ELEVATED (Level 1).
+- GOLD TEETH STATUS: Found at Area 4 West (9, 7). Need to approach from the West Grass (X < 11).
+- TOPOGRAPHY: The central dirt path (X=11-22) is a SUNKEN TRENCH (Level 0). The grass to the West (X < 11) and East (X > 16) is ELEVATED (Level 1).
 - EAST GRASS (Level 1): The plateau stairs at (21, 17) go DOWN from East Grass (Level 1) into the dirt trench (Level 0). The plateau itself is an observation deck and dead end. You CANNOT step North, East, or West off the plateau edge. You MUST find stairs. The North edge (Y=0, Y=1) is blocked by solid tree walls (X=23/24). The South Grass (Y=18-25) is blocked on the West by a solid tree wall at X=17/18, making it a one-way dead end leading only to Area 1 Center West Pocket.
-- DIRT TRENCH (Level 0): The ledge at X=10 is EAST-FACING (drops down from West grass). You CANNOT jump West off the dirt path. The Northern edge of the dirt path (Y=5) is a solid cliff edge. The dirt path is a trap.
-- WEST GRASS (Level 1): This is where the Secret House and Gold Teeth are. Since the dirt trench and East Grass are isolated or dead ends, there MUST be another way into the West Grass.
-- NEW PLAN: Area 4 West is shifted X+18 relative to Area 3 North. The known exit at North (8,35) leads to West (26,0) which is trapped in East Grass. To reach the West Grass (X<11), we must find an exit in Area 3 North further West (e.g., X=0 to X=7). Next run: Explore the bottom-left corner of Area 3 North WEST of X=8!
+- DIRT TRENCH (Level 0): Connects the East Grass to the West Grass! The dirt path narrows but extends West past X=10 all the way to X=5 at Y=16. The ledge at X=10 prevents jumping West directly.
+- WEST GRASS ACCESS (CONFIRMED): From the Dirt Trench, walk West to X=6. Walk South to the stairs at (6, 19) and go UP them to the South Grass (Level 1). From there, walk Left to X=2, then North into the West Grass, completely bypassing the solid tree wall at X=4 and the ledge at Y=15.
+- SECRET HOUSE: Located in the West Grass. Contains HM03 Surf!
+- GOLD TEETH: Located in the West Grass at (9, 7).
 
 [KNOWN TRAPS & DEAD ENDS]
 - Area 1 Center West Pocket: Exiting Area 4 West via the Southeast exit (29,22/23) drops you into a COMPLETE DEAD END in Area 1 Center at (0, 11). UPDATE (Turn 27958): The West pocket is a COMPLETE DEAD END. It is blocked by trees on the North (Y=0) and East (X=11), and water on the South (Y=8). There is NO escape to the main Area 1 Center. You must walk until your time runs out.
