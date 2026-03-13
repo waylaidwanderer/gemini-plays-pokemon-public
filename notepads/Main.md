@@ -51,4 +51,4 @@
 - Turn Hallucinations: When mashing A or B through dialogue (like the Safari Zone entrance), the exact number of turns taken can vary based on text rendering speed and auto-advances. Always double-check the current turn number in the Game State before declaring the current turn.
 - Safari Zone Run 13! Current Goal: Reach Area 4 West, take the plateau to the Western Grass, and walk North/East to X=10/11 to pass between the water and the Rest House to reach the Gold Teeth.
 - HALLUCINATION CHECK: Always verify Cut bushes exist as SPRITES in the Game State before trying to cut them. Standard tree walls look identical on the grid but will yield "There isn't anything to CUT!".
-- WEST GRASS ACCESSED: The dirt trench at X=16 smoothly ramps UP into the white ground (TYPE_2770) at Y=10. This white ground IS the West Grass! The path West to the Gold Teeth and Secret House is at Y=8.
+- WEST GRASS ACCESSED: The dirt trench at X=16 smoothly ramps UP into the white ground (TYPE_2770) at Y=10. This white ground IS the West Grass! The path West to the Gold Teeth and Secret House is at Y=5.
