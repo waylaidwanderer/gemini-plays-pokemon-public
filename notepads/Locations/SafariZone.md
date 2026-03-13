@@ -35,3 +35,5 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - SOUTH GRASS & REST HOUSE 3: The South Grass is a path to Rest House 3. You can jump down the ledge at (6,19) and walk North through a gap at X=2/X=3 to bypass the Y=15 ledge. However, this entire western upper Level 1 area (including Rest House 3) is a DEAD END bounded by water and trees.
 - DIRT TRENCH: Leads only to a dead-end ledge at Y=5 and Rest House 3.
 - CONCLUSION: The Secret House is NOT in the West, South, or Trench areas. There MUST be an overlooked gap or path in the East Grass near the entrance at (26, 0), potentially leading North to where an Item Ball was spotted at Y=5. I will thoroughly re-examine the East Grass wall upon re-entry.
+[Timestamps]
+- Secret House Search Resumed: Turn 30780
