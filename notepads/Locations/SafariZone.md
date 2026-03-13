@@ -28,6 +28,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Area 1 Center West Pocket: Exiting Area 4 West via the Southeast exit (29,22/23) drops you into the West pocket of Area 1 Center at (0, 11). UPDATE (Turn 30004): This is NOT a dead end! You can simply walk back West through the same transition at (0, 11) to re-enter Area 4 West at (29, 23).
 - Area 4 West Trap Ledge: Jumping the ledges at (14, 17) or (24, 17) traps you in the southern path, forcing you to exit into the Area 1 Center West Pocket. I have placed map markers 🚫 "Trap Ledge" at (14, 17) and (24, 17) in Area 4 West to prevent this mistake in future runs.
 - Area 3 North Northwest Corner: The Northwest corner (X=6, Y=20) is a dead end strip between water and a tree wall.
+- Area 3 North West Side: A large body of water blocks movement West from X=11/12 (Y=8 to Y=29). A solid line of bushes at X=5 further blocks the West. No alternative path to Area 4 West was found here.
 - Area 1 Center East/West: North paths are blocked by tree walls at Y=9 (East) and diagonal tree wall from (0,17) to (9,15) (West).
 - Area 2 East Ground Path: The East Ground Path (X=19+) going North from the entrance is BLOCKED by water and ledges around Y=11.
 [CURRENT HYPOTHESIS: THE SECRET PATH IN AREA 4 WEST]
