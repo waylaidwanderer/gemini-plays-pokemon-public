@@ -1,7 +1,7 @@
 # Safari Zone
 WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental ledge jumps and desyncs.
 - Limit: 500 steps.
-- ENTRY FEE MECHANIC: While the attendant will sometimes let you in with less than 500 Poke Dollars (giving fewer Safari Balls), there appears to be a hard minimum requirement. 460 Poke Dollars is NOT enough to enter!
+- ENTRY FEE MECHANIC: The attendant will let you in for less than 500 Poke Dollars if you have low money (e.g. 135 Poke Dollars). Surprisingly, you STILL get 30 Safari Balls! (Proven Turn 30137). (Note: A previous attempt with 460 was rejected, mechanics are slightly unclear but low money works).
 
 [Map Connections (TWO-WAY LOOP! Center <-> East <-> North <-> West <-> Center)]
 - Area 1 Center (0_220) <-> Area 2 East (0_217) [via East Exits at 29,10 <-> 0,10 (Plateau) AND 29,22 <-> 0,22 (Ground)]
