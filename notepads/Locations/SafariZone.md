@@ -35,3 +35,4 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - DIRT TRENCH TO REST HOUSE 3: Rest House 3 at (11, 11) is accessed via the Dirt Trench North extension (Level 0). This confirms my journey from the entrance to the Rest House did not cross the solid East Wall. The East Wall is 100% solid.
 - EAST GRASS IS A DEAD END: The East Grass only leads to the Dirt Trench trap.
 - NEW HYPOTHESIS: To reach the true West Grass (Level 1) of Area 4 West, there MUST be a second entrance from Area 3 North. I must fully explore the PLATEAU in Area 3 North to see if it crosses over to the western edge of that map, which might contain the true entrance.
+- Area 3 North Plateau West: The plateau does NOT connect to Area 4 West. It is blocked by a solid tree wall at X=14. (Hypothesis disproven).
