@@ -1017,3 +1017,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Area 3 North Plateau West: The plateau does NOT connect to Area 4 West. It is blocked by a solid tree wall at X=14. (Hypothesis disproven).
 
 <hr>
+
+<h1><code>Scratchpad/Area4West</code></h1>
+
+- Hallucination Test: I am at (6, 16) in Area 4 West Dirt Trench. My notes say Y=15 is a solid ledge. But looking at the screen, there is no ledge graphic between (6, 16) and (6, 15). I am going to try walking Up to see if the boundary is actually passable.
+
+<hr>
