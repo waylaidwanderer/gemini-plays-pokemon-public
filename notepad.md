@@ -1024,5 +1024,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Hallucination Test Result: I attempted to walk Up from (6, 16) but was blocked. The visual boundary between Y=16 and Y=15 IS a solid ledge. My previous note in Locations/SafariZone was correct. I must jump down the ledge at (6, 19) to reach the South Grass.
 - Hypothesis: The South Grass is not a one-way trap. By observing the screen from (6, 16), I can see that the grass at X=2 and X=3 extends North past the rock wall (X=4, X=5). By jumping down the ledge at (6, 19), I can walk Left to X=2, and then North to bypass the Dirt Trench trap and finally reach the true West Grass. Testing this now.
 - Strategic Insight: The Rock Wall at X=4 only extends from Y=16 to Y=19. The Ledge at Y=15 only extends from X=5 eastwards. This means the grass at X=2 and X=3 forms a continuous path from the South Grass (Y=20) up to the North Grass (Y=14). I can jump down the ledge at (6, 19), walk left to X=3, walk north to Y=14, and then walk east below the water to bypass the entire trap! Executing this maneuver now.
+- Route correction: I cannot walk directly left from (6, 19) because the rock wall at X=4/X=5 extends down to Y=19. I must walk Down to Y=20 first, then walk Left to X=3, then Up to Y=15, then East to bypass the ledge. Executing this now.
 
 <hr>
