@@ -1021,5 +1021,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 <h1><code>Scratchpad/Area4West</code></h1>
 
 - Hallucination Test: I am at (6, 16) in Area 4 West Dirt Trench. My notes say Y=15 is a solid ledge. But looking at the screen, there is no ledge graphic between (6, 16) and (6, 15). I am going to try walking Up to see if the boundary is actually passable.
+- Hallucination Test Result: I attempted to walk Up from (6, 16) but was blocked. The visual boundary between Y=16 and Y=15 IS a solid ledge. My previous note in Locations/SafariZone was correct. I must jump down the ledge at (6, 19) to reach the South Grass.
 
 <hr>
