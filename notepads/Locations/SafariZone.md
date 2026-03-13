@@ -32,7 +32,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Area 2 East Ground Path: The East Ground Path (X=19+) going North from the entrance is BLOCKED by water and ledges around Y=11.
 [CURRENT HYPOTHESIS: THE SECRET PATH IN AREA 4 WEST]
 - BUMP TEST COMPLETE (Turn 30165): The tree wall at X=24/25 is COMPLETELY SOLID. There is no hidden gap in the East Grass.
-- THE SECRET PATH FOUND (Turn 30175): The Dirt Trench (Y=14-16) is blocked by a ledge from X=5 to X=16. BUT, from X=0 to X=4, there is NO LEDGE! You can walk North from the Dirt Trench into the West Grass here!
-- HOW TO REACH IT: Jump the ledge at (24, 17) into the South Grass. Walk West to X=6. Walk North up the stairs at (6, 20) into the Dirt Trench. Walk West to X=2. Walk North into the West Grass!
-- PLAN: Explore the West Grass to find the Secret House and Gold Teeth!
+- FAR WEST POCKET (X=2): The path North at X=2 is a DEAD END blocked by a cliff at Y=13 and water at Y=12. Do NOT go here!
+- THE REAL PATH: The Dirt Trench (Y=16) appears to extend North around X=15/16, bypassing Rest House 3 on the right side.
+- HOW TO REACH IT: Jump the ledge at (24, 17) into the South Grass. Walk West to X=6. Walk North up the stairs at (6, 20) into the Dirt Trench. Walk East to X=15, and head North!
+- PLAN: Reach X=15 in the Dirt Trench and follow it North to find the Secret House and Gold Teeth!
 - Rest House 2 (Area 3 North): Located at (37, 6). NPC confirms the Secret House is in the deepest part of the Safari Zone.
