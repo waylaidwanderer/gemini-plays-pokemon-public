@@ -913,7 +913,7 @@
       "type": "object",
       "properties": {}
     },
-    "python_script": "import json\nprint(json.dumps(['Up', 'A', 'A', 'A', 'sleep 500', 'Up', 'Up', 'Up', 'Up', 'A', 'A', 'A', 'A', 'Up', 'A', 'A', 'A', 'A']))",
+    "python_script": "import json\ndef execute(input_data):\n    buttons = ['Up', 'A', 'A', 'A', 'sleep 500', 'Up', 'Up', 'Up', 'Up', 'A', 'A', 'A', 'A', 'Up', 'A', 'A', 'A', 'A', 'sleep 500', 'A', 'A', 'A', 'A']\n    print(json.dumps(buttons))\n",
     "history": [
       {
         "commit_message": "Initial version",
@@ -924,6 +924,11 @@
         "commit_message": "Fix Python script to print JSON array instead of returning it.",
         "timestamp": "2026-03-13T01:50:12.202Z",
         "action_counter": 29011
+      },
+      {
+        "commit_message": "Added more A presses to clear dialogue completely.",
+        "timestamp": "2026-03-13T05:10:43.152Z",
+        "action_counter": 29221
       }
     ]
   }
