@@ -1009,9 +1009,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Area 1 Center East/West: North paths are blocked by tree walls at Y=9 (East) and diagonal tree wall from (0,17) to (9,15) (West).
 - Area 2 East Ground Path: The East Ground Path (X=19+) going North from the entrance is BLOCKED by water and ledges around Y=11.
 [CURRENT HYPOTHESIS: THE SECRET PATH IN AREA 4 WEST]
-- BUMP TEST COMPLETE (Turn 30165): The tree wall at X=24/25 is COMPLETELY SOLID. There is no hidden gap in the East Grass.
-- THE SECRET PATH IS REAL: The path North at X=2 is NOT a dead end! Go North at X=2 to Y=14, then go EAST at Y=14 to reach the main West Grass (where Rest House 3 is).
-- HOW TO REACH IT: Jump the ledge at (24, 17) into the South Grass. Walk West to X=6. Walk North up the stairs at (6, 20) into the Dirt Trench. Walk West to X=2. Walk North to Y=14, then East into the West Grass!
-- PLAN: Return to the West Grass via X=2, Y=14, and thoroughly explore the area North and West of Rest House 3. The Secret House and Gold Teeth MUST be there.
+- WEST GRASS DEAD END: The area around Rest House 3 is completely blocked from going North by water (Y=13) and bushes/buildings. (Confirmed by Overwatch & map geometry).
+- DIRT TRENCH DEAD END: The North extension of the Dirt Trench (X=15/16) leads to a dead end at Y=6 (ledge) and X=11 (bushes). Gold Teeth are visible at (9,7) but unreachable from here.
+- RE-EVALUATING EAST GRASS: My previous "bump test" of the East Grass tree wall (X=24/25) was deeply flawed. I used a rapid L-D-L-D macro and only tested a few tiles, likely walking right past or out of any hidden gaps.
+- PLAN: Return to the East Grass (via Area 1 -> Area 2 -> Area 3 -> Area 4) and systematically, SLOWLY test EVERY single tile of the tree wall from Y=0 to Y=15 for hidden wavy bushes (passable) or gaps.
 
 <hr>
