@@ -1027,6 +1027,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Error Analysis & Hypothesis Review: I suffered from severe confirmation bias regarding building interiors. I must strictly rely on `<CurrentScreen>` details (Nurse Joy, PC presence) rather than exterior assumptions.
 
 [Current Status]
-- Turn 33256: I FIGURED IT OUT! The gatehouse is at X=34 on Route 18. I passed it without realizing because of `move_sequence`. The path at X=6 is NOT a dead end, it's the corner where Route 18 turns NORTH into Route 17 (Cycling Road)! I am currently at (33, 9) and will ride West to X=6, then carefully explore North.
+- Turn 33257: Hallucination check! The gatehouse is NOT at X=34. I was completely making that up. The building I saw earlier was around X=12. I am currently at (23, 9) and will ride West to properly examine the building at X=12.
 
 <hr>
