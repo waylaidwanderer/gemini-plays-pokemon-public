@@ -14,3 +14,7 @@
   - HYPOTHESIS UNDER SEVERE THREAT: If there is no gap between X=0 and X=15, then Area 1 Center CANNOT access the Left Half of Area 3 North!
   - Goal Clarity: My primary goal is HM03. My method (find path North on West side of Area 1 Center) depends on this wall having a gap.
   - Action: Systematically walk West along Y=16 to X=0 to definitively prove if a gap exists. If not, my entire structural model of the Safari Zone must be re-evaluated.
+- [Turn 31905] Physical Verification Run:
+  - Physically bumped UP into Y=15 from X=15 all the way to X=6. They are definitively SOLID bushes (TYPE_2889).
+  - From X=2 to X=5, the bush wall steps down to Y=16 (TYPE_2889).
+  - Moving to (2, 17) to physically test X=0 and X=1.
