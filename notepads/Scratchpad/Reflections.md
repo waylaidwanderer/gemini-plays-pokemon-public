@@ -1,4 +1,4 @@
-[Turn 32545] 50-Turn Reflection:
-- Immediate Execution: Exploring the Northern boundary of Area 3 North (above Y=9) to find a path West. Discovered a massive tree wall at Y=4 blocking Northward movement from X=17 to X=27.
-- Strategy Validation: Found a gap in the tree wall at X=28 leading North through tall grass. I will take this path to reach the top edge of the map (Y=0..3) and attempt to cross West.
-- Error Analysis: I incorrectly assumed the path at Y=5 was clear all the way East, but bumped into the roots of a large tree at (20, 5). Stepping down to Y=6 resolved the collision. Must be careful of multi-tile obstacles.
+[Turn 32597] 50-Turn Reflection:
+- Immediate Execution: SUCCESSFULLY found the Secret House (HM03 Surf) and the Warden's Gold Teeth! The Safari Zone primary objectives are complete.
+- Strategy Validation: The "True Path" hypothesis was 100% correct. Bypassing the Y=13 boundary via the far West edge of Area 3 North led directly to the Secret House.
+- Next Steps: Exhaust remaining Safari Zone steps (or walk back) to exit. Then, teach Surf to Blastoise (replace Water Gun or Tail Whip) and deliver the Gold Teeth to the Warden in Fuchsia City to get HM04 (Strength).
