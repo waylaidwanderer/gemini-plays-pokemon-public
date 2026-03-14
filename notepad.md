@@ -1024,9 +1024,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Goal: Defeat Koga.
 - Mechanic: Dashed lines (TYPE_3fe2) are the OPEN FLOOR. Blank tiles are INVISIBLE WALLS.
 - Safe Path: (4, 17) -> (5, 17) -> (5, 16) -> (6, 16) -> (7, 16) -> (8, 16) -> (9, 16) -> (9, 15) -> (9, 14) -> (9, 13) -> (9, 12) -> (9, 11) -> (9, 10) -> (9, 9) -> (8, 9).
-- Turn 33052: Back at (8, 8).
-- Tested Left: (7, 9) is a DEAD END POCKET (blocked by trainer).
-- Tested Up: (8, 8) is a DEAD END POCKET (Right is wall, Up is wall, Left is trainer).
-- Tested Down: (8, 10). I will step Down to (8, 9) then (8, 10) next!
+- Turn 33053: Ash is at (8, 9). Koga is visible at (4, 10).
+- The path around Koga at X=4..6, Y=9..11 is a closed loop! Access must be from the far Left (X<4).
+- I am on the Right side of the Gym. X=6 and X=7 are solid walls blocking crossing here.
+- Strategy: Walk UP along X=8 to search for a crossover at the top of the Gym (Y<4).
 
 <hr>
