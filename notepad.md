@@ -1075,7 +1075,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - CROSSING THE UPPER LAKE: North of the upper lake (Y=9 or higher), it is possible to cross West back to the X=6/7 column.
 - DIRT PLATEAU BRIDGE: The dirt plateau at Y=22..26 bridges over the solid bush wall at X=17. Access it via stairs at (22, 23), walk West to X=16, and go down stairs at (16, 27).
 - WEST LAKE BARRIER: X=11 is solidly blocked from Y=4 down to at least Y=14 (bushes at Y=4..7, water at Y=8..14). The only way to cross to the West side of Area 3 North might be at Y=3 or higher. Y=4 is a solid wall of bushes extending East from X=11.
-- CENTRAL TREE WALL: The solid tree wall at Y=4 (from X=17 onwards) ends at X=28. At X=28, there is a path North through tall grass. I am attempting to use this to reach the Northern edge of the map (Y=0..3) to cross over to the West side.
+- CENTRAL TREE WALL: The solid tree wall at Y=4 (from X=17 onwards) ends at X=28. At X=28, a path North leads to the Northern edge (Y=1..3).
+- NORTHERN CROSSING: The top edge of the map (Y=1..3) is completely clear of obstacles, allowing passage from X=28 all the way to the far West edge! This is the definitive route to bypass the lakes and reach the West side of Area 3 North.
 
 <hr>
 
