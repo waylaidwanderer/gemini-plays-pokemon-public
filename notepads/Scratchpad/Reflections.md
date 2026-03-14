@@ -5,3 +5,11 @@
 - Current Position: (8, 14).
 - Safe Path discovered so far: (4, 17) -> (5, 17) -> (5, 16) -> (5, 15) -> (4, 15) -> (4, 14) -> (5, 14) -> (5, 13) -> (6, 13) -> (7, 13) -> (7, 14) -> (8, 14).
 - Note to self: ALWAYS use `move_sequence` for 1-step movements (e.g. `R`, `D`) to automatically handle the Gen 1 turn-in-place mechanic and prevent false-negative wall collision readings!
+- Turn 32883: At (8, 15).
+- My options from (8, 15):
+  - Up: (8, 14) [OPEN, came from here]
+  - Left: (7, 15) [Gym Guide]
+  - Right: (9, 15) [Untested]
+  - Down: (8, 16) [Untested]
+- I will test moving Right to (9, 15).
+- Using `move_sequence: R` to safely test and handle turn-in-place.
