@@ -1045,5 +1045,7 @@ Turn 31130: Found an Item Ball at (9, 7) in the West Grass of Area 4 West! Walki
 Turn 31131: Grabbed TM32 (Double Team) at (9, 7). Just Northwest of me at (6, 5) is a building! Since this is the deepest part of the Safari Zone and I had to find a hidden entrance to get here, this MUST be the Secret House! Heading there now.
 Turn 31133: The building is at (6, 5). I am at (6, 6), right in front of the door. Entering now!
 Turn 31134: Misread the map! The object at (6, 4) and (6, 5) is a Pokemon Statue, not a building. The actual building is to my Left, at (2, 2) to (5, 3). Walking Left and Up to enter the building at (3, 3). This must be the Secret House!
+[Secret House]
+Turn 31136: Entered the Secret House (Map 0_222) from the West Grass of Area 4 West! There is an NPC here at (3, 3). Approaching them now to hopefully get HM03 Surf!
 
 <hr>
