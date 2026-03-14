@@ -1027,9 +1027,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Error Analysis & Hypothesis Review: Tactical retreat strategy worked flawlessly.
 
 [Current Status]
-- Turn 33130: At (23, 32). Confirmed that I am stuck below the Y=31 South-facing ledge.
-- The path East is blocked by statues at X=24.
-- I must walk West along Y=32 to X=8, then go North through the gap at (8, 31) to return to the upper level of the city.
-- Hypothesis: Vertical ledges cannot be jumped. To reach the Warden's House (27, 27), I must return to the top area (via Cut bush at 18, 19) and walk East across the top of the city.
+- Turn 33131: At (18, 32). Discovered gap in the South-facing ledge at X=16!
+- Plan: Move Left to (16, 32), then North through the gap to (16, 28). From there, check if Y=27 is open to walk East to the Warden's House at (27, 27).
+- Note: My previous assumption about the X=8 gap was wrong; the gap is at X=16. The East-jump note was also wrong. Navigating via X=16 and Y=27 seems correct.
 
 <hr>
