@@ -1002,20 +1002,14 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 9. THE WESTERN UPPER AREA IS A DEAD END. It is completely blocked from going North by Water at Y=13 and solid bushes. The Secret House is NOT here.
 10. CONCLUSION: There MUST be a second, undiscovered entrance to Area 4 West from Area 3 North. We must thoroughly explore the West edge of Area 3 North (West of the Rest House).
 
-[NEW STRATEGY: THE NORTH HALF OF AREA 1 CENTER]
-- The wall at Y=15/16 in Area 1 Center South is completely SOLID (no gaps).
-- Therefore, the Left Half of Area 3 North CANNOT be reached directly from the entrance of Area 1 Center!
-- NEW HYPOTHESIS: Area 1 Center is partitioned into a South Half and a North Half by the lake.
-- The North Half of Area 1 Center is accessed FROM Area 3 North!
-- Area 3 North has TWO South Exits:
-  - (8..15, 35) -> Area 4 West (East Grass - DEAD END).
-  - (20, 35) -> Area 1 Center (15, 0) (NORTH HALF!).
-- Once in the North Half of Area 1 Center, we can walk West and find a SECOND North Exit to the Left Half of Area 3 North!
-
 [KNOWN TRAPS & DEAD ENDS]
 - Area 4 West Trap Ledges: Jumping ledges at (14, 17) or (24, 17) traps you in the southern path, forcing an exit to Area 1 Center.
 - Area 1 Center West Pocket: Exiting Area 4 West via (29, 22) drops you here. Walk West at (0, 11) to re-enter Area 4 West.
 - Area 4 West Y=4 Path: DOES NOT EXIST. Hallucinated. X=24 is a solid tree wall.
+
+[CURRENT STRATEGY: VERIFY AREA 1 CENTER WEST]
+- [Turn 31894] Overwatch flagged a critical hallucination: I never physically tested the tiles at Y=15/16 on the West side of Area 1 Center (X=0 to X=5) for a gap North.
+- I must return to Area 1 Center, go to the West side (around X=0..5, Y=17), and systematically bump UP into every tile to confirm if it's a solid wall or a hidden gap.
 
 <hr>
 
