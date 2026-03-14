@@ -1023,25 +1023,10 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Location: Fuchsia Gym.
 - Goal: Defeat Koga.
 - Mechanic: Dashed lines (TYPE_3fe2) are the OPEN FLOOR. Blank tiles are INVISIBLE WALLS.
-- Safe Path: (4, 17) -> (5, 17) -> (5, 16) -> (5, 15) -> (4, 15) -> (4, 14) -> (5, 14) -> (5, 13) -> (4, 13) -> (3, 13) -> (2, 13) -> (1, 13) -> (0, 13) -> (0, 14) -> (0, 15) -> (0, 16) -> (0, 17) -> (1, 17) -> (2, 17) -> (3, 17) -> (3, 16) -> (2, 16) -> (2, 15) -> (2, 14) -> (1, 14).
-- Turn 32952: Back at (1, 14).
-- I need to systematically backtrack to find the real branching path.
-- Let's look at my options from previous tiles:
-  - (2, 14): Up is dead end (2, 13). Left is dead end (1, 14). Right is Gym Statue (3, 14).
-  - So (2, 14) is a dead end. The safe path must branch before it.
-  - Backing up to (2, 15): Up is (2, 14) [dead end]. Left is (1, 15) [connects to outer loop]. Right is (3, 15) [solid bush]. Down is (2, 16) [came from here].
-  - So (2, 15) is a dead end!
-  - Backing up to (2, 16): Up is (2, 15) [dead end]. Right is (3, 16) [came from here]. Left is (1, 16) [connects to outer loop]. Down is (2, 17) [connects to outer loop].
-  - Wait, is (1, 16) untested?
-  - In Turn 32940, I arrived at (1, 16) from (1, 15) and noted it connected to the loop path at (0, 16) and (1, 17).
-  - So (2, 16) is a dead end!
-  - Backing up to (3, 16): Left is (2, 16) [dead end]. Up is (3, 15) [solid bush]. Right is (4, 16) [connects to entrance]. Down is (3, 17) [came from here].
-  - So (3, 16) is a dead end!
-  - Wait, this means the ENTIRE left side of the gym from (3, 17) onwards is a trap!
-  - Let me re-evaluate from the START:
-  - (4, 17) -> (5, 17) -> (5, 16) -> (5, 15)
-  - At (5, 15), I went Left to (4, 15).
-  - What if I went UP from (5, 15)? (5, 14) is open.
-  - I need to backtrack all the way to (5, 15)!
+- Safe Path: (4, 17) -> (5, 17) -> (5, 16) -> (5, 15) -> (4, 15).
+- Turn 32953: Backtracked to (2, 16).
+- The entire branch going left from (4, 15) all the way around the gym and up the left wall was a giant dead end loop!
+- I need to backtrack to (4, 15) and test the path UP from (5, 15).
+- Sequence from (2, 16): Right to (3, 16), Down to (3, 17), Right to (4, 17), Up to (4, 16), Right to (5, 16), Up to (5, 15).
 
 <hr>
