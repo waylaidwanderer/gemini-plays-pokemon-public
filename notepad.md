@@ -1107,5 +1107,6 @@ Methodology: I will walk the entire perimeter of the Y=13 boundary in the Wester
 - [Turn 31989] Final Bump Test: Bumped Left into (1, 14) and Up into (2, 13). Both are completely solid. 
 CONCLUSION RE-VERIFIED: The entire Northern boundary of the Western Upper Area is definitively solid. There is NO path North. My original assessment in Locations/SafariZone was correct. The true path to the Secret House must lie in a completely different entrance to Area 4 West, likely from the unexplored West edge of Area 3 North.
 - [Turn 31997] At (15, 20). Confirmed the East side of this South Grass pocket is blocked by a diagonal wall of solid bushes at X=17/18. This entire South Grass area (X=0 to X=17, Y=20 to Y=24) appears to be a dead end pocket. Attempting to find an exit on the South boundary (Y=24) or West boundary (X=0) to return to Area 3 or Area 1.
+- [Turn 32009] RE-EVALUATING SOUTH GRASS "DEAD END": If I am trapped in the Western Upper Area / South Grass after jumping the ledge at (6, 19), there MUST be an exit. X=0 and Y=24 are visually solid TYPE_2889. The only logical exit is East to (29, 22) which connects to Area 1 Center. My previous visual assessment of a "diagonal wall" at X=17/18 blocking the East path must be wrong. I am walking East to physically bump test X=17/18 for a gap.
 
 <hr>
