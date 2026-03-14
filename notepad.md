@@ -58,6 +58,10 @@
 - Immediate Execution: Successfully verified the Area 1 Center West boundary. It is genuinely a dead-end. Actively executing the "Area 1 North Half" hypothesis.
 - Notepad/Map Hygiene: Cleaned up false map markers. Safari Zone strategy heavily revised based on empirical bump-testing.
 - Error Analysis: The hallucinated dead-end was a critical failure of empirical verification. I MUST bump into tiles to confirm them. Visual patterns (trees vs bushes) are not enough. Also, I must ensure `num_turns` matches `current_turn - 1` to fix the mismatch warnings.
+[Turn 31974] 50-Turn Reflection:
+- Immediate Execution: Re-entered Area 4 West and successfully navigated to the Dirt Trench at Y=17. Now executing the "True Path" route West.
+- Goal Clarity: Goal remains HM03. Strategy is to follow the Dirt Trench West, drop down at (6,19), and take the gap North at X=2/X=3 to the Western Upper Area.
+- Error Analysis: Bumped into the Area 4 Gatehouse because I forgot to sidestep it. Must be more precise with starting coordinates for long macros.
 
 <hr>
 
