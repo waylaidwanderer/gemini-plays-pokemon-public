@@ -1234,5 +1234,13 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Who is talking? The trainer at (8, 13) spotted me when I stepped to (8, 14)!
 - He is facing DOWN. I stepped into his line of sight at (8, 14).
 - The battle is starting. I will mash B to clear the text and enter the battle.
+- Turn 32869: Battle starting with the trainer at (8, 13).
+- To recap: I am mapping the invisible walls.
+  - Floor tiles = DASHED LINES (TYPE_3fe2).
+  - Wall tiles = BLANK TILES.
+  - I am at (8, 14).
+  - Let me map the surrounding area from the screen before the battle started (Turn 32867).
+  - At (8, 14), Left is (7, 14) [OPEN], Right is (9, 14) [OPEN], Down is (8, 15) [OPEN], Up is (8, 13) [TRAINER].
+  - I'll deal with this battle first, then continue mapping my way to Koga.
 
 <hr>
