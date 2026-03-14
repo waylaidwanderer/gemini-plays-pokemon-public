@@ -1352,5 +1352,12 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - If I was at (7, 16), facing Left (from Turn 32829), the first `Down` turned me Down. The second `Down` bumped into a wall.
 - Is it possible my input macro failed? No, `press_buttons` works reliably.
 - Let's try `move_sequence` anyway. Maybe the timing is an issue.
+- Turn 32839: `move_sequence: DDDD`. Result: "You pressed 4 movement buttons, but visited 0 tiles."
+- Down is 100% blocked.
+- Let me test UP. The Gym Guide is at (7, 15). I am at (7, 16).
+- If I press Up, I should talk to the Gym Guide or bump into him.
+- If I move to (7, 15), then the Gym Guide is NOT solid, which would be an insane romhack feature.
+- Let's press `Up` using `move_sequence: UUUU`.
+- If I bump 4 times, Up is solid.
 
 <hr>
