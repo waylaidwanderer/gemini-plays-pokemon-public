@@ -1541,5 +1541,17 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - I need to get to the Gym Leader.
 - Left is (6, 17). Right is (8, 17). Down is (7, 18).
 - I will press Down ONCE to see if I can go back to the entrance area to heal, or move forward.
+- Turn 32849: Pressed Down from (7, 17). Result: "visited 0 tiles". Bumped.
+- So (7, 18) is a wall.
+- My current position is (7, 17).
+- Let's map the tiles I know from (7, 17).
+  - Up: (7, 16) - I was trapped here before. It's OPEN.
+  - Down: (7, 18) - BLOCKED.
+  - Left: (6, 17) - Let's test this.
+  - Right: (8, 17) - Let's test this.
+- If I am at (7, 17), and I want to escape this area...
+- In Turn 32816, I was at (6, 17) and pressed Right, and arrived at (7, 16).
+- If that's true, then from (7, 17), pressing Left should take me back to (6, 17).
+- Let me test Left. I will press Left twice to turn and step.
 
 <hr>
