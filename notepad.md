@@ -1037,5 +1037,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Goals: Clear (HM03 & Gold Teeth).
 - Error Analysis: The Cut bush "glitch" was a spatial hallucination (I was at X=18, not X=22). I've learned to heavily verify coordinates before assuming glitches.
 [Turn 31253] Entering Area 2 East via (29, 22). Next target: Area 3 North via Northwest Exit at (0, 4) in Area 2 East.
+[Turn 31272] Position (16, 24). Moving to climb the East Plateau stairs at (20, 21) to head North towards Area 3.
 
 <hr>
