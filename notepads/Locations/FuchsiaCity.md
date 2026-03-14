@@ -3,7 +3,7 @@
 - Main city accessed via Cut tree at (26, 13).
 - PokeMart: (5, 13) - Sells: Ultra Ball, Great Ball, Super Potion, Revive, Full Heal, Repel. (Clerk is on the LEFT side at 0,5. Stand at 2,5 and face Left to buy/sell).
 - Pokemon Center: (19, 27)
-- Safari Zone Warden's House: NOT (11, 27). (11, 27) is the 'Bill's Info' house. The Warden's House is likely East of the Pokemon Center (19, 27).
+- Safari Zone Warden's House: (31, 27). The Warden is inside and can speak clearly once you have the Gold Teeth!
 
 [City Layout & Navigation Rules]
 - Ledges are strictly ONE-WAY. You can only jump DOWN (South) or RIGHT (East) over them depending on their facing.
