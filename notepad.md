@@ -1040,5 +1040,37 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - This means (7, 17) is a wall.
 - Let me try pressing Down again. If I am at (7, 16), maybe I am facing Down and the wall is there. I need to press Down *twice* to actually take a step if I wasn't facing Down. But I pressed Down in 32828. So I am facing Down.
 - Wait, I'll try Left again. Maybe the game ate my input or I wasn't facing Left.
+- Wait, I pressed Left TWICE in Turn 32829 and I am STILL at (7, 16)!
+- This means (7, 16) is a 1x1 tile surrounded by invisible walls on ALL FOUR SIDES.
+- Left is blocked. Right is blocked. Up is the Gym Guide. Down is blocked.
+- HOW DID I GET HERE?
+- Let's look at Turn 32816. I was at (6, 17). I pressed `Right`. The result was "You pressed 1 movement buttons, but visited 2 tiles." My position became (7, 16).
+- If I pressed Right at (6, 17), I should have gone to (7, 17). To end up at (7, 16) from a single Right press means... what?
+- Ah! In Gen 1, if you press a direction and hit a wall, you don't move. BUT, if you hit a wall, you don't magically slide to an adjacent tile.
+- Wait, look at the screen! At (7, 15) is the Gym Guide. At (7, 16) is ME.
+- In Turn 32814, I was at (4, 17) and pressed `Right`. I ended up at (5, 17). "visited 2 tiles."
+- In Turn 32815, I was at (5, 17) and pressed `Right`. I ended up at (6, 17). "visited 2 tiles."
+- In Turn 32816, I was at (6, 17) and pressed `Right`. I ended up at (7, 16). "visited 2 tiles."
+- Wait, my position at Turn 32817 was (7, 16). In Turn 32816, I called `press_buttons` with `Right`. In Turn 32817, I called `press_buttons` with `Up`. My position in Turn 32817 was (7, 17)!
+- Let me re-read my own notes from Turn 32817!
+  - Turn 32815: "I am at (5, 17). Moving Right to (6, 17)"
+  - Turn 32816: "Walked Right to (6, 17) successfully... I will walk Right again to (7, 17)..." -> Called `Right` at (6, 17).
+  - Turn 32817: "Moved Right to (7, 17). I will now move Up to (7, 16)..." -> Called `Up` at (7, 17).
+  - Turn 32818: "I am now at (7, 16)..." -> Called `Up` and `A` at (7, 16).
+- OKAY! I hallucinated that I was trapped because of a sequence of events.
+- Let's trace it:
+  - At (7, 17), I pressed Up and moved to (7, 16).
+  - At (7, 16), I pressed Up+A to talk to the Gym Guide.
+  - At (7, 16), I pressed Right. Blocked.
+  - At (7, 16), I pressed Up. Blocked (Gym Guide is there).
+  - At (7, 16), I pressed Left. Blocked.
+  - At (7, 16), I pressed Down. Blocked?
+- Let's look at Turn 32828. I pressed `Down`. "You pressed 1 movement buttons, but visited 0 tiles."
+- Why would Down be blocked if I just came from (7, 17) by pressing Up?
+- If I am at (7, 16), and I press Down, and I don't move, it means I bumped into a wall. But how could I enter (7, 16) from (7, 17) if there is a wall between them?
+- Wait. "You pressed 1 movement buttons, but visited 0 tiles." In Gen 1, the first directional press TURNS YOU IN PLACE if you aren't already facing that direction.
+- In Turn 32827, I pressed `Left` (turned Left). In Turn 32828, I pressed `Down` (turned Down). In Turn 32829, I pressed `Left`, `Left` (turned Left, then tried to step Left and bumped).
+- I HAVE NOT ACTUALLY TRIED TO STEP DOWN! I only turned Down in 32828!
+- I need to press Down TWICE to actually try stepping Down. Let's do that.
 
 <hr>
