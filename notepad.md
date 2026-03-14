@@ -54,14 +54,6 @@
 - HALLUCINATION CHECK: Always verify Cut bushes exist as SPRITES in the Game State before trying to cut them. Standard tree walls look identical on the grid but will yield "There isn't anything to CUT!".
 - DIRT TRENCH NORTH: The dirt trench (TYPE_2770) extends North to Y=6. The green grass at Y=5 is separated by a ledge, preventing Northward movement.
 - TOOL DESIGN NOTE: A custom tool for using HM field moves cannot reliably start from the Overworld because the Start Menu retains cursor memory (it doesn't reset to POKéMON). Therefore, `use_hm_field` MUST start from the Party Menu where the `current_index` can be visually verified by the player.
-[Turn 31923] 50-Turn Reflection:
-- Immediate Execution: Successfully verified the Area 1 Center West boundary. It is genuinely a dead-end. Actively executing the "Area 1 North Half" hypothesis.
-- Notepad/Map Hygiene: Cleaned up false map markers. Safari Zone strategy heavily revised based on empirical bump-testing.
-- Error Analysis: The hallucinated dead-end was a critical failure of empirical verification. I MUST bump into tiles to confirm them. Visual patterns (trees vs bushes) are not enough. Also, I must ensure `num_turns` matches `current_turn - 1` to fix the mismatch warnings.
-[Turn 31974] 50-Turn Reflection:
-- Immediate Execution: Re-entered Area 4 West and successfully navigated to the Dirt Trench at Y=17. Now executing the "True Path" route West.
-- Goal Clarity: Goal remains HM03. Strategy is to follow the Dirt Trench West, drop down at (6,19), and take the gap North at X=2/X=3 to the Western Upper Area.
-- Error Analysis: Bumped into the Area 4 Gatehouse because I forgot to sidestep it. Must be more precise with starting coordinates for long macros.
 
 <hr>
 
