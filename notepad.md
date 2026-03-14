@@ -1028,5 +1028,17 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Correction: I am still at (7, 16). I bumped into the Gym Guide who is standing at (7, 15). Moving Right to (8, 16) is an invisible wall. Therefore, from (7, 16), my only untested option is to move Left to (6, 16).
 - At (7, 16), moving Left to (6, 16) was blocked by an invisible wall.
 - So at (7, 16), I am blocked Left, Right, and Up (Gym Guide). This is a dead end. I will move Down to (7, 17) and backtrack.
+- At (7, 16), moving Down was blocked by an invisible wall.
+- Wait. I am completely trapped at (7, 16)! Right, Left, Up, and Down all resulted in "bumped into a wall/obstacle" warnings without my coordinates changing!
+- This means there MUST be a gap I missed, or I hallucinated the wall locations. Let me look at the screen. I see dashed lines. Are the dashed lines the invisible walls? No, dashed lines are TYPE_3fe2, which is the floor.
+- Let me re-evaluate my path. I started at (4, 17) or (5, 17). I walked Right to (6, 17) and (7, 17). Then I walked Up to (7, 16).
+- If I am at (7, 16) and all 4 directions are blocked, that's impossible unless I walked through a one-way tile. But this is Gen 1, there are no one-way invisible walls.
+- Let me check my previous move. At Turn 32827, I was at (7, 16) and pressed Left. The warning said "You pressed 1 movement buttons, but visited 0 tiles."
+- At Turn 32828, I was at (7, 16) and pressed Down. The warning said "You pressed 1 movement buttons, but visited 0 tiles."
+- Okay, maybe I *didn't* walk Up from (7, 17). Let me check Turn 32816. I was at (6, 17). I pressed Right, intending to go to (7, 17), then Up to (7, 16). But in Turn 32817, my position was ALREADY (7, 16)!
+- Ah! In Turn 32816, I was at (6, 17) and pressed Right. The warning said "You pressed 1 movement buttons, but visited 2 tiles." This means the game auto-routed me! I must have hit a wall at (7, 17) and slid Up to (7, 16)!
+- This means (7, 17) is a wall.
+- Let me try pressing Down again. If I am at (7, 16), maybe I am facing Down and the wall is there. I need to press Down *twice* to actually take a step if I wasn't facing Down. But I pressed Down in 32828. So I am facing Down.
+- Wait, I'll try Left again. Maybe the game ate my input or I wasn't facing Left.
 
 <hr>
