@@ -24,3 +24,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   - Walked along Y=17 from X=6 to X=2, systematically pressing UP. Bumped into solid bushes (TYPE_2889) at (5, 16), (4, 16), (3, 16), and (2, 16).
   - Attempted to walk West from (2, 17). Blocked by a large solid tree occupying (0, 16)-(1, 16) and (0, 17)-(1, 17).
   - CONCLUSION: There is absolutely no gap North on the West side of Area 1 Center. The wall is 100% solid.
+
+[FINAL PROVEN LAYOUT FACTS]
+- TRUE PATH TO SECRET HOUSE: In Area 3 North, cross the Northern edge (Y=1..3) from X=28 to X=1. Walk South down the 1-tile wide path at X=1. Enter the gap at (2, 35). This places you at (20, 0) in Area 4 West. Walk West along Y=4 to reach the Secret House at (3, 3) and the Gold Teeth at (19, 7).
+- AREA 1/2 CHOKEPOINTS: Area 1 West is fully blocked. Area 2 requires using the South Dirt Plateau (stairs at 20,21 to 12,21) to bridge over the tree walls.
