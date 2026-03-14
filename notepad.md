@@ -1027,8 +1027,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Error Analysis & Hypothesis Review: Tactical retreat strategy worked flawlessly.
 
 [Current Status]
-- Turn 33156: Outside Warden's House at (27, 28).
-- Heading to Pokemon Center (19, 27) to withdraw BICYCLE.
-- Path: Down 2 to (27, 30), Left 8 to (19, 30), Up 3 to enter PC.
+- Turn 33157: At (26, 28) outside Warden's House.
+- Correction: The sidewalk at Y=28 is blocked to the West by a sign at (25, 28). I MUST exit via the gap at X=30.
+- Executing path to PC: Right 4 to (30, 28), Down 2 to (30, 30), Left 11 to (19, 30), Up 3 to enter PC at (19, 27).
 
 <hr>
