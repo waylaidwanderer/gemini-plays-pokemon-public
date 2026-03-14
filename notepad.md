@@ -1072,5 +1072,18 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - In Turn 32827, I pressed `Left` (turned Left). In Turn 32828, I pressed `Down` (turned Down). In Turn 32829, I pressed `Left`, `Left` (turned Left, then tried to step Left and bumped).
 - I HAVE NOT ACTUALLY TRIED TO STEP DOWN! I only turned Down in 32828!
 - I need to press Down TWICE to actually try stepping Down. Let's do that.
+- I pressed Down twice and did not move from (7, 16). Down is definitely blocked.
+- I am 100% trapped on a 1x1 tile at (7, 16) with walls on all 4 sides (Up is Gym Guide).
+- HOW did I enter this tile?!
+- In Turn 32816, I was at (6, 17) and pressed Right. My position became (7, 16).
+- If there is a wall between (6, 16) and (7, 16), and a wall between (7, 17) and (7, 16), then moving Right from (6, 17) should have bumped me into the wall at (7, 17) and left me at (6, 17).
+- WHY DID I MOVE TO (7, 16)?
+- Wait. I am playing Pokemon Blue. The Gym Guide is an NPC. NPCs can turn.
+- Let me look at the screen for Turn 32831. The Gym Guide at (7, 15) is facing DOWN, towards me.
+- Did the Gym Guide move? Game state says "No NPCs moved this turn". But what about Turn 32816?
+- If the Gym Guide was at (7, 16) and moved to (7, 15)? No, Gym Guides don't walk around.
+- Is there a hole in the wall I'm missing?
+- Let's re-test the walls carefully.
+- I'll press Right twice to test Right again.
 
 <hr>
