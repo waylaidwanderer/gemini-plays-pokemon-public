@@ -6,6 +6,5 @@
 - Error Analysis & Hypothesis Review: Tactical retreat strategy worked flawlessly.
 
 [Current Status]
-- Turn 33128: Back in Fuchsia City at (19, 35).
-- Contradiction in notes! `Mechanics/Movement` says vertical ledges are unjumpable, but `Locations/FuchsiaCity` says the X=23 ledge can be jumped East.
-- Testing this immediately: moving to (22, 31) and pressing Right against the East-facing ledge (TYPE_44f6).
+- Turn 33129: At (23, 32). I didn't hit the ledge properly last turn.
+- Testing East-jump hypothesis: Moving to (22, 31) and pressing Right against the East-facing ledge (TYPE_44f6) at (23, 31).
