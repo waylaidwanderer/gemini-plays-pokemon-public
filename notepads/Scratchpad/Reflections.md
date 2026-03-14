@@ -6,3 +6,4 @@
 5. Tool Maintenance: None currently broken.
 6. Goal Clarity: Teach Strength -> Move Boulder -> Get Item -> Koga's Gym.
 7. Error Analysis: I need to remember that HM field moves (like Strength) need to be activated from the Party Menu *while facing the boulder*.
+8. Cleo forgot Scratch to learn Strength!
