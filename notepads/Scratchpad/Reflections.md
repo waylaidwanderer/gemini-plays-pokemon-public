@@ -2,11 +2,11 @@
 - Location: Fuchsia Gym.
 - Goal: Defeat Koga.
 - Mechanic: Dashed lines (TYPE_3fe2) are the OPEN FLOOR. Blank tiles are INVISIBLE WALLS.
-- Safe Path: (4, 17) -> (5, 17) -> (5, 16) -> (5, 15) -> (5, 14).
-- Turn 32956: Arrived at (5, 14).
-- Options from (5, 14):
-  - Down: (5, 15) [OPEN, came from here]
-  - Left: (4, 14) [DEAD END LOOP - DO NOT ENTER]
-  - Right: (6, 14) [WALL (solid bush)]
-  - Up: (5, 13) [Untested]
-- I will test Up to (5, 13).
+- Safe Path: (4, 17) -> (5, 17) -> (5, 16) -> (5, 15) -> (5, 14) -> (5, 13).
+- Turn 32957: Arrived at (5, 13).
+- Options from (5, 13):
+  - Down: (5, 14) [OPEN, came from here]
+  - Left: (4, 13) [Loop path]
+  - Right: (6, 13) [Untested]
+  - Up: (5, 12) [TRAINER]
+- I must test Right to (6, 13), as Left goes to the dead end loop and Up is a trainer.
