@@ -1023,8 +1023,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Location: Fuchsia Gym.
 - Goal: Defeat Koga.
 - Mechanic: Dashed lines (TYPE_3fe2) are the OPEN FLOOR. Blank tiles are INVISIBLE WALLS.
-- Safe Path: (4, 17) -> (5, 17) -> (5, 16) -> (6, 16) -> (7, 16) -> (8, 16) -> (9, 16) -> (9, 15) -> (9, 14) -> (9, 13) -> (9, 12) -> (9, 11) -> (9, 10) -> (9, 9) -> (8, 9) -> (8, 8).
-- Turn 33047: Defeated Juggler at (7, 8).
-- Next Step: Explore from (8, 8). Options are Up to (8, 7) [Wall] and Right to (9, 8). Testing Right.
+- Safe Path: (4, 17) -> (5, 17) -> (5, 16) -> (6, 16) -> (7, 16) -> (8, 16) -> (9, 16) -> (9, 15) -> (9, 14) -> (9, 13) -> (9, 12) -> (9, 11) -> (9, 10) -> (9, 9) -> (8, 9).
+- Turn 33048: BUMPED going Right from (8, 8). So (9, 8) is a wall. Since Up is a wall, Left is the Juggler, and Down is where I came from, (8, 8) is a DEAD END!
+- Next Step: Backtrack to (8, 9) and test Down to (8, 10).
 
 <hr>
