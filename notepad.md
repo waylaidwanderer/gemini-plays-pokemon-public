@@ -1040,7 +1040,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   - (2, 16) is TYPE_2889.
   - (1, 17) and (0, 17) appear to be a large tree (TYPE_2889).
   - Executing physical bump test on all these tiles now.
-- [Turn 32455] Walked North in the Area 1 Center West Pocket from (4, 11) all the way to Y=0. It is a massive dead end. Bounded by Y=0 bushes North and X=11 bushes East. There is no secret path to Area 3 North or Area 4 West here. Returning South to Y=19 to reconnect with the main Area 1 Center and head to Area 3 North.
+- WEST POCKET TRAP: The area West of X=11 is a massive dead end bounded by Y=0 bushes North, X=11 bushes East, and Y=15/16 bushes South. It is completely separated from the main Area 1 Center and only loops back to the Area 4 West trap.
 
 <hr>
 
