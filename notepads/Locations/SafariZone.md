@@ -3,7 +3,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Limit: 500 steps.
 
 [Map Connections (TWO-WAY LOOP!)]
-- Area 1 Center (0_220) <-> Area 2 East (0_217) [via East Exit at 29,10 <-> 0,10]
+- Area 1 Center (0_220) <-> Area 2 East (0_217) [via East Exit at 29,10 <-> 0,22]
 - Area 1 Center (0_220) <-> Area 3 North (0_218) [via North Exit at 15,0 <-> South Exit at 20,35]
 - Area 2 East (0_217) <-> Area 3 North (0_218) [via Northwest Exit at 0,4 <-> Southeast Exit at 39,30/31]
 - Area 3 North (0_218) <-> Area 4 West (0_219) [via Southwest Exit at 8..15, 35 <-> Northeast Exit at 21..26, 0]
