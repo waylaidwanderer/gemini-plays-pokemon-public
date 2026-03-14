@@ -23,3 +23,4 @@
 22. I need to find Koga's Gym. It's somewhere in Fuchsia City, probably in the southern half. I'll head south and west from here (31, 28) to explore.
 23. I'm at (31, 32) in the southeast corner of Fuchsia City. Walking West along Y=32 to see if I can get back to the center of town.
 24. Exploring the southeast part of Fuchsia City to find the Gym. Going West and North around the animal enclosures.
+25. At (24, 30). I am East of the one-way ledge at X=23. To get back to the Pokemon Center and the West side of town, I need to walk North to Y=20, where I can cross West to X=18, then head South again or Cut the bush. Heading North now.
