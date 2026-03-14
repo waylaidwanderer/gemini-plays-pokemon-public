@@ -1068,6 +1068,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Hypothesis: The Dirt Plateau at Y=22 is a BRIDGE West -> FALSE. The Dirt Plateau is bounded by a solid tree wall on its West side at X=14!
 - West of the X=14 tree wall is a grass corridor (X=8 to X=13).
 - The choke point path (X=6, X=7) is blocked from going North by a lake at Y=19.
-- Currently exploring North up the grass corridor between X=8 and X=13.
+- [Turn 31821] The lake ZIGZAGS!
+  - Y=14 to Y=19: Lake is at X=4..7. (Grass corridor is X=8..13).
+  - Y=10 to Y=13: Lake is at X=8..11. (Grass corridor is X=12..13).
+- Currently navigating North up the East grass corridor around the zigzag lake.
 
 <hr>
