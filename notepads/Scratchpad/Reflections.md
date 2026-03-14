@@ -2,11 +2,12 @@
 - Location: Fuchsia Gym.
 - Goal: Defeat Koga.
 - Mechanic: Dashed lines (TYPE_3fe2) are the OPEN FLOOR. Blank tiles are INVISIBLE WALLS.
-- Current Position: (1, 13) [IN BATTLE]
+- Current Position: (1, 13).
 - Safe Path discovered so far: (4, 17) -> (5, 17) -> (5, 16) -> (5, 15) -> (4, 15) -> (4, 14) -> (5, 14) -> (5, 13) -> (4, 13) -> (3, 13) -> (2, 13) -> (1, 13).
-- Turn 32922: Juggler is sending out a third Pokemon. Drowzee. Using Surf again.
-- Options from (1, 13) post-battle:
+- Turn 32923: Defeated Juggler at (1, 12).
+- Options from (1, 13):
   - Right: (2, 13) [OPEN, came from here]
   - Left: (0, 13) [Untested]
   - Up: (1, 12) [TRAINER]
   - Down: (1, 14) [Untested]
+- Testing Left to (0, 13) next.
