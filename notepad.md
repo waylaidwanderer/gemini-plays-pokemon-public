@@ -1027,9 +1027,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Error Analysis & Hypothesis Review: Tactical retreat strategy worked flawlessly.
 
 [Current Status]
-- Turn 33152: MAJOR REALIZATION! Attempted to use STRENGTH with Cleo on the boulder. The game said: "No! A new BADGE is required."
-- Checking my Badges: Cascade, Soul, Boulder, Thunder. I am MISSING the Rainbow Badge from Erika in Celadon City!
-- Koga's SoulBadge enables SURF. Erika's Rainbow Badge enables STRENGTH. I completely skipped the Celadon City Gym!
-- New Plan: Exit Fuchsia City, Fly/Walk to Celadon City, and defeat Gym Leader Erika to get the Rainbow Badge so I can use STRENGTH.
+- Turn 33154: Realized we need the Rainbow Badge to use Strength. Exiting the Warden's House.
+- Plan: Go to the Pokemon Center (19, 27) in Fuchsia City, withdraw the BICYCLE from the PC.
+- Then, travel West from Fuchsia to Route 18 and take Cycling Road (Route 17) up to Celadon City to fight Erika.
+- Exiting Warden's House: Left 3, Down 3.
 
 <hr>
