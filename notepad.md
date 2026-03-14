@@ -1052,5 +1052,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - It does NOT connect North to the grass (dirt top edge is solid).
 - It connects the West lower path (via stairs at 12,7) to the East lower path (via stairs at 17,7).
 - Exploring the East lower path to find stairs up to the Northern grass plateau.
+- [Turn 31615] Confirmed! Walking North from the East lower path (e.g., X=21) leads straight into the upper grass plateau (Y=3), completely bypassing the dirt bridge and its tree walls. Now heading West across the plateau to find the Northwest exit at (0, 4).
 
 <hr>
