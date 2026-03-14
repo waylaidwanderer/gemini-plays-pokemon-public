@@ -1012,11 +1012,11 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Area 4 West Trap Ledges: Jumping ledges at (14, 17) or (24, 17) traps you in the southern path, forcing an exit to Area 1 Center.
 - Area 1 Center West Pocket: Exiting Area 4 West via (29, 22) drops you here. Walk West at (0, 11) to re-enter Area 4 West.
 - Area 4 West Y=4 Path: DOES NOT EXIST. Hallucinated. X=24 is a solid tree wall.
-[SECRET HOUSE ROUTE - CONFIRMED]
-1. Area 1 Center -> Area 2 East (via East Exit at 29, 10 or 29, 22)
-2. Area 2 East -> Area 3 North (via Northwest Exit at 0, 4)
-3. Area 3 North -> Area 4 West (via LEFT SIDE of Southwest Exit at 8, 35)
-4. Area 4 West (West Grass) -> Walk South/West to Secret House at (3, 3).
+[SECRET HOUSE ROUTE - TRUE PATH]
+1. Area 1 Center -> Area 3 North (via North Exit at 15, 0)
+2. Area 3 North -> Area 4 West (via LEFT SIDE of Southwest Exit at 8, 35)
+3. Area 4 West (West Grass) -> Walk South/West to Secret House at (3, 3).
+* Area 2 East is a TRAP and a ONE-WAY LOOP from Area 3 North! Do not go there!
 * Note: Gold Teeth are likely also in this West Grass area. Search for Item Balls.
 * WARNING: Optimize steps! I ran out of 500 steps exactly on the Secret House entrance tile. No wasted movement next time!
 
