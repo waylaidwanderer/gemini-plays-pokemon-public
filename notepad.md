@@ -1027,10 +1027,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Error Analysis & Hypothesis Review: Tactical retreat strategy worked flawlessly.
 
 [Current Status]
-- Turn 33139: At (24, 23).
-- The East side of X=24 is completely blocked by statues and buildings from Y=19 down to Y=29.
-- Jumping the East-facing ledge at (23, 28) traps you in this X=24 vertical corridor.
-- The only way out appears to be walking North.
-- Moving North along X=24 to see where it leads.
+- Turn 33140: At (24, 17). 
+- The X=24 corridor is blocked from going East to the Warden's House at Y=28 (fences), Y=26-27 (building), and Y=19 (building).
+- To reach the Warden's House, I need to access the far East side of the city.
+- Strategy: Walk Left to (22, 17), North to (22, 14), then East across the top path to X > 29, and look for a path South.
 
 <hr>
