@@ -1004,10 +1004,12 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 8. This area contains Rest House 3 at (11, 11).
 9. THE SECRET HOUSE IS NOT ACCESSIBLE FROM THIS ENTRANCE. We have mapped the entire accessible area from (26, 0) and found no path North. There MUST be a second, undiscovered entrance to Area 4 West from Area 3 North.
 
-[NEW STRATEGY: FIND THE SECOND ENTRANCE]
-- Abandon the (26, 0) entrance to Area 4 West. It only leads to the East Grass, Dirt Trench, and South Grass (Rest House 3).
-- We must thoroughly re-explore Area 3 North to find an alternate exit that leads to the Northwest section of Area 4 West (where the Secret House and Gold Teeth are likely located).
-- Check the West boundary of Area 3 North for hidden gaps or paths we missed.
+[NEW STRATEGY: THE WEST GRASS ENTRANCE]
+- The Area 4 West entrance from Area 3 North is SPLIT.
+- Entering via the LEFT side (X=8..10) drops you at (21, 0) in Area 4 West (WEST GRASS).
+- Entering via the RIGHT side (X=13..15) drops you at (26, 0) in Area 4 West (EAST GRASS).
+- The Secret House is ACCESSIBLE from the WEST GRASS entrance! (Found at Area 4 West 3, 3).
+- We must reach X=8, Y=35 in Area 3 North to enter the West Grass.
 
 [KNOWN TRAPS & DEAD ENDS]
 - Area 4 West Trap Ledges: Jumping ledges at (14, 17) or (24, 17) traps you in the southern path, forcing an exit to Area 1 Center.
