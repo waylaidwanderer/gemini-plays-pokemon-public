@@ -1072,5 +1072,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 
 Now exiting the house at (11, 27).
 43. Now back outside in Fuchsia City at (11, 28). I'll walk West along Y=28 to keep looking for the Gym. The Gym is usually a large building with a sign outside.
+44. Walked out of the house. Now at (11, 28). I'll walk West along Y=28 to explore the rest of the southern half of Fuchsia City.
 
 <hr>
