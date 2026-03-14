@@ -21,3 +21,13 @@
   - Right: (7, 16) - OPEN (I was trapped here before).
 - I will test moving Down to (6, 17).
 - Action: Press `Down`.
+- Turn 32856: At (6, 17). The path Down to (6, 18) is BLOCKED by a wall (dashed line visible). The path Left to (5, 17) is OPEN (it's the entrance mat). The path Right to (7, 17) is OPEN (I just walked it). The path Up to (6, 16) is OPEN.
+- Wait, I was at (6, 16) in Turn 32855. I pressed Down and moved to (6, 17).
+- Okay, let's map from (6, 17):
+  - Up: (6, 16) - OPEN.
+  - Down: (6, 18) - Wall.
+  - Left: (5, 17) - Entrance Mat.
+  - Right: (7, 17) - OPEN.
+- I will move Left to (5, 17) to reset my position to the entrance mat so I can heal and re-orient myself, or I can just keep mapping.
+- Let's walk Left to (5, 17), then Left to (4, 17).
+- Action: Press `Left`.
