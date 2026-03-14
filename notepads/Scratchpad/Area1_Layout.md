@@ -5,4 +5,5 @@
 - East side of the lake (X=22..29) is a DEAD END for going North. It only leads to Area 2 East.
 - West side of the lake is a TRAP. The staggered tree walls at Y=15 and Y=16 overlap and completely block passage North.
 - TRUE PATH NORTH: Re-evaluating the EAST side of the lake (X=22..28).
-- I am at (28, 11). Y=9 is a tree wall here. The exit to Area 2 East is at (29, 10). I must go West from here to find the gap North to Area 3 North!
+- I am walking West along Y=11. At (21, 11), I found the gap! The lake ends at X=21, and the path North is open from X=12 to X=21.
+- Route: Walk West from the East side to (21, 11), then walk North to the Area 3 North exit at (15, 0).
