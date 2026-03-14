@@ -60,3 +60,4 @@ Now exiting the house at (11, 27).
 50. Walked Right to (6, 17) successfully. I can see a trainer at (7, 15). I will walk Right again to (7, 17), then North to (7, 16) to engage him, assuming there are no walls in the way.
 51. Moved Right to (7, 17). I will now move Up to (7, 16) to engage the trainer at (7, 15).
 52. I am now at (7, 16), right below the trainer at (7, 15). Before I fight him, I should probably heal my team. Dugtrio is at 81/81, Audrey is 54/54, Pebbles is 42/42, Cleo is 97/97, and Bambam is 46/46. Hydro is at 105/148, which is fine. The team is relatively healthy, so I'll go ahead and fight this trainer to start clearing out the Gym. I'll press Up to talk to him.
+53. The NPC at (7, 15) is actually the Gym Guide, not a trainer! He's giving me the "Yo! Champ in making!" speech. I will read his advice and then start navigating the invisible walls.
