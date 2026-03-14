@@ -1109,5 +1109,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - When you talk to the Gym Guide from the FRONT (he faces Down, you face Up), you just talk to him.
 - If I am TRAPPED at (7, 16), there is literally only one possibility: One of my tests for walls was flawed because I only turned in place instead of stepping.
 - Let's re-test Down. I am at (7, 16). I will press Down THREE times. That guarantees I turn Down, step Down, and try to step Down again. If I don't move, (7, 17) is a wall.
+- Testing Left again, pressing it 3 times just to be absolutely sure.
 
 <hr>
