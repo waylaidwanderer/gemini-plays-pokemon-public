@@ -1121,6 +1121,7 @@ CONCLUSION: The South Grass is a completely sealed ONE-WAY LEDGE TRAP. Jumping d
 - [Turn 32239] HALLUCINATION CORRECTED: The dirt edge at Y=16 is SOLID. I cannot walk Up from the dirt trench into the grass at Y=15. The main dirt trench is a definitive dead end at X=5. I must backtrack East to X=16 and go North into the Northern Dirt Trench extension to thoroughly test its West wall (X=10) for gaps.
 - [Turn 32244] The top edge of the main dirt trench (Y=16) is a continuous South-facing ledge from X=5 to X=15. I cannot walk North into the grass at Y=15 from here. The main trench West is a dead end. I am moving back to X=16 to explore the Northern extension again.
 - [Turn 32245] Back at (16, 16). I am heading North to (16, 9) and then West to (11, 9) to comprehensively bump-test the West wall (X=10) of this northern dirt pocket. If X=10 is solid from Y=6 to Y=9, this entire northern path is a dead end.
+- [Turn 32246] At (16, 9). The path West at Y=9 is blocked by bushes at X=14. But at Y=8, Y=7, and Y=6, the dirt path goes West. I will walk to (11, 8) to see what is at X=10.
 
 <hr>
 
