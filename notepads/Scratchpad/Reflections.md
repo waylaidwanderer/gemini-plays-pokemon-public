@@ -112,3 +112,14 @@
 - Let's stop guessing visually and just map it empirically. I have the power of trial and error without macros.
 - Current Position: (5, 15).
 - Let's test Left to (4, 15).
+- Turn 32860: Moved Left to (4, 15).
+- Okay, the overwatch agent is right. I panicked and created a huge mess of notes because I misunderstood the visuals and the turn-in-place mechanic.
+- I need to calm down, accept that the dashed lines (TYPE_3fe2) are the OPEN FLOOR, and the blank tiles are the INVISIBLE WALLS.
+- Let's map from my current position: (4, 15).
+- On the screen:
+  - Left (3, 15): BLANK (Wall). (Actually, there's a statue at 3,14 and 3,15).
+  - Right (5, 15): DASHED (Open, I came from here).
+  - Down (4, 16): BLANK (Wall).
+  - Up (4, 14): DASHED (Open).
+- So my only path forward is UP to (4, 14).
+- I will move Up.
