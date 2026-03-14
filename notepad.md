@@ -996,6 +996,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 
 [AREA 4 WEST MECHANICS & TOPOGRAPHY]
 - EAST TO WEST PATH: The East Grass is NOT completely blocked. There is a path West at Y=4! From the entrance, you can walk West along Y=4, crossing X=24/X=25, which allows access to the Northwest section of the map.
+- WEST GRASS LEDGE TRAP: In the West Grass, the boundary between Y=5 and Y=6 is a South-facing ledge. If you walk South from the Y=4 path, you will jump down into the Dirt Trench and be permanently trapped! You MUST stay North of Y=5 when exploring the West Grass.
 - DIRT TRENCH (Level 0) TRAP: The Dirt Trench connects the East and West halves, extending West to X=5. HOWEVER, the entire northern boundary of the Dirt Trench (Y=15) is a solid ledge from X=16 to X=5! You CANNOT walk North into the West Grass from the Dirt Trench.
 - TRAP ESCAPE: The entire southern half of Area 4 West (Dirt Trench and South Grass) is a ONE-WAY TRAP. If you fall in, you are soft-locked from reaching the Secret House. You must walk until your steps run out or exit via the Area 1 Center West Pocket.
 - REST HOUSE 3: Located in the West Grass at (11, 11). Gives tips on Bait and Safari Zone. THIS IS NOT THE SECRET HOUSE!
