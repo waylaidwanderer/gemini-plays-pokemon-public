@@ -43,3 +43,29 @@
   - Right: (6, 16) - OPEN.
   - Up: (5, 15) - Untested since resetting my mental map.
 - Let me test Up from (5, 17) to verify I am at (5, 16) again.
+- Turn 32858: I am at (5, 16).
+- Looking at the screen, I see a Gym Guide? No, wait. The sprite at (1, 12) is SPRITE_9238.
+- Looking at the screen for Turn 32858, the path Up to (5, 15) is visibly clear of dashed lines!
+- (5, 16) has a dashed line. I am standing on it.
+- Wait, (5, 16) has a dashed line and I AM STANDING ON IT.
+- This confirms my hypothesis: The dashed lines are the FLOOR (TYPE_3fe2). The invisible walls are ALSO TYPE_3fe2, but they do NOT have dashed lines!
+- Let me re-examine the screen AT Turn 32834 when I was trapped at (7, 16).
+- In Turn 32834, (7, 16) had NO dashed lines.
+- (6, 16) had dashed lines. (8, 16) had dashed lines. (7, 17) had dashed lines.
+- So the tiles WITH dashed lines are the OPEN PATHS. The tiles WITHOUT dashed lines are the INVISIBLE WALLS.
+- Oh my god! The walls are the blank tiles!
+- Let me look at the screen for Turn 32858.
+- I am at (5, 16). It has dashed lines.
+- The tiles with dashed lines:
+  - (5, 16)
+  - (6, 16)
+  - (7, 16) - WAIT. In Turn 32834, (7, 16) had NO dashed lines. Let me look at the screen for 32858. (7, 16) HAS DASHED LINES!
+  - Wait, what?!
+  - Let me look really closely at the images.
+  - Turn 32834: I am at (7, 16). My sprite covers the tile. I can't see if it has dashed lines or not. But the tiles around me (6, 16), (8, 16), (7, 17) DO have dashed lines.
+  - Turn 32858: (7, 16) DOES have dashed lines!
+  - Okay, so the dashed lines are just a repeating 2x2 floor pattern. They don't indicate the walls at all. The invisible walls are truly invisible.
+- Back to mapping.
+- I am at (5, 16).
+- Up: (5, 15).
+- Let's test Up.
