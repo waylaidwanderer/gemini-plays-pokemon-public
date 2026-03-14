@@ -1093,3 +1093,11 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 5. You are now West of the X=17 wall! The path West is blocked by water at X=11 (Y=24 to Y=29). Walk South to Y=30, then West to X=8, then South to Y=35 to exit to Area 4 West.
 
 <hr>
+
+<h1><code>Scratchpad/Area4_Layout</code></h1>
+
+[Turn 31982] RE-TESTING WESTERN UPPER AREA BOUNDARY (Y=13)
+Hypothesis: My previous conclusion in Locations/SafariZone that the Western Upper Area is a definitive dead end might be flawed. I suspect I may have relied on visual patterns (water/bushes) rather than exhaustive physical bump-testing of every single tile along Y=13, similar to my recent oversight in Area 1 Center.
+Methodology: I will walk the entire perimeter of the Y=13 boundary in the Western Upper Area and physically bump into every tile (water and bushes) to definitively prove whether a hidden gap North exists or not.
+
+<hr>

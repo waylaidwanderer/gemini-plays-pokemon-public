@@ -1,0 +1,3 @@
+[Turn 31982] RE-TESTING WESTERN UPPER AREA BOUNDARY (Y=13)
+Hypothesis: My previous conclusion in Locations/SafariZone that the Western Upper Area is a definitive dead end might be flawed. I suspect I may have relied on visual patterns (water/bushes) rather than exhaustive physical bump-testing of every single tile along Y=13, similar to my recent oversight in Area 1 Center.
+Methodology: I will walk the entire perimeter of the Y=13 boundary in the Western Upper Area and physically bump into every tile (water and bushes) to definitively prove whether a hidden gap North exists or not.
