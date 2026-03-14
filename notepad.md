@@ -54,10 +54,6 @@
 - HALLUCINATION CHECK: Always verify Cut bushes exist as SPRITES in the Game State before trying to cut them. Standard tree walls look identical on the grid but will yield "There isn't anything to CUT!".
 - DIRT TRENCH NORTH: The dirt trench (TYPE_2770) extends North to Y=6. The green grass at Y=5 is separated by a ledge, preventing Northward movement.
 - TOOL DESIGN NOTE: A custom tool for using HM field moves cannot reliably start from the Overworld because the Start Menu retains cursor memory (it doesn't reset to POKéMON). Therefore, `use_hm_field` MUST start from the Party Menu where the `current_index` can be visually verified by the player.
-[Turn 32026] 50-Turn Reflection:
-- Immediate Execution: Completed empirical bump-testing of Area 4 West's South Grass. Definitively proved it is a one-way trap. The true path to the Secret House MUST be via Area 3 North's unexplored West edge.
-- Error Analysis: The Safari Zone entry "pity" mechanic did not trigger for ¥435. It likely requires a lower amount or repeated attempts, but I won't risk wasting time. I must acquire at least ¥500 the normal way.
-- Goal Clarity: Head to Route 15 (East of Fuchsia City) to defeat a skipped trainer for quick cash, which prevents the need to sell unique or finite items.
 
 <hr>
 
