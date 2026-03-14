@@ -1104,5 +1104,7 @@ Methodology: I will walk the entire perimeter of the Y=13 boundary in the Wester
 - [Turn 31985] Bump-tested water at X=5 through X=9. All are solid. Proceeding to bump-test the Rest House boundary (X=10 to X=13) and the East tree wall (X=14).
 - [Turn 31986] Accidentally entered Rest House 3. Stepped back out to (11, 12). I will now physically bump the Rest House walls (X=10, X=13) and the East tree wall (X=14) to confirm they are solid.
 - [Turn 31988] Bump-tested the Rest House exterior walls (X=10, X=13) and the tree wall on the East (X=14) from Y=12 to Y=14. All are definitively solid. No path North or East exists here. I will now walk West to X=2 to bump-test the final tiles at X=0 and X=1 to definitively close this area as a dead end.
+- [Turn 31989] Final Bump Test: Bumped Left into (1, 14) and Up into (2, 13). Both are completely solid. 
+CONCLUSION RE-VERIFIED: The entire Northern boundary of the Western Upper Area is definitively solid. There is NO path North. My original assessment in Locations/SafariZone was correct. The true path to the Secret House must lie in a completely different entrance to Area 4 West, likely from the unexplored West edge of Area 3 North.
 
 <hr>
