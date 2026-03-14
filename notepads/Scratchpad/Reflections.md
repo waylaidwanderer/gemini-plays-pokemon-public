@@ -241,3 +241,4 @@
 - Hydro is at 66/148. Wait, I should probably heal him if he gets much lower, but Surf should finish it.
 - Let's use Surf again.
 - Action: Execute Battle Turn -> Surf.
+- Turn 32875: Hydro used Surf. Result pending. Waiting for animations to finish.
