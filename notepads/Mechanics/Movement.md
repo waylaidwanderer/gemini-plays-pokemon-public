@@ -7,3 +7,4 @@
 - Bumping: To face a solid object (like a Cut bush), simply press the direction towards it. You will bump it and end up facing it.
 - [Gen 1 Ledge Mechanics] Ledges can face South OR East/West! Turn 33137 PROVED that an East-facing ledge (TYPE_44f6) at (23, 28) in Fuchsia City CAN be jumped by walking Right into it. Previous assumption that only South-facing ledges work is false.
 - HM FIELD MOVES: You MUST face the target tile (e.g., Cut bush, Water) BEFORE opening the Start Menu. The game checks your facing direction at the exact moment you select the move in the menu. Being adjacent is not enough.
+- [Cycling Road] Route 17 has an automatic downward slope that forces the player South. Use long sequences of Up presses to overcome the gravity when traveling North.
