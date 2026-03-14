@@ -1122,5 +1122,14 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Okay, let me try moving Down to (8, 15) again, properly.
 - In Turn 32884, I used `move_sequence: D` from (9, 15).
 - Let's use `press_buttons: ['Down']` to go to (8, 15).
+- Turn 32891: Pressed Down from (8, 14) and arrived at (8, 15).
+- OKAY. My mental model is restored.
+- Let's map from (8, 15).
+  - Left (7, 15): Gym Guide.
+  - Up (8, 14): OPEN (I came from here).
+  - Down (8, 16): Untested.
+  - Right (9, 15): Untested.
+- I will test moving Right to (9, 15).
+- Action: `move_sequence: R` (to safely handle turn-in-place).
 
 <hr>
