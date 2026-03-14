@@ -6,6 +6,6 @@
 - Error Analysis & Hypothesis Review: Tactical retreat strategy worked flawlessly.
 
 [Current Status]
-- Turn 33142: At (24, 14). Bumped into a building roof at (24, 15). The X=24 corridor doesn't go straight through; it shifts West.
-- Path to (24, 28): Left to (22, 14), Down to (22, 17), Right to (24, 17), then Down to (24, 28).
-- Will re-evaluate the path East to the Warden's house from (24, 28).
+- Turn 33143: At (23, 21). The path South is blocked by a tree at (23, 22). The path East is blocked by a building at (25, 21).
+- I need to head North to the open path at Y=17, then walk East across the top of the city to see if I can find a way South on the far East side.
+- Path: Up 4 to (23, 17), Right 5 to (28, 17).
