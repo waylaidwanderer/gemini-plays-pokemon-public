@@ -232,3 +232,8 @@
 - Hypno is Psychic type. Surf is my best neutral STAB move.
 - I will use Surf.
 - Turn 32871: Hydro used Surf. Result pending. Waiting for animations to finish.
+- Turn 32872: Hydro used Surf. Hypno's HP went down to ~20%.
+- It didn't attack me? Or maybe it did and I missed the text because I mashed B too fast. My HP is 66/148, which means I took damage. Yes, in Turn 32869 I had 105 HP.
+- Wait, I used `execute_battle_turn` which safely presses `Up, Left, A` then `A`.
+- So I just selected Surf again.
+- Let's mash B to clear the rest of the text and finish the turn.
