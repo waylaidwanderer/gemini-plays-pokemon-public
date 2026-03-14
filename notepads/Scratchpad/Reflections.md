@@ -2,3 +2,11 @@
 - Location: Fuchsia Gym.
 - Goal: Defeat Koga.
 - Status: Navigating invisible walls carefully, one step at a time.
+- Turn 32853: At (5, 16). The path Down to (5, 17) is OPEN (I just walked it). The path Left to (4, 16) is blocked by a dashed line wall. The path Up to (5, 15) is open? No, let's test it. Wait, I am currently AT (5, 16) from my previous movement.
+- Let's map carefully.
+  - (4, 17): Entrance Mat
+  - (5, 17): Entrance Mat
+  - (4, 16): Wall (dashed line visible on Turn 32836 screen)
+  - (5, 16): Currently here.
+- I will test moving Right to (6, 16).
+- Action: Press `Right`.
