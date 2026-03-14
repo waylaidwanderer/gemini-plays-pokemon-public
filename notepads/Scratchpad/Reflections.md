@@ -2,12 +2,12 @@
 - Location: Fuchsia Gym.
 - Goal: Defeat Koga.
 - Mechanic: Dashed lines (TYPE_3fe2) are the OPEN FLOOR. Blank tiles are INVISIBLE WALLS.
-- Current Position: (1, 17).
-- Safe Path discovered so far: (4, 17) -> (5, 17) -> (5, 16) -> (5, 15) -> (4, 15) -> (4, 14) -> (5, 14) -> (5, 13) -> (4, 13) -> (3, 13) -> (2, 13) -> (1, 13) -> (0, 13) -> (0, 14) -> (0, 15) -> (0, 16) -> (0, 17) -> (1, 17).
-- Turn 32930: Arrived at (1, 17).
-- Options from (1, 17):
-  - Left: (0, 17) [OPEN, came from here]
-  - Up: (1, 16) [Untested]
-  - Right: (2, 17) [Untested]
+- Current Position: (2, 17).
+- Safe Path discovered so far: (4, 17) -> (5, 17) -> (5, 16) -> (5, 15) -> (4, 15) -> (4, 14) -> (5, 14) -> (5, 13) -> (4, 13) -> (3, 13) -> (2, 13) -> (1, 13) -> (0, 13) -> (0, 14) -> (0, 15) -> (0, 16) -> (0, 17) -> (1, 17) -> (2, 17).
+- Turn 32931: Arrived at (2, 17).
+- Options from (2, 17):
+  - Left: (1, 17) [OPEN, came from here]
+  - Up: (2, 16) [Untested]
+  - Right: (3, 17) [Untested]
   - Down: Map Boundary
-- Testing Right to (2, 17) next.
+- Testing Right to (3, 17) next.
