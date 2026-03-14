@@ -6,7 +6,6 @@
 - Error Analysis & Hypothesis Review: Tactical retreat strategy worked flawlessly.
 
 [Current Status]
-- Turn 33140: At (24, 17). 
-- The X=24 corridor is blocked from going East to the Warden's House at Y=28 (fences), Y=26-27 (building), and Y=19 (building).
-- To reach the Warden's House, I need to access the far East side of the city.
-- Strategy: Walk Left to (22, 17), North to (22, 14), then East across the top path to X > 29, and look for a path South.
+- Turn 33142: At (24, 14). Bumped into a building roof at (24, 15). The X=24 corridor doesn't go straight through; it shifts West.
+- Path to (24, 28): Left to (22, 14), Down to (22, 17), Right to (24, 17), then Down to (24, 28).
+- Will re-evaluate the path East to the Warden's house from (24, 28).

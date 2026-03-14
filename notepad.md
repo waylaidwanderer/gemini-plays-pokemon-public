@@ -1027,8 +1027,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Error Analysis & Hypothesis Review: Tactical retreat strategy worked flawlessly.
 
 [Current Status]
-- Turn 33141: At (29, 14). The East side of the city top is blocked by fences.
-- I realized I was at (24, 28) when I jumped the ledge, but I only looked East from Y=27 (which is blocked by fences). The Warden's door should be accessible from Y=28!
-- Returning to (24, 28) to test walking East to (27, 28).
+- Turn 33142: At (24, 14). Bumped into a building roof at (24, 15). The X=24 corridor doesn't go straight through; it shifts West.
+- Path to (24, 28): Left to (22, 14), Down to (22, 17), Right to (24, 17), then Down to (24, 28).
+- Will re-evaluate the path East to the Warden's house from (24, 28).
 
 <hr>
