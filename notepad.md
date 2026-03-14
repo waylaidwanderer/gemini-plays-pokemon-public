@@ -1033,5 +1033,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 11. The tool pressed Up in the overworld because the Start menu was closed. I walked away from the boulder. Walking back to (6, 4) and facing right.
 12. I'm facing the boulder at (7, 4) again. Let's use Strength properly this time.
 13. Ah, the `use_hm_field` tool only works ONCE YOU ARE IN THE PARTY MENU. I called it from the overworld, so it just made me walk into a wall. I need to press Start first.
+14. Using `use_hm_field`. The Start Menu cursor is on POKEDEX, so the tool won't work perfectly unless I account for it, or I just manually do it. I'll manually press Down, A to enter Party Menu, then call the tool.
 
 <hr>
