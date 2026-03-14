@@ -20,3 +20,4 @@
 19. Oh! "A new BADGE is required." to use Strength! I forgot that Gen 1 requires the SoulBadge from Koga to use Strength outside of battle. I need to go defeat Koga first.
 20. Plan: Exit Warden's house, head left to the Pokemon Center to heal, then challenge Koga at the Fuchsia Gym.
 21. Exited the Warden's House. I am at (27, 28). There is a fence at (25, 28) blocking Westward movement, and a fence at Y=29 blocking Southward movement. I will walk East to X=31 to find a path around the fences.
+22. I need to find Koga's Gym. It's somewhere in Fuchsia City, probably in the southern half. I'll head south and west from here (31, 28) to explore.
