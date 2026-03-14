@@ -1023,15 +1023,16 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Location: Fuchsia Gym.
 - Goal: Defeat Koga.
 - Mechanic: Dashed lines (TYPE_3fe2) are the OPEN FLOOR. Blank tiles are INVISIBLE WALLS.
-- Current Position: (3, 16).
-- Safe Path discovered so far: (4, 17) -> (5, 17) -> (5, 16) -> (5, 15) -> (4, 15) -> (4, 14) -> (5, 14) -> (5, 13) -> (4, 13) -> (3, 13) -> (2, 13) -> (1, 13) -> (0, 13) -> (0, 14) -> (0, 15) -> (0, 16) -> (0, 17) -> (1, 17) -> (2, 17) -> (3, 17) -> (3, 16).
-- Turn 32933: Arrived at (3, 16).
-- Options from (3, 16):
-  - Down: (3, 17) [OPEN, came from here]
-  - Left: (2, 16) [Untested]
-  - Up: (3, 15) [WALL (visually a solid bush)]
-  - Right: (4, 16) [Untested]
-- (3, 15) is a solid bush (TYPE_2889).
-- I will test Right to (4, 16) to see if it connects back to the start. If so, I'll know this entire bottom section is just a loop, and the real path must branch off somewhere else (maybe Left to 2, 16).
+- Current Position: (4, 16).
+- Safe Path discovered so far: (4, 17) -> (5, 17) -> (5, 16) -> (5, 15) -> (4, 15) -> (4, 14) -> (5, 14) -> (5, 13) -> (4, 13) -> (3, 13) -> (2, 13) -> (1, 13) -> (0, 13) -> (0, 14) -> (0, 15) -> (0, 16) -> (0, 17) -> (1, 17) -> (2, 17) -> (3, 17) -> (3, 16) -> (4, 16).
+- Turn 32934: Arrived at (4, 16).
+- Options from (4, 16):
+  - Left: (3, 16) [OPEN, came from here]
+  - Up: (4, 15) [OPEN, part of the main path from the start!]
+  - Right: (5, 16) [OPEN, part of the main path from the start!]
+  - Down: (4, 17) [GYM ENTRANCE PATH]
+- CONCLUSION: The entire path from (4, 15) -> (4, 14) -> (5, 14) -> (5, 13) -> (4, 13) -> (3, 13) -> (2, 13) -> (1, 13) -> (0, 13) -> (0, 14) -> (0, 15) -> (0, 16) -> (0, 17) -> (1, 17) -> (2, 17) -> (3, 17) -> (3, 16) -> (4, 16) is a GIANT DEAD END LOOP! It just connects back to the start!
+- I must backtrack all the way to (2, 13) and try going Up to (2, 12) or something... wait, (2, 12) was a solid bush.
+- Let me review my options from (2, 13) and (3, 13) to see if I missed any paths.
 
 <hr>
