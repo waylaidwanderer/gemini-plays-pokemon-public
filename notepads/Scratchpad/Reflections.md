@@ -1,12 +1,12 @@
 [50-Turn Reflection]
-- Immediate Execution: Successfully defeated Koga! Escaped the gym and arrived at the Pokemon Center to cure Hydro's poison. Next step: Heal, then go to Warden's House (27, 27) to use Strength on the boulder.
-- Notepad Hygiene: Cleared out the Fuchsia Gym optimal path since Koga is defeated.
-- Custom Tools: `move_sequence` proved incredibly valuable for backtracking through the gym puzzle without errors.
-- Goal Clarity: Goals are clear. After Warden's house, need to figure out how to get to Saffron City / deal with Team Rocket.
-- Error Analysis & Hypothesis Review: Tactical retreat strategy worked flawlessly.
+- Immediate Execution: Exiting Fuchsia City to retrieve the Rainbow Badge from Celadon Gym.
+- Notepad Hygiene: Corrected my movement mechanics note. I forgot the harness auto-turns for me.
+- Custom Tools: use_hm_field is ready.
+- Goal Clarity: Celadon Gym (Rainbow Badge) -> Warden's House (Strength).
+- Error Analysis & Hypothesis Review: My sequence failures were caused by manually adding "turn" inputs when the harness already does it. A direction press always equals one step.
 
 [Current Status]
-- Turn 33169: I am at (19, 20) with the Start menu open.
-- The GameState coordinates were definitely confusing me earlier. I will trust the visual grid.
-- Adjusting position: Close menu (B), turn Left (L), step Left to (18, 20) (L), turn Up (U), open menu (S).
-- Sequence: `B-L-L-U-S`.
+- Turn 33171: At (18, 20) facing Up at the Cut bush. Start menu is open.
+- Due to cursor memory, the cursor is on EXIT.
+- Navigating to POKéMON: Down 2 times (wraps to top), press A.
+- Once in Party Menu, I will use Audrey (index 3) to CUT.

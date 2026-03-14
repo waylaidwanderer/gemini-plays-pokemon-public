@@ -1026,6 +1026,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Error Analysis & Hypothesis Review: My sequence failures were caused by manually adding "turn" inputs when the harness already does it. A direction press always equals one step.
 
 [Current Status]
-- Turn 33170: At (17, 20). Moving to (18, 20) and facing Up to cut the bush.
+- Turn 33171: At (18, 20) facing Up at the Cut bush. Start menu is open.
+- Due to cursor memory, the cursor is on EXIT.
+- Navigating to POKéMON: Down 2 times (wraps to top), press A.
+- Once in Party Menu, I will use Audrey (index 3) to CUT.
 
 <hr>
