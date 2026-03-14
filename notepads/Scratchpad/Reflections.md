@@ -13,4 +13,5 @@
 - THE TRAINER AT (8, 13) BLOCKS THE PATH!
 - So the real path must go THROUGH the trainer at (8, 13).
 - I need to step Right to engage the trainer at (8, 13)!
-- Turn 32960: Engaged Juggler at (8, 13).
+- Next Step: Defeat trainer at (8, 13).
+- Turn 32961: Engaged Juggler at (8, 13). Using Surf.
