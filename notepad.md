@@ -1064,7 +1064,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 3. Walk North and go UP the stairs at (20, 21) onto the South Dirt Plateau.
 4. Walk West across the plateau to X=12.
 5. Go DOWN the stairs at (12, 21) into the central grass.
-6. Walk North to the stairs at (12, 7) and step UP to (12, 6) onto the Dirt Bridge.
+6. Walk West to X=9, North along the grass, then East to the stairs at (12, 7) and step UP to (12, 6) onto the Dirt Bridge.
 7. Walk East along Y=6 to (17, 6), then step DOWN stairs at (17, 7).
 8. Walk East to X=21, then North to reach the upper grass plateau (Y=3).
 9. Navigate West around the sign to the Area 3 North exit at (0, 4).
