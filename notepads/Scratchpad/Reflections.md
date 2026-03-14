@@ -1,17 +1,12 @@
-[Fuchsia Gym Status]
-- Location: Fuchsia Gym.
-- Goal: Defeat Koga.
-- Mechanic: Dashed lines (TYPE_3fe2) are the OPEN FLOOR. Blank tiles are INVISIBLE WALLS.
-- Safe Path: (4, 17) -> (5, 17) -> (5, 16) -> (6, 16) -> (7, 16) -> (8, 16) -> (9, 16) -> (9, 15) -> (9, 14) -> (9, 13) -> (9, 12) -> (9, 11) -> (9, 10) -> (9, 9) -> (8, 9) -> (8, 8) -> (8, 7) -> (8, 6) -> (8, 5) -> (9, 5) -> (9, 2) -> (9, 1) -> (4, 1) -> (1, 1) -> (1, 3) -> (2, 3) -> (2, 5) -> (1, 5) -> (1, 7).
-- Turn 33059: Ash is at (1, 7).
-- Stepping to (1, 7) triggered the Juggler at (2, 7) who was facing Left.
-- After this battle, path continues: Down to (1, 9), Right to (4, 9) where Koga is at (4, 10).
+[Fuchsia Gym Optimal Path to Koga]
+- Entrance to Right Wall: (4, 17) -> (5, 17) -> (5, 16) -> (9, 16).
+- Up the Right Wall: (9, 16) -> straight up X=9 -> (9, 1).
+- Across the Top: (9, 1) -> straight left Y=1 -> (1, 1).
+- Down the Left Wall (threading trainers):
+  - (1, 1) -> (1, 3) -> (2, 3) -> (2, 5) -> (1, 5) -> (1, 9) -> (4, 9).
+  - Koga is at (4, 10).
 [50-Turn Reflection]
-- Immediate Execution: The path to Koga is nearly complete. After this Juggler, I just need to move Down to (1, 9) then Right to (4, 9).
-- Notepad Hygiene: My routing notes for the Fuchsia Gym invisible walls have been highly effective. Step-by-step verification is preventing the hallucinations that usually plague my maze navigation.
-- Custom Tools: The battle tools and movement macros are functioning perfectly. Sticking to small chunks for movement was key here.
-- Goal Clarity: Defeat Koga. Unchanged and executing smoothly.
-[Retreat Plan]
-- Hydro and Dugtrio are at critical HP. No healing items in bag.
-- Retreating to Pokemon Center before Koga!
-- Reverse Path: (1, 7) -> (1, 5) -> (2, 5) -> (2, 3) -> (1, 3) -> (1, 1) -> (4, 1) -> (9, 1) -> (9, 5) -> (8, 5) -> (8, 9) -> (9, 9) -> (9, 16) -> (5, 16) -> (5, 17) -> (4, 17) -> Exit.
+- Immediate Execution: Retreating to Pokemon Center.
+- Notepad Hygiene: Replaced my step-by-step path with a consolidated Optimal Path now that I've mapped the entire outer ring.
+- Custom Tools: Using move_sequence to quickly exit.
+- Goal Clarity: Heal and return to Koga.
