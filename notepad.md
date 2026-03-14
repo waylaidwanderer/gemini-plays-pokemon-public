@@ -1027,7 +1027,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Error Analysis & Hypothesis Review: Tactical retreat strategy worked flawlessly.
 
 [Current Status]
-- Turn 33125: Outside Fuchsia Pokemon Center (19, 28). Heading to Warden's House at (27, 27).
-- Note: Vertical ledges cannot be jumped in Gen 1. The ledge at X=23 blocks direct Eastward movement. I will head South to Y=32 to see if I can go around it.
+- Turn 33126: At (19, 33). The ledge at X=23 is solid. I need to find a way to the East side of Fuchsia City to reach the Warden's House at (27, 27).
+- Exploring South to see if the ledge ends or if there's a way around it.
 
 <hr>
