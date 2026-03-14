@@ -1,4 +1,4 @@
-[Turn 32494] 50-Turn Reflection:
-- Immediate Execution: Currently navigating through Area 2 East to Area 3 North for another Safari Zone run. Goal: explore the West side of Area 3 North (North of Y=23) to find the true entrance to the functional part of Area 4 West.
-- Strategy Validation: After verifying that the West side of Area 1 Center has no gap, my hypothesis that Area 4 West has a second entrance from Area 3 North remains the most plausible path to the Secret House.
-- Area 1 Center / Area 4 West transition Y-shift (+12) rule permanently logged in Main.
+[Turn 32545] 50-Turn Reflection:
+- Immediate Execution: Exploring the Northern boundary of Area 3 North (above Y=9) to find a path West. Discovered a massive tree wall at Y=4 blocking Northward movement from X=17 to X=27.
+- Strategy Validation: Found a gap in the tree wall at X=28 leading North through tall grass. I will take this path to reach the top edge of the map (Y=0..3) and attempt to cross West.
+- Error Analysis: I incorrectly assumed the path at Y=5 was clear all the way East, but bumped into the roots of a large tree at (20, 5). Stepping down to Y=6 resolved the collision. Must be careful of multi-tile obstacles.
