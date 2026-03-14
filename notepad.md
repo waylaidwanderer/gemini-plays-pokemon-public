@@ -1116,6 +1116,7 @@ CONCLUSION: The South Grass is a completely sealed ONE-WAY LEDGE TRAP. Jumping d
 - [Turn 32207] Tested X=24 wall at Y=4 and Y=5. Both are solid TYPE_2889 bushes. Continuing South.
 - [Turn 32210] Completed X=24 wall bump test from Y=0 down to Y=13. It is completely solid. The wall shifts to X=23 at Y=14. East Grass is definitively separated from the West side here. Walking further South to find how to access the Dirt Trench stairs at (21, 17).
 - [Turn 32212] Final Verification of East Grass: The tree wall shifts from X=24 to X=23 at Y=14, and ends completely at Y=17. At Y=18, the path West is open. Walking Down to Y=18 and Left to X=21 grants access to the Dirt Trench stairs at (21, 17). The East Grass is solely a corridor to the Dirt Trench.
+- [Turn 32214] Exploring Northern extension of the Dirt Trench (gap at X=15/16). Hypothesis: This path leads to TM45 and a dead end at Y=5, but must verify physically. If dead end, the true path to the Secret House MUST be via an unexplored Far-West exit in Area 3 North (West of X=8).
 
 <hr>
 
