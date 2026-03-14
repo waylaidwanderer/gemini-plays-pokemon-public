@@ -1034,5 +1034,6 @@ Turn 31109: Walked South along the West boundary. X=0 remains a solid wall of bu
 Turn 31112: Walked South to (1, 22). I am now passing WEST of the Rest House at (5, 24). This is a completely new strip of land! Continuing South.
 Turn 31116: Reached the bottom of the West path at (3, 31). This connects directly to the gap at X=6,7 (Y=32) that I found earlier. The entire West side of Area 3 North is a giant dead-end loop! There is NO alternate exit to Area 4 West here. I am right next to the known exit at (8, 35). I spot building roofs at Y=34 (X=0..1 and X=4..7). Investigating these buildings now.
 Turn 31117: I see two buildings at the bottom left of Area 3 North! One is at X=0,1 (Y=34) and the other at X=4..7 (Y=34). The right one seems to be the gate house I used to enter Area 4 West previously (at 8, 35). I will investigate the left building. The door appears to be at (0, 35). Walking there now.
+Turn 31118: Wait! Looking closely at the building structures at Y=34. The exit I used previously is the path at (8, 35). But there is ANOTHER path at (0, 35) going West, under the left building! This might be the alternate entrance to Area 4 West that leads to the Secret House! Testing it now.
 
 <hr>
