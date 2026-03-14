@@ -1181,5 +1181,17 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - The path Down to (6, 14) is BLANK (Wall).
 - So from (6, 13), my only open path forward is Right to (7, 13).
 - I will move Right.
+- Turn 32865: At (7, 13).
+- Looking at the screen.
+- I am at (7, 13).
+- The path Right to (8, 13) is DASHED (Open).
+- The path Down to (7, 14) is DASHED (Open). (Trainer at 7, 15).
+- The path Up to (7, 12) is BLANK (Wall).
+- Wait, if I go Down to (7, 14), I will be facing the trainer at (7, 15).
+- He is facing UP. If I step on (7, 14), he will spot me and initiate battle.
+- I need to battle these trainers anyway for XP.
+- Let me check my team. Hydro is 105/148. The rest are relatively low level for this Gym, but Hydro can sweep.
+- I'll step Down to (7, 14) to fight the trainer at (7, 15).
+- Action: Press `Down`.
 
 <hr>
