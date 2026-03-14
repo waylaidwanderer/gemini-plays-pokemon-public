@@ -338,3 +338,72 @@
 - If I move to (7, 15), then the Gym Guide is NOT solid, which would be an insane romhack feature.
 - Let's press `Up` using `move_sequence: UUUU`.
 - If I bump 4 times, Up is solid.
+- Turn 32840: `move_sequence: UUUU`. Result: "You pressed 4 movement buttons, but visited 0 tiles."
+- Okay. Down, Up, Left, Right are ALL blocked.
+- I am at (7, 16).
+- If I am 100% blocked in all 4 directions, and there are no warps, no spin tiles, no ledges, and no NPCs that can push me, then there is only ONE logical explanation left in the Pokemon Gen 1 engine.
+- I am NOT at (7, 16).
+- "Player Position: (7, 16)" is read from RAM.
+- If my RAM position is (7, 16), but I am blocked in all 4 directions...
+- Could my position be fractional? No.
+- Wait. What if I am NOT trapped? What if the Gym Guide at (7, 15) is the ONLY path forward, and I haven't actually tried to walk THROUGH him?
+- I pressed `Up` 4 times. I bumped 4 times. I didn't walk through him.
+- What if there is a gap I am missing?
+- Let's look at the "bumped" logic again.
+- Is it possible that the warning "You pressed X movement buttons, but visited Y tiles" is appearing, but I AM moving?
+- If my position in the Game State changes, I moved.
+- Turn 32833: Position (7, 16). Pressed L L L.
+- Turn 32834: Position (7, 16). Pressed R R.
+- Turn 32838: Position (7, 16). Pressed D D D D.
+- Turn 32839: Position (7, 16). Pressed U U U U.
+- Turn 32840: Position (7, 16).
+- I HAVE NOT MOVED.
+- This is the definition of a soft-lock. But the rules explicitly say: "NO SOFT-LOCKS: It is IMPOSSIBLE to be truly stuck."
+- If it is impossible to be stuck, my premise that "I am blocked in all 4 directions" must be false.
+- Let's re-test the premise.
+- Did I test Left correctly? `Left`, `Left`, `Left`.
+  - Turn 1: Face Left.
+  - Turn 2: Step Left. Bump.
+  - Turn 3: Step Left. Bump.
+  - Result: 0 tiles visited.
+- Did I test Right correctly? `Right`, `Right`.
+  - Turn 1: Face Right.
+  - Turn 2: Step Right. Bump.
+  - Result: 0 tiles visited.
+- Did I test Down correctly? `Down`, `Down`, `Down`, `Down`.
+  - Turn 1: Face Down.
+  - Turn 2: Step Down. Bump.
+  - Turn 3: Step Down. Bump.
+  - Turn 4: Step Down. Bump.
+  - Result: 0 tiles visited.
+- Did I test Up correctly? `Up`, `Up`, `Up`, `Up`.
+  - Turn 1: Face Up.
+  - Turn 2: Step Up. Bump (Gym Guide).
+  - Turn 3: Step Up. Bump.
+  - Turn 4: Step Up. Bump.
+  - Result: 0 tiles visited.
+- If all 4 premises are true, and the rule "NO SOFT-LOCKS" is true, we have a contradiction.
+- Where is the flaw?
+- "Wait. What if my coordinate tracker is literally just telling me the truth: I moved from (6, 17) to (7, 16) because of a glitch?"
+- If I glitch-stepped into a solid wall, I WOULD be soft-locked.
+- But the system says "NO SOFT-LOCKS".
+- Therefore, I am NOT in a solid wall.
+- Is there a 5th direction? No.
+- Is there a way to jump? No.
+- Is there a way to fly? You can't Fly indoors.
+- Is there an item? No Escape Rope.
+- Dig? Cleo doesn't have Dig. Dugtrio has Dig!
+- I can use Dig to escape!
+- If I use Dig, I will warp back to the Pokemon Center.
+- Let me check my party. Dugtrio (Index 2) has DIG.
+- If I use Dig, I can reset my position and try entering the Gym again.
+- Before I do that, I want to try ONE MORE THING.
+- What if `move_sequence` is broken? What if it's failing to execute the steps properly?
+- Let's use `press_buttons` to press `['Right', 'Right']`.
+- Wait, I did that in Turn 32834. Result: 0 tiles.
+- Let's use `press_buttons` to press `['Left', 'Left']`.
+- I did that in Turn 32829. Result: 0 tiles.
+- The inputs are registering. The collisions are real.
+- Let me use Dig. This will prove if I am truly stuck or if there's some bizarre mechanic I'm missing.
+- If Dig works, I will be out.
+- Let's open the Start menu and use Dig.
