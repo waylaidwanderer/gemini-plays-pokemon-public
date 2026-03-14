@@ -6,6 +6,6 @@
 - Error Analysis & Hypothesis Review: Tactical retreat strategy worked flawlessly.
 
 [Current Status]
-- Turn 33160: Start menu is open, but I am at (20, 19) instead of (19, 19).
-- Adjusting position: Closing Start menu, stepping Left to (19, 19), facing Left, and reopening the Party Menu.
-- After this, I will use Cut (Audrey) on the bush at (18, 19) and head South to the Pokemon Center.
+- Turn 33161: Start menu is open at (20, 19). Cursor is on POKeMON.
+- I tried to close the menu and move left, but the sequence `B-LL-S-A` failed to move me. This confirms my note: "Turning vs Stepping: If you change direction from a standstill, your character will "turn in place" first." I need to explicitly account for turning.
+- New Plan: Since the Start menu is ALREADY open, I will just close it with B, then manually move Left to (19, 19), and face Down. I will do this step-by-step.
