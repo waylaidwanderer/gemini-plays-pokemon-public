@@ -2,14 +2,12 @@
 - Location: Fuchsia Gym.
 - Goal: Defeat Koga.
 - Mechanic: Dashed lines (TYPE_3fe2) are the OPEN FLOOR. Blank tiles are INVISIBLE WALLS.
-- Current Position: (2, 13).
-- Safe Path discovered so far: (4, 17) -> (5, 17) -> (5, 16) -> (5, 15) -> (4, 15) -> (4, 14) -> (5, 14) -> (5, 13) -> (4, 13) -> (3, 13) -> (2, 13).
-- Turn 32907: Arrived at (2, 13).
-- Options from (2, 13):
-  - Right: (3, 13) [OPEN, came from here]
-  - Left: (1, 13) [Untested]
-  - Up: (2, 12) [WALL (visually a solid bush)]
-  - Down: (2, 14) [Untested]
-- (2, 12) is a solid bush (TYPE_2889).
-- I will test Left to (1, 13). If blocked, I will test Down to (2, 14).
-- Turn 32907: Stepping Left to (1, 13).
+- Current Position: (1, 13) [IN BATTLE]
+- Safe Path discovered so far: (4, 17) -> (5, 17) -> (5, 16) -> (5, 15) -> (4, 15) -> (4, 14) -> (5, 14) -> (5, 13) -> (4, 13) -> (3, 13) -> (2, 13) -> (1, 13).
+- Turn 32907: Stepped Left to (1, 13) and was spotted by a Juggler at (1, 12).
+- Options from (1, 13) post-battle:
+  - Right: (2, 13) [OPEN, came from here]
+  - Left: (0, 13) [Untested]
+  - Up: (1, 12) [TRAINER]
+  - Down: (1, 14) [Untested]
+- I will battle this Juggler.
