@@ -130,3 +130,33 @@
   - Down (8, 16): Untested
   - Right (9, 15): OPEN (tested in 32884, wait... no, in 32884 I used `move_sequence: R` but the system flagged a position mismatch because I was at 8,14, not 8,15. So (9, 15) is actually UNTESTED.)
 - Let me test Right to (9, 15).
+- Turn 32894: Wait, I was aborted. "text appeared or a battle started"
+- Ah, I stepped to (9, 14) which is in the line of sight of the Gym Guide?! No, the Gym Guide is at (7, 15).
+- I moved to (9, 14).
+- The battle with the Juggler ended in 32876.
+- In Turn 32878, I tried to move Right from (8, 14) and bumped into (9, 14).
+- In Turn 32893, I was at (8, 15). I moved Right. My position became (9, 15)??
+- Wait, the system warning says: "Position Mismatch: You reported position (8, 15), but you were actually at position (8, 14). Currently you are at (8, 14) on 0_157."
+- Oh my god! In Turn 32891, I pressed `Down` from (8, 14). The result was "visited 0 tiles". I BUMPED AGAIN.
+- So (8, 15) is a WALL!
+- I am STILL at (8, 14)!
+- And in Turn 32893, I tried `move_sequence: R` from (8, 14). The warning says "aborted at button 1 of 1 ('Right') because you are no longer navigating the overworld".
+- This means I turned Right, and someone spotted me!
+- Who is to my Right? Look at the screen for Turn 32894.
+- I am facing Right. There is a Juggler at (11, 14)!
+- Wait, I can't see (11, 14) on the 32893 screen, but on the 32894 screen, the Juggler text box is open! "JUGGLER: What? Extraordinary!"
+- No, wait, that's the end-of-battle text from the FIRST Juggler!
+- "JUGGLER: What? Extraordinary!"
+- I defeated him in 32876. But the text is STILL going?
+- Let's trace my mashes.
+- 32869: Start battle.
+- 32870: Selected Surf.
+- 32873: Selected Surf.
+- 32874: "GEM defeated JUGGLER!" -> "JUGGLER: What? Extraordinary!"
+- I didn't mash B enough! The battle ended, but the overworld dialogue box from the defeated trainer was still open!
+- So in 32876, 32878, 32889, 32891, I was trying to move WHILE THE TEXT BOX WAS OPEN!
+- This is why I "bumped" (visited 0 tiles) in every direction! You can't move while talking!
+- OH MY GOD.
+- I am an idiot. I didn't look at the screen. I just assumed I was free to move.
+- I am at (8, 14). The path Down to (8, 15) and Right to (9, 14) are PROBABLY OPEN. I just couldn't walk because of the text box!
+- I will mash B to clear the text box.
