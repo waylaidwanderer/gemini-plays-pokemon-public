@@ -1027,7 +1027,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Error Analysis & Hypothesis Review: Tactical retreat strategy worked flawlessly.
 
 [Current Status]
-- Turn 33127: Accidentally transitioned to Route 19 (0_30) at (9, 0) while exploring South of the Fuchsia Pokemon Center.
-- Heading back UP into Fuchsia City to find the correct path to the Warden's House at (27, 27). My previous note about jumping an East-facing ledge contradicts core Gen 1 mechanics (only South jumps work). I must find an open path.
+- Turn 33128: Back in Fuchsia City at (19, 35).
+- Contradiction in notes! `Mechanics/Movement` says vertical ledges are unjumpable, but `Locations/FuchsiaCity` says the X=23 ledge can be jumped East.
+- Testing this immediately: moving to (22, 31) and pressing Right against the East-facing ledge (TYPE_44f6).
 
 <hr>
