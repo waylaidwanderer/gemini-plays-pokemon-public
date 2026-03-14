@@ -3,3 +3,4 @@ Hypothesis: My previous conclusion in Locations/SafariZone that the Western Uppe
 Methodology: I will walk the entire perimeter of the Y=13 boundary in the Western Upper Area and physically bump into every tile (water and bushes) to definitively prove whether a hidden gap North exists or not.
 - [Turn 31983] Reached (2, 14). The tiles immediately North at Y=13 are water (TYPE_4e8c) from X=2 onwards. I will now systematically bump UP into every tile from X=2 heading East to verify they are all solid and no hidden walkable bridges exist.
 - [Turn 31984] Bump-tested (2, 13), (3, 13), and (4, 13). All are solid water tiles. Continuing East to X=9.
+- [Turn 31985] Bump-tested water at X=5 through X=9. All are solid. Proceeding to bump-test the Rest House boundary (X=10 to X=13) and the East tree wall (X=14).
