@@ -133,3 +133,34 @@
   - Let's re-test EVERY direction, one by one, using single button presses, and carefully checking the warnings.
   - Let's test Right. I am at (7, 16) and facing Left (from my last test). If I press Right ONCE, I will turn Right. "visited 0 tiles." If I press Right AGAIN, I will step Right.
   - I will press Right TWICE.
+- Turn 32834: Tested Right 2 times. No movement.
+- Left, Right, Down are blocked. Up is the Gym Guide.
+- OK, I have hit a wall in my understanding of the physics of this map. Let's look at the actual visual data very carefully.
+- Wait. I am looking at the screen for Turn 32834. The tiles around me have NO lines on them.
+- Look at (4, 16). Look at (5, 16). They have DASHED LINES on them.
+- Look at (7, 16) where I am standing. It has NO DASHED LINES.
+- The tiles WITH dashed lines are the invisible walls!
+- The tiles WITHOUT dashed lines are the open floor!
+- Oh my god! The dashed lines are TYPE_3fe2!
+- Wait, the system overlay says TYPE_3fe2 is on (3, 16), (4, 16), (5, 16), (6, 16)... AND (7, 16)!
+- Wait, the system overlay is putting the TYPE label on the tile. But visually, underneath the text label, I can see a dashed pattern on (4, 16) and (5, 16).
+- On (7, 16), my sprite covers the tile. But what about (7, 17)? It has a dashed line.
+- Look at (8, 16). Dashed line.
+- Look at (6, 16). Dashed line.
+- Look at (7, 14) above the Gym Guide. NO DASHED LINE.
+- What if TYPE_3fe2 just means "floor tile" and the walls are a specific arrangement?
+- Let's go back to how I entered (7, 16). In Turn 32816, I was at (6, 17) and pressed Right, and arrived at (7, 16).
+- If I am at (6, 17), the tile to my Right is (7, 17).
+- Look at the screen. (7, 17) has a dashed line.
+- Is it possible that the gap is a zig-zag and the game's collision resolution pushed me?
+- In Gen 1, if you walk into an NPC, you don't slide. If you walk into a wall, you don't slide.
+- THE ONLY WAY to "visit 2 tiles" with one directional press is if I was pushed by a forced movement tile, OR if the input macro executed multiple inputs.
+- I checked my logic: `press_buttons` ONLY executes the buttons in the list. `['Right']` is one button.
+- I am missing something completely fundamental.
+- Let me think outside the box. Is there a teleport pad? No.
+- Let's look at the screen again. The red rectangle at (4, 17) and (5, 17) is the exit mat.
+- I am at (7, 16).
+- If I am trapped, and I can't move, and I didn't use an Escape Rope... what do I do?
+- I have the custom tool `move_sequence`. What if I use `move_sequence` to spam random directions? No, that's blind.
+- Let's try pressing `Up`. Yes, the Gym Guide is there. But what if the Gym Guide is NOT solid? NPCs are solid.
+- Let's talk to the Gym Guide again. Maybe talking to him from below triggers him to move? I just pressed Left and Down a bunch. Let's press Up.
