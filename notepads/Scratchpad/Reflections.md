@@ -62,3 +62,42 @@
   - Left: (6, 14) [WALL]
   - Down: (7, 15) [Gym Guide]
 - So to continue mapping, I must go Up to (7, 13).
+- Turn 32888: At (7, 13).
+- I moved Up successfully.
+- Let's map from (7, 13):
+  - Down: (7, 14) [OPEN, came from here]
+  - Left: (6, 13) [OPEN]
+  - Right: (8, 13) [TRAINER]
+  - Up: (7, 12) [Untested]
+- I need to test Up to (7, 12). If that's blocked, my only path is Left to (6, 13), which I've been to before.
+- Wait, I was at (6, 13) in Turn 32864, and I moved Right to (7, 13)!
+- If I go Left to (6, 13), I am backtracking.
+- Let's test Up to (7, 12).
+- Turn 32890: Moved Up from (8, 14).
+- I bumped into the trainer at (8, 13).
+- Wait. I am at (8, 14). The trainer is at (8, 13).
+- The system warning says: "Position Mismatch: You reported position (8, 15), but you were actually at position (8, 14)."
+- Wait, that was the warning from Turn 32880.
+- For Turn 32889, there is NO position mismatch warning!
+- And NO "visited 0 tiles" warning!
+- But wait, my position is (8, 14).
+- Let me check the intermediate states for Turn 32889.
+  - State 0: Overworld. I am at (8, 14). I press `Up`.
+  - My sprite turns Up.
+- Oh, right. `move_sequence: U` only pressed `Up` ONCE.
+- Because I was facing Down (from testing Down earlier), pressing `Up` once only turned me Up. It didn't take a step.
+- The rule is: "1st directional press turns the character in place. 2nd consecutive press in the same direction moves the character."
+- BUT `move_sequence` automatically handles this if `autopress_buttons` is true!
+- Wait, `move_sequence` executes Python code: `return [direction]` if it's one step.
+- Ah! If `move_sequence` returns `['Up']`, the harness only presses `Up` once!
+- The harness "automatically handles turning in place before walking" FOR `press_buttons` IF you use the explicit directional buttons? No, the system prompt says:
+  - "The game harness automatically handles turning in place before walking... This applies for both manual movement and when using `autopress_buttons` in a custom tool."
+- If the harness automatically handles it, why did I only turn?
+- Maybe because I bumped into the trainer at (8, 13)?
+- Yes, if I am at (8, 14) and the trainer is at (8, 13), I cannot walk onto (8, 13). I will bump into him.
+- But there was no "bumped" warning!
+- Why? Because I didn't bump. The harness saw I was facing Down, pressed Up to turn me. Then it pressed Up again to step, and I bumped into the trainer? No, the harness would have emitted a bump warning.
+- Let's look at the Game State: "Player Position: (8, 14)".
+- Okay, let me try moving Down to (8, 15) again, properly.
+- In Turn 32884, I used `move_sequence: D` from (9, 15).
+- Let's use `press_buttons: ['Down']` to go to (8, 15).
