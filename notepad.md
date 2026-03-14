@@ -1052,5 +1052,17 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - I will move Left to (5, 17) to reset my position to the entrance mat so I can heal and re-orient myself, or I can just keep mapping.
 - Let's walk Left to (5, 17), then Left to (4, 17).
 - Action: Press `Left`.
+- Turn 32857: Moved Left to (5, 17). I am back on the entrance mat.
+- Okay, let's map the path from the entrance.
+- Starting at (5, 17).
+  - Left: (4, 17) - Entrance mat.
+  - Right: (6, 17) - OPEN (I came from here).
+  - Down: Exit to Fuchsia City.
+  - Up: (5, 16) - OPEN.
+- I know from previous tests that from (5, 16):
+  - Left: (4, 16) - BLOCKED.
+  - Right: (6, 16) - OPEN.
+  - Up: (5, 15) - Untested since resetting my mental map.
+- Let me test Up from (5, 17) to verify I am at (5, 16) again.
 
 <hr>
