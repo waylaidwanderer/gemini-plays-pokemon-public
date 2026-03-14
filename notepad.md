@@ -1049,5 +1049,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 27. Reached Y=20. Now walking West to cross over to the Pokemon Center side of Fuchsia City.
 28. Walking West along Y=20 to X=1 to bypass the animal enclosures.
 29. Continuing West along Y=20 towards X=1.
+30. Now at (8, 20). Continuing West.
 
 <hr>
