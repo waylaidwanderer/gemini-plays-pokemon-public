@@ -1039,5 +1039,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 17. The cursor is on Audrey (index 3). I'll press Down, Down, A to select Cleo (index 5), then select Strength manually.
 18. Cursor is on Strength. Pressing A to use it!
 19. Oh! "A new BADGE is required." to use Strength! I forgot that Gen 1 requires the SoulBadge from Koga to use Strength outside of battle. I need to go defeat Koga first.
+20. Plan: Exit Warden's house, head left to the Pokemon Center to heal, then challenge Koga at the Fuchsia Gym.
 
 <hr>
