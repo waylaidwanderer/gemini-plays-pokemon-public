@@ -1020,5 +1020,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 * Area 2 East is a TRAP and a ONE-WAY LOOP from Area 3 North! Do not go there!
 * Note: Gold Teeth are likely also in this West Grass area. Search for Item Balls.
 * WARNING: Optimize steps! I ran out of 500 steps exactly on the Secret House entrance tile. No wasted movement next time!
+[Area 1 Center Layout]
+- East side of the lake (X=22..29, Y=10) is a DEAD END for going North. It is blocked by a tree wall at Y=9. It only leads to Area 2 East at (29, 10).
+- Must navigate North via the WEST side of the lake to reach Area 3 North.
 
 <hr>
