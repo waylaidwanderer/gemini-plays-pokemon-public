@@ -1030,6 +1030,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Error Analysis & Hypothesis Review: I suffered from severe confirmation bias regarding building interiors. I must strictly rely on `<CurrentScreen>` details (Nurse Joy, PC presence) rather than exterior assumptions.
 
 [Current Status]
-- Turn 33221: In the PC Withdraw Item menu. Cursor is at index 1 (MAX ETHER). The BICYCLE is at index 13. Using custom tool to withdraw it!
+- Turn 33237: I am in the Item menu, and the cursor is currently on CANCEL. BICYCLE is exactly one slot above it. I will press Up to select it, then A to use it!
 
 <hr>
