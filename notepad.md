@@ -1024,5 +1024,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Next Steps: Exploring the building at (27, 27). Navigating around the mailbox at (25, 28) by dipping South to Y=30.
 - Found another building at (27, 27) with a sign at (27, 29). Currently at (27, 30). I will read the sign to see if this is the Warden's House.
 - The sign at (27, 29) says 'FISHING GURU'S OLDER BROTHER'. So this building is definitely not the Warden's House. I need to keep looking elsewhere in the city.
+- Looked further right on the screen. There is ANOTHER door at (31, 27) on this same row of buildings! I will head there now.
 
 <hr>
