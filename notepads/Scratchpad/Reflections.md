@@ -56,3 +56,5 @@ Now exiting the house at (11, 27).
 46. Back outside at (11, 28). Looking at the screen, I can see a building to the West with "YM" written on it! That must be the Gym! Walking West to enter it.
 47. Successfully found the Gym! It's the building at (5, 27) with the statues. Walking North to enter Koga's Gym. I'm ready for the Poison-type trainers.
 48. Entered Fuchsia Gym (0_157). The gimmick here is invisible walls. I'm at (4, 17). I will proceed carefully, testing for walls one step at a time. I'll move Right to (5, 17) first.
+49. I am at (5, 17). Moving Right to (6, 17) to test for invisible walls.
+50. Walked Right to (6, 17) successfully. I can see a trainer at (7, 15). I will walk Right again to (7, 17), then North to (7, 16) to engage him, assuming there are no walls in the way.
