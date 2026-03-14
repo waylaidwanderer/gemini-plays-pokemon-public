@@ -1087,5 +1087,13 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - [Turn 31826] Reached (12, 7). Going North is blocked at Y=4 by a solid bush wall. Going West is blocked at X=11 by a solid bush wall.
 - The only way forward is East along Y=6 and Y=7.
 - [Turn 31828] At (17, 7). Just north of a Rest House (roof at Y=11). This path heads East towards the center/main area of Area 3 North! I might just be looping back.
+[CRITICAL ROUTE UPDATE: Y=22 DIRT PLATEAU BRIDGE]
+- The dirt plateau at Y=22..26 IS a bridge! It bridges over the solid bush wall at X=17 (which blocks the lower Y=28 path).
+- To go West from the East entrance (39, 30):
+1. Walk West along the lower grass to X=22.
+2. Walk North to (22, 23) and go UP the stairs onto the dirt plateau.
+3. Walk West on the dirt plateau to X=16.
+4. Walk South to (16, 27) and go DOWN the stairs to (16, 28).
+5. You are now West of the X=17 wall! Walk West to X=8, then South to Y=35 to exit to Area 4 West.
 
 <hr>
