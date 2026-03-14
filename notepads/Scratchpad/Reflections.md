@@ -6,6 +6,6 @@
 - Error Analysis & Hypothesis Review: Tactical retreat strategy worked flawlessly.
 
 [Current Status]
-- Turn 33148: Inside the Warden's House (0_155) at (7, 4), facing the boulder at (8, 4).
-- Strategy: Open Start Menu, navigate to POKeMON, select Cleo, use STRENGTH.
-- Then push the boulder Right to (9, 4), and walk to (8, 3) to grab the item.
+- Turn 33149: Start menu is open. Cursor is on POKeDEX.
+- Strategy: Press Down, A to enter Party Menu. Then visually verify the cursor position before using the `use_hm_field` tool to select Cleo (index 5) for STRENGTH.
+- Once STRENGTH is active, push the boulder at (8, 4) to the Right, then collect the item at (8, 3).
