@@ -1050,5 +1050,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 28. Walking West along Y=20 to X=1 to bypass the animal enclosures.
 29. Continuing West along Y=20 towards X=1.
 30. Now at (8, 20). Continuing West.
+31. At (4, 20). Walking West to X=1, then I'll head South to explore the Southwest part of Fuchsia City for Koga's Gym.
 
 <hr>
