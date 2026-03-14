@@ -1023,13 +1023,16 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Location: Fuchsia Gym.
 - Goal: Defeat Koga.
 - Mechanic: Dashed lines (TYPE_3fe2) are the OPEN FLOOR. Blank tiles are INVISIBLE WALLS.
-- Current Position: (0, 13).
-- Safe Path discovered so far: (4, 17) -> (5, 17) -> (5, 16) -> (5, 15) -> (4, 15) -> (4, 14) -> (5, 14) -> (5, 13) -> (4, 13) -> (3, 13) -> (2, 13) -> (1, 13) -> (0, 13).
-- Turn 32924: Arrived at (0, 13). Left is the map boundary.
-- Options from (0, 13):
-  - Right: (1, 13) [OPEN, came from here]
-  - Up: (0, 12) [Untested]
-  - Down: (0, 14) [Untested]
-- Testing Up to (0, 12) next.
+- Current Position: (0, 12).
+- Safe Path discovered so far: (4, 17) -> (5, 17) -> (5, 16) -> (5, 15) -> (4, 15) -> (4, 14) -> (5, 14) -> (5, 13) -> (4, 13) -> (3, 13) -> (2, 13) -> (1, 13) -> (0, 13) -> (0, 12).
+- Turn 32925: Arrived at (0, 12).
+- Options from (0, 12):
+  - Down: (0, 13) [OPEN, came from here]
+  - Left: Wall
+  - Right: (1, 12) [TRAINER]
+  - Up: (0, 11) [WALL - Solid Bush]
+- (0, 12) is a DEAD END.
+- I need to backtrack Down to (0, 13) and test Down to (0, 14).
+- Using `move_sequence: DD` to step Down to (0, 13) and then Down to (0, 14).
 
 <hr>
