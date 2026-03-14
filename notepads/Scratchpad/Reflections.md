@@ -69,3 +69,46 @@
 - I am at (5, 16).
 - Up: (5, 15).
 - Let's test Up.
+- Turn 32859: Pressed Up. Moved to (5, 15).
+- My hypothesis was right! The dashed lines are TYPE_3fe2 (open floor). The blank tiles are the invisible walls!
+- Oh my god! This changes everything! I can SEE the maze!
+- Let me map the open tiles (dashed lines) from the screen at (5, 15).
+  - Open: (5, 15), (5, 16), (5, 17) [Entrance]
+  - Open: (4, 16), (6, 16), (7, 16)
+  - Open: (7, 17), (8, 17), (9, 17)
+  - Open: (8, 16), (9, 16)
+  - Open: (7, 15), (8, 15), (9, 15)
+  - Open: (7, 14), (8, 14), (9, 14)
+  - Open: (7, 13), (8, 13), (9, 13)
+- Wait, let me look at the screen carefully.
+- The blank tiles (invisible walls) are:
+  - X=4 is a wall from Y=12 to Y=15.
+  - X=5 is a wall from Y=12 to Y=14.
+  - X=6 is a wall from Y=12 to Y=15.
+- So there is a massive block of walls in the center.
+- The path must go around the outside.
+- If I am at (5, 15), I can see:
+  - Left: (4, 15) is a wall.
+  - Right: (6, 15) is a wall (trainer is here, but wait, (6, 15) has a dashed line? No, (6, 15) is under the Gym Guide text box. But looking at Turn 32858, (6, 15) has NO dashed line. Wait, the trainer is at (7, 15)! Oh, the trainer is SPRITE_0066 at (7, 15). Wait, no, (7, 15) has NO dashed line in Turn 32858.
+- Let me trace the DASHED lines (the safe path).
+  - (4, 17) & (5, 17) [Entrance]
+  - (5, 16)
+  - (6, 16) -> (7, 16) -> (8, 16) -> (9, 16)
+  - Path goes East along Y=16!
+  - Wait, in Turn 32832, I was at (7, 16) and pressed Right, Right and bumped!
+  - But (8, 16) HAS DASHED LINES!
+  - If (8, 16) has dashed lines and I bumped, then dashed lines ARE the walls, and blank tiles are open?!
+  - Let's re-evaluate.
+  - In Turn 32858, I was at (5, 16). The tile has dashed lines. I pressed Up. I MOVED to (5, 15).
+  - (5, 15) in Turn 32858 has NO dashed lines.
+  - SO DASHED LINES = FLOOR. BLANK = WALL.
+  - But wait, if (5, 15) has NO dashed lines, and I moved there, then BLANK = FLOOR, DASHED = WALL?
+  - Let me look at the screen for Turn 32859.
+  - I am at (5, 15). My sprite covers the tile.
+  - Look at the tile below me, (5, 16). It has DASHED LINES.
+  - If I came from (5, 16) to (5, 15), then BOTH are open.
+  - One has dashed lines, one doesn't.
+  - WHAT IS GOING ON.
+- Let's stop guessing visually and just map it empirically. I have the power of trial and error without macros.
+- Current Position: (5, 15).
+- Let's test Left to (4, 15).
