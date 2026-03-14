@@ -1036,5 +1036,6 @@ Turn 31116: Reached the bottom of the West path at (3, 31). This connects direct
 Turn 31117: I see two buildings at the bottom left of Area 3 North! One is at X=0,1 (Y=34) and the other at X=4..7 (Y=34). The right one seems to be the gate house I used to enter Area 4 West previously (at 8, 35). I will investigate the left building. The door appears to be at (0, 35). Walking there now.
 Turn 31118: Wait! Looking closely at the building structures at Y=34. The exit I used previously is the path at (8, 35). But there is ANOTHER path at (0, 35) going West, under the left building! This might be the alternate entrance to Area 4 West that leads to the Secret House! Testing it now.
 Turn 31123: I am at (3, 35) in Area 3 North. This is the southern boundary! The known exit to Area 4 West is just east of here at (8, 35). I hypothesize that walking DOWN from (2, 35) or (3, 35) will transition me to a DIFFERENT entrance in Area 4 West, possibly the inaccessible Northwest section where the Secret House is! Testing this now.
+Turn 31123: Confirmed the left building is inaccessible background decoration. The entire West boundary of Area 3 North from Y=0 to Y=35 is solid. There is NO alternate entrance to Area 4 West from here. The path to the Secret House MUST be inside Area 4 West via the known entrances. Proceeding to Area 4 West via (8, 35).
 
 <hr>
