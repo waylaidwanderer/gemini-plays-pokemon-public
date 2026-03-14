@@ -1037,5 +1037,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 15. I'm in the Party Menu! Now I can call `use_hm_field` with `current_index: 1`, `target_index: 5` (Cleo).
 16. CRITICAL ERROR: I hallucinated `current_index: 1`. I forgot to visually verify the cursor position before calling the tool. The cursor was actually at index 4 (Pebbles), so going Up twice selected index 3 (Audrey) and tried to use Cut! The cursor is now at index 3. I will manually navigate to Cleo (index 5) and use Strength.
 17. The cursor is on Audrey (index 3). I'll press Down, Down, A to select Cleo (index 5), then select Strength manually.
+18. Cursor is on Strength. Pressing A to use it!
 
 <hr>
