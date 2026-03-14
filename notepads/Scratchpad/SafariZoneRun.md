@@ -14,3 +14,4 @@
 [Turn 31286] Currently at (21, 12) in Area 2 East. Navigating North to Y=8, then will head West towards the exit at (0, 4).
 [Turn 31289] Potential Hallucination: At (21, 12), the transition to (21, 11) looks like a ledge, but (21, 11) is TYPE_3fe2 (regular walkable grass). Dirt-to-grass transitions are often NOT solid. I will test walking North from (21, 12) to confirm if it's actually blocked before giving up on this path.
 [Turn 31323] Area 2 East Routing: Discovered a solid wall of bushes at Y=6 from X=0 to X=8. It is IMPOSSIBLE to walk straight North from the Dirt Trench along the West edge to reach the (0, 4) exit. The path must be further East, possibly via the stairs at (12, 7).
+[Turn 31326] Taking stairs up at (12, 7) to reach the northern part of the plateau.
