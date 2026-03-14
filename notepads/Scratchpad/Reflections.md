@@ -6,6 +6,6 @@
 - Error Analysis & Hypothesis Review: Tactical retreat strategy worked flawlessly.
 
 [Current Status]
-- Turn 33144: At (28, 17). I realized the X=24 corridor DOES go straight down to (24, 28). I previously jumped the ledge to (24, 28), walked North to (24, 27), saw fences, and assumed the whole path East was blocked. 
-- The Warden's door is at (27, 27), so the sidewalk at Y=28 should be completely clear to walk East!
-- Strategy: Walk Left to (24, 17), then straight Down the corridor to (24, 28). Then walk East to (27, 28) and enter the Warden's House.
+- Turn 33146: At (30, 30). Found the gap in the fences at X=30.
+- Executing path to Warden's House door at (27, 27): Up to (30, 28), Left to (27, 28), Up to enter.
+- Once inside, locate the boulder, use Strength (Cleo), and retrieve the item.
