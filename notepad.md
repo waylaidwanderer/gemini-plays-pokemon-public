@@ -1099,5 +1099,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [Turn 31982] RE-TESTING WESTERN UPPER AREA BOUNDARY (Y=13)
 Hypothesis: My previous conclusion in Locations/SafariZone that the Western Upper Area is a definitive dead end might be flawed. I suspect I may have relied on visual patterns (water/bushes) rather than exhaustive physical bump-testing of every single tile along Y=13, similar to my recent oversight in Area 1 Center.
 Methodology: I will walk the entire perimeter of the Y=13 boundary in the Western Upper Area and physically bump into every tile (water and bushes) to definitively prove whether a hidden gap North exists or not.
+- [Turn 31983] Reached (2, 14). The tiles immediately North at Y=13 are water (TYPE_4e8c) from X=2 onwards. I will now systematically bump UP into every tile from X=2 heading East to verify they are all solid and no hidden walkable bridges exist.
 
 <hr>
