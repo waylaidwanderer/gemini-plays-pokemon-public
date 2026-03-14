@@ -1071,6 +1071,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - [Turn 31821] The lake ZIGZAGS!
   - Y=14 to Y=19: Lake is at X=4..7. (Grass corridor is X=8..13).
   - Y=10 to Y=13: Lake is at X=8..11. (Grass corridor is X=12..13).
-- Currently navigating North up the East grass corridor around the zigzag lake.
+- [Turn 31826] Reached (12, 7). Going North is blocked at Y=4 by a solid bush wall. Going West is blocked at X=11 by a solid bush wall.
+- The only way forward is East along Y=6 and Y=7. Testing if this loops back to the main area.
 
 <hr>
