@@ -26,3 +26,4 @@ Turn 31123: Confirmed the left building is inaccessible background decoration. T
 Turn 31126: Spawned at (21, 0) in Area 4 West by taking the LEFT side of the South exit from Area 3 North. This places me on the WEST side of the solid tree wall (X=22..25). Exploring this new area now!
 Turn 31130: Found an Item Ball at (9, 7) in the West Grass of Area 4 West! Walking over to collect it now.
 Turn 31131: Grabbed TM32 (Double Team) at (9, 7). Just Northwest of me at (6, 5) is a building! Since this is the deepest part of the Safari Zone and I had to find a hidden entrance to get here, this MUST be the Secret House! Heading there now.
+Turn 31133: The building is at (6, 5). I am at (6, 6), right in front of the door. Entering now!
