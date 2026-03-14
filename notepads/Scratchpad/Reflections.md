@@ -131,3 +131,14 @@
   - Down (4, 15): DASHED (Open, came from here).
   - Up (4, 13): DASHED (Open).
 - Wait, let me test Right to (5, 14).
+- Turn 32862: At (5, 14).
+- Look at the screen. The trainer is at (4, 10). I am at (5, 14).
+- The dashed lines are the open path.
+- From (5, 14):
+  - Left (4, 14): DASHED (Open, I came from here).
+  - Down (5, 15): DASHED (Open).
+  - Up (5, 13): DASHED (Open).
+  - Right (6, 14): BLANK (Wall).
+- Wait, I was at (4, 14) and pressed Right, and now I am at (5, 14).
+- I will move Up to (5, 13).
+- Action: Press `Up`.
