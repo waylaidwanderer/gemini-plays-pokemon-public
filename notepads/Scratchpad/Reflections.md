@@ -17,3 +17,4 @@
 16. CRITICAL ERROR: I hallucinated `current_index: 1`. I forgot to visually verify the cursor position before calling the tool. The cursor was actually at index 4 (Pebbles), so going Up twice selected index 3 (Audrey) and tried to use Cut! The cursor is now at index 3. I will manually navigate to Cleo (index 5) and use Strength.
 17. The cursor is on Audrey (index 3). I'll press Down, Down, A to select Cleo (index 5), then select Strength manually.
 18. Cursor is on Strength. Pressing A to use it!
+19. Oh! "A new BADGE is required." to use Strength! I forgot that Gen 1 requires the SoulBadge from Koga to use Strength outside of battle. I need to go defeat Koga first.
