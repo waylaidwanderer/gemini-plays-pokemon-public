@@ -6,6 +6,7 @@
 - Error Analysis & Hypothesis Review: Tactical retreat strategy worked flawlessly.
 
 [Current Status]
-- Turn 33149: Start menu is open. Cursor is on POKeDEX.
-- Strategy: Press Down, A to enter Party Menu. Then visually verify the cursor position before using the `use_hm_field` tool to select Cleo (index 5) for STRENGTH.
-- Once STRENGTH is active, push the boulder at (8, 4) to the Right, then collect the item at (8, 3).
+- Turn 33152: MAJOR REALIZATION! Attempted to use STRENGTH with Cleo on the boulder. The game said: "No! A new BADGE is required."
+- Checking my Badges: Cascade, Soul, Boulder, Thunder. I am MISSING the Rainbow Badge from Erika in Celadon City!
+- Koga's SoulBadge enables SURF. Erika's Rainbow Badge enables STRENGTH. I completely skipped the Celadon City Gym!
+- New Plan: Exit Fuchsia City, Fly/Walk to Celadon City, and defeat Gym Leader Erika to get the Rainbow Badge so I can use STRENGTH.
