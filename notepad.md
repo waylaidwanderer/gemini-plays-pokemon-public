@@ -1056,5 +1056,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 34. The vertical ledge at X=2 blocked my Eastward movement. I need to go South to Y=32 to clear it, then head East to find the Gym.
 35. I am at (7, 32). The Gym is straight East of here. I can see the building at (16, 28) on my map, and the PokeMart is above it. No wait, the Gym is the building at (11, 27). Let's walk East to X=11, then North to enter.
 36. Oops, I bumped into the trees at X=10. My own notes say the path North is at X=8! I will move Left to X=8, then North through the gap to Y=28, and then East to X=11 to find the Gym.
+37. Entered the building at (11, 27). This doesn't look like a Gym (no statues). It looks like a regular house. I will talk to the NPCs here to see what this building is, then keep looking for the Gym.
 
 <hr>
