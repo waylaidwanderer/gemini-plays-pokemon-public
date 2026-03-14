@@ -1052,5 +1052,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 30. Now at (8, 20). Continuing West.
 31. At (4, 20). Walking West to X=1, then I'll head South to explore the Southwest part of Fuchsia City for Koga's Gym.
 32. I am at (1, 20). Now walking South down the West edge of the city to reach the southern half where the Gym and Pokemon Center are located.
+33. Still heading South. I am at (1, 26). I'll walk South to Y=30, then East to X=4.
 
 <hr>
