@@ -1023,17 +1023,13 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Location: Fuchsia Gym.
 - Goal: Defeat Koga.
 - Mechanic: Dashed lines (TYPE_3fe2) are the OPEN FLOOR. Blank tiles are INVISIBLE WALLS.
-- Safe Path: (4, 17) -> (5, 17) -> (5, 16) -> (5, 15) -> (4, 15).
-- Turn 32954: Arrived at (5, 15). Wait, my position is (6, 16)!
-- I executed `RDRURRU` from (2, 16).
-  - (2, 16) Right -> (3, 16)
-  - (3, 16) Down -> (3, 17)
-  - (3, 17) Right -> (4, 17)
-  - (4, 17) Up -> (4, 16)
-  - (4, 16) Right -> (5, 16)
-  - (5, 16) Right -> (6, 16)
-  - (6, 16) Up -> (6, 15) [BUMPED!]
-- The path from (5, 16) Right is (6, 16), which is open. Up from (6, 16) is blocked by a solid bush at (6, 15).
-- I need to step Left to (5, 16), then Up to (5, 15).
+- Safe Path: (4, 17) -> (5, 17) -> (5, 16) -> (5, 15).
+- Turn 32955: Arrived at (5, 15).
+- Options from (5, 15):
+  - Down: (5, 16) [OPEN, came from here]
+  - Left: (4, 15) [DEAD END LOOP - DO NOT ENTER]
+  - Right: (6, 15) [WALL (solid bush)]
+  - Up: (5, 14) [Untested]
+- I will test Up to (5, 14).
 
 <hr>
