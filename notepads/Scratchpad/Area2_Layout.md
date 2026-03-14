@@ -15,6 +15,6 @@
 4. Walk West across the plateau to X=12.
 5. Go DOWN the stairs at (12, 21) into the central grass.
 6. Walk West to X=9, North along the grass, then East to the stairs at (12, 7) and step UP to (12, 6) onto the Dirt Bridge.
-7. Walk East along Y=6 to (17, 6), then step DOWN stairs at (17, 7).
+7. Walk East along Y=6 to (17, 6), then step DOWN stairs at (17, 7) and step DOWN again to (17, 8).
 8. Walk East to X=21, then North to reach the upper grass plateau (Y=3).
 9. Navigate West around the sign to the Area 3 North exit at (0, 4).
