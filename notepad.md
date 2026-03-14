@@ -389,6 +389,7 @@ Route 3: Spearow, Pidgey
 - 2nd consecutive press in the same direction moves the character to the next tile.
 - Custom tools MUST include a short sleep (e.g., 'sleep 150') between these presses to ensure the emulator registers them as distinct inputs, otherwise the character will just spin in place forever without triggering encounters.
 - [Gen 1 Ledge Mechanics] Jumpable ledges are EXCLUSIVELY South-facing (horizontal lines). The engine only supports jumping Down (South). Any vertical ledge (facing East or West) is a 100% solid wall and can NEVER be jumped. Treat all vertical ledges as hard boundaries.
+- HM FIELD MOVES: You MUST face the target tile (e.g., Cut bush, Water) BEFORE opening the Start Menu. The game checks your facing direction at the exact moment you select the move in the menu. Being adjacent is not enough.
 
 <hr>
 
