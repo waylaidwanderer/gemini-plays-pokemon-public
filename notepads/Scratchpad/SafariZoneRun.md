@@ -15,3 +15,4 @@
 [Turn 31253] Entering Area 2 East via (29, 22). Next target: Area 3 North via Northwest Exit at (0, 4) in Area 2 East.
 [Turn 31272] Position (16, 24). Moving to climb the East Plateau stairs at (20, 21) to head North towards Area 3.
 [Turn 31278] Path North at X=18..20 blocked by ledges/trees. The correct path North is at X=21/X=22. Moving East to X=21 then North.
+[Turn 31286] Currently at (21, 12) in Area 2 East. Navigating North to Y=8, then will head West towards the exit at (0, 4).
