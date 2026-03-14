@@ -16,3 +16,4 @@ Turn 31090: Walked East to (21, 6) following the bottom edge of the large tree w
 Turn 31094: The solid tree wall at Y=4 ends at X=27. From X=28 Eastwards, the path opens up to the North! Heading North now from (29, 6).
 Turn 31105: Reached the extreme Northwest corner of Area 3 North at (1, 2). The West boundary at X=0 is a solid wall of bushes from Y=0 down to at least Y=6. Walking South along X=1 to check for any gaps or exits.
 Turn 31109: Walked South along the West boundary. X=0 remains a solid wall of bushes down to at least Y=18. To my East (X=4) is water. Continuing South along X=1, X=2, or X=3.
+Turn 31112: Walked South to (1, 22). I am now passing WEST of the Rest House at (5, 24). This is a completely new strip of land! Continuing South.
