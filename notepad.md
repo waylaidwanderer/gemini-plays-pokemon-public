@@ -997,7 +997,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 3. You MUST walk South to the plateau stairs at (21, 17) to enter the DIRT TRENCH.
 4. Walk West in the Dirt Trench to the gap at X=16.
 5. TURN NORTH at X=16. The dirt path extends North to (16, 7), bypassing the Western Upper Area's water barrier!
-6. At (16, 7), turn West. This path leads to the Secret House and Warden's Gold Teeth.
+6. At (16, 7), turn West. HYPOTHESIS: This unexplored path leads to the Secret House and Warden's Gold Teeth. Must verify empirically.
 
 [KNOWN TRAPS & DEAD ENDS]
 - Area 4 West Trap Ledges: Jumping ledges at (14, 17) or (24, 17) traps you in the southern path, forcing an exit to Area 1 Center.
