@@ -52,3 +52,8 @@
 - DIRT TRENCH NORTH: The dirt trench (TYPE_2770) extends North to Y=6. The green grass at Y=5 is separated by a ledge, preventing Northward movement.
 - TOOL DESIGN NOTE: A custom tool for using HM field moves cannot reliably start from the Overworld because the Start Menu retains cursor memory (it doesn't reset to POKéMON). Therefore, `use_hm_field` MUST start from the Party Menu where the `current_index` can be visually verified by the player.
 Turn 31145: Out of money for Safari Zone! Heading to PokeMart at (5, 13) to sell TM32. First, I need to Cut the bush at (22, 7) to return to the main city paths.
+[Reflection Turn 31195]
+- Execution: I reached the Safari Zone Secret House but ran out of steps *exactly* on the door tile. I've restocked money and am heading back.
+- Hygiene: Map markers and Notepads are up to date. The Safari Zone notes have the exact route mapped.
+- Error Analysis: Graphical glitches! If you reload a map near a Cut bush you previously cut, it may render as an uncuttable "stump" (solid wall) but lack the SPRITE data for the Cut interaction. You MUST enter/exit a building far enough away to properly reload the bush sprite to cut it again.
+- Tools: Considered a `navigate_safari_zone` deterministic routing tool to avoid ledge-jump errors and save time, but I will try manual chunked execution first.
