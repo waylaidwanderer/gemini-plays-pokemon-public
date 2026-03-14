@@ -12,3 +12,12 @@
 - Action: Press `Right`.
 - Turn 32854: At (6, 16). The path Right to (7, 16) is open (I was just there and got confused). I will test moving Up to (6, 15).
 - Action: Press `Up`.
+- Turn 32855: Bumped moving Up from (6, 16). So (6, 15) is a wall.
+- Current Position: (6, 16).
+- Let's map from (6, 16):
+  - Up: (6, 15) - BLOCKED.
+  - Down: (6, 17) - Let's test this.
+  - Left: (5, 16) - OPEN (I came from here).
+  - Right: (7, 16) - OPEN (I was trapped here before).
+- I will test moving Down to (6, 17).
+- Action: Press `Down`.
