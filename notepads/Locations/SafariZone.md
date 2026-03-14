@@ -16,10 +16,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 3. AREA 3 NORTH TO AREA 4 WEST: From entrance (39,30), walk West to X=30. North to Y=29. West to X=22. North to climb stairs at (22, 23). Up to (22, 22), West to X=16, South to descend stairs at (16, 27). Down to Y=28, West to X=12, Down to Y=33. West to X=8. Walk South through the gap at (8, 34) to exit at (8, 35) into Area 4 West.
 
 [AREA 4 WEST MECHANICS & TOPOGRAPHY]
-- EAST GRASS (Level 1): The East Grass (entrance area) is completely blocked from moving West by a solid tree wall at X=24/25. You MUST go South to the plateau stairs at (21, 17) to enter the Dirt Trench.
-- DIRT TRENCH (Level 0) TRAP: The Dirt Trench connects the East and West halves, extending West to X=5. HOWEVER, the entire northern boundary of the Dirt Trench (Y=15) is a solid ledge from X=16 to X=5! (Proven by systematic bump-test on Turn 29198). You CANNOT walk North into the West Grass from the Dirt Trench.
+- EAST TO WEST PATH: The East Grass is NOT completely blocked. There is a path West at Y=4! From the entrance, you can walk West along Y=4, crossing X=24/X=25, which allows access to the Northwest section of the map.
+- DIRT TRENCH (Level 0) TRAP: The Dirt Trench connects the East and West halves, extending West to X=5. HOWEVER, the entire northern boundary of the Dirt Trench (Y=15) is a solid ledge from X=16 to X=5! You CANNOT walk North into the West Grass from the Dirt Trench.
 - TRAP ESCAPE: The entire southern half of Area 4 West (Dirt Trench and South Grass) is a ONE-WAY TRAP. If you fall in, you are soft-locked from reaching the Secret House. You must walk until your steps run out or exit via the Area 1 Center West Pocket.
-- THE TRUE PATH: Since the West cannot be accessed from the North (blocked by trees at X=24/25) or the South (blocked by ledges at Y=15), there MUST be a hidden path or mechanic I have completely overlooked near the entrance at (26, 0). I must re-examine the entrance area with fresh eyes.
 - REST HOUSE 3: Located in the West Grass at (11, 11). Gives tips on Bait and Safari Zone. THIS IS NOT THE SECRET HOUSE!
 - SECRET HOUSE: Exact location unknown. Keep searching the West Grass.
 - GOLD TEETH: Exact location unknown. Keep searching the West Grass.
