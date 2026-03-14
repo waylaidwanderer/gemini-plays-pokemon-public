@@ -1315,5 +1315,12 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   - Down (8, 15): Untested.
 - I will move Down to (8, 15).
 - Action: Press `Down`.
+- Turn 32880: Down from (8, 14) worked! I am at (8, 15).
+- Let me map from (8, 15).
+  - Left (7, 15): Gym Guide.
+  - Up (8, 14): OPEN (I came from here).
+  - Right (9, 15): Untested.
+  - Down (8, 16): Untested.
+- I will move Right to (9, 15).
 
 <hr>
