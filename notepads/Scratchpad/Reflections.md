@@ -2,12 +2,14 @@
 - Location: Fuchsia Gym.
 - Goal: Defeat Koga.
 - Mechanic: Dashed lines (TYPE_3fe2) are the OPEN FLOOR. Blank tiles are INVISIBLE WALLS.
-- Current Position: (2, 16).
-- Safe Path discovered so far: (4, 17) -> (5, 17) -> (5, 16) -> (5, 15) -> (4, 15) -> (4, 14) -> (5, 14) -> (5, 13) -> (4, 13) -> (3, 13) -> (2, 13) -> (1, 13) -> (0, 13) -> (0, 14) -> (0, 15) -> (0, 16) -> (0, 17) -> (1, 17) -> (2, 17) -> (3, 17) -> (3, 16) -> (2, 16).
-- Turn 32936: Arrived at (2, 16). THIS WAS THE BRANCHING PATH!
-- Options from (2, 16):
-  - Right: (3, 16) [OPEN, came from here]
-  - Up: (2, 15) [Untested]
-  - Left: (1, 16) [Untested]
-  - Down: (2, 17) [Loop path]
-- I will test Up to (2, 15) next. This heads toward the center of the gym!
+- Current Position: (2, 15).
+- Safe Path discovered so far: (4, 17) -> (5, 17) -> (5, 16) -> (5, 15) -> (4, 15) -> (4, 14) -> (5, 14) -> (5, 13) -> (4, 13) -> (3, 13) -> (2, 13) -> (1, 13) -> (0, 13) -> (0, 14) -> (0, 15) -> (0, 16) -> (0, 17) -> (1, 17) -> (2, 17) -> (3, 17) -> (3, 16) -> (2, 16) -> (2, 15).
+- Turn 32937: Arrived at (2, 15).
+- Options from (2, 15):
+  - Down: (2, 16) [OPEN, came from here]
+  - Left: (1, 15) [Untested]
+  - Up: (2, 14) [TRAINER]
+  - Right: (3, 15) [WALL (visually a solid bush)]
+- The trainer at (2, 14) blocks Up. Right is a solid bush.
+- The ONLY untested path is Left to (1, 15).
+- I will test Left to (1, 15).
