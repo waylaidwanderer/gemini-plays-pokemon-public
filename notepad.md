@@ -1023,16 +1023,16 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Location: Fuchsia Gym.
 - Goal: Defeat Koga.
 - Mechanic: Dashed lines (TYPE_3fe2) are the OPEN FLOOR. Blank tiles are INVISIBLE WALLS.
-- Current Position: (1, 15).
-- Safe Path discovered so far: (4, 17) -> (5, 17) -> (5, 16) -> (5, 15) -> (4, 15) -> (4, 14) -> (5, 14) -> (5, 13) -> (4, 13) -> (3, 13) -> (2, 13) -> (1, 13) -> (0, 13) -> (0, 14) -> (0, 15) -> (0, 16) -> (0, 17) -> (1, 17) -> (2, 17) -> (3, 17) -> (3, 16) -> (2, 16) -> (2, 15) -> (1, 15).
-- Turn 32938: Arrived at (1, 15).
-- Options from (1, 15):
-  - Right: (2, 15) [OPEN, came from here]
-  - Up: (1, 14) [Untested]
-  - Down: (1, 16) [Untested]
-  - Left: (0, 15) [Loop path]
-- If I go Left to (0, 15), I connect back to the outer loop.
-- So I must test Up to (1, 14) or Down to (1, 16).
-- I will test Up to (1, 14) first, as it heads toward the center.
+- Current Position: (1, 14).
+- Safe Path discovered so far: (4, 17) -> (5, 17) -> (5, 16) -> (5, 15) -> (4, 15) -> (4, 14) -> (5, 14) -> (5, 13) -> (4, 13) -> (3, 13) -> (2, 13) -> (1, 13) -> (0, 13) -> (0, 14) -> (0, 15) -> (0, 16) -> (0, 17) -> (1, 17) -> (2, 17) -> (3, 17) -> (3, 16) -> (2, 16) -> (2, 15) -> (1, 15) -> (1, 14).
+- Turn 32939: Arrived at (1, 14).
+- Options from (1, 14):
+  - Down: (1, 15) [OPEN, came from here]
+  - Left: (0, 14) [Loop path]
+  - Right: (2, 14) [TRAINER]
+  - Up: (1, 13) [DEAD END POCKET (Juggler)]
+- Since Up connects to a known dead end and Left is the loop, (1, 14) is a DEAD END.
+- I need to backtrack to (1, 15) and test Down to (1, 16).
+- Using `move_sequence: DD` to go from (1, 14) -> (1, 15) -> (1, 16).
 
 <hr>
