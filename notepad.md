@@ -1045,5 +1045,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 23. I'm at (31, 32) in the southeast corner of Fuchsia City. Walking West along Y=32 to see if I can get back to the center of town.
 24. Exploring the southeast part of Fuchsia City to find the Gym. Going West and North around the animal enclosures.
 25. At (24, 30). I am East of the one-way ledge at X=23. To get back to the Pokemon Center and the West side of town, I need to walk North to Y=20, where I can cross West to X=18, then head South again or Cut the bush. Heading North now.
+26. I still need to find Koga's Gym. It wasn't in the southeast corner. I'm going to head back to the West side of town to look for it. Walking North to Y=20 so I can cross over.
 
 <hr>
