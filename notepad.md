@@ -1110,5 +1110,49 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - If I am TRAPPED at (7, 16), there is literally only one possibility: One of my tests for walls was flawed because I only turned in place instead of stepping.
 - Let's re-test Down. I am at (7, 16). I will press Down THREE times. That guarantees I turn Down, step Down, and try to step Down again. If I don't move, (7, 17) is a wall.
 - Testing Left again, pressing it 3 times just to be absolutely sure.
+- Turn 32833: Tested Left 3 times. No movement.
+- I am STILL at (7, 16).
+- So, Right, Down, and Left are all blocked. Up is the Gym Guide.
+- This is physically impossible unless I walked THROUGH a wall to get here.
+- Let me look at the screen for Turn 32834. I am at (7, 16).
+- Look at the tiles immediately adjacent to me:
+  - (7, 15): Gym Guide (Sprite)
+  - (8, 16): Floor tile (TYPE_3fe2)
+  - (7, 17): Floor tile (TYPE_3fe2)
+  - (6, 16): Floor tile (TYPE_3fe2)
+- All the tiles around me are visually floor tiles. But they act as walls.
+- How did I get to (7, 16) in Turn 32816?
+  - I was at (6, 17).
+  - I pressed `Right`.
+  - The result was "You pressed 1 movement buttons, but visited 2 tiles." My position became (7, 16).
+  - If I was at (6, 17), and pressed Right, my next tile is (7, 17).
+  - If (7, 17) is a forced movement tile (like a spin tile in Team Rocket Hideout), it would push me. But there are no spin tiles here.
+  - What if the Gym Guide at (7, 15) pushed me? No, NPCs don't push.
+  - What if (7, 17) is NOT a floor tile, but I hallucinated my coordinates? No, the game state explicitly said I was at (6, 17), then (7, 16).
+- Let me re-read my own notes from Turn 32814:
+  - "Entered Fuchsia Gym (0_157)... I'm at (4, 17)... I'll move Right to (5, 17) first."
+  - Wait, when you enter a Gym, you step OFF the entry mat. The entry mats for Fuchsia Gym are at (4, 17) and (5, 17).
+  - When I entered, I was at (4, 17) or (5, 17). Let's say (4, 17).
+  - Turn 32814: At (4, 17). I pressed `Right`. I moved to (5, 17). Wait! "You pressed 1 movement buttons, but visited 2 tiles." (4, 17) to (5, 17) is ONE tile. Why did it say 2 tiles?
+  - Ah! When you enter a map, your initial "visited" count includes the tile you spawned on!
+  - Turn 32815: At (5, 17). I pressed `Right`. I moved to (6, 17). "visited 2 tiles" (5,17 -> 6,17).
+  - Turn 32816: At (6, 17). I pressed `Right`. My position became (7, 16). "visited 2 tiles".
+  - This means from (6, 17), pressing Right caused me to move to (7, 17), AND THEN TO (7, 16).
+  - A single directional press caused TWO steps.
+  - THIS IS ONLY POSSIBLE IF I AM SLIDING ON ICE OR SPINNING ON ARROWS. But there are none.
+  - Wait. Could I have called a `move_sequence` or a custom tool in Turn 32816 that pressed multiple buttons?
+  - Let me check my memory. In Turn 32816, I wrote: "Walked Right to (6, 17) successfully. I can see a trainer at (7, 15). I will walk Right again to (7, 17), then North to (7, 16) to engage him..."
+  - OH MY GOD. I literally said "I will walk Right again to (7, 17), then North to (7, 16)".
+  - Did I use `move_sequence` with `RU`? OR did I use `press_buttons` with `['Right', 'Up']`?
+  - If I used `press_buttons` with `['Right', 'Up']`, the system executes BOTH buttons in one turn!
+  - Let me re-read my notes: "I will now move Up to (7, 16) to engage the trainer at (7, 15)." in Turn 32817.
+  - This means in Turn 32816 I pressed `Right` AND `Up`? No, in Turn 32817 I pressed `Up`.
+  - This is confusing. Let me stop analyzing the past and focus on the present.
+  - I am at (7, 16). I cannot move Left, Right, Up, or Down.
+  - I am soft-locked? "NO SOFT-LOCKS: It is IMPOSSIBLE to be truly stuck."
+  - If it is impossible to be truly stuck, and I am at (7, 16), then one of my movement tests MUST be a false negative.
+  - Let's re-test EVERY direction, one by one, using single button presses, and carefully checking the warnings.
+  - Let's test Right. I am at (7, 16) and facing Left (from my last test). If I press Right ONCE, I will turn Right. "visited 0 tiles." If I press Right AGAIN, I will step Right.
+  - I will press Right TWICE.
 
 <hr>
