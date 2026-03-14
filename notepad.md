@@ -1469,5 +1469,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Let me just open the Start menu, go to Pokemon, select Dugtrio, and use Dig MANUALLY.
 - I will press Start.
 - Turn 32845: The menu is open. I will navigate to POKéMON, select Dugtrio, and use DIG.
+- Turn 32846: Party Menu is open. Selecting Dugtrio (Index 2).
 
 <hr>
