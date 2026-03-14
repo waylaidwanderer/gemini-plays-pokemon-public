@@ -1023,12 +1023,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Location: Fuchsia Gym.
 - Goal: Defeat Koga.
 - Mechanic: Dashed lines (TYPE_3fe2) are the OPEN FLOOR. Blank tiles are INVISIBLE WALLS.
-- Safe Path: (4, 17) -> (5, 17) -> (5, 16) -> (6, 16) -> (7, 16) -> (8, 16) -> (9, 16) -> (9, 15) -> (9, 14) -> (9, 13) -> (9, 12) -> (9, 11) -> (9, 10) -> (9, 9) -> (8, 9) -> (8, 8) -> (8, 7) -> (8, 6) -> (8, 5).
-- Turn 33054: Ash is at (8, 5).
-- There is a Juggler at (8, 4) facing Down.
-- The path Right at (9, 5) is OPEN.
-- The path Up along X=9 is OPEN all the way to Y=1.
-- Y=1 is OPEN all the way across the top, allowing access to the Left side!
-- Strategy: Move to (9, 5) then UP to (9, 2).
+- Safe Path: (4, 17) -> (5, 17) -> (5, 16) -> (6, 16) -> (7, 16) -> (8, 16) -> (9, 16) -> (9, 15) -> (9, 14) -> (9, 13) -> (9, 12) -> (9, 11) -> (9, 10) -> (9, 9) -> (8, 9) -> (8, 8) -> (8, 7) -> (8, 6) -> (8, 5) -> (9, 5) -> (9, 2).
+- Turn 33055: Ash is at (9, 2).
+- The path Left across the top of the gym at Y=1 is visually open.
+- Strategy: Move Up to (9, 1), then Left across Y=1 towards X=4.
 
 <hr>
