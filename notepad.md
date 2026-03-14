@@ -967,8 +967,7 @@ START:(10,19)|DIR:R|END:(18,15)
 - Fishing Guru's Brother (Good Rod): (27, 27)
 - Main city accessed via Cut tree at (26, 13).
 - PokeMart: (5, 13) - Sells: Ultra Ball, Great Ball, Super Potion, Revive, Full Heal, Repel. (Clerk is on the LEFT side at 0,5. Stand at 2,5 and face Left to buy/sell).
-- Pokemon Center: UNKNOWN (Not 19,27. Look near Gym at X=5)
-- House (Map 0_154): (19, 27)
+- Pokemon Center: (19, 27) (Map 0_154. PC is at 7, 3)
 - Safari Zone Warden's House: (27, 27). The Warden is inside! (Has a boulder blocking an item inside).
 - Fishing Guru's Brother: (31, 27). (Sign outside says 'FISHING GURU'S OLDER BROTHER').
 
