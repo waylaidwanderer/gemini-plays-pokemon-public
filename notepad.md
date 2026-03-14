@@ -1023,16 +1023,16 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Location: Fuchsia Gym.
 - Goal: Defeat Koga.
 - Mechanic: Dashed lines (TYPE_3fe2) are the OPEN FLOOR. Blank tiles are INVISIBLE WALLS.
-- Current Position: (3, 13).
-- Safe Path discovered so far: (4, 17) -> (5, 17) -> (5, 16) -> (5, 15) -> (4, 15) -> (4, 14) -> (5, 14) -> (5, 13) -> (4, 13) -> (3, 13).
-- Turn 32906: Stepped Up to (3, 12), but bumped. So (3, 12) is a wall.
-- Options from (3, 13):
-  - Right: (4, 13) [OPEN, came from here]
-  - Left: (2, 13) [Untested]
-  - Up: (3, 12) [WALL]
-  - Down: (3, 14) [GYM STATUE]
-- The Gym Statue blocks Down. Up is a wall. Right is backtracking.
-- The ONLY untested path is Left to (2, 13).
-- Let's step Left.
+- Current Position: (2, 13).
+- Safe Path discovered so far: (4, 17) -> (5, 17) -> (5, 16) -> (5, 15) -> (4, 15) -> (4, 14) -> (5, 14) -> (5, 13) -> (4, 13) -> (3, 13) -> (2, 13).
+- Turn 32907: Arrived at (2, 13).
+- Options from (2, 13):
+  - Right: (3, 13) [OPEN, came from here]
+  - Left: (1, 13) [Untested]
+  - Up: (2, 12) [WALL (visually a solid bush)]
+  - Down: (2, 14) [Untested]
+- (2, 12) is a solid bush (TYPE_2889).
+- I will test Left to (1, 13). If blocked, I will test Down to (2, 14).
+- Turn 32907: Stepping Left to (1, 13).
 
 <hr>
