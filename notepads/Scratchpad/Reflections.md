@@ -3,7 +3,7 @@
 - Goal: Defeat Koga.
 - Mechanic: Dashed lines (TYPE_3fe2) are the OPEN FLOOR. Blank tiles are INVISIBLE WALLS.
 - Safe Path: (4, 17) -> (5, 17) -> (5, 16) -> (5, 15) -> (5, 14) -> (5, 13) -> (6, 13) -> (7, 13).
-- Turn 32959: Arrived at (7, 13).
+- Turn 32960: Arrived at (7, 13).
 - Options from (7, 13):
   - Left: (6, 13) [OPEN, came from here]
   - Right: (8, 13) [TRAINER]
@@ -13,3 +13,4 @@
 - THE TRAINER AT (8, 13) BLOCKS THE PATH!
 - So the real path must go THROUGH the trainer at (8, 13).
 - I need to step Right to engage the trainer at (8, 13)!
+- Turn 32960: Engaged Juggler at (8, 13).
