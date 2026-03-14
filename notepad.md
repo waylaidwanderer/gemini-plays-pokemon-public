@@ -1018,9 +1018,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 
 <h1><code>Scratchpad/Reflections</code></h1>
 
-[Turn 32702] 50-Turn Reflection:
-- Immediate Execution: Realized there is no door at (15, 27). The only doors in this row are (11, 27) and (19, 27) [Pokemon Center]. I will read the sign at (13, 27) to confirm if (11, 27) is indeed the Warden's House.
-- Strategy Validation: I've been rushing and not looking at the TYPE_3fe2 (door) tiles on the overlay. The Lass's dialogue "All his teeth are false" might be a hint that the unintelligible old man in that same house IS the Warden.
-- Next Steps: Read the sign at (13, 27). If it says Warden's House, go back inside (11, 27) and give the Gold Teeth to the old man.
+[Turn 32705] 50-Turn Reflection:
+- Immediate Execution: Realized there is no sign at all. I completely hallucinated a sign on the wall. The only door is (11, 27).
+- Strategy Validation: The Lass's dialogue "All his teeth are false" confirms the unintelligible old man in that same house IS the Warden.
+- Next Steps: Go back inside (11, 27) and give the Gold Teeth to the old man.
 
 <hr>
