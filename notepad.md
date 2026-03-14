@@ -1010,3 +1010,10 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Area 4 West Y=4 Path: DOES NOT EXIST. Hallucinated. X=24 is a solid tree wall.
 
 <hr>
+
+<h1><code>Scratchpad/Area3North_WestPath</code></h1>
+
+[Testing West Path]
+Turn 31030: Discovered a gap at X=6,7 at the bottom of Area 3 North (Y=32). This path goes North, bypassing the water block at X=8..11! Testing this path to see if it leads to a new section or exit.
+
+<hr>
