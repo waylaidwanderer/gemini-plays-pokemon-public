@@ -222,3 +222,12 @@
   - At (8, 14), Left is (7, 14) [OPEN], Right is (9, 14) [OPEN], Down is (8, 15) [OPEN], Up is (8, 13) [TRAINER].
   - I'll deal with this battle first, then continue mapping my way to Koga.
 - Turn 32869: Mashing B to start the battle with the Juggler.
+- Turn 32870: Battle with Juggler has started. He has a Lv 38 Hypno.
+- My team:
+  - Hydro (Blastoise) Lv 48 (105/148 HP)
+  - Dugtrio Lv 36
+  - Cleo (Nidoqueen) Lv 28
+  - Audrey, Pebbles, Bambam (Low level)
+- Hydro's moves: Surf (15), Tail Whip (30), Skull Bash (15), Water Gun (24)
+- Hypno is Psychic type. Surf is my best neutral STAB move.
+- I will use Surf.
