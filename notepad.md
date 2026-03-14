@@ -1094,6 +1094,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 2. Walk North to (22, 23) and go UP the stairs onto the dirt plateau.
 3. Walk West on the dirt plateau to X=16.
 4. Walk South to (16, 27) and go DOWN the stairs to (16, 28).
-5. You are now West of the X=17 wall! Walk West to X=8, then South to Y=35 to exit to Area 4 West.
+5. You are now West of the X=17 wall! The path West is blocked by water at X=11 (Y=24 to Y=29). Walk South to Y=30, then West to X=8, then South to Y=35 to exit to Area 4 West.
 
 <hr>
