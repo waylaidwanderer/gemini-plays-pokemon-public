@@ -1037,6 +1037,11 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   - At X=0..5, Y=16 is a solid tree/bush wall blocking North.
   - At X=6..9, Y=15 is a solid bush wall blocking North.
   - Heading East towards X=10..11 to see if there is a gap before the lake starts at X=12.
+- [Turn 31869] At X=12, Y=19. There is a Rest House at (16, 18).
+  - The path East of X=12 is blocked by the Rest House and a tree wall at Y=18.
+  - The lake is at Y=12.
+  - I am in a pocket between the lake (North), Rest House (East), and solid bushes (West).
+  - Let's walk North to Y=13 and see if there's a gap between the lake and the West bushes!
 
 <hr>
 
