@@ -1,4 +1,4 @@
-[Turn 32390] 50-Turn Reflection:
-- Immediate Execution: Successfully retraced my steps back to Area 4 West. Currently in the main Dirt Trench at Y=16, walking West.
-- Error Analysis: I previously recorded the Dirt Trench as Y=17. The stairs at (21, 17) lead UP to Y=16. The trench itself is Y=16. The North edge (Y=15) is a South-facing ledge, preventing upward movement.
-- Strategy: Continue walking West along Y=16 from X=12 to X=5. The Secret House must be accessible from this path.
+[Turn 32420] 50-Turn Reflection:
+- Immediate Execution: Explored the Area 1 Center West Pocket. Confirmed it is a dead end that only loops back to Area 4 West (0, 11). It is separated from the main Area 1 Center by a solid wall of bushes at X=11.
+- Error Analysis: I assumed the Area 3 North Southwest Exit (at X=8..15, Y=35) was the ONLY way to reach Area 4 West. However, that entrance drops me at (26, 0) in Area 4 West, which I have exhaustively proven is a dead end route (Dirt Trench ends at X=5, North Pocket ends at Y=6).
+- Strategy Shift: There MUST be a second, true entrance to Area 4 West. I hypothesize this entrance is located on the WEST edge of Area 3 North, somewhere North of Y=23. On my next run, I will navigate to Area 3 North, cross the upper lake (North of Y=9), and explore the far West edge.
