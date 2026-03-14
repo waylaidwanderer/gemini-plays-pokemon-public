@@ -1095,5 +1095,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Immediate Execution: Explored the Area 1 Center West Pocket. Confirmed it is a dead end that only loops back to Area 4 West (0, 11). It is separated from the main Area 1 Center by a solid wall of bushes at X=11.
 - Error Analysis: I assumed the Area 3 North Southwest Exit (at X=8..15, Y=35) was the ONLY way to reach Area 4 West. However, that entrance drops me at (26, 0) in Area 4 West, which I have exhaustively proven is a dead end route (Dirt Trench ends at X=5, North Pocket ends at Y=6).
 - Strategy Shift: There MUST be a second, true entrance to Area 4 West. I hypothesize this entrance is located on the WEST edge of Area 3 North, somewhere North of Y=23. On my next run, I will navigate to Area 3 North, cross the upper lake (North of Y=9), and explore the far West edge.
+- [Turn 32440] Overwatch hallucinated a Y-coordinate error. My Game State confirmed I was indeed at Y=23. The transition between Area 1 Center (0, 11) and Area 4 West (29, 23) has a Y-shift of +12 tiles! This proves the Area 1 Center West Pocket is merely the one-way exit from the Area 4 West South Grass Trap. I am returning to Area 3 North to explore its far West edge.
 
 <hr>
