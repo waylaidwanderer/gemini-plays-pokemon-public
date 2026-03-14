@@ -1083,5 +1083,6 @@ Now exiting the house at (11, 27).
 52. I am now at (7, 16), right below the trainer at (7, 15). Before I fight him, I should probably heal my team. Dugtrio is at 81/81, Audrey is 54/54, Pebbles is 42/42, Cleo is 97/97, and Bambam is 46/46. Hydro is at 105/148, which is fine. The team is relatively healthy, so I'll go ahead and fight this trainer to start clearing out the Gym. I'll press Up to talk to him.
 53. The NPC at (7, 15) is actually the Gym Guide, not a trainer! He's giving me the "Yo! Champ in making!" speech. I will read his advice and then start navigating the invisible walls.
 - Checked the Gym Guide. Navigating the invisible walls to Koga.
+- Currently at (7, 16). Testing movement Right to (8, 16) to see if I can bypass the Gym Guide.
 
 <hr>
