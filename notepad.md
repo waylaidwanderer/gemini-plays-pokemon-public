@@ -1293,5 +1293,27 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   - Up goes to (9, 13).
 - Let's try to follow the path Up to (9, 13) to see where it leads, since the Gym Leader is likely at the top.
 - Action: Press `Up`.
+- Turn 32879: Pressed Right from (8, 14), but I was aborted.
+- Wait, the warning says "Position Mismatch: You reported position (9, 14), but you were actually at position (8, 14)."
+- And "You pressed 1 movement buttons, but visited 0 tiles."
+- So moving Right from (8, 14) to (9, 14) BUMPED.
+- My current position is STILL (8, 14).
+- The dashed lines on (9, 14) were a lie! Or my interpretation of dashed lines is flawed.
+- Let's look at the screen for Turn 32878.
+- I am at (8, 14).
+- Up is (8, 13) [Trainer].
+- Down is (8, 15) [Dashed line].
+- Right is (9, 14) [Dashed line] -> BUT I BUMPED.
+- Left is (7, 14) [Blank tile] -> BUT I CAME FROM THERE.
+- CONCLUSION: The dashed lines (TYPE_3fe2) have absolutely nothing to do with the invisible walls. They are purely a decorative floor pattern that covers the entire Gym. Both open spaces and invisible walls share the exact same tile graphics.
+- I must navigate entirely by bumping into things and mapping the open spaces. No visual shortcuts.
+- Okay. I am at (8, 14).
+- Known paths from (8, 14):
+  - Left (7, 14): OPEN (I came from here).
+  - Up (8, 13): Trainer.
+  - Right (9, 14): BLOCKED.
+  - Down (8, 15): Untested.
+- I will move Down to (8, 15).
+- Action: Press `Down`.
 
 <hr>
