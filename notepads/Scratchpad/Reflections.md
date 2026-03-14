@@ -33,3 +33,4 @@
 32. I am at (1, 20). Now walking South down the West edge of the city to reach the southern half where the Gym and Pokemon Center are located.
 33. Still heading South. I am at (1, 26). I'll walk South to Y=30, then East to X=4.
 34. The vertical ledge at X=2 blocked my Eastward movement. I need to go South to Y=32 to clear it, then head East to find the Gym.
+35. I am at (7, 32). The Gym is straight East of here. I can see the building at (16, 28) on my map, and the PokeMart is above it. No wait, the Gym is the building at (11, 27). Let's walk East to X=11, then North to enter.
