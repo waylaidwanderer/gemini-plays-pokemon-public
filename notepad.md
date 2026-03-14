@@ -1027,8 +1027,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Error Analysis & Hypothesis Review: Tactical retreat strategy worked flawlessly.
 
 [Current Status]
-- Turn 33161: Start menu is open at (20, 19). Cursor is on POKeMON.
-- I tried to close the menu and move left, but the sequence `B-LL-S-A` failed to move me. This confirms my note: "Turning vs Stepping: If you change direction from a standstill, your character will "turn in place" first." I need to explicitly account for turning.
-- New Plan: Since the Start menu is ALREADY open, I will just close it with B, then manually move Left to (19, 19), and face Down. I will do this step-by-step.
+- Turn 33162: Start menu is still open at (20, 19).
+- A single 'B' press didn't close it, likely due to input delay or dropping.
+- Using `spam_button` to safely exit the menu. Then I will navigate to (18, 19) and cut the bush.
 
 <hr>
