@@ -23,11 +23,12 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 9. THE WESTERN UPPER AREA IS A DEAD END. It is completely blocked from going North by Water at Y=13 and solid bushes. The Secret House is NOT here.
 10. CONCLUSION: There MUST be a second, undiscovered entrance to Area 4 West from Area 3 North. We must thoroughly explore the West edge of Area 3 North (West of the Rest House).
 
-[NEW STRATEGY: RE-EXPLORE WESTERN UPPER AREA]
-- The Area 4 West entrance from Area 3 North is ALWAYS at (26, 0). The 'split entrance' hypothesis was empirically disproven (Turn 31651).
-- The Secret House (at 3, 3) MUST be accessible from the (26, 0) entrance.
-- We previously found a gap at X=2/3, Y=15 that bypasses the ledge.
-- We must return to that gap and explore NORTH along the far West edge (X=2/3) to reach (3, 3), rather than getting distracted by Rest House 3.
+[NEW STRATEGY: THE WEST GRASS ENTRANCE IS REAL]
+- The Area 4 West entrance from Area 3 North IS SPLIT!
+- Entering via the LEFT side (X=8) drops you at (21, 0) in Area 4 West (WEST GRASS). This leads directly to the Secret House at (3, 3).
+- Entering via the RIGHT side (X=13) drops you at (26, 0) in Area 4 West (EAST GRASS).
+- My previous "disproof" (Turn 31651) was a coordinate hallucination: I bumped into an obstacle at X=13 in Area 3 North, failed to walk West to X=8, and stepped South at X=13, landing at (26, 0).
+- We MUST return to Area 3 North, carefully navigate around the water at X=12, Y=28, and actually reach X=8 before stepping South!
 
 [KNOWN TRAPS & DEAD ENDS]
 - Area 4 West Trap Ledges: Jumping ledges at (14, 17) or (24, 17) traps you in the southern path, forcing an exit to Area 1 Center.
