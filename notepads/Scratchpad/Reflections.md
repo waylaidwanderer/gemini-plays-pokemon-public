@@ -7,3 +7,6 @@
   - Koga is at (4, 10).
 [Current Status]
 - Turn 33092: Successfully reached Koga at (4, 10). Team is fully healed. Initiating battle.
+- Defeated Koga on Turn 33111.
+- Received SoulBadge and TM06 (Toxic).
+- Now backtracking out of the Gym to heal Hydro.
