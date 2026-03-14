@@ -6,8 +6,10 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Area 1 Center (0_220) <-> Area 2 East (0_217) [via East Exits at 29,10 <-> 0,10 AND 29,22 <-> 0,22]
 - Area 1 Center (0_220) <-> Area 3 North (0_218) [via North Exit at 15,0 <-> South Exit at 20,35]
 - Area 2 East (0_217) <-> Area 3 North (0_218) [via Northwest Exit at 0,4 <-> Southeast Exit at 39,30/31]
-- Area 3 North (0_218) <-> Area 4 West (0_219) [via Southwest Exit at 8,35 <-> Northeast Exit at 26,0/1]
-- Area 4 West (0_219) <-> Area 1 Center (0_220) [via Southeast Exit at 29,22/23 <-> West Exit at 0,10/11]
+- Area 3 North (0_218) <-> Area 4 West (0_219) [via Southwest Exit at 8..15, 35 <-> Northeast Exit at 21..26, 0]
+  * CRITICAL REVELATION: The Area 4 West entrance is SPLIT.
+  * Entering via the LEFT side of Area 3 North's exit (e.g. X=8) drops you at (21, 0) in Area 4 West (WEST GRASS).
+  * Entering via the RIGHT side of Area 3 North's exit (e.g. X=13) drops you at (26, 0) in Area 4 West (EAST GRASS).
 
 [AREA 4 WEST EXPLORATION ROUTE - THE TRUE PATH]
 1. Start at Entrance (26, 0/1). You are in the EAST GRASS.
