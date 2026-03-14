@@ -1111,6 +1111,8 @@ CONCLUSION RE-VERIFIED: The entire Northern boundary of the Western Upper Area i
 - [Turn 32009] RE-EVALUATING SOUTH GRASS "DEAD END": If I am trapped in the Western Upper Area / South Grass after jumping the ledge at (6, 19), there MUST be an exit. X=0 and Y=24 are visually solid TYPE_2889. The only logical exit is East to (29, 22) which connects to Area 1 Center. My previous visual assessment of a "diagonal wall" at X=17/18 blocking the East path must be wrong. I am walking East to physically bump test X=17/18 for a gap.
 - [Turn 32015] PHYSICAL VERIFICATION COMPLETE: Bump-tested X=18 from Y=20 to Y=24, and Y=19 from X=8 to X=17. They are all completely solid TYPE_2889 bushes.
 CONCLUSION: The South Grass is a completely sealed ONE-WAY LEDGE TRAP. Jumping down the ledge at (6, 19) permanently traps the player in the X=0..17, Y=19..24 pocket. The only escape is to Retire, run out of steps, or run out of Safari Balls.
+- [Turn 32205] TESTING EAST WALL OF EAST GRASS (X=24/25)
+  Methodology: Walking South along X=25 from Y=0, visually and physically checking the tree wall at X=24 for any hidden gaps leading West. Currently at (25, 3).
 
 <hr>
 
