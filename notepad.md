@@ -1019,9 +1019,10 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 
 <h1><code>Scratchpad/Reflections</code></h1>
 
-[Turn 32723] 50-Turn Reflection:
-- Immediate Execution: Inside the house at (31, 27). The NPC says "How are the fish biting?". This means THIS is the Fishing Guru's Brother!
-- Strategy Validation: My old notes said the Guru was at (27, 27). Because of that, I hallucinated the sign text at (27, 29). The Warden's House MUST be the building at (27, 27)!
-- Next Steps: Correctly exiting the Fishing Guru's Brother's house by stepping onto the exit mat at (3,7). Then walking left to (27, 27) to enter the Warden's House and deliver the Gold Teeth.
+[Turn 32737] Pre-Summarization Status:
+- Successfully located the TRUE Warden's House at (27, 27).
+- Delivered the Gold Teeth to the Warden.
+- Currently receiving HM04 (Strength) as a reward.
+- Next Steps: Teach Strength to a Pokemon (Cleo the Nidoqueen is a great candidate to replace Scratch/Tackle), move the boulder in the Warden's house to get the item, and then challenge Koga's Gym.
 
 <hr>
