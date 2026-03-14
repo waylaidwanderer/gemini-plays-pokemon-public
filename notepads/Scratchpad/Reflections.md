@@ -2,13 +2,12 @@
 - Location: Fuchsia Gym.
 - Goal: Defeat Koga.
 - Mechanic: Dashed lines (TYPE_3fe2) are the OPEN FLOOR. Blank tiles are INVISIBLE WALLS.
-- Current Position: (3, 16).
-- Safe Path discovered so far: (4, 17) -> (5, 17) -> (5, 16) -> (5, 15) -> (4, 15) -> (4, 14) -> (5, 14) -> (5, 13) -> (4, 13) -> (3, 13) -> (2, 13) -> (1, 13) -> (0, 13) -> (0, 14) -> (0, 15) -> (0, 16) -> (0, 17) -> (1, 17) -> (2, 17) -> (3, 17) -> (3, 16).
-- Turn 32935: Back at (3, 16).
-- The path Right to (4, 16) connected back to the entrance loop.
-- My options from (3, 16):
-  - Down: (3, 17) [Loop]
-  - Right: (4, 16) [Loop]
-  - Up: (3, 15) [Solid Bush]
-  - Left: (2, 16) [Untested]
-- I must test Left to (2, 16)! This might be the real path branching off the loop.
+- Current Position: (2, 16).
+- Safe Path discovered so far: (4, 17) -> (5, 17) -> (5, 16) -> (5, 15) -> (4, 15) -> (4, 14) -> (5, 14) -> (5, 13) -> (4, 13) -> (3, 13) -> (2, 13) -> (1, 13) -> (0, 13) -> (0, 14) -> (0, 15) -> (0, 16) -> (0, 17) -> (1, 17) -> (2, 17) -> (3, 17) -> (3, 16) -> (2, 16).
+- Turn 32936: Arrived at (2, 16). THIS WAS THE BRANCHING PATH!
+- Options from (2, 16):
+  - Right: (3, 16) [OPEN, came from here]
+  - Up: (2, 15) [Untested]
+  - Left: (1, 16) [Untested]
+  - Down: (2, 17) [Loop path]
+- I will test Up to (2, 15) next. This heads toward the center of the gym!
