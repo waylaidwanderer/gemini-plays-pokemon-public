@@ -1060,3 +1060,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 9. Navigate West around the sign to the Area 3 North exit at (0, 4).
 
 <hr>
+
+<h1><code>Scratchpad/Area3_Layout</code></h1>
+
+[Area 3 North Exploration]\n- [Turn 31808] Navigating the West boundary to find the far-West exit.\n- CHOKE POINT: Between Y=24 and Y=28, the path South is squeezed to just two tiles wide (X=6, X=7) between the Rest House/solid bushes at X=5 and the lake starting at X=8.\n- Strategy: Walk South through this choke point, then immediately head West at Y=28 to reach X=0..4.
+
+<hr>

@@ -1,0 +1,1 @@
+[Area 3 North Exploration]\n- [Turn 31808] Navigating the West boundary to find the far-West exit.\n- CHOKE POINT: Between Y=24 and Y=28, the path South is squeezed to just two tiles wide (X=6, X=7) between the Rest House/solid bushes at X=5 and the lake starting at X=8.\n- Strategy: Walk South through this choke point, then immediately head West at Y=28 to reach X=0..4.
