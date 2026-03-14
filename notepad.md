@@ -993,12 +993,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Area 3 North (0_218) <-> Area 4 West (0_219) [via Southwest Exit at 8..15, 35 <-> Northeast Exit at 26, 0]
 
 [AREA 4 WEST EXPLORATION ROUTE - THE TRUE PATH]
-1. Start at Entrance (26, 0/1). You are in the EAST GRASS.
-2. The East Grass is COMPLETELY BLOCKED from the West Grass by a solid tree wall at X=24/25 from Y=0 to Y=13.
-3. You MUST walk South to the plateau stairs at (21, 17) to enter the DIRT TRENCH.
-4. Walk West in the Dirt Trench to the gap at X=16.
-5. TURN NORTH at X=16. The dirt path extends North to (16, 7), bypassing the Western Upper Area's water barrier!
-6. At (16, 7), turn West. HYPOTHESIS: This unexplored path leads to the Secret House and Warden's Gold Teeth. Must verify empirically.
+1. The entrance from Area 3 North's Southwest Exit (drops at 26, 0 in Area 4 West) is a DEAD END ROUTE. It only leads to the East Grass, Dirt Trench (ends at X=5), the North Pocket (ends at Y=6), and the South Grass Trap (loops back to Area 1).
+2. HYPOTHESIS: The TRUE entrance to the functional part of Area 4 West (where the Secret House is) must be located on the WEST edge of Area 3 North, North of Y=23.
+3. STRATEGY: Navigate to Area 3 North, cross the upper lake (North of Y=9), and explore the far West edge of Area 3 North to find this entrance.
 
 [KNOWN TRAPS & DEAD ENDS]
 - Area 4 West Trap Ledges: Jumping ledges at (14, 17) or (24, 17) traps you in the southern path, forcing an exit to Area 1 Center.
