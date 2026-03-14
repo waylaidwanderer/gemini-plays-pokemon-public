@@ -1075,5 +1075,13 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - So if Left is the way I came, Right is blocked, Down is blocked, and Up is blocked by the trainer...
 - This means (8, 14) is a dead end!
 - I need to backtrack to (7, 14).
+- Turn 32887: At (7, 14).
+- My `move_sequence: L` from (8, 14) worked. I am at (7, 14).
+- From (7, 14), my known open paths:
+  - Right: (8, 14) [OPEN]
+  - Up: (7, 13) [OPEN]
+  - Left: (6, 14) [WALL]
+  - Down: (7, 15) [Gym Guide]
+- So to continue mapping, I must go Up to (7, 13).
 
 <hr>
