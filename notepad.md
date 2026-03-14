@@ -1106,5 +1106,6 @@ Methodology: I will walk the entire perimeter of the Y=13 boundary in the Wester
 - [Turn 31988] Bump-tested the Rest House exterior walls (X=10, X=13) and the tree wall on the East (X=14) from Y=12 to Y=14. All are definitively solid. No path North or East exists here. I will now walk West to X=2 to bump-test the final tiles at X=0 and X=1 to definitively close this area as a dead end.
 - [Turn 31989] Final Bump Test: Bumped Left into (1, 14) and Up into (2, 13). Both are completely solid. 
 CONCLUSION RE-VERIFIED: The entire Northern boundary of the Western Upper Area is definitively solid. There is NO path North. My original assessment in Locations/SafariZone was correct. The true path to the Secret House must lie in a completely different entrance to Area 4 West, likely from the unexplored West edge of Area 3 North.
+- [Turn 31997] At (15, 20). Confirmed the East side of this South Grass pocket is blocked by a diagonal wall of solid bushes at X=17/18. This entire South Grass area (X=0 to X=17, Y=20 to Y=24) appears to be a dead end pocket. Attempting to find an exit on the South boundary (Y=24) or West boundary (X=0) to return to Area 3 or Area 1.
 
 <hr>
