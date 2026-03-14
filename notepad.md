@@ -967,7 +967,7 @@ START:(10,19)|DIR:R|END:(18,15)
 - Fishing Guru's Brother (Good Rod): (27, 27)
 - Main city accessed via Cut tree at (26, 13).
 - PokeMart: (5, 13) - Sells: Ultra Ball, Great Ball, Super Potion, Revive, Full Heal, Repel. (Clerk is on the LEFT side at 0,5. Stand at 2,5 and face Left to buy/sell).
-- Pokemon Center: UNKNOWN (Search top half of city near Y=13)
+- Pokemon Center: (19, 27) (Map 0_154. PC is at 13, 1 inside)
 - House (Map 0_153): (11, 27)
 - House (Map 0_154): (19, 27)
 - Safari Zone Warden's House: (27, 27). The Warden is inside! (Has a boulder blocking an item inside).
@@ -1028,9 +1028,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Error Analysis & Hypothesis Review: My sequence failures were caused by manually adding "turn" inputs when the harness already does it. A direction press always equals one step.
 
 [Current Status]
-- Turn 33175: Audrey successfully used CUT! The bush at (18, 19) is gone.
-- Wait, I am at (18, 20), which is SOUTH of the bush. I didn't even need to cut it to go South! I got my coordinates mixed up.
-- No problem. I need to go South to jump the ledge at Y=22 to enter the zoo area, then route around to the Pokemon Center to get the Bicycle.
-- Clearing the "hacked away with CUT!" text this turn.
+- Turn 33211: Overwatch snapped me out of it! The building at (19, 27) which leads to Map 0_154 IS the Pokemon Center! I hallucinated that the healing counter was a TV and missed the PC entirely because it's further right at (13, 1). Heading back there immediately to grab the Bicycle.
 
 <hr>
