@@ -1031,17 +1031,15 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - East side of the lake (X=22..29) IS a DEAD END for going North! I am trapped at (22, 10) by water to the West (X=21) and a tree wall to the North (Y=9).
 - The water extends West from X=21.
 - The path North must be on the WEST side of the lake.
-- I need to walk South, then West to find the gap around the West side of the lake.
-- [Turn 31543] Time ran out while exploring the East side of Area 1 Center. The gap North MUST be on the West side of the lake, likely south of the Rest House.
 - [Turn 31864] Exploring West side of Area 1 Center.
   - At X=0..5, Y=16 is a solid tree/bush wall blocking North.
   - At X=6..9, Y=15 is a solid bush wall blocking North.
-  - Heading East towards X=10..11 to see if there is a gap before the lake starts at X=12.
-- [Turn 31869] At X=12, Y=19. There is a Rest House at (16, 18).
-  - The path East of X=12 is blocked by the Rest House and a tree wall at Y=18.
-  - The lake is at Y=12.
-  - I am in a pocket between the lake (North), Rest House (East), and solid bushes (West).
-  - Let's walk North to Y=13 and see if there's a gap between the lake and the West bushes!
+- [Turn 31871] 50-Turn Reflection & Observation at (12, 16):
+  - Y=15 is a solid line of bushes from X=10 to X=15, connecting to the Rest House at X=16.
+  - Previously marked (8, 15) and (4, 16) as blocked North.
+  - HYPOTHESIS UNDER SEVERE THREAT: If there is no gap between X=0 and X=15, then Area 1 Center CANNOT access the Left Half of Area 3 North!
+  - Goal Clarity: My primary goal is HM03. My method (find path North on West side of Area 1 Center) depends on this wall having a gap.
+  - Action: Systematically walk West along Y=16 to X=0 to definitively prove if a gap exists. If not, my entire structural model of the Safari Zone must be re-evaluated.
 
 <hr>
 
