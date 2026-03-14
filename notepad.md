@@ -1030,5 +1030,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 8. Cleo forgot Scratch to learn Strength!
 9. Facing the boulder at (7, 4) in the Warden's House. Time to use Strength.
 10. Ah, it was opening the Pokedex because the cursor wrapped. I need to be more careful. Time to use Strength.
+11. The tool pressed Up in the overworld because the Start menu was closed. I walked away from the boulder. Walking back to (6, 4) and facing right.
 
 <hr>
