@@ -1060,5 +1060,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 38. Inside the building at (11, 27). There's an NPC at (5, 5). I'll talk to him.
 39. Talked to the NPC in the house at (11, 27). He's talking about Bill filing his own Pokemon data on his PC. This is just a lore house, not the Gym. I'll exit and keep looking.
 40. The building at (11, 27) is not the Gym. It's just a house with an NPC talking about Bill. I will exit and keep looking for the Gym, probably further West.
+41. Walking South to exit the house at (11, 27).
 
 <hr>
