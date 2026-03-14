@@ -1094,6 +1094,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - The Dirt Trench in Area 4 West is a definitive dead end. The ONLY way to reach the Secret House is to find this bypass in Area 3 North. I am backtracking to Area 3 North now.
 - [Turn 32271] At (8, 16). The lake at Y=13..19 blocks X=4..7. But the lake shifts! At Y=13, X=8..11 is water, and X=12..13 is grass. I must navigate the grass corridor East of the lake: UP to Y=14, RIGHT to X=12, UP to Y=12. From there, I will see if I can cross back West to X=6/7 NORTH of the lower lake.
 - [Turn 32273] I reviewed my own notes and realized I already proved (12, 7) is a dead end Westward in Turn 31826! I am backtracking to the choke point at (7, 24) to meticulously re-examine the "narrow path at X=6/7" mentioned in my Turn 31031 context summary. The path MUST be around there.
+- [Turn 32279] At (12, 12). I see that the upper lake occupies X=8..11 from Y=8 to Y=13. However, at Y=14, X=8..11 is grass! This means I can cross West at Y=14 to get back to the X=6/7 column, but ABOVE the lower lake (which blocks Y=19). I am moving to (8, 14) to explore this crossing.
 
 <hr>
 
