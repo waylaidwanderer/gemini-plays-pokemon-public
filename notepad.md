@@ -1042,5 +1042,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [Turn 31272] Position (16, 24). Moving to climb the East Plateau stairs at (20, 21) to head North towards Area 3.
 [Turn 31278] Path North at X=18..20 blocked by ledges/trees. The correct path North is at X=21/X=22. Moving East to X=21 then North.
 [Turn 31286] Currently at (21, 12) in Area 2 East. Navigating North to Y=8, then will head West towards the exit at (0, 4).
+[Turn 31289] Potential Hallucination: At (21, 12), the transition to (21, 11) looks like a ledge, but (21, 11) is TYPE_3fe2 (regular walkable grass). Dirt-to-grass transitions are often NOT solid. I will test walking North from (21, 12) to confirm if it's actually blocked before giving up on this path.
 
 <hr>
