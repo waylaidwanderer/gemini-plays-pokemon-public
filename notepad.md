@@ -1125,5 +1125,6 @@ CONCLUSION: The South Grass is a completely sealed ONE-WAY LEDGE TRAP. Jumping d
   - Immediate Execution: Re-entering Safari Zone for the True Path run.
   - Error Analysis: Received "There isn't anything to CUT!" because I forgot to face the target tile before opening the Start Menu. I must always remember that Game State position is not enough; facing direction matters for interactables.
   - Goal Clarity: Goals remain exactly the same. I am focused on Area 3 North's West edge.
+- [Turn 32164] Safely entered Safari Zone. Mapped route to Area 2 East: Walk East to X=22, then North along the ledge. Must avoid mashing into ledges to save steps!
 
 <hr>
