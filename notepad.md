@@ -1024,5 +1024,6 @@ Turn 31071: Correcting massive hallucinations about the West side.
 2. To reach the North/Northwest part of the map, you MUST use the main path at X=12, which goes straight North to Y=8 without ledge/water interruptions.
 3. Plan: Navigate to (12, 8) and explore WEST to find the true Northwest corner of Area 3 North.
 Turn 31075: At (12, 8). I see that X=8..11 is WATER from Y=8 downwards. Above the water (Y=4..7), X=11 is a solid wall of bushes. The path at X=8..10 (Y=4..7) cannot be reached from the South or East here. I will walk North along X=12 to see if the bushes end, allowing me to cross West.
+Turn 31079: At (15, 5). Blocked East by tree at (16, 5). The path at X=12 going North from Y=8 ends at Y=4 (tree wall). It is bounded West by X=11 (tree wall) and South by water. I am in a small pocket. I will check if there's any exit East or South from this pocket.
 
 <hr>
