@@ -1342,5 +1342,15 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - If it is impossible, then one of the walls I bumped into is NOT a wall.
 - Let me re-test the walls again, but this time I will use `move_sequence` to press the button multiple times with auto-wait, to ensure there's no "turn in place" ambiguity.
 - I will test DOWN. `move_sequence: DDDD`. If (7, 17) is open, I will move.
+- Turn 32838: Pressed B to close the Start menu.
+- I am STILL at (7, 16).
+- If Right, Left, Up, Down all failed, I must have made a mistake in my testing.
+- Let's re-test Down.
+- I will use `move_sequence` to press Down 4 times. `DDDD`.
+- If I don't move, Down is blocked. If I move, I was just facing the wrong way.
+- Wait, in Turn 32830 I pressed `Down`, `Down`. The game state said "You pressed 2 movement buttons, but visited 0 tiles."
+- If I was at (7, 16), facing Left (from Turn 32829), the first `Down` turned me Down. The second `Down` bumped into a wall.
+- Is it possible my input macro failed? No, `press_buttons` works reliably.
+- Let's try `move_sequence` anyway. Maybe the timing is an issue.
 
 <hr>
