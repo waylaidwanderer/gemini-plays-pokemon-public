@@ -123,3 +123,11 @@
   - Up (4, 14): DASHED (Open).
 - So my only path forward is UP to (4, 14).
 - I will move Up.
+- Turn 32861: At (4, 14).
+- I see a trainer at (4, 10).
+- Looking at my path:
+  - Left (3, 14): Statue.
+  - Right (5, 14): DASHED (Open).
+  - Down (4, 15): DASHED (Open, came from here).
+  - Up (4, 13): DASHED (Open).
+- Wait, let me test Right to (5, 14).
