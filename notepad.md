@@ -1022,11 +1022,11 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 <h1><code>Scratchpad/Reflections</code></h1>
 
 [50-Turn Reflection]
-- Immediate Execution: Withdrawing the Bicycle, then immediately departing for Celadon Gym.
+- Immediate Execution: Ride West on Route 18 to X=6, then North to Cycling Road!
 - Goal Clarity: Celadon Gym (Rainbow Badge) -> Warden's House (Strength).
-- Error Analysis & Hypothesis Review: I suffered from severe confirmation bias regarding building interiors. I must strictly rely on `<CurrentScreen>` details (Nurse Joy, PC presence) rather than exterior assumptions.
+- Error Analysis & Hypothesis Review: I have been severely hallucinating. I thought the Gatehouse was a dead end, then I thought Cycling Road was a dead end. I've been ping-ponging on the West side of Route 18. 
 
 [Current Status]
-- Turn 33259: The building at X=8..12 IS the Gatehouse, but it's on the UPPER path! The lower path of Route 18 (where I am) is a dead end blocked by ledges to the North. My realization at Turn 33252 was 100% correct. I must bike all the way East back to Fuchsia City, go to the NORTH half of the city, and use the upper West exit. Riding East now!
+- Turn 33261: REALIZATION: The Route 18 Gatehouse spans X=34 to X=41. I am currently inside it at the West door (0, 5). The path to Cycling Road is to exit WEST to (33, 9), ride WEST to X=6, and go NORTH. There are NO ledges blocking the way North at X=6! I will exit West and ride to Cycling Road immediately.
 
 <hr>
