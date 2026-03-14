@@ -55,3 +55,4 @@ Now exiting the house at (11, 27).
 45. Whoops, I never actually left the house! My previous movement sequence made me bump into walls inside. I am at (1, 7) inside the house. The exit mat is at (2, 7) and (3, 7). I will walk Right then Down to exit properly.
 46. Back outside at (11, 28). Looking at the screen, I can see a building to the West with "YM" written on it! That must be the Gym! Walking West to enter it.
 47. Successfully found the Gym! It's the building at (5, 27) with the statues. Walking North to enter Koga's Gym. I'm ready for the Poison-type trainers.
+48. Entered Fuchsia Gym (0_157). The gimmick here is invisible walls. I'm at (4, 17). I will proceed carefully, testing for walls one step at a time. I'll move Right to (5, 17) first.
