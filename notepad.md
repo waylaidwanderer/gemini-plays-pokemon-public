@@ -1263,5 +1263,19 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Let's use Surf again.
 - Action: Execute Battle Turn -> Surf.
 - Turn 32875: Hydro used Surf. Result pending. Waiting for animations to finish.
+- Turn 32876: I defeated the Juggler! Hydro gained 1342 EXP.
+- Now I am back in the overworld at (8, 14).
+- I will continue mapping from (8, 14).
+- Let me check the screen at Turn 32867 (before the battle).
+- From (8, 14):
+  - Left: (7, 14) - OPEN (I came from here).
+  - Up: (8, 13) - The Juggler is here.
+  - Down: (8, 15) - DASHED (OPEN).
+  - Right: (9, 14) - DASHED (OPEN).
+- I will move Down to (8, 15) to see what's there, or Right to (9, 14).
+- Let's trace the dashed lines:
+  - From (8, 14), Down goes to (8, 15), then (8, 16), then (9, 16), then (9, 17) which is a dead end?
+  - Wait, (9, 17) has dashed lines.
+  - Let's just explore Right to (9, 14).
 
 <hr>
