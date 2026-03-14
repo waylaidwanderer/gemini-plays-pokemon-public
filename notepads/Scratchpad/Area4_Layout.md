@@ -5,3 +5,4 @@
 - NORTHERN DIRT TRENCH POCKET: The dirt path extending North at X=15/16 leads to a dead-end pocket (TM45 is at 19,7). The West wall (X=10) is definitively solid TYPE_2889 bushes from Y=6 to Y=9. The North edge (Y=5) is a solid South-facing ledge.
 - MAIN DIRT TRENCH: Currently re-exploring the main Westward trench (Y=16) from X=16 to X=5. The stairs at (21, 17) lead UP to the trench at Y=16.
 - [Turn 32386] Corrected Dirt Trench coordinate. I must walk West along Y=16, not Y=17.
+- [Turn 32396] X=5 in the main Dirt Trench is a dead end. The ledge blocks North and bushes block West. Retracting to X=16 to re-evaluate the North Pocket, as I might have missed a gap there before the timer ran out last time.
