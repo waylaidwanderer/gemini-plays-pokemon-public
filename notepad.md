@@ -1265,5 +1265,82 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - What if I use `move_sequence` to forcefully walk Left? `autopress_buttons=True, sequence="L"`
 - The tool `move_sequence` uses the harness's movement logic.
 - Let me just press `Start` to open the menu. If the menu opens, I am in a normal overworld state. If it doesn't, something is wrong.
+- Turn 32837: Pressed Start. The menu opened successfully. So the harness is working, the game is not soft-locked, and my inputs are registering.
+- I am at (7, 16).
+- If the menu opens, I can interact with the game.
+- Let me close the menu and look at my situation again.
+- The Gym Guide is at (7, 15). I am at (7, 16).
+- In Turn 32816, I was at (6, 17) and pressed Right, and arrived at (7, 16).
+- Let me read the exact text of my `press_buttons` call from Turn 32816.
+  - "I will walk Right again to (7, 17), then North to (7, 16) to engage him..."
+  - `call:default_api:press_buttons{buttons:['Right'],...}`
+- Wait, if I only pressed `Right`, why did I move two tiles?
+- Let's look at the screen for Turn 32836 (before menu).
+- At (6, 17), there is a dashed line.
+- At (7, 17), there is a dashed line.
+- If these dashed lines are walls... how could I have been at (6, 17)?
+- Let's look at Turn 32814 again. I entered at (4, 17).
+- If I walk Right from (4, 17), I go to (5, 17). (5, 17) has a dashed line.
+- If (5, 17) is a wall, I couldn't have walked there.
+- BUT WAIT! The red exit mat is AT (4, 17) and (5, 17)!
+- The exit mat DOES NOT HAVE WALLS ON IT.
+- The tiles (4, 17) and (5, 17) on the screen in Turn 32836 HAVE DASHED LINES ON THEM.
+- THEREFORE, DASHED LINES DO NOT EQUAL WALLS!
+- The dashed lines are just the floor pattern!
+- The invisible walls are TRULY invisible. They have no visual indicator whatsoever.
+- Okay, so the walls are completely invisible.
+- Back to my trap: I am at (7, 16).
+- I have tested Right, Left, Down, and Up.
+- ALL OF THEM said "visited 0 tiles" (bumped).
+- IS THERE ANY OTHER WAY TO MOVE? No.
+- This is a logical paradox. I am at (7, 16) but cannot leave (7, 16).
+- Let me re-read the warnings very carefully.
+- Turn 32833: Pressed `Left`, `Left`, `Left`. Result: "visited 0 tiles."
+  - Could the first `Left` have turned me, the second `Left` bumped, and the third `Left` bumped? Yes.
+- What if... what if the Gym Guide at (7, 15) is the ONLY way out, and I have to walk THROUGH him?
+  - No, Gym Guides are solid.
+- What if I am misinterpreting the warnings?
+  - "You pressed X movement buttons, but visited Y tiles."
+  - If Y = 0, I bumped into a wall on every step.
+- WAIT. Let me look at the game state. "Player Position: (7, 16)".
+- Let me look at the screen for Turn 32837.
+- I am facing DOWN.
+- In Turn 32837, I pressed Start. The menu is open.
+- Let me close the menu with B.
+- Wait. I need to figure out how I got from (6, 17) to (7, 16) in a SINGLE `Right` press.
+- In Gen 1, if you press Right, you face Right and step Right to (7, 17).
+- If you end up at (7, 16), your Y coordinate changed by -1.
+- This ONLY happens if you walk on a spin tile, slide on ice, or jump a ledge.
+- There are no spin tiles, ice, or ledges here.
+- What if the harness is buggy and executed my *text* instead of my JSON? No, the system only parses JSON.
+- What if the Gym Guide pushed me? I keep coming back to this. In Gen 1, NPCs can't push you.
+- Is there any other explanation?
+- What if my position was NEVER (6, 17)?
+- Let's check my coordinates at Turn 32815. "I am at (5, 17). Moving Right to (6, 17)".
+  - Result of Turn 32815: Position changed from (5, 17) to (6, 17).
+- Turn 32816: "Walked Right to (6, 17) successfully. I can see a trainer... I will walk Right again... `buttons: ['Right']`".
+  - Result: Position changed from (6, 17) to (7, 16).
+- THIS IS THE ANOMALY. (6, 17) + Right = (7, 16).
+- (6, 17) to (7, 17) is +1 X. (7, 17) to (7, 16) is -1 Y.
+- This is a diagonal move!
+- You cannot move diagonally in Gen 1!
+- The ONLY way to move diagonally is to use a 2-button input in one frame? No, the game doesn't support diagonal walking.
+- Let me look at the screen for Turn 32837.
+- Is it possible that the map I am looking at (0_157) is a CUSTOM map for this specific emulator that has a glitch? No, it's vanilla Pokemon Blue.
+- What if I use `move_sequence` to just blindly escape?
+  - If I'm trapped, `move_sequence` won't help.
+- Is there ANY item I can use? Escape Rope? Escape Rope works in Gyms!
+- If I am truly, inexplicably soft-locked due to a bizarre emulation glitch where I stepped diagonally into a 1x1 invisible box, an Escape Rope will take me back to the Fuchsia Pokemon Center.
+- Let me verify if I have an Escape Rope.
+- Inventory: Other: GOOD ROD, HM03, HM04, LIFT KEY, POKé FLUTE, SUPER ROD, TM45, ULTRA BALL x13.
+- Wait, I don't have an Escape Rope in my bag!
+- Stored Items in PC: ESCAPE ROPE. It's in the PC!
+- I can't use an Escape Rope!
+- Am I forced to white out? I don't have any Poisoned Pokemon to walk around and faint with.
+- This is catastrophic. I MUST be misinterpreting something.
+- "NO SOFT-LOCKS: It is IMPOSSIBLE to be truly stuck."
+- If it is impossible, then one of the walls I bumped into is NOT a wall.
+- Let me re-test the walls again, but this time I will use `move_sequence` to press the button multiple times with auto-wait, to ensure there's no "turn in place" ambiguity.
+- I will test DOWN. `move_sequence: DDDD`. If (7, 17) is open, I will move.
 
 <hr>
