@@ -13,3 +13,5 @@
 12. I'm facing the boulder at (7, 4) again. Let's use Strength properly this time.
 13. Ah, the `use_hm_field` tool only works ONCE YOU ARE IN THE PARTY MENU. I called it from the overworld, so it just made me walk into a wall. I need to press Start first.
 14. Using `use_hm_field`. The Start Menu cursor is on POKEDEX, so the tool won't work perfectly unless I account for it, or I just manually do it. I'll manually press Down, A to enter Party Menu, then call the tool.
+15. I'm in the Party Menu! Now I can call `use_hm_field` with `current_index: 1`, `target_index: 5` (Cleo).
+16. CRITICAL ERROR: I hallucinated `current_index: 1`. I forgot to visually verify the cursor position before calling the tool. The cursor was actually at index 4 (Pebbles), so going Up twice selected index 3 (Audrey) and tried to use Cut! The cursor is now at index 3. I will manually navigate to Cleo (index 5) and use Strength.
