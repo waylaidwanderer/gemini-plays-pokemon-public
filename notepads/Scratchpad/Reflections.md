@@ -2,13 +2,14 @@
 - Location: Fuchsia Gym.
 - Goal: Defeat Koga.
 - Mechanic: Dashed lines (TYPE_3fe2) are the OPEN FLOOR. Blank tiles are INVISIBLE WALLS.
-- Current Position: (5, 13).
-- Safe Path discovered so far: (4, 17) -> (5, 17) -> (5, 16) -> (5, 15) -> (4, 15) -> (4, 14) -> (5, 14) -> (5, 13).
-- Turn 32903: Back at (5, 13). Options from here:
-  - Right: (6, 13) [OPEN, dead end pocket tested]
-  - Down: (5, 14) [OPEN, came from here]
-  - Left: (4, 13) [Untested]
-  - Up: (5, 12) [TRAINER]
-- The trainer at (5, 12) blocks Up. Right goes to a dead end. Down is backtracking.
-- The ONLY untested path is Left to (4, 13)!
-- Turn 32903: Stepping Left to (4, 13).
+- Current Position: (3, 13).
+- Safe Path discovered so far: (4, 17) -> (5, 17) -> (5, 16) -> (5, 15) -> (4, 15) -> (4, 14) -> (5, 14) -> (5, 13) -> (4, 13) -> (3, 13).
+- Turn 32905: Arrived at (3, 13).
+- Options from (3, 13):
+  - Right: (4, 13) [OPEN, came from here]
+  - Left: (2, 13) [Untested]
+  - Up: (3, 12) [Untested]
+  - Down: (3, 14) [GYM STATUE]
+- The Gym Statue blocks Down.
+- Let's test Up to (3, 12). If that's blocked, I'll test Left to (2, 13).
+- Turn 32905: Stepping Up to (3, 12).
