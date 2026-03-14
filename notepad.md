@@ -1017,15 +1017,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Area 1 Center West Pocket: Exiting Area 4 West via (29, 22) drops you here. Walk West at (0, 11) to re-enter Area 4 West.
 - Area 4 West Y=4 Path: DOES NOT EXIST. Hallucinated. X=24 is a solid tree wall.
 
-[SECRET HOUSE ROUTE - TRUE PATH V2]
-1. Area 1 Center South -> Area 2 East (via East Exit at 29, 10).
-2. Area 2 East -> Area 3 North Right Half (via Northwest Exit at 0, 4).
-3. Area 3 North Right Half -> Area 1 Center NORTH HALF (via South Exit at 20, 35).
-   - Route: From (39, 31), walk West, take stairs DOWN at X=22, walk South to Y=35.
-4. Area 1 Center NORTH HALF -> Area 3 North LEFT HALF (Explore West for a second North Exit!).
-5. Area 3 North LEFT HALF -> Area 4 West True Entrance (X=3, Y=0 -> 21, 0).
-6. Area 4 West -> Secret House.
-
 <hr>
 
 <h1><code>Scratchpad/Area1_Layout</code></h1>
