@@ -37,5 +37,10 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 3. Area 3 North -> Area 4 West. We must find the correct exit on the WEST boundary of Area 3 North.
 4. Area 4 West -> Secret House.
 [Area 1 Center Layout]
-- East side of the lake (X=22..29, Y=10) is a DEAD END for going North. It is blocked by a tree wall at Y=9. It only leads to Area 2 East at (29, 10).
-- Must navigate North via the WEST side of the lake to reach Area 3 North.
+- Rest House is at X=16..19, Y=18..20.
+- North of the Rest House (Y=14..15) is a fence/gate structure blocking North.
+- Water (Lake) blocks North at Y=12..13 from X=12 to X=21.
+- East side of the lake (X=22..29) is a DEAD END for going North. Trapped by water (West) and tree wall (North at Y=9).
+- West side of the lake is a TRAP. Staggered tree walls at Y=15 and Y=16 overlap and completely block passage North.
+- Conclusion [Turn 31543]: Area 1 Center has NO DIRECT PATH NORTH to Area 3 North! The path is completely sealed.
+- You MUST exit East to Area 2 East (at 29, 10), navigate Area 2 East, and exit Northwest to reach Area 3 North.
