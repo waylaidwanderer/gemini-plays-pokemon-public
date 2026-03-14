@@ -1054,7 +1054,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - It does NOT connect North to the grass (dirt top edge is solid).
 - It connects the West lower path (via stairs at 12,7) to the East lower path (via stairs at 17,7).
 - Walking North from the East lower path (e.g., X=21) leads straight into the upper grass plateau (Y=3), bypassing the dirt bridge and its tree walls.
-- Path to Northwest Exit (0, 4): From the upper grass plateau, you must navigate around the tree wall at Y=3 and sign at (6,4). Route: Go East to X=7, South to Y=5, then West all the way to X=0.
+- Path to Northwest Exit (0, 4): From the upper grass plateau, you must navigate around the tree wall at Y=3 and sign at (6,4). Route: Go West to X=7, South to Y=5, then West all the way to X=0.
 
 [CRITICAL ROUTE UPDATE: SOUTH DIRT PLATEAU]
 - The South Dirt Plateau (Y=12..21) is a BRIDGE over the solid tree wall at Y=23!
