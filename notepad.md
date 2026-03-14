@@ -1027,6 +1027,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Error Analysis & Hypothesis Review: Tactical retreat strategy worked flawlessly.
 
 [Current Status]
-- Turn 33117: In Fuchsia Pokemon Center. Moving to counter to heal party.
+- Turn 33123: Healing complete. Exiting Pokemon Center to head to Warden's House at (27, 27).
 
 <hr>
