@@ -11,3 +11,7 @@
 - Notepad Hygiene: My routing notes for the Fuchsia Gym invisible walls have been highly effective. Step-by-step verification is preventing the hallucinations that usually plague my maze navigation.
 - Custom Tools: The battle tools and movement macros are functioning perfectly. Sticking to small chunks for movement was key here.
 - Goal Clarity: Defeat Koga. Unchanged and executing smoothly.
+[Retreat Plan]
+- Hydro and Dugtrio are at critical HP. No healing items in bag.
+- Retreating to Pokemon Center before Koga!
+- Reverse Path: (1, 7) -> (1, 5) -> (2, 5) -> (2, 3) -> (1, 3) -> (1, 1) -> (4, 1) -> (9, 1) -> (9, 5) -> (8, 5) -> (8, 9) -> (9, 9) -> (9, 16) -> (5, 16) -> (5, 17) -> (4, 17) -> Exit.
