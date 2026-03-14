@@ -164,3 +164,83 @@
 - I have the custom tool `move_sequence`. What if I use `move_sequence` to spam random directions? No, that's blind.
 - Let's try pressing `Up`. Yes, the Gym Guide is there. But what if the Gym Guide is NOT solid? NPCs are solid.
 - Let's talk to the Gym Guide again. Maybe talking to him from below triggers him to move? I just pressed Left and Down a bunch. Let's press Up.
+- Talked to the Gym Guide again. The text says "You have to find gaps in the walls".
+- Yes, I know. But if I am at (7, 16), and Left/Right/Down are all walls, and Up is the Gym Guide...
+- I need to critically examine the screen.
+- The Gym Guide is at (7, 15). I am at (7, 16).
+- If I am trapped on a 1x1 tile... could the Gym Guide have moved?
+- Look at the sprite! The Gym Guide at (7, 15) is SPRITE_0066.
+- In Turn 32814, when I entered, I didn't see the Gym Guide.
+- Let me check the intermediate states for Turn 32836. I pressed Up, then A. The Gym Guide is facing DOWN.
+- What if I walked UNDER the Gym Guide? No, you can't walk under NPCs.
+- Wait. I must have misread the "bumped" warnings.
+- Let's trace it back to my very first movements in this Gym.
+- Turn 32814: At (4, 17). Pressed `Right`. "visited 2 tiles" -> (5, 17).
+- Turn 32815: At (5, 17). Pressed `Right`. "visited 2 tiles" -> (6, 17).
+- Turn 32816: At (6, 17). Pressed `Right`. "visited 2 tiles" -> (7, 16).
+  - WAIT! FROM (6, 17) TO (7, 16)?
+  - (6, 17) -> (7, 17) is Right. (7, 17) -> (7, 16) is Up.
+  - If I only pressed `Right`, how did I move `Right` AND `Up`?
+  - Did the harness execute my planned sequence? In Turn 32816, my thought process was "I will walk Right again to (7, 17), then North to (7, 16)".
+  - I used `press_buttons` with `buttons=['Right']`. I did NOT use `['Right', 'Up']`.
+  - Is there a glitch where pressing a direction against a slanted wall slides you? No, this is Gen 1.
+  - What if my coordinate tracker is literally just telling me the truth: I moved from (6, 17) to (7, 16) because of a glitch? No, the tracker reads RAM.
+- Let me look at the screen.
+  - (6, 17): Dash line.
+  - (7, 17): Dash line.
+  - (8, 17): Dash line.
+  - (7, 16): No dash line.
+- The dashed lines are the walls.
+- If (7, 17) has a dashed line, it is a wall.
+- How did I get to (7, 16)?
+- Turn 32814: I was at (4, 17). The entrance mat is (4, 17) and (5, 17).
+- Wait. The entrance mat is at Y=17!
+- Let me look at the screen. The red mat is at (4, 17) and (5, 17).
+- So when I entered, I was at (4, 17) or (5, 17).
+- If I walk Right from (5, 17), I go to (6, 17).
+- Look at the screen. (6, 17) has a dashed line. It is a wall.
+- If (6, 17) is a wall, I COULD NOT HAVE WALKED THERE.
+- So how did I end up at (7, 16)?
+- LET ME CHECK MY ACTUAL ACTION IN TURN 32814.
+  - I used `press_buttons` with `Right`.
+  - "visited 2 tiles".
+  - My position was (4, 17). It became (5, 17).
+- Turn 32815:
+  - I used `press_buttons` with `Right`.
+  - My position was (5, 17). It became (6, 17)?
+  - WAIT. IF (6, 17) IS A WALL... Let me look at the screen.
+  - The text label on the screen for (6, 17) says "TYPE_3fe2". Underneath it, I see a dashed line.
+  - What if the dashed lines are NOT the walls?
+  - The Gym Guide said "find gaps in the walls".
+  - The walls are INVISIBLE. That means they don't have a distinct tile! They look like regular floor!
+  - Wait, TYPE_3fe2 IS the regular floor! The dashed lines are just the pattern of the regular floor!
+  - If the dashed lines are the regular floor, then the invisible walls must also be TYPE_3fe2 but with collision, OR they are a different TYPE.
+  - Wait, all the floor tiles are TYPE_3fe2.
+  - If they are all TYPE_3fe2, how do I see the walls? They are invisible!
+- Okay, let's go back to the fundamental problem. I am at (7, 16).
+- Left, Right, Down are blocked. Up is the Gym Guide.
+- This is physically impossible unless I am trapped in a 1x1 box.
+- Is it possible the Gym Guide is NOT at (7, 15)?
+- The Game State says "Player Position: (7, 16)".
+- The screen shows the Gym Guide at (7, 15).
+- If I am in a 1x1 box, I must have gotten here by WALKING THROUGH A WALL.
+- How can you walk through a wall in Gen 1? You can't.
+- Is there a warp? No.
+- Therefore, ONE of my movement tests MUST BE WRONG.
+- Let me review my movement tests at (7, 16).
+  - Turn 32827: `Left`. Result: "visited 0 tiles."
+  - Turn 32828: `Down`. Result: "visited 0 tiles."
+  - Turn 32829: `Left`, `Left`. Result: "visited 0 tiles."
+  - Turn 32830: `Down`, `Down`. Result: "visited 0 tiles."
+  - Turn 32832: `Right`, `Right`. Result: "visited 0 tiles."
+  - Turn 32833: `Left`, `Left`, `Left`. Result: "visited 0 tiles."
+- Every single test resulted in 0 tiles visited.
+- This means I bumped into a wall in every direction.
+- Could it be that the harness is failing to register my inputs because of an open menu or text box?
+- Look at the screen for Turn 32834. There is no text box. The screen is clear.
+- Look at the screen for Turn 32835. There is no text box.
+- Let me try pressing a direction that I KNOW I came from.
+- I came from the Left or Down.
+- What if I use `move_sequence` to forcefully walk Left? `autopress_buttons=True, sequence="L"`
+- The tool `move_sequence` uses the harness's movement logic.
+- Let me just press `Start` to open the menu. If the menu opens, I am in a normal overworld state. If it doesn't, something is wrong.
