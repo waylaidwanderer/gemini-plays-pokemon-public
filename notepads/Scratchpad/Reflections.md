@@ -53,3 +53,4 @@ Now exiting the house at (11, 27).
 43. Now back outside in Fuchsia City at (11, 28). I'll walk West along Y=28 to keep looking for the Gym. The Gym is usually a large building with a sign outside.
 44. Walked out of the house. Now at (11, 28). I'll walk West along Y=28 to explore the rest of the southern half of Fuchsia City.
 45. Whoops, I never actually left the house! My previous movement sequence made me bump into walls inside. I am at (1, 7) inside the house. The exit mat is at (2, 7) and (3, 7). I will walk Right then Down to exit properly.
+46. Back outside at (11, 28). Looking at the screen, I can see a building to the West with "YM" written on it! That must be the Gym! Walking West to enter it.
