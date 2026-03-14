@@ -237,3 +237,7 @@
 - Wait, I used `execute_battle_turn` which safely presses `Up, Left, A` then `A`.
 - So I just selected Surf again.
 - Let's mash B to clear the rest of the text and finish the turn.
+- Turn 32873: Hypno attacked me with Headbutt? Or Confusion? It did about 40 damage.
+- Hydro is at 66/148. Wait, I should probably heal him if he gets much lower, but Surf should finish it.
+- Let's use Surf again.
+- Action: Execute Battle Turn -> Surf.
