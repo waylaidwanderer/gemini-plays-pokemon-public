@@ -1112,3 +1112,13 @@ CONCLUSION RE-VERIFIED: The entire Northern boundary of the Western Upper Area i
 CONCLUSION: The South Grass is a completely sealed ONE-WAY LEDGE TRAP. Jumping down the ledge at (6, 19) permanently traps the player in the X=0..17, Y=19..24 pocket. The only escape is to Retire, run out of steps, or run out of Safari Balls.
 
 <hr>
+
+<h1><code>Scratchpad/Reflections</code></h1>
+
+[Turn 32078] 50-Turn Reflection:
+- Immediate Execution: Securing funds on Route 15 to re-enter Safari Zone.
+- Notepad/Map Hygiene: Main notepad cleaned of past reflections as per Overwatch. Map markers updated for defeated trainers.
+- Error Analysis: Misremembered trainer locations on Route 15, causing minor delays. Must trust empirical screen evidence over vague memory.
+- Goal Clarity: Goal is to acquire ¥500+, return to Safari Zone, and explore the West edge of Area 3 North to find the Secret House.
+
+<hr>
