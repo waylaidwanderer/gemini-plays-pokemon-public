@@ -1023,16 +1023,19 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Location: Fuchsia Gym.
 - Goal: Defeat Koga.
 - Mechanic: Dashed lines (TYPE_3fe2) are the OPEN FLOOR. Blank tiles are INVISIBLE WALLS.
-- Current Position: (1, 14).
-- Safe Path discovered so far: (4, 17) -> (5, 17) -> (5, 16) -> (5, 15) -> (4, 15) -> (4, 14) -> (5, 14) -> (5, 13) -> (4, 13) -> (3, 13) -> (2, 13) -> (1, 13) -> (0, 13) -> (0, 14) -> (0, 15) -> (0, 16) -> (0, 17) -> (1, 17) -> (2, 17) -> (3, 17) -> (3, 16) -> (2, 16) -> (2, 15) -> (1, 15) -> (1, 14).
-- Turn 32939: Arrived at (1, 14).
-- Options from (1, 14):
-  - Down: (1, 15) [OPEN, came from here]
-  - Left: (0, 14) [Loop path]
-  - Right: (2, 14) [TRAINER]
-  - Up: (1, 13) [DEAD END POCKET (Juggler)]
-- Since Up connects to a known dead end and Left is the loop, (1, 14) is a DEAD END.
-- I need to backtrack to (1, 15) and test Down to (1, 16).
-- Using `move_sequence: DD` to go from (1, 14) -> (1, 15) -> (1, 16).
+- Current Position: (1, 16).
+- Safe Path discovered so far: (4, 17) -> (5, 17) -> (5, 16) -> (5, 15) -> (4, 15) -> (4, 14) -> (5, 14) -> (5, 13) -> (4, 13) -> (3, 13) -> (2, 13) -> (1, 13) -> (0, 13) -> (0, 14) -> (0, 15) -> (0, 16) -> (0, 17) -> (1, 17) -> (2, 17) -> (3, 17) -> (3, 16) -> (2, 16) -> (2, 15) -> (1, 15) -> (1, 16).
+- Turn 32940: Arrived at (1, 16).
+- Options from (1, 16):
+  - Up: (1, 15) [OPEN, came from here]
+  - Left: (0, 16) [Loop path]
+  - Right: (2, 16) [OPEN, came from here earlier]
+  - Down: (1, 17) [Loop path]
+- CONCLUSION: The path Left to (1, 15) was a DEAD END that just re-connects back to the outer loop at (0, 16) and (1, 17)!
+- I need to backtrack to (2, 15) and re-evaluate. Did I miss a path?
+- At (2, 15), my options were: Left (1, 15), Down (2, 16), Right (3, 15 - solid bush), Up (2, 14 - TRAINER).
+- WAIT. The trainer at (2, 14) blocks the path Up.
+- But I can BATTLE the trainer to clear the path! Trainers in Gyms aren't just obstacles, they are gates!
+- I will move Right to (2, 16), then Up to (2, 15), then step Up to (2, 14) to battle the trainer.
 
 <hr>
