@@ -1023,14 +1023,14 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Location: Fuchsia Gym.
 - Goal: Defeat Koga.
 - Mechanic: Dashed lines (TYPE_3fe2) are the OPEN FLOOR. Blank tiles are INVISIBLE WALLS.
-- Current Position: (0, 17).
-- Safe Path discovered so far: (4, 17) -> (5, 17) -> (5, 16) -> (5, 15) -> (4, 15) -> (4, 14) -> (5, 14) -> (5, 13) -> (4, 13) -> (3, 13) -> (2, 13) -> (1, 13) -> (0, 13) -> (0, 14) -> (0, 15) -> (0, 16) -> (0, 17).
-- Turn 32929: Arrived at (0, 17). This is the bottom-left corner of the gym!
-- Options from (0, 17):
-  - Up: (0, 16) [OPEN, came from here]
-  - Left: Map Boundary
+- Current Position: (1, 17).
+- Safe Path discovered so far: (4, 17) -> (5, 17) -> (5, 16) -> (5, 15) -> (4, 15) -> (4, 14) -> (5, 14) -> (5, 13) -> (4, 13) -> (3, 13) -> (2, 13) -> (1, 13) -> (0, 13) -> (0, 14) -> (0, 15) -> (0, 16) -> (0, 17) -> (1, 17).
+- Turn 32930: Arrived at (1, 17).
+- Options from (1, 17):
+  - Left: (0, 17) [OPEN, came from here]
+  - Up: (1, 16) [Untested]
+  - Right: (2, 17) [Untested]
   - Down: Map Boundary
-  - Right: (1, 17) [Untested]
-- I will test Right to (1, 17).
+- Testing Right to (2, 17) next.
 
 <hr>
