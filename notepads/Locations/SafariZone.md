@@ -47,3 +47,12 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - West side of the lake is a TRAP. Staggered tree walls at Y=15 and Y=16 overlap and completely block passage North.
 - Conclusion [Turn 31543]: Area 1 Center has NO DIRECT PATH NORTH to Area 3 North! The path is completely sealed.
 - You MUST exit East to Area 2 East (at 29, 10), navigate Area 2 East, and exit Northwest to reach Area 3 North.
+[ROUTE: AREA 3 NORTH TO WEST GRASS ENTRANCE (Area 4 West)]
+1. Enter Area 3 North at (39, 31).
+2. Walk West through wavy grass to X=22, Y=31.
+3. Walk North to stairs at (22, 23). Step UP onto the dirt plateau.
+4. Walk West across plateau to X=16.
+5. Walk South down stairs at (16, 27) into the grass.
+6. Walk South to Y=30 (clears the water).
+7. Walk West to X=8 (gap between Rest House and water).
+8. Walk South to exit at (8, 35). This drops you in WEST GRASS at Area 4 West (21, 0)!
