@@ -10,3 +10,5 @@
   - (5, 16): Currently here.
 - I will test moving Right to (6, 16).
 - Action: Press `Right`.
+- Turn 32854: At (6, 16). The path Right to (7, 16) is open (I was just there and got confused). I will test moving Up to (6, 15).
+- Action: Press `Up`.
