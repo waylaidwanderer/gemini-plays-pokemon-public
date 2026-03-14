@@ -1021,13 +1021,14 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 <h1><code>Scratchpad/Reflections</code></h1>
 
 [50-Turn Reflection]
-- Immediate Execution: Exiting Fuchsia City to retrieve the Rainbow Badge from Celadon Gym.
-- Notepad Hygiene: Corrected my movement mechanics note. I forgot the harness auto-turns for me.
-- Custom Tools: use_hm_field is ready.
+- Immediate Execution: Withdrawing the Bicycle, then immediately departing for Celadon Gym.
+- Notepad Hygiene: Fuchsia City notes are corrected. 
+- Map Hygiene: Removed false PC marker. Will add a correct one when I exit.
+- Custom Tools: No new tools needed right now; `withdraw_item_pc` is perfectly suited for this task.
 - Goal Clarity: Celadon Gym (Rainbow Badge) -> Warden's House (Strength).
-- Error Analysis & Hypothesis Review: My sequence failures were caused by manually adding "turn" inputs when the harness already does it. A direction press always equals one step.
+- Error Analysis & Hypothesis Review: I suffered from severe confirmation bias regarding building interiors. I must strictly rely on `<CurrentScreen>` details (Nurse Joy, PC presence) rather than exterior assumptions.
 
 [Current Status]
-- Turn 33211: Overwatch snapped me out of it! The building at (19, 27) which leads to Map 0_154 IS the Pokemon Center! I hallucinated that the healing counter was a TV and missed the PC entirely because it's further right at (13, 1). Heading back there immediately to grab the Bicycle.
+- Turn 33221: In the PC Withdraw Item menu. Cursor is at index 1 (MAX ETHER). The BICYCLE is at index 13. Using custom tool to withdraw it!
 
 <hr>
