@@ -15,3 +15,4 @@ CONCLUSION: The South Grass is a completely sealed ONE-WAY LEDGE TRAP. Jumping d
 - [Turn 32205] TESTING EAST WALL OF EAST GRASS (X=24/25)
   Methodology: Walking South along X=25 from Y=0, visually and physically checking the tree wall at X=24 for any hidden gaps leading West. Currently at (25, 3).
 - [Turn 32207] Tested X=24 wall at Y=4 and Y=5. Both are solid TYPE_2889 bushes. Continuing South.
+- [Turn 32210] Completed X=24 wall bump test from Y=0 down to Y=13. It is completely solid. The wall shifts to X=23 at Y=14. East Grass is definitively separated from the West side here. Walking further South to find how to access the Dirt Trench stairs at (21, 17).
