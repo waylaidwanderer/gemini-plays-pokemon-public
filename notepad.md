@@ -1174,5 +1174,12 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - My options are Left (4, 13) or Right (6, 13).
 - I will move Right to (6, 13).
 - Action: Press `Right`.
+- Turn 32864: At (6, 13).
+- Let's look at the screen.
+- The path Right to (7, 13) is DASHED (Open).
+- The path Up to (6, 12) is BLANK (Wall). (There's a trainer at 5,12).
+- The path Down to (6, 14) is BLANK (Wall).
+- So from (6, 13), my only open path forward is Right to (7, 13).
+- I will move Right.
 
 <hr>
