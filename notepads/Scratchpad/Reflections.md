@@ -3,7 +3,14 @@
 - Goal: Defeat Koga.
 - Mechanic: Dashed lines (TYPE_3fe2) are the OPEN FLOOR. Blank tiles are INVISIBLE WALLS.
 - Safe Path: (4, 17) -> (5, 17) -> (5, 16) -> (5, 15) -> (4, 15).
-- Turn 32953: Backtracked to (2, 16).
-- The entire branch going left from (4, 15) all the way around the gym and up the left wall was a giant dead end loop!
-- I need to backtrack to (4, 15) and test the path UP from (5, 15).
-- Sequence from (2, 16): Right to (3, 16), Down to (3, 17), Right to (4, 17), Up to (4, 16), Right to (5, 16), Up to (5, 15).
+- Turn 32954: Arrived at (5, 15). Wait, my position is (6, 16)!
+- I executed `RDRURRU` from (2, 16).
+  - (2, 16) Right -> (3, 16)
+  - (3, 16) Down -> (3, 17)
+  - (3, 17) Right -> (4, 17)
+  - (4, 17) Up -> (4, 16)
+  - (4, 16) Right -> (5, 16)
+  - (5, 16) Right -> (6, 16)
+  - (6, 16) Up -> (6, 15) [BUMPED!]
+- The path from (5, 16) Right is (6, 16), which is open. Up from (6, 16) is blocked by a solid bush at (6, 15).
+- I need to step Left to (5, 16), then Up to (5, 15).
