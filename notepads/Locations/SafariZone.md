@@ -20,12 +20,12 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 9. THE WESTERN UPPER AREA IS A DEAD END. It is completely blocked from going North by Water at Y=13 and solid bushes. The Secret House is NOT here.
 10. CONCLUSION: There MUST be a second, undiscovered entrance to Area 4 West from Area 3 North. We must thoroughly explore the West edge of Area 3 North (West of the Rest House).
 
-[NEW STRATEGY: FIND THE FAR WEST EXIT]
-- The Area 4 West entrance from Area 3 North IS SPLIT into two isolated zones!
-- Exiting Area 3 North anywhere along the main southern exit (e.g., X=8 to X=15) warps you to (26, 0) in Area 4 West (EAST GRASS). This is a DEAD END that cannot reach the Secret House.
-- To reach the Secret House at (3, 3), you MUST enter Area 4 West at (21, 0) (WEST GRASS).
-- This requires finding the far-West exit in Area 3 North (likely at X=0..4).
-- We MUST explore Area 3 North and find a path that goes West over the X=5 tree wall to reach X=0..4.
+[NEW STRATEGY: THE LEFT HALF OF THE SAFARI ZONE]
+- Area 3 North is PARTITIONED by a solid wall at X=5 from Y=23 down to Y=35! The Right Half (where I've been) connects to Area 2 East and the FALSE entrance of Area 4 West (26,0).
+- The Left Half of Area 3 North contains the TRUE exit to Area 4 West (X=3, Y=35 -> warps to 21,0 West Grass).
+- How to reach the Left Half of Area 3 North? The entrance MUST be from Area 1 Center!
+- Area 1 Center must also be partitioned by the lake at Y=12. The East side goes to Area 2. The West side must go North to the Left Half of Area 3 North!
+- NEXT GOAL: Start a new Safari Zone run. Do NOT go to Area 2 East. Explore the WEST side of Area 1 Center to find a path going North!
 
 [KNOWN TRAPS & DEAD ENDS]
 - Area 4 West Trap Ledges: Jumping ledges at (14, 17) or (24, 17) traps you in the southern path, forcing an exit to Area 1 Center.
