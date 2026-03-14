@@ -1,12 +1,9 @@
-[Fuchsia Gym Optimal Path to Koga]
-- Entrance to Right Wall: (4, 17) -> (5, 17) -> (5, 16) -> (9, 16).
-- Up the Right Wall: (9, 16) -> straight up X=9 -> (9, 1).
-- Across the Top: (9, 1) -> straight left Y=1 -> (1, 1).
-- Down the Left Wall (threading trainers):
-  - (1, 1) -> (1, 3) -> (2, 3) -> (2, 5) -> (1, 5) -> (1, 9) -> (4, 9).
-  - Koga is at (4, 10).
+[50-Turn Reflection]
+- Immediate Execution: Successfully defeated Koga! Escaped the gym and arrived at the Pokemon Center to cure Hydro's poison. Next step: Heal, then go to Warden's House (27, 27) to use Strength on the boulder.
+- Notepad Hygiene: Cleared out the Fuchsia Gym optimal path since Koga is defeated.
+- Custom Tools: `move_sequence` proved incredibly valuable for backtracking through the gym puzzle without errors.
+- Goal Clarity: Goals are clear. After Warden's house, need to figure out how to get to Saffron City / deal with Team Rocket.
+- Error Analysis & Hypothesis Review: Tactical retreat strategy worked flawlessly.
+
 [Current Status]
-- Turn 33092: Successfully reached Koga at (4, 10). Team is fully healed. Initiating battle.
-- Defeated Koga on Turn 33111.
-- Received SoulBadge and TM06 (Toxic).
-- Now backtracking out of the Gym to heal Hydro.
+- Turn 33117: In Fuchsia Pokemon Center. Moving to counter to heal party.
