@@ -1470,5 +1470,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - I will press Start.
 - Turn 32845: The menu is open. I will navigate to POKéMON, select Dugtrio, and use DIG.
 - Turn 32846: Party Menu is open. Selecting Dugtrio (Index 2).
+- Turn 32847: Party Menu. Selected Dugtrio. Selecting DIG.
 
 <hr>
