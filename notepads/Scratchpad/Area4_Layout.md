@@ -5,3 +5,4 @@
 - NORTHERN DIRT TRENCH POCKET: The dirt path extending North at X=15/16 leads to a dead-end pocket (TM45 is at 19,7). The West wall (X=10) is definitively solid TYPE_2889 bushes from Y=6 to Y=9. The North edge (Y=5) is a solid South-facing ledge.
 - MAIN DIRT TRENCH: The main Dirt Trench (Y=16) runs West from X=16 and definitively ends at X=5. The ledge blocks North and bushes block West. The stairs at (21, 17) lead UP to the trench at Y=16.
 - TRUE PATH FOUND: Entering Area 4 West from the far West gap at Area 3 North (2, 35) places you at (20, 0) in Area 4 West. This connects to a Northern corridor at Y=4! You can walk West along Y=4, bypassing the East Grass, the Dirt Trench pocket, and the South Trap entirely! Currently exploring West along Y=4.
+- SECRET HOUSE: Located at X=4, Y=3 in the far West. Guarded by a statue at X=6 (Y=2..5). To reach the door, bypass the statue by walking South to Y=6, West to X=4, and North to the door.
