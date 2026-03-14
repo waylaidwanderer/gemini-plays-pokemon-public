@@ -2,11 +2,15 @@
 - Location: Fuchsia Gym.
 - Goal: Defeat Koga.
 - Mechanic: Dashed lines (TYPE_3fe2) are the OPEN FLOOR. Blank tiles are INVISIBLE WALLS.
-- Safe Path: (4, 17) -> (5, 17) -> (5, 16) -> (5, 15) -> (4, 15) -> (4, 14) -> (5, 14) -> (5, 13) -> (4, 13) -> (3, 13) -> (2, 13) -> (1, 13) -> (0, 13) -> (0, 14) -> (0, 15) -> (0, 16) -> (0, 17) -> (1, 17) -> (2, 17) -> (3, 17) -> (3, 16) -> (2, 16) -> (2, 15) -> (2, 14) -> (1, 14).
-- Turn 32950: Arrived at (1, 14).
-- Options from (1, 14):
-  - Right: (2, 14) [OPEN, came from here]
-  - Up: (1, 13) [DEAD END POCKET (Juggler)]
-  - Down: (1, 15) [Untested from this approach]
-  - Left: (0, 14) [Untested from this approach]
-- Testing Left to (0, 14).
+- Safe Path: (4, 17) -> (5, 17) -> (5, 16) -> (5, 15) -> (4, 15) -> (4, 14) -> (5, 14) -> (5, 13) -> (4, 13) -> (3, 13) -> (2, 13) -> (1, 13) -> (0, 13) -> (0, 14) -> (0, 15) -> (0, 16) -> (0, 17) -> (1, 17) -> (2, 17) -> (3, 17) -> (3, 16) -> (2, 16) -> (2, 15) -> (2, 14) -> (1, 14) -> (0, 14).
+- Turn 32951: Arrived at (0, 14).
+- Options from (0, 14):
+  - Right: (1, 14) [OPEN, came from here]
+  - Up: (0, 13) [OPEN, connects to earlier path]
+  - Down: (0, 15) [OPEN, connects to outer loop]
+- CONCLUSION: Stepping Left from (1, 14) puts me right back on the outer loop at (0, 14)! This means the ENTIRE branch from (2, 14) -> (1, 14) is another dead end that just rejoins the outer loop.
+- I must backtrack to (2, 14) and find another path. Wait, from (2, 14) my options were: Up (dead end 2, 13), Down (came from 2, 15), Left (dead end 1, 14), Right (Gym Statue).
+- Wait, is the Gym Statue at (3, 14) actually a solid wall, or is it just visual? Gym statues are usually solid. But maybe I should test it? Or maybe the safe path branches somewhere else?
+- Let's review: (4, 15) is where I went Left. What if I go Right from (4, 15)? No, wait. I entered at (4, 17). I went Right to (5, 17), Up to (5, 16), Up to (5, 15), Left to (4, 15), Left to (4, 14).
+- I need to systematically backtrack and test paths I ignored.
+- Let's backtrack to (2, 14).
