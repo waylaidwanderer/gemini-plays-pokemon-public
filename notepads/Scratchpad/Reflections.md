@@ -5,4 +5,4 @@
 
 [Current Status]
 - Turn 33252: Hit a dead end! The West exit from the South half of Fuchsia City (Y=18) leads to the lower path of Route 18, which is blocked by a one-way South-facing ledge at Y=0. I must return to Fuchsia City, navigate to the North half, and use the upper West exit to reach the Route 18 Gatehouse.
-- Turn 33252 Update: Biking East back to Fuchsia City (X=49, Y=9).
+- Turn 33254: Continuing East back to Fuchsia City (X=49, Y=9). Currently at (29, 9).
