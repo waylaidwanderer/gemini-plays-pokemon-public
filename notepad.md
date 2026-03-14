@@ -1029,10 +1029,12 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 <h1><code>Scratchpad/Area1_Layout</code></h1>
 
 [Area 1 Center Layout]
-- Rest House is at X=10..13, Y=14..15.
-- Lake is North of the Rest House.
-- West side of Area 1 Center is a TRAP. Staggered tree walls at Y=16 (X=0..5) and Y=15 (X=6..9) create a dead end pocket at (2, 17).
-- TRUE PATH NORTH: The gap is on the EAST side of the Rest House! Walk to X=20 or X=21, then walk North through the gap at Y=15.
-- From (20, 15), you can continue North to reach the exit to Area 3 North at (15, 0).
+- The Rest House is at X=16..19, Y=18..20.
+- North of the Rest House (Y=14..15) is a fence/gate structure with statues that blocks movement North.
+- Water (Lake) blocks movement North at Y=12..13 from X=12 to X=21.
+- East side of the lake (X=22..29) is a DEAD END for going North. It only leads to Area 2 East.
+- West side of the lake has staggered tree walls: Y=15 (X=6..15) is blocked by fences/trees. Y=16 (X=2..5) is blocked by trees.
+- TRUE PATH NORTH: The ONLY gap is at the FAR WEST (X=0, X=1)!
+- Route: Walk West along Y=17 to (1, 17), then walk North to bypass the Y=16 and Y=15 tree walls.
 
 <hr>
