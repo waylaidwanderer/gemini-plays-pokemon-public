@@ -1027,6 +1027,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Error Analysis & Hypothesis Review: I suffered from severe confirmation bias regarding building interiors. I must strictly rely on `<CurrentScreen>` details (Nurse Joy, PC presence) rather than exterior assumptions.
 
 [Current Status]
-- Turn 33257: Hallucination check! The gatehouse is NOT at X=34. I was completely making that up. The building I saw earlier was around X=12. I am currently at (23, 9) and will ride West to properly examine the building at X=12.
+- Turn 33259: The building at X=8..12 IS the Gatehouse, but it's on the UPPER path! The lower path of Route 18 (where I am) is a dead end blocked by ledges to the North. My realization at Turn 33252 was 100% correct. I must bike all the way East back to Fuchsia City, go to the NORTH half of the city, and use the upper West exit. Riding East now!
 
 <hr>
