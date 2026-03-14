@@ -1029,9 +1029,10 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 <h1><code>Scratchpad/Area1_Layout</code></h1>
 
 [Area 1 Center Lake & Rest House]
-- A Rest House is located at X=10, 11, Y=14, 15.
-- A lake is located North of the Rest House (starts around Y=13, X=8..11).
-- A solid tree wall extends West from the Rest House at Y=15, from X=10 to X=6.
-- The path North is open from X=5 to X=0. I can walk West to X=5, then North!
+- Rest House at X=10, 11, Y=14, 15.
+- Lake is North of Rest House (starts Y=13, X=8..11).
+- Staggered tree walls West of Rest House: Y=15 is wall from X=6..9. Y=16 is wall from X=2..5.
+- (2, 17) is marked as a Dead End Pocket. Thus, you CANNOT go North via the far West side (X=0..5) from South of the Rest House.
+- The path North MUST be East of the Rest House, between X=12 and X=21.
 
 <hr>
