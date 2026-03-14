@@ -2,16 +2,5 @@
 - Location: Fuchsia Gym.
 - Goal: Defeat Koga.
 - Mechanic: Dashed lines (TYPE_3fe2) are the OPEN FLOOR. Blank tiles are INVISIBLE WALLS.
-- Safe Path: (4, 17) -> (5, 17) -> (5, 16) -> (5, 15) -> (5, 14) -> (5, 13) -> (6, 13) -> (7, 13).
-- Turn 32960: Arrived at (7, 13).
-- Options from (7, 13):
-  - Left: (6, 13) [OPEN, came from here]
-  - Right: (8, 13) [TRAINER]
-  - Down: (7, 14) [OPEN (Wait, this is the dead-end pocket I explored earlier!)]
-  - Up: (7, 12) [WALL (visually a solid bush)]
-- Wait, I've been here before! In Turn 32888, I mapped (7, 13). From there I found Down leads to the Gym Guide dead end (7, 14)->(8, 14), Left is (6, 13), Up is a wall (7, 12), and Right is a TRAINER at (8, 13)!
-- THE TRAINER AT (8, 13) BLOCKS THE PATH!
-- So the real path must go THROUGH the trainer at (8, 13).
-- I need to step Right to engage the trainer at (8, 13)!
-- Next Step: Defeat trainer at (8, 13).
-- Turn 32961: Engaged Juggler at (8, 13). Using Surf.
+- Safe Path: (4, 17) -> (5, 17) -> (5, 16) -> (6, 16) -> (7, 16) -> (8, 16) -> (9, 16) -> (9, 15) -> (9, 14) -> (9, 13) -> (9, 12) -> (9, 11) -> (9, 10) -> (9, 9) -> (8, 9) -> (8, 8).
+- Current Action: Battling Juggler at (7, 8). He is about to send out his 4th Pokemon.
