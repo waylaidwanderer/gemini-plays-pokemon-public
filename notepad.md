@@ -1193,5 +1193,34 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Let me check my team. Hydro is 105/148. The rest are relatively low level for this Gym, but Hydro can sweep.
 - I'll step Down to (7, 14) to fight the trainer at (7, 15).
 - Action: Press `Down`.
+- Turn 32866: At (7, 14).
+- I am now facing the trainer at (7, 15).
+- If I step Down to (7, 15), I will bump into him and start a battle.
+- Looking at the screen:
+  - Left (6, 14): BLANK (Wall).
+  - Right (8, 14): DASHED (Open).
+  - Up (7, 13): DASHED (Open, came from here).
+- If I go Down, I fight. Since he's looking Up, he should spot me immediately anyway, right?
+- Wait, I pressed Down in 32865. The game state says "Player Position: (7, 14)".
+- The trainer is at (7, 15). He is facing Up.
+- Why didn't he spot me?
+- In Gen 1, trainers spot you when you step into their line of sight.
+- If I am at (7, 14) and he is at (7, 15) facing Up, I AM in his line of sight.
+- Wait. Look at the screen for Turn 32866.
+- The Gym Guide is at (7, 15).
+- THE TRAINER IS AT (8, 13)!
+- Wait. Let me look at the sprites.
+- (7, 15) is SPRITE_0066. This is the GYM GUIDE!
+- I talked to him at (7, 15) earlier! He gives the "Yo! Champ in making!" speech.
+- HE IS NOT A TRAINER!
+- Oh my god, I am so confused.
+- If the Gym Guide is at (7, 15), and I am at (7, 14), and I want to proceed, where do I go?
+- In Turn 32864, I was at (6, 13).
+- Turn 32865, I moved to (7, 13).
+- Turn 32866, I moved to (7, 14).
+- If I go Down to (7, 15), I will bump into the Gym Guide.
+- My path at (7, 14) has (8, 14) open to the Right.
+- Let me move Right to (8, 14).
+- Action: Press `Right`.
 
 <hr>
