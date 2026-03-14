@@ -22,3 +22,4 @@
 21. Exited the Warden's House. I am at (27, 28). There is a fence at (25, 28) blocking Westward movement, and a fence at Y=29 blocking Southward movement. I will walk East to X=31 to find a path around the fences.
 22. I need to find Koga's Gym. It's somewhere in Fuchsia City, probably in the southern half. I'll head south and west from here (31, 28) to explore.
 23. I'm at (31, 32) in the southeast corner of Fuchsia City. Walking West along Y=32 to see if I can get back to the center of town.
+24. Exploring the southeast part of Fuchsia City to find the Gym. Going West and North around the animal enclosures.
