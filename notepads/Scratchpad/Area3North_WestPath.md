@@ -13,3 +13,4 @@ Turn 31079: At (15, 5). Blocked East by tree at (16, 5). The path at X=12 going 
 Turn 31087: Confirmed! The solid bush wall at X=11 ends at Y=4. I can walk North to (12, 3), then turn West to cross into the previously inaccessible Western section of Area 3 North! Proceeding West now.
 Turn 31089: The path North at X=12 is indeed blocked by a tree at (12, 4). The solid wall at X=11 continues South into water. I cannot cross West here. However, I can still explore East along Y=6 and Y=7 to see if there is a path going North around these trees.
 Turn 31090: Walked East to (21, 6) following the bottom edge of the large tree wall. Continuing East to see if the path opens up to the North.
+Turn 31094: The solid tree wall at Y=4 ends at X=27. From X=28 Eastwards, the path opens up to the North! Heading North now from (29, 6).
