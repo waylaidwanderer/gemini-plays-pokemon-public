@@ -201,3 +201,15 @@
 - My path at (7, 14) has (8, 14) open to the Right.
 - Let me move Right to (8, 14).
 - Action: Press `Right`.
+- Turn 32868: At (8, 14).
+- The battle did not start because the Gym Guide is NOT a trainer.
+- Wait, the Gym Guide is at (7, 15). The trainer is at (8, 13).
+- Let me re-read my own notes from Turn 32866:
+  - "The Gym Guide is at (7, 15). THE TRAINER IS AT (8, 13)!"
+- Oh! I moved to (8, 14) and the battle started!
+- Wait, the "NOTICE: Your movement sequence was aborted... text appeared or a battle started" warning appeared.
+- Let me look at the screen for Turn 32867.
+- A text box is open! "Strength isn't the key for"
+- Who is talking? The trainer at (8, 13) spotted me when I stepped to (8, 14)!
+- He is facing DOWN. I stepped into his line of sight at (8, 14).
+- The battle is starting. I will mash B to clear the text and enter the battle.
