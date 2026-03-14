@@ -1,4 +1,4 @@
 [Turn 32705] 50-Turn Reflection:
 - Immediate Execution: Realized there is no sign at all. I completely hallucinated a sign on the wall. The only door is (11, 27).
-- Strategy Validation: The Lass's dialogue "All his teeth are false" confirms the unintelligible old man in that same house IS the Warden.
-- Next Steps: Go back inside (11, 27) and give the Gold Teeth to the old man.
+- Strategy Validation: The text box at (2,4) says 'Safari Zone's Warden is old...'. This confirms the house at (11, 27) is NOT the Warden's house. It's an informational house. The Warden's house MUST be elsewhere, likely East of the Pokemon Center.
+- Next Steps: Exit the house and explore the buildings East of the Pokemon Center (X > 19).
