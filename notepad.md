@@ -391,7 +391,7 @@ Route 3: Spearow, Pidgey
 - Bumping: To face a solid object (like a Cut bush), simply press the direction towards it. You will bump it and end up facing it.
 - [Gen 1 Ledge Mechanics] Ledges can face South OR East/West! Turn 33137 PROVED that an East-facing ledge (TYPE_44f6) at (23, 28) in Fuchsia City CAN be jumped by walking Right into it. Previous assumption that only South-facing ledges work is false.
 - HM FIELD MOVES: You MUST face the target tile (e.g., Cut bush, Water) BEFORE opening the Start Menu. The game checks your facing direction at the exact moment you select the move in the menu. Being adjacent is not enough.
-- [Cycling Road] Route 17 has an automatic downward slope that forces the player South. Use long sequences of Up presses to overcome the gravity when traveling North.
+- [Cycling Road] Route 17 has an automatic downward slope that forces the player South. Travel NORTH is IMPOSSIBLE with this harness due to the 500ms input delay allowing gravity to trigger. Must use Eastern routes to travel North.
 
 <hr>
 
@@ -1031,6 +1031,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Error Analysis & Hypothesis Review: Macro overshoot + misreading coordinates (seeing X=26 instead of X=6) caused a massive hallucination about an "upper path" on Route 18. I must strictly read the Game State Player Position and not guess where my macro ended up.
 
 [Current Status]
-- Turn 33281: Testing the far right edge (X=13) of the Route 18 -> 17 transition to see if the slope is weaker. If the harness delay still causes me to fall back down to Route 18, I will officially declare Northbound Cycling Road impossible and reroute East through Lavender Town.
+- Turn 33282: EMPIRICAL PROOF. Northbound travel on Cycling Road is IMPOSSIBLE with this harness. The 500ms input delay allows the game's gravity to push me South before the next 'Up' registers.
+- NEW ROUTE: Returning East to Fuchsia City, then taking Route 15 -> 14 -> 13 -> 12 -> Lavender Town -> Route 8 -> Saffron City -> Celadon City.
 
 <hr>

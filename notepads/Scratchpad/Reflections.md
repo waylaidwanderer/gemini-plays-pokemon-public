@@ -7,4 +7,5 @@
 - Error Analysis & Hypothesis Review: Macro overshoot + misreading coordinates (seeing X=26 instead of X=6) caused a massive hallucination about an "upper path" on Route 18. I must strictly read the Game State Player Position and not guess where my macro ended up.
 
 [Current Status]
-- Turn 33281: Testing the far right edge (X=13) of the Route 18 -> 17 transition to see if the slope is weaker. If the harness delay still causes me to fall back down to Route 18, I will officially declare Northbound Cycling Road impossible and reroute East through Lavender Town.
+- Turn 33282: EMPIRICAL PROOF. Northbound travel on Cycling Road is IMPOSSIBLE with this harness. The 500ms input delay allows the game's gravity to push me South before the next 'Up' registers.
+- NEW ROUTE: Returning East to Fuchsia City, then taking Route 15 -> 14 -> 13 -> 12 -> Lavender Town -> Route 8 -> Saffron City -> Celadon City.
