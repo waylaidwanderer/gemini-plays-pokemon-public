@@ -27,4 +27,24 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 
 [CURRENT STRATEGY: VERIFY AREA 1 CENTER WEST]
 - [Turn 31894] Overwatch flagged a critical hallucination: I never physically tested the tiles at Y=15/16 on the West side of Area 1 Center (X=0 to X=5) for a gap North.
-- I must return to Area 1 Center, go to the West side (around X=0..5, Y=17), and systematically bump UP into every tile to confirm if it's a solid wall or a hidden gap.
+- [Turn 31908] EMPIRICAL PROOF OBTAINED:
+  - Walked along Y=17 from X=6 to X=2, systematically pressing UP. Bumped into solid bushes (TYPE_2889) at (5, 16), (4, 16), (3, 16), and (2, 16).
+  - Attempted to walk West from (2, 17). Blocked by a large solid tree occupying (0, 16)-(1, 16) and (0, 17)-(1, 17).
+  - CONCLUSION: There is absolutely no gap North on the West side of Area 1 Center. The wall is 100% solid.
+
+[NEW STRATEGY: THE NORTH HALF OF AREA 1 CENTER]
+- Area 1 Center is partitioned into a South Half and a North Half by the lake.
+- The North Half of Area 1 Center is accessed FROM Area 3 North!
+- Area 3 North has TWO South Exits:
+  - (8..15, 35) -> Area 4 West (East Grass - DEAD END).
+  - (20, 35) -> Area 1 Center (15, 0) (NORTH HALF!).
+- Once in the North Half of Area 1 Center, we can walk West and find a SECOND North Exit to the Left Half of Area 3 North!
+
+[SECRET HOUSE ROUTE - TRUE PATH V2]
+1. Area 1 Center South -> Area 2 East (via East Exit at 29, 10).
+2. Area 2 East -> Area 3 North Right Half (via Northwest Exit at 0, 4).
+3. Area 3 North Right Half -> Area 1 Center NORTH HALF (via South Exit at 20, 35).
+   - Route: From (39, 31), walk West, take stairs DOWN at X=22, walk South to Y=35.
+4. Area 1 Center NORTH HALF -> Area 3 North LEFT HALF (Explore West for a second North Exit!).
+5. Area 3 North LEFT HALF -> Area 4 West True Entrance (X=3, Y=0 -> 21, 0).
+6. Area 4 West -> Secret House.
