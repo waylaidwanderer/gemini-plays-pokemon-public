@@ -1042,3 +1042,11 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - [Turn 31543] Time ran out while exploring the East side of Area 1 Center. The gap North MUST be on the West side of the lake, likely south of the Rest House.
 
 <hr>
+
+<h1><code>Scratchpad/Area2_Layout</code></h1>
+
+[Area 2 East Northwest Quadrant Search]
+- Y=6 is a solid wall of bushes and South-facing cliff edges from X=0 to X=10. Cannot go North from the lower level on the West side.
+- Heading to stairs at (12, 7) to re-evaluate the plateau paths.
+
+<hr>
