@@ -13,3 +13,12 @@
   - Down: (8, 16) [Untested]
 - I will test moving Right to (9, 15).
 - Using `move_sequence: R` to safely test and handle turn-in-place.
+- Turn 32884: At (9, 15).
+- Okay, (9, 15) is open.
+- Let's map from (9, 15):
+  - Left: (8, 15) [OPEN, came from here]
+  - Up: (9, 14) [Untested. Wait, in Turn 32879 I tried to move Right from (8, 14) to (9, 14) and bumped. So (9, 14) is a wall!]
+  - Right: (10, 15) [Untested]
+  - Down: (9, 16) [Untested]
+- If (9, 14) is a wall, then I can't go Up from here.
+- I will test Down to (9, 16).
