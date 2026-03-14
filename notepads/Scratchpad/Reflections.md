@@ -231,3 +231,4 @@
 - Hydro's moves: Surf (15), Tail Whip (30), Skull Bash (15), Water Gun (24)
 - Hypno is Psychic type. Surf is my best neutral STAB move.
 - I will use Surf.
+- Turn 32871: Hydro used Surf. Result pending. Waiting for animations to finish.
