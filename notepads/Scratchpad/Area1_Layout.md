@@ -18,3 +18,7 @@
   - Physically bumped UP into Y=15 from X=15 all the way to X=6. They are definitively SOLID bushes (TYPE_2889).
   - From X=2 to X=5, the bush wall steps down to Y=16 (TYPE_2889).
   - Moving to (2, 17) to physically test X=0 and X=1.
+- [Turn 31907] Visual check at (2, 17):
+  - (2, 16) is TYPE_2889.
+  - (1, 17) and (0, 17) appear to be a large tree (TYPE_2889).
+  - Executing physical bump test on all these tiles now.
