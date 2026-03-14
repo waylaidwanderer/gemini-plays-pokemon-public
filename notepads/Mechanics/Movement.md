@@ -6,5 +6,5 @@
 - 1st directional press turns the character in place.
 - 2nd consecutive press in the same direction moves the character to the next tile.
 - Custom tools MUST include a short sleep (e.g., 'sleep 150') between these presses to ensure the emulator registers them as distinct inputs, otherwise the character will just spin in place forever without triggering encounters.
-- [Gen 1 Ledge Mechanics] Jumpable ledges are EXCLUSIVELY South-facing (horizontal lines). The engine only supports jumping Down (South). Any vertical ledge (facing East or West) is a 100% solid wall and can NEVER be jumped. Treat all vertical ledges as hard boundaries.
+- [Gen 1 Ledge Mechanics] Ledges can face South OR East/West! Turn 33137 PROVED that an East-facing ledge (TYPE_44f6) at (23, 28) in Fuchsia City CAN be jumped by walking Right into it. Previous assumption that only South-facing ledges work is false.
 - HM FIELD MOVES: You MUST face the target tile (e.g., Cut bush, Water) BEFORE opening the Start Menu. The game checks your facing direction at the exact moment you select the move in the menu. Being adjacent is not enough.
