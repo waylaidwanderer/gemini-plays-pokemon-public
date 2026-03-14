@@ -1064,5 +1064,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 <h1><code>Scratchpad/Area3_Layout</code></h1>
 
 [Area 3 North Exploration]\n- [Turn 31808] Navigating the West boundary to find the far-West exit.\n- CHOKE POINT: Between Y=24 and Y=28, the path South is squeezed to just two tiles wide (X=6, X=7) between the Rest House/solid bushes at X=5 and the lake starting at X=8.\n- Strategy: Walk South through this choke point, then immediately head West at Y=28 to reach X=0..4.
+\n- Hypothesis: The Dirt Plateau at Y=22 (accessed via stairs at X=22 or X=16) is a BRIDGE that continues West over the fences/trees, leading to the far-West exit (X=0..4)!\n- Testing this by returning to the stairs at (16, 27) and walking West on the plateau instead of East.
 
 <hr>
