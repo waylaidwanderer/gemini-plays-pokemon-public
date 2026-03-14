@@ -1242,5 +1242,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   - Let me map the surrounding area from the screen before the battle started (Turn 32867).
   - At (8, 14), Left is (7, 14) [OPEN], Right is (9, 14) [OPEN], Down is (8, 15) [OPEN], Up is (8, 13) [TRAINER].
   - I'll deal with this battle first, then continue mapping my way to Koga.
+- Turn 32869: Mashing B to start the battle with the Juggler.
 
 <hr>
