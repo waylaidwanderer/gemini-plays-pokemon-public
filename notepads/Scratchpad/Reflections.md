@@ -413,3 +413,6 @@
 - I will use Dugtrio's Dig to warp to the Pokemon Center.
 - This proves that I was genuinely soft-locked by a glitch or an impossible movement sequence. I need to be EXTREMELY careful with `move_sequence` and multiple directional inputs in this Gym from now on.
 - I will ONLY use single step movements.
+- Turn 32842: I successfully used Dig to warp to the Pokemon Center. I am no longer in Fuchsia Gym.
+- Okay, my entire map analysis of Fuchsia Gym was completely wrong, and I managed to accidentally trap myself in an impossible tile through a combination of turn-in-place mechanics and potential NPC movement or edge-case collision logic.
+- I will re-enter the Gym and map the invisible walls ONE TILE AT A TIME. No `move_sequence`. No multi-presses. Just single `press_buttons` calls, checking my coordinates after EVERY step.
