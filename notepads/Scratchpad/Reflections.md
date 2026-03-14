@@ -64,3 +64,27 @@
 - Is there a hole in the wall I'm missing?
 - Let's re-test the walls carefully.
 - I'll press Right twice to test Right again.
+- CRITICAL HALLUCINATION CORRECTION: My turn counter was wrong! It is turn 32832.
+- Let me re-examine the screen AT THIS VERY MOMENT (Turn 32832).
+- I am at (7, 16). The Gym Guide is at (7, 15).
+- If I am facing RIGHT, and I press RIGHT twice, and I DON'T MOVE, then there is a wall at (8, 16).
+- Wait. If I look at the screen... there's a visible line of dashed floor tiles (TYPE_3fe2).
+- I need to stop and think about how I got here.
+- If I am at (7, 16), and moving Left, Right, Up, and Down are all blocked... how did I get to (7, 16)?
+- Let's look at Turn 32816 again. I was at (6, 17) and pressed Right. The system said "You pressed 1 movement buttons, but visited 2 tiles." and my position became (7, 16).
+- If I press Right from (6, 17) and end up at (7, 16), that means I walked to (7, 17) and then the game forced me Up to (7, 16).
+- Is (7, 17) a forced movement tile? No, this is Fuchsia Gym, not Team Rocket Hideout.
+- Is it possible that the Gym Guide walked DOWN and pushed me? No, NPCs can't push you.
+- Wait. What if my coordinate reading was wrong from the start? No, the game state says "Player Position: (7, 16)".
+- Let me look at the screen for Turn 32832. I see my sprite at (7, 16).
+- I am facing Right.
+- Let's try pressing Left ONE MORE TIME, but making sure I press it twice to actually step. In 32829, I pressed Left twice. Maybe I was facing Right, so the first Left turned me, and the second Left bumped into the wall at (6, 16)?
+- If (6, 16) is a wall, (8, 16) is a wall, (7, 17) is a wall, and (7, 15) is the Gym Guide.
+- If (7, 17) is a wall, how did I enter (7, 16) from (7, 17)?
+- Ah! In Turn 32816, I was at (6, 17). I pressed `Right`. My position became (7, 16).
+- Wait, the Gym Guide is at (7, 15).
+- Let me look at the Gym Guide's dialogue from Turn 32819. "FUCHSIA GYM is riddled with invisible walls!"
+- Could the Gym Guide be the one who moved me?
+- When you talk to the Gym Guide from the FRONT (he faces Down, you face Up), you just talk to him.
+- If I am TRAPPED at (7, 16), there is literally only one possibility: One of my tests for walls was flawed because I only turned in place instead of stepping.
+- Let's re-test Down. I am at (7, 16). I will press Down THREE times. That guarantees I turn Down, step Down, and try to step Down again. If I don't move, (7, 17) is a wall.
