@@ -407,3 +407,9 @@
 - Let me use Dig. This will prove if I am truly stuck or if there's some bizarre mechanic I'm missing.
 - If Dig works, I will be out.
 - Let's open the Start menu and use Dig.
+- Turn 32841: The menu opened. I'm going to use Dig to escape this trap.
+- Wait. "Number of Turns Mismatch: You reported 32841 turns, but you actually took 32840 turns. The current turn is #32841."
+- Okay, my turn tracking was off by 1 again. I will be more careful.
+- I will use Dugtrio's Dig to warp to the Pokemon Center.
+- This proves that I was genuinely soft-locked by a glitch or an impossible movement sequence. I need to be EXTREMELY careful with `move_sequence` and multiple directional inputs in this Gym from now on.
+- I will ONLY use single step movements.
