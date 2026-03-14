@@ -1027,7 +1027,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Error Analysis & Hypothesis Review: Tactical retreat strategy worked flawlessly.
 
 [Current Status]
-- Turn 33129: At (23, 32). I didn't hit the ledge properly last turn.
-- Testing East-jump hypothesis: Moving to (22, 31) and pressing Right against the East-facing ledge (TYPE_44f6) at (23, 31).
+- Turn 33130: At (23, 32). Confirmed that I am stuck below the Y=31 South-facing ledge.
+- The path East is blocked by statues at X=24.
+- I must walk West along Y=32 to X=8, then go North through the gap at (8, 31) to return to the upper level of the city.
+- Hypothesis: Vertical ledges cannot be jumped. To reach the Warden's House (27, 27), I must return to the top area (via Cut bush at 18, 19) and walk East across the top of the city.
 
 <hr>
