@@ -16,3 +16,8 @@
 [Turn 31323] Area 2 East Routing: Discovered a solid wall of bushes at Y=6 from X=0 to X=8. It is IMPOSSIBLE to walk straight North from the Dirt Trench along the West edge to reach the (0, 4) exit. The path must be further East, possibly via the stairs at (12, 7).
 [Turn 31326] Taking stairs up at (12, 7) to reach the northern part of the plateau.
 [Turn 31337] Area 2 East Routing: The stairs at (12, 7) lead up to a dirt plateau. West is blocked at X=10, but the plateau continues EAST. We can bypass the tree at (14, 8) by walking East on the plateau and taking stairs down at (17, 7).
+[Turn 31348 CRITICAL REVELATION]
+- Area 2 East is a ONE-WAY LOOP from Area 3 North. The ledges at Y=6 mean you CANNOT walk from the rest of Area 2 East to the (0, 4) exit to Area 3 North.
+- The Safari Zone is NOT linear (1->2->3->4).
+- The TRUE path from Area 1 Center to Area 3 North is the NORTH EXIT of Area 1 Center at (15, 0)!
+- I have been wasting runs going to Area 2 East. The correct route is: Area 1 Center (North) -> Area 3 North (West) -> Area 4 West.
