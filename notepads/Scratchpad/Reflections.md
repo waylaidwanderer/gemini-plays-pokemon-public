@@ -7,4 +7,4 @@
 - Error Analysis & Hypothesis Review: Macro overshoot + misreading coordinates (seeing X=26 instead of X=6) caused a massive hallucination about an "upper path" on Route 18. I must strictly read the Game State Player Position and not guess where my macro ended up.
 
 [Current Status]
-- Turn 33279: I transitioned to Route 17 (Cycling Road) but was immediately pushed back to Route 18. This is because Cycling Road has an automatic downward slope! If I stop on the transition tile, it forces me South back to the previous map. I need to use a longer sequence of UP presses to get well into Route 17.
+- Turn 33280: The harness stabilization delay (500ms) between inputs allows Cycling Road's gravity to push me back down to Route 18 before my next "Up" registers. Upward travel might be physically impossible for me. I will test the far right edge (X=13). If it fails, I must reroute through Route 15 -> Lavender Town -> Saffron City -> Celadon City.
