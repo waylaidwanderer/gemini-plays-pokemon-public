@@ -1078,6 +1078,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - CENTRAL TREE WALL: The solid tree wall at Y=4 (from X=17 onwards) ends at X=28. At X=28, a path North leads to the Northern edge (Y=1..3).
 - NORTHERN CROSSING: The top edge of the map (Y=1..3) is completely clear of obstacles, allowing passage from X=28 all the way to the far West edge! This is the definitive route to bypass the lakes and reach the West side of Area 3 North.
 - TRUE WEST PATH: The far west edge of the map has a clear, 1-tile wide path South along X=1. This is the path discovered after crossing the Northern edge. I am currently walking South on it.
+- TRUE WEST PATH GATES: The path South along X=1 is blocked at Y=34 by a Rest House. However, there is a 2-tile wide gap between Rest Houses at X=2 and X=3. This gap leads South to what should be the true entrance to Area 4 West!
 
 <hr>
 
