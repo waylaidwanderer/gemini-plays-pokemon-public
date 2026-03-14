@@ -2,8 +2,10 @@
 - Location: Fuchsia Gym.
 - Goal: Defeat Koga.
 - Mechanic: Dashed lines (TYPE_3fe2) are the OPEN FLOOR. Blank tiles are INVISIBLE WALLS.
-- Safe Path: (4, 17) -> (5, 17) -> (5, 16) -> (6, 16) -> (7, 16) -> (8, 16) -> (9, 16) -> (9, 15) -> (9, 14) -> (9, 13) -> (9, 12) -> (9, 11) -> (9, 10) -> (9, 9) -> (8, 9).
-- Turn 33053: Ash is at (8, 9). Koga is visible at (4, 10).
-- The path around Koga at X=4..6, Y=9..11 is a closed loop! Access must be from the far Left (X<4).
-- I am on the Right side of the Gym. X=6 and X=7 are solid walls blocking crossing here.
-- Strategy: Walk UP along X=8 to search for a crossover at the top of the Gym (Y<4).
+- Safe Path: (4, 17) -> (5, 17) -> (5, 16) -> (6, 16) -> (7, 16) -> (8, 16) -> (9, 16) -> (9, 15) -> (9, 14) -> (9, 13) -> (9, 12) -> (9, 11) -> (9, 10) -> (9, 9) -> (8, 9) -> (8, 8) -> (8, 7) -> (8, 6) -> (8, 5).
+- Turn 33054: Ash is at (8, 5).
+- There is a Juggler at (8, 4) facing Down.
+- The path Right at (9, 5) is OPEN.
+- The path Up along X=9 is OPEN all the way to Y=1.
+- Y=1 is OPEN all the way across the top, allowing access to the Left side!
+- Strategy: Move to (9, 5) then UP to (9, 2).
