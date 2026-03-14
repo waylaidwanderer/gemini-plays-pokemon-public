@@ -1043,5 +1043,12 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   - Down: (9, 16) [Untested]
 - If (9, 14) is a wall, then I can't go Up from here.
 - I will test Down to (9, 16).
+- Turn 32885: Down worked. I am at (8, 15).
+- Let me map from (8, 15):
+  - Left (7, 15): Gym Guide
+  - Up (8, 14): OPEN (I came from here)
+  - Down (8, 16): Untested
+  - Right (9, 15): Untested
+- I will test moving Right to (9, 15).
 
 <hr>
