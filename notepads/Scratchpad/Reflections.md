@@ -6,6 +6,6 @@
 - Error Analysis & Hypothesis Review: Tactical retreat strategy worked flawlessly.
 
 [Current Status]
-- Turn 33131: At (18, 32). Discovered gap in the South-facing ledge at X=16!
-- Plan: Move Left to (16, 32), then North through the gap to (16, 28). From there, check if Y=27 is open to walk East to the Warden's House at (27, 27).
-- Note: My previous assumption about the X=8 gap was wrong; the gap is at X=16. The East-jump note was also wrong. Navigating via X=16 and Y=27 seems correct.
+- Turn 33132: At (16, 28). The path North is blocked by a row of buildings (Y=27).
+- Plan: Walk West along Y=28 to find a gap between the buildings to head North to the upper half of the city.
+- Testing the area around X=11 to X=8.
