@@ -1027,8 +1027,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Error Analysis & Hypothesis Review: Tactical retreat strategy worked flawlessly.
 
 [Current Status]
-- Turn 33149: Start menu is open. Cursor is on POKeDEX.
-- Strategy: Press Down, A to enter Party Menu. Then visually verify the cursor position before using the `use_hm_field` tool to select Cleo (index 5) for STRENGTH.
-- Once STRENGTH is active, push the boulder at (8, 4) to the Right, then collect the item at (8, 3).
+- Turn 33151: Party Menu is open. Cursor is confirmed visually on HYDRO (index 1).
+- Executing `use_hm_field` tool to select Cleo (index 5) and activate STRENGTH.
+- After STRENGTH is active, I will push the boulder at (8, 4) to the Right.
 
 <hr>
