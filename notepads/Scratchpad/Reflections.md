@@ -1,7 +1,7 @@
 [50-Turn Reflection]
-- Immediate Execution: Ride West on Route 18 to X=6, then North to Cycling Road!
+- Immediate Execution: Exit Gatehouse West, ride West on Route 18 to Cycling Road.
 - Goal Clarity: Celadon Gym (Rainbow Badge) -> Warden's House (Strength).
-- Error Analysis & Hypothesis Review: I have been severely hallucinating. I thought the Gatehouse was a dead end, then I thought Cycling Road was a dead end. I've been ping-ponging on the West side of Route 18. 
+- Error Analysis & Hypothesis Review: The "upper path" theory was a complete hallucination caused by macro overshoot and misreading my X coordinate (confusing 26 with 6). The gatehouse (0_190) connects the East and West halves of Route 18. I am currently in the gatehouse and need to exit West, then carefully ride West until the path turns North.
 
 [Current Status]
-- Turn 33261: REALIZATION: The Route 18 Gatehouse spans X=34 to X=41. I am currently inside it at the West door (0, 5). The path to Cycling Road is to exit WEST to (33, 9), ride WEST to X=6, and go NORTH. There are NO ledges blocking the way North at X=6! I will exit West and ride to Cycling Road immediately.
+- Turn 33265: Exiting the Gatehouse to the West. Will use short movements to find the North turn.
