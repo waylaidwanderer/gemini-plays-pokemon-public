@@ -1025,14 +1025,14 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Mechanic: Dashed lines (TYPE_3fe2) are the OPEN FLOOR. Blank tiles are INVISIBLE WALLS.
 - Current Position: (3, 13).
 - Safe Path discovered so far: (4, 17) -> (5, 17) -> (5, 16) -> (5, 15) -> (4, 15) -> (4, 14) -> (5, 14) -> (5, 13) -> (4, 13) -> (3, 13).
-- Turn 32905: Arrived at (3, 13).
+- Turn 32906: Stepped Up to (3, 12), but bumped. So (3, 12) is a wall.
 - Options from (3, 13):
   - Right: (4, 13) [OPEN, came from here]
   - Left: (2, 13) [Untested]
-  - Up: (3, 12) [Untested]
+  - Up: (3, 12) [WALL]
   - Down: (3, 14) [GYM STATUE]
-- The Gym Statue blocks Down.
-- Let's test Up to (3, 12). If that's blocked, I'll test Left to (2, 13).
-- Turn 32905: Stepping Up to (3, 12).
+- The Gym Statue blocks Down. Up is a wall. Right is backtracking.
+- The ONLY untested path is Left to (2, 13).
+- Let's step Left.
 
 <hr>
