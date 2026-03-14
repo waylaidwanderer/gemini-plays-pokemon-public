@@ -1016,5 +1016,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - CONCLUSION: The Secret House is NOT in the West, South, or Trench areas. There MUST be an overlooked gap or path in the East Grass near the entrance at (26, 0), potentially leading North to where an Item Ball was spotted at Y=5. I will thoroughly re-examine the East Grass wall upon re-entry.
 [Timestamps]
 - Secret House Search Resumed: Turn 30780
+- Turn 30902: Systematically re-tested East Grass wall. Bumping Left along X=24 from Y=1 to Y=13 confirmed solid tree wall. At Y=14, X=24 is passable, but X=23 is a solid tree wall extending South. The East Grass is definitively blocked from reaching the West Grass directly. No hidden gaps exist.
 
 <hr>
