@@ -1023,13 +1023,13 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Location: Fuchsia Gym.
 - Goal: Defeat Koga.
 - Mechanic: Dashed lines (TYPE_3fe2) are the OPEN FLOOR. Blank tiles are INVISIBLE WALLS.
-- Safe Path: (4, 17) -> (5, 17) -> (5, 16) -> (5, 15) -> (4, 15) -> (4, 14) -> (5, 14) -> (5, 13) -> (4, 13) -> (3, 13) -> (2, 13) -> (1, 13) -> (0, 13) -> (0, 14) -> (0, 15) -> (0, 16) -> (0, 17) -> (1, 17) -> (2, 17) -> (3, 17) -> (3, 16) -> (2, 16) -> (2, 15) -> (2, 14).
-- Turn 32950: Backtracked to (2, 14).
-- Options from (2, 14):
-  - Up: (2, 13) [DEAD END]
-  - Down: (2, 15) [OPEN, came from here]
-  - Left: (1, 14) [Untested]
-  - Right: (3, 14) [WALL (visually a Gym Statue)]
-- I will test Left to (1, 14).
+- Safe Path: (4, 17) -> (5, 17) -> (5, 16) -> (5, 15) -> (4, 15) -> (4, 14) -> (5, 14) -> (5, 13) -> (4, 13) -> (3, 13) -> (2, 13) -> (1, 13) -> (0, 13) -> (0, 14) -> (0, 15) -> (0, 16) -> (0, 17) -> (1, 17) -> (2, 17) -> (3, 17) -> (3, 16) -> (2, 16) -> (2, 15) -> (2, 14) -> (1, 14).
+- Turn 32950: Arrived at (1, 14).
+- Options from (1, 14):
+  - Right: (2, 14) [OPEN, came from here]
+  - Up: (1, 13) [DEAD END POCKET (Juggler)]
+  - Down: (1, 15) [Untested from this approach]
+  - Left: (0, 14) [Untested from this approach]
+- Testing Left to (0, 14).
 
 <hr>
