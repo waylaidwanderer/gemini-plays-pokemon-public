@@ -1440,5 +1440,33 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Turn 32843: I successfully used Dig to warp to the Pokemon Center. I am no longer in Fuchsia Gym.
 - Okay, my entire map analysis of Fuchsia Gym was completely wrong, and I managed to accidentally trap myself in an impossible tile through a combination of turn-in-place mechanics and potential NPC movement or edge-case collision logic.
 - I will re-enter the Gym and map the invisible walls ONE TILE AT A TIME. No `move_sequence`. No multi-presses. Just single `press_buttons` calls, checking my coordinates after EVERY step.
+- Turn 32844: Dig didn't work. I am still at (7, 16).
+- Let me check the Game State: "Player Position: (7, 16)".
+- Let me check my party. Dugtrio has DIG.
+- Wait. "But, CLEO can't learn more than 4 moves!"
+- Ah, Dig is a field move! I used `use_hm_field`, which goes to the Party Menu, selects the Pokemon, and selects the move.
+- Did `use_hm_field` actually execute Dig?
+- Let's look at the intermediate states for Turn 32843:
+  - State 0: Overworld.
+  - State 1: Overworld.
+  - State 2: Overworld.
+  - State 3: Overworld.
+  - State 4: Overworld.
+  - The tool pressed `B` 5 times in Turn 32843 because I called `safe_mash_b`!
+  - Wait, I called `use_hm_field` in Turn 32841, NOT 32843!
+- Let's look at Turn 32841: I called `use_hm_field`.
+  - The results were: `Down, A, sleep 500, A, sleep 2000, A`
+  - In Turn 32841, the menu was ALREADY OPEN.
+  - The tool `use_hm_field` assumes you are in the Party Menu!
+  - But I was in the START MENU!
+  - So `Down` moved the cursor from POKEDEX to POKEMON.
+  - `A` opened the Party Menu.
+  - `A` selected Hydro!
+  - `A` selected... STATS?
+  - The tool completely failed to use Dig because I didn't set up the initial state correctly!
+- OKAY. I am an absolute idiot.
+- I am STILL at (7, 16). I am STILL trapped.
+- Let me just open the Start menu, go to Pokemon, select Dugtrio, and use Dig MANUALLY.
+- I will press Start.
 
 <hr>
