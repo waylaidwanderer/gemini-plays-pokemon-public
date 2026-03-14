@@ -1083,5 +1083,16 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   - Left: (6, 14) [WALL]
   - Down: (7, 15) [Gym Guide]
 - So to continue mapping, I must go Up to (7, 13).
+- Turn 32888: At (7, 13).
+- I moved Up successfully.
+- Let's map from (7, 13):
+  - Down: (7, 14) [OPEN, came from here]
+  - Left: (6, 13) [OPEN]
+  - Right: (8, 13) [TRAINER]
+  - Up: (7, 12) [Untested]
+- I need to test Up to (7, 12). If that's blocked, my only path is Left to (6, 13), which I've been to before.
+- Wait, I was at (6, 13) in Turn 32864, and I moved Right to (7, 13)!
+- If I go Left to (6, 13), I am backtracking.
+- Let's test Up to (7, 12).
 
 <hr>
