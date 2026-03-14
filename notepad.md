@@ -1092,9 +1092,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 
 <h1><code>Scratchpad/Reflections</code></h1>
 
-[Turn 32337] 50-Turn Reflection:
-- Immediate Execution: Re-entering Safari Zone after timer expired. Cleaned up Area 3 notes to reflect facts rather than theories.
-- Error Analysis: The misinterpretation of the context summary regarding the X=6/7 path was a major blunder that wasted a Safari Zone run. I must read summaries more literally and cross-reference them with established layout facts.
-- Strategy: Execute the known route through Area 2 East to Area 3 North, then Area 4 West to resume exploring the main Dirt Trench.
+[Turn 32390] 50-Turn Reflection:
+- Immediate Execution: Successfully retraced my steps back to Area 4 West. Currently in the main Dirt Trench at Y=16, walking West.
+- Error Analysis: I previously recorded the Dirt Trench as Y=17. The stairs at (21, 17) lead UP to Y=16. The trench itself is Y=16. The North edge (Y=15) is a South-facing ledge, preventing upward movement.
+- Strategy: Continue walking West along Y=16 from X=12 to X=5. The Secret House must be accessible from this path.
 
 <hr>
