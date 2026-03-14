@@ -7,4 +7,5 @@
   - Y=14 to Y=19: Lake is at X=4..7. (Grass corridor is X=8..13).
   - Y=10 to Y=13: Lake is at X=8..11. (Grass corridor is X=12..13).
 - [Turn 31826] Reached (12, 7). Going North is blocked at Y=4 by a solid bush wall. Going West is blocked at X=11 by a solid bush wall.
-- The only way forward is East along Y=6 and Y=7. Testing if this loops back to the main area.
+- The only way forward is East along Y=6 and Y=7.
+- [Turn 31828] At (17, 7). Just north of a Rest House (roof at Y=11). This path heads East towards the center/main area of Area 3 North! I might just be looping back.
