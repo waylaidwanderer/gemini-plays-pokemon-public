@@ -1033,6 +1033,10 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - The path North must be on the WEST side of the lake.
 - I need to walk South, then West to find the gap around the West side of the lake.
 - [Turn 31543] Time ran out while exploring the East side of Area 1 Center. The gap North MUST be on the West side of the lake, likely south of the Rest House.
+- [Turn 31864] Exploring West side of Area 1 Center.
+  - At X=0..5, Y=16 is a solid tree/bush wall blocking North.
+  - At X=6..9, Y=15 is a solid bush wall blocking North.
+  - Heading East towards X=10..11 to see if there is a gap before the lake starts at X=12.
 
 <hr>
 
