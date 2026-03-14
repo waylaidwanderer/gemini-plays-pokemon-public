@@ -24,3 +24,4 @@ Turn 31123: I am at (3, 35) in Area 3 North. This is the southern boundary! The 
 Turn 31123: Confirmed the left building is inaccessible background decoration. The entire West boundary of Area 3 North from Y=0 to Y=35 is solid. There is NO alternate entrance to Area 4 West from here. The path to the Secret House MUST be inside Area 4 West via the known entrances. Proceeding to Area 4 West via (8, 35).
 [Area 4 West - West Grass Exploration]
 Turn 31126: Spawned at (21, 0) in Area 4 West by taking the LEFT side of the South exit from Area 3 North. This places me on the WEST side of the solid tree wall (X=22..25). Exploring this new area now!
+Turn 31130: Found an Item Ball at (9, 7) in the West Grass of Area 4 West! Walking over to collect it now.
