@@ -6,7 +6,6 @@
 - Error Analysis & Hypothesis Review: Tactical retreat strategy worked flawlessly.
 
 [Current Status]
-- Turn 33154: Realized we need the Rainbow Badge to use Strength. Exiting the Warden's House.
-- Plan: Go to the Pokemon Center (19, 27) in Fuchsia City, withdraw the BICYCLE from the PC.
-- Then, travel West from Fuchsia to Route 18 and take Cycling Road (Route 17) up to Celadon City to fight Erika.
-- Exiting Warden's House: Left 3, Down 3.
+- Turn 33156: Outside Warden's House at (27, 28).
+- Heading to Pokemon Center (19, 27) to withdraw BICYCLE.
+- Path: Down 2 to (27, 30), Left 8 to (19, 30), Up 3 to enter PC.

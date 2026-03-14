@@ -1027,8 +1027,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Error Analysis & Hypothesis Review: Tactical retreat strategy worked flawlessly.
 
 [Current Status]
-- Turn 33155: Standing on the exit tile (4, 7) of the Warden's House.
-- Next step: Exit the house, navigate to the Fuchsia Pokemon Center (19, 27), and withdraw the BICYCLE.
-- Path from Warden's door (27, 28): Down to Y=30, Left to X=19, Up to Y=28, enter PC.
+- Turn 33156: Outside Warden's House at (27, 28).
+- Heading to Pokemon Center (19, 27) to withdraw BICYCLE.
+- Path: Down 2 to (27, 30), Left 8 to (19, 30), Up 3 to enter PC.
 
 <hr>
