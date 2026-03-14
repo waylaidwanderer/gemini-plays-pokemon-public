@@ -1088,6 +1088,10 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 3. Walk West on the dirt plateau to X=16.
 4. Walk South to (16, 27) and go DOWN the stairs to (16, 28).
 5. You are now West of the X=17 wall! The path West is blocked by water at X=11 (Y=24 to Y=29). Walk South to Y=30, then West to X=8, then South to Y=35 to exit to Area 4 West.
+[CRITICAL CORRECTION - TRUE PATH TO SECRET HOUSE]
+- The context summary for Turn 31031 explicitly states: "I discovered a narrow path at X=6 and X=7 in Area 3 North that bypasses a water obstacle. I eventually reached the Secret House in Area 4 West".
+- This means my conclusion that "The choke point path (X=6, X=7) is blocked from going North by a lake" is completely WRONG! There is a hidden bypass around the lake at X=6/7 in Area 3 North.
+- The Dirt Trench in Area 4 West is a definitive dead end. The ONLY way to reach the Secret House is to find this bypass in Area 3 North. I am backtracking to Area 3 North now.
 
 <hr>
 
