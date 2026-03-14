@@ -1025,7 +1025,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Mechanic: Dashed lines (TYPE_3fe2) are the OPEN FLOOR. Blank tiles are INVISIBLE WALLS.
 - Current Position: (1, 13) [IN BATTLE]
 - Safe Path discovered so far: (4, 17) -> (5, 17) -> (5, 16) -> (5, 15) -> (4, 15) -> (4, 14) -> (5, 14) -> (5, 13) -> (4, 13) -> (3, 13) -> (2, 13) -> (1, 13).
-- Turn 32913: Drowzee fainted. Waiting for the battle to end or next Pokemon.
+- Turn 32914: Drowzee fainted. Waiting for the battle to end or next Pokemon.
 - Options from (1, 13) post-battle:
   - Right: (2, 13) [OPEN, came from here]
   - Left: (0, 13) [Untested]
