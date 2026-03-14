@@ -1028,5 +1028,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 6. Goal Clarity: Teach Strength -> Move Boulder -> Get Item -> Koga's Gym.
 7. Error Analysis: I need to remember that HM field moves (like Strength) need to be activated from the Party Menu *while facing the boulder*.
 8. Cleo forgot Scratch to learn Strength!
+9. Facing the boulder at (7, 4) in the Warden's House. Time to use Strength.
 
 <hr>
