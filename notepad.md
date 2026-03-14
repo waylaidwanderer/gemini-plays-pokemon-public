@@ -1035,6 +1035,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - East side of the lake (X=22..29) is a DEAD END for going North. It only leads to Area 2 East.
 - West side of the lake is a TRAP. The staggered tree walls at Y=15 and Y=16 overlap and completely block passage North.
 - TRUE PATH NORTH: Re-evaluating the EAST side of the lake (X=22..28).
-- Previously noted a tree wall at Y=9 blocks X=27. I am currently walking North at X=28 to verify if the entire East side is blocked, or if there is a gap I missed.
+- I am at (28, 11). Y=9 is a tree wall here. The exit to Area 2 East is at (29, 10). I must go West from here to find the gap North to Area 3 North!
 
 <hr>
