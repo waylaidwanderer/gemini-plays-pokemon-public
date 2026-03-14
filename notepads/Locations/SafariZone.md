@@ -20,20 +20,26 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 9. THE WESTERN UPPER AREA IS A DEAD END. It is completely blocked from going North by Water at Y=13 and solid bushes. The Secret House is NOT here.
 10. CONCLUSION: There MUST be a second, undiscovered entrance to Area 4 West from Area 3 North. We must thoroughly explore the West edge of Area 3 North (West of the Rest House).
 
-[NEW STRATEGY: THE LEFT HALF OF THE SAFARI ZONE]
-- Area 3 North is PARTITIONED by a solid wall at X=5 from Y=23 down to Y=35! The Right Half (where I've been) connects to Area 2 East and the FALSE entrance of Area 4 West (26,0).
-- The Left Half of Area 3 North contains the TRUE exit to Area 4 West (X=3, Y=35 -> warps to 21,0 West Grass).
-- How to reach the Left Half of Area 3 North? The entrance MUST be from Area 1 Center!
-- Area 1 Center must also be partitioned by the lake at Y=12. The East side goes to Area 2. The West side must go North to the Left Half of Area 3 North!
-- NEXT GOAL: Start a new Safari Zone run. Do NOT go to Area 2 East. Explore the WEST side of Area 1 Center to find a path going North!
+[NEW STRATEGY: THE NORTH HALF OF AREA 1 CENTER]
+- The wall at Y=15/16 in Area 1 Center South is completely SOLID (no gaps).
+- Therefore, the Left Half of Area 3 North CANNOT be reached directly from the entrance of Area 1 Center!
+- NEW HYPOTHESIS: Area 1 Center is partitioned into a South Half and a North Half by the lake.
+- The North Half of Area 1 Center is accessed FROM Area 3 North!
+- Area 3 North has TWO South Exits:
+  - (8..15, 35) -> Area 4 West (East Grass - DEAD END).
+  - (20, 35) -> Area 1 Center (15, 0) (NORTH HALF!).
+- Once in the North Half of Area 1 Center, we can walk West and find a SECOND North Exit to the Left Half of Area 3 North!
 
 [KNOWN TRAPS & DEAD ENDS]
 - Area 4 West Trap Ledges: Jumping ledges at (14, 17) or (24, 17) traps you in the southern path, forcing an exit to Area 1 Center.
 - Area 1 Center West Pocket: Exiting Area 4 West via (29, 22) drops you here. Walk West at (0, 11) to re-enter Area 4 West.
 - Area 4 West Y=4 Path: DOES NOT EXIST. Hallucinated. X=24 is a solid tree wall.
 
-[SECRET HOUSE ROUTE - TRUE PATH]
-1. Area 1 Center -> Area 2 East (via East Exit at 29, 10). Area 1's North path is blocked by overlapping tree walls and lakes.
-2. Area 2 East -> Area 3 North (via Northwest Exit at 0, 4).
-3. Area 3 North -> Area 4 West. We must find the correct exit on the WEST boundary of Area 3 North.
-4. Area 4 West -> Secret House.
+[SECRET HOUSE ROUTE - TRUE PATH V2]
+1. Area 1 Center South -> Area 2 East (via East Exit at 29, 10).
+2. Area 2 East -> Area 3 North Right Half (via Northwest Exit at 0, 4).
+3. Area 3 North Right Half -> Area 1 Center NORTH HALF (via South Exit at 20, 35).
+   - Route: From (39, 31), walk West, take stairs DOWN at X=22, walk South to Y=35.
+4. Area 1 Center NORTH HALF -> Area 3 North LEFT HALF (Explore West for a second North Exit!).
+5. Area 3 North LEFT HALF -> Area 4 West True Entrance (X=3, Y=0 -> 21, 0).
+6. Area 4 West -> Secret House.
