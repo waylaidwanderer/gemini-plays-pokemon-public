@@ -2,4 +2,4 @@
 - Immediate Execution: Taught Surf to Blastoise. Navigating to Warden's House (11, 27). Discovered the Y=15 West path is blocked; corrected notes. Successfully used Cut at (18, 19). Currently navigating around the zoo enclosures (Y=22) to find the path South.
 - Strategy Validation: Using the East Cut bush (18, 19) was correct, but the path South is not a straight line due to the enclosures. Systematic exploration along the enclosure perimeter is required.
 - Next Steps: Explore West along Y=21 to find a path South around the zoo enclosures, then proceed to the Warden's House to deliver the Gold Teeth.
-- Currently at (14, 28). Realized the Lass in (11, 27) mentioned 'false teeth'. The old man in there MUST be the Warden! I mashed through his text too fast. Going back to (11, 27) to talk to him properly.
+- Currently inside (11, 27). The NPC here says 'The WARDEN is old, but still active! All his teeth are false, though.' This confirms he is talking ABOUT the Warden, so the Warden is NOT in this house! This is just an informational NPC. I need to exit and find the actual Warden's house next door.
