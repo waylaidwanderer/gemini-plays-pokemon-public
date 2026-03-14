@@ -1046,6 +1046,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   - HYPOTHESIS UNDER SEVERE THREAT: If there is no gap between X=0 and X=15, then Area 1 Center CANNOT access the Left Half of Area 3 North!
   - Goal Clarity: My primary goal is HM03. My method (find path North on West side of Area 1 Center) depends on this wall having a gap.
   - Action: Systematically walk West along Y=16 to X=0 to definitively prove if a gap exists. If not, my entire structural model of the Safari Zone must be re-evaluated.
+- [Turn 31877] Confirmed! The wall at Y=15/16 is completely solid from X=0 to X=15. There is NO PATH NORTH on the West side of Area 1 Center!
 
 <hr>
 
