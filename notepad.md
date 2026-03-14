@@ -1102,5 +1102,6 @@ Methodology: I will walk the entire perimeter of the Y=13 boundary in the Wester
 - [Turn 31983] Reached (2, 14). The tiles immediately North at Y=13 are water (TYPE_4e8c) from X=2 onwards. I will now systematically bump UP into every tile from X=2 heading East to verify they are all solid and no hidden walkable bridges exist.
 - [Turn 31984] Bump-tested (2, 13), (3, 13), and (4, 13). All are solid water tiles. Continuing East to X=9.
 - [Turn 31985] Bump-tested water at X=5 through X=9. All are solid. Proceeding to bump-test the Rest House boundary (X=10 to X=13) and the East tree wall (X=14).
+- [Turn 31986] Accidentally entered Rest House 3. Stepped back out to (11, 12). I will now physically bump the Rest House walls (X=10, X=13) and the East tree wall (X=14) to confirm they are solid.
 
 <hr>
