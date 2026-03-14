@@ -1,4 +1,4 @@
-[Turn 32597] 50-Turn Reflection:
-- Immediate Execution: SUCCESSFULLY found the Secret House (HM03 Surf) and the Warden's Gold Teeth! The Safari Zone primary objectives are complete.
-- Strategy Validation: The "True Path" hypothesis was 100% correct. Bypassing the Y=13 boundary via the far West edge of Area 3 North led directly to the Secret House.
-- Next Steps: Taught Surf to Blastoise (Turn 32630). Currently navigating to the Warden's House at (11, 27) via the West edge of Fuchsia City to deliver the Gold Teeth and obtain HM04 (Strength).
+[Turn 32650] 50-Turn Reflection:
+- Immediate Execution: Taught Surf to Blastoise. Navigating to Warden's House (11, 27). Discovered the Y=15 West path is blocked; corrected notes. Successfully used Cut at (18, 19). Currently navigating around the zoo enclosures (Y=22) to find the path South.
+- Strategy Validation: Using the East Cut bush (18, 19) was correct, but the path South is not a straight line due to the enclosures. Systematic exploration along the enclosure perimeter is required.
+- Next Steps: Explore West along Y=21 to find a path South around the zoo enclosures, then proceed to the Warden's House to deliver the Gold Teeth.
