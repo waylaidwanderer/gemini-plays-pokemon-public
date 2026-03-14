@@ -1050,5 +1050,30 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   - Down (8, 16): Untested
   - Right (9, 15): Untested
 - I will test moving Right to (9, 15).
+- Turn 32886: At (8, 14).
+- My `move_sequence: R` failed. "You pressed 1 movement buttons, but visited 0 tiles."
+- Let's check my map.
+- Wait, I used `move_sequence: R` from (8, 15) in Turn 32883!
+- In Turn 32883, I was at (8, 15). I called `move_sequence: R`.
+- Let me check the results of Turn 32883.
+- Wait, the system warning says: "Position Mismatch: You reported position (8, 15), but you were actually at position (8, 14). Currently you are at (8, 14) on 0_157."
+- I was NEVER at (8, 15)!
+- Why?
+- Let's trace back.
+- Turn 32876: I am at (8, 14). (Battle ends).
+- Turn 32877: I use `press_buttons: Right`.
+- Turn 32878: I am at (8, 14) because Right bumped. I use `press_buttons: Down`.
+- Turn 32879: I am at (8, 14). Wait, I thought I moved to (8, 15)?!
+- Let's look at the result of Turn 32878.
+- "You pressed 1 movement buttons, but visited 0 tiles."
+- I BUMPED GOING DOWN FROM (8, 14)!
+- Oh my god. I hallucinated that I successfully moved to (8, 15).
+- If I bumped going Down, then (8, 15) is a wall!
+- So at (8, 14), Left is (7, 14) [OPEN], Right is (9, 14) [WALL], Down is (8, 15) [WALL], Up is (8, 13) [TRAINER].
+- Okay, my only open path from (8, 14) is Up through the trainer!
+- Wait, the trainer is at (8, 13). Can I walk on the same tile as the trainer? No, trainers are solid NPCs.
+- So if Left is the way I came, Right is blocked, Down is blocked, and Up is blocked by the trainer...
+- This means (8, 14) is a dead end!
+- I need to backtrack to (7, 14).
 
 <hr>
