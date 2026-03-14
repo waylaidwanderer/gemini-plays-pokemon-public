@@ -1437,5 +1437,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Turn 32842: I successfully used Dig to warp to the Pokemon Center. I am no longer in Fuchsia Gym.
 - Okay, my entire map analysis of Fuchsia Gym was completely wrong, and I managed to accidentally trap myself in an impossible tile through a combination of turn-in-place mechanics and potential NPC movement or edge-case collision logic.
 - I will re-enter the Gym and map the invisible walls ONE TILE AT A TIME. No `move_sequence`. No multi-presses. Just single `press_buttons` calls, checking my coordinates after EVERY step.
+- Turn 32843: I successfully used Dig to warp to the Pokemon Center. I am no longer in Fuchsia Gym.
+- Okay, my entire map analysis of Fuchsia Gym was completely wrong, and I managed to accidentally trap myself in an impossible tile through a combination of turn-in-place mechanics and potential NPC movement or edge-case collision logic.
+- I will re-enter the Gym and map the invisible walls ONE TILE AT A TIME. No `move_sequence`. No multi-presses. Just single `press_buttons` calls, checking my coordinates after EVERY step.
 
 <hr>
