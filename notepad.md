@@ -1002,7 +1002,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 6. Walk West to X=2/X=3. There is a gap here that bypasses the Y=15 ledge!
 7. Walk North through the gap to enter the WESTERN UPPER AREA.
 8. This area contains Rest House 3 at (11, 11).
-9. THE SECRET HOUSE IS NOT ACCESSIBLE FROM THIS ENTRANCE. We have mapped the entire accessible area from (26, 0) and found no path North. There MUST be a second, undiscovered entrance to Area 4 West from Area 3 North.
+9. THE WESTERN UPPER AREA IS A DEAD END. It is completely blocked from going North by Water at Y=13 and solid bushes. The Secret House is NOT here.
+10. CONCLUSION: There MUST be a second, undiscovered entrance to Area 4 West from Area 3 North. We must thoroughly explore the West edge of Area 3 North (West of the Rest House).
 
 [NEW STRATEGY: RE-EXPLORE WESTERN UPPER AREA]
 - The Area 4 West entrance from Area 3 North is ALWAYS at (26, 0). The 'split entrance' hypothesis was empirically disproven (Turn 31651).
