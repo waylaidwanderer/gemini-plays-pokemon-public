@@ -1074,6 +1074,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - UPPER LAKE: The lake zigzags. At Y=10..13, water is at X=8..11, with a grass corridor at X=12..13.
 - CROSSING THE UPPER LAKE: North of the upper lake (Y=9 or higher), it is possible to cross West back to the X=6/7 column.
 - DIRT PLATEAU BRIDGE: The dirt plateau at Y=22..26 bridges over the solid bush wall at X=17. Access it via stairs at (22, 23), walk West to X=16, and go down stairs at (16, 27).
+- WEST LAKE BARRIER: X=11 is solidly blocked from Y=4 down to at least Y=14 (bushes at Y=4..7, water at Y=8..14). The only way to cross to the West side of Area 3 North might be at Y=3 or higher. Y=4 is a solid wall of bushes extending East from X=11.
 
 <hr>
 
