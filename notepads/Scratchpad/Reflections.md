@@ -32,3 +32,4 @@
 31. At (4, 20). Walking West to X=1, then I'll head South to explore the Southwest part of Fuchsia City for Koga's Gym.
 32. I am at (1, 20). Now walking South down the West edge of the city to reach the southern half where the Gym and Pokemon Center are located.
 33. Still heading South. I am at (1, 26). I'll walk South to Y=30, then East to X=4.
+34. The vertical ledge at X=2 blocked my Eastward movement. I need to go South to Y=32 to clear it, then head East to find the Gym.
