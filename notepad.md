@@ -116,6 +116,8 @@ Execution Plan:
 - TYPE_44f6: Cut Tree (Impassable without HM01 Cut)
 - TYPE_5519: Cut Tree (Can be removed by using HM01 Cut from the Pokémon menu while facing it).
 - CRITICAL: Cut bushes are ALWAYS `TYPE_5519`. Regular trees like `TYPE_2889` or `TYPE_1c8e` cannot be cut!
+[Tile Identification]
+- Safari Zone: TYPE_4e8c is a solid Plateau Edge (impassable from below). It is green but NOT tall grass. Passable tall grass is TYPE_fed7.
 
 <hr>
 
