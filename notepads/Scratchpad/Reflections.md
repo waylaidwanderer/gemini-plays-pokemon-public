@@ -6,5 +6,6 @@
 - Error Analysis & Hypothesis Review: Tactical retreat strategy worked flawlessly.
 
 [Current Status]
-- Turn 33136: At (19, 28). The path East to the Warden's house is blocked by the East-facing ledge at X=23.
-- I am going to re-test the East-jump hypothesis at (22, 28). If it fails, I will officially conclude that East-facing ledges are unjumpable and I must find a route from the top half of the city.
+- Turn 33138: At (24, 27) after jumping the East-facing ledge at (23, 28).
+- Path East to Warden's house (27, 27) is blocked by fences and the house itself at this Y-level.
+- X=24 is an open corridor leading North. I will walk North along X=24 to find a path East to the Warden's house or to reach the upper half of the city.
