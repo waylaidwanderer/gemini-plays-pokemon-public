@@ -1047,5 +1047,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 25. At (24, 30). I am East of the one-way ledge at X=23. To get back to the Pokemon Center and the West side of town, I need to walk North to Y=20, where I can cross West to X=18, then head South again or Cut the bush. Heading North now.
 26. I still need to find Koga's Gym. It wasn't in the southeast corner. I'm going to head back to the West side of town to look for it. Walking North to Y=20 so I can cross over.
 27. Reached Y=20. Now walking West to cross over to the Pokemon Center side of Fuchsia City.
+28. Walking West along Y=20 to X=1 to bypass the animal enclosures.
 
 <hr>
