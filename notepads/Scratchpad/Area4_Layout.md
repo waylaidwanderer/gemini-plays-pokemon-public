@@ -14,3 +14,4 @@ CONCLUSION RE-VERIFIED: The entire Northern boundary of the Western Upper Area i
 CONCLUSION: The South Grass is a completely sealed ONE-WAY LEDGE TRAP. Jumping down the ledge at (6, 19) permanently traps the player in the X=0..17, Y=19..24 pocket. The only escape is to Retire, run out of steps, or run out of Safari Balls.
 - [Turn 32205] TESTING EAST WALL OF EAST GRASS (X=24/25)
   Methodology: Walking South along X=25 from Y=0, visually and physically checking the tree wall at X=24 for any hidden gaps leading West. Currently at (25, 3).
+- [Turn 32207] Tested X=24 wall at Y=4 and Y=5. Both are solid TYPE_2889 bushes. Continuing South.
