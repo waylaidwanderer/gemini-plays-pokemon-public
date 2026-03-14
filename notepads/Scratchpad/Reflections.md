@@ -37,3 +37,4 @@
 36. Oops, I bumped into the trees at X=10. My own notes say the path North is at X=8! I will move Left to X=8, then North through the gap to Y=28, and then East to X=11 to find the Gym.
 37. Entered the building at (11, 27). This doesn't look like a Gym (no statues). It looks like a regular house. I will talk to the NPCs here to see what this building is, then keep looking for the Gym.
 38. Inside the building at (11, 27). There's an NPC at (5, 5). I'll talk to him.
+39. Talked to the NPC in the house at (11, 27). He's talking about Bill filing his own Pokemon data on his PC. This is just a lore house, not the Gym. I'll exit and keep looking.
