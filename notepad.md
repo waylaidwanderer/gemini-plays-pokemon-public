@@ -980,6 +980,7 @@ START:(10,19)|DIR:R|END:(18,15)
 - BOTTOM TO TOP: You CANNOT go North up the West side (X=1) due to ledges. You MUST go to the East side. From the Pokemon Center, walk East to X=22 and jump RIGHT over the East-facing ledge at X=23. Once on the East side, walk North to Y=20, then walk West to X=18, then North to Cut the bush at (18, 19).
 - Safari Zone Path: From the Cut bush at (18, 19), walk North. To go to Safari Zone, go to X=22, walk North to Cut bush at (22, 7). Cut it. Walk West along Y=6 to X=18, North to enter at (18, 4). (Note: There is NO cut bush at 16,11. That was a hallucination).
 - WARNING: The top path of Route 15 (Y=4) is a DEAD END. Do not use it expecting to return to Fuchsia City's top half.
+- Transition: Fuchsia City (0_7) West exit at Y=18 connects to Route 18 (0_29) East side at Y=9.
 
 <hr>
 
