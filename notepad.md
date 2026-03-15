@@ -1179,5 +1179,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 
 [Floors]
 - 5F (Map 0_210): Elevator at (20, 0). Electronic doors block the south path immediately out of the elevator. West hallway leads to a Scientist at (8, 2).
+- 5F: Warp pad at (11, 5).
 
 <hr>
