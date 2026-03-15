@@ -1239,6 +1239,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - 1F Navigation: There are desks blocking the path East at Y=17 starting at X=12. Must walk at Y=16 or higher to go East.
 - 1F Navigation: Path North through the center (X=14 to X=17) is blocked by a zigzag of potted plants (Y=10) and couches/glass walls (Y=8, Y=9). Must bypass these partitions by walking around the left side (X=11) or right side.
 - 1F Navigation: Path North at X=9 is blocked by monitors at Y=6 and Y=7. Must use X=8 or further West to bypass the partitions and head North.
-- 10F (Map 0_234): Elevator doors at (12, 0). Grunt at (10, 2).
+- 10F (Map 0_234): Elevator doors at (12, 0). Scientist at (10, 2).
 
 <hr>
