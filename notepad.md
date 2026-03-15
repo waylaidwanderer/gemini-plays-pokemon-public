@@ -1034,7 +1034,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 <h1><code>Scratchpad/Reflections</code></h1>
 
 [50-Turn Reflection]
-- Immediate Execution: Turn 33585. Returning to Celadon City to pick up Eevee from the Celadon Mansion back entrance. Navigating around the Celadon Dept Store to reach the back alley at (5, 10).
+- Immediate Execution: Searching for the back entrance to Celadon Mansion to pick up Eevee.
 - Goal Clarity: Reach Celadon Mansion back entrance to get Eevee.
 - Map/Notepad Hygiene: The Dept Store entrance note at (14, 13) might be slightly inaccurate, as the visual door is at (10, 13). I will verify this when I pass by.
 - Tools: `move_sequence` remains the most reliable way to navigate long straight paths.
