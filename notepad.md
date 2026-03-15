@@ -937,7 +937,7 @@ START:(10,19)|DIR:R|END:(18,15)
 - Lots of Beauty, Bird Keeper, and Jr. Trainer♀ trainers.
 - Mechanic note: Whirlwind has no effect in Trainer battles in Gen 1!
 - The West paths at Y=12 and Y=13 are dead ends. The exit to Route 14 must be further North.
-- The path East from X=15 is a zigzag that leads to a Cut bush near X=34. This is the correct way forward!
+- The path East along Y=4 is a DEAD END terminating at a sign at (34, 4). I must backtrack West and thoroughly check the North wall (Y=3) for gaps.
 
 <hr>
 
