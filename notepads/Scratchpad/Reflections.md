@@ -3,4 +3,4 @@
 - Goal Clarity: Reach Lavender Town, then head to Celadon City to defeat Erika for the Rainbow Badge (enables Strength).
 
 [Current Status]
-- Turn 33387: At (32, 4). I've confirmed the North wall (Y=3) is completely solid all the way to the East dead-end at X=34. The path North to the Y=0/Y=2 lane MUST be far to the West (West of X=14). Retracing my steps West to find it.
+- Turn 33388: At (16, 4). Realized I never checked the North wall (Y=3) WEST of the trainer at (12, 4) because I bypassed her on the lower lane. I am returning to X=11 to thoroughly check Y=3 for the missing gap.
