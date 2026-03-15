@@ -1039,9 +1039,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 
 [50-Turn Reflection]
 - Map/Notepad Hygiene: The Dept Store entrance note at (14, 13) might be slightly inaccurate. Also, discovered Y=14 is blocked at X=20 by a fence. Y=10 is the true East/West main street.
-- Error Analysis & Navigation: Attempting to cross the city on Y=14 resulted in bumping into a fence. I must rely on the established main road at Y=10 to avoid obstacles.
 - Hypothesis Failed: The top path at (28, 4) behind the Pokemon Center is a hard dead end. The Mansion's East wall (X=27) blocks it, and Y=3 is a solid tree line.
-- Hypothesis Failed: The gap at X=20 going North is a dead end at Y=4. I cannot go East or West from (20, 4). Y=3 is a solid tree line.
-- Empirical Proof for Overwatch: Tested the left side of 2F. The top-left quadrant (stairs at 2,1 and 4,1) is physically isolated from the bottom-left by a solid row of desks at Y=3 from X=0 to X=4. The vertical wall at X=5 is solid down to Y=7. It is IMPOSSIBLE to reach the back stairs from the front entrance. They must be accessed via a separate entrance. Resuming search for the exterior alley.
+- Empirical Proof for Overwatch (Celadon Mansion): Tested the left side of 2F. The top-left quadrant (stairs at 2,1 and 4,1) is physically isolated from the bottom-left by a solid row of desks at Y=3 from X=0 to X=4. The vertical wall at X=5 is solid down to Y=7. It is IMPOSSIBLE to reach the back stairs from the front entrance.
+- Empirical Proof for Overwatch (Gap at X=20): Walked East from (20, 4) to (21, 4). It is a DEAD END. Cannot go East due to the Mansion roof at (22, 4), and cannot go North due to solid trees at Y=3.
+- New Hypothesis: The walkable path at Y=1 and Y=2 is visible above the trees, meaning there MUST be an entrance to it elsewhere. I will return to X=44 (East of the Pokemon Center) and test if I can walk further North than Y=4 to reach the top path.
 
 <hr>
