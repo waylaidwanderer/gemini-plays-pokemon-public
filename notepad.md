@@ -1238,5 +1238,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - 7F Main (Map 0_212): Elevator at (18, 0). Stairs DOWN to 6F at (22, 0). Electronic doors block the path South at (20, 4) and (21, 4). Grunt at (20, 2).
 - 1F Navigation: There are desks blocking the path East at Y=17 starting at X=12. Must walk at Y=16 or higher to go East.
 - 1F Navigation: Path North through the center (X=14 to X=17) is blocked by a zigzag of potted plants (Y=10) and couches/glass walls (Y=8, Y=9). Must bypass these partitions by walking around the left side (X=11) or right side.
+- 1F Navigation: Path North at X=9 is blocked by monitors at Y=6 and Y=7. Must use X=8 or further West to bypass the partitions and head North.
 
 <hr>
