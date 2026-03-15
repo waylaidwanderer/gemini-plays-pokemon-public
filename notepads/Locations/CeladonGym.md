@@ -12,3 +12,4 @@
 - Enemy trainers primarily use Grass/Poison types (Oddish, Bellsprout lines).
 - They frequently use status powders (Sleep Powder, Stun Spore, Poisonpowder).
 - Leading with a Paralyzed Pokemon (like Audrey) grants immunity to Sleep and Poison, making it a safe lead for switch-training.
+- Status Shield Maintenance: DO NOT heal at the Pokemon Center while clearing Celadon Gym! Healing at the Center cures Paralysis, which we need to keep as our immunity shield against Sleep/Poison. Instead, use Lemonades and Fresh Water to restore HP between battles while preserving the Paralyzed status.
