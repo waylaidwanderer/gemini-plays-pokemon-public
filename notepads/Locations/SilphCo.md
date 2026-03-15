@@ -6,3 +6,4 @@
 - Electronic Doors: Red barriers block paths throughout the building. They require the Card Key to open. We need to find it ASAP to explore fully.
 
 [Floors]
+- 5F (Map 0_210): Elevator at (20, 0). Electronic doors block the south path immediately out of the elevator.
