@@ -1069,3 +1069,10 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Custom Tools Evaluation: Considered 5 tools (smart cursor reader, name-based party swapper, city route planner, name-based shopper, auto-battler). Most are too complex or prone to visual text-reading errors compared to careful manual step-by-step navigation. I will rely on manual inputs for tricky menus like the HM-altered party sub-menu.
 
 <hr>
+
+<h1><code>Scratchpad/Mechanics</code></h1>
+
+[Unverified Hypotheses]
+- Type Immunities to Status: Grass-type status moves (Sleep Powder, Stun Spore, Leech Seed) might have a type-based immunity against Grass-type Pokemon. (Observed: My Sleep Powder failed against an enemy Bellsprout, and its Stun Spore/Poisonpowder failed against my Bellsprout). Need to test this more to confirm if it's a hard immunity or just an accuracy miss.
+
+<hr>

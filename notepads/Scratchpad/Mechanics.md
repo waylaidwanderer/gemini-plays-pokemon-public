@@ -1,0 +1,2 @@
+[Unverified Hypotheses]
+- Type Immunities to Status: Grass-type status moves (Sleep Powder, Stun Spore, Leech Seed) might have a type-based immunity against Grass-type Pokemon. (Observed: My Sleep Powder failed against an enemy Bellsprout, and its Stun Spore/Poisonpowder failed against my Bellsprout). Need to test this more to confirm if it's a hard immunity or just an accuracy miss.
