@@ -13,4 +13,4 @@ Roof:
 - 2F Left Cashier: Sells standard items (Great Ball, Super Potion, Revive, Super Repel, etc.)
 - 3F: Video Game Shop. No item cashiers observed here.
 - 4F: Left counter is just display stands. Cashier must be elsewhere.
-- 4F: Both counters from the bottom aisle give "Wow! Tons of POKeMON stuff!". The cashier must be accessed from the top aisle or sides. Investigating the top-left area.
+- 4F: The cashiers are located at the bottom of the room behind the counter at Y=6. The left cashier is at (5, 7).
