@@ -1036,6 +1036,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Goal Clarity: Reach Lavender Town, then head to Celadon City to defeat Erika for the Rainbow Badge (enables Strength).
 
 [Current Status]
-- Turn 33407: At (31, 10). Walking East to exit the fence maze and enter Route 12. The wooden bridge is visible to the East at X=36!
+- Turn 33408: At (36, 10) on Route 13. I have successfully navigated the entire fence maze! Now walking East to reach the Route 12 intersection, then North to Lavender Town.
 
 <hr>

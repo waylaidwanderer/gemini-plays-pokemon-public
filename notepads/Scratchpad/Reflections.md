@@ -3,4 +3,4 @@
 - Goal Clarity: Reach Lavender Town, then head to Celadon City to defeat Erika for the Rainbow Badge (enables Strength).
 
 [Current Status]
-- Turn 33406: At (23, 8). Successfully dropped to the Y=8 lane and made it past the X=16 blockade on Y=6. Continuing East to X=26 to drop to Y=10!
+- Turn 33408: At (36, 10) on Route 13. I have successfully navigated the entire fence maze! Now walking East to reach the Route 12 intersection, then North to Lavender Town.
