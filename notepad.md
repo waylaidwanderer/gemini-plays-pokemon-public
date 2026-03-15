@@ -463,6 +463,7 @@ WARNING: Bellsprout's Vine Whip is 4x effective against Geodude. Train Cleo here
 - Overworld signs/interactables can have multiple pages of text. If a text box isn't closing with 'B', check for a down arrow indicating more text and advance it with 'A' to prevent movement soft-locks.
 - [Party Sub-Menu] Pokemon with Field Moves (Cut, Surf, Fly, etc.) have the field move at the top of their sub-menu. This pushes STATS to the 2nd slot and SWITCH to the 3rd slot. Standard Pokemon have STATS 1st and SWITCH 2nd. Custom tools like swap_pokemon will fail if they assume a fixed position for SWITCH.
 - [Party Menu Cursor Memory] The cursor position is remembered across completely different access methods! If you use an item on Pokemon #2 via the ITEM menu, the next time you open Start->POKEMON, the cursor will STILL be on Pokemon #2. Never assume it resets to index 1.
+- Fly Map Navigation: The Fly map uses GEOGRAPHICAL D-pad navigation, not a 1D list. The D-pad snaps the cursor North/South/East/West to the nearest unlocked city (e.g., Down from Pewter goes to Viridian; Right from Viridian goes to Celadon). It also has a rendering delay when opening; wait a moment before pressing D-pad directions so they aren't eaten.
 
 <hr>
 
@@ -1075,6 +1076,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 
 [50-Turn Reflection (Turn 34884)]
 - Error Analysis (TM/HM Input Eating): When using an HM/TM, the text "Teach [MOVE] to a POKeMON?" appears simultaneously with the party menu. Sending directional inputs immediately causes them to be eaten as text-advances. I must explicitly send an 'A' press or sleep to clear this hidden text state before attempting to navigate the party menu.
+[50-Turn Reflection (Turn 34937)]
+- Error Analysis (Fly Map Navigation): I initially hypothesized the Fly map was a 1D list and that my inputs were just being eaten by lag. By systematically testing single D-pad presses (e.g., pressing Down from Pewter moved the cursor to Viridian; pressing Right from Viridian moved it to Celadon), I empirically proved the Fly map uses strict GEOGRAPHICAL navigation. It snaps to the nearest unlocked city in the pressed direction.
+- Strategic Adjustment: When exploring and getting trapped behind one-way ledges (like on Route 7), using Fly to reset to the nearest city is a highly efficient way to bypass tedious backtracking (like the Underground Path).
 
 <hr>
 
@@ -1091,7 +1095,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - PC Deposit Cursor Reset: Turn 34518 to 34528 proved that when depositing an item, the cursor RESETS to index 1 (the top of the current visible list) after the deposit confirmation. It does NOT retain the previous index like the Withdraw or overworld Item menus.
 - PC Menu Input Eating: If inputs are sent while the "What do you want to deposit?" text is still rendering (e.g., just after a previous deposit confirmation), directional inputs will be eaten! This causes tools like `deposit_item_pc` to fail and deposit the top item (index 1) instead of the target. ALWAYS ensure the menu is fully loaded and the cursor is visible before sending navigation sequences.
 - Fly Map Input Eating: The Fly map has a rendering/animation delay when opened. D-pad inputs sent immediately after pressing 'A' to select Fly can be eaten. The destinations are ordered in a list (Pallet, Viridian, Pewter, Cerulean, Lavender, Vermilion, Celadon, Fuchsia). Press Down/Up to navigate this list.
-- Fly Map Navigation [PROVEN]: The Fly map uses GEOGRAPHICAL D-pad navigation! Turn 34935: Cursor on Pewter City. Pressed Down. Turn 34936: Cursor moved to Viridian City. Viridian is directly South of Pewter. The D-pad snaps the cursor North/South/East/West to the nearest unlocked city.
 
 <hr>
 
