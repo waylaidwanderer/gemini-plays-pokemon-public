@@ -1036,6 +1036,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Goal Clarity: Reach Lavender Town, then head to Celadon City to defeat Erika for the Rainbow Badge (enables Strength).
 
 [Current Status]
-- Turn 33416: At (11, 107) on Route 12. I have successfully transitioned from Route 13 to Route 12! I am now walking North along the bridges to reach Lavender Town.
+- Turn 33417: At (11, 104) on Route 12. The bridge shifts East here. Navigating Northwards to Lavender Town!
 
 <hr>
