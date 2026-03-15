@@ -19,3 +19,4 @@
 - The path heading South at X=22 is a dead end at (22, 31). The tree at (22, 32) is a solid wall, NOT a Cut bush.
 - The path heading South at X=24 is also a dead end. The Gym path must be further East.
 - HALLUCINATION CORRECTED: The Gym is in the SOUTHWEST, not Southeast. The Cut bush at (47, 20) (if it exists) does NOT lead to the Gym. I must return West and re-explore the paths heading South between X=10 and X=30.
+- Re-evaluating the X=22 southern path. I previously marked it as a dead end because South was blocked at Y=31, but I never checked if I could walk WEST from the bottom of that path to reach the Gym at X=12. Heading back there now.
