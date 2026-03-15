@@ -10,3 +10,7 @@
 [50-Turn Reflection (Turn 34989)]
 - Navigation: Discovered that Saffron City is highly segmented by fences and the massive Silph Co. building in the center. Navigating requires following the perimeter roads.
 - Error Analysis (Fly Map): Corrected my understanding of the Fly Map. It is definitively a 1D vertical list (Up moves forward, Down moves backward) that wraps around, not a geographical map.
+[50-Turn Reflection (Turn 35042)]
+- Strategy: Switch-training Audrey against the Fighting Dojo trainers is yielding excellent EXP. Hydro is easily sweeping with Surf.
+- Error Analysis (Notepad/Map Markers): I recognized that logging exact coordinates of generic defeated trainers in permanent notepads causes unnecessary bloat. I have transitioned to using map markers (☠️) exclusively for this purpose, keeping the notepads focused on layout, static encounters, and major points of interest.
+- Execution: Battle tools are functioning smoothly. I am actively managing the "input eating" text box issue by manually clearing text or using `spam_button` to ensure inputs are registered correctly.
