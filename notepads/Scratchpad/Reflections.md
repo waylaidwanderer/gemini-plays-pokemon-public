@@ -43,6 +43,5 @@
 - Error Analysis (Elevator Warp): The elevator exit warp on Y=3 is NOT active across all X coordinates. Moving Down at X=0 failed to trigger the warp. It likely only exists at specific tiles (e.g., X=1, X=2, or X=3). I will sweep across the bottom row and test pressing Down at each coordinate to find the exact exit tiles.
 - Strategy (Type Immunities): Leveraging type match-ups and AI moveset limitations is critical for survival.
 [50-Turn Reflection (Turn 35717)]
-- Strategy: Currently at the Celadon Dept Store Roof to stock up on Lemonades (80 HP for 350 Poke Dollars). This is the most cost-effective healing item available.
 - Verification: I verified in my PC storage that I already possess TM13, TM48, and TM49, confirming I previously completed the little girl's quest on the Roof.
 - Error Analysis (Vending Machine): I anticipate the Vending Machine will have introductory text that could eat inputs if I try to macro the purchase. I will test the interaction manually first to map the text boxes before attempting any bulk-buy automation.
