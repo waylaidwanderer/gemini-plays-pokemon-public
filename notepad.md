@@ -960,6 +960,7 @@ START:(10,19)|DIR:R|END:(18,15)
 
 [Points of Interest]
 - Saffron Gym: Located at (34, 3). Currently blocked by a Team Rocket Grunt.
+- Silph Co. Main Entrance: Located at (18, 21). The Team Rocket guard is asleep, allowing access!
 
 <hr>
 
