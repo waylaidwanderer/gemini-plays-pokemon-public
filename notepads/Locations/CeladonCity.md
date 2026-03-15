@@ -22,3 +22,4 @@
 - Re-evaluating the X=22 southern path. I previously marked it as a dead end because South was blocked at Y=31, but I never checked if I could walk WEST from the bottom of that path to reach the Gym at X=12. Heading back there now.
 - The path at X=22 continues EAST at Y=31. I am exploring this path to see if it wraps around to the Gym.
 - Verified: The path at X=22 going East at Y=31 goes AWAY from the Gym and does not lead to it. The entire X=22 and X=24 southern paths are dead ends for Gym access.
+- HYPOTHESIS: The Cut bush at (47, 20) on the far East side of the city might actually be the correct entrance to the Gym's bottom path. If the Southwest area is completely fenced off, I will return to the East side to test this.
