@@ -1036,6 +1036,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Goal Clarity: Reach Lavender Town, then head to Celadon City to defeat Erika for the Rainbow Badge (enables Strength).
 
 [Current Status]
-- Turn 33405: At (19, 6). Bypassing the final blockade! Walking West to X=17 to drop down to Y=8, then heading East to X=26.
+- Turn 33406: At (23, 8). Successfully dropped to the Y=8 lane and made it past the X=16 blockade on Y=6. Continuing East to X=26 to drop to Y=10!
 
 <hr>
