@@ -720,6 +720,7 @@ Points of Interest:
 - Game Corner (Map 0_135): Entrance at (28, 19). Contains Team Rocket members. Look for a hidden switch to access their hideout.
 - Game Corner (0_135): NPC at (17, 13) offers free coins, requires Coin Case. The actual Rocket Grunt is likely further back.
 - Game Corner (0_135): Hidden switch behind the poster at (9, 4), previously guarded by a Rocket Grunt.
+- The alley at X=5 on the West side of Celadon City is a dead end (blocked by trees at Y=9).
 
 <hr>
 
