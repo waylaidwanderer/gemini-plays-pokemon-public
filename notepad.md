@@ -1188,5 +1188,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - 5F Stairs: Stairs UP to 6F at (24, 0). Stairs DOWN to 4F at (26, 0).
 - 4F (Map 0_209): Stairs UP to 5F at (26, 0). Stairs DOWN to 3F at (24, 0).
 - Warp Connection: 5F warp at (11, 5) connects to 3F warp at (3, 3).
+- 5F Navigation: West corridor leads South to a dead end with a Grunt at (8, 14), an electronic door at X=7, and a warp pad at (9, 15).
 
 <hr>
