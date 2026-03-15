@@ -1032,6 +1032,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Goal Clarity: Reach Lavender Town, then head to Celadon City to defeat Erika for the Rainbow Badge (enables Strength).
 
 [Current Status]
-- Turn 33400: At (5, 6). I've cracked the maze! It requires zigzagging between Y=4 and Y=6. Y=6 is blocked at X=16. Y=4 is blocked at X=26. The route is: Y=6 East to X=14 -> UP to Y=4 -> East to X=24 -> DOWN to Y=6 -> East past X=27! Executing now.
+- Turn 33401: At (14, 4). Executing step 3 of the True Maze Path: walking East on Y=4 to X=24 to find the gap South. Doing this in chunks to ensure safe navigation.
 
 <hr>

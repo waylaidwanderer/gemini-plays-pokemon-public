@@ -3,4 +3,4 @@
 - Goal Clarity: Reach Lavender Town, then head to Celadon City to defeat Erika for the Rainbow Badge (enables Strength).
 
 [Current Status]
-- Turn 33398: At (14, 6). I realized that the trainer at (12, 4) completely blocks the Y=4 lane because NPCs are solid obstacles. I must find a way to bypass her by finding a gap in the fences on the lower lanes (Y=6 or Y=8) that leads UP to the Y=4 lane WEST of X=12. Walking West along Y=6 to carefully scan the Y=5 fence line.
+- Turn 33401: At (14, 4). Executing step 3 of the True Maze Path: walking East on Y=4 to X=24 to find the gap South. Doing this in chunks to ensure safe navigation.
