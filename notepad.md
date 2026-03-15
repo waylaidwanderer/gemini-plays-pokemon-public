@@ -770,6 +770,8 @@ Roof:
 4F (Map 0_131): Elevator at (7, 1).
 5F (Map 0_132):
 - 1F (Map 0_128): The room is divided by a wall. The stairs to 2F are on the right side at (7, 1). There is no obvious back exit on the ground floor.
+- Back Entrance at 0_6 (24, 3) warps to 0_128 (1F Back) at (4, 1).
+- Stairs up at 0_128 (4, 0) lead to the back side of 2F.
 
 <hr>
 
