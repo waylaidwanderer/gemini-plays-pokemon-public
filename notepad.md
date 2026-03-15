@@ -1038,6 +1038,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [50-Turn Reflection]
 - Map/Notepad Hygiene: The Dept Store entrance note at (14, 13) might be slightly inaccurate. Also, discovered Y=14 is blocked at X=20 by a fence. Y=10 is the true East/West main street.
 - Error Analysis & Navigation: Attempting to cross the city on Y=14 resulted in bumping into a fence. I must rely on the established main road at Y=10 to avoid obstacles.
-- Hypothesis: The top path at (28, 4) behind the Pokemon Center isn't a dead end. I likely hit the top-right corner of the Celadon Mansion and need to step UP to Y=2 or Y=3 to continue walking West behind it. Testing this now.
+- Hypothesis Failed: The top path at (28, 4) behind the Pokemon Center is a hard dead end. The Mansion's East wall (X=27) blocks it, and Y=3 is a solid tree line. The back entrance MUST be accessed via the gap West of the Mansion at X=20.
 
 <hr>
