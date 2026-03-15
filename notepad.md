@@ -1120,7 +1120,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Tool Maintenance: Battle tools are working, but I must remember `execute_battle_turn`'s `start_on_main` flaw when the cursor is already on FIGHT.
 [50-Turn Reflection (Turn 35509)]
 - Error Analysis (Menu Navigation): The `swap_pokemon` tool assumes the 'SWITCH' option is at index 2 of the sub-menu. However, if a Pokemon has a Field Move (like CUT or SURF), the Field Move is index 1, STATS is index 2, and SWITCH is index 3. This caused the tool to open Audrey's stats instead of swapping. I must visually verify the sub-menu layout or manually navigate when dealing with HM users.
-- Strategy: Team is battered. Cleo is leading. Continuing to map 6F East to find a way forward or a warp pad.
 
 <hr>
 
