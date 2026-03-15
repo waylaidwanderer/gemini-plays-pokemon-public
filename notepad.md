@@ -1064,10 +1064,10 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 <h1><code>Scratchpad/Reflections</code></h1>
 
 [50-Turn Reflection]
-- Error Analysis: Menu cursor memory and text box input eating are still issues. I just experienced text eating `execute_battle_turn` inputs because the previous attack's text ("It's not very effective...") was still rendering. I must use `spam_button` or wait for text to clear before using macros.
-- Strategy: Continue switch-training Audrey, leading with her to soak Sleep Powder/Stun Spore (since she's Paralyzed). Swap to strong attackers like Cleo or Dugtrio to finish the job. Nidoqueen (Poison/Ground) takes heavy damage from Grass (Razor Leaf).
-- Next Steps: Defeat Erika. If Cleo faints, send in Dugtrio and use Slash. After the battle, heal up with Lemonades and evolve Audrey with a Leaf Stone.
-- Map Hygiene: Updated map markers for the Gym.
+- Error Analysis: I encountered a turn number mismatch (hallucinated 34416 instead of 34415). I must strictly copy the turn number from the Game State Information block. Also, mashing directional inputs in the bag menu triggers warnings. I need to be more deliberate with menu scrolling.
+- Strategy: Erika is defeated! Audrey reached Lv 22 and gained a lot of split EXP. The new strategy is to heal Hydro with Lemonade, then clear the remaining Celadon Gym trainers to continue switch-training Audrey.
+- Next Steps: Locate Lemonade in the bag (currently scrolling down past POKE FLUTE and LIFT KEY), heal Hydro, then battle the trainers at (6, 3) and (4, 3) etc. After the gym, deposit extra TMs/items to clean up the bag.
+- Map Hygiene: Placed Erika's defeated marker. Will mark remaining trainers as I defeat them.
 
 <hr>
 
