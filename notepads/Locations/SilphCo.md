@@ -1,7 +1,7 @@
 # Silph Co. (Saffron City)
 
 [Navigation]
-- 1F (Map 0_181): Elevator doors are at (16, 1) and (20, 1). Exit to Saffron at (10, 18).
+- 1F (Map 0_181): Elevator doors are at (20, 0). Exit to Saffron at (10, 18).
 - Elevator Interior (Map 0_236): This 4x4 room is the inside of the elevator. The control panel is at (3, 0). Stand at (3, 1) and press A facing Up to select a floor. Exit the elevator by moving DOWN onto the red tiles from (1, 2) or (2, 2). Pressing Down at X=0 does not work.
 - Electronic Doors: Red barriers block paths throughout the building. They require the Card Key to open. We need to find it ASAP to explore fully.
 
