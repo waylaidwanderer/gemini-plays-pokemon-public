@@ -29,5 +29,4 @@
 - Notepad/Map Hygiene: Documented warp connections between 5F and 3F/9F with map markers and notes. Removed redundant reflection logs as requested by overwatch.
 - Tools: Fixed execute_battle_turn's main_cursor wrapping bug.
 [50-Turn Reflection (Turn 35353)]
-- Progress: Mapped out a partitioned section of 9F accessible via the 5F warp pad at (9, 15). It's a dead end requiring a Card Key. Now heading to the 5F warp pad at (27, 3).
 - Error Analysis: Assumed beds on 9F were healing pads without interacting with them first. I must verify interactable objects before logging their function.
