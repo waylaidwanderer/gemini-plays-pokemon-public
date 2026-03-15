@@ -1143,6 +1143,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Silph Elevator: Appears operational without a keycard! The elevator interior is a separate map (0_236). Select a floor at the panel (3,0), then walk South to exit onto the new floor.
 - Electronic Doors: Red barriers block paths. Require Card Key.
 - [Gen 1 Battle Mechanic] The game says "The trainer blocked the BALL!" when you try to use a Poke Ball in a trainer battle. I accidentally selected Ultra Ball instead of Fresh Water!
+- [Gen 1 Battle Mechanic] I used Fresh Water (index 3) via the ITEM menu. The next time I pressed 'A' on the main battle menu, it opened the ITEM menu again instead of FIGHT. This proves that the MAIN BATTLE MENU also retains cursor memory between turns! It does not default back to FIGHT.
 
 <hr>
 
