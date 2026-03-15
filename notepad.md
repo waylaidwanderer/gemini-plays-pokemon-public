@@ -1050,6 +1050,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 <h1><code>Scratchpad/Reflections</code></h1>
 
 [50-Turn Reflection]
-- Error Analysis: I incorrectly assumed the path behind the Pokemon Center was a dead end because I bumped into a building at X=43. If I had simply checked the screen closer, I would have seen the path South is open at X=44. I must carefully analyze the grid before declaring a dead end!
+- Notepad Hygiene: CeladonDeptStore notepad updated with accurate cashier locations. I will continue mapping 5F next.
+- Error Analysis: Mistook display islands for cashiers because they share the same counter tiles. Found the real cashiers at Y=6.
+- Current Status: Bought Thunder Stone for Eevee! Next: Buy Leaf Stone for Audrey, then explore 5F and Roof.
+- Strategy: Evolve Eevee into Jolteon to prepare for Erika's Grass-type Gym. I'll also grab a Leaf Stone for Audrey.
 
 <hr>
