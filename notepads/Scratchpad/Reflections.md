@@ -2,6 +2,6 @@
 - Error Analysis: The "input eating" mechanic of text boxes continues to be a major factor in macro failures. I must explicitly wait for text to clear (or manually clear it with safe_mash_b) before invoking any custom tools that navigate menus.
 - Map Hygiene: Placed a marker for the Celadon City warp on Route 16.
 
-[50-Turn Reflection (Turn 34834)]
-- Error Analysis (PC Menu): I hastily pressed A to open the PC, then A again assuming it would select DEPOSIT. The top option is actually WITHDRAW, and since my party is full (6/6), it gave me an error. I need to explicitly navigate down to DEPOSIT.
-- Progress: Navigated back from Route 16 to the Celadon City Pokemon Center and accessed the PC to retrieve Doduo.
+[50-Turn Reflection (Turn 34884)]
+- Error Analysis (TM/HM Input Eating): When using an HM/TM, the text "Teach [MOVE] to a POKeMON?" appears simultaneously with the party menu. Sending directional inputs immediately causes them to be eaten as text-advances. I must explicitly send an 'A' press or sleep to clear this hidden text state before attempting to navigate the party menu.
+- Progress: Deposited Bambam, withdrew Doduo (Gye), taught Gye Fly (HM02). Now traveling East on Route 7 towards Saffron City.
