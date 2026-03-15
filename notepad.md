@@ -463,7 +463,7 @@ WARNING: Bellsprout's Vine Whip is 4x effective against Geodude. Train Cleo here
 - Overworld signs/interactables can have multiple pages of text. If a text box isn't closing with 'B', check for a down arrow indicating more text and advance it with 'A' to prevent movement soft-locks.
 - [Party Sub-Menu] Pokemon with Field Moves (Cut, Surf, Fly, etc.) have the field move at the top of their sub-menu. This pushes STATS to the 2nd slot and SWITCH to the 3rd slot. Standard Pokemon have STATS 1st and SWITCH 2nd. Custom tools like swap_pokemon will fail if they assume a fixed position for SWITCH.
 - [Party Menu Cursor Memory] The cursor position is remembered across completely different access methods! If you use an item on Pokemon #2 via the ITEM menu, the next time you open Start->POKEMON, the cursor will STILL be on Pokemon #2. Never assume it resets to index 1.
-- Fly Map Navigation: The Fly map uses GEOGRAPHICAL D-pad navigation, not a 1D list. The D-pad snaps the cursor North/South/East/West to the nearest unlocked city (e.g., Down from Pewter goes to Viridian; Right from Viridian goes to Celadon). It also has a rendering delay when opening; wait a moment before pressing D-pad directions so they aren't eaten.
+- Fly Map Navigation [PROVEN]: The Fly map is a 1D list controlled ONLY by Up/Down! (Left/Right do nothing). Up moves FORWARD in the list (Pallet -> Viridian -> Pewter -> Cerulean -> Lavender -> Vermilion -> Celadon). Down moves BACKWARD. I erroneously thought it was geographical because Viridian is both South of Pewter and previous to it in the list.
 
 <hr>
 
