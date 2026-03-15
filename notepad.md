@@ -1191,5 +1191,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - 5F Navigation: East of the elevator at X=24 is a path South. It contains a warp pad at (27, 3), a Grunt at (28, 3), and a clipboard at (24, 6). The Grunt blocks the path South at X=28.
 - 5F Stairs: Stairs UP to 6F at (24, 0). Stairs DOWN to 4F at (26, 0).
 - 4F (Map 0_209): Stairs UP to 5F at (26, 0). Stairs DOWN to 3F at (24, 0).
+- Warp Connection: 5F warp at (11, 5) connects to 3F warp at (3, 3).
 
 <hr>
