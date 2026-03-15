@@ -1254,5 +1254,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - 10F Navigation: Warp at (13, 15) lands in an isolated area on the East side of a wall at X=7. A scared Silph employee wanders here. Item ball visible at (5, 11) on the West side of the wall. There is a second warp pad at (9, 11).
 - Warp Connection: 10F warp at (9, 11) connects to 4F warp at (11, 7).
 - 4F Navigation: Warp at (11, 7) lands in a partitioned area. Scientist at (14, 6). Electronic doors at (12, 8) and (13, 8) block South. Second warp pad located at (17, 3).
+- Warp Chain Analysis: The warp chain starting at 4F (3, 15) -> 10F (13, 15) -> 4F (11, 7) -> 6F (3, 3) is a complete dead end with no Card Key. Backtracking out.
 
 <hr>
