@@ -1080,6 +1080,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Text Box Input Eating: If you use a macro (like execute_battle_turn) while a text box is still printing or waiting to be cleared, ALL directional inputs and A/B presses will simply act as text-advances. The menu navigation will fail, and you will be left at the root menu when the text finally clears. For Wrap-locks, it's better to just spam 'A' so it advances the text and automatically selects the first move.
 - Switch Prompt Cancel: Mashing 'B' to clear text after defeating an enemy will automatically select 'NO' on the "Will [PLAYER] change POKEMON?" prompt. Use step-by-step inputs instead of safe_mash_b if you intend to switch-train the next Pokemon!
 - Evolution Cancel: NEVER mash 'B' or use safe_mash_b when exiting a battle if a Pokemon just reached its evolution level! Pressing 'B' during the evolution animation will cancel it. Use 'A' instead to advance text safely.
+- Overworld Item Menu Wrap: Pressing Up at the very top of the Item menu (index 1) DOES NOT wrap around to the bottom. It stays at the top. Blind upward wrap-around navigation will fail here!
 
 <hr>
 
