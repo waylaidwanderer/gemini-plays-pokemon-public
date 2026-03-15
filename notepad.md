@@ -350,11 +350,15 @@ Route 3: Spearow, Pidgey
 <h1><code>Strategy/TeamBuilding</code></h1>
 
 [Strategy]
-- The level gap is massive. I need to either switch-train the lower level Pokemon against weaker enemies or catch new, higher-level Pokemon on Route 24/25.
-- Goal: Catch a Grass or Electric type for coverage. (Caught Bellsprout!)
-- If HYDRO gets too low on HP, I need to use Potions or head back to the Cerulean City Pokemon Center.
-[PC Box]
-- AUDREY (Bellsprout): Lv 12. Need to swap someone out to train her.
+- The level gap is massive. I need to either switch-train the lower level Pokemon against weaker enemies or catch new, higher-level Pokemon.
+- Currently training Audrey (Bellsprout) to Lv 21 to evolve into Weepinbell, then will use Leaf Stone to get Victreebel.
+[Party]
+- HYDRO (Blastoise)
+- DUGTRIO
+- AUDREY (Bellsprout)
+- CLEO (Nidoqueen)
+- BAMBAM (Machop)
+- PIXEL (Jolteon)
 [Timestamps]
 - Route 25 Trainer Maze & Switch Training Start: Turn 2461
 - Dugtrio has DIG! Use this instead of Escape Ropes to exit dungeons quickly.
