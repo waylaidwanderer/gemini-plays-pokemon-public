@@ -1023,15 +1023,10 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 <h1><code>Scratchpad/Reflections</code></h1>
 
 [50-Turn Reflection]
-- Immediate Execution: Ride North up Cycling Road (Routes 17 and 16) to reach Celadon City.
-- Notepad Hygiene: Need to add a layout note for Route 18 so I don't forget its structure.
-- Map Hygiene: Added a marker for the Route 18 Gatehouse.
-- Custom Tools: `move_sequence` is perfect for biking long stretches.
+- Immediate Execution: Ride East through Route 15 towards Lavender Town.
 - Goal Clarity: Celadon Gym (Rainbow Badge) -> Warden's House (Strength).
-- Error Analysis & Hypothesis Review: Macro overshoot + misreading coordinates (seeing X=26 instead of X=6) caused a massive hallucination about an "upper path" on Route 18. I must strictly read the Game State Player Position and not guess where my macro ended up.
 
 [Current Status]
-- Turn 33282: EMPIRICAL PROOF. Northbound travel on Cycling Road is IMPOSSIBLE with this harness. The 500ms input delay allows the game's gravity to push me South before the next 'Up' registers.
-- NEW ROUTE: Returning East to Fuchsia City, then taking Route 15 -> 14 -> 13 -> 12 -> Lavender Town -> Route 8 -> Saffron City -> Celadon City.
+- Turn 33299: Biking East on Route 15. Navigating around a Jr. Trainer♀ at (37, 5) by dropping to Y=10.
 
 <hr>
