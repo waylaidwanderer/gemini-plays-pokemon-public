@@ -16,3 +16,4 @@
 - The path North at X=14 (East of Dept Store) is completely blocked.
 - The top path (Y=1/Y=2) behind the buildings is accessed via a hidden gap in the trees at X=32 and X=33 (Y=3). These tiles appear as solid trees but are walkable. This connects back to the main city streets on the East side at X=44. This is the ONLY way to reach the back entrance of Celadon Mansion.
 - Gym Entrance Route (Southwest): Drop down the ledge at (7, 18) -> Walk East and go South on X=22 -> Follow the path East along Y=31 -> Cut the bush at (35, 32) -> Walk West along the bottom perimeter (Y=34) -> Go North through the gap at X=5 -> The Gym entrance is at (12, 27).
+- The West exit to Route 16 from Celadon City is located at Y=18. The main road at Y=10-14 is blocked by trees on the far West edge.
