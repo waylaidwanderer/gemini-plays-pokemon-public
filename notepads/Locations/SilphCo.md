@@ -26,4 +26,4 @@
 - Warp Connection: 5F warp at (27, 3) connects to 7F warp at (21, 15).
 - 7F (Map 0_212): Warp at (21, 15) lands in a partitioned area. A Grunt is at (19, 14) and electronic doors at (20, 12) and (21, 12) block the path North. Desks at Y=12 block access to the item ball at (24, 11) from the South. Dead end without Card Key.
 - 6F (Map 0_211): Elevator at (18, 0). Stairs DOWN to 5F at (14, 0). Stairs UP to 7F at (16, 0). Electronic doors at (10, 4) and (11, 4). Grunt at (17, 3). Trainer at (10, 6).
-- 6F Navigation: The path West from the stairs leads to an open hallway going South at X=7 and X=6. A Scientist is visible at (7, 8).
+- 6F Navigation: The path West from the stairs leads to an open hallway going South at X=7 and X=6. X=8 is a wall blocking the path East at Y=4 to Y=6. There are electronic doors at (2, 1) and (3, 1). There is a spin tile at (3, 3).
