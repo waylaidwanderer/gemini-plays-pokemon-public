@@ -1213,5 +1213,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - 6F Navigation: Following the hallway South leads to a Scientist at (7, 8). The path continues South to an intersection at (6, 12). An Item Ball to the West at (3, 12) is blocked by an electronic door at X=5.
 - 6F Navigation: East of the intersection at (6, 15) is a hallway leading East. A Grunt is at (14, 15).
 - 6F Navigation: The hallway continues East from (14, 15). A solid wall at Y=14 blocks the path North. A Grunt is visible behind the wall at (18, 13). The hallway continues East past X=23.
+- 6F Navigation: At X=22, the hallway splits to go North, with paths at X=22 and X=24 separated by a wall at X=23.
 
 <hr>
