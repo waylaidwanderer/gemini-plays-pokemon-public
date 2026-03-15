@@ -11,3 +11,4 @@
 - Fly Map Input Eating: The Fly map has a rendering/animation delay when opened. D-pad inputs sent immediately after pressing 'A' to select Fly can be eaten. The destinations are ordered in a list (Pallet, Viridian, Pewter, Cerulean, Lavender, Vermilion, Celadon, Fuchsia). Press Down/Up to navigate this list.
 - Silph Elevator: Appears operational without a keycard! Will use this to navigate between floors.
 - Electronic Doors: Red barriers block paths (e.g., at Y=3). Require Card Key.
+- Silph Co Elevator (Turn 35138): Selected 5F from the menu at (3, 1), but the warp failed. Remained on 2F. Will use stairs instead.
