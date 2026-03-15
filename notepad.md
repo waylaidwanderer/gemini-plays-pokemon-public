@@ -763,6 +763,7 @@ Roof:
 - 4F Left Cashier (5, 7): Sells Poke Doll (1000), Fire Stone (2100), Thunder Stone (2100), Water Stone (2100), Leaf Stone (2100).
 - 4F: Confirmed only ONE cashier on this floor at (5, 7). The NPC on the right is just a shopper.
 - 5F Right Cashier (6, 4): Sells Stat Boosters (HP Up, Protein, Iron, Carbos, Calcium).
+- 5F Left Cashier (5, 4): Sells Battle Items (X Accuracy, Guard Spec, Dire Hit, X Attack, etc.).
 
 <hr>
 
