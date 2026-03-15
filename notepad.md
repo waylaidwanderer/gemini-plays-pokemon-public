@@ -1036,6 +1036,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Goal Clarity: Reach Lavender Town, then head to Celadon City to defeat Erika for the Rainbow Badge (enables Strength).
 
 [Current Status]
-- Turn 33410: At (47, 10). I foolishly tried to walk *through* the defeated trainers at (48, 10) and (49, 10), completely forgetting my own rule from Turn 33398 that NPCs are solid objects! I must dip South to Y=11 to walk around them, then proceed East onto the Route 12 bridge.
+- Turn 33411: At (51, 11). I've reached the East coast (X=52 is water). The path turns North here. Walking North along the coast to find the bridge to Route 12.
 
 <hr>
