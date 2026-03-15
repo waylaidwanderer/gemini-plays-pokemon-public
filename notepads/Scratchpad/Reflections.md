@@ -4,4 +4,3 @@
 
 [50-Turn Reflection (Turn 34781)]
 - Error Analysis (Facing Direction): I spent over 10 turns mashing 'A' to talk to an NPC without realizing I was facing South instead of East towards the NPC. The game does NOT auto-face NPCs when pressing A. You must explicitly input a directional press towards the NPC to turn before interacting. ALWAYS visually verify facing direction (via the player sprite) before interacting.
-- Progress: Cleared the Snorlax on Route 16, navigated the secret upper path (requires Cut), and reached the secluded house to get Fly.
