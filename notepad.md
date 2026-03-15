@@ -1116,6 +1116,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - [Turn 35403 Error Analysis] I attempted to move Up then Left, but I bumped into a wall at (17, 1) because the tile at Y=1 is actually the wall of the elevator shaft, not a hallway. I need to move DOWN to Y=3 to bypass the elevator shaft before heading West.
 [50-Turn Reflection (Turn 35405)]
 - Error Analysis (Text Box Trap): I repeatedly failed to move on 6F because a post-battle text box ("No matter! My brothers will avenge me!") was still open, eating all my directional inputs. I incorrectly assumed I was bumping into walls or that auto-turn failed. I MUST visually confirm the absence of text boxes at the bottom of the screen before executing overworld movement sequences.
+[50-Turn Reflection (Turn 35457)]
+- Exploration Strategy: Silph Co is highly restricted by electronic doors. My strategy is to systematically explore every accessible hallway on every floor (starting from 5F -> 6F -> etc.) until I find the Card Key or a warp pad that bypasses the doors. I am using `Locations/SilphCo` to meticulously map the accessible areas and dead ends.
+- Tool Maintenance: Battle tools are working, but I must remember `execute_battle_turn`'s `start_on_main` flaw when the cursor is already on FIGHT.
 
 <hr>
 
