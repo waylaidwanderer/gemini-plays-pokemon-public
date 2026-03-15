@@ -56,3 +56,6 @@
 [50-Turn Reflection (Turn 35977)]
 - Error Analysis (Visual Hallucination): I assumed a wandering NPC in an isolated area of 10F was a Rocket Grunt, only to find it was a scared Silph employee ("I'm scared!"). I must visually verify sprites and text before assuming hostility.
 - Map Hygiene: Identified an unreachable Item Ball at (5, 11) on 10F, blocked by a wall at X=7. I must find another route to the West side of 10F.
+[Turn 36018 Reflection]
+- Error Analysis (Turn Hallucination): I incorrectly logged the turn number in my previous action. I must strictly read the Game State Information turn counter (currently 36018) rather than incrementing my own internal counter.
+- Error Analysis (Elevator Navigation): I forgot my own notes! The red exit tiles are at (1, 3) and (2, 3). Walking down at X=3 just bumps into the wall.
