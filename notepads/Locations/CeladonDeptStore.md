@@ -11,3 +11,4 @@ Roof:
 - Roof (6F): Only one set of stairs located at (15, 2) leading back down to 5F. Vending machines are at (12, 1).
 - 2F Right Cashier: Sells TMs (TM32, TM33, TM02, TM07...)
 - 2F Left Cashier: Sells standard items (Great Ball, Super Potion, Revive, Super Repel, etc.)
+- 3F: Video Game Shop. No item cashiers observed here.
