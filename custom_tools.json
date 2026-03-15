@@ -950,7 +950,7 @@
         "quantity"
       ]
     },
-    "python_script": "import json\n\ndef buy_vending_drinks(input_data):\n    drink = input_data.get('target_drink', 'LEMONADE')\n    qty = min(input_data.get('quantity', 1), 10)\n    \n    buttons = []\n    for _ in range(qty):\n        buttons.append('A')\n        buttons.append('sleep 4000') # Wait for auto-advance and menu\n        \n        if drink == 'SODA POP':\n            buttons.append('Down')\n        elif drink == 'LEMONADE':\n            buttons.extend(['Down', 'Down'])\n            \n        buttons.append('A') # Buy\n        buttons.append('sleep 3500') # Wait for popped out text\n        buttons.append('B') # Clear text\n        buttons.append('sleep 1000') # Wait for overworld\n        \n    print(json.dumps(buttons))\n\nbuy_vending_drinks(input_data)",
+    "python_script": "import json\n\ndef buy_vending_drinks(input_data):\n    drink = input_data.get('target_drink', 'LEMONADE')\n    qty = min(input_data.get('quantity', 1), 10)\n    \n    buttons = []\n    for _ in range(qty):\n        buttons.extend(['Up', 'A']) # Ensure facing up and interact\n        buttons.append('sleep 8000') # Wait for menu\n        \n        if drink == 'SODA POP':\n            buttons.append('Down')\n        elif drink == 'LEMONADE':\n            buttons.extend(['Down', 'Down'])\n            \n        buttons.append('A') # Buy\n        buttons.append('sleep 4000') # Wait for popped out text\n        buttons.append('B') # Clear text/Return to overworld\n        buttons.append('sleep 2000') # Wait for overworld\n        \n    print(json.dumps(buttons))\n\nbuy_vending_drinks(input_data)",
     "history": [
       {
         "commit_message": "Initial version",
@@ -961,6 +961,11 @@
         "commit_message": "Increased sleep durations to prevent inputs from being eaten by text box rendering delays.",
         "timestamp": "2026-03-15T21:37:29.382Z",
         "action_counter": 35729
+      },
+      {
+        "commit_message": "Increased sleep for menu rendering to 8000ms. Added Up press to guarantee facing the machine.",
+        "timestamp": "2026-03-15T21:43:08.046Z",
+        "action_counter": 35738
       }
     ]
   }
