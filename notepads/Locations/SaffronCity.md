@@ -11,3 +11,4 @@
 - Pokemon Center is in the southwest.
 - Decorative Doors: The buildings along the southern border (Y=29) have doors, but they are solid walls (TYPE_2889) and cannot be entered. Do not try to enter them.
 - Mr. Psychic's House: Located at (29, 29). He gives you TM29 (Psychic) for free!
+- Fighting Dojo (Map 0_177): Located in the Northeast corner next to the actual Saffron Gym. Contains Blackbelt trainers using Fighting-type Pokemon.
