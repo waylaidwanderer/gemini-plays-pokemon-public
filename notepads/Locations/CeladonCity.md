@@ -16,3 +16,4 @@
 - The path North at X=14 (East of Dept Store) is also completely blocked by bushes at Y=9.
 - Verified: The entire West edge of the city (X=0 to X=5) is completely blocked from going North by a solid wall of trees at Y=9.
 - The top path (Y=1/Y=2) behind the buildings is accessed via a hidden gap in the trees at X=28, Y=3 (behind the Pokemon Center). This is the ONLY way to reach the back entrance of Celadon Mansion.
+- Found it! The hidden gap in the trees behind Celadon City is at X=32 and X=33 (Y=3). These tiles appear as solid trees but are actually TYPE_3fe2 (walkable).
