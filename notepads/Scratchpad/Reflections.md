@@ -39,6 +39,3 @@
 [50-Turn Reflection (Turn 35561)]
 - Error Analysis (Visual Hallucination): I mistakenly identified overlaid text/artifacts at (24, 11) on 6F as a Rocket Grunt. I must rely on the Game State Information's sprite list or confirm movement/interaction before assuming a static visual artifact is an NPC.
 - Tool Maintenance: I successfully updated the `swap_pokemon` tool to accept a `has_field_move_a` flag to account for HM moves altering the sub-menu layout.
-[50-Turn Reflection (Turn 35613)]
-- Error Analysis: Team management is critical. I pushed too deep into Silph Co without healing items. I am now facing a wipe against a Lv29 Cubone because my team is heavily damaged.
-- Strategy: Utilizing type immunities. Gye (Doduo) is Flying-type and immune to Ground. I am betting that Cubone's only damaging move at Lv29 is Bone Club, which would make Gye completely safe despite having only 5 HP.
