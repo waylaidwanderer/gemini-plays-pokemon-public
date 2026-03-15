@@ -17,6 +17,6 @@
 - (1, 5) Beauty - NPC only.
 - (3, 3) Beauty - NPC only.
 - (4, 3) Erika (Defeated).
-- (4, 2) Lass - To check.
-- (6, 3) Beauty - To check.
+- (6, 4) Lass (Defeated).
 - (9, 5) Lass - NPC only.
+- Celadon Gym is completely CLEARED!
