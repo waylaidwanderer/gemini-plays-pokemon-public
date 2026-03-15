@@ -15,7 +15,7 @@
 - 5F Navigation: The central room is bounded by an electronic door at (15, 10) on the West and desks at Y=15 on the South. The item at (21, 16) is unreachable from here. I am returning to the North hallway to explore the West side.
 - 5F Navigation: East of the elevator at X=24 is a path South. It contains a warp pad at (27, 3), a Grunt at (28, 3), and a clipboard at (24, 6). The Grunt blocks the path South at X=28.
 - 5F Stairs: Stairs UP to 6F at (24, 0). Stairs DOWN to 4F at (26, 0).
-- 4F (Map 0_209): Stairs UP to 5F at (26, 0). Stairs DOWN to 3F at (24, 0).
+- 4F (Map 0_209): Stairs UP to 5F at (26, 0). Stairs DOWN to 3F at (24, 0). Grunt at (12, 14).
 - Warp Connection: 10F warp at (13, 7) connects to 4F warp at (17, 11).
 - Warp Connection: 5F warp at (11, 5) connects to 3F warp at (3, 3).
 - 5F Navigation: West corridor leads South to a dead end with a Grunt at (8, 14), an electronic door at X=7, and a warp pad at (9, 15).
