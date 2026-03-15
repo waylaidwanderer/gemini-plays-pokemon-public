@@ -1064,7 +1064,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 <h1><code>Scratchpad/Reflections</code></h1>
 
 [50-Turn Reflection]
-- Error Analysis: I encountered a turn number mismatch (hallucinated 34416 instead of 34415). I must strictly copy the turn number from the Game State Information block. Also, mashing directional inputs in the bag menu triggers warnings. I need to be more deliberate with menu scrolling.
+- Error Analysis: I fell victim to the Party Menu cursor memory! I assumed the cursor reset to Audrey (index 1) when opening the Party Menu, but it remembered it was on Hydro (index 3) from when I used the Lemonade. I ended up trying to Surf instead of Cut. I MUST visually verify the cursor in the Party Menu before pressing A. Mashing directional inputs in the bag menu also triggers warnings. I need to be more deliberate with menu scrolling.
 - Strategy: Erika is defeated! Audrey reached Lv 22 and gained a lot of split EXP. The new strategy is to heal Hydro with Lemonade, then clear the remaining Celadon Gym trainers to continue switch-training Audrey.
 - Next Steps: Locate Lemonade in the bag (currently scrolling down past POKE FLUTE and LIFT KEY), heal Hydro, then battle the trainers at (6, 3) and (4, 3) etc. After the gym, deposit extra TMs/items to clean up the bag.
 - Map Hygiene: Placed Erika's defeated marker. Will mark remaining trainers as I defeat them.
