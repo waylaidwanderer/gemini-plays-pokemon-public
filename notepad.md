@@ -1131,6 +1131,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Error Analysis (Vending Machine): I anticipate the Vending Machine will have introductory text that could eat inputs if I try to macro the purchase. I will test the interaction manually first to map the text boxes before attempting any bulk-buy automation.
 [Turn 35741 Error Analysis]
 - Vending Machine Automation: The tool failed because my positional assumptions were wrong. I started at (12, 3). The first `Up` moved me to (12, 2), where `A` interacted successfully. However, the subsequent `Down` inputs in the tool's loop caused me to walk away from the machine because the menu had either failed to open or closed unexpectedly. I need to manually map the exact text box sequence and closure of the vending machine to understand why the loop desynced.
+[Turn 35744 Error Analysis]
+- Vending Machine Timing: The "LEMONADE popped out!" text takes approximately 5.8 seconds to fully render after pressing 'A' to buy. My previous tool only waited 4.0 seconds before pressing 'B' to clear it. Because the text was still rendering, the 'B' input was eaten. The subsequent loop's 'A' input cleared the text, placing me back in the overworld and causing the next D-pad inputs to walk away from the machine. I must increase the post-purchase sleep to at least 7000ms.
 
 <hr>
 
