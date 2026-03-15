@@ -1192,7 +1192,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 
 [Navigation]
 - 1F (Map 0_181): Elevator door is at (16, 1). Exit to Saffron at (10, 18).
-- Elevator Interior (Map 0_236): This 4x4 room is the inside of the elevator. The control panel is at (3, 0). Stand at (3, 1) and press A facing Up to select a floor. Exit the elevator by walking Down while standing on the red tiles at Y=3.
+- Elevator Interior (Map 0_236): This 4x4 room is the inside of the elevator. The control panel is at (3, 0). Stand at (3, 1) and press A facing Up to select a floor. Exit the elevator by walking Down while standing on the red tiles at Y=3. Note: The exit warp only triggers if you walk DOWN onto the red tiles from Y=2, or press DOWN while already standing on them.
 - Electronic Doors: Red barriers block paths throughout the building. They require the Card Key to open. We need to find it ASAP to explore fully.
 
 [Floors]
