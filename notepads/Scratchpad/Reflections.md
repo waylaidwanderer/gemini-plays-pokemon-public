@@ -1,4 +1,4 @@
 [50-Turn Reflection]
-- Error Analysis: Confused the little boy NPC with the little girl NPC due to similar dialogue about a sister. Relying on visual context and coordinate tracking is crucial for identifying the correct interactable NPCs.
-- UI/Menu Learnings: Encountered dropped inputs when mashing through vending machine text. Need to use explicit sleep delays ('sleep 500') when interacting with text-heavy menus using custom tools.
-- Progress: Gave Fresh Water to the little girl and received TM13 (Ice Beam)! Need to give her Soda Pop and Lemonade next.
+- Error Analysis: Menu navigation during text-heavy events (like Vending Machines) is prone to desyncs if inputs are entered too quickly. Mashing leads to buying the wrong items or exiting the menu.
+- UI/Menu Learnings: Must wait for menus to fully render before sending directional inputs. Cannot use consecutive sleep commands in move_sequence.
+- Progress: Successfully traded all three drinks to the little girl for TM13, TM48, and TM49. Currently stocking up on Lemonade before heading to Celadon Gym to train Audrey.
