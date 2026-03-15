@@ -3,4 +3,4 @@
 - Goal Clarity: Reach Lavender Town, then head to Celadon City to defeat Erika for the Rainbow Badge (enables Strength).
 
 [Current Status]
-- Turn 33390: At (11, 8). Apologies for the turn number error in my last note! I realized the gap to reach the Y=10 lane is all the way back West at X=4/X=5. Heading West to that gap now so I can take the bottom lane East.
+- Turn 33391: At (5, 10). Y=10 is blocked at X=6. I just realized I previously saw a Cut bush at the East end of Y=4 (Turn 33334), backed away out of laziness, and then later hallucinated it was a "dead-end sign"! I am heading ALL the way back to the East end of Y=4 to verify and use Cut.
