@@ -937,7 +937,7 @@ START:(10,19)|DIR:R|END:(18,15)
 - Lots of Beauty, Bird Keeper, and Jr. Trainer♀ trainers.
 - Mechanic note: Whirlwind has no effect in Trainer battles in Gen 1!
 - The West paths at Y=12 and Y=13 are dead ends. The exit to Route 14 must be further North.
-- The path East along Y=4 is a DEAD END terminating at a sign at (34, 4). I must backtrack West and thoroughly check the North wall (Y=3) for gaps.
+- The path East along Y=4 is a DEAD END terminating at a sign at (34, 4). The TRUE path is to take the bottom lane (Y=10) East to wrap around the maze.
 
 <hr>
 
@@ -1028,6 +1028,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Goal Clarity: Reach Lavender Town, then head to Celadon City to defeat Erika for the Rainbow Badge (enables Strength).
 
 [Current Status]
-- Turn 33388: At (16, 4). Realized I never checked the North wall (Y=3) WEST of the trainer at (12, 4) because I bypassed her on the lower lane. I am returning to X=11 to thoroughly check Y=3 for the missing gap.
+- Turn 33389: At (12, 6). Realized the upper lanes (Y=4, 6, 8) are all dead ends at the East side (X=34). The TRUE path must be to take the bottom lane (Y=10) all the way East to wrap around the maze.
 
 <hr>

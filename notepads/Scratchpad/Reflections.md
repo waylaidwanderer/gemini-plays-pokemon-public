@@ -3,4 +3,4 @@
 - Goal Clarity: Reach Lavender Town, then head to Celadon City to defeat Erika for the Rainbow Badge (enables Strength).
 
 [Current Status]
-- Turn 33388: At (16, 4). Realized I never checked the North wall (Y=3) WEST of the trainer at (12, 4) because I bypassed her on the lower lane. I am returning to X=11 to thoroughly check Y=3 for the missing gap.
+- Turn 33389: At (12, 6). Realized the upper lanes (Y=4, 6, 8) are all dead ends at the East side (X=34). The TRUE path must be to take the bottom lane (Y=10) all the way East to wrap around the maze.
