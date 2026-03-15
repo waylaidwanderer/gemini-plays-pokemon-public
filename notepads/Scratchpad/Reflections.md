@@ -23,9 +23,5 @@
 - Notepad/Map Hygiene: Created Locations/SilphCo to track the complex layout (elevators, stairs, electronic doors). Placed map marker for 5F elevator.
 - Error Analysis: Realized map 0_236 is the *interior* of the elevator, not the 2nd floor itself. You select a floor at the panel (3,0) and walk South to exit. This clarifies the navigation significantly!
 - Tools: Battle macros are functioning perfectly.
-[50-Turn Reflection (Turn 35198)]
-- Progress: Reached Silph Co. 5F via the elevator. Successfully identified that the elevator interior is its own map (0_236) and mapped the transition (panel to select floor, walk South to exit).
-- Strategy: Actively clearing out Team Rocket Grunts to gain EXP and explore the floors for the Card Key.
-- Execution: Battle macros continue to perform well. Keeping track of elevator locations with map markers (🛗).
 [50-Turn Reflection (Turn 35249)]
 - Error Analysis: Identified that Gen 1's 2x2 main battle menu wraps in all directions, making blind resets impossible. I must track or visually confirm the cursor position (FIGHT/PKMN/ITEM/RUN) before navigating.
