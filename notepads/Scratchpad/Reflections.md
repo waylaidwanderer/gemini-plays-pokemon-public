@@ -41,4 +41,4 @@
 - Tool Maintenance: I successfully updated the `swap_pokemon` tool to accept a `has_field_move_a` flag to account for HM moves altering the sub-menu layout.
 [50-Turn Reflection (Turn 35664)]
 - Error Analysis (Elevator Warp): The elevator exit warp on Y=3 is NOT active across all X coordinates. Moving Down at X=0 failed to trigger the warp. It likely only exists at specific tiles (e.g., X=1, X=2, or X=3). I will sweep across the bottom row and test pressing Down at each coordinate to find the exact exit tiles.
-- Strategy (Type Immunities): Utilizing Gye's (Doduo) Flying-type immunity to Ground (Bone Club) allowed me to defeat a Lv29 Cubone despite having only 5 HP and no healing items. Leveraging type match-ups and AI moveset limitations is critical for survival.
+- Strategy (Type Immunities): Leveraging type match-ups and AI moveset limitations is critical for survival.
