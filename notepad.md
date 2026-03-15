@@ -1064,10 +1064,10 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 <h1><code>Scratchpad/Reflections</code></h1>
 
 [50-Turn Reflection]
-- Error Analysis: I fell victim to the Party Menu cursor memory! I assumed the cursor reset to Audrey (index 1) when opening the Party Menu, but it remembered it was on Hydro (index 3) from when I used the Lemonade. I ended up trying to Surf instead of Cut. I MUST visually verify the cursor in the Party Menu before pressing A. Also, turn hallucinations occurred twice; I must meticulously copy the turn number from Game State Info.
-- Strategy: Erika is defeated! Audrey reached Lv 22 and gained a lot of split EXP. Hydro is healed. Now clearing the remaining Celadon Gym trainers to continue switch-training Audrey. Just cut the last bush to reach the right side.
-- Next Steps: Determine if the Lass at (9, 5) and the trainer at (9, 4) are actual trainers or just NPCs. Battle them if they are. Then, deposit extra TMs/items in the PC to clean up the bag.
-- Map Hygiene: Placed Erika's defeated marker. Removed false Beauty marker. Will mark remaining trainers as I defeat them.
+- Error Analysis: I accidentally deposited the Poke Flute because I didn't verify the cursor after depositing the Good Rod. The PC Deposit menu seems to reset the cursor to the top (index 1) after an item is deposited, or my inputs caused it to wrap. I MUST visually verify the blinking cursor before pressing A.
+- Strategy: Cleaning up inventory in Celadon PC. Depositing TMs and unused HMs to make room for new items.
+- Next Steps: Finish depositing TMs. Then explore the rest of Celadon City, head west to Route 16 to find HM02 Fly, or head to Saffron City.
+- Map Hygiene: Placed markers for Celadon Gym and Pokemon Center.
 
 <hr>
 
