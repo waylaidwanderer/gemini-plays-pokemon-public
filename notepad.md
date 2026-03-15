@@ -1032,6 +1032,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Goal Clarity: Reach Lavender Town, then head to Celadon City to defeat Erika for the Rainbow Badge (enables Strength).
 
 [Current Status]
-- Turn 33401: At (14, 4). Executing step 3 of the True Maze Path: walking East on Y=4 to X=24 to find the gap South. Doing this in chunks to ensure safe navigation.
+- Turn 33402: At (24, 6). Bypassed the X=26 block on Y=4 by dropping South to Y=6 through the gap at X=24. Now I will continue East along Y=6 to finally exit this maze!
 
 <hr>
