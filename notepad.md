@@ -1027,6 +1027,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Goal Clarity: Celadon Gym (Rainbow Badge) -> Warden's House (Strength).
 
 [Current Status]
-- Turn 33305: Moving North through Route 14. Biking past the fences at X=6. My past map markers confirm I've defeated the Bikers ahead, so it should be a safe ride!
+- Turn 33306: Continuing North through Route 14 on the Bicycle at X=6. My previous map markers are invaluable here for knowing which trainers are already defeated!
 
 <hr>
