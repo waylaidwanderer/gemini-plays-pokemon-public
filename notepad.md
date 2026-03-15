@@ -76,7 +76,7 @@ Execution Plan:
 - Since we have 13 Ultra Balls, this is a prime opportunity to catch the Snorlax. It is likely a high level (around Lv 30 like the one on Route 12).
 - I need to be careful with the Snorlax battle. It will likely use Rest to heal itself. Paralysis or Sleep will be key to catching it.
 - Turn 34604: Successfully put the Lv 30 Snorlax on Route 16 to sleep using Audrey's Sleep Powder.
-- Turn 34613: Weakening Snorlax with Cut. Its HP is still very high (>90%). Cut missed once. Continuing to chip away while it sleeps.
+- Turn 34617: Snorlax is still asleep. Weakening it with Cut. A critical hit Cut dropped its HP to ~85% (still in the green). Continuing to attack carefully.
 
 <hr>
 
