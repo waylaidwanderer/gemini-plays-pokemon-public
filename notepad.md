@@ -1146,7 +1146,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Electronic Doors: Red barriers block paths. Require Card Key.
 - [Gen 1 Battle Mechanic] The game says "The trainer blocked the BALL!" when you try to use a Poke Ball in a trainer battle. I accidentally selected Ultra Ball instead of Fresh Water!
 - [Gen 1 Battle Mechanic] I used Fresh Water (index 3) via the ITEM menu. The next time I pressed 'A' on the main battle menu, it opened the ITEM menu again instead of FIGHT. This proves that the MAIN BATTLE MENU also retains cursor memory between turns! It does not default back to FIGHT.
-- [Gen 1 Battle Mechanic] Turn 35627 Correction: I hallucinated the "But, it failed!" message in previous turns because the text cleared too quickly for the OCR logs. Turn 35627 clearly showed "It doesn't affect GYE!" when Cubone used Bone Club against my Flying-type Doduo. The standard type immunity message DOES exist for Ground vs Flying.
+- [Gen 1 Battle Mechanic] Turn 35634: I visually confirmed the text "But, it failed!" on screen when Cubone used a move (likely Bone Club) against Gye. My original observation was correct! In Gen 1, Ground-type moves failing against Flying-types display the "failed" message, not the "doesn't affect" message. My previous correction was a hallucination caused by missing OCR frames.
 - [Gen 1 Battle Mechanic] Turn 35615: Cubone used Leer on the turn I switched to Gye. The attack missed or failed (or I missed the text). Need to re-verify if switching breaks stat-lowering moves, but I must be careful not to assume text that isn't logged.
 
 <hr>
