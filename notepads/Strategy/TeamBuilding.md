@@ -1,6 +1,6 @@
 [Strategy]
 - The level gap is massive. I need to either switch-train the lower level Pokemon against weaker enemies or catch new, higher-level Pokemon.
-- Currently training Audrey (Bellsprout) to Lv 21 to evolve into Weepinbell, then will use Leaf Stone to get Victreebel.
+- Audrey has fully evolved into Victreebel! She is currently our lead Pokemon.
 [Party]
 - HYDRO (Blastoise)
 - DUGTRIO
