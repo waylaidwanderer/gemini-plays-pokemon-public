@@ -1245,6 +1245,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - 1F Navigation: Path North through the center (X=14 to X=17) is blocked by a zigzag of potted plants (Y=10) and couches/glass walls (Y=8, Y=9). Must bypass these partitions by walking around the left side (X=11) or right side.
 - 1F Navigation: Path North at X=9 is blocked by monitors at Y=6 and Y=7. Must use X=8 or further West to bypass the partitions and head North.
 - 10F (Map 0_234): Elevator doors at (12, 0). Scientist at (10, 2).
-- 10F Navigation: From elevator, path goes South via X=11. Electronic door at (10, 4) blocks West. Electronic doors at (10, 8) and (11, 8) block South. Warp pad located at (13, 7).
+- 10F Navigation: From elevator, path goes South via X=11. Wall at (9, 4) blocks West. Path West is at Y=5. Electronic doors at (10, 8) and (11, 8) block South. Warp pad located at (13, 7).
 
 <hr>
