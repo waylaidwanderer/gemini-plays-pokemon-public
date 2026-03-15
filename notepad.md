@@ -722,6 +722,7 @@ Points of Interest:
 - Game Corner (0_135): Hidden switch behind the poster at (9, 4), previously guarded by a Rocket Grunt.
 - The alley at X=5 on the West side of Celadon City is a dead end (blocked by trees at Y=9).
 - The path North at X=14 (East of Dept Store) is also completely blocked by bushes at Y=9.
+- Verified: The entire West edge of the city (X=0 to X=5) is completely blocked from going North by a solid wall of trees at Y=9.
 
 <hr>
 
