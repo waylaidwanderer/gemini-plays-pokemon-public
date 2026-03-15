@@ -29,4 +29,4 @@
 - 6F Navigation: The path West from the stairs leads to an open hallway going South at X=7 and X=6. X=8 is a wall blocking the path East at Y=4 to Y=6. There are electronic doors at (2, 1) and (3, 1). There is a spin tile at (3, 3).
 - 6F Navigation: Following the hallway South leads to a Scientist at (7, 8). The path continues South to an intersection at (6, 12). An Item Ball to the West at (3, 12) is blocked by an electronic door at X=5.
 - 6F Navigation: East of the intersection at (6, 15) is a hallway leading East. A Grunt is at (14, 15).
-- 6F Navigation: The hallway continues East from (14, 15) to X=20. A Grunt is at (18, 13) facing South, guarding the path North.
+- 6F Navigation: The hallway continues East from (14, 15). A solid wall at Y=14 blocks the path North. A Grunt is visible behind the wall at (18, 13). The hallway continues East past X=23.
