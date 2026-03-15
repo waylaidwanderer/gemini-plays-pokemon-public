@@ -455,6 +455,7 @@ WARNING: Bellsprout's Vine Whip is 4x effective against Geodude. Train Cleo here
 - Gen 1 Item Bag Wrap-around: Pressing Up at the top item wraps to CANCEL, then pressing Up again wraps to the bottom item. Mashing Up will endlessly loop the menu, not reset the cursor to the top!
 - Gen 1 UI Quirks: The OVERWORLD ITEM menu WRAPS when navigating past the top/bottom. However, the BATTLE ITEM menu DOES NOT wrap! Keep this in mind when navigating items in battle.
 - Menus with introductory text (like Vending Machines) can eat inputs if the text is still rendering or waiting for input to clear. Always use sleep commands (e.g., 'sleep 500') or wait visually before sending menu navigation inputs.
+- Overworld signs/interactables can have multiple pages of text. If a text box isn't closing with 'B', check for a down arrow indicating more text and advance it with 'A' to prevent movement soft-locks.
 
 <hr>
 
@@ -1064,6 +1065,5 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [50-Turn Reflection]
 - Error Analysis: Menu navigation during text-heavy events (like Vending Machines) is prone to desyncs if inputs are entered too quickly. Mashing leads to buying the wrong items or exiting the menu.
 - UI/Menu Learnings: Must wait for menus to fully render before sending directional inputs. Cannot use consecutive sleep commands in move_sequence.
-- Progress: Successfully traded all three drinks to the little girl for TM13, TM48, and TM49. Currently stocking up on Lemonade before heading to Celadon Gym to train Audrey.
 
 <hr>
