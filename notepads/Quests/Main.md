@@ -12,4 +12,5 @@ Execution Plan:
 - A sleeping Snorlax blocks the path on Route 16. I must use the Poke Flute to wake it up and either catch or defeat it to proceed.
 - Since we have 13 Ultra Balls, this is a prime opportunity to catch the Snorlax. It is likely a high level (around Lv 30 like the one on Route 12).
 - I need to be careful with the Snorlax battle. It will likely use Rest to heal itself. Paralysis or Sleep will be key to catching it.
-- Turn 34604: Successfully put the Lv 30 Snorlax on Route 16 to sleep using Audrey's Sleep Powder on the first turn. Now weakening it with Cut to prepare for catching.
+- Turn 34604: Successfully put the Lv 30 Snorlax on Route 16 to sleep using Audrey's Sleep Powder.
+- Turn 34613: Weakening Snorlax with Cut. Its HP is still very high (>90%). Cut missed once. Continuing to chip away while it sleeps.
