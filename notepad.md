@@ -1028,6 +1028,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Goal Clarity: Reach Lavender Town, then head to Celadon City to defeat Erika for the Rainbow Badge (enables Strength).
 
 [Current Status]
-- Turn 33386: At (27, 4) on Route 13. Moving East to X=32 to continue checking the North wall (Y=3).
+- Turn 33387: At (32, 4). I've confirmed the North wall (Y=3) is completely solid all the way to the East dead-end at X=34. The path North to the Y=0/Y=2 lane MUST be far to the West (West of X=14). Retracing my steps West to find it.
 
 <hr>
