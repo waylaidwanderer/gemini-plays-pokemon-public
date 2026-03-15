@@ -51,7 +51,5 @@
 [50-Turn Reflection (Turn 35821)]
 - Error Analysis (Blind Navigation): Attempting long blind macros in unexplored indoor spaces (like the 1F exit sequence) inevitably leads to bumping into unmapped counters or displays. I must visually verify the route or use smaller chunks.
 [50-Turn Reflection (Turn 35925)]
-- Execution: Reached 10F and defeated the Scientist. The 1F navigation plan worked perfectly avoiding the glass walls.
 - Map Hygiene: Placed a marker for the 10F elevator.
 - Observation: Identified electronic doors as `TYPE_a83b` (the yellow barriers). They block the path South at (10, 8) and (11, 8).
-- Strategy: Explore the West hallway (Y=5) and East hallway (Y=5) on 10F to find items or NPCs before we need the Card Key.
