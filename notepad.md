@@ -736,6 +736,7 @@ Points of Interest:
 - Found it! The hidden gap in the trees behind Celadon City is at X=32 and X=33 (Y=3). These tiles appear as solid trees but are actually TYPE_3fe2 (walkable).
 - The path heading South at X=22 is a dead end at (22, 31). The tree at (22, 32) is a solid wall, NOT a Cut bush.
 - The path heading South at X=24 is also a dead end. The Gym path must be further East.
+- Found a gap heading South at X=37 from the main road (Y=13). This might be the path to reach the Cut bush at (47, 20).
 
 <hr>
 
