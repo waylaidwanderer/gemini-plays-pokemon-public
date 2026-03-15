@@ -736,6 +736,7 @@ Points of Interest:
 - The top path (Y=1/Y=2) behind the buildings is accessed via a hidden gap in the trees at X=32 and X=33 (Y=3). This path connects back to the main city streets on the East side at X=44. This is the ONLY way to reach the back entrance of Celadon Mansion.
 - Found it! The hidden gap in the trees behind Celadon City is at X=32 and X=33 (Y=3). These tiles appear as solid trees but are actually TYPE_3fe2 (walkable).
 - The path heading South at X=22 is a dead end at (22, 31). The tree at (22, 32) is a solid wall, NOT a Cut bush.
+- The path heading South at X=24 is also a dead end. The Gym path must be further East.
 
 <hr>
 
