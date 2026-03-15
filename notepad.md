@@ -1044,10 +1044,10 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 <h1><code>Scratchpad/Reflections</code></h1>
 
 [50-Turn Reflection]
-- Notepad Hygiene: Celadon City and Mansion notepads updated with verified dead ends. Reflections notepad tracks current hypotheses.
-- Error Analysis: I previously relied on visual inspection of the Y=3 tree line instead of physically bumping into every tile. I am correcting this by methodically testing each tile.
-- Map/Notepad Hygiene: The Dept Store entrance note at (14, 13) might be slightly inaccurate. Y=10 is the true East/West main street.
-- Empirical Proof for Overwatch: Tested the left side of 2F and found it blocked by desks. Tested East from (20, 4) and found it blocked by the Mansion roof. Tested North from (44, 4) and found it blocked by a tree.
-- SUCCESS: The hypothesis was correct! By methodically bumping UP along the Y=3 tree line from X=44 going West, I found a hidden gap and successfully reached the top path at Y=1! (Correction: The gap is NOT at X=28. I merely stopped at X=28 to take notes. I need to find the actual gap by walking East along Y=2 and scanning the Y=3 tree line for a TYPE_3fe2 tile).
+- Notepad Hygiene: Updated Celadon Mansion and City notes with the exact coordinates of the hidden tree gap (X=32/33, Y=3).
+- Error Analysis: I wrote down my current position (X=28) as the location of the hidden gap, forgetting I had walked West after passing through it. I must record coordinates exactly when I discover something, not after moving.
+- Current Status: Successfully obtained Eevee from the Celadon Mansion roof!
+- Next Steps: Heal at the Pokemon Center, buy Evolution Stones and supplies at the Department Store, and then prepare to challenge Erika at the Celadon Gym.
+- Map Hygiene: Added map markers for the Mansion's back entrance and the hidden gap in the trees.
 
 <hr>
