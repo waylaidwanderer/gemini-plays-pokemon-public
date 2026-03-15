@@ -950,7 +950,7 @@
         "quantity"
       ]
     },
-    "python_script": "import json\n\ndef buy_vending_drinks(input_data):\n    drink = input_data.get('target_drink', 'LEMONADE')\n    qty = min(input_data.get('quantity', 1), 10)\n    \n    buttons = []\n    for _ in range(qty):\n        buttons.extend(['Up', 'A']) # Ensure facing up and interact\n        buttons.append('sleep 8000') # Wait for menu to appear (takes ~9s)\n        buttons.append('sleep 4000') # Split to avoid 10s limit\n        \n        if drink == 'SODA POP':\n            buttons.append('Down')\n        elif drink == 'LEMONADE':\n            buttons.extend(['Down', 'Down'])\n            \n        buttons.append('A') # Buy\n        buttons.append('sleep 8000') # Wait for \"popped out!\" text to fully render\n        buttons.append('B') # Clear text\n        buttons.append('sleep 1000')\n        buttons.append('B') # Extra B to ensure we are out of any menu/text\n        buttons.append('sleep 2000') # Wait for overworld\n        \n    print(json.dumps(buttons))\n\nbuy_vending_drinks(input_data)",
+    "python_script": "import json\n\ndef buy_vending_drinks(input_data):\n    drink = input_data.get('target_drink', 'LEMONADE')\n    qty = min(input_data.get('quantity', 1), 10)\n    \n    buttons = []\n    for _ in range(qty):\n        buttons.extend(['Up', 'A']) # Ensure facing up and interact\n        buttons.append('sleep 10000') # Wait for menu to appear (takes ~9s)\n        \n        if drink == 'SODA POP':\n            buttons.append('Down')\n        elif drink == 'LEMONADE':\n            buttons.extend(['Down', 'Down'])\n            \n        buttons.append('A') # Buy\n        buttons.append('sleep 8000') # Wait for \"popped out!\" text to fully render\n        buttons.append('B') # Clear text\n        buttons.append('sleep 1000')\n        buttons.append('B') # Extra B to ensure we are out of any menu/text\n        buttons.append('sleep 2000') # Wait for overworld\n        \n    print(json.dumps(buttons))\n\nbuy_vending_drinks(input_data)",
     "history": [
       {
         "commit_message": "Initial version",
@@ -981,6 +981,11 @@
         "commit_message": "Split the 12000ms sleep into 8000ms and 4000ms to stay under the 10000ms limit per sleep command.",
         "timestamp": "2026-03-15T21:53:42.803Z",
         "action_counter": 35748
+      },
+      {
+        "commit_message": "Removed consecutive sleeps. Replaced with single sleep commands of appropriate length.",
+        "timestamp": "2026-03-15T21:54:05.678Z",
+        "action_counter": 35750
       }
     ]
   }
