@@ -31,4 +31,4 @@
 - 6F Navigation: East of the intersection at (6, 15) is a hallway leading East. A Grunt is at (14, 15).
 - 6F Navigation: The hallway continues East from (14, 15). A solid wall at Y=14 blocks the path North. A Grunt is visible behind the wall at (18, 13). The hallway continues East past X=23.
 - 6F Navigation: The hallway continues East from (14, 15) to a dead end at X=25. The only path forward is North at X=24.
-- 6F Navigation: The path North at X=24 leads to a set of stairs at (23, 3). A room is visible to the West with two NPCs at (20, 6) and (21, 6), blocked by a wall at X=23.
+- 6F Navigation: The path North at X=24 leads to a set of stairs UP at (23, 3). A room is visible to the West with two NPCs at (20, 6) and (21, 6), blocked by a wall at X=23.
