@@ -1250,5 +1250,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - 10F Navigation: From elevator, path goes South via X=11. Path West at Y=5 is a dead end (wall at X=7). Electronic doors at (10, 8) and (11, 8) block South. Warp pad located at (13, 7).
 - Warp Connection: 4F warp at (3, 15) connects to 10F warp at (13, 15).
 - 10F Navigation: Warp at (13, 15) lands in an isolated area on the East side of a wall at X=7. A scared Silph employee wanders here. Item ball visible at (5, 11) on the West side of the wall. There is a second warp pad at (9, 11).
+- Warp Connection: 10F warp at (9, 11) connects to 4F warp at (11, 7).
+- 4F Navigation: Warp at (11, 7) lands in a partitioned area. Grunt at (14, 6). Electronic doors at (12, 8) and (13, 8) block South.
 
 <hr>
