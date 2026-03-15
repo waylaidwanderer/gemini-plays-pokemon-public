@@ -1137,6 +1137,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [50-Turn Reflection (Turn 35925)]
 - Map Hygiene: Placed a marker for the 10F elevator.
 - Observation: Identified electronic doors as `TYPE_a83b` (the yellow barriers). They block the path South at (10, 8) and (11, 8).
+[50-Turn Reflection (Turn 35977)]
+- Error Analysis (Visual Hallucination): I assumed a wandering NPC in an isolated area of 10F was a Rocket Grunt, only to find it was a scared Silph employee ("I'm scared!"). I must visually verify sprites and text before assuming hostility.
+- Map Hygiene: Identified an unreachable Item Ball at (5, 11) on 10F, blocked by a wall at X=7. I must find another route to the West side of 10F.
 
 <hr>
 
@@ -1246,6 +1249,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - 10F (Map 0_234): Elevator doors at (12, 0). Scientist at (10, 2).
 - 10F Navigation: From elevator, path goes South via X=11. Path West at Y=5 is a dead end (wall at X=7). Electronic doors at (10, 8) and (11, 8) block South. Warp pad located at (13, 7).
 - Warp Connection: 4F warp at (3, 15) connects to 10F warp at (13, 15).
-- 10F Navigation: Warp at (13, 15) lands in an isolated area on the South side of 10F. A solid wall of boxes at X=7 blocks access to the items visible to the West. Grunt wanders around (9, 13).
+- 10F Navigation: Warp at (13, 15) lands in an isolated area on the East side of a wall at X=7. A scared Silph employee wanders here. Item ball visible at (5, 11) on the West side of the wall. There is a second warp pad at (9, 11).
 
 <hr>

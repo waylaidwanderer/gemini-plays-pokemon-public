@@ -53,3 +53,6 @@
 [50-Turn Reflection (Turn 35925)]
 - Map Hygiene: Placed a marker for the 10F elevator.
 - Observation: Identified electronic doors as `TYPE_a83b` (the yellow barriers). They block the path South at (10, 8) and (11, 8).
+[50-Turn Reflection (Turn 35977)]
+- Error Analysis (Visual Hallucination): I assumed a wandering NPC in an isolated area of 10F was a Rocket Grunt, only to find it was a scared Silph employee ("I'm scared!"). I must visually verify sprites and text before assuming hostility.
+- Map Hygiene: Identified an unreachable Item Ball at (5, 11) on 10F, blocked by a wall at X=7. I must find another route to the West side of 10F.
