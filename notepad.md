@@ -1033,9 +1033,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 <h1><code>Scratchpad/Reflections</code></h1>
 
 [50-Turn Reflection]
-- Immediate Execution: Exiting the Underground Path onto Route 7! I successfully traveled from Route 8, through the tunnel (0_121), and arrived at the Route 7 Entrance (0_77). Next stop: Celadon City to the West!
-- Goal Clarity: Reach Celadon City to defeat Erika for the Rainbow Badge (enables Strength).
-- Map/Notepad Hygiene: The Underground Path buildings on Route 8 and 7 have identical layouts, which caused some confusion. The stairs down are accessed by walking UP to the top wall.
+- Immediate Execution: Turn 33585. Returning to Celadon City to pick up Eevee from the Celadon Mansion back entrance. Navigating around the Celadon Dept Store to reach the back alley at (5, 10).
+- Goal Clarity: Reach Celadon Mansion back entrance to get Eevee.
+- Map/Notepad Hygiene: The Dept Store entrance note at (14, 13) might be slightly inaccurate, as the visual door is at (10, 13). I will verify this when I pass by.
 - Tools: `move_sequence` remains the most reliable way to navigate long straight paths.
 
 <hr>
