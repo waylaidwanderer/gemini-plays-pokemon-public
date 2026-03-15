@@ -3,4 +3,4 @@
 - Goal Clarity: Reach Lavender Town, then head to Celadon City to defeat Erika for the Rainbow Badge (enables Strength).
 
 [Current Status]
-- Turn 33380: At (19, 4) on Route 13. I've confirmed the North wall (Y=3) is solid from X=14 to at least X=21. Continuing East in short steps to find the gap.
+- Turn 33382: At (22, 4) on Route 13. I see that the Y=4 lane is actually BLOCKED at (26, 4) by a bush! However, there is a gap to the South at X=24/25 leading down to Y=6. I need to dip South here to continue East.
