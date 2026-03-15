@@ -10,3 +10,4 @@
 3F (Map 0_130): Game Freak HQ.
 4F (Map 0_131): Elevator at (7, 1).
 5F (Map 0_132):
+- 1F (Map 0_128): The room is divided by a wall. The stairs to 2F are on the right side at (7, 1). There is no obvious back exit on the ground floor.
