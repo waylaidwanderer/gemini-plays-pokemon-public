@@ -1236,5 +1236,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Warp Connection: 6F warp at (23, 3) connects to 2F (Map 0_207) warp at (9, 15).
 - 2F (Map 0_207): Reached via warp pad from 6F (23, 3). The warp lands at (9, 15) in a small isolated room. A Scientist is at (5, 14). A woman is at (4, 13). No items or further progress here; it's a dead end. Return via warp pad.
 - 7F Main (Map 0_212): Elevator at (18, 0). Stairs DOWN to 6F at (22, 0). Electronic doors block the path South at (20, 4) and (21, 4). Grunt at (20, 2).
+- 1F Navigation: There are desks blocking the path East at Y=17 starting at X=12. Must walk at Y=16 or higher to go East.
 
 <hr>
