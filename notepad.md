@@ -1028,6 +1028,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Goal Clarity: Reach Lavender Town, then head to Celadon City to defeat Erika for the Rainbow Badge (enables Strength).
 
 [Current Status]
-- Turn 33369: At (7, 8) on Route 13. I dipped South to Y=8 to bypass obstacles. Carefully exploring West along this Y=8 lane using short steps.
+- Turn 33374: At (4, 10) on Route 13. I realized Lavender Town is EAST, so searching for gaps in the West is backwards. I am turning around to head ALL THE WAY EAST. I suspect the "dead end" at X=34 has a path North right next to it that I ignored.
 
 <hr>
