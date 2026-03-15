@@ -24,6 +24,7 @@
 
 [HMs]
 - HM01 (Cut): Taught to Audrey (Bellsprout).
+- HM02 (Fly): Obtained! Need to retrieve a Flying-type (Doduo) from PC to use it.
 - HM03 (Surf): Obtained! (Safari Zone Secret House prize).
 - HM05 (Flash): Obtained! Tested party + Diglett, Dugtrio, Meowth, Voltorb - none can learn it. Abandoned finding a Flash user; navigating via grid is faster.
 
