@@ -1,4 +1,4 @@
 [50-Turn Reflection]
-- Map/Notepad Hygiene: The Dept Store entrance note at (14, 13) might be slightly inaccurate, as the visual door is at (10, 13). I will verify this when I pass by.
-- Tools: `move_sequence` remains the most reliable way to navigate long straight paths.
+- Map/Notepad Hygiene: The Dept Store entrance note at (14, 13) might be slightly inaccurate. Also, discovered Y=14 is blocked at X=20 by a fence. Y=10 is the true East/West main street.
+- Error Analysis & Navigation: Attempting to cross the city on Y=14 resulted in bumping into a fence. I must rely on the established main road at Y=10 to avoid obstacles.
 - Hypothesis: The top path at (28, 4) behind the Pokemon Center isn't a dead end. I likely hit the top-right corner of the Celadon Mansion and need to step UP to Y=2 or Y=3 to continue walking West behind it. Testing this now.
