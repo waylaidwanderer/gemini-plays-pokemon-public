@@ -3,4 +3,4 @@
 - Goal Clarity: Reach Lavender Town, then head to Celadon City to defeat Erika for the Rainbow Badge (enables Strength).
 
 [Current Status]
-- Turn 33403: At (29, 6) on Route 13. Continuing East along the Y=6 lane. The path looks clear ahead! Almost out of the maze!
+- Turn 33404: At (29, 6). Realized Y=6 is blocked at X=32 by a Beauty standing in a 1-tile chokepoint. If I battle her from behind, she stays there and permanently blocks it. The TRUE path requires backtracking West on Y=6 to X=17, dropping to Y=8, going East to X=26, dropping to Y=10, and going East. Executing this zigzag now.
