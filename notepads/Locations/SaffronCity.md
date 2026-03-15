@@ -15,4 +15,3 @@
 
 # Fighting Dojo (Map 0_177)
 - Located at (26, 3) in Saffron City.
-- Defeated Blackbelt at (5, 7).
