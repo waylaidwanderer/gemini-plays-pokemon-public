@@ -1109,6 +1109,11 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Tools: Battle macros are functioning perfectly.
 [50-Turn Reflection (Turn 35249)]
 - Error Analysis: Identified that Gen 1's 2x2 main battle menu wraps in all directions, making blind resets impossible. I must track or visually confirm the cursor position (FIGHT/PKMN/ITEM/RUN) before navigating.
+[50-Turn Reflection (Turn 35301)]
+- Progress: Found a warp pad on 5F leading to a partitioned section of 9F. Currently battling a Scientist.
+- Strategy: Using Cleo (Ground type) against Magneton to block Electric attacks.
+- Notepad/Map Hygiene: Documented warp connections between 5F and 3F/9F with map markers and notes. Removed redundant reflection logs as requested by overwatch.
+- Tools: Fixed execute_battle_turn's main_cursor wrapping bug.
 
 <hr>
 
