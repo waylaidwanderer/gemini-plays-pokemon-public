@@ -737,7 +737,7 @@ Points of Interest:
 - The path heading South at X=22 is a dead end at (22, 31). The tree at (22, 32) is a solid wall, NOT a Cut bush.
 - The path heading South at X=24 is also a dead end. The Gym path must be further East.
 - Found a gap heading South at X=37 from the main road (Y=13). This might be the path to reach the Cut bush at (47, 20).
-- The vertical gap at X=37 connects the main road (Y=13) to the lower southern path (Y=22). I need to go down this gap to Y=22, then walk East to find the Cut bush at (47, 20) that leads to the Gym.
+- The vertical gap at X=37 connects the main road (Y=13) to the lower southern path (Y=22), but this lower path is a DEAD END blocked by trees at X=46. The correct way to reach the Gym Cut bush at (47, 20) is from the far East side of the city near X=48, approaching it from the right.
 
 <hr>
 
