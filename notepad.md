@@ -1116,7 +1116,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - [Turn 35403 Error Analysis] I attempted to move Up then Left, but I bumped into a wall at (17, 1) because the tile at Y=1 is actually the wall of the elevator shaft, not a hallway. I need to move DOWN to Y=3 to bypass the elevator shaft before heading West.
 [50-Turn Reflection (Turn 35405)]
 - Error Analysis (Text Box Trap): I repeatedly failed to move on 6F because a post-battle text box ("No matter! My brothers will avenge me!") was still open, eating all my directional inputs. I incorrectly assumed I was bumping into walls or that auto-turn failed. I MUST visually confirm the absence of text boxes at the bottom of the screen before executing overworld movement sequences.
-- Progress: Reached 6F of Silph Co. Defeated one of the Rocket Brothers and mapped the initial elevator/stairs area.
 
 <hr>
 
