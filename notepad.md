@@ -1036,6 +1036,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Goal Clarity: Reach Lavender Town, then head to Celadon City to defeat Erika for the Rainbow Badge (enables Strength).
 
 [Current Status]
-- Turn 33404: At (29, 6). Realized Y=6 is blocked at X=32 by a Beauty standing in a 1-tile chokepoint. If I battle her from behind, she stays there and permanently blocks it. The TRUE path requires backtracking West on Y=6 to X=17, dropping to Y=8, going East to X=26, dropping to Y=10, and going East. Executing this zigzag now.
+- Turn 33405: At (19, 6). Bypassing the final blockade! Walking West to X=17 to drop down to Y=8, then heading East to X=26.
 
 <hr>
