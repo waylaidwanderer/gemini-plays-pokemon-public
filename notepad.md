@@ -1063,8 +1063,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 <h1><code>Scratchpad/Reflections</code></h1>
 
 [50-Turn Reflection]
-- Error Analysis: Successfully found the path to the Gym! The gap at X=7 led me to a ledge at (7, 18) which drops down into the lower southwest section. The previous assumption about the East Cut bush being the only way was incorrect.
-- Map/Navigation Learnings: The lower southwest section of Celadon City is accessed by moving West from the main city path, dropping down the ledge at (7, 18).
-- Progress: Now exploring the lower southwest section to locate the Celadon Gym entrance (expected around X=12, Y=28).
+- Error Analysis: The `swap_pokemon` tool failed because Hydro has an HM move (Surf) which shifts the 'SWITCH' option down one slot in his sub-menu. Additionally, Start Menu cursor memory caused me to accidentally open the ITEM bag when I thought I was at the top. I will perform party swaps manually when dealing with HM users.
+- Map/Navigation: Successfully mapped the obscure route to Celadon Gym via the southern perimeter ledge at (7, 18) and the Cut bush at (35, 32).
+- Progress: Inside Celadon Gym. Currently swapping Audrey (who ended up at index 5 due to menu mishaps) to the front to train against the Gym trainers for Lv 21.
+- Custom Tools Evaluation: Considered 5 tools (smart cursor reader, name-based party swapper, city route planner, name-based shopper, auto-battler). Most are too complex or prone to visual text-reading errors compared to careful manual step-by-step navigation. I will rely on manual inputs for tricky menus like the HM-altered party sub-menu.
 
 <hr>
