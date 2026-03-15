@@ -758,7 +758,7 @@ Roof:
 - 2F Right Cashier: Sells TMs (TM32, TM33, TM02, TM07...)
 - 2F Left Cashier: Sells standard items (Great Ball, Super Potion, Revive, Super Repel, etc.)
 - 3F: Video Game Shop. No item cashiers observed here.
-- 4F: Cashier is at the left counter (X=5 to X=7, Y=3).
+- 4F: Left counter is just display stands. Cashier must be elsewhere.
 
 <hr>
 
