@@ -1201,6 +1201,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - 9F Navigation: Path North at X=24 leads West to a dead-end room with objects at (18, 4) and (19, 4) that require a Card Key.
 - Warp Connection: 5F warp at (27, 3) connects to 7F warp at (21, 15).
 - 7F (Map 0_212): Warp at (21, 15) lands in a partitioned area. A Grunt is at (19, 14) and electronic doors at (20, 12) and (21, 12) block the path North. Desks at Y=12 block access to the item ball at (24, 11) from the South. Dead end without Card Key.
-- 6F (Map 0_211): Stairs DOWN to 5F at (14, 0). Electronic doors at (10, 4) and (11, 4). Grunt at (17, 3). Trainer at (10, 6).
+- 6F (Map 0_211): Elevator at (18, 0). Stairs DOWN to 5F at (14, 0). Stairs UP to 7F at (16, 0). Electronic doors at (10, 4) and (11, 4). Grunt at (17, 3). Trainer at (10, 6).
 
 <hr>
