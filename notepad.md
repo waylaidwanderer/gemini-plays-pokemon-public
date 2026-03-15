@@ -936,8 +936,12 @@ START:(10,19)|DIR:R|END:(18,15)
 - Navigating a maze of fences. Watch out for dead ends and hidden gaps.
 - Lots of Beauty, Bird Keeper, and Jr. Trainer♀ trainers.
 - Mechanic note: Whirlwind has no effect in Trainer battles in Gen 1!
-- The West paths at Y=12 and Y=13 are dead ends. The exit to Route 14 must be further North.
-- The path East along Y=4 ends at a SIGN at (34, 4). There is NO Cut bush here. The East end is a dead end. The correct path must involve finding a gap in the North wall (Y=3) somewhere West of X=12.
+- TRUE MAZE PATH (West to East):
+  1. Start on the Y=6 lane. Walk East to X=14. (Y=6 is blocked at X=16).
+  2. At X=14, walk North through the gap to the Y=4 lane.
+  3. Walk East on Y=4 to X=24/25. (Y=4 is blocked at X=26).
+  4. At X=24/25, walk South through the gap back to the Y=6 lane.
+  5. Walk East on Y=6 to continue toward Route 12!
 
 <hr>
 
@@ -1028,6 +1032,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Goal Clarity: Reach Lavender Town, then head to Celadon City to defeat Erika for the Rainbow Badge (enables Strength).
 
 [Current Status]
-- Turn 33398: At (14, 6). I realized that the trainer at (12, 4) completely blocks the Y=4 lane because NPCs are solid obstacles. I must find a way to bypass her by finding a gap in the fences on the lower lanes (Y=6 or Y=8) that leads UP to the Y=4 lane WEST of X=12. Walking West along Y=6 to carefully scan the Y=5 fence line.
+- Turn 33400: At (5, 6). I've cracked the maze! It requires zigzagging between Y=4 and Y=6. Y=6 is blocked at X=16. Y=4 is blocked at X=26. The route is: Y=6 East to X=14 -> UP to Y=4 -> East to X=24 -> DOWN to Y=6 -> East past X=27! Executing now.
 
 <hr>
