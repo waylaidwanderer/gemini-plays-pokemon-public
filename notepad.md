@@ -1091,7 +1091,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - PC Deposit Cursor Reset: Turn 34518 to 34528 proved that when depositing an item, the cursor RESETS to index 1 (the top of the current visible list) after the deposit confirmation. It does NOT retain the previous index like the Withdraw or overworld Item menus.
 - PC Menu Input Eating: If inputs are sent while the "What do you want to deposit?" text is still rendering (e.g., just after a previous deposit confirmation), directional inputs will be eaten! This causes tools like `deposit_item_pc` to fail and deposit the top item (index 1) instead of the target. ALWAYS ensure the menu is fully loaded and the cursor is visible before sending navigation sequences.
 - Fly Map Input Eating: The Fly map has a rendering/animation delay when opened. D-pad inputs sent immediately after pressing 'A' to select Fly can be eaten. The destinations are ordered in a list (Pallet, Viridian, Pewter, Cerulean, Lavender, Vermilion, Celadon, Fuchsia). Press Down/Up to navigate this list.
-- Fly Map Navigation: The Fly map uses GEOGRAPHICAL D-pad navigation, not a 1D list! Pressing Up moves the cursor North (e.g., Pallet -> Viridian -> Pewter). Pressing Right moves it East. Use the D-pad to geographically point to the city you want.
+- Fly Map Navigation: The Fly map IS a 1D list. Up moves FORWARD (Pallet -> Viridian -> Pewter -> Cerulean -> Lavender -> Vermilion -> Celadon -> Fuchsia). Down moves BACKWARD. The list does NOT wrap.
 
 <hr>
 
