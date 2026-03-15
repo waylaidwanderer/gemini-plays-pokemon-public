@@ -1076,6 +1076,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Status Move Accuracy Message: In Gen 1, when a status move (like Stun Spore or Sleep Powder) misses due to accuracy, the game displays "It didn't affect [PKMN]!" instead of "The attack missed!". I observed this when an enemy Oddish's Stun Spore failed against my Dugtrio (Ground-type) with the "didn't affect" message. This disproves my previous theory about Grass-type immunity to Grass status moves; it was just a 75% accuracy miss!
 - [Gen 1 Status Immunity] A Pokemon can only have ONE major status condition at a time. If a Pokemon is Paralyzed, it is IMMUNE to being put to Sleep, Frozen, Burned, or Poisoned. This makes a Paralyzed Pokemon an excellent safe lead for switch-training against enemies that spam Sleep Powder/Stun Spore (like the trainers in Celadon Gym).
 - Wrap-lock: In Gen 1, if the Wrap user is faster, the target cannot attack at all during Wrap. If the target is paralyzed, their speed is reduced, making them susceptible to indefinite Wrap-locks from normally slower Wrap users. Switching to a faster Pokemon is required to break the lock.
+- Text Box Input Eating: If you use a macro (like execute_battle_turn) while a text box is still printing or waiting to be cleared, ALL directional inputs and A/B presses will simply act as text-advances. The menu navigation will fail, and you will be left at the root menu when the text finally clears. For Wrap-locks, it's better to just spam 'A' so it advances the text and automatically selects the first move.
 
 <hr>
 
