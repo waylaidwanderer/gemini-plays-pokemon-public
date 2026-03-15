@@ -1257,6 +1257,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Warp Chain Analysis: The warp chain starting at 4F (3, 15) -> 10F (13, 15) -> 4F (11, 7) -> 6F (3, 3) is a complete dead end with no Card Key. Backtracking out.
 - 4F Navigation: The area isolated by the warp pad at (17, 11) is bounded by an electronic door at (5, 12) and walls. The warp pad itself is blocked from the South by desks at Y=12; access it via X=13. It's a dead end without the Card Key.
 - 3F (Map 0_208): Elevator at (20, 0). Electronic door at (20, 4) blocks the path South. Path West is open.
-- 3F Navigation: Hallway continues West from the elevator. There is an item ball visible at (8, 5), but it's blocked by a solid wall at Y=4.
+- 3F Navigation: West hallway ends in a room with a warp pad at (3, 3). No path South; it's a dead end connecting to 5F. 3F requires the Card Key to progress. Item ball at (8, 5) is unreachable from here.
 
 <hr>
