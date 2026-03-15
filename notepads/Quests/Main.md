@@ -11,6 +11,4 @@ Execution Plan:
 - HM02 Fly is located on Route 16, which is West of Celadon City.
 - A sleeping Snorlax blocks the path on Route 16. I must use the Poke Flute to wake it up and either catch or defeat it to proceed.
 - Since we have 13 Ultra Balls, this is a prime opportunity to catch the Snorlax. It is likely a high level (around Lv 30 like the one on Route 12).
-- I need to be careful with the Snorlax battle. It will likely use Rest to heal itself. Paralysis or Sleep will be key to catching it.
-- Turn 34604: Successfully put the Lv 30 Snorlax on Route 16 to sleep using Audrey's Sleep Powder.
-- Turn 34617: Snorlax is still asleep. Weakening it with Cut. A critical hit Cut dropped its HP to ~85% (still in the green). Continuing to attack carefully.
+- I need to be careful with the Snorlax battle. It will likely use Rest to heal itself. Paralysis or Sleep will be key to catching it. Strategy: Weaken the sleeping Snorlax with Cut until its HP is in the yellow/red, then throw Ultra Balls.
