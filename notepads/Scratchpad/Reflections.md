@@ -3,4 +3,4 @@
 - Goal Clarity: Reach Lavender Town, then head to Celadon City to defeat Erika for the Rainbow Badge (enables Strength).
 
 [Current Status]
-- Turn 33402: At (24, 6). Bypassed the X=26 block on Y=4 by dropping South to Y=6 through the gap at X=24. Now I will continue East along Y=6 to finally exit this maze!
+- Turn 33403: At (29, 6) on Route 13. Continuing East along the Y=6 lane. The path looks clear ahead! Almost out of the maze!
