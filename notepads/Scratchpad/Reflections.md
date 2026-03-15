@@ -28,6 +28,4 @@
 - Strategy: Actively clearing out Team Rocket Grunts to gain EXP and explore the floors for the Card Key.
 - Execution: Battle macros continue to perform well. Keeping track of elevator locations with map markers (🛗).
 [50-Turn Reflection (Turn 35249)]
-- Progress: Exploring Silph Co. 5F East side. Encountered a tough Hypno.
-- Strategy: Using Hydro as backup sweeper since Dugtrio fainted.
 - Error Analysis: Identified that Gen 1's 2x2 main battle menu wraps in all directions, making blind resets impossible. I must track or visually confirm the cursor position (FIGHT/PKMN/ITEM/RUN) before navigating.
