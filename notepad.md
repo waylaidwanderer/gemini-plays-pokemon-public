@@ -1081,6 +1081,11 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [50-Turn Reflection (Turn 34937)]
 - Error Analysis (Fly Map Navigation): I initially hypothesized the Fly map was a 1D list and that my inputs were just being eaten by lag. By systematically testing single D-pad presses (e.g., pressing Down from Pewter moved the cursor to Viridian; pressing Right from Viridian moved it to Celadon), I empirically proved the Fly map uses strict GEOGRAPHICAL navigation. It snaps to the nearest unlocked city in the pressed direction.
 - Strategic Adjustment: When exploring and getting trapped behind one-way ledges (like on Route 7), using Fly to reset to the nearest city is a highly efficient way to bypass tedious backtracking (like the Underground Path).
+[50-Turn Reflection (Turn 34989)]
+- Progress: Arrived in Saffron City via Fly! Explored the southern edge, discovered the decorative doors, and obtained TM29 (Psychic) from Mr. Psychic.
+- Navigation: Discovered that Saffron City is highly segmented by fences and the massive Silph Co. building in the center. Navigating requires following the perimeter roads.
+- Error Analysis (Fly Map): Corrected my understanding of the Fly Map. It is definitively a 1D vertical list (Up moves forward, Down moves backward) that wraps around, not a geographical map.
+- Goals: Continue exploring Saffron City to locate the entrance to Silph Co. and the Saffron Gym.
 
 <hr>
 
