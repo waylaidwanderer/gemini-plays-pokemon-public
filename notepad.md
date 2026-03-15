@@ -955,6 +955,10 @@ START:(10,19)|DIR:R|END:(18,15)
 - Mr. Psychic's House: Located at (29, 29). He gives you TM29 (Psychic) for free!
 - Fighting Dojo (Map 0_177): Located in the Northeast corner next to the actual Saffron Gym. Contains Blackbelt trainers using Fighting-type Pokemon.
 
+# Fighting Dojo (Map 0_177)
+- Located at (26, 3) in Saffron City.
+- Defeated Blackbelt at (5, 7).
+
 <hr>
 
 <h1><code>Archive/LocationNotes</code></h1>
