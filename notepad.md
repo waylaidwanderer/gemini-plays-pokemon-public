@@ -957,6 +957,7 @@ START:(10,19)|DIR:R|END:(18,15)
 
 # Fighting Dojo (Map 0_177)
 - Located at (26, 3) in Saffron City.
+- Saffron Gym: Located at (34, 3). Currently blocked by a Team Rocket Grunt.
 
 <hr>
 
