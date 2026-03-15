@@ -18,6 +18,6 @@ Roof:
 - 4F: Confirmed only ONE cashier on this floor at (5, 7). The NPC on the right is just a shopper.
 - 5F Right Cashier (6, 4): Sells Stat Boosters (HP Up, Protein, Iron, Carbos, Calcium).
 - 5F Left Cashier (5, 4): Sells Battle Items (X Accuracy, Guard Spec, Dire Hit, X Attack, etc.).
-- Roof (6F): Vending machines. Need to buy one of each drink for the little girl to get TMs. (Fresh Water = TM13)
+- Roof (6F, Map 0_126): Vending machines. Need to buy one of each drink for the little girl to get TMs. (Fresh Water = TM13)
 - Soda Pop = TM48 (Rock Slide)
 - Lemonade = TM49 (Tri Attack)
