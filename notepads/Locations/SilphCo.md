@@ -22,4 +22,4 @@
 - 9F (Map 0_233): Warp at (17, 15) lands in a partitioned area. A solid wall at X=14 blocks access to a healing Nurse at (13, 16). A Grunt is accessible to the East at (21, 13).
 - 9F Navigation: Path East is at Y=15. Grunt at (21, 14). Electronic doors at (18, 10) block North.
 - 9F Navigation: Path continues North at X=24.
-- 9F Navigation: Path North at X=24 leads West to a room with beds. A healing pad is located at (18, 4) and (19, 4).
+- 9F Navigation: Path North at X=24 leads West to a dead-end room with beds at (18, 4) and (19, 4). They do not heal.
