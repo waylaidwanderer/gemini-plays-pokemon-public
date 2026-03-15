@@ -740,6 +740,7 @@ Points of Interest:
 - Re-evaluating the X=22 southern path. I previously marked it as a dead end because South was blocked at Y=31, but I never checked if I could walk WEST from the bottom of that path to reach the Gym at X=12. Heading back there now.
 - The path at X=22 continues EAST at Y=31. I am exploring this path to see if it wraps around to the Gym.
 - Path down X=22 goes East along Y=31, leading to a Cut bush at (35, 32). Cutting this should grant access to the lower southern area and the Gym.
+- From the Cut bush at (35, 32), follow the southern perimeter path left along Y=34. There is a gap in the ledge at (5, 31) leading North to the Gym entrance.
 
 <hr>
 
