@@ -1117,9 +1117,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - PC Deposit Cursor Reset: Turn 34518 to 34528 proved that when depositing an item, the cursor RESETS to index 1 (the top of the current visible list) after the deposit confirmation. It does NOT retain the previous index like the Withdraw or overworld Item menus.
 - PC Menu Input Eating: If inputs are sent while the "What do you want to deposit?" text is still rendering (e.g., just after a previous deposit confirmation), directional inputs will be eaten! This causes tools like `deposit_item_pc` to fail and deposit the top item (index 1) instead of the target. ALWAYS ensure the menu is fully loaded and the cursor is visible before sending navigation sequences.
 - Fly Map Input Eating: The Fly map has a rendering/animation delay when opened. D-pad inputs sent immediately after pressing 'A' to select Fly can be eaten. The destinations are ordered in a list (Pallet, Viridian, Pewter, Cerulean, Lavender, Vermilion, Celadon, Fuchsia). Press Down/Up to navigate this list.
-- Silph Elevator: Appears operational without a keycard! Will use this to navigate between floors.
-- Electronic Doors: Red barriers block paths (e.g., at Y=3). Require Card Key.
-- Silph Co Elevator (Turn 35138): Selected 5F from the menu at (3, 1), but the warp failed. Remained on 2F. Will use stairs instead.
+- Silph Elevator: Appears operational without a keycard! The elevator interior is a separate map (0_236). Select a floor at the panel (3,0), then walk South to exit onto the new floor.
+- Electronic Doors: Red barriers block paths. Require Card Key.
 
 <hr>
 
@@ -1163,9 +1162,12 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 <h1><code>Locations/SilphCo</code></h1>
 
 # Silph Co. (Saffron City)
-- 1F (Map 0_181): Elevator at (14, 2), Stairs to 2F at (16, 1). Exit to Saffron at (10, 18).
-- 2F (Map 0_236): Elevator at (3, 1), Stairs to 1F at (1, 1), Stairs to 3F at (2, 1).
-- 2F SW corner (0, 3) is a dead end blocked by a red barrier.
-- 2F Initial Area: The area accessible from 1F stairs is boxed in by walls and electronic doors at (1,3) and (2,3). Must use elevator or stairs to proceed to 3F.
+
+[Navigation]
+- 1F (Map 0_181): Elevator door is at (16, 1). Exit to Saffron at (10, 18).
+- Elevator Interior (Map 0_236): This 4x4 room is the inside of the elevator. The control panel is at (3, 0). Stand at (3, 1) and press A facing Up to select a floor. Exit the elevator by walking South onto the red arrows at Y=3.
+- Electronic Doors: Red barriers block paths throughout the building. They require the Card Key to open. We need to find it ASAP to explore fully.
+
+[Floors]
 
 <hr>

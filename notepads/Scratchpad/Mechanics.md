@@ -9,6 +9,5 @@
 - PC Deposit Cursor Reset: Turn 34518 to 34528 proved that when depositing an item, the cursor RESETS to index 1 (the top of the current visible list) after the deposit confirmation. It does NOT retain the previous index like the Withdraw or overworld Item menus.
 - PC Menu Input Eating: If inputs are sent while the "What do you want to deposit?" text is still rendering (e.g., just after a previous deposit confirmation), directional inputs will be eaten! This causes tools like `deposit_item_pc` to fail and deposit the top item (index 1) instead of the target. ALWAYS ensure the menu is fully loaded and the cursor is visible before sending navigation sequences.
 - Fly Map Input Eating: The Fly map has a rendering/animation delay when opened. D-pad inputs sent immediately after pressing 'A' to select Fly can be eaten. The destinations are ordered in a list (Pallet, Viridian, Pewter, Cerulean, Lavender, Vermilion, Celadon, Fuchsia). Press Down/Up to navigate this list.
-- Silph Elevator: Appears operational without a keycard! Will use this to navigate between floors.
-- Electronic Doors: Red barriers block paths (e.g., at Y=3). Require Card Key.
-- Silph Co Elevator (Turn 35138): Selected 5F from the menu at (3, 1), but the warp failed. Remained on 2F. Will use stairs instead.
+- Silph Elevator: Appears operational without a keycard! The elevator interior is a separate map (0_236). Select a floor at the panel (3,0), then walk South to exit onto the new floor.
+- Electronic Doors: Red barriers block paths. Require Card Key.
