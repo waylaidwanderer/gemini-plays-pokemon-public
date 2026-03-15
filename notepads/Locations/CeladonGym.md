@@ -17,5 +17,5 @@
 - (1, 5) Beauty facing East. Behind Cut bush at (2, 4).
 - (3, 3) Beauty facing South.
 - (4, 3) Lass facing South.
-- (6, 3) Beauty facing South.
+- (6, 3) Lass facing South.
 - (9, 4) Trainer facing West. Behind Cut bush at (7, 5).
