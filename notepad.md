@@ -1069,8 +1069,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 <h1><code>Scratchpad/Reflections</code></h1>
 
 [50-Turn Reflection]
-- Error Analysis: Wasted time exploring the lower southern path (Y=22/Y=23) looking for the Gym entrance. The actual path to the Gym requires accessing a Cut bush at (47, 20) from the UPPER main path (Y=18).
-- Map/Navigation Learnings: Celadon City is bisected horizontally by a row of water, trees, and ledges around Y=20. The primary transition between the upper and lower southwest sections is a narrow gap around X=7.
-- Progress: Moving East along Y=10 to explore the far East side of Celadon City (near Route 7) to find a way South to the Gym. The previous attempt via X=37 was a dead end.
+- Error Analysis: Successfully found the path to the Gym! The gap at X=7 led me to a ledge at (7, 18) which drops down into the lower southwest section. The previous assumption about the East Cut bush being the only way was incorrect.
+- Map/Navigation Learnings: The lower southwest section of Celadon City is accessed by moving West from the main city path, dropping down the ledge at (7, 18).
+- Progress: Now exploring the lower southwest section to locate the Celadon Gym entrance (expected around X=12, Y=28).
 
 <hr>
