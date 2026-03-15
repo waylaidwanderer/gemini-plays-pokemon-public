@@ -1107,5 +1107,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - (4, 3) Erika (Defeated).
 - (6, 4) Lass (Defeated).
 - (9, 4) Trainer facing West. Behind Cut bush at (7, 5). Needs checking.
+- (9, 5) Lass - NPC only.
 
 <hr>
