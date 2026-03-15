@@ -1156,3 +1156,11 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Secret House (Map 0_188): Located at the far West end of the upper path (past the gatehouse). Contains the NPC who gives HM02 (Fly).
 
 <hr>
+
+<h1><code>Locations/SilphCo</code></h1>
+
+# Silph Co. (Saffron City)
+- 1F (Map 0_181): Elevator at (14, 2), Stairs to 2F at (16, 1). Exit to Saffron at (10, 18).
+- 2F (Map 0_236): Elevator at (3, 1), Stairs to 1F at (1, 1), Stairs to 3F at (2, 1).
+
+<hr>
