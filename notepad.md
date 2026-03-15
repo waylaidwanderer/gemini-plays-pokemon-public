@@ -760,7 +760,7 @@ Roof:
 - Physically divided into 'Front' and 'Back' sections by an impassable wall.
 - Cannot cross between Front and Back from inside.
 - Front Entrance: South side.
-- Back Entrance: North side (alleyway).
+- Back Entrance: North side (alleyway), Map 0_6 (24, 3).
 
 [Floors]
 1F (Map 0_128): Elevator at (7, 1). Exit at bottom.
