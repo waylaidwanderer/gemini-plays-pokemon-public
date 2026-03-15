@@ -537,7 +537,7 @@
     ]
   },
   "swap_pokemon": {
-    "description": "Swaps two Pokemon in the party menu. Reliably handles field moves by using simple Up/Down navigation (no wrap-around assumption). YOU MUST VISUALLY VERIFY the current_index before calling.",
+    "description": "Swaps two Pokemon in the party menu. Reliably handles field moves by accepting 'has_field_move_a' flag. YOU MUST VISUALLY VERIFY the current_index before calling.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -556,20 +556,18 @@
           "minimum": 1,
           "maximum": 6
         },
-        "autopress_buttons": {
+        "has_field_move_a": {
           "type": "boolean",
-          "default": false,
-          "description": "If true and the tool returns a list of buttons, they will be pressed automatically. Limit: 100 buttons max per call."
+          "default": false
         }
       },
       "required": [
         "current_index",
         "index_a",
-        "index_b",
-        "autopress_buttons"
+        "index_b"
       ]
     },
-    "python_script": "import json\n\ncurrent_index = int(input_data['current_index'])\nindex_a = int(input_data['index_a'])\nindex_b = int(input_data['index_b'])\n\nbuttons = []\n\n# Move from current_index to index_a\ndiff = index_a - current_index\nif diff > 0:\n    for _ in range(diff):\n        buttons.extend(['Down', 'sleep 300'])\nelif diff < 0:\n    for _ in range(-diff):\n        buttons.extend(['Up', 'sleep 300'])\n\n# Select Pokemon A\nbuttons.extend(['A', 'sleep 500'])\n\n# Navigate to SWITCH (Down 1 time)\nbuttons.extend(['Down', 'sleep 300', 'A', 'sleep 500'])\n\n# Move from index_a to index_b\ndiff_b = index_b - index_a\nif diff_b > 0:\n    for _ in range(diff_b):\n        buttons.extend(['Down', 'sleep 300'])\nelif diff_b < 0:\n    for _ in range(-diff_b):\n        buttons.extend(['Up', 'sleep 300'])\n\n# Swap\nbuttons.extend(['A', 'sleep 1000'])\n\nprint(json.dumps(buttons))",
+    "python_script": "import json\n\ndef generate_moves(curr, target, max_idx=6):\n    moves = []\n    if curr == target: return moves\n    diff = target - curr\n    if diff > 0:\n        if diff > max_idx / 2: moves.extend(['Up'] * (max_idx - diff))\n        else: moves.extend(['Down'] * diff)\n    else:\n        diff = -diff\n        if diff > max_idx / 2: moves.extend(['Down'] * (max_idx - diff))\n        else: moves.extend(['Up'] * diff)\n    res = []\n    for m in moves: res.extend([m, 'sleep 300'])\n    return res\n\ncurr = int(input_data['current_index'])\nidx_a = int(input_data['index_a'])\nidx_b = int(input_data['index_b'])\nhas_field_a = bool(input_data.get('has_field_move_a', False))\n\nbuttons = []\nbuttons.extend(generate_moves(curr, idx_a))\nbuttons.extend(['A', 'sleep 500'])\n\nswitch_presses_a = 2 if has_field_a else 1\nbuttons.extend(['Down', 'sleep 300'] * switch_presses_a)\nbuttons.extend(['A', 'sleep 500'])\n\nbuttons.extend(generate_moves(idx_a, idx_b))\nbuttons.extend(['A', 'sleep 1000'])\n\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -590,6 +588,11 @@
         "commit_message": "Fix swap_pokemon navigating the STATS/SWITCH/CANCEL menu. Using Down instead of Up, as Up does not wrap in this specific menu.",
         "timestamp": "2026-02-28T01:25:18.362Z",
         "action_counter": 8021
+      },
+      {
+        "commit_message": "Updated swap_pokemon to handle HM field moves by adding has_field_move_a flag.",
+        "timestamp": "2026-03-15T20:12:05.975Z",
+        "action_counter": 35551
       }
     ]
   },
