@@ -755,7 +755,7 @@ Points of Interest:
 - Needs exploration.
 
 [Floors]
-1F: Elevator at (16, 1). Stairs Up at (12, 1)
+1F: Elevator at (16, 1). Stairs Up at (12, 1). Exit is at (2, 7) and (3, 7).
 2F: Stairs Down at (12, 1), Stairs Up at (16, 1)
 3F: Stairs Down at (16, 1), Stairs Up at (12, 1)
 4F: Stairs Down at (12, 1), Stairs Up at (16, 1)
