@@ -13,3 +13,4 @@ Roof:
 - 2F Left Cashier: Sells standard items (Great Ball, Super Potion, Revive, Super Repel, etc.)
 - 3F: Video Game Shop. No item cashiers observed here.
 - 4F: Left counter is just display stands. Cashier must be elsewhere.
+- 4F: Cashier is at the right counter (X=10 to X=16, Y=3).
