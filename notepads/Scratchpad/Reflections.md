@@ -36,3 +36,7 @@
 - Tool Maintenance: Battle tools are working, but I must remember `execute_battle_turn`'s `start_on_main` flaw when the cursor is already on FIGHT.
 [50-Turn Reflection (Turn 35509)]
 - Error Analysis (Menu Navigation): The `swap_pokemon` tool assumes the 'SWITCH' option is at index 2 of the sub-menu. However, if a Pokemon has a Field Move (like CUT or SURF), the Field Move is index 1, STATS is index 2, and SWITCH is index 3. This caused the tool to open Audrey's stats instead of swapping. I must visually verify the sub-menu layout or manually navigate when dealing with HM users.
+[50-Turn Reflection (Turn 35561)]
+- Error Analysis (Visual Hallucination): I mistakenly identified overlaid text/artifacts at (24, 11) on 6F as a Rocket Grunt. I must rely on the Game State Information's sprite list or confirm movement/interaction before assuming a static visual artifact is an NPC.
+- Tool Maintenance: I successfully updated the `swap_pokemon` tool to accept a `has_field_move_a` flag to account for HM moves altering the sub-menu layout.
+- Strategy: Cleo (Nidoqueen) is carrying the team. She is out of Strength PP, so I will have to rely on Tackle. I will need to use my remaining Fresh Water if her HP drops too low.
