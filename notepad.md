@@ -769,7 +769,7 @@ Roof:
 2F (Map 0_129): Elevator at (7, 1). Stairs at (2, 1) and (4, 1).
 - 2F Left Side: Physically blocked by a solid row of desks/plants from (0, 3) to (4, 3). Cannot reach the back stairs at (2, 1) or (4, 1) from the front entrance.
 3F (Map 0_130): Game Freak HQ. Back stairs down at (4, 1), up at (2, 1).
-4F (Map 0_131): Elevator at (7, 1). Back stairs down at (2, 1), up at (4, 1).
+4F (Map 0_131): Back stairs down at (2, 1). The room is divided by a solid wall at X=5. The stairs up to 5F appear to be at (6, 1) on the other side of the wall! Need to explore the back room (X=0 to X=4) to see if there's a way across or up.
 5F (Map 0_132):
 
 <hr>
