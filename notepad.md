@@ -1101,6 +1101,11 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Map Hygiene: Kept track of defeated trainers with map markers.
 - Custom Tools: Custom tools for battling (switch_pokemon_in_battle, safe_mash_b, spam_button) are working perfectly.
 - Error Analysis: Text box input eating is still a minor issue but is being managed effectively by manually clearing text before invoking complex macros.
+[50-Turn Reflection (Turn 35145)]
+- Immediate Execution: Infiltrated Silph Co., used the elevator to reach 5F, and engaged the first Team Rocket Scientist. Switch-training Audrey continues.
+- Notepad/Map Hygiene: Created Locations/SilphCo to track the complex layout (elevators, stairs, electronic doors). Placed map marker for 5F elevator.
+- Error Analysis: Realized map 0_236 is the *interior* of the elevator, not the 2nd floor itself. You select a floor at the panel (3,0) and walk South to exit. This clarifies the navigation significantly!
+- Tools: Battle macros are functioning perfectly.
 
 <hr>
 
