@@ -937,7 +937,7 @@ START:(10,19)|DIR:R|END:(18,15)
 - Lots of Beauty, Bird Keeper, and Jr. Trainer♀ trainers.
 - Mechanic note: Whirlwind has no effect in Trainer battles in Gen 1!
 - The West paths at Y=12 and Y=13 are dead ends. The exit to Route 14 must be further North.
-- The path East along Y=4 ends near X=34. I must verify if it is a Cut bush or a sign, as my past notes are conflicting. I will proceed there and physically test it.
+- The path East along Y=4 ends at a SIGN at (34, 4). There is NO Cut bush here. The East end is a dead end. The correct path must involve finding a gap in the North wall (Y=3) somewhere West of X=12.
 
 <hr>
 
@@ -1028,6 +1028,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Goal Clarity: Reach Lavender Town, then head to Celadon City to defeat Erika for the Rainbow Badge (enables Strength).
 
 [Current Status]
-- Turn 33396: At (27, 4). Continuing East along Y=4 to the very end (X=34) to test the suspected Cut bush. Using a short movement to get to X=32 so I can see it.
+- Turn 33397: EMPIRICAL PROOF: I am at (32, 4). I visually confirmed that the object at (34, 4) is indeed a SIGN (TYPE_5519), NOT a Cut bush! My theory from Turn 33388 is correct: The true path North must be a gap in the Y=3 fence WEST of the trainer at (12, 4). Backtracking all the way West to (11, 6) to check.
 
 <hr>
