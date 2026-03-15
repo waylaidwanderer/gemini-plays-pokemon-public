@@ -42,4 +42,4 @@
 - 10F (Map 0_234): Elevator doors at (12, 0). Scientist at (10, 2).
 - 10F Navigation: From elevator, path goes South via X=11. Path West at Y=5 is a dead end (wall at X=7). Electronic doors at (10, 8) and (11, 8) block South. Warp pad located at (13, 7).
 - Warp Connection: 4F warp at (3, 15) connects to 10F warp at (13, 15).
-- 10F Navigation: Warp at (13, 15) lands in an isolated area on the South side of 10F. NPC at (9, 16).
+- 10F Navigation: Warp at (13, 15) lands in an isolated area on the South side of 10F. Grunt at (9, 15).
