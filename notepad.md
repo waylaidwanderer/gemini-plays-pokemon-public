@@ -739,6 +739,7 @@ Points of Interest:
 - HALLUCINATION CORRECTED: The Gym is in the SOUTHWEST, not Southeast. The Cut bush at (47, 20) (if it exists) does NOT lead to the Gym. I must return West and re-explore the paths heading South between X=10 and X=30.
 - Re-evaluating the X=22 southern path. I previously marked it as a dead end because South was blocked at Y=31, but I never checked if I could walk WEST from the bottom of that path to reach the Gym at X=12. Heading back there now.
 - The path at X=22 continues EAST at Y=31. I am exploring this path to see if it wraps around to the Gym.
+- Verified: The path at X=22 going East at Y=31 goes AWAY from the Gym and does not lead to it. The entire X=22 and X=24 southern paths are dead ends for Gym access.
 
 <hr>
 
