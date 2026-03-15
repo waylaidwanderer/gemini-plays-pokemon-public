@@ -360,7 +360,7 @@ Route 3: Spearow, Pidgey
 - Dugtrio has DIG! Use this instead of Escape Ropes to exit dungeons quickly.
 [Eevee]
 - Obtained Eevee from Celadon Mansion Roof (0_132).
-- Need to decide which evolution stone to use: Water Stone (Vaporeon), Thunder Stone (Jolteon), or Fire Stone (Flareon).
+- Evolved into Jolteon (PIXEL) using Thunder Stone from Celadon Dept Store 4F!
 
 <hr>
 
