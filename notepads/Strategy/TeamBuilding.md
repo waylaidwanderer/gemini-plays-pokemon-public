@@ -9,8 +9,9 @@
 - BAMBAM (Machop)
 - PIXEL (Jolteon)
 [Timestamps]
-- Route 25 Trainer Maze & Switch Training Start: Turn 2461
 - Dugtrio has DIG! Use this instead of Escape Ropes to exit dungeons quickly.
+[Items]
+- Lemonade (from Celadon Dept Store Roof) is an extremely cost-effective healing item (80 HP for 350 Poke Dollars). Stock up when possible!
 [Eevee]
 - Obtained Eevee from Celadon Mansion Roof (0_132).
 - Evolved into Jolteon (PIXEL) using Thunder Stone from Celadon Dept Store 4F!

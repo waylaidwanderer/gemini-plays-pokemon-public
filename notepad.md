@@ -360,8 +360,9 @@ Route 3: Spearow, Pidgey
 - BAMBAM (Machop)
 - PIXEL (Jolteon)
 [Timestamps]
-- Route 25 Trainer Maze & Switch Training Start: Turn 2461
 - Dugtrio has DIG! Use this instead of Escape Ropes to exit dungeons quickly.
+[Items]
+- Lemonade (from Celadon Dept Store Roof) is an extremely cost-effective healing item (80 HP for 350 Poke Dollars). Stock up when possible!
 [Eevee]
 - Obtained Eevee from Celadon Mansion Roof (0_132).
 - Evolved into Jolteon (PIXEL) using Thunder Stone from Celadon Dept Store 4F!
@@ -453,6 +454,7 @@ WARNING: Bellsprout's Vine Whip is 4x effective against Geodude. Train Cleo here
 - WARNING: Pressing START in the item menu does NOT close the menu. It selects the item below the cursor and can trigger accidental item usage. ALWAYS use B to exit menus.
 - Gen 1 Item Bag Wrap-around: Pressing Up at the top item wraps to CANCEL, then pressing Up again wraps to the bottom item. Mashing Up will endlessly loop the menu, not reset the cursor to the top!
 - Gen 1 UI Quirks: The OVERWORLD ITEM menu WRAPS when navigating past the top/bottom. However, the BATTLE ITEM menu DOES NOT wrap! Keep this in mind when navigating items in battle.
+- Menus with introductory text (like Vending Machines) can eat inputs if the text is still rendering or waiting for input to clear. Always use sleep commands (e.g., 'sleep 500') or wait visually before sending menu navigation inputs.
 
 <hr>
 
@@ -1060,6 +1062,5 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [50-Turn Reflection]
 - Error Analysis: Mistook display islands for cashiers because they share the same counter tiles. Found the real cashiers at Y=6.
 - Progress: Evolved Eevee into Jolteon using a Thunder Stone! Reached the roof of Celadon Dept Store.
-- Current Task: Buying drinks from the vending machine for the little girl to get TMs. Lemonade is also an extremely cost-effective healing item (80 HP for 350 Poke Dollars), so I should stock up.
 
 <hr>

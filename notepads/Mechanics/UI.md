@@ -12,3 +12,4 @@
 - WARNING: Pressing START in the item menu does NOT close the menu. It selects the item below the cursor and can trigger accidental item usage. ALWAYS use B to exit menus.
 - Gen 1 Item Bag Wrap-around: Pressing Up at the top item wraps to CANCEL, then pressing Up again wraps to the bottom item. Mashing Up will endlessly loop the menu, not reset the cursor to the top!
 - Gen 1 UI Quirks: The OVERWORLD ITEM menu WRAPS when navigating past the top/bottom. However, the BATTLE ITEM menu DOES NOT wrap! Keep this in mind when navigating items in battle.
+- Menus with introductory text (like Vending Machines) can eat inputs if the text is still rendering or waiting for input to clear. Always use sleep commands (e.g., 'sleep 500') or wait visually before sending menu navigation inputs.
