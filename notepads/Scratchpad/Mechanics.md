@@ -11,3 +11,4 @@
 - Fly Map Input Eating: The Fly map has a rendering/animation delay when opened. D-pad inputs sent immediately after pressing 'A' to select Fly can be eaten. The destinations are ordered in a list (Pallet, Viridian, Pewter, Cerulean, Lavender, Vermilion, Celadon, Fuchsia). Press Down/Up to navigate this list.
 - Silph Elevator: Appears operational without a keycard! The elevator interior is a separate map (0_236). Select a floor at the panel (3,0), then walk South to exit onto the new floor.
 - Electronic Doors: Red barriers block paths. Require Card Key.
+- [Gen 1 Battle Mechanic] The game says "The trainer blocked the BALL!" when you try to use a Poke Ball in a trainer battle. I accidentally selected Ultra Ball instead of Fresh Water!
