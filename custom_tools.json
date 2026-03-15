@@ -62,10 +62,24 @@
     ]
   },
   "execute_battle_turn": {
-    "description": "Executes a full battle turn safely. Resets main menu cursor to FIGHT (Up, Left), then navigates VERTICALLY from current_move_index to target_move_index without relying on wrap-around.",
+    "description": "Executes a battle turn safely. If start_on_main is true, it safely navigates from main_cursor to FIGHT before selecting the move. Then navigates from current_move_index to target_move_index.",
     "input_schema": {
       "type": "object",
       "properties": {
+        "start_on_main": {
+          "type": "boolean",
+          "default": true
+        },
+        "main_cursor": {
+          "type": "string",
+          "enum": [
+            "FIGHT",
+            "PKMN",
+            "ITEM",
+            "RUN"
+          ],
+          "default": "FIGHT"
+        },
         "current_move_index": {
           "type": "integer",
           "minimum": 1,
@@ -75,10 +89,6 @@
           "type": "integer",
           "minimum": 1,
           "maximum": 4
-        },
-        "start_on_main": {
-          "type": "boolean",
-          "default": true
         }
       },
       "required": [
@@ -86,7 +96,7 @@
         "target_move_index"
       ]
     },
-    "python_script": "import json\n\ncurrent = int(input_data.get('current_move_index', 1))\ntarget = int(input_data.get('target_move_index', 1))\nstart_on_main = bool(input_data.get('start_on_main', True))\n\nbuttons = []\nif start_on_main:\n    buttons.extend(['Up', 'Left', 'A', 'sleep 500'])\n\ndiff = target - current\nif diff > 0:\n    for _ in range(diff):\n        buttons.extend(['Down', 'sleep 300'])\nelif diff < 0:\n    for _ in range(abs(diff)):\n        buttons.extend(['Up', 'sleep 300'])\n\nbuttons.append('A')\nprint(json.dumps(buttons))\n",
+    "python_script": "import json\ndef execute_battle_turn(current, target, start_on_main, main_cursor):\n    buttons = []\n    if start_on_main:\n        if main_cursor == 'PKMN':\n            buttons.extend(['Up', 'sleep 300', 'Left', 'sleep 300'])\n        elif main_cursor == 'ITEM':\n            buttons.extend(['Up', 'sleep 300'])\n        elif main_cursor == 'RUN':\n            buttons.extend(['Left', 'sleep 300'])\n        buttons.extend(['A', 'sleep 500'])\n    diff = target - current\n    if diff > 0:\n        for _ in range(diff):\n            buttons.extend(['Down', 'sleep 300'])\n    elif diff < 0:\n        for _ in range(abs(diff)):\n            buttons.extend(['Up', 'sleep 300'])\n    buttons.append('A')\n    return buttons\nprint(json.dumps(execute_battle_turn(input_data['current_move_index'], input_data['target_move_index'], input_data.get('start_on_main', True), input_data.get('main_cursor', 'FIGHT'))))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -217,6 +227,11 @@
         "commit_message": "Fixed vertical list navigation and removed wrap-around dependency.",
         "timestamp": "2026-03-13T10:29:26.030Z",
         "action_counter": 29671
+      },
+      {
+        "commit_message": "Fixed start_on_main wrapping bug by explicitly tracking main_cursor position.",
+        "timestamp": "2026-03-15T17:42:21.005Z",
+        "action_counter": 35256
       }
     ]
   },
