@@ -1129,6 +1129,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [50-Turn Reflection (Turn 35717)]
 - Verification: I verified in my PC storage that I already possess TM13, TM48, and TM49, confirming I previously completed the little girl's quest on the Roof.
 - Error Analysis (Vending Machine): I anticipate the Vending Machine will have introductory text that could eat inputs if I try to macro the purchase. I will test the interaction manually first to map the text boxes before attempting any bulk-buy automation.
+[Turn 35741 Error Analysis]
+- Vending Machine Automation: The tool failed because my positional assumptions were wrong. I started at (12, 3). The first `Up` moved me to (12, 2), where `A` interacted successfully. However, the subsequent `Down` inputs in the tool's loop caused me to walk away from the machine because the menu had either failed to open or closed unexpectedly. I need to manually map the exact text box sequence and closure of the vending machine to understand why the loop desynced.
 
 <hr>
 
