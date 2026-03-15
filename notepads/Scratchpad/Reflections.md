@@ -39,4 +39,3 @@
 [50-Turn Reflection (Turn 35561)]
 - Error Analysis (Visual Hallucination): I mistakenly identified overlaid text/artifacts at (24, 11) on 6F as a Rocket Grunt. I must rely on the Game State Information's sprite list or confirm movement/interaction before assuming a static visual artifact is an NPC.
 - Tool Maintenance: I successfully updated the `swap_pokemon` tool to accept a `has_field_move_a` flag to account for HM moves altering the sub-menu layout.
-- Strategy: Cleo (Nidoqueen) is carrying the team. She is out of Strength PP, so I will have to rely on Tackle. I will need to use my remaining Fresh Water if her HP drops too low.
