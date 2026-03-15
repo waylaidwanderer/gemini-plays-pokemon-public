@@ -32,3 +32,4 @@
 - 6F Navigation: The hallway continues East from (14, 15). A solid wall at Y=14 blocks the path North. A Grunt is visible behind the wall at (18, 13). The hallway continues East past X=23.
 - 6F Navigation: The hallway continues East from (14, 15) to a dead end at X=25. The only path forward is North at X=24.
 - 6F Navigation: The path North at X=24 leads to a warp pad at (23, 3). A room is visible to the West with two NPCs at (20, 6) and (21, 6), blocked by a wall at X=23.
+- Warp Connection: 6F warp at (23, 3) connects to 2F (Map 0_207) warp at (9, 15).
