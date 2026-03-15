@@ -1215,6 +1215,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - 6F Navigation: The hallway continues East from (14, 15) to a dead end at X=25. The only path forward is North at X=24.
 - 6F Navigation: The path North at X=24 leads to a warp pad at (23, 3). A room is visible to the West with two NPCs at (20, 6) and (21, 6), blocked by a wall at X=23.
 - Warp Connection: 6F warp at (23, 3) connects to 2F (Map 0_207) warp at (9, 15).
-- 2F (Map 0_207): Reached via warp pad from 6F (23, 3). The warp lands at (9, 15) in a small isolated room. A female NPC is at (5, 12).
+- 2F (Map 0_207): Reached via warp pad from 6F (23, 3). The warp lands at (9, 15) in a small isolated room. A Scientist is at (5, 12).
 
 <hr>
