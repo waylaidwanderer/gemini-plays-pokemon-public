@@ -1189,5 +1189,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - 5F Navigation: Wall at X=27 blocks access to X=28 from the central room. Wall at Y=15 blocks access to the item ball at (21, 16) from the central room. I will explore the West hallway now.
 - 5F Navigation: The central room is bounded by an electronic door at (15, 10) on the West and desks at Y=15 on the South. The item at (21, 16) is unreachable from here. I am returning to the North hallway to explore the West side.
 - 5F Navigation: East of the elevator at X=24 is a path South. It contains a warp pad at (27, 3), a Grunt at (28, 3), and a clipboard at (24, 6). The Grunt blocks the path South at X=28.
+- 5F Stairs: Stairs UP to 6F at (24, 0). Stairs DOWN to 4F at (26, 0).
+- 4F (Map 0_209): Stairs UP to 5F at (26, 0). Stairs DOWN to 3F at (24, 0).
 
 <hr>
