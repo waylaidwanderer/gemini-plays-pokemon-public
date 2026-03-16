@@ -1294,11 +1294,12 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 10. BL Bottom-Left (1, 17) <-> TC Bottom-Right (11, 5)
 11. TC Bottom-Left (9, 5) <-> ML Top-Right (5, 9)
 12. ML Top-Left (1, 9) <-> MR Bottom-Right (19, 11)
+13. ML Bottom-Left (1, 11) <-> TL Bottom-Right (5, 5)
 
 [Unexplored Warps]
 - BL (Bottom-Left): Bottom-Right (5, 17)
-- ML (Middle-Left): Bottom-Left (1, 11), Bottom-Right (5, 11)
-- TL (Top-Left): Bottom-Left (1, 5), Bottom-Right (5, 5)
+- ML (Middle-Left): Bottom-Right (5, 11)
+- TL (Top-Left): Bottom-Left (1, 5)
 
 [Notes]
 - The trainer at (10, 1) in the TC (Top-Center) room is a regular Channeler, not Sabrina!
