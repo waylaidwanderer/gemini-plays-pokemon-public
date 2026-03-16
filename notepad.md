@@ -1112,11 +1112,11 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Map Hygiene: Placed markers for the Pokemon Center and Poke Mart. Found the Pokemon Lab.
 - PC Storage: Depositing TMs to free up bag space before exploring Pokemon Mansion.
 - Tools: None used this turn.
-[Turn 37624 Reflection]
+[Turn 37625 Reflection]
 - Progress: Depositing items in the PC.
-- Mechanics Check: TM29 was stored successfully. I need to press 'A' to clear the confirmation text and return to the item list. I remember from past testing that the deposit cursor resets to index 1 after a deposit!
+- Mechanics Check: The deposit confirmation is clear and the cursor has indeed reset to index 1 (ULTRA BALL). I need to scroll down to find the TMs, Silph Scope, Card Key, and Master Ball to deposit them.
 - Map Hygiene: Cinnabar Island Pokemon Center.
-- PC Storage: Planning to deposit TM03, TM09, TM36, TM46, SILPH SCOPE, CARD KEY, and MASTER BALL.
+- PC Storage: Manually scrolling down to locate items.
 - Tools: None.
 
 <hr>
