@@ -1084,9 +1084,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 <h1><code>Scratchpad/Reflections</code></h1>
 
 [Active Reflections]
-- Discovery: Reviewing my notes, I realized I only ever explored 8F and 9F via warp pads! I have NOT explored the main areas of 8F, 9F, or 11F using the elevator or stairs.
-- Error Analysis: I accidentally took the warp pad at 5F (27, 3) instead of walking to the elevator! It warped me to 7F (21, 15).
-- Next Step: Take the warp pad at 7F (21, 15) back to 5F, then navigate carefully to the elevator at (20, 0).
+- Next Step: Navigate carefully to the elevator at 5F (20, 0). I am currently at (27, 3).
+- Path: Left to X=24, North to Y=0, Left to X=20.
 
 <hr>
 
