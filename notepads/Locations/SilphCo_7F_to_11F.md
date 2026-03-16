@@ -18,8 +18,8 @@
 - 9F Navigation: Path West from the elevator goes South down X=13. Grunt at (13, 13) (Rocket Brother) is defeated. Electronic door at (11, 12) is OPENED! The path leads West.
 - 9F Navigation: Path North at X=24 leads West to a dead-end room with objects at (18, 4) and (19, 4) that require a Card Key.
 - 10F (Map 0_234): Elevator doors at (12, 0). Scientist at (10, 2).
-- 10F Navigation: From elevator, path goes South via X=11. Path West at Y=5 is a dead end (wall at X=7). Electronic doors at (10, 8) and (11, 8) block South. Warp pad located at (13, 7).
-- 10F Navigation: Warp at (13, 15) lands in an isolated area on the East side of a wall at X=7. A scared Silph employee wanders here. Item ball visible at (5, 11) on the West side of the wall. There is a second warp pad at (9, 11).
+- 10F Navigation: From elevator, path goes South via X=11. Path West at Y=5 is a dead end (wall at X=7). Electronic doors at (10, 8) and (11, 8) block South (OPENED). Opening them gives access to the entire South-East area. Warp pad located at (13, 7).
+- 10F Navigation: The South-East area (also accessible via warp at 13, 15) contains a wandering Silph employee, a warp pad at (9, 11), and a warp pad at (13, 15). Item ball visible at (5, 11) on the West side of a solid wall at X=7, which blocks access to the West side of 10F.
 - 11F (Map 0_235): Elevator at (13, 0). Path from elevator goes East and West. A solid wall at X=13 separates the South area. NPC spotted at (10, 5) on the West side. I will explore the East side first.
 - 11F Navigation: Path East from the elevator leads South down a corridor (X=14/15) bounded by a solid wall at X=13 and X=16. It ends in a complete dead end at Y=16. No Card Key here. Bounded by a Grunt at (15, 7).
 - 11F Navigation: Path West from the elevator goes along Y=1/Y=2 to a dead end at X=4. A wall at Y=3 blocks access to the South where a Grunt is at (10,5) and a Boss at (7,5). 11F is fully explored without a Card Key.
