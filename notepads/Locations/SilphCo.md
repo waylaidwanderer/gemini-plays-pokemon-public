@@ -55,4 +55,4 @@
 - 2F Navigation: West hallway from the elevator is blocked by a solid wall at X=11 (Scientist visible behind it at 10,1). The only feature is a warp pad at (13, 3).
 - Warp Connection: 2F warp at (13, 3) connects to 8F (Map 0_213) warp at (3, 15).
 - 8F Navigation: Warp at (3, 15) lands in an area bounded by a wall at Y=13. Another warp pad is visible at (3, 11) but blocked by this wall. Path continues East.
-- 8F Navigation: Path from (3, 15) goes East, turning North at X=11, East at Y=14, and North again at X=20/X=21.
+- 8F Navigation: Path from (3, 15) goes East, turning North at X=11, East at Y=14, and North again at X=21, continuing up to Y=7 where it opens up.
