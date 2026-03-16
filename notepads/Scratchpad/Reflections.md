@@ -1,2 +1,3 @@
 [Active Reflections]
-- Strategy: Arrived on 8F main area via elevator. A Team Rocket Grunt is at (19, 2). Engaging him to secure the area and explore further.
+- Goal: Explore 8F main area to find the Card Key.
+- Strategy: Defeat the Grunt at (19, 2), then systematically map the paths radiating from the elevator.

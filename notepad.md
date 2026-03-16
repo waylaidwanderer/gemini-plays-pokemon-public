@@ -1084,7 +1084,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 <h1><code>Scratchpad/Reflections</code></h1>
 
 [Active Reflections]
-- Strategy: Arrived on 8F main area via elevator. A Team Rocket Grunt is at (19, 2). Engaging him to secure the area and explore further.
+- Goal: Explore 8F main area to find the Card Key.
+- Strategy: Defeat the Grunt at (19, 2), then systematically map the paths radiating from the elevator.
 
 <hr>
 
