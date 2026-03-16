@@ -26,9 +26,9 @@
 - Map Hygiene: Placed markers for the Pokemon Center and Poke Mart. Found the Pokemon Lab.
 - PC Storage: Depositing TMs to free up bag space before exploring Pokemon Mansion.
 - Tools: None used this turn.
-[Turn 37631 Reflection]
+[Turn 37632 Reflection]
 - Progress: Depositing items in the PC.
-- Mechanics Check: The cursor is on POKe FLUTE. Some of my 'Down' inputs were eaten again by the "What do you want to deposit?" text rendering! The text is fully rendered now, so I will press 'Down' 4 times to scroll further down the list.
+- Mechanics Check: The cursor is now on TM09. I will press 'A' to select it for deposit.
 - Map Hygiene: Cinnabar Island Pokemon Center.
-- PC Storage: Looking for TMs, Silph Scope, Card Key, and Master Ball.
+- PC Storage: Depositing TM09.
 - Tools: None.
