@@ -78,3 +78,5 @@
 - Battle Result: Golbat defeated! The Grunt is defeated. I will now clear the remaining text and continue East.
 [Turn 36042 Reflection]
 - Error Analysis (Battle State Hallucination): I assumed the battle was over after Golbat and tried to walk away, completely missing the text "ROCKET sent out KOFFING!" and the resulting battle menu. I must visually confirm the overworld is present before attempting to move. The cursor is now stuck on PKMN.
+[Turn 36043 Reflection]
+- Error Analysis (Text Eating): My previous battle inputs were completely eaten by the 'Enemy KOFFING used TACKLE!' text box. This actually saved me from my cursor hallucination, and the menu defaulted back to FIGHT once the text cleared. I will manually input A-A to select Body Slam to avoid the start_on_main wrapping bug.
