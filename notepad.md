@@ -1112,11 +1112,11 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Map Hygiene: Placed markers for the Pokemon Center and Poke Mart. Found the Pokemon Lab.
 - PC Storage: Depositing TMs to free up bag space before exploring Pokemon Mansion.
 - Tools: None used this turn.
-[Turn 37641 Reflection]
+[Turn 37642 Reflection]
 - Progress: Depositing items in the PC.
-- Mechanics Check: The cursor is currently on LEMONADE x8. The text is fully rendered. I will scroll down 4 more times to keep searching for my TMs, Silph Scope, and Master Ball.
+- Mechanics Check: The cursor is currently on MAX REVIVE x1. I will scroll down 4 more times. The deposit_item_pc tool failed because of text rendering delays, so manual scrolling is safer.
 - Map Hygiene: Cinnabar Island Pokemon Center.
-- PC Storage: Manually scrolling the item list.
+- PC Storage: Manually scrolling the item list to find TM03, TM36, TM46, SILPH SCOPE, and MASTER BALL.
 - Tools: None.
 
 <hr>
