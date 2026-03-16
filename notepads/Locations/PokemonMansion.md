@@ -31,3 +31,5 @@
 [2F Continued]
 - Electronic doors located at (7, 12) to (7, 15).
 - Toggling the switch at (2, 11) seems to affect doors, but the ones at X=7 are currently closed. Exploring the rest of 2F.
+- Exploring 2F further. The switch at (2, 11) might be for doors I haven't reached yet or a different floor.
+- Taking the stairs to 3F at (7, 10).
