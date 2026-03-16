@@ -33,3 +33,10 @@
 - Toggling the switch at (2, 11) seems to affect doors, but the ones at X=7 are currently closed. Exploring the rest of 2F.
 - Exploring 2F further. The switch at (2, 11) might be for doors I haven't reached yet or a different floor.
 - Taking the stairs to 3F at (7, 10).
+[3F Points of Interest]
+- Map ID: 0_215
+- Arrived from 2F via stairs at (7, 10).
+- Burglar trainer spotted at (4, 11).
+- Diary located at (6, 12).
+- Another set of stairs visible at (10, 8).
+- Wide open gap/drop-off visible on the right side at X=12.
