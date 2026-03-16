@@ -10,3 +10,4 @@
 - Stairs to 2F are at (4, 10), (5, 10), and (6, 10).
 [Encounters]
 - Vulpix
+- Ponyta

@@ -1403,5 +1403,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Stairs to 2F are at (4, 10), (5, 10), and (6, 10).
 [Encounters]
 - Vulpix
+- Ponyta
 
 <hr>
