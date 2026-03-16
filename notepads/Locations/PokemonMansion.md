@@ -23,3 +23,6 @@
 - The Central Hallway and West Wing are blocked by a solid wall at Y=9. The stairs at (4, 10)/(5, 10)/(6, 10) are on the South side. The only path between the North and South halves of 1F is through the East Wing.
 - The wall at Y=9 is solid across the central/west area. To cross between the North and South halves of 1F, use the East Wing corridor at X=11/X=12. The electronic doors are only in the easternmost room (X=14-17) and don't block main North/South transit.
 - Ascending stairs at (5, 10)/(6, 10) to 2F.
+[2F Points of Interest]
+- Arrived from 1F via stairs at (5, 10).
+- Stairs to 3F are at (7, 10).
