@@ -70,3 +70,4 @@
 - 8F Navigation: Finished mapping 8F. It is entirely a large connected loop with no Card Key. The paths are 100% mapped. Returning to 5F.
 - Elevator Menu: The floor selection menu DOES NOT wrap! Pressing Up at 1F does nothing. To reach 11F from 1F, you must press Down 10 times.
 - 11F (Map 0_235): Elevator at (13, 0). Path from elevator goes East and West. A solid wall at X=13 separates the South area. NPC spotted at (10, 5) on the West side. I will explore the East side first.
+- 11F Navigation: Path East from the elevator leads South to a Grunt at (15, 7).
