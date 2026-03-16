@@ -199,3 +199,5 @@
 [Turn 36086 Reflection]
 - Error Analysis (Menu Trap): I attempted to move in the overworld (`Down, Down, Down, Down, Down`) but I am still in the Pokemon Center healing dialogue! The text "Thank you! Your POKeMON are fighting fit!" is still on the screen.
 - I must clear this text box before I can move.
+[Turn 36101 Reflection]
+- Navigating back to the Silph Co. entrance. I'm taking a slightly wider path to avoid the building's outer walls, turning left at Y=15 to enter the inset doors.
