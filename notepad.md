@@ -1343,5 +1343,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Route 21 ends around Y=89 at a wooden dock. Cinnabar Island is directly South.
 - Read sign at (13, 3): "CINNABAR GYM'S HOT-HEADED LEO!"
 - Read sign at (12, 3): "CINNABAR ISLAND, The Fiery Town of Burning Desire"
+- Read sign at (9, 5): "CINNABAR ISLAND POKEMON LAB"
 
 <hr>
