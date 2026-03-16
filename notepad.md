@@ -1093,7 +1093,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [Active Reflections]
 - Reflection Turn 36964: Identified the remaining electronic doors to open using the Card Key to fully clear Silph Co.
 - Door Checklist:
-  - 3F: (9, 8) (OPENED) - Item ball at (8, 5) (Hyper Potion)
+  - 3F: (9, 8) (OPENED), (20, 4), (17, 8)
   - 4F: (12, 8)/(13, 8) - Access to Scientist at (14, 6)
   - 5F: (7, 12)/(7, 13) - Access to TM09 at (2, 13)
   - 6F: (10, 4)/(11, 4) AND X=5 door - Item ball at (3, 12)
