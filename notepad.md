@@ -1433,5 +1433,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - A path leads West to the Northwest corner at Y=4/Y=5.
 - Found stairs at (6, 1) leading up. They are in the Northwest corner of 2F.
 - Boulders/rubble are blocking the tiles at (4, 1) and (5, 1).
+- Took stairs at (6, 1) from 2F to 3F. Arrived in the Northwest area of 3F.
+- A switch statue is located at (10, 4)/(10, 5). Moving to press it.
 
 <hr>
