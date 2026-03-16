@@ -30,5 +30,5 @@
 - Progress: Depositing items in the PC. Context summarization is imminent.
 - Mechanics Check: The screen says "TM46 was stored via PC." I will press 'A' to clear this confirmation text. The cursor should reset to index 1 (ULTRA BALL).
 - Map Hygiene: Cinnabar Island Pokemon Center. PC Storage notes updated.
-- PC Storage: Deposited TM46. Still need to deposit TM03 and Silph Scope.
+- PC Storage: Deposited TM46, TM03, and Silph Scope. Bag space cleared! (10/20 slots used).
 - Tools: None.
