@@ -27,7 +27,7 @@
 - 5F: Warp pad at (11, 5).
 - 5F Navigation: The path South at X=14 leads to a dead-end room with a warp pad at (11, 5). To explore the rest of the floor, use the path South at X=22 (East of the elevator).
 - 5F Navigation: South path at X=22 leads to a large central room. There is a clipboard on the desk at (26, 10) with a Pokemon Report.
-- 5F Navigation: Item ball at (21, 16) is behind a wall at Y=15. Grunt at (18, 10).
+- 5F Navigation: Item ball at (21, 16) is the CARD KEY! It is accessible via a hidden 1-tile wide hallway running East at Y=16 from the bottom of the West corridor (starts at X=9, Y=16).
 - 5F Navigation: Wall at X=27 blocks access to X=28 from the central room. Wall at Y=15 blocks access to the item ball at (21, 16) from the central room.
 - 5F Navigation: The central room is bounded by an electronic door at (15, 10) on the West and desks at Y=15 on the South. The item at (21, 16) is unreachable from here.
 - 5F Navigation: East of the elevator at X=24 is a path South. It contains a warp pad at (27, 3), a Grunt at (28, 4), and a clipboard at (24, 6). The Grunt blocks the path South at X=28.

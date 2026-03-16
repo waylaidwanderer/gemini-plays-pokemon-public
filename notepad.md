@@ -1084,11 +1084,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 <h1><code>Scratchpad/Reflections</code></h1>
 
 [Active Reflections]
-- Goal: Get the Card Key on 5F.
-- Strategy: Abandon 1-tile hallways blocked by defeated trainers, as they are permanently impassable.
-- Elevator Nav: Use the universal reset macro for elevator navigation. Spam 'Up' 10 times to force the cursor to 1F (since it doesn't wrap), then press 'Down' the exact number of times needed for the target floor, followed by 'A'.
-- HYPOTHESIS CONFIRMED: The item ball at (21, 16) IS accessible via a hidden 1-tile wide hallway running East at Y=16 from the bottom of the West corridor. Currently traversing it to grab the item (hopefully the Card Key!).
-- Turn 36555: Mashing Down in the 5F West corridor caused me to step on the warp pad at (9, 15), taking me to 9F (17, 15). Warping back to properly test if a path East exists at Y=16.
+- Goal: Defeat Team Rocket in Silph Co.
+- Status: CARD KEY OBTAINED!
+- Strategy: Now that I have the Card Key, I need to systematically unlock the electronic doors on each floor to find the path forward. I'll start by unlocking the doors here on 5F.
 
 <hr>
 
@@ -1184,7 +1182,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - 5F: Warp pad at (11, 5).
 - 5F Navigation: The path South at X=14 leads to a dead-end room with a warp pad at (11, 5). To explore the rest of the floor, use the path South at X=22 (East of the elevator).
 - 5F Navigation: South path at X=22 leads to a large central room. There is a clipboard on the desk at (26, 10) with a Pokemon Report.
-- 5F Navigation: Item ball at (21, 16) is behind a wall at Y=15. Grunt at (18, 10).
+- 5F Navigation: Item ball at (21, 16) is the CARD KEY! It is accessible via a hidden 1-tile wide hallway running East at Y=16 from the bottom of the West corridor (starts at X=9, Y=16).
 - 5F Navigation: Wall at X=27 blocks access to X=28 from the central room. Wall at Y=15 blocks access to the item ball at (21, 16) from the central room.
 - 5F Navigation: The central room is bounded by an electronic door at (15, 10) on the West and desks at Y=15 on the South. The item at (21, 16) is unreachable from here.
 - 5F Navigation: East of the elevator at X=24 is a path South. It contains a warp pad at (27, 3), a Grunt at (28, 4), and a clipboard at (24, 6). The Grunt blocks the path South at X=28.
