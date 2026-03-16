@@ -1416,5 +1416,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [2F Points of Interest]
 - Arrived from 1F via stairs at (5, 10).
 - Stairs to 3F are at (7, 10).
+- Found a diary at (2, 10).
 
 <hr>
