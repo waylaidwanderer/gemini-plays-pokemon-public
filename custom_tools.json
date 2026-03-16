@@ -129,6 +129,16 @@
     "input_schema": {
       "type": "object",
       "properties": {
+        "current_move_index": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 4
+        },
+        "target_move_index": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 4
+        },
         "start_on_main": {
           "type": "boolean",
           "default": true
@@ -142,16 +152,6 @@
             "RUN"
           ],
           "default": "FIGHT"
-        },
-        "current_move_index": {
-          "type": "integer",
-          "minimum": 1,
-          "maximum": 4
-        },
-        "target_move_index": {
-          "type": "integer",
-          "minimum": 1,
-          "maximum": 4
         }
       },
       "required": [
@@ -159,7 +159,7 @@
         "target_move_index"
       ]
     },
-    "python_script": "import json\ndef execute_battle_turn(current, target, start_on_main, main_cursor):\n    buttons = []\n    if start_on_main:\n        if main_cursor == 'PKMN':\n            buttons.extend(['Up', 'sleep 300', 'Left', 'sleep 300'])\n        elif main_cursor == 'ITEM':\n            buttons.extend(['Up', 'sleep 300'])\n        elif main_cursor == 'RUN':\n            buttons.extend(['Left', 'sleep 300'])\n        buttons.extend(['A', 'sleep 500'])\n    diff = target - current\n    if diff > 0:\n        for _ in range(diff):\n            buttons.extend(['Down', 'sleep 300'])\n    elif diff < 0:\n        for _ in range(abs(diff)):\n            buttons.extend(['Up', 'sleep 300'])\n    buttons.append('A')\n    return buttons\nprint(json.dumps(execute_battle_turn(input_data['current_move_index'], input_data['target_move_index'], input_data.get('start_on_main', True), input_data.get('main_cursor', 'FIGHT'))))",
+    "python_script": "def execute_battle_turn(input_data):\n    current_move = input_data['current_move_index']\n    target_move = input_data['target_move_index']\n    start_on_main = input_data.get('start_on_main', True)\n    main_cursor = input_data.get('main_cursor', 'FIGHT')\n    \n    buttons = []\n    \n    if start_on_main:\n        if main_cursor == 'FIGHT':\n            pass\n        elif main_cursor == 'PKMN':\n            buttons.extend(['Left', 'sleep 300'])\n        elif main_cursor == 'ITEM':\n            buttons.extend(['Up', 'sleep 300'])\n        elif main_cursor == 'RUN':\n            buttons.extend(['Up', 'sleep 300', 'Left', 'sleep 300'])\n        \n        buttons.extend(['A', 'sleep 500'])\n    \n    if current_move != target_move:\n        diff = target_move - current_move\n        \n        if diff == 1 or diff == -3:\n            buttons.extend(['Down', 'sleep 300'])\n        elif diff == 2 or diff == -2:\n            buttons.extend(['Down', 'sleep 300', 'Down', 'sleep 300'])\n        elif diff == -1 or diff == 3:\n            buttons.extend(['Up', 'sleep 300'])\n            \n    buttons.append('A')\n    \n    import json\n    print(json.dumps(buttons))\n",
     "history": [
       {
         "commit_message": "Initial version",
@@ -295,6 +295,11 @@
         "commit_message": "Fixed start_on_main wrapping bug by explicitly tracking main_cursor position.",
         "timestamp": "2026-03-15T17:42:21.005Z",
         "action_counter": 35256
+      },
+      {
+        "commit_message": "Fixed main_cursor navigation to respect Gen 1 wrap-around memory and prevent accidental ITEM menu opens.",
+        "timestamp": "2026-03-16T01:33:21.056Z",
+        "action_counter": 36211
       }
     ]
   },
