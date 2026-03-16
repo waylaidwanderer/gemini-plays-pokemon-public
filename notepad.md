@@ -1222,5 +1222,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - 8F Navigation: Warp pad at (11, 9) connects to 8F warp at (3, 11). Path goes West to X=1, North to Y=2, and East to an NPC at (4, 2), bypassing the electronic doors at (4, 10).
 - 8F Navigation: Finished mapping 8F. It is entirely a large connected loop with no Card Key. The paths are 100% mapped. Returning to 5F.
 - Elevator Menu: The floor selection menu DOES NOT wrap! Pressing Up at 1F does nothing. To reach 11F from 1F, you must press Down 10 times.
+- 11F (Map 0_235): Elevator at (13, 0). Path goes South. NPC spotted at (10, 5).
 
 <hr>
