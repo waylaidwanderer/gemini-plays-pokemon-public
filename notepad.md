@@ -1219,6 +1219,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - 8F Navigation: Path North at X=21 leads to a room with potted plants. A South-facing ledge at (17, 8) forces a one-way drop into a 1x4 dead-end hallway from (17, 9) to (17, 12).
 - 8F Navigation: Warp pad at (11, 9) connects to 8F warp at (3, 11). Path goes West to X=1, North to Y=2, and East to an NPC at (4, 2), bypassing the electronic doors at (4, 10).
 - 8F Navigation: Finished mapping 8F. It is entirely a large connected loop with no Card Key. The paths are 100% mapped. Returning to 5F.
+- 9F Main Navigation: Elevator at (18, 0). Path West leads to a South corridor at X=13. It ends at Y=13, with an electronic door blocking West at (11, 12). Warp pads are located at (12, 9) and (12, 11).
 - 9F (Map 0_233): Warp at (17, 15) lands in a partitioned area. A solid wall at X=14 blocks access to a healing Nurse at (13, 16). A Grunt is accessible to the East at (21, 13).
 - 9F Navigation: Path East is at Y=15. Grunt at (21, 14). Electronic doors at (18, 10) block North.
 - 9F Navigation: Path continues North at X=24.
