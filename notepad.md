@@ -1405,6 +1405,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Found and pressed a switch on the statue at (1,4)-(2,5) in the West Wing.
 - There are electronic doors at (14, 7)/(15, 7) and (16, 7)/(17, 7). Toggling the switch at (2, 5) opened (16, 7)/(17, 7) and closed (14, 7)/(15, 7). This allowed access to the southern half of the eastern room.
 - The Central Hallway and West Wing are blocked by a solid wall at Y=9. The stairs at (4, 10)/(5, 10)/(6, 10) are on the South side. The only path between the North and South halves of 1F is through the East Wing.
-- There are electronic doors at (1, 9) and (2, 9) in the West Wing. Toggling the switch at (2, 5) currently closed them, blocking access to the South West area. I need to toggle it back to open them.
+- The wall at Y=9 in the West Wing is entirely solid. I need to re-explore the southern half of the East Wing (south of Y=12) to find a path west to the stairs.
 
 <hr>
