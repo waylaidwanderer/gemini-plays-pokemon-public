@@ -1,2 +1,2 @@
 [Active Reflections]
-- Strategy: The Grunt at 4F (26, 7) doesn't disappear and blocks the 1-tile wide hallway. I must find another way. I will head back North to (26, 2) and explore West along the top corridor of 4F.
+- Strategy: The Grunt at 4F (26, 7) blocks the East path South, but I noticed the West path South at X=23 is completely open! I will head Left to X=23 and proceed South to explore the rest of 4F East.
