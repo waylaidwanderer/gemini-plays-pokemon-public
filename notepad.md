@@ -1111,11 +1111,11 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Map Hygiene: Placed markers for the Pokemon Center and Poke Mart. Found the Pokemon Lab.
 - PC Storage: Depositing TMs to free up bag space before exploring Pokemon Mansion.
 - Tools: None used this turn.
-[Turn 37612 Reflection]
+[Turn 37613 Reflection]
 - Progress: Back at the PC in the Cinnabar Island Pokemon Center.
-- Mechanics Check: Mashing 'B' to exit Oak's PC evaluation backed me out of the ENTIRE PC system back to the overworld. Because I thought I was still in the menu, my 'Down' input made me physically walk away from the PC to (13, 5). I must always verify menu presence visually before assuming I'm still logged in!
+- Mechanics Check: The text "GEM turned on the PC." is on screen. I will press 'A' to advance to the root menu.
 - Map Hygiene: Cinnabar Island Pokemon Center.
-- PC Storage: Need to step back up to the PC and log in again.
+- PC Storage: Need to carefully navigate to GEM's PC -> DEPOSIT ITEM.
 - Tools: None.
 
 <hr>
