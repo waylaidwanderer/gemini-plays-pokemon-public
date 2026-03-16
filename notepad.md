@@ -1111,11 +1111,11 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Map Hygiene: Placed markers for the Pokemon Center and Poke Mart. Found the Pokemon Lab.
 - PC Storage: Depositing TMs to free up bag space before exploring Pokemon Mansion.
 - Tools: None used this turn.
-[Turn 37615 Reflection]
+[Turn 37616 Reflection]
 - Progress: Navigating the PC in the Cinnabar Island Pokemon Center.
-- Mechanics Check: The text "Accessed my PC." is currently on screen. I need to press 'A' to clear it so the actual GEM's PC menu appears.
+- Mechanics Check: The GEM's PC menu is finally open! The cursor is on WITHDRAW ITEM. I need to press Down once to select DEPOSIT ITEM, then press A to enter the sub-menu.
 - Map Hygiene: Cinnabar Island Pokemon Center.
-- PC Storage: Need to carefully navigate to GEM's PC -> DEPOSIT ITEM.
+- PC Storage: Ready to deposit TMs.
 - Tools: None.
 
 <hr>
