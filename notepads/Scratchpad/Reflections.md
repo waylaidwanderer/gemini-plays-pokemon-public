@@ -125,3 +125,66 @@
   - Therefore, the room at X=15 is UNREACHABLE from this hallway.
   - This entire sequence from the warp pad at (3, 15) is a dead end without the Card Key.
   - I must backtrack to the elevator on 2F.
+[Turn 36078 Reflection]
+- Navigation Analysis: My previous sequence `Down, Down, Down, Down, Down, Left, Left` failed completely because I was already blocked by the wall at (17, 8). I am at (17, 9). I cannot move UP because (17, 8) is `TYPE_3fe2` visually, but it's blocked by the potted plant at (17, 7).
+- Wait, I'm at (17, 9). The path North is clear. I just moved Down from (17, 5) to (17, 9).
+- Let's look at the `IntermediateStates` for turn 36077.
+  - I executed `Up, Up, Up`.
+  - State 0: Player at (17, 9) facing Up.
+  - State 1: Player at (17, 8) facing Up.
+  - State 2: Player at (17, 8) facing Up (Bumped).
+- Okay, so the path North from (17, 9) is blocked at (17, 8)!
+- Why? Let's look at the screen for turn 36077.
+- (17, 8) is `TYPE_3fe2` (floor). (17, 7) is `TYPE_3fe2` (floor). (17, 6) is `TYPE_3fe2` (floor).
+- BUT look at the pixels!
+- At (17, 7), there is the bottom half of a potted plant. The top half is at (17, 6).
+- So (17, 7) is a SOLID OBSTACLE despite being labeled `TYPE_3fe2`.
+- I am TRAPPED.
+- I moved South from (17, 5) down to (17, 9). I passed through (17, 6), (17, 7), and (17, 8) on turn 36063!
+- Turn 36063 sequence: `Down, Down, Down, Left` from (17, 10). Wait, no, I started at (17, 10) on turn 36063.
+- How did I get to (17, 10)?
+- Turn 36062 sequence: `Left, Down, Down, Down, Down, Down` from (22, 5).
+- Ah! I moved from (18, 5) to (17, 5) to (17, 10).
+- BUT WAIT. If (17, 7) is a potted plant, how did I walk through it?
+- I DIDN'T.
+- Let's look at the screen for turn 36077 carefully.
+- My sprite is at (17, 9).
+- The tile at (17, 8) is empty floor.
+- The tile at (17, 7) is empty floor.
+- The tile at (17, 6) is empty floor.
+- Wait, where is the potted plant?
+- There are potted plants at (20, 6)/(20, 7) and (18, 6)/(18, 7).
+- There is NO potted plant at X=17!
+- Why did `Up, Up, Up` fail?
+- Let's look at State 2 of turn 36077 again. The player is at (17, 8) facing Up.
+- The Game State for 36077 says `Player Position: (17, 9)`.
+- If I bumped at (17, 8), I would be at (17, 8). But I am at (17, 9).
+- This means the first `Up` moved me to (17, 8). The second `Up` moved me to (17, 7). The third `Up`... wait.
+- No, the states show me bumping at (17, 8).
+- If I bumped at (17, 8), I should be AT (17, 8).
+- Why does the Game State say (17, 9)?
+- Perhaps I was at (17, 10) before the turn?
+- Yes, on turn 36076 I was at (17, 12). I executed `Up, Up, Up`.
+- That would put me at (17, 9).
+- So on turn 36077, I started at (17, 9). I executed `Up, Up, Up`.
+- If State 0 is me at (17, 9) facing Up, and State 1 is me at (17, 8)...
+- Why did I bounce back to (17, 9)?
+- Ah! Ledges!
+- Is there a ledge?
+- Look at (17, 8) on the screen for turn 36077.
+- It's a dark line across the top of the tile.
+- THAT IS A LEDGE.
+- It's a South-facing ledge. I jumped over it when I came South from (17, 5).
+- I cannot go back North! I am trapped below the ledge!
+- Okay, if I am trapped below the ledge at Y=8, and the hallway South ends at Y=12...
+- Wait, I proved on turn 36076 that the hallway ends at Y=12. (17, 13) is a solid wall.
+- So I am trapped in a 1x4 column from (17, 9) to (17, 12).
+- Is there any way out?
+- East: Solid walls (18, 9) through (18, 12).
+- West: Solid walls (16, 9) through (16, 12).
+- South: Solid wall (17, 13).
+- North: Ledge at (17, 8).
+- I AM LITERALLY TRAPPED.
+- The ONLY way out is to use the Escape Rope or Dig, or Fly (if I had a flying Pokemon and was outside).
+- Fortunately, I have Dugtrio with Dig!
+- I will use Dig to escape this trap and return to the Pokemon Center.
