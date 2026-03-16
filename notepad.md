@@ -1283,12 +1283,13 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 5. MR Bottom-Left (15, 11) <-> TC Top-Left (9, 3)
 6. TC Top-Right (11, 3) <-> TL Top-Right (5, 3)
 7. TL Top-Left (1, 3) <-> TR Bottom-Left (15, 5)
+8. MR Top-Right (19, 9) <-> BR Top-Right (19, 15)
 
 [Unexplored Warps]
-- BR (Bottom-Right): Top-Left (15, 15), Top-Right (19, 15)
+- BR (Bottom-Right): Top-Left (15, 15)
 - BL (Bottom-Left): Bottom-Left (1, 17), Bottom-Right (5, 17)
 - TR (Top-Right): Top-Right (19, 3)
-- MR (Middle-Right): Top-Right (19, 9), Bottom-Right (19, 11)
+- MR (Middle-Right): Bottom-Right (19, 11)
 - TC (Top-Center): Bottom-Left (9, 5), Bottom-Right (11, 5)
 - TL (Top-Left): Bottom-Left (1, 5), Bottom-Right (5, 5)
 
