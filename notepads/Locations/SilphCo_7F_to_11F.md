@@ -14,7 +14,7 @@
 - 9F Main Navigation: Elevator at (18, 0). Path West leads to a South corridor at X=13. It ends at Y=13, with an electronic door blocking West at (11, 12). The tiles at (12, 9) and (12, 11) are just potted plants, NOT warp pads! 9F is fully explored without a Card Key.
 - 9F (Map 0_233): Warp at (17, 15) lands in a partitioned area. A solid wall at X=14 blocks access to a Team Rocket Grunt at (13, 16) (one of the 4 Rocket Brothers!). A Grunt is accessible to the East at (21, 13).
 - 9F Navigation: Path East is at Y=15. Grunt at (21, 14). Electronic doors at (18, 10) opened! The path North of the doors leads West to a dead end at X=15, and North to X=20 where it hits a wall at Y=4. West of (20, 5) are electronic doors at (18, 4) and (19, 4) which connect BACK to the elevator starting area. Opened (18, 4)!
-- 9F Navigation: Path continues North at X=24.
+- 9F Navigation: Path West from the elevator goes South down X=13. Grunt at (13, 13) (Rocket Brother) is defeated. Electronic door at (11, 12) is OPENED! The path leads West.
 - 9F Navigation: Path North at X=24 leads West to a dead-end room with objects at (18, 4) and (19, 4) that require a Card Key.
 - 10F (Map 0_234): Elevator doors at (12, 0). Scientist at (10, 2).
 - 10F Navigation: From elevator, path goes South via X=11. Path West at Y=5 is a dead end (wall at X=7). Electronic doors at (10, 8) and (11, 8) block South. Warp pad located at (13, 7).
