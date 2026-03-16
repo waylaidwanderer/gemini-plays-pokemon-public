@@ -1112,9 +1112,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Map Hygiene: Placed markers for the Pokemon Center and Poke Mart. Found the Pokemon Lab.
 - PC Storage: Depositing TMs to free up bag space before exploring Pokemon Mansion.
 - Tools: None used this turn.
-[Turn 37627 Reflection]
+[Turn 37628 Reflection]
 - Progress: Depositing items in the PC.
-- Mechanics Check: The cursor is on HYPER POTION. I will press Down to select TM09 and then press 'A' to deposit it.
+- Mechanics Check: The game asks "How many?" to deposit for TM09. I will press 'A' to confirm depositing 1.
 - Map Hygiene: Cinnabar Island Pokemon Center.
 - PC Storage: Depositing TM09.
 - Tools: None.
