@@ -30,3 +30,7 @@
 - Custom Tools Brainstorm: 1) catch_pokemon automation, 2) check_pc_space alert, 3) map_mansion grid tracker, 4) smart_switch_pokemon (handling KO prompt), 5) fast_text_clearer.
 - Map Hygiene: Marked the Mansion exit at (5, 27).
 - Error Analysis: Text boxes about caught Pokemon and PC transfers take multiple A/B presses to clear. I must explicitly clear them before sending movement commands to prevent eating inputs.
+[Turn 37847 Reflection]
+- 50-Turn Check-in: Explored the East and West wings of Pokemon Mansion 1F. Found statues with glowing eyes at (13, 2), (15, 2), and (1, 4). Pressing 'A' from the front and sides hasn't worked. Will test interacting from the bottom tile.
+- Map Hygiene: 1F layout is becoming clearer. Central hallway, east wing with stairs at (16, 7), west wing being explored now.
+- Custom Tools: The `run_battle` tool failed with a JSON error when `autopress_buttons: true` was used. Need to review its script.
