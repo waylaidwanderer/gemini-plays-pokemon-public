@@ -16,7 +16,7 @@
 - 2F Navigation: East hallway from the elevator leads to stairs at X=24 and X=26. South of the stairs is a woman at (25, 7). She mentions "I work for SILPH. What can I do?".
 - 2F Navigation: Reached via warp pad from 6F (23, 3). The warp lands at (9, 15) in a small isolated room. A Scientist is at (5, 14). A woman is at (4, 13). No items or further progress here; it's a dead end.
 - 3F (Map 0_208): Elevator at (20, 0). Stairs DOWN to 2F at (26, 0). Stairs UP to 4F at (24, 0). Electronic door at (20, 4) blocks the path South. Path West is open.
-- 3F Navigation: West hallway ends in a room with a warp pad at (3, 3) and a solid wall at X=0. No path South; it's a dead end connecting to 5F. 3F requires the Card Key to progress. Item ball at (8, 5) is unreachable from here.
+- 3F Navigation: West hallway ends in a room with a warp pad at (3, 3) and a solid wall at X=0. No path South; it's a dead end connecting to 5F. 3F requires the Card Key to progress. Item ball at (8, 5) is accessible by opening the electronic door at (9, 8)/(9, 9).
 - 3F Navigation: East hallway from the stairs has a warp pad at (27, 3). The path South is blocked by desks at Y=4.
 - 3F Navigation: The central area is blocked by an electronic door at (20, 4) and (17, 8). Opening (20, 4) gives access to a Grunt at (20, 7) and a path South. Opening (17, 8) gives access to a room with a warp pad at (11, 11).
 - Warp Connection: 3F warp at (11, 11) connects to 7F warp at (5, 3).
