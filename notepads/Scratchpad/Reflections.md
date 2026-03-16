@@ -70,3 +70,6 @@
 - Map Hygiene: Successfully mapped the dead-end warp chains on 10F -> 4F -> 6F and 3F -> 5F. Added warp pad markers for all discovered pads.
 - Tool Maintenance: Battle tools are functioning correctly. I successfully remembered that the move menu retains cursor memory (Body Slam is index 1).
 - Strategy: Continuing systematic exploration of Silph Co. to find the Card Key. Currently exploring 8F via the warp pad from 2F.
+[Turn 36035 Reflection]
+- Error Analysis (Turn Hallucination): I accidentally pasted extra digits into the turn number in my previous action. I must be more careful when typing the `num_turns` parameter.
+- Battle Result: Weezing defeated! Continuing East down the 8F hallway.
