@@ -766,7 +766,6 @@ Points of Interest:
 - S.S. TICKET (Deposited Turn 9526)
 - TM11 (Deposited Turn 9529)
 - Depositing TMs into PC to free up space for Pokemon Mansion.
-- Deposited TM03 (Turn 37607)
 
 <hr>
 
@@ -1111,12 +1110,12 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Map Hygiene: Placed markers for the Pokemon Center and Poke Mart. Found the Pokemon Lab.
 - PC Storage: Depositing TMs to free up bag space before exploring Pokemon Mansion.
 - Tools: None used this turn.
-[Turn 37606 Reflection]
-- Progress: Navigated to the PC in the Cinnabar Island Pokemon Center.
-- Mechanics Check: The sign reading mishap on Cinnabar Island was due to a multi-page text box that required pressing 'A' to advance through the down arrow (▼) before pressing 'B' could clear it entirely.
-- Map Hygiene: Placed markers for the Pokemon Center and Poke Mart. Found the Pokemon Lab.
-- PC Storage: Depositing TMs to free up bag space before exploring Pokemon Mansion.
-- Tools: None used this turn.
+[Turn 37608 Reflection]
+- Progress: Navigating the PC in the Cinnabar Island Pokemon Center.
+- Mechanics Check: I used the deposit_item_pc tool while still on the GEM's PC root menu instead of inside the DEPOSIT ITEM sub-menu. The tool's Down presses scrolled down to LOG OFF, exiting the menu entirely. The remaining 'A' presses then accidentally selected BILL'S PC. I need to be careful to ensure I am actually inside the correct sub-menu before firing off item-navigation tools!
+- Map Hygiene: Cinnabar Island Pokemon Center.
+- PC Storage: Attempting to access GEM's PC to deposit TMs.
+- Tools: Need to manually navigate back to GEM's PC -> DEPOSIT ITEM.
 
 <hr>
 
