@@ -1112,11 +1112,11 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Map Hygiene: Placed markers for the Pokemon Center and Poke Mart. Found the Pokemon Lab.
 - PC Storage: Depositing TMs to free up bag space before exploring Pokemon Mansion.
 - Tools: None used this turn.
-[Turn 37648 Reflection]
+[Turn 37649 Reflection]
 - Progress: Depositing items in the PC.
-- Mechanics Check: The cursor is on ESCAPE ROPE. I see TM36 right below it! I will press Down once and then 'A' to deposit it.
+- Mechanics Check: TM36 is selected, and the game asks "How many?" to deposit. I will press 'A' to confirm depositing 1.
 - Map Hygiene: Cinnabar Island Pokemon Center.
-- PC Storage: Depositing TM36.
+- PC Storage: Depositing TM36. Next up are TM46 and Silph Scope.
 - Tools: None.
 
 <hr>
