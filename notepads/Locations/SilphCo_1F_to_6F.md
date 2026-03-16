@@ -29,7 +29,7 @@
 - 5F (Map 0_210): Elevator at (20, 0). Desks block the south path immediately out of the elevator at Y=4. West hallway leads to a Silph Employee at (8, 3) (Master Ball dialogue). Bypass him via X=9.
 - 5F: Warp pad at (11, 5). Warp pad at (9, 15). Warp pad at (3, 15).
 - 5F Navigation: The path South at X=14 leads to a dead-end room with a warp pad at (11, 5). To explore the rest of the floor, use the path South at X=22 (East of the elevator).
-- 5F Navigation: To reach the East/Central area from the elevator, walk down X=22/23 to Y=5, East to X=26, then South. There is a clipboard on the desk at (26, 10) with a Pokemon Report.
+- 5F Navigation: To reach the East/Central area from the elevator, walk down X=22/23 to Y=5, East to X=26, then South. A Pokemon Report is on the desk at (25, 10). To reach the central room, continue South down X=26 to Y=14, then head West.
 - 5F Navigation: Item ball at (21, 16) is the CARD KEY! It is accessible via a hidden 1-tile wide hallway running East at Y=16 from the bottom of the West corridor (starts at X=9, Y=16).
 - 5F Navigation: Wall at X=27 blocks access to X=28 from the central room. Wall at Y=15 blocks access to the item ball at (21, 16) from the central room.
 - 5F Navigation: The central room is bounded by an electronic door at (15, 10) on the West and desks at Y=15 on the South. The item at (21, 16) is unreachable from here.
