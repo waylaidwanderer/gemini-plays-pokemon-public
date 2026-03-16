@@ -1,2 +1,2 @@
 [Active Reflections]
-- Strategy: Exiting the elevator onto 8F by moving South from the red tiles.
+- Strategy: Arrived on 8F main area via elevator. A Team Rocket Grunt is at (19, 2). Engaging him to secure the area and explore further.

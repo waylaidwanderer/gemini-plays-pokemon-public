@@ -1084,7 +1084,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 <h1><code>Scratchpad/Reflections</code></h1>
 
 [Active Reflections]
-- Strategy: Exiting the elevator onto 8F by moving South from the red tiles.
+- Strategy: Arrived on 8F main area via elevator. A Team Rocket Grunt is at (19, 2). Engaging him to secure the area and explore further.
 
 <hr>
 
