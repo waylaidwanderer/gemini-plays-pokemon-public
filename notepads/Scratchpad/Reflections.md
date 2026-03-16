@@ -7,3 +7,7 @@
 - Notepad Hygiene: Cleaned up the bloated Scratchpad/Reflections diary. Locations/SilphCo is tracking the maze well.
 - Error Analysis: The trap on 8F reinforced the critical lesson that visual cues (pixels for ledges, plant bases, desk tops) MUST override generic `TYPE_` floor labels when evaluating impassable terrain.
 - Goal: Find the Card Key. I will systematically explore 2F East, then 3F East, etc., checking for open paths.
+[Turn 36184 50-Turn Reflection]
+- Immediate Execution: Currently battling a Grunt on 2F East. Once defeated, I will speak to the NPC he is blocking, then proceed to 3F East via the warp pad at (3,3) or the stairs.
+- Notepad Hygiene: `Locations/SilphCo` is tracking the maze effectively. I will continue to log dead ends and warp connections.
+- Error Analysis: The `TYPE_` labels on the grid overlay are not absolute truth for collision; visual cues like ledges and object bases must be factored in. I successfully applied this lesson after escaping the 8F trap.
