@@ -15,3 +15,4 @@
 [Eevee]
 - Obtained Eevee from Celadon Mansion Roof (0_132).
 - Evolved into Jolteon (PIXEL) using Thunder Stone from Celadon Dept Store 4F!
+- WARNING: PC Box 1 is currently FULL (20/20). Must switch to Box 2 at the next available Pokemon Center before attempting to catch or receive any new Pokemon.
