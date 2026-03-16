@@ -1111,12 +1111,12 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Map Hygiene: Placed markers for the Pokemon Center and Poke Mart. Found the Pokemon Lab.
 - PC Storage: Depositing TMs to free up bag space before exploring Pokemon Mansion.
 - Tools: None used this turn.
-[Turn 37610 Reflection]
+[Turn 37611 Reflection]
 - Progress: Navigating the PC in the Cinnabar Island Pokemon Center.
-- Mechanics Check: I miscounted my menu presses again! From Bill's PC, pressing 'B' returns the cursor to the top of the root menu (BILL'S PC). I pressed Down TWICE, which put me on PROF.OAK'S PC instead of GEM'S PC. Now I'm stuck reading Oak's Pokedex evaluation!
+- Mechanics Check: Successfully backed out of Professor Oak's PC. The cursor is now back on the root menu (BILL'S PC). I need to press Down ONCE to select GEM'S PC, then press A to enter it.
 - Map Hygiene: Cinnabar Island Pokemon Center.
 - PC Storage: Attempting to access GEM's PC to deposit TMs.
-- Tools: Need to exit Oak's PC and carefully select GEM's PC.
+- Tools: Need to carefully navigate to GEM's PC -> DEPOSIT ITEM.
 
 <hr>
 
