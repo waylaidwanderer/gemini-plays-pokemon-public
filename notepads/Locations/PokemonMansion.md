@@ -18,3 +18,5 @@
 - Taking the stairs at (16, 7) to 2F.
 - Found statues at (13, 2) and (15, 2). They might have hidden switches.
 - Found another statue with glowing eyes in the west wing at X=2, Y=4/5. Testing for switches.
+- Secret switches are hidden in statues with glowing eyes! To activate them, stand BELOW the statue and press A facing Up.
+- Found and pressed a switch on the statue at (1,4)-(2,5) in the West Wing.
