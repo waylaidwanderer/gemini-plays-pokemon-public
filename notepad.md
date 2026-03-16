@@ -1324,5 +1324,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Kadabra Lv 38
 - Mr. Mime Lv 37
 - Venomoth Lv 38
+- Alakazam Lv 43
 
 <hr>
