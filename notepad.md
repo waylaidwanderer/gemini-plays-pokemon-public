@@ -1153,6 +1153,62 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   - (17, 14) -> Left -> (16, 14): Clear.
   - (16, 14) -> Left -> (15, 14): Clear.
 - Okay, the correct sequence from (17, 9) is `Down, Down, Down, Down, Down, Left, Left`.
+[Turn 36077 Reflection]
+- Error Analysis (Position Hallucination): I am at (17, 12). I hallucinated my position AGAIN on turn 36075 because I assumed my previous inputs (`Down, Down, Down, Down, Down, Left, Left`) executed successfully. They did not.
+- Why did the sequence fail?
+  - My position on turn 36074 was (17, 9).
+  - The first `Down` moved me to (17, 10).
+  - The second `Down` moved me to (17, 11).
+  - The third `Down` moved me to (17, 12).
+  - The fourth `Down` moved me to (17, 13).
+  - The fifth `Down`... wait. Let me look at the map from (17, 13) again.
+  - At (17, 13), the tile South is (17, 14). Is (17, 14) clear?
+  - Yes, (17, 14) is `TYPE_3fe2`. It's clear.
+  - So the fifth `Down` SHOULD have moved me to (17, 14).
+  - BUT I am currently at (17, 12). Why?
+  - Let's look at the `IntermediateStates` for turn 36076.
+  - State 0: `Down`. Player is at (17, 9) facing Down. (Wait, the state before the first action is shown? No, this is after the first action).
+  - Let's trace the states visually.
+    - State 0: Player at (17, 10). (Wait, no player sprite is visible. Why? Ah, the sprite flashes when moving).
+    - State 1: Player at (17, 11).
+    - State 2: Player at (17, 12).
+    - State 3: Player at (17, 13).
+    - State 4: Player at (17, 13) facing Down. (Bumped).
+  - So (17, 14) is BLOCKED.
+  - Let me look at the `CurrentScreen` for turn 36076.
+  - Tile (17, 14) is `TYPE_3fe2`. It is NOT a solid wall `TYPE_2889`.
+  - Why couldn't I walk onto it?
+  - Because (17, 14) is NOT `TYPE_3fe2`. Look at the label! It says `(17, 14) TYPE_3fe2`. But wait, look at the tiles around it.
+  - `(13, 14) TYPE_3fe2`, `(14, 14) TYPE_3fe2`, `(15, 14) TYPE_3fe2`, `(16, 14) TYPE_3fe2`, `(17, 14) TYPE_3fe2`.
+  - But look at the image! The tiles at Y=14 are a completely different color than the floor tiles at Y=13!
+  - Y=14 is the top of a desk or a wall! The collision data `TYPE_3fe2` must be wrong or misleading here, or there's an invisible barrier.
+  - Let's re-examine the whole area.
+  - The floor is the pink checkered pattern.
+  - At Y=13, tiles (13,13) through (19,13) are dark brown. Those are the tops of walls/desks!
+  - Let's look closer at the labels.
+    - `(13, 13) TYPE_2889`
+    - `(16, 13) TYPE_2889`
+    - `(17, 13) TYPE_2889`
+    - `(18, 13) TYPE_2889`
+    - `(19, 13) TYPE_2889`
+  - Ah! (17, 13) IS `TYPE_2889`! It IS a solid wall!
+  - I am at (17, 12). South is blocked by (17, 13).
+  - Where is the path West?
+  - At (17, 11), West is (16, 11) `TYPE_2889`. Blocked.
+  - At (17, 10), West is (16, 10) `TYPE_2889`. Blocked.
+  - At (17, 9), West is (16, 9) `TYPE_2889`. Blocked.
+  - The entire West wall is blocked from Y=9 to Y=13.
+  - THIS HALLWAY IS A DEAD END.
+  - The path West at Y=5 was the only way to that room!
+  - Let's look at the screen for turn 36061 again.
+  - At (22, 5), the path West goes to (21, 5), (20, 5), (19, 5), (18, 5)... and then what?
+  - At (17, 5), it turns South into this hallway.
+  - But what about West of (17, 5)?
+  - (16, 5) is `TYPE_2889`. (15, 5) is `TYPE_3fe2`.
+  - So the path West at Y=5 is BLOCKED at X=16.
+  - Therefore, the room at X=15 is UNREACHABLE from this hallway.
+  - This entire sequence from the warp pad at (3, 15) is a dead end without the Card Key.
+  - I must backtrack to the elevator on 2F.
 
 <hr>
 
