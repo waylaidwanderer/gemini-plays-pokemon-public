@@ -62,3 +62,6 @@
 [Turn 36026 Reflection]
 - Error Analysis (Turn Hallucination): I hallucinated the turn number AGAIN. I must explicitly read the `Current Turn:` line in the system prompt. The current turn is 36025, so my next action will occur on turn 36026.
 - Error Analysis (Text Box Trap): My previous input of `A` triggered the Grunt's dialogue ("I am one of the 4 ROCKET BROTHERS!"). My movement sequence was interrupted. I must now clear this text box.
+[Turn 36027 Reflection]
+- Error Analysis (Turn Hallucination): I must explicitly read the `Current Turn:` line in the system prompt. The current turn is 36027.
+- Error Analysis (Battle Menu Cursor Memory): The cursor is currently on BODY SLAM (index 1). I must remember that the move menu retains cursor memory between turns in the same battle.
