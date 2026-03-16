@@ -1109,6 +1109,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - [Gen 1 Battle Mechanic] Turn 35615: Cubone used Leer on the turn I switched to Gye. The attack missed or failed (or I missed the text). Need to re-verify if switching breaks stat-lowering moves, but I must be careful not to assume text that isn't logged.
 - [Gen 1 Battle Mechanic] Turn 35643: Cubone's Growl "failed!" against Gye. This is likely because Gye's Attack stat has already been lowered 6 times (the maximum number of stat stages in Gen 1). Good to know the game explicitly tells you when a stat can't go any lower!
 - Trainer Position Reset Hypothesis: FAILED. Defeated trainers that step towards the player to initiate battle (like the 5F Grunt at 28, 4) DO NOT unblock the 1-tile pathway even after leaving the floor and returning via elevator. Their sprite permanently blocks the path.
+- Card Key Usage: You do NOT use the Card Key from the item menu! Simply face an electronic door and press 'A' to open it, or perhaps just walk into it. Testing this now at (19, 10).
 
 <hr>
 
