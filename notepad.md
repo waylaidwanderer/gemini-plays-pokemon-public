@@ -1176,7 +1176,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [Floors 2F-6F]
 - 2F (Map 0_207): Elevator at (20, 0). Stairs DOWN to 1F at (24, 0). Stairs UP to 3F at (26, 0). Hallways extend East and West from the elevator.
 - 2F Navigation: West hallway from the elevator is a dead end at X=12. A solid wall at X=11 blocks the path West. A Scientist is visible behind the wall at (10, 1). There is a warp pad at (13, 3).
-- 2F Navigation: The warp from 3F (27, 3) lands at (3, 3) in a small room on the West side of the building. There is an electronic door blocking the path East at (4, 4) and (5, 4). There is an Item Ball visible behind a wall to the East at (8, 4). This room is a dead end without the Card Key.
+- 2F Navigation: The warp from 3F (27, 3) lands at (3, 3) in a small room on the West side of the building. There is an electronic door blocking the path East at (4, 4) and (5, 4) (OPENED). There is an Item Ball visible behind a wall to the East at (8, 4).
 - 2F Navigation: East hallway from the elevator leads to stairs at X=24 and X=26. South of the stairs is a woman at (25, 7). She mentions "I work for SILPH. What can I do?".
 - 2F Navigation: Reached via warp pad from 6F (23, 3). The warp lands at (9, 15) in a small isolated room. A Scientist is at (5, 14). A woman is at (4, 13). No items or further progress here; it's a dead end.
 - 3F (Map 0_208): Elevator at (20, 0). Stairs DOWN to 2F at (26, 0). Stairs UP to 4F at (24, 0). Electronic door at (20, 4) blocks the path South. Path West is open.
