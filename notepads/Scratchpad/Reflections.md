@@ -1,3 +1,2 @@
 [Active Reflections]
-- Goal: Explore 9F main area to find the Card Key.
-- Strategy: Elevator reached 9F. Exiting the elevator by moving South onto the red tiles.
+- Strategy: Moving East from the elevator leads to a dead end at X=25. Moving South down the X=23/24 corridor to map the East side of 9F.
