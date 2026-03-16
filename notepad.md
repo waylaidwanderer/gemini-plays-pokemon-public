@@ -1413,7 +1413,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Map ID: 0_215
 - Arrived from 2F via stairs at (7, 10).
 - Burglar trainer spotted at (4, 11).
-- Diary located at (6, 12).
+- Diary located at (6, 12). "Feb. 6. MEW gave birth. We named the newborn MEWTWO."
 - Another set of stairs visible at (10, 8).
 - Wide open gap/drop-off visible on the right side at X=12.
 
