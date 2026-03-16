@@ -29,7 +29,7 @@
 - 6F (Map 0_211): Elevator at (18, 0). Stairs DOWN to 5F at (14, 0). Stairs UP to 7F at (16, 0). Electronic doors at (10, 4) and (11, 4). Grunt at (17, 3). Trainer at (10, 6).
 - 6F Navigation: The path West from the stairs leads to an open hallway going South at X=7 and X=6. X=8 is a wall blocking the path East at Y=4 to Y=6. There are electronic doors at (2, 1) and (3, 1). There is a warp pad at (3, 3).
 - Warp Connection: 4F warp at (17, 3) connects to 6F warp at (3, 3).
-- 6F Navigation: Warp at (3, 3) lands in a partitioned area on the West side of 6F. This area is completely empty and a dead end. I will backtrack out.
+- 6F Navigation: Warp at (3, 3) lands in a partitioned area on the West side of 6F. This area is completely empty and a dead end.
 - 6F Navigation: Following the hallway South leads to a Scientist at (7, 8). The path continues South to an intersection at (6, 12). An Item Ball to the West at (3, 12) is blocked by an electronic door at X=5.
 - 6F Navigation: East of the intersection at (6, 15) is a hallway leading East. A Grunt is at (14, 15).
 - 6F Navigation: The hallway continues East from (14, 15). A solid wall at Y=14 blocks the path North. A Grunt is visible behind the wall at (18, 13). The hallway continues East past X=23.
