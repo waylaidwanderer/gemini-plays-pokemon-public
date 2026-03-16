@@ -28,3 +28,6 @@
 - Stairs to 3F are at (7, 10).
 - Found a switch statue at (2, 10)/(2, 11).
 - Toggled the secret switch on the statue at (2, 10)/(2, 11) on 2F.
+[2F Continued]
+- Electronic doors located at (7, 12) to (7, 15).
+- Toggling the switch at (2, 11) seems to affect doors, but the ones at X=7 are currently closed. Exploring the rest of 2F.
