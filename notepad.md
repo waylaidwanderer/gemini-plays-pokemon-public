@@ -1133,6 +1133,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - The path at (17, 10) goes West to X=16. The tile at (16, 10) is `TYPE_2889`. Blocked.
 - I am trapped in a 1-tile wide dead-end hallway from Y=10 to Y=12 at X=17.
 - I must walk North (Up) to get out of this!
+[Turn 36074 Reflection]
+- Navigation Analysis: I successfully escaped the dead end and am now at (17, 9). The path West from here leads to a room at X=15. Let's head West and see what's there.
 
 <hr>
 
