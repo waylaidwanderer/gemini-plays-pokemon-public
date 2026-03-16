@@ -20,3 +20,4 @@
 - Found another statue with glowing eyes in the west wing at X=2, Y=4/5. Testing for switches.
 - Secret switches are hidden in statues with glowing eyes! To activate them, stand BELOW the statue and press A facing Up.
 - Found and pressed a switch on the statue at (1,4)-(2,5) in the West Wing.
+- There are electronic doors at (14, 7)/(15, 7) and (16, 7)/(17, 7). Toggling the switch at (2, 5) opened (16, 7)/(17, 7) and closed (14, 7)/(15, 7). This allowed access to the southern half of the eastern room.
