@@ -56,4 +56,4 @@
 - Warp Connection: 2F warp at (13, 3) connects to 8F (Map 0_213) warp at (3, 15).
 - 8F Navigation: Warp at (3, 15) lands in an area bounded by a wall at Y=13. Another warp pad is visible at (3, 11) but blocked by this wall. Path continues East.
 - 8F Navigation: Path from (3, 15) goes East, turning North at X=11, East at Y=14, and North again at X=21, continuing up to Y=7 where it opens up.
-- 8F Navigation: Path North at X=21 leads to a room with a warp pad at (23, 7).
+- 8F Navigation: Path North at X=21 leads to a room with potted plants and glass tubes. The path North is blocked by a wall at Y=4 (Grunt visible behind it). The path continues West at Y=5.
