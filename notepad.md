@@ -1336,5 +1336,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Traveling South from Pallet Town via Surf.
 - Starting at (7, 0).
 - Encounters: Wild Tentacool (Surf).
+- Swimmer spotted around (6, 25).
 
 <hr>
