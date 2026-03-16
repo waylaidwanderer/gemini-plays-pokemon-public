@@ -1327,3 +1327,13 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Alakazam Lv 43
 
 <hr>
+
+<h1><code>Locations/Route21</code></h1>
+
+# Route 21
+
+[Navigation]
+- Traveling South from Pallet Town via Surf.
+- Starting at (7, 0).
+
+<hr>
