@@ -1196,7 +1196,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - 5F Navigation: To reach the East/Central area from the elevator, walk down X=22/23 to Y=5, East to X=26, then South. A Pokemon Report is on the desk at (25, 10). To reach the central room, continue South down X=26 to Y=14, then head West.
 - 5F Navigation: Item ball at (21, 16) is the CARD KEY! It is accessible via a hidden 1-tile wide hallway running East at Y=16 from the bottom of the West corridor (starts at X=9, Y=16).
 - 5F Navigation: Wall at X=27 blocks access to X=28 from the central room. Wall at Y=15 blocks access to the item ball at (21, 16) from the central room.
-- 5F Navigation: The central room is bounded by an electronic door at (15, 10) (OPENED) on the West and desks at Y=15 on the South. A Scientist is inside at (18, 9). The item at (21, 16) is unreachable from here.
+- 5F Navigation: The central room is bounded by an electronic door at (15, 10) (OPENED) on the West and desks at Y=15 on the South. A Silph Employee is inside at (18, 10). A Pokemon Report clipboard is on the desk at (22, 12). The item at (21, 16) is unreachable from here.
 - 5F Navigation: East of the elevator at X=24 is a path South. It contains a warp pad at (27, 3), a Grunt at (28, 4), and a clipboard at (24, 6). The Grunt blocks the path South at X=28.
 - 5F Navigation: The Grunt at (28, 4) is defeated but physically blocks the 1-tile wide hallway. Therefore, the path South at X=28 is permanently inaccessible.
 - 5F Stairs: Stairs UP to 6F at (24, 0). Stairs DOWN to 4F at (26, 0).
