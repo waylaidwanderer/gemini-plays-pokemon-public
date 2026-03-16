@@ -26,9 +26,9 @@
 - Map Hygiene: Placed markers for the Pokemon Center and Poke Mart. Found the Pokemon Lab.
 - PC Storage: Depositing TMs to free up bag space before exploring Pokemon Mansion.
 - Tools: None used this turn.
-[Turn 37613 Reflection]
-- Progress: Back at the PC in the Cinnabar Island Pokemon Center.
-- Mechanics Check: The text "GEM turned on the PC." is on screen. I will press 'A' to advance to the root menu.
+[Turn 37614 Reflection]
+- Progress: Navigating the PC in the Cinnabar Island Pokemon Center.
+- Mechanics Check: The PC menu is now open. The cursor is on BILL'S PC. I need to press Down to select GEM'S PC, then press A.
 - Map Hygiene: Cinnabar Island Pokemon Center.
 - PC Storage: Need to carefully navigate to GEM's PC -> DEPOSIT ITEM.
 - Tools: None.
