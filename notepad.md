@@ -1274,7 +1274,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 # Giovanni (Silph Co. 11F)
 - Nidorino Lv 37
 - Kangaskhan Lv 35
-- Rhyhorn Lv ???
-- ???
+- Rhyhorn Lv 37
+- Nidoqueen Lv ???
 
 <hr>
