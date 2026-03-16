@@ -1270,3 +1270,14 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Nidoqueen Lv 41
 
 <hr>
+
+<h1><code>Locations/SaffronGym</code></h1>
+
+# Saffron City Gym (Map 0_178)
+
+[Warp Connections]
+- Entrance Room (8, 17):
+  - Left Warp (5, 15): 
+  - Right Warp (11, 15):
+
+<hr>
