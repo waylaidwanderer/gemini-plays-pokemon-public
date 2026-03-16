@@ -501,7 +501,7 @@
         "main_cursor"
       ]
     },
-    "python_script": "def run_battle(input_data):\n    cursor = input_data.get('main_cursor', 'FIGHT')\n    buttons = ['sleep 500'] # Wait for menu to fully slide in\n    \n    if cursor == 'FIGHT':\n        buttons.extend(['Right', 'Down'])\n    elif cursor == 'PKMN':\n        buttons.extend(['Down'])\n    elif cursor == 'ITEM':\n        buttons.extend(['Right'])\n    elif cursor == 'RUN':\n        pass\n        \n    buttons.extend(['A'])\n    return buttons",
+    "python_script": "import json\n\nmain_cursor = input_data.get('main_cursor', 'FIGHT')\nbuttons = []\n\nif main_cursor == 'FIGHT':\n    buttons = ['Right', 'Down', 'A']\nelif main_cursor == 'PKMN':\n    buttons = ['Down', 'A']\nelif main_cursor == 'ITEM':\n    buttons = ['Right', 'A']\nelif main_cursor == 'RUN':\n    buttons = ['A']\n\nif input_data.get('autopress_buttons', False):\n    print(json.dumps(buttons))\nelse:\n    print(f\"To run from {main_cursor}, press: {', '.join(buttons)}\")",
     "history": [
       {
         "commit_message": "Initial version",
@@ -537,6 +537,11 @@
         "commit_message": "Redefine run_battle to use main_cursor and avoid blind mashing which fails due to Gen 1 battle menu wrapping and animation delays.",
         "timestamp": "2026-03-16T19:43:20.489Z",
         "action_counter": 37536
+      },
+      {
+        "commit_message": "Fixing run_battle to properly output JSON for autopress_buttons",
+        "timestamp": "2026-03-16T22:21:17.902Z",
+        "action_counter": 37861
       }
     ]
   },
