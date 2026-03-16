@@ -1112,11 +1112,11 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Map Hygiene: Placed markers for the Pokemon Center and Poke Mart. Found the Pokemon Lab.
 - PC Storage: Depositing TMs to free up bag space before exploring Pokemon Mansion.
 - Tools: None used this turn.
-[Turn 37629 Reflection]
+[Turn 37630 Reflection]
 - Progress: Depositing items in the PC.
-- Mechanics Check: The screen says "FULL HEAL was stored via PC." I must have misread the cursor position previously. Pressing 'A' to clear the confirmation text. The cursor should reset to index 1 (ULTRA BALL).
+- Mechanics Check: The confirmation text cleared, and the cursor has successfully reset to the top of the list (ULTRA BALL x9). I will scroll down 4 times to see the next set of items.
 - Map Hygiene: Cinnabar Island Pokemon Center.
-- PC Storage: Depositing TMs.
+- PC Storage: Looking for TMs, Silph Scope, Card Key, and Master Ball.
 - Tools: None.
 
 <hr>
