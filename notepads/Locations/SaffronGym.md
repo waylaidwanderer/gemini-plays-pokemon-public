@@ -10,11 +10,12 @@
 7. TL Top-Left (1, 3) <-> TR Bottom-Left (15, 5)
 8. MR Top-Right (19, 9) <-> BR Top-Right (19, 15)
 9. BR Top-Left (15, 15) <-> TR Top-Right (19, 3)
+10. BL Bottom-Left (1, 17) <-> TC Bottom-Right (11, 5)
 
 [Unexplored Warps]
-- BL (Bottom-Left): Bottom-Left (1, 17), Bottom-Right (5, 17)
+- BL (Bottom-Left): Bottom-Right (5, 17)
 - MR (Middle-Right): Bottom-Right (19, 11)
-- TC (Top-Center): Bottom-Left (9, 5), Bottom-Right (11, 5)
+- TC (Top-Center): Bottom-Left (9, 5)
 - TL (Top-Left): Bottom-Left (1, 5), Bottom-Right (5, 5)
 
 [Notes]
