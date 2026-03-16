@@ -768,6 +768,7 @@ Points of Interest:
 - Depositing TMs into PC to free up space for Pokemon Mansion.
 - Need to navigate from BILL's PC back to GEM's PC.
 - Deposited TM03 (Turn 37618)
+- Deposited TM36 (Turn 37650)
 
 <hr>
 
@@ -1112,11 +1113,11 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Map Hygiene: Placed markers for the Pokemon Center and Poke Mart. Found the Pokemon Lab.
 - PC Storage: Depositing TMs to free up bag space before exploring Pokemon Mansion.
 - Tools: None used this turn.
-[Turn 37649 Reflection]
+[Turn 37650 Reflection]
 - Progress: Depositing items in the PC.
-- Mechanics Check: TM36 is selected, and the game asks "How many?" to deposit. I will press 'A' to confirm depositing 1.
+- Mechanics Check: The screen says "TM36 was stored via PC." I will press 'A' to clear this confirmation text. The cursor should reset to index 1 (ULTRA BALL).
 - Map Hygiene: Cinnabar Island Pokemon Center.
-- PC Storage: Depositing TM36. Next up are TM46 and Silph Scope.
+- PC Storage: Deposited TM36. Still need to deposit TM03, TM46, and Silph Scope.
 - Tools: None.
 
 <hr>

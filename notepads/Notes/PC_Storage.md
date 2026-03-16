@@ -7,3 +7,4 @@
 - Depositing TMs into PC to free up space for Pokemon Mansion.
 - Need to navigate from BILL's PC back to GEM's PC.
 - Deposited TM03 (Turn 37618)
+- Deposited TM36 (Turn 37650)
