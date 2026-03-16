@@ -1431,5 +1431,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - The path North at X=18 is blocked by a solid barrier at (18, 3). The electronic doors at Y=5 MUST be opened to reach the stairs.
 - An item ball is located at (18, 8).
 - A path leads West to the Northwest corner at Y=4/Y=5.
+- Found stairs at (6, 1) leading up. They are in the Northwest corner of 2F.
+- Boulders/rubble are blocking the tiles at (4, 1) and (5, 1).
 
 <hr>
