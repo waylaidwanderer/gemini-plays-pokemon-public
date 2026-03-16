@@ -1088,6 +1088,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [Turn 36055 Reflection]
 - Error Analysis (Turn Hallucination): I must explicitly read the `Current Turn:` line in the system prompt. The current turn is 36054. I must focus on this.
 - Navigation Error: I incorrectly assumed the hallway turned North at X=24, but looking at the screen, the path North is actually at X=23. I am currently standing at (24, 14), facing the right wall. I need to step Left once and then Up to follow the hallway.
+[Turn 36056 Reflection]
+- Navigation Error: I completely failed to read the tile types on the grid. Tiles (22, 13) through (24, 13) are solid walls (TYPE_2889). The actual opening North is back at X=20 and X=21. I must explicitly read the TYPE_ labels before committing to a route.
 
 <hr>
 
@@ -1210,6 +1212,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - 2F Navigation: West hallway from the elevator is blocked by a solid wall at X=11 (Scientist visible behind it at 10,1). The only feature is a warp pad at (13, 3).
 - Warp Connection: 2F warp at (13, 3) connects to 8F (Map 0_213) warp at (3, 15).
 - 8F Navigation: Warp at (3, 15) lands in an area bounded by a wall at Y=13. Another warp pad is visible at (3, 11) but blocked by this wall. Path continues East.
-- 8F Navigation: Path from (3, 15) goes East, turning North at X=11, East at Y=14, and North again at X=19.
+- 8F Navigation: Path from (3, 15) goes East, turning North at X=11, East at Y=14, and North again at X=20/X=21.
 
 <hr>
