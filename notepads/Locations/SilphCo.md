@@ -49,8 +49,9 @@
 - 4F Navigation: Warp at (11, 7) lands in a partitioned area. Scientist at (14, 6). Electronic doors at (12, 8) and (13, 8) block South. Second warp pad located at (17, 3).
 - Warp Chain Analysis: The warp chain starting at 4F (3, 15) -> 10F (13, 15) -> 4F (11, 7) -> 6F (3, 3) is a complete dead end with no Card Key. Backtracking out.
 - 4F Navigation: The area isolated by the warp pad at (17, 11) is bounded by an electronic door at (5, 12) and walls. The warp pad itself is blocked from the South by desks at Y=12; access it via X=13. It's a dead end without the Card Key.
-- 3F (Map 0_208): Elevator at (20, 0). Electronic door at (20, 4) blocks the path South. Path West is open.
+- 3F (Map 0_208): Elevator at (20, 0). Stairs DOWN to 2F at (26, 0). Stairs UP to 4F at (24, 0). Electronic door at (20, 4) blocks the path South. Path West is open.
 - 3F Navigation: West hallway ends in a room with a warp pad at (3, 3) and a solid wall at X=0. No path South; it's a dead end connecting to 5F. 3F requires the Card Key to progress. Item ball at (8, 5) is unreachable from here.
+- 3F Navigation: East hallway from the stairs has a warp pad at (27, 3). The path South is blocked by desks at Y=4.
 - 2F (Map 0_207): Elevator at (20, 0). Stairs DOWN to 1F at (24, 0). Stairs UP to 3F at (26, 0). Hallways extend East and West from the elevator.
 - 2F Navigation: West hallway from the elevator is blocked by a solid wall at X=11 (Scientist visible behind it at 10,1). The only feature is a warp pad at (13, 3).
 - Warp Connection: 2F warp at (13, 3) connects to 8F (Map 0_213) warp at (3, 15).
