@@ -3,7 +3,7 @@
   - 3F: (DONE)
   - 4F: (DONE)
   - 5F: (DONE - TM09 acquired)
-  - 6F: (2, 1)/(3, 1) AND X=5 door at Y=12
+  - 6F: X=5 door at Y=12 (Item ball at 3, 12)
   - 7F: (20, 4)/(21, 4) AND (20, 12)/(21, 12) - Item ball at (24, 11)
   - 8F: (4, 10)
   - 9F: (DONE)
