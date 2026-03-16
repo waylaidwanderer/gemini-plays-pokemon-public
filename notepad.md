@@ -1340,5 +1340,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Swimmer at (12, 30) facing Left.
 - Swimmer at (10, 31) facing Up.
 - Swimmer spotted at (5, 71).
+- Route 21 ends around Y=89 at a wooden dock. Cinnabar Island is directly South.
 
 <hr>
