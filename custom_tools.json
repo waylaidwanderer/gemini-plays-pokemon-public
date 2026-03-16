@@ -139,10 +139,6 @@
           "minimum": 1,
           "maximum": 4
         },
-        "start_on_main": {
-          "type": "boolean",
-          "default": true
-        },
         "main_cursor": {
           "type": "string",
           "enum": [
@@ -152,14 +148,23 @@
             "RUN"
           ],
           "default": "FIGHT"
+        },
+        "start_on_main": {
+          "type": "boolean",
+          "default": true
+        },
+        "autopress_buttons": {
+          "type": "boolean",
+          "default": false
         }
       },
       "required": [
         "current_move_index",
-        "target_move_index"
+        "target_move_index",
+        "autopress_buttons"
       ]
     },
-    "python_script": "import json\n\ndef main(args):\n    presses = []\n    start_on_main = args.get('start_on_main', True)\n    main_cursor = args.get('main_cursor', 'FIGHT')\n    current_idx = args.get('current_move_index')\n    target_idx = args.get('target_move_index')\n\n    if start_on_main:\n        if main_cursor == 'PKMN':\n            presses.append('Left')\n        elif main_cursor == 'ITEM':\n            presses.append('Up')\n        elif main_cursor == 'RUN':\n            presses.extend(['Up', 'Left'])\n        # If FIGHT, no navigation needed\n        presses.append('A')\n        presses.append('sleep 500')\n\n    if current_idx != target_idx:\n        diff = target_idx - current_idx\n        if diff > 0:\n            presses.extend(['Down'] * diff)\n        elif diff < 0:\n            presses.extend(['Up'] * abs(diff))\n            \n    presses.append('A')\n\n    print(json.dumps(presses))\n\nmain(input_data)",
+    "python_script": "import json\n\ndef execute_battle_turn(current_move_index, target_move_index, main_cursor='FIGHT', start_on_main=True):\n    buttons = []\n    if start_on_main:\n        if main_cursor == 'PKMN':\n            buttons.append('Left')\n        elif main_cursor == 'ITEM':\n            buttons.append('Up')\n        elif main_cursor == 'RUN':\n            buttons.extend(['Up', 'Left'])\n        buttons.extend(['A', 'sleep 500'])\n    \n    def get_coords(idx):\n        return ((idx-1)%2, (idx-1)//2)\n    \n    curr_x, curr_y = get_coords(current_move_index)\n    targ_x, targ_y = get_coords(target_move_index)\n    \n    if curr_y < targ_y:\n        buttons.append('Down')\n    elif curr_y > targ_y:\n        buttons.append('Up')\n    \n    if curr_x < targ_x:\n        buttons.append('Right')\n    elif curr_x > targ_x:\n        buttons.append('Left')\n        \n    buttons.append('A')\n    print(json.dumps(buttons))\n\nexecute_battle_turn(input_data['current_move_index'], input_data['target_move_index'], input_data.get('main_cursor', 'FIGHT'), input_data.get('start_on_main', True))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -310,6 +315,11 @@
         "commit_message": "Fixed the start_on_main wrapping issue by properly handling the main_cursor starting position without blind Up/Left mashes.",
         "timestamp": "2026-03-16T05:53:01.316Z",
         "action_counter": 36661
+      },
+      {
+        "commit_message": "Fixed main_cursor logic to prevent wrapping when already on FIGHT.",
+        "timestamp": "2026-03-16T16:50:52.453Z",
+        "action_counter": 37231
       }
     ]
   },
