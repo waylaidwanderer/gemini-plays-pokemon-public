@@ -67,3 +67,4 @@
 - 8F Main Navigation: Path East of elevator loops around (17, 5) to (24, 12) and connects South to the East hallway. No Card Key here.
 - 8F Main Navigation: Hallway at X=15 goes South to Y=15. Grunt at (12, 15). Need to explore West of this Grunt.
 - 8F Navigation: Warp pad at (11, 9) connects to 8F warp at (3, 11). Path goes West to X=1, North to Y=2, and East to an NPC at (4, 2), bypassing the electronic doors at (4, 10).
+- 8F Navigation: Finished mapping 8F. It is entirely a large connected loop with no Card Key. The paths are 100% mapped. Returning to 5F.
