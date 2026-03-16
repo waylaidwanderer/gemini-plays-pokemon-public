@@ -1388,7 +1388,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Building at (6, 9) is the Pokemon Lab.
 - Building at (11, 11) is the Pokemon Center.
 - Building at (15, 11) is the Poke Mart.
-- Inside Pokemon Lab (3rd room / rightmost): The scientist who revives fossils paces around X=4 to X=6 at Y=2. Gave him the Helix Fossil. He told me to "go for a walk a little while".
+- Inside Pokemon Lab (3rd room / rightmost): The scientist who revives fossils paces around X=4 to X=6 at Y=2. Revived Helix Fossil into Omanyte (HELIX).
+- Building at (6, 3) is the Pokemon Mansion.
 - Building at (18, 3) is the Cinnabar Gym. It is currently locked, and requires the Secret Key.
 
 <hr>
