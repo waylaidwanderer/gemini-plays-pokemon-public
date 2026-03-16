@@ -1225,5 +1225,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - 4F Navigation: West corridor (Y=13/14) from X=15 leads to a dead end at X=3. The item ball at (3, 9) is inaccessible from here due to a wall at Y=12.
 - 8F Main Navigation: Elevator at (18, 0). Grunt at (19, 2). Path goes West to X=15, then South.
 - 8F Main Navigation: Hallway at X=15 goes South to Y=15. Grunt at (12, 15). This connects to the area accessible via the 2F warp!
+- 8F Navigation: Found a warp pad at (23, 11) accessible from the East hallway.
 
 <hr>
