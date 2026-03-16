@@ -51,4 +51,4 @@
 - Warp Connection: 6F warp at (23, 3) connects to 2F (Map 0_207) warp at (9, 15).
 - Warp Connection: 3F warp at (27, 3) connects to 2F warp at (3, 3).
 - Warp Connection: 3F warp at (23, 11) connects to 3F warp at (27, 15) (Intra-floor).
-- Warp Connection: 3F warp at (3, 15) connects to 5F warp at (3, 15). 5F (3, 15) is a room containing an item ball at (2, 13), separated from the main 5F hallway by an electronic door at (7, 12)/(7, 13).
+- Warp Connection: 3F warp at (3, 15) connects to 5F warp at (3, 15). 5F (3, 15) is a room containing TM09 (Take Down) at (2, 13), separated from the main 5F hallway by an electronic door at (7, 12)/(7, 13).
