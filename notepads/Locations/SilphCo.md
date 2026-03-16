@@ -64,5 +64,5 @@
 - 4F Navigation: East of the stairs, the path South at X=26 is blocked by a Grunt at (26, 7). Bypassing via X=23 leads to an empty loop (X=26/28, Y=8 to Y=16). Electronic doors at (26, 4) to (28, 4) block access to a room.
 - 4F Navigation: West corridor (Y=13/14) from X=15 leads to a dead end at X=3. The item ball at (3, 9) is inaccessible from here due to a wall at Y=12.
 - 8F Main Navigation: Elevator at (18, 0). Grunt at (19, 2). Path goes West to X=15, then South.
-- 8F Main Navigation: Hallway at X=15 goes South to Y=15. Grunt at (12, 15). This connects to the area accessible via the 2F warp!
-- 8F Navigation: The tiles at (23, 7) and (23, 11) are potted plants, NOT warp pads. Area connects North to Y=7.
+- 8F Main Navigation: Path East of elevator loops around (17, 5) to (24, 12) and connects South to the East hallway. No Card Key here.
+- 8F Main Navigation: Hallway at X=15 goes South to Y=15. Grunt at (12, 15). Need to explore West of this Grunt.
