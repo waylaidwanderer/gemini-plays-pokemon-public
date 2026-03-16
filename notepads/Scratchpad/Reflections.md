@@ -38,3 +38,5 @@
 - Notepad/Map Hygiene: The Pokemon Lab coordinate in my notes was recorded as (6, 3), but I see a door at (6, 9) on the current screen. I will test this door. If it is the lab, I will update the map marker and my notes to be accurate.
 - Custom Tools: Updated `deposit_item_pc` to handle text rendering delays. I will be mindful of similar delays in other UI interactions to prevent input eating.
 - Error Analysis: The PC deposit menu does not wrap upwards. This was verified and noted to prevent blind navigation errors.
+[Turn 37707 Reflection]
+- Mechanic Reminder: Pressing 'A' interacts with the tile I am currently facing. Because my last movement step was 'Up' to reach (5, 2), I was facing Up, not Right towards the scientist. I must bump into the NPC's tile first to turn and face them before pressing 'A'.
