@@ -1226,6 +1226,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - 8F Main Navigation: Elevator at (18, 0). Grunt at (19, 2). Path goes West to X=15, then South.
 - 8F Main Navigation: Path East of elevator loops around (17, 5) to (24, 12) and connects South to the East hallway. No Card Key here.
 - 8F Main Navigation: Hallway at X=15 goes South to Y=15. Grunt at (12, 15). Need to explore West of this Grunt.
-- 8F Navigation: Warp pad at (11, 9) is accessible by walking West around the electronic doors at (10, 11).
+- 8F Navigation: Warp pad at (11, 9) connects to 8F warp at (3, 11). The area at (3, 11) is a small room bounded by walls and electronic doors at (4, 10) and (5, 10). Dead end without Card Key.
 
 <hr>
