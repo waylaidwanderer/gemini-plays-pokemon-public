@@ -1112,11 +1112,11 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Map Hygiene: Placed markers for the Pokemon Center and Poke Mart. Found the Pokemon Lab.
 - PC Storage: Depositing TMs to free up bag space before exploring Pokemon Mansion.
 - Tools: None used this turn.
-[Turn 37638 Reflection]
+[Turn 37639 Reflection]
 - Progress: Depositing items in the PC.
-- Mechanics Check: The deposit of HYPER POTION was successfully canceled. The cursor is now back on HYPER POTION. I need to press 'Up' once to select the CARD KEY.
+- Mechanics Check: The CARD KEY was stored successfully. The screen shows the confirmation text with a down arrow. I will press 'A' to clear it. The cursor will then reset to index 1 (ULTRA BALL).
 - Map Hygiene: Cinnabar Island Pokemon Center.
-- PC Storage: Depositing CARD KEY to free up space.
+- PC Storage: Depositing TM36, TM46, SILPH SCOPE, MASTER BALL.
 - Tools: None.
 
 <hr>
