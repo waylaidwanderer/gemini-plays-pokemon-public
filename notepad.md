@@ -1084,7 +1084,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 <h1><code>Scratchpad/Reflections</code></h1>
 
 [Active Reflections]
-- Strategy: The West corridor at Y=13 is a dead end. I need to backtrack to the X=19 corridor and head all the way North to Y=1 to see if the path continues West along the top edge of 4F.
+- Strategy: Moving East back to X=19, then North to Y=1 to bypass the wall and explore West.
 
 <hr>
 
