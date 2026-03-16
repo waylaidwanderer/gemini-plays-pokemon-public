@@ -37,7 +37,7 @@
 - 6F Navigation: The path North at X=24 leads to a warp pad at (23, 3). A room is visible to the West with two NPCs at (20, 6) and (21, 6), blocked by a wall at X=23.
 - Warp Connection: 6F warp at (23, 3) connects to 2F (Map 0_207) warp at (9, 15).
 - 2F (Map 0_207): Reached via warp pad from 6F (23, 3). The warp lands at (9, 15) in a small isolated room. A Scientist is at (5, 14). A woman is at (4, 13). No items or further progress here; it's a dead end.
-- 7F Main (Map 0_212): Elevator at (18, 0). Stairs DOWN to 6F at (22, 0). Electronic doors block the path South at (20, 4) and (21, 4). Grunt at (20, 2).
+- 7F Main (Map 0_212): Elevator at (18, 0). Stairs DOWN to 6F at (22, 0). Electronic doors block the path South at (20, 4) and (21, 4). Grunt at (20, 2). The path East of the stairs is a dead end. 7F Main is fully explored without a Card Key.
 - 1F Navigation: There are desks blocking the path East at Y=17 starting at X=12. Must walk at Y=16 or higher to go East.
 - 1F Navigation: Path North through the center (X=14 to X=17) is blocked by a zigzag of potted plants (Y=10) and couches/glass walls (Y=8, Y=9). Must bypass these partitions by walking around the left side (X=11) or right side.
 - 1F Navigation: Path North at X=9 is blocked by monitors at Y=6 and Y=7. Must use X=8 or further West to bypass the partitions and head North.
