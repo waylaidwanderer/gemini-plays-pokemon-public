@@ -1310,3 +1310,11 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - The trainer at (10, 1) in the TC (Top-Center) room is a regular Channeler.
 
 <hr>
+
+<h1><code>Bosses/Sabrina</code></h1>
+
+# Gym Leader Sabrina (Saffron City)
+- Kadabra Lv 38
+- Mr. Mime Lv 37
+
+<hr>
