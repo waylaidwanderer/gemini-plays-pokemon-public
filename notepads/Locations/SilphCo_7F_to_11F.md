@@ -22,7 +22,8 @@
 - 10F Navigation: The South-East area (also accessible via warp at 13, 15) contains a wandering Silph employee, a warp pad at (9, 11), and a warp pad at (13, 15). Item ball visible at (5, 11) on the West side of a solid wall at X=7, which blocks access to the West side of 10F.
 - 11F (Map 0_235): Elevator at (13, 0). Path from elevator goes East and West. A solid wall at X=13 separates the South area. NPC spotted at (10, 5) on the West side. I will explore the East side first.
 - 11F Navigation: Path East from the elevator leads South down a corridor (X=14/15) bounded by a solid wall at X=13 and X=16. It ends in a complete dead end at Y=16. No Card Key here. Bounded by a Grunt at (15, 7).
-- 11F Navigation: Path West from the elevator goes along Y=1/Y=2 to a dead end at X=4. A wall at Y=3 blocks access to the South where a Grunt is at (10,5) and a Boss at (7,5). 11F is fully explored without a Card Key.
+- 11F Navigation: Path West from the elevator goes along Y=1/Y=2 to a dead end at X=4. A wall at Y=3 blocks access to the South where a Grunt is at (10,5) and a Boss at (7,5).
+- 11F Navigation: The West strip (X=0 to X=3) is accessed via warp from 7F. Traveling South down X=3 leads past a Grunt at (3, 13) to an opening at Y=14. The path goes East to X=6, then North through electronic doors at (4, 13)/(5, 13) to enter the main Boss room.
 
 [Warp Connections Upper/Cross]
 - Warp Connection: 10F warp at (13, 7) connects to 4F warp at (17, 11).
