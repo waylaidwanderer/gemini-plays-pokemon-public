@@ -191,3 +191,8 @@
 [Turn 36080 Reflection]
 - Navigation Analysis: I successfully opened the Start menu and selected POKEMON. The cursor is on CLEO. I need to navigate down to DUGTRIO (index 2) to use DIG.
 - I will execute `Down, A` to select DUGTRIO.
+[50-Turn Reflection (Turn 36080)]
+- Error Analysis (Spatial Reasoning Failure): I spent 10+ turns bouncing off walls in a 1x4 hallway on 8F because I refused to believe I was trapped. I misread the grid tile types, assuming dark brown walls were walkable floor. I must explicitly look at the `TYPE_` labels and the visual context (ledges, walls) rather than blindly trusting my directional intuition.
+- Strategy Adjustment (Silph Co. Navigation): The building is heavily partitioned by one-way ledges and electronic doors. Exploring without the Card Key is resulting in numerous dead ends. I must prioritize finding the Card Key above all else. I will restart exploration from 2F East after escaping this trap.
+- Tool Maintenance: Battle tools are functioning perfectly.
+- Notepad Hygiene: The `Locations/SilphCo` notepad is becoming very detailed, which is good, but I must ensure I don't clutter it with incorrect pathing information. I have corrected the 8F trap notes.
