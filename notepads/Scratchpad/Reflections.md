@@ -10,10 +10,6 @@
   - 10F: (DONE - Opened central doors)
   - 11F: Check for any remaining.
 
-[Turn 37461 Reflection]
-- Mistake: I pressed 'A' to open the Start menu while facing Sabrina at (9, 9), which triggered her battle dialogue instead! I am now locked into the battle without healing Dugtrio first.
-- Mitigation: I will heal Dugtrio using a Lemonade from the battle's ITEM menu on the first turn if needed, or rely on Hydro's Skull Bash initially.
-
 [Turn 37605 Reflection]
 - Progress: Navigated to the PC in the Cinnabar Island Pokemon Center.
 - Mechanics Check: The sign reading mishap on Cinnabar Island was due to a multi-page text box that required pressing 'A' to advance through the down arrow (▼) before pressing 'B' could clear it entirely.
