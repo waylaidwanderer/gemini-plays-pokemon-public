@@ -3,7 +3,4 @@
 - Turn 36599 Reflection:
   - Tools: Identified a critical flaw in `execute_battle_turn` regarding `start_on_main` when the cursor is already on FIGHT (it wraps to ITEM). Avoiding its use when already on FIGHT.
 - Turn 36652 Reflection (50-Turn Check):
-  - Execution: Progress is steady. I am currently clearing 3F using the Card Key.
-  - Hygiene: The recent split of the Silph Co. notepads into `1F_to_6F` and `7F_to_11F` is working perfectly to keep them under the net-loss threshold.
   - Tools: The `start_on_main` flaw in `execute_battle_turn` is documented. I will manually manage the FIGHT menu reset or ensure I know the cursor state before calling it.
-  - Combat: Cleo (Nidoqueen) is an excellent sweeper for these mid-level Grunts. Body Slam's paralysis is very useful against faster threats like Hypno.
