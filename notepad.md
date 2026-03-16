@@ -1189,7 +1189,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - 4F Navigation: East of the stairs, the path South at X=26 is blocked by a Grunt at (26, 7). Bypassing via X=23 leads to an empty loop (X=26/28, Y=8 to Y=16). Electronic doors at (26, 4) to (28, 4) block access to a room.
 - 4F Navigation: West corridor (Y=13/14) from X=15 leads to a dead end at X=3. The item ball at (3, 9) is inaccessible from here due to a wall at Y=12.
 - 5F (Map 0_210): Elevator at (20, 0). Electronic doors block the south path immediately out of the elevator. West hallway leads to a Silph Employee at (8, 3) (Master Ball dialogue). Bypass him via X=9.
-- 5F: Warp pad at (11, 5).
+- 5F: Warp pad at (11, 5). Warp pad at (9, 15). Warp pad at (3, 15).
 - 5F Navigation: The path South at X=14 leads to a dead-end room with a warp pad at (11, 5). To explore the rest of the floor, use the path South at X=22 (East of the elevator).
 - 5F Navigation: South path at X=22 leads to a large central room. There is a clipboard on the desk at (26, 10) with a Pokemon Report.
 - 5F Navigation: Item ball at (21, 16) is the CARD KEY! It is accessible via a hidden 1-tile wide hallway running East at Y=16 from the bottom of the West corridor (starts at X=9, Y=16).
