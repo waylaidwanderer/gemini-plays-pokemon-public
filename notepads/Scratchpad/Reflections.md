@@ -1,2 +1,2 @@
 [Active Reflections]
-- Strategy: Moving East from the elevator leads to a dead end at X=25. Moving South down the X=23/24 corridor to map the East side of 9F.
+- Strategy: Moving South down X=24. I suspect this will connect to the previously explored Southern area of 9F (where the Nurse is). If so, 9F is a dead end without the Card Key.
