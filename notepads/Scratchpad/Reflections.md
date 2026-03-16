@@ -32,3 +32,4 @@
 - Map Hygiene: Cinnabar Island Pokemon Center. PC Storage notes updated.
 - PC Storage: Deposited TM46, TM03, and Silph Scope. Bag space cleared! (10/20 slots used).
 - Tools: None.
+- PC Storage: Withdrew the HELIX FOSSIL. Ready to take it to the Pokemon Lab!
