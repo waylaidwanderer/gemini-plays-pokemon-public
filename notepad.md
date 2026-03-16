@@ -702,6 +702,10 @@ Points of Interest:
 - Growlithe Lv 22
 - Kadabra Lv 20
 - Ivysaur Lv ???
+## Silph Co 7F
+- Pidgeot Lv 37
+- Gyarados Lv 38 (Moves: Bite, Leer)
+- Growlithe Lv 35
 
 <hr>
 
