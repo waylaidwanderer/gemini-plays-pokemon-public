@@ -766,6 +766,7 @@ Points of Interest:
 - S.S. TICKET (Deposited Turn 9526)
 - TM11 (Deposited Turn 9529)
 - Depositing TMs into PC to free up space for Pokemon Mansion.
+- Deposited TM03 (Turn 37607)
 
 <hr>
 

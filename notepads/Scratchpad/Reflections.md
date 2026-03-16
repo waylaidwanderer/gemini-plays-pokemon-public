@@ -26,3 +26,9 @@
 - Map Hygiene: Placed markers for the Pokemon Center and Poke Mart. Found the Pokemon Lab.
 - PC Storage: Depositing TMs to free up bag space before exploring Pokemon Mansion.
 - Tools: None used this turn.
+[Turn 37606 Reflection]
+- Progress: Navigated to the PC in the Cinnabar Island Pokemon Center.
+- Mechanics Check: The sign reading mishap on Cinnabar Island was due to a multi-page text box that required pressing 'A' to advance through the down arrow (▼) before pressing 'B' could clear it entirely.
+- Map Hygiene: Placed markers for the Pokemon Center and Poke Mart. Found the Pokemon Lab.
+- PC Storage: Depositing TMs to free up bag space before exploring Pokemon Mansion.
+- Tools: None used this turn.
