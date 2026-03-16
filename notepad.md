@@ -1084,7 +1084,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 <h1><code>Scratchpad/Reflections</code></h1>
 
 [Active Reflections]
-- Strategy: Moving East back to X=19, then North to Y=1 to bypass the wall and explore West.
+- Strategy: Reached the Grunt at (19, 4) blocking the top path West. Engaging him now.
 
 <hr>
 
