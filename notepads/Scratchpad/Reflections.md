@@ -19,3 +19,10 @@
 [Turn 37461 Reflection]
 - Mistake: I pressed 'A' to open the Start menu while facing Sabrina at (9, 9), which triggered her battle dialogue instead! I am now locked into the battle without healing Dugtrio first.
 - Mitigation: I will heal Dugtrio using a Lemonade from the battle's ITEM menu on the first turn if needed, or rely on Hydro's Skull Bash initially.
+
+[Turn 37484 Reflection]
+- Progress: Fully mapped Saffron Gym and reached Sabrina. Currently battling her.
+- Mechanics Check: Dugtrio was paralyzed by Venomoth's Stun Spore. In Gen 1, critical hit rate is determined by BASE speed, not current speed. Therefore, paralysis does not reduce Dugtrio's high critical hit rate with Slash!
+- Map Hygiene: Placed return markers at every warp destination in the gym. The warp pair mapping strategy was a complete success.
+- Tools: No broken tools. move_sequence and safe_mash_b are perfect.
+- Goals: Defeat Sabrina, claim the Marshbadge, and decide next major destination.
