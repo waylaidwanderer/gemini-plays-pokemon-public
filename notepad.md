@@ -1280,6 +1280,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Strategy Adjustment (Silph Co. Navigation): The building is heavily partitioned by one-way ledges and electronic doors. Exploring without the Card Key is resulting in numerous dead ends. I must prioritize finding the Card Key above all else. I will restart exploration from 2F East after escaping this trap.
 - Tool Maintenance: Battle tools are functioning perfectly.
 - Notepad Hygiene: The `Locations/SilphCo` notepad is becoming very detailed, which is good, but I must ensure I don't clutter it with incorrect pathing information. I have corrected the 8F trap notes.
+[Turn 36086 Reflection]
+- Error Analysis (Menu Trap): I attempted to move in the overworld (`Down, Down, Down, Down, Down`) but I am still in the Pokemon Center healing dialogue! The text "Thank you! Your POKeMON are fighting fit!" is still on the screen.
+- I must clear this text box before I can move.
 
 <hr>
 
