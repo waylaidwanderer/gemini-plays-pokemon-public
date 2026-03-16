@@ -706,6 +706,7 @@ Points of Interest:
 - Pidgeot Lv 37
 - Gyarados Lv 38 (Moves: Bite, Leer)
 - Growlithe Lv 35
+- Alakazam Lv 35
 
 <hr>
 
