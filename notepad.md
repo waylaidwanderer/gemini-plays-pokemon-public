@@ -1084,7 +1084,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 <h1><code>Scratchpad/Reflections</code></h1>
 
 [Active Reflections]
-- Strategy: The Grunt at 4F (26, 7) blocks the East path South, but I noticed the West path South at X=23 is completely open! I will head Left to X=23 and proceed South to explore the rest of 4F East.
+- Strategy: Moving South to Y=16, then East. This successfully bypasses the blocked corridor and allows me to explore the rest of 4F East.
 
 <hr>
 
