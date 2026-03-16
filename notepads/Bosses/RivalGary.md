@@ -11,3 +11,4 @@
 - Gyarados Lv 38 (Moves: Bite, Leer)
 - Growlithe Lv 35
 - Alakazam Lv 35
+- Venusaur Lv 40
