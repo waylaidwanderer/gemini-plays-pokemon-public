@@ -125,7 +125,7 @@
     ]
   },
   "execute_battle_turn": {
-    "description": "Executes a battle turn safely. If start_on_main is true, it safely navigates from main_cursor to FIGHT before selecting the move. Then navigates from current_move_index to target_move_index.",
+    "description": "Executes a battle turn safely. If start_on_main is true, navigates from main_cursor to FIGHT before selecting move.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -159,7 +159,7 @@
         "target_move_index"
       ]
     },
-    "python_script": "def execute_battle_turn(input_data):\n    current_move = input_data['current_move_index']\n    target_move = input_data['target_move_index']\n    start_on_main = input_data.get('start_on_main', True)\n    main_cursor = input_data.get('main_cursor', 'FIGHT')\n    \n    buttons = []\n    \n    if start_on_main:\n        if main_cursor == 'FIGHT':\n            pass\n        elif main_cursor == 'PKMN':\n            buttons.extend(['Left', 'sleep 300'])\n        elif main_cursor == 'ITEM':\n            buttons.extend(['Up', 'sleep 300'])\n        elif main_cursor == 'RUN':\n            buttons.extend(['Up', 'sleep 300', 'Left', 'sleep 300'])\n        \n        buttons.extend(['A', 'sleep 500'])\n    \n    if current_move != target_move:\n        diff = target_move - current_move\n        \n        if diff == 1 or diff == -3:\n            buttons.extend(['Down', 'sleep 300'])\n        elif diff == 2 or diff == -2:\n            buttons.extend(['Down', 'sleep 300', 'Down', 'sleep 300'])\n        elif diff == -1 or diff == 3:\n            buttons.extend(['Up', 'sleep 300'])\n            \n    buttons.append('A')\n    \n    import json\n    print(json.dumps(buttons))\n",
+    "python_script": "import json\n\ncurrent_move = input_data.get('current_move_index', 1)\ntarget_move = input_data.get('target_move_index', 1)\nstart_on_main = input_data.get('start_on_main', True)\nmain_cursor = input_data.get('main_cursor', 'FIGHT')\n\nbuttons = []\nif start_on_main:\n    if main_cursor == 'PKMN':\n        buttons.append('Left')\n    elif main_cursor == 'ITEM':\n        buttons.append('Up')\n    elif main_cursor == 'RUN':\n        buttons.extend(['Up', 'Left'])\n    buttons.append('A')\n    buttons.append('sleep 500')\n\ndiff = target_move - current_move\nif diff > 0:\n    buttons.extend(['Down'] * diff)\nelif diff < 0:\n    buttons.extend(['Up'] * abs(diff))\n\nbuttons.append('A')\n\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -300,6 +300,11 @@
         "commit_message": "Fixed main_cursor navigation to respect Gen 1 wrap-around memory and prevent accidental ITEM menu opens.",
         "timestamp": "2026-03-16T01:33:21.056Z",
         "action_counter": 36211
+      },
+      {
+        "commit_message": "Fixing JSON error by removing function wrapper",
+        "timestamp": "2026-03-16T03:17:18.583Z",
+        "action_counter": 36391
       }
     ]
   },
