@@ -54,3 +54,4 @@
 - Boulders/rubble are blocking the tiles at (4, 1) and (5, 1).
 - Took stairs at (6, 1) from 2F to 3F. Arrived in the Northwest area of 3F.
 - A switch statue is located at (10, 4)/(10, 5). Moving to press it.
+- Pressed the secret switch on the statue at (10, 4)/(10, 5) on 3F.
