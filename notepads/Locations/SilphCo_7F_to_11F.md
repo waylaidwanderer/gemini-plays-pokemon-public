@@ -3,6 +3,7 @@
 [Floors 7F-11F]
 - 7F Main (Map 0_212): Elevator at (18, 0). Stairs DOWN to 6F at (22, 0). Electronic doors block the path South at (20, 4) and (21, 4). Grunt at (20, 2). The path East of the stairs is a dead end. 7F Main is fully explored without a Card Key.
 - 7F (Map 0_212): Warp at (21, 15) lands in a partitioned area. A Grunt is at (19, 14) and electronic doors at (20, 12) and (21, 12) block the path North. Desks at Y=12 block access to the item ball at (24, 11) from the South. Dead end without Card Key.
+- 7F Navigation: Warp at (5, 3) from 3F (11, 11) lands in an isolated room on the West side. Defeated Rival Gary here. Silph Employee at (1, 3) gives Lapras (Lv 15).
 - 8F Main Navigation: Elevator at (18, 0). Grunt at (19, 2). Path goes West to X=15, then South.
 - 8F Main Navigation: Path East of elevator loops around (17, 5) to (24, 12) and connects South to the East hallway. No Card Key here.
 - 8F Main Navigation: Hallway at X=15 goes South to Y=15. Grunt at (12, 15). Need to explore West of this Grunt.
