@@ -1,2 +1,2 @@
 [Active Reflections]
-- Strategy: Continuing systematic exploration of Silph Co. to find the Card Key. Returning to 2F East via the elevator.
+- Strategy: The Grunt at 4F (26, 7) doesn't disappear and blocks the 1-tile wide hallway. I must find another way. I will head back North to (26, 2) and explore West along the top corridor of 4F.
