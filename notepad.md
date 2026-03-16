@@ -1084,7 +1084,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 <h1><code>Scratchpad/Reflections</code></h1>
 
 [Active Reflections]
-- Strategy: Moving South and West to engage the Grunt at (9, 14) who is blocking the path to the West side of 4F.
+- Strategy: The Grunt at (9, 14) is already defeated. The path West is at Y=13, squeezing past above him.
 
 <hr>
 
