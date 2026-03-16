@@ -1112,11 +1112,11 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Map Hygiene: Placed markers for the Pokemon Center and Poke Mart. Found the Pokemon Lab.
 - PC Storage: Depositing TMs to free up bag space before exploring Pokemon Mansion.
 - Tools: None used this turn.
-[Turn 37635 Reflection]
+[Turn 37636 Reflection]
 - Progress: Depositing items in the PC.
-- Mechanics Check: The confirmation text cleared, and the cursor reset to index 1 (ULTRA BALL). The prompt text is fully rendered, so my inputs won't be eaten. Scrolling down 4 times.
+- Mechanics Check: The cursor is on HM02. I see the CARD KEY three slots down. I will press 'Down' 3 times and then 'A' to select it.
 - Map Hygiene: Cinnabar Island Pokemon Center.
-- PC Storage: Looking for TM36, TM46, Card Key, Silph Scope, and Master Ball.
+- PC Storage: Depositing CARD KEY to free up space, as Silph Co is completed.
 - Tools: None.
 
 <hr>
