@@ -35,3 +35,4 @@
 - Warp Connection: 2F warp at (13, 3) connects to 8F (Map 0_213) warp at (3, 15).
 - 9F Navigation: West of the electronic door at (11, 12) is a room with beds. A healing Nurse is located here at (3, 14)!
 - [Reflection Turn 37172] The warp pad at 7F (5, 7) connects to 11F (3, 2). This warp is MANDATORY. It places the player on the West strip (X=0 to X=3) of 11F, which bypasses the solid wall at Y=3. This wall previously blocked access to Giovanni's room from the main 11F elevator area. I must now travel South down this strip to find an entrance into the main room.
+- 11F Navigation: The Silph Co. President is located at (7, 5) in the boardroom. The large boardroom table covers X=6 to X=9, Y=6 to Y=8. Approach him from the left side (via X=5, Y=5).
