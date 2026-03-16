@@ -1216,7 +1216,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Warp Connection: 2F warp at (13, 3) connects to 8F (Map 0_213) warp at (3, 15).
 - 8F Navigation: Warp at (3, 15) lands in an area bounded by a wall at Y=13. Another warp pad is visible at (3, 11) but blocked by this wall. Path continues East.
 - 8F Navigation: Path from (3, 15) goes East, turning North at X=11, East at Y=14, and North again at X=21, continuing up to Y=7 where it opens up.
-- 8F Navigation: Path North at X=21 leads to a room with potted plants. A South-facing ledge at (17, 8) forces a one-way drop into a 1x4 dead-end hallway from (17, 9) to (17, 12). I am trapped. I MUST use Dig to escape.
+- 8F Navigation: Path North at X=21 leads to a room with potted plants. A South-facing ledge at (17, 8) forces a one-way drop into a 1x4 dead-end hallway from (17, 9) to (17, 12).
 - Warp Connection: 3F warp at (27, 3) connects to 2F warp at (3, 3).
 - 2F Navigation: The warp from 3F (27, 3) lands at (3, 3) in a small room on the West side of the building. There is an electronic door blocking the path East at (4, 4) and (5, 4). There is an Item Ball visible behind a wall to the East at (8, 4). This room is a dead end without the Card Key.
 - 2F Navigation: East hallway from the elevator leads to stairs at X=24 and X=26. South of the stairs at (24, 7) is a Grunt blocking access to a woman.
