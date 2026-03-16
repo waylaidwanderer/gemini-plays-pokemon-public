@@ -12,3 +12,4 @@
 - Vulpix
 - Ponyta
 - East wing is separated by a vertical wall at X=13. Exploring the corridor between X=11 and X=13.
+- The wall at X=13 has a gap at Y=6. This leads to the easternmost part of the wing, which has another set of stairs to 2F at (16, 7).
