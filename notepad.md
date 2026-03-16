@@ -1149,6 +1149,11 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [Turn 36027 Reflection]
 - Error Analysis (Turn Hallucination): I must explicitly read the `Current Turn:` line in the system prompt. The current turn is 36027.
 - Error Analysis (Battle Menu Cursor Memory): The cursor is currently on BODY SLAM (index 1). I must remember that the move menu retains cursor memory between turns in the same battle.
+[50-Turn Reflection (Turn 36028)]
+- Error Analysis (Turn Hallucination): I repeatedly hallucinated turn numbers (36017, 36019, 36025, 36027). I must forcefully ground myself in the `Current Turn:` field of the system prompt before every action.
+- Map Hygiene: Successfully mapped the dead-end warp chains on 10F -> 4F -> 6F and 3F -> 5F. Added warp pad markers for all discovered pads.
+- Tool Maintenance: Battle tools are functioning correctly. I successfully remembered that the move menu retains cursor memory (Body Slam is index 1).
+- Strategy: Continuing systematic exploration of Silph Co. to find the Card Key. Currently exploring 8F via the warp pad from 2F.
 
 <hr>
 
