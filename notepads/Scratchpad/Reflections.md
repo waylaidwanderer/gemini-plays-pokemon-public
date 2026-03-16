@@ -26,9 +26,9 @@
 - Map Hygiene: Placed markers for the Pokemon Center and Poke Mart. Found the Pokemon Lab.
 - PC Storage: Depositing TMs to free up bag space before exploring Pokemon Mansion.
 - Tools: None used this turn.
-[Turn 37617 Reflection]
+[Turn 37619 Reflection]
 - Progress: Navigating the PC in the Cinnabar Island Pokemon Center.
-- Mechanics Check: MAJOR DESYNC. My 'Down' input was eaten by the "What do you want to do?" text rendering a few turns ago. This caused my 'A' press to enter the WITHDRAW ITEM menu instead of DEPOSIT ITEM. Then, I fired off the deposit_item_pc tool, which blindly scrolled down 12 times and withdrew the 13th item in my PC (the SILPH SCOPE)!
+- Mechanics Check: Successfully backed out of the WITHDRAW menu. The cursor is now on WITHDRAW ITEM on the root GEM's PC menu. The text is fully rendered. I will press 'Down' to select DEPOSIT ITEM, then 'A' to enter it.
 - Map Hygiene: Cinnabar Island Pokemon Center.
-- PC Storage: Need to press 'B' to exit the WITHDRAW menu, then carefully select DEPOSIT ITEM to put the Silph Scope and TMs away.
+- PC Storage: Ready to enter the DEPOSIT ITEM menu.
 - Tools: None.
