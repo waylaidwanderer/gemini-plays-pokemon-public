@@ -469,6 +469,7 @@ WARNING: Bellsprout's Vine Whip is 4x effective against Geodude. Train Cleo here
 - Fly Map Navigation [PROVEN]: The Fly map is a 1D list (Pallet -> Viridian -> Pewter -> Cerulean -> Lavender -> Vermilion -> Celadon -> Fuchsia -> Saffron). Left/Right do nothing. 'Up' moves FORWARD to the next city. 'Down' moves BACKWARD. The list WRAPS! (e.g. Down from Pallet wraps to Saffron).
 - KO Switch Cursor Memory: When you select YES to "Will [PLAYER] change POKEMON?" after defeating an enemy, the cursor in the party menu STARTS on the currently active Pokemon, NOT index 1!
 - CRITICAL TOOL FLAW: `execute_battle_turn`'s `start_on_main` feature attempts to reset the cursor to FIGHT by pressing `Up, Left`. However, the Gen 1 main battle menu WRAPS. If the cursor is already on FIGHT, `Up, Left` will wrap it to ITEM! Do not use `start_on_main: true` if the cursor is already on FIGHT, or you will accidentally open the ITEM menu.
+- PC Deposit Menu Wrap: Pressing 'Up' at the very top of the deposit list (index 1) DOES NOT wrap to the bottom. It stays at index 1. Verified Turn 37675.
 
 <hr>
 
