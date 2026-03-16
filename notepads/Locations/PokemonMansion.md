@@ -26,4 +26,4 @@
 [2F Points of Interest]
 - Arrived from 1F via stairs at (5, 10).
 - Stairs to 3F are at (7, 10).
-- Found a diary at (2, 10).
+- Found a switch statue at (2, 10)/(2, 11).
