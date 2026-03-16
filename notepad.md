@@ -1393,3 +1393,16 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Building at (18, 3) is the Cinnabar Gym. It is currently locked, and requires the Secret Key.
 
 <hr>
+
+<h1><code>Locations/PokemonMansion</code></h1>
+
+# Pokemon Mansion
+
+[Navigation]
+- Located at (6, 3) on Cinnabar Island.
+- 1F Exit is at (5, 27).
+
+[1F Points of Interest]
+-
+
+<hr>
