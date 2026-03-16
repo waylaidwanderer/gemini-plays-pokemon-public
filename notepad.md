@@ -1222,7 +1222,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - 8F Navigation: Finished mapping 8F. It is entirely a large connected loop with no Card Key. The paths are 100% mapped. Returning to 5F.
 - 9F Main Navigation: Elevator at (18, 0). Path West leads to a South corridor at X=13. It ends at Y=13, with an electronic door blocking West at (11, 12). The tiles at (12, 9) and (12, 11) are just potted plants, NOT warp pads! 9F is fully explored without a Card Key.
 - 9F (Map 0_233): Warp at (17, 15) lands in a partitioned area. A solid wall at X=14 blocks access to a healing Nurse at (13, 16). A Grunt is accessible to the East at (21, 13).
-- 9F Navigation: Path East is at Y=15. Grunt at (21, 14). Electronic doors at (18, 10) opened! Grants access to the central/northern areas of 9F.
+- 9F Navigation: Path East is at Y=15. Grunt at (21, 14). Electronic doors at (18, 10) opened! The path North of the doors leads West to a dead end at X=15, and North via a corridor at X=20.
 - 9F Navigation: Path continues North at X=24.
 - 9F Navigation: Path North at X=24 leads West to a dead-end room with objects at (18, 4) and (19, 4) that require a Card Key.
 - 10F (Map 0_234): Elevator doors at (12, 0). Scientist at (10, 2).
