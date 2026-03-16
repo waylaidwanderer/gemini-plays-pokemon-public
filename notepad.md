@@ -1122,6 +1122,11 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - PC Storage: Deposited TM46, TM03, and Silph Scope. Bag space cleared! (10/20 slots used).
 - Tools: None.
 - PC Storage: Withdrew the HELIX FOSSIL. Ready to take it to the Pokemon Lab!
+[Turn 37692 Reflection]
+- Progress: Reached Cinnabar Island, withdrew the Helix Fossil, and am currently heading to the Pokemon Lab to revive it.
+- Notepad/Map Hygiene: The Pokemon Lab coordinate in my notes was recorded as (6, 3), but I see a door at (6, 9) on the current screen. I will test this door. If it is the lab, I will update the map marker and my notes to be accurate.
+- Custom Tools: Updated `deposit_item_pc` to handle text rendering delays. I will be mindful of similar delays in other UI interactions to prevent input eating.
+- Error Analysis: The PC deposit menu does not wrap upwards. This was verified and noted to prevent blind navigation errors.
 
 <hr>
 
