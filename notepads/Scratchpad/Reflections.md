@@ -26,9 +26,9 @@
 - Map Hygiene: Placed markers for the Pokemon Center and Poke Mart. Found the Pokemon Lab.
 - PC Storage: Depositing TMs to free up bag space before exploring Pokemon Mansion.
 - Tools: None used this turn.
-[Turn 37622 Reflection]
+[Turn 37623 Reflection]
 - Progress: Depositing items in the PC.
-- Mechanics Check: The cursor is on TM29. I will press 'A' to initiate the deposit.
+- Mechanics Check: The game asks "How many?" to deposit since TM29 is a stacked item (well, it's not actually stacked since I only have 1, but it asks anyway). I just need to press 'A' to confirm depositing 1.
 - Map Hygiene: Cinnabar Island Pokemon Center.
 - PC Storage: Depositing TM29.
 - Tools: None.
