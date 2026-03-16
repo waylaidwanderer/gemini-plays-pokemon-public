@@ -1405,5 +1405,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - There is a solid obstacle at (16, 7) and (17, 7) (orange with yellow stripes). It may be a closed electronic door.
 - Found an ESCAPE ROPE at (14, 3) in the easternmost room.
 - Taking the stairs at (16, 7) to 2F.
+- Found statues at (13, 2) and (15, 2). They might have hidden switches.
 
 <hr>
