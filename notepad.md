@@ -1224,5 +1224,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Elevator Menu: The floor selection menu DOES NOT wrap! Pressing Up at 1F does nothing. To reach 11F from 1F, you must press Down 10 times.
 - 11F (Map 0_235): Elevator at (13, 0). Path from elevator goes East and West. A solid wall at X=13 separates the South area. NPC spotted at (10, 5) on the West side. I will explore the East side first.
 - 11F Navigation: Path East from the elevator leads South down a corridor (X=14/15) bounded by a solid wall at X=13 and X=16. It ends in a complete dead end at Y=16. No Card Key here. Bounded by a Grunt at (15, 7).
+- 11F Navigation: Path West from the elevator goes along Y=2. A wall at Y=3 blocks access to the South where a Grunt is at (10,5) and a Boss at (7,5).
 
 <hr>
