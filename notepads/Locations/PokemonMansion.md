@@ -51,3 +51,4 @@
 - Took stairs at (6, 1) from 2F to 3F. Arrived in the Northwest area of 3F.
 - A switch statue is located at (10, 4)/(10, 5).
 - Pressed the secret switch on the statue at (10, 4)/(10, 5) on 3F.
+- Verified: Pressing the switch at (10, 4)/(10, 5) opens the electronic doors at (15, 4)/(15, 5), allowing access to the eastern section of 3F.
