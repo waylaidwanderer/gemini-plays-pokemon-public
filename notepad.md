@@ -1092,13 +1092,13 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 
 [Active Reflections]
 - Door Checklist:
-  - 3F: (9, 8)/(9, 9) (OPENED) - Item ball at (8, 5)
-  - 4F: (12, 8)/(13, 8) - Access to Scientist at (14, 6)
-  - 5F: (7, 12)/(7, 13) (OPENED)
+  - 3F: (DONE)
+  - 4F: (DONE)
+  - 5F: (DONE - TM09 acquired)
   - 6F: (10, 4)/(11, 4) AND X=5 door - Item ball at (3, 12)
   - 7F: (20, 4)/(21, 4) AND (20, 12)/(21, 12) - Item ball at (24, 11)
   - 8F: (4, 10)
-  - 9F: (18, 4) (OPENED), (11, 12) (OPENED), (18, 10) (OPENED). 9F doors done!
+  - 9F: (DONE)
   - 10F: (10, 8)/(11, 8)
   - 11F: Check for any remaining.
 
