@@ -1160,6 +1160,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [Turn 36039 Reflection]
 - Error Analysis (Turn Hallucination): I must explicitly read the `Current Turn:` line in the system prompt. The current turn is 36039. I am failing this basic check repeatedly.
 - Battle Result: Golbat defeated! The Grunt is defeated. I will now clear the remaining text and continue East.
+[Turn 36042 Reflection]
+- Error Analysis (Battle State Hallucination): I assumed the battle was over after Golbat and tried to walk away, completely missing the text "ROCKET sent out KOFFING!" and the resulting battle menu. I must visually confirm the overworld is present before attempting to move. The cursor is now stuck on PKMN.
 
 <hr>
 
