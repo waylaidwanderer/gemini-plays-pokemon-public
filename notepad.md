@@ -1085,8 +1085,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 
 [Active Reflections]
 - Goal: Explore 9F main area to find the Card Key.
-- Strategy: Use the elevator control panel at (3, 1) to travel to 9F, then systematically map the floor.
-- Current Status: The elevator menu is open. The cursor is on 1F. I need to navigate to 9F.
+- Strategy: Elevator reached 9F. Exiting the elevator by moving South onto the red tiles.
 
 <hr>
 
