@@ -1400,5 +1400,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [Encounters]
 - Vulpix
 - Ponyta
+- East wing is separated by a vertical wall at X=13. Exploring the corridor between X=11 and X=13.
 
 <hr>

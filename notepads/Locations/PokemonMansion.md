@@ -11,3 +11,4 @@
 [Encounters]
 - Vulpix
 - Ponyta
+- East wing is separated by a vertical wall at X=13. Exploring the corridor between X=11 and X=13.
