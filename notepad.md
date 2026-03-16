@@ -1095,7 +1095,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   - 3F: (DONE)
   - 4F: (DONE)
   - 5F: (DONE - TM09 acquired)
-  - 6F: X=5 door at Y=12 (Item ball at 3, 12)
+  - 6F: (DONE - HP UP acquired)
   - 7F: (20, 4)/(21, 4) AND (20, 12)/(21, 12) - Item ball at (24, 11)
   - 8F: (4, 10)
   - 9F: (DONE)
