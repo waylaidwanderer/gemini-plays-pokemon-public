@@ -26,10 +26,10 @@
 - 4F Navigation: East of the stairs, the path South at X=26 is blocked by a Grunt at (26, 7). Bypassing via X=23 leads to an empty loop (X=26/28, Y=8 to Y=16). A solid wall at Y=4 blocks access to the room to the North.
 - 4F Navigation: West corridor (Y=13/14) from X=15 leads West past X=13. The item ball at (3, 9) (Full Heal) is accessed by opening doors at (4, 12)/(5, 12). Inside this locked room are two more item balls at (4, 7) (Max Revive) and (5, 8) (Escape Rope).
 - 4F Navigation: West of the elevator, a path leads South down an open hallway at X=19 all the way to Y=13. There are NO doors at (18, 10)/(19, 10). The path North from (19, 5) goes to Y=3 and wraps East back to the stairs. The locked area West of X=18 (containing a warp pad and electronic doors) must be accessed from the South via X=13.
-- 5F (Map 0_210): Elevator at (20, 0). Electronic doors block the south path immediately out of the elevator. West hallway leads to a Silph Employee at (8, 3) (Master Ball dialogue). Bypass him via X=9.
+- 5F (Map 0_210): Elevator at (20, 0). Desks block the south path immediately out of the elevator at Y=4. West hallway leads to a Silph Employee at (8, 3) (Master Ball dialogue). Bypass him via X=9.
 - 5F: Warp pad at (11, 5). Warp pad at (9, 15). Warp pad at (3, 15).
-- 5F Navigation: The path South at X=14 leads to a dead-end room with a warp pad at (11, 5). To explore the rest of the floor, use the path South at X=22 (East of the elevator).
-- 5F Navigation: South path at X=22 leads to a large central room. There is a clipboard on the desk at (26, 10) with a Pokemon Report.
+- 5F Navigation: The path South at X=14 leads to a dead-end room with a warp pad at (11, 5). To explore the rest of the floor, use the path South at X=19 (West of the elevator).
+- 5F Navigation: South path at X=19 leads to a large central room. There is a clipboard on the desk at (26, 10) with a Pokemon Report.
 - 5F Navigation: Item ball at (21, 16) is the CARD KEY! It is accessible via a hidden 1-tile wide hallway running East at Y=16 from the bottom of the West corridor (starts at X=9, Y=16).
 - 5F Navigation: Wall at X=27 blocks access to X=28 from the central room. Wall at Y=15 blocks access to the item ball at (21, 16) from the central room.
 - 5F Navigation: The central room is bounded by an electronic door at (15, 10) on the West and desks at Y=15 on the South. The item at (21, 16) is unreachable from here.
