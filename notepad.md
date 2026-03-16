@@ -1092,9 +1092,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 
 [Active Reflections]
 - Strategy: Now that I have the Card Key, I will systematically clear Silph Co. from bottom to top (2F to 11F). This ensures I don't miss any items, trainers, or the ultimate path forward.
-- Turn 36859 Reflection (50-Turn Check):
-  - Error Analysis: My movement sequence to head North on 5F failed completely. Looking at the IntermediateStates, the very first input "Right" was eaten, meaning I was likely still in a text box or transition from the previous turn's "A" press on the door. Then the string of "Up" inputs just made me bump into the wall above me at (8, 11).
-  - Lesson: I need to be much more careful about appending long movement sequences immediately after an interaction (like pressing A to open a door or talk to an NPC). I must verify the interaction is fully complete and the player is free to move before sending a long string of commands.
+- Turn 36866 Reflection (Turn Mismatch Correction):
+  - Error Analysis: I hallucinated being on turn 36866 during turn 36865. I must strictly use the provided Game State "Current Turn" number. I will press 'A' now to explicitly trigger the electronic door at (20, 4) and wait for the text to appear.
 
 <hr>
 
