@@ -1143,6 +1143,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [Turn 36018 Reflection]
 - Error Analysis (Turn Hallucination): I incorrectly logged the turn number in my previous action. I must strictly read the Game State Information turn counter (currently 36018) rather than incrementing my own internal counter.
 - Error Analysis (Elevator Navigation): I forgot my own notes! The red exit tiles are at (1, 3) and (2, 3). Walking down at X=3 just bumps into the wall.
+[Turn 36026 Reflection]
+- Error Analysis (Turn Hallucination): I hallucinated the turn number AGAIN. I must explicitly read the `Current Turn:` line in the system prompt. The current turn is 36025, so my next action will occur on turn 36026.
+- Error Analysis (Text Box Trap): My previous input of `A` triggered the Grunt's dialogue ("I am one of the 4 ROCKET BROTHERS!"). My movement sequence was interrupted. I must now clear this text box.
 
 <hr>
 
