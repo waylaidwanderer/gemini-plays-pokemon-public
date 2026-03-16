@@ -1263,5 +1263,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - 3F Navigation: West hallway ends in a room with a warp pad at (3, 3) and a solid wall at X=0. No path South; it's a dead end connecting to 5F. 3F requires the Card Key to progress. Item ball at (8, 5) is unreachable from here.
 - 2F (Map 0_207): Elevator at (20, 0). Hallways extend East and West from the elevator.
 - 2F Navigation: West hallway from the elevator is blocked by a solid wall at X=11 (Scientist visible behind it at 10,1). The only feature is a warp pad at (13, 3).
+- Warp Connection: 2F warp at (13, 3) connects to 8F (Map 0_213) warp at (3, 15).
+- 8F Navigation: Warp at (3, 15) lands in an area bounded by a wall at Y=13. Another warp pad is visible at (3, 11) but blocked by this wall. Path continues East.
 
 <hr>
