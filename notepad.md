@@ -1129,6 +1129,10 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Error Analysis: The PC deposit menu does not wrap upwards. This was verified and noted to prevent blind navigation errors.
 [Turn 37707 Reflection]
 - Mechanic Reminder: Pressing 'A' interacts with the tile I am currently facing. Because my last movement step was 'Up' to reach (5, 2), I was facing Up, not Right towards the scientist. I must bump into the NPC's tile first to turn and face them before pressing 'A'.
+[Turn 37738 Reflection]
+- Quest Complete: The Helix Fossil has been successfully revived into an Omanyte!
+- Nicknamed it HELIX. Since my party is full (6/6), HELIX was automatically sent to PC Box 2.
+- Next step: Head to the Pokemon Mansion to find the Secret Key for the Cinnabar Gym.
 
 <hr>
 
