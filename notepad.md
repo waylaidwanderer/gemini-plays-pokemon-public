@@ -1243,5 +1243,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Warp Connection: 10F warp at (9, 11) connects to 4F warp at (11, 7).
 - Warp Chain Analysis: The warp chain starting at 4F (3, 15) -> 10F (13, 15) -> 4F (11, 7) -> 6F (3, 3) is a complete dead end with no Card Key. Backtracking out.
 - Warp Connection: 2F warp at (13, 3) connects to 8F (Map 0_213) warp at (3, 15).
+- 9F Navigation: West of the electronic door at (11, 12) is a room with beds. A healing Nurse is located here at (3, 14)!
 
 <hr>
