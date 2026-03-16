@@ -20,9 +20,8 @@
 - Mistake: I pressed 'A' to open the Start menu while facing Sabrina at (9, 9), which triggered her battle dialogue instead! I am now locked into the battle without healing Dugtrio first.
 - Mitigation: I will heal Dugtrio using a Lemonade from the battle's ITEM menu on the first turn if needed, or rely on Hydro's Skull Bash initially.
 
-[Turn 37536 Reflection]
-- Progress: Surfing south on Route 21 towards Cinnabar Island.
-- Mechanics Check: The run_battle tool failed because of Gen 1 battle menu wrapping and sliding animation delays eating inputs. The sequence B, Up, Left, Right, Down, A from FIGHT ended up on ITEM, opening the bag.
-- Map Hygiene: Keeping track of encounters on Route 21.
-- Tools: run_battle has been redefined to accept main_cursor like execute_battle_turn. The blind mashing approach does not work here.
-- Goals: Reach Cinnabar Island and explore the town.
+[Turn 37587 Reflection]
+- Progress: Arrived at Cinnabar Island.
+- Mechanics Check: I got trapped in a multi-page text box for the town sign because I was mashing directional inputs before it finished rendering. The 'B' button advances text with a down arrow, it doesn't close it immediately.
+- Map Hygiene: Finding the Pokemon Center to heal and switch boxes.
+- Tools: Using safe_mash_b to forcefully clear the lingering text box before attempting further movement.
