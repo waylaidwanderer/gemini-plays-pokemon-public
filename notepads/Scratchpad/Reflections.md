@@ -188,3 +188,6 @@
 - The ONLY way out is to use the Escape Rope or Dig, or Fly (if I had a flying Pokemon and was outside).
 - Fortunately, I have Dugtrio with Dig!
 - I will use Dig to escape this trap and return to the Pokemon Center.
+[Turn 36080 Reflection]
+- Navigation Analysis: I successfully opened the Start menu and selected POKEMON. The cursor is on CLEO. I need to navigate down to DUGTRIO (index 2) to use DIG.
+- I will execute `Down, A` to select DUGTRIO.
