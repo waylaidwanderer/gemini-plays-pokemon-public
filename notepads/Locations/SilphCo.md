@@ -52,3 +52,4 @@
 - 3F (Map 0_208): Elevator at (20, 0). Electronic door at (20, 4) blocks the path South. Path West is open.
 - 3F Navigation: West hallway ends in a room with a warp pad at (3, 3) and a solid wall at X=0. No path South; it's a dead end connecting to 5F. 3F requires the Card Key to progress. Item ball at (8, 5) is unreachable from here.
 - 2F (Map 0_207): Elevator at (20, 0). Hallways extend East and West from the elevator.
+- 2F Navigation: West hallway from the elevator passes a warp pad at (13, 3).
