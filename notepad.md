@@ -1313,7 +1313,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - ML (Middle-Left): Bottom-Right (5, 11)
 
 [Notes]
-- Sabrina is in the MC (Middle-Center) room.
+- Sabrina is in the MC (Middle-Center) room. (DEFEATED)
 - The trainer at (10, 1) in the TC (Top-Center) room is a regular Channeler.
 
 <hr>
