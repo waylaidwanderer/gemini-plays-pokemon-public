@@ -1276,8 +1276,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 # Saffron City Gym (Map 0_178)
 
 [Warp Connections]
-- Entrance Room (8, 17):
-  - Left Warp (5, 15): 
-  - Right Warp (11, 15):
+- Entrance Room (Bottom-Center):
+  - Warp (11, 15):
 
 <hr>
