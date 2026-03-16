@@ -34,3 +34,9 @@
 - 50-Turn Check-in: Explored the East and West wings of Pokemon Mansion 1F. Found statues with glowing eyes at (13, 2), (15, 2), and (1, 4). Pressing 'A' from the front and sides hasn't worked. Will test interacting from the bottom tile.
 - Map Hygiene: 1F layout is becoming clearer. Central hallway, east wing with stairs at (16, 7), west wing being explored now.
 - Custom Tools: The `run_battle` tool failed with a JSON error when `autopress_buttons: true` was used. Need to review its script.
+[Turn 37899 Reflection]
+- 50-Turn Check-in: Fixed `run_battle` tool! Discovered electronic doors are toggled by hidden switches on the bottom tile of glowing-eye statues. The central/west wall at Y=9 is solid. The stairs to 2F at Y=10 must be accessed via the East Wing corridor (X=11/X=12) by traveling south past Y=6.
+- Map Hygiene: Placed markers for the switch statue and electronic door.
+- Notepad Hygiene: Corrected the hallucination about the stairs being at (4,6) and reaffirmed they are at Y=10.
+- Custom Tools: Need to make a dedicated fast text clearer tool.
+- Error Analysis: Visual hallucinations can override established facts if I'm not careful. Always trust previous empirical observations over new visual assumptions unless physically verified.
