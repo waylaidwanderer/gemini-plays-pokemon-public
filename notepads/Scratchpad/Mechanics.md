@@ -19,3 +19,4 @@
 - Trainer Position Reset Hypothesis: FAILED. Defeated trainers that step towards the player to initiate battle (like the 5F Grunt at 28, 4) DO NOT unblock the 1-tile pathway even after leaving the floor and returning via elevator. Their sprite permanently blocks the path.
 - Card Key Usage: CONFIRMED! You do NOT use the Card Key from the item menu! Simply face an electronic door and press 'A' to open it. It will say "Bingo! The CARD KEY opened the door!"
 - Text Box Mechanics: Pressing 'B' on a text box with a down arrow (▼) simply advances to the next line of text, it DOES NOT close the text box. This means any movement inputs sent immediately after 'B' will be eaten if there are more lines of text to render! Always ensure the text is fully complete before appending movement to a sequence.
+- [Gen 1 Battle Mechanic] Wild Vulpix used ROAR. The text said "HYDRO ran away scared!" and the battle ended immediately. Roar forces the player to run away in wild battles!
