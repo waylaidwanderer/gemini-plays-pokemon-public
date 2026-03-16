@@ -1104,11 +1104,12 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Mistake: I pressed 'A' to open the Start menu while facing Sabrina at (9, 9), which triggered her battle dialogue instead! I am now locked into the battle without healing Dugtrio first.
 - Mitigation: I will heal Dugtrio using a Lemonade from the battle's ITEM menu on the first turn if needed, or rely on Hydro's Skull Bash initially.
 
-[Turn 37587 Reflection]
-- Progress: Arrived at Cinnabar Island.
-- Mechanics Check: I got trapped in a multi-page text box for the town sign because I was mashing directional inputs before it finished rendering. The 'B' button advances text with a down arrow, it doesn't close it immediately.
-- Map Hygiene: Finding the Pokemon Center to heal and switch boxes.
-- Tools: Using safe_mash_b to forcefully clear the lingering text box before attempting further movement.
+[Turn 37605 Reflection]
+- Progress: Navigated to the PC in the Cinnabar Island Pokemon Center.
+- Mechanics Check: The sign reading mishap on Cinnabar Island was due to a multi-page text box that required pressing 'A' to advance through the down arrow (▼) before pressing 'B' could clear it entirely.
+- Map Hygiene: Placed markers for the Pokemon Center and Poke Mart. Found the Pokemon Lab.
+- PC Storage: Depositing TMs to free up bag space before exploring Pokemon Mansion.
+- Tools: None used this turn.
 
 <hr>
 
