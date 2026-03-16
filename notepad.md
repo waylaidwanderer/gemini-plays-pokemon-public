@@ -1401,7 +1401,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Vulpix
 - Ponyta
 - East wing is separated by a vertical wall at X=13. Exploring the corridor between X=11 and X=13.
-- The wall at X=13 has a gap at Y=6. This leads to the easternmost part of the wing, which has another set of stairs to 2F at (16, 7).
+- The wall at X=13 has a gap at Y=6. This leads to the easternmost part of the wing.
+- There is a solid obstacle at (16, 7) and (17, 7) (orange with yellow stripes). It may be a closed electronic door.
 - Found an ESCAPE ROPE at (14, 3) in the easternmost room.
 - Taking the stairs at (16, 7) to 2F.
 
