@@ -1355,5 +1355,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 
 [Points of Interest]
 - Sign at (9, 5): "CINNABAR ISLAND, The Fiery Town of Burning Desire"
+- Building at (6, 3) is a Pokemon Center.
 
 <hr>
