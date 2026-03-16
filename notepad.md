@@ -1223,5 +1223,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - 2F Navigation: East hallway from the elevator leads to stairs at X=24 and X=26. South of the stairs is a woman at (25, 7). She mentions "I work for SILPH. What can I do?".
 - 4F Navigation: East of the stairs, the path South at X=26 is blocked by a Grunt at (26, 7). Bypassing via X=23 leads to an empty loop (X=26/28, Y=8 to Y=16). Electronic doors at (26, 4) to (28, 4) block access to a room.
 - 4F Navigation: West corridor (Y=13/14) from X=15 leads to a dead end at X=3. The item ball at (3, 9) is inaccessible from here due to a wall at Y=12.
+- 8F Main Navigation: Elevator at (18, 0). Grunt at (19, 2). Path goes West to X=15, then South.
 
 <hr>
