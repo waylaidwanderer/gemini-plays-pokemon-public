@@ -1112,11 +1112,11 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Map Hygiene: Placed markers for the Pokemon Center and Poke Mart. Found the Pokemon Lab.
 - PC Storage: Depositing TMs to free up bag space before exploring Pokemon Mansion.
 - Tools: None used this turn.
-[Turn 37646 Reflection]
+[Turn 37647 Reflection]
 - Progress: Depositing items in the PC.
-- Mechanics Check: The deposit confirmation cleared. The cursor is currently on BICYCLE (index 2), not index 1. Interesting quirk. I will scroll down 4 times to get closer to TM36, TM46, and SILPH SCOPE.
+- Mechanics Check: I'm scrolling down the item list. The cursor is currently on FRESH WATER. I will press 'Down' 4 more times to continue scrolling.
 - Map Hygiene: Cinnabar Island Pokemon Center.
-- PC Storage: Need to deposit TM36, TM46, and Silph Scope.
+- PC Storage: Looking for TM36, TM46, and Silph Scope.
 - Tools: None.
 
 <hr>
