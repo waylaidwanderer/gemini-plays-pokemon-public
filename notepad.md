@@ -1119,7 +1119,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - 50-Turn Check-in: I explored the northern section of 3F via the (7, 10) stairs, battled a Burglar, and found a lore diary about Mewtwo! The southern half of 3F is walled off from that entry point, so I've returned to 2F. 
 - Map Hygiene: Placed markers for the newly discovered stairs on 2F and 3F to ensure I don't get lost.
 - Error Analysis & Navigation: The wall at Y=9 on 2F is not continuous! I just realized it ends at X=9. I can bypass it by walking through the gap at X=10/11.
-- Custom Tools: Still planning to write a `fast_text_clearer` and an automated `catch_pokemon` tool.
+- Custom Tools: Realized `safe_mash_b` and `use_item_in_battle` already fulfill the roles of a text clearer and catching automation. No new tools needed for these.
 
 <hr>
 
