@@ -1084,7 +1084,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 <h1><code>Scratchpad/Reflections</code></h1>
 
 [Active Reflections]
-- Strategy: Moving West from X=7 to X=3 to see if there's a path North around the wall at Y=12 to reach the Grunt at (3, 9). The warp pad at (3, 15) is a known dead end.
+- Strategy: The West corridor at Y=13 is a dead end. I need to backtrack to the X=19 corridor and head all the way North to Y=1 to see if the path continues West along the top edge of 4F.
 
 <hr>
 
