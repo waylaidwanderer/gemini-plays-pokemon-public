@@ -1114,9 +1114,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Tools: None used this turn.
 [Turn 37617 Reflection]
 - Progress: Navigating the PC in the Cinnabar Island Pokemon Center.
-- Mechanics Check: The text "What do you want to do?" was still printing when my sequence fired! The 'Down' input registered, but the 'A' input just advanced the text. The cursor is on DEPOSIT ITEM, so I just need to press 'A' again now that it's fully rendered.
+- Mechanics Check: MAJOR DESYNC. My 'Down' input was eaten by the "What do you want to do?" text rendering a few turns ago. This caused my 'A' press to enter the WITHDRAW ITEM menu instead of DEPOSIT ITEM. Then, I fired off the deposit_item_pc tool, which blindly scrolled down 12 times and withdrew the 13th item in my PC (the SILPH SCOPE)!
 - Map Hygiene: Cinnabar Island Pokemon Center.
-- PC Storage: Ready to deposit TMs.
+- PC Storage: Need to press 'B' to exit the WITHDRAW menu, then carefully select DEPOSIT ITEM to put the Silph Scope and TMs away.
 - Tools: None.
 
 <hr>
