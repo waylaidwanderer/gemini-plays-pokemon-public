@@ -2,9 +2,9 @@
 - Goal: Explore 8F main area to find the Card Key.
 - Strategy: Defeat the Grunt at (19, 2), then systematically map the paths radiating from the elevator.
 
-[Turn 36340 50-Turn Reflection]
-- Immediate Execution: Exploring 8F main area after realizing I'd only seen 8F/9F via warp pads. Currently fighting the Grunt at the elevator.
-- Notepad Hygiene: Cleaned up transient logs as advised by Overwatch.
-- Custom Tools: The `execute_battle_turn` tool threw a JSON error recently. I will monitor it and rely on manual `move_sequence` inputs if it persists.
-- Goal Clarity: The primary objective remains finding the Card Key to unlock the rest of Silph Co.
-- Error Analysis: My biggest recent error was assuming floors were dead ends when I hadn't actually explored them via the main elevator/stairs. I have corrected this and am now systematically checking the main areas.
+[Turn 36392 50-Turn Reflection]
+- Immediate Execution: Explored the Eastern loop of 8F and navigated via a warp pad to the NW corner. Currently battling a Grunt at (4, 2).
+- Notepad Hygiene: `Locations/SilphCo` is being updated meticulously with every new path and dead end discovered.
+- Custom Tools: Just fixed the JSON error in `execute_battle_turn`. Ready to test it in this battle.
+- Map Hygiene: Added skull markers for the defeated Grunts. Will add one for the current Grunt after the battle.
+- Error Analysis: Misidentified potted plants as warp pads due to similar pixel patterns at a glance. Lesson: Always physically approach anomalous tiles to verify their nature before committing them to permanent notes.
