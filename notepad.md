@@ -1112,11 +1112,11 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Map Hygiene: Placed markers for the Pokemon Center and Poke Mart. Found the Pokemon Lab.
 - PC Storage: Depositing TMs to free up bag space before exploring Pokemon Mansion.
 - Tools: None used this turn.
-[Turn 37623 Reflection]
+[Turn 37624 Reflection]
 - Progress: Depositing items in the PC.
-- Mechanics Check: The game asks "How many?" to deposit since TM29 is a stacked item (well, it's not actually stacked since I only have 1, but it asks anyway). I just need to press 'A' to confirm depositing 1.
+- Mechanics Check: TM29 was stored successfully. I need to press 'A' to clear the confirmation text and return to the item list. I remember from past testing that the deposit cursor resets to index 1 after a deposit!
 - Map Hygiene: Cinnabar Island Pokemon Center.
-- PC Storage: Depositing TM29.
+- PC Storage: Planning to deposit TM03, TM09, TM36, TM46, SILPH SCOPE, CARD KEY, and MASTER BALL.
 - Tools: None.
 
 <hr>
