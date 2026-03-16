@@ -1175,7 +1175,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - 4F (Map 0_209): Stairs UP to 5F at (26, 0). Stairs DOWN to 3F at (24, 0). Grunt at (12, 14).
 - Warp Connection: 10F warp at (13, 7) connects to 4F warp at (17, 11).
 - Warp Connection: 5F warp at (11, 5) connects to 3F warp at (3, 3).
-- 5F Navigation: West corridor leads South to a dead end with a Grunt at (8, 14), an electronic door at X=7, and a warp pad at (9, 15).
+- 5F Navigation: West corridor leads South to a true dead end at Y=16. Grunt is at (8, 16). Electronic door at X=7. Warp pad at (9, 15).
 - Warp Connection: 5F warp at (9, 15) connects to 9F warp at (17, 15).
 - 9F (Map 0_233): Warp at (17, 15) lands in a partitioned area. A solid wall at X=14 blocks access to a healing Nurse at (13, 16). A Grunt is accessible to the East at (21, 13).
 - 9F Navigation: Path East is at Y=15. Grunt at (21, 14). Electronic doors at (18, 10) block North.
