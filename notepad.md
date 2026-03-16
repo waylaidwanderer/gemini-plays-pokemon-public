@@ -1403,6 +1403,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - 1F Exit is at (5, 27).
 
 [1F Points of Interest]
--
+- Central Hallway runs North from the entrance along X=4 to X=7.
+- Green pillars line X=3 and X=8, with 1-tile gaps between them to access the east/west wings.
 
 <hr>
