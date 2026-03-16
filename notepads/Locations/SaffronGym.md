@@ -14,11 +14,12 @@
 11. TC Bottom-Left (9, 5) <-> ML Top-Right (5, 9)
 12. ML Top-Left (1, 9) <-> MR Bottom-Right (19, 11)
 13. ML Bottom-Left (1, 11) <-> TL Bottom-Right (5, 5)
+14. TL Bottom-Left (1, 5) <-> MC Center (11, 11) [SABRINA'S ROOM]
 
 [Unexplored Warps]
 - BL (Bottom-Left): Bottom-Right (5, 17)
 - ML (Middle-Left): Bottom-Right (5, 11)
-- TL (Top-Left): Bottom-Left (1, 5)
 
 [Notes]
-- The trainer at (10, 1) in the TC (Top-Center) room is a regular Channeler, not Sabrina!
+- Sabrina is in the MC (Middle-Center) room.
+- The trainer at (10, 1) in the TC (Top-Center) room is a regular Channeler.
