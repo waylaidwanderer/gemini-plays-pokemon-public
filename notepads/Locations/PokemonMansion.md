@@ -15,7 +15,6 @@
 - The wall at X=13 has a gap at Y=6. This leads to the easternmost part of the wing.
 - There is a solid obstacle at (16, 7) and (17, 7) (orange with yellow stripes). It may be a closed electronic door.
 - Found an ESCAPE ROPE at (14, 3) in the easternmost room.
-- Taking the stairs at (16, 7) to 2F.
 - Found statues at (13, 2) and (15, 2). They might have hidden switches.
 - Found another statue with glowing eyes in the west wing at X=2, Y=4/5. Testing for switches.
 - Secret switches are hidden in statues with glowing eyes! To activate them, stand BELOW the statue and press A facing Up.
