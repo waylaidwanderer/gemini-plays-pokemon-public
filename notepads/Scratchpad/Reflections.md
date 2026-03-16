@@ -26,9 +26,9 @@
 - Map Hygiene: Placed markers for the Pokemon Center and Poke Mart. Found the Pokemon Lab.
 - PC Storage: Depositing TMs to free up bag space before exploring Pokemon Mansion.
 - Tools: None used this turn.
-[Turn 37637 Reflection]
+[Turn 37638 Reflection]
 - Progress: Depositing items in the PC.
-- Mechanics Check: My 'Down' inputs were eaten AGAIN because the "What do you want to deposit?" text was still rendering when the sequence fired! As a result, the 'A' press selected HYPER POTION instead of scrolling down. I will press 'B' to cancel this deposit and wait a turn for the menu to fully stabilize.
+- Mechanics Check: The deposit of HYPER POTION was successfully canceled. The cursor is now back on HYPER POTION. I need to press 'Up' once to select the CARD KEY.
 - Map Hygiene: Cinnabar Island Pokemon Center.
-- PC Storage: Canceling HYPER POTION deposit.
+- PC Storage: Depositing CARD KEY to free up space.
 - Tools: None.
