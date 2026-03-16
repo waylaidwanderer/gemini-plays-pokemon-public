@@ -7,5 +7,5 @@
   - 7F: (DONE - TM03 acquired)
   - 8F: (4, 10)
   - 9F: (DONE)
-  - 10F: (10, 8)/(11, 8)
+  - 10F: (DONE - Opened central doors)
   - 11F: Check for any remaining.
