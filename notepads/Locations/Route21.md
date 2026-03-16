@@ -9,3 +9,4 @@
 - Swimmer at (10, 31) facing Up.
 - Swimmer spotted at (5, 71).
 - Route 21 ends around Y=89 at a wooden dock. Cinnabar Island is directly South.
+- Read sign at (13, 3): "CINNABAR GYM'S HOT-HEADED LEO!"
