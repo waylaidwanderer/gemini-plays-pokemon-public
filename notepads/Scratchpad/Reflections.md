@@ -26,9 +26,9 @@
 - Map Hygiene: Placed markers for the Pokemon Center and Poke Mart. Found the Pokemon Lab.
 - PC Storage: Depositing TMs to free up bag space before exploring Pokemon Mansion.
 - Tools: None used this turn.
-[Turn 37620 Reflection]
-- Progress: Navigating the PC in the Cinnabar Island Pokemon Center.
-- Mechanics Check: Successfully entered the DEPOSIT ITEM menu. The cursor is at index 1 (ULTRA BALL). I need to find the Silph Scope and TMs to deposit them.
+[Turn 37622 Reflection]
+- Progress: Depositing items in the PC.
+- Mechanics Check: The cursor is on TM29. I will press 'A' to initiate the deposit.
 - Map Hygiene: Cinnabar Island Pokemon Center.
-- PC Storage: Manually scrolling through the bag to find target items since I don't know their exact indices.
+- PC Storage: Depositing TM29.
 - Tools: None.
