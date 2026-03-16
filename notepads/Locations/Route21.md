@@ -7,3 +7,4 @@
 - Swimmer spotted around (6, 25).
 - Swimmer at (12, 30) facing Left.
 - Swimmer at (10, 31) facing Up.
+- Swimmer spotted at (5, 71).
