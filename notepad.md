@@ -1133,6 +1133,11 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Quest Complete: The Helix Fossil has been successfully revived into an Omanyte!
 - Nicknamed it HELIX. Since my party is full (6/6), HELIX was automatically sent to PC Box 2.
 - Next step: Head to the Pokemon Mansion to find the Secret Key for the Cinnabar Gym.
+[Turn 37744 Reflection]
+- 50-Turn Check-in: Successfully managed PC storage and revived the Helix fossil into Omanyte (HELIX). 
+- Map Hygiene: Discovered the Pokemon Lab entrance is actually at (6, 9), not (6, 3). Correcting Locations/CinnabarIsland.
+- Error Analysis: I misjudged the position of the exit in the 3rd room of the Lab. The red carpet is at X=2 and X=3, but I walked to X=4. Navigating more carefully out of the building now.
+- Next Steps: Exit the Lab and head to the Pokemon Mansion to find the Secret Key for the Gym.
 
 <hr>
 
@@ -1380,7 +1385,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 
 [Points of Interest]
 - Sign at (9, 5): "CINNABAR ISLAND, The Fiery Town of Burning Desire"
-- Building at (6, 3) is the Pokemon Lab, NOT the Pokemon Center.
+- Building at (6, 9) is the Pokemon Lab.
 - Building at (11, 11) is the Pokemon Center.
 - Building at (15, 11) is the Poke Mart.
 - Inside Pokemon Lab (3rd room / rightmost): The scientist who revives fossils paces around X=4 to X=6 at Y=2. Gave him the Helix Fossil. He told me to "go for a walk a little while".
