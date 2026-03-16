@@ -22,3 +22,4 @@
 - There are electronic doors at (14, 7)/(15, 7) and (16, 7)/(17, 7). Toggling the switch at (2, 5) opened (16, 7)/(17, 7) and closed (14, 7)/(15, 7). This allowed access to the southern half of the eastern room.
 - The Central Hallway and West Wing are blocked by a solid wall at Y=9. The stairs at (4, 10)/(5, 10)/(6, 10) are on the South side. The only path between the North and South halves of 1F is through the East Wing.
 - The wall at Y=9 is solid across the central/west area. To cross between the North and South halves of 1F, use the East Wing corridor at X=11/X=12. The electronic doors are only in the easternmost room (X=14-17) and don't block main North/South transit.
+- Ascending stairs at (5, 10)/(6, 10) to 2F.
