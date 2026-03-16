@@ -50,3 +50,4 @@
 - Warp Connection: 4F warp at (17, 3) connects to 6F warp at (3, 3).
 - Warp Connection: 6F warp at (23, 3) connects to 2F (Map 0_207) warp at (9, 15).
 - Warp Connection: 3F warp at (27, 3) connects to 2F warp at (3, 3).
+- Warp Connection: 3F warp at (23, 11) connects to 3F warp at (27, 15) (Intra-floor).
