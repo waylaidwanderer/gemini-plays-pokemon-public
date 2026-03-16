@@ -1084,7 +1084,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 <h1><code>Scratchpad/Reflections</code></h1>
 
 [Active Reflections]
-- Strategy: Exiting the elevator onto 8F by moving South onto the red tiles.
+- Strategy: Exiting the elevator onto 8F by moving South from the red tiles.
 
 <hr>
 
