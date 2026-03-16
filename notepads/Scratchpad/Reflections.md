@@ -36,3 +36,16 @@
   - West: (16, 14) is clear.
   - South: (17, 15) is clear.
 - So the hallway goes South from (17, 12) down to (17, 14) or (17, 15). I will move DOWN 3 times to (17, 15) and see where the path goes from there.
+[Turn 36073 Reflection]
+- Navigation Error: I did it again! The sequence `Down, Down, Down` failed. I am still at (17, 12).
+- Looking at the `IntermediateStates` for turn 36072, the first `Down` moved me to (17, 13). The second `Down` moved me to (17, 14). The third `Down`... wait. The `IntermediateStates` only shows three states, all labeled "Down (tool)". 
+- But the `GameState` says I am at (17, 12).
+- Ah! The `GameState` says `Player Position: (17, 12)`.
+- But look at the `CurrentScreen` for turn 36072! The player sprite is at (17, 11) and (17, 12). I am facing Down.
+- Wait, the `IntermediateStates` show me bumping into the wall.
+- Let's look at the screen for 36072 again. The tile at (17, 13) is `TYPE_2889`. It is a solid wall!
+- My map analysis was completely wrong. At (17, 12), South is BLOCKED.
+- The path at (17, 11) goes West to X=16. Let's look at X=16. The tile at (16, 11) is `TYPE_2889`. Blocked.
+- The path at (17, 10) goes West to X=16. The tile at (16, 10) is `TYPE_2889`. Blocked.
+- I am trapped in a 1-tile wide dead-end hallway from Y=10 to Y=12 at X=17.
+- I must walk North (Up) to get out of this!
