@@ -17,3 +17,4 @@
 - Found an ESCAPE ROPE at (14, 3) in the easternmost room.
 - Taking the stairs at (16, 7) to 2F.
 - Found statues at (13, 2) and (15, 2). They might have hidden switches.
+- Found another statue with glowing eyes in the west wing at X=2, Y=4/5. Testing for switches.
