@@ -164,7 +164,7 @@
         "autopress_buttons"
       ]
     },
-    "python_script": "import json\n\ndef execute_battle_turn(current_move_index, target_move_index, main_cursor='FIGHT', start_on_main=True):\n    buttons = []\n    if start_on_main:\n        if main_cursor == 'PKMN':\n            buttons.append('Left')\n        elif main_cursor == 'ITEM':\n            buttons.append('Up')\n        elif main_cursor == 'RUN':\n            buttons.extend(['Up', 'Left'])\n        buttons.extend(['A', 'sleep 500'])\n    \n    def get_coords(idx):\n        return ((idx-1)%2, (idx-1)//2)\n    \n    curr_x, curr_y = get_coords(current_move_index)\n    targ_x, targ_y = get_coords(target_move_index)\n    \n    if curr_y < targ_y:\n        buttons.append('Down')\n    elif curr_y > targ_y:\n        buttons.append('Up')\n    \n    if curr_x < targ_x:\n        buttons.append('Right')\n    elif curr_x > targ_x:\n        buttons.append('Left')\n        \n    buttons.append('A')\n    print(json.dumps(buttons))\n\nexecute_battle_turn(input_data['current_move_index'], input_data['target_move_index'], input_data.get('main_cursor', 'FIGHT'), input_data.get('start_on_main', True))",
+    "python_script": "import json\n\ndef execute_battle_turn(current_move_index, target_move_index, main_cursor='FIGHT', start_on_main=True):\n    buttons = []\n    if start_on_main:\n        if main_cursor == 'PKMN':\n            buttons.append('Left')\n        elif main_cursor == 'ITEM':\n            buttons.append('Up')\n        elif main_cursor == 'RUN':\n            buttons.extend(['Up', 'Left'])\n        buttons.extend(['A', 'sleep 500'])\n    \n    diff = target_move_index - current_move_index\n    if diff > 0:\n        if diff == 3:\n            buttons.append('Up')\n        else:\n            buttons.extend(['Down'] * diff)\n    elif diff < 0:\n        if diff == -3:\n            buttons.append('Down')\n        else:\n            buttons.extend(['Up'] * abs(diff))\n            \n    buttons.append('A')\n    print(json.dumps(buttons))\n\nexecute_battle_turn(input_data['current_move_index'], input_data['target_move_index'], input_data.get('main_cursor', 'FIGHT'), input_data.get('start_on_main', True))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -320,6 +320,11 @@
         "commit_message": "Fixed main_cursor logic to prevent wrapping when already on FIGHT.",
         "timestamp": "2026-03-16T16:50:52.453Z",
         "action_counter": 37231
+      },
+      {
+        "commit_message": "Fixed move menu navigation to use 1x4 vertical list instead of 2x2 grid, and added wrap-around logic for efficiency.",
+        "timestamp": "2026-03-16T16:55:40.289Z",
+        "action_counter": 37241
       }
     ]
   },
