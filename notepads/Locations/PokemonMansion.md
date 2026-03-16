@@ -31,8 +31,6 @@
 [2F Continued]
 - Electronic doors located at (7, 12) to (7, 15).
 - Toggling the switch at (2, 11) seems to affect doors, but the ones at X=7 are currently closed. Exploring the rest of 2F.
-- Exploring 2F further. The switch at (2, 11) might be for doors I haven't reached yet or a different floor.
-- Taking the stairs to 3F at (7, 10).
 [3F Points of Interest]
 - Map ID: 0_215
 - Arrived from 2F via stairs at (7, 10).
@@ -44,14 +42,12 @@
 - The southern half of 3F is completely walled off from the northern half by a solid wall at Y=7.
 - Hallucination corrected: There are no stairs at (10, 8), it is a solid table.
 - I cannot proceed further on 3F from these stairs. Returning to 2F to find the correct path forward.
-- Explored the northern half of 2F.
 - There are closed electronic doors at Y=5 (X=15 to X=17). They block access to the northeast room, which appears to contain a staircase.
-- Will need to find a switch to open these doors. Heading back west to explore the rest of the northern section.
 - The path North at X=18 is blocked by a solid barrier at (18, 3). The electronic doors at Y=5 MUST be opened to reach the stairs.
 - An item ball is located at (18, 8).
 - A path leads West to the Northwest corner at Y=4/Y=5.
 - Found stairs at (6, 1) leading up. They are in the Northwest corner of 2F.
 - Boulders/rubble are blocking the tiles at (4, 1) and (5, 1).
 - Took stairs at (6, 1) from 2F to 3F. Arrived in the Northwest area of 3F.
-- A switch statue is located at (10, 4)/(10, 5). Moving to press it.
+- A switch statue is located at (10, 4)/(10, 5).
 - Pressed the secret switch on the statue at (10, 4)/(10, 5) on 3F.
