@@ -24,8 +24,8 @@
 - 4F Navigation: Warp at (11, 7) lands in a partitioned area. Scientist at (14, 6). Electronic doors at (12, 8) and (13, 8) block South. Second warp pad located at (17, 3).
 - 4F Navigation: The area isolated by the warp pad at (17, 11) is bounded by an electronic door at (5, 12) and walls. The warp pad itself is blocked from the South by desks at Y=12; access it via X=13. It's a dead end without the Card Key.
 - 4F Navigation: East of the stairs, the path South at X=26 is blocked by a Grunt at (26, 7). Bypassing via X=23 leads to an empty loop (X=26/28, Y=8 to Y=16). A solid wall at Y=4 blocks access to the room to the North.
-- 4F Navigation: West of the elevator, a path leads South down X=19. Electronic doors at (18, 10) and (19, 10) block the path North into a central room.
-- 4F Navigation: West corridor (Y=13/14) from X=15 leads to a dead end at X=3. The item ball at (3, 9) is inaccessible from here due to a wall at Y=12.
+- 4F Navigation: West corridor (Y=13/14) from X=15 leads West past X=13. The item ball at (3, 9) is inaccessible from the far West end due to a wall at Y=12.
+- 4F Navigation: West of the elevator, a path leads South down an open hallway at X=19 all the way to Y=13. There are NO doors at (18, 10)/(19, 10). The path North from (19, 5) goes to Y=3 and wraps East back to the stairs. The locked area West of X=18 (containing a warp pad and electronic doors) must be accessed from the South via X=13.
 - 5F (Map 0_210): Elevator at (20, 0). Electronic doors block the south path immediately out of the elevator. West hallway leads to a Silph Employee at (8, 3) (Master Ball dialogue). Bypass him via X=9.
 - 5F: Warp pad at (11, 5). Warp pad at (9, 15). Warp pad at (3, 15).
 - 5F Navigation: The path South at X=14 leads to a dead-end room with a warp pad at (11, 5). To explore the rest of the floor, use the path South at X=22 (East of the elevator).
