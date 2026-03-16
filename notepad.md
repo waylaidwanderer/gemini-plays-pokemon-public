@@ -1290,6 +1290,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - TC (Top-Center): Top-Right (11, 3), Bottom-Left (9, 5), Bottom-Right (11, 5)
 
 [Notes]
-- Sabrina is located at (10, 1) in the TC (Top-Center) room!
+- The trainer at (10, 1) in the TC (Top-Center) room is a regular Channeler, not Sabrina!
 
 <hr>
