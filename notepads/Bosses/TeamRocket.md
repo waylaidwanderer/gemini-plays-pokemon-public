@@ -2,4 +2,4 @@
 - Nidorino Lv 37
 - Kangaskhan Lv 35
 - Rhyhorn Lv 37
-- Nidoqueen Lv ???
+- Nidoqueen Lv 41
