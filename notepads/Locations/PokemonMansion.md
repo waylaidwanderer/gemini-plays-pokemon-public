@@ -47,3 +47,6 @@
 - Explored the northern half of 2F.
 - There are closed electronic doors at Y=5 (X=15 to X=17). They block access to the northeast room, which appears to contain a staircase.
 - Will need to find a switch to open these doors. Heading back west to explore the rest of the northern section.
+- The path North at X=18 is blocked by a solid barrier at (18, 3). The electronic doors at Y=5 MUST be opened to reach the stairs.
+- An item ball is located at (18, 8).
+- A path leads West to the Northwest corner at Y=4/Y=5.
