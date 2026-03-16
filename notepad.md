@@ -1268,3 +1268,13 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - [Reflection Turn 37172] The warp pad at 7F (5, 7) connects to 11F (3, 2). This warp is MANDATORY. It places the player on the West strip (X=0 to X=3) of 11F, which bypasses the solid wall at Y=3. This wall previously blocked access to Giovanni's room from the main 11F elevator area. I must now travel South down this strip to find an entrance into the main room.
 
 <hr>
+
+<h1><code>Bosses/TeamRocket</code></h1>
+
+# Giovanni (Silph Co. 11F)
+- Nidorino Lv 37
+- Kangaskhan Lv 35
+- Rhyhorn Lv ???
+- ???
+
+<hr>
