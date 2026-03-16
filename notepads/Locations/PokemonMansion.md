@@ -44,3 +44,6 @@
 - The southern half of 3F is completely walled off from the northern half by a solid wall at Y=7.
 - Hallucination corrected: There are no stairs at (10, 8), it is a solid table.
 - I cannot proceed further on 3F from these stairs. Returning to 2F to find the correct path forward.
+- Explored the northern half of 2F.
+- There are closed electronic doors at Y=5 (X=15 to X=17). They block access to the northeast room, which appears to contain a staircase.
+- Will need to find a switch to open these doors. Heading back west to explore the rest of the northern section.
