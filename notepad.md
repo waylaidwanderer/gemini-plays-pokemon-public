@@ -1157,6 +1157,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [Turn 36035 Reflection]
 - Error Analysis (Turn Hallucination): I accidentally pasted extra digits into the turn number in my previous action. I must be more careful when typing the `num_turns` parameter.
 - Battle Result: Weezing defeated! Continuing East down the 8F hallway.
+[Turn 36039 Reflection]
+- Error Analysis (Turn Hallucination): I must explicitly read the `Current Turn:` line in the system prompt. The current turn is 36039. I am failing this basic check repeatedly.
+- Battle Result: Golbat defeated! The Grunt is defeated. I will now clear the remaining text and continue East.
 
 <hr>
 
