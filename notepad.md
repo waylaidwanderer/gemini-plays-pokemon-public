@@ -1264,5 +1264,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Warp Chain Analysis: The warp chain starting at 4F (3, 15) -> 10F (13, 15) -> 4F (11, 7) -> 6F (3, 3) is a complete dead end with no Card Key. Backtracking out.
 - Warp Connection: 2F warp at (13, 3) connects to 8F (Map 0_213) warp at (3, 15).
 - 9F Navigation: West of the electronic door at (11, 12) is a room with beds. A healing Nurse is located here at (3, 14)!
+- [Reflection Turn 37172] The warp pad at 7F (5, 7) connects to 11F (3, 2). This warp is MANDATORY. It places the player on the West strip (X=0 to X=3) of 11F, which bypasses the solid wall at Y=3. This wall previously blocked access to Giovanni's room from the main 11F elevator area. I must now travel South down this strip to find an entrance into the main room.
 
 <hr>
