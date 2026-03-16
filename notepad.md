@@ -1103,12 +1103,12 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Mistake: I pressed 'A' to open the Start menu while facing Sabrina at (9, 9), which triggered her battle dialogue instead! I am now locked into the battle without healing Dugtrio first.
 - Mitigation: I will heal Dugtrio using a Lemonade from the battle's ITEM menu on the first turn if needed, or rely on Hydro's Skull Bash initially.
 
-[Turn 37484 Reflection]
-- Progress: Fully mapped Saffron Gym and reached Sabrina. Currently battling her.
-- Mechanics Check: Dugtrio was paralyzed by Venomoth's Stun Spore. In Gen 1, critical hit rate is determined by BASE speed, not current speed. Therefore, paralysis does not reduce Dugtrio's high critical hit rate with Slash!
-- Map Hygiene: Placed return markers at every warp destination in the gym. The warp pair mapping strategy was a complete success.
-- Tools: No broken tools. move_sequence and safe_mash_b are perfect.
-- Goals: Defeat Sabrina, claim the Marshbadge, and decide next major destination.
+[Turn 37536 Reflection]
+- Progress: Surfing south on Route 21 towards Cinnabar Island.
+- Mechanics Check: The run_battle tool failed because of Gen 1 battle menu wrapping and sliding animation delays eating inputs. The sequence B, Up, Left, Right, Down, A from FIGHT ended up on ITEM, opening the bag.
+- Map Hygiene: Keeping track of encounters on Route 21.
+- Tools: run_battle has been redefined to accept main_cursor like execute_battle_turn. The blind mashing approach does not work here.
+- Goals: Reach Cinnabar Island and explore the town.
 
 <hr>
 

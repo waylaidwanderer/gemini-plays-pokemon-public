@@ -477,12 +477,26 @@
     ]
   },
   "run_battle": {
-    "description": "Automates running from a wild Pokemon encounter safely. Resets cursor to FIGHT, then navigates to RUN.",
+    "description": "Automates running from a wild Pokemon encounter safely. Requires visual confirmation of the cursor position to avoid menu wrapping errors.",
     "input_schema": {
       "type": "object",
-      "properties": {}
+      "properties": {
+        "main_cursor": {
+          "type": "string",
+          "enum": [
+            "FIGHT",
+            "PKMN",
+            "ITEM",
+            "RUN"
+          ],
+          "default": "FIGHT"
+        }
+      },
+      "required": [
+        "main_cursor"
+      ]
     },
-    "python_script": "import json\n# Safer run battle that minimizes overworld interaction if it fails.\nprint(json.dumps(['B', 'Up', 'Left', 'Right', 'Down', 'A', 'sleep 2000', 'B']))",
+    "python_script": "def run_battle(input_data):\n    cursor = input_data.get('main_cursor', 'FIGHT')\n    buttons = ['sleep 500'] # Wait for menu to fully slide in\n    \n    if cursor == 'FIGHT':\n        buttons.extend(['Right', 'Down'])\n    elif cursor == 'PKMN':\n        buttons.extend(['Down'])\n    elif cursor == 'ITEM':\n        buttons.extend(['Right'])\n    elif cursor == 'RUN':\n        pass\n        \n    buttons.extend(['A'])\n    return buttons",
     "history": [
       {
         "commit_message": "Initial version",
@@ -513,6 +527,11 @@
         "commit_message": "Removed blind overworld navigation at the end to prevent accidental interactions and lingering text boxes.",
         "timestamp": "2026-03-14T21:11:44.135Z",
         "action_counter": 32985
+      },
+      {
+        "commit_message": "Redefine run_battle to use main_cursor and avoid blind mashing which fails due to Gen 1 battle menu wrapping and animation delays.",
+        "timestamp": "2026-03-16T19:43:20.489Z",
+        "action_counter": 37536
       }
     ]
   },
