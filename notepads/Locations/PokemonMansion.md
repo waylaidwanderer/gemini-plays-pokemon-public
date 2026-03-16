@@ -40,3 +40,6 @@
 - Diary located at (6, 12). "Feb. 6. MEW gave birth. We named the newborn MEWTWO."
 - Another set of stairs visible at (10, 8).
 - Wide open gap/drop-off visible on the right side at X=12.
+- Spotted an item ball at (9, 4).
+- Spotted a glowing-eye switch statue at (10, 4)/(10, 5). Accessible from (10, 6).
+- The wall at Y=8 (from X=8 to X=11) blocks direct access to the stairs at (10, 8). I must go around.
