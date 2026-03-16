@@ -1,2 +1,2 @@
 [Active Reflections]
-- Strategy: The Grunt at (9, 14) is already defeated. The path West is at Y=13, squeezing past above him.
+- Strategy: Moving West from X=7 to X=3 to see if there's a path North around the wall at Y=12 to reach the Grunt at (3, 9). The warp pad at (3, 15) is a known dead end.
