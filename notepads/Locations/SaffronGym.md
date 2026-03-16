@@ -7,14 +7,15 @@
 4. TR Top-Left (15, 3) <-> MR Top-Left (15, 9)
 5. MR Bottom-Left (15, 11) <-> TC Top-Left (9, 3)
 6. TC Top-Right (11, 3) <-> TL Top-Right (5, 3)
+7. TL Top-Left (1, 3) <-> TR Bottom-Left (15, 5)
 
 [Unexplored Warps]
 - BR (Bottom-Right): Top-Left (15, 15), Top-Right (19, 15)
 - BL (Bottom-Left): Bottom-Left (1, 17), Bottom-Right (5, 17)
-- TR (Top-Right): Top-Right (19, 3), Bottom-Left (15, 5)
+- TR (Top-Right): Top-Right (19, 3)
 - MR (Middle-Right): Top-Right (19, 9), Bottom-Right (19, 11)
 - TC (Top-Center): Bottom-Left (9, 5), Bottom-Right (11, 5)
-- TL (Top-Left): Top-Left (1, 3), Bottom-Left (1, 5), Bottom-Right (5, 5)
+- TL (Top-Left): Bottom-Left (1, 5), Bottom-Right (5, 5)
 
 [Notes]
 - The trainer at (10, 1) in the TC (Top-Center) room is a regular Channeler, not Sabrina!
