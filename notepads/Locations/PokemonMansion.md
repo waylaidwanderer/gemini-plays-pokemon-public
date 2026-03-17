@@ -61,3 +61,4 @@
 - Switch at (18, 25) CLOSED the electronic doors at (16, 16)/(17, 16). The doors it OPENED must be in the western area.
 - There is a gap in the vertical wall (X=13) at Y=22 and Y=23, allowing access to the western half of B1F.
 - Found another switch statue at (7, 14)/(7, 15) in the western area.
+- Found closed electronic doors at (20, 17) and (21, 17). They block access to the West from this southern corridor.
