@@ -1110,10 +1110,9 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
   3. Walk North down the gap at X=12 to (12, 7) to reach the Northern Hallway.
   *CRITICAL INSIGHT*: This route uses Y=11 and X=12. The West electronic doors are at Y=12 to Y=15. Therefore, this route is ALWAYS OPEN regardless of the Switch State! We never needed the West doors!
 - HYPOTHESIS FOR MASTER ROUTE:
-  1. State B is a DEAD END. The South-Central area is isolated by a wall at X=13 and the closed East doors.
-  2. 1F: Switch back to State A.
-  3. 2F: Pass South through OPEN East doors (24, 13).
-  4. Thoroughly explore the South-Central area (around X=14 to X=19, Y=17+) to find a hidden switch or stairs.
+  1. Explored South-East area in State A. Found NO switch. South-East doors (26, 27) are closed. This area is a dead end in State A.
+  2. The Central doors at (20, 17) lead South to an isolated area. They are OPEN in State B.
+  3. Can we reach the North side of the Central doors (20, 16) without using the East doors? Need to explore West from (20, 16) to see if there is a path North to the Northern Hallway.
 
 <hr>
 
