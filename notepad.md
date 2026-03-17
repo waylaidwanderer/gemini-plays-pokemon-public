@@ -1106,6 +1106,12 @@ Therefore, ascend to 3F in STATE A.
 9. Jump down pit at (16, 14), take stairs to B1F.
 10. Walk West through OPEN Central doors (20, 17) to Secret Key!
 
+[Backtracking Path to 1F]
+Currently at (21, 6).
+1. North to Y=3.
+2. East to X=26.
+3. South down X=26 to bypass the walls.
+
 <hr>
 
 <h1><code>Scratchpad/Mechanics</code></h1>
