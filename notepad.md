@@ -1111,6 +1111,10 @@ Therefore, ascend to 3F in STATE A.
 13. Jump down pit at (16, 14), take stairs to B1F.
 14. Walk West through OPEN Central doors (20, 17) to Secret Key!
 
+[Backtracking to 1F]
+Currently at (5, 15) on 2F.
+1. Walk North up X=5 to the stairs at (5, 10).
+
 <hr>
 
 <h1><code>Scratchpad/Mechanics</code></h1>
