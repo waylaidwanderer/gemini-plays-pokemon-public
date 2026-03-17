@@ -3,61 +3,56 @@
 [Navigation]
 - Located at (6, 3) on Cinnabar Island.
 - 1F Exit is at (5, 27).
+- 1F Map ID is 0_214. 2F Map ID is 0_165. 3F Map ID: 0_215. B1F Map ID: 0_216.
+
+[Encounters]
+- Vulpix
+- Ponyta
 
 [1F Points of Interest]
 - Central Hallway runs North from the entrance along X=4 to X=7.
 - Green pillars line X=3 and X=8, with 1-tile gaps between them to access the east/west wings.
 - Stairs to 2F are exactly at (5, 10).
-[Encounters]
-- Vulpix
-- Ponyta
-
-[1F Points of Interest Continued]
-- East wing is separated by a vertical wall at X=13. Exploring the corridor between X=11 and X=13.
-- The wall at X=13 has a gap at Y=6. This leads to the easternmost part of the wing.
-- There is a solid obstacle at (16, 7) and (17, 7) (orange with yellow stripes). It may be a closed electronic door.
+- East wing is separated by a vertical wall at X=13. The wall at X=13 has a gap at Y=6 leading to the easternmost part of the wing.
 - Found an ESCAPE ROPE at (14, 3) in the easternmost room.
-- Found statues at (13, 2) and (15, 2). They might have hidden switches.
-- Found another statue with glowing eyes in the west wing at X=2, Y=4/5. Testing for switches.
+- Found statues at (13, 2) and (15, 2).
 - Secret switches are hidden in statues with glowing eyes! To activate them, stand BELOW the statue and press A facing Up.
 - Found and pressed a switch on the statue at (1,4)-(2,5) in the West Wing.
-- There are electronic doors at (14, 7)/(15, 7) and (16, 7)/(17, 7). Toggling the switch at (2, 5) opened (16, 7)/(17, 7) and closed (14, 7)/(15, 7). This allowed access to the southern half of the eastern room.
-- The Central Hallway and West Wing are blocked by a solid wall at Y=9. The stairs at (4, 10)/(5, 10)/(6, 10) are on the South side. The only path between the North and South halves of 1F is through the East Wing.
-- The wall at Y=9 is solid across the central/west area. To cross between the North and South halves of 1F, use the East Wing corridor at X=11/X=12. The electronic doors are only in the easternmost room (X=14-17) and don't block main North/South transit.
-- Ascending stairs at (5, 10)/(6, 10) to 2F.
+- There are electronic doors at (14, 7)/(15, 7) and (16, 7)/(17, 7). Toggling the switch at (2, 5) opened (16, 7)/(17, 7) and closed (14, 7)/(15, 7), allowing access to the southern half of the eastern room.
+- The Central Hallway and West Wing are blocked by a solid wall at Y=9. The stairs at (4, 10)/(5, 10)/(6, 10) are on the South side.
+- To cross between the North and South halves of 1F, use the East Wing corridor at X=11/X=12. The electronic doors don't block main North/South transit.
 - Pit Landing: The 3F pit drops the player to 1F at (16, 14), in an enclosed area with a Scientist.
+
 [2F Points of Interest]
 - Arrived from 1F via stairs at (5, 10).
-- Stairs to 3F were falsely recorded as (7, 10). Found stairs at (13, 11), investigating if they lead to 3F.
-- Found a switch statue at (2, 10)/(2, 11).
-[2F Continued]
+- Found a switch statue at (2, 10)/(2, 11). Toggling it affects doors.
 - Electronic doors located at (7, 12) to (7, 15).
-- Toggling the switch at (2, 11) seems to affect doors, but the ones at X=7 are currently closed. Exploring the rest of 2F.
+- A path leads West to the Northwest corner at Y=4/Y=5.
+- Found stairs at (6, 1) dropping down from 3F. TESTED: These stairs CANNOT be ascended. They must be a one-way exit.
+- Boulders/rubble are blocking the tiles at (4, 1) and (5, 1).
+- The wall at X=8 on 2F consists of green pillars with gaps at Y=19, Y=21, Y=23, and Y=25.
+- In the East wing of 2F, there is a solid vertical wall at X=11 extending from at least Y=17 to Y=25.
+- Tested statues at (13, 2), (15, 2), (17, 2), (19, 2), and (21, 2) in the Northeast room of 2F. None of them have hidden switches. The path continues East to X=26 and then South.
+
 [3F Points of Interest]
-- Map ID: 0_215
-- Arrived from 2F via stairs at (7, 10).
+- Arrived from 2F via stairs (location unknown).
 - Burglar trainer spotted at (4, 11).
 - Diary located at (6, 12). "Feb. 6. MEW gave birth. We named the newborn MEWTWO."
 - Wide open gap/drop-off visible on the right side at X=12.
 - Spotted an item ball at (9, 4).
 - Spotted a glowing-eye switch statue at (10, 4)/(10, 5).
 - The southern half of 3F is completely walled off from the northern half by a solid wall at Y=7.
-- Hallucination corrected: There are no stairs at (10, 8), it is a solid table.
-- I cannot proceed further on 3F from these stairs. Returning to 2F to find the correct path forward.
-- There are closed electronic doors at Y=5 (X=15 to X=17). They block access to the northeast room, which appears to contain a staircase.
-- The path North at X=18 is blocked by a solid barrier at (18, 3). The electronic doors at Y=5 MUST be opened to reach the stairs.
+- There are electronic doors at Y=5 (X=15 to X=17). They block access to the northeast room, which appears to contain a staircase.
+- The path North at X=18 is blocked by a solid barrier at (18, 3).
 - An item ball is located at (18, 8).
-- A path leads West to the Northwest corner at Y=4/Y=5.
-- Found stairs at (6, 1) leading up. They are in the Northwest corner of 2F. TESTED: These stairs CANNOT be ascended. Stepping on them or walking into the wall above them does nothing. They must be a one-way exit dropping down from 3F.
-- Boulders/rubble are blocking the tiles at (4, 1) and (5, 1).
 - Verified: Pressing the switch at (10, 4)/(10, 5) opens the electronic doors at (15, 4)/(15, 5), allowing access to the eastern section of 3F.
 - On 3F, eastern section (past the doors at X=15): Path continues south of a wall at X=22. Found an item ball at (25, 5).
 - The eastern hallway on 3F ends in a dead end at X=28.
 - 3F Pit: The top edge of the pit at (12, 13) to (15, 13) is a solid wall. You must jump down from the right side at (16, 14) or (17, 14).
 - The switch at (10, 4)/(10, 5) also toggles the electronic doors at (15, 10)/(15, 11). When the northern doors at (15, 4)/(15, 5) are open, the southern doors at (15, 10)/(15, 11) are closed. I must toggle the switch to open the southern doors to reach the pit.
 - Found stairs down to B1F at (21, 23). Currently blocked by a vertical wall at X=16. Need to find a way around.
+
 [B1F Points of Interest]
-- Map ID: 0_216
 - Arrived from 1F via stairs at (23, 22). These stairs lead back up to the enclosed area on 1F (accessed via 3F pit).
 - The Northwest section of B1F (containing the switch at 7, 15) is completely isolated from the main area by solid walls at X=9 and Y=8, and a table at Y=17. It MUST be accessed from a different floor.
 - Found TM14 (Blizzard) at (19, 25).
@@ -66,7 +61,3 @@
 - Switch at (18, 25) CLOSED the electronic doors at (16, 16)/(17, 16). The doors it OPENED must be in the western area.
 - There is a gap in the vertical wall (X=13) at Y=22 and Y=23, allowing access to the western half of B1F.
 - Found another switch statue at (7, 14)/(7, 15) in the western area.
-- 1F Map ID is 0_214. 2F Map ID is 0_165.
-- The wall at X=8 on 2F consists of green pillars with gaps at Y=19, Y=21, Y=23, and Y=25, similar to 1F.
-- In the East wing of 2F, there is a solid vertical wall at X=11 extending from at least Y=17 to Y=25. I am exploring North along X=10 to find a way around it.
-- Tested statues at (13, 2), (15, 2), (17, 2), (19, 2), and (21, 2) in the Northeast room of 2F. None of them have hidden switches. The path continues East to X=26 and then South.
