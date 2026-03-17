@@ -1115,6 +1115,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Error Analysis: Consecutive wild encounters caused me to lose track of my position and bump into walls. I must re-verify my coordinates using the Game State after every battle to prevent this. 
 - Map Hygiene: My previous overwrite of Locations/PokemonMansion successfully cleaned up the transient action logs per Overwatch's critique.
 - Custom Tools Brainstorm: 1) A 'path_tracer' agent to calculate routes, 2) A tool to parse map geometry, 3) A dedicated 'toggle_switch' macro, 4) An 'explore_unseen' tool, 5) A 'door_state_tracker'. None seem strictly necessary right now as manual routing is more reliable given the hidden gaps and switches.
+- Turn 38454: Breakthrough! The actual global switch on 1F is the statue at (2, 10)/(2, 11), right next to the stairs. My old note about a switch at (2, 5) was a hallucination of coordinates. Since this switch is South of the Y=9 wall, I do not need to bypass the wall at all. I am walking straight West along Y=11 to reach it and open the paths on 2F/3F.
 
 <hr>
 
