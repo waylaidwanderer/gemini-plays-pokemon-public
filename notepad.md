@@ -1107,12 +1107,19 @@ Therefore, ascend to 3F in STATE A.
 10. Walk West through OPEN Central doors (20, 17) to Secret Key!
 
 [Current Step]
-Currently on 2F at (14, 6). Navigating back to the 1F stairs at (5, 10).
-Path:
-1. West to X=9.
-2. South down the X=9 corridor to bypass the Y=9 wall.
-3. West to X=5.
-4. North to the stairs at (5, 10).
+Currently on 2F at (10, 6). Navigating back to the 1F stairs at (5, 10).
+Corrected Path:
+1. North to Y=3.
+2. East to X=23.
+3. South down X=23 to Y=11.
+4. West to X=21.
+5. South down X=21 to Y=23.
+6. West to X=9.
+7. North to Y=19.
+8. West to X=7.
+9. North to Y=16.
+10. West to X=5.
+11. North to the stairs at (5, 10).
 Once on 1F, interact with statue at (2, 12) to toggle to State A.
 
 <hr>
