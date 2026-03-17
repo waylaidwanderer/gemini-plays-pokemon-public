@@ -1179,6 +1179,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Map Hygiene: I will rely heavily on the visual grid overlay to confirm obstacles instead of generalizing them as "walls".
 - Next Steps: Execute the detour and return to 3F. I need to get back to the enclosed western section of B1F to press the switch at (7, 15).
 - Turn 38373: Discovered that my note "Stairs to 3F are at (7, 10)" on 2F was a hallucination! The tile at (7, 10) on 2F is just regular floor. I must have noted the 3F arrival coordinate and assumed it mapped 1:1 to 2F. Exploring 2F to rediscover the actual stairs to 3F.
+- 2F East Wing Update: The corridor at X=11/12/13 is a dead end. There are no stairs here. The switch at (2, 11) must hold the key to progressing by opening the electronic doors at (7, 12)-(7, 15).
 
 <hr>
 
