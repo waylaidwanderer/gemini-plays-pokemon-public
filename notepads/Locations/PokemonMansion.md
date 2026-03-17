@@ -77,3 +77,4 @@
   - 3F Southern doors (15, 10) OPEN.
   - B1F Central doors (20, 17) OPEN.
 - 2F Central doors located at (20, 17) and (21, 17). In State A, these are CLOSED. They block the path South to Y=18.
+- Found a glowing-eye switch statue at (21, 13)/(21, 14) in the enclosed South-East area (accessed via East doors).

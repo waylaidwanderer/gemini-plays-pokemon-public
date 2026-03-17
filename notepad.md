@@ -1115,6 +1115,7 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
   3. If State A: East doors open (can reach them), but Central doors closed -> Cannot pass.
   4. CONCLUSION: There MUST be a hidden switch located SOUTH of the East doors! The intended puzzle is to walk through the open East doors in State A, find the switch in the South-East area, toggle it to State B (closing the East doors behind you, but opening the South-East doors at 26, 27 to the 3F stairs!), and proceed. I must have missed the switch during my first sweep. Re-exploring carefully.
   5. FOUND IT! There is a switch statue at (21, 13)/(21, 14) on 2F! I will navigate to (21, 15) and toggle it.
+  6. Turn 39746: Found the switch at (21, 14)! Pressing it now to transition to State B. Hypothesis: This will close the East doors (24, 13) behind me, effectively locking me in this South-East sector, but simultaneously OPEN the South-East doors at (26, 27), finally granting access to the 3F stairs!
 
 <hr>
 
