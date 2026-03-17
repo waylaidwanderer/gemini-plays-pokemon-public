@@ -1460,5 +1460,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Diary located at (16, 20): "Sept. 1. MEWTWO is far too powerful. We have failed to curb its vicious tendencies..."
 - Found a glowing-eye switch statue at (18, 24)/(18, 25).
 - Switch at (18, 25) CLOSED the electronic doors at (16, 16)/(17, 16). The doors it OPENED must be in the western area.
+- There is a gap in the vertical wall (X=13) at Y=22 and Y=23, allowing access to the western half of B1F.
 
 <hr>
