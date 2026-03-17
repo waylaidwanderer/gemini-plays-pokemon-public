@@ -1,15 +1,4 @@
 [Active Reflections]
-- Door Checklist:
-  - 3F: (DONE)
-  - 4F: (DONE)
-  - 5F: (DONE - TM09 acquired)
-  - 6F: (DONE - HP UP acquired)
-  - 7F: (DONE - TM03 acquired)
-  - 8F: (4, 10)
-  - 9F: (DONE)
-  - 10F: (DONE - Opened central doors)
-  - 11F: Check for any remaining.
-
 [B1F Puzzle Hypothesis]
 - The switch at (18, 25) toggles central (16, 16) and western (13, 22) doors.
 - The Northwest section (with switch at 7, 15) is completely isolated by solid walls. It MUST be accessed from a different floor via a pit or stairs.
