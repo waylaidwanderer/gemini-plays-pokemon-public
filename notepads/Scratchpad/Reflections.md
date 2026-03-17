@@ -22,9 +22,9 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
   *CRITICAL INSIGHT*: This route uses Y=11 and X=12. The West electronic doors are at Y=12 to Y=15. Therefore, this route is ALWAYS OPEN regardless of the Switch State! We never needed the West doors!
 - MASTER ROUTE TO SECRET KEY:
   1. 1F: Set switch to State A (Done).
-  2. 2F: Pass South through OPEN East doors (24, 13). Take stairs at (26, 14) up to 3F.
+  2. 2F: Pass South through OPEN East doors (24, 13). Take stairs at (24, 19) up to 3F.
   3. 3F: Walk North through OPEN Northern doors (15, 4). Toggle switch at (10, 4) to State B.
   4. 3F: Walk South through OPEN Southern doors (15, 10). Jump down pit at (16, 14).
   5. 1F: Land in enclosed area. Take stairs down to B1F.
   6. B1F: Walk West through OPEN Central doors (20, 17) to find Secret Key!
-- CURRENT PLAN: Take the stairs at (26, 14) up to 3F. I am standing right next to them.
+- CURRENT PLAN: I double-hallucinated! The stairs at (24, 19) are REAL, and (26, 14) is just empty floor. I am walking to (24, 19) now.
