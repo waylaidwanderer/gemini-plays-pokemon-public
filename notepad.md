@@ -1107,7 +1107,7 @@ Therefore, ascend to 3F in STATE A.
 10. Walk West through OPEN Central doors (20, 17) to Secret Key!
 
 [Current Step]
-Currently on 2F at (21, 6). Navigating back to the 1F stairs at (5, 10).
+Currently on 2F at (14, 6). Navigating back to the 1F stairs at (5, 10).
 Path:
 1. West to X=9.
 2. South down the X=9 corridor to bypass the Y=9 wall.
