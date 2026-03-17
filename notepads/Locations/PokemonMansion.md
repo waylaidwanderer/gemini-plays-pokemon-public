@@ -68,3 +68,4 @@
 - Found another switch statue at (7, 14)/(7, 15) in the western area.
 - 1F Map ID is 0_214. 2F Map ID is 0_165.
 - The wall at X=8 on 2F consists of green pillars with gaps at Y=19, Y=21, Y=23, and Y=25, similar to 1F.
+- In the East wing of 2F, there is a solid vertical wall at X=11 extending from at least Y=17 to Y=25. I am exploring North along X=10 to find a way around it.
