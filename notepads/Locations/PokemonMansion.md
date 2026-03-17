@@ -23,11 +23,11 @@
 - The Central Hallway and West Wing are blocked by a solid wall at Y=9. The stairs at (4, 10)/(5, 10)/(6, 10) are on the South side. The only path between the North and South halves of 1F is through the East Wing.
 - The wall at Y=9 is solid across the central/west area. To cross between the North and South halves of 1F, use the East Wing corridor at X=11/X=12. The electronic doors are only in the easternmost room (X=14-17) and don't block main North/South transit.
 - Ascending stairs at (5, 10)/(6, 10) to 2F.
+- Pit Landing: The 3F pit drops the player to 1F at (16, 14), in an enclosed area with a Scientist.
 [2F Points of Interest]
 - Arrived from 1F via stairs at (5, 10).
 - Stairs to 3F are at (7, 10).
 - Found a switch statue at (2, 10)/(2, 11).
-- Toggled the secret switch on the statue at (2, 10)/(2, 11) on 2F.
 [2F Continued]
 - Electronic doors located at (7, 12) to (7, 15).
 - Toggling the switch at (2, 11) seems to affect doors, but the ones at X=7 are currently closed. Exploring the rest of 2F.
@@ -49,10 +49,8 @@
 - Found stairs at (6, 1) leading up. They are in the Northwest corner of 2F.
 - Boulders/rubble are blocking the tiles at (4, 1) and (5, 1).
 - Took stairs at (6, 1) from 2F to 3F. Arrived in the Northwest area of 3F.
-- A switch statue is located at (10, 4)/(10, 5).
-- Pressed the secret switch on the statue at (10, 4)/(10, 5) on 3F.
 - Verified: Pressing the switch at (10, 4)/(10, 5) opens the electronic doors at (15, 4)/(15, 5), allowing access to the eastern section of 3F.
 - On 3F, eastern section (past the doors at X=15): Path continues south of a wall at X=22. Found an item ball at (25, 5).
-- The eastern hallway on 3F ends in a dead end at X=28. Returning west to investigate the pit at X=12.
+- The eastern hallway on 3F ends in a dead end at X=28.
 - 3F Pit: The top edge of the pit at (12, 13) to (15, 13) is a solid wall. You must jump down from the right side at (16, 14) or (17, 14).
 - The switch at (10, 4)/(10, 5) also toggles the electronic doors at (15, 10)/(15, 11). When the northern doors at (15, 4)/(15, 5) are open, the southern doors at (15, 10)/(15, 11) are closed. I must toggle the switch to open the southern doors to reach the pit.
