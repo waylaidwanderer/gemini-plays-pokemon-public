@@ -1116,7 +1116,15 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
   4. 3F: Walk South through OPEN Southern doors (15, 10). Jump down pit at (16, 14).
   5. 1F: Land in enclosed area. Take stairs down to B1F.
   6. B1F: Walk West through OPEN Central doors (20, 17) to find Secret Key!
-- 3F stairs are located past the South-East doors at (26, 27).
+- HYPOTHESIS FOR MASTER ROUTE:
+  1. 1F: Switch to State A.
+  2. 2F: Pass South through OPEN East doors (24, 13).
+  3. 2F (Middle): Find a switch and toggle to State B! This opens South-East doors (26, 27).
+  4. 2F: Pass South through OPEN South-East doors to 3F stairs.
+  5. 3F: Arrive in State B! Southern doors (15, 10) are already OPEN. Jump down pit at (16, 14).
+  6. 1F -> B1F: Land in enclosed area, take stairs to B1F.
+  7. B1F: Central doors (20, 17) are already OPEN! Walk straight to Secret Key!
+- CURRENT PLAN: I am at (26, 19). Exploring the rooms to the West (around X=22, Y=16) to find this crucial switch.
 
 <hr>
 
