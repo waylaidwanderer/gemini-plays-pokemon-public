@@ -5,7 +5,12 @@ Goal: Reach B1F isolated area (requires B1F Central doors at 20, 17 to be OPEN =
 Problem: State B closes 2F East Wing, preventing access to 3F stairs at (16, 7).
 Solution Route:
 1. [DONE] Toggle to State A via 1F switch at (2, 11). (2F East OPEN).
-2. Go to 2F East and take stairs at (16, 7) UP to 3F.
+2. Navigate to 2F stairs at (16, 7) from the SOUTH:
+   - Walk East to X=26, South to Y=14.
+   - West to X=22, South to Y=16, West to X=20.
+   - South through open doors at (20, 17) to Y=18.
+   - West to X=17, North up to stairs at (17, 7)!
+   - Take stairs UP to 3F.
 3. On 3F, we arrive in the Northeast room. In State A, the Northern doors (15, 4) are OPEN. Walk through them to main 3F area.
 4. Press the 3F switch at (10, 4) to toggle to State B!
 5. In State B, 3F Southern doors (15, 10) OPEN.
