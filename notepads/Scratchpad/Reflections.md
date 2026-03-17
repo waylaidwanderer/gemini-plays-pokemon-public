@@ -6,7 +6,9 @@ Problem: State B closes 2F East Wing, preventing access to 3F stairs at (16, 7).
 Solution Route:
 1. [DONE] Toggle to State A via 1F switch at (2, 11). (2F East OPEN).
 2. Navigate to 2F stairs at (16, 7) from the SOUTH:
-   - DIRECT ROUTE: From 2F (12, 12), go North to Y=3, East to X=26, South to Y=12, West to X=17, North to Y=8, West to X=16, North to stairs!
+   - DIRECT ROUTE: From 2F stairs (5, 10), go East to X=10.
+   - Walk South along X=10 past the Y=13 tables.
+   - Find path East to X=16, then North to stairs.
    - Take stairs UP to 3F.
 3. On 3F, we arrive in the Northeast room. In State A, the Northern doors (15, 4) are OPEN. Walk through them to main 3F area.
 4. Press the 3F switch at (10, 4) to toggle to State B!
