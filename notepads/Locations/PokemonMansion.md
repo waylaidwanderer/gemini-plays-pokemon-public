@@ -18,6 +18,7 @@
 - The switch in the West Wing was a hallucination of rubble. The actual switch statue is on the SOUTH side of the Y=9 wall, at (2, 10)/(2, 11).
 - Closed electronic doors located at (16, 5)/(17, 5) blocking the path North.
 - The glowing-eye statue at (15, 10)/(15, 11) is a red herring; it does not have a hidden switch.
+- The Northeast area (accessed via X=18) is a dead end. The object at (18, 2) is just a diary containing lore about Mew in the jungle.
 
 [2F Points of Interest]
 - Arrived from 1F via stairs at (5, 10).

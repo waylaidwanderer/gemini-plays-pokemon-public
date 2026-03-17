@@ -16,8 +16,4 @@
 - Map Hygiene: Switch marker placed at (2, 11) on 1F.
 - Custom Tools Brainstorm: 1) `path_tracer`, 2) `map_parser`, 3) `explore_unseen`, 4) `door_state_tracker`, 5) `battle_logger`. Standard navigation tools are sufficient.
 - Goal: Return to 1F via the stairs at (5, 10) and check the state of the electronic doors.
-- Turn 38535: The switch statue at (15, 11) on 1F is blocked from the South by rubble at (15, 12). Interacting from the East at (16, 11) did nothing. Testing the top half at (15, 10). If it fails, this switch might be inaccessible or a red herring. Proceeding North to check if the doors at (16, 5) are already open.
-- Turn 38538: Confirmed the electronic doors at (16, 5)/(17, 5) on 1F are currently CLOSED. They are likely linked to the global switch at (2, 11). Since I toggled that switch earlier to open the 2F West doors, it must have closed these 1F doors simultaneously. Note: The sprite at (18, 2) is a glowing-eye switch statue, NOT a Burglar. Testing this switch now.
-- Turn 38540: Attempted to interact with the switch statue at (18, 2) from the South at (18, 4), but a desk at (18, 3) blocked it. Navigating around to the West side at (17, 2) to interact with it.
-- Turn 38543: The object at (18, 2) is actually a diary, not a switch statue! Reading it now.
-- Turn 38546: Read the diary at (18, 2) on 1F. It just contains lore about Mew. This confirms the NE area of 1F is a dead end! I need to return to the global switch at (2, 11) and toggle it back to its original state. This will OPEN the doors at (24, 13) on 2F, allowing me to fully explore the southern area of the East Wing to finally locate the stairs to 3F.
+- Confirmed the electronic doors at (16, 5)/(17, 5) on 1F are closed when the 2F West Wing doors are open. They are linked to the global switch at (2, 11). Returning there now.
