@@ -57,6 +57,7 @@
 [B1F Points of Interest]
 - Map ID: 0_216
 - Arrived from 1F via stairs at (23, 22). These stairs lead back up to the enclosed area on 1F (accessed via 3F pit).
+- The Northwest section of B1F (containing the switch at 7, 15) is completely isolated from the main area by solid walls at X=9 and Y=8, and a table at Y=17. It MUST be accessed from a different floor.
 - Found TM14 (Blizzard) at (19, 25).
 - Diary located at (16, 20): "Sept. 1. MEWTWO is far too powerful. We have failed to curb its vicious tendencies..."
 - Found a glowing-eye switch statue at (18, 24)/(18, 25).
