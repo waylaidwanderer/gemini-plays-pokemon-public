@@ -1107,6 +1107,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Goal: Return to 1F via the stairs at (5, 10) and check the state of the electronic doors.
 - Turn 38535: The switch statue at (15, 11) on 1F is blocked from the South by rubble at (15, 12). Interacting from the East at (16, 11) did nothing. Testing the top half at (15, 10). If it fails, this switch might be inaccessible or a red herring. Proceeding North to check if the doors at (16, 5) are already open.
 - Turn 38538: Confirmed the electronic doors at (16, 5)/(17, 5) on 1F are currently CLOSED. They are likely linked to the global switch at (2, 11). Since I toggled that switch earlier to open the 2F West doors, it must have closed these 1F doors simultaneously. Note: The sprite at (18, 2) is a glowing-eye switch statue, NOT a Burglar. Testing this switch now.
+- Turn 38540: Attempted to interact with the switch statue at (18, 2) from the South at (18, 4), but a desk at (18, 3) blocked it. Navigating around to the West side at (17, 2) to interact with it.
 
 <hr>
 
