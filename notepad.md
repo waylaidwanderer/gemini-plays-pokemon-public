@@ -1427,6 +1427,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Inside Pokemon Lab (3rd room / rightmost): The scientist who revives fossils paces around X=4 to X=6 at Y=2. Revived Helix Fossil into Omanyte (HELIX).
 - Building at (6, 3) is the Pokemon Mansion.
 - Building at (18, 3) is the Cinnabar Gym. It is currently locked, and requires the Secret Key.
+- The path to the Mansion entrance at (6, 3) from the East side of the island is via a 1-tile wide gap at Y=4 (X=9, 4).
 
 <hr>
 
