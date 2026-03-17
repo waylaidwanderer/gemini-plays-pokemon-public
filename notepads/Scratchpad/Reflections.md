@@ -18,4 +18,5 @@ Therefore, ascend to 3F in STATE A.
 10. Walk West through OPEN Central doors (20, 17) to Secret Key!
 
 [Current Step]
-Returning to 1F to toggle the switch back to State A. Then I will execute the True Route by walking South from the 2F stairs.
+Currently on 2F at (16, 2). Heading West along the northern hallway to reach X=5, then South to the stairs at (5, 10).
+Once on 1F, I will interact with the statue at (2, 12) to toggle to State A.
