@@ -61,4 +61,4 @@
 - Found TM14 (Blizzard) at (19, 25).
 - Diary located at (16, 20): "Sept. 1. MEWTWO is far too powerful. We have failed to curb its vicious tendencies..."
 - Found a glowing-eye switch statue at (18, 24)/(18, 25).
-- Switch at (18, 25) controls the electronic doors at Y=16. Toggling it CLOSED (14, 16)/(15, 16) and OPENED (16, 16)/(17, 16).
+- Switch at (18, 25) controls the electronic doors at (16, 16)/(17, 16). It is currently toggled such that these doors are CLOSED. I need to find what doors it OPENED.
