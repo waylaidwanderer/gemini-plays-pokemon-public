@@ -1107,7 +1107,7 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - ROUTE TO STAIRS (State B): The Y=9 wall completely blocks North/South travel on the West side. The ONLY way between the Northern Hallway and the stairs is through the Central Inner Area!
 1. Go East to the East Wing (26, 2).
 2. Go South to (26, 5), then West into the Central Inner Area.
-3. Follow the U-shape: South to Y=12, then West to the OPEN West doors at (7, 12).
+3. Follow the U-shape: South to Y=11, then West to the OPEN West doors at (7, 12).
 4. Go North through the West doors to Y=10, then West to the stairs at (5, 10).
 
 <hr>
