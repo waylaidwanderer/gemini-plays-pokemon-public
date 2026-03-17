@@ -1094,13 +1094,11 @@ Goal: Reach B1F isolated area (requires B1F Central doors at 20, 17 to be OPEN =
 Problem: State B closes 2F East Wing, preventing access to 3F stairs at (16, 7).
 Solution Route:
 1. [DONE] Toggle to State A via 1F switch at (2, 11). (2F East OPEN).
-2. Navigate to 2F stairs at (16, 7) from the SOUTH:
-   - MASSIVE REVELATION: The path is extremely direct! I previously overshot Y=8 by macroing too far North.
-   - From 2F main stairs (5, 10), walk East through the X=9 gap to X=12.
-   - Walk North along X=12 to Y=8. (DO NOT overshoot to Y=6!)
-   - Walk East from (12, 8) to (16, 8).
-   - Walk North onto the stairs at (16, 7).
-   - Take stairs UP to 3F.
+2. Find the true stairs to 3F:
+   - MASSIVE REVELATION: The stairs at (16, 7) are INACCESSIBLE from the East/West/South. They are a one-way drop from 3F!
+   - The TRUE stairs UP to 3F must be behind the State B electronic doors at (7, 12).
+   - Route: Go back to 1F, toggle switch at (2, 11) to State B.
+   - Return to 2F, walk West through the now-open doors at (7, 12) and explore the South-West area for the 3F stairs!
 3. On 3F, we arrive in the Northeast room. In State A, the Northern doors (15, 4) are OPEN. Walk through them to main 3F area.
 4. Press the 3F switch at (10, 4) to toggle to State B!
 5. In State B, 3F Southern doors (15, 10) OPEN.
