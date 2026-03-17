@@ -80,3 +80,7 @@
 - Conclusion: The Northwest section of B1F MUST be accessed from above. 
 - Missed Path: I reviewed my notes and realized I completely skipped the stairs at (6, 1) on 2F! These stairs likely lead to a new section of 3F that drops into the Northwest area of B1F.
 - New Plan: I will use Dugtrio's Dig to quickly exit the dungeon, heal at the Pokemon Center, and make a beeline for the unexplored stairs at (6, 1) on 2F!
+[Turn 38330 Status]
+- I successfully used Dig and warped to the Cinnabar Island Pokemon Center (0_182).
+- I am currently healing my team.
+- Next Objective: Return to the Pokemon Mansion (0_214), go to 2F, and explore the stairs at (6, 1) that I previously missed. This is the only remaining path to the Secret Key!
