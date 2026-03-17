@@ -1406,7 +1406,7 @@ I am at (9, 19) on 2F in State A. I need to walk North to Y=12 to continue the b
 - The tiles at (4, 1) and (5, 1) are clear floor, allowing access from the far West side to the Northern Hallway at Y=2.
 - The wall at X=8 on 2F consists of green pillars with gaps at Y=19, Y=21, Y=23, and Y=25.
 - In the East wing of 2F, there is a solid vertical wall at X=11 extending from at least Y=17 to Y=25.
-- 2F East doors are located at (20, 17) and (21, 17). The far east corridor at X=24/X=25 completely bypasses these doors!
+- 2F East doors are located at (24, 13) and (25, 13). In State A, these are OPEN, allowing access to the South-East stairs.
 - 2F South-East doors are located at (26, 27) and (27, 27). These block access to the true stairs to 3F.
 
 [3F Points of Interest]
