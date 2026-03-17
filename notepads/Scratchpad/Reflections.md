@@ -15,5 +15,8 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 1. Return to 1F and toggle switch to State A.
 2. Return to 2F East doors at (24, 13) and walk SOUTH through them.
 - Heading to 1F stairs at (5, 10).
-- EMPIRICAL FACT: Y=13 is completely blocked in the East Wing in State B (Doors closed, X=26 is rubble). The East Wing CANNOT be used to go South.
-- ROUTE TO STAIRS: I must use the West Wing. Route: North to Y=2, West to X=5, South through the OPEN West doors at (7, 12) to reach the stairs at (5, 10).
+- ROUTE TO STAIRS (State B): The Y=9 wall completely blocks North/South travel on the West side. The ONLY way between the Northern Hallway and the stairs is through the Central Inner Area!
+1. Go East to the East Wing (26, 2).
+2. Go South to (26, 5), then West into the Central Inner Area.
+3. Follow the U-shape: South to Y=12, then West to the OPEN West doors at (7, 12).
+4. Go North through the West doors to Y=10, then West to the stairs at (5, 10).
