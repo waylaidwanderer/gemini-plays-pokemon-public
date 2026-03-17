@@ -1104,8 +1104,10 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 1. Return to 1F and toggle switch to State A.
 2. Return to 2F East doors at (24, 13) and walk SOUTH through them.
 - Heading to 1F stairs at (5, 10).
-- HALLUCINATION CORRECTED: The Central Inner Area is a dead end blocked by a solid wall at X=22.
-- ROUTE TO STAIRS (State B): I MUST use the West Wing. I will go North to Y=2, West to X=5, and South through the OPEN West doors at (7, 12) to reach the stairs at (5, 10). I must not turn around before empirically testing this path!
+- EMPIRICAL FACT: The West Wing path from North to South is BLOCKED by a solid wall at Y=9. (I am at 5,8 and can see the stairs at 5,10 but cannot reach them).
+- EMPIRICAL FACT: The East Wing path from North to South is BLOCKED at Y=13 in State B.
+- THEREFORE: The ONLY way between the North Hallway and the 1F stairs in State B is through the Central Inner Area!
+- ROUTE: Go North to Y=1, East to X=24, South into Central Inner Area at (24, 5). Follow it South past Y=11, West across the bottom, then North to the OPEN West doors at (7, 12). Pass through to reach the stairs at (5, 10).
 
 <hr>
 
