@@ -1110,9 +1110,10 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
   3. Walk North down the gap at X=12 to (12, 7) to reach the Northern Hallway.
   *CRITICAL INSIGHT*: This route uses Y=11 and X=12. The West electronic doors are at Y=12 to Y=15. Therefore, this route is ALWAYS OPEN regardless of the Switch State! We never needed the West doors!
 - HYPOTHESIS FOR MASTER ROUTE:
-  1. Explored South-East area in State A. Found NO switch. South-East doors (26, 27) are closed. This area is a dead end in State A.
-  2. The Central doors at (20, 17) lead South to an isolated area. They are OPEN in State B.
-  3. Can we reach the North side of the Central doors (20, 16) without using the East doors? Need to explore West from (20, 16) to see if there is a path North to the Northern Hallway.
+  1. The Central doors at (20, 17) can NEVER be passed from North to South! The only path to their North side is through the East doors at (24, 13). 
+  2. If State B: Central doors open, but East doors closed -> Cannot reach them.
+  3. If State A: East doors open (can reach them), but Central doors closed -> Cannot pass.
+  4. CONCLUSION: There MUST be a hidden switch located SOUTH of the East doors! The intended puzzle is to walk through the open East doors in State A, find the switch in the South-East area, toggle it to State B (closing the East doors behind you, but opening the South-East doors at 26, 27 to the 3F stairs!), and proceed. I must have missed the switch during my first sweep. Re-exploring carefully.
 
 <hr>
 
