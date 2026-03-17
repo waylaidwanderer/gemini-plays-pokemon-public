@@ -1116,6 +1116,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Map Hygiene: Added a map marker for the 1F switch at (2, 11). I should clean up the old Silph Co Door Checklist since that's done.
 - Custom Tools Brainstorm: 1) 'path_tracer' agent, 2) 'map_parser', 3) 'toggle_switch' macro, 4) 'explore_unseen', 5) 'door_state_tracker'. Not needed right now.
 - Goal: Reach the West Wing of 2F and explore the newly opened areas to find the stairs UP to 3F.
+- Turn 38519: Confirmed the NW corner of 2F is a dead end (rubble). The actual stairs to 3F might be behind the electronic doors at (20, 17) on 2F or the doors on 1F. Heading to 1F now to check.
 
 <hr>
 
