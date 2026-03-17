@@ -1105,6 +1105,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Map Hygiene: Switch marker placed at (2, 11) on 1F.
 - Custom Tools Brainstorm: 1) `path_tracer`, 2) `map_parser`, 3) `explore_unseen`, 4) `door_state_tracker`, 5) `battle_logger`. Standard navigation tools are sufficient.
 - Goal: Return to 1F via the stairs at (5, 10) and check the state of the electronic doors.
+- Turn 38535: The switch statue at (15, 11) on 1F is blocked from the South by rubble at (15, 12). Interacting from the East at (16, 11) did nothing. Testing the top half at (15, 10). If it fails, this switch might be inaccessible or a red herring. Proceeding North to check if the doors at (16, 5) are already open.
 
 <hr>
 
