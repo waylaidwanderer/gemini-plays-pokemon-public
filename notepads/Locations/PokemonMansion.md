@@ -15,7 +15,7 @@
 - A solid horizontal wall at Y=9 blocks the Central Hallway and West Wing.
 - East wing is separated by a vertical wall at X=9, which has gaps at Y=4/Y=5 and Y=10/Y=11.
 - To reach the 2F stairs at (5, 10) from the North half, you MUST use the East Wing corridor to bypass the Y=9 wall.
-- The 1F switch statue is in the North-West area at (2, 5). You must use the East Wing (gap at X=9, Y=10/11) to bypass the Y=9 wall and reach the North half of the floor.
+- The 1F switch statue is at (3, 12). Stand at (2, 12), face Right, and press A to interact.
 - Closed electronic doors located at (16, 5)/(17, 5) blocking the path North.
 - The glowing-eye statue at (15, 10)/(15, 11) is a red herring; it does not have a hidden switch.
 - The Northeast area (accessed via X=18) is a dead end. The object at (18, 2) is just a diary containing lore about Mew.
