@@ -1400,7 +1400,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Arrived from 1F via stairs at (5, 10).
 - The statue at (2, 10)/(2, 11) is just a normal statue, NOT a switch. I will use the switch on 1F to toggle the global door state.
 - Electronic doors located at (7, 12) to (7, 15).
-- A path leads West to the Northwest corner at Y=4/Y=5, ending at the stairs UP to 3F at (2, 5).
+- A path leads West to the Northwest corner at Y=4/Y=5, ending in a dead end blocked by rubble at (2, 4)/(2, 5). There are NO stairs here.
 - Found stairs at (6, 1) dropping down from 3F. TESTED: These stairs CANNOT be ascended. They must be a one-way exit.
 - Boulders/rubble are blocking the tiles at (4, 1) and (5, 1).
 - The wall at X=8 on 2F consists of green pillars with gaps at Y=19, Y=21, Y=23, and Y=25.
