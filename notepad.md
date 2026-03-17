@@ -1508,5 +1508,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - There is a gap in the vertical wall (X=13) at Y=22 and Y=23, allowing access to the western half of B1F.
 - Found another switch statue at (7, 14)/(7, 15) in the western area.
 - 1F Map ID is 0_214. 2F Map ID is 0_165.
+- The wall at X=8 on 2F consists of green pillars with gaps at Y=19, Y=21, Y=23, and Y=25, similar to 1F.
 
 <hr>
