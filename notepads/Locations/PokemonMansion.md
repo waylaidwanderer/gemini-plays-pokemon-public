@@ -15,7 +15,7 @@
 - A solid horizontal wall at Y=9 blocks the Central Hallway and West Wing.
 - East wing is separated by a vertical wall at X=9, which has a gap at Y=4/Y=5.
 - To reach the 2F stairs at (5, 10) from the North half, you MUST use the East Wing corridor to bypass the Y=9 wall.
-- Found a glowing-eye switch statue at (1, 4)/(1, 5) in the West Wing. Press A from (1, 6) facing Up to toggle global electronic doors.
+- The switch in the West Wing was a hallucination of rubble. The actual switch statue is on the SOUTH side of the Y=9 wall, at (2, 10)/(2, 11).
 - There are electronic doors at (14, 7)/(15, 7) and (16, 7)/(17, 7).
 
 [2F Points of Interest]
