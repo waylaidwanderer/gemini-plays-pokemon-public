@@ -34,3 +34,10 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - Discovered TYPE_2889 in the East Wing is RUBBLE, not an item ball. Hallucination corrected.
 - I am currently in State A, exploring the South-East area of 2F since the East Doors (24, 13) are OPEN.
 - I will trace this path to see if it leads to the 3F stairs or another switch.
+[Turn 39777 Reflection]
+- WOW! I literally see the 3F stairs on my screen right now at (21, 23) on 2F!
+- They are located EXACTLY south of the 2F Central electronic doors at (21, 17) / (20, 17).
+- Currently, in State A, the 2F Central doors are CLOSED.
+- If I toggle to State B, the 2F Central doors should OPEN, granting me access to the 3F stairs!
+- My Master Route theory is solidifying. The 1-tile gap at X=12 on 2F is the key to bypassing the closed East doors in State B.
+- I will briefly finish mapping this South-East pocket to ensure no other items or switches exist, then return to 1F to set State B and execute the Master Route!
