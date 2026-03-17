@@ -64,13 +64,15 @@
 [Global Door States]
 - State A (Default): 
   - 2F West doors (7, 12) CLOSED. 
-  - 2F East doors (20, 17) OPEN.
+  - 2F East doors (24, 13) OPEN.
   - 2F South-East doors (26, 27) OPEN.
   - 3F Northern doors (15, 4) OPEN.
   - 3F Southern doors (15, 10) CLOSED.
+  - B1F Central doors (20, 17) CLOSED.
 - State B: 
   - 2F West doors (7, 12) OPEN.
-  - 2F East doors (20, 17) CLOSED.
+  - 2F East doors (24, 13) CLOSED.
   - 2F South-East doors (26, 27) CLOSED. (Verified Turn 39014)
   - 3F Northern doors (15, 4) CLOSED.
   - 3F Southern doors (15, 10) OPEN.
+  - B1F Central doors (20, 17) OPEN.
