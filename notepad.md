@@ -1111,6 +1111,7 @@ Therefore, ascend to 3F in STATE A.
 13. Jump down pit at (16, 14), take stairs to B1F.
 14. Walk West through OPEN Central doors (20, 17) to Secret Key!
 - Turn 39259: Realized 2F East Doors (24, 13) are CLOSED. I am in State B because I accidentally pressed the 1F switch on Turn 39229. I must return to 1F and press the switch to return to State A.
+- Turn 39314: Confirmed 2F South-East doors at (26, 27) are CLOSED. I am definitely in State B. I realized I double-pressed the 1F switch at Turns 39277 and 39278, toggling it to A and then immediately back to B. Backtracking to 1F to press it EXACTLY ONCE.
 
 <hr>
 
