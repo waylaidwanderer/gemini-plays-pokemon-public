@@ -1147,6 +1147,10 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Notepad Hygiene: Logged the table boundaries. Will continue mapping B1F.
 - Error Analysis: "Got away safely!" battle text ate my movement inputs twice. I must explicitly clear all battle text with 'A' or 'B' before initiating overworld navigation.
 - Next Steps: Follow this eastern hallway South and see if it wraps around to the western side of the room.
+[Turn 38280 Hypothesis]
+- Puzzle Logic: The switch at (18, 25) controls the electronic doors. Right now, it is toggled such that the door at (9, 7) is OPEN, but the doors at (25, 17) and (28, 17) are CLOSED.
+- Obstacle: I cannot reach the open door at (9, 7) because of a solid horizontal wall at Y=8 that spans from X=10 to at least X=25.
+- Plan: I need to go back and toggle the switch at (18, 25). This will close (9, 7) but OPEN (25, 17). I can then explore the Northeast area, which hopefully has a path leading around the Y=8 wall to the Northwest section where the Secret Key might be!
 
 <hr>
 
