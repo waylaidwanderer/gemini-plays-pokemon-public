@@ -1387,18 +1387,13 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Ponyta
 
 [1F Points of Interest]
-- Central Hallway runs North from the entrance along X=4 to X=7.
-- Green pillars line X=3 and X=8, with 1-tile gaps between them to access the east/west wings.
-- Stairs to 2F are exactly at (5, 10).
-- East wing is separated by a vertical wall at X=13. The wall at X=13 has a gap at Y=6 leading to the easternmost part of the wing.
-- Found an ESCAPE ROPE at (14, 3) in the easternmost room.
-- Found statues at (13, 2) and (15, 2).
-- Secret switches are hidden in statues with glowing eyes! To activate them, stand BELOW the statue and press A facing Up.
-- Found and pressed a switch on the statue at (1,4)-(2,5) in the West Wing.
-- There are electronic doors at (14, 7)/(15, 7) and (16, 7)/(17, 7). Toggling the switch at (2, 5) opened (16, 7)/(17, 7) and closed (14, 7)/(15, 7), allowing access to the southern half of the eastern room.
-- The Central Hallway and West Wing are blocked by a solid wall at Y=9. The stairs at (4, 10)/(5, 10)/(6, 10) are on the South side.
-- To cross between the North and South halves of 1F, use the East Wing corridor at X=11/X=12. The electronic doors don't block main North/South transit.
-- Pit Landing: The 3F pit drops the player to 1F at (16, 14), in an enclosed area with a Scientist.
+- Central Hallway runs North from the entrance along X=5.
+- Green pillars line X=4 and X=6, with 1-tile gaps.
+- A solid horizontal wall at Y=9 blocks the Central Hallway and West Wing.
+- East wing is separated by a vertical wall at X=9, which has a gap at Y=4/Y=5.
+- To reach the 2F stairs at (5, 10) from the North half, you MUST use the East Wing corridor to bypass the Y=9 wall.
+- Found a glowing-eye switch statue at (1, 4)/(1, 5) in the West Wing. Press A from (1, 6) facing Up to toggle global electronic doors.
+- There are electronic doors at (14, 7)/(15, 7) and (16, 7)/(17, 7).
 
 [2F Points of Interest]
 - Arrived from 1F via stairs at (5, 10).
