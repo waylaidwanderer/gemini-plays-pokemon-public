@@ -1105,6 +1105,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Map Hygiene: Global switch marked at 1F (2, 11). No redundant markers present.
 - Custom Tools: Current navigation and battle macros are sufficient.
 - Goal: Explore the newly opened southern areas of 2F to locate the stairs to 3F.
+- Turn 38575: Epiphany! I realized why the doors at (24, 13) were still closed. In Turn 38553 I used the macro `LLLLLA`, which pressed the switch ONCE. Then in Turn 38554 I manually pressed 'A', toggling it a SECOND time, reverting it back to the closed state (State B). I am heading back to 1F right now to press it exactly ONCE to reach State A and open the East Wing doors.
 
 <hr>
 
