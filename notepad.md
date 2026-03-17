@@ -1102,6 +1102,7 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - Tool Maintenance: Custom tools are functioning optimally. Using `A-` or `B-` prefixes in `move_sequence` is effectively preventing text box input-eating.
 - Map Hygiene: Added critical markers for the 1F stairs and 2F West Doors.
 - Current Status: Navigating the western edge of 2F (X=1, X=2) heading North. Spotted decorative statues at X=3.
+- Realization (Turn 39463): I have successfully navigated to 3F in the past (recorded in my context summary). Therefore, accessible stairs UP to 3F MUST exist. They might be right next to the central stairs at (5, 10) and I just forgot to map them, or they might be on 1F (e.g. past the doors at 16,5). Checking the immediate central area of 2F now.
 
 <hr>
 
