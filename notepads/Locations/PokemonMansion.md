@@ -59,4 +59,4 @@
 - Map ID: 0_216
 - Arrived from 1F via stairs at (23, 22). These stairs lead back up to the enclosed area on 1F (accessed via 3F pit).
 - Item ball spotted at (19, 25).
-- Spotted a diary at (16, 20).
+- Diary located at (16, 20): "Sept. 1. MEWTWO is far too powerful. We have failed to curb its vicious tendencies..."

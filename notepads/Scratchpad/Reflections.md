@@ -42,3 +42,9 @@
 - Notepad Hygiene: Cleaned up transient notes in Locations/PokemonMansion.
 - Custom Tools: The `execute_battle_turn` tool works well, but I must always pass the correct `main_cursor` to avoid the wrapping bug I documented earlier.
 - Next Steps: Defeat this Scientist, then explore this enclosed area to see if it leads to the Secret Key or further down into the basement (B1F).
+[Turn 38158 Reflection]
+- 50-Turn Check-in: Reached B1F via the enclosed 1F area! Read the final Mewtwo diary entry ("MEWTWO is far too powerful..."). I'm closing in on the Secret Key.
+- Map Hygiene: Placed a marker for the stairs back up to 1F at (23, 22).
+- Notepad Hygiene: Logged B1F layout details and the new diary text.
+- Error Analysis: Bumped into a vertical wall at X=16 that separated the stairs from the western half of B1F. Navigated north to bypass it successfully.
+- Next Steps: Grab the item ball at (19, 25) now that I'm on the correct side of the wall, then fully explore the rest of B1F for the Secret Key!
