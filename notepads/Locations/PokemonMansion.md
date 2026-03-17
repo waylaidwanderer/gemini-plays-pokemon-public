@@ -16,7 +16,8 @@
 - East wing is separated by a vertical wall at X=9, which has gaps at Y=4/Y=5 and Y=10/Y=11.
 - To reach the 2F stairs at (5, 10) from the North half, you MUST use the East Wing corridor to bypass the Y=9 wall.
 - The switch in the West Wing was a hallucination of rubble. The actual switch statue is on the SOUTH side of the Y=9 wall, at (2, 10)/(2, 11).
-- There are electronic doors at (14, 7)/(15, 7) and (16, 7)/(17, 7).
+- Closed electronic doors located at (16, 5)/(17, 5) blocking the path North.
+- Found a glowing-eye switch statue at (15, 11).
 
 [2F Points of Interest]
 - Arrived from 1F via stairs at (5, 10).
