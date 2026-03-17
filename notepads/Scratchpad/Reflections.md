@@ -66,3 +66,7 @@
 - Toggling the switch at (18, 25) CLOSED the electronic doors at (13, 22)/(13, 23). This traps me in the central/eastern section, which strongly supports my hypothesis that a path North must now be open! Walking North along X=18 to check.
 [Turn 38300 Observation]
 - The electronic doors at (16, 16) and (17, 16) are now OPEN! This confirms that the switch at (18, 25) toggles them. I can now walk North through the central passage to reach the northern hallways!
+[Turn 38307 Hypothesis Update]
+- Observation: The electronic doors at (26, 17) and (27, 17) are STILL CLOSED even after toggling the switch at (18, 25).
+- Deduction: The switch at (18, 25) does NOT control the northeast doors. It only toggles the central (16,16/17,16) and western access (13,22/13,23) doors.
+- New Plan: I need to toggle the switch at (18, 25) again to reopen the western access doors at (13, 22). Then, I must go to the western area and toggle the switch at (7, 15)! That switch likely controls the doors at (26, 17) and (9, 7).
