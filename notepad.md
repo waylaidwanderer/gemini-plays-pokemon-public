@@ -1094,16 +1094,16 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Missed Path: I found stairs at (6, 1) on 2F that act as a one-way drop. I must find the corresponding stairs UP to 3F to access the path that drops down there.
 
 [2F Exploration Status]
-- The NW corner (Y=4/5) and the SE area (26, 27) are dead ends or blocked.
-- The stairs to 3F MUST be located past the electronic doors at (24, 13) or (20, 17) in the East Wing.
 - Switch Puzzle Hypothesis VERIFIED (Turn 38642): The global switch at 1F (2, 11) has two states.
-  - State A: 2F West (7, 12) Closed, 2F East (24, 13) Open. (CURRENT STATE)
-  - State B: 2F West (7, 12) Open, 2F East (24, 13) Closed. 1F (16, 5) Closed.
-- I successfully toggled the switch to State A. The West doors at (7, 12) are now CLOSED. I will proceed to the East Wing to explore past the newly opened doors at (24, 13).
+  - State A: 2F West (7, 12) Closed, 2F East (24, 13) Open. B1F Central (20, 17) CLOSED.
+  - State B: 2F West (7, 12) Open, 2F East (24, 13) Closed. B1F Central (20, 17) OPEN.
+- State B is currently ACTIVE.
 
-[Recent Reflections (Turn 38678)]
-- Error Analysis: I assumed the doors at (26, 27) were closed without actually verifying them visually on this trip. I must go check them now.
-- NPC Oddity: The Burglar sprite at (28, 20) on 2F is unresponsive to 'A' interactions and does not initiate battle. I will ignore him.
+[MASTER PLAN FOR B1F]
+- Goal: Reach the isolated central area of B1F, which is past the doors at (20, 17).
+- Since State B is active, the doors at (20, 17) on B1F are OPEN.
+- To reach B1F: I must go to 3F, jump down the pit at (16, 14) to land on 1F, and take the stairs at (23, 22) down to B1F.
+- Current Step: Navigate to the 3F stairs at (16, 7) on 2F. I am currently re-orienting to the 2F stairs at (5, 10) to find the correct path to the northern corridor.
 
 <hr>
 
