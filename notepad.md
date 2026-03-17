@@ -1481,7 +1481,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - The path North at X=18 is blocked by a solid barrier at (18, 3). The electronic doors at Y=5 MUST be opened to reach the stairs.
 - An item ball is located at (18, 8).
 - A path leads West to the Northwest corner at Y=4/Y=5.
-- Found stairs at (6, 1) leading up. They are in the Northwest corner of 2F.
+- Found stairs at (6, 1) leading up. They are in the Northwest corner of 2F. TESTED: These stairs CANNOT be ascended. Stepping on them or walking into the wall above them does nothing. They must be a one-way exit dropping down from 3F.
 - Boulders/rubble are blocking the tiles at (4, 1) and (5, 1).
 - Verified: Pressing the switch at (10, 4)/(10, 5) opens the electronic doors at (15, 4)/(15, 5), allowing access to the eastern section of 3F.
 - On 3F, eastern section (past the doors at X=15): Path continues south of a wall at X=22. Found an item ball at (25, 5).
