@@ -4,9 +4,9 @@ Goal: Reach B1F isolated area to find the Secret Key.
 Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPEN. This is STATE B.
 
 [Door Logic]
-- 2F West doors (7, 12) are OPEN in State B, CLOSED in State A.
-- 2F East doors (24, 13) are CLOSED in State B, OPEN in State A.
-- Currently: East doors (24, 13) are CLOSED. I am in STATE B.
+- 2F West doors (7, 12) are CLOSED in State A.
+- 2F East doors (24, 13) are OPEN in State A.
+- Currently: East doors (24, 13) are OPEN. I am in STATE A.
 
 [The True Route]
 - HALLUCINATION CORRECTED: I never actually explored the area SOUTH of the East doors at (24, 13). I bumped into them while they were closed (State B) and mistakenly explored the Northern Hallway instead.
