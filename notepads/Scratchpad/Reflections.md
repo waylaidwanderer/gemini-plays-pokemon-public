@@ -20,4 +20,11 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
   2. Walk East along Y=11 to (12, 11).
   3. Walk North down the gap at X=12 to (12, 7) to reach the Northern Hallway.
   *CRITICAL INSIGHT*: This route uses Y=11 and X=12. The West electronic doors are at Y=12 to Y=15. Therefore, this route is ALWAYS OPEN regardless of the Switch State! We never needed the West doors!
-- CURRENT PLAN: I am currently at (24, 15) in State A. I have successfully passed through the East doors. I see what appears to be stairs going UP at (24, 19). I am walking South to investigate.
+- MASTER ROUTE TO SECRET KEY:
+  1. 1F: Set switch to State A (Done).
+  2. 2F: Pass South through OPEN East doors (24, 13). Take stairs at (26, 14) up to 3F.
+  3. 3F: Walk North through OPEN Northern doors (15, 4). Toggle switch at (10, 4) to State B.
+  4. 3F: Walk South through OPEN Southern doors (15, 10). Jump down pit at (16, 14).
+  5. 1F: Land in enclosed area. Take stairs down to B1F.
+  6. B1F: Walk West through OPEN Central doors (20, 17) to find Secret Key!
+- CURRENT PLAN: I hallucinated stairs at (24, 19). The real 3F stairs are right behind me at (26, 14)! I am at (24, 18). I will walk North to Y=14, East to X=26, and take the stairs up to 3F.
