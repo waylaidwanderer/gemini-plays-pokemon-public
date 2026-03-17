@@ -1098,9 +1098,11 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - Currently: East doors (24, 13) are CLOSED. I am in STATE B.
 
 [The True Route]
-- The 2F Central Inner Area is just a U-shaped loop around the cloning tank, connecting to the Northern Hallway.
-- The stairs to 3F MUST be somewhere on 2F.
-- I am verifying the North-West area of 2F. Currently at (2, 1). Walking South to check the corner at (2, 4) and (2, 5) for stairs or hidden paths.
+- HALLUCINATION CORRECTED: I never actually explored the area SOUTH of the East doors at (24, 13). I bumped into them while they were closed (State B) and mistakenly explored the Northern Hallway instead.
+- The true path to 3F is almost certainly SOUTH of the East doors at (24, 13).
+- To access it, I must be in State A (East doors OPEN).
+1. Return to 1F and toggle switch to State A.
+2. Return to 2F East doors at (24, 13) and walk SOUTH through them.
 
 <hr>
 
