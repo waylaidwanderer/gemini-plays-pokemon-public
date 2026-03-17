@@ -1446,7 +1446,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - A path leads West to the Northwest corner at Y=4/Y=5.
 - Found stairs at (6, 1) leading up. They are in the Northwest corner of 2F.
 - Boulders/rubble are blocking the tiles at (4, 1) and (5, 1).
-- Took stairs at (6, 1) from 2F to 3F. Arrived in the Northwest area of 3F.
 - Verified: Pressing the switch at (10, 4)/(10, 5) opens the electronic doors at (15, 4)/(15, 5), allowing access to the eastern section of 3F.
 - On 3F, eastern section (past the doors at X=15): Path continues south of a wall at X=22. Found an item ball at (25, 5).
 - The eastern hallway on 3F ends in a dead end at X=28.
