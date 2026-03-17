@@ -1380,7 +1380,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Central Hallway runs North from the entrance along X=5.
 - Green pillars line X=4 and X=6, with 1-tile gaps.
 - A solid horizontal wall at Y=9 blocks the Central Hallway and West Wing.
-- East wing is separated by a vertical wall at X=9, which has a gap at Y=4/Y=5.
+- East wing is separated by a vertical wall at X=9, which has gaps at Y=4/Y=5 and Y=10/Y=11.
 - To reach the 2F stairs at (5, 10) from the North half, you MUST use the East Wing corridor to bypass the Y=9 wall.
 - The switch in the West Wing was a hallucination of rubble. The actual switch statue is on the SOUTH side of the Y=9 wall, at (2, 10)/(2, 11).
 - There are electronic doors at (14, 7)/(15, 7) and (16, 7)/(17, 7).
