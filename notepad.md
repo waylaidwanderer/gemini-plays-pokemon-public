@@ -1181,6 +1181,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Turn 38373: Discovered that my note "Stairs to 3F are at (7, 10)" on 2F was a hallucination! The tile at (7, 10) on 2F is just regular floor. I must have noted the 3F arrival coordinate and assumed it mapped 1:1 to 2F. Exploring 2F to rediscover the actual stairs to 3F.
 - 2F East Wing Update: The corridor at X=11/12/13 is a dead end. There are no stairs here. The switch at (2, 11) must hold the key to progressing by opening the electronic doors at (7, 12)-(7, 15).
 - Returning to the West side of 2F to locate the stairs to 3F, since X=7 is clear.
+- Turn 38388: Visual hallucination confirmed. The tile at (13, 11) on 2F is a solid wall, not stairs. The entire X=13 column is a wall. I am now exploring the Northeast section of 2F via the X=12 corridor to find the real stairs to 3F.
 
 <hr>
 
