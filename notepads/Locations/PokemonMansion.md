@@ -62,3 +62,4 @@
 - There is a gap in the vertical wall (X=13) at Y=22 and Y=23, allowing access to the western half of B1F.
 - Found another switch statue at (7, 14)/(7, 15) in the western area.
 - Found closed electronic doors at (20, 17) and (21, 17). They block access to the West from this southern corridor.
+- There is a vertical wall at X=24 starting from Y=19 extending South. The path continues down X=25/X=26.
