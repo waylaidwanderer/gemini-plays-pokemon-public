@@ -1107,11 +1107,13 @@ Therefore, ascend to 3F in STATE A.
 10. Walk West through OPEN Central doors (20, 17) to Secret Key!
 
 [Backtracking Path to 1F]
-Currently at (21, 6).
-1. North to Y=3.
-2. East to X=26.
-3. South down X=26 to bypass the Y=4 and Y=8 blockades.
-4. From there, navigate towards X=9 to go North to Y=19.
+1. Navigate North/East to reach the top corridor at Y=3.
+2. Walk West along Y=3 to reach X=9.
+3. Walk South down X=9 to Y=19.
+4. Walk West through the pillar gap at (8, 19) to X=7.
+5. Walk North up X=7 to Y=16.
+6. Walk West to X=5.
+7. Walk North up X=5 to the stairs at (5, 10).
 
 <hr>
 
