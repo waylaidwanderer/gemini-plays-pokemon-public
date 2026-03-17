@@ -62,4 +62,4 @@
 - Found another switch statue at (7, 14)/(7, 15) in the western area.
 - Found closed electronic doors at (20, 17) and (21, 17). They block access to the West from this southern corridor.
 - There is a vertical wall at X=24 starting from Y=19 extending South. The path continues down X=25/X=26.
-- Verified: Toggling the 1F switch at (2, 11) CLOSES the electronic doors at (24, 13)/(25, 13) on 2F, blocking the path south in the East Wing. It must OPEN the doors in the West Wing at (7, 12)-(7, 15).
+- Verified (Turn 38660): The 1F switch at (2, 11) toggles the 2F doors. State A (Current): East Wing doors at (24, 13) are OPEN, West Wing doors at (7, 12) are CLOSED. State B: East CLOSED, West OPEN.
