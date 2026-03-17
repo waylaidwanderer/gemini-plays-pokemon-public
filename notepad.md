@@ -1103,7 +1103,7 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - To access it, I must be in State A (East doors OPEN).
 1. Return to 1F and toggle switch to State A.
 2. Return to 2F East doors at (24, 13) and walk SOUTH through them.
-- Heading to 1F stairs at (5, 10). The East doors at (24, 13) block Westward access to the Inner Area, but they DO NOT block Southward travel down the East Wing corridor (X=26). I must go East to X=26, walk South to Y=14, then West to the stairs.
+- Heading to 1F stairs at (5, 10). Rubble blocks the East Wing corridor at X=26, Y=13. The ONLY path South is through the East doors at (24, 13). Testing if they are currently OPEN.
 
 <hr>
 
