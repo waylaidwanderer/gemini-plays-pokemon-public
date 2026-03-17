@@ -1097,7 +1097,7 @@ Therefore, ascend to 3F in STATE A.
 [The True Route]
 1. Start in State A (1F switch at 2,11).
 2. On 2F, from stairs (5, 10), walk South to Y=19, East to X=9.
-3. The East doors at (24, 13) are CLOSED in State A (yellow striped blocks).
+3. The East doors at (24, 13) are OPEN in State A, granting access to the East wing.
 4. Walk SOUTH down X=9 to Y=26.
 5. Turn East at Y=26 to bypass the X=11 wall and reach the South-East doors at (26, 27).
 6. In State A, these doors are OPEN! Pass through and ascend to 3F.
