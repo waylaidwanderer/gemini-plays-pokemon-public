@@ -1103,7 +1103,7 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - To access it, I must be in State A (East doors OPEN).
 1. Return to 1F and toggle switch to State A.
 2. Return to 2F East doors at (24, 13) and walk SOUTH through them.
-- I am currently heading back to the stairs at (5, 10) to return to 1F.
+- I am currently heading back to the stairs at (5, 10) to return to 1F. Currently at (27, 7).
 
 <hr>
 
