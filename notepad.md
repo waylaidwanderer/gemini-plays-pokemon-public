@@ -1399,7 +1399,7 @@ I am on 2F West. I must return to 1F via stairs at (5, 10), toggle the switch to
 - A path leads West to the Northwest corner at Y=4/Y=5, ending in a dead end blocked by rubble at (2, 4)/(2, 5). There are NO stairs here.
 - Found stairs at (6, 1) dropping down from 3F. TESTED: These stairs CANNOT be ascended. They must be a one-way exit.
 - Found stairs at (16, 7)/(17, 7). VERIFIED (Turn 38842): These are INACCESSIBLE from 2F (solid walls on all reachable sides). They act as a one-way drop down from 3F. The true stairs UP to 3F must be behind the West Wing doors.
-- Boulders/rubble are blocking the tiles at (4, 1) and (5, 1).
+- The tiles at (4, 1) and (5, 1) are clear floor, allowing access from the far West side to the Northern Hallway at Y=2.
 - The wall at X=8 on 2F consists of green pillars with gaps at Y=19, Y=21, Y=23, and Y=25.
 - In the East wing of 2F, there is a solid vertical wall at X=11 extending from at least Y=17 to Y=25.
 - Tested statues at (13, 2), (15, 2), (17, 2), (19, 2), and (21, 2) in the Northeast room of 2F. None of them have hidden switches. The path continues East to X=26 and then South.
