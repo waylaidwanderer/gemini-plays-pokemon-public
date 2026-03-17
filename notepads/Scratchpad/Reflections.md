@@ -11,4 +11,4 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 [The True Route]
 - The 2F Central Inner Area is just a U-shaped loop around the cloning tank, connecting to the Northern Hallway.
 - The stairs to 3F MUST be somewhere on 2F.
-- I am exploring the Northern Hallway. There are monitors at (19, 2) and (21, 2). Going around them to the North at Y=1 to continue exploring West.
+- I am exploring the Northern Hallway. I bypassed the monitors at X=21 and X=19. Currently at (18, 1). Continuing West along Y=1.
