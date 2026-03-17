@@ -30,3 +30,7 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 6. 1F: Land in enclosed area. Take stairs down to B1F.
 7. B1F: Central doors (20, 17) are OPEN! Walk West to find the Secret Key.
 *CRITICAL INSIGHT*: The switch statue at (21, 14) is a FAKE red herring. Pressing it does nothing! The path East past X=13 in the Northern Hallway is NOT blocked.
+[Turn 39770 Reflection]
+- Discovered TYPE_2889 in the East Wing is RUBBLE, not an item ball. Hallucination corrected.
+- I am currently in State A, exploring the South-East area of 2F since the East Doors (24, 13) are OPEN.
+- I will trace this path to see if it leads to the 3F stairs or another switch.
