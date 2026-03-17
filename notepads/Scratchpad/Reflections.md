@@ -20,4 +20,4 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
   2. Walk East along Y=11 to (12, 11).
   3. Walk North down the gap at X=12 to (12, 7) to reach the Northern Hallway.
   *CRITICAL INSIGHT*: This route uses Y=11 and X=12. The West electronic doors are at Y=12 to Y=15. Therefore, this route is ALWAYS OPEN regardless of the Switch State! We never needed the West doors!
-- CURRENT PLAN: Toggle 1F switch to State A. Use the newly discovered X=12 route to return to the Northern Hallway, go East to (24, 7), then South through the OPEN East doors at (24, 13) to find the 3F stairs.
+- CURRENT PLAN: Use the newly discovered X=12 route to return to the Northern Hallway, go East to (24, 7), then South through the OPEN East doors at (24, 13) to find the 3F stairs.
