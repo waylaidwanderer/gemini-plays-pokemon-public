@@ -1151,6 +1151,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Puzzle Logic: The switch at (18, 25) controls the electronic doors. Right now, it is toggled such that the door at (9, 7) is OPEN, but the doors at (25, 17) and (28, 17) are CLOSED.
 - Obstacle: I cannot reach the open door at (9, 7) because of a solid horizontal wall at Y=8 that spans from X=10 to at least X=25.
 - Plan: I need to go back and toggle the switch at (18, 25). This will close (9, 7) but OPEN (25, 17). I can then explore the Northeast area, which hopefully has a path leading around the Y=8 wall to the Northwest section where the Secret Key might be!
+[Turn 38299 Observation]
+- Toggling the switch at (18, 25) CLOSED the electronic doors at (13, 22)/(13, 23). This traps me in the central/eastern section, which strongly supports my hypothesis that a path North must now be open! Walking North along X=18 to check.
 
 <hr>
 
