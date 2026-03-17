@@ -28,7 +28,7 @@
 - Pit Landing: The 3F pit drops the player to 1F at (16, 14), in an enclosed area with a Scientist.
 [2F Points of Interest]
 - Arrived from 1F via stairs at (5, 10).
-- Stairs to 3F are at (7, 10).
+- Stairs to 3F were falsely recorded as (7, 10). Found stairs at (13, 11), investigating if they lead to 3F.
 - Found a switch statue at (2, 10)/(2, 11).
 [2F Continued]
 - Electronic doors located at (7, 12) to (7, 15).
