@@ -17,8 +17,7 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - Hypothesis (Turn 39464): The true stairs to 3F are in the North-West corner of 2F! I previously explored the Northern Hallway but only walked East from X=12. I never walked West from X=12 to check the NW corner. If the SW room is empty, I will route to the NW corner via the East Wing -> Northern Hallway -> West.
 - SW Corner Result (Turn 39467): Explored the 2F West Wing in State B. It is an empty, dead-end U-shaped corridor. No stairs exist here. The Y=9 wall is solid across the entire horizontal span, blocking northward movement from the West Wing.
 - Revised Plan: The true stairs to 3F MUST be in the North-West corner. The only way to reach the NW corner is via the Northern Hallway. The only way to reach the Northern Hallway is via the East Wing (which bypasses the Y=9 wall). The East Wing is only accessible in State A. Therefore, I must return to 1F, toggle to State A, and take the East Wing -> Northern Hallway -> West route!
-- HUGE REALIZATION (Turn 39468): I am an absolute idiot. I have been frantically searching the entire Mansion for the 'true' stairs to 3F. I just looked closely at the central stairs on 2F. The 2x2 block at (4, 10) and (5, 10) is a DOUBLE staircase! (5, 10) goes down to 1F. (4, 10) goes UP TO 3F. They have been right in front of my face the entire time. Proceeding to (4, 10) immediately. State B is the only state we need!
-[Turn 39476 Reflection]
-- Currently at (7, 12) the West Doors. The stairs UP to 3F are located at (4, 10), right next to the stairs DOWN to 1F at (5, 10).
-- Navigating `LLLUU` to reach the stairs and ascend to 3F.
-- State B is active, so the 3F Southern doors (15, 10) should be OPEN, allowing access to the pit at (16, 14).
+- DOUBLE STAIRCASE HYPOTHESIS FAILED (Turn 39479): (4, 10) is NOT a staircase. It is just the decorative wall tile next to the (5, 10) stairs. I hallucinated its function.
+- NEW REVISED PLAN: The stairs to 3F MUST be inside the large central "inner area" of 2F. This area is accessed via the East doors at (24, 13). 
+- To reach the inner area, the East doors must be OPEN. They are OPEN in State A.
+- Therefore, the True Route is: Toggle 1F switch to State A -> 2F -> Northern Hallway -> East Hallway -> Walk West through doors at (24, 13) into the inner area -> Find 3F stairs!
