@@ -1137,6 +1137,10 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Notepad Hygiene: Logged B1F layout details and the new diary text.
 - Error Analysis: Bumped into a vertical wall at X=16 that separated the stairs from the western half of B1F. Navigated north to bypass it successfully.
 - Next Steps: Grab the item ball at (19, 25) now that I'm on the correct side of the wall, then fully explore the rest of B1F for the Secret Key!
+[Turn 38211 Reflection]
+- 50-Turn Check-in: I've fully entered the western half of B1F and defeated a Burglar. I spotted another glowing-eye switch statue at (7, 14)/(7, 15) earlier.
+- Map Hygiene: Placed markers for the switch statues on B1F to track the puzzle state.
+- Next Steps: Toggle the switch at (7, 15) and explore the newly opened paths to find the Secret Key!
 
 <hr>
 
