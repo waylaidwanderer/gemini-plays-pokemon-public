@@ -1109,6 +1109,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Switch at (2, 11) toggles doors at (7, 12)-(7, 15).
 - Currently exploring the far East corridor (X=24 to X=26) to find the real stairs to 3F. Discovered closed electronic doors at (20, 17)/(21, 17).
 - Turn 38410: Visual hallucination again. There are no stairs at (25, 14), just regular floor. The path South is blocked by rubble at (24, 24)/(25, 24), but can be bypassed by walking East to X=26. Continuing South.
+- The doors at (26, 27)/(27, 27) are closed and block a dead end. Toggling the switch at (2, 11) is required to explore the paths blocked by the doors at (20, 17)/(21, 17) and (26, 27). Backtracking to the switch!
 
 <hr>
 
