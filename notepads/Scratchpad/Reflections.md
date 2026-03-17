@@ -6,7 +6,7 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 [Door Logic]
 - 2F West doors (7, 12) are CLOSED in State A.
 - 2F East doors (24, 13) are OPEN in State A.
-- Currently: East doors (24, 13) are OPEN. I am in STATE A.
+- Currently: West doors (7, 12) are OPEN. I am in STATE B.
 
 [The True Route]
 - HALLUCINATION CORRECTED: I never actually explored the area SOUTH of the East doors at (24, 13). I bumped into them while they were closed (State B) and mistakenly explored the Northern Hallway instead.
@@ -20,13 +20,6 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
   2. Walk East along Y=11 to (12, 11).
   3. Walk North down the gap at X=12 to (12, 7) to reach the Northern Hallway.
   *CRITICAL INSIGHT*: This route uses Y=11 and X=12. The West electronic doors are at Y=12 to Y=15. Therefore, this route is ALWAYS OPEN regardless of the Switch State! We never needed the West doors!
-- MASTER ROUTE TO SECRET KEY:
-  1. 1F: Set switch to State A (Done).
-  2. 2F: Pass South through OPEN East doors (24, 13). Walk South to Y=27. Pass through OPEN South-East doors to find 3F stairs.
-  3. 3F: Walk North through OPEN Northern doors (15, 4). Toggle switch at (10, 4) to State B.
-  4. 3F: Walk South through OPEN Southern doors (15, 10). Jump down pit at (16, 14).
-  5. 1F: Land in enclosed area. Take stairs down to B1F.
-  6. B1F: Walk West through OPEN Central doors (20, 17) to find Secret Key!
 - HYPOTHESIS FOR MASTER ROUTE:
   1. 1F: Switch to State B.
   2. 2F: West doors (7, 12) are now OPEN. Walk South through them into the unexplored South-West area of 2F!
