@@ -1103,7 +1103,7 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 1. Toggle 1F switch to State A.
 2. Go to 2F, navigate East Wing -> Northern Hallway -> East Hallway (X=26).
 3. Walk South through OPEN doors at (24, 13)/(25, 13), then West into the inner area.
-4. Find 3F stairs!
+4. Find 3F stairs! (Currently exploring 2F Inner Area)
 
 <hr>
 
