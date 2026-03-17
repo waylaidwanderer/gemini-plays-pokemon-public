@@ -7,12 +7,13 @@ Therefore, ascend to 3F in STATE A.
 
 [The True Route]
 1. Start in State A (1F switch at 2,11).
-2. On 2F, from stairs (5, 10), walk South to Y=19, East to X=9.
-3. The East doors at (24, 13) are OPEN in State A, granting access to the East wing.
-4. Walk SOUTH down X=9 to Y=26.
-5. Turn East at Y=26 to bypass the X=11 wall and reach the South-East doors at (26, 27).
-6. In State A, these doors are OPEN! Pass through and ascend to 3F.
-7. On 3F, walk West through OPEN Northern doors (15, 4).
-8. Toggle 3F switch at (10, 4) to STATE B!
-9. Jump down pit at (16, 14), take stairs to B1F.
-10. Walk West through OPEN Central doors (20, 17) to Secret Key!
+2. On 2F, from stairs (5, 10), navigate to the Northern Hallway (Y=2 or Y=3).
+3. Walk East to X=23.
+4. Walk South down X=23 to Y=13.
+5. The East doors at (24, 13) are OPEN in State A! Pass through them to X=25/26.
+6. Walk South to the South-East doors at (26, 27).
+7. In State A, these doors are OPEN! Pass through and ascend to 3F.
+8. On 3F, walk West through OPEN Northern doors (15, 4).
+9. Toggle 3F switch at (10, 4) to STATE B!
+10. Jump down pit at (16, 14), take stairs to B1F.
+11. Walk West through OPEN Central doors (20, 17) to Secret Key!
