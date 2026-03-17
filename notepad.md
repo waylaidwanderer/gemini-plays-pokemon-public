@@ -1436,9 +1436,8 @@ I am on 2F West. I must return to 1F via stairs at (5, 10), toggle the switch to
 - Verified: 1F switch at (2, 11) toggles 2F doors. State A: East Wing (24, 13) OPEN, West Wing (7, 12) CLOSED. South-East 2F doors at (26, 27)/(27, 27) CLOSED. B1F Central doors (20, 17) CLOSED. State B (Current): East CLOSED, West OPEN, South-East OPEN, B1F Central OPEN.
 [2F Navigation Routes]
 - The stairs to 1F are at (5, 10).
-- A solid wall at Y=9 separates the Northern Hallway from the stairs area.
-- To travel between the stairs (5, 10) and the Northern Hallway (Y=1), you MUST use the East Wing corridor at X=26.
-- Route from Northern Hallway to Stairs: Walk East to (26, 1), South to (26, 10), West to (5, 10).
+- VERIFIED: You CAN walk straight North from the stairs at (5, 10) to the Northern Hallway at (5, 1). There is NO horizontal wall at Y=9 blocking this path. My previous struggles were due to stopping short.
+- A vertical wall of rocks at X=22/X=23 blocks East/West travel south of Y=4. To reach the East Wing (X=26) from the stairs, you must go North to Y=1, East to X=26, then South.
 - The East doors at (24, 13) and West doors at (7, 12) are SOUTH of the stairs area. They do NOT block access to the stairs or the Northern Hallway.
 
 <hr>
