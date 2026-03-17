@@ -1088,22 +1088,22 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 <h1><code>Scratchpad/Reflections</code></h1>
 
 [Active Reflections]
-[B1F Puzzle Hypothesis]
-- The switch at (18, 25) toggles central (16, 16) and western (13, 22) doors.
-- The Northwest section (with switch at 7, 15) is completely isolated by solid walls. It MUST be accessed from a different floor via a pit or stairs.
-- Missed Path: I found stairs at (6, 1) on 2F that act as a one-way drop. I must find the corresponding stairs UP to 3F to access the path that drops down there.
+[Mansion Master Puzzle Solution]
+ALL switches toggle a SINGLE global state (State A / State B).
+Goal: Reach B1F isolated area (requires B1F Central doors at 20, 17 to be OPEN = State B).
+Problem: State B closes 2F East Wing, preventing access to 3F stairs at (16, 7).
+Solution Route:
+1. Toggle to State A via 1F switch at (2, 11). (2F East OPEN).
+2. Go to 2F East and take stairs at (16, 7) UP to 3F.
+3. On 3F, we arrive in the Northeast room. In State A, the Northern doors (15, 4) are OPEN. Walk through them to main 3F area.
+4. Press the 3F switch at (10, 4) to toggle to State B!
+5. In State B, 3F Southern doors (15, 10) OPEN.
+6. Walk to pit at (16, 14) and jump down to 1F enclosed area.
+7. Take stairs down to B1F.
+8. Walk through the OPEN B1F Central doors (20, 17) to the goal!
 
-[2F Exploration Status]
-- Switch Puzzle Hypothesis VERIFIED (Turn 38642): The global switch at 1F (2, 11) has two states.
-  - State A: 2F West (7, 12) Closed, 2F East (24, 13) Open. B1F Central (20, 17) CLOSED.
-  - State B: 2F West (7, 12) Open, 2F East (24, 13) Closed. B1F Central (20, 17) OPEN.
-- State B is currently ACTIVE.
-
-[MASTER PLAN FOR B1F]
-- Goal: Reach the isolated central area of B1F, which is past the doors at (20, 17).
-- Since State B is active, the doors at (20, 17) on B1F are OPEN.
-- To reach B1F: I must go to 3F, jump down the pit at (16, 14) to land on 1F, and take the stairs at (23, 22) down to B1F.
-- Current Step: Navigate to the 3F stairs at (16, 7) on 2F. I am currently re-orienting to the 2F stairs at (5, 10) to find the correct path to the northern corridor.
+[Current Step]
+I am on 2F West. I must return to 1F via stairs at (5, 10), toggle the switch to State A, and begin the Master Route!
 
 <hr>
 
