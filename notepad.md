@@ -1513,6 +1513,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - 1F Map ID is 0_214. 2F Map ID is 0_165.
 - The wall at X=8 on 2F consists of green pillars with gaps at Y=19, Y=21, Y=23, and Y=25, similar to 1F.
 - In the East wing of 2F, there is a solid vertical wall at X=11 extending from at least Y=17 to Y=25. I am exploring North along X=10 to find a way around it.
-- Tested statues at (13, 2), (15, 2), and (17, 2) in the Northeast room of 2F. None of them have hidden switches.
+- Tested statues at (13, 2), (15, 2), and (17, 2) in the Northeast room of 2F. None have switches. Testing remaining statues at (19, 2) and (21, 2).
 
 <hr>
