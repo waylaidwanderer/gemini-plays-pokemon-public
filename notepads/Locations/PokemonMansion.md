@@ -53,3 +53,4 @@
 - Pressed the secret switch on the statue at (10, 4)/(10, 5) on 3F.
 - Verified: Pressing the switch at (10, 4)/(10, 5) opens the electronic doors at (15, 4)/(15, 5), allowing access to the eastern section of 3F.
 - On 3F, eastern section (past the doors at X=15): Path continues south of a wall at X=22. Found an item ball at (25, 5).
+- The eastern hallway on 3F ends in a dead end at X=28. Returning west to investigate the pit at X=12.
