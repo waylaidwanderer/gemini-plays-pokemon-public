@@ -54,4 +54,4 @@
 - The eastern hallway on 3F ends in a dead end at X=28.
 - 3F Pit: The top edge of the pit at (12, 13) to (15, 13) is a solid wall. You must jump down from the right side at (16, 14) or (17, 14).
 - The switch at (10, 4)/(10, 5) also toggles the electronic doors at (15, 10)/(15, 11). When the northern doors at (15, 4)/(15, 5) are open, the southern doors at (15, 10)/(15, 11) are closed. I must toggle the switch to open the southern doors to reach the pit.
-- Found stairs down to B1F at (16, 26) / (17, 26) in the enclosed area.
+- Found stairs down to B1F at (21, 23). Currently blocked by a vertical wall at X=16. Need to find a way around.
