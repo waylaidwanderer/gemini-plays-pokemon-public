@@ -1451,6 +1451,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [Encounters]
 - Vulpix
 - Ponyta
+
+[1F Points of Interest Continued]
 - East wing is separated by a vertical wall at X=13. Exploring the corridor between X=11 and X=13.
 - The wall at X=13 has a gap at Y=6. This leads to the easternmost part of the wing.
 - There is a solid obstacle at (16, 7) and (17, 7) (orange with yellow stripes). It may be a closed electronic door.
