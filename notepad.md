@@ -1110,6 +1110,7 @@ Therefore, ascend to 3F in STATE A.
 12. Toggle 3F switch at (10, 4) to STATE B!
 13. Jump down pit at (16, 14), take stairs to B1F.
 14. Walk West through OPEN Central doors (20, 17) to Secret Key!
+- Turn 39259: Realized 2F East Doors (24, 13) are CLOSED. I am in State B because I accidentally pressed the 1F switch on Turn 39229. I must return to 1F and press the switch to return to State A.
 
 <hr>
 
