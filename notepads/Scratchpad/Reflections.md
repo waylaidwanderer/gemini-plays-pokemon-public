@@ -75,3 +75,8 @@
 - New Plan: I am currently toggling the switch at (18, 25) again to reopen the path to the western area. Once open, I will navigate to the second switch statue at (7, 15) and toggle it, which should hopefully open the path to the Secret Key!
 - Map Hygiene: I will add a marker for this central switch statue at (18, 25) for completeness.
 - Custom Tools: My battle automation tools are working perfectly to conserve PP and quickly escape wild encounters.
+[Turn 38323 Breakthrough]
+- Layout Analysis: I have thoroughly analyzed the B1F layout. The western switch at (7, 15) and the open door at (9, 7) are completely isolated from the main B1F area by solid walls at X=9 and Y=8, and a table at Y=17. There are NO hidden gaps. 
+- Conclusion: The Northwest section of B1F MUST be accessed from above. 
+- Missed Path: I reviewed my notes and realized I completely skipped the stairs at (6, 1) on 2F! These stairs likely lead to a new section of 3F that drops into the Northwest area of B1F.
+- New Plan: I will use Dugtrio's Dig to quickly exit the dungeon, heal at the Pokemon Center, and make a beeline for the unexplored stairs at (6, 1) on 2F!
