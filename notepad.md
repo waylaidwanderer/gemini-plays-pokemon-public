@@ -1106,22 +1106,6 @@ Therefore, ascend to 3F in STATE A.
 9. Jump down pit at (16, 14), take stairs to B1F.
 10. Walk West through OPEN Central doors (20, 17) to Secret Key!
 
-[Current Step]
-Currently on 2F at (17, 11). Navigating back to the 1F stairs at (5, 10).
-Corrected Path:
-1. North to Y=3 (X=17 is a dead end).
-2. East to X=23.
-3. South down X=23 to Y=11.
-4. West to X=21.
-5. South down X=21 to Y=23.
-6. West to X=9.
-7. North to Y=19.
-8. West to X=7.
-9. North to Y=16.
-10. West to X=5.
-11. North to the stairs at (5, 10).
-Once on 1F, interact with statue at (2, 12) to toggle to State A.
-
 <hr>
 
 <h1><code>Scratchpad/Mechanics</code></h1>
