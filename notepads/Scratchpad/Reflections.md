@@ -25,3 +25,5 @@ Therefore, ascend to 3F in STATE A.
 [Door Logic Hypothesis to Test]
 - Doors do not all open/close together; some are open when others are closed.
 - I need to empirically test the 2F South-East doors at (26, 27) in BOTH switch states to verify if they are ever actually open, rather than assuming they must be open in State A.
+[Turn 39406 Reflection]
+- Currently executing the True Route in State A to empirically test the 2F South-East doors at (26, 27). Custom tools are functioning well, but I need to be careful of wild encounters interrupting movement sequences. Using targeted 'A' presses to clear text before moving is the current best practice. Goals are clear and outcome-oriented. Map markers are currently accurate.
