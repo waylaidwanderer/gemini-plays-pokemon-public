@@ -1385,7 +1385,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - To reach the 2F stairs at (5, 10) from the North half, you MUST use the East Wing corridor to bypass the Y=9 wall.
 - The switch in the West Wing was a hallucination of rubble. The actual switch statue is on the SOUTH side of the Y=9 wall, at (2, 10)/(2, 11).
 - Closed electronic doors located at (16, 5)/(17, 5) blocking the path North.
-- Found a glowing-eye switch statue at (15, 11).
+- The glowing-eye statue at (15, 10)/(15, 11) is a red herring; it does not have a hidden switch.
 
 [2F Points of Interest]
 - Arrived from 1F via stairs at (5, 10).
