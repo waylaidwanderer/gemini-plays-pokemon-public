@@ -10,7 +10,7 @@
 - Switch Puzzle Hypothesis: The global switch at 1F (2, 11) has two states.
   - State A: 2F West (7, 12) Closed, 2F East (24, 13) Open.
   - State B: 2F West (7, 12) Open, 2F East (24, 13) Closed. 1F (16, 5) Closed.
-- Turn 38575 Hypothesis: I accidentally double-toggled the switch because my movement macro included an 'A' press, and then I manually pressed 'A' again the next turn. I am heading to 1F to press it EXACTLY ONCE to reach State A and open the East Wing doors.
+- Turn 38575/38589 Hypothesis: I accidentally double-toggled the switch earlier. Furthermore, on Turn 38589, I failed to properly interact with it because I didn't wait to see the "A secret switch! Press it? YES/NO" prompt and the subsequent "Whoosh!" text. The switch state did NOT change. I am heading back to 1F to press it from (2, 12) facing Up, explicitly confirm YES, and verify the "Whoosh!" text before leaving.
 
 [Recent Reflections]
 - Error Analysis: Misidentified rubble as stairs and a diary as a switch. Must physically verify objects by interacting with them rather than assuming their identity based on visual similarities.
