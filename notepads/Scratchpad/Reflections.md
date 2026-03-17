@@ -64,3 +64,5 @@
 - Plan: I need to go back and toggle the switch at (18, 25). This will close (9, 7) but OPEN (25, 17). I can then explore the Northeast area, which hopefully has a path leading around the Y=8 wall to the Northwest section where the Secret Key might be!
 [Turn 38299 Observation]
 - Toggling the switch at (18, 25) CLOSED the electronic doors at (13, 22)/(13, 23). This traps me in the central/eastern section, which strongly supports my hypothesis that a path North must now be open! Walking North along X=18 to check.
+[Turn 38300 Observation]
+- The electronic doors at (16, 16) and (17, 16) are now OPEN! This confirms that the switch at (18, 25) toggles them. I can now walk North through the central passage to reach the northern hallways!
