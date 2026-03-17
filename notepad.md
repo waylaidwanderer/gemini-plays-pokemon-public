@@ -1111,11 +1111,6 @@ Therefore, ascend to 3F in STATE A.
 13. Jump down pit at (16, 14), take stairs to B1F.
 14. Walk West through OPEN Central doors (20, 17) to Secret Key!
 
-[Current Step]
-Executing True Route on 2F.
-Currently at (5, 15).
-Heading to the East Wing corridor at X=9 via the gap at (8, 19).
-
 <hr>
 
 <h1><code>Scratchpad/Mechanics</code></h1>
