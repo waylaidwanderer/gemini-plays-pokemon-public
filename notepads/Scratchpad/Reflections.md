@@ -36,3 +36,9 @@
 - Notepad Hygiene: Overwatch suggested cleaning up transient notes from Locations/PokemonMansion, which I did. Adding this reflection to track progress.
 - Error Analysis: My strategy of physically bumping into the electronic doors before toggling the switch was praised by Overwatch. I will continue to empirically test all assumptions rather than relying purely on visual tile types.
 - Next Steps: Continue exploring the eastern and southern areas of 3F (or beyond) to find the next staircase or the Secret Key.
+[Turn 38107 Reflection]
+- 50-Turn Check-in: I successfully navigated the 3F pit and landed in the enclosed area on 1F (16, 14). I am currently battling a Scientist.
+- Map Hygiene: Placed a marker at (16, 14) for the pit landing.
+- Notepad Hygiene: Cleaned up transient notes in Locations/PokemonMansion.
+- Custom Tools: The `execute_battle_turn` tool works well, but I must always pass the correct `main_cursor` to avoid the wrapping bug I documented earlier.
+- Next Steps: Defeat this Scientist, then explore this enclosed area to see if it leads to the Secret Key or further down into the basement (B1F).
