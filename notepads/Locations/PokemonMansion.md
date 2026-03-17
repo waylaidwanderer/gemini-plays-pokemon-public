@@ -27,7 +27,7 @@
 - Electronic doors located at (7, 12) to (7, 15).
 - A path leads West to the Northwest corner at Y=4/Y=5, ending in a dead end blocked by rubble at (2, 4)/(2, 5). There are NO stairs here.
 - Found stairs at (6, 1) dropping down from 3F. TESTED: These stairs CANNOT be ascended. They must be a one-way exit.
-- Found stairs UP to 3F at (16, 7)/(17, 7). Verified: They act as a solid wall if approached from the North (Y=6). They MUST be accessed from the South (Y=8).
+- Found stairs at (16, 7)/(17, 7). VERIFIED (Turn 38842): These are INACCESSIBLE from 2F (solid walls on all reachable sides). They act as a one-way drop down from 3F. The true stairs UP to 3F must be behind the West Wing doors.
 - Boulders/rubble are blocking the tiles at (4, 1) and (5, 1).
 - The wall at X=8 on 2F consists of green pillars with gaps at Y=19, Y=21, Y=23, and Y=25.
 - In the East wing of 2F, there is a solid vertical wall at X=11 extending from at least Y=17 to Y=25.
