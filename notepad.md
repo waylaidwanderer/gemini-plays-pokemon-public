@@ -1386,7 +1386,7 @@ I am currently stuck at the closed doors at (26, 27) on 2F. I will use Dig to wa
 
 [1F Points of Interest]
 - Central Hallway runs North from the entrance along X=5.
-- Green pillars line X=4 and X=6, with 1-tile gaps.
+- Green pillars line X=3 and X=8, with 1-tile gaps.
 - A solid horizontal wall at Y=9 blocks the Central Hallway and West Wing.
 - East wing is separated by a vertical wall at X=9, which has gaps at Y=4/Y=5 and Y=10/Y=11.
 - To reach the 2F stairs at (5, 10) from the North half, you MUST use the East Wing corridor to bypass the Y=9 wall.
