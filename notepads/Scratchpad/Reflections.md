@@ -12,10 +12,10 @@ Therefore, ascend to 3F in STATE A.
 3. Walk North up X=9 to Y=11.
 4. Walk East to X=12 (bypassing Y=8 rubble).
 5. Walk North up X=12 to the Northern Hallway at Y=3.
-6. Walk East to X=26.
-7. Walk South down X=26 to Y=13.
-8. The East doors at (24, 13) are OPEN in State A! Pass through to X=25/26.
-9. Walk South to the South-East doors at (26, 27).
+6. Walk East along the Northern Hallway to X=26.
+7. Walk South down the Eastern Hallway (X=26) all the way to Y=26.
+8. (Note: The East doors at 24,13 are irrelevant to this path as they connect to the inner area, not blocking the N/S hallway).
+9. The South-East doors at (26, 27) will be OPEN in State A!
 10. Pass through and ascend to 3F.
 11. On 3F, walk West through OPEN Northern doors (15, 4).
 12. Toggle 3F switch at (10, 4) to STATE B!
