@@ -1463,5 +1463,6 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
   - 3F Northern doors (15, 4) CLOSED.
   - 3F Southern doors (15, 10) OPEN.
   - B1F Central doors (20, 17) OPEN.
+- 2F Central doors located at (20, 17) and (21, 17). In State A, these are CLOSED. They block the path South to Y=18.
 
 <hr>
