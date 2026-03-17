@@ -1099,8 +1099,8 @@ Solution Route:
    - Route to Stairs: From 2F (10, 21), backtrack North to Y=3 via X=10 and X=12.
    - Walk East along Y=3 to X=26, then South down X=26 to Y=13.
    - Walk West to the East Wing doors at (24, 13) (OPEN in State A).
-   - Go West through doors, then South to Y=16.
-   - Walk West along Y=16 to X=16.
+   - Go West through doors, then South through the OPEN electronic doors at (20, 17).
+   - Continue South past the plants to Y=20, then walk West towards X=16.
    - Walk North up X=16 to reach the stairs at (16, 7)!
    - Take stairs UP to 3F.
 3. On 3F, we arrive in the Northeast room. In State A, the Northern doors (15, 4) are OPEN. Walk through them to main 3F area.
