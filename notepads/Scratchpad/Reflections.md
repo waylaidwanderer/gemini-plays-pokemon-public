@@ -18,9 +18,7 @@ Therefore, ascend to 3F in STATE A.
 10. Walk West through OPEN Central doors (20, 17) to Secret Key!
 
 [Backtracking Path to 1F]
-1. Navigate to the East Wing corridor at X=9.
-2. Walk South down X=9 to Y=19.
-3. Walk West through the pillar gap at (8, 19) to X=7.
-4. Walk North up X=7 to Y=16.
-5. Walk West to X=5.
-6. Walk North up X=5 to the stairs at (5, 10).
+Currently at (7, 19).
+1. Walk North up X=7 to Y=16.
+2. Walk West to X=5.
+3. Walk North up X=5 to the stairs at (5, 10).
