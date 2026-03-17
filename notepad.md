@@ -1159,6 +1159,11 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Observation: The electronic doors at (26, 17) and (27, 17) are STILL CLOSED even after toggling the switch at (18, 25).
 - Deduction: The switch at (18, 25) does NOT control the northeast doors. It only toggles the central (16,16/17,16) and western access (13,22/13,23) doors.
 - New Plan: I need to toggle the switch at (18, 25) again to reopen the western access doors at (13, 22). Then, I must go to the western area and toggle the switch at (7, 15)! That switch likely controls the doors at (26, 17) and (9, 7).
+[Turn 38315 Reflection]
+- 50-Turn Check-in: I mapped out the eastern section of B1F and discovered that the switch at (18, 25) does NOT open the northeast doors at (26, 17). It only toggles the central (16, 16) and western (13, 22) doors.
+- New Plan: I am currently toggling the switch at (18, 25) again to reopen the path to the western area. Once open, I will navigate to the second switch statue at (7, 15) and toggle it, which should hopefully open the path to the Secret Key!
+- Map Hygiene: I will add a marker for this central switch statue at (18, 25) for completeness.
+- Custom Tools: My battle automation tools are working perfectly to conserve PP and quickly escape wild encounters.
 
 <hr>
 
