@@ -25,4 +25,3 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
   2. 1F: Switch back to State A.
   3. 2F: Pass South through OPEN East doors (24, 13).
   4. Thoroughly explore the South-Central area (around X=14 to X=19, Y=17+) to find a hidden switch or stairs.
-- Turn 39717 Reflection: I have confirmed that the South-West area of 2F (accessed via West doors in State B) is a dead end. Furthermore, the central corridor leading North from there is blocked from accessing the East side of the building by a solid wall at X=13. Therefore, State B is a dead end on 2F. The true path MUST involve returning to State A, passing through the OPEN East doors at (24, 13), and exploring the area South of them.
