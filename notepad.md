@@ -1099,11 +1099,9 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - East doors at (24, 13) are OPEN in State A.
 
 [The True Route]
-- The stairs to 3F MUST be inside the large central "inner area" of 2F.
-1. Toggle 1F switch to State A.
-2. Go to 2F, navigate East Wing -> Northern Hallway -> East Hallway (X=26).
-3. Walk South through OPEN doors at (24, 13)/(25, 13), then West into the inner area.
-4. Find 3F stairs! (Currently exploring 2F Inner Area)
+- The stairs to 3F MUST be somewhere on 2F.
+- The "Central Inner Area" accessed via East doors (24, 13) is a FALSE PATH. It just loops around the clone tank and connects back to the East Wing at (26, 5). There are no stairs here.
+- Must re-evaluate the South-East doors at (26, 27) or look for another path. Heading to (26, 27) now to verify its state in State A.
 
 <hr>
 
