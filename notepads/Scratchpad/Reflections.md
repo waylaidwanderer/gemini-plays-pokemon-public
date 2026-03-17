@@ -2,28 +2,8 @@
 [Mansion Master Puzzle Solution]
 Goal: Reach B1F isolated area to find the Secret Key.
 Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPEN. This is STATE B.
-HOWEVER, true 3F stairs are in 2F South-East, blocked by (26, 27) doors which are CLOSED in State B.
-Therefore, ascend to 3F in STATE A.
 
-[The True Route]
-1. Start in State A (1F switch at 2,11).
-2. On 2F, from stairs (5, 10), navigate to the East Wing:
-   - South to Y=16 -> East to X=7 -> South to Y=19 -> East to X=9.
-3. Walk North up X=9 to Y=11.
-4. Walk East to X=12 (bypassing Y=8 rubble).
-5. Walk North up X=12 to the Northern Hallway at Y=3.
-6. Walk East along the Northern Hallway to X=26.
-7. Walk South down the Eastern Hallway (X=26) all the way to Y=26.
-8. (Note: The East doors at 24,13 are irrelevant to this path as they connect to the inner area, not blocking the N/S hallway).
-9. The South-East doors at (26, 27) will be OPEN in State A!
-10. Pass through and ascend to 3F.
-11. On 3F, walk West through OPEN Northern doors (15, 4).
-12. Toggle 3F switch at (10, 4) to STATE B!
-13. Jump down pit at (16, 14), take stairs to B1F.
-14. Walk West through OPEN Central doors (20, 17) to Secret Key!
-
-[Door Logic Hypothesis to Test]
-- Doors do not all open/close together; some are open when others are closed.
-- EMPIRICALLY PROVEN (Turn 39419): The 2F South-East doors at (26, 27) are visually OPEN (`TYPE_a83b`) in State A! This confirms the True Route hypothesis. Doors do not all open/close simultaneously; their states are inverted.
-[Turn 39406 Reflection]
-- Currently executing the True Route in State A to empirically test the 2F South-East doors at (26, 27). Custom tools are functioning well, but I need to be careful of wild encounters interrupting movement sequences. Using targeted 'A' presses to clear text before moving is the current best practice. Goals are clear and outcome-oriented. Map markers are currently accurate.
+[Door Logic]
+- 2F South-East doors (26, 27) are CLOSED in State A (Turn 39420) and CLOSED in State B (Turn 39014). They might not be the way to 3F. They might be a one-way exit, or require a different switch.
+- I need to systematically search 2F for the true stairs to 3F. I assumed they were in the SE, but that's blocked.
+- Next step: Return to 1F, toggle switch to STATE B, and thoroughly explore the West Wing of 2F (through doors at 7,12). The stairs to 3F must be there!
