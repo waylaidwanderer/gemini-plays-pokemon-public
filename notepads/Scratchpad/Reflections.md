@@ -10,8 +10,8 @@ Therefore, we MUST ascend to 3F in STATE A.
 
 [The True Route]
 1. Start in State A (Toggle via 1F switch at 2,11).
-2. On 2F, walk East from the stairs at (5, 10). The path to the East Wing is OPEN.
-3. Walk South down the East Wing to (26, 27). Since we are in State A, these doors are OPEN!
+2. On 2F, from stairs at (5, 10), walk South down X=5 to Y=19, then East through the gap at (8, 19) to reach the East Wing.
+3. Walk East and South to the South-East doors at (26, 27). In State A, these are OPEN!
 4. Pass through and ascend the stairs to 3F.
 5. We arrive in the 3F Northeast area. Because we are in State A, the 3F Northern doors at (15, 4) are OPEN.
 6. Walk West through the doors to the main 3F area.
