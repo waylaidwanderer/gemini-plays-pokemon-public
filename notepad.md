@@ -1099,20 +1099,21 @@ Therefore, we MUST ascend to 3F in STATE A.
 
 [The True Route]
 1. Start in State A (Toggle via 1F switch at 2,11).
-2. On 2F, from stairs at (5, 10), walk South down X=5 to Y=19, then East through the gap at (8, 19) to reach the East Wing.
-3. Walk East and South to the South-East doors at (26, 27). In State A, these are OPEN!
-4. Pass through and ascend the stairs to 3F.
-5. We arrive in the 3F Northeast area. Because we are in State A, the 3F Northern doors at (15, 4) are OPEN.
-6. Walk West through the doors to the main 3F area.
-7. Toggle the 3F switch at (10, 4) to change to STATE B!
-8. In State B, the 3F Southern doors at (15, 10) OPEN.
-9. Walk South to the pit at (16, 14) and jump down!
-10. We land in 1F enclosed area. Take stairs down to B1F.
-11. We are now in B1F in STATE B. The Central doors at (20, 17) are OPEN!
-12. Walk West to the Secret Key!
+2. On 2F, from stairs (5, 10), walk South to Y=19, East to X=9.
+3. Walk North up X=9 to Y=12. (This U-shape bypasses the closed West doors at 7,12).
+4. Walk East to X=12, North to Northern Hallway. (This goes around the X=11 wall).
+5. Walk East to Far East corridor (X=24/25), South to South-East doors at (26, 27).
+6. In State A, these doors are OPEN! Pass through and ascend to 3F.
+7. On 3F, walk West through the OPEN Northern doors (15, 4).
+8. Toggle the 3F switch at (10, 4) to change to STATE B!
+9. In State B, the 3F Southern doors at (15, 10) OPEN.
+10. Walk South to the pit at (16, 14) and jump down!
+11. We land in 1F enclosed area. Take stairs down to B1F.
+12. We are now in B1F in STATE B. The Central doors at (20, 17) are OPEN!
+13. Walk West to the Secret Key!
 
 [Current Step]
-I am currently stuck at the closed doors at (26, 27) on 2F. I will use Dig to warp out, re-enter the Mansion, toggle the 1F switch to State A, and execute The True Route!
+I am at (9, 19) on 2F in State A. I need to walk North to Y=12 to continue the bypass!
 
 <hr>
 
