@@ -1107,7 +1107,7 @@ Therefore, ascend to 3F in STATE A.
 10. Walk West through OPEN Central doors (20, 17) to Secret Key!
 
 [Current Step]
-Trapped at (21, 12) because X=22 is a solid wall. Walking West back to X=9, then heading South to Y=26!
+Returning to 1F to toggle the switch back to State A. Then I will execute the True Route by walking South from the 2F stairs.
 
 <hr>
 
