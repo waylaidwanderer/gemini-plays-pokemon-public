@@ -14,4 +14,4 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - To access it, I must be in State A (East doors OPEN).
 1. Return to 1F and toggle switch to State A.
 2. Return to 2F East doors at (24, 13) and walk SOUTH through them.
-- Heading to 1F stairs at (5, 10). Taking the path at Y=14 to cross from East Wing to West.
+- Heading to 1F stairs at (5, 10). East doors (24, 13) are CLOSED in State B, blocking the South path. I must return via the West Wing: North to Y=2, West to X=5, South through OPEN West doors (7, 12).
