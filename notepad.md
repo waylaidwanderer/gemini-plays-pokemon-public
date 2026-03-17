@@ -1141,6 +1141,12 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - 50-Turn Check-in: I've fully entered the western half of B1F and defeated a Burglar. I spotted another glowing-eye switch statue at (7, 14)/(7, 15) earlier.
 - Map Hygiene: Placed markers for the switch statues on B1F to track the puzzle state.
 - Next Steps: Toggle the switch at (7, 15) and explore the newly opened paths to find the Secret Key!
+[Turn 38263 Reflection]
+- 50-Turn Check-in: I proved that the western side of B1F is blocked by a massive table at Y=17 spanning X=1 to X=9. I am currently exploring the eastern hallway (X=21) to find a way to loop around to the switch statue at (7, 15).
+- Map Hygiene: Placed a marker for the switch statue at (7, 15) earlier.
+- Notepad Hygiene: Logged the table boundaries. Will continue mapping B1F.
+- Error Analysis: "Got away safely!" battle text ate my movement inputs twice. I must explicitly clear all battle text with 'A' or 'B' before initiating overworld navigation.
+- Next Steps: Follow this eastern hallway South and see if it wraps around to the western side of the room.
 
 <hr>
 
