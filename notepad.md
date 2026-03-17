@@ -1095,12 +1095,11 @@ Problem: State B closes 2F East Wing, preventing access to 3F stairs at (16, 7).
 Solution Route:
 1. [DONE] Toggle to State A via 1F switch at (2, 11). (2F East OPEN).
 2. Navigate to 2F stairs at (16, 7) from the SOUTH:
-   - Route via X=10 South FAILED (X=11 is a solid wall down to Y=25).
-   - Route to Stairs: From 2F (10, 21), backtrack North to Y=3 via X=10 and X=12.
-   - Walk East along Y=3 to X=26, then South down X=26 to Y=13.
-   - Walk West to the East Wing doors at (24, 13) (OPEN in State A).
-   - Going West through doors leads to a dead end at (19, 16). The electronic doors at (20, 17) on 2F are CLOSED in State A!
-   - Backtrack to (24, 12) and explore North/West for a path to (16, 8).
+   - MASSIVE REVELATION: The path is extremely direct! I previously overshot Y=8 by macroing too far North.
+   - From 2F main stairs (5, 10), walk East through the X=9 gap to X=12.
+   - Walk North along X=12 to Y=8. (DO NOT overshoot to Y=6!)
+   - Walk East from (12, 8) to (16, 8).
+   - Walk North onto the stairs at (16, 7).
    - Take stairs UP to 3F.
 3. On 3F, we arrive in the Northeast room. In State A, the Northern doors (15, 4) are OPEN. Walk through them to main 3F area.
 4. Press the 3F switch at (10, 4) to toggle to State B!
