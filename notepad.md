@@ -1124,7 +1124,6 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
   5. 3F: Arrive in State B! Southern doors (15, 10) are already OPEN. Jump down pit at (16, 14).
   6. 1F -> B1F: Land in enclosed area, take stairs to B1F.
   7. B1F: Central doors (20, 17) are already OPEN! Walk straight to Secret Key!
-- CURRENT PLAN: I am at (26, 19). Exploring the rooms to the West (around X=22, Y=16) to find this crucial switch.
 
 <hr>
 
