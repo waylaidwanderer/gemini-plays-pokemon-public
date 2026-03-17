@@ -1095,13 +1095,12 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 [Door Logic]
 - 2F South-East doors (26, 27) are CLOSED in State A (Turn 39420) and CLOSED in State B (Turn 39014). They might not be the way to 3F. They might be a one-way exit, or require a different switch.
 - 2F West Wing (State B): Empty U-shaped corridor. No stairs. Y=9 wall blocks Northward movement.
-- 2F Central Inner Area: Accessed via East doors at (24, 13).
-- East doors at (24, 13) are OPEN in State A.
+- 2F East Wing: Separated into North and South by electronic doors at (24, 13) and (25, 13). These are OPEN in State A.
 
 [The True Route]
 - The stairs to 3F MUST be somewhere on 2F.
-- The "Central Inner Area" accessed via East doors (24, 13) is a FALSE PATH. It just loops around the clone tank and connects back to the East Wing at (26, 5). There are no stairs here.
-- Must re-evaluate the South-East doors at (26, 27) or look for another path. Heading to (26, 27) now to verify its state in State A.
+- Passing South through the doors at (24, 13) to explore the South-East section of 2F in State A.
+- Need to locate the 3F stairs, re-verify the state of (26, 27), and check for any hidden paths.
 
 <hr>
 
