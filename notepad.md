@@ -1104,9 +1104,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Error Analysis: I hallucinated stairs at (2, 4)/(2, 5) on 2F which were actually just rubble tiles (TYPE_2889). I need to be more careful with visual interpretation of the map borders.
 - Map Hygiene: Switch marker placed at (2, 11) on 1F.
 - Custom Tools Brainstorm: 1) `path_tracer`, 2) `map_parser`, 3) `explore_unseen`, 4) `door_state_tracker`, 5) `battle_logger`. Standard navigation tools are sufficient.
-- Goal: Return to 1F via the stairs at (5, 10) and check the state of the electronic doors.
-- Confirmed the electronic doors at (16, 5)/(17, 5) on 1F are closed when the 2F West Wing doors are open. They are linked to the global switch at (2, 11). Returning there now.
-- Turn 38556: Successfully pressed the switch at (2, 11) on 1F again. The text "A secret switch! Pressed it! Whoosh!" confirms the global door state has toggled back. The electronic doors in the West Wing on 2F (7, 12) should now be CLOSED, and the doors in the East Wing on 2F (24, 13) should be OPEN. Returning to the East Wing of 2F to find the stairs to 3F.
+- Goal: Reach the East Wing of 2F to explore the southern path blocked by the doors at (24, 13), which should now be OPEN.
 
 <hr>
 
