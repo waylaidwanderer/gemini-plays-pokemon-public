@@ -17,3 +17,4 @@
 - Custom Tools Brainstorm: 1) `path_tracer`, 2) `map_parser`, 3) `explore_unseen`, 4) `door_state_tracker`, 5) `battle_logger`. Standard navigation tools are sufficient.
 - Goal: Return to 1F via the stairs at (5, 10) and check the state of the electronic doors.
 - Confirmed the electronic doors at (16, 5)/(17, 5) on 1F are closed when the 2F West Wing doors are open. They are linked to the global switch at (2, 11). Returning there now.
+- Turn 38556: Successfully pressed the switch at (2, 11) on 1F again. The text "A secret switch! Pressed it! Whoosh!" confirms the global door state has toggled back. The electronic doors in the West Wing on 2F (7, 12) should now be CLOSED, and the doors in the East Wing on 2F (24, 13) should be OPEN. Returning to the East Wing of 2F to find the stairs to 3F.
