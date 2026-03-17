@@ -1427,6 +1427,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Found another switch statue at (7, 14)/(7, 15) in the western area.
 - Found closed electronic doors at (20, 17) and (21, 17). They block access to the West from this southern corridor.
 - There is a vertical wall at X=24 starting from Y=19 extending South. The path continues down X=25/X=26.
-- Verified (Turn 38660): The 1F switch at (2, 11) toggles the 2F doors. State A (Current): East Wing doors at (24, 13) are OPEN, West Wing doors at (7, 12) are CLOSED. State B: East CLOSED, West OPEN.
+- Verified (Turn 38660): The 1F switch at (2, 11) toggles the 2F doors. State A (Current): East Wing doors at (24, 13) are OPEN, West Wing doors at (7, 12) are CLOSED, South-East doors at (20, 17)/(21, 17) are CLOSED. State B: East CLOSED, West OPEN, South-East OPEN.
 
 <hr>
