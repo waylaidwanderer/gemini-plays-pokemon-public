@@ -1116,7 +1116,7 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
   4. 3F: Walk South through OPEN Southern doors (15, 10). Jump down pit at (16, 14).
   5. 1F: Land in enclosed area. Take stairs down to B1F.
   6. B1F: Walk West through OPEN Central doors (20, 17) to find Secret Key!
-- CURRENT PLAN: The 3F stairs are NOT at (24, 19). They are past the South-East doors at Y=27. I am at (24, 18). I will walk East to X=25, then South to Y=27.
+- 3F stairs are located past the South-East doors at (26, 27).
 
 <hr>
 
