@@ -1099,8 +1099,8 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 
 [The True Route]
 - The 2F Central Inner Area is just a U-shaped loop around the cloning tank, connecting to the Northern Hallway.
-- The stairs to 3F MUST be somewhere on 2F. I previously used them but forgot their location.
-- I will explore the Northern Hallway and the North-West area of 2F to find the stairs to 3F.
+- The stairs to 3F MUST be somewhere on 2F.
+- I am currently at (26, 2) in the Northern Hallway. I will explore West to find the stairs to 3F.
 
 <hr>
 
