@@ -1103,10 +1103,7 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - To access it, I must be in State A (East doors OPEN).
 1. Return to 1F and toggle switch to State A.
 2. Return to 2F East doors at (24, 13) and walk SOUTH through them.
-- Heading to 1F stairs at (5, 10).
-- EMPIRICAL FACT: The West Wing path from North to South is BLOCKED by a solid wall at Y=9. (I am at 5,8 and can see the stairs at 5,10 but cannot reach them).
-- EMPIRICAL FACT: The East Wing path from North to South is BLOCKED at Y=13 in State B.
-- EMPIRICAL FACT: The true path from the Northern Hallway to the South is a 1-tile wide gap at X=12!
+- MAP CONSTRAINTS (STATE B): The West Wing (Y=9 wall) and East Wing (Y=13 doors/rubble) paths from North to South are entirely blocked. The true path is a 1-tile wide gap at X=12.
 - ROUTE BETWEEN STAIRS (5,10) & NORTHERN HALLWAY: 
   1. From Stairs (5, 10), walk East to (7, 10), South to (7, 11).
   2. Walk East along Y=11 to (12, 11).
