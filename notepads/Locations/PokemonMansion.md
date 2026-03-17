@@ -64,8 +64,8 @@
 - There is a vertical wall at X=24 starting from Y=19 extending South. The path continues down X=25/X=26.
 - Verified: 1F switch at (2, 11) toggles 2F doors. State A: East Wing (24, 13) OPEN, West Wing (7, 12) CLOSED. South-East 2F doors at (26, 27)/(27, 27) CLOSED. B1F Central doors (20, 17) CLOSED. State B (Current): East CLOSED, West OPEN, South-East OPEN, B1F Central OPEN.
 [2F Navigation Routes]
-- 1F Stairs (5, 10) to East Wing (24, 12):
-  1. From (5, 10), walk North to (5, 1).
-  2. Walk East to (26, 1).
-  3. Walk South to (26, 12).
-  4. Walk West to (24, 12).
+- The stairs to 1F are at (5, 10).
+- A solid wall at Y=9 separates the Northern Hallway from the stairs area.
+- To travel between the stairs (5, 10) and the Northern Hallway (Y=1), you MUST use the East Wing corridor at X=26.
+- Route from Northern Hallway to Stairs: Walk East to (26, 1), South to (26, 10), West to (5, 10).
+- The East doors at (24, 13) and West doors at (7, 12) are SOUTH of the stairs area. They do NOT block access to the stairs or the Northern Hallway.
