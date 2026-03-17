@@ -1387,6 +1387,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 
 [2F Points of Interest]
 - Arrived from 1F via stairs at (5, 10).
+- A solid horizontal wall at Y=9 completely separates the stairs area (Y=10) from the northern hallway (Y=8). You CANNOT walk straight North from the stairs. To reach the northern hallway, you must go through the East Wing to Y=2 and then walk West.
 - The statue at (2, 10)/(2, 11) is just a normal statue, NOT a switch. I will use the switch on 1F to toggle the global door state.
 - Electronic doors located at (7, 12) to (7, 15).
 - A path leads West to the Northwest corner at Y=4/Y=5, ending in a dead end blocked by rubble at (2, 4)/(2, 5). There are NO stairs here.
