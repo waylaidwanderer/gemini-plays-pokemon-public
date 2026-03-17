@@ -1441,5 +1441,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - On 3F, eastern section (past the doors at X=15): Path continues south of a wall at X=22. Found an item ball at (25, 5).
 - The eastern hallway on 3F ends in a dead end at X=28. Returning west to investigate the pit at X=12.
 - 3F Pit: The top edge of the pit at (12, 13) to (15, 13) is a solid wall. You must jump down from the right side at (16, 14) or (17, 14).
+- The switch at (10, 4)/(10, 5) also toggles the electronic doors at (15, 10)/(15, 11). When the northern doors at (15, 4)/(15, 5) are open, the southern doors at (15, 10)/(15, 11) are closed. I must toggle the switch to open the southern doors to reach the pit.
 
 <hr>
