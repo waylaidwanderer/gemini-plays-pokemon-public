@@ -21,7 +21,11 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
   3. Walk North down the gap at X=12 to (12, 7) to reach the Northern Hallway.
   *CRITICAL INSIGHT*: This route uses Y=11 and X=12. The West electronic doors are at Y=12 to Y=15. Therefore, this route is ALWAYS OPEN regardless of the Switch State! We never needed the West doors!
 - HYPOTHESIS FOR MASTER ROUTE:
-  1. 1F: Switch to State B.
-  2. 2F: West doors (7, 12) are now OPEN. Walk South through them into the unexplored South-West area of 2F!
-  3. Find a new set of stairs to 3F in the South-West area.
-  4. Explore 3F from there to find the path to the pit at (16, 14).
+  1. 1F: Switch to State B (Done).
+  2. 2F: Walk to the Northern Hallway via gap at X=12.
+  3. Walk East to X=20, then South to the Central doors at (20, 17).
+  4. In State B, the Central doors should be OPEN! Walk South through them.
+  5. Explore the South-Central area and walk East to find the South-East doors at (26, 27). They should ALSO be OPEN in State B!
+  6. Take the stairs to 3F. State B will have 3F Southern doors (15, 10) OPEN.
+  7. Jump down the pit at (16, 14) to reach B1F isolated area.
+  8. B1F Central doors (20, 17) will be OPEN in State B. Grab the Secret Key!
