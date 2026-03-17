@@ -25,7 +25,7 @@
 
 [2F Points of Interest]
 - Arrived from 1F via stairs at (5, 10).
-- Found a switch statue at (2, 10)/(2, 11). Toggling it affects doors.
+- The statue at (2, 10)/(2, 11) is just a normal statue, NOT a switch. I will use the switch on 1F to toggle the global door state.
 - Electronic doors located at (7, 12) to (7, 15).
 - A path leads West to the Northwest corner at Y=4/Y=5.
 - Found stairs at (6, 1) dropping down from 3F. TESTED: These stairs CANNOT be ascended. They must be a one-way exit.
