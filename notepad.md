@@ -1106,6 +1106,7 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - Hypothesis (Turn 39464): The true stairs to 3F are in the North-West corner of 2F! I previously explored the Northern Hallway but only walked East from X=12. I never walked West from X=12 to check the NW corner. If the SW room is empty, I will route to the NW corner via the East Wing -> Northern Hallway -> West.
 - SW Corner Result (Turn 39467): Explored the 2F West Wing in State B. It is an empty, dead-end U-shaped corridor. No stairs exist here. The Y=9 wall is solid across the entire horizontal span, blocking northward movement from the West Wing.
 - Revised Plan: The true stairs to 3F MUST be in the North-West corner. The only way to reach the NW corner is via the Northern Hallway. The only way to reach the Northern Hallway is via the East Wing (which bypasses the Y=9 wall). The East Wing is only accessible in State A. Therefore, I must return to 1F, toggle to State A, and take the East Wing -> Northern Hallway -> West route!
+- HUGE REALIZATION (Turn 39468): I am an absolute idiot. I have been frantically searching the entire Mansion for the 'true' stairs to 3F. I just looked closely at the central stairs on 2F. The 2x2 block at (4, 10) and (5, 10) is a DOUBLE staircase! (5, 10) goes down to 1F. (4, 10) goes UP TO 3F. They have been right in front of my face the entire time. Proceeding to (4, 10) immediately. State B is the only state we need!
 
 <hr>
 
