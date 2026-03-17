@@ -1173,6 +1173,11 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - I successfully used Dig and warped to the Cinnabar Island Pokemon Center (0_182).
 - I am currently healing my team.
 - Next Objective: Return to the Pokemon Mansion (0_214), go to 2F, and explore the stairs at (6, 1) that I previously missed. This is the only remaining path to the Secret Key!
+[Turn 38366 Reflection]
+- 50-Turn Check-in: I experienced a spatial hallucination, confusing the layout of 1F with 2F. I thought I was blocked by a solid wall at Y=9 on 2F, but it's actually a combination of a display table (X=4 to X=7) and rubble (X=8 to X=9). 
+- Error Analysis & Navigation: My deduction to route East was ultimately correct! I must pass through the gap at (9, 2) to reach the eastern corridor at X=11, travel South to bypass the Y=9 obstacles, and then cut back West along Y=11 to reach the 3F stairs at (7, 10).
+- Map Hygiene: I will rely heavily on the visual grid overlay to confirm obstacles instead of generalizing them as "walls".
+- Next Steps: Execute the detour and return to 3F. I need to get back to the enclosed western section of B1F to press the switch at (7, 15).
 
 <hr>
 
