@@ -1103,6 +1103,7 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - Map Hygiene: Added critical markers for the 1F stairs and 2F West Doors.
 - Current Status: Navigating the western edge of 2F (X=1, X=2) heading North. Spotted decorative statues at X=3.
 - Realization (Turn 39463): I have successfully navigated to 3F in the past (recorded in my context summary). Therefore, accessible stairs UP to 3F MUST exist. They might be right next to the central stairs at (5, 10) and I just forgot to map them, or they might be on 1F (e.g. past the doors at 16,5). Checking the immediate central area of 2F now.
+- Hypothesis (Turn 39464): The true stairs to 3F are in the North-West corner of 2F! I previously explored the Northern Hallway but only walked East from X=12. I never walked West from X=12 to check the NW corner. If the SW room is empty, I will route to the NW corner via the East Wing -> Northern Hallway -> West.
 
 <hr>
 
