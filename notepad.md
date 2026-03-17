@@ -1108,12 +1108,12 @@ Therefore, ascend to 3F in STATE A.
 
 [Backtracking Path to 1F (State B Shortcut)]
 Since we are in State B, the West doors at (7, 12) are OPEN, and East doors at (24, 13) are CLOSED.
-We can use the West Wing to reach the stairs!
-1. From (10, 3), move Up to Northern Hallway at Y=2.
-2. Move West along Y=2 to (5, 2).
-3. Move Up to (5, 1) and West to (4, 1) to enter the West corridor.
-4. Move South down X=4 to Y=10.
-5. Move East to the stairs at (5, 10).
+Wait, the Y=9 wall blocks the West Wing from the Northern Hallway.
+The ONLY way is through the East Wing.
+I need to find the gap in the Y=8 wall.
+Currently at (4, 5).
+1. Walk North to Y=2.
+2. Walk East along Y=2 to find the vertical corridor that goes South past Y=8.
 
 <hr>
 

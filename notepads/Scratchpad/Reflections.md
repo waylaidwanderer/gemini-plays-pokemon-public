@@ -17,11 +17,11 @@ Therefore, ascend to 3F in STATE A.
 9. Jump down pit at (16, 14), take stairs to B1F.
 10. Walk West through OPEN Central doors (20, 17) to Secret Key!
 
-[Backtracking Path to 1F]
-1. Navigate North/East to reach the top corridor at Y=3.
-2. Walk West along Y=3 to reach X=9.
-3. Walk South down X=9 to Y=19.
-4. Walk West through the pillar gap at (8, 19) to X=7.
-5. Walk North up X=7 to Y=16.
-6. Walk West to X=5.
-7. Walk North up X=5 to the stairs at (5, 10).
+[Backtracking Path to 1F (State B Shortcut)]
+Since we are in State B, the West doors at (7, 12) are OPEN, and East doors at (24, 13) are CLOSED.
+Wait, the Y=9 wall blocks the West Wing from the Northern Hallway.
+The ONLY way is through the East Wing.
+I need to find the gap in the Y=8 wall.
+Currently at (4, 5).
+1. Walk North to Y=2.
+2. Walk East along Y=2 to find the vertical corridor that goes South past Y=8.
