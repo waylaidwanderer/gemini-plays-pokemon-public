@@ -1103,7 +1103,8 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - To access it, I must be in State A (East doors OPEN).
 1. Return to 1F and toggle switch to State A.
 2. Return to 2F East doors at (24, 13) and walk SOUTH through them.
-- Heading to 1F stairs at (5, 10). Rubble blocks the East Wing corridor at X=26, Y=13. The ONLY path South is through the East doors at (24, 13). Testing if they are currently OPEN.
+- Heading to 1F stairs at (5, 10). The East doors at (24, 13) are CLOSED, and rubble blocks X=26 at Y=13. The East Wing cannot be used to go South.
+- I must test the West Wing. My old notes say a wall at Y=9 blocks the West Wing, but if that's true, I'd be softlocked. I will go North to Y=2, West to X=5, and South to check the West doors at (7, 12).
 
 <hr>
 
