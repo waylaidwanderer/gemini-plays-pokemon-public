@@ -1140,6 +1140,7 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - Immediate Execution: The puzzle is solved in my head! The switch at (21, 13) inside the East Wing is the key. We enter the East Wing in State A (doors open), then press the switch at (21, 13) to change to State B. This traps us in the East Wing but should OPEN the South-East doors at (26, 27), allowing access to the stairs to 3F!
 - Notepad Hygiene: My notes perfectly preserved the location of the switch at (21, 13) which I had completely forgotten about! The system works.
 - Error Analysis: My previous assumption that I was "stuck" if I changed to State B was false because I didn't realize I could change the state FROM WITHIN the isolated wing. This is brilliant level design.
+- Turn 41498: Tested the switch statue at (20, 14)/(21, 14) in the East Wing from multiple angles. It is INERT. It does not toggle the doors. It is a red herring. The puzzle solution must involve something else, perhaps stairs further down the East Wing that don't require changing states, or a different switch. Exploring South.
 
 <hr>
 
