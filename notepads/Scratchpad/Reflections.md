@@ -16,3 +16,7 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - Turn 40698: Checked visually. The rubble at (20,13)-(21,14) is just generic rocks. I pressed A and nothing happened. There is NO STATUE in the SE area.
 - The Central doors at (20, 17) are CLOSED in State A.
 - X=18 is a solid vertical wall blocking travel West.
+[State B Route Hypothesis]
+- Since the East doors (24, 13) close in State B, we cannot reach the Central doors from the East Wing.
+- Since Y=13 is a solid wall in the center (X=13 to X=21), we cannot walk directly South from the Northern doors (16, 7).
+- Hypothesis: We must walk West from the Northern doors to X=12, then South through a gap at X=12 to reach the southern half, then East to the Central doors (20, 17).
