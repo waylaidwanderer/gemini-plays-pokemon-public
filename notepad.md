@@ -1095,7 +1095,7 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 [Door Logic]
 - 2F West doors (7, 12) are CLOSED in State A.
 - 2F East doors (24, 13) are OPEN in State A.
-- Currently: West doors (7, 12) are OPEN. I am in STATE B.
+- Currently: East doors (24, 13) are OPEN. I am in STATE A.
 
 [The True Route]
 - To access the South-East stairs to 3F at (21, 23), I must reach the Central Doors at (20, 17).
@@ -1419,6 +1419,7 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - The tiles at (4, 1) and (5, 1) are clear floor, allowing access from the far West side to the Northern Hallway at Y=2.
 - The wall at X=8 on 2F consists of green pillars with gaps at Y=19, Y=21, Y=23, and Y=25.
 - In the East wing of 2F, there is a solid vertical wall at X=11 extending from at least Y=17 to Y=25.
+- In the Northeast area, there is a horizontal wall at Y=4 from X=22 to X=25. The path South is via X=26.
 - 2F East doors are located at (24, 13) and (25, 13). In State A, these are OPEN, allowing access to the South-East stairs.
 - 2F South-East doors are located at (26, 27) and (27, 27). These block access to the true stairs to 3F.
 

@@ -6,7 +6,7 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 [Door Logic]
 - 2F West doors (7, 12) are CLOSED in State A.
 - 2F East doors (24, 13) are OPEN in State A.
-- Currently: West doors (7, 12) are OPEN. I am in STATE B.
+- Currently: East doors (24, 13) are OPEN. I am in STATE A.
 
 [The True Route]
 - To access the South-East stairs to 3F at (21, 23), I must reach the Central Doors at (20, 17).
