@@ -1398,6 +1398,7 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - Closed electronic doors located at (16, 5)/(17, 5) blocking the path North.
 - The glowing-eye statue at (15, 10)/(15, 11) is a red herring; it does not have a hidden switch.
 - The Northeast area (accessed via X=18) is a dead end. The object at (18, 2) is just a diary containing lore about Mew.
+- South-East corridor (X=18 to X=21, Y=12 to Y=15) is a dead end. Stairs are visible behind the East wall at (25, 14)/(25, 15) but inaccessible from here.
 
 [2F Points of Interest]
 - Arrived from 1F via stairs at (5, 10).
