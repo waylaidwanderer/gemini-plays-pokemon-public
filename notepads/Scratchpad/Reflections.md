@@ -74,3 +74,10 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - The path MUST be at X=4 or X=5!
 - Yes, my notes say: "The Burglar on 3F at (4, 11)/(5, 11) is a WANDERING trainer. The path here is 2 tiles wide (X=4 and X=5)."
 - I need to move Left to X=5 or X=4, then go Down!
+[Turn 41857 3F Exploration South]
+- I am at (5, 13) on 3F.
+- The area South of the Burglar (Y=11) is indeed open!
+- I see a path leading South to Y=17.
+- I also see an item ball at (1, 16) (SPRITE_bbb7).
+- Let's sweep this new area. I will grab the item first.
+- Path to item: Left to X=1, Down to (1, 16).
