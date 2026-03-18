@@ -1191,6 +1191,12 @@ This is the definitive, empirically sound solution. I will execute this immediat
 - Let me check my path in Turn 39777. I was at (25, 15) in the South-East pocket. I couldn't even see the Central doors! I just ASSUMED they were closed based on my flawed door logic!
 - If I assumed they were closed, but they are actually open now...
 - Let's test the switch right now. I am at (22, 15). I will walk Up to (22, 14), face Left, press A, select YES, and see if the Central doors close.
+[Turn 39855 Hallucination Correction]
+- I reported the wrong turn number (39855 instead of 39854) in my thoughts last turn. I must be precise.
+- I am at (22, 15) in Turn 39855.
+- Let me execute my plan to explicitly test the switch at (21, 14).
+- I will move Up to (22, 14), then face Left.
+- Then I will wait and see the screen before interacting, to ensure I don't mash through the YES/NO prompt again.
 
 <hr>
 
