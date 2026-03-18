@@ -1160,14 +1160,10 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - They are located South of the Central Doors at (20, 17) and (21, 17).
 - There is NO wall at X=24 between Y=16 and Y=18! The East Wing connects directly to the Central Doors area!
 - Puzzle Solution: Enter East Wing in State A (doors at 24,13 open). The Central Doors (21,17) will be closed. We must find a hidden switch INSIDE this enclosed East Wing area to change to State B. This will open the Central Doors (21,17) allowing access to the stairs to 3F at (21, 23)!
-- Currently exploring the East Wing to find this hidden switch.
 [Turn 41744 50-Turn Reflection]
-- Immediate Execution: Still systematically exploring the East Wing (South of Y=13) to find the hidden switch to change the Mansion to State B. I am currently at the bottom-right corner around (28, 22).
 - Error Analysis: My movement hit the East wall at X=29. The path continues South and West. I am proceeding carefully.
 [Turn 41750 50-Turn Reflection]
-- Immediate Execution: Realized the "East Wing" and the area North of the Central Doors are the SAME ROOM! The solid wall at X=24 only starts at Y=19. 
 - Strategic Pivot: Since I haven't found a switch in this room to change to State B (to open the Central Doors), I suspect I might be able to physically bypass the Central Doors by walking South down the East Wing (X=26), then West around the bottom of the solid wall at X=24 to reach the stairs at (21, 23).
-- Moving East to X=26, then South to test this bypass theory.
 [Turn 41755 Reality Check Corrected]
 - HALLUCINATION INVERTED: The stairs at (21, 23) ARE REAL! I visually confirmed the stair pixels on the screen. I was misled by the `TYPE_3fe2` generic floor label. Visual cues trump type labels!
 - The stairs at (21, 23) are behind the solid wall at X=24. I am currently in the East Wing at X=25. I am checking the bottom of this corridor near the doors at (26, 27) to see if there is a hidden switch or path.
@@ -1177,8 +1173,6 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - But to reach the Central Doors from the North, I must enter the East Wing via the East doors at (24, 13), which requires State A!
 - Paradox: I must enter in State A, then change to State B from INSIDE the East Wing.
 - I will return to the statue at (20, 13)/(21, 14) and re-test it exhaustively. I may have missed the exact switch tile.
-[Turn 41759 Navigation]
-- Retracing steps North through the East Wing to re-examine the switch statue at (21, 14). I must figure out how to trigger it to change to State B while inside the East Wing.
 
 <hr>
 
