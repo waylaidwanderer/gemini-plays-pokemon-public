@@ -1129,6 +1129,10 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 [Turn 40674 Reflection]
 - Visually confirmed player sprite at (20, 15) is facing LEFT. The 'U' input from Turn 40672's macro was eaten or only registered as a step without turning.
 - This is why pressing 'A' did nothing. The switch is indeed at (20, 14). I will face Up and press 'A'.
+[Turn 40678 Reflection]
+- BREAKTHROUGH! I successfully faced Up and pressed 'A' at (20, 15). Selected YES. 
+- VISUAL CONFIRMATION: The Central doors at (20, 17) and (21, 17) instantly changed from glowing barriers to open floor!
+- Master Route Draft 3 is PROVEN correct. Proceeding South to the 3F stairs at (21, 23).
 
 <hr>
 
