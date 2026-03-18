@@ -1115,10 +1115,9 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - 2F to 3F (UP): LOCATION UNKNOWN. Must find them!
 - 3F to 2F (DOWN-ONLY): Found drop-down stairs at (6, 1) and (6, 21) on 2F. These cannot be ascended.
 - 1F to B1F: Stairs at (21, 23) in the isolated enclosed area of 1F lead down to B1F. (Accessed by jumping down 3F pit at 16, 14).
-[Breakthrough Theory: 2F South-West]
-- I have not fully explored the South-West corner of 2F (South of Y=18).
-- The stairs UP to 3F MUST be located in an unexplored section of 2F, likely in the red carpet room around (4, 22) to (7, 27).
-- I need to return to 2F via the (5, 10) stairs and systematically search for a path South through the Central Corridor or West Wing!
+[2F Stairs Search]
+- I have completely exhausted the West, Central, and South-West areas of 2F. There are definitively NO stairs to 3F in these regions.
+- The stairs to 3F MUST be in the North-East area of 2F, which is accessible via the Northern doors at (16, 7) ONLY when they are OPEN (State B).
 
 <hr>
 
