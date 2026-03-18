@@ -1448,7 +1448,6 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 
 [Global Door States]
 - State A (Default): 
-  - 2F West doors (7, 12) CLOSED. 
   - 2F East doors (24, 13) OPEN.
   - 2F Northern doors (16, 7)/(17, 7) OPEN.
   - 2F South-East doors (26, 27) CLOSED. (Verified Turn 39633)
@@ -1456,7 +1455,6 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
   - 3F Southern doors (15, 10) CLOSED.
   - B1F Central doors (20, 17) CLOSED.
 - State B: 
-  - 2F West doors (7, 12) OPEN.
   - 2F East doors (24, 13) CLOSED.
   - 2F Northern doors (16, 7)/(17, 7) CLOSED.
   - 2F South-East doors (26, 27) OPEN. (Hypothesis: Alternates with State A)
