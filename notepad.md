@@ -1477,5 +1477,6 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - Corridor South of (16, 7) leads to two switch statues at (16, 10) and (18, 10). The path continues South between them at X=17, then heads East at Y=12. This path ends in a DEAD END at X=21. There are no stairs here.
 - The West Wing North of Y=9 is a dead end containing only the switch statue at (2, 4) and the one-way drop-down stairs at (6, 1). The wall at Y=9 is solid from X=0 to X=9.
 - 1F North-West doors at (9, 4)/(9, 5) are OPEN in State A, and CLOSED in State B. My previous note about (16, 5) being doors was a hallucination; they are just solid walls.
+- VERIFIED PATH: To travel between the Northern doors (16, 7) and the West Wing, you must use the northernmost hallway. Walk UP along X=16 to Y=1, then LEFT to X=11, DOWN to Y=2, and LEFT all the way to the West Wing.
 
 <hr>
