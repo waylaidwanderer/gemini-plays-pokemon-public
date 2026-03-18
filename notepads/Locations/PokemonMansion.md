@@ -82,11 +82,8 @@
   - B1F Central doors (20, 17) OPEN.
 - 2F Central doors located at (20, 17) and (21, 17). In State A, these are CLOSED. They block the path South to Y=18.
 - Found a glowing-eye switch statue at (21, 13)/(21, 14) in the enclosed South-East area (accessed via East doors).
-[Master Route to Secret Key (Draft 6)]
+[Master Route to Secret Key (Draft 7)]
 1. 1F: Set switch at (2, 10) to State B (Northern doors OPEN).
 2. 2F: Pass through OPEN Northern doors at (16, 7).
-3. 2F: Walk South to Y=12, East to X=22, South to Y=17, West to Central doors at (20, 17).
-4. 2F: Central doors at (20, 17) will be OPEN! Pass through to reach 3F stairs at (21, 23).
-5. 3F: Arrive on 3F in State B. Southern doors (15, 10) are OPEN. Jump down pit at (16, 14).
-6. 1F: Land in enclosed area. Take stairs down to B1F.
-7. B1F: Central doors (20, 17) are OPEN (State B)! Walk West to find the Secret Key.
+3. 2F: Walk South through the gap at X=14/15 to reach the South-West area.
+4. 2F: Explore South-West area for stairs to 3F.
