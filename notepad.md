@@ -1106,11 +1106,11 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - Turn 40698: Checked visually. The rubble at (20,13)-(21,14) is just generic rocks. I pressed A and nothing happened. There is NO STATUE in the SE area.
 - The Central doors at (20, 17) are CLOSED in State A.
 - X=18 is a solid vertical wall blocking travel West.
-[State B Route - West Wing]
-- The path East at Y=12 is a DEAD END. X=22 is blocked by rubble.
-- Y=13 is a solid wall spanning the entire center/east (X=13 to X=25).
-- Therefore, in State B, the Central/East area south of Y=13 is UNREACHABLE from the North.
-- The true path: Walk North to Y=6, West to X=12 (to bypass rubble at 10,8), South to Y=9, West to X=10, then South. X=10 bypasses the central solid walls, leading to gaps in the X=8 pillars to reach the South-West area.
+[Stairs Navigation]
+- 1F to 2F: Stairs at (5, 10) on 1F lead to 2F.
+- 2F to 3F (UP): LOCATION UNKNOWN. Must find them!
+- 3F to 2F (DOWN-ONLY): Found drop-down stairs at (6, 1) and (6, 21) on 2F. These cannot be ascended.
+- 1F to B1F: Stairs at (21, 23) in the isolated enclosed area of 1F lead down to B1F. (Accessed by jumping down 3F pit at 16, 14).
 
 <hr>
 
