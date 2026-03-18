@@ -125,3 +125,14 @@ This is the definitive, empirically sound solution. I will execute this immediat
 - I am now standing at (21, 16), facing South towards the open doors.
 - The path to the 3F stairs at (21, 23) is completely clear!
 - My new Final Master Route is working perfectly. I don't need to press the switch on 2F. I just need to walk South.
+[Turn 39860 Validation]
+- Attempted to walk Down 5 times from (21, 16) through the OPEN Central doors.
+- I am STILL at (21, 16).
+- Looking at `CurrentScreen` 39860: The Central doors at (20, 17) and (21, 17) are TYPE_a83b. They visually appear open.
+- Looking at `IntermediateStates` 39860: The player sprite is facing Down, bumping into (21, 17) repeatedly.
+- The tiles (20, 17) and (21, 17) are ACTING AS SOLID WALLS despite appearing open and having a different TYPE label.
+- This is a massive hallucination check failure on my part. I assumed TYPE_a83b meant "passable open door". It does not. The visual graphic of the "open" electronic door is actually a SOLID BARRIER.
+- My door logic was backwards! The glowing doors are CLOSED. The pink floor is OPEN.
+- Therefore, in Turn 39851 when I saw (24, 13) was pink floor and (20, 17) was glowing doors, it meant the East doors were OPEN and the Central doors were CLOSED.
+- My current state (from Turn 39828) is STATE A.
+- I need to press the switch at (21, 14) to toggle to STATE B, which will CLOSE the East doors (they will become glowing doors) and OPEN the Central doors (they will become pink floor).
