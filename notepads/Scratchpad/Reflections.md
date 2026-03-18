@@ -36,3 +36,4 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 9. B1F: Central doors (20, 17) are OPEN! Walk West to find the Secret Key.
 [Turn 40596] Confirmed 1F switch set to State B. Proceeding to 2F Northern Doors.
 [Turn 40605] Arrived at 2F Northern Doors (16, 7). They are CLOSED (State A). I must have double-toggled the 1F switch by accident on Turns 40589-40595. Returning to 1F to carefully toggle it ONCE.
+[Turn 40609] REALIZATION: Pressing 'B' (via safe_mash_b or otherwise) while a YES/NO prompt is active will CANCEL the prompt (defaults to NO). This is exactly why my toggle failed on Turn 40596! I must press 'A' on the YES/NO prompt to actually activate the switch.
