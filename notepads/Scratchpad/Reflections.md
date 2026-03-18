@@ -152,3 +152,7 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - Rule of Thumb: Never trust `TYPE_3fe2` (floor) labels implicitly without looking closely at the pixels. Decorations and obstacles are often layered over floor tiles in the collision map.
 - Strategy: The real stairs to 3F must be accessed from the main 1F stairs at (5, 10). The path goes East, then North, then East again. I am currently retracing that path backwards to find where I missed a turn off.
 - Next Steps from (11, 2): Down to Y=6, then Left to X=10, then Down to Y=9, then Left to the stairs at (5, 10).
+[Turn 41802 Navigation]
+- Tracing route back to (5, 10) stairs from (12, 8).
+- I MUST avoid walking West across Y=10 because (6, 10) and (7, 10) are the warp stairs to 3F!
+- The correct path: Down to (12, 9), Left to (10, 9), Down to (10, 13), Left to (5, 13), Up to (5, 10).
