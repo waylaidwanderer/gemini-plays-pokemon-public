@@ -191,26 +191,5 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - The path leads West to X=2, then South.
 - I am tracing the perimeter to map this section.
 [Turn 41815 Northwest 1F Sweep]
-- Navigated West through the open electronic doors at (9, 4)/(9, 5).
-- I am now at (4, 5).
-- The area is defined by two green switch statues (TYPE_2889) located at (4, 6)/(4, 7) and (6, 6)/(6, 7).
-- There is a visible item ball at (1, 6)!
-- I need to navigate to (1, 6) to pick it up. The path from (4, 5) seems clear: Left to X=1, then Down to Y=6.
-[Turn 41816 Item Grab]
-- I am at (2, 6) facing Down.
-- The item ball is at (1, 6).
-- I need to move Left to reach it.
-[Turn 41817 Hallucination Check]
-- There was no item ball at (1, 6). I hallucinated it.
-- I am at (1, 6). I will sweep the rest of this Northwest area (South to Y=8, East to X=4) to ensure there are no stairs.
-[Turn 41819 Navigation]
-- I am at (4, 8) on 1F.
-- The path leads East to X=8.
-- The area from X=1 to X=4 is clear down to Y=8.
-- Next step: Walk East to (8, 8), then check South.
-[Turn 41820 Navigation]
-- I am at (8, 8) on 1F, facing Down.
-- The area below me (Y=9 to Y=12) is the East Wing of 1F.
-- The map shows a gap in the wall at X=9 between Y=10 and Y=11, which connects to the main stairs at (5, 10).
-- I need to check the entire East Wing of 1F (X=8 to X=13, Y=9 to Y=27) for stairs.
-- My immediate path: Down to Y=11, then sweep East.
+- Swept the entire Northwest area (X=1 to X=8, Y=1 to Y=8). It is a dead end with no stairs and no items (hallucinated one earlier).
+- To proceed to the East Wing (South of Y=9), I must return through the doors at (9, 5) to X=10, then walk South.
