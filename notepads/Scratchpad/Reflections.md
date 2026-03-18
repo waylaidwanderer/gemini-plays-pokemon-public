@@ -71,3 +71,6 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - There is NO wall at X=24 between Y=16 and Y=18! The East Wing connects directly to the Central Doors area!
 - Puzzle Solution: Enter East Wing in State A (doors at 24,13 open). The Central Doors (21,17) will be closed. We must find a hidden switch INSIDE this enclosed East Wing area to change to State B. This will open the Central Doors (21,17) allowing access to the stairs to 3F at (21, 23)!
 - Currently exploring the East Wing to find this hidden switch.
+[Turn 41744 50-Turn Reflection]
+- Immediate Execution: Still systematically exploring the East Wing (South of Y=13) to find the hidden switch to change the Mansion to State B. I am currently at the bottom-right corner around (28, 22).
+- Error Analysis: My movement hit the East wall at X=29. The path continues South and West. I am proceeding carefully.
