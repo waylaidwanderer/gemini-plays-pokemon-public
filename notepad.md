@@ -1164,6 +1164,7 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - Text Box Mechanics: Pressing 'B' on a text box with a down arrow (▼) simply advances to the next line of text, it DOES NOT close the text box. This means any movement inputs sent immediately after 'B' will be eaten if there are more lines of text to render! Always ensure the text is fully complete before appending movement to a sequence.
 - [Gen 1 Battle Mechanic] Wild Vulpix used ROAR. The text said "HYDRO ran away scared!" and the battle ended immediately. Roar forces the player to run away in wild battles!
 - [50-Turn Reflection] Text Box Input Eating: The "Got away safely!" text after running from a wild battle remains on screen and will eat subsequent directional overworld inputs until cleared with 'A' or 'B' (or wait). Always clear it before moving.
+- Battle Intro Input Eating: Do not use menu navigation tools (like run_battle or execute_battle_turn) on the turn a wild encounter starts (when 'Wild [PKMN] appeared!' is on screen). The button presses will be consumed as text advances, and you will be left at the main battle menu on the next turn.
 
 <hr>
 
