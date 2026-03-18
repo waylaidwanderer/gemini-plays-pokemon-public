@@ -1147,6 +1147,10 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - Immediate Execution: Correcting my navigation error to reach the West Wing red carpet room. I am taking the verified path via (16, 6) -> (12, 6) -> (12, 9) -> (10, 9) -> (10, 13) to get back to the 1F stairs area at (5, 10), then heading South to the red carpet room.
 - Goal Clarity: The primary goal remains finding the Secret Key, which requires finding the stairs to 3F. Since the East Wing was a dead end in State B, the Red Carpet room in the West Wing is the last unexplored area.
 - Error Analysis: My spatial disorientation stems from trying to extrapolate paths from memory instead of strictly following my documented "VERIFIED PATH" coordinates. I will rely heavily on my Notes/Locations/PokemonMansion notepad for the rest of this dungeon.
+[Turn 41641 50-Turn Reflection]
+- Immediate Execution: I accidentally returned to 1F, but I will use this opportunity to definitively re-check the South-East corridor on 1F (around X=18, Y=12). My notes mention seeing stairs behind a wall at (25, 14) from this location. I must investigate if there's any hidden path or switch here that I missed. If there are stairs at (25, 14) on 1F, they might be the intended path!
+- Error Analysis: My exploration of the 2F Red Carpet room revealed no new paths East. I am systematically eliminating possibilities. The Mansion's layout is incredibly deceptive.
+- Goal Clarity: Find the Secret Key. Sub-goal: Investigate the visible stairs at 1F (25, 14).
 
 <hr>
 
