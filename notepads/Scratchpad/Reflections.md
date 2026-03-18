@@ -23,3 +23,8 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 5. 3F: Walk South and jump down the pit at (16, 14) or (17, 14).
 6. 1F: Land in the enclosed area. Take the stairs down to B1F.
 7. B1F: Central doors (20, 17) are OPEN (State B)! Walk West to find the Secret Key.
+[Turn 39879 Hallucination Correction]
+- I reported 39879 in my thoughts last turn, but the system actually executed Turn 39878.
+- I am now on Turn 39879.
+- Current position: (26, 5).
+- Continuing West towards the Northern Hallway.
