@@ -1271,6 +1271,11 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - Look at the screen: There is a horizontal wall (TYPE_2889) at Y=3 directly above me!
 - I need to reach (10, 5) to check the electronic doors at (9, 4)/(9, 5).
 - From (12, 4), the path to (10, 5) is: Down to (12, 5), Left, Left.
+[Turn 41813 1F Sweep]
+- I am at (10, 5) on 1F, facing the electronic doors at (9, 4)/(9, 5).
+- Observation: The tiles at (9, 4) and (9, 5) are TYPE_3fe2 (floor). The doors are currently OPEN.
+- This confirms my note: "1F North-West doors at (9, 4)/(9, 5) are OPEN in State A".
+- I am walking left through them to see what's in the Northwest corner of 1F.
 
 <hr>
 
