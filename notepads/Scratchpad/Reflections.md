@@ -86,3 +86,7 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 [Turn 41767 Testing Statue]
 - I am standing directly beneath the statue at (21, 14) on 2F. I am about to exhaustively test it from all accessible sides (South, West). I cannot access North or East due to walls/rubble.
 - If this statue is truly inert, my puzzle solution is flawed, and I must re-evaluate the entire Mansion layout.
+[Turn 41767 Statue Conclusion]
+- The statue at (21, 14) is definitively INERT. My sequence on Turn 41765 successfully tested all sides with no result.
+- Reverting to bypass theory: The stairs to 3F at (21, 23) MUST be accessible by walking to the very bottom of the East Wing (X=25) and hooking West around the solid wall at X=24.
+- Heading South to find the gap.
