@@ -16,7 +16,8 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - Turn 40698: Checked visually. The rubble at (20,13)-(21,14) is just generic rocks. I pressed A and nothing happened. There is NO STATUE in the SE area.
 - The Central doors at (20, 17) are CLOSED in State A.
 - X=18 is a solid vertical wall blocking travel West.
-[State B Route Hypothesis]
-- Since the East doors (24, 13) close in State B, we cannot reach the Central doors from the East Wing.
-- Since Y=13 is a solid wall at X=17, we cannot walk straight South.
-- Hypothesis PROVEN: Visual evidence shows an open floor path at Y=12 extending East from X=17 to X=21 underneath the Northern rubble. We must walk South to (17, 12), East to X=22 (bypassing rubble at 20,13), South to Y=16, then West to the Central doors!
+[State B Route - West Wing]
+- The path East at Y=12 is a DEAD END. X=22 is blocked by rubble.
+- Y=13 is a solid wall spanning the entire center/east (X=13 to X=25).
+- Therefore, in State B, the Central/East area south of Y=13 is UNREACHABLE from the North.
+- The true path: From the Northern doors (16, 7), walk North to the hallway at Y=6. Walk West to X=10. X=10 provides a clear path South, bypassing the X=11/13 pillar walls to reach the West Wing!

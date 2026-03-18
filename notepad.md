@@ -1106,10 +1106,11 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - Turn 40698: Checked visually. The rubble at (20,13)-(21,14) is just generic rocks. I pressed A and nothing happened. There is NO STATUE in the SE area.
 - The Central doors at (20, 17) are CLOSED in State A.
 - X=18 is a solid vertical wall blocking travel West.
-[State B Route Hypothesis]
-- Since the East doors (24, 13) close in State B, we cannot reach the Central doors from the East Wing.
-- Since Y=13 is a solid wall at X=17, we cannot walk straight South.
-- Hypothesis PROVEN: Visual evidence shows an open floor path at Y=12 extending East from X=17 to X=21 underneath the Northern rubble. We must walk South to (17, 12), East to X=22 (bypassing rubble at 20,13), South to Y=16, then West to the Central doors!
+[State B Route - West Wing]
+- The path East at Y=12 is a DEAD END. X=22 is blocked by rubble.
+- Y=13 is a solid wall spanning the entire center/east (X=13 to X=25).
+- Therefore, in State B, the Central/East area south of Y=13 is UNREACHABLE from the North.
+- The true path: From the Northern doors (16, 7), walk North to the hallway at Y=6. Walk West to X=10. X=10 provides a clear path South, bypassing the X=11/13 pillar walls to reach the West Wing!
 
 <hr>
 
@@ -1454,13 +1455,14 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
   - B1F Central doors (20, 17) OPEN.
 - 2F Central doors located at (20, 17) and (21, 17). In State A, these are CLOSED. They block the path South to Y=18.
 - Found a glowing-eye switch statue at (21, 13)/(21, 14) in the enclosed South-East area (accessed via East doors).
-[Master Route to Secret Key (Draft 10)]
+[Master Route to Secret Key (Draft 11)]
 1. 1F: Set switch at (2, 10) to State B (Northern doors OPEN).
 2. 2F: Pass through OPEN Northern doors at (16, 7)/(17, 7).
-3. 2F: Walk South to (17, 12), East to X=22, South to Y=17, West to Central doors at (20, 17).
-4. 2F: Central doors at (20, 17) will be OPEN! Pass through to reach 3F stairs at (21, 23).
-5. 3F: Arrive on 3F in State B. Southern doors (15, 10) are OPEN. Jump down pit at (16, 14).
-6. 1F: Land in enclosed area. Take stairs down to B1F.
-7. B1F: Central doors (20, 17) are OPEN (State B)! Walk West to find the Secret Key.
+3. 2F: Walk North to Y=6, West to X=10, then South down the corridor to Y=19.
+4. 2F: Walk West through the gap at X=8, Y=19 to enter the South-West red carpet room.
+5. 2F: Locate stairs to 3F in the West area.
+6. 3F: Navigate to the pit at (16, 14). Jump down.
+7. 1F: Land in enclosed area. Take stairs down to B1F.
+8. B1F: Walk West to find the Secret Key.
 
 <hr>
