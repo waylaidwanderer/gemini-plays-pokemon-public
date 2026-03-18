@@ -1276,6 +1276,10 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - Observation: The tiles at (9, 4) and (9, 5) are TYPE_3fe2 (floor). The doors are currently OPEN.
 - This confirms my note: "1F North-West doors at (9, 4)/(9, 5) are OPEN in State A".
 - I am walking left through them to see what's in the Northwest corner of 1F.
+[Turn 41814 Navigation]
+- I am at (6, 2) in the Northwest corner of 1F.
+- The path leads West to X=2, then South.
+- I am tracing the perimeter to map this section.
 
 <hr>
 
