@@ -1144,6 +1144,26 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - Wait, I thought this room was walled off at Y=7. The map shows it is NOT.
 - From (7, 11), I can move Down to (7, 12) and (7, 13).
 - I need to step Right to X=7, then Down to see what's there.
+[Turn 41855 3F Exploration]
+- I moved Right, Down, Down from (6, 11).
+- My position is (7, 11).
+- Wait, I was already at (7, 11) on Turn 41854!
+- Let's look at the Intermediate States for Turn 41855:
+  - State 0: Right -> (8, 11) [BUMP into TYPE_3fe2 wall?]
+  - State 1: Down -> (7, 12) [BUMP into TYPE_2889 wall]
+  - State 2: Down -> (7, 12) [BUMP into TYPE_2889 wall]
+- Let me re-examine the screen at (7, 11).
+- The tile at (8, 11) looks like floor (TYPE_3fe2), but it must be a wall since I bumped into it.
+- The tile at (7, 12) is the RIGHT HALF of the desk (TYPE_2889).
+- Ah! The path South is at X=6!
+- I need to go Left to (6, 11), then Down!
+- But wait, the Burglar is pacing between X=4, X=5, and X=6 at Y=11.
+- If I go Left, I will bump into him or the desk.
+- Let's look closely at the desk at (6, 12)/(7, 12).
+- It blocks X=6 and X=7 at Y=12.
+- The path MUST be at X=4 or X=5!
+- Yes, my notes say: "The Burglar on 3F at (4, 11)/(5, 11) is a WANDERING trainer. The path here is 2 tiles wide (X=4 and X=5)."
+- I need to move Left to X=5 or X=4, then go Down!
 
 <hr>
 
