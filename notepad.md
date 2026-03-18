@@ -1124,6 +1124,11 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - Therefore, to reach the North side of the Central doors at (20, 17), I must use the WEST DOORS at (7, 12).
 - The West doors are OPEN in State B.
 - Route: Go to X=7, Y=11. Walk South through West doors, then explore East towards (20, 16) to find the Central doors!
+[Turn 39816 Observation]
+- Attempting to walk East along Y=11 from (12, 11) FAILED.
+- I am blocked by a solid wall at X=13! The tiles at (13, 11) and (13, 12) are TYPE_2889 (solid walls).
+- The gap at X=12 is a 1-tile wide corridor bounded by X=11 on the left and X=13 on the right.
+- This means the entire central area of 2F (including the Central doors at 20, 17) CANNOT be accessed from the West Wing or the Stairs area via Y=11.
 
 <hr>
 
