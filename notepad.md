@@ -1219,6 +1219,10 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - I am at (5, 6) in the central hallway of 2F.
 - The stairs to 1F are at (5, 10). I need to move Down to reach them.
 - From there, I will explore the area South of the stairs, particularly looking for paths East towards X=21 that might bypass the Central Doors.
+[Turn 41786 Navigation Check]
+- Currently at (5, 8).
+- The stairs to 1F are at (5, 10). I need to move Down 2 more steps to reach them.
+- I am in the clear. I will move Down twice to the stairs, then start exploring East from Y=12.
 
 <hr>
 
