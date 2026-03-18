@@ -46,3 +46,13 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - I am now on Turn 39887.
 - Current position: (22, 3).
 - I will move Down to Y=4, then navigate West.
+[Turn 39889 Navigation Validation]
+- Sent `D, L*10, D*9` from (22, 3).
+- I moved Down to (22, 4). Then Left to (12, 4) - wait, my position is (12, 12).
+- Let's look at `IntermediateStates` 39888.
+- From (22, 4), I moved Left across the Northern Hallway.
+- At (12, 4), I bumped into a wall? No, the gap is at X=12.
+- The states show me moving Down through the gap at X=12.
+- I am now at (12, 12).
+- The stairs to 1F are at (5, 10).
+- From (12, 12), I need to move Left to X=7, then Up to Y=10, then Left to X=5.
