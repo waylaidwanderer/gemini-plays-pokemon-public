@@ -41,7 +41,7 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 [Turn 41413]
 - Realized the path East from (19, 6) is blocked by a wall at X=22.
 - The correct path to the East Wing from the North Hallway is to backtrack West and South: Left to (12, 6), Down to (12, 9), Left to (10, 9), Down to (10, 13).
-- From (10, 13) in the Central Area, I should be able to walk East to the (24, 13) doors.
+- I assumed the path East from (10, 13) was open, but I just verified visually that X=11 is a solid vertical wall from Y=13 to at least Y=17, and Y=13 is a horizontal wall from X=11 to X=15. I cannot walk East from (10, 13). Must explore further South.
 [Turn 41432 50-Turn Reflection]
 - Currently navigating 2F Pokemon Mansion to reach the East Wing stairs to 3F.
 - My `execute_battle_turn` failed because I passed `current_move_index: 3` when the game's cursor memory had it at `1` (Body Slam). I must carefully track or visually confirm move menu cursor memory.
