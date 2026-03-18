@@ -95,3 +95,4 @@
 9. B1F: Central doors (20, 17) are OPEN (State B)! Walk West to find the Secret Key.
 - Rubble at Y=8 blocks X=8 to X=11 on 2F West. Path South is at X=7 or X=6.
 - Corridor South of (16, 7) leads to two switch statues at (16, 10) and (18, 10). The path continues South between them at X=17, then heads East at Y=12. This path ends in a DEAD END at X=21. There are no stairs here.
+- The West Wing North of Y=9 is a dead end containing only the switch statue at (2, 4) and the one-way drop-down stairs at (6, 1). The wall at Y=9 is solid from X=0 to X=9.
