@@ -1177,6 +1177,8 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - But to reach the Central Doors from the North, I must enter the East Wing via the East doors at (24, 13), which requires State A!
 - Paradox: I must enter in State A, then change to State B from INSIDE the East Wing.
 - I will return to the statue at (20, 13)/(21, 14) and re-test it exhaustively. I may have missed the exact switch tile.
+[Turn 41759 Navigation]
+- Retracing steps North through the East Wing to re-examine the switch statue at (21, 14). I must figure out how to trigger it to change to State B while inside the East Wing.
 
 <hr>
 
