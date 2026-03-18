@@ -1153,6 +1153,10 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - WARNING: The Burglar on 3F at (4, 11)/(5, 11) is a WANDERING trainer. The path here is 2 tiles wide (X=4 and X=5), so even if I battle him and he freezes, he will only block one of the lanes. I can safely battle him without permanently blocking the path!
 - Turn 41668: The Burglar at (4, 11) is not hostile (just says 'I wonder where my partner went.'). I can safely walk past him at X=5.
 - Turn 41669: The room on 3F accessed via the stairs at (7, 10) from 1F is an ISOLATED DEAD-END. It is walled off at Y=7 and X=10. It only contains the non-hostile Burglar and the 'Feb. 6' diary. I must use the stairs to leave.
+[Turn 41692 50-Turn Reflection]
+- Immediate Execution: I am currently standing at 1F (2, 12), facing Up towards the switch statue. I will press 'A' to toggle the Mansion back to State A. This will reopen the 2F East doors at (24, 13). Then, I will take the stairs at (5, 10) up to 2F, walk to the East Wing, and systematically search for the true stairs to 3F.
+- Goal Clarity: The primary goal remains finding the Secret Key. To do this, I must reach the 3F pit at (16, 14) in State B. To reach the 3F pit, I need to find the stairs to 3F, which must be in the 2F East Wing (accessible only in State A).
+- Error Analysis: My exploration of the 1F main staircase warp (7, 10) revealed a fascinating dead-end lore room on 3F. I successfully mapped it without soft-locking myself by battling the Burglar in the chokepoint. I am now back on track with the master plan.
 
 <hr>
 
