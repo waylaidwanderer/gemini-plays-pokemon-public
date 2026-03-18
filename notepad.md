@@ -1122,6 +1122,10 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - 50-Turn check: I've successfully debunked Draft 6 and restored Draft 3 by carefully observing the physical map boundaries instead of hallucinating paths.
 - My notepads are fully hygienic and accurately reflect the current routing strategy.
 - I noticed my inputs were eaten last turn because the 'Got away safely!' text box was still open and required an 'A' press to clear (indicated by the down arrow). I will clear it now and proceed to the East doors.
+[Turn 40666 Reflection]
+- CRITICAL ERROR IDENTIFIED: On Turn 40664, I thought I pressed the SE switch at (20, 14). However, Hydro fainted from poison in the overworld on Turn 40663, generating a text box. My 'A' presses merely cleared the "HYDRO fainted!" text and NEVER interacted with the statue!
+- This explains why the Central doors at (20, 17) were still closed on Turn 40665. The puzzle is STILL in State A!
+- Master Route Draft 3 remains completely valid. After I escape this Grimer, I must return to (20, 15), face Up, and ACTUALLY press the switch.
 
 <hr>
 
