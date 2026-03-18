@@ -85,7 +85,7 @@
 [Master Route to Secret Key (Draft 4)]
 1. 1F: Set switch at (2, 10) to State B (Northern doors OPEN).
 2. 2F: Pass through OPEN Northern doors at (16, 7).
-3. 2F: Navigate East and South through the North-East area to reach the East wing.
+3. 2F: Walk North to Y=3, then East to X=26 to bypass rubble, then South to the East wing.
 4. 2F: Walk South. Central doors at (20, 17) will be OPEN!
 5. 2F: Pass through Central doors at (20, 17) to reach 3F stairs at (21, 23).
 6. 3F: Arrive on 3F in State B. Southern doors (15, 10) are OPEN. Jump down pit at (16, 14).
