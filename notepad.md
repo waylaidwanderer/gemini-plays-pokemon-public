@@ -1286,6 +1286,10 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - The area is defined by two green switch statues (TYPE_2889) located at (4, 6)/(4, 7) and (6, 6)/(6, 7).
 - There is a visible item ball at (1, 6)!
 - I need to navigate to (1, 6) to pick it up. The path from (4, 5) seems clear: Left to X=1, then Down to Y=6.
+[Turn 41816 Item Grab]
+- I am at (2, 6) facing Down.
+- The item ball is at (1, 6).
+- I need to move Left to reach it.
 
 <hr>
 
