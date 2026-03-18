@@ -1123,11 +1123,6 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 9. 1F: Land in the enclosed area. Take the stairs down to B1F.
 10. B1F: Central doors (20, 17) are OPEN (State B)! Walk West to find the Secret Key.
 
-[Turn 40392 50-Turn Reflection]
-- Immediate Execution: Going to 2F to verify State A at the Northern doors (16, 7). If they are OPEN, we are in State A.
-- Error Analysis: The hallucination of 2F West doors cost me a lot of time. I must rely ONLY on verified glowing barriers (TYPE_a83b) to determine door states.
-- Next Step: After verifying State A, I will proceed to the East Wing and test interacting with the LEFT half of the switch statue at (20, 15).
-
 <hr>
 
 <h1><code>Scratchpad/Mechanics</code></h1>
