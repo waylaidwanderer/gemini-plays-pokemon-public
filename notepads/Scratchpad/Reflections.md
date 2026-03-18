@@ -64,3 +64,4 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 [Turn 41660 Critical Discovery]
 - The main staircase at (6, 10)/(7, 10) spans all three floors! Stepping on the RIGHT half (7, 10) from 1F warps you directly to 3F! This bypasses 2F entirely.
 - WARNING: The Burglar on 3F at (4, 11)/(5, 11) is a WANDERING trainer. The path here is 2 tiles wide (X=4 and X=5), so even if I battle him and he freezes, he will only block one of the lanes. I can safely battle him without permanently blocking the path!
+- Turn 41668: The Burglar at (4, 11) is not hostile (just says 'I wonder where my partner went.'). I can safely walk past him at X=5.
