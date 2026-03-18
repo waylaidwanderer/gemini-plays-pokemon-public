@@ -1351,6 +1351,21 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 [Turn 41838 Navigation]
 - Continuing South from (10, 13) to explore the southern section of the East Wing.
 - Will sweep the South-West area (around X=4 to X=8, Y=18 to Y=26) next.
+[Turn 41838 Navigation Correction]
+- Sequence `DDDDLLLLLL` failed. I am at (10, 13).
+- Let's trace it:
+  - D -> (10, 14) [Floor]
+  - D -> (10, 15) [Floor]
+  - D -> (10, 16) [Floor]
+  - D -> (10, 17) [Floor]
+  - L -> (9, 17) [BUMP into TYPE_2889 wall]
+- Ah, there is a wall at X=9 in the East Wing, separating it from the Central Corridor.
+- The map shows the East Wing extends South. Let's look at the screen at (10, 17) (from Intermediate State 3).
+- The path continues South along X=10 and X=11.
+- Wait, I see electronic doors at (12, 17) and (13, 17) (TYPE_a83b, orange glowing barriers).
+- These doors are CLOSED in State A.
+- To explore the rest of the East Wing (South of Y=17), I need to go South.
+- Let's move Down from (10, 17).
 
 <hr>
 
