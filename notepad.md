@@ -1119,6 +1119,11 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 6. 1F: Land in enclosed area. Take stairs down to B1F.
 7. B1F: Central doors (20, 17) are OPEN! Walk West to find the Secret Key.
 *CRITICAL INSIGHT*: The switch statue at (21, 14) is a FAKE red herring. Pressing it does nothing! The path East past X=13 in the Northern Hallway is NOT blocked.
+[Master Route Correction]
+- The Northern Hallway is blocked from going South at X=20 by a table at (20, 7).
+- Therefore, to reach the North side of the Central doors at (20, 17), I must use the WEST DOORS at (7, 12).
+- The West doors are OPEN in State B.
+- Route: Go to X=7, Y=11. Walk South through West doors, then explore East towards (20, 16) to find the Central doors!
 
 <hr>
 
