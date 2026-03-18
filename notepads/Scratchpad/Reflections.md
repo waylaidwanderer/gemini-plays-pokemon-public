@@ -3,7 +3,6 @@
 - East Wing is physically isolated from the Central Corridor (X=24 solid, X=22/23 rubble).
 - Central Doors (20, 17) are blocked from the North in State B by solid wall at Y=13.
 - The stairs at (21, 23) on 1F lead DOWN to B1F. The map marker I placed at (21, 23) on 2F for "Stairs to 3F" was a hallucination! They don't exist there.
-- The true stairs UP to 3F are NOT at (4, 10). I visually confirmed (4, 10) is just red carpet floor on Turn 41084. Must keep searching 2F.
 [Mansion Master Puzzle Solution]
 Goal: Reach B1F isolated area to find the Secret Key.
 Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPEN. This is STATE B.
