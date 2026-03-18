@@ -255,3 +255,6 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 [Turn 41832 Navigation]
 - Cleared the wild Grimer encounter at (12, 11).
 - Route: Left to X=10, Down to Y=15.
+[Turn 41835 Navigation]
+- I am at (10, 13) facing Down.
+- Route: Down to Y=15, then sweep West towards the South-West area.
