@@ -1114,6 +1114,11 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 [2F Stairs Search]
 - VERIFIED: The North-East corridor accessed via the Northern doors at (16, 7) is a trap! It is a dead end containing switch statues at (16, 10) and (18, 10). Pressing them will close the doors and trap you. There are NO stairs here.
 - The stairs to 3F MUST be in the East Wing, accessible via the East doors at (24, 13) ONLY when they are OPEN (State A).
+[Turn 41380 Reflection]
+- I am currently in a battle with a Grimer.
+- I noticed on Turn 41379 that the doors at (16, 7) are OPEN. This means the Mansion is currently in STATE B.
+- Since I need to reach the East Wing via the doors at (24, 13), which are open in State A, I will need to change the state back to A.
+- Nearest switch is either 2F (2, 5) or 1F (2, 10). I'll head back to the 2F switch after this battle.
 
 <hr>
 
