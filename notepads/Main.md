@@ -55,8 +55,7 @@
 - DIRT TRENCH NORTH: The dirt trench (TYPE_2770) extends North to Y=6. The green grass at Y=5 is separated by a ledge, preventing Northward movement.
 - TOOL DESIGN NOTE: A custom tool for using HM field moves cannot reliably start from the Overworld because the Start Menu retains cursor memory (it doesn't reset to POKéMON). Therefore, `use_hm_field` MUST start from the Party Menu where the `current_index` can be visually verified by the player.
 - SAFARI ZONE MAP TRANSITIONS: Transitions between Safari Zone areas do NOT always preserve coordinates. For example, moving West from Area 1 Center (0, 11) deposits you at Area 4 West (29, 23) - a +12 tile Y-shift! Never assume strict spatial continuity between Safari Zone sub-maps.
-[Turn 39874 50-Turn Reflection]
-- Immediate Execution: Finalizing the Secret Key route.
-- Notepad Hygiene: Successfully executed a massive purge of diary-style logs from Scratchpad/Reflections, distilling them into pure logic rules per Overwatch instructions.
-- Error Analysis: The last 50 turns involved unlearning two massive visual/spatial hallucinations. 1) Assuming a gap was an electronic door. 2) Assuming glowing laser barriers (TYPE_a83b) were open doors. By relying on empirical bumping, I established the true constraints of Pokemon Mansion.
-- Future action: Flee from this Weezing and continue the long trek back to the 1F switch.
+[Turn 40133 50-Turn Reflection]
+- Immediate Execution: Returning to the 1F switch to carefully set it to State A.
+- Error Analysis: The execution loop was caused by double-toggling the switch due to mashing 'A' through the dialogue. I must use a single 'A' press to interact, another 'A' to select YES, and then exclusively use 'B' (or safe_mash_b) to clear the remaining text.
+- Future action: Set to State A, then go to 2F East Wing, use the 2F switch at (20, 15) to set State B, and access the Central doors!
