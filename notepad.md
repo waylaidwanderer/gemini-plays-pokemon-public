@@ -1197,6 +1197,11 @@ This is the definitive, empirically sound solution. I will execute this immediat
 - Let me execute my plan to explicitly test the switch at (21, 14).
 - I will move Up to (22, 14), then face Left.
 - Then I will wait and see the screen before interacting, to ensure I don't mash through the YES/NO prompt again.
+[Turn 39856 Epiphany]
+- Wait a second. If the 2F East doors at (24, 13) DO NOT EXIST (they are just a permanent floor gap), and the 2F Central doors at (20, 17)/(21, 17) are CURRENTLY OPEN...
+- I don't need to press the switch at (21, 14) right now!
+- If I'm already in a state where the Central doors are OPEN, I can just walk South directly to the 3F stairs at (21, 23)!
+- I'm going to test this immediately by walking through the open Central doors at (21, 17).
 
 <hr>
 
