@@ -1127,6 +1127,10 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 [Turn 39838 Navigation]
 - Navigating the East Wing. There is a horizontal wall at Y=4 from X=22 to X=25. The path South is via X=26.
 - Continuing South to the East doors at (24, 13) which should be OPEN in State A.
+[Turn 39847 Observation]
+- Attempted to walk Down into (24, 19). It is a SOLID WALL (TYPE_2889), not stairs!
+- The overwatch agent's suggestion that the stairs are at (24, 19) appears to be incorrect based on empirical bumping.
+- I will systematically explore the rest of the East Wing (South of the East doors) to locate the actual stairs to 3F.
 
 <hr>
 
