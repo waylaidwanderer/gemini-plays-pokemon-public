@@ -86,14 +86,13 @@
 - Found a glowing-eye switch statue at (21, 13)/(21, 14) in the enclosed South-East area (accessed via East doors).
 [TRUE MASTER ROUTE TO SECRET KEY]
 1. 1F: Set switch at (2, 10) to State A (Default).
-2. 2F: Walk to East Wing. Pass through OPEN East doors at (24, 13).
-3. 2F: Stairs UP to 3F are NOT in South-East. They must be in North-East. Searching now.
-4. 3F: Arrive on 3F East. In State A, Northern doors (15, 4) are OPEN.
-5. 3F: Pass through Northern doors (15, 4) to reach the switch at (10, 4).
-6. 3F: Press switch at (10, 4) to change to STATE B.
-7. 3F: Southern doors (15, 10) are now OPEN. Walk South to the pit at (16, 14) and jump down.
-8. 1F: Land in enclosed area. Take stairs down to B1F.
-9. B1F: Central doors (20, 17) are OPEN (State B)! Walk West to find the Secret Key.
+2. 1F: Go up stairs at (5, 10) to 2F.
+3. 2F: Go up stairs at (7, 10) to 3F.
+4. 3F: Walk East. In State A, Northern doors (15, 4) are OPEN. Pass through them to the switch at (10, 4).
+5. 3F: Press switch at (10, 4) to change to STATE B.
+6. 3F: Southern doors (15, 10) are now OPEN. Walk South to the pit at (16, 14) and jump down.
+7. 1F: Land in enclosed area. Take stairs down to B1F.
+8. B1F: Central doors (20, 17) are OPEN (State B)! Walk West to find the Secret Key.
 - Rubble at Y=8 blocks X=8 to X=11 on 2F West. Path South is at X=7 or X=6.
 - Corridor South of (16, 7) leads to two switch statues at (16, 10) and (18, 10). The path continues South between them at X=17, then heads East at Y=12. This path ends in a DEAD END at X=21. There are no stairs here.
 - The West Wing North of Y=9 is a dead end containing only the switch statue at (2, 4) and the one-way drop-down stairs at (6, 1). The wall at Y=9 is solid from X=0 to X=9.

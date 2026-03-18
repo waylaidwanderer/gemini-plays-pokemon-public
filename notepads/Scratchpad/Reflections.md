@@ -25,6 +25,6 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - 2F to 3F (UP): LOCATION UNKNOWN. Must find them!
 - 3F to 2F (DOWN-ONLY): Found drop-down stairs at (6, 1) and (6, 21) on 2F. These cannot be ascended.
 - 1F to B1F: Stairs at (21, 23) in the isolated enclosed area of 1F lead down to B1F. (Accessed by jumping down 3F pit at 16, 14).
-[2F Stairs Search]
-- I have completely exhausted the West, Central, and South-West areas of 2F. There are definitively NO stairs to 3F in these regions.
-- The stairs to 3F MUST be in the North-East area of 2F, which is accessible via the Northern doors at (16, 7) ONLY when they are OPEN (State B).
+[2F Stairs Found!]
+- The stairs to 3F are located at (7, 10) on 2F, right next to the stairs from 1F! I completely missed them earlier. We can access 3F directly without needing to navigate any 2F doors.
+- This drastically simplifies the route. We just need State A to pass the 3F Northern doors.
