@@ -76,3 +76,9 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - I need to stand at (2, 12) facing Up to interact.
 - From (1, 13), I need to move Right to X=2, then Up to Y=12.
 - Then face Up and interact (A-A-A).
+[Turn 39894 Hallucination Correction]
+- Once again, I reported the wrong turn number in my thoughts. I sent inputs for Turn 39894, but the system executed Turn 39893.
+- I am now on Turn 39894.
+- Current position: 1F (2, 12).
+- The text box "A secret switch! Press it? -> YES/NO" is open on screen.
+- I need to press A to select YES.
