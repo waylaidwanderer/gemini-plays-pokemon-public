@@ -160,3 +160,7 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - I am at (10, 14) facing Left.
 - The wall at X=8 has a gap at Y=13.
 - Path to stairs: Up to (10, 13), Left to (6, 13), Up to (6, 10), Left to (5, 10).
+[Turn 41804 Plan]
+- Arrived on 1F at (5, 11).
+- I will sweep 1F completely before returning to 2F to ensure I didn't miss the real stairs to 3F down here.
+- Heading to (10, 5) to check the electronic doors at (9, 4)/(9, 5).
