@@ -90,3 +90,8 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - The statue at (21, 14) is definitively INERT. My sequence on Turn 41765 successfully tested all sides with no result.
 - Reverting to bypass theory: The stairs to 3F at (21, 23) MUST be accessible by walking to the very bottom of the East Wing (X=25) and hooking West around the solid wall at X=24.
 - Heading South to find the gap.
+[Turn 41769 East Wing Dead End]
+- Tested the East Wing completely. It is a dead end. The wall at X=24 is solid down to the rubble at Y=24. There is no bypass.
+- CRITICAL OBSERVATION: Looked closely at the screen at the stairs (21, 23). The tiles to the WEST (X=19, Y=19 to Y=23) are FLOOR tiles (`TYPE_3fe2`).
+- New Hypothesis: The stairs are NOT accessed through the Central Doors at all. They are accessed from the West side of the Mansion! The Central Doors might just be a shortcut or another red herring.
+- Plan: Leave East Wing. Return to Northern Hallway. Explore paths heading South on the West side of the Central Doors (around X=16 to X=19).
