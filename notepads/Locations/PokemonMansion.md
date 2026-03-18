@@ -33,6 +33,8 @@
 - In the Northeast area, there is a horizontal wall at Y=4 from X=22 to X=25. The path South is via X=26 or X=27.
 - 2F East doors are located at (24, 13) and (25, 13). In State A, these are OPEN (floor), allowing access to the South-East area. In State B, these CLOSE (glowing barriers).
 - 2F South-East doors are located at (26, 27) and (27, 27). These are permanent barriers.
+- 2F Central doors located at (20, 17) and (21, 17). In State A, these are CLOSED. They block the path South to Y=18.
+- 2F West area (South of Y=18) has a red carpet room from X=4 to X=7, Y=22 to Y=27. Currently exploring.
 
 [3F Points of Interest]
 - Arrived from 2F via stairs (location unknown, likely South-East).
