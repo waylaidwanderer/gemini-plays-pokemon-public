@@ -1429,6 +1429,12 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - Immediate Execution: Currently sweeping 1F of the Pokemon Mansion to ensure I haven't missed the stairs to 3F. Just found an item ball at (8, 26) in the East Wing and am about to pick it up.
 - Error Analysis: The biggest error was the 2F Bar Graph hallucination. I need to be much more careful about examining the visual pixels on the screen, not just relying on map geometry or `TYPE_3fe2` (floor) labels.
 - Strategy: After grabbing this item, I will finish sweeping the southern part of 1F (East of X=9, South of Y=15). If there are no stairs here, the only remaining unexplored areas are on 3F (which requires finding the stairs first!) or I need to rethink the puzzle entirely.
+[Turn 41848 Item Grab]
+- Picked up an ESCAPE ROPE at (8, 26).
+- The East Wing of 1F (South of Y=10) has now been fully swept. It is a dead end with no stairs to 3F.
+- My previous exploration of 1F is complete. There are NO stairs to 3F on 1F or 2F.
+- Therefore, my puzzle logic must be flawed. The stairs MUST be hidden behind one of the electronic doors, or I missed a completely different section of the Mansion.
+- Let me review the Global Door States and my map notes.
 
 <hr>
 
