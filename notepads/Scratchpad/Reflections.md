@@ -208,3 +208,9 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - The path leads East to X=8.
 - The area from X=1 to X=4 is clear down to Y=8.
 - Next step: Walk East to (8, 8), then check South.
+[Turn 41820 Navigation]
+- I am at (8, 8) on 1F, facing Down.
+- The area below me (Y=9 to Y=12) is the East Wing of 1F.
+- The map shows a gap in the wall at X=9 between Y=10 and Y=11, which connects to the main stairs at (5, 10).
+- I need to check the entire East Wing of 1F (X=8 to X=13, Y=9 to Y=27) for stairs.
+- My immediate path: Down to Y=11, then sweep East.
