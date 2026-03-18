@@ -1119,6 +1119,12 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 9. 1F: Land in enclosed area. Take stairs down to B1F.
 10. B1F: Central doors (20, 17) are OPEN! Walk West to find the Secret Key.
 
+[HALLUCINATION WARNING - Turn 40683]
+- I completely hallucinated that the Central doors (20, 17) opened on Turn 40678. I looked at the screen on Turn 40683 and they are still `TYPE_a83b` (solid glowing barriers)! Furthermore, the East doors at (24, 13) are STILL OPEN.
+- This means the puzzle is STILL in State A.
+- My toggle attempt on Turn 40677 failed (likely selected NO by accident, or the switch is a fake).
+- I am returning to (20, 15) to CAREFULLY press the switch and visually verify the result before making ANY assumptions.
+
 <hr>
 
 <h1><code>Scratchpad/Mechanics</code></h1>
