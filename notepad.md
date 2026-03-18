@@ -1471,16 +1471,15 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
   - B1F Central doors (20, 17) OPEN.
 - 2F Central doors located at (20, 17) and (21, 17). In State A, these are CLOSED. They block the path South to Y=18.
 - Found a glowing-eye switch statue at (21, 13)/(21, 14) in the enclosed South-East area (accessed via East doors).
-[Master Route to Secret Key]
-1. 1F: Set switch to State B.
-2. 2F: Walk North through gap at X=12 to reach Northern Hallway (Y=3).
-3. 2F: Walk East to X=20, then South to (20, 6). Path South is blocked by table at Y=7.
-4. 2F: Walk Left to X=17, then South to bypass table. Then navigate to Central doors at (20, 17).
-5. 2F: Pass South through OPEN Central doors (20, 17) to find 3F stairs!
-6. 3F: Arrive in State B. Southern doors (15, 10) are already OPEN. Jump down pit at (16, 14).
-7. 1F: Land in enclosed area. Take stairs down to B1F.
-8. B1F: Central doors (20, 17) are OPEN! Walk West to find the Secret Key.
-*CRITICAL INSIGHT*: The switch statue at (21, 14) is a FAKE red herring. The South-East doors at (26, 27) are PERMANENT barriers.
-- CRITICAL REVISION: The true stairs to 3F are NOT at (24, 19). That is a solid wall. I must explore the path South via X=25 or X=26 in the East Wing to find them.
+[Master Route to Secret Key (Draft 3)]
+1. 1F: Set switch at (2, 10) to State A (Default).
+2. 2F: Navigate East Wing to access the South-East area.
+3. 2F: Walk to the switch statue at (20, 14)/(21, 14).
+4. 2F: Stand at (20, 15), face Up, and interact to change to State B.
+5. 2F: Walk West to the Central doors at (20, 17). They should now be OPEN!
+6. 2F: Walk South through OPEN Central doors (20, 17) to reach 3F stairs at (21, 23).
+7. 3F: Arrive on 3F in State B. Southern doors (15, 10) are OPEN. Jump down pit at (16, 14).
+8. 1F: Land in enclosed area. Take stairs down to B1F.
+9. B1F: Central doors (20, 17) are OPEN (State B)! Walk West to find the Secret Key.
 
 <hr>
