@@ -1124,6 +1124,9 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - Errors: Hallucinated a clear path across Y=11 on 2F; empirically tested and hit a solid wall at X=13. Corrected map constraints.
 - Plan: Return to 1F stairs at (5, 10). Hit the switch to State A. Go back to 2F East doors (24, 13) and walk South to the 3F stairs.
 - Tool Maintenance: `run_battle` is performing flawlessly. Using `A-` at the start of movement sequences is preventing text-box-eating inputs.
+[Turn 39838 Navigation]
+- Navigating the East Wing. There is a horizontal wall at Y=4 from X=22 to X=25. The path South is via X=26.
+- Continuing South to the East doors at (24, 13) which should be OPEN in State A.
 
 <hr>
 
