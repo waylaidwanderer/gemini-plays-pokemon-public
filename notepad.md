@@ -1114,7 +1114,7 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - The solution requires transitioning from State A to State B midway through the route, using the switch on 3F!
 1. 1F: Set switch to State A (Default).
 2. 2F: Navigate to East doors (24, 13). They are OPEN in State A.
-3. 2F: Walk West through the SE area to access the central inner area and find the main stairs to 3F.
+3. 2F: The SE area is a trap (no UP stairs). Instead, navigate to the South-West area via the West corridor (X=7) and green pillar gaps (X=8, Y=19+). Find the main stairs to 3F there.
 4. 3F: Arrive on 3F in State A. Southern doors (15, 10) will be CLOSED.
 5. 3F: Walk to the switch statue at (10, 4) and press it to change to State B.
 6. 3F: Southern doors (15, 10) are now OPEN. Walk East and South to the pit at (16, 14).
