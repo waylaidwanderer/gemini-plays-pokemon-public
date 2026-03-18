@@ -1250,6 +1250,20 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - Wow, my sequence was completely flawed because I hallucinated a path at X=8! The wall at X=8 is solid from Y=4 down to Y=12!
 - The gap I need to use to go South is actually the 1-tile gap at X=3!
 - To reach X=3 from (4, 8), I must go Up, Left, Down.
+[Turn 41790 Navigation Correction]
+- I am at (2, 8). I moved Down 5 times, but I'm at Y=8.
+- The tile at (2, 9) is a green pillar (TYPE_2889).
+- My map notes say the wall at Y=9 is solid from X=0 to X=9. I CANNOT go South from the West Wing!
+- Let me review the 1F map. The stairs to 2F are at (5, 10).
+- If I cannot go South on 2F to reach Y=10, how did I get from (5, 10) to the Northern Hallway in the first place?
+- Let me check my VERIFIED PATH notes:
+  - "To travel between the Northern doors (16, 7) and the West Wing... Walk UP along X=16 to Y=1, then LEFT to X=11, DOWN to Y=2, LEFT to X=4, DOWN to Y=5, and LEFT into the West Wing."
+- This path connects the North doors (16, 7) to the West Wing. It does NOT connect the 1F stairs (5, 10) to the Northern Hallway.
+- How did I get from (5, 10) to the Northern Hallway?
+- Wait. I must have walked East from (5, 10) to bypass the Y=9 wall on 2F, then gone North!
+- Let me look at the 2F map again. The path from the stairs at (5, 10) goes East to X=10, then North to (10, 9), then East to (12, 9), then North to (12, 6), then East to (16, 6) which connects to the Northern Hallway.
+- YES! The path is on the EAST side of the green pillars at X=9!
+- I am currently on the WEST side of the green pillars (X=2). I must go back UP to the Northern Hallway (Y=2), walk EAST to X=11, then go DOWN to (11, 6), then DOWN to (10, 9) to reach the stairs area!
 
 <hr>
 
