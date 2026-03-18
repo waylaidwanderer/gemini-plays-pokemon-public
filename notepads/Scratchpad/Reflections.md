@@ -12,8 +12,8 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - 3F Southern doors (15, 10) CLOSED in State A, OPEN in State B.
 - B1F Central doors (20, 17) CLOSED in State A, OPEN in State B.
 
-[STATUE RE-VERIFICATION]
-- Turn 40690: Epiphany! Statues ARE TYPE_2889 (rubble) on the visual grid! The 2x2 block of rubble at (20, 13) to (21, 14) IS the SE switch statue!
-- It IS accessible from the SE area (via X=21/22/23/24 between Y=14 and Y=16).
-- My press_buttons[A] on Turn 40687 failed because I was likely facing the wrong direction, or didn't select YES on the prompt.
-- Retrying interaction from (20, 15) facing UP.
+[SE STATUE DEFINITIVELY DEBUNKED]
+- Turn 40698: Checked visually. The rubble at (20,13)-(21,14) is just generic rocks. I pressed A and nothing happened. There is NO STATUE in the SE area.
+- The Central doors at (20, 17) are CLOSED in State A.
+- X=18 is a solid vertical wall blocking travel West.
+- I will explore South via the East hallway (X=24/25) to see if I can bypass the Central doors and find the stairs to 3F.
