@@ -1484,6 +1484,7 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - Arrived from 2F via stairs (location unknown, likely South-East).
 - Burglar trainer spotted at (4, 11).
 - Diary located at (6, 12). "Feb. 6. MEW gave birth. We named the newborn MEWTWO."
+- Found Max Potion at (1, 16).
 - Wide open gap/drop-off visible on the right side at X=12.
 - Spotted an item ball at (9, 4).
 - Spotted a glowing-eye switch statue at (10, 4)/(10, 5).
