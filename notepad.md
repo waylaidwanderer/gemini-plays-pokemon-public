@@ -1107,20 +1107,23 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - The statue at (22, 13) is completely inert.
 - This means you CANNOT change door states locally in the SE area of 2F.
 
-[DRAFT 4 DEBUNKED]
-- The 2F Northern doors (16, 7) lead to a DEAD END enclosed area bounded by a solid wall at Y=13. They DO NOT connect to the Central doors. State B is a trap on 2F.
+[DRAFT 5 DEBUNKED]
+- I exhaustively mapped the South-West area. It is just two empty parallel corridors. There are NO UP stairs there.
+- The SE area is a trap because you enter in State A (East doors open), but need State B to pass the Central doors. No switch exists there.
+- Therefore, the Central doors MUST be reached from the North!
 
-[THE TRUE MASTER ROUTE TO THE SECRET KEY (Draft 5)]
-- The solution requires transitioning from State A to State B midway through the route, using the switch on 3F!
-1. 1F: Set switch to State A (Default).
-2. 2F: Navigate to East doors (24, 13). They are OPEN in State A.
-3. 2F: The SE area is a trap (no UP stairs). Instead, navigate to the South-West area via the West corridor (X=7) and green pillar gaps (X=8, Y=19+). Find the main stairs to 3F there.
-4. 3F: Arrive on 3F in State A. Southern doors (15, 10) will be CLOSED.
-5. 3F: Walk to the switch statue at (10, 4) and press it to change to State B.
-6. 3F: Southern doors (15, 10) are now OPEN. Walk East and South to the pit at (16, 14).
-7. 3F: Jump down the pit.
-8. 1F: Land in the enclosed area. Take the stairs down to B1F.
-9. B1F: Central doors (20, 17) are now OPEN because we set State B on 3F! Walk West to find the Secret Key.
+[THE TRUE MASTER ROUTE TO THE SECRET KEY (Draft 6)]
+- The entire puzzle can be solved while remaining in STATE B! (Reverting to Draft 4's logic).
+- My previous observation that the Northern doors led to a dead end at Y=13 was an unverified hallucination. I saw a wall on screen but never actually walked down to it to check for side paths.
+1. 1F: Set switch at (2, 10) to State B.
+2. 2F: Navigate to the Northern doors at (16, 7). They will be OPEN.
+3. 2F: Walk South through the Northern doors and carefully explore the path to the Central doors at (20, 17).
+4. 2F: Since we are in State B, the Central doors at (20, 17) will ALSO be OPEN!
+5. 2F: Walk South through Central doors to reach 3F stairs at (21, 23).
+6. 3F: Arrive on 3F in State B. The 3F Southern doors (15, 10) will be OPEN.
+7. 3F: Walk South and jump down the pit at (16, 14).
+8. 1F: Land in the enclosed area. Take stairs down to B1F.
+9. B1F: Central doors (20, 17) are OPEN! Walk West to find the Secret Key.
 
 <hr>
 
