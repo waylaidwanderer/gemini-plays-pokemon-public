@@ -1110,7 +1110,6 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 [2F West Exploration]
 - The East hallway (X=24/25) led to a dead end at the South-East doors (26, 27) which are permanent barriers.
 - Retreated and am now exploring the West wing of 2F (navigating South along X=1 to X=5).
-- Currently at (4, 26) heading East to find the stairs to 3F.
 
 <hr>
 
