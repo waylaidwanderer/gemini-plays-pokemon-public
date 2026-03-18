@@ -1223,6 +1223,17 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - Currently at (5, 8).
 - The stairs to 1F are at (5, 10). I need to move Down 2 more steps to reach them.
 - I am in the clear. I will move Down twice to the stairs, then start exploring East from Y=12.
+[Turn 41787 Navigation Correction]
+- I am at (5, 8). I moved Down twice, but my position is STILL (5, 8).
+- Looked at the screen: There is a solid horizontal wall at Y=9! (TYPE_2889).
+- The stairs are at (5, 10). I cannot reach them by walking straight Down from (5, 8).
+- I must go back up to the Northern Hallway, go West, and find a path South.
+- Wait, I arrived at (5, 8) from the North. Let me check my map notes.
+- Ah, the Central Hallway on 1F is blocked by a wall at Y=9. But I am on 2F.
+- Let me re-examine the 2F map. At (5, 8), I am surrounded by green pillars (TYPE_2889) at (4, 6)-(4, 7) and a wall at (4, 9)-(7, 9).
+- To get from (5, 8) to (5, 10) on 2F, I must detour around the wall at Y=9.
+- Looking at the screen, there is a gap at X=3, but I'm blocked from going West by the pillar at (4, 8).
+- I need to go East to X=8, then Down. Let's try: Right, Right, Right, Down, Down, Left, Left, Left.
 
 <hr>
 
