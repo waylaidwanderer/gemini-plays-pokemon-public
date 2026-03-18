@@ -1158,6 +1158,11 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - Navigated from 2F to 1F.
 - Current position: 1F (5, 11).
 - Next step: Walk to the switch statue at (2, 10)/(2, 11). I need to stand at (2, 12) facing Up to interact.
+[Turn 39892 Hallucination Correction]
+- I reported 39891 in my thoughts last turn, but the system actually executed Turn 39890.
+- I am now on Turn 39891.
+- Current position: 1F (5, 11).
+- Next step: Walk to the switch statue at (2, 10)/(2, 11). I need to stand at (2, 12) facing Up to interact.
 
 <hr>
 
