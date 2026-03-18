@@ -1202,6 +1202,12 @@ This is the definitive, empirically sound solution. I will execute this immediat
 - I don't need to press the switch at (21, 14) right now!
 - If I'm already in a state where the Central doors are OPEN, I can just walk South directly to the 3F stairs at (21, 23)!
 - I'm going to test this immediately by walking through the open Central doors at (21, 17).
+[Turn 39857 Final Master Route]
+- I have confirmed the 2F East doors (24, 13) DO NOT EXIST. They are a permanent gap.
+- I am currently in STATE B, meaning the Central doors (20, 17) are OPEN.
+- Because I don't need State A to pass the non-existent East doors, I can do the entire puzzle in State B!
+- The True Route: 1F (State B) -> 2F East Wing -> South through Central doors (20, 17) -> Up 3F stairs (21, 23) -> 3F (State B) -> South through open doors (15, 10) -> Jump down pit (16, 14) -> 1F enclosed area -> B1F -> West to Secret Key.
+- Executing now!
 
 <hr>
 
@@ -1495,7 +1501,7 @@ This is the definitive, empirically sound solution. I will execute this immediat
 - The wall at X=8 on 2F consists of green pillars with gaps at Y=19, Y=21, Y=23, and Y=25.
 - In the East wing of 2F, there is a solid vertical wall at X=11 extending from at least Y=17 to Y=25.
 - In the Northeast area, there is a horizontal wall at Y=4 from X=22 to X=25. The path South is via X=26.
-- 2F East doors are located at (24, 13) and (25, 13). In State A, these are OPEN, allowing access to the South-East stairs.
+- The gap at (24, 13) and (25, 13) is a permanent open hallway. There are NO electronic doors here.
 - 2F South-East doors are located at (26, 27) and (27, 27). These block access to the true stairs to 3F.
 
 [3F Points of Interest]
