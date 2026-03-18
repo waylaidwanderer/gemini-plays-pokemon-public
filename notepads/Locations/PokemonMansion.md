@@ -22,7 +22,8 @@
 
 [2F Points of Interest]
 - Arrived from 1F via stairs at (5, 10).
-- You CAN walk North-East from the stairs area to the Northern hallway. The path from (10, 13) is North to (10, 9), East to (12, 9), and North to (12, 7). There is NO solid wall at Y=9 blocking X=10 to X=12.
+- You CAN walk North-East from the stairs area to the Northern hallway. The path from (10, 13) is North to (10, 9), East to (12, 9), North to (12, 6), then East to (16, 6).
+- VERIFIED: Northern doors at (16, 7)/(17, 7) are OPEN in State B. There is NO solid wall at Y=9 blocking X=10 to X=12.
 - The tiles at (7, 12) to (7, 15) are normal floor, NOT electronic doors.
 - A path leads West to the Northwest corner at Y=4/Y=5, ending in a dead end blocked by rubble at (2, 4)/(2, 5).
 - Found stairs at (6, 1) dropping down from 3F. TESTED: These stairs CANNOT be ascended. They must be a one-way exit.
