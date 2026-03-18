@@ -1109,7 +1109,7 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 [State B Route Hypothesis]
 - Since the East doors (24, 13) close in State B, we cannot reach the Central doors from the East Wing.
 - Since Y=13 is a solid wall in the center (X=13 to X=21), we cannot walk directly South from the Northern doors (16, 7).
-- Hypothesis: We must walk West from the Northern doors to X=12, then South through a gap at X=12 to reach the southern half, then East to the Central doors (20, 17).
+- Hypothesis UPDATE: The wall at Y=13 ENDS at X=21. We can walk East from the Northern doors to X=22, then South to Y=17, then West to the Central doors at (20, 17).
 
 <hr>
 
@@ -1454,14 +1454,13 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
   - B1F Central doors (20, 17) OPEN.
 - 2F Central doors located at (20, 17) and (21, 17). In State A, these are CLOSED. They block the path South to Y=18.
 - Found a glowing-eye switch statue at (21, 13)/(21, 14) in the enclosed South-East area (accessed via East doors).
-[Master Route to Secret Key (Draft 5)]
+[Master Route to Secret Key (Draft 6)]
 1. 1F: Set switch at (2, 10) to State B (Northern doors OPEN).
 2. 2F: Pass through OPEN Northern doors at (16, 7).
-3. 2F: Walk North to Y=6, West to X=12, South to Y=9, West to X=10, South to Y=17.
-4. 2F: Walk East to Central doors at (20, 17). They will be OPEN!
-5. 2F: Pass through Central doors at (20, 17) to reach 3F stairs at (21, 23).
-6. 3F: Arrive on 3F in State B. Southern doors (15, 10) are OPEN. Jump down pit at (16, 14).
-7. 1F: Land in enclosed area. Take stairs down to B1F.
-8. B1F: Central doors (20, 17) are OPEN (State B)! Walk West to find the Secret Key.
+3. 2F: Walk South to Y=12, East to X=22, South to Y=17, West to Central doors at (20, 17).
+4. 2F: Central doors at (20, 17) will be OPEN! Pass through to reach 3F stairs at (21, 23).
+5. 3F: Arrive on 3F in State B. Southern doors (15, 10) are OPEN. Jump down pit at (16, 14).
+6. 1F: Land in enclosed area. Take stairs down to B1F.
+7. B1F: Central doors (20, 17) are OPEN (State B)! Walk West to find the Secret Key.
 
 <hr>

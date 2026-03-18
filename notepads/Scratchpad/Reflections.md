@@ -19,4 +19,4 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 [State B Route Hypothesis]
 - Since the East doors (24, 13) close in State B, we cannot reach the Central doors from the East Wing.
 - Since Y=13 is a solid wall in the center (X=13 to X=21), we cannot walk directly South from the Northern doors (16, 7).
-- Hypothesis: We must walk West from the Northern doors to X=12, then South through a gap at X=12 to reach the southern half, then East to the Central doors (20, 17).
+- Hypothesis UPDATE: The wall at Y=13 ENDS at X=21. We can walk East from the Northern doors to X=22, then South to Y=17, then West to the Central doors at (20, 17).
