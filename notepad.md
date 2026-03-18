@@ -1106,11 +1106,10 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - Turn 40698: Checked visually. The rubble at (20,13)-(21,14) is just generic rocks. I pressed A and nothing happened. There is NO STATUE in the SE area.
 - The Central doors at (20, 17) are CLOSED in State A.
 - X=18 is a solid vertical wall blocking travel West.
-[State B Route - VERIFIED]
-- Y=13 is a solid barrier from X=17 to X=26.
-- X=18 is a solid vertical barrier separating the South-West and South-East areas.
-- Therefore, in State B, the Central doors at (20, 17) are UNREACHABLE because they are on the East side of X=18.
-- The true path in State B: Pass through the open Northern doors (16, 7), navigate around the statues to the gap at X=14/15, and walk South to reach the unexplored South-West area! There must be another path to 3F there.
+[State B Route Hypothesis]
+- Since the East doors (24, 13) close in State B, we cannot reach the Central doors from the East Wing.
+- Since Y=13 is a solid wall at X=17, we cannot walk straight South.
+- Hypothesis PROVEN: Visual evidence shows an open floor path at Y=12 extending East from X=17 to X=21 underneath the Northern rubble. We must walk South to (17, 12), East to X=22 (bypassing rubble at 20,13), South to Y=16, then West to the Central doors!
 
 <hr>
 
@@ -1455,11 +1454,13 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
   - B1F Central doors (20, 17) OPEN.
 - 2F Central doors located at (20, 17) and (21, 17). In State A, these are CLOSED. They block the path South to Y=18.
 - Found a glowing-eye switch statue at (21, 13)/(21, 14) in the enclosed South-East area (accessed via East doors).
-[Master Route to Secret Key (Draft 9)]
+[Master Route to Secret Key (Draft 10)]
 1. 1F: Set switch at (2, 10) to State B (Northern doors OPEN).
 2. 2F: Pass through OPEN Northern doors at (16, 7)/(17, 7).
-3. 2F: Walk North to Y=7, West to X=10 to bypass the central wall, then South.
-4. 2F: Walk South along X=10 to reach the South-West area.
-5. 2F: Explore South-West area for stairs UP to 3F.
+3. 2F: Walk South to (17, 12), East to X=22, South to Y=17, West to Central doors at (20, 17).
+4. 2F: Central doors at (20, 17) will be OPEN! Pass through to reach 3F stairs at (21, 23).
+5. 3F: Arrive on 3F in State B. Southern doors (15, 10) are OPEN. Jump down pit at (16, 14).
+6. 1F: Land in enclosed area. Take stairs down to B1F.
+7. B1F: Central doors (20, 17) are OPEN (State B)! Walk West to find the Secret Key.
 
 <hr>
