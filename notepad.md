@@ -1171,6 +1171,12 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 [Turn 41755 Reality Check Corrected]
 - HALLUCINATION INVERTED: The stairs at (21, 23) ARE REAL! I visually confirmed the stair pixels on the screen. I was misled by the `TYPE_3fe2` generic floor label. Visual cues trump type labels!
 - The stairs at (21, 23) are behind the solid wall at X=24. I am currently in the East Wing at X=25. I am checking the bottom of this corridor near the doors at (26, 27) to see if there is a hidden switch or path.
+[Turn 41757 Plan]
+- The stairs to 3F at (21, 23) are behind the Central Doors at (21, 17).
+- To pass the Central Doors, I must be in State B.
+- But to reach the Central Doors from the North, I must enter the East Wing via the East doors at (24, 13), which requires State A!
+- Paradox: I must enter in State A, then change to State B from INSIDE the East Wing.
+- I will return to the statue at (20, 13)/(21, 14) and re-test it exhaustively. I may have missed the exact switch tile.
 
 <hr>
 
