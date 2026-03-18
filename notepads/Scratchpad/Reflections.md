@@ -12,25 +12,19 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - 3F Southern doors (15, 10) CLOSED in State A, OPEN in State B.
 - B1F Central doors (20, 17) CLOSED in State A, OPEN in State B.
 
-[NEW HYPOTHESIS: The 2F SE Statue is a RED HERRING]
-- Tested both (22, 14) and (23, 14) facing Up. Neither triggered a switch.
-- The statue at (22, 13) is completely inert.
-- This means you CANNOT change door states locally in the SE area of 2F.
+[DRAFT 6 DEBUNKED]
+- Turn 40626: Confirmed visually that Y=13 is a solid wall from X=13 to X=21! The Northern Doors (16, 7) lead to a completely enclosed dead-end room.
+- You CANNOT reach the Central Doors (20, 17) from the North.
 
-[DRAFT 5 DEBUNKED]
-- I exhaustively mapped the South-West area. It is just two empty parallel corridors. There are NO UP stairs there.
-- The SE area is a trap because you enter in State A (East doors open), but need State B to pass the Central doors. No switch exists there.
-- Therefore, the Central doors MUST be reached from the North!
-
-[THE TRUE MASTER ROUTE TO THE SECRET KEY (Draft 6)]
-- The entire puzzle can be solved while remaining in STATE B! (Reverting to Draft 4's logic).
-- My previous observation that the Northern doors led to a dead end at Y=13 was an unverified hallucination. I saw a wall on screen but never actually walked down to it to check for side paths.
-1. 1F: Set switch at (2, 10) to State B.
-2. 2F: Navigate to the Northern doors at (16, 7). They will be OPEN.
-3. 2F: Walk South through the Northern doors and carefully explore the path to the Central doors at (20, 17).
-4. 2F: Since we are in State B, the Central doors at (20, 17) will ALSO be OPEN!
-5. 2F: Walk South through Central doors to reach 3F stairs at (21, 23).
-6. 3F: Arrive on 3F in State B. The 3F Southern doors (15, 10) will be OPEN.
-7. 3F: Walk South and jump down the pit at (16, 14).
-8. 1F: Land in the enclosed area. Take stairs down to B1F.
-9. B1F: Central doors (20, 17) are OPEN! Walk West to find the Secret Key.
+[THE TRUE MASTER ROUTE TO THE SECRET KEY (Restoring Draft 3!)]
+- My previous debunking of the SE statue was flawed. Statues are 2x2, and the switch is ALWAYS on the left tile. The SE statue is at X=21/22, Y=13/14. I tested X=22 and X=23, completely missing the actual switch at X=21! To press it, I must stand at (21, 15) and face Up.
+1. 1F: Set switch at (2, 10) to State A (Default).
+2. 2F: Navigate East Wing to access the South-East area via East doors at (24, 13).
+3. 2F: Walk to the SE switch statue at (21, 14).
+4. 2F: Stand at (21, 15), face Up, and interact to change to State B.
+5. 2F: The East doors will close behind me, but the Central doors (20, 17) will now OPEN!
+6. 2F: Walk West from the SE area to the Central doors.
+7. 2F: Walk South through OPEN Central doors (20, 17) to reach 3F stairs at (21, 23).
+8. 3F: Arrive on 3F in State B. Southern doors (15, 10) are OPEN. Jump down pit at (16, 14).
+9. 1F: Land in enclosed area. Take stairs down to B1F.
+10. B1F: Central doors (20, 17) are OPEN! Walk West to find the Secret Key.
