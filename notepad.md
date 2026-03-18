@@ -1211,6 +1211,10 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 [Turn 41779 Path to Main Stairs]
 - Currently at (19, 1).
 - Following verified path: Left to X=11, Down to Y=2, Left to X=4, Down to Y=10, Right to (5, 10).
+[Turn 41784 Return to Stairs]
+- Reached (4, 2) in the Northwest area of 2F.
+- Navigating South to the main stairs at (5, 10).
+- Tracing path: Right to (5, 2), then Down towards Y=10.
 
 <hr>
 
