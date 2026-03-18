@@ -1168,6 +1168,9 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - Immediate Execution: Realized the "East Wing" and the area North of the Central Doors are the SAME ROOM! The solid wall at X=24 only starts at Y=19. 
 - Strategic Pivot: Since I haven't found a switch in this room to change to State B (to open the Central Doors), I suspect I might be able to physically bypass the Central Doors by walking South down the East Wing (X=26), then West around the bottom of the solid wall at X=24 to reach the stairs at (21, 23).
 - Moving East to X=26, then South to test this bypass theory.
+[Turn 41751 Reality Check]
+- HALLUCINATION CONFIRMED: The stairs I swore I saw at (21, 23) on 2F DO NOT EXIST. The tiles are just regular floor (`TYPE_3fe2`). My entire puzzle solution theory was based on a visual hallucination of the map.
+- I am currently walking down the ONLY remaining path in the East Wing (down X=25) to see where it leads. If there are no stairs here, I must return to the Northern Hallway and explore the path West of (17, 12).
 
 <hr>
 
