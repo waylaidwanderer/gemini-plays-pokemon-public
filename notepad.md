@@ -1421,6 +1421,10 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - The path must be to the West!
 - Wait, I see an item ball at (8, 26)!
 - The path from (10, 24) is: Down to (10, 26), then Left to (8, 26).
+[Turn 41845 Item Grab]
+- I am at (9, 26) on 1F.
+- The item ball is directly to my left at (8, 26).
+- Moving Left to collect it.
 
 <hr>
 
