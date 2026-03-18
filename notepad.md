@@ -1164,6 +1164,10 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 [Turn 41744 50-Turn Reflection]
 - Immediate Execution: Still systematically exploring the East Wing (South of Y=13) to find the hidden switch to change the Mansion to State B. I am currently at the bottom-right corner around (28, 22).
 - Error Analysis: My movement hit the East wall at X=29. The path continues South and West. I am proceeding carefully.
+[Turn 41750 50-Turn Reflection]
+- Immediate Execution: Realized the "East Wing" and the area North of the Central Doors are the SAME ROOM! The solid wall at X=24 only starts at Y=19. 
+- Strategic Pivot: Since I haven't found a switch in this room to change to State B (to open the Central Doors), I suspect I might be able to physically bypass the Central Doors by walking South down the East Wing (X=26), then West around the bottom of the solid wall at X=24 to reach the stairs at (21, 23).
+- Moving East to X=26, then South to test this bypass theory.
 
 <hr>
 
