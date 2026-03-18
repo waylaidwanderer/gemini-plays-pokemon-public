@@ -1338,6 +1338,10 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - The path splits here. I can go East along Y=11, or continue South along X=10.
 - Looking at the map, there is a wide area to the East.
 - I will first check the area directly East of here (X=11 to X=15, Y=11 to Y=15).
+[Turn 41831 East Wing Sweep]
+- Hit a dead end at (12, 11). The path East is blocked by potted plants and walls.
+- I will move back Left to X=10, then Down to Y=15 to continue exploring the East Wing.
+- My old notes mention the South-East corridor (X=18 to X=21) is a dead end. I will re-verify this.
 
 <hr>
 

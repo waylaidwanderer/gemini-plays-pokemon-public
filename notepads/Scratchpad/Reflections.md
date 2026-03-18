@@ -241,3 +241,14 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - My note from Turn 41813 confirms this: "1F North-West doors at (9, 4)/(9, 5) are OPEN in State A".
 - I am at (7, 8). I need to go: Up to Y=5, Right through the doors at X=9, then Down into the East Wing!
 - Path: U, U, U, R, R, R, D, D, D, D, D, D...
+[Turn 41831 East Wing 1F Exploration]
+- I am at (10, 11) on 1F, facing Down.
+- I successfully navigated back through the electronic doors at (9, 4)/(9, 5), crossed over to the East side of the green pillars, and walked South through the gap at (10, 10)/(10, 11).
+- I am now entering the East Wing of 1F (South of Y=10).
+- The path splits here. I can go East along Y=11, or continue South along X=10.
+- Looking at the map, there is a wide area to the East.
+- I will first check the area directly East of here (X=11 to X=15, Y=11 to Y=15).
+[Turn 41831 East Wing Sweep]
+- Hit a dead end at (12, 11). The path East is blocked by potted plants and walls.
+- I will move back Left to X=10, then Down to Y=15 to continue exploring the East Wing.
+- My old notes mention the South-East corridor (X=18 to X=21) is a dead end. I will re-verify this.
