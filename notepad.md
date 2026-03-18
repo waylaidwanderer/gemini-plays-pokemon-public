@@ -1119,6 +1119,11 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 6. 3F: Jump down the pit at (16, 14).
 7. 1F: Land in enclosed area. Take stairs down to B1F.
 8. B1F: Central doors (20, 17) are OPEN (State B)! Walk West to find the Secret Key.
+[Turn 39822 Reflection - 50 Turn Review]
+- Progress: Discovered true 3F stairs at (21, 23) on 2F. Realized the puzzle requires setting State A on 1F, passing the 2F East doors, reaching 3F, and then finding a NEW switch on 3F to set State B before jumping down the pit to B1F.
+- Errors: Hallucinated a clear path across Y=11 on 2F; empirically tested and hit a solid wall at X=13. Corrected map constraints.
+- Plan: Return to 1F stairs at (5, 10). Hit the switch to State A. Go back to 2F East doors (24, 13) and walk South to the 3F stairs.
+- Tool Maintenance: `run_battle` is performing flawlessly. Using `A-` at the start of movement sequences is preventing text-box-eating inputs.
 
 <hr>
 
