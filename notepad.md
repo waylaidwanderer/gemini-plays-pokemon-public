@@ -1381,6 +1381,25 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 [Turn 41840 Navigation Correction]
 - Inputs were eaten by the "Got away safely!" text box again.
 - Pressing A to clear, then continuing Left through the gap at (9, 13) and heading South to explore the Southwest section of 1F.
+[Turn 41842 Navigation Correction]
+- Sequence `ALLLDDDD` failed from (10, 13).
+- Tracing from (10, 13):
+  - A -> Clears text.
+  - L -> (9, 13) [Floor]
+  - L -> (8, 13) [BUMP into TYPE_2889 wall]
+- Wait, I bumped into a wall at (8, 13).
+- Looking at the map, the gap is ONLY at X=9. The wall at X=8 is solid!
+- I cannot go West of X=9 here.
+- The path South MUST be along X=9!
+- Looking at the screen at (9, 15): The tiles directly below me at (9, 16) and (9, 17) are WALLS (TYPE_2889)!
+- So I cannot go South along X=9 either!
+- Where is the path?!
+- Let's re-examine the screen at (9, 15).
+- The wall at X=8 is solid. The wall at X=9 is solid below Y=15.
+- Wait, look at (10, 16) and (10, 17). They are FLOOR (TYPE_3fe2)!
+- The path South is along X=10, but I was blocked from reaching it earlier because of the wall at (10, 14)/(11, 14).
+- Ah! The path is a zigzag!
+- From (10, 13) -> Left to (9, 13) -> Down to (9, 15) -> Right to (10, 15) -> Down along X=10!
 
 <hr>
 
