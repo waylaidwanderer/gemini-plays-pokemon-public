@@ -1254,6 +1254,23 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - Arrived on 1F at (5, 11).
 - I will sweep 1F completely before returning to 2F to ensure I didn't miss the real stairs to 3F down here.
 - Heading to (10, 5) to check the electronic doors at (9, 4)/(9, 5).
+[Turn 41812 Navigation Correction]
+- Sequence `RRRRUUUUUU` from (10, 10).
+- Tracing from (10, 10):
+  - R -> (11, 10) [Floor]
+  - R -> (12, 10) [Floor]
+  - R -> (13, 10) [BUMP into TYPE_2889 wall]
+  - R -> (13, 10) [BUMP into TYPE_2889 wall]
+  - U -> (12, 9) [Floor]
+  - U -> (12, 8) [Floor]
+  - U -> (12, 7) [Floor]
+  - U -> (12, 6) [Floor]
+  - U -> (12, 5) [Floor]
+  - U -> (12, 4) [Floor]
+- I am now at (12, 4) facing Up.
+- Look at the screen: There is a horizontal wall (TYPE_2889) at Y=3 directly above me!
+- I need to reach (10, 5) to check the electronic doors at (9, 4)/(9, 5).
+- From (12, 4), the path to (10, 5) is: Down to (12, 5), Left, Left.
 
 <hr>
 
