@@ -223,3 +223,21 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - My goal is the East Wing of 1F (South of Y=10).
 - The gap to enter it is at X=9, between Y=10 and Y=11.
 - Path to gap from (8, 8): Up to Northern Hallway (Y=2), Right to X=10, Down to (10, 11), Left to (9, 11).
+[Turn 41830 Navigation Correction]
+- Sequence `UUUUUURRDDDDDDDDDL` from (8, 8) resulted in (7, 8).
+- Intermediate states:
+  - State 0: U -> (8, 7) [Floor]
+  - State 1: U -> (8, 6) [Floor]
+  - State 2: U -> (8, 5) [Floor]
+  - State 3: U -> (8, 4) [Floor]
+  - State 4: U -> (8, 3) [BUMP into TYPE_3fe2 wall?]
+  - State 5: U -> (8, 3) [BUMP]
+  - State 6: R -> (9, 3) [BUMP into TYPE_2889 wall]
+  - State 7: R -> (9, 3) [BUMP]
+  - State 8: D -> (9, 4) [BUMP]
+- I hit a wall going Up at Y=3.
+- Wait, looking at the map... the path East is NOT at Y=2!
+- The gap to go East from the Northwest area is at Y=4 and Y=5, through the electronic doors at (9, 4)/(9, 5)!
+- My note from Turn 41813 confirms this: "1F North-West doors at (9, 4)/(9, 5) are OPEN in State A".
+- I am at (7, 8). I need to go: Up to Y=5, Right through the doors at X=9, then Down into the East Wing!
+- Path: U, U, U, R, R, R, D, D, D, D, D, D...
