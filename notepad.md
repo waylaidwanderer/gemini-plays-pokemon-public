@@ -1283,6 +1283,10 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 [Turn 41815 Northwest 1F Sweep]
 - Swept the entire Northwest area (X=1 to X=8, Y=1 to Y=8). It is a dead end with no stairs and no items (hallucinated one earlier).
 - To proceed to the East Wing (South of Y=9), I must return through the doors at (9, 5) to X=10, then walk South.
+[Turn 41825 Navigation]
+- Cleared the text from the Ponyta battle at (8, 8).
+- I am now walking East, then South into the East Wing.
+- Route: Right to X=11, Down to Y=13, then explore South.
 
 <hr>
 
