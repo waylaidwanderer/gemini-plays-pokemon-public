@@ -1400,6 +1400,12 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - The path South is along X=10, but I was blocked from reaching it earlier because of the wall at (10, 14)/(11, 14).
 - Ah! The path is a zigzag!
 - From (10, 13) -> Left to (9, 13) -> Down to (9, 15) -> Right to (10, 15) -> Down along X=10!
+[Turn 41843 Navigation]
+- I am at (10, 19) in the East Wing of 1F.
+- The path West is blocked by a solid wall at X=7 (Y=18 to Y=23).
+- Wait, I see electronic doors at (7, 22)/(7, 23). They are CLOSED (State A).
+- The path South continues along X=10 to X=14.
+- I will explore the Southeast corner of 1F (South of Y=19, East of X=7).
 
 <hr>
 
