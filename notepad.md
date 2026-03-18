@@ -1185,6 +1185,11 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - CRITICAL OBSERVATION: Looked closely at the screen at the stairs (21, 23). The tiles to the WEST (X=19, Y=19 to Y=23) are FLOOR tiles (`TYPE_3fe2`).
 - New Hypothesis: The stairs are NOT accessed through the Central Doors at all. They are accessed from the West side of the Mansion! The Central Doors might just be a shortcut or another red herring.
 - Plan: Leave East Wing. Return to Northern Hallway. Explore paths heading South on the West side of the Central Doors (around X=16 to X=19).
+[Turn 41771 Puzzle Reset]
+- SAFETY CATCH: Overwrite was blocked, saving my master puzzle logic. Thank goodness!
+- HALLUCINATION CONFIRMED: The object at (21, 23) on 2F is indeed a Bar Graph decoration, NOT stairs. The Central Doors are a red herring.
+- East Wing on 2F is a complete dead end. No stairs exist here.
+- PLAN: I must return to the main 1F stairs at (5, 10) on 2F and systematically re-explore the floor. I must have missed a path leading to the real 3F stairs.
 
 <hr>
 
