@@ -1190,6 +1190,11 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - HALLUCINATION CONFIRMED: The object at (21, 23) on 2F is indeed a Bar Graph decoration, NOT stairs. The Central Doors are a red herring.
 - East Wing on 2F is a complete dead end. No stairs exist here.
 - PLAN: I must return to the main 1F stairs at (5, 10) on 2F and systematically re-explore the floor. I must have missed a path leading to the real 3F stairs.
+[Turn 41776 Navigation Error]
+- I hit a solid wall at X=22, Y=5. The northern hallway does not continue straight west here.
+- Looking at my notes: "VERIFIED PATH: To travel between the Northern doors (16, 7) and the West Wing, you must use the northernmost hallway. Walk UP along X=16 to Y=1, then LEFT to X=11, DOWN to Y=2, LEFT to X=4, DOWN to Y=5, and LEFT into the West Wing."
+- Ah! To get to the main stairs at (5, 10), I need to go West, but the path from X=23 is blocked at Y=5. I must go UP to Y=1, then Left.
+- I am at (23, 5). I need to move Up to (23, 1), then Left.
 
 <hr>
 
