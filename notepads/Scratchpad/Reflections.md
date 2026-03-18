@@ -83,3 +83,6 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - But to reach the Central Doors from the North, I must enter the East Wing via the East doors at (24, 13), which requires State A!
 - Paradox: I must enter in State A, then change to State B from INSIDE the East Wing.
 - I will return to the statue at (20, 13)/(21, 14) and re-test it exhaustively. I may have missed the exact switch tile.
+[Turn 41767 Testing Statue]
+- I am standing directly beneath the statue at (21, 14) on 2F. I am about to exhaustively test it from all accessible sides (South, West). I cannot access North or East due to walls/rubble.
+- If this statue is truly inert, my puzzle solution is flawed, and I must re-evaluate the entire Mansion layout.
