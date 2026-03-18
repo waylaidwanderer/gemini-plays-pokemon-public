@@ -1386,6 +1386,7 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 [Encounters]
 - Vulpix
 - Ponyta
+- Grimer
 
 [1F Points of Interest]
 - Central Hallway runs North from the entrance along X=5.
