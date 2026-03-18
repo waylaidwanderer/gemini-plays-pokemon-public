@@ -1232,6 +1232,10 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
   - Let me check my notes: "Walk UP along X=16 to Y=1, then LEFT to X=11, DOWN to Y=2, LEFT to X=4, DOWN to Y=5, and LEFT into the West Wing."
   - YES! The path from the West Wing (where I am at X=3) to the Northern Hallway goes Right to X=4/5, then UP.
   - I am at (3, 6). I need to go Right to (4, 6), then Up.
+[Turn 41796 Navigation]
+- I am at (5, 4) in the Northwest area of 2F.
+- My verified path to the Northern Hallway from here: Up to Y=2, Right to X=11, Up to Y=1, Right to X=16.
+- Let's execute the first part: Up, Up, Right, Right, Right, Right, Right, Right.
 
 <hr>
 
