@@ -138,3 +138,35 @@ This is the definitive, empirically sound solution. I will execute this immediat
 - Therefore, in Turn 39851 when I saw (24, 13) was pink floor and (20, 17) was glowing doors, it meant the East doors were OPEN and the Central doors were CLOSED.
 - My current state (from Turn 39828) is STATE A.
 - I need to press the switch at (21, 14) to toggle to STATE B, which will CLOSE the East doors (they will become glowing doors) and OPEN the Central doors (they will become pink floor).
+[Turn 39869 Validation]
+- Sent `A-A-A` from (22, 14) facing Left in Turn 39868.
+- The `IntermediateStates` 39869 show `A` (tool) three times.
+- `CurrentScreen` 39869 shows the Central doors at (20, 17) and (21, 17) are STILL glowing (TYPE_a83b).
+- The East doors at (24, 13) are still plain floor (TYPE_3fe2).
+- The state DID NOT CHANGE.
+- Why? Let's review the text history for Turn 39869.
+- THERE IS NO TEXT HISTORY FOR TURN 39869!
+- This means pressing 'A' while facing Left at (22, 14) towards the statue at (21, 14) did absolutely nothing. It didn't even trigger the "A secret switch!" text box.
+- Wait. Look back at my `Turn 39853 Navigation` note. "Facing the switch statue at (21, 14). The text box appeared: "A secret switch! Press it? -> YES/NO""
+- How did I trigger the text box in Turn 39853?
+- In Turn 39852, I sent `A-A` from (22, 14) facing Left.
+- But wait, in Turn 39853, I wrote "Facing the switch statue at (21, 14)".
+- Let me check the Game State for Turn 39869. Player Position: (22, 14).
+- The statue is at (21, 14). I am directly to its right.
+- Is it possible you have to interact with a specific tile of the statue? The statue takes up (20, 14) and (21, 14).
+- Maybe you MUST interact with the left half at (20, 14)?
+- No, I'm at (22, 14), so I'm interacting with the right half at (21, 14).
+- Wait. Let's look at `CurrentScreen` 39868 vs 39869.
+- In 39868, I am facing LEFT. In 39869, I am facing LEFT.
+- If I press A and nothing happens, it means there is no interactable object there.
+- But I KNOW there's a switch here!
+- Let's check my earlier notes about the 1F switch. "The 1F switch statue is at (2, 10) and (2, 11). Stand at (2, 12), face Up, and press A to interact."
+- The 1F switch is interacted with by standing BELOW it and facing UP.
+- What if ALL statues must be interacted with from BELOW?
+- In Turn 39867, I tried to move to (21, 15) to stand below it, but I messed up the sequence and ended up back at (21, 16) bumping into the wall.
+- Let's look at the map. The statue is at (20, 14) and (21, 14).
+- The tiles below it are (20, 15) and (21, 15).
+- (20, 15) is TYPE_3fe2 (floor). (21, 15) is TYPE_3fe2 (floor).
+- I can stand at (21, 15) and face UP to interact with the right half of the statue!
+- Or I can stand at (20, 15) and face UP to interact with the left half.
+- Let's move to (21, 15) and try interacting from below.
