@@ -1126,6 +1126,9 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - CRITICAL ERROR IDENTIFIED: On Turn 40664, I thought I pressed the SE switch at (20, 14). However, Hydro fainted from poison in the overworld on Turn 40663, generating a text box. My 'A' presses merely cleared the "HYDRO fainted!" text and NEVER interacted with the statue!
 - This explains why the Central doors at (20, 17) were still closed on Turn 40665. The puzzle is STILL in State A!
 - Master Route Draft 3 remains completely valid. After I escape this Grimer, I must return to (20, 15), face Up, and ACTUALLY press the switch.
+[Turn 40674 Reflection]
+- Visually confirmed player sprite at (20, 15) is facing LEFT. The 'U' input from Turn 40672's macro was eaten or only registered as a step without turning.
+- This is why pressing 'A' did nothing. The switch is indeed at (20, 14). I will face Up and press 'A'.
 
 <hr>
 
