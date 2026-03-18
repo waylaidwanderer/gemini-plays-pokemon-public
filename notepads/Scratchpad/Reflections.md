@@ -6,33 +6,25 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 [Door Logic]
 - TYPE_a83b (glowing orange lines) = ACTIVE LASER BARRIER (CLOSED).
 - TYPE_3fe2 (plain pink floor) = OPEN DOOR / REGULAR FLOOR.
-- 2F East doors (24, 13) are OPEN in State A.
-- 2F Central doors (20, 17) are CLOSED in State A.
-- 3F Southern doors (15, 10) are CLOSED in State A.
-- Currently: East doors (24, 13) are TYPE_a83b (CLOSED). I am in STATE B.
+- 2F East doors (24, 13) OPEN in State A, CLOSED in State B.
+- 2F Northern doors (16, 7) CLOSED in State A, OPEN in State B.
+- 2F Central doors (20, 17) CLOSED in State A, OPEN in State B.
+- 3F Southern doors (15, 10) CLOSED in State A, OPEN in State B.
+- B1F Central doors (20, 17) CLOSED in State A, OPEN in State B.
 
-[Constraints]
-- The South-West area of 2F is isolated by a solid vertical wall at X=11 extending from at least Y=17 to Y=25. You CANNOT reach the Central doors at (20, 17) via the West doors at (7, 12).
-- The East doors (24, 13) are the ONLY entry to the South-East area. Since they CLOSE in State B, the SE area is inaccessible in State B.
-- Therefore, the 2F switch statue in the SE area MUST be the key to reaching the 3F stairs.
+[NEW HYPOTHESIS: The 2F SE Statue is a RED HERRING]
+- Tested both (22, 14) and (23, 14) facing Up. Neither triggered a switch.
+- The statue at (22, 13) is completely inert.
+- This means you CANNOT change door states locally in the SE area of 2F.
 
-[NEW HYPOTHESIS: The 2F Statue is NOT fake]
-- The statue at (20, 13)/(21, 13) and (20, 14)/(21, 14) is 2 tiles wide.
-- I only tested interacting from (21, 15) facing Up (the right half).
-- I MUST test interacting from (20, 15) facing Up (the left half).
-- If it works, it will swap the door states locally on 2F, allowing me to pass the Central doors (20, 17) while they are OPEN in State B!
-
-[THE TRUE MASTER ROUTE TO THE SECRET KEY (Draft 3)]
-1. 1F: Set switch at (2, 10) to State A (Default).
-2. 2F: Navigate East Wing to access the South-East area.
-3. 2F: Walk to the switch statue at (20, 14)/(21, 14).
-4. 2F: Stand at (20, 15), face Up, and interact to change to State B.
-5. 2F: Walk West to the Central doors at (20, 17). They should now be OPEN!
-6. 2F: Walk South through OPEN Central doors (20, 17) to reach the stairs at (21, 23).
-7. 3F: Arrive on 3F in State B. The 3F Southern doors (15, 10) will be OPEN.
-8. 3F: Walk South and jump down the pit at (16, 14) or (17, 14).
-9. 1F: Land in the enclosed area. Take the stairs down to B1F.
-10. B1F: Central doors (20, 17) are OPEN (State B)! Walk West to find the Secret Key.
-- Turn 40473: Visually confirmed at (15, 6) that the 2F Northern doors at (16, 7) and (17, 7) are currently CLOSED (TYPE_a83b). Since I just pressed the 1F switch to "State A", this confirms State A = Northern doors CLOSED. Now heading to 2F East doors to empirically verify their state.
-- Turn 40477: Visually confirmed at (26, 11) that the 2F East doors at (24, 13)/(25, 13) are OPEN (TYPE_3fe2). State A is confirmed to have East doors open and Northern doors closed. Proceeding into SE area.
-- Turn 40479: Corrected 2F SE statue coordinates. The statue base is actually at (22, 13) and (23, 13). My previous attempt failed because I interacted with the wall at X=21. I will now test interacting from (22, 14) and (23, 14).
+[THE TRUE MASTER ROUTE TO THE SECRET KEY (Draft 4)]
+- The entire puzzle can be solved while remaining in STATE B!
+1. 1F: Set switch at (2, 10) to State B (Northern doors OPEN).
+2. 2F: Navigate to the Northern doors at (16, 7). They will be OPEN.
+3. 2F: Walk South through the Northern doors. This central corridor must connect to the Central doors at (20, 17).
+4. 2F: Since we are in State B, the Central doors at (20, 17) will ALSO be OPEN!
+5. 2F: Walk South through Central doors to reach 3F stairs at (21, 23).
+6. 3F: Arrive on 3F in State B. The 3F Southern doors (15, 10) will be OPEN.
+7. 3F: Walk South and jump down the pit at (16, 14) or (17, 14).
+8. 1F: Land in the enclosed area. Take the stairs down to B1F.
+9. B1F: Central doors (20, 17) are OPEN (State B)! Walk West to find the Secret Key.
