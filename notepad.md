@@ -1410,7 +1410,7 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - The tiles at (4, 1) and (5, 1) are clear floor, allowing access from the far West side to the Northern Hallway at Y=2.
 - The wall at X=9 on 2F consists of green pillars, separating the West and Central areas.
 - In the East wing of 2F, there is a solid vertical wall at X=11 extending from at least Y=17 to Y=25.
-- In the Northeast area, there is a horizontal wall at Y=4 from X=22 to X=25. The path South is via X=26 or X=27.
+- In the Northeast area, the brown blocks at (24, 8)/(25, 8) are just a table/solid obstacle, NOT stairs!
 - 2F East doors are located at (24, 13) and (25, 13). In State A, these are OPEN (floor), allowing access to the South-East area. In State B, these CLOSE (glowing barriers).
 - 2F South-East doors are located at (26, 27) and (27, 27). These are permanent barriers.
 - 2F Central doors located at (20, 17) and (21, 17). In State A, these are CLOSED. They block the path South to Y=18.
