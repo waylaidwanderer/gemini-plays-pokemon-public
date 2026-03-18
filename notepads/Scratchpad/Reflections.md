@@ -24,26 +24,15 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 [2F Stairs Search]
 - VERIFIED: The North-East corridor accessed via the Northern doors at (16, 7) is a trap! It is a dead end containing switch statues at (16, 10) and (18, 10). Pressing them will close the doors and trap you. There are NO stairs here.
 - The stairs to 3F MUST be in the East Wing, accessible via the East doors at (24, 13) ONLY when they are OPEN (State A).
-[Turn 41380 Reflection]
-- I am currently in a battle with a Grimer.
-- I noticed on Turn 41379 that the doors at (16, 7) are OPEN. This means the Mansion is currently in STATE B.
-- Since I need to reach the East Wing via the doors at (24, 13), which are open in State A, I will need to change the state back to A.
-- Nearest switch is either 2F (2, 5) or 1F (2, 10). I'll head back to the 2F switch after this battle.
-[Turn 41390]
-- Escaped the battle loop on 2F.
-- Took the stairs at (5, 10) back down to 1F.
-- Currently heading to the 1F switch at (2, 11) to reset the Mansion to State A.
+[Turn 41380-41461 Navigation Notes]
+- I noticed on Turn 41379 that the Northern doors at (16, 7) are OPEN. This means the Mansion is currently in STATE B.
+- To reach the East Wing via the doors at (24, 13) (which are open in State A), I changed the state back to A using the 1F switch at (2, 11).
 - Discovered that long move sequences that trigger a map warp will have all subsequent inputs eaten during the fade-in animation.
-[Turn 41394]
 - "Who wouldn't?" is the text that confirms the hidden switch was successfully toggled.
-- Toggled the 1F switch at (2, 11) to reset the Mansion to State A.
-- Heading back to 2F via stairs at (5, 10) to reach the East Wing doors at (24, 13).
-[Turn 41461]
-- Discovered I suffered severe spatial disorientation due to wild encounter interruptions during long movement sequences.
+- Discovered I suffered severe spatial disorientation due to wild encounter interruptions during long movement sequences. Use short 2-3 step sequences!
 - My previous conclusions about the Northern Hallway being a dead end and needing to go South were hallucinations caused by bumping into walls from incorrect starting coordinates.
-- Plan: Backtrack to the Northern Hallway (Y=6) and methodically test the path East, specifically checking if I can move UP to Y=3 to bypass the wall at X=22, using very short movement sequences.
+- Plan: Backtrack to the Northern Hallway (Y=6) and methodically test the path East, specifically checking if I can move UP to Y=3 to bypass the wall at X=22.
 [Turn 41432 50-Turn Reflection]
-- Currently navigating 2F Pokemon Mansion to reach the East Wing stairs to 3F.
 - My `execute_battle_turn` failed because I passed `current_move_index: 3` when the game's cursor memory had it at `1` (Body Slam). I must carefully track or visually confirm move menu cursor memory.
 - Cleo is out of Body Slam PP. I will rely on Tackle or switch to another Pokemon soon.
 [Turn 41484 50-Turn Reflection]
