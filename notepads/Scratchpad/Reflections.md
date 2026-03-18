@@ -28,3 +28,16 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - I am now on Turn 39879.
 - Current position: (26, 5).
 - Continuing West towards the Northern Hallway.
+[Turn 39887 Navigation Validation]
+- Attempted to navigate from (22, 2) to the West.
+- I bumped into a wall immediately at X=21! I am now at (22, 3).
+- Looking at `CurrentScreen` 39886: There are solid walls at (21, 2) and (19, 2). The green pillars block the path West.
+- My previous notes say: "To reach the northern hallway, you must go through the East Wing to Y=2 and then walk West."
+- Wait, let me check the map for Turn 39886 carefully.
+- I am at (22, 3). Above me at (22, 2) is floor. To my left at (21, 3) is floor.
+- But at (21, 2) is a solid green pillar (TYPE_2889).
+- Ah! In Turn 39882, I was at (22, 2). I sent `L*10`. The intermediate states show me bumping into the wall at (21, 2).
+- The gap in the green pillars must be at Y=3 or Y=4.
+- Let's look at the screen. (21, 3) is floor. (20, 3) is floor. (19, 3) is floor.
+- The path West is actually along Y=3 or Y=4, not Y=2!
+- Let me correct my notes and navigate along Y=3.
