@@ -1163,6 +1163,13 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - I am now on Turn 39891.
 - Current position: 1F (5, 11).
 - Next step: Walk to the switch statue at (2, 10)/(2, 11). I need to stand at (2, 12) facing Up to interact.
+[Turn 39893 Navigation Update]
+- Executed macro to navigate to the 1F switch.
+- Current position: 1F (1, 13).
+- The switch is at (2, 10)/(2, 11).
+- I need to stand at (2, 12) facing Up to interact.
+- From (1, 13), I need to move Right to X=2, then Up to Y=12.
+- Then face Up and interact (A-A-A).
 
 <hr>
 
