@@ -1366,6 +1366,18 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - These doors are CLOSED in State A.
 - To explore the rest of the East Wing (South of Y=17), I need to go South.
 - Let's move Down from (10, 17).
+[Turn 41839 Navigation Correction]
+- Sequence `DDDDDD` failed immediately. I am at (10, 13).
+- Looking at Intermediate State 0: Down -> (10, 14) [BUMP into TYPE_2889 wall]
+- Wait, I thought (10, 14) was floor!
+- Let me re-examine the screen at (10, 13).
+- Directly below me at Y=14 is a wall (TYPE_2889). It spans X=10 and X=11.
+- So, I cannot go straight South down X=10.
+- My path East to X=12 is also blocked (as seen on Turn 41831).
+- What about West? At (10, 13), there is a gap to the West at (9, 13).
+- Let me check my map notes: "The wall at X=8 has a gap at Y=13."
+- Ah! The path continues West through the gap at Y=13!
+- From (10, 13), I must go Left through the gap.
 
 <hr>
 
