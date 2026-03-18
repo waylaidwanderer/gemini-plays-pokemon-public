@@ -78,3 +78,8 @@ This is the definitive, empirically sound solution. I will execute this immediat
 - What state am I currently in? Let's check the switch at (21, 14).
 - The switch at (21, 14) is a statue. If I press it, it will toggle the state.
 - Let's press it and see what happens to the Central doors!
+[Turn 39853 Navigation]
+- Facing the switch statue at (21, 14).
+- The text box appeared: "A secret switch! Press it? -> YES/NO"
+- Wait, I just sent `A-A-A`. That means I pressed 'A' to interact, 'A' to advance to YES/NO, and 'A' to select YES!
+- The switch should be toggled now. Let's see what happens to the doors.
