@@ -1153,7 +1153,7 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - Goal Clarity: Find the Secret Key. Sub-goal: Investigate the visible stairs at 1F (25, 14).
 [Turn 41660 Critical Discovery]
 - The main staircase at (6, 10)/(7, 10) spans all three floors! Stepping on the RIGHT half (7, 10) from 1F warps you directly to 3F! This bypasses 2F entirely.
-- WARNING: The Burglar on 3F at (6, 11) is a WANDERING trainer. He currently blocks the only chokepoint between the stairs and the rest of the floor. If I battle him here, he will freeze and PERMANENTLY block the path! I must wait for him to wander away before slipping past.
+- WARNING: The Burglar on 3F at (4, 11)/(5, 11) is a WANDERING trainer. The path here is 2 tiles wide (X=4 and X=5), so even if I battle him and he freezes, he will only block one of the lanes. I can safely battle him without permanently blocking the path!
 
 <hr>
 
