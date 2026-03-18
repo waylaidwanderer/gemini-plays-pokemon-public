@@ -252,3 +252,6 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - Hit a dead end at (12, 11). The path East is blocked by potted plants and walls.
 - I will move back Left to X=10, then Down to Y=15 to continue exploring the East Wing.
 - My old notes mention the South-East corridor (X=18 to X=21) is a dead end. I will re-verify this.
+[Turn 41832 Navigation]
+- Cleared the wild Grimer encounter at (12, 11).
+- Route: Left to X=10, Down to Y=15.
