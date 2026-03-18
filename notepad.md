@@ -1219,7 +1219,9 @@ This is the definitive, empirically sound solution. I will execute this immediat
 - I am STILL at (21, 16).
 - Looking at `CurrentScreen` 39860: The Central doors at (20, 17) and (21, 17) are TYPE_a83b. They visually appear open.
 - Looking at `IntermediateStates` 39860: The player sprite is facing Down, bumping into (21, 17) repeatedly.
-- The tiles (20, 17) and (21, 17) are ACTING AS SOLID WALLS despite appearing open and having a different TYPE label.
+- The tiles (20, 17) and (21, 17) are ACTING AS SOLID WALLS despite having a different TYPE label (`TYPE_a83b`).
+- CRITICAL FIX: The glowing orange lines (`TYPE_a83b`) represent an ACTIVE LASER BARRIER, meaning the door is CLOSED. Plain floor (`TYPE_3fe2`) means the door is OPEN.
+- Therefore, the Central doors are currently CLOSED, and I DO need to press the switch at (21, 14) to open them!
 - This is a massive hallucination check failure on my part. I assumed TYPE_a83b meant "passable open door". It does not. The visual graphic of the "open" electronic door is actually a SOLID BARRIER.
 - My door logic was backwards! The glowing doors are CLOSED. The pink floor is OPEN.
 - Therefore, in Turn 39851 when I saw (24, 13) was pink floor and (20, 17) was glowing doors, it meant the East doors were OPEN and the Central doors were CLOSED.
@@ -1518,7 +1520,7 @@ This is the definitive, empirically sound solution. I will execute this immediat
 - The wall at X=8 on 2F consists of green pillars with gaps at Y=19, Y=21, Y=23, and Y=25.
 - In the East wing of 2F, there is a solid vertical wall at X=11 extending from at least Y=17 to Y=25.
 - In the Northeast area, there is a horizontal wall at Y=4 from X=22 to X=25. The path South is via X=26.
-- The gap at (24, 13) and (25, 13) is a permanent open hallway. There are NO electronic doors here.
+- 2F East doors are located at (24, 13) and (25, 13). In State A, these are OPEN (floor), allowing access to the South-East stairs. In State B, these CLOSE (glowing barriers).
 - 2F South-East doors are located at (26, 27) and (27, 27). These block access to the true stairs to 3F.
 
 [3F Points of Interest]
