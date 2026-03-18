@@ -7,29 +7,18 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - TYPE_a83b (glowing orange lines) = ACTIVE LASER BARRIER (CLOSED).
 - TYPE_3fe2 (plain pink floor) = OPEN DOOR / REGULAR FLOOR.
 - 2F West doors (7, 12) are CLOSED in State A.
-- 2F East area is permanently open (no doors at 24, 13).
+- 2F East doors (24, 13) are OPEN in State A.
 - 2F Central doors (20, 17) are CLOSED in State A.
 - 3F Southern doors (15, 10) are CLOSED in State A.
-- Currently: Central doors (20, 17) are TYPE_a83b (CLOSED). I am in STATE A.
+- Currently: East doors (24, 13) are TYPE_a83b (CLOSED). I am in STATE B.
 
-[Constraints]
-- The South-West area of 2F is isolated by a solid vertical wall at X=11 extending from at least Y=17 to Y=25. You CANNOT reach the Central doors at (20, 17) via the West doors at (7, 12).
-- Therefore, the 2F switch statue in the SE area MUST be the key to reaching the 3F stairs.
-
-[NEW HYPOTHESIS: The 2F Statue is NOT fake]
-- The statue at (20, 13)/(21, 13) and (20, 14)/(21, 14) is 2 tiles wide.
-- I only tested interacting from (21, 15) facing Up (the right half).
-- I MUST test interacting from (20, 15) facing Up (the left half).
-- If it works, it will swap the door states locally on 2F, allowing me to pass the Central doors (20, 17) while they are OPEN in State B!
-
-[THE TRUE MASTER ROUTE TO THE SECRET KEY (Draft 3)]
-1. 1F: Set switch at (2, 10) to State A (Default).
-2. 2F: Navigate East Wing to access the South-East area.
-3. 2F: Walk to the switch statue at (20, 14)/(21, 14).
-4. 2F: Stand at (20, 15), face Up, and interact to change to State B.
-5. 2F: Walk West to the Central doors at (20, 17). They should now be OPEN!
-6. 2F: Walk South through OPEN Central doors (20, 17) to reach the stairs at (21, 23).
-7. 3F: Arrive on 3F in State B. The 3F Southern doors (15, 10) will be OPEN.
-8. 3F: Walk South and jump down the pit at (16, 14) or (17, 14).
-9. 1F: Land in the enclosed area. Take the stairs down to B1F.
-10. B1F: Central doors (20, 17) are OPEN (State B)! Walk West to find the Secret Key.
+[THE TRUE MASTER ROUTE TO THE SECRET KEY]
+1. 1F: Set switch at (2, 10) to State B. (DONE - Currently in State B).
+2. 2F: From East Wing, walk North to Northern Hallway (Y=3).
+3. 2F: Walk West to X=20.
+4. 2F: Walk South. Bypass the table at Y=7 by walking West to X=17, then South, then East back to X=20.
+5. 2F: Walk South through OPEN Central doors (20, 17) to reach the stairs at (21, 23).
+6. 3F: Arrive on 3F in State B. The 3F Southern doors (15, 10) will be OPEN.
+7. 3F: Walk South and jump down the pit at (16, 14) or (17, 14).
+8. 1F: Land in the enclosed area. Take the stairs down to B1F.
+9. B1F: Central doors (20, 17) are OPEN (State B)! Walk West to find the Secret Key.
