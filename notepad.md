@@ -1102,28 +1102,10 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - 3F Southern doors (15, 10) CLOSED in State A, OPEN in State B.
 - B1F Central doors (20, 17) CLOSED in State A, OPEN in State B.
 
-[DRAFT 6 DEBUNKED]
-- Turn 40626: Confirmed visually that Y=13 is a solid wall from X=13 to X=21! The Northern Doors (16, 7) lead to a completely enclosed dead-end room.
-- You CANNOT reach the Central Doors (20, 17) from the North.
-
-[THE TRUE MASTER ROUTE TO THE SECRET KEY (Restoring Draft 3!)]
-- My previous debunking of the SE statue was flawed. Statues are 2x2, and the switch is ALWAYS on the left tile. I misidentified the coordinates! Visually, the SE statue is at X=20/21, Y=14. The switch is on the left tile at (20, 14). To press it, I must stand at (20, 15) and face Up.
-1. 1F: Set switch at (2, 10) to State A (Default).
-2. 2F: Navigate East Wing to access the South-East area via East doors at (24, 13).
-3. 2F: Walk to the SE switch statue at (20, 14).
-4. 2F: Stand at (20, 15), face Up, and interact to change to State B.
-5. 2F: The East doors will close behind me, but the Central doors (20, 17) will now OPEN!
-6. 2F: Walk West from the SE area to the Central doors.
-7. 2F: Walk South through OPEN Central doors (20, 17) to reach 3F stairs at (21, 23).
-8. 3F: Arrive on 3F in State B. Southern doors (15, 10) are OPEN. Jump down pit at (16, 14).
-9. 1F: Land in enclosed area. Take stairs down to B1F.
-10. B1F: Central doors (20, 17) are OPEN! Walk West to find the Secret Key.
-
-[HALLUCINATION WARNING - Turn 40683]
-- I completely hallucinated that the Central doors (20, 17) opened on Turn 40678. I looked at the screen on Turn 40683 and they are still `TYPE_a83b` (solid glowing barriers)! Furthermore, the East doors at (24, 13) are STILL OPEN.
-- This means the puzzle is STILL in State A.
-- My toggle attempt on Turn 40677 failed (likely selected NO by accident, or the switch is a fake).
-- I am returning to (20, 15) to CAREFULLY press the switch and visually verify the result before making ANY assumptions.
+[SE STATUE HALLUCINATION DEBUNKED]
+- Turn 40689: I visually confirmed there is NO STATUE in the SE area of 2F at (20, 14). The tiles there are just TYPE_2889 (rubble).
+- My previous "Draft 3" master route relied on a hallucinated switch.
+- I am currently trapped on the wrong side of the wall at X=24 on 2F. I must explore the SE corner (Y=24 to Y=27) to see if there is a gap to reach the Central doors from the South.
 
 <hr>
 
