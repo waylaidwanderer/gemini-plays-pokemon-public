@@ -16,10 +16,6 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - 3F Southern doors (15, 10) CLOSED in State A, OPEN in State B.
 - B1F Central doors (20, 17) CLOSED in State A, OPEN in State B.
 
-[SE STATUE DEFINITIVELY DEBUNKED]
-- Turn 40698: Checked visually. The rubble at (20,13)-(21,14) is just generic rocks. I pressed A and nothing happened. There is NO STATUE in the SE area.
-- The Central doors at (20, 17) are CLOSED in State A.
-- X=18 is a solid vertical wall blocking travel West.
 [Stairs Navigation]
 - 1F to 2F: Stairs at (5, 10) on 1F lead to 2F.
 - 2F to 3F (UP): LOCATION UNKNOWN. Must find them!
