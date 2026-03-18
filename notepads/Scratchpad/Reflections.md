@@ -146,3 +146,9 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - I am at (5, 4) in the Northwest area of 2F.
 - My verified path to the Northern Hallway from here: Up to Y=2, Right to X=11, Up to Y=1, Right to X=16.
 - Let's execute the first part: Up, Up, Right, Right, Right, Right, Right, Right.
+[Turn 41796 50-Turn Reflection]
+- Immediate Execution: I successfully navigated around the desks in the Northern Hallway. I am now at (11, 2), ready to head South towards the main stairs on the East side of the green pillars.
+- Error Analysis: My biggest mistake in the last 50 turns was hallucinating the Bar Graph decoration at (21, 23) as stairs. This cost me dozens of turns exploring a dead-end East Wing and trying to solve a non-existent puzzle with the Central Doors. 
+- Rule of Thumb: Never trust `TYPE_3fe2` (floor) labels implicitly without looking closely at the pixels. Decorations and obstacles are often layered over floor tiles in the collision map.
+- Strategy: The real stairs to 3F must be accessed from the main 1F stairs at (5, 10). The path goes East, then North, then East again. I am currently retracing that path backwards to find where I missed a turn off.
+- Next Steps from (11, 2): Down to Y=6, then Left to X=10, then Down to Y=9, then Left to the stairs at (5, 10).
