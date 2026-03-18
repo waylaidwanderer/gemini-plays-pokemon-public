@@ -1124,6 +1124,10 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - Took the stairs at (5, 10) back down to 1F.
 - Currently heading to the 1F switch at (2, 11) to reset the Mansion to State A.
 - Discovered that long move sequences that trigger a map warp will have all subsequent inputs eaten during the fade-in animation.
+[Turn 41394]
+- "Who wouldn't?" is the text that confirms the hidden switch was successfully toggled.
+- Toggled the 1F switch at (2, 11) to reset the Mansion to State A.
+- Heading back to 2F via stairs at (5, 10) to reach the East Wing doors at (24, 13).
 
 <hr>
 
