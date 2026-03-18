@@ -85,3 +85,7 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - Arrived at (1, 13).
 - Moving Down to (1, 16) to collect the item ball.
 - Afterwards, will explore the eastern part of this new area.
+[Turn 41863 Realization]
+- The 3F South area is just a dead end with a Max Potion. No stairs or switches.
+- I reviewed my summary: I DID find stairs to 3F in the South-East area of 2F (accessed via East doors at 24, 13) around Turn 41728! I just misrecorded the coordinates as (21, 23).
+- NEW PLAN: Return to 1F, go up to 2F main area, walk through OPEN East doors at (24, 13), and find those stairs up to the main 3F area. Then hit the 3F switch to enter State B, and jump down the pit!
