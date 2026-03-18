@@ -1198,6 +1198,10 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 [Turn 41777 Navigation Correction]
 - The northern hallway at Y=5 is blocked by a desk spanning X=23 to X=25 at Y=4, and a pillar at X=22, Y=5.
 - To head West from (23, 5), I must detour East around the desk: Right to X=26, Up to Y=2, then Left.
+[Turn 41778 Navigation]
+- Successfully detoured around the desk at X=24, Y=4.
+- I am now in the clear northern hallway at (22, 2).
+- Continuing West towards the main 2F area to re-evaluate the stairs situation.
 
 <hr>
 
