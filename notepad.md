@@ -1406,8 +1406,8 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 
 [2F Points of Interest]
 - Arrived from 1F via stairs at (5, 10).
-- A solid horizontal wall at Y=9 completely separates the stairs area (Y=10) from the northern hallway (Y=8). You CANNOT walk straight North from the stairs. To reach the northern hallway, you must go through the East Wing to Y=2 and then walk West.
-- Electronic doors located at (7, 12) to (7, 15). (West doors)
+- You CAN walk North-East from the stairs area to the Northern hallway. The path from (10, 13) is North to (10, 9), East to (12, 9), and North to (12, 7). There is NO solid wall at Y=9 blocking X=10 to X=12.
+- The tiles at (7, 12) to (7, 15) are normal floor, NOT electronic doors.
 - A path leads West to the Northwest corner at Y=4/Y=5, ending in a dead end blocked by rubble at (2, 4)/(2, 5).
 - Found stairs at (6, 1) dropping down from 3F. TESTED: These stairs CANNOT be ascended. They must be a one-way exit.
 - Found stairs at (16, 14)/(17, 14) on 3F (the pit). There are NO stairs at (16, 7) on 2F; it is an open corridor heading South.
