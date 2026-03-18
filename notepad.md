@@ -1128,6 +1128,10 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - "Who wouldn't?" is the text that confirms the hidden switch was successfully toggled.
 - Toggled the 1F switch at (2, 11) to reset the Mansion to State A.
 - Heading back to 2F via stairs at (5, 10) to reach the East Wing doors at (24, 13).
+[Turn 41413]
+- Realized the path East from (19, 6) is blocked by a wall at X=22.
+- The correct path to the East Wing from the North Hallway is to backtrack West and South: Left to (12, 6), Down to (12, 9), Left to (10, 9), Down to (10, 13).
+- From (10, 13) in the Central Area, I should be able to walk East to the (24, 13) doors.
 
 <hr>
 
