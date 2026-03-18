@@ -1154,6 +1154,10 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - Bumped into the green pillar at (8, 12) last turn because the gap in the X=8 wall is at Y=11, not Y=12.
 - I corrected my path during the macro and ended up at (7, 11).
 - The stairs are at (5, 10). I need to move Up 1, Left 2.
+[Turn 39891 Navigation Update]
+- Navigated from 2F to 1F.
+- Current position: 1F (5, 11).
+- Next step: Walk to the switch statue at (2, 10)/(2, 11). I need to stand at (2, 12) facing Up to interact.
 
 <hr>
 
