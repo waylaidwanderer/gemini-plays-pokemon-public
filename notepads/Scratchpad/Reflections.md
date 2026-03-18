@@ -258,3 +258,6 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 [Turn 41835 Navigation]
 - I am at (10, 13) facing Down.
 - Route: Down to Y=15, then sweep West towards the South-West area.
+[Turn 41838 Navigation]
+- Continuing South from (10, 13) to explore the southern section of the East Wing.
+- Will sweep the South-West area (around X=4 to X=8, Y=18 to Y=26) next.
