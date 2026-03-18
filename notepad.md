@@ -1098,37 +1098,27 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - Currently: West doors (7, 12) are OPEN. I am in STATE B.
 
 [The True Route]
-- HALLUCINATION CORRECTED: I never actually explored the area SOUTH of the East doors at (24, 13). I bumped into them while they were closed (State B) and mistakenly explored the Northern Hallway instead.
-- The true path to 3F is almost certainly SOUTH of the East doors at (24, 13).
-- To access it, I must be in State A (East doors OPEN).
-1. Return to 1F and toggle switch to State A.
-2. Return to 2F East doors at (24, 13) and walk SOUTH through them.
-- MAP CONSTRAINTS (STATE B): The West Wing (Y=9 wall) and East Wing (Y=13 doors/rubble) paths from North to South are entirely blocked. The true path is a 1-tile wide gap at X=12.
-- ROUTE BETWEEN STAIRS (5,10) & NORTHERN HALLWAY: 
-  1. From Stairs (5, 10), walk East to (7, 10), South to (7, 11).
-  2. Walk East along Y=11 to (12, 11).
-  3. Walk North down the gap at X=12 to (12, 7) to reach the Northern Hallway.
-  *CRITICAL INSIGHT*: This route uses Y=11 and X=12. The West electronic doors are at Y=12 to Y=15. Therefore, this route is ALWAYS OPEN regardless of the Switch State! We never needed the West doors!
+- To access the South-East stairs to 3F at (21, 23), I must reach the Central Doors at (20, 17).
+- MAP CONSTRAINTS: 
+  1. The South-West area (via West doors) is an isolated loop bounded by X=11 and Y=13. It is a DEAD END.
+  2. The path East along Y=11 is BLOCKED by a solid wall at X=13.
+- CONCLUSION: The Central area of 2F CANNOT be accessed from the West Wing or the Stairs area via Y=11. 
+- The ONLY remaining unblocked path to the Central Doors at (20, 17) must be from the EAST WING.
+- But wait! In State B, the East doors at (24, 13) are CLOSED.
+- If the East doors are closed in State B, how can I reach the 3F stairs in State B?
+- Hypothesis: I MUST be in State A to pass through the East doors (24, 13), reach the 3F stairs at (21, 23), and go up to 3F.
+- BUT! If I go up to 3F in State A, the Southern doors at (15, 10) on 3F will be CLOSED, blocking the pit to B1F!
+- There MUST be another switch on 3F that I can press to toggle to State B AFTER I pass the East doors!
 
-[MASTER ROUTE TO SECRET KEY]
-1. 1F: Set switch to State B.
-2. 2F: Walk North through gap at X=12 to reach Northern Hallway.
-3. 2F: Walk East to X=20, then South to Central doors at (20, 17).
-4. 2F: Pass South through OPEN Central doors (20, 17) to find 3F stairs!
-5. 3F: Arrive in State B. Southern doors (15, 10) are already OPEN. Jump down pit at (16, 14).
-6. 1F: Land in enclosed area. Take stairs down to B1F.
-7. B1F: Central doors (20, 17) are OPEN! Walk West to find the Secret Key.
-*CRITICAL INSIGHT*: The switch statue at (21, 14) is a FAKE red herring. Pressing it does nothing! The path East past X=13 in the Northern Hallway is NOT blocked.
-[Master Route Correction]
-- The Northern Hallway is blocked from going South at X=20 by a table at (20, 7).
-- Therefore, to reach the North side of the Central doors at (20, 17), I must use the WEST DOORS at (7, 12).
-- The West doors are OPEN in State B.
-- Route: Go to X=7, Y=11. Walk South through West doors, then explore East towards (20, 16) to find the Central doors!
-[Turn 39816 Observation]
-- Attempting to walk East along Y=11 from (12, 11) FAILED.
-- I am blocked by a solid wall at X=13! The tiles at (13, 11) and (13, 12) are TYPE_2889 (solid walls).
-- The gap at X=12 is a 1-tile wide corridor bounded by X=11 on the left and X=13 on the right.
-- This means the entire central area of 2F (including the Central doors at 20, 17) CANNOT be accessed from the West Wing or the Stairs area via Y=11.
+[Revised Master Route]
+1. 1F: Set switch to State A.
+2. 2F: Walk through East doors at (24, 13) which are now OPEN.
+3. 2F: Continue South to the stairs at (21, 23) and go up to 3F.
+4. 3F: Arrive in State A. The Southern doors (15, 10) are CLOSED.
+5. 3F: Find and press a switch to change to State B! This will OPEN the Southern doors (15, 10).
+6. 3F: Jump down the pit at (16, 14).
+7. 1F: Land in enclosed area. Take stairs down to B1F.
+8. B1F: Central doors (20, 17) are OPEN (State B)! Walk West to find the Secret Key.
 
 <hr>
 
