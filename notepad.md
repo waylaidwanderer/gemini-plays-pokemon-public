@@ -1473,5 +1473,6 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 6. 1F: Land in enclosed area. Take stairs down to B1F.
 7. B1F: Central doors (20, 17) are OPEN! Walk West to find the Secret Key.
 *CRITICAL INSIGHT*: The switch statue at (21, 14) is a FAKE red herring. The South-East doors at (26, 27) are PERMANENT barriers.
+- CRITICAL REVISION: The true stairs to 3F are located at (21, 23) on 2F, directly South of the 2F Central doors at (20, 17) / (21, 17).
 
 <hr>
