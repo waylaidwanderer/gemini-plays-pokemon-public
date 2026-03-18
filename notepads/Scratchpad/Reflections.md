@@ -119,3 +119,9 @@ This is the definitive, empirically sound solution. I will execute this immediat
 - Because I don't need State A to pass the non-existent East doors, I can do the entire puzzle in State B!
 - The True Route: 1F (State B) -> 2F East Wing -> South through Central doors (20, 17) -> Up 3F stairs (21, 23) -> 3F (State B) -> South through open doors (15, 10) -> Jump down pit (16, 14) -> 1F enclosed area -> B1F -> West to Secret Key.
 - Executing now!
+[Turn 39858 Observation]
+- Attempted to walk South through the Central doors at (21, 17) in Turn 39857.
+- SUCCESS! The tiles at (20, 17) and (21, 17) ARE OPEN DOORS (TYPE_a83b).
+- I am now standing at (21, 16), facing South towards the open doors.
+- The path to the 3F stairs at (21, 23) is completely clear!
+- My new Final Master Route is working perfectly. I don't need to press the switch on 2F. I just need to walk South.
