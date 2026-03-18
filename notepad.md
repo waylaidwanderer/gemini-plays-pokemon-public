@@ -1151,6 +1151,9 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - Immediate Execution: I accidentally returned to 1F, but I will use this opportunity to definitively re-check the South-East corridor on 1F (around X=18, Y=12). My notes mention seeing stairs behind a wall at (25, 14) from this location. I must investigate if there's any hidden path or switch here that I missed. If there are stairs at (25, 14) on 1F, they might be the intended path!
 - Error Analysis: My exploration of the 2F Red Carpet room revealed no new paths East. I am systematically eliminating possibilities. The Mansion's layout is incredibly deceptive.
 - Goal Clarity: Find the Secret Key. Sub-goal: Investigate the visible stairs at 1F (25, 14).
+[Turn 41660 Critical Discovery]
+- The main staircase at (6, 10)/(7, 10) spans all three floors! Stepping on the RIGHT half (7, 10) from 1F warps you directly to 3F! This bypasses 2F entirely.
+- WARNING: The Burglar on 3F at (6, 11) is a WANDERING trainer. He currently blocks the only chokepoint between the stairs and the rest of the floor. If I battle him here, he will freeze and PERMANENTLY block the path! I must wait for him to wander away before slipping past.
 
 <hr>
 
