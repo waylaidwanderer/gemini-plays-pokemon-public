@@ -1092,8 +1092,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [Paradox Resolved]
 - East Wing is physically isolated from the Central Corridor (X=24 solid, X=22/23 rubble).
 - Central Doors (20, 17) are blocked from the North in State B by solid wall at Y=13.
-- Thus, the stairs at (21, 23) on 2F are COMPLETELY UNREACHABLE. They are likely just a shaft from 3F to 1F.
-- The true stairs UP to 3F must be somewhere else. Searching North-East 2F.
+- The stairs at (21, 23) on 1F lead DOWN to B1F. The map marker I placed at (21, 23) on 2F for "Stairs to 3F" was a hallucination! They don't exist there.
+- The true stairs UP to 3F must be somewhere else. Searching North-East 2F. Also need to consider 1F Northern doors at (16, 5) in State B if this fails.
 [Mansion Master Puzzle Solution]
 Goal: Reach B1F isolated area to find the Secret Key.
 Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPEN. This is STATE B.
@@ -1463,7 +1463,7 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 [TRUE MASTER ROUTE TO SECRET KEY]
 1. 1F: Set switch at (2, 10) to State A (Default).
 2. 2F: Walk to East Wing. Pass through OPEN East doors at (24, 13).
-3. 2F: Take stairs UP to 3F at (21, 23) in the South-East area.
+3. 2F: Stairs UP to 3F are NOT in South-East. They must be in North-East. Searching now.
 4. 3F: Arrive on 3F East. In State A, Northern doors (15, 4) are OPEN.
 5. 3F: Pass through Northern doors (15, 4) to reach the switch at (10, 4).
 6. 3F: Press switch at (10, 4) to change to STATE B.

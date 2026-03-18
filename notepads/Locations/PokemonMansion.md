@@ -85,7 +85,7 @@
 [TRUE MASTER ROUTE TO SECRET KEY]
 1. 1F: Set switch at (2, 10) to State A (Default).
 2. 2F: Walk to East Wing. Pass through OPEN East doors at (24, 13).
-3. 2F: Take stairs UP to 3F at (21, 23) in the South-East area.
+3. 2F: Stairs UP to 3F are NOT in South-East. They must be in North-East. Searching now.
 4. 3F: Arrive on 3F East. In State A, Northern doors (15, 4) are OPEN.
 5. 3F: Pass through Northern doors (15, 4) to reach the switch at (10, 4).
 6. 3F: Press switch at (10, 4) to change to STATE B.
