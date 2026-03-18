@@ -38,10 +38,10 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - "Who wouldn't?" is the text that confirms the hidden switch was successfully toggled.
 - Toggled the 1F switch at (2, 11) to reset the Mansion to State A.
 - Heading back to 2F via stairs at (5, 10) to reach the East Wing doors at (24, 13).
-[Turn 41413]
-- Realized the path East from (19, 6) is blocked by a wall at X=22.
-- The correct path to the East Wing from the North Hallway is to backtrack West and South: Left to (12, 6), Down to (12, 9), Left to (10, 9), Down to (10, 13).
-- I assumed the path East from (10, 13) was open, but I just verified visually that X=11 is a solid vertical wall from Y=13 to at least Y=17, and Y=13 is a horizontal wall from X=11 to X=15. I cannot walk East from (10, 13). Must explore further South.
+[Turn 41461]
+- Discovered I suffered severe spatial disorientation due to wild encounter interruptions during long movement sequences.
+- My previous conclusions about the Northern Hallway being a dead end and needing to go South were hallucinations caused by bumping into walls from incorrect starting coordinates.
+- Plan: Backtrack to the Northern Hallway (Y=6) and methodically test the path East, specifically checking if I can move UP to Y=3 to bypass the wall at X=22, using very short movement sequences.
 [Turn 41432 50-Turn Reflection]
 - Currently navigating 2F Pokemon Mansion to reach the East Wing stairs to 3F.
 - My `execute_battle_turn` failed because I passed `current_move_index: 3` when the game's cursor memory had it at `1` (Body Slam). I must carefully track or visually confirm move menu cursor memory.
