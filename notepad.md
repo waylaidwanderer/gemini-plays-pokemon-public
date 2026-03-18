@@ -1529,12 +1529,13 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - Found a glowing-eye switch statue at (21, 13)/(21, 14) in the enclosed South-East area (accessed via East doors).
 [Master Route to Secret Key]
 1. 1F: Set switch to State B.
-2. 2F: Walk North through gap at X=12 to reach Northern Hallway.
-3. 2F: Walk East to X=20, then South to Central doors at (20, 17).
-4. 2F: Pass South through OPEN Central doors (20, 17) to find 3F stairs!
-5. 3F: Arrive in State B. Southern doors (15, 10) are already OPEN. Jump down pit at (16, 14).
-6. 1F: Land in enclosed area. Take stairs down to B1F.
-7. B1F: Central doors (20, 17) are OPEN! Walk West to find the Secret Key.
+2. 2F: Walk North through gap at X=12 to reach Northern Hallway (Y=3).
+3. 2F: Walk East to X=20, then South to (20, 6). Path South is blocked by table at Y=7.
+4. 2F: Walk Left to X=17, then South to bypass table. Then navigate to Central doors at (20, 17).
+5. 2F: Pass South through OPEN Central doors (20, 17) to find 3F stairs!
+6. 3F: Arrive in State B. Southern doors (15, 10) are already OPEN. Jump down pit at (16, 14).
+7. 1F: Land in enclosed area. Take stairs down to B1F.
+8. B1F: Central doors (20, 17) are OPEN! Walk West to find the Secret Key.
 *CRITICAL INSIGHT*: The switch statue at (21, 14) is a FAKE red herring. The South-East doors at (26, 27) are PERMANENT barriers.
 - CRITICAL REVISION: The true stairs to 3F are NOT at (24, 19). That is a solid wall. I must explore the path South via X=25 or X=26 in the East Wing to find them.
 
