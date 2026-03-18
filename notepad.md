@@ -1136,6 +1136,14 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - The path West is at Y=11. I am at (7, 11). I can go Left to X=6, X=5, X=4.
 - Let me verify if there is a path South of the Burglar.
 - I will move Left to (6, 11) then Down to (6, 12) to read the book and check the area.
+[Turn 41854 3F Exploration]
+- I am at (6, 11) on 3F.
+- The Burglar (SPRITE_cdfc) is pacing between (4, 11) and (6, 11).
+- My current position (6, 11) is directly above a desk with an open book at (6, 12).
+- The map shows the floor extends South at X=7 to Y=13!
+- Wait, I thought this room was walled off at Y=7. The map shows it is NOT.
+- From (7, 11), I can move Down to (7, 12) and (7, 13).
+- I need to step Right to X=7, then Down to see what's there.
 
 <hr>
 

@@ -35,3 +35,22 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - Let me re-read my Turn 41669 reflection from the Archive: I didn't actually explore South of the Burglar! I just talked to him, grabbed the diary, and immediately assumed it was a dead end because the room looked small.
 - I MUST go back to 3F via the warp stairs at 1F (7, 10) and thoroughly explore South of the Burglar at (4, 11).
 - This is the ONLY lead I have left.
+[Turn 41853 3F Re-exploration]
+- I am at (7, 11) on 3F.
+- My notes say the Burglar is at (4, 11).
+- Looking at the screen, the Burglar (SPRITE_4bab) is at (7, 11) overlapping me?! Wait, no, the NPC Movement Tracker says SPRITE_4bab appeared at (6, 12).
+- The Sprite at (5, 11) is me. Wait, no, I am at (7, 11). The Sprite at (5, 11) is the Burglar (SPRITE_cdfc).
+- Let me check the map.
+- The path at X=7 continues Down to Y=12.
+- The book is at (6, 12).
+- The path West is at Y=11. I am at (7, 11). I can go Left to X=6, X=5, X=4.
+- Let me verify if there is a path South of the Burglar.
+- I will move Left to (6, 11) then Down to (6, 12) to read the book and check the area.
+[Turn 41854 3F Exploration]
+- I am at (6, 11) on 3F.
+- The Burglar (SPRITE_cdfc) is pacing between (4, 11) and (6, 11).
+- My current position (6, 11) is directly above a desk with an open book at (6, 12).
+- The map shows the floor extends South at X=7 to Y=13!
+- Wait, I thought this room was walled off at Y=7. The map shows it is NOT.
+- From (7, 11), I can move Down to (7, 12) and (7, 13).
+- I need to step Right to X=7, then Down to see what's there.
