@@ -1166,6 +1166,13 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - The 3F South area is just a dead end with a Max Potion. No stairs or switches.
 - I reviewed my summary: I DID find stairs to 3F in the South-East area of 2F (accessed via East doors at 24, 13) around Turn 41728! I just misrecorded the coordinates as (21, 23).
 - NEW PLAN: Return to 1F, go up to 2F main area, walk through OPEN East doors at (24, 13), and find those stairs up to the main 3F area. Then hit the 3F switch to enter State B, and jump down the pit!
+[Turn 41882 Overwatch Correction]
+- I received a CRITICAL overwatch warning. I hallucinated the stairs in the 2F East Wing!
+- On Turn 41769, I empirically verified the 2F East Wing is a DEAD END and the "stairs" were a Bar Graph decoration.
+- I must trust my negative proofs. The 2F East Wing is an exhausted space. I am abandoning it immediately.
+- NEW PLAN: I need to search for the real stairs to 3F.
+- Unexplored areas to check: 2F West area (South of Y=18) red carpet room, or look for hidden gaps on 1F / 2F Central.
+- I will navigate back to 2F (5, 10) and head South to the 2F West red carpet room.
 
 <hr>
 
@@ -1520,12 +1527,11 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 [MASTER ROUTE TO SECRET KEY - REVISED]
 1. 1F: Ensure Mansion is in State A using 1F switch at (2,10).
 2. 1F: Take stairs at (5, 10) UP to 2F.
-3. 2F: Walk East to East Wing. Pass through OPEN East doors at (24, 13).
-4. 2F: Explore East Wing to find stairs UP to 3F.
-5. 3F: Find a switch on 3F to change Mansion to State B (so Southern doors at 15,10 open).
-6. 3F: Jump down pit at (16, 14).
-7. 1F: Land in enclosed area. Take stairs down to B1F.
-8. B1F: Central doors (20, 17) are OPEN (State B)! Walk West to find Secret Key.
+3. 2F: ??? (Must find stairs to 3F main area. 2F East Wing is a VERIFIED DEAD END. Need to check 2F West red carpet room or other unexplored gaps).
+4. 3F: Find a switch on 3F to change Mansion to State B (so Southern doors at 15,10 open).
+5. 3F: Jump down pit at (16, 14).
+6. 1F: Land in enclosed area. Take stairs down to B1F.
+7. B1F: Central doors (20, 17) are OPEN (State B)! Walk West to find Secret Key.
 - Rubble at Y=8 blocks X=8 to X=11 on 2F West. Path South is at X=7 or X=6.
 - Corridor South of (16, 7) leads to two switch statues at (16, 10) and (18, 10). The path continues South between them at X=17, then heads East at Y=12. This path ends in a DEAD END at X=21. There are no stairs here.
 - The West Wing North of Y=9 is a dead end containing only the switch statue at (2, 4) and the one-way drop-down stairs at (6, 1). The wall at Y=9 is solid from X=0 to X=9.

@@ -76,3 +76,10 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - The 3F South area is just a dead end with a Max Potion. No stairs or switches.
 - I reviewed my summary: I DID find stairs to 3F in the South-East area of 2F (accessed via East doors at 24, 13) around Turn 41728! I just misrecorded the coordinates as (21, 23).
 - NEW PLAN: Return to 1F, go up to 2F main area, walk through OPEN East doors at (24, 13), and find those stairs up to the main 3F area. Then hit the 3F switch to enter State B, and jump down the pit!
+[Turn 41882 Overwatch Correction]
+- I received a CRITICAL overwatch warning. I hallucinated the stairs in the 2F East Wing!
+- On Turn 41769, I empirically verified the 2F East Wing is a DEAD END and the "stairs" were a Bar Graph decoration.
+- I must trust my negative proofs. The 2F East Wing is an exhausted space. I am abandoning it immediately.
+- NEW PLAN: I need to search for the real stairs to 3F.
+- Unexplored areas to check: 2F West area (South of Y=18) red carpet room, or look for hidden gaps on 1F / 2F Central.
+- I will navigate back to 2F (5, 10) and head South to the 2F West red carpet room.
