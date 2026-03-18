@@ -1137,17 +1137,11 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - Let me verify if there is a path South of the Burglar.
 - I will move Left to (6, 11) then Down to (6, 12) to read the book and check the area.
 [Turn 41854 3F Exploration]
-- I am at (6, 11) on 3F.
 - The Burglar (SPRITE_cdfc) is pacing between (4, 11) and (6, 11).
-- My current position (6, 11) is directly above a desk with an open book at (6, 12).
 - The map shows the floor extends South at X=7 to Y=13!
 - Wait, I thought this room was walled off at Y=7. The map shows it is NOT.
 - From (7, 11), I can move Down to (7, 12) and (7, 13).
-- I need to step Right to X=7, then Down to see what's there.
 [Turn 41855 3F Exploration]
-- I moved Right, Down, Down from (6, 11).
-- My position is (7, 11).
-- Wait, I was already at (7, 11) on Turn 41854!
 - Let's look at the Intermediate States for Turn 41855:
   - State 0: Right -> (8, 11) [BUMP into TYPE_3fe2 wall?]
   - State 1: Down -> (7, 12) [BUMP into TYPE_2889 wall]
@@ -1156,25 +1150,18 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - The tile at (8, 11) looks like floor (TYPE_3fe2), but it must be a wall since I bumped into it.
 - The tile at (7, 12) is the RIGHT HALF of the desk (TYPE_2889).
 - Ah! The path South is at X=6!
-- I need to go Left to (6, 11), then Down!
 - But wait, the Burglar is pacing between X=4, X=5, and X=6 at Y=11.
 - If I go Left, I will bump into him or the desk.
 - Let's look closely at the desk at (6, 12)/(7, 12).
 - It blocks X=6 and X=7 at Y=12.
 - The path MUST be at X=4 or X=5!
 - Yes, my notes say: "The Burglar on 3F at (4, 11)/(5, 11) is a WANDERING trainer. The path here is 2 tiles wide (X=4 and X=5)."
-- I need to move Left to X=5 or X=4, then go Down!
 [Turn 41857 3F Exploration South]
-- I am at (5, 13) on 3F.
 - The area South of the Burglar (Y=11) is indeed open!
 - I see a path leading South to Y=17.
 - I also see an item ball at (1, 16) (SPRITE_bbb7).
 - Let's sweep this new area. I will grab the item first.
-- Path to item: Left to X=1, Down to (1, 16).
 [Turn 41858 Item Grab]
-- Arrived at (1, 13).
-- Moving Down to (1, 16) to collect the item ball.
-- Afterwards, will explore the eastern part of this new area.
 [Turn 41863 Realization]
 - The 3F South area is just a dead end with a Max Potion. No stairs or switches.
 - I reviewed my summary: I DID find stairs to 3F in the South-East area of 2F (accessed via East doors at 24, 13) around Turn 41728! I just misrecorded the coordinates as (21, 23).
