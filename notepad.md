@@ -1095,7 +1095,6 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 [Door Logic]
 - TYPE_a83b (glowing orange lines) = ACTIVE LASER BARRIER (CLOSED).
 - TYPE_3fe2 (plain pink floor) = OPEN DOOR / REGULAR FLOOR.
-- 2F West doors (7, 12) are CLOSED in State A.
 - 2F East doors (24, 13) are OPEN in State A.
 - 2F Central doors (20, 17) are CLOSED in State A.
 - 3F Southern doors (15, 10) are CLOSED in State A.
