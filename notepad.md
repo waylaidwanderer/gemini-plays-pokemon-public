@@ -1287,6 +1287,14 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - Cleared the text from the Ponyta battle at (8, 8).
 - I am now walking East, then South into the East Wing.
 - Route: Right to X=11, Down to Y=13, then explore South.
+[Turn 41827 Navigation Error]
+- I am at (8, 8) on 1F, facing Right.
+- My sequence `ARRRDDDDD` from (8, 8) failed immediately on the first movement input (Right).
+- I bumped into the wall at (9, 8)!
+- Looking at the map, the East Wing is separated by a solid wall at X=9.
+- The gap to enter the East Wing is at X=9 between Y=10 and Y=11.
+- To reach this gap from (8, 8), I must go Down to Y=10, then Right.
+- Correct sequence from (8, 8): Down, Down, Right, Right, Down.
 
 <hr>
 
