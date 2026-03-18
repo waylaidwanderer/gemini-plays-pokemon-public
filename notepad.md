@@ -1155,8 +1155,12 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - Turn 41669: The room on 3F accessed via the stairs at (7, 10) from 1F is an ISOLATED DEAD-END. It is walled off at Y=7 and X=10. It only contains the non-hostile Burglar and the 'Feb. 6' diary. I must use the stairs to leave.
 [Turn 41692 50-Turn Reflection]
 - Error Analysis: My exploration of the 1F main staircase warp (7, 10) revealed a fascinating dead-end lore room on 3F. I successfully mapped it without soft-locking myself by battling the Burglar in the chokepoint. I am now back on track with the master plan.
-- Turn 41724 Critical Realization: The stairs to 3F ARE AT (21, 23) ON 2F! I can see them on my screen right now. My previous note that they were a hallucination was wrong. They are located South of the Central Doors at (20, 17) and (21, 17).
-- Currently exploring the East Wing (South of Y=13) to see if it connects to those stairs or has another switch.
+[Turn 41724 Critical Realization]
+- The stairs to 3F ARE AT (21, 23) ON 2F! I can see them on my screen right now.
+- They are located South of the Central Doors at (20, 17) and (21, 17).
+- There is NO wall at X=24 between Y=16 and Y=18! The East Wing connects directly to the Central Doors area!
+- Puzzle Solution: Enter East Wing in State A (doors at 24,13 open). The Central Doors (21,17) will be closed. We must find a hidden switch INSIDE this enclosed East Wing area to change to State B. This will open the Central Doors (21,17) allowing access to the stairs to 3F at (21, 23)!
+- Currently exploring the East Wing to find this hidden switch.
 
 <hr>
 
