@@ -1308,6 +1308,11 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - The tile at (8, 9) is a wall (TYPE_2889). I cannot go Down from (8, 8).
 - I am trapped in a corner at (8, 8)!
 - To get to the East side of X=9, I must go all the way back Up to the Northern Hallway (Y=2), go Right to X=10, and then go Down!
+[Turn 41829 Plan]
+- Retreating from the (8, 8) dead-end on 1F.
+- My goal is the East Wing of 1F (South of Y=10).
+- The gap to enter it is at X=9, between Y=10 and Y=11.
+- Path to gap from (8, 8): Up to Northern Hallway (Y=2), Right to X=10, Down to (10, 11), Left to (9, 11).
 
 <hr>
 
