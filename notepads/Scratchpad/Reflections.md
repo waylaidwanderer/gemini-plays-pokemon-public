@@ -34,10 +34,3 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 8. 3F: Walk South and jump down the pit at (16, 14) or (17, 14).
 9. 1F: Land in the enclosed area. Take the stairs down to B1F.
 10. B1F: Central doors (20, 17) are OPEN (State B)! Walk West to find the Secret Key.
-[Turn 40237 50-Turn Reflection]
-- Immediate Execution: Successfully reset 1F switch to State A. Currently navigating 2F to reach the East Wing doors at (24, 13).
-- Next Step: Enter the South-East area and test interacting with the left side of the switch statue at (20, 15).
-- Tool Maintenance: `safe_mash_b` is working perfectly to prevent accidental double-toggles.
-[Turn 40247]
-- CRITICAL REALIZATION: On Turn 40225, I toggled the 1F switch from State A to State B because I hallucinated that I was in State B! The East doors (24, 13) are now CLOSED (TYPE_a83b).
-- I must return to 1F, toggle the switch back to State A, and come back here. The Master Route logic is still 100% sound.
