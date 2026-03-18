@@ -1202,6 +1202,12 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - Successfully detoured around the desk at X=24, Y=4.
 - I am now in the clear northern hallway at (22, 2).
 - Continuing West towards the main 2F area to re-evaluate the stairs situation.
+[Turn 41779 Navigation Correction]
+- I am at (22, 2) facing Left.
+- I moved Left 11 times, but my position is STILL (22, 2).
+- Looking at the intermediate states, my character bumped into a solid object at (21, 2) on the very first input!
+- The tile at (21, 2) is a desk (TYPE_2889). I must detour South around it.
+- Correct route from (22, 2) heading West: Down to (22, 3), Left to (20, 3), Up to (20, 2), then continue Left.
 
 <hr>
 

@@ -105,3 +105,16 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - Looking at my notes: "VERIFIED PATH: To travel between the Northern doors (16, 7) and the West Wing, you must use the northernmost hallway. Walk UP along X=16 to Y=1, then LEFT to X=11, DOWN to Y=2, LEFT to X=4, DOWN to Y=5, and LEFT into the West Wing."
 - Ah! To get to the main stairs at (5, 10), I need to go West, but the path from X=23 is blocked at Y=5. I must go UP to Y=1, then Left.
 - I am at (23, 5). I need to move Up to (23, 1), then Left.
+[Turn 41777 Navigation Correction]
+- The northern hallway at Y=5 is blocked by a desk spanning X=23 to X=25 at Y=4, and a pillar at X=22, Y=5.
+- To head West from (23, 5), I must detour East around the desk: Right to X=26, Up to Y=2, then Left.
+[Turn 41778 Navigation]
+- Successfully detoured around the desk at X=24, Y=4.
+- I am now in the clear northern hallway at (22, 2).
+- Continuing West towards the main 2F area to re-evaluate the stairs situation.
+[Turn 41779 Navigation Correction]
+- I am at (22, 2) facing Left.
+- I moved Left 11 times, but my position is STILL (22, 2).
+- Looking at the intermediate states, my character bumped into a solid object at (21, 2) on the very first input!
+- The tile at (21, 2) is a desk (TYPE_2889). I must detour South around it.
+- Correct route from (22, 2) heading West: Down to (22, 3), Left to (20, 3), Up to (20, 2), then continue Left.
