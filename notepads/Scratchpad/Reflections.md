@@ -24,7 +24,7 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 [Revised Master Route]
 1. 1F: Set switch to State A.
 2. 2F: Walk through East doors at (24, 13) which are now OPEN.
-3. 2F: Continue South to the stairs at (21, 23) and go up to 3F.
+3. 2F: Continue South to the stairs at (24, 19) and go up to 3F.
 4. 3F: Arrive in State A. The Southern doors (15, 10) are CLOSED.
 5. 3F: Find and press a switch to change to State B! This will OPEN the Southern doors (15, 10).
 6. 3F: Jump down the pit at (16, 14).
