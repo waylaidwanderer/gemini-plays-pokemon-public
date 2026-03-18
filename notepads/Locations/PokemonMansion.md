@@ -31,7 +31,7 @@
 - The wall at X=8 on 2F consists of green pillars with gaps at Y=19, Y=21, Y=23, and Y=25.
 - In the East wing of 2F, there is a solid vertical wall at X=11 extending from at least Y=17 to Y=25.
 - In the Northeast area, there is a horizontal wall at Y=4 from X=22 to X=25. The path South is via X=26.
-- The gap at (24, 13) and (25, 13) is a permanent open hallway. There are NO electronic doors here.
+- 2F East doors are located at (24, 13) and (25, 13). In State A, these are OPEN (floor), allowing access to the South-East stairs. In State B, these CLOSE (glowing barriers).
 - 2F South-East doors are located at (26, 27) and (27, 27). These block access to the true stairs to 3F.
 
 [3F Points of Interest]
