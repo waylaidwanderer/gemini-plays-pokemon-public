@@ -1124,6 +1124,7 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 7. 3F: Walk South and jump down the pit at (16, 14).
 8. 1F: Land in the enclosed area. Take stairs down to B1F.
 9. B1F: Central doors (20, 17) are OPEN! Walk West to find the Secret Key.
+[Turn 40596] Confirmed 1F switch set to State B. Proceeding to 2F Northern Doors.
 
 <hr>
 
