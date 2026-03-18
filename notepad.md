@@ -1470,5 +1470,6 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 7. 3F: Southern doors (15, 10) are now OPEN. Walk South to the pit at (16, 14) and jump down.
 8. 1F: Land in enclosed area. Take stairs down to B1F.
 9. B1F: Central doors (20, 17) are OPEN (State B)! Walk West to find the Secret Key.
+- Rubble at Y=8 blocks X=8 to X=11 on 2F West. Path South is at X=7 or X=6.
 
 <hr>
