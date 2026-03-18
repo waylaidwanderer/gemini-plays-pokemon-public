@@ -1290,6 +1290,9 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - I am at (2, 6) facing Down.
 - The item ball is at (1, 6).
 - I need to move Left to reach it.
+[Turn 41817 Hallucination Check]
+- There was no item ball at (1, 6). I hallucinated it.
+- I am at (1, 6). I will sweep the rest of this Northwest area (South to Y=8, East to X=4) to ensure there are no stairs.
 
 <hr>
 
