@@ -1378,6 +1378,9 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - Let me check my map notes: "The wall at X=8 has a gap at Y=13."
 - Ah! The path continues West through the gap at Y=13!
 - From (10, 13), I must go Left through the gap.
+[Turn 41840 Navigation Correction]
+- Inputs were eaten by the "Got away safely!" text box again.
+- Pressing A to clear, then continuing Left through the gap at (9, 13) and heading South to explore the Southwest section of 1F.
 
 <hr>
 

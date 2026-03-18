@@ -261,3 +261,33 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 [Turn 41838 Navigation]
 - Continuing South from (10, 13) to explore the southern section of the East Wing.
 - Will sweep the South-West area (around X=4 to X=8, Y=18 to Y=26) next.
+[Turn 41838 Navigation Correction]
+- Sequence `DDDDLLLLLL` failed. I am at (10, 13).
+- Let's trace it:
+  - D -> (10, 14) [Floor]
+  - D -> (10, 15) [Floor]
+  - D -> (10, 16) [Floor]
+  - D -> (10, 17) [Floor]
+  - L -> (9, 17) [BUMP into TYPE_2889 wall]
+- Ah, there is a wall at X=9 in the East Wing, separating it from the Central Corridor.
+- The map shows the East Wing extends South. Let's look at the screen at (10, 17) (from Intermediate State 3).
+- The path continues South along X=10 and X=11.
+- Wait, I see electronic doors at (12, 17) and (13, 17) (TYPE_a83b, orange glowing barriers).
+- These doors are CLOSED in State A.
+- To explore the rest of the East Wing (South of Y=17), I need to go South.
+- Let's move Down from (10, 17).
+[Turn 41839 Navigation Correction]
+- Sequence `DDDDDD` failed immediately. I am at (10, 13).
+- Looking at Intermediate State 0: Down -> (10, 14) [BUMP into TYPE_2889 wall]
+- Wait, I thought (10, 14) was floor!
+- Let me re-examine the screen at (10, 13).
+- Directly below me at Y=14 is a wall (TYPE_2889). It spans X=10 and X=11.
+- So, I cannot go straight South down X=10.
+- My path East to X=12 is also blocked (as seen on Turn 41831).
+- What about West? At (10, 13), there is a gap to the West at (9, 13).
+- Let me check my map notes: "The wall at X=8 has a gap at Y=13."
+- Ah! The path continues West through the gap at Y=13!
+- From (10, 13), I must go Left through the gap.
+[Turn 41840 Navigation Correction]
+- Inputs were eaten by the "Got away safely!" text box again.
+- Pressing A to clear, then continuing Left through the gap at (9, 13) and heading South to explore the Southwest section of 1F.
