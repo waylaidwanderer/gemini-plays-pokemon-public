@@ -1142,6 +1142,7 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - Notepad Hygiene: My route plan is solidly documented. I'll update the Global Door States if this theory proves correct.
 - Custom Tools: No new tools needed right now. My strategy of using short 3-step `move_sequence` calls is working perfectly to mitigate spatial disorientation from wild encounters.
 - Goal Clarity: Primary goal is still to find the Secret Key. The immediate sub-goal is to verify if State B opens the South-East doors to the 3F stairs.
+- Turn 41552: Hypothesis FAILED. State B closes the East doors at (24, 13)/(25, 13). The corridor at X=26 is blocked by a solid wall at Y=13. Therefore, it is physically impossible to travel South through the East Wing in State B. The entire East Wing is inaccessible from the North in State B. Retreating to West Wing to explore the red carpet area South of (5, 10).
 
 <hr>
 
