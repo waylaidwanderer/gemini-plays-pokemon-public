@@ -18,5 +18,5 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - X=18 is a solid vertical wall blocking travel West.
 [State B Route Hypothesis]
 - Since the East doors (24, 13) close in State B, we cannot reach the Central doors from the East Wing.
-- Since Y=13 is a solid wall in the center (X=13 to X=21), we cannot walk directly South from the Northern doors (16, 7).
-- Hypothesis UPDATE: The wall at Y=13 ENDS at X=21. We can walk East from the Northern doors to X=22, then South to Y=17, then West to the Central doors at (20, 17).
+- Since Y=13 is a solid wall at X=17, we cannot walk straight South.
+- Hypothesis PROVEN (Turn 40873): Visual evidence shows an open floor path at Y=12 extending East from X=17 to X=21 underneath the Northern rubble. We must walk South to (17, 12), East to X=22 (bypassing rubble at 20,13), South to Y=16, then West to the Central doors!
