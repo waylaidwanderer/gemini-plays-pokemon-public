@@ -1234,6 +1234,22 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - To get from (5, 8) to (5, 10) on 2F, I must detour around the wall at Y=9.
 - Looking at the screen, there is a gap at X=3, but I'm blocked from going West by the pillar at (4, 8).
 - I need to go East to X=8, then Down. Let's try: Right, Right, Right, Down, Down, Left, Left, Left.
+[Turn 41789 Navigation Error]
+- I am at (4, 8) facing Down.
+- My sequence: `RRRDDLLLD`.
+- Let's trace it from (5, 8):
+  - R -> (6, 8) [Floor]
+  - R -> (7, 8) [Floor]
+  - R -> (8, 8) [BUMP into TYPE_2889 wall]
+  - D -> (7, 9) [BUMP into TYPE_2889 wall]
+  - D -> (7, 9) [BUMP into TYPE_2889 wall]
+  - L -> (6, 9) [BUMP into TYPE_2889 wall]
+  - L -> (5, 9) [BUMP into TYPE_2889 wall]
+  - L -> (4, 9) [BUMP into TYPE_2889 wall]
+  - D -> (4, 9) [BUMP into TYPE_2889 wall]
+- Wow, my sequence was completely flawed because I hallucinated a path at X=8! The wall at X=8 is solid from Y=4 down to Y=12!
+- The gap I need to use to go South is actually the 1-tile gap at X=3!
+- To reach X=3 from (4, 8), I must go Up, Left, Down.
 
 <hr>
 
