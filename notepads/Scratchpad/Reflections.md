@@ -82,3 +82,7 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - Current position: 1F (2, 12).
 - The text box "A secret switch! Press it? -> YES/NO" is open on screen.
 - I need to press A to select YES.
+[Turn 39895 Observation]
+- The switch was successfully toggled to STATE B in Turn 39893 (verified by the "Who wouldn't?" text on the Turn 39894 screen).
+- My extra 'A' inputs re-interacted with the statue, bringing up the "A secret switch!" text again.
+- I will mash 'B' to safely cancel this prompt and remain in State B. Then I proceed to the 1F stairs.
