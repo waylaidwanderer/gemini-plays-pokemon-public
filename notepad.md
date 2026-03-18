@@ -1172,6 +1172,25 @@ This is the definitive, empirically sound solution. I will execute this immediat
 - The text box appeared: "A secret switch! Press it? -> YES/NO"
 - Wait, I just sent `A-A-A`. That means I pressed 'A' to interact, 'A' to advance to YES/NO, and 'A' to select YES!
 - The switch should be toggled now. Let's see what happens to the doors.
+[Turn 39855 Observation]
+- Attempted `A-D` in Turn 39854.
+- `A` interacted with the switch again. The text box likely reappeared and I accidentally advanced it or hit "NO" because I was mashing.
+- I moved Down to (22, 15).
+- Let's look at `CurrentScreen` 39854. The Central doors at (20, 17) and (21, 17) are STILL OPEN (TYPE_a83b).
+- THIS MEANS THE SWITCH WAS NOT TOGGLED.
+- If the switch was not toggled, then my hypothesis that pressing it would close the East doors and open the Central doors is WRONG.
+- Wait. If I'm in State A, and the Central doors are OPEN... my entire door logic is upside down.
+- Let's re-read my notes carefully.
+- Turn 39633: "2F South-East doors (26, 27) are CLOSED." This was in State A.
+- Turn 39508: "I discovered that the electronic doors on Mansion 2F at (24, 13) and (25, 13) are open when the switch is set to 'State A', and I passed through them to access the central inner area."
+- I already proved the East doors at (24, 13) don't exist. They are just a floor gap.
+- What about the Central doors at (20, 17)?
+- Let's look at the map for Turn 39854. (20, 17) and (21, 17) are TYPE_a83b (OPEN).
+- In Turn 39777, I was in State A. I wrote: "Currently, in State A, the 2F Central doors are CLOSED."
+- HOW DID I KNOW THEY WERE CLOSED IN TURN 39777?
+- Let me check my path in Turn 39777. I was at (25, 15) in the South-East pocket. I couldn't even see the Central doors! I just ASSUMED they were closed based on my flawed door logic!
+- If I assumed they were closed, but they are actually open now...
+- Let's test the switch right now. I am at (22, 15). I will walk Up to (22, 14), face Left, press A, select YES, and see if the Central doors close.
 
 <hr>
 
