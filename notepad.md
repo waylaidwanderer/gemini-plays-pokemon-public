@@ -1406,6 +1406,21 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - Wait, I see electronic doors at (7, 22)/(7, 23). They are CLOSED (State A).
 - The path South continues along X=10 to X=14.
 - I will explore the Southeast corner of 1F (South of Y=19, East of X=7).
+[Turn 41844 Navigation Correction]
+- Sequence `DDDDDRRR` failed from (10, 19).
+- Tracing from (10, 19):
+  - D -> (10, 20) [Floor]
+  - D -> (10, 21) [Floor]
+  - D -> (10, 22) [Floor]
+  - D -> (10, 23) [Floor]
+  - D -> (10, 24) [Floor]
+  - R -> (11, 24) [BUMP into TYPE_2889 wall]
+- Look at the screen at (10, 24).
+- The wall at X=11 is solid from Y=20 to Y=26!
+- I cannot go East here.
+- The path must be to the West!
+- Wait, I see an item ball at (8, 26)!
+- The path from (10, 24) is: Down to (10, 26), then Left to (8, 26).
 
 <hr>
 
