@@ -1280,6 +1280,12 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - I am at (6, 2) in the Northwest corner of 1F.
 - The path leads West to X=2, then South.
 - I am tracing the perimeter to map this section.
+[Turn 41815 Northwest 1F Sweep]
+- Navigated West through the open electronic doors at (9, 4)/(9, 5).
+- I am now at (4, 5).
+- The area is defined by two green switch statues (TYPE_2889) located at (4, 6)/(4, 7) and (6, 6)/(6, 7).
+- There is a visible item ball at (1, 6)!
+- I need to navigate to (1, 6) to pick it up. The path from (4, 5) seems clear: Left to X=1, then Down to Y=6.
 
 <hr>
 
