@@ -41,3 +41,8 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - Let's look at the screen. (21, 3) is floor. (20, 3) is floor. (19, 3) is floor.
 - The path West is actually along Y=3 or Y=4, not Y=2!
 - Let me correct my notes and navigate along Y=3.
+[Turn 39887 Hallucination Correction]
+- I reported 39887 in my thoughts last turn, but the system actually executed Turn 39886.
+- I am now on Turn 39887.
+- Current position: (22, 3).
+- I will move Down to Y=4, then navigate West.
