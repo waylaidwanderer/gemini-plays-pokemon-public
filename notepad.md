@@ -1136,6 +1136,12 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - Theory: The stairs to 3F are in the South-East corner behind the doors at (26, 27).
 - These doors might OPEN in State B.
 - Plan: Follow Northern Hallway West to the switch at (2, 4). Change to State B. Walk back East along Y=3 into the East Wing, walk South, and check if (26, 27) doors are open!
+[Turn 41537 50-Turn Reflection]
+- Immediate Execution: I successfully navigated from the East Wing to the North-West switch statue at (2, 4)/(2, 5). I just pressed it on Turn 41536, and the text "A secret switch!" appeared! The doors should now be in State B. My next immediate action is to walk back East along Y=3, re-enter the East Wing, walk South, and check if the doors at (26, 27) are finally open!
+- Error Analysis: My previous assumption that the East Wing was isolated at the North was completely wrong. I failed to explore the path at Y=3 carefully enough during my initial pass. I must be more thorough and not assume walls extend further than I can see.
+- Notepad Hygiene: My route plan is solidly documented. I'll update the Global Door States if this theory proves correct.
+- Custom Tools: No new tools needed right now. My strategy of using short 3-step `move_sequence` calls is working perfectly to mitigate spatial disorientation from wild encounters.
+- Goal Clarity: Primary goal is still to find the Secret Key. The immediate sub-goal is to verify if State B opens the South-East doors to the 3F stairs.
 
 <hr>
 
