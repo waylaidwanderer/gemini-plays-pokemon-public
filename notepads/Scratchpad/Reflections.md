@@ -46,3 +46,7 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - Currently navigating 2F Pokemon Mansion to reach the East Wing stairs to 3F.
 - My `execute_battle_turn` failed because I passed `current_move_index: 3` when the game's cursor memory had it at `1` (Body Slam). I must carefully track or visually confirm move menu cursor memory.
 - Cleo is out of Body Slam PP. I will rely on Tackle or switch to another Pokemon soon.
+[Turn 41484 50-Turn Reflection]
+- Immediate Execution: The puzzle is solved in my head! The switch at (21, 13) inside the East Wing is the key. We enter the East Wing in State A (doors open), then press the switch at (21, 13) to change to State B. This traps us in the East Wing but should OPEN the South-East doors at (26, 27), allowing access to the stairs to 3F!
+- Notepad Hygiene: My notes perfectly preserved the location of the switch at (21, 13) which I had completely forgotten about! The system works.
+- Error Analysis: My previous assumption that I was "stuck" if I changed to State B was false because I didn't realize I could change the state FROM WITHIN the isolated wing. This is brilliant level design.
