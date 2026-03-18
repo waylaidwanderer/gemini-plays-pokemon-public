@@ -1118,6 +1118,10 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 8. 3F: Arrive on 3F in State B. Southern doors (15, 10) are OPEN. Jump down pit at (16, 14).
 9. 1F: Land in enclosed area. Take stairs down to B1F.
 10. B1F: Central doors (20, 17) are OPEN! Walk West to find the Secret Key.
+[Turn 40653 Reflection]
+- 50-Turn check: I've successfully debunked Draft 6 and restored Draft 3 by carefully observing the physical map boundaries instead of hallucinating paths.
+- My notepads are fully hygienic and accurately reflect the current routing strategy.
+- I noticed my inputs were eaten last turn because the 'Got away safely!' text box was still open and required an 'A' press to clear (indicated by the down arrow). I will clear it now and proceed to the East doors.
 
 <hr>
 
