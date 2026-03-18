@@ -1208,6 +1208,9 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - Looking at the intermediate states, my character bumped into a solid object at (21, 2) on the very first input!
 - The tile at (21, 2) is a desk (TYPE_2889). I must detour South around it.
 - Correct route from (22, 2) heading West: Down to (22, 3), Left to (20, 3), Up to (20, 2), then continue Left.
+[Turn 41779 Path to Main Stairs]
+- Currently at (19, 1).
+- Following verified path: Left to X=11, Down to Y=2, Left to X=4, Down to Y=10, Right to (5, 10).
 
 <hr>
 
