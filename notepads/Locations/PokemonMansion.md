@@ -82,12 +82,13 @@
   - B1F Central doors (20, 17) OPEN.
 - 2F Central doors located at (20, 17) and (21, 17). In State A, these are CLOSED. They block the path South to Y=18.
 - Found a glowing-eye switch statue at (21, 13)/(21, 14) in the enclosed South-East area (accessed via East doors).
-[Master Route to Secret Key (Draft 11)]
+[Master Route to Secret Key (Draft 12)]
 1. 1F: Set switch at (2, 10) to State B (Northern doors OPEN).
 2. 2F: Pass through OPEN Northern doors at (16, 7)/(17, 7).
-3. 2F: Walk North to Y=6, West to X=10, then South down the corridor to Y=19.
-4. 2F: Walk West through the gap at X=8, Y=19 to enter the South-West red carpet room.
-5. 2F: Locate stairs to 3F in the West area.
-6. 3F: Navigate to the pit at (16, 14). Jump down.
-7. 1F: Land in enclosed area. Take stairs down to B1F.
-8. B1F: Walk West to find the Secret Key.
+3. 2F: Walk North to Y=6, West to X=12, South to Y=9, West to X=10.
+4. 2F: Walk South along X=10 down the corridor to Y=19.
+5. 2F: Walk West through the gap at X=8, Y=19 to enter the South-West area.
+6. 2F: Locate stairs to 3F in the West area.
+7. 3F: Navigate to the pit at (16, 14). Jump down.
+8. 1F: Land in enclosed area. Take stairs down to B1F.
+9. B1F: Walk West to find the Secret Key.

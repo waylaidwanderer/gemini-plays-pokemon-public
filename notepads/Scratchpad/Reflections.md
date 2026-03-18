@@ -20,4 +20,4 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - The path East at Y=12 is a DEAD END. X=22 is blocked by rubble.
 - Y=13 is a solid wall spanning the entire center/east (X=13 to X=25).
 - Therefore, in State B, the Central/East area south of Y=13 is UNREACHABLE from the North.
-- The true path: From the Northern doors (16, 7), walk North to the hallway at Y=6. Walk West to X=10. X=10 provides a clear path South, bypassing the X=11/13 pillar walls to reach the West Wing!
+- The true path: Walk North to Y=6, West to X=12 (to bypass rubble at 10,8), South to Y=9, West to X=10, then South. X=10 bypasses the central solid walls, leading to gaps in the X=8 pillars to reach the South-West area.
