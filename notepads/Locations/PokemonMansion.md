@@ -9,6 +9,7 @@
 - Vulpix
 - Ponyta
 - Grimer
+- Muk
 
 [1F Points of Interest]
 - Central Hallway runs North from the entrance along X=5.
