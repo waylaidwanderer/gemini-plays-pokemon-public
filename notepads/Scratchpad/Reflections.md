@@ -86,3 +86,9 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - The switch was successfully toggled to STATE B in Turn 39893 (verified by the "Who wouldn't?" text on the Turn 39894 screen).
 - My extra 'A' inputs re-interacted with the statue, bringing up the "A secret switch!" text again.
 - I will mash 'B' to safely cancel this prompt and remain in State B. Then I proceed to the 1F stairs.
+[Turn 39896 Navigation]
+- Successfully mashed B to clear the second prompt.
+- I am now at 1F (2, 12).
+- The switch is in STATE B.
+- Next step: Walk to the 1F stairs at (5, 10).
+- Route from (2, 12): Right to X=5, Up to Y=10.
