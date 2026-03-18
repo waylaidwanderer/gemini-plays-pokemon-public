@@ -1171,6 +1171,10 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - I also see an item ball at (1, 16) (SPRITE_bbb7).
 - Let's sweep this new area. I will grab the item first.
 - Path to item: Left to X=1, Down to (1, 16).
+[Turn 41858 Item Grab]
+- Arrived at (1, 13).
+- Moving Down to (1, 16) to collect the item ball.
+- Afterwards, will explore the eastern part of this new area.
 
 <hr>
 
