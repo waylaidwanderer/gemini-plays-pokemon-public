@@ -123,3 +123,22 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - The path from the stairs at (5, 10) actually goes East to X=10, then North to (10, 9), East to (12, 9), North to (12, 6), then East to (16, 6) connecting to the Northern Hallway.
 - The correct path is on the EAST side of the green pillars at X=9!
 - I am currently on the WEST side. I must go UP to the Northern Hallway (Y=2), walk EAST to X=11, then go DOWN to (11, 6), then DOWN to (10, 9) to reach the stairs area!
+[Turn 41795 Navigation Correction]
+- Sequence `AUUUUURRRRRRR` from (2, 6) resulted in (3, 6) facing Right.
+- Let's trace:
+  - A -> Clears text.
+  - U -> (2, 5) [Floor]
+  - U -> (2, 4) [Floor]
+  - U -> (2, 3) [Floor]
+  - U -> (2, 2) [Floor]
+  - U -> (2, 1) [Floor]
+  - R -> (3, 1) [Floor]
+- Why did I end up at (3, 6)?
+- Looking at intermediate states:
+  - State 0: A clears text.
+  - State 1: Up -> I bumped into the wall at (2, 5)!
+  - Why? Look at the screen at (3, 6). The tiles at Y=4 and Y=5 are walls (TYPE_2889)!
+  - Ah, the path UP is at X=4 and X=5!
+  - Let me check my notes: "Walk UP along X=16 to Y=1, then LEFT to X=11, DOWN to Y=2, LEFT to X=4, DOWN to Y=5, and LEFT into the West Wing."
+  - YES! The path from the West Wing (where I am at X=3) to the Northern Hallway goes Right to X=4/5, then UP.
+  - I am at (3, 6). I need to go Right to (4, 6), then Up.
