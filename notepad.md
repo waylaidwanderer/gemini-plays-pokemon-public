@@ -1111,12 +1111,15 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 
 [THE TRUE MASTER ROUTE TO THE SECRET KEY]
 1. 1F: Set switch at (2, 10) to State B.
-2. 2F: Navigate East Wing to Central doors at (20, 17).
-3. 2F: Walk South through the OPEN Central doors (20, 17) to reach the stairs at (21, 23).
-4. 3F: Arrive on 3F in State B. The 3F Southern doors (15, 10) will be OPEN.
-5. 3F: Walk South and jump down the pit at (16, 14) or (17, 14).
-6. 1F: Land in the enclosed area. Take the stairs down to B1F.
-7. B1F: Central doors (20, 17) are OPEN (State B)! Walk West to find the Secret Key.
+2. 2F: In State B, East doors (24, 13) are CLOSED. I must use the OPEN West doors (7, 12).
+3. 2F: Walk North through gap at X=12 to Northern Hallway, then West to X=7.
+4. 2F: Walk South through West doors (7, 12).
+5. 2F: From the SW area, navigate to the Central doors at (20, 17) (Hopefully they connect and are OPEN in State B!).
+6. 2F: Walk South through OPEN Central doors (20, 17) to reach the stairs at (21, 23).
+7. 3F: Arrive on 3F in State B. The 3F Southern doors (15, 10) will be OPEN.
+8. 3F: Walk South and jump down the pit at (16, 14) or (17, 14).
+9. 1F: Land in the enclosed area. Take the stairs down to B1F.
+10. B1F: Central doors (20, 17) are OPEN (State B)! Walk West to find the Secret Key.
 [Turn 39879 Hallucination Correction]
 - I reported 39879 in my thoughts last turn, but the system actually executed Turn 39878.
 - I am now on Turn 39879.
