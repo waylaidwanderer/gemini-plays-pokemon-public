@@ -1123,6 +1123,7 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 8. 3F: Walk South and jump down the pit at (16, 14) or (17, 14).
 9. 1F: Land in the enclosed area. Take the stairs down to B1F.
 10. B1F: Central doors (20, 17) are OPEN (State B)! Walk West to find the Secret Key.
+- Turn 40473: Visually confirmed at (15, 6) that the 2F Northern doors at (16, 7) and (17, 7) are currently CLOSED (TYPE_a83b). Since I just pressed the 1F switch to "State A", this confirms State A = Northern doors CLOSED. Now heading to 2F East doors to empirically verify their state.
 
 <hr>
 
