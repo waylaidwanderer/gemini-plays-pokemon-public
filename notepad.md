@@ -1119,6 +1119,11 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - I noticed on Turn 41379 that the doors at (16, 7) are OPEN. This means the Mansion is currently in STATE B.
 - Since I need to reach the East Wing via the doors at (24, 13), which are open in State A, I will need to change the state back to A.
 - Nearest switch is either 2F (2, 5) or 1F (2, 10). I'll head back to the 2F switch after this battle.
+[Turn 41390]
+- Escaped the battle loop on 2F.
+- Took the stairs at (5, 10) back down to 1F.
+- Currently heading to the 1F switch at (2, 11) to reset the Mansion to State A.
+- Discovered that long move sequences that trigger a map warp will have all subsequent inputs eaten during the fade-in animation.
 
 <hr>
 
