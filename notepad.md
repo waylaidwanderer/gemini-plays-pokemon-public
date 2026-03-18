@@ -1246,6 +1246,10 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - Tracing route back to (5, 10) stairs from (12, 8).
 - I MUST avoid walking West across Y=10 because (6, 10) and (7, 10) are the warp stairs to 3F!
 - The correct path: Down to (12, 9), Left to (10, 9), Down to (10, 13), Left to (5, 13), Up to (5, 10).
+[Turn 41803 Navigation]
+- I am at (10, 14) facing Left.
+- The wall at X=8 has a gap at Y=13.
+- Path to stairs: Up to (10, 13), Left to (6, 13), Up to (6, 10), Left to (5, 10).
 
 <hr>
 
