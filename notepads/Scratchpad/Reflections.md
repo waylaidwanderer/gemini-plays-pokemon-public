@@ -1,6 +1,5 @@
 [Active Reflections]
-[Turn 43873] Active Routing Hypothesis 3:
-- The doors at 2F (18, 8) are OPEN in State B.
-- The area South of (18, 8) on 2F is completely unexplored.
-- This area must contain the stairs to the 3F Main Area (which leads to the pit).
-- Plan: Walk South from (18, 6) through the doors at (18, 8) and explore.
+[Turn 43884] Routing Correction:
+- The Northern Hallway is ALWAYS open. The electronic doors are only at (18, 8) blocking the path South.
+- However, there appears to be a gap in the rubble further East at (22, 3) which might connect directly to the East Wing without needing to pass through the doors at (18, 8)!
+- Plan: Walk North to (17, 2), then East around the diary table to reach the gap at (22, 3).
