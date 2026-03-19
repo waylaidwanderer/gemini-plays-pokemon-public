@@ -14,12 +14,12 @@
 - 3F to 2F (DOWN-ONLY): Found drop-down stairs at (6, 1) and (6, 21) on 2F. These cannot be ascended.
 - 1F to B1F: Stairs at (21, 23) in the isolated enclosed area of 1F lead down to B1F. (Accessed by jumping down 3F pit at 16, 14).
 
-[The 1F West Wing Hypothesis]
-- The East Trap Room (X=17 to X=21) is a dead end.
-- The 2F East Wing (X=24) is completely walled off from the rest of 2F by rubble at X=22.
-- Conclusion: The 2F East Wing MUST be accessed from stairs on 1F!
-- Plan: Explore 1F West Wing to find stairs.
-- 1F Navigation:
-  - X=9 is a solid pillar wall (NOT doors).
-  - The real 1F electronic doors are at (16, 7) and (17, 7), CLOSED in State A.
-  - The path to the West Wing is via the Northern Hallway at Y=2 (up to X=4), then South through a gap at (3, 4).
+[The 1F East Wing Hypothesis]
+- The 1F West Wing is a dead end (solid wall at Y=9).
+- The 1F electronic doors at (16, 7)/(17, 7) block access to the 1F East Wing in State A.
+- Hypothesis: The stairs to the 2F East Wing (and ultimately 3F) are located in the 1F East Wing!
+- Plan:
+  1. Return to the 1F switch at (2, 11).
+  2. Press the switch to set the Mansion to STATE B.
+  3. This will OPEN the 1F electronic doors at (16, 7)/(17, 7).
+  4. Walk through the doors and explore the 1F East Wing for stairs to 2F.
