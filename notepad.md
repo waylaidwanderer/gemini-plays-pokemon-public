@@ -1093,24 +1093,21 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - TYPE_a83b (glowing orange lines) = ACTIVE LASER BARRIER (CLOSED).
 - TYPE_3fe2 (plain pink floor) = OPEN DOOR / REGULAR FLOOR.
 - 1F East doors (24, 13) OPEN in State A, CLOSED in State B.
-- 1F Northern doors (16, 7) CLOSED in State A, OPEN in State B (Hypothesis).
-- 1F South-East doors (26, 27) CLOSED in State A, OPEN in State B (Hypothesis).
+- 1F Northern doors (16, 7) CLOSED in State A, CLOSED in State B. (Hypothesis disproven!)
+- 1F South-East doors (26, 27) CLOSED in State A.
 - 2F East doors (24, 13) OPEN in State A, CLOSED in State B.
 - 2F Northern doors (18, 8) CLOSED in State A, OPEN in State B.
 - 2F Central doors (20, 17) CLOSED in State A, OPEN in State B.
 
 [The True Master Route Hypothesis]
-1. The 1F East Wing contains stairs to 2F East (where the rubble is).
-2. The 1F East Wing path South is blocked by doors at (26, 27) which are CLOSED in State A.
-3. Therefore, we must traverse the East Wing in State B.
-4. However, the 1F doors to enter the East Wing at (24, 13) are CLOSED in State B.
-5. The solution: There is an alternate path to the East Wing via the 1F Northern doors at (16, 7)!
-6. If we switch to State B, the Northern doors at (16, 7) should OPEN, allowing access to the Northeast area, which connects to the East Wing at Y=3.
-7. We can then walk South down the East Wing, and the South-East doors at (26, 27) will be OPEN, allowing access to the stairs!
+1. Go to 2F via stairs at 1F (5, 10).
+2. Toggle 2F switch at (2, 11) to STATE B.
+3. Navigate 2F Northern Hallway to (18, 6), then walk South through the OPEN doors at (18, 8).
+4. Continue South down the Central Hallway to the Central doors at (20, 17).
+5. Pass through the OPEN Central doors at (20, 17) in State B.
+6. Explore 2F South to bypass the X=22 rubble and reach the stairs UP to 3F!
 
-Goal: Return to 2F switch at (2, 11), toggle to State B, and test the 1F Northern doors.
-- 1F South-East doors at (26, 27) are CLOSED in State A. Hypothesis confirmed! We MUST switch to State B to access the stairs.
-- Returning to 2F switch at (2, 11).
+Goal: Return to 2F and execute the Master Route. The 1F East Wing route is a dead end because the 1F Northern doors at (16, 7) are closed in BOTH states.
 
 <hr>
 
