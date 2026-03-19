@@ -16,3 +16,9 @@
 
 [Turn 42691 Reflection]
 - State A is confirmed. Heading to 1F via the stairs at 2F (5, 10).
+[Turn 42732 50-Turn Reflection]
+- True Master Route is confirmed and documented.
+- Hallucination about 1F East stairs corrected.
+- Returning to 2F switch at (16, 10) to execute the State toggle trap!
+- execute_battle_turn is fixed and working.
+- No new tools needed.
