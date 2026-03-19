@@ -1378,7 +1378,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - The 1F statue at (2, 10)/(2, 11) is JUST A NORMAL STATUE, NO SWITCH! The switch is on 2F.
 - Closed electronic doors located at (16, 7)/(17, 7) blocking the path South. To bypass them, use the far-East hallway at X=23!
 - The glowing-eye statue at (15, 10)/(15, 11) is a red herring; it does not have a hidden switch.
-- The Northeast area (accessed via X=18) contains a diary at (18, 2) and CONNECTS to the East Wing via a gap at Y=3. Walk East to X=23, then South to explore the East Wing.
+- The Northeast area (accessed via X=18) contains a diary at (18, 2) and CONNECTS to the East Wing via a gap at Y=3. Walk East to X=26 or X=27 to bypass the tables at Y=4, then South to explore the East Wing.
 - South-East corridor (X=18 to X=21, Y=12 to Y=15) is a dead end. The East Wing corridor (accessed via the doors at 24, 13) continues South of Y=18. (Previously hallucinated stairs at 25, 14).
 - 1F South-East doors are located at (26, 27) and (27, 27). These are closed in State A.
 - Found a regular statue at (27, 18) in the East Wing. It is NOT a switch. There is NO way to toggle states from within the 1F East Wing.
