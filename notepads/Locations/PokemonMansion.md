@@ -102,3 +102,4 @@
 - ROUTE UNDER REVISION.
 - The 2F area behind the Northern doors (18, 8) is a barren dead-end box! There is no path East and no switch here.
 - The real path MUST be in the 1F East Wing (accessed via State A open doors at 24, 13). I previously abandoned 1F East Wing at (27, 26) without exploring West of it. I will return there to find the stairs to 2F East!
+- [Turn 42791] Discovered CLOSED electronic doors at 1F (16, 7) and (17, 7) in State A! These must open in State B.
