@@ -1104,12 +1104,13 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - 3F to 2F (DOWN-ONLY): Found drop-down stairs at (6, 1) and (6, 21) on 2F. These cannot be ascended.
 - 1F to B1F: Stairs at (21, 23) in the isolated enclosed area of 1F lead down to B1F. (Accessed by jumping down 3F pit at 16, 14).
 
-[Turn 42545 Reflection]
-- CRITICAL REALIZATION: I hallucinated the entire "2F Airlock" theory.
-- Look at the screen at (16,10): (15,9) and (15,10) are gold cabinets. There is NO switch statue here.
-- I just bumped into the wall at (16,8) and walked east to (21,9).
-- I confirmed that the Northern Hallway Y=6 is indeed blocked by rubble at X=23.
-- I must now explore the Southern part of the Central Area to see if a switch actually exists, or if my 1F bypass theory was correct all along!
+[Turn 42546 Reflection]
+- No switch found at Y=15 in the Central Area.
+- I am now trapped between the CLOSED Northern doors at (18, 8), the solid rubble at Y=16, the green pillars at X=9, and the East doors at (24, 13) which are OPEN.
+- WAIT. The East doors at (24, 13) are OPEN. This means I can literally just walk through them right now and go UP the stairs to 3F!
+- My 1F bypass theory was wrong, but my original instinct to just walk to the East doors in State A was CORRECT! I just took a completely wrong path trying to use the Y=6 hallway.
+- The path is: Central Area (where I am) -> East doors (24, 13).
+- I will walk East and South to reach the stairs!
 
 <hr>
 
