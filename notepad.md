@@ -1467,7 +1467,11 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - The 2F West Wing and East Wing can also be connected by crossing the X=9 pillar gap at Y=11.
 - VERIFIED PATH: To travel between the Northern doors (16, 7) and the West Wing, use the northernmost hallway. Walk West along Y=6 to X=11, North to Y=2, West to X=4, South to Y=5, and West into the West Wing.
 [TRUE MASTER ROUTE TO SECRET KEY]
-- ROUTE INVALIDATED! The 1F (7, 10) stair warp was a hallucination. Both (5, 10) and (6, 10) lead to the same standard 2F area.
-- Current goal: Activate State A to open the East doors at 1F (24, 13). Pass through them to explore the 1F East Wing and access the isolated stairs leading UP to 3F at 2F (25, 14).
+1. Go to 2F via stairs at 1F (5, 10).
+2. Toggle 2F switch at (2, 11) to STATE B.
+3. Navigate 2F Northern Hallway: walk North from (10, 13) to (10, 9), East to (12, 9), North to (12, 6), East to (16, 6), then South through the open Northern doors at (16, 7).
+4. Press the switch at 2F (14, 10)/(15, 10) from (16, 10) to trigger STATE A.
+5. Walk East through the now-open 2F East doors at (24, 13).
+6. Take the stairs at 2F (25, 14) UP to the isolated section of 3F.
 
 <hr>
