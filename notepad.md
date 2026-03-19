@@ -1103,6 +1103,11 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - 2F to 3F (UP): MUST BE in the East Wing, accessible via the East doors at (24, 13) ONLY when they are OPEN (State A).
 - 3F to 2F (DOWN-ONLY): Found drop-down stairs at (6, 1) and (6, 21) on 2F. These cannot be ascended.
 - 1F to B1F: Stairs at (21, 23) in the isolated enclosed area of 1F lead down to B1F. (Accessed by jumping down 3F pit at 16, 14).
+[Turn 43095 50-Turn Reflection]
+- Error Analysis: I briefly forgot my own notes and explored the 1F East Wing dead end instead of taking the stairs up to 3F. I have now reaffirmed the Master Route: 1F (5, 10) -> 2F -> Toggle Switch to State B -> 2F North Hallway -> Toggle Switch to State A -> 2F East Doors -> 2F (25, 14) Stairs -> 3F.
+- Notepad Hygiene: Removed narrative clutter. The Master Route is clearly documented in Locations/PokemonMansion.
+- Map Hygiene: Removed false solid block marker at 1F (24, 13).
+- Next Steps: Execute the Master Route to find the Secret Key.
 
 <hr>
 
