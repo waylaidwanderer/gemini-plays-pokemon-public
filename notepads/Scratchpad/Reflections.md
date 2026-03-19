@@ -1,7 +1,9 @@
 [Active Reflections]
-[The TRUE Master Route to 3F]
-1. The 3F stairs at (7, 10) lead to a DEAD END room (X=1 to X=10) completely blocked from the East by a solid wall at X=11.
-2. Therefore, the path to the 3F Pit must be via the 2F East Wing stairs at (25, 14).
-3. The 2F East Wing is blocked by rubble at X=22, Y=8.
-4. To bypass this rubble, we must access the 2F East Wing from 1F!
-5. 1F East doors (24, 13) are OPEN in State A. I need to switch to State A, enter the 1F East Wing, and find the stairs up to 2F East Wing!
+[Hypothesis: 1F East Wing Stairs]
+1. The 3F pit at (16, 14) is accessible via the 3F Southern doors (15, 10) in State B.
+2. To reach the 3F Southern area, we need to find the correct stairs up from 2F.
+3. 2F East Wing has stairs at (25, 14) but is blocked from the rest of 2F by rubble.
+4. Therefore, 2F East Wing must be accessed from 1F.
+5. 1F has doors at (24, 13) leading to the East Wing, which are OPEN in State A.
+6. Hypothesis: There are stairs at 1F (25, 14) that I missed earlier.
+Plan: Switch to State A, head to 1F (24, 13), and carefully search the East Wing for stairs!
