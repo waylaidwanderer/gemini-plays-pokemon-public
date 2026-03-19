@@ -1089,6 +1089,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 <h1><code>Scratchpad/Reflections</code></h1>
 
 [Active Reflections]
+- [Turn 43510 Reflection] Progress: Successfully deduced that the 1F East Wing doors (24, 13) are controlled by the 2F switch. Flipped switch to State A and currently navigating to the SE area. Map markers are currently accurate. Custom tools are functioning well. The overarching hypothesis that the Secret Key is past the 1F SE doors remains strong.
 
 <hr>
 
