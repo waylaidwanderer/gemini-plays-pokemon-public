@@ -1455,7 +1455,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - 2F North-West doors at (9, 4)/(9, 5) are OPEN in State A, and CLOSED in State B. My previous note about (16, 5) being doors was a hallucination; they are just solid walls.
 - The 2F West Wing and East Wing can also be connected by crossing the X=9 pillar gap at Y=11.
 - VERIFIED PATH: To travel between the Northern doors (16, 7) and the West Wing, use the northernmost hallway. Walk West along Y=6 to X=11, North to Y=2, West to X=4, South to Y=5, and West into the West Wing.
-[TRUE MASTER ROUTE TO SECRET KEY]
+[Verified Dead Ends]
 - The 2F Central doors at (20, 17) lead to a dead-end 4x3 room.
 - The stairs at 1F (6, 10)/(7, 10) lead to an isolated 3F room containing only a Burglar and a Diary. It is a dead end.
 
