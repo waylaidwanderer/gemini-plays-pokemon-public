@@ -1108,6 +1108,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Head to 2F via the main stairs at 1F (5, 10).
 - Toggle a switch to activate State B.
 - Once in State B, explore the 2F Central area South of Y=18 by passing through the normally-closed doors at (20, 17) and (21, 17).
+[Turn 42989 Reflection]
+- Pressed switch at 2F (2, 11). This should activate State B.
+- Next step: Navigate to the Northern hallway, pass through the Northern doors at (16, 7) (which should now be open in State B), and reach the Central doors at (20, 17).
 
 <hr>
 
