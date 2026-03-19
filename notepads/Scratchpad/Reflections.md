@@ -47,16 +47,8 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 [50-Turn Reflection - Turn 42056]
 - Goal Clarity: The Master Plan to reach 3F Main Area is clear. I just need to get to the 2F West switch at (2, 4) to toggle the doors to State B.
 - Error Analysis: My biggest recent errors were relying on old, hallucinated notes (like the 1F switch and the 2F East dead-end) instead of re-verifying my surroundings. I've cleaned up the notes and will trust my eyes over old scratchpads!
-[Turn 42074 - The REAL Master Plan]
-- I hallucinated the switch locations completely!
-- The switch is NOT at (2, 4). There is no switch in the West Wing North of Y=9.
-- The switch is at 2F (2, 10)/(2, 11)! It is accessible directly from the 2F stairs at (5, 10) without going through any gaps!
-- The route to 3F is:
-  1. From 2F stairs, walk Left to (2, 12) and press the switch to set Mansion to STATE B.
-  2. Walk East to X=10, North through the gap at (10, 9) to the Northern Hallway.
-  3. Walk East to (16, 6) and South through the OPEN Northern doors at (16, 7).
-  4. Press the trap switch at (16, 10) to set Mansion to STATE A.
-  5. The East doors at (24, 13) are now OPEN. Walk through them and take the stairs to 3F!
-- I am currently on 2F at (7, 10).
-- The path South is blocked by bookshelves at (6, 12) and (7, 12).
-- I will walk D, L, L to (5, 11), then D, D to Y=13, then L through the gap at (3, 13) to reach the switch at (2, 12).
+[Turn 42084 - Journey to the Trap Switch]
+- The switch at (2, 11) has been pressed. The Mansion should now be in STATE B.
+- This means the Northern doors at (16, 7) are OPEN, and the East doors at (24, 13) are CLOSED.
+- Next step: Walk to the Northern Hallway via the gap at (10, 9).
+- Tracing path from (2, 12) to avoid bookshelves at X=7: R to (3, 12), D to (3, 13), R, R to (5, 13), U, U to (5, 11), then East to X=10.
