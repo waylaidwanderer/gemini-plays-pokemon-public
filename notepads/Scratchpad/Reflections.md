@@ -24,3 +24,10 @@
   3. Go DOWN to 1F via stairs at (5, 10).
   4. Walk through the now-open 1F electronic doors at (16, 7)/(17, 7).
   5. Explore the 1F East Wing for stairs to 2F.
+[Turn 42313 Hypothesis]
+- The 1F East doors at (24, 13) are CLOSED in State B.
+- Hypothesis: In State A (default), these doors are OPEN, allowing access to stairs at 1F (25, 14).
+- These stairs likely go UP to 2F (25, 14), which then go UP to 3F.
+- If true, the Master Route is simply: Enter Mansion (State A) -> walk to 1F (24, 13) -> stairs to 3F -> switch to State B on 3F -> jump down pit -> B1F -> Secret Key.
+- This bypasses ALL 2F switch logic!
+- Plan: Return to 2F, switch back to State A, then walk back down to 1F (24, 13) to verify.
