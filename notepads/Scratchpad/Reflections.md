@@ -19,7 +19,8 @@
 - The 1F electronic doors at (16, 7)/(17, 7) block access to the 1F East Wing in State A.
 - Hypothesis: The stairs to the 2F East Wing (and ultimately 3F) are located in the 1F East Wing!
 - Plan:
-  1. Return to the 1F switch at (2, 11).
-  2. Press the switch to set the Mansion to STATE B.
-  3. This will OPEN the 1F electronic doors at (16, 7)/(17, 7).
-  4. Walk through the doors and explore the 1F East Wing for stairs to 2F.
+  1. Go UP to 2F via stairs at (5, 10).
+  2. Press the 2F switch at (2, 11) to set the Mansion to STATE B.
+  3. Go DOWN to 1F via stairs at (5, 10).
+  4. Walk through the now-open 1F electronic doors at (16, 7)/(17, 7).
+  5. Explore the 1F East Wing for stairs to 2F.

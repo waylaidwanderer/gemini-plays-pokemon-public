@@ -18,7 +18,7 @@
 - East wing is separated by a vertical wall at X=9, which has gaps at Y=4/Y=5 and Y=10/Y=11.
 - To reach the 2F stairs at (5, 10) from the North half, you MUST use the East Wing corridor to bypass the Y=9 wall.
 - The main staircase on 1F at Y=10 spans 3 tiles! Stepping on the left tile (5, 10) leads to 2F (5, 10). Stepping on the middle/right tiles (6, 10)/(7, 10) leads to 2F (6, 10)/(7, 10), which is immediately adjacent to another set of stairs leading to an isolated room on 3F. The warp marker at (7, 10) is a reminder of this.
-- The 1F switch statue is at (2, 10) and (2, 11). Stand at (2, 12), face Up, and press A to interact.
+- The 1F statue at (2, 10)/(2, 11) is JUST A NORMAL STATUE, NO SWITCH! The switch is on 2F.
 - Closed electronic doors located at (16, 5)/(17, 5) blocking the path North.
 - The glowing-eye statue at (15, 10)/(15, 11) is a red herring; it does not have a hidden switch.
 - The Northeast area (accessed via X=18) is a dead end. The object at (18, 2) is just a diary containing lore about Mew.
