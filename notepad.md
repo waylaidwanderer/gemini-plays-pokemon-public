@@ -1463,11 +1463,8 @@ Plan: Switch to State A, head to 1F (24, 13), and carefully search the East Wing
 - The 2F West Wing and East Wing can also be connected by crossing the X=9 pillar gap at Y=11.
 - VERIFIED PATH: To travel between the Northern doors (16, 7) and the West Wing, use the northernmost hallway. Walk West along Y=6 to X=11, North to Y=2, West to X=4, South to Y=5, and West into the West Wing.
 [TRUE MASTER ROUTE TO SECRET KEY]
-1. Go to 2F via stairs at 1F (5, 10).
-2. Toggle 2F switch at (2, 11) to STATE B.
-3. Navigate 2F Northern Hallway to (18, 6), then walk South through the OPEN doors at (18, 8).
-4. Continue South down the Central Hallway to the Central doors at (20, 17).
-5. Pass through the OPEN Central doors at (20, 17) in State B.
-6. Explore 2F South to bypass the X=22 rubble and reach the stairs UP to 3F!
+- The 2F Central doors at (20, 17) lead to a dead-end 4x3 room (proven Turn 43246). It DOES NOT bypass the X=22 rubble.
+- The stairs at 1F (7, 10) lead to an isolated 3F room. This room contains a Burglar and a Diary. It has NOT been fully explored yet!
+- Current Plan: Fully explore the isolated 3F room accessed via 1F (7, 10).
 
 <hr>
