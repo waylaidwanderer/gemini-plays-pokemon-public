@@ -14,7 +14,7 @@
 - 3F to 2F (DOWN-ONLY): Found drop-down stairs at (6, 1) and (6, 21) on 2F. These cannot be ascended.
 - 1F to B1F: Stairs at (21, 23) in the isolated enclosed area of 1F lead down to B1F. (Accessed by jumping down 3F pit at 16, 14).
 
-[Turn 42897 Reflection]
+[Turn 42899 Reflection]
 - Hallucination corrected: The main stairs at 1F (7, 10) do NOT lead to a secret area.
-- Resuming exploration of 1F East Wing (South area, West of X=24).
-- Currently routing through 1F Central Hallway (X=5) North to the Y=2 gap to re-enter the East Wing and head South.
+- Resuming exploration of 1F East Wing.
+- Crossing the X=9 wall gap at Y=11, then heading East to X=12 to bypass the rubble at Y=8, aiming for the East doors at (24, 13) to fully explore the South-West area.
