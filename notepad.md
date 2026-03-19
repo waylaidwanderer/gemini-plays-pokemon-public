@@ -1104,12 +1104,11 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - 3F to 2F (DOWN-ONLY): Found drop-down stairs at (6, 1) and (6, 21) on 2F. These cannot be ascended.
 - 1F to B1F: Stairs at (21, 23) in the isolated enclosed area of 1F lead down to B1F. (Accessed by jumping down 3F pit at 16, 14).
 
-[Turn 42506 50-Turn Reflection]
-1. I am at the 2F switch at (2, 12).
-2. I realized the 2F "Airlock" might be impossible if the Central Area is blocked by rubble at Y=12.
-3. NEW HYPOTHESIS: The bypass route is on 1F! In State A, the 1F doors at (24, 13) are OPEN. I can walk from the 1F entrance, through the gaps at X=9, straight to the East doors at (24, 13) and take the stairs there to 2F East Wing, then 3F!
-4. Plan: Press this switch to ensure State A. Go down stairs at (5, 10) to 1F. Walk East to (24, 13) and see if the stairs are there!
-- 1F X=17 is a 1-tile wide hallway. X=22/23 is a solid wall blocking the East stairs from the rest of 1F. 1F does NOT have East doors. My previous note about 1F East doors was a hallucination/copy-paste error. The route MUST go through 2F!
+[Turn 42524 50-Turn Reflection]
+1. 1F bypass route FAILED. X=22/23 is a solid wall on 1F, completely isolating the East Wing stairs.
+2. I must rely on the 2F Northern Hallway (Y=6) bypass to reach the East Wing in State A.
+3. Current position: 2F (5, 11).
+4. Goal: Walk East to X=10, North to Y=9, East to X=12, North to Y=6, then East to X=24 to reach the East doors!
 
 <hr>
 
