@@ -1146,6 +1146,10 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - This will lock the Northern doors behind me, but open the East doors to the 3F stairs!
 [Physical Constraints Reminder]
 - There is verified rubble at X=22/23 isolating the East Wing from the Central Corridor. I must remember that physical walls/rubble do not disappear when a switch is pressed, only the laser barriers do.
+[Turn 42105 - Navigating to 3F Stairs]
+- The East doors at (24, 13) are indeed OPEN!
+- My path East was blocked by the switch statue at (21, 13)/(21, 14).
+- I am at (21, 13) facing East. I need to walk Up to (21, 12), Right to (24, 12), Down to (24, 13), then Right to the stairs at (25, 14).
 
 <hr>
 
