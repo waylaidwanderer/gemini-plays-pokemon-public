@@ -144,6 +144,10 @@
           "minimum": 1,
           "maximum": 4
         },
+        "start_on_main": {
+          "type": "boolean",
+          "default": true
+        },
         "main_cursor": {
           "type": "string",
           "enum": [
@@ -153,10 +157,6 @@
             "RUN"
           ],
           "default": "FIGHT"
-        },
-        "start_on_main": {
-          "type": "boolean",
-          "default": true
         }
       },
       "required": [
@@ -164,7 +164,7 @@
         "current_move_index"
       ]
     },
-    "python_script": "import json\n\ndef run(input_data):\n    main_cursor = input_data.get(\"main_cursor\", \"FIGHT\")\n    start_on_main = input_data.get(\"start_on_main\", True)\n    current_move = input_data.get(\"current_move_index\", 1)\n    target_move = input_data.get(\"target_move_index\", 1)\n\n    buttons = []\n    if start_on_main:\n        if main_cursor == \"PKMN\":\n            buttons.append(\"Left\")\n        elif main_cursor == \"ITEM\":\n            buttons.append(\"Up\")\n        elif main_cursor == \"RUN\":\n            buttons.extend([\"Up\", \"Left\"])\n        # If already FIGHT, do nothing\n        buttons.append(\"A\")\n\n    diff = target_move - current_move\n    if diff != 0:\n        if diff > 0:\n            buttons.extend([\"Down\"] * diff)\n        else:\n            buttons.extend([\"Up\"] * abs(diff))\n\n    buttons.append(\"A\")\n    print(json.dumps(buttons))\n",
+    "python_script": "import json\n\ndef generate_sequence(data):\n    target = int(data.get('target_move_index', 1))\n    current = int(data.get('current_move_index', 1))\n    start_main = data.get('start_on_main', True)\n    main_cursor = data.get('main_cursor', 'FIGHT')\n\n    seq = []\n    if start_main:\n        if main_cursor == 'PKMN':\n            seq.append('Left')\n        elif main_cursor == 'ITEM':\n            seq.append('Up')\n        elif main_cursor == 'RUN':\n            seq.append('Up')\n            seq.append('Left')\n        seq.append('A')\n        seq.append('sleep 500')\n    \n    if target > current:\n        seq.extend(['Down'] * (target - current))\n    elif target < current:\n        seq.extend(['Up'] * (current - target))\n    \n    seq.append('A')\n    print(json.dumps(seq))\n\ngenerate_sequence(input_data)\n",
     "history": [
       {
         "commit_message": "Initial version",
@@ -330,6 +330,11 @@
         "commit_message": "Fix execute_battle_turn to use state-aware main_cursor navigation instead of blind macros that cause wrap-around bugs.",
         "timestamp": "2026-03-19T01:27:18.074Z",
         "action_counter": 42056
+      },
+      {
+        "commit_message": "Fix JSON output formatting and simplify logic to avoid parsing errors.",
+        "timestamp": "2026-03-19T09:46:39.679Z",
+        "action_counter": 42691
       }
     ]
   },
