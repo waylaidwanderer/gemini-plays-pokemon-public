@@ -1134,6 +1134,12 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
   4. But it OPENS the East doors at (24, 13)!
   5. Walk through the East doors and take the stairs to 3F Main Area!
 - I am currently executing step 1: walking from 2F Central to 2F West to press the switch.
+[Turn 42050 - 2F Central Navigation]
+- I am on 2F at (4, 10), having just bumped into a pillar at (4, 9).
+- I need to reach the switch at 2F (2, 4).
+- To get there, I need to navigate around the pillars in the Central area.
+- The path North is clear at X=5.
+- I will walk Right 1 to X=5, then Up.
 
 <hr>
 
@@ -1417,7 +1423,7 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - A solid horizontal wall at Y=9 blocks the Central Hallway and West Wing.
 - East wing is separated by a vertical wall at X=9, which has gaps at Y=4/Y=5 and Y=10/Y=11.
 - To reach the 2F stairs at (5, 10) from the North half, you MUST use the East Wing corridor to bypass the Y=9 wall.
-- The main staircase on 1F at Y=10 spans 3 tiles! Stepping on the left tile (5, 10) leads to 2F (5, 10). Stepping on the middle/right tiles (6, 10)/(7, 10) leads to 2F (6, 10)/(7, 10), which is immediately adjacent to another set of stairs leading to 3F.
+- The main staircase on 1F at Y=10 spans 3 tiles! Stepping on the left tile (5, 10) leads to 2F (5, 10). Stepping on the middle/right tiles (6, 10)/(7, 10) leads to 2F (6, 10)/(7, 10), which is immediately adjacent to another set of stairs leading to an isolated room on 3F. The warp marker at (7, 10) is a reminder of this.
 - The 1F switch statue is at (2, 10) and (2, 11). Stand at (2, 12), face Up, and press A to interact.
 - Closed electronic doors located at (16, 5)/(17, 5) blocking the path North.
 - The glowing-eye statue at (15, 10)/(15, 11) is a red herring; it does not have a hidden switch.
