@@ -31,3 +31,11 @@
 - If true, the Master Route is simply: Enter Mansion (State A) -> walk to 1F (24, 13) -> stairs to 3F -> switch to State B on 3F -> jump down pit -> B1F -> Secret Key.
 - This bypasses ALL 2F switch logic!
 - Plan: Return to 2F, switch back to State A, then walk back down to 1F (24, 13) to verify.
+[Turn 42316 50-Turn Reflection]
+1. Immediate Execution: Run from Muk, then navigate to 1F stairs at (5, 10). Return to 2F and flip the switch back to State A.
+2. Notepad Hygiene: The "1F East Wing Hypothesis" is actively being tested. If State A opens the 1F doors at (24, 13), I will rewrite the Master Route.
+3. Map Hygiene: Map markers accurately reflect key POIs like switches and stairs.
+4. Custom Tools: No new tools needed for this specific routing puzzle.
+5. Tool Maintenance: `run_battle` is functioning as intended. I need to remember NOT to execute it while intro text is rendering.
+6. Goal Clarity: Find the Secret Key via the new hypothesized State A bypass route.
+7. Error Analysis: I spent a lot of time trying to navigate 2F while it was in the wrong state or assuming 2F was the only way up. By exploring 1F in State B, I confirmed the door state logic is vertical (1F and 2F doors share states). This drastically simplifies the solution.
