@@ -17,4 +17,4 @@
 5. Pass through the OPEN Central doors at (20, 17) in State B.
 6. Explore 2F South to bypass the X=22 rubble and reach the stairs UP to 3F!
 
-Goal: Toggle 2F switch to State B, then execute the 2F Master Route.
+Goal: Execute the 2F Master Route.
