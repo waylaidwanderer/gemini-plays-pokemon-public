@@ -1104,8 +1104,10 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - 3F to 2F (DOWN-ONLY): Found drop-down stairs at (6, 1) and (6, 21) on 2F. These cannot be ascended.
 - 1F to B1F: Stairs at (21, 23) in the isolated enclosed area of 1F lead down to B1F. (Accessed by jumping down 3F pit at 16, 14).
 
-[Turn 42784 50-Turn Reflection]
-- The 1F East Wing should have stairs leading up to the isolated 2F/3F East sections. Exploring West of 1F (27, 26) is the next priority.
+[Turn 42834 50-Turn Reflection]
+- Confirmed a switch statue at 1F (20, 14)/(21, 14) inside the East Wing!
+- Pressing this switch will toggle the Mansion to State B while I am inside the East Wing.
+- This will open the electronic doors at 1F (20, 17)/(21, 17), granting access to the South-West section of the East Wing.
 
 <hr>
 
