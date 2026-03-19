@@ -1104,39 +1104,14 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - 3F to 2F (DOWN-ONLY): Found drop-down stairs at (6, 1) and (6, 21) on 2F. These cannot be ascended.
 - 1F to B1F: Stairs at (21, 23) in the isolated enclosed area of 1F lead down to B1F. (Accessed by jumping down 3F pit at 16, 14).
 
-[The 1F East Wing Hypothesis]
-- The 1F West Wing is a dead end (solid wall at Y=9).
-- The 1F electronic doors at (16, 7)/(17, 7) block access to the 1F East Wing in State A.
-- Hypothesis: The stairs to the 2F East Wing (and ultimately 3F) are located in the 1F East Wing!
-- Plan:
-  1. Go UP to 2F via stairs at (5, 10).
-  2. Press the 2F switch at (2, 11) to set the Mansion to STATE B.
-  3. Go DOWN to 1F via stairs at (5, 10).
-  4. Walk through the now-open 1F electronic doors at (16, 7)/(17, 7).
-  5. Explore the 1F East Wing for stairs to 2F.
-[Turn 42313 Hypothesis]
-- The 1F East doors at (24, 13) are CLOSED in State B.
-- Hypothesis: In State A (default), these doors are OPEN, allowing access to stairs at 1F (25, 14).
-- These stairs likely go UP to 2F (25, 14), which then go UP to 3F.
-- If true, the Master Route is simply: Enter Mansion (State A) -> walk to 1F (24, 13) -> stairs to 3F -> switch to State B on 3F -> jump down pit -> B1F -> Secret Key.
-- This bypasses ALL 2F switch logic!
-- Plan: Return to 2F, switch back to State A, then walk back down to 1F (24, 13) to verify.
-[Turn 42316 50-Turn Reflection]
-1. Immediate Execution: Run from Muk, then navigate to 1F stairs at (5, 10). Return to 2F and flip the switch back to State A.
-2. Notepad Hygiene: The "1F East Wing Hypothesis" is actively being tested. If State A opens the 1F doors at (24, 13), I will rewrite the Master Route.
-3. Map Hygiene: Map markers accurately reflect key POIs like switches and stairs.
-4. Custom Tools: No new tools needed for this specific routing puzzle.
-5. Tool Maintenance: `run_battle` is functioning as intended. I need to remember NOT to execute it while intro text is rendering.
-6. Goal Clarity: Find the Secret Key via the new hypothesized State A bypass route.
-7. Error Analysis: I spent a lot of time trying to navigate 2F while it was in the wrong state or assuming 2F was the only way up. By exploring 1F in State B, I confirmed the door state logic is vertical (1F and 2F doors share states). This drastically simplifies the solution.
-[Turn 42368 50-Turn Reflection]
-1. Immediate Execution: Exploring the northern boundary of 2F (Y=1, Y=2, Y=6) to find a path to the 2F East Wing that bypasses the Northern doors at (16, 7).
-2. Notepad Hygiene: Updated Locations/PokemonMansion with the MACRO LOOP logical paradox.
-3. Map Hygiene: Current map markers are sufficient.
-4. Custom Tools: `run_battle` is sufficient.
-5. Tool Maintenance: Remember to clear text boxes before moving.
-6. Goal Clarity: Find a new path to the East Wing.
-7. Error Analysis: I failed to recognize that State A and State B doors are mutually exclusive logic gates. If a route requires passing a State A door AND a State B door, it's impossible unless there's a switch between them. Since I need to reach (24, 13) [State A open] and the only known path passes (16, 7) [State B open], I must either find a switch between them or find a bypass route. Exploring for a bypass now.
+[Turn 42421 50-Turn Reflection]
+1. Immediate Execution: I'm following the verified Master Route. I need to hit the switch at (15, 11) to enter State A, then head to the East doors at (24, 13) which will now be open.
+2. Notepad Hygiene: Cleaned up obsolete hypotheses regarding the 1F East Wing, as the actual route through the 2F Northern Doors (18, 8) in State B has been proven.
+3. Map Hygiene: Map markers are stable and accurate.
+4. Custom Tools: None needed right now.
+5. Tool Maintenance: `run_battle` works well.
+6. Goal Clarity: Find Secret Key.
+7. Error Analysis: I successfully diagnosed the "airlock" puzzle by paying close attention to coordinates and door states. The laser barriers at (18, 8) require State B, while the doors at (24, 13) require State A. The switch at (15, 11) acts as the airlock mechanism.
 
 <hr>
 
