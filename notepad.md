@@ -1468,6 +1468,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - VERIFIED PATH: To travel between the Northern doors (16, 7) and the West Wing, use the northernmost hallway. Walk West along Y=6 to X=11, North to Y=2, West to X=4, South to Y=5, and West into the West Wing.
 [TRUE MASTER ROUTE TO SECRET KEY]
 - ROUTE INVALIDATED! The 1F (7, 10) stair warp was a hallucination. Both (5, 10) and (6, 10) lead to the same standard 2F area.
-- Current goal: Activate State B to open the Central doors at (20, 17) on 2F. Pass through them to explore the previously inaccessible 2F Central Area (South of Y=18) and search for the actual stairs leading UP to 3F.
+- Current goal: Activate State A to open the East doors at 1F (24, 13). Pass through them to explore the 1F East Wing and access the isolated stairs leading UP to 3F at 2F (25, 14).
 
 <hr>
