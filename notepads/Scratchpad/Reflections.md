@@ -64,3 +64,6 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
   14. My notes say: "Corridor South of (16, 7) leads to two switch statues at (16, 10) and (18, 10)."
   15. Are these really trap switches? Or are they the key to progressing?
   16. Let's test this theory! I need to get the Mansion into State B, go to 2F, walk through the Northern doors to the East Wing, and press one of those switches!
+- The 1F switch is a statue at (2, 10)/(2, 11). I am currently at (4, 11).
+- I need to stand at (3, 11) or (2, 12) to interact with it.
+- Let's walk Left 1 step, then face Left and press A.
