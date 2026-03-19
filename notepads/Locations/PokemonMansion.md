@@ -99,12 +99,11 @@
 - 1F North-West doors at (9, 4)/(9, 5) are OPEN in State A, and CLOSED in State B. My previous note about (16, 5) being doors was a hallucination; they are just solid walls.
 - VERIFIED PATH: To travel between the Northern doors (16, 7) and the West Wing, use the northernmost hallway. Walk West along Y=6 to X=11, North to Y=2, West to X=4, South to Y=5, and West into the West Wing.
 [MASTER ROUTE TO SECRET KEY]
-1. 2F: Ensure Mansion is in State B (Northern doors at 18, 8 are OPEN).
-2. 2F: Go down to 1F using the left-most stairs at (5, 10).
-3. 1F: Walk right to the right-most stairs at (7, 10) and take them UP.
-4. 2F: You arrive at (7, 10), immediately adjacent to stairs UP to 3F. Take them!
-5. 3F: You arrive at (7, 11) in the Southern half of 3F. Walk East to the pit at (16, 14).
-6. 3F: Because the Mansion is in State B, the Southern doors at (15, 10) are OPEN!
-7. 3F: Walk through the open doors and jump down the pit at (16, 14)!
-8. 1F: Land in the enclosed area. Take stairs down to B1F.
-9. B1F: Central doors (20, 17) are OPEN (State B)! Walk West to the Secret Key!
+1. 2F: Ensure Mansion is in State A (Default) using the West Wing switch at (2, 12).
+2. 2F: Navigate East via the Northern Hallway (Y=6), completely bypassing the Northern doors at (16, 7).
+3. 2F: Walk East all the way to X=24, then South to (24, 13).
+4. 2F: Go through the open East doors at (24, 13) and take stairs UP to 3F.
+5. 3F: Press a switch to trigger State B. (Southern doors at 15,10 OPEN).
+6. 3F: Jump down the pit at (16, 14).
+7. 1F: Land in enclosed area. Take stairs down to B1F.
+8. B1F: Central doors (20, 17) are OPEN (State B)! Walk West to Secret Key.
