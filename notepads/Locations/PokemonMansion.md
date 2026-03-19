@@ -104,9 +104,3 @@
 [Verified Dead Ends]
 - The 2F Central doors at (20, 17) lead to a dead-end 4x3 room.
 - The stairs at 1F (6, 10)/(7, 10) lead to an isolated 3F room containing only a Burglar and a Diary. It is a dead end.
-
-[TRUE ROUTE TO SECRET KEY]
-1. Activate STATE B via the switch at 2F (2, 11).
-2. Take the main stairs at 1F (7, 10) up to 3F (7, 10).
-3. The doors at 3F (15, 10) are now OPEN. Walk East through them.
-4. Jump down the pit at (16, 14) to reach B1F!
