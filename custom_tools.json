@@ -130,16 +130,16 @@
     ]
   },
   "execute_battle_turn": {
-    "description": "Executes a battle turn safely. If start_on_main is true, navigates from main_cursor to FIGHT before selecting move.",
+    "description": "Executes a battle turn safely. Navigates from main_cursor to FIGHT before selecting move to avoid wrap-around bugs.",
     "input_schema": {
       "type": "object",
       "properties": {
-        "current_move_index": {
+        "target_move_index": {
           "type": "integer",
           "minimum": 1,
           "maximum": 4
         },
-        "target_move_index": {
+        "current_move_index": {
           "type": "integer",
           "minimum": 1,
           "maximum": 4
@@ -157,19 +157,14 @@
         "start_on_main": {
           "type": "boolean",
           "default": true
-        },
-        "autopress_buttons": {
-          "type": "boolean",
-          "default": false
         }
       },
       "required": [
-        "current_move_index",
         "target_move_index",
-        "autopress_buttons"
+        "current_move_index"
       ]
     },
-    "python_script": "import json\n\ndef execute_battle_turn(current_move_index, target_move_index, main_cursor='FIGHT', start_on_main=True):\n    buttons = []\n    if start_on_main:\n        if main_cursor == 'PKMN':\n            buttons.append('Left')\n        elif main_cursor == 'ITEM':\n            buttons.append('Up')\n        elif main_cursor == 'RUN':\n            buttons.extend(['Up', 'Left'])\n        buttons.extend(['A', 'sleep 500'])\n    \n    diff = target_move_index - current_move_index\n    if diff > 0:\n        if diff == 3:\n            buttons.append('Up')\n        else:\n            buttons.extend(['Down'] * diff)\n    elif diff < 0:\n        if diff == -3:\n            buttons.append('Down')\n        else:\n            buttons.extend(['Up'] * abs(diff))\n            \n    buttons.append('A')\n    print(json.dumps(buttons))\n\nexecute_battle_turn(input_data['current_move_index'], input_data['target_move_index'], input_data.get('main_cursor', 'FIGHT'), input_data.get('start_on_main', True))",
+    "python_script": "import json\n\ndef run(input_data):\n    main_cursor = input_data.get(\"main_cursor\", \"FIGHT\")\n    start_on_main = input_data.get(\"start_on_main\", True)\n    current_move = input_data.get(\"current_move_index\", 1)\n    target_move = input_data.get(\"target_move_index\", 1)\n\n    buttons = []\n    if start_on_main:\n        if main_cursor == \"PKMN\":\n            buttons.append(\"Left\")\n        elif main_cursor == \"ITEM\":\n            buttons.append(\"Up\")\n        elif main_cursor == \"RUN\":\n            buttons.extend([\"Up\", \"Left\"])\n        # If already FIGHT, do nothing\n        buttons.append(\"A\")\n\n    diff = target_move - current_move\n    if diff != 0:\n        if diff > 0:\n            buttons.extend([\"Down\"] * diff)\n        else:\n            buttons.extend([\"Up\"] * abs(diff))\n\n    buttons.append(\"A\")\n    print(json.dumps(buttons))\n",
     "history": [
       {
         "commit_message": "Initial version",
@@ -330,6 +325,11 @@
         "commit_message": "Fixed move menu navigation to use 1x4 vertical list instead of 2x2 grid, and added wrap-around logic for efficiency.",
         "timestamp": "2026-03-16T16:55:40.289Z",
         "action_counter": 37241
+      },
+      {
+        "commit_message": "Fix execute_battle_turn to use state-aware main_cursor navigation instead of blind macros that cause wrap-around bugs.",
+        "timestamp": "2026-03-19T01:27:18.074Z",
+        "action_counter": 42056
       }
     ]
   },
