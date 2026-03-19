@@ -23,4 +23,4 @@
 - [50-Turn Reflection] Text Box Input Eating: The "Got away safely!" text after running from a wild battle remains on screen and will eat subsequent directional overworld inputs until cleared with 'A' or 'B' (or wait). Always clear it before moving.
 - Battle Intro Input Eating: Do not use menu navigation tools (like run_battle or execute_battle_turn) on the turn a wild encounter starts (when 'Wild [PKMN] appeared!' is on screen). The button presses will be consumed as text advances, and you will be left at the main battle menu on the next turn.
 [Turn 41952 Dig Reflection]
-- Dig warps you to the last Pokemon Center you explicitly HEALED at, not just visited! I was warped to Pallet Town because I forgot to heal at Cinnabar's Center after Surfing there.
+- Dig successfully warped me to Saffron City (Map 0_10) Pokemon Center! I then accidentally tried to use Dig again in the Saffron overworld, which caused Oak's warning message. Now I am using Fly to get back to Cinnabar Island.
