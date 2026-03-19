@@ -99,8 +99,12 @@
 - 1F North-West doors at (9, 4)/(9, 5) are OPEN in State A, and CLOSED in State B. My previous note about (16, 5) being doors was a hallucination; they are just solid walls.
 - VERIFIED PATH: To travel between the Northern doors (16, 7) and the West Wing, use the northernmost hallway. Walk West along Y=6 to X=11, North to Y=2, West to X=4, South to Y=5, and West into the West Wing.
 [TRUE MASTER ROUTE TO SECRET KEY]
-- ROUTE UNDER REVISION.
-- The 2F area behind the Northern doors (18, 8) is a barren dead-end box! There is no path East and no switch here.
-- The real path MUST be in the 1F East Wing (accessed via State A open doors at 24, 13). I previously abandoned 1F East Wing at (27, 26) without exploring West of it. I will return there to find the stairs to 2F East!
-- [Turn 42791] Discovered CLOSED electronic doors at 1F (16, 7) and (17, 7) in State A! These must open in State B.
-- VERIFIED: 1F South-East doors at (26, 27) and (27, 27) are CLOSED in State A. Path South is blocked here. Retracing to X=23 to explore West of the X=24 wall.
+1. Ensure Mansion is in STATE A (Default).
+2. Go to 1F Main Stairs at (5, 10). DO NOT take the left tile (5, 10). Take the right tile at (7, 10)!
+3. This leads to 2F (7, 10), which is adjacent to a SECOND set of stairs.
+4. Take these stairs to 3F. You arrive in the 3F Northern Area.
+5. In STATE A, the 3F Northern doors at (15, 4) are OPEN. Walk East through them.
+6. Walk South in the 3F Eastern section to reach the pit at (16, 14) / (17, 14).
+7. Jump down the pit to land in the isolated 1F enclosed area.
+8. Take the stairs at 1F (21, 23) down to B1F!
+9. Explore B1F to find the Secret Key.
