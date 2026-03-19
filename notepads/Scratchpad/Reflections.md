@@ -21,3 +21,6 @@
 - My 1F bypass theory was wrong, but my original instinct to just walk to the East doors in State A was CORRECT! I just took a completely wrong path trying to use the Y=6 hallway.
 - The path is: Central Area (where I am) -> East doors (24, 13).
 - I will walk East and South to reach the stairs!
+- Wait, looking closely at the screen: X=22 is a SOLID WALL of rubble from Y=9 to Y=16. I CANNOT walk East to X=24 from the Central Area!
+- The Central Area is bounded by X=22 on the East, Y=16 on the South, and the doors at (18, 8) on the North.
+- I must walk North to (18, 8) to see if the doors are open. If they are closed, I am trapped, which means I DID successfully press a switch here!
