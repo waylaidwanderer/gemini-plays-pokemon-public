@@ -1473,10 +1473,11 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - The 2F West Wing and East Wing can also be connected by crossing the X=9 pillar gap at Y=11.
 - VERIFIED PATH: To travel between the Northern doors (16, 7) and the West Wing, use the northernmost hallway. Walk West along Y=6 to X=11, North to Y=2, West to X=4, South to Y=5, and West into the West Wing.
 [TRUE MASTER ROUTE TO SECRET KEY]
-1. Ensure Mansion is in STATE A (use 2F switch at 2, 11).
-2. Go to 1F. Navigate to the East Wing via the northern gaps (Y=1/Y=2).
-3. Walk South through the OPEN 1F East doors at (24, 13).
-4. Explore ALL THE WAY SOUTH in the 1F East Wing (past Y=23) to find stairs!
-5. These stairs should lead to the isolated 2F East Wing at (25, 14), which has stairs UP to 3F!
+1. Go to 2F via stairs at 1F (5, 10).
+2. Toggle 2F switch at (2, 11) to STATE B.
+3. Navigate 2F Northern Hallway to (18, 6), then walk South through the OPEN doors at (18, 8).
+4. Continue South down the Central Hallway to the Central doors at (20, 17).
+5. Pass through the OPEN Central doors at (20, 17) in State B.
+6. Explore 2F South to bypass the X=22 rubble and reach the stairs UP to 3F!
 
 <hr>
