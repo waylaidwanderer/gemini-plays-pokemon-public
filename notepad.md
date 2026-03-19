@@ -1136,43 +1136,10 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - The path West is at Y=11. I am at (7, 11). I can go Left to X=6, X=5, X=4.
 - Let me verify if there is a path South of the Burglar.
 - I will move Left to (6, 11) then Down to (6, 12) to read the book and check the area.
-[Turn 41854 3F Exploration]
-- The Burglar (SPRITE_cdfc) is pacing between (4, 11) and (6, 11).
-- The map shows the floor extends South at X=7 to Y=13!
-- Wait, I thought this room was walled off at Y=7. The map shows it is NOT.
-- From (7, 11), I can move Down to (7, 12) and (7, 13).
-[Turn 41855 3F Exploration]
-- Let's look at the Intermediate States for Turn 41855:
-  - State 0: Right -> (8, 11) [BUMP into TYPE_3fe2 wall?]
-  - State 1: Down -> (7, 12) [BUMP into TYPE_2889 wall]
-  - State 2: Down -> (7, 12) [BUMP into TYPE_2889 wall]
-- Let me re-examine the screen at (7, 11).
-- The tile at (8, 11) looks like floor (TYPE_3fe2), but it must be a wall since I bumped into it.
-- The tile at (7, 12) is the RIGHT HALF of the desk (TYPE_2889).
-- Ah! The path South is at X=6!
-- But wait, the Burglar is pacing between X=4, X=5, and X=6 at Y=11.
-- If I go Left, I will bump into him or the desk.
-- Let's look closely at the desk at (6, 12)/(7, 12).
-- It blocks X=6 and X=7 at Y=12.
-- The path MUST be at X=4 or X=5!
-- Yes, my notes say: "The Burglar on 3F at (4, 11)/(5, 11) is a WANDERING trainer. The path here is 2 tiles wide (X=4 and X=5)."
-[Turn 41857 3F Exploration South]
-- The area South of the Burglar (Y=11) is indeed open!
-- I see a path leading South to Y=17.
-- I also see an item ball at (1, 16) (SPRITE_bbb7).
-- Let's sweep this new area. I will grab the item first.
-[Turn 41858 Item Grab]
-[Turn 41863 Realization]
-- The 3F South area is just a dead end with a Max Potion. No stairs or switches.
-- I reviewed my summary: I DID find stairs to 3F in the South-East area of 2F (accessed via East doors at 24, 13) around Turn 41728! I just misrecorded the coordinates as (21, 23).
-- NEW PLAN: Return to 1F, go up to 2F main area, walk through OPEN East doors at (24, 13), and find those stairs up to the main 3F area. Then hit the 3F switch to enter State B, and jump down the pit!
-[Turn 41882 Overwatch Correction]
-- I received a CRITICAL overwatch warning. I hallucinated the stairs in the 2F East Wing!
-- On Turn 41769, I empirically verified the 2F East Wing is a DEAD END and the "stairs" were a Bar Graph decoration.
-- I must trust my negative proofs. The 2F East Wing is an exhausted space. I am abandoning it immediately.
-- NEW PLAN: I need to search for the real stairs to 3F.
-- Unexplored areas to check: 2F West area (South of Y=18) red carpet room, or look for hidden gaps on 1F / 2F Central.
-- I will navigate back to 2F (5, 10) and head South to the 2F West red carpet room.
+[Search for 3F Stairs]
+- 2F East Wing is an exhausted space and a DEAD END. (The "stairs" are a Bar Graph decoration).
+- 3F South room (accessed via 1F warp stairs at 7, 10) is a DEAD END containing only a Max Potion.
+- NEW PLAN: Explore 2F West area (South of Y=18, the red carpet room) or look for hidden gaps on 1F / 2F Central.
 
 <hr>
 
