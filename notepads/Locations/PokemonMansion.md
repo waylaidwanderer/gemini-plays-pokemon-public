@@ -94,7 +94,8 @@
 - Solid wall at Y=18 blocks X=1 to X=7. The West Wing North of Y=18 is a VERIFIED DEAD END!
 - Corridor South of (16, 7) leads to a switch statue at (14, 10)/(15, 10) facing East. Pressing this switch from (16, 10) triggers STATE A, locking the Northern doors but opening the East doors to progress.
 - The West Wing North of Y=9 is a dead end containing only the switch statue at (2, 4) and the one-way drop-down stairs at (6, 1). The wall at Y=9 is solid from X=0 to X=9.
-- 1F North-West doors at (9, 4)/(9, 5) are OPEN in State A, and CLOSED in State B. My previous note about (16, 5) being doors was a hallucination; they are just solid walls.
+- 2F North-West doors at (9, 4)/(9, 5) are OPEN in State A, and CLOSED in State B. My previous note about (16, 5) being doors was a hallucination; they are just solid walls.
+- The 2F West Wing and East Wing can also be connected by crossing the X=9 pillar gap at Y=11.
 - VERIFIED PATH: To travel between the Northern doors (16, 7) and the West Wing, use the northernmost hallway. Walk West along Y=6 to X=11, North to Y=2, West to X=4, South to Y=5, and West into the West Wing.
 [TRUE MASTER ROUTE TO SECRET KEY]
 - ROUTE INVALIDATED! The 1F (7, 10) stair warp was a hallucination. Both (5, 10) and (6, 10) lead to the same standard 2F area.
