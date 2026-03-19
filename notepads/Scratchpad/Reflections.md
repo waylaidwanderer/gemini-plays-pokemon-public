@@ -47,9 +47,10 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 [50-Turn Reflection - Turn 42056]
 - Goal Clarity: The Master Plan to reach 3F Main Area is clear. I just need to get to the 2F West switch at (2, 4) to toggle the doors to State B.
 - Error Analysis: My biggest recent errors were relying on old, hallucinated notes (like the 1F switch and the 2F East dead-end) instead of re-verifying my surroundings. I've cleaned up the notes and will trust my eyes over old scratchpads!
+[Turn 42084 - Journey to the Trap Switch]
+- The switch at (2, 11) has been pressed. The Mansion should now be in STATE B.
+- This means the Northern doors at (16, 7) are OPEN, and the East doors at (24, 13) are CLOSED.
 [Turn 42089 - The Trap Switch]
 - The switch is located at (14, 10)/(15, 10) facing East!
 - It is NOT on the other side of the wall. The wall is to its left.
-- I am standing in the East Wing at (18, 11).
-- I will walk to (16, 10), face Left, and press the switch.
 - This will lock the Northern doors behind me, but open the East doors to the 3F stairs!
