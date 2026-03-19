@@ -1408,10 +1408,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - The wall at X=9 on 2F consists of green pillars, separating the West and Central areas.
 - In the East wing of 2F, there is a solid vertical wall at X=11 extending from at least Y=17 to Y=25.
 - In the Northeast area, the brown blocks at (24, 8)/(25, 8) are just a table/solid obstacle, NOT stairs!
-- 2F East doors are located at (24, 13) and (25, 13). In State A, these are OPEN (floor), allowing access to the South-East area. In State B, these CLOSE (glowing barriers).
-- 2F South-East doors are located at (26, 27) and (27, 27). These are permanent barriers.
-- Found stairs leading UP to 3F at (25, 14)! This room is accessed by passing through the Northern doors at (18, 8) in State B.
-- 2F West area (South of Y=18) has a red carpet room from X=4 to X=7, Y=22 to Y=27. Currently exploring.
+- Stairs at (25, 14) are visible in the isolated East Wing! This East area is completely walled off from the rest of 2F by rubble at X=22 and Y=8. It must be accessed from 1F!
+- (Note: Previous notes about 2F doors at 24,13 / 26,27 / 20,17 were hallucinations copied from 1F and B1F).
 
 [3F Points of Interest]
 - Arrived from 2F via stairs (location unknown, likely South-East).
