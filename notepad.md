@@ -1150,6 +1150,11 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - The East doors at (24, 13) are indeed OPEN!
 - My path East was blocked by the switch statue at (21, 13)/(21, 14).
 - I am at (21, 13) facing East. I need to walk Up to (21, 12), Right to (24, 12), Down to (24, 13), then Right to the stairs at (25, 14).
+[Turn 42107 - The Right Path]
+- The path East at Y=12 is BLOCKED by a solid wall at X=22/23.
+- However, looking at the map, there's a 1-tile gap at (22, 14) / (23, 14) that I can walk through!
+- From (21, 14), I can just walk Right, Right, Right to reach the stairs at (25, 14).
+- The doors at (24, 13) are indeed open (State A), meaning the path to the stairs is clear.
 
 <hr>
 
