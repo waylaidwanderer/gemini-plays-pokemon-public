@@ -1134,12 +1134,11 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
   4. But it OPENS the East doors at (24, 13)!
   5. Walk through the East doors and take the stairs to 3F Main Area!
 - I am currently executing step 1: walking from 2F Central to 2F West to press the switch.
-[Turn 42050 - 2F Central Navigation]
-- I am on 2F at (4, 10), having just bumped into a pillar at (4, 9).
-- I need to reach the switch at 2F (2, 4).
-- To get there, I need to navigate around the pillars in the Central area.
-- The path North is clear at X=5.
-- I will walk Right 1 to X=5, then Up.
+[Turn 42050 - Correcting Navigation Error]
+- I accidentally stepped back onto the stairs at 2F (5, 10) while trying to navigate around the pillars, sending me back to 1F.
+- The path North on 2F is NOT at X=5. X=5 at Y=10 is the stairs down!
+- The gap in the pillars to go North is at X=3.
+- To reach the 2F switch at (2, 4): From 2F (5, 10), go Left to (3, 10), Up to (3, 5), Left to (2, 5), face Up and interact.
 
 <hr>
 
