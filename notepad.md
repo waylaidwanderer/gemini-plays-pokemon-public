@@ -1181,6 +1181,9 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - I need to exit this trap room through the open Northern doors (16, 7) while still in State B.
 - Then I will explore the Northern Hallway (North of Y=7) to see if a path East to X=24 exists.
 - If it does, I just need to set the Mansion to State A at the main switch (2, 11) and walk around the top!
+[Turn 42115 - Verifying the Northern Escape]
+- I am at (16, 9) and will walk North through the open doors at (16, 7) to reach the main Northern Hallway.
+- Then I will explore East to confirm if the path to X=24 is clear. If it is, the Master Plan is verified!
 
 <hr>
 
