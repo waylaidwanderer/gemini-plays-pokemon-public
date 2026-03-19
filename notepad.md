@@ -1089,6 +1089,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 <h1><code>Scratchpad/Reflections</code></h1>
 
 [Active Reflections]
+- [Turn 43615] 50-Turn Reflection: My previous hypothesis about the 1F East Wing containing the stairs to 2F East Wing was incorrect. The 1F East Wing is a dead end ending in closed doors at (26, 27) and no stairs. I must now test my new hypothesis: the stairs are behind the 1F doors at (16, 7), which require State B. Route adjustments are proceeding smoothly despite random encounters.
 
 <hr>
 
