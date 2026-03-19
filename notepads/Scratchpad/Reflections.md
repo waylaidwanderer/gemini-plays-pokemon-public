@@ -21,3 +21,6 @@
 - My earlier realization was correct: The original 2F East Wing route in State A via the Y=6 Northern Hallway is the ONLY way to reach the pit. I had hallucinated that Y=6 was blocked by rubble.
 - I will read the diary here, then go back down to 2F, toggle to State A, and take the Northern Hallway to the East Wing stairs!
 - PLAN: Since I am currently in State A, the 1F East doors at (24, 13) should be OPEN. I will head down to 1F via the (5, 10) stairs and explore the East side to see if I can bypass the rubble at X=22/23 down there!
+- Tested path East on 1F along Y=6. Walked from (12,6) to (16,6) and bumped into a solid vertical wall at X=17.
+- X=17 is solid from Y=2 down to Y=12. There is NO path East to the 1F East Wing through the Northern half of the floor!
+- The only gap in the X=17 wall is at Y=13, which is blocked by the 1F East doors (currently OPEN in State A). However, reaching that gap requires passing through the South-East area.
