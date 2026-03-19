@@ -1144,6 +1144,10 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - Tracing path from (2, 12) to avoid bookshelves at X=7: R to (3, 12), D to (3, 13), R, R to (5, 13), U, U to (5, 11), then East to X=10.
 [Turn 42086 - Moving to Northern Doors]
 - Path is clear. Walking Up to (10, 7), then Right to (15, 7) towards the Northern doors at (16, 7). Expecting them to be OPEN.
+[Turn 42087 - Navigating East Wing]
+- The Northern doors at (16, 7) are OPEN!
+- The path South is actually at X=18/X=19, not X=16.
+- I am walking Right to (18, 7), then Down to find the switch.
 
 <hr>
 
