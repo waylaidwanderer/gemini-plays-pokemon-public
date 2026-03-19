@@ -1460,13 +1460,17 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - The 2F Central doors at (20, 17) lead to a dead-end 4x3 room.
 - The stairs at 1F (6, 10)/(7, 10) lead to an isolated 3F room containing only a Burglar and a Diary. It is a dead end.
 
-[TRUE ROUTE TO SECRET KEY]
-1. Enter 1F. Take main stairs at (5, 10) to 2F.
-2. On 2F, press a switch (e.g., at (2, 11)) to trigger STATE B. This opens the 2F Northern doors at (18, 8).
-3. Walk East through the (18, 8) doors into the 2F East Wing, then go South to find stairs up to 3F.
-4. On 3F, State B keeps the Southern doors (15, 10) OPEN. Walk through them to reach the Pit.
-5. Jump down the right side of the pit at 3F (16, 14) to land in the enclosed 1F area.
-6. Take the stairs at 1F (23, 22) down to B1F.
-7. Explore B1F to find the Secret Key. (I accidentally used Dig on B1F at Turn 41952 and forgot my progress!)
+[TRUE ROUTE TO SECRET KEY (REVISED)]
+1. Enter 1F. Walk to the Northeast corner (X=18, Y=2) and go South through the gap at Y=3 into the 1F East Wing.
+2. Ensure Mansion is in STATE A (1F doors at 24,13 are OPEN). If not, you must toggle a switch.
+3. Walk South down the 1F East Wing through the open (24,13) doors to the stairs at the far South-East.
+4. Take the stairs UP to the 2F isolated East Wing.
+5. Walk West through the OPEN 2F doors at (24,13) into the 2F Central Southern section.
+6. Explore this section to find the stairs UP to 3F.
+7. On 3F, toggle the switch at (10,4) to STATE B. This opens the Southern doors at (15,10).
+8. Walk through the open (15,10) doors to reach the Pit.
+9. Jump down the right side of the pit at 3F (16, 14) to land in the enclosed 1F area.
+10. Take the stairs at 1F (23, 22) down to B1F.
+11. Explore B1F to find the Secret Key.
 
 <hr>
