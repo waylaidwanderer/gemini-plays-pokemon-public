@@ -47,19 +47,9 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 [50-Turn Reflection - Turn 42056]
 - Goal Clarity: The Master Plan to reach 3F Main Area is clear. I just need to get to the 2F West switch at (2, 4) to toggle the doors to State B.
 - Error Analysis: My biggest recent errors were relying on old, hallucinated notes (like the 1F switch and the 2F East dead-end) instead of re-verifying my surroundings. I've cleaned up the notes and will trust my eyes over old scratchpads!
-[Turn 42084 - Journey to the Trap Switch]
-- The switch at (2, 11) has been pressed. The Mansion should now be in STATE B.
-- This means the Northern doors at (16, 7) are OPEN, and the East doors at (24, 13) are CLOSED.
-- Next step: Walk to the Northern Hallway via the gap at (10, 9).
-- Tracing path from (2, 12) to avoid bookshelves at X=7: R to (3, 12), D to (3, 13), R, R to (5, 13), U, U to (5, 11), then East to X=10.
-[Turn 42086 - Moving to Northern Doors]
-- Path is clear. Walking Up to (10, 7), then Right to (15, 7) towards the Northern doors at (16, 7). Expecting them to be OPEN.
-[Turn 42087 - Navigating East Wing]
-- The Northern doors at (16, 7) are OPEN!
-- The path South is actually at X=18/X=19, not X=16.
-- I am walking Right to (18, 7), then Down to find the switch.
-[Turn 42088 - East Wing Reality Check]
-- I am at (15, 7). The Northern doors at (16, 7) are indeed open.
-- Looking South into the East Wing, there are NO switch statues at (16, 10) and (18, 10) as I previously hallucinated. The floor is clear there.
-- The only statue visible is at (14, 10)/(15, 10), which is in the Central area on the other side of the wall.
-- I will walk South into the East Wing to see if there is ANY switch here to toggle the state back to A. If not, my plan has a major flaw!
+[Turn 42089 - The Trap Switch]
+- The switch is located at (14, 10)/(15, 10) facing East!
+- It is NOT on the other side of the wall. The wall is to its left.
+- I am standing in the East Wing at (18, 11).
+- I will walk to (16, 10), face Left, and press the switch.
+- This will lock the Northern doors behind me, but open the East doors to the 3F stairs!
