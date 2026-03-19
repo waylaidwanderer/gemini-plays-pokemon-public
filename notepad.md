@@ -1173,12 +1173,14 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - Are there ANY switches in this trap room?
 - Looking at the map, there is a switch statue at (21, 13)/(21, 14) down South!
 - Let's test if pressing THAT switch toggles the state!
-[Turn 42110 - The REAL East Wing Switch]
-- I found the true path! The "Trap Room" has a switch statue at (21, 13)/(21, 14).
-- The path south is blocked by rubble at Y=13, except for a gap at X=20 and X=21.
-- To reach the switch from (17, 10): Walk Right to (18, 10), Down to (18, 12), Right to (20, 12), Down through the gap to (20, 15), then Right to (21, 15).
-- Face Up and press A on the statue at (21, 14).
-- This will change the Mansion to State A, opening the East doors at (24, 13) to the 3F stairs!
+[Turn 42114 - The Real Master Plan]
+- I was right the first time: this room is a TRAP.
+- There is NO switch at (21, 14). X=23 is solid rubble preventing access to the stairs from here.
+- The switch at (16, 10) is a trap: pressing it changes to State A, locking the Northern doors (16, 7) and trapping you inside.
+- The TRUE path to the 3F stairs must bypass the Northern doors entirely!
+- I need to exit this trap room through the open Northern doors (16, 7) while still in State B.
+- Then I will explore the Northern Hallway (North of Y=7) to see if a path East to X=24 exists.
+- If it does, I just need to set the Mansion to State A at the main switch (2, 11) and walk around the top!
 
 <hr>
 
