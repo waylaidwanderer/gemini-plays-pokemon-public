@@ -1,6 +1,5 @@
 [Active Reflections]
 [Paradox Resolved]
-- East Wing is physically isolated from the Central Corridor (X=24 solid, X=22/23 rubble).
 - Central Doors (20, 17) are blocked from the North in State B by solid wall at Y=13.
 - The stairs at (21, 23) on 1F lead DOWN to B1F. The map marker I placed at (21, 23) on 2F for "Stairs to 3F" was a hallucination! They don't exist there.
 [Mansion Master Puzzle Solution]
