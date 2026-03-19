@@ -22,7 +22,3 @@
   1. Explore 1F West Wing to find stairs. The path to the West Wing is via the Northern Hallway at Y=2.
   2. NOTE: I hallucinated electronic doors at 1F (9, 4). X=9 is a solid pillar wall!
   3. The REAL 1F electronic doors are located at (16, 7) and (17, 7). They are currently CLOSED in State A.
-- Let's walk West along Y=2 to explore the 1F West Wing.
-[Turn 42206 - 1F Navigation Correction]
-- I am on 1F. The electronic doors ARE at (16, 7) and (17, 7), and they are currently CLOSED in State A.
-- The path to the West Wing is via the Northern hallway at Y=2. I am bypassing a Burglar at (12, 5) by walking through X=11.
