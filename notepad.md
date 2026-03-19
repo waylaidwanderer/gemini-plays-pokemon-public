@@ -1104,12 +1104,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - 3F to 2F (DOWN-ONLY): Found drop-down stairs at (6, 1) and (6, 21) on 2F. These cannot be ascended.
 - 1F to B1F: Stairs at (21, 23) in the isolated enclosed area of 1F lead down to B1F. (Accessed by jumping down 3F pit at 16, 14).
 
-[Turn 42691 Reflection]
-- State A is confirmed. Heading to 1F via the stairs at 2F (5, 10).
 [Turn 42784 50-Turn Reflection]
-- Realized I don't need to go to (16, 10) to toggle the state. I can just toggle it here at (2, 12) to State A, then go down to 1F, and walk straight to the 1F East Wing doors at (24, 13) since they are OPEN in State A.
-- The 1F East Wing should have stairs leading up to the isolated 2F/3F East sections.
-- No new tools needed.
+- The 1F East Wing should have stairs leading up to the isolated 2F/3F East sections. Exploring West of 1F (27, 26) is the next priority.
 
 <hr>
 
