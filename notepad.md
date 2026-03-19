@@ -1469,6 +1469,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - VERIFIED PATH: To travel between the Northern doors (16, 7) and the West Wing, use the northernmost hallway. Walk West along Y=6 to X=11, North to Y=2, West to X=4, South to Y=5, and West into the West Wing.
 [TRUE MASTER ROUTE TO SECRET KEY]
 - ROUTE INVALIDATED! The 1F (7, 10) stair warp was a hallucination. Both (5, 10) and (6, 10) lead to the same standard 2F area.
-- Current goal: Find the actual stairs leading UP to 3F. Searching the 2F West Wing (South of Y=18).
+- Current goal: Find the actual stairs leading UP to 3F. Searching the 1F East Wing South of Y=18 (West of X=24).
 
 <hr>
