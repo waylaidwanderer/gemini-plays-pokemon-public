@@ -500,13 +500,19 @@
             "RUN"
           ],
           "default": "FIGHT"
+        },
+        "autopress_buttons": {
+          "type": "boolean",
+          "default": false,
+          "description": "If true and the tool returns a list of buttons, they will be pressed automatically. Limit: 100 buttons max per call."
         }
       },
       "required": [
-        "main_cursor"
+        "main_cursor",
+        "autopress_buttons"
       ]
     },
-    "python_script": "import json\n\nmain_cursor = input_data.get('main_cursor', 'FIGHT')\nbuttons = []\n\nif main_cursor == 'FIGHT':\n    buttons = ['Right', 'Down', 'A']\nelif main_cursor == 'PKMN':\n    buttons = ['Down', 'A']\nelif main_cursor == 'ITEM':\n    buttons = ['Right', 'A']\nelif main_cursor == 'RUN':\n    buttons = ['A']\n\nif input_data.get('autopress_buttons', False):\n    print(json.dumps(buttons))\nelse:\n    print(f\"To run from {main_cursor}, press: {', '.join(buttons)}\")",
+    "python_script": "def run_battle(input_data):\n    main_cursor = input_data.get('main_cursor', 'FIGHT')\n    autopress = input_data.get('autopress_buttons', False)\n    \n    # We always need to wait for any intro text to finish before sending commands.\n    # Spamming B a couple times with sleeps ensures we clear text safely.\n    buttons = ['B', 'sleep 500', 'B', 'sleep 500']\n    \n    if main_cursor == 'FIGHT':\n        buttons.extend(['Right', 'Down', 'A'])\n    elif main_cursor == 'PKMN':\n        buttons.extend(['Down', 'A'])\n    elif main_cursor == 'ITEM':\n        buttons.extend(['Right', 'A'])\n    elif main_cursor == 'RUN':\n        buttons.append('A')\n        \n    return buttons\n",
     "history": [
       {
         "commit_message": "Initial version",
@@ -547,6 +553,11 @@
         "commit_message": "Fixing run_battle to properly output JSON for autopress_buttons",
         "timestamp": "2026-03-16T22:21:17.902Z",
         "action_counter": 37861
+      },
+      {
+        "commit_message": "Updated run_battle to automatically clear wild encounter intro text with B and sleep commands before pressing the menu inputs.",
+        "timestamp": "2026-03-19T12:52:55.165Z",
+        "action_counter": 42961
       }
     ]
   },
