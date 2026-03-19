@@ -55,3 +55,8 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - Attempted to press the switch from below at (2, 5) previously, but my inputs got eaten by the battle text box!
 - I am now at (3, 4). The statue is at (2, 4).
 - I will turn Left and press A to interact with it. If it doesn't work, I'll step down to (2, 5) and try facing Up.
+[Turn 42070 - Correct Switch Interaction]
+- Facing Left from (2, 4) and pressing A did NOT work.
+- The switch statue is actually at X=1 (tiles 1, 4 and 1, 5).
+- Like the 1F switch, I must stand directly BELOW the statue to interact with it.
+- I need to walk to (1, 6), face Up, and press A.
