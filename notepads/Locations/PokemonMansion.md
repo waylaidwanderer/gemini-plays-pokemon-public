@@ -22,7 +22,7 @@
 - Closed electronic doors located at (16, 5)/(17, 5) blocking the path North.
 - The glowing-eye statue at (15, 10)/(15, 11) is a red herring; it does not have a hidden switch.
 - The Northeast area (accessed via X=18) contains a diary at (18, 2) and CONNECTS to the East Wing via a gap at Y=3.
-- South-East corridor (X=18 to X=21, Y=12 to Y=15) is a dead end. Stairs are visible behind the East wall at (25, 14)/(25, 15) but inaccessible from here.
+- South-East corridor (X=18 to X=21, Y=12 to Y=15) is a dead end. The East Wing corridor (accessed via the doors at 24, 13) continues South of Y=18. (Previously hallucinated stairs at 25, 14).
 
 [2F Points of Interest]
 - Arrived from 1F via stairs at (5, 10).
