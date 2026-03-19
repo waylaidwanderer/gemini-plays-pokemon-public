@@ -106,5 +106,6 @@
 - The stairs at 1F (6, 10)/(7, 10) lead to an isolated 3F room containing only a Burglar and a Diary. It is a dead end.
 
 [TRUE ROUTE TO SECRET KEY (WIP)]
-- Hypothesis: The stairs to 2F are in the South-East corridor, behind the electronic doors at (16, 7) and (21, 17).
-- To access them, the Mansion must be in STATE B.
+- NEW HYPOTHESIS: The "isolated" 3F room accessed via the main stairs at 1F (7, 10) is NOT isolated! It connects directly to the 3F pit.
+- The southern doors on 3F at (15, 10) block the pit. They are OPEN in State B.
+- Plan: Toggle Mansion to State B (Done). Return to 1F. Take the main stairs at (7, 10) to 2F, then the adjacent stairs to 3F. Walk East to the pit and jump down!
