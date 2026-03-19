@@ -1376,9 +1376,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - The main staircase on 1F at Y=10 spans 3 tiles! Stepping on the left tile (5, 10) leads to 2F (5, 10). Stepping on the middle/right tiles (6, 10)/(7, 10) leads to 2F (6, 10)/(7, 10), which is immediately adjacent to another set of stairs leading to an isolated room on 3F.
 - CRITICAL: The stairs at (7, 10) ONLY lead to the isolated 3F room with the Burglar and Diary. They DO NOT connect to the rest of 3F or the pit. You must use the stairs in 2F South-East to reach the pit!
 - The 1F statue at (2, 10)/(2, 11) is JUST A NORMAL STATUE, NO SWITCH! The switch is on 2F.
-- Closed electronic doors located at (16, 5)/(17, 5) blocking the path North.
+- Closed electronic doors located at (16, 7)/(17, 7) blocking the path South. To bypass them, use the far-East hallway at X=23!
 - The glowing-eye statue at (15, 10)/(15, 11) is a red herring; it does not have a hidden switch.
-- The Northeast area (accessed via X=18) contains a diary at (18, 2) and CONNECTS to the East Wing via a gap at Y=3.
+- The Northeast area (accessed via X=18) contains a diary at (18, 2) and CONNECTS to the East Wing via a gap at Y=3. Walk East to X=23, then South to explore the East Wing.
 - South-East corridor (X=18 to X=21, Y=12 to Y=15) is a dead end. The East Wing corridor (accessed via the doors at 24, 13) continues South of Y=18. (Previously hallucinated stairs at 25, 14).
 - 1F South-East doors are located at (26, 27) and (27, 27). These are closed in State A.
 - Found a regular statue at (27, 18) in the East Wing. It is NOT a switch. There is NO way to toggle states from within the 1F East Wing.
