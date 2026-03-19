@@ -1110,6 +1110,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - This means the "True Master Route" via State B and these stairs is WRONG.
 - My earlier realization was correct: The original 2F East Wing route in State A via the Y=6 Northern Hallway is the ONLY way to reach the pit. I had hallucinated that Y=6 was blocked by rubble.
 - I will read the diary here, then go back down to 2F, toggle to State A, and take the Northern Hallway to the East Wing stairs!
+- PLAN: Since I am currently in State A, the 1F East doors at (24, 13) should be OPEN. I will head down to 1F via the (5, 10) stairs and explore the East side to see if I can bypass the rubble at X=22/23 down there!
 
 <hr>
 
