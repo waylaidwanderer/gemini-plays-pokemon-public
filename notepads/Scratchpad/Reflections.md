@@ -54,3 +54,5 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - The switch is located at (14, 10)/(15, 10) facing East!
 - It is NOT on the other side of the wall. The wall is to its left.
 - This will lock the Northern doors behind me, but open the East doors to the 3F stairs!
+[Physical Constraints Reminder]
+- There is verified rubble at X=22/23 isolating the East Wing from the Central Corridor. I must remember that physical walls/rubble do not disappear when a switch is pressed, only the laser barriers do.
