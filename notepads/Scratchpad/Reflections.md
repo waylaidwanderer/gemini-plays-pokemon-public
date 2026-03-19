@@ -19,3 +19,5 @@
 7. We can then walk South down the East Wing, and the South-East doors at (26, 27) will be OPEN, allowing access to the stairs!
 
 Goal: Return to 2F switch at (2, 11), toggle to State B, and test the 1F Northern doors.
+- 1F South-East doors at (26, 27) are CLOSED in State A. Hypothesis confirmed! We MUST switch to State B to access the stairs.
+- Returning to 2F switch at (2, 11).
