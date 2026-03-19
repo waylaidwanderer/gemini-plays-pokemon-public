@@ -1466,5 +1466,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - CONCLUSION: The path to 3F main area is ON 2F.
 - VERIFIED: The context summary had a typo. The 1-tile wide gap connecting the northern and southern sections of 2F is at X=10, NOT X=12.
 - VERIFIED: The gap at X=10 (Y=12 to Y=17) provides access to the 2F Southern area.
+- VERIFIED: Found stairs at 2F (6, 18) in the Southern Area! These should lead to the main area of 3F.
 
 <hr>
