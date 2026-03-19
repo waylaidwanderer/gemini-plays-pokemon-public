@@ -56,16 +56,14 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - This will lock the Northern doors behind me, but open the East doors to the 3F stairs!
 [Physical Constraints Reminder]
 - There is verified rubble at X=22/23 isolating the East Wing from the Central Corridor. I must remember that physical walls/rubble do not disappear when a switch is pressed, only the laser barriers do.
-[Turn 42105 - Navigating to 3F Stairs]
-- The East doors at (24, 13) are indeed OPEN!
-- My path East was blocked by the switch statue at (21, 13)/(21, 14).
-- I am at (21, 13) facing East. I need to walk Up to (21, 12), Right to (24, 12), Down to (24, 13), then Right to the stairs at (25, 14).
-[Turn 42107 - The Right Path]
-- The path East at Y=12 is BLOCKED by a solid wall at X=22/23.
-- However, looking at the map, there's a 1-tile gap at (22, 14) / (23, 14) that I can walk through!
-- From (21, 14), I can just walk Right, Right, Right to reach the stairs at (25, 14).
-- The doors at (24, 13) are indeed open (State A), meaning the path to the stairs is clear.
-[Turn 42108]
-- Walked Right from (21, 14) and bumped into the switch statue at (21, 13)/(21, 14).
-- The gap is actually at Y=15! The tiles at (22, 15) and (23, 15) are clear floor.
-- The route is: Down to (21, 15), Right, Right, Right to (24, 15), then Up to the stairs at (25, 14).
+[Turn 42108 - The TRUTH about 2F]
+- I completely misread the map. X=22 is a solid vertical line of rubble from Y=10 to Y=16! There is NO gap.
+- The corridor I am in (X=17 to X=21, South of Y=7) is a TRAP. It is a dead end.
+- The Northern doors at (16, 7) do NOT block the East Wing. They only lead to this trap room!
+- The main Northern Hallway continues East above Y=7 all the way to X=24, completely bypassing this trap room.
+- To reach the 3F stairs at (25, 14):
+  1. Press the switch here at (15, 10) to set State B and OPEN the Northern doors at (16, 7) to escape.
+  2. Escape the trap room by walking North to (16, 6) in the main hallway.
+  3. Walk all the way back to the switch at (2, 11) near the 2F stairs.
+  4. Press it to set State A. This CLOSES the trap room doors but OPENS the East doors at (24, 13).
+  5. Walk the main Northern Hallway East to X=24, then South to the doors at (24, 13) and reach the stairs!
