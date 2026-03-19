@@ -1089,6 +1089,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 <h1><code>Scratchpad/Reflections</code></h1>
 
 [Active Reflections]
+- [Turn 43544] Realized I already found B1F previously but Dig'd out by accident! Now executing the True Route back to B1F via the 3F pit. Currently backtracking to the 1F main stairs at (5, 10).
 
 <hr>
 
