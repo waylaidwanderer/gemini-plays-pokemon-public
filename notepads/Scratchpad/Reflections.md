@@ -31,10 +31,6 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 [50-Turn Reflection - Turn 42005]
 - Caught in a menu loop due to overusing long `move_sequence` macros without verifying cursor memory. Going forward, I will strictly use 1-to-2 button presses for manual menu navigation or use dedicated state-aware tools.
 - Tool Maintenance: Need to fix `execute_battle_turn` to not wrap to ITEM when `start_on_main` is true and the cursor is already on FIGHT.
-[Turn 42033 - 2F West Exploration]
-- Standing at 2F (5, 15).
-- There is a Burglar trainer at (1, 17). He paces between X=1 and X=3.
-- The path South is clear at X=5. I will walk down to Y=22 to enter the red carpet room and see what's there.
 [Turn 42044 - The Master Plan to 3F]
 - I figured it out! The "trap switches" at (16, 10) and (18, 10) in the 2F East Wing are NOT traps! They are the key to the puzzle!
 - The route to 3F:
