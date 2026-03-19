@@ -1491,5 +1491,14 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - The West Wing North of Y=9 is a dead end containing only the switch statue at (2, 4) and the one-way drop-down stairs at (6, 1). The wall at Y=9 is solid from X=0 to X=9.
 - 1F North-West doors at (9, 4)/(9, 5) are OPEN in State A, and CLOSED in State B. My previous note about (16, 5) being doors was a hallucination; they are just solid walls.
 - VERIFIED PATH: To travel between the Northern doors (16, 7) and the West Wing, use the northernmost hallway. Walk West along Y=6 to X=11, North to Y=2, West to X=4, South to Y=5, and West into the West Wing.
+[NEW BYPASS ROUTE TO SECRET KEY]
+1. Ensure Mansion is in State A (Default).
+2. Enter 1F at (5, 27). Walk North to (5, 11).
+3. Walk East through the gap at X=9 to the South-East corridor.
+4. Walk East to (24, 13) and pass through the OPEN doors.
+5. Take the stairs at (25, 14) UP to 2F, then UP to 3F.
+6. On 3F, press the switch at (10, 5) to trigger State B. (Southern doors open).
+7. Jump down the pit at (16, 14) to land in 1F enclosed area.
+8. Take stairs down to B1F. Walk West through open Central doors (20, 17) to find Secret Key.
 
 <hr>
