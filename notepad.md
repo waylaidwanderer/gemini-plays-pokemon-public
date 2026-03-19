@@ -1104,6 +1104,11 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - 3F to 2F (DOWN-ONLY): Found drop-down stairs at (6, 1) and (6, 21) on 2F. These cannot be ascended.
 - 1F to B1F: Stairs at (21, 23) in the isolated enclosed area of 1F lead down to B1F. (Accessed by jumping down 3F pit at 16, 14).
 
+[Turn 42887 50-Turn Reflection]
+- Corrected a major hallucination about the 1F Main Stairs. The right side at (7, 10) does NOT lead to a secret area. It just warps to 2F (7, 10) which is adjacent to the normal 2F stairs.
+- New route: Since 2F East is inaccessible from the main stairs, the stairs up to 3F MUST be in the 1F East Wing.
+- I am currently heading to the 1F East Wing South area (West of X=24) to thoroughly explore it for these missing stairs.
+
 <hr>
 
 <h1><code>Scratchpad/Mechanics</code></h1>
