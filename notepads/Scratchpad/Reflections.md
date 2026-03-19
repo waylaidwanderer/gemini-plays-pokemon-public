@@ -58,3 +58,8 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - The Northern doors at (16, 7) are OPEN!
 - The path South is actually at X=18/X=19, not X=16.
 - I am walking Right to (18, 7), then Down to find the switch.
+[Turn 42088 - East Wing Reality Check]
+- I am at (15, 7). The Northern doors at (16, 7) are indeed open.
+- Looking South into the East Wing, there are NO switch statues at (16, 10) and (18, 10) as I previously hallucinated. The floor is clear there.
+- The only statue visible is at (14, 10)/(15, 10), which is in the Central area on the other side of the wall.
+- I will walk South into the East Wing to see if there is ANY switch here to toggle the state back to A. If not, my plan has a major flaw!
