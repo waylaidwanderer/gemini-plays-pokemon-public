@@ -1373,6 +1373,7 @@ Plan: Switch to State A, head to 1F (24, 13), and carefully search the East Wing
 - Ponyta
 - Grimer
 - Muk
+- Koffing
 
 [1F Points of Interest]
 - Central Hallway runs North from the entrance along X=5.
