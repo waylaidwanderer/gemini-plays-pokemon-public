@@ -1147,7 +1147,9 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
   3. Walk East to (16, 6) and South through the OPEN Northern doors at (16, 7).
   4. Press the trap switch at (16, 10) to set Mansion to STATE A.
   5. The East doors at (24, 13) are now OPEN. Walk through them and take the stairs to 3F!
-- I am currently at 2F (1, 6). I must walk back East to the gap at (10, 9), go South, then West to (2, 12).
+- I am currently on 2F at (7, 10).
+- The path South is blocked by bookshelves at (6, 12) and (7, 12).
+- I will walk D, L, L to (5, 11), then D, D to Y=13, then L through the gap at (3, 13) to reach the switch at (2, 12).
 
 <hr>
 
