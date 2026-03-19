@@ -1108,6 +1108,10 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Hallucination corrected: The main stairs at 1F (7, 10) do NOT lead to a secret area.
 - Resuming exploration of 1F East Wing.
 - Crossing the X=9 wall gap at Y=11, then heading East to X=12 to bypass the rubble at Y=8, aiming for the East doors at (24, 13) to fully explore the South-West area.
+[Turn 42906 Reflection]
+- Discovered that the area South of Y=13 (from X=12 to at least X=16) is the enclosed area reached by jumping down the 3F pit. It is separated from the main 1F floor by solid walls at Y=13 and X=11.
+- The X=13 vertical wall blocks passage East from X=12.
+- Moving North along X=12 to find a gap in the X=13 wall to access the East Wing (and the doors at 24, 13).
 
 <hr>
 
