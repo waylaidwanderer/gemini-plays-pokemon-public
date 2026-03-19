@@ -13,3 +13,5 @@
 [Turn 43838] Result of Routing Hypothesis 2:
 - FAILED. The isolated 3F room at (7, 10) is completely walled off on the East side by a solid wall at X=11 from Y=8 to Y=15. It physically cannot connect to the doors at (15, 10). It is a permanent dead end.
 - New Plan: Access 1F East Wing via the NE corridor (Y=3). Walk South past the doors at (26, 27) (which should be OPEN in State B) to find stairs to 2F East Wing.
+[Turn 43846] Result of New Plan:
+- FAILED. The gap at X=12 on 1F is a dead end going North, blocked by a statue at (12, 7). You CANNOT reach the NE corridor from the Central Hallway. I must return to 2F and systematically search for the true stairs to the main 3F area.
