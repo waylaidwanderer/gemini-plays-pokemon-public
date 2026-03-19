@@ -1108,6 +1108,10 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 6. Explore 2F South to bypass the X=22 rubble and reach the stairs UP to 3F!
 
 Goal: Execute the 2F Master Route.
+[Turn 43224 Reflection]
+- I arrived at the 2F Northern doors (18, 8) and they are CLOSED! This means the mansion is currently in State A.
+- Why? Because I spammed 'A' on the switch at (2, 11) in Turn 43202-43206. The "A secret switch! Press it?" prompt defaults to Yes, so spamming 'A' toggled the switch multiple times, putting me right back where I started!
+- I must return to the switch at (2, 11), press it EXACTLY ONCE, and visually verify the State B change before proceeding.
 
 <hr>
 
