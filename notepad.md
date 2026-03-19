@@ -1100,6 +1100,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 2. Take the main stairs at 1F (7, 10) up to 3F (7, 10).
 3. The doors at 3F (15, 10) are now OPEN. Walk East through them.
 4. Jump down the pit at (16, 14) to reach B1F!
+[Turn 43838] Result of Routing Hypothesis 2:
+- FAILED. The isolated 3F room at (7, 10) is completely walled off on the East side by a solid wall at X=11 from Y=8 to Y=15. It physically cannot connect to the doors at (15, 10). It is a permanent dead end.
+- New Plan: Access 1F East Wing via the NE corridor (Y=3). Walk South past the doors at (26, 27) (which should be OPEN in State B) to find stairs to 2F East Wing.
 
 <hr>
 
