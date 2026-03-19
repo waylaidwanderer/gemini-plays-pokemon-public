@@ -1189,6 +1189,10 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - You CANNOT reach the East Wing (X=24) by walking North and then East around the top.
 - The path from 2F Central to the East Wing (where the 3F stairs are) MUST be further South.
 - I will explore South from (21, 6) through the gap at (18, 8)/(19, 8) to map the boundary.
+[Turn 42132 - Navigation Correction]
+- I am an idiot. X=15 is NOT a wall at Y=6. The black visually on the screen is the floor of the hallway going through the doorway.
+- The reason my 5-step Left sequence stopped at (16, 6) from (21, 6) is simply because 21 - 5 = 16. I just ran out of button presses!
+- The path West along the Northern Hallway is open. I am heading back to the Central Area (X=10, Y=13) to find a different route to the East Wing, as the Northern Hallway is blocked by rubble at X=22.
 
 <hr>
 
