@@ -14,6 +14,7 @@
 - 3F to 2F (DOWN-ONLY): Found drop-down stairs at (6, 1) and (6, 21) on 2F. These cannot be ascended.
 - 1F to B1F: Stairs at (21, 23) in the isolated enclosed area of 1F lead down to B1F. (Accessed by jumping down 3F pit at 16, 14).
 
-[Turn 42541 Reflection]
-- Hallucination cleared: There is NO switch at (15, 10). It's just a desk. The "2F Airlock" theory is busted.
-- Returning to Northern Hallway (Y=6) to physically verify if X=23 is blocked by rubble. If it's open, my original Master Route was correct all along.
+[Turn 42542 Reflection]
+- DOUBLE HALLUCINATION CLEARED: The switch statue IS at (15, 9)/(15, 10). I was mistakenly interacting with the crates at (15, 11) earlier.
+- The "2F Airlock" theory is 100% CORRECT and REQUIRED.
+- The Northern Hallway Y=6 is indeed blocked by rubble at X=23. We MUST pass South through the Northern Doors at (18, 8) while in State B, then hit the switch at (15, 10) to toggle to State A. This closes the doors behind us, but OPENS the path East to the stairs!

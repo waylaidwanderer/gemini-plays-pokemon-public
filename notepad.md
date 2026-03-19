@@ -1104,9 +1104,10 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - 3F to 2F (DOWN-ONLY): Found drop-down stairs at (6, 1) and (6, 21) on 2F. These cannot be ascended.
 - 1F to B1F: Stairs at (21, 23) in the isolated enclosed area of 1F lead down to B1F. (Accessed by jumping down 3F pit at 16, 14).
 
-[Turn 42541 Reflection]
-- Hallucination cleared: There is NO switch at (15, 10). It's just a desk. The "2F Airlock" theory is busted.
-- Returning to Northern Hallway (Y=6) to physically verify if X=23 is blocked by rubble. If it's open, my original Master Route was correct all along.
+[Turn 42542 Reflection]
+- DOUBLE HALLUCINATION CLEARED: The switch statue IS at (15, 9)/(15, 10). I was mistakenly interacting with the crates at (15, 11) earlier.
+- The "2F Airlock" theory is 100% CORRECT and REQUIRED.
+- The Northern Hallway Y=6 is indeed blocked by rubble at X=23. We MUST pass South through the Northern Doors at (18, 8) while in State B, then hit the switch at (15, 10) to toggle to State A. This closes the doors behind us, but OPENS the path East to the stairs!
 
 <hr>
 
@@ -1472,13 +1473,15 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - 1F North-West doors at (9, 4)/(9, 5) are OPEN in State A, and CLOSED in State B. My previous note about (16, 5) being doors was a hallucination; they are just solid walls.
 - VERIFIED PATH: To travel between the Northern doors (16, 7) and the West Wing, use the northernmost hallway. Walk West along Y=6 to X=11, North to Y=2, West to X=4, South to Y=5, and West into the West Wing.
 [MASTER ROUTE TO SECRET KEY]
-1. 2F: Ensure Mansion is in State A (Default) using the West Wing switch at (2, 12).
-2. 2F: Navigate East via the Northern Hallway (Y=6), completely bypassing the Northern doors at (18, 8).
-3. 2F: Walk East all the way to X=24, then South to (24, 13).
-4. 2F: Go through the open East doors at (24, 13) and take stairs UP to 3F.
-5. 3F: Press a switch to trigger State B. (Southern doors at 15,10 OPEN).
-6. 3F: Jump down the pit at (16, 14).
-7. 1F: Land in enclosed area. Take stairs down to B1F.
-8. B1F: Central doors (20, 17) are OPEN (State B)! Walk West to Secret Key.
+1. 2F: Ensure Mansion is in State B using the West Wing switch at (2, 12).
+2. 2F: Navigate East via the Northern Hallway (Y=6) to X=18.
+3. 2F: Walk South through the OPEN Northern doors at (18, 8) to enter the Central Area.
+4. 2F: THE AIRLOCK: Walk West to (16, 10). Face Left and press the switch at (15, 10).
+5. 2F: The Mansion is now in State A! The Northern doors (18, 8) close behind you, but the East doors at (24, 13) OPEN!
+6. 2F: Walk East along Y=9 to X=24, then South to take the stairs UP to 3F at (24, 14).
+7. 3F: Press a switch to trigger State B. (Southern doors at 15,10 OPEN).
+8. 3F: Jump down the pit at (16, 14).
+9. 1F: Land in enclosed area. Take stairs down to B1F.
+10. B1F: Central doors (20, 17) are OPEN (State B)! Walk West to Secret Key.
 
 <hr>
