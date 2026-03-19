@@ -1193,6 +1193,15 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - I am an idiot. X=15 is NOT a wall at Y=6. The black visually on the screen is the floor of the hallway going through the doorway.
 - The reason my 5-step Left sequence stopped at (16, 6) from (21, 6) is simply because 21 - 5 = 16. I just ran out of button presses!
 - The path West along the Northern Hallway is open. I am heading back to the Central Area (X=10, Y=13) to find a different route to the East Wing, as the Northern Hallway is blocked by rubble at X=22.
+[Turn 42148 - The TRUE Master Plan to 3F]
+- My previous Master Plan failed because X=22 is completely blocked by rubble from Y=6 down to Y=16. I cannot reach the East doors (24, 13) from the North.
+- NEW HYPOTHESIS: I must reach the 3F stairs from the SOUTH!
+- 1. Set Mansion to State B. (Currently done).
+- 2. Navigate to the Central Doors at (20, 17) / (21, 17). They are OPEN in State B!
+- 3. Walk South through the Central Doors to reach the South-East area.
+- 4. Find the switch at (21, 13)/(21, 14) in the South-East area and press it to change to State A.
+- 5. This will OPEN the East doors at (24, 13), granting access to the 3F stairs!
+- Let's execute this. I am currently at (10, 4) and will head South to find a path to (20, 17).
 
 <hr>
 
