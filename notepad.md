@@ -1466,7 +1466,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - VERIFIED: 1F South-East corridor (behind 16, 7 doors) is a DEAD END. Blocked by solid rubble at Y=13.
 - VERIFIED: 1F East Wing is a DEAD END. Closed doors at (26, 27) and NO stairs.
 - CONCLUSION: The path to 3F main area is ON 2F.
-- Clue from Context Summary: "discovered a 1-tile wide gap at X=12 connecting the northern and southern sections" on 2F.
-- Plan: Return to 2F main stairs. Explore the Central area to find the X=12 gap to the southern section.
+- VERIFIED: The context summary had a typo. The 1-tile wide gap connecting the northern and southern sections of 2F is at X=10, NOT X=12.
+- Plan: Walk South down X=10 to access the 2F Southern area, then locate the stairs to the 3F pit.
 
 <hr>
