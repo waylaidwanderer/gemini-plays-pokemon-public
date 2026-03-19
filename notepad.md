@@ -1114,6 +1114,11 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   3. Go DOWN to 1F via stairs at (5, 10).
   4. Walk through the now-open 1F electronic doors at (16, 7)/(17, 7).
   5. Explore the 1F East Wing for stairs to 2F.
+[Turn 42264 Reflection]
+- Immediate Execution: Exiting this accidental menu, then navigating to (2, 12) via the northern hallway.
+- Notepad Hygiene: Master Route is cleanly documented. Will update the northern hallway path once I confirm if X=12 can go North to Y=2.
+- Error Analysis: My `run_battle` tool input got desynced because I executed it while the battle intro text was still rendering. I MUST use a sleep command or wait for the text to finish before using menu navigation tools.
+- Goal Clarity: Goals are clear. Find Secret Key using Master Route.
 
 <hr>
 
