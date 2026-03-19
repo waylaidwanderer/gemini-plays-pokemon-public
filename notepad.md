@@ -1129,6 +1129,14 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 5. Tool Maintenance: `run_battle` is functioning as intended. I need to remember NOT to execute it while intro text is rendering.
 6. Goal Clarity: Find the Secret Key via the new hypothesized State A bypass route.
 7. Error Analysis: I spent a lot of time trying to navigate 2F while it was in the wrong state or assuming 2F was the only way up. By exploring 1F in State B, I confirmed the door state logic is vertical (1F and 2F doors share states). This drastically simplifies the solution.
+[Turn 42368 50-Turn Reflection]
+1. Immediate Execution: Exploring the northern boundary of 2F (Y=1, Y=2, Y=6) to find a path to the 2F East Wing that bypasses the Northern doors at (16, 7).
+2. Notepad Hygiene: Updated Locations/PokemonMansion with the MACRO LOOP logical paradox.
+3. Map Hygiene: Current map markers are sufficient.
+4. Custom Tools: `run_battle` is sufficient.
+5. Tool Maintenance: Remember to clear text boxes before moving.
+6. Goal Clarity: Find a new path to the East Wing.
+7. Error Analysis: I failed to recognize that State A and State B doors are mutually exclusive logic gates. If a route requires passing a State A door AND a State B door, it's impossible unless there's a switch between them. Since I need to reach (24, 13) [State A open] and the only known path passes (16, 7) [State B open], I must either find a switch between them or find a bypass route. Exploring for a bypass now.
 
 <hr>
 
