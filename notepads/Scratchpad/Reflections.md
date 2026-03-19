@@ -14,8 +14,9 @@
 - 3F to 2F (DOWN-ONLY): Found drop-down stairs at (6, 1) and (6, 21) on 2F. These cannot be ascended.
 - 1F to B1F: Stairs at (21, 23) in the isolated enclosed area of 1F lead down to B1F. (Accessed by jumping down 3F pit at 16, 14).
 
-[Turn 42571 Reflection]
-- The Overwatch agent correctly pointed out my mistake: I tested the stairs at 1F (7, 10) instead of 2F (7, 10)!
-- 2F (7, 10) are the true stairs to the 3F isolated room.
-- My State B route is the correct one. I just toggled the switch to State A, so I need to press it AGAIN to return to State B.
-- Then, I will walk to 2F (7, 10) and take the stairs up to 3F!
+[Turn 42576 50-Turn Reflection]
+1. Error Analysis: I made a massive error by testing the "3F stairs at (7, 10)" on the 1st floor instead of the 2nd floor. This caused me to hallucinate that the stairs were "fake", throw away my correct strategy, and enter a confusing execution loop trying to force an impossible path.
+2. Rule Reminder: Always verify the EXACT map/floor I am on before testing hypotheses!
+3. Goal Clarity: Find the Secret Key.
+4. Method (Master Route): We are now in State B (since I just pressed the switch again). I will walk to 2F (7, 10) and take the stairs UP to 3F. From there, the Southern doors at 3F (15, 10) will be OPEN, allowing me to reach the pit at (16, 14) and jump down!
+5. Immediate Action: Clear the switch text box, then walk Right and Up to reach (7, 10) on this floor.
