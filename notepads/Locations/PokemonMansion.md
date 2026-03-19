@@ -25,7 +25,8 @@
 - The glowing-eye statue at (15, 10)/(15, 11) is a red herring; it does not have a hidden switch.
 - The Northeast area (accessed via X=18) contains a diary at (18, 2) and CONNECTS to the East Wing via a gap at Y=3.
 - South-East corridor (X=18 to X=21, Y=12 to Y=15) is a dead end. The East Wing corridor (accessed via the doors at 24, 13) continues South of Y=18. (Previously hallucinated stairs at 25, 14).
-- 1F South-East doors are located at (26, 27) and (27, 27). These block the path South.
+- 1F South-East doors are located at (26, 27) and (27, 27). These are closed in State A.
+- Found a glowing-eye switch statue at (27, 18) in the East Wing. This allows toggling to State B from within the East Wing!
 - SW corridor (X=1/X=2) runs from Y=27 North to Y=10. It is a dead end containing a Burglar at (1, 14), and connects to the Central Hallway via a gap at (3, 11).
 
 [2F Points of Interest]
