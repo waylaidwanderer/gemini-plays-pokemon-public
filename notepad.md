@@ -1142,6 +1142,8 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - This means the Northern doors at (16, 7) are OPEN, and the East doors at (24, 13) are CLOSED.
 - Next step: Walk to the Northern Hallway via the gap at (10, 9).
 - Tracing path from (2, 12) to avoid bookshelves at X=7: R to (3, 12), D to (3, 13), R, R to (5, 13), U, U to (5, 11), then East to X=10.
+[Turn 42086 - Moving to Northern Doors]
+- Path is clear. Walking Up to (10, 7), then Right to (15, 7) towards the Northern doors at (16, 7). Expecting them to be OPEN.
 
 <hr>
 
