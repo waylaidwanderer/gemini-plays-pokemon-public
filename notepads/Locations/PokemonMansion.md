@@ -98,8 +98,15 @@
 - The West Wing North of Y=9 is a dead end containing only the switch statue at (2, 4) and the one-way drop-down stairs at (6, 1). The wall at Y=9 is solid from X=0 to X=9.
 - 1F North-West doors at (9, 4)/(9, 5) are OPEN in State A, and CLOSED in State B. My previous note about (16, 5) being doors was a hallucination; they are just solid walls.
 - VERIFIED PATH: To travel between the Northern doors (16, 7) and the West Wing, use the northernmost hallway. Walk West along Y=6 to X=11, North to Y=2, West to X=4, South to Y=5, and West into the West Wing.
-[CURRENT HYPOTHESIS: 1F EAST WING ROUTE]
-- FACT: 2F Northern Hallway (Y=6) is BLOCKED by solid rubble at X=23. Tested Turn 42621.
-- FACT: 2F Central Area (Y=9 to Y=16) is BLOCKED by solid rubble at X=22. Tested Turn 42546.
-- HYPOTHESIS: The East Wing of 2F MUST be accessed from stairs on 1F! 
-- EMPIRICAL DISCOVERY (Turn 42633): The 1F East Wing is accessible via a gap at Y=3. I passed through X=22 at Y=3 and am now exploring South along X=26/X=27.
+[TRUE MASTER ROUTE TO SECRET KEY]
+1. 2F: Ensure State A (using switch at 2,12). (State A = 1F/2F East doors OPEN).
+2. 2F: Walk to the stairs at (5, 10) and take them DOWN to 1F.
+3. 1F: Walk East through the gap at (9, 10), then North to Y=3, and East to X=24.
+4. 1F: Cross the gap at (22, 3) to enter the 1F East Wing.
+5. 1F: Walk South to (24, 13). The East doors will be OPEN!
+6. 1F: Walk through the doors and take the stairs at (25, 14) UP to 2F East Wing!
+7. 2F: (Pending exploration of 2F East Wing) -> likely leads to 3F East Wing!
+8. 3F: Press switch statue to toggle to State B.
+9. 3F: Jump down the pit at (16, 14).
+10. 1F: Land in enclosed area. Take stairs to B1F.
+11. B1F: Central doors at (20, 17) are OPEN (State B). Walk West to Secret Key!
