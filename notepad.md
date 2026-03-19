@@ -1125,13 +1125,35 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - Standing at 2F (5, 15).
 - There is a Burglar trainer at (1, 17). He paces between X=1 and X=3.
 - The path South is clear at X=5. I will walk down to Y=22 to enter the red carpet room and see what's there.
-[Turn 42036 - 2F West North Route Blocked]
-- The corridor at Y=18 is a solid wall from X=1 to X=7.
-- This confirms that the West Wing on 2F (North of Y=18) is completely isolated from the red carpet area (South of Y=18).
-- I need to find another way to access the South-West corner of 2F or 1F.
-- My notes say the 1F Central Hallway is blocked at Y=9.
-- Let's rethink. Are there any other stairs? Or maybe a pit I haven't jumped down yet?
-- Let's go re-explore the rest of 2F Central to see if I missed any gaps in the pillars or walls.
+[Turn 42039 - Route to 3F Main]
+- I am currently back on 1F at (5, 10).
+- I need to get to 2F East Wing, then take the stairs at (24, 13) up to 3F.
+- To reach 2F East Wing from 2F Central, I MUST pass through the Northern doors at (16, 7).
+- The Northern doors are ONLY open in STATE B.
+- However, to access the stairs at (24, 13) in the 2F East Wing, the East doors at (24, 13) must be OPEN.
+- The East doors are ONLY open in STATE A.
+- This means I need to toggle the state WHILE I am in the East Wing!
+- But wait, the only switches I know of in the East Wing are the trap switches at (16, 10) and (18, 10) that lock you in.
+- Let me re-read my notes carefully.
+- "Found a glowing-eye switch statue at (21, 13)/(21, 14) in the enclosed South-East area (accessed via East doors)."
+- Ah! That's it!
+- The route is:
+  1. Set Mansion to STATE A (using 1F switch).
+  2. The 2F Northern doors (16, 7) are CLOSED in State A. I CANNOT reach the East Wing via the 2F Northern hallway!
+  3. Wait. If the Mansion is in State A, how do I get to the East Wing?
+  4. On 1F, the East Wing is accessible via the gaps at X=9 (Y=4/Y=5 and Y=10/Y=11).
+  5. Are there stairs to 2F in the 1F East Wing?
+  6. Let me check my notes: "South-East corridor (X=18 to X=21, Y=12 to Y=15) is a dead end. Stairs are visible behind the East wall at (25, 14)/(25, 15) but inaccessible from here."
+  7. Okay, so I can't reach those stairs from 1F.
+  8. So I MUST be on 2F to reach the East Wing.
+  9. To get from 2F Central to 2F East Wing, I MUST use the 2F Northern hallway, which requires the Northern doors at (16, 7) to be OPEN (State B).
+  10. So the Mansion MUST be in State B to enter the 2F East Wing.
+  11. If the Mansion is in State B, the East doors at (24, 13) are CLOSED.
+  12. This means I can enter the East Wing, but I'll be blocked from the stairs by the closed doors at (24, 13).
+  13. Is there a switch in the accessible part of the 2F East Wing (North of the doors) that I can use to toggle back to State A?
+  14. My notes say: "Corridor South of (16, 7) leads to two switch statues at (16, 10) and (18, 10)."
+  15. Are these really trap switches? Or are they the key to progressing?
+  16. Let's test this theory! I need to get the Mansion into State B, go to 2F, walk through the Northern doors to the East Wing, and press one of those switches!
 
 <hr>
 
@@ -1426,6 +1448,8 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - Arrived from 1F via stairs at (5, 10).
 - You CAN walk North-East from the stairs area to the Northern hallway. The path from (10, 13) is North to (10, 9), East to (12, 9), North to (12, 6), then East to (16, 6).
 - VERIFIED: Northern doors at (16, 7)/(17, 7) are OPEN in State B. There is NO solid wall at Y=9 blocking X=10 to X=12.
+- The path from 2F Central to 2F East is via the Northern hallway: Walk North from (10, 13) to (10, 9), East to (12, 9), North to (12, 6), then East to (16, 6).
+- This path requires the Mansion to be in STATE B (Northern doors open)!
 - The tiles at (7, 12) to (7, 15) are normal floor, NOT electronic doors.
 - A path leads West to the Northwest corner at Y=4/Y=5. Found a glowing-eye switch statue at (2, 4)/(2, 5)! PRESSED on Turn 41093.
 - Found stairs at (6, 1) dropping down from 3F. TESTED: These stairs CANNOT be ascended. They must be a one-way exit.
