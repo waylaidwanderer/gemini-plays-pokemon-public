@@ -1104,14 +1104,14 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - 3F to 2F (DOWN-ONLY): Found drop-down stairs at (6, 1) and (6, 21) on 2F. These cannot be ascended.
 - 1F to B1F: Stairs at (21, 23) in the isolated enclosed area of 1F lead down to B1F. (Accessed by jumping down 3F pit at 16, 14).
 
-[Turn 42451 50-Turn Reflection]
-1. Immediate Execution: I'm following the REAL Master Route. The Airlock puzzle requires me to enter the Central Area via (18, 8) in State B, switch to State A at (15, 11), and exit South through gaps at (16, 16)/(17, 16) to reach the East Wing stairs.
-2. Notepad Hygiene: Removed hallucinated trap/shortcut theories.
+[Turn 42472 50-Turn Reflection]
+1. Immediate Execution: I am walking to the global switch at (2, 12) via the gap at (9, 5) and the X=10 corridor to trigger State B for the Airlock puzzle.
+2. Notepad Hygiene: Removed hallucinated trap/shortcut theories. Found another hallucination: "Rubble at Y=8 blocks X=8 to X=11". The screen clearly shows Y=8 is open floor from X=10 to X=12.
 3. Map Hygiene: Stable.
 4. Custom Tools: None.
 5. Tool Maintenance: Good.
 6. Goal Clarity: Execute Master Route Airlock.
-7. Error Analysis: I hallucinated being trapped because I forgot about the gaps at Y=16 I mapped earlier. Overwatch corrected me.
+7. Error Analysis: I hallucinated being trapped because I forgot about the gaps at Y=16 I mapped earlier. I must trust my empirical observations (the screen) over past assumptions.
 
 <hr>
 
