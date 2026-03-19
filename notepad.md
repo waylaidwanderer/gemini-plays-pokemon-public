@@ -1115,6 +1115,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   4. On 1F, walk East to the gap at (9, 11), then North to the doors at (9, 4).
   5. The doors at (9, 4) will be OPEN in State A! Explore the 1F West Wing for stairs!
 - NOTE: I hallucinated a switch on 1F at (2, 11). The switch is ONLY on 2F.
+[Turn 42206 - 1F Navigation Correction]
+- I am on 1F. The electronic doors ARE at (16, 7) and (17, 7), and they are currently CLOSED in State A.
+- The path to the West Wing is via the Northern hallway at Y=2. I am bypassing a Burglar at (12, 5) by walking through X=11.
 
 <hr>
 
