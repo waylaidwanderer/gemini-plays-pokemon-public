@@ -1411,7 +1411,7 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 [Navigation]
 - Located at (6, 3) on Cinnabar Island.
 - 1F Exit is at (5, 27).
-- 1F Map ID is 0_214. 2F Map ID is 0_165. 3F Map ID: 0_215. B1F Map ID: 0_216.
+- 1F Map ID is 0_165. 2F Map ID is 0_214. 3F Map ID: 0_215. B1F Map ID: 0_216.
 
 [Encounters]
 - Vulpix
