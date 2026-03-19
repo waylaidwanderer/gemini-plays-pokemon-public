@@ -75,33 +75,24 @@
 [Global Door States]
 - State A (Default): 
   - 2F East doors (24, 13) OPEN.
-  - 2F Northern doors (18, 8)/(19, 8) CLOSED.
+  - 2F Northern doors (16, 7)/(17, 7) CLOSED.
   - 2F South-East doors (26, 27) CLOSED. (Verified Turn 39633)
   - 3F Northern doors (15, 4) OPEN.
   - 3F Southern doors (15, 10) CLOSED.
   - B1F Central doors (20, 17) CLOSED.
 - State B: 
   - 2F East doors (24, 13) CLOSED.
-  - 2F Northern doors (18, 8)/(19, 8) OPEN.
+  - 2F Northern doors (16, 7)/(17, 7) OPEN.
   - 2F South-East doors (26, 27) OPEN. (Hypothesis: Alternates with State A)
   - 3F Northern doors (15, 4) CLOSED.
   - 3F Southern doors (15, 10) OPEN.
   - B1F Central doors (20, 17) OPEN.
 - 2F Central doors located at (20, 17) and (21, 17). In State A, these are CLOSED. They block the path South to Y=18.
 - Found a glowing-eye switch statue at (21, 13)/(21, 14) in the enclosed South-East area (accessed via East doors).
-[MASTER ROUTE TO SECRET KEY - FINAL]
-1. 2F: Ensure Mansion is in State B using switch at (2, 12). (Northern doors at 18,8 are OPEN).
-2. 2F: Walk East along Y=6, go South through doors at (18, 8).
-3. 2F: Walk to (16, 11), face Left, press switch at (15, 11) to trigger State A. (East doors at 24,13 OPEN).
-4. 2F: Walk East to (24, 13), go through doors, take stairs UP to 3F.
-5. 3F: Press a switch to trigger State B. (Southern doors at 15,10 OPEN).
-6. 3F: Jump down the pit at (16, 14).
-7. 1F: Land in enclosed area. Take stairs down to B1F.
-8. B1F: Central doors (20, 17) are OPEN (State B)! Walk West to Secret Key.
 - Rubble at Y=8 blocks X=8 to X=11 on 2F West. Path South is at X=7 or X=6.
 - Rubble at Y=16 blocks X=5 to X=7. The path South is only open from X=1 to X=4.
 - Solid wall at Y=18 blocks X=1 to X=7. The West Wing North of Y=18 is a VERIFIED DEAD END!
 - Corridor South of (16, 7) leads to a switch statue at (14, 10)/(15, 10) facing East. Pressing this switch from (16, 10) triggers STATE A, locking the Northern doors but opening the East doors to progress.
 - The West Wing North of Y=9 is a dead end containing only the switch statue at (2, 4) and the one-way drop-down stairs at (6, 1). The wall at Y=9 is solid from X=0 to X=9.
 - 1F North-West doors at (9, 4)/(9, 5) are OPEN in State A, and CLOSED in State B. My previous note about (16, 5) being doors was a hallucination; they are just solid walls.
-- VERIFIED PATH: To travel between the Northern doors (18, 8) and the West Wing, use the northernmost hallway. Walk West along Y=6 to X=11, North to Y=2, West to X=4, South to Y=5, and West into the West Wing.
+- VERIFIED PATH: To travel between the Northern doors (16, 7) and the West Wing, use the northernmost hallway. Walk West along Y=6 to X=11, North to Y=2, West to X=4, South to Y=5, and West into the West Wing.
