@@ -102,4 +102,3 @@
 [TRUE MASTER ROUTE TO SECRET KEY]
 - The 2F Central doors at (20, 17) lead to a dead-end 4x3 room.
 - The stairs at 1F (6, 10)/(7, 10) lead to an isolated 3F room containing only a Burglar and a Diary. It is a dead end.
-- Current Plan: Explore the 1F South-West and South-East areas near the entrance for a new path.
