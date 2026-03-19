@@ -1471,16 +1471,16 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - 1F North-West doors at (9, 4)/(9, 5) are OPEN in State A, and CLOSED in State B. My previous note about (16, 5) being doors was a hallucination; they are just solid walls.
 - VERIFIED PATH: To travel between the Northern doors (16, 7) and the West Wing, use the northernmost hallway. Walk West along Y=6 to X=11, North to Y=2, West to X=4, South to Y=5, and West into the West Wing.
 [TRUE MASTER ROUTE TO SECRET KEY]
-1. 2F: Ensure State A (using switch at 2,12). (State A = 1F/2F East doors OPEN).
-2. 2F: Walk to the stairs at (5, 10) and take them DOWN to 1F.
-3. 1F: Walk East through the gap at (9, 10), then North to Y=3, and East to X=24.
-4. 1F: Cross the gap at (22, 3) to enter the 1F East Wing.
-5. 1F: Walk South to (24, 13). The East doors will be OPEN!
-6. 1F: Walk through the doors and take the stairs at (25, 14) UP to 2F East Wing!
-7. 2F: (Pending exploration of 2F East Wing) -> likely leads to 3F East Wing!
-8. 3F: Press switch statue to toggle to State B.
-9. 3F: Jump down the pit at (16, 14).
-10. 1F: Land in enclosed area. Take stairs to B1F.
-11. B1F: Central doors at (20, 17) are OPEN (State B). Walk West to Secret Key!
+1. 2F: Ensure State B (using switch at 2,12). (State B = 2F Northern doors OPEN).
+2. 2F: Walk through Northern Hallway to (16, 6), then South through open doors to (16, 10).
+3. 2F: Press switch at (16, 10) to toggle to State A. (Closes Northern doors, OPENS East doors at 24, 13).
+4. 2F: Walk East and through the open East doors to access the South-East stairs to 3F.
+5. 3F: You arrive in State A. The Southern doors at (15, 10) blocking the pit are CLOSED.
+6. 3F: Find the switch at (10, 4) and press it to toggle to State B.
+7. 3F: Walk South through the now OPEN Southern doors at (15, 10) to reach the pit at (16, 14).
+8. 3F: Jump down the pit!
+9. 1F: Land in enclosed area. Take stairs down to B1F.
+10. B1F: Since you are in State B, the Central doors at (20, 17) are OPEN.
+11. B1F: Walk West through the doors to claim the Secret Key!
 
 <hr>
