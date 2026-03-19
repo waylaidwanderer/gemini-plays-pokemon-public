@@ -1089,25 +1089,17 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 <h1><code>Scratchpad/Reflections</code></h1>
 
 [Active Reflections]
-[Door Logic]
-- TYPE_a83b (glowing orange lines) = ACTIVE LASER BARRIER (CLOSED).
-- TYPE_3fe2 (plain pink floor) = OPEN DOOR / REGULAR FLOOR.
-- 1F East doors (24, 13) OPEN in State A, CLOSED in State B.
-- 1F Northern doors (16, 7) CLOSED in State A, CLOSED in State B. (Hypothesis disproven! 1F East Wing is a dead end)
-- 1F South-East doors (26, 27) CLOSED in State A.
-- 2F East doors (24, 13) OPEN in State A, CLOSED in State B.
-- 2F Northern doors (18, 8) CLOSED in State A, OPEN in State B.
-- 2F Central doors (20, 13) CLOSED in State A, OPEN in State B.
+[The TRUE Path to B1F]
+1. The main stairs from 1F (Y=10) are 3 tiles wide.
+2. The rightmost tile (7, 10) leads to 2F (7, 10), which is adjacent to stairs going UP to 3F (7, 9).
+3. Taking these stairs places us in the Southern half of 3F.
+4. In State A, the 3F Southern doors at (15, 10) are CLOSED, making this area seem like an isolated room (which I documented earlier).
+5. But in State B, the 3F Southern doors at (15, 10) will be OPEN!
+6. This allows access to the 3F Pit at (16, 14).
+7. Jumping down the pit lands us in the enclosed 1F area with the stairs to B1F!
 
-[The True Master Route Hypothesis]
-1. Go to 2F via stairs at 1F (5, 10).
-2. Toggle 2F switch at (2, 11) to STATE B.
-3. Navigate 2F Northern Hallway to (18, 6), then walk South through the OPEN doors at (18, 8).
-4. Continue South down the Central Hallway to the Central doors at (20, 13).
-5. Pass through the OPEN Central doors at (20, 13) in State B.
-6. Explore 2F South to bypass the X=22 rubble and reach the stairs UP to 3F!
-
-Goal: Execute the 2F Master Route.
+Current Status: Mansion is in State B. The 2F Central doors led to a dead-end room.
+Goal: Return to 2F (7, 10), take the stairs up to 3F, and head East to the pit!
 
 <hr>
 
