@@ -1493,11 +1493,14 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - The West Wing North of Y=9 is a dead end containing only the switch statue at (2, 4) and the one-way drop-down stairs at (6, 1). The wall at Y=9 is solid from X=0 to X=9.
 - 1F North-West doors at (9, 4)/(9, 5) are OPEN in State A, and CLOSED in State B. My previous note about (16, 5) being doors was a hallucination; they are just solid walls.
 - VERIFIED PATH: To travel between the Northern doors (16, 7) and the West Wing, use the northernmost hallway. Walk West along Y=6 to X=11, North to Y=2, West to X=4, South to Y=5, and West into the West Wing.
-[1F East Wing Door Logic - MACRO LOOP]
-- To reach the stairs at (25, 14) from the Northern gap at Y=6, you must pass doors at (16, 7) AND doors at (24, 13).
-- In State A: (24, 13) is OPEN, but (16, 7) is CLOSED.
-- In State B: (16, 7) is OPEN, but (24, 13) is CLOSED.
-- CONCLUSION: It is IMPOSSIBLE to reach the stairs via the Northern gap at Y=6!
-- NEW HYPOTHESIS: The 1F East doors at (24, 13) are inaccessible from the West side of the mansion. The route to the Secret Key MUST be through 2F. I need to thoroughly explore the northernmost area of 2F (Y=1 or Y=2) to find a way to the 2F East doors.
+[MASTER ROUTE TO SECRET KEY]
+1. 2F: Ensure Mansion is in State B using switch at (2, 12). (Northern doors 16,7 OPEN).
+2. 2F: Navigate to (16, 6) via Northern Hallway (Y=6). Walk South through doors at (16, 7).
+3. 2F: Walk to (16, 10). Face Left, press switch at (15, 10) to trigger State A. (East doors at 24,13 OPEN).
+4. 2F: Walk East to (24, 13), go through doors, take stairs UP to 3F.
+5. 3F: Press a switch to trigger State B. (Southern doors at 15,10 OPEN).
+6. 3F: Jump down the pit at (16, 14).
+7. 1F: Land in enclosed area. Take stairs down to B1F.
+8. B1F: Central doors (20, 17) are OPEN (State B)! Walk West to Secret Key.
 
 <hr>
