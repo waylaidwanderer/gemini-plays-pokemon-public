@@ -35,3 +35,10 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - Standing at 2F (5, 15).
 - There is a Burglar trainer at (1, 17). He paces between X=1 and X=3.
 - The path South is clear at X=5. I will walk down to Y=22 to enter the red carpet room and see what's there.
+[Turn 42036 - 2F West North Route Blocked]
+- The corridor at Y=18 is a solid wall from X=1 to X=7.
+- This confirms that the West Wing on 2F (North of Y=18) is completely isolated from the red carpet area (South of Y=18).
+- I need to find another way to access the South-West corner of 2F or 1F.
+- My notes say the 1F Central Hallway is blocked at Y=9.
+- Let's rethink. Are there any other stairs? Or maybe a pit I haven't jumped down yet?
+- Let's go re-explore the rest of 2F Central to see if I missed any gaps in the pillars or walls.
