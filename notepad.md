@@ -1089,14 +1089,11 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 <h1><code>Scratchpad/Reflections</code></h1>
 
 [Active Reflections]
-[Hypothesis: 1F East Wing Stairs]
-1. The 3F pit at (16, 14) is accessible via the 3F Southern doors (15, 10) in State B.
-2. To reach the 3F Southern area, we need to find the correct stairs up from 2F.
-3. 2F East Wing has stairs at (25, 14) but is blocked from the rest of 2F by rubble.
-4. Therefore, 2F East Wing must be accessed from 1F.
-5. 1F has doors at (24, 13) leading to the East Wing, which are OPEN in State A.
-6. Hypothesis: There are stairs at 1F (25, 14) that I missed earlier.
-Plan: Switch to State A, head to 1F (24, 13), and carefully search the East Wing for stairs!
+[Hypothesis: 3F Isolated Room]
+- The 2F Central doors (20, 17) lead to a dead end.
+- The East Wing has no hidden stairs.
+- The only unexplored area is the isolated 3F room accessed via the right side of the main staircase at 1F (7, 10).
+- Plan: Head to 1F (7, 10), go up to 3F, and meticulously search every tile of that room for a drop-down point, hidden switch, or item.
 
 <hr>
 
