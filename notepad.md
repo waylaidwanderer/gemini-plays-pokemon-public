@@ -1093,7 +1093,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - TYPE_a83b (glowing orange lines) = ACTIVE LASER BARRIER (CLOSED).
 - TYPE_3fe2 (plain pink floor) = OPEN DOOR / REGULAR FLOOR.
 - 1F East doors (24, 13) OPEN in State A, CLOSED in State B.
-- 1F Northern doors (16, 7) CLOSED in State A, CLOSED in State B. (Hypothesis disproven!)
+- 1F Northern doors (16, 7) CLOSED in State A, OPEN in State B (Hypothesis).
 - 1F South-East doors (26, 27) CLOSED in State A.
 - 2F East doors (24, 13) OPEN in State A, CLOSED in State B.
 - 2F Northern doors (18, 8) CLOSED in State A, OPEN in State B.
@@ -1107,7 +1107,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 5. Pass through the OPEN Central doors at (20, 17) in State B.
 6. Explore 2F South to bypass the X=22 rubble and reach the stairs UP to 3F!
 
-Goal: Return to 2F and execute the Master Route. The 1F East Wing route is a dead end because the 1F Northern doors at (16, 7) are closed in BOTH states.
+Goal: Return to 1F Northern doors at (16, 7) and test if they are open in State B. I accidentally wrote they were closed before testing them.
 
 <hr>
 
