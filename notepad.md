@@ -1134,11 +1134,12 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
   4. But it OPENS the East doors at (24, 13)!
   5. Walk through the East doors and take the stairs to 3F Main Area!
 - I am currently executing step 1: walking from 2F Central to 2F West to press the switch.
-[Turn 42050 - Correcting Navigation Error]
-- I accidentally stepped back onto the stairs at 2F (5, 10) while trying to navigate around the pillars, sending me back to 1F.
-- The path North on 2F is NOT at X=5. X=5 at Y=10 is the stairs down!
-- The gap in the pillars to go North is at X=3.
-- To reach the 2F switch at (2, 4): From 2F (5, 10), go Left to (3, 10), Up to (3, 5), Left to (2, 5), face Up and interact.
+[Turn 42051 - Correcting Navigation Error again]
+- I am at 2F (5, 11). I just checked the screen carefully.
+- The green pillars at Y=9 on 2F are SOLID from X=1 to X=9.
+- There is NO gap at X=3 or X=5.
+- The ONLY way North from the 2F stairs is to walk East to X=10, where there is a gap at (10, 9).
+- To reach the switch at (2, 4): Walk East to X=10, North through the gap to the Northern Hallway, then wrap all the way around the top to the West Wing.
 
 <hr>
 
