@@ -1468,14 +1468,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - 1F North-West doors at (9, 4)/(9, 5) are OPEN in State A, and CLOSED in State B. My previous note about (16, 5) being doors was a hallucination; they are just solid walls.
 - VERIFIED PATH: To travel between the Northern doors (16, 7) and the West Wing, use the northernmost hallway. Walk West along Y=6 to X=11, North to Y=2, West to X=4, South to Y=5, and West into the West Wing.
 [TRUE MASTER ROUTE TO SECRET KEY]
-1. Ensure Mansion is in STATE A (Default).
-2. Go to 1F Main Stairs at (5, 10). DO NOT take the left tile (5, 10). Take the right tile at (7, 10)!
-3. This leads to 2F (7, 10), which is adjacent to a SECOND set of stairs.
-4. Take these stairs to 3F. You arrive in the 3F Northern Area.
-5. In STATE A, the 3F Northern doors at (15, 4) are OPEN. Walk East through them.
-6. Walk South in the 3F Eastern section to reach the pit at (16, 14) / (17, 14).
-7. Jump down the pit to land in the isolated 1F enclosed area.
-8. Take the stairs at 1F (21, 23) down to B1F!
-9. Explore B1F to find the Secret Key.
+- ROUTE INVALIDATED! The 1F (7, 10) stair warp was a hallucination. Both (5, 10) and (6, 10) lead to the same standard 2F area.
+- Current goal: Find the actual stairs leading UP to 3F. Searching the 2F West Wing (South of Y=18).
 
 <hr>
