@@ -1474,13 +1474,15 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - The West Wing North of Y=9 is a dead end containing only the switch statue at (2, 4) and the one-way drop-down stairs at (6, 1). The wall at Y=9 is solid from X=0 to X=9.
 - 1F North-West doors at (9, 4)/(9, 5) are OPEN in State A, and CLOSED in State B. My previous note about (16, 5) being doors was a hallucination; they are just solid walls.
 - VERIFIED PATH: To travel between the Northern doors (16, 7) and the West Wing, use the northernmost hallway. Walk West along Y=6 to X=11, North to Y=2, West to X=4, South to Y=5, and West into the West Wing.
-[MASTER ROUTE TO SECRET KEY]
-1. 2F: Ensure Mansion is in State B using the West Wing switch at (2, 12). (State B = 3F Southern doors OPEN).
-2. 2F: Walk to the stairs at (7, 10). These are right next to the stairs from 1F. Take them UP to 3F.
-3. 3F: You arrive at (7, 11) in the Southern half. Walk East to the pit at (16, 14).
-4. 3F: Since you are in State B, the Southern doors at (15, 10) are OPEN. Walk through them!
-5. 3F: Jump down the pit at (16, 14)!
-6. 1F: Land in the enclosed area. Take the stairs down to B1F.
-7. B1F: Central doors (20, 17) are OPEN (State B)! Walk West to the Secret Key!
+[TRUE MASTER ROUTE TO SECRET KEY]
+1. 2F: Ensure State A (using switch at 2,12).
+2. 2F: Walk North to Y=6, then East all the way to X=24.
+3. 2F: Walk South through OPEN East doors at (24,13). Take stairs UP to 3F.
+4. 3F: Walk West through OPEN Northern doors at (15,4).
+5. 3F: Press switch statue at (10,4) to toggle to State B!
+6. 3F: Walk East through newly OPEN Southern doors at (15,10).
+7. 3F: Reach pit at (16,14) and jump down!
+8. 1F: Land in enclosed area. Take stairs to B1F.
+9. B1F: Central doors at (20,17) are OPEN (State B). Walk West to Secret Key!
 
 <hr>
