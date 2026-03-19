@@ -1477,16 +1477,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - 1F North-West doors at (9, 4)/(9, 5) are OPEN in State A, and CLOSED in State B. My previous note about (16, 5) being doors was a hallucination; they are just solid walls.
 - VERIFIED PATH: To travel between the Northern doors (16, 7) and the West Wing, use the northernmost hallway. Walk West along Y=6 to X=11, North to Y=2, West to X=4, South to Y=5, and West into the West Wing.
 [TRUE MASTER ROUTE TO SECRET KEY]
-1. 2F: Ensure State B (using switch at 2,12). (State B = 2F Northern doors OPEN).
-2. 2F: Walk through Northern Hallway to (16, 6), then South through open doors to (16, 10).
-3. 2F: Press switch at (16, 10) to toggle to State A. (Closes Northern doors, OPENS East doors at 24, 13).
-4. 2F: Walk East and through the open East doors to access the South-East stairs to 3F.
-5. 3F: You arrive in State A. The Southern doors at (15, 10) blocking the pit are CLOSED.
-6. 3F: Find the switch at (10, 4) and press it to toggle to State B.
-7. 3F: Walk South through the now OPEN Southern doors at (15, 10) to reach the pit at (16, 14).
-8. 3F: Jump down the pit!
-9. 1F: Land in enclosed area. Take stairs down to B1F.
-10. B1F: Since you are in State B, the Central doors at (20, 17) are OPEN.
-11. B1F: Walk West through the doors to claim the Secret Key!
+- ROUTE UNDER REVISION.
+- The switch at 2F (16, 10) was a hallucination (they are just cabinets).
+- Currently exploring 2F East Wing in State B to find the real path to the 3F stairs or a valid switch.
 
 <hr>
