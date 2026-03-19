@@ -1388,7 +1388,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Central Hallway runs North from the entrance along X=5.
 - Green pillars line X=3 and X=8, with 1-tile gaps.
 - A solid horizontal wall at Y=9 blocks the Central Hallway and West Wing.
-- East wing is separated by a vertical wall at X=9, which has gaps at Y=4/Y=5 and Y=10/Y=11.
+- East wing is separated by a vertical wall at X=9, which has gaps at Y=1/Y=2 and Y=10/Y=11.
 - To reach the 2F stairs at (5, 10) from the North half, you MUST use the East Wing corridor to bypass the Y=9 wall.
 - The main staircase on 1F at Y=10 spans 3 tiles! Stepping on the left tile (5, 10) leads to 2F (5, 10). Stepping on the middle/right tiles (6, 10)/(7, 10) leads to 2F (6, 10)/(7, 10), which is immediately adjacent to another set of stairs leading to an isolated room on 3F. The warp marker at (7, 10) is a reminder of this.
 - The 1F statue at (2, 10)/(2, 11) is JUST A NORMAL STATUE, NO SWITCH! The switch is on 2F.
