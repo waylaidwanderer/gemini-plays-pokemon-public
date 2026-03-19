@@ -41,7 +41,7 @@
 - In the Northeast area, the brown blocks at (24, 8)/(25, 8) are just a table/solid obstacle, NOT stairs!
 - 2F East doors are located at (24, 13) and (25, 13). In State A, these are OPEN (floor), allowing access to the South-East area. In State B, these CLOSE (glowing barriers).
 - 2F South-East doors are located at (26, 27) and (27, 27). These are permanent barriers.
-- 2F Central doors located at (20, 17) and (21, 17). In State A, these are CLOSED. They block the path South to Y=18.
+- Found stairs leading UP to 3F at (25, 14)! This room is accessed by passing through the Northern doors at (18, 8) in State B.
 - 2F West area (South of Y=18) has a red carpet room from X=4 to X=7, Y=22 to Y=27. Currently exploring.
 
 [3F Points of Interest]
