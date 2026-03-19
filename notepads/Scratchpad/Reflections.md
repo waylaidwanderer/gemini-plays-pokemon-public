@@ -25,7 +25,7 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - The stairs to 3F MUST be in the East Wing, accessible via the East doors at (24, 13) ONLY when they are OPEN (State A).
 [3F South Re-exploration Completed - Turns 41857-41861] Area is a verified dead end.
 [Search for 3F Stairs]
-- 2F East Wing is an exhausted space and a DEAD END. (The "stairs" are a Bar Graph decoration).
+- Stairs to 3F main area ARE in the 2F South-East area (accessed via doors at 24, 13 in State A). My previous note about a Bar Graph was a hallucination!
 - 3F South room (accessed via 1F warp stairs at 7, 10) is a DEAD END containing only a Max Potion.
 - NEW PLAN: Explore 2F West area (South of Y=18, the red carpet room) or look for hidden gaps on 1F / 2F Central.
 [50-Turn Reflection - Turn 42005]

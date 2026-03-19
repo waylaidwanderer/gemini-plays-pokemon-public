@@ -1115,7 +1115,7 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - The stairs to 3F MUST be in the East Wing, accessible via the East doors at (24, 13) ONLY when they are OPEN (State A).
 [3F South Re-exploration Completed - Turns 41857-41861] Area is a verified dead end.
 [Search for 3F Stairs]
-- 2F East Wing is an exhausted space and a DEAD END. (The "stairs" are a Bar Graph decoration).
+- Stairs to 3F main area ARE in the 2F South-East area (accessed via doors at 24, 13 in State A). My previous note about a Bar Graph was a hallucination!
 - 3F South room (accessed via 1F warp stairs at 7, 10) is a DEAD END containing only a Max Potion.
 - NEW PLAN: Explore 2F West area (South of Y=18, the red carpet room) or look for hidden gaps on 1F / 2F Central.
 [50-Turn Reflection - Turn 42005]
@@ -1488,7 +1488,7 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 [MASTER ROUTE TO SECRET KEY - REVISED]
 1. 1F: Ensure Mansion is in State A using 1F switch at (2,10).
 2. 1F: Take stairs at (5, 10) UP to 2F.
-3. 2F: ??? (Must find stairs to 3F main area. 2F East Wing is a VERIFIED DEAD END. Need to check 2F West red carpet room or other unexplored gaps).
+3. 2F: Access the South-East enclosed area via East doors at (24, 13). Take the stairs UP to 3F main area.
 4. 3F: Find a switch on 3F to change Mansion to State B (so Southern doors at 15,10 open).
 5. 3F: Jump down pit at (16, 14).
 6. 1F: Land in enclosed area. Take stairs down to B1F.
