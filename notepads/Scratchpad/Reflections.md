@@ -14,8 +14,11 @@
 - 3F to 2F (DOWN-ONLY): Found drop-down stairs at (6, 1) and (6, 21) on 2F. These cannot be ascended.
 - 1F to B1F: Stairs at (21, 23) in the isolated enclosed area of 1F lead down to B1F. (Accessed by jumping down 3F pit at 16, 14).
 
-[Turn 42524 50-Turn Reflection]
-1. 1F bypass route FAILED. X=22/23 is a solid wall on 1F, completely isolating the East Wing stairs.
-2. I must rely on the 2F Northern Hallway (Y=6) bypass to reach the East Wing in State A.
-3. Current position: 2F (5, 11).
-4. Goal: Walk East to X=10, North to Y=9, East to X=12, North to Y=6, then East to X=24 to reach the East doors!
+[Turn 42528 50-Turn Reflection]
+1. HALLUCINATION CHECK: The Northern Hallway (Y=6) does NOT connect to the East Wing. It is blocked by solid rubble at X=23.
+2. REVELATION: The true bypass is the "2F AIRLOCK".
+3. Step 1: Ensure Mansion is in State B (Northern doors at 18, 8 are OPEN).
+4. Step 2: Enter the Central Area through the Northern doors at (18, 8).
+5. Step 3: Press the switch at (15, 10) from (16, 10). This toggles to State A.
+6. Step 4: State A CLOSES the doors behind you at (18, 8), but OPENS the East doors at (24, 13)!
+7. Step 5: Walk East to (24, 13) and take the stairs UP to 3F.
