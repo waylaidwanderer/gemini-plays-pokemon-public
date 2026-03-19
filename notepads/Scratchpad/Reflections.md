@@ -35,13 +35,12 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - Standing at 2F (5, 15).
 - There is a Burglar trainer at (1, 17). He paces between X=1 and X=3.
 - The path South is clear at X=5. I will walk down to Y=22 to enter the red carpet room and see what's there.
-[Turn 42043 - Revised Route to 3F Main]
-- I hallucinated the 1F switch. There is NO switch at (2, 10) on 1F.
-- The route to the 3F stairs is:
-  1. Ensure Mansion is in STATE B (using 2F switch at 2, 4 if necessary).
-  2. Go to 2F. Walk through the OPEN Northern doors at (16, 7) into 2F East Wing.
-  3. Walk to the switch statue at (21, 13) in the 2F East Wing.
-  4. Press the switch. This changes Mansion to STATE A.
-  5. The East doors at (24, 13) are now OPEN.
-  6. Walk through East doors and take the stairs to 3F!
-- I am currently on 1F at (4, 11). I will take the stairs at (5, 10) to 2F.
+[Turn 42044 - The Master Plan to 3F]
+- I figured it out! The "trap switches" at (16, 10) and (18, 10) in the 2F East Wing are NOT traps! They are the key to the puzzle!
+- The route to 3F:
+  1. Set Mansion to STATE B. (I am going to the switch at 2F (2, 4) to do this now).
+  2. Walk through the OPEN 2F Northern doors at (16, 7).
+  3. Press the switch at (16, 10) to change to STATE A. This locks me in the East Wing.
+  4. But it OPENS the East doors at (24, 13)!
+  5. Walk through the East doors and take the stairs to 3F Main Area!
+- I am currently executing step 1: walking from 2F Central to 2F West to press the switch.
