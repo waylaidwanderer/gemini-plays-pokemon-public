@@ -19,3 +19,4 @@
 2. I realized the 2F "Airlock" might be impossible if the Central Area is blocked by rubble at Y=12.
 3. NEW HYPOTHESIS: The bypass route is on 1F! In State A, the 1F doors at (24, 13) are OPEN. I can walk from the 1F entrance, through the gaps at X=9, straight to the East doors at (24, 13) and take the stairs there to 2F East Wing, then 3F!
 4. Plan: Press this switch to ensure State A. Go down stairs at (5, 10) to 1F. Walk East to (24, 13) and see if the stairs are there!
+- 1F X=17 is a 1-tile wide hallway. X=22/23 is a solid wall blocking the East stairs from the rest of 1F. 1F does NOT have East doors. My previous note about 1F East doors was a hallucination/copy-paste error. The route MUST go through 2F!
