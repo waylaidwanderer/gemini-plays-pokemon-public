@@ -67,3 +67,19 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
   3. Walk all the way back to the switch at (2, 11) near the 2F stairs.
   4. Press it to set State A. This CLOSES the trap room doors but OPENS the East doors at (24, 13).
   5. Walk the main Northern Hallway East to X=24, then South to the doors at (24, 13) and reach the stairs!
+[Turn 42109 - Re-evaluating the East Wing Trap]
+- Okay, I am at (17, 10). The switch is at (14, 10)/(15, 10).
+- I pressed Left, Left, Left, Left. I bumped into the wall at X=16.
+- Let me look closely at the map.
+- The tiles at (16, 8), (16, 9), (16, 10), (16, 11) are TYPE_3fe2 (floor).
+- Wait, the sprite for the switch statue at (14, 10) actually extends into (15, 10).
+- The wall separating the East Wing trap room from the Central area is at X=15/X=16!
+- Specifically, the wall is at (15, 8), (15, 9), (15, 11).
+- The tile at (15, 10) is the right half of the switch statue!
+- That means I CANNOT walk to (15, 10) or (14, 10) from the East Wing. The switch is on the OTHER side of the wall!
+- I am completely trapped in this corridor (X=17 to X=21, South of Y=7).
+- The Northern doors at (16, 7) are currently CLOSED because the Mansion is in State A.
+- To escape, I MUST press a switch INSIDE this trap room to open the doors at (16, 7).
+- Are there ANY switches in this trap room?
+- Looking at the map, there is a switch statue at (21, 13)/(21, 14) down South!
+- Let's test if pressing THAT switch toggles the state!
