@@ -1483,6 +1483,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [CURRENT HYPOTHESIS: 1F EAST WING ROUTE]
 - FACT: 2F Northern Hallway (Y=6) is BLOCKED by solid rubble at X=23. Tested Turn 42621.
 - FACT: 2F Central Area (Y=9 to Y=16) is BLOCKED by solid rubble at X=22. Tested Turn 42546.
-- HYPOTHESIS: The East Wing of 2F MUST be accessed from stairs on 1F! I previously assumed 1F East was a dead end without empirically verifying X=22. I must travel to 1F and fully map the East side.
+- HYPOTHESIS: The East Wing of 2F MUST be accessed from stairs on 1F! 
+- EMPIRICAL DISCOVERY (Turn 42633): The 1F East Wing is accessible via a gap at Y=3. I passed through X=22 at Y=3 and am now exploring South along X=26/X=27.
 
 <hr>
