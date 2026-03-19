@@ -1470,10 +1470,10 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - 2F Central doors located at (20, 17) and (21, 17). In State A, these are CLOSED. They block the path South to Y=18.
 - Found a glowing-eye switch statue at (21, 13)/(21, 14) in the enclosed South-East area (accessed via East doors).
 [MASTER ROUTE TO SECRET KEY - FINAL]
-1. 2F: Ensure Mansion is in State B using switch at (2, 12). (Northern doors OPEN).
-2. 2F: Cross Northern doors (16, 7), go South to switch at (16, 10).
-3. 2F: Press switch at (15, 10) to trigger State A. (East doors at 24,13 OPEN).
-4. 2F: Go through East doors at (24, 13), take stairs UP to 3F.
+1. 2F: Ensure Mansion is in State B using switch at (2, 12). (Northern doors at 18,8 are OPEN).
+2. 2F: Walk East along Y=6, go South through doors at (18, 8).
+3. 2F: Walk to (16, 11), face Left, press switch at (15, 11) to trigger State A. (East doors at 24,13 OPEN).
+4. 2F: Walk East to (24, 13), go through doors, take stairs UP to 3F.
 5. 3F: Press a switch to trigger State B. (Southern doors at 15,10 OPEN).
 6. 3F: Jump down the pit at (16, 14).
 7. 1F: Land in enclosed area. Take stairs down to B1F.
