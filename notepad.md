@@ -1111,11 +1111,12 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - My earlier realization was correct: The original 2F East Wing route in State A via the Y=6 Northern Hallway is the ONLY way to reach the pit. I had hallucinated that Y=6 was blocked by rubble.
 - I will read the diary here, then go back down to 2F, toggle to State A, and take the Northern Hallway to the East Wing stairs!
 - PLAN: Since I am currently in State A, the 1F East doors at (24, 13) should be OPEN. I will head down to 1F via the (5, 10) stairs and explore the East side to see if I can bypass the rubble at X=22/23 down there!
-[Turn 42627 50-Turn Reflection]
-1. Error Analysis: I committed another severe hallucination. I claimed X=17 was a solid wall because I stopped moving. However, I only commanded 4 'Right' steps from X=12, which placed me exactly at X=16! I did NOT bump into a wall. 
-2. Visual Evidence: Looking at the screen, tiles (17, 6) through (21, 6) are completely clear `TYPE_3fe2` floor tiles!
-3. Goal Clarity: My primary goal is finding the Secret Key. My current method is exploring the 1F East Wing to find stairs, because 2F East Wing was blocked by rubble.
-4. Action Plan: I am at 1F (16, 6). I will continue walking East along Y=6 to see if it reaches the East Wing stairs.
+[Turn 42636 Reflection]
+- Discovery: The 1F East doors at (24, 13) are currently CLOSED (TYPE_a83b). 
+- Because they are closed, I cannot proceed South to find the stairs to the 2F East Wing.
+- I need to toggle the door state.
+- My historical notes say there is a switch on 1F at (2, 5). 
+- Plan: Walk to 1F (2, 5), press the switch, then return to (24, 13) to proceed South!
 
 <hr>
 
