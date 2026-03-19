@@ -14,9 +14,9 @@
 - 3F to 2F (DOWN-ONLY): Found drop-down stairs at (6, 1) and (6, 21) on 2F. These cannot be ascended.
 - 1F to B1F: Stairs at (21, 23) in the isolated enclosed area of 1F lead down to B1F. (Accessed by jumping down 3F pit at 16, 14).
 
-[Turn 42576 50-Turn Reflection]
-1. Error Analysis: I made a massive error by testing the "3F stairs at (7, 10)" on the 1st floor instead of the 2nd floor. This caused me to hallucinate that the stairs were "fake", throw away my correct strategy, and enter a confusing execution loop trying to force an impossible path.
-2. Rule Reminder: Always verify the EXACT map/floor I am on before testing hypotheses!
-3. Goal Clarity: Find the Secret Key.
-4. Method (Master Route): We are now in State B (since I just pressed the switch again). I will walk to 2F (7, 10) and take the stairs UP to 3F. From there, the Southern doors at 3F (15, 10) will be OPEN, allowing me to reach the pit at (16, 14) and jump down!
-5. Immediate Action: Clear the switch text box, then walk Right and Up to reach (7, 10) on this floor.
+[Turn 42596 Reflection]
+- I arrived at 3F via the stairs at 2F (7, 10).
+- BIG DISCOVERY: This area of 3F is completely isolated from the pit by a solid wall at X=11! There is no path East to (16, 14) from here.
+- This means the "True Master Route" via State B and these stairs is WRONG.
+- My earlier realization was correct: The original 2F East Wing route in State A via the Y=6 Northern Hallway is the ONLY way to reach the pit. I had hallucinated that Y=6 was blocked by rubble.
+- I will read the diary here, then go back down to 2F, toggle to State A, and take the Northern Hallway to the East Wing stairs!
