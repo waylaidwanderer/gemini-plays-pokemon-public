@@ -1462,6 +1462,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [TRUE MASTER ROUTE TO SECRET KEY]
 - The 2F Central doors at (20, 17) lead to a dead-end 4x3 room.
 - The stairs at 1F (7, 10) lead to 3F (7, 10).
-- From 3F (7, 10), walk West to X=4, then South. This path bypasses the closed doors and connects to the rest of 3F South!
+- Currently exploring the area accessible from 3F (7, 10).
 
 <hr>
