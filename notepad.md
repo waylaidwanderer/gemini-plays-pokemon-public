@@ -1133,15 +1133,12 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
   3. Press the switch at (16, 10) to change to STATE A. This locks me in the East Wing.
   4. But it OPENS the East doors at (24, 13)!
   5. Walk through the East doors and take the stairs to 3F Main Area!
-- I am currently executing step 1: walking from 2F Central to 2F West to press the switch.
 [Turn 42051 - Correcting Navigation Error again]
-- I am at 2F (5, 11). I just checked the screen carefully.
 - The green pillars at Y=9 on 2F are SOLID from X=1 to X=9.
 - There is NO gap at X=3 or X=5.
 - The ONLY way North from the 2F stairs is to walk East to X=10, where there is a gap at (10, 9).
 - To reach the switch at (2, 4): Walk East to X=10, North through the gap to the Northern Hallway, then wrap all the way around the top to the West Wing.
 [50-Turn Reflection - Turn 42056]
-- Deferred Tasks/Tool Maintenance: Fixing execute_battle_turn tool right now to prevent the wrap-around bug in the main battle menu. I'm adding a `main_cursor` parameter so it knows exactly how to get to FIGHT without blindly pressing Up and Left.
 - Goal Clarity: The Master Plan to reach 3F Main Area is clear. I just need to get to the 2F West switch at (2, 4) to toggle the doors to State B.
 - Error Analysis: My biggest recent errors were relying on old, hallucinated notes (like the 1F switch and the 2F East dead-end) instead of re-verifying my surroundings. I've cleaned up the notes and will trust my eyes over old scratchpads!
 
