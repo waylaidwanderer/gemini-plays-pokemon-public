@@ -89,14 +89,15 @@
   - B1F Central doors (20, 17) OPEN.
 - 2F Central doors located at (20, 17) and (21, 17). In State A, these are CLOSED. They block the path South to Y=18.
 - Found a glowing-eye switch statue at (21, 13)/(21, 14) in the enclosed South-East area (accessed via East doors).
-[MASTER ROUTE TO SECRET KEY - REVISED]
-1. 1F: Ensure Mansion is in State A using 1F switch at (2,10).
-2. 1F: Take stairs at (5, 10) UP to 2F.
-3. 2F: Access the South-East enclosed area via East doors at (24, 13). Take the stairs UP to 3F main area.
-4. 3F: Find a switch on 3F to change Mansion to State B (so Southern doors at 15,10 open).
-5. 3F: Jump down pit at (16, 14).
-6. 1F: Land in enclosed area. Take stairs down to B1F.
-7. B1F: Central doors (20, 17) are OPEN (State B)! Walk West to find Secret Key.
+[MASTER ROUTE TO SECRET KEY - FINAL]
+1. 2F: Ensure Mansion is in State B using switch at (2, 12). (Northern doors OPEN).
+2. 2F: Cross Northern doors (16, 7), go South to switch at (16, 10).
+3. 2F: Press switch at (15, 10) to trigger State A. (East doors at 24,13 OPEN).
+4. 2F: Go through East doors at (24, 13), take stairs UP to 3F.
+5. 3F: Press a switch to trigger State B. (Southern doors at 15,10 OPEN).
+6. 3F: Jump down the pit at (16, 14).
+7. 1F: Land in enclosed area. Take stairs down to B1F.
+8. B1F: Central doors (20, 17) are OPEN (State B)! Walk West to Secret Key.
 - Rubble at Y=8 blocks X=8 to X=11 on 2F West. Path South is at X=7 or X=6.
 - Rubble at Y=16 blocks X=5 to X=7. The path South is only open from X=1 to X=4.
 - Solid wall at Y=18 blocks X=1 to X=7. The West Wing North of Y=18 is a VERIFIED DEAD END!
