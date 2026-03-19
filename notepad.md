@@ -1476,18 +1476,18 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - There is a vertical wall at X=24 starting from Y=19 extending South.
 
 [Global Door States]
-- State A (Default): 
+- State A (Current Default): 
   - 1F East doors (24, 13) OPEN.
   - 2F East doors (24, 13) OPEN.
-  - 2F Northern doors (16, 7)/(17, 7) CLOSED.
-  - 2F South-East doors (26, 27) CLOSED. (Verified Turn 39633)
+  - 2F Northern doors (18, 8)/(19, 8) CLOSED.
+  - 2F South-East doors (26, 27) CLOSED.
   - 3F Northern doors (15, 4) OPEN.
   - 3F Southern doors (15, 10) CLOSED.
   - B1F Central doors (20, 17) CLOSED.
 - State B: 
   - 1F East doors (24, 13) CLOSED.
   - 2F East doors (24, 13) CLOSED.
-  - 2F Northern doors (16, 7)/(17, 7) OPEN.
+  - 2F Northern doors (18, 8)/(19, 8) OPEN.
   - 2F South-East doors (26, 27) OPEN. (Hypothesis: Alternates with State A)
   - 3F Northern doors (15, 4) CLOSED.
   - 3F Southern doors (15, 10) OPEN.
