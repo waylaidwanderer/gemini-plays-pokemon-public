@@ -1,12 +1,10 @@
 [Active Reflections]
-[The TRUE Path to B1F]
-1. The main stairs from 1F (Y=10) are 3 tiles wide.
-2. The rightmost tile (7, 10) leads to 2F (7, 10), which is adjacent to stairs going UP to 3F (7, 9).
-3. Taking these stairs places us in the Southern half of 3F.
-4. In State A, the 3F Southern doors at (15, 10) are CLOSED, making this area seem like an isolated room (which I documented earlier).
-5. But in State B, the 3F Southern doors at (15, 10) will be OPEN!
-6. This allows access to the 3F Pit at (16, 14).
-7. Jumping down the pit lands us in the enclosed 1F area with the stairs to B1F!
+[The TRUE Master Route to 3F]
+1. The 3F stairs at (7, 10) lead to a DEAD END room (X=1 to X=10) completely blocked from the East by a solid wall at X=11.
+2. Therefore, the path to the 3F Pit must be via the 2F East Wing stairs at (25, 14).
+3. The 2F East Wing is blocked by rubble at X=22, Y=8.
+4. To bypass this rubble, we must use the 2F Central doors at (20, 13) which are OPEN in State B!
+5. After passing South through the Central doors to (20, 15), we must explore EAST to bypass the X=22 rubble and reach the stairs at (25, 14).
 
-Current Status: Mansion is in State B. The 2F Central doors led to a dead-end room.
-Goal: Return to 2F (7, 10), take the stairs up to 3F, and head East to the pit!
+Current Status: Mansion is in State B. On 3F isolated room.
+Goal: Take stairs back down to 2F, return to the Central doors at (20, 13), and explore East from (20, 15) to find the stairs at (25, 14)!
