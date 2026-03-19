@@ -110,4 +110,5 @@
 - VERIFIED: 1F East Wing is a DEAD END. Closed doors at (26, 27) and NO stairs.
 - CONCLUSION: The path to 3F main area is ON 2F.
 - VERIFIED: The context summary had a typo. The 1-tile wide gap connecting the northern and southern sections of 2F is at X=10, NOT X=12.
-- Plan: Walk South down X=10 to access the 2F Southern area, then locate the stairs to the 3F pit.
+- VERIFIED: The gap at X=10 (Y=12 to Y=17) provides access to the 2F Southern area.
+- Plan: Explore the 2F Southern area (West of X=11) to locate the stairs to the 3F pit.
