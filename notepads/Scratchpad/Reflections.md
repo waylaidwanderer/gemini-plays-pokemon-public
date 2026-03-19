@@ -16,9 +16,7 @@
 
 [Turn 42691 Reflection]
 - State A is confirmed. Heading to 1F via the stairs at 2F (5, 10).
-[Turn 42732 50-Turn Reflection]
-- True Master Route is confirmed and documented.
-- Hallucination about 1F East stairs corrected.
-- Returning to 2F switch at (16, 10) to execute the State toggle trap!
-- execute_battle_turn is fixed and working.
+[Turn 42784 50-Turn Reflection]
+- Realized I don't need to go to (16, 10) to toggle the state. I can just toggle it here at (2, 12) to State A, then go down to 1F, and walk straight to the 1F East Wing doors at (24, 13) since they are OPEN in State A.
+- The 1F East Wing should have stairs leading up to the isolated 2F/3F East sections.
 - No new tools needed.
