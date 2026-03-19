@@ -23,28 +23,7 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 [2F Stairs Search]
 - VERIFIED: The North-East corridor accessed via the Northern doors at (16, 7) is a trap! It is a dead end containing switch statues at (16, 10) and (18, 10). Pressing them will close the doors and trap you. There are NO stairs here.
 - The stairs to 3F MUST be in the East Wing, accessible via the East doors at (24, 13) ONLY when they are OPEN (State A).
-[Turn 41849 Puzzle Re-evaluation]
-- I have fully swept 1F (Northwest, West Wing, Central Hallway, East Wing). There are NO stairs to 3F.
-- I have fully swept 2F (West Wing, Northern Hallway, East Wing). There are NO stairs to 3F.
-- The ONLY stairs to 3F are the WARP STAIRS on 1F at (6, 10)/(7, 10).
-- Wait. I assumed the 3F room at (6, 11) accessed via the warp stairs was an isolated dead-end.
-- My notes say: "The room on 3F accessed via the stairs at (7, 10) from 1F is an ISOLATED DEAD-END. It is walled off at Y=7 and X=10."
-- BUT, I also noted on Turn 41668: "The Burglar on 3F at (4, 11)/(5, 11) is a WANDERING trainer. The path here is 2 tiles wide (X=4 and X=5)."
-- If the path is 2 tiles wide at X=4 and X=5, does it go South?
-- Let me re-read my Turn 41669 reflection from the Archive: I didn't actually explore South of the Burglar! I just talked to him, grabbed the diary, and immediately assumed it was a dead end because the room looked small.
-- I MUST go back to 3F via the warp stairs at 1F (7, 10) and thoroughly explore South of the Burglar at (4, 11).
-- This is the ONLY lead I have left.
-[Turn 41853 3F Re-exploration]
-- I am at (7, 11) on 3F.
-- My notes say the Burglar is at (4, 11).
-- Looking at the screen, the Burglar (SPRITE_4bab) is at (7, 11) overlapping me?! Wait, no, the NPC Movement Tracker says SPRITE_4bab appeared at (6, 12).
-- The Sprite at (5, 11) is me. Wait, no, I am at (7, 11). The Sprite at (5, 11) is the Burglar (SPRITE_cdfc).
-- Let me check the map.
-- The path at X=7 continues Down to Y=12.
-- The book is at (6, 12).
-- The path West is at Y=11. I am at (7, 11). I can go Left to X=6, X=5, X=4.
-- Let me verify if there is a path South of the Burglar.
-- I will move Left to (6, 11) then Down to (6, 12) to read the book and check the area.
+[3F South Re-exploration Completed - Turns 41857-41861] Area is a verified dead end.
 [Search for 3F Stairs]
 - 2F East Wing is an exhausted space and a DEAD END. (The "stairs" are a Bar Graph decoration).
 - 3F South room (accessed via 1F warp stairs at 7, 10) is a DEAD END containing only a Max Potion.
