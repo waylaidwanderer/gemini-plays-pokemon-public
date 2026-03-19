@@ -94,3 +94,8 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 [Turn 42115 - Verifying the Northern Escape]
 - I am at (16, 9) and will walk North through the open doors at (16, 7) to reach the main Northern Hallway.
 - Then I will explore East to confirm if the path to X=24 is clear. If it is, the Master Plan is verified!
+[Turn 42128 - Northern Hallway Blocked]
+- VERIFIED: The Northern Hallway (Y=6) is COMPLETELY BLOCKED by a massive pile of rubble starting at X=22. 
+- You CANNOT reach the East Wing (X=24) by walking North and then East around the top.
+- The path from 2F Central to the East Wing (where the 3F stairs are) MUST be further South.
+- I will explore South from (21, 6) through the gap at (18, 8)/(19, 8) to map the boundary.
