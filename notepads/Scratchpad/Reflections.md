@@ -21,7 +21,3 @@
 Goal: Return to 2F switch at (2, 11), toggle to State B, and test the 1F Northern doors.
 - 1F South-East doors at (26, 27) are CLOSED in State A. Hypothesis confirmed! We MUST switch to State B to access the stairs.
 - Returning to 2F switch at (2, 11).
-[Turn 43198 50-Turn Reflection]
-- Error Analysis & Recovery: I incorrectly tried to interact with the top half of the statue at (2, 10). The switch is on the bottom half at (2, 11). I am repositioning to (3, 11) to face Left and press A.
-- Notepad Hygiene: The Master Route hypothesis is progressing well. I confirmed the 1F South-East doors are closed in State A.
-- Goal: Toggle the 2F switch to State B, then head downstairs to 1F and test the Northern doors at (16, 7).
