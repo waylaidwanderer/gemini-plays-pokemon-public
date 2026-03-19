@@ -1392,7 +1392,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [2F Points of Interest]
 - Arrived from 1F via stairs at (5, 10).
 - You CAN walk North-East from the stairs area to the Northern hallway. The path from (10, 13) is North to (10, 9), East to (12, 9), North to (12, 6), then East to (16, 6).
-- VERIFIED: Northern doors at (16, 7)/(17, 7) are OPEN in State B. There is NO solid wall at Y=9 blocking X=10 to X=12.
+- VERIFIED: The Northern hallway is clear. There is NO solid wall at Y=9 blocking X=10 to X=12. The electronic doors are further East at (18, 8)/(19, 8).
 - The path from 2F Central to 2F East is via the Northern hallway: Walk North from (10, 13) to (10, 9), East to (12, 9), North to (12, 6), then East to (16, 6).
 - This path requires the Mansion to be in STATE B (Northern doors open)!
 - VERIFIED: The tiles at (7, 12) to (7, 15) are solid walls (TYPE_2889). The crossing between West and Central is specifically at Y=11.
