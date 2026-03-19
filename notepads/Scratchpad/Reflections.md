@@ -1,1 +1,2 @@
 [Active Reflections]
+- [Turn 43666] 50-Turn Reflection: The 1F East Wing and SE corridor are confirmed dead ends. The path to the 3F pit MUST be on 2F, via a 1-tile gap at X=12 that I previously noted but didn't fully explore. I am currently navigating back to the 2F main stairs to investigate this gap.
