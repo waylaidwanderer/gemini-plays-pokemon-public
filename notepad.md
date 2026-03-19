@@ -1498,6 +1498,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - In State A: (24, 13) is OPEN, but (16, 7) is CLOSED.
 - In State B: (16, 7) is OPEN, but (24, 13) is CLOSED.
 - CONCLUSION: It is IMPOSSIBLE to reach the stairs via the Northern gap at Y=6!
-- NEW HYPOTHESIS: There must be a path to (24, 13) from the Southern half of 1F (near the entrance) that bypasses (16, 7) entirely. Exploring 1F South-East now.
+- NEW HYPOTHESIS: The 1F East doors at (24, 13) are inaccessible from the West side of the mansion. The route to the Secret Key MUST be through 2F. I need to thoroughly explore the northernmost area of 2F (Y=1 or Y=2) to find a way to the 2F East doors.
 
 <hr>
