@@ -47,16 +47,14 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 [50-Turn Reflection - Turn 42056]
 - Goal Clarity: The Master Plan to reach 3F Main Area is clear. I just need to get to the 2F West switch at (2, 4) to toggle the doors to State B.
 - Error Analysis: My biggest recent errors were relying on old, hallucinated notes (like the 1F switch and the 2F East dead-end) instead of re-verifying my surroundings. I've cleaned up the notes and will trust my eyes over old scratchpads!
-[Turn 42068]
-- Standing at (2, 5) facing Up, pressed A on the left side of the statue at (2, 4). Nothing happened.
-- The switch must be on the right side of the statue at (3, 4).
-- I will step Right to (3, 5), face Up, and press A to hit the switch.
-[Turn 42069]
-- Attempted to press the switch from below at (2, 5) previously, but my inputs got eaten by the battle text box!
-- I am now at (3, 4). The statue is at (2, 4).
-- I will turn Left and press A to interact with it. If it doesn't work, I'll step down to (2, 5) and try facing Up.
-[Turn 42070 - Correct Switch Interaction]
-- Facing Left from (2, 4) and pressing A did NOT work.
-- The switch statue is actually at X=1 (tiles 1, 4 and 1, 5).
-- Like the 1F switch, I must stand directly BELOW the statue to interact with it.
-- I need to walk to (1, 6), face Up, and press A.
+[Turn 42074 - The REAL Master Plan]
+- I hallucinated the switch locations completely!
+- The switch is NOT at (2, 4). There is no switch in the West Wing North of Y=9.
+- The switch is at 2F (2, 10)/(2, 11)! It is accessible directly from the 2F stairs at (5, 10) without going through any gaps!
+- The route to 3F is:
+  1. From 2F stairs, walk Left to (2, 12) and press the switch to set Mansion to STATE B.
+  2. Walk East to X=10, North through the gap at (10, 9) to the Northern Hallway.
+  3. Walk East to (16, 6) and South through the OPEN Northern doors at (16, 7).
+  4. Press the trap switch at (16, 10) to set Mansion to STATE A.
+  5. The East doors at (24, 13) are now OPEN. Walk through them and take the stairs to 3F!
+- I am currently at 2F (1, 6). I must walk back East to the gap at (10, 9), go South, then West to (2, 12).
