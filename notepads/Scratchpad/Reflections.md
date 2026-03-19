@@ -14,12 +14,6 @@
 - 3F to 2F (DOWN-ONLY): Found drop-down stairs at (6, 1) and (6, 21) on 2F. These cannot be ascended.
 - 1F to B1F: Stairs at (21, 23) in the isolated enclosed area of 1F lead down to B1F. (Accessed by jumping down 3F pit at 16, 14).
 
-[Turn 42528 50-Turn Reflection]
-1. HALLUCINATION CHECK: The Northern Hallway (Y=6) does NOT connect to the East Wing. It is blocked by solid rubble at X=23.
-2. REVELATION: The true bypass is the "2F AIRLOCK".
-3. Step 1: Ensure Mansion is in State B (Northern doors at 18, 8 are OPEN).
-4. Step 2: Enter the Central Area through the Northern doors at (18, 8).
-5. Step 3: Press the switch at (15, 10) from (16, 10). This toggles to State A.
-6. Step 4: State A CLOSES the doors behind you at (18, 8), but OPENS the East doors at (24, 13)!
-7. Step 5: Walk East to (24, 13) and take the stairs UP to 3F.
-- Note: The switch statue in the 2F Central Area is located at (15, 9) and (15, 10). The tiles at (15, 11) are crates. Interact with it from (16, 10) facing Left.
+[Turn 42541 Reflection]
+- Hallucination cleared: There is NO switch at (15, 10). It's just a desk. The "2F Airlock" theory is busted.
+- Returning to Northern Hallway (Y=6) to physically verify if X=23 is blocked by rubble. If it's open, my original Master Route was correct all along.
