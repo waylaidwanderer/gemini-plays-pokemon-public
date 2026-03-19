@@ -31,7 +31,7 @@
 - The path from 2F Central to 2F East is via the Northern hallway: Walk North from (10, 13) to (10, 9), East to (12, 9), North to (12, 6), then East to (16, 6).
 - This path requires the Mansion to be in STATE B (Northern doors open)!
 - The tiles at (7, 12) to (7, 15) are normal floor, NOT electronic doors.
-- A path leads West to the Northwest corner at Y=4/Y=5. Found a glowing-eye switch statue at (2, 4)/(2, 5)! PRESSED on Turn 41093.
+- A path leads West to the Northwest corner at Y=4/Y=5. The statue here is just a regular statue, NOT a switch.
 - Found stairs at (6, 1) dropping down from 3F. TESTED: These stairs CANNOT be ascended. They must be a one-way exit.
 - Found stairs at (16, 14)/(17, 14) on 3F (the pit). There are NO stairs at (16, 7) on 2F; it is an open corridor heading South.
 - The tiles at (4, 1) and (5, 1) are clear floor, allowing access from the far West side to the Northern Hallway at Y=2.
