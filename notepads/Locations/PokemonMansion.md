@@ -106,6 +106,8 @@
 - The stairs at 1F (6, 10)/(7, 10) lead to an isolated 3F room containing only a Burglar and a Diary. It is a dead end.
 
 [TRUE ROUTE TO SECRET KEY (WIP)]
-- NEW HYPOTHESIS: The "isolated" 3F room accessed via the main stairs at 1F (7, 10) is NOT isolated! It connects directly to the 3F pit.
-- The southern doors on 3F at (15, 10) block the pit. They are OPEN in State B.
-- Plan: Toggle Mansion to State B (Done). Return to 1F. Take the main stairs at (7, 10) to 2F, then the adjacent stairs to 3F. Walk East to the pit and jump down!
+- VERIFIED: 1F South-East corridor (behind 16, 7 doors) is a DEAD END. Blocked by solid rubble at Y=13.
+- VERIFIED: 1F East Wing is a DEAD END. Closed doors at (26, 27) and NO stairs.
+- CONCLUSION: The path to 3F main area is ON 2F.
+- Clue from Context Summary: "discovered a 1-tile wide gap at X=12 connecting the northern and southern sections" on 2F.
+- Plan: Return to 2F main stairs. Explore the Central area to find the X=12 gap to the southern section.
