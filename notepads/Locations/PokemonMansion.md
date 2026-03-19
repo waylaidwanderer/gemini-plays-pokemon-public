@@ -106,7 +106,5 @@
 - The stairs at 1F (6, 10)/(7, 10) lead to an isolated 3F room containing only a Burglar and a Diary. It is a dead end.
 
 [TRUE ROUTE TO SECRET KEY (WIP)]
-- My previous plan failed. The 1F East Wing is a dead end ending at closed doors at (26, 27). There are NO stairs here.
 - Hypothesis: The stairs to 2F are in the South-East corridor, behind the electronic doors at (16, 7) and (21, 17).
 - To access them, the Mansion must be in STATE B.
-- Plan: Return to 2F, toggle switch to STATE B, then explore the South-East corridor on 1F.
