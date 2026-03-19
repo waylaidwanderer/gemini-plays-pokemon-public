@@ -1105,15 +1105,16 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - 1F to B1F: Stairs at (21, 23) in the isolated enclosed area of 1F lead down to B1F. (Accessed by jumping down 3F pit at 16, 14).
 
 [The 1F West Wing Hypothesis]
-- The East Trap Room (X=17 to X=21) is a dead end. The Central Doors at (20, 17) DO NOT EXIST ON 2F (they are on B1F!).
-- The 2F East Wing (X=24) is completely walled off from the rest of 2F by rubble at X=22 and walls at Y=17.
+- The East Trap Room (X=17 to X=21) is a dead end.
+- The 2F East Wing (X=24) is completely walled off from the rest of 2F by rubble at X=22.
 - Conclusion: The 2F East Wing MUST be accessed from stairs on 1F!
 - Plan:
-  1. Escape 2F East Trap Room via Northern doors (16, 7).
-  2. Return to 1F via stairs at (5, 10).
-  3. Set Mansion to State A using 1F switch at (2, 11).
-  4. This opens the 1F North-West doors at (9, 4).
-  5. Explore 1F West Wing to find stairs leading up to the 2F East Wing!
+  1. Go UP to 2F via stairs at 1F (5, 10).
+  2. Press the 2F switch at (2, 11) to set Mansion to State A.
+  3. Go DOWN to 1F via stairs at 2F (5, 10).
+  4. On 1F, walk East to the gap at (9, 11), then North to the doors at (9, 4).
+  5. The doors at (9, 4) will be OPEN in State A! Explore the 1F West Wing for stairs!
+- NOTE: I hallucinated a switch on 1F at (2, 11). The switch is ONLY on 2F.
 
 <hr>
 
