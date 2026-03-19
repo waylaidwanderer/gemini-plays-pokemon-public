@@ -14,9 +14,7 @@
 - 3F to 2F (DOWN-ONLY): Found drop-down stairs at (6, 1) and (6, 21) on 2F. These cannot be ascended.
 - 1F to B1F: Stairs at (21, 23) in the isolated enclosed area of 1F lead down to B1F. (Accessed by jumping down 3F pit at 16, 14).
 
-[Turn 42899 Reflection]
-- Hallucination corrected: The main stairs at 1F (7, 10) do NOT lead to a secret area.
-- Resuming exploration of 1F East Wing.
-[Turn 42906 Reflection]
-- Discovered that the area South of Y=13 (from X=12 to at least X=16) is the enclosed area reached by jumping down the 3F pit. It is separated from the main 1F floor by solid walls at Y=13 and X=11.
-- The X=13 vertical wall blocks passage East from X=12.
+[Exploration Goals]
+- Head to 2F via the main stairs at 1F (5, 10).
+- Toggle a switch to activate State B.
+- Once in State B, explore the 2F Central area South of Y=18 by passing through the normally-closed doors at (20, 17) and (21, 17).
