@@ -1462,10 +1462,10 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 
 [TRUE ROUTE TO SECRET KEY (WIP)]
 - VERIFIED: 1F South-East corridor (behind 16, 7 doors) is a DEAD END. Blocked by solid rubble at Y=13.
-- VERIFIED: 1F East Wing is a DEAD END. Closed doors at (26, 27) and NO stairs.
-- CONCLUSION: The path to 3F main area is ON 2F.
-- VERIFIED: The context summary had a typo. The 1-tile wide gap connecting the northern and southern sections of 2F is at X=10, NOT X=12.
-- VERIFIED: The gap at X=10 (Y=12 to Y=17) provides access to the 2F Southern area.
-- VERIFIED: The striped tiles at (12, 26) and (13, 26) are NOT stairs. They are just the tops of tables (TYPE_2889). The entire 2F Southern area is definitively a dead end.
+- VERIFIED: 2F Southern and North-East areas are DEAD ENDS.
+- NEW HYPOTHESIS: The path to 3F main area is via 1F East Wing in STATE B.
+- The 1F East Wing was blocked by doors at (26, 27) in State A. In State B, these should be OPEN.
+- Access 1F East Wing via the NE corridor (Y=3), bypassing the 1F doors at (24, 13).
+- Walk South past (26, 27) to find stairs to 2F (25, 14), which leads to the 3F pit.
 
 <hr>
