@@ -49,3 +49,6 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - 2F East Wing is an exhausted space and a DEAD END. (The "stairs" are a Bar Graph decoration).
 - 3F South room (accessed via 1F warp stairs at 7, 10) is a DEAD END containing only a Max Potion.
 - NEW PLAN: Explore 2F West area (South of Y=18, the red carpet room) or look for hidden gaps on 1F / 2F Central.
+[50-Turn Reflection - Turn 42005]
+- Caught in a menu loop due to overusing long `move_sequence` macros without verifying cursor memory. Going forward, I will strictly use 1-to-2 button presses for manual menu navigation or use dedicated state-aware tools.
+- Tool Maintenance: Need to fix `execute_battle_turn` to not wrap to ITEM when `start_on_main` is true and the cursor is already on FIGHT.
