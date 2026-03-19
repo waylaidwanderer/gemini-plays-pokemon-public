@@ -105,15 +105,8 @@
 - The 2F Central doors at (20, 17) lead to a dead-end 4x3 room.
 - The stairs at 1F (6, 10)/(7, 10) lead to an isolated 3F room containing only a Burglar and a Diary. It is a dead end.
 
-[TRUE ROUTE TO SECRET KEY (REVISED)]
-1. Enter 1F. Walk to the Northeast corner (X=18, Y=2) and go South through the gap at Y=3 into the 1F East Wing.
-2. Ensure Mansion is in STATE A (1F doors at 24,13 are OPEN). If not, you must toggle a switch.
-3. Walk South down the 1F East Wing through the open (24,13) doors to the stairs at the far South-East.
-4. Take the stairs UP to the 2F isolated East Wing.
-5. Walk West through the OPEN 2F doors at (24,13) into the 2F Central Southern section.
-6. Explore this section to find the stairs UP to 3F.
-7. On 3F, toggle the switch at (10,4) to STATE B. This opens the Southern doors at (15,10).
-8. Walk through the open (15,10) doors to reach the Pit.
-9. Jump down the right side of the pit at 3F (16, 14) to land in the enclosed 1F area.
-10. Take the stairs at 1F (23, 22) down to B1F.
-11. Explore B1F to find the Secret Key.
+[TRUE ROUTE TO SECRET KEY (WIP)]
+- My previous plan failed. The 1F East Wing is a dead end ending at closed doors at (26, 27). There are NO stairs here.
+- Hypothesis: The stairs to 2F are in the South-East corridor, behind the electronic doors at (16, 7) and (21, 17).
+- To access them, the Mansion must be in STATE B.
+- Plan: Return to 2F, toggle switch to STATE B, then explore the South-East corridor on 1F.
