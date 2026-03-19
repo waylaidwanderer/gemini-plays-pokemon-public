@@ -22,3 +22,4 @@
 5. Step 3: Press the switch at (15, 10) from (16, 10). This toggles to State A.
 6. Step 4: State A CLOSES the doors behind you at (18, 8), but OPENS the East doors at (24, 13)!
 7. Step 5: Walk East to (24, 13) and take the stairs UP to 3F.
+- Note: The switch statue in the 2F Central Area is located at (15, 9) and (15, 10). The tiles at (15, 11) are crates. Interact with it from (16, 10) facing Left.
