@@ -1103,6 +1103,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - 2F to 3F (UP): MUST BE in the East Wing, accessible via the East doors at (24, 13) ONLY when they are OPEN (State A).
 - 3F to 2F (DOWN-ONLY): Found drop-down stairs at (6, 1) and (6, 21) on 2F. These cannot be ascended.
 - 1F to B1F: Stairs at (21, 23) in the isolated enclosed area of 1F lead down to B1F. (Accessed by jumping down 3F pit at 16, 14).
+[Turn 43043 Reflection]
+Reflected on the state of the Pokemon Mansion. The 2F switch at (2, 11) was toggled, placing the Mansion in State A. I am currently navigating the 1F East Wing to confirm that the doors at (24, 13) are now OPEN. My hypothesis is that passing through these doors will lead to the isolated stairs at (25, 14) on 2F, which should lead UP to a new area of 3F. I also confirmed that the 2x2 structure at (24, 8) on 1F is a table, identical to the one on 2F.
 
 <hr>
 
