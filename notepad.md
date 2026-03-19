@@ -1125,38 +1125,16 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - Standing at 2F (5, 15).
 - There is a Burglar trainer at (1, 17). He paces between X=1 and X=3.
 - The path South is clear at X=5. I will walk down to Y=22 to enter the red carpet room and see what's there.
-[Turn 42039 - Route to 3F Main]
-- I am currently back on 1F at (5, 10).
-- I need to get to 2F East Wing, then take the stairs at (24, 13) up to 3F.
-- To reach 2F East Wing from 2F Central, I MUST pass through the Northern doors at (16, 7).
-- The Northern doors are ONLY open in STATE B.
-- However, to access the stairs at (24, 13) in the 2F East Wing, the East doors at (24, 13) must be OPEN.
-- The East doors are ONLY open in STATE A.
-- This means I need to toggle the state WHILE I am in the East Wing!
-- But wait, the only switches I know of in the East Wing are the trap switches at (16, 10) and (18, 10) that lock you in.
-- Let me re-read my notes carefully.
-- "Found a glowing-eye switch statue at (21, 13)/(21, 14) in the enclosed South-East area (accessed via East doors)."
-- Ah! That's it!
-- The route is:
-  1. Set Mansion to STATE A (using 1F switch).
-  2. The 2F Northern doors (16, 7) are CLOSED in State A. I CANNOT reach the East Wing via the 2F Northern hallway!
-  3. Wait. If the Mansion is in State A, how do I get to the East Wing?
-  4. On 1F, the East Wing is accessible via the gaps at X=9 (Y=4/Y=5 and Y=10/Y=11).
-  5. Are there stairs to 2F in the 1F East Wing?
-  6. Let me check my notes: "South-East corridor (X=18 to X=21, Y=12 to Y=15) is a dead end. Stairs are visible behind the East wall at (25, 14)/(25, 15) but inaccessible from here."
-  7. Okay, so I can't reach those stairs from 1F.
-  8. So I MUST be on 2F to reach the East Wing.
-  9. To get from 2F Central to 2F East Wing, I MUST use the 2F Northern hallway, which requires the Northern doors at (16, 7) to be OPEN (State B).
-  10. So the Mansion MUST be in State B to enter the 2F East Wing.
-  11. If the Mansion is in State B, the East doors at (24, 13) are CLOSED.
-  12. This means I can enter the East Wing, but I'll be blocked from the stairs by the closed doors at (24, 13).
-  13. Is there a switch in the accessible part of the 2F East Wing (North of the doors) that I can use to toggle back to State A?
-  14. My notes say: "Corridor South of (16, 7) leads to two switch statues at (16, 10) and (18, 10)."
-  15. Are these really trap switches? Or are they the key to progressing?
-  16. Let's test this theory! I need to get the Mansion into State B, go to 2F, walk through the Northern doors to the East Wing, and press one of those switches!
-- The 1F switch is a statue at (2, 10)/(2, 11). I am currently at (4, 11).
-- I need to stand at (3, 11) or (2, 12) to interact with it.
-- Let's walk Left 1 step, then face Left and press A.
+[Turn 42043 - Revised Route to 3F Main]
+- I hallucinated the 1F switch. There is NO switch at (2, 10) on 1F.
+- The route to the 3F stairs is:
+  1. Ensure Mansion is in STATE B (using 2F switch at 2, 4 if necessary).
+  2. Go to 2F. Walk through the OPEN Northern doors at (16, 7) into 2F East Wing.
+  3. Walk to the switch statue at (21, 13) in the 2F East Wing.
+  4. Press the switch. This changes Mansion to STATE A.
+  5. The East doors at (24, 13) are now OPEN.
+  6. Walk through East doors and take the stairs to 3F!
+- I am currently on 1F at (4, 11). I will take the stairs at (5, 10) to 2F.
 
 <hr>
 
