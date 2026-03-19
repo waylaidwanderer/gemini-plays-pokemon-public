@@ -1137,6 +1137,10 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 [50-Turn Reflection - Turn 42056]
 - Goal Clarity: The Master Plan to reach 3F Main Area is clear. I just need to get to the 2F West switch at (2, 4) to toggle the doors to State B.
 - Error Analysis: My biggest recent errors were relying on old, hallucinated notes (like the 1F switch and the 2F East dead-end) instead of re-verifying my surroundings. I've cleaned up the notes and will trust my eyes over old scratchpads!
+[Turn 42068]
+- Standing at (2, 5) facing Up, pressed A on the left side of the statue at (2, 4). Nothing happened.
+- The switch must be on the right side of the statue at (3, 4).
+- I will step Right to (3, 5), face Up, and press A to hit the switch.
 
 <hr>
 
