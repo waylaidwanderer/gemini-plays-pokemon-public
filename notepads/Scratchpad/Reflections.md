@@ -18,11 +18,8 @@
 - The East Trap Room (X=17 to X=21) is a dead end.
 - The 2F East Wing (X=24) is completely walled off from the rest of 2F by rubble at X=22.
 - Conclusion: The 2F East Wing MUST be accessed from stairs on 1F!
-- Plan:
-  1. Explore 1F West Wing to find stairs. The path to the West Wing is via the Northern Hallway at Y=2.
-  2. NOTE: I hallucinated electronic doors at 1F (9, 4). X=9 is a solid pillar wall!
-  3. The REAL 1F electronic doors are located at (16, 7) and (17, 7). They are currently CLOSED in State A.
-[50-Turn Reflection - Turn 42212]
-- Navigation Error Analysis: I hallucinated an open path at 1F (9, 4) because the tile was `TYPE_3fe2` (floor). However, the visual pixel art clearly showed green pillars. I must remember: VISUAL CUES TRUMP TYPE LABELS.
-- Current Status: I have deduced that the 3F stairs MUST be accessed via the 1F West Wing, because the 2F East Wing is completely blocked by rubble.
-- Action Plan: I am currently exploring the 1F West Wing. The path West at Y=2 is blocked by bushes at X=3, but the path at Y=1 is open. I will navigate to (1, 1) and look for a way South.
+- Plan: Explore 1F West Wing to find stairs.
+- 1F Navigation:
+  - X=9 is a solid pillar wall (NOT doors).
+  - The real 1F electronic doors are at (16, 7) and (17, 7), CLOSED in State A.
+  - The path to the West Wing is via the Northern Hallway at Y=2 (up to X=4), then South through a gap at (3, 4).
