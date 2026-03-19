@@ -101,6 +101,6 @@
 1. Go to 2F via stairs at 1F (5, 10).
 2. Toggle 2F switch at (2, 11) to STATE B.
 3. Navigate 2F Northern Hallway: walk North from (10, 13) to (10, 9), East to (12, 9), North to (12, 6), East to (18, 6), then South through the open Northern doors at (18, 8).
-4. Press the switch at 2F (15, 10) from (16, 10) to trigger STATE A.
-5. Walk East through the now-open 2F East doors at (24, 13).
-6. Take the stairs at 2F (25, 14) UP to the isolated section of 3F.
+4. Walk South down the Central Hallway towards Y=17.
+5. Check if Central doors at (20, 17) are OPEN in State B. (If closed, use switch at 16, 10 to toggle).
+6. Explore 2F South to find the stairs UP to 3F!
