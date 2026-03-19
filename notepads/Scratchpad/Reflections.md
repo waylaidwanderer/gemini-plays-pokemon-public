@@ -65,3 +65,7 @@ Requirement: 3F Southern doors (15, 10) OPEN, AND B1F Central doors (20, 17) OPE
 - However, looking at the map, there's a 1-tile gap at (22, 14) / (23, 14) that I can walk through!
 - From (21, 14), I can just walk Right, Right, Right to reach the stairs at (25, 14).
 - The doors at (24, 13) are indeed open (State A), meaning the path to the stairs is clear.
+[Turn 42108]
+- Walked Right from (21, 14) and bumped into the switch statue at (21, 13)/(21, 14).
+- The gap is actually at Y=15! The tiles at (22, 15) and (23, 15) are clear floor.
+- The route is: Down to (21, 15), Right, Right, Right to (24, 15), then Up to the stairs at (25, 14).
