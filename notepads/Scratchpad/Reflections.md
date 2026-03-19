@@ -13,7 +13,3 @@
 - 2F to 3F (UP): MUST BE in the East Wing, accessible via the East doors at (24, 13) ONLY when they are OPEN (State A).
 - 3F to 2F (DOWN-ONLY): Found drop-down stairs at (6, 1) and (6, 21) on 2F. These cannot be ascended.
 - 1F to B1F: Stairs at (21, 23) in the isolated enclosed area of 1F lead down to B1F. (Accessed by jumping down 3F pit at 16, 14).
-
-[Turn 42843 Reflection]
-- Tested statue at 1F (21, 14). It is just a normal statue, not a switch.
-- Re-evaluating routing options. I am in the 1F East Wing South area. I need to continue exploring West of X=24.
