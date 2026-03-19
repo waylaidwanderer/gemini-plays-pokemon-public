@@ -19,12 +19,10 @@
 - The 2F East Wing (X=24) is completely walled off from the rest of 2F by rubble at X=22.
 - Conclusion: The 2F East Wing MUST be accessed from stairs on 1F!
 - Plan:
-  1. Go UP to 2F via stairs at 1F (5, 10).
-  2. Press the 2F switch at (2, 11) to set Mansion to State A.
-  3. Go DOWN to 1F via stairs at 2F (5, 10).
-  4. On 1F, walk East to the gap at (9, 11), then North to the doors at (9, 4).
-  5. The doors at (9, 4) will be OPEN in State A! Explore the 1F West Wing for stairs!
-- NOTE: I hallucinated a switch on 1F at (2, 11). The switch is ONLY on 2F.
+  1. Explore 1F West Wing to find stairs. The path to the West Wing is via the Northern Hallway at Y=2.
+  2. NOTE: I hallucinated electronic doors at 1F (9, 4). X=9 is a solid pillar wall!
+  3. The REAL 1F electronic doors are located at (16, 7) and (17, 7). They are currently CLOSED in State A.
+- Let's walk West along Y=2 to explore the 1F West Wing.
 [Turn 42206 - 1F Navigation Correction]
 - I am on 1F. The electronic doors ARE at (16, 7) and (17, 7), and they are currently CLOSED in State A.
 - The path to the West Wing is via the Northern hallway at Y=2. I am bypassing a Burglar at (12, 5) by walking through X=11.
