@@ -100,5 +100,5 @@
 - VERIFIED PATH: To travel between the Northern doors (16, 7) and the West Wing, use the northernmost hallway. Walk West along Y=6 to X=11, North to Y=2, West to X=4, South to Y=5, and West into the West Wing.
 [TRUE MASTER ROUTE TO SECRET KEY]
 - ROUTE UNDER REVISION.
-- The switch at 2F (16, 10) was a hallucination (they are just cabinets).
-- Currently exploring 2F East Wing in State B to find the real path to the 3F stairs or a valid switch.
+- The 2F area behind the Northern doors (18, 8) is a barren dead-end box! There is no path East and no switch here.
+- The real path MUST be in the 1F East Wing (accessed via State A open doors at 24, 13). I previously abandoned 1F East Wing at (27, 26) without exploring West of it. I will return there to find the stairs to 2F East!
