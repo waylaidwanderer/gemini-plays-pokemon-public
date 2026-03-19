@@ -1471,6 +1471,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - CONCLUSION: The path to 3F main area is ON 2F.
 - VERIFIED: The context summary had a typo. The 1-tile wide gap connecting the northern and southern sections of 2F is at X=10, NOT X=12.
 - VERIFIED: The gap at X=10 (Y=12 to Y=17) provides access to the 2F Southern area.
-- VERIFIED: The entire 2F Southern area (West of X=15, South of Y=18) is a DEAD END. It contains beds/tables, Grimer/Burglar encounters, but NO stairs. The path East is blocked by a solid wall at X=15.
+- VERIFIED: The striped tiles at (12, 26) and (13, 26) are NOT stairs. They are just the tops of tables (TYPE_2889). The entire 2F Southern area is definitively a dead end.
 
 <hr>
