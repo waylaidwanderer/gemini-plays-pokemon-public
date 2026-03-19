@@ -1,2 +1,1 @@
 [Active Reflections]
-- [Turn 43544] Realized I already found B1F previously but Dig'd out by accident! Now executing the True Route back to B1F via the 3F pit. Currently backtracking to the 1F main stairs at (5, 10).
