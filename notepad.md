@@ -1385,6 +1385,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - The Northeast area (accessed via X=18) contains a diary at (18, 2) and CONNECTS to the East Wing via a gap at Y=3.
 - South-East corridor (X=18 to X=21, Y=12 to Y=15) is a dead end. The East Wing corridor (accessed via the doors at 24, 13) continues South of Y=18. (Previously hallucinated stairs at 25, 14).
 - 1F South-East doors are located at (26, 27) and (27, 27). These block the path South.
+- SW corridor runs North along X=1, separated by green pillars at X=3. Found a Burglar at (1, 14).
 
 [2F Points of Interest]
 - Arrived from 1F via stairs at (5, 10).
