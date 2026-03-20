@@ -1595,5 +1595,11 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 3. Navigation: From (13, 26), I need to walk East to X=21. Let's look at the screen. The tiles from (13, 26) to (18, 26) are clear floor! I can walk East here to bypass the pillars at Y=23.
 4. Let's trace the path: From (13, 26), walk Right 8 times to (21, 26). Then walk Up 3 times to (21, 23).
 5. Sequence: R R R R R R R R U U U.
+[Turn 44907 Reflection]
+1. Execution: Successfully reached B1F via the stairs at (23, 22).
+2. Goal: Reach the B1F NW section. I need to re-examine the door layouts here on B1F now that we are in State B.
+3. Navigation: I will walk to the switch statue at (18, 25).
+   - From (23, 22): Walk South to Y=26, then West to X=18.
+   - Sequence: D D D D L L L L L.
 
 <hr>
