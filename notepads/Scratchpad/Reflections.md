@@ -240,3 +240,8 @@
    - Wait, let me look at the Screen Text History. There IS no screen text history for 44933.
    - Look at the screen. The trainer is right above me. The battle is about to start.
 3. Goal: Defeat the Burglar, then continue to the switch at (2, 5).
+[Turn 44935 Reflection]
+1. Execution: The Burglar initiated battle! The `A` press was eaten. I am now in a trainer battle.
+2. Goal: Defeat the Burglar.
+3. Combat: Use Hydro Pump or Surf (since it's a Fire-type user usually) to quickly KO his Pokemon.
+4. Sequence: FIGHT -> Surf.
