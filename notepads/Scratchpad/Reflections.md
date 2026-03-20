@@ -1,6 +1,8 @@
 [Master Plan to Reach 3F Pit and B1F]
 1. Toggle switch at 2F (15, 10) to State A.
-   - Navigate from West Wing back to Central via Y=11 gap.
+   - From (16, 7), go UP to (16, 4) to bypass green pillars.
+   - Go RIGHT to (18, 4), then DOWN to (18, 10) through OPEN doors at (18, 8).
+   - Go LEFT to (16, 10).
 2. Face LEFT at (16, 10) and press A. Select YES to toggle switch.
 3. Verify State A (1F East doors at 24, 13 OPEN).
 4. Escape to 1F, navigate to East Wing via 1F (26, 27) Northward path.
