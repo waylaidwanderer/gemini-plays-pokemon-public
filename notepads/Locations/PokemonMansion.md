@@ -17,8 +17,8 @@
 - The 1F switch is located at (2, 5) in the Northwest! It is a statue.
 - Green pillars line X=3 and X=8, with 1-tile gaps.
 - A solid horizontal wall at Y=9 blocks the Central Hallway and West Wing.
-- East wing is separated by a vertical wall at X=13, which has a gap at Y=1 ONLY. (There is NO gap at Y=2 or Y=10/Y=11, it is a solid wall).
-- The horizontal wall at Y=9 does NOT extend all the way to the East Wing wall. There is a gap at X=12! You can walk South down X=12 to bypass the Y=9 wall, then head West to reach the main stairs at (7, 10).
+- East wing is separated by a vertical wall at X=13. This wall starts at Y=7 and goes South. The area from Y=2 to Y=6 is completely OPEN, allowing easy access between Central and East Wing!
+- The horizontal wall at Y=9 does NOT extend all the way to the East Wing wall. There is a gap at X=12! You can walk South down X=12 to bypass the Y=9 wall, then head West to reach the main stairs at (5, 10).
 - The main staircase on 1F at Y=10 spans 3 tiles! Stepping on the left tile (5, 10) leads to 2F (5, 10). Stepping on the middle/right tiles (6, 10)/(7, 10) leads to 2F (6, 10)/(7, 10), which is immediately adjacent to another set of stairs leading to an isolated room on 3F.
 - CRITICAL: The stairs at (7, 10) ONLY lead to the isolated 3F room with the Burglar and Diary. They DO NOT connect to the rest of 3F or the pit. You must use the stairs in 2F South-East to reach the pit!
 - The 1F statue at (2, 10)/(2, 11) is JUST A NORMAL STATUE, NO SWITCH! The switch is on 2F.
