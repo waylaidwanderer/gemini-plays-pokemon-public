@@ -63,3 +63,13 @@
    - Let's verify this. D L L L L L.
 5. Wait, I thought this area was a sealed trap? I previously used Dig to escape. If I can just WALK out... then it's not a trap, it's a one-way path back to the entrance!
 6. Sequence: D L L L L L.
+[Turn 44922 Reflection]
+1. Execution: I successfully walked out of the 1F enclosed area! I am now in the 1F Central Hallway at (16, 25).
+2. Analysis: The 1F Central Doors at (16, 7)/(17, 7) that I thought were a dead end actually connect to the pit drop landing zone! This entire section of the Mansion (3F right pit -> 1F enclosed area -> B1F enclosed area) is just a side area for items (like TM14 Blizzard), NOT a trap you have to Dig out of! The doors at (16, 7) just need to be OPEN (State B) to walk back out to the entrance.
+3. Goal: Find the TRUE stairs to the main B1F area.
+4. Navigation: I need to re-explore 1F and 2F. Let's head to the main stairs at (5, 10).
+   - From (16, 25), walk North to Y=11.
+   - Wait, I'm currently at Y=25. The Central Hallway is open North until Y=9.
+   - Path: U U U U U U U U U U U U U U. (14 Ups to 16, 11).
+   - Then West through the gap at (8, 11) to reach the stairs.
+5. Sequence: U U U U U U U U U U U U U U L L L L L L L L U.
