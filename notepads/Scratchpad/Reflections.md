@@ -123,3 +123,8 @@
 2. Goal: Run from the battle, then proceed to the 3F stairs at 2F (6, 1).
 3. Wait, I was already at 2F (6, 4) in Turn 44883. I executed U U U and hit the stairs at (6, 1). The wild encounter triggered *during* the transition or immediately after arriving on 3F. The game state says I am still on Map 0_214 (2F), at (6, 4). My Up movements were eaten by the text box or the encounter!
 4. Navigation: I am at 2F (6, 4). I must clear the text box and press Up 3 times to reach the stairs at (6, 1).
+[Turn 44887 Reflection]
+1. Execution: I ran from the Vulpix. The "Got away safely!" text box is on screen.
+2. Goal: Toggle the 3F switch at (10, 5) to State B, then proceed to the pit at (16, 14).
+3. Navigation: I am at 2F (6, 4). I need to press A to clear the text, then press Up 3 times to reach the stairs at (6, 1).
+4. Sequence: A U U U.
