@@ -1,6 +1,8 @@
 [Master Plan to Reach 3F Pit and B1F]
-1. Explored 2F East along Y=7. Verified it is BLOCKED by rubble at X=22.
-2. State A is active. Doors at 2F (18, 8) are CLOSED, making 2F (15, 10) switch INACCESSIBLE from the North.
-3. However, in State A, the doors at 2F (9, 4)/(9, 5) are OPEN.
-4. I must navigate to the 2F North-West doors at (9, 5) and explore the area behind them.
-5. I suspect this path will lead to stairs up to the Northern half of 3F, where the switch at (10, 4) is located!
+1. Toggle switch at 2F (15, 10) to State A.
+   - Navigate from West Wing back to Central via Y=11 gap.
+2. Face LEFT at (16, 10) and press A. Select YES to toggle switch.
+3. Verify State A (1F East doors at 24, 13 OPEN).
+4. Escape to 1F, navigate to East Wing via 1F (26, 27) Northward path.
+5. Take stairs at 1F (25, 14) to 2F East Wing.
+6. Take stairs to 3F East Wing, jump down pit at 3F (16, 14).
