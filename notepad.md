@@ -1369,7 +1369,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - East wing is separated by a vertical wall at X=13. This wall starts at Y=7 and goes South. The area from Y=2 to Y=6 is completely OPEN, allowing easy access between Central and East Wing!
 - The horizontal wall at Y=9 does NOT extend all the way to the East Wing wall. There is a gap at X=12! You can walk South down X=12 to bypass the Y=9 wall, then head West to reach the main stairs at (5, 10).
 - The main staircase on 1F at Y=10 spans 3 tiles! Stepping on the left tile (5, 10) leads to 2F (5, 10). Stepping on the middle/right tiles (6, 10)/(7, 10) leads to 2F (6, 10)/(7, 10), which is immediately adjacent to another set of stairs leading to an isolated room on 3F.
-- CRITICAL: The stairs at (7, 10) ONLY lead to the isolated 3F room with the Burglar and Diary. They DO NOT connect to the rest of 3F or the pit. You must use the stairs in 2F South-East to reach the pit!
+- CRITICAL: The stairs at 1F (7, 10) ONLY lead to the isolated 3F room with the Burglar and Diary. This room is a VERIFIED DEAD END (no pit!). You must use the stairs at 2F (6, 1) to reach the main 3F area and the pit.
 - The 1F statue at (2, 10)/(2, 11) is JUST A NORMAL STATUE. However, there IS a switch on a statue at 1F (2, 5)!
 - 2F Central South doors at (7, 22)/(7, 23) are OPEN IN STATE B! Grants access to the SW room containing beds and a diary at (3, 21). THERE ARE NO STAIRS HERE. My previous notes were a massive hallucination.
 - Closed electronic doors located at (16, 7)/(17, 7) blocking the path South. To bypass them, use the far-East hallway at X=23!
