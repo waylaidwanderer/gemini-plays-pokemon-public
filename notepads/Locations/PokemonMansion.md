@@ -11,6 +11,7 @@
 - Grimer
 - Muk
 - Koffing
+- Magmar
 
 [1F Points of Interest]
 - 1F Central Hallway runs North from the entrance along X=5.

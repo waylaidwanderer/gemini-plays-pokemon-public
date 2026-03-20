@@ -1367,6 +1367,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Grimer
 - Muk
 - Koffing
+- Magmar
 
 [1F Points of Interest]
 - 1F Central Hallway runs North from the entrance along X=5.
