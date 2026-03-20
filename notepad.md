@@ -1414,7 +1414,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 
 [B1F Points of Interest]
 - Arrived from 1F via stairs at (23, 22). These stairs lead back up to the enclosed area on 1F (accessed via 3F pit).
-- The Northwest section of B1F (containing the switch at 7, 15) is completely isolated by solid walls at X=9 and Y=8, and a table at Y=17. Hypothesis: Accessed by jumping down the 3F pit at X=13 or X=14, which might land on an unexplored section of 2F (unlike X=16/17 which drops all the way to 1F).
+- The Northwest section of B1F (containing the switch at 7, 15) is completely isolated by solid walls at X=9 and Y=8, and a table at Y=17. All hypotheses regarding 3F pits, 3F hidden stairs, 2F hidden stairs, and 1F NW stairs have been proven FALSE via exhaustive exploration. The only remaining unexplored vertical transition is the main 3F pit drop on the right side (X=16/17), which drops to the 1F enclosed area. I must re-evaluate how manipulating door states from B1F (via the switch at 18, 25) might change the layout of B1F itself to allow access to the NW section.
 - Found TM14 (Blizzard) at (19, 25).
 - Diary located at (16, 20): "Sept. 1. MEWTWO is far too powerful..."
 - Found a glowing-eye switch statue at (18, 24)/(18, 25).
