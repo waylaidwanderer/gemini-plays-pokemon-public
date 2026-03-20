@@ -1496,5 +1496,10 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 
 [Hypotheses]
 - Missing B1F Stairs Location: 1F East Wing is a dead end. 1F NW corner was previously explored (switch at 2, 5). The remaining unexplored vertical transition is the 3F East Wing! Previous notes state: "On 3F, eastern section... Path continues south of a wall at X=22. Found an item ball at (25, 5)." This southern path might lead to a hidden pit that drops down into the B1F East Wing!
+[B1F Northern Corridor Revelation]
+- There is a completely open East-West corridor at Y=14 spanning from X=9 to at least X=15!
+- The wall at X=13 only starts at Y=16 and goes South.
+- Therefore, the electronic doors at X=13 (Y=22/23) only block the Southern path between the Central and West areas. The Northern path at Y=14 is always open!
+- To reach the NW enclosure doors at (9, 6)/(9, 7), I just need to be in State B, walk North to Y=14, West to X=9, and North to the doors! No need to use the X=13 doors at all!
 
 <hr>
