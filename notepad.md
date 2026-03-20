@@ -1414,7 +1414,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 
 [B1F Points of Interest]
 - Arrived from 1F via stairs at (23, 22). These stairs lead back up to the enclosed area on 1F (accessed via 3F pit).
-- The Northwest section of B1F (containing the switch at 7, 15) is completely isolated by solid walls at X=9 and Y=8, and a table at Y=17. Hypothesis: Accessed via a hidden pit in the 3F West Wing behind the Y=6 rubble. (Re-testing this because the X=12 pit jump hypothesis was proven false; the wall there is solid).
+- The Northwest section of B1F (containing the switch at 7, 15) is completely isolated by solid walls at X=9 and Y=8, and a table at Y=17. Hypothesis: Accessed by jumping down the 3F pit at X=13 or X=14, which might land on an unexplored section of 2F (unlike X=16/17 which drops all the way to 1F).
 - Found TM14 (Blizzard) at (19, 25).
 - Diary located at (16, 20): "Sept. 1. MEWTWO is far too powerful..."
 - Found a glowing-eye switch statue at (18, 24)/(18, 25).
