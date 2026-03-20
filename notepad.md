@@ -2059,5 +2059,12 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
    - Then select DIG (index 1) and press A.
 4. Let's do this step-by-step to avoid any more text box or menu desyncs.
 5. Sequence: D A.
+[Turn 44958 Reflection]
+1. Execution: Pressed D, A. The cursor moved to POKéMON and selected it. The Party Menu is open.
+2. Goal: Select DUGTRIO (index 3), then DIG.
+3. Navigation: The cursor in the Party Menu is on HYDRO (slot 1). I need to move it to DUGTRIO (slot 3).
+   - Sequence: D D A (to select DUGTRIO).
+   - Then A (to select DIG, which is at the top of the sub-menu).
+4. Sequence: D D A A.
 
 <hr>
