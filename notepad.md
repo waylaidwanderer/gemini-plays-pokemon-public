@@ -1589,5 +1589,11 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
    - Actually, let me look at my map notes. "South-East corridor (X=18 to X=21, Y=12 to Y=15) is a dead end." "SW corridor (X=1/X=2) runs from Y=27 North to Y=10. It is a dead end containing a Burglar at (1, 14)".
    - Let's just explore South from (13, 23).
 5. Sequence: D D D D.
+[Turn 44906 Reflection]
+1. Execution: The movement D D D D brought me to (13, 26).
+2. Goal: Reach the B1F stairs at (21, 23).
+3. Navigation: From (13, 26), I need to walk East to X=21. Let's look at the screen. The tiles from (13, 26) to (18, 26) are clear floor! I can walk East here to bypass the pillars at Y=23.
+4. Let's trace the path: From (13, 26), walk Right 8 times to (21, 26). Then walk Up 3 times to (21, 23).
+5. Sequence: R R R R R R R R U U U.
 
 <hr>
