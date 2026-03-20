@@ -109,3 +109,7 @@
 1. Execution: Successfully navigated the stairs from 3F and arrived at 2F (6, 1).
 2. Navigation: I need to reach the main stairs down to 1F at (5, 10). The path from here is South to (6, 4), East through the gap at (9, 4) to (10, 4), South to (10, 11), West through the gap at (8, 11) to (5, 11), and Up to the stairs at (5, 10).
 3. Sequence: D D D R R R R D D D D D D D L L L L L U.
+[Turn 44883 Reflection]
+1. Execution: Ran from Vulpix. Cleared text box. I am at 2F (6, 4).
+2. Navigation: The path to the 3F stairs at 2F (6, 1) is simply Up 3 tiles from my current position.
+3. Sequence: U U U.
