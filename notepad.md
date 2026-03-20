@@ -1493,5 +1493,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Next Step: Since I just used Dig, the Mansion is currently in State A. I must systematically search the 1F East Wing for this missing staircase!
 - Macro Rule: Keep movement macros short (1-5 steps) to prevent wild encounters from corrupting positional awareness.
 \n[Turn 45278] 50-Turn Reflection: My recent progress has been excellent. I successfully broke out of an execution loop by recognizing the B1F puzzle required a different approach, rigorously tested the B1F perimeter to prove the Y=8 table is solid, and formulated a logical hypothesis (a second staircase exists). I also successfully completed a major notepad cleanup to remove turn-log bloat. My tools are working perfectly. My immediate goal is clear: navigate the 1F East Wing to find the missing stairs.
+\n[Turn 45287] Navigating 1F North-East area. I am at (20, 6). I need to head North to Y=3 to bypass the wall at X=22, then East to X=26/27, then South into the East Wing to search for the hidden B1F stairs.
 
 <hr>
