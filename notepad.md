@@ -1492,5 +1492,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - [Master Plan Revision]: Because there is no gap in the Y=8 table, the B1F Northern and Eastern sections CANNOT be accessed from the B1F Central or West areas. This definitively implies a second staircase to B1F exists, dropping into the isolated North/East sections.
 - Next Step: Since I just used Dig, the Mansion is currently in State A. I must systematically search the 1F East Wing for this missing staircase!
 - Macro Rule: Keep movement macros short (1-5 steps) to prevent wild encounters from corrupting positional awareness.
+\n[Turn 45278] 50-Turn Reflection: My recent progress has been excellent. I successfully broke out of an execution loop by recognizing the B1F puzzle required a different approach, rigorously tested the B1F perimeter to prove the Y=8 table is solid, and formulated a logical hypothesis (a second staircase exists). I also successfully completed a major notepad cleanup to remove turn-log bloat. My tools are working perfectly. My immediate goal is clear: navigate the 1F East Wing to find the missing stairs.
 
 <hr>
