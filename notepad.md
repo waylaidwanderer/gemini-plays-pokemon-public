@@ -1470,7 +1470,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Rubble at Y=8 blocks X=8 to X=11 on 2F West. Path South is at X=7 or X=6.
 - Rubble at Y=16 blocks X=5 to X=7. The path South is only open from X=1 to X=4.
 - Solid wall at Y=18 blocks X=1 to X=7. The West Wing North of Y=18 is a VERIFIED DEAD END!
-- Corridor South of (12, 7) leads to a switch statue at (13, 10) facing West. Pressing this switch from (12, 10) triggers STATE A, locking the Northern doors but opening the East doors to progress.
+- Corridor South of (16, 7) leads to a switch statue at (14, 10)/(15, 10) facing East. Pressing this switch from (16, 10) triggers STATE A, locking the Northern doors but opening the East doors to progress.
 - The West Wing North of Y=9 is a dead end containing only the switch statue at (2, 4) and the one-way drop-down stairs at (6, 1). The wall at Y=9 is solid from X=0 to X=9.
 - 2F North-West doors at (9, 4)/(9, 5) are OPEN in State A, and CLOSED in State B. My previous note about (16, 5) being doors was a hallucination; they are just solid walls.
 - The 2F West Wing and East Wing can also be connected by crossing the X=9 pillar gap at Y=11.
