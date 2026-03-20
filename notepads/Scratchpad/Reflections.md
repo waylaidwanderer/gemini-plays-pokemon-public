@@ -146,3 +146,13 @@
    - 5 - 2 = 3 Lefts to (2, 5).
 6. Total Sequence: 15U, 11L, 6U, 3L.
    - UUUUUUUUUUUUUUU LLLLLLLLLLL UUUUUU LLL.
+[Turn 44928 Reflection]
+1. Execution: My macro `UUUUUUUUUUUUUUULLLLLLLLLLLUUUUUULLL` was aborted at button 2 (Up) because an encounter started. I am at 1F (16, 24).
+2. Goal: Reach the 1F switch at (2, 5).
+3. Navigation: Run from the Grimer, then resume the path.
+   - I am at (16, 24).
+   - Walk North to Y=11: 24 - 11 = 13 Ups to (16, 11).
+   - Walk West to X=5: 16 - 5 = 11 Lefts to (5, 11).
+   - Walk North to Y=5: 11 - 5 = 6 Ups to (5, 5).
+   - Walk West to X=2: 5 - 2 = 3 Lefts to (2, 5).
+4. Sequence: 13U, 11L, 6U, 3L.
