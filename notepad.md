@@ -1554,5 +1554,19 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 4. Navigation Update: The gap must be further South. I am at (17, 16). The path East is blocked at X=18. I need to walk South along the X=17 corridor to find a gap.
 5. Let's look at the screen carefully. The corridor at X=17 goes South, with bushes on the left and a solid wall on the right. At Y=19, there are statues. I need to navigate this corridor South.
 6. Sequence: Walk South from (17, 16) to see where the gap in the X=18 wall is. D D D.
+[Turn 44903 Reflection]
+1. Execution: Walked South from (17, 16) and bumped into the wall! I am still at (17, 16).
+2. Error Analysis: Ah! Looking at the intermediate states, my character bumped into a solid wall IMMEDIATELY when pressing Down from (17, 16).
+   - State 0: Down -> Bump! (17, 17) is TYPE_3fe2 visually, but my character didn't move!
+   - Wait, look at the screen! At (17, 16), my character is standing ON the electronic doors! They are OPEN. But the tile BELOW me at (17, 17) is the space between the open doors. Let's look at State 0, 1, 2.
+   - I didn't move at all. Why? Because the pit landed me at (16, 14). I walked L L L D D D D to (13, 18). Wait, in Turn 44901, I WAS at (17, 16)! 
+   - How did I get to (17, 16) from (16, 14)? In Turn 44899 I pressed D to fall. Turn 44900, I started at (16, 14). My intended macro was L L L D D D D. The Game State for 44901 said I was at (17, 16)!
+   - WHAT. Let me re-read the sequence from 44899. A, D.
+   - Turn 44900: I started at (16, 14). I executed L L L D D D D. The sequence aborted at button 6 ('Right') of 20 ('Right') in Turn 44901? No, 44901 executed RRRRRRRRDDDDD.
+   - Turn 44900's LLLDDDD was aborted at button 4 ('Down') because of a text box or battle! The Game State for 44901 placed me at (17, 16) because the pit drop actually landed me somewhere else, or the movement was completely different.
+   - Let's look at the current screen at (17, 16). The path South is blocked. The path East is blocked. I need to walk West!
+3. Next Step: Walk West from (17, 16) to reach the main Central Hallway, then walk South to the stairs.
+4. Path: L L L L (to 13, 16). The path South from (13, 16) is blocked by plants at Y=18. I need to walk further West to X=12, then South.
+5. Sequence: L L L L L D D D D D D.
 
 <hr>
