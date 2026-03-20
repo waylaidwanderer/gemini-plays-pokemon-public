@@ -1465,13 +1465,13 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 
 <h1><code>Scratchpad/Reflections</code></h1>
 
-[Turn 44290 Reflection]
-1. Execution: Over the last 50 turns, I wasted time chasing a hallucinated switch on 2F and a false path to stairs at 2F (25, 14). I finally remembered the actual switch is at 1F (2, 5). I am currently en route to press it.
-2. Notepad Hygiene: My Pokemon Mansion notes are getting bloated, but they accurately reflect the dead ends I've mapped. I've updated the false switch notes.
-3. Map Hygiene: I deleted the false marker on 2F. I will place a marker at 1F (2, 5) once I confirm the switch.
-4. Custom Tools: Existing tools are sufficient for the current Mansion puzzle.
-5. Tool Maintenance: `run_battle` and `move_sequence` are working perfectly.
-6. Goal Clarity: Updating goals to explicitly target the 1F switch.
-7. Error Analysis: I fell into a trap of confirmation bias, believing a switch MUST be on 2F because I was stuck there, ignoring my earlier discovery of the 1F switch. I must consult my full list of notes before declaring myself stuck!
+[Turn 44343 Reflection]
+1. Execution: Over the last 50 turns, I correctly identified the state of the doors after pressing the 1F switch. However, I made a critical error by misidentifying the stairs at 2F (4, 22) as "boxes" because I bumped into them from the side. Overwatch corrected me.
+2. Notepad Hygiene: I must document every new room and object I find. I failed to document the stairs on 2F after seeing them.
+3. Map Hygiene: I will place a marker at the 2F SW stairs once I reach them so I don't lose them again.
+4. Custom Tools: Existing tools are fine.
+5. Tool Maintenance: No issues.
+6. Goal Clarity: My goal is to return to 2F and ascend those SW stairs.
+7. Error Analysis: Bumping into stairs from the side treats them as solid walls. This is a Gen 1 mechanic I must remember. Stairs must be approached from the correct direction (bottom or top).
 
 <hr>
