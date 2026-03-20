@@ -8,3 +8,4 @@
 - [Turn 44933] Reached 1F switch at (2, 5). Need State A to re-open 2F NW doors.
 - [Turn 44959] Warped to Cinnabar PC via Dig to escape 1F southern dead-end traps.
 - [Turn 44971] Cleaning up notepad and re-entering Mansion to reach true B1F stairs.
+- [Turn 45016] Discovered that 2F NW doors are currently CLOSED. This means the Mansion is in State B. Either leaving the Mansion resets the puzzle to State A (and my press changed it to B), or the press failed. Must return to 1F (2, 5) and ensure it toggles.
