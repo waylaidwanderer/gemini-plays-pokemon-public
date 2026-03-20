@@ -6,3 +6,7 @@
 5. Tool Maintenance: Good.
 6. Goal Clarity: Escape B1F using Dig, return to 3F, and find the left-side pit to drop into 1F NW.
 7. Error Analysis: I mistakenly assumed the B1F West area connected to the NW area. Empirical bumping proved it's completely blocked. I need to rethink vertical navigation.
+[Turn 44654 Reflection]
+- Ruled out alternative 3F pits. The only remaining path to B1F NW is jumping down the left side of the main 3F pit.
+- Error Analysis: Misjudged the X=9 wall earlier; the northern gap at Y=1-3 connects 3F West and Central.
+- Next Step: Toggle 3F switch to State B, walk South through the X=13 gap, and explore the left side of the pit.
