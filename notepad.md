@@ -1841,5 +1841,33 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 5. Sequence: D D L L L L L L L L D D D D D L L L L L L L L L.
    - Let's be precise. From (12, 14), D D (to 12, 16).
    - Let's just walk South and West until I reach X=5.
+[Turn 44946 Reflection]
+1. Execution: The movement D D D D D D D D D D L L L L L L L successfully navigated me South along X=12 and West along Y=24 to (5, 24). Wait, I am at (12, 24) on the Game State.
+2. Error Analysis: The sequence was aborted at button 11 ('Left').
+   - I was at (12, 14).
+   - I pressed Down 10 times to (12, 24).
+   - Then I pressed Left 1 time.
+   - At (11, 24), I bumped into a solid object!
+   - Let's look at the screen for Turn 44945. (12, 24) is my position. The tile to the Left at (11, 24) is TYPE_2889 (solid wall/pillar).
+   - Yes, the green pillars at X=11 extend all the way down to Y=27!
+3. Goal: Reach the 1F West Wing (X=1 to X=8).
+4. Navigation: I am at (12, 24). I need to find a gap in the X=11 green pillars.
+   - Let's look at the map notes. "SW corridor (X=1/X=2) runs from Y=27 North to Y=10. It is a dead end containing a Burglar at (1, 14), and connects to the Central Hallway via a gap at (3, 11)."
+   - Wait, my notes say "The horizontal wall at Y=9 does NOT extend all the way to the East Wing wall. There is a gap at X=12! You can walk South down X=12 to bypass the Y=9 wall, then head West along Y=11 (passing through a gap in the green pillars at 8, 11) to reach the main stairs at (5, 10)."
+   - There is NO gap in the green pillars at Y>11!
+   - To get from the Central area to the West Wing, I MUST cross at Y=11!
+   - But wait! I was just at Y=11! The Burglar at (13, 14) / (12, 13) blocked me?
+   - Let's re-read Turn 44939 reflection. "The trainer was at (12, 13). I bumped into him at (12, 14)."
+   - In Turn 44945, I am at (12, 24). I walked AWAY from the gap at Y=11!
+   - Why did I walk South?! "Strategy Pivot: How do I get out of the southern half of 1F? Let's walk back South to Y=26, then West to X=5."
+   - That was a hallucinated path! The ONLY crossing is at Y=11.
+   - The Burglar at (12, 13) is DEFEATED. I can just walk past him now!
+5. Next Step: Walk North along X=12 back to Y=11, then West to X=5.
+   - Current: (12, 24).
+   - North to Y=11: 24 - 11 = 13 Ups to (12, 11).
+   - West to X=5: 12 - 5 = 7 Lefts to (5, 11).
+   - North to Y=5: 11 - 5 = 6 Ups to (5, 5).
+   - West to X=2: 5 - 2 = 3 Lefts to (2, 5).
+   - Total Sequence: 13U, 7L, 6U, 3L.
 
 <hr>
