@@ -1544,5 +1544,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [Turn 44865 Reflection]
 1. Execution: Heading West from the far East side of 3F. I am at (24, 4) and need to reach the Central Area at (13, 9).
 2. Navigation: LLLLLLLLLDDDDD (9 Left, 5 Down) to reach the gap at X=15, Y=9. Then I will be back in the Central Area.
+[Turn 44866 Reflection]
+1. Execution: My previous macro failed because the 3F East Wing has a central block of walls at (18, 4) to (19, 5). I am currently at (19, 7).
+2. Navigation: I will walk Left to the X=17 hallway, Up to Y=4, and Left through the doors at (15, 4). Once in Central at (13, 4), I will walk South to Y=9, then West into the unexplored 3F SW area to find the missing pit to B1F NW!
 
 <hr>
