@@ -190,3 +190,9 @@
 4. Result: I should be warped back to the last Pokemon Center I healed at, which is Cinnabar Island.
 5. Goal: Re-enter the Pokemon Mansion and find the TRUE stairs to the main area of B1F.
 6. Navigation: I need to walk to the Mansion entrance at Cinnabar (6, 3).
+[Turn 44912 Reflection]
+1. Execution: Pressed Start. The Start Menu is open.
+2. Goal: Select POKéMON, then DUGTRIO, then DIG to warp back to Cinnabar Island.
+3. Navigation: The Start Menu has cursor memory. I must visually verify the cursor position.
+4. Visual Check: The cursor is currently on ITEM. I need to move it up to POKéMON.
+5. Sequence: U A.
