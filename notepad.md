@@ -1089,14 +1089,12 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 <h1><code>Scratchpad/Reflections</code></h1>
 
 [Active Reflections]
-[Turn 43918] NEW GRAND HYPOTHESIS 6 (The State B Route):
-- We are in STATE B.
-- In State B, 1F doors at (24, 13) are CLOSED. 1F doors at (16, 7) are OPEN.
-- In State B, 1F doors at (26, 27) are OPEN.
-- Plan: Go to 1F main stairs (7, 10). Walk East to (12, 10), North to (12, 8).
-- CRITICAL STEP: Walk EAST from (12, 8) to (16, 8). This should bypass the desks and lead to the (16, 7) doors.
-- Walk North through (16, 7) to the NE area. Cross the Y=3 gap into the East Wing.
-- Walk South to (26, 27), pass through, and find the stairs to the 3F main area!
+[Turn 43926] Correction:
+- 1F East Wing is completely inaccessible from the South. The wall at X=11 is solid.
+- The gap at X=12 is a solid dead end (desks).
+- Therefore, the path forward MUST be on 2F.
+- In Turn 43900, I passed through the 2F doors at (18, 8) but FAILED to fully explore South. I falsely declared it a dead end after only taking a few steps.
+- Plan: Return to 2F, ensure State B is active. Pass through doors at (18, 8) and thoroughly explore the area far South of Y=12 to find the stairs to 3F.
 
 <hr>
 
