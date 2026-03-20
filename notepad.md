@@ -1485,7 +1485,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - B1F NW section is structurally isolated. Access requires manipulating electronic doors via the switch at (18, 25).
 - Pit Traps: The 3F main pit drops to a sealed 1F room which leads to B1F.
 - Global State Reset: Leaving the Mansion (e.g., via Dig) resets the global electronic doors back to State A.
-- Current Objective: X=13 is a solid wall from North to South! The electronic doors at Y=22/23 are the ONLY crossing. Since they are CLOSED in State B, I MUST return to the Central Switch (18, 25) and toggle back to State A. Then I can cross into the West Wing, head North through the Table Gap at (10, 17), and press the OTHER switch at (7, 15) to enter State B from inside the West Wing, which will open the Secret Key room!
+- Current Objective: Discovered I backed away from the Central Switch in Turn 45103 without toggling it. The Mansion is STILL in State B, so X=13 doors are closed. Returning to (18, 25) to definitively toggle to State A. Then crossing to West Wing to use the (7, 15) switch.
 - [Turn 45070] 50-Turn Reflection: The Mansion puzzle is definitively solved. The critical insight was realizing the 3F pit was the ONLY way down to the B1F enclosed area, and that the B1F switch at (18, 25) controls the X=13 vertical doors granting access to the West Wing. Exhaustive physical testing of boundaries prevented further hallucinations. Current focus is fully exploring the B1F West Wing to locate the Secret Key. All tools and goals are functioning nominally. No new custom tools are needed at this exact moment, as the current movement and battle tools are perfect for close-quarters exploration.
 
 <hr>
