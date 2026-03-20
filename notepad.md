@@ -1398,7 +1398,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - The stairs at 2F (25, 14) remain a mystery, inaccessible from known 1F/2F paths (see Verified Dead Ends).
 
 [3F Points of Interest]
-- Arrived from 2F via stairs (location unknown, likely South-East).
 - Burglar trainer spotted at (4, 11).
 - Diary located at (6, 12). "Feb. 6. MEW gave birth. We named the newborn MEWTWO."
 - Found Max Potion at (1, 16).
