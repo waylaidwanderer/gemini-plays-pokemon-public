@@ -1380,7 +1380,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 
 [1F Points of Interest]
 - 1F Central Hallway runs North from the entrance along X=5.
-- The 1F switch is located at (2, 5) in the Northwest! It is a statue.
 - Green pillars line X=3 and X=8, with 1-tile gaps.
 - A solid horizontal wall at Y=9 blocks the Central Hallway and West Wing.
 - East wing is separated by a vertical wall at X=13. This wall starts at Y=7 and goes South. The area from Y=2 to Y=6 is completely OPEN, allowing easy access between Central and East Wing!
