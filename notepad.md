@@ -1497,5 +1497,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 \n[Turn 45159] Currently at (10, 14). The solid wall at X=9 continues North. I am continuing to walk North along X=10 to find the entrance to the West Wing.
 \n[Turn 45161] The solid wall at Y=8 blocks Northward movement from X=6 to at least X=15. I am walking East along Y=10 to find a way North of this Y=8 wall, hoping it leads around to the West Wing.
 \n[Turn 45165] I followed the Y=8 wall all the way East to X=24, and it remains solid. The path North is completely blocked. I am returning West to X=10 to systematically test the X=9 wall for a gap. I will bump West at every Y-coordinate from Y=9 down to Y=16 to find the entrance to the (7, 15) switch enclosure.
+\n[Turn 45166] EPIPHANY: My conclusion in Turn 45126 that the X=13 doors are closed in State A was a MASSIVE HALLUCINATION! The "visited 1 tiles" warning from `DLLLL` at (14, 21) was simply due to inputs being eaten by a text box or turning delay, NOT a solid wall! Visual evidence in State A clearly shows the X=13 doors are OPEN. I am currently in State B. I must return to the switch at (18, 25), toggle it to State A, and walk through the X=13 doors to access the West Wing! Heading South-East to the switch now.
 
 <hr>
