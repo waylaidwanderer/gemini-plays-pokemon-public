@@ -17,3 +17,15 @@
 2. Goal: Reach the 3F pit at (16, 14).
 3. Navigation: I need to select YES (which is currently selected), then clear the subsequent "Who wouldn't!" or "A secret switch!" text box, THEN move to the pit.
 4. Let's just press A to say YES, wait for the text, and press A again. I will NOT queue movement yet to avoid it being eaten by text rendering.
+[Turn 44892 Reflection]
+1. Execution: Pressed A. The text says "Not quite yet!" Wait, "Not quite yet!"? 
+2. Analysis: The switch at (10, 5) was in State A. I walked up to it and interacted with it. It asked "Press it?". I said "YES". It said "Not quite yet!". This means the switch was NOT toggled! It remains in State A!
+3. Mechanics Check: Why did it say "Not quite yet!"? Ah, because it's already in State A? No, the switches don't have "A" and "B" labels. They just say "A secret switch! Press it? YES/NO". If you say YES, it says "Who wouldn't!". If it says "Not quite yet!", it means I selected NO.
+4. Error Analysis: I used `A-A` as my sequence. The first `A` advanced the "Press it?" text, but the cursor was probably on NO! In Gen 1, "YES/NO" prompts often default to NO to prevent accidental irreversible actions, or they remember the cursor position from a previous prompt. I must explicitly press Up then A to select YES!
+5. Current State: The switch is still in State A. I need to interact with it again, select YES, and verify the "Who wouldn't!" text to confirm State B is active.
+[Turn 44893 Reflection]
+1. Execution: The game prompted "Press it? YES/NO". I pressed 'A', but the cursor was likely on NO. The text "Not quite yet!" confirmed I selected NO. The switch is STILL in State A.
+2. Goal: Toggle the switch at (10, 6) to State B.
+3. Navigation: I need to interact with the switch (facing Up at 10, 6). Then select YES.
+4. Sequence: A (interact), U (move cursor to YES), A (select YES), wait for "Who wouldn't!" text, A (clear text).
+5. I'll use a short sequence to ensure it toggles properly.
