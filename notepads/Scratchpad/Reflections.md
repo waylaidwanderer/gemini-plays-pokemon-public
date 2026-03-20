@@ -580,3 +580,14 @@
    - THIS IS A TRUE TRAP.
 5. Action: Open the Start Menu, go to POKéMON, select DUGTRIO, select DIG.
    - Sequence: Start.
+[Turn 44957 Reflection]
+1. Execution: The Start Menu is open.
+2. Goal: Select POKéMON, then DUGTRIO, then DIG to warp to Cinnabar Island.
+3. Navigation:
+   - The cursor is currently on POKéDEX (index 1).
+   - I need to move it to POKéMON (index 2).
+   - Then press A.
+   - Then in the Party menu, move down to DUGTRIO (index 3) and press A.
+   - Then select DIG (index 1) and press A.
+4. Let's do this step-by-step to avoid any more text box or menu desyncs.
+5. Sequence: D A.
