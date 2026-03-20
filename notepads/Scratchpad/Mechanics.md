@@ -24,3 +24,4 @@
 - Battle Intro Input Eating: Do not use menu navigation tools (like run_battle or execute_battle_turn) on the turn a wild encounter starts (when 'Wild [PKMN] appeared!' is on screen). The button presses will be consumed as text advances, and you will be left at the main battle menu on the next turn.
 [Turn 41952 Dig Reflection]
 - Dig successfully warped me to Saffron City (Map 0_10) Pokemon Center! I then accidentally tried to use Dig again in the Saffron overworld, which caused Oak's warning message. Now I am using Fly to get back to Cinnabar Island.
+- [Statue Interaction]: Statues in the Pokemon Mansion must be interacted with from the FRONT (standing below them and facing UP). Interacting from the side (facing Left/Right) does nothing and acts like a normal wall.
