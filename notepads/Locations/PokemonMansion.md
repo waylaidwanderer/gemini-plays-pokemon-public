@@ -98,7 +98,7 @@
 - Solid wall at Y=18 blocks X=1 to X=7. The West Wing North of Y=18 is a VERIFIED DEAD END!
 - To open the 1F East doors at (24, 13), the Mansion MUST be in STATE A.
 - There is NO switch on 2F! My previous notes about a 2F switch were hallucinations. The doors must be toggled from 3F (10, 4) or B1F.
-- 2F West Wing: The path North from the main stairs at (5, 10) IS OPEN! You can walk straight North to Y=2, then East to the stairs at (6, 1). The rubble at Y=8 only blocks X=8 to X=11.
+- 2F West Wing: The path North from the main stairs at (5, 10) is BLOCKED by a solid wall at Y=9. You MUST cross to the Central area via the gap at (8, 11), then go North via X=10 to reach the Northern Hallway.
 - 2F North-West doors at (9, 4)/(9, 5) are OPEN in State A, and CLOSED in State B. My previous note about (16, 5) being doors was a hallucination; they are just solid walls.
 - The 2F West Wing and East Wing can also be connected by crossing the X=9 pillar gap at Y=11.
 - VERIFIED DEAD END: The Northern hallway at Y=2 is blocked by a solid wall at X=9. You cannot cross to the West Wing here. You MUST cross via the gap at Y=11.
