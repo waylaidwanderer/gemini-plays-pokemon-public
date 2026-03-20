@@ -1722,5 +1722,10 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 2. Goal: Defeat the Burglar.
 3. Combat: Continue advancing text or selecting Surf until the battle is won.
 4. Sequence: A.
+[Turn 44938 Reflection]
+1. Execution: The battle continues. The text box is open.
+2. Goal: Defeat the Burglar.
+3. Combat: Continue advancing text.
+4. Sequence: A.
 
 <hr>
