@@ -133,3 +133,34 @@
 3. Navigation: I will walk to the switch statue at (18, 25).
    - From (23, 22): Walk South to Y=26, then West to X=18.
    - Sequence: D D D D L L L L L.
+[Turn 44908 Reflection]
+1. Execution: The movement DDDDLLLLL brought me to (21, 26). Wait, let's look at the intermediate states.
+   - State 0: Down (23, 23)
+   - State 1: Down (23, 24)
+   - State 2: Down (23, 25)
+   - State 3: Down (23, 26)
+   - State 4: Left (22, 26)
+   - State 5: Left (21, 26)
+   - State 6: Left -> BUMP!
+   - State 7: Left -> BUMP!
+   - State 8: Left -> BUMP!
+2. Error Analysis: I bumped into a solid object at X=20 when walking Left along Y=26! Looking at the screen for Turn 44907, the tile at (20, 26) is indeed TYPE_2889 (solid wall/pillar). The wall at X=20 extends down to Y=27.
+3. Navigation Update: I need to bypass this X=20 wall to reach the switch at (18, 25).
+   - Let's look at the screen. The wall is at X=20. The floor at X=21 is clear down to Y=27. Let's look at Y=27. The tiles from X=17 to X=20 are TYPE_2889. So Y=27 is blocked.
+   - Where is the gap in the X=20 wall? The tiles (20, 22), (20, 23), (20, 24), (20, 25), (20, 26), (20, 27) are ALL TYPE_2889. There is NO gap in the X=20 wall on the screen!
+   - Wait, if there's no gap, how did I reach the stairs at (23, 22) from the switch at (18, 25) earlier?
+   - Let's check my notes for B1F: "Found stairs down to B1F at (21, 23)." Wait, the stairs from 3F pit drop are at B1F (23, 22). My note "Found stairs down to B1F at (21, 23)" under 3F Points of Interest is WRONG. The stairs from the 3F switch area (Eastern Wing) are at 3F (21, 23).
+   - Let's trace my B1F exploration from earlier (around Turn 44495). I arrived at B1F (23, 22) from the 1F enclosed area.
+   - How did I leave the B1F (23, 22) area? "Turn 44555-44558: I used Dig to escape the Pokemon Mansion B1F, returning to Cinnabar Island at (6, 11)."
+   - I NEVER walked from B1F (23, 22) to the rest of B1F! The area around B1F (23, 22) is completely isolated from the rest of the floor!
+   - Let's confirm this visually. The wall at X=20 (Y=18 to Y=27) is solid. The wall at Y=18 (X=20 to X=28) is solid. This section (X=21 to 28, Y=19 to 27) is a sealed box containing ONLY the stairs back up to 1F!
+4. Breakthrough: The 3F pit drops you to a sealed 1F room, which has stairs to a sealed B1F room. This entire path is a DEAD END trap for obtaining items, not for progressing to the Secret Key! The switch at (18, 25) is NOT accessible from here.
+5. Strategy Pivot: I must Dig out again and re-evaluate how to access B1F Northwest. If the main pit is a dead end trap, and 1F NW has no stairs... where are the true stairs to the rest of B1F?!
+   - Let me review my B1F notes again.
+   - "Arrived from 1F via stairs at (23, 22)." (This is the trap).
+   - "Found another switch statue at (7, 14)/(7, 15) in the western area."
+   - "Found a glowing-eye switch statue at (18, 24)/(18, 25)."
+   - How did I reach the switch at (18, 25) originally?!
+   - Let me search my Archive/LocationNotes or Main Notepad for "Arrived at B1F" or the turn I first found it.
+   - Turn 44104: "Used Dig to escape from Pokemon Mansion".
+   - Let's use the `search_notepads` tool to find exactly when and how I first reached B1F and the (18, 25) switch.
