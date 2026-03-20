@@ -426,3 +426,13 @@
    - Walk North to Y=5: 6 Ups to (5, 5).
    - Walk West to X=2: 3 Lefts to (2, 5).
 4. Sequence: UUUUUUUUUUUUULLLLLLLUUUUUULLL.
+[Turn 44950 Reflection]
+1. Execution: The movement `UUUUUUUUUUUUULLLLLLLUUUUUULLL` was aborted at button 5 ('Up') because a wild Ponyta appeared! I am at 1F (12, 19).
+2. Goal: Reach the 1F switch at (2, 5).
+3. Navigation: Run from the Ponyta, clear text, then resume the path.
+   - Path from (12, 19):
+   - Walk North to Y=11: 19 - 11 = 8 Ups to (12, 11).
+   - Walk West to X=5: 12 - 5 = 7 Lefts to (5, 11).
+   - Walk North to Y=5: 11 - 5 = 6 Ups to (5, 5).
+   - Walk West to X=2: 5 - 2 = 3 Lefts to (2, 5).
+4. Sequence: A (clear text). UUUUUUUU LLLLLLL UUUUUU LLL.
