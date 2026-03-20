@@ -6,7 +6,7 @@
 - State A: Vertical doors at X=13 are OPEN.
 - Puzzle Solution: From the Central Switch at (18, 25), toggle to State A. This OPENS the path West at Y=22/23. Walk North to Y=14, West to X=13, then South through the X=13 doors into the West Wing. Then walk North to the gap at (10, 17) to access the Secret Key area!
 - [Definitive B1F Discovery]: The wall at X=25 is solid from Y=8 down to at least Y=15, completely separating the Central area from the far East side where a Burglar stands at (27, 11). Furthermore, the table at Y=8 is empirically proven to be completely solid from X=10 to X=25 (Tested Turns 45234-45260).
-- [Master Plan Revision]: Because there is no gap in the Y=8 table, the B1F Northern and Eastern sections CANNOT be accessed from the B1F Central or West areas. This definitively implies a second staircase to B1F exists, dropping into the isolated North/East sections.
+- [Master Plan Revision]: The Secret Key is NOT in the B1F West area (only a switch is there). It must be in the completely isolated B1F North/East section. To reach this, there MUST be a second jump-off pit. The main 3F pit drops to B1F Central. Hypothesis: The secondary stairs at 1F (6, 10)/(7, 10) lead to an isolated 3F room that contains a HIDDEN PIT. This hidden pit will drop me into the true path to the Secret Key.
 - Macro Rule: Keep movement macros short (1-5 steps) to prevent wild encounters from corrupting positional awareness.
 
 [Hypotheses]
