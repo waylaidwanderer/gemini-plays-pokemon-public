@@ -2217,5 +2217,12 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 3. Goal: Exit the Pokemon Lab.
 4. Navigation: I am at (2, 3). Walk Down to (2, 7), then Down again to exit.
 5. Sequence: D D D D D.
+[Turn 44969 Reflection]
+1. Execution: Walked Down, Down. Successfully exited the Pokemon Lab. I am now outside at Cinnabar Island (6, 10).
+2. Goal: Enter the Pokemon Mansion at (6, 3).
+3. Navigation:
+   - I am at (6, 10). The Mansion entrance is straight North at (6, 3).
+   - Path: 10 - 3 = 7 Ups.
+   - Sequence: U U U U U U U.
 
 <hr>
