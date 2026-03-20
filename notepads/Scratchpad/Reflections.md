@@ -1,7 +1,6 @@
-[Plan to Toggle Switch at 2F (15, 10)]
-1. The switch is confirmed to be the statue at 2F (15, 10).
-2. The reason it failed before is because the switch triggers a YES/NO prompt! My movement macros were eating the inputs or selecting NO.
-3. I must navigate to 2F (16, 10), face LEFT, press A ONCE.
-4. Wait for the text box to appear.
-5. Manually use 'press_buttons' to navigate the menu and select YES.
-6. Then escape via Dig and return to 1F East Wing!
+[Plan to Reach 3F Pit]
+1. Realized the Mansion is ALREADY in State A! (2F Northern doors at 18, 8 are confirmed closed).
+2. This means the 1F East doors at (24, 13) are ALREADY OPEN.
+3. I don't need to press the 2F switch. I just need to return to 1F and navigate to the East Wing!
+4. I will navigate back to the 1F stairs at (5, 10) by reversing my path through the 2F Northern Hallway.
+5. Once on 1F, I will systematically explore to find the true path to the Northeast area, bypassing the Y=9 rubble, so I can enter the East Wing.
