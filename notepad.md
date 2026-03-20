@@ -1475,7 +1475,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [Verified Dead Ends]
 - The 2F Central doors at (20, 17) lead to a dead-end 4x3 room.
 - The stairs at 1F (6, 10)/(7, 10) lead to an isolated 3F room containing only a Burglar and a Diary. It is a dead end. The room is walled off on the East side by a solid wall at X=11 (Y=8 to Y=15), preventing access to the 3F pit.
-- The gap at X=12 on 1F Central Hallway is a literal dead-end pocket going North, bounded by desks at (11, 7)-(12, 7) and a wall at X=13. You CANNOT bypass it to reach the NE corridor or East Wing.
+- The gap at X=12 on 1F allows bypassing the Y=9 rubble. Walk North to Y=6, then East through the gap at X=13 to reach the East Wing!
 - The 2F area South of the Northern doors at (18, 8) is a CONFIRMED DEAD END. It ends at Y=15, blocked by walls and rubble at X=22. Therefore, the stairs at 2F (25, 14) are completely isolated from the rest of 2F and MUST be accessed from 1F.
 
 <hr>
