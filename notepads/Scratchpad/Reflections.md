@@ -40,3 +40,6 @@
 1. Execution: Bump tested 3F Y=6 rubble from X=1 to X=8. All solid. 3F West Wing South is inaccessible from here.
 2. New Hypothesis: The pit on 3F is wide (X=12 to X=17). I previously jumped down the RIGHT side (X=16/17) and landed on 1F (a 2-floor drop). What if 2F has solid floor under the LEFT side of the pit (X=12 to X=15)? Jumping down the left side of the 3F pit might land me on 2F, providing access to unexplored areas or the mysterious 2F (25, 14) stairs!
 3. Next Step: Toggle 3F switch to State B to open the Southern doors, then test jumping down the 3F pit at X=13 or X=14.
+[Turn 44824 Reflection]
+1. Execution: Trying to press the 3F switch. Interacting from the side (facing Left) at (11, 4) and (11, 5) failed.
+2. Gen 1 Mechanic: Statues must be interacted with from the FRONT (standing below the bottom tile, facing Up). I will navigate to (10, 6), face Up, and press A.
