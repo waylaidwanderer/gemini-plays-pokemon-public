@@ -1,12 +1,5 @@
-[Condensed Reflections]
-- [Turn 44549] B1F NW section (with switch) is completely isolated.
-- [Turn 44882] B1F NW must be accessed by manipulating electronic doors from elsewhere.
-- [Turn 44895] Toggled 3F switch (10, 6) to State B.
-- [Turn 44908] The 3F main pit drops to a sealed 1F room -> sealed B1F room. Dead end trap.
-- [Turn 44922] Escaped 1F sealed room via Central Doors (16, 7) (OPEN in State B).
-- [Turn 44926] 2F NW doors at (9, 4) CLOSED in State B, blocking access to 3F stairs.
-- [Turn 44933] Reached 1F switch at (2, 5). Need State A to re-open 2F NW doors.
-- [Turn 44959] Warped to Cinnabar PC via Dig to escape 1F southern dead-end traps.
-- [Turn 44971] Cleaning up notepad and re-entering Mansion to reach true B1F stairs.
-- [Turn 45016] Discovered that 2F NW doors are currently CLOSED. This means the Mansion is in State B. Either leaving the Mansion resets the puzzle to State A (and my press changed it to B), or the press failed. Must return to 1F (2, 5) and ensure it toggles.
-- [50-Turn Reflection] Hypothesis: Leaving the Mansion (or using Dig) resets the global electronic door state back to State A. Therefore, when I returned and pressed the 1F switch, I actually toggled it FROM State A TO State B, which is why the 2F doors were closed. I am returning to 1F (2, 5) to toggle it back to State A.
+[Strategic Synthesis]
+- B1F NW section is structurally isolated. Access requires manipulating electronic doors via the switch at (18, 25).
+- Pit Traps: The 3F main pit drops to a sealed 1F room which leads to B1F.
+- Global State Reset: Leaving the Mansion (e.g., via Dig) resets the global electronic doors back to State A.
+- Current Objective: Mansion is now in State A after pressing B1F (18, 25) switch. Proceeding West through X=13 vertical doors to explore the final section and locate the Secret Key. (Puzzle solved!)
