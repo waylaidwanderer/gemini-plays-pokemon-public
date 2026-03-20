@@ -1089,21 +1089,14 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 
 <h1><code>Scratchpad/Reflections</code></h1>
 
-[Active Reflections]
-[Turn 43941] Correction:
-- 2F area South of (18, 8) is a CONFIRMED DEAD END. It ends at Y=15, blocked by walls and rubble at X=22.
-- The stairs at 2F (25, 14) are completely isolated from the rest of 2F by rubble at X=22 and Y=8.
-- Therefore, the stairs at 2F (25, 14) MUST be accessed from 1F!
-- To reach them from 1F, I need to traverse the 1F East Wing, which requires passing through the 1F doors at (24, 13).
-- The 1F doors at (24, 13) are OPEN in STATE A.
-- The Mansion is currently in STATE B.
-
-[New Plan to reach 3F Pit]
-5. On 1F, walk South to (5, 11), East to (10, 11), then North along X=10 to Y=1.
-6. Walk East through the gap at X=13 to the Northeast area.
-7. Walk East to X=27 to bypass the tables, then South down the East Wing.
-8. Pass through the OPEN doors at 1F (24, 13).
-9. Continue South to find the stairs leading up to the isolated 2F East Wing!
+[New Plan to Toggle State and Reach 3F Pit]
+1. From 1F (24, 12), walk Left to (23, 12), Up to (23, 6), Left to (12, 6), Down to (12, 11), Left to (5, 11), Up to (5, 10) and take stairs to 2F.
+2. On 2F, walk Down to (5, 11), Right to (10, 11), Down to (10, 13).
+3. Walk North to (10, 9), East to (12, 9), North to (12, 6), East to (16, 6), South to (16, 10).
+4. Face Left and press A on the switch statue at (15, 10) to toggle to STATE A.
+5. Return to 1F: Up to (16, 6), Left to (12, 6), South to (12, 9), West to (10, 9), South to (10, 11), West to (5, 11), Up to (5, 10) and take stairs.
+6. On 1F, walk Down to (5, 11), Right to (12, 11), Up to (12, 6), Right to (23, 6), Down to (23, 12), Right to (24, 12).
+7. Walk South through the OPEN doors at (24, 13) and find the stairs to the isolated 2F East Wing!
 
 <hr>
 
