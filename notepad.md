@@ -1478,5 +1478,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Ruled out alternative 3F pits. The only remaining path to B1F NW is jumping down the left side of the main 3F pit.
 - Error Analysis: Misjudged the X=9 wall earlier; the northern gap at Y=1-3 connects 3F West and Central.
 - Next Step: Toggle 3F switch to State B, walk South through the X=13 gap, and explore the left side of the pit.
+[Turn 44695 Reflection]
+- Realized a critical violation of my core rule: I declared the 3F West Wing a dead end after only bumping into ONE tile of rubble at (3, 6). I must exhaustively test the entire Y=6 line (X=1 to X=8) for a hidden gap. That is likely where the true pit to B1F NW is hiding!
 
 <hr>
