@@ -1504,5 +1504,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 5. Tool Maintenance: No issues.
 6. Goal Clarity: Primary: Secret Key. Secondary: Exhaustively test Y=6 rubble on 3F West.
 7. Error Analysis: I jumped to conclusions about the X=12 "ledge" which was just a wall shadow. I need to be more careful about interpreting visual cues, especially when they contradict the physical layout (the wall below it is solid). I'm back on track with the exhaustive bump test.
+[Turn 44812 Reflection]
+1. Execution: Bump tested 3F Y=6 rubble from X=1 to X=8. All solid. 3F West Wing South is inaccessible from here.
+2. New Hypothesis: The pit on 3F is wide (X=12 to X=17). I previously jumped down the RIGHT side (X=16/17) and landed on 1F (a 2-floor drop). What if 2F has solid floor under the LEFT side of the pit (X=12 to X=15)? Jumping down the left side of the 3F pit might land me on 2F, providing access to unexplored areas or the mysterious 2F (25, 14) stairs!
+3. Next Step: Toggle 3F switch to State B to open the Southern doors, then test jumping down the 3F pit at X=13 or X=14.
 
 <hr>
