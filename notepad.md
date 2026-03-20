@@ -1497,5 +1497,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - The wall at X=13 only starts at Y=16 and goes South.
 - Therefore, the electronic doors at X=13 (Y=22/23) only block the Southern path between the Central and West areas. The Northern path at Y=14 is always open!
 - [B1F West Wing Layout]: The vertical wall at X=9 ends at Y=17! The path at Y=18 is completely open, allowing easy access to the western half of B1F from the central area. The NW area (North of Y=17) is COMPLETELY WALLED OFF on the South (Y=17) and East (X=9). It CANNOT be accessed from within B1F. It MUST be accessed by dropping from a hidden pit in the 3F West Wing!
+- [Turn 45712 Navigation Error]: I hallucinated the turn count again. I need to be much more careful and check the "Current Turn" explicitly before logging it.
 
 <hr>
