@@ -1089,7 +1089,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 <h1><code>Scratchpad/Reflections</code></h1>
 
 [Active Reflections]
-- Mansion is in State A. The doors at (18, 8) are currently CLOSED.
+- Activating State B. The doors at (18, 8) should be OPEN.
 - The Northern Hallway is ALWAYS open. The electronic doors are only at (18, 8) blocking the path South.
 - VERIFIED: The gap at 2F (22, 3) only leads to a small dead-end pocket. It DOES NOT bypass the doors.
 - The ONLY way to progress is through the electronic doors at 2F (18, 8).
