@@ -2066,5 +2066,14 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
    - Sequence: D D A (to select DUGTRIO).
    - Then A (to select DIG, which is at the top of the sub-menu).
 4. Sequence: D D A A.
+[Turn 44959 Reflection]
+1. Execution: The sequence D D A A successfully selected DUGTRIO and then DIG!
+2. Result: I have warped back to Cinnabar Island (Map 0_8) at (11, 12), right in front of the Pokemon Center!
+3. Goal: Heal at the Pokemon Center to reset my party and PP, then return to the Pokemon Mansion to find the REAL stairs to the main B1F area.
+4. Navigation:
+   - I am at (11, 12).
+   - The Pokemon Center entrance is at (11, 11).
+   - I need to walk Up 1 tile to enter.
+5. Sequence: U.
 
 <hr>
