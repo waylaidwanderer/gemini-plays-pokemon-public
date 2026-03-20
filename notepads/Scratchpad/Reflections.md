@@ -97,3 +97,7 @@
 1. Execution: Ran from Grimer again. I am currently at (11, 5).
 2. Navigation: I am blocked by the statue at (10, 5) from moving West directly. I will move East, North, then West to reach the stairs at (6, 1).
 3. Sequence: A (to clear text), R R (to 13, 5), U U U (to 13, 2), L L L L L L L (to 6, 2), U (to 6, 1).
+[Turn 44877 Reflection]
+1. Execution: Reached (11, 3). Bumping into (10, 3) revealed it is solid, despite looking like floor! The statue or some invisible collision might be extending upwards, or perhaps X=10 is blocked at Y=3.
+2. Navigation: Looking at the screen, there is a clear hallway at Y=2. I will walk Up to (11, 2), then Left all the way to (6, 2), then Up to the stairs at (6, 1).
+3. Sequence: U L L L L L U.
