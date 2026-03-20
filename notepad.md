@@ -1717,5 +1717,10 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 1. Execution: The tool selected Surf. Now waiting for the attack text.
 2. Combat: Surf should wipe out the opponent's Vulpix/Ponyta easily.
 3. Next Step: Advance text until battle ends, then resume navigation to the 1F switch at (2, 5).
+[Turn 44937 Reflection]
+1. Execution: The tool selected Surf. The text box is open. The battle is proceeding.
+2. Goal: Defeat the Burglar.
+3. Combat: Continue advancing text or selecting Surf until the battle is won.
+4. Sequence: A.
 
 <hr>
