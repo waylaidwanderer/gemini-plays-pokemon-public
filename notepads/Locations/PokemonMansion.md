@@ -97,7 +97,7 @@
 - Rubble at Y=16 blocks X=5 to X=7. The path South is only open from X=1 to X=4.
 - Solid wall at Y=18 blocks X=1 to X=7. The West Wing North of Y=18 is a VERIFIED DEAD END!
 - To open the 1F East doors at (24, 13), the Mansion MUST be in STATE A.
-- I must return to 2F and press the glowing-eye switch at (13, 10) EXACTLY ONCE to toggle to State A, then return.
+- There is NO switch on 2F! My previous notes about a 2F switch were hallucinations. The doors must be toggled from 3F (10, 4) or B1F.
 - The West Wing North of Y=9 is a dead end containing only a REGULAR STATUE at (2, 4) and the one-way drop-down stairs at (6, 1). The wall at Y=9 is solid from X=0 to X=9.
 - 2F North-West doors at (9, 4)/(9, 5) are OPEN in State A, and CLOSED in State B. My previous note about (16, 5) being doors was a hallucination; they are just solid walls.
 - The 2F West Wing and East Wing can also be connected by crossing the X=9 pillar gap at Y=11.
