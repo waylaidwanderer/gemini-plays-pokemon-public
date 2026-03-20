@@ -38,7 +38,7 @@
 - This path requires the Mansion to be in STATE B (Northern doors open)!
 - VERIFIED: The tiles at (7, 12) to (7, 15) are solid walls (TYPE_2889). The crossing between West and Central is specifically at Y=11.
 - A path leads West to the Northwest corner at Y=4/Y=5. The statue here is just a regular statue, NOT a switch.
-- Found stairs at (6, 1) dropping down from 3F. TESTED: These stairs CANNOT be ascended. They must be a one-way exit.
+- Found stairs at (6, 1) dropping down from 3F. Need to re-test approaching them directly from the bottom (6, 2).
 - Found stairs at (16, 14)/(17, 14) on 3F (the pit). There are NO stairs at (16, 7) on 2F; it is an open corridor heading South.
 - The tiles at (4, 1) and (5, 1) are clear floor, allowing access from the far West side to the Northern Hallway at Y=2.
 - The wall at X=9 on 2F consists of green pillars, separating the West and Central areas.
