@@ -11,3 +11,4 @@
 
 [Hypotheses]
 - Missing B1F Stairs Location: 1F East Wing is a dead end. 1F NW corner was previously explored (switch at 2, 5). The remaining unexplored vertical transition is the 3F East Wing! Previous notes state: "On 3F, eastern section... Path continues south of a wall at X=22. Found an item ball at (25, 5)." This southern path might lead to a hidden pit that drops down into the B1F East Wing!
+\n[Turn 45345] Navigating to 3F stairs at (6, 1) via the open doors at (9, 5).
