@@ -43,7 +43,8 @@
 - The wall at X=9 on 2F consists of green pillars, separating the West and Central areas.
 - In the East wing of 2F, there is a solid vertical wall at X=11 extending from at least Y=17 to Y=25.
 - In the Northeast area, the brown blocks at (24, 8)/(25, 8) are just a table/solid obstacle, NOT stairs!
-- Stairs at (25, 14) are located in the East Wing. The East Wing can be accessed from 2F Central via the Northern Hallway, crossing the 1-tile gap at (22, 3) to bypass the rubble at X=22.
+- The 2F East Wing North (accessed via the 1-tile gap at 22, 3) is a dead end! It contains Calcium at (28, 5). The path South is completely blocked by a solid line of tables at Y=8 (from X=21 to X=28).
+- Therefore, the stairs at 2F (25, 14) MUST be accessed from 1F!
 
 [3F Points of Interest]
 - Arrived from 2F via stairs (location unknown, likely South-East).
