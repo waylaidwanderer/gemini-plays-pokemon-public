@@ -111,3 +111,14 @@
    - I am at (6, 11).
    - The entrance is at (6, 3).
    - Sequence: UUUUUUUU.
+[Turn 44977 Reflection]
+1. Execution: `UUUUUUU` from Cinnabar Island (6, 10) walked me into the Pokemon Lab at (6, 9) on the FIRST step, because the Lab door is at (6, 9). I am now inside the Lab at (2, 7).
+2. Goal: Exit the Lab, step SIDEWAYS to avoid the door, then walk North to the Mansion.
+3. Navigation:
+   - I am at Map 0_167 (2, 7).
+   - Exit is Down: D D.
+   - Once outside at Cinnabar Island (6, 10), I MUST step Left or Right to avoid the door at (6, 9).
+   - Let's step Left to (5, 10).
+   - Then walk North to Y=3: 10 - 3 = 7 Ups to (5, 3).
+   - Then walk Right to the Mansion door at (6, 3): 1 Right to (6, 3).
+4. Sequence: D D L U U U U U U U R.
