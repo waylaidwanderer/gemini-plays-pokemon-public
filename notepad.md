@@ -1688,5 +1688,14 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
    - (5, 11) -> 1U -> (5, 10) (stairs)
    - (5, 10) -> 5U -> (5, 5)
    - (5, 5) -> 3L -> (2, 5) (switch)
+[Turn 44933 Reflection]
+1. Execution: The movement UUU LLLLLLL U UUUUU LLL successfully brought me to the switch statue at 1F (2, 5).
+2. Goal: Toggle the 1F switch to revert the Mansion to State A.
+3. Navigation: The statue is at (2, 4) / (2, 5). I am currently standing exactly at (2, 5), which is the bottom tile of the statue. Wait! I am standing ON the statue?!
+   - Let's look at the Game State. Player Position: (2, 5).
+   - Let's look at the screen. The statue is at (2, 4). The tile (2, 5) is the floor directly BELOW the statue.
+   - Ah, the statue is only 1 tile tall (at Y=4). I am standing at (2, 5) facing it.
+4. Action: Press A to interact with the statue and select YES to toggle the switch.
+5. Sequence: A (interact).
 
 <hr>
