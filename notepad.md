@@ -1089,11 +1089,12 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 <h1><code>Scratchpad/Reflections</code></h1>
 
 [Active Reflections]
-- Activating State B. The doors at (18, 8) should be OPEN.
-- The Northern Hallway is ALWAYS open. The electronic doors are only at (18, 8) blocking the path South.
-- VERIFIED: The gap at 2F (22, 3) only leads to a small dead-end pocket. It DOES NOT bypass the doors.
-- The ONLY way to progress is through the electronic doors at 2F (18, 8).
-- Plan: Return to 2F (2, 11) switch, activate STATE B, then go through the 2F (18, 8) doors and explore South to find the stairs to 3F.
+[Turn 43903] Active Routing Hypothesis 4:
+- We are currently in STATE B.
+- In State B, the 1F doors at (26, 27) are OPEN.
+- The 1F East Wing is accessible by walking East from the main entrance at (5, 27) along the bottom wall.
+- This unexplored area should contain the stairs up to 2F East Wing (25, 14), which leads to the 3F main area.
+- Plan: Keep State B. Return to 1F via main stairs at (5, 10). Walk South to entrance at (5, 27). Walk East to (26, 27) and explore North.
 
 <hr>
 
