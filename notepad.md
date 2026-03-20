@@ -1366,7 +1366,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - 1F Central Hallway runs North from the entrance along X=5.
 - Green pillars line X=3 and X=8, with 1-tile gaps.
 - A solid horizontal wall at Y=9 blocks the Central Hallway and West Wing.
-- East wing is separated by a vertical wall at X=13. This wall starts at Y=7 and goes South. The area from Y=2 to Y=6 is completely OPEN, allowing easy access between Central and East Wing!
+- East wing is separated by a vertical wall at X=13 (from Y=7 South). Another solid wall at X=9 runs from Y=3 to Y=7. To cross between the Central and East wings, you MUST use the Northern hallway at Y=2.
 - The horizontal wall at Y=9 does NOT extend all the way to the East Wing wall. There is a gap at X=12! You can walk South down X=12 to bypass the Y=9 wall, then head West to reach the main stairs at (5, 10).
 - The main staircase on 1F at Y=10 spans 3 tiles! Stepping on the left tile (5, 10) leads to 2F (5, 10). Stepping on the middle/right tiles (6, 10)/(7, 10) leads to 2F (6, 10)/(7, 10), which is immediately adjacent to another set of stairs leading to an isolated room on 3F.
 - CRITICAL: The stairs at 1F (7, 10) ONLY lead to the isolated 3F room with the Burglar and Diary. This room is a VERIFIED DEAD END (no pit!). You must use the stairs at 2F (6, 1) to reach the main 3F area and the pit.
