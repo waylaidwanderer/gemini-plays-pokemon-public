@@ -183,3 +183,10 @@
    - Where are the other stairs to B1F?
 4. Let's look at the B1F map again. I need to Dig out and rethink.
 5. Sequence: Dig to escape this trap!
+[Turn 44910 Reflection]
+1. Execution: Used Dig (HM03 is Surf, HM01 is Cut. Dig is a standard move on Dugtrio, party index 3, move index 3). Wait, I used HM field move tool for Dig? Ah, Dig is treated as a field move by the harness if used from the menu. Let's see if it worked.
+2. Error Analysis: The `use_hm_field` tool pressed `Down, Down, A` (to select Dugtrio), then `A` (to open sub-menu), then `A` again. But Dugtrio's field move is Dig, which is AT THE TOP of his sub-menu. So `A` selects Dig! It should work.
+3. The intermediate states show me in the party menu. State 4 shows the cursor on Dig!
+4. Result: I should be warped back to the last Pokemon Center I healed at, which is Cinnabar Island.
+5. Goal: Re-enter the Pokemon Mansion and find the TRUE stairs to the main area of B1F.
+6. Navigation: I need to walk to the Mansion entrance at Cinnabar (6, 3).
