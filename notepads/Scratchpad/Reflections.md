@@ -164,3 +164,22 @@
    - Let me search my Archive/LocationNotes or Main Notepad for "Arrived at B1F" or the turn I first found it.
    - Turn 44104: "Used Dig to escape from Pokemon Mansion".
    - Let's use the `search_notepads` tool to find exactly when and how I first reached B1F and the (18, 25) switch.
+[Turn 44909 Reflection]
+1. Execution: Checked the archive for "B1F". 
+   - [Locations/PokemonMansion] L66: "Arrived from 1F via stairs at (23, 22). These stairs lead back up to the enclosed area on 1F (accessed via 3F pit)."
+   - Wait, my search returned exactly what was in the notepad, but didn't find the *history* of how I reached the other stairs. Let me search for "23, 22" or the turn I first arrived at B1F.
+2. Goal: Find the true path to B1F Northwest.
+3. Analysis: If the 3F right-side pit (16, 14) leads to a DEAD END trap (1F enclosed area -> B1F enclosed area), then HOW did I access the rest of B1F earlier?
+   - In Turn 44549 (from my reflections), I said "Explored B1F West and hit a dead end."
+   - In Turn 44104 (from system summary), I used Dig to escape from (11, 12) on Cinnabar. 
+   - I MUST have used a different set of stairs to reach the main area of B1F!
+   - Let's check 1F points of interest again.
+   - "The main staircase on 1F at Y=10 spans 3 tiles! Stepping on the left tile (5, 10) leads to 2F (5, 10)."
+   - "1F South-East doors are located at (26, 27) and (27, 27). These are closed in State A."
+   - "1F East Wing South is a completely empty dead end down to Y=27. There are NO stairs to 2F here."
+   - What about the 1F Northwest switch at (2, 5)? I never explored that area fully.
+   - Wait! The 3F West Wing pit! I previously said "3F West Wing (West of X=9) is a VERIFIED DEAD END. The path South is completely blocked by rubble at Y=6. No pit here." 
+   - And the 3F Left pit jump: "IMPOSSIBLE to jump into the left side of the pit (X=12 to X=15) from 3F."
+   - Where are the other stairs to B1F?
+4. Let's look at the B1F map again. I need to Dig out and rethink.
+5. Sequence: Dig to escape this trap!
