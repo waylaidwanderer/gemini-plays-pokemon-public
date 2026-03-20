@@ -1494,5 +1494,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Macro Rule: Keep movement macros short (1-5 steps) to prevent wild encounters from corrupting positional awareness.
 \n[Turn 45320] Discovered the true 1F Northern Hallway is at Y=1, not Y=2! The green pillars block Y=2 and Y=3 at X=12. I am navigating to X=14 to reach Y=1, then heading West to explore the NW corner.
 \n[Turn 45324] Successfully bypassed the X=9 pillar via the true Northern Hallway at Y=1. Currently at (9, 1) and walking West into the completely unexplored North-West corner of 1F. Praying the missing B1F stairs are here!
+\n[Turn 45329] 50-Turn Reflection: I realized that the 1F NW corner is NOT completely unexplored! My notes state the very first switch I ever pressed is at (2, 5). Since the Y=9 wall is solid, I MUST have used the Y=1 Northern Hallway to reach it initially, and simply forgot. This means the missing B1F stairs are likely NOT here. I also reviewed my 3F notes: "On 3F, eastern section... Path continues south of a wall at X=22. Found an item ball at (25, 5)." I need to return to 3F and explore South of X=25, Y=5! It could lead to a hidden pit dropping into the B1F East Wing!
 
 <hr>
