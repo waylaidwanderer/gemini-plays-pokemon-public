@@ -1727,5 +1727,32 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 2. Goal: Defeat the Burglar.
 3. Combat: Continue advancing text.
 4. Sequence: A.
+[Turn 44939 Reflection]
+1. Execution: The opponent's Ninetales is out now (Lv 34). Wait, Ninetales? The battle text says "PONYTA LV 28" is the encounter from earlier... wait, the image in 44938 doesn't show the battle text. It just shows the overworld!
+2. Error Analysis: Wait, look at `<CurrentScreen turn="44938">`. It's the OVERWORLD! The battle ended in Turn 44937!
+   - In 44937, Surf KO'd the Pokemon, the battle ended, and I returned to the overworld.
+   - The Game State for 44938 says I am at (13, 15).
+   - Why am I at (13, 15)? The trainer was at (12, 13). I bumped into him at (12, 14).
+   - Let's check my path from (12, 14). Oh! In 44935, my macro was `FIGHT -> Surf` using `execute_battle_turn`.
+   - Then in 44936, I pressed `A`.
+   - Then in 44937, I pressed `A`. The battle ended.
+   - Wait, if the battle ended, how did I get to (13, 15)?
+   - Oh, I see. In Turn 44931, I was at (12, 18). I walked UUUU to (12, 14).
+   - In Turn 44932, my macro was `UUULLLLLLLUUUUUULLL`. The first 'U' walked me to (12, 13) where I bumped the trainer. Then the battle started. The rest of the macro `UULLLLLLLUUUUUULLL` executed IN THE OVERWORLD AFTER THE BATTLE?! No, macros get aborted when a battle starts.
+   - BUT, `move_sequence` aborts if the `map_id` changes or a battle starts. But what if the battle ended and I queued MORE moves?
+   - In Turn 44937, I used `move_sequence` with sequence `A`.
+   - In Turn 44938, I am at (13, 15). Wait, look at the sprite at (13, 14). It's the Burglar! He walked DOWN to (13, 14) and I am below him at (13, 15).
+   - Ah! I was at (12, 14). He was at (12, 13)? No, look at Turn 44930. The Burglar is at (14, 15)? No, that's me at (13, 15) in Turn 44938. The Burglar is at (13, 14).
+   - Okay, let's just look at the CURRENT STATE. I am at 1F (13, 15).
+3. Goal: Reach the switch at (2, 5).
+4. Navigation from (13, 15):
+   - Walk North to Y=11. Wait, there is a Burglar at (13, 14) blocking X=13!
+   - I can sidestep him: L (to 12, 15).
+   - Walk North to Y=11: 15 - 11 = 4 Ups to (12, 11).
+   - Walk West to X=5: 12 - 5 = 7 Lefts to (5, 11).
+   - Walk North to Y=5: 11 - 5 = 6 Ups to (5, 5).
+   - Walk West to X=2: 5 - 2 = 3 Lefts to (2, 5).
+5. Sequence: L, 4U, 7L, 6U, 3L.
+   - L UUUU LLLLLLL UUUUUU LLL.
 
 <hr>
