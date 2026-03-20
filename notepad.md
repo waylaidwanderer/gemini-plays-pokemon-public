@@ -1664,5 +1664,11 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 3. Navigation: The Start Menu has cursor memory. I must visually verify the cursor position.
 4. Visual Check: The cursor is currently on ITEM. I need to move it up to POKéMON.
 5. Sequence: U A.
+[Turn 44913 Reflection]
+1. Execution: Pressed Up, A. The cursor is now on POKéMON.
+2. Goal: Select DUGTRIO, then DIG.
+3. Navigation: The Party menu will open. Dugtrio is slot 3. The Party menu has cursor memory.
+4. I MUST wait to see where the cursor is before pressing anything in the Party menu!
+5. Sequence: A (to select POKéMON and open Party Menu).
 
 <hr>
