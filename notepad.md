@@ -1461,6 +1461,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - The 2F area South of the Northern doors at (18, 8) is a CONFIRMED DEAD END. It ends at Y=15, blocked by walls and rubble at X=22.
 - 1F East Wing South is a completely empty dead end down to Y=27. There are NO stairs to 2F here.
 - 1F Central Doors at (16, 7) lead to a dead-end hallway from Y=8 to Y=13. It is blocked at Y=13 by a solid wall. It DOES NOT connect to the 3F pit landing area (which is at 16, 14).
+- 3F East side (X=16, 17) is blocked from going South by a solid horizontal wall of rubble at Y=9. The pit is South of Y=11. So you CANNOT reach the pit from the East side via the doors at (15, 4). This path is a dead end.
 
 <hr>
 
