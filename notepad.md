@@ -1569,5 +1569,27 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
    - I am standing on the stairs at (5, 10). I need to step on them (either wait, or press a direction into the wall if it doesn't trigger automatically).
    - Actually, I just arrived on them. The transition to 2F should happen. I'll just press A to wait a turn and see if the map changes.
 4. Sequence: A.
+[Turn 44926 Reflection]
+1. Execution: Pressed A. Map transitioned to 2F (0_214). I am at (5, 10).
+2. Goal: Reach the 2F stairs to 3F at (6, 1).
+3. Navigation:
+   - I am at (5, 10) in the West Wing.
+   - The path North is blocked by a wall at Y=9. I must cross to the Central Area.
+   - Wait! In State B, the 2F North-West doors at (9, 4)/(9, 5) are CLOSED. 
+   - Let me review my State B global doors:
+     - 2F East doors (24, 13) CLOSED
+     - 2F Northern doors (18, 8)/(19, 8) OPEN
+     - 2F South-East doors (26, 27) OPEN
+     - 2F North-West doors (9, 4)/(9, 5) CLOSED.
+   - If the North-West doors at (9, 4) are CLOSED, I CANNOT reach the stairs at (6, 1) while in State B!
+   - Let's verify this on the map. The stairs at (6, 1) are in the West Wing. The West Wing is cut off at Y=9. The only crossing is at Y=4/Y=5 through the green pillars. If those doors are closed, (6, 1) is INACCESSIBLE.
+4. Strategic Error: I cannot return to 3F (to reset the switch or explore) from 1F/2F while the Mansion is in State B!
+   - Wait. Is there another switch on 1F or 2F?
+   - I have a note: "Found a switch on a statue at 1F (2, 5)!"
+   - Ah! The switch at 1F (2, 5) is accessible from the 1F West Wing (where the main stairs are).
+   - If I toggle the switch at 1F (2, 5), I can revert the Mansion to State A! Then the 2F NW doors will open, and I can reach 3F.
+5. Navigation Update: Walk to the 1F switch at (2, 5).
+   - I am currently at 2F (5, 10). I need to step back DOWN the stairs to 1F (5, 10).
+   - Wait, if I am at 2F (5, 10) on the stairs, stepping Down should take me back to 1F. Let me step Down.
 
 <hr>
