@@ -1089,14 +1089,13 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 
 <h1><code>Scratchpad/Reflections</code></h1>
 
-[New Plan to Toggle State and Reach 3F Pit]
-1. MASSIVE REVELATION: The stairs at 2F (7, 9) lead to an isolated 3F room. The 3F switch at (10, 4) is UNREACHABLE from here.
-2. Re-read summary: I previously found a working switch at 1F (2, 5)!
-3. Walk down to 1F and navigate to the statue at (2, 5).
-4. Press the switch to toggle the Mansion to STATE A.
-5. Verify STATE A by checking if the 1F East doors at (24, 13) are OPEN.
-6. If OPEN, walk through to the 1F East Wing.
-7. Find the stairs in the East Wing to ascend to the isolated 2F East Wing, which leads to the main 3F area and the pit!
+[Plan to Toggle Switch at 2F (15, 10)]
+1. The switch is confirmed to be the statue at 2F (15, 10).
+2. The reason it failed before is because the switch triggers a YES/NO prompt! My movement macros were eating the inputs or selecting NO.
+3. I must navigate to 2F (16, 10), face LEFT, press A ONCE.
+4. Wait for the text box to appear.
+5. Manually use 'press_buttons' to navigate the menu and select YES.
+6. Then escape via Dig and return to 1F East Wing!
 
 <hr>
 
@@ -1467,7 +1466,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [Verified Dead Ends]
 - The 2F Central doors at (20, 17) lead to a dead-end 4x3 room.
 - The stairs at 1F (6, 10)/(7, 10) lead to an isolated 3F room containing only a Burglar and a Diary. It is a dead end. The room is walled off on the East side by a solid wall at X=11 (Y=8 to Y=15), preventing access to the 3F pit.
-- The gap at X=12 on 1F allows bypassing the Y=9 rubble. Walk North to Y=6, then East through the gap at X=13 to reach the Northeast area. From there, walk to (18, 3) and go East to X=26 to enter the East Wing!
+- VERIFIED: The X=12 gap on 1F is a dead end blocked by a desk at Y=7. Do not attempt to bypass the Y=9 rubble here.
 - The 2F area South of the Northern doors at (18, 8) is a CONFIRMED DEAD END. It ends at Y=15, blocked by walls and rubble at X=22. Therefore, the stairs at 2F (25, 14) are completely isolated from the rest of 2F and MUST be accessed from 1F.
 
 <hr>
