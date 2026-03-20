@@ -2104,5 +2104,25 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 4. Navigation:
    - First, exit the Pokemon Center. Walk Down from (3, 3) to the exit at (3, 8).
    - Sequence: A (to clear text), D D D D D.
+[Turn 44964 Reflection]
+1. Execution: The tool `pokemon_center_healer` finished, and my macro `A D D D D D` executed. Wait, look at the Game State! I am at Map 0_8 (Cinnabar Island) at (11, 12).
+2. Analysis: The `pokemon_center_healer` tool automatically handles the entire healing process AND exiting the Pokemon Center! It ends by pressing Down until the player exits the building.
+   - So I was already outside at (11, 12) when Turn 44963 started!
+   - My macro `A D D D D D` just pressed A and walked me Down 5 times.
+   - Wait, I started at (11, 12). Down 5 times should put me at (11, 17).
+   - But I am still at (11, 12)!
+   - Let's look at the intermediate states for Turn 44963...
+   - State 0: A -> overworld.
+   - State 1: Down -> BUMP! (11, 13) is TYPE_2889 (solid ledge/water).
+   - Ah, looking at the Cinnabar Island map, the Pokemon Center is at (11, 11). The tile below the door is (11, 12). The tile below that (11, 13) is a ledge!
+3. Goal: Return to the Pokemon Mansion at (6, 3).
+4. Navigation from (11, 12) to (6, 3):
+   - I cannot walk straight Left because of the Poke Center sign at (10, 12).
+   - Walk Right to (12, 12) or (13, 12).
+   - Actually, I can just walk North around the PC.
+   - From (11, 12), walk Left to (9, 12).
+   - Walk North to Y=4: 12 - 4 = 8 Ups to (9, 4).
+   - Walk West through the gap at (9, 4) to reach the Mansion entrance at (6, 3).
+5. Sequence: L L U U U U U U U U L L L U.
 
 <hr>
