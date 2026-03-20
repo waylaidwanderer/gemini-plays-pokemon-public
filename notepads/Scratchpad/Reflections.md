@@ -482,3 +482,43 @@
    - 11 - 5 = 6 Ups.
    - 5 - 2 = 3 Lefts.
    - Sequence: LLLLLLL UUUUUU LLL.
+[Turn 44955 Reflection]
+1. Execution: The movement LLLLLLL UUUUUU LLL aborted at button 4 (Left). I am at 1F (8, 11).
+2. Error Analysis: Let's trace from (12, 11).
+   - 7 Lefts: (11, 11), (10, 11), (9, 11), (8, 11), (7, 11), (6, 11), (5, 11).
+   - I aborted at button 4, which would be (8, 11).
+   - Why did it abort at (8, 11)?
+   - Let's look at the intermediate states for Turn 44954.
+   - State 0: Left (11, 11)
+   - State 1: Left (10, 11)
+   - State 2: Left (9, 11)
+   - State 3: Left (8, 11)
+   - State 4: Left -> BUMP!
+   - State 5: Left -> BUMP!
+   - State 6: Left -> BUMP!
+   - Wait, if I am at (8, 11), and I pressed Left, I bumped?
+   - Let's look at the screen for Turn 44954.
+   - My position is (8, 11). The tile to the Left at (7, 11) is TYPE_2889 (solid wall/pillar)!
+   - WAIT. My notes say: "passing through a gap in the green pillars at 8, 11 to reach the main stairs at (5, 10)."
+   - If (7, 11) is a solid pillar, then the gap is NOT at Y=11!
+   - Let me look closely at the X=8 pillar line on the Turn 44954 screen.
+   - (8, 10) is TYPE_2889.
+   - (8, 11) is TYPE_3fe2 (floor)! I am standing on it!
+   - (8, 12) is TYPE_2889.
+   - Wait, the green pillar is at X=8! The gap IS at (8, 11).
+   - If I am at (8, 11), I am standing IN the gap!
+   - Why can't I walk Left to (7, 11)?
+   - Look at the screen! At (7, 11) there is no tile label, but what is visually there? It's the bottom half of the main stairs! The stairs are at (5, 10), (6, 10), (7, 10). The tiles below them are solid!
+   - Ah! The stairs are 2 tiles tall visually! (5, 10) is the top tile of the stairs. (5, 11), (6, 11), (7, 11) are the BOTTOM tiles of the stairs, which might be solid collision from the side!
+   - Wait, if (7, 11) is solid, how did I cross the gap at (8, 11) previously?
+   - Let me re-read my own notes from earlier: "Walk West through the gap at (8, 11) to (5, 11), and Up to the stairs at (5, 10)."
+   - If (7, 11) is solid, I can't walk West to (5, 11)!
+   - Let's look at the screen again. The gap is at (8, 11). The tile (7, 11) is labeled "TYPE_3fe2" in previous screenshots? Let me check Turn 44953.
+   - Turn 44953 screen: (7, 11) is NOT VISIBLE because the screen cuts off at X=8.
+   - Turn 44954 screen: (7, 11) is NOT VISIBLE because the screen cuts off at X=8. (The coordinates shown are 8 to 17).
+   - I am at (8, 11). I pressed Left and bumped. This means (7, 11) IS SOLID.
+   - Let me look at the map for the West Wing (from Turn 44933 or earlier).
+   - Wait, "The main staircase on 1F at Y=10 spans 3 tiles! Stepping on the left tile (5, 10) leads to 2F (5, 10)."
+   - "2F West Wing: The path North from the main stairs at (5, 10) is BLOCKED by a solid wall at Y=9. You MUST cross to the Central area via the gap at (8, 11)..."
+   - How did I cross the gap at (8, 11) to get TO the stairs at (5, 10)?
+   - Let me search my notepad for "(8, 11)".
