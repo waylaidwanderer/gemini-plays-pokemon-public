@@ -7,5 +7,5 @@
 - Puzzle Solution: From the Central Switch at (18, 25), toggle to State A. This OPENS the path West at Y=22/23. Walk North to Y=14, West to X=13, then South through the X=13 doors into the West Wing. Then walk North to the gap at (10, 17) to access the Secret Key area!
 - [Definitive B1F Discovery]: The wall at X=25 is solid from Y=8 down to at least Y=15, completely separating the Central area from the far East side where a Burglar stands at (27, 11). Furthermore, the table at Y=8 is empirically proven to be completely solid from X=10 to X=25 (Tested Turns 45234-45260).
 - [Master Plan Revision]: Because there is no gap in the Y=8 table, the B1F Northern and Eastern sections CANNOT be accessed from the B1F Central or West areas. This definitively implies a second staircase to B1F exists, dropping into the isolated North/East sections.
-- Next Step: Since I just used Dig, the Mansion is currently in State A. I must systematically search the 1F East Wing for this missing staircase!
+- Next Step: Since I just used Dig, the Mansion is currently in State A. I searched the 1F East Wing and found NO stairs. I must now systematically search the unexplored 1F North-West corner (via the Northern hallway at Y=2) for this missing staircase!
 - Macro Rule: Keep movement macros short (1-5 steps) to prevent wild encounters from corrupting positional awareness.
