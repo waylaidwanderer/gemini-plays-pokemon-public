@@ -1759,5 +1759,41 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 2. Goal: Toggle the 1F switch to revert the Mansion to State A.
 3. Navigation: The statue is at (2, 4). I am at (2, 5), facing it. I need to press A to interact, then select YES.
 4. Sequence: A (interact).
+[Turn 44943 Reflection]
+1. Execution: The `ADDA` sequence failed. The first `A` initiated a battle with the Burglar at (13, 14)! But wait, I am at (12, 16) now?!
+2. Error Analysis: Let's trace my actual movements carefully.
+   - Turn 44938: I am at (13, 15). The Burglar is at (13, 14).
+   - Turn 44939: My macro was `L UUUU LLLLLLL UUUUUU LLL`.
+     - L -> (12, 15).
+     - U -> (12, 14).
+     - U -> (12, 13). Wait! The trainer at (13, 14) spotted me! Wait, no, he faces DOWN.
+     - Look at the intermediate states for Turn 44939... Oh, I didn't check them.
+   - Turn 44942 intermediate states show:
+     - State 0: A -> overworld
+     - State 1: Down -> (12, 17)
+     - State 2: Down -> (12, 18)
+     - State 3: A -> overworld
+     - Wait, in Turn 44941 I submitted `A, Down, Down, A`? Yes, I did! Because I was trying to manually Dig out!
+     - My brain is completely desynced. I forgot I had pivoted to using Dig manually, and instead I sent Dig inputs *while standing in the overworld*. The `A, Down, Down, A` just walked me South!
+   - So I am now at (12, 18) instead of (12, 16)?
+     - Let's look at the CURRENT Game State: Player Position: (12, 16).
+     - Let's look at the Turn 44942 Intermediate States again. The sequence was `ADDA`.
+     - State 0 (A): Interacts with nothing.
+     - State 1 (Down): I move from (12, 15) to (12, 16).
+     - State 2 (Down): I bump into the wall at (12, 17)! Wait, (12, 17) is floor. Why did I bump? Oh, in the screenshots, State 1 is at (12, 15), State 2 is at (12, 16). My sprite is at (12, 16).
+   - Okay, let's reset my brain completely.
+     - I am currently at 1F (12, 16).
+     - I am in the 1F X=12 corridor.
+     - My goal is to reach the 1F switch at (2, 5).
+3. Goal: Reach the 1F switch at (2, 5).
+4. Navigation from (12, 16):
+   - Walk North to Y=11: 16 - 11 = 5 Ups to (12, 11).
+   - Walk West to X=5: 12 - 5 = 7 Lefts to (5, 11).
+   - Walk North to Y=5: 11 - 5 = 6 Ups to (5, 5).
+   - Walk West to X=2: 5 - 2 = 3 Lefts to (2, 5).
+5. Let's verify the path visually.
+   - North from (12, 16) is clear up to at least (12, 12).
+   - I will use a short macro to get to (12, 11).
+6. Sequence: U U U U U.
 
 <hr>
