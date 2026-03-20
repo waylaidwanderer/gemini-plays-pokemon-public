@@ -1675,5 +1675,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 2. Goal: Select DUGTRIO (index 3), then DIG.
 3. Navigation: Move cursor Down twice to DUGTRIO, then press A to open his sub-menu.
 4. Sequence: D D A.
+[Turn 44915 Reflection]
+1. Execution: The cursor moved Down twice and I pressed A. I am now in Dugtrio's sub-menu.
+2. Goal: Select DIG.
+3. Navigation: Dig is the Field Move, so it should be at the very top of the list (index 1). The cursor should be on it by default when opening the sub-menu. I just need to press A.
 
 <hr>
