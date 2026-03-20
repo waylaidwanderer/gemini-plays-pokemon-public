@@ -1425,7 +1425,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Found TM14 (Blizzard) at (19, 25).
 - Diary located at (16, 20): "Sept. 1. MEWTWO is far too powerful..."
 - Found a glowing-eye switch statue at (18, 24)/(18, 25).
-- Electronic doors are located at (14, 16)/(15, 16) and (18, 16)/(19, 16). They are CLOSED in State B, but can be bypassed via X=17.
+- Horizontal electronic doors are located at (16, 16)/(17, 16). They are CLOSED in State A, and OPEN in State B. X=18 to X=23 is clear floor at Y=14, allowing bypass to the Eastern stairs.
 - There are VERTICAL electronic doors at X=13 (Y=22 and Y=23). These are CLOSED in State B, blocking access to the western half of B1F. They must be OPENED by toggling a switch.
 - Found another switch statue at (7, 14)/(7, 15) in the western area.
 - The path West from the enclosed 1F stairs area is at Y=14. X=20 is a solid wall from Y=15 downwards.
