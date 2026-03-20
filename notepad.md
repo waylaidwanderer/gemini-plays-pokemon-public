@@ -1569,5 +1569,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 1. Execution: Reached (11, 3). Bumping into (10, 3) revealed it is solid, despite looking like floor! The statue or some invisible collision might be extending upwards, or perhaps X=10 is blocked at Y=3.
 2. Navigation: Looking at the screen, there is a clear hallway at Y=2. I will walk Up to (11, 2), then Left all the way to (6, 2), then Up to the stairs at (6, 1).
 3. Sequence: U L L L L L U.
+[Turn 44878 Reflection]
+1. Execution: Re-calculated the path to the stairs at (6, 1) from (11, 3).
+2. Navigation: U to (11, 2). L to (6, 2). U to (6, 1).
+3. Sequence: U L L L L L U.
 
 <hr>
