@@ -522,3 +522,61 @@
    - "2F West Wing: The path North from the main stairs at (5, 10) is BLOCKED by a solid wall at Y=9. You MUST cross to the Central area via the gap at (8, 11)..."
    - How did I cross the gap at (8, 11) to get TO the stairs at (5, 10)?
    - Let me search my notepad for "(8, 11)".
+[Turn 44956 Reflection]
+1. Execution: The search returned exactly what I wrote earlier. Let's look at L20: "The horizontal wall at Y=9 does NOT extend all the way to the East Wing wall. There is a gap at X=12! You can walk South down X=12 to bypass the Y=9 wall, then head West along Y=11 (passing through a gap in the green pillars at 8, 11) to reach the main stairs at (5, 10)."
+2. Error Analysis: Wait, look at the screen for Turn 44955!
+   - I am at (12, 14).
+   - North is blocked at Y=13.
+   - East is blocked at X=13.
+   - West is blocked at X=11 by green pillars.
+   - I AM TRAPPED in the southern half of 1F!
+   - Let's re-read the notes VERY CAREFULLY.
+   - "There is NO gap in the green pillars at Y>11!"
+   - "To get from the Central area to the West Wing, I MUST cross at Y=11!"
+   - But if I am at (12, 14), and North is blocked at Y=13, I CANNOT REACH Y=11 from the X=12 corridor!
+   - This means the X=12 corridor does NOT connect the Northern half of 1F to the Southern half of 1F!
+   - My previous note "YES! The X=12 corridor connects the Northern half of 1F to the Southern half of 1F!" from Turn 44932 was a hallucination!
+   - In Turn 44931, I was at (12, 18). I walked UUUU to (12, 14).
+   - In Turn 44932, I assumed the path continued North. But at (12, 14), the path North is BLOCKED.
+   - I am currently in a dead end corridor at X=12, Y=14-18.
+3. Strategy Pivot: I am completely trapped in the southern half of 1F (specifically, the X=12 corridor, the Central Hallway X=16 which is blocked at Y=18, and the East Wing X=21 which is a sealed box).
+   - Wait. If I am in a dead end, how did I get here?
+   - I jumped down the pit from 3F (16, 14).
+   - The pit drops me to 1F (16, 14) in the enclosed area.
+   - I walked out of the enclosed area via the Central Doors at (16, 7) ... WAIT!
+   - Look at my reflection from Turn 44922: "I successfully walked out of the 1F enclosed area! I am now in the 1F Central Hallway at (16, 25). Analysis: The 1F Central Doors at (16, 7)/(17, 7) that I thought were a dead end actually connect to the pit drop landing zone!"
+   - I arrived at (16, 25), NOT (16, 7)!!!
+   - Where did I exit the enclosed area?
+   - In Turn 44921, I was at (21, 24). I walked `D L L L L L` (Down to 21, 25, then 5 Lefts to 16, 25).
+   - The exit from the enclosed area is at Y=25!
+   - AND, the enclosed area is at (21, 24).
+   - Let's look at the screen for Turn 44921. I was at (21, 24). Left was clear. I walked out to (16, 25).
+   - Once at (16, 25), I was in the Central Hallway.
+   - The Central Hallway runs from Y=27 North to Y=18 (where it is blocked by rubble).
+   - So, the Central Hallway South is a dead end!
+   - The East Wing South is a dead end!
+   - The X=12 corridor is a dead end!
+   - I AM TRAPPED IN THE SOUTHERN HALF OF THE MANSION.
+   - The only way out is Dig or Escape Rope.
+4. Dig Strategy: I need to use Dig from the Party menu manually, because `use_hm_field` expects me to be in the Party menu already.
+   - Wait, I DO NOT HAVE TO DIG. I can walk out the front door!
+   - Where is the front door?
+   - "1F Exit is at (5, 27)."
+   - How do I reach (5, 27) from the southern half?
+   - I am currently at (12, 14).
+   - I need to reach X=5, Y=27.
+   - Let's trace from (12, 14) back to (12, 24) [my path from Turn 44946].
+   - From (12, 24), I walked West to (5, 24).
+   - Wait, in Turn 44946, I said "The movement DDDDDDDDDDLLLLLLL successfully navigated me South along X=12 and West along Y=24 to (5, 24). Wait, I am at (12, 24) on the Game State. Error Analysis: The sequence was aborted at button 11 ('Left'). At (11, 24), I bumped into a solid object!"
+   - So I CANNOT walk West to X=5 at Y=24 either! The green pillars at X=11 block me!
+   - Are there ANY gaps in the green pillars at X=11 South of Y=11?
+   - No. I checked this.
+   - Are there ANY gaps in the green pillars at X=8 South of Y=11?
+   - "Green pillars line X=3 and X=8, with 1-tile gaps."
+   - But I am stuck East of X=11!
+   - Wait, if I am stuck East of X=11, and the Central Hallway is blocked at Y=18, how did I get here from the entrance at (5, 27)?
+   - I DIDN'T. I got here by jumping down the pit from 3F!
+   - This entire southern section of 1F (East of X=11, South of Y=13/18) is a ONE-WAY TRAP designed to make you use Dig/Escape Rope or walk back up the stairs to B1F (23, 22) which is ALSO a dead end!
+   - THIS IS A TRUE TRAP.
+5. Action: Open the Start Menu, go to POKéMON, select DUGTRIO, select DIG.
+   - Sequence: Start.
