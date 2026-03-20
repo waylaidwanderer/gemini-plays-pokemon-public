@@ -1488,7 +1488,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - State B: Vertical doors at X=13 are CLOSED.
 - State A: Vertical doors at X=13 are OPEN.
 - [Definitive B1F Discovery]: The wall at X=25 is solid from Y=8 down to at least Y=15, completely separating the Central area from the far East side where a Burglar stands at (27, 11). Furthermore, the table at Y=8 is empirically proven to be completely solid from X=10 to X=25 (Tested Turns 45234-45260).
-- [Master Plan Revision 10]: 3F East Wing is a DEAD END (Y=9 is solid). The Secret Key IS in the NW Enclosure on B1F! The entrance is the doors at (9, 6)/(9, 7), which are OPEN in STATE B. The path North to these doors is along the X=9 corridor, bypassing the solid table at Y=8 (which only spans X=10 to X=25). Plan: Toggle 3F switch at (10, 4) to State B, drop down pit at (16, 14), walk to B1F (9, 7)!
+- [Master Plan Revision 10]: 3F East Wing is a DEAD END (Y=9 is solid). The Secret Key IS in the NW Enclosure on B1F! The entrance is the doors at (9, 6)/(9, 7), which are OPEN in STATE B. The path North to these doors is along the X=9 corridor, bypassing the solid table at Y=8 (which only spans X=10 to X=25).
 - [3F Pit Constraint]: Empirically verified that the 3F pit (Y=13/14) does NOT have a left-side drop-off. Tiles (12, 13) through (15, 13) are solid walls. The ONLY way down is the right side at (16, 14).
 - Macro Rule: Keep movement macros short (1-5 steps) to prevent wild encounters from corrupting positional awareness.
 
