@@ -1404,7 +1404,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Wide open gap/drop-off visible on the right side at X=12.
 - Spotted an item ball at (9, 4).
 - Spotted a glowing-eye switch statue at (10, 4)/(10, 5).
-- The southern half of 3F is ACCESSIBLE from the switch via a gap at X=10 to X=12! Walk South from the switch to reach the Southern doors at (15, 10) and the pit.
+- The southern half of 3F is ACCESSIBLE from the switch via a gap at X=13/X=14! Walk East from the switch to (13, 5), then South to bypass the wall at Y=8.
 - There are electronic doors at Y=5 (X=15 to X=17). (Northern doors)
 - The path North at X=18 is blocked by a solid barrier at Y=9.
 - On 3F, eastern section (past the doors at X=15): Path continues south of a wall at X=22. Found an item ball at (25, 5).
