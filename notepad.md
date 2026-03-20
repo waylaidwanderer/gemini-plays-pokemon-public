@@ -1480,5 +1480,10 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
    - The path is RRRRR, DDDDDDDD.
 4. Let's be careful. The southern doors at (15, 10) should now be OPEN (State B). I will walk to (15, 6), then South to (15, 13), then East to (16, 13), then South into the pit at (16, 14).
 5. Sequence: A (clear text), R R R R R, D D D D D D D, R, D.
+[Turn 44891 Reflection]
+1. Execution: The game is prompting me with "Press it?" "YES/NO". My previous macro was eaten because of this extra prompt!
+2. Goal: Reach the 3F pit at (16, 14).
+3. Navigation: I need to select YES (which is currently selected), then clear the subsequent "Who wouldn't!" or "A secret switch!" text box, THEN move to the pit.
+4. Let's just press A to say YES, wait for the text, and press A again. I will NOT queue movement yet to avoid it being eaten by text rendering.
 
 <hr>
