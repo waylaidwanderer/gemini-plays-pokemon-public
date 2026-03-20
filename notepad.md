@@ -1633,5 +1633,14 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
    - Walk North to Y=5: 11 - 5 = 6 Ups to (5, 5).
    - Walk West to X=2: 5 - 2 = 3 Lefts to (2, 5).
 4. Sequence: 13U, 11L, 6U, 3L.
+[Turn 44930 Reflection]
+1. Execution: Cleared the remaining "Got away safely!" text. I am at 1F (16, 24).
+2. Goal: Reach the 1F switch at (2, 5).
+3. Navigation:
+   - Walk North to Y=11: 13 Ups to (16, 11).
+   - Walk West to X=5: 11 Lefts to (5, 11).
+   - Walk North to Y=5: 6 Ups to (5, 5).
+   - Walk West to X=2: 3 Lefts to (2, 5).
+4. Sequence: UUUUUUUUUUUUULLLLLLLLLLLUUUUUULLL.
 
 <hr>
