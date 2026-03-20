@@ -1525,5 +1525,10 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 1. Execution: Reached the pit at (16, 14) and encountered a Vulpix.
 2. Goal: Run from Vulpix, clear text, and step Down into the pit to fall to 1F.
 3. Navigation: A (clear text), D (jump down pit).
+[Turn 44899 Reflection]
+1. Execution: Cleared the Vulpix encounter text.
+2. Goal: Jump down the pit at (16, 14) / (17, 14).
+3. Navigation: I am standing on (16, 14) right now! Wait, the pit is *at* (16, 14). Let me check the screen. The tiles at Y=14 are indeed the pit (TYPE_21ec). I must step Down to fall in.
+4. Sequence: A (to clear "Got away safely!"), D.
 
 <hr>
