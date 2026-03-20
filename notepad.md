@@ -1931,5 +1931,24 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
    - Walk North to Y=5: 11 - 5 = 6 Ups to (5, 5).
    - Walk West to X=2: 5 - 2 = 3 Lefts to (2, 5).
 4. Sequence: UUU LLLLLLL UUUUUU LLL.
+[Turn 44954 Reflection]
+1. Execution: My macro `UUUUUUUUUUUUULLLLLLLUUUUUULLL` aborted at button 3 ('Up'). I am at 1F (12, 11).
+2. Goal: Reach the 1F switch at (2, 5).
+3. Navigation:
+   - Why did it abort at (12, 11)? Ah! Look at the intermediate states!
+   - State 0: Up (12, 13)
+   - State 1: Up (12, 12)
+   - State 2: Up (12, 11)
+   - The map changed! (12, 11) is the transition tile to the West Wing. Wait, the map didn't change (still 0_165), but maybe a connection loaded or something?
+   - Wait, `move_sequence` aborts if the `map_id` changes OR an encounter starts OR a text box appears.
+   - Let's look at the screen for Turn 44953. I am at (12, 11). There is NO text box.
+   - Wait, what is at (11, 11)? It's the gap in the green pillars!
+   - Is it possible my character bumped into a trainer's line of sight? No trainers visible.
+   - Let's just continue the macro. I am at (12, 11).
+   - I need to walk West to X=5, North to Y=5, West to X=2.
+   - 12 - 5 = 7 Lefts.
+   - 11 - 5 = 6 Ups.
+   - 5 - 2 = 3 Lefts.
+   - Sequence: LLLLLLL UUUUUU LLL.
 
 <hr>
