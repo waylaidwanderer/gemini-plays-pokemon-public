@@ -1795,5 +1795,51 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
    - North from (12, 16) is clear up to at least (12, 12).
    - I will use a short macro to get to (12, 11).
 6. Sequence: U U U U U.
+[Turn 44945 Reflection]
+1. Execution: The sequence UUUUU brought me from (12, 16) to (12, 14). Wait, I bumped into a solid object at (12, 13)?
+2. Error Analysis: Let's look at the intermediate states for Turn 44944.
+   - State 0: Up (12, 15)
+   - State 1: Up (12, 14)
+   - State 2: Up -> BUMP!
+   - State 3: Up -> BUMP!
+   - State 4: Up -> BUMP!
+   - Why did I bump? Let's look at the screen for 44944.
+   - The tile at (12, 13) is TYPE_2889 (solid wall/rubble)!
+   - I am at (12, 14). The path North at X=12 is BLOCKED by a horizontal wall at Y=13!
+   - Wait, my previous notes said "The horizontal wall at Y=9 does NOT extend all the way to the East Wing wall. There is a gap at X=12! You can walk South down X=12 to bypass the Y=9 wall, then head West along Y=11".
+   - This was referring to the gap at Y=9, not Y=13.
+   - At Y=13, there is a wall.
+3. Goal: Escape the southern half of 1F!
+4. Navigation: I am at (12, 14).
+   - Let's look at the map from (12, 14).
+   - North is blocked at Y=13.
+   - West is blocked by the green pillars at X=11.
+   - East: The wall is at X=13 (TYPE_2889). Wait! Look at (13, 14). It is TYPE_3fe2 (floor).
+   - Can I walk East to (13, 14)? Yes.
+   - And from (13, 14), can I walk North? (13, 13) is TYPE_2889. So North is blocked at X=13 too.
+   - Wait, I am TRAPPED in the southern half of 1F?!
+   - Let's re-examine the Central Hallway. I was at (16, 24). I walked North and the Central Hallway was blocked at Y=18 by rubble.
+   - Let's re-examine the East Wing. I walked East from (13, 26) to (21, 26), then North to (21, 24) [the enclosed area].
+   - If the Central Hallway is blocked at Y=18, and X=12 is blocked at Y=13... how do I get to the Northern half of 1F?
+   - Wait! Look at the current screen at (12, 14).
+   - The green pillars are at X=11. Is there a gap in the green pillars nearby?
+   - (11, 10), (11, 11), (11, 12), (11, 13), (11, 14), (11, 15), (11, 16), (11, 17), (11, 18), (11, 19), (11, 20) are ALL TYPE_2889. No gap!
+   - What about the 1F Central Doors at (16, 7)/(17, 7)? I walked OUT of them earlier, from the enclosed area (21, 24) to the Central Hallway (16, 25).
+   - Wait! The Central Hallway is at X=16. The Central Doors are at (16, 7).
+   - If I am at (16, 25), and I want to go to (16, 7), I must walk North along X=16.
+   - BUT I just said X=16 is blocked at Y=18!
+   - Is it? Let's check my Turn 44931 reflection: "And wait... the tiles at Y=18 (X=14 to X=17) are TYPE_2889 (solid rubble)! I completely hallucinated the path North from (16, 24). The Central Hallway is BLOCKED at Y=18 by rubble!"
+   - Wait, if the Central Hallway is blocked at Y=18, how did I get from the entrance (5, 27) to the stairs at (5, 10) originally?!
+   - By walking up the WEST Wing! X=5!
+   - The West Wing (X=1 to X=8) is separate from the Central Hallway (X=16).
+   - I am currently at X=12. This is the Middle area between West and Central.
+   - How do I get back to the West Wing (X=5) from the Southern half (Y>18)?
+   - Let's look at the southern areas. I was at (16, 25). I walked West to (12, 18).
+   - Wait, from (16, 25), I can walk West!
+   - The Central Hallway (X=16) connects to the West Wing (X=5) at the very bottom!
+   - Let's walk back South to Y=26, then West to X=5.
+5. Sequence: D D L L L L L L L L D D D D D L L L L L L L L L.
+   - Let's be precise. From (12, 14), D D (to 12, 16).
+   - Let's just walk South and West until I reach X=5.
 
 <hr>
