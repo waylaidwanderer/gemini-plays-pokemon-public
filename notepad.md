@@ -1496,5 +1496,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 \n[Turn 45157] RE-VERIFIED: I am at (2, 18). Looking at the screen, (1, 17) and (0, 17) are BOTH solid TYPE_2889. My Turn 45144 realization WAS CORRECT! There is absolutely no gap on the West side of the Y=17 tables. The only way North is via the gap at (10, 17). I am heading back East to X=10, then North to bypass the X=9 wall.
 \n[Turn 45159] Currently at (10, 14). The solid wall at X=9 continues North. I am continuing to walk North along X=10 to find the entrance to the West Wing.
 \n[Turn 45161] The solid wall at Y=8 blocks Northward movement from X=6 to at least X=15. I am walking East along Y=10 to find a way North of this Y=8 wall, hoping it leads around to the West Wing.
+\n[Turn 45165] I followed the Y=8 wall all the way East to X=24, and it remains solid. The path North is completely blocked. I am returning West to X=10 to systematically test the X=9 wall for a gap. I will bump West at every Y-coordinate from Y=9 down to Y=16 to find the entrance to the (7, 15) switch enclosure.
 
 <hr>
