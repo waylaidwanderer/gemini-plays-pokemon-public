@@ -1488,7 +1488,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - State B: Vertical doors at X=13 are CLOSED.
 - State A: Vertical doors at X=13 are OPEN.
 - [Definitive B1F Discovery]: The wall at X=25 is solid from Y=8 down to at least Y=15, completely separating the Central area from the far East side where a Burglar stands at (27, 11). Furthermore, the table at Y=8 is empirically proven to be completely solid from X=10 to X=25 (Tested Turns 45234-45260).
-- [Master Plan Revision 11]: Turn 45580 proved 3F West Wing is NOT a dead end! The path South of Y=6 is completely open. This MUST lead to a pit that drops into the sealed NW enclosure of B1F! Plan: Toggle B1F Central Switch (18, 25) to State A. Use Dig. Go to 2F, through open NW doors to 3F (6, 1). Walk SOUTH in 3F West Wing!
+- [Master Plan Revision 11]: Turn 45580 proved 3F West Wing is NOT a dead end! The path South of Y=6 is completely open. Hypothesis: This leads to a hidden pit dropping into the sealed NW enclosure of B1F. Accessing the 3F West Wing requires the Mansion to be in STATE A.
 - [3F Pit Constraint]: Empirically verified that the 3F pit (Y=13/14) does NOT have a left-side drop-off. Tiles (12, 13) through (15, 13) are solid walls. The ONLY way down is the right side at (16, 14).
 - Macro Rule: Keep movement macros short (1-5 steps) to prevent wild encounters from corrupting positional awareness.
 
