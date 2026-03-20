@@ -1,5 +1,6 @@
 [Active Reflections]
 - Mansion is in State A. The doors at (18, 8) are currently CLOSED.
 - The Northern Hallway is ALWAYS open. The electronic doors are only at (18, 8) blocking the path South.
-- There appears to be a gap in the rubble further East at (22, 3) which might connect directly to the East Wing without needing to pass through the doors at (18, 8)!
-- Plan: Walk North to (17, 1), then East around the diary table to reach the gap at (22, 3).
+- VERIFIED: The gap at 2F (22, 3) only leads to a small dead-end pocket. It DOES NOT bypass the doors.
+- The ONLY way to progress is through the electronic doors at 2F (18, 8).
+- Plan: Return to 2F (2, 11) switch, activate STATE B, then go through the 2F (18, 8) doors and explore South to find the stairs to 3F.
