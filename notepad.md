@@ -1557,5 +1557,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [Turn 44872 Reflection]
 1. Execution: Reached (11, 4) in the Northern hallway. My macro was interrupted by bumping into the switch statue at (10, 4) / (10, 5)!
 2. Navigation: I need to walk South around the statue, then West to the stairs at (6, 1). I'll walk D DLL L L U U L L L.
+[Turn 44874 Reflection]
+1. Execution: Ran from Grimer. Text box is on screen.
+2. Navigation: The statue at (10, 4)/(10, 5) blocks the path West. The tiles above me at (11, 4) might also be blocked since my previous upward macro failed. I will route East to (13, 5), North to (13, 2), then West to the stairs at (6, 1).
+3. Sequence: A R R U U U L L L L L L L U.
 
 <hr>
