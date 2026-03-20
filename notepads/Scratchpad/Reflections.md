@@ -656,3 +656,34 @@
    - Walk North to Y=4: 12 - 4 = 8 Ups to (9, 4).
    - Walk West through the gap at (9, 4) to reach the Mansion entrance at (6, 3).
 5. Sequence: L L U U U U U U U U L L L U.
+[Turn 44965 Reflection]
+1. Execution: The movement L L U U U U U U U U L L L U was aborted at button 14 ('Up'). I am at Cinnabar Island (6, 11).
+2. Error Analysis: Let's trace from (11, 12).
+   - 2 Lefts: (10, 12), (9, 12).
+   - 8 Ups: (9, 11), (9, 10), (9, 9), (9, 8), (9, 7), (9, 6), (9, 5), (9, 4).
+   - 3 Lefts: (8, 4), (7, 4), (6, 4).
+   - 1 Up: (6, 3).
+   - Why did it abort at button 14 (Up)?
+   - Wait, I am at (6, 11). How did I end up at (6, 11)?
+   - Let's look at the intermediate states for Turn 44964.
+   - State 0: Left (10, 12)
+   - State 1: Left (9, 12)
+   - State 2: Up (9, 11)
+   - State 3: Up -> BUMP!
+   - State 4: Up -> BUMP!
+   - State 5: Up -> BUMP!
+   - Why did I bump going Up from (9, 11)?
+   - Look at the screen for Turn 44964. At (9, 11), the tile North of me at (9, 10) is TYPE_3fe2 (floor). But wait! Look at (9, 9) and (9, 8).
+   - Ah! Look at the map for Turn 44964.
+   - The path North at X=9 is blocked by a wall at Y=10. Wait, no. (9, 10) is TYPE_3fe2. (9, 9) is TYPE_2889 (solid wall of the gym).
+   - Yes, the Cinnabar Gym extends to X=9!
+   - The gap to go North is NOT at X=9.
+   - Look at the screen. The gap is at X=6! The path from the Pokemon Center (11, 11) to the Mansion (6, 3) goes West to X=6, then North to Y=3!
+   - Let's verify. I am at (6, 11). The tiles North at (6, 10), (6, 9), (6, 8) are all floor!
+   - The entrance to the Mansion is at (6, 3).
+3. Goal: Enter Pokemon Mansion at (6, 3).
+4. Navigation:
+   - I am at (6, 11).
+   - Walk North to Y=3.
+   - 11 - 3 = 8 Ups.
+5. Sequence: UUUUUUUU.
