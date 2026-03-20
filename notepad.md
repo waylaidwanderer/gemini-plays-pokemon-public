@@ -1090,14 +1090,11 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 <h1><code>Scratchpad/Reflections</code></h1>
 
 [Master Plan to Reach 3F Pit and B1F]
-1. The Mansion is in State A. 1F South-East doors (26, 27) are CLOSED, blocking East Wing.
-2. I must toggle to State B to open the 1F South-East doors.
-3. The switch to toggle is at 2F (15, 10). It is reachable in State A because it is WEST of the closed Northern doors at (18, 8).
-4. Go up to 2F. Navigate to 2F (16, 10), face LEFT, and press A to press the switch. It has a YES/NO prompt!
-5. Once in State B, escape to 1F.
-6. Walk to 1F (26, 27) and go North into the 1F East Wing.
-7. Go up the stairs at 1F (25, 14) to 2F East Wing.
-8. Take stairs to 3F East Wing, then walk to 3F (16, 14) and jump down the pit!
+1. State A is active. Doors at 2F (18, 8) are CLOSED, making 2F (15, 10) switch INACCESSIBLE from the North.
+2. In State A, 2F North-West doors at (9, 4) are OPEN. This means I can access the West Wing!
+3. There is a statue at 2F (2, 4)/(2, 5). THIS IS LIKELY THE STATE A SWITCH!
+4. Backup Plan: Try to walk East along 2F Y=7 to reach the East Wing doors at (24, 13). If blocked by rubble at X=22, then I MUST go to the West Wing switch at 2F (2, 5).
+5. If I toggle to State B, 2F Northern doors (18, 8) OPEN, allowing access to the 2F East Wing!
 
 <hr>
 
