@@ -1,8 +1,8 @@
-[Turn 44343 Reflection]
-1. Execution: Over the last 50 turns, I correctly identified the state of the doors after pressing the 1F switch. However, I made a critical error by misidentifying the stairs at 2F (4, 22) as "boxes" because I bumped into them from the side. Overwatch corrected me.
-2. Notepad Hygiene: I must document every new room and object I find. I failed to document the stairs on 2F after seeing them.
-3. Map Hygiene: I will place a marker at the 2F SW stairs once I reach them so I don't lose them again.
-4. Custom Tools: Existing tools are fine.
+[Turn 44428 Reflection]
+1. Execution: Discovered that my macro chaining of 'A' and 'B' presses around the 1F statue switch caused me to accidentally interact with it a second time and select 'NO', leaving the Mansion in State B. I am now heading back to correctly toggle it.
+2. Notepad Hygiene: Updated the door states correctly.
+3. Map Hygiene: Will need to add markers for stairs once I locate them properly on 2F.
+4. Custom Tools: Avoid chaining 'A' and 'B' presses when interacting with YES/NO prompts. Do it step-by-step.
 5. Tool Maintenance: No issues.
-6. Goal Clarity: My goal is to return to 2F and ascend those SW stairs.
-7. Error Analysis: Bumping into stairs from the side treats them as solid walls. This is a Gen 1 mechanic I must remember. Stairs must be approached from the correct direction (bottom or top).
+6. Goal Clarity: Toggle switch to State A, then head to 2F NW stairs at (6, 1).
+7. Error Analysis: Gen 1 YES/NO prompts can be tricky if you mash A. One 'A' selects YES, but if the text clears instantly, the next 'A' will interact with the object again. Always use step-by-step inputs for critical switches.
