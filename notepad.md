@@ -1664,5 +1664,29 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
    - What about Y=14? (12, 14) is floor. Can I go North from there? The top of my screen cuts off at Y=14.
    - Let's walk North along X=12 and see how far I can go.
 4. Sequence: U U U U.
+[Turn 44932 Reflection]
+1. Execution: Walked UUUU from (12, 18) to (12, 14). The path is still clear!
+2. Goal: Escape the southern half of 1F (since the Central Hallway is blocked at Y=18).
+3. Navigation:
+   - I am at (12, 14).
+   - Let's look at the screen. The tiles North of me at (12, 13), (12, 12), (12, 11) are all floor!
+   - Wait, my previous notes said "The horizontal wall at Y=9 does NOT extend all the way to the East Wing wall. There is a gap at X=12! You can walk South down X=12 to bypass the Y=9 wall, then head West along Y=11".
+   - YES! The X=12 corridor connects the Northern half of 1F to the Southern half of 1F!
+   - This means from (12, 14), I can walk North to Y=11, then West through the gap at (8, 11) to reach the main stairs at (5, 10).
+4. Path to (5, 10):
+   - Walk North to Y=11: 14 - 11 = 3 Ups to (12, 11).
+   - Walk West to X=5: 12 - 5 = 7 Lefts to (5, 11).
+   - Walk North to Y=10: 1 Up to (5, 10).
+5. From (5, 10), I need to reach the switch at (2, 5).
+   - Walk North to Y=5: 10 - 5 = 5 Ups to (5, 5).
+   - Walk West to X=2: 5 - 2 = 3 Lefts to (2, 5).
+6. Total Sequence: 3U, 7L, 1U, 5U, 3L.
+   - UUU LLLLLLL U UUUUU LLL.
+   - Let's trace it carefully on the map.
+   - (12, 14) -> 3U -> (12, 11)
+   - (12, 11) -> 7L -> (5, 11)
+   - (5, 11) -> 1U -> (5, 10) (stairs)
+   - (5, 10) -> 5U -> (5, 5)
+   - (5, 5) -> 3L -> (2, 5) (switch)
 
 <hr>
