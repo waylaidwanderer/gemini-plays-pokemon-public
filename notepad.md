@@ -2075,5 +2075,16 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
    - The Pokemon Center entrance is at (11, 11).
    - I need to walk Up 1 tile to enter.
 5. Sequence: U.
+[Turn 44960 Reflection]
+1. Execution: The sequence D D A A successfully used Dig!
+2. Result: I have warped to Cinnabar Island Pokemon Center (Map 0_171) at (3, 7)!
+3. Analysis: Wait, the Game State says I am at Map 0_171 (Pokemon Center), Position (3, 7). Let me look at the screen.
+   - I am standing right in front of the PC at (3, 6).
+   - This is the Cinnabar Island Pokemon Center. Dig warps you to the LAST Pokemon Center you healed at!
+4. Goal: Heal my Party at the Nurse, then return to the Pokemon Mansion.
+5. Navigation:
+   - Nurse Joy is at (3, 1). I am at (3, 7).
+   - Path: Walk North to (3, 2).
+   - Sequence: U U U U U.
 
 <hr>
