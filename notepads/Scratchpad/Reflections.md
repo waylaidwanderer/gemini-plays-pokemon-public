@@ -118,3 +118,8 @@
 2. Goal: Toggle the 3F switch at (10, 5) to State B, then proceed to the pit at (16, 14).
 3. Navigation: From (6, 1), walk East to (10, 1), South to (10, 4), and press A facing South to hit the switch at (10, 5). Wait, statues must be pressed from the front! I must walk to (10, 6) and face Up.
 4. Path to (10, 6): RRRR (to 10, 1), DDDDD (to 10, 6), U, A.
+[Turn 44886 Reflection]
+1. Execution: Encountered a wild Vulpix.
+2. Goal: Run from the battle, then proceed to the 3F stairs at 2F (6, 1).
+3. Wait, I was already at 2F (6, 4) in Turn 44883. I executed U U U and hit the stairs at (6, 1). The wild encounter triggered *during* the transition or immediately after arriving on 3F. The game state says I am still on Map 0_214 (2F), at (6, 4). My Up movements were eaten by the text box or the encounter!
+4. Navigation: I am at 2F (6, 4). I must clear the text box and press Up 3 times to reach the stairs at (6, 1).
