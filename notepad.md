@@ -1562,5 +1562,12 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
    - 11 Lefts (to 5, 11). 
    - 1 Up (to 5, 10).
    - Total Sequence: 14U, 11L, 1U.
+[Turn 44925 Reflection]
+1. Execution: The movement UUUUUUUUUUUUUULLLLLLLLU brought me to 1F (5, 10).
+2. Goal: Reach 2F, then navigate to 3F.
+3. Navigation:
+   - I am standing on the stairs at (5, 10). I need to step on them (either wait, or press a direction into the wall if it doesn't trigger automatically).
+   - Actually, I just arrived on them. The transition to 2F should happen. I'll just press A to wait a turn and see if the map changes.
+4. Sequence: A.
 
 <hr>
