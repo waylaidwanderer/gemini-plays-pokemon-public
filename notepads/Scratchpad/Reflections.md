@@ -113,3 +113,8 @@
 1. Execution: Ran from Vulpix. Cleared text box. I am at 2F (6, 4).
 2. Navigation: The path to the 3F stairs at 2F (6, 1) is simply Up 3 tiles from my current position.
 3. Sequence: U U U.
+[Turn 44885 Reflection]
+1. Execution: Reached 3F (6, 1) successfully.
+2. Goal: Toggle the 3F switch at (10, 5) to State B, then proceed to the pit at (16, 14).
+3. Navigation: From (6, 1), walk East to (10, 1), South to (10, 4), and press A facing South to hit the switch at (10, 5). Wait, statues must be pressed from the front! I must walk to (10, 6) and face Up.
+4. Path to (10, 6): RRRR (to 10, 1), DDDDD (to 10, 6), U, A.
