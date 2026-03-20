@@ -1904,5 +1904,14 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
    - Walk North to Y=5: 11 - 5 = 6 Ups to (5, 5).
    - Walk West to X=2: 5 - 2 = 3 Lefts to (2, 5).
 4. Sequence: A (clear text). UUUUUUUU LLLLLLL UUUUUU LLL.
+[Turn 44951 Reflection]
+1. Execution: Cleared the wild Ponyta text box. I am at 1F (12, 19).
+2. Goal: Reach the 1F switch at (2, 5).
+3. Navigation:
+   - Walk North to Y=11: 19 - 11 = 8 Ups to (12, 11).
+   - Walk West to X=5: 12 - 5 = 7 Lefts to (5, 11).
+   - Walk North to Y=5: 11 - 5 = 6 Ups to (5, 5).
+   - Walk West to X=2: 5 - 2 = 3 Lefts to (2, 5).
+4. Sequence: UUUUUUUULLLLLLLUUUUUULLL.
 
 <hr>
