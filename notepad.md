@@ -6,6 +6,7 @@
 - Map markers for defeated trainers (e.g. ☠️) should ONLY be placed AFTER returning to the overworld, never during a battle.
 - If an item is not explicitly listed in the Game State Information sprite list, it DOES NOT EXIST.
 - NEVER use dead reckoning. ALWAYS read the Game State Player Position before making any navigational assumptions.
+- EXHAUSTIVE EXPLORATION: NEVER declare an area a dead end until you have physically bumped into the absolute furthest boundaries of the space. Walk the entire perimeter! Stopping short leads to massive routing failures.
 - Gen 1 PC menus (DEPOSIT, WITHDRAW, etc.) retain cursor memory.
 - Gen 1 Battle menus retain cursor memory! Reset the main menu cursor to FIGHT by pressing Up and Left before navigating.
 - Gen 1 Move menu cursor memory is ALWAYS retained between turns in the same battle, even when the opponent sends out a new Pokemon! It only resets at the start of a completely new encounter.
