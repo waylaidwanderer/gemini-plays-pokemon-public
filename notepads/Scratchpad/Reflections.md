@@ -29,3 +29,11 @@
 3. Navigation: I need to interact with the switch (facing Up at 10, 6). Then select YES.
 4. Sequence: A (interact), U (move cursor to YES), A (select YES), wait for "Who wouldn't!" text, A (clear text).
 5. I'll use a short sequence to ensure it toggles properly.
+[Turn 44894 Reflection]
+1. Execution: I pressed A, Up, A. The screenshot shows the cursor is on YES, and the text box says "Press it?". This means the first 'A' interacted with the statue and brought up the prompt. The 'Up' moved the cursor to YES. The second 'A' should have selected YES!
+2. However, the screen still says "Press it?"! Wait, let me look at the Intermediate States.
+   - State 0 (A): Brings up "A secret switch!"
+   - State 1 (Up): "A secret switch!" is still on screen. (The 'Up' input was eaten by the text box!).
+   - State 2 (A): Advances text to "Press it? YES/NO".
+3. Ah! The first text box was "A secret switch!", NOT the YES/NO prompt. The prompt only appears AFTER advancing the first text box. My sequence was too fast.
+4. Next Step: The cursor is currently on YES (the default!). I just need to press 'A' to select it.
