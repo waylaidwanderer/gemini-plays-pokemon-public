@@ -1521,5 +1521,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 2. Goal: Jump down the pit at (16, 14) or (17, 14) to reach 1F, then proceed to B1F.
 3. Navigation: The pit is just 2 tiles south of my current position.
 4. Sequence: D D.
+[Turn 44898 Reflection]
+1. Execution: Reached the pit at (16, 14) and encountered a Vulpix.
+2. Goal: Run from Vulpix, clear text, and step Down into the pit to fall to 1F.
+3. Navigation: A (clear text), D (jump down pit).
 
 <hr>
