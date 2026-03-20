@@ -1492,9 +1492,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - [3F Pit Constraint]: Empirically verified that the 3F pit (Y=13/14) does NOT have a left-side drop-off. Tiles (12, 13) through (15, 13) are solid walls. The ONLY way down is the right side at (16, 14).
 - Macro Rule: Keep movement macros short (1-5 steps) to prevent wild encounters from corrupting positional awareness.
 
-[Hypotheses]
-- Missing B1F Stairs Location: 1F East Wing is a dead end. 1F NW corner was previously explored (switch at 2, 5). The remaining unexplored vertical transition is the 3F East Wing! Previous notes state: "On 3F, eastern section... Path continues south of a wall at X=22. Found an item ball at (25, 5)." This southern path might lead to a hidden pit that drops down into the B1F East Wing!
-
 [B1F Northern Corridor Revelation]
 - There is a completely open East-West corridor at Y=14 spanning from X=9 to at least X=15!
 - The wall at X=13 only starts at Y=16 and goes South.
