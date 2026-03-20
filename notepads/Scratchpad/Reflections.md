@@ -211,3 +211,34 @@
 1. Execution: The cursor moved Down twice and I pressed A. I am now in Dugtrio's sub-menu.
 2. Goal: Select DIG.
 3. Navigation: Dig is the Field Move, so it should be at the very top of the list (index 1). The cursor should be on it by default when opening the sub-menu. I just need to press A.
+[Turn 44917 Reflection]
+1. Execution: The cursor in the Party Menu is on DIG. I pressed A.
+2. The `IntermediateStates` show me pressing A and returning to the overworld! Wait. The current screen is still the overworld at B1F (21, 26).
+3. Error Analysis: Why did `A` in the sub-menu not trigger Dig?
+   - Let's look at the `IntermediateStates` for Turn 44916.
+   - State 0: A (tool) -> overworld.
+   - Ah! When you select a Pokémon in the Party Menu, if the Field Move isn't usable here (or if it's not a field move), it might just exit or do nothing.
+   - Wait, can you Dig out of the Pokemon Mansion?
+   - Let's check my notes: "[Turn 44104] Used Dig to escape from Pokemon Mansion".
+   - Yes, I can Dig out.
+   - Why didn't it work? Let me trace my inputs.
+   - Turn 44912: Overworld. Pressed `Start`. Menu opens.
+   - Turn 44913: Start menu. Cursor on ITEM. Pressed `Up, A`. Cursor moves to POKéMON, selects it. Party menu opens.
+   - Turn 44914: Party menu. Cursor on HYDRO (slot 1). Pressed `D D A`. Cursor moves to DUGTRIO (slot 3), selects it. Sub-menu opens.
+   - Turn 44915: Sub-menu open. Cursor on DIG. Pressed `A`.
+   - Turn 44916: ? The `IntermediateStates` for Turn 44915 show:
+     - State 0: Down (tool) -> overworld
+     - State 1: Down (tool) -> overworld
+     - State 2: A (tool) -> overworld
+   - Wait! The inputs for Turn 44915 were `Down, Down, A`?! I used the `use_hm_field` tool in Turn 44909, which queued `Down, Down, A, sleep 500, A, sleep 2000, A`.
+   - Let's look at the execution timeline.
+   - Turn 44910: Used `use_hm_field`. It pressed `Down, Down, A`... but I was in the overworld! So it just walked my character Down twice and pressed A!
+   - Turn 44911: I realized the mistake and pressed `Start`.
+   - Turn 44913: I pressed `Up, A` to open Party menu.
+   - Turn 44914: I pressed `D D A` to select Dugtrio.
+   - Turn 44915: I pressed `A`. This selected DIG. The text "DUGTRIO used DIG!" should appear, followed by a warp.
+   - But Turn 44916 `IntermediateStates` show me pressing `A` and being in the overworld.
+   - Let me look at the screen for 44916. I am in the overworld.
+   - My inputs must have been eaten by the warp animation, or Dig failed? If Dig failed, it would say "You can't use that here!" and keep me in the menu. Since I am in the overworld, Dig probably triggered but the warp hasn't happened yet, or it failed silently.
+   - Let me try selecting Dig manually again from scratch to be absolutely sure.
+4. Sequence: Start.
