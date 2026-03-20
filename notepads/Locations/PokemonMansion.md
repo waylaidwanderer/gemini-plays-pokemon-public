@@ -71,7 +71,7 @@
 - Switch at (18, 25) CLOSED the electronic doors at (16, 16)/(17, 16).
 - There are VERTICAL electronic doors at X=13 (Y=22 and Y=23). These are CLOSED in State B, blocking access to the western half of B1F. They must be OPENED by toggling a switch.
 - Found another switch statue at (7, 14)/(7, 15) in the western area.
-- Found electronic doors at (20, 17) and (21, 17) on B1F.
+- The path West from the enclosed 1F stairs area is at Y=14. X=20 is a solid wall from Y=15 downwards.
 - There is a vertical wall at X=24 starting from Y=19 extending South.
 
 [Global Door States]
