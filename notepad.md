@@ -1467,7 +1467,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Rubble at Y=8 blocks X=8 to X=11 on 2F West. Path South is at X=7 or X=6.
 - Rubble at Y=16 blocks X=5 to X=7. The path South is only open from X=1 to X=4.
 - Solid wall at Y=18 blocks X=1 to X=7. The West Wing North of Y=18 is a VERIFIED DEAD END!
-- Corridor South of (16, 7) leads to a glowing-eye switch statue at (15, 10) facing East. Pressing this switch from (16, 10) toggles the Mansion state. I toggled it to STATE A in Turn 43952.
+- I failed to toggle the switch in Turn 43947 because I didn't face it properly. The Mansion is STILL IN STATE B.
+- To open the 1F East doors at (24, 13), the Mansion MUST be in STATE A.
+- I must return to 2F and properly toggle the switch at (15, 10).
 - The West Wing North of Y=9 is a dead end containing only the switch statue at (2, 4) and the one-way drop-down stairs at (6, 1). The wall at Y=9 is solid from X=0 to X=9.
 - 2F North-West doors at (9, 4)/(9, 5) are OPEN in State A, and CLOSED in State B. My previous note about (16, 5) being doors was a hallucination; they are just solid walls.
 - The 2F West Wing and East Wing can also be connected by crossing the X=9 pillar gap at Y=11.
