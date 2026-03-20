@@ -37,3 +37,9 @@
    - State 2 (A): Advances text to "Press it? YES/NO".
 3. Ah! The first text box was "A secret switch!", NOT the YES/NO prompt. The prompt only appears AFTER advancing the first text box. My sequence was too fast.
 4. Next Step: The cursor is currently on YES (the default!). I just need to press 'A' to select it.
+[Turn 44895 Reflection]
+1. Execution: Checked the screen. "Who wouldn't?" is displayed. The switch has been toggled! State B is now active.
+2. Goal: Reach the 3F pit at (16, 14).
+3. Navigation: Clear the text, then walk to the pit.
+   - Path: A (clear text). RRRRR (to 15, 6). DDDDDDD (to 15, 13). R (to 16, 13). D (jump down pit at 16, 14).
+   - Sequence: A R R R R R D D D D D D D R D.
