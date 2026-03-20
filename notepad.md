@@ -1512,5 +1512,12 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
    - Where does 1F enclosed area go? It connects to the 3F pit.
    - Can I walk OUT of the 1F enclosed area? Yes! The 1F enclosed area has a switch at 1F (16, 7)/(17, 7) that opens doors. But wait, I'm already on B1F. If I go UP to 1F, I can walk out.
    - Let's go back UP the stairs at (23, 22). I don't need Dig!
+[Turn 44920 Reflection]
+1. Execution: Pressed B. The Start Menu is closed. I am back in the overworld at B1F (21, 26).
+2. Goal: Walk out of the Pokemon Mansion and rethink my strategy.
+3. Navigation:
+   - I am in the sealed box at B1F. The stairs UP to 1F are at (23, 22).
+   - From (21, 26), I need to walk East to X=23, then North to Y=22.
+   - Path: R R U U U U.
 
 <hr>
