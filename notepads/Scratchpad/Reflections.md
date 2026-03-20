@@ -54,3 +54,7 @@
 4. Custom Tools: Standard movement and battle tools are sufficient.
 5. Goal Clarity: Primary: Secret Key. Secondary: Explore 3F East Wing for a pit or stairs.
 6. Error Analysis: I've learned that visual cues like black lines can be shadows rather than drop-down ledges. I must always verify with collision testing if possible, but more importantly, I shouldn't rely solely on visual interpretation of a single tile to base an entire routing hypothesis on.
+[Turn 44850 Reflection]
+1. Execution: Bumping into the doors at (15, 4) revealed they are CLOSED (TYPE_a83b), while the southern doors at (15, 10) are OPEN. This means the Mansion is currently in State B.
+2. Error Analysis: My Turn 44846 Reflection stated I had toggled the switch to State A, but I actually toggled it from State A to State B. I need State A to open the 3F Northern doors.
+3. Next Step: Return to the switch at (10, 6) and toggle it again to restore State A, allowing access to the 3F East Wing.
