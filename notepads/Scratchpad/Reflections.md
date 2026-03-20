@@ -174,3 +174,25 @@
    - Walk North to Y=5: 6 Ups to (5, 5).
    - Walk West to X=2: 3 Lefts to (2, 5).
 4. Sequence: UUUUUUUUUUUUULLLLLLLLLLLUUUUUULLL.
+[Turn 44931 Reflection]
+1. Execution: The movement UUUUUUUUUUUUULLLLLLLLLLLUUUUUULLL was aborted at button 25 (Left). I am at 1F (12, 18).
+2. Error Analysis: Let's trace the sequence from (16, 24).
+   - 13 Ups: Arrived at (16, 11).
+   - 11 Lefts: Wait. Button 25 was aborted. 13 + 11 = 24. Button 25 was the 12th Left? Or was it an Up?
+   - Let's look at the intermediate states.
+   - State 0: Up (16, 23)
+   - State 13: Left (15, 11) - Wait, state 13 is the 14th button.
+   - Actually, let me just look at the screen. I am at (12, 18).
+   - How did I get to (12, 18) by pressing Up and Left from (16, 24)?!
+   - Wait. If I pressed Up from (16, 24), I would be walking up the X=16 hallway.
+   - Let's look at the screen for Turn 44930. The NPC (Burglar) at (17, 17) moved! "SPRITE_a350 appeared at: (17, 17)".
+   - And wait... the tiles at Y=18 (X=14 to X=17) are TYPE_2889 (solid rubble)!
+   - I completely hallucinated the path North from (16, 24). The Central Hallway is BLOCKED at Y=18 by rubble!
+   - I cannot walk North from (16, 24) to Y=11.
+3. Strategy Pivot: How do I get out of the southern half of 1F?
+   - I am currently at (12, 18).
+   - The path North is blocked at Y=18 (X=14 to 17).
+   - What about X=12? I am at (12, 18). The path North at X=12 is clear up to Y=14! Let's check the screen. Yes, (12, 17), (12, 16), (12, 15), (12, 14) are floor.
+   - What about Y=14? (12, 14) is floor. Can I go North from there? The top of my screen cuts off at Y=14.
+   - Let's walk North along X=12 and see how far I can go.
+4. Sequence: U U U U.
