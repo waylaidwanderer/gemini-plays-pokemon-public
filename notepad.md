@@ -1387,7 +1387,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Koffing
 
 [1F Points of Interest]
-- Central Hallway runs North from the entrance along X=5.
+- 1F Central Hallway runs North from the entrance along X=5.
+- The 1F switch is located at (2, 5) in the Northwest! It is a statue.
 - Green pillars line X=3 and X=8, with 1-tile gaps.
 - A solid horizontal wall at Y=9 blocks the Central Hallway and West Wing.
 - East wing is separated by a vertical wall at X=13, which has a gap at Y=1 ONLY. (There is NO gap at Y=2 or Y=10/Y=11, it is a solid wall).
