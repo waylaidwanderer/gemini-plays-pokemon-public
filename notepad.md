@@ -1526,5 +1526,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 1. Execution: Bumping into the doors at (15, 4) revealed they are CLOSED (TYPE_a83b), while the southern doors at (15, 10) are OPEN. This means the Mansion is currently in State B.
 2. Error Analysis: My Turn 44846 Reflection stated I had toggled the switch to State A, but I actually toggled it from State A to State B. I need State A to open the 3F Northern doors.
 3. Next Step: Return to the switch at (10, 6) and toggle it again to restore State A, allowing access to the 3F East Wing.
+[Turn 44858 Reflection]
+1. Execution: Successfully entered 3F East Wing. Now navigating around the table to reach the far East side (X=25) where I previously saw an item ball. I need to exhaustively explore South of X=22.
+2. Goal: Find a pit or stairs in the 3F East Wing that could lead to the isolated B1F NW switch area, or the mysterious 2F stairs.
 
 <hr>
