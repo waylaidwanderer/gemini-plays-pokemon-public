@@ -73,3 +73,6 @@
 [Turn 44864 Reflection]
 1. Execution: Ran from Vulpix. Clearing text box.
 2. Goal: Return to 3F Central (13, 9) and explore 3F SW.
+[Turn 44865 Reflection]
+1. Execution: Heading West from the far East side of 3F. I am at (24, 4) and need to reach the Central Area at (13, 9).
+2. Navigation: LLLLLLLLLDDDDD (9 Left, 5 Down) to reach the gap at X=15, Y=9. Then I will be back in the Central Area.
