@@ -202,3 +202,8 @@
 3. Navigation: The Party menu will open. Dugtrio is slot 3. The Party menu has cursor memory.
 4. I MUST wait to see where the cursor is before pressing anything in the Party menu!
 5. Sequence: A (to select POKéMON and open Party Menu).
+[Turn 44914 Reflection]
+1. Execution: Pressed A. The Party menu opened. The cursor is currently on HYDRO (index 1).
+2. Goal: Select DUGTRIO (index 3), then DIG.
+3. Navigation: Move cursor Down twice to DUGTRIO, then press A to open his sub-menu.
+4. Sequence: D D A.
