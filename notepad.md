@@ -1547,5 +1547,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [Turn 44866 Reflection]
 1. Execution: My previous macro failed because the 3F East Wing has a central block of walls at (18, 4) to (19, 5). I am currently at (19, 7).
 2. Navigation: I will walk Left to the X=17 hallway, Up to Y=4, and Left through the doors at (15, 4). Once in Central at (13, 4), I will walk South to Y=9, then West into the unexplored 3F SW area to find the missing pit to B1F NW!
+[Turn 44868 Reflection]
+1. Execution: Ran from Grimer. Text box is on screen.
+2. Navigation: I will press A to clear the text, then walk LLLLDDDDDLL to return to 3F Central (13, 9) and explore West towards the 3F SW area.
 
 <hr>
