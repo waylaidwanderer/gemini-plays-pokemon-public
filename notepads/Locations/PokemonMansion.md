@@ -114,8 +114,9 @@
 - 3F East side (X=16, 17) is blocked from going South by a solid horizontal wall of rubble at Y=9. The pit is South of Y=11. So you CANNOT reach the pit from the East side via the doors at (15, 4). This path is a dead end.
 - 3F West Wing (West of X=9) is a VERIFIED DEAD END. The path South is completely blocked by rubble at Y=6. No pit here.
 [Master Puzzle Solution (Revised)]
-1. Ensure Mansion is in STATE A (1F switch at 2,5 or B1F switch at 18,25).
-2. 1F: Take main stairs at (5,10) to 2F.
-3. 2F: Navigate to 3F stairs at (6,1) via open NW doors at (9,4).
-4. 3F West Wing: Explore for a hidden pit! Drop down to the isolated B1F NW area.
-5. B1F NW Area: Retrieve Secret Key!
+1. Reach 3F main switch at (10,4). Toggle to STATE B.
+2. 3F: Access pit at (16,14) via open South doors at (15,10). Jump down!
+3. 1F: Land in enclosed area. Take stairs at (23,22) to B1F.
+4. B1F: Toggle switch at (18,25) to STATE A.
+5. B1F: Vertical doors at X=13 open. Walk West through them to the SW area.
+6. B1F: Walk North from the SW area, physically testing the Y=17 boundary for a gap to reach the NW area and the Secret Key!
