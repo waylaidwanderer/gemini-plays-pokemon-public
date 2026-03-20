@@ -1490,7 +1490,13 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - State A: Vertical doors at X=13 are OPEN.
 - Puzzle Solution: From the Central Switch at (18, 25), toggle to State A. This OPENS the path West at Y=22/23. Walk North to Y=14, West to X=13, then South through the X=13 doors into the West Wing. Then walk North to the gap at (10, 17) to access the Secret Key area!
 - [Definitive B1F Discovery]: The wall at X=25 is solid from Y=8 down to at least Y=15, completely separating the Central area from the far East side where a Burglar stands at (27, 11). Furthermore, the table at Y=8 is empirically proven to be completely solid from X=10 to X=25 (Tested Turns 45234-45260).
-- [Master Plan Revision 8]: The NW enclosure (X=1..8, Y=9..16) is COMPLETELY sealed by solid walls in State A. The entrance MUST be electronic doors that open in State B! These doors are likely on the X=9 wall (Y=14..16) or the Y=17 wall. Crucially, I can bypass the X=13 vertical doors entirely by using the permanent gap at (9, 18)! Plan: Toggle central switch at (18, 25) to State B. Walk North to Y=14, West to X=10, then search the X=9 wall. If no doors, walk South to Y=18, West through the gap to X=5, and search the Y=17 wall!
+- [Master Plan Revision 9]: The NW enclosure (X=1..8, Y=9..16) is a RED HERRING. It is completely sealed. The Secret Key MUST be in the unexplored B1F East Wing (where the Burglar is at 27, 11). To reach it, I must drop from the 3F East Wing!
+Plan:
+1. Toggle central switch at B1F (18, 25) to STATE A.
+2. Use Dig to exit the Mansion.
+3. Re-enter 1F, walk to 2F.
+4. Walk through open 2F NW doors at (9, 4) to reach 3F stairs at (6, 1).
+5. On 3F, walk East through open 3F Northern doors at Y=5 to explore the 3F East Wing!
 - [3F Pit Constraint]: Empirically verified that the 3F pit (Y=13/14) does NOT have a left-side drop-off. Tiles (12, 13) through (15, 13) are solid walls. The ONLY way down is the right side at (16, 14).
 - Macro Rule: Keep movement macros short (1-5 steps) to prevent wild encounters from corrupting positional awareness.
 
