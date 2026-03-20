@@ -45,7 +45,7 @@
 - In the East wing of 2F, there is a solid vertical wall at X=11 extending from at least Y=17 to Y=25.
 - In the Northeast area, the brown blocks at (24, 8)/(25, 8) are just a table/solid obstacle, NOT stairs!
 - The 2F East Wing North (accessed via the 1-tile gap at 22, 3) is a dead end! It contains Calcium at (28, 5). The path South is completely blocked by a solid line of tables at Y=8 (from X=21 to X=28).
-- The stairs at 2F (25, 14) remain a mystery. They cannot be accessed from 1F East Wing South (verified empty) or 2F East Wing North (blocked by tables).
+- The stairs at 2F (25, 14) remain a mystery, inaccessible from known 1F/2F paths (see Verified Dead Ends).
 
 [3F Points of Interest]
 - Arrived from 2F via stairs (location unknown, likely South-East).
