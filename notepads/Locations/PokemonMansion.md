@@ -108,6 +108,6 @@
 - The 2F Central doors at (20, 17) lead to a dead-end 4x3 room.
 - The stairs at 1F (6, 10)/(7, 10) lead to an isolated 3F room containing only a Burglar and a Diary. It is a dead end. The room is walled off on the East side by a solid wall at X=11 (Y=8 to Y=15), preventing access to the 3F pit.
 - VERIFIED: The X=12 gap on 1F is a dead end blocked by a desk at Y=7. Do not attempt to bypass the Y=9 rubble here.
-- The 2F area South of the Northern doors at (18, 8) is a CONFIRMED DEAD END. It ends at Y=15, blocked by walls and rubble at X=22. Therefore, the stairs at 2F (25, 14) are completely isolated from the rest of 2F and MUST be accessed from 1F.
+- The 2F area South of the Northern doors at (18, 8) is a CONFIRMED DEAD END. It ends at Y=15, blocked by walls and rubble at X=22.
 - 1F East Wing South is a completely empty dead end down to Y=27. There are NO stairs to 2F here.
 - 1F Central Doors at (16, 7) lead to a dead-end hallway from Y=8 to Y=13. It is blocked at Y=13 by a solid wall. It DOES NOT connect to the 3F pit landing area (which is at 16, 14).
