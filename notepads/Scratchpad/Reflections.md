@@ -51,3 +51,15 @@
    - I am in the sealed box at B1F. The stairs UP to 1F are at (23, 22).
    - From (21, 26), I need to walk East to X=23, then North to Y=22.
    - Path: R R U U U U.
+[Turn 44921 Reflection]
+1. Execution: Walked R R U U U U from B1F (21, 26). I have arrived at 1F (21, 24)!
+2. Analysis: The stairs at B1F (23, 22) lead to 1F (23, 22), but my Game State says I am at 1F (21, 24). Wait, I am standing on the floor in the enclosed area of 1F. The stairs back down to B1F are at (23, 22).
+3. Goal: Escape this enclosed area and find the TRUE stairs to B1F.
+4. Navigation: The enclosed area on 1F (where the 3F pit drops you) is bounded by walls. Let's look at the screen. I am at (21, 24).
+   - I see the 1F Central Doors at (16, 25)/(17, 25)? No, the doors I noted were at (16, 7)/(17, 7).
+   - Let's look at the screen at (21, 24). There is a 1-tile wide exit to the West at Y=25! The tiles at (20, 25), (19, 25), (18, 25), (17, 25) are TYPE_3fe2 (floor).
+   - Wait, if I walk West along Y=25, where does it lead? To the Central Hallway!
+   - Let's trace: From (21, 24), walk Down to (21, 25), then Left to (17, 25), then Left to (16, 25) which is the Central Hallway.
+   - Let's verify this. D L L L L L.
+5. Wait, I thought this area was a sealed trap? I previously used Dig to escape. If I can just WALK out... then it's not a trap, it's a one-way path back to the entrance!
+6. Sequence: D L L L L L.
