@@ -1516,5 +1516,68 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 4. Navigation:
    - I am inside the Lab at Map 0_167 (2, 7).
    - Exit the Lab: D D.
+[Turn 44977 Reflection]
+1. Execution: The movement `DDRRRRRRRRUUUUUUUULLLLLLLLU` aborted at button 27 (Up). I am at Cinnabar Island (6, 11).
+2. Error Analysis: Wait. My macro was `UUUUUUU` in Turn 44969. Where did `DDRRRRRRRRUUUUUUUULLLLLLLLU` come from?
+   - Ah! Look at Turn 44975! I pressed `DDRRRRRRRRUUUUUUUULLLLLLLLU`!
+   - I tried to walk from the Pokemon Lab exit to the Mansion. But wait...
+   - I was at (6, 10). The macro started with `DD`!
+   - `DD` from (6, 10) takes me back to (6, 12).
+   - Then `RRRRRRRR` (8 Rights) to (14, 12).
+   - Then `UUUUUUUU` (8 Ups) to (14, 4).
+   - Then `LLLLLLLL` (8 Lefts) to (6, 4).
+   - Then `U` to (6, 3).
+   - WHY did it abort at button 27?
+   - Let's look at the Intermediate States for Turn 44976.
+   - State 0: Down -> (6, 11)
+   - State 1: Down -> (6, 12)
+   - State 2: Right -> (7, 12)
+   - State 3: Right -> (8, 12)
+   - State 4: Right -> (9, 12)
+   - State 5: Right -> (10, 12) (Wait, isn't there a sign at 10, 12? Let me look at the screen for 44976 State 5. No, (10, 12) is TYPE_3fe2 floor).
+   - State 6: Right -> (11, 12)
+   - State 7: Right -> (12, 12)
+   - State 8: Right -> (13, 12)
+   - State 9: Right -> BUMP!
+   - Wait, my character bumped into a solid object at State 9?
+   - Look at State 9: Right (13, 12). The tile to the right at (14, 12) is TYPE_4e8c (Water)!
+   - Cinnabar Island is bounded by water on the East side!
+   - The path East is blocked.
+   - Wait, the sequence continued after bumping!
+   - State 10-17: Up 8 times.
+   - State 10: Up -> (13, 11)
+   - State 11: Up -> (13, 10)
+   - State 12: Up -> (13, 9)
+   - State 13: Up -> (13, 8)
+   - State 14: Up -> (13, 7)
+   - State 15: Up -> (13, 6)
+   - State 16: Up -> (13, 5)
+   - State 17: Up -> (13, 4)
+   - State 18-25: Left 8 times.
+   - State 18: Left -> (12, 4)
+   - State 19: Left -> (11, 4)
+   - State 20: Left -> (10, 4)
+   - State 21: Left -> (9, 4)
+   - State 22: Left -> (8, 4)
+   - State 23: Left -> (7, 4)
+   - State 24: Left -> (6, 4)
+   - State 25: Left -> (5, 4)
+   - State 26: Up -> BUMP!
+   - At State 25, I was at (5, 4). The tile above (5, 3) is a solid statue TYPE_2889!
+   - Wait, why was I at (5, 4) instead of (6, 4)?
+   - Because my starting X was 6. I went Right 8 times. If I didn't bump, I would be at 14. But I bumped at 13. So my X became 13.
+   - Then I went Left 8 times. 13 - 8 = 5.
+   - So I ended up at (5, 4)!
+   - And the entrance to the Mansion is at (6, 3).
+   - This massive detour was completely unnecessary!
+   - Look at the screen for Turn 44976. I am currently at (6, 11).
+   - The entrance to the Mansion is at (6, 3).
+   - The path straight North from (6, 11) IS CLEAR!
+   - I can just walk Up 8 times!
+3. Goal: Enter the Pokemon Mansion.
+4. Navigation:
+   - I am at (6, 11).
+   - The entrance is at (6, 3).
+   - Sequence: UUUUUUUU.
 
 <hr>
