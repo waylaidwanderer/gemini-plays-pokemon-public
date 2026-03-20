@@ -6,7 +6,7 @@
 - State A: Vertical doors at X=13 are OPEN.
 - Puzzle Solution: From the Central Switch at (18, 25), toggle to State A. This OPENS the path West at Y=22/23. Walk North to Y=14, West to X=13, then South through the X=13 doors into the West Wing. Then walk North to the gap at (10, 17) to access the Secret Key area!
 - [Definitive B1F Discovery]: The wall at X=25 is solid from Y=8 down to at least Y=15, completely separating the Central area from the far East side where a Burglar stands at (27, 11). Furthermore, the table at Y=8 is empirically proven to be completely solid from X=10 to X=25 (Tested Turns 45234-45260).
-- [Master Plan Revision 4]: The NW enclosure (with the switch at 7, 15) is completely walled off on its East and South sides (X=9 wall, Y=17 table). However, it might be open on its WEST side! I need to navigate to the SW area (via the 10,17 gap), walk to the far West wall (X=1), and walk NORTH to see if I can enter the enclosure from behind.
+- [Master Plan Revision 5]: I have NEVER been inside the NW enclosure! The entrance MUST be a gap in the vertical wall at X=9, somewhere North of Y=14. I will walk North along the X=10 corridor and test the left wall at every step (Y=13, Y=12, Y=11, etc.) until I find the entrance to the switch!
 - [3F Pit Constraint]: Empirically verified that the 3F pit (Y=13/14) does NOT have a left-side drop-off. Tiles (12, 13) through (15, 13) are solid walls. The ONLY way down is the right side at (16, 14).
 - Macro Rule: Keep movement macros short (1-5 steps) to prevent wild encounters from corrupting positional awareness.
 
