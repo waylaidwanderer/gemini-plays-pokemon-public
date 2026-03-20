@@ -1489,5 +1489,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - State A: Vertical doors at X=13 are OPEN. (There are NO horizontal doors at 16,16. That was a hallucination).
 - Puzzle Solution: From the Central Switch at (18, 25), toggle to State A. This OPENS the path West at Y=22/23. Walk North to Y=14, West to X=13, then South through the X=13 doors into the West Wing. Then walk North to the gap at (10, 17) to access the Secret Key area!
 - Macro Rule: Keep movement macros short (1-5 steps) to prevent wild encounters from corrupting positional awareness.
+\n[Turn 45203] I am at (10, 11). Looking at the screen, I see electronic doors at (9, 7)! This must be the entrance to the (7, 15) switch enclosure. I am walking North to (10, 7) to check if they are open in State A.
 
 <hr>
