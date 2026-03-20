@@ -104,6 +104,7 @@
 - The 2F West Wing and East Wing can also be connected by crossing the X=9 pillar gap at Y=11.
 - VERIFIED DEAD END: The Northern hallway at Y=2 is blocked by a solid wall at X=9. You cannot cross to the West Wing here. You MUST cross via the gap at Y=11.
 [Verified Dead Ends]
+- The B1F South-West area (South of Y=22, West of X=13) is a complete dead end loop. It connects the gap at (10, 17) to the electronic doors at (13, 22) and contains no items or switches.
 - The 2F Central doors at (20, 17) lead to a dead-end 4x3 room.
 - The stairs at 1F (6, 10)/(7, 10) lead to an isolated 3F room containing only a Burglar and a Diary. It is a dead end. The room is walled off on the East side by a solid wall at X=11 (Y=8 to Y=15), preventing access to the 3F pit.
 - VERIFIED: The X=12 gap on 1F is OPEN at Y=7. You can bypass the Y=9 wall by walking South down X=12, then West.
