@@ -33,3 +33,18 @@
    - If the 3F East Wing is a dead end, where are the stairs at (21, 23)?
    - Ah! The stairs at (21, 23) must be on 1F or 2F!
    - Let's search my notes for "(21, 23)".
+[Turn 44974 Reflection]
+1. Execution: The movement UUUUUUU from (6, 10) was aborted because the screen changed to Map 0_167 (Cinnabar Gym/Lab).
+2. Error Analysis: Wait, the movement UUUUUUU *started* from (6, 10).
+   - I was at Cinnabar Island (6, 10).
+   - My previous macro was `DD` from inside the Lab at (2, 7).
+   - `DD` exited the Lab to (6, 10) on Cinnabar Island.
+   - Then my next macro was `UUUUUUU` to reach (6, 3).
+   - BUT the Lab door is at (6, 9)!
+   - If I am at (6, 10) and I press Up, I step onto (6, 9) and ENTER THE LAB AGAIN!
+   - This is the exact loop Overwatch warned me about! "You are trapped in an execution loop entering and exiting the Pokemon Lab. You exit the lab to (6, 10), but then you queue 'Up' to go North, which walks you right back into the Lab door at (6, 9)."
+   - Ah! I must step Left or Right from (6, 10) to go AROUND the Lab!
+3. Goal: Exit the Lab again, then walk around it.
+4. Navigation:
+   - I am inside the Lab at Map 0_167 (2, 7).
+   - Exit the Lab: D D.
