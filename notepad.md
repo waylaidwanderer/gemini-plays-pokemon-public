@@ -1511,5 +1511,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [Turn 44824 Reflection]
 1. Execution: Trying to press the 3F switch. Interacting from the side (facing Left) at (11, 4) and (11, 5) failed.
 2. Gen 1 Mechanic: Statues must be interacted with from the FRONT (standing below the bottom tile, facing Up). I will navigate to (10, 6), face Up, and press A.
+[Turn 44837 Reflection]
+1. Execution: Walked down to the 3F pit. Re-verified that the pit's north edge (Y=13) and west edge (X=11) are solid walls. It is IMPOSSIBLE to jump into the left side of the pit (X=12 to X=15) from 3F. You can only jump in from the east side (X=16/17), which drops you to 1F.
+2. New Hypothesis: The 3F East Wing! I previously noted that X=16/17 is blocked at Y=9, but I never fully explored the far-East side (X=18+). I found an item at (25, 5), maybe there is a path South over there leading to another pit or stairs?
+3. Next Step: Return to the 3F switch at (10, 5) and toggle it to State A to open the 3F Northern doors at (15, 4). Then explore the 3F East Wing.
 
 <hr>
