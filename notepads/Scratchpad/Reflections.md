@@ -57,3 +57,13 @@
 1. Execution: Reached the pit at (16, 14) and encountered a Vulpix.
 2. Goal: Run from Vulpix, clear text, and step Down into the pit to fall to 1F.
 3. Navigation: A (clear text), D (jump down pit).
+[Turn 44899 Reflection]
+1. Execution: Cleared the Vulpix encounter text.
+2. Goal: Jump down the pit at (16, 14) / (17, 14).
+3. Navigation: I am standing on (16, 14) right now! Wait, the pit is *at* (16, 14). Let me check the screen. The tiles at Y=14 are indeed the pit (TYPE_21ec). I must step Down to fall in.
+4. Sequence: A (to clear "Got away safely!"), D.
+[Turn 44900 Reflection]
+1. Execution: Dropped down the pit and arrived at 1F (16, 14).
+2. Goal: Reach the stairs to B1F at (21, 23).
+3. Navigation: The path East (X=18) and South (Y=18) from here appears blocked by walls and pillars. However, looking at the grid, the tiles at X=12 and X=13 are floor! I can walk West to X=13, then South to bypass the pillars at Y=18.
+4. Sequence: L L L D D D D.
