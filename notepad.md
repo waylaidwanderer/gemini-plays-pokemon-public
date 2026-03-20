@@ -1499,5 +1499,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - There is a completely open East-West corridor at Y=14 spanning from X=9 to at least X=15!
 - The wall at X=13 only starts at Y=16 and goes South.
 - Therefore, the electronic doors at X=13 (Y=22/23) only block the Southern path between the Central and West areas. The Northern path at Y=14 is always open!
+- [B1F West Wing Layout]: The vertical wall at X=9 ends at Y=17! The path at Y=18 is completely open, allowing easy access to the western half of B1F from the central area. The area North of Y=17 (where the 7,15 switch is) might still be blocked by the Y=17 table, but I am exploring the southern part of the West Wing now.
 
 <hr>
