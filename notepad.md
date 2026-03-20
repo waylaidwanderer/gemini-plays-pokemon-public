@@ -1561,5 +1561,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 1. Execution: Ran from Grimer. Text box is on screen.
 2. Navigation: The statue at (10, 4)/(10, 5) blocks the path West. The tiles above me at (11, 4) might also be blocked since my previous upward macro failed. I will route East to (13, 5), North to (13, 2), then West to the stairs at (6, 1).
 3. Sequence: A R R U U U L L L L L L L U.
+[Turn 44875 Reflection]
+1. Execution: Ran from Grimer again. I am currently at (11, 5).
+2. Navigation: I am blocked by the statue at (10, 5) from moving West directly. I will move East, North, then West to reach the stairs at (6, 1).
+3. Sequence: A (to clear text), R R (to 13, 5), U U U (to 13, 2), L L L L L L L (to 6, 2), U (to 6, 1).
 
 <hr>
