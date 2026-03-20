@@ -47,3 +47,10 @@
 1. Execution: Walked down to the 3F pit. Re-verified that the pit's north edge (Y=13) and west edge (X=11) are solid walls. It is IMPOSSIBLE to jump into the left side of the pit (X=12 to X=15) from 3F. You can only jump in from the east side (X=16/17), which drops you to 1F.
 2. New Hypothesis: The 3F East Wing! I previously noted that X=16/17 is blocked at Y=9, but I never fully explored the far-East side (X=18+). I found an item at (25, 5), maybe there is a path South over there leading to another pit or stairs?
 3. Next Step: Return to the 3F switch at (10, 5) and toggle it to State A to open the 3F Northern doors at (15, 4). Then explore the 3F East Wing.
+[Turn 44846 Reflection]
+1. Execution: Successfully toggled 3F switch to State A and heading East through the doors at X=15 to explore the 3F East Wing.
+2. Notepad Hygiene: Updated the hypothesis for B1F NW to focus on the 3F East Wing or unexplored eastern areas, since the X=12 left-pit jump and Y=6 rubble gaps were both proven false by empirical bumping.
+3. Map Hygiene: Current markers are fine.
+4. Custom Tools: Standard movement and battle tools are sufficient.
+5. Goal Clarity: Primary: Secret Key. Secondary: Explore 3F East Wing for a pit or stairs.
+6. Error Analysis: I've learned that visual cues like black lines can be shadows rather than drop-down ledges. I must always verify with collision testing if possible, but more importantly, I shouldn't rely solely on visual interpretation of a single tile to base an entire routing hypothesis on.
