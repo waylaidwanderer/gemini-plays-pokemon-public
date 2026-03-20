@@ -1,8 +1,13 @@
 [Master Plan to Reach 3F Pit and B1F]
-1. Overwatch Agent confirmed Mansion IS in State B. Doors at (18, 8) are OPEN.
-2. My previous bumps were at the wall at (17, 10), not the doors. I must walk down to Y=11 before turning West.
-3. Navigate to 2F (18, 6), walk DOWN to (18, 11), LEFT to (16, 11), and UP to (16, 10).
-4. Face LEFT and press A to hit the switch at (15, 10), select YES to toggle to State A.
-5. Once in State A, 1F East doors (24, 13) and 2F East doors (24, 13) are OPEN.
-6. Escape to 1F, navigate to East Wing via 1F (26, 27) Northward path (if needed) or via 2F Central to 2F East Wing through (24, 13).
-7. Reach 3F East Wing and jump down pit at (16, 14)!
+- [50-Turn Reflection]: 
+  - The Overwatch Agent incorrectly stated the doors at (18, 8) are open. The sprite `TYPE_a83b` is the CLOSED electronic door sprite. When doors are open, they appear as regular floor (`TYPE_3fe2`).
+  - The Mansion IS in State A.
+  - I do NOT need to toggle the state before jumping down the pit! 
+  - Once I reach B1F, I can use the switch at B1F (18, 24) to toggle the doors on that floor.
+[Execution]
+1. Return to 1F via the main stairs at (5, 10).
+2. On 1F, walk North to Y=3, East to X=26, then South to the stairs at (25, 14).
+3. Ascend to 2F East Wing, then to 3F East Wing.
+4. Jump down the pit at 3F (16, 14).
+5. Land on 1F (16, 14). Walk to stairs at (23, 22) and descend to B1F.
+6. Use switch at B1F (18, 24) to progress.
