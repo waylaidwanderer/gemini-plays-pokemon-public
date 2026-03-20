@@ -24,7 +24,7 @@
 - Closed electronic doors located at (16, 7)/(17, 7) blocking the path South. To bypass them, use the far-East hallway at X=23!
 - The glowing-eye statue at (15, 10)/(15, 11) is a red herring; it does not have a hidden switch.
 - The Northeast area (accessed via X=18) contains a diary at (18, 2) and CONNECTS to the East Wing via a gap at Y=3. Walk East to X=26 or X=27 to bypass the tables at Y=4, then South to explore the East Wing.
-- South-East corridor (X=18 to X=21, Y=12 to Y=15) is a dead end. The East Wing corridor (accessed via the doors at 24, 13) continues South of Y=18. (Previously hallucinated stairs at 25, 14).
+- South-East corridor (X=18 to X=21, Y=12 to Y=15) is a dead end. The East Wing corridor (accessed via the doors at 24, 13) continues South of Y=18.
 - 1F South-East doors are located at (26, 27) and (27, 27). These are closed in State A.
 - Found a regular statue at (27, 18) in the East Wing. It is NOT a switch. There is NO way to toggle states from within the 1F East Wing.
 - SW corridor (X=1/X=2) runs from Y=27 North to Y=10. It is a dead end containing a Burglar at (1, 14), and connects to the Central Hallway via a gap at (3, 11).
@@ -44,7 +44,6 @@
 - In the East wing of 2F, there is a solid vertical wall at X=11 extending from at least Y=17 to Y=25.
 - In the Northeast area, the brown blocks at (24, 8)/(25, 8) are just a table/solid obstacle, NOT stairs!
 - Stairs at (25, 14) are visible in the isolated East Wing! This East area is completely walled off from the rest of 2F by rubble at X=22 and Y=8. It must be accessed from 1F!
-- (Note: Previous notes about 2F doors at 24,13 / 26,27 / 20,17 were hallucinations copied from 1F and B1F).
 
 [3F Points of Interest]
 - Arrived from 2F via stairs (location unknown, likely South-East).
@@ -96,10 +95,9 @@
 - Rubble at Y=8 blocks X=8 to X=11 on 2F West. Path South is at X=7 or X=6.
 - Rubble at Y=16 blocks X=5 to X=7. The path South is only open from X=1 to X=4.
 - Solid wall at Y=18 blocks X=1 to X=7. The West Wing North of Y=18 is a VERIFIED DEAD END!
-- I failed to toggle the switch in Turn 43947 because I didn't face it properly, or I pressed it multiple times (Turn 43952, 43953). Every press toggles the state! The Mansion is currently in STATE B.
 - To open the 1F East doors at (24, 13), the Mansion MUST be in STATE A.
-- I must return to 2F and press the switch at (15, 10) EXACTLY ONCE to toggle to State A, then return.
-- The West Wing North of Y=9 is a dead end containing only the switch statue at (2, 4) and the one-way drop-down stairs at (6, 1). The wall at Y=9 is solid from X=0 to X=9.
+- I must return to 2F and press the glowing-eye switch at (15, 10) EXACTLY ONCE to toggle to State A, then return.
+- The West Wing North of Y=9 is a dead end containing only a REGULAR STATUE at (2, 4) and the one-way drop-down stairs at (6, 1). The wall at Y=9 is solid from X=0 to X=9.
 - 2F North-West doors at (9, 4)/(9, 5) are OPEN in State A, and CLOSED in State B. My previous note about (16, 5) being doors was a hallucination; they are just solid walls.
 - The 2F West Wing and East Wing can also be connected by crossing the X=9 pillar gap at Y=11.
 - VERIFIED DEAD END: The Northern hallway at Y=2 is blocked by a solid wall at X=9. You cannot cross to the West Wing here. You MUST cross via the gap at Y=11.
