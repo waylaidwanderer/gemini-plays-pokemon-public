@@ -73,3 +73,16 @@
    - Path: U U U U U U U U U U U U U U. (14 Ups to 16, 11).
    - Then West through the gap at (8, 11) to reach the stairs.
 5. Sequence: U U U U U U U U U U U U U U L L L L L L L L U.
+[Turn 44923 Reflection]
+1. Execution: My macro was aborted at the first Up! An encounter started immediately.
+2. Goal: Reach the 1F main stairs at (5, 10).
+3. Navigation: Run from Ponyta, clear text, then resume the path to the stairs.
+   - I am at 1F (16, 25).
+   - Path to (5, 10): UUUUUUUUUUUUUU (to 16, 11). LLLLLLLLL (to 7, 11). U (to 7, 10). L L (to 5, 10).
+   - Wait, my previous macro was `UUUUUUUUUUUUUULLLLLLLLU`. Let's re-verify the gap.
+   - At (16, 11), walking Left 8 times puts me at (8, 11).
+   - (8, 11) is the gap in the green pillars.
+   - From (8, 11), Left to (5, 11). That's 3 Lefts.
+   - Total Lefts: 8 + 3 = 11 Lefts.
+   - From (5, 11), Up to (5, 10).
+   - Corrected Path: 14 Ups (to 16, 11). 11 Lefts (to 5, 11). 1 Up (to 5, 10).
