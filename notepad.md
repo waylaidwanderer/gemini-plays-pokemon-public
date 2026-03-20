@@ -1500,5 +1500,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 \n[Turn 45247] Walking West along Y=18. The Y=17 table visually extends all the way to X=1. The SW corner is a dead end. Next step: use Dig to reset to 1F and search the 1F North-East area for the missing stairs to B1F East/North.
 \n[Turn 45248] I realized I got distracted in Turn 45237 and NEVER actually checked the Y=8 table for gaps! The open doors at (9, 6)/(9, 7) are North of this table. I must walk back to X=10, Y=9 and systematically bump North along the Y=8 table from X=10 to X=24 to find the gap. I am at (3, 18). Walking East to X=10 now.
 \n[Turn 45256] At (13, 9). The table at Y=8 is visually solid (TYPE_2889) from X=10 to at least X=15 based on the screen grid. I am continuing East and bumping North on every tile to ensure I don't miss a hidden gap.
+\n[Turn 45260] B1F Y=8 Table verification COMPLETE. I walked from X=10 to X=24. The table is solid TYPE_2889 the entire way, ending at a solid vertical wall at X=25. There is absolutely NO GAP to reach the northern section from the central area. The only logical remaining path to the NW enclosure and Secret Key is a second staircase from 1F that drops into the B1F North or East wing. I am using Dig to return to the 1F entrance and will meticulously search the 1F East Wing.
 
 <hr>
