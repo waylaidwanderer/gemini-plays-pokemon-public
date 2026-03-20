@@ -715,3 +715,10 @@
    - I am at (6, 10). The Mansion entrance is at (6, 3).
    - Walk North to Y=3: 10 - 3 = 7 Ups.
 4. Sequence: UUUUUUU.
+[Turn 44968 Reflection]
+1. Execution: Stepped Down twice and exited the Pokemon Lab. I am back at Cinnabar Island (6, 11).
+2. Goal: Enter Pokemon Mansion at (6, 3).
+3. Navigation:
+   - I am at (6, 11). The Mansion entrance is straight North at (6, 3).
+   - 11 - 3 = 8 Ups.
+4. Sequence: UUUUUUUU.
