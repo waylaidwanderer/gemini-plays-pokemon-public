@@ -1090,13 +1090,13 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 <h1><code>Scratchpad/Reflections</code></h1>
 
 [Master Plan to Reach 3F Pit and B1F]
-1. EMPIRICAL PROOF: In Turn 44176, I bumped into (18, 8) three times. The doors at (18, 8) are visually TYPE_a83b and physically solid. The Overwatch Agent is WRONG. The Mansion is in STATE A.
-2. Because State A is active, the switch at 2F (15, 10) is INACCESSIBLE from the North.
-3. I must find another switch to toggle to State B so I can open the (18, 8) doors.
-4. Go to 2F West Wing via the Y=11 gap.
-5. Check the stairs at 2F (7, 9) to see if they lead to the 3F switch at (10, 4).
-6. If not, check the statue at 2F (2, 5) to see if it is a switch.
-7. Once toggled to State B, walk East through (18, 8) to reach 2F East Wing!
+1. Overwatch Agent confirmed Mansion IS in State B. Doors at (18, 8) are OPEN.
+2. My previous bumps were at the wall at (17, 10), not the doors. I must walk down to Y=11 before turning West.
+3. Navigate to 2F (18, 6), walk DOWN to (18, 11), LEFT to (16, 11), and UP to (16, 10).
+4. Face LEFT and press A to hit the switch at (15, 10), select YES to toggle to State A.
+5. Once in State A, 1F East doors (24, 13) and 2F East doors (24, 13) are OPEN.
+6. Escape to 1F, navigate to East Wing via 1F (26, 27) Northward path (if needed) or via 2F Central to 2F East Wing through (24, 13).
+7. Reach 3F East Wing and jump down pit at (16, 14)!
 
 <hr>
 
