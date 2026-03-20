@@ -104,4 +104,4 @@
 [Verified Dead Ends]
 - The 2F Central doors at (20, 17) lead to a dead-end 4x3 room.
 - The stairs at 1F (6, 10)/(7, 10) lead to an isolated 3F room containing only a Burglar and a Diary. It is a dead end. The room is walled off on the East side by a solid wall at X=11 (Y=8 to Y=15), preventing access to the 3F pit.
-- The gap at X=12 on 1F Central Hallway is a dead end going North, blocked by a statue at (12, 7). You CANNOT reach the NE corridor from the Central Hallway.
+- The gap at X=12 on 1F Central Hallway is a literal dead-end pocket going North, bounded by desks at (11, 7)-(12, 7) and a wall at X=13. You CANNOT bypass it to reach the NE corridor or East Wing.
