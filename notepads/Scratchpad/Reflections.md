@@ -8,10 +8,6 @@
 - The Mansion is currently in STATE B.
 
 [New Plan to reach 3F Pit]
-1. From current position 2F (18, 8), walk South to (18, 11), West to (16, 11), Up to (16, 10).
-2. Face Left and press the switch at (15, 10) to toggle Mansion to STATE A.
-3. Walk South to (16, 11), then West through the pillar gap at (9, 11) all the way to (5, 11).
-4. Walk North to the main stairs at (5, 10) and go down to 1F.
 5. On 1F, walk South to (5, 11), East to (10, 11), then North along X=10 to Y=1.
 6. Walk East through the gap at X=13 to the Northeast area.
 7. Walk East to X=27 to bypass the tables, then South down the East Wing.
