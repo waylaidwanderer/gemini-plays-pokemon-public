@@ -1,6 +1,6 @@
 [Strategic Synthesis: B1F Layout & State Logic]
-- The NW switch at (7, 15) is enclosed by solid walls/tables on the South (Y=17), West (X=0/1), and North (Y=8).
-- The ONLY entrance to this NW enclosure is via a gap at (10, 17), which requires being in the West Wing.
+- The NW switch at (7, 15) is enclosed by solid boundaries on the South (Y=17), West (X=1), and North (Y=8). The East boundary is the X=9 wall.
+- The gap at (10, 17) leads to the SW dead-end area, NOT the NW enclosure. The true entrance to the enclosure must be a gap in the X=9 wall.
 - The West Wing is separated from the Central area by vertical electronic doors at X=13 (specifically at Y=22/23).
 - State B: Vertical doors at X=13 are CLOSED.
 - State A: Vertical doors at X=13 are OPEN.
