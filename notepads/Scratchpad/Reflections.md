@@ -10,3 +10,4 @@
 - Next Step: Since I just used Dig, the Mansion is currently in State A. I searched the 1F East Wing and found NO stairs. I must now systematically search the unexplored 1F North-West corner (via the Northern hallway at Y=2) for this missing staircase!
 - Macro Rule: Keep movement macros short (1-5 steps) to prevent wild encounters from corrupting positional awareness.
 \n[Turn 45320] Discovered the true 1F Northern Hallway is at Y=1, not Y=2! The green pillars block Y=2 and Y=3 at X=12. I am navigating to X=14 to reach Y=1, then heading West to explore the NW corner.
+\n[Turn 45324] Successfully bypassed the X=9 pillar via the true Northern Hallway at Y=1. Currently at (9, 1) and walking West into the completely unexplored North-West corner of 1F. Praying the missing B1F stairs are here!
