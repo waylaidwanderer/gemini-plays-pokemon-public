@@ -1754,5 +1754,10 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
    - Walk West to X=2: 5 - 2 = 3 Lefts to (2, 5).
 5. Sequence: L, 4U, 7L, 6U, 3L.
    - L UUUU LLLLLLL UUUUUU LLL.
+[Turn 44940 Reflection]
+1. Execution: The movement L UUUU LLLLLLL UUUUUU LLL successfully navigated past the Burglar and through the Central Hallway to the 1F West Wing. I am now at 1F (2, 5).
+2. Goal: Toggle the 1F switch to revert the Mansion to State A.
+3. Navigation: The statue is at (2, 4). I am at (2, 5), facing it. I need to press A to interact, then select YES.
+4. Sequence: A (interact).
 
 <hr>
