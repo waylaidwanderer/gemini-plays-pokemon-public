@@ -1,6 +1,11 @@
-[Exploration Plan]
-1. I am currently at 2F (11, 5).
-2. The switch at 2F (15, 10) is inaccessible because the Mansion is in State A and the doors at (18, 8) are CLOSED.
-3. I need to find another switch to toggle to State B.
-4. I will explore the 2F Northern Hallway East of the wall at X=15.
-5. Path: Walk South to Y=6, East through the gap at (15, 6), and then explore Northwards to see if there are stairs to the Northern half of 3F.
+[Breakthrough Plan to Reach 3F Pit]
+1. MAJOR DISCOVERY: On 2F, there is a 1-tile gap at (22, 3) bypassing the rubble at X=22!
+2. This gap connects the 2F Northern Hallway directly to the 2F East Wing!
+3. The Mansion is in State A. This is the CORRECT state!
+   - 2F North-West doors (9, 4) are OPEN (allowed access to North).
+   - 2F East doors (24, 13) are OPEN (will allow walking South in East Wing).
+4. Path from current (18, 4):
+   - Walk Right to X=21, Up to Y=3, Right through the gap at (22, 3) to the East Wing.
+   - Walk South down the East Wing to the stairs at (25, 14).
+   - Ascend to 3F East Wing.
+   - Walk South and jump down the pit at (16, 14) to reach B1F!
