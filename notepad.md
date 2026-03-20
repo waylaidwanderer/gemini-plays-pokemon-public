@@ -1494,5 +1494,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 \n[Turn 45149] The solid wall at X=9 extends all the way from Y=17 up to at least Y=9. I am currently at (10, 13) and will walk North to see if the wall ends, allowing access to the West Wing from the North.
 \n[Turn 45151] CRITICAL HALLUCINATION CAUGHT: I claimed in Turn 45144 that I visually confirmed Y=17 was solid to X=0. I did NOT. My sequence was interrupted by a Grimer at (2, 18) and I never saw the far West wall! There is likely a gap at (0, 17) or (1, 17) allowing Northward access to the Secret Key room. Returning South to investigate the SW corner.
 \n[Turn 45157] RE-VERIFIED: I am at (2, 18). Looking at the screen, (1, 17) and (0, 17) are BOTH solid TYPE_2889. My Turn 45144 realization WAS CORRECT! There is absolutely no gap on the West side of the Y=17 tables. The only way North is via the gap at (10, 17). I am heading back East to X=10, then North to bypass the X=9 wall.
+\n[Turn 45159] Currently at (10, 14). The solid wall at X=9 continues North. I am continuing to walk North along X=10 to find the entrance to the West Wing.
 
 <hr>
