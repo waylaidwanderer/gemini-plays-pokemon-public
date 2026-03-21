@@ -17,3 +17,10 @@ Path to West Room (7, 15) from (27, 18) facing Down:
 - Turn Left, step 17 times to (7, 14).
 - Turn Down, step 1 time to (7, 15).
 Sequence: `LLLL UUUUU LLLLLLLLLLLLLLLLLL DD`.
+- Turn 47465 Reflection: I've successfully run from the Weezing and cleared the "Got away safely!" text. I am now in the overworld at (27, 18), facing Down.
+I will execute the macro to the West Room (7, 15):
+- L3 (Turn Left, step 2 to 24, 18)
+- U5 (Turn Up, step 4 to 24, 14)
+- L18 (Turn Left, step 17 to 7, 14)
+- D2 (Turn Down, step 1 to 7, 15)
+Sequence: `LLLL UUUUU LLLLLLLLLLLLLLLLLL DD`
