@@ -114,3 +114,9 @@
 - I am at B1F (10, 9). The wall at Y=8 extends from X=6 to at least X=15.
 - I will move Right to X=16, which is the main vertical corridor, then Up to Y=7, and Left back to X=10 to systematically test the X=9 doors.
 - Sequence: R 6 (to 16, 9), U 2 (to 16, 7), L 6 (to 10, 7).
+[Turn 47153 Reflection]
+- Cleared another wild Vulpix encounter.
+- I am at B1F (10, 9).
+- Resuming my planned sequence to navigate around the Y=8 wall.
+- Route: Right 6 (to 16, 9), Up 2 (to 16, 7), Left 6 (to 10, 7).
+- This will put me in position to systematically test the X=9 electronic doors from Y=7 northwards.
