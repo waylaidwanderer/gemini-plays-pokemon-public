@@ -121,5 +121,8 @@
 3. Jump down 3F pit at (16, 14) to reach 1F enclosed area, then take stairs to B1F.
 4. B1F is now in State B. The Far East doors at (26, 17) are CLOSED.
 5. Navigate to B1F switch at (18, 25) via the Y=14 North corridor and press it to enter STATE A.
-6. The Far East doors at (26, 17) are now OPEN! Walk North through them to claim the Key!
+6. The Far East doors at (26, 17) are now OPEN! Walk North through them.
+7. In the Far East room, there is a red herring item at (25, 3). DO NOT STOP THERE.
+8. Walk West along the Y=6/Y=7 corridor at the top of the room. It crosses the entire basement to the NW corner.
+9. Enter the open vertical doors at (9, 6)/(9, 7) to claim the Secret Key!
 - Diary located at (18, 2): "Diary: July 5. Guyana, South America. A new POKEMON was discovered deep in the jungle."
