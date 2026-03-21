@@ -1540,5 +1540,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Turn 47387: I am indeed trapped! The doors at (26, 17) are CLOSED in State A. I must walk North to the switch at (20, 3) and toggle it to State B to escape the Northern half of B1F. Then I can proceed to the West room via the Y=14 hallway.
 - Turn 47391: Navigated to the switch at (20, 3). The text "A secret switch!" is on screen. I need to press A to advance to the "Press it?" prompt, then select YES to toggle back to STATE B.
 - Turn 47392: The "Press it?" prompt is on screen, cursor on YES. I am pressing A to toggle the switch back to STATE B. This will reopen the Far East doors at (26, 17) so I can escape the NE area and head to the West room.
+- Turn 47393: I toggled the switch back to State B! This opens the Far East doors at (26, 17). My route to the West room (7, 15) is: Walk East to X=26, South to Y=18, West to X=24, North to Y=14, then West all the way across the central room to X=7!
 
 <hr>
