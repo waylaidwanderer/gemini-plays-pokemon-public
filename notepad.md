@@ -1491,6 +1491,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - The doors ONLY block the East-side approach (via Northern doors at 15, 4).
 - Since I am currently in STATE A, the B1F Far East doors (26, 17) leading to the Secret Key should be OPEN!
 - Immediate Plan: Walk D, R, R, D, R, D, D, D from (13, 9) to drop down the pit and claim the Secret Key!
-- Update: I arrived at the B1F Far East doors and they were CLOSED. This confirms I was in State B (because I toggled the 3F switch earlier). I need to navigate to the B1F switch at (18, 25) to revert to State A, which will open these doors!
+- Update: I am trapped! In State A, the central doors at (16, 16)/(17, 16) are CLOSED. The Far East doors are OPEN, but I can't reach them because I'm stuck South of Y=16!
+- NEW PLAN: I must toggle the CENTRAL switch (18, 25) back to State B. This opens the central doors so I can walk North to Y=14. Then, I walk West to the WESTERN switch at (7, 15) and toggle it to State A! This will close the central doors behind me, but leave the Far East doors OPEN while I am on the North side, allowing me to reach the Secret Key via the Y=14 corridor!
 
 <hr>
