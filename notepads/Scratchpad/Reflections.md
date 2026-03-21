@@ -36,3 +36,11 @@ I am going to use a step-by-step approach to get to the Far East corridor safely
 - Turn 47439: Clearing the battle exit text "Got away safely!" with B presses. Once back in the overworld at (23, 1) facing Right, I will resume moving to the Far East corridor.
 - Turn 47440 Reflection: My 3 `Right` inputs took me to (26, 1), but then I encountered a Wild Magmar! I am using `run_battle` to escape. After this, I will be at (26, 1) facing Right, ready to walk South down the Far East corridor.
 - Turn 47441: Clearing "Got away safely!" with B presses. My sequence from (26, 1) facing Right to the West Room is: `D18 L3 U5 L18 D2`.
+- Turn 47444 Reflection: My macro was interrupted by another Wild Grimer at (26, 1) AGAIN! I am using `run_battle` to escape. After the battle, I will resume the sequence. My position is (26, 1) facing Left.
+Let's recalculate the path to the West Room (7, 15) from (26, 1) facing Left.
+- D17 (turns Down, steps 16 to 26, 17) -> Need 18 `Down` presses to reach (26, 18).
+- L2 to (24, 18) -> 3 `Left` presses.
+- U4 to (24, 14) -> 5 `Up` presses.
+- L17 to (7, 14) -> 18 `Left` presses.
+- D1 to (7, 15) -> 2 `Down` presses.
+Sequence from (26, 1) facing Left: `DDDDDDDDDDDDDDDDDD LLL UUUUU LLLLLLLLLLLLLLLLLL DD`
