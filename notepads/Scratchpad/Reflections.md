@@ -8,3 +8,4 @@
 [50-Turn Reflection]
 - Macro Brittleness: Massive 40-50 step macros in high-encounter zones are a critical strategy failure. Encounters interrupt them, and I often miscalculate my post-battle position/facing, causing the next sequence to drive me into walls. I am switching to 5-10 step micro-macros and actively verifying my Game State coordinates after every battle.
 - Notebook Hygiene: Purged 40+ turns of granular turn-by-turn macro debugging from this scratchpad. It was causing massive context bloat and triggering safety limits. Keeping notes strictly to high-level theories and empirical proofs.
+- Turn 47463 Reflection: My 8-step macro `DDDDLLLL` was interrupted by another Wild Weezing encounter after 4 steps Down. I am currently at (27, 18) facing Down. I will run from the battle, clear the text, and then recalculate my path from (27, 18) to the West Room (7, 15).
