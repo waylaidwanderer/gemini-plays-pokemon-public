@@ -1494,5 +1494,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Error Analysis: I severely violated my "Exhaustive Exploration" rule by entering the Far East room, seeing nothing immediately, and leaving without checking the perimeter. This caused me to miss the Y=7 corridor completely and wasted a lot of turns. I must ALWAYS walk the entire perimeter of a new room.
 - Next Steps: Executing the final sequence to claim the Secret Key, then escaping the Mansion to finally challenge the Cinnabar Gym!
 [Turn 46178] The item ball at (10, 2) in B1F was a Rare Candy, NOT the Secret Key. The actual NW room is West of X=9. I am testing if the vertical doors at (9, 6)/(9, 7) are open or closed in State A.
+[Turn 46180] Airlock Hypothesis: The Far East doors (26, 17) are OPEN in State A, allowing access to the Northern corridor. But the vertical doors at (9, 6) leading to the Secret Key are CLOSED in State A. There must be a switch inside this Northern corridor to toggle the Mansion to State B, which will close the Far East doors (locking me in) but OPEN the vertical doors at (9, 6). I notice a row of statues at Y=1 along the top wall (e.g., at X=10, 12, 14). I will test them for a hidden switch.
 
 <hr>
