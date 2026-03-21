@@ -35,3 +35,4 @@
   1. The Key is in the West Room of B1F (around the 7,15 switch). I need to re-explore that area.
   2. The Key is accessed via a completely different pit on 3F! I noted earlier that I never explored the South-West corner of 3F (South of Y=10). There might be a second pit there that drops directly into a blocked-off Secret Key room on 1F or B1F!
 - I will first sweep the B1F West Room since I'm already here. Then I will Dig out and head to 3F SW corner.
+- Turn 47384 Reflection: I ran left through the central area and am now at (26, 16). The path to the West Room (where the switch at 7, 15 is) is completely clear in this state. I just need to walk West along Y=14. I am going there now to thoroughly check for the Secret Key!
