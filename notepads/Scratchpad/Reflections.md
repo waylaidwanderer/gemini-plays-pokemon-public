@@ -113,3 +113,4 @@ Sequence: `LLLL`.
 - Turn 47468 Reflection: The `run_battle` inputs were eaten by the "Got away safely!" text box from the previous run_battle. I will use `safe_mash_b` to clear this remaining text and return to the overworld at (10, 15). 
 After clearing it, I will execute a micro-macro to reach the switch: `D LLL U A` to stand at (7, 16) facing Up and interact with it.
 - Turn 47468: The "Got away safely!" text is still present with a down arrow. I will explicitly press 'A' to clear it, and then check my surroundings. I am currently at (10, 15) and there appears to be a switch statue directly below me at (10, 16). I will verify this once back in the overworld.
+- Turn 47469 Reflection: The "Got away safely!" text is still open with a down arrow. My previous 'A' input in Turn 47468 was eaten by the text rendering animation. I am still at (10, 15) facing Down. I will use `safe_mash_b` to aggressively clear this text box before trying to move again.
