@@ -1553,5 +1553,35 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - L (turns Left), L17 (steps 17 to 7, 14) -> 18 presses.
 - D (turns Down), D1 (steps 1 to 7, 15) -> 2 presses.
 - Total sequence: `R DDDDDDDDDDDDDDD LLL UUUUU LLLLLLLLLLLLLLLLLL DD`.
+- Turn 47427 Reflection: My sequence was aborted at (20, 1) because I bumped into the switch statue! Ah, my sequence `RRRRR D18...` started from (25, 4), but I was actually at (25, 4), and my first input was `R`. 
+Wait, looking at the intermediate states, my first input was actually `Right`, which turned me Right. Then I moved Right one step to (26, 4). Then `Down` 15 times took me to (26, 18).
+Then `Left` 3 times took me to (24, 18).
+Then `Up` 5 times took me to (24, 14).
+Then `Left` 18 times took me to (7, 14)... Wait.
+Let's trace the execution in the intermediate states carefully.
+- `turn_47427_0`: Right (turns from Down to Right at 25, 4).
+- `turn_47427_1` to `turn_47427_15`: 15 Down inputs. Wait, the first Down turns me Down at (25, 4). Then 14 steps Down takes me to (25, 18). But there is a solid wall at (25, 8)!
+- Let's look at the intermediate states!
+- `turn_47427_1`: I am at (25, 4) facing Down.
+- `turn_47427_2`: I step Down to (25, 5).
+- `turn_47427_3` to `turn_47427_15`: I am bumping into the table at (25, 5)!
+- `turn_47427_16`: I turn Left at (25, 5).
+- `turn_47427_17` to `turn_47427_18`: I step Left to (24, 5), then (23, 5).
+- `turn_47427_19`: I turn Up at (23, 5).
+- `turn_47427_20` to `turn_47427_23`: I step Up to (23, 1).
+- `turn_47427_24` to `turn_47427_43`: I move Left and end up bumping into the switch statue at (20, 1)!
+- My starting coordinate was (25, 4), facing DOWN!
+- To get to the Far East corridor (X=26), I need to step Right 1 time.
+- But if I am facing Down, `R` turns me Right. I need ANOTHER `R` to step Right to (26, 4)!
+- I only sent one `R` in my sequence `R DDD...`, so I just turned Right and immediately turned Down again!
+- Okay, I am currently at (20, 1) facing Down.
+- Route to West Room from (20, 1):
+  - Walk Right 6 to (26, 1)
+  - Walk South 17 to (26, 18)
+  - Walk Left 2 to (24, 18)
+  - Walk North 4 to (24, 14)
+  - Walk Left 17 to (7, 14)
+  - Walk Down 1 to (7, 15)
+- Sequence: `RRRRRR DDDDDDDDDDDDDDDDD LL UUUU LLLLLLLLLLLLLLLLL D`.
 
 <hr>
