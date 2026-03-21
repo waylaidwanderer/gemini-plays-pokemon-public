@@ -1487,14 +1487,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [FINAL MASTER PUZZLE SOLUTION]
 - The 3F West Wing is a dead end. The Left side of the 3F pit (X=12 to X=15) is blocked by a solid rubble wall at Y=13.
 - The ONLY way down is the right side of the 3F pit at (16, 14)!
-- In State A, you cannot reach (16, 14) because a rubble wall at Y=9 blocks the East side of 3F.
-- In State B, the Southern doors at (15, 10) are OPEN, allowing you to reach (16, 14) from the South.
-- Step 1: Be in State B (1F switch toggled).
-- Step 2: Go to 3F, walk through doors at (15, 10), and drop down pit at (16, 14).
-- Step 3: Land in 1F enclosed area. Take stairs at (21, 23) to B1F.
-- Step 4: In B1F, the Far East doors at (26, 17) leading to the Secret Key are CLOSED (because we are in State B).
-- Step 5: Walk to the switch at B1F (18, 25) and toggle it to STATE A!
-- Step 6: Walk to the Far East doors at (26, 17), which are now OPEN.
-- Step 7: Follow the hidden corridor to the Secret Key!
+- AMAZING REVELATION: There are NO doors blocking the West-side approach to the pit! You can ALWAYS walk down X=13/14, slip East through the gap at (15, 11)/(16, 11), and drop down the pit at (16, 14)!
+- The doors ONLY block the East-side approach (via Northern doors at 15, 4).
+- Since I am currently in STATE A, the B1F Far East doors (26, 17) leading to the Secret Key should be OPEN!
+- Immediate Plan: Walk D, R, R, D, R, D, D, D from (13, 9) to drop down the pit and claim the Secret Key!
 
 <hr>
