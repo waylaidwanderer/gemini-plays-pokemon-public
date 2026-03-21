@@ -1484,17 +1484,17 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 
 <h1><code>Scratchpad/Reflections</code></h1>
 
-[Master Puzzle Solution Discovered!]
-- The 3F West Wing is a VERIFIED DEAD END at Y=6. My previous memory of walking through it was a hallucination.
-- The true puzzle involves the MAIN 3F PIT.
-- The pit spans from X=12 to X=17 at Y=14.
-- In State A, the 3F Southern doors (15, 10) are CLOSED, forcing you to approach the pit from the North (via doors at 15, 4).
-- The top edge of the pit (Y=13) is a solid wall from X=12 to X=15.
-- Therefore, in State A, you are FORCED to jump down the right side at (16, 14) or (17, 14), which leads to the 1F enclosed area and the central B1F stairs. This path is a dead end for the Secret Key!
-- SOLUTION: By pressing the switch at 1F (2, 5), I changed the Mansion to STATE B.
-- In State B, the 3F Southern doors (15, 10) are OPEN!
-- This allows me to approach the main 3F pit from the SOUTH, bypassing the Y=13 wall.
-- I can now jump down the LEFT side of the pit (e.g., at X=14 or X=15), which will land me in a DIFFERENT enclosed area on 1F, likely containing the stairs to the true B1F Secret Key room!
-- Immediate Route: Walk to the 3F Southern doors at (15, 10), head South, and jump down the pit at (14, 14) or (15, 14)!
+[FINAL MASTER PUZZLE SOLUTION]
+- The 3F West Wing is a dead end. The Left side of the 3F pit (X=12 to X=15) is blocked by a solid rubble wall at Y=13.
+- The ONLY way down is the right side of the 3F pit at (16, 14)!
+- In State A, you cannot reach (16, 14) because a rubble wall at Y=9 blocks the East side of 3F.
+- In State B, the Southern doors at (15, 10) are OPEN, allowing you to reach (16, 14) from the South.
+- Step 1: Be in State B (1F switch toggled).
+- Step 2: Go to 3F, walk through doors at (15, 10), and drop down pit at (16, 14).
+- Step 3: Land in 1F enclosed area. Take stairs at (21, 23) to B1F.
+- Step 4: In B1F, the Far East doors at (26, 17) leading to the Secret Key are CLOSED (because we are in State B).
+- Step 5: Walk to the switch at B1F (18, 25) and toggle it to STATE A!
+- Step 6: Walk to the Far East doors at (26, 17), which are now OPEN.
+- Step 7: Follow the hidden corridor to the Secret Key!
 
 <hr>
