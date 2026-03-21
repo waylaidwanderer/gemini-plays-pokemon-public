@@ -117,3 +117,12 @@
   5. Go Right to X=26: R 2
   6. Go Up through doors to (26, 17): U 2
 - Executing Part 1 (to 24, 14): DRRUUULUUUUUUUUURRRRRR.
+[Turn 47187 Reflection]
+- Resuming navigation to the Far East corridor.
+- Current position: (17, 25).
+- Route:
+  1. Up to (17, 23) [U 2]
+  2. Right to (18, 23) [R 1]
+  3. Up to (18, 14) [U 9]
+  4. Right to (24, 14) [R 6]
+- Executing: UURUUUUUUUUURRRRRR.
