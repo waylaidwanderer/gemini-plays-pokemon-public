@@ -1486,7 +1486,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 
 <h1><code>Scratchpad/Reflections</code></h1>
 
-- Hypothesis DEBUNKED: I bumped into X=9 at Y=14 twice, confirming it is indeed a solid wall of green pillars, not a closed electronic door.
-- The NW area of B1F is still isolated. I am going to walk straight North along the X=10 corridor to see if there is an opening near Y=8 or Y=9 that grants access to the Secret Key!
+- EUREKA! At (10, 9) on B1F, I can see that the wall at X=9 is NOT completely solid! There are VERTICAL electronic doors at (9, 6) and (9, 7)! In State A, these doors are OPEN (yellow striped floor).
+- The NW area containing the Secret Key is accessed through these doors.
+- To reach them, I must find a way to get North of the solid wall at Y=8. I am currently exploring East along Y=9 to find a path North.
 
 <hr>
