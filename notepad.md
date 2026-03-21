@@ -1503,7 +1503,7 @@ My previous plan was flawed: The 3F doors at (15, 11) are CLOSED in State A! You
 5. Take the stairs at (21, 23) down to B1F. You arrive on B1F in State B.
 6. Walk West to the switch at B1F (18, 25).
 7. Toggle the switch to STATE A.
-8. Walk North to Y=18, then East to X=24, then South and East to the doors at (26, 17).
+8. Walk West along Y=18 to bypass the closed doors, North to Y=14, East across X=20 to X=24, South to Y=18, then East to the doors at (26, 17).
 9. Since you toggled to State A, the doors are OPEN. Claim the Secret Key!
 
 <hr>
