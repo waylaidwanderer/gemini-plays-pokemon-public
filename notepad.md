@@ -1546,5 +1546,15 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   - Then Down to (24, 21).
   - Then Right to (26, 21).
   - Then Up to (26, 17).
+[Turn 47176 Reflection]
+- Mansion is in State A.
+- Path to NE room:
+  1. From (18, 26), go L to (17, 26).
+  2. Go U 8 to (17, 18).
+  3. Go R 7 to (24, 18).
+  4. Go D 3 to (24, 21).
+  5. Go R 2 to (26, 21).
+  6. Go U 4 to (26, 17) which should be OPEN doors.
+- Executing first part: L U8 R7.
 
 <hr>
