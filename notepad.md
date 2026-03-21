@@ -1551,5 +1551,12 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   - Why did I write Down to (24, 21) then Right? Ah, because there's a wall separating X=24 and X=26 that ends at Y=18. Wait, if it ends at Y=18, maybe I CAN cross at Y=18.
   - Let's just walk Right from (18, 18) and see where I hit a wall.
   - I will execute R 8 to try to reach X=26 directly. If I bump at X=24 or X=25, I will route South.
+[Turn 47199 Reflection]
+- Wait, the text history says "Wild GRIMER appeared! ▼".
+- There is a down arrow indicating more text!
+- I pressed 'B' in Turn 47193, but that just advanced the text, it didn't clear the box or run from the battle!
+- Wait, I'm STILL IN THE BATTLE!
+- I need to use `run_battle`! I accidentally just pressed 'B' on the overworld tool instead of using `run_battle`.
+- Wait, no, I am in the battle opening animation ("Wild GRIMER appeared!"). I just need to press 'A' to advance to the command menu, THEN use `run_battle`.
 
 <hr>
