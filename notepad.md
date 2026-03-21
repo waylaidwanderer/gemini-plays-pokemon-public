@@ -1550,5 +1550,11 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - I successfully dropped down the pit from 3F and landed in the isolated 1F area at (16, 14).
 - The path leads South. I see a Scientist NPC at (17, 17).
 - My goal is the stairs to B1F at (21, 23). I will navigate South and East to reach them.
+[Turn 47126 Reflection]
+- I am in the 1F enclosed area at (16, 14).
+- The path East and South is blocked by walls and plants at X=18 and Y=18.
+- The path out is to the West (X=12/X=13) and then South around the plants.
+- I will navigate Left and Down to bypass the plants and make my way to the B1F stairs at (21, 23).
+- Scientist NPC is at (17, 17). I previously noted talking to him, so he is likely already defeated or non-hostile.
 
 <hr>
