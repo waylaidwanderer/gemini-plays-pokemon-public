@@ -115,18 +115,13 @@
 - 1F Central Doors at (16, 7) lead to a dead-end hallway from Y=8 to Y=13. It is blocked at Y=13 by a solid wall. It DOES NOT connect to the 3F pit landing area (which is at 16, 14).
 - 3F East side (X=16, 17) is blocked from going South by a solid horizontal wall of rubble at Y=9. The pit is South of Y=11. So you CANNOT reach the pit from the East side via the doors at (15, 4). This path is a dead end.
 - 3F West Wing (West of X=9) is ACCESSIBLE. I previously hallucinated it was blocked. I must thoroughly search this area (especially South of Y=10) for the true pit that drops into the B1F Secret Key room!
-[ULTIMATE SECRET KEY PLAN]
-The foolproof solution relies on the fact that the 3F pit drop at (16, 14) can be reached in STATE A by walking through the permanent gap at Y=11.
-
-Sequence:
-1. Re-enter the Pokemon Mansion.
-2. Walk to the 1F Switch at (2, 5).
-3. Toggle the switch until the Mansion is in STATE A. (Verify by checking if the 1F South-East doors at (26, 27) are CLOSED).
-4. Walk to the 1F main stairs at (5, 10) and ascend to 2F.
-5. On 2F, navigate to the stairs at (6, 1). The doors at (9, 4) will be OPEN in State A.
-6. Ascend to 3F. Walk East and South via the gap at Y=11 to reach the pit at (16, 14).
-7. Drop down the pit into the 1F enclosed area.
-8. Take the stairs at (21, 23) down to B1F.
-9. Walk East to X=24, South to Y=18, then East to the Far East doors at (26, 17).
-10. Since the Mansion is in STATE A, the doors will be OPEN! Claim the Secret Key!
-- Diary located at (18, 2): "Diary: July 5. Guyana, South America. A new POKEMON was discovered deep in the jungle."
+[SECRET KEY PATH (PROVEN)]
+The Secret Key is located on B1F at (26, 11) inside the Far East room, blocked by doors at (26, 17) which require State A.
+1. On 3F, navigate to the switch at (10, 5) and toggle to STATE B (opens 3F southern doors at 15, 11).
+2. Walk East through the gap at Y=11 to X=16, then South to the pit at (16, 14).
+3. Drop down the pit to the 1F enclosed area, then take stairs at (21, 23) down to B1F. (Arrive in State B).
+4. On B1F, walk West to the central switch at (18, 25). Toggle to STATE A.
+5. Central doors (16, 16) are now CLOSED. Bypass them by walking North to (18, 22), West to X=13, and North through the OPEN vertical doors at (13, 22) into the SW loop.
+6. Follow the loop to the gap at (10, 17). Walk North to Y=14, East across X=20 to X=24, South to Y=18, then East to the doors at (26, 17).
+7. In STATE A, the doors at (26, 17) are OPEN. Claim the Secret Key at (26, 11)!
+- Diary located at 1F (18, 2): "Diary: July 5. Guyana, South America. A new POKEMON was discovered deep in the jungle."
