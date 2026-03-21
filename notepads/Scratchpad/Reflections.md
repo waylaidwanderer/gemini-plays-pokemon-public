@@ -32,3 +32,6 @@
   4. Take the stairs to B1F.
   5. Navigate West to the B1F switch at (7, 15) and toggle it!
   6. Explore the newly opened path to the Secret Key!
+[Turn 47114 Reflection]
+- I successfully navigated to the 3F switch at (10, 5) and interacted with it.
+- A text box is open saying "A secret switch!". I will press 'A' to advance to the Yes/No prompt, then select Yes to toggle the Mansion to State B.
