@@ -77,3 +77,7 @@
 - The intermediate states show my cursor is now clearly blinking on GYE (index 6). I pressed Up 3 times from index 6, but since the Party menu wraps, it just went 6 -> 5 -> 4 -> 3. Then I pressed Down twice: 3 -> 4 -> 5.
 - So my cursor is currently on PIXEL (index 5), NOT Dugtrio (index 3)!
 - I need to press Up twice to reach Dugtrio, and then press A to select it.
+[Turn 47063 Reflection]
+- Menu Navigation Correction: In Turn 47061, I was actually in GYE's sub-menu, not the main party menu. My inputs (`Up`, `Up`, `A`) hit the top of the sub-menu (which doesn't wrap) and selected FLY.
+- As a result, I got the "GYE can't FLY here." message.
+- I need to clear this message first, then properly navigate to Dugtrio to use Dig.
