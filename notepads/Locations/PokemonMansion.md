@@ -125,9 +125,9 @@
   1. Go to central switch at (18, 25). Toggle to STATE B. (Horizontal doors CLOSE, but vertical doors at (13, 22) OPEN).
   2. Walk West through the (13, 22) vertical doors, follow the path North to the Y=14 hallway.
   3. Walk East along Y=14 to X=18. (You have now bypassed the closed horizontal doors and are in the Northern half of the Central Room!)
-  4. Walk North along X=18 to the switch at (18, 4) and toggle it to STATE A!
+  4. Walk North along X=18 to Y=4, then East to the switch at (20, 3) and toggle it to STATE A!
   5. State A opens the X=9 electronic doors!
-  6. Walk West from (18, 4) to the X=9 electronic doors.
+  6. Walk West to the X=9 electronic doors (by going South around the central room, or finding a path).
   7. Enter NW room and claim Secret Key!
 - Diary located at 1F (18, 2): "Diary: July 5. Guyana, South America. A new POKEMON was discovered deep in the jungle."
 - Burglar trainer at (16, 22), facing Right. His line of sight covers Y=22.
