@@ -1497,17 +1497,14 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 
 [ACTIVE THEORIES & REFLECTIONS]
 - I am at (18, 26).
-- X=17 is a SOLID WALL that separates the East hallway (X=18/19) from the West hallway (X=15/16).
-- In State B, the horizontal doors at (18, 16) are CLOSED.
-- This means I am TRAPPED in the (18, 16) to (18, 26) hallway!
-- The only exits from this corridor:
-  - North: (18, 16) doors (CLOSED).
-  - East: (20, 17) doors.
-- My notes say: "B1F Central doors (20, 17) OPEN in State B."
-- If they are open, I can walk from X=18 East through (20, 17) to X=24!
-- Let's verify if this is the escape route!
-- I need to walk Up to Y=17, then Right to X=20.
-- Wait, I'm at (18, 26). Up to Y=17 is 9 steps.
-- I will execute UUUUUUUUUR to test this.
+- The Mansion is in State B (central switch pressed).
+- In Turn 47289, I thought X=17 was a solid wall because my `LLLL...` macro failed to move me.
+- HOWEVER, I realized the macro aborted at button 1 because a wild Muk appeared!
+- I never actually tested walking Left! I just turned Left and the battle started.
+- Hypothesis: X=17 is NOT a solid wall. The central area (X=14 to X=19, Y=17 to Y=26) is all one connected room.
+- In State B, the horizontal doors at Y=16 are CLOSED, blocking the path North.
+- BUT, the vertical doors at X=13 (Y=22/Y=23) are OPEN in State B!
+- So the escape route is to walk Left from the switch to X=13, then go through the vertical doors to reach the X=10 corridor!
+- I will execute `LLLL` to verify that I can walk West across X=17.
 
 <hr>
