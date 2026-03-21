@@ -16,3 +16,8 @@
 - The path South at X=16 is clear to (16, 22).
 - The switch is at (18, 25).
 - Route to switch: Down to (16, 22), Right to (18, 22), Down to (18, 24) to face the switch at (18, 25).
+[Turn 47167 Reflection]
+- Hallucination corrected! The obstacle at (16, 20) is NOT the Scientist; it is a solid 2x2 table blocking X=16 and X=17.
+- The Scientist is wandering at (16, 23).
+- I must route around the table to reach the switch at (18, 25).
+- Route: Right 2 steps to (18, 19), then Down 5 steps to (18, 24).
