@@ -285,3 +285,9 @@
   - I need to press A to advance the text and start the battle, then fight the Scientist!
   - I cannot use `run_battle` on a trainer. I must defeat him.
   - I will press A to advance the "Scientist wants to fight!" text.
+[Turn 47213 Reflection]
+- I successfully advanced the text!
+- I am now in the main battle menu against Scientist (Lv 33 Magneton).
+- Current position: (19, 20).
+- I need to defeat him to clear the path.
+- I will use `execute_battle_turn` to use Surf (Move 1) against the Magneton.
