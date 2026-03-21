@@ -47,3 +47,9 @@
 - This confirms my understanding of the State B door layout on 3F!
 - I will now navigate around the rubble and drop down the pit at (16, 14) to reach the 1F enclosed area.
 - Route: Right to (15, 10), Down to (15, 11), Right to (16, 11), Down to (16, 14).
+[Turn 47122 Reflection]
+- I am at 3F (14, 10), successfully past the electronic doors at (15, 10).
+- Route to the pit at (16, 14): Right to (16, 10), Down to (16, 14).
+- The pit is at (16, 14).
+- Wait, I see the pit at (16, 14) and (17, 14) on the screen. It is marked as `TYPE_21ec` (pit).
+- I will execute the movement to drop down.
