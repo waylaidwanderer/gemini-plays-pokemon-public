@@ -71,3 +71,12 @@
 - Overwatch agent confirmed my B1F X=9 door theory! In State B, the "red barriers" disappear at X=9, but I likely bumped into the solid doorframes at (9, 6) and (9, 7) instead of the actual open path.
 - I will proceed to B1F and systematically test ALL Y-coordinates along X=9 (from Y=4 to Y=8) to find the passable tile into the NW room!
 - First, I need to reach the B1F stairs. I am at 1F (14, 21). Route: Right 7, Down 2.
+[Turn 47136 Reflection]
+- I am now on B1F at (23, 22), the isolated stairs area!
+- Current Door State: STATE B (toggled from 3F).
+- Goal: Systematically test walking West through the electronic doors at X=9 (from Y=4 to Y=8) to find the passable tile into the NW room.
+- First, I need to navigate out of this isolated stairs area.
+- The path West is at Y=14.
+- Route: Left to (20, 22), Up to (20, 14), Left to (17, 14).
+- Wait, I see the switch at B1F (18, 25). It is currently in STATE B. The doors at X=13 are CLOSED, but I know from my notes that I can bypass them via the open East-West corridors at Y=18 and Y=14.
+- Let's execute the route to the main B1F Central area.
