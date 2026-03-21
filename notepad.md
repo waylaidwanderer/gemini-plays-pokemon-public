@@ -1510,5 +1510,18 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   4. Right to (26, 18): R 2
   5. Up to (26, 17): U 1
 - Executing: UUUUUUUURRRRRRDDDDRRU
+[Turn 47197 Reflection]
+- Wait, the macro was `UUUUUUUURRRRRRDDDDRRU` (U 8, R 6, D 4, R 2, U 1).
+- My starting position in Turn 47195 was (18, 22).
+- Up 8 steps from (18, 22) would put me at (18, 14).
+- The battle happened after 4 Up steps.
+- My Game State position is now (18, 18).
+- The wild Grimer is on screen.
+- I need to run from this battle, then resume my route from (18, 18).
+- Route from (18, 18) to (24, 14): Up 4 to (18, 14), Right 6 to (24, 14).
+- Then Down 4 to (24, 18).
+- Right 2 to (26, 18).
+- Up 1 to (26, 17) to go through the doors.
+- Total remaining route from (18, 18): U 4, R 6, D 4, R 2, U 1.
 
 <hr>
