@@ -19,3 +19,6 @@
 - Hallucination Correction: The 1F switch at (2, 5) DOES NOT EXIST. The West Wing of 1F is solidly blocked at Y=9, making the NW corner entirely inaccessible. The "glowing eyes statue" I saw at (2, 10) in Turn 47082 was literally just the back of my own player character's head!
 - The only known switches are on 3F and B1F.
 - If the Mansion is in State B, my notes say the 2F NW doors at (9, 4) are closed, which would block access to 3F entirely. I must go to 2F right now and physically test if those doors are actually closed. If they are, there MUST be another switch or an error in my door state logic.
+[Turn 47092 Reflection]
+- I am on 2F at (10, 6). The doors at (9, 4) and (9, 5) are visibly OPEN (regular floor tiles, not the striped door tiles). This confirms the Mansion is currently in State A.
+- I will now proceed through the gap to the stairs at (6, 1) and explore the 3F NW room!
