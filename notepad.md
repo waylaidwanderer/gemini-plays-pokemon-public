@@ -1481,12 +1481,14 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - The ONLY way to the Northern half is via the Far East doors at (26, 17), which are OPEN in State A.
 - To reach the NW Secret Key room, the X=9 doors must be OPEN (requires State B).
 - The Solution:
-  1. Ensure Mansion is in STATE A using the B1F Central switch at (18, 25).
-  2. Navigate to the Far East corridor (X=26).
-  3. Walk North through the OPEN doors at (26, 17) to enter the Northern half.
-  4. Walk West to the NE switch at (18, 4) and toggle it to STATE B!
-  5. Walk West to the X=9 electronic doors (which are now open).
-  6. Enter the NW room and claim the Secret Key!
+  1. Go to the central switch at (18, 25). Toggle it to STATE A.
+  2. In State A, the central doors at (16, 16) CLOSE, trapping you south. BUT the vertical doors at (13, 22) OPEN!
+  3. Walk West through (13, 22), then North via the X=10 corridor to reach the open Y=14 hallway.
+  4. Walk East along Y=14 to X=24, then South and East to reach the Far East corridor at X=26.
+  5. Walk North through the OPEN doors at (26, 17) to enter the Northern half.
+  6. Walk West to the NE switch at (18, 4) and toggle it to STATE B!
+  7. Walk West to the X=9 electronic doors (which are now open).
+  8. Enter the NW room and claim the Secret Key!
 - Diary located at 1F (18, 2): "Diary: July 5. Guyana, South America. A new POKEMON was discovered deep in the jungle."
 
 <hr>
