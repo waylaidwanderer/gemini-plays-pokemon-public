@@ -1521,5 +1521,18 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - IMPORTANT MECHANIC: Statues must be interacted with from the FRONT (standing below them at 18, 26 and facing Up).
 - Route to interaction point: Left to (17, 23), Down 3 steps to (17, 26), Right to (18, 26), Up to face it, then press A.
 - Executing: LDDDRUA.
+[Turn 47174 Reflection]
+- I successfully pressed the switch at B1F (18, 25).
+- The text "Who wouldn't?" means the Mansion is now in STATE A!
+- I can visually confirm this because the electronic doors at X=13, which were CLOSED in State B, are now completely open (regular floor tiles, no red barriers).
+- Current Position: (18, 26).
+- New Goal: Navigate to the Far East corridor (X=26), walk North through the now-open doors at (26, 17), and reach the NE switch at (18, 4).
+- Route to X=26: Left to (16, 26), Up to (16, 18), Right to (24, 18), Down to (24, 21), Right to (26, 21).
+- Wait, I can just walk Up to (18, 22), Right to (24, 22) then Up to (24, 18)... No, the path at Y=22 connects X=18 to X=21, then goes Up. Let's look at the map.
+- From (18, 26): Left to (17, 26), Up to (17, 18).
+- Then Right to (24, 18).
+- Then Down to (24, 21).
+- Then Right to (26, 21).
+- Then Up to (26, 17).
 
 <hr>
