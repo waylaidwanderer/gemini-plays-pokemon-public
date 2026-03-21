@@ -16,3 +16,4 @@
 - Massive 40-50 step macros in high-encounter zones fail because encounters interrupt them, causing misalignment. I now use 5-10 step micro-macros and actively verify Game State coordinates.
 - Always visually verify facing direction after a battle interruption!
 - When caught in a dialogue loop or text box, use `safe_mash_b` or multi-button `press_buttons` calls (e.g., `['A', 'A', 'A']`) instead of single `move_sequence` calls to resolve the interaction efficiently.
+- [Turn 47720] 50-Turn Reflection: I am currently executing my escape from the B1F Southern trap using Dig. I've realized that the Central Switch is a red herring for solving the Secret Key puzzle. Toggling it to State A traps you in the southern room, meaning you must enter the NW section of B1F from a different location while the Mansion is ALREADY in State A. This strongly points to a second pit on 3F. Once I escape and heal, I will thoroughly explore the 3F West Wing.
