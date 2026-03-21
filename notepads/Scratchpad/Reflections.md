@@ -1,14 +1,8 @@
-[ACTIVE THEORIES & CONSTRAINTS]
-- B1F Secret Key Puzzle Solution:
-  - State B: Central doors (16, 16) OPEN. Far East doors (26, 17) CLOSED. Secret Key doors (9, 7) CLOSED.
-  - State A: Central doors (16, 16) CLOSED. Far East doors (26, 17) OPEN. Secret Key doors (9, 7) OPEN.
-  - The Y=8 line is a solid wall from X=9 to X=24. The ONLY way to cross North of Y=8 is via the Far East corridor at X=26.
-  - Therefore, the Mansion MUST be in State A to access the northern part of the Far East corridor AND open the Secret Key doors.
-
-[THE TRUE PATH]
-1. Land on B1F in State B (via 3F pit).
-2. Walk to the Central Switch at (18, 25).
-3. Toggle to State A. (Central doors close, trapping you South of Y=16, BUT Far East doors open).
-4. Walk to the Far East doors at (26, 17) and walk North up the corridor to Y=4.
-5. Walk West along the Y=4 hallway to X=16.
-6. Walk South to Y=7, then West to (9, 7) to claim the Secret Key!
+[THE ULTIMATE TRUTH - NO MORE GASLIGHTING]
+1. B1F Central Switch (18, 25) IS A TRAP. Toggling to State A closes (16, 16) and X=20 is a solid wall. You are trapped South.
+2. B1F Far East doors (26, 17) are CLOSED in State B. The "Airlock" puzzle is a hallucination.
+3. B1F West Switch (7, 15) and Secret Key (9, 7) cannot be reached from the B1F main landing area.
+4. THEREFORE: The main 3F pit (16, 14) is the WRONG PIT.
+5. My hypothesis from Turn 47701 was 100% correct: There MUST be a second pit on 3F!
+6. I have NOT explored the 3F South-West corner (West of X=13, South of Y=10).
+7. GOAL: Escape B1F using Dig. Return to 3F. Walk South through the X=13/14 gap, then explore WEST to find the true pit!
