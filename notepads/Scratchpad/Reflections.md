@@ -31,3 +31,4 @@
   - L17 to (7, 14)
   - D1 to (7, 15)
 - Sequence: `RRRR DDDDDDDDDDDDDD LL UUUU LLLLLLLLLLLLLLLLL D`.
+- Turn 47420 Reflection: Moving to the West Room. Starting from (25, 4) facing Down. I will use `RR DDDDDDDDDDDDDDD LLL UUUUU LLLLLLLLLLLLLLLL` to navigate to (9, 14). From there, I will visually explore the West Room to find the Secret Key or the 3F pit.
