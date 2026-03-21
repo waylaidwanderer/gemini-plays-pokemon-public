@@ -1523,5 +1523,20 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Right 2 to (26, 18).
 - Up 1 to (26, 17) to go through the doors.
 - Total remaining route from (18, 18): U 4, R 6, D 4, R 2, U 1.
+[Turn 47198 Reflection]
+- Wait, the `move_sequence` macro was actually aborted. The battle happened in Turn 47191, right as I started the movement sequence `UUUUUUUURRRRRRDDDDRRU`.
+- I am at (18, 18). The macro executed U 4, reaching (18, 18) before the wild Ponyta appeared.
+- Wait, the text history says "Wild GRIMER appeared!" in Turn 47196.
+- Ah, my `move_sequence` in Turn 47195 was aborted at button 9 of 21 ('Right').
+- Let's trace it: From (18, 22), U 8 takes me to (18, 14).
+- The 9th button was 'Right', but the movement aborted.
+- Wait, let me check the intermediate states for Turn 47196.
+- In `turn_47196_0` to `turn_47196_7`, I move Up 8 times.
+- So I arrived at (18, 14)!
+- In `turn_47196_8`, I move Right. My position changes to (19, 14).
+- Then the battle with Grimer triggers!
+- So I am currently at (19, 14), NOT (18, 18)!
+- Wait, the Game State Info says Player Position: (18, 18).
+- Let me re-read the intermediate states and Game State carefully.
 
 <hr>
