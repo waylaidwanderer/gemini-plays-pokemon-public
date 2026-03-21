@@ -116,13 +116,15 @@
 - 1F Central Doors at (16, 7) lead to a dead-end hallway from Y=8 to Y=13. It is blocked at Y=13 by a solid wall. It DOES NOT connect to the 3F pit landing area (which is at 16, 14).
 - 3F East side (X=16, 17) is blocked from going South by a solid horizontal wall of rubble at Y=9. The pit is South of Y=11. So you CANNOT reach the pit from the East side via the doors at (15, 4). This path is a dead end.
 - 3F West Wing (West of X=9) is ACCESSIBLE. I previously hallucinated it was blocked. I must thoroughly search this area (especially South of Y=10) for the true pit that drops into the B1F Secret Key room!
-[SECRET KEY PATH (X=19 PIT THEORY)]
-1. The 3F pit spans X=12 to X=21, Y=14 to Y=17.
-2. The drop points at X=16/17 lead to the known 1F enclosed area (stairs at 21, 23) leading to the B1F East side.
-3. However, there is a wall at 3F (18, 12) separating the right side of the pit!
-4. By walking along Y=11, you can reach a SECOND drop point at X=19!
-5. Dropping at 3F (19, 14) lands you in the 1F South-East corridor (X=18 to 21, Y=12 to 15).
-6. This corridor is WALLED OFF from the rest of 1F! It is an isolated room!
-7. It MUST contain the stairs leading to the isolated B1F NW room (or a switch that opens the path).
-8. Goal: Jump down the pit at 3F (19, 14)!
+[SECRET KEY PATH (3F NW ROOM PIT THEORY)]
+1. The 1F NW room and B1F NW room are completely isolated.
+2. The ONLY way to reach them is by dropping from a pit on 3F.
+3. The main pit (X=12 to 17) drops to the 1F Central/East area.
+4. Therefore, there MUST be a SECOND pit located in the 3F Northwest room!
+5. Previously, I dismissed the 3F NW room as a "dead end" because the path SOUTH was blocked by rubble. I completely forgot to check the room itself for a pit!
+6. Goal: Ensure Mansion is in State A. Enter 1F -> 2F.
+7. Go through OPEN doors at 2F (9, 4).
+8. Ascend stairs at 2F (6, 1) to reach the 3F NW room.
+9. DO NOT walk East to the Central area! Thoroughly search the 3F NW room (X=1 to 9, Y=1 to 6) for a pit!
+10. Drop down the pit to reach the 1F NW room -> stairs to B1F NW -> Secret Key!
 - Diary located at 1F (18, 2): "Diary: July 5. Guyana, South America. A new POKEMON was discovered deep in the jungle."
