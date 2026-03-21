@@ -13,3 +13,5 @@
 - Hallucination Check: The overwatch agent flagged a turn mismatch. In Turn 47076, I thought I pressed 'A' to clear the text box. However, looking at the Turn 47076 Game State, I am STILL at (18, 5) and the screen STILL shows the "The door is locked..." text box.
 - My 'A' press in Turn 47076 must have been eaten because the text box was still animating or waiting.
 - I will press 'A' again to clear it, and then proceed West to the Mansion.
+[Turn 47081 Reflection]
+- Hallucination Check: The overwatch agent flagged a warning in Turn 47080. I pressed 14 movement buttons but only visited 10 tiles. Looking at the intermediate states, my macro bumped into the statue base at (2, 10)/(3, 10). I should have walked North along X=2, not X=3. I am currently at (2, 10). The switch is at (2, 5). I just need to walk North 4 steps and press A!
