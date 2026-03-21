@@ -127,3 +127,7 @@ Path to West Room via Y=14 from (10, 15) facing Down:
 - From (10, 15): Up to (10, 14). Left to (7, 14). Down to (7, 15) to inspect the switch area, or keep going Left to explore the rest of the room.
 Let's just walk Left to the switch area and see what's there.
 Sequence: `U LLL D`. This will place me at (7, 15) facing Down, bumping into the switch statue, or standing in front of it.
+- Turn 47472 Reflection: I just had a major realization. I checked the screen and the X=9 wall at Y=14 is SOLID. There is no gap! I also reviewed my notes: I noted earlier that the West Room of B1F is "completely isolated" by walls and tables. I only knew the switch statue at (7, 15) existed because I saw it through the wall!
+- If the West Room is completely isolated on B1F, the ONLY way to enter it is by dropping from a pit on 3F!
+- My notes mention an unexplored South-West area on 3F. I bet there is a second pit there that drops directly into the Secret Key room!
+- Before I leave B1F, I will walk Left along Y=18 to visually confirm that the table at Y=17 extends all the way to the West wall and there is absolutely no gap. Once confirmed, I will Dig out and head to 3F SW!
