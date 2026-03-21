@@ -62,6 +62,7 @@
 - 3F Pit: The top edge of the pit at (12, 13) to (15, 13) is a solid wall. You must jump down from the right side at (16, 14) or (17, 14).
 - Southern doors at (15, 10)/(15, 11) block access to the pit in State A.
 - Found stairs down to B1F at (21, 23). Currently blocked by a vertical wall at X=16.
+- VERIFIED DEAD END: The main West Wing of 3F (accessed via 2F stairs at 6, 1) has a solid horizontal line of rubble at Y=6, blocking X=2 to X=9. I must explore the far West edge (X=1) to see if there is a way South.
 
 [B1F Points of Interest]
 - Arrived from 1F via stairs at (23, 22). These stairs lead back up to the enclosed area on 1F (accessed via 3F pit).
