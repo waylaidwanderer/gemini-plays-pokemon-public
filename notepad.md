@@ -1504,11 +1504,14 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   1. In the West Room of B1F (near the 7,15 switch). (FALSE - Turn 47489 proved it's a dead end loop)
   2. Accessed via a completely different pit on 3F (SW corner, South of Y=10) that drops directly into a blocked-off room on 1F or B1F. (ACTIVE)
 
-[Current Plan: The "No Airlock" Strategy]
-- Mechanics: The doors at X=9 are CLOSED in State B, requiring State A to access the NW room. The Far East doors at (26, 17) provide a path North to Y=7, bypassing the solid wall at Y=8. The NE switch at (20, 3) toggles states from the North side.
-- By Turn 47607, I proved the Far East doors at (26, 17) are CLOSED in State B. Since the Secret Key doors at (9, 7) are ALSO CLOSED in State B, BOTH sets of doors must be OPEN in State A.
-- Therefore, the solution is simple: Toggle the Central Switch at (18, 25) to State A, walk up the East corridor, cross West at Y=7, and walk right in.
-- Turn 47637: Toggled Central Switch to State A. Currently executing the path to the Secret Key doors.
+[The "Central Switch Trap" Revelation]
+- Turn 47701: Discovered that in State A, the Central Doors at (16, 16) and (17, 16) are CLOSED.
+- The Central Switch is at (18, 25), which is South of these doors.
+- The ONLY way to reach the Northern half of B1F (to access the Far East corridor or the NE Switch) is by crossing North through (16, 16).
+- Therefore, toggling the Mansion to State A from the Central Switch TRAPS YOU in the southern room!
+- The B1F Central Switch is a red herring/trap. It cannot be used to solve the puzzle, because you cannot leave the room while the necessary doors are open.
+- The True Path MUST be a second pit on 3F that drops directly into the isolated NW section of B1F, bypassing the electronic doors entirely!
+- Next steps: Escape this trap (toggle back to State B to open the doors, or use Dig), heal, and explore the West Wing of 3F.
 
 [Macro & Execution Lessons]
 - Massive 40-50 step macros in high-encounter zones fail because encounters interrupt them, causing misalignment. I now use 5-10 step micro-macros and actively verify Game State coordinates.
