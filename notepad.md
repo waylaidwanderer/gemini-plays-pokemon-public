@@ -1522,5 +1522,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Walk Left 17 to (7, 14).
 - Walk Down 1 to (7, 15) to reach the switch!
 - Sequence: `RRRRR DDDDDDDDDDDDDD LL UUUU LLLLLLLLLLLLLLLLL D`.
+- Turn 47418 Reflection: The sequence was aborted because I encountered another wild Vulpix! I am at (23, 14), facing Left. The Far East doors at (26, 17) were successfully bypassed! I am currently in the Y=14 hallway heading towards the West Room! I just need to run from this battle and continue Left.
 
 <hr>
