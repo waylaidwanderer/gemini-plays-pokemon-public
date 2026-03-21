@@ -1517,5 +1517,10 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [Turn 47092 Reflection]
 - I am on 2F at (10, 6). The doors at (9, 4) and (9, 5) are visibly OPEN (regular floor tiles, not the striped door tiles). This confirms the Mansion is currently in State A.
 - I will now proceed through the gap to the stairs at (6, 1) and explore the 3F NW room!
+[Turn 47103 Reflection]
+- I am at 3F (9, 3) facing Down towards the item ball at (9, 4). My 'A' press in turn 47102 didn't pick it up for some reason (maybe input eaten or I misidentified it, though it looks exactly like a Poke Ball).
+- I will execute a floor sweep of the 3F NW room to find the pit.
+- Sweep route: Left to (1, 3), Down to (1, 5), Right to (8, 5), Up to (8, 1), Left to (1, 1).
+- If I hit a pit, the macro will cleanly abort. If I don't... my theory is completely busted, and there is no pit here!
 
 <hr>
