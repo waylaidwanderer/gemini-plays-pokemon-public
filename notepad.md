@@ -1544,5 +1544,10 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Immediate Execution: Clear the battle text, walk East along Y=11 to X=19, and drop down the pit at (19, 14).
 - Map Hygiene: Removed erroneous markers, keeping track of confirmed dead ends.
 - Notepad Hygiene: The Mansion notes are highly detailed and currently accurate regarding door states and dead ends.
+[Turn 47049 Reflection]
+- EMPIRICAL DISCOVERY: Dropping down the 3F pit at (19, 14) does NOT drop you to 1F! It drops you onto 2F at (18, 14)!
+- This means the pit has different drop depths depending on where you jump in! 
+- The right side (16, 14) drops to 1F. The left side of the right-half (19, 14) drops to a previously unexplored, isolated section of 2F!
+- I will now explore this new 2F area. It must lead to the B1F NW room!
 
 <hr>
