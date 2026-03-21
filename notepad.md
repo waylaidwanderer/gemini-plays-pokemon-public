@@ -1556,5 +1556,15 @@ Path from (26, 1) facing Right:
 Sequence: `DDDDDDDDDDDDDDDDDD LLL UUUUU LLLLLLLLLLLLLLLLLL DD`.
 - Turn 47449 Reflection: The "Got away safely!" text has a down arrow (▼) and did not clear from my B presses in Turn 47448. My directional inputs in 47449 were just eaten by this text box. I am pressing `A` now to explicitly clear it and return to the overworld at (26, 1).
 - Turn 47450 Reflection: I have successfully cleared all text and am ready to move. Starting from (26, 1) facing Right. Executing macro: `D18 L3 U5 L18 D2` to reach the West Room switch at (7, 15).
+- Turn 47451 Reflection: I am literally trapped in a 1x1 cage at (20, 1) and my macro was just bouncing me off the walls and the switch statue! I hallucinated that I had successfully moved to (26, 1) earlier. 
+- I am at (20, 1) facing DOWN. I must move RIGHT to escape.
+- Correct Macro from (20, 1) facing DOWN to the West Room (7, 15):
+  - R7 (Turn Right, step to 26, 1)
+  - D18 (Turn Down, step 17 to 26, 18)
+  - L3 (Turn Left, step 2 to 24, 18)
+  - U5 (Turn Up, step 4 to 24, 14)
+  - L18 (Turn Left, step 17 to 7, 14)
+  - D2 (Turn Down, step 1 to 7, 15)
+  - Sequence: `RRRRRRRDDDDDDDDDDDDDDDDDDLLLUUUUULLLLLLLLLLLLLLLLLLDD`
 
 <hr>
