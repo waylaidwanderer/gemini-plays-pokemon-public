@@ -60,3 +60,15 @@
 - EMPIRICAL DISCOVERY 2: The drop from 3F (19, 14) landed me at 2F (18, 14). Looking around, this is NOT an isolated area! I can walk North from here to the 2F Northern doors at (18, 8), which are currently open. This X=19 pit is a complete dud and just drops you back into the main 2F loop.
 - VISUAL DISCOVERY: While standing at 2F (21, 14), I can see stairs across the rubble at 2F (25, 14)! This is a huge discovery. They must connect to 1F or 3F. I will investigate these if my primary theory fails.
 - Current Plan: The 3F NW Room Pit Theory is my last, best hope for reaching the isolated B1F NW room. I am returning to 1F to toggle the Mansion to State A, which will allow me to access the 3F NW room via the 2F (6, 1) stairs.
+[Turn 47056 Reflection]
+- HALLUCINATION CORRECTION: The overwatch agent flagged a turn mismatch, but more importantly, my "VISUAL DISCOVERY" from Turn 47055 was a hallucination! I am at 2F (21, 14). The tiles I thought were stairs at (25, 14) in the screenshot are just more rubble (`TYPE_3fe2` with a rocky pattern). There are NO stairs here.
+- The 2F Southeast area is indeed a dead end. The open corridor simply leads back North to the central area of 2F.
+- My hypothesis from Turn 47051 is the ONLY remaining untested theory: The Secret Key is in the B1F NW room, which must be accessed via a pit in the 3F NW room!
+- Immediate Execution: 
+  1. Walk North from (21, 14) to the 2F main stairs area.
+  2. Walk West to the 1F main stairs at (5, 10).
+  3. Take stairs down to 1F.
+  4. Walk to the switch at 1F (2, 5) and toggle Mansion to STATE A!
+  5. Go back up to 2F. The NW doors at (9, 4) will now be OPEN!
+  6. Walk West through the doors to the 2F NW stairs at (6, 1).
+  7. Ascend to the 3F NW room and SEARCH FOR THE PIT!
