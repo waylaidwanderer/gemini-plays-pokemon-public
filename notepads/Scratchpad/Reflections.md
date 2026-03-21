@@ -42,3 +42,8 @@
 - The 3F Southern doors at (15, 10) should now be OPEN, granting access to the 3F pit.
 - I am at (10, 6). I will navigate East and South to reach the pit at (16, 14).
 - Route: Right to (14, 6), Down to (14, 10).
+[Turn 47121 Reflection]
+- I am at 3F (14, 10). The Southern electronic doors at (15, 10) are visibly OPEN (regular floor tiles).
+- This confirms my understanding of the State B door layout on 3F!
+- I will now navigate around the rubble and drop down the pit at (16, 14) to reach the 1F enclosed area.
+- Route: Right to (15, 10), Down to (15, 11), Right to (16, 11), Down to (16, 14).
