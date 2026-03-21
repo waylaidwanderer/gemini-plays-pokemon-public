@@ -14,3 +14,4 @@ Sequence:
 9. Take the stairs at (21, 23) down to B1F.
 10. Walk East to X=24, South to Y=18, then East to the Far East doors at (26, 17).
 11. Since the Mansion is in STATE A, the doors will be OPEN! Claim the Secret Key!
+- [Turn 46416] Realized the Western Switch at (7, 15) is completely inaccessible, blocked by a solid wall at X=9. The dual-switch plan is impossible. I MUST use the Ultimate Secret Key Plan (Dig out and re-enter in State A).
