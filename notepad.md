@@ -1613,5 +1613,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Resuming my planned sequence to navigate around the Y=8 wall.
 - Route: Right 6 (to 16, 9), Up 2 (to 16, 7), Left 6 (to 10, 7).
 - This will put me in position to systematically test the X=9 electronic doors from Y=7 northwards.
+[Turn 47155 Reflection]
+- Text box cleared. I am at B1F (10, 9).
+- Executing route to bypass the Y=8 wall: Right 6, Up 2, Left 6.
+- This will place me at (10, 7), ready to test the X=9 doors.
 
 <hr>
