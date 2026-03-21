@@ -116,7 +116,7 @@
 - 3F East side (X=16, 17) is blocked from going South by a solid horizontal wall of rubble at Y=9. The pit is South of Y=11. So you CANNOT reach the pit from the East side via the doors at (15, 4). This path is a dead end.
 - 3F West Wing (West of X=9) is ACCESSIBLE. I previously hallucinated it was blocked. I must thoroughly search this area (especially South of Y=10) for the true pit that drops into the B1F Secret Key room!
 [SECRET KEY PATH (PROVEN)]
-The Secret Key path continues North from the Far East room. The corridor goes North from Y=11 along X=26, then turns WEST at Y=6/Y=7 to reach the previously isolated Northwest area!
+The Secret Key path continues North from the Far East room. The corridor goes North from Y=11 along X=26, turns WEST at Y=6/Y=7, and leads to electronic doors at (9, 6)/(9, 7) that open into the isolated Northwest area!
 1. On 3F, navigate to the switch at (10, 5) and toggle to STATE B (opens 3F southern doors at 15, 11).
 2. Walk East through the gap at Y=11 to X=16, then South to the pit at (16, 14).
 3. Drop down the pit to the 1F enclosed area, then take stairs at (21, 23) down to B1F. (Arrive in State B).
