@@ -77,7 +77,7 @@
 - The NW area (North of Y=17, West of X=9) is completely walled off from the rest of B1F. Verified dead ends at Y=17 (solid table) and X=9 (solid wall).
 
 [Global Door States]
-- State A (CURRENT ACTIVE STATE): 
+- State A: 
   - 1F East doors (24, 13) OPEN.
   - 2F East doors (24, 13) OPEN.
   - 2F Northern doors (18, 8)/(19, 8) CLOSED.
