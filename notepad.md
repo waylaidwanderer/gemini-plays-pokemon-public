@@ -1459,7 +1459,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - To open the 1F East doors at (24, 13), the Mansion MUST be in STATE A.
 - There is NO switch on 2F! My previous notes about a 2F switch were hallucinations. The doors must be toggled from 3F (10, 4) or B1F.
 - 2F West Wing: The path North from the main stairs at (5, 10) is BLOCKED by a solid wall at Y=9. You MUST cross to the Central area via the gap at (8, 11), go North via X=10 to Y=4/Y=5, then cross BACK to the West Wing via the gap in the green pillars at (9, 4)/(9, 5) to reach the stairs at (6, 1).
-- 2F North-West doors are at (9, 4)/(9, 5). They are CLOSED in State B and OPEN in State A. To cross between West and Central in State B, you MUST use the gap in the pillars further South at Y=11.
+- 2F North-West doors are at (9, 4)/(9, 5). They are CLOSED in State B and OPEN in State A. TRAP WARNING: If you take the stairs down from 3F (6, 1) while in State B, you are TRAPPED in the 2F NW corner! The Y=9 wall blocks the path South to the Y=11 pillar gap. You MUST enter 2F via the 1F main stairs (5, 10) to explore 2F in State B.
 - The 2F West Wing and East Wing can also be connected by crossing the X=9 pillar gap at Y=11.
 - VERIFIED DEAD END: The Northern hallway at Y=2 is blocked by a solid wall at X=9. You cannot cross to the West Wing here. You MUST cross via the gap at Y=11.
 [Verified Dead Ends]
@@ -1496,5 +1496,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Progress: Disproved the 3F pit left-side theory. Confirmed top edge of pit is solid. The only remaining unexplored space is the 2F East Wing (South of the electronic doors at X=18, Y=8). I am heading there now to map it thoroughly.
 - Execution: I must remember that the East-West hallway on 3F North is at Y=2. (10, 3) is solid, likely due to the statue at (10, 4) having an extended collision box.
 - [Turn 45865 Reflection] I realized I mashed 'A' too many times at the 3F statue on Turns 45825-45828. I toggled it to State B and then immediately back to State A! The doors at 2F (18, 8) are CLOSED. I must return to 3F and carefully toggle the switch exactly ONCE.
+- [Turn 45885] TRAP DISCOVERED! I walked down the stairs from 3F (6, 1) to 2F while in State B. Because State B closes the doors at 2F (9, 5), and the Y=9 wall blocks the path South, the 2F NW corner becomes a dead-end trap! The only way to reach the 2F East Wing in State B is to enter from the 1F main stairs at (5, 10). I am using Dig to escape this trap and re-enter the Mansion properly.
 
 <hr>
