@@ -1562,5 +1562,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Resuming my route to the Far East corridor (X=26).
 - Route: Up 7 to (17, 18), Right 7 to (24, 18), Down 3 to (24, 21), Right 2 to (26, 21), Up 4 to (26, 17).
 - Executing: U 7, R 7.
+[Turn 47182 Reflection]
+- I am at B1F (17, 18).
+- The path East is clear. Route: Right 7 to (24, 18), Down 3 to (24, 21), Right 2 to (26, 21), Up 4 to (26, 17).
+- Executing: RRRRRRRDDDRRUUUU.
 
 <hr>
