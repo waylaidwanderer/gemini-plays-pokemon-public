@@ -4,8 +4,47 @@
 - In Turn 47289, I thought X=17 was a solid wall because my `LLLL...` macro failed to move me.
 - HOWEVER, I realized the macro aborted at button 1 because a wild Muk appeared!
 - I never actually tested walking Left! I just turned Left and the battle started.
-- Hypothesis: X=17 is NOT a solid wall. The central area (X=14 to X=19, Y=17 to Y=26) is all one connected room.
-- In State B, the horizontal doors at Y=16 are CLOSED, blocking the path North.
-- BUT, the vertical doors at X=13 (Y=22/Y=23) are OPEN in State B!
-- So the escape route is to walk Left from the switch to X=13, then go through the vertical doors to reach the X=10 corridor!
-- I will execute `LLLL` to verify that I can walk West across X=17.
+- In Turn 47295, I executed `LLLLUUULLU` to test walking West.
+- I successfully walked Left from (18, 26) to (16, 26)!
+- This PROVES X=17 is NOT a solid wall! The central area is all connected!
+- I walked Up to (16, 23).
+- Then I walked Left... and I BUMPED into (15, 23)!
+- Wait, I bumped into (15, 23)? Let me look at the screen for Turn 47295.
+- My character is at (16, 23) facing Left.
+- Why can't I walk Left to X=15?
+- Let me check my map notes: "The B1F South-West area (South of Y=22, West of X=13) is a complete dead end loop. It connects the gap at (10, 17) to the electronic doors at (13, 22)"
+- Is there a wall at X=15?
+- Look at the tile at (15, 23). It's labeled `TYPE_3fe2` (floor).
+- Look at the tile above it: (15, 22) `TYPE_3fe2`.
+- But look at the pixel art. There is a solid brown wall at X=15!
+- The wall runs vertically down X=15.
+- So I am at (16, 23). I cannot walk Left because of the wall at X=15.
+- I must walk Up to Y=22, then see if there's a gap!
+- Wait, the electronic doors are at (14, 16)/(15, 16).
+- The central switch is at (18, 25).
+- If the wall is at X=15, then X=16 and X=17 and X=18 are all one big hallway?
+- No, look at the screen!
+- At (16, 23), I am standing right below the top-left edge of the central room?
+- Let's re-examine the whole layout.
+- The horizontal doors are at (14, 16)/(15, 16) AND (18, 16)/(19, 16).
+- If I am at (16, 23), the wall to my left is X=15.
+- Does the wall at X=15 have a gap?
+- In Turn 47295 `turn_47295_9`, I pressed Up from (16, 23) but didn't move!
+- Ah! I bumped into (16, 22)!
+- Let's look at (16, 22) on the screen. It's labeled `TYPE_3fe2`.
+- But look at the pixel art: there is a desk/table at (16, 22)!
+- And standing behind that table is the Burglar (`SPRITE_cdfc`) at (16, 22)!
+- Wait, the Burglar is at (16, 22). He is facing Right.
+- The table is at (16, 22)? No, the table is at (16, 21)?
+- Let's look closely at `CurrentScreen turn="47295"`.
+- The Burglar sprite is at (16, 22). He is facing Down? No, he's facing Down. Wait.
+- My notes say: "Burglar trainer at (16, 22), facing Right. His line of sight covers Y=22."
+- If he's at (16, 22) and I am at (16, 23) facing Up, I am bumping into HIM!
+- Yes! `SPRITE_cdfc` is at (16, 22). I cannot walk Up through him!
+- How do I get past him?
+- I must walk Right, then Up, then Left to bypass him.
+- Let's trace a path: Right to (17, 23). Up to (17, 22). Left to (16, 22)... wait, he is at (16, 22).
+- Can I walk Left from (17, 22)?
+- The wall is at X=15. So (16, 22) is open, but he's standing on it.
+- Can I walk Up to (17, 21)?
+- Let's execute `RUU` to see if I can get above him.
