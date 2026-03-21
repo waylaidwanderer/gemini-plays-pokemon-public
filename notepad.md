@@ -1556,5 +1556,11 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   5. Go R 2 to (26, 21).
   6. Go U 4 to (26, 17) which should be OPEN doors.
 - Executing first part: L U8 R7.
+[Turn 47181 Reflection]
+- Cleared the wild Koffing encounter.
+- I am at B1F (17, 25).
+- Resuming my route to the Far East corridor (X=26).
+- Route: Up 7 to (17, 18), Right 7 to (24, 18), Down 3 to (24, 21), Right 2 to (26, 21), Up 4 to (26, 17).
+- Executing: U 7, R 7.
 
 <hr>
