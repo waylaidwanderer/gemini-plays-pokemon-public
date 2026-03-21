@@ -116,13 +116,10 @@
 - 1F Central Doors at (16, 7) lead to a dead-end hallway from Y=8 to Y=13. It is blocked at Y=13 by a solid wall. It DOES NOT connect to the 3F pit landing area (which is at 16, 14).
 - 3F East side (X=16, 17) is blocked from going South by a solid horizontal wall of rubble at Y=9. The pit is South of Y=11. So you CANNOT reach the pit from the East side via the doors at (15, 4). This path is a dead end.
 - 3F West Wing (West of X=9) is ACCESSIBLE. I previously hallucinated it was blocked. I must thoroughly search this area (especially South of Y=10) for the true pit that drops into the B1F Secret Key room!
-[SECRET KEY PATH (3F WEST WING PIT THEORY)]
-The B1F corridor at X=9 is a solid wall. The Secret Key is in the completely isolated B1F NW room. It MUST be accessed by dropping into a hidden pit in the 3F West Wing!
-1. The 3F West Wing (South of Y=6) is separated from the North by rubble.
-2. To reach it, start at the switch on 3F (10, 5).
-3. Walk SOUTH to (10, 7) to bypass the rubble.
-4. Walk WEST into the 3F West Wing (X < 10, Y=7).
-5. Search this area for the hidden pit!
-6. Dropping down this pit will land you in the isolated 1F NW area.
-7. Take the stairs down to B1F NW and claim the Secret Key!
+[SECRET KEY PATH (OVERLOOKED PIT DROP THEORY)]
+The B1F corridor at X=9 is a solid wall. The 3F West Wing is a confirmed dead end with no pit. The Secret Key MUST be accessed by an overlooked drop angle into the main 3F pit, or another unseen pit on 3F!
+1. The main 3F pit spans X=12 to X=17.
+2. Dropping into the right side (16, 14) lands you in the 1F enclosed area, leading to the B1F East side.
+3. Therefore, dropping into the LEFT side (e.g., X=12 or X=13) MUST land you in a DIFFERENT area on 1F that leads to the B1F NW room!
+4. Goal: Thoroughly inspect the 3F pit area and the walls around it to find a way to jump into its left side. Test every single tile on the top edge (Y=13) and left edge (X=11/12).
 - Diary located at 1F (18, 2): "Diary: July 5. Guyana, South America. A new POKEMON was discovered deep in the jungle."
