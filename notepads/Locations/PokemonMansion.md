@@ -124,5 +124,6 @@ The Secret Key path continues North from the Far East room. The corridor goes No
 4. On B1F, walk West to the central switch at (18, 25). Toggle to STATE A.
 5. Central doors (16, 16) are now CLOSED. Bypass them by walking North to (18, 22), West to X=13, and North through the OPEN vertical doors at (13, 22) into the SW loop.
 6. Follow the loop to the gap at (10, 17). Walk North to Y=14, East across X=20 to X=24, South to Y=18, then East to the doors at (26, 17).
-7. In STATE A, the doors at (26, 17) are OPEN. Walk North to the Northeast room. There is NO Secret Key here. The Northern corridor (X=10 to X=28) is a DEAD END in State A, blocked by CLOSED doors at (9, 6). The Secret Key MUST be accessed by dropping into the NW B1F room from the 3F West Wing pit! Use Dig to escape and head to 3F (6, 1) via the 2F NW stairs.
+7. In STATE A, the doors at (26, 17) are OPEN. Walk North into the isolated Northeast corridor. Walk West to X=13, North to Y=4, then East behind the table to find a HIDDEN SWITCH at (18, 3)!
+8. Toggle the switch at (18, 3) to STATE B. This closes the exit behind you but OPENS the doors at (9, 6), granting access to the Secret Key!
 - Diary located at 1F (18, 2): "Diary: July 5. Guyana, South America. A new POKEMON was discovered deep in the jungle."
