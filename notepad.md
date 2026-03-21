@@ -1545,5 +1545,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Turn 47397: Now that I am back in STATE B, I can escape the NE area via the Far East corridor. I am walking East to X=26, South to Y=18, West to X=24, North to Y=14, and then West across the central room to reach the West room at X=7.
 - Turn 47398 Reflection: My previous movement sequence failed because I miscounted the steps to X=26. I only sent 6 'Right's instead of 7, so I turned Right and walked 5 steps to (25, 4), then bumped into the table at (25, 5). I am retrying the movement to the Y=14 hallway now: R7, D15, L3, U5.
 - Turn 47398 Reflection: My previous movement sequence failed because I was facing DOWN at the start of the turn. The first 'Right' input just turned me. So 6 'Right's only moved me 5 steps to (25, 4), causing me to walk South into the Y=8 wall at X=25! I need 7 'Right's to reach X=26. I am executing this now to reach the Y=14 hallway.
+- Turn 47399 Reflection: I am executing the route to the West Room from the NE switch. I'm going R7, D15, L3, U5, L4 to safely navigate the Far East corridor and end up at (21, 14) facing Left, right in the main central hallway. From there I can proceed West.
 
 <hr>
