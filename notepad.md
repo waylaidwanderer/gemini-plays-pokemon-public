@@ -1543,5 +1543,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Turn 47393: I toggled the switch back to State B! This opens the Far East doors at (26, 17). My route to the West room (7, 15) is: Walk East to X=26, South to Y=18, West to X=24, North to Y=14, then West all the way across the central room to X=7!
 - Turn 47395: The text advanced to "Who wouldn't?". I am pressing A to select YES and toggle the switch.
 - Turn 47397: Now that I am back in STATE B, I can escape the NE area via the Far East corridor. I am walking East to X=26, South to Y=18, West to X=24, North to Y=14, and then West across the central room to reach the West room at X=7.
+- Turn 47398 Reflection: My previous movement sequence failed because I miscounted the steps to X=26. I only sent 6 'Right's instead of 7, so I turned Right and walked 5 steps to (25, 4), then bumped into the table at (25, 5). I am retrying the movement to the Y=14 hallway now: R7, D15, L3, U5.
 
 <hr>
