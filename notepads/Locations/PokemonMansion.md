@@ -116,9 +116,9 @@
 - 3F East side (X=16, 17) is blocked from going South by a solid horizontal wall of rubble at Y=9. The pit is South of Y=11. So you CANNOT reach the pit from the East side via the doors at (15, 4). This path is a dead end.
 - 3F West Wing (West of X=9) is a VERIFIED DEAD END. The path South is completely blocked by rubble at Y=6. The far West path at X=1 is also completely blocked by solid rubble from Y=4 to Y=7. No pit here.
 [Master Puzzle Solution (Verified Steps)]
-1. Reach 3F main switch at (10,4). Toggle to STATE B.
-2. 3F: Access pit at (16,14) via open South doors at (15,10). Jump down!
-3. 1F: Land in enclosed area. Take stairs at (23,22) to B1F.
-4. B1F: Toggle switch at (18,25) to STATE A.
-5. B1F: Vertical doors at X=13 open. Walk West through them to access the western half of B1F.
+1. Ensure Mansion is in STATE A (toggle B1F switch if trapped in State B).
+2. Enter 1F, climb to 3F (requires State A to bypass 2F Northern doors).
+3. Press 3F switch at (10, 4) to change to STATE B.
+4. Jump down 3F pit at (16, 14) to reach 1F enclosed area, then stairs to B1F.
+5. B1F is now in State B! The Far East doors at (26, 17) are OPEN. Walk straight to the Key!
 - Diary located at (18, 2): "Diary: July 5. Guyana, South America. A new POKEMON was discovered deep in the jungle."
