@@ -1492,6 +1492,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - I am abandoning the Far East room search completely. It is a verified red herring that wasted dozens of turns. I must remember to exhaustively check ALL floors for vertical transitions before assuming a puzzle is isolated to a single floor.
 - The Secret Key is the final item I need to access the Cinnabar Gym. I must find this alternative path quickly!
 [Turn 46270] Dropping down the far East side of the 3F pit at (19, 14) is a RED HERRING. It lands you in the 2F East Wing. I initially thought I was trapped, but the Northern doors at (18, 8) are OPEN in State B! I can simply walk around the table and exit North to head back to the 3F stairs. I will then test the LEFT side of the pit (X=12).
-[Turn 46284] I bumped into rubble at (3, 2). I cannot reach the (2, 5) switch from the North. The switch is in the SW corridor, which is accessed via the gap at (3, 11). Since I am North of the Y=9 dividing wall, I must walk back East to X=12, South to Y=11, West to X=2, and North to (2, 5).
+[Turn 46286] Realized a critical routing error. The SW corridor only reaches Y=10, so the switch at (2, 5) CANNOT be reached from the South. It must be reached from the North area! The path from (4, 2) is open: Down to (4, 5), Left to (3, 5), Down to (3, 6), Left to (2, 6). I am walking back North via X=12 to reach it.
 
 <hr>
