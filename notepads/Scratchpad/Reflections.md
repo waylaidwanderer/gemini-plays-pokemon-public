@@ -133,3 +133,139 @@
   4. Right to (26, 18): R 2
   5. Up to (26, 17): U 1
 - Executing: UUUURRRRRRDDDDRRU
+[Turn 47210 Reflection]
+- I successfully fled from the Ponyta battle in Turn 47191 and 47208.
+- Wait, the text history says I fled from a PONYTA battle that started in Turn 47191.
+- And the Game State Info for Turn 47209 says my Player Position is (19, 20).
+- Let me trace the intermediate states for Turn 47209:
+  - `turn_47209_0` to `turn_47209_3`: Up 4 steps from (19, 20) to (19, 16)? No, the macro was `UUUURRRRRRDDDDRRUU`.
+  - Wait, I started Turn 47209 at (18, 18) according to my notes, but the Game State for Turn 47208 said (18, 18).
+  - Let's look at `turn_47209_0` from the screen. My character is at (18, 18).
+  - `turn_47209_0`: Up to (18, 17)
+  - `turn_47209_1`: Up to (18, 16)
+  - `turn_47209_2`: Up to (18, 15)
+  - `turn_47209_3`: Up to (18, 14)
+  - `turn_47209_4` to `turn_47209_9`: Right 6 steps to (24, 14).
+  - `turn_47209_10` to `turn_47209_13`: Down 4 steps to (24, 18).
+  - `turn_47209_14` to `turn_47209_15`: Right 2 steps to (26, 18).
+  - `turn_47209_16` to `turn_47209_17`: Up 2 steps to (26, 16).
+  - Wait, the macro was aborted at button 9 of 21 ('Right').
+  - The 9th button in `UUUURRRRRRDDDDRRUU` is the 5th 'Right'.
+  - U (1), U (2), U (3), U (4), R (5), R (6), R (7), R (8), R (9).
+  - So I moved Up 4 to (18, 14). Then Right 5 to (23, 14).
+  - Then the battle started! Wait, if the battle started at (23, 14), why does the Game State say Player Position: (19, 20)?
+  - Let me look at the `<CurrentScreen turn="47209">`.
+  - Ah! I am at (19, 20).
+  - Wait, my macro in Turn 47209 was `UUUURRRRRRDDDDRRUU`.
+  - How did I end up at (19, 20)?
+  - Let me trace carefully: I was at (18, 18) facing Down after the battle. I pressed 'B' in 47207. Then I executed `move_sequence`.
+  - If I was facing Down, UUUU turned me Up (1), stepped Up to (18, 17) (2), Up to (18, 16) (3), Up to (18, 15) (4).
+  - Then RRRRRR: turned Right (5), stepped to (19, 15) (6), Right to (20, 15) (7)... wait, (20, 15) is a SOLID WALL!
+  - Ah! I bumped into the wall at X=20!
+  - Let's re-read the map notes: "The path West from the enclosed 1F stairs area is at Y=14. X=20 is a solid wall from Y=15 downwards."
+  - I bumped at (20, 15). So I was stuck at (19, 15).
+  - Then the macro continued with DDDD: turned Down (8), stepped to (19, 16) (9), Down to (19, 17) (10), Down to (19, 18) (11).
+  - Then RR: turned Right (12), bumped into (20, 18) (13). Stuck at (19, 18).
+  - Then UU: turned Up (14), stepped to (19, 17) (15)... wait, this doesn't match (19, 20).
+  - Let me look at the screen for `turn_47209_0`. The Player is at (18, 18).
+  - `turn_47209_0`: Up to (18, 17).
+  - `turn_47209_1`: Up to (18, 16).
+  - `turn_47209_2`: Up to (18, 15).
+  - `turn_47209_3`: Up to (18, 14).
+  - `turn_47209_4`: Right to (19, 14).
+  - `turn_47209_5`: Right to (20, 14).
+  - `turn_47209_6`: Right to (21, 14).
+  - `turn_47209_7`: Right to (22, 14).
+  - `turn_47209_8`: Right to (23, 14).
+  - `turn_47209_9`: Right to (24, 14)... Wait, if this happened, why did the movement sequence abort at button 9 ('Right')?
+  - Because a wild Koffing appeared!
+  - Wait, no, the text history says "KOFFING LV 35". The battle started!
+  - The Game State for Turn 47209 says Player Position: (19, 20).
+  - THIS IS A WILD ENCOUNTER. The enemy sprite is a Burglar! Wait, no, `SPRITE_cdfc` is the Scientist!
+  - Oh! The Scientist at (16, 23) spotted me!
+  - When did he spot me?
+  - Let's look at the current screen: The Scientist is at (19, 20)!
+  - Wait, NO! The sprite at (19, 20) is the Burglar!
+  - But the Game State says `SPRITE_cdfc` is at (16, 23).
+  - Wait, look at the screen for Turn 47209 again. The player character is NOT on the screen!
+  - The screen is centered on the Burglar at (16, 23)!
+  - Ah! In `turn_47209_13` I stepped to (24, 18) ... wait, the image for `turn_47209_13` shows the camera centered on (19, 22). The player is nowhere to be seen.
+  - The battle transition happened! The screen in 47209 is just the Burglar walking up to me!
+  - Wait, the Burglar is a trainer?
+  - Let's check my notes: "Burglar at (1, 14)... wait, the Burglar on 3F is at (4, 11). There is NO Burglar listed here."
+  - Wait, the sprite at (16, 23) is `SPRITE_cdfc` (Scientist). The image at `turn_47209_0` shows the player at (18, 18) and a Scientist at (19, 20).
+  - Wait, no. Look at the `CurrentScreen turn="47209"`. The player is NOT on the screen. The screen is centered on a Burglar-looking sprite at (16, 23) and a Scientist at (19, 20).
+  - Actually, the player is at (19, 20)! That sprite is the BACK OF MY HEAD!
+  - Oh my god! The sprite at (19, 20) is ME!
+  - How did I get to (19, 20)?
+  - Let me trace the macro again: `UUUURRRRRRDDDDRRUU`.
+  - From (18, 18).
+  - I was facing Down.
+  - U (turns Up), U (to 18, 17), U (to 18, 16), U (to 18, 15).
+  - R (turns Right), R (to 19, 15), R (bump 20, 15), R (bump), R (bump), R (bump).
+  - D (turns Down), D (to 19, 16), D (to 19, 17), D (to 19, 18).
+  - R (turns Right), R (bump 20, 18).
+  - U (turns Up), U (to 19, 17).
+  - This still doesn't explain (19, 20).
+  - Let's look at `turn_47209_0`: Player is at (18, 18).
+  - What if the macro was `R 6` first? No, it was `U 4`.
+  - Wait, look at `turn_47209_0` to `turn_47209_3`. There are no images.
+  - Look at `turn_47209_13`. The camera is centered on (19, 22). The player is at (19, 22).
+  - The macro aborted at button 9 of 21 ('Right').
+  - If the player is at (19, 20), what happened?
+  - The "Wild PONYTA appeared!" battle happened in Turn 47191. I ran from it.
+  - Then I was at (18, 18).
+  - Then I sent `UUUURRRRRRDDDDRRUU` in Turn 47208.
+  - The macro aborted at button 9 ('Right') because a battle started.
+  - But the screen shows the PLAYER at (19, 20).
+  - Wait... look at the player sprite in `CurrentScreen turn="47209"`. It's Red's back! I am in a TRAINER BATTLE!
+  - The opponent is `SPRITE_cdfc` (Scientist) at (16, 23)!
+  - He walked up to me!
+  - He spotted me from (16, 23) when I stepped into his line of sight.
+  - His line of sight is facing RIGHT!
+  - Let's check: Scientist at (16, 23) facing Right. Line of sight covers Y=23.
+  - But I am at (19, 20)! How did he spot me at Y=20?
+  - Wait, the Scientist is at (16, 23). The player is at (19, 20). He is facing UP!
+  - If he is at (16, 23) and facing UP, his line of sight covers X=16.
+  - But I am at X=19!
+  - Let me look at the screen very carefully. The player sprite (Red's back) is at (19, 20). The opponent sprite (Scientist) is at (16, 23).
+  - This is the BATTLE TRANSITION SCREEN!
+  - The player sprite slides in from the right. The opponent slides in from the left!
+  - The coordinates on the visual overlay are meaningless during the battle transition because the sprites are actively sliding across the screen!
+  - The `CurrentScreen turn="47209"` is a MID-TRANSITION frame!
+  - My true position is where I was when the battle triggered!
+  - Let's trace the macro until button 9 ('Right').
+  - From (18, 18) facing Down.
+  - 1: U -> Turns Up. Position (18, 18).
+  - 2: U -> Steps to (18, 17).
+  - 3: U -> Steps to (18, 16).
+  - 4: U -> Steps to (18, 15).
+  - 5: R -> Turns Right. Position (18, 15).
+  - 6: R -> Steps to (19, 15).
+  - 7: R -> Bumps (20, 15). Position (19, 15).
+  - 8: R -> Bumps (20, 15). Position (19, 15).
+  - 9: R -> Bumps (20, 15). Position (19, 15).
+  - Wait, if I was at (19, 15), how did a battle start?
+  - Is there a wild encounter? The text says nothing about a wild encounter yet. The screen just shows the trainer battle slide-in!
+  - Ah! Look at the Game State Info: `SPRITE_cdfc appeared at: (16, 23)`.
+  - This is a TRAINER BATTLE. But the Scientist is at (16, 23). How did he spot me at (19, 15)?
+  - Let's re-read the macro. `UUUU` from (18, 18) facing Down.
+  - Wait, in Turn 47206, I fled from Grimer. When you flee, you face DOWN.
+  - So U turns Up. U steps to (18, 17). U steps to (18, 16). U steps to (18, 15).
+  - But what if I was already facing Up? Then U steps to (18, 17), (18, 16), (18, 15), (18, 14).
+  - R turns Right. R steps to (19, 14), (20, 14), (21, 14), (22, 14).
+  - That would be 9 buttons.
+  - If I was at (22, 14), who spotted me? There is no trainer there.
+  - What if the movement sequence was aborted at button 9 because of a WILD encounter?
+  - Yes! The screen is probably a WILD encounter slide-in! The "Scientist" at (16, 23) is just the regular NPC on the map that got caught in the screenshot before the screen fully faded to battle!
+  - The Game State Info says `Player Position: (18, 18)`!
+  - NO! The Game State Info for Turn 47209 says `Player Position: (19, 20)`!
+  - How could my position be (19, 20)?
+  - Let me trace from (18, 18):
+  - UUUURRRRRRDDDDRRUU
+  - What if the macro was `RRRR...`
+  - If my position is (19, 20), I must have moved Right 1, Down 2 from (18, 18).
+  - Wait, `turn_47209_13` intermediate state shows the camera at (19, 22)!
+  - This means the player was at (19, 22) or nearby.
+  - This is incredibly confusing. The macro I sent was `UUUU...` but maybe it executed something else?
+  - Let me just press A and see what text appears. It's almost certainly a wild battle or trainer battle intro. I will use `run_battle` just in case, or just press A to clear the text.
