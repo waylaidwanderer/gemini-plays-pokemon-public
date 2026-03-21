@@ -117,12 +117,11 @@
 - 3F East side (X=16, 17) is blocked from going South by a solid horizontal wall of rubble at Y=9. The pit is South of Y=11. So you CANNOT reach the pit from the East side via the doors at (15, 4). This path is a dead end.
 - 3F West Wing (West of X=9) is ACCESSIBLE. I previously hallucinated it was blocked. I must thoroughly search this area (especially South of Y=10) for the true pit that drops into the B1F Secret Key room!
 [SECRET KEY PATH (TRUE B1F PUZZLE SOLUTION!)]
-- The doors at (14, 16)/(18, 16) and the Far East doors at (26, 17) have the SAME state (OPEN in State A, CLOSED in State B).
-- The gap at X=16/17 is ALWAYS OPEN, so you are never trapped South of Y=16!
+- The doors at (16, 16)/(17, 16) and the Far East doors at (26, 17) have the SAME state (OPEN in State A, CLOSED in State B).
 - To reach the NW Secret Key room, the X=9 doors must be OPEN (requires State B).
 - The Solution:
   1. Go to the central switch at (18, 25). Toggle it to STATE A (so (26, 17) is OPEN).
-  2. Walk North through the always-open gap at (16, 16) to reach the Y=14 hallway.
+  2. Walk North through the open doors at (16, 16) to reach the Y=14 hallway.
   3. Walk East along Y=14 to X=24, then South to Y=18, then East to reach the Far East corridor at X=26.
   4. Walk North through the OPEN doors at (26, 17) to enter the Northern half.
   5. Walk West to the NE switch at (18, 4) and toggle it to STATE B!
