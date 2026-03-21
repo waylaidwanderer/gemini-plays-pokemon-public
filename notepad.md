@@ -1493,5 +1493,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Execution: I successfully deciphered the Master Puzzle Solution for the Pokemon Mansion! The Secret Key is in the isolated NW corner of B1F, accessed via a long hidden corridor connecting from the Far East room.
 - Error Analysis: I severely violated my "Exhaustive Exploration" rule by entering the Far East room, seeing nothing immediately, and leaving without checking the perimeter. This caused me to miss the Y=7 corridor completely and wasted a lot of turns. I must ALWAYS walk the entire perimeter of a new room.
 - Next Steps: Executing the final sequence to claim the Secret Key, then escaping the Mansion to finally challenge the Cinnabar Gym!
+[Turn 46178] The item ball at (10, 2) in B1F was a Rare Candy, NOT the Secret Key. The actual NW room is West of X=9. I am testing if the vertical doors at (9, 6)/(9, 7) are open or closed in State A.
 
 <hr>
