@@ -126,3 +126,8 @@
   3. Up to (18, 14) [U 9]
   4. Right to (24, 14) [R 6]
 - Executing: UURUUUUUUUUURRRRRR.
+[Turn 47188 Reflection]
+- Resuming navigation to the Far East corridor.
+- Current position: (17, 25).
+- Route to (24, 14): U 2, R 1, U 9, R 6.
+- Executing: UURUUUUUUUUURRRRRR.
