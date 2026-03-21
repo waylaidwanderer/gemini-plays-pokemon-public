@@ -1486,6 +1486,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 
 <h1><code>Scratchpad/Reflections</code></h1>
 
-- Hypothesis: The solid wall I previously noted at X=9 on B1F might actually be an electronic door that was CLOSED in State B! Since the Mansion is currently in State A, I am going to walk West along the Y=14 corridor to test if X=9 is open now. If it is, the Secret Key is definitely in there!
+- Hypothesis DEBUNKED: I bumped into X=9 at Y=14 twice, confirming it is indeed a solid wall of green pillars, not a closed electronic door.
+- The NW area of B1F is still isolated. I am going to walk straight North along the X=10 corridor to see if there is an opening near Y=8 or Y=9 that grants access to the Secret Key!
 
 <hr>
