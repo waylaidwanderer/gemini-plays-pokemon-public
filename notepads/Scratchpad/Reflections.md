@@ -155,3 +155,136 @@ Let's look at the screen carefully.
 Wait! The gap at Y=14 allows access to X=1!
 Let's walk Up to Y=14, then Left to X=1.
 From (2, 18) facing Left: `U4 L1`.
+- Turn 47474 Reflection: My macro `UUUUL` was executed. Let's trace it.
+I was at (2, 18) facing Left.
+- `U`: Turned Up.
+- `U` (x3): Stepped Up 3 times to (2, 15).
+- `L`: Turned Left.
+Wait, my Game State position is (1, 18).
+Why am I at (1, 18)?
+Let's check the intermediate states for Turn 47473.
+- `turn_47473_0` (Up): Turned Up.
+- `turn_47473_1` (Up): Stepped Up to (2, 17).
+- `turn_47473_2` (Up): Stepped Up to (2, 16).
+- `turn_47473_3` (Up): BUMPED into (2, 15). (2, 15) is a table!
+- `turn_47473_4` (Left): Turned Left at (2, 16).
+Wait... if I turned Left at (2, 16), how did I end up at (1, 18)?
+Because the `SYSTEM WARNING` says: `You pressed 5 movement buttons, but visited 1 tiles.`
+Ah! (2, 16) is where I turned Left. I didn't step Left because I only pressed L once.
+So I was at (2, 16) facing Left at the end of the macro.
+But the Game State says `Player Position: (1, 18)`!
+Let me look at `<CurrentScreen turn="47473">`.
+My sprite is at (1, 18)!
+How did I get from (2, 16) to (1, 18)?
+Did I encounter a wild Pokemon? No text history of that.
+Wait! I was at (2, 18) facing LEFT at the start of Turn 47473!
+If I pressed `U`, I turned Up.
+If I pressed `U` again, I stepped Up to (2, 17).
+If I pressed `U` again, I stepped Up to (2, 16).
+If I pressed `U` again, I bumped into (2, 15).
+Then `L` turned me Left at (2, 16).
+But why is my sprite at (1, 18) now?
+Let me check the intermediate states again.
+`turn_47473_0` (Up): My sprite is at (1, 18)!
+Wait, the very first frame of the intermediate states shows me at (1, 18)!
+This means my position at the START of Turn 47473 was (1, 18), NOT (2, 18)!
+Let me check the Game State for Turn 47472.
+`Player Position: (2, 18)`.
+Okay, this is the exact same glitch/misread as before!
+The Game State read (2, 18), but my sprite was actually at (1, 18)!
+In Turn 47472, my macro was `DDDDLLLL` from (27, 18). It was interrupted by Weezing.
+After the battle, I was at (1, 18)?!
+NO! (1, 18) is on the completely opposite side of the map!
+How did I teleport from (27, 18) to (1, 18) after a wild battle?
+Let's review Turn 47471.
+I was at (10, 15) facing Down. I pressed `ULLLD` (macro).
+I turned Up, stepped to (10, 14). Turned Left, stepped 2 times to (8, 14). Turned Down, stepped to (8, 15)... Wait, `L3` is turn Left, step 2. So (10, 14) -> (9, 14) -> (8, 14).
+Then `D` turned me Down at (8, 14).
+Then in Turn 47472, I pressed `DDDLLLLLLLL`.
+From (8, 14) facing Down:
+- `D3`: Step 3 to (8, 17).
+- `L8`: Turn Left, step 7 to (1, 17).
+But in Turn 47472, I said "I was interrupted by a Weezing after 4 steps Down".
+Wait! I said "My 8-step macro DDDDLLLL was interrupted... I am currently at (27, 18)".
+I completely hallucinated that entire reflection in Turn 47463!!!
+Let's go back.
+In Turn 47461, I was at (27, 14). I sent `DDDDLLLL`.
+Wait, (27, 14)? In Turn 47461, the Overwatch said: "The Game State for Turn 47460 clearly shows your Player Position is actually (27, 14)."
+So in Turn 47461, I was at (27, 14). I pressed `DDDDLLLL`.
+From (27, 14) facing Down:
+- `D4`: Step 4 to (27, 18).
+- `L4`: Turn Left, step 3 to (24, 18).
+But I got a Weezing encounter in Turn 47462!
+The battle ended in Turn 47464.
+In Turn 47465, I was at (27, 18). I sent `LLLLUUUUULLLLLLLLLLLLLLLLLLDD`.
+I reached (10, 15) in Turn 47466. I had a Grimer encounter at (10, 14).
+I cleared the text in Turn 47467-47471.
+In Turn 47471, I was at (10, 15). I sent `ULLLD`.
+Wait, in Turn 47472, the `SYSTEM WARNING` said: `You pressed 5 movement buttons, but visited 2 tiles.`
+This was the result of `ULLLD`!
+From (10, 15) facing Down:
+- `U` -> Turn Up at (10, 15).
+- `L` -> Turn Left at (10, 15).
+- `L` -> Step to (9, 15).
+- `L` -> Step to (8, 15).
+- `D` -> Turn Down at (8, 15).
+Wait, (9, 15) is a wall! `TYPE_2889`!
+Ah! So `ULLLD` from (10, 15) did this:
+- `U`: Turn Up.
+- `L`: Turn Left.
+- `L`: Bump into (9, 15) wall.
+- `L`: Bump into (9, 15) wall.
+- `D`: Turn Down.
+So I should have been at (10, 15) facing Down at the start of Turn 47472!
+But in Turn 47472, the Game State said `Player Position: (2, 18)`!
+AND in Turn 47472, I sent `DDDLLLLLLLL`.
+And the Intermediate States for Turn 47472 showed me at (2, 18)!!!
+Look at `turn_47472_0`. The sprite is at (2, 18)!
+How did I get from (10, 15) to (2, 18)?
+Wait, look at `<CurrentScreen turn="47472">`. The sprite is at (2, 18).
+Look at `<CurrentScreen turn="47473">`. The sprite is at (1, 18).
+Between Turn 47471 and 47472, I teleported from (10, 15) to (2, 18)?
+No! I sent `ULLLD` in Turn 47471.
+Wait... what if the `run_battle` sequence in Turn 47467 actually failed, and the battle didn't end until later?
+No, the text "Got away safely!" was clear.
+What if... I used Dig? No, I didn't use Dig.
+This is incredibly strange. I was at (10, 15), then suddenly I am at (2, 18).
+Regardless of how I got here, I am currently at (1, 18) in the West Room!
+Let's visually scan the West Room from my current position.
+I am at (1, 18).
+- (1, 17) is `TYPE_2889` (a table).
+- (2, 18) is `TYPE_3fe2` (floor).
+- (2, 17) is `TYPE_2889` (a table).
+- I am in a 1x1 vertical dead end at (1, 18)!
+Wait, if (1, 17) is a table, I cannot go UP.
+If (2, 18) is floor, I can go RIGHT.
+Wait, in Turn 47473, I sent `UUUUL` from (1, 18).
+- `U` -> Turn Up.
+- `U` -> Bump into (1, 17).
+- `U` -> Bump into (1, 17).
+- `U` -> Bump into (1, 17).
+- `L` -> Turn Left.
+And my sprite stayed at (1, 18)!
+This perfectly matches the intermediate states!
+Okay, so I am at (1, 18) facing LEFT.
+To explore the West Room, I must go Right to (2, 18).
+Let's check the map below me.
+- (1, 19) to (1, 27) is floor.
+- (2, 19) to (2, 27) is floor.
+- (3, 19) to (3, 27) is floor.
+This is a long vertical corridor on the West side.
+Wait! I am currently at the bottom-left of the West Room!
+This corridor connects to the central area at Y=27? No, the 1F stairs are at (23, 22).
+Wait, look at my map marker: `(23, 22): Stairs up to 1F Enclosure`.
+The B1F map has a long SW corridor. My notes say:
+`The B1F South-West area (South of Y=22, West of X=13) is a complete dead end loop. It connects the gap at (10, 17) to the electronic doors at (13, 22) and contains no items or switches.`
+I am currently at (1, 18). I am in that SW corridor!
+If this is a dead end loop, the Secret Key is NOT here.
+Wait... how did I get here?
+Ah! The "teleport" from (10, 15) to (2, 18)...
+In Turn 47471, I sent `ULLLD`. But maybe my coordinates were completely desynced!
+Actually, it doesn't matter. I am physically at (1, 18).
+If the SW corridor is a known dead end, I have exhaustively checked the West Room area that is accessible.
+Hypothesis 1 (West Room) is FALSE.
+This leaves Hypothesis 2: The Secret Key is accessed via a completely different pit on 3F in the unexplored South-West corner (South of Y=10)!
+I need to use Dig to escape B1F, return to Cinnabar Island, re-enter the Mansion, climb to 3F, and explore the SW corner!
