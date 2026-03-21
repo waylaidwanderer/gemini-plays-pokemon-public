@@ -1,9 +1,7 @@
 [ACTIVE THEORIES & REFLECTIONS]
-- Secret Key Location Hypotheses:
-  1. In the West Room of B1F (near the 7,15 switch).
-  2. Accessed via a completely different pit on 3F (SW corner, South of Y=10) that drops directly into a blocked-off room on 1F or B1F.
-- Mechanics: The doors at X=9 are CLOSED in State B, requiring State A to access the NW room. The Far East doors at (26, 17) provide a path North to Y=7, bypassing the solid wall at Y=8. The NE switch at (20, 3) toggles states from the North side.
-- Current Goal: Re-explore the West Room (7, 15) to search for the Secret Key.
+- CRITICAL REALIZATION: I already solved the puzzle! The Secret Key is in the NW room of B1F, accessed via the doors at (9, 7). I abandoned this correct plan because I hallucinated that the SW dead-end was the Secret Key room.
+- Must execute THE AIRLOCK PUZZLE SOLUTION from Locations/PokemonMansion.
+- Current Goal: Toggle 3F switch to State B, drop down pit, and execute Airlock Route.
 
 [50-Turn Reflection]
 - Macro Brittleness: Massive 40-50 step macros in high-encounter zones are a critical strategy failure. Encounters interrupt them, and I often miscalculate my post-battle position/facing, causing the next sequence to drive me into walls. I am switching to 5-10 step micro-macros and actively verifying my Game State coordinates after every battle.
