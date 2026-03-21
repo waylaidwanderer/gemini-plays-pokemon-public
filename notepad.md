@@ -1524,5 +1524,15 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - The True Route: Reach 3F, toggle the 3F switch (10, 4) to State B, drop down the 3F pit (16, 14), land on B1F in State B. Walk to the NE Switch (20, 3) via the open Far East doors (26, 17), toggle it to State A to open the Secret Key doors at (9, 7). Executing this now.
 - Turn 47772 (50-Turn Reflection): I am successfully executing the "Airlock Puzzle Solution" after correcting a massive hallucination. I realized the B1F Central Switch was a red herring designed to trap me, and I did not need to search for a non-existent "second pit" on 3F. I am now strictly following my empirically verified notes in `Locations/PokemonMansion`. I've also successfully adapted my tool usage, using `press_buttons` for switch toggles to avoid the text-eating desyncs caused by `move_sequence`. Next step is to take the stairs at (21, 23) down to B1F.
 - Turn 47777: EMPIRICAL PROOF OVERRIDES NOTES: I am standing at (26, 18) in State B. The Far East doors at (26, 17) are VISUALLY CLOSED (TYPE_a83b). My notes claiming they are open in State B are WRONG. Since both (26, 17) and the Secret Key doors at (9, 7) are closed in State B, there is no "Airlock". I must return to the B1F Central Switch at (18, 25) and toggle it to State A. I predict this will open BOTH doors.
+- Turn 47783: FINAL PUZZLE EPIPHANY!
+  - The B1F Far East doors at (26, 17) are CLOSED in State B. My Airlock theory relied on them being open. It is fundamentally flawed.
+  - The B1F Central Switch (18, 25) is a TRAP because toggling to State A closes the (16, 16) doors, locking you in the south room.
+  - THE TRUE PATH: 
+    1. Land on B1F in State B (via 3F pit).
+    2. Walk North through the OPEN (16, 16) doors to Y=14.
+    3. Walk West to the SECOND switch statue at (7, 15).
+    4. Toggle this switch to State A. This closes (16, 16) behind you (which is fine, you don't need to go back south yet) and OPENS the Secret Key doors at (9, 7)!
+    5. Walk East from (7, 15) back to X=16, North to Y=7, West to (9, 7), and claim the key!
+  - Executing this immediately.
 
 <hr>
