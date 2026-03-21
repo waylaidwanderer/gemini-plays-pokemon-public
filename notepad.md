@@ -1618,5 +1618,15 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   4. Right to (26, 18): R 2
   5. Up to (26, 17): U 1
 - Executing: UUUURRRRRRDDDDRRU
+[Turn 47209 Reflection]
+- I successfully cleared the "Got away safely!" text.
+- Current position: B1F (18, 18).
+- Resuming route to Far East doors at (26, 17):
+  1. Up to (18, 14): U 4
+  2. Right to (24, 14): R 6
+  3. Down to (24, 18): D 4
+  4. Right to (26, 18): R 2
+  5. Up to (26, 17): U 1
+- Executing: UUUURRRRRRDDDDRRU
 
 <hr>
