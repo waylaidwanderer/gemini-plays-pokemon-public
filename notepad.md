@@ -1485,7 +1485,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 <h1><code>Scratchpad/Reflections</code></h1>
 
 [ULTIMATE SECRET KEY PLAN]
-The B1F dual-switch routing is a trap. Toggling State A on B1F traps you on the West side. 
 The foolproof solution relies on the fact that the 3F pit drop at (16, 14) can be reached in STATE A by walking through the permanent gap at Y=11.
 
 Sequence:
@@ -1500,6 +1499,5 @@ Sequence:
 9. Take the stairs at (21, 23) down to B1F.
 10. Walk East to X=24, South to Y=18, then East to the Far East doors at (26, 17).
 11. Since the Mansion is in STATE A, the doors will be OPEN! Claim the Secret Key!
-- [Turn 46416] Realized the Western Switch at (7, 15) is completely inaccessible, blocked by a solid wall at X=9. The dual-switch plan is impossible. I MUST use the Ultimate Secret Key Plan (Dig out and re-enter in State A).
 
 <hr>
