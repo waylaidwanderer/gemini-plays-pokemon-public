@@ -1,3 +1,1 @@
-- Active Hypothesis: The Far East doors at (26, 17) are OPEN in State A. Currently walking south from (26, 12) to empirically verify this fact.
-- The B1F Routing Trap hypothesis has been proven false due to coordinate miscalculations (the doors are at X=14/15 and X=18/19, not X=16/17). The correct information has been synthesized into the permanent Locations/PokemonMansion notepad.
-- Testing if the SW loop (X=10) connects North to Y=14.
+- Hypothesis: The solid wall I previously noted at X=9 on B1F might actually be an electronic door that was CLOSED in State B! Since the Mansion is currently in State A, I am going to walk West along the Y=14 corridor to test if X=9 is open now. If it is, the Secret Key is definitely in there!
