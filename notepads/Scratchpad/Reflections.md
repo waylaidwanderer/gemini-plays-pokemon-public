@@ -40,3 +40,8 @@
 - I had a moment of confusion and tried to walk back to the switch. The Mansion is ALREADY in State A!
 - I am at (18, 14). I need to continue my journey to the Far East room.
 - Route: Walk East to (24, 14), then South to Y=18, then East to the doors at (26, 17), which are OPEN in State A.
+[Turn 46994 Reflection]
+- EPIPHANY 3: The "Airlock" theory was slightly wrong. The corridor is NOT an airlock where one door is open and the other is closed. BOTH the entrance at (26, 17) and the exit at (9, 7) are OPEN in State A! 
+- The hidden switch at (18, 3) is a TRAP. Pressing it toggles the Mansion to State B, which CLOSES both doors, trapping you in the corridor (or locking you out of the Secret Key room if you were just outside it).
+- I have successfully toggled the Mansion back to State A. The path to the Secret Key is now wide open.
+- Goal: Walk West from (13, 7) to the doors at (9, 7) and claim the key!
