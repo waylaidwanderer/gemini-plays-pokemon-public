@@ -22,6 +22,7 @@
 - Journey to Celadon City Start: Turn 9075
 - Silph Scope Retrieval (Backtracking): Turn 11929
 - Safari Zone True Path Run Start: Turn 31428
+- Ultimate Secret Key Plan Execution Start: Turn 46422
 
 [HMs]
 - HM01 (Cut): Taught to Audrey (Bellsprout).
