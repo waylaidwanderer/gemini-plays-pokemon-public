@@ -1593,5 +1593,13 @@ Route to West Room (7, 15):
 - Walk Left 17 to (7, 14)
 - Walk Down 1 to (7, 15)
 Sequence: `D18 L3 U5 L18 D2` -> `DDDDDDDDDDDDDDDDDD LLL UUUUU LLLLLLLLLLLLLLLLLL DD`.
+- Turn 47429 Reflection: The battle text "Got away safely!" cleared. I am at (26, 1) facing Down. I will resume my route to the West Room (7, 15).
+Route from (26, 1) facing Down:
+- D17 to (26, 18)
+- L2 to (24, 18)
+- U4 to (24, 14)
+- L17 to (7, 14)
+- D1 to (7, 15)
+Sequence: `DDDDDDDDDDDDDDDDD LLL UUUUU LLLLLLLLLLLLLLLLLL DD`.
 
 <hr>
