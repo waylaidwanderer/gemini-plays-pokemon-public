@@ -1545,5 +1545,6 @@ Let's recalculate the path to the West Room (7, 15) from (26, 1) facing Left.
 - L17 to (7, 14) -> 18 `Left` presses.
 - D1 to (7, 15) -> 2 `Down` presses.
 Sequence from (26, 1) facing Left: `DDDDDDDDDDDDDDDDDD LLL UUUUU LLLLLLLLLLLLLLLLLL DD`
+- Turn 47445 Reflection: I realized I am STILL at (20, 1)! I hallucinated moving to (26, 1) because my movement tool call failed back in Turn 47439 due to a notepad overwrite confirmation, but I assumed it succeeded. I have been trapped behind the switch statue this whole time. I will clear the battle text with B presses, then I must carefully walk Right to escape (20, 1).
 
 <hr>
