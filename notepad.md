@@ -1764,5 +1764,21 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   - This means the player was at (19, 22) or nearby.
   - This is incredibly confusing. The macro I sent was `UUUU...` but maybe it executed something else?
   - Let me just press A and see what text appears. It's almost certainly a wild battle or trainer battle intro. I will use `run_battle` just in case, or just press A to clear the text.
+[Turn 47211 Reflection]
+- I am in a TRAINER BATTLE with the Scientist at (16, 23).
+- My position is (19, 20). He spotted me as I was walking Down X=19.
+- Wait, I was walking Down X=19?
+- My macro `UUUURRRRRRDDDDRRUU` from (18, 18):
+  - U 4 to (18, 14)
+  - R 1 to (19, 14)
+  - Oh! The wall at Y=15 extends to X=20! So (19, 14) is above the wall.
+  - The path is at Y=14.
+  - So from (19, 14) I should be able to walk Right to (20, 14) etc.
+  - But what if I bumped into something else?
+  - The Game State confirms I am at (19, 20) and the Scientist `SPRITE_cdfc` appeared at (16, 23).
+  - This means I am currently in a trainer battle! The screen shows the battle transition.
+  - I need to press A to advance the text and start the battle, then fight the Scientist!
+  - I cannot use `run_battle` on a trainer. I must defeat him.
+  - I will press A to advance the "Scientist wants to fight!" text.
 
 <hr>
