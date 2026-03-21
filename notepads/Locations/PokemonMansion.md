@@ -117,18 +117,14 @@
 - 3F East side (X=16, 17) is blocked from going South by a solid horizontal wall of rubble at Y=9. The pit is South of Y=11. So you CANNOT reach the pit from the East side via the doors at (15, 4). This path is a dead end.
 - 3F West Wing (West of X=9) is ACCESSIBLE. I previously hallucinated it was blocked. I must thoroughly search this area (especially South of Y=10) for the true pit that drops into the B1F Secret Key room!
 [SECRET KEY PATH (TRUE B1F PUZZLE SOLUTION!)]
-- State A: Horizontal doors at (14, 16)/(18, 16) are OPEN. X=9 doors are OPEN.
-- State B: Horizontal doors at (14, 16)/(18, 16) are CLOSED. X=9 doors are CLOSED.
-- The gap at X=16/17 is ALWAYS OPEN. You can always cross North/South here regardless of state!
-- The Far East doors at (26, 17) are a RED HERRING! They lead to a dead end. Do not go there.
-- The Solution:
-  1. Go to central switch at (18, 25). Toggle to STATE B. (Horizontal doors CLOSE, but vertical doors at (13, 22) OPEN).
-  2. Walk West through the (13, 22) vertical doors, follow the path North to the Y=14 hallway.
-  3. Walk East along Y=14 to X=18. (You have now bypassed the closed horizontal doors and are in the Northern half of the Central Room!)
-  4. Walk North along X=18 to Y=4, then East to the switch at (20, 3) and toggle it to STATE A!
-  5. State A opens the X=9 electronic doors!
-  6. Walk West to the X=9 electronic doors (by going South around the central room, or finding a path).
-  7. Enter NW room and claim Secret Key!
+- The entire B1F puzzle is much simpler than previously thought!
+- When you drop down the 3F pit, you are forced to leave the Mansion in STATE B.
+- In State B, the (9, 7) doors to the Secret Key are CLOSED.
+- The solution is simply to toggle the Central Switch at (18, 25) to STATE A.
+- In State A, the (9, 7) doors are OPEN, and the horizontal doors at (14, 16)/(18, 16) are OPEN.
+- So you can just walk North from the Central Switch through the open horizontal doors, West along Y=14, and North along X=9 straight to the Key!
+- The switches at (18, 3) and (20, 3) are completely unnecessary and lead to confusing dead ends and traps!
+- If trapped in the NE area (doors at 26, 17 closed), press the East switch at (20, 3) to return to State A and escape.
 - Diary located at 1F (18, 2): "Diary: July 5. Guyana, South America. A new POKEMON was discovered deep in the jungle."
 - Burglar trainer at (16, 22), facing Right. His line of sight covers Y=22.
 - B1F NE Area: The switch statue is at (18, 3) and must be interacted with from (18, 4). There is a long horizontal table at Y=5 blocking access from Y=6. You must go around the table on the East side (around X=25/X=26) to reach the Y=4 hallway.
