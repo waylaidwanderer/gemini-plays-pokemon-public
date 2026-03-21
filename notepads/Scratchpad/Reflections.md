@@ -81,3 +81,7 @@
 - Menu Navigation Correction: In Turn 47061, I was actually in GYE's sub-menu, not the main party menu. My inputs (`Up`, `Up`, `A`) hit the top of the sub-menu (which doesn't wrap) and selected FLY.
 - As a result, I got the "GYE can't FLY here." message.
 - I need to clear this message first, then properly navigate to Dugtrio to use Dig.
+[Turn 47069]
+- Dig successfully escaped the Mansion! 
+- The Mansion is currently in STATE B (set in Turn 47026).
+- I must toggle it back to STATE A using the 1F switch at (2, 5) before going up to 2F!
