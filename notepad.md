@@ -1489,9 +1489,9 @@ The Secret Key path continues North from the Far East room. The corridor goes No
 
 <h1><code>Scratchpad/Reflections</code></h1>
 
-[50-Turn Reflection]
-1. Error Analysis: The Left Pit Hypothesis is FALSE. A railing at Y=13 blocks access to the left side of the 3F pit. Dropping down the right side at (16, 14) only leads to the B1F Far East dead end.
-2. New Hypothesis: The TRUE pit must be in the isolated 3F room accessed via the stairs at 1F (7, 10) -> 2F (7, 10). I previously marked this as a "verified dead end (no pit)", but my track record with exhaustive exploration is poor. This room lies directly above the B1F NW Secret Key room.
-3. Next Steps: Return to 1F and take the stairs at (7, 10) to thoroughly sweep the isolated 3F room for a pit or hidden stairs.
+[THE ULTIMATE EPIPHANY]
+1. Error Analysis: I dismissed the isolated 3F room (accessed via 1F 7,10) as a "dead end" because it was walled off from the EAST, preventing access to the main pit. I blindly assumed the main pit was the ONLY pit!
+2. The Realization: The Secret Key is in the WEST side of B1F. Therefore, the pit must be on the WEST side of 3F. The isolated 3F room contains X=1 to X=10, Y=8 to Y=16 (where I found a Max Potion and a Diary earlier). This is a massive area! It MUST contain its own pit leading to the B1F NW room.
+3. Plan: Use Dig to escape, re-enter 1F, take stairs at (7, 10) to the isolated 3F room, and thoroughly search it for the true pit!
 
 <hr>
