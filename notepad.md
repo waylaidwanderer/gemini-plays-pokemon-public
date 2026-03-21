@@ -1528,5 +1528,9 @@ The Secret Key path continues North from the Far East room. The corridor goes No
 5. Walk North into the isolated Northeast corridor.
 6. SEARCH FOR A SWITCH in this corridor! Toggle it to STATE B!
 7. The doors at (9, 6) will open, granting access to the Secret Key!
+[Turn 46949 Reflection]
+- I had a moment of confusion and tried to walk back to the switch. The Mansion is ALREADY in State A!
+- I am at (18, 14). I need to continue my journey to the Far East room.
+- Route: Walk East to (24, 14), then South to Y=18, then East to the doors at (26, 17), which are OPEN in State A.
 
 <hr>
