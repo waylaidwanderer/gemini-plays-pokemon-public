@@ -9,3 +9,7 @@
   2. Go to 2F, walk through open NW doors at (9, 4).
   3. Take 2F NW stairs at (6, 1) up to the 3F NW room.
   4. Search the 3F NW room thoroughly for the final pit!
+[Turn 47077 Reflection]
+- Hallucination Check: The overwatch agent flagged a turn mismatch. In Turn 47076, I thought I pressed 'A' to clear the text box. However, looking at the Turn 47076 Game State, I am STILL at (18, 5) and the screen STILL shows the "The door is locked..." text box.
+- My 'A' press in Turn 47076 must have been eaten because the text box was still animating or waiting.
+- I will press 'A' again to clear it, and then proceed West to the Mansion.
