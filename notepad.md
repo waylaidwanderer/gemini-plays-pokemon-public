@@ -1492,6 +1492,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   8. Walk West to the X=9 electronic doors (which are now open).
   9. Enter the NW room and claim the Secret Key!
 - Diary located at 1F (18, 2): "Diary: July 5. Guyana, South America. A new POKEMON was discovered deep in the jungle."
+- Burglar trainer at (16, 22), facing Right. His line of sight covers Y=22.
 
 <hr>
 
