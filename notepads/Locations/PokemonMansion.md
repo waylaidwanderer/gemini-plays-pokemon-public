@@ -116,13 +116,15 @@
 - 1F Central Doors at (16, 7) lead to a dead-end hallway from Y=8 to Y=13. It is blocked at Y=13 by a solid wall. It DOES NOT connect to the 3F pit landing area (which is at 16, 14).
 - 3F East side (X=16, 17) is blocked from going South by a solid horizontal wall of rubble at Y=9. The pit is South of Y=11. So you CANNOT reach the pit from the East side via the doors at (15, 4). This path is a dead end.
 - 3F West Wing (West of X=9) is ACCESSIBLE. I previously hallucinated it was blocked. I must thoroughly search this area (especially South of Y=10) for the true pit that drops into the B1F Secret Key room!
-[SECRET KEY PATH (B1F SWITCH THEORY)]
-- MASSIVE REVELATION: The 3F NW room is NOT isolated! It connects to the 3F Central area via an open corridor at Y=2 and Y=3 (X=10).
-- Execution Plan:
-  1. From 3F (6, 2), walk East to the Central area.
-  2. Walk to the 3F switch at (10, 5) and toggle it to State B.
-  3. Drop down the 3F pit at (16, 14) to reach the 1F enclosed area.
-  4. Take stairs to B1F.
-  5. Navigate West to the B1F switch at (7, 15) and toggle it!
-  6. Explore the newly opened path to the Secret Key!
+[SECRET KEY PATH (TRUE B1F PUZZLE SOLUTION!)]
+- The wall at B1F Y=8 is completely SOLID across the central area. You CANNOT walk from the Southern half of B1F to the Northern half directly.
+- The ONLY way to the Northern half is via the Far East doors at (26, 17), which are OPEN in State A.
+- To reach the NW Secret Key room, the X=9 doors must be OPEN (requires State B).
+- The Solution:
+  1. Ensure Mansion is in STATE A using the B1F Central switch at (18, 25).
+  2. Navigate to the Far East corridor (X=26).
+  3. Walk North through the OPEN doors at (26, 17) to enter the Northern half.
+  4. Walk West to the NE switch at (18, 4) and toggle it to STATE B!
+  5. Walk West to the X=9 electronic doors (which are now open).
+  6. Enter the NW room and claim the Secret Key!
 - Diary located at 1F (18, 2): "Diary: July 5. Guyana, South America. A new POKEMON was discovered deep in the jungle."

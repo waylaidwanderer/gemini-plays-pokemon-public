@@ -1624,5 +1624,10 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - The ONLY way to reach the Northern half is through the Far East doors at (26, 17) while in STATE A.
 - Once in the Northern half, I must use the second B1F switch at (18, 4) to toggle to STATE B, which will open the X=9 doors to the Secret Key!
 - My current goal: Walk to the B1F Central switch at (18, 25) and toggle the Mansion back to STATE A.
+[Turn 47158 Reflection]
+- I am at B1F (16, 17) heading South to the switch at (18, 25).
+- A Scientist NPC is blocking the path South at (16, 20).
+- X=17 is blocked by a table at Y=20.
+- I will walk Down to approach the Scientist. If he's a trainer, he will spot me and initiate battle, clearing the way.
 
 <hr>

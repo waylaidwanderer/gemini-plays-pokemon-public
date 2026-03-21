@@ -124,3 +124,13 @@
 - Text box cleared. I am at B1F (10, 9).
 - Executing route to bypass the Y=8 wall: Right 6, Up 2, Left 6.
 - This will place me at (10, 7), ready to test the X=9 doors.
+[Turn 47157 Reflection]
+- EPIPHANY! The wall at Y=8 is completely solid from X=6 to X=20! I cannot access the Northern half of B1F from here.
+- The ONLY way to reach the Northern half is through the Far East doors at (26, 17) while in STATE A.
+- Once in the Northern half, I must use the second B1F switch at (18, 4) to toggle to STATE B, which will open the X=9 doors to the Secret Key!
+- My current goal: Walk to the B1F Central switch at (18, 25) and toggle the Mansion back to STATE A.
+[Turn 47158 Reflection]
+- I am at B1F (16, 17) heading South to the switch at (18, 25).
+- A Scientist NPC is blocking the path South at (16, 20).
+- X=17 is blocked by a table at Y=20.
+- I will walk Down to approach the Scientist. If he's a trainer, he will spot me and initiate battle, clearing the way.
