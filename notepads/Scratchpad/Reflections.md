@@ -1,15 +1,15 @@
 [ACTIVE THEORIES & REFLECTIONS]
 - Secret Key Location Hypotheses:
-  1. In the West Room of B1F (near the 7,15 switch). (FALSE)
+  1. In the West Room of B1F (near the 7,15 switch). (FALSE - Turn 47489 proved it's a dead end loop)
   2. Accessed via a completely different pit on 3F (SW corner, South of Y=10) that drops directly into a blocked-off room on 1F or B1F. (ACTIVE)
-- Mechanics: The doors at X=9 are CLOSED in State B, requiring State A to access the NW room. The Far East doors at (26, 17) provide a path North to Y=7, bypassing the solid wall at Y=8. The NE switch at (20, 3) toggles states from the North side.
-- Current Goal: Find the second pit in the SW corner of 3F.
 
-[50-Turn Reflection]
-- Macro Brittleness: Massive 40-50 step macros in high-encounter zones are a critical strategy failure. Encounters interrupt them, and I often miscalculate my post-battle position/facing, causing the next sequence to drive me into walls. I am switching to 5-10 step micro-macros and actively verifying my Game State coordinates after every battle.
-- Notebook Hygiene: Purged 40+ turns of granular turn-by-turn macro debugging from this scratchpad. It was causing massive context bloat and triggering safety limits. Keeping notes strictly to high-level theories and empirical proofs.
-- [Turn 47489] Confirmed Hypothesis 1 is definitively FALSE. The West Room on B1F (X=1 to X=7, Y=14 to Y=27) is a complete dead end loop and has no hidden paths or items. Hypothesis 2 is now active: The Secret Key must be accessed from a second pit in the unexplored South-West area of 3F (South of Y=10).
-- [Turn 47514] Macro Alignment Lesson: My macro failed and deposited me at (5, 2) instead of the stairs at (6, 1). This happened because my previous input before the battle was eaten by the encounter intro, leaving me facing a different direction. This shifted my entire route. Always visually verify facing direction after a battle interruption!
-- [Turn 47554] EMPIRICAL TEST: My notes contradict themselves on whether the Far East doors at (26, 17) are open in State A or State B. I am currently in State B. I will select 'NO' on the Central Switch at (18, 25) to leave it in State B, and physically walk to (26, 17) to observe the door's state. If it is OPEN, the Airlock plan proceeds by using the NE Switch at (20, 3) to toggle to State A and open the Secret Key doors at (9, 7).
-- [Turn 47565] 50-Turn Reflection: My macro alignment and overall progression have vastly improved by switching to micro-macros (5-15 steps) and explicitly clearing battle text. I've successfully navigated the 3F pit, verified the B1F West Room is a dead end, and deduced the true logic of the B1F Airlock puzzle. The final execution phase is underway: Toggle Central Switch to State A -> Walk through Far East doors -> Toggle NE Switch to State B -> Walk through Secret Key doors.
-- [Turn 47617] 50-Turn Reflection: The Secret Key is within reach! I've confirmed that the Far East doors at (26, 17) and the Secret Key doors at (9, 7) are BOTH open in State A. The "Airlock" theory was overly complex. The actual solution is simple: Toggle the Mansion to State A from the B1F Central Switch, walk up the East corridor, cross West at Y=7, and walk right in. Executing this path now.
+[Current Plan: The "No Airlock" Strategy]
+- Mechanics: The doors at X=9 are CLOSED in State B, requiring State A to access the NW room. The Far East doors at (26, 17) provide a path North to Y=7, bypassing the solid wall at Y=8. The NE switch at (20, 3) toggles states from the North side.
+- By Turn 47607, I proved the Far East doors at (26, 17) are CLOSED in State B. Since the Secret Key doors at (9, 7) are ALSO CLOSED in State B, BOTH sets of doors must be OPEN in State A.
+- Therefore, the solution is simple: Toggle the Central Switch at (18, 25) to State A, walk up the East corridor, cross West at Y=7, and walk right in.
+- Turn 47637: Toggled Central Switch to State A. Currently executing the path to the Secret Key doors.
+
+[Macro & Execution Lessons]
+- Massive 40-50 step macros in high-encounter zones fail because encounters interrupt them, causing misalignment. I now use 5-10 step micro-macros and actively verify Game State coordinates.
+- Always visually verify facing direction after a battle interruption!
+- When caught in a dialogue loop or text box, use `safe_mash_b` or multi-button `press_buttons` calls (e.g., `['A', 'A', 'A']`) instead of single `move_sequence` calls to resolve the interaction efficiently.
