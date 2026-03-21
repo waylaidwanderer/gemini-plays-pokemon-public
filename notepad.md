@@ -1431,7 +1431,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - There are VERTICAL electronic doors at X=13 (Y=22 and Y=23). These are CLOSED in State B, but they DO NOT block access to the western half of B1F! There are open East-West corridors at Y=18 and Y=14 that allow bypassing these doors completely.
 - Found another switch statue at (7, 14)/(7, 15) in the western area.
 - The path West from the enclosed 1F stairs area is at Y=14. X=20 is a solid wall from Y=15 downwards.
-- There is a vertical wall at X=24 starting from Y=19 extending South.
+- There are horizontal electronic doors at (26, 17) and (27, 17). These are CLOSED in State A. They likely block access to the far East room of B1F.
 - The NW area (North of Y=17, West of X=9) is completely walled off from the rest of B1F. Verified dead ends at Y=17 (solid table) and X=9 (solid wall).
 
 [Global Door States]
