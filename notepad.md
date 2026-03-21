@@ -1629,5 +1629,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - A Scientist NPC is blocking the path South at (16, 20).
 - X=17 is blocked by a table at Y=20.
 - I will walk Down to approach the Scientist. If he's a trainer, he will spot me and initiate battle, clearing the way.
+[Turn 47159 Reflection]
+- I am at B1F (16, 17). The Scientist is at (16, 20).
+- I will walk Down to initiate the battle and clear the path to the switch.
+- Route: Down 2 steps to (16, 19).
 
 <hr>
