@@ -1579,5 +1579,10 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - The open vertical corridor is at X=21.
 - I will move Left to (21, 22), then Up along X=21 to reach Y=14, where I can hopefully turn West.
 - Route: LLUUUUU.
+[Turn 47141 Reflection]
+- Cleared the wild Vulpix encounter.
+- I am at B1F (21, 21).
+- I will now execute my route to the main B1F Central area: Up to Y=14, then Left to X=10.
+- From X=10, I can head North to systematically test the X=9 doors.
 
 <hr>
