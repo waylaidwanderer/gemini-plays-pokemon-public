@@ -1551,5 +1551,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - This means the pit has different drop depths depending on where you jump in! 
 - The right side (16, 14) drops to 1F. The left side of the right-half (19, 14) drops to a previously unexplored, isolated section of 2F!
 - I will now explore this new 2F area. It must lead to the B1F NW room!
+[Turn 47055 Reflection]
+- EMPIRICAL DISCOVERY 2: The drop from 3F (19, 14) landed me at 2F (18, 14). Looking around, this is NOT an isolated area! I can walk North from here to the 2F Northern doors at (18, 8), which are currently open. This X=19 pit is a complete dud and just drops you back into the main 2F loop.
+- VISUAL DISCOVERY: While standing at 2F (21, 14), I can see stairs across the rubble at 2F (25, 14)! This is a huge discovery. They must connect to 1F or 3F. I will investigate these if my primary theory fails.
+- Current Plan: The 3F NW Room Pit Theory is my last, best hope for reaching the isolated B1F NW room. I am returning to 1F to toggle the Mansion to State A, which will allow me to access the 3F NW room via the 2F (6, 1) stairs.
 
 <hr>
