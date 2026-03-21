@@ -1613,5 +1613,6 @@ Sequence: `LLLL`.
 - Turn 47467 Reflection: Still clearing the "Wild Grimer appeared!" intro text box. My inputs in Turn 47466 were eaten. I will execute `run_battle` to escape.
 - Turn 47468 Reflection: The `run_battle` inputs were eaten by the "Got away safely!" text box from the previous run_battle. I will use `safe_mash_b` to clear this remaining text and return to the overworld at (10, 15). 
 After clearing it, I will execute a micro-macro to reach the switch: `D LLL U A` to stand at (7, 16) facing Up and interact with it.
+- Turn 47468: The "Got away safely!" text is still present with a down arrow. I will explicitly press 'A' to clear it, and then check my surroundings. I am currently at (10, 15) and there appears to be a switch statue directly below me at (10, 16). I will verify this once back in the overworld.
 
 <hr>
