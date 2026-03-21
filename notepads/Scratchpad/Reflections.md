@@ -34,3 +34,5 @@ At (25, 5), there is a table! I bumped into the table at (25, 5) AGAIN!
 I am going to use a step-by-step approach to get to the Far East corridor safely.
 - Turn 47438 Reflection: My step-by-step movement was interrupted by a wild Grimer at (23, 1). I need to run from this battle, then I can continue my route to the Far East corridor. I am currently at (23, 1) facing Right. I need 3 more Right inputs to reach (26, 1).
 - Turn 47439: Clearing the battle exit text "Got away safely!" with B presses. Once back in the overworld at (23, 1) facing Right, I will resume moving to the Far East corridor.
+- Turn 47440 Reflection: My 3 `Right` inputs took me to (26, 1), but then I encountered a Wild Magmar! I am using `run_battle` to escape. After this, I will be at (26, 1) facing Right, ready to walk South down the Far East corridor.
+- Turn 47441: Clearing "Got away safely!" with B presses. My sequence from (26, 1) facing Right to the West Room is: `D18 L3 U5 L18 D2`.
