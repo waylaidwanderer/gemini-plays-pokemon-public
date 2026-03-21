@@ -13,4 +13,3 @@ Sequence:
 9. Take the stairs at (21, 23) down to B1F.
 10. Walk East to X=24, South to Y=18, then East to the Far East doors at (26, 17).
 11. Since the Mansion is in STATE A, the doors will be OPEN! Claim the Secret Key!
-- [Turn 46422 50-Turn Reflection] I have successfully identified the B1F puzzle trap and formulated the Ultimate Secret Key Plan. My notepad hygiene is good. I need to execute the Dig warp now.
