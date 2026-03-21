@@ -1789,5 +1789,8 @@ If the SW corridor is a known dead end, I have exhaustively checked the West Roo
 Hypothesis 1 (West Room) is FALSE.
 This leaves Hypothesis 2: The Secret Key is accessed via a completely different pit on 3F in the unexplored South-West corner (South of Y=10)!
 I need to use Dig to escape B1F, return to Cinnabar Island, re-enter the Mansion, climb to 3F, and explore the SW corner!
+- Turn 47475 Reflection: The macro successfully brought me to the end of the SW corridor at (1, 14). There is nothing here. The West Room is indeed a complete dead end on B1F. 
+Hypothesis 1 is definitively false.
+I must now execute Hypothesis 2: Dig out of the Mansion, return, and find the unexplored pit in the South-West corner of 3F (South of Y=10).
 
 <hr>
