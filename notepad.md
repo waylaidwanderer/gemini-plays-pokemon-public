@@ -1510,5 +1510,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - I will press 'A' again to clear it, and then proceed West to the Mansion.
 [Turn 47081 Reflection]
 - Hallucination Check: The overwatch agent flagged a warning in Turn 47080. I pressed 14 movement buttons but only visited 10 tiles. Looking at the intermediate states, my macro bumped into the statue base at (2, 10)/(3, 10). I should have walked North along X=2, not X=3. I am currently at (2, 10). The switch is at (2, 5). I just need to walk North 4 steps and press A!
+[Turn 47084 Reflection]
+- Hallucination Correction: The 1F switch at (2, 5) DOES NOT EXIST. The West Wing of 1F is solidly blocked at Y=9, making the NW corner entirely inaccessible. The "glowing eyes statue" I saw at (2, 10) in Turn 47082 was literally just the back of my own player character's head!
+- The only known switches are on 3F and B1F.
+- If the Mansion is in State B, my notes say the 2F NW doors at (9, 4) are closed, which would block access to 3F entirely. I must go to 2F right now and physically test if those doors are actually closed. If they are, there MUST be another switch or an error in my door state logic.
 
 <hr>
