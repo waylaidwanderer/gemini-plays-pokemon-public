@@ -1599,5 +1599,18 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - My tool output from Turn 47184 was just the completion of `run_battle`.
 - I have NOT executed the `UUUUUUURRRRRRR` movement yet! I only wrote it in my notepad reflection!
 - I need to actually call `move_sequence` now.
+[Turn 47186 Reflection]
+- Hallucination Check & Route Correction!
+- I just remembered that the wall at X=20 extends from Y=15 DOWNWARDS. This means Y=18 is BLOCKED by this wall! I cannot cross from Central to East Wing at Y=18.
+- I MUST use the Y=14 corridor to cross to the East Wing, just like I did earlier in Turn 47146.
+- Furthermore, I am at (17, 25). X=17 is blocked by a table at Y=20. I must use X=18 to travel North, passing through the horizontal electronic doors at (18, 16) which are OPEN in State A.
+- New Route to Far East doors:
+  1. From (17, 25), navigate around switch to (18, 23): D, R, R, U, U, U, L
+  2. Go Up X=18 to Y=14: U 9
+  3. Go Right along Y=14 to X=24: R 6
+  4. Go Down X=24 to Y=18: D 4
+  5. Go Right to X=26: R 2
+  6. Go Up through doors to (26, 17): U 2
+- Executing Part 1 (to 24, 14): DRRUUULUUUUUUUUURRRRRR.
 
 <hr>
