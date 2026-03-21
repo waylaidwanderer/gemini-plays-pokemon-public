@@ -1573,5 +1573,11 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Route: Left to (20, 22), Up to (20, 14), Left to (17, 14).
 - Wait, I see the switch at B1F (18, 25). It is currently in STATE B. The doors at X=13 are CLOSED, but I know from my notes that I can bypass them via the open East-West corridors at Y=18 and Y=14.
 - Let's execute the route to the main B1F Central area.
+[Turn 47137 Reflection]
+- I am at B1F (23, 22). I need to navigate out of the enclosed stairs area.
+- I checked the current screen: X=20 is a solid wall (TYPE_2889).
+- The open vertical corridor is at X=21.
+- I will move Left to (21, 22), then Up along X=21 to reach Y=14, where I can hopefully turn West.
+- Route: LLUUUUU.
 
 <hr>
