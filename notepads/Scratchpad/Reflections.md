@@ -84,3 +84,12 @@
   4. Right to (26, 18): R 2
   5. Up to (26, 17): U 1
 - Executing: UUUURRRRRRDDDDRRU
+[Turn 47204 Reflection]
+- Fled successfully! I am at B1F (18, 18).
+- Resuming route to Far East doors at (26, 17):
+  1. Up to (18, 14): U 4
+  2. Right to (24, 14): R 6
+  3. Down to (24, 18): D 4
+  4. Right to (26, 18): R 2
+  5. Up to (26, 17): U 1
+- Executing: UUUURRRRRRDDDDRRU
