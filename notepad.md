@@ -1790,5 +1790,10 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - I successfully used `execute_battle_turn` to select Surf!
 - The battle is currently processing the move. I am waiting for the turn to complete.
 - I will press A to advance text.
+[Turn 47215 Reflection]
+- I pressed 'A' twice to advance the battle text.
+- The opponent Magneton is at Level 33. My Blastoise (HYDRO) is at Level 59.
+- The Surf animation is playing.
+- I will wait for the turn to complete.
 
 <hr>
