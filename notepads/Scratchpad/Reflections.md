@@ -22,3 +22,12 @@
 - Walk Down 1 to (7, 15) to reach the switch!
 - Sequence: `RRRRR DDDDDDDDDDDDDD LL UUUU LLLLLLLLLLLLLLLLL D`.
 - Turn 47418 Reflection: The sequence was aborted because I encountered another wild Vulpix! I am at (23, 14), facing Left. The Far East doors at (26, 17) were successfully bypassed! I am currently in the Y=14 hallway heading towards the West Room! I just need to run from this battle and continue Left.
+- Turn 47419 Reflection: The battle ended. I am now back in the overworld at (22, 4), facing Left. I need to resume my movement sequence to the West Room. 
+- Path from (22, 4) to (7, 15):
+  - R4 to (26, 4)
+  - D14 to (26, 18)
+  - L2 to (24, 18)
+  - U4 to (24, 14)
+  - L17 to (7, 14)
+  - D1 to (7, 15)
+- Sequence: `RRRR DDDDDDDDDDDDDD LL UUUU LLLLLLLLLLLLLLLLL D`.
