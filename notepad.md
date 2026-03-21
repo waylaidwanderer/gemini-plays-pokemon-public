@@ -1500,18 +1500,18 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 <h1><code>Scratchpad/Reflections</code></h1>
 
 [ACTIVE THEORIES & CONSTRAINTS]
-- Secret Key Puzzle (B1F):
-  - B1F Central Switch at (18, 25) is a TRAP. Toggling it to State A closes the (16, 16) doors, locking you in the south room before you can reach the key.
-  - State B: Far East doors (26, 17) and Secret Key doors (9, 7) are CLOSED. Central doors (16, 16) are OPEN.
-  - State A: Central doors (16, 16) are CLOSED. Secret Key doors (9, 7) are OPEN.
-  - B1F West Switch (7, 15) is completely inaccessible from the central/eastern areas (blocked by solid walls at X=9, Y=8).
+- B1F Secret Key Puzzle Solution:
+  - State B: Central doors (16, 16) OPEN. Far East doors (26, 17) CLOSED. Secret Key doors (9, 7) CLOSED.
+  - State A: Central doors (16, 16) CLOSED. Far East doors (26, 17) OPEN. Secret Key doors (9, 7) OPEN.
+  - The Y=8 line is a solid wall from X=9 to X=24. The ONLY way to cross North of Y=8 is via the Far East corridor at X=26.
+  - Therefore, the Mansion MUST be in State A to access the northern part of the Far East corridor AND open the Secret Key doors.
 
-[CURRENT TRUE PATH HYPOTHESIS]
-1. Drop down 3F pit to land on B1F in State B.
-2. Walk North through the OPEN central doors at (16, 16) to reach the Northern half of B1F.
-3. Navigate to the Northeast Switch at (18, 3).
-4. Toggle the NE Switch to State A. This will close (16, 16) behind us (which is fine) and OPEN the Secret Key doors at (9, 7).
-5. Walk West to (9, 7) and claim the Secret Key.
-6. Escape using Dig.
+[THE TRUE PATH]
+1. Land on B1F in State B (via 3F pit).
+2. Walk to the Central Switch at (18, 25).
+3. Toggle to State A. (Central doors close, trapping you South of Y=16, BUT Far East doors open).
+4. Walk to the Far East doors at (26, 17) and walk North up the corridor to Y=4.
+5. Walk West along the Y=4 hallway to X=16.
+6. Walk South to Y=7, then West to (9, 7) to claim the Secret Key!
 
 <hr>
