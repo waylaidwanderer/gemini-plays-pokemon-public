@@ -1571,5 +1571,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - The path East is clear.
 - My route: Right 7 to (24, 18), Down 3 to (24, 21), Right 2 to (26, 21), Up 4 to (26, 17).
 - Executing movement.
+[Turn 47184 Reflection]
+- I am at B1F (17, 18).
+- Executing movement to Far East doors at (26, 17).
+- Sequence: R 7, D 3, R 2, U 4.
 
 <hr>
