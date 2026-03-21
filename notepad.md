@@ -1512,5 +1512,9 @@ The Secret Key path continues North from the Far East room. The corridor goes No
 [Turn 46838 Reflection]
 - I remembered the MASTER PLAN: I must toggle the B1F central switch to STATE A so that the 2F NW doors at (9,4) will be OPEN when I re-enter the Mansion. This is the ONLY way to reach the 2F NW stairs at (6,1) which lead to the 3F West Wing pit!
 - After toggling to State A, I will use Dig to escape.
+[Turn 46889 Reflection]
+- Immediate Execution: Successfully toggled the Mansion to State A and used Dig to escape. Now re-entering to access the 2F NW stairs.
+- Error Analysis: My "one pit" assumption was a massive mental block. The Mansion puzzle requires realizing that the isolated 3F room (accessed from 1F) is a dead end, and the TRUE 3F pit is accessed via the 2F NW stairs, which requires State A.
+- Next Steps: Enter Mansion, walk to 2F NW stairs, ascend to 3F West Wing, find the pit, and drop to the B1F Secret Key room!
 
 <hr>
