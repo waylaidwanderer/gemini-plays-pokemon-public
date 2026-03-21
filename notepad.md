@@ -1528,5 +1528,12 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [Turn 47114 Reflection]
 - I successfully navigated to the 3F switch at (10, 5) and interacted with it.
 - A text box is open saying "A secret switch!". I will press 'A' to advance to the Yes/No prompt, then select Yes to toggle the Mansion to State B.
+[Turn 47118 Reflection]
+- The text "Who wouldn't?" means I successfully toggled the switch.
+- The 3F Northern doors at (15, 4) changed from OPEN (TYPE_3fe2) to CLOSED (TYPE_a83b).
+- This confirms the Mansion is now in STATE B!
+- The 3F Southern doors at (15, 10) should now be OPEN, granting access to the 3F pit.
+- I am at (10, 6). I will navigate East and South to reach the pit at (16, 14).
+- Route: Right to (14, 6), Down to (14, 10).
 
 <hr>
