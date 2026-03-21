@@ -131,3 +131,27 @@ Sequence: `U LLL D`. This will place me at (7, 15) facing Down, bumping into the
 - If the West Room is completely isolated on B1F, the ONLY way to enter it is by dropping from a pit on 3F!
 - My notes mention an unexplored South-West area on 3F. I bet there is a second pit there that drops directly into the Secret Key room!
 - Before I leave B1F, I will walk Left along Y=18 to visually confirm that the table at Y=17 extends all the way to the West wall and there is absolutely no gap. Once confirmed, I will Dig out and head to 3F SW!
+- Turn 47473 Reflection: Okay! The macro succeeded, mostly. I am currently at (2, 18) facing Left. The macro was `LLLLUUUUULLLLLLLLLLLLLLLLLLDD`. It was interrupted at (2, 14) by a Wild Koffing!
+Let's check the map.
+I am in the West Room!
+Wait, let's look at `<CurrentScreen turn="47472">`.
+I am at (2, 18).
+Above me at (2, 17) is floor. Above that at (2, 16) is floor. Above that at (2, 15) is a table!
+Wait! The West Room is not just a 1-tile wide hallway!
+The Secret Key might be here!
+Let's visually scan the West Room.
+At X=2, Y=14, Y=15 are tables.
+At X=1, Y=17 is a table.
+I need to walk around and thoroughly check this area.
+Wait! I see stairs at (1, 14) and (2, 14)! Wait, no, those are tables.
+Let's look at the screen carefully.
+- (1, 14): `TYPE_3fe2` (floor)
+- (2, 14): `TYPE_2889` (solid table/obstacle)
+- (3, 14): `TYPE_2889` (solid table/obstacle)
+- (4, 14): `TYPE_3fe2` (floor)
+- (5, 14): `TYPE_3fe2` (floor)
+- (6, 14): `TYPE_2889` (solid bush)
+- (7, 14): `TYPE_2889` (solid bush)
+Wait! The gap at Y=14 allows access to X=1!
+Let's walk Up to Y=14, then Left to X=1.
+From (2, 18) facing Left: `U4 L1`.
