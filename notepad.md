@@ -1476,16 +1476,15 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - 1F Central Doors at (16, 7) lead to a dead-end hallway from Y=8 to Y=13. It is blocked at Y=13 by a solid wall. It DOES NOT connect to the 3F pit landing area (which is at 16, 14).
 - 3F East side (X=16, 17) is blocked from going South by a solid horizontal wall of rubble at Y=9. The pit is South of Y=11. So you CANNOT reach the pit from the East side via the doors at (15, 4). This path is a dead end.
 - 3F West Wing (West of X=9) is ACCESSIBLE. I previously hallucinated it was blocked. I must thoroughly search this area (especially South of Y=10) for the true pit that drops into the B1F Secret Key room!
-[SECRET KEY PATH (PROVEN)]
-The Secret Key path continues North from the Far East room. The corridor goes North from Y=11 along X=26, turns WEST at Y=6/Y=7, and leads to electronic doors at (9, 6)/(9, 7) that open into the isolated Northwest area!
-1. On 3F, navigate to the switch at (10, 5) and toggle to STATE B (opens 3F southern doors at 15, 11).
-2. Walk East through the gap at Y=11 to X=16, then South to the pit at (16, 14).
-3. Drop down the pit to the 1F enclosed area, then take stairs at (21, 23) down to B1F. (Arrive in State B).
-4. On B1F, walk West to the central switch at (18, 25). Toggle to STATE A.
-5. Central doors (16, 16) are now CLOSED. Bypass them by walking North to (18, 22), West to X=13, and North through the OPEN vertical doors at (13, 22) into the SW loop.
-6. Follow the loop to the gap at (10, 17). Walk North to Y=14, East across X=20 to X=24, South to Y=18, then East to the doors at (26, 17).
-7. In STATE A, the doors at (26, 17) are OPEN. Walk North into the isolated Northeast corridor. 
-8. The doors at (9, 6)/(9, 7) are ALSO OPEN IN STATE A! Do NOT press the hidden switch at (18, 3) - it is a trap that changes the Mansion to State B, which closes both doors in the corridor. Walk directly West from (13, 7) through the open doors at X=9 to claim the Secret Key!
+[SECRET KEY PATH (TRUE THEORY)]
+The B1F corridor at X=9 is a solid wall! The Far East area is a dead end/red herring. The Secret Key is in the B1F NW room, which is completely isolated. It MUST be accessed by dropping from above.
+1. Ensure Mansion is in State A (doors open).
+2. Enter 1F, go to main stairs at (5, 10).
+3. On 2F, walk to the NW doors at (9, 4), which are OPEN in State A.
+4. Walk West through the doors to the stairs at (6, 1).
+5. Ascend to 3F West Wing.
+6. The pit MUST be located here in the West Wing! Find it and drop down.
+7. Land in the isolated 1F NW area, and take the stairs down to the B1F NW room to claim the Secret Key!
 - Diary located at 1F (18, 2): "Diary: July 5. Guyana, South America. A new POKEMON was discovered deep in the jungle."
 
 <hr>
