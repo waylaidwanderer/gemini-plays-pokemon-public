@@ -1477,16 +1477,20 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - 1F Central Doors at (16, 7) lead to a dead-end hallway from Y=8 to Y=13. It is blocked at Y=13 by a solid wall. It DOES NOT connect to the 3F pit landing area (which is at 16, 14).
 - 3F East side (X=16, 17) is blocked from going South by a solid horizontal wall of rubble at Y=9. The pit is South of Y=11. So you CANNOT reach the pit from the East side via the doors at (15, 4). This path is a dead end.
 - 3F West Wing (West of X=9) is ACCESSIBLE. I previously hallucinated it was blocked. I must thoroughly search this area (especially South of Y=10) for the true pit that drops into the B1F Secret Key room!
-[SECRET KEY PATH (NO AIRLOCK NEEDED)]
-- Turn 47607 PROVED that the Far East doors at (26, 17) are CLOSED in State B.
-- Previous empirical evidence (Turn 46985) proved the Secret Key doors at (9, 7) are ALSO CLOSED in State B.
-- Therefore, BOTH sets of doors must be OPEN in State A!
+[SECRET KEY PATH (THE AIRLOCK PUZZLE SOLUTION)]
+- State A: Far East doors at (26, 17) CLOSED. Secret Key doors at (9, 7) OPEN.
+- State B: Far East doors at (26, 17) OPEN. Secret Key doors at (9, 7) CLOSED.
+- Current Status: Mansion is in State A (Central doors at 20,17 closed). I hallucinated my previous proof because I was in State A during Turn 47607 when I checked the doors.
 - THE ROUTE:
-  1. Toggle the Central Switch at (18, 25) to STATE A.
-  2. Walk East and pass through the OPEN Far East doors at (26, 17).
-  3. Walk North along the Far East corridor (X=26), then West along Y=7.
-  4. Pass through the OPEN Secret Key doors at X=9 and claim the Secret Key!
-  5. The NE switch at (20, 3) is a red herring and unnecessary for reaching the key, but might be needed to escape if State A closes the way out.
+  1. Toggle the Central Switch at (18, 25) to STATE B.
+  2. Walk North through the permanent gap at X=16/17 to Y=14.
+  3. Walk East to X=24, then South to Y=17.
+  4. Pass through the OPEN Far East doors at (26, 17).
+  5. Walk North along the Far East corridor (X=26) to the NE area.
+  6. Press the NE switch at (20, 3) to toggle back to STATE A.
+  7. This CLOSES the (26, 17) doors behind you, but OPENS the (9, 7) doors!
+  8. Walk West along the Y=7 hallway all the way to X=9.
+  9. Pass through the OPEN doors at (9, 7) and claim the Secret Key!
 - Diary located at 1F (18, 2): "Diary: July 5. Guyana, South America. A new POKEMON was discovered deep in the jungle."
 - Burglar trainer at (16, 22), facing Right. His line of sight covers Y=22.
 - B1F NE Area: The switch statue is at (18, 3) and must be interacted with from (18, 4). There is a long horizontal table at Y=5 blocking access from Y=6. You must go around the table on the East side (around X=25/X=26) to reach the Y=4 hallway.
