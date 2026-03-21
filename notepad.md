@@ -1530,5 +1530,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Turn 47357 Reflection: I have simplified the B1F puzzle into a single State A run! The doors at X=9 are CLOSED in State B, so we must be in State A. The Far East doors at (26, 17) provide the path North to Y=7, bypassing the solid wall at Y=8. I am currently executing this path!
 - Turn 47361 Reflection: I am standing on the open (9, 7) doors! I can see the Secret Key at (5, 4)! I just need to walk U L L L U U L to face it, then press A. The puzzle is officially solved. State A is the ONLY state that allows access to the key, and you MUST use the Far East corridor to bypass the Y=8 wall. The doors at (9, 4)/(9, 5) are a red herring, open in State B when you can't even reach them!
 - Turn 47364: TM22 (SolarBeam) was on the right side of the table at (5, 4). The item ball at (4, 5) is the Secret Key! I am grabbing it now.
+- Turn 47366: I was wrong! The item ball at (5, 4) was TM22 (SolarBeam). The actual Secret Key is on another table in the Northwest corner of this room at (1, 3)! I am walking over to grab it now.
 
 <hr>
