@@ -101,7 +101,7 @@
 - To open the 1F East doors at (24, 13), the Mansion MUST be in STATE A.
 - There is NO switch on 2F! My previous notes about a 2F switch were hallucinations. The doors must be toggled from 3F (10, 4) or B1F.
 - 2F West Wing: The path North from the main stairs at (5, 10) is BLOCKED by a solid wall at Y=9. You MUST cross to the Central area via the gap at (8, 11), go North via X=10 to Y=4/Y=5, then cross BACK to the West Wing via the gap in the green pillars at (9, 4)/(9, 5) to reach the stairs at (6, 1).
-- 2F North-West doors are actually at (9, 6)/(9, 7). They are CLOSED in State B. There is a permanent gap in the pillars at (9, 4)/(9, 5) that allows crossing between West and Central.
+- 2F North-West doors are at (9, 4)/(9, 5). They are CLOSED in State B and OPEN in State A. To cross between West and Central in State B, you MUST use the gap in the pillars further South at Y=11.
 - The 2F West Wing and East Wing can also be connected by crossing the X=9 pillar gap at Y=11.
 - VERIFIED DEAD END: The Northern hallway at Y=2 is blocked by a solid wall at X=9. You cannot cross to the West Wing here. You MUST cross via the gap at Y=11.
 [Verified Dead Ends]
