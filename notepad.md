@@ -1555,5 +1555,6 @@ Path from (26, 1) facing Right:
 - D2 (1 turn to face Down, 1 step) to (7, 15).
 Sequence: `DDDDDDDDDDDDDDDDDD LLL UUUUU LLLLLLLLLLLLLLLLLL DD`.
 - Turn 47449 Reflection: The "Got away safely!" text has a down arrow (▼) and did not clear from my B presses in Turn 47448. My directional inputs in 47449 were just eaten by this text box. I am pressing `A` now to explicitly clear it and return to the overworld at (26, 1).
+- Turn 47450 Reflection: I have successfully cleared all text and am ready to move. Starting from (26, 1) facing Right. Executing macro: `D18 L3 U5 L18 D2` to reach the West Room switch at (7, 15).
 
 <hr>
