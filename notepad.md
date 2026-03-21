@@ -1478,6 +1478,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 3. 1F: Land in enclosed area. Take stairs at (23,22) to B1F.
 4. B1F: Toggle switch at (18,25) to STATE A.
 5. B1F: Vertical doors at X=13 open. Walk West through them to access the western half of B1F.
+- Diary located at (18, 2): "Diary: July 5. Guyana, South America. A new POKEMON was discovered deep in the jungle."
 
 <hr>
 
