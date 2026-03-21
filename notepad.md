@@ -1479,16 +1479,19 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 3. Jump down 3F pit at (16, 14) to reach 1F enclosed area, then take stairs to B1F.
 4. B1F is now in State B. The Far East doors at (26, 17) are CLOSED.
 5. Navigate to B1F switch at (18, 25) via the Y=14 North corridor and press it to enter STATE A.
-6. The Far East doors at (26, 17) are now OPEN! Walk North through them to claim the Key!
+6. The Far East doors at (26, 17) are now OPEN! Walk North through them.
+7. In the Far East room, there is a red herring item at (25, 3). DO NOT STOP THERE.
+8. Walk West along the Y=6/Y=7 corridor at the top of the room. It crosses the entire basement to the NW corner.
+9. Enter the open vertical doors at (9, 6)/(9, 7) to claim the Secret Key!
 - Diary located at (18, 2): "Diary: July 5. Guyana, South America. A new POKEMON was discovered deep in the jungle."
 
 <hr>
 
 <h1><code>Scratchpad/Reflections</code></h1>
 
-- EUREKA! I have solved it! The NW area containing the Secret Key is accessed via the Far East room!
-- The Far East room (doors at 26, 17) connects to a long horizontal corridor at Y=6 and Y=7.
-- This Y=6/7 corridor goes all the way West across the entire basement, directly to the open vertical electronic doors at (9, 6) and (9, 7)!
-- I previously explored the Far East room but missed the massive left turn at Y=7! Navigating back to the Far East room now to claim the key!
+[50-Turn Reflection]
+- Execution: I successfully deciphered the Master Puzzle Solution for the Pokemon Mansion! The Secret Key is in the isolated NW corner of B1F, accessed via a long hidden corridor connecting from the Far East room.
+- Error Analysis: I severely violated my "Exhaustive Exploration" rule by entering the Far East room, seeing nothing immediately, and leaving without checking the perimeter. This caused me to miss the Y=7 corridor completely and wasted a lot of turns. I must ALWAYS walk the entire perimeter of a new room.
+- Next Steps: Executing the final sequence to claim the Secret Key, then escaping the Mansion to finally challenge the Cinnabar Gym!
 
 <hr>
