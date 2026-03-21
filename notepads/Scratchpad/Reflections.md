@@ -2,6 +2,6 @@
 - My previous hypotheses (Airlock, Central Access) were completely WRONG. The Northern corridor and Far East room have NO hidden switches and NO gaps. This entire Y=6/Y=7 route is a dead end in State A, and inaccessible in State B.
 - The Overwatch AI explicitly pointed out: "If no switch exists in these rooms... there must be a fundamentally different approach to accessing the NW area (e.g., dropping into it from a previously overlooked pit/gap on an upper floor)."
 - I recall seeing a "wide open gap/drop-off" on 3F near X=12/X=13 (the left side of the main pit). Jumping down the RIGHT side of the pit (X=16) took me to the 1F enclosed area. Jumping down the LEFT side might take me to the isolated NW area!
-- Plan: Use Dig to escape B1F -> Re-enter Mansion -> Climb to 3F -> Find and jump down the LEFT side of the pit!
+- Plan: Use Dig to escape B1F -> Re-enter Mansion -> Climb to 3F -> Find and jump down the LEFT side of the pit (around X=12)! I hypothesize that dropping down the left side will land me in a new, unexplored enclosed area on 1F, which will contain the stairs leading down to the isolated NW room on B1F!
 - I am abandoning the Far East room search completely. It is a verified red herring that wasted dozens of turns. I must remember to exhaustively check ALL floors for vertical transitions before assuming a puzzle is isolated to a single floor.
 - The Secret Key is the final item I need to access the Cinnabar Gym. I must find this alternative path quickly!
