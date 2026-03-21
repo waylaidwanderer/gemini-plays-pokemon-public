@@ -117,18 +117,18 @@
 - 3F East side (X=16, 17) is blocked from going South by a solid horizontal wall of rubble at Y=9. The pit is South of Y=11. So you CANNOT reach the pit from the East side via the doors at (15, 4). This path is a dead end.
 - 3F West Wing (West of X=9) is ACCESSIBLE. I previously hallucinated it was blocked. I must thoroughly search this area (especially South of Y=10) for the true pit that drops into the B1F Secret Key room!
 [SECRET KEY PATH (TRUE B1F PUZZLE SOLUTION!)]
-- The doors at (14, 16)/(15, 16) AND (18, 16)/(19, 16) have OPPOSITE states to the Far East doors at (26, 17).
-- In State A: (14, 16)/(15, 16) and (18, 16)/(19, 16) are OPEN. The Far East doors at (26, 17) are CLOSED.
-- In State B: (14, 16)/(15, 16) and (18, 16)/(19, 16) are CLOSED. The Far East doors at (26, 17) are OPEN.
-- The gap at X=16/17 is ALWAYS OPEN, so you are never trapped South of Y=16!
-- To reach the NW Secret Key room, the X=9 doors must be OPEN (requires State B).
+- State A: (16, 16) is OPEN. (26, 17) is CLOSED. (9, 7) is OPEN.
+- State B: (16, 16) is CLOSED. (26, 17) is OPEN. (9, 7) is CLOSED.
+- To reach the NW Secret Key room, the X=9 doors must be OPEN (requires State A).
+- But to reach the Northern half, the Far East doors (26, 17) must be OPEN (requires State B).
 - The Solution:
-  1. Go to the central switch at (18, 25). Toggle it to STATE B (so (26, 17) is OPEN, but the horizontal doors are CLOSED).
-  2. Because the horizontal doors are CLOSED, you are seemingly trapped South. BUT, the vertical doors at X=13 (Y=22/23) are now OPEN!
-  3. Walk West through the vertical doors at X=13, then North via the X=10 corridor to reach the Y=14 hallway.
-  4. Walk East along Y=14 to X=24, then South to Y=18, then East to reach the Far East corridor at X=26.
-  5. Walk North through the OPEN doors at (26, 17) to enter the Northern half.
-  6. Walk West to the NE switch at (18, 4) and toggle it to STATE A!
-  7. Walk West to the X=9 electronic doors (which are now open).
-  8. Enter the NW room and claim the Secret Key!
+  1. Go to the central switch at (18, 25). Toggle it to STATE B (so (26, 17) is OPEN).
+  2. With (16, 16) CLOSED, you must use the alternate escape route: the vertical doors at (13, 22)! They should be OPEN in State B.
+  3. Walk West through (13, 22), follow the SW loop North to (10, 17).
+  4. From (10, 17), walk North to the Y=14 hallway.
+  5. Walk East along Y=14 to X=24, South to Y=18, East to X=26.
+  6. Walk North through the OPEN doors at (26, 17) to enter the Northern half.
+  7. Walk West to the NE switch at (18, 4) and toggle it to STATE A!
+  8. Walk West to the X=9 electronic doors (which are now open).
+  9. Enter the NW room and claim the Secret Key!
 - Diary located at 1F (18, 2): "Diary: July 5. Guyana, South America. A new POKEMON was discovered deep in the jungle."
