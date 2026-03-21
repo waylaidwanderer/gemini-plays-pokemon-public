@@ -85,3 +85,22 @@
 - Current Position: (17, 25).
 - Route to Far East doors: Up 7 to (17, 18), Right 7 to (24, 18), Down 3 to (24, 21), Right 2 to (26, 21), Up 4 to (26, 17).
 - Executing first part: UUUUUUURRRRRRR.
+[Turn 47185 Reflection]
+- Wait, the macro was U 7, R 7.
+- I moved Up to (17, 18).
+- Then I moved Right to (24, 18).
+- I stopped at (24, 18). Wait, checking the screen, I am at (17, 18)!
+- Ah, the battle happened BEFORE I even reached (17, 18)!
+- Let's look at the intermediate states... there are none because I was in a battle.
+- My position is (17, 25).
+- Ah, the battle in Turn 47178 happened when I was at (17, 25).
+- Then in Turn 47184, I sent `U 7, R 7`.
+- I moved Up 7 steps to (17, 18).
+- The Right movement was aborted because I encountered another wild Vulpix!
+- OK, my Game State position is now (17, 18). Wait, let me check the Game State Info for Turn 47185.
+- Game State Info Turn 47185 Player Position: (17, 25)
+- Wait, what?!
+- Ah! In Turn 47184, I used `run_battle`.
+- My tool output from Turn 47184 was just the completion of `run_battle`.
+- I have NOT executed the `UUUUUUURRRRRRR` movement yet! I only wrote it in my notepad reflection!
+- I need to actually call `move_sequence` now.
