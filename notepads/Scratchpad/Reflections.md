@@ -100,3 +100,19 @@ Route from (26, 1) facing Down:
 - L17 to (7, 14)
 - D1 to (7, 15)
 Sequence: `DDDDDDDDDDDDDDDDD LLL UUUUU LLLLLLLLLLLLLLLLLL DD`.
+- Turn 47435 Reflection: The sequence was aborted because I bumped into the switch statue at (20, 1) AGAIN.
+Let's analyze the intermediate states for Turn 47434:
+- `turn_47434_0` to `turn_47434_16`: I was at (20, 1) facing Down. I pressed `Down` 17 times.
+Wait, my sequence was `DDDDDDDDDDDDDDDDDLLLUUUUULLLLLLLLLLLLLLLLLLDD`.
+Why did I not move Down?
+Let's look at `turn_47434_0`. I am at (20, 1) facing Down. The tile below me at (20, 2) is a solid switch statue (`TYPE_2889`)!
+Ah! The switch statue is 2 tiles high! It occupies (20, 2) and (20, 3).
+I am trapped behind it at (20, 1)!
+To get out, I must walk East to X=26, then South.
+From (20, 1), I need to walk Right 6 to (26, 1).
+Then South 17 to (26, 18).
+Then Left 2 to (24, 18).
+Then North 4 to (24, 14).
+Then Left 17 to (7, 14).
+Then Down 1 to (7, 15).
+Sequence: `RRRRRR DDDDDDDDDDDDDDDDD LL UUUU LLLLLLLLLLLLLLLLL D`.
