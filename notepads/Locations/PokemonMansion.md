@@ -74,6 +74,7 @@
 - Found another switch statue at (7, 14)/(7, 15) in the western area.
 - The path West from the enclosed 1F stairs area is at Y=14. X=20 is a solid wall from Y=15 downwards.
 - There is a vertical wall at X=24 starting from Y=19 extending South.
+- The NW area (North of Y=17, West of X=9) is completely walled off from the rest of B1F. Verified dead ends at Y=17 (solid table) and X=9 (solid wall).
 
 [Global Door States]
 - State A (CURRENT ACTIVE STATE): 
