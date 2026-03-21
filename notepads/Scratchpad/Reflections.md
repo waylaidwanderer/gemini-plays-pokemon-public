@@ -63,3 +63,14 @@
 - Wait, I'm STILL IN THE BATTLE!
 - I need to use `run_battle`! I accidentally just pressed 'B' on the overworld tool instead of using `run_battle`.
 - Wait, no, I am in the battle opening animation ("Wild GRIMER appeared!"). I just need to press 'A' to advance to the command menu, THEN use `run_battle`.
+[Turn 47201 Reflection]
+- Successfully fled from Grimer. Game State confirms my position is B1F (18, 18).
+- I re-verified my routing: I CANNOT walk Right at Y=18 because there is a solid wall at X=20 extending South from Y=15.
+- I MUST walk Up to Y=14 to cross to the East Wing.
+- Route:
+  1. Up 4 to (18, 14) (passing through OPEN doors at 18, 16)
+  2. Right 6 to (24, 14)
+  3. Down 4 to (24, 18)
+  4. Right 2 to (26, 18)
+  5. Up 2 to (26, 16) (passing through OPEN Far East doors at 26, 17)
+- Executing: UUUURRRRRRDDDDRRUU
