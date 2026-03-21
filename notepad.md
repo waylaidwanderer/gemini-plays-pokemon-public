@@ -1505,4 +1505,9 @@ The Secret Key path continues North from the Far East room. The corridor goes No
 - CONCLUSION: There is NO pit in this isolated room. It is a 100% verified dead end. 
 - NEXT STEP: Use Dig to escape. Re-enter 1F -> 2F -> navigate to 2F (6, 1) stairs -> reach the MAIN 3F West Wing. I must explore the main 3F West Wing (South of Y=5) for the true pit. The Mansion is currently in State A, so the 2F NW doors at (9,4) should be open.
 
+[Turn 46786 Reflection]
+- Immediate Execution: My primary task is to explore the SW corner of 3F (West of X=13, South of Y=10). If I find a pit there, it likely drops into the isolated NW area of B1F containing the Secret Key.
+- Backup Theory: If the SW corner is empty, the "Airlock" theory is my next best bet: Enter the B1F Far East room in State A, find a hidden switch to toggle to State B, which closes the exit but opens the doors at B1F (9, 6) leading to the Key.
+- Error Analysis: My reliance on the "one pit" assumption caused massive routing delays. I must rigorously map the remainder of 3F.
+
 <hr>
