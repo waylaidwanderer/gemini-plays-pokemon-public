@@ -1511,5 +1511,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Turn 47408 Reflection: My movement inputs were eaten because the text box "A secret switch!" is STILL OPEN! My previous `A` presses cleared the old text but immediately re-interacted with the switch. I am going to use `safe_mash_b` to cleanly cancel out of this prompt ("Not quite yet!") and return to the overworld. Then I will explicitly toggle the switch to STATE B next turn.
 - Turn 47409 Reflection: The text box "A secret switch!" is still on the screen. My previous input of `A` simply re-interacted with the switch. I will use `safe_mash_b` to cancel this prompt cleanly.
 - Turn 47411: I successfully advanced the text to "Press it?". I am now pressing Up to select YES, and then A to confirm the toggle to STATE B.
+- Turn 47413: The text "Who wouldn't?" is still on screen. My previous input of `Up` didn't do anything because there was no prompt, and `A` just advanced the text slightly (or it didn't register because of the animation delay). I need to press A one more time to close this box and return to the overworld! I am pressing A.
 
 <hr>
