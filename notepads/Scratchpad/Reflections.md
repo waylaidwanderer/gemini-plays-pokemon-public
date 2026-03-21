@@ -63,3 +63,7 @@
 - The path out is to the West (X=12/X=13) and then South around the plants.
 - I will navigate Left and Down to bypass the plants and make my way to the B1F stairs at (21, 23).
 - Scientist NPC is at (17, 17). I previously noted talking to him, so he is likely already defeated or non-hostile.
+[Turn 47128 Reflection]
+- Navigating the 1F enclosed area. Currently at (12, 18).
+- The path South looks clear down to at least Y=22.
+- I will move Down 4 steps to (12, 22), then evaluate the path East to the stairs at (21, 23).
