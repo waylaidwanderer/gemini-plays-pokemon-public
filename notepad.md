@@ -1546,5 +1546,13 @@ Let's recalculate the path to the West Room (7, 15) from (26, 1) facing Left.
 - D1 to (7, 15) -> 2 `Down` presses.
 Sequence from (26, 1) facing Left: `DDDDDDDDDDDDDDDDDD LLL UUUUU LLLLLLLLLLLLLLLLLL DD`
 - Turn 47445 Reflection: I realized I am STILL at (20, 1)! I hallucinated moving to (26, 1) because my movement tool call failed back in Turn 47439 due to a notepad overwrite confirmation, but I assumed it succeeded. I have been trapped behind the switch statue this whole time. I will clear the battle text with B presses, then I must carefully walk Right to escape (20, 1).
+- Turn 47449 Reflection: The battle text "Got away safely!" has completely cleared. I am back in the overworld at (26, 1) facing Right. I will now carefully execute my macro to the West Room.
+Path from (26, 1) facing Right:
+- D18 (1 turn to face Down, 17 steps) to (26, 18).
+- L3 (1 turn to face Left, 2 steps) to (24, 18).
+- U5 (1 turn to face Up, 4 steps) to (24, 14).
+- L18 (1 turn to face Left, 17 steps) to (7, 14).
+- D2 (1 turn to face Down, 1 step) to (7, 15).
+Sequence: `DDDDDDDDDDDDDDDDDD LLL UUUUU LLLLLLLLLLLLLLLLLL DD`.
 
 <hr>
