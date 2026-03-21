@@ -1490,6 +1490,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   7. Enter NW room and claim Secret Key!
 - Diary located at 1F (18, 2): "Diary: July 5. Guyana, South America. A new POKEMON was discovered deep in the jungle."
 - Burglar trainer at (16, 22), facing Right. His line of sight covers Y=22.
+- B1F NE Area: The switch statue is at (18, 3) and must be interacted with from (18, 4). There is a long horizontal table at Y=5 blocking access from Y=6. You must go around the table on the East side (around X=25/X=26) to reach the Y=4 hallway.
 
 <hr>
 
