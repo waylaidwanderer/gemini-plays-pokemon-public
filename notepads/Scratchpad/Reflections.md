@@ -5,3 +5,4 @@
 - The doors ONLY block the East-side approach (via Northern doors at 15, 4).
 - Since I am currently in STATE A, the B1F Far East doors (26, 17) leading to the Secret Key should be OPEN!
 - Immediate Plan: Walk D, R, R, D, R, D, D, D from (13, 9) to drop down the pit and claim the Secret Key!
+- Update: I arrived at the B1F Far East doors and they were CLOSED. This confirms I was in State B (because I toggled the 3F switch earlier). I need to navigate to the B1F switch at (18, 25) to revert to State A, which will open these doors!
