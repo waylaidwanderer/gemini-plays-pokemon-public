@@ -1468,6 +1468,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - VERIFIED DEAD END: The Northern hallway at Y=2 is blocked by a solid wall at X=9. You cannot cross to the West Wing here. You MUST cross via the gap at Y=11.
 [Verified Dead Ends]
 - The B1F South-West area (South of Y=22, West of X=13) is a complete dead end loop. It connects the gap at (10, 17) to the electronic doors at (13, 22) and contains no items or switches.
+- The B1F West Room (X=1 to 7, Y=14 to 27) is entirely blocked off from the switch area at (7, 15) by solid tables. The long SW corridor (X=1 to 3) is a dead end. The Secret Key is NOT accessed via the 3F pit at (16, 14).
 - The 2F Central doors at (20, 17) lead to a dead-end 4x3 room.
 - The stairs at 1F (6, 10)/(7, 10) lead to an isolated 3F room containing only a Burglar and a Diary. It is a dead end. The room is walled off on the East side by a solid wall at X=11 (Y=8 to Y=15), preventing access to the 3F pit.
 - VERIFIED: The X=12 gap on 1F is OPEN at Y=7. You can bypass the Y=9 wall by walking South down X=12, then West.
