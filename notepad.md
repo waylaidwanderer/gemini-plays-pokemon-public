@@ -1485,14 +1485,17 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 <h1><code>Scratchpad/Reflections</code></h1>
 
 [FINAL MASTER PUZZLE SOLUTION]
-- The 3F West Wing is a dead end. The Left side of the 3F pit (X=12 to X=15) is blocked by a solid rubble wall at Y=13.
-- The ONLY way down is the right side of the 3F pit at (16, 14)!
-- AMAZING REVELATION: There are NO doors blocking the West-side approach to the pit! You can ALWAYS walk down X=13/14, slip East through the gap at (15, 11)/(16, 11), and drop down the pit at (16, 14)!
-- The doors ONLY block the East-side approach (via Northern doors at 15, 4).
-- Step 5: Land on 1F, take stairs at (21, 23) to B1F.
-- Step 6: On B1F, walk East along the Y=14 corridor to X=24.
-- Step 7: Walk South to Y=18, then East to the Far East doors at (26, 17).
-- Step 8: Since the Mansion is in STATE A, the Far East doors will be OPEN! Claim the Secret Key!
-- Key Insight: X=17 on B1F is a permanent gap. The central doors are at (14,16) and (18,16). You are NEVER trapped in the South.
+The objective is to reach the Secret Key in the B1F Far East room.
+The doors blocking it at (26, 17) are OPEN in State A and CLOSED in State B.
+
+Optimal Route:
+- Step 1: On 1F, toggle the switch at (2, 5) so the Mansion is in STATE B.
+- Step 2: Navigate to 3F. Since we are in State B, the Southern doors at (15, 10) are OPEN.
+- Step 3: Walk South through the doors and drop down the right side of the pit at (16, 14).
+- Step 4: You land in the 1F enclosed area. Take the stairs at (21, 23) down to B1F.
+- Step 5: On B1F, because we are in State B, the Central doors at (16, 16)/(17, 16) are OPEN. Walk North through them to reach the Y=14 horizontal corridor.
+- Step 6: Walk West to the Western Switch at (7, 15).
+- Step 7: Toggle the Western Switch to STATE A. This closes the central doors behind you, but OPENS the Far East doors at (26, 17)!
+- Step 8: Walk East along the Y=14 corridor to X=24, head South to Y=18, and walk East through the newly opened doors to claim the Secret Key!
 
 <hr>
