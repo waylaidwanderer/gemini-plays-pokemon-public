@@ -1584,5 +1584,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - I am at B1F (21, 21).
 - I will now execute my route to the main B1F Central area: Up to Y=14, then Left to X=10.
 - From X=10, I can head North to systematically test the X=9 doors.
+[Turn 47142 Reflection]
+- Resuming navigation to the B1F Central corridor after the wild encounter.
+- Currently at (21, 21).
+- Route: Up 7 steps to (21, 14), then Left 5 steps to (16, 14).
 
 <hr>
