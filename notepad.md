@@ -1498,10 +1498,14 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 <h1><code>Scratchpad/Reflections</code></h1>
 
 [ACTIVE THEORIES & REFLECTIONS]
-- The alternate escape route works! By toggling the central switch at (18, 25) to State B, the horizontal doors at Y=16 close, but the vertical doors at (13, 22) open.
-- We successfully navigated West through (13, 22), North to Y=14, East to X=26, and North through the open Far East doors at (26, 17).
-- We are now in the Northern half of B1F!
-- Next step: Walk to the NE switch at (18, 4) and toggle it to State A. This will open the electronic doors at X=9, granting access to the Secret Key room in the Northwest!
-- B1F NE Area (Correction): The table at Y=5 does NOT block X=20! There is a clear path West from (20, 4) to (18, 4). The solid green barrier at X=22/23 is just the back of the beds in the central room. I just bumped into the table at (20, 5) because my macro `LLUA` executed Up from (20, 5).
+- In Turn 47334, a wild Vulpix appeared while I was at (20, 4).
+- I discovered a massive hallucination regarding the B1F NE switch!
+- I thought the switch was at (18, 3) and I needed to reach (18, 4).
+- However, when I executed `LLLLLLLUA` from (25, 4), I stopped at (20, 4) and triggered a "Press it?" prompt!
+- This proves two things:
+  1. (19, 4) is a SOLID WALL. I cannot walk West to X=18 from here.
+  2. The glowing-eye switch statue is actually at (20, 3)/(21, 3), right in front of me at (20, 4)!
+- I need to run from this battle, face Up, and make sure I select YES to press the switch and change it to State A.
+- Once pressed, I need to find the actual path to the X=9 doors. If (19, 4) is a wall, how do I go West? I might need to go South around the room.
 
 <hr>
