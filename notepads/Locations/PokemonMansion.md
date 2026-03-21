@@ -71,7 +71,7 @@
 - Diary located at (16, 20): "Sept. 1. MEWTWO is far too powerful..."
 - Found a glowing-eye switch statue at (18, 24)/(18, 25).
 - Horizontal electronic doors are located at (14, 16)/(15, 16) AND (18, 16)/(19, 16). These are OPEN in State A and CLOSED in State B. The path South is ALWAYS open through the gap at X=16 and X=17.
-- There are VERTICAL electronic doors at X=13 (Y=22 and Y=23). These are CLOSED in State B, but they DO NOT block access to the western half of B1F! There are open East-West corridors at Y=18 and Y=14 that allow bypassing these doors completely.
+- There are VERTICAL electronic doors at X=13 (Y=22 and Y=23). These are CLOSED in State A, and OPEN in State B! This is the alternate escape route.
 - Found another switch statue at (7, 14)/(7, 15) in the western area.
 - The path West from the enclosed 1F stairs area is at Y=14. X=20 is a solid wall from Y=15 downwards.
 - The far East corridor (X=26 to X=28) is accessed from the X=24 corridor by crossing at Y=18, where the separating wall at X=25 ends.
