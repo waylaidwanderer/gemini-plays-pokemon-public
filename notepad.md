@@ -1496,27 +1496,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 <h1><code>Scratchpad/Reflections</code></h1>
 
 [ACTIVE THEORIES & REFLECTIONS]
-- In Turn 47306, I executed `UUUUUURRRRRRRR`.
-- The macro aborted at the 4th 'Up' because of a wild Grimer encounter!
-- I started at (10, 20).
-- `turn_47306_0`: Up to (10, 19)
-- `turn_47306_1`: Up to (10, 18)
-- `turn_47306_2`: Up to (10, 17)
-- `turn_47306_3`: Up to (10, 16)
-- Wait, I arrived at (10, 16)?
-- Let's check `turn_47307_0`. It shows me at (10, 20)!
-- No, wait, `turn_47307_0` is the start of Turn 47307. I executed `UUUUUU...` in 47306?
-- Let's look at the text history for 47306: I pressed 'A' to clear the "Got away safely" text from the Grimer battle!
-- Ah! In Turn 47306, I was at (10, 20). I executed `UUUUUURRRRRRRR`.
-- The macro did NOT abort. I executed all the moves!
-- Let's trace it on `IntermediateStates turn="47307"`.
-- `turn_47307_0`: Up to (10, 19).
-- `turn_47307_1` to `turn_47307_5`: Up 5 more times to (10, 14).
-- `turn_47307_6` to `turn_47307_13`: Right 8 times to (18, 14).
-- Wow, it worked! I am at (18, 14)!
-- The alternate escape route was a success! I have bypassed the closed horizontal doors at (16, 16) and reached the Northern hallway while the Mansion is in State B!
-- Now, I just need to walk East to X=24, South to Y=18, East to X=26, North through the Far East doors, and toggle the NE switch to State A!
-- Route from (18, 14): Right 6 to (24, 14). Down 4 to (24, 18). Right 2 to (26, 18). Up 2 to (26, 16) (through the doors).
-- Let's execute this! `RRRRRRDDDDRRUU`
+- The alternate escape route works! By toggling the central switch at (18, 25) to State B, the horizontal doors at Y=16 close, but the vertical doors at (13, 22) open.
+- We successfully navigated West through (13, 22), North to Y=14, East to X=26, and North through the open Far East doors at (26, 17).
+- We are now in the Northern half of B1F!
+- Next step: Walk to the NE switch at (18, 4) and toggle it to State A. This will open the electronic doors at X=9, granting access to the Secret Key room in the Northwest!
 
 <hr>
