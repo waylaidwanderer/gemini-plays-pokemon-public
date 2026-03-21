@@ -1476,17 +1476,19 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - 1F Central Doors at (16, 7) lead to a dead-end hallway from Y=8 to Y=13. It is blocked at Y=13 by a solid wall. It DOES NOT connect to the 3F pit landing area (which is at 16, 14).
 - 3F East side (X=16, 17) is blocked from going South by a solid horizontal wall of rubble at Y=9. The pit is South of Y=11. So you CANNOT reach the pit from the East side via the doors at (15, 4). This path is a dead end.
 - 3F West Wing (West of X=9) is ACCESSIBLE. I previously hallucinated it was blocked. I must thoroughly search this area (especially South of Y=10) for the true pit that drops into the B1F Secret Key room!
-[SECRET KEY PATH (3F NW ROOM PIT THEORY)]
-1. The 1F NW room and B1F NW room are completely isolated.
-2. The ONLY way to reach them is by dropping from a pit on 3F.
-3. The main pit (X=12 to 17) drops to the 1F Central/East area.
-4. Therefore, there MUST be a SECOND pit located in the 3F Northwest room!
-5. Previously, I dismissed the 3F NW room as a "dead end" because the path SOUTH was blocked by rubble. I completely forgot to check the room itself for a pit!
-6. Goal: Ensure Mansion is in State A. Enter 1F -> 2F.
-7. Go through OPEN doors at 2F (9, 4).
-8. Ascend stairs at 2F (6, 1) to reach the 3F NW room.
-9. DO NOT walk East to the Central area! Thoroughly search the 3F NW room (X=1 to 9, Y=1 to 6) for a pit!
-10. Drop down the pit to reach the 1F NW room -> stairs to B1F NW -> Secret Key!
+[SECRET KEY PATH (B1F SWITCH THEORY)]
+- MASSIVE REVELATION: My previous note about the 3F stairs was BACKWARDS!
+- 2F (6, 1) leads to the ISOLATED 3F NW ROOM (which is a dead end).
+- 2F (7, 10) leads to the MAIN 3F AREA (which contains the switch, Burglar, Diary, and Pit).
+- Execution Plan:
+  1. Go down stairs at 3F (6, 1) to return to 2F.
+  2. Walk South and East to the main 2F stairs at (7, 10).
+  3. Ascend to the main 3F area.
+  4. Walk to the 3F switch at (10, 5) and toggle it to State B.
+  5. Drop down the 3F pit at (16, 14) to reach the 1F enclosed area.
+  6. Take stairs to B1F.
+  7. Navigate West to the B1F switch at (7, 15) and toggle it!
+  8. Explore the newly opened path to the Secret Key!
 - Diary located at 1F (18, 2): "Diary: July 5. Guyana, South America. A new POKEMON was discovered deep in the jungle."
 
 <hr>
