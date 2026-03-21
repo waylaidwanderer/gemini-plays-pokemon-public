@@ -1516,5 +1516,17 @@ The Secret Key path continues North from the Far East room. The corridor goes No
 - Immediate Execution: Successfully toggled the Mansion to State A and used Dig to escape. Now re-entering to access the 2F NW stairs.
 - Error Analysis: My "one pit" assumption was a massive mental block. The Mansion puzzle requires realizing that the isolated 3F room (accessed from 1F) is a dead end, and the TRUE 3F pit is accessed via the 2F NW stairs, which requires State A.
 - Next Steps: Enter Mansion, walk to 2F NW stairs, ascend to 3F West Wing, find the pit, and drop to the B1F Secret Key room!
+[Turn 46906 Reflection]
+- EPIPHANY 2: I am at 3F (13, 11). I just verified that there is NO pit on the West side of 3F. X=11 is a solid vertical wall. X=12 to X=15 is a solid top ledge for the main pit.
+- Conclusion: The ONLY way into the pit is the right side at (16, 14). This means there is only ONE pit drop, which leads to the 1F enclosed area, and down to B1F (23, 22).
+- The TRUE PATH to the Secret Key MUST be the "Airlock" theory!
+- Revised Plan:
+1. Walk North to the 3F switch at (10, 5) and toggle to STATE B.
+2. The 3F doors at (15, 10) will open. Walk East to the pit and drop down.
+3. In B1F, toggle the central switch to STATE A.
+4. Walk to the Far East room, which is now OPEN at (26, 17).
+5. Walk North into the isolated Northeast corridor.
+6. SEARCH FOR A SWITCH in this corridor! Toggle it to STATE B!
+7. The doors at (9, 6) will open, granting access to the Secret Key!
 
 <hr>
