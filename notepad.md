@@ -1538,5 +1538,11 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - The hidden switch at (18, 3) is a TRAP. Pressing it toggles the Mansion to State B, which CLOSES both doors, trapping you in the corridor (or locking you out of the Secret Key room if you were just outside it).
 - I have successfully toggled the Mansion back to State A. The path to the Secret Key is now wide open.
 - Goal: Walk West from (13, 7) to the doors at (9, 7) and claim the key!
+[Turn 47046 Reflection]
+- Error Analysis: The overwatch agent correctly called out my massive strategy failure. I abandoned the main pit to re-explore the 3F West Wing, completely ignoring my own detailed notes from Turn 46746 that proved it was a dead end. I must trust my verified map data!
+- Hypothesis Review: Since the 3F West Wing is a dead end, and the B1F X=9 corridor is a solid wall, the Secret Key (in the B1F NW room) MUST be accessed via the 1F SE corridor (which is also isolated) or another unseen path. The 3F pit extends East to X=21. Dropping at X=19 lands in this isolated 1F SE corridor. This is the ONLY untested vertical transition left.
+- Immediate Execution: Clear the battle text, walk East along Y=11 to X=19, and drop down the pit at (19, 14).
+- Map Hygiene: Removed erroneous markers, keeping track of confirmed dead ends.
+- Notepad Hygiene: The Mansion notes are highly detailed and currently accurate regarding door states and dead ends.
 
 <hr>
