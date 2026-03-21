@@ -1535,5 +1535,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Turn 47420 Reflection: Moving to the West Room. Starting from (25, 4) facing Down. I will use `RR DDDDDDDDDDDDDDD LLL UUUUU LLLLLLLLLLLLLLLL` to navigate to (9, 14). From there, I will visually explore the West Room to find the Secret Key or the 3F pit.
 - Turn 47422 Reflection: The "Got away safely!" text box is still open and ate all my directional inputs from the last turn! I need to explicitly press 'A' to clear it and return to the overworld before I can move to the West Room.
 - Turn 47423: Still clearing the "Got away safely!" text box. Pressing A to return to the overworld so I can resume my movement sequence.
+- Turn 47424: Finally back in the overworld. I am at (25, 4) facing Down. Executing route to West Room: `R D14 L2 U4 L17 D1`.
 
 <hr>
