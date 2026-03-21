@@ -291,3 +291,4 @@ I need to use Dig to escape B1F, return to Cinnabar Island, re-enter the Mansion
 - Turn 47475 Reflection: The macro successfully brought me to the end of the SW corridor at (1, 14). There is nothing here. The West Room is indeed a complete dead end on B1F. 
 Hypothesis 1 is definitively false.
 I must now execute Hypothesis 2: Dig out of the Mansion, return, and find the unexplored pit in the South-West corner of 3F (South of Y=10).
+- [Turn 47489] Confirmed Hypothesis 1 is definitively FALSE. The West Room on B1F (X=1 to X=7, Y=14 to Y=27) is a complete dead end loop and has no hidden paths or items. Hypothesis 2 is now active: The Secret Key must be accessed from a second pit in the unexplored South-West area of 3F (South of Y=10).
