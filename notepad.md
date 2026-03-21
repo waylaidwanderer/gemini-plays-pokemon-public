@@ -1496,54 +1496,27 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 <h1><code>Scratchpad/Reflections</code></h1>
 
 [ACTIVE THEORIES & REFLECTIONS]
-- I am at (18, 26).
-- The Mansion is in State B (central switch pressed).
-- In Turn 47289, I thought X=17 was a solid wall because my `LLLL...` macro failed to move me.
-- HOWEVER, I realized the macro aborted at button 1 because a wild Muk appeared!
-- I never actually tested walking Left! I just turned Left and the battle started.
-- In Turn 47295, I executed `LLLLUUULLU` to test walking West.
-- I successfully walked Left from (18, 26) to (16, 26)!
-- This PROVES X=17 is NOT a solid wall! The central area is all connected!
-- I walked Up to (16, 23).
-- Then I walked Left... and I BUMPED into (15, 23)!
-- Wait, I bumped into (15, 23)? Let me look at the screen for Turn 47295.
-- My character is at (16, 23) facing Left.
-- Why can't I walk Left to X=15?
-- Let me check my map notes: "The B1F South-West area (South of Y=22, West of X=13) is a complete dead end loop. It connects the gap at (10, 17) to the electronic doors at (13, 22)"
-- Is there a wall at X=15?
-- Look at the tile at (15, 23). It's labeled `TYPE_3fe2` (floor).
-- Look at the tile above it: (15, 22) `TYPE_3fe2`.
-- But look at the pixel art. There is a solid brown wall at X=15!
-- The wall runs vertically down X=15.
-- So I am at (16, 23). I cannot walk Left because of the wall at X=15.
-- I must walk Up to Y=22, then see if there's a gap!
-- Wait, the electronic doors are at (14, 16)/(15, 16).
-- The central switch is at (18, 25).
-- If the wall is at X=15, then X=16 and X=17 and X=18 are all one big hallway?
-- No, look at the screen!
-- At (16, 23), I am standing right below the top-left edge of the central room?
-- Let's re-examine the whole layout.
-- The horizontal doors are at (14, 16)/(15, 16) AND (18, 16)/(19, 16).
-- If I am at (16, 23), the wall to my left is X=15.
-- Does the wall at X=15 have a gap?
-- In Turn 47295 `turn_47295_9`, I pressed Up from (16, 23) but didn't move!
-- Ah! I bumped into (16, 22)!
-- Let's look at (16, 22) on the screen. It's labeled `TYPE_3fe2`.
-- But look at the pixel art: there is a desk/table at (16, 22)!
-- And standing behind that table is the Burglar (`SPRITE_cdfc`) at (16, 22)!
-- Wait, the Burglar is at (16, 22). He is facing Right.
-- The table is at (16, 22)? No, the table is at (16, 21)?
-- Let's look closely at `CurrentScreen turn="47295"`.
-- The Burglar sprite is at (16, 22). He is facing Down? No, he's facing Down. Wait.
-- My notes say: "Burglar trainer at (16, 22), facing Right. His line of sight covers Y=22."
-- If he's at (16, 22) and I am at (16, 23) facing Up, I am bumping into HIM!
-- Yes! `SPRITE_cdfc` is at (16, 22). I cannot walk Up through him!
-- How do I get past him?
-- I must walk Right, then Up, then Left to bypass him.
-- Let's trace a path: Right to (17, 23). Up to (17, 22). Left to (16, 22)... wait, he is at (16, 22).
-- Can I walk Left from (17, 22)?
-- The wall is at X=15. So (16, 22) is open, but he's standing on it.
-- Can I walk Up to (17, 21)?
-- Let's execute `RUU` to see if I can get above him.
+- In Turn 47306, I executed `UUUUUURRRRRRRR`.
+- The macro aborted at the 4th 'Up' because of a wild Grimer encounter!
+- I started at (10, 20).
+- `turn_47306_0`: Up to (10, 19)
+- `turn_47306_1`: Up to (10, 18)
+- `turn_47306_2`: Up to (10, 17)
+- `turn_47306_3`: Up to (10, 16)
+- Wait, I arrived at (10, 16)?
+- Let's check `turn_47307_0`. It shows me at (10, 20)!
+- No, wait, `turn_47307_0` is the start of Turn 47307. I executed `UUUUUU...` in 47306?
+- Let's look at the text history for 47306: I pressed 'A' to clear the "Got away safely" text from the Grimer battle!
+- Ah! In Turn 47306, I was at (10, 20). I executed `UUUUUURRRRRRRR`.
+- The macro did NOT abort. I executed all the moves!
+- Let's trace it on `IntermediateStates turn="47307"`.
+- `turn_47307_0`: Up to (10, 19).
+- `turn_47307_1` to `turn_47307_5`: Up 5 more times to (10, 14).
+- `turn_47307_6` to `turn_47307_13`: Right 8 times to (18, 14).
+- Wow, it worked! I am at (18, 14)!
+- The alternate escape route was a success! I have bypassed the closed horizontal doors at (16, 16) and reached the Northern hallway while the Mansion is in State B!
+- Now, I just need to walk East to X=24, South to Y=18, East to X=26, North through the Far East doors, and toggle the NE switch to State A!
+- Route from (18, 14): Right 6 to (24, 14). Down 4 to (24, 18). Right 2 to (26, 18). Up 2 to (26, 16) (through the doors).
+- Let's execute this! `RRRRRRDDDDRRUU`
 
 <hr>
