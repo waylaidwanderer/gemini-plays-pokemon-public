@@ -11,3 +11,4 @@
 - Turn 47409 Reflection: The text box "A secret switch!" is still on the screen. My previous input of `A` simply re-interacted with the switch. I will use `safe_mash_b` to cancel this prompt cleanly.
 - Turn 47411: I successfully advanced the text to "Press it?". I am now pressing Up to select YES, and then A to confirm the toggle to STATE B.
 - Turn 47413: The text "Who wouldn't?" is still on screen. My previous input of `Up` didn't do anything because there was no prompt, and `A` just advanced the text slightly (or it didn't register because of the animation delay). I need to press A one more time to close this box and return to the overworld! I am pressing A.
+- Turn 47414: The text box has finally cleared! I am now in STATE B. The Far East doors at (26, 17) are OPEN. I am ready to execute my route to the West Room: Walk East to X=26, South to Y=18, West to X=24, North to Y=14, then West across the central room to X=7.
