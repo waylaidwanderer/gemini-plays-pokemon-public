@@ -80,3 +80,8 @@
 - I am at B1F (17, 18).
 - Executing movement to Far East doors at (26, 17).
 - Sequence: R 7, D 3, R 2, U 4.
+[Turn 47184 Reflection]
+- Hallucination Check: I am actually at (17, 25), not (17, 18)! The battle interrupted my movement earlier than I thought.
+- Current Position: (17, 25).
+- Route to Far East doors: Up 7 to (17, 18), Right 7 to (24, 18), Down 3 to (24, 21), Right 2 to (26, 21), Up 4 to (26, 17).
+- Executing first part: UUUUUUURRRRRRR.
