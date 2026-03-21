@@ -1538,5 +1538,18 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - So I am currently at (19, 14), NOT (18, 18)!
 - Wait, the Game State Info says Player Position: (18, 18).
 - Let me re-read the intermediate states and Game State carefully.
+[Turn 47198 Reflection]
+- I successfully cleared the wild Grimer encounter.
+- I am at B1F (18, 18).
+- I need to resume my route to the Far East doors at (26, 17).
+- The remaining route is: Right 6 to (24, 18), Down 3 to (24, 21), Right 2 to (26, 21), Up 4 to (26, 17).
+- Wait, my previous macro calculation was `D 4` from (24, 14) to (24, 18). From (18, 18), I just go Right to (24, 18).
+- Wait! Let's check the map notes for the Far East corridor.
+  - "The far East corridor (X=26 to X=28) is accessed from the X=24 corridor by crossing at Y=18, where the separating wall at X=25 ends."
+  - Wait, if the wall ends at Y=18, can I just walk Right from (24, 18) to (26, 18)?
+  - Let me re-read my old route from Turn 47174: "Route to X=26: Left to (16, 26), Up to (16, 18), Right to (24, 18), Down to (24, 21), Right to (26, 21)."
+  - Why did I write Down to (24, 21) then Right? Ah, because there's a wall separating X=24 and X=26 that ends at Y=18. Wait, if it ends at Y=18, maybe I CAN cross at Y=18.
+  - Let's just walk Right from (18, 18) and see where I hit a wall.
+  - I will execute R 8 to try to reach X=26 directly. If I bump at X=24 or X=25, I will route South.
 
 <hr>
