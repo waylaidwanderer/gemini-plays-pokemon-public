@@ -72,3 +72,8 @@
   5. Go back up to 2F. The NW doors at (9, 4) will now be OPEN!
   6. Walk West through the doors to the 2F NW stairs at (6, 1).
   7. Ascend to the 3F NW room and SEARCH FOR THE PIT!
+[Turn 47062 Reflection]
+- Error Analysis: The overwatch agent flagged a hallucination because I pressed Up 3 times in Turn 47061 but my Y coordinate didn't change! I was in the Start -> POKEMON menu, and pressing Up/Down only moves the cursor, not my physical character. The harness doesn't track cursor movements as "visiting tiles".
+- The intermediate states show my cursor is now clearly blinking on GYE (index 6). I pressed Up 3 times from index 6, but since the Party menu wraps, it just went 6 -> 5 -> 4 -> 3. Then I pressed Down twice: 3 -> 4 -> 5.
+- So my cursor is currently on PIXEL (index 5), NOT Dugtrio (index 3)!
+- I need to press Up twice to reach Dugtrio, and then press A to select it.
