@@ -1,3 +1,4 @@
-- EUREKA! At (10, 9) on B1F, I can see that the wall at X=9 is NOT completely solid! There are VERTICAL electronic doors at (9, 6) and (9, 7)! In State A, these doors are OPEN (yellow striped floor).
-- The NW area containing the Secret Key is accessed through these doors.
-- To reach them, I must find a way to get North of the solid wall at Y=8. I am currently exploring East along Y=9 to find a path North.
+- EUREKA! I have solved it! The NW area containing the Secret Key is accessed via the Far East room!
+- The Far East room (doors at 26, 17) connects to a long horizontal corridor at Y=6 and Y=7.
+- This Y=6/7 corridor goes all the way West across the entire basement, directly to the open vertical electronic doors at (9, 6) and (9, 7)!
+- I previously explored the Far East room but missed the massive left turn at Y=7! Navigating back to the Far East room now to claim the key!
