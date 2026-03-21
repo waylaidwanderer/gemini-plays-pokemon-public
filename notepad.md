@@ -1495,5 +1495,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [50-Turn Reflection]
 - Progress: Disproved the 3F pit left-side theory. Confirmed top edge of pit is solid. The only remaining unexplored space is the 2F East Wing (South of the electronic doors at X=18, Y=8). I am heading there now to map it thoroughly.
 - Execution: I must remember that the East-West hallway on 3F North is at Y=2. (10, 3) is solid, likely due to the statue at (10, 4) having an extended collision box.
+- [Turn 45865 Reflection] I realized I mashed 'A' too many times at the 3F statue on Turns 45825-45828. I toggled it to State B and then immediately back to State A! The doors at 2F (18, 8) are CLOSED. I must return to 3F and carefully toggle the switch exactly ONCE.
 
 <hr>
