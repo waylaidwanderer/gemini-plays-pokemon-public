@@ -115,9 +115,18 @@
 - 1F Central Doors at (16, 7) lead to a dead-end hallway from Y=8 to Y=13. It is blocked at Y=13 by a solid wall. It DOES NOT connect to the 3F pit landing area (which is at 16, 14).
 - 3F East side (X=16, 17) is blocked from going South by a solid horizontal wall of rubble at Y=9. The pit is South of Y=11. So you CANNOT reach the pit from the East side via the doors at (15, 4). This path is a dead end.
 - 3F West Wing (West of X=9) is ACCESSIBLE. I previously hallucinated it was blocked. I must thoroughly search this area (especially South of Y=10) for the true pit that drops into the B1F Secret Key room!
-[Master Puzzle Solution (In Progress)]
-- The B1F Far East room and Northern Corridor are a MASSIVE RED HERRING. Do not go there!
-- I exhaustively searched the Far East room and Northern corridor and confirmed there are NO hidden switches to toggle the electronic doors at (9, 6).
-- The actual path requires dropping into the NW area from an upper floor.
-- Plan: Climb to 3F and investigate the LEFT side of the main pit (near X=12/13). Jumping down the RIGHT side (X=16) leads to the 1F enclosed area and the central B1F stairs, which is the wrong path. We must find a different drop-off point!
+[ULTIMATE SECRET KEY PLAN]
+The foolproof solution relies on the fact that the 3F pit drop at (16, 14) can be reached in STATE A by walking through the permanent gap at Y=11.
+
+Sequence:
+1. Re-enter the Pokemon Mansion.
+2. Walk to the 1F Switch at (2, 5).
+3. Toggle the switch until the Mansion is in STATE A. (Verify by checking if the 1F South-East doors at (26, 27) are CLOSED).
+4. Walk to the 1F main stairs at (5, 10) and ascend to 2F.
+5. On 2F, navigate to the stairs at (6, 1). The doors at (9, 4) will be OPEN in State A.
+6. Ascend to 3F. Walk East and South via the gap at Y=11 to reach the pit at (16, 14).
+7. Drop down the pit into the 1F enclosed area.
+8. Take the stairs at (21, 23) down to B1F.
+9. Walk East to X=24, South to Y=18, then East to the Far East doors at (26, 17).
+10. Since the Mansion is in STATE A, the doors will be OPEN! Claim the Secret Key!
 - Diary located at (18, 2): "Diary: July 5. Guyana, South America. A new POKEMON was discovered deep in the jungle."
