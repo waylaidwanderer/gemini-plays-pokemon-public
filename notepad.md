@@ -5,7 +5,7 @@
 - Always carry Antidotes when exploring caves to prevent retreating from Poison damage.
 - Map markers for defeated trainers (e.g. ☠️) should ONLY be placed AFTER returning to the overworld, never during a battle.
 - If an item is not explicitly listed in the Game State Information sprite list, it DOES NOT EXIST.
-- NEVER use dead reckoning. ALWAYS read the Game State Player Position before making any navigational assumptions.
+- NEVER use dead reckoning. ALWAYS verify the Game State Player Position against the visual sprite position in the screenshot, as the Game State can sometimes be stale after a battle!
 - EXHAUSTIVE EXPLORATION: NEVER declare an area a dead end until you have physically bumped into the absolute furthest boundaries of the space. Walk the entire perimeter! Stopping short leads to massive routing failures.
 - Gen 1 PC menus (DEPOSIT, WITHDRAW, etc.) retain cursor memory.
 - Gen 1 Battle menus retain cursor memory! Reset the main menu cursor to FIGHT by pressing Up and Left before navigating.
