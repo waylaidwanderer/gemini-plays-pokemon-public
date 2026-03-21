@@ -1490,15 +1490,8 @@ The Secret Key path continues North from the Far East room. The corridor goes No
 <h1><code>Scratchpad/Reflections</code></h1>
 
 [50-Turn Reflection]
-1. Immediate Execution: I need to investigate the LEFT side of the main 3F pit. My hypothesis is that dropping down different coordinates of the same pit lands you in different walled-off sections of 1F.
-2. Notepad Hygiene: Cleaned up B1F notes.
-3. Goal Clarity: Primary: Find Secret Key. Secondary: Drop down the LEFT side of the 3F pit.
-4. Error Analysis: I assumed there was only one drop point for the 3F pit (the right side at 16, 14). I failed to realize that wide pits in Pokemon games often have multiple drop zones leading to different areas! I spent dozens of turns looking for a second pit when the solution was likely the other side of the first pit.
-
-[TRUE SECRET KEY PLAN (LEFT PIT HYPOTHESIS)]
-1. Return to 3F Central.
-2. Navigate to the area South of Y=8 (where the pit is).
-3. Instead of going through the doors at (15, 10) to drop from the right, walk WEST along the pit to find a drop point on the left side (X < 13).
-4. Drop down. This should land me in the 1F NW enclosed area, which should contain stairs down to the B1F NW Secret Key room!
+1. Error Analysis: The Left Pit Hypothesis is FALSE. A railing at Y=13 blocks access to the left side of the 3F pit. Dropping down the right side at (16, 14) only leads to the B1F Far East dead end.
+2. New Hypothesis: The TRUE pit must be in the isolated 3F room accessed via the stairs at 1F (7, 10) -> 2F (7, 10). I previously marked this as a "verified dead end (no pit)", but my track record with exhaustive exploration is poor. This room lies directly above the B1F NW Secret Key room.
+3. Next Steps: Return to 1F and take the stairs at (7, 10) to thoroughly sweep the isolated 3F room for a pit or hidden stairs.
 
 <hr>
