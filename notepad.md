@@ -1533,5 +1533,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Turn 47366: I was wrong! The item ball at (5, 4) was TM22 (SolarBeam). The actual Secret Key is on another table in the Northwest corner of this room at (1, 3)! I am walking over to grab it now.
 - Turn 47372: I hallucinated! The item at (5, 4) was TM22. There is no other item ball visible in this room (1, 4). I am going to double-check the rest of this NW room, then check the Far East of B1F. If the key is not on B1F, I must have missed a pit on 3F (specifically the South-West area of 3F, accessed by walking South from the switch and then West!).
 - Turn 47374: I fully visually scanned the NW room (X=1 to X=9, Y=4 to Y=7). There are NO OTHER ITEM BALLS here. The Secret Key is NOT in this room. TM22 at (5, 4) was the only item. I must now travel to the large West Room (X=1 to X=8, Y=9 to Y=16) which contains the switch at (7, 15) to search for it.
+- Turn 47375 Reflection: Now that I've confirmed the NW room on B1F does NOT contain the Secret Key, I have two remaining hypotheses:
+  1. The Key is in the West Room of B1F (around the 7,15 switch). I need to re-explore that area.
+  2. The Key is accessed via a completely different pit on 3F! I noted earlier that I never explored the South-West corner of 3F (South of Y=10). There might be a second pit there that drops directly into a blocked-off Secret Key room on 1F or B1F!
+- I will first sweep the B1F West Room since I'm already here. Then I will Dig out and head to 3F SW corner.
 
 <hr>
