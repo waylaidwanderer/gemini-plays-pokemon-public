@@ -1522,5 +1522,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - I cannot walk South on X=24 because of the wall at (24, 8)!
 - I must walk East to X=26 to go South!
 - Let's execute `RRRDDDDDDDDD` to get back to the (26, 17) doors.
+- Turn 47348 Update: I figured out why my movement failed! I was at (27, 10) and tried to walk Down, but the DEFEATED SCIENTIST is permanently standing at (27, 11). Defeated trainers block paths. I am now at (26, 10).
+- My route to the Secret Key from here (in STATE A): Walk South to Y=18, West to X=24, North to Y=14, West to X=18, South to Y=25, West to X=9, then North to the Key!
 
 <hr>
