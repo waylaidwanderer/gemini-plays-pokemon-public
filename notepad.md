@@ -1610,5 +1610,6 @@ I am cleanly in the overworld at (10, 15), facing DOWN.
 My goal is the West Room (7, 15).
 From (10, 15), I need to walk Left 3 times to (7, 15).
 Sequence: `LLLL`.
+- Turn 47467 Reflection: Still clearing the "Wild Grimer appeared!" intro text box. My inputs in Turn 47466 were eaten. I will execute `run_battle` to escape.
 
 <hr>
