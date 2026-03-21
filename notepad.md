@@ -1568,5 +1568,7 @@ Sequence: `DDDDDDDDDDDDDDDDDD LLL UUUUU LLLLLLLLLLLLLLLLLL DD`.
   - Sequence: `RRRRRRRDDDDDDDDDDDDDDDDDDLLLUUUUULLLLLLLLLLLLLLLLLLDD`
 - Turn 47453 Reflection: My macro failed because tile (26, 1) is a solid wall! The connection to the Far East corridor is at Y=4, not Y=1. My macro walked me Right into the wall at (26, 1), then Down into the table at (25, 5). I am now at (25, 4) in a battle with Grimer. I will run from the battle, and then execute the correct escape route: `RR` (to 26, 4), `D15` (to 26, 18), `L3` (to 24, 18), `U5` (to 24, 14), `L18` (to 7, 14), `D2` (to 7, 15).
 - Turn 47455: Clearing the "Got away safely!" battle exit text with `safe_mash_b`. Once back in the overworld at (25, 4), I will walk to the West Room.
+- Turn 47455 Reflection: Back in the overworld at (25, 4) facing Down. Executing my route to the West Room (7, 15).
+Sequence: `RR` (to 26, 4), `D15` (to 26, 18), `L3` (to 24, 18), `U5` (to 24, 14), `L18` (to 7, 14), `D2` (to 7, 15).
 
 <hr>
