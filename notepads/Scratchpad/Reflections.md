@@ -6,3 +6,4 @@
 - Since I am currently in STATE A, the B1F Far East doors (26, 17) leading to the Secret Key should be OPEN!
 - Immediate Plan: Walk D, R, R, D, R, D, D, D from (13, 9) to drop down the pit and claim the Secret Key!
 - Update: I arrived at the B1F Far East doors and they were CLOSED. This confirms I was in State B (because I toggled the 3F switch earlier). I need to navigate to the B1F switch at (18, 25) to revert to State A, which will open these doors!
+- [Turn 46370 Reflection] I've realized the "Burglar" at (18, 24) is actually the Mewtwo switch statue! The sprite is misleading. I will navigate to (18, 26) to press it from below. I also noticed a Scientist at (16, 23) who might spot me as I move.
