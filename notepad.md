@@ -1491,5 +1491,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Critique received: I must TRUST my empirical data. The B1F NW area is completely walled off from the rest of B1F (Y=17 is a solid table). I will NOT re-explore B1F SW/NW. Instead, I will explore the newly opened 2F East Wing South of the doors at (18, 8).
 - [Turn 45764 Action]: I accidentally changed the Mansion to State B on Turn 45760. I need it in State A to open the 3F Northern doors at (15, 4). My plan is to explore the 3F far East Wing (X>20) for a hidden pit leading to the isolated B1F East area.
 - [Turn 45815 Reflection] I realized I NEVER toggled the 3F switch to State B on Turn 45796! The "Got away safely!" text from a wild Grimer battle was still on screen, and it ate my 'U' and 'A' inputs meant for the statue. Because of this, I walked all the way down to 2F while still in State A, finding the Northern doors at (18, 8) closed. ALWAYS visually confirm the "Press it?" dialogue before assuming a state change!
+- [Turn 45936 Verification] I walked to 3F (1, 3). I visually confirmed that (1, 4), (1, 5), (1, 6), and (1, 7) are all solid rubble (TYPE_2889). The X=1 path on the 3F West Wing is COMPLETELY BLOCKED. My hypothesis from Turn 45735 was incorrect. The B1F NW area CANNOT be reached from here.
 
 <hr>
