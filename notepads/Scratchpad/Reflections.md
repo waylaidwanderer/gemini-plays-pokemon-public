@@ -21,3 +21,8 @@
 - The Scientist is wandering at (16, 23).
 - I must route around the table to reach the switch at (18, 25).
 - Route: Right 2 steps to (18, 19), then Down 5 steps to (18, 24).
+[Turn 47169 Reflection]
+- I am at B1F (18, 23), just above the central switch statue which occupies (18, 24) and (18, 25).
+- IMPORTANT MECHANIC: Statues must be interacted with from the FRONT (standing below them at 18, 26 and facing Up).
+- Route to interaction point: Left to (17, 23), Down 3 steps to (17, 26), Right to (18, 26), Up to face it, then press A.
+- Executing: LDDDRUA.
