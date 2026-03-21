@@ -117,16 +117,12 @@
 - 3F East side (X=16, 17) is blocked from going South by a solid horizontal wall of rubble at Y=9. The pit is South of Y=11. So you CANNOT reach the pit from the East side via the doors at (15, 4). This path is a dead end.
 - 3F West Wing (West of X=9) is ACCESSIBLE. I previously hallucinated it was blocked. I must thoroughly search this area (especially South of Y=10) for the true pit that drops into the B1F Secret Key room!
 [SECRET KEY PATH (B1F SWITCH THEORY)]
-- MASSIVE REVELATION: My previous note about the 3F stairs was BACKWARDS!
-- 2F (6, 1) leads to the ISOLATED 3F NW ROOM (which is a dead end).
-- 2F (7, 10) leads to the MAIN 3F AREA (which contains the switch, Burglar, Diary, and Pit).
+- MASSIVE REVELATION: The 3F NW room is NOT isolated! It connects to the 3F Central area via an open corridor at Y=2 and Y=3 (X=10).
 - Execution Plan:
-  1. Go down stairs at 3F (6, 1) to return to 2F.
-  2. Walk South and East to the main 2F stairs at (7, 10).
-  3. Ascend to the main 3F area.
-  4. Walk to the 3F switch at (10, 5) and toggle it to State B.
-  5. Drop down the 3F pit at (16, 14) to reach the 1F enclosed area.
-  6. Take stairs to B1F.
-  7. Navigate West to the B1F switch at (7, 15) and toggle it!
-  8. Explore the newly opened path to the Secret Key!
+  1. From 3F (6, 2), walk East to the Central area.
+  2. Walk to the 3F switch at (10, 5) and toggle it to State B.
+  3. Drop down the 3F pit at (16, 14) to reach the 1F enclosed area.
+  4. Take stairs to B1F.
+  5. Navigate West to the B1F switch at (7, 15) and toggle it!
+  6. Explore the newly opened path to the Secret Key!
 - Diary located at 1F (18, 2): "Diary: July 5. Guyana, South America. A new POKEMON was discovered deep in the jungle."
