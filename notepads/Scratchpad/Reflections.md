@@ -1,7 +1,12 @@
-[Master Puzzle Redirection]
-- My previous hypotheses (Airlock, Central Access) were completely WRONG. The Northern corridor and Far East room have NO hidden switches and NO gaps. This entire Y=6/Y=7 route is a dead end in State A, and inaccessible in State B.
-- The Overwatch AI explicitly pointed out: "If no switch exists in these rooms... there must be a fundamentally different approach to accessing the NW area (e.g., dropping into it from a previously overlooked pit/gap on an upper floor)."
-- I recall seeing a "wide open gap/drop-off" on 3F near X=12/X=13 (the left side of the main pit). Jumping down the RIGHT side of the pit (X=16) took me to the 1F enclosed area. Jumping down the LEFT side might take me to the isolated NW area!
-- Plan Revised: The Far East pit on 3F was a red herring. It just lands in the 2F East Wing. Since there are TWO pits in Pokemon Mansion, the true pit MUST be in the 3F West Wing (X < 10). I previously hallucinated that the 3F West Wing was a dead end at Y=6, but I literally walked through it (X=3) to reach the switch! I will navigate back to 3F and thoroughly search the West Wing (South of Y=10) for the true pit that drops into the Secret Key room!
-- I am abandoning the Far East room search completely. It is a verified red herring that wasted dozens of turns. I must remember to exhaustively check ALL floors for vertical transitions before assuming a puzzle is isolated to a single floor.
-- The Secret Key is the final item I need to access the Cinnabar Gym. I must find this alternative path quickly!
+[Master Puzzle Solution Discovered!]
+- The 3F West Wing is a VERIFIED DEAD END at Y=6. My previous memory of walking through it was a hallucination.
+- The true puzzle involves the MAIN 3F PIT.
+- The pit spans from X=12 to X=17 at Y=14.
+- In State A, the 3F Southern doors (15, 10) are CLOSED, forcing you to approach the pit from the North (via doors at 15, 4).
+- The top edge of the pit (Y=13) is a solid wall from X=12 to X=15.
+- Therefore, in State A, you are FORCED to jump down the right side at (16, 14) or (17, 14), which leads to the 1F enclosed area and the central B1F stairs. This path is a dead end for the Secret Key!
+- SOLUTION: By pressing the switch at 1F (2, 5), I changed the Mansion to STATE B.
+- In State B, the 3F Southern doors (15, 10) are OPEN!
+- This allows me to approach the main 3F pit from the SOUTH, bypassing the Y=13 wall.
+- I can now jump down the LEFT side of the pit (e.g., at X=14 or X=15), which will land me in a DIFFERENT enclosed area on 1F, likely containing the stairs to the true B1F Secret Key room!
+- Immediate Route: Walk to the 3F Southern doors at (15, 10), head South, and jump down the pit at (14, 14) or (15, 14)!
