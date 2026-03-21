@@ -113,7 +113,7 @@
 - 1F East Wing South is a completely empty dead end down to Y=27. There are NO stairs to 2F here.
 - 1F Central Doors at (16, 7) lead to a dead-end hallway from Y=8 to Y=13. It is blocked at Y=13 by a solid wall. It DOES NOT connect to the 3F pit landing area (which is at 16, 14).
 - 3F East side (X=16, 17) is blocked from going South by a solid horizontal wall of rubble at Y=9. The pit is South of Y=11. So you CANNOT reach the pit from the East side via the doors at (15, 4). This path is a dead end.
-- 3F West Wing (West of X=9) is a VERIFIED DEAD END. The path South is completely blocked by rubble at Y=6. No pit here.
+- 3F West Wing (West of X=9) is a VERIFIED DEAD END. The path South is completely blocked by rubble at Y=6. The far West path at X=1 is also completely blocked by solid rubble from Y=4 to Y=7. No pit here.
 [Master Puzzle Solution (Verified Steps)]
 1. Reach 3F main switch at (10,4). Toggle to STATE B.
 2. 3F: Access pit at (16,14) via open South doors at (15,10). Jump down!
