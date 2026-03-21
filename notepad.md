@@ -1513,5 +1513,14 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Turn 47411: I successfully advanced the text to "Press it?". I am now pressing Up to select YES, and then A to confirm the toggle to STATE B.
 - Turn 47413: The text "Who wouldn't?" is still on screen. My previous input of `Up` didn't do anything because there was no prompt, and `A` just advanced the text slightly (or it didn't register because of the animation delay). I need to press A one more time to close this box and return to the overworld! I am pressing A.
 - Turn 47414: The text box has finally cleared! I am now in STATE B. The Far East doors at (26, 17) are OPEN. I am ready to execute my route to the West Room: Walk East to X=26, South to Y=18, West to X=24, North to Y=14, then West across the central room to X=7.
+- Turn 47417 Reflection: The text box "Got away safely!" cleared. I am now in the overworld, facing Right at (21, 4). My previous sequence was eaten by the battle intro. I will now re-execute my path to the West Room: `RRRRR D18 L3 U5 L14`. This will take me East to X=26, South to Y=22, West to X=23 (to align with the stairs area), North to Y=14, and then West across the central room to X=7. Wait! Let me check my map.
+- The path South along X=26 requires me to go South to Y=18, then West to X=24.
+- Let's re-calculate: From (21, 4), walk Right 5 to (26, 4).
+- Walk South 14 to (26, 18).
+- Walk Left 2 to (24, 18).
+- Walk North 4 to (24, 14).
+- Walk Left 17 to (7, 14).
+- Walk Down 1 to (7, 15) to reach the switch!
+- Sequence: `RRRRR DDDDDDDDDDDDDD LL UUUU LLLLLLLLLLLLLLLLL D`.
 
 <hr>
