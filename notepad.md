@@ -1436,7 +1436,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - The path West from the enclosed 1F stairs area is at Y=14. X=20 is a solid wall from Y=15 downwards.
 - The far East corridor (X=26 to X=28) is accessed from the X=24 corridor by crossing at Y=18, where the separating wall at X=25 ends.
 - Horizontal electronic doors at (26, 17) and (27, 17) block access to the far East room of B1F. These are OPEN in State A and CLOSED in State B.
-- The NW area (North of Y=17, West of X=9) is completely walled off from the rest of B1F. Verified dead ends at Y=17 (solid table) and X=9 (solid wall).
+- The NW area (North of Y=17, West of X=9) might be accessible through the electronic doors at X=9! In State B, the red barriers disappear. I must systematically test walking West through EVERY Y-coordinate in the X=9 corridor (Y=4 to Y=8) to find the passable door tile, avoiding the solid doorframes.
 
 [Global Door States]
 - State A: 
