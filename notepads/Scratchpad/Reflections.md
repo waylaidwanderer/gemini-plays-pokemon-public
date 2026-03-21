@@ -1,0 +1,1 @@
+- B1F Routing Trap: In State B, the horizontal doors at (16, 16)/(17, 16) are CLOSED. The horizontal crossing at Y=18 is blocked by X=20 (East) and X=13 (West). The Northern crossing at Y=14 is inaccessible from the South while these doors are closed. Therefore, all East/West navigation in State B must be done via the Southern corridor near the stairs (Y=23+).
