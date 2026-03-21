@@ -33,3 +33,4 @@ From (25, 1), walking South: (25, 2), (25, 3), (25, 4)...
 At (25, 5), there is a table! I bumped into the table at (25, 5) AGAIN!
 I am going to use a step-by-step approach to get to the Far East corridor safely.
 - Turn 47438 Reflection: My step-by-step movement was interrupted by a wild Grimer at (23, 1). I need to run from this battle, then I can continue my route to the Far East corridor. I am currently at (23, 1) facing Right. I need 3 more Right inputs to reach (26, 1).
+- Turn 47439: Clearing the battle exit text "Got away safely!" with B presses. Once back in the overworld at (23, 1) facing Right, I will resume moving to the Far East corridor.
