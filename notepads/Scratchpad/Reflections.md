@@ -53,3 +53,4 @@ Path from (26, 1) facing Right:
 - L18 (1 turn to face Left, 17 steps) to (7, 14).
 - D2 (1 turn to face Down, 1 step) to (7, 15).
 Sequence: `DDDDDDDDDDDDDDDDDD LLL UUUUU LLLLLLLLLLLLLLLLLL DD`.
+- Turn 47449 Reflection: The "Got away safely!" text has a down arrow (▼) and did not clear from my B presses in Turn 47448. My directional inputs in 47449 were just eaten by this text box. I am pressing `A` now to explicitly clear it and return to the overworld at (26, 1).
