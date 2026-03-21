@@ -33,3 +33,4 @@
     4. Toggle this switch to State A. This closes (16, 16) behind you (which is fine, you don't need to go back south yet) and OPENS the Secret Key doors at (9, 7)!
     5. Walk East from (7, 15) back to X=16, North to Y=7, West to (9, 7), and claim the key!
   - Executing this immediately.
+- Turn 47789: Explored West of X=16. The area bounded by X=10 to X=15 and Y=9 to Y=15 is a dead end. Y=8 is a solid wall here. The West Switch at (7, 15) cannot be reached from here. Heading back East to X=16 to see if the path North is open to reach the NE Switch at (18, 3).
