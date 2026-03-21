@@ -1473,26 +1473,23 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - 1F Central Doors at (16, 7) lead to a dead-end hallway from Y=8 to Y=13. It is blocked at Y=13 by a solid wall. It DOES NOT connect to the 3F pit landing area (which is at 16, 14).
 - 3F East side (X=16, 17) is blocked from going South by a solid horizontal wall of rubble at Y=9. The pit is South of Y=11. So you CANNOT reach the pit from the East side via the doors at (15, 4). This path is a dead end.
 - 3F West Wing (West of X=9) is a VERIFIED DEAD END. The path South is completely blocked by rubble at Y=6. The far West path at X=1 is also completely blocked by solid rubble from Y=4 to Y=7. No pit here.
-[Master Puzzle Solution (Verified Steps)]
-1. Enter 1F, climb to 3F (Mansion must be in STATE A to bypass 2F Northern doors).
-2. Press 3F switch at (10, 4) to change to STATE B.
-3. Jump down 3F pit at (16, 14) to reach 1F enclosed area, then take stairs to B1F.
-4. B1F is now in State B. The Far East doors at (26, 17) are CLOSED.
-5. Navigate to B1F switch at (18, 25) via the Y=14 North corridor and press it to enter STATE A.
-6. The Far East doors at (26, 17) are now OPEN! Walk North through them.
-7. In the Far East room, there is a red herring item at (25, 3). DO NOT STOP THERE.
-8. Walk West along the Y=6/Y=7 corridor at the top of the room. It crosses the entire basement to the NW corner.
-9. Enter the open vertical doors at (9, 6)/(9, 7) to claim the Secret Key!
+[Master Puzzle Solution (In Progress)]
+- The B1F Far East room and Northern Corridor are a MASSIVE RED HERRING. Do not go there!
+- I exhaustively searched the Far East room and Northern corridor and confirmed there are NO hidden switches to toggle the electronic doors at (9, 6).
+- The actual path requires dropping into the NW area from an upper floor.
+- Plan: Climb to 3F and investigate the LEFT side of the main pit (near X=12/13). Jumping down the RIGHT side (X=16) leads to the 1F enclosed area and the central B1F stairs, which is the wrong path. We must find a different drop-off point!
 - Diary located at (18, 2): "Diary: July 5. Guyana, South America. A new POKEMON was discovered deep in the jungle."
 
 <hr>
 
 <h1><code>Scratchpad/Reflections</code></h1>
 
-[50-Turn Reflection]
-- Execution: I successfully deciphered the Master Puzzle Solution for the Pokemon Mansion! The Secret Key is in the isolated NW corner of B1F, accessed via a long hidden corridor connecting from the Far East room.
-- Error Analysis: I severely violated my "Exhaustive Exploration" rule by entering the Far East room, seeing nothing immediately, and leaving without checking the perimeter. This caused me to miss the Y=7 corridor completely and wasted a lot of turns. I must ALWAYS walk the entire perimeter of a new room.
-- Next Steps: Executing the final sequence to claim the Secret Key, then escaping the Mansion to finally challenge the Cinnabar Gym!
-- Active Hypothesis (Central Access Revised): The Far East room is a RED HERRING! In State A, the Far East doors at (26, 17) are OPEN, allowing access to the Northern corridor, but the Secret Key doors at (9, 6) are CLOSED. To get the key, we MUST be in State B. In State B, the Far East doors CLOSE, but the Central Horizontal doors at (18, 16) OPEN! There MUST be a gap in the Y=8 wall connecting the Central-North area to the Northern corridor. I previously bumped into (17, 8) and falsely assumed the entire Y=8 wall was solid. I am now scanning the Y=8 wall from the North side to find this connecting gap!
+[Master Puzzle Redirection]
+- My previous hypotheses (Airlock, Central Access) were completely WRONG. The Northern corridor and Far East room have NO hidden switches and NO gaps. This entire Y=6/Y=7 route is a dead end in State A, and inaccessible in State B.
+- The Overwatch AI explicitly pointed out: "If no switch exists in these rooms... there must be a fundamentally different approach to accessing the NW area (e.g., dropping into it from a previously overlooked pit/gap on an upper floor)."
+- I recall seeing a "wide open gap/drop-off" on 3F near X=12/X=13 (the left side of the main pit). Jumping down the RIGHT side of the pit (X=16) took me to the 1F enclosed area. Jumping down the LEFT side might take me to the isolated NW area!
+- Plan: Use Dig to escape B1F -> Re-enter Mansion -> Climb to 3F -> Find and jump down the LEFT side of the pit!
+- I am abandoning the Far East room search completely. It is a verified red herring that wasted dozens of turns. I must remember to exhaustively check ALL floors for vertical transitions before assuming a puzzle is isolated to a single floor.
+- The Secret Key is the final item I need to access the Cinnabar Gym. I must find this alternative path quickly!
 
 <hr>
