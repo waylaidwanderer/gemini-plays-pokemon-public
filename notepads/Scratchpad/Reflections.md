@@ -36,3 +36,19 @@
 - Turn 47423: Still clearing the "Got away safely!" text box. Pressing A to return to the overworld so I can resume my movement sequence.
 - Turn 47424: Finally back in the overworld. I am at (25, 4) facing Down. Executing route to West Room: `R D14 L2 U4 L17 D1`.
 - Turn 47425 Reflection: The battle exit text "Got away safely!" is taking an unusually long time to clear, or my previous `A` presses didn't register properly. I am going to use `safe_mash_b` to ensure the text clears and I am fully back in the overworld before attempting the movement sequence again.
+- Turn 47426 Reflection: The text has completely cleared and I am in the overworld at (25, 4), facing Down. My movement sequence was: `R D14 L2 U4 L17 D1`.
+- Let's trace it again carefully.
+- From (25, 4) facing Down:
+- R1 -> Turns Right, steps to (26, 4)
+- D14 -> Turns Down, steps 13 to (26, 17) - wait!
+- Let's verify coordinates.
+- (26, 4) down to (26, 18) is 14 tiles. So 14 `Down` presses will take me 14 steps IF I am already facing Down. Since I am facing Right at (26, 4), the first `Down` turns me, and the next 13 step me to (26, 17). I need 15 `Down` presses to reach (26, 18).
+- Let's build the sequence with explicit facing in mind.
+- Current: (25, 4) facing Down.
+- R (turns Right, steps to 26, 4) -> 1 press.
+- D (turns Down), D14 (steps 14 to 26, 18) -> 15 presses.
+- L (turns Left), L2 (steps 2 to 24, 18) -> 3 presses.
+- U (turns Up), U4 (steps 4 to 24, 14) -> 5 presses.
+- L (turns Left), L17 (steps 17 to 7, 14) -> 18 presses.
+- D (turns Down), D1 (steps 1 to 7, 15) -> 2 presses.
+- Total sequence: `R DDDDDDDDDDDDDDD LLL UUUUU LLLLLLLLLLLLLLLLLL DD`.
