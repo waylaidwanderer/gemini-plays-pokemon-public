@@ -1615,5 +1615,18 @@ Sequence: `LLLL`.
 After clearing it, I will execute a micro-macro to reach the switch: `D LLL U A` to stand at (7, 16) facing Up and interact with it.
 - Turn 47468: The "Got away safely!" text is still present with a down arrow. I will explicitly press 'A' to clear it, and then check my surroundings. I am currently at (10, 15) and there appears to be a switch statue directly below me at (10, 16). I will verify this once back in the overworld.
 - Turn 47469 Reflection: The "Got away safely!" text is still open with a down arrow. My previous 'A' input in Turn 47468 was eaten by the text rendering animation. I am still at (10, 15) facing Down. I will use `safe_mash_b` to aggressively clear this text box before trying to move again.
+- Turn 47471 Reflection: The battle exit text has completely cleared. I am now in the overworld at (10, 15), facing Down. My target is the West Room (7, 15).
+Path: L3 to (7, 15).
+Sequence: `L LLL`.
+Wait, there is a switch statue at (6, 15)/(7, 15)! It occupies TWO tiles.
+If I step to (7, 15), I will bump into the switch statue.
+The actual room is further West. I should probably enter via the Y=14 hallway!
+Path to West Room via Y=14 from (10, 15) facing Down:
+- U1 (turn Up, step to 10, 14)
+- L3 (turn Left, step 2 to 8, 14)
+- Wait, I just need to get past the X=9 wall. The gap is at Y=14.
+- From (10, 15): Up to (10, 14). Left to (7, 14). Down to (7, 15) to inspect the switch area, or keep going Left to explore the rest of the room.
+Let's just walk Left to the switch area and see what's there.
+Sequence: `U LLL D`. This will place me at (7, 15) facing Down, bumping into the switch statue, or standing in front of it.
 
 <hr>
