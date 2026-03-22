@@ -1481,16 +1481,15 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - State A: Far East doors at (26, 17) CLOSED. Secret Key doors at (9, 7) OPEN.
 - State B: Far East doors at (26, 17) OPEN. Secret Key doors at (9, 7) CLOSED.
 - Current Status: Mansion is in State B. I am about to toggle the Central Switch (18, 25) to State A. My epiphany: State A allows continuous passage from the Central Switch all the way to the Secret Key! The doors at (18, 16), (26, 17), and (9, 7) are ALL OPEN in State A.
-- THE ROUTE:
-  1. Toggle the Central Switch at (18, 25) to STATE B.
-  2. Walk North through the permanent gap at X=16/17 to Y=14.
-  3. Walk East to X=24, then South to Y=17.
-  4. Pass through the OPEN Far East doors at (26, 17).
-  5. Walk North along the Far East corridor (X=26) to the NE area.
-  6. Press the NE switch at (20, 3) to toggle back to STATE A.
-  7. This CLOSES the (26, 17) doors behind you, but OPENS the (9, 7) doors!
-  8. Walk West along the Y=7 hallway all the way to X=9.
-  9. Pass through the OPEN doors at (9, 7) and claim the Secret Key!
+- THE TRUE ROUTE:
+  1. Toggle the Central Switch at (18, 25) to STATE A (Press YES).
+  2. Walk North to Y=14 (via the open doors at 18, 16 or the gap at X=16).
+  3. Walk East to X=24, then South to Y=18.
+  4. Walk East to X=26 to enter the Far East corridor.
+  5. Walk North through the OPEN Far East doors at (26, 17) to Y=4.
+  6. Walk West along the Y=4 hallway all the way to X=9.
+  7. Walk South along X=9 to reach the OPEN Secret Key doors at (9, 7).
+  8. Claim the Secret Key!
 - Diary located at 1F (18, 2): "Diary: July 5. Guyana, South America. A new POKEMON was discovered deep in the jungle."
 - Burglar trainer at (16, 22), facing Right. His line of sight covers Y=22.
 - B1F NE Area: The switch statue is at (18, 3) and must be interacted with from (18, 4). There is a long horizontal table at Y=5 blocking access from Y=6. You must go around the table on the East side (around X=25/X=26) to reach the Y=4 hallway.
