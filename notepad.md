@@ -2076,5 +2076,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - This immediately triggered ANOTHER wild encounter (a Machop) at (4, 15) just from turning in place!
 - The text "Wild MACHOP appeared!" is on screen.
 - Pressing 'A' to advance the text so the battle menu appears, and then I will run again.
+[Turn 50084 Progress]
+- Cleared the intro text. The main battle menu is visible.
+- Using `run_battle` to escape.
+- Once I am back in the overworld, I MUST visually confirm the boulder's position before making any further pushes!
 
 <hr>
