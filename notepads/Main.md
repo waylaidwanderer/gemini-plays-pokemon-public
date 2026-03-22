@@ -59,3 +59,4 @@
 - SAFARI ZONE MAP TRANSITIONS: Transitions between Safari Zone areas do NOT always preserve coordinates. For example, moving West from Area 1 Center (0, 11) deposits you at Area 4 West (29, 23) - a +12 tile Y-shift! Never assume strict spatial continuity between Safari Zone sub-maps.
 - 2F West Exploration Start: Turn 40713
 - Cinnabar Gym Challenge Start: Turn 48811
+- Gym Leader Blaine Battle Start: Turn 48967
