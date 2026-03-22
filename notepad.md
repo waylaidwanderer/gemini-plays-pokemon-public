@@ -2166,5 +2166,11 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - I just completed Step 3! The boulder is at (9, 16).
 - Step 4: Walk to (9, 17) and push boulder UP to (9, 14).
 - I am currently in a wild Machoke battle. I will use `run_battle` to escape, then navigate to (9, 17) to begin Step 4.
+[Turn 50113 Progress]
+- Incredible luck! The runaway 'Right' input from the previous run_battle command executed in the overworld and successfully pushed the boulder from (8, 16) to (9, 16)!
+- Step 3 is COMPLETE.
+- Then the runaway 'Down' input triggered a wild Zubat encounter. I am at (8, 16).
+- "Wild ZUBAT appeared!" text is on screen.
+- Pressing 'A' to clear it so I can run. STRENGTH is deactivated again.
 
 <hr>
