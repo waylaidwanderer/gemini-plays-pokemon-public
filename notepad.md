@@ -1877,5 +1877,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Start menu is open.
 - The cursor is currently on POKEDEX (index 1).
 - I need to press DOWN twice to reach ITEM (index 3), then press A.
+[Turn 49944 Progress]
+- Pokedex is closed. Back at the START menu.
+- Cursor is currently on ITEM.
+- Pressing 'A' to open the bag.
 
 <hr>
