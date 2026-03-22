@@ -9,3 +9,4 @@
 - Burglar trainer at (17, 8) facing Right.
 - Electronic doors blocking path North at (18, 6) and (19, 6).
 - Quiz Machine for this room is likely at (15, 7).
+- Defeating a room's trainer automatically opens the adjacent electronic doors. (Verified at 18, 6 after defeating Burglar).
