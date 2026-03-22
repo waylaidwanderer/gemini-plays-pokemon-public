@@ -9,3 +9,7 @@
   4. Walk to (9, 15) and push boulder DOWN to (9, 17).
 - Current puzzle state: The boulder is currently at (8, 16).
 - Currently healing Hydro, then preparing to push the boulder to (9, 16).
+[Turn 49954 Progress]
+- The Start menu is OPEN.
+- Visual confirmation: The cursor is on ITEM (index 3).
+- Executing single 'A' press to open the bag.
