@@ -61,6 +61,10 @@
 - SAFARI ZONE MAP TRANSITIONS: Transitions between Safari Zone areas do NOT always preserve coordinates. For example, moving West from Area 1 Center (0, 11) deposits you at Area 4 West (29, 23) - a +12 tile Y-shift! Never assume strict spatial continuity between Safari Zone sub-maps.
 - 2F West Exploration Start: Turn 40713
 - Cinnabar Gym Challenge Start: Turn 48811
+[50-Turn Reflection (Turn 48862)]
+- Successfully retrieved the Secret Key from Pokemon Mansion by solving the B1F switch/door puzzle.
+- Inventory managed, and Cinnabar Gym successfully breached.
+- Current strategy: Defeat all Gym trainers for EXP before challenging Blaine. No new tools needed for this phase.
 
 <hr>
 
