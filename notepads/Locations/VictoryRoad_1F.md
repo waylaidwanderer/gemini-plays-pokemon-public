@@ -92,3 +92,7 @@
 - Pokedex is closed. Back at the START menu.
 - Cursor is currently on ITEM.
 - Pressing 'A' to open the bag.
+[Turn 49945 Correction]
+- Absolute visual confirmation: The grid with `TYPE_xxxx` labels is visible on my screen. This ONLY happens in the overworld.
+- I am NOT in the Start menu. Pressing 'B' twice in Turn 49941 closed the Start menu completely.
+- I will press START to open the menu now, and wait to visually confirm the cursor position next turn before doing anything else.
