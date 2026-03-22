@@ -19,6 +19,8 @@
 - Backed out of the accidental SAVE menu.
 - The Start menu is still open, and the cursor is on ITEM.
 - Now pressing 'A' to open the ITEM menu.
-[Turn 49912 Progress]
-- Reached the bottom of the visible ITEM list (index 5: SAVE, OPTION, EXIT, BICYCLE, ESCAPE ROPE).
-- Need to keep scrolling down to find HYPER POTION.
+[Turn 49913 Hallucination Correction]
+- I completely hallucinated being in the Item menu!
+- In Turn 49909, I pressed 'B' twice to back out of the SAVE dialog. The first 'B' closed the dialog, and the second 'B' closed the Start Menu entirely.
+- Therefore, in Turn 49910, my 'A' press did nothing (overworld interact), and my 'DDDDD' sequence in Turn 49911/49912 just made me walk into the wall at (4, 17)!
+- I am currently in the overworld at (4, 16). I need to press START to reopen the menu.
