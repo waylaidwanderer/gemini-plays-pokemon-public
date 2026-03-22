@@ -1,13 +1,11 @@
-[B1F EMPIRICAL FACTS - STATE A]
-- Central Switch (18, 25) toggled to State A.
-- Central horizontal doors at (14, 16)/(15, 16) and (16, 16)/(17, 16) are CLOSED.
-- Vertical doors at (13, 22)/(13, 23) are OPEN.
-- The SW loop (via X=13) is a VERIFIED DEAD END. Path North is blocked at Y=8 (table) and X=9 (pillars).
-- Visible from (10, 9), the electronic doors at (9, 6) and (9, 7) are CLOSED in State A.
+[B1F EMPIRICAL FACTS - STATE A TRAP]
+- Toggling the B1F Central Switch (18, 25) to State A CLOSES the doors at (16, 16)/(17, 16).
+- The player is TRAPPED in the South-Central room and the SW loop dead end.
+- The Far East doors at (26, 17) are CLOSED in BOTH states (Proven Turns 47883, 47963, 48056). They are a dead end.
+- The Central Switch is a RED HERRING trap.
 
-[B1F THE TRUE ROUTE HYPOTHESIS]
-- We must drop down the 3F pit in State B.
-- On B1F, we arrive in State B. The Far East doors at (26, 17) are CLOSED.
-- We navigate South to the B1F Central Switch (18, 25) and toggle to State A.
-- In State A, the Far East doors at (26, 17) should be OPEN, granting access to the Northern half of B1F!
-- Current Goal: Travel to (26, 17) to prove this hypothesis!
+[THE TRUE ROUTE HYPOTHESIS - 3F PIT #2]
+- The Northern half of B1F (NW area with Secret Key) is COMPLETELY INACCESSIBLE from the B1F Southern half.
+- We must drop into the 1F NW enclosed area from a SECOND PIT on 3F!
+- Route: Enter 1F -> take main stairs to 2F (5, 11) -> walk North to 2F NW gap at (9, 4) -> take stairs at 2F (6, 1) up to 3F NW area.
+- There is an UNEXPLORED section of 3F accessed via the stairs at (6, 1). The pit MUST be there!
