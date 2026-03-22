@@ -1505,5 +1505,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [CURRENT DIRECTIVE]
 - The Secret Key MUST be accessed by bypassing the Y=8 table via the West side.
 - I must Dig out, heal, return to 3F, and exhaustively map the South-West area (West of X=13) to find a Second Pit that drops behind the B1F blockades.
+- Turn 48084 (50-Turn Reflection):
+  - Execution: Entering Pokemon Mansion to exhaustively map 3F SW area for a second pit.
+  - Lesson: Always trust empirical bump tests (e.g., doors are closed) over theoretical spatial hypotheses.
 
 <hr>
