@@ -1798,5 +1798,11 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   4. Walk to (9, 15) and push boulder DOWN to (9, 17).
 - The wild Machop interrupted my movement sequence before I could get to the boulder. Resuming the path to (5, 14).
 - At (8, 15), the path North is blocked by a one-way ledge. The path West is blocked by a wall at X=6. To reach the boulder from here, go South to Y=16, West to X=4, North to Y=14, and East to (5, 14).
+[Turn 49909 Hallucination Correction]
+- I intended to use a Hyper Potion on Hydro.
+- I was in the Start menu, and used navigate_menu to press 'Down' twice and 'A' to select ITEM.
+- HOWEVER, I did NOT look at the screen! The Start menu cursor was already on ITEM from my previous use of Strength (which reset the cursor to the top of the POKEMON menu, but left the Start menu cursor on ITEM when I exited).
+- Because the cursor was already on ITEM, pressing Down twice moved it to SAVE, and pressing 'A' opened the SAVE menu!
+- I am currently looking at the SAVE menu dialog ("Would you like to SAVE the game?"). I need to back out.
 
 <hr>
