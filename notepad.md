@@ -1720,5 +1720,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [Turn 49814 Progress]
 - Now surfing on HYDRO!
 - Moving North along the water path.
+[Turn 49815 Progress]
+- "GEM got on HYDRO!" text is cleared.
+- Executing `move_sequence` "UUUU" to surf North.
 
 <hr>
