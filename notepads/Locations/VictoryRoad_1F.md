@@ -22,3 +22,7 @@
 - HYDRO's HP was restored from 14 to 198.
 - The cursor is still on HYDRO (index 1) in the party menu.
 - Pressing B to exit the party menu, then B again to exit the Start menu to the overworld.
+[Turn 49927 Progress]
+- Cleaned up the notepad and backed out of all menus.
+- Currently at (4, 16) in the overworld.
+- Resuming path to the boulder: Walk North to Y=14, then East to (5, 14).
