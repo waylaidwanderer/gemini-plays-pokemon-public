@@ -1820,7 +1820,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   6. Walk to (16, 15) via (15, 15). Push boulder UP to (16, 12).
   7. Walk to (15, 12) via (14, 14) -> (14, 12). Push boulder RIGHT to (17, 12).
   8. Walk to (17, 11) via (16, 11). Push boulder DOWN to switch at (17, 13).
-- Current Status: PUZZLE SOLVED! Boulder is on the switch at (17, 13). Navigating to stairs at (5, 13).
-[Turn 50321 Progress] Battle intro text cleared. Using `run_battle` to escape.
+- Current Status: PUZZLE SOLVED! Boulder is on the switch at (17, 13). Exploring raised platform from stairs at (5, 13).
 
 <hr>
