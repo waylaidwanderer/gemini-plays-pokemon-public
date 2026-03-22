@@ -1607,5 +1607,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 # Giovanni (Viridian Gym)
 - Rhyhorn Lv 45
 - Dugtrio Lv 42
+- Nidoqueen Lv 44
 
 <hr>
