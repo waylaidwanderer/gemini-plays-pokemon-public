@@ -1506,5 +1506,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 
 [CURRENT HYPOTHESIS]
 - I must physically drop down the pit at 3F (19, 14) and observe the resulting floors before claiming I have direct access to B1F.
+- To reach the pit at 3F (19, 14), I must use the Southern doors at (15, 10), which means the Mansion must be in STATE B. The Far East path (via the Northern doors) is blocked by a solid wall at Y=9. I am verifying this wall now before turning back.
 
 <hr>
