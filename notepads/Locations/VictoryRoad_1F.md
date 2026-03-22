@@ -52,3 +52,7 @@
 - The Party menu is now open, asking "Use item on which POKéMON?".
 - Visual confirmation: The cursor is on HYDRO (index 1).
 - Pressing 'A' to heal Hydro.
+[Turn 49970 Progress]
+- "HYDRO recovered by 184!"
+- Hydro is now at full HP (198/198).
+- Using `exit_menu` to back out of all menus and return to the overworld.
