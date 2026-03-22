@@ -1501,5 +1501,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Plan: Toggle B1F back to State B, use Dig to escape, re-enter, set Mansion to State A via 1F/3F switch, and systematically map the ENTIRE 3F West Wing!
 [Turn 48396] Started the "Search for Second Pit" plan. Exiting Pokemon Center to return to the Mansion.
 [Turn 48402] Accidentally bumped into the locked Cinnabar Gym door at (18, 3). Navigating to the Mansion at (6, 3) via the Y=4 corridor.
+[Turn 48419] Explored 3F West Wing North. Y=6 is completely blocked by solid rubble from X=1 to X=9. There is no path South from the North-West area. I will now navigate to the Central South area via X=13/X=14 to explore the South-West.
 
 <hr>
