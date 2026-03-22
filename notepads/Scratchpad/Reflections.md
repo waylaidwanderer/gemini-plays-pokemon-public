@@ -1,11 +1,13 @@
-[B1F EMPIRICAL FACTS - STATE A TRAP]
-- Toggling the B1F Central Switch (18, 25) to State A CLOSES the doors at (16, 16)/(17, 16).
-- The player is TRAPPED in the South-Central room and the SW loop dead end.
-- The Far East doors at (26, 17) are CLOSED in BOTH states (Proven Turns 47883, 47963, 48056). They are a dead end.
-- The Central Switch is a RED HERRING trap.
+[THE TRUE MASTER PLAN - THE FAR EAST CORRIDOR]
+- Hypothesis: The B1F Far East doors at (26, 17) are OPEN in State A. My previous conclusion that they are closed in both states was a hallucination/false assumption.
+- The route to the Secret Key relies on toggling B1F to State A, accepting the closure of the central doors, and using the Far East doors as the bypass to the North!
 
-[THE TRUE ROUTE HYPOTHESIS - 3F PIT #2]
-- The Northern half of B1F (NW area with Secret Key) is COMPLETELY INACCESSIBLE from the B1F Southern half.
-- We must drop into the 1F NW enclosed area from a SECOND PIT on 3F!
-- Route: Enter 1F -> take main stairs to 2F (5, 11) -> walk North to 2F NW gap at (9, 4) -> take stairs at 2F (6, 1) up to 3F NW area.
-- There is an UNEXPLORED section of 3F accessed via the stairs at (6, 1). The pit MUST be there!
+Execution Steps:
+1. Toggle 3F switch at (10, 4) to STATE B.
+2. Drop down 3F pit at (16, 14). Arrive on B1F in State B.
+3. Walk to B1F Central Switch at (18, 25) and toggle to STATE A.
+4. Walk East to (26, 18). The doors at (26, 17) should be OPEN!
+5. Walk North up X=26/27 to Y=4.
+6. Walk West to X=10, then South to Y=7.
+7. Walk West through the doors at (9, 7) (which are OPEN in State A).
+8. Arrive at Secret Key switch (7, 15)!
