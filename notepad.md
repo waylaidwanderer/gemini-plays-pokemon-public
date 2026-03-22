@@ -1875,5 +1875,10 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - The text "No SURFing on HYDRO here!" is BACK on screen.
 - I need to clear this text (A, A), then press B to close HYDRO's sub-menu, then verify I am on the main Party list before moving the cursor.
 - Executing 'A' to advance the text.
+[Turn 50239 Progress]
+- The text is fully cleared and I am back at the main Party Menu.
+- Visual confirmation: The cursor is on HYDRO (index 1).
+- Executing a single 'Down' press to move the cursor to CLEO (index 2).
+- I will WAIT for visual confirmation before pressing A.
 
 <hr>
