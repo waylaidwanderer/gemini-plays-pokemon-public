@@ -9,3 +9,10 @@
 - I must find a completely new path. I am going to explore the 1F North-West area! 
 - I previously noted a switch at 1F (2, 5), which means I can reach the NW corner of 1F. I need to exhaustively search that area for stairs leading down to the isolated B1F NW section.
 - Route to 1F NW: Go to 1F. Use the Northern Hallway (Y=2) to cross from the East/Central wing to the West wing.
+[NEW MASTER HYPOTHESIS]
+- The NW area of B1F (where the Secret Key is) is completely inaccessible from the B1F Main Landing.
+- There are NO stairs in the 1F NW area (visually verified).
+- The solution MUST be a pit or stairs on the FAR EAST side of 3F!
+- If I drop from 3F Far East (X=25), I will land in 2F Far East, then 1F Far East, and finally B1F Far East (North of the closed doors at 26, 17)!
+- From the B1F NE area, I can walk West along the Y=4 hallway to the Secret Key.
+- Route: Go to 3F. Ensure State A (Northern doors at 15, 4 are open). Walk East to X=25. Explore South for the true path down!
