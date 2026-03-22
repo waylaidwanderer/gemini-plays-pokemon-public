@@ -31,3 +31,5 @@
 [Turn 49723 Progress]
 - Passed the Thunderbadge check at (9, 119).
 - Pressing A to clear the text.
+[Turn 49724 Progress]
+- Pressing A to clear the remaining text.

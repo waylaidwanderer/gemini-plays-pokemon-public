@@ -1727,5 +1727,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [Turn 49723 Progress]
 - Passed the Thunderbadge check at (9, 119).
 - Pressing A to clear the text.
+[Turn 49724 Progress]
+- Pressing A to clear the remaining text.
 
 <hr>
