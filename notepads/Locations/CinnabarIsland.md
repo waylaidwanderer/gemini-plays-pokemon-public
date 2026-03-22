@@ -19,3 +19,4 @@
 - The ONLY path North to the Gym and Mansion from the southern area (where you exit the Lab or Center) is via the far East corridor at X=18!
 - Route: Walk East to X=18, walk North to Y=4, then walk West to reach the Mansion.
 - WARNING: Stepping onto the tile at (18, 4) automatically triggers a text box ("The door is locked...") from the Cinnabar Gym door without needing to press A. This will interrupt movement macros.
+- [Turn 48839] Successfully unlocked and entered Cinnabar Gym (Map 0_166) using the Secret Key! The door opens automatically when you walk into it (18, 3) from the outside, just like electronic doors with the Card Key.
