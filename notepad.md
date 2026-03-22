@@ -1854,5 +1854,10 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Visual confirmation: The cursor is visibly on HYDRO (index 1).
 - Executing a single 'Down' press to move the cursor to CLEO (index 2).
 - I will wait to visually confirm the cursor moved before pressing A.
+[Turn 50235 Progress]
+- The text is fully cleared and I am back at the main Party Menu.
+- Visual confirmation: The cursor is visibly on HYDRO (index 1).
+- Executing a single 'Down' press to move the cursor to CLEO (index 2).
+- I will wait to visually confirm the cursor moved before pressing A.
 
 <hr>
