@@ -47,3 +47,8 @@
 - Based on Turn 49955, HYPER POTION is below FRESH WATER.
 - Bag Order (partial): 1: BICYCLE, 2: POKé FLUTE, 3: LEMONADE, 4: FRESH WATER, 5: HYPER POTION.
 - Executing `use_item` to use HYPER POTION (index 5) starting from BICYCLE (index 1).
+[Turn 49969 Progress]
+- Executed `use_item` which successfully navigated to HYPER POTION and selected USE.
+- The Party menu is now open, asking "Use item on which POKéMON?".
+- Visual confirmation: The cursor is on HYDRO (index 1).
+- Pressing 'A' to heal Hydro.
