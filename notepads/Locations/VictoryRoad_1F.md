@@ -85,3 +85,7 @@
 - The 'Down' press worked.
 - Visual confirmation: The cursor is now on CLEO (index 2).
 - Executing a single 'A' press to open CLEO's sub-menu.
+[Turn 50241 Progress]
+- The 'A' press worked! CLEO's sub-menu is open.
+- Visual confirmation: The cursor is explicitly on STRENGTH.
+- Executing a single 'A' press to use STRENGTH.
