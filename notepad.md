@@ -1799,5 +1799,10 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Current puzzle state: The boulder is at (9, 16) and is being pushed UP toward the switch at (9, 12).
 - Player is at (9, 17).
 - Status: Strength needs to be reactivated to push the boulder.
+[Turn 49984 Progress]
+- The Party menu is open.
+- Visual confirmation: The cursor is on CLEO (index 2).
+- Cleo has STRENGTH.
+- Using `use_hm_field` to activate Strength.
 
 <hr>
