@@ -1663,5 +1663,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - I successfully reached the water at (22, 6) on the Upper Path.
 - The path West on the Upper Path was indeed blocked at X=16, but the water extends South from X=22.
 - I will Surf South to continue towards the Reception Gate.
+[Turn 49678 Pond Realization]
+- The water at X=22 is just a 4x4 decorative pond. It does NOT block the path West.
+- The actual path West continues on the grass at Y=10, Y=11, Y=12 beneath the pond.
+- I will walk West along Y=10 to meticulously scan the northern boundary (including the bottom of the statues at X=14/15) for the true path to the Reception Gate.
 
 <hr>
