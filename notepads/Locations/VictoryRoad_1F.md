@@ -186,3 +186,6 @@
 - Escaped the Geodude.
 - The "Got away safely!" text is on screen.
 - Pressing 'A' to clear it, then I will execute Step 3: Left to (4, 15), Down to (4, 16).
+[Turn 50059 Progress]
+- Movement sequence `LDDRRRRR` reached (4, 16). The first 'Right' input was interrupted by a wild Onix encounter!
+- Using `run_battle` to escape. I must verify the boulder's position after escaping, as the push may or may not have registered.

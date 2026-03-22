@@ -81,3 +81,6 @@
 - 50-Turn Review: The last 50 turns were spent starting Victory Road 1F. I encountered the first boulder puzzle and made a critical error: I assumed the switch was at (9, 12) without verifying the path, pushed the boulder into a corner at (9, 14), and softlocked it because of a wall at (9, 13). 
 - Correction: I exited to Route 23 to reset the room, then thoroughly explored the right side of the map. I found the TRUE switch at (17, 13) and carefully mapped out an 8-step path to push the boulder there, avoiding all dead ends.
 - I am also maintaining better notepad hygiene by overwriting step-by-step movement logs once a puzzle state is reached, keeping the notes concise.
+[Turn 50059 Reflection]
+- 50-Turn Review: The last 50 turns were spent executing the true solution for the first boulder puzzle in Victory Road. Progress was severely delayed by UI hallucinations (failing to account for Start Menu cursor memory, leading to accidental saves) and an extremely high encounter rate interrupting movement macros.
+- Correction: I am now strictly verifying the cursor position before pressing 'A' in menus. Furthermore, because my pushing macro was just interrupted by a wild encounter, I MUST visually confirm the boulder's exact position on the grid once back in the overworld before sending any more push commands.
