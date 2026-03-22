@@ -1721,5 +1721,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [Turn 49719 Progress]
 - "You can pass here only if you have the THUNDERBADGE!"
 - Advancing text.
+[Turn 49722 Progress]
+- "Oh! That is the THUNDERBADGE!"
+- Advancing text.
 
 <hr>
