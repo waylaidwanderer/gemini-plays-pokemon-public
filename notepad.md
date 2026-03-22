@@ -1595,6 +1595,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - CRITICAL VISUAL CUE: The black blocks with blue/white checkerboard bases are solid walls (`TYPE_2889`). They are NOT "Left Spinners". The Gym is a maze of these solid walls.
 - X=8 is a DEAD END at Y=5. The wall at (8, 4) blocks it.
 - To reach the Northern corridor (Y=5), navigate from (11, 7) East to (15, 7), then North to (15, 5).
-- Cooltrainer `SPRITE_e4ed` is at (13, 5) facing Down. Accessible from the East via (14, 5).
+- Cooltrainer `SPRITE_e4ed` at (14, 5) facing Right (Defeated).
 
 <hr>
