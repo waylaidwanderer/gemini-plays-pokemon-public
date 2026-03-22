@@ -315,3 +315,8 @@
 - Current player position is (6, 16). Boulder is at (7, 16).
 - "Wild MACHOKE appeared!" text is on screen.
 - Pressing 'A' to clear it so I can run.
+[Turn 50091 Progress]
+- Cleared intro text. Battle menu is visible.
+- Using `run_battle` tool to escape the Machoke.
+- After escaping, I will be at (6, 16) and the boulder will be at (7, 16).
+- I will need to push it RIGHT 2 more times to reach (9, 16).
