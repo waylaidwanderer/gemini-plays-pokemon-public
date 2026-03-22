@@ -73,3 +73,9 @@
 [Turn 50000 Progress]
 - Interrupted by another wild Onix at (4, 16) while exploring the room.
 - Using `run_battle` to escape.
+[Turn 50001 Progress]
+- Cleared the wild Onix. Text "Got away safely!" is on screen.
+- I am at (4, 16). The boulder is at its reset position (5, 15).
+- I need to explore the right side of the room to see how to access the switch at (9, 12).
+- I will walk Right along Y=16 to (9, 16), then Up to (9, 14), then Right to explore.
+- Executing: A, R, R, R, R, R, U, U, R, R, R, R.
