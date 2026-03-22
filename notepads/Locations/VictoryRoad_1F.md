@@ -108,3 +108,4 @@
 [Turn 50249 Progress] "No SURFing" text is cleared! Back at the main Party Menu. Cursor is on HYDRO (index 1). Pressing 'Down' to move to CLEO.
 [Turn 50250 Progress] Cursor is visually confirmed to be on CLEO. Pressing 'A' to open her sub-menu.
 [Turn 50251 Progress] CLEO's sub-menu is open. Cursor is on STRENGTH. Pressing 'A' to activate it.
+[Turn 50252 Progress] Success! "CLEO can move boulders." text is on screen. Pressing 'A' to clear it and hopefully return to the overworld.
