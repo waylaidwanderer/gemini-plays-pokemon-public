@@ -52,3 +52,9 @@
 - I am at (7, 16), facing Right.
 - The path to get around the boulder at (9, 16) is: Right to (8, 16), Down to (8, 17), Right to (9, 17).
 - Executing a single 'Right' press to move to (8, 16).
+[Turn 50180 Progress]
+- The 'Right' input was aborted because I encountered another wild Geodude at (8, 17)!
+- "Wild GEODUDE appeared!" is on screen.
+- My `Down` input successfully moved me from (8, 16) to (8, 17) before the encounter triggered.
+- Pressing 'A' to advance the intro text so I can run.
+- STRENGTH is deactivated AGAIN.
