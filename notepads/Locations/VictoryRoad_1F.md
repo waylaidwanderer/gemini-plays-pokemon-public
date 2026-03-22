@@ -40,3 +40,7 @@
 [Turn 50141 Progress]
 - The cursor is visibly on POKéMON.
 - Executing 'A' to open the Party Menu. I will wait for visual confirmation of the cursor position inside the Party Menu next turn.
+[Turn 50142 Progress]
+- The Party Menu is open.
+- Visual confirmation: The cursor is on CLEO (index 2), as expected due to cursor memory.
+- Executing 'A' to open CLEO's sub-menu.
