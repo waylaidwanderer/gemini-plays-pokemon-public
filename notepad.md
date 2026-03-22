@@ -2041,5 +2041,11 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - The Party menu is successfully open!
 - The cursor is on HYDRO (index 1).
 - Executing 'Down', 'A' to select CLEO (index 2).
+[Turn 50077 Progress]
+- Cleo's sub-menu is open.
+- Hallucination Correction: Because Cleo has a Field Move (STRENGTH), it is automatically placed at the TOP of her sub-menu (index 1), pushing STATS and SWITCH down.
+- The cursor is already on STRENGTH!
+- If I had blindly executed `Down, Down, A` like I planned earlier, I would have selected SWITCH and messed up the menu again.
+- Executing a single 'A' press to activate Strength.
 
 <hr>
