@@ -287,3 +287,6 @@
 - Escaped the Machop. "Got away safely!" text is on screen.
 - Pressing 'A' to clear the text and return to the overworld.
 - Next step: step Down to (4, 16) and then verify boulder position.
+[Turn 50086 Progress]
+- The text "Got away safely!" is still rendering (Down arrow present).
+- Pressing 'A' again to clear the text and return to the overworld.
