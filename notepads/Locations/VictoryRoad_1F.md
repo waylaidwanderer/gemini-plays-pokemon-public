@@ -250,3 +250,8 @@
 - The cursor is already on STRENGTH!
 - If I had blindly executed `Down, Down, A` like I planned earlier, I would have selected SWITCH and messed up the menu again.
 - Executing a single 'A' press to activate Strength.
+[Turn 50078 Progress]
+- Executed 'A' to use STRENGTH.
+- Text "CLEO used STRENGTH!" and "CLEO can move boulders." are rendering.
+- Pressing 'A' to clear the text and return to the overworld.
+- Then I will push the boulder DOWN to (5, 16).
