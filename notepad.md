@@ -1845,5 +1845,10 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - "HYDRO recovered by 184!"
 - Hydro is now at full HP (198/198).
 - Using `exit_menu` to back out of all menus and return to the overworld.
+[Turn 49971 Progress]
+- Successfully exited all menus. Back in the overworld at (7, 16).
+- The boulder is at (8, 16).
+- I need to push it Right to (9, 16).
+- Pressing 'Right' to push the boulder. If Strength wore off, I will re-activate it.
 
 <hr>
