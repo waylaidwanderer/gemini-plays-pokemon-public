@@ -1828,5 +1828,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Closed HYDRO's sub-menu. Back at the main Party Menu.
 - Visual confirmation: The cursor is visibly on HYDRO (index 1).
 - Executing a single 'Down' press to move the cursor to CLEO (index 2).
+[Turn 50229 Progress]
+- The 'Down' press worked.
+- Visual confirmation: The cursor is now on CLEO (index 2).
+- Executing a single 'A' press to open CLEO's sub-menu.
 
 <hr>
