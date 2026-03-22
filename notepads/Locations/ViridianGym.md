@@ -13,3 +13,8 @@
 - (19, 1) is a Left-pointing spinner.
 - From (19, 2) stop tile, stepping Up hits (19, 1) [Left spinner].
 - From (19, 2) stop tile, stepping Left hits (18, 2) [Down spinner].
+- (19, 2) stop tile -> [Up] -> hits (19, 1) Left spinner. Pushes Left all the way to (11, 1) Down spinner.
+- Trainer `SPRITE_427f` (Black Belt) at (10, 1).
+- Trainer `SPRITE_9238` (Tamer?) at (10, 7).
+- Trainer `SPRITE_e4ed` (Cooltrainer?) at (13, 5).
+- Trainer `SPRITE_e4ed` at (12, 7).
