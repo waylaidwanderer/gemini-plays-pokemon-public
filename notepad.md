@@ -1734,5 +1734,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [Turn 49808 Progress]
 - The cursor is on SURF.
 - Actually pressing A this time to execute the move!
+[Turn 49809 Progress]
+- "GEM got on HYDRO!"
+- Pressing A to clear the text.
 
 <hr>
