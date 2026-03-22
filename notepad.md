@@ -1481,17 +1481,18 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - 3F Far East and 3F West Wing are VERIFIED DEAD ENDS. There is no second pit.
 - The ONLY way down is the main pit at 3F (16, 14).
 - ROUTE TO SECRET KEY:
-  1. Drop down the main pit at 3F (16, 14), landing in 1F enclosed area. Take stairs to B1F.
-  2. On B1F, go to the central switch at (18, 25). Toggle it to STATE B!
-  3. In State B, the horizontal doors at Y=16 close, but the vertical doors at (13, 22) OPEN!
-  4. Walk West to X=13, walk North through the open doors at (13, 22).
-  5. Follow the path to the gap at (10, 17).
-  6. From (10, 17), walk NORTH to reach the B1F Northern Hallway at (10, 7)! (This bypasses the horizontal doors).
-  7. Walk East along the Northern Hallway to reach the Northeast switch at (18, 3).
-  8. Toggle the Northeast switch to STATE A!
-  9. In State A, the vertical electronic doors at X=9 (which block the Secret Key) OPEN!
-  10. Walk West from (18, 3) all the way to X=9. Walk through the open doors.
-  11. Claim the Secret Key!
+  1. On 3F, toggle the switch at (10, 4) to STATE B.
+  2. Walk East to X=14, South to Y=14, then East through the OPEN Southern doors to the main pit at (16, 14).
+  3. Drop down the pit, landing in 1F enclosed area. Take stairs to B1F.
+  4. Arrive on B1F in STATE B! The vertical doors at (13, 22) are ALREADY OPEN!
+  5. Walk West to X=13, walk North through the open doors at (13, 22).
+  6. Follow the path to the gap at (10, 17).
+  7. From (10, 17), walk NORTH to reach the B1F Northern Hallway at (10, 7)!
+  8. Walk East along the Northern Hallway to reach the Northeast switch at (18, 3).
+  9. Toggle the Northeast switch to STATE A!
+  10. In State A, the vertical electronic doors at X=9 (which block the Secret Key) OPEN!
+  11. Walk West from (18, 3) all the way to X=9. Walk through the open doors.
+  12. Claim the Secret Key!
 - Diary located at 1F (18, 2): "Diary: July 5. Guyana, South America. A new POKEMON was discovered deep in the jungle."
 - Burglar trainer at (16, 22), facing Right. His line of sight covers Y=22.
 - B1F NE Area: The switch statue is at (18, 3) and must be interacted with from (18, 4). There is a long horizontal table at Y=5 blocking access from Y=6. You must go around the table on the East side (around X=25/X=26) to reach the Y=4 hallway.
