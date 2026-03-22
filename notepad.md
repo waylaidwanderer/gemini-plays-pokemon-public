@@ -2067,5 +2067,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - My `Left, Down` sequence was interrupted on the FIRST step by a wild Zubat.
 - "Wild ZUBAT appeared!" text is on screen.
 - Pressing 'A' to clear it so I can run.
+[Turn 50082 Progress]
+- Cleared the intro text.
+- The main battle menu is visible.
+- Using `run_battle` tool to escape the Zubat so I can continue Step 3.
 
 <hr>
