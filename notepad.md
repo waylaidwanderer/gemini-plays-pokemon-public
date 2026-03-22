@@ -1711,5 +1711,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [Turn 49774 Progress]
 - Reached the water at (11, 104) and facing Up.
 - Opening the Start menu to use Surf.
+[Turn 49775 Progress]
+- Pressing Start to open the menu to use Surf.
 
 <hr>
