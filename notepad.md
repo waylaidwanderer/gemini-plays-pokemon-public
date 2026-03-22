@@ -1894,5 +1894,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - My sequence of B presses in earlier turns did not fully back me out to the overworld.
 - I am currently looking at the Pokedex list.
 - I will use `safe_mash_b` 10 times to completely exit all menus and return to the overworld.
+[Turn 49949 Progress]
+- Confirmed: Back in the overworld at (7, 17). The UI is completely clear.
+- Pressing START to open the menu. I will wait for visual confirmation before doing anything else.
 
 <hr>
