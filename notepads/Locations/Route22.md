@@ -14,3 +14,7 @@
 - I have confirmed the very bottom path (Y=14, Y=15) is a one-way drop returning East.
 - Since the lower path (Y=12) ended in a dead end at X=1 and forced me to jump down to Y=13, the TRUE path to the Reception Gate MUST be somewhere I missed on the upper or middle routes.
 - I will return to the Viridian City entrance and systematically remap the route, ignoring my previous assumptions.
+[Turn 49615 Hypothesis]
+- I have exhausted the lower path (dead ends at X=1) and the bottom ledge path (one-way loop East).
+- The upper path was blocked by statues at X=14/X=15, but I only tested Y=4, Y=5, and Y=6.
+- HYPOTHESIS: The true path West MUST bypass those statues to the North! I need to explore the tiles at Y=1, Y=2, and Y=3 above the statues at X=14/15. This is the only remaining unexplored area on the route.
