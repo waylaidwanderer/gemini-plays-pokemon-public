@@ -72,3 +72,7 @@
 - Executed 'Down'.
 - Visual confirmation: The cursor is now on POKéMON.
 - Executing a single 'A' press to open the Party Menu.
+[Turn 50152 Progress]
+- The Party Menu is open.
+- Visual confirmation: The cursor is correctly on CLEO (index 2).
+- Executing a single 'A' press to open CLEO's sub-menu.
