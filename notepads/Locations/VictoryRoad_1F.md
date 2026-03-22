@@ -283,3 +283,7 @@
 - Cleared the intro text. The main battle menu is visible.
 - Using `run_battle` to escape.
 - Once I am back in the overworld, I MUST visually confirm the boulder's position before making any further pushes!
+[Turn 50085 Progress]
+- Escaped the Machop. "Got away safely!" text is on screen.
+- Pressing 'A' to clear the text and return to the overworld.
+- Next step: step Down to (4, 16) and then verify boulder position.
