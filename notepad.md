@@ -1885,5 +1885,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Absolute visual confirmation: The grid with `TYPE_xxxx` labels is visible on my screen. This ONLY happens in the overworld.
 - I am NOT in the Start menu. Pressing 'B' twice in Turn 49941 closed the Start menu completely.
 - I will press START to open the menu now, and wait to visually confirm the cursor position next turn before doing anything else.
+[Turn 49946 Progress]
+- Visual confirmation: The Start menu is OPEN.
+- The cursor is currently pointing at ITEM (index 3).
+- Pressing 'A' to open the ITEM bag.
 
 <hr>
