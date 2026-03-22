@@ -1848,5 +1848,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Movement sequence to exit the cave was interrupted by a wild Onix encounter at (8, 16).
 - "Wild ONIX appeared!" text is on screen.
 - Pressing 'A' to advance the intro text so the main battle menu appears.
+[Turn 49995 Progress]
+- Main battle menu is visible. Cursor is on FIGHT.
+- Using `run_battle` tool to escape from the Onix and return to the overworld to finish resetting the puzzle.
 
 <hr>
