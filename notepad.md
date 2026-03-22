@@ -1507,5 +1507,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 6. Walk North along X=10 to Y=7.
 7. Walk West through the X=9 vertical doors (now OPEN in State A).
 8. Obtain the Secret Key!
+[Turn 48629 Empirical Proof]
+- Successfully walked West through the X=13 vertical doors at Y=22 while the Mansion was in State A! The theory is absolutely confirmed. State A grants access to the SW corridor. Proceeding North to test the X=9 doors.
 
 <hr>
