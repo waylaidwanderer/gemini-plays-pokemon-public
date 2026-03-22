@@ -102,3 +102,7 @@
 - The 'A' press worked! The Party Menu is now open.
 - Visual confirmation: The cursor is currently on CLEO (index 2), due to cursor memory.
 - Executing a single 'A' press to select CLEO and open her sub-menu.
+[Turn 50215 Progress]
+- The 'A' press worked! The Party Menu is now open.
+- Visual confirmation: The cursor is currently on CLEO (index 2), due to cursor memory.
+- Executing a single 'A' press to select CLEO and open her sub-menu.
