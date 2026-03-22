@@ -1897,5 +1897,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - My 'Down' press in Turn 50212 was either eaten or I misread the screen again.
 - The cursor is visibly and definitively on POKéMON right now.
 - Executing a single 'A' press to open the Party Menu.
+[Turn 50214 Progress]
+- The 'A' press worked! The Party Menu is now open.
+- Visual confirmation: The cursor is currently on CLEO (index 2), due to cursor memory.
+- Executing a single 'A' press to select CLEO and open her sub-menu.
 
 <hr>
