@@ -63,3 +63,7 @@
 - [PokeMart Mechanics] Gen 1 Mart inventories do NOT scale with badges. They are fixed to their location. Celadon Dept Store 2F is fixed to Super Potions and Great Balls. Must visit late-game cities (Saffron, Fuchsia, Cinnabar) for Hyper Potions, Ultra Balls, and Full Heals.
 - Earth Badge Obtained (Giovanni): Turn 49188
 - Route 22 Exploration Start: Turn 49331
+[Turn 49695 Reflection]
+- 50-Turn Review: The last 50 turns were dominated by the Route 22 maze. I suffered from severe spatial hallucinations (assuming water existed where there was rock, assuming walls were infinite without testing).
+- Correction: I solved it by returning to the "Exhaustive Exploration" rule—physically bumping every single tile along the perimeter of obstacles. This revealed the hidden gaps at Y=11 and Y=9.
+- Going forward, I will NEVER declare a path blocked without physically bumping the tiles to verify. Visuals in Gen 1 can be highly misleading (e.g., the top of the archway at 14, 4 looked like a path but was solid; the wall at 5, 11 looked solid but had a gap).
