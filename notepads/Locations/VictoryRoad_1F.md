@@ -104,3 +104,8 @@
 - I am FINALLY back in the overworld at (8, 16).
 - I need to walk to (9, 17). Path: Down to (8, 17), Right to (9, 17).
 - Executing: Down, Right.
+[Turn 50159 Progress]
+- The text box is fully cleared. I am in the overworld at (8, 16).
+- Step 4: Walk to (9, 17) and push boulder UP to (9, 14).
+- I need to move Down to (8, 17), then Right to (9, 17).
+- Executing a single 'Down' press.
