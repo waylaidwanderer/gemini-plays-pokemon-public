@@ -8,3 +8,5 @@
 7. Continue North to the Y=4 hallway. This bypasses the Y=8 tables completely!
 8. Walk West along Y=4 to X=9. In State A, the Secret Key doors at (9, 7) are OPEN.
 9. Walk South through the doors and claim the Secret Key!
+[OVERWATCH CORRECTION]
+My Master Plan is FLAWED. The Far East doors at (26, 17) are empirically closed in both states (proven Turn 47963 & 47883). I cannot use them to go North. Instead, I am at (23, 14) on B1F. If I walk West to X=18, I will be in the Central Hallway *North* of the Y=16 electronic doors! I will attempt to walk North from (18, 14) to explore the upper half of B1F directly.
