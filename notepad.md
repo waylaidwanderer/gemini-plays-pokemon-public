@@ -1729,5 +1729,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Pressing A to clear the text.
 [Turn 49724 Progress]
 - Pressing A to clear the remaining text.
+[Turn 49725 Progress]
+- The guard has stepped aside.
+- Walking North and East to navigate around the water at Y=115.
 
 <hr>

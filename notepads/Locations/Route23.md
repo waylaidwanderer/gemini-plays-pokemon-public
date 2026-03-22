@@ -33,3 +33,6 @@
 - Pressing A to clear the text.
 [Turn 49724 Progress]
 - Pressing A to clear the remaining text.
+[Turn 49725 Progress]
+- The guard has stepped aside.
+- Walking North and East to navigate around the water at Y=115.
