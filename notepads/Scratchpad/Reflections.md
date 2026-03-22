@@ -1,11 +1,10 @@
-[THE TRUE MASTER PUZZLE]
-1. 3F has TWO pits. The main pit (16, 14) is a DEAD END. You land in B1F State A, where Y=8 is a solid table blocking the Secret Key, and Far East doors are closed.
-2. The Second Pit is hidden in the SW area of 3F (West of X=13, South of Y=8). I abandoned my search too early!
-3. Drop down Second Pit -> land in isolated B1F NW section.
-4. Toggle B1F West Switch (7, 15) to State B.
-5. State B opens doors at X=9! Escape East into B1F Main Hallway.
-6. In State B, Far East doors (26, 17) are OPEN. Walk through them to NE Area.
-7. Toggle NE Switch (18, 3) to State A.
-8. State A closes Far East doors, but opens Secret Key doors (9, 7). Walk West and claim the Key!
-- Turn 48007: I am standing at 3F (13, 11). I am going to test if the "ledge" at (13, 13) is jumpable or just a solid wall. If jumpable, it might drop me into a new area of 1F/B1F.
-- Turn 48009 REVELATION: The solid table at B1F Y=8 does NOT block the path to the Secret Key from the North-East switch! The path from the NE Switch (18, 3) to the Secret Key doors (9, 7) is via the Y=4 hallway, which is completely unobstructed by the Y=8 table. My previous abandonment of the Master Plan was based on a spatial hallucination. I must return to the 3F main pit and execute the Master Plan immediately!
+[FINAL EXECUTABLE MASTER PLAN]
+1. Toggle 3F Switch (10, 4) to State B. This opens the doors to the main 3F pit.
+2. Drop down the main 3F pit at (16, 14).
+3. Land in 1F enclosed area. Take stairs at (21, 23) to reach B1F main landing at (23, 22).
+4. Walk West to B1F Central Switch at (18, 25).
+5. Toggle Switch to STATE A.
+6. In State A, the Far East doors at (26, 17) are OPEN. Walk East to X=26, then North through the doors.
+7. Continue North to the Y=4 hallway. This bypasses the Y=8 tables completely!
+8. Walk West along Y=4 to X=9. In State A, the Secret Key doors at (9, 7) are OPEN.
+9. Walk South through the doors and claim the Secret Key!
