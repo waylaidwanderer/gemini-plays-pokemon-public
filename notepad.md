@@ -1790,13 +1790,17 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 # Victory Road 1F
 - Map ID: 0_108
 - Entrance from Route 23 is at (8, 17).
-- Puzzle 1: Boulder started at (5, 15). Switch is at (9, 12).
-- Solution:
+- Puzzle 1: Boulder started at (5, 15). Switch is at (17, 13).
+- TRUE SOLUTION FOUND:
   1. Use Strength.
-  2. Walk to (5, 14) and push boulder DOWN to (5, 16).
-  3. Walk to (4, 16) and push boulder RIGHT to (9, 16).
-  4. Walk to (9, 17) and push boulder UP to (9, 12).
-- Current puzzle state: The boulder is at (9, 16) and is being pushed UP toward the switch at (9, 12).
+  2. Walk to (5, 16). Push boulder UP to (5, 14).
+  3. Walk to (4, 14). Push boulder RIGHT to (16, 14).
+  4. Walk to (16, 15). Push boulder UP to (16, 12).
+  5. Walk around to (15, 12) via: Down to (16, 14), Left to (14, 14), Up to (14, 12), Right to (15, 12).
+  6. Push boulder RIGHT to (17, 12).
+  7. Walk to (17, 11) via: Up to (16, 11), Right to (17, 11).
+  8. Push boulder DOWN to switch at (17, 13).
+- Current puzzle state: Boulder reset to (5, 15). Returning to it.
 - Player is at (9, 17).
 - Status: Strength is active! Ready to push.
 [Turn 49984 Progress]
