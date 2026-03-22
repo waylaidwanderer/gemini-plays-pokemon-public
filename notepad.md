@@ -1750,5 +1750,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [Turn 49791 Progress]
 - The Start menu successfully opened. The cursor is on POKéDEX.
 - Executing `move_sequence` "DA" to move Down to POKéMON and press A.
+[Turn 49792 Progress]
+- The Start menu is open and the cursor is on POKéMON.
+- Pressing A to select it and open the Party menu.
 
 <hr>
