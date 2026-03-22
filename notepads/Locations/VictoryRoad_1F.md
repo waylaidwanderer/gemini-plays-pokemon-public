@@ -16,3 +16,4 @@
 - I have been stuck in a loop of UI hallucinations and turn mismatches, repeatedly entering the Pokedex instead of the Party Menu.
 - Current Screen explicitly shows I am in the POKEDEX list menu.
 - Next step: Press 'B' to exit to the Start Menu.
+[Turn 50283 Progress] The Start menu is OPEN. The cursor is on POKEMON. Executing 'A' press to open the party menu.
