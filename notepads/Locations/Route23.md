@@ -29,3 +29,9 @@
 [Turn 49807 Progress]
 - The Party menu is open and the cursor is on SURF in HYDRO's action menu.
 - Pressing A to use Surf!
+[Turn 49808 Progress]
+- The cursor is on SURF.
+- Actually pressing A this time to execute the move!
+[Turn 49809 Progress]
+- "GEM got on HYDRO!"
+- Pressing A to clear the text.
