@@ -325,3 +325,9 @@
 - The `run_battle` extra inputs moved me Down to (6, 17) in the overworld.
 - The boulder is still safely at (7, 16).
 - Pressing 'A' to clear the text.
+[Turn 50095 Progress]
+- My `RR` push sequence was interrupted on the 2nd input by a wild Machoke!
+- The first 'Right' successfully pushed the boulder from (7, 16) to (8, 16) and moved me to (7, 16).
+- "Wild MACHOKE appeared!" text is on screen.
+- Pressing 'A' to clear the intro text so I can run.
+- After escaping, I will be at (7, 16) and the boulder will be at (8, 16). I will need 1 more 'Right' push to reach (9, 16).
