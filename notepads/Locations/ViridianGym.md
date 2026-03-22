@@ -14,10 +14,10 @@
 - From (19, 2) stop tile, stepping Up hits (19, 1) [Left spinner].
 - From (19, 2) stop tile, stepping Left hits (18, 2) [Down spinner].
 - (19, 2) stop tile -> [Up] -> hits (19, 1) Left spinner. Pushes Left all the way to (11, 1) Down spinner.
-- Trainer `SPRITE_427f` (Black Belt) at (10, 1).
-- Trainer `SPRITE_9238` (Tamer?) at (10, 7).
-- Trainer `SPRITE_e4ed` (Cooltrainer?) at (13, 5).
-- Trainer `SPRITE_e4ed` at (12, 7).
+- Black Belt `SPRITE_427f` at (11, 11) facing Down.
+- Cooltrainer `SPRITE_e4ed` at (12, 7) facing Down.
+- Tamer `SPRITE_9238` at (10, 7) facing Down.
+- Cooltrainer `SPRITE_e4ed` at (13, 5) facing Down.
 - [Turn 49071 Reflection] Stopped on Down spinner at (11, 1). Likely because the Black Belt at (10, 1) (facing Right) spotted me and interrupted the spin.
 - [Turn 49088] Defeated Blackbelt at (10, 1). The tile at (11, 1) is a Down spinner, and (11, 2) is a yellow stop tile. Stepping Down to continue.
 - (11, 2) is a Right spinner (`TYPE_64a2`).
