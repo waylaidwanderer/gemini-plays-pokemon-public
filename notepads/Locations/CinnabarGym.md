@@ -20,7 +20,7 @@
 - The path West is blocked by a solid wall at X=8. Must explore South.
 - Defeated trainer at (11, 8). Quiz Machine 3 is at (9, 7). Exploring South.
 - Fourth section accessed via doors at (12, 12)/(13, 12).
-- Super Nerd trainer at (11, 14) facing Down. (Can talk from behind).
+- Defeated Super Nerd trainer at (11, 14) facing Down. (Can talk from behind).
 - Electronic doors to the fifth section are located at (7, 16) and (7, 17).
 - Quiz Machine 4 is at (9, 12)/(9, 13).
 - Solid wall at X=14 blocks line of sight to the Super Nerd at (16, 13).
