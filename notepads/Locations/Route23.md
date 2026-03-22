@@ -49,3 +49,9 @@
 [Turn 49734 Progress]
 - Reached (10, 115). The path continues North between two bodies of water.
 - Walking North.
+[Turn 49736 Progress]
+- The path continues North at X=10.
+- Walking North to Y=106.
+[Turn 49737 Progress]
+- The path at X=10 continues North.
+- Walking North to (10, 106).
