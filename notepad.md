@@ -1832,5 +1832,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - My 'A' press in Turn 50195 was eaten, likely because the Start Menu was still animating its opening sequence from Turn 50193.
 - The Start menu is still visible. Cursor is on POKéMON.
 - Executing 'A' again to open the Party Menu.
+[Turn 50197 Progress]
+- The Start Menu is fully rendered and the cursor is stable on POKéMON.
+- My previous 'A' press was indeed eaten by the opening animation.
+- Executing a single 'A' press now to open the Party Menu.
 
 <hr>
