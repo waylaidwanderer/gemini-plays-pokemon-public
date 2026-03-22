@@ -1917,5 +1917,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [Turn 50253 Progress] Cleared the text. Back at the Start Menu. Pressing 'B' to close the Start Menu and return to the overworld.
 [Turn 50268 Progress] Cleared the "Got away safely!" text. Ready to push the boulder at (14, 14) to the right.
 [Turn 50273 Progress] Start menu is open. Pressing 'A' to select POKEMON.
+[Turn 50274 Progress] Hallucination correction! I completely ignored the Start menu cursor in Turn 50272. It was on POKEDEX, not POKEMON. I blindly pressed A and entered the Pokedex. Pressing B to exit the Pokedex and return to the Start menu. I must strictly verify the cursor!
 
 <hr>
