@@ -7,7 +7,7 @@
 - Instead, take the dirt paths North at X=4 or X=9 to bypass the water.
 - Badge Check 3: Thunderbadge at (9, 119). Passed.
 - The water at Y=115 is bypassed by walking East to X=10 and then North.
-- Badge Check 4: ???
+- Badge Check 4: Rainbowbadge at (10, 105). Passed.
 [Turn 49741 Progress]
 - Walking North at X=10. Currently at (10, 106).
 [Turn 49744 Progress]
