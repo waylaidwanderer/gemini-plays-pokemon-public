@@ -2158,5 +2158,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - I am at (7, 16) and the boulder is at (8, 16).
 - Step 3: Push boulder RIGHT to (9, 16). I need 1 more 'Right' push.
 - ACTUALLY executing a single 'Right' press this time.
+[Turn 50109 Progress]
+- Executing a single 'Right' press to push the boulder to (9, 16).
 
 <hr>
