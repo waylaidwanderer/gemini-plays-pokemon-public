@@ -12,3 +12,4 @@
 - Defeating a room's trainer automatically opens the adjacent electronic doors. (Verified at 18, 6 after defeating Burglar).
 - Super Nerd trainer at (17, 2) facing Down.
 - Electronic doors blocking path West at (15, 2) and (16, 2).
+- Defeating the Super Nerd at (17, 2) opened the doors, allowing access to the western path via (15, 1) and (15, 3).
