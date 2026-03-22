@@ -80,3 +80,15 @@
 - CLEO's sub-menu opened.
 - Visual confirmation: The cursor is on STRENGTH.
 - Executing a single 'A' press to use STRENGTH.
+[Turn 50154 Progress]
+- The text "CLEO used STRENGTH!" and "CLEO can move boulders." appeared and cleared.
+- I am back in the overworld. STRENGTH is successfully reactivated!
+- I am at (8, 16). The boulder is at (9, 16).
+- Step 3 is complete!
+- Step 4: Walk to (9, 17) and push boulder UP to (9, 14).
+- Executing a single 'Down' press to move to (8, 17).
+[Turn 50157 Progress]
+- The 'Down' input in Turn 50155 just turned my character to face Down. (I was previously facing Right after pushing the boulder).
+- I am still at (8, 16).
+- Executing 'Down', 'Right' to move to (9, 17).
+- Then I will push the boulder UP to (9, 14).
