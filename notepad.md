@@ -1713,5 +1713,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Opening the Start menu to use Surf.
 [Turn 49775 Progress]
 - Pressing Start to open the menu to use Surf.
+[Turn 49777 Progress]
+- The Start menu is open. The cursor is on POKéDEX.
+- Navigating to POKéMON by pressing Down and A.
 
 <hr>
