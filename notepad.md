@@ -1805,7 +1805,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   7. Walk to (15, 12) via (14, 14) -> (14, 12). Push boulder RIGHT to (17, 12).
   8. Walk to (17, 11) via (16, 11). Push boulder DOWN to switch at (17, 13).
 - Current puzzle state: Boulder reset to (5, 15). Returning to it.
-- Player is at (8, 16).
+- Player is at (5, 16).
 - Status: Strength wore off upon leaving the map. Needs reactivation.
 [Turn 49984 Progress]
 - The Party menu is open.
