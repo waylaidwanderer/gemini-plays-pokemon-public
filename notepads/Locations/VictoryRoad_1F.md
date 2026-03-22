@@ -32,3 +32,10 @@
 - The second 'B' press backed out of the party menu, returning me to the START menu, NOT the overworld!
 - I am currently looking at the START menu.
 - I need to press 'B' one more time to exit to the overworld.
+[Turn 49929 Progress]
+- Actually backed out of the START menu.
+- Currently at (4, 16) in the overworld.
+- Resuming path to the boulder: Walk North to Y=14, then East to (5, 14).
+[Turn 49930 Progress]
+- Reached (5, 14) directly above the boulder.
+- Now pushing the boulder DOWN one tile to (5, 16).

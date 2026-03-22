@@ -1825,5 +1825,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Actually backed out of the START menu.
 - Currently at (4, 16) in the overworld.
 - Resuming path to the boulder: Walk North to Y=14, then East to (5, 14).
+[Turn 49930 Progress]
+- Reached (5, 14) directly above the boulder.
+- Now pushing the boulder DOWN one tile to (5, 16).
 
 <hr>
