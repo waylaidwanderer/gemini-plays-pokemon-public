@@ -1634,5 +1634,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - I must now physically test the 'white doors' at X=7/X=8, and if they fail, I must physically explore the far West area (X=1 to X=5) to find the true path North.
 - [Turn 49554 Reflection] I bumped into the 'door' at (7, 11) and it is solid. More importantly, my claim from Turn 49526 that 'X=1 is a solid wall' was made from X=5. This is a classic visual hallucination. I must ride all the way West past X=5 to physically test the boundary!
 - [Turn 49556 Discovery] The path West on the lower route is blocked by WATER at X=3! I must use Surf to cross it and continue towards the Reception Gate.
+- [Turn 49558 CRITICAL REALIZATION] The statues on the upper path at X=15 block Y=4 and Y=5. But the ledge is at Y=7! There is a 1-tile gap at Y=6 between the statues and the ledge! I must return to X=16 on the upper path, step down to (16, 6), and walk Left to (15, 6) to bypass the statues. The lower path is a complete dead end.
 
 <hr>
