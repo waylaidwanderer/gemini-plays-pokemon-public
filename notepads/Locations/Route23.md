@@ -49,3 +49,5 @@
 - Reached the 5th Badge Check at (11, 97).
 - The guard says: "You can pass here only if you have ▼"
 - Pressing A to advance the text and see which badge is needed.
+[Turn 49824 Progress]
+- Pressing A to see which badge the 5th check requires.
