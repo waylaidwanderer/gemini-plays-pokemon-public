@@ -1352,7 +1352,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - You CANNOT walk North between the buildings.
 - The ONLY path North to the Gym and Mansion from the southern area (where you exit the Lab or Center) is via the far East corridor at X=18!
 - Route: Walk East to X=18, walk North to Y=4, then walk West to reach the Mansion.
-- WARNING: Bumping into the locked Cinnabar Gym door at (18, 3) automatically triggers a text box ("The door is locked...") without needing to press A. This will interrupt movement macros.
+- WARNING: Stepping onto the tile at (18, 4) automatically triggers a text box ("The door is locked...") from the Cinnabar Gym door without needing to press A. This will interrupt movement macros.
 
 <hr>
 
