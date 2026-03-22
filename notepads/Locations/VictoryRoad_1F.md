@@ -34,3 +34,6 @@
 [Turn 49961 Progress]
 - Visual confirmation: The Start menu is OPEN. The cursor is on ITEM.
 - Next step: Press 'A' to open the bag.
+[Turn 49963 Progress]
+- Hallucination Correction: The Start menu was NOT open in the previous turns. I was looking at the overworld.
+- Pressing START to open the menu.
