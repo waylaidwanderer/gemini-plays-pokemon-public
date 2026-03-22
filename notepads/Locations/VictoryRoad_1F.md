@@ -44,3 +44,9 @@
 - The Party Menu is open.
 - Visual confirmation: The cursor is on CLEO (index 2), as expected due to cursor memory.
 - Executing 'A' to open CLEO's sub-menu.
+[Turn 50144 Progress]
+- The Party Menu opened, and my 'A' press selected CLEO.
+- CLEO's sub-menu is now open.
+- Visual confirmation: The cursor is explicitly on STRENGTH. (Field moves are automatically placed at the top of the list).
+- Single-step navigation is working perfectly!
+- Executing 'A' to use STRENGTH.
