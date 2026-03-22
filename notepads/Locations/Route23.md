@@ -36,3 +36,6 @@
 [Turn 49725 Progress]
 - The guard has stepped aside.
 - Walking North and East to navigate around the water at Y=115.
+[Turn 49727 Progress]
+- The text box "Oh! That is the THUNDERBADGE!" was still on screen and ate my movement inputs.
+- Pressing A to advance the text.
