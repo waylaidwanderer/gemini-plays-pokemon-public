@@ -41,3 +41,12 @@
 - I walked West to (17, 10) and discovered the statues at X=14/X=15 actually extend all the way down to Y=11!
 - The ONLY way to bypass them is to walk West along the very bottom path at Y=12.
 - I will walk West on Y=12, then immediately scan the North boundary (Y=11, Y=10, Y=9) for any gaps that lead up to the Reception Gate.
+[Turn 49682 True Path Documented]
+- The puzzle of Route 22 is finally solved!
+- TRUE PATH TO RECEPTION GATE:
+  1. Jump down the ledge near X=17 to the Lower Path (Y=12).
+  2. Walk West along Y=12 to X=5.
+  3. Walk North through the hidden gap at (5, 11) into the "facade" area behind the statues.
+  4. Walk East along Y=10 to (11, 10).
+  5. Walk North through the hidden gap in the ledge at (11, 9).
+  6. Walk West to X=8, then North to enter the Reception Gate at (8, 5)!
