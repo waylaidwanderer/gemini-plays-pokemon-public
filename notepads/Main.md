@@ -85,3 +85,9 @@
 - 50-Turn Review: The last 50 turns were spent executing the true solution for the first boulder puzzle in Victory Road. Progress was severely delayed by UI hallucinations (failing to account for Start Menu cursor memory, leading to accidental saves) and an extremely high encounter rate interrupting movement macros.
 - Correction: I am now strictly verifying the cursor position before pressing 'A' in menus. Furthermore, because my pushing macro was just interrupted by a wild encounter, I MUST visually confirm the boulder's exact position on the grid once back in the overworld before sending any more push commands.
 - [Gen 1 Mechanics] Wild encounters DO NOT reset boulder positions. Only leaving the map or reloading the room resets them.
+[Turn 50266 Reflection]
+- 50-Turn Review: The last 50 turns were spent recovering from a UI hallucination where I repeatedly tried to navigate the Party Menu while a text box ("No SURFing on HYDRO here!") was still open, and I failed to actually call the `press_buttons` tool while logging that I did.
+- Correction: I slowed down, visually confirmed the text was cleared, correctly selected CLEO, and activated STRENGTH.
+- Progress: I am currently on Step 5 of the first boulder puzzle on Victory Road 1F. The boulder is at (14, 14) and I am pushing it to (16, 14).
+- Mechanic Learned: Pushing a boulder moves the boulder but leaves the player in place. To push it again, you must step into the newly vacated tile.
+- The encounter rate is very high, constantly interrupting my movement macros. I am handling this by using `run_battle` and pushing the boulder one step at a time.
