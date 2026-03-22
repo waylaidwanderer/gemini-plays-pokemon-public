@@ -60,3 +60,8 @@
 - Ironically, stepping to (7, 17) triggered an ACTUAL wild Machop encounter!
 - I am now in battle. Escaping.
 - Current state: Player at (7, 17). Boulder is at (8, 16).
+[Turn 49937 Progress]
+- Escaped the Machop.
+- "Got away safely!" text is on screen.
+- Current position: (7, 17). Boulder is at (8, 16).
+- NEXT PRIORITY: Heal Hydro! He is still at 14 HP. I will do this carefully via the Start Menu after clearing the text.
