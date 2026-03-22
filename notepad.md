@@ -1485,20 +1485,13 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 
 <h1><code>Scratchpad/Reflections</code></h1>
 
-[B1F CENTRAL SWITCH IS A TRAP]
-- EMPIRICALLY PROVEN (Turn 48370): Toggling the B1F Central Switch at (18, 25) to State A completely traps the player in the South room.
-- The doors at (16, 16)/(17, 16) CLOSE in State A.
-- The tiles at (14, 16)/(15, 16) and (18, 16)/(19, 16) are NOT doors; they are SOLID WALLS (brown blocks).
-- Therefore, there is NO PATH NORTH from the Central Switch in State A.
-- State A on B1F is a RED HERRING dead end. We must toggle back to State B to escape.
-
-[THE SEARCH FOR THE SECOND PIT]
-- To access the B1F NE Area (and the Secret Key), we likely need the Mansion in State A to open the Far East doors at (26, 17).
-- But the main 3F pit at (16, 14) is blocked in State A.
-- Therefore, there MUST be a second pit on 3F!
-- The most likely location is the unexplored 3F West Wing.
-- I prematurely abandoned my search of the 3F West Wing in Turn 48346 after walking along Y=2 and seeing it connects to the main area. I FAILED to explore the massive space South of Y=2 on the West side (X=1 to X=8)!
-- Plan: Toggle B1F back to State B, use Dig to escape, re-enter, set Mansion to State A via 1F/3F switch, and systematically map the ENTIRE 3F West Wing!
-- 3F West Wing North is definitively blocked from going South by solid rubble at Y=6 (from X=1 to X=9). Must access South-West area via the Central South corridor (X=13/14).
+[THE B1F SOUTH-WEST LOOP THEORY]
+- The 3F West Wing is a VERIFIED RED HERRING. There is no second pit. The ONLY way to B1F is the main pit at 3F (16, 14).
+- The 3F pit is only accessible in STATE B. Thus, we ALWAYS arrive at B1F in State B.
+- In B1F, toggling the central switch (18, 25) to State A closes the North escape (16, 16).
+- HYPOTHESIS: Toggling to State A OPENS the vertical doors at X=13 (Y=22/23)!
+- This allows escape Westward into the B1F South-West loop.
+- Following the loop North to (10, 17) should bypass the central tables and grant access to the B1F North-West area, which likely contains the Secret Key!
+- Current Plan: Navigate to 3F pit, drop to B1F, toggle switch (18, 25) to State A, and test West doors at X=13!
 
 <hr>
