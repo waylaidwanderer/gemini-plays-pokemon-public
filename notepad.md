@@ -2182,5 +2182,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Using `run_battle` tool to escape.
 - After escaping, I will be at (8, 16). The boulder is safely at (9, 16).
 - I will need to clear the "Got away safely!" text, then open the menu to reactivate STRENGTH, and then navigate to (9, 17) via (8, 17) to push the boulder UP.
+[Turn 50118 Progress]
+- The `run_battle` tool successfully navigated the menu and selected RUN.
+- "Got away safely!" text is on screen.
+- Pressing 'A' to clear the text and return to the overworld so I can reactivate STRENGTH.
 
 <hr>
