@@ -13,8 +13,11 @@
 - Turn 47869: FINAL TRUTH. I walked North to (18, 20). The screen clearly shows (18, 16) and (19, 16) are SOLID WALLS (TYPE_2889). The Central Switch IS A TRAP. Toggling it to State A closes (16, 16) and traps you.
 THE AIRLOCK PUZZLE IS REAL: I tested the Far East doors (26, 17) previously while trapped in State A, not State B! The true route:
 1. Central Switch -> State B.
-2. Escape North through open (16, 16).
+2. Escape North through open doors at X=14/15.
 3. Walk to Far East doors at (26, 17) (MUST be open in State B).
 4. Walk North through them to reach the NE Switch.
 5. Toggle NE Switch to State A. This closes the Far East doors but OPENS the Secret Key doors at (9, 7)!
 6. Walk West to (9, 7) and claim the key!
+- Turn 47876 (50-Turn Reflection):
+  - Immediate Execution: Escaping the South room via X=15 to reach the Northern corridor.
+  - Error Analysis: My previous assumption that the escape gap was at X=16/17 caused me to bump into a solid table at (16, 21) and (17, 21). The actual gap is at X=14/15. I must carefully visually trace paths instead of relying on memory of off-screen areas. I am actively executing the 'Airlock' route, the only mathematically sound solution.
