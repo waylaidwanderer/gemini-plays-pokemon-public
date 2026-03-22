@@ -1918,5 +1918,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - The down arrow (▼) is still blinking on screen.
 - I need to press 'A' to clear it, not 'B'.
 - Pressing 'A' now.
+[Turn 50044 Progress]
+- The text is clear.
+- I am back in the overworld at (5, 14), facing the boulder at (5, 15).
+- Pressing 'Start' to open the menu to activate Strength.
 
 <hr>
