@@ -69,3 +69,4 @@
 - Badge Check 5: Soulbadge at (11, 96). Passed.
 - Badge Check 6: Marshbadge at Y=85. Guard at (8, 85).
 - The water is blocked by a ledge at Y=83. Surf West to X=7 to bypass it and continue North.
+- The water path ends at Y=72. Make landfall at X=8, Y=71.

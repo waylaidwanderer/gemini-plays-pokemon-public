@@ -75,6 +75,8 @@
 - 50-Turn Review: The last 50 turns were spent passing the Boulderbadge, Cascadebadge, Thunderbadge, and Rainbowbadge checks on Route 23.
 - My main failure mode recently was "hallucinating tool execution" — I would write down my intended button presses in the notepad log, but forget to actually output the tool call in my response, leading to turns where I did nothing and got confused. I must double-check my tool calls before completing my turn!
 - I am currently at (11, 104) facing water. I need to use Surf. I am pressing Start now.
+[Turn 49851 Reflection]
+- 50-Turn Review: The last 50 turns were spent passing the Soulbadge (Turn 49829) and Marshbadge (Turn 49846) checks. I successfully navigated around a ledge block at Y=83 by surfing West to X=7, and I am now making landfall again at X=8, Y=71. No major errors, spatial reasoning is sound, and custom tools are working perfectly.
 
 <hr>
 
@@ -1771,5 +1773,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Badge Check 5: Soulbadge at (11, 96). Passed.
 - Badge Check 6: Marshbadge at Y=85. Guard at (8, 85).
 - The water is blocked by a ledge at Y=83. Surf West to X=7 to bypass it and continue North.
+- The water path ends at Y=72. Make landfall at X=8, Y=71.
 
 <hr>
