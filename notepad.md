@@ -1839,5 +1839,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - HYDRO's HP was restored!
 - The cursor is still on HYDRO (index 1).
 - Pressing B to exit back to the overworld.
+[Turn 49920 Progress]
+- Reached the overworld.
+- Resuming path to the boulder: Walk North to Y=14, then East to (5, 14).
 
 <hr>
