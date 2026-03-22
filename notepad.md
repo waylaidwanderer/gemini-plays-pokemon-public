@@ -1821,5 +1821,10 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - The cursor is at the top of the currently visible page (index 4 in the bag array, which is BICYCLE).
 - BICYCLE is index 4. ESCAPE ROPE is index 5. FRESH WATER is index 6. FULL HEAL is index 7. GREAT BALL is index 8. HYPER POTION is index 9.
 - I need to move the cursor DOWN 5 times to reach HYPER POTION.
+[Turn 49916 Progress]
+- Reached HYPER POTION in the bag.
+- Pressed 'A' to select it.
+- Menu options are USE and TOSS. The cursor is on USE.
+- Next step: Press 'A' to USE, then select HYDRO (index 1).
 
 <hr>
