@@ -100,3 +100,10 @@
 - Visual confirmation: The Start menu is OPEN.
 - The cursor is currently pointing at ITEM (index 3).
 - Pressing 'A' to open the ITEM bag.
+[Turn 49947 Progress]
+- Opened the ITEM menu.
+- Visual confirmation: Cursor is on LEMONADE (index 6 in the bag array, but currently the top visible item).
+- To reach HYPER POTION (index 9), I need to press DOWN 3 times.
+- Executing DDAA to press Down twice, press A to select HYPER POTION, and press A again to USE it.
+- Wait, I miscalculated my D-pad presses AGAIN in Turn 49940! Lemonade -> Fresh Water -> Hyper Potion. That is TWO presses down. My notes are right, my tool sequence `DDAA` was right. The only reason it failed last time was because I was in the Pokedex!
+- Executing DDAA.
