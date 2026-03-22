@@ -148,3 +148,8 @@
 - The intermediate states show I moved down twice to STRENGTH and pressed A.
 - The current screen shows "CLEO used STRENGTH"
 - Pressing A to clear this text and return to the overworld so I can push the boulder!
+[Turn 50049 Progress]
+- The text is fully cleared! Back in the overworld.
+- Strength is active.
+- I am at (5, 14). The boulder is at (5, 15).
+- Executing a single 'Down' press to push the boulder to (5, 16).
