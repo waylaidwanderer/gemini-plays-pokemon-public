@@ -2143,5 +2143,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - As a result, the tool selected HYDRO and tried to use SURF.
 - The text "No SURFing on HYDRO here!" is on screen.
 - Pressing 'A' to clear it and return to the menu.
+[Turn 50104 Progress]
+- The text "No SURFing on HYDRO here!" is on screen.
+- Pressing 'A' to clear it so I can return to the Party Menu.
 
 <hr>
