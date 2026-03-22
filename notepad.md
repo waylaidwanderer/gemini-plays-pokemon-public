@@ -1760,5 +1760,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - My previous input was just 'A' which opened the Pokedex again (since the cursor was on POKéDEX).
 - I need to press Down to select POKéMON, then A to open the Party menu.
 - Executing `move_sequence` "DA" to do exactly that.
+[Turn 49795 Progress]
+- The Party menu successfully opened. The cursor is on HYDRO.
+- Since HYDRO has Surf, I can just press A to select him.
 
 <hr>
