@@ -1879,5 +1879,12 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - CLEO's sub-menu opened.
 - Visual confirmation: The cursor is on STRENGTH.
 - Executing a single 'A' press to use STRENGTH.
+[Turn 50154 Progress]
+- The text "CLEO used STRENGTH!" and "CLEO can move boulders." appeared and cleared.
+- I am back in the overworld. STRENGTH is successfully reactivated!
+- I am at (8, 16). The boulder is at (9, 16).
+- Step 3 is complete!
+- Step 4: Walk to (9, 17) and push boulder UP to (9, 14).
+- Executing a single 'Down' press to move to (8, 17).
 
 <hr>
