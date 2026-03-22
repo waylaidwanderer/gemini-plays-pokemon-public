@@ -1766,5 +1766,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [Turn 49796 Progress]
 - The Party menu is open. The cursor is on HYDRO.
 - Pressing A to select HYDRO, then A to select SURF.
+[Turn 49797 Progress]
+- I am still in the overworld and the menu is closed. All my inputs were either eaten, canceled, or I just kept writing them in the notepad without executing them.
+- The player is at (11, 104) facing Up towards the water.
+- I will press START to open the menu.
 
 <hr>
