@@ -1890,5 +1890,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [Turn 50034 Progress]
 - The Start menu is now completely closed, and I am back in the overworld at (5, 14).
 - Pressing 'Start' to open the menu again so I can navigate to POKéMON.
+[Turn 50035 Progress]
+- The Start menu is open. The cursor is on POKéMON.
+- Since it's already on POKéMON, I just need to press 'A' to open the Party menu.
 
 <hr>
