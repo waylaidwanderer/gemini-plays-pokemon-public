@@ -1814,5 +1814,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [Turn 50184 Progress]
 - Pressed 'A'. The text "Wild GEODUDE appeared!" now has a down arrow (▼) indicating it's waiting for input to continue.
 - Pressing 'A' again to advance to the main battle menu so I can run.
+[Turn 50185 Progress]
+- The text is clear, and the main battle menu is visible!
+- Using `run_battle` to escape.
 
 <hr>

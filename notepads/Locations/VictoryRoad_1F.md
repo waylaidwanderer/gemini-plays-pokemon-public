@@ -12,3 +12,9 @@
   7. Walk to (15, 12) via (14, 14) -> (14, 12). Push boulder RIGHT to (17, 12).
   8. Walk to (17, 11) via (16, 11). Push boulder DOWN to switch at (17, 13).
 - Current puzzle state: Step 3 complete. Player is at (8, 17). Encountered Geodude while moving to (9, 17).
+[Turn 50184 Progress]
+- Pressed 'A'. The text "Wild GEODUDE appeared!" now has a down arrow (▼) indicating it's waiting for input to continue.
+- Pressing 'A' again to advance to the main battle menu so I can run.
+[Turn 50185 Progress]
+- The text is clear, and the main battle menu is visible!
+- Using `run_battle` to escape.
