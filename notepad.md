@@ -1810,5 +1810,12 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - The Start menu is open. The cursor is on EXIT.
 - The Start menu wraps. Pressing Down twice should wrap to POKéDEX, then move to POKéMON.
 - Executing 'Down', 'Down'.
+[Turn 50015 Progress]
+- Hallucination Correction: In Turn 50013, I manually pressed 'Down' twice, but I expected it to wrap. 
+- Looking at the Turn 50014 screen, the cursor is still on EXIT.
+- Wait! The overworld Start Menu DOES NOT wrap vertically from EXIT to POKéDEX!
+- My `Mechanics/UI` notepad has conflicting info. Line 15 says "The Start Menu WRAPS!", but Line 27 says "Overworld Item Menu Wrap: Pressing Up at the very top... DOES NOT wrap".
+- Let me test this right now. If I am at EXIT and press Down twice and it doesn't move, it doesn't wrap downward.
+- I will press Up, Up, Up, Up to get to POKéMON instead.
 
 <hr>
