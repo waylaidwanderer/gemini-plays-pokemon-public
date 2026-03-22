@@ -12,9 +12,4 @@
   7. Walk to (15, 12) via (14, 14) -> (14, 12). Push boulder RIGHT to (17, 12).
   8. Walk to (17, 11) via (16, 11). Push boulder DOWN to switch at (17, 13).
 - Current puzzle state: Step 5 in progress. Boulder is at (14, 14). I am at (13, 14). Need to push it RIGHT 2 times to (16, 14). STRENGTH deactivated. Need to reactivate it.
-[Turn 50277 Recovery]
-- I have been stuck in a loop of UI hallucinations and turn mismatches, repeatedly entering the Pokedex instead of the Party Menu.
-- Current Screen explicitly shows I am in the POKEDEX list menu.
-- Next step: Press 'B' to exit to the Start Menu.
-[Turn 50285 Recovery] Cursor memory kept the Start menu on POKEDEX. I am back at the Start menu now. Visually confirming cursor is on POKEDEX. I MUST execute 'Down' to move to POKEMON.
-[Turn 50286 Progress] Visual confirmation: Start Menu cursor is ON POKEMON. Executing 'A' press to open the party menu.
+[Turn 50287 Recovery] I am FINALLY in the Party Menu! Cursor is on HYDRO (index 1). I need to move it to CLEO (index 2). Executing 'Down' press.
