@@ -1820,5 +1820,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Visual confirmation: The bag is OPEN. Cursor is on LEMONADE.
 - HYPER POTION is 2 slots down.
 - Executing DDAA to move down twice, select HYPER POTION, and select USE.
+[Turn 49961 Progress]
+- Visual confirmation: The Start menu is OPEN. The cursor is on ITEM.
+- Next step: Press 'A' to open the bag.
 
 <hr>
