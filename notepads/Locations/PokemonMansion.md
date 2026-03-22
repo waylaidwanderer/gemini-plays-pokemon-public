@@ -117,12 +117,14 @@
 - 1F Central Doors at (16, 7) lead to a dead-end hallway from Y=8 to Y=13. It is blocked at Y=13 by a solid wall. It DOES NOT connect to the 3F pit landing area (which is at 16, 14).
 - 3F East side (X=16, 17) is blocked from going South by a solid horizontal wall of rubble at Y=9. The pit is South of Y=11. So you CANNOT reach the pit from the East side via the doors at (15, 4). This path is a dead end.
 - 3F West Wing (West of X=9) is ACCESSIBLE. I previously hallucinated it was blocked. I must thoroughly search this area (especially South of Y=10) for the true pit that drops into the B1F Secret Key room!
-[THE TRUE MASTER PUZZLE]
-- The B1F Central Switch (18, 25) is a RED HERRING. Toggling it to State A traps the player in the South-Central room and the SW loop dead end, because the horizontal doors at (14,16)/(15,16) and (16,16)/(17,16) close.
-- The B1F Far East doors at (26, 17) are CLOSED in BOTH states (Proven Turns 47883, 47963, 48056) and are a dead end.
-- The Northern half of B1F (NW area with Secret Key) is INACCESSIBLE from the B1F Southern half.
-- We must drop into the 1F NW enclosed area from a SECOND PIT on 3F!
-- Route to Unexplored 3F Area: Enter 1F -> take main stairs to 2F (5, 11) -> walk East to Central area, North to (10, 5), West through gap at (9, 4)/(9, 5) -> take stairs at 2F (6, 1) up to 3F NW area.
+[THE TRUE MASTER PLAN - THE FAR EAST CORRIDOR]
+- The 2F (6, 1) stairs just lead back to the main 3F area. There is NO second pit.
+- We MUST use the 3F pit at (16, 14), which requires the Mansion to be in State B.
+- Therefore, we ALWAYS arrive on B1F in State B.
+- In State B, the Far East doors at (26, 17) are CLOSED.
+- To open them, we must toggle the B1F Central Switch (18, 25) to State A.
+- I previously thought toggling this trapped the player in the South room because the doors at (16, 16) close. BUT the doors at (18, 16) OPEN in State A!
+- We can simply walk North through (18, 16) to escape the switch room, then walk East to the Far East Corridor, where the doors at (26, 17) will finally be OPEN!
 - Diary located at 1F (18, 2): "Diary: July 5. Guyana, South America. A new POKEMON was discovered deep in the jungle."
 - Burglar trainer at (16, 22), facing Right. His line of sight covers Y=22.
 - B1F NE Area: The switch statue is at (18, 3) and must be interacted with from (18, 4). There is a long horizontal table at Y=5 blocking access from Y=6. You must go around the table on the East side (around X=25/X=26) to reach the Y=4 hallway.
