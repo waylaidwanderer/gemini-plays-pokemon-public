@@ -1989,5 +1989,12 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Cleared the wild Onix. The text "Got away safely!" is on screen.
 - Pressing 'A' to clear the text and return to the overworld.
 - Next step: visually verify if the boulder is at (5, 16) or if the interrupted 'Right' command pushed it to (6, 16) before I continue pushing it to (9, 16).
+[Turn 50062 Progress]
+- The overworld has loaded.
+- I am at (4, 16).
+- Looking closely at the screen: the boulder is at (5, 16).
+- This means my `Right` command from the `LDDRRRRR` sequence in Turn 50058 DID NOT execute before the encounter started. The boulder has not been pushed yet.
+- I need to push it RIGHT 4 times to reach (9, 16).
+- Executing: Right, Right, Right, Right.
 
 <hr>
