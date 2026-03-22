@@ -19,3 +19,9 @@
 [Turn 49716 Progress]
 - Walked West to X=9. The path North is open here.
 - Walking North through the tall grass at X=9.
+[Turn 49718 Progress]
+- Reached the Thunderbadge check at (9, 119).
+- Text is currently on screen. Clearing it.
+[Turn 49719 Progress]
+- "You can pass here only if you have the THUNDERBADGE!"
+- Advancing text.

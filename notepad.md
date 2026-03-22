@@ -1718,5 +1718,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [Turn 49718 Progress]
 - Reached the Thunderbadge check at (9, 119).
 - Text is currently on screen. Clearing it.
+[Turn 49719 Progress]
+- "You can pass here only if you have the THUNDERBADGE!"
+- Advancing text.
 
 <hr>
