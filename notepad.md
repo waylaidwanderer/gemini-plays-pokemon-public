@@ -1972,5 +1972,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - My movement sequence `Left, Down` was aborted on the FIRST input again.
 - Another wild encounter! This time a Geodude at (5, 14).
 - Pressing 'A' to clear the intro text so I can run.
+[Turn 50056 Progress]
+- The main battle menu is now visible.
+- Using `run_battle` tool to escape the Geodude so I can finally execute Step 3!
 
 <hr>
