@@ -462,7 +462,7 @@ WARNING: Bellsprout's Vine Whip is 4x effective against Geodude. Train Cleo here
 
 # Menu Navigation
 - Gen 1 Menus (Items, Pokemon, PC) have cursor memory! The cursor stays where you last left it. Always visually verify the cursor position or track it carefully before using tools that navigate menus blind.
-- The Party Menu DOES NOT wrap vertically (pressing Up at the top does nothing). You CAN reset the cursor to the top by mashing Up. However, it retains cursor memory, so always verify current_index.
+- The Party Menu DOES wrap vertically when pressing Down (Bottom -> Top). It retains cursor memory, so always verify current_index.
 - Inventory Mechanics: To free an inventory slot occupied by a stacked item (like Poke Balls), the ENTIRE stack must be tossed or used. Tossing just one from a stack of multiple does not free the slot.
 - WARNING: Pressing START in the item menu does NOT close the menu. It selects the item below the cursor and can trigger accidental item usage. ALWAYS use B to exit menus.
 - Gen 1 Item Bag Wrap-around: Pressing Up at the top item wraps to CANCEL, then pressing Up again wraps to the bottom item. Mashing Up will endlessly loop the menu, not reset the cursor to the top!
