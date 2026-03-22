@@ -1821,5 +1821,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - The screen currently shows HYDRO's sub-menu with SURF at the top.
 - Pressing 'B' to close HYDRO's sub-menu.
 - I am abandoning assumptions about cursor memory and will STRICTLY read the screen.
+[Turn 50227 Progress]
+- Pressing 'B' to close HYDRO's sub-menu and return to the main Party Menu list.
+- Next turn, I will visually verify the cursor is on HYDRO before pressing 'Down'.
 
 <hr>
