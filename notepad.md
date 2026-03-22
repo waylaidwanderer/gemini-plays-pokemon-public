@@ -1718,5 +1718,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [Turn 49748 Progress]
 - The 4th Badge Check requires the Rainbowbadge.
 - Pressing A to clear the rest of the text.
+[Turn 49750 Progress]
+- "Oh! That is the RAINBOWBADGE!"
+- Advancing the text.
 
 <hr>
