@@ -46,3 +46,6 @@
 - The text is fully cleared. The guard has stepped left to (8, 119).
 - The path North at X=9 is blocked by water at Y=115.
 - I need to walk Up to Y=118, then East to X=10, then North.
+[Turn 49734 Progress]
+- Reached (10, 115). The path continues North between two bodies of water.
+- Walking North.
