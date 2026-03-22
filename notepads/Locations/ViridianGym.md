@@ -14,7 +14,7 @@
 - From (19, 2) stop tile, stepping Up hits (19, 1) [Left spinner].
 - From (19, 2) stop tile, stepping Left hits (18, 2) [Down spinner].
 - (19, 2) stop tile -> [Up] -> hits (19, 1) Left spinner. Pushes Left all the way to (11, 1) Down spinner.
-- Black Belt `SPRITE_427f` at (11, 10) facing Up.
+- Black Belt `SPRITE_427f` at (11, 10) facing Up (Defeated).
 - Cooltrainer `SPRITE_e4ed` at (12, 8) facing Down (Defeated).
 - Tamer `SPRITE_9238` at (10, 7) facing Down.
 - Cooltrainer `SPRITE_e4ed` at (13, 5) facing Down.
