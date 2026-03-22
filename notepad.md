@@ -1866,5 +1866,10 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [Turn 50028 Progress]
 - The "Would you like to SAVE the game?" text is still rendering (Down arrow present).
 - Pressing B again to clear the text and cancel the prompt.
+[Turn 50029 Progress]
+- The Save prompt is gone.
+- The Start menu is open. The cursor is on SAVE (index 5).
+- I need to reach POKéMON (index 2).
+- Executing 'Up', 'Up', 'Up' to select POKéMON, then 'A' to open the Party menu.
 
 <hr>
