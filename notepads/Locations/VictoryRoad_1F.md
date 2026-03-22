@@ -401,3 +401,10 @@
 - The Party Menu opened successfully.
 - Cursor is on HYDRO (index 1).
 - Using `use_hm_field` tool to select CLEO (index 2) and activate STRENGTH.
+[Turn 50127 Progress]
+- Hallucination Correction: In Turn 50124, the cursor was NOT on HYDRO! The Party Menu had cursor memory and opened with the cursor on CLEO (index 2)!
+- Because my tool `use_hm_field` assumed I started at index 1 and navigated to index 2, it actually navigated from CLEO to DUGTRIO (index 3)!
+- Dugtrio does not have a field move. The `Down, A` sequence opened Dugtrio's stats.
+- Then the rest of the macro opened the Pokedex from the Start Menu, and eventually landed in Ivysaur's Pokedex entry!
+- I am now looking at Ivysaur's Pokedex entry.
+- I must press 'B' multiple times to exit the Pokedex and return to the Start Menu, then carefully navigate back to POKéMON.
