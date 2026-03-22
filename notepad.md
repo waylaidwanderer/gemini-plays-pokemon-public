@@ -2172,5 +2172,10 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Then the runaway 'Down' input triggered a wild Zubat encounter. I am at (8, 16).
 - "Wild ZUBAT appeared!" text is on screen.
 - Pressing 'A' to clear it so I can run. STRENGTH is deactivated again.
+[Turn 50114 Progress]
+- Hallucination Correction: I was NOT in a Machoke battle in Turn 50111. I had encountered a Zubat at (8, 16) after successfully pushing the boulder to (9, 16)!
+- I used `run_battle` prematurely, which resulted in the text "Wild ZUBAT appeared!" being advanced a bit, but the text is STILL on screen!
+- Pressing 'A' to clear the intro text so the battle menu can appear.
+- STRENGTH has been deactivated by this battle. The boulder is at (9, 16).
 
 <hr>
