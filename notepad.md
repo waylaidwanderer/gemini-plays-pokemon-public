@@ -1857,5 +1857,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - My `Down` input successfully moved me from (8, 16) to (8, 17) before the encounter triggered.
 - Pressing 'A' to advance the intro text so I can run.
 - STRENGTH is deactivated AGAIN.
+[Turn 50181 Progress]
+- The text "Wild GEODUDE appeared!" is on screen.
+- I need to run from this battle.
+- Pressing 'A' to advance the intro text so the main battle menu appears.
 
 <hr>
