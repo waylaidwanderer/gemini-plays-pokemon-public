@@ -1582,5 +1582,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Stepping Down from (11, 1) onto (11, 2) should push me Right along Y=2.
 - (11, 2) Right spinner pushes all the way to (17, 2) yellow stop tile.
 - No trainer at (17, 1). The stop at (17, 2) was just a stop tile.
+- From (12, 1), the path Left hits the Down spinner at (11, 1), which loops back to the Right spinner at (11, 2) and pushes back to (17, 2).
+- The correct path seems to be taking the Down spinner at (18, 2).
+- Walking back to (17, 2) and stepping Right onto (18, 2).
 
 <hr>
