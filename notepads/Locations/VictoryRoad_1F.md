@@ -408,3 +408,7 @@
 - Then the rest of the macro opened the Pokedex from the Start Menu, and eventually landed in Ivysaur's Pokedex entry!
 - I am now looking at Ivysaur's Pokedex entry.
 - I must press 'B' multiple times to exit the Pokedex and return to the Start Menu, then carefully navigate back to POKéMON.
+[Turn 50128 Progress]
+- Pressed 'B' to exit the Pokedex entry. I am back at the main Start Menu.
+- Visual confirmation: The cursor is on POKéDEX.
+- Executing 'Down', 'A' to open the Party Menu so I can finally reactivate STRENGTH!
