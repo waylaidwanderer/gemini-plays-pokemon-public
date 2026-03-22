@@ -12,4 +12,4 @@
   7. Walk to (15, 12) via (14, 14) -> (14, 12). Push boulder RIGHT to (17, 12).
   8. Walk to (17, 11) via (16, 11). Push boulder DOWN to switch at (17, 13).
 - Current puzzle state: Step 5 in progress. Boulder is at (14, 14). I am at (13, 14). Need to push it RIGHT 2 times to (16, 14). STRENGTH deactivated. Need to reactivate it.
-[Turn 50288 Recovery] Cursor is visually confirmed to be on CLEO (index 2). Executing 'A' press to open her sub-menu.
+[Turn 50289 Recovery] CLEO's sub-menu is open. Cursor is on STRENGTH. Executing 'A' press to activate it.
