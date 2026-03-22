@@ -1859,5 +1859,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Exited Victory Road 1F and arrived back on Route 23 at (4, 32).
 - The puzzle inside is now reset!
 - Pressing 'Up' to step back into the cave entrance at (4, 31).
+[Turn 50000 Progress]
+- Interrupted by another wild Onix at (4, 16) while exploring the room.
+- Using `run_battle` to escape.
 
 <hr>
