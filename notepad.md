@@ -1825,5 +1825,11 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Step 4: Walk to (9, 17) and push boulder UP to (9, 14).
 - I need to move Right to (9, 17).
 - Executing a single 'Right' press.
+[Turn 50172 Progress]
+- Hallucination Correction: In Turn 50169, I wrote that I was executing a single 'Right' press, but I actually called `press_buttons` with `Left`!
+- That moved me from (8, 16) to (7, 16).
+- I need to get to (9, 17).
+- Path: Down to (7, 17), Right to (8, 17), Right to (9, 17).
+- Executing: Down, Right, Right.
 
 <hr>
