@@ -116,3 +116,7 @@
 - Because I was in the overworld, my `Down`, `A` command in Turn 50038 just made me face the boulder and interact with it.
 - The screen now says "This requires STRENGTH to move!".
 - I must press 'A' to clear this text. Then I will press 'Start' to open the menu and WAIT for visual confirmation before doing anything else.
+[Turn 50040 Progress]
+- The text "This requires STRENGTH to move!" is finished rendering.
+- Pressing 'A' to clear it.
+- Then pressing 'Start' to open the menu.
