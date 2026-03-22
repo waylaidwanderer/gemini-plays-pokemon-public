@@ -18,6 +18,6 @@ THE AIRLOCK PUZZLE IS REAL: I tested the Far East doors (26, 17) previously whil
 4. Walk North through them to reach the NE Switch.
 5. Toggle NE Switch to State A. This closes the Far East doors but OPENS the Secret Key doors at (9, 7)!
 6. Walk West to (9, 7) and claim the key!
-- Turn 47876 (50-Turn Reflection):
-  - Immediate Execution: Escaping the South room via X=15 to reach the Northern corridor.
-  - Error Analysis: My previous assumption that the escape gap was at X=16/17 caused me to bump into a solid table at (16, 21) and (17, 21). The actual gap is at X=14/15. I must carefully visually trace paths instead of relying on memory of off-screen areas. I am actively executing the 'Airlock' route, the only mathematically sound solution.
+- Turn 47877 (50-Turn Reflection):
+  - Immediate Execution: Escaping the South room by zigzagging through the staggered tables.
+  - Error Analysis: The tables are staggered! Y=21 blocks X=16/17, so you must use X=14/15. Y=17 blocks X=14/15, so you must use X=16/17. The escape route is: Up X=15 to Y=18 -> Right to X=16 -> Up X=16 to Y=14. I am currently at (15, 18) and executing this now.
