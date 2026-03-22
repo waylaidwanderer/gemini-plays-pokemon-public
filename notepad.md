@@ -1824,5 +1824,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [Turn 50189 Progress]
 - Back in the overworld at (8, 17). The text is cleared.
 - Opening the Start Menu to reactivate STRENGTH before moving to (9, 17).
+[Turn 50195 Progress]
+- The Start menu is open and the cursor is visibly on POKéMON.
+- Executing a single 'A' press to open the Party Menu so I can reactivate STRENGTH.
+- I have also successfully cleaned up this notepad and updated the boulder's map marker.
 
 <hr>
