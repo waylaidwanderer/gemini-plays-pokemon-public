@@ -20,3 +20,9 @@
 - I am now VERIFIABLY back in the overworld at (8, 16). The text box is completely gone.
 - Step 4: Walk to (9, 17) and push boulder UP to (9, 14).
 - Executing: Down to (8, 17).
+[Turn 50169 Progress]
+- The 'Down' press worked. I am now at (8, 17) in the overworld.
+- My character is facing Down.
+- Step 4: Walk to (9, 17) and push boulder UP to (9, 14).
+- I need to move Right to (9, 17).
+- Executing a single 'Right' press.
