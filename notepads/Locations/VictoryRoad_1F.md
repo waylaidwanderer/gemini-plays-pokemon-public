@@ -86,3 +86,6 @@
 [Turn 50003 Progress]
 - Main battle menu is visible. Cursor is on FIGHT.
 - Using `run_battle` tool to escape the Graveler so I can continue exploring the right side of the room.
+[Turn 50004 Progress]
+- Cleared the wild Graveler. Text "Got away safely!" is on screen.
+- Pressing 'A' to clear the text and return to the overworld view.
