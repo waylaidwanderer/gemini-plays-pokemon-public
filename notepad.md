@@ -1739,5 +1739,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [Turn 49757 Progress]
 - Guard still talking.
 - Pressing A.
+[Turn 49759 Progress]
+- The text is fully cleared. The guard stepped aside to (12, 105).
+- Walking North at X=10.
 
 <hr>
