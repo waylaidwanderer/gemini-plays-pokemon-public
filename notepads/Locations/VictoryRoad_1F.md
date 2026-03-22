@@ -114,3 +114,4 @@
 [Turn 50273 Progress] Start menu is open. Pressing 'A' to select POKEMON.
 [Turn 50274 Progress] Hallucination correction! I completely ignored the Start menu cursor in Turn 50272. It was on POKEDEX, not POKEMON. I blindly pressed A and entered the Pokedex. Pressing B to exit the Pokedex and return to the Start menu. I must strictly verify the cursor!
 [Turn 50275 Progress] Back at the Start Menu. Cursor is verified to be on POKEMON (index 2). Pressing 'A' to open the party menu.
+[Turn 50275 Progress] Hallucination correction again! I messed up my turn numbers, and my inputs got confused. I am STILL in the Pokedex list menu. I will press 'B' to exit back to the Start Menu.
