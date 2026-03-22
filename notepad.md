@@ -1903,5 +1903,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [Turn 50245 Progress]
 - The cursor is verified to be on CLEO.
 - Executing a single 'A' press to open her sub-menu.
+[Turn 50247 Progress] The screen shows the cursor on CLEO, but the text box 'No SURFing on HYDRO here!▼' is STILL on screen! My inputs are just advancing/interacting with this text box. Pressing 'A' to clear it.
 
 <hr>
