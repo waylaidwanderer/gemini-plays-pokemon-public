@@ -15,3 +15,7 @@
 - HOWEVER, I did NOT look at the screen! The Start menu cursor was already on ITEM from my previous use of Strength (which reset the cursor to the top of the POKEMON menu, but left the Start menu cursor on ITEM when I exited).
 - Because the cursor was already on ITEM, pressing Down twice moved it to SAVE, and pressing 'A' opened the SAVE menu!
 - I am currently looking at the SAVE menu dialog ("Would you like to SAVE the game?"). I need to back out.
+[Turn 49910 Progress]
+- Backed out of the accidental SAVE menu.
+- The Start menu is still open, and the cursor is on ITEM.
+- Now pressing 'A' to open the ITEM menu.
