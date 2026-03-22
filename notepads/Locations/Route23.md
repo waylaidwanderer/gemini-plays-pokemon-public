@@ -24,3 +24,7 @@
 [Turn 49779 Progress]
 - The cursor is on POKéMON.
 - Pressing A to select it.
+[Turn 49780 Progress]
+- I realized I was ONLY writing my intended actions in my notepad again without actually executing the tool calls.
+- The Start menu is still open and the cursor is on POKéDEX.
+- Executing the tool call to press Down and A to open the POKéMON menu.
