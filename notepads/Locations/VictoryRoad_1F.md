@@ -29,3 +29,7 @@
 - Hallucination Correction: In Turn 50136, I wrote "Pressing 'B' to exit the Pokedex" but I forgot to actually call the `press_buttons` tool again!
 - I am STILL in the Pokedex.
 - ACTUALLY executing 'B' now.
+[Turn 50139 Progress]
+- The 'B' press worked. I am back at the Start Menu.
+- Visual confirmation: The cursor is on POKéDEX.
+- Executing 'Down' to move the cursor to POKéMON. I am strictly pressing ONE button at a time.
