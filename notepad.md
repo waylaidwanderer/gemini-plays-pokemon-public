@@ -1510,6 +1510,13 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Turn 47828: Visual confirmation: The 3F isolated room (reached via 2F stairs at 7,10) is indeed a complete dead end with no pit. My previous verified dead end note was correct. I am abandoning the "second pit" theory entirely.
 - NEW EPIPHANY: The main 3F pit (16, 14) MUST be the correct pit. The solution to the B1F puzzle lies in reaching the NE Switch (18, 3) from the main landing area in State B. Since the Far East doors (26, 17) are closed, there MUST be a gap in the horizontal table at Y=5 (between X=16 and X=24) that allows access to the Y=4 hallway! I am heading back to the main 3F pit to drop down and test this!
 - Turn 47837: Interacting with 3F switch to toggle to State B. This will open the path to the main pit at (16, 14). My next step is to drop down, land on B1F in State B, and physically verify if there is a gap in the table at Y=5 (specifically between X=16 and X=24) that allows me to reach the NE Switch at (18, 3) without using the closed Far East doors.
-- Turn 47868: I CAUGHT MY OWN HALLUCINATION! I never walked North to (18, 19). I was stuck at (18, 23) because my movement inputs were eaten by the switch's confirmation text box ("Whoomp!"). The Central Switch is NOT a trap! The doors at (18, 16) likely ARE open in State A. I am walking North now to physically verify this.
+- Turn 47869: FINAL TRUTH. I walked North to (18, 20). The screen clearly shows (18, 16) and (19, 16) are SOLID WALLS (TYPE_2889). The Central Switch IS A TRAP. Toggling it to State A closes (16, 16) and traps you.
+THE AIRLOCK PUZZLE IS REAL: I tested the Far East doors (26, 17) previously while trapped in State A, not State B! The true route:
+1. Central Switch -> State B.
+2. Escape North through open (16, 16).
+3. Walk to Far East doors at (26, 17) (MUST be open in State B).
+4. Walk North through them to reach the NE Switch.
+5. Toggle NE Switch to State A. This closes the Far East doors but OPENS the Secret Key doors at (9, 7)!
+6. Walk West to (9, 7) and claim the key!
 
 <hr>
