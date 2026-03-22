@@ -66,3 +66,7 @@
 - Successfully ran from the Onix.
 - "Got away safely!" text is on screen.
 - Pressing A to clear the text, then Down to exit Victory Road and reset the boulder puzzle.
+[Turn 49997 Progress]
+- Exited Victory Road 1F and arrived back on Route 23 at (4, 32).
+- The puzzle inside is now reset!
+- Pressing 'Up' to step back into the cave entrance at (4, 31).
