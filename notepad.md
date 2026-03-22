@@ -1647,11 +1647,12 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - The lower path at Y=12 bypasses these statues.
 - I previously thought the lower path was a dead end because of a ledge at Y=9. However, I likely missed a gap in that ledge while mashing Left!
 - I will jump down to the lower path, walk West, and meticulously scan the North side (Y=9) for a gap to reach the Reception Gate at (8, 5).
-[Turn 49634 Final Lower Path Proof]
-- Physically at (2, 10). Bumping X=1 at Y=12, Y=11, and Y=10 confirms they are solid walls (TYPE_2889).
-- The ledge at Y=9 is South-facing and impassable to the North.
-- The lower path (Y=12 to Y=10) is a 100% VERIFIED DEAD END.
-- Conclusion: The path to the Reception Gate MUST be on the Upper Path. I failed to thoroughly explore the northernmost tiles (Y=1, Y=2, Y=3) near X=16 before jumping down. I must return there.
+[Turn 49681 Lower Path Puzzle Solved]
+- The lower path is NOT a dead end! I missed a crucial hidden gap.
+- The building/statues at Y=11 block the path North, but there is a gap at (5, 11).
+- Walking North through (5, 11) to (5, 10), then East along Y=10, leads behind the facade.
+- At (11, 10), there is a GAP in the South-facing ledge at (11, 9)!
+- This allows me to climb up to Y=8 and bypass the entire blockade.
 [Turn 49643 Reflection]
 - Error Analysis: My biggest failure in the last 50 turns was severe spatial hallucination. I assumed tiles were water/walls without physically bumping them, and I misremembered the location of the Reception Gate.
 - Correction: I am now strictly adhering to the "Exhaustive Exploration" rule from my Main notepad. I will physically test the northern boundary of the Upper Path (Y=1 to Y=3) to conclusively prove or disprove my hypothesis.
