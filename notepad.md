@@ -1745,5 +1745,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [Turn 49734 Progress]
 - Reached (10, 115). The path continues North between two bodies of water.
 - Walking North.
+[Turn 49736 Progress]
+- The path continues North at X=10.
+- Walking North to Y=106.
 
 <hr>
