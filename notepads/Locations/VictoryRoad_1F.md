@@ -290,3 +290,8 @@
 [Turn 50086 Progress]
 - The text "Got away safely!" is still rendering (Down arrow present).
 - Pressing 'A' again to clear the text and return to the overworld.
+[Turn 50087 Progress]
+- The escape text is fully cleared.
+- I am at (4, 15).
+- I need to step Down to (4, 16) to get beside the boulder.
+- I will execute a single 'Down' press and then visually verify the boulder's position before pushing.
