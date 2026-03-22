@@ -726,6 +726,7 @@ Points of Interest:
 - Rhyhorn Lv 45
 - Gyarados Lv 45
 - Growlithe Lv 47
+- Alakazam Lv ??
 
 <hr>
 
