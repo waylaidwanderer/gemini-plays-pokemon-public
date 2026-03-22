@@ -1865,5 +1865,12 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Item menu is open. Visually verified cursor is on LEMONADE.
 - HYPER POTION is 2 slots down.
 - Executing DDAA to move down twice, select HYPER POTION, and select USE.
+[Turn 49941 Hallucination Correction]
+- I hallucinated being in the ITEM menu!
+- I was still on the START menu from Turn 49939.
+- In Turn 49939, I pressed 'A' on ITEM, but this opened the POKEDEX instead of the ITEM menu because my cursor memory from earlier was actually on POKEDEX, not ITEM! (I didn't look closely enough at the screen in 49939).
+- The `DDAA` sequence in Turn 49940 navigated the Pokedex and opened the entry for Venusaur.
+- I am currently looking at the Pokedex entry for Venusaur.
+- I need to press B twice to back out to the Start Menu, then move the cursor to ITEM and open it.
 
 <hr>
