@@ -1497,13 +1497,13 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Therefore, the SW loop is a definitive dead end. You CANNOT reach the Secret Key from it.
 - The Central Switch at (18, 25) only grants access to this dead end. It is a RED HERRING.
 
-[THE ACTUAL B1F MASTER PLAN]
-1. Arrive at B1F (23, 22) in State B.
-2. Walk North to Y=14, then West to (16, 14) (North of the Central Doors).
-3. We are now in the Central/East area North of the Central doors.
-4. We must find a way North to the NE Switch at (20, 3).
-5. The wall at Y=8 blocks X=12 to X=21. We must explore X=22 to X=27 at Y=8 to find a gap!
-6. If we reach the NE Switch, toggle it to State A to open the X=9 doors!
-7. Pass through the X=9 doors to reach the Secret Key in the NW Area!
+[THE TRUE B1F MASTER PLAN]
+1. Arrive at B1F (23, 22) in State B. Central Doors (16, 16) are OPEN. Far East doors (26, 17) are CLOSED.
+2. Walk West to (16, 14), then South through the OPEN Central doors to reach the South Area.
+3. Go to the Central Switch at (18, 25) and toggle it to State A.
+4. Central Doors CLOSE, locking us in the South Area. But Far East doors (26, 17) OPEN!
+5. Navigate from the South Area to the Far East corridor: walk East to X=24, North to Y=18, East to X=26.
+6. Walk North through the OPEN Far East doors at (26, 17) to enter the mysterious Far East Room!
+7. Explore the Far East Room to find the path to the Secret Key!
 
 <hr>
