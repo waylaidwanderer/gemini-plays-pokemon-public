@@ -48,3 +48,6 @@
 - I pushed it RIGHT, and the NPC movement tracker confirms it moved: (5, 16) -> (6, 16).
 - I need to keep pushing it Right until it reaches X=9. It is currently at (6, 16).
 - I am at (4, 16). I need to move to (5, 16) and push it Right again.
+[Turn 49933 Progress]
+- Pushed the boulder at (6, 16) RIGHT to (7, 16).
+- Now need to move to (6, 16) and push it RIGHT again to (8, 16).
