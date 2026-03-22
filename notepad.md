@@ -86,7 +86,7 @@
 [Turn 50059 Reflection]
 - 50-Turn Review: The last 50 turns were spent executing the true solution for the first boulder puzzle in Victory Road. Progress was severely delayed by UI hallucinations (failing to account for Start Menu cursor memory, leading to accidental saves) and an extremely high encounter rate interrupting movement macros.
 - Correction: I am now strictly verifying the cursor position before pressing 'A' in menus. Furthermore, because my pushing macro was just interrupted by a wild encounter, I MUST visually confirm the boulder's exact position on the grid once back in the overworld before sending any more push commands.
-- [Gen 1 Mechanics] CRITICAL DISCOVERY: Wild encounters RESET all boulder positions in the current map! You must complete boulder puzzles without encountering any wild Pokemon. If an encounter occurs, the puzzle is completely reset.
+- [Gen 1 Mechanics] Wild encounters DO NOT reset boulder positions. Only leaving the map or reloading the room resets them.
 
 <hr>
 
