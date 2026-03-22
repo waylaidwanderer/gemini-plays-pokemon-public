@@ -120,7 +120,7 @@
 [SECRET KEY PATH (THE TRUE PATH - PREVIOUS AIRLOCK THEORY WAS WRONG! SEE SCRATCHPAD/REFLECTIONS)]
 - State A: Far East doors at (26, 17) CLOSED. Secret Key doors at (9, 7) OPEN.
 - State B: Far East doors at (26, 17) OPEN. Secret Key doors at (9, 7) CLOSED.
-- Current Status: Mansion is in State A (Central doors at 20,17 closed). I hallucinated my previous proof because I was in State A during Turn 47607 when I checked the doors.
+- Current Status: Mansion is in State B. I am about to toggle the Central Switch (18, 25) to State A. My epiphany: State A allows continuous passage from the Central Switch all the way to the Secret Key! The doors at (18, 16), (26, 17), and (9, 7) are ALL OPEN in State A.
 - THE ROUTE:
   1. Toggle the Central Switch at (18, 25) to STATE B.
   2. Walk North through the permanent gap at X=16/17 to Y=14.
