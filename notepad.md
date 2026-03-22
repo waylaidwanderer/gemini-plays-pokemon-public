@@ -1753,5 +1753,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [Turn 49792 Progress]
 - The Start menu is open and the cursor is on POKéMON.
 - Pressing A to select it and open the Party menu.
+[Turn 49793 Progress]
+- The Start menu is STILL open. My previous 'A' press might have been eaten or I hallucinated its success.
+- Pressing A again to select POKéMON.
 
 <hr>
