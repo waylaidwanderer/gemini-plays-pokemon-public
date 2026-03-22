@@ -13,3 +13,4 @@
   8. Walk to (17, 11) via (16, 11). Push boulder DOWN to switch at (17, 13).
 - Current Status: PUZZLE SOLVED! Boulder is on the switch at (17, 13). Exploring raised platform from stairs at (5, 13).
 [Turn 50325 Progress] Battle intro text advanced. Using `run_battle` to escape the Cooltrainer!
+[Turn 50326 Progress] Escaped the Cooltrainer! I am now at (6, 11). The path North is open. Continuing North to explore the rest of the raised platform.
