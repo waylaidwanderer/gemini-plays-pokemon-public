@@ -1762,5 +1762,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [Turn 49827 Progress]
 - The text "You can pass here only if you have" is on screen.
 - Pressing A to continue the dialogue.
+[Turn 49828 Progress]
+- The text is now "only if you have"
+- Pressing A to clear the rest of the text.
 
 <hr>
