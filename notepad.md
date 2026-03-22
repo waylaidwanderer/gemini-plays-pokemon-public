@@ -2196,5 +2196,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - The Start Menu is open.
 - The cursor is on POKéMON.
 - Pressing 'A' to open the Party Menu so I can reactivate STRENGTH.
+[Turn 50124 Progress]
+- The Party Menu opened successfully.
+- Cursor is on HYDRO (index 1).
+- Using `use_hm_field` tool to select CLEO (index 2) and activate STRENGTH.
 
 <hr>
