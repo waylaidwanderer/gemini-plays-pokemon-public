@@ -12,3 +12,4 @@
   7. Walk to (15, 12) via (14, 14) -> (14, 12). Push boulder RIGHT to (17, 12).
   8. Walk to (17, 11) via (16, 11). Push boulder DOWN to switch at (17, 13).
 - Current Status: PUZZLE SOLVED! Boulder is on the switch at (17, 13). Exploring raised platform from stairs at (5, 13).
+[Turn 50323 Progress] I see a trainer at (2, 10). I walked Up to (5, 10). He is facing Right and spotted me! Battle starting.
