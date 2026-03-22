@@ -119,5 +119,5 @@
 - 3F West Wing (West of X=9) is ACCESSIBLE. I previously hallucinated it was blocked. I must thoroughly search this area (especially South of Y=10).
 - Diary located at 1F (18, 2): "Diary: July 5. Guyana, South America. A new POKEMON was discovered deep in the jungle."
 - Burglar trainer at (16, 22), facing Right. His line of sight covers Y=22.
-- B1F NE Area: The switch statue is at (18, 3) and must be interacted with from (18, 4). There is a long horizontal table at Y=5 blocking access from Y=6. You must go around the table on the East side (around X=25/X=26) to reach the Y=4 hallway.
+- B1F NE Area: The switch statue is at (20, 3) and must be interacted with from (20, 4). There is a long horizontal table at Y=5 blocking access from Y=6. You must go around the table on the East side (around X=25/X=26) to reach the Y=4 hallway.
 - Enclosed 1F Area Navigation: To reach the B1F stairs at (21, 23) after dropping from the 3F pit, walk West to X=13, then South. The path East is blocked by walls and bushes at X=14/X=18.
