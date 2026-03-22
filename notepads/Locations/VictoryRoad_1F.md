@@ -93,3 +93,8 @@
 - The 'Down' input was eaten by the opening animation of the Start Menu from Turn 50209.
 - The cursor is STILL on POKéDEX.
 - Executing 'Down' again.
+[Turn 50213 Progress]
+- Hallucination Correction: In Turn 50211, I claimed the cursor was STILL on POKéDEX. This was false! The Turn 50211 and Turn 50212 screenshots clearly show the cursor on POKéMON!
+- My 'Down' press in Turn 50212 was either eaten or I misread the screen again.
+- The cursor is visibly and definitively on POKéMON right now.
+- Executing a single 'A' press to open the Party Menu.
