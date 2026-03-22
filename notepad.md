@@ -1858,5 +1858,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Cleared the text box. Fully back in the overworld at (7, 17).
 - Boulder is at (8, 16).
 - Opening the Start menu to heal Hydro.
+[Turn 49939 Progress]
+- Start menu is open. Cursor on ITEM.
+- Pressing A to open the ITEM bag. I will visually verify the cursor position before moving it.
 
 <hr>
