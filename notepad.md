@@ -1586,5 +1586,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - The correct path seems to be taking the Down spinner at (18, 2).
 - Walking back to (17, 2) and stepping Right onto (18, 2).
 - (18, 2) is a Down spinner (`TYPE_55cd`). Stepping onto it now.
+- (18, 2) Down spinner pushes all the way South to the (18, 11) yellow stop tile.
+- From (18, 11), the path South goes to Y=12, then West to another stop tile at (16, 12).
+- Cooltrainer `SPRITE_bbb7` is at (16, 9) facing Down. Stepping to (16, 11) should enter his line of sight.
 
 <hr>
