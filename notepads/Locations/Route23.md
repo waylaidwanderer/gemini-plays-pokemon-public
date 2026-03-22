@@ -57,3 +57,6 @@
 [Turn 49826 Progress]
 - "You can pass here only if you have the SOULBADGE!"
 - Pressing A to advance the text.
+[Turn 49827 Progress]
+- The text "You can pass here only if you have" is on screen.
+- Pressing A to continue the dialogue.
