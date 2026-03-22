@@ -1,12 +1,12 @@
 # Victory Road 1F
 - Map ID: 0_108
 - Entrance from Route 23 is at (8, 17).
-- Puzzle 1: Boulder at (5, 15). Switch at (9, 17).
+- Puzzle 1: Boulder started at (5, 15). Switch is at (9, 12).
 - Solution:
   1. Use Strength.
   2. Walk to (5, 14) and push boulder DOWN to (5, 16).
   3. Walk to (4, 16) and push boulder RIGHT to (9, 16).
-  4. Walk to (9, 15) and push boulder DOWN to (9, 17).
+  4. Walk to (9, 17) and push boulder UP to (9, 12).
 - Current puzzle state: The boulder is currently at (9, 16).
 - Player is at (7, 16).
 - Currently preparing to heal Hydro. The Start menu cursor is stuck on POKEDEX, causing me to open it repeatedly.
@@ -61,3 +61,10 @@
 - The boulder is at (8, 16).
 - I need to push it Right to (9, 16).
 - Pressing 'Right' to push the boulder. If Strength wore off, I will re-activate it.
+[Turn 49975 Progress]
+- Moved Right to (8, 15).
+- The boulder is at (9, 16).
+- The switch is at (9, 12).
+- I need to get below the boulder at (9, 17).
+- To reach (9, 17), I must walk Right to (9, 15), then Down, Down to (9, 17) to bypass the boulder.
+- First step: Right to (9, 15).

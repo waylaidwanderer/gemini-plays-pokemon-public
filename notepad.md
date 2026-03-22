@@ -1850,5 +1850,12 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - The boulder is at (8, 16).
 - I need to push it Right to (9, 16).
 - Pressing 'Right' to push the boulder. If Strength wore off, I will re-activate it.
+[Turn 49975 Progress]
+- Moved Right to (8, 15).
+- The boulder is at (9, 16).
+- The switch is at (9, 12).
+- I need to get below the boulder at (9, 17).
+- To reach (9, 17), I must walk Right to (9, 15), then Down, Down to (9, 17) to bypass the boulder.
+- First step: Right to (9, 15).
 
 <hr>
