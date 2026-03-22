@@ -1505,5 +1505,11 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 6. Walk North through the now-OPEN Far East doors at (26, 17).
 7. Walk North to Y=14, then West to X=10.
 8. Walk North to the X=9 vertical doors, and pass through them (now OPEN in State A) to reach the Secret Key in the NW Area!
+[Turn 48603 50-Turn Reflection]
+- Immediate Execution: My primary goal is completely clear. I must interact with the Central Switch at (18, 25) from the tile below it at (18, 26) to toggle the Mansion to State A. Then I will execute the East Corridor bypass.
+- Notepad Hygiene: I successfully used the confirmation tool to wipe contradictory theories from this scratchpad. It now contains only the verified True Master Plan and the visual door indicators.
+- Map Hygiene: I noticed redundant map markers for the Central Switch ('🗿' and '🔘' on the same tiles). I am actively deleting the redundant '🗿' markers to keep the map clean.
+- Tool Maintenance: The overwatch agent noted my `move_sequence` macros abort early during wild encounters. This is expected and safe behavior from the harness, preventing me from blindly mashing overworld inputs during a battle. I will continue using `run_battle` immediately when this happens.
+- Error Analysis: My biggest recent error was a simple arithmetic failure (19+2=14 instead of 21), leading to a position hallucination. I must be more careful with basic math. Furthermore, I learned that visual tile indicators (yellow stripes = closed doors) are the absolute best way to stay grounded in the current puzzle state.
 
 <hr>
