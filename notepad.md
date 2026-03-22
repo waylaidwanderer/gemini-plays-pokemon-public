@@ -1491,19 +1491,21 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Floor tiles without stripes indicate the door is OPEN.
 - CRITICAL: We MUST arrive at B1F in State B to execute the master plan.
 
-[B1F CENTRAL SWITCH IS A TRAP]
-- EMPIRICALLY PROVEN (Turn 48370 & 48606): Toggling the B1F Central Switch at (18, 25) to State A completely traps the player in the South room.
-- The doors at (16, 16)/(17, 16) CLOSE in State A.
-- X=20 is a solid wall from Y=15 down, so you CANNOT reach the East corridor from the South room!
-- State A on the Central Switch is a RED HERRING dead end. We must toggle back to State B to escape.
+[THE CENTRAL SWITCH IS THE KEY]
+- EMPIRICALLY PROVEN: In State B, you CANNOT reach the NE Switch because the Far East doors (26, 17) are CLOSED, blocking the only path North of Y=8.
+- Therefore, the ONLY accessible switch is the Central Switch at (18, 25).
+- Toggling the Central Switch to State A closes the doors at (16, 16).
+- BUT it OPENS the vertical doors at X=13 (Y=22)!
+- This grants access to the SW area, which leads North to the Secret Key!
 
-[THE ACTUAL B1F MASTER PLAN]
+[THE FINAL B1F MASTER PLAN]
 1. Arrive at B1F in State B.
-2. Walk North through the OPEN Central doors at (16, 16) to Y=14.
-3. Walk East to X=24, then navigate North to the NE area.
-4. Find the SECOND switch statue at B1F (20, 3).
-5. Toggle the B1F (20, 3) switch to State A.
-6. Walk West to X=10, then South to the X=9 vertical doors.
-7. Pass through the X=9 doors (now OPEN in State A) to reach the Secret Key in the NW Area!
+2. Walk South through the OPEN Central doors at (16, 16).
+3. Toggle the Central Switch at (18, 25) to State A.
+4. Walk West from the South room through the now-OPEN X=13 doors at Y=22.
+5. Navigate the SW loop to the gap at (10, 17).
+6. Walk North along X=10 to Y=7.
+7. Walk West through the X=9 vertical doors (now OPEN in State A).
+8. Obtain the Secret Key!
 
 <hr>
