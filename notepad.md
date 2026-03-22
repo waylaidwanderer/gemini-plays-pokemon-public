@@ -1501,14 +1501,10 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - If we use the Central Switch at (18, 25) to change to State A, the (16, 16) doors close and trap us.
 - THE SOLUTION: Walk North through the open (16, 16) doors while in State B. Navigate to the B1F North-East area. There is a SECOND switch statue at B1F (18, 3)!
 - Toggle the B1F (18, 3) switch to State A. This will close the (16, 16) doors behind us, but we are already North of them! And it will OPEN the X=9 doors, granting access to the NW area and the Secret Key!
-[Turn 48551 Reflection]
-- Reflecting on the last 50 turns: I identified a major flaw in my B1F navigation logic and corrected it. The central switch is a red herring trap for reaching the Secret Key. I now have a solid plan: use the 3F pit at (16, 14) to reach B1F in State B, navigate North through the open central doors to the NE area, and use the SECOND switch at B1F (18, 3) to open the NW doors.
-- My notepads are fully updated with this verified logic. My goal is extremely clear: execute this plan. I am currently heading back into the Mansion to do exactly that.
-[Turn 48569 Reflection]
-- I just had a major realization by looking at the visual cues! The Southern doors at (15, 10) currently have YELLOW STRIPES, meaning they are CLOSED. The Northern doors at (15, 4) have NO stripes, meaning they are OPEN.
-- This means the Mansion is CURRENTLY IN STATE A!
-- My past self got confused during the wild encounters and left the 3F switch in State A, hallucinating that he had reverted it to State B.
-- To execute my B1F master plan, I MUST arrive at B1F in State B. Otherwise, the B1F central doors will be closed, trapping me in the south!
-- Therefore, my immediate goal is to walk back to the 3F switch at (10, 5) and toggle it back to STATE B.
+
+[Visual Door Indicators]
+- Yellow stripes on the floor (e.g., TYPE_a83b) indicate an electronic door is CLOSED.
+- Floor tiles without stripes indicate the door is OPEN.
+- CRITICAL: We MUST arrive at B1F in State B to execute the master plan. Check the 3F doors before dropping down the pit to ensure State B is active!
 
 <hr>
