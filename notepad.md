@@ -1818,5 +1818,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   8. Walk to (17, 11) via (16, 11). Push boulder DOWN to switch at (17, 13).
 - Current puzzle state: Step 5 in progress. Boulder is at (14, 14). I am at (13, 14). Need to push it RIGHT 2 times to (16, 14). STRENGTH deactivated. Need to reactivate it.
 [Turn 50289 Recovery] CLEO's sub-menu is open. Cursor is on STRENGTH. Executing 'A' press to activate it.
+[Turn 50290 Progress] "CLEO can move boulders." text is on screen. Pressing 'A' to clear it and return to the overworld.
 
 <hr>
