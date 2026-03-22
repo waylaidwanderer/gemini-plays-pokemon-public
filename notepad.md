@@ -2052,5 +2052,10 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Text "CLEO used STRENGTH!" and "CLEO can move boulders." are rendering.
 - Pressing 'A' to clear the text and return to the overworld.
 - Then I will push the boulder DOWN to (5, 16).
+[Turn 50079 Progress]
+- The text is fully cleared! Back in the overworld.
+- Strength is active.
+- I am at (5, 14). The boulder is at (5, 15).
+- Executing a single 'Down' press to push the boulder to (5, 16).
 
 <hr>
