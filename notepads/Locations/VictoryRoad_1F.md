@@ -68,3 +68,7 @@
 - The Start Menu is open.
 - The cursor is currently on POKéMON.
 - Pressing 'A' to open the Party Menu.
+[Turn 50206 Progress]
+- The Party Menu is open.
+- Visual confirmation: The cursor is on CLEO (index 2).
+- Executing a single 'A' press to open CLEO's sub-menu.
