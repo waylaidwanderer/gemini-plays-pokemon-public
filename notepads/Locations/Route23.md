@@ -10,3 +10,7 @@
 - Badge Check 4: ???
 [Turn 49741 Progress]
 - Walking North at X=10. Currently at (10, 106).
+[Turn 49744 Progress]
+- Reached the 4th Badge Check at (10, 105).
+- Tried to walk Right towards the guard at (12, 105), which triggered a text box.
+- Pressing A to clear the text.
