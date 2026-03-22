@@ -1879,5 +1879,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [Turn 50031 Progress]
 - Reached (5, 14) above the boulder.
 - Now opening the Start Menu to reactivate Strength.
+[Turn 50032 Progress]
+- The Start menu is open.
+- Visual confirmation: The cursor is on POKéMON.
+- Pressing 'A' to open the Party menu to select Cleo for Strength.
 
 <hr>
