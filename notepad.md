@@ -1802,5 +1802,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [Turn 49924 Progress]
 - Cleaned up notepad. Start menu is open. Cursor is on ITEM.
 - Now pressing 'A' to open the bag.
+[Turn 49925 Progress]
+- Opened the ITEM menu.
+- The cursor is currently at the top of the visible list (index 6: LEMONADE).
+- To reach HYPER POTION (index 9), I need to press DOWN 3 times.
 
 <hr>
