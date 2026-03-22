@@ -35,3 +35,13 @@
 - Surfed North to (11, 98).
 - Spotted the 5th Badge Check guard ahead at (11, 96).
 - Moving Up to (11, 97) to trigger the dialogue.
+[Turn 49820 Progress]
+- Reached (11, 98).
+- Spotted the 5th Badge Check guard at (11, 96).
+- Moving Up to (11, 97) to trigger his text.
+[Turn 49821 Progress]
+- Reached the 5th Badge Check at (11, 96).
+- The guard is at (11, 96), I am at (11, 98).
+- I will press Up to move to (11, 97) and trigger the guard.
+[Turn 49822 Progress]
+- Executing `press_buttons` with `["Up"]` to move to (11, 97) and trigger the 5th Badge Check.
