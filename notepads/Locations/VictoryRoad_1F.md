@@ -182,3 +182,7 @@
 [Turn 50056 Progress]
 - The main battle menu is now visible.
 - Using `run_battle` tool to escape the Geodude so I can finally execute Step 3!
+[Turn 50057 Progress]
+- Escaped the Geodude.
+- The "Got away safely!" text is on screen.
+- Pressing 'A' to clear it, then I will execute Step 3: Left to (4, 15), Down to (4, 16).
