@@ -26,3 +26,7 @@
 - The Start menu is OPEN.
 - The cursor is on ITEM (index 3).
 - Pressing 'A' to open the bag.
+[Turn 49959 Progress]
+- Visual confirmation: The bag is OPEN. Cursor is on LEMONADE.
+- HYPER POTION is 2 slots down.
+- Executing DDAA to move down twice, select HYPER POTION, and select USE.
