@@ -1738,5 +1738,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [Turn 49787 Progress]
 - The Start menu is open. The cursor is on POKéDEX.
 - Now using my custom tool `move_sequence` to press Down and A to select POKéMON.
+[Turn 49788 Progress]
+- The cursor is successfully on POKéMON.
+- Pressing A to open the Party menu.
 
 <hr>
