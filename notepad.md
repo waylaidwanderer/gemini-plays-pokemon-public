@@ -1510,5 +1510,10 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - From the B1F NE area, I can walk West along the Y=4 hallway to the Secret Key.
 - Route: Go to 3F. Ensure State A (Northern doors at 15, 4 are open). Walk East to X=25. Explore South for the true path down!
 - Turn 48111: Toggled the 1F Switch at (2, 5). The Mansion is now in State A! I am heading back to 2F, then 3F to execute the master hypothesis (exploring 3F Far East).
+[Turn 48136 Reflection]
+- 50-Turn Assessment: I am currently executing the Master Hypothesis to reach the Secret Key. My previous hypotheses about the 3F West Wing and various 2F/1F hidden stairs were proven FALSE through rigorous empirical testing (physically bumping into all boundaries). 
+- Notepad Hygiene: My notes have been heavily refactored into distinct locations (Mansion, Global States, Dead Ends, Master Puzzle) which makes tracking constraints much easier.
+- Goal Clarity: My primary goal is "Find the Secret Key". My method (the "HOW") is documented in my notes: Drop down from 3F Far East to reach the isolated B1F NW section.
+- Immediate Execution: I am currently at 3F (13, 5). The Northern doors at (15, 4) are visibly OPEN, confirming the Mansion is in State A. I will now navigate East past X=18 to explore the final unknown area of 3F.
 
 <hr>
