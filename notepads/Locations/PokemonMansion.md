@@ -105,7 +105,7 @@
 - 2F West Wing: The path North from the main stairs at (5, 10) is BLOCKED by a solid wall at Y=9. You MUST cross to the Central area via the gap at (8, 11), go North via X=10 to Y=4/Y=5, then cross BACK to the West Wing via the gap in the green pillars at (9, 4)/(9, 5) to reach the stairs at (6, 1).
 - 2F North-West GAP is at (9, 4)/(9, 5). There are NO electronic doors here! It is always open regardless of state. My previous trap warning was a hallucination. You can freely walk between the 2F Central area and the 2F NW stairs at (6, 1).
 - The 2F West Wing and East Wing can also be connected by crossing the X=9 pillar gap at Y=11.
-- VERIFIED DEAD END: The Northern hallway at Y=2 is blocked by a solid wall at X=9. You cannot cross to the West Wing here. You MUST cross via the gap at Y=11.
+- VERIFIED: The Northern hallway at Y=2 is OPEN across X=9. You can cross between the East/Central Wing and West Wing here.
 [Verified Dead Ends]
 - The B1F South-West area (South of Y=22, West of X=13) is a complete dead end loop. It connects the gap at (10, 17) to the electronic doors at (13, 22) and contains no items or switches.
 - The B1F West Room (X=1 to 7, Y=14 to 27) is entirely blocked off from the switch area at (7, 15) by solid tables. The long SW corridor (X=1 to 3) is a dead end. The Secret Key is NOT accessed via the 3F pit at (16, 14).
