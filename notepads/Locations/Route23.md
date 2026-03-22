@@ -66,3 +66,4 @@
 [Turn 49829 Progress]
 - The text is now "the SOULBADGE!"
 - Pressing A to clear the rest of the text.
+- Badge Check 5: Soulbadge at (11, 96). Passed.
