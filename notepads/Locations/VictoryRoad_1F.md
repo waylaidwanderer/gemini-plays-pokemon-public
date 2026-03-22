@@ -78,3 +78,8 @@
 - The Start menu is open. The cursor is on SAVE (index 5).
 - I need to reach POKéMON (index 2).
 - Executing 'Up', 'Up', 'Up' to select POKéMON, then 'A' to open the Party menu.
+[Turn 50030 Progress]
+- Hallucination Correction: The 'B' press in Turn 50027 to cancel the save prompt actually closed the Start Menu entirely! 
+- Because the menu was closed, my `Up` x3 inputs in Turn 50028 moved me North in the overworld to (5, 11).
+- I need to return to (5, 14) to push the boulder.
+- Executing: Down, Down, Down.
