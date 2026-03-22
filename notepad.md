@@ -1577,5 +1577,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Trainer `SPRITE_e4ed` (Cooltrainer?) at (13, 5).
 - Trainer `SPRITE_e4ed` at (12, 7).
 - [Turn 49071 Reflection] Stopped on Down spinner at (11, 1). Likely because the Black Belt at (10, 1) (facing Right) spotted me and interrupted the spin.
+- [Turn 49088] Defeated Blackbelt at (10, 1). The tile at (11, 1) is a Down spinner, and (11, 2) is a yellow stop tile. Stepping Down to continue.
 
 <hr>
