@@ -1652,5 +1652,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - The ledge at Y=9 is South-facing and impassable to the North.
 - The lower path (Y=12 to Y=10) is a 100% VERIFIED DEAD END.
 - Conclusion: The path to the Reception Gate MUST be on the Upper Path. I failed to thoroughly explore the northernmost tiles (Y=1, Y=2, Y=3) near X=16 before jumping down. I must return there.
+[Turn 49643 Reflection]
+- Error Analysis: My biggest failure in the last 50 turns was severe spatial hallucination. I assumed tiles were water/walls without physically bumping them, and I misremembered the location of the Reception Gate.
+- Correction: I am now strictly adhering to the "Exhaustive Exploration" rule from my Main notepad. I will physically test the northern boundary of the Upper Path (Y=1 to Y=3) to conclusively prove or disprove my hypothesis.
 
 <hr>
