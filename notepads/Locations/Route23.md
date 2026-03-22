@@ -51,3 +51,6 @@
 - Pressing A to advance the text and see which badge is needed.
 [Turn 49824 Progress]
 - Pressing A to see which badge the 5th check requires.
+[Turn 49825 Progress]
+- The guard's text "You can pass here only if you have ▼" is still on screen.
+- Pressing A to clear the text.
