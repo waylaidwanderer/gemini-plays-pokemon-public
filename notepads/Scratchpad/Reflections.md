@@ -9,5 +9,5 @@
 - If I drop down this pit, I will likely fall through multiple floors (2F, 1F) and land on B1F at (19, 14).
 - B1F (19, 14) is NORTH of the horizontal doors at (18, 16). This means I will land in the B1F Northern Hallway, giving me direct access to the NE switch and the Secret Key!
 
-[CURRENT ROUTING]
-- I am using Dig to escape B1F and warp to Cinnabar Pokemon Center. I will then walk back to 3F and drop down the pit at (19, 14).
+[CURRENT HYPOTHESIS]
+- I must physically drop down the pit at 3F (19, 14) and observe the resulting floors before claiming I have direct access to B1F.

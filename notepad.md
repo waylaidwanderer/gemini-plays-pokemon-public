@@ -1484,10 +1484,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   1. Ensure Mansion is in STATE A.
   2. On 3F, walk East through the open Northern doors at (15, 4).
   3. Navigate the Far East section to reach the pit at (19, 14).
-  4. Drop down the pit at (19, 14). This drops you through 2F and 1F, landing in the isolated B1F Northern Hallway!
-  5. Walk West to the Secret Key room doors at X=9.
-  6. Ensure the NE switch at (18, 3) is in State A so the X=9 doors are OPEN.
-  7. Claim the Secret Key!
+  4. Drop down the pit at (19, 14) and systematically map the resulting isolated area to find the path to the B1F NW section.
 - Diary located at 1F (18, 2): "Diary: July 5. Guyana, South America. A new POKEMON was discovered deep in the jungle."
 - Burglar trainer at (16, 22), facing Right. His line of sight covers Y=22.
 - B1F NE Area: The switch statue is at (18, 3) and must be interacted with from (18, 4). There is a long horizontal table at Y=5 blocking access from Y=6. You must go around the table on the East side (around X=25/X=26) to reach the Y=4 hallway.
@@ -1507,7 +1504,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - If I drop down this pit, I will likely fall through multiple floors (2F, 1F) and land on B1F at (19, 14).
 - B1F (19, 14) is NORTH of the horizontal doors at (18, 16). This means I will land in the B1F Northern Hallway, giving me direct access to the NE switch and the Secret Key!
 
-[CURRENT ROUTING]
-- I am using Dig to escape B1F and warp to Cinnabar Pokemon Center. I will then walk back to 3F and drop down the pit at (19, 14).
+[CURRENT HYPOTHESIS]
+- I must physically drop down the pit at 3F (19, 14) and observe the resulting floors before claiming I have direct access to B1F.
 
 <hr>

@@ -124,10 +124,7 @@
   1. Ensure Mansion is in STATE A.
   2. On 3F, walk East through the open Northern doors at (15, 4).
   3. Navigate the Far East section to reach the pit at (19, 14).
-  4. Drop down the pit at (19, 14). This drops you through 2F and 1F, landing in the isolated B1F Northern Hallway!
-  5. Walk West to the Secret Key room doors at X=9.
-  6. Ensure the NE switch at (18, 3) is in State A so the X=9 doors are OPEN.
-  7. Claim the Secret Key!
+  4. Drop down the pit at (19, 14) and systematically map the resulting isolated area to find the path to the B1F NW section.
 - Diary located at 1F (18, 2): "Diary: July 5. Guyana, South America. A new POKEMON was discovered deep in the jungle."
 - Burglar trainer at (16, 22), facing Right. His line of sight covers Y=22.
 - B1F NE Area: The switch statue is at (18, 3) and must be interacted with from (18, 4). There is a long horizontal table at Y=5 blocking access from Y=6. You must go around the table on the East side (around X=25/X=26) to reach the Y=4 hallway.
