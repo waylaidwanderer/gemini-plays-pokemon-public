@@ -19,3 +19,6 @@
 - Backed out of the accidental SAVE menu.
 - The Start menu is still open, and the cursor is on ITEM.
 - Now pressing 'A' to open the ITEM menu.
+[Turn 49912 Progress]
+- Reached the bottom of the visible ITEM list (index 5: SAVE, OPTION, EXIT, BICYCLE, ESCAPE ROPE).
+- Need to keep scrolling down to find HYPER POTION.
