@@ -46,3 +46,6 @@
 [Turn 49789 Progress]
 - Realized the Start menu is closed because my previous inputs wrapped to EXIT.
 - Pressing Start to open the Start menu. I will visually verify the cursor position next turn before navigating to POKéMON.
+[Turn 49790 Progress]
+- The Start menu is closed. I am facing Up towards the water.
+- Pressing Start to open the Start menu.
