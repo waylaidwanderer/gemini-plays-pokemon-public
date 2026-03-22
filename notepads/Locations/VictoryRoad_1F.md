@@ -37,3 +37,8 @@
 - Visual confirmation: The cursor is on BODY SLAM (index 1).
 - STRENGTH is at index 3.
 - Executing 'Down', 'Down', 'A' to select Strength.
+[Turn 50019 Progress]
+- Executed 'Down', 'Down', 'A'.
+- The intermediate states show I moved down twice to STRENGTH and pressed A.
+- The current screen shows "CLEO used STRENGTH"
+- Pressing A to clear this text and return to the overworld so I can push the boulder!
