@@ -33,3 +33,7 @@
 - The 'B' press worked. I am back at the Start Menu.
 - Visual confirmation: The cursor is on POKéDEX.
 - Executing 'Down' to move the cursor to POKéMON. I am strictly pressing ONE button at a time.
+[Turn 50140 Progress]
+- Hallucination Correction: In Turn 50139, I forgot to actually call the `press_buttons` tool to press 'Down'!
+- The cursor is currently blinking (invisible in the Turn 50140 screenshot) but is still safely on POKéDEX.
+- ACTUALLY executing 'Down' this time to select POKéMON.
