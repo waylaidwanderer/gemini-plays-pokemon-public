@@ -1782,3 +1782,17 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Badge Check 8: Earth Badge at (6, 35). Passed.
 
 <hr>
+
+<h1><code>Locations/VictoryRoad_1F</code></h1>
+
+# Victory Road 1F
+- Map ID: 0_108
+- Entrance from Route 23 is at (8, 17).
+- Puzzle 1: Boulder at (5, 15). Switch at (9, 17).
+- Solution:
+  1. Use Strength.
+  2. Walk to (5, 14) and push boulder DOWN to (5, 16).
+  3. Walk to (4, 16) and push boulder RIGHT to (9, 16).
+  4. Walk to (9, 15) and push boulder DOWN to (9, 17).
+
+<hr>
