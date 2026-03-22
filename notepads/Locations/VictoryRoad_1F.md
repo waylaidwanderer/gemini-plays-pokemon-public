@@ -32,3 +32,8 @@
 - Visual confirmation: The cursor is on HYDRO (index 1).
 - I need to select CLEO (index 2), then select STRENGTH (index 3).
 - Executing 'Down', 'A' to select Cleo.
+[Turn 50018 Progress]
+- The cursor is on CLEO. Her sub-menu is open.
+- Visual confirmation: The cursor is on BODY SLAM (index 1).
+- STRENGTH is at index 3.
+- Executing 'Down', 'Down', 'A' to select Strength.
