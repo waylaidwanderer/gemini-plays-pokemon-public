@@ -200,3 +200,11 @@
 - This means my `Right` command from the `LDDRRRRR` sequence in Turn 50058 DID NOT execute before the encounter started. The boulder has not been pushed yet.
 - I need to push it RIGHT 4 times to reach (9, 16).
 - Executing: Right, Right, Right, Right.
+[Turn 50065 Progress]
+- My movement sequence `DDLLLLLUUR` to return to the boulder was aborted on the 8th input (`Up`).
+- The intermediate states show I successfully walked to (4, 15).
+- Another wild encounter! This time an Onix at (4, 15).
+- Pressing 'A' to clear the intro text so I can run.
+[Turn 50066 Progress]
+- The main battle menu is visible.
+- Using `run_battle` tool to escape the Onix.

@@ -2002,5 +2002,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - The intermediate states show I successfully walked to (4, 15).
 - Another wild encounter! This time an Onix at (4, 15).
 - Pressing 'A' to clear the intro text so I can run.
+[Turn 50066 Progress]
+- The main battle menu is visible.
+- Using `run_battle` tool to escape the Onix.
 
 <hr>
