@@ -1510,7 +1510,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [Layout]
 - Gym Guide at (16, 13) facing Down.
 - Quiz Machine at (17, 13).
-- Super Nerd trainer at (17, 8) facing Right.
+- Burglar trainer at (17, 8) facing Right.
 - Electronic doors blocking path North at (18, 6) and (19, 6).
 - Quiz Machine for this room is likely at (15, 7).
 
