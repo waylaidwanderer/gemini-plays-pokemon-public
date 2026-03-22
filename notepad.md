@@ -1709,5 +1709,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Walked East to X=14 and walking North through the tall grass.
 [Turn 49711 Progress]
 - Continuing North through the tall grass on X=14.
+[Turn 49713 Progress]
+- The tall grass path at X=14 is blocked by a South-facing ledge at Y=123.
+- Walking West along Y=124 to find a gap or path North.
 
 <hr>
