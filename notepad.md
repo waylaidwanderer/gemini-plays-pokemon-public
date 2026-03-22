@@ -1596,5 +1596,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - X=8 is a DEAD END at Y=5. The wall at (8, 4) blocks it.
 - To reach the Northern corridor (Y=5), navigate from (11, 7) East to (15, 7), then North to (15, 5).
 - Cooltrainer `SPRITE_e4ed` at (14, 5) facing Right (Defeated).
+- Solid wall at X=7 (Y=5 to Y=6). The path West from (10, 2) goes along Y=2, then South down X=7 to Y=4, then West to (6, 4).
+- Cooltrainer `SPRITE_e4ed` is at (6, 5) facing Down. Can be approached from behind at (6, 4).
 
 <hr>
