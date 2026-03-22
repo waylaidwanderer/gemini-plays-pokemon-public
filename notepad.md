@@ -1893,5 +1893,10 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [Turn 50035 Progress]
 - The Start menu is open. The cursor is on POKéMON.
 - Since it's already on POKéMON, I just need to press 'A' to open the Party menu.
+[Turn 50036 Progress]
+- Hallucination Correction: The cursor was STILL on SAVE (index 5) due to cursor memory from earlier! It did not reset to POKéMON.
+- Pressing 'A' just opened the Save prompt again.
+- Pressing 'B' to cancel the prompt, which will close the Start Menu entirely.
+- Next turn I will open the menu and carefully press Up 5 times to reach POKéMON from EXIT/SAVE.
 
 <hr>
