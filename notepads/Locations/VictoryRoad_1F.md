@@ -12,8 +12,4 @@
   7. Walk to (15, 12) via (14, 14) -> (14, 12). Push boulder RIGHT to (17, 12).
   8. Walk to (17, 11) via (16, 11). Push boulder DOWN to switch at (17, 13).
 - Current puzzle state: PUZZLE SOLVED! Boulder is on the switch at (17, 13).
-[Turn 50304 Progress] The first boulder puzzle is complete! Now heading North to the stairs at (15, 7) to explore the rest of 1F.
-[Turn 50305 Progress] The push sequence LL UUUU was aborted at the second Up press because of a wall at Y=10. The path North is blocked at X=15. I need to path around it. From (15, 11), I can walk Left to X=14, then North.
-[Turn 50306 Progress] The path Left to X=14 was ALSO blocked by a wall at (14, 11). I am still at (15, 11). I need to walk DOWN to (15, 12), then LEFT to X=13 to bypass this rock formation.
-[Turn 50308 Progress] Battle intro text cleared. Using `run_battle` to escape.
-[Turn 50309 Progress] Battle intro text cleared. Using `run_battle` to escape.
+[Turn 50310 Progress] Back in the overworld after the Onix encounter! STRENGTH deactivated again. Need to reactivate it. Pressing Start to open the menu.
