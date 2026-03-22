@@ -387,3 +387,9 @@
 - The `run_battle` tool successfully navigated the menu and selected RUN.
 - "Got away safely!" text is on screen.
 - Pressing 'A' to clear the text and return to the overworld so I can reactivate STRENGTH.
+[Turn 50120 Progress]
+- Cleared the "Got away safely!" text.
+- I am back in the overworld at (8, 16).
+- The boulder is safely at (9, 16). Step 3 is complete.
+- STRENGTH is deactivated due to the battle.
+- Pressing 'Start' to open the menu and reactivate STRENGTH.
