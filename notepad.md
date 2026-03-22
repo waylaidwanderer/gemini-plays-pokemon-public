@@ -1716,5 +1716,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [Turn 49777 Progress]
 - The Start menu is open. The cursor is on POKéDEX.
 - Navigating to POKéMON by pressing Down and A.
+[Turn 49778 Progress]
+- The Start menu is open, cursor on POKéDEX.
+- Pressing Down and A to open the POKéMON menu.
 
 <hr>

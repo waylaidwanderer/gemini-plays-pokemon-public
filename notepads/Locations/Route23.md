@@ -15,3 +15,9 @@
 - Opening the Start menu to use Surf.
 [Turn 49775 Progress]
 - Pressing Start to open the menu to use Surf.
+[Turn 49777 Progress]
+- The Start menu is open. The cursor is on POKéDEX.
+- Navigating to POKéMON by pressing Down and A.
+[Turn 49778 Progress]
+- The Start menu is open, cursor on POKéDEX.
+- Pressing Down and A to open the POKéMON menu.
