@@ -1659,5 +1659,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Bumping Left at (16, 4) and (16, 5) confirms X=15 is a solid wall of statues/columns from Y=4 down to Y=9.
 - The Upper Path is a 100% verified dead end at X=16. It is physically impossible to go further West on the Upper Path.
 - The ONLY way forward is the Lower Path. I must jump down the ledge at Y=7 and meticulously scan the North boundary (Y=9) of the lower path for a gap or stairs going Up to the Reception Gate.
+[Turn 49674 Route 22 Water]
+- I successfully reached the water at (22, 6) on the Upper Path.
+- The path West on the Upper Path was indeed blocked at X=16, but the water extends South from X=22.
+- I will Surf South to continue towards the Reception Gate.
 
 <hr>
