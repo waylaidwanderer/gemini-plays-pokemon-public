@@ -15,3 +15,6 @@
 [Turn 49813 Progress]
 - "GEM got on HYDRO!" text is fully rendered.
 - Pressing A to clear it.
+[Turn 49814 Progress]
+- Now surfing on HYDRO!
+- Moving North along the water path.

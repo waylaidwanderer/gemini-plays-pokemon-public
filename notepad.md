@@ -1717,5 +1717,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [Turn 49813 Progress]
 - "GEM got on HYDRO!" text is fully rendered.
 - Pressing A to clear it.
+[Turn 49814 Progress]
+- Now surfing on HYDRO!
+- Moving North along the water path.
 
 <hr>
