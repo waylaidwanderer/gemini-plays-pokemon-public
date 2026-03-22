@@ -108,3 +108,6 @@
 [Turn 49949 Progress]
 - Confirmed: Back in the overworld at (7, 17). The UI is completely clear.
 - Pressing START to open the menu. I will wait for visual confirmation before doing anything else.
+[Turn 49950 Progress]
+- Visual confirmation: Start menu is OPEN. Cursor is on ITEM.
+- Pressing 'A' to open the bag.
