@@ -1508,7 +1508,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Entrance at (16, 17)
 
 [Layout]
-- Trainer at (16, 13) facing Down.
+- Gym Guide at (16, 13) facing Down.
 - Quiz Machine at (17, 13).
 
 <hr>

@@ -4,5 +4,5 @@
 - Entrance at (16, 17)
 
 [Layout]
-- Trainer at (16, 13) facing Down.
+- Gym Guide at (16, 13) facing Down.
 - Quiz Machine at (17, 13).
