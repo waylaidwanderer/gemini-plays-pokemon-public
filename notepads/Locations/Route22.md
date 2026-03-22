@@ -19,3 +19,7 @@
 - The lower path at Y=12 bypasses these statues.
 - I previously thought the lower path was a dead end because of a ledge at Y=9. However, I likely missed a gap in that ledge while mashing Left!
 - I will jump down to the lower path, walk West, and meticulously scan the North side (Y=9) for a gap to reach the Reception Gate at (8, 5).
+[Turn 49632 Correction]
+- I am on the lower path at (4, 12). I previously stopped at (2, 12) and claimed X=1 was a dead end wall. I DID NOT PHYSICALLY BUMP IT!
+- The tiles at X=1 are a checkerboard pattern. This might be the entrance to the Reception Gate!
+- I must physically walk Left and bump into X=1 at Y=12, Y=11, etc. to see if it is a warp.
