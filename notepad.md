@@ -1913,5 +1913,10 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - The text "This requires STRENGTH to move!" is finished rendering.
 - Pressing 'A' to clear it.
 - Then pressing 'Start' to open the menu.
+[Turn 50043 Progress]
+- The 'B' press in Turn 50041 did not clear the "This requires STRENGTH to move!" text.
+- The down arrow (▼) is still blinking on screen.
+- I need to press 'A' to clear it, not 'B'.
+- Pressing 'A' now.
 
 <hr>
