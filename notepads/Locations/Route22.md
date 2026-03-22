@@ -37,5 +37,6 @@
 - I will Surf South to continue towards the Reception Gate.
 [Turn 49678 Pond Realization]
 - The water at X=22 is just a 4x4 decorative pond. It does NOT block the path West.
-- The actual path West continues on the grass at Y=10, Y=11, Y=12 beneath the pond.
-- I will walk West along Y=10 to meticulously scan the northern boundary (including the bottom of the statues at X=14/15) for the true path to the Reception Gate.
+- I walked West to (17, 10) and discovered the statues at X=14/X=15 actually extend all the way down to Y=11!
+- The ONLY way to bypass them is to walk West along the very bottom path at Y=12.
+- I will walk West on Y=12, then immediately scan the North boundary (Y=11, Y=10, Y=9) for any gaps that lead up to the Reception Gate.
