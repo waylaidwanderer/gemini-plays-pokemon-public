@@ -1499,3 +1499,16 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - [Turn 48784] FOUND THE SECRET KEY! It was the item ball at B1F (5, 13) in the newly opened NW area.
 
 <hr>
+
+<h1><code>Locations/CinnabarGym</code></h1>
+
+# Cinnabar Gym
+[Navigation]
+- Map ID: 0_166
+- Entrance at (16, 17)
+
+[Layout]
+- Trainer at (16, 13) facing Down.
+- Quiz Machine at (17, 13).
+
+<hr>
