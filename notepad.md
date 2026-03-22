@@ -1633,7 +1633,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - To reach the Reception Gate, you MUST jump down the ledge at Y=7 near X=17 to access the lower path, travel West to Y=12.
 - I must now physically test the 'white doors' at X=7/X=8, and if they fail, I must physically explore the far West area (X=1 to X=5) to find the true path North.
 - [Turn 49554 Reflection] I bumped into the 'door' at (7, 11) and it is solid. More importantly, my claim from Turn 49526 that 'X=1 is a solid wall' was made from X=5. This is a classic visual hallucination. I must ride all the way West past X=5 to physically test the boundary!
-- [Turn 49556 Discovery] CORRECTED: Water is located at Y=16! From the lower path at Y=12, there is a South-facing ledge at Y=13. Jumping down this ledge at X=2/X=3 leads to the water's edge, where Surf is required to continue towards the Pokemon League.
+- [Turn 49605 Discovery] DOUBLE HALLUCINATION: There is NO water at Y=16 either. It is a solid brown rock wall (TYPE_2889). I jumped down the ledge at Y=13 and am now exploring the path Eastward from (2, 15).
 - [Turn 49558 CRITICAL REALIZATION] FAILED. The statues at X=14/15 extend all the way to the ledge at Y=7. The tiles at (14, 6) and (15, 6) are TYPE_2889 (solid). There is no gap. The upper path is 100% a dead end. I must jump the ledge to the lower path and navigate South around the grey blocks to reach the water at X=3.
 [Turn 49592 Hallucination Correction]
 - I completely hallucinated entering the Pokemon League Reception Gate at (18, 4). Map ID 0_33 is Route 22. I bumped into a solid wall at (18, 4) and then wandered East back to the start of the route, thinking I was inside a building!
