@@ -1747,5 +1747,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [Turn 49790 Progress]
 - The Start menu is closed. I am facing Up towards the water.
 - Pressing Start to open the Start menu.
+[Turn 49791 Progress]
+- The Start menu successfully opened. The cursor is on POKéDEX.
+- Executing `move_sequence` "DA" to move Down to POKéMON and press A.
 
 <hr>
