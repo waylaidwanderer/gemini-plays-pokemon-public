@@ -1826,5 +1826,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [Turn 49963 Progress]
 - Hallucination Correction: The Start menu was NOT open in the previous turns. I was looking at the overworld.
 - Pressing START to open the menu.
+[Turn 49967 Progress]
+- Executed 'Down', 'Down'. Cursor moved from POKEDEX to ITEM.
+- Visual confirmation: The cursor is on ITEM.
+- Pressing 'A' to open the bag.
 
 <hr>
