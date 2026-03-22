@@ -105,3 +105,6 @@
 - Pressing 'A' just opened the Save prompt again.
 - Pressing 'B' to cancel the prompt, which will close the Start Menu entirely.
 - Next turn I will open the menu and carefully press Up 5 times to reach POKéMON from EXIT/SAVE.
+[Turn 50037 Progress]
+- The Start menu is completely closed.
+- Pressing 'Start' to open the menu again, then 'Up', 'Up', 'Up', 'Up', 'Up' to wrap from whatever position it's at (likely SAVE) to POKéMON, and 'A' to select it.
