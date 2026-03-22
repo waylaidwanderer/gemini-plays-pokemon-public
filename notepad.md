@@ -2032,5 +2032,10 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Okay, let's just do exactly what I see. Cursor is on EXIT (index 7). POKéMON is index 2.
 - I need to press 'Up' 5 times: EXIT -> OPTION -> SAVE -> GEM -> ITEM -> POKéMON.
 - Let's execute Up x5, then A.
+[Turn 50075 Progress]
+- Hallucination Correction: My 5x Up sequence in Turn 50073 actually landed on ITEM, not POKéMON, because the cursor must have started on POKéDEX instead of EXIT.
+- The ITEM menu is currently open.
+- I need to press 'B' to exit to the Start menu, then 'Up' to select POKéMON, then 'A' to open it.
+- Executing: B, Up, A.
 
 <hr>
