@@ -1712,5 +1712,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Badge Check 4: Rainbowbadge at (10, 105). Passed.
 [Turn 49801 Progress]
 - Currently at (11, 104) facing Up, preparing to Surf North.
+[Turn 49802 Progress]
+- The Start menu is open. The cursor is on POKéDEX.
+- Executing `move_sequence` with "DA" to select POKéMON.
 
 <hr>
