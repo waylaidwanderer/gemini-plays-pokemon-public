@@ -30,3 +30,6 @@
 - Defeated Super Nerd trainer at (3, 8) facing Down.
 - Quiz Machine 6 is at (1, 6)/(1, 7).
 - Electronic doors blocking the path North are at (4, 6) and (5, 6).
+- Defeated Gym Leader Blaine at (3, 3).
+- Obtained Volcano Badge and TM38 (Fire Blast).
+- All trainers and Gym Leader defeated!
