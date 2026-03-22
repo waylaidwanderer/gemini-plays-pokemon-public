@@ -1580,5 +1580,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - [Turn 49088] Defeated Blackbelt at (10, 1). The tile at (11, 1) is a Down spinner, and (11, 2) is a yellow stop tile. Stepping Down to continue.
 - (11, 2) is a Right spinner (`TYPE_64a2`).
 - Stepping Down from (11, 1) onto (11, 2) should push me Right along Y=2.
+- (11, 2) Right spinner pushes all the way to (17, 2) Down spinner.
+- Trainer `SPRITE_9238` at (17, 1) facing Down. Line of sight interrupts the spin at (17, 2).
 
 <hr>
