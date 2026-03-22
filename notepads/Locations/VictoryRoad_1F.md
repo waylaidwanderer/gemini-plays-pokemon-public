@@ -11,8 +11,8 @@
   6. Walk to (16, 15) via (15, 15). Push boulder UP to (16, 12).
   7. Walk to (15, 12) via (14, 14) -> (14, 12). Push boulder RIGHT to (17, 12).
   8. Walk to (17, 11) via (16, 11). Push boulder DOWN to switch at (17, 13).
-- Player is at (9, 14).
-- Current puzzle state: Boulder RESET by wild encounter. Returning to (5, 14) to restart the puzzle.
+- Player is at (8, 16).
+- Current puzzle state: Step 3 complete. Step 4: Walk to (9, 17) and push boulder UP to (9, 14).
 [Turn 50013 Progress]
 - The Start menu is open. The cursor is on EXIT.
 - The Start menu wraps. Pressing Down twice should wrap to POKéDEX, then move to POKéMON.
@@ -218,3 +218,7 @@
 - Step 3: Pushing boulder RIGHT to (9, 16).
 - I need to push it Right 4 times.
 - Executing: R, R, R, R.
+[Turn 50070 Progress]
+- Re-confirmed: Boulder is safely at (5, 15).
+- My `DRUUU` sequence in Turn 50068 correctly brought me to (9, 14).
+- I am executing `DDLLLLLUUR` to navigate back to (5, 14) safely without touching the boulder.

@@ -2015,5 +2015,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Step 3: Pushing boulder RIGHT to (9, 16).
 - I need to push it Right 4 times.
 - Executing: R, R, R, R.
+[Turn 50070 Progress]
+- Re-confirmed: Boulder is safely at (5, 15).
+- My `DRUUU` sequence in Turn 50068 correctly brought me to (9, 14).
+- I am executing `DDLLLLLUUR` to navigate back to (5, 14) safely without touching the boulder.
 
 <hr>
