@@ -10,12 +10,8 @@
 - Turn 47828: Visual confirmation: The 3F isolated room (reached via 2F stairs at 7,10) is indeed a complete dead end with no pit. My previous verified dead end note was correct. I am abandoning the "second pit" theory entirely.
 - NEW EPIPHANY: The main 3F pit (16, 14) MUST be the correct pit. The solution to the B1F puzzle lies in reaching the NE Switch (18, 3) from the main landing area in State B. Since the Far East doors (26, 17) are closed, there MUST be a gap in the horizontal table at Y=5 (between X=16 and X=24) that allows access to the Y=4 hallway! I am heading back to the main 3F pit to drop down and test this!
 - Turn 47837: Interacting with 3F switch to toggle to State B. This will open the path to the main pit at (16, 14). My next step is to drop down, land on B1F in State B, and physically verify if there is a gap in the table at Y=5 (specifically between X=16 and X=24) that allows me to reach the NE Switch at (18, 3) without using the closed Far East doors.
-- Turn 47869: FINAL TRUTH. I walked North to (18, 20). The screen clearly shows (18, 16) and (19, 16) are SOLID WALLS (TYPE_2889). The Central Switch IS A TRAP. Toggling it to State A closes (16, 16) and traps you.
-THE AIRLOCK PUZZLE IS REAL: I tested the Far East doors (26, 17) previously while trapped in State A, not State B! The true route:
-1. Central Switch -> State B.
-2. Escape South room via staggered tables (Up X=15 to Y=18, Right to X=16, Up X=16 to Y=14).
-3. Walk East to X=24, South to Y=18, East to X=26.
-4. Walk North through the Far East doors at (26, 17) (MUST be open in State B).
-5. Walk North to reach the NE Switch.
-6. Toggle NE Switch to State A. This closes the Far East doors but OPENS the Secret Key doors at (9, 7)!
-7. Walk West to (9, 7) and claim the key!
+- Turn 47883: EMPIRICAL BUMP TEST COMPLETE. I bumped into the Far East doors at (26, 17) in State B, and they are solidly CLOSED.
+CONCLUSION: The Airlock theory is mathematically DEAD. There is no way to traverse the B1F Far East corridor to reach the NE Switch.
+THEREFORE: The B1F Main Landing Area is a DEAD END for reaching the Secret Key.
+THE ONLY REMAINING LOGICAL PATH: My old "Second Pit" theory must be correct. There MUST be a pit on 3F that drops directly into the B1F North-West room (where the West Switch at 7,15 is).
+NEXT ACTION: Return to 3F. I must navigate to the Southern half of 3F (via the gap at X=13/14), and then explicitly explore WEST of X=13 to find this hidden pit!
