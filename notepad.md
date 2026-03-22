@@ -1553,3 +1553,17 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - [Turn 49057] The NPC at (30, 8) permanently blocks the western path to the Gym door. The correct route is to walk East past the Gym on the North side to X=34, walk South past the fence to Y=8, and then walk West to the Gym door at (32, 7).
 
 <hr>
+
+<h1><code>Locations/ViridianGym</code></h1>
+
+# Viridian Gym
+[Navigation]
+- Map ID: 0_45
+- Entrance: (16, 17)
+
+[Layout & Mechanics]
+- Gym Guide at (16, 14) says trainers here use Ground-type Pokemon.
+- Spin tiles (spinners) are present in this gym. Spotted at X=13, Y=16/17 (TYPE_55d0).
+- Statues block direct North path at X=15 and X=18.
+
+<hr>
