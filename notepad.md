@@ -1615,3 +1615,11 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - DEFEATED! Earned Earth Badge and TM27 (Fissure).
 
 <hr>
+
+<h1><code>Locations/Route22</code></h1>
+
+# Route 22
+- Connects Viridian City (East) to the Pokemon League Front Gate (West).
+- To bypass the first set of ledges from Viridian City, walk West along Y=7, then South down to Y=14, then continue West.
+
+<hr>
