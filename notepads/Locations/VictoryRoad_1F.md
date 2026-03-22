@@ -240,3 +240,7 @@
 - The ITEM menu is currently open.
 - I need to press 'B' to exit to the Start menu, then 'Up' to select POKéMON, then 'A' to open it.
 - Executing: B, Up, A.
+[Turn 50076 Progress]
+- The Party menu is successfully open!
+- The cursor is on HYDRO (index 1).
+- Executing 'Down', 'A' to select CLEO (index 2).

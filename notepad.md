@@ -2037,5 +2037,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - The ITEM menu is currently open.
 - I need to press 'B' to exit to the Start menu, then 'Up' to select POKéMON, then 'A' to open it.
 - Executing: B, Up, A.
+[Turn 50076 Progress]
+- The Party menu is successfully open!
+- The cursor is on HYDRO (index 1).
+- Executing 'Down', 'A' to select CLEO (index 2).
 
 <hr>
