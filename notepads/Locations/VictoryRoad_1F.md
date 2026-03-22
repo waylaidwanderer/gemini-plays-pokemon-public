@@ -63,3 +63,8 @@
 - The 'B' press worked! I am out of the Ivysaur Pokedex entry sub-menu.
 - The Pokedex list is visible again.
 - Pressing 'B' again to exit the Pokedex entirely and return to the Start Menu.
+[Turn 50150 Progress]
+- The 'B' press successfully exited the Pokedex.
+- I am back at the Start Menu.
+- Visual confirmation: The cursor is currently on POKéDEX.
+- Executing a single 'Down' press to move the cursor to POKéMON.
