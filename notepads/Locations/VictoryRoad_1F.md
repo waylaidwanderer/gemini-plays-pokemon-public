@@ -98,3 +98,7 @@
 - Looking at the screen, there is an open path continuing Right along Y=14.
 - At X=16, the path opens up to the South.
 - I will move Right to (16, 14) and look around.
+[Turn 50009 Progress]
+- Reached the boulder at (5, 15).
+- I am at (5, 16).
+- Opening the Start menu to reactivate Strength using Cleo.
