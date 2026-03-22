@@ -1706,6 +1706,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Navigating the dirt path at X=9 to bypass the water at Y=129.
 - The path continues North. I will keep walking North to the next Badge Check.
 [Turn 49705 Progress]
-- Walking North on the dirt path at X=9.
+- Walked East to X=14 and walking North through the tall grass.
 
 <hr>
