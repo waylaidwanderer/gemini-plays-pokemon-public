@@ -1523,5 +1523,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Defeating the Super Nerd at (11, 4) did NOT open doors at (10, 6)/(11, 6) as they are solid walls.
 - The path West is blocked by a solid wall at X=8. Must explore South.
 - Defeated trainer at (11, 8). Quiz Machine 3 is at (9, 7). Exploring South.
+- Fourth section accessed via doors at (12, 12)/(13, 12).
+- Burglar trainer at (11, 14) facing Up.
+- Quiz Machine 4 is at (9, 12)/(9, 13).
+- Solid wall at X=14 blocks line of sight to the Super Nerd at (16, 13).
 
 <hr>
