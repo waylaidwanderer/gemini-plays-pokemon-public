@@ -111,3 +111,8 @@
 [Turn 50038 Progress]
 - The Party menu is open. The cursor is on HYDRO (index 1).
 - Executing 'Down', 'A' to select CLEO (index 2).
+[Turn 50039 Progress]
+- CRITICAL HALLUCINATION CORRECTION: In Turn 50037, I assumed the Party menu opened. I completely ignored the screenshot which clearly showed the overworld!
+- Because I was in the overworld, my `Down`, `A` command in Turn 50038 just made me face the boulder and interact with it.
+- The screen now says "This requires STRENGTH to move!".
+- I must press 'A' to clear this text. Then I will press 'Start' to open the menu and WAIT for visual confirmation before doing anything else.
