@@ -108,3 +108,6 @@
 [Turn 50037 Progress]
 - The Start menu is completely closed.
 - Pressing 'Start' to open the menu again, then 'Up', 'Up', 'Up', 'Up', 'Up' to wrap from whatever position it's at (likely SAVE) to POKéMON, and 'A' to select it.
+[Turn 50038 Progress]
+- The Party menu is open. The cursor is on HYDRO (index 1).
+- Executing 'Down', 'A' to select CLEO (index 2).
