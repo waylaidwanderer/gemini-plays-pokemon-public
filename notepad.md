@@ -1702,5 +1702,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Passed Cascadebadge check at (7, 136).
 - The water at Y=129 is blocked by a ledge at Y=131. Do NOT Surf here.
 - Instead, take the dirt paths North at X=4 or X=9 to bypass the water.
+[Turn 49704 Progress Update]
+- Navigating the dirt path at X=9 to bypass the water at Y=129.
+- The path continues North. I will keep walking North to the next Badge Check.
 
 <hr>
