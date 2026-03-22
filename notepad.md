@@ -1796,7 +1796,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   2. Walk to (5, 14) and push boulder DOWN to (5, 16).
   3. Walk to (4, 16) and push boulder RIGHT to (9, 16).
   4. Walk to (9, 15) and push boulder DOWN to (9, 17).
-- Current puzzle state: The boulder is currently at (8, 16).
+- Current puzzle state: The boulder is currently at (9, 16).
 - Player is at (7, 16).
 - Currently preparing to heal Hydro. The Start menu cursor is stuck on POKEDEX, causing me to open it repeatedly.
 [Turn 49954 Progress]
