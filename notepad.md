@@ -1478,16 +1478,20 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - 3F East side (X=16, 17) is blocked from going South by a solid horizontal wall of rubble at Y=9. The pit is South of Y=11. So you CANNOT reach the pit from the East side via the doors at (15, 4). This path is a dead end.
 - 3F West Wing (West of X=9) is ACCESSIBLE. I previously hallucinated it was blocked. I must thoroughly search this area (especially South of Y=10) for the true pit that drops into the B1F Secret Key room!
 [THE TRUE MASTER PUZZLE]
-- The main pit at (16, 14) is a DEAD END. It drops you into B1F State A, where a continuous solid table at Y=8 blocks the Secret Key doors, and the Far East doors are closed.
-- There MUST be a Second Pit in the unexplored SW area of 3F (West of X=13, South of Y=8).
-- ROUTE:
-  1. Find and drop down the Second Pit on 3F.
-  2. Land in the isolated B1F NW section.
-  3. Toggle the B1F West Switch (7, 15) to State B.
-  4. Escape East through the now-open X=9 doors into the B1F Main Hallway.
-  5. Walk East to X=26 and North through the now-open Far East doors at (26, 17).
-  6. Toggle the NE Switch (18, 3) to State A.
-  7. Walk West to the now-open Secret Key doors at (9, 7) and claim the Key!
+- 3F Far East and 3F West Wing are VERIFIED DEAD ENDS. There is no second pit.
+- The ONLY way down is the main pit at 3F (16, 14).
+- ROUTE TO SECRET KEY:
+  1. Drop down the main pit at 3F (16, 14), landing in 1F enclosed area. Take stairs to B1F.
+  2. On B1F, go to the central switch at (18, 25). Toggle it to STATE B!
+  3. In State B, the horizontal doors at Y=16 close, but the vertical doors at (13, 22) OPEN!
+  4. Walk West to X=13, walk North through the open doors at (13, 22).
+  5. Follow the path to the gap at (10, 17).
+  6. From (10, 17), walk NORTH to reach the B1F Northern Hallway at (10, 7)! (This bypasses the horizontal doors).
+  7. Walk East along the Northern Hallway to reach the Northeast switch at (18, 3).
+  8. Toggle the Northeast switch to STATE A!
+  9. In State A, the vertical electronic doors at X=9 (which block the Secret Key) OPEN!
+  10. Walk West from (18, 3) all the way to X=9. Walk through the open doors.
+  11. Claim the Secret Key!
 - Diary located at 1F (18, 2): "Diary: July 5. Guyana, South America. A new POKEMON was discovered deep in the jungle."
 - Burglar trainer at (16, 22), facing Right. His line of sight covers Y=22.
 - B1F NE Area: The switch statue is at (18, 3) and must be interacted with from (18, 4). There is a long horizontal table at Y=5 blocking access from Y=6. You must go around the table on the East side (around X=25/X=26) to reach the Y=4 hallway.
