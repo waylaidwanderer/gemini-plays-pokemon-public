@@ -1530,5 +1530,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Quiz Machine 5 is at (1, 12)/(2, 12).
 - Quiz Machine 4 is at (9, 12)/(9, 13).
 - Solid wall at X=14 blocks line of sight to the Super Nerd at (16, 13).
+- Fifth section accessed via doors at (4, 12)/(5, 12).
+- Super Nerd trainer at (3, 8) facing Down.
 
 <hr>
