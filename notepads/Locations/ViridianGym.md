@@ -18,3 +18,4 @@
 - Trainer `SPRITE_9238` (Tamer?) at (10, 7).
 - Trainer `SPRITE_e4ed` (Cooltrainer?) at (13, 5).
 - Trainer `SPRITE_e4ed` at (12, 7).
+- [Turn 49071 Reflection] Stopped on Down spinner at (11, 1). Likely because the Black Belt at (10, 1) (facing Right) spotted me and interrupted the spin.
