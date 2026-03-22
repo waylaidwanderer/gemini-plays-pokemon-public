@@ -70,4 +70,4 @@
 - Badge Check 6: Marshbadge at Y=85. Guard at (8, 85).
 - The water is blocked by a ledge at Y=83. Surf West to X=7 to bypass it and continue North.
 - The water path ends at Y=72. Make landfall at X=8, Y=71.
-- Badge Check 7: Spotted guard at (8, 68).
+- Continuing North from Y=68 through the grass to find the 7th Badge Check.
