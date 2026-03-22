@@ -114,3 +114,10 @@
 - The 'A' press worked. CLEO's sub-menu is open.
 - Visual confirmation: The cursor is explicitly on STRENGTH.
 - Executing a single 'A' press to use STRENGTH.
+[Turn 50218 Progress]
+- My 'A' presses were eaten by the Party Menu's slow opening animation. The sub-menu is NOT open.
+- I will press 'B' to return to the Start Menu, then re-enter the Party Menu and WAIT for the cursor to be visible before acting.
+[Turn 50219 Progress]
+- The Party Menu is fully open.
+- Visual confirmation: The cursor is on CLEO (index 2).
+- Executing a single 'A' press to select CLEO and open her sub-menu.
