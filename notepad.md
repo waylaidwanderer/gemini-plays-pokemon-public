@@ -1997,5 +1997,10 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - This means my `Right` command from the `LDDRRRRR` sequence in Turn 50058 DID NOT execute before the encounter started. The boulder has not been pushed yet.
 - I need to push it RIGHT 4 times to reach (9, 16).
 - Executing: Right, Right, Right, Right.
+[Turn 50065 Progress]
+- My movement sequence `DDLLLLLUUR` to return to the boulder was aborted on the 8th input (`Up`).
+- The intermediate states show I successfully walked to (4, 15).
+- Another wild encounter! This time an Onix at (4, 15).
+- Pressing 'A' to clear the intro text so I can run.
 
 <hr>
