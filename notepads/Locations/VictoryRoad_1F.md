@@ -11,5 +11,5 @@
   6. Walk to (16, 15) via (15, 15). Push boulder UP to (16, 12).
   7. Walk to (15, 12) via (14, 14) -> (14, 12). Push boulder RIGHT to (17, 12).
   8. Walk to (17, 11) via (16, 11). Push boulder DOWN to switch at (17, 13).
-- Current puzzle state: Step 8 in progress. Boulder is at (17, 12). I am at (17, 11). Need to push it DOWN 1 time to switch at (17, 13).
-[Turn 50303 Progress] Reached (17, 11). Executing 'Down' press to push the boulder to the switch at (17, 13).
+- Current puzzle state: PUZZLE SOLVED! Boulder is on the switch at (17, 13).
+[Turn 50304 Progress] The first boulder puzzle is complete! Now heading North to the stairs at (15, 7) to explore the rest of 1F.
