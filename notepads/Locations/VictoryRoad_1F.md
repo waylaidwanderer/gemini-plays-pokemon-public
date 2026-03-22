@@ -62,3 +62,7 @@
 [Turn 49995 Progress]
 - Main battle menu is visible. Cursor is on FIGHT.
 - Using `run_battle` tool to escape from the Onix and return to the overworld to finish resetting the puzzle.
+[Turn 49996 Progress]
+- Successfully ran from the Onix.
+- "Got away safely!" text is on screen.
+- Pressing A to clear the text, then Down to exit Victory Road and reset the boulder puzzle.
