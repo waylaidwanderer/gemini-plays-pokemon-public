@@ -10,4 +10,9 @@
 - B1F (19, 14) is NORTH of the horizontal doors at (18, 16). This means I will land in the B1F Northern Hallway, giving me direct access to the NE switch and the Secret Key!
 
 [CURRENT HYPOTHESIS]
-- I must physically drop down the pit at 3F (19, 14) and observe the resulting floors before claiming I have direct access to B1F.
+- Turn 48230: Visually verified the Far East is a dead end. The wall at Y=9 is completely solid from X=24 to X=29 (and rubble from X=21 to X=23). There is NO GAP.
+- To reach the second pit at (19, 14), I must use the main pit entrance!
+- ROUTE: 
+  1. Toggle 3F switch at (10, 4) to State B. 
+  2. Walk through the now-open Southern doors at (15, 10).
+  3. Instead of dropping at (16, 14), walk EAST to (19, 14) and drop down!
