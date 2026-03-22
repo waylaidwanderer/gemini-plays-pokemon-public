@@ -17,3 +17,6 @@
 [Turn 49745 Progress]
 - "You can pass here only if you have ▼"
 - Advancing the text to find out which badge is needed.
+[Turn 49748 Progress]
+- The 4th Badge Check requires the Rainbowbadge.
+- Pressing A to clear the rest of the text.
