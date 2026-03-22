@@ -2062,5 +2062,10 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Step 2 is complete.
 - Step 3: Walk to (4, 16) and push boulder RIGHT to (9, 16).
 - Executing: Left to (4, 15), Down to (4, 16).
+[Turn 50081 Progress]
+- Reached (4, 15).
+- My `Left, Down` sequence was interrupted on the FIRST step by a wild Zubat.
+- "Wild ZUBAT appeared!" text is on screen.
+- Pressing 'A' to clear it so I can run.
 
 <hr>
