@@ -163,3 +163,7 @@
 - My movement sequence `Left, Down` was interrupted on the FIRST step by a wild Zubat encounter at (5, 14)!
 - The text "Wild ZUBAT appeared!" is on screen.
 - I need to press 'A' to clear the intro text so I can run.
+[Turn 50052 Progress]
+- Cleared the intro text.
+- The main battle menu is now visible.
+- Using `run_battle` tool to escape the Zubat.
