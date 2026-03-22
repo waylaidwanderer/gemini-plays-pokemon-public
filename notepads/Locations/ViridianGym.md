@@ -27,3 +27,4 @@
 - From (12, 1), the path Left hits the Down spinner at (11, 1), which loops back to the Right spinner at (11, 2) and pushes back to (17, 2).
 - The correct path seems to be taking the Down spinner at (18, 2).
 - Walking back to (17, 2) and stepping Right onto (18, 2).
+- (18, 2) is a Down spinner (`TYPE_55cd`). Stepping onto it now.
