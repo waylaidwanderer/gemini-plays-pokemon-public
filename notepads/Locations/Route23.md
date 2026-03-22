@@ -54,3 +54,6 @@
 [Turn 49825 Progress]
 - The guard's text "You can pass here only if you have ▼" is still on screen.
 - Pressing A to clear the text.
+[Turn 49826 Progress]
+- "You can pass here only if you have the SOULBADGE!"
+- Pressing A to advance the text.
