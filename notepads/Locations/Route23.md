@@ -75,4 +75,4 @@
 - Badge Check 7: Volcano Badge at (10, 56). Passed.
 - At Y=56, the path North is along X=12. Move East to X=12 to bypass the rocks at X=10/X=11.
 - At Y=44, the path North is blocked by a South-facing ledge at Y=43. This is NOT water. The path continues North on the West side at X=7. Backtrack South to Y=48, then West to X=7 to bypass the rocks.
-- Searching for Badge Check 8 (Earth Badge) further North.
+- Badge Check 8: Earth Badge at (4, 35). Stand at (5, 35) and face Left to interact.
