@@ -71,3 +71,4 @@
 - The water is blocked by a ledge at Y=83. Surf West to X=7 to bypass it and continue North.
 - The water path ends at Y=72. Make landfall at X=8, Y=71.
 - Continuing North from Y=68 through the grass to find the 7th Badge Check.
+- At Y=65, the path North is blocked by rocks at X=8 and X=9. Move East to X=10 to bypass.
