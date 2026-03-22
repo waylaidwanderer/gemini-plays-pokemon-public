@@ -1812,5 +1812,12 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   8. Walk to (17, 11) via (16, 11). Push boulder DOWN to switch at (17, 13).
 - Player is at (8, 16).
 - Current puzzle state: Step 3 complete. Attempting to reactivate STRENGTH.
+[Turn 50166 Progress]
+- The sequence `DR` was eaten on the FIRST input again because the text box "CLEO can move boulders." was STILL on screen!
+- My `Down` input from Turn 50159 just cleared the text box and closed the Start Menu.
+- The `Right` input was eaten by the overworld transition.
+- I am now VERIFIABLY back in the overworld at (8, 16). The text box is completely gone.
+- Step 4: Walk to (9, 17) and push boulder UP to (9, 14).
+- Executing: Down to (8, 17).
 
 <hr>
