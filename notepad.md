@@ -1931,5 +1931,10 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Visual confirmation: The cursor is on HYDRO (index 1).
 - I need to select CLEO (index 2).
 - Executing 'Down', 'A'.
+[Turn 50047 Progress]
+- The cursor is on CLEO. Her sub-menu is open.
+- Visual confirmation: The cursor is on BODY SLAM (index 1).
+- STRENGTH is at index 3.
+- Executing 'Down', 'Down', 'A' to select Strength.
 
 <hr>
