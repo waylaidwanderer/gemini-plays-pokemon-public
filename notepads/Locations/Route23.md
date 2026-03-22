@@ -55,3 +55,5 @@
 [Turn 49737 Progress]
 - The path at X=10 continues North.
 - Walking North to (10, 106).
+[Turn 49738 Progress]
+- Continuing North at X=10.

@@ -1751,5 +1751,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [Turn 49737 Progress]
 - The path at X=10 continues North.
 - Walking North to (10, 106).
+[Turn 49738 Progress]
+- Continuing North at X=10.
 
 <hr>
