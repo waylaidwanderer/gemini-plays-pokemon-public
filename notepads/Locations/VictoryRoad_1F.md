@@ -7,3 +7,4 @@
   2. Walk to (5, 14) and push boulder DOWN to (5, 16).
   3. Walk to (4, 16) and push boulder RIGHT to (9, 16).
   4. Walk to (9, 15) and push boulder DOWN to (9, 17).
+- The wild Machop interrupted my movement sequence before I could get to the boulder. Resuming the path to (5, 14).
