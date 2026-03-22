@@ -1731,5 +1731,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [Turn 49807 Progress]
 - The Party menu is open and the cursor is on SURF in HYDRO's action menu.
 - Pressing A to use Surf!
+[Turn 49808 Progress]
+- The cursor is on SURF.
+- Actually pressing A this time to execute the move!
 
 <hr>
