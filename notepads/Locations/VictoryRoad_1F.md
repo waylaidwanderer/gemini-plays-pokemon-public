@@ -16,3 +16,4 @@
 [Turn 50305 Progress] The push sequence LL UUUU was aborted at the second Up press because of a wall at Y=10. The path North is blocked at X=15. I need to path around it. From (15, 11), I can walk Left to X=14, then North.
 [Turn 50306 Progress] The path Left to X=14 was ALSO blocked by a wall at (14, 11). I am still at (15, 11). I need to walk DOWN to (15, 12), then LEFT to X=13 to bypass this rock formation.
 [Turn 50308 Progress] Battle intro text cleared. Using `run_battle` to escape.
+[Turn 50309 Progress] Battle intro text cleared. Using `run_battle` to escape.
