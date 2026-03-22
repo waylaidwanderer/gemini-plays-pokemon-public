@@ -1494,6 +1494,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 9. Walk North through the OPEN Far East doors at (26, 17) into the NE Area!
 10. Walk to the NE Switch at (20, 3) and toggle it to State B.
 11. The X=9 doors are now OPEN. Pass through them to reach the Secret Key!
+- [Turn 48778] VERIFIED: In State B, the vertical doors at X=9 are OPEN at Y=6 and Y=7! The red barriers disappear, allowing access to the NW area!
 
 <hr>
 
