@@ -1817,5 +1817,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [Turn 50185 Progress]
 - The text is clear, and the main battle menu is visible!
 - Using `run_battle` to escape.
+[Turn 50188 Progress]
+- Escaped the Geodude successfully. The `run_battle` tool worked perfectly.
+- "Got away safely!" text is on screen.
+- Pressing 'A' to clear it so I can return to the overworld.
 
 <hr>
