@@ -339,3 +339,8 @@
 - The Party menu opened successfully.
 - Cursor is on HYDRO (index 1).
 - Using `use_hm_field` tool to select CLEO (index 2) and activate STRENGTH.
+[Turn 50102 Progress]
+- Used `use_hm_field` to select CLEO, but the initial `Down` input was EATEN because the Party Menu was still animating! (The cursor doesn't appear for about 1.8 seconds).
+- As a result, the tool selected HYDRO and tried to use SURF.
+- The text "No SURFing on HYDRO here!" is on screen.
+- Pressing 'A' to clear it and return to the menu.
