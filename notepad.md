@@ -1844,5 +1844,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - The path I planned was completely wrong.
 - I must exit the map to Route 23 to reset the boulder's position to (5, 15), then re-evaluate the correct path.
 - Executing: Left to (8, 15), Down to (8, 16), Down to (8, 17), Down to exit.
+[Turn 49994 Progress]
+- Movement sequence to exit the cave was interrupted by a wild Onix encounter at (8, 16).
+- "Wild ONIX appeared!" text is on screen.
+- Pressing 'A' to advance the intro text so the main battle menu appears.
 
 <hr>
