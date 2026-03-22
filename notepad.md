@@ -724,6 +724,7 @@ Points of Interest:
 - Encountered at Turn 49371
 - Pidgeot Lv 47
 - Rhyhorn Lv 45
+- Gyarados Lv 45
 
 <hr>
 
