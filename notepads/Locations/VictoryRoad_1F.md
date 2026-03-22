@@ -64,3 +64,7 @@
 - The boulder is currently at (9, 16).
 - I am at (9, 17). I need to push it UP 2 times to reach (9, 14).
 - Executing a single 'Up' press to push it to (9, 15).
+[Turn 50205 Progress]
+- The Start Menu is open.
+- The cursor is currently on POKéMON.
+- Pressing 'A' to open the Party Menu.
