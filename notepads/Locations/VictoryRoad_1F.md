@@ -25,3 +25,7 @@
 [Turn 50227 Progress]
 - Pressing 'B' to close HYDRO's sub-menu and return to the main Party Menu list.
 - Next turn, I will visually verify the cursor is on HYDRO before pressing 'Down'.
+[Turn 50228 Progress]
+- Closed HYDRO's sub-menu. Back at the main Party Menu.
+- Visual confirmation: The cursor is visibly on HYDRO (index 1).
+- Executing a single 'Down' press to move the cursor to CLEO (index 2).
