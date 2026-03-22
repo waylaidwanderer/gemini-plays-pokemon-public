@@ -1757,5 +1757,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [Turn 49765 Progress]
 - The text is finally clear.
 - Moving Right to X=11, then Up to (11, 104) to face the water.
+[Turn 49766 Progress]
+- Moving Right to X=11, then Up to face the water.
 
 <hr>
