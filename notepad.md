@@ -1728,5 +1728,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - I did it again in Turn 49805. I wrote that I was pressing A, but I didn't output the tool call.
 - The Party menu is open and the cursor is on HYDRO.
 - Executing `press_buttons` with `["A"]` to open HYDRO's action menu.
+[Turn 49807 Progress]
+- The Party menu is open and the cursor is on SURF in HYDRO's action menu.
+- Pressing A to use Surf!
 
 <hr>
