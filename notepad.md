@@ -1822,5 +1822,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Current Screen explicitly shows I am in the POKEDEX list menu.
 - Next step: Press 'B' to exit to the Start Menu.
 [Turn 50285 Recovery] Cursor memory kept the Start menu on POKEDEX. I am back at the Start menu now. Visually confirming cursor is on POKEDEX. I MUST execute 'Down' to move to POKEMON.
+[Turn 50286 Progress] Visual confirmation: Start Menu cursor is ON POKEMON. Executing 'A' press to open the party menu.
 
 <hr>
