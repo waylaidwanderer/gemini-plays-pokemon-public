@@ -1485,15 +1485,18 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 
 <h1><code>Scratchpad/Reflections</code></h1>
 
-[THE FAR EAST CORRIDOR HYPOTHESIS]
-- Hypothesis: The B1F Far East doors at (26, 17) are OPEN in State A. My previous conclusion that they are closed in both states was likely a hallucination from testing them in State B multiple times.
-- The route to the Secret Key relies on toggling B1F to State A and using the Far East doors as the bypass to the North!
+[B1F CENTRAL SWITCH IS A TRAP]
+- EMPIRICALLY PROVEN (Turn 48370): Toggling the B1F Central Switch at (18, 25) to State A completely traps the player in the South room.
+- The doors at (16, 16)/(17, 16) CLOSE in State A.
+- The tiles at (14, 16)/(15, 16) and (18, 16)/(19, 16) are NOT doors; they are SOLID WALLS (brown blocks).
+- Therefore, there is NO PATH NORTH from the Central Switch in State A.
+- State A on B1F is a RED HERRING dead end. We must toggle back to State B to escape.
 
-Execution Steps:
-1. Travel to B1F. Arrive in State B.
-2. Walk to B1F Central Switch at (18, 25) and toggle to STATE A.
-3. Walk North through (18, 16) to escape the switch room (assuming these doors open in State A).
-4. Walk East to (26, 18). Test the doors at (26, 17).
-5. If OPEN, proceed North to B1F NE Area and toggle the switch at (18, 3) to STATE B to open the doors to the Secret Key.
+[THE SEARCH FOR THE SECOND PIT]
+- To access the B1F NE Area (and the Secret Key), we likely need the Mansion in State A to open the Far East doors at (26, 17).
+- But the main 3F pit at (16, 14) is blocked in State A.
+- Therefore, there MUST be a second pit on 3F!
+- The most likely location is the unexplored 3F West Wing (South of Y=2).
+- Plan: Toggle B1F back to State B, use Dig to escape, re-enter, set Mansion to State A via 1F/3F switch, and thoroughly search the 3F West Wing for a pit!
 
 <hr>
