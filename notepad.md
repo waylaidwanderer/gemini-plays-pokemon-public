@@ -1520,5 +1520,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Gap at (14, 1) allows crossing the wall at X=14.
 - Super Nerd/Burglar trainer at (11, 4) facing Right.
 - Super Nerd/Burglar trainer at (11, 8).
+- Defeating the Super Nerd at (11, 4) opened the adjacent doors.
 
 <hr>

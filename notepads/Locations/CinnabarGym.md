@@ -16,3 +16,4 @@
 - Gap at (14, 1) allows crossing the wall at X=14.
 - Super Nerd/Burglar trainer at (11, 4) facing Right.
 - Super Nerd/Burglar trainer at (11, 8).
+- Defeating the Super Nerd at (11, 4) opened the adjacent doors.
