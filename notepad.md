@@ -1810,7 +1810,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   6. Walk to (16, 15) via (15, 15). Push boulder UP to (16, 12).
   7. Walk to (15, 12) via (14, 14) -> (14, 12). Push boulder RIGHT to (17, 12).
   8. Walk to (17, 11) via (16, 11). Push boulder DOWN to switch at (17, 13).
-- Current puzzle state: Step 4 complete. Executing Step 5: Walk to (8, 14) via (8, 15). Push boulder RIGHT to (16, 14).
+- Current puzzle state: Step 5 in progress. Boulder is at (11, 14). I am at (9, 14). Need to push it RIGHT to (16, 14).
 [Turn 50225 Progress]
 - The Party Menu is fully open.
 - Visual confirmation: The cursor is on CLEO (index 2).
