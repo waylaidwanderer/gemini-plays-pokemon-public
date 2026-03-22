@@ -13,3 +13,4 @@
   8. Walk to (17, 11) via (16, 11). Push boulder DOWN to switch at (17, 13).
 - Current Status: PUZZLE SOLVED! Boulder is on the switch at (17, 13). Navigating to stairs at (5, 13).
 [Turn 50318 Progress] Cleared wild encounter. At (5, 16). Executing `move_sequence` UUU to climb the stairs at (5, 13).
+[Turn 50320 Progress] Movement aborted due to wild encounter! A wild Onix appeared. I am at (5, 12). Using `run_battle` to escape.
