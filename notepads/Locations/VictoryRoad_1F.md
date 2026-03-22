@@ -72,3 +72,7 @@
 [Turn 49939 Progress]
 - Start menu is open. Cursor on ITEM.
 - Pressing A to open the ITEM bag. I will visually verify the cursor position before moving it.
+[Turn 49940 Progress]
+- Item menu is open. Visually verified cursor is on LEMONADE.
+- HYPER POTION is 2 slots down.
+- Executing DDAA to move down twice, select HYPER POTION, and select USE.
