@@ -39,3 +39,6 @@
 [Turn 49930 Progress]
 - Reached (5, 14) directly above the boulder.
 - Now pushing the boulder DOWN one tile to (5, 16).
+[Turn 49931 Progress]
+- Pushed the boulder DOWN to (5, 16).
+- Now need to walk to (4, 16) and push it RIGHT to (9, 16).
