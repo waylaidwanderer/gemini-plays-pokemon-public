@@ -1846,5 +1846,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - The text "No SURFing on HYDRO here!" is STILL on screen in Turn 50232, with a down arrow.
 - I need to press 'A' to clear this text so I can return to the Party Menu.
 - I will execute a single 'A' press.
+[Turn 50233 Progress]
+- The 'A' press worked to advance the text. The down arrow is still present.
+- Pressing 'A' again to fully clear the "No SURFing" message and return to the Party Menu.
 
 <hr>
