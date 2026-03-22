@@ -1856,5 +1856,12 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - I am back in the overworld at (8, 17). STRENGTH is active.
 - Step 4: Walk to (9, 17) and push boulder UP to (9, 14).
 - Executing a single 'Right' press to move to (9, 17).
+[Turn 50204 Progress]
+- The 'Right' press worked. I am now at (9, 17) in the overworld.
+- My character is facing Right.
+- Step 4: Walk to (9, 17) and push boulder UP to (9, 14).
+- The boulder is currently at (9, 16).
+- I am at (9, 17). I need to push it UP 2 times to reach (9, 14).
+- Executing a single 'Up' press to push it to (9, 15).
 
 <hr>
