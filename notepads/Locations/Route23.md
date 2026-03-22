@@ -28,6 +28,9 @@
 - I realized I was ONLY writing my intended actions in my notepad again without actually executing the tool calls.
 - The Start menu is still open and the cursor is on POKéDEX.
 - Executing the tool call to press Down and A to open the POKéMON menu.
-[Turn 49782 Progress]
-- The Party menu is open. The cursor is on HYDRO (Blastoise).
-- Pressing A to select HYDRO, then A to select SURF.
+[Turn 49783 Progress]
+- Accidentally opened the Pokedex instead of the Pokemon menu.
+- Pressing B to exit back to the overworld and reset.
+[Turn 49784 Progress]
+- Exited the Pokedex.
+- Pressing Start, Down, A to open the POKéMON menu.

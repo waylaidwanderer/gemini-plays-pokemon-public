@@ -1729,5 +1729,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [Turn 49783 Progress]
 - Accidentally opened the Pokedex instead of the Pokemon menu.
 - Pressing B to exit back to the overworld and reset.
+[Turn 49784 Progress]
+- Exited the Pokedex.
+- Pressing Start, Down, A to open the POKéMON menu.
 
 <hr>
