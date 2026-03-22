@@ -1541,3 +1541,13 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - All trainers and Gym Leader defeated!
 
 <hr>
+
+<h1><code>Locations/ViridianCity</code></h1>
+
+# Viridian City
+- Poke Mart is at (29, 19).
+- Pokemon Center is at (23, 25).
+- Gym is in the Northeast corner.
+- Path North from the Poke Mart is blocked by a building at Y=13. Must bypass via the East (X=33+).
+
+<hr>
