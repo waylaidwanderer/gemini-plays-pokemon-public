@@ -1888,5 +1888,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - My inputs from Turn 50199 to 50207 were either eaten, misaligned, or I simply forgot to call `press_buttons` while writing my diary.
 - I am starting over. The Start Menu is open. Cursor is on POKéDEX.
 - Executing a single 'Down' press to move the cursor to POKéMON.
+[Turn 50212 Progress]
+- The 'Down' input was eaten by the opening animation of the Start Menu from Turn 50209.
+- The cursor is STILL on POKéDEX.
+- Executing 'Down' again.
 
 <hr>
