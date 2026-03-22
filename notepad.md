@@ -1802,5 +1802,10 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - The Start menu is OPEN.
 - Visual confirmation: The cursor is on ITEM (index 3).
 - Executing single 'A' press to open the bag.
+[Turn 49955 Progress]
+- Item menu is open.
+- Visual confirmation: The cursor is currently at the top of the visible list (index 6: LEMONADE).
+- To reach HYPER POTION (index 9), I need to press DOWN 3 times.
+- Executing `DDDAA` to move down 3 times, select HYPER POTION, and select USE.
 
 <hr>
