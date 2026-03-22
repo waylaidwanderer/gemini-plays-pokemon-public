@@ -1830,5 +1830,11 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Executed 'Down', 'Down'. Cursor moved from POKEDEX to ITEM.
 - Visual confirmation: The cursor is on ITEM.
 - Pressing 'A' to open the bag.
+[Turn 49968 Progress]
+- The bag is now open!
+- Visible items: BICYCLE, POKé FLUTE, LEMONADE, FRESH WATER.
+- Based on Turn 49955, HYPER POTION is below FRESH WATER.
+- Bag Order (partial): 1: BICYCLE, 2: POKé FLUTE, 3: LEMONADE, 4: FRESH WATER, 5: HYPER POTION.
+- Executing `use_item` to use HYPER POTION (index 5) starting from BICYCLE (index 1).
 
 <hr>
