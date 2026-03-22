@@ -1821,6 +1821,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - I have been stuck in a loop of UI hallucinations and turn mismatches, repeatedly entering the Pokedex instead of the Party Menu.
 - Current Screen explicitly shows I am in the POKEDEX list menu.
 - Next step: Press 'B' to exit to the Start Menu.
-[Turn 50284 Recovery] I hallucinated the cursor position AGAIN. Start Menu cursor memory kept it on POKEDEX. I pressed A and am back in the Pokedex. Pressing B to return to Start Menu, then I MUST press DOWN.
+[Turn 50285 Recovery] Cursor memory kept the Start menu on POKEDEX. I am back at the Start menu now. Visually confirming cursor is on POKEDEX. I MUST execute 'Down' to move to POKEMON.
 
 <hr>
