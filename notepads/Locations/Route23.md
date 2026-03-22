@@ -39,3 +39,6 @@
 [Turn 49727 Progress]
 - The text box "Oh! That is the THUNDERBADGE!" was still on screen and ate my movement inputs.
 - Pressing A to advance the text.
+[Turn 49729 Progress]
+- Still clearing text. "OK then! Please, go right ahead!"
+- Pressing A.
