@@ -1864,5 +1864,10 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - To push it UP, I must get to (9, 17).
 - To reach (9, 17) from (9, 15), I need to walk around the boulder: Right to (10, 15), Down to (10, 16), Down to (10, 17), Left to (9, 17).
 - First step: Right to (10, 15).
+[Turn 49977 Progress]
+- Hallucination Correction: I tried to move Right from (9, 15) to (10, 15), but (10, 15) is a solid rock wall (`TYPE_2889`). I bumped into it and visited 0 tiles.
+- Looking closely at the screen, the right side of the boulder is completely blocked by a rock wall at X=10.
+- To reach the bottom of the boulder at (9, 17), I must walk around its LEFT side: Left to (8, 15), Down to (8, 16), Down to (8, 17), and Right to (9, 17).
+- Executing first step: Left to (8, 15).
 
 <hr>
