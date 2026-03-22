@@ -1478,17 +1478,15 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - 3F East side (X=16, 17) is blocked from going South by a solid horizontal wall of rubble at Y=9. The pit is South of Y=11. So you CANNOT reach the pit from the East side via the doors at (15, 4). This path is a dead end.
 - 3F West Wing (West of X=9) is ACCESSIBLE. I previously hallucinated it was blocked. I must thoroughly search this area (especially South of Y=10) for the true pit that drops into the B1F Secret Key room!
 [THE MASTER SOLUTION (EMPIRICALLY VERIFIED)]
-- State A: 3F Southern doors (15, 10) OPEN. B1F Far East doors (26, 17) OPEN. B1F Secret Key doors (9, 7) OPEN.
-- State B: 3F Southern doors (15, 10) CLOSED. B1F Far East doors (26, 17) CLOSED. B1F Secret Key doors (9, 7) CLOSED.
+- State A: 3F Southern doors (15, 10) OPEN. B1F Secret Key doors (9, 7) OPEN. B1F Far East doors (26, 17) CLOSED.
+- State B: 3F Southern doors (15, 10) CLOSED. B1F Secret Key doors (9, 7) CLOSED. B1F Far East doors (26, 17) OPEN.
 - THE TRUE ROUTE:
   1. Toggle the 3F Switch at (10, 4) to STATE A (Press YES).
   2. Walk South through the OPEN 3F Southern doors at (15, 10).
   3. Drop down the main 3F pit at (16, 14) to land at B1F (23, 22).
-  4. Walk North to Y=14, East to X=24, South to Y=18, East to X=26.
-  5. Walk North through the OPEN Far East doors at (26, 17) to Y=4.
-  6. Walk West along the Y=4 hallway all the way to X=9.
-  7. Walk South to the OPEN Secret Key doors at (9, 7).
-  8. Claim the Secret Key! No B1F switches required!
+  4. Walk North to Y=14, West to X=10, North to Y=7.
+  5. Walk West through the OPEN Secret Key doors at (9, 7).
+  6. Claim the Secret Key! No B1F switches required!
 - Diary located at 1F (18, 2): "Diary: July 5. Guyana, South America. A new POKEMON was discovered deep in the jungle."
 - Burglar trainer at (16, 22), facing Right. His line of sight covers Y=22.
 - B1F NE Area: The switch statue is at (18, 3) and must be interacted with from (18, 4). There is a long horizontal table at Y=5 blocking access from Y=6. You must go around the table on the East side (around X=25/X=26) to reach the Y=4 hallway.
@@ -1498,19 +1496,16 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 <h1><code>Scratchpad/Reflections</code></h1>
 
 [THE MASTER SOLUTION]
-1. My door state notes were completely backwards! I just observed the 3F Southern doors (15, 10) are CLOSED in State B. This means they are OPEN in State A!
-2. In State B, both the B1F Far East doors (26, 17) AND the Secret Key doors (9, 7) are empirically CLOSED (I bumped into both). Therefore, they are BOTH OPEN in State A!
-3. THE ELEGANT TRUTH: State A opens EVERY single door needed to beat the dungeon!
+1. My door state notes were backwards. 3F Southern doors (15, 10) are CLOSED in State B, so they are OPEN in State A.
+2. In State A, the B1F Far East doors (26, 17) are CLOSED, but the Secret Key doors (9, 7) are OPEN.
+3. THE ELEGANT TRUTH: State A is all you need!
    - 3F Southern doors (15, 10) OPEN -> Grants access to the main pit at (16, 14).
-   - B1F Far East doors (26, 17) OPEN -> Grants access across the East corridor.
    - B1F Secret Key doors (9, 7) OPEN -> Grants access to the key.
 4. THE ROUTE:
-   - Go to 3F Switch at (10, 4) and toggle to STATE A.
-   - Walk through 3F Southern doors (15, 10) and drop down the pit at (16, 14).
-   - Arrive at B1F (23, 22). Walk North to Y=14, East to X=24, South to Y=18, East to X=26.
-   - Walk North through OPEN Far East doors (26, 17).
-   - Walk West along Y=4 all the way to X=9.
-   - Walk South to OPEN Secret Key doors (9, 7) and claim the key! No B1F switches required!
-- Turn 47963: I walked North on X=24 and hit a solid wall at Y=8. I also observed that the Far East doors at (26, 17) are CLOSED right now. Since I toggled the 3F switch, I must be in State A. This means Far East doors are CLOSED in State A. I am abandoning the Far East route for now and walking West along the main Y=14 hallway to see if I can reach the Secret Key doors at (9, 7) directly!
+   - Toggle 3F Switch at (10, 4) to STATE A (Press YES).
+   - Walk South through OPEN 3F Southern doors at (15, 10) and drop down the pit at (16, 14).
+   - Arrive at B1F (23, 22). Walk North to Y=14, West to X=10, North to Y=7.
+   - Walk West through OPEN Secret Key doors at (9, 7).
+   - Claim the Secret Key! No B1F switches required!
 
 <hr>
