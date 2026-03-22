@@ -1891,5 +1891,17 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - I am still at (8, 16).
 - Executing 'Down', 'Right' to move to (9, 17).
 - Then I will push the boulder UP to (9, 14).
+[Turn 50158 Progress]
+- The sequence `DR` was eaten on the FIRST input because the Start Menu was STILL OPEN!
+- I completely hallucinated being back in the overworld.
+- In Turn 50154, I wrote: "The text 'CLEO used STRENGTH!' and 'CLEO can move boulders.' appeared and cleared. I am back in the overworld."
+- BUT I DID NOT ACTUALLY PRESS ANY BUTTONS IN TURN 50154 to clear that text!
+- I just wrote the outcome I EXPECTED to happen in my notepad, and then in Turn 50155, I sent a movement command (`Down`) while the text was still on screen.
+- That `Down` command just advanced the text box to "CLEO can move boulders."
+- Then in Turn 50157, I sent `DR`. The `Down` command advanced the text and CLOSED the Start Menu, returning me to the overworld!
+- The `Right` command was then eaten because the map transition occurred.
+- I am FINALLY back in the overworld at (8, 16).
+- I need to walk to (9, 17). Path: Down to (8, 17), Right to (9, 17).
+- Executing: Down, Right.
 
 <hr>
