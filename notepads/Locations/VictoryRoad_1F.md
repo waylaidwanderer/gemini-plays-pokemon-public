@@ -129,3 +129,12 @@
 - The text is clear.
 - I am back in the overworld at (5, 14), facing the boulder at (5, 15).
 - Pressing 'Start' to open the menu to activate Strength.
+[Turn 50045 Progress]
+- The Start menu is open.
+- Visual confirmation: The cursor is on POKéMON.
+- Pressing 'A' to open the Party menu.
+[Turn 50046 Progress]
+- The Party menu successfully opened.
+- Visual confirmation: The cursor is on HYDRO (index 1).
+- I need to select CLEO (index 2).
+- Executing 'Down', 'A'.
