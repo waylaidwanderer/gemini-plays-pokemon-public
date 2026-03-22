@@ -16,5 +16,5 @@
 - Gap at (14, 1) allows crossing the wall at X=14.
 - Super Nerd/Burglar trainer at (11, 4) facing Right.
 - Super Nerd/Burglar trainer at (11, 8) facing Up.
-- Defeating the Super Nerd at (11, 4) did NOT open the doors at (10, 6)/(11, 6). They remain closed.
-- However, the path West is wide open from Y=1 to Y=5 (across X=9).
+- Defeating the Super Nerd at (11, 4) did NOT open doors at (10, 6)/(11, 6) as they are solid walls.
+- The path West is blocked by a solid wall at X=8. Must explore South.
