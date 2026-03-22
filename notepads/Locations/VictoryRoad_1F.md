@@ -79,3 +79,7 @@
 - I need to explore the right side of the room to see how to access the switch at (9, 12).
 - I will walk Right along Y=16 to (9, 16), then Up to (9, 14), then Right to explore.
 - Executing: A, R, R, R, R, R, U, U, R, R, R, R.
+[Turn 50002 Progress]
+- Reached (13, 14).
+- Interrupted by a wild Graveler. "Wild GRAVELER appeared!" text is on screen.
+- Pressing 'A' to advance the intro text so I can run from the battle.
