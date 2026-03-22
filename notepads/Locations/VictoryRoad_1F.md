@@ -11,7 +11,7 @@
   6. Walk to (16, 15) via (15, 15). Push boulder UP to (16, 12).
   7. Walk to (15, 12) via (14, 14) -> (14, 12). Push boulder RIGHT to (17, 12).
   8. Walk to (17, 11) via (16, 11). Push boulder DOWN to switch at (17, 13).
-- Current puzzle state: Step 5 in progress. Boulder is at (14, 14). I am at (12, 14). Need to step RIGHT to (13, 14), then push RIGHT to (16, 14).
+- Current puzzle state: Step 5 in progress. Boulder is at (14, 14). I am at (13, 14). Need to push it RIGHT to (16, 14).
 [Turn 50225 Progress]
 - The Party Menu is fully open.
 - Visual confirmation: The cursor is on CLEO (index 2).
@@ -110,3 +110,4 @@
 [Turn 50251 Progress] CLEO's sub-menu is open. Cursor is on STRENGTH. Pressing 'A' to activate it.
 [Turn 50252 Progress] Success! "CLEO can move boulders." text is on screen. Pressing 'A' to clear it and hopefully return to the overworld.
 [Turn 50253 Progress] Cleared the text. Back at the Start Menu. Pressing 'B' to close the Start Menu and return to the overworld.
+[Turn 50268 Progress] Cleared the "Got away safely!" text. Ready to push the boulder at (14, 14) to the right.
