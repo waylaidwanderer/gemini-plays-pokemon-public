@@ -1502,6 +1502,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Central switch toggled to State A at Turn 48274.
 - VISUAL CONFIRMATION (Turn 48279): The central horizontal doors at (16, 16) and (17, 16) are CLOSED in State A.
 - VISUAL CONFIRMATION (Turn 48279): The vertical doors at (13, 22) and (13, 23) are OPEN in State A!
-- PROCEEDING to bump the closed doors at (17, 16) for absolute proof, then navigating West to cross the open doors at (13, 22).
+- PROCEEDING West through the open doors at (13, 22) to systematically map the Western half of B1F in State A.
 
 <hr>
