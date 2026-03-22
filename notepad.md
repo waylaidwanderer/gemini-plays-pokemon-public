@@ -1894,5 +1894,11 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - The screen now shows "No SURFing on HYDRO here!▼".
 - I need to press 'A' again to clear this text.
 - Executing a single 'A' press.
+[Turn 50244 Progress]
+- Cleared the "No SURFing" text.
+- I am back at the main Party Menu.
+- Visual confirmation: The cursor is on HYDRO (index 1).
+- Executing a single 'Down' press to move the cursor to CLEO (index 2).
+- I will wait to visually confirm the cursor moved before pressing A.
 
 <hr>
