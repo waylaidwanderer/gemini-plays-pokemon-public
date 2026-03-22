@@ -15,4 +15,4 @@
 ## Route 22 (Late Game)
 - Encountered at Turn 49371
 - Pidgeot Lv 47
-- Rhyhorn Lv ??
+- Rhyhorn Lv 45
