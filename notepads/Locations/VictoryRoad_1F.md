@@ -11,5 +11,5 @@
   6. Walk to (16, 15) via (15, 15). Push boulder UP to (16, 12).
   7. Walk to (15, 12) via (14, 14) -> (14, 12). Push boulder RIGHT to (17, 12).
   8. Walk to (17, 11) via (16, 11). Push boulder DOWN to switch at (17, 13).
-- Current puzzle state: Step 7 in progress. Boulder is at (16, 12). I am at (15, 12). Need to push it RIGHT 1 time to (17, 12).
-[Turn 50300 Progress] Reached (15, 12). Executing 'Right' press to push the boulder to (17, 12).
+- Current puzzle state: Step 7 COMPLETE. Boulder is at (17, 12). Executing Step 8: Walk to (17, 11) and push boulder DOWN to switch at (17, 13).
+[Turn 50302 Progress] Pushed boulder to (17, 12). Moving URR to reach (17, 11) to get above the boulder for the final push.
