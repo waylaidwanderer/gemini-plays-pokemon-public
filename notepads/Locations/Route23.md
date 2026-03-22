@@ -59,3 +59,7 @@
 [Turn 49765 Progress]
 - The text is finally clear.
 - Moving Right to X=11, then Up to (11, 104) to face the water.
+[Turn 49766 Progress]
+- Moving Right to X=11, then Up to face the water.
+[Turn 49767 Progress]
+- Moving Right to (11, 105), then Up to (11, 104).
