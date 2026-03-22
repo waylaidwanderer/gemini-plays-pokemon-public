@@ -64,3 +64,9 @@
 - My movement sequence to exit the cave was interrupted on the FIRST step (`Down`) by a wild Machop encounter at (5, 14).
 - The text "Wild MACHOP appeared!" is on screen.
 - Pressing 'A' to advance the intro text so I can run.
+[Turn 50027 Progress]
+- Hallucination Correction: In Turn 50025, I pressed 'A' thinking I was on POKéMON.
+- Looking at the Turn 50026 screen, the "Would you like to SAVE the game?" prompt is open!
+- My cursor was actually on SAVE, not POKéMON.
+- I need to press 'B' or select 'NO' to cancel the save prompt, then carefully navigate back up to POKéMON.
+- Executing 'B' to cancel.
