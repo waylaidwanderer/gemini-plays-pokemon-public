@@ -1823,6 +1823,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Current Status: PUZZLE SOLVED! Boulder is on the switch at (17, 13). Exploring raised platform from stairs at (5, 13).
 [Turn 50325 Progress] Battle intro text advanced. Using `run_battle` to escape the Cooltrainer!
 [Turn 50326 Progress] Escaped the Cooltrainer! I am now at (6, 11). The path North is open. Continuing North to explore the rest of the raised platform.
-[Turn 50328 Progress] Bounding box at X=6 is blocked by a wall at (6, 8). Moving Right to X=7, then Up to battle the Cooltrainer at (7, 5).
+[Turn 50330 Progress] Reached (6, 9). The path North is blocked by a wall at (6, 8). I need to step Right to X=7, then walk North to battle the Cooltrainer at (7, 5).
 
 <hr>
