@@ -1815,5 +1815,11 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - The Party Menu is fully open.
 - Visual confirmation: The cursor is on CLEO (index 2).
 - Executing a single 'A' press to select CLEO and open her sub-menu.
+[Turn 50226 Progress]
+- Hallucination Correction: I completely misread the screen in Turn 50224! The cursor was actually on HYDRO (index 1), NOT CLEO. The Party Menu cursor memory must have reset after the wild battle.
+- Because I pressed 'A' in Turn 50225, I opened HYDRO's sub-menu.
+- The screen currently shows HYDRO's sub-menu with SURF at the top.
+- Pressing 'B' to close HYDRO's sub-menu.
+- I am abandoning assumptions about cursor memory and will STRICTLY read the screen.
 
 <hr>
