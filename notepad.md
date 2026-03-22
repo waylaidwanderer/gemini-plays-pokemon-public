@@ -1747,5 +1747,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - I will press Up to move to (11, 97) and trigger the guard.
 [Turn 49822 Progress]
 - Executing `press_buttons` with `["Up"]` to move to (11, 97) and trigger the 5th Badge Check.
+[Turn 49823 Progress]
+- Reached the 5th Badge Check at (11, 97).
+- The guard says: "You can pass here only if you have ▼"
+- Pressing A to advance the text and see which badge is needed.
 
 <hr>
