@@ -19,3 +19,6 @@
 [Turn 49804 Progress]
 - The Party menu is open and the cursor is on HYDRO (Blastoise).
 - Pressing A to open HYDRO's action menu.
+[Turn 49805 Progress]
+- The Party menu is open. The cursor is on HYDRO (Blastoise).
+- Pressing A to open HYDRO's action menu.
