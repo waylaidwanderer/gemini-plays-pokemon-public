@@ -22,3 +22,6 @@
 - Escaped the Geodude successfully. The `run_battle` tool worked perfectly.
 - "Got away safely!" text is on screen.
 - Pressing 'A' to clear it so I can return to the overworld.
+[Turn 50189 Progress]
+- Back in the overworld at (8, 17). The text is cleared.
+- Opening the Start Menu to reactivate STRENGTH before moving to (9, 17).
