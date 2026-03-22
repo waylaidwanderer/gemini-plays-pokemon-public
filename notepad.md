@@ -1715,5 +1715,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [Turn 49802 Progress]
 - The Start menu is open. The cursor is on POKéDEX.
 - Executing `move_sequence` with "DA" to select POKéMON.
+[Turn 49803 Progress]
+- I failed to execute the actual tool call again in my previous turn.
+- Now executing `press_buttons` with `["Down", "A"]` to select the POKéMON menu.
 
 <hr>
