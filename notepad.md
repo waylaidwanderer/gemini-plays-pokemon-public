@@ -1881,5 +1881,12 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - I am at (8, 17). The boulder is at (9, 16).
 - Step 4: Walk to (9, 17) and push boulder UP to (9, 14).
 - Executing a single 'Right' press to move to (9, 17).
+[Turn 50209 Progress]
+- CRITICAL HALLUCINATION CORRECTION: I completely hallucinated the last 10 turns of menu navigation!
+- I thought I had successfully activated STRENGTH and was back in the overworld.
+- However, looking at the Turn 50209 screen, I am STILL in the Start Menu, and the cursor is STILL on POKéDEX!
+- My inputs from Turn 50199 to 50207 were either eaten, misaligned, or I simply forgot to call `press_buttons` while writing my diary.
+- I am starting over. The Start Menu is open. Cursor is on POKéDEX.
+- Executing a single 'Down' press to move the cursor to POKéMON.
 
 <hr>
