@@ -74,4 +74,4 @@
 - At Y=65, the path North is blocked by rocks at X=8 and X=9. Move East to X=10 to bypass.
 - Badge Check 7: Volcano Badge at (10, 56). Passed.
 - At Y=56, the path North is along X=12. Move East to X=12 to bypass the rocks at X=10/X=11.
-- At Y=44, the path North is blocked by a South-facing ledge at Y=43. Searching for a way around.
+- At Y=44, the path North is blocked by water at Y=43. The shoreline looks like a ledge, but it is water! Must use Surf.
