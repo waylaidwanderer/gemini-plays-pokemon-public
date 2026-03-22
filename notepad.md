@@ -1807,5 +1807,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Visual confirmation: The cursor is currently at the top of the visible list (index 6: LEMONADE).
 - To reach HYPER POTION (index 9), I need to press DOWN 3 times.
 - Executing `DDDAA` to move down 3 times, select HYPER POTION, and select USE.
+[Turn 49956 Progress]
+- Hallucination Correction: My tool sequence `DDDAA` in Turn 49955 went too far down.
+- I am currently looking at the `MAX REVIVE` item entry ("Use item on which POKéMON?") because I pressed Down 3 times from Lemonade (Lemonade -> Fresh Water -> Hyper Potion -> Max Revive).
+- I need to press B to exit the party menu, then move Up once to select HYPER POTION, then press A to use it.
 
 <hr>

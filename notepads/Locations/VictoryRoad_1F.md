@@ -13,3 +13,12 @@
 - The Start menu is OPEN.
 - Visual confirmation: The cursor is on ITEM (index 3).
 - Executing single 'A' press to open the bag.
+[Turn 49955 Progress]
+- Item menu is open.
+- Visual confirmation: The cursor is currently at the top of the visible list (index 6: LEMONADE).
+- To reach HYPER POTION (index 9), I need to press DOWN 3 times.
+- Executing `DDDAA` to move down 3 times, select HYPER POTION, and select USE.
+[Turn 49956 Progress]
+- Hallucination Correction: My tool sequence `DDDAA` in Turn 49955 went too far down.
+- I am currently looking at the `MAX REVIVE` item entry ("Use item on which POKéMON?") because I pressed Down 3 times from Lemonade (Lemonade -> Fresh Water -> Hyper Potion -> Max Revive).
+- I need to press B to exit the party menu, then move Up once to select HYPER POTION, then press A to use it.
