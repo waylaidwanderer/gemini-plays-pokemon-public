@@ -175,3 +175,7 @@
 - I am at (5, 14). The boulder is at (5, 16).
 - Resuming Step 3: Walk to (4, 16) and push boulder RIGHT to (9, 16).
 - Executing: Left to (4, 15), Down to (4, 16).
+[Turn 50055 Progress]
+- My movement sequence `Left, Down` was aborted on the FIRST input again.
+- Another wild encounter! This time a Geodude at (5, 14).
+- Pressing 'A' to clear the intro text so I can run.
