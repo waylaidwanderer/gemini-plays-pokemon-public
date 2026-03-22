@@ -1589,7 +1589,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - (18, 2) is a Down spinner (`TYPE_55cd`). Stepping onto it now.
 - (18, 2) Down spinner pushes all the way South to the (18, 11) yellow stop tile.
 - From (18, 11), the path South goes to Y=12, then West to another stop tile at (16, 12).
-- (16, 9) is an Item Ball! It is blocked from the South by the Down spinner at (16, 10) and from the West by the wall at (15, 9). Must be accessed from the North.
+- Item Ball at (16, 9) contained a Revive.
 - (16, 10) is a Down spinner, blocking the path North to the Cooltrainer at (16, 9).
 - The path from (16, 12) continues West to (14, 12), North to (14, 9), then West to (12, 9) towards the Cooltrainer at (12, 7).
 - CRITICAL VISUAL CUE: The black blocks with blue/white checkerboard bases are solid walls (`TYPE_2889`). They are NOT "Left Spinners". The Gym is a maze of these solid walls.
