@@ -70,3 +70,6 @@
 - My cursor was actually on SAVE, not POKéMON.
 - I need to press 'B' or select 'NO' to cancel the save prompt, then carefully navigate back up to POKéMON.
 - Executing 'B' to cancel.
+[Turn 50028 Progress]
+- The "Would you like to SAVE the game?" text is still rendering (Down arrow present).
+- Pressing B again to clear the text and cancel the prompt.
