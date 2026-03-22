@@ -1,9 +1,10 @@
-[B1F CENTRAL SWITCH IS A TRAP]
-- EMPIRICALLY PROVEN (Turn 48370): Toggling the B1F Central Switch at (18, 25) to State A completely traps the player in the South room.
-- The doors at (16, 16)/(17, 16) CLOSE in State A.
-- The tiles at (14, 16)/(15, 16) and (18, 16)/(19, 16) are NOT doors; they are SOLID WALLS (brown blocks).
-- Therefore, there is NO PATH NORTH from the Central Switch in State A.
-- State A on B1F is a RED HERRING dead end. We must toggle back to State B to escape.
+[THE B1F STATE A BYPASS STRATEGY]
+- Toggling the B1F Central Switch at (18, 25) to State A closes the North doors at (16, 16)/(17, 16).
+- However, State A is NOT a red herring! It is REQUIRED to open the X=9 doors to the NW Area.
+- To escape the South room in State A, we must use the VERTICAL doors at X=13 (Y=22/23).
+- These doors are CLOSED in State B, but should OPEN in State A.
+- Passing through them leads to the SW Loop, which connects back to the main B1F area at (10, 17)!
+- Plan: Walk to Central Switch, toggle to State A, walk West to X=13, traverse the SW loop, and emerge in the main area in State A!
 
 [THE SEARCH FOR THE SECOND PIT]
 - To access the B1F NE Area (and the Secret Key), we likely need the Mansion in State A to open the Far East doors at (26, 17).
