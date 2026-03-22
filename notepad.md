@@ -2117,5 +2117,10 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Using `run_battle` tool to escape the Machoke.
 - After escaping, I will be at (6, 16) and the boulder will be at (7, 16).
 - I will need to push it RIGHT 2 more times to reach (9, 16).
+[Turn 50092 Progress]
+- Escaped the Machoke. "Got away safely!" text is on screen.
+- The `run_battle` extra inputs moved me Down to (6, 17) in the overworld.
+- The boulder is still safely at (7, 16).
+- Pressing 'A' to clear the text.
 
 <hr>
