@@ -49,3 +49,9 @@
 - Hallucination Correction: In my API call for Turn 49990, I accidentally passed my *expected* position (9, 15) instead of my *actual* position at the time (9, 16). 
 - I am currently at (9, 15) and the boulder is at (9, 14).
 - Pushing the boulder UP again.
+[Turn 49993 Progress]
+- CRITICAL ERROR: The boulder is softlocked.
+- I pushed the boulder to (9, 14), but (9, 13) is a solid rock wall (`TYPE_2889`). It is physically impossible to push the boulder UP to the switch at (9, 12) from here.
+- The path I planned was completely wrong.
+- I must exit the map to Route 23 to reset the boulder's position to (5, 15), then re-evaluate the correct path.
+- Executing: Left to (8, 15), Down to (8, 16), Down to (8, 17), Down to exit.
