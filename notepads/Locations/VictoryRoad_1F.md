@@ -13,3 +13,7 @@
   8. Walk to (17, 11) via (16, 11). Push boulder DOWN to switch at (17, 13).
 - Player is at (5, 16).
 - Current puzzle state: Strength needs reactivation, preparing to execute the 8-step solution.
+[Turn 50013 Progress]
+- The Start menu is open. The cursor is on EXIT.
+- The Start menu wraps. Pressing Down twice should wrap to POKéDEX, then move to POKéMON.
+- Executing 'Down', 'Down'.
