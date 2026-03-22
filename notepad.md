@@ -1721,5 +1721,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [Turn 49750 Progress]
 - "Oh! That is the RAINBOWBADGE!"
 - Advancing the text.
+[Turn 49751 Progress]
+- Passed the Rainbowbadge check!
+- Pressing A to clear the text.
 
 <hr>
