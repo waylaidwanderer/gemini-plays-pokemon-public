@@ -1857,5 +1857,12 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - I need to get below the boulder at (9, 17).
 - To reach (9, 17), I must walk Right to (9, 15), then Down, Down to (9, 17) to bypass the boulder.
 - First step: Right to (9, 15).
+[Turn 49976 Progress]
+- Hallucination Correction: In Turn 49974, I said I was at (7, 15), but my Game State was (8, 15). I moved Right, so my Turn 49975 position is indeed (9, 15). My manual turn counting was slightly off in my head, but the Game State is correct.
+- I am now at (9, 15). The boulder is directly below me at (9, 16).
+- I need to push it UP to the switch at (9, 12).
+- To push it UP, I must get to (9, 17).
+- To reach (9, 17) from (9, 15), I need to walk around the boulder: Right to (10, 15), Down to (10, 16), Down to (10, 17), Left to (9, 17).
+- First step: Right to (10, 15).
 
 <hr>
