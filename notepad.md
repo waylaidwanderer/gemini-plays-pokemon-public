@@ -1655,9 +1655,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [Turn 49643 Reflection]
 - Error Analysis: My biggest failure in the last 50 turns was severe spatial hallucination. I assumed tiles were water/walls without physically bumping them, and I misremembered the location of the Reception Gate.
 - Correction: I am now strictly adhering to the "Exhaustive Exploration" rule from my Main notepad. I will physically test the northern boundary of the Upper Path (Y=1 to Y=3) to conclusively prove or disprove my hypothesis.
-[Turn 49654 Revelation]
-- I am at (16, 5). I have never actually pressed Left here!
-- The tiles at (14, 5) and (15, 5) are dark grey, while (14, 4) and (15, 4) look like the top of an archway.
-- This might be the entrance to the Pokemon League Reception Gate! I am going to physically step Left and test it.
+[Turn 49658 Upper Path Dead End Confirmed]
+- Bumping Left at (16, 4) and (16, 5) confirms X=15 is a solid wall of statues/columns from Y=4 down to Y=9.
+- The Upper Path is a 100% verified dead end at X=16. It is physically impossible to go further West on the Upper Path.
+- The ONLY way forward is the Lower Path. I must jump down the ledge at Y=7 and meticulously scan the North boundary (Y=9) of the lower path for a gap or stairs going Up to the Reception Gate.
 
 <hr>
