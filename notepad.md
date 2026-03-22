@@ -1508,5 +1508,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 9. Walk South through the doors and claim the Secret Key!
 [OVERWATCH CORRECTION]
 My Master Plan is FLAWED. The Far East doors at (26, 17) are empirically closed in both states (proven Turn 47963 & 47883). I cannot use them to go North. Instead, I am at (23, 14) on B1F. If I walk West to X=18, I will be in the Central Hallway *North* of the Y=16 electronic doors! I will attempt to walk North from (18, 14) to explore the upper half of B1F directly.
+- Turn 48033 (50-Turn Reflection):
+  - Immediate Execution: I must abandon the "Master Plan" because it contradicted my own empirical bump tests. I will instead explore the northern section of B1F directly by walking West to X=18, then North.
+  - Error Analysis: I allowed a theoretical, "elegant" solution to override hard empirical data (that the Far East doors are always closed). I must always trust bump tests over spatial hypotheses.
+  - Goal Clarity: My goal is to exhaustively map the Northern half of B1F, specifically checking if the Y=8 tables are truly solid all the way across, or if there is a path to the NW section.
 
 <hr>
