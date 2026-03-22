@@ -63,6 +63,8 @@
 - Cinnabar Gym Challenge Start: Turn 48811
 - Gym Leader Blaine Battle Start: Turn 48967
 - [PokeMart Mechanics] Gen 1 Mart inventories do NOT scale with badges. They are fixed to their location. Celadon Dept Store 2F is fixed to Super Potions and Great Balls. Must visit late-game cities (Saffron, Fuchsia, Cinnabar) for Hyper Potions, Ultra Balls, and Full Heals.
+- Earth Badge Obtained (Giovanni): Turn 49188
+- Route 22 Exploration Start: Turn 49331
 
 <hr>
 
