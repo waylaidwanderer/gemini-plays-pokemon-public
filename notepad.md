@@ -1883,5 +1883,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - The Start menu is open.
 - Visual confirmation: The cursor is on POKéMON.
 - Pressing 'A' to open the Party menu to select Cleo for Strength.
+[Turn 50033 Progress]
+- Hallucination Correction: In Turn 50031, I thought the cursor was on POKéMON, but it was still on SAVE from earlier (cursor memory).
+- Pressing 'A' opened the Save prompt again!
+- Pressing 'B' to cancel the save prompt. This will likely close the Start Menu entirely.
 
 <hr>
