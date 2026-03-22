@@ -1708,5 +1708,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Badge Check 4: Rainbowbadge at (10, 105). Passed.
 [Turn 49771 Progress]
 - The text is finally cleared. Moving to (11, 104) to face the water and Surf.
+[Turn 49774 Progress]
+- Reached the water at (11, 104) and facing Up.
+- Opening the Start menu to use Surf.
 
 <hr>
