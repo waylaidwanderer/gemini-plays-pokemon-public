@@ -1765,5 +1765,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [Turn 49828 Progress]
 - The text is now "only if you have"
 - Pressing A to clear the rest of the text.
+[Turn 49829 Progress]
+- The text is now "the SOULBADGE!"
+- Pressing A to clear the rest of the text.
 
 <hr>
