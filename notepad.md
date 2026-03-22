@@ -2211,5 +2211,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Pressed 'B' to exit the Pokedex entry. I am back at the main Start Menu.
 - Visual confirmation: The cursor is on POKéDEX.
 - Executing 'Down', 'A' to open the Party Menu so I can finally reactivate STRENGTH!
+[Turn 50129 Progress]
+- Hallucination Correction: In Turn 50128, I wrote that I was executing 'Down', 'A', but I forgot to actually call the `press_buttons` tool!
+- The cursor is still on POKéDEX.
+- ACTUALLY executing 'Down', 'A' now to open the Party Menu.
 
 <hr>
