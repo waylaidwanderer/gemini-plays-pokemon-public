@@ -37,3 +37,10 @@
 - Pressed 'A' to select it.
 - Menu options are USE and TOSS. The cursor is on USE.
 - Next step: Press 'A' to USE, then select HYDRO (index 1).
+[Turn 49918 Hallucination Correction]
+- I completely hallucinated which item I selected!
+- In Turn 49916, my movement sequence was just "A, A".
+- Because the cursor was actually on ESCAPE ROPE (index 5) when I opened the menu, not BICYCLE (index 4), my 5 Down presses in Turn 49915 actually landed on MAX REVIVE (index 10), not HYPER POTION (index 9).
+- I then selected MAX REVIVE and tried to use it on Hydro, who is alive but at low HP.
+- This produced the "It won't have any effect." message.
+- I need to press B to back out of the party screen, then move Up once to select HYPER POTION.
