@@ -1687,3 +1687,13 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Moving North to the next map/section.
 
 <hr>
+
+<h1><code>Locations/Route23</code></h1>
+
+# Route 23
+- Map ID: 0_34
+- This route consists of sequential Badge Checks to reach Victory Road.
+- Badge Check 1: Boulderbadge (Passed in Reception Gate 0_193)
+- Badge Check 2: Cascadebadge at (7, 135).
+
+<hr>
