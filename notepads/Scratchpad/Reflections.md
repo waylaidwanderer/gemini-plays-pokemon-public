@@ -13,3 +13,6 @@
 - If we use the Central Switch at (18, 25) to change to State A, the (16, 16) doors close and trap us.
 - THE SOLUTION: Walk North through the open (16, 16) doors while in State B. Navigate to the B1F North-East area. There is a SECOND switch statue at B1F (18, 3)!
 - Toggle the B1F (18, 3) switch to State A. This will close the (16, 16) doors behind us, but we are already North of them! And it will OPEN the X=9 doors, granting access to the NW area and the Secret Key!
+[Turn 48551 Reflection]
+- Reflecting on the last 50 turns: I identified a major flaw in my B1F navigation logic and corrected it. The central switch is a red herring trap for reaching the Secret Key. I now have a solid plan: use the 3F pit at (16, 14) to reach B1F in State B, navigate North through the open central doors to the NE area, and use the SECOND switch at B1F (18, 3) to open the NW doors.
+- My notepads are fully updated with this verified logic. My goal is extremely clear: execute this plan. I am currently heading back into the Mansion to do exactly that.
