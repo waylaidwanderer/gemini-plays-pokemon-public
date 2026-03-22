@@ -42,3 +42,21 @@
 - The intermediate states show I moved down twice to STRENGTH and pressed A.
 - The current screen shows "CLEO used STRENGTH"
 - Pressing A to clear this text and return to the overworld so I can push the boulder!
+[Turn 50022 Progress]
+- CRITICAL ERROR: My 'move_sequence' command `LUURR` in Turn 50019 failed. I moved Left, Up, Up, but then bumped into the boulder at (5, 14) when I tried to move Right. I pushed it to (6, 14)!
+- Then in Turn 50020, I commanded `Down`, expecting to be at (5, 14) above the boulder. But I was actually at (5, 14) *next to nothing*, and the boulder was at (6, 14).
+- My `Down` command just moved me to (5, 15).
+- The boulder is now at (6, 14). I cannot push it Down to (6, 16) because there is a rock at (6, 15).
+- I have softlocked the puzzle AGAIN because I did not visually verify my position after a long movement sequence before pushing the boulder!
+- I must exit the cave to Route 23 to reset the boulder, and this time I will NOT use a 5-step movement macro near a puzzle element. I will move ONE tile at a time to get into position.
+- Path to exit: Down to (5, 16), Right to (8, 16), Down to (8, 17), Down to exit.
+- Executing: Down, Right, Right, Right, Down, Down.
+[Turn 50023 Progress]
+- Hallucination Correction: In Turn 50021, I executed `DRRRDD` from (5, 15).
+- But my position was actually (5, 14)! I misreported it again.
+- Because I was at (5, 14), `Down` moved me to (5, 15). Then `Right` bumped into the boulder at (6, 15) and visited 0 tiles.
+- The boulder is at (6, 15), not (6, 14).
+- I am at (5, 14).
+- I need to exit to Route 23.
+- Path: Down to (5, 15), Down to (5, 16), Right to (8, 16), Down to (8, 17), Down to exit.
+- Executing: Down, Down, Right, Right, Right, Down, Down.

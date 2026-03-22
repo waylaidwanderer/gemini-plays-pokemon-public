@@ -1844,5 +1844,14 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - I must exit the cave to Route 23 to reset the boulder, and this time I will NOT use a 5-step movement macro near a puzzle element. I will move ONE tile at a time to get into position.
 - Path to exit: Down to (5, 16), Right to (8, 16), Down to (8, 17), Down to exit.
 - Executing: Down, Right, Right, Right, Down, Down.
+[Turn 50023 Progress]
+- Hallucination Correction: In Turn 50021, I executed `DRRRDD` from (5, 15).
+- But my position was actually (5, 14)! I misreported it again.
+- Because I was at (5, 14), `Down` moved me to (5, 15). Then `Right` bumped into the boulder at (6, 15) and visited 0 tiles.
+- The boulder is at (6, 15), not (6, 14).
+- I am at (5, 14).
+- I need to exit to Route 23.
+- Path: Down to (5, 15), Down to (5, 16), Right to (8, 16), Down to (8, 17), Down to exit.
+- Executing: Down, Down, Right, Right, Right, Down, Down.
 
 <hr>
