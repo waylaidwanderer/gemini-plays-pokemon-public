@@ -2192,5 +2192,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - The boulder is safely at (9, 16). Step 3 is complete.
 - STRENGTH is deactivated due to the battle.
 - Pressing 'Start' to open the menu and reactivate STRENGTH.
+[Turn 50122 Progress]
+- The Start Menu is open.
+- The cursor is on POKéMON.
+- Pressing 'A' to open the Party Menu so I can reactivate STRENGTH.
 
 <hr>
