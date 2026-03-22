@@ -309,3 +309,9 @@
 - Wait, the screenshot shows "Wild MACHOKE appeared!"
 - I need to clear the intro text and run.
 - The boulder is at (7, 16). I still need to push it Right to (9, 16).
+[Turn 50090 Progress]
+- The `RRRR` push sequence in Turn 50089 was aborted on the 3rd input due to a wild Machoke encounter!
+- Intermediate states show the boulder moved from (5, 16) to (6, 16), then (6, 16) to (7, 16).
+- Current player position is (6, 16). Boulder is at (7, 16).
+- "Wild MACHOKE appeared!" text is on screen.
+- Pressing 'A' to clear it so I can run.
