@@ -1477,14 +1477,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - 1F Central Doors at (16, 7) lead to a dead-end hallway from Y=8 to Y=13. It is blocked at Y=13 by a solid wall. It DOES NOT connect to the 3F pit landing area (which is at 16, 14).
 - 3F East side (X=16, 17) is blocked from going South by a solid horizontal wall of rubble at Y=9. The pit is South of Y=11. So you CANNOT reach the pit from the East side via the doors at (15, 4). This path is a dead end.
 - 3F West Wing (West of X=9) is ACCESSIBLE. I previously hallucinated it was blocked. I must thoroughly search this area (especially South of Y=10) for the true pit that drops into the B1F Secret Key room!
-[THE TRUE MASTER PLAN - THE FAR EAST CORRIDOR]
-- The 2F (6, 1) stairs just lead back to the main 3F area. There is NO second pit.
-- We MUST use the 3F pit at (16, 14), which requires the Mansion to be in State B.
-- Therefore, we ALWAYS arrive on B1F in State B.
-- In State B, the Far East doors at (26, 17) are CLOSED.
-- To open them, we must toggle the B1F Central Switch (18, 25) to State A.
-- I previously thought toggling this trapped the player in the South room because the doors at (16, 16) close. BUT the doors at (18, 16) OPEN in State A!
-- We can simply walk North through (18, 16) to escape the switch room, then walk East to the Far East Corridor, where the doors at (26, 17) will finally be OPEN!
 - Diary located at 1F (18, 2): "Diary: July 5. Guyana, South America. A new POKEMON was discovered deep in the jungle."
 - Burglar trainer at (16, 22), facing Right. His line of sight covers Y=22.
 - B1F NE Area: The switch statue is at (18, 3) and must be interacted with from (18, 4). There is a long horizontal table at Y=5 blocking access from Y=6. You must go around the table on the East side (around X=25/X=26) to reach the Y=4 hallway.
@@ -1493,18 +1485,15 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 
 <h1><code>Scratchpad/Reflections</code></h1>
 
-[THE TRUE MASTER PLAN - THE FAR EAST CORRIDOR]
-- Hypothesis: The B1F Far East doors at (26, 17) are OPEN in State A. My previous conclusion that they are closed in both states was a hallucination/false assumption.
-- The route to the Secret Key relies on toggling B1F to State A, accepting the closure of the central doors, and using the Far East doors as the bypass to the North!
+[THE FAR EAST CORRIDOR HYPOTHESIS]
+- Hypothesis: The B1F Far East doors at (26, 17) are OPEN in State A. My previous conclusion that they are closed in both states was likely a hallucination from testing them in State B multiple times.
+- The route to the Secret Key relies on toggling B1F to State A and using the Far East doors as the bypass to the North!
 
 Execution Steps:
-1. Toggle 3F switch at (10, 4) to STATE B.
-2. Drop down 3F pit at (16, 14). Arrive on B1F in State B.
-3. Walk to B1F Central Switch at (18, 25) and toggle to STATE A.
-4. Walk East to (26, 18). The doors at (26, 17) should be OPEN!
-5. Walk North up X=26/27 to Y=4.
-6. Walk West to X=10, then South to Y=7.
-7. Walk West through the doors at (9, 7) (which are OPEN in State A).
-8. Arrive at Secret Key switch (7, 15)!
+1. Travel to B1F. Arrive in State B.
+2. Walk to B1F Central Switch at (18, 25) and toggle to STATE A.
+3. Walk North through (18, 16) to escape the switch room (assuming these doors open in State A).
+4. Walk East to (26, 18). Test the doors at (26, 17).
+5. If OPEN, proceed North to B1F NE Area and toggle the switch at (18, 3) to STATE B to open the doors to the Secret Key.
 
 <hr>
