@@ -60,3 +60,7 @@
 - I need to exit to Route 23.
 - Path: Down to (5, 15), Down to (5, 16), Right to (8, 16), Down to (8, 17), Down to exit.
 - Executing: Down, Down, Right, Right, Right, Down, Down.
+[Turn 50024 Progress]
+- My movement sequence to exit the cave was interrupted on the FIRST step (`Down`) by a wild Machop encounter at (5, 14).
+- The text "Wild MACHOP appeared!" is on screen.
+- Pressing 'A' to advance the intro text so I can run.
