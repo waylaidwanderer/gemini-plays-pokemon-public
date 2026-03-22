@@ -72,4 +72,4 @@
 - The water path ends at Y=72. Make landfall at X=8, Y=71.
 - Continuing North from Y=68 through the grass to find the 7th Badge Check.
 - At Y=65, the path North is blocked by rocks at X=8 and X=9. Move East to X=10 to bypass.
-- Badge Check 7: Volcano Badge check guard at (10, 56).
+- Badge Check 7: Volcano Badge at (10, 56). Passed.
