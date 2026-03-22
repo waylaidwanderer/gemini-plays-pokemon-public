@@ -86,6 +86,7 @@
 [Turn 50059 Reflection]
 - 50-Turn Review: The last 50 turns were spent executing the true solution for the first boulder puzzle in Victory Road. Progress was severely delayed by UI hallucinations (failing to account for Start Menu cursor memory, leading to accidental saves) and an extremely high encounter rate interrupting movement macros.
 - Correction: I am now strictly verifying the cursor position before pressing 'A' in menus. Furthermore, because my pushing macro was just interrupted by a wild encounter, I MUST visually confirm the boulder's exact position on the grid once back in the overworld before sending any more push commands.
+- [Gen 1 Mechanics] CRITICAL DISCOVERY: Wild encounters RESET all boulder positions in the current map! You must complete boulder puzzles without encountering any wild Pokemon. If an encounter occurs, the puzzle is completely reset.
 
 <hr>
 
@@ -1807,8 +1808,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   6. Walk to (16, 15) via (15, 15). Push boulder UP to (16, 12).
   7. Walk to (15, 12) via (14, 14) -> (14, 12). Push boulder RIGHT to (17, 12).
   8. Walk to (17, 11) via (16, 11). Push boulder DOWN to switch at (17, 13).
-- Player is at (8, 16).
-- Current puzzle state: Step 3 complete. Step 4: Walk to (9, 17) and push boulder UP to (9, 14).
+- Player is at (9, 14).
+- Current puzzle state: Boulder RESET by wild encounter. Returning to (5, 14) to restart the puzzle.
 [Turn 50013 Progress]
 - The Start menu is open. The cursor is on EXIT.
 - The Start menu wraps. Pressing Down twice should wrap to POKéDEX, then move to POKéMON.
