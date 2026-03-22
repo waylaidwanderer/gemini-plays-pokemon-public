@@ -10,4 +10,4 @@
 - But the main 3F pit at (16, 14) is blocked in State A.
 - Therefore, there MUST be a second pit on 3F!
 - The most likely location is the unexplored 3F West Wing (South of Y=2).
-- Plan: Toggle B1F back to State B, use Dig to escape, re-enter, set Mansion to State A via 1F/3F switch, and thoroughly search the 3F West Wing for a pit!
+- Plan: Toggle B1F back to State B, use Dig to escape, re-enter, set Mansion to State A via 1F/3F switch, and thoroughly search the 3F West Wing for a pit! (Specifically South of Y=2, which I never walked down!)
