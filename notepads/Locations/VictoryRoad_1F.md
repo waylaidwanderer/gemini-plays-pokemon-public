@@ -222,3 +222,16 @@
 - Re-confirmed: Boulder is safely at (5, 15).
 - My `DRUUU` sequence in Turn 50068 correctly brought me to (9, 14).
 - I am executing `DDLLLLLUUR` to navigate back to (5, 14) safely without touching the boulder.
+[Turn 50074 Progress]
+- The Start menu is open.
+- The cursor is currently on EXIT.
+- My `Mechanics/UI` notepad states the overworld Start Menu does NOT wrap downward, but it DOES wrap upward (pressing Up at the top wraps to the bottom).
+- Wait, let me re-read my own notes: "The Start Menu WRAPS! Mashing 'Up' does not guarantee index 1."
+- Let me look at the screen. The cursor is on EXIT.
+- To get to POKéMON, I will just press 'Up' four times: OPTION -> SAVE -> GEM -> ITEM -> POKéMON.
+- Wait, I'll just press Up 5 times to be safe, then press A.
+- Actually, looking at Turn 50036's intermediate states, when I pressed 'Up' 5 times from SAVE, I ended up at EXIT!
+- This means the Start Menu DOES wrap upwards! (POKéDEX -> EXIT).
+- Okay, let's just do exactly what I see. Cursor is on EXIT (index 7). POKéMON is index 2.
+- I need to press 'Up' 5 times: EXIT -> OPTION -> SAVE -> GEM -> ITEM -> POKéMON.
+- Let's execute Up x5, then A.
