@@ -1867,5 +1867,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - I am back at the Start Menu.
 - Visual confirmation: The cursor is currently on POKéDEX.
 - Executing a single 'Down' press to move the cursor to POKéMON.
+[Turn 50151 Progress]
+- Executed 'Down'.
+- Visual confirmation: The cursor is now on POKéMON.
+- Executing a single 'A' press to open the Party Menu.
 
 <hr>
