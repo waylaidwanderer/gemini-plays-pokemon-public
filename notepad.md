@@ -1816,5 +1816,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Overwatch critique received and acknowledged. I am completely abandoning multi-step menu macros and tools like `use_hm_field` for now. I will navigate menus ONE button press at a time, visually verifying the cursor position after each step to account for cursor memory and animation delays.
 - The Start menu is open. Visual confirmation: the cursor is on POKéMON.
 - Pressing 'A' to open the Party Menu. Next turn I will WAIT and visually verify the cursor position before moving it.
+[Turn 50134 Progress]
+- The Party Menu opened.
+- Visual confirmation: The cursor is on CLEO (index 2) due to cursor memory!
+- Pressing 'A' to open CLEO's sub-menu.
 
 <hr>
