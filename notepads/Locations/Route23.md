@@ -37,3 +37,6 @@
 [Turn 49786 Progress]
 - Successfully exited the Pokedex and returned to the overworld.
 - Now I will carefully press Start, then Down, then A to open the Pokemon menu.
+[Turn 49787 Progress]
+- The Start menu is open. The cursor is on POKéDEX.
+- Now using my custom tool `move_sequence` to press Down and A to select POKéMON.
