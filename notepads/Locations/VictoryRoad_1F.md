@@ -26,3 +26,9 @@
 - Cleaned up the notepad and backed out of all menus.
 - Currently at (4, 16) in the overworld.
 - Resuming path to the boulder: Walk North to Y=14, then East to (5, 14).
+[Turn 49928 Hallucination Correction]
+- Once again, I hallucinated my state!
+- In Turn 49926, the first 'B' press closed the "HYDRO's HP was restored" text box, returning me to the party menu.
+- The second 'B' press backed out of the party menu, returning me to the START menu, NOT the overworld!
+- I am currently looking at the START menu.
+- I need to press 'B' one more time to exit to the overworld.
