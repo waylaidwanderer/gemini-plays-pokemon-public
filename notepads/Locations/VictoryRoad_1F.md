@@ -83,3 +83,8 @@
 - The `DDAA` sequence in Turn 49940 navigated the Pokedex and opened the entry for Venusaur.
 - I am currently looking at the Pokedex entry for Venusaur.
 - I need to press B twice to back out to the Start Menu, then move the cursor to ITEM and open it.
+[Turn 49943 Progress]
+- Backed out of the Pokedex.
+- Start menu is open.
+- The cursor is currently on POKEDEX (index 1).
+- I need to press DOWN twice to reach ITEM (index 3), then press A.
