@@ -15,3 +15,4 @@
 [Turn 50325 Progress] Battle intro text advanced. Using `run_battle` to escape the Cooltrainer!
 [Turn 50326 Progress] Escaped the Cooltrainer! I am now at (6, 11). The path North is open. Continuing North to explore the rest of the raised platform.
 [Turn 50330 Progress] Reached (6, 9). The path North is blocked by a wall at (6, 8). I need to step Right to X=7, then walk North to battle the Cooltrainer at (7, 5).
+[Turn 50331 Progress] Reached (7, 9). I will walk Up to (7, 5) to battle the Cooltrainer.
