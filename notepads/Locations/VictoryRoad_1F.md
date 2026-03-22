@@ -44,3 +44,9 @@
 - I then selected MAX REVIVE and tried to use it on Hydro, who is alive but at low HP.
 - This produced the "It won't have any effect." message.
 - I need to press B to back out of the party screen, then move Up once to select HYPER POTION.
+[Turn 49919 Progress]
+- Reached the party screen.
+- Used HYPER POTION on HYDRO.
+- HYDRO's HP was restored!
+- The cursor is still on HYDRO (index 1).
+- Pressing B to exit back to the overworld.
