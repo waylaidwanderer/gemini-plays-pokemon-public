@@ -1732,5 +1732,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [Turn 49784 Progress]
 - Exited the Pokedex.
 - Pressing Start, Down, A to open the POKéMON menu.
+[Turn 49786 Progress]
+- Successfully exited the Pokedex and returned to the overworld.
+- Now I will carefully press Start, then Down, then A to open the Pokemon menu.
 
 <hr>
