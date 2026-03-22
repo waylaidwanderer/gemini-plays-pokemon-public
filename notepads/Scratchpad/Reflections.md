@@ -1,12 +1,9 @@
-[THE MASTER SOLUTION]
-1. My door state notes were backwards. 3F Southern doors (15, 10) are CLOSED in State B, so they are OPEN in State A.
-2. In State A, the B1F Far East doors (26, 17) are CLOSED, but the Secret Key doors (9, 7) are OPEN.
-3. THE ELEGANT TRUTH: State A is all you need!
-   - 3F Southern doors (15, 10) OPEN -> Grants access to the main pit at (16, 14).
-   - B1F Secret Key doors (9, 7) OPEN -> Grants access to the key.
-4. THE ROUTE:
-   - Toggle 3F Switch at (10, 4) to STATE A (Press YES).
-   - Walk South through OPEN 3F Southern doors at (15, 10) and drop down the pit at (16, 14).
-   - Arrive at B1F (23, 22). Walk North to Y=14, West to X=10, North to Y=7.
-   - Walk West through OPEN Secret Key doors at (9, 7).
-   - Claim the Secret Key! No B1F switches required!
+[THE TRUE MASTER PUZZLE]
+1. 3F has TWO pits. The main pit (16, 14) is a DEAD END. You land in B1F State A, where Y=8 is a solid table blocking the Secret Key, and Far East doors are closed.
+2. The Second Pit is hidden in the SW area of 3F (West of X=13, South of Y=8). I abandoned my search too early!
+3. Drop down Second Pit -> land in isolated B1F NW section.
+4. Toggle B1F West Switch (7, 15) to State B.
+5. State B opens doors at X=9! Escape East into B1F Main Hallway.
+6. In State B, Far East doors (26, 17) are OPEN. Walk through them to NE Area.
+7. Toggle NE Switch (18, 3) to State A.
+8. State A closes Far East doors, but opens Secret Key doors (9, 7). Walk West and claim the Key!
