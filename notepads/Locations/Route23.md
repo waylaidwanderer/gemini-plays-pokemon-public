@@ -9,3 +9,5 @@
 [Turn 49704 Progress Update]
 - Navigating the dirt path at X=9 to bypass the water at Y=129.
 - The path continues North. I will keep walking North to the next Badge Check.
+[Turn 49705 Progress]
+- Walking North on the dirt path at X=9.
