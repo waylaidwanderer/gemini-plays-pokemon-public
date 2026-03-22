@@ -50,3 +50,7 @@
   4. Walk East along Y=10 to (11, 10).
   5. Walk North through the hidden gap in the ledge at (11, 9).
   6. Walk West to X=8, then North to enter the Reception Gate at (8, 5)!
+[Turn 49689 Reception Gate]
+- Arrived at Reception Gate (Map 0_193).
+- Walking North to Y=2 automatically triggers the Boulderbadge check. The guard says "Go right ahead!"
+- I will continue North through the door.
