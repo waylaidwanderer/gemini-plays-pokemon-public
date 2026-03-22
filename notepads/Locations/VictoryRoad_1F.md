@@ -94,3 +94,6 @@
 - Hallucination Correction: In Turn 50031, I thought the cursor was on POKéMON, but it was still on SAVE from earlier (cursor memory).
 - Pressing 'A' opened the Save prompt again!
 - Pressing 'B' to cancel the save prompt. This will likely close the Start Menu entirely.
+[Turn 50034 Progress]
+- The Start menu is now completely closed, and I am back in the overworld at (5, 14).
+- Pressing 'Start' to open the menu again so I can navigate to POKéMON.
