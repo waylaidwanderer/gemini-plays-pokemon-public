@@ -12,6 +12,4 @@
 - The most likely location is the unexplored 3F West Wing.
 - I prematurely abandoned my search of the 3F West Wing in Turn 48346 after walking along Y=2 and seeing it connects to the main area. I FAILED to explore the massive space South of Y=2 on the West side (X=1 to X=8)!
 - Plan: Toggle B1F back to State B, use Dig to escape, re-enter, set Mansion to State A via 1F/3F switch, and systematically map the ENTIRE 3F West Wing!
-[Turn 48396] Started the "Search for Second Pit" plan. Exiting Pokemon Center to return to the Mansion.
-[Turn 48402] Accidentally bumped into the locked Cinnabar Gym door at (18, 3). Navigating to the Mansion at (6, 3) via the Y=4 corridor.
-[Turn 48419] Explored 3F West Wing North. Y=6 is completely blocked by solid rubble from X=1 to X=9. There is no path South from the North-West area. I will now navigate to the Central South area via X=13/X=14 to explore the South-West.
+- 3F West Wing North is definitively blocked from going South by solid rubble at Y=6 (from X=1 to X=9). Must access South-West area via the Central South corridor (X=13/14).
