@@ -1741,5 +1741,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Reached (11, 98).
 - Spotted the 5th Badge Check guard at (11, 96).
 - Moving Up to (11, 97) to trigger his text.
+[Turn 49821 Progress]
+- Reached the 5th Badge Check at (11, 96).
+- The guard is at (11, 96), I am at (11, 98).
+- I will press Up to move to (11, 97) and trigger the guard.
 
 <hr>
