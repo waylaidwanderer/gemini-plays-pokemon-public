@@ -727,6 +727,7 @@ Points of Interest:
 - Gyarados Lv 45
 - Growlithe Lv 47
 - Alakazam Lv 50
+- Venusaur Lv ??
 
 <hr>
 
