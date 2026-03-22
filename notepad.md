@@ -1963,5 +1963,10 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [Turn 50053 Progress]
 - Cleared the wild Zubat. Text "Got away safely!" is on screen.
 - Pressing 'A' to clear the text and return to the overworld view so I can execute Step 3.
+[Turn 50054 Progress]
+- The text is fully cleared!
+- I am at (5, 14). The boulder is at (5, 16).
+- Resuming Step 3: Walk to (4, 16) and push boulder RIGHT to (9, 16).
+- Executing: Left to (4, 15), Down to (4, 16).
 
 <hr>
