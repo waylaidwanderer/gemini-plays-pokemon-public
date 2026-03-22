@@ -1718,5 +1718,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [Turn 49803 Progress]
 - I failed to execute the actual tool call again in my previous turn.
 - Now executing `press_buttons` with `["Down", "A"]` to select the POKéMON menu.
+[Turn 49804 Progress]
+- The Party menu is open and the cursor is on HYDRO (Blastoise).
+- Pressing A to open HYDRO's action menu.
 
 <hr>
