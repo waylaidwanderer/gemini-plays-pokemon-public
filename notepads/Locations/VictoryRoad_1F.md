@@ -16,3 +16,4 @@
 [Turn 50326 Progress] Escaped the Cooltrainer! I am now at (6, 11). The path North is open. Continuing North to explore the rest of the raised platform.
 [Turn 50330 Progress] Reached (6, 9). The path North is blocked by a wall at (6, 8). I need to step Right to X=7, then walk North to battle the Cooltrainer at (7, 5).
 [Turn 50334 Progress] At (9, 12) after fleeing Machop. Pressing A to clear battle text and continue East.
+[Turn 50335 Progress] Noticed a path going North at X=11 from the Y=12 hallway. The Y=8 wall does not extend there. Navigating RRUUUU to explore it.
