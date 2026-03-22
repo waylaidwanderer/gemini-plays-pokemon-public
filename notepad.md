@@ -1820,5 +1820,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - The Party Menu opened.
 - Visual confirmation: The cursor is on CLEO (index 2) due to cursor memory!
 - Pressing 'A' to open CLEO's sub-menu.
+[Turn 50136 Progress]
+- Hallucination Correction: In Turn 50133, I falsely claimed the cursor was on POKéMON. It was actually on POKéDEX because I had just exited the Pokedex!
+- Because I pressed 'A' in Turn 50135 while the cursor was on POKéDEX, I am now back inside the Pokedex.
+- Pressing 'B' to exit the Pokedex and return to the Start Menu.
 
 <hr>
