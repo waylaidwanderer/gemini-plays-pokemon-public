@@ -1778,6 +1778,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - At Y=65, the path North is blocked by rocks at X=8 and X=9. Move East to X=10 to bypass.
 - Badge Check 7: Volcano Badge at (10, 56). Passed.
 - At Y=56, the path North is along X=12. Move East to X=12 to bypass the rocks at X=10/X=11.
-- At Y=44, the path North is blocked by water at Y=43. Must use Surf.
+- At Y=44, the path North is blocked by a South-facing ledge at Y=43. Searching for a way around.
 
 <hr>
