@@ -17,3 +17,8 @@
 - Opened the ITEM menu.
 - The cursor is currently at the top of the visible list (index 6: LEMONADE).
 - To reach HYPER POTION (index 9), I need to press DOWN 3 times.
+[Turn 49926 Progress]
+- Used HYPER POTION on HYDRO.
+- HYDRO's HP was restored from 14 to 198.
+- The cursor is still on HYDRO (index 1) in the party menu.
+- Pressing B to exit the party menu, then B again to exit the Start menu to the overworld.
