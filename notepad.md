@@ -1481,6 +1481,18 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Burglar trainer at (16, 22), facing Right. His line of sight covers Y=22.
 - B1F NE Area: The switch statue is at (20, 3) and must be interacted with from (20, 4). There is a long horizontal table at Y=5 blocking access from Y=6. You must go around the table on the East side (around X=25/X=26) to reach the Y=4 hallway.
 - Enclosed 1F Area Navigation: To reach the B1F stairs at (21, 23) after dropping from the 3F pit, walk West to X=13, then South. The path East is blocked by walls and bushes at X=14/X=18.
+[TRUE SECRET KEY ROUTE]
+1. Enter Mansion, head to 3F (requires toggling State A at 1F or 3F if doors are closed).
+2. Arrive at 3F in State A (doors at X=15 open, switch at 10,4).
+3. Toggle 3F switch (10, 4) to State B.
+4. Drop down the right-side pit at (16, 14) or (17, 14).
+5. Land in enclosed 1F area. Take stairs at (23, 22) down to B1F.
+6. Arrive at B1F in State B. The Central doors at (16, 16) are OPEN.
+7. Walk South through Central doors to the switch at (18, 25).
+8. Toggle switch to State A. This opens the doors at (13, 22).
+9. Walk West through (13, 22) into the SW loop. Follow it to the switch at (7, 15).
+10. Toggle switch back to State B. This opens the doors at X=9!
+11. Walk East and pass through X=9 to claim the Secret Key!
 
 <hr>
 
