@@ -11,5 +11,5 @@
   6. Walk to (16, 15) via (15, 15). Push boulder UP to (16, 12).
   7. Walk to (15, 12) via (14, 14) -> (14, 12). Push boulder RIGHT to (17, 12).
   8. Walk to (17, 11) via (16, 11). Push boulder DOWN to switch at (17, 13).
-- Current Status: PUZZLE SOLVED! Boulder is on the switch at (17, 13). Navigating to stairs at (15, 7).
-[Turn 50317 Progress] Cleared the 'Got away safely!' text. At (5, 16). Navigating to stairs at (5, 13) via (5, 16) -> (5, 13).
+- Current Status: PUZZLE SOLVED! Boulder is on the switch at (17, 13). Navigating to stairs at (5, 13).
+[Turn 50318 Progress] Cleared wild encounter. At (5, 16). Executing `move_sequence` UUU to climb the stairs at (5, 13).
