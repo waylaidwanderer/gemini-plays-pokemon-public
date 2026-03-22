@@ -1489,7 +1489,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [Visual Door Indicators]
 - Yellow stripes on the floor (e.g., TYPE_a83b) indicate an electronic door is CLOSED.
 - Floor tiles without stripes indicate the door is OPEN.
-- CRITICAL: We MUST arrive at B1F in State B to execute the master plan.
+- CRITICAL: We MUST arrive at B1F in State B to drop down the 3F pit.
 
 [THE SW LOOP IS A TRAP]
 - The wall at Y=8 is completely solid from X=6 to X=15.
@@ -1498,12 +1498,12 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - The Central Switch at (18, 25) only grants access to this dead end. It is a RED HERRING.
 
 [THE ACTUAL B1F MASTER PLAN]
-1. Arrive at B1F in State B.
-2. Walk North through the OPEN Central doors at (16, 16) to Y=14.
-3. Walk East to X=24, then navigate North to the NE Area.
-4. From the NE Area, approach the X=9 vertical doors from the North side of the Y=8 wall.
-5. Find the open door at X=9 (likely at Y=4 or Y=6/7 depending on the toggle state).
-6. If the door is closed, use the NE Switch at (20, 3) to toggle it.
+1. Arrive at B1F (23, 22) in State B.
+2. Walk North to Y=14, then West to (16, 14) (North of the Central Doors).
+3. We are now in the Central/East area North of the Central doors.
+4. We must find a way North to the NE Switch at (20, 3).
+5. The wall at Y=8 blocks X=12 to X=21. We must explore X=22 to X=27 at Y=8 to find a gap!
+6. If we reach the NE Switch, toggle it to State A to open the X=9 doors!
 7. Pass through the X=9 doors to reach the Secret Key in the NW Area!
 
 <hr>
