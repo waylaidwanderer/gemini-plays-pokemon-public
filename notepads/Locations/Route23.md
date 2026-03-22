@@ -48,3 +48,14 @@
 - The path North at Y=103 is completely blocked by water (TYPE_4e8c) from X=10 to at least X=15.
 - There are no ledges blocking the water, so this must be a Surf section.
 - I will walk Up to (10, 104), face Up, and use Surf.
+[Turn 49763 Progress]
+- I pressed Up at (10, 105) and bumped into the guard at (10, 104), triggering his "go right ahead!" text again.
+- The path North is at X=11, between the two guards at (10, 104) and (12, 104).
+- Pressing A to clear the text.
+[Turn 49764 Progress]
+- The text box "OK then! Please, go right ahead!" is STILL on the screen.
+- My previous movement inputs were eaten because I didn't clear the final text box.
+- Pressing B to clear it.
+[Turn 49765 Progress]
+- The text is finally clear.
+- Moving Right to X=11, then Up to (11, 104) to face the water.

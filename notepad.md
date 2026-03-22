@@ -1754,5 +1754,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - The text box "OK then! Please, go right ahead!" is STILL on the screen.
 - My previous movement inputs were eaten because I didn't clear the final text box.
 - Pressing B to clear it.
+[Turn 49765 Progress]
+- The text is finally clear.
+- Moving Right to X=11, then Up to (11, 104) to face the water.
 
 <hr>
