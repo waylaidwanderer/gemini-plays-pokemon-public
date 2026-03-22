@@ -12,3 +12,4 @@
    - Walk North through OPEN Far East doors (26, 17).
    - Walk West along Y=4 all the way to X=9.
    - Walk South to OPEN Secret Key doors (9, 7) and claim the key! No B1F switches required!
+- Turn 47963: I walked North on X=24 and hit a solid wall at Y=8. I also observed that the Far East doors at (26, 17) are CLOSED right now. Since I toggled the 3F switch, I must be in State A. This means Far East doors are CLOSED in State A. I am abandoning the Far East route for now and walking West along the main Y=14 hallway to see if I can reach the Secret Key doors at (9, 7) directly!
