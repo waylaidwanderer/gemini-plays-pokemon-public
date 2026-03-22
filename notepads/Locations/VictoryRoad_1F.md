@@ -11,5 +11,4 @@
   6. Walk to (16, 15) via (15, 15). Push boulder UP to (16, 12).
   7. Walk to (15, 12) via (14, 14) -> (14, 12). Push boulder RIGHT to (17, 12).
   8. Walk to (17, 11) via (16, 11). Push boulder DOWN to switch at (17, 13).
-- Current puzzle state: PUZZLE SOLVED! Boulder is on the switch at (17, 13).
-[Turn 50310 Progress] Back in the overworld after the Onix encounter! STRENGTH deactivated again. Need to reactivate it. Pressing Start to open the menu.
+- Current Status: PUZZLE SOLVED! Boulder is on the switch at (17, 13). Navigating to stairs at (15, 7).
