@@ -1811,5 +1811,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Hallucination Correction: My tool sequence `DDDAA` in Turn 49955 went too far down.
 - I am currently looking at the `MAX REVIVE` item entry ("Use item on which POKéMON?") because I pressed Down 3 times from Lemonade (Lemonade -> Fresh Water -> Hyper Potion -> Max Revive).
 - I need to press B to exit the party menu, then move Up once to select HYPER POTION, then press A to use it.
+[Turn 49958 Progress]
+- The Start menu is OPEN.
+- The cursor is on ITEM (index 3).
+- Pressing 'A' to open the bag.
 
 <hr>
