@@ -1710,5 +1710,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Reached the 4th Badge Check at (10, 105).
 - Tried to walk Right towards the guard at (12, 105), which triggered a text box.
 - Pressing A to clear the text.
+[Turn 49745 Progress]
+- "You can pass here only if you have ▼"
+- Advancing the text to find out which badge is needed.
 
 <hr>
