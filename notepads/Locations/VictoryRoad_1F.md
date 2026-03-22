@@ -89,3 +89,8 @@
 [Turn 50004 Progress]
 - Cleared the wild Graveler. Text "Got away safely!" is on screen.
 - Pressing 'A' to clear the text and return to the overworld view.
+[Turn 50005 Progress]
+- I am at (13, 14).
+- Looking at the screen, there is an open path continuing Right along Y=14.
+- At X=16, the path opens up to the South.
+- I will move Right to (16, 14) and look around.
