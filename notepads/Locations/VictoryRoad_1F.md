@@ -34,3 +34,6 @@
 - Successfully navigated manually.
 - Visual confirmation: The cursor is on STRENGTH in Cleo's sub-menu.
 - Pressing 'A' to activate it!
+[Turn 49988 Progress]
+- "CLEO can move boulders." text is on screen.
+- Pressing 'A' to advance the text and return to the overworld so I can push the boulder.

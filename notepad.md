@@ -1823,5 +1823,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Successfully navigated manually.
 - Visual confirmation: The cursor is on STRENGTH in Cleo's sub-menu.
 - Pressing 'A' to activate it!
+[Turn 49988 Progress]
+- "CLEO can move boulders." text is on screen.
+- Pressing 'A' to advance the text and return to the overworld so I can push the boulder.
 
 <hr>
