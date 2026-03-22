@@ -274,3 +274,8 @@
 - Cleared the intro text.
 - The main battle menu is visible.
 - Using `run_battle` tool to escape the Zubat so I can continue Step 3.
+[Turn 50083 Progress]
+- The `run_battle` tool worked to escape the Zubat, but its extra inputs (`Right, Down`) executed in the overworld after escaping!
+- This immediately triggered ANOTHER wild encounter (a Machop) at (4, 15) just from turning in place!
+- The text "Wild MACHOP appeared!" is on screen.
+- Pressing 'A' to advance the text so the battle menu appears, and then I will run again.
