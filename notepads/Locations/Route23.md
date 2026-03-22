@@ -43,3 +43,6 @@
 [Turn 49788 Progress]
 - The cursor is successfully on POKéMON.
 - Pressing A to open the Party menu.
+[Turn 49789 Progress]
+- Realized the Start menu is closed because my previous inputs wrapped to EXIT.
+- Pressing Start to open the Start menu. I will visually verify the cursor position next turn before navigating to POKéMON.
