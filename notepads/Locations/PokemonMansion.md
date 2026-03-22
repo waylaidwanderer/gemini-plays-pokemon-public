@@ -117,7 +117,7 @@
 - 1F Central Doors at (16, 7) lead to a dead-end hallway from Y=8 to Y=13. It is blocked at Y=13 by a solid wall. It DOES NOT connect to the 3F pit landing area (which is at 16, 14).
 - 3F East side (X=16, 17) is blocked from going South by a solid horizontal wall of rubble at Y=9. The pit is South of Y=11. So you CANNOT reach the pit from the East side via the doors at (15, 4). This path is a dead end.
 - 3F West Wing (West of X=9) is ACCESSIBLE. I previously hallucinated it was blocked. I must thoroughly search this area (especially South of Y=10) for the true pit that drops into the B1F Secret Key room!
-[SECRET KEY PATH (THE AIRLOCK PUZZLE SOLUTION)]
+[SECRET KEY PATH (THE TRUE PATH - PREVIOUS AIRLOCK THEORY WAS WRONG! SEE SCRATCHPAD/REFLECTIONS)]
 - State A: Far East doors at (26, 17) CLOSED. Secret Key doors at (9, 7) OPEN.
 - State B: Far East doors at (26, 17) OPEN. Secret Key doors at (9, 7) CLOSED.
 - Current Status: Mansion is in State A (Central doors at 20,17 closed). I hallucinated my previous proof because I was in State A during Turn 47607 when I checked the doors.
