@@ -1858,5 +1858,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - In Turn 50145, I pressed 'A', which opened Ivysaur's Pokedex entry menu (DATA/CRY/AREA/QUIT).
 - I am currently looking at the Pokedex sub-menu for Ivysaur.
 - I will press 'B' to exit this sub-menu and return to the Pokedex list.
+[Turn 50149 Progress]
+- The 'B' press worked! I am out of the Ivysaur Pokedex entry sub-menu.
+- The Pokedex list is visible again.
+- Pressing 'B' again to exit the Pokedex entirely and return to the Start Menu.
 
 <hr>
