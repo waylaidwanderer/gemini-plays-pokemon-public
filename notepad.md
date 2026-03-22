@@ -1513,13 +1513,11 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Turn 47869: FINAL TRUTH. I walked North to (18, 20). The screen clearly shows (18, 16) and (19, 16) are SOLID WALLS (TYPE_2889). The Central Switch IS A TRAP. Toggling it to State A closes (16, 16) and traps you.
 THE AIRLOCK PUZZLE IS REAL: I tested the Far East doors (26, 17) previously while trapped in State A, not State B! The true route:
 1. Central Switch -> State B.
-2. Escape North through open doors at X=14/15.
-3. Walk to Far East doors at (26, 17) (MUST be open in State B).
-4. Walk North through them to reach the NE Switch.
-5. Toggle NE Switch to State A. This closes the Far East doors but OPENS the Secret Key doors at (9, 7)!
-6. Walk West to (9, 7) and claim the key!
-- Turn 47877 (50-Turn Reflection):
-  - Immediate Execution: Escaping the South room by zigzagging through the staggered tables.
-  - Error Analysis: The tables are staggered! Y=21 blocks X=16/17, so you must use X=14/15. Y=17 blocks X=14/15, so you must use X=16/17. The escape route is: Up X=15 to Y=18 -> Right to X=16 -> Up X=16 to Y=14. I am currently at (15, 18) and executing this now.
+2. Escape South room via staggered tables (Up X=15 to Y=18, Right to X=16, Up X=16 to Y=14).
+3. Walk East to X=24, South to Y=18, East to X=26.
+4. Walk North through the Far East doors at (26, 17) (MUST be open in State B).
+5. Walk North to reach the NE Switch.
+6. Toggle NE Switch to State A. This closes the Far East doors but OPENS the Secret Key doors at (9, 7)!
+7. Walk West to (9, 7) and claim the key!
 
 <hr>
