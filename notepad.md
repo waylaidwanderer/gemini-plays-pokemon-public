@@ -725,6 +725,7 @@ Points of Interest:
 - Pidgeot Lv 47
 - Rhyhorn Lv 45
 - Gyarados Lv 45
+- Growlithe Lv ??
 
 <hr>
 
