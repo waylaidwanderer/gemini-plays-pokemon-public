@@ -1819,5 +1819,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - I am now back at the Party menu root. The cursor is on HYDRO (index 1).
 - I need to manually move the cursor down to CLEO (index 2) and select STRENGTH (index 3).
 - Executing `Down`, `A` to select Cleo.
+[Turn 49987 Progress]
+- Successfully navigated manually.
+- Visual confirmation: The cursor is on STRENGTH in Cleo's sub-menu.
+- Pressing 'A' to activate it!
 
 <hr>
