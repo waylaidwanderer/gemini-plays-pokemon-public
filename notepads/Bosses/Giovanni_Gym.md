@@ -4,4 +4,4 @@
 - Nidoqueen Lv 44
 - Nidoking Lv ??? (Next)
 - Nidoking Lv 45
-- Rhydon Lv ??? (Next)
+- Rhydon Lv 50
