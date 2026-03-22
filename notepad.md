@@ -1820,5 +1820,10 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [Turn 50016 Progress]
 - The Start menu is open. The cursor is on POKéMON.
 - Pressing 'A' to open the Party menu.
+[Turn 50017 Progress]
+- The Party menu is open.
+- Visual confirmation: The cursor is on HYDRO (index 1).
+- I need to select CLEO (index 2), then select STRENGTH (index 3).
+- Executing 'Down', 'A' to select Cleo.
 
 <hr>
