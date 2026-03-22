@@ -1707,5 +1707,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - The path continues North. I will keep walking North to the next Badge Check.
 [Turn 49705 Progress]
 - Walked East to X=14 and walking North through the tall grass.
+[Turn 49711 Progress]
+- Continuing North through the tall grass on X=14.
 
 <hr>
