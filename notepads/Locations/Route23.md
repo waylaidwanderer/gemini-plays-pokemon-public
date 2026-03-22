@@ -63,3 +63,6 @@
 - Moving Right to X=11, then Up to face the water.
 [Turn 49767 Progress]
 - Moving Right to (11, 105), then Up to (11, 104).
+[Turn 49769 Progress]
+- Realized I haven't actually been pressing A or B to clear the text box; I only wrote it in my notes!
+- Pressing A to clear the "go right ahead!" text.
