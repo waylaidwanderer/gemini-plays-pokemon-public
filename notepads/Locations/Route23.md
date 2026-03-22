@@ -21,3 +21,6 @@
 [Turn 49778 Progress]
 - The Start menu is open, cursor on POKéDEX.
 - Pressing Down and A to open the POKéMON menu.
+[Turn 49779 Progress]
+- The cursor is on POKéMON.
+- Pressing A to select it.
