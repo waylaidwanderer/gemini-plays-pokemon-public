@@ -1756,5 +1756,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [Turn 49793 Progress]
 - The Start menu is STILL open. My previous 'A' press might have been eaten or I hallucinated its success.
 - Pressing A again to select POKéMON.
+[Turn 49794 Progress]
+- My previous input was just 'A' which opened the Pokedex again (since the cursor was on POKéDEX).
+- I need to press Down to select POKéMON, then A to open the Party menu.
+- Executing `move_sequence` "DA" to do exactly that.
 
 <hr>
