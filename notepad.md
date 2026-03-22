@@ -1774,5 +1774,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - I am still in the overworld and the menu is closed. All my inputs were either eaten, canceled, or I just kept writing them in the notepad without executing them.
 - The player is at (11, 104) facing Up towards the water.
 - I will press START to open the menu.
+[Turn 49799 Progress]
+- The Start menu is open. The cursor is on POKéDEX.
+- I will press Down to move to POKéMON, and then A to select it.
+- Executing `press_buttons` with `["Down", "A"]`.
 
 <hr>
