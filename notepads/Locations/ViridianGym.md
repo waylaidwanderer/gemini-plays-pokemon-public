@@ -11,3 +11,5 @@
 - (19, 11) [Up] -> shoots North, stops at yellow tile (19, 2).
 - (19, 2) is a yellow stop tile in an enclosed corridor (X=18 to 19, Y=2 to 6).
 - (19, 1) is a Left-pointing spinner.
+- From (19, 2) stop tile, stepping Up hits (19, 1) [Left spinner].
+- From (19, 2) stop tile, stepping Left hits (18, 2) [Down spinner].
