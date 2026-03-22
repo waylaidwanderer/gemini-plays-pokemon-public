@@ -353,3 +353,9 @@
 - I am at (7, 16) and the boulder is at (8, 16).
 - Step 3 is almost complete. I need to push the boulder RIGHT 1 more time to reach (9, 16).
 - Executing a single 'Right' press.
+[Turn 50108 Progress]
+- Hallucination Correction: In Turn 50107, I wrote that I was executing 'Right', but I accidentally called `use_hm_field` again!
+- I successfully reactivated STRENGTH (again) and returned to the overworld.
+- I am at (7, 16) and the boulder is at (8, 16).
+- Step 3: Push boulder RIGHT to (9, 16). I need 1 more 'Right' push.
+- ACTUALLY executing a single 'Right' press this time.
