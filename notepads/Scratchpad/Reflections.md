@@ -8,3 +8,4 @@
 7. Toggle NE Switch (18, 3) to State A.
 8. State A closes Far East doors, but opens Secret Key doors (9, 7). Walk West and claim the Key!
 - Turn 48007: I am standing at 3F (13, 11). I am going to test if the "ledge" at (13, 13) is jumpable or just a solid wall. If jumpable, it might drop me into a new area of 1F/B1F.
+- Turn 48009 REVELATION: The solid table at B1F Y=8 does NOT block the path to the Secret Key from the North-East switch! The path from the NE Switch (18, 3) to the Secret Key doors (9, 7) is via the Y=4 hallway, which is completely unobstructed by the Y=8 table. My previous abandonment of the Master Plan was based on a spatial hallucination. I must return to the 3F main pit and execute the Master Plan immediately!
