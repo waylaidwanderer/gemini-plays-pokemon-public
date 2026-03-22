@@ -32,3 +32,7 @@
 - I need to get to (9, 17).
 - Path: Down to (7, 17), Right to (8, 17), Right to (9, 17).
 - Executing: Down, Right, Right.
+[Turn 50173 Progress]
+- I am at (7, 16).
+- The path to the pushing spot is: Down to (7, 17), Right to (8, 17), Right to (9, 17).
+- Executing: Down, Right, Right.
