@@ -5,3 +5,4 @@
 - Nidoking Lv ??? (Next)
 - Nidoking Lv 45
 - Rhydon Lv 50
+- DEFEATED! Earned Earth Badge and TM27 (Fissure).

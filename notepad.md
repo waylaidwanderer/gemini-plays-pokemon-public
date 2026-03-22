@@ -1611,5 +1611,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Nidoking Lv ??? (Next)
 - Nidoking Lv 45
 - Rhydon Lv 50
+- DEFEATED! Earned Earth Badge and TM27 (Fissure).
 
 <hr>
