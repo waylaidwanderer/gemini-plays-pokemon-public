@@ -1805,7 +1805,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   7. Walk to (15, 12) via (14, 14) -> (14, 12). Push boulder RIGHT to (17, 12).
   8. Walk to (17, 11) via (16, 11). Push boulder DOWN to switch at (17, 13).
 - Player is at (5, 14).
-- Current puzzle state: Step 1 (Strength) complete. Step 2: Push boulder DOWN to (5, 16).
+- Current puzzle state: Step 2: Pushing boulder DOWN to (5, 16).
 [Turn 50013 Progress]
 - The Start menu is open. The cursor is on EXIT.
 - The Start menu wraps. Pressing Down twice should wrap to POKéDEX, then move to POKéMON.
