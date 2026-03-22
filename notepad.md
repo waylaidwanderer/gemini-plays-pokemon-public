@@ -2130,5 +2130,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - "Wild MACHOKE appeared!" text is on screen.
 - Pressing 'A' to clear the intro text so I can run.
 - After escaping, I will be at (7, 16) and the boulder will be at (8, 16). I will need 1 more 'Right' push to reach (9, 16).
+[Turn 50100 Progress]
+- The Start menu is open. The cursor is on POKéMON.
+- I need to reactivate STRENGTH because entering the wild Machoke battle deactivated it.
+- Pressing 'A' to open the Party menu.
 
 <hr>
