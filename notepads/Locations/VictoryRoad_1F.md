@@ -109,3 +109,4 @@
 [Turn 50250 Progress] Cursor is visually confirmed to be on CLEO. Pressing 'A' to open her sub-menu.
 [Turn 50251 Progress] CLEO's sub-menu is open. Cursor is on STRENGTH. Pressing 'A' to activate it.
 [Turn 50252 Progress] Success! "CLEO can move boulders." text is on screen. Pressing 'A' to clear it and hopefully return to the overworld.
+[Turn 50253 Progress] Cleared the text. Back at the Start Menu. Pressing 'B' to close the Start Menu and return to the overworld.
