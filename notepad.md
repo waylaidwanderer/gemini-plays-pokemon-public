@@ -1715,5 +1715,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [Turn 49716 Progress]
 - Walked West to X=9. The path North is open here.
 - Walking North through the tall grass at X=9.
+[Turn 49718 Progress]
+- Reached the Thunderbadge check at (9, 119).
+- Text is currently on screen. Clearing it.
 
 <hr>
