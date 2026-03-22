@@ -1738,5 +1738,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [Turn 49729 Progress]
 - Still clearing text. "OK then! Please, go right ahead!"
 - Pressing A.
+[Turn 49731 Progress]
+- The text is fully cleared. The guard has stepped left to (8, 119).
+- The path North at X=9 is blocked by water at Y=115.
+- I need to walk Up to Y=118, then East to X=10, then North.
 
 <hr>
