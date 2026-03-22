@@ -1872,5 +1872,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Reached (13, 14).
 - Interrupted by a wild Graveler. "Wild GRAVELER appeared!" text is on screen.
 - Pressing 'A' to advance the intro text so I can run from the battle.
+[Turn 50003 Progress]
+- Main battle menu is visible. Cursor is on FIGHT.
+- Using `run_battle` tool to escape the Graveler so I can continue exploring the right side of the room.
 
 <hr>
