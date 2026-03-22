@@ -62,10 +62,7 @@
 - 2F West Exploration Start: Turn 40713
 - Cinnabar Gym Challenge Start: Turn 48811
 - Gym Leader Blaine Battle Start: Turn 48967
-- [50-Turn Reflection] Turn 49123: The `execute_battle_turn` tool has been fixed to output properly formatted JSON. Viridian Gym spinner mapping is going well. We are slowly making our way to Giovanni. Must remember to grab the Item Ball at (16, 9) after clearing the path.
-- [50-Turn Reflection] Turn 49175: Currently fighting Giovanni. His Dugtrio is down. Viridian Gym is fully mapped. Things are going smoothly.
-- [50-Turn Reflection] Turn 49226: Defeated Giovanni and earned the Earth Badge! Successfully navigated out of Viridian Gym and healed at the Pokemon Center. Currently trying to enter the Viridian Poke Mart to stock up for the Elite Four, but an NPC seems to be blocking the door under the roof.
-- [50-Turn Reflection] Turn 49278: Arrived at Celadon Dept Store 2F to buy Hyper Potions, but realized their stock is fixed to Super Potions and Great Balls. Gen 1 Mart inventories do not scale with badges! I must visit late-game cities (Saffron, Fuchsia, Cinnabar) for Hyper Potions and Full Heals. Leaving to Fly to Saffron City.
+- [PokeMart Mechanics] Gen 1 Mart inventories do NOT scale with badges. They are fixed to their location. Celadon Dept Store 2F is fixed to Super Potions and Great Balls. Must visit late-game cities (Saffron, Fuchsia, Cinnabar) for Hyper Potions, Ultra Balls, and Full Heals.
 
 <hr>
 
