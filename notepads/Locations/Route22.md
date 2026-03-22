@@ -54,3 +54,6 @@
 - Arrived at Reception Gate (Map 0_193).
 - Walking North to Y=2 automatically triggers the Boulderbadge check. The guard says "Go right ahead!"
 - I will continue North through the door.
+[Turn 49690 Reception Gate Progress]
+- Passed the Boulderbadge check at (4, 2)! The guard stepped aside.
+- Moving North to the next map/section.
