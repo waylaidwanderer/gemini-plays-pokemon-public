@@ -1499,5 +1499,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - The most likely location is the unexplored 3F West Wing.
 - I prematurely abandoned my search of the 3F West Wing in Turn 48346 after walking along Y=2 and seeing it connects to the main area. I FAILED to explore the massive space South of Y=2 on the West side (X=1 to X=8)!
 - Plan: Toggle B1F back to State B, use Dig to escape, re-enter, set Mansion to State A via 1F/3F switch, and systematically map the ENTIRE 3F West Wing!
+[Turn 48396] Started the "Search for Second Pit" plan. Exiting Pokemon Center to return to the Mansion.
 
 <hr>
