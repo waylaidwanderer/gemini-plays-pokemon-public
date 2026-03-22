@@ -1505,13 +1505,11 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Y=8 is a continuous, solid table stretching from X=10 to X=24.
 - X=25 is a solid vertical wall.
 - The Far East doors at (26, 17) and (27, 17) are CLOSED in BOTH State A and State B (Proven Turns 47883, 47963, 48056).
-- Therefore, there is NO PATH to the Northern half of B1F from the East side. The B1F Main Landing (East of X=16) is a dead end for progression.
+- The vertical doors at (13, 22) and (13, 23) are CLOSED in BOTH State A and State B.
+- Therefore, there is NO PATH to the Northern half of B1F from the East side, AND the B1F SW loop (via X=13) is a permanent dead end.
+- The ONLY unexplored vertical transition remaining is the 3F Far East area. I prematurely abandoned exploring it on Turn 48141 without hitting a solid wall.
 
-[B1F DOOR STATE RE-EVALUATION]
-- Turn 48168: CRITICAL HALLUCINATION DISCOVERED! My Master Puzzle logic relied on the vertical doors at B1F (13, 22) being OPEN in State B. 
-- However, upon empirical observation at (14, 20), I see that the doors at (13, 22) are VISUALLY CLOSED (yellow/orange striped barrier TYPE_a83b) while in State B.
-- This means my entire theory about the "alternate escape route" being open in State B is false. 
-- Turn 48183: BUMPED INTO (13, 22) IN STATE A. It is SOLID. The vertical doors at X=13 are CLOSED in both State A and State B. The B1F SW loop is a permanent dead end.
-- I am walking North to Y=17 to see if I can walk West to the (10, 17) gap, or North through the (14, 16) horizontal doors which should be OPEN in State A.
+[CURRENT ROUTING]
+- I am walking North from (14, 22) to see where the open horizontal doors at (14, 16) lead in State A. If they don't lead to the Secret Key, I must backtrack to 3F and thoroughly explore the Far East.
 
 <hr>
