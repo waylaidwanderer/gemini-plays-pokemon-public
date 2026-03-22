@@ -79,6 +79,10 @@
 - 50-Turn Review: The last 50 turns were spent passing the Soulbadge (Turn 49829) and Marshbadge (Turn 49846) checks. I successfully navigated around a ledge block at Y=83 by surfing West to X=7, and I am now making landfall again at X=8, Y=71. No major errors, spatial reasoning is sound, and custom tools are working perfectly.
 [Turn 49903 Reflection]
 - 50-Turn Review: Successfully cleared the remaining Badge Checks on Route 23 (Soul, Marsh, Volcano, Earth) and entered Victory Road. Marked the entrance. Encountered a boulder puzzle. Activated Strength. My movement sequences to reach the boulder keep getting interrupted by wild encounters (Machop, Geodude), forcing me to run since Hydro is at 14 HP. I also identified a raised floor obstacle at X=6/X=7 that I need to path around (North, then West, then South) to get behind the boulder at (5, 14). Custom tools and notepads are working flawlessly.
+[Turn 50007 Reflection]
+- 50-Turn Review: The last 50 turns were spent starting Victory Road 1F. I encountered the first boulder puzzle and made a critical error: I assumed the switch was at (9, 12) without verifying the path, pushed the boulder into a corner at (9, 14), and softlocked it because of a wall at (9, 13). 
+- Correction: I exited to Route 23 to reset the room, then thoroughly explored the right side of the map. I found the TRUE switch at (17, 13) and carefully mapped out an 8-step path to push the boulder there, avoiding all dead ends.
+- I am also maintaining better notepad hygiene by overwriting step-by-step movement logs once a puzzle state is reached, keeping the notes concise.
 
 <hr>
 
@@ -1801,8 +1805,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   7. Walk to (15, 12) via (14, 14) -> (14, 12). Push boulder RIGHT to (17, 12).
   8. Walk to (17, 11) via (16, 11). Push boulder DOWN to switch at (17, 13).
 - Current puzzle state: Boulder reset to (5, 15). Returning to it.
-- Player is at (9, 17).
-- Status: Strength is active! Ready to push.
+- Player is at (8, 16).
+- Status: Strength wore off upon leaving the map. Needs reactivation.
 [Turn 49984 Progress]
 - The Party menu is open.
 - Visual confirmation: The cursor is on CLEO (index 2).
