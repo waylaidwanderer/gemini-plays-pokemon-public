@@ -41,3 +41,6 @@
 - Hallucination Correction: I completely misread the screen! The cursor is on POKéDEX, not POKéMON.
 - My 'A' presses in Turn 50196 and 50197 likely selected POKéDEX.
 - Executing 'B' to cancel and back out. If this closes the Start Menu entirely, I will simply reopen it next turn. I will not make any blind assumptions.
+[Turn 50199 Progress]
+- Executing 'Down' to move the cursor to POKéMON.
+- I will wait for visual confirmation before pressing 'A'.
