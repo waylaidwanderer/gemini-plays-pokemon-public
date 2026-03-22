@@ -1517,5 +1517,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Super Nerd trainer at (17, 2) facing Down.
 - Electronic doors blocking path West at (15, 2) and (16, 2).
 - Defeating the Super Nerd at (17, 2) opened the doors, allowing access to the western path via (15, 1) and (15, 3).
+- Gap at (14, 1) allows crossing the wall at X=14.
+- Super Nerd/Burglar trainer at (11, 4) facing Right.
+- Super Nerd/Burglar trainer at (11, 8).
 
 <hr>
