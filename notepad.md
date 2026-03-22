@@ -1742,5 +1742,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [Turn 49759 Progress]
 - The text is fully cleared. The guard stepped aside to (12, 105).
 - Walking North at X=10.
+[Turn 49761 Progress]
+- The path North at Y=103 is completely blocked by water (TYPE_4e8c) from X=10 to at least X=15.
+- There are no ledges blocking the water, so this must be a Surf section.
+- I will walk Up to (10, 104), face Up, and use Surf.
 
 <hr>
