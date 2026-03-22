@@ -1733,5 +1733,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - "GEM got on HYDRO!" text is finally cleared!
 - I am now at (11, 103) on the water.
 - Executing `move_sequence` "UUUUU" to surf North.
+[Turn 49819 Progress]
+- Surfed North to (11, 98).
+- Spotted the 5th Badge Check guard ahead at (11, 96).
+- Moving Up to (11, 97) to trigger the dialogue.
 
 <hr>
