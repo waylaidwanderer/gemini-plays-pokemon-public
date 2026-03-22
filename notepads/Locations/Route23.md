@@ -65,3 +65,6 @@
 [Turn 49795 Progress]
 - The Party menu successfully opened. The cursor is on HYDRO.
 - Since HYDRO has Surf, I can just press A to select him.
+[Turn 49796 Progress]
+- The Party menu is open. The cursor is on HYDRO.
+- Pressing A to select HYDRO, then A to select SURF.
