@@ -720,6 +720,8 @@ Points of Interest:
 - Growlithe Lv 35
 - Alakazam Lv 35
 - Venusaur Lv 40
+## Route 22 (Late Game)
+- Encountered at Turn 49371
 
 <hr>
 
