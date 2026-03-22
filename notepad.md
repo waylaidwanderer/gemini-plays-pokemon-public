@@ -1816,5 +1816,10 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [Turn 49914 Progress]
 - Successfully opened the Start menu again. Cursor is on ITEM.
 - Pressing 'A' to open the bag so I can find a Hyper Potion.
+[Turn 49915 Progress]
+- Opened the ITEM menu.
+- The cursor is at the top of the currently visible page (index 4 in the bag array, which is BICYCLE).
+- BICYCLE is index 4. ESCAPE ROPE is index 5. FRESH WATER is index 6. FULL HEAL is index 7. GREAT BALL is index 8. HYPER POTION is index 9.
+- I need to move the cursor DOWN 5 times to reach HYPER POTION.
 
 <hr>
