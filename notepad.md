@@ -1821,5 +1821,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   7. Walk to (15, 12) via (14, 14) -> (14, 12). Push boulder RIGHT to (17, 12).
   8. Walk to (17, 11) via (16, 11). Push boulder DOWN to switch at (17, 13).
 - Current Status: PUZZLE SOLVED! Exploring Northern section. Found an item ball at (9, 2) and a boulder at (14, 2).
+[Turn 50339 Progress] The path North was blocked by a trainer at (11, 5) that I didn't see previously. I walked around him to (9, 4). The item ball is at (9, 2). Walking Up to collect it.
 
 <hr>
