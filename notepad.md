@@ -1495,6 +1495,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 10. Walk to the NE Switch at (20, 3) and toggle it to State B.
 11. The X=9 doors are now OPEN. Pass through them to reach the Secret Key!
 - [Turn 48778] VERIFIED: In State B, the vertical doors at X=9 are OPEN at Y=6 and Y=7! The red barriers disappear, allowing access to the NW area!
+- [Turn 48784] FOUND THE SECRET KEY! It was the item ball at B1F (5, 13) in the newly opened NW area.
 
 <hr>
 
