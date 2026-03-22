@@ -42,3 +42,9 @@
 [Turn 49931 Progress]
 - Pushed the boulder DOWN to (5, 16).
 - Now need to walk to (4, 16) and push it RIGHT to (9, 16).
+[Turn 49932 Correction]
+- I completely misread my own instructions and the screen!
+- At (4, 16), I am to the LEFT of the boulder which was at (5, 16).
+- I pushed it RIGHT, and the NPC movement tracker confirms it moved: (5, 16) -> (6, 16).
+- I need to keep pushing it Right until it reaches X=9. It is currently at (6, 16).
+- I am at (4, 16). I need to move to (5, 16) and push it Right again.
