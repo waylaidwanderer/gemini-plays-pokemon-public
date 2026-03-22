@@ -12,3 +12,4 @@
   7. Walk to (15, 12) via (14, 14) -> (14, 12). Push boulder RIGHT to (17, 12).
   8. Walk to (17, 11) via (16, 11). Push boulder DOWN to switch at (17, 13).
 - Current Status: PUZZLE SOLVED! Boulder is on the switch at (17, 13). Navigating to stairs at (15, 7).
+[Turn 50313 Progress] Retraced steps back to (12, 14). The path North is blocked here. Continuing West along Y=14 to find a way up.
