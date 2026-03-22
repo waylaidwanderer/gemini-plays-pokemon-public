@@ -335,3 +335,7 @@
 - The Start menu is open. The cursor is on POKéMON.
 - I need to reactivate STRENGTH because entering the wild Machoke battle deactivated it.
 - Pressing 'A' to open the Party menu.
+[Turn 50101 Progress]
+- The Party menu opened successfully.
+- Cursor is on HYDRO (index 1).
+- Using `use_hm_field` tool to select CLEO (index 2) and activate STRENGTH.
