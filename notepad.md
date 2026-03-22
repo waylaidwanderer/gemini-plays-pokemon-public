@@ -1503,10 +1503,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Therefore, there is NO PATH to the Northern half of B1F from the East side. The B1F Main Landing (East of X=16) is a dead end for progression.
 
 [CURRENT DIRECTIVE]
-- The Secret Key MUST be accessed by bypassing the Y=8 table via the West side.
-- I must Dig out, heal, return to 3F, and exhaustively map the South-West area (West of X=13) to find a Second Pit that drops behind the B1F blockades.
-- Turn 48084 (50-Turn Reflection):
-  - Execution: Entering Pokemon Mansion to exhaustively map 3F SW area for a second pit.
-  - Lesson: Always trust empirical bump tests (e.g., doors are closed) over theoretical spatial hypotheses.
+- The overwatch agent correctly pointed out my macro-loop. 3F SW is a proven dead end. B1F Main Landing is a proven dead end.
+- I must find a completely new path. I am going to explore the 1F North-West area! 
+- I previously noted a switch at 1F (2, 5), which means I can reach the NW corner of 1F. I need to exhaustively search that area for stairs leading down to the isolated B1F NW section.
+- Route to 1F NW: Go to 1F. Use the Northern Hallway (Y=2) to cross from the East/Central wing to the West wing.
 
 <hr>
