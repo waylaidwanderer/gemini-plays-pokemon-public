@@ -1525,7 +1525,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Defeated trainer at (11, 8). Quiz Machine 3 is at (9, 7). Exploring South.
 - Fourth section accessed via doors at (12, 12)/(13, 12).
 - Defeated Super Nerd trainer at (11, 14) facing Down. (Can talk from behind).
-- Electronic doors to the fifth section are located at (7, 16) and (7, 17).
+- Electronic doors blocking the path North are located at (4, 12) and (5, 12).
+- Trainer at (3, 14) facing Right.
+- Quiz Machine 5 is at (1, 12)/(2, 12).
 - Quiz Machine 4 is at (9, 12)/(9, 13).
 - Solid wall at X=14 blocks line of sight to the Super Nerd at (16, 13).
 
