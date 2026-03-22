@@ -1818,5 +1818,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   8. Walk to (17, 11) via (16, 11). Push boulder DOWN to switch at (17, 13).
 - Current puzzle state: PUZZLE SOLVED! Boulder is on the switch at (17, 13).
 [Turn 50304 Progress] The first boulder puzzle is complete! Now heading North to the stairs at (15, 7) to explore the rest of 1F.
+[Turn 50305 Progress] The push sequence LL UUUU was aborted at the second Up press because of a wall at Y=10. The path North is blocked at X=15. I need to path around it. From (15, 11), I can walk Left to X=14, then North.
 
 <hr>
