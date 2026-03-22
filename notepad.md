@@ -1479,12 +1479,12 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - 3F West Wing (West of X=9) is ACCESSIBLE. I previously hallucinated it was blocked. I must thoroughly search this area (especially South of Y=10) for the true pit that drops into the B1F Secret Key room!
 [THE TRUE MASTER PUZZLE]
 - The B1F SW loop via X=13 is a DEAD END (doors are closed in both states).
-- There is a SECOND PIT on 3F at (19, 14)!
 - ROUTE TO SECRET KEY:
-  1. Ensure Mansion is in STATE A.
-  2. On 3F, walk East through the open Northern doors at (15, 4).
-  3. Navigate the Far East section to reach the pit at (19, 14).
-  4. Drop down the pit at (19, 14) and systematically map the resulting isolated area to find the path to the B1F NW section.
+  1. Toggle 3F switch at (10, 4) to State B.
+  2. Walk South through the open doors at (15, 10) and drop down the main pit at (16, 14).
+  3. Take stairs to B1F. Arrive on B1F in State B.
+  4. Walk South to the central switch at (18, 25) and toggle it to State A.
+  5. The horizontal doors at Y=16 are now OPEN. Systematically map every boundary accessible from the B1F Main Landing in State A to find the path to the Secret Key.
 - Diary located at 1F (18, 2): "Diary: July 5. Guyana, South America. A new POKEMON was discovered deep in the jungle."
 - Burglar trainer at (16, 22), facing Right. His line of sight covers Y=22.
 - B1F NE Area: The switch statue is at (18, 3) and must be interacted with from (18, 4). There is a long horizontal table at Y=5 blocking access from Y=6. You must go around the table on the East side (around X=25/X=26) to reach the Y=4 hallway.
