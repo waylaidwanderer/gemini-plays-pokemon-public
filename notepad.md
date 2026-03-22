@@ -2005,5 +2005,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [Turn 50066 Progress]
 - The main battle menu is visible.
 - Using `run_battle` tool to escape the Onix.
+[Turn 50067 Progress]
+- Escaped the Onix. "Got away safely!" text is on screen.
+- Pressing 'A' to clear the text and return to the overworld.
+- Next step: visually verify the boulder's exact position before sending any push commands.
 
 <hr>
