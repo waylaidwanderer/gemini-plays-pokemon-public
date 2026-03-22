@@ -24,3 +24,6 @@
 - In Turn 49909, I pressed 'B' twice to back out of the SAVE dialog. The first 'B' closed the dialog, and the second 'B' closed the Start Menu entirely.
 - Therefore, in Turn 49910, my 'A' press did nothing (overworld interact), and my 'DDDDD' sequence in Turn 49911/49912 just made me walk into the wall at (4, 17)!
 - I am currently in the overworld at (4, 16). I need to press START to reopen the menu.
+[Turn 49914 Progress]
+- Successfully opened the Start menu again. Cursor is on ITEM.
+- Pressing 'A' to open the bag so I can find a Hyper Potion.
