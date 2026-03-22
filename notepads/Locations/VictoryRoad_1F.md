@@ -37,3 +37,7 @@
 [Turn 49988 Progress]
 - "CLEO can move boulders." text is on screen.
 - Pressing 'A' to advance the text and return to the overworld so I can push the boulder.
+[Turn 49990 Progress]
+- Pushed boulder UP once.
+- I am now at (9, 16). The boulder is at (9, 15).
+- Continuing to push UP to (9, 12).
