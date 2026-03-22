@@ -1727,5 +1727,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [Turn 49753 Progress]
 - Clearing remaining text for the Rainbowbadge check.
 - Pressing A.
+[Turn 49754 Progress]
+- Still clearing text.
+- Pressing A.
 
 <hr>

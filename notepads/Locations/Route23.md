@@ -29,3 +29,6 @@
 [Turn 49753 Progress]
 - Clearing remaining text for the Rainbowbadge check.
 - Pressing A.
+[Turn 49754 Progress]
+- Still clearing text.
+- Pressing A.
