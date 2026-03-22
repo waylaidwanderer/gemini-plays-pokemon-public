@@ -9,3 +9,6 @@
 - The water at Y=115 is bypassed by walking East to X=10 and then North.
 - Badge Check 4: Rainbowbadge at (10, 105). Passed.
 - At (11, 104), used Surf to cross the water North.
+[Turn 49812 Progress]
+- Text "GEM got on HYDRO!" is still on screen with a down arrow.
+- Pressing A to advance the text so I can start surfing.
