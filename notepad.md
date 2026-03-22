@@ -1629,6 +1629,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 # Route 22
 - Connects Viridian City (East) to the Pokemon League Front Gate (West).
 - The path West is a maze. The lower path at Y=14 is blocked by a wall at X=26. The upper path is blocked by a wall at X=29. You must climb back up from the lower path via the gap at X=33, and navigate North through the tall grass!
-- The upper path on Route 22 (Y=4/5) ends in a dead end at X=16, blocked by statues. You must jump down the ledge at Y=7 to reach the lower path to continue to the Reception Gate.
+- The upper path on Route 22 (Y=4/5) leads to a building at X=16. Do NOT jump down the ledge at Y=7! The lower western area (Y=10 to Y=12) is a trap dead end bounded by a rock wall at X=1. If you fall in, jump down the ledge at Y=13 and walk all the way East to return to the start of the route.
 
 <hr>
