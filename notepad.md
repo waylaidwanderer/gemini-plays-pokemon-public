@@ -1879,5 +1879,11 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Next step: Move Right to (9, 17) to get directly below the boulder.
 - Then I will be in position to push it UP to the switch at (9, 12).
 - Executing 'Right'.
+[Turn 49980 Progress]
+- Reached (9, 17). I am now directly below the boulder.
+- The boulder is at (9, 16).
+- The switch is at (9, 12).
+- I need to push the boulder UP 4 times.
+- Executing 'Up' for the first push. If the boulder doesn't move, I will need to reactivate Strength.
 
 <hr>
