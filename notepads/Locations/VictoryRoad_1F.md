@@ -37,3 +37,6 @@
 - Hallucination Correction: In Turn 50139, I forgot to actually call the `press_buttons` tool to press 'Down'!
 - The cursor is currently blinking (invisible in the Turn 50140 screenshot) but is still safely on POKéDEX.
 - ACTUALLY executing 'Down' this time to select POKéMON.
+[Turn 50141 Progress]
+- The cursor is visibly on POKéMON.
+- Executing 'A' to open the Party Menu. I will wait for visual confirmation of the cursor position inside the Party Menu next turn.
