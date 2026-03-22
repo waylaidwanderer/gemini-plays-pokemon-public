@@ -1811,7 +1811,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   7. Walk to (15, 12) via (14, 14) -> (14, 12). Push boulder RIGHT to (17, 12).
   8. Walk to (17, 11) via (16, 11). Push boulder DOWN to switch at (17, 13).
 - Player is at (8, 16).
-- Current puzzle state: Step 3 complete. Attempting to reactivate STRENGTH.
+- Current puzzle state: Step 3 complete. STRENGTH is active. Moving to (9, 17).
 [Turn 50133 Progress]
 - Overwatch critique received and acknowledged. I am completely abandoning multi-step menu macros and tools like `use_hm_field` for now. I will navigate menus ONE button press at a time, visually verifying the cursor position after each step to account for cursor memory and animation delays.
 - The Start menu is open. Visual confirmation: the cursor is on POKéMON.
