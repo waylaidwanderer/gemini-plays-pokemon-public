@@ -1875,5 +1875,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - The Party Menu is open.
 - Visual confirmation: The cursor is correctly on CLEO (index 2).
 - Executing a single 'A' press to open CLEO's sub-menu.
+[Turn 50153 Progress]
+- CLEO's sub-menu opened.
+- Visual confirmation: The cursor is on STRENGTH.
+- Executing a single 'A' press to use STRENGTH.
 
 <hr>
