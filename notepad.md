@@ -1797,6 +1797,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
   3. Walk to (4, 16) and push boulder RIGHT to (9, 16).
   4. Walk to (9, 15) and push boulder DOWN to (9, 17).
 - The wild Machop interrupted my movement sequence before I could get to the boulder. Resuming the path to (5, 14).
-- At (8, 15), the path Left to the boulder is blocked by a raised floor section at X=6. Need to find a way around.
+- At (8, 15), the path North is blocked by a one-way ledge. The path West is blocked by a wall at X=6. To reach the boulder from here, go South to Y=16, West to X=4, North to Y=14, and East to (5, 14).
 
 <hr>
