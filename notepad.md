@@ -1505,9 +1505,5 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 6. In State B, Far East doors (26, 17) are OPEN. Walk through them to NE Area.
 7. Toggle NE Switch (18, 3) to State A.
 8. State A closes Far East doors, but opens Secret Key doors (9, 7). Walk West and claim the Key!
-- Turn 47980 (50-Turn Reflection):
-  - Immediate Execution: Escaping the 1F enclosed area via Dig to return to the Cinnabar Pokemon Center. From there, I will re-enter the Mansion and head straight to 3F.
-  - Hypothesis Review: The "Master Solution" failed because B1F Y=8 is a solid continuous table, blocking access to the Secret Key doors from the main hallway. The Far East doors are also closed in State A. Therefore, the B1F main landing is a dead end. The ONLY remaining unexplored area that could house a progression path is the South-West section of 3F (West of X=13). I must find a second pit there that drops behind the B1F tables.
-  - Error Analysis: I assumed a clear path existed without visually tracing every tile. I must physically verify paths before declaring them solved.
 
 <hr>
