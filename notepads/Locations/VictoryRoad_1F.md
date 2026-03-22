@@ -361,3 +361,9 @@
 - ACTUALLY executing a single 'Right' press this time.
 [Turn 50109 Progress]
 - Executing a single 'Right' press to push the boulder to (9, 16).
+[Turn 50111 Reflection]
+- 50-Turn Review: Progress on the first Victory Road boulder puzzle is slow but steady. The encounter rate is extremely high, and every wild battle deactivates STRENGTH, requiring me to constantly re-open the menu and reactivate it.
+- My main strategy of "push one tile, verify visually if interrupted" is working perfectly to prevent softlocks.
+- I just completed Step 3! The boulder is at (9, 16).
+- Step 4: Walk to (9, 17) and push boulder UP to (9, 14).
+- I am currently in a wild Machoke battle. I will use `run_battle` to escape, then navigate to (9, 17) to begin Step 4.
