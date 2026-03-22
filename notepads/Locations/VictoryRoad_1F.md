@@ -167,3 +167,6 @@
 - Cleared the intro text.
 - The main battle menu is now visible.
 - Using `run_battle` tool to escape the Zubat.
+[Turn 50053 Progress]
+- Cleared the wild Zubat. Text "Got away safely!" is on screen.
+- Pressing 'A' to clear the text and return to the overworld view so I can execute Step 3.
