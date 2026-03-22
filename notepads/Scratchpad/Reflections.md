@@ -9,10 +9,8 @@
 - If I drop down this pit, I will likely fall through multiple floors (2F, 1F) and land on B1F at (19, 14).
 - B1F (19, 14) is NORTH of the horizontal doors at (18, 16). This means I will land in the B1F Northern Hallway, giving me direct access to the NE switch and the Secret Key!
 
-[CURRENT HYPOTHESIS]
-- Turn 48230: Visually verified the Far East is a dead end. The wall at Y=9 is completely solid from X=24 to X=29 (and rubble from X=21 to X=23). There is NO GAP.
-- To reach the second pit at (19, 14), I must use the main pit entrance!
-- ROUTE: 
-  1. Toggle 3F switch at (10, 4) to State B. 
-  2. Walk through the now-open Southern doors at (15, 10).
-  3. Instead of dropping at (16, 14), walk EAST to (19, 14) and drop down!
+[Turn 48239 Reflection]
+- 50-Turn Assessment: I am currently executing the investigation of the second pit at 3F (19, 14). 
+- My previous theory regarding the B1F SW loop was falsified by bumping into the closed doors at (13, 22). 
+- I am at the 3F switch at (10, 4) clearing the text to toggle the Mansion to State B. This will open the Southern doors at (15, 10), allowing access to the pit at (19, 14).
+- Goal Clarity: Find the Secret Key. Method: Map the area accessible from the (19, 14) pit.
