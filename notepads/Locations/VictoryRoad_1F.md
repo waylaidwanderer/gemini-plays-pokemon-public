@@ -378,3 +378,8 @@
 - I used `run_battle` prematurely, which resulted in the text "Wild ZUBAT appeared!" being advanced a bit, but the text is STILL on screen!
 - Pressing 'A' to clear the intro text so the battle menu can appear.
 - STRENGTH has been deactivated by this battle. The boulder is at (9, 16).
+[Turn 50116 Progress]
+- The main battle menu is visible. I need to run from this Zubat.
+- Using `run_battle` tool to escape.
+- After escaping, I will be at (8, 16). The boulder is safely at (9, 16).
+- I will need to clear the "Got away safely!" text, then open the menu to reactivate STRENGTH, and then navigate to (9, 17) via (8, 17) to push the boulder UP.
