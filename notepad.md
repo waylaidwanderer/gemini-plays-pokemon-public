@@ -2146,5 +2146,11 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [Turn 50104 Progress]
 - The text "No SURFing on HYDRO here!" is on screen.
 - Pressing 'A' to clear it so I can return to the Party Menu.
+[Turn 50107 Progress]
+- Successfully activated STRENGTH using CLEO!
+- Returned to the overworld.
+- I am at (7, 16) and the boulder is at (8, 16).
+- Step 3 is almost complete. I need to push the boulder RIGHT 1 more time to reach (9, 16).
+- Executing a single 'Right' press.
 
 <hr>
