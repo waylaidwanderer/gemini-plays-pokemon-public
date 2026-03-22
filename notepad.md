@@ -1875,5 +1875,11 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - The 'A' press worked. CLEO's sub-menu is open.
 - Visual confirmation: The cursor is explicitly on STRENGTH.
 - Executing a single 'A' press to use STRENGTH.
+[Turn 50208 Progress]
+- STRENGTH has been successfully reactivated!
+- The text box is fully cleared.
+- I am at (8, 17). The boulder is at (9, 16).
+- Step 4: Walk to (9, 17) and push boulder UP to (9, 14).
+- Executing a single 'Right' press to move to (9, 17).
 
 <hr>
