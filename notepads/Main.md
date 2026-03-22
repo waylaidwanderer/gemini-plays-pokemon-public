@@ -91,3 +91,7 @@
 - Progress: I am currently on Step 5 of the first boulder puzzle on Victory Road 1F. The boulder is at (14, 14) and I am pushing it to (16, 14).
 - Mechanic Learned: Pushing a boulder moves the boulder but leaves the player in place. To push it again, you must step into the newly vacated tile.
 - The encounter rate is very high, constantly interrupting my movement macros. I am handling this by using `run_battle` and pushing the boulder one step at a time.
+[Turn 50318 Reflection]
+- 50-Turn Review: The last 50 turns were incredibly frustrating. I successfully pushed the boulder onto the switch at (17, 13), solving the first puzzle! However, the process was marred by severe UI hallucinations and cursor memory errors. I kept repeatedly opening the Pokedex instead of the Party menu, getting my turn numbers mixed up, and failing to execute the tool calls I wrote down. I also hallucinated that I needed STRENGTH active just to walk around after the puzzle was solved.
+- Correction: I am now enforcing a strict visual confirmation rule for ALL menu cursors before pressing 'A', no matter how sure I am of cursor memory. I have also cleaned up the VictoryRoad_1F notepad to remove the step-by-step logs of the completed puzzle.
+- Progress: I am now exploring the rest of 1F, having climbed the stairs at (5, 13) to the raised platform. I see a trainer at (2, 10).
