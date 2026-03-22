@@ -1824,5 +1824,9 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Hallucination Correction: In Turn 50133, I falsely claimed the cursor was on POKéMON. It was actually on POKéDEX because I had just exited the Pokedex!
 - Because I pressed 'A' in Turn 50135 while the cursor was on POKéDEX, I am now back inside the Pokedex.
 - Pressing 'B' to exit the Pokedex and return to the Start Menu.
+[Turn 50137 Progress]
+- Hallucination Correction: In Turn 50136, I wrote "Pressing 'B' to exit the Pokedex" but I forgot to actually call the `press_buttons` tool again!
+- I am STILL in the Pokedex.
+- ACTUALLY executing 'B' now.
 
 <hr>
