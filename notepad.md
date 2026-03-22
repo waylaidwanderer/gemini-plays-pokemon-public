@@ -1486,16 +1486,13 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 
 <h1><code>Scratchpad/Reflections</code></h1>
 
-[B1F NW Area Access Plan]
-- The NW Area on B1F contains a Switch at (7, 15).
-- Access is likely through the electronic doors at X=9 (Y=4 to Y=7).
-- In State B, the red barriers disappear.
-- I previously only bumped into (9, 7) which is likely the solid doorframe.
-- I must test walking West into (9, 6), (9, 5), and (9, 4) in State B!
-- If I can enter the NW Area, I can investigate the switch at (7, 15).
-- I need to be careful not to trap myself if toggling the switch closes the X=9 doors.
-- Perhaps there is a hidden pit or another exit, or the state behavior is different for these doors.
-- The Far East doors at (26, 17) are OPEN in State A, and I need them open to reach the Secret Key.
-- Exhaustive exploration of the NW Area is the highest priority right now.
+[B1F NE Area and Secret Key Plan]
+- Currently on B1F at (12, 14), which is NORTH of the central doors!
+- The Mansion is in State B (central doors at Y=16 are open).
+- I can walk East along the clear Y=14 corridor to X=24.
+- From X=24, I walk North to the NE Area to find the switch at (18, 3) or (20, 3).
+- To bypass the Y=5 table, I must walk East to X=26, then North to Y=4, then West to the switch.
+- Toggling this switch to State A will OPEN the Far East doors at (26, 17)!
+- Once open, I can walk South down the X=26/27 corridor to reach the Secret Key!
 
 <hr>
