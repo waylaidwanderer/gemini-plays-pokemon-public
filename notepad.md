@@ -1843,5 +1843,11 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [Turn 49934 Progress]
 - Pushed the boulder from (6, 16) to (7, 16). I am at (5, 16).
 - Executing RRRR to move to (6, 16), push to (8, 16), move to (7, 16), push to (9, 16).
+[Turn 49936 Correction]
+- I hallucinated being in a battle in Turn 49934/49935!
+- My `run_battle` tool executed in the overworld, causing me to walk Right to (7, 16) (pushing the boulder to 8, 16) and then Down to (7, 17).
+- Ironically, stepping to (7, 17) triggered an ACTUAL wild Machop encounter!
+- I am now in battle. Escaping.
+- Current state: Player at (7, 17). Boulder is at (8, 16).
 
 <hr>
