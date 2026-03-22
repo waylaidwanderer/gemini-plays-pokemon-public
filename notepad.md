@@ -1779,6 +1779,6 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Badge Check 7: Volcano Badge at (10, 56). Passed.
 - At Y=56, the path North is along X=12. Move East to X=12 to bypass the rocks at X=10/X=11.
 - At Y=44, the path North is blocked by a South-facing ledge at Y=43. This is NOT water. The path continues North on the West side at X=7. Backtrack South to Y=48, then West to X=7 to bypass the rocks.
-- Badge Check 8: Earth Badge at Y=42. Guard at (6, 42).
+- Badge Check 8: Earth Badge at Y=41. Guard at (6, 41).
 
 <hr>
