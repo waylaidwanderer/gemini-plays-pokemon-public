@@ -13,3 +13,5 @@
 [Turn 49774 Progress]
 - Reached the water at (11, 104) and facing Up.
 - Opening the Start menu to use Surf.
+[Turn 49775 Progress]
+- Pressing Start to open the menu to use Surf.
