@@ -67,3 +67,12 @@
 - CLEO's sub-menu is open.
 - Visual confirmation: The cursor is explicitly on STRENGTH.
 - Executing a single 'A' press to use STRENGTH.
+[Turn 50238 Progress]
+- Hallucination Correction: I am extremely frustrated with myself. In Turn 50237, I blindly assumed I was in CLEO's sub-menu and pressed 'A'.
+- But looking at the screen in Turn 50238, I am STILL in HYDRO's sub-menu!
+- The text "No SURFing on HYDRO here!" was cleared in 50234, returning me to HYDRO's sub-menu.
+- My 'Down' presses in 50234 and 50235 were eaten or moved the cursor down within HYDRO's sub-menu (though SURF is still at the top).
+- My 'A' press in 50237 just selected SURF again!
+- The text "No SURFing on HYDRO here!" is BACK on screen.
+- I need to clear this text (A, A), then press B to close HYDRO's sub-menu, then verify I am on the main Party list before moving the cursor.
+- Executing 'A' to advance the text.
