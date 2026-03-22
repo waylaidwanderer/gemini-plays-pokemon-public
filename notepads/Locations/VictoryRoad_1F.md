@@ -189,3 +189,7 @@
 [Turn 50059 Progress]
 - Movement sequence `LDDRRRRR` reached (4, 16). The first 'Right' input was interrupted by a wild Onix encounter!
 - Using `run_battle` to escape. I must verify the boulder's position after escaping, as the push may or may not have registered.
+[Turn 50061 Progress]
+- Cleared the wild Onix. The text "Got away safely!" is on screen.
+- Pressing 'A' to clear the text and return to the overworld.
+- Next step: visually verify if the boulder is at (5, 16) or if the interrupted 'Right' command pushed it to (6, 16) before I continue pushing it to (9, 16).
