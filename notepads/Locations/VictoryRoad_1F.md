@@ -212,3 +212,9 @@
 - Escaped the Onix. "Got away safely!" text is on screen.
 - Pressing 'A' to clear the text and return to the overworld.
 - Next step: visually verify the boulder's exact position before sending any push commands.
+[Turn 50068 Progress]
+- Visual confirmation: The boulder is at (5, 16).
+- My `Right` push from Turn 50058 DID NOT execute. The encounter happened first.
+- Step 3: Pushing boulder RIGHT to (9, 16).
+- I need to push it Right 4 times.
+- Executing: R, R, R, R.
