@@ -1723,5 +1723,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [Turn 49815 Progress]
 - "GEM got on HYDRO!" text is cleared.
 - Executing `move_sequence` "UUUU" to surf North.
+[Turn 49816 Progress]
+- The text box "GEM got on HYDRO!" was still waiting for input and ate my movement commands.
+- Pressing A to finally clear it so I can move.
 
 <hr>
