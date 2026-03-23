@@ -1905,6 +1905,21 @@ The stairs on 3F are at (23, 7).
 I am at (23, 7) facing UP.
 I will step Right to (24, 7), then Left to (23, 7) to trigger them.
 Macro: `RLL`.
+- [Turn 51637] Cleared the wild Machoke encounter text. I am currently at (2, 10). I will now walk to the Right side of the boulder at (5, 5).
+Route from (2, 10):
+`Up` to (2, 9)
+`Up` to (2, 8)
+`Up` to (2, 7)
+`Up` to (2, 6)
+`Up` to (2, 5)
+`Right` to (3, 5)
+`Right` to (4, 5)
+`Up` to (4, 4)
+`Right` to (5, 4)
+`Right` to (6, 4)
+`Down` to (6, 5)
+Macro: `UUUUURRURRD`.
+I will execute this sequence carefully.
 
 <hr>
 
