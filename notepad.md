@@ -1932,6 +1932,29 @@ I need to walk back to (3, 13), open the Start Menu, open the Party Menu, and us
 - [Turn 51549 Navigation] Moved Down to (3, 13). I am perfectly positioned North of the boulder. The Start Menu is closed. I am now going to press Start, verify the cursor is on POKEMON, and press A to open the Party Menu.
 [Turn 51550 Navigation Update] The Start menu is now open. The cursor is on POKEMON. I will press 'A' to open the Party menu, then select Cleo (index 2) to use STRENGTH.
 - [Turn 51551 Navigation Update] In Party Menu. The cursor is on HYDRO (index 1). I will use `use_hm_field` starting from index 1 to target Cleo (index 2) to activate STRENGTH.
+[Turn 51552 Error Analysis] The battle menu cursor memory strikes again! When I ran from the wild Zubat on Turn 51548, my main battle menu cursor was left on RUN. When the next wild Zubat appeared on Turn 51549, I was looking at the FIGHT/PKMN/ITEM/RUN menu, BUT the cursor was still on RUN!
+Then, on Turn 51550, my macro was `A`. I meant to press `A` on the overworld Start menu to open POKEMON.
+BUT the Game State was still in the battle!
+Pressing `A` while the battle menu cursor was on RUN should have executed a run attempt.
+Wait, let's look at the intermediate states for 51550.
+State 0: Cursor is on SURF in Hydro's move menu!
+How did I get to Hydro's move menu?
+On Turn 51549, the text was "Go! HYDRO!". I pressed `A` to clear it.
+Then on Turn 51550, I pressed `A` again.
+Why was I in Hydro's move menu?
+Ah. On Turn 51548, the Zubat appeared. My macro was `Start`.
+In a battle, `Start` does nothing.
+Then on Turn 51549, I pressed `A` to clear "Go! HYDRO!".
+Then on Turn 51550, I pressed `A`.
+But on Turn 51550 State 0, I was in the MOVE menu, and the cursor was on SURF.
+Pressing `A` selected SURF.
+State 1: Cursor moved to TAIL WHIP? No, the cursor is blinking.
+Wait, Turn 51550 State 0 shows "TYPE/ NORMAL". Surf is Water.
+The cursor was on TAIL WHIP in State 0!
+Then I used Tail Whip. The Zubat used Bite.
+Current Screen 51551: Main battle menu is open.
+I am NOT in the overworld. I am NOT in the Party Menu. I am in a BATTLE with a Zubat!
+I must escape this battle. I will use the `run_battle` tool.
 
 <hr>
 
