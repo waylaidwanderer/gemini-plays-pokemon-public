@@ -1882,5 +1882,7 @@ This means the boulder at (5, 5), Moltres at (11, 5), and Item Ball at (9, 11) a
 - Stairs to Raised Platform at (17, 5).
 - RAISED PLATFORM (TYPE_2770): Contains Cooltrainer at (16, 3). Path extends North to Y=2 and East to X=18. Blocked to the East by a solid rock wall at X=19.
 - LOWER LEVEL EAST (TYPE_3fe2): Visible East of the X=19 wall. Contains the Boulder at (22, 3). Access method currently unknown.
+- Trainer battle: COOLTRAINER♀ at (16, 3).
+- Note: Hydro's SURF is out of PP (0/15). Must use Skull Bash or Hydro Pump.
 
 <hr>
