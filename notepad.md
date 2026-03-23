@@ -1825,10 +1825,10 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Puzzle 1 Solution (Switch at 1,16):
   - MASSIVE DISCOVERY: The boulder at (5,5) is a DECOY. It is surrounded by solid rock walls at (4,5), (5,4), and (6,5). It CANNOT be approached from the North, East, or West. It can only be pushed UP from the South, which pins it against the wall. IT IS IMMOVABLE.
   - TRUE SOLUTION FOUND: There is a SECOND boulder on 2F at (4, 14)!
-  - Solution Path for (4, 14) Boulder (Currently at 4, 15):
-    1. Walk to (5, 15) and push Left to (3, 15).
-    2. Walk to (3, 14) via (4, 14) and push Down to (3, 16).
-    3. Walk to (4, 16) via (4, 15) and push Left twice to switch at (1, 16).
+  - Solution Path for (4, 14) Boulder (Currently at 3, 16):
+    1. Note: (1, 14) and (2, 15) are solid rock walls despite TYPE labels.
+    2. Walk to (4, 16) via (4, 14) and (4, 15).
+    3. Push boulder Left twice to switch at (1, 16).
 - [Turn 51838] Discovered that Y=4 on the West Lower Level is a solid rock wall from X=0 to X=8. There is NO Northern Corridor on 2F. My previous assumption was a hallucination confusing 3F's layout with 2F.
 
 <hr>
