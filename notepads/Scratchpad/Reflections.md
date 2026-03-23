@@ -15,3 +15,9 @@
 - [Turn 51806 Reflection] Text box successfully cleared. I am at (12, 8) facing Right. I will take exactly 3 steps Right to (15, 8).
 - [Turn 51807 Reflection] Encountered a 4th Marowak at (12, 8). I will run from this battle, clear the text, and then try moving again.
 - [Turn 51809 Reflection] Fled from the 4th Marowak at (12, 8). I will now press A to clear the 'Got away safely!' text box.
+- [Turn 51810 Reflection] The "Got away safely!" text box from the 4th Marowak encounter is now completely cleared.
+  - I am in the overworld at (12, 8) facing Right.
+  - My route to the stairs at (17, 5) is exactly 5 steps Right and 3 steps Up.
+  - I am taking exactly 3 steps Right to (15, 8).
+  - Macro: `RRR`.
+  - Let's execute this now.
