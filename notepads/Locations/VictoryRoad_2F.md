@@ -12,3 +12,8 @@
   - West Lower Level (X < 8) is separated from East Lower Level by a solid rock wall at X=8.
   - South East Lower Level is accessed via stairs at (15, 15). Path West from stairs leads to TM05 at (9, 12). Path East is a dead-end pocket along Y=16/Y=17 containing the trap boulder drop at (23, 16). It DOES NOT connect to the 3F stairs at (23, 7). Another stairs at (27, 7) is blocked by walls, accessed by dropping from 3F.
   - Northeast Enclosed Area (accessed via drop from 3F to 27,7): Contains Boulder at (26, 3) and Item Ball at (27, 5).
+- TRUE Puzzle 1 Solution (Boulder at 5,5):
+  1. Walk to (5, 4) (must go around right side via X=6).
+  2. Push DOWN to (5, 6).
+  3. Push LEFT to (3, 6).
+  4. Push DOWN along X=3.
