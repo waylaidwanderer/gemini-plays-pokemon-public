@@ -1852,15 +1852,15 @@ This means the boulder at (5, 5), Moltres at (11, 5), and Item Ball at (9, 11) a
 # Victory Road 3F
 - Map ID: 0_198
 - Reached via 2F stairs at (23, 7), arriving at 3F (23, 7).
-- Layout so far:
-  - [WARNING: THIS LAYOUT WAS HALLUCINATED. IT DESCRIBES THE NE CORNER OF 2F. REMAP IMMEDIATELY ONCE ON 3F.]
-  - Hole at (23, 14). Drops a boulder to 2F to fill the gap.
-  - Boulder at (24, 10). Trapped by raised blocks.
-  - Switch at (26, 8). Behind raised blocks.
-  - Boulder at (22, 3). Accessible via West path.
-  - Trainer at (28, 5), Item Ball at (26, 5).
+- Layout so far (Empirical Data Only):
+  - (Empty until verified)
+  - Exploring West from (23, 7)
+  - The encounter rate is very high, so mapping must be done carefully.
+  - Avoid long macros.
+  - Check Game State Map ID and Coords after every transition and battle.
 - Goals:
-  - Find a way to lower the raised blocks (likely at X=24) to push the boulder at (24, 10) into the hole at (23, 14).
-  - Explore the West side of 3F to find a puzzle for the boulder at (22, 3).
+  - Map the floor dynamically in Scratchpad/VictoryRoad_3F before committing to this permanent notepad.
+  - Locate the hole to drop a boulder into (needed for 2F puzzle).
+  - Locate boulders and switches on this floor.
 
 <hr>
