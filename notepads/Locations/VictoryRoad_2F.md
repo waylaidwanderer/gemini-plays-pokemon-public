@@ -10,4 +10,4 @@
   - Stairs at (5, 10) connect Raised (5, 9) to Lower (5, 11).
   - NO STAIRS at (7, 8). It is a cliff edge.
   - West Lower Level (X < 8) is separated from East Lower Level by a solid rock wall at X=8.
-  - East Lower Level is accessed via stairs at (15, 15) connecting Raised (15, 14) to Lower (15, 16).
+  - East Lower Level is accessed via stairs at (15, 15). Path West from stairs leads to a dead end with Item Ball at (9, 11). Path East is unexplored.
