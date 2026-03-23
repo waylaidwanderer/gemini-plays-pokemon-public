@@ -15,4 +15,4 @@
 - Goal: Find the stairs to Victory Road 2F. Currently exploring the Western lower floor.
 - The Eastern lower floor is a loop. Returned to the raised platform via stairs at (15, 7).
 - The raised platform West of the trainer at (8, 5) ends in stairs down at (7, 7), leading to the Western lower floor.
-- There is a boulder at (2, 12) blocking a narrow vertical path. I must push it South to access the rest of the Western lower floor.
+- I pushed a boulder at (2, 12) South to (2, 13), opening a narrow vertical path at X=1 to access the Southern edge of the Western lower floor.
