@@ -109,3 +109,17 @@
   - Let's look at the map at (17, 5).
   - I can't see it yet.
   - I'll execute `RRRRUUUU` to reach (17, 5) and trigger the stairs.
+- [Turn 51760 Reflection] Executed `RRRR` on Turn 51759.
+  - I am at (13, 8) facing Right.
+  - My remaining route to the stairs at (17, 5) is:
+    - Step Right to (14, 8).
+    - Step Right to (15, 8).
+    - Step Right to (16, 8).
+    - Step Right to (17, 8).
+    - Turn Up.
+    - Step Up to (17, 7).
+    - Step Up to (17, 6).
+    - Step Up to (17, 5) (Triggers Stairs).
+  - Since I am facing Right, the macro is `RRRRUUUU`.
+  - Wait, I will split this up to be safe. I will do the 4 steps Right to reach (17, 8) first.
+  - Macro: `RRRR`.
