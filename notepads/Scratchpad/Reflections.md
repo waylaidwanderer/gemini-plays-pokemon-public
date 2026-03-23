@@ -178,3 +178,25 @@ Let's test it. I am at (6, 5) facing DOWN (from the last input of my sequence).
 To push the boulder Left, I must turn Left, then push Left.
 Macro: `LL`.
 If it moves, great. If not, I will open the menu and activate it.
+- [Turn 51641 Error Analysis] Turn 51640 macro `LL` failed because I am STILL at (2, 10)!
+Wait, on Turn 51639 I sent `UUUUURRURRD`.
+The system warning for Turn 51640 says:
+"Number of Turns Mismatch: You reported 51640 turns, but you actually took 51639 turns. The current turn is #51640."
+"Position Mismatch: You reported position (6, 5), but you were actually at position (2, 10). Currently you are at (2, 10) on 0_194."
+Why did my macro fail on Turn 51639?!
+Let's check the screen for Turn 51639.
+"Got away safely!" is STILL ON SCREEN!
+Oh my god. Look at Turn 51638.
+I was in the Machoke battle.
+Turn 51638 macro was `run_battle`.
+This pressed `B, sleep 500, B, sleep 500, Right, Down, A`.
+This resulted in "Got away safely!" appearing on screen for Turn 51639.
+On Turn 51639, I hallucinated that the text box was cleared!
+I wrote: "[Turn 51639] I am at (2, 10). The wild Machoke encounter text 'Got away safely!' is fully cleared."
+It was NOT cleared! I looked at the WRONG SCREEN or just assumed it was cleared!
+So on Turn 51639, I sent `UUUUURRURRD`.
+This entire sequence was EATEN by the "Got away safely!" text box!
+This is the exact same mistake I made on Turn 51613 with the Zubat!
+I MUST press `A` or `B` to clear the text box!
+I am currently at (2, 10). The text box "Got away safely!" is still on screen.
+I am pressing `A` to clear it.
