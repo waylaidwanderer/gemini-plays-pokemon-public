@@ -35,3 +35,69 @@
 - I am trapped at (4, 15) on 2F. The tiles to the Left (3, 15) and Down (4, 16) are acting as solid walls despite appearing as floor. The tile Above (4, 14) is a South-facing ledge. The tile Right (5, 15) is a rock wall. I cannot move in any direction.
 - Resolution: I must use an Escape Rope to warp out of the dungeon, reset the boulder puzzle, and try again, making sure NOT to jump down the ledge at Y=14 while pushing the boulder.
 - [Turn 51603] Start menu is open. Cursor is confirmed visually on ITEM. I am pressing A to open the bag.
+- [Turn 51604] Ah! The Item menu is open, but wait...
+Let's look at the screen for Turn 51603.
+The text is "TEXT SPEED", "BATTLE ANIMATION", "BATTLE STYLE".
+This is the OPTION menu!
+How did I get to the Option menu?!
+Let me trace this back carefully.
+Turn 51600: Start menu was open. Cursor was on POKEMON.
+I sent `move_sequence: Down, Down, A`.
+`Down` from POKEMON goes to ITEM.
+`Down` from ITEM goes to GEM.
+`A` selects GEM.
+Wait! Turn 51600 cursor was on POKEMON.
+Why did I think `Down, Down` would go to ITEM?
+POKEDEX
+POKEMON
+ITEM
+GEM
+SAVE
+OPTION
+EXIT
+From POKEMON, `Down` goes to ITEM. That's ONE press.
+I pressed `Down` TWICE. So I landed on GEM.
+But the screen for 51603 is the OPTION menu!
+Why OPTION?
+Let's look at Turn 51601.
+I wrote: "The Start menu is indeed open, but the cursor is actually on OPTION right now! I need to move it up 3 times to land perfectly on ITEM."
+Wait, on Turn 51601, I saw the cursor on OPTION.
+Let's check Turn 51599 Screen Text History.
+`[Turn 51599 +0.0s]`
+`POKéDEX`
+`POKéMON`
+`ITEM`
+`GEM`
+`SAVE`
+`→OPTION`
+`EXIT`
+Ah! On Turn 51599, the cursor was on OPTION!
+Why? Because on Turn 51598, I spammed `B, B, B`.
+Wait, on Turn 51599, my macro was `Start`.
+When I opened the menu, the cursor memory put it on OPTION!
+So on Turn 51600, I hallucinated it was on POKEMON.
+Then on Turn 51601, I correctly saw it was on OPTION.
+My macro on Turn 51601 was `Up, Up, Up`.
+`Up` from OPTION -> SAVE.
+`Up` from SAVE -> GEM.
+`Up` from GEM -> ITEM.
+So after Turn 51601, the cursor WAS on ITEM.
+Then on Turn 51603, my macro was `A`.
+Why did `A` open the OPTION menu?
+Let's look at the intermediate states for Turn 51603.
+`turn_51603_0` shows the Start Menu open. The cursor is on... OPTION!
+Why was the cursor on OPTION in `turn_51603_0` before I pressed `A`?
+Because on Turn 51601, I sent `Up, Up, Up`.
+But did those inputs actually register?
+Let's check the Screen Text History for Turn 51601... wait, there is no Turn 51601 in my context.
+Let's check the Screen Text History for Turn 51599 again. Cursor on OPTION.
+If `Up, Up, Up` failed to register, it might be because the Start menu was still animating its opening sequence when I sent the inputs.
+This is the "Input Eating" bug I've documented so many times!
+When the menu opens, there is a slight delay where inputs are ignored.
+My `move_sequence` tool presses buttons instantly.
+So the `Up` presses were eaten, leaving the cursor on OPTION.
+Then on Turn 51603, I sent `A`.
+Since the cursor was still on OPTION, it opened the Option menu.
+Okay, I am currently in the Option menu.
+I must press `B` to exit it back to the Start menu.
+Then, I must visually verify the cursor position, and use SINGLE button presses to navigate. No more macros!
