@@ -23,3 +23,4 @@
 - Map Hygiene: Adding a map marker for the pressed Switch at (3,5) to keep my spatial anchors accurate.
 - Mechanics/Errors: I have repeatedly fallen into the trap of sending movement macros while the "Got away safely!" text is still on screen, causing the inputs to be eaten as text-advances. I must strictly enforce a rule to explicitly clear battle exit text with a single 'A' or 'B' press *before* initiating overworld movement.
 - Goals: Continue East through the Northern Corridor (Y=1) to reach the stairs at (17, 5).
+[Turn 51358] Encountered wild Golbat at (7, 1). Escaping and will resume heading East.
