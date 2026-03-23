@@ -1835,6 +1835,7 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 [Turn 51202 Reflection]
 - Error Analysis: I hallucinated that the stairs at 2F (15, 15) lead to 3F. They only lead to the 2F Raised Platform! The ONLY known access to 3F is via the stairs at (23, 7) (and the currently blocked stairs at 25,14). Therefore, I MUST find a way to access the southern part of 3F from the (23, 7) starting area.
 - Navigation Correction: I got stuck at 2F (21, 11) because it's a dead-end pocket on the Lower Level, bounded by the Raised Platform to the South and a rock wall to the West. I will trace back to 3F (23, 7) and systematically re-test the walls around X=20..22 on 3F.
+- [Turn 51289 Hallucination] I hallucinated pushing Boulder 1 into the Northern Corridor. Strength was not active, so when I bumped it from (22, 3), it stayed at (22, 2) and my character didn't move. I then walked around it to (23, 1) and walked West, thinking I was pushing it. ALWAYS verify the boulder's sprite is actually in front of you on the screen!
 
 <hr>
 
