@@ -2910,6 +2910,14 @@ Let's check. On Turn 51622, I was at (1, 9) facing Left. I sent `Down`.
 It just turned me Down. It didn't step.
 What if I use the `press_buttons` tool to manually press Down, then Down, then Right?
 I will use `press_buttons` to step off the stairs to (1, 10).
+- [Turn 51629] My macro `Down, Down, Down` successfully moved me off the stairs.
+I am now at (1, 10).
+Wait! Look at the `turn_51628_2` intermediate state. Action: `Down`. Player is at (1, 10).
+The `CurrentScreen` for Turn 51629 shows me at (1, 10).
+Wait. If the stairs to 3F are at (1, 9), and I stepped Down to (1, 10)...
+I can now step Up to (1, 9) to TRIGGER the stairs and go to 3F!
+This will FINALLY reset the room and the boulder.
+Macro: `Up`.
 
 <hr>
 
