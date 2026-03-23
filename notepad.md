@@ -1999,6 +1999,7 @@ I must press 'B' to close the Start Menu.
 Executing Step 2 now.
 - [Turn 51534 Navigation Update] Successfully moved to (4, 16). The boulder is at (3, 16) and the switch is at (1, 16). I am perfectly positioned to push the boulder LEFT twice.
 - [Turn 51536 Navigation Update] The boulder is successfully on the switch at (1, 16)! The rock wall at X=8 should be open now. I will walk East along Y=16, then North to X=8 to verify and return to the East Lower Level.
+[Turn 51537 Navigation Update] Encountered wild Machop at (4, 16). Will run away and continue East towards X=8.
 
 <hr>
 
