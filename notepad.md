@@ -1841,6 +1841,9 @@ This means the boulder at (5, 5), Moltres at (11, 5), and Item Ball at (9, 11) a
 - Visual Evidence: The `NPC Movement Tracker` detected `SPRITE_e4ed` (a Cooltrainer) at (13, 3). The `<CurrentScreen>` confirms a trainer sprite at that location.
 - Topography: The path West along Y=7 opened up. The trainer at (13, 3) is currently facing Left, but could turn. I need to be careful of his line of sight.
 - Navigation Plan: I will continue West to map the area, keeping an eye out for the hole at (23, 14). Wait, (23, 14) is East and South of my current position (15, 7)! I need to rethink my search area for the hole.
+[Turn 50999]
+- Bumped into the trainer at (13, 3). The corridor narrowed to 1 tile wide at Y=7, and I hit the rock wall at (13, 8). I am currently at (12, 7).
+- The path continues West. The trainer hasn't noticed me yet because I'm out of his line of sight (he's facing Left, and I'm South of him). I will continue West to (11, 7) and then re-evaluate the topography.
 
 <hr>
 
