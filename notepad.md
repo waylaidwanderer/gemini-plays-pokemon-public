@@ -1862,6 +1862,8 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Current Status: Battling a Cooltrainer at (6,14) in the new area. Hydro's Surf is out of PP (0/15), so I am relying on Skull Bash to finish off his Kingler.
 - Map Hygiene: Added a map marker for the Cooltrainer at (6,14). Cleaned up redundant battle logs from the notepad as requested by Overwatch.
 - Error Analysis: My `use_hm_field` tool missed a 'Down' input because I called it immediately after opening the Start menu. I must remember to let the Start/Party menus fully load and stabilize before firing navigation macros. Also, I need to keep better track of PP usage—I wasted a turn trying to use Surf with 0 PP!
+[Turn 51461 Hallucination Check] I incorrectly tracked my turns again, claiming 51461 on turn 51460. The current turn is 51461. I must be more careful.
+- [Turn 51461 Navigation] The boulder is stuck at (23, 16). However, the tiles south of it at Y=17 are walkable! I am going to walk around the boulder via Y=17 to see if the path East connects North to the 3F stairs at (23, 7).
 
 <hr>
 
