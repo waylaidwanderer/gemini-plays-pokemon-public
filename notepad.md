@@ -1935,6 +1935,7 @@ This boulder at (5, 16) is perfectly aligned with the switch at (1, 16)!
 - [Turn 51518 Navigation] Cleared wild Geodude text. I am currently at (4, 16). The boulder is at (2, 16) and the switch is at (1, 16). I am on the same row as the boulder. I will step Left once to push it onto the switch.
 [Turn 51519 Navigation Update] Cleared wild Geodude text. I am currently at (3, 16). The boulder is at (2, 16). I am stepping Left to push it onto the switch at (1, 16).
 [Turn 51519 Navigation Update] Successfully moved to (2, 16) and pushed the boulder onto the switch at (1, 16)! The rock wall at X=8 should now be open again. I am routing East to X=8 to verify.
+- [Turn 51520 Navigation] Encountered wild Golbat at (2, 16). Will run away and continue East towards X=8 to verify the rock wall opened.
 
 <hr>
 
