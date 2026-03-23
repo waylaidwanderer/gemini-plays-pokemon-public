@@ -1947,6 +1947,7 @@ I am moving to (3, 13) now and must remember to re-activate STRENGTH first.
 [Turn 51525 Error Analysis] The Party menu cursor memory strikes again! When I previously opened the Start menu on Turn 51508, the cursor was on POKEDEX (index 1). I pressed Down and A to enter the POKEMON menu (index 2). However, on Turn 51523, my `move_sequence` of `Start` left the cursor on POKEDEX. The subsequent `A` selected POKEDEX, not POKEMON. The rest of the sequence was executed inside the Pokedex!
 I must explicitly navigate to POKEMON. The cursor is currently on POKEDEX. I will press B to exit the Pokedex, then Down, A to enter POKEMON.
 - [Turn 51526 Navigation] The Start menu is open, and the cursor is now correctly on POKEMON. I will press 'A' to open the Party menu, then select Cleo (index 2) to use STRENGTH.
+- [Turn 51527 Navigation Update] The cursor in the Party menu is on Audrey (index 4) due to cursor memory. I will use the `use_hm_field` tool starting from index 4 to target Cleo (index 2) and activate STRENGTH.
 
 <hr>
 
