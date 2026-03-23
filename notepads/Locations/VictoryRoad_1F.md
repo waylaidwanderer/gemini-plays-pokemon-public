@@ -15,3 +15,8 @@
 - Goal: Find the stairs to Victory Road 2F. Currently exploring the raised platform West of (5, 8).
 - TOPOGRAPHY DISCOVERY: The path to 2F is via the West raised platform. From the stairs up at (5, 13), walk South to (5, 15). Walk West along Y=15 to (1, 15). Walk North to (1, 12). Walk East to (2, 12). Walk North to (2, 9). Walk East to (3, 9). Walk North to (3, 8). Do NOT walk East to the stairs at (7, 7). Instead, continue North on the raised platform to (3, 1), then West to find the stairs to 2F at (1, 1).
 - [Turn 50522] Analyzed 2F boulder puzzle. Boulder is at (5, 5). Switch is at (4, 2). Right side (6, 5) is solid, so cannot push LEFT. Must push UP to (5, 4) then (5, 3). From there, I will likely need to navigate around the left side of the map to reach the right side of the boulder at (6, 3) to push it further.
+[Turn 50528 Correction]
+- I hallucinated that the trainer at (4, 2) was a switch. It is NOT a switch.
+- The boulder at (5, 4) is currently blocking the ONLY gap in the wall at Y=4.
+- However, if I push it UP to (5, 3), I will be at (5, 4), and still blocked by the boulder itself!
+- I must explore the left and right sides of the map to see if there is another way around, or a different gap in the wall. There appears to be a gap at (9, 4), but X=8 is solid. I might need to navigate the lower section to bypass it.
