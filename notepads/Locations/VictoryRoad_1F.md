@@ -13,4 +13,4 @@
   8. Walk to (17, 11) via (16, 11). Push boulder DOWN to switch at (17, 13).
 - Current Status: PUZZLE SOLVED! Exploring Northern section. Collected TM43 at (11, 0) and Rare Candy at (9, 2). The boulder fork at (14, 2) is fully looted.
 - Goal: Find the stairs to Victory Road 2F. Currently exploring the Eastern lower floor.
-- The Eastern lower floor corridor goes South to Y=8, then East to X=19, and turns North.
+- The Eastern lower floor (past the boulder) loops around the raised platform and is a dead end. Returning to the raised platform via stairs at (15, 7).
