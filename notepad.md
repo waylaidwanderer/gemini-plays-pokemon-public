@@ -1903,5 +1903,6 @@ Step 8: Push Down x3 (Player 2,4, Boulder 2,5)
 Step 9: Walk to 1,5 (Left, Down)
 Step 10: Push Right (Player 2,5, Boulder 3,5 - ON SWITCH)
 - RAISED PLATFORM WEST: Path from (7, 10) continues West and North to (5, 8). At (5, 8), the path goes West to X=1. There appears to be a staircase DOWN at (1, 9).
+- LOWER LEVEL FAR WEST: Accessed via stairs at (1, 9) from the Raised Platform. This area goes South along X=1 to Y=15, and opens Eastward. There is a boulder at (6, 14).
 
 <hr>
