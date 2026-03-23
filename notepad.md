@@ -1853,5 +1853,10 @@ WARNING: EXECUTE ROUTES IN 3-5 STEP CHUNKS ONLY. Long macros cause accidental le
 - Wait, I need to look closely at the map.
 - The path at X=2 continues South to Y=15.
 - Let's explore South and see if it loops around to the right side of the boulder.
+[Turn 50538 Correction]
+- The object at (4, 14) is NOT a trainer, it is a BOULDER.
+- Bumping into it confirmed "This requires STRENGTH to move!".
+- This means there are at least TWO boulders on this floor.
+- I will re-activate Strength and explore where this boulder needs to go.
 
 <hr>
